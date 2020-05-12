@@ -6,7 +6,7 @@ Complemento para usar la puerta de enlace F454
 
 El complemento MyHomeSCS le permite comunicarse con todos los dispositivos MyHomeSCS de Legrand a través de la puerta de enlace F454
 
->**ATTENTION**
+>**Atención**
 >
 >Para usar el complemento, es necesario desactivar la autenticación de la puerta de enlace MyHome y autorizar la dirección IP de JEEDOM en la lista blanca de la puerta de enlace.
 
@@ -16,7 +16,7 @@ Después de haberlo descargado del Market, será necesario configurar la ip y lo
 
 Una vez configurado, accede a la página del complemento MyHomeSCS.
 
-A la izquierda, la lista de módulos MyHomeSCS, y en el centro las pestañas General, Información y Pedidos..
+A la izquierda, la lista de módulos MyHomeSCS, y en el centro las pestañas General, Información y Pedidos.
 
 ![myhomescs2](./images/myhomescs2.png)
 
@@ -60,17 +60,17 @@ En una próxima versión y con la ayuda de todos, podríamos imaginar que los m�
 
 La mayoría del equipo se agrega al complemento MyHomeSCS tan pronto como se detecta
 
-Una vez que el módulo creado en el complemento, hay dos soluciones disponibles para usted..
+Una vez que el módulo creado en el complemento, hay dos soluciones disponibles para usted.
 
 El módulo existe en el menú desplegable : Equipo y allí es suficiente para elegirlo, luego guardar para que los pedidos se agreguen automáticamente.
 
 O el módulo no existe (todavía) en el complemento y luego deberá crear los comandos uno por uno.
 
-Los comandos de información son necesarios para recuperar el estado del equipo.. Ejemplo para módulos de luz, se crea una información de "botón" y permite conocer el estado del botón del módulo (ON u OFF, por ejemplo). Esta información se usa en particular para administrar widgets o para desencadenar escenarios
+Los comandos de información son necesarios para recuperar el estado del equipo. Ejemplo para módulos de luz, se crea una información de "botón" y permite conocer el estado del botón del módulo (ON u OFF, por ejemplo). Esta información se usa en particular para administrar widgets o para desencadenar escenarios
 
-Los comandos de acciones le permiten realizar acciones en el equipo. Dependiendo de la categoría del equipo, tendrá diferentes opciones..
+Los comandos de acciones le permiten realizar acciones en el equipo. Dependiendo de la categoría del equipo, tendrá diferentes opciones.
 
-Los marcos de Legrand están orientados alrededor de 3 variables y tienen la forma (para un marco del tipo BUS-COMMAND) \*WHO\*QUE \* DONDE \#\#
+Los marcos de Legrand están orientados alrededor de 3 variables y tienen la forma (para un marco del tipo BUS-COMMAND) \*QUIEN*QUE \* DONDE \#\#
 
 La OMS corresponde a la categoría (luz, automatización, etc.). Si en el marco sin formato ingresas \#WHO\\\#, esto será reemplazado por la ID de categoría de equipo.
 
@@ -86,7 +86,7 @@ Para conocer todos los tipos de marcos, QUIEN, QUÉ, DÓNDE valor, tipos de comu
 
 Una vez que haya creado todos los pedidos para su equipo, es posible crear un archivo "Equipo" en formato JSON. Para esto, puedes inspirarte en los módulos existentes.
 
-Luego puedes compartirlo con la comunidad (gracias a la función : Enviar una configuración). Esto agregará comandos automáticos para los próximos usuarios del complemento MyHomeSCS..
+Luego puedes compartirlo con la comunidad (gracias a la función : Enviar una configuración). Esto agregará comandos automáticos para los próximos usuarios del complemento MyHomeSCS.
 
 Gracias a usted.
 
@@ -94,7 +94,7 @@ Gracias a usted.
 
 Intenta iniciarlo en modo de depuración para ver el error
 
-Espere un minuto para ver si el problema persiste, si es así.
+Espere un minuto para ver si el problema persiste, si es así
 En SSH hacer : "sudo rm /tmp/myhomescscmd.pid"
 
 Esto significa que se inicia el deamon pero que Jeedom no puede

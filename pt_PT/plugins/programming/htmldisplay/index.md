@@ -1,16 +1,16 @@
-# HTML Display
+# Plug-in de exibição HTML
 
-Plugin très simple permettant de mettre le code HTML/javascript/Css que vous voulez sur sa tuile équipements.
+Plugin muito simples, permitindo que você coloque o código HTML / javascript / Css desejado no bloco de equipamentos.
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
->Le plugin necessite de savoir coder en HTML, Javascript et CSS, aucun support ne sera fournis par l'équipe Jeedom sur le code de votre widget.
+>O plug-in precisa saber como codificar em HTML, Javascript e CSS, nenhum suporte será fornecido pela equipe Jeedom no código do seu widget.
 
-Les cas d'utilisation peuvent etre :
+Os casos de uso podem ser :
 
-- menu unique pour les designs
-- inclusion d'information exterieure à Jeedom
+- menu exclusivo para projetos
+- inclusão de informações externas na Jeedom
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
->Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop)
+>Como lembrete, os designs SEMPRE usam a versão do painel do código (seja no celular ou no computador)

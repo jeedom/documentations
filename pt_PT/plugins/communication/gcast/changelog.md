@@ -1,18 +1,24 @@
+# Changelog Gcast
+
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
 # 31/03/2020
 
-- Nettoyage et optimisation
-- Suppression du choix des moteurs
-- Compatibilité avec le plugin sons
+- Limpeza e otimização
+- Eliminação da escolha do motor
+- Compatibilidade com o plugin de som
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
->Cette mise à jour ne laisse plus le choix dans le moteur de TTS
+>Esta atualização não deixa escolha no mecanismo TTS
 
 
 # 23/04/2019
 
-- Suppression du moteur de voix Google
+- Remoção do mecanismo de voz do Google
 
 # 18/03/2019
 
-- Ajout d'un systeme qui tue automatiquement les processus du plugin qui tournent depuis plus de 10min
+- Adição de um sistema que mata automaticamente os processos de plug-in que estão em execução há mais de 10 minutos

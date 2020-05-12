@@ -1,33 +1,22 @@
-# Description
+# Complemento IkeaLight
 
-Le plugin IkeaLight permet d’établir un lien avec la passerelle Ikea
-Tradfri. Vous pourrez controller vos lumières et avoir un retour d’état
-temps réel.
+El complemento IkeaLight permite establecer un enlace con la puerta de enlace Ikea Tradfri. Puede controlar sus luces y obtener retroalimentación de estado en tiempo real.
 
-# Configuración
+# Configuration
 
-## Configuration du plugin
+## Configuración del plugin
 
-Après téléchargement du plugin il vous faut l’activer et renseigner l’IP
-de votre passerelle ainsi que la clé disponible sur l’étiquette de la
-passerelle (le "Security code").
+Después de descargar el complemento, debe activarlo e ingresar la IP de su puerta de enlace, así como la clave disponible en la etiqueta de la puerta de enlace (el "Código de seguridad").
 
-## Détection des ampoules
+## Detección de bombilla
 
-Pour scanner les équipements Ikea, il suffit de lancer (une fois les dépendances
-elancé) le démon. Les ampoules remontés par la
-passerelle et qui sont reconnus par Jeedom seront automatiquement créé.
-Si une ampoule ne remonte pas merci de mettre le plugin de Debug de
-relancer la découverte et de nous fournir la log afin que l’on puisse
-rajouter les ampoules manquantes. (Pensez à bien préciser votre ampoule
-ainsi que ses caractéristiques dans le ticket : est elle dimmable, est
-elle variable en blanc, est elle variable en couleur). Le plugin vous remontera également les prises les stores
+Para escanear el equipo de Ikea, simplemente inicie (una vez que las dependencias comenzaron) el demonio. Las bombillas reensambladas por la puerta de enlace y reconocidas por Jeedom se crearán automáticamente. Si no aparece una bombilla, coloque el complemento de depuración para reiniciar el descubrimiento y proporciónenos el registro para que podamos agregar las bombillas faltantes. (Recuerde especificar su bombilla y sus características en el boleto : es regulable, es variable en blanco, es variable en color). El complemento también te traerá los enchufes de las persianas
 
-**Une fois decouverte chaque ampoule aura :**
+**Una vez descubierto, cada bombilla tendrá :**
 
--   Les actions correspondantes
--   Les infos correspondantes
+-   Las acciones correspondientes
+-   La información correspondiente
 
 >**Symfonisk**
 >
->Les enceintes connectée Symfonisk ne sont pas gerées par ce plugin mais par le plugin Sonos
+>Los altavoces conectados a Symfonisk no son administrados por este complemento sino por el complemento Sonos

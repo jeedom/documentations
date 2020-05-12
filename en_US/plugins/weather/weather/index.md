@@ -1,66 +1,39 @@
-Configuration
-=============
+# Weather Plugin
 
-The Weather plugin allows you to retrieve weather data for one or more cities. It allows among other things to retrieve the sunrise and sunset, temperature, forecast, wind, etc. The information retrieved comes from the OpenWeatherMap website.
+The Weather plugin allows you to recover weather data for one or more cities. Among other things, it provides information on sunrise and sunset, temperature, forecast, wind, etc. The information retrieved comes from the openweathermap website.
 
-Configuration du plugin
------------------------
+# Plugin configuration
 
-After installing the plugin, you have to activate it then fill in your API key.
+After installing the plugin, you must activate it and then enter your API key.
 
-Pour obtenir votre clef api il faut aller
-[ici](https://home.openweathermap.org), créer un compte et ensuite il
-faut copier votre clef api dans la zone prévue sur la page de
-configuration du Plugin.
+To get your API key you have to go [here](https://home.openweathermap.org), create an account and then copy your API key to the area provided on the Plugin configuration page.
 
 > **Important**
 >
-> It is necessary to wait a few hours then the time that the key is
-> active before you can retrieve information
+> You have to wait a few hours afterwards until the key is active before you can retrieve information
 
-Configuration des équipements
------------------------------
+# Equipment configuration
 
-You can find here the full configuration of your device :
+Here you find all the configuration of your equipment :
 
--   **Name of weather equipment**: name of your weather equipment
+-   **Weather device name** : name of your weather equipment
+-   **Activate** : makes your equipment active
+-   **Visible** : makes your equipment visible on the dashboard
+-   **Parent object** : indicates the parent object to which the equipment belongs
+-   **City** : You must put the name of your city followed by the country code, ex : Paris, fr
+-   **Full display on mobile** : displays all weather information or not on mobile
 
--   **Enable**: makes your equipment active
+You will find below all the commands available as well as the possibility of historizing or not the numerical values. The code (number) depending on the conditions is available [here](https://openweathermap.org/weather-conditions)
 
--   **Visible**: makes your equipment visible on the dashboard
-
--   **Parent Object** : means the parent object the equipment depend
-    equipment
-
--   **City**: You must put the name of your city followed by the country code,
-    ex : Paris,fr
-
--   **Affichage complet en mobile** : permet d’afficher toutes les
-    informations météo ou non en mobile
-
-Vous retrouvez en dessous toutes les commandes disponibles ainsi que la
-possibilité d’historiser ou non les valeurs numériques. Le code (numéro)
-en fonction des conditions est disponible
-[ici](https://openweathermap.org/weather-conditions)
-
-Refreshing weather data is done every 30 minutes.
+The weather data is refreshed every 30 minutes.
 
 > **Tip**
 >
-> Nous vous conseillons de vous rendre
-> [ici](https://openweathermap.org/find?) afin de vérifier si votre
-> ville, village est connu ou pas. Auquel cas il faudra trouver la ville
-> la plus proche connue et saisir cette dernière dans la configuration
-> de votre équipement pour pouvoir récupérer les informations.
+> We advise you to go [here](https://openweathermap.org/find?) in order to check if your city, village is known or not. In which case you will have to find the nearest known city and enter it in the configuration of your equipment to be able to retrieve the information.
 
 > **Tip**
 >
-> Une fois la recherche de votre ville réussie le site openweathermap
-> vous montre les informations disponibles et vous devriez avoir dans
-> votre navigateur une url du type
-> <https://openweathermap.org/city/2988507>. Ce numéro à la fin de l’url
-> peut également être saisi dans l’équipement Jeedom en lieu et place de
-> Paris,fr par exemple
+> Une fois la recherche de votre ville réussie le site openweathermap vous montre les informations disponibles et vous devriez avoir dans votre navigateur une url du type <https://openweathermap.org/city/2988507>. This number at the end of the url can also be entered in Jeedom equipment instead of Paris, fr for example
 
->**IMPORTANT**
->OpenWeather fournit une liste d'informations sur les 120 heures à venir ; de ce fait, en fonction de l’heure actuelle, nous ne connaissons qu’une partie des informations à J+4. Ainsi, cette prédiction à J+4 s'affine pour devenir plus précise au fur et à mesure de la journée courante. Pour cette raison, certaines informations, comme la température MAX atteinte à J+4 ne pourront faire sens qu'en fin de journée.
+>**Important**
+>OpenWeather provides a list of information for the next 120 hours; therefore, based on the current time, we only know part of the information on D + 4. Thus, this prediction on D + 4 is refined to become more precise as the current day progresses. For this reason, certain information, such as the MAX temperature reached on D + 4 can only make sense at the end of the day.

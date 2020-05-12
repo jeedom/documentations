@@ -1,145 +1,91 @@
-# Mail
+# Mail plugin
 
-Plugin permettant d’envoyer des mails.
+Plugin for sending emails.
 
-Configuration du plugin 
-===
+# Plugin configuration 
 
-Après avoir installé le plugin, il vous suffit de l’activer. Ce plugin
-n’a aucune configuration particulière :
+After installing the plugin, you just need to activate it. This plugin has no particular configuration :
 
 ![mail1](./images/mail1.PNG)
 
-Configuration des équipements 
-===
+# Equipment configuration 
 
-La configuration des équipements Mail est accessible à partir du menu
-plugin :
+The configuration of Mail equipment is accessible from the plugin menu :
 
 ![mail2](./images/mail2.PNG)
 
-Voilà à quoi ressemble la page du plugin Mail (ici avec déjà 1 mail,
-vous pouvez en mettre autant que vous voulez avec le bouton "Ajouter") :
+This is what the Mail plugin page looks like (here with 1 email already, you can add as many as you want with the "Add" button) :
 
 ![mail3](./images/mail3.PNG)
 
-Once you click on one of them, you get:
+Once you click on one of them, you get :
 
 ![mail4](./images/mail4.PNG)
 
-You can find here the full configuration of your device :
+Here you find all the configuration of your equipment :
 
--   **Nom de l’équipement mail** : nom de votre équipement mail
-
--   **Parent Object** : means the parent object the equipment depend
-    equipment
-
--   **Enable**: makes your equipment active
-
--   **Visible**: makes your equipment visible on the dashboard
-
--   **Nom expéditeur** : nom de l’expéditeur du mail (ex : Jeedom)
-
--   **Mail expéditeur** : mail de l’expéditeur (ex : <jeedom@moi.fr>)
-
--   **Mode d’envoi** : mode d’envoi du mail :
-
-    -   SMTP : mode le plus courant pour l’envoi de mail
-
+-   **Email device name** : name of your equipment mail
+-   **Parent object** : indicates the parent object to which the equipment belongs
+-   **Activate** : makes your equipment active
+-   **Visible** : makes your equipment visible on the dashboard
+-   **Sender name** : name of the sender of the email (ex : Jeedom)
+-   **Sender email** : sender's email (ex : <jeedom@moi.fr>)
+-   **Send mode** : method of sending the email :
+    -   SMTP : most common mode for sending mail
     -   Sendmail
-
     -   Qmail
+    -   Mail()\[PHP Function \] : use the [standard send function of PHP, window = "\_ blank"](http://fr.php.net/manual/fr/function.mail.php), requires configuring the operating system
 
-    -   Mail()\[PHP Function\] : utilise la [fonction d’envoi standard
-        de PHP,
-        window="\_blank"](http://fr.php.net/manual/fr/function.mail.php),
-        nécessite de configurer le système d’exploitation
+Apart from the SMTP option, the other options require the configuration of the OS (Linux) to be able to function. In other words, basically only the SMTP function works, the others are reserved for experts who can, if they wish, configure these options themselves.
 
-Hormis l’option SMTP, les autres options nécessitent la configuration de
-l’OS (Linux) pour pouvoir fonctionner. Autrement dit, de base seule la
-fonction SMTP fonctionne, les autres sont réservées aux experts qui
-pourront, s’ils le souhaitent, paramétrer eux-mêmes ces options.
-
-L’onglet configuration SMTP permet de renseigner les informations du
-serveur d’email que vous voulez utilisé.
+The SMTP configuration tab allows you to enter the information of the email server you want to use.
 
 ![mail screenshot3](./images/mail_screenshot3.jpg)
 
-Voici quelques exemples pour les principaux fournisseurs de services
-email :
+Here are some examples for the main email service providers :
 
 -   **Gmail**
-
-    -   Serveur SMTP : smtp.gmail.com
-
-    -   Port SMTP : 587
-
-    -   Sécurité SMTP : TLS
-
+    -   SMTP server : smtp.gmail.com
+    -   SMTP port : 587
+    -   SMTP security : TLS
 -   **Hotmail**
-
-    -   Serveur SMTP : smtp.live.com
-
-    -   Port SMTP : 587
-
-    -   Sécurité SMTP : TLS
-
+    -   SMTP server : smtp.live.com
+    -   SMTP port : 587
+    -   SMTP security : TLS
 -   **iCloud**
-
-    -   Serveur SMTP : smtp.me.com
-
-    -   Port SMTP : 25
-
+    -   SMTP server : smtp.me.com
+    -   SMTP port : 25
 -   **Yahoo.com**
+    -   SMTP server : smtp.mail.yahoo.com
+    -   SMTP port : 465
+    -   SMTP security : SSL
 
-    -   Serveur SMTP : smtp.mail.yahoo.com
+Les champs « Utilisateur SMTP » et « Mot de passe SMTP » correspondent aux identifiants de votre compte E-mail.
 
-    -   Port SMTP : 465
-
-    -   Sécurité SMTP : SSL
-
-Les champs « Utilisateur SMTP » et « Mot de passe SMTP » correspondent
-aux identifiants de votre compte email.
-
-A partir de l’onglet "Commandes", vous pouvez ajouter des commandes qui
-correspondent aux adresses email auxquelles vous souhaitez pouvoir
-envoyer des emails avec Jeedom :
+From the "Orders" tab, you can add orders that correspond to the email addresses to which you wish to be able to send emails with Jeedom :
 
 ![mail screenshot4](./images/mail_screenshot4.jpg)
 
--   **nom** : nom de la commande
+-   **Name** : Name of the order
+-   **E-mail** : the email address to send the message to. You can put several by separating them with ,
+-   **Advanced configuration** (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.)
+-   **Test** : Used to test the command,
+-   **Delete** (sign -) : allows to delete the command.
 
--   **email** : l’addresse email à laquelle envoyer le message. Vous pouvez en mettre plusieurs en les séparants par des ,
+This plugin works like a module, that is to say that once saved, it appears in the list of actions or commands. It is thus very simple to use it when creating scenarios for example.
 
--   **configuration avancée** (petites roues crantées) : permet
-    d’afficher la configuration avancée de la commande (méthode
-    d’historisation, widget, etc.)
-
--   **tester** : permet de tester la commande,
-
--   **supprimer** (signe -) : permet de supprimer la commande.
-
-Ce plugin fonctionne comme un module, c’est-à-dire qu’une fois
-sauvegardé, il apparaît dans la liste des actions ou commandes. Il est
-ainsi très simple de l’utiliser lors de la création de scénarios par
-exemple.
-
-Dans un scénario, une fois sélectionné dans une action, il faudra saisir
-le titre et le message.
+In a scenario, once selected in an action, you will have to enter the title and the message.
 
 ![mail5](./images/mail5.jpg)
 
 > **Important**
 >
-> Avec Gmail il faut donner un mot de passe spécifique pour
-> l’application : Mon compte ⇒ connexion et sécurité ⇒ Se connecter à
-> Google ⇒ Mots de passe d’application
+> With Gmail you have to give a specific password for the application : My account ⇒ connection and security ⇒ Connect to Google ⇒ Application passwords
 
 > **Tip**
 >
-> Le format HTML est supporté par l’éditeur de scénario pour le corps
-> des messages.
+> HTML format is supported by the scenario editor for the body of messages.
 
 > **Tip**
 >
-> Pensez à sauvegarder toutes les modifications.
+> Remember to save all changes.

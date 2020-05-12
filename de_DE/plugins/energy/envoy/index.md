@@ -1,10 +1,8 @@
-Description
-===
+# Enphase Envoy Plugin
 
 Plugin zum Sammeln von Photovoltaik-Informationen von Envoy-Gateways
 
-Configuration
-===
+# Configuration
 
 Um das Plugin zu konfigurieren, müssen die folgenden Informationen eingegeben werden :
 
@@ -13,13 +11,11 @@ Um das Plugin zu konfigurieren, müssen die folgenden Informationen eingegeben w
 
 Durch Klicken auf die Schaltfläche "Synchronisieren" werden dann alle Geräte automatisch erstellt.
 
-Informationen gemeldet
-===
+# Informationen gemeldet
 
 Mit dem Plugin können Sie die folgenden Informationen hochladen (wenn Sie einen Envoy-s Metered haben) :
 
-__ * - Allgemein (jede Minute wechseln) * __
-
+- Allgemein (jede Minute wechseln)
     - Anzahl der Mikro-Wechselrichter
     - Anzahl der Batterien
     - Batteriestatus (Laden / Entladen / Leerlauf)
@@ -37,17 +33,13 @@ __ * - Allgemein (jede Minute wechseln) * __
     - Täglicher Nettoverbrauch (in Wh)
     - Nettoverbrauch der letzten 7 Tage (in Wh)
     - Nettoverbrauch seit Inbetriebnahme (in Wh)
-
-  __ * - Für jeden Mikro-Wechselrichter (Schicht alle 5 Minuten) * __
-
+- Für jeden Mikro-Wechselrichter (alle 5 Minuten verschieben)
     - Vorausgesetzt (Ja / Nein)
     - Kommunikation (Ja / Nein)
     - Produktion (Ja / Nein)
     - Leistung (in W)
     - Maximale Leistung (in W)
-
-  __ * - Für jede Batterie (alle 5 Minuten wechseln) * __
-
+- Für jede Batterie (alle 5 Minuten wechseln)
     - Vorausgesetzt (Ja / Nein)
     - Kommunikation (Ja / Nein)
     - Produktion (Ja / Nein)

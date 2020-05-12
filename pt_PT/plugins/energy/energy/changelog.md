@@ -1,24 +1,30 @@
+# Changelog Energy
+
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
 # 01/01/2020
 
-- Amélioration de la gestion des équipements désactivés
+- Gerenciamento aprimorado de equipamentos com deficiência
 
-# 09/10/2019
+# 09/09/2019
 
 - Optimisation
 
 # 16/09/2019
 
-- Correction pour jeedom v4
-- Support de php 7.3
+- Correção para jeedom v4
+- Suporte para php 7.3
 
 # 15/03/2019
 
-- Correction d'un bug sur l'icone
+- Correção de um bug no ícone
 
 # 25/09/2018
 
-- Correction bug
+- Bug fix
 
 # 20/03/2018
 
--  Correction d'un bug sur requete SQL
+-  Correção de um bug na solicitação SQL

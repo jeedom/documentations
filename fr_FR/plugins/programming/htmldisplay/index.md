@@ -1,4 +1,4 @@
-# HTML Display
+# Plugin HTML Display
 
 Plugin très simple permettant de mettre le code HTML/javascript/Css que vous voulez sur sa tuile équipements.
 

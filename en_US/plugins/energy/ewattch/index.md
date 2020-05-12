@@ -1,92 +1,53 @@
-Ewattch 
-=======
+# Ewattch plugin 
 
-Description
------------
+This plugin allows you to establish and retrieve information from the Ewattch supervisor.
 
-Ce plugin permet d’établir et de récupérer les informations du
-superviseur Ewattch.
+# Plugin configuration 
 
-Plugin configuration
------------------------
-
-Après téléchargement du plugin il vous faut l’activer, vous avez ensuite
-accès à la configuration de base du plugin :
+After downloading the plugin you need to activate it, you then have access to the basic configuration of the plugin :
 
 ![ewattch1](./images/ewattch1.PNG)
 
-Vous retrouvez ici la configuration de base :
+Here you find the basic configuration :
 
--   **IP du superviseur** : IP du superviseur sur le réseau
+-   **IP du superviseur** : Supervisor's IP on the network
+-   **Synchronize** : Synchronize the list of equipment on the supervisor with Jeedom
 
--   **Synchroniser** : Permet de synchroniser la liste des équipements
-    sur le superviseur avec Jeedom
+# Equipment configuration 
 
-Equipment configuration
------------------------------
-
-La configuration des équipements Ewattch est accessible à partir du menu
-Plugins :
+The configuration of Ewattch equipment is accessible from the Plugins menu :
 
 ![ewattch2](./images/ewattch2.PNG)
 
-Voilà à quoi ressemble la page du plugin Ewattch (ici avec déjà quelques
-équipements) :
+This is what the Ewattch plugin page looks like (here with some equipment already) :
 
 ![ewattch3](./images/ewattch3.PNG)
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, mettre la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
-
-Once you click on one of them, you get:
+Once you click on one of them, you get :
 
 ![ewattch4](./images/ewattch4.PNG)
 
-You can find here the full configuration of your device :
+Here you find all the configuration of your equipment :
 
--   **Nom de l’équipement** : nom de votre équipement Ewattch,
+-   **Name of equipment** : name of your Ewattch equipment,
+-   **Parent object** : indicates the parent object to which the equipment belongs,
+-   **Activate** : makes your equipment active,
+-   **Visible** : makes it visible on the dashboard,
+-   **Category** : equipment categories (it can belong to several categories),
+-   **ID** : Logical ID of the equipment in the supervisor (it is recommended not to touch it),
+-   **IP** : Supervisor's IP (for information only).
 
--   **Parent Object** : means the parent object the equipment depend
-    equipment,
-
--   **Enable**: to make your equipment active,
-
--   **Visible**: makes it visible on the dashboard,
-
--   **Category**: categories of equipment (it may belong to
-    plusieurs catégories),
-
--   **ID** : ID logique de l’équipement dans le superviseur (il est
-    recommandé de ne pas y toucher),
-
--   **IP** : IP du superviseur (à titre indicatif pour le moment).
-
-En dessous, vous retrouvez la configuration de l’équipement :
+Below, you will find the configuration of the equipment :
 
 -   the name displayed on the dashboard,
-
--   le sous-type,
-
--   ID logique de la commande dans le superviseur (il est recommandé de
-    ne pas y toucher),
-
--   historiser : permet d’historiser la donnée,
-
--   afficher : permet d’afficher la donnée sur le dashboard,
-
--   unité : unité de la donnée (peut être vide),
-
--   min/max : bornes de la donnée (peuvent être vides),
-
--   configuration avancée (petites roues crantées) : permet d’afficher
-    the advanced configuration of the command (historization method,
-    widget…​),
-
--   Tester : permet de tester la commande,
-
--   supprimer (signe -) : permet de supprimer la commande.
+-   the subtype,
+-   Logical ID of the order in the supervisor (it is recommended not to touch it),
+-   Historize : allows to historize the data,
+-   Show : allows to display the data on the dashboard,
+-   Unit : data unit (can be empty),
+-   min / max : data bounds (may be empty),
+-   advanced configuration (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.),
+-   Test : Used to test the command,
+-   delete (sign -) : allows to delete the command.
 
 

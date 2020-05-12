@@ -1,96 +1,95 @@
-# Beschreibung
+# Shutter Management Plugin
 
-Ce plugin vous permet de gerer plus facilemement la position de vos volets en fonction de la position du soleil. Ce plugin est completement cloudless
+Mit diesem Plugin können Sie die Position Ihrer Fensterläden einfacher entsprechend der Sonnenposition verwalten. Dieses Plugin ist komplett wolkenlos
 
-Vous pouvez trouver [ici](https://www.jeedom.com/blog/?p=4310) un article montrant un exemple de configuration du plugin
+Sie können finden [hier](https://www.jeedom.com/blog/?p=4310) Ein Artikel mit einer Beispielkonfiguration des Plugins
 
-# Configuration du plugins
+# Plugins Konfiguration
 
-Rien de spécial ici juste à installer et activer le plugin
+Hier gibt es nichts Besonderes, nur um das Plugin zu installieren und zu aktivieren
 
-## Comment ca marche ?
+## Wie es funktioniert ?
 
-Le plugin va regler la position de vos volets par rapport à des positions du soleil (Azimuth et Altitude) en fonction de condition.
+Das Plugin passt die Position Ihrer Fensterläden relativ zu den Sonnenpositionen (Azimut und Höhe) je nach Zustand an.
 
-# Configuration des volets
+# Konfiguration der Rollläden
 
-La configuration se decompose en plusieurs onglet.
+Die Konfiguration ist in mehrere Registerkarten unterteilt.
 
 ## Equipement
 
-Vous retrouvez dans le premier onglet toute la configuration de votre équipement :
+Auf der ersten Registerkarte finden Sie die gesamte Konfiguration Ihrer Geräte :
 
-- Nom de l’équipement : nom de votre équipement Simulation,
-- Objet parent : indique l’objet parent auquel appartient l’équipement,
-- Activer : permet de rendre votre équipement actif,
-- Visible : rend votre équipement visible sur le dashboard.
+- Name der Ausrüstung : Name Ihrer Simulationsausrüstung,
+- Übergeordnetes Objekt : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
+- Aktivieren : macht Ihre Ausrüstung aktiv,
+- Sichtbar : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar.
 
 
-## Konfiguration
+## Configuration
 
-### Konfiguration
+### Configuration
 
-- Vérification : fréquence de verification des conditions et position des volets
-- Reprendre la main : interdit au systeme de gestion de volet de modifier la position de celui-ci si il a été bougé manuellement. Exemple le systeme ferme le volet, vous l'ouvrez il n'y touchera plus jusqu'a ce que la commande "Reprendre gestion" soit déclenchée ou si le délai de reprise de main est passé
-- Latitude : la latitude de votre volet/maison
-- Longitude : la longitude de votre volet/maison
-- Altitude : l'altitude de votre volet/maison
-- Etat volet : commande indiquant la position actuel du volet
-- Position volet : commande permettant de positionner le volet
-- Rafraîchir position volet (optionnelle) : commande permettant de rafraichir la positionner du volet
-- Temps maximum pour un déplacement : temps pour faire un mouvement complet (de haut en bas ou de bas en haut), en seconde
+- Überprüfung : Häufigkeit der Überprüfung der Bedingungen und Position der Klappen
+- Gewinnen Sie die Kontrolle zurück : verhindert, dass das Verschlussmanagementsystem seine Position ändert, wenn es manuell bewegt wurde. Beispiel: Das System schließt den Verschluss. Wenn Sie ihn öffnen, wird er nicht mehr berührt, bis der Befehl "Verwaltung fortsetzen" ausgelöst wird oder wenn die Wiederherstellungszeit abgelaufen ist
+- Breite : der Breitengrad Ihres Verschlusses / Hauses
+- Länge : die Länge Ihres Verschlusses / Hauses
+- Höhe : die Höhe Ihres Verschlusses / Hauses
+- Verschlusszustand : Befehl zur Anzeige der aktuellen Position der Klappe
+- Verschlussposition : Steuerung zum Positionieren der Klappe
+- Verschlussposition aktualisieren (optional) : Befehl zum Aktualisieren der Position des Verschlusses
+- Maximale Zeit für eine Reise : Zeit für eine vollständige Bewegung (von oben nach unten oder von unten nach oben) in Sekunden
 
 ## Condition
 
-- Condition pour action : si cette condition n'est pas vrai le plugin ne modifiera pas la position du volet
-- Un changement de mode annule les suspensions en cours : si coché alors un changement de mode du volet repasse celui-ci en gestion automatique
-- Les actions immédiate sont systématique et prioritaire : si coché alors les actions immediate s'executent meme si celui-ci est suspendu et sans tenir compte de l'ordre des conditions
+- Handlungsbedingung : Wenn diese Bedingung nicht erfüllt ist, ändert das Plugin die Position des Verschlusses nicht
+- Der Moduswechsel bricht ausstehende Suspensionen ab : Wenn diese Option aktiviert ist, wird der Verschluss durch eine Änderung des Modus wieder automatisch verwaltet
+- Sofortmaßnahmen sind systematisch und vorrangig : Wenn diese Option aktiviert ist, werden sofortige Aktionen ausgeführt, auch wenn sie ausgesetzt sind und die Reihenfolge der Bedingungen nicht berücksichtigt wird
 
-
-Le tableau des conditions vous permet de spécifier des conditions de positionnement spécifique, qui prenne la main sur le tableau de position du volets :
-- Position : si la condition est vrai, la position du volets
-- Mode : la condition ne marche que si le volet est dans ce mode (vous pouvez en mettre plusieurs séparé par des ,). Si ce champs n'est pas remplis alors la condition sera testée quelque soit le mode
-- Action immediate : agit immediatement dès que la condition est vrai (n'attend donc pas le cron de verification)
-- Suspendre : si la condition est vrai elle suspend la gestion automatique du volet
-- Condition : votre condition
-- Commentaire : champs libre pour mettre des commentaires
+In der Bedingungstabelle können Sie bestimmte Positionierungsbedingungen angeben, die die Klappenpositionstabelle erfassen :
+- Position : Wenn die Bedingung erfüllt ist, die Position der Klappen
+- Modus : Die Bedingung funktioniert nur, wenn sich der Verschluss in diesem Modus befindet (Sie können mehrere durch, getrennt setzen). Wenn dieses Feld nicht ausgefüllt ist, wird die Bedingung unabhängig vom Modus getestet
+- Sofortige Aktion : wirkt sofort, sobald die Bedingung erfüllt ist (wartet daher nicht auf die Überprüfung cron)
+- Anhalten : Wenn die Bedingung erfüllt ist, wird die automatische Verwaltung des Verschlusses unterbrochen
+- Zustand : Ihr Zustand
+- Kommentar : freie Felder für Kommentare
 
 ## Positionnement
 
-- %ouveture : le % quand le volet est ouvert
-- %fermeture : le % quand le volet est fermé
-- Action par defaut : l'action par defaut si aucune condition et position n'est valide
+- % Öffnung : die%, wenn der Verschluss geöffnet ist
+- % schließen : die%, wenn der Verschluss geschlossen ist
+- Standardaktion : Die Standardaktion, wenn keine Bedingung und Position gültig ist
 
-C'est ici que vous allez pouvoir gerer le positionenement du volet en fonction de la position du soleil.
+Hier können Sie die Positionierung des Verschlusses entsprechend der Sonnenposition steuern.
 
-- Azimuth : angle de position du soleil
-- Elevation : angle de hauteur du soleil
-- Position : position du volet à prendre si le soleil se trouve dans les bornes d'Azimuth et d'élévation
-- Condition : condition en plus à satisfaire pour que le volet prenne cette position (peut etre vide)
-- Commentaire : champs libre pour mettre des commentaires
+- Azimut : Sonnenstandwinkel
+- Höhe : Höhenwinkel der Sonne
+- Position : Position des Verschlusses, wenn die Sonne im Azimut und in den Höhengrenzen steht
+- Zustand : zusätzliche Bedingung, die erfüllt sein muss, damit der Verschluss diese Position einnimmt (kann leer sein)
+- Kommentar : freie Felder für Kommentare
 
->**ASTUCE**
+>**TIPP**
 >
->Petite astuce le site [suncalc.org](https://www.suncalc.org) qui permet, une fois votre adresse rentrée, de voir la position du soleil (et donc les angles Azimuth et d'élévation) en fonction des heures de la journée (il suffit de faire glisser le petit soleil en haut)
+>Kleiner Tipp die Seite [suncalc.org](https://www.suncalc.org) Sobald Ihre Adresse eingegeben wurde, können Sie den Sonnenstand (und damit den Azimut- und Elevationswinkel) entsprechend den Tagesstunden anzeigen (ziehen Sie einfach die kleine Sonne nach oben)
 
 ## Planning
 
-Vous voyez ici les plannification de positionnement du volet faite dans le planning Agenda
+Hier sehen Sie die Positionierungspläne des Verschlusses, die in der Agenda-Planung erstellt wurden
 
 ## Commandes
 
-- Azimut soleil : angle Azimuth actuel du soleil
-- Elévation soleil : angle d'élevation actuel du soleil
-- Executer action : force le calcul de position du volet en fonction de la position du soleil et des conditions et lui applique le resultat quelque soit l\'état de gestion (en pause ou pas)
-- Dernière position : derniere position demandé au volet par le plugin
-- Etat gestion : état de la gestion (suspendu ou pas)
-- Reprendre : force la remise en mode automatique de la gestion (A noter que c'est cette commande qu'il faut lancer pour repasser en gestion automatique si vous avez modifier la position de votre volet manuellement et coché la case "Ne pas reprendre la main")
-- Suspendre : suspend le positionnement automatique du volet
-- Rafraichir : mets à jour les valeurs des commandes "Azimut soleil" et "Elévation soleil"
-- Mode : mode actuel du volet
+- Sonnenazimut : aktueller Azimutwinkel der Sonne
+- Sonnenaufgang : aktueller Elevationswinkel der Sonne
+- Aktion ausführen : Erzwingt die Berechnung der Verschlussposition entsprechend dem Sonnenstand und den Bedingungen und wendet das Ergebnis unabhängig vom Verwaltungszustand (angehalten oder nicht) darauf an
+- Letzte Position : Letzte vom Plugin vom Verschluss angeforderte Position
+- Managementstatus : Managementstatus (ausgesetzt oder nicht)
+- Zusammenfassung : Erzwingen Sie die Rückkehr in den automatischen Verwaltungsmodus (Beachten Sie, dass dieser Befehl gestartet werden muss, um zur automatischen Verwaltung zurückzukehren, wenn Sie die Position Ihres Verschlusses manuell geändert und das Kontrollkästchen "Nicht übernehmen" aktiviert haben.)
+- Anhalten : Unterbricht die automatische Verschlusspositionierung
+- Aktualisieren : Aktualisieren Sie die Werte der Befehle "Sonnenazimut" und "Sonnenhöhe""
+- Modus : aktueller Verschlussmodus
 
-Vous pouvez ajouter des commandes "mode", le nom de la commande sera le nom du mode.
+Sie können "Modus" -Befehle hinzufügen. Der Befehlsname ist der Modusname.
 
 # Panel
 
-Le plugin possede un panel de gestion en desktop et mobile pour l'activer il suffit d'aller dans Plugins -> Gestion des plugins, cliquer sur le plugin de gestion de volet et tout en bas a droite de cocher les cases pour afficher le panel desktop et mobile
+Das Plugin verfügt über ein Desktop- und ein mobiles Verwaltungsfeld, um es zu aktivieren. Gehen Sie einfach zu Plugins -> Plugin-Verwaltung, klicken Sie auf das Fensterverwaltungs-Plugin und aktivieren Sie ganz rechts unten die Kontrollkästchen, um das Feld anzuzeigen Desktop und Mobile

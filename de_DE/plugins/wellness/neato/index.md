@@ -1,69 +1,48 @@
-# Description
+# Neato Plugin
 
-Ce plugin permet d’avoir les infos de statut de votre aspirateur Neato
-Botvac Connected et de le controler
+Mit diesem Plugin können Sie die Statusinformationen Ihres NeatoBotvac Connected Staubsaugers abrufen und steuern
 
 # Configuration
 
-# Installation/Création
+# Installation / Erstellung
 
-Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-l’activer comme tout plugin Jeedom.
+Um das Plugin verwenden zu können, müssen Sie es wie jedes Jeedom-Plugin herunterladen, installieren und aktivieren.
 
-Suite à cela il vous faudra renseigner votre compte Neato
+Danach müssen Sie Ihr Neato-Konto eingeben
 
-Une fois sauvegardé votre Neato sera détecté automatiquement et rajouté
-à votre Jeedom
+Nach dem Speichern wird Ihr Neato automatisch erkannt und Ihrem Jeedom hinzugefügt
 
-Rendez vous dans le menu plugins/bien -être pour le retrouver.
+Gehen Sie zum Plugins / Wellness-Menü, um es zu finden.
 
-# Tableau de Commandes
+# Bedienfeld
 
-    -   Alerte : message si une erreur est en cours (brosse bloqué, bac
-        à poussières plein etc…​)
+    -   Warnung : Meldung, wenn ein Fehler vorliegt (Bürste blockiert, voller Staubbehälter usw.)
+    -   Beenden : Roboter stoppen
+    -   Code Zustand : Technischen Code angeben
+    -   Starten Sie das Öko-Haus : Starten Sie die Öko-Reinigung
+    -   Starten Sie das Turbohaus : Starten Sie die Turbo-Reinigung
+    -   Aufladen : Verantwortlich oder nicht
+    -   Zustand : Statusmeldung (bereit zum Reinigen, während der Reinigung, angehalten usw.)
+    -   Pause : Halten Sie den Roboter an
+    -   Programmierung : Wird verwendet, um herauszufinden, ob eine Programmierung ausgeführt wird (ordentliche Programmierung)
+    -   Aktualisieren : Informationen aktualisieren
+    -   Zusammenfassung : Reinigung fortsetzen (falls angehalten)
+    -   Zurück zur Basis : Rückkehr zur Abreise (falls in der Pause)
+    -   Auf der Station : Lässt Sie wissen, ob sich der Roboter auf dem Dock befindet oder nicht
 
-    -   Arrêter : Arrêter le robot
-
-    -   Code état : Code technique de l’état
-
-    -   Démarrer eco maison : lancer un nettoyage eco
-
-    -   Démarrer turbo maison : Lancer un nettoyage turbo
-
-    -   En charge : En charge ou non
-
-    -   Etat : Message d’état (prêt a nettoyer, en cours de nettoayge,
-        en pause etc…​)
-
-    -   Pause : Mettre en pause le robot
-
-    -   Programmation : Permet de savoir si un programmation est en
-        cours (programmation neato)
-
-    -   Rafraichir : Permet de rafraichir les infos
-
-    -   Reprendre : reprendre le nettoyage (si en pause)
-
-    -   Retour base : retourner au départ (si en pause)
-
-    -   Sur dock : Permet de savoir si le robot est sur le dock ou non
-
-Toutes ces commandes sont disponibles via scénarios et via le dashboard
+Alle diese Befehle sind über Szenarien und über das Dashboard verfügbar
 
 
-## Comment sont rafraichis les infos
+## Wie werden die Nachrichten aktualisiert?
 
-Les infos sont rafraichis une fois toutes les 15 minutes et après chaque
-action exécutée depuis Jeedom. Vous pouvez les rafraichir à la demande
-via scénario avec la commande rafraichir, ou via le dash avec les
-doubles flêches
+Die Informationen werden alle 15 Minuten und nach jeder von Jeedom ausgeführten Aktion aktualisiert. Sie können sie bei Bedarf über ein Szenario mit dem Befehl refresh oder über den Bindestrich mit den Doppelpfeilen aktualisieren
 
 # Faq
 
->**J'ai l'erreur "Could not find robot_serial for specified vendor_name"**
+>**Ich erhalte die Fehlermeldung "robot_serial für den angegebenen Herstellernamen konnte nicht gefunden werden"**
 >
-> Il faut dans la configuration du plugin (Plugins -> Gestion Plugins) faire sauvegarder pour qu'il refasse la detection de votre aspirateur robot
+> In der Konfiguration des Plugins (Plugins -> Management Plugins) muss gespeichert werden, damit die Erkennung Ihres Roboterstaubsaugers wiederhergestellt wird
 
->**La commande de nttoyage ne marche pas, le robot sort et revient à sa base**
+>**Der Reinigungsbefehl funktioniert nicht, der Roboter verlässt die Basis und kehrt zu seiner Basis zurück oder er beachtet die Einschränkungen nicht (Karte)**
 >
->Sur certain model de robot il faut absolument definir une carte/paln de navigation, vous trouverez [ici](https://support.neatorobotics.com/hc/fr/articles/360009513113-Comment-cr%C3%A9er-un-plan-d-%C3%A9tage-) pour le faire
+>Bei bestimmten Robotermodellen ist es unbedingt erforderlich, eine Navigationskarte / -palme zu definieren [hier](https://support.neatorobotics.com/hc/fr/articles/360009513113-Comment-cr%C3%A9er-un-plan-d-%C3%A9tage-) um es zu tun

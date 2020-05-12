@@ -1,6 +1,8 @@
->**IMPORTANT**
+# Changelog IPX 800 v4
+
+>**Wichtig**
 >
->Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 # 05/09/2020
 
@@ -25,7 +27,7 @@
 
 - Hinzufügen eines automatischen täglichen Backup-Systems für ipx800v4
 - PWM-Unterstützung nur in einer Farbe
-- Unterdrückung des Neustarts des Dämons bei jeder Änderung an den Geräten (dies ist jetzt erforderlich, wenn Sie ein Gerät ändern und den Dämon manuell neu starten).
+- Unterdrückung des Neustarts des Dämons bei jeder Änderung an den Geräten (dies ist jetzt erforderlich, wenn Sie ein Gerät ändern und den Dämon manuell neu starten)
 
 # 2018.04.24
 

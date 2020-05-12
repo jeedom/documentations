@@ -1,149 +1,93 @@
-Plugin permettant d’accéder aux informations de ses appareils Fitbit
-(nombre de pas, calories, distance…​)
+# Fitbit plugin
 
-Configuration 
-=============
+Plug-in para acessar informações em dispositivos Fitbit (número de etapas, calorias, distância etc.)
 
-Une fois le plugin Fitbit installé, allez sur :
+# Configuração 
+
+Depois que o plug-in Fitbit estiver instalado, vá para :
 
 ![fitbit 1](../images/fitbit-1.JPG)
 
-Création d’un équipement et association au compte Fitbit 
---------------------------------------------------------
+## Criação e associação de equipamentos com a conta Fitbit 
 
-> **Tip**
->
-> Comme à beaucoup d’endroit sur Jeedom, mettre la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profils le laisser toujours visible)
-
-Cliquez sur ajouter une personne pour ajouter quelqu’un :
+Clique em adicionar uma pessoa para adicionar alguém :
 
 ![fitbit 2](../images/fitbit-2.JPG)
 
-Donnez un nom à cette personne (cet équipement) et validez :
+Dê um nome a esta pessoa (este equipamento) e valide :
 
 ![fitbit 3](../images/fitbit-3.JPG)
 
-Vous devez ensuite avoir cette page :
+Você deve ter esta página :
 
 ![fitbit 4](../images/fitbit-4.JPG)
 
-> **Important**
+> **IMPORTANTE**
 >
-> Le premier truc à vérifier est "URL de retour". Celle-ci doit être
-> validée et accessible de l’extérieure sinon vous ne pourrez pas
-> associer Jeedom à votre compte Fitbit. Si ce n’est pas le cas, mettez
-> à jour vos paramètres de configuration réseaux dans Général →
-> Administration → Configuration puis partie "réseaux", voir
-> [ici](https://www.jeedom.fr/doc/documentation/core/fr_FR/doc-core-administration.html.html#administration)
+> A primeira coisa a verificar é "URL de retorno". Isso deve ser validado e acessível externamente, caso contrário você não poderá associar o Jeedom à sua conta Fitbit. Se não for esse o caso, atualize os parâmetros de configuração de rede na seção Geral → Administração → Configuração e, em seguida, "redes", consulte [aqui](https://www.jeedom.fr/doc/documentation/core/pt_PT/doc-core-administration.html.html#administration)
 
-> **Note**
+> **NOTA**
 >
-> Il est recommandé lors du lien entre Jeedom et Fitbit d’etre connecté
-> à Jeedom par l’ip externe
+> Recomenda-se ao conectar entre Jeedom e Fitbit a conexão ao Jeedom pelo ip externo
 
-Pour lieer votre compte Fitbit à Jeedom il vous tout d’abord vous creez
-un compte developpeur chez Fitbit en allant
-[ici](https://dev.fitbit.com/fr), ensuite il vous faut vous connecter
-puis faire : "Register an app". Il faut ensuite remplir les informations
-:
+Para vincular sua conta Fitbit ao Jeedom, primeiro crie uma conta de desenvolvedor com o Fitbit indo [aqui](https://dev.fitbit.com/fr), então você precisa fazer o login e depois : "Registrar um aplicativo". Em seguida, preencha as informações :
 
--   Application Name : Jeedom
-
--   Description : Jeedom
-
+-   Nome da aplicação : Jeedom
+-   Descrição : Jeedom
 -   Application Website : <https://jeedom.com>
+-   Organização : jeedom
+-   Organização Website : <https://jeedom.com>
+-   OAuth 2.0 Tipo de Aplicação : Server
+-   URL de retorno de chamada : Você deve colocar o que o Jeedom fornecer ao criar um equipamento Fitbit, tenha cuidado se você não colocar o correto, a conexão não poderá ser feita
+-   Tipo de acesso padrão : Ler e escrever
 
--   Organization : jeedom
+Você também pode adicionar uma assinatura, isso permite que o Fitbit envie uma atualização diretamente no Jeedom (em vez de esperar que o Jeedom atualize as informações) :
 
--   Organization Website : <https://jeedom.com>
+-   Padrão : oui
+-   URL do terminal : o dado por jeedom
+-   Tipo : Corpo JSON
+-   ID do Assinante : não ponha nada
 
--   OAuth 2.0 Application Type : Server
+Se você possui uma assinatura, deve (tome cuidado para executar todas essas etapas em ordem) :
 
--   Callback URL : Il faut mettre celle que jeedom vous donne lors de la
-    création d’un équipement Fitbit, attention si vous ne mettez pas la
-    bonne la connexion ne pourra se faire
+-   Coloque o número da assinatura no equipamento Fitbit na Jeedom
+-   Coloque o código de assinatura no equipamento Fitbit no Jeedom
+-   Equipamento de backup
+-   No site Fitbit, inicie a verificação da assinatura
+-   Em seguida, "Vincule a um usuário" o equipamento jeedom, como abaixo
 
--   Default Access Type : Read & Write
-
-Vous pouvez aussi ajouter une subscription, cela permet à Fitbit de
-pousser une mise à jour directement dans Jeedom (au lieu d’attendre que
-Jeedom mette à jour les informations) :
-
--   Default : oui
-
--   Endpoint URL : celle donnée par jeedom
-
--   Type : JSON body
-
--   Subscriber ID : ne rien mettre
-
-Si vous avez mis une subscription il faut (attention a bien faire toute
-ces étapes dans l’ordre) :
-
--   Mettre le numéro de subscription dans l’équipement Fitbit sur Jeedom
-
--   Mettre le code de subscription dans l’équipement Fitbit sur Jeedom
-
--   Sauvegarder l’équipement
-
--   Sur le site Fitbit lancer la vérification de la subscription
-
--   Puis "Lier à un utilisateur" l’équipement jeedom, comme ci-dessous
-
-> **Important**
+> **IMPORTANTE**
 >
-> Actuellement Fitbit support mal le https, donc si vous êtes en https
-> il y peu de chance que cela marche
+> Atualmente, o Fitbit não suporta bem o https, portanto, se você estiver em https, há poucas chances de que ele funcione
 
-Cliquez sur "Lier à un utilisateur" pour lier cet équipement à votre
-compte Fitbit :
+Clique em "Vincular ao usuário" para vincular este dispositivo à sua conta Fitbit :
 
 ![fitbit 5](../images/fitbit-5.JPG)
 
-Indiquez vos identifiants de votre compte Fitbit, puis validez la
-demande d’autorisation :
+Insira as credenciais da sua conta Fitbit e valide a solicitação de autorização :
 
-Si vous obtenez une page blanche ou une erreur, c’est que votre
-configuration réseaux n’est pas bonne, sinon vous devez retomber sur
-cette page :
+Se você receber uma página em branco ou um erro, isso significa que sua configuração de rede não está boa; caso contrário, você deve voltar a esta página :
 
 ![fitbit 6](../images/fitbit-6.JPG)
 
-Pour la subscription il faut en
+## Configuração 
 
-Configuration 
--------------
-
-Voici les détails de la configuration du plugin :
+Aqui estão os detalhes da configuração do plugin :
 
 ![fitbit 6](../images/fitbit-6.JPG)
 
--   Nom de la personne : nom de l’équipement Fitbit
+-   Nome da pessoa : nome do equipamento Fitbit
+-   Objeto pai : nome do objeto ao qual conectar o equipamento
+-   Ativar / Visível : permite ativar o equipamento (não esqueça de fazê-lo, caso contrário você não terá dados) e torne visível no painel
+-   Para cada pedido :
+    -   Historicizar : permite registrar o comando
+    -   Display : permite torná-lo visível ou não no painel
+    -   Avançado (pequenas rodas dentadas) : exibe a configuração avançada do comando
+    -   Teste : permite testar o comando para ver seu valor
+    -   Excluir (botão "-") : para excluir o pedido
 
--   Objet parent : nom de l’objet auquel ratacher l’équipement
+## Widget 
 
--   Activer/Visible : permet d’activer l’équipement (ne pas oublier de
-    le faire sinon vous n’aurez aucune donnée) et de le rendre visible
-    sur le dashboard
-
--   Pour chaque commande :
-
-    -   Historiser : permet d’historiser la commande
-
-    -   Afficher : permet de la rendre visible ou non sur le dashboard
-
-    -   Avancée (petites roues crantées) : permet d’afficher la
-        configuration avancée de la commande
-
-    -   Tester : permet de tester la commande pour voir sa valeur
-
-    -   Supprimer (bouton "-") : pour supprimer la commande
-
-Widget 
-------
-
-Voila le widget fitbit :
+Aqui está o widget fitbit :
 
 ![fitbit 7](../images/fitbit-7.JPG)

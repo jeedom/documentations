@@ -1,83 +1,54 @@
-Ce plugin permet de mettre à jour un service de DNS dynamique
-(dyndns,noip,duckdns,…​)
+# DynDNS-Plugin
 
-Plugin-Konfiguration
-=======================
+Mit diesem Plugin können Sie einen dynamischen DNS-Dienst aktualisieren (Dyndns, Noip, Duckdns,…)
 
-Nachdem das Plugin herunterzuladen, müssen Sie nur um es zu aktivieren,
-gibt es auf dieser Ebene keine Konfiguration.
+# Plugin Konfiguration 
+
+Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur noch aktivieren. Auf dieser Ebene gibt es keine Konfiguration.
 
 ![dyndns](./images/dyndns.PNG)
 
-Gerätekonfiguration
-=============================
+# Gerätekonfiguration 
 
-La configuration des équipements Dyndns est accessible à partir du menu
-plugin :
+Auf die Konfiguration der Dyndns-Geräte kann über das Plugin-Menü zugegriffen werden :
 
 ![dyndns2](./images/dyndns2.PNG)
 
-Voilà à quoi ressemble la page du plugin Dyndns (ici avec déjà 1
-équipement) :
+So sieht die Dyndns-Plugin-Seite aus (hier mit bereits 1 Gerät) :
 
 ![dyndns3](./images/dyndns3.PNG)
 
-> **Tip**
->
-> Wie an vielen Stellen in Jeedom kann mit dem Mauszeiger ganz links, ein
-> Menü mit Schnellzugriff aufgerufen werden (Sie können in Ihrem Profil
-> immer sichtbar einstellen).  
-
-Sobald Sie eines davon anklicken, erhalten Sie :
+Sobald Sie auf eine davon klicken, erhalten Sie :
 
 ![dyndns4](./images/dyndns4.PNG)
 
-Sie werden hier alle die Konfiguration Ihrer Geräte finden:
+Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Nom de l’équipement Ambilight** : nom de votre équipement
-    Ambilight,
+-   **Name de l'équipement DynDNS** : Name Ihres DynDns-Geräts,
+-   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
+-   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören),
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv,
+-   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
+-   **Service** : Der Name des verwendeten Dienstes (dyndns.org, noip.com)
+-   **Host-Namen** : vollständiger zu aktualisierender DNS-Name (z. B. toto.ddns.net)
+-   **Name d'utilisateur** : Benutzername des betreffenden Dienstes
+-   **Passwort** : Passwort für den betreffenden Dienst
+-   **Zeichen** : Token für Enten
 
--   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
-    Ausrüstung,
+Nachfolgend finden Sie die Liste der Bestellungen :
 
--   ** ** Kategorie: Gerätekategorien (es kann gehören
-    plusieurs catégories),
+-   **Name** : Der im Dashboard angezeigte Name,
+-   **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard,
+-   **Test** : Wird zum Testen des Befehls verwendet
 
--   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
-
--   Visible ** ** macht Ihr Gerät sichtbar auf dem Armaturenbrett,
-
--   **Service** : Le nom du service utilisé (dyndns.org, noip.com)
-
--   **Hostname** : nom complet du DNS à mettre à jour (ex toto.ddns.net)
-
--   **Nom d’utilisateur** : nom d’utilisateur sur le service en question
-
--   **Mot de passer** : mot de passe sur le service en question
-
--   **Token** : token utilisé pour duckdns
-
-En-dessous vous retrouvez la liste des commandes :
-
--   **Nom** : le nom affiché sur le dashboard,
-
--   **Afficher** : permet d’afficher la donnée sur le dashboard,
-
--   **Tester** : permet de tester la commande
-
-> **Note**
+> **Notiz**
 >
-> Jeedom va vérifier toute les 15 minutes l’ip externe, si celle-ci a
-> changé alors le DNS sera mise à jour
+> Jeedom überprüft die externe IP alle 15 Minuten. Wenn sie sich geändert hat, wird der DNS aktualisiert
 
-> **Important**
+> **Wichtig**
 >
-> Le plugin fournit une commande pour forcer la mise à jour. Attention à
-> ne pas en abuser car vous pouvez être banni temporairement du service
-> de DNS
+> Das Plugin bietet einen Befehl zum Erzwingen der Aktualisierung. Achten Sie darauf, es nicht zu missbrauchen, da Sie vorübergehend vom DNS-Dienst ausgeschlossen werden können
 
-> **Note**
+> **Notiz**
 >
-> Si vous utilisez OVH, attention le nom d’utilisateur est de la forme
-> mondomaine.com-identificant alors que le domaine est bien sous la
-> forme mon-dynHost.mmondomaine.com
+> Wenn Sie OVH verwenden, achten Sie darauf, dass der Benutzername in der Weltform vorliegt.com-ID, während die Domain die Form my-dynHost.mmondomaine.com hat

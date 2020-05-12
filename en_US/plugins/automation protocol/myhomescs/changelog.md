@@ -1,6 +1,8 @@
->**IMPORTANT**
+# Changelog MyhomeSCS
+
+>**Important**
 >
->As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
 # 05/10/2020
 
@@ -17,8 +19,3 @@
 
 # V0.002 of 21/11/2017 
 
-- Fixed python dependency issue
-
-# V0.001 of 11/11/2017 
-
-- Initial version

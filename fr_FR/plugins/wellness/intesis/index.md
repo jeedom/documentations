@@ -1,8 +1,4 @@
-Intesis 
-=======
-
-Description 
------------
+# Intesis 
 
 Plugin permettant de piloter **les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox).**  basées sur le protocole WMP.
 
@@ -12,10 +8,10 @@ Ce plugin supporte tous les modèles de passerelles Intesis Wifi (ASCII) AC Inte
 
 Les passerelles Intesis Wifi (ASCII) AC Interfaces sont [disponibles à la vente ici.](https://www.domadoo.fr/fr/323_intesis-unites-ac-domestiques-daikin-vers-une-interface-wi-fi-rac)
 
+# Configuration du plugin 
 
-Configuration du plugin 
-==========================
 Après téléchargement du plugin, il faut tout d’abord activer celui-ci, comme <br>tout plugin Jeedom :
+
 ![conf](./images/intesisConf.png)
 
 Ensuite, il est vivement conseillé de lancer l’installation des dépendances (même si elles apparaissent OK) :
@@ -36,8 +32,7 @@ Rien n’est à modifier dans le champ « Port socket interne » de la section �
 
 ![socket](./images/intesisSocket.png)
 
-Comment déclarer une nouvelle interface intesis Wifi dans Jeedom
-==========================
+# Comment déclarer une nouvelle interface intesis Wifi dans Jeedom
 
 Rendez-vous dans le menu « Plugins / Protocole domotique / Intesis » :
 
@@ -45,8 +40,8 @@ Rendez-vous dans le menu « Plugins / Protocole domotique / Intesis » :
 
 Vous arrivez sur la page suivante, qui se compose de deux sections :
 
-- •	« Gestion », avec les options suivantes : « Ajouter » et « Configuration » (cette option vous renvoie à la page de configuration du plugin, décrite au point précédent).
-- •	« Mes Intesis » : C’est là que sont ou seront affichées les passerelles Intesis wifi gérées par Jeedom.
+- « Gestion », avec les options suivantes : « Ajouter » et « Configuration » (cette option vous renvoie à la page de configuration du plugin, décrite au point précédent).
+- « Mes Intesis » : C’est là que sont ou seront affichées les passerelles Intesis wifi gérées par Jeedom.
 
 ![gestion](./images/intesisGest.png)
 
@@ -58,13 +53,14 @@ Vous devez ensuite compléter les autres champs de la page de configuration du n
 
 ![confEquipement](./images/intesisConfEq.png)
 
->**IMPORTANT**<br>
+>**IMPORTANT**
+>
 >Il faut faire en sorte que votre passerelle Intesisbox Wifi ait une IP fixe sur votre réseau local, sinon son IP pourrait changer auquel cas Jeedom ne parviendrait plus à piloter la passerelle.
 
 Il ne vous reste plus qu’à sauvegarder.
 
-Les commandes
-==========================
+# Les commandes
+
 Rendez-vous dans l’onglet « Commandes » de la page de configuration du nouvel équipement Intesis.
 
 Ici vous pouvez masquer et rendre visibles les différentes commandes de type « action » et « info » disponibles (les commandes de type « info » peuvent également être historisées) :
@@ -79,7 +75,7 @@ Les commandes de type « action » (actionneurs) disponibles sont les suivantes 
 -	OFF : Pour éteindre le climatiseur
 - Consigne : Pour modifier la consigne de température du climatisateur
 - Mode List : Pour modifier le mode de fonctionnement du climatisteur (Auto, Heat, Dry, Fan, Cool)
--  Oscillation haut-bas : Pour modifier le mode d’oscillation des lames verticales d’orientation du flux d’air (1, 2, 3 et Swing)
+- Oscillation haut-bas : Pour modifier le mode d’oscillation des lames verticales d’orientation du flux d’air (1, 2, 3 et Swing)
 - Oscillation gauche-droite : Pour modifier le mode d’oscillation des lames horizontales d’orientation du flux d’air (1, 2, 3 et Swing)
 - Vitesse ventilateur : Pour modifier la vitesse de rotation du ventilateur (de 1 à 4)
 
@@ -97,15 +93,15 @@ Vous pouvez masquez les commandes qui ne vous sont pas utiles. Cela peut être l
 
 À l’inverse, vous pouvez rendre visibles les commandes de type « info » qui vous sont utiles.
 
-Le widget Intesis
-==========================
+# Le widget Intesis
 
 Comme indiqué au point 3) précédent, les commandes qui s’affichent sur le widget sont uniquement celles que vous avez rendu visibles auparavant.
 
->**Remarque** : Pour les commandes de type « info », le retour d’état se fait toutes les 5 minutes. Donc si vous utilisez la télécommande du climatiseur pour modifier la consigne (ou autre), Jeedom reflète cet état dans le Widget dans un laps de temps maximum de 5 minutes.
+>**Remarque**
+>
+>Pour les commandes de type « info », le retour d’état se fait toutes les 5 minutes. Donc si vous utilisez la télécommande du climatiseur pour modifier la consigne (ou autre), Jeedom reflète cet état dans le Widget dans un laps de temps maximum de 5 minutes.
 
 Comme pour tout widget Jeedom, vous pouvez réorganiser les commandes sur le widget grâce au mode édition (pour cela, cliquez sur le crayon en haut à gauche) :
-
 
 ![widget](./images/intesisWidget.png)
 
@@ -114,9 +110,9 @@ Quelques exemples de widgets Intesis avec différentes commandes visibles (sur J
 ![widget1](./images/intesisWidget1.png)
 
 ![widget2](./images/intesisWidget2.png)
+
 ![widget3](./images/intesisWidget3.png)
 
 Exemple de widget Intesis sur Jeedom V4 :
-<br>
-<br>
+
 ![widgetV4](./images/intesisWidgetV4.png)

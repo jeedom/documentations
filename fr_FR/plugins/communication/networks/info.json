@@ -1,14 +1,28 @@
 {
-	"id" : "networks",
-	"name" : "Network",
-	"description" : "Plugin permettant la gestion réseaux des équipements : ping (ip,arp et port) et wake on lan",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.2",
-	"category" : "communication",
-	"hasDependency" : true,
-	"changelog" : "https://jeedom.github.io/plugin-networks/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-networks/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+    "id": "networks",
+    "name": "Network",
+    "description": "Plugin permettant la gestion réseaux des équipements : ping (ip,arp et port) et wake on lan",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.2",
+    "category": "communication",
+    "hasDependency": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/networks\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/networks\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy"
+    ]
 }

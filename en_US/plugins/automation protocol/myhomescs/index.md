@@ -6,7 +6,7 @@ Plugin for using the F454 gateway
 
 The MyHomeSCS plugin allows you to communicate with all of Legrand's MyHomeSCS devices via the F454 gateway
 
->**ATTENTION**
+>**Be careful**
 >
 >In order to use the plugin, it is necessary to deactivate the authentication of the MyHome gateway and to authorize the IP address of JEEDOM in the whitelist of the gateway.
 
@@ -22,7 +22,7 @@ On the left, the list of MyHomeSCS modules, and in the center the General, Infor
 
 The menu on the left presents all of the MyHomeSCS modules detected and / or configured on its home automation installation. For the moment the plugin detects Legrand modules, but does not recognize them automatically. Once Jeedom has detected the new module, it will create it, but without assigning it a command. For that, it will be necessary either to choose a module in the drop-down list completely on the right (if the module exists in the database), or to create the commands one by one.
 
-The "Add equipment" button allows you to add specific MyHomeSCS equipment, generally for tests or orders of the "Management" or "Special" type.".
+The "Add equipment" button allows you to add specific MyHomeSCS equipment, generally for tests or orders of the "Management" or "Special" type".
 
 ![myhomescs3](./images/myhomescs3.png)
 
@@ -70,7 +70,7 @@ Info commands are necessary to retrieve the state of the equipment. Example for 
 
 Actions commands allow you to perform actions on the equipment. Depending on the category of equipment, you will have different choices.
 
-Legrand frames are oriented around 3 variables and are in the form (for a frame of the BUS-COMMAND type) \*WHO\*WHAT \* WHERE \#\#
+Legrand frames are oriented around 3 variables and are in the form (for a frame of the BUS-COMMAND type) \*WHO \*WHAT \* WHERE \#\#
 
 The WHO corresponds to the category (light, automation, etc ...). If in the raw frame you enter \#WHO\\\#, this will be replaced by the equipment category ID.
 
@@ -86,7 +86,7 @@ To know all types of frames, WHO, WHAT, WHERE value, types of communication or m
 
 Once you have created all the orders for your equipment, it is possible to create a "Equipment" file in JSON format. For this, you can take inspiration from existing modules.
 
-Then you can share it with the community (thanks to the function : Send a configuration). This will add automatic commands for the next users of the MyHomeSCS plugin..
+Then you can share it with the community (thanks to the function : Send a configuration). This will add automatic commands for the next users of the MyHomeSCS plugin.
 
 Thank you.
 

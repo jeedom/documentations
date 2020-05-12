@@ -1,48 +1,54 @@
-# 02/10/2019
+# Changelog RFXcom
 
-- Amélioration de la fonction de detection du port du rfxcom
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 16/05/2019
+# 10/02/2019
 
-- Correction bug interface
+- Verbesserung der rfxcom-Porterkennungsfunktion
 
-# 03/05/2019
+# 16.05.2019
 
-- Suppresion du suport MCZ 3 fan
+- Korrekturfehler-Oberfläche
 
-# 30/04/2019
+# 05/03/2019
 
-- Correction bug
+- Entfernen Sie den Lüfter MCZ 3
 
-# 29/04/2019
+# 30.04.2019
 
-- Correction d'un bug si le niveau de log est sur aucun
-- Support du MCZ 3 fan
-- Aktualisierung des Dokuments
+- Fehlerbehebung
 
-# 08/10/2018
+# 29.04.2019
 
-- Fix comparaison expected et wanted protocols en lowercase
+- Korrektur eines Fehlers, wenn die Protokollstufe keine ist
+- MCZ 3 Lüfterunterstützung
+- Aktualisieren des Dokuments
 
-# 08/10/2018
+# 10/08/2018
 
-- Revu du démarrage du démon (by Sarakha)
-- Compatible avec le derniere RFXCOM (by Sarakha)
-- Séparation en thread de l'écoute socket et clef RFXCOM (by Sarakha)
+- Korrigieren Sie die erwarteten und gewünschten Vergleichsprotokolle in Kleinbuchstaben
 
-# 14/04/2018
+# 10/08/2018
 
-- Correction d'un bug ou le démon pouvez rater certain message si ceux-ci arrivaient avant l'envoi à Jeedom en meme temps avec le meme packet type
+- Demon Startup Review (von Sarakha)
+- Kompatibel mit dem neuesten RFXCOM (von Sarakha)
+- Trennung im Thread von Abhörbuchse und RFXCOM-Schlüssel (von Sarakha)
 
-# 17/03/2018
+# 14.04.2008
 
-- Aktualisierung des Dokuments
+- Die Korrektur eines Fehlers oder des Dämons kann bestimmte Nachrichten übersehen, wenn diese eintreffen, bevor sie gleichzeitig mit demselben Pakettyp an Jeedom gesendet werden
 
-# 28/02/2018
+# 17.03.2008
 
-- Correction d'un bug sur le changement de batterie
+- Aktualisieren des Dokuments
 
-# 01-12-2017
+# 28.02.2008
 
--   Les commandes d’action pour les modules de type télécommande sont
-    automatiquement créées
+- Behebung eines Fehlers beim Batteriewechsel
+
+# 2017-12-01
+
+-   Die Aktionsbefehle für die Fernbedienungsmodule sind
+    automatisch erstellt

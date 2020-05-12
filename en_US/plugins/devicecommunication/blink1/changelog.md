@@ -1,3 +1,9 @@
-# 13/08/2019
+# Changelog Blink (1)
 
-- Support de PHP 7.3
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+
+# 08/13/2019
+
+- Support for php 7.3

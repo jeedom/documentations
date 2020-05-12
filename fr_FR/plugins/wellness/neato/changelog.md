@@ -1,3 +1,14 @@
+# Changelog Neato
+
+>**IMPORTANT**
+>
+>Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+
+# 11/05/2020
+
+- Amélioration du support des cartes
+- Support des zones
+
 # 06/01/2020
 
 - Amélioration du support des cartes

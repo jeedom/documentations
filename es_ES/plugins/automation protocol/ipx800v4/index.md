@@ -1,4 +1,4 @@
-# IPX800v4
+# Complemento IPX800v4
 
 Este complemento le permite administrar un IPX 800 v4
 
@@ -6,15 +6,15 @@ Este complemento le permite administrar un IPX 800 v4
 
 Después de descargar el complemento, solo necesita activarlo y marcar las casillas que le interesan para las solicitudes de IPX800v4 (por ejemplo, marque X-Dimmer si tiene un X-dimmer). También puede elegir la frecuencia de las solicitudes para aligerar la carga en ipx800v4
 
-> **Important**
+> **Importante**
 >
 > Después de cada modificación de la frecuencia o solicitudes, debe reiniciar el daemon para que se tenga en cuenta
 
-> **Important**
+> **Importante**
 >
 > Para aligerar la carga, se recomienda desmarcar TODAS las solicitudes de tipo y simplemente verificar las API que le conciernen (encontrará detalles en la documentación de la API para IPX800v4)
 
-> **Note**
+> **Nota**
 >
 > Puede ver en esta página el estado del demonio que monitorea el IPX800
 
@@ -27,7 +27,7 @@ Aquí encontrarás toda la configuración de tu equipo :
 
 -   **Nombre del equipo IPX800** : Nombre de vuestro equipo IPX800,
 -   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
--   **Activer** : activa su equipo,
+-   **Activar** : activa su equipo,
 -   **Visible** : hace que su equipo sea visible en el tablero,
 -   **Categoría** : categorías de equipos (puede pertenecer a varias categorías),
 -   **IP** : La ip del IPX800,
@@ -57,7 +57,7 @@ Tienes los tipos de actuadores :
 - Cable piloto
 - ...
 
-> **Note**
+> **Nota**
 >
 > Cierto tipo de actuador puede ocultarse dependiendo del tipo de acción
 
@@ -94,7 +94,7 @@ Tienes diferentes tipos (dependiendo de tus extensiones) :
 - EnOcean
 - ...
 
-Para cada tipo, jeedom le preguntará el número de la información deseada.
+Para cada tipo, jeedom le preguntará el número de la información deseada
 
 # Template
 

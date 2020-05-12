@@ -1,43 +1,42 @@
-27-09-2019
+# Changelog Kodi
 
-Changement de l'addon Kodi pour les cas de playerid non remonté par kodi 
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-23-07-2019
+# 27.09.2019
 
-Mise en stable
+- Änderung des Kodi-Addons für Spieler-ID-Fälle, die von Kodi nicht wieder zusammengesetzt wurden 
 
-24-06-2019
+# 2019-07-23
 
-Page équipement V4
-Gestion partielle Kodi18 (en cours de changement pour la partie addons côté Kodi)
+- Stabil
 
+# 2019-06-24
 
-Version 2 - 2015-04-06 21:57:23
-===
+- V4-Ausrüstungsseite
+- Teilverwaltung von Kodi18 (wird gerade für den Addon-Teil auf der Kodi-Seite geändert)
 
-        Rajout des covers Réécriture de la partie event Text scrolling pour le titre Favicon de type Refonte de la page de config Suppression de la notion de playerID Refont du widget mobile Amélioration de code Corrections de bugs Maj de l'addon Kodi (envoie json, plus d'ids)
+# Version 2 - 2015-04-06 21:57:23
 
-Version 2.1 - 2015-04-06 22:25:15
-===
+- Hinzufügen von Deckblättern Umschreiben des Ereignisteils Umblättern des Textes für den Favicon-Titel vom Typ Neufassung der Konfigurationsseite Entfernen des Begriffs playerID Umbau des mobilen Widgets Codeverbesserung Fehlerkorrekturen Verschiebung des Kodi-Addons (send json, more d 'ids)
 
-        Corrections bugs mineurs
+# Version 2.1 - 06.04.2015 22:25:15
 
-Version 2.3 - 2015-04-07 00:58:11
-===
+- Kleinere Fehlerbehebungen
 
-        suppression des / devant plugins
+# Version 2.3 - 2015-04-07 00:58:11
 
-Version 2.3.1 - 2015-04-07 01:23:17
-===
+- Entfernen von / vor Plugins
 
-        Rajout de debug pour le volume
+# Version 2.3.1 - 2015-04-07 01:23:17
 
-Version 2.3.2 - 2015-04-07 12:28:54
-===
+- Hinzufügen von Debug für Volume
 
-        Page de conf plus clair pour les commandes
+# Version 2.3.2 - 2015-04-07 12:28:54
 
-Version 2.3.3 - 2015-04-07 12:46:34
-===
+- Klarere Conf-Seite für Bestellungen
 
-        Filtre des commandes uniquement personnalisées
+# Version 2.3.3 - 07.04.2015 12:46:34
+
+- Nur Sonderanfertigungen filtern

@@ -1,99 +1,66 @@
-Ce plugin permet la gestion de liens et d’évènements sur l’interface de
-Jeedom. Vous pourrez par exemple avec celui-ci créer une commande qui
-ouvre une modale (fenêtre de dialogue) avec une vue contenant vos
-caméras. Cela permet par exemple lorsque quelqu’un sonne chez vous
-d’afficher directement la caméra de l’entrée sur votre Jeedom.
+# Click Link plugin
 
-Plugin configuration
-=======================
+This plugin allows the management of links and events on the Jeedom interface. You will be able for example with this one to create an order which opens a modal (dialog window) with a view containing your cameras. This allows for example when someone rings at your home to directly display the entry camera on your Jeedom.
 
-After downloading the plugin, you just have to activate it,
-there is no configuration at this level.
+# Plugin configuration
+
+After downloading the plugin, you just need to activate it, there is no configuration at this level.
 
 ![clink1](./images/clink1.PNG)
 
-Equipment configuration
-=============================
+# Equipment configuration
 
-La configuration des équipements Clink est accessible à partir du menu
-Plugins :
+The configuration of Clink equipment is accessible from the Plugins menu :
 
 ![clink2](./images/clink2.PNG)
 
-Voilà à quoi ressemble la page du plugin Clink (ici avec déjà 1
-équipement) :
+This is what the Clink plugin page looks like (here with 1 device already) :
 
 ![clink3](./images/clink3.PNG)
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
-
-Once you click on one of them, you get:
+Once you click on one of them, you get :
 
 ![clink4](./images/clink4.PNG)
 
-You can find here the full configuration of your device :
+Here you find all the configuration of your equipment :
 
--   **Nom de l’équipement Clink** : nom de votre équipement Clink,
+-   **Name de l'équipement Clink** : Clink equipment name,
+-   **Parent object** : indicates the parent object to which the equipment belongs,
+-   **Activate** : makes your equipment active,
+-   **Visible** : makes your equipment visible on the dashboard.
 
--   **Parent Object**: Specifies the parent object to which belongs
-    equipment,
+Below you find the list of orders :
 
--   **Enable**: to make your equipment active,
+-   **Name** : the name displayed on the dashboard,
+-   **Fashion** : the display mode of the element (in a modal, in a new window or in the current window)
 
--   **Visible** : rend votre équipement visible sur le dashboard.
-
-Below you will find the list of commands:
-
--   **Nom** : le nom affiché sur le dashboard,
-
--   **Mode** : le mode d’affichage de l’élément (dans une modale, dans
-    une nouvelle fenêtre ou dans la fenêtre courante)
-
-    > **Note**
+    > **NOTE**
     >
-    > En mobile "nouvelle fenêtre" et "fenêtre courante" font la même
-    > chose : ouverture du lien dans la fenêtre courante
+    > In mobile "new window" and "current window" do the same thing : open link in current window
 
--   **Type** : type d’élément à ouvrir (vue, design, panel ou URL)
+-   **Type** : type of element to open (view, design, panel or URL)
+-   **Name** : option depending on the item selected to open
+-   **User filter** : allows to filter to open the element only if it is this user who is connected
 
--   **Nom** : option en fonction de l’élément choisi à ouvrir
+-   **Page filter** : allows you to filter to open the element only if you are on the page mentioned
 
--   **Filtre utilisateur** : permet de filtrer pour n’ouvrir l’élément
-    que si c’est cet utilisateur qui est connecté
-
--   **Filtre page** : permet de filtrer pour n’ouvrir l’élément que si
-    on est sur la page mentionnée
-
-    > **Note**
+    > **NOTE**
     >
-    > En version mobile cette option ne fait rien
+    > In mobile version this option does nothing
 
--   **Filtre interface** : permet de filtrer pour n’ouvrir l’élément
-    qu’en version mobile/desktop ou sur les 2
-
--   **Afficher** : permet d’afficher la donnée sur le dashboard
-
--   **Tester** : permet de tester la commande,
-
--   **Supprimer** (signe -) : permet de supprimer la commande.
+-   **Interface filter** : allows to filter to open the element only in mobile / desktop version or on both
+-   **Show** : allows to display the data on the dashboard
+-   **Test** : Used to test the command,
+-   **Delete** (sign -) : allows to delete the command.
 
 > **Important**
 >
-> Il ne faut surtout pas ouvrir la même vue sur elle-même, idem pour les
-> designs !
+> It is important not to open the same view on itself, ditto for the designs !
 
 > **Important**
 >
-> En mobile l’ouverture d’une URL ne peut pas être faite dans une modale
-> comme pour les designs.
+> In mobile the opening of a URL cannot be done in a modal as for the designs.
 
 > **Important**
 >
-> Toutes les URLs ne peuvent être ouvertes en modale, cela dépend du
-> site (ex : google.fr ne peut être ouvert dans une modale). Attention
-> aussi si vous êtes en https, il faut absolument que le site à ouvrir
-> dans la modale soit en https.
+> Not all URLs can be opened in modal mode, it depends on the site (ex : google.fr cannot be opened in a modal). Attention also if you are in https, it is absolutely necessary that the site to open in modal is in https.

@@ -1,28 +1,34 @@
+# Changelog Sonos controller
+
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
 # 24/01/2020
 
-- Support du Sonos One S22
+- Suporte para Sonos One S22
 
-# 11/01/2020
+# 01/11/2020
 
-- Ajout Sonos Move
-- Optimisation du code en cas de Sonos non connecté
+- Adicionar Sonos Move
+- Otimização de código no caso de Sonos não conectado
 
 # 16/12/2019
 
-- Correction de bug si un sonos n'est pas joignable
+- Correção de bug se um sistema de som não puder ser alcançado
 
 # 21/10/2017
 
-- Amélioration de la reprise suite à un TTS
+- Melhoria na recuperação do TTS
 
 # 15/10/2019
 
-- Ajout du Sonos port
-- Amélioration du script d'installation des dépendances
+- Adicionada porta Sonos
+- Script de instalação de dependência aprimorado
 
-# 07/10/2019
+# 07/07/2019
 
-- Amélioration du script d'installation de dépendances (pourra permettre de corriger dans certain cas les soucis de TTS)
+- Melhoria do script de instalação de dependências (pode permitir que as preocupações do TTS sejam corrigidas em certos casos)
 
 # 23/09/2019
 
@@ -30,42 +36,42 @@
 
 # 01/09/2019
 
-- Support de l'enceinte lampe Ikea SYMFONISK
+- Suporte para o alto-falante da lâmpada Ikea SYMFONISK
 
 # 12/08/2019
 
-- Support de l'enceinte étagere Ikea SYMFONISK
+- Suporte para o gabinete de prateleira Ikea SYMFONISK
 
 # 23/04/2019
 
-- Ajout des sonos one gen2
+- Adição de sistemas de som gen2
 
 # 17/01/2019
 
-- Correction de bugs dans le cas ou les sonos ont été ajouté manuellement
+- Correção de erros caso os sistemas de som fossem adicionados manualmente
 
 # 15/01/2019
 
-** IMPORTANT NE MARCHE QUE AVEC PHP7, VOIR PAGE SANTE DE JEEDOM POUR VOTRE VERSION**
+** IMPORTANTE APENAS FUNCIONA COM PHP7, VEJA A PÁGINA DE SAÚDE DA JEEDOM PARA SUA VERSÃO**
 
-- Réecriture complete du plugin
-- Support de la nouvelle api Sonos
-- Support des sonos beam et One
-- Correction de nombre bug
-- Optimisation global
+- Reescrita completa do plug-in
+- Suporte para a nova API Sonos
+- Suporte para sonos beam e One
+- Correção do número do bug
+- Otimização global
 
-**Important**
-- Compatible PHP7 uniquement
-- Certain fonction on du être retirées
+**IMPORTANTE**
+- Apenas PHP7 compatível
+- Certas funções deveriam ter sido removidas
 
 
 # 2018
 
-- 	Ajout de la gestion des favoris sonos
--   Ajout Sonos One et Playbase
--   Correction de la langue avec picotts
--   Ajout d’une commande "entrée de ligne"
--   Mise à jour de librairie de communication avec les sonos
--   Optimisation du chargement des playlists
--   Ajout de picotts pour la génération du TTS en locale
--   Correction du bouton play/pause lors de la mise à jour du widget
+- 	Adicionado gerenciamento dos favoritos dos sonos
+-   Adicionar Sonos One e Playbase
+-   Correção da língua com picotts
+-   Adicionando um comando "entrada de linha""
+-   Atualização da biblioteca de comunicação sonora
+-   Carregamento otimizado de playlists
+-   Adição de picotts para geração local de TTS
+-   Correção do botão reproduzir / pausar ao atualizar o widget

@@ -1,12 +1,18 @@
+# Changelog Geoloc
+
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
 # 13/10/2019
 
-- Correction de bugs
+- Correções de bugs
 
-# 02/09/2019
+# 09/09/2019
 
-- Support PHP 7.3
-- Mise à jour de l'interface
+- Suporte PHP 7.3
+- Atualização da interface
 
 # 27/04/2018
 
-- Correction de l'icone
+- Correção de ícone

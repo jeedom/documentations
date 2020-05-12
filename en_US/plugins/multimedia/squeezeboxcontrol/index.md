@@ -1,479 +1,202 @@
-SqueezeBox Control 
-==================
+# SqueezeBox Control plugin 
 
-Description
------------
-
-Ce plugin permet de contrôler tout votre environnement SqueezeBox
-
- \
+This plugin allows you to control your entire SqueezeBox environment
 
 ![squeezeboxcontrol icon](./images/squeezeboxcontrol_icon.png)
 
- \
+This plugin allows you to scan all your SqueezeBoxes, to assign them to the right part if possible. And to be able to control them, synchronize them, make them speak, etc.
 
-Ce plugin permet de scanner toutes vos SqueezeBox, de les attribuer à la
-bonne pièce si cela est faisable. Et de pouvoir les contrôler, les
-synchroniser, les faire parler etc…​.
+# Setup 
 
- \
+Like any Jeedom plugin, you must download the plugin from the market and then activate it. After that begins the configuration step.
 
-Configuration
--------------
+**Atttention particulière pour les utilisateurs de LMS sur SYNOLOGY**
 
- \
+If you use LMS on your Nas Synology, you should know that the version offered by synology is old. But there is a repository to benefit from the latest LMS version 7.9. I strongly advise you to install this version on your NAS, which fixes many bugs.
 
-Comme tout plugin Jeedom, il faut télécharger le plugin depuis le market
-puis l’activer. Suite à cela commence l’étape de configuration.
+[VERSION 7.9 for Synology](http://forums.slimdevices.com/showthread.php?103636-Test-Repo-for-LMS-7-9-0-on-Synology-DSM-5-*)
 
- \
+**Atttention particulière aux utilisateurs du plugin SqueezeBox (le deuxième) du market*
 
-### Attention particulière pour les utilisateurs de LMS sur SYNOLOGY 
+In order to avoid any risk of conflict if you use the other SqueezeBox plugin, I strongly advise you to deactivate it and uninstall the extension in the LMS server.
 
- \
+## Installation and configuration of the LMS plugin
 
-Si vous utilisez LMS sur votre Nas Synology, il faut savoir que la
-version proposée par synology est vieille. Mais il existe un repository
-pour bénéficier de la dernière version LMS la 7.9. Je vous conseille
-fortement d’installer cette version sur votre NAS, qui corrige de
-nombreux bugs.
+In order to benefit from a good synchronization between Jeedom and your SqueezeBox server, it is necessary to install and configure a plugin on the SqueezeBox server. To do this, you just need to add the repository which is given on the plugin page like this :
 
-[VERSION 7.9 pour
-Synology](http://forums.slimdevices.com/showthread.php?103636-Test-Repo-for-LMS-7-9-0-on-Synology-DSM-5-*)
-
- \
-
-### Attention particulière aux utilisateurs du plugin SqueezeBox (le deuxième) du market 
-
- \
-
-Afin d’éviter tout risques de conflit si vous utilisez l’autre plugin
-SqueezeBox, je vous conseille très fortement de le désactiver et de
-désinstaller l’extension dans le serveur LMS.
-
- \
-
-### Installation et configuration du plugin LMS 
-
- \
-
-Afin de bénéficier d’une bonne synchronisation entre Jeedom et votre
-serveur SqueezeBox, il est nécessaire d’installer et configurer un
-plugin sur le serveur SqueezeBox. Pour ce faire, il vous suffit de
-rajouter le repository qui est donné sur la page du plugin comme cela :
-
- \
-
-Cliquez sur paramètre :
-
- \
+Click on parameter :
 
 ![configlms1](./images/configlms1.jpg)
 
- \
-
-Ensuite sur l’onglet Plugins, tout en bas renseigner le repository
-fournit par Jeedom et appliquer:
-
- \
+Then on the Plugins tab, at the bottom fill in the repository provided by Jeedom and apply:
 
 ![configlms2](./images/configlms2.jpg)
 
- \
+You can then install the JeedomSBcontrol plugin, the server will ask you to restart it will have to be done. After restarting, you must configure the JeedomSBcontrol plugin by clicking on parameters. You must enter the Jeedom IP address as well as the API key. If you need to use / jeedom this is also the place to enter it.
 
-Vous pouvez ensuite installer le plugin JeedomSBcontrol, le serveur va
-vous demander de redémarrer il faudra le faire. Après le redémarrage il
-faut paramétrer le plugin JeedomSBcontrol en cliquant sur paramètres.
-Vous devez renseigner l’adresse IP de Jeedom ainsi que la clé API. Si
-vous avez besoin d’utiliser /jeedom c’est ici aussi qu’il faut le
-renseigner.
+Once the parameters have been entered, you must restart the LMS server one last time (be careful if you change the parameters, you must restart the LMS server for the changes to take effect
 
-Une fois les paramètres renseignés il faut redémarrer une dernière fois
-le serveur LMS (attention si vous changez les paramètres il faut
-redémarrer le serveur LMS pour que les changements soient pris en compte
+## Installation and configuration of the Jeedom plugin. 
 
- \
-
-### Installation et configuration du plugin Jeedom. 
-
- \
-
-La configuration du plugin Jeedom est plutôt simple.
-
- \
+The configuration of the Jeedom plugin is rather simple.
 
 ![configjeedom1](./images/configjeedom1.jpg)
 
- \
+You just need to enter the IP address of your LMS server. If you have a port different from port 9000 you can also enter it in the Port field. And finally if you have protected LMS with a password you can also enter it. In 90% of cases only the IP address is necessary.
 
-Il vous suffit juste de renseigner l’adresse IP de votre serveur LMS. Si
-vous avez un port différent du port 9000 vous pouvez le renseigner aussi
-dans le champ Port. Et enfin si vous avez protégé LMS par un mote de
-passe vous pouvez aussi le renseigner. Dans 90% des cas seul l’adresse
-IP est nécessaire.
+Once done, just SAVE. Once the backup is done, you can click on LAUNCH to launch the self-discovery of your SqueezeBoxes.
 
-Une fois fait, il vous suffit de SAUVEGARDER. Une fois la sauvegarde
-faite, vous pouvez cliquer sur LANCER pour lancer l’autodécouverte de
-vos SqueezeBoxs.
+When the scan is finished you should see the version of your LMS server as well as the number of SB detected.
 
-Lorsque le scan sera finis vous devriez voir la version de votre serveur
-LMS ainsi que le nombre de SB détectée.
-
-Pour observer le résultat il vous suffit de vous rendre dans
-PLugons/Multimédia/SqueezeBox Control:
-
- \
+To observe the result, simply go to PLugons / Multimedia / SqueezeBox Control:
 
 ![configjeedom2](./images/configjeedom2.jpg)
 
- \
-
-Vous arriverez sur la page suivante :
-
- \
+You will arrive on the following page :
 
 ![configjeedom3](./images/configjeedom3.jpg)
 
- \
+You will see that your squeezeboxes have appeared and that those that could have been assigned to an object are.
 
-Vous pourrez constater que vos squeezebox sont apparues et que celles
-qui ont pu être attribuées à un objet le sont.
+On this page in addition to your equipment you can see three options at the top :
 
-Sur cette page en plus de vos équipements vous pouvez voir trois options
-en haut :
-
-**Panel :** vous permet d’accéder au panel spécifique SqueezeBox Control
-aussi disponible ici :
-
- \
-
+- **Panel** : allows you to access the specific SqueezeBox Control panel also available here :
 ![panel1](./images/panel1.jpg)
-
- \
-
-**Configuration :** vous permet d’accéder à la configuration du serveur
-LMS directement
-
- \
-
+- **Setup** : allows you to access the server configuration
+LMS directly
 ![configlms](./images/configlms.jpg)
-
- \
-
-**Serveur :** vous permet d’accéder à votre serveur LMS directement
-
- \
-
+- **Server** : allows you to access your LMS server directly
 ![serveurlms](./images/serveurlms.jpg)
 
- \
+# The equipments 
 
-Les équipements 
----------------
+When you click on an item of equipment, you arrive on its page :
 
-Lorsque vous cliquez sur un équipement vous arrivez sur la page de
-celui-ci :
+![squeezeboxcontrol screenshot8](./images/squeezeboxcontrol_screenshot8.jpg)
 
- \
+You will find on this page all the info of your SqueezeBox, as well as all the commands and some options (others will come) :
 
-![squeezeboxcontrol
-screenshot8](./images/squeezeboxcontrol_screenshot8.jpg)
+- **No volume :** allows you to adjust the step of a Volume + or Volume action-
+- **Atuto On/Off sur synchro :** if this option is activated if a sync is done on this squeezebox, it will turn on and off when out of sync.
+- **Jingle Pre TTS :** allows to define if before a speech synthesis there will be a jingle of the dingdong type.
+- **Engine :** allows you to choose the speech synthesis engine (picotts, google, voxygen). A scenario command allows you to change it on the fly.
+- **Tts options :** allows to choose the voice or the language of the text-to-speech according to the chosen engine. A scenario command allows you to change it on the fly.
 
- \
+# The dashboard 
 
-Vous retrouverez sur cette page toutes les infos de votre SqueezeBox,
-ainsi que toutes les commandes et quelques options (d’autres viendront)
-:
-
-**Pas du volume :** vous permet de régler le pas d’une action Volume+ ou
-Volume-
-
-**Auto On/Off sur synchro :** si cette option est activée si une synchro
-est faite sur cette squeezebox, elle s’allumera et s’éteindra à la
-désynchro.
-
-**Jingle Pre TTS :** permet de definir si avant une synthèse vocale il y
-aura un jingle du type dingdong.
-
-**Moteur :** permet de choisir le moteur de synthèse vocale (picotts,
-google, voxygen). Une commande scénario permet de le changer à la volée.
-
-**Options tts :** permet de choisir la voix ou la langue de la synthèse
-vocale en fonction du moteur choisi. Une commande scénario permet de le
-changer à la volée.
-
- \
-
-Le dashboard 
-------------
-
-Si vous affichez votre squeezebox sur le dashboard voilà ce que vous
-obtiendrez :
-
- \
+If you display your squeezebox on the dashboard this is what you will get :
 
 ![dashboard](./images/dashboard.jpg)
 
- \
+- **At :** Allows both to control the switching on and off of your SqueezeBox and to know at a glance if it is switched on
+- **B :** Allows you to synchronize your SqueezeBox to another, to all others, from another or to desynchronize it (see the synchronization section for more details)
+- **VS :** Allows you to see the cover of the current reading (will be in color or in Black and White depending on the state of the SqueezeBox). A click on the jacket also allows direct access to its media library :
 
-**A :** Permet à la fois de controller l’allumage et l’extinction de
-votre SqueezeBox et de savoir en un coup d’oeil si elle est allumée
+![squeezeboxcontrol screenshot7](./images/squeezeboxcontrol_screenshot7.jpg)
 
-**B :** Permet de synchroniser votre SqueezeBox vers une autre, vers
-toutes les autres, depuis une autre ou de la désynchroniser (voir la
-partie synchronisation pour plus de détails
+- **D :** Displays the artist and the current album (this scroll text beyond a certain length)
+- **E :** Displays the title of the current reading (this text scroll beyond a certain length)
+- **F :** Control panel with basic functions (Back, Fast rewind, Play / Pause, Stop, Fast forward, Next)
+- **G :** Volume control panel (slider and two Vol- and Vol + buttons)
 
-**C :** Permet de voir la jaquette de la lecture en cours (sera en
-couleur ou en Noir et Blanc en fonction de l’état de la SqueezeBox). Un
-clique sur la jaquette permet aussi d’accéder à sa médiathèque
-directement :
+# Dashboard synchronization panel
 
- \
-
-![squeezeboxcontrol
-screenshot7](./images/squeezeboxcontrol_screenshot7.jpg)
-
- \
-
-**D :** Affiche l’artiste et l’album en cours ( ce texte scroll au dela
-d’une certaine longueur)
-
-**E :** Affiche le titre de la lecture en cours ( ce texte scroll au
-dela d’une certaine longueur)
-
-**F :** Panneau de commande avec les fonctions de base (Précédent,Retour
-rapide, Lecture/Pause, Stop, Avance rapide, Suivant)
-
-**G :** Panneau de contrôle du volume (slider et deux boutons Vol- et
-Vol+)
-
- \
-
-Panneau de synchronisation du dashboard : 
------------------------------------------
-
-Lorsque vous cliquez sur le bouton de synchronisation une fenêtre
-s’ouvre :
-
- \
+When you click on the synchronization button a window opens :
 
 ![squeezeboxcontrol
-screenshot4](./images/squeezeboxcontrol_screenshot4.jpg)
+screenshot4](../ images / squeezeboxcontrol_screenshot4.jpg)
 
- \
+On this window you can see the current synchronization status of your squeezebox. Here are the available options :
 
-Sur cette fenêtre vous pouvez voir l’état actuel de synchronisation de
-votre squeezebox. Voici les options disponibles :
+- **Sync from :** allows you to synchronize this squeezebox from the squeezebox chosen in the drop-down menu
+- **Synchronize to :** allows you to synchronize this squeezebox to the squeezebox chosen in the drop-down menu
+- **Synchronize to all :** allows you to synchronize this squeezebox to all your squeezeboxs
+- **Désynchroniser :** only visible if the squeezebox is in sync, and this action allows to desynchronize it.
 
- \
+# Pannel SqueezeBox Control
 
-**Synchroniser depuis :** permet de synchroniser cette squeezebox depuis
-la squeezebox choisie dans le menu déroulant
-
-**Synchroniser vers :** permet de synchroniser cette squeezebox vers la
-squeezebox choisie dans le menu déroulant
-
-**Synchroniser vers toutes :** permet de synchroniser cette squeezebox
-vers toutes vos squeezeboxs
-
-**Désynchroniser :** uniquement visible si la squeezebox est en synchro,
-et cette action permet de lé désynchroniser.
-
- \
-
-Pannel SqueezeBox Control : 
----------------------------
-
-Ce panel vous permet d’avoir une vue d’ensemble de toutes vos
-squeezeboxs :
-
- \
+This panel allows you to have an overview of all your squeezeboxes :
 
 ![panel2](./images/panel2.jpg)
 
- \
+You can indeed filter your SqueezeBox by objects with the hidden menu on the left. At a glance you can see the squeezeboxes on, off, in sync. Obviously all the actions available on the dashboard are also available here.
 
-Vous pouvez en effet filtrer vos SqueezeBox par objets avec le menu
-masqué sur la gauche. En un coup d’oeil vous pouvez voir les squeezebox
-allumées, éteintes, en synchro. Bien évidemment toutes les actions
-disponibles sur le dashboard sont aussi disponibles ici.
+However, other options are available at the top :
 
-Cependant d’autres options sont disponibles en haut :
+- **Light up toutes :** turns on all squeezeboxes
+- **Turn off toutes :** turns off all squeezeboxes
+- **Server LMS :** allows direct access to your LMS server
+- **Setup :** allows direct access to the configuration of your LMS server
+- **Full scan :** allows you to trigger a complete scan of your media library on the LMS server
+- **Quick Scan :** allows you to trigger a quick scan of your media library on the LMS server
+- **Scan Playlist :** allows you to trigger a scan of your playlists on the LMS server
+- **Devices :** allows you to go directly to the general page of your equipment
 
- \
+# Orders available via scenario
 
-**Allumer toutes :** permet d’allumer toutes les squeezeboxs
+Many commands are available via scenarios (others will come). Here is the complete list :
 
-**Eteindre toutes :** permet d’éteindre toutes les squeezeboxs
+- **Album :** info command containing the current album
+- **Light up :** turns on the squeezebox
+- **Light up tous :** turns on all squeezeboxes
+- **Artist :** info command containing the artist in progress
+- **Advanced :** Fast forward
+- **Désynchroniser :** allows you to desynchronize the squeezebox
+- **State :** Know the state of the squeezebox
+- **Turn off :** turns off the squeezebox
+- **Turn off tous :** turns off all squeezeboxes **Play Album :** command message allowing to play the album passed in parameter (message) (current alpha function works but may not give the desired result)
+- **Play Artist :** command message allowing to play the artist passed in parameter (message) (current alpha function works but may not give the desired result)
+- **Play Genre :** message command allowing to play the genre passed in parameter (message) (current alpha function works but may not give the desired result)
+- **Play Playlist :** command message allowing to play the playlist passed in parameter (message) (current alpha function works but may not give the desired result)
+- **Play Piece :** command message allowing to play the song passed in parameter (message) (current alpha function works but may not give the desired result) Will also give the songs that contain the word
+- **Play Favorites :** command message allowing to play the favorites corresponding to what is passed in parameter (message) (this function is based on the indexes and can take several indexes separated by; . We can also define a range with - .  Example : 0.0-0.2; 2 will play a favorite with index 2 or something between 0.0 and 0.2 included. LMS indexes are based on a directory architecture and are explained in the LMS doc)
+- **Play Favorites by Name :** command message allowing to play the favorites corresponding to what is passed in parameter (message) (based on the names it takes in parameter a single name and will add all the corresponding favorites. Example : radio will return all favorites that contain radio or are in a directory that contains radio another example : radio / will necessarily give favorites which are in a favorites directory which is called radio. This command is not case sensitive)
+- **Play Url :** command message allowing to play a url passed in parameter
+- **Play :** command to play the squeezebox
+- **Mute :** command to mute the squeezebox
+- **Not mute :** command to restore the sound of the squeezebox
+- **Speak :** message command to make the squeezebox speak
+- **Speak full options :** message command to make the squeezebox speak. The message will be the text, the title may contain several options 
 
-**Serveur LMS :** permet d’accéder directement à votre serveur LMS
+- multi : allows to speak on several squeezebox at the same time : multi = toilet; bedroom will make the squeezebox that initiates the command speak as well as toilet and bedroom
+- Volume : allows to define the volume to be used for the TTS : volume=70
+- voice : only for TTSwebserver, allows to choose the voice at random from a list or among all (except pico) : Example : voice = all or voice = melodine; sorciere
+- jingle : allows you to choose a jingle to play before (or to choose from a list) example : jingle = cuckoo or jingle = cuckoo; be careful
+- playurl : allows to continue by reading an url after the tts (example playurl = XXXXXXXXXX)
+- playfavoris : ditto with an index favorite (see favorites command)
+- playfavorisname : idem but with the functions of the favorites command name
+- playalbum : ditto with the name of an album or part of the name)
+- playartist : ditto with the name of an artist (or part of the name)
+- playgender : ditto with the name of a genus
+- playsong : ditto with the name of a song (or part of the name)
+- playplaylist : ditto with the name of a playlist
+- playstop : with playstop = 1 this will stop the squeezeboxes after tts (otherwise they will resume their initial state)
+- playoff : with playoff = 1 this will stop the squeezeboxes after tts (otherwise they will resume their initial state)
 
-**Configuration :** permet d’accéder directement à la configuration de
-votre serveur LMS
+- **Configure TTS :** very interesting option allowing in a scenario to change the setting of the TTS engine on the fly (see section The TTS in scenario)
+- **Pause :** command to pause the squeezebox
+- **Previous :** order previous song
+- **Back off :** fast return command
+- **Scan Fast :** command to trigger a quick scan of your media library on the LMS server (ideal for scheduling regular scans)
+- **Full scan :** command to trigger a complete scan of your media library on the LMS server (ideal for scheduling regular scans)
+- **Scan Playlist :** command to trigger a scan of your playlists on the LMS server (ideal for scheduling regular scans)
+- **STOP :** command to stop the squeezebox (not turn it off)
+- **Next :** next song command
+- **Sync with :** info command allowing to know with whom the squeezebox is synchronized
+- **Sync since :** message command allowing to synchronize the squeezebox from the squeezebox passed in parameter (message) The value can either be the mac address of the squeezebox or the exact name it has in Jeedom
+- **Sync to :** message command allowing to synchronize the squeezebox to the squeezebox passed in parameter (message) The value can either be the mac address of the squeezebox or the exact name it has in Jeedom
+- **Sync to all :** command to synchronize the squeezebox to all your squeezeboxes
+- **Current title :** info command containing the current title
+- **Volume :** control to adjust the volume
+- **Volume Status :** info command with current volume
+- **Volume + :** volume control
+- **Volume- :** control to lower the volume
 
-**Scan Full :** permet de déclencher un scan complet de votre
-médiathèque sur le serveur LMS
+# TTS in scenario 
 
-**Scan Rapide :** permet de déclencher un scan rapide de votre
-médiathèque sur le serveur LMS
+The tts in scenario is simple. You can make your squeezebox speak according to the predefined parameters on the equipment. But you can also in your scenarios come and change the parameters to make notifications with different voices or engines depending on the announcement to be made:
 
-**Scan Playlist :** permet de déclencher un scan de vos playlists sur le
-serveur LMS
-
-**Equipements :** permet d’aller directement sur la page générale de vos
-équipements
-
- \
-
-Commandes disponibles via scénario : 
-------------------------------------
-
- \
-
-De nombreuses commandes sont disponibles via scénarios (d’autres
-viendront). Voici la liste complète :
-
- \
-
-**Album :** commande info contenant l’album en cours
-
-**Allumer :** permet d’allumer la squeezebox
-
-**Allumer tous :** permet d’allumer toutes les squeezebox
-
-**Artiste :** commande info contenant l’artiste en cours
-
-**Avance :** avance rapide
-
-**Désynchroniser :** permet de désynchroniser la squeezebox
-
-**Etat :** Connaitre l’état de la squeezebox
-
-**Eteindre :** permet d’éteindre la squeezebox
-
-**Eteindre tous :** permet d’éteindre toutes les squeezebox
-
-**Jouer Album :** commande message permettant de jouer l’album passé en
-paramètre (message) (fonction alpha en cours fonctionne mais peut ne pas
-donner le résultat voulu)
-
-**Jouer Artiste :** commande message permettant de jouer l’artiste passé
-en paramètre (message) (fonction alpha en cours fonctionne mais peut ne
-pas donner le résultat voulu)
-
-**Jouer Genre :** commande message permettant de jouer le genre passé en
-paramètre (message) (fonction alpha en cours fonctionne mais peut ne pas
-donner le résultat voulu)
-
-**Jouer Playlist :** commande message permettant de jouer la playlist
-passée en paramètre (message) (fonction alpha en cours fonctionne mais
-peut ne pas donner le résultat voulu)
-
-**Jouer Morceau :** commande message permettant de jouer le morceau
-passée en paramètre (message) (fonction alpha en cours fonctionne mais
-peut ne pas donner le résultat voulu) Donnera aussi les morceaux qui contiennent le mot
-
-**Jouer Favoris :** commande message permettant de jouer les favoris correspondant
-à ce qui est passé en paramètre (message) (cette fonction se base sur les indexs et peut prendre plusieurs index séparés par des ; . On peut aussi définir un range avec - . 
-Exemple : 0.0-0.2;2  jouera un favoris qui a pour index 2 ou quelquechose entre 0.0 et 0.2 inclus. Les indexs de LMS sont basés sur une architecture de répertoire et sont expliqués sur la doc LMS)
-
-**Jouer Favoris par nom :** commande message permettant de jouer les favoris correspondant
-à ce qui est passé en paramètre (message) (basés sur les noms elle prend en paramètre un seul nom et ajoutera tous les favoris correspondant. exemple : radio retournera tous les favoris qui contiennent radio ou sont dans un répertoire qui contien radio
-autre exemple : radio/ donnera forcément des favoris qui sont dans un répertoire favoris qui se nomme radio. Cette commande n'est pas sensible à la casse)
-
-**Jouer Url :** commande message permettant de jouer une url passée en
-paramètre
-
-**Lecture :** commande permettant de mettre en lecture la squeezebox
-
-**Muet :** commande permettant de couper le son de la squeezebox
-
-**Non Muet :** commande permettant de remettre le son de la squeezebox
-
-**Parle :** commande message permettant de faire parler la squeezebox
-
-**Parle full options :** commande message permettant de faire parler la squeezebox. Le message sera le texte le titre lui peut contenir plusieurs options 
-
-- multi : permet de faire parler sur plusieurs squeezebox à la fois : multi=toilettes;chambre fera parler la squeezebox qui initie la commande ainsi que toilettes et chambre
-- volume : permet de définir le volume à utiliser pour le TTS : volume=70
-- voice : seulement pour TTSwebserver, permet de faire choisir la voix au hasard parmis une liste ou parmi toutes (sauf pico) : exemple : voice=all  ou voice=melodine;sorciere
-- jingle : permet de choisir un jingle à jouer avant (ou à choisir parmi une liste) exemple : jingle=coucou  ou jingle=coucou;attention
-- playurl : permet d'enchainer par la lecture d'une url apres le tts (exemple playurl=XXXXXXXXXX)
-- playfavoris : idem avec un favoris en index (cf commande favoris)
-- playfavorisname : idem mais avec les fonctions de la commande favoris nom
-- playalbum : idem avec le nom d'un album ou un bout du nom)
-- playartist : idem avec le nom d'un artiste (ou un bout du nom)
-- playgenre : idem avec le nom d'un genre
-- playsong : idem avec le nom d'un morceau (ou un bout du nom)
-- playplaylist : idem avec le nom d'une playlist
-- playstop : avec playstop=1 cela stoppera les squeezebox apres le tts (sinon elles reprennent leur etat initiale)
-- playoff : avec playoff=1 cela arretera les squeezebox apres le tts (sinon elles reprennent leur etat initiale)
-
-**Paramétrer TTS :** option très intéressante permettant dans un
-scénario de changer le réglage du moteur TTS à la volée (voir section Le
-TTS en scénario)
-
-**Pause :** commande permettant de mettre en pause la squeezebox
-
-**Précédent :** commande chanson précédente
-
-**Recule :** commande retour rapide
-
-**Scan Fast :** commande permettant de déclencher un scan rapide de
-votre médiathèque sur le serveur LMS (idéal pour programmer des scans
-réguliers)
-
-**Scan Full :** commande permettant de déclencher un scan complet de
-votre médiathèque sur le serveur LMS (idéal pour programmer des scans
-réguliers)
-
-**Scan Playlist :** commande permettant de déclencher un scan de vos
-playlists sur le serveur LMS (idéal pour programmer des scans réguliers)
-
-**Stop :** commande permettant de mettre en stop la squeezebox (pas
-l’éteindre)
-
-**Suivant :** commande chanson suivante
-
-**Synchro avec :** commande info permettant de savoir avec qui est
-synchonisée la squeezebox
-
-**Synchro depuis :** commande message permettant de synchroniser la
-squeezebox depuis la squeezebox passé en paramètre (message) La valeur
-peut soit être l’adresse mac de la squeezebox soit le nom exact qu’elle
-a dans Jeedom
-
-**Synchro vers :** commande message permettant de synchroniser la
-squeezebox vers la squeezebox passé en paramètre (message) La valeur
-peut soit être l’adresse mac de la squeezebox soit le nom exact qu’elle
-a dans Jeedom
-
-**Synchro vers tous :** commadne permettant de synchroniser la
-squeezebox vers toutes vos squeezebox
-
-**Titre en cours :** commande info contenant le titre en cours
-
-**Volume :** commande permettant de regler le volume
-
-**Volume Status :** commande info avec le volume actuel
-
-**Volume+ :** commande permettant de monter le volume
-
-**Volume- :** commande permettant de baisser le volume
-
- \
-
-Le TTS en scénario 
-------------------
-
-Le tts en scénario est simple. Vous pouvez faire parler votre squeezebox
-en fonction des paramètres prédéfinis sur l’équipement. Mais vous pouvez
-aussi dans vos scénarios venir changer les paramètres pour faire des
-notifications avec des voix ou moteur différents en fonction de
-l’annonce à faire:
-
-Pour cela il faut utiliser la fonction "Paramétrer TTS". Elle permet de
-définir le moteur et la voix avant de lancer la synthèse , exemples :
+To do this, use the "Configure TTS" function". It allows to define the engine and the voice before launching the synthesis, examples :
 
 ![tts1](./images/tts1.jpg)
 
@@ -481,36 +204,28 @@ définir le moteur et la voix avant de lancer la synthèse , exemples :
 
 ![tts3](./images/tts3.jpg)
 
-Les options possibles pour le moteur sont (attention respectez les
-majuscules minuscules)
+The possible options for the engine are (be careful, respect lower case capital letters)
 
-+------------------+---------------------------------------------------------+
-| Moteur           | Options possibles                                       |
-+==================+=========================================================+
++ ------------------ + ------------------------------ --------------------------- +
+| Engine           | Possible options                                       |
++ ================== + =============================== ============================ +
 | **picottts**     | fr-FR, de-DE, en-US, en-GB, es-ES, it-IT                |
-+------------------+---------------------------------------------------------+
++ ------------------ + ------------------------------ --------------------------- +
 | **google**       | fr, af, sq, ar, hy, ca, zh-CN, zh-TW, hr, cs, da, nl,   |
 |                  | en, en-us, en-au, eo, fi, de, el, ht, hi, hu, is, id,   |
 |                  | it, ja, ko, la, lv, mk, no, pl, pt, ro, ru, sr, sk, es, |
 |                  | sw, sv, ta, th, tr, vi, cy                              |
-+------------------+---------------------------------------------------------+
-| **voxygen**      | Agnes, Bicool, Chut, Damien, DarkVadoor, Electra, Emma, |
++ ------------------ + ------------------------------ --------------------------- +
+| **voxygen**      | Agnes, Bicool, Hush, Damien, DarkVadoor, Electra, Emma, |
 |                  | Eva, Fabienne, Guy, Helene, JeanJean, John, Loic,       |
 |                  | Ludovic, Matteo, Melodine, Michel, Papi, Philippe,      |
-|                  | Ramboo, Robot, Sidoo, Sorciere, Yeti, Zozo, Adel,       |
+|                  | Ramboo, Robot, Sidoo, Witch, Yeti, Zozo, Adel,       |
 |                  | Matthias, Sylvia, Bibi, Bronwen, Elizabeth, Paul,       |
 |                  | Amanda, Phil, Marta, Pedro, Sonia                       |
-+------------------+---------------------------------------------------------+
++ ------------------ + ------------------------------ --------------------------- +
 
-Si le moteur saisit est invalide rien ne sera changé. Si l’option est
-invalide par défaut sera attribué le premier de la liste
+If the motor entered is invalid nothing will be changed. If the option is invalid by default, the first in the list will be assigned
 
-Exemple de scénario : 
----------------------
-
- \
+# Example scenario
 
 ![scenar](./images/scenar.jpg)
-
- \
-

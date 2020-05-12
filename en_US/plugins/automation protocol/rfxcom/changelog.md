@@ -1,48 +1,54 @@
-# 02/10/2019
+# Changelog RFXcom
 
-- Amélioration de la fonction de detection du port du rfxcom
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 16/05/2019
+# 10/02/2019
+
+- Improvement of the rfxcom port detection function
+
+# 05/16/2019
 
 - Correction bug interface
 
-# 03/05/2019
+# 05/03/2019
 
-- Suppresion du suport MCZ 3 fan
+- Remove the fan MCZ 3 fan
 
-# 30/04/2019
+# 04/30/2019
 
-- Correction bug
+- Bug fix
 
-# 29/04/2019
+# 04/29/2019
 
-- Correction d'un bug si le niveau de log est sur aucun
-- Support du MCZ 3 fan
-- Mise à jour de la doc
+- Correction of a bug if the log level is none
+- MCZ 3 fan support
+- Updating the doc
 
-# 08/10/2018
+# 10/08/2018
 
-- Fix comparaison expected et wanted protocols en lowercase
+- Fix comparison expected and wanted protocols in lowercase
 
-# 08/10/2018
+# 10/08/2018
 
-- Revu du démarrage du démon (by Sarakha)
-- Compatible avec le derniere RFXCOM (by Sarakha)
-- Séparation en thread de l'écoute socket et clef RFXCOM (by Sarakha)
+- Demon startup review (by Sarakha)
+- Compatible with the latest RFXCOM (by Sarakha)
+- Separation in thread of listening socket and RFXCOM key (by Sarakha)
 
-# 14/04/2018
+# 04/14/2018
 
-- Correction d'un bug ou le démon pouvez rater certain message si ceux-ci arrivaient avant l'envoi à Jeedom en meme temps avec le meme packet type
+- Correction of a bug or the demon can miss certain message if these arrived before sending to Jeedom at the same time with the same packet type
 
-# 17/03/2018
+# 03/17/2018
 
-- Mise à jour de la doc
+- Updating the doc
 
-# 28/02/2018
+# 02/28/2018
 
-- Correction d'un bug sur le changement de batterie
+- Correction of a bug on the battery change
 
-# 01-12-2017
+# 2017-12-01
 
--   Les commandes d’action pour les modules de type télécommande sont
-    automatiquement créées
+-   The action commands for the remote control type modules are
+    automatically created

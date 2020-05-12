@@ -1,171 +1,127 @@
-Le plugin Sonos permet de piloter les Sonos Play 1, 3, 5, Sonos Connect,
-Sonos Connect AMP et Sonos Playbar. Il va vous permettre de voir l’état
-du/des Sonos et d’effectuer des actions dessus (lecture, pause, suivant,
-précédent, volume, choix d’une playlist…​)
+# Sonos plugin
 
-# Configuration du plugin
+O plugin Sonos permite controlar o Sonos Play 1, 3, 5, Sonos Connect, Sonos Connect AMP, Sonos Playbar, Ikea Symfonisk ... Permite visualizar o estado do Sonos e executar ações nele. (reproduzir, pausar, próximo, anterior, volume, escolha de uma lista de reprodução ...)
 
-La configuration est très simple, après téléchargement du plugin, il
-vous suffit de l’activer et c’est tout. Le plugin va rechercher les
-Sonos sur votre réseau et créer les équipements automatiquement. De
-plus, s’il y a une correspondance entre les objets Jeedom et les pièces
-du Sonos, Jeedom affectera automatiquement les Sonos dans les bonnes
-pièces.
+# Configuração do plugin
 
-> **Tip**
+A configuração é muito simples, depois de baixar o plugin, você só precisa ativá-lo e pronto. O plugin irá procurar Sonos na sua rede e criar o equipamento automaticamente. Além disso, se houver uma correspondência entre os objetos Jeedom e as salas Sonos, o Jeedom atribuirá automaticamente o Sonos às salas certas.
+
+> **Dica**
 >
-> Lors d ela decouverte initial il est fortement conseillé de ne pas avoir de sonos groupé sous peine d'avoir des erreurs
+> Durante a descoberta inicial, é altamente recomendável não agrupar os sistemas de som sob pena de ter erros
 
-Si plus tard vous ajoutez un Sonos, vous pouvez soit créer un équipement
-Sonos en donnant l’IP à Jeedom ou cliquer sur "Rechercher les
-équipements Sonos"
+Se você adicionar um Sonos posteriormente, poderá criar um dispositivo Sonos fornecendo o IP a Jeedom ou clique em "Procurar dispositivos Sonos"
 
--   **Voix** : choix de la voix lors du TTS
--   **Partage** : nom du partage ainsi que le chemin du dossier
--   **Nom d’utilisateur pour le partage** : nom d’utilisateur pour
-    accéder au partage
--   **Mot de passe du partage** : mot de passe du partage
--   **Découverte** : découvre automatiquement les sonos (ne marche pas
-    sur une installation de type docker où il faut créer à la main
-    chaque sonos)
--   **Dépendance Sonos** : installer les dépendances sonos pour le TTS
+-   **Voz** : escolha de voz durante TTS
+-   **Partilha** : compartilhar nome e caminho da pasta
+-   **Nome d'utilisateur pour le partage** : nome de usuário para acessar o compartilhamento
+-   **Compartilhando senha** : Compartilhando senha
+-   **Descoberta** : descobrir automaticamente os sistemas de som (não funciona em uma instalação do tipo docker em que cada sistema de som deve ser criado manualmente)
+-   **Dependência Sonos** : instalar dependências de sonos para TTS
 
-> **Important**
+> **IMPORTANTE**
 >
-> Les messages trop longs ne peuvent être transmis en TTS (la limite
-> dépend du fournisseur de TTS, en général environ 100 caractères)
+> Mensagens muito longas não podem ser transmitidas no TTS (o limite
+> depende do provedor TTS, geralmente com cerca de 100 caracteres)
 
-# Configuration des équipements
+# Configuração do equipamento
 
-La configuration des équipements Sonos est accessible à partir du menu
-Plugins puis multimedia
+A configuração do equipamento Sonos pode ser acessada no menu Plugins e depois em multimídia
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nom de l’équipement Sonos** : nom de votre équipement Sonos
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
--   **Activer** : permet de rendre votre équipement actif
--   **Visible** : le rend visible sur le dashboard
--   **Modèle** : le modèle de votre Sonos (à ne changer que si ce n’est
-    pas le bon)
--   **IP** : l’IP de votre Sonos, peut être utile si votre Sonos change
-    d’IP ou si vous le remplacez
+-   **Nome de l'équipement Sonos** : nome do seu equipamento Sonos
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence
+-   **Ativar** : torna seu equipamento ativo
+-   **Visivél** : torna visível no painel
+-   **Modelo** : o modelo do seu Sonos (só mude se não for o correto)
+-   **IP** : o IP do seu Sonos, pode ser útil se o seu Sonos alterar o IP ou se você o substituir
 
-En-dessous vous retrouvez la liste des commandes :
+Abaixo você encontra a lista de pedidos :
 
--   **Nom** : nom de la commande
--   **Configuration avancée (petites roues crantées)** : permet
-    d’afficher la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
--   **Tester** : permet de tester la commande
+-   **Nome** : nome do comando
+-   **Configuração avançada (pequenas rodas dentadas)** : exibe a configuração avançada do comando (método de registro, widget etc.)
+-   **Teste** : permite testar o comando
 
-Comme commande vous retrouverez :
+Como ordem, você encontrará :
 
--   **Jouer playlist** : commande de type message permettant de lancer
-    une playlist, il suffit dans le titre de mettre le nom de
-    la playlist. Vous pouvez mettre "random" dans message pour mélanger
-    la playlist avant la lecture.
--   **Jouer favoris** :  commande de type message permettant de lancer
-    un favoris, il suffit dans le titre de mettre le nom du favoris. Vous
-    pouvez mettre "random" dans message pour mélanger le favoris avant la lecture.
--   **Jouer une radio** : commande de type message permettant de lancer
-    une radio, il suffit dans le titre de mettre le nom de la radio
-    (ATTENTION celle ci doit être dans les radios favorites).
--   **Ajout un haut-parleur** : permet d’ajouter un haut-parleur
-    (un Sonos) au haut-parleur courant (pour associer 2 Sonos
-    par exemple). Il faut mettre le nom de la pièce du sonos à ajouter
-    dans le titre (le champs message n’est pas utilisé ici).
--   **Supprimer un haut-parleur** : permet de supprimer un haut-parleur
-    (un Sonos) au haut-parleur courant (pour dissocier 2 Sonos
-    par exemple). Il faut mettre le nom de la piéce du Sonos à supprimer
-    dans le titre (le champs message n’est pas utilisé ici).
--   **Aléatoire statut** : indique si on est en mode aléatoire ou non
--   **Aléatoire** : inverse le statut du mode aléatoire
--   **Répéter statut** : indique si on est en mode répété ou non
--   **Répéter** : inverse le statut du mode "répéter"
--   **Image** : lien vers l’image de l’album
--   **Album** : nom de l’album en cours de lecture
--   **Artiste** : nom de l’artiste en cours de lecture
--   **Piste** : nom de la piste en cours de lecture
--   **Muet** : passe en muet
--   **Précédent** : piste précédente
--   **Suivant** : piste suivante
--   **Lecture** : passer en lecture
--   **Pause** : mettre en pause
--   **Stop** : arrêter la lecture
--   **Volume** : modifier le volume (de 0 à 100)
--   **Volume statut** : niveau du volume
--   **Statut** : statut (pause, lecture, transition…​)
--   **Dire** : permet de lire un texte sur le Sonos (voir partie TTS).
-    Dans le titre vous pouvez mettre le volume et dans le message, le
-    message à lire
+-   **Reproduzir lista de reprodução** : comando de tipo de mensagem para iniciar uma lista de reprodução, basta colocar o nome da lista no título. Você pode colocar "aleatório" na mensagem para misturar a lista de reprodução antes de reproduzir.
+-   **Reproduzir Favoritos** :  comando de tipo de mensagem para iniciar um marcador, basta colocar o nome do marcador no título. Você pode colocar "aleatório" na mensagem para misturar favoritos antes de ler.
+-   **Tocar rádio** : comando de tipo de mensagem para iniciar um rádio, apenas no título, coloque o nome do rádio (CUIDADO, este deve estar nos rádios favoritos).
+-   **Adicionando um alto-falante** : permite adicionar um alto-falante (um Sonos) ao alto-falante atual (para associar 2 Sonos, por exemplo). Você deve colocar o nome da sala de sonos para adicionar no título (o campo de mensagem não é usado aqui).
+-   **Remover alto-falante** : permite excluir um alto-falante (um Sonos) do atual (para dissociar 2 Sonos, por exemplo). Você deve colocar o nome da parte do Sonos para excluir no título (o campo de mensagem não é usado aqui).
+-   **Status aleatório** : indica se estamos no modo aleatório ou não
+-   **Aleatório** : reverter o status do modo aleatório
+-   **Repita o status** : indica se estamos no modo de repetição ou não
+-   **Repetir** : reverter o status do modo "repetir""
+-   **Imagem** : link para a imagem do álbum
+-   **Album** : nome do álbum atualmente sendo reproduzido
+-   **Artista** : nome do artista atualmente sendo reproduzido
+-   **Track** : nome da faixa atualmente sendo reproduzida
+-   **Silenciar** : mudo
+-   **Anterior** : faixa anterior
+-   **Seguinte** : próxima faixa
+-   **Leitura** : ler
+-   **Pausa** : pausar
+-   **Pare** : pare de ler
+-   **Volume** : alterar o volume (de 0 a 100)
+-   **Volume statut** : Nível de volume
+-   **Estado** : status (pausa, leitura, transição ...)
+-   **Para dizer** : permite ler um texto no Sonos (consulte a parte TTS). No título, você pode definir o volume e, na mensagem, a mensagem a ser lida
 
-> **Note**
+> **NOTA**
 >
-> Pour la lecture des playlists vous pouvez mettre des options (dans la
-> case option). Pour lancer la playlist en lecture aléatoire il faut
-> mettre dedans "random"
+> Para reproduzir listas de reprodução, você pode colocar opções (na caixa de opções). Para iniciar a lista de reprodução em leitura aleatória, você deve colocar ""
 
 # TTS
 
-Le TTS (text-to-speech) vers le Sonos nécessite d’avoir un partage
-Windows (Samba) sur le réseau (imposé par Sonos, pas moyen de faire
-autrement). Il faut vous donc un NAS sur le réseau. La configuration est
-assez simple il faut mettre le nom ou l’ip du NAS (attention à bien
-mettre la même chose que ce qui est déclaré sur Sonos) et le chemain
-(relatif), le nom d’utilisateur et le mot de passe (attention
-l’utilisateur doit avoir les droits en écriture)
+O TTS (conversão de texto em fala) para o Sonos requer o compartilhamento do Windows (Samba) na rede (imposto pelo Sonos, não há como fazer o contrário). Então você precisa de um NAS na rede. A configuração é bastante simples: você deve colocar o nome ou o ip do NAS (tenha o cuidado de colocar o mesmo que o declarado no Sonos) e o caminho (relativo), o nome do usuário e a senha ( atenção que o usuário deve ter direitos de gravação)
 
-> **Important**
+> **IMPORTANTE**
 >
-> Il faut absolument mettre un mot de passe pour que cela marche
+> É absolutamente necessário colocar uma senha para que isso funcione
 
-> **Important**
+> **IMPORTANTE**
 >
-> Il faut aussi absolument un sous-répertoire pour que le fichier vocal
-> soit correctement créé.
+> Um subdiretório também é absolutamente necessário para que o arquivo de voz seja criado corretamente.
 
-**Voici un exemple de configuration (merci @masterfion) :.**
+**Aqui está um exemplo de configuração (obrigado @masterfion) :.**
 
-Côté NAS, voici ma config :
+Lado NAS, aqui está a minha configuração :
 
--   le dossier Jeedom est partagé
--   l’utilisateur Sonos a un accès Lecture/Ecriture (nécessaire
-    pour Jeedom)
--   l’utilisateur guest a un accès en Lecture seule (nécessaire pour
-    les Sonos)
+-   Pasta Jeedom é compartilhada
+-   O usuário do Sonos tem acesso de leitura / gravação (necessário para o Jeedom)
+-   o usuário convidado possui acesso somente leitura (necessário para o Sonos)
 
-Côté Plugin Sonos, voici ma config :
+Lado do Sonos Plugin, aqui está minha configuração :
 
--   Partage :
-    -   Champ 1 : 192.168.xxx.yyy
-    -   Champ 2 : Jeedom/TTS
--   Nom d’utilisateur : Sonos et son mot de passe…​
+-   Partilha :
+    -   Campo 1 : 192.168.xxx.aaa
+    -   Campo 2 : Jeedom / TTS
+-   Nome de Usuário : Sonos e sua senha…
 
-Côté Bibliothèque Sonos (appli PC)
--   le chemin est : //192.168.xxx.yyy/Jeedom/TTS
+Lado da Biblioteca Sonos (aplicativo para PC)
+-   o caminho é : //192.168.xxx.aaa/Jeedom/TTS
 
-> **Important**
+> **IMPORTANTE**
 >
-> Il faut ABSOLUEMENT ajouter le partage réseaux dans la bibliothèque du sonos, sinon Jeedom va bien creer le mp3 du tts mais il ne pourra pas etre joué par le Sonos
+> É absolutamente necessário adicionar o compartilhamento de rede à biblioteca de sons, caso contrário, o Jeedom criará o mp3 para o tts, mas ele não poderá ser reproduzido pelo Sonos
 
-> **Important**
+> **IMPORTANTE**
 >
-> La lanque dépend de la langue de Jeedom et utilise par defaut picotts. A partir de jeedom 3.3.X il sera possible d'utiliser le TTS de Google pour avoir une plus jolie voix
+> O idioma depende do idioma Jeedom e usa picotts por padrão. A partir do jeedom 3.3.X será possível usar o Google TTS para ter uma voz mais bonita
 
 
-# Le panel
+# O painel
 
-Le plugin Sonos met aussi à disposition un panel qui rassemble tous vos
-Sonos. Disponible à partir du menu Accueil → Sonos Controller :
+O plugin Sonos também fornece um painel que reúne todos os seus Sonos. Disponível no menu Início → Sonos Controller :
 
-> **Important**
+> **IMPORTANTE**
 >
-> Pour avoir le panel il faut l’activer dans la configuration du plugin
+> Para ter o painel, você precisa ativá-lo na configuração do plugin
 
 # FAQ
 
-** Erreur "No devices in this collection" lors de la recherche d'équipement **
+**Erro "Nenhum dispositivo nesta coleção" ao procurar equipamento**
 >
-> Cette erreur arrive si la decouverte automatique est bloquée (routeur qui bloque le boradcast par exemple). Ce n'est pas grave il vous faudra juste ajouter à la main vos sonos en précisant le model et l'IP.
+> Este erro ocorre se a descoberta automática estiver bloqueada (roteador que bloqueia o boradcast, por exemplo). Não importa que você tenha que adicionar seus sonos manualmente, especificando o modelo e o IP.

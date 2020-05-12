@@ -1,19 +1,25 @@
-# 28/08/2019
-- amélioration des widgets
-- amélioration du panel
-- passage à un démon (relancer les dépendances si besoin)
-- passage du plugin LMS en 2.1.1
-- rajout d'une gestion de jingles
-- rajout d'une option pour rajouter un blanc au début d'un tts
-- rajout de commandes favoris avec création de mappage nom/index perso
-- rajout d'une commande parle full options complètes
-- rajout d'une commande jouer morceau
-- refonte complète de la communication avec LMS
+# Control de registro SqueezeBox Control
+
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+# 08/28/2019
+- widgets mejorados
+- mejora del panel
+- transición a un demonio (revivir dependencias si es necesario)
+- actualizar desde el complemento LMS a 2.1.1
+- gestión adicional de jingles
+- agregue una opción para agregar un espacio en blanco al comienzo de un tts
+- adición de comandos favoritos con creación de mapeo de nombre / índice personal
+- Agregar un pedido usando opciones completas completas
+- adición de un comando de reproducción de canción
+- revisión completa de la comunicación con LMS
 
 
-17-05-2018
-Passage a une clé api spécifique au plugin. Attention cela nécessite de mettre à jour le plugin dans Squeezebox Control et de renseigner l'api spécifique du plugin. Cela est le point de départ permettant la réalisation d'optimisation du plugin
+2018-05-17
+Cambie a una clave API específica para el complemento. Tenga en cuenta que esto requiere actualizar el complemento en Squeezebox Control e ingresar la API específica para el complemento. Este es el punto de partida para la optimización del complemento
 
-10/03/2018
+03/10/2018
 
-Correction d'un bug sur la transparence design
+Corrección de un error en la transparencia del diseño

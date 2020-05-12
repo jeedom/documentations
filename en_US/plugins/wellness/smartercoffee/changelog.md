@@ -1,7 +1,17 @@
-# 20/11/2019
+# Changelog Smarter Coffee
 
-- Compatible jeedom v4
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 19-02-2019
+# 01/11/2020
 
-- Rajout de la doc qui avait disparu
+- Bugfix
+
+# 11/20/2019
+
+- Jeedom v4 compatible
+
+# 2019-02-19
+
+- Addition of the doc which had disappeared

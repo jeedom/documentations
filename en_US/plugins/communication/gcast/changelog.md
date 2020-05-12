@@ -1,11 +1,24 @@
-- Nettoyage et optimisation
-- Suppression du choix des moteurs
+# Changelog Gcast
+
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+
+# 31/03/2020
+
+- Cleaning and optimization
+- Elimination of engine choice
+- Compatibility with the sound plugin
+
+>**Important**
+>
+>This update leaves no choice in the TTS engine
 
 
-# 23/04/2019
+# 04/23/2019
 
-- Suppression du moteur de voix Google
+- Removal of Google voice engine
 
-# 18/03/2019
+# 03/18/2019
 
-- Ajout d'un systeme qui tue automatiquement les processus du plugin qui tournent depuis plus de 10min
+- Addition of a system which automatically kills the plugin processes which have been running for more than 10min

@@ -1,24 +1,34 @@
-# 14/11/2019
+# Changelog Wetter
 
-- Amélioration du widget
-- Correction de bug sur le déclenchement du levé/couché du soleil
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 03/10/2019
+# 01/07/2020
+
+- Erhöhtes Verbindungszeitlimit
+
+# 2019.11.14
+
+- Widget-Verbesserung
+- Fehlerbehebung beim Auslösen des Sonnenaufgangs / Sonnenuntergangs
+
+# 10/03/2019
 
 - Fehlerbehebungen
 
-# 18/09/2019
+# 2019.09.18
 
-- Correction de l'indicateur de direction du vent
+- Korrektur der Windrichtungsanzeige
 
-# 06/09/2019
+# 09/06/2019
 
-- Correction de bug des widgets en v4
+- Fehlerbehebung für Widgets in Version 4
 
-# 01/08/2019
+# 2019.01.08
 
-- Support de PHP 7.3
+- Unterstützung für PHP 7.3
 
-# 28/01/2019
+# 28.01.2019
 
-- Le widget peut être redimmensionné
+- Das Widget kann in der Größe geändert werden

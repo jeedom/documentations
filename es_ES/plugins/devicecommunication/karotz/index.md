@@ -1,189 +1,80 @@
-Description 
-===========
+# Complemento Karotz
 
-Ce plugin permet de contrôler son Karotz (fonctionnant sous
-[OpenKarotz](http://www.openkarotz.org/)). Cela va de sa led ventrale, à
-ses oreilles en passant par les sons, la synthèse vocale et plein
-d’autres.
+Este complemento le permite controlar su Karotz (ejecutándose bajo [OpenKarotz](http://www.openkarotz.org/)) Va desde su dirección ventral, a sus oídos a través de sonidos, síntesis de voz y muchos otros.
 
-Configuration 
-=============
+# Configuración 
 
-Configuration du plugin Jeedom : 
---------------------------------
+## Configuración del complemento Jeedom : 
 
-**Installation/Création**
+**Instalación / Creación**
 
-Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-l’activer comme tout plugin Jeedom.
+Para usar el complemento, debe descargarlo, instalarlo y activarlo como cualquier complemento de Jeedom.
 
-Rendez vous dans le menu Plugins/Communication, vous y trouverez le
-plugin Karotz.
+Vaya al menú Complementos / Comunicación, encontrará el complemento Karotz.
 
-Vous arriverez sur la page qui listera vos équipements (vous pouvez
-avoir plusieurs Karotz) et qui vous permettra d’en créer.
+Llegará a la página que enumerará su equipo (puede tener varios Karotz) y que le permitirá crear algunos.
 
-Cliquez sur le bouton Ajouter :
+Haga clic en el botón Agregar :
 
-Vous arriverez ensuite sur la page de configuration de votre karotz.
+Luego llegará a la página de configuración de su karotz.
 
--   **Commandes**
+**Comandos**
 
-Vous n’avez rien à faire dans cette section. Les commandes seront créées
-automatiquement.
+No tienes nada que hacer en esta sección. Los pedidos se crearán automáticamente.
 
--   Rafraîchir: bouton permettant de rafraîchir le widget si besoin
+-   Refrescar: botón para actualizar el widget si es necesario
+-   Parpadeando : permite detener el parpadeo del led
+-   Parpadeando : activa el parpadeo del led
+-   Detener el sonido : detener una música o un sonido en progreso
+-   Hora de acostarse : deja dormir al conejo
+-   De pie : Despierta el conejo
+-   De pie en silencio : permite despertar al conejo en modo silencioso
+-   Reloj : permite iniciar el modo de reloj de conejo
+-   Humor : permite que el conejo diga el estado de ánimo seleccionado
+-   Estado de ánimo: permite al conejo decir el estado de ánimo indicado por su número
+-   Estado de ánimo aleatorio : permite al conejo decir un estado de ánimo aleatorio
+-   Oreja al azar : le permite mover las orejas al azar
+-   Ear RàZ : permite devolver las orejas a la posición inicial
+-   Posiciones de orejas : ajusta la posición precisa de ambas orejas
+-   Sonido de Karotz (nombre) : permite lanzar un sonido Karotz (pitido por ejemplo) indicando su nombre
+-   Sonido Karotz : le permite lanzar un sonido Karotz (pitido, por ejemplo) seleccionando su nombre en una lista
+-   Su url : permite a Karotz leer una URL (estación de radio, por ejemplo)
+-   Squeezebox en : le permite activar el modo Karotz squeezebox
+-   Squeezebox off : permite desactivar el modo Karotz squeezebox
+-   Dormido : le permite saber si el Karotz está dormido (de lo contrario, está despierto)
+-   Estado de color : permite el color actualmente en el vientre del Karotz
+-   TTS : permite que el conejo hable eligiendo la voz y el mensaje (de forma predeterminada, el mensaje se almacena en caché)
+-   TTS sin caché : permite que el conejo hable eligiendo la voz y el mensaje (el mensaje no está en caché)
+-   Velocidad de pulso : ajusta la velocidad del parpadeo
+-   % del espacio ocupado : le permite saber el% de disco utilizado en el conejo
+-   Espacio libre : valor en MB de espacio libre en el conejo
+-   Reiniciar : te permite reiniciar el conejo
+-   Establecer hora : permite que el conejo se reinicie automáticamente (útil para cambiar la hora)
+-   Nivel de volumen : indica en% el nivel de volumen
+-   Volumen : permite elegir en% el nivel de volumen (máximo recomendado 50%, riesgo de distorsión arriba)
+-   Volumen + : aumenta el nivel de volumen en un 5%
+-   Volume- : disminuye el nivel de volumen en un 5%
+-   Foto : permite tomar una foto por el conejo
+-   Fotos borradas : le permite eliminar todas las fotos tomadas por el conejo (libera espacio en disco)
+-   Fotos actualizar listado : permite actualizar la lista de fotos conservadas
+-   Listado de fotos : lista de fotos mantenidas
+-   Descarga de fotos : permite descargar (por ftp) las fotos guardadas en el disco (no se eliminan)
 
--   Clignotement OFF : permet de couper le clignotement de la led
+Todos estos comandos están disponibles a través de los escenarios.
 
--   Clignotement ON : permet d’activer le clignotement de la led
+## Comando TTS 
 
--   Arrêter son : permet d’arrêter une musique ou un son en cours
+El comando TTS puede tener varias opciones separadas por & :
 
--   Coucher : permet de faire dormir le lapin
+-   voz : el número de voz
+-   nocaché : no use el caché
 
--   Debout : permet de réveiller le lapin
+Ejemplo :
 
--   Debout silencieux : permet de réveiller le lapin en mode silencieux
+``voice=3&nocache=1``
 
--   Horloge : permet de lancer le mode horloge du lapin
+# Preguntas frecuentes 
 
--   Humeur : permet de faire dire au lapin l’humeur selectionnée
-
--   Humeur n°: permet de faire dire au lapin l’humeur indiquée par son
-    n°
-
--   Humeur aléatoire : permet de faire dire au lapin une humeur
-    aléatoire
-
--   Oreille aléatoire : permet de bouger les oreilles de manière
-    aléatoire
-
--   Oreille raz : permet de remettre les oreilles en position initiale
-
--   Oreilles positions : permet de régler la position précise des deux
-    oreilles
-
--   Son du karotz (nom) : permet de lancer un son du Karotz (bip
-    par exemple) en indiquant son nom
-
--   Son du karotz : permet de lancer un son du Karotz (bip par exemple)
-    en sélectionnant son nom dans une liste
-
--   Son URL : permet de faire lire une URL au Karotz (station de radio
-    par exemple)
-
--   Squeezebox on : permet d’activer le mode squeezebox du Karotz
-
--   Squeezebox off : permet de désactiver le mode squeezebox du Karotz
-
--   Endormi : permet de savoir si le Karotz est endormi (sinon il
-    est réveillé)
-
--   Statut couleur : permet d’avoir la couleur actuellement sur le
-    ventre du Karotz
-
--   TTS : permet de faire parler le lapin en choisissant la voix et le
-    message (par défaut le message est mis en cache)
-
--   TTS sans cache : permet de faire parler le lapin en choisissant la
-    voix et le message (le message n’est pas mis en cache)
-
--   Vitesse pulse : permet de régler la vitesse du clignotement
-
--   % d’espace occupé : permet de connaitre le % de disque utilisé sur
-    le lapin
-
--   Espace libre : valeur en Mo d’espace libre sur le lapin
-
--   Redémarrer : permet de faire redémarrer (reboot) le lapin
-
--   Mettre à l’heure : permet de remettre automatiquement le lapin à
-    l’heure (utile au changement d’heure)
-
--   Niveau du volume : indique en % le niveau du volume
-
--   Volume : permet de choisir en % le niveau du volume (recommandé max
-    50%, risque de distorsion au-dessus)
-
--   Volume+ : augmente de 5% le niveau du volume
-
--   Volume- : diminue de 5% le niveau du volume
-
--   Photo : permet de prendre une photo par le lapin
-
--   Photos effacer : permet d’effacer toutes les photos prises par le
-    lapin (libère de la place disque)
-
--   Photos refresh listing : permet de mettre à jour la liste des photos
-    conservées
-
--   Photos listing : liste des photos conservées
-
--   Photos télécharger : permet de télécharger (par ftp) les photos
-    conservées sur le disque (elles ne sont pas supprimées)
-
-Toutes ces commandes sont disponibles via les scénarios.
-
-Commande TTS 
-------------
-
-La commande TTS peut comporter plusieurs options séparées par des & :
-
--   voice : le n° de la voix
-
--   nocache : ne pas utiliser le cache
-
-Exemple :
-
-    voice=3&nocache=1
-
-…​
-
-Les informations/actions 
-========================
-
-Informations/actions sur le dashboard : 
----------------------------------------
-
-![widget](./images/widget.jpg)
-
--   A : Permet d’accéder à la page de choix du son
-
-![karotz screenshot5](./images/karotz_screenshot5.jpg)
-
--   B : Bouton Rafraîchir pour redemander les valeurs d’état et de
-    couleur
-
--   C : Zone de contrôle des oreilles (aléatoire, remise à
-    zéro, personnalisé)
-
-![karotz screenshot7](./images/karotz_screenshot7.jpg)
-
--   D : Zone actions (horloge/humeur)
-
--   E : Zone Squeezebox (activer/désactiver)
-
--   F : Zone leds (activer clignotement/désactiver)
-
-![karotz screenshot6](./images/karotz_screenshot6.jpg)
-
--   G : Slider de contrôle de la vitesse de clignotement
-
--   H : En cliquant sur le ventre, cela permet de changer la couleur de
-    la led
-
--   I : En cliquant sur le lapin, cela permet de le faire se coucher ou
-    s’endormir
-
-Preguntas frecuentes
-===
-
-Quelle est la fréquence de rafraîchissement des infos
-
-:   Le système récupère les informations toutes les 30 minutes ou après
-    une demande de changement de couleur ou d’état du lapin. Vous pouvez
-    cliquer sur la commande Rafraîchir pour rafraîchir manuellement.
-
-Changelog détaillé :
-<https://github.com/jeedom/plugin-karotz/commits/stable>
+>**¿Con qué frecuencia se actualiza la información?**
+>
+>El sistema recupera la información cada 30 minutos o después de una solicitud de cambio de color o estado del conejo. Puede hacer clic en el comando Actualizar para actualizar manualmente.

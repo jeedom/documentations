@@ -1,77 +1,52 @@
-Plugin pour les périphériques Koubachi. Il permet de récupérer les
-informations d’humidité, de température, de luminosité et les conseils
-pour vos plantes. Vous pourrez aussi indiquer qu’une plante a été arosé,
-vaporisée, que de l’engrais à été ajouté…​
+# Koubachi Plugin
 
-Plugin-Konfiguration
-=======================
+Plugin für Koubachi-Geräte. Es ermöglicht das Abrufen von Informationen zu Feuchtigkeit, Temperatur, Helligkeit und Ratschlägen für Ihre Pflanzen. Sie können auch angeben, dass eine Pflanze bewässert, verdampft oder Dünger hinzugefügt wurde
 
-Une fois le plugin koubachi installé, il faut le relier à votre compte
-Koubachi, pour cela aller sur votre compte Koubachi :
-[ici](https://labs.koubachi.com/login?locale=en) :
+# Plugin Konfiguration 
+
+Sobald das Koubachi-Plugin installiert ist, müssen Sie es mit Ihrem Koubachi-Konto verknüpfen. Gehen Sie dazu zu Ihrem Koubachi-Konto : [hier](https://labs.koubachi.com/login?locale=en)
 
 ![koubachi 2](./images/koubachi-2.JPG)
 
-Indiquez vos identifiants de connexion, et cliquez sur login, puis en
-bas de la page vous avez :
+Geben Sie Ihre Anmeldedaten an und klicken Sie auf Anmelden und dann unten auf der Seite, die Sie haben :
 
 ![koubachi 3](./images/koubachi-3.JPG)
 
-Récupérez la valeur de "user\_credentials" et mettez la dans le champ
-"Nom d’utilisateur". Faites de même avec la valeur de "app\_key" dans le
-champ "Clef application" :
+Holen Sie sich den Wert von "user\_credentials" und geben Sie ihn in das Feld "Benutzername" ein". Machen Sie dasselbe mit dem Wert "app\_key" im Feld "Anwendungsschlüssel"" :
 
 ![koubachi 4](./images/koubachi-4.JPG)
 
-Cliquez ensuite sur "Synchroniser mes équipements".
+Klicken Sie dann auf "Meine Geräte synchronisieren"".
 
-Gerätekonfiguration
-=============================
+# Gerätekonfiguration 
 
-Vous retrouvez ensuite la liste de vos plantes ici :
+Die Liste Ihrer Pflanzen finden Sie dann hier :
 
 ![koubachi 1](./images/koubachi-1.JPG)
 
-Vous devriez voir ici la liste de vos plantes enregistrées dans Koubachi
-:
+Sie sollten hier die Liste Ihrer in Koubachi registrierten Pflanzen sehen :
 
 ![koubachi 5](./images/koubachi-5.JPG)
 
-> **Tip**
->
-> Wie an vielen Stellen in Jeedom kann mit dem Mauszeiger ganz links, ein
-> Menü mit Schnellzugriff aufgerufen werden (Sie können in Ihrem Profil
-> immer sichtbar einstellen).  
-
-En cliquant sur l’une d’elle vous obtenez :
+Wenn Sie auf einen von ihnen klicken, erhalten Sie :
 
 ![koubachi 6](./images/koubachi-6.JPG)
 
--   Nom de la plante : le nom de votre plante
+-   Pflanzenname : der Name Ihrer Pflanze
+-   Übergeordnetes Objekt : das Objekt, an dem die Pflanze befestigt ist
+-   Aktivieren / Sichtbar : die Möglichkeit, das Gerät zu aktivieren (vergessen Sie nicht, es beim ersten Mal zu tun) und es sichtbar zu machen
+-   Für Bestellungen :
+    -   Chronik : ermöglicht das Protokollieren des Befehls
+    -   Fortgeschrittene (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an
+    -   Test : Ermöglicht das Testen des Befehls, um seinen Wert anzuzeigen
+    -   Löschen (Schaltfläche "-") : um die Bestellung zu löschen
 
--   Objet parent : l’objet auquel est rataché la plante
+# Widget 
 
--   Activer/Visible : la possibilité d’activer l’équipement (ne pas
-    oublier de le faire la première fois) et de le rendre visible
-
--   Pour les commandes :
-
-    -   Historiser : permet d’historiser la commande
-
-    -   Avancée (petites roues crantées) : permet d’afficher la
-        configuration avancée de la commande
-
-    -   Tester : permet de tester la commande pour voir sa valeur
-
-    -   Supprimer (bouton "-") : pour supprimer la commande
-
-Widget 
-======
-
-Voici le résultat sur le dashboard :
+Hier ist das Ergebnis auf dem Dashboard :
 
 ![koubachi 7](./images/koubachi-7.JPG)
 
-Et en mobile :
+Und auf dem Handy :
 
 ![koubachi 8](./images/koubachi-8.JPG)

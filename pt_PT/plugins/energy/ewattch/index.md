@@ -1,92 +1,53 @@
-Ewattch 
-=======
+# Plug-in Ewattch 
 
-Description 
------------
+Este plug-in permite que você estabeleça e recupere informações do supervisor Ewattch.
 
-Ce plugin permet d’établir et de récupérer les informations du
-superviseur Ewattch.
+# Configuração do plugin 
 
-Configuration du plugin 
------------------------
-
-Après téléchargement du plugin il vous faut l’activer, vous avez ensuite
-accès à la configuration de base du plugin :
+Depois de baixar o plug-in, você precisa ativá-lo, então você tem acesso à configuração básica do plug-in :
 
 ![ewattch1](../images/ewattch1.PNG)
 
-Vous retrouvez ici la configuration de base :
+Aqui você encontra a configuração básica :
 
--   **IP du superviseur** : IP du superviseur sur le réseau
+-   **IP du superviseur** : IP do supervisor na rede
+-   **Sincronizar** : Sincronize a lista de equipamentos no supervisor com Jeedom
 
--   **Synchroniser** : Permet de synchroniser la liste des équipements
-    sur le superviseur avec Jeedom
+# Configuração do equipamento 
 
-Configuration des équipements 
------------------------------
-
-La configuration des équipements Ewattch est accessible à partir du menu
-Plugins :
+A configuração do equipamento Ewattch pode ser acessada no menu Plugins :
 
 ![ewattch2](../images/ewattch2.PNG)
 
-Voilà à quoi ressemble la page du plugin Ewattch (ici avec déjà quelques
-équipements) :
+É assim que a página do plugin Ewattch se parece (aqui já com alguns equipamentos) :
 
 ![ewattch3](../images/ewattch3.PNG)
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, mettre la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
-
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Depois de clicar em um deles, você obtém :
 
 ![ewattch4](../images/ewattch4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nom de l’équipement** : nom de votre équipement Ewattch,
+-   **Nome de equipamentos** : nome do seu equipamento Ewattch,
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
+-   **Ativar** : torna seu equipamento ativo,
+-   **Visivél** : torna visível no painel,
+-   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias),
+-   **ID** : ID lógico do equipamento no supervisor (é recomendável não tocá-lo),
+-   **IP** : IP do supervisor (apenas para informação).
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+Abaixo, você encontrará a configuração do equipamento :
 
--   **Activer** : permet de rendre votre équipement actif,
-
--   **Visible** : le rend visible sur le dashboard,
-
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories),
-
--   **ID** : ID logique de l’équipement dans le superviseur (il est
-    recommandé de ne pas y toucher),
-
--   **IP** : IP du superviseur (à titre indicatif pour le moment).
-
-En dessous, vous retrouvez la configuration de l’équipement :
-
--   le nom affiché sur le dashboard,
-
--   le sous-type,
-
--   ID logique de la commande dans le superviseur (il est recommandé de
-    ne pas y toucher),
-
--   historiser : permet d’historiser la donnée,
-
--   afficher : permet d’afficher la donnée sur le dashboard,
-
--   unité : unité de la donnée (peut être vide),
-
--   min/max : bornes de la donnée (peuvent être vides),
-
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode d’historisation,
-    widget…​),
-
--   Tester : permet de tester la commande,
-
--   supprimer (signe -) : permet de supprimer la commande.
+-   o nome exibido no painel,
+-   o subtipo,
+-   ID lógico do pedido no supervisor (é recomendável não tocá-lo),
+-   Historicizar : permite historiar os dados,
+-   Display : permite exibir os dados no painel,
+-   Unidade : unidade de dados (pode estar vazia),
+-   min / max : limites de dados (podem estar vazios),
+-   configuração avançada (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.),
+-   Teste : permite testar o comando,
+-   excluir (assinar -) : permite excluir o comando.
 
 

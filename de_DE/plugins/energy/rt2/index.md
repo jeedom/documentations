@@ -1,94 +1,61 @@
+# EcoRT2 Plugin
+
 Mit diesem Plugin können Sie eine IPX 800 v4 verwalten
 
-Plugin Konfiguration
-=======================
+# Plugin Konfiguration
 
-Nach dem Herunterladen des Plugins müssen Sie es nur noch aktivieren,
-Auf dieser Ebene gibt es keine Konfiguration.
+Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur noch aktivieren. Auf dieser Ebene gibt es keine Konfiguration.
 
 > **Notiz**
 >
 > Auf dieser Seite sehen Sie den Status des Dämons, der ecoRT2 überwacht
 
-Gerätekonfiguration
-=============================
+# Gerätekonfiguration
 
-Die Konfiguration der ecoRT2-Geräte ist über das Menü zugänglich
-Plugin dann Hausautomationsprotokoll :
+Auf die Konfiguration der ecoRT2-Geräte kann über das Plugin-Menü und dann über das Hausautomationsprotokoll zugegriffen werden :
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
 -   **Name des EcoRT2-Geräts** : Name Ihres ecoRT2-Geräts,
-
--   **Übergeordnetes Objekt** : gibt das übergeordnete Objekt an, zu dem es gehört
-    Ausrüstung,
-
+-   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
 -   **Aktivieren** : macht Ihre Ausrüstung aktiv,
-
 -   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
-
--   **Kategorie** : Gerätekategorien (es kann gehören
-    mehrere Kategorien),
-
+-   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören),
 -   **IP** : Die ecoRT2 ip,
+-   **API-Schlüssel** : ecoRT2-API-Schlüssel (standardmäßig ist der API-Schlüssel apikey)
+-   **Erweiterung** : Hier müssen Sie die auf ecoRT2 vorhandenen Erweiterungen angeben, damit jeedom sie abfragen kann. Beispiel für enOcean ist es notwendig, ENO zu setzen (wenn Sie mehrere haben, müssen Sie diese durch trennen,). Alle Erweiterungen werden normalerweise unterstützt. Für den Code der Erweiterung muss auf die Dokumentation dieser Erweiterung verwiesen werden.
 
--   **API-Schlüssel** : ecoRT2-API-Schlüssel (standardmäßig API-Schlüssel
-    ist apikey)
+Das Standard-Plugin erstellt nichts, es liegt an Ihnen, dies gemäß Ihrer Konfiguration zu tun, aber Sie werden angeleitet.
 
--   **Erweiterung** : Hier müssen Sie die vorhandenen Erweiterungen angeben
-    ecoRT2, damit jeedom sie abfragen kann. EnOcean Beispiel
-    Sie müssen ENO setzen (wenn Sie mehrere haben, müssen Sie diese trennen
-    von,). Alle Erweiterungen werden normalerweise unterstützt, z
-    Der Code der zu platzierenden Erweiterung muss sich auf den beziehen
-    Dokumentation davon.
+# Commande
 
-Das Standard-Plugin erstellt nichts, es liegt an Ihnen, dies zu tun
-Abhängig von Ihrer Konfiguration werden Sie jedoch als Leitfaden dienen.
-
-Befehl
-========
-
-Aktion
-------
+## Action
 
 Sie haben die Arten von Aktionen :
 
--   **Ein** : Mit dieser Option können Sie einen Ausgang (oder einen virtuellen Eingang) auf 1 oder 1 setzen
-    Weisen Sie einem Analogeingang (oder Zähler) einen Wert zu.
-
+-   **Ein** : Mit dieser Option können Sie einen Ausgang (oder virtuellen Eingang) auf 1 setzen oder einem analogen Eingang (oder Zähler) einen Wert zuweisen
 -   **Aus** : Mit dieser Option können Sie einen Ausgang (oder einen virtuellen Eingang) auf 0 setzen
-
--   **Umschalten** : ermöglicht das Umkehren des Status eines Ausgangs (oder
-    virtueller Eingang)
+-   **Umschalten** : ermöglicht das Umkehren des Status einer Ausgabe (oder einer virtuellen Eingabe)
 
 Sie haben die Arten von Aktuatoren :
 
 -   **Relais**
-
 -   **Virtuelle Ausgabe**
-
 -   **Zähler**
-
 -   **Pilotdraht**
 
 > **Notiz**
 >
-> Bestimmte Aktuatortypen können je nach Typ ausgeblendet werden
-> Aktion
+> Bestimmte Arten von Aktuatoren können je nach Art der Aktion ausgeblendet werden
 
-Dann abhängig von der Art der Aktion und dem Aktuator, den Sie haben
-mehrere Parameter, die sein können :
+Dann haben Sie abhängig von der Art der Aktion und dem Aktuator mehrere Parameter, die sein können :
 
 -   Relaisnummer
-
 -   virtuelle Ausgangsnummer
-
 -   Zählernummer und Betrieb (ex +200 oder -100)
-
 -   Pilotdrahtnummer und Bestellwert (0 Komfort, 1 Öko, 2 Frostfrei, 3 Aus, 4 Komfort-1, 5 Komfort-2)
 
-Info
-----
+## Info
 
 Sie haben verschiedene Typen :
 
@@ -96,7 +63,7 @@ Sie haben verschiedene Typen :
 -   Relais
 -   Virtuelle Ausgabe
 -   Digitaler Eingang
--   Zähler
+-   Compteur
 -   EnOcean
 -   Zählerindex
 -   Torus-Index

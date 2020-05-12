@@ -1,3 +1,9 @@
+# Changelog Network
+
+>**IMPORTANT**
+>
+>Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+
 # 08/04/2020
 
 - bugfix arp ping considère le device absent si plus d'une tentative a été nécessaire

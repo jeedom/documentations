@@ -1,4 +1,4 @@
-# IPX800v4
+# Plugin IPX800v4
 
 Ce plugin permet de gérer un IPX 800 v4
 

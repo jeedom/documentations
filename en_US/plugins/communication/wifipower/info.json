@@ -1,12 +1,12 @@
 {
-	"id" : "wifipower",
-	"name" : "Wifipower",
-	"description" : "Plugin pour la gestion des équipements wifipower",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "3.0",
-        "category" : "communication",
-	"hasOwnDeamon" : true,
-        "changelog" : "https://jeedom.github.io/plugin-wifipower/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-wifipower/#language#/"
+    "id": "wifipower",
+    "name": "Wifipower",
+    "description": "Plugin pour la gestion des équipements wifipower",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "category": "communication",
+    "hasOwnDeamon": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/wifipower\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/wifipower\/"
 }

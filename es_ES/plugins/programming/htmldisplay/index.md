@@ -1,16 +1,16 @@
-# HTML Display
+# Complemento de visualización HTML
 
-Plugin très simple permettant de mettre le code HTML/javascript/Css que vous voulez sur sa tuile équipements.
+Complemento muy simple que le permite poner el código HTML / javascript / Css que desee en el mosaico de su equipo.
 
->**IMPORTANT**
+>**Importante**
 >
->Le plugin necessite de savoir coder en HTML, Javascript et CSS, aucun support ne sera fournis par l'équipe Jeedom sur le code de votre widget.
+>El complemento necesita saber cómo codificar en HTML, Javascript y CSS, el equipo de Jeedom no brindará soporte en el código de su widget.
 
-Les cas d'utilisation peuvent etre :
+Los casos de uso pueden ser :
 
-- menu unique pour les designs
-- inclusion d'information exterieure à Jeedom
+- menú único para diseños
+- inclusión de información externa en Jeedom
 
->**IMPORTANT**
+>**Importante**
 >
->Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop)
+>Como recordatorio, los diseños SIEMPRE usan la versión del panel del código (ya sea en dispositivos móviles o de escritorio)

@@ -1,13 +1,23 @@
+# Registro de cambios Fitbit
+
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+# 08/13/2019
+
+- Soporte para php 7.3
+
 # 26/04/2019
 
-- Correction de bugs (merci @Dany)
+- Corrección de errores (gracias @Dany)
 
 # 03/04/2018
 
-- Actualización de la documentación
+- Actualizando el documento
 
 # 01/01/2016
 
--   Passage sur la nouvelle API fitbit
--   Utilisation d’un widget standard
--   Ajout de l’information sur le rythme cardiaque
+-   Cambia a la nueva API de Fitbit
+-   Usando un widget estándar
+-   Agregar información de frecuencia cardíaca

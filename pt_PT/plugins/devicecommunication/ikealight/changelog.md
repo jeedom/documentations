@@ -1,49 +1,55 @@
-# 12/01/2020
+# Changelog Ikea
 
-- Correction de bug dans le script d'installation des dépendances
-- Inversion du widget pour les store (attention necessite de supprime les équipements de type store et de relancer le demon)
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
+# 01/12/2020
+
+- Correção de bug no script de instalação de dependências
+- Inversão do widget para as lojas (tenha cuidado para excluir o equipamento do tipo loja e reiniciar o daemon)
 
 # 16/10/2019
 
-- Mise à jour de la doc
+- Atualizando o documento
 
 # 14/10/2019
 
-- Correction de bugs
+- Correções de bugs
 
 # 10/10/10
 
-- Support des stores
-- Amélioration du nom des commandes et type générique
-- Adaptation de l'interface à Jeedom V4
-- Support php 7.3
-- changement complet du démon
+- Suporte cego
+- Melhoria de nomes de comandos e tipo genérico
+- Adaptando a interface ao Jeedom V4
+- Suporte PHP 7.3
+- mudança demônio completa
 
-IMPORTANT : suite à cette mise à jour il faut reinstaller les dependances et relancer le demon
+IMPORTANTE : Após esta atualização, você deve reinstalar as dependências e reiniciar o demônio
 
 # 07-06-2019
 
-- Amélioration script de dépendances
+- Script de dependência aprimorado
 
-# 27-05-2019
+# 2019-05-27
 
-- Changement provisoire lié au changement induit par la dernière maj IKEA
-- Ajout des prises
-- Amélioration de la gestion des retours d'état
+- Alteração temporária devido à alteração provocada pela última atualização da IKEA
+- Adicionando plugues
+- Gerenciamento aprimorado de retornos de status
 
 # 14/02/2019
 
-- Correction bug detection auto des confs
+- Detecção automática de erros de correção de confs
 
 # 16/10/2018
-- Rajout conf transformer
-- Gestion des noms avec /
+- Adicionar transformação conf
+- Gerenciamento de nomes com /
 
 # 24/04/2018
 
-- Rajout du panneau de led 30x90
-- Rajout de l'ampoule E26 980lm
+- Adição de painel LED 30x90
+- Adição da lâmpada E26 980lm
 
 # 21/03/2018
 
-- L'ampoule 1000lm possède deux variantes rajout de la conf
+- A lâmpada de 1000lm tem duas variantes adicionando o conf

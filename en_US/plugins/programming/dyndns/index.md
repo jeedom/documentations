@@ -1,83 +1,54 @@
-Ce plugin permet de mettre à jour un service de DNS dynamique
-(dyndns,noip,duckdns,…​)
+# DynDNS plugin
 
-Plugin configuration
-=======================
+This plugin allows you to update a dynamic DNS service (dyndns, noip, duckdns,…)
 
-After downloading the plugin, you just have to activate it,
-there is no configuration at this level.
+# Plugin configuration 
+
+After downloading the plugin, you just need to activate it, there is no configuration at this level.
 
 ![dyndns](./images/dyndns.PNG)
 
-Equipment configuration
-=============================
+# Equipment configuration 
 
-La configuration des équipements Dyndns est accessible à partir du menu
-plugin :
+The configuration of Dyndns equipment is accessible from the plugin menu :
 
 ![dyndns2](./images/dyndns2.PNG)
 
-Voilà à quoi ressemble la page du plugin Dyndns (ici avec déjà 1
-équipement) :
+This is what the Dyndns plugin page looks like (here with 1 device already) :
 
 ![dyndns3](./images/dyndns3.PNG)
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
-
-Once you click on one of them, you get:
+Once you click on one of them, you get :
 
 ![dyndns4](./images/dyndns4.PNG)
 
-You can find here the full configuration of your device :
+Here you find all the configuration of your equipment :
 
--   **Nom de l’équipement Ambilight** : nom de votre équipement
-    Ambilight,
+-   **Name de l'équipement DynDNS** : name of your DynDns equipment,
+-   **Parent object** : indicates the parent object to which the equipment belongs,
+-   **Category** : equipment categories (it can belong to several categories),
+-   **Activate** : makes your equipment active,
+-   **Visible** : makes your equipment visible on the dashboard,
+-   **Service** : The name of the service used (dyndns.org, noip.com
+-   **Hostname** : full DNS name to update (eg toto.ddns.net)
+-   **Name d'utilisateur** : username on the service in question
+-   **Password** : password on the service in question
+-   **Token** : token used for duckdns
 
--   **Parent Object**: Specifies the parent object to which belongs
-    equipment,
+Below you find the list of orders :
 
--   **Category**: categories of equipment (it may belong to
-    plusieurs catégories),
+-   **Name** : the name displayed on the dashboard,
+-   **Show** : allows to display the data on the dashboard,
+-   **Test** : Used to test the command
 
--   **Enable**: to make your equipment active,
-
--   **Visible**: makes your equipment visible on the dashboard,
-
--   **Service** : Le nom du service utilisé (dyndns.org, noip.com)
-
--   **Hostname** : nom complet du DNS à mettre à jour (ex toto.ddns.net)
-
--   **Nom d’utilisateur** : nom d’utilisateur sur le service en question
-
--   **Mot de passer** : mot de passe sur le service en question
-
--   **Token** : token utilisé pour duckdns
-
-Below you will find the list of commands:
-
--   **Nom** : le nom affiché sur le dashboard,
-
--   **Afficher** : permet d’afficher la donnée sur le dashboard,
-
--   **Test**: allows to test the command
-
-> **Note**
+> **NOTE**
 >
-> Jeedom va vérifier toute les 15 minutes l’ip externe, si celle-ci a
-> changé alors le DNS sera mise à jour
+> Jeedom will check the external ip every 15 minutes, if it has changed then the DNS will be updated
 
 > **Important**
 >
-> Le plugin fournit une commande pour forcer la mise à jour. Attention à
-> ne pas en abuser car vous pouvez être banni temporairement du service
-> de DNS
+> The plugin provides a command to force the update. Be careful not to abuse it because you can be temporarily banned from the DNS service
 
-> **Note**
+> **NOTE**
 >
-> Si vous utilisez OVH, attention le nom d’utilisateur est de la forme
-> mondomaine.com-identificant alors que le domaine est bien sous la
-> forme mon-dynHost.mmondomaine.com
+> If you use OVH, be careful the username is in the world form.com-identifier while the domain is in the form my-dynHost.mmondomaine.com

@@ -1,11 +1,20 @@
-- Actualización de la documentación
-- Supression forcé des " lors d'un calcul sur une commande
+# Registro de cambios virtual
+
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+# 23/10/2019
+
+- Actualizando el documento
+- Eliminación forzada de "durante un cálculo en un pedido
+- Corrección del error de cálculo si el resultado es "Falso""
 
 # 10/09/2019
 
-- Correction de l'arrondit forcé sur 2 chiffres sur les commandes numérique
-- Ajout d'un systeme de template pour créer des équipements rapidement
-- Corrección de errores
+- Corrección de redondeo forzado a 2 dígitos en controles digitales
+- Agregar un sistema de plantillas para crear equipos rápidamente
+- Correcciones de errores
 
 # 26/04/2019
 
@@ -13,23 +22,23 @@
 
 # 22/03/2019
 
-- Ajout d'une securité en cas de boucle infini
+- Adición de seguridad en caso de bucle infinito
 
 # 18/03/2019
 
-- Corrección de errores
-- Ajout d'une securité en cas de boucle infini
+- Correcciones de errores
+- Adición de seguridad en caso de bucle infinito
 
 # 13/03/2019
 
-- Actualización de la documentación
+- Actualizando el documento
 
 # 22/01/2019
 
--   Corrección de errores
+-   Correcciones de errores
 
 # 21/01/2019
 
--   Correction d'un bug sur les valeurs déclenchant une mise à jour d'une commande info
--       Correction de l'erreur lors de la copie d'un équipement si la commande Rafraichir existe.
--   Ajout du testeur d'expressions
+-   Corrección de un error en los valores que desencadenan una actualización de un comando de información
+-		Corrección del error al copiar un dispositivo si existe el comando Actualizar.
+-   Adición del probador de expresión

@@ -1,16 +1,16 @@
-# HTML Display
+# HTML Display plugin
 
-Plugin très simple permettant de mettre le code HTML/javascript/Css que vous voulez sur sa tuile équipements.
+Very simple plugin allowing you to put the HTML / javascript / Css code you want on its equipment tile.
 
->**IMPORTANT**
+>**Important**
 >
->Le plugin necessite de savoir coder en HTML, Javascript et CSS, aucun support ne sera fournis par l'équipe Jeedom sur le code de votre widget.
+>The plugin needs to know how to code in HTML, Javascript and CSS, no support will be provided by the Jeedom team on the code of your widget.
 
-Les cas d'utilisation peuvent etre :
+Use cases can be :
 
-- menu unique pour les designs
-- inclusion d'information exterieure à Jeedom
+- unique menu for designs
+- inclusion of outside information at Jeedom
 
->**IMPORTANT**
+>**Important**
 >
->Pour rappel les designs utilisent TOUJOURS la version dashboard du code (que vous soyez sur mobile ou desktop)
+>As a reminder, the designs ALWAYS use the dashboard version of the code (whether on mobile or desktop)

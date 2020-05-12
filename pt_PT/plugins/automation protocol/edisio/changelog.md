@@ -1,20 +1,26 @@
-# 10/01/2020
+# Changelog Edisio
 
-- Correction d'un soucis sur l'affichage des images et de modeles
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
+# 01/10/2020
+
+- Corrigido um problema com a exibição de imagens e modelos
 
 # 11/09/2019
 
-- Adaptation pour jeedom v4
+- Adaptação para jeedom v4
 
 # 13/08/2019
 
-- Support de PHP 7.3
+- Suporte para php 7.3
 
 # 15/01/2018
 
-- Correction d'une erreur 500 lors de la remonté de valeur de batterie
+- Correção de um erro 500 ao aumentar o valor da bateria
 
 # 18/10/2018
 
-- Correction d'un bug si le niveau de log est sur aucun
-- Suppression des boutons supprimer/sauvegarder en double
+- Correção de um erro se o nível de log for nenhum
+- Remova os botões duplicados de exclusão / salvamento

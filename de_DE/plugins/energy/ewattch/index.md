@@ -1,92 +1,53 @@
-Ewattch 
-=======
+# Ewattch Plugin 
 
-Beschreibung 
------------
+Mit diesem Plugin können Sie Informationen vom Ewattch-Supervisor einrichten und abrufen.
 
-Ce plugin permet d’établir et de récupérer les informations du
-superviseur Ewattch.
+# Plugin Konfiguration 
 
-Plugin Konfiguration
------------------------
-
-Après téléchargement du plugin il vous faut l’activer, vous avez ensuite
-accès à la configuration de base du plugin :
+Nach dem Herunterladen des Plugins, das Sie aktivieren müssen, haben Sie Zugriff auf die Grundkonfiguration des Plugins :
 
 ![ewattch1](./images/ewattch1.PNG)
 
-Vous retrouvez ici la configuration de base :
+Hier finden Sie die Grundkonfiguration :
 
--   **IP du superviseur** : IP du superviseur sur le réseau
+-   **IP du superviseur** : IP des Supervisors im Netzwerk
+-   **Synchronize** : Synchronisieren Sie die Liste der Geräte auf dem Supervisor mit Jeedom
 
--   **Synchroniser** : Permet de synchroniser la liste des équipements
-    sur le superviseur avec Jeedom
+# Gerätekonfiguration 
 
-Geräte Konfiguration
------------------------------
-
-La configuration des équipements Ewattch est accessible à partir du menu
-Plugins :
+Auf die Konfiguration der Ewattch-Geräte kann über das Plugins-Menü zugegriffen werden :
 
 ![ewattch2](./images/ewattch2.PNG)
 
-Voilà à quoi ressemble la page du plugin Ewattch (ici avec déjà quelques
-équipements) :
+So sieht die Ewattch-Plugin-Seite aus (hier mit einigen Geräten bereits) :
 
 ![ewattch3](./images/ewattch3.PNG)
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, mettre la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
-
-Sobald Sie eines davon anklicken, erhalten Sie :
+Sobald Sie auf eine davon klicken, erhalten Sie :
 
 ![ewattch4](./images/ewattch4.PNG)
 
-Sie werden hier alle die Konfiguration Ihrer Geräte finden:
+Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Nom de l’équipement** : nom de votre équipement Ewattch,
+-   **Name der Ausrüstung** : Name Ihrer Ewattch-Ausrüstung,
+-   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv,
+-   **Sichtbar** : macht es auf dem Dashboard sichtbar,
+-   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören),
+-   **Identifikation** : Logische ID des Geräts im Supervisor (es wird empfohlen, es nicht zu berühren),
+-   **IP** : IP des Supervisors (nur zur Information).
 
--   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
-    Ausrüstung,
+Nachfolgend finden Sie die Konfiguration der Geräte :
 
--   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
-
--   **Visible** : le rend visible sur le dashboard,
-
--   ** ** Kategorie: Gerätekategorien (es kann gehören
-    plusieurs catégories),
-
--   **ID** : ID logique de l’équipement dans le superviseur (il est
-    recommandé de ne pas y toucher),
-
--   **IP** : IP du superviseur (à titre indicatif pour le moment).
-
-En dessous, vous retrouvez la configuration de l’équipement :
-
--   le nom affiché sur le dashboard,
-
--   le sous-type,
-
--   ID logique de la commande dans le superviseur (il est recommandé de
-    ne pas y toucher),
-
--   historiser : permet d’historiser la donnée,
-
--   afficher : permet d’afficher la donnée sur le dashboard,
-
--   unité : unité de la donnée (peut être vide),
-
--   min/max : bornes de la donnée (peuvent être vides),
-
--   Erweiterte Konfiguration (kleine Zahnräder) : Erlaubt die erweiterte
-    Die erweiterte Steuerung der Konfiguration (Methode der Protokollierung,
-    widget…​),
-
--   Tester : permet de tester la commande,
-
--   supprimer (signe -) : permet de supprimer la commande.
+-   Der im Dashboard angezeigte Name,
+-   der Subtyp,
+-   Logische ID der Bestellung im Supervisor (es wird empfohlen, sie nicht zu berühren),
+-   Chronik : ermöglicht das Historisieren der Daten,
+-   Anzeige : ermöglicht die Anzeige der Daten im Dashboard,
+-   Unit : Dateneinheit (kann leer sein),
+-   min / max : Datengrenzen (können leer sein),
+-   erweiterte Konfiguration (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.),
+-   Test : Wird zum Testen des Befehls verwendet,
+-   löschen (unterschreiben -) : ermöglicht das Löschen des Befehls.
 
 

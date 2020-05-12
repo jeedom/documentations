@@ -1,48 +1,54 @@
+# Registro de alterações RFXcom
+
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
 # 02/10/2019
 
-- Amélioration de la fonction de detection du port du rfxcom
+- Melhoria da função de detecção de porta rfxcom
 
 # 16/05/2019
 
-- Correction bug interface
+- Interface de correção de bug
 
-# 03/05/2019
+# 03/03/2019
 
-- Suppresion du suport MCZ 3 fan
+- Remova o ventilador MCZ 3 fan
 
 # 30/04/2019
 
-- Correction bug
+- Bug fix
 
 # 29/04/2019
 
-- Correction d'un bug si le niveau de log est sur aucun
-- Support du MCZ 3 fan
-- Mise à jour de la doc
+- Correção de um erro se o nível de log for nenhum
+- Suporte para ventilador MCZ 3
+- Atualizando o documento
 
-# 08/10/2018
+# 08/08/2018
 
-- Fix comparaison expected et wanted protocols en lowercase
+- Corrija os protocolos de comparação esperados e desejados em minúsculas
 
-# 08/10/2018
+# 08/08/2018
 
-- Revu du démarrage du démon (by Sarakha)
-- Compatible avec le derniere RFXCOM (by Sarakha)
-- Séparation en thread de l'écoute socket et clef RFXCOM (by Sarakha)
+- Revisão de inicialização do demônio (por Sarakha)
+- Compatível com o mais recente RFXCOM (da Sarakha)
+- Separação no encadeamento do soquete de escuta e da chave RFXCOM (por Sarakha)
 
 # 14/04/2018
 
-- Correction d'un bug ou le démon pouvez rater certain message si ceux-ci arrivaient avant l'envoi à Jeedom en meme temps avec le meme packet type
+- A correção de um bug ou o demônio pode perder certas mensagens se elas chegaram antes de serem enviadas ao Jeedom ao mesmo tempo com o mesmo tipo de pacote
 
 # 17/03/2018
 
-- Mise à jour de la doc
+- Atualizando o documento
 
 # 28/02/2018
 
-- Correction d'un bug sur le changement de batterie
+- Correção de um bug na troca da bateria
 
-# 01-12-2017
+# 01/12/2017
 
--   Les commandes d’action pour les modules de type télécommande sont
-    automatiquement créées
+-   Os comandos de ação para os módulos do tipo controle remoto são
+    criado automaticamente

@@ -1,11 +1,11 @@
 {
-	"id" : "slack",
-	"name" : "Slack",
-	"description" : "Plugin pour lier Jeedom à Slack",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "3.0",
-        "category" : "communication",
-        "changelog" : "https://jeedom.github.io/plugin-slack/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-slack/#language#/"
+    "id": "slack",
+    "name": "Slack",
+    "description": "Plugin pour lier Jeedom à Slack",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "category": "communication",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/slack\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/slack\/"
 }

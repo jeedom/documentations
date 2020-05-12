@@ -1,3 +1,13 @@
+# Changelog Thermostat
+
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+
+# 04/07/2020
+
+- Bugfix
+
 # 12/21/2019
 
 - Addition of option for the hot cycle threshold in order to allow the taking into account of the inertia
@@ -49,7 +59,7 @@
 
 - Addition of an option "Limits incessant on / off cycles (pellet, gas, fuel oil) and PID". Thank you @Pierrick
 
-# 11/03/2019
+# 03/11/2019
 
 - Possibility to add an alert message if the thermostat has been suspended for more than XX minutes
 - Adding a set point delta in time mode

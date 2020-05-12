@@ -1,3 +1,13 @@
+# Changelog Thermostat
+
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
+
+# 04/07/2020
+
+- Fehlerbehebungen
+
 # 21.12.2019
 
 - Hinzufügung einer Option für die Heißzyklusschwelle, um die Berücksichtigung der Trägheit zu ermöglichen
@@ -49,7 +59,7 @@
 
 - Hinzufügen einer Option "Begrenzt unaufhörliche Ein- / Ausschaltzyklen (Pellet, Gas, Heizöl) und PID". Vielen Dank, dass Sie @Pierrick
 
-# 2019.03.11
+# 03/11/2019
 
 - Möglichkeit, eine Warnmeldung hinzuzufügen, wenn der Thermostat länger als XX Minuten angehalten wurde
 - Hinzufügen eines Sollwertdeltas im Zeitmodus

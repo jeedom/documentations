@@ -1,110 +1,77 @@
-Délestage 
-=========
+# Plug-in de derramamento de carga 
 
 ![delestage](../images/delestage_screenshot1.png)
 
-Description 
-===========
+# Descrição 
 
-Plugin permettant de gérer le délestage électrique. Le plugin gère 3
-types de délestage :
+Plugin que permite gerenciar o derramamento de carga elétrica. O plug-in gerencia 3 tipos de derramamento de carga :
 
--   Délestage "intelligent".
+-   Derramamento inteligente".
+-   Derramamento de carga hierárquica.
+-   Derramamento de carga cíclico em cascata.
 
--   Délestage hiérarchique.
+# Como funciona 
 
--   Délestage cascado-cyclique.
+## Descarga inteligente de carga. 
 
-Fonctionnement 
-==============
+O derramamento inteligente de carga requer que o plug-in Termostato funcione.
 
-Délestage intelligent. 
-----------------------
+O plugin classifica os termostatos de acordo com as temperaturas reais de acordo com as temperaturas definidas.
 
-Le délestage intelligent nécessite le plugin Thermostat pour
-fonctionner.
-
-Le plugin classe les thermostats en fonction de leurs températures
-réelles en fonction des températures de consigne.
-
-Ainsi le délestage interviendra en priorité sur les pièces dont l’écart
-est le plus faible. La gène pour les occupants sera ainsi moins
-importante.
+Portanto, o derramamento terá prioridade sobre as peças com o menor desvio. O gene para os ocupantes será menos importante.
 
 ![intelligent](../images/smart.png)
 
-Délestage hiérarchique 
-----------------------
+## Derramamento de carga hierárquica 
 
-Le délestage s’effectue en mode hiérarchisé sur les x actionneurs.
-L’actionneur 1 sera délesté en priorité puis le 2, 3…
+O derramamento de carga é realizado no modo hierárquico nos atuadores x.
+O atuador 1 será aliviado em prioridade e depois os 2, 3…
 
-Les actionneurs seront réenclenchés dans l’ordre inverse du délestage
+Os atuadores serão redefinidos na ordem inversa do derramamento de carga
 
 ![hierarchique](../images/hierarchique.png)
 
-### Délestage cascadocyclique 
+### Derramamento de carga cascadocíclico 
 
-Le délestage s’effectue en mode rotatif sur les actionneurs définis pour
-le mode cyclique puis si la puissance est toujours supérieure au seuil,
-en mode hiérarchisé sur les autres.
+O derramamento de carga é realizado no modo rotativo nos atuadores definidos para o modo cíclico e, se a potência ainda for maior que o limite, no modo hierárquico nos demais.
 
 ![cascadocyclique](../images/cascadocyclique.png)
 
-Configuration 
-=============
+# Configuração 
 
-Configuration générale 
-----------------------
+## Configuração geral 
 
-Voici les paramètres à configurer sur le plugin :
+Aqui estão os parâmetros para configurar no plug-in :
 
--   Type de délestage : intelligent, hiérarchique ou cascadocyclique
-
--   Type de compteur : Puissance instantanée ou Ampérage instantané
-
--   Compteur : sélectionner ici la commande qui renvoie soit la
-    puissance soit l’ampérage (dans ce cas il sera nécessaire de
-    configurer la tension du réseau)
-
--   Seuil en Watts : Seuil à partir duquel le déléstage se déclenchera
+-   Tipo de derramamento de carga : inteligente, hierárquico ou cascadocíclico
+-   Tipo de contador : Potência instantânea ou amperagem instantânea
+-   Contador : selecione aqui o comando que retorna a energia ou a amperagem (neste caso, será necessário configurar a tensão da rede)
+-   Limiar em Watts : Limite a partir do qual a exclusão será acionada
 
 ![configuration générale](../images/configuration_generale.png)
 
-### Actions supplémentaires 
+### Ações adicionais 
 
-Il est possible de définir des actions complémentaires en plus des
-actions de délestage.
+É possível definir ações adicionais, além de ações de descarte de carga.
 
-Il est, par exemple, possible d’envoyer un sms pour prévenir du début et
-de la fin du délestage.
+É possível, por exemplo, enviar um sms para avisar sobre o início e o fim do derramamento de carga.
 
 ![Actions complémentaires](../images/actions_complementaires.png)
 
-### Configuration avancée 
+### Configuração avançada 
 
-Les paramètres suivants peuvent être réglés:
+Os seguintes parâmetros podem ser definidos:
 
--   Tension du réseau en Volts (220V par défaut)
+-   Tensão de rede em Volts (220V por padrão)
+-   Atraso antes da reativação em minutos (5 minutos por padrão) : atraso antes do qual o equipamento não será reativado (para evitar ligar / desligar excessivamente repetitivo)
+-   Tempo mínimo entre as leituras em s (10s por padrão) : tempo necessário entre 2 instruções
 
--   Délai avant réactivation en mins (5 mns par défaut) : délai avant
-    lequel les équipements ne se réactiveront pas (afin d’éviter les
-    on/off trop répétitifs)
+![Configuração avancée](../images/configuration_avancee.png)
 
--   Délai minimum entre les relevés en s (10s par défaut) : délai
-    nécessaire entre 2 relevés
+# Faq 
 
-![Configuration avancée](../images/configuration_avancee.png)
+Por enquanto, apenas o plug-in oficial do termostato é gerenciado pelo derramamento inteligente de carga. No entanto, é possível usar os outros 2 modos de redução de carga com os outros termostatos.
 
-FAQ 
-===
+# Resolução de problemas 
 
-Pour l’instant seul le plugin thermostat officiel est géré par le
-délestage intelligent. Il est cependant possible d’utiliser les 2 autres
-modes de délestage avec les autres thermostats.
-
-Troubleshoting 
-==============
-
-Attention à bien activer le mode "Auto" sur le widget afin d’activer le
-délestage.
+Tenha cuidado para ativar o modo "Auto" no widget para ativar o derramamento de carga.

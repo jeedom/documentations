@@ -1,48 +1,34 @@
-Ce plugin permet de gérer vos bouilloires Ikettle de Smarter (attention uniquement V1 et V2).
+# Ikettle plugin
 
-Plugin configuration
-=======================
+This plugin allows you to manage your Smarter Ikettle kettles (attention only V1 and V2).
 
-Après installation du plugin, il vous suffit de l’activer. Si les dépendances sont OK, renseignez l'ip de votre bouilloire et sauvegarder. Logiquement l'équipement se créera tout seul.
+# Plugin configuration 
 
-Equipment configuration
-=============================
+After installing the plugin, you just need to activate it. If the outbuildings are OK, enter the IP for your kettle and save. Logically the equipment will create itself.
 
-La configuration des équipements Ikettle est accessible à partir du menu
-plugins puis Confort. Vous retrouvez ici :
+# Equipment configuration 
 
--   un bouton pour afficher la configuration du plugin
+The configuration of Ikettle equipment is accessible from the plugins menu then Comfort. You will find here :
 
--   un bouton qui vous donne une vue d'ensemble de tous vos équipements
+-   a button to display the configuration of the plugin
+-   a button that gives you an overview of all your equipment
+-   finally below you find the list of your equipment
 
--   enfin en dessous vous retrouvez la liste de vos équipements
+By clicking on one of your equipment you arrive on the configuration page of your equipment including 2 tabs, equipment and controls.
 
-En cliquant sur un de vos équipements vous arrivez sur la page
-configuration de votre équipement comprenant 2 onglets, équipement et
-commandes.
+-   **Equipment tab** :
+-   **Name of equipment** : name of your equipment
+-   **Activate** : makes your equipment active
+-   **Visible** : makes it visible on the dashboard
+-   **Parent object** : indicates the parent object to which the equipment belongs
+-   **Orders Tab** :
+    -  Here you will find all the commands (some being dedicated only to the scenario)
 
--   **Onglet Equipement** :
+# Widget 
 
--   **Nom de l’équipement** : nom de votre équipement
-
--   **Enable**: makes your equipment active
-
--   **Visible**: makes it visible on the dashboard
-
--   **Parent Object**: Specifies the parent object to which belongs
-    equipment
-
-
--   **Onglet Commandes** :
-
--  Ici vous retrouverez l'ensemble des commandes (certaines étant dédiées uniquement au scénario)
-
-Widget 
-======
-
-Ce plugin dispose d'un widget sépcifique, cela veut dire qu'il ne peut pas être changé.
+This plugin has a specific widget, that means that it cannot be changed.
 
 ![ikettle](./images/ikettle_screenshot.jpg)
 
-On y retrouve la température mesurée, le niveau d'eau (arbitraire ne marche pas bien), la présence ou non de la bouillloire sur son socle, les différentes actions ainsi que le statut.
+We find the measured temperature, the water level (arbitrary does not work well), the presence or not of the kettle on its base, the different actions as well as the status.
 

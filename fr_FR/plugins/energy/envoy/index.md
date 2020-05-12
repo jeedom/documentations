@@ -1,10 +1,8 @@
-Description
-===
+# Plugin Enphase Envoy
 
 Plugin pour remonter les informations photovoltaïques des passerelles Envoy
 
-Configuration
-===
+# Configuration
 
 Afin de configurer le plugin, il est nécessaire de renseigner les informations suivantes :
 
@@ -13,13 +11,11 @@ Afin de configurer le plugin, il est nécessaire de renseigner les informations 
 
 Ensuite, en cliquant sur le bouton "Synchroniser", tous les équipements seront automatiquement créés.
 
-Informations remontées
-===
+# Informations remontées
 
 Le plugin permet de remonter les informations suivantes (si vous disposez d'un Envoy-s Metered) :
 
-__*- General (maj toutes les minutes)*__
-
+- General (maj toutes les minutes)
     - Nombre de micro-onduleurs
     - Nombre de batteries
     - Etat des batteries (charging/discharging/idle)
@@ -37,17 +33,13 @@ __*- General (maj toutes les minutes)*__
     - Consommation nette de la journée (en Wh)
     - Consommation nette des 7 derniers jours (en Wh)
     - Consommation nette depuis la mise en service (en Wh)
-
-  __*- Pour chaque micro-onduleur (maj toutes les 5 minutes)*__
-
+- Pour chaque micro-onduleur (maj toutes les 5 minutes)
     - Provisionné (Oui/Non)
     - Communication (Oui/Non)
     - Production (Oui/Non)
     - Puissance (en W)
     - Puissance Max (en W)
-
-  __*- Pour chaque batterie (maj toutes les 5 minutes)*__
-
+- Pour chaque batterie (maj toutes les 5 minutes)
     - Provisionné (Oui/Non)
     - Communication (Oui/Non)
     - Production (Oui/Non)

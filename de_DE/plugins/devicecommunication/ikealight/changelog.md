@@ -1,46 +1,55 @@
-- Correction de bug dans le script d'installation des dépendances
+# Changelog Ikea
 
-# 16/10/2019
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-- Aktualisierung des Dokuments
+# 01/12/2020
 
-# 14/10/2019
+- Fehlerbehebung im Installationsskript für Abhängigkeiten
+- Inversion des Widgets für die Stores (Löschen Sie die Geräte des Store-Typs und starten Sie den Daemon neu.)
+
+# 16.10.2019
+
+- Aktualisieren des Dokuments
+
+# 2019.10.14
 
 - Fehlerbehebungen
 
-# 10/10/10
+# 10.10.10
 
-- Support des stores
-- Amélioration du nom des commandes et type générique
-- Adaptation de l'interface à Jeedom V4
-- Support php 7.3
-- changement complet du démon
+- Blinde Unterstützung
+- Verbesserung der Befehlsnamen und des generischen Typs
+- Anpassung der Schnittstelle an Jeedom V4
+- Unterstützt PHP 7.3
+- vollständiger Dämonenwechsel
 
-IMPORTANT : suite à cette mise à jour il faut reinstaller les dependances et relancer le demon
+Wichtig : Nach diesem Update müssen Sie die Abhängigkeiten neu installieren und den Dämon neu starten
 
 # 07-06-2019
 
-- Amélioration script de dépendances
+- Verbessertes Abhängigkeitsskript
 
-# 27-05-2019
+# 2019-05-27
 
-- Changement provisoire lié au changement induit par la dernière maj IKEA
-- Ajout des prises
-- Amélioration de la gestion des retours d'état
+- Vorübergehende Änderung aufgrund der Änderung durch das letzte IKEA-Update
+- Stecker hinzufügen
+- Verbesserte Verwaltung von Statusrückgaben
 
-# 14/02/2019
+# 14.02.2019
 
-- Correction bug detection auto des confs
+- Automatische Erkennung von Fehlern durch Korrekturfehler
 
-# 16/10/2018
-- Rajout conf transformer
-- Gestion des noms avec /
+# 16.10.2008
+- Conf-Transformation hinzufügen
+- Namensverwaltung mit /
 
-# 24/04/2018
+# 2018.04.24
 
-- Rajout du panneau de led 30x90
-- Rajout de l'ampoule E26 980lm
+- Hinzufügen von LED-Panel 30x90
+- Zugabe der E26 980lm Birne
 
-# 21/03/2018
+# 21.03.2008
 
-- L'ampoule 1000lm possède deux variantes rajout de la conf
+- Die 1000lm Glühbirne hat zwei Varianten, die die conf hinzufügen

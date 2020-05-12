@@ -1,12 +1,12 @@
 {
-	"id" : "karotz",
-	"name" : "Karotz",
-	"description" : "Plugin pour commander le Karotz",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "3.0",
-	"installation":"Aucun prérequis sauf pour la gestion du contrôle du volume. Il faut installer 3 fichiers sur le karotz. Ces fichiers sont conservés dans le répertoire resources. Une installation automatique des ces fichiers est possible pour tous les karotz actifs.",
-        "category" : "devicecommunication",
-        "changelog" : "https://jeedom.github.io/plugin-karotz/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-karotz/#language#/"
+    "id": "karotz",
+    "name": "Karotz",
+    "description": "Plugin pour commander le Karotz",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "installation": "Aucun prérequis sauf pour la gestion du contrôle du volume. Il faut installer 3 fichiers sur le karotz. Ces fichiers sont conservés dans le répertoire resources. Une installation automatique des ces fichiers est possible pour tous les karotz actifs.",
+    "category": "devicecommunication",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/devicecommunication\/karotz\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/devicecommunication\/karotz\/"
 }

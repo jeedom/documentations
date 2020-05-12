@@ -1,101 +1,63 @@
-Ce plugin permet de faire un ping ou un wake-on-lan sur un équipement
-réseau.
+# Redes de plugins
 
-Configuration du plugin 
-=======================
+Este plug-in permite executar ping ou wake-on-lan em equipamentos de rede.
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+# Configuração do plugin 
+
+Depois de baixar o plugin, você só precisa ativá-lo, não há configuração neste nível.
 
 ![networks](../images/networks.PNG)
 
-Configuration des équipements 
-=============================
+# Configuração do equipamento 
 
-La configuration des équipements Networks est accessible à partir du
-menu plugin :
+A configuração do equipamento de rede pode ser acessada no menu do plugin :
 
 ![networks2](../images/networks2.PNG)
 
-Voilà à quoi ressemble la page du plugin Networks (ici avec déjà 1
-équipement) :
+É assim que a página do plug-in Networks se parece (aqui com um dispositivo já) :
 
 ![networks3](../images/networks3.PNG)
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
-
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Depois de clicar em um deles, você obtém :
 
 ![networks4](../images/networks4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nom de l’équipement Networks** : nom de votre équipement Networks,
+-   **Nome de l'équipement Networks** : nome do seu equipamento de rede,
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
+-   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias),
+-   **Ativar** : torna seu equipamento ativo,
+-   **Visivél** : torna seu equipamento visível no painel,
+-   **Endereço IP** : Endereço IP para executar ping,
+-   **Endereço MAC (wol)** : Endereço MAC para wake-on-lan,
+-   **IP de transmissão (wol)** : endereço IP de broadcast da rede para enviar wake-on-lan,
+-   **Método Ping** : Escolha do método ping : IP (normal), ARP (preferível para telefones ou periféricos que adormecem), PORT (para testar se uma porta está aberta)
+-   **TTL** : Tempo de vida útil, os valores podem ser : 
+    - 0 : mesmo host
+    - 1 : mesmas sub-redes
+    - 32 : mesmo site
+    - 64 : mesma região
+    - 128 : mesmo continente
+    - 256 : sem limite
+    Se você tiver um erro "Tempo de vida excedido", aumente esse valor. Se vazio, o parâmetro é 255. Observe que em algumas configurações (Docker, por exemplo), o 255 não está autorizado, portanto, é necessário diminuir esse valor.
+-   **Porta** : Porta para executar ping se você estiver no modo ping em uma porta (exemplo : 8080 para 192.168.0.12:8080),
+-   **Atualização automática (cron)** : cron definindo a frequência do ping,
 
--   **Objet parent** : indique l’objet parent auquel appartient l’équipement,
+Abaixo você encontra a lista de pedidos :
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à plusieurs catégories),
+-   **Nome** : o nome exibido no painel,
+-   **Display** : permite exibir os dados no painel,
+-   **Teste** : permite testar o comando.
 
--   **Activer** : permet de rendre votre équipement actif,
-
--   **Visible** : rend votre équipement visible sur le Dashboard,
-
--   **Adresse IP** : adresse IP sur laquelle faire le ping,
-
--   **Adresse MAC (wol)** : adresse MAC pour le wake-on-lan,
-
--   **Broadcast IP (wol)** : adresse IP de broadcast du réseau pour     envoyer le wake-on-lan,
-
--   **Méthode de ping** : Choix de la méthode de ping : IP (normal), ARP (à privilégier pour les téléphone ou périphériques qui s'endorment), PORT (pour tester si un port est ouvert)
-    
--   **TTL** : Time-to-live, les valeurs peuvent être : 
-    - 0 : même hôte
-    - 1 : même sous-réseaux
-    - 32 : même site
-    - 64 : même région
-    - 128 : même continent
-    - 256 : aucune limite
-Si vous avez une erreur de type 'Time to live exceeded' , il faut augmenter cette valeur. Si vide, alors le paramètre vaut 255. A noter que sur certaines configuration (Docker par exemple) le 255 n'est pas autorisé il faut donc diminuer cette valeur.
-
--   **Port** : Port sur lequel faire le ping si vous êtes en mode ping sur un port (exemple : 8080 pour 192.168.0.12:8080),
-
--   **Auto-actualisation (cron)** : cron définissant la fréquence du ping,
-
-En-dessous vous retrouvez la liste des commandes :
-
--   **Nom** : le nom affiché sur le Dashboard,
-
--   **Afficher** : permet d’afficher la donnée sur le Dashboard,
-
--   **Tester** : permet de tester la commande.
-
-> **Note**
+> **NOTA**
 >
-> Jeedom va vérifier toutes les minutes (par défaut) le ping sur l’IP.
+> O Jeedom irá verificar o ping do IP a cada minuto (padrão).
 
-> **Important**
+> **IMPORTANTE**
 >
-> Si vous ne renseignez pas l’adresse MAC et broadcast alors vous
-> n’aurez pas de commande wake-on-lan.
+> Se você não digitar o endereço MAC e de transmissão, não terá um comando wake-on-lan.
 
-> **Note**
+> **NOTA**
 >
-> L’adresse MAC doit être de la forme : 5E:FF:56:A2:AF:15
-
-Widgets 
-=======
-
-Exemple de widget (sans le wake-on-lan) en vue desktop :
-
-![networks5](../images/networks5.PNG)
-
-Et en vue mobile :
-
-![networks6](../images/networks6.PNG)
-
-Changelog détaillé :
-<https://jeedom.github.io/plugin-networks/fr_FR/changelog>
+> O endereço MAC deve estar no formato : 5E:FF:56:A2:AF:15

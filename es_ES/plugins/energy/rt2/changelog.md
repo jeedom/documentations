@@ -1,8 +1,16 @@
+# Registro de cambios Eco RT2
+
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+# 30/03/2020
+
 - Soporte para sondas XTHL
 
 # 09/18/2019
 
-- Optimizaciones
+- Optimisations
 
 # 06/13/2019
 
@@ -28,4 +36,4 @@
 
 # 14/02/2018
 
-- Corrección de la gestión de cables piloto.
+- Corrección de la gestión de cables piloto

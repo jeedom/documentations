@@ -1,11 +1,11 @@
 {
-	"id" : "dyndns",
-	"name" : "Dyndns",
-	"description" : "Plugin pour mettre à jour dynamiquement des DNS",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "3.0",
-	"category" : "programming",
-	"changelog" : "https://jeedom.github.io/plugin-dyndns/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-dyndns/#language#/"
+    "id": "dyndns",
+    "name": "Dyndns",
+    "description": "Plugin pour mettre à jour dynamiquement des DNS",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "category": "programming",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/dyndns\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/dyndns\/"
 }

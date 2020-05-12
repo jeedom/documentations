@@ -1,99 +1,67 @@
-Roku 
-====
+# Roku plugin 
 
-Description 
------------
+This plugin allows you to control your Roku. He can detect it by himself and synchronize his chains. So it will be possible to have a 3-part widget :
 
-Ce plugin permet de contrôler votre Roku. Il peut le détecter tout seul
-et synchroniser ses chaînes. Ainsi il sera possible d’avoir un widget en
-3 parties :
+1 remote control part
 
-1 partie télécommande
+1 research part
 
-1 partie recherche
-
-1 partie chaînes
+1 part chains
 
 ![roku screenshot1](./images/roku_screenshot1.png)
 
-Configuration 
--------------
+# Setup 
 
-### Configuration du plugin: 
+## Plugin configuration
 
-a.  Installation/Création
+In order to use the plugin, you must download, install and activate it like any Jeedom plugin.
 
-Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-l’activer comme tout plugin Jeedom.
-
-Suite à cela il vous faudra le créer, cliquer sur "Scanner
-automtiquement" :
+After that you will have to create it, click on "Automatically scan" :
 
 ![roku screenshot2](./images/roku_screenshot2.png)
 
-Il se peut que cela ne fonctionne pas à chaque fois, vous pouvez
-retenter 2 ou 3 fois. Si malgré tout le roku n’est pas détecté, aucun
-souci vous pourrez le rajouter manuellement avec son adresse IP.
+It may not work every time, you can try 2 or 3 times. If despite everything the roku is not detected, no problem you can add it manually with its IP address.
 
-Rendez vous dans le menu Plugins/Multimedia, vous y trouverez le plugin
-Roku :
+Go to the Plugins / Multimedia menu, you will find the Roku plugin :
 
 ![configuration1](./images/configuration1.png)
 
-Ensuite vous arriverez sur la page qui listera vos rokus
+Then you will arrive on the page which will list your rokus
 
 ![roku screenshot2](./images/roku_screenshot2.png)
 
-Cliquez sur le bouton Ajouter si vous voulez rajouter un Roku
-manuellement
+Click the Add button if you want to add a Roku manually
 
-Sur cette page vous trouverez trois sections :
+On this page you will find three sections :
 
 ![roku screenshot5](./images/roku_screenshot5.png)
 
-i.  Général
+### Main
 
-Vous trouverez dans cette section toutes les configurations jeedom. A
-savoir le nom de votre équippement, l’objet auquel vous voulez
-l’associer, la catégorie, si vous voulez que l’équipement soit actif ou
-non , et enfin si vous voulez qu’il soit visible sur le dashboard.
+In this section you will find all jeedom configurations. Namely the name of your equipment, the object with which you want to associate it, the category, if you want the equipment to be active or not, and finally if you want it to be visible on the dashboard.
 
-i.  Configuration
+### Configuration
 
-Cette section est une des plus importantes elle permet de choisir le
-modèle et l’IP de votre roku (dans le cas ou l’autodétection n’a pas
-fonctionné)
+This section is one of the most important, it allows you to choose the model and IP of your roku (in case auto-detection did not work)
 
-Le bouton "Synchroniser les chaînes" permet une fois votre équipement
-sauvegardé de lancer une récupération des chaînes disponibles sur votre
-roku ainsi que leur image. Vous pouvez cliquer sur ce bouton chaque fois
-que vous avez ajouté ou supprimé des chaines de votre roku afin de
-synchroniser l’ensemble.
+The button "Synchronize the channels" allows once your equipment saved to launch a recovery of the channels available on your roku as well as their image. You can click on this button each time you have added or removed channels from your roku in order to synchronize the whole.
 
-i.  Tableau de Commandes
+### Commands
 
-Ici vous trouverez la liste de toutes les commandes et chaînes
-disponibles
+Here you will find the list of all available commands and channels
 
-Toutes ces commandes sont disponibles via scénarios et via le dashboard
+All these commands are available via scenarios and via the dashboard
 
-### Le widget : 
+### The widget : 
 
 ![roku screenshot1](./images/roku_screenshot1.png) ![roku
-screenshot3](./images/roku_screenshot3.png) ![roku
-screenshot4](./images/roku_screenshot4.png)
+screenshot3](../ images / roku_screenshot3.png) ![roku
+screenshot4](../ images / roku_screenshot4.png)
 
-Le widget se décompose en trois parties :
+The widget is divided into three parts :
 
--   Une partie centrale qui est en fait la télécommande de votre Roku
+-   A central part which is actually the remote control of your Roku
+-   A Channels section which allows you to have the icons of all channels (scrollable) and thus have direct access to your channels
+-   A search section allowing depending on the pages you are on (a few rare pages) to have direct access to the search and even to type your search with the keyboard
 
--   Une partie Chaînes qui permet d’avoir les icones de toutes les
-    chaînes (scrollable) et ainsi avoir un accès direct à vos chaînes
-
--   Une partie recherche permettant selon les pages sur lesquelles vous
-    êtes (quelques rares pages) d’avoir un accès direct à la recherche
-    et même de taper votre recherche avec le clavier
-
-Vous pouvez avec les 3 boutons du bas choisir la page à afficher. La
-page se chargeant à chaque fois au moment où vous vous rendez sur le
-dashboard étant bien entendu celle de la télécommande.
+You can with the 3 buttons at the bottom choose the page to display. The page loading each time when you go to the dashboard being of course that of the remote control.

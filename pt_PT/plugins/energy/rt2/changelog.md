@@ -1,6 +1,12 @@
+# Lista de Mudanças Eco RT2
+
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
 # 30/03/2020
 
-- Support des sondes XTHL
+- Suporte para sondas XTHL
 
 # 18/09/2019
 
@@ -8,26 +14,26 @@
 
 # 13/06/2019
 
-- Suppression du redemarrage du démon a chaque changement sur les équipements (il faut maintenant lorsque vous modifiez un équipement relance le démon manuellement)
+- Supressão da reinicialização do daemon a cada alteração nos equipamentos (é necessário agora que você modifica um equipamento para reiniciar o daemon manualmente)
 
 # 20/02/2019
 
-- Support des Fil Pilote (attention il faut la derniere version du firmware du RT2,2.00.34 B1)
+- Suporte para Pilot Wire (observe a versão mais recente do firmware do RT2,2.00.34 B1)
 
 # 17/01/2019
 
-- Correction de bug
+- Bug fix
 
 # 14/12/2018
 
-- Correction de bug
-- Réglage de la fréquence de mise à jour possible (en seconde)
+- Bug fix
+- Configurando a frequência de atualização possível (em segundos)
 
-# 06/11/2018
+# 06/06/2018
 
-- Ajout de la gestion des sous-postes
-- Ajout d'un systeme de sauvegarde automatique tout les jours des rt2
+- Adição de gerenciamento de subestação
+- Adição de um sistema de backup automático todos os dias da rt2
 
 # 14/02/2018
 
-- Correction de la gestion des fils pilote
+- Correção do gerenciamento de fios-piloto

@@ -1,7 +1,18 @@
-# 13/08/2019
+# Registro de cambios IFTTT
 
-- Support de PHP 7.3
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+# 08/28/2019
+
+- Actualización de la documentación
+- Actualización de la interfaz de configuración
+
+# 08/13/2019
+
+- Soporte para php 7.3
 
 # 15/04/2019
 
-- Correction d'un bug sur l'icone
+- Corrección de un error en el ícono

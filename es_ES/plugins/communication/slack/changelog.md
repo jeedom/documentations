@@ -1,24 +1,30 @@
-# 03/12/2019
+# Changelog Slack
 
-- Correction d'un bug sur la génération de l'url de contact de slack pour jeedom
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-# 13/08/2019
+# 12/03/2019
 
-- Support de PHP 7.3
+- Corrección de un error en la generación de la url de contacto flojo para jeedom
+
+# 08/13/2019
+
+- Soporte para php 7.3
 
 # 18/03/2019
 
-- Actualización de la documentación
+- Actualizando el documento
 
 # 25/01/2019
 
-- Correction de bug (pour le ask)
-- Uniformisation de l'ui
+- Corrección de errores (para preguntar)
+- Estandarización de la interfaz de usuario
 
 # 29/03/2018
 
-- Corrección de errores
+- Correcciones de errores
 
 # 11/03/2018
 
-- Ajout de log
+- Agregar registro

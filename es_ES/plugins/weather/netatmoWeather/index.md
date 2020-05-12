@@ -1,132 +1,101 @@
-Plugin permettant de récupérer les informations des stations météo
-Netatmo.
+# Complemento Netatmo Weather
 
-configuración del plugin
-=======================
+Plugin para recuperar información de estaciones meteorológicas Netatmo.
 
-Une fois le plugin installé, il vous faut renseigner vos informations de
-connexion Netatmo :
+# Configuración del plugin
+
+Una vez que se instala el complemento, debe ingresar la información de conexión de Netatmo :
 
 ![netatmoWeather2](./images/netatmoWeather2.png)
 
--   **Client ID** : votre client ID (voir partie configuration)
+-   **ID del cliente** : su ID de cliente (vea la sección de configuración)
+-   **Client secret** : su cliente secreto (vea la sección de configuración)
+-   **Nombre de usuario** : nombre de usuario de su cuenta netatmo
+-   **Contraseña** : contraseña para su cuenta de Netatmo
+-   **Sincronizar** : le permite sincronizar Jeedom con su cuenta de Netamo para descubrir automáticamente su equipo Netamo. Para hacer después de guardar los parámetros anteriores.
 
--   **Client secret** : votre client secret (voir partie configuration)
+# Recuperando información de conexión
 
--   **Nom d’utilisateur** : nom d’utilisateur de votre compte netatmo
+Pour intégrer votre station, vous devez posséder un client\_id et unclient\_secret généré sur le site <http://dev.netatmo.com>.
 
--   **Mot de passe** : mot de passe de votre compte Netatmo
-
--   **Synchroniser** : permet de synchroniser Jeedom avec votre compte
-    Netamo pour découvrir automatiquement vos équipements Netamo. A
-    faire après avoir sauvegardé les paramètres précedent.
-
-Recupération des informations de connexion 
-==========================================
-
-Pour intégrer votre station, vous devez posséder un client\_id et un
-client\_secret généré sur le site <http://dev.netatmo.com>.
-
-Une fois dessus cliquez sur start :
+Una vez que haga clic en Inicio :
 
 ![netatmoWeather10](./images/netatmoWeather10.png)
 
-Puis sur "create an app"
+Luego en "crear una aplicación"
 
 ![netatmoWeather11](./images/netatmoWeather11.png)
 
-Identifiez vous, avec votre mail et mot de passe
+Identifícate con tu correo electrónico y contraseña
 
 ![netatmoWeather12](./images/netatmoWeather12.png)
 
-Remplissez les champs "Name" et "Description" (peux importe ce que vous
-mettez ca n’a aucune importance) :
+Complete los campos "Nombre" y "Descripción" (no importa lo que ingrese) :
 
 ![netatmoWeather13](./images/netatmoWeather13.png)
 
-Puis tout en bas de la page cochez la case "I accept the terms of use"
-puis cliquez sur "Create"
+Luego, en la parte inferior de la página, marque la casilla "Acepto los términos de uso" y luego haga clic en "Crear"
 
 ![netatmoWeather14](./images/netatmoWeather14.png)
 
-Recuperer les informations "CLient id" et "Client secret" et copier les
-dans la partie configuration du plugin dans Jeedom (voir chapitre
-précedent)
+Recupere la información de "ID de cliente" y "Cliente secreto" y cópielos en la parte de configuración del complemento en Jeedom (consulte el capítulo anterior)
 
 ![netatmoWeather15](./images/netatmoWeather15.png)
 
-> **Important**
+> **Importante**
 >
-> Attention il faut bien que l’url de callback soit à "None" sinon ca ne
-> marchera pas.
+> Tenga en cuenta que la URL de devolución de llamada debe ser "Ninguna", de lo contrario no funcionará.
 
-Configuración del dispositivo
-=============================
+# Configuración del equipo
 
-La configuration des équipements Netatmo est accessible à partir du menu
-plugin :
+La configuración del equipo Netatmo es accesible desde el menuplugin :
 
 ![netatmoWeather3](./images/netatmoWeather3.png)
 
-Voilà à quoi ressemble la page du plugin Netatmo (ici avec déjà 2
-équipement) :
+Así es como se ve la página del complemento Netatmo (aquí con 2 equipos ya) :
 
 ![netatmoWeather4](./images/netatmoWeather4.png)
 
-> **Tip**
+> **Punta**
 >
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible).
+> Como en muchos lugares de Jeedom, colocar el mouse en el extremo izquierdo permite que aparezca un menú de acceso rápido (siempre puede dejarlo visible desde su perfil).
 
-Une fois que vous cliquez sur un équipement vous obtenez :
+Una vez que haces clic en un equipo, obtienes :
 
 ![netatmoWeather5](./images/netatmoWeather5.png)
 
-Aquí encontrará toda la configuración de su dispositivo:
+Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nom de l’équipement Netatmo** : nom de votre équipement Netatmo
+-   **Nombre del dispositivo Netatmo** : nombre de su equipo Netatmo
+-   **Objeto padre** : indica el objeto padre al que pertenece el equipo
+-   **Activar** : activa su equipo
+-   **Visible** : lo hace visible en el tablero
+-   **Identificador** : identificador de equipo único
+-   **Tipo** : tipo de su equipo (estación, sonda interior, sonda exterior ...)
 
--   **Objeto padre** : especifica el objeto padre al que pertenece
-    equipo
+A continuación encontrará la lista de pedidos :
 
--   ** ** Activar: para que su equipo activo
+-   el nombre que se muestra en el tablero
+-   Guardar historial : permite historizar los datos
+-   configuración avanzada (ruedas con muescas pequeñas) : muestra la configuración avanzada del comando (método de registro, widget, etc.)
+-   Probar : Se usa para probar el comando
 
--   Visible ** **: hace visible en el tablero de instrumentos
+# Widget
 
--   **Identifiant** : identifiant unique de l’équipement
-
--   **Type** : type de votre équipement (station, sonde intérieure,
-    sonde extérieures…​)
-
-A continuación encontrará la lista de ordenes :
-
--   le nom affiché sur le dashboard
-
--   historiser : permet d’historiser la donnée
-
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
-
--   Prueba: prueba el comando
-
-Widget 
-======
-
-Voici le widget standard pour une station sur le dashboard :
+Aquí está el widget estándar para una estación en el tablero :
 
 ![netatmoWeather6](./images/netatmoWeather6.png)
 
-Et en mobile :
+Y en el móvil :
 
 ![netatmoWeather7](./images/netatmoWeather7.png)
 
-Preguntas frecuentes
-===
+# FAQ
 
-Quelle est la fréquence de rafraîchissement ?
+>**¿Cuál es la frecuencia de actualización? ?**
+>
+>El sistema recupera información cada 15 minutos.
 
-:   Le systeme recupère les informations toutes les 15 min.
-
-
+>**Tengo mis sondas pero no hay ningún valor que regrese**
+>
+>Ocurre cuando hay un problema en la actualización de módulos o Netatmo. La forma más fácil es agregar / quitar un módulo y seguir el proceso forzará una actualización de todo y debería corregir el problema.

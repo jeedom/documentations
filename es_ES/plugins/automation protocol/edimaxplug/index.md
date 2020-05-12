@@ -1,37 +1,26 @@
-Ce plugin permet de piloter les prises WIFI Edimax.
+# Complemento Edimax
 
-configuración del plugin
-=======================
+Este complemento le permite controlar los enchufes WIFI Edimax.
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci.
+# Configuración del plugin 
 
-Configuración del dispositivo
-=============================
+Después de descargar el complemento, solo necesita activarlo.
 
-La synchronisation des équipements Edimax Plugs est accessible à partir
-du menu plugin : Une fois que vous cliquez sur l’un d’eux, vous
-retrouvez ici toute la configuration de votre équipement :
+# Configuración del equipo 
 
--   **Nom de l’équipement** : nom de votre équipement Edimax sur le
-    dashboard,
+Se puede acceder a la sincronización del equipo Edimax Plugs desde el menú de complementos : Una vez que haga clic en uno de ellos, encontrará aquí toda la configuración de su equipo :
 
--   **Objeto padre** : especifica el objeto padre al que pertenece
-    equipos,
+-   **Nombre del equipo** : nombre de su equipo Edimax en el tablero,
+-   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
+-   **Activar** : activa su equipo,
+-   **Visible** : hace que su equipo sea visible en el tablero,
+-   **Categoría** : categoría de su equipo Edimax
 
--   ** ** Activar: para que su equipo activo,
+Así como la siguiente información :
 
--   ** ** visible hace que su equipo visible en el salpicadero,
-
--   **Catégorie** : catégorie de votre équipement Edimax
-
-Ainsi que les informations suivantes :
-
--   **Adresse IP** : Adresse du module,
-
--   **Model** : Modèle de la prise,
-
--   **Version** : Version,
-
--   **Version** : Version du matériel
+-   **Dirección IP** : Dirección del módulo,
+-   **Modelo** : Modelo de enchufe,
+-   **Versión** : Version,
+-   **Versión** : Versión de hardware
 
 

@@ -1,13 +1,27 @@
 {
-	"id" : "netatmoThermostat",
-	"name" : "Netatmo Thermostat",
-	"description" : "Plugin pour contrôler son thermostat Netatmo.<br/><br/>Le plugin permet de :<br/>-Choisir le mode de fonctionnement du thermostat (programme,max,absent,hors gel, off, consigne manuel)<br/>-Choisir son calendrier (vacances, standard etc...)<br/>- De connaitre la batterie et les niveaux de signals du thermostat<br/>- De connaitre le planning actuel ainsi que le suivant (et l'heure de fin du planning actuel)<br/>- De définir le jour et heure de fin des modes (absent, hors-gel, max et manuel)<br/>- L'ensemble des fonctions sont disponibles via scénarios<br/>- Les deux widgets (dashboard et mobile) permettent d'accéder à toutes ces fonctionnalités",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.0",
-        "category" : "wellness",
-        "changelog" : "https://jeedom.github.io/plugin-netatmoThermostat/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-netatmoThermostat/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy"]	
+    "id": "netatmoThermostat",
+    "name": "Netatmo Thermostat",
+    "description": "Plugin pour contrôler son thermostat Netatmo.<br\/><br\/>Le plugin permet de :<br\/>-Choisir le mode de fonctionnement du thermostat (programme,max,absent,hors gel, off, consigne manuel)<br\/>-Choisir son calendrier (vacances, standard etc...)<br\/>- De connaitre la batterie et les niveaux de signals du thermostat<br\/>- De connaitre le planning actuel ainsi que le suivant (et l'heure de fin du planning actuel)<br\/>- De définir le jour et heure de fin des modes (absent, hors-gel, max et manuel)<br\/>- L'ensemble des fonctions sont disponibles via scénarios<br\/>- Les deux widgets (dashboard et mobile) permettent d'accéder à toutes ces fonctionnalités",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.0",
+    "category": "wellness",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/netatmoThermostat\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/netatmoThermostat\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy"
+    ]
 }

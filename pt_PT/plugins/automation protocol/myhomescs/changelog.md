@@ -1,6 +1,8 @@
->**IMPORTANT**
+# Changelog MyhomeSCS
+
+>**IMPORTANTE**
 >
->Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
 # 10/05/2020
 
@@ -17,8 +19,3 @@
 
 # V0.002 de 21/11/2017 
 
-- Corrigido o problema de dependência do python
-
-# V0.001 de 11/11/2017 
-
-- Liberação inicial

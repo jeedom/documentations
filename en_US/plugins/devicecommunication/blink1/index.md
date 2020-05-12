@@ -1,203 +1,118 @@
-Description 
-===========
+# Blink plugin (1)
 
-Plugin servant à piloter une clef blink(1).
+Plugin used to control a blink key (1).
 
-Configuration
-=============
+# Setup 
 
-The plugin does not require any configuration, just activate it:
+The plugin does not require any configuration, you just have to activate it :
 
 ![blink1](./images/blink1.png)
 
-Equipment configuration
-=============================
+# Equipment configuration 
 
-La configuration des équipements blink(1) est accessible à partir du
-menu Plugins :
+The configuration of blink devices (1) is accessible from the Plugins menu :
 
 ![blink2](./images/blink2.png)
 
-Voilà à quoi ressemble la page du plugin blink(1) (ici avec déjà un
-équipement) :
+This is what the blink (1) plugin page looks like (here already with equipment) :
 
 ![blink3](./images/blink3.png)
 
-Voilà à quoi ressemble la page de configuration d’un équipement blink(1)
-:
+This is what the configuration page for a blink device looks like (1) :
 
 ![blink4](./images/blink4.png)
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, mettre la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible).
+Here you find all the configuration of your equipment :
 
-You can find here the full configuration of your device :
+-   **Name of the blink(1) equipment** : name of your blink equipment (1)
+-   **Parent object** : indicates the parent object to which the equipment belongs
+-   **Activate** : makes your equipment active
+-   **Visible** : makes it visible on the dashboard
+-   **Fashion** : the mode in which you want to operate your blink (1) (see below for the description)
 
--   **Nom de l’équipement blink(1)** : nom de votre équipement blink(1)
+Below you find the list of orders :
 
--   **Parent Object**: Specifies the parent object to which belongs
-    equipment
+-   the name displayed on the dashboard
+-   type and subtype
+-   the value : allows to give the value of the command according to another command, a key (case of a virtual switch), a calculation….
+-   Settings : name of the pattern to launch or of the command to launch
+-   Show : allows to display the data on the dashboard
+-   advanced configuration (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.)
 
--   **Enable**: makes your equipment active
+-   Test : Used to test the command
+-   delete (sign -) : allows to delete the command
 
--   **Visible**: makes it visible on the dashboard
-
--   **Mode** : le mode dans lequel vous voulez faire fonctionner
-    votre blink(1) (voir plus bas pour la description)
-
-Here below you can fond the list of commands :
-
--   le nom affiché sur le dashboard
-
--   le type et le sous-type
-
--   la valeur : permet de donner la valeur de la commande en fonction
-    d’une autre commande, d’une clef (cas d’un interrupteur virtuel),
-    d’un calcul…​.
-
--   Paramètres : nom du pattern à lancer ou de la commande à lancer
-
--   afficher : permet d’afficher la donnée sur le dashboard
-
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
-
--   Test: test the command
-
--   supprimer (signe -) : permet de supprimer la commande
-
-Mode "Local" 
-============
+# "Local" mode" 
 
 ![blink5](./images/blink5.png)
 
-Mode à utiliser si le blink(1) est branché sur un des ports USB de
-Jeedom. Le seul paramètre dans ce mode est non obligatoire et permet de
-sélectionner un blink(1) en particulier si vous en avez plusieurs de
-branchés.
+Mode to use if the blink (1) is connected to one of Jeedom's USB ports. The only parameter in this mode is not mandatory and allows you to select a blink (1) in particular if you have several connected.
 
-Mode "Appels à l’API blink(1)" 
-------------------------------
+# Blink API Calls Mode (1)" 
 
 ![blink6](./images/blink6.png)
 
-Dans ce mode, Jeedom va directement appeler l’api de blink1control, il
-faut donc que Jeedom puisse joindre en direct le système sur lequel la
-clef blink(1) est installée.
+In this mode, Jeedom will directly call the blink1control API, so Jeedom must be able to directly join the system on which the blink (1) key is installed.
 
-Dans ce mode les paramètres de configuration sont :
+In this mode the configuration parameters are :
 
--   **Adresse ou IP** : adresse ou ip où la clef blink(1) est installée
+-   **Address or IP** : address or ip where the blink key (1) is installed
+-   **Port** : port on which the blink1control application is listening
+-   **Pattern** : allows to synchronize the patterns with those of the blink1control application
 
--   **Port** : port sur lequel l’application blink1control écoute
+## Installation of the blink1control application 
 
--   **Pattern** : permet de synchroniser les pattern avec ceux de
-    l’application blink1control
+The blink1control app can be found [here](http://blink1.thingm.com/blink1control/), in the download part, it is available for windows and mac. Once downloaded, launch the installation of the application.
 
-Installation de l’application blink1control 
--------------------------------------------
+## Configuration of the blink1control application 
 
-L’application blink1control se trouve
-[ici](http://blink1.thingm.com/blink1control/), dans la partie download,
-elle est disponible pour windows et mac. Une fois téléchargée, lancez
-l’installation de l’application.
-
-Configuration de l’application blink1control 
---------------------------------------------
-
-Une fois installée et lancée vous devez avoir :
+Once installed and launched you must have :
 
 ![blink7](./images/blink7.png)
 
-Cette application offre de très nombreuses possibilités. Rapidement on
-trouve en haut à gauche le statut de la clef (ici non branchée), en bas
-à gauche les évènements, en haut au centre des actions rapides pour
-piloter la clef, juste en-dessous un système de choix avancé des modes
-et couleurs, et à droite les patterns.
+This application offers many possibilities. Quickly we find in the top left the status of the key (here not connected), in the bottom left the events, in the top in the center of the quick actions to control the key, just below an advanced system of choice of modes and colors , and on the right the patterns.
 
-Une fois là, il faut cliquer sur la petite roue crantée dans device pour
-faire apparaître le menu de configuration avancée et activer l’api
-server, en mettant bien serverHost sur any. Notez aussi le port pour le
-reporter dans la configuration de Jeedom.
+Once there, you have to click on the small notched wheel in device to bring up the advanced configuration menu and activate the server API, putting serverHost on any. Also note the port to report it in the Jeedom configuration.
 
 ![blink8](./images/blink8.png)
 
-Validez et redémarrez blink1control pour qu’il le prenne en compte.
+Validate and restart blink1control so that it takes it into account.
 
-Mode "Surveillance par URL" 
-===========================
+# "URL monitoring mode" 
 
 ![blink9](./images/blink9.png)
 
-Dans ce mode c’est l’application blink1control qui appelle toutes les X
-secondes cette URL qui va lui donner ses instructions.
+In this mode it is the blink1control application which calls this URL every X seconds which will give it its instructions.
 
-Pour le configurer, il faut dans l’applicaiton blink1control aller sur
-tools puis cliquer sur le petit plus (+) pour en ajouter un, ensuite
-faire URL et copier l’URL que donne Jeedom (champs URL à surveiller)
-dans le path. Vous pouvez aussi configurer la fréquence de mise à jour.
+To configure it, in the blink1control application go to tools then click on the little plus (+) to add one, then make URL and copy the URL given by Jeedom (URL fields to watch) in the path. You can also configure the update frequency.
 
 > **Important**
 >
-> Pour que cela marche il faut que le PC sur lequel est blink1control
-> puisse accèder à Jeedom. Si vous utilisez un pc portable à l’extérieur
-> de votre réseau avec la clef dessus, il faut donc que Jeedom soit
-> accessible de l’extérieur. Si vous ne savez pas comment faire, le
-> mieux est d’utiliser le DNS Jeedom.
+> For this to work it is necessary that the PC on which blink1control is able to access Jeedom. If you are using a laptop outside your network with the key on it, Jeedom must therefore be accessible from the outside. If you don't know how, the best is to use Jeedom DNS.
 
-Dans ce mode vous avez aussi une option "Ne pas répéter les commandes"
-celle-ci permet de ne plus répéter la dernière commande une fois que
-blink1control a pris en compte la demande. Il est conseillé de la
-laisser cochée.
+In this mode you also have an option "Do not repeat commands" this allows you to no longer repeat the last command once blink1control has taken into account the request. It is advisable to leave it checked.
 
-Mode "Les deux" 
-===============
+# "Both" mode" 
 
 ![blink11](./images/blink11.png)
 
-Ce mode est une combinaison des 2 modes précédents, l’avantage c’est
-qu’il combine la vitesse de réaction du premier et la possibilité de le
-faire fonctionner même à l’extérieur de chez soi du deuxième. Pour la
-configuration il faut donc suivre les procédures pour le mode "Appels à
-l’API blink(1)" et le mode "Surveillance par URL".
+This mode is a combination of the 2 previous modes, the advantage is that it combines the reaction speed of the first and the possibility of operating it even outside the second home. For the configuration it is therefore necessary to follow the procedures for the mode "Calls to the blink API (1)" and the mode "Monitoring by URL".
 
-Mode "SSH" 
-==========
+# SSH mode" 
 
 ![blink12](./images/blink12.png)
 
-Ce mode doit être utilisé si vous avez mis le blink(1) sur une machine
-linux autre que celle où est installé Jeedom (Jeedom maître car le
-plugin n’est pas compatible en déporté). La configuration est assez
-simple :
+This mode must be used if you have put the blink (1) on a Linux machine other than the one where Jeedom is installed (Jeedom master because the plugin is not compatible in remote mode). The configuration is quite simple :
 
--   **Numéro de périphérique** : ID du périphérique, à n’utiliser que si
-    vous avez plusieurs clefs blink(1) sur votre machine
-
--   **Adresse ou IP** : adresse IP de la machine où est branchée la clef
-
--   **Nom d’utilisateur** : le nom d’utilisateur pour se connecter sur
-    la machine où est branchée la clef
-
--   **Chemin relatif de l’exécutable blink1-tool** : chemin relatif vers
-    l’exécutable blink1-tool
+-   **Device number** : Device ID, to be used only if you have several blink keys (1) on your machine
+-   **Address or IP** : IP address of the machine where the key is connected
+-   **Username** : the user name to log on to the machine where the key is connected
+-   **Relative path to blink(1)-tool software** : relative path to the blink1-tool executable
 
 > **Tip**
 >
-> L’exécutable est disponible
-> [ici](https://github.com/todbot/blink1/releases), attention Jeedom ne
-> fonctionne qu’avec la version linux qui n’est bien sûr compatible
-> qu’avec une machine de type linux (rpi, rpi2, jeedomboard, cubieboard,
-> bananapi…​). Il suffit de transférer l’exécutable sur la machine où
-> est branchée la clef, et de le rendre exécutable (chmod +x
-> blink1-tool)
+> The executable is available [here](https://github.com/todbot/blink1/releases), beware Jeedom only works with the linux version which is of course only compatible with a linux type machine (rpi, rpi2, jeedomboard, cubieboard, bananapi…). Just transfer the executable to the machine where the key is plugged in, and make it executable (chmod + x blink1-tool)
 
 > **Important**
 >
-> Pour que cela fonctionne, il faut avoir mis en place au niveau SSH
-> l’échange de clef RSA pour que Jeedom puisse se connecter sur la
-> machine où est branchée la clef sans fournir de mot de passe.
+> For this to work, you must have set up at the SSH level the RSA key exchange so that Jeedom can connect to the machine where the key is connected without providing a password.

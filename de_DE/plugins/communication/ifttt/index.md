@@ -1,275 +1,206 @@
-Ce plugin permet d’envoyer un évènement à IFTTT
+# IFTTT Plugin
 
-Plugin-Konfiguration
-=======================
+Dieses Plugin ermöglicht das Senden eines Ereignisses an IFTTT
 
-Après téléchargement du plugin il vous faut l’activer, celui-ci ne
-nécessite aucune autre configuration.
+# Plugin Konfiguration 
+
+Nach dem Herunterladen des Plugins müssen Sie es aktivieren, es erfordert keine andere Konfiguration.
 
 ![ifttt7](./images/ifttt7.PNG)
 
-Gerätekonfiguration
-=============================
+# Gerätekonfiguration 
 
-La configuration des équipements IFTTT est accessible à partir du menu
-plugins :
+Auf die Konfiguration der IFTTT-Geräte kann über das Plugins-Menü zugegriffen werden :
 
 ![ifttt8](./images/ifttt8.PNG)
 
-Voilà à quoi ressemble la page du plugin IFTTT (ici avec déjà 1
-équipement) :
+So sieht die IFTTT-Plugin-Seite aus (hier mit bereits 1 Gerät) :
 
 ![ifttt9](./images/ifttt9.PNG)
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, mettre la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible)
-
-Sobald Sie eines davon anklicken, erhalten Sie :
+Sobald Sie auf eine davon klicken, erhalten Sie :
 
 ![ifttt10](./images/ifttt10.PNG)
 
-Sie werden hier alle die Konfiguration Ihrer Geräte finden:
+Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Nom de l’équipement** : nom de votre équipement IFTTT
+-   **Name de l'équipement** : Name Ihrer IFTTT-Ausrüstung
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv
+-   **Sichtbar** : macht es auf dem Dashboard sichtbar
+-   **Schlüssel** : IFTTT-Schlüssel, den Sie in der Konfiguration des Webhooks-Dienstes finden (der den Channel Maker ersetzt)
 
--   **Aktivieren**: auf Ihre aktiven Geräte machen
+Nachfolgend finden Sie die Konfiguration der Befehle :
 
--   Visible ** **: macht es sichtbar auf dem Armaturenbrett
+-   **Name** : Name der Bestellung
+-   **Untertyp** : Gerätetyp
+-   **Ereignis** : Ereignisname in IFTTT konfiguriert
+-   **Wert** : Wert, der an IFTTT gesendet werden soll, 3 mögliche Unterscheidungen, abhängig vom Subtyp, den Sie für die Tags verwenden können : \.#color\.#, \.#slider\.#, \.#message\.# und \#title\.#
+-   erweiterte Konfiguration (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.)
+-   Test : Wird zum Testen des Befehls verwendet
+-   löschen (unterschreiben -) : ermöglicht das Löschen des Befehls
 
--   **Clef** : clef IFTTT que vous trouverez dans la configuration du
-    service Webhooks (qui remplace channel maker)
+# Erstellung eines IFTTT-Kontos 
 
-En dessous vous retrouvez la configuration des commandes :
-
--   **Nom** : nom de la commande
-
--   **Sous-type** : sous-type de l’équipement
-
--   **Evènement** : nom de l’èvenement configuré dans IFTTT
-
--   **Valeur** : valeur a envoyer à IFTTT, 3 distinctions possibles, en
-    fonction du sous-type vous pouvez utiliser les tags : \#color\#,
-    \#slider\#, \#message\# et \#title\#
-
--   Erweiterte Konfiguration (kleine Zahnräder) : Erlaubt die erweiterte
-    Konfiguration des Befehls anzuzeigen (Methode der
-    Archivierung, Widget ...)
-
--   Test: prüft den Befehl
-
--   supprimer (signe -) : permet de supprimer la commande
-
-Création d’un compte IFTTT 
-==========================
-
-Créez un compte sur IFTTT si ce n’est pas déjà fait, en allant sur
-[IFTTT](:https://ifttt.com) :
+Erstellen Sie ein IFTTT-Konto, falls Sie dies noch nicht getan haben [IFTTT](:https://ifttt.com) :
 
 ![ifttt1](./images/ifttt1.png)
 
-Renseignez votre adresse mail puis votre nom d’utilisateur et faites
-créer :
+Geben Sie Ihre E-Mail-Adresse und dann Ihren Benutzernamen ein und lassen Sie ihn erstellen :
 
 ![ifttt2](./images/ifttt2.PNG)
 
-Un petit guide va vous expliquer les possibilités, une fois celui-ci
-terminé, cliquez en haut a droite sur search :
+Eine kleine Anleitung erklärt Ihnen die Möglichkeiten. Wenn Sie fertig sind, klicken Sie bei der Suche oben rechts auf :
 
 ![ifttt3](./images/ifttt3.PNG)
 
-Puis dans recherche tapez webhooks et cliquez sur webhooks :
+Geben Sie dann in der Suche Webhooks ein und klicken Sie auf Webhooks :
 
 ![ifttt4](./images/ifttt4.PNG)
 
-Puis sur connect :
+Dann auf verbinden :
 
 ![ifttt5](./images/ifttt5.png)
 
-Et là il vous faut récupérer votre clef :
+Und dort müssen Sie Ihren Schlüssel abholen :
 
 ![ifttt6](./images/ifttt6.png)
 
-Cette clef est à copier dans le champ "Clef" de votre équipement sous
-Jeedom
+Dieser Schlüssel muss im Feld "Schlüssel" Ihrer Ausrüstung unter Jeedom kopiert werden
 
 ![ifttt11](./images/ifttt11.PNG)
 
-Création de votre premier "Applet" 
-==================================
+# Erstellung Ihres ersten "Applets"
 
-Pour cela rien de plus simple, dans IFTTT cliquez sur "My applets" puis
-sur "New applet"
+Nichts könnte einfacher sein, klicken Sie in IFTTT auf "Meine Applets" und dann auf "Neues Applet""
 
 ![ifttt12](./images/ifttt12.png)
 
-Puis cliquez sur "New applet" :
+Klicken Sie dann auf "Neues Applet" :
 
 ![ifttt13](./images/ifttt13.PNG)
 
-Cliquez sur le "this" :
+Klicken Sie auf "dies"" :
 
 ![ifttt14](./images/ifttt14.png)
 
-Puis cherchez "Webhooks" et cliquez dessus :
+Suchen Sie dann nach "Webhooks" und klicken Sie darauf :
 
 ![ifttt15](./images/ifttt15.png)
 
-Cliquez sur "Receive a web request"
+Klicken Sie auf "Webanforderung erhalten""
 
 ![ifttt16](./images/ifttt16.png)
 
-Donnez un nom à votre "event", attention celui-ci doit correspondre au
-nom de l’évènement dans la commande Jeedom, il faut donc bien le
-mémoriser, puis validez :
+Geben Sie Ihrem "Ereignis" einen Namen. Beachten Sie, dass es dem Namen des Ereignisses im Befehl "Jeedom" entsprechen muss. Es muss daher gespeichert und dann validiert werden :
 
 ![ifttt17](./images/ifttt17.png)
 
-Cliquez ensuite sur le that :
+Dann klicken Sie darauf :
 
 ![ifttt18](./images/ifttt18.png)
 
-Ensuite à vous de voir, pour l’exemple je vais faire un envoi de
-notification sur mon téléphone (il faut au préalable avoir installé
-l’application IFTTT dessus), je clique donc sur Notifications :
+Dann sehen Sie, für das Beispiel werde ich eine Benachrichtigung auf meinem Telefon senden (Sie müssen zuerst die IFTTT-Anwendung darauf installieren), also klicke ich auf Benachrichtigungen :
 
 ![ifttt19](./images/ifttt19.png)
 
-Validez en cliquant sur "Send a notification" (peut changer en fonction
-des channels) :
+Bestätigen Sie durch Klicken auf "Benachrichtigung senden" (kann sich je nach Kanal ändern) :
 
 ![ifttt20](./images/ifttt20.png)
 
-Ensuite il faut écrire le message de la notification, il existe ici des
-tags (ingredient) possible :
+Dann müssen Sie die Nachricht der Benachrichtigung schreiben, hier sind Tags (Zutaten) möglich :
 
--   **{{EventName}}** : nom de l’évenement, ici weather
+-   **{{EventName}}** : Name der Veranstaltung, hier Wetter
+-   **{{Value1}}** : Der im Kanal gesendete Wert 1 wird über den Befehl in Jeedom konfiguriert
+-   **{{Value2}}** : Der im Kanal gesendete Wert 2 wird über den Befehl in Jeedom konfiguriert
+-   **{{Value3}}** : Der im Kanal gesendete Wert 3 wird über den Befehl in Jeedom konfiguriert
+-   **{{OccurredAt}}** : Datum des Auftretens
 
--   **{{Value1}}** : valeur 1 envoyé dans le channel, cela se configure
-    sur la commande dans Jeedom
-
--   **{{Value2}}** : valeur 2 envoyé dans le channel, cela se configure
-    sur la commande dans Jeedom
-
--   **{{Value3}}** : valeur 3 envoyé dans le channel, cela se configure
-    sur la commande dans Jeedom
-
--   **{{OccurredAt}}** : date de l’occurence
-
-Voilà ce que cela donne ici (je veux recevoir la notification de la
-méteo en cours chez moi), valider en cliquant sur "Create Action" :
+Dies ist, was es hier gibt (ich möchte die Benachrichtigung über das Wetter in meinem Haus erhalten), validieren Sie, indem Sie auf "Aktion erstellen" klicken" :
 
 ![ifttt21](./images/ifttt21.PNG)
 
-Donnez un nom a votre applet (recette) et validez en cliquant sur
-"Create action" :
+Geben Sie Ihrem Applet (Rezept) einen Namen und bestätigen Sie, indem Sie auf "Aktion erstellen" klicken" :
 
 ![ifttt22](./images/ifttt22.PNG)
 
-Voilà vous avez créer votre "applets" coté IFTTT :
+Hier haben Sie Ihre "Applets" aufgelisteten IFTTT erstellt :
 
 ![ifttt23](./images/ifttt23.PNG)
 
-Il reste plus qu’a créer la commande coté Jeedom, c’est assez simple :
+Es bleibt mehr als die Bestellung auf der Jeedom-Seite zu erstellen, es ist ganz einfach :
 
 ![ifttt24](./images/ifttt24.PNG)
 
-Ici rien de particulier, il faut bien remettre le nom de l’évènement
-IFTTT dans Jeedom et ensuite mettre les valeurs à passer à IFTTT, ici
-les conditions méteo dans l’ingrédient value1
+Hier gibt es nichts Besonderes. Sie müssen den Namen des Ereignisses IFTTT in Jeedom eingeben und dann die Werte an IFTTT übergeben, hier die Wetterbedingungen im Inhaltsstoffwert1
 
-> **Tip**
+> **Spitze**
 >
-> Coté Jeedom vous pouvez, si vous faites une commande de sous-type
-> message par exemple, mettre le tag \#message\# dans un ou plusieurs
-> champs "Valeur". Ainsi, dans votre scénario la valeur du message sera
-> tranmis à IFTTT. La même chose est possible avec \#title\#, \#color\#,
-> \#slider\#
+> Auf der Jeedom-Seite können Sie, wenn Sie beispielsweise einen Nachrichtensubtyp bestellen, das Tag \ einfügen#message\.# in einem oder mehreren "Wert" -Feldern". In Ihrem Szenario wird der Wert der Nachricht an IFTTT übergeben. Das gleiche ist mit \ möglich#title\.#, \.#color\.#, \.#slider\.#
 
-Envoi d’information de IFTTT vers Jeedom 
-========================================
+# Senden von Informationen von IFTTT an Jeedom 
 
-Il est aussi possible de faire dans l’autre sens, envoi d’information de
-IFTTT vers Jeedom. Voilà comment faire pour par exemple envoyer une
-information lorsque le téléphone pénètre dans une zone donnée. Première
-chose à faire, créer une nouvelle applet :
+Es ist auch möglich, Informationen von IFTTT an Jeedom zu senden. So senden Sie beispielsweise Informationen, wenn das Telefon einen bestimmten Bereich betritt. Erstellen Sie als Erstes ein neues Applet :
 
 ![ifttt25](./images/ifttt25.png)
 
-Cliquez ensuite sur le "this" :
+Klicken Sie dann auf "dies"" :
 
 ![ifttt26](./images/ifttt26.png)
 
-Sélectionnez "Location" :
+Wählen Sie "Standort" :
 
 ![ifttt27](./images/ifttt27.png)
 
-Choisissez votre déclencheur (ici je vais prendre quand on rentre dans
-une zone) :
+Wählen Sie Ihren Auslöser (hier werde ich nehmen, wenn wir einen Bereich betreten) :
 
 ![ifttt28](./images/ifttt28.png)
 
-Marquez votre zone puis faites "Create Trigger" :
+Markieren Sie Ihren Bereich und führen Sie "Trigger erstellen" aus" :
 
 ![ifttt29](./images/ifttt29.png)
 
-Cliquez sur "that" :
+Klicken Sie auf "das" :
 
 ![ifttt30](./images/ifttt30.png)
 
-Cherchez "Webhooks" et cliquez dessus :
+Suchen Sie nach "Webhooks" und klicken Sie darauf :
 
 ![ifttt31](./images/ifttt31.png)
 
-Cliquez sur "Make a web request" :
+Klicken Sie auf "Webanforderung stellen"" :
 
 ![ifttt32](./images/ifttt32.png)
 
-Coté Jeedom, sur votre équipement IFTTT, créer une commande de type
-info/autre (ou binaire si vous voulez juste savoir si vous êtês dans la
-zone), comme cela :
+Jeedom-Seite erstellen Sie auf Ihrer IFTTT-Ausrüstung einen Befehl info / other type (oder binär, wenn Sie nur wissen möchten, ob Sie sich in der Nähe befinden) :
 
 ![ifttt33](./images/ifttt33.PNG)
 
--   Très important ici : récupérer l’id de la commande (ici 5369).
+Sehr wichtig hier : Bestellnummer abrufen (hier 5369).
 
-On retourne ensuite sur IFTTT et dans notre webhooks on va lui donner
-l’url à appeller. C’est ici l’étape la plus compliquée, trouver votre
-url d’accès externe :
+Wir kehren dann zu IFTTT zurück und geben ihm in unseren Webhooks die URL zum Aufrufen. Dies ist der komplizierteste Schritt. Finden Sie Ihre externe Zugriffs-URL :
 
--   Vous utilisez le DNS jeedom alors c’est :
-    [https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=\#APIKEY\#&type=ifttt&id=\#IDCMD\#&value=\#VALEUR\#](https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=#APIKEY#&type=ifttt&id=#IDCMD#&value=#VALEUR#).
-    Attention si vous avez une adresse en /jeedom il faut bien penser à
-    la rajouter avant le /core
+-   Sie verwenden jeedom DNS, also ist dies : ``https://XXXXX.dns.jeedom.com/core/api/jeeApi.php?apikey=\.#APIKEY\.#&type=ifttt&id=\.#IDCMD\.#&value=\.#VALEUR\.#``. Achtung, wenn Sie eine Adresse in / jeedom haben, müssen Sie daran denken, diese vor dem / core hinzuzufügen
+-   Sie haben Ihr eigenes DNS, dann hat die URL die Form ``http://\.#VOTRE\._DNS\.#/core/api/jeeApi.php?apikey=\.#APIKEY\.#&type=ifttt&id=\.#IDCMD\.#&value=\.#VALEUR\.#``. Achtung, wenn Sie eine Adresse in / jeedom haben, müssen Sie daran denken, diese vor dem / core hinzuzufügen
 
--   Vous avez votre propre DNS alors l’url est de la forme
-    [http://\#VOTRE\_DNS\#/core/api/jeeApi.php?apikey=\#APIKEY\#&type=ifttt&id=\#IDCMD\#&value=\#VALEUR\#](http://#VOTRE_DNS#/core/api/jeeApi.php?apikey=#APIKEY#&type=ifttt&id=#IDCMD#&value=#VALEUR#).
-    Attention si vous avez une adresse en /jeedom il faut bien penser à
-    la rajouter avant le /core
+Denken Sie daran, zu ersetzen :
 
-Pensez bien à remplacer :
+-   \.#APIKEY\.# : über Ihren JEEDOM-API-Schlüssel (befindet sich unter Allgemein → Administration → Konfiguration)
+-   \.#IDCMD\.# : anhand der ID Ihrer zuvor erstellten Bestellung
+-   \.#VALEUR\.# : durch den Wert, den Sie Ihrer Bestellung geben möchten. Achtung hier müssen die Leerzeichen durch% 20 ersetzt werden (und es ist besser, Sonderzeichen zu vermeiden), z : Ohne% 20zone
 
--   \#APIKEY\# : par votre clef API JEEDOM (elle se trouve dans Général
-    → Administration → Configuration)
-
--   \#IDCMD\# : par l’id de votre commande précédemment créée
-
--   \#VALEUR\# : par la valeur que vous voulez donner à votre commande.
-    Attention ici les espaces doivent être remplacés par des %20 (et il
-    vaut mieux éviter les caractères spéciaux), ex : Hors%20zone
-
-Voilà ce que cela donne :
+Das gibt es :
 
 ![ifttt34](./images/ifttt34.png)
 
-Pensez bien à mettre methode sur Get, puis cliquez sur "Create Action".
+Denken Sie daran, die Methode auf Get zu setzen und dann auf "Aktion erstellen" zu klicken".
 
-Donnez un titre à votre applets puis cliquez sur "Create action". Et
-voilà, dès que vous rentrez dans la zone Jeedom sera prévenu.
+Geben Sie Ihren Applets einen Titel und klicken Sie auf "Aktion erstellen"". Und voila, sobald Sie den Jeedom-Bereich betreten, wird benachrichtigt.
 
-> **Important**
+> **Wichtig**
 >
-> Il faut aussi faire une recette pour la sortie de zone sinon Jeedom ne
-> sera pas prévenu lors de votre sortie de la zone
+> Sie müssen auch ein Rezept erstellen, um das Gebiet zu verlassen, sonst tut Jeedom dies nicht
+> wird nicht benachrichtigt, wenn Sie den Bereich verlassen
+
+> **Notiz**
+>
+> Um die Webhook-URL auf ifttt zu erhalten, müssen Sie zu gehen [hier](https://ifttt.com/maker_webhooks) Klicken Sie dann auf Dokumentation

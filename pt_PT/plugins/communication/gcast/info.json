@@ -1,11 +1,11 @@
 {
-	"id" : "gcast",
-	"name" : "Gcast",
-	"description" : "Plugin simple de gestion de cast, et permet la notif vocale",
-	"licence" : "AGPL",
-	"author" : "Ludovic SARAKHA",
-	"require" : "3.0",
-        "category" : "communication",
-        "changelog" : "https://jeedom.github.io/plugin-gcast/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-gcast/#language#/"
+    "id": "gcast",
+    "name": "Gcast",
+    "description": "Plugin permettant de faire parler un device CAST. Il permet aussi de régler le volume. En usage combiné avec un Google home il permet de faire le pont avec les interactions et d'avoir un retour vocal, il permet aussi d'utiliser la fonction ask.",
+    "licence": "AGPL",
+    "author": "Ludovic SARAKHA",
+    "require": "3.0",
+    "category": "communication",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/gcast\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/gcast\/"
 }

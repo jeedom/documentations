@@ -1,11 +1,11 @@
 {
-	"id" : "ewattch",
-	"name" : "Ewattch",
-	"description" : "Plugin pour le superviseur ewattch",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "3.0",
-        "category" : "energy",
-        "changelog" : "https://jeedom.github.io/plugin-ewattch/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-ewattch/#language#/"
+    "id": "ewattch",
+    "name": "Ewattch",
+    "description": "Plugin pour le superviseur ewattch",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "category": "energy",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/ewattch\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/ewattch\/"
 }

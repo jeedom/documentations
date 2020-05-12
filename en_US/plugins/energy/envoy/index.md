@@ -1,10 +1,8 @@
-Description
-===
+# Enphase Envoy plugin
 
 Plugin to collect photovoltaic information from Envoy gateways
 
-Configuration
-===
+# Configuration
 
 In order to configure the plugin, it is necessary to fill in the following information :
 
@@ -13,13 +11,11 @@ In order to configure the plugin, it is necessary to fill in the following infor
 
 Then, by clicking on the "Synchronize" button, all equipment will be automatically created.
 
-Information reported
-===
+# Information reported
 
 The plugin allows you to upload the following information (if you have an Envoy-s Metered) :
 
-__ * - General (shift every minute) * __
-
+- General (shift every minute)
     - Number of microinverters
     - Number of batteries
     - Battery status (charging / discharging / idle)
@@ -37,17 +33,13 @@ __ * - General (shift every minute) * __
     - Daily net consumption (in Wh)
     - Net consumption for the last 7 days (in Wh)
     - Net consumption since commissioning (in Wh)
-
-  __ * - For each microinverter (shift every 5 minutes) * __
-
+- For each microinverter (shift every 5 minutes)
     - Provisioned (Yes / No)
     - Communication (Yes / No)
     - Production (Yes / No)
     - Power (in W)
     - Max power (in W)
-
-  __ * - For each battery (shift every 5 minutes) * __
-
+- For each battery (shift every 5 minutes)
     - Provisioned (Yes / No)
     - Communication (Yes / No)
     - Production (Yes / No)

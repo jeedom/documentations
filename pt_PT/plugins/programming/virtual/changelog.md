@@ -1,14 +1,20 @@
+# Changelog Virtual
+
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
 # 23/10/2019
 
-- Mise à jour de la doc
-- Supression forcé des " lors d'un calcul sur une commande
-- Correction de bug de calcul si le résultat à pour valeur"Faux"
+- Atualizando o documento
+- Exclusão forçada de "durante um cálculo em um pedido
+- Correção do erro de cálculo se o resultado for "False""
 
 # 10/09/2019
 
-- Correction de l'arrondit forcé sur 2 chiffres sur les commandes numérique
-- Ajout d'un systeme de template pour créer des équipements rapidement
-- Correction de bugs
+- Correção do arredondamento forçado para 2 dígitos nos controles digitais
+- Adicionando um sistema de modelos para criar rapidamente equipamentos
+- Correções de bugs
 
 # 26/04/2019
 
@@ -16,23 +22,23 @@
 
 # 22/03/2019
 
-- Ajout d'une securité en cas de boucle infini
+- Adição de segurança em caso de loop infinito
 
 # 18/03/2019
 
-- Correction de bugs
-- Ajout d'une securité en cas de boucle infini
+- Correções de bugs
+- Adição de segurança em caso de loop infinito
 
 # 13/03/2019
 
-- Mise à jour de la doc
+- Atualizando o documento
 
 # 22/01/2019
 
--   Correction de bugs
+-   Correções de bugs
 
 # 21/01/2019
 
--   Correction d'un bug sur les valeurs déclenchant une mise à jour d'une commande info
--		Correction de l'erreur lors de la copie d'un équipement si la commande Rafraichir existe.
--   Ajout du testeur d'expressions
+-   Correção de um erro nos valores que acionam a atualização de um comando info
+-		Correção do erro ao copiar um dispositivo se o comando Atualizar existir.
+-   Adição do testador de expressão

@@ -1,6 +1,8 @@
->**IMPORTANT**
+# Changelog IPX 800 v4
+
+>**Important**
 >
->As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
 # 05/09/2020
 

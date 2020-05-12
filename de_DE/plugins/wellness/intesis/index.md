@@ -1,122 +1,118 @@
-Intesis 
-=======
+# Intesis 
 
-Description 
------------
-
-Plugin permettant de piloter **les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox).**  basées sur le protocole WMP.
+Plugin zur Steuerung **les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox).**  basierend auf dem WMP-Protokoll.
 
 Les passerelles « Intesis Wifi (ASCII) AC Interfaces » sont des box qui permettent de domotiser des systèmes de climatisation gainables (interface Intesis à connecter en filaire sur le bus du climatisateur) ou à split avec télécommande infrarouge (interface Intesis IR).
 
-Ce plugin supporte tous les modèles de passerelles Intesis Wifi (ASCII) AC Interfaces (aussi bien filaires que IR), mais **n’est pas compatible avec les passerelles IntesisHome** (et notamment pas avec les passerelles Intesis de la gamme IntesisHome).
+Dieses Plugin unterstützt alle Modelle von Intesis Wifi (ASCII) AC-Schnittstellen (sowohl verkabelt als auch IR), jedoch **ist nicht kompatibel mit IntesisHome-Gateways** (und insbesondere nicht mit Intesis-Gateways aus der IntesisHome-Reihe).
 
-Les passerelles Intesis Wifi (ASCII) AC Interfaces sont [disponibles à la vente ici.](https://www.domadoo.fr/fr/323_intesis-unites-ac-domestiques-daikin-vers-une-interface-wi-fi-rac)
+Intesis Wifi (ASCII) AC Interfaces Gateways sind [hier zum Verkauf angeboten.](https://www.domadoo.fr/fr/323_intesis-unites-ac-domestiques-daikin-vers-une-interface-wi-fi-rac)
 
+# Plugin Konfiguration 
 
-Configuration du plugin 
-==========================
-Après téléchargement du plugin, il faut tout d’abord activer celui-ci, comme <br>tout plugin Jeedom :
+Nach dem Herunterladen des Plugins müssen Sie es zunächst als aktivieren <br>ein beliebiges Jeedom-Plugin :
+
 ![conf](./images/intesisConf.png)
 
-Ensuite, il est vivement conseillé de lancer l’installation des dépendances (même si elles apparaissent OK) :
+Es wird dringend empfohlen, mit der Installation der Abhängigkeiten zu beginnen (auch wenn sie in Ordnung erscheinen) :
 
 ![dependances](./images/intesisDep.png)
 
-Enfin, il faut démarrer le démon :
+Starten Sie schließlich den Dämon :
 
 ![demon](./images/intesisDem.png)
 
-Pour finir, il faut vérifier que tout est au vert et OK :
+Schließlich müssen Sie überprüfen, ob alles grün und in Ordnung ist :
 
 ![ok](./images/intesisOk.png)
 
-Il n’y a rien d’autre à faire.
+Es gibt nichts anderes zu tun.
 
-Rien n’est à modifier dans le champ « Port socket interne » de la section « Configuration ».
+Rien n'est à modifier dans le champ « Port socket interne » de la section « Configuration ».
 
 ![socket](./images/intesisSocket.png)
 
-Comment déclarer une nouvelle interface intesis Wifi dans Jeedom
-==========================
+# So deklarieren Sie eine neue Intesis-Wifi-Schnittstelle in Jeedom
 
 Rendez-vous dans le menu « Plugins / Protocole domotique / Intesis » :
 
 ![menu](./images/intesisMenu.png)
 
-Vous arrivez sur la page suivante, qui se compose de deux sections :
+Sie gelangen auf die nächste Seite, die aus zwei Abschnitten besteht :
 
-- •	« Gestion », avec les options suivantes : « Ajouter » et « Configuration » (cette option vous renvoie à la page de configuration du plugin, décrite au point précédent).
-- •	« Mes Intesis » : C’est là que sont ou seront affichées les passerelles Intesis wifi gérées par Jeedom.
+- « Gestion », avec les options suivantes : « Ajouter » et « Configuration » (cette option vous renvoie à la page de configuration du plugin, décrite au point précédent).
+- « Meine Intesis » : Hier werden die von Jeedom verwalteten Intesis-WLAN-Gateways angezeigt.
 
 ![gestion](./images/intesisGest.png)
 
-Vous devez donc cliquer sur l’option « Ajouter » et renseigner le nom de l’équipement (Climatisation Salon, par exemple) :
+Vous devez donc cliquer sur l'option « Ajouter » et renseigner le nom de l'équipement (Climatisation Salon, par exemple) :
 
 ![ajoutEquipement](./images/intesisAddeq.png)
 
-Vous devez ensuite compléter les autres champs de la page de configuration du nouvel équipement Intesis, dont l’objet, la catégorie, cocher « Activer » et « Visible », puis vous devez **renseigner l’adresse IP** de votre passerelle Intesisbox Wifi :
+Vous devez ensuite compléter les autres champs de la page de configuration du nouvel équipement Intesis, dont l'objet, la catégorie, cocher « Activer » et « Visible », puis vous devez **Geben Sie die IP-Adresse ein** Ihr Intesisbox Wifi Gateway :
 
 ![confEquipement](./images/intesisConfEq.png)
 
->**IMPORTANT**<br>
->Il faut faire en sorte que votre passerelle Intesisbox Wifi ait une IP fixe sur votre réseau local, sinon son IP pourrait changer auquel cas Jeedom ne parviendrait plus à piloter la passerelle.
+>**Wichtig**
+>
+>Sie müssen sicherstellen, dass Ihr Intesisbox Wifi-Gateway eine feste IP in Ihrem lokalen Netzwerk hat. Andernfalls kann sich die IP ändern. In diesem Fall kann Jeedom das Gateway nicht mehr steuern.
 
-Il ne vous reste plus qu’à sauvegarder.
+Alles was Sie tun müssen, ist speichern.
 
-Les commandes
-==========================
-Rendez-vous dans l’onglet « Commandes » de la page de configuration du nouvel équipement Intesis.
+# Bestellungen
+
+Rendez-vous dans l'onglet « Commandes » de la page de configuration du nouvel équipement Intesis.
 
 Ici vous pouvez masquer et rendre visibles les différentes commandes de type « action » et « info » disponibles (les commandes de type « info » peuvent également être historisées) :
 
 ![cmd](./images/intesisCmd.png)
 
-Le plugin propose au total 14 commandes. 
+Das Plugin bietet insgesamt 14 Befehle. 
 
-Les commandes de type « action » (actionneurs) disponibles sont les suivantes :
+Bestellungen de type « action » (actionneurs) disponibles sont les suivantes :
 
-- ON : Pour mettre en marche le climatisateur
--	OFF : Pour éteindre le climatiseur
-- Consigne : Pour modifier la consigne de température du climatisateur
-- Mode List : Pour modifier le mode de fonctionnement du climatisteur (Auto, Heat, Dry, Fan, Cool)
--  Oscillation haut-bas : Pour modifier le mode d’oscillation des lames verticales d’orientation du flux d’air (1, 2, 3 et Swing)
-- Oscillation gauche-droite : Pour modifier le mode d’oscillation des lames horizontales d’orientation du flux d’air (1, 2, 3 et Swing)
-- Vitesse ventilateur : Pour modifier la vitesse de rotation du ventilateur (de 1 à 4)
+- Ein : Klimaanlage einschalten
+-	Aus : Klimaanlage ausschalten
+- Anleitung : Ändern des Temperatursollwerts der Klimaanlage
+- Listenmodus : So ändern Sie die Betriebsart der Klimaanlage (Auto, Heizen, Trocknen, Lüfter, Kühlen)
+- Auf-Ab-Schaukel : So ändern Sie den Schwingungsmodus der vertikalen Luftstrom-Orientierungsschaufeln (1, 2, 3 und Swing)
+- Links-rechts-Schaukel : So ändern Sie den Schwingungsmodus der horizontalen Luftstrom-Orientierungsschaufeln (1, 2, 3 und Swing)
+- Lüftergeschwindigkeit : So ändern Sie die Drehzahl des Lüfters (von 1 bis 4)
 
-Les commandes de type « info» (capteurs) disponibles sont les suivantes :
+Bestellungen de type « info» (capteurs) disponibles sont les suivantes :
 
--	État : Retour d’état ON/OFF du climatisateur
--	Info consigne : Retour d’état de la consigne de température
--	Mode : Retour d’état du mode de fonctionnement du climatisteur (Auto, Heat, Dry, Fan, Cool)
--	Info oscillation haut-bas : Retour d’état du mode d’oscillation des lames verticales du climatiseur.
--	Info oscillation gauche-droite : Retour d’état du mode d’oscillation des lames horizontales du climatiseur.
--	Info vitesse ventilateur : Retour d’état de la vitesse du ventilateur
--	Température : Température ambiante de la pièce
+-	Zustand : Statusrückmeldung Klimaanlage EIN / AUS
+-	Sollwertinfo : Rückmeldung des Temperatursollwertstatus
+-	Modus : Statusrückmeldung zur Betriebsart der Klimaanlage (Auto, Heizen, Trocknen, Lüfter, Kühlen)
+-	High-Low-Oszillationsinfo : Statusrückmeldung des Schwingungsmodus der vertikalen Schaufeln der Klimaanlage.
+-	Links-Rechts-Schwingungsinformationen : Statusrückmeldung des Schwingungsmodus der horizontalen Schaufeln der Klimaanlage.
+-	Informationen zur Lüftergeschwindigkeit : Rückmeldung des Lüftergeschwindigkeitsstatus
+-	Temperatur : Raumumgebungstemperatur
 
-Vous pouvez masquez les commandes qui ne vous sont pas utiles. Cela peut être le cas, par exemple, si votre climatiseur n’a pas de lames d’orientation du flux d’air.
+Sie können Befehle ausblenden, die für Sie nicht nützlich sind. Dies kann beispielsweise der Fall sein, wenn Ihre Klimaanlage keine Luftstrom-Orientierungsschaufeln hat.
 
-À l’inverse, vous pouvez rendre visibles les commandes de type « info » qui vous sont utiles.
+À l'inverse, vous pouvez rendre visibles les commandes de type « info » qui vous sont utiles.
 
-Le widget Intesis
-==========================
+# Das Intesis-Widget
 
-Comme indiqué au point 3) précédent, les commandes qui s’affichent sur le widget sont uniquement celles que vous avez rendu visibles auparavant.
+Wie in Punkt 3) oben angegeben, sind die Befehle, die im Widget angezeigt werden, nur diejenigen, die Sie zuvor sichtbar gemacht haben.
 
->**Remarque** : Pour les commandes de type « info », le retour d’état se fait toutes les 5 minutes. Donc si vous utilisez la télécommande du climatiseur pour modifier la consigne (ou autre), Jeedom reflète cet état dans le Widget dans un laps de temps maximum de 5 minutes.
+>**Bemerkung**
+>
+>Pour les commandes de type « info », le retour d'état se fait toutes les 5 minutes. Wenn Sie also die Fernbedienung der Klimaanlage verwenden, um den Sollwert (oder einen anderen) zu ändern, spiegelt Jeedom diesen Zustand innerhalb eines Zeitraums von maximal 5 Minuten im Widget wider.
 
-Comme pour tout widget Jeedom, vous pouvez réorganiser les commandes sur le widget grâce au mode édition (pour cela, cliquez sur le crayon en haut à gauche) :
-
+Wie bei jedem Jeedom-Widget können Sie die Befehle im Widget im Bearbeitungsmodus neu anordnen (klicken Sie dazu oben links auf den Stift) :
 
 ![widget](./images/intesisWidget.png)
 
-Quelques exemples de widgets Intesis avec différentes commandes visibles (sur Jeedom V3) :
+Einige Beispiele für Intesis-Widgets mit verschiedenen sichtbaren Befehlen (in Jeedom V3) :
 
 ![widget1](./images/intesisWidget1.png)
 
 ![widget2](./images/intesisWidget2.png)
+
 ![widget3](./images/intesisWidget3.png)
 
-Exemple de widget Intesis sur Jeedom V4 :
-<br>
-<br>
+Beispiel für ein Intesis-Widget in Jeedom V4 :
+
 ![widgetV4](./images/intesisWidgetV4.png)

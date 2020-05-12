@@ -1,11 +1,11 @@
 {
-	"id" : "wazeintime",
-	"name" : "Waze in Time",
-	"description" : "Plugin pour avoir la durée de trajet entre deux points",
-	"licence" : "AGPL",
-	"author" : "Ludovic SARAKHA",
-	"require" : "2.3",
-        "category" : "travel",
-        "changelog" : "https://jeedom.github.io/plugin-wazeintime/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-wazeintime/#language#/"
+    "id": "wazeintime",
+    "name": "Waze in Time",
+    "description": "Plugin pour avoir la durée de trajet entre deux points",
+    "licence": "AGPL",
+    "author": "Ludovic SARAKHA",
+    "require": "2.3",
+    "category": "travel",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/travel\/wazeintime\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/travel\/wazeintime\/"
 }

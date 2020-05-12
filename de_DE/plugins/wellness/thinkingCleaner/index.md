@@ -1,46 +1,39 @@
-ThinkingCleaner 
-===============
+# ThinkingCleaner Plugin 
 
-Beschreibung 
------------
+Plugin zur Steuerung von Roomba-Staubsaugern mit dem Thinking Cleaner-Modul. Die verfügbaren Funktionen sind : 
 
-Plugin permettant de controller les aspirateurs Roomba à l’aide du
-module Thinking Cleaner. Les fonctions disponibles sont : - Clean - Spot
-- Max - Dock - Stop - Find Me
+- Sauber 
+- Spot
+- Max 
+- Dock 
+- STOP 
+- Finde mich
 
-![thinkingCleaner
-screenshot1](./images/thinkingCleaner_screenshot1.png)
+![thinkingCleaner screenshot1](./images/thinkingCleaner_screenshot1.png)
 
-Konfiguration
--------------
+# Konfiguration 
 
-Une fois le plugin installé, il vous suffit de sauvegarder le plugin
-dans Général → Plugins → thinkingCleaner. Les roombas seront
-automatiquement detéctés sur le réseau et ajoutés.
+Sobald das Plugin installiert ist, müssen Sie es nur noch unter Allgemein → Plugins → thinkCleaner speichern. Roombas werden automatisch im Netzwerk erkannt und hinzugefügt.
 
-Vous pouvez ensuite vous rendre de le plugin afin de changer la pièce
-dans laquelle se trouve le roomba.
+Sie können dann zum Plugin gehen, um den Raum zu ändern, in dem sich die Roomba befindet.
 
-Utilisation 
------------
+# Verwendung 
 
-6 fonctions sont disponibles dans le widget : - Clean : lance un
-nettoyage - Spot : lance un nettoyage ciblé sur une zone - Max : lance
-un nettoyage jusqu’à épuisement de la batterie - Dock : demande au
-roomba de retourner sur sa base - Stop : arrete le roomba - Find Me :
-demande au roomba de sonner
+Im Widget stehen 6 Funktionen zur Verfügung : 
 
-2 informations sont disponibles : - Le niveau de charge de la batterie -
-Le statut du roomba
+- Sauber : mit der Reinigung beginnen 
+- Spot : Startet eine gezielte Reinigung eines Bereichs 
+- Max : beginnt mit der Reinigung, bis der Akku leer ist 
+- Dock : Bitten Sie Roomba, zu seiner Basis zurückzukehren 
+- STOP : Stoppen Sie die Roomba 
+- Finde mich : Bitten Sie Roomba zu klingeln
 
-FAQ 
----
+2 Informationen sind verfügbar : 
 
-Le systeme recupère les informations toutes les 5 minutes.
+- Der Ladezustand des Akkus 
+- Der Status von Roomba
 
-Änderungsprotokoll
----------
+# Faq 
 
--   V0.1 : Première release
-
+Das System ruft alle 5 Minuten Informationen ab.
 

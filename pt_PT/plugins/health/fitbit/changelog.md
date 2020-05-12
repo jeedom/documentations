@@ -1,17 +1,23 @@
+# Changelog Fitbit
+
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
 # 13/08/2019
 
-- Support de PHP 7.3
+- Suporte para php 7.3
 
 # 26/04/2019
 
-- Correction de bugs (merci @Dany)
+- Correções de bugs (obrigado @Dany)
 
-# 03/04/2018
+# 04/03/2018
 
-- Mise à jour de la doc
+- Atualizando o documento
 
 # 01/01/2016
 
--   Passage sur la nouvelle API fitbit
--   Utilisation d’un widget standard
--   Ajout de l’information sur le rythme cardiaque
+-   Mude para a nova API fitbit
+-   Usando um widget padrão
+-   Adicionando informações de freqüência cardíaca

@@ -1,71 +1,39 @@
-Configuration
-=============
+# Plugin meteorológico
 
-Le plugin Weather permet de récupérer les données météorologiques pour
-une ou plusieurs villes. Il permet entre autre d’avoir les informations
-de lever et coucher du soleil, de température, de prévision, de vent,
-etc. Les informations récupérées viennent du site internet
-openweathermap.
+El complemento Weather le permite recuperar datos meteorológicos para una o más ciudades. Entre otras cosas, proporciona información sobre el amanecer y el atardecer, la temperatura, el pronóstico, el viento, etc. La información recuperada proviene del sitio web openweathermap.
 
-Configuration du plugin
------------------------
+# Configuración del plugin
 
-Après avoir installé le plugin, il faut l’activer puis renseigner votre
-clef api/
+Después de instalar el complemento, debe activarlo y luego ingresar su clave API.
 
-Pour obtenir votre clef api il faut aller
-[ici](https://home.openweathermap.org), créer un compte et ensuite il
-faut copier votre clef api dans la zone prévue sur la page de
-configuration du Plugin.
+Para obtener su clave API, debe ir [aquí](https://home.openweathermap.org), cree una cuenta y luego copie su clave API en el área provista en la página de configuración del complemento.
 
-> **Important**
+> **Importante**
 >
-> Il faut attendre quelques heures ensuite le temps que la clef soit
-> active avant de pouvoir récupérer des informations
+> Debe esperar algunas horas hasta que la clave esté activa antes de poder recuperar información
 
-Configuration des équipements
------------------------------
+# Configuración del equipo
 
-Aquí encontrará toda la configuración de su dispositivo:
+Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nom de l’équipement météo** : nom de votre équipement météo
+-   **Nombre del dispositivo meteorológico** : nombre de su equipo meteorológico
+-   **Activar** : activa su equipo
+-   **Visible** : hace que su equipo sea visible en el tablero
+-   **Objeto padre** : indica el objeto padre al que pertenece el equipo
+-   **Ciudad** : Debe poner el nombre de su ciudad seguido del código del país, ej : Paris, fr
+-   **Visualización completa en móvil** : muestra toda la información meteorológica o no en el móvil
 
--   ** ** Activar: para que su equipo activo
+A continuación encontrará todos los comandos disponibles, así como la posibilidad de historizar o no los valores numéricos. El código (número) según las condiciones está disponible [aquí](https://openweathermap.org/weather-conditions)
 
--   **Visible** : rend votre équipement visible sur le dashboard
+Los datos meteorológicos se actualizan cada 30 minutos.
 
--   **Objeto padre** : especifica el objeto padre al que pertenece
-    equipo
-
--   **Ville** : Il faut mettre le nom de votre ville suivi du code pays,
-    ex : Paris,fr
-
--   **Affichage complet en mobile** : permet d’afficher toutes les
-    informations météo ou non en mobile
-
-Vous retrouvez en dessous toutes les commandes disponibles ainsi que la
-possibilité d’historiser ou non les valeurs numériques. Le code (numéro)
-en fonction des conditions est disponible
-[ici](https://openweathermap.org/weather-conditions)
-
-Le rafraîchissement des données météo s’effectue toutes les 30 minutes.
-
-> **Tip**
+> **Punta**
 >
-> Nous vous conseillons de vous rendre
-> [ici](https://openweathermap.org/find?) afin de vérifier si votre
-> ville, village est connu ou pas. Auquel cas il faudra trouver la ville
-> la plus proche connue et saisir cette dernière dans la configuration
-> de votre équipement pour pouvoir récupérer les informations.
+> Te aconsejamos que vayas [aquí](https://openweathermap.org/find?) para verificar si su ciudad, pueblo es conocido o no. En ese caso, tendrá que encontrar la ciudad conocida más cercana e ingresarla en la configuración de su equipo para poder recuperar la información.
 
-> **Tip**
+> **Punta**
 >
-> Une fois la recherche de votre ville réussie le site openweathermap
-> vous montre les informations disponibles et vous devriez avoir dans
-> votre navigateur une url du type
-> <https://openweathermap.org/city/2988507>. Ce numéro à la fin de l’url
-> peut également être saisi dans l’équipement Jeedom en lieu et place de
-> Paris,fr par exemple
+> Une fois la recherche de votre ville réussie le site openweathermap vous montre les informations disponibles et vous devriez avoir dans votre navigateur une url du type <https://openweathermap.org/city/2988507>. Este número al final de la url también se puede ingresar en el equipo Jeedom en lugar de París, por ejemplo, fr
 
->**IMPORTANT**
->OpenWeather fournit une liste d'informations sur les 120 heures à venir ; de ce fait, en fonction de l’heure actuelle, nous ne connaissons qu’une partie des informations à J+4. Ainsi, cette prédiction à J+4 s'affine pour devenir plus précise au fur et à mesure de la journée courante. Pour cette raison, certaines informations, comme la température MAX atteinte à J+4 ne pourront faire sens qu'en fin de journée.
+>**Importante**
+>OpenWeather proporciona una lista de información para las próximas 120 horas; por lo tanto, según la hora actual, solo conocemos parte de la información sobre D + 4. Por lo tanto, esta predicción en D + 4 se refina para ser más precisa a medida que avanza el día actual. Por esta razón, cierta información, como la temperatura MÁX alcanzada en D + 4, solo puede tener sentido al final del día.

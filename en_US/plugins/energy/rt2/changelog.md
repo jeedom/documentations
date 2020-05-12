@@ -1,8 +1,16 @@
+# Changelog Eco RT2
+
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+
+# 03/30/2020
+
 - Support for XTHL probes
 
 # 09/18/2019
 
-- Optimizations
+- Optimisations
 
 # 06/13/2019
 

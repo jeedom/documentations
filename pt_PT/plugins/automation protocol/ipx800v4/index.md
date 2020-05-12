@@ -1,4 +1,4 @@
-# IPX800v4
+# Plug-in IPX800v4
 
 Este plug-in permite gerenciar um IPX 800 v4
 
@@ -6,15 +6,15 @@ Este plug-in permite gerenciar um IPX 800 v4
 
 Após o download do plug-in, basta ativá-lo e marcar as caixas que lhe interessam para solicitações de IPX800v4 (por exemplo, verifique o X-Dimmer se você tiver um X-dimmer). Você também pode escolher a frequência das solicitações para aliviar a carga no ipx800v4
 
-> **Important**
+> **IMPORTANTE**
 >
-> Após cada modificação da frequência ou dos pedidos, é necessário reiniciar o demônio para que isso seja levado em consideração.
+> Após cada modificação da frequência ou dos pedidos, é necessário reiniciar o demônio para que isso seja levado em consideração
 
-> **Important**
+> **IMPORTANTE**
 >
 > Para aliviar a carga, é recomendável desmarcar TODAS as solicitações de tipo e apenas verificar as APIs que lhe interessam (você encontrará detalhes na documentação da API para IPX800v4)
 
-> **Note**
+> **NOTA**
 >
 > Você pode ver nesta página o status do daemon que monitora o IPX800
 
@@ -27,8 +27,8 @@ Aqui você encontra toda a configuração do seu equipamento :
 
 -   **Nome do equipamento IPX800** : nome do seu equipamento IPX800,
 -   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
--   **Activer** : torna seu equipamento ativo,
--   **Visible** : torna seu equipamento visível no painel,
+-   **Ativar** : torna seu equipamento ativo,
+-   **Visivél** : torna seu equipamento visível no painel,
 -   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias),
 -   **IP** : O ip IPX800,
 -   **Chave de API** : Chave de API do IPX800 (por padrão, a chave de API é apikey)
@@ -57,7 +57,7 @@ Você tem os tipos de atuadores :
 - Fio piloto
 - ...
 
-> **Note**
+> **NOTA**
 >
 > Certos tipos de atuadores podem ser ocultos, dependendo do tipo de ação
 

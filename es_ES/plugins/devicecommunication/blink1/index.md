@@ -1,203 +1,118 @@
-Description 
-===========
+# Complemento de parpadeo (1)
 
-Plugin servant à piloter une clef blink(1).
+Complemento utilizado para controlar una tecla de parpadeo (1).
 
-Configuration 
-=============
+# Configuración 
 
-El plugin no requiere ninguna configuración, solo actívelo :
+El complemento no requiere ninguna configuración, solo tiene que activarlo :
 
 ![blink1](./images/blink1.png)
 
-Configuración del dispositivo
-=============================
+# Configuración del equipo 
 
-La configuration des équipements blink(1) est accessible à partir du
-menu Plugins :
+Se puede acceder a la configuración de dispositivos de parpadeo (1) desde el menú Complementos :
 
 ![blink2](./images/blink2.png)
 
-Voilà à quoi ressemble la page du plugin blink(1) (ici avec déjà un
-équipement) :
+Así es como se ve la página del complemento blink (1) (aquí ya con el equipo) :
 
 ![blink3](./images/blink3.png)
 
-Voilà à quoi ressemble la page de configuration d’un équipement blink(1)
-:
+Así es como se ve la página de configuración para un dispositivo de parpadeo (1) :
 
 ![blink4](./images/blink4.png)
 
-> **Sugerencia**
->
-> Como en muchos lugares en Jeedom, coloque el mouse hacia la izquierda
-> permite abrir un menú de acceso rápido (puede
->dejarlo siempre visible desde su perfil).
+Aquí encontrarás toda la configuración de tu equipo :
 
-Aquí encontrará toda la configuración de su dispositivo:
+-   **Nombre del equipo de parpadeo (1)** : nombre de su equipo de parpadeo (1)
+-   **Objeto padre** : indica el objeto padre al que pertenece el equipo
+-   **Activar** : activa su equipo
+-   **Visible** : lo hace visible en el tablero
+-   **Modo** : el modo en el que desea operar su parpadeo (1) (consulte la descripción a continuación)
 
--   **Nom de l’équipement blink(1)** : nom de votre équipement blink(1)
+A continuación encontrará la lista de pedidos :
 
--   **Objeto padre** : especifica el objeto padre al que pertenece
-    equipo
+-   el nombre que se muestra en el tablero
+-   tipo y subtipo
+-   el valor : permite dar el valor del comando de acuerdo con otro comando, una tecla (caso de un interruptor virtual), un cálculo.
+-   Configuraciones : nombre del patrón para iniciar o del comando para iniciar
+-   Mostrar : permite mostrar los datos en el tablero
+-   configuración avanzada (ruedas con muescas pequeñas) : muestra la configuración avanzada del comando (método de registro, widget, etc.)
 
--   ** ** Activar: para que su equipo activo
+-   Probar : Se usa para probar el comando
+-   eliminar (firmar -) : permite eliminar el comando
 
--   Visible ** **: hace visible en el tablero de instrumentos
-
--   **Mode** : le mode dans lequel vous voulez faire fonctionner
-    votre blink(1) (voir plus bas pour la description)
-
-Ci-dessous vous retrouvez la liste des commandes :
-
--   le nom affiché sur le dashboard
-
--   le type et le sous-type
-
--   el valor: permite dar el valor del comando de acuerdo.
-    d’une autre commande, d’une clef (cas d’un interrupteur virtuel),
-    d’un calcul…​.
-
--   Paramètres : nom du pattern à lancer ou de la commande à lancer
-
--   afficher : permet d’afficher la donnée sur le dashboard
-
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
-
--   Prueba: prueba el comando
-
--   supprimer (signe -) : permet de supprimer la commande
-
-Mode "Local" 
-============
+# Modo "Local"" 
 
 ![blink5](./images/blink5.png)
 
-Mode à utiliser si le blink(1) est branché sur un des ports USB de
-Jeedom. Le seul paramètre dans ce mode est non obligatoire et permet de
-sélectionner un blink(1) en particulier si vous en avez plusieurs de
-branchés.
+Modo para usar si el parpadeo (1) está conectado a uno de los puertos USB de Jeedom. El único parámetro en este modo no es obligatorio y le permite seleccionar un parpadeo (1) en particular si tiene varios conectados.
 
-Mode "Appels à l’API blink(1)" 
-------------------------------
+# Modo de llamadas API parpadeante (1)" 
 
 ![blink6](./images/blink6.png)
 
-Dans ce mode, Jeedom va directement appeler l’api de blink1control, il
-faut donc que Jeedom puisse joindre en direct le système sur lequel la
-clef blink(1) est installée.
+En este modo, Jeedom llamará directamente a la API blink1control, por lo que Jeedom debe poder unirse directamente al sistema en el que está instalada la tecla blink (1).
 
-Dans ce mode les paramètres de configuration sont :
+En este modo, los parámetros de configuración son :
 
--   **Adresse ou IP** : adresse ou ip où la clef blink(1) est installée
+-   **Dirección o IP** : dirección o ip donde está instalada la tecla de parpadeo (1)
+-   **Puerto** : puerto en el que escucha la aplicación blink1control
+-   **Patrón** : permite sincronizar los patrones con los de la aplicación blink1control
 
--   **Port** : port sur lequel l’application blink1control écoute
+## Instalación de la aplicación blink1control 
 
--   **Pattern** : permet de synchroniser les pattern avec ceux de
-    l’application blink1control
+La aplicación blink1control se puede encontrar [aquí](http://blink1.thingm.com/blink1control/), en la parte de descarga, está disponible para Windows y Mac. Una vez descargado, inicie la instalación de la aplicación.
 
-Installation de l’application blink1control 
--------------------------------------------
+## Configuración de la aplicación blink1control 
 
-L’application blink1control se trouve
-[ici](http://blink1.thingm.com/blink1control/), dans la partie download,
-elle est disponible pour windows et mac. Une fois téléchargée, lancez
-l’installation de l’application.
-
-Configuration de l’application blink1control 
---------------------------------------------
-
-Une fois installée et lancée vous devez avoir :
+Una vez instalado y lanzado debe tener :
 
 ![blink7](./images/blink7.png)
 
-Cette application offre de très nombreuses possibilités. Rapidement on
-trouve en haut à gauche le statut de la clef (ici non branchée), en bas
-à gauche les évènements, en haut au centre des actions rapides pour
-piloter la clef, juste en-dessous un système de choix avancé des modes
-et couleurs, et à droite les patterns.
+Esta aplicación ofrece muchas posibilidades. Rápidamente encontramos en la parte superior izquierda el estado de la tecla (aquí no conectado), en la parte inferior izquierda los eventos, en el centro superior de las acciones rápidas para controlar la tecla, justo debajo de un sistema avanzado de elección de modos y colores. y a la derecha los patrones.
 
-Une fois là, il faut cliquer sur la petite roue crantée dans device pour
-faire apparaître le menu de configuration avancée et activer l’api
-server, en mettant bien serverHost sur any. Notez aussi le port pour le
-reporter dans la configuration de Jeedom.
+Una vez allí, debe hacer clic en la pequeña rueda con muescas en el dispositivo para abrir el menú de configuración avanzada y activar la API del servidor, colocando serverHost en cualquier. También tenga en cuenta el puerto para informarlo en la configuración de Jeedom.
 
 ![blink8](./images/blink8.png)
 
-Validez et redémarrez blink1control pour qu’il le prenne en compte.
+Valide y reinicie blink1control para que lo tenga en cuenta.
 
-Mode "Surveillance par URL" 
-===========================
+# "Modo de monitoreo de URL" 
 
 ![blink9](./images/blink9.png)
 
-Dans ce mode c’est l’application blink1control qui appelle toutes les X
-secondes cette URL qui va lui donner ses instructions.
+En este modo, es la aplicación blink1control la que llama a esta URL cada X segundos y le dará sus instrucciones.
 
-Pour le configurer, il faut dans l’applicaiton blink1control aller sur
-tools puis cliquer sur le petit plus (+) pour en ajouter un, ensuite
-faire URL et copier l’URL que donne Jeedom (champs URL à surveiller)
-dans le path. Vous pouvez aussi configurer la fréquence de mise à jour.
+Para configurarlo, en la aplicación blink1control, vaya a herramientas, luego haga clic en el pequeño más (+) para agregar uno, luego cree la URL y copie la URL dada por Jeedom (campos de URL para ver) en la ruta. También puedes configurar la frecuencia de actualización.
 
-> **Important**
+> **Importante**
 >
-> Pour que cela marche il faut que le PC sur lequel est blink1control
-> puisse accèder à Jeedom. Si vous utilisez un pc portable à l’extérieur
-> de votre réseau avec la clef dessus, il faut donc que Jeedom soit
-> accessible de l’extérieur. Si vous ne savez pas comment faire, le
-> mieux est d’utiliser le DNS Jeedom.
+> Para que esto funcione es necesario que la PC en la que blink1control pueda acceder a Jeedom. Si está utilizando una computadora portátil fuera de su red con la clave en ella, debe poder acceder a Jeedom desde afuera. Si no sabes cómo, lo mejor es usar Jeedom DNS.
 
-Dans ce mode vous avez aussi une option "Ne pas répéter les commandes"
-celle-ci permet de ne plus répéter la dernière commande une fois que
-blink1control a pris en compte la demande. Il est conseillé de la
-laisser cochée.
+En este modo, también tiene la opción "No repetir comandos", esto le permite no repetir más el último comando una vez que blink1control haya tenido en cuenta la solicitud. Es recomendable dejarlo marcado.
 
-Mode "Les deux" 
-===============
+# Modo "Ambos"" 
 
 ![blink11](./images/blink11.png)
 
-Ce mode est une combinaison des 2 modes précédents, l’avantage c’est
-qu’il combine la vitesse de réaction du premier et la possibilité de le
-faire fonctionner même à l’extérieur de chez soi du deuxième. Pour la
-configuration il faut donc suivre les procédures pour le mode "Appels à
-l’API blink(1)" et le mode "Surveillance par URL".
+Este modo es una combinación de los 2 modos anteriores, la ventaja es que combina la velocidad de reacción del primero y la posibilidad de operarlo incluso fuera del segundo hogar. Por lo tanto, para la configuración es necesario seguir los procedimientos para el modo "Llamadas a la API de parpadeo (1)" y el modo "Monitoreo por URL".
 
-Mode "SSH" 
-==========
+# Modo SSH" 
 
 ![blink12](./images/blink12.png)
 
-Ce mode doit être utilisé si vous avez mis le blink(1) sur une machine
-linux autre que celle où est installé Jeedom (Jeedom maître car le
-plugin n’est pas compatible en déporté). La configuration est assez
-simple :
+Este modo debe usarse si ha colocado el parpadeo (1) en una máquina Linux distinta de la que está instalada Jeedom (Jeedom master porque el complemento no es compatible en modo remoto). La configuración es bastante simple :
 
--   **Numéro de périphérique** : ID du périphérique, à n’utiliser que si
-    vous avez plusieurs clefs blink(1) sur votre machine
+-   **Número de dispositivo** : ID del dispositivo, para usar solo si tiene varias teclas parpadeantes (1) en su máquina
+-   **Dirección o IP** : Dirección IP de la máquina donde está conectada la llave
+-   **Nombre de usuario** : el nombre de usuario para iniciar sesión en la máquina donde está conectada la clave
+-   **Ruta relativa del ejecutable blink1-tool** : ruta relativa al ejecutable blink1-tool
 
--   **Adresse ou IP** : adresse IP de la machine où est branchée la clef
-
--   **Nom d’utilisateur** : le nom d’utilisateur pour se connecter sur
-    la machine où est branchée la clef
-
--   **Chemin relatif de l’exécutable blink1-tool** : chemin relatif vers
-    l’exécutable blink1-tool
-
-> **Tip**
+> **Punta**
 >
-> L’exécutable est disponible
-> [ici](https://github.com/todbot/blink1/releases), attention Jeedom ne
-> fonctionne qu’avec la version linux qui n’est bien sûr compatible
-> qu’avec une machine de type linux (rpi, rpi2, jeedomboard, cubieboard,
-> bananapi…​). Il suffit de transférer l’exécutable sur la machine où
-> est branchée la clef, et de le rendre exécutable (chmod +x
-> blink1-tool)
+> El ejecutable está disponible [aquí](https://github.com/todbot/blink1/releases), cuidado, Jeedom solo funciona con la versión de Linux que, por supuesto, solo es compatible con una máquina de tipo Linux (rpi, rpi2, jeedomboard, cubieboard, bananapi ...). Simplemente transfiera el ejecutable a la máquina donde está conectada la clave y hágalo ejecutable (chmod + x blink1-tool)
 
-> **Important**
+> **Importante**
 >
-> Pour que cela fonctionne, il faut avoir mis en place au niveau SSH
-> l’échange de clef RSA pour que Jeedom puisse se connecter sur la
-> machine où est branchée la clef sans fournir de mot de passe.
+> Para que esto funcione, debe haber configurado en el nivel SSH el intercambio de la clave RSA para que Jeedom pueda conectarse a la máquina donde está conectada la clave sin proporcionar una contraseña.

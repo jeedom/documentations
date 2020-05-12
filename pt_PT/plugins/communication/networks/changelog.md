@@ -1,42 +1,48 @@
-# 08/04/2020
+# Rede de Mudanças
 
-- bugfix arp ping considère le device absent si plus d'une tentative a été nécessaire
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
+# 04/08/2020
+
+- bugfix arp ping considera o dispositivo ausente se for necessária mais de uma tentativa
 
 # 04/04/2020
 
-- Suppression du panel
+- Remoção do painel
 
 # 11/09/2019
 
-- Adaptation pour jeedom v4
+- Adaptação para jeedom v4
 
 # 13/08/2019
 
-- Support de PHP 7.3
+- Suporte para php 7.3
 
- # 06/02/2018
+ # 06/06/2018
  
- - Optimisation du calcul des dépendances
+ - Otimização do cálculo de dependência
  
- # 05/07/2018
+ # 07/05/2018
 
-- Séparation du cron de refresh dans une tache dédié pour ne pas impacter le cron global des plugins
+- Separação do cron de atualização em uma tarefa dedicada para não afetar o cron geral dos plug-ins
 
-# 02/07/2018
+# 07/02/2018
 
-- Correction de bugs sur le ping ARP
+- Erros corrigidos no ping do ARP
 
-# 09/06/2018
+# 09/09/2018
 
-- Correction de bugs sur le panel
-- Ajout du bouton dupliquer
+- Correções de bugs no painel
+- Adicionar botão duplicado
 
-# 08/05/2018
+# 05/08/2018
 
-- Support du ping ARP (nécessite de forcer l'installation des dépendances)
-- Support du ping sur un port (socket)
-- Amélioration du panel
+- Suporte para ping ARP (requer forçar a instalação de dependências)
+- Suporte para ping em uma porta (soquete)
+- Melhoria do painel
 
 # 16/04/2018
 
-- Possibilité de configurer le TTL
+- Capacidade de configurar TTL

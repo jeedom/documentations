@@ -1,272 +1,173 @@
-Description 
-===
+# Complemento Kodi
 
-Ce plugin permet de commander et recevoir des informations depuis Kodi.
+Este complemento le permite ordenar y recibir información de Kodi.
 
 ![kodi screenshot1](./images/kodi_screenshot1.jpg)
 
-Configuration 
-===
+# Configuración 
 
-Configuration du plugin Jeedom
----
+## Configuración del complemento Jeedom
 
-a.  Installation/Création
+Para usar el complemento, debe descargarlo, instalarlo y activarlo como cualquier complemento de Jeedom.
 
-Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-l’activer comme tout plugin Jeedom.
+Después de eso, tendrás que crear tu equipo Kodi :
 
-Suite à cela il vous faudra créer votre équipement Kodi :
-
-Rendez vous dans le menu plugins/multimédia, vous y trouverez le plugin
-Kodi :
+Vaya al menú de complementos / multimedia, encontrará el complemento Kodi :
 
 ![configuration1](./images/configuration1.jpg)
 
-Ensuite vous arriverez sur la page qui listera vos équipements (vous
-pouvez avoir plusieurs Kodi) et qui vous permettra également d’en créer
+Luego, llegará a la página que enumerará su equipo (puede tener varios Kodi) y que también le permitirá crear algunos
 
 ![pageconfig3](./images/pageconfig3.jpg)
 
-Cliquez sur le bouton Ajouter un Kodi ou sur le bouton + :
+Haga clic en el botón Agregar Kodi o en el botón + :
 
 ![config2](./images/config2.jpg)
 
-Vous arriverez ensuite sur la page de configuration de votre Kodi:
+Luego irás a la página de configuración de tu Kodi:
 
 ![pageconfig1](./images/pageconfig1.jpg)
 
-Sur cette page vous trouverez plusieurs sections :
+En esta página encontrarás varias secciones :
 
-i.  Général
+### Principal
 
-Vous trouverez dans cette section toutes les configurations jeedom. A
-savoir le nom de votre équipement, l’objet auquel vous voulez
-l’associer, la catégorie (de préférence multimédia), si vous voulez que
-l’équipement soit actif ou non et enfin si vous voulez qu’il soit
-visible sur le dashboard.
+En esta sección encontrará todas las configuraciones de libertad. Es decir, el nombre de su equipo, el objeto al que desea asociarlo, la categoría (preferiblemente multimedia), si desea que el equipo esté activo o no y, finalmente, si desea que esté visible en el tablero.
 
-i.  Configuration
+### Configuration
 
-Cette section est une des plus importantes elle contient
+Esta sección es una de las más importantes que contiene
 
--   IP : adresse ip de votre kodi (il est important de renseigner l’ip
-    et non pas un hostname). Si Kodi est sur la même machine que jeedom
-    mettez 127.0.0.1. Ce champ est obligatoire
+-   IP : dirección IP de su kodi (es importante ingresar la ip y no un nombre de host). Si Kodi está en la misma máquina que Jeedom pon 127.0.0.1. Este campo es obligatorio
+-   Puerto : el puerto de comunicación del servidor web en kodi (debe activar el servidor web en kodi). Este campo es obligatorio
+-   Nombre de usuario : el nombre de usuario para iniciar sesión en Kodi si tiene uno
+-   Contraseña : la contraseña para conectarse a Kodi si tiene una. (esto va con el nombre de usuario)
+-   Dirección MAC : la dirección MAC de la máquina para despertar en lan
+-   Volumen + /- : El paso de incremento o disminución del volumen (1 a 100)
 
--   Port : le port de communication du serveur web dans kodi (il faut
-    activer le serveur web dans kodi). Ce champ est obligatoire
+### Commandes
 
--   Nom d’utilisateur : le nom d’utilisateur pour vous connecter à Kodi
-    si vous en avez un
-
--   Mot de passe : le mot de passe pour se connecter à Kodi si vous en
-    avez un. (cela va de paire avec le nom d’utilisateur)
-
--   MAC Address : l’adresse MAC de la machine pour faire du wake on lan
-
--   Volume +/- : le pas d’incrementation ou de décrémentation du volume
-    (1 à 100)
-
-    i.  Commandes
-
-Cette partie liste l’ensemble des commandes disponibles :
+Esta parte enumera todos los comandos disponibles :
 
 -   Accueil
-
--   Année
-
--   Avance rapide
-
+-   Año
+-   Avance rápido
 -   Bas
-
--   Chanson Suivantes
-
+-   Canciones siguientes
 -   Droite
-
 -   Eteindre
-
 -   Gauche
-
 -   Genre
-
 -   Haut
-
--   Heure de fin
-
+-   Hora final
 -   Lecture
-
--   Liste Films
-
--   Liste Musique
-
--   Liste Séries
-
--   Longueur Playlist
-
--   Mix de soirée
-
+-   Lista de peliculas
+-   Lista de musica
+-   Lista de series
+-   Longitud de la lista de reproducción
+-   Mezcla de la noche
 -   Muet
-
 -   Notifications
-
 -   OK
-
 -   OSD
-
 -   Pause
-
--   Plein ecran
-
--   Position PLaylist
-
--   Précédent
-
--   Rédémarrer
-
--   Résumé
-
+-   Pantalla completa
+-   Posición de lista de reproducción
+-   Anterior
+-   Reiniciar
+-   Resumen
 -   Retour
-
--   Retour Rapide
-
--   Scan audio
-
--   Scan video
-
+-   Rebobinado rápido
+-   Escaneo de audio
+-   Escanear video
 -   Status
-
--   Status Média
-
--   Status nb
-
+-   Medios de estado
+-   Estado nb
 -   Stop
-
 -   Suivant
-
 -   Thumbnail
-
 -   Titre
-
--   Type média
-
+-   Tipo de medio
 -   Volume
+-   Estado del volumen
+-   Volumen -
+-   Volumen \ +
 
--   Volume status
+## Configuración del complemento Kodi
 
--   Volume -
-
--   Volume\
-
-Configuration du plugin Kodi
----
-
-Pour pouvoir bénéficier de la remontée des différents status, il est
-nécessaire d’installer un addon sur Kodi. Vous pouvez télécharger cet
-addon dans la page général du plugin dans Jeedom
+Para poder beneficiarse de los comentarios de los diferentes estados, es necesario instalar un complemento en Kodi. Puede descargar este complemento en la página general del complemento en Jeedom
 
 ![installplugin](./images/installplugin.jpg)
 
-Une fois le zip récupéré, il vous suffit de l’installer
-dans Kodi. Pour cela rendez vous dans Kodi, paramètres/addons/installer depuis un zip.
+Una vez que se recupera el zip, solo necesita instalarlo en Kodi. Para hacer esto, vaya a Kodi, parámetros / complementos / instalar desde un zip.
 
-Après l'installation vous devriez retrouver l’addon dans les addons activés
-dans la partie service.
+Después de la instalación, debe encontrar el complemento en los complementos activados en la parte de servicio.
 
 ![kodi screenshot7](./images/kodi_screenshot7.jpg)
 
-Pour configurer l’addon cliquez sur configurer, vous arriverez sur cette
-page :
+Para configurar el complemento, haga clic en configurar, llegará a esta página :
 
 ![addondetail](./images/addondetail.jpg)
 
-Ici vous trouverez 3 paramètres important à configurer :
+Aquí encontrarás 3 parámetros importantes para configurar :
 
--   Adresse ip : l’adresse ip de votre jeedom
+-   Dirección IP : la dirección ip de tu libertad
+-   Tipo de caja : mini / mini +, o especifique si tiene un / jeedom o no en su dirección de Jeedom
+-   Clave API : su clave API de Jeedom que encontrará en los parámetros de configuración de Jeedom
 
--   Type de box : mini/ mini+ , ou préciser si vous avez un /jeedom ou
-    non dans votre adresse Jeedom
+# Información de estado 
 
--   Clé api : votre clé api Jeedom que vous retrouverez dans les
-    paramètres de configuration de jeedom
+Kodi sube muchos estatutos :
 
-Informations de statut 
-===
+-   Género : sube la lista completa de géneros (solo se puede usar a través de script o virtual)
+-   Hora final : hora de finalización programada, actualizada cuando se inicia el medio y cuando se reanuda la pausa
+-   Estado y statusnb : Sube el estado (uno en texto y el otro en número) Estos son los diferentes valores :
+    - Comenzó 0
+    - Video en progreso 1
+    - Audio en progreso 2
+    - Video terminado 3
+    - Audio completo 4
+    - Video detenido 5
+    - Audio detenido 6
+    - Video pausado 7
+    - Audio en pausa 8
+    - Recuperación de video 9
+    - Currículum de audio 10
+    - Parada 18
+-   Medios de estado : volverá a un estado más general (Reproducir, Pausa, Parar, Parar) independientemente del tipo de medio
+-   Miniatura : volverá a montar la cubierta (más particularmente el enlace que permite tenerla)
+-   Título : subirá el título de los medios actuales y detalles sobre el episodio y la temporada en el caso de una serie
+-   Tipo de medio : volverá al tipo de medio (Serie, Audio, Películas)
 
-Kodi remonte de nombreux statut :
+# Detalles del widget 
 
--   Genre : remonte la liste complète des genres (uniquement utilisable
-    via scénario ou virtuel)
-
--   Heure de fin : heure de fin prévue , mis à jour au démarrage d’un
-    média et à la reprise de pause
-
--   Status et statusnb : Remonte le statut (l’un en texte l’autre
-    en nombre)
-
-Voilà les différentes valeurs :
-
-    Démarré   0
-    Vidéo en cours  1
-    Audio en cours  2
-    Video terminée  3
-    Audio terminée  4
-    Vidéo arrêtée   5
-    Audio arrêtée   6
-    Vidéo en pause  7
-    Audio en pause  8
-    Reprise vidéo   9
-    Reprise audio   10
-    Arrêt   18
-
--   Status média : remontera un statut plus général (Lecture ,Pause
-    ,Stop, Arret) indifférement du type de média
-
--   Thumbnail : remontera la cover (plus particulièrement le lien
-    permettant de l’avoir)
-
--   Titre : remontera le titre du média en cours et des détails sur
-    l’épisode et la saison dans le cas d’une série
-
--   Type de média : remontera le type de media (Série , Audio, Films )
-
-Détails Widget 
-===
-
-Voici quelques détails concernant le widget :
+Aquí hay algunos detalles sobre el widget :
 
 ![widget principal](./images/widget-principal.jpg)
 
--   A : indique un icone du type de média en cours
-
--   B : indique l’heure de fin
-
--   C : permet de déplier la partie télécommande
+-   A las : indica un icono del tipo de medio actual
+-   B : indica la hora de finalización
+-   C : despliega la parte del control remoto
 
 ![kodi screenshot2](./images/kodi_screenshot2.jpg)
 
--   D : Partie 1 du titre en cours
-
--   E : Partie 2 du titre en cours
-
--   F : Commandes playbacks (lecture suivant stop etc…​)
-
--   G : Permet d’activer le mode controle volume ou de revenir au mode
-    playback
+-   D : Parte 1 del título actual
+-   E : Parte 2 del título actual
+-   F : Comandos de reproducción (reproducción después de parar, etc.)
+-   G : Active el modo de control de volumen o regrese al modo de reproducción
 
 ![partievolume](./images/partievolume.jpg)
 
--   H : permet de déplier la partie infos
+-   H : te permite expandir la sección de información
 
-En mode série/film, vous trouverez année, résumé, genre
+En el modo de serie / película, encontrará año, resumen, género
 
 ![kodi screenshot3](./images/kodi_screenshot3.jpg)
 
-En mode audio vous trouverez playlist, année, genre et infos playlist
+En el modo de audio, encontrará información sobre la lista de reproducción, el año, el género y la lista de reproducción
 
 ![kodi screenshot5](./images/kodi_screenshot5.jpg)
 
-Dans les deux cas vous trouverez en bas les boutons permettant de lancer
-un scan audio/ vidéo ou de lancer un mix de soirée audio
+En ambos casos, encontrará en la parte inferior los botones que permiten iniciar una exploración de audio / video o iniciar una mezcla de audio por la noche
 
 

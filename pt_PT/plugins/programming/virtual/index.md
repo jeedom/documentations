@@ -1,268 +1,157 @@
-# Présentation
+# Plugin virtual
 
-Le plugin Virtual (virtuel) permet la création de périphériques virtuels
-et de leurs propriétés.
+O plug-in virtual permite a criação de dispositivos virtuais e suas propriedades.
 
-Nous nommerons un périphérique créé par ce plugin : périphérique
-virtuel.
+Vamos nomear um dispositivo criado por este plugin : dispositivo virtual.
 
-Un périphérique virtuel peut être créé pour les besoins suivants :
+Um dispositivo virtual pode ser criado para as seguintes necessidades :
 
--   consolider dans un seul périphérique des informations ou actions de
-    plusieurs périphériques physiques/virtuels ;
-
--   créer un périphérique alimenté par une source externe à Jeedom
-    (Zibase, IPX800…) ;
-
--   dupliquer un équipement pour le scinder en 2 par exemple ;
-
--   effectuer un calcul sur plusieurs valeurs d'équipements ;
-
--   exécuter de multiples actions (macro).
-
-
-
+-   consolidar informações ou ações de vários dispositivos físicos / virtuais em um único dispositivo;
+-   crie um periférico alimentado por uma fonte externa ao Jeedom (Zibase, IPX800, etc.);
+-   equipamento duplicado para dividi-lo em 2, por exemplo;
+-   realizar um cálculo em vários valores de equipamento;
+-   executar várias ações (macro).
 
 # Configuration
 
-Le plugin ne nécessite aucune configuration, il faut juste l’activer :
+O plugin não requer nenhuma configuração, você apenas precisa ativá-lo :
 
 ![virtual1](../images/virtual1.png)
 
+# Configuração do equipamento
 
-
-
-# Configuration des équipements
-
-La configuration des équipements virtuels est accessible à partir du
-menu plugin :
+A configuração de dispositivos virtuais pode ser acessada no menu do plug-in :
 
 ![virtual2](../images/virtual2.png)
 
-Voilà à quoi ressemble la page du plugin virtuel (ici avec déjà un
-équipement) :
+É assim que a página do plugin virtual se parece (aqui já com um equipamento) :
 
 ![virtual3](../images/virtual3.png)
 
-Voilà à quoi ressemble la page de configuration d’un équipement virtuel
-:
+É assim que a página de configuração de um dispositivo virtual se parece :
 
 ![virtual4](../images/virtual4.png)
 
-> **Tip**
+> **Dica**
 >
-> Comme à beaucoup d’endroits sur Jeedom, mettre la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible).
+> Como em muitos lugares do Jeedom, colocar o mouse na extremidade esquerda permite que um menu de acesso rápido seja exibido (você sempre pode deixá-lo visível em seu perfil).
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nom de l'équipement virtuel** : nom de votre équipement virtuel,
+-   **Nome do dispositivo virtual** : nome do seu equipamento virtual,
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
+-   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias),
+-   **Ativar** : torna seu equipamento ativo,
+-   **Visivél** : torna visível no painel,
+-   **COMMENTAIRE** : permite comentar sobre o equipamento.
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l'équipement,
+No canto superior direito, você tem acesso a 4 botões :
 
--   **Catégorie** : les catégories de l'équipement (il peut appartenir à
-    plusieurs catégories),
+-   **Expressão** : o testador de expressão idêntico ao dos cenários para facilitar o desenvolvimento de algumas configurações virtuais
+-   **Equipamento de importação** : permite duplicar automaticamente um equipamento existente em um virtual (economiza tempo para dividir um equipamento em 2, por exemplo),
+-   **Duplicar** : duplica o equipamento atual,
+-   **Avançado (rodas dentadas)** : exibe opções avançadas de equipamento (comuns a todos os plugins Jeedom).
 
--   **Activer** : permet de rendre votre équipement actif,
+Abaixo você encontra a lista de pedidos :
 
--   **Visible** : le rend visible sur le dashboard,
-
--   **Commentaire** : vous permet de mettre des commentaires sur
-    l'équipement.
-
-En haut à droite vous avez accès à 4 boutons :
-
--   **Expression** : le testeur d'expressions identique à celui des scénarios
-    pour vous faciliter la mise au point de certains virtuels
-
--   **Importer équipement** : permet de dupliquer automatiquement un
-    équipement existant dans un virtuel (permet de gagner du temps pour
-    scinder un équipement en 2 par exemple),
-
--   **Dupliquer** : permet de dupliquer l'équipement courant,
-
--   **Avancée (roues crantées)** : permet d’afficher les options
-    avancées de l'équipement (commun à tous les plugins Jeedom).
-
-En-dessous vous retrouvez la liste des commandes :
-
--   le nom affiché sur le dashboard,
-
--   le type et le sous-type,
-
--   la valeur : permet de donner la valeur de la commande en fonction
-    d’une autre commande, d’une clef (quand on fait un interrupteur
-    virtuel), d’un calcul, etc.
-
--   "Valeur de retour d'état" et "Durée avant retour d'état" : permet
-    d’indiquer à Jeedom qu’après un changement sur l’information sa
-    valeur doit revenir à Y, X min après le changement. Exemple : dans
-    le cas d’un détecteur de présence qui n'émet que lors d’une
-    détection de présence, il est utile de mettre par exemple 0 en
-    valeur et 4 en durée, pour que 4 mn après une détection de mouvement
-    (et s’il n’y a en pas eu de nouvelle(s) depuis) Jeedom remette la
-    valeur de l’information à 0 (plus de mouvement détecté),
-
--   unité : unité de la donnée (peut être vide),
-
--   historiser : permet d’historiser la donnée,
-
--   afficher : permet d’afficher la donnée sur le dashboard,
-
--   événement : dans le cas du RFXcom cette case doit toujours être
-    cochée car on ne peut pas interroger un module RFXcom,
-
--   min/max : bornes de la donnée (peuvent être vides),
-
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode d’historisation,
-    widget, etc.),
-
--   "Tester" : permet de tester la commande,
-
--   supprimer (signe -) : permet de supprimer la commande.
-
-
-
+-   o nome exibido no painel,
+-   tipo e subtipo,
+-   o valor : permite dar o valor do comando de acordo com outro comando, uma chave (quando fazemos uma troca virtual), um cálculo, etc.
+-   "Valor do feedback do status "e" Duração antes do feedback do status" : permite indicar a Jeedom que após uma alteração nas informações, seu valor deve retornar a Y, X min após a alteração. Exemplo : no caso de um detector de presença que emite apenas durante uma detecção de presença, é útil definir, por exemplo, 0 em valor e 4 em duração, de modo que 4 minutos após a detecção de movimento (e s ' não houve notícias desde então) Jeedom redefine o valor das informações para 0 (mais movimento detectado),
+-   Unidade : unidade de dados (pode estar vazia),
+-   Historicizar : permite historiar os dados,
+-   Display : permite exibir os dados no painel,
+-   Evento : no caso do RFXcom, essa caixa sempre deve ser marcada, porque você não pode interrogar um módulo do RFXcom,
+-   min / max : limites de dados (podem estar vazios),
+-   configuração avançada (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.),
+-   "Tester" : permite testar o comando,
+-   excluir (assinar -) : permite excluir o comando.
 
 # Tutoriel
 
-## Interrupteur virtuel
+## Comutador virtual
 
-Pour faire un interrupteur virtuel, il vous faut ajouter 2 commandes
-virtuelles comme cela :
+Para fazer um comutador virtual, você precisa adicionar 2 comandos virtuais como este :
 
 ![virtual5](../images/virtual5.png)
 
-Puis vous sauvegardez et là Jeedom va automatiquement ajouter la
-commande d’information virtuelle :
+Então você salva e o Jeedom adiciona automaticamente o comando de informações virtuais :
 
 ![virtual6](../images/virtual6.png)
 
-Ajoutez dans les commandes "action" `On` et `Off`, la commande `Etat`
-(cela permet à Jeedom de faire le lien avec la commande état).
+Adicionar à ação "pedidos"" ``On`` e ``Off``, A ordem ``Etat`` (isso permite que o Jeedom faça o link com o comando state).
 
-Pour avoir un joli widget, il vous faut masquer la commande d'état :
+Para ter um bom widget, você precisa ocultar o comando status :
 
 ![virtual7](../images/virtual7.png)
 
-Affectez un widget qui gère le retour d'état aux 2 commandes d’action,
-par exemple ici le widget light. Pour ce faire cliquez sur la petite
-roue crantée en face de la commande `On` et dans le 2ème onglet
-sélectionnez `light` comme widget :
+Atribua um widget que gerencia o feedback de status aos 2 comandos de ação, por exemplo, aqui o widget leve. Para fazer isso, clique na pequena roda dentada na frente do controle ``On`` e na 2ª guia, selecione ``light`` como widget :
 
 ![virtual8](../images/virtual8.png)
 
-Enregistrez et faites de même pour la commande `Off`. Et vous obtiendrez
-un joli widget qui changera d'état lors d’un clic :
+Salve e faça o mesmo para o pedido ``Off``. E você terá um bom widget que mudará de estado quando clicado :
 
 ![virtual9](../images/virtual9.png)
 
+## Controle deslizante virtual
 
-
-
-## Slider virtuel
-
-Pour faire un slider virtuel, il faut ajouter une commande virtuelle
-comme cela :
+Para criar um controle deslizante virtual, adicione um comando virtual como este :
 
 ![virtual12](../images/virtual12.png)
 
-Comme tout à l’heure après la sauvegarde, Jeedom va automatiquement
-créer la commande info :
+Como antes após o backup, o Jeedom criará automaticamente o comando info :
 
 ![virtual13](../images/virtual13.png)
 
-Et comme tout à l’heure il est conseillé de lier l’action à la commande
-d'état et de masquer celle-ci.
+E, como antes, é aconselhável vincular a ação ao comando status e ocultá-la.
 
+## Interruptor de alavanca
 
-
-
-## Interrupteur de type toggle
-
-Voilà comment faire un interrupteur de type toggle, pour cela il faut
-créer une commande virtuelle de ce type :
+É assim que se alterna o tipo, para isso é necessário criar um comando virtual desse tipo :
 
 ![virtual14](../images/virtual14.png)
 
-Ensuite vous sauvegardez pour voir apparaître la commande d'état :
+Em seguida, salve para ver o comando status aparecer :
 
 ![virtual15](../images/virtual15.png)
 
-Ici il faut dans la valeur de la commande action mettre
-`not(\#[...][...][Etat]#)` (bien remplacer par votre propre commande) et
-lier l'état à la commande action (attention, il ne faut pas masquer la
-commande état cette fois). Il faut aussi passer la commande info en
-sous-type binaire.
+Aqui é necessário no valor do comando action colocar ``not(\#[...][...][Etat]#)`` (substitua por seu próprio comando) e vincule o estado ao comando action (tenha cuidado, você não deve ocultar o comando state desta vez). Você também deve colocar o comando info no subtipo binário.
 
-Calcul
-
-Pour faire un calcul sur de multiples commandes, c’est très facile ! Il
-suffit de créer une commande de type information virtuelle et dans le
-champs valeur mettre vos calculs. Le testeur d'expression peut vous aider
-à cette étape pour valider. Par exemple, pour faire la moyenne de
-2 températures :
+Para fazer um cálculo em vários pedidos, é muito fácil ! Basta criar uma ordem do tipo de informação virtual e, no campo valor, colocar seus cálculos. O testador de expressão pode ajudá-lo com esta etapa para validar. Por exemplo, para média de 2 temperaturas :
 
 ![virtual10](../images/virtual10.png)
 
-Plusieurs points à réaliser correctement :
+Vários pontos a serem feitos corretamente :
 
--   Bien choisir le sous-type en fonction du type d’information (ici
-    calcul de moyenne donc c’est un numérique),
-
--   Mettre des parenthèses dans les calculs, cela permet d'être sûr du
-    résultat de l’opération,
-
--   Bien mettre l’unité,
-
--   Cocher la case pour historiser si nécessaire,
+-   Escolha o subtipo de acordo com o tipo de informação (aqui a média é um número),
+-   Coloque parênteses nos cálculos, para ter certeza do resultado da operação,
+-   Coloque a unidade bem,
+-   Marque a caixa para registrar, se necessário,
 
 
 
-## Multiple commandes
+## Pedidos múltiplos
 
 
-Nous allons voir ici comment faire une commande qui va éteindre 2
-lumières. Rien de plus simple, il suffit de créer une commande virtuelle
-et de mettre les 2 commandes séparées par un `&&` :
+Veremos aqui como fazer um pedido que desligará 2 luzes. Nada poderia ser mais simples, basta criar um pedido virtual e colocar os 2 pedidos separados por um ``&&`` :
 
 ![virtual11](../images/virtual11.png)
 
-Ici, il faut bien que le sous-type de la commande soit le même que les
-sous-types des commandes pilotées, donc toutes les commandes dans le
-champs valeur doivent avoir le même sous-type (toutes "autre", ou toutes
-"slider", ou toutes de type couleur).
+Aqui, o subtipo de comando deve ser o mesmo que os subtipos de comando controlado; portanto, todos os comandos no campo de valor devem ter o mesmo subtipo (controle deslizante "todos os outros" ou todos " "ou todas as cores).
 
+## Feedback do status virtual
 
+Ao usar equipamentos que não possuem feedback de status e se este equipamento é controlado apenas pela Jeedom, é possível ter um feedback de status virtual. Isso requer a criação de um virtual que execute os comandos de ações (ex: On & Off) do equipamento e que possui um comando info (o status). Em seguida, você deve preencher a coluna Parâmetro para cada comando de ação, selecionando o nome do comando info (status) e fornecendo o valor que ele deve assumir.
 
+Também podemos imaginar um virtual que liga / desliga várias lâmpadas (comandos de ações separados por &&) e, portanto, tem um status desse comando geral.
 
-## Retour d'état virtuel
+# Atribuindo um valor pela API
 
-Lors de l’utilisation d’un équipement qui ne possède pas de retour
-d'état et si cet équipement est commandé seulement par Jeedom, il est
-possible d’avoir un retour d'état virtuel. Il faut pour cela créer un
-virtuel qui reprend les commandes actions (ex: On & Off) de l'équipement
-et qui possède une commande info (l'état). Il faut ensuite renseigner la
-colonne Paramètre pour chaque commande action, en sélectionnant le nom
-de la commande info (état) et en donnant la valeur qu’elle doit prendre.
+É possível alterar o valor da informação virtual por um
+Chamada de API :
 
-On peut aussi imaginer un virtuel qui allume/éteint plusieurs lampes
-(commandes actions séparées par des &&) et avoir ainsi un état de cette
-commande générale.
+``http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY_VIRTUEL#&type=virtual&type=virtual&id=#ID#&value=#value#``
 
-
-
-
-# Affectation d’une valeur par API
-
-Il est possible de changer la valeur d’une information virtuelle par un
-appel API :
-
-    http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY_VIRTUEL#&type=virtual&type=virtual&id=#ID#&value=#value#
-
-> **Note**
+> **NOTA**
 >
-> Attention à bien rajouter un /jeedom après \#IP\_JEEDOM\# si nécessaire
+> Tenha cuidado para adicionar um / jeedom após \#IP\_JEEDOM\# se necessário

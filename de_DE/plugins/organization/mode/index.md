@@ -1,38 +1,26 @@
-Plugin für die Verwaltung von verschiedenen Modi der
-Wohnung/Haus/Zimmer, aber auch Stimmungen.
+# Mode Plugin
 
-Configuration du plugin
-=======================
+Plugin zum Verwalten verschiedener Modi einer Wohnung / eines Hauses / eines Zimmers, aber auch der Atmosphäre.
 
-Nachdem das Plugin herunterzuladen, müssen Sie nur um es zu aktivieren,
-gibt es auf dieser Ebene keine Konfiguration.
+# Plugin Konfiguration
 
-Configuration des équipements
-=============================
+Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur noch aktivieren. Auf dieser Ebene gibt es keine Konfiguration.
 
-Der Konfigurationsmodus Gerät ist aus dem Menü verfügbar
-Plugin und Organisation:
+# Gerätekonfiguration
 
-Sie werden hier alle die Konfiguration Ihrer Geräte finden:
+Auf die Konfiguration der Modusausrüstung kann über das Plugin-Menü und dann über die Organisation zugegriffen werden :
 
--   **Gerätename** Modus: Modus Namen Ihrer Ausrüstung,
+Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
-    Ausrüstung,
+-   **Gerätename Modus** : Name Ihres Gerätemodus,
+-   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv,
+-   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
+-   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören).
+-   **Modus hinzufügen** : Schaltfläche, um einen neuen Modus hinzuzufügen
 
--   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
+Unten finden Sie die Liste der Modi. Wenn Sie darauf klicken, können Sie die Aktionen auswählen, die beim Aufrufen dieses Modus und beim Beenden ausgeführt werden sollen.
 
--   Visible ** ** macht Ihr Gerät sichtbar auf dem Armaturenbrett,
-
--   ** ** Kategorie: Gerätekategorien (es kann gehören
-    mehrere Kategorien).
-
--   **hinzufügen** Art und Weise: die Schaltfläche, um eine neue Form hinzufügen
-
-Weiter unten finden Sie die Liste der Profile finden, indem Sie darauf klicken Sie
-in der Lage, die Aktionen zu wählen, zu tun, wenn Sie diesen Modus eintritt
-und am Ausgang.
-
->**IMPORTANT**
+>**Wichtig**
 >
->Attention lors du renommage d'un mode il faut absoluement revoir les scénarios/équipement qui utiliser l'ancien nom pour les passer sur le nouveau
+>Achtung beim Umbenennen eines Modus ist es unbedingt erforderlich, die Szenarien / Geräte zu überprüfen, die den alten Namen verwenden, um sie an den neuen weiterzugeben

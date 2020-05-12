@@ -1,18 +1,28 @@
-# 09/10/2019
+# Gerenciamento de Obturador de Alterações
 
-- Correction de bugs
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
+# 05/11/2020
+
+- Correções de bugs nos painéis
+
+# 09/09/2019
+
+- Correções de bugs
 
 # 30/08/2019
 
-- Correction de bugs
+- Correções de bugs
 
 # 26/08/2019
 
-- Correction de bugs
-- Mise à jour de la doc
-- Correction de l'affichage des checkbox
+- Correções de bugs
+- Atualizando o documento
+- Exibição de caixa de seleção fixa
 
 # 12/08/2019
 
-- Correction de bugs
-- Mise à jour de la doc
+- Correções de bugs
+- Atualizando o documento

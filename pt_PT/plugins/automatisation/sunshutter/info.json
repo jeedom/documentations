@@ -1,20 +1,32 @@
 {
-	"id" : "sunshutter",
-	"name" : "Gestion Volets",
-	"description" : "Plugin pour gerer l'ouverture/fermeture des volets en fonction du soleil",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.3",
-	"category" : "automatisation",
-	"display" : "panel",
-	"hasDependency" : false,
-	"hasOwnDeamon" : false,
-	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://jeedom.github.io/plugin-sunshutter/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-sunshutter/#language#/",
-	"link" : {
-		"forum":"https://www.jeedom.com/forum/viewtopic.php?t=46887"
-	},
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+    "id": "sunshutter",
+    "name": "Gestion Volets",
+    "description": "Plugin pour gerer l'ouverture\/fermeture des volets en fonction du soleil et d'autre condition",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3",
+    "category": "automatisation",
+    "display": "panel",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automatisation\/sunshutter\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automatisation\/sunshutter\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile"
+    ]
 }

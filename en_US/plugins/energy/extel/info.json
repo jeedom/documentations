@@ -1,11 +1,11 @@
 {
     "id": "extel",
-    "name" : "Extel",
-    "description" : "Plugin pour controller la multiprise Extel",
-    "licence" : "AGPL",
-    "author" : "Ludovic SARAKHA",
-    "require" : "3.0",
-    "category" : "energy",
-    "changelog" : "https://jeedom.github.io/plugin-extel/#language#/changelog",
-    "documentation" : "https://jeedom.github.io/plugin-extel/#language#/"
+    "name": "Extel",
+    "description": "Plugin pour controller la multiprise Extel",
+    "licence": "AGPL",
+    "author": "Ludovic SARAKHA",
+    "require": "3.0",
+    "category": "energy",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/extel\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/extel\/"
 }

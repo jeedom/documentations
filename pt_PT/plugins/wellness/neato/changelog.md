@@ -1,24 +1,35 @@
-# 06/01/2020
+# Changelog Neato
 
-- Amélioration du support des cartes
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
+# 05/11/2020
+
+- Suporte aprimorado para cartões
+- Zonas de suporte
+
+# 01/06/2020
+
+- Suporte aprimorado para cartões
 
 # 30/12/2019
 
-- Mise à jour de la doc
+- Atualizando o documento
 
 # 17/09/2019
 
-- Mise à jour de la doc
+- Atualizando o documento
 
 # 23/08/2019
 
-- Suppression du widget pour remplacement par un widget generique Jeedom
+- Remoção de widget para substituição por widget genérico Jeedom
 
 # 14/01/2019
 
-- Correction de bugs
-- Ajout d'une alerte si la commande échoue
+- Correções de bugs
+- Adicionando um alerta se o comando falhar
 
 # 11/09/2018
 
-- Ajout image Botvac D7
+- Adicionando imagem Botvac D7

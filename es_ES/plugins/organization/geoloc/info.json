@@ -1,13 +1,27 @@
 {
-	"id" : "geoloc",
-	"name" : "Geoloc",
-	"licence" : "AGPL",
-	"description" : "Plugin permettant à Jeedom de gérer la géolocalisation.",
-	"author" : "Jeedom SAS",
-	"require" : "3.0",
-	"category" : "organization",
-	"changelog" : "https://jeedom.github.io/plugin-geoloc/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-geoloc/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+    "id": "geoloc",
+    "name": "Geoloc",
+    "licence": "AGPL",
+    "description": "Plugin permettant à Jeedom de gérer la géolocalisation. (Uniquement pour Android via l'application Tasker)",
+    "author": "Jeedom SAS",
+    "require": "3.0",
+    "category": "organization",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/geoloc\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/geoloc\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy"
+    ]
 }

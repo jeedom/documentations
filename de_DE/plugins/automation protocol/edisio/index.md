@@ -1,212 +1,107 @@
-Plugin permettant d’utiliser le protocole Edisio avec Jeedom
+# Edisio
 
-Konfiguration
-=============
+Plugin zur Verwendung des Edisio-Protokolls mit Jeedom
 
-Le plugin edisio permet de dialoguer avec l’ensemble des périphériques
-compatibles avec le module edisio USB.
+# Configuration
 
-Plugin Konfiguration
------------------------
+Mit dem edisio-Plugin können Sie mit allen Peripheriegeräten kommunizieren, die mit dem edisio USB-Modul kompatibel sind.
 
-Après téléchargement du plugin, il vous suffit de l’activer et de mettre
-le port sur auto. Après sauvegarde le démon devrait se lancer. Le plugin
-est déjà configuré par défaut ; vous n’avez donc rien à faire de plus.
-Cependant vous pouvez modifier cette configuration. Voici le détail
-(certains paramètres peuvent n’être visibles qu’en mode expert) :
+## Plugin Konfiguration
+
+Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur aktivieren und den Port auf Auto setzen. Nach dem Speichern sollte der Dämon starten. Das Plugin ist bereits standardmäßig konfiguriert. du musst nichts mehr tun. Sie können diese Konfiguration jedoch ändern. Hier ist das Detail (einige Parameter sind möglicherweise nur im Expertenmodus sichtbar) :
 
 ![edisio1](./images/edisio1.JPG)
 
--   **Dépendances** : cette partie vous donne le statut des dépendances,
-    si elles ne sont pas OK vous pouvez soit les lancer à la main soit
-    attendre 5min, Jeedom les lancera de lui même.
-
--   **Démon** : cette partie vous donne le statut du démon (aussi bien
-    en local qu’en déporté), si il n’est pas OK vous pouvez soit le
-    lancer à la main soit attendre 5min, Jeedom le lancera de lui même.
-
-> **Tip**
->
-> Si vous êtes en mode déporté, le démon local peut être arrêté, c’est
-> tout à fait normal.
-
--   **Configuration** : cette partie permet de configurer les paramètres
-    généraux du plugin.
-
-    -   *Bannir les IDs suivants* : permet de donner une liste
-        d’identifiants edisio à Jeedom pour que celui-ci ne crée pas les
-        équipements correspondants. Les identifiants doivent être
-        séparés par des espaces. Exemple : "1356AD87 DB54AF".
-
--   **Démon local**ou**Démon XXX** : paramètres de configuration
-    locale (ou déportée, en fonction de l’intitulé) du démon.
-
-    -   *Port edisio* : le port USB sur lequel votre interface edisio
-        est connectée.
-
-        > **Tip**
+-   **Nebengebäude** : In diesem Teil erhalten Sie den Status der Abhängigkeiten. Wenn diese nicht in Ordnung sind, können Sie sie entweder von Hand starten oder 5 Minuten warten. Jeedom startet sie von selbst.
+-   **Dämon** : Dieser Teil gibt Ihnen den Status des Dämons (sowohl lokal als auch remote). Wenn dies nicht in Ordnung ist, können Sie ihn entweder von Hand starten oder 5 Minuten warten. Jeedom startet ihn von selbst.
+-   **Konfiguration** : In diesem Teil können Sie die allgemeinen Parameter des Plugins konfigurieren.
+    -   *Verbieten Sie die folgenden IDs* : ermöglicht es, Jeedom eine Liste von edisio-Kennungen zu geben, damit nicht die entsprechende Ausrüstung erstellt wird. Bezeichner müssen durch Leerzeichen getrennt werden. Beispiel : "1356AD87 DB54AF".
+-   **Lokaler Dämon** : lokale Konfigurationsparameter (oder Remote, je nach Titel) des Dämons.
+    -   *EDISIO Port* : Der USB-Anschluss, an den Ihre edisio-Schnittstelle angeschlossen ist.
+        > **Spitze**
         >
-        > Si vous ne savez pas quel port USB est utilisé, vous pouvez
-        > simplement indiquer "Auto".
+        > Wenn Sie nicht wissen, welcher USB-Anschluss verwendet wird, können Sie einfach "Auto" angeben".
+    -   *Interner Socket-Port (gefährliche Änderung, muss bei allen von Jeedom deportierten Edisio den gleichen Wert haben)* : Ermöglicht das Ändern des internen Kommunikationsports des Dämons.
 
-    -   *Port socket interne (modification dangereuse, doit être la même
-        valeur sur tous les Jeedom déportés edisio)* : permet de
-        den internen Kommunikationsport des Dämon zu modifizieren.
-
-> **Important**
+> **Wichtig**
 >
-> A ne changer que si vous savez ce que vous faites.
+> Ändern Sie nur, wenn Sie wissen, was Sie tun.
 
-Pour lancer le démon en debug il suffit au niveau de la configuration
-des logs du plugin de mettre en debug, de sauvegarder et de relancer le
-démon.
+Um den Daemon beim Debuggen zu starten, reicht es auf der Ebene der Konfiguration der Protokolle des Plugins aus, das Debugging durchzuführen, den Daemon zu speichern und neu zu starten.
 
-> **Important**
+> **Wichtig**
 >
-> Dans ce mode, le démon est très bavard. Une fois le debug terminé, il
-> ne faut pas oublier de cliquer sur "Redémarrer" pour sortir du mode
-> debug !! :
+> In diesem Modus ist der Dämon sehr gesprächig. Vergessen Sie nach Abschluss des Debugs nicht, auf "Neustart" zu klicken, um den Debug-Modus zu verlassen !!
 
-Geräte Konfiguration
------------------------------
+## Gerätekonfiguration
 
-La configuration des équipements edisio est accessible à partir du menu
-plugin :
+Die Konfiguration der edisio-Geräte kann über das Plugin-Menü aufgerufen werden :
 
 ![edisio10](./images/edisio10.JPG)
 
-Voilà à quoi ressemble la page du plugin edisio (ici avec déjà 4
-équipements) :
+So sieht die Seite des edisio Plugins aus (hier mit bereits 4 Geräten) :
 
 ![edisio2](./images/edisio2.JPG)
 
-> **Tip**
+> **Spitze**
 >
-> Comme à beaucoup d’endroit sur Jeedom, mettre la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profils le laisser toujours visible)
+> Wie an vielen Orten in Jeedom wird durch einfaches Setzen der Maus ganz links ein Schnellzugriffsmenü angezeigt (Sie können es jederzeit in Ihrem Profil sichtbar lassen)
 
-Vous retrouvez ici :
+Sie finden hier :
 
--   un bouton pour créer un équipement manuellement
+-   eine Schaltfläche zum manuellen Erstellen von Geräten
+-   eine Schaltfläche zum Umschalten auf Inklusion
+-   eine Schaltfläche zum Anzeigen der Konfiguration des Plugins
+-   Eine Schaltfläche, die Ihnen den Gesundheitszustand aller Ihrer Edisio-Geräte anzeigt
+-   Schließlich finden Sie unten die Liste Ihrer Ausrüstung
 
--   un bouton pour passer en inclusion
-
--   un bouton pour afficher la configuration du plugin
-
--   un bouton qui vous donne l’état de santé de tous vos équipements
-    Edisio
-
--   enfin en dessous vous retrouvez la liste de vos équipements
-
-Sobald Sie eines davon anklicken, erhalten Sie :
+Sobald Sie auf eine davon klicken, erhalten Sie :
 
 ![edisio3](./images/edisio3.JPG)
 
-Sie werden hier alle die Konfiguration Ihrer Geräte finden:
+Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   Nom de l’équipement edisio : nom de votre équipement edisio
+-   EDISIO Gerätename : Name Ihrer Edisio-Ausrüstung
+-   Identifikation : die ID Ihrer Sonde (darf nur bei vollständiger Kenntnis der Fakten geändert werden)
+-   Aktivieren : macht Ihre Ausrüstung aktiv
+-   Sichtbar : macht es auf dem Dashboard sichtbar
+-   Übergeordnetes Objekt : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört
+-   Kategorie : Gerätekategorien (es kann zu mehreren Kategorien gehören)
+-   Die Batterie nicht überprüfen : weist Jeedom an, Sie nicht zu warnen, wenn das Gerät einen Rahmen mit schwacher Batterie sendet (einige Module verarbeiten diese Informationen nicht korrekt und generieren falsche Warnungen)
+-   Maximale Zeit zwischen 2 Nachrichten (min) : Die maximal zulässige Zeit zwischen zwei Nachrichten, bevor Jeedom das Gerät als Zeitüberschreitung deklariert". Beachten Sie, dass für diesen Parameter die Option "Wiederholung von Nachrichten alle (min) erzwingen" konfiguriert werden muss und dieser Wert größer sein muss
+-   Kommentar : ermöglicht es Ihnen, Kommentare zum Gerät abzugeben (z : Batterie gewechselt am XX / XX / XXXX)
+-   Gerät : ermöglicht es Ihnen, das Modell Ihrer Ausrüstung zu definieren (nur für die manuelle Erstellung von Ausrüstung zu konfigurieren, in der automatischen Jeedom konfiguriert nur dieses Feld)
+-   Schaffung : gibt Ihnen das Erstellungsdatum der Ausrüstung an
+-   Kommunikation : gibt Ihnen das Datum der letzten Kommunikation mit dem Gerät an (kann beispielsweise bei einer Steckdose leer sein)
+-   Batterie : Batteriestand des Geräts
+-   Status : Gerätestatus (kann zum Beispiel eine Zeitüberschreitung sein)
 
--   ID : l’id de votre sonde (à ne modifier qu’en connaissance de cause)
+Nachfolgend finden Sie die Liste der Bestellungen :
 
--   Activer : permet de rendre votre équipement actif
+-   Der im Dashboard angezeigte Name
+-   Typ und Subtyp
+-   Der Informationsschlüssel, wenn es sich um eine Information handelt, oder der Hexadezimalcode, der gesendet werden soll, wenn es sich um eine Aktion handelt. In den Konfigurationen können diese Felder automatisch ausgefüllt werden (Sie müssen das Gerät erstellen, die Konfiguration auswählen und dann speichern)
+-   "Statusrückmeldungswert "und" Dauer vor Statusrückmeldung" : ermöglicht es Jeedom anzuzeigen, dass nach einer Änderung der Informationen der Wert auf Y, X min nach der Änderung zurückkehren muss. Beispiel : Im Fall eines Anwesenheitsdetektors, der nur während einer Anwesenheitserkennung emittiert, ist es nützlich, beispielsweise 0 in Wert und 4 in Dauer einzustellen, so dass 4 min nach einer Bewegungserkennung (und s ') Seitdem gab es keine Neuigkeiten.) Jeedom setzt den Wert der Informationen auf 0 zurück (keine Bewegung mehr erkannt)
+-   Chronik : ermöglicht das Historisieren der Daten
+-   Anzeige : ermöglicht die Anzeige der Daten im Dashboard
+-   Ereignis : Bei edisio muss dieses Kontrollkästchen immer aktiviert sein, da Sie kein edisio-Modul abfragen können
+-   Unit : Dateneinheit (kann leer sein)
+-   min / max : Datengrenzen (können leer sein)
+-   erweiterte Konfiguration (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.)
+-   Test : Wird zum Testen des Befehls verwendet
+-   löschen (unterschreiben -) : ermöglicht das Löschen des Befehls
 
--   Visible : le rend visible sur le dashboard
+## Betrieb an edisio Geräten
 
--   Objet parent : indique l’objet parent auquel appartient l’équipement
+Oben auf Ihrer Gerätekonfigurationsseite befinden sich 3 Schaltflächen, mit denen Sie bestimmte Optionen ausführen können :
 
--   Catégorie : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories)
+-   Duplikat : Geräte dupliziert
+-   konfigurieren (kleine gekerbte Räder) : Das gleiche Prinzip wie bei den Befehlen ermöglicht eine erweiterte Konfiguration der Geräte
 
--   Ne pas vérifier la batterie : indique à Jeedom de ne pas vous
-    alerter si l’équipement envoie une trame de batterie faible
-    (certains modules ne gèrent pas correctement cette info et génèrent
-    de fausses alertes)
+## Aufnahme von Edisio-Geräten
 
--   Délai maximum autorisé entre 2 messages (min) : le délai maximum
-    autorisé entre 2 messages avant que Jeedom ne déclare l’équipement
-    en "timeout". Attention ce paramètre nécessite d’avoir configuré
-    l’option "Forcer la répétition des messages toutes les (min)" et il
-    doit être supérieur à cette valeur
+Das Hinzufügen von Edisio-Geräten ist sehr einfach. Sie müssen nur in den Einschlussmodus wechseln und warten, bis das Gerät eine Nachricht sendet. In diesem Fall teilt Jeedom Ihnen mit, dass neue Geräte enthalten sind, und erstellt diese automatisch.
 
--   Commentaire : vous permet de mettre des commentaires sur
-    l’équipement (ex : pile changée le XX/XX/XXXX)
+# Liste kompatibler Module
 
--   Equipement : permet de définir le modèle de votre équipement (à ne
-    configurer que pour une création manuelle d’un équipement, en
-    automatique Jeedom configure ce champ tout seul)
-
--   Création : vous donne la date de création de l’équipement
-
--   Communication : vous donne la date de dernière communication avec
-    l’équipement (peut être vide dans le cas d’une prise par exemple)
-
--   Batterie : niveau de batterie de l’équipement
-
--   Statut : statut de l’équipement (peut être timeout par exemple)
-
-Im unteren Bereich finden sie eine Liste der Befehle :
-
--   Der Name, der auf dem Armaturenbrett angezeigt wird
-
--   le type et le sous-type
-
--   la clef de l’information si c’est une info, ou alors le code
-    hexadécimal à envoyer lorsque c’est une action. Les configurations
-    permettent de remplir ces champs automatiquement (il faut créer
-    l’équipement, choisir la configuration puis sauvegarder)
-
--   "Valeur de retour d’état" et "Durée avant retour d’état" : permet
-    d’indiquer à Jeedom qu’après un changement sur l’information sa
-    valeur doit revenir à Y, X min après le changement. Exemple : dans
-    le cas d’un détecteur de présence qui n’émet que lors d’une
-    détection de présence, il est utile de mettre par exemple 0 en
-    valeur et 4 en durée, pour que 4 min après une détection de
-    mouvement (et s’il n’y a en pas eu de nouvelles depuis) Jeedom
-    remette la valeur de l’information à 0 (plus de mouvement détecté)
-
--   Chronik : erlaubt das Archivieren der Daten
-
--   afficher : permet d’afficher la donnée sur le dashboard
-
--   évènement : dans le cas du edisio cette case doit toujours être
-    cochée car on ne peut pas interroger un module edisio
-
--   unité : unité de la donnée (peut être vide)
-
--   min/max : bornes de la donnée (peuvent être vides)
-
--   Erweiterte Konfiguration (kleine Zahnräder) : Erlaubt die erweiterte
-    Konfiguration des Befehls anzuzeigen (Methode der
-    Archivierung, Widget ...)
-
--   Test: prüft den Befehl
-
--   supprimer (signe -) : permet de supprimer la commande
-
-Opération sur les équipements edisio 
-------------------------------------
-
-En haut de votre page de configuration pour l’équipement, vous avez 3
-boutons qui permettent de réaliser certaines options :
-
--   Dupliquer : permet de dupliquer l’équipement
-
--   configurer (petites roues crantées) : même principe que pour les
-    commandes, ça permet une configuration avancée de l’équipement
-
-Inclusion d’un équipement edisio 
---------------------------------
-
-L’ajout d’un équipement Edisio est très simple, il faut juste passer en
-mode inclusion et attendre que l’équipement envoi un message, quand ca
-sera le cas Jeedom vous indiquera qu’il a inclus un nouvel équipement et
-creera celui-ci automatiquement.
-
-Liste des modules compatible 
-============================
-
-Vous trouverez la liste des modules compatibles
-[ici](https://jeedom.fr/doc/documentation/edisio-modules/fr_FR/doc-edisio-modules-equipement.compatible.html)
-
-Unresolved directive in index.asciidoc - include::faq.asciidoc\[\]
+Sie finden die Liste der kompatiblen Module [hier](https://doc.jeedom.com/de_DE/edisio/equipement.compatible)

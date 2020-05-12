@@ -1,6 +1,8 @@
->**IMPORTANT**
+# Registro de cambios IPX 800 v4
+
+>**Importante**
 >
->Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
 # 05/09/2020
 
@@ -54,4 +56,4 @@
 
 -   Soporte para módulos THL
 
--   Adición de un motor de plantillas para la generación de pedidos.
+-   Adición de un motor de plantillas para la generación de pedidos

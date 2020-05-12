@@ -1,20 +1,35 @@
-# 30/12/2019
+# Changelog Neato
 
-- Aktualisierung des Dokuments
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 17/09/2019
+# 05/11/2020
 
-- Aktualisierung des Dokuments
+- Verbesserte Kartenunterstützung
+- Unterstützungszonen
 
-# 23/08/2019
+# 01/06/2020
 
-- Suppression du widget pour remplacement par un widget generique Jeedom
+- Verbesserte Kartenunterstützung
 
-# 14/01/2019
+# 2019.12.30
+
+- Aktualisieren des Dokuments
+
+# 17.09.2019
+
+- Aktualisieren des Dokuments
+
+# 23.08.2019
+
+- Widget-Entfernung zum Ersetzen durch generisches Jeedom-Widget
+
+# 14.01.2019
 
 - Fehlerbehebungen
-- Ajout d'une alerte si la commande échoue
+- Hinzufügen einer Warnung, wenn der Befehl fehlschlägt
 
-# 11/09/2018
+# 09/11/2018
 
-- Ajout image Botvac D7
+- Hinzufügen eines Botvac D7-Bildes

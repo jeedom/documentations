@@ -1,31 +1,31 @@
-Ce plugin permet de connecter les controleurs de piscine Swimo avec Jeedom.
-Le plugin permet de récupérer les valeurs des différents capteurs ainsi que contrôler les actionneurs. (changement de modes, On/Off, changement des consignes)
+Mit diesem Plugin können Sie Swimo Pool Controller mit Jeedom verbinden.
+Das Plugin ermöglicht es, die Werte der verschiedenen Sensoren wiederherzustellen sowie die Aktoren zu steuern. (Änderung der Modi, Ein / Aus, Änderung der Sollwerte)
 
-Configuration du plugin
+Plugin Konfiguration
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-puis de configurer quelques éléments :
+Nach dem Herunterladen des Plugins müssen Sie es nur noch aktivieren,
+Konfigurieren Sie dann einige Elemente :
 
-- l'adresse IP du swimo
-- le serial du swimo
-- L'apikey du swimo
+- die Swimo IP-Adresse
+- Swimo-Serie
+- Die Apikey von Swimo
 
 ![swimo](./images/swimo1.png)
 
-Configuration des équipements
+Gerätekonfiguration
 =============================
 
-La synchronisation des équipements permet de récupérer les sondes et les actionneurs configurés sur le Swimo.
+Die Synchronisation der Geräte ermöglicht die Wiederherstellung der auf dem Swimo konfigurierten Sonden und Aktuatoren.
 
 ![swimo2](./images/swimo2.png)
 
-Une fois configuré dans un objet, vous obtiendrez vos éléments dans le dashboard :
+Nach der Konfiguration in einem Objekt erhalten Sie Ihre Elemente im Dashboard :
 
 ![swimo3](./images/swimo3.png)
 
-> **Note**
+> **Notiz**
 >
-> - Les données sont actualisées toutes les 5 minutes ou lors d'une action.
-> - Les valeurs de consigne ne sont pas affichées par défaut.
-> Ils sont pleinement utilisables via les scénarios.
+> - Die Daten werden alle 5 Minuten oder während einer Aktion aktualisiert.
+> - Sollwerte werden standardmäßig nicht angezeigt.
+> Sie sind über die Szenarien voll nutzbar.

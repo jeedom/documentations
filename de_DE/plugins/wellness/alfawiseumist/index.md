@@ -1,72 +1,45 @@
-Ce plugin permet de contrôler vos brumisateurs Alfawise.
+# Alfawise Plugin
 
-Plugin-Konfiguration
-=======================
+Mit diesem Plugin können Sie Ihre Alfawise-Nebelgeräte steuern.
 
-Après installation du plugin, il vous suffit de l’activer. Il n'y a aucune configuration particulière à faire
+# Plugin Konfiguration 
 
-Gerätekonfiguration
-=============================
+Nach der Installation des Plugins müssen Sie es nur noch aktivieren. Es ist keine spezielle Konfiguration erforderlich
 
-La configuration des équipements Alfawise est accessible à partir du menu
-plugins puis Confort. Vous retrouvez ici :
+# Gerätekonfiguration 
 
--   un bouton pour créer un équipement manuellement
+Die Konfiguration der Alfawise-Ausrüstung ist über das Plugins-Menü und dann über Comfort zugänglich. Sie finden hier :
 
--   un bouton pour afficher la configuration du plugin
+-   eine Schaltfläche zum manuellen Erstellen von Geräten
+-   eine Schaltfläche zum Anzeigen der Konfiguration des Plugins
+-   Eine Schaltfläche, die Ihnen einen Überblick über alle Ihre Geräte gibt
+-   Schließlich finden Sie unten die Liste Ihrer Ausrüstung
 
--   un bouton qui vous donne une vue d'ensemble de tous vos équipements
+Wenn Sie auf eines Ihrer Geräte klicken, gelangen Sie auf die Konfigurationsseite Ihres Geräts mit 2 Registerkarten, Geräten und Steuerelementen.
 
--   enfin en dessous vous retrouvez la liste de vos équipements
+-   **Registerkarte Ausrüstung** :
+-   **Name der Ausrüstung** : Name Ihrer Ausrüstung
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv
+-   **Sichtbar** : macht es auf dem Dashboard sichtbar
+-   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört
+-   **Nebelkennung** : Dies ist die Kennung, die Sie in der Anwendung finden (im Allgemeinen ist es die Mac-Adresse des Nebelgeräts)
+-   **Fogger IP** : Dieses Feld ist nicht obligatorisch. Dies ist nur dann sinnvoll, wenn Sie ein Problem haben.
+-   **Registerkarte &quot;Bestellungen&quot;** :
 
-En cliquant sur un de vos équipements vous arrivez sur la page
-configuration de votre équipement comprenant 2 onglets, équipement et
-commandes.
+Es gibt viele Befehle :
 
--   **Onglet Equipement** :
-
--   **Nom de l’équipement** : nom de votre équipement
-
--   **Aktivieren**: auf Ihre aktiven Geräte machen
-
--   Visible ** **: macht es sichtbar auf dem Armaturenbrett
-
--   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
-    Ausrüstung
-
--   **Identifiant du brumisateur** : c'est l'identifiant que vous retrouvez dans l'application (généralement c'est l'adresse mac du brumisateur)
-
--   **Ip du brumisateur** : ce champ n'est pas obligatoire. Il est uniquement utile dans le cas où sans, vous avez un soucis.
-
-
--   **Onglet Commandes** :
-
--   Il existe de nombreuses commandes.
-
--   **Allumer le brumiasteur**
-
--   **Arrêter le brumisateur **
-
+-   **Schalten Sie den Brumiasteur ein**
+-   **Stoppen Sie die Nebelmaschine **
 -   **Farbe**
-
--   **Blitz Modus**
-
--   **Farbverlauf Modus**
-
--   **Mode quiet**
-
+-   **Flash-Modus**
+-   **Verlaufsmodus**
+-   **Ruhiger Modus**
 -   **Geschwindigkeit 0**
-
 -   **Geschwindigkeit 1**
-
 -   **Geschwindigkeit 2**
-
 -   **1h**
-
 -   **3h**
-
 -   **6h**
 
-
-Il n'y aura pas de commandes supplémentaires. Le mode intensité lumineuse n'est pas réellement un ajustement d'intensité lumineuse mais en réalité juste un ajustement de couleur. Concernant la détection d'eau si le produit ne le fait pas,
-il n'y aura pas de miracle pour le faire dans Jeedom
+Es gibt keine zusätzlichen Bestellungen. Der Lichtintensitätsmodus ist eigentlich keine Lichtintensitätsanpassung, sondern in Wirklichkeit nur eine Farbanpassung. In Bezug auf die Wassererkennung, wenn das Produkt dies nicht tut,
+In Jeedom wird es kein Wunder geben, dies zu tun

@@ -1,33 +1,22 @@
-# Description
+# IkeaLight plugin
 
-Le plugin IkeaLight permet d’établir un lien avec la passerelle Ikea
-Tradfri. Vous pourrez controller vos lumières et avoir un retour d’état
-temps réel.
+The IkeaLight plugin makes it possible to establish a link with the Ikea Tradfri gateway. You can control your lights and get real-time status feedback.
 
-# Setup
+# Configuration
 
 ## Plugin configuration
 
-Après téléchargement du plugin il vous faut l’activer et renseigner l’IP
-de votre passerelle ainsi que la clé disponible sur l’étiquette de la
-passerelle (le "Security code").
+After downloading the plugin you need to activate it and enter the IP of your gateway as well as the key available on the gateway label (the "Security code").
 
-## Détection des ampoules
+## Bulb detection
 
-Pour scanner les équipements Ikea, il suffit de lancer (une fois les dépendances
-elancé) le démon. Les ampoules remontés par la
-passerelle et qui sont reconnus par Jeedom seront automatiquement créé.
-Si une ampoule ne remonte pas merci de mettre le plugin de Debug de
-relancer la découverte et de nous fournir la log afin que l’on puisse
-rajouter les ampoules manquantes. (Pensez à bien préciser votre ampoule
-ainsi que ses caractéristiques dans le ticket : est elle dimmable, est
-elle variable en blanc, est elle variable en couleur). Le plugin vous remontera également les prises les stores
+To scan Ikea equipment, just launch (once the dependencies started) the daemon. The bulbs reassembled by the gateway and which are recognized by Jeedom will be automatically created. If a bulb does not come up please put the Debug plugin to relaunch the discovery and provide us with the log so that we can add the missing bulbs. (Remember to specify your bulb and its characteristics in the ticket : is it dimmable, is it variable in white, is it variable in color). The plugin will also bring you the blinds sockets
 
-**Une fois decouverte chaque ampoule aura :**
+**Once discovered each bulb will have :**
 
--   Les actions correspondantes
--   Les infos correspondantes
+-   The corresponding actions
+-   The corresponding info
 
 >**Symfonisk**
 >
->Les enceintes connectée Symfonisk ne sont pas gerées par ce plugin mais par le plugin Sonos
+>Symfonisk connected speakers are not managed by this plugin but by the Sonos plugin

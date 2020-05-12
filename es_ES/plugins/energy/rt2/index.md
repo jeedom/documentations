@@ -1,102 +1,69 @@
+# Complemento EcoRT2
+
 Este complemento le permite administrar un IPX 800 v4
 
-Configuración del plugin
-=======================
+# Configuración del plugin
 
-Después de descargar el complemento, solo necesita activarlo,
-no hay configuración a este nivel.
+Después de descargar el complemento, solo necesita activarlo, no hay configuración en este nivel.
 
 > **Nota**
 >
 > Puede ver en esta página el estado del demonio que monitorea ecoRT2
 
-Configuración del equipo
-=============================
+# Configuración del equipo
 
-Se puede acceder a la configuración del equipo ecoRT2 desde el menú
-plugin luego protocolo de automatización del hogar :
+Se puede acceder a la configuración del equipo ecoRT2 desde el menú de complementos y luego desde el protocolo de automatización del hogar :
 
 Aquí encontrarás toda la configuración de tu equipo :
 
 -   **Nombre del equipo EcoRT2** : nombre de su equipo ecoRT2,
-
--   **Objeto padre** : indica el objeto padre al que pertenece
-    equipo,
-
+-   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
 -   **Activar** : activa su equipo,
-
 -   **Visible** : hace que su equipo sea visible en el tablero,
-
--   **Categoría** : categorías de equipos (puede pertenecer a
-    categorías múltiples),
-
+-   **Categoría** : categorías de equipos (puede pertenecer a varias categorías),
 -   **IP** : La ecoRT2 ip,
+-   **Clave API** : Clave de ecoRT2 API (por defecto, la clave de API es apikey)
+-   **Extensión** : aquí debe indicar las extensiones presentes en ecoRT2 para que Jeedom pueda interrogarlas. Ejemplo para enOcean es necesario poner ENO (si tiene varios, es necesario separarlos por). Normalmente, todas las extensiones son compatibles, para que el código de la extensión sea necesario consultar la documentación de esta.
 
--   **Clave API** : Clave API ecoRT2 (por defecto Clave API
-    es apikey)
+El complemento predeterminado no crea nada, dependerá de usted hacerlo de acuerdo con su configuración, pero será guiado.
 
--   **Extensión** : aquí debe indicar las extensiones presentes en
-    ecoRT2 para que Jeedom pueda interrogarlos. Ejemplo de EnOcean
-    debes poner ENO (si tienes varios debes separarlos
-    por,). Todas las extensiones son normalmente compatibles, para
-    el código de la extensión para poner debe referirse a
-    documentación del mismo.
+# Commande
 
-El complemento predeterminado no crea nada, dependerá de usted hacerlo
-dependiendo de tu configuración pero serás guía.
-
-Comando
-========
-
-Acción
-------
+## Action
 
 Tienes los tipos de acción :
 
--   **Uno** : le permite establecer una salida (o entrada virtual) a 1, o
-    asignar un valor a una entrada analógica (o contador)
-
+-   **Uno** : le permite establecer una salida (o entrada virtual) en 1, o asignar un valor a una entrada analógica (o contador)
 -   **Apagado** : le permite establecer una salida (o entrada virtual) a 0
-
--   **Alternar** : permite invertir el estado de una salida (o
-    entrada virtual)
+-   **Alternar** : permite invertir el estado de una salida (o entrada virtual)
 
 Tienes los tipos de actuadores :
 
 -   **Relé**
-
 -   **Salida virtual**
-
 -   **Contador**
-
 -   **Cable piloto**
 
 > **Nota**
 >
-> Cierto tipo de actuador puede ocultarse dependiendo del tipo
-> acción
+> Cierto tipo de actuador puede ocultarse dependiendo del tipo de acción
 
-Luego, dependiendo del tipo de acción y el actuador que tenga
-varios parámetros que pueden ser :
+Luego, dependiendo del tipo de acción y el actuador, tiene varios parámetros que pueden ser :
 
 -   número de relevo
-
 -   número de salida virtual
-
 -   Número de contador y operación (ex +200 o -100)
-
 -   número de cable piloto y valor de pedido (0 confort, 1 eco, 2 sin escarcha, 3 apagado, 4 confort-1, 5 confort-2)
 
-Información
-----
+## Info
 
 Tienes diferentes tipos :
 
 -   Publicación instantánea
--   Relé
+-   Relais
 -   Salida virtual
 -   Entrada digital
--   Contador
+-   Compteur
 -   EnOcean
 -   Índice de contador
 -   Índice toro
@@ -114,4 +81,4 @@ Tienes diferentes tipos :
 -   Acumulación de precios / día posterior
 -   Cable piloto
 
-Para cada tipo, jeedom le preguntará el número de la información deseada.
+Para cada tipo, jeedom le preguntará el número de la información deseada

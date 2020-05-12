@@ -1,44 +1,30 @@
-Ce plugin permet de gérer vos cafetière de Smarter (attention uniquement V1 pas la version compatible ifttt).
+# Complemento SmartCoffee
 
-configuración del plugin
-=======================
+Este complemento le permite administrar su cafetera Smarter (solo atención V1, no la versión compatible con ifttt).
 
-Après installation du plugin, il vous suffit de l’activer. Si les dépendances sont OK, renseignez l'ip de votre cafetière et sauvegarder. Logiquement l'équipement se créera tout seul.
+# Configuración del plugin 
 
-Configuración del dispositivo
-=============================
+Después de instalar el complemento, solo necesita activarlo. Si las dependencias están bien, ingrese la dirección IP de su cafetera y guarde. Lógicamente, el equipo se creará solo.
 
-La configuration des équipements Smarter Coffee est accessible à partir du menu
-plugins puis Confort. Vous retrouvez ici :
+# Configuración del equipo
 
--   un bouton pour afficher la configuration du plugin
+Se puede acceder a la configuración del equipo Smarter Coffee desde el menú de complementos y luego a Confort. Lo encuentras aqui :
 
--   un bouton qui vous donne une vue d'ensemble de tous vos équipements
+-   un botón para mostrar la configuración del complemento
+-   un botón que le brinda una visión general de todos sus equipos
+-   finalmente a continuación encontrará la lista de su equipo
 
--   enfin en dessous vous retrouvez la liste de vos équipements
+Al hacer clic en uno de sus equipos, llega a la página de configuración de su equipo, que incluye 2 pestañas, equipos y controles.
 
-En cliquant sur un de vos équipements vous arrivez sur la page
-configuration de votre équipement comprenant 2 onglets, équipement et
-commandes.
+-   **Pestaña del equipo** :
+-   **Nombre del equipo** : nombre de su equipo
+-   **Activar** : activa su equipo
+-   **Visible** : lo hace visible en el tablero
+-   **Objeto padre** : indica el objeto padre al que pertenece el equipo
+-   **Pestaña de pedidos** :
+    -  Aquí encontrará todos los comandos (algunos están dedicados solo al escenario)
 
--   **Onglet Equipement** :
+#  Para el comando Ejecutar modo personal para escenario :
 
--   **Nom de l’équipement** : nom de votre équipement
-
--   ** ** Activar: para que su equipo activo
-
--   Visible ** **: hace visible en el tablero de instrumentos
-
--   **Objeto padre** : especifica el objeto padre al que pertenece
-    equipo
-
-
--   **Onglet Commandes** :
-
--  Ici vous retrouverez l'ensemble des commandes (certaines étant dédiées uniquement au scénario)
-
-Pour la commande Faire couler mode perso pour scénario :
-======================================================
-Le champ force doit contenir une valeur de 1 à 3 qui correspond à la force
-L'autre champ quand à lui a besoin de  :Nombre de tasses (1-12);g pour grains f pour filtre;durée de chauffe (exemple 12;f;30)
+El campo de fuerza debe contener un valor de 1 a 3 que corresponde a la fuerza El otro campo cuando lo necesita  :Número de tazas (1-12); g para frijoles f para filtro; tiempo de calentamiento (ejemplo 12; f; 30)
 

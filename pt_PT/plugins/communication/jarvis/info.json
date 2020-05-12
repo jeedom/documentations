@@ -1,11 +1,11 @@
 {
-	"id" : "jarvis",
-	"name" : "Jarvis",
-	"description" : "Plugin permettant de gérer un ou plusieurs Jarvis",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "3.0",
-        "category" : "communication",
-        "changelog" : "https://jeedom.github.io/plugin-jarvis/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-jarvis/#language#/"
+    "id": "jarvis",
+    "name": "Jarvis",
+    "description": "Plugin permettant de gérer un ou plusieurs Jarvis",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "category": "communication",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/jarvis\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/jarvis\/"
 }

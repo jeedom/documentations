@@ -1,20 +1,20 @@
-# IPX800v4
+# IPX800v4 Plugin
 
 Mit diesem Plugin können Sie eine IPX 800 v4 verwalten
 
 # Plugin Konfiguration
 
-Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur aktivieren und die Kontrollkästchen aktivieren, die Sie für Anfragen an IPX800v4 betreffen (Beispiel: Überprüfen Sie X-Dimmer, wenn Sie einen X-Dimmer haben).. Sie können auch die Häufigkeit der Anforderungen auswählen, um die Belastung von ipx800v4 zu verringern
+Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur aktivieren und die Kontrollkästchen aktivieren, die Sie für Anfragen an IPX800v4 betreffen (Beispiel: Überprüfen Sie X-Dimmer, wenn Sie einen X-Dimmer haben). Sie können auch die Häufigkeit der Anforderungen auswählen, um die Belastung von ipx800v4 zu verringern
 
-> **Important**
+> **Wichtig**
 >
 > Nach jeder Änderung der Häufigkeit oder der Anforderungen müssen Sie den Dämon neu starten, damit er berücksichtigt wird
 
-> **Important**
+> **Wichtig**
 >
-> Um die Last zu verringern, wird empfohlen, ALLE Typanforderungen zu deaktivieren und nur die APIs zu überprüfen, die Sie betreffen (Details finden Sie in der API-Dokumentation für IPX800v4).
+> Um die Last zu verringern, wird empfohlen, ALLE Typanforderungen zu deaktivieren und nur die APIs zu überprüfen, die Sie betreffen (Details finden Sie in der API-Dokumentation für IPX800v4)
 
-> **Note**
+> **Notiz**
 >
 > Auf dieser Seite sehen Sie den Status des Dämons, der den IPX800 überwacht
 
@@ -27,8 +27,8 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
 -   **Name des Geräts IPX800** : Name Ihres IPX800-Geräts,
 -   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
--   **Activer** : macht Ihre Ausrüstung aktiv,
--   **Visible** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv,
+-   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
 -   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören),
 -   **IP** : Die IPX800 IP,
 -   **API-Schlüssel** : API-Schlüssel des IPX800 (standardmäßig ist der API-Schlüssel apikey)
@@ -42,7 +42,7 @@ Abhängig von Ihrer Konfiguration werden Sie jedoch als Leitfaden dienen.
 
 Sie haben die Arten von Aktionen :
 
-- Ein : Mit dieser Option können Sie einen Ausgang (oder virtuellen Eingang) auf 1 setzen oder einem analogen Eingang (oder Zähler) einen Wert zuweisen.
+- Ein : Mit dieser Option können Sie einen Ausgang (oder virtuellen Eingang) auf 1 setzen oder einem analogen Eingang (oder Zähler) einen Wert zuweisen
 - Aus : Mit dieser Option können Sie einen Ausgang (oder einen virtuellen Eingang) auf 0 setzen
 - Umschalten : ermöglicht das Umkehren des Status einer Ausgabe (oder einer virtuellen Eingabe)
 - ...
@@ -57,7 +57,7 @@ Sie haben die Arten von Aktuatoren :
 - Pilotdraht
 - ...
 
-> **Note**
+> **Notiz**
 >
 > Bestimmte Arten von Aktuatoren können je nach Art der Aktion ausgeblendet werden
 

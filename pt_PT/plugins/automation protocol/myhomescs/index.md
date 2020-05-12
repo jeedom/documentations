@@ -6,7 +6,7 @@ Plug-in para usar o gateway F454
 
 O plugin MyHomeSCS permite que você se comunique com todos os dispositivos MyHomeSCS da Legrand através do gateway F454
 
->**ATTENTION**
+>**Atenção**
 >
 >Para usar o plug-in, é necessário desativar a autenticação do gateway MyHome e autorizar o endereço IP do JEEDOM na lista de permissões do gateway.
 
@@ -22,7 +22,7 @@ Depois de configurado, você acessa a página do plugin MyHomeSCS.
 
 O menu à esquerda apresenta todos os módulos MyHomeSCS detectados e / ou configurados em sua instalação de automação residencial. No momento, o plugin detecta os módulos Legrand, mas não os reconhece automaticamente. Depois que o Jeedom detectar o novo módulo, ele será criado, mas sem atribuir um comando. Para isso, será necessário escolher um módulo na lista suspensa completamente à direita (se o módulo existir no banco de dados) ou criar os comandos um por um.
 
-O botão "Adicionar equipamento" permite adicionar equipamentos específicos do MyHomeSCS, geralmente para testes ou pedidos do tipo "Gerenciamento" ou "Especial".".
+O botão "Adicionar equipamento" permite adicionar equipamentos específicos do MyHomeSCS, geralmente para testes ou pedidos do tipo "Gerenciamento" ou "Especial"".
 
 ![myhomescs3](../images/myhomescs3.png)
 
@@ -70,7 +70,7 @@ Comandos de informações são necessários para recuperar o estado do equipamen
 
 Os comandos de ações permitem executar ações no equipamento. Dependendo da categoria do equipamento, você terá diferentes opções.
 
-Os quadros Legrand são orientados em torno de três variáveis e estão no formato (para um quadro do tipo BUS-COMMAND) \*WHO\*O QUE \* ONDE \#\#
+Os quadros Legrand são orientados em torno de três variáveis e estão no formato (para um quadro do tipo BUS-COMMAND) \*QUEM \*O QUE \* ONDE \#\#
 
 A OMS corresponde à categoria (luz, automação, etc ...). Se no quadro bruto você digitar \#WHO\\\#, isso será substituído pelo ID da categoria de equipamento.
 
@@ -86,7 +86,7 @@ Para conhecer todos os tipos de quadros, valor WHO, WHAT, WHERE, tipos de comuni
 
 Depois de criar todos os pedidos para o seu equipamento, é possível criar um arquivo "Equipamento" no formato JSON. Para isso, você pode se inspirar nos módulos existentes.
 
-Então você pode compartilhá-lo com a comunidade (graças à função : Enviar uma configuração). Isso adicionará comandos automáticos para os próximos usuários do plug-in MyHomeSCS..
+Então você pode compartilhá-lo com a comunidade (graças à função : Enviar uma configuração). Isso adicionará comandos automáticos para os próximos usuários do plug-in MyHomeSCS.
 
 Graças a você.
 

@@ -1,16 +1,26 @@
-# 11/09/2019
+# Changelog Edisio
 
-- Adaptation pour jeedom v4
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 13/08/2019
+# 01/10/2020
 
-- Support de PHP 7.3
+- Ein Problem mit der Anzeige von Bildern und Modellen wurde behoben
 
-# 15/01/2018
+# 09/11/2019
 
-- Correction d'une erreur 500 lors de la remonté de valeur de batterie
+- Anpassung für jeedom v4
 
-# 18/10/2018
+# 2019.08.13
 
-- Correction d'un bug si le niveau de log est sur aucun
-- Suppression des boutons supprimer/sauvegarder en double
+- Unterstützung für PHP 7.3
+
+# 15.01.2008
+
+- Korrektur eines Fehlers 500 beim Erhöhen des Batteriewertes
+
+# 18.10.2008
+
+- Korrektur eines Fehlers, wenn die Protokollstufe keine ist
+- Entfernen Sie doppelte Lösch- / Speicherschaltflächen

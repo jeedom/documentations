@@ -1,44 +1,30 @@
-Ce plugin permet de gérer vos cafetière de Smarter (attention uniquement V1 pas la version compatible ifttt).
+# Plugin Smartcoffee
 
-Configuration du plugin 
-=======================
+Este plugin permite que você gerencie sua cafeteira mais inteligente (atenção apenas V1, não a versão compatível com ifttt).
 
-Après installation du plugin, il vous suffit de l’activer. Si les dépendances sont OK, renseignez l'ip de votre cafetière et sauvegarder. Logiquement l'équipement se créera tout seul.
+# Configuração do plugin 
 
-Configuration des équipements 
-=============================
+Depois de instalar o plugin, você só precisa ativá-lo. Se as dependências estiverem OK, digite o ip da sua cafeteira e salve. Logicamente, o equipamento se cria.
 
-La configuration des équipements Smarter Coffee est accessible à partir du menu
-plugins puis Confort. Vous retrouvez ici :
+# Configuração do equipamento
 
--   un bouton pour afficher la configuration du plugin
+A configuração do equipamento Smarter Coffee pode ser acessada no menu plugins e depois em Comfort. Você encontra aqui :
 
--   un bouton qui vous donne une vue d'ensemble de tous vos équipements
+-   um botão para exibir a configuração do plug-in
+-   um botão que fornece uma visão geral de todos os seus equipamentos
+-   finalmente abaixo você encontra a lista do seu equipamento
 
--   enfin en dessous vous retrouvez la liste de vos équipements
+Ao clicar em um dos seus equipamentos, você chega na página de configuração do seu equipamento, incluindo 2 guias, equipamentos e controles.
 
-En cliquant sur un de vos équipements vous arrivez sur la page
-configuration de votre équipement comprenant 2 onglets, équipement et
-commandes.
+-   **Guia Equipamento** :
+-   **Nome de equipamentos** : nome do seu equipamento
+-   **Ativar** : torna seu equipamento ativo
+-   **Visivél** : torna visível no painel
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence
+-   **Guia Pedidos** :
+    -  Aqui você encontrará todos os comandos (alguns sendo dedicados apenas ao cenário)
 
--   **Onglet Equipement** :
+#  Para o comando Executar modo pessoal para o cenário :
 
--   **Nom de l’équipement** : nom de votre équipement
-
--   **Activer** : permet de rendre votre équipement actif
-
--   **Visible** : le rend visible sur le dashboard
-
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
-
-
--   **Onglet Commandes** :
-
--  Ici vous retrouverez l'ensemble des commandes (certaines étant dédiées uniquement au scénario)
-
-Pour la commande Faire couler mode perso pour scénario :
-======================================================
-Le champ force doit contenir une valeur de 1 à 3 qui correspond à la force
-L'autre champ quand à lui a besoin de  :Nombre de tasses (1-12);g pour grains f pour filtre;durée de chauffe (exemple 12;f;30)
+O campo de força deve conter um valor de 1 a 3 que corresponda à força. O outro campo quando necessário  :Número de xícaras (1-12); g para feijão f para filtro; tempo de aquecimento (exemplo 12; f; 30)
 

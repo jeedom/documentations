@@ -1,14 +1,28 @@
-# 30/08/2019
+# Changelog Shutter Management
 
-- Correction de bugs
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 26/08/2019
+# 05/11/2020
 
-- Correction de bugs
-- Mise à jour de la doc
-- Correction de l'affichage des checkbox
+- Bug fixes on panels
 
-# 12/08/2019
+# 10/09/2019
 
-- Correction de bugs
-- Mise à jour de la doc
+- Bugfix
+
+# 08/30/2019
+
+- Bugfix
+
+# 08/26/2019
+
+- Bugfix
+- Updating the doc
+- Fixed checkbox display
+
+# 08/12/2019
+
+- Bugfix
+- Updating the doc

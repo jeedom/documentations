@@ -1,110 +1,77 @@
-Délestage 
-=========
+# Load Shedding Plugin 
 
 ![delestage](./images/delestage_screenshot1.png)
 
-Beschreibung
-===========
+# Beschreibung 
 
-Plugin permettant de gérer le délestage électrique. Le plugin gère 3
-types de délestage :
+Plugin zur Verwaltung des elektrischen Lastabwurfs. Das Plugin verwaltet 3 Arten des Lastabwurfs :
 
--   Délestage "intelligent".
+-   Intelligentes Verschütten".
+-   Hierarchischer Lastabwurf.
+-   Kaskadenzyklischer Lastabwurf.
 
--   Délestage hiérarchique.
+# Funktionieren 
 
--   Délestage cascado-cyclique.
+## Intelligenter Lastabwurf. 
 
-Funktionsweise
-==============
+Für den intelligenten Lastabwurf muss das Thermostat-Plugin funktionieren.
 
-Délestage intelligent. 
-----------------------
+Das Plugin klassifiziert die Thermostate nach ihren tatsächlichen Temperaturen nach den eingestellten Temperaturen.
 
-Le délestage intelligent nécessite le plugin Thermostat pour
-fonctionner.
-
-Le plugin classe les thermostats en fonction de leurs températures
-réelles en fonction des températures de consigne.
-
-Ainsi le délestage interviendra en priorité sur les pièces dont l’écart
-est le plus faible. La gène pour les occupants sera ainsi moins
-importante.
+Das Verschütten hat daher Vorrang vor den Teilen mit der geringsten Abweichung. Das Gen für die Insassen wird weniger wichtig sein.
 
 ![intelligent](./images/smart.png)
 
-Délestage hiérarchique 
-----------------------
+## Hierarchischer Lastabwurf 
 
-Le délestage s’effectue en mode hiérarchisé sur les x actionneurs.
-L’actionneur 1 sera délesté en priorité puis le 2, 3…
+Der Lastabwurf wird im hierarchischen Modus an den x-Aktuatoren ausgeführt.
+Der Aktuator 1 wird vorrangig entlastet, dann die 2, 3…
 
-Les actionneurs seront réenclenchés dans l’ordre inverse du délestage
+Die Aktuatoren werden in umgekehrter Reihenfolge des Lastabwurfs zurückgesetzt
 
 ![hierarchique](./images/hierarchique.png)
 
-### Délestage cascadocyclique 
+### Kaskadozyklischer Lastabwurf 
 
-Le délestage s’effectue en mode rotatif sur les actionneurs définis pour
-le mode cyclique puis si la puissance est toujours supérieure au seuil,
-en mode hiérarchisé sur les autres.
+Der Lastabwurf wird im Rotationsmodus an den für den zyklischen Modus definierten Aktuatoren durchgeführt, und wenn die Leistung immer noch größer als der Schwellenwert ist, im hierarchischen Modus bei den anderen.
 
 ![cascadocyclique](./images/cascadocyclique.png)
 
-Konfiguration
-=============
+# Konfiguration 
 
-Allgemeine Konfiguration
-----------------------
+## Allgemeine Konfiguration 
 
-Voici les paramètres à configurer sur le plugin :
+Hier sind die Parameter, die im Plugin konfiguriert werden müssen :
 
--   Type de délestage : intelligent, hiérarchique ou cascadocyclique
-
--   Type de compteur : Puissance instantanée ou Ampérage instantané
-
--   Compteur : sélectionner ici la commande qui renvoie soit la
-    puissance soit l’ampérage (dans ce cas il sera nécessaire de
-    configurer la tension du réseau)
-
--   Seuil en Watts : Seuil à partir duquel le déléstage se déclenchera
+-   Lastabwurfart : intelligent, hierarchisch oder kaskadozyklisch
+-   Zählertyp : Momentane Leistung oder momentane Stromstärke
+-   Zähler : Wählen Sie hier den Befehl aus, der entweder die Leistung oder die Stromstärke zurückgibt (in diesem Fall muss die Netzwerkspannung konfiguriert werden)
+-   Schwelle in Watt : Schwellenwert, ab dem das Löschen ausgelöst wird
 
 ![configuration générale](./images/configuration_generale.png)
 
-### Actions supplémentaires 
+### Zusätzliche Aktionen 
 
-Il est possible de définir des actions complémentaires en plus des
-actions de délestage.
+Es ist möglich, zusätzlich zu Lastabwurfaktionen zusätzliche Aktionen zu definieren.
 
-Il est, par exemple, possible d’envoyer un sms pour prévenir du début et
-de la fin du délestage.
+Es ist beispielsweise möglich, eine SMS zu senden, um vor dem Beginn und dem Ende des Lastabwurfs zu warnen.
 
 ![Actions complémentaires](./images/actions_complementaires.png)
 
-### Configuration avancée 
+### Erweiterte Konfiguration 
 
-Les paramètres suivants peuvent être réglés:
+Die folgenden Parameter können eingestellt werden:
 
--   Tension du réseau en Volts (220V par défaut)
+-   Netzwerkspannung in Volt (standardmäßig 220 V)
+-   Verzögerung vor Reaktivierung in Minuten (standardmäßig 5 Minuten) : Verzögerung, vor der das Gerät nicht reaktiviert wird (um ein zu wiederholtes Ein- und Ausschalten zu vermeiden)
+-   Mindestzeit zwischen den Ablesungen in s (standardmäßig 10 s) : Zeitaufwand zwischen 2 Aussagen
 
--   Délai avant réactivation en mins (5 mns par défaut) : délai avant
-    lequel les équipements ne se réactiveront pas (afin d’éviter les
-    on/off trop répétitifs)
+![Konfiguration avancée](./images/configuration_avancee.png)
 
--   Délai minimum entre les relevés en s (10s par défaut) : délai
-    nécessaire entre 2 relevés
+# Faq 
 
-![Configuration avancée](./images/configuration_avancee.png)
+Derzeit wird nur das offizielle Thermostat-Plugin durch intelligenten Lastabwurf verwaltet. Es ist jedoch möglich, die anderen 2 Lastabwurfmodi mit den anderen Thermostaten zu verwenden.
 
-FAQ
-===
+# Fehlerbehebung 
 
-Pour l’instant seul le plugin thermostat officiel est géré par le
-délestage intelligent. Il est cependant possible d’utiliser les 2 autres
-modes de délestage avec les autres thermostats.
-
-Problembehebung
-==============
-
-Attention à bien activer le mode "Auto" sur le widget afin d’activer le
-délestage.
+Achten Sie darauf, den "Auto" -Modus im Widget zu aktivieren, um den Lastabwurf zu aktivieren.

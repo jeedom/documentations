@@ -1,11 +1,11 @@
 {
-	"id" : "fitbit",
-	"name" : "Fitbit",
-	"description" : "Plugin pour Fitbit",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "3.3",
-        "category" : "health",
-        "changelog" : "https://jeedom.github.io/plugin-fitbit/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-fitbit/#language#/"
+    "id": "fitbit",
+    "name": "Fitbit",
+    "description": "Plugin pour Fitbit",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.3",
+    "category": "health",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/health\/fitbit\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/health\/fitbit\/"
 }

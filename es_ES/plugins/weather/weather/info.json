@@ -1,13 +1,27 @@
 {
-	"id" : "weather",
-	"name" : "Weather",
-	"description" : "Ce plugin vous permet de récolter par le biais de Yahoo ! Météo. toutes les informations météos utiles pour votre système domotique. On trouve des informations tel que, les conditions, températures,  actuelles et des jours à venir. Vous aurez aussi le taux d'humidité, la force du vent et sa direction, l'heure du lever et du coucher de soleil et plein d'autres. Vous vouliez acheter une station météo, ce plugin vous fera peut être changer d'avis.",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.0",
-        "category" : "weather",
-        "changelog" : "https://jeedom.github.io/plugin-weather/#language#/changelog",
-     "documentation" : "https://jeedom.github.io/plugin-weather/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+    "id": "weather",
+    "name": "Weather",
+    "description": "Ce plugin vous permet de récuperer les informations météo.On trouve des informations tel que, les conditions, températures,  actuelles et des jours à venir. Vous aurez aussi le taux d'humidité, la force du vent et sa direction, l'heure du lever et du coucher de soleil et plein d'autres. Vous vouliez acheter une station météo, ce plugin vous fera peut être changer d'avis.",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.0",
+    "category": "weather",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/weather\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/weather\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy"
+    ]
 }

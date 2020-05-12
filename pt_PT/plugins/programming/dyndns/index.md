@@ -1,83 +1,54 @@
-Ce plugin permet de mettre à jour un service de DNS dynamique
-(dyndns,noip,duckdns,…​)
+# Plug-in DynDNS
 
-Configuration du plugin 
-=======================
+Este plugin permite atualizar um serviço DNS dinâmico (dyndns, noip, duckdns,…)
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+# Configuração do plugin 
+
+Depois de baixar o plugin, você só precisa ativá-lo, não há configuração neste nível.
 
 ![dyndns](../images/dyndns.PNG)
 
-Configuration des équipements 
-=============================
+# Configuração do equipamento 
 
-La configuration des équipements Dyndns est accessible à partir du menu
-plugin :
+A configuração do equipamento Dyndns pode ser acessada no menu do plugin :
 
 ![dyndns2](../images/dyndns2.PNG)
 
-Voilà à quoi ressemble la page du plugin Dyndns (ici avec déjà 1
-équipement) :
+É assim que a página do plugin Dyndns se parece (aqui com 1 dispositivo já) :
 
 ![dyndns3](../images/dyndns3.PNG)
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
-
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Depois de clicar em um deles, você obtém :
 
 ![dyndns4](../images/dyndns4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nom de l’équipement Ambilight** : nom de votre équipement
-    Ambilight,
+-   **Nome de l'équipement DynDNS** : nome do seu equipamento DynDns,
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
+-   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias),
+-   **Ativar** : torna seu equipamento ativo,
+-   **Visivél** : torna seu equipamento visível no painel,
+-   **Serviço** : O nome do serviço usado (dyndns.org, noip.com)
+-   **Nome do host** : nome DNS completo a ser atualizado (por exemplo, toto.ddns.net)
+-   **Nome d'utilisateur** : nome de usuário no serviço em questão
+-   **Senha** : senha no serviço em questão
+-   **Token** : token usado para duckdns
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+Abaixo você encontra a lista de pedidos :
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories),
+-   **Nome** : o nome exibido no painel,
+-   **Display** : permite exibir os dados no painel,
+-   **Teste** : permite testar o comando
 
--   **Activer** : permet de rendre votre équipement actif,
-
--   **Visible** : rend votre équipement visible sur le dashboard,
-
--   **Service** : Le nom du service utilisé (dyndns.org, noip.com)
-
--   **Hostname** : nom complet du DNS à mettre à jour (ex toto.ddns.net)
-
--   **Nom d’utilisateur** : nom d’utilisateur sur le service en question
-
--   **Mot de passer** : mot de passe sur le service en question
-
--   **Token** : token utilisé pour duckdns
-
-En-dessous vous retrouvez la liste des commandes :
-
--   **Nom** : le nom affiché sur le dashboard,
-
--   **Afficher** : permet d’afficher la donnée sur le dashboard,
-
--   **Tester** : permet de tester la commande
-
-> **Note**
+> **NOTA**
 >
-> Jeedom va vérifier toute les 15 minutes l’ip externe, si celle-ci a
-> changé alors le DNS sera mise à jour
+> O Jeedom irá verificar o ip externo a cada 15 minutos; se ele for alterado, o DNS será atualizado
 
-> **Important**
+> **IMPORTANTE**
 >
-> Le plugin fournit une commande pour forcer la mise à jour. Attention à
-> ne pas en abuser car vous pouvez être banni temporairement du service
-> de DNS
+> O plug-in fornece um comando para forçar a atualização. Cuidado para não abusar, pois você pode ser temporariamente banido do serviço DNS
 
-> **Note**
+> **NOTA**
 >
-> Si vous utilisez OVH, attention le nom d’utilisateur est de la forme
-> mondomaine.com-identificant alors que le domaine est bien sous la
-> forme mon-dynHost.mmondomaine.com
+> Se você usa OVH, tenha cuidado para que o nome de usuário esteja na forma mundial.identificador com enquanto o domínio está no formato my-dynHost.mmondomaine.com

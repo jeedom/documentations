@@ -1,19 +1,19 @@
-# Description
+# Plugin de sonido
 
-Ce plugin permet d'intercepter certaine demandes de TTS (passant par le TTS jeedom et uniquement celui-ci) et de le remplacer par le son de votre choix.
+Este complemento permite interceptar ciertas solicitudes de TTS (pasando por el Tedom Jeedom y solo este) y reemplazarlo con el sonido de su elección.
 
-# Configuración
+# Configuration
 
-Ce plugin ne necessite aucune configuration particuliere
+Este complemento no requiere ninguna configuración particular.
 
-# Ajout de son
+# Añadiendo sonido
 
-Il vous suffit dans Plugins -> Multimedia -> Sons de cliquer sur ajouter puis :
+Solo en Complementos -> Multimedia -> Sonidos, haga clic en Agregar y luego :
 
-- Nom du son : nom du son pour le retrouver facilement
-- ID : identifiant du son, il est conseillé de ne mettre ici que des lettres ou des chiffre. C'est cet identifiant qu'il faudra utiliser dans la demande TTS
-- Sons : votre son à jouer (le fichier doit etre en mp3, 50mo max)
+- Nombre del sonido : nombre de sonido para una fácil recuperación
+- Identificación : identificador de sonido, es recomendable poner solo letras o números aquí. Este identificador debe usarse en la solicitud TTS
+- Suena : su sonido para reproducir (el archivo debe estar en mp3, 50mo max)
 
 # Utilisation
 
-Une fois votre son ajouter pour l'utiliser il faut dans le message TTS mettre #id# (id étant l'identifiant du son créer plus haut)
+Una vez que se agrega su sonido para usarlo, debe poner el mensaje TTS #id# (id es el identificador del sonido creado anteriormente)

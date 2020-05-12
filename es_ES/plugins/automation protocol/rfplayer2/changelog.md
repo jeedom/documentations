@@ -1,50 +1,60 @@
-23-05-2019
+# Registro de cambios RfPlayer2
 
-Préparation page équipement pour jeedom futur
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-07/12/2018
+# 08-09-2019
 
-Bug fix ecran santé
+Soporte para php 7.3
 
-03/12/2018
+# 2019-05-23
 
-Bug fix sur les capteurs de températures edisio / dio2
+Preparación de la página del equipo para la futura libertad
 
-08/11/2018
+# 12/07/2018
 
-Rajout d'un bouton association plus visible pour edisioframe
+Corrección de errores de pantalla de salud
 
-02/11/2018
+# 12/03/2018
 
-Correction interprétation jamming dans le cas d'un nouvel équipement
+Corrección de errores en sensores de temperatura edisio / dio2
 
-29/10/2018
+# 8/11/2018
 
-Ajout actionneur Edisio
-Ajout Edisio Frame
+Adición de un botón de asociación más visible para edisioframe
 
-18/10/2018
-Changement calcul batterie sur Edisio
-Changement gestion des ids
-Gestion des caractères spéciaux pour l'envoie du nom parrot, le rfp1000 naime pasle non ascii
+# 11/02/2018
 
-10/10/2018
+Corrección de la interpretación de interferencias en el caso de nuevos equipos
 
-Correction du mode parrot
-Et début d'implémentation du protocole EDISIO (mise à jour poussé surtout pour le mode parrot)
+# 29/10/2018
 
-14/06/2018
+Adición del actuador Edisio
+Añadir marco Edisio
 
-Correction des anémométres oregon qui ne remontait pas la direction
+# 18/10/2018
+Cambiar el cálculo de la batería en Edisio
+Cambiar la gestión de identificadores
+Gestión de caracteres especiales para enviar el nombre de loro, el rfp1000 no le gusta non ascii
 
-07/06/2018
+# 10/10/2018
 
-Rajout de la fonction jamming
-Rajout d'un bouton d'association pour en plus avoir a cliquer sur tester
-Correction d'un bug de détection du dongle
-Amélioration de la réactivité
-Rajout du firmware 1.26
+Corrección del modo loro
+E inicio de la implementación del protocolo EDISIO (actualización promovida especialmente para el modo loro)
 
-20/04/2018
+# 14/06/2018
+
+Corrección de anemómetros oregon que no retrocedieron en la dirección
+
+# 06/07/2018
+
+Adición de la función de interferencia
+Adición de un botón de asociación para hacer clic adicionalmente en la prueba
+Corrección de un error de detección de dongle
+Capacidad de respuesta mejorada
+Adición de firmware 1.26
+
+# 04/20/2018
 
 Initialisation

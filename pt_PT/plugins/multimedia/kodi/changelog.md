@@ -1,43 +1,42 @@
-27-09-2019
+# Changelog Kodi
 
-Changement de l'addon Kodi pour les cas de playerid non remonté par kodi 
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-23-07-2019
+# 27/09/2019
 
-Mise en stable
+- Mudança do addon Kodi para casos de playerid não remontados pelo kodi 
 
-24-06-2019
+# 2019-07-23
 
-Page équipement V4
-Gestion partielle Kodi18 (en cours de changement pour la partie addons côté Kodi)
+- Estável
 
+# 2019-06-24
 
-Version 2 - 2015-04-06 21:57:23
-===
+- Página de equipamento V4
+- Gerenciamento parcial do Kodi18 (no processo de alteração da parte de complementos do lado do Kodi)
 
-        Rajout des covers Réécriture de la partie event Text scrolling pour le titre Favicon de type Refonte de la page de config Suppression de la notion de playerID Refont du widget mobile Amélioration de code Corrections de bugs Maj de l'addon Kodi (envoie json, plus d'ids)
+# Versão 2 - 06-04-2015 21:57:23
 
-Version 2.1 - 2015-04-06 22:25:15
-===
+- Adição de capas Reescrita do evento Rolagem de texto para o título Favicon do tipo Redesign da página de configuração Exclusão da noção de playerID Redesign do widget móvel Melhoria do código Correções de erros Mudança do complemento Kodi (envie json, mais d 'ids)
 
-        Corrections bugs mineurs
+# Versão 2.1 - 2015-04-06 22:25:15
 
-Version 2.3 - 2015-04-07 00:58:11
-===
+- Pequenas correções de bugs
 
-        suppression des / devant plugins
+# Versão 2.3 - 2015-04-07 00:58:11
 
-Version 2.3.1 - 2015-04-07 01:23:17
-===
+- remoção de / antes de plugins
 
-        Rajout de debug pour le volume
+# Versão 2.3.1 - 2015-04-07 01:23:17
 
-Version 2.3.2 - 2015-04-07 12:28:54
-===
+- Adição de depuração para volume
 
-        Page de conf plus clair pour les commandes
+# Versão 2.3.2 - 2015-04-07 12:28:54
 
-Version 2.3.3 - 2015-04-07 12:46:34
-===
+- Página conf mais clara para pedidos
 
-        Filtre des commandes uniquement personnalisées
+# Versão 2.3.3 - 07-04-2015 12:46:34
+
+- Filtrar apenas pedidos personalizados

@@ -1,13 +1,27 @@
 {
-	"id" : "ifttt",
-	"name" : "IFTTT",
-	"description" : "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher un événement de toutes sortes",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "3.0",
-    "category" : "communication",
-    "changelog" : "https://jeedom.github.io/plugin-ifttt/#language#/changelog",
-    "documentation" : "https://jeedom.github.io/plugin-ifttt/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["Jeedomboard","Smart","RPI/RPI2","Docker","DIY"]    
+    "id": "ifttt",
+    "name": "IFTTT",
+    "description": "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher un événement de toutes sortes",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "category": "communication",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/ifttt\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/ifttt\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "Jeedomboard",
+        "Smart",
+        "RPI\/RPI2",
+        "Docker",
+        "DIY"
+    ]
 }

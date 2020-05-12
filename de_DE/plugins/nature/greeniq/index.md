@@ -1,58 +1,33 @@
-GreenIQ 
-=======
+# GreenIQ Plugin 
 
-Description 
------------
+Plugin zur Steuerung der automatischen Bewässerung über die GreenIQ-Box. Es ist möglich, die Betriebsart für die 6 Magnetausgänge zu definieren : 
 
-Plugin permettant de controller l’arrosage automatique à l’aide du
-boitier GreenIQ. Il est possible de définir pour les 6 sorties
-electrovannes le type de fonctionnement : - Auto : l’arrosage de la zone
-se déclenche en fonction de la programmation du GreenIQ - Off :
-l’arrosage est désactivé - On : l’arrosage est déclenché (durée 3h)
+- Auto : Die Bewässerung der Zone wird gemäß der GreenIQ-Programmierung ausgelöst 
+- Aus : Bewässerung ist deaktiviert 
+- Ein : Bewässerung wird ausgelöst (Dauer 3h)
 
 ![greeniq screenshot1](./images/greeniq_screenshot1.png)
 
-Configuration 
--------------
+# Konfiguration 
 
-Afin de pouvoir utiliser votre GreenIQ avec Jeedom, vous devez
-obligatoirement demander un Client ID et un Client Secret. La demande se
-fait par email à <developers@greeniq.co> , la réponse se fait très
-rapidement, sous 24h normalement.
+Um Ihren GreenIQ mit Jeedom verwenden zu können, müssen Sie eine Kunden-ID und einen geheimen Kunden anfordern. Die Anfrage wird per E-Mail an gestellt <developers@greeniq.Die Antwort erfolgt sehr schnell, normalerweise innerhalb von 24 Stunden.
 
-Vous devez également vous munir du login/mot de passe fourni sur la
-petite carte qui est livrée avec le GreenIQ.
+Sie müssen auch das Login / Passwort auf der kleinen Karte haben, die mit dem GreenIQ geliefert wird.
 
-Une fois les codes obtenus, vous devez les entrer dans le plugin comme
-ceci : ![greeniq1](./images/greeniq1.png)
+Sobald die Codes erhalten wurden, müssen Sie sie wie folgt in das Plugin eingeben : ![greeniq1](./images/greeniq1.png)
 
-Utilisation 
------------
+# Verwendung 
 
-De nombreuses informations sont disponibles dans le widget : 1. Etat de
-la vanne 2. Etat de la configuration 3. % de progression 4. Heure de fin
-de l’arrosage
+Das Widget enthält viele Informationen : 1. Status von Ventil 2. Konfigurationsstatus 3. % Fortschritt 4. Bewässerungsendzeit
 
 ![greeniq2](./images/greeniq2.png)
 
-La configuration de chaque vanne est également possible et 3 actions
-sont disponibles :
+Die Konfiguration jedes Ventils ist ebenfalls möglich und es stehen 3 Aktionen zur Verfügung :
 
-1.  Auto : l’arrosage de la zone se déclenche en fonction de la
-    programmation du GreenIQ
+1. Auto : Die Bewässerung der Zone wird gemäß der GreenIQ-Programmierung ausgelöst
+2. Aus : Bewässerung ist deaktiviert
+3. Wir : Bewässerung wird ausgelöst (Dauer 3h)
 
-2.  Off : l’arrosage est désactivé
+# Faq 
 
-3.  On : l’arrosage est déclenché (durée 3h)
-
-FAQ 
----
-
-Le systeme recupère les informations toutes les 5 minutes.
-
-Changelog 
----------
-
--   V0.1 : Première release
-
-
+Das System ruft alle 5 Minuten Informationen ab.

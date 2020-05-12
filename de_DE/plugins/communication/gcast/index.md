@@ -1,92 +1,58 @@
-Gcast
-=====
+# Gcast Plugin
 
-Description
------------
+Mit dem Gcast-Plugin können Sie eine Verbindung zwischen Ihrem Google-Assistenten und Jeedom herstellen. Sie können Ihr Google Home / Google Mini verwenden, um TTS durchzuführen oder über Interaktionen mit Jeedom zu interagieren
 
-Le plugin Gcast permet d’établir un lien entre votre Google Assistant et
-Jeedom. Il sera possible d’utiliser votre Google Home / Google Mini pour
-faire du TTS ou interagir avec Jeedom via les interactions
+# Configuration
 
-Configuration
--------------
+## Plugin Konfiguration
 
-Configuration du plugin
-=======================
+Nach dem Herunterladen des Plugins müssen Sie es aktivieren und die IP Ihres Google-Assistenten eingeben. Dieses Plugin ermöglicht es, eine Google-Besetzung zu sprechen und ihre Lautstärke zu steuern. Es fungiert auch als Brücke für Interaktionen und Google Home.
 
-Après téléchargement du plugin il vous faut l’activer et renseigner l’IP
-de votre Google Assistant. Ce plugin permet de faire parler un google
-cast et de contrôler son volume. Il permet aussi d’agir comme un pont
-pour les interactions et Google Home.
+## IFTTT für TTS-Rückgabe konfigurieren (optional)
 
-Configuration de IFTTT pour le retour TTS
-=========================================
+Ohne IFTTT kann Ihr Google-Assistent nicht mit Jeedom austauschen.
 
-Sans IFTTT, votre Google Assistant ne pourras pas echanger avec Jeedom.
+**Hier sind die wenigen Konfigurationsschritte :**
 
-**Voici les quelques étapes de configuration :**
+-   Se connecter ou s'inscrire sur IFTTT : <https://ifttt.com> (oder über die mobile App)
+-   Registerkarte "Meine Applets" und dann "Neues Applet""
+-   Klicken Sie auf "+ This" und wählen Sie "Google Assistant" (verknüpfen Sie Ihren Google Assistant mit IFTTT, falls dies noch nicht geschehen ist)
+-   Wählen Sie den Auslöser "Sagen Sie eine Phrase mit einer Textzutat"
 
--   Se connecter ou s’inscrire sur IFTTT : <https://ifttt.com> (ou via
-    l’application mobile)
+**Beispiel für die Konfiguration des ersten Teils des Applets :**
 
--   Onglet "My Applets" puis "New Applet"
-
--   Clic sur "+This", choisir Google Assistant (lier votre Google
-    Assistant à IFTTT si ce n’est pas déjà fait)
-
--   Choisir le trigger "Say a phrase with a text ingredient"
-
-**Exemple de configuration de la première partie de l’Applet :**
-
--   **What do you want to say?** : dis à jeedom \$
-
-    > **Tip**
+-   **Was willst du sagen?** : dis à jeedom \$
+    > **Spitze**
     >
-    > Il faut absolument mettre '\$' à la fin de votre phrase
+    > Sie müssen unbedingt '\ $' am Ende Ihres Satzes setzen
 
--   **What’s another way to say it? (optional)** : maison \$
-
--   **And another way? (optional)** : jarvis \$
-
--   **What do you want the Assistant to say in response?** : Je
-    m’exécute
-
-    > **Tip**
+-   **Was ist eine andere Art, es zu sagen? (optional)** : maison \$
+-   **Und noch anders? (optional)** : jarvis \$
+-   **Was soll der Assistent als Antwort sagen??** : Das tue ich
+    > **Spitze**
     >
-    > Ici il s’agit de la phrase que votre Google Assistant va repondre
-    > avant qu’il traite votre demande
+    > Hier ist es der Satz, den Ihr Google-Assistent beantwortet
+    > bevor es Ihre Anfrage bearbeitet
 
--   **Language** : French
+-   **Sprache** : French
+-   Klicken Sie auf "+ That" und wählen Sie "Webhooks" (aktivieren Sie den Dienst, falls dies noch nicht geschehen ist)
+-   Wählen Sie den einzigen verfügbaren Auslöser : Stellen Sie eine Webanfrage
 
--   Clic sur "+That", choisir Webhooks (activer le service si ce n’est
-    pas déjà fait)
+**Beispiel für die Konfiguration des zweiten Teils des Applets :**
 
--   Choisir le seul trigger de disponible : Make a web request
-
-**Exemple de configuration de la deuxième partie de l’Applet :**
-
--   **URL** : Vous devez coller l’url de retour indiquée dans la page de
-    votre équipement
-
-    > **Tip**
+-   **URLs** : Sie müssen die auf Ihrer Ausrüstungsseite angegebene Rückgabe-URL einfügen
+    > **Spitze**
     >
-    > L’url de retour doit être modifiée : ***ID\_EQUIPEMENT*** doit
-    > être remplacer par l’ID de votre Google Assistant (Cliquer sur
-    > "Configuration avancé" sur la page de votre équipement pour
-    > connaitre l’ID) et *query=XXXX* par query={{TextField}}
+    > Die Rückgabe-URL muss geändert werden : ***ID\_ AUSRÜSTUNG*** muss durch die ID Ihres Google-Assistenten ersetzt werden (Klicken Sie auf der Seite Ihres Geräts auf "Erweiterte Konfiguration", um die ID zu erfahren) und *Abfrage=XXXX* per query = {{TextField}}
 
-    > **Important**
+    > **Wichtig**
     >
-    > L’url doit être l’URL externe
-    > [https://mon\_dns.com/plugins/gcast/core/php/gcastApi.php?apikey=xxxxxxMA\_CLE\_APIxxxxxxxx&id=142&query={{TextField}}](https://mon_dns.com/plugins/gcast/core/php/gcastApi.php?apikey=xxxxxxMA_CLE_APIxxxxxxxx&id=142&query={{TextField}})
+    > URL muss externe URL sein ``https://mon\_dns.com/plugins/gcast/core/php/gcastApi.php?apikey=xxxxxxMA\_CLE\_APIxxxxxxxx&id=142&query={{TextField}}``
 
--   **Method** : GET
+-   **Methode** : GET
+-   **Inhaltstyp** : Anwendung / json
+-   **Körper** : {{TextField}}
 
--   **Content type** : application/json
+Alles was Sie tun müssen, ist auf "Speichern" zu klicken und Ihre Interaktionen zwischen Google Assistant und Jeedom zu nutzen !
 
--   **Body** : {{TextField}}
-
-Il ne reste plus qu’a cliquer sur "Save" et profiter de vos intéractions
-entre Google Assistant et Jeedom !
-
-L’utilisation de ASK est même possible
+Die Verwendung von ASK ist sogar möglich

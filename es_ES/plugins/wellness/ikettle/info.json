@@ -1,13 +1,13 @@
 {
-	"id" : "ikettle",
-	"name" : "Ikettle",
-	"description" : "Plugin pour gérer les bouilloires smarter Ikettle et Ikettle 2",
-	"licence" : "AGPL",
-	"author" : "Ludovic SARAKHA",
-	"require" : "3.0",
-	"category" : "wellness",
-	"hasDependency" : true,
-	"hasOwnDeamon" : true,
-	"changelog" : "https://jeedom.github.io/plugin-ikettle/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-ikettle/#language#/"
+    "id": "ikettle",
+    "name": "Ikettle",
+    "description": "Plugin pour gérer les bouilloires smarter Ikettle et Ikettle 2",
+    "licence": "AGPL",
+    "author": "Ludovic SARAKHA",
+    "require": "3.0",
+    "category": "wellness",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/ikettle\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/ikettle\/"
 }

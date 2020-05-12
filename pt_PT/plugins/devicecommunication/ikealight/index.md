@@ -1,33 +1,22 @@
-# Description
+# IkeaLight plugin
 
-Le plugin IkeaLight permet d’établir un lien avec la passerelle Ikea
-Tradfri. Vous pourrez controller vos lumières et avoir un retour d’état
-temps réel.
+O plug-in IkeaLight possibilita estabelecer um link com o gateway Ikea Tradfri. Você pode controlar suas luzes e obter feedback de status em tempo real.
 
 # Configuration
 
-## Configuration du plugin
+## Configuração do plugin
 
-Après téléchargement du plugin il vous faut l’activer et renseigner l’IP
-de votre passerelle ainsi que la clé disponible sur l’étiquette de la
-passerelle (le "Security code").
+Após o download do plug-in, é necessário ativá-lo e inserir o IP do seu gateway, bem como a chave disponível no rótulo do gateway (o "Código de segurança").
 
-## Détection des ampoules
+## Detecção de lâmpada
 
-Pour scanner les équipements Ikea, il suffit de lancer (une fois les dépendances
-elancé) le démon. Les ampoules remontés par la
-passerelle et qui sont reconnus par Jeedom seront automatiquement créé.
-Si une ampoule ne remonte pas merci de mettre le plugin de Debug de
-relancer la découverte et de nous fournir la log afin que l’on puisse
-rajouter les ampoules manquantes. (Pensez à bien préciser votre ampoule
-ainsi que ses caractéristiques dans le ticket : est elle dimmable, est
-elle variable en blanc, est elle variable en couleur). Le plugin vous remontera également les prises les stores
+Para verificar o equipamento Ikea, basta iniciar (uma vez iniciadas as dependências) o daemon. As lâmpadas remontadas pelo gateway e que são reconhecidas pela Jeedom serão criadas automaticamente. Se uma lâmpada não acender, coloque o plug-in Debug para reiniciar a descoberta e nos forneça o log para que possamos adicionar as lâmpadas ausentes. (Lembre-se de especificar sua lâmpada e suas características no ticket : é regulável, é variável em branco, é variável em cor). O plug-in também trará os soquetes das cortinas
 
-**Une fois decouverte chaque ampoule aura :**
+**Uma vez descobertos, cada lâmpada terá :**
 
--   Les actions correspondantes
--   Les infos correspondantes
+-   As ações correspondentes
+-   A informação correspondente
 
 >**Symfonisk**
 >
->Les enceintes connectée Symfonisk ne sont pas gerées par ce plugin mais par le plugin Sonos
+>Os alto-falantes conectados Symfonisk não são gerenciados por este plug-in, mas pelo plug-in Sonos

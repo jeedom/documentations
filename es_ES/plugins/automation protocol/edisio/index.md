@@ -1,212 +1,107 @@
-Plugin permettant d’utiliser le protocole Edisio avec Jeedom
+# Edisio
 
-Configuration 
-=============
+Plugin para usar el protocolo Edisio con Jeedom
 
-Le plugin edisio permet de dialoguer avec l’ensemble des périphériques
-compatibles avec le module edisio USB.
+# Configuration
 
-Configuration du plugin 
------------------------
+El complemento edisio le permite comunicarse con todos los periféricos compatibles con el módulo edisio USB.
 
-Après téléchargement du plugin, il vous suffit de l’activer et de mettre
-le port sur auto. Après sauvegarde le démon devrait se lancer. Le plugin
-est déjà configuré par défaut ; vous n’avez donc rien à faire de plus.
-Cependant vous pouvez modifier cette configuration. Voici le détail
-(certains paramètres peuvent n’être visibles qu’en mode expert) :
+## Configuración del plugin
+
+Después de descargar el complemento, solo necesita activarlo y configurar el puerto en automático. Después de salvar al demonio debería lanzar. El complemento ya está configurado de manera predeterminada; no tienes que hacer nada más. Sin embargo, puede modificar esta configuración. Aquí está el detalle (algunos parámetros solo pueden ser visibles en modo experto) :
 
 ![edisio1](./images/edisio1.JPG)
 
--   **Dépendances** : cette partie vous donne le statut des dépendances,
-    si elles ne sont pas OK vous pouvez soit les lancer à la main soit
-    attendre 5min, Jeedom les lancera de lui même.
-
--   **Démon** : cette partie vous donne le statut du démon (aussi bien
-    en local qu’en déporté), si il n’est pas OK vous pouvez soit le
-    lancer à la main soit attendre 5min, Jeedom le lancera de lui même.
-
-> **Tip**
->
-> Si vous êtes en mode déporté, le démon local peut être arrêté, c’est
-> tout à fait normal.
-
--   **Configuration** : cette partie permet de configurer les paramètres
-    généraux du plugin.
-
-    -   *Bannir les IDs suivants* : permet de donner une liste
-        d’identifiants edisio à Jeedom pour que celui-ci ne crée pas les
-        équipements correspondants. Les identifiants doivent être
-        séparés par des espaces. Exemple : "1356AD87 DB54AF".
-
--   **Démon local**ou**Démon XXX** : paramètres de configuration
-    locale (ou déportée, en fonction de l’intitulé) du démon.
-
-    -   *Port edisio* : le port USB sur lequel votre interface edisio
-        est connectée.
-
-        > **Tip**
+-   **Dependencias** : Esta parte le proporciona el estado de las dependencias. Si no están bien, puede iniciarlas manualmente o esperar 5 minutos, Jeedom las iniciará por sí mismo.
+-   **Demonio** : Esta parte le da el estado del demonio (tanto local como remoto), si no está bien, puede iniciarlo a mano o esperar 5 minutos, Jeedom lo iniciará solo.
+-   **Configuración** : Esta parte le permite configurar los parámetros generales del complemento.
+    -   *Prohibir las siguientes identificaciones* : permite dar una lista de identificadores de edición a Jeedom para que no cree el equipo correspondiente. Los identificadores deben estar separados por espacios. Ejemplo : "1356AD87 DB54AF".
+-   **Demonio local** : parámetros de configuración locales (o remotos, según el título) del demonio.
+    -   *Puerto EDISIO* : el puerto USB en el que está conectada su interfaz edisio.
+        > **Punta**
         >
-        > Si vous ne savez pas quel port USB est utilisé, vous pouvez
-        > simplement indiquer "Auto".
+        > Si no sabe qué puerto USB se utiliza, simplemente puede indicar "Auto".
+    -   *Puerto de socket interno (modificación peligrosa, debe ser el mismo valor en todos los edisio deportados de Jeedom)* : permite modificar el puerto de comunicación interna del demonio.
 
-    -   *Port socket interne (modification dangereuse, doit être la même
-        valeur sur tous les Jeedom déportés edisio)* : permet de
-        modifier le port de communication interne du démon.
-
-> **Important**
+> **Importante**
 >
-> A ne changer que si vous savez ce que vous faites.
+> Cambie solo si sabe lo que está haciendo.
 
-Pour lancer le démon en debug il suffit au niveau de la configuration
-des logs du plugin de mettre en debug, de sauvegarder et de relancer le
-démon.
+Para iniciar el demonio en depuración es suficiente a nivel de la configuración de los registros del complemento para poner en depuración, guardar y volver a iniciar el demonio.
 
-> **Important**
+> **Importante**
 >
-> Dans ce mode, le démon est très bavard. Une fois le debug terminé, il
-> ne faut pas oublier de cliquer sur "Redémarrer" pour sortir du mode
-> debug !! :
+> En este modo, el demonio es muy hablador. Una vez que finalice la depuración, no olvide hacer clic en "Reiniciar" para salir del modo de depuración !!
 
-Configuration des équipements 
------------------------------
+## Configuración del equipo
 
-La configuration des équipements edisio est accessible à partir du menu
-plugin :
+Se puede acceder a la configuración del equipo edisio desde el menú de complementos :
 
 ![edisio10](./images/edisio10.JPG)
 
-Voilà à quoi ressemble la page du plugin edisio (ici avec déjà 4
-équipements) :
+Así es como se ve la página del complemento edisio (aquí con 4 dispositivos ya) :
 
 ![edisio2](./images/edisio2.JPG)
 
-> **Tip**
+> **Punta**
 >
-> Comme à beaucoup d’endroit sur Jeedom, mettre la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profils le laisser toujours visible)
+> Como en muchos lugares de Jeedom, colocar el mouse en el extremo izquierdo permite que aparezca un menú de acceso rápido (siempre puede dejarlo visible en su perfil)
 
-Vous retrouvez ici :
+Lo encuentras aqui :
 
--   un bouton pour créer un équipement manuellement
+-   un botón para crear equipos manualmente
+-   un botón para cambiar a inclusión
+-   un botón para mostrar la configuración del complemento
+-   un botón que le brinda el estado de salud de todos sus equipos Edisio
+-   finalmente a continuación encontrará la lista de su equipo
 
--   un bouton pour passer en inclusion
-
--   un bouton pour afficher la configuration du plugin
-
--   un bouton qui vous donne l’état de santé de tous vos équipements
-    Edisio
-
--   enfin en dessous vous retrouvez la liste de vos équipements
-
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Una vez que haces clic en uno de ellos, obtienes :
 
 ![edisio3](./images/edisio3.JPG)
 
-Aquí encontrará toda la configuración de su dispositivo:
+Aquí encontrarás toda la configuración de tu equipo :
 
--   Nom de l’équipement edisio : nom de votre équipement edisio
+-   Nombre del dispositivo EDISIO : nombre de su equipo edisio
+-   Identificación : la ID de su sonda (se cambiará solo a sabiendas)
+-   Activar : activa su equipo
+-   Visible : lo hace visible en el tablero
+-   Objeto padre : indica el objeto padre al que pertenece el equipo
+-   Categoría : categorías de equipos (puede pertenecer a varias categorías)
+-   No comprobar la batería : le dice a Jeedom que no le avise si el equipo envía un marco de batería baja (algunos módulos no manejan esta información correctamente y generan alertas falsas)
+-   Tiempo máximo permitido entre 2 mensajes (min) : El tiempo máximo permitido entre 2 mensajes antes de que Jeedom declare el equipo como tiempo de espera". Atención, este parámetro requiere haber configurado la opción "Forzar la repetición de mensajes cada (min)" y debe ser mayor que este valor
+-   Comentario : le permite poner comentarios en el equipo (ej : batería cambiada en XX / XX / XXXX)
+-   Dispositivos : le permite definir el modelo de su equipo (que se configurará solo para la creación manual del equipo, en Jeedom automático configura este campo solo)
+-   Creación : le da la fecha de creación del equipo
+-   Comunicación : le da la fecha de la última comunicación con el equipo (por ejemplo, puede estar vacío en el caso de un enchufe)
+-   Batería : nivel de batería del equipo
+-   Estado : estado del equipo (puede ser tiempo de espera, por ejemplo)
 
--   ID : l’id de votre sonde (à ne modifier qu’en connaissance de cause)
+A continuación encontrará la lista de pedidos :
 
--   Activer : permet de rendre votre équipement actif
+-   el nombre que se muestra en el tablero
+-   tipo y subtipo
+-   la clave de información si es una información, o el código hexadecimal para enviar cuando es una acción. Las configuraciones permiten que estos campos se completen automáticamente (debe crear el equipo, elegir la configuración y luego guardar)
+-   "Valor de retroalimentación de estado "y" Duración antes de la retroalimentación de estado" : permite indicar a Jeedom que después de un cambio en la información, su valor debe volver a Y, X min después del cambio. Ejemplo : en el caso de un detector de presencia que emite solo durante una detección de presencia, es útil establecer, por ejemplo, 0 en valor y 4 en duración, de modo que 4 minutos después de una detección de movimiento (y s ' no ha habido noticias desde entonces) Jeedom restablece el valor de la información a 0 (no se detecta más movimiento)
+-   Guardar historial : permite historizar los datos
+-   Mostrar : permite mostrar los datos en el tablero
+-   Evento : en el caso de edisio, esta casilla siempre debe estar marcada porque no puede consultar un módulo edisio
+-   Unidad : unidad de datos (puede estar vacía)
+-   min / max : límites de datos (pueden estar vacíos)
+-   configuración avanzada (ruedas con muescas pequeñas) : muestra la configuración avanzada del comando (método de registro, widget, etc.)
+-   Probar : Se usa para probar el comando
+-   eliminar (firmar -) : permite eliminar el comando
 
--   Visible : le rend visible sur le dashboard
+## Operación en equipos edisio
 
--   Objet parent : indique l’objet parent auquel appartient l’équipement
+En la parte superior de la página de configuración de su equipo, tiene 3 botones que le permiten realizar ciertas opciones :
 
--   Catégorie : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories)
+-   Duplicar : equipo duplicado
+-   configurar (ruedas con muescas pequeñas) : mismo principio que para los comandos, permite una configuración avanzada del equipo
 
--   Ne pas vérifier la batterie : indique à Jeedom de ne pas vous
-    alerter si l’équipement envoie une trame de batterie faible
-    (certains modules ne gèrent pas correctement cette info et génèrent
-    de fausses alertes)
+## Inclusión de equipos edisio
 
--   Délai maximum autorisé entre 2 messages (min) : le délai maximum
-    autorisé entre 2 messages avant que Jeedom ne déclare l’équipement
-    en "timeout". Attention ce paramètre nécessite d’avoir configuré
-    l’option "Forcer la répétition des messages toutes les (min)" et il
-    doit être supérieur à cette valeur
+Agregar el equipo Edisio es muy simple, solo tiene que pasar al modo de inclusión y esperar a que el equipo envíe un mensaje, cuando ese sea el caso, Jeedom le dirá que ha incluido un nuevo equipo y lo creará. automáticamente.
 
--   Commentaire : vous permet de mettre des commentaires sur
-    l’équipement (ex : pile changée le XX/XX/XXXX)
+# Lista de módulos compatibles
 
--   Equipement : permet de définir le modèle de votre équipement (à ne
-    configurer que pour une création manuelle d’un équipement, en
-    automatique Jeedom configure ce champ tout seul)
-
--   Création : vous donne la date de création de l’équipement
-
--   Communication : vous donne la date de dernière communication avec
-    l’équipement (peut être vide dans le cas d’une prise par exemple)
-
--   Batterie : niveau de batterie de l’équipement
-
--   Statut : statut de l’équipement (peut être timeout par exemple)
-
-A continuación encontrará la lista de ordenes :
-
--   le nom affiché sur le dashboard
-
--   le type et le sous-type
-
--   la clef de l’information si c’est une info, ou alors le code
-    hexadécimal à envoyer lorsque c’est une action. Les configurations
-    permettent de remplir ces champs automatiquement (il faut créer
-    l’équipement, choisir la configuration puis sauvegarder)
-
--   "Valeur de retour d’état" et "Durée avant retour d’état" : permet
-    d’indiquer à Jeedom qu’après un changement sur l’information sa
-    valeur doit revenir à Y, X min après le changement. Exemple : dans
-    le cas d’un détecteur de présence qui n’émet que lors d’une
-    détection de présence, il est utile de mettre par exemple 0 en
-    valeur et 4 en durée, pour que 4 min après une détection de
-    mouvement (et s’il n’y a en pas eu de nouvelles depuis) Jeedom
-    remette la valeur de l’information à 0 (plus de mouvement détecté)
-
--   historiser : permet d’historiser la donnée
-
--   afficher : permet d’afficher la donnée sur le dashboard
-
--   évènement : dans le cas du edisio cette case doit toujours être
-    cochée car on ne peut pas interroger un module edisio
-
--   unité : unité de la donnée (peut être vide)
-
--   min/max : bornes de la donnée (peuvent être vides)
-
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
-
--   Prueba: prueba el comando
-
--   supprimer (signe -) : permet de supprimer la commande
-
-Opération sur les équipements edisio 
-------------------------------------
-
-En haut de votre page de configuration pour l’équipement, vous avez 3
-boutons qui permettent de réaliser certaines options :
-
--   Dupliquer : permet de dupliquer l’équipement
-
--   configurer (petites roues crantées) : même principe que pour les
-    commandes, ça permet une configuration avancée de l’équipement
-
-Inclusion d’un équipement edisio 
---------------------------------
-
-L’ajout d’un équipement Edisio est très simple, il faut juste passer en
-mode inclusion et attendre que l’équipement envoi un message, quand ca
-sera le cas Jeedom vous indiquera qu’il a inclus un nouvel équipement et
-creera celui-ci automatiquement.
-
-Liste des modules compatible 
-============================
-
-Vous trouverez la liste des modules compatibles
-[ici](https://jeedom.fr/doc/documentation/edisio-modules/fr_FR/doc-edisio-modules-equipement.compatible.html)
-
-Unresolved directive in index.asciidoc - include::faq.asciidoc\[\]
+Encontrará la lista de módulos compatibles [aquí](https://doc.jeedom.com/es_ES/edisio/equipement.compatible)

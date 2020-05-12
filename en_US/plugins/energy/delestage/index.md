@@ -1,110 +1,77 @@
-Délestage 
-=========
+# Load shedding plugin 
 
 ![delestage](./images/delestage_screenshot1.png)
 
-Description 
-===========
+# Description 
 
-Plugin permettant de gérer le délestage électrique. Le plugin gère 3
-types de délestage :
+Plugin allowing to manage the electrical load shedding. The plugin manages 3 types of load shedding :
 
--   Délestage "intelligent".
+-   Smart shedding".
+-   Hierarchical load shedding.
+-   Cascade-cyclic load shedding.
 
--   Délestage hiérarchique.
+# Operation 
 
--   Délestage cascado-cyclique.
+## Smart load shedding. 
 
-Fonctionnement 
-==============
+Smart load shedding requires the Thermostat plugin to operate.
 
-Délestage intelligent. 
-----------------------
+The plugin classifies the thermostats according to their actual temperatures according to the set temperatures.
 
-Le délestage intelligent nécessite le plugin Thermostat pour
-fonctionner.
-
-Le plugin classe les thermostats en fonction de leurs températures
-réelles en fonction des températures de consigne.
-
-Ainsi le délestage interviendra en priorité sur les pièces dont l’écart
-est le plus faible. La gène pour les occupants sera ainsi moins
-importante.
+Shedding will therefore take priority over the parts with the smallest deviation. The gene for the occupants will be less important.
 
 ![intelligent](./images/smart.png)
 
-Délestage hiérarchique 
-----------------------
+## Hierarchical load shedding 
 
-Le délestage s’effectue en mode hiérarchisé sur les x actionneurs.
-L’actionneur 1 sera délesté en priorité puis le 2, 3…
+Load shedding is carried out in hierarchical mode on the x actuators.
+The actuator 1 will be relieved in priority then the 2, 3…
 
-Les actionneurs seront réenclenchés dans l’ordre inverse du délestage
+The actuators will be reset in the reverse order of load shedding
 
 ![hierarchique](./images/hierarchique.png)
 
-### Délestage cascadocyclique 
+### Cascadocyclic load shedding 
 
-Le délestage s’effectue en mode rotatif sur les actionneurs définis pour
-le mode cyclique puis si la puissance est toujours supérieure au seuil,
-en mode hiérarchisé sur les autres.
+Load shedding is performed in rotary mode on the actuators defined for the cyclic mode, then if the power is still greater than the threshold, in hierarchical mode on the others.
 
 ![cascadocyclique](./images/cascadocyclique.png)
 
-Configuration
-=============
+# Setup 
 
-Configuration générale 
-----------------------
+## General configuration 
 
-Voici les paramètres à configurer sur le plugin :
+Here are the parameters to configure on the plugin :
 
--   Type de délestage : intelligent, hiérarchique ou cascadocyclique
-
--   Type de compteur : Puissance instantanée ou Ampérage instantané
-
--   Compteur : sélectionner ici la commande qui renvoie soit la
-    puissance soit l’ampérage (dans ce cas il sera nécessaire de
-    configurer la tension du réseau)
-
--   Seuil en Watts : Seuil à partir duquel le déléstage se déclenchera
+-   Type of load shedding : intelligent, hierarchical or cascadocyclic
+-   Type of counter : Instantaneous power or instantaneous amperage
+-   Counter : select here the command which returns either the power or the amperage (in this case it will be necessary to configure the network voltage)
+-   Threshold in Watts : Threshold from which deletion will be triggered
 
 ![configuration générale](./images/configuration_generale.png)
 
-### Actions supplémentaires 
+### Additional actions 
 
-Il est possible de définir des actions complémentaires en plus des
-actions de délestage.
+It is possible to define additional actions in addition to load shedding actions.
 
-Il est, par exemple, possible d’envoyer un sms pour prévenir du début et
-de la fin du délestage.
+It is, for example, possible to send an sms to warn of the beginning and the end of load shedding.
 
 ![Actions complémentaires](./images/actions_complementaires.png)
 
-### Configuration avancée 
+### Advanced configuration 
 
-Les paramètres suivants peuvent être réglés:
+The following parameters can be set:
 
--   Tension du réseau en Volts (220V par défaut)
+-   Network voltage in Volts (220V by default)
+-   Delay before reactivation in mins (5 mins by default) : delay before which the equipment will not reactivate (in order to avoid overly repetitive on / off)
+-   Minimum time between readings in s (10s by default) : time required between 2 statements
 
--   Délai avant réactivation en mins (5 mns par défaut) : délai avant
-    lequel les équipements ne se réactiveront pas (afin d’éviter les
-    on/off trop répétitifs)
+![Setup avancée](./images/configuration_avancee.png)
 
--   Délai minimum entre les relevés en s (10s par défaut) : délai
-    nécessaire entre 2 relevés
+# FAQ 
 
-![Configuration avancée](./images/configuration_avancee.png)
+For now only the official thermostat plugin is managed by intelligent load shedding. It is however possible to use the other 2 load shedding modes with the other thermostats.
 
-FAQ
-===
+# Troubleshoting 
 
-Pour l’instant seul le plugin thermostat officiel est géré par le
-délestage intelligent. Il est cependant possible d’utiliser les 2 autres
-modes de délestage avec les autres thermostats.
-
-Troubleshoting 
-==============
-
-Attention à bien activer le mode "Auto" sur le widget afin d’activer le
-délestage.
+Be careful to activate the "Auto" mode on the widget in order to activate load shedding.

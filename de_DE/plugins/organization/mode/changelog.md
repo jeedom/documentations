@@ -1,23 +1,29 @@
-# 06/12/2019
+# Änderungsprotokollmodus
 
-- Suppression du bouton de duplication de mode (trop de bug)
-- Correction d'un bug sur le calcul des commandes orphelines
-- Ajout d'une commande indiquant le mode précedent
-- Correction d'un bug sur les templates de widgets multistate V4
+# 12/11/2019
 
-# 08/05/2018
+- Behebung eines Fehlers in der Mobile App und im Homebridge-Plugin.
 
-- Option hinzugefügt, um einen Modus zu duplizieren
+# 12/06/2019
 
-# 16/04/2018
+- Schaltfläche zum Duplizieren des Modus entfernen (zu viele Fehler)
+- Korrektur eines Fehlers bei der Berechnung von Orphan Orders
+- Hinzufügen eines Befehls, der den vorherigen Modus angibt
+- Fehler in V4-Widget-Vorlagen mit mehreren Zuständen behoben
+
+# 05/08/2018
+
+- Option zum Duplizieren eines Modus hinzufügen
+
+# 16.04.2008
 
 - Ein Fehler wurde behoben, wenn die Modi ein Sonderzeichen enthielten
 
-# 03/04/2018
+# 2018.03.04
 
 - Fehlerbehebungen
 
-# 12/02/2017
+# 02/12/2017
 
-- Ein Fehler bei der Auswahl der Aktionsbedingungen im Modus wurde behoben
-- Fehler beim Umbenennen von Modi behoben
+- Korrektur eines Fehlers bei der Auswahl der Aktionsbedingung im Modus
+- Fehlerbehebung beim Umbenennen von Modi

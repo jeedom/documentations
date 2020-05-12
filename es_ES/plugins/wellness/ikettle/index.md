@@ -1,48 +1,34 @@
-Ce plugin permet de gérer vos bouilloires Ikettle de Smarter (attention uniquement V1 et V2).
+# Complemento Ikettle
 
-configuración del plugin
-=======================
+Este complemento le permite administrar sus hervidores Smarter Ikettle (solo atención V1 y V2).
 
-Après installation du plugin, il vous suffit de l’activer. Si les dépendances sont OK, renseignez l'ip de votre bouilloire et sauvegarder. Logiquement l'équipement se créera tout seul.
+# Configuración del plugin 
 
-Configuración del dispositivo
-=============================
+Después de instalar el complemento, solo necesita activarlo. Si las dependencias están bien, ingrese la IP de su hervidor y guarde. Lógicamente, el equipo se creará solo.
 
-La configuration des équipements Ikettle est accessible à partir du menu
-plugins puis Confort. Vous retrouvez ici :
+# Configuración del equipo 
 
--   un bouton pour afficher la configuration du plugin
+Se puede acceder a la configuración del equipo Ikettle desde el menú de complementos y luego a Confort. Lo encuentras aqui :
 
--   un bouton qui vous donne une vue d'ensemble de tous vos équipements
+-   un botón para mostrar la configuración del complemento
+-   un botón que le brinda una visión general de todos sus equipos
+-   finalmente a continuación encontrará la lista de su equipo
 
--   enfin en dessous vous retrouvez la liste de vos équipements
+Al hacer clic en uno de sus equipos, llega a la página de configuración de su equipo, que incluye 2 pestañas, equipos y controles.
 
-En cliquant sur un de vos équipements vous arrivez sur la page
-configuration de votre équipement comprenant 2 onglets, équipement et
-commandes.
+-   **Pestaña del equipo** :
+-   **Nombre del equipo** : nombre de su equipo
+-   **Activar** : activa su equipo
+-   **Visible** : lo hace visible en el tablero
+-   **Objeto padre** : indica el objeto padre al que pertenece el equipo
+-   **Pestaña de pedidos** :
+    -  Aquí encontrará todos los comandos (algunos están dedicados solo al escenario)
 
--   **Onglet Equipement** :
+# Reproductor 
 
--   **Nom de l’équipement** : nom de votre équipement
-
--   ** ** Activar: para que su equipo activo
-
--   Visible ** **: hace visible en el tablero de instrumentos
-
--   **Objeto padre** : especifica el objeto padre al que pertenece
-    equipo
-
-
--   **Onglet Commandes** :
-
--  Ici vous retrouverez l'ensemble des commandes (certaines étant dédiées uniquement au scénario)
-
-Widget 
-======
-
-Ce plugin dispose d'un widget sépcifique, cela veut dire qu'il ne peut pas être changé.
+Este complemento tiene un widget específico, lo que significa que no se puede cambiar.
 
 ![ikettle](./images/ikettle_screenshot.jpg)
 
-On y retrouve la température mesurée, le niveau d'eau (arbitraire ne marche pas bien), la présence ou non de la bouillloire sur son socle, les différentes actions ainsi que le statut.
+Encontramos la temperatura medida, el nivel del agua (arbitrario no funciona bien), la presencia o no de la tetera en su base, las diferentes acciones y el estado.
 

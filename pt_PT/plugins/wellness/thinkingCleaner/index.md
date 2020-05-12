@@ -1,46 +1,39 @@
-ThinkingCleaner 
-===============
+# Plugin ThinkingCleaner 
 
-Description 
------------
+Plug-in para controlar os aspiradores Roomba usando o módulo Thinking Cleaner. As funções disponíveis são : 
 
-Plugin permettant de controller les aspirateurs Roomba à l’aide du
-module Thinking Cleaner. Les fonctions disponibles sont : - Clean - Spot
-- Max - Dock - Stop - Find Me
+- Limpo 
+- Spot
+- Máx. 
+- Doca 
+- Pare 
+- Encontre-me
 
-![thinkingCleaner
-screenshot1](../images/thinkingCleaner_screenshot1.png)
+![thinkingCleaner screenshot1](../images/thinkingCleaner_screenshot1.png)
 
-Configuration 
--------------
+# Configuração 
 
-Une fois le plugin installé, il vous suffit de sauvegarder le plugin
-dans Général → Plugins → thinkingCleaner. Les roombas seront
-automatiquement detéctés sur le réseau et ajoutés.
+Depois que o plug-in estiver instalado, basta salvar o plug-in em Geral → Plugins → thinkingCleaner. O Roombas será detectado automaticamente na rede e adicionado.
 
-Vous pouvez ensuite vous rendre de le plugin afin de changer la pièce
-dans laquelle se trouve le roomba.
+Você pode então acessar o plugin para alterar a sala em que o roomba está localizado.
 
-Utilisation 
------------
+# Uso 
 
-6 fonctions sont disponibles dans le widget : - Clean : lance un
-nettoyage - Spot : lance un nettoyage ciblé sur une zone - Max : lance
-un nettoyage jusqu’à épuisement de la batterie - Dock : demande au
-roomba de retourner sur sa base - Stop : arrete le roomba - Find Me :
-demande au roomba de sonner
+6 funções estão disponíveis no widget : 
 
-2 informations sont disponibles : - Le niveau de charge de la batterie -
-Le statut du roomba
+- Limpo : começar a limpeza 
+- Spot : lança limpeza direcionada em uma área 
+- Máx. : começa a limpar até a bateria acabar 
+- Doca : peça ao roomba para retornar à sua base 
+- Pare : pare o roomba 
+- Encontre-me : peça ao roomba para tocar
 
-FAQ 
----
+2 informações estão disponíveis : 
 
-Le systeme recupère les informations toutes les 5 minutes.
+- O nível de carga da bateria 
+- O status do roomba
 
-Changelog 
----------
+# Faq 
 
--   V0.1 : Première release
-
+O sistema recupera informações a cada 5 minutos.
 

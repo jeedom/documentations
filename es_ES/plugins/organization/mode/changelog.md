@@ -1,23 +1,29 @@
+# Modo de registro de cambios
+
+# 12/11/2019
+
+- Corrección de un error en la aplicación móvil y el complemento Homebridge.
+
 # 06/12/2019
 
-- Suppression du bouton de duplication de mode (trop de bug)
-- Correction d'un bug sur le calcul des commandes orphelines
-- Ajout d'une commande indiquant le mode précedent
-- Correction d'un bug sur les templates de widgets multistate V4
+- Botón de eliminación de modo duplicado (demasiados errores)
+- Corrección de un error en el cálculo de órdenes huérfanas
+- Adición de un comando que indica el modo anterior
+- Se corrigió el error en las plantillas de widgets V4 multiestado
 
 # 08/05/2018
 
-- Ajout de l'option pour dupliquer un mode
+- Agregar opción para duplicar un modo
 
 # 16/04/2018
 
-- Correction d'un bug si les modes contenaient un caractere spécial
+- Se corrigió un error si los modos contenían un personaje especial
 
 # 03/04/2018
 
-- Corrección de errores
+- Correcciones de errores
 
-# 12/02/2017
+# 02/12/2017
 
-- Correction d'un bug sur la selection d'action condition sur mode
-- Correction de bug lors du renommage des modes
+- Corrección de un error en la selección de la condición de acción en modo
+- Corrección de errores al renombrar modos

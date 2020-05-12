@@ -1,4 +1,4 @@
-# IPX800v4
+# IPX800v4 plugin
 
 This plugin allows you to manage an IPX 800 v4
 
@@ -14,7 +14,7 @@ After downloading the plugin, you just need to activate it and check the boxes t
 >
 > To lighten the load, it is recommended to uncheck ALL type requests and just check the APIs that concern you (you will find details in the API documentation for IPX800v4)
 
-> **Note**
+> **NOTE**
 >
 > You can see on this page the status of the daemon monitoring the IPX800
 
@@ -27,7 +27,7 @@ Here you find all the configuration of your equipment :
 
 -   **Name of the equipment IPX800** : IPX800 Equipment Name,
 -   **Parent object** : indicates the parent object to which the equipment belongs,
--   **Activer** : makes your equipment active,
+-   **Activate** : makes your equipment active,
 -   **Visible** : makes your equipment visible on the dashboard,
 -   **Category** : equipment categories (it can belong to several categories),
 -   **IP** : IPX800 Ip,
@@ -57,7 +57,7 @@ You have the types of actuators :
 - Pilot wire
 - ...
 
-> **Note**
+> **NOTE**
 >
 > Certain type of actuator can be hidden depending on the type of action
 

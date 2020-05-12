@@ -1,29 +1,19 @@
-Plugin-Konfiguration
-=======================
+# Wiserlink Plugin
 
 Das Plugin hat keine allgemeine Konfiguration.
 
-Création des équipements 
-========================
+# Geräteerstellung 
 
-Chaque équipement correspond à un WiserLink.
+Jedes Gerät entspricht einem WiserLink.
 
-Les infos nécessaires à sa création sont :
+Die für seine Erstellung erforderlichen Informationen sind :
 
--   L’adresse Ip du Wiser
+-   Die klügere IP-Adresse
+-   Benutzername (standardmäßig admin)
+-   Passwort (standardmäßig admin)
 
--   Le nom d’utilisateur (admin par défaut)
+# Bestellungen 
 
--   Le mot de passe (admin par défaut)
+Bestellungen werden automatisch erstellt. Wir finden die Kraft und Energie für jeden Kanal des Weiseren. Wir finden auch die Fernsehnachrichten. Und wir finden auch die zwei möglichen Impulseingänge.
 
-Les commandes 
-=============
-
-Les commandes sont créées automatiquement :
-
-On retrouve la puissance et l’énergie pour chaque canal du Wiser. On
-retrouve aussi la téléinfo. Et on retrouve aussi les deux éventuelles
-entrées impulsionnelles.
-
-Vous pouvez pour chaque commande choisir si oui ou non elles seront
-visibles et attribuer un icône.
+Sie können für jede Bestellung auswählen, ob sie sichtbar sein sollen oder nicht, und ein Symbol zuweisen.

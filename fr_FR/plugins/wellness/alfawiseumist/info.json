@@ -1,11 +1,11 @@
 {
-	"id" : "alfawiseumist",
-	"name" : "Brumisateur Alfawise",
-	"description" : "Plugin pour contrôler les brumisateurs Alfawise",
-	"licence" : "AGPL",
-	"author" : "Ludovic SARAKHA",
-	"require" : "3.0",
-	"category" : "wellness",
-	"changelog" : "https://jeedom.github.io/plugin-alfawiseumist/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-alfawiseumist/#language#/"
+    "id": "alfawiseumist",
+    "name": "Brumisateur Alfawise",
+    "description": "Plugin pour contrôler les brumisateurs Alfawise",
+    "licence": "AGPL",
+    "author": "Ludovic SARAKHA",
+    "require": "3.0",
+    "category": "wellness",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/alfawiseumist\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/alfawiseumist\/"
 }

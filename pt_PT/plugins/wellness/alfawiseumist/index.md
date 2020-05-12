@@ -1,72 +1,45 @@
-Ce plugin permet de contrôler vos brumisateurs Alfawise.
+# Alfawise plugin
 
-Configuration du plugin 
-=======================
+Este plugin permite que você controle seus nebulizadores Alfawise.
 
-Après installation du plugin, il vous suffit de l’activer. Il n'y a aucune configuration particulière à faire
+# Configuração do plugin 
 
-Configuration des équipements 
-=============================
+Depois de instalar o plugin, você só precisa ativá-lo. Não há configuração especial para fazer
 
-La configuration des équipements Alfawise est accessible à partir du menu
-plugins puis Confort. Vous retrouvez ici :
+# Configuração do equipamento 
 
--   un bouton pour créer un équipement manuellement
+A configuração do equipamento Alfawise pode ser acessada no menu de plugins e depois em Comfort. Você encontra aqui :
 
--   un bouton pour afficher la configuration du plugin
+-   um botão para criar equipamento manualmente
+-   um botão para exibir a configuração do plug-in
+-   um botão que fornece uma visão geral de todos os seus equipamentos
+-   finalmente abaixo você encontra a lista do seu equipamento
 
--   un bouton qui vous donne une vue d'ensemble de tous vos équipements
+Ao clicar em um dos seus equipamentos, você chega na página de configuração do seu equipamento, incluindo 2 guias, equipamentos e controles.
 
--   enfin en dessous vous retrouvez la liste de vos équipements
+-   **Guia Equipamento** :
+-   **Nome de equipamentos** : nome do seu equipamento
+-   **Ativar** : torna seu equipamento ativo
+-   **Visivél** : torna visível no painel
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence
+-   **Identificador de névoa** : este é o identificador que você encontra no aplicativo (geralmente é o endereço mac do nebulizador)
+-   **IP do Fogger** : este campo não é obrigatório. Só é útil no caso sem, você tem um problema.
+-   **Guia Pedidos** :
 
-En cliquant sur un de vos équipements vous arrivez sur la page
-configuration de votre équipement comprenant 2 onglets, équipement et
-commandes.
+Existem muitos comandos :
 
--   **Onglet Equipement** :
-
--   **Nom de l’équipement** : nom de votre équipement
-
--   **Activer** : permet de rendre votre équipement actif
-
--   **Visible** : le rend visible sur le dashboard
-
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
-
--   **Identifiant du brumisateur** : c'est l'identifiant que vous retrouvez dans l'application (généralement c'est l'adresse mac du brumisateur)
-
--   **Ip du brumisateur** : ce champ n'est pas obligatoire. Il est uniquement utile dans le cas où sans, vous avez un soucis.
-
-
--   **Onglet Commandes** :
-
--   Il existe de nombreuses commandes.
-
--   **Allumer le brumiasteur**
-
--   **Arrêter le brumisateur **
-
--   **Couleur**
-
--   **Mode flash**
-
--   **Mode gradient**
-
--   **Mode quiet**
-
--   **Vitesse 0**
-
--   **Vitesse 1**
-
--   **Vitesse 2**
-
+-   **Ligue o brumiasteur**
+-   **Pare o nebulizador **
+-   **Cor**
+-   **Modo de flash**
+-   **Modo gradiente**
+-   **Modo silencioso**
+-   **Velocidade 0**
+-   **Velocidade 1**
+-   **Velocidade 2**
 -   **1h**
-
 -   **3h**
-
 -   **6h**
 
-
-Il n'y aura pas de commandes supplémentaires. Le mode intensité lumineuse n'est pas réellement un ajustement d'intensité lumineuse mais en réalité juste un ajustement de couleur. Concernant la détection d'eau si le produit ne le fait pas,
-il n'y aura pas de miracle pour le faire dans Jeedom
+Não haverá pedidos adicionais. O modo intensidade de luz não é realmente um ajuste de intensidade de luz, mas, na realidade, apenas um ajuste de cor. Em relação à detecção de água, se o produto não,
+não haverá milagre para fazer isso em Jeedom

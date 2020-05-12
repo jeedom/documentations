@@ -1,16 +1,32 @@
 {
-	"id" : "htmldisplay",
-	"name" : "HTML Display",
-	"description" : "Plugin HTML",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "4.0",
-	"category" : "programming",
-	"hasDependency" : false,
-	"hasOwnDeamon" : false,
-	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://jeedom.github.io/plugin-htmldisplay/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-htmldisplay/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+    "id": "htmldisplay",
+    "name": "HTML Display",
+    "description": "Plugin permettant de mettre du code html dans un widget équipement (permet par exemple de faire son propre menu pour les designs)",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.0",
+    "category": "programming",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/htmldisplay\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/htmldisplay\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

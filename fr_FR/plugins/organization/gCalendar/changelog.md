@@ -1,3 +1,9 @@
+# Changelog Google agenda
+
+>**IMPORTANT**
+>
+>Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+
 # 28/04/2020
 
 - Correction d'un soucis sur les évenements journée en cours à cheval sur 2 jours

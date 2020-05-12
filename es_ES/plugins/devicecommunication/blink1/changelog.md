@@ -1,3 +1,9 @@
-# 13/08/2019
+# Registro de cambios parpadeante (1)
 
-- Support de PHP 7.3
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+# 08/13/2019
+
+- Soporte para php 7.3

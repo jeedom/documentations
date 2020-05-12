@@ -1,53 +1,38 @@
-Plugin permettant d’utiliser le RFPLAYER 1000. Ce plugin remplacera à terme le premier plugin. Il sera mis à disposition de tous les possesseurs du premier plugin.
-Cela permettra à chacun de migrer tranquillement. Car la philosophie du plugin ayant changé et les ids aussi, il faudra réinclure vos devices sur ce nouveau plugin.
+# Rfplayer 2 plugin
 
-Configuration du plugin RFPlayer 
-================================
+Complemento para usar el RFPLAYER 1000. Este complemento eventualmente reemplazará al primer complemento. Se pondrá a disposición de todos los propietarios del primer complemento.
 
-Après installation du plugin, il vous suffit de l’activer :
+Esto permitirá que todos migren en silencio. Debido a que la filosofía del complemento ha cambiado y los identificadores también, deberá incluir sus dispositivos en este nuevo complemento.
 
+# Configuración del complemento RFPlayer 
 
-**Configuration**
+Después de instalar el complemento, solo necesita activarlo :
 
-Pour configurer le plugin, vous devez simplement mettre en auto, ou
-alors choisir le RFPlayer.
+**Configuración**
 
+Para configurar el complemento, solo tiene que auto o elegir RFPlayer.
 
-Ajouter un Module 
-=================
+# Agregar un módulo 
 
-Le RFPlayer est compatible de nombreux Modules. Le plugin RFPlayer2 change complétement de philosophie.
-Il raisonne de manière générique afin d'assurer la compatibilité équitable avec le RFplayer lui même.
+El RFPlayer es compatible con muchos módulos. El complemento RFPlayer2 cambia completamente su filosofía.
+Razona genéricamente para garantizar una compatibilidad justa con el propio reproductor de RF.
 
-Pour inclure un module, il vous suffit de cliquer sur Inclusion et de suivre le pas à pas. Celui-ci va vous demander de choisir
-le protocole, puis le type (actionneur / éméteur) dans le cas d'un éméteur la configuration créé contiendra l'ensemble des données brutes
-transmises par le rfplayer (certaines seront peut être inutiles pour votre usage, vous pourrez les masquer). L'avantage de cette méthode est d'être alignée
-avec le Rfplayer (certains devices donnant l'info à un endroit, d'autres à un autre) et aussi de permettre pendant l'inclusion de filtrer finement le protocole à inclure.
- Vous n'aurez pas le soucis d'inclure des sondes Oregon alors que vous voulez inclure un capteur X2D.
+Para incluir un módulo, simplemente haga clic en Inclusión y siga paso a paso. Este te pedirá que elijas
+el protocolo, luego el tipo (actuador / transmisor) en el caso de un transmisor, la configuración creada contendrá todos los datos brutos transmitidos por el jugador rf (algunos pueden ser inútiles para su uso, puede ocultarlos). La ventaja de este método es estar alineado con el Rfplayer (algunos dispositivos dan la información en un lugar, otros en otro) y también permiten durante la inclusión filtrar finamente el protocolo que se incluirá.
 
- Pour les actionneurs, c'est le même principe. Vous aurez en plus à choisir le type d'actionneur en fonction du protocole. Une fois fait, l'équipement se créera dans Jeedom. Et il faudra 
- renseigner un ID d'émission cohérent avec le protocole (généralement ce champ se pré remplis intelligemment) et ensuite aller dans le tableau de commande et cliquer sur "Tester" sur la commande association.
- Bien évidemment il faut au préalable que vous ayez mis le module en apprentissage conformément à la documentation du fabricant du module.
+No tendrá que preocuparse por incluir las sondas de Oregon cuando desee incluir un sensor X2D.
+ 
+El mismo principio se aplica a los actuadores. También deberá elegir el tipo de actuador de acuerdo con el protocolo. Una vez hecho esto, el equipo se creará en Jeedom. Y tendrá que ingresar una ID de programa consistente con el protocolo (generalmente este campo se rellena de manera inteligente) y luego ir al panel de control y hacer clic en "Prueba" en el comando de asociación.
+Obviamente, es necesario de antemano que haya puesto el módulo en aprendizaje de acuerdo con la documentación del fabricante del módulo.
+ 
+Algunas peculiaridades :
 
- Quelques particularités :
+**Oregón**
 
--   Oregon \*
+Cambiar las baterías cambia la identificación del producto. Por lo tanto, es necesario, al cambiar las baterías, agregar un nuevo módulo, luego hacer clic en "Recuperar ID" frente a "Cambio de batería". Debe realizar esta acción en el nuevo módulo y elegir el nombre del módulo apropiado (el nombre antiguo del módulo cuyas baterías acaban de ser reemplazadas).
 
-Le changement de piles change l’ID du produit. Il faut donc, lors du
-changement de piles, ajouter un nouveau module, puis cliquer sur
-"Récupérer ID" en face de "Changement de pile". Il faut faire cette
-action sur le nouveau module et choisir le nom du module approprié
-(l’ancien nom du module dont les piles viennent d’être remplacées).
+**Loro**
 
+Para el modo loro se crearán equipos. Este tendrá un botón que permitirá poner al jugador en entrenamiento y creará el comando asociado. Hay un comando de estado que le permite pedirle al Rfplayer que inicie sesión en la depuración del registro, todos los comandos de loro aprendidos.
 
--  Parrot \*
-
-Pour le mode parrot un équipement se créera. Celui-ci aura un bouton permettant de mettre le Rfplayer en apprentissage et créera la commande associée. Il existe une commande status qui permet de demander au Rfplayer de logguer
-en log debug, l'ensemble des commandes parrot apprises.
-
-
-
-Vous serez averti dans les Changelog du plugin lors de sa mise à jour.
-
-Preguntas frecuentes
-===
+Se le notificará en el Registro de cambios del complemento cuando se actualice.

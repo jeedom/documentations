@@ -1,11 +1,11 @@
 {
-	"id" : "roku",
-	"name" : "Roku",
-	"description" : "Plugin pour gérer vos rokus",
-	"licence" : "AGPL",
-	"author" : "Ludovic SARAKHA",
-	"require" : "3.0",
-        "category" : "multimedia",
-        "changelog" : "https://jeedom.github.io/plugin-roku/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-roku/#language#/"
+    "id": "roku",
+    "name": "Roku",
+    "description": "Plugin pour gérer vos rokus",
+    "licence": "AGPL",
+    "author": "Ludovic SARAKHA",
+    "require": "3.0",
+    "category": "multimedia",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/roku\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/roku\/"
 }

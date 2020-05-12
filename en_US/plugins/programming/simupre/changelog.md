@@ -1,37 +1,47 @@
-# 05/11/2019
+# Changelog Simulation presence
 
-- Correction de bugs
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 03/11/2019
+# 11/14/2019
 
-- Correction de warnings
-- Correction d'un bug lors de la duplication
+- Bugfix
 
-# 16/09/2019
+# 11/05/2019
 
-- Correction de bugs
+- Bugfix
 
-# 05/09/2019
+# 11/03/2019
 
-- Correction d'un bug de reprogrammation si la simulation n'a pas d'heure de fin
+- Correction of warnings
+- Correction of a bug during duplication
 
-# 26/08/2019
+# 09/16/2019
 
-- Corrections de bugs
-- Ajout des dates/heures de lancement prévu par simulation
+- Bugfix
 
-# 16/08/2019
+# 09/05/2019
 
-- Possibilité de repeter une simulation
-- Correction de bugs
+- Correction of a reprogramming bug if the simulation has no end time
 
-# 11/08/2019
+# 08/26/2019
 
-- Support d'une heure de fin a la palce d'une durée
-- Possibilité de regorganiser les actions dans une simulation
-- Ajout de commande pour l'heure de levée et couché du soleil
-- Mise à jour de la doc
+- Bug fixes
+- Addition of launch dates / times planned by simulation
 
-# 12/07/2019
+# 08/16/2019
 
-- Correction d'un bug pour les versions de PHP < 7.0
+- Possibility to repeat a simulation
+- Bugfix
+
+# 08/11/2019
+
+- Support for an end hour over a period of time
+- Ability to reorganize actions in a simulation
+- Addition of command for the sunrise and sunset time
+- Updating the doc
+
+# 07/12/2019
+
+- Correction of a bug for versions of PHP <7.0

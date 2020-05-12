@@ -1,61 +1,45 @@
-Plugin permettant d’afficher des notifications / informations sur
-LaMetric.
+# Complemento LaMetric
 
-configuración del plugin
-=======================
+Complemento para mostrar notificaciones / información en LaMetric.
 
-Une fois le plugin installé, il est nécessaire de créer une "indicator
-App" sur le site LaMetric :
+# Configuración del plugin 
 
--   1\. Se rendre à l’adresse : <https://developer.lametric.com>
+Una vez que se instala el complemento, es necesario crear una "aplicación indicadora" en el sitio de LaMetric :
 
--   2\. Créer une "INDICATOR APP" :
+-   1 \. Se rendre à l'adresse : <https://developer.lametric.com>
+-   2 \. Crear una "APLICACIÓN INDICADORA" :
 
 ![lametric1](./images/lametric1.png)
 
--   3\. Configurer une icone, un nom et sélectionner Push dans "Communication
-    type" :
+-   3 \. Configure un icono, un nombre y seleccione Push in "Comunicación típica" :
 
 ![lametric2](./images/lametric2.png)
 
--   4\. Donner un nom et une description à votre app et cocher "Private app"
-    puis cliquer sur "Save" :
+-   4 \. Dé un nombre y una descripción a su aplicación y marque "Aplicación privada" y luego haga clic en "Guardar" :
 
 ![lametric3](./images/lametric3.png)
 
--   5\. Publier l’application puis installer-la sur votre LaMetric grâce à
-    l’application mobile.
+-   5 \. Publique la aplicación y luego instálela en su LaMetric usando la aplicación móvil.
 
-Une fois l’application publiée, vous disposez des informations
-essentielles pour la configuration du plugin.
+Una vez que se publica la aplicación, tiene información esencial para configurar el complemento.
 
 ![lametric4](./images/lametric4.png)
 
-Vous pouvez ensuite créer un nouvel équipement dans Jeedom et renseigner
-les champs demandés :
+A continuación, puede crear nuevos equipos en Jeedom y completar los campos solicitados :
 
 ![lametric5](./images/lametric5.png)
 
-Utilisation du plugin 
-=====================
+# Usando el complemento 
 
-2 commandes sont automatiquement créées lors de l’ajout d’un équipement
-:
+2 pedidos se crean automáticamente al agregar equipo :
 
--   **Message** ⇒ Permet l’envoi de messages
+-   **Mensaje** ⇒ Permite el envío de mensajes. El comando de tipo de mensaje contiene 2 campos : 
+    - **ID de icono** : Correspond au numéro de l'icône souhaitée (Ne pas mettre le \# ; liste des icônes disponibles ici : <https://developer.lametric.com/icons>)
+    - **Texto** : Corresponde al texto que desea mostrar
+-   **Vaciar** ⇒ Le permite restablecer la pantalla a vacía ("JEEDOM" se registra entonces)
 
--   **Vider** ⇒ Permet de remettre à vide l’affichage ("JEEDOM"
-    s’inscrit alors)
+Es posible enviar más mensajes en un solo envío separando los iconos y los textos por el carácter : **|**
 
-La commande de type message contient 2 champs : \* **ID Icone** :
-Correspond au numéro de l’icône souhaitée (Ne pas mettre le \# ; liste
-des icônes disponibles ici : <https://developer.lametric.com/icons>) \*
-**Texte** : Correspond au texte que l’on souhaite afficher
-
-Il est possible d’envoyer plus de messages en un seul envoi en séparant
-les icônes et les textes par le caractère : **|**
-
-Voici par exemple un scénario envoyant 4 informations différentes en 1
-seul envoi :
+Aquí hay, por ejemplo, un escenario que envía 4 informaciones diferentes en 1 envío :
 
 ![lametric6](./images/lametric6.png)

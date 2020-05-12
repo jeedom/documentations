@@ -1,3 +1,13 @@
+# Registro de cambios del calendario de Google
+
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+# 28/04/2020
+
+- Corrección de un problema con los eventos del día actual a horcajadas 2 días
+
 # 07/04/2020
 
 - Agregar eventos para el día actual
@@ -26,7 +36,7 @@
 
 # 30/11/2018
 
-- Gestión de eventos recurrentes.
+- Gestión de eventos recurrentes
 
 # 28/11/2018
 
@@ -39,8 +49,8 @@
 
 # 11/02/2018
 
-- Corrección de errores en la gestión de eventos actuales.
-- Soporte para eventos diarios.
+- Corrección de errores en la gestión de eventos actuales
+- Soporte para eventos diarios
 
 # 22/03/2018
 

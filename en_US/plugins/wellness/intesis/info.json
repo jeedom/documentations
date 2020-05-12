@@ -1,20 +1,35 @@
 {
-	"id" : "intesis",
-	"name" : "Intesis",
-	"description" : "Plugin pour controler intesis",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.2",
-	"category" : "wellness",
-	"hasDependency" : true,
-	"hasOwnDeamon" : true,
-	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://jeedom.github.io/plugin-intesis/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-intesis/#language#/",
-	"link" : {
-		"forum":"Lien vers le forum",
-		"video" : "Lien vers une video"
-	},
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+    "id": "intesis",
+    "name": "Intesis",
+    "description": "Plugin pour controler intesis",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.2",
+    "category": "wellness",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/intesis\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/intesis\/",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile"
+    ]
 }

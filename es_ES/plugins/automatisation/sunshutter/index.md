@@ -1,96 +1,95 @@
-# Description
+# Shutter Management Plugin
 
-Ce plugin vous permet de gerer plus facilemement la position de vos volets en fonction de la position du soleil. Ce plugin est completement cloudless
+Este complemento le permite administrar más fácilmente la posición de sus persianas de acuerdo con la posición del sol. Este complemento no tiene nubes
 
-Vous pouvez trouver [ici](https://www.jeedom.com/blog/?p=4310) un article montrant un exemple de configuration du plugin
+Puedes encontrar [aquí](https://www.jeedom.com/blog/?p=4310) un artículo que muestra un ejemplo de configuración del complemento
 
-# Configuration du plugins
+# Configuración de complementos
 
-Rien de spécial ici juste à installer et activer le plugin
+Nada especial aquí solo para instalar y activar el complemento
 
-## Comment ca marche ?
+## Como funciona ?
 
-Le plugin va regler la position de vos volets par rapport à des positions du soleil (Azimuth et Altitude) en fonction de condition.
+El complemento ajustará la posición de sus persianas en relación con las posiciones del sol (acimut y altitud) según la condición.
 
-# Configuration des volets
+# Configuración de las persianas
 
-La configuration se decompose en plusieurs onglet.
+La configuración se divide en varias pestañas.
 
 ## Equipement
 
-Vous retrouvez dans le premier onglet toute la configuration de votre équipement :
+Encontrarás en la primera pestaña toda la configuración de tu equipo :
 
-- Nom de l’équipement : nom de votre équipement Simulation,
-- Objet parent : indique l’objet parent auquel appartient l’équipement,
-- Activer : permet de rendre votre équipement actif,
-- Visible : rend votre équipement visible sur le dashboard.
+- Nombre del equipo : nombre de su equipo de simulación,
+- Objeto padre : indica el objeto padre al que pertenece el equipo,
+- Activar : activa su equipo,
+- Visible : hace que su equipo sea visible en el tablero.
 
 
-## Configuración
+## Configuration
 
-### Configuración
+### Configuration
 
-- Vérification : fréquence de verification des conditions et position des volets
-- Reprendre la main : interdit au systeme de gestion de volet de modifier la position de celui-ci si il a été bougé manuellement. Exemple le systeme ferme le volet, vous l'ouvrez il n'y touchera plus jusqu'a ce que la commande "Reprendre gestion" soit déclenchée ou si le délai de reprise de main est passé
-- Latitude : la latitude de votre volet/maison
-- Longitude : la longitude de votre volet/maison
-- Altitude : l'altitude de votre volet/maison
-- Etat volet : commande indiquant la position actuel du volet
-- Position volet : commande permettant de positionner le volet
-- Rafraîchir position volet (optionnelle) : commande permettant de rafraichir la positionner du volet
-- Temps maximum pour un déplacement : temps pour faire un mouvement complet (de haut en bas ou de bas en haut), en seconde
+- Verificación : frecuencia de verificación de las condiciones y posición de las aletas
+- Recuperar el control : prohíbe que el sistema de gestión del obturador cambie su posición si se ha movido manualmente. Por ejemplo, el sistema cierra el obturador, si lo abre, ya no lo tocará hasta que se active el comando "Reanudar administración" o si el tiempo de recuperación ha pasado
+- Latitud : la latitud de tu persiana / casa
+- Longitud : la longitud de tu persiana / casa
+- Altitud : la altura de tu persiana / casa
+- Estado del obturador : comando que indica la posición actual de la aleta
+- Posición del obturador : control para posicionar la aleta
+- Actualizar la posición del obturador (opcional) : comando para actualizar la posición del obturador
+- Tiempo maximo para un viaje : tiempo para hacer un movimiento completo (de arriba hacia abajo o de abajo hacia arriba), en segundos
 
 ## Condition
 
-- Condition pour action : si cette condition n'est pas vrai le plugin ne modifiera pas la position du volet
-- Un changement de mode annule les suspensions en cours : si coché alors un changement de mode du volet repasse celui-ci en gestion automatique
-- Les actions immédiate sont systématique et prioritaire : si coché alors les actions immediate s'executent meme si celui-ci est suspendu et sans tenir compte de l'ordre des conditions
+- Condición para la acción : Si esta condición no es cierta, el complemento no modificará la posición del obturador
+- El cambio de modo cancela las suspensiones pendientes : si está marcada, un cambio de modo del obturador lo devuelve a la gestión automática
+- Las acciones inmediatas son sistemáticas y prioritarias : si está marcada, se ejecutan acciones inmediatas incluso si está suspendida y sin tener en cuenta el orden de las condiciones
 
-
-Le tableau des conditions vous permet de spécifier des conditions de positionnement spécifique, qui prenne la main sur le tableau de position du volets :
-- Position : si la condition est vrai, la position du volets
-- Mode : la condition ne marche que si le volet est dans ce mode (vous pouvez en mettre plusieurs séparé par des ,). Si ce champs n'est pas remplis alors la condition sera testée quelque soit le mode
-- Action immediate : agit immediatement dès que la condition est vrai (n'attend donc pas le cron de verification)
-- Suspendre : si la condition est vrai elle suspend la gestion automatique du volet
-- Condition : votre condition
-- Commentaire : champs libre pour mettre des commentaires
+La tabla de condiciones le permite especificar condiciones de posicionamiento específicas, que se apoderan de la tabla de posición de la aleta :
+- Posición : si la condición es verdadera, la posición de las aletas
+- Modo : la condición solo funciona si el obturador está en este modo (puede poner varios separados por). Si este campo no se llena, la condición se probará independientemente del modo
+- Acción inmediata : actúa inmediatamente tan pronto como la condición es verdadera (por lo tanto, no espera el cron de verificación)
+- Suspender : si la condición es verdadera, suspende la gestión automática del obturador
+- Condición : su condicion
+- Comentario : campos libres para comentarios
 
 ## Positionnement
 
-- %ouveture : le % quand le volet est ouvert
-- %fermeture : le % quand le volet est fermé
-- Action par defaut : l'action par defaut si aucune condition et position n'est valide
+- % de apertura : el% cuando el obturador está abierto
+- % de cierre : el% cuando el obturador está cerrado
+- Acción por defecto : la acción predeterminada si ninguna condición y posición es válida
 
-C'est ici que vous allez pouvoir gerer le positionenement du volet en fonction de la position du soleil.
+Aquí es donde podrá gestionar la posición del obturador de acuerdo con la posición del sol.
 
-- Azimuth : angle de position du soleil
-- Elevation : angle de hauteur du soleil
-- Position : position du volet à prendre si le soleil se trouve dans les bornes d'Azimuth et d'élévation
-- Condition : condition en plus à satisfaire pour que le volet prenne cette position (peut etre vide)
-- Commentaire : champs libre pour mettre des commentaires
+- Acimut : ángulo de posición del sol
+- Elevacion : ángulo de altura del sol
+- Posición : posición del obturador para tomar si el sol está en el Azimut y los límites de elevación
+- Condición : condición adicional para satisfacer para que el obturador tome esta posición (puede estar vacío)
+- Comentario : campos libres para comentarios
 
->**ASTUCE**
+>**CONSEJO**
 >
->Petite astuce le site [suncalc.org](https://www.suncalc.org) qui permet, une fois votre adresse rentrée, de voir la position du soleil (et donc les angles Azimuth et d'élévation) en fonction des heures de la journée (il suffit de faire glisser le petit soleil en haut)
+>Pequeño consejo del sitio [suncalc.org](https://www.suncalc.org) que permite, una vez que ingresó su dirección, ver la posición del sol (y, por lo tanto, los ángulos de acimut y elevación) de acuerdo con las horas del día (simplemente arrastre el pequeño sol en la parte superior)
 
 ## Planning
 
-Vous voyez ici les plannification de positionnement du volet faite dans le planning Agenda
+Aquí puede ver los planes de posicionamiento del obturador realizados en la planificación de la Agenda
 
 ## Commandes
 
-- Azimut soleil : angle Azimuth actuel du soleil
-- Elévation soleil : angle d'élevation actuel du soleil
-- Executer action : force le calcul de position du volet en fonction de la position du soleil et des conditions et lui applique le resultat quelque soit l\'état de gestion (en pause ou pas)
-- Dernière position : derniere position demandé au volet par le plugin
-- Etat gestion : état de la gestion (suspendu ou pas)
-- Reprendre : force la remise en mode automatique de la gestion (A noter que c'est cette commande qu'il faut lancer pour repasser en gestion automatique si vous avez modifier la position de votre volet manuellement et coché la case "Ne pas reprendre la main")
-- Suspendre : suspend le positionnement automatique du volet
-- Rafraichir : mets à jour les valeurs des commandes "Azimut soleil" et "Elévation soleil"
-- Mode : mode actuel du volet
+- Azimut del sol : ángulo azimutal actual del sol
+- Salida del sol : ángulo de elevación actual del sol
+- Ejecutar acción : fuerza el cálculo de la posición del obturador de acuerdo con la posición del sol y las condiciones y le aplica el resultado sea cual sea el estado de gestión (en pausa o no)
+- Última posición : última posición solicitada desde el obturador por el complemento
+- Estado de gestión : estado de gestión (suspendido o no)
+- Reanudar : forzar el regreso al modo de administración automática (tenga en cuenta que este comando debe iniciarse para volver a la administración automática si ha cambiado la posición de su obturador manualmente y ha marcado la casilla "No tomar el control")
+- Suspender : suspende el posicionamiento automático del obturador
+- Refrescar : actualizar los valores de los comandos "Acimut del sol" y "Elevación del sol""
+- Modo : modo de obturador actual
 
-Vous pouvez ajouter des commandes "mode", le nom de la commande sera le nom du mode.
+Puede agregar comandos de "modo", el nombre del comando será el nombre del modo.
 
 # Panel
 
-Le plugin possede un panel de gestion en desktop et mobile pour l'activer il suffit d'aller dans Plugins -> Gestion des plugins, cliquer sur le plugin de gestion de volet et tout en bas a droite de cocher les cases pour afficher le panel desktop et mobile
+El complemento tiene un panel de administración de escritorio y móvil para activarlo solo vaya a Complementos -> Administración de complementos, haga clic en el complemento de administración del panel y en la parte inferior derecha de marcar las casillas para mostrar el panel escritorio y móvil

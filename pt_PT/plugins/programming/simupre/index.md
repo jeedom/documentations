@@ -1,45 +1,45 @@
-# Description
+# Plugin de simulação de presença
 
-Ce plugin permet de simuler facilement une présence dans la maison quand on est absent de manière crédible (heure et durée aléatoire des évènements)
+Este plug-in permite simular facilmente uma presença na casa quando você estiver ausente de uma maneira credível (tempo e duração aleatória dos eventos)
 
-Vous pouvez trouver [ici](https://www.jeedom.com/blog/4266-simulation-de-presence/) un article montrant un exemple de configuration du plugin
+Você pode encontrar [aqui](https://blog.jeedom.com/4266-simulation-de-presence/) um artigo mostrando um exemplo de configuração do plug-in
 
-# Configuration du plugins
+# Configuração de plugins
 
-Rien de spécial ici juste à installer et activer le plugin
+Nada de especial aqui apenas para instalar e ativar o plugin
 
-# Configuration des simulations
+# Configuração de simulações
 
-Vous retrouvez dans le premier onglet toute la configuration de votre équipement :
+Você encontrará na primeira aba toda a configuração do seu equipamento :
 
-- Nom de l’équipement : nom de votre équipement Simulation,
-- Objet parent : indique l’objet parent auquel appartient l’équipement,
-- Activer : permet de rendre votre équipement actif,
-- Visible : rend votre équipement visible sur le dashboard.
+- Nome de equipamentos : nome do seu equipamento de simulação,
+- Objeto pai : indica o objeto pai ao qual o equipamento pertence,
+- Ativar : torna seu equipamento ativo,
+- Visivél : torna seu equipamento visível no painel.
 
-Ensuite, vous avez deux autres paramètres à configurer :
+Então você tem dois outros parâmetros para configurar :
 
-- Latitude et longitude de votre maison, ce qui permet au plugin de calculer en local les heures de lever et coucher du soleil
+- Latitude e longitude da sua casa, o que permite que o plug-in calcule localmente os horários de nascer e pôr do sol
 
-Dans le second onglet vous allez retrouver la configuration des simulations :
+Na segunda aba, você encontrará a configuração das simulações :
 
-- elles ont un nom (pour les retrouver plus facilement)
-- une condition de lancement, si la condition est fausse alors la simulation de ne se fera pas (si vous ne mettez rien alors la configuration se lancera forcément)
-- des actions d'entrées : se font lors du lancement de la simulation
-- des action de sorties (optionnelles) : se font lors de la fin de la simulation
-- des heures de début et des durées :
-  - l'heure de début peut être fixe entre 2 bornes (entre 18h30 et 19h30 par exemple, le plugin choisira chaque jour une heure aléatoire entre les deux bornes)
-  - l'heure de début peut être par rapport au lever du soleil (par exemple de -20, pour 20 minutes avant à 30, pour 30 minutes après)
-  - l'heure de début peut être par rapport au coucher du soleil (par exemple de -10, pour 10 minutes avant à 15, pour 15 minutes après)
-- une durée ou une heure de fin
-  - si c'est une durée il vous suffit de mettre 20 en minimun et 40 en maximum pour une durée aléatoire entre 20 et 40 min
-  - pour une heure de fin fixe entre 19h05 et 19h35 il faut mettre 19:05 en min et 19:35 en max
-- Repétition : permet de repeter X fois l'action de debut/fin sur la période (attention la période doit etre supérieure à 2min, vous ne pouvez pas faire 5 répetition sur une simulation de durée 5min par exemple). Important il est recommandé de ne pas mettre plus de 5 en repetion, au dela le systeme peut ne pas les éxécuter
+- eles têm um nome (para encontrá-los mais facilmente)
+- uma condição de inicialização, se a condição for falsa, a simulação não será feita (se você não colocar nada, a configuração será necessariamente iniciada)
+- ações de entrada : são feitos ao iniciar a simulação
+- ações de saída (opcional) : são feitos no final da simulação
+- horários e durações de início :
+  - o horário de início pode ser fixado entre 2 terminais (entre 18h30 e 19h30, por exemplo, o plug-in escolherá um horário aleatório entre os dois terminais todos os dias)
+  - o horário de início pode ser relativo ao nascer do sol (por exemplo, de -20, por 20 minutos antes a 30, por 30 minutos depois)
+  - o horário de início pode ser relativo ao pôr do sol (por exemplo, de -10, por 10 minutos antes a 15, por 15 minutos depois)
+- uma duração ou uma hora final
+  - se for uma duração, basta colocar 20 no mínimo e 40 no máximo por uma duração aleatória entre 20 e 40 min
+  - para um horário de término fixo entre 19h05 e 19h35, você deve definir 19:05 em min e 19:35 max
+- Ensaio : permite repetir X vezes a ação inicial / final do período (observe que o período deve ser maior que 2 min, não é possível fazer 5 repetições em uma simulação de duração de 5 min, por exemplo). Importante: não é recomendável repetir mais de 5, pois o sistema pode não executá-las
 
->**NOTE**
+>**NOTA**
 >
-> Le format pour les heures est le suivant hh:mm, pour 12h30 il faut donc mettre 12:30
+> O formato para as horas é o seguinte hh:mm, para 12:30, então coloque 12:30
 
->**IMPORTANT**
+>**IMPORTANTE**
 >
-> Le plugin vous affiche les heures prévisionnelles de la simulation pour la prochaine période (si vous en avez plusieurs vous ne verrez donc comme la suivante)
+> O plug-in exibe as horas previstas da simulação para o próximo período (se você tiver várias, não verá as seguintes)

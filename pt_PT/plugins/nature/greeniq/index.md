@@ -1,58 +1,33 @@
-GreenIQ 
-=======
+# Plug-in GreenIQ 
 
-Description 
------------
+Plug-in para controlar a rega automática usando a caixa GreenIQ. É possível definir o tipo de operação para as 6 saídas solenóides : 
 
-Plugin permettant de controller l’arrosage automatique à l’aide du
-boitier GreenIQ. Il est possible de définir pour les 6 sorties
-electrovannes le type de fonctionnement : - Auto : l’arrosage de la zone
-se déclenche en fonction de la programmation du GreenIQ - Off :
-l’arrosage est désactivé - On : l’arrosage est déclenché (durée 3h)
+- Carro : a rega da zona é acionada de acordo com a programação GreenIQ 
+- Fora : a rega está desativada 
+- Nós : a rega é desencadeada (duração 3h)
 
 ![greeniq screenshot1](../images/greeniq_screenshot1.png)
 
-Configuration 
--------------
+# Configuração 
 
-Afin de pouvoir utiliser votre GreenIQ avec Jeedom, vous devez
-obligatoirement demander un Client ID et un Client Secret. La demande se
-fait par email à <developers@greeniq.co> , la réponse se fait très
-rapidement, sous 24h normalement.
+Para usar seu GreenIQ com Jeedom, você deve solicitar um ID de cliente e um Cliente secreto. A solicitação é feita por e-mail para <developers@greeniq.co>, a resposta é feita muito rapidamente, normalmente dentro de 24 horas.
 
-Vous devez également vous munir du login/mot de passe fourni sur la
-petite carte qui est livrée avec le GreenIQ.
+Você também deve ter o login / senha fornecido no pequeno cartão que acompanha o GreenIQ.
 
-Une fois les codes obtenus, vous devez les entrer dans le plugin comme
-ceci : ![greeniq1](../images/greeniq1.png)
+Uma vez que os códigos são obtidos, você deve inseri-los no plugin como este : ![greeniq1](../images/greeniq1.png)
 
-Utilisation 
------------
+# Uso 
 
-De nombreuses informations sont disponibles dans le widget : 1. Etat de
-la vanne 2. Etat de la configuration 3. % de progression 4. Heure de fin
-de l’arrosage
+Muita informação está disponível no widget : 1. Status da válvula 2. Status da configuração 3. % de progresso 4. Hora final da rega
 
 ![greeniq2](../images/greeniq2.png)
 
-La configuration de chaque vanne est également possible et 3 actions
-sont disponibles :
+A configuração de cada válvula também é possível e estão disponíveis 3 ações :
 
-1.  Auto : l’arrosage de la zone se déclenche en fonction de la
-    programmation du GreenIQ
+1. Auto : a rega da zona é acionada de acordo com a programação GreenIQ
+2. Desligado : a rega está desativada
+3. Nós : a rega é desencadeada (duração 3h)
 
-2.  Off : l’arrosage est désactivé
+# Faq 
 
-3.  On : l’arrosage est déclenché (durée 3h)
-
-FAQ 
----
-
-Le systeme recupère les informations toutes les 5 minutes.
-
-Changelog 
----------
-
--   V0.1 : Première release
-
-
+O sistema recupera informações a cada 5 minutos.

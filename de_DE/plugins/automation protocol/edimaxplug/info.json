@@ -1,14 +1,14 @@
 {
-    "id" : "edimaxplug",
-    "name" : "Edimax Plug",
-    "licence" : "AGPL",
-    "author" : "Jeedom",
-    "require" : "2.3",
-    "installation" : "Aucune",
-    "hasDependency" : 0,
-    "hasOwnDeamon" : 0,
-    "category" : "automation protocol",
-        "version" : "1",
-        "changelog" : "https://jeedom.github.io/plugin-edimaxplug/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-edimaxplug/#language#/"
+    "id": "edimaxplug",
+    "name": "Edimax Plug",
+    "licence": "AGPL",
+    "author": "Jeedom",
+    "require": "2.3",
+    "installation": "Aucune",
+    "hasDependency": 0,
+    "hasOwnDeamon": 0,
+    "category": "automation protocol",
+    "version": "1",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/edimaxplug\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/edimaxplug\/"
 }

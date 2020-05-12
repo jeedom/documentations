@@ -1,13 +1,27 @@
 {
-	"id" : "wiserlink",
-	"name" : "WiserLink",
-	"description" : "Plugin pour afficher les données du module IP Wiser. Il remonte l'ensemble des 5 canaux / la téléinfo / les 2 modules impulsionnels. Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie.",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.0",
-    "category" : "energy",
-    "changelog" : "https://jeedom.github.io/plugin-wiserlink/#language#/changelog",
-    "documentation" : "https://jeedom.github.io/plugin-wiserlink/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["Jeedomboard","Smart","RPI/RPI2","Docker","DIY"]
+    "id": "wiserlink",
+    "name": "WiserLink",
+    "description": "Plugin pour afficher les données du module IP Wiser. Il remonte l'ensemble des 5 canaux \/ la téléinfo \/ les 2 modules impulsionnels. Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie.",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.0",
+    "category": "energy",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/wiserlink\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/wiserlink\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "Jeedomboard",
+        "Smart",
+        "RPI\/RPI2",
+        "Docker",
+        "DIY"
+    ]
 }

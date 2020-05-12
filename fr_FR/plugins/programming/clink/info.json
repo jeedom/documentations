@@ -1,12 +1,19 @@
 {
-	"id" : "clink",
-	"name" : "Click link",
-	"description" : "Plugin de gestion de lien et d'interface",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "3.0",
-	"category" : "programming",
-	"eventjs" : 1,
-	"changelog" : "https://jeedom.github.io/plugin-clink/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-clink/#language#/"
+    "id": "clink",
+    "name": "Click link",
+    "description": "Plugin de gestion de lien et d'interface",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "category": "programming",
+    "eventjs": 1,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/clink\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/clink\/",
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "diy",
+        "v4"
+    ]
 }

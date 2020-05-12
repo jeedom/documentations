@@ -1,99 +1,66 @@
-Ce plugin permet la gestion de liens et d’évènements sur l’interface de
-Jeedom. Vous pourrez par exemple avec celui-ci créer une commande qui
-ouvre une modale (fenêtre de dialogue) avec une vue contenant vos
-caméras. Cela permet par exemple lorsque quelqu’un sonne chez vous
-d’afficher directement la caméra de l’entrée sur votre Jeedom.
+# Haga clic en el complemento de enlace
 
-configuración del plugin
-=======================
+Este complemento permite la gestión de enlaces y eventos en la interfaz Jeedom. Podrá, por ejemplo, crear una orden que abra un modal (ventana de diálogo) con una vista que contenga sus cámaras. Esto permite, por ejemplo, cuando alguien llama a su casa para mostrar directamente la cámara de entrada en su Jeedom.
 
-Después de descargar el plugin, sólo hay que activarlo,
-no hay ninguna configuración a este nivel.
+# Configuración del plugin
+
+Después de descargar el complemento, solo necesita activarlo, no hay configuración en este nivel.
 
 ![clink1](./images/clink1.PNG)
 
-Configuración del dispositivo
-=============================
+# Configuración del equipo
 
-La configuration des équipements Clink est accessible à partir du menu
-Plugins :
+Se puede acceder a la configuración del equipo Clink desde el menú Complementos :
 
 ![clink2](./images/clink2.PNG)
 
-Voilà à quoi ressemble la page du plugin Clink (ici avec déjà 1
-équipement) :
+Así es como se ve la página del complemento Clink (aquí con 1 dispositivo ya) :
 
 ![clink3](./images/clink3.PNG)
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
-
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Una vez que haces clic en uno de ellos, obtienes :
 
 ![clink4](./images/clink4.PNG)
 
-Aquí encontrará toda la configuración de su dispositivo:
+Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nom de l’équipement Clink** : nom de votre équipement Clink,
+-   **Nombre de l'équipement Clink** : nombre de su equipo Clink,
+-   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
+-   **Activar** : activa su equipo,
+-   **Visible** : hace que su equipo sea visible en el tablero.
 
--   **Objeto padre** : especifica el objeto padre al que pertenece
-    equipos,
+A continuación encontrará la lista de pedidos :
 
--   ** ** Activar: para que su equipo activo,
+-   **Nombre** : el nombre que se muestra en el tablero,
+-   **Modo** : El modo de visualización del elemento (en un modal, en una nueva ventana o en la ventana actual)
 
--   **Visible** : rend votre équipement visible sur le dashboard.
-
-En-dessous vous retrouvez la liste des commandes :
-
--   **Nom** : le nom affiché sur le dashboard,
-
--   **Mode** : le mode d’affichage de l’élément (dans une modale, dans
-    une nouvelle fenêtre ou dans la fenêtre courante)
-
-    > **Note**
+    > **Nota**
     >
-    > En mobile "nouvelle fenêtre" et "fenêtre courante" font la même
-    > chose : ouverture du lien dans la fenêtre courante
+    > En el móvil, "nueva ventana" y "ventana actual" hacen lo mismo : abrir enlace en la ventana actual
 
--   **Type** : type d’élément à ouvrir (vue, design, panel ou URL)
+-   **Tipo** : tipo de elemento para abrir (vista, diseño, panel o URL)
+-   **Nombre** : opción según el elemento seleccionado para abrir
+-   **Filtro de usuario** : permite filtrar para abrir el elemento solo si es este usuario el que está conectado
 
--   **Nom** : option en fonction de l’élément choisi à ouvrir
+-   **Filtro de página** : le permite filtrar para abrir el elemento solo si está en la página mencionada
 
--   **Filtre utilisateur** : permet de filtrer pour n’ouvrir l’élément
-    que si c’est cet utilisateur qui est connecté
-
--   **Filtre page** : permet de filtrer pour n’ouvrir l’élément que si
-    on est sur la page mentionnée
-
-    > **Note**
+    > **Nota**
     >
-    > En version mobile cette option ne fait rien
+    > En la versión móvil, esta opción no hace nada
 
--   **Filtre interface** : permet de filtrer pour n’ouvrir l’élément
-    qu’en version mobile/desktop ou sur les 2
+-   **Filtro de interfaz** : permite filtrar para abrir el elemento solo en la versión móvil / de escritorio o en ambos
+-   **Mostrar** : permite mostrar los datos en el tablero
+-   **Probar** : Se usa para probar el comando,
+-   **Borrar** (signo -) : permite eliminar el comando.
 
--   **Afficher** : permet d’afficher la donnée sur le dashboard
-
--   **Tester** : permet de tester la commande,
-
--   **Supprimer** (signe -) : permet de supprimer la commande.
-
-> **Important**
+> **Importante**
 >
-> Il ne faut surtout pas ouvrir la même vue sur elle-même, idem pour les
-> designs !
+> Es importante no abrir la misma vista sobre sí mismo, lo mismo para los diseños !
 
-> **Important**
+> **Importante**
 >
-> En mobile l’ouverture d’une URL ne peut pas être faite dans une modale
-> comme pour les designs.
+> En los dispositivos móviles, la apertura de una URL no se puede realizar de manera modal como en los diseños.
 
-> **Important**
+> **Importante**
 >
-> Toutes les URLs ne peuvent être ouvertes en modale, cela dépend du
-> site (ex : google.fr ne peut être ouvert dans une modale). Attention
-> aussi si vous êtes en https, il faut absolument que le site à ouvrir
-> dans la modale soit en https.
+> No todas las URL se pueden abrir en modo modal, depende del sitio (ej : google.fr no se puede abrir en un modal). Atención también si está en https, es absolutamente necesario que el sitio para abrir en modal esté en https.

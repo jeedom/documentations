@@ -1,6 +1,16 @@
-# 
+# Changelog Google Kalender
 
-- 
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
+
+# 28.04.2020
+
+- Behebung eines Problems mit aktuellen Tagesereignissen, die sich über 2 Tage erstrecken
+
+# 04/07/2020
+
+- Hinzufügen von Ereignissen für den aktuellen Tag
 
 # 2019.08.13
 

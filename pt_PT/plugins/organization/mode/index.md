@@ -1,38 +1,26 @@
-Plugin permettant de gérer différents modes d’un
-appartement/maison/pièce, mais aussi des ambiances.
+# Plugin de moda
 
-Configuration du plugin
-=======================
+Plugin para gerenciar diferentes modos de um apartamento / casa / quarto, mas também atmosferas.
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+# Configuração do plugin
 
-Configuration des équipements
-=============================
+Depois de baixar o plugin, você só precisa ativá-lo, não há configuração neste nível.
 
-La configuration des équipements mode est accessible à partir du menu
-plugin puis organisation :
+# Configuração do equipamento
 
-Vous retrouvez ici toute la configuration de votre équipement :
+A configuração do equipamento de modo é acessível no menu do plug-in e depois na organização :
 
--   **Nom de l’équipement Mode** : nom de votre équipement Mode,
+Aqui você encontra toda a configuração do seu equipamento :
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement,
+-   **Nome do equipamento Modo** : nome do seu equipamento Mode,
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
+-   **Ativar** : torna seu equipamento ativo,
+-   **Visivél** : torna seu equipamento visível no painel,
+-   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias).
+-   **Adicionar modo** : para adicionar um novo modo
 
--   **Activer** : permet de rendre votre équipement actif,
+Abaixo, você encontra a lista de modos. Ao clicar nele, você poderá escolher as ações a serem executadas ao entrar neste modo e ao sair.
 
--   **Visible** : rend votre équipement visible sur le dashboard,
-
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories).
-
--   **Ajouter mode** : bouton permettant d’ajouter un nouveau mode
-
-En-dessous vous retrouvez la liste des modes, en cliquant dessus vous
-allez pouvoir choisir les actions à faire lors de l’entrée dans ce mode
-et lors de la sortie.
-
->**IMPORTANT**
+>**IMPORTANTE**
 >
->Attention lors du renommage d'un mode il faut absoluement revoir les scénarios/équipement qui utiliser l'ancien nom pour les passer sur le nouveau
+>Atenção durante a renomeação de um modo, é absolutamente necessário revisar os cenários / equipamentos que usam o nome antigo para transmiti-los aos novos

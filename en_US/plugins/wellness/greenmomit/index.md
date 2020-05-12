@@ -1,253 +1,163 @@
-Plugin permettant de communiquer et contrôler son thermostat Green Momit
+# Greenmomit plugin
 
-Description 
-===
+Plugin to communicate and control your Green Momit thermostat
 
-Description marketing
----
+# Description 
 
-Le thermostat intelligent Momit ST permet de gérer le confort de votre
-maison, peu importe où que vous soyez, à partir d´un smartphone, d´une
-tablette ou d´un ordinateur, tout en vous aidant à réduire votre facture
-d´énergie de 20 %.
+## Marketing description
+
+The smart thermostat Momit ST allows you to manage the comfort of your home, wherever you are, from a smartphone, tablet or computer, while helping you reduce your energy bill by 20%.
 
 ![greenmomit](./images/greenmomit.jpg)
 
-Alimenté sur secteur, le thermostat se connecte à la chaudière via un
-contact inverseur sans potentiel. Connecté au réseau WiFi de votre
-domicile, vous pouvez accéder à votre système de chauffage à partir de
-n´importe quel ordinateur, smartphone ou tablette. Le thermostat
-intelligent Momit ST se démarque de ses concurrents en offrant
-différentes fonctionnalités innovantes :
+Powered from the mains, the thermostat connects to the boiler via a potential-free changeover contact. Connected to your home WiFi network, you can access your heating system from any computer, smartphone or tablet. The Momit ST smart thermostat stands out from its competitors by offering various innovative features :
 
 -   Moniteur
-
-    -   Sauvegarde toutes vos données de consommation énergétique.
-
+    -   Save all your energy consumption data.
 -   Calendrier
-
-    -   Vous permet de régler votre thermostat facilement.
-
--   Présence
-
-    -   Possède un capteur qui réduit la consommation excessive
-        d´énergie lorsque vous êtes absent. Le chauffage peut même être
-        automatiquement éteint.
-
--   Contrôle
-
-    -   Permet de gérer le confort de votre logement depuis n´importe où
-        et à tout moment à partir de votre smartphone, tablette ou PC.
-
+    -   Allows you to easily adjust your thermostat.
+-   Presence
+    -   Has a sensor that reduces excessive energy consumption when you are away. Heating can even be automatically turned off.
+-   Control
+    -   Allows you to manage the comfort of your accommodation from anywhere and anytime from your smartphone, tablet or PC.
 -   Temps
-
-    -   Estime le temps moyen que chaque logement met pour atteindre la
-        température indiquée en optimisant la période d´anticipation
-        nécessaire pour atteindre la bonne température.
-
+    -   Estimate the average time that each accommodation takes to reach the indicated temperature by optimizing the anticipation period necessary to reach the right temperature.
 -   Economies
-
-    -   Un indicateur visuel s´affiche lorsque des économies
-        sont faites.
-
+    -   Visual indicator displayed when savings are made.
 -   Vacances
+    -   During the holiday period the Momit smart thermostat pauses learning.
+    -   Unlike traditional thermostats, the Momit ST smart thermostat has an elegant and innovative design that will allow you to integrate it harmoniously into your decor. With glass finish and touch screen.
+    -   With a free application (iOS and Android), your Smartphone and a simple Internet connection, you can access all the features of the Momit ST smart thermostat in real time, from anywhere.
 
-    -   Pendant la période de vacances le thermostat intelligent Momit
-        met en pause l´apprentissage.
+**Functions**
 
-    -   A la différence des thermostats traditionnels, le thermostat
-        intelligent Momit ST a un design élégant et innovant qui vous
-        permettra de l´intégrer dans votre décor harmonieusement. Avec
-        une finition en verre et un écran tactile, il offre les designs
-        suivants :
+-   WiFi IP thermostat
+-   Programmable and remotely controllable
+-   Compatible with conventional or combined boiler systems
+-   Replaces any standard dry contact thermostat (Relay)
+-   Capacitive touch screen
+-   Different integrated sensors (temperature, humidity, brightness, proximity)
+-   Schedule programming
+-   Vacation function
+-   Elegant and innovative design
+-   Glass finish
+-   Different display designs available
+-   Free iPhone app
+-   Free Android app
+-   API available on request from Green Momit Support
 
-    -   Avec une application gratuite (iOS et Android), votre Smartphone
-        et une simple connexion Internet, vous pouvez accéder à toutes
-        les fonctionnalités du thermostat intelligent Momit ST en temps
-        réel, depuis n´importe où.
+**Technical characteristics**
 
-**FONCTIONS**
-
--   Thermostat IP WiFi
-
--   Programmable et commandable à distance
-
--   Compatible avec les systèmes de chaudières conventionnels ou
-    combinés
-
--   Remplace tout thermostat standard à contact sec (Relais)
-
--   Écran tactile capacitif
-
--   Différents capteurs intégrés (température, humidité,
-    luminosité, proximité)
-
--   Programmation d´un calendrier
-
--   Fonction Vacances
-
--   Design élégant et innovant
-
--   Finition en verre
-
--   Différents design d´affichage disponibles
-
--   Application iPhone gratuite
-
--   Application Android gratuite
-
--   API disponible sur simple demande au Support Green Momit
-
-**CARACTERISTIQUES TECHNIQUES**
-
--   Alimentation : 230 V AC 50..60 Hz
-
--   Sortie : Sans potentiel
-
--   Puissance maximum :
-
-    -   5 A pour une charge résistive
-
-    -   2 A pour une charge inductive (cosÎ† = 0.4)
-
--   WiFi : IEEE 802.11 b/g
-
--   Capteurs :
-
-    -   Ecran tactile capacitif
-
-    -   Capteur de température NTC 100k @ 25°C
-
-    -   Capteur d´humidité 0-99%
-
-    -   Capteur de luminosité
-
-    -   Capteur de proximité jusqu´à 5 m
-
--   Protection IP : IP20
-
+-   Food : 230 V AC 50..60 Hz
+-   Exit : Without potential
+-   Maximum power :
+    -   5 A for resistive load
+    -   2 A for an inductive load (cosÎ † = 0.4)
+-   Wifi : IEEE 802.11 b / g
+-   Sensors :
+    -   Capacitive touch screen
+    -   NTC temperature sensor 100k @ 25 ° C
+    -   Humidity sensor 0-99%
+    -   Brightness sensor
+    -   Proximity sensor up to 5 m
+-   IP protection : IP20
 -   Dimensions : 94 x 94 x 32 mm
-
--   Poids : 225g
-
--   Normes :
-
+-   Weight : 225g
+-   Standards :
     -   ETSI EN 300 328 V1.7.1 (2006-10)
-
     -   ETSI-EN 301 489-1 V1.9.2 (2011-09)
-
     -   ETSI EN 301 489-17 V2.2.1 (2012-09)
-
     -   EN 62479:2010
-
     -   EN 60730-2-9; EN 60730-1
 
-Configuration 
-===
+# Setup 
 
-Installer le plugin 
----
+## Install the plugin 
 
-Procéder à l’installation du plugin
+Proceed with the installation of the plugin
 
 ![greenmomit Install 1](./images/greenmomit_Install_1.png)
 
-Cliquer sur "Général", puis Plugins
+Click on "General", then Plugins
 
 ![greenmomit Install 2](./images/greenmomit_Install_2.png)
 
-Cliquer sur l’icône "Market" pour accéder au contenu des plugins
-disponibles sur le Market Jeedom.
+Click on the "Market" icon to access the content of plugins available on the Jeedom Market.
 
 ![greenmomit Install 3](./images/greenmomit_Install_3.png)
 
-Parcourir le market jusqu’à la catégorie "Confort" ou utiliser la zone
-de recherche avec le mot clé "Green Momit". Cliquer sur le plugin.
+Browse the market up to the "Comfort" category or use the search box with the keyword "Green Momit". Click on the plugin.
 
 ![greenmomit Install 4](./images/greenmomit_Install_4.png)
 
-Vous aurez la possibilité d’installer le plugin dans sa version ![commun
-1](./images/commun_1.png) stable ou ![commun 2](./images/commun_2.png)
-Beta. La version stable est recommandée pour la majorité des
-utilisateurs.
+You will be able to install the plugin in its version ![common 1](./images/commun_1.png) stable or ![common 2](./images/commun_2.png) Beta. The stable version is recommended for the majority of users.
 
-Configuration du plugin 
----
+## Plugin configuration 
 
-Procéder à la configuration du plugin. \
-Vous aurez besoin de vos identifiants qui vous permettent d’accéder au
-portail Green Momit (<https://st.greenmomit.com/>)  \
-Le site du constructeur (<http://greenmomit.com/>) 
+Configure the plugin. Vous aurez besoin de vos identifiants qui vous permettent d'accéder au portail Green Momit (<https://st.greenmomit.com/>) Le site du constructeur (<http://greenmomit.com/>) 
 
-Avant de configurer le plugin, vous devez valider que votre compte est
-fonctionnel sur le portail Green Momit. (<https://st.greenmomit.com/>)
+Avant de configurer le plugin, vous devez valider que votre compte est fonctionnel sur le portail Green Momit. (<https://st.greenmomit.com/>)
 
 ![greenmomit ST](./images/greenmomit_ST.png)
 
-Et demander au support Green Momit
+And ask Green Momit support
 
--   Identifiant unique api 
+-   Unique API ID 
+-   Secret API code
 
--   Code secret API
-
-en envoyant un mail à (<support@greenmomit.es>) ou
-(<support@momit.zendesk.com>).
+by sending an email to ( <support@greenmomit.es>) or
+(( <support@momit.zendesk.com> ).
 
 
 ![greenmomit Config Plugin](./images/greenmomit_Config_Plugin.png)
 
-![commun 1](./images/commun_1.png) Nom d’utilisateur : spécifier
-l’adresse email utilisée pour accéder au site
-<https://st.greenmomit.com/>  
+![common 1](./images/commun_1.png) Nom d'utilisateur : spécifier l'adresse email utilisée pour accéder au site <https://st.greenmomit.com/>  
 
-![commun 2](./images/commun_2.png)
+![common 2](./images/commun_2.png)
 
-Mot de passe : votre mot de passe associé 
+Password : your associated password 
+
 ![commun 3](./images/commun_3.png) 
 
-Identifiant unique api : reçu par mail suite à la sollicitation du support Green Momit  
+Unique API ID : received by email following a request from Green Momit support
+
 ![commun 4](./images/commun_4.png) 
 
-Code secret API : idem  Cliquer ensuite sur "Sauvegarder" et "Synchroniser vos équipements"
+Secret API code : idem Then click on "Save" and "Synchronize your equipment"
 
-Paramétrage du plugin
----
+## Plugin configuration
 
-Procéder au paramétrage du plugin
+Configure the plugin
 
 ![greenmomit Config 1](./images/greenmomit_Config_1.png)
 
-Cliquer sur "Plugins" ⇒ "Bien-être" ⇒ "Green Momit"
+Click on "Plugins" ⇒ "Well-being" ⇒ "Green Momit"
 
-Votre thermostat est configuré, il ne vous reste plus qu’à :
+Your thermostat is configured, all you have to do is :
 
--   Spécifier l’objet parent,
-
--   l’activer,
-
--   et le rendre visible.
+-   Specify parent object,
+-   l'activer,
+-   and make it visible.
 
 ![greenmomit Config 3](./images/greenmomit_Config_3.png)
 
-L’option : "Le contrôle du thermostat n’est pas fait par Jeedom", permet
-de laisser l’application Green Momit prioritaire sur Jeedom.
+The option : "Thermostat control is not done by Jeedom ", lets leave the Green Momit application priority over Jeedom.
 
-Configuration du widget
----
+##  Widget configuration
 
-![greenmomit Widget 1](./images/greenmomit_Widget_1.png)Le widget du thermostat est déjà en place et disponible dans l’objet parent définit dans la configuration précédente.
+![greenmomit Widget 1](./images/greenmomit_Widget_1.png)Le widget du thermostat est déjà en place et disponible dans l'objet parent définit dans la configuration précédente.
 
 ![greenmomit Widget 2](./images/greenmomit_Widget_2.png)
 
-![commun 1](./images/commun_1.png)Température actuelle (sonde du thermostat). 
+![common 1](./images/commun_1.png)Température actuelle (sonde du thermostat). 
 
-![commun 2](./images/commun_2.png)Hydrométrie actuelle (sonde du thermostat).
+![common 2](./images/commun_2.png)Hydrométrie actuelle (sonde du thermostat).
 
-![commun 3](./images/commun_3.png)Eteint le thermostat si le thermostat détecte que c’est la nuit.
+![commun 3](./images/commun_3.png)Eteint le thermostat si le thermostat détecte que c'est la nuit.
 
 ![commun 4](./images/commun_4.png)Le thermostat apprend tout seul vos habitudes.
 
-![commun 5](./images/commun_5.png)Le thermostat s’arrête automatiquement s’il ne détecte pas de présence.  
+![commun 5](./images/commun_5.png)Le thermostat s'arrête automatiquement s'il ne détecte pas de présence.  
 
 ![commun 6](./images/commun_6.png)Mettre le thermostat en mode Manuel ou Automatique.  
 
@@ -255,5 +165,5 @@ Configuration du widget
 
 ![commun 8](./images/commun_8.png)Consigne du thermostat. Modification de la consigne avec la roue.  
 
-![commun 9](./images/commun_9.png)Rafraîchir l’état. En survolant, affichage de la dernière synchronisation. 
+![commun 9](./images/commun_9.png)Rafraîchir l'état. En survolant, affichage de la dernière synchronisation. 
 

@@ -1,43 +1,42 @@
-27-09-2019
+# Changelog Kodi
 
-Changement de l'addon Kodi pour les cas de playerid non remonté par kodi 
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-23-07-2019
+# 09-27-2019
 
-Mise en stable
+- Change of Kodi addon for playerid cases not reassembled by kodi 
 
-24-06-2019
+# 2019-07-23
 
-Page équipement V4
-Gestion partielle Kodi18 (en cours de changement pour la partie addons côté Kodi)
+- Stable
 
+# 2019-06-24
 
-Version 2 - 2015-04-06 21:57:23
-===
+- V4 equipment page
+- Partial management of Kodi18 (in the process of being changed for the addons part on the Kodi side)
 
-        Rajout des covers Réécriture de la partie event Text scrolling pour le titre Favicon de type Refonte de la page de config Suppression de la notion de playerID Refont du widget mobile Amélioration de code Corrections de bugs Maj de l'addon Kodi (envoie json, plus d'ids)
+# Version 2 - 2015-04-06 21:57:23
 
-Version 2.1 - 2015-04-06 22:25:15
-===
+- Addition of covers Rewriting of the event Text scrolling for the Favicon title of type Redesign of the config page Deletion of the notion of playerID Redesign of the mobile widget Code improvement Bug corrections Shift of the Kodi addon (send json, more d 'ids)
 
-        Corrections bugs mineurs
+# Version 2.1 - 2015-04-06 22:25:15
 
-Version 2.3 - 2015-04-07 00:58:11
-===
+- Minor bug fixes
 
-        suppression des / devant plugins
+# Version 2.3 - 2015-04-07 00:58:11
 
-Version 2.3.1 - 2015-04-07 01:23:17
-===
+- removal of / before plugins
 
-        Rajout de debug pour le volume
+# Version 2.3.1 - 2015-04-07 01:23:17
 
-Version 2.3.2 - 2015-04-07 12:28:54
-===
+- Addition of debug for volume
 
-        Page de conf plus clair pour les commandes
+# Version 2.3.2 - 2015-04-07 12:28:54
 
-Version 2.3.3 - 2015-04-07 12:46:34
-===
+- Clearer conf page for orders
 
-        Filtre des commandes uniquement personnalisées
+# Version 2.3.3 - 2015-04-07 12:46:34
+
+- Filter custom orders only

@@ -1,53 +1,59 @@
-# 08-09-2019
+# Registro de Mudanças RfPlayer2
 
-Support de php 7.3
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-# 23-05-2019
+# 09-09-2019
 
-Préparation page équipement pour jeedom futur
+Suporte para php 7.3
 
-# 07/12/2018
+# 2019-05-23
 
-Bug fix ecran santé
+Preparação da página de equipamentos para o futuro jeedom
+
+# 07/07/2018
+
+Correção de bug na tela de integridade
 
 # 03/12/2018
 
-Bug fix sur les capteurs de températures edisio / dio2
+Correção de bug nos sensores de temperatura edisio / dio2
 
 # 08/11/2018
 
-Rajout d'un bouton association plus visible pour edisioframe
+Adição de um botão de associação mais visível para edisioframe
 
-# 02/11/2018
+# 02/02/2018
 
-Correction interprétation jamming dans le cas d'un nouvel équipement
+Correção da interpretação de interferência no caso de novos equipamentos
 
 # 29/10/2018
 
-Ajout actionneur Edisio
-Ajout Edisio Frame
+Adição do atuador Edisio
+Adicionar quadro Edisio
 
 # 18/10/2018
-Changement calcul batterie sur Edisio
-Changement gestion des ids
-Gestion des caractères spéciaux pour l'envoie du nom parrot, le rfp1000 naime pasle non ascii
+Alterar o cálculo da bateria no Edisio
+Alterar gerenciamento de IDs
+Gerenciamento de caracteres especiais para o envio do nome do papagaio, o rfp1000 não gosta de não ascii
 
 # 10/10/2018
 
-Correction du mode parrot
-Et début d'implémentation du protocole EDISIO (mise à jour poussé surtout pour le mode parrot)
+Correção do modo papagaio
+E início da implementação do protocolo EDISIO (atualização enviada especialmente para o modo papagaio)
 
 # 14/06/2018
 
-Correction des anémométres oregon qui ne remontait pas la direction
+Correção de anemômetros oregon que não voltaram a subir na direção
 
-# 07/06/2018
+# 06/06/2018
 
-Rajout de la fonction jamming
-Rajout d'un bouton d'association pour en plus avoir a cliquer sur tester
-Correction d'un bug de détection du dongle
-Amélioration de la réactivité
-Rajout du firmware 1.26
+Adição da função de interferência
+A adição de um botão de associação também precisa clicar no teste
+Correção de um bug de detecção de dongle
+Maior capacidade de resposta
+Adição do firmware 1.26
 
 # 20/04/2018
 

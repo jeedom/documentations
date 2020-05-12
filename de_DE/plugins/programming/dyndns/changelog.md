@@ -1,11 +1,21 @@
-# 13/08/2019
+# Changelog Dyndns
 
-- Support de PHP 7.3
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 17/04/2019
+# 2020.01.13
 
-- Correction d'un bug sur l'icone des équipements
+- Verbesserung und Fehlerbehebung für Jeedom V4
 
-# 20/12/2018
+# 2019.08.13
 
-- Correction d'un bug si le nom d'utilisateur ou le mot de passe contient un caractère spécial
+- Unterstützung für PHP 7.3
+
+# 2019.04.17
+
+- Korrektur eines Fehlers auf dem Ausrüstungssymbol
+
+# 2018.12.20
+
+- Ein Fehler wurde behoben, wenn der Benutzername oder das Passwort ein Sonderzeichen enthielt

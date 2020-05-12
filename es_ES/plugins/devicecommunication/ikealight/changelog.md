@@ -1,46 +1,55 @@
-- Correction de bug dans le script d'installation des dépendances
+# Registro de cambios Ikea
+
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+# 01/12/2020
+
+- Corrección de errores en el script de instalación de dependencias
+- Inversión del widget para las tiendas (tenga cuidado de eliminar el equipo tipo tienda y reiniciar el demonio)
 
 # 16/10/2019
 
-- Actualización de la documentación
+- Actualizando el documento
 
-# 14/10/2019
+# 10/14/2019
 
-- Corrección de errores
+- Correcciones de errores
 
 # 10/10/10
 
-- Support des stores
-- Amélioration du nom des commandes et type générique
-- Adaptation de l'interface à Jeedom V4
-- Support php 7.3
-- changement complet du démon
+- Apoyo ciego
+- Mejora de nombres de comando y tipo genérico
+- Adaptando la interfaz a Jeedom V4
+- Soporte PHP 7.3
+- cambio completo de demonio
 
-IMPORTANT : suite à cette mise à jour il faut reinstaller les dependances et relancer le demon
+Importante : Después de esta actualización, debe reinstalar las dependencias y volver a iniciar el demonio
 
 # 07-06-2019
 
-- Amélioration script de dépendances
+- Script de dependencia mejorado
 
-# 27-05-2019
+# 2019-05-27
 
-- Changement provisoire lié au changement induit par la dernière maj IKEA
-- Ajout des prises
-- Amélioration de la gestion des retours d'état
+- Cambio temporal debido al cambio provocado por la última actualización de IKEA
+- Agregar tapones
+- Gestión mejorada de devoluciones de estado
 
 # 14/02/2019
 
-- Correction bug detection auto des confs
+- Corrección de errores de detección automática de confs
 
 # 16/10/2018
-- Rajout conf transformer
-- Gestion des noms avec /
+- Agregar conf transform
+- Gestión de nombres con /
 
-# 24/04/2018
+# 04/24/2018
 
-- Rajout du panneau de led 30x90
-- Rajout de l'ampoule E26 980lm
+- Adición de panel LED 30x90
+- Adición de la bombilla E26 980lm
 
 # 21/03/2018
 
-- L'ampoule 1000lm possède deux variantes rajout de la conf
+- La bombilla de 1000lm tiene dos variantes que agregan la conf

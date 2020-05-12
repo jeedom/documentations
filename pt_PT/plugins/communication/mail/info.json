@@ -1,11 +1,11 @@
 {
-	"id" : "mail",
-	"name" : "Mail",
-	"description" : "Plugin pour envoyer des mails",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "2.4",
-	"category" : "communication",
-	"changelog" : "https://jeedom.github.io/plugin-mail/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-mail/#language#/"
+    "id": "mail",
+    "name": "Mail",
+    "description": "Plugin pour envoyer des mails",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "2.4",
+    "category": "communication",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/mail\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/mail\/"
 }

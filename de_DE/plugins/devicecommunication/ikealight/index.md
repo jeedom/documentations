@@ -1,33 +1,22 @@
-# Beschreibung
+# IkeaLight Plugin
 
-Le plugin IkeaLight permet d’établir un lien avec la passerelle Ikea
-Tradfri. Vous pourrez controller vos lumières et avoir un retour d’état
-temps réel.
+Mit dem IkeaLight-Plugin kann eine Verbindung zum Ikea Tradfri-Gateway hergestellt werden. Sie können Ihre Lichter steuern und Echtzeit-Status-Feedback erhalten.
 
-# Konfiguration
+# Configuration
 
 ## Plugin Konfiguration
 
-Après téléchargement du plugin il vous faut l’activer et renseigner l’IP
-de votre passerelle ainsi que la clé disponible sur l’étiquette de la
-passerelle (le "Security code").
+Nach dem Herunterladen des Plugins müssen Sie es aktivieren und die IP Ihres Gateways sowie den auf dem Gateway-Etikett verfügbaren Schlüssel (den "Sicherheitscode") eingeben.
 
-## Détection des ampoules
+## Lampenerkennung
 
-Pour scanner les équipements Ikea, il suffit de lancer (une fois les dépendances
-elancé) le démon. Les ampoules remontés par la
-passerelle et qui sont reconnus par Jeedom seront automatiquement créé.
-Si une ampoule ne remonte pas merci de mettre le plugin de Debug de
-relancer la découverte et de nous fournir la log afin que l’on puisse
-rajouter les ampoules manquantes. (Pensez à bien préciser votre ampoule
-ainsi que ses caractéristiques dans le ticket : est elle dimmable, est
-elle variable en blanc, est elle variable en couleur). Le plugin vous remontera également les prises les stores
+Um Ikea-Geräte zu scannen, starten Sie einfach den Dämon (sobald die Abhängigkeiten gestartet wurden). Die vom Gateway wieder zusammengebauten und von Jeedom erkannten Lampen werden automatisch erstellt. Wenn eine Glühbirne nicht auftaucht, setzen Sie bitte das Debug-Plugin ein, um die Erkennung neu zu starten, und stellen Sie uns das Protokoll zur Verfügung, damit wir die fehlenden Glühbirnen hinzufügen können. (Denken Sie daran, Ihre Glühbirne und ihre Eigenschaften im Ticket anzugeben : ist es dimmbar, ist es variabel in Weiß, ist es variabel in Farbe). Das Plugin bringt Ihnen auch die Blinds Sockets
 
-**Une fois decouverte chaque ampoule aura :**
+**Einmal entdeckt, wird jede Glühbirne haben :**
 
--   Les actions correspondantes
--   Les infos correspondantes
+-   Die entsprechenden Aktionen
+-   Die entsprechenden Infos
 
 >**Symfonisk**
 >
->Les enceintes connectée Symfonisk ne sont pas gerées par ce plugin mais par le plugin Sonos
+>Mit Symfonisk verbundene Lautsprecher werden nicht von diesem Plugin, sondern vom Sonos-Plugin verwaltet

@@ -1,188 +1,114 @@
-Ce plugin permet d’établir un bilan énergétique de son habitation en
-fournissant un panel donnant les postes de consommation
+# Plugin de energia
 
-Configuration du plugin 
-=======================
+Este plugin permite que você estabeleça um balanço energético da sua casa, fornecendo um painel que fornece os itens de consumo
 
-Après téléchargement du plugin, il vous faut l’activer. Vous avez
-ensuite accès à la configuration de base du plugin :
+# Configuração do plugin 
+
+Depois de baixar o plugin, você precisa ativá-lo. Você terá acesso à configuração básica do plugin :
 
 ![energy1](../images/energy1.PNG)
 
-Vous retrouvez ici la configuration de base :
+Aqui você encontra a configuração básica :
 
--   **Tarification** : cette partie permet de configurer les paramètres
-    de tarification
+-   **Preços** : esta parte permite configurar os parâmetros de preços
+    -   **Moeda** : permite que você configure sua moeda (por padrão €)
+-   **Água** : configuração de gerenciamento de água
+    -   **Ativar** : ativar ou não a gestão da água
+    -   **Tarifa** : preço da água por L
+-   **Gás** : configuração de gerenciamento de gás
+    -   **Ativar** : ativar ou não o gerenciamento de gás
+    -   **Tarifa** : preço do gás por kWh
+-   **Eletricidade** : configuração de gerenciamento de eletricidade
+    -   **Ativar** : ativar ou não o gerenciamento de eletricidade
+    -   **Preços** : escolha do modo de preço, horário fixo ou horário de pico / fora de pico
+    -   **Tarifa** : preço da eletricidade por kWh
 
-    -   **Devise** : permet de configurer votre devise (par défaut €)
-
--   **Eau** : configuration de la gestion de l’eau
-
-    -   **Activer** : active ou non la gestion de l’eau
-
-    -   **Tarif** : tarif de l’eau par L
-
--   **Gaz** : configuration de la gestion du gaz
-
-    -   **Activer** : active ou non la gestion du gaz
-
-    -   **Tarif** : tarif du gaz par kWh
-
--   **Electricité** : configuration de la gestion de l’électricité
-
-    -   **Activer** : active ou non la gestion de l’électricité
-
-    -   **Tarification** : choix du mode de tarification, fixe ou heures
-        pleines/heures creuses
-
-    -   **Tarif** : tarif de l’électricité par kWh
-
-Si vous êtes en heures pleines/heures creuses :
+Se você estiver nos horários de pico / fora de pico :
 
 ![energy2](../images/energy2.PNG)
 
-Vous pouvez ici entrer le tarif en heures pleines et heures creuses
-ainsi que les heures de bascule (3 zones maximum).
+Aqui você pode inserir a tarifa nos horários de pico e fora de pico, bem como nas horas de alternância (máximo de 3 zonas).
 
-> **Tip**
+> **Dica**
 >
-> Il est possible en mode tarification fixe de mettre des formules de
-> calcul, par exemple 0.05 + 0.05 \* \#\[ma\]\[commande\]\[mode\]\#,
-> ainsi si \#\[ma\]\[commande\]\[mode\]\# vaut 1 alors le prix sera de
-> 0.1 sinon de 0.05. Cela permet si vous avez l’information de la
-> tarification en cours de gérer tous les cas.
+> É possível, no modo de preço fixo, colocar fórmulas de cálculo, por exemplo, 0.05 + 0.05 \* \#\[ma\]\[commande\]\[mode\]\#, então se \#\[ma\]\[commande\]\[mode\]\# vale 1, então o preço será 0.1 caso contrário 0,05. Isso permite gerenciar todos os casos, se você tiver informações atuais sobre preços.
 
-Configuration des équipements 
-=============================
+# Configuração do equipamento 
 
-La configuration des équipements "énergie" est accessible à partir du
-menu plugin :
+A configuração do equipamento "energia" pode ser acessada no menu do plugin :
 
 ![energy3](../images/energy3.PNG)
 
-Voilà à quoi ressemble la page du plugin énergie (ici avec déjà 5
-équipements) :
+É assim que a página do plug-in de energia se parece (aqui com 5 dispositivos já) :
 
 ![energy4](../images/energy4.PNG)
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, mettre la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible).
-
-Une fois que vous cliquez sur l’un des équipements, vous obtenez :
+Depois de clicar em um dos dispositivos, você obtém :
 
 ![energy5](../images/energy5.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nom de l’équipement** : nom de votre équipement énergie
+-   **Nome de equipamentos** : nome do seu equipamento energético
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence
+-   **Ativar** : torna seu equipamento ativo
+-   **Visivél** : torna visível no painel
+-   **Tipo** : permite escolher o tipo de "energia" (eletricidade, água ou gás)
+-   **Este contador fornece um total** : informa à jeedom que este equipamento fornece o consumo total para o objeto afetado. Por exemplo, se você possui um contador de teleinfo ou um hidrômetro que mostra o consumo total de sua casa, marque essa caixa e atribua o contador ao objeto que representa a casa (e, portanto, certamente o objeto pai de todas os outros).
+-   **Histórico** : permite apagar completamente o histórico do seu contador. Recomenda-se fazer isso após a configuração do equipamento para evitar sair do histórico de consumo dos módulos e, portanto, ter o primeiro dia totalmente distorcido.
 
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
-
--   **Activer** : permet de rendre votre équipement actif
-
--   **Visible** : le rend visible sur le dashboard
-
--   **Type** : permet de choisir le type "d’énergie" (électricité, eau
-    ou gaz)
-
--   **Ce compteur donne un total** : indique à jeedom que cet équipement
-    donne le total de la consommation pour l’objet affecté. Par exemple
-    si vous avez un compteur téléinfo ou un compteur d’eau qui vous
-    remonte la consommation totale de votre domocile, vous cochez cette
-    case et affectez le compteur à l’objet qui représente le domocile
-    (et donc certainement l’objet père de tous les autres).
-
--   **Historique** : permet d’effacer totalement l’historique de
-    votre compteur. Il est recommandé de faire cela après configuration
-    de l’équipement pour éviter de repartir avec l’historique de
-    consommation des modules et donc d’avoir la première journée
-    totalement faussée.
-
-> **Important**
+> **IMPORTANTE**
 >
-> Attention lorsque un équipement energie est en total il n’apparaitra
-> que sur l’objet auxquel il appartient et non sur ses parents
+> Atenção quando um equipamento energético estiver no total, ele aparecerá apenas no objeto ao qual pertence e não nos pais
 
-Sur la droite vous retrouvez aussi des sélecteurs qui vous permettent de
-choisir ce qu’il faut afficher sur le widget.
+À direita, você também encontrará seletores que permitem escolher o que exibir no widget.
 
-En dessous vous retrouvez la configuration de l’équipement. Un bouton à
-droite permet d’en ajouter :
+Abaixo você encontra a configuração do equipamento. Um botão à direita permite adicionar mais :
 
--   **Catégorie** : la catégorie de la consommation de l’équipement (les
-    catégories sont fixes, vous ne pouvez pas en ajouter). En mode
-    compteur total, il n’y a que la catégorie Autre de possible.
+-   **Categoria** : categoria de consumo de equipamento (as categorias são fixas, você não pode adicionar nenhuma). No modo de contador total, apenas a categoria Outros é possível.
+-   **Poder** : como ter o poder deste equipamento ? é aqui que você pode simular o consumo. Por exemplo, aqui há \#\[Chambre\]\[Lumière\]\[Etat\]\# \* 0.6 : o estado da minha luz varia de 0 a 100; portanto, quando minha lâmpada está acesa, tenho 100 \* 0,6 = 60 ou uma potência de 60 watts, que corresponde à potência da minha lâmpada.
+-   **CONSUMO** : comando que fornece o consumo do equipamento, se você deixar vazio e o campo de energia estiver preenchido, o plug-in calculará automaticamente o consumo.
+-   **Remover** (pequeno botão de menos) : excluir a linha.
 
--   **Puissance** : comment avoir la puissance de cet équipement ? c’est
-    ici que vous pouvez simuler une consommation. Par exemple ici il y a
-    \#\[Chambre\]\[Lumière\]\[Etat\]\# \* 0.6 : l’état de ma lumière
-    varie de 0 à 100, donc quand ma lampe est allumée j’ai bien 100 \*
-    0.6 = 60 soit une puissance de 60 watt qui correspond à la puissance
-    de mon ampoule.
-
--   **Consommation** : commande donnant la consommation de l’équipement,
-    si vous laissez vide et que le champs puissance est rempli alors le
-    plugin va automatiquement calculer la consommation.
-
--   **Supprimer** (petit bouton moins) : pour supprimer la ligne.
-
-Compteur d’eau ou de gaz 
-========================
+# Medidor de água ou gás 
 
 ![energy6](../images/energy6.PNG)
 
-Deux possibilités :
+Duas possibilidades :
 
--   soit vous avez une commande qui vous indique la consommation, et là
-    vous avez juste à indiquer la consommation.
+-   ou você tem um pedido que indica o consumo, e aí você só precisa indicar o consumo.
+-   ou também é possível indicar os índices manualmente e salvar.
 
--   soit il est aussi possible d’indiquer les index à la main puis
-    de sauvegarder.
+# Teleinfo 
 
-Téléinfo 
-========
+Para o teleinfo, basta colocar os diferentes índices do seu teleinfo no campo de consumo do equipamento (todos no mesmo campo com + no meio ou criar um campo por índice).
 
-Pour la téléinfo, il faut juste mettre les différents index de votre
-téléinfo dans le champs consommation de l’équipement (soit tous dans le
-même champ avec des + au milieu, soit créer un champ par index).
+# Painel 
 
-Panel 
-=====
-
-Une fois vos différents équipements énergie configurés, vous avez un
-panel accessible à partir du menu accueil :
+Depois que seu equipamento de energia diferente estiver configurado, você terá um painel acessível no menu inicial :
 
 ![energy7](../images/energy7.PNG)
 
-Voilà le résultat :
+Esse é o resultado :
 
 ![energy8](../images/energy8.PNG)
 
-Ici vous pouvez choisir, la période d’affichage du panel, le groupement
-des données (jour ou mois) et le type d’énergie que vous voulez afficher
-(en fonction des données actives ou non).
+Aqui você pode escolher, o período de exibição do painel, o agrupamento de dados (dia ou mês) e o tipo de energia que você deseja exibir (dependendo dos dados ativos ou não).
 
-Le panel est aussi accessible en mobile par Plugins → Energie :
+O painel também pode ser acessado por celular via Plugins → Energia :
 
 ![energy9](../images/energy9.PNG)
 
-Une fois dessus vous obtenez :
+Uma vez nele, você obtém :
 
 ![energy10](../images/energy10.PNG)
 
-FAQ 
-===
+# Faq 
 
-Mes compteurs ne semblent pas être en temps réel.
+**Meus contadores não parecem estar em tempo real.**
 
-:   Le plugin énergie n’est pas là pour faire du temps réel, il fait un
-    relevé toutes les 15 min. Donc dans le cas de la simulation de
-    consommation, il faut 15 min pour qu’un changement d’état soit pris
-    en compte, si votre lampe ne reste allumée que 10 min sa
-    consommation ne sera donc pas pris en compte.
+O plug-in de energia não existe para fazer em tempo real, é preciso uma leitura a cada 15 minutos. Então, no caso da simulação de
+leva 15 minutos para que uma mudança de estado seja levada em consideração, se a lâmpada permanecer acesa apenas por 10 minutos
+portanto, o consumo não será levado em consideração.
 
 

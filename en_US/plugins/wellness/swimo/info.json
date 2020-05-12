@@ -1,16 +1,25 @@
 {
-	"id" : "swimo",
-	"name" : "Swimo",
-	"description" : "Permet de piloter un controleur de piscine Swimo",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.2",
-	"category" : "wellness",
-	"hasDependency" : false,
-	"hasOwnDeamon" : false,
-	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://jeedom.github.io/plugin-swimo/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-swimo/#language#/",
-	"language" : ["fr_FR"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+    "id": "swimo",
+    "name": "Swimo",
+    "description": "Permet de piloter un controleur de piscine Swimo",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.2",
+    "category": "wellness",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/swimo\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/swimo\/",
+    "language": [
+        "fr_FR"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile"
+    ]
 }

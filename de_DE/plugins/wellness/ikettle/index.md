@@ -1,48 +1,34 @@
-Ce plugin permet de gérer vos bouilloires Ikettle de Smarter (attention uniquement V1 et V2).
+# Ikettle Plugin
 
-Plugin-Konfiguration
-=======================
+Mit diesem Plugin können Sie Ihre Smarter Ikettle-Wasserkocher verwalten (nur Aufmerksamkeit V1 und V2).
 
-Après installation du plugin, il vous suffit de l’activer. Si les dépendances sont OK, renseignez l'ip de votre bouilloire et sauvegarder. Logiquement l'équipement se créera tout seul.
+# Plugin Konfiguration 
 
-Gerätekonfiguration
-=============================
+Nach der Installation des Plugins müssen Sie es nur noch aktivieren. Wenn die Nebengebäude in Ordnung sind, geben Sie die IP für Ihren Wasserkocher ein und speichern Sie. Logischerweise wird sich das Gerät selbst erstellen.
 
-La configuration des équipements Ikettle est accessible à partir du menu
-plugins puis Confort. Vous retrouvez ici :
+# Gerätekonfiguration 
 
--   un bouton pour afficher la configuration du plugin
+Die Konfiguration der Ikettle-Ausrüstung ist über das Plugins-Menü und dann über Comfort zugänglich. Sie finden hier :
 
--   un bouton qui vous donne une vue d'ensemble de tous vos équipements
+-   eine Schaltfläche zum Anzeigen der Konfiguration des Plugins
+-   Eine Schaltfläche, die Ihnen einen Überblick über alle Ihre Geräte gibt
+-   Schließlich finden Sie unten die Liste Ihrer Ausrüstung
 
--   enfin en dessous vous retrouvez la liste de vos équipements
+Wenn Sie auf eines Ihrer Geräte klicken, gelangen Sie auf die Konfigurationsseite Ihres Geräts mit 2 Registerkarten, Geräten und Steuerelementen.
 
-En cliquant sur un de vos équipements vous arrivez sur la page
-configuration de votre équipement comprenant 2 onglets, équipement et
-commandes.
+-   **Registerkarte Ausrüstung** :
+-   **Name der Ausrüstung** : Name Ihrer Ausrüstung
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv
+-   **Sichtbar** : macht es auf dem Dashboard sichtbar
+-   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört
+-   **Registerkarte &quot;Bestellungen&quot;** :
+    -  Hier finden Sie alle Befehle (einige sind nur dem Szenario gewidmet)
 
--   **Onglet Equipement** :
+# Widget 
 
--   **Nom de l’équipement** : nom de votre équipement
-
--   **Aktivieren**: auf Ihre aktiven Geräte machen
-
--   Visible ** **: macht es sichtbar auf dem Armaturenbrett
-
--   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
-    Ausrüstung
-
-
--   **Onglet Commandes** :
-
--  Ici vous retrouverez l'ensemble des commandes (certaines étant dédiées uniquement au scénario)
-
-Widget 
-======
-
-Ce plugin dispose d'un widget sépcifique, cela veut dire qu'il ne peut pas être changé.
+Dieses Plugin hat ein bestimmtes Widget, das heißt, es kann nicht geändert werden.
 
 ![ikettle](./images/ikettle_screenshot.jpg)
 
-On y retrouve la température mesurée, le niveau d'eau (arbitraire ne marche pas bien), la présence ou non de la bouillloire sur son socle, les différentes actions ainsi que le statut.
+Wir finden die gemessene Temperatur, den Wasserstand (willkürlich funktioniert nicht gut), das Vorhandensein oder Nichtvorhandensein des Kessels auf seiner Basis, die verschiedenen Aktionen sowie den Status.
 

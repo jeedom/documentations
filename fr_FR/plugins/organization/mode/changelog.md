@@ -1,3 +1,5 @@
+# Changelog Mode
+
 # 11/12/2019
 
 - Correction d'un bug sur l'app Mobile et le plugin Homebridge.

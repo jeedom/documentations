@@ -1,48 +1,54 @@
-# 02/10/2019
+# Registro de cambios RFXcom
 
-- Amélioration de la fonction de detection du port du rfxcom
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+# 10/02/2019
+
+- Mejora de la función de detección de puertos rfxcom
 
 # 16/05/2019
 
-- Correction bug interface
+- Interfaz de corrección de errores
 
-# 03/05/2019
+# 05/03/2019
 
-- Suppresion du suport MCZ 3 fan
+- Retire el ventilador MCZ 3 ventilador
 
 # 30/04/2019
 
-- Correction bug
+- Corrección de errores
 
 # 29/04/2019
 
-- Correction d'un bug si le niveau de log est sur aucun
-- Support du MCZ 3 fan
-- Actualización de la documentación
+- Corrección de un error si el nivel de registro es ninguno
+- Soporte de ventilador MCZ 3
+- Actualizando el documento
 
-# 08/10/2018
+# 10/08/2018
 
-- Fix comparaison expected et wanted protocols en lowercase
+- Fijar los protocolos de comparación esperados y deseados en minúsculas
 
-# 08/10/2018
+# 10/08/2018
 
-- Revu du démarrage du démon (by Sarakha)
-- Compatible avec le derniere RFXCOM (by Sarakha)
-- Séparation en thread de l'écoute socket et clef RFXCOM (by Sarakha)
+- Revisión de inicio de demonio (por Sarakha)
+- Compatible con el último RFXCOM (por Sarakha)
+- Separación en el hilo del zócalo de escucha y la clave RFXCOM (por Sarakha)
 
 # 14/04/2018
 
-- Correction d'un bug ou le démon pouvez rater certain message si ceux-ci arrivaient avant l'envoi à Jeedom en meme temps avec le meme packet type
+- La corrección de un error o el demonio puede perder ciertos mensajes si llegaron antes de enviarlos a Jeedom al mismo tiempo con el mismo tipo de paquete
 
 # 17/03/2018
 
-- Actualización de la documentación
+- Actualizando el documento
 
 # 28/02/2018
 
-- Correction d'un bug sur le changement de batterie
+- Corrección de un error en el cambio de batería
 
-# 01-12-2017
+# 2017-12-01
 
--   Les commandes d’action pour les modules de type télécommande sont
-    automatiquement créées
+-   Los comandos de acción para los módulos de tipo de control remoto son
+    creado automáticamente

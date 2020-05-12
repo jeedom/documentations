@@ -1,131 +1,101 @@
-Plugin permettant de récupérer les informations des stations météo
-Netatmo.
+# Netatmo Weather plugin
 
-== Plugin configuration
+Plugin to retrieve information from weather stations Netatmo.
 
-Une fois le plugin installé, il vous faut renseigner vos informations de
-connexion Netatmo :
+# Plugin configuration
+
+Once the plugin is installed, you need to enter your Netatmo connection information :
 
 ![netatmoWeather2](./images/netatmoWeather2.png)
 
--   **Client ID** : votre client ID (voir partie configuration)
+-   **Client ID** : your client ID (see configuration section)
+-   **Client secret** : your secret client (see configuration section)
+-   **Username** : username of your netatmo account
+-   **Password** : password for your Netatmo account
+-   **Synchronize** : allows you to synchronize Jeedom with your Netamo account to automatically discover your Netamo equipment. To do after saving the previous parameters.
 
--   **Client secret** : votre client secret (voir partie configuration)
+# Retrieving connection information
 
--   **Nom d’utilisateur** : nom d’utilisateur de votre compte netatmo
+Pour intégrer votre station, vous devez posséder un client\_id et unclient\_secret généré sur le site <http://dev.netatmo.com>.
 
--   **Mot de passe** : mot de passe de votre compte Netatmo
-
--   **Synchroniser** : permet de synchroniser Jeedom avec votre compte
-    Netamo pour découvrir automatiquement vos équipements Netamo. A
-    faire après avoir sauvegardé les paramètres précedent.
-
-Recupération des informations de connexion 
-==========================================
-
-Pour intégrer votre station, vous devez posséder un client\_id et un
-client\_secret généré sur le site <http://dev.netatmo.com>.
-
-Une fois dessus cliquez sur start :
+Once on click on start :
 
 ![netatmoWeather10](./images/netatmoWeather10.png)
 
-Puis sur "create an app"
+Then on "create an app"
 
 ![netatmoWeather11](./images/netatmoWeather11.png)
 
-Identifiez vous, avec votre mail et mot de passe
+Identify yourself, with your email and password
 
 ![netatmoWeather12](./images/netatmoWeather12.png)
 
-Remplissez les champs "Name" et "Description" (peux importe ce que vous
-mettez ca n’a aucune importance) :
+Fill in the "Name" and "Description" fields (whatever you put in it doesn't matter) :
 
 ![netatmoWeather13](./images/netatmoWeather13.png)
 
-Puis tout en bas de la page cochez la case "I accept the terms of use"
-puis cliquez sur "Create"
+Then at the very bottom of the page check the box "I accept the terms of use" then click on "Create"
 
 ![netatmoWeather14](./images/netatmoWeather14.png)
 
-Recuperer les informations "CLient id" et "Client secret" et copier les
-dans la partie configuration du plugin dans Jeedom (voir chapitre
-précedent)
+Recover the "CLient id" and "Secret client" information and copy them in the configuration part of the plugin in Jeedom (see previous chapter)
 
 ![netatmoWeather15](./images/netatmoWeather15.png)
 
 > **Important**
 >
-> Attention il faut bien que l’url de callback soit à "None" sinon ca ne
-> marchera pas.
+> Please note that the callback url must be "None" otherwise it will not work.
 
-Equipment configuration
-=============================
+# Equipment configuration
 
-La configuration des équipements Netatmo est accessible à partir du menu
-plugin :
+The configuration of Netatmo equipment is accessible from the menuplugin :
 
 ![netatmoWeather3](./images/netatmoWeather3.png)
 
-Voilà à quoi ressemble la page du plugin Netatmo (ici avec déjà 2
-équipement) :
+This is what the Netatmo plugin page looks like (here with 2 equipment already) :
 
 ![netatmoWeather4](./images/netatmoWeather4.png)
 
 > **Tip**
 >
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible).
+> As in many places on Jeedom, placing the mouse on the far left allows a quick access menu to appear (you can always leave it visible from your profile).
 
-Une fois que vous cliquez sur un équipement vous obtenez :
+Once you click on a piece of equipment you get :
 
 ![netatmoWeather5](./images/netatmoWeather5.png)
 
-You can find here the full configuration of your device :
+Here you find all the configuration of your equipment :
 
--   **Nom de l’équipement Netatmo** : nom de votre équipement Netatmo
+-   **Name of the Netatmo device** : name of your Netatmo equipment
+-   **Parent object** : indicates the parent object to which the equipment belongs
+-   **Activate** : makes your equipment active
+-   **Visible** : makes it visible on the dashboard
+-   **Login** : unique equipment identifier
+-   **Type** : type of your equipment (station, indoor probe, outdoor probe…)
 
--   **Parent Object** : means the parent object the equipment depend
-    equipment
+Below you find the list of orders :
 
--   **Enable**: makes your equipment active
+-   the name displayed on the dashboard
+-   Historize : allows to historize the data
+-   advanced configuration (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.)
+-   Test : Used to test the command
 
--   **Visible**: makes it visible on the dashboard
+# Widget
 
--   **Identifiant** : identifiant unique de l’équipement
-
--   **Type** : type de votre équipement (station, sonde intérieure,
-    sonde extérieures…​)
-
-En dessous vous retrouvez la liste des commandes :
-
--   le nom affiché sur le dashboard
-
--   historiser : permet d’historiser la donnée
-
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
-
--   Test: test the command
-
-Widget 
-======
-
-Voici le widget standard pour une station sur le dashboard :
+Here is the standard widget for a station on the dashboard :
 
 ![netatmoWeather6](./images/netatmoWeather6.png)
 
-Et en mobile :
+And on mobile :
 
 ![netatmoWeather7](./images/netatmoWeather7.png)
 
-FAQ
-===
+# FAQ
 
-Quelle est la fréquence de rafraîchissement ?
+>**What is the refresh rate ?**
+>
+>The system retrieves information every 15 min.
 
-:   Le systeme recupère les informations toutes les 15 min.
-
-
+>**I have my probes but no value that goes back**
+>
+>It happens when there is a problem listed update on modules or Netatmo. The easiest way is to Add / Remove a module and to follow the process it will force an update of everything and should correct the problem.

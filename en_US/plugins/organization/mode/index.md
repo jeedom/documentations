@@ -1,37 +1,26 @@
-Plugin to manage different modes of apartment / house / room but also atmospheres.
+# Fashion Plugin
 
-Plugin configuration
-=======================
+Plugin to manage different modes of an apartment / house / room, but also atmospheres.
 
-After downloading the plugin, you just have to activate it,
-there is no configuration at this level.
+# Plugin configuration
 
-Configuration des équipements
-=============================
+After downloading the plugin, you just need to activate it, there is no configuration at this level.
 
-The configuration of the equipment mode is accessible from the menu
-plugin then organization:
+# Equipment configuration
 
-You can find here the full configuration of your device :
+The configuration of the mode equipment is accessible from the plugin menu then organization :
 
--   **Name of the equipment Mode**: name of your equipment Mode,
+Here you find all the configuration of your equipment :
 
--   **Parent Object** : means the parent object the equipment depend
-    equipment,
+-   **Mode equipment name** : name of your equipment Mode,
+-   **Parent object** : indicates the parent object to which the equipment belongs,
+-   **Activate** : makes your equipment active,
+-   **Visible** : makes your equipment visible on the dashboard,
+-   **Category** : equipment categories (it can belong to several categories).
+-   **Add mode** : button to add a new mode
 
--   **Enable**: to make your equipment active,
+Below you find the list of modes, by clicking on it you will be able to choose the actions to do when entering this mode and when exiting.
 
--   **Visible**: makes your equipment visible on the dashboard,
-
--   **Category**: categories of equipment (it may belong to
-    several categories).
-
--   **Add mode**: button to add a new mode
-
-Below you find the list of modes, by clicking on them
-you will be able to choose the actions to be done when entering this mode
-and at the exit.
-
->**IMPORTANT**
+>**Important**
 >
->Attention lors du renommage d'un mode il faut absoluement revoir les scénarios/équipement qui utiliser l'ancien nom pour les passer sur le nouveau
+>Attention during the renaming of a mode it is absolutely necessary to review the scenarios / equipment which use the old name to pass them on the new

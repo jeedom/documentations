@@ -1,15 +1,29 @@
 {
-	"id" : "rfplayer2",
-	"name" : "RfPlayer2",
-	"description" : "Plugin ajoutant le support de la clé RfPlayer de Ziblue à Jeedom. Ce plugin remplacera à terme le premier plugin. Il sera mis à disposition de tous les possesseurs du premier plugin. Cela permettra à chacun de migrer tranquillement. Car la philosophie du plugin ayant changé et les ids aussi, il faudra réinclure vos devices sur ce nouveau plugin.",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.0",
-	"category" : "automation protocol",
-	"hasDependency" : true,
-	"hasOwnDeamon" : true,
-	"changelog" : "https://jeedom.github.io/plugin-rfplayer2/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-rfplayer2/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+    "id": "rfplayer2",
+    "name": "RfPlayer2",
+    "description": "Plugin ajoutant le support de la clé RfPlayer de Ziblue à Jeedom. Ce plugin remplacera à terme le premier plugin. Il sera mis à disposition de tous les possesseurs du premier plugin. Cela permettra à chacun de migrer tranquillement. Car la philosophie du plugin ayant changé et les ids aussi, il faudra réinclure vos devices sur ce nouveau plugin.",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.0",
+    "category": "automation protocol",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/rfplayer2\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/rfplayer2\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy"
+    ]
 }

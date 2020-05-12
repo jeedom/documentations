@@ -1,1 +1,3 @@
-V1. First Release
+# Changelog Swimo
+
+V1 Primer lanzamiento

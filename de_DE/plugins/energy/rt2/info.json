@@ -1,14 +1,28 @@
 {
-	"id" : "rt2",
-	"name" : "Eco RT2",
-	"description" : "Plugin pour piloter l'eco RT2",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.3.31",
-	"category" : "energy",
-	"hasOwnDeamon" : true,
-	"changelog" : "https://jeedom.github.io/plugin-rt2/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-rt2/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["Jeedomboard","Smart","RPI/RPI2","Docker","DIY"]
+    "id": "rt2",
+    "name": "Eco RT2",
+    "description": "Plugin pour piloter l'eco RT2",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3.31",
+    "category": "energy",
+    "hasOwnDeamon": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/rt2\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/rt2\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "Jeedomboard",
+        "Smart",
+        "RPI\/RPI2",
+        "Docker",
+        "DIY"
+    ]
 }

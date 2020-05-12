@@ -1,19 +1,25 @@
-# 28/08/2019
-- amélioration des widgets
-- amélioration du panel
-- passage à un démon (relancer les dépendances si besoin)
-- passage du plugin LMS en 2.1.1
-- rajout d'une gestion de jingles
-- rajout d'une option pour rajouter un blanc au début d'un tts
-- rajout de commandes favoris avec création de mappage nom/index perso
-- rajout d'une commande parle full options complètes
-- rajout d'une commande jouer morceau
-- refonte complète de la communication avec LMS
+# Changelog SqueezeBox Control
+
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+
+# 08/28/2019
+- improved widgets
+- panel improvement
+- transition to a demon (revive dependencies if necessary)
+- upgrade from LMS plugin to 2.1.1
+- added management of jingles
+- add an option to add a blank at the start of a tts
+- addition of favorite commands with creation of name / personal index mapping
+- adding an order using full full options
+- addition of a play song command
+- complete overhaul of communication with LMS
 
 
-17-05-2018
-Passage a une clé api spécifique au plugin. Attention cela nécessite de mettre à jour le plugin dans Squeezebox Control et de renseigner l'api spécifique du plugin. Cela est le point de départ permettant la réalisation d'optimisation du plugin
+2018-05-17
+Switch to an API key specific to the plugin. Please note that this requires updating the plugin in Squeezebox Control and entering the specific API for the plugin. This is the starting point for the optimization of the plugin
 
-10/03/2018
+03/10/2018
 
-Correction d'un bug sur la transparence design
+Correction of a bug on design transparency

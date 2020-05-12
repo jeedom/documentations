@@ -1,6 +1,8 @@
->**IMPORTANT**
+# Changelog MyhomeSCS
+
+>**Wichtig**
 >
->Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 # 10.05.2020
 
@@ -17,8 +19,3 @@
 
 # V0.002 vom 21.11.2017 
 
-- Problem mit der Python-Abhängigkeit behoben
-
-# V0.001 vom 11.11.2017 
-
-- Erstveröffentlichung

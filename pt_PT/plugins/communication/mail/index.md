@@ -1,145 +1,91 @@
-# Mail
+# Plug-in de email
 
-Plugin permettant d’envoyer des mails.
+Plug-in para enviar e-mails.
 
-Configuration du plugin 
-===
+# Configuração do plugin 
 
-Après avoir installé le plugin, il vous suffit de l’activer. Ce plugin
-n’a aucune configuration particulière :
+Depois de instalar o plugin, você só precisa ativá-lo. Este plugin não possui nenhuma configuração específica :
 
 ![mail1](../images/mail1.PNG)
 
-Configuration des équipements 
-===
+# Configuração do equipamento 
 
-La configuration des équipements Mail est accessible à partir du menu
-plugin :
+A configuração do equipamento Mail é acessível no menu do plug-in :
 
 ![mail2](../images/mail2.PNG)
 
-Voilà à quoi ressemble la page du plugin Mail (ici avec déjà 1 mail,
-vous pouvez en mettre autant que vous voulez avec le bouton "Ajouter") :
+É assim que a página do plugin Mail (aqui, com 1 e-mail já, você pode adicionar quantos quiser com o botão "Adicionar") :
 
 ![mail3](../images/mail3.PNG)
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Depois de clicar em um deles, você obtém :
 
 ![mail4](../images/mail4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nom de l’équipement mail** : nom de votre équipement mail
-
--   **Objet parent** : indique l’objet parent auquel appartient
-    l’équipement
-
--   **Activer** : permet de rendre votre équipement actif
-
--   **Visible** : rend votre équipement visible sur le dashboard
-
--   **Nom expéditeur** : nom de l’expéditeur du mail (ex : Jeedom)
-
--   **Mail expéditeur** : mail de l’expéditeur (ex : <jeedom@moi.fr>)
-
--   **Mode d’envoi** : mode d’envoi du mail :
-
-    -   SMTP : mode le plus courant pour l’envoi de mail
-
+-   **Nome do equipamento de correio** : nome do correio do seu equipamento
+-   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence
+-   **Ativar** : torna seu equipamento ativo
+-   **Visivél** : torna seu equipamento visível no painel
+-   **Nome do remetente** : nome do remetente do e-mail (ex : Jeedom)
+-   **Remetente do correio** : email do remetente (ex : <jeedom@moi.fr>)
+-   **Método de envio** : método de envio do email :
+    -   SMTP : modo mais comum de envio de correio
     -   Sendmail
-
     -   Qmail
+    -   Mail()\[Função PHP \] : use a [função de envio padrão do PHP, window = "\_ blank"](http://fr.php.net/manual/fr/function.mail.php), requer a configuração do sistema operacional
 
-    -   Mail()\[PHP Function\] : utilise la [fonction d’envoi standard
-        de PHP,
-        window="\_blank"](http://fr.php.net/manual/fr/function.mail.php),
-        nécessite de configurer le système d’exploitation
+Além da opção SMTP, as outras opções exigem a configuração do SO (Linux) para poder funcionar. Em outras palavras, basicamente apenas a função SMTP funciona, os outros são reservados para especialistas que podem, se desejarem, configurar essas opções eles mesmos.
 
-Hormis l’option SMTP, les autres options nécessitent la configuration de
-l’OS (Linux) pour pouvoir fonctionner. Autrement dit, de base seule la
-fonction SMTP fonctionne, les autres sont réservées aux experts qui
-pourront, s’ils le souhaitent, paramétrer eux-mêmes ces options.
-
-L’onglet configuration SMTP permet de renseigner les informations du
-serveur d’email que vous voulez utilisé.
+A guia de configuração SMTP permite inserir as informações do servidor de email que você deseja usar.
 
 ![mail screenshot3](../images/mail_screenshot3.jpg)
 
-Voici quelques exemples pour les principaux fournisseurs de services
-email :
+Aqui estão alguns exemplos para os principais provedores de serviços de email :
 
 -   **Gmail**
-
-    -   Serveur SMTP : smtp.gmail.com
-
-    -   Port SMTP : 587
-
-    -   Sécurité SMTP : TLS
-
+    -   Servidor SMTP : smtp.gmail.com
+    -   Porta SMTP : 587
+    -   Segurança SMTP : TLS
 -   **Hotmail**
-
-    -   Serveur SMTP : smtp.live.com
-
-    -   Port SMTP : 587
-
-    -   Sécurité SMTP : TLS
-
+    -   Servidor SMTP : smtp.live.com
+    -   Porta SMTP : 587
+    -   Segurança SMTP : TLS
 -   **iCloud**
-
-    -   Serveur SMTP : smtp.me.com
-
-    -   Port SMTP : 25
-
+    -   Servidor SMTP : smtp.me.com
+    -   Porta SMTP : 25
 -   **Yahoo.com**
+    -   Servidor SMTP : smtp.mail.yahoo.com
+    -   Porta SMTP : 465
+    -   Segurança SMTP : SSL
 
-    -   Serveur SMTP : smtp.mail.yahoo.com
+Les champs « Utilisateur SMTP » et « Mot de passe SMTP » correspondent aux identifiants de votre compte E-mail.
 
-    -   Port SMTP : 465
-
-    -   Sécurité SMTP : SSL
-
-Les champs « Utilisateur SMTP » et « Mot de passe SMTP » correspondent
-aux identifiants de votre compte email.
-
-A partir de l’onglet "Commandes", vous pouvez ajouter des commandes qui
-correspondent aux adresses email auxquelles vous souhaitez pouvoir
-envoyer des emails avec Jeedom :
+Na guia "Pedidos", você pode adicionar pedidos que correspondam aos endereços de e-mail para os quais deseja poder enviar e-mails com o Jeedom :
 
 ![mail screenshot4](../images/mail_screenshot4.jpg)
 
--   **nom** : nom de la commande
+-   **Nome** : nome do comando
+-   **E-mail** : o endereço de email para enviar a mensagem para. Você pode colocar vários separando-os com ,
+-   **Configuração avançada** (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.)
+-   **Teste** : permite testar o comando,
+-   **Remover** (sinal -) : permite excluir o comando.
 
--   **email** : l’addresse email à laquelle envoyer le message. Vous pouvez en mettre plusieurs en les séparants par des ,
+Este plugin funciona como um módulo, ou seja, uma vez salvo, ele aparece na lista de ações ou comandos. Portanto, é muito simples usá-lo ao criar cenários, por exemplo.
 
--   **configuration avancée** (petites roues crantées) : permet
-    d’afficher la configuration avancée de la commande (méthode
-    d’historisation, widget, etc.)
-
--   **tester** : permet de tester la commande,
-
--   **supprimer** (signe -) : permet de supprimer la commande.
-
-Ce plugin fonctionne comme un module, c’est-à-dire qu’une fois
-sauvegardé, il apparaît dans la liste des actions ou commandes. Il est
-ainsi très simple de l’utiliser lors de la création de scénarios par
-exemple.
-
-Dans un scénario, une fois sélectionné dans une action, il faudra saisir
-le titre et le message.
+Em um cenário, uma vez selecionado em uma ação, você precisará inserir o título e a mensagem.
 
 ![mail5](../images/mail5.jpg)
 
-> **Important**
+> **IMPORTANTE**
 >
-> Avec Gmail il faut donner un mot de passe spécifique pour
-> l’application : Mon compte ⇒ connexion et sécurité ⇒ Se connecter à
-> Google ⇒ Mots de passe d’application
+> No Gmail, você precisa fornecer uma senha específica para o aplicativo : Minha conta ⇒ conexão e segurança ⇒ Conectar-se ao Google ⇒ senhas de aplicativos
 
-> **Tip**
+> **Dica**
 >
-> Le format HTML est supporté par l’éditeur de scénario pour le corps
-> des messages.
+> O formato HTML é suportado pelo editor de cenário para o corpo das mensagens.
 
-> **Tip**
+> **Dica**
 >
-> Pensez à sauvegarder toutes les modifications.
+> Lembre-se de salvar todas as alterações.

@@ -1,69 +1,48 @@
-# Description
+# Plugin Neato
 
-Ce plugin permet d’avoir les infos de statut de votre aspirateur Neato
-Botvac Connected et de le controler
+Este plugin permite que você tenha as informações de status do seu aspirador NeatoBotvac Connected e o controle
 
 # Configuration
 
-# Installation/Création
+# Instalação / Criação
 
-Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-l’activer comme tout plugin Jeedom.
+Para usar o plug-in, você deve fazer o download, instalar e ativá-lo como qualquer plug-in Jeedom.
 
-Suite à cela il vous faudra renseigner votre compte Neato
+Depois disso, você precisará entrar na sua conta Neato
 
-Une fois sauvegardé votre Neato sera détecté automatiquement et rajouté
-à votre Jeedom
+Uma vez salvo, seu Neato será automaticamente detectado e adicionado ao seu Jeedom
 
-Rendez vous dans le menu plugins/bien -être pour le retrouver.
+Vá para o menu plugins / bem-estar para encontrá-lo.
 
-# Tableau de Commandes
+# Painel de controle
 
-    -   Alerte : message si une erreur est en cours (brosse bloqué, bac
-        à poussières plein etc…​)
+    -   Aviso : mensagem se um erro estiver em andamento (escova bloqueada, caixote do lixo cheio etc.)
+    -   Parar : Pare o robô
+    -   Código de status : Código técnico do estado
+    -   Iniciar eco house : iniciar a limpeza ecológica
+    -   Iniciar turbo house : Iniciar limpeza turbo
+    -   No comando : Responsável ou não
+    -   Estado : Mensagem de status (pronta para limpar, durante a limpeza, pausada etc.)
+    -   Pausa : Pausar o robô
+    -   Programação : Usado para descobrir se uma programação está em andamento (neato programação)
+    -   Legal : Atualizar informações
+    -   Resumo : retomar a limpeza (se pausado)
+    -   Base de volta : retorno à partida (se estiver em pausa)
+    -   Na doca : Permite saber se o robô está na estação ou não
 
-    -   Arrêter : Arrêter le robot
-
-    -   Code état : Code technique de l’état
-
-    -   Démarrer eco maison : lancer un nettoyage eco
-
-    -   Démarrer turbo maison : Lancer un nettoyage turbo
-
-    -   En charge : En charge ou non
-
-    -   Etat : Message d’état (prêt a nettoyer, en cours de nettoayge,
-        en pause etc…​)
-
-    -   Pause : Mettre en pause le robot
-
-    -   Programmation : Permet de savoir si un programmation est en
-        cours (programmation neato)
-
-    -   Rafraichir : Permet de rafraichir les infos
-
-    -   Reprendre : reprendre le nettoyage (si en pause)
-
-    -   Retour base : retourner au départ (si en pause)
-
-    -   Sur dock : Permet de savoir si le robot est sur le dock ou non
-
-Toutes ces commandes sont disponibles via scénarios et via le dashboard
+Todos esses comandos estão disponíveis através de cenários e através do painel
 
 
-## Comment sont rafraichis les infos
+## Como as notícias são atualizadas
 
-Les infos sont rafraichis une fois toutes les 15 minutes et après chaque
-action exécutée depuis Jeedom. Vous pouvez les rafraichir à la demande
-via scénario avec la commande rafraichir, ou via le dash avec les
-doubles flêches
+As informações são atualizadas uma vez a cada 15 minutos e após cada ação executada no Jeedom. Você pode atualizá-los sob demanda via cenário com o comando refresh ou via traço com as setas duplas
 
 # Faq
 
->**J'ai l'erreur "Could not find robot_serial for specified vendor_name"**
+>**Recebo o erro "Não foi possível encontrar robot_serial para o nome do fornecedor especificado"**
 >
-> Il faut dans la configuration du plugin (Plugins -> Gestion Plugins) faire sauvegarder pour qu'il refasse la detection de votre aspirateur robot
+> É necessário, na configuração do plugin (Plugins -> Management Plugins), salvar para refazer a detecção do seu robô aspirador de pó
 
->**La commande de nttoyage ne marche pas, le robot sort et revient à sa base**
+>**O comando de limpeza não funciona, o robô sai e retorna à sua base ou não respeita as limitações (mapa)**
 >
->Sur certain model de robot il faut absolument definir une carte/paln de navigation, vous trouverez [ici](https://support.neatorobotics.com/hc/fr/articles/360009513113-Comment-cr%C3%A9er-un-plan-d-%C3%A9tage-) pour le faire
+>Em certos modelos de robôs, é absolutamente necessário definir um mapa / paln de navegação, você encontrará [aqui](https://support.neatorobotics.com/hc/fr/articles/360009513113-Comment-cr%C3%A9er-un-plan-d-%C3%A9tage-) fazer isso

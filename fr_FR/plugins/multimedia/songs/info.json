@@ -1,16 +1,30 @@
 {
-	"id" : "songs",
-	"name" : "Sons",
-	"description" : "Plugin permettant d'ajouter des MP3 pour etre jouer par des plugins TTS",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.3.30",
-	"category" : "multimedia",
-	"hasDependency" : false,
-	"hasOwnDeamon" : false,
-	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://jeedom.github.io/plugin-songs/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-songs/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+    "id": "songs",
+    "name": "Sons",
+    "description": "Plugin permettant d'ajouter des MP3 pour etre jouer par des plugins TTS (utilisant le TTS Jeedom)",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3.30",
+    "category": "multimedia",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/songs\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/songs\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy"
+    ]
 }

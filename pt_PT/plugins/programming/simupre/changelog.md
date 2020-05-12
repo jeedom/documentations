@@ -1,41 +1,47 @@
+# Presença na simulação do Changelog
+
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
 # 14/11/2019
 
-- Correction de bugs
+- Correções de bugs
 
-# 05/11/2019
+# 11/05/2019
 
-- Correction de bugs
+- Correções de bugs
 
-# 03/11/2019
+# 03/03/2019
 
-- Correction de warnings
-- Correction d'un bug lors de la duplication
+- Correção de avisos
+- Correção de um bug durante a duplicação
 
 # 16/09/2019
 
-- Correction de bugs
+- Correções de bugs
 
-# 05/09/2019
+# 09/05/2019
 
-- Correction d'un bug de reprogrammation si la simulation n'a pas d'heure de fin
+- Correção de um bug de reprogramação se a simulação não tiver um horário de término
 
 # 26/08/2019
 
-- Corrections de bugs
-- Ajout des dates/heures de lancement prévu par simulation
+- Correções de bugs
+- Adição de datas / horários de lançamento planejados por simulação
 
 # 16/08/2019
 
-- Possibilité de repeter une simulation
-- Correction de bugs
+- Possibilidade de repetir uma simulação
+- Correções de bugs
 
 # 11/08/2019
 
-- Support d'une heure de fin a la palce d'une durée
-- Possibilité de regorganiser les actions dans une simulation
-- Ajout de commande pour l'heure de levée et couché du soleil
-- Mise à jour de la doc
+- Suporte para uma hora final durante um período de tempo
+- Capacidade de reorganizar ações em uma simulação
+- Adição de comando para a hora do nascer e do pôr do sol
+- Atualizando o documento
 
 # 12/07/2019
 
-- Correction d'un bug pour les versions de PHP < 7.0
+- Correção de um bug para versões do PHP <7.0

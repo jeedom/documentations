@@ -1,8 +1,8 @@
-# Description
+# Plugin Simulation de présence
 
 Ce plugin permet de simuler facilement une présence dans la maison quand on est absent de manière crédible (heure et durée aléatoire des évènements)
 
-Vous pouvez trouver [ici](https://www.jeedom.com/blog/4266-simulation-de-presence/) un article montrant un exemple de configuration du plugin
+Vous pouvez trouver [ici](https://blog.jeedom.com/4266-simulation-de-presence/) un article montrant un exemple de configuration du plugin
 
 # Configuration du plugins
 

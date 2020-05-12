@@ -1,45 +1,45 @@
-# Description
+# Presence simulation plugin
 
-Ce plugin permet de simuler facilement une présence dans la maison quand on est absent de manière crédible (heure et durée aléatoire des évènements)
+This plugin allows you to easily simulate a presence in the house when you are absent in a credible way (time and random duration of events)
 
-Vous pouvez trouver [ici](https://www.jeedom.com/blog/4266-simulation-de-presence/) un article montrant un exemple de configuration du plugin
+You can find [here](https://blog.jeedom.com/4266-simulation-de-presence/) an article showing an example configuration of the plugin
 
-# Configuration du plugins
+# Plugins configuration
 
-Rien de spécial ici juste à installer et activer le plugin
+Nothing special here just to install and activate the plugin
 
-# Configuration des simulations
+# Configuration of simulations
 
-Vous retrouvez dans le premier onglet toute la configuration de votre équipement :
+You will find in the first tab all the configuration of your equipment :
 
-- Nom de l’équipement : nom de votre équipement Simulation,
-- Objet parent : indique l’objet parent auquel appartient l’équipement,
-- Activer : permet de rendre votre équipement actif,
-- Visible : rend votre équipement visible sur le dashboard.
+- Name of equipment : name of your Simulation equipment,
+- Parent object : indicates the parent object to which the equipment belongs,
+- Activate : makes your equipment active,
+- Visible : makes your equipment visible on the dashboard.
 
-Ensuite, vous avez deux autres paramètres à configurer :
+Then you have two other parameters to configure :
 
-- Latitude et longitude de votre maison, ce qui permet au plugin de calculer en local les heures de lever et coucher du soleil
+- Latitude and longitude of your house, which allows the plugin to locally calculate the sunrise and sunset times
 
-Dans le second onglet vous allez retrouver la configuration des simulations :
+In the second tab you will find the configuration of the simulations :
 
-- elles ont un nom (pour les retrouver plus facilement)
-- une condition de lancement, si la condition est fausse alors la simulation de ne se fera pas (si vous ne mettez rien alors la configuration se lancera forcément)
-- des actions d'entrées : se font lors du lancement de la simulation
-- des action de sorties (optionnelles) : se font lors de la fin de la simulation
-- des heures de début et des durées :
-  - l'heure de début peut être fixe entre 2 bornes (entre 18h30 et 19h30 par exemple, le plugin choisira chaque jour une heure aléatoire entre les deux bornes)
-  - l'heure de début peut être par rapport au lever du soleil (par exemple de -20, pour 20 minutes avant à 30, pour 30 minutes après)
-  - l'heure de début peut être par rapport au coucher du soleil (par exemple de -10, pour 10 minutes avant à 15, pour 15 minutes après)
-- une durée ou une heure de fin
-  - si c'est une durée il vous suffit de mettre 20 en minimun et 40 en maximum pour une durée aléatoire entre 20 et 40 min
-  - pour une heure de fin fixe entre 19h05 et 19h35 il faut mettre 19:05 en min et 19:35 en max
-- Repétition : permet de repeter X fois l'action de debut/fin sur la période (attention la période doit etre supérieure à 2min, vous ne pouvez pas faire 5 répetition sur une simulation de durée 5min par exemple). Important il est recommandé de ne pas mettre plus de 5 en repetion, au dela le systeme peut ne pas les éxécuter
+- they have a name (to find them more easily)
+- a launch condition, if the condition is false then the simulation will not be done (if you do not put anything then the configuration will necessarily launch)
+- input actions : are done when launching the simulation
+- output actions (optional) : are done at the end of the simulation
+- start times and durations :
+  - the start time can be fixed between 2 terminals (between 6:30 p.m. and 7:30 p.m. for example, the plugin will choose a random time between the two terminals each day)
+  - start time can be relative to sunrise (for example from -20, for 20 minutes before to 30, for 30 minutes after)
+  - the start time can be relative to sunset (for example from -10, for 10 minutes before to 15, for 15 minutes after)
+- a duration or an end hour
+  - if it is a duration you just have to put 20 in minimum and 40 in maximum for a random duration between 20 and 40 min
+  - for a fixed end time between 7:05 p.m. and 7:35 p.m. you must set 19:05 in min and 19:35 max
+- Repetition : allows you to repeat X times the start / end action over the period (note that the period must be greater than 2 min, you cannot do 5 repetitions on a simulation of duration 5 min for example). Important it is recommended not to put more than 5 in repetion, beyond the system may not execute them
 
 >**NOTE**
 >
-> Le format pour les heures est le suivant hh:mm, pour 12h30 il faut donc mettre 12:30
+> The format for the hours is as follows hh:mm, for 12:30 p.m. so put 12:30
 
->**IMPORTANT**
+>**Important**
 >
-> Le plugin vous affiche les heures prévisionnelles de la simulation pour la prochaine période (si vous en avez plusieurs vous ne verrez donc comme la suivante)
+> The plugin displays the forecast hours of the simulation for the next period (if you have several you will not see as the following)

@@ -1,107 +1,69 @@
-Waze in Time 
-============
+# Waze in Time Plugin 
 
-Beschreibung 
------------
-
-Ce plugin permet d’avoir les infos de trajet (trafic pris en compte) via
-Waze. Ce plugin peut ne plus marcher si Waze n’accepte plus qu’on
-interroge son site
+Mit diesem Plugin können Sie die Reiseinformationen (Verkehr berücksichtigt) über Waze abrufen. Dieses Plugin funktioniert möglicherweise nicht mehr, wenn Waze nicht mehr akzeptiert, dass wir seine Site abfragen
 
 ![wazeintime screenshot1](./images/wazeintime_screenshot1.jpg)
 
-Konfiguration
--------------
+# Konfiguration 
 
-### Configuration du plugin: 
+## Plugin Konfiguration: 
 
-a.  Installation/Création
+Um das Plugin verwenden zu können, müssen Sie es wie jedes Jeedom-Plugin herunterladen, installieren und aktivieren.
 
-Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-l’activer comme tout plugin Jeedom.
+Danach müssen Sie Ihre Reise (n) erstellen :
 
-Suite à cela il vous faudra créer votre ou vos trajets :
-
-Rendez vous dans le menu plugins/organisation, vous y trouverez le
-plugin Waze Duration :
+Gehen Sie zum Plugins / Organisationsmenü, dort finden Sie das Waze Duration Plugin :
 
 ![configuration1](./images/configuration1.jpg)
 
-Ensuite vous arriverez sur la page qui listera vos équipements (vous
-pouvez avoir plusieurs Trajets) et qui vous permettra d’en créer
+Dann gelangen Sie auf die Seite, auf der Ihre Ausrüstung aufgelistet ist (Sie können mehrere Routen haben) und auf der Sie einige erstellen können
 
 ![wazeintime screenshot2](./images/wazeintime_screenshot2.jpg)
 
-Klicken sie auf die Schaltfläche "Route hinzufügen" oder "+" :
+Klicken Sie auf die Schaltfläche Reise hinzufügen oder auf die Schaltfläche + :
 
 ![config2](./images/config2.jpg)
 
-Dann kommen Sie auf die Konfigurationsseite Ihrer Route :
+Sie gelangen dann auf die Konfigurationsseite Ihrer Reise:
 
 ![wazeintime screenshot3](./images/wazeintime_screenshot3.jpg)
 
-Auf dieser Seite finden sie drei Abschnitte :
+Auf dieser Seite finden Sie drei Abschnitte :
 
-i.  Général
+### Allgemein
 
-Vous trouverez dans cette section toutes les configurations Jeedom. A
-savoir le nom de votre équippement, l’objet auquel vous voulez
-l’associer, la catégorie, si vous voulez que l’équipement soit actif ou
-non , et enfin si vous voulez qu’il soit visible sur le dashboard.
+In diesem Abschnitt finden Sie alle Jeedom-Konfigurationen. Nämlich den Namen Ihres Geräts, das Objekt, dem Sie es zuordnen möchten, die Kategorie, ob das Gerät aktiv sein soll oder nicht, und schließlich, ob es im Dashboard sichtbar sein soll.
 
-i.  Configuration
+### Configuration
 
-Cette section est une des plus importantes elle permet de régler le
-point de départ et d’arrivée :
+Dieser Abschnitt ist einer der wichtigsten und ermöglicht es Ihnen, den Start- und Endpunkt festzulegen :
 
--   Ces infos doivent être les latitudes et longitudes des positions
+-   Diese Informationen müssen die Breiten- und Längengrade der Positionen sein
+-   Sie können über die bereitgestellte Website gefunden werden, indem Sie auf den Link auf der Seite klicken (geben Sie einfach eine Adresse ein und klicken Sie auf GPS-Koordinaten abrufen)
 
--   Elles peuvent être retrouvées en utilisant le site fourni en
-    cliquant sur le lien de la page (il vous suffit de rentrer une
-    adresse et de cliquer sur obtenir les coordonnées GPS)
-
-    i.  Tableau de Commandes
+### Bedienfeld
 
 ![config3](./images/config3.jpg)
 
--   Durée 1 : durée aller avec le trajet 1
+-   Dauer 1 : Reisedauer 1
+-   Dauer 2 : Reisezeit mit der Alternativroute
+-   Route 1 : Route 1
+-   Route 2 : Alternative Route
+-   Dauer zurück 1 : Rückgabezeit mit Fahrt 1
+-   Dauer zurück 2 : Rückgabezeit mit der alternativen Route
+-   Route zurück 1 : Route zurück 1
+-   Route zurück 2 : Alternative Rückreise
+-   Aktualisieren : Informationen aktualisieren
 
--   Durée 2 : durée aller avec le trajet alternatif
+Alle diese Befehle sind über Szenarien und über das Dashboard verfügbar
 
--   Trajet 1 : Trajet 1
-
--   Trajet 2 : Trajet alternatif
-
--   Durée retour 1 : durée retour avec le trajet 1
-
--   Durée retour 2 : durée retour avec le trajet alternatif
-
--   Trajet retour 1 : Trajet retour 1
-
--   Trajet retour 2 : Trajet retour alternatif
-
--   Rafraîchir : Permet de rafraîchir les infos
-
-All diese Befehle sind verfügbar über Szenarien und das Armaturenbrett
-
-### Le widget : 
+## Das Widget
 
 ![wazeintime screenshot1](./images/wazeintime_screenshot1.jpg)
 
--   Le bouton en haut à droite permet de rafraîchir les infos.
+-   Die Schaltfläche oben rechts aktualisiert die Informationen.
+-   Alle Informationen sind sichtbar (bei Reisen kann die Reise, wenn sie lang ist, abgeschnitten werden, aber die Vollversion wird angezeigt, indem Sie die Maus darüber halten.)
 
--   Toutes les infos sont visibles (pour les trajets, si le trajet est
-    long, il peut être tronqué mais la version complète est visible en
-    laissant la souris dessus)
+## Wie werden die Nachrichten aktualisiert?
 
-### Comment sont rafraichis les infos : 
-
-Les infos sont rafraichies une fois toutes les 30 minutes. Vous pouvez
-les rafraîchir à la demande via scénario avec la commande rafraîchir, ou
-via le dash avec les doubles flêches
-
-Changelog
-=========
-
-Changelog détaillé :
-<https://github.com/jeedom/plugin-wazeintime/commits/stable>
+Die Informationen werden alle 30 Minuten aktualisiert. Sie können sie bei Bedarf über ein Szenario mit dem Befehl refresh oder über den Bindestrich mit Doppelpfeilen aktualisieren

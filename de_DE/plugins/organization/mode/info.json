@@ -1,11 +1,11 @@
 {
-	"id" : "mode",
-	"name" : "Mode",
-	"description" : "Plugin pour gerer different mode de sa maison/son appartement",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "3.0",
-	"category" : "organization",
-	"changelog" : "https://jeedom.github.io/plugin-mode/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-mode/#language#/"
+    "id": "mode",
+    "name": "Mode",
+    "description": "Plugin pour gerer different mode de sa maison\/son appartement",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "category": "organization",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/mode\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/mode\/"
 }

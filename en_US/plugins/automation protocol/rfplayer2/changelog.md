@@ -1,50 +1,60 @@
-23-05-2019
+# Changelog RfPlayer2
 
-Préparation page équipement pour jeedom futur
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-07/12/2018
+# 08-09-2019
 
-Bug fix ecran santé
+Support for php 7.3
 
-03/12/2018
+# 2019-05-23
 
-Bug fix sur les capteurs de températures edisio / dio2
+Equipment page preparation for future jeedom
 
-08/11/2018
+# 12/07/2018
 
-Rajout d'un bouton association plus visible pour edisioframe
+Health screen bug fix
 
-02/11/2018
+# 12/03/2018
 
-Correction interprétation jamming dans le cas d'un nouvel équipement
+Bug fix on edisio / dio2 temperature sensors
 
-29/10/2018
+# 11/8/2018
 
-Ajout actionneur Edisio
-Ajout Edisio Frame
+Addition of a more visible association button for edisioframe
 
-18/10/2018
-Changement calcul batterie sur Edisio
-Changement gestion des ids
-Gestion des caractères spéciaux pour l'envoie du nom parrot, le rfp1000 naime pasle non ascii
+# 11/02/2018
 
-10/10/2018
+Correction of jamming interpretation in the case of new equipment
 
-Correction du mode parrot
-Et début d'implémentation du protocole EDISIO (mise à jour poussé surtout pour le mode parrot)
+# 10/29/2018
 
-14/06/2018
+Addition of Edisio actuator
+Add Edisio Frame
 
-Correction des anémométres oregon qui ne remontait pas la direction
+# 10/18/2018
+Change battery calculation on Edisio
+Change management of ids
+Management of special characters for sending the parrot name, the rfp1000 does not like non ascii
 
-07/06/2018
+# 10/10/2018
 
-Rajout de la fonction jamming
-Rajout d'un bouton d'association pour en plus avoir a cliquer sur tester
-Correction d'un bug de détection du dongle
-Amélioration de la réactivité
-Rajout du firmware 1.26
+Correction of parrot mode
+And start of implementation of the EDISIO protocol (update pushed especially for the parrot mode)
 
-20/04/2018
+# 06/14/2018
+
+Correction of oregon anemometers which did not go back up the direction
+
+# 06/07/2018
+
+Addition of the jamming function
+Addition of an association button to additionally have to click on test
+Correction of a dongle detection bug
+Improved responsiveness
+Addition of firmware 1.26
+
+# 04/20/2018
 
 Initialisation

@@ -1,6 +1,8 @@
->**IMPORTANT**
+# Registro de cambios MyhomeSCS
+
+>**Importante**
 >
->Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
 # 10/05/2020
 
@@ -9,7 +11,7 @@
 # V1.100 del 26/01/2018
 
 - Soporte del complemento por parte del equipo oficial de Jeedom, nueva función de pedido. soporte para widgets Jeedom.
-- Prueba en diferentes materiales..
+- Prueba en diferentes materiales.
 
 # V1.000 del 21/11/2017 
 
@@ -17,8 +19,3 @@
 
 # V0.002 del 21/11/2017 
 
-- Se corrigió el problema de dependencia de Python
-
-# V0.001 del 11/11/2017 
-
-- Lanzamiento inicial

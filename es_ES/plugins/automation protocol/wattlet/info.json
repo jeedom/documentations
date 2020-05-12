@@ -1,13 +1,27 @@
 {
-	"id" : "wattlet",
-	"name" : "Wattlet",
-	"description" : "Ce plugin permet de piloter les modules Wattcubes de Wattlet via le Wattcube Web.",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.0",
-        "category" : "automation protocol",
-        "changelog" : "https://jeedom.github.io/plugin-wattlet/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-wattlet/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+    "id": "wattlet",
+    "name": "Wattlet",
+    "description": "Ce plugin permet de piloter les modules Wattcubes de Wattlet via le Wattcube Web.",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.0",
+    "category": "automation protocol",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/wattlet\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/wattlet\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy"
+    ]
 }

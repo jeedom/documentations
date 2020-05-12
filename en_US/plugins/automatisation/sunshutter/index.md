@@ -1,96 +1,95 @@
-# Description
+# Shutter Management Plugin
 
-Ce plugin vous permet de gerer plus facilemement la position de vos volets en fonction de la position du soleil. Ce plugin est completement cloudless
+This plugin allows you to more easily manage the position of your shutters according to the position of the sun. This plugin is completely cloudless
 
-Vous pouvez trouver [ici](https://www.jeedom.com/blog/?p=4310) un article montrant un exemple de configuration du plugin
+You can find [here](https://www.jeedom.com/blog/?p=4310) an article showing an example configuration of the plugin
 
-# Configuration du plugins
+# Plugins configuration
 
-Rien de spécial ici juste à installer et activer le plugin
+Nothing special here just to install and activate the plugin
 
-## Comment ca marche ?
+## How it works ?
 
-Le plugin va regler la position de vos volets par rapport à des positions du soleil (Azimuth et Altitude) en fonction de condition.
+The plugin will adjust the position of your shutters relative to sun positions (Azimuth and Altitude) depending on condition.
 
-# Configuration des volets
+# Configuration of the shutters
 
-La configuration se decompose en plusieurs onglet.
+The configuration is broken down into several tabs.
 
-## Device
+## Equipement
 
-Vous retrouvez dans le premier onglet toute la configuration de votre équipement :
+You will find in the first tab all the configuration of your equipment :
 
-- Nom de l’équipement : nom de votre équipement Simulation,
-- Objet parent : indique l’objet parent auquel appartient l’équipement,
-- Activer : permet de rendre votre équipement actif,
-- Visible : rend votre équipement visible sur le dashboard.
+- Name of equipment : name of your Simulation equipment,
+- Parent object : indicates the parent object to which the equipment belongs,
+- Activate : makes your equipment active,
+- Visible : makes your equipment visible on the dashboard.
 
 
-## Setup
+## Configuration
 
-### Setup
+### Configuration
 
-- Vérification : fréquence de verification des conditions et position des volets
-- Reprendre la main : interdit au systeme de gestion de volet de modifier la position de celui-ci si il a été bougé manuellement. Exemple le systeme ferme le volet, vous l'ouvrez il n'y touchera plus jusqu'a ce que la commande "Reprendre gestion" soit déclenchée ou si le délai de reprise de main est passé
-- Latitude : la latitude de votre volet/maison
-- Longitude : la longitude de votre volet/maison
-- Altitude : l'altitude de votre volet/maison
-- Etat volet : commande indiquant la position actuel du volet
-- Position volet : commande permettant de positionner le volet
-- Rafraîchir position volet (optionnelle) : commande permettant de rafraichir la positionner du volet
-- Temps maximum pour un déplacement : temps pour faire un mouvement complet (de haut en bas ou de bas en haut), en seconde
+- Verification : frequency of checking the conditions and position of the flaps
+- Regain control : prohibits the shutter management system from changing its position if it has been moved manually. Example the system closes the shutter, you open it it will no longer touch it until the "Resume management" command is triggered or if the recovery time has passed
+- Latitude : the latitude of your shutter / house
+- Longitude : the longitude of your shutter / house
+- Altitude : the height of your shutter / house
+- Shutter state : command indicating the current position of the flap
+- Shutter position : control for positioning the flap
+- Refresh shutter position (optional) : command to refresh the position of the shutter
+- Maximum time for one trip : time to make a complete movement (from top to bottom or from bottom to top), in seconds
 
 ## Condition
 
-- Condition pour action : si cette condition n'est pas vrai le plugin ne modifiera pas la position du volet
-- Un changement de mode annule les suspensions en cours : si coché alors un changement de mode du volet repasse celui-ci en gestion automatique
-- Les actions immédiate sont systématique et prioritaire : si coché alors les actions immediate s'executent meme si celui-ci est suspendu et sans tenir compte de l'ordre des conditions
+- Condition for action : if this condition is not true the plugin will not modify the position of the shutter
+- Mode change cancels pending suspensions : if checked then a change of mode of the shutter returns it to automatic management
+- Immediate actions are systematic and priority : if checked then immediate actions are executed even if it is suspended and without taking into account the order of conditions
 
-
-Le tableau des conditions vous permet de spécifier des conditions de positionnement spécifique, qui prenne la main sur le tableau de position du volets :
-- Position : si la condition est vrai, la position du volets
-- Mode : la condition ne marche que si le volet est dans ce mode (vous pouvez en mettre plusieurs séparé par des ,). Si ce champs n'est pas remplis alors la condition sera testée quelque soit le mode
-- Action immediate : agit immediatement dès que la condition est vrai (n'attend donc pas le cron de verification)
-- Suspendre : si la condition est vrai elle suspend la gestion automatique du volet
-- Condition : votre condition
-- Commentaire : champs libre pour mettre des commentaires
+The conditions table allows you to specify specific positioning conditions, which takes hold of the flap position table :
+- Position : if the condition is true, the position of the flaps
+- Fashion : the condition only works if the shutter is in this mode (you can put several separated by,). If this field is not filled then the condition will be tested whatever the mode
+- Immediate action : acts immediately as soon as the condition is true (therefore does not wait for the verification cron)
+- To suspend : if the condition is true it suspends the automatic management of the shutter
+- Condition : your condition
+- Comment : free fields for comments
 
 ## Positionnement
 
-- %ouveture : le % quand le volet est ouvert
-- %fermeture : le % quand le volet est fermé
-- Action par defaut : l'action par defaut si aucune condition et position n'est valide
+- % opening : the% when the shutter is open
+- %closing : the% when the shutter is closed
+- Default action : the default action if no condition and position is valid
 
-C'est ici que vous allez pouvoir gerer le positionenement du volet en fonction de la position du soleil.
+This is where you will be able to manage the positioning of the shutter according to the position of the sun.
 
-- Azimuth : angle de position du soleil
-- Elevation : angle de hauteur du soleil
-- Position : position du volet à prendre si le soleil se trouve dans les bornes d'Azimuth et d'élévation
-- Condition : condition en plus à satisfaire pour que le volet prenne cette position (peut etre vide)
-- Commentaire : champs libre pour mettre des commentaires
+- Azimuth : sun position angle
+- Elevation : angle of height of the sun
+- Position : position of the shutter to take if the sun is in the Azimuth and elevation limits
+- Condition : additional condition to satisfy for the shutter to take this position (can be empty)
+- Comment : free fields for comments
 
->**ASTUCE**
+>**TRICK**
 >
->Petite astuce le site [suncalc.org](https://www.suncalc.org) qui permet, une fois votre adresse rentrée, de voir la position du soleil (et donc les angles Azimuth et d'élévation) en fonction des heures de la journée (il suffit de faire glisser le petit soleil en haut)
+>Little tip the site [suncalc.org](https://www.suncalc.org) which allows, once your address entered, to see the position of the sun (and therefore the azimuth and elevation angles) according to the hours of the day (just drag the small sun at the top)
 
 ## Planning
 
-Vous voyez ici les plannification de positionnement du volet faite dans le planning Agenda
+Here you can see the positioning plans of the shutter made in the Agenda planning
 
 ## Commandes
 
-- Azimut soleil : angle Azimuth actuel du soleil
-- Elévation soleil : angle d'élevation actuel du soleil
-- Executer action : force le calcul de position du volet en fonction de la position du soleil et des conditions et lui applique le resultat quelque soit l\'état de gestion (en pause ou pas)
-- Dernière position : derniere position demandé au volet par le plugin
-- Etat gestion : état de la gestion (suspendu ou pas)
-- Reprendre : force la remise en mode automatique de la gestion (A noter que c'est cette commande qu'il faut lancer pour repasser en gestion automatique si vous avez modifier la position de votre volet manuellement et coché la case "Ne pas reprendre la main")
-- Suspendre : suspend le positionnement automatique du volet
-- Rafraichir : mets à jour les valeurs des commandes "Azimut soleil" et "Elévation soleil"
-- Mode : mode actuel du volet
+- Sun azimuth : current azimuth angle of the sun
+- Sun rise : current elevation angle of the sun
+- Execute action : forces the shutter position calculation according to the position of the sun and the conditions and applies the result to it whatever the management state (paused or not)
+- Last Position : last position requested from the shutter by the plugin
+- Management status : management status (suspended or not)
+- Resume : force the return to automatic management mode (Note that this command must be launched to return to automatic management if you have changed the position of your shutter manually and checked the "Do not take over" box)
+- To suspend : suspends automatic shutter positioning
+- Refresh : update the values of the "Sun azimuth" and "Sun elevation" commands"
+- Fashion : current shutter mode
 
-Vous pouvez ajouter des commandes "mode", le nom de la commande sera le nom du mode.
+You can add "mode" commands, the command name will be the mode name.
 
 # Panel
 
-Le plugin possede un panel de gestion en desktop et mobile pour l'activer il suffit d'aller dans Plugins -> Gestion des plugins, cliquer sur le plugin de gestion de volet et tout en bas a droite de cocher les cases pour afficher le panel desktop et mobile
+The plugin has a desktop and mobile management panel to activate it just go to Plugins -> Plugin management, click on the pane management plugin and at the very bottom right of ticking the boxes to display the panel desktop and mobile

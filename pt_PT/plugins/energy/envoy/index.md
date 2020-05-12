@@ -1,25 +1,21 @@
-Description
-===
+# Enphase Envoy plugin
 
 Plug-in para coletar informações fotovoltaicas dos gateways Envoy
 
-Configuration
-===
+# Configuration
 
 Para configurar o plugin, é necessário preencher as seguintes informações :
 
 - Endereço IP do gateway enviado
-- Senha do remetente (se não tiver sido alterada, esses são os últimos 6 caracteres do número de série).
+- Senha do remetente (se não tiver sido alterada, esses são os últimos 6 caracteres do número de série)
 
 Então, clicando no botão "Sincronizar", todos os equipamentos serão criados automaticamente.
 
-Informações relatadas
-===
+# Informações relatadas
 
 O plug-in permite que você envie as seguintes informações (se você tiver um medidor enviado) :
 
-__ * - Geral (turno a cada minuto) * __
-
+- Geral (turno a cada minuto)
     - Número de microinversores
     - Número de pilhas
     - Status da bateria (carga / descarga / inatividade)
@@ -37,17 +33,13 @@ __ * - Geral (turno a cada minuto) * __
     - Consumo líquido diário (em Wh)
     - Consumo líquido nos últimos 7 dias (em Wh)
     - Consumo líquido desde o comissionamento (em Wh)
-
-  __ * - Para cada microinversor (alterne a cada 5 minutos) * __
-
+- Para cada microinversor (alterne a cada 5 minutos)
     - Provisionado (Sim / Não)
     - Comunicação (Sim / Não)
     - Produção (Sim / Não)
     - Potência (em W)
     - Potência máxima (em W)
-
-  __ * - Para cada bateria (troque a cada 5 minutos) * __
-
+- Para cada bateria (troque a cada 5 minutos)
     - Provisionado (Sim / Não)
     - Comunicação (Sim / Não)
     - Produção (Sim / Não)

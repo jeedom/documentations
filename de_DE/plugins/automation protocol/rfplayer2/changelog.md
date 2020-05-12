@@ -1,50 +1,60 @@
-23-05-2019
+# Changelog RfPlayer2
 
-Préparation page équipement pour jeedom futur
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-07/12/2018
+# 08-09-2019
 
-Bug fix ecran santé
+Unterstützung für PHP 7.3
 
-03/12/2018
+# 2019-05-23
 
-Bug fix sur les capteurs de températures edisio / dio2
+Vorbereitung der Ausrüstungsseite für zukünftige Freiheit
 
-08/11/2018
+# 12/07/2018
 
-Rajout d'un bouton association plus visible pour edisioframe
+Fehlerbehebung beim Gesundheitsbildschirm
 
-02/11/2018
+# 12/03/2018
 
-Correction interprétation jamming dans le cas d'un nouvel équipement
+Fehlerbehebung bei edisio / dio2 Temperatursensoren
 
-29/10/2018
+# 08.11.2008
 
-Ajout actionneur Edisio
-Ajout Edisio Frame
+Hinzufügen einer besser sichtbaren Zuordnungsschaltfläche für edisioframe
 
-18/10/2018
-Changement calcul batterie sur Edisio
-Changement gestion des ids
-Gestion des caractères spéciaux pour l'envoie du nom parrot, le rfp1000 naime pasle non ascii
+# 11/02/2018
 
-10/10/2018
+Korrektur der Störinterpretation bei neuen Geräten
 
-Correction du mode parrot
-Et début d'implémentation du protocole EDISIO (mise à jour poussé surtout pour le mode parrot)
+# 29.10.2008
 
-14/06/2018
+Zugabe von Edisio-Aktuator
+Edisio Frame hinzufügen
 
-Correction des anémométres oregon qui ne remontait pas la direction
+# 18.10.2008
+Ändern Sie die Batterieberechnung auf Edisio
+Änderungsverwaltung von IDs
+Die Verwaltung von Sonderzeichen zum Senden des Papageiennamens, das rfp1000 mag nicht ascii
 
-07/06/2018
+# 10/10/2018
 
-Rajout de la fonction jamming
-Rajout d'un bouton d'association pour en plus avoir a cliquer sur tester
-Correction d'un bug de détection du dongle
-Amélioration de la réactivité
-Rajout du firmware 1.26
+Korrektur des Papageienmodus
+Und Beginn der Implementierung des EDISIO-Protokolls (Update speziell für den Papageienmodus gepusht)
 
-20/04/2018
+# 14.06.2008
 
-Initialisierung
+Korrektur von Oregon-Anemometern, die nicht in die richtige Richtung zurückgingen
+
+# 06/07/2018
+
+Hinzufügung der Störfunktion
+Hinzufügen einer Zuordnungsschaltfläche, um zusätzlich auf Test klicken zu müssen
+Korrektur eines Dongle-Erkennungsfehlers
+Verbesserte Reaktionsfähigkeit
+Hinzufügen der Firmware 1.26
+
+# 2018.04.20
+
+Initialisation

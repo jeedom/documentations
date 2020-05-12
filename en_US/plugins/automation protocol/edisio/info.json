@@ -1,13 +1,13 @@
 {
-	"id" : "edisio",
-	"name" : "Edisio",
-	"description" : "Plugin ajoutant le support du protocole Edisio à Jeedom",
-	"licence" : "AGPL",
-	"author" : "Loïc",
-	"require" : "3.0",
-	"category" : "automation protocol",
-	"hasOwnDeamon" : true,
-	"hasDependency" : true,
-	"changelog" : "https://jeedom.github.io/plugin-edisio/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-edisio/#language#/"
+    "id": "edisio",
+    "name": "Edisio",
+    "description": "Plugin Edisio pour gérer le protocole Edisio avec clef USB Edisio. Ainsi vous pourrez communiquer avec les produits de la gamme Edisio.",
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "category": "automation protocol",
+    "hasOwnDeamon": true,
+    "hasDependency": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/edisio\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/edisio\/"
 }

@@ -1,6 +1,16 @@
-# 
+# Changelog Google calendar
 
-- 
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+
+# 04/28/2020
+
+- Correction of a problem with current day events straddling 2 days
+
+# 04/07/2020
+
+- Adding events for the current day
 
 # 08/13/2019
 

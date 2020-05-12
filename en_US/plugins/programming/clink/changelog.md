@@ -1,7 +1,17 @@
-# 25/04/2018
+# Changelog Click link
 
-- Correction d'un bug sur l'image des équipements du plugin
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 16/03/2018
+# 08/13/2019
 
--  Correction de bugs
+- Support for php 7.3
+
+# 04/25/2018
+
+- Correction of a bug on the image of the plugin equipment
+
+# 03/16/2018
+
+-  Bugfix

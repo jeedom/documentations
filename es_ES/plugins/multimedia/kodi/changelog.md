@@ -1,43 +1,42 @@
-27-09-2019
+# Registro de cambios Kodi
 
-Changement de l'addon Kodi pour les cas de playerid non remonté par kodi 
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-23-07-2019
+# 27/09/2019
 
-Mise en stable
+- Cambio de complemento de Kodi para casos de playerid no reensamblados por kodi 
 
-24-06-2019
+# 2019-07-23
 
-Page équipement V4
-Gestion partielle Kodi18 (en cours de changement pour la partie addons côté Kodi)
+- Estable
 
+# 2019-06-24
 
-Version 2 - 2015-04-06 21:57:23
-===
+- Página del equipo V4
+- Gestión parcial de Kodi18 (en el proceso de modificación para la parte de complementos en el lado de Kodi)
 
-        Rajout des covers Réécriture de la partie event Text scrolling pour le titre Favicon de type Refonte de la page de config Suppression de la notion de playerID Refont du widget mobile Amélioration de code Corrections de bugs Maj de l'addon Kodi (envoie json, plus d'ids)
+# Versión 2 - 2015-04-06 21:57:23
 
-Version 2.1 - 2015-04-06 22:25:15
-===
+- Adición de portadas Reescritura del evento Desplazamiento de texto para el título de tipo Favicon Rediseño de la página de configuración Eliminación de la noción de ID de jugador Rediseño del widget móvil Mejora de código Correcciones de errores Cambio del complemento Kodi (enviar json, más d 'ids)
 
-        Corrections bugs mineurs
+# Versión 2.1 - 2015-04-06 22:25:15
 
-Version 2.3 - 2015-04-07 00:58:11
-===
+- Pequeñas correcciones de errores
 
-        suppression des / devant plugins
+# Versión 2.3 - 2015-04-07 00:58:11
 
-Version 2.3.1 - 2015-04-07 01:23:17
-===
+- eliminación de / antes de complementos
 
-        Rajout de debug pour le volume
+# Versión 2.3.1 - 2015-04-07 01:23:17
 
-Version 2.3.2 - 2015-04-07 12:28:54
-===
+- Adición de depuración para volumen
 
-        Page de conf plus clair pour les commandes
+# Versión 2.3.2 - 2015-04-07 12:28:54
 
-Version 2.3.3 - 2015-04-07 12:46:34
-===
+- Página de conf más clara para pedidos
 
-        Filtre des commandes uniquement personnalisées
+# Versión 2.3.3 - 2015-04-07 12:46:34
+
+- Filtrar solo pedidos personalizados

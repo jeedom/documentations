@@ -1,426 +1,227 @@
-Plugin permettant d’utiliser une clef RFXcom avec Jeedom. Ce plugin
-fonctionne aussi bien en local qu’en déporté (avec le plugin Jeedom
-Link)
+# RFXcom Plugin
 
-Le plugin RFXcom permet de dialoguer avec l’ensemble des périphériques
-compatibles avec le module RFXCOM USB. Parmi ces périphériques on
-retrouve les marques suivantes : Oregon, LaCross, Chacon, X10, DI-O,
-Blyss, etc.
+Plugin zur Verwendung eines RFXcom-Schlüssels mit Jeedom. Dieses Plugin funktioniert sowohl lokal als auch remote (mit dem Jeedom Link-Plugin)
 
-Configuration du plugin
-=======================
+Mit dem RFXcom-Plugin können Sie mit allen Peripheriegeräten kommunizieren, die mit dem RFXCOM-USB-Modul kompatibel sind. Unter diesen Peripheriegeräten befinden sich die folgenden Marken : Oregon, LaCross, Chacon, X10, DI-O, Blyss usw.
 
-Après installation du plugin, il vous suffit de l’activer et de mettre
-le port sur auto, après sauvegarde le démon devrait se lancer. Le plugin
-est déjà configuré par défaut ; vous n’avez donc rien à faire de plus.
-Cependant vous pouvez modifier cette configuration. Voici le détail des
-paramètres :
+# Plugin Konfiguration
 
--   **Dépendances** : cette partie vous donne le statut des dépendances,
-    si elles ne sont pas OK vous pouvez soit les lancer à la main soit
-    attendre 5min, Jeedom les lancera de lui même.
+Nach der Installation des Plugins müssen Sie es nur aktivieren und den Port auf Auto setzen, nachdem das Speichern des Daemons gestartet werden soll. Das Plugin ist bereits standardmäßig konfiguriert. du musst nichts mehr tun. Sie können diese Konfiguration jedoch ändern. Hier ist das Detail der Parameter :
 
--   **Démon** : cette partie vous donne le statut du démon, si il n’est
-    pas OK vous pouvez soit le lancer à la main soit attendre 5min,
-    Jeedom le lancera de lui même.
-
--   **Configuration** : cette partie permet de configurer les paramètres
-    généraux du plugin.
-
-    -   *Bannir les IDs suivants* : permet de donner une liste
-        d’identifiants RFXcom à Jeedom pour que celui-ci ne crée pas les
-        équipements correspondants. Les identifiants doivent être
-        séparés par des espaces. Exemple : "1356AD87 DB54AF".
-
--   **Démon** : paramètres de configuration du démon.
-
-    -   *Port RFXcom* : le port USB sur lequel votre interface RFXcom
-        est connectée.
-
-        > **Tip**
+-   **Nebengebäude** : In diesem Teil erhalten Sie den Status der Abhängigkeiten. Wenn diese nicht in Ordnung sind, können Sie sie entweder von Hand starten oder 5 Minuten warten. Jeedom startet sie von selbst.
+-   **Dämon** : Dieser Teil gibt dir den Status des Dämons. Wenn es nicht in Ordnung ist, kannst du ihn entweder von Hand starten oder 5 Minuten warten. Jeedom startet ihn von selbst.
+-   **Konfiguration** : In diesem Teil können Sie die allgemeinen Parameter des Plugins konfigurieren.
+    -   *Verbieten Sie die folgenden IDs* : ermöglicht es, Jeedom eine Liste von RFXcom-Kennungen zu geben, damit nicht die entsprechenden Geräte erstellt werden. Bezeichner müssen durch Leerzeichen getrennt werden. Beispiel : "1356AD87 DB54AF".
+-   **Dämon** : Daemon-Konfigurationseinstellungen.
+    -   *RFXcom-Anschluss* : Der USB-Anschluss, an den Ihre RFXcom-Schnittstelle angeschlossen ist.
+        > **Spitze**
         >
-        > Si vous ne savez pas quel port USB est utilisé, vous pouvez
-        > simplement indiquer "Auto". Mais attention certains modules
-        > peuvent entrer en conflit avec la découverte auto
-        > (type téléinfo) et la sélection automatique ne marchera pas.
+        > Wenn Sie nicht wissen, welcher USB-Anschluss verwendet wird, können Sie einfach "Auto" angeben". Beachten Sie jedoch, dass einige Module möglicherweise mit der automatischen Erkennung (Teleinfo-Typ) in Konflikt stehen und die automatische Auswahl nicht funktioniert.
 
-    -   *Vitesse de communication* : vitesse de communication du
-        port RFXcom.
+    -   *Kommunikationsgeschwindigkeit* : Kommunikationsgeschwindigkeit von
+        RFXcom-Anschluss.
 
-        > **Tip**
+        > **Spitze**
         >
-        > A laisser à la valeur par défaut à moins d’utiliser un ancien
-        > modèle de contrôleur.
+        > Behalten Sie die Standardeinstellung bei, es sei denn, Sie verwenden ein älteres Controller-Modell.
 
-    -   \_Port socket interne (modification dangereuse : permet de
-        den internen Kommunikationsport des Dämon zu modifizieren.
-
-        > **Important**
+    -   \_Interner Socket-Port (gefährliche Änderung : Ermöglicht das Ändern des internen Kommunikationsports des Dämons.
+        > **Wichtig**
         >
-        > A ne changer que si vous savez ce que vous faites.
+        > Ändern Sie nur, wenn Sie wissen, was Sie tun.
 
--   *Protocoles* : permet de sélectionner les protocoles actifs de
-    l’interface RFXcom.
+-   *Protokolle* : Mit dieser Option können Sie die aktiven Protokolle der RFXcom-Schnittstelle auswählen.
 
-    > **Important**
+    > **Wichtig**
     >
-    > Ne pas tous les activer, certains étant incompatibles entre eux, voici
-    > la matrice de compatibilité :
+    > Aktivieren Sie nicht alle, da einige nicht miteinander kompatibel sind. Hier ist die Kompatibilitätsmatrix :
 
-Pour lancer le démon en debug il suffit au niveau de la configuration
-des logs du plugin de mettre en debug, de sauvegarder et de relancer le
-démon.
+Um den Daemon beim Debuggen zu starten, reicht es auf der Ebene der Konfiguration der Protokolle des Plugins aus, das Debugging durchzuführen, den Daemon zu speichern und neu zu starten.
 
-> **Important**
+> **Wichtig**
 >
-> Dans ce mode, le démon est très bavard. Une fois le debug terminé, il
-> ne faut pas oublier de cliquer sur "Redémarrer" pour sortir du mode
-> debug !!
+> In diesem Modus ist der Dämon sehr gesprächig. Vergessen Sie nach Abschluss des Debugs nicht, auf "Neustart" zu klicken, um den Debug-Modus zu verlassen !!
 
-Configuration des équipements
-=============================
+# Gerätekonfiguration
 
-La configuration des équipements RFXcom est accessible à partir du menu
-plugins puis protocole domotique. Vous retrouvez ici :
+Die Konfiguration der RFXcom-Geräte ist über das Plugins-Menü und dann über das Hausautomationsprotokoll zugänglich. Sie finden hier :
 
--   un bouton pour créer un équipement manuellement
+-   eine Schaltfläche zum manuellen Erstellen von Geräten
+-   eine Schaltfläche zum Umschalten in den Einschlussmodus
+-   eine Schaltfläche zum Anzeigen der Konfiguration des Plugins
+-   Eine Schaltfläche, die Ihnen den Gesundheitszustand aller Ihrer RFXcom-Geräte anzeigt
+-   Schließlich finden Sie unten die Liste Ihrer Ausrüstung
 
--   un bouton pour passer en mode inclusion
+Wenn Sie auf eines Ihrer Geräte klicken, gelangen Sie auf die Konfigurationsseite Ihres Geräts mit 2 Registerkarten, Geräten und Steuerelementen.
 
--   un bouton pour afficher la configuration du plugin
-
--   un bouton qui vous donne l’état de santé de tous vos équipements
-    RFXcom
-
--   enfin en dessous vous retrouvez la liste de vos équipements
-
-En cliquant sur un de vos équipements vous arrivez sur la page
-configuration de votre équipement comprenant 2 onglets, équipement et
-commandes.
-
--   **Onglet Equipement** :
-
--   **Nom de l’équipement RFXcom** : nom de votre équipement RFXcom
-
--   **ID** : l’id de votre sonde (à ne modifier qu’en connaissance
-    de cause)
-
--   **Aktivieren**: auf Ihre aktiven Geräte machen
-
--   Visible ** **: macht es sichtbar auf dem Armaturenbrett
-
--   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
-    Ausrüstung
-
--   ** ** Kategorie: Gerätekategorien (es kann gehören
-    plusieurs catégories)
-
--   **Ne pas vérifier la batterie** : indique à Jeedom de ne pas vous
-    alerter si l’équipement envoie une trame de batterie faible
-    (certains modules ne gèrent pas correctement cette info et génèrent
-    de fausses alertes)
-
--   **Délai maximum autorisé entre 2 messages (min)** : le délai maximum
-    autorisé entre 2 messages avant que Jeedom ne déclare l’équipement
-    en "timeout".
-
--   **Récupérer ID (changement de pile)** : le RFXcom a la particularité
-    de changer l’ID de la sonde lors du changement de pile, Jeedom
-    propose un assistant pour faciliter l’opération. Vous devez :
-
-    -   changer la pile de votre sonde
-
-    -   attendre sa création du Jeedom et aller sur la nouvelle sonde
-        créée
-
-    -   appuyer sur le bouton "Récupérer ID (changement de pile)"
-
-    -   Sur la fenêtre, dans le menu déroulant choisir l’ancienne sonde,
-
+-   **Registerkarte Ausrüstung** :
+-   **Name des RFXcom-Geräts** : Name Ihres RFXcom-Geräts
+-   **Identifikation** : die ID Ihrer Sonde (darf nur bei vollständiger Kenntnis der Fakten geändert werden)
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv
+-   **Sichtbar** : macht es auf dem Dashboard sichtbar
+-   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört
+-   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören)
+-   **Die Batterie nicht überprüfen** : weist Jeedom an, Sie nicht zu warnen, wenn das Gerät einen Rahmen mit schwacher Batterie sendet (einige Module verarbeiten diese Informationen nicht korrekt und generieren falsche Warnungen)
+-   **Maximale Zeit zwischen 2 Nachrichten (min)** : Die maximal zulässige Zeit zwischen zwei Nachrichten, bevor Jeedom das Gerät als Zeitüberschreitung deklariert".
+-   **ID wiederherstellen (Batteriewechsel)** : Das RFXcom hat die Besonderheit, die ID der Sonde beim Batteriewechsel zu ändern. Jeedom bietet einen Assistenten an, um die Bedienung zu erleichtern. Du musst :
+    -   Wechseln Sie die Batterie Ihrer Sonde
+    -   Warten Sie auf die Erschaffung von Jeedom und gehen Sie zu der neu erstellten Sonde
+    -   Drücken Sie die Taste "ID wiederherstellen (Batterie wechseln)""
+    -   Wählen Sie im Fenster im Dropdown-Menü die alte Sonde,
     -   Valider
+-   **Gerät** : ermöglicht es Ihnen, das Modell Ihrer Ausrüstung zu definieren (nur für die manuelle Erstellung von Ausrüstung zu konfigurieren, in der automatischen Jeedom konfiguriert nur dieses Feld)
+-   **Schaffung** : gibt Ihnen das Erstellungsdatum der Ausrüstung an
+-   **Kommunikation** : gibt Ihnen das Datum der letzten Kommunikation mit dem Gerät an (kann beispielsweise bei einer Steckdose leer sein)
+-   **Batterie** : Batteriestand des Geräts
+-   **Status** : Gerätestatus (kann zum Beispiel eine Zeitüberschreitung sein)
+-   **Registerkarte &quot;Bestellungen&quot;** :
+  -   Der im Dashboard angezeigte Name
+  -   Typ und Subtyp
+  -   Der Informationsschlüssel, wenn es sich um eine Information handelt, oder der Hexadezimalcode, der gesendet werden soll, wenn es sich um eine Aktion handelt. In den Konfigurationen können diese Felder automatisch ausgefüllt werden (Sie müssen das Gerät erstellen, die Konfiguration auswählen und dann speichern)
+  -   Die Gruppe ermöglicht eine einfache Verwaltung von Geräten, die den Begriff der Gruppe unterstützen. Dies ersetzt das Tag \#GROUP\# in der hexadezimalen Kette bei der Ausführung des Befehls
+  -   "Statusrückmeldungswert "und" Dauer vor Statusrückmeldung" : ermöglicht es Jeedom anzuzeigen, dass nach einer Änderung der Informationen der Wert auf Y, X min nach der Änderung zurückkehren muss. Beispiel : Im Fall eines Anwesenheitsdetektors, der nur während einer Anwesenheitserkennung emittiert, ist es nützlich, beispielsweise 0 in Wert und 4 in Dauer einzustellen, so dass 4 min nach einer Bewegungserkennung (und s ') Seitdem gab es keine Neuigkeiten.) Jeedom setzt den Wert der Informationen auf 0 zurück (keine Bewegung mehr erkannt)
+  -   Chronik : ermöglicht das Historisieren der Daten
+  -   Anzeige : ermöglicht die Anzeige der Daten im Dashboard
+  -   Ereignis : Bei RFXcom muss dieses Kontrollkästchen immer aktiviert sein, da Sie ein RFXcom-Modul nicht abfragen können
+  -   Unit : Dateneinheit (kann leer sein)
+  -   min / max : Datengrenzen (können leer sein)
+  -   erweiterte Konfiguration (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.)
+  -   Test : Wird zum Testen des Befehls verwendet
+  -   löschen (unterschreiben -) : ermöglicht das Löschen des Befehls
 
--   **Equipement** : permet de définir le modèle de votre équipement (à
-    ne configurer que pour une création manuelle d’un équipement, en
-    automatique Jeedom configure ce champ tout seul)
+# Betrieb an RFXcom-Geräten
 
--   **Création** : vous donne la date de création de l’équipement
+Oben auf Ihrer Gerätekonfigurationsseite befinden sich 3 Schaltflächen, mit denen Sie bestimmte Optionen ausführen können :
 
--   **Communication** : vous donne la date de dernière communication
-    avec l’équipement (peut être vide dans le cas d’une prise
-    par exemple)
+-   Duplikat : Geräte dupliziert
+-   Erweiterte Konfiguration : Das gleiche Prinzip wie bei den Befehlen ermöglicht eine erweiterte Konfiguration der Geräte
+-   Löschen : Entfernen Sie Ihre Ausrüstung
+-   Speichern : Sichert Ihre Ausrüstung und vorgenommene Änderungen
 
--   **Batterie** : niveau de batterie de l’équipement
+# Einbeziehung von RFXcom-Geräten
 
--   **Statut** : statut de l’équipement (peut être timeout par exemple)
+Das Hinzufügen von RFXcom-Geräten ist sehr einfach. Sie müssen nur in den Einschlussmodus wechseln und warten, bis das Gerät eine Nachricht sendet. In diesem Fall teilt Jeedom Ihnen mit, dass neue Geräte enthalten sind, und erstellt diese automatisch.
 
--   **Onglet Commandes** :
+# Liste kompatibler Module
 
--   Der Name, der auf dem Armaturenbrett angezeigt wird
+Sie finden die nicht vollständige Liste der kompatiblen Module
+[hier](https://doc.jeedom.com/de_DE/rfxcom/equipement.compatible)
 
--   le type et le sous-type
+# Fügen Sie eine Steckdose hinzu
 
--   la clef de l’information si c’est une info, ou alors le code
-    hexadécimal à envoyer lorsque c’est une action. Les configurations
-    permettent de remplir ces champs automatiquement (il faut créer
-    l’équipement, choisir la configuration puis sauvegarder)
+Diese Betriebsart gilt für Steckdosen, Lichtempfänger usw. Gehen Sie zum Menü "Plugins", dann zu "Home Automation Protocol" und schließlich zu "RFXcom"".
 
--   Le groupe permet une gestion facile pour les équipements supportant
-    la notion de groupe. Cela remplace le tag \#GROUP\# dans la chaîne
-    hexadécimale lors de l’exécution de la commande
+Klicken Sie auf "Hinzufügen", um ein Modul hinzuzufügen, benennen Sie Ihr Modul und klicken Sie auf "Okay"".
 
--   "Valeur de retour d’état" et "Durée avant retour d’état" : permet
-    d’indiquer à Jeedom qu’après un changement sur l’information sa
-    valeur doit revenir à Y, X min après le changement. Exemple : dans
-    le cas d’un détecteur de présence qui n’émet que lors d’une
-    détection de présence, il est utile de mettre par exemple 0 en
-    valeur et 4 en durée, pour que 4 min après une détection de
-    mouvement (et s’il n’y a en pas eu de nouvelles depuis) Jeedom
-    remette la valeur de l’information à 0 (plus de mouvement détecté)
+Wählen Sie "Plug - Fault" unter "Equipment" und klicken Sie auf "Save"".
 
--   Chronik : erlaubt das Archivieren der Daten
+-   Gehen Sie zur Registerkarte "Bestellungen""
+-   Versetzen Sie Ihr Modul / Ihre Buchse in den Lernmodus. (Klicken Sie auf die Lernschaltfläche Ihres Moduls / Sockels. Einige Steckdosen haben keine Taste. Ziehen Sie einfach den Stecker heraus, stecken Sie ihn wieder ein und befinden Sie sich für die ersten 3 Sekunden nach dem Einstecken des Steckers im Lernmodus.
+-   Klicken Sie auf "Test" einer Bestellung.
+-   Wenn die Verbindung gut funktioniert hat, können Sie auf "Speichern" klicken, andernfalls können Sie diesen Schritt wiederholen.
 
--   afficher : permet d’afficher la donnée sur le dashboard
+Ihr Modul / Socket ist jetzt mit JEEDOM verbunden. Denken Sie daran, es zu aktivieren und sichtbar zu machen, damit es im Dashboard angezeigt wird.
 
--   évènement : dans le cas du RFXcom cette case doit toujours être
-    cochée car on ne peut pas interroger un module RFXcom
+# Fügen Sie einen Somfy Store hinzu
 
--   unité : unité de la donnée (peut être vide)
+Seit der Veröffentlichung des neuen RFXcom RFXtrx433E-Moduls ist es nun möglich, seine Somfy RTS-Geräte (RFY / RFU) von Jeedom aus zu steuern. (Wer unterstützt dieses Modul über das RFXcom-Plugin)
 
--   min/max : bornes de la donnée (peuvent être vides)
+Pour ajouter un nouveau périphérique, se rendre dans le menu Plugins &gt; Protocole Domotique &gt; RFXcom
 
--   Erweiterte Konfiguration (kleine Zahnräder) : Erlaubt die erweiterte
-    Konfiguration des Befehls anzuzeigen (Methode der
-    Archivierung, Widget ...)
+Klicken Sie auf die Schaltfläche + Hinzufügen und geben Sie Ihrem Gerät einen Namen. Ex : « Veranda-Verschluss ».
 
--   Test: prüft den Befehl
+Se rendre sur le nouveau Périphérique créé et dans le menu déroulant Equipement, choisir « RTS Store Somfy – Défaut », en profiter pour lui définir un objet parent et une catégorie si vous le souhaitez et cliquer sur Enregistrer.
 
--   supprimer (signe -) : permet de supprimer la commande
+Die Befehle zum Verwalten des Rollladens werden automatisch generiert. Es bleibt nur, den Verschluss mit diesem Jeedom-Gerät zu koppeln. Drücken Sie dazu die Pairing-Taste auf der Fernbedienung des Verschlusses, den Sie steuern möchten, 2 bis 3 Sekunden lang, bis der Verschluss eine leichte Rückfahrt macht.
 
-Opération sur les équipements RFXcom
-====================================
+Wenn der Verschluss angezeigt hat, dass er auf eine Bestellung zum Pairing wartet, klicken Sie auf die Schaltfläche Test, die dem Programmbefehl in Jeedom entspricht.
 
-En haut de votre page de configuration pour l’équipement, vous avez 3
-boutons qui permettent de réaliser certaines options :
+Um das Lernen des neuen Befehls zu validieren, macht der Verschluss dann eine kurze Rückfahrt.
 
--   Dupliquer : permet de dupliquer l’équipement
+Afin de tester tout de suite, vous pouvez cliquer sur les boutons Test correspondants aux commandes « Monter, Descendre, Stop ». Le bouton « My » correspond à la commande Stop.
 
--   Configuration avancée : même principe que pour les commandes, ça
-    permet une configuration avancée de l’équipement
+Aktivieren und machen Sie das Gerät mit den entsprechenden Kontrollkästchen sichtbar, um es im Dashboard anzeigen und verwenden zu können.
 
--   Supprimer : Supprime votre équipement
+Sie können jetzt Ihre Somfy RTS-Komponente bei Jeedom bestellen.
 
--   Sauvegarder : Sauvegarde votre équipement et les éventuelles
-    modifications apportées
+# FAQ
 
-Inclusion d’un équipement RFXcom
-================================
-
-L’ajout d’un équipement RFXcom est très simple, il faut juste passer en
-mode inclusion et attendre que l’équipement envoi un message, quand ca
-sera le cas Jeedom vous indiquera qu’il a inclus un nouvel équipement et
-créera celui-ci automatiquement.
-
-Liste des modules compatibles
-=============================
-
-Vous trouverez la liste non exhaustive des modules compatibles
-[ici](https://jeedom.github.io/documentation/rfxcom/fr_FR/equipement.compatible)
-
-Ajouter une prise
-=================
-
-Ce mode opératoire est valable pour les prises, récepteurs luminaires,
-etc. Rendez-vous dans le menu "Plugins" puis "Protocole domotique" et
-enfin "RFXcom".
-
-Cliquez sur "Ajouter" pour ajouter un module, nommez votre module et
-cliquez sur "D’accord".
-
-Sélectionnez "Prise - Défaut" dans "Equipement", puis cliquez sur
-"Sauvegarder".
-
--   Allez sur l’onglet "Commandes"
-
--   Mettre votre module/prise en mode apprentissage. (Cliquez sur le
-    bouton apprentissage de votre module/prise. Certaines prises ne
-    possèdent pas de bouton, il suffit de débrancher la prise, puis de
-    la rebrancher et pendant les 3 premières secondes suivant le
-    branchement la prise est en mode apprentissage).
-
--   Cliquez sur "Tester" d’une commande.
-
--   Si la connexion s’est bien déroulée, vous pouvez cliquer sur
-    "Sauvegarder", dans le cas contraire vous pouvez recommencer
-    cette étape.
-
-Votre module/prise est maintenant connecté(e) avec JEEDOM, pensez à
-l’activer et à le rendre visible pour le voir apparaître sur le
-Dashboard.
-
-Ajouter un store somfy
-======================
-
-Depuis la sortie du nouveau module RFXcom RFXtrx433E, il est désormais
-possible de piloter ses périphériques Somfy RTS (RFY/RFU) depuis Jeedom.
-(Qui prend en charge ce module via le plugin RFXcom)
-
-Pour ajouter un nouveau périphérique, se rendre dans le menu Plugins
-&gt; Protocole Domotique &gt; RFXcom
-
-Cliquez sur le bouton +Ajouter et donnez un nom à votre périphérique. Ex
-: « Volet Véranda ».
-
-Se rendre sur le nouveau Périphérique créé et dans le menu déroulant
-Equipement, choisir « RTS Store Somfy – Défaut », en profiter pour lui
-définir un objet parent et une catégorie si vous le souhaitez et cliquer
-sur Enregistrer.
-
-Les commandes utiles pour gérer le volet roulant sont automatiquement
-générées. Il ne reste plus qu’à appairer le volet avec ce périphérique
-Jeedom. Pour cela, appuyez sur le bouton d’appairage de la télécommande
-du volet que vous souhaitez commander pendant 2 à 3 secondes, jusqu’à ce
-que le volet fasse un léger aller/retour.
-
-Une fois que le volet a signifié qu’il est en attente de commande pour
-l’appairage, cliquer sur le bouton Tester correspondant à la commande
-Programme dans Jeedom.
-
-Pour valider l’apprentissage de la nouvelle commande, le volet va alors
-faire de nouveau un bref aller/retour.
-
-Afin de tester tout de suite, vous pouvez cliquer sur les boutons Tester
-correspondants aux commandes « Monter, Descendre, Stop ». Le bouton « My
-» correspond à la commande Stop.
-
-Activez et rendez visible le périphérique avec les cases à cocher
-correspondantes afin de pouvoir le visualiser et l’utiliser dans le
-dashboard.
-
-Vous pouvez désormais commander votre volet Somfy RTS avec Jeedom.
-
-Questions fréquentes
-====================
-
-FAQ
-===
-
->**Simuler/reconnaître une télécommande rfxcom chinoise (undecoded).**
+>**Simulieren / Erkennen einer chinesischen rfxcom-Fernbedienung (nicht entschlüsselt).**
 >
->   **Programmation des télécommandes chinoises à code dans Jeedom**
+>   **Programmierung von chinesischen Code-Fernbedienungen in Jeedom**
 >
->Au niveau du plugin RFXCom → Gestion des protocoles RFXCom :
+>Im RFXCom-Plugin → Verwaltung von RFXCom-Protokollen :
 >
->-   Ne PAS cocher Undecoded
+>-   Aktivieren Sie NICHT Undecoded
+>-   Überprüfen Sie Lightning4
 >
->-   Cocher Lightning4
+>So rufen Sie die Codes von der Fernbedienung ab : Aktivieren Sie die Option "Alle Nachrichten speichern" und rufen Sie die IDs ab, indem Sie auf drücken
+>Fernbedienungstasten, die wie eine Nachricht aussehen : 0913004C410A24015970, Subtyp = ARC, Id = 400A24… Beispiel "Nachrichten"
+>eine 4-Tasten-Fernbedienung : 0913006D410A21015E70 0913006E410A22015970 0913006F410A24015970 09130070410A28015970
 >
->Pour récupérer les codes de la télécommande : Activer l’option
->"Enregistrer tous les messages" et récupérer les ID en appuyant sur les
->touches des télécommandes qui ressemblent à Message :
->0913004C410A24015970, Subtype = ARC, Id = 400A24 …​ Exemple"Messages"
->d’une télécommande à 4 touches : 0913006D410A21015E70
->0913006E410A22015970 0913006F410A24015970 09130070410A28015970
+>Um ein Drücken auf den Befehl (Emission) zu simulieren, müssen Sie einen Gerätetyp "Lightning4 (13) Default" auswählen". Fügen Sie dann einen Befehl vom Typ Aktion / Fehler hinzu und geben Sie den Wert "Nachricht" in die Protokoll-ID ein (vom Typ 0913006D410A21015E70). Mit der Testtaste können Sie den korrekten Betrieb überprüfen.
 >
->Pour simuler un appui sur la commande (émission), il faut choisir un
->équipement de type "Lightning4 (13) Defaut". Ensuite, ajouter une
->commande de type Action / Défaut et mettre la valeur "Message" dans
->Logicial ID (de type0913006D410A21015E70). Le bouton tester permet de
->vérifier le bon fonctionnement.
->
->Pour la réception, il faut impérativement utiliser la commande auto
->générée par Jeedom (une par touche) avec la valeur Id = 400A24 dans le
->champ ID en haut à gauche, tout en sélectionnant un équipement de type
->"Lightning4 (13) Defaut". C’est l’info "Pulse" qui est reçue à chaque
->appui de la télécommande, et permet donc de déclencher des évènements
->dans Jeedom.
+>Für den Empfang muss unbedingt der von Jeedom generierte automatische Befehl (einer pro Schlüssel) mit dem Wert Id = 400A24 im ID-Feld oben links verwendet werden, während Geräte vom Typ "Lightning4 (13) Default" ausgewählt werden". Es ist die "Impuls" -Information, die jedes Mal empfangen wird, wenn die Fernbedienung gedrückt wird, und daher das Auslösen von Ereignissen in Jeedom ermöglicht.
 
->**Boitier relai chinois ak-rk01-12 piloté depuis Jeedom**
+>**Chinesische Staffelbox ak-rk01-12 von Jeedom aus gesteuert**
 >
->Pour un pilotage relai depuis Jeedom en direct : mettre le cavalier en
->position 1-2 (coté LED rouge et 3 borniers) pour activer le mode Latch
->avec commande déparée ON et OFF. Au niveau de Jeedom, créer une commande
->ON avec une valeur 09130038410B20015C70 (ce qui est important, c’est la
->chaine au milieu 410B20 pour ON et 410B21 pour OFF. Il est possible de
->varier les codes avec les 4 premières lettres 410B, mais conserver les
->fins en 20 et 21 pour les commandes ON et OFF. On peut aussi mettre le
->cavalier sur 2-3 et n’utiliser que la première commande pour inverser
->l’état ON/OFF à chaque envoi de la commande
+>Zur Relaissteuerung von Jeedom live : Bringen Sie den Jumper in Position 1-2 (rote LED-Seite und 3 Klemmenblöcke), um den Latch-Modus mit einem separaten EIN- und AUS-Befehl zu aktivieren. Erstellen Sie in Jeedom einen EIN-Befehl mit dem Wert 09130038410B20015C70 (wichtig ist die Kette in der Mitte 410B20 für EIN und 410B21 für AUS. Es ist möglich, die Codes mit den ersten 4 Buchstaben 410B zu variieren, aber die Enden für die EIN- und AUS-Befehle in 20 und 21 zu belassen. Sie können den Jumper auch auf 2-3 setzen und bei jedem Senden des Befehls nur den ersten Befehl verwenden, um den EIN / AUS-Status umzukehren
 
->**Je ne vois pas le port USB du rfxcom**
+>**Ich sehe den rfxcom USB-Anschluss nicht**
 >
->Vérifiez que vous n’avez pas brltty d’installer (`sudo apt-get remove brltty` pour le supprimer)
+>Stellen Sie sicher, dass Sie nicht brltty installieren müssen (`sudo apt-get remove brltty`, um es zu entfernen)
 
 
->**Au bout de quelques heures/jours je n’ai plus de mise à jour de mes sondes, une relance du démon corrige**
+>**Nach ein paar Stunden / Tagen habe ich keine Updates mehr für meine Sonden, eine Wiederbelebung des Dämons korrigiert**
 >
->Vérifiez votre cable USB (un mauvais cable USB entraine souvent ce
->genre de soucis, il ne faut pas qu’il soit trop long non plus),
->verifiez aussi votre alimentation, un hub USB est fortement
->conseillé
+>Überprüfen Sie Ihr USB-Kabel (ein schlechtes USB-Kabel verursacht häufig solche Probleme, es sollte auch nicht zu lang sein). Überprüfen Sie auch Ihr Netzteil. Ein USB-Hub wird dringend empfohlen
 
->**J’ai un message m’indiquant que le port n’existe pas**
+>**Ich habe eine Nachricht, dass der Port nicht existiert**
 >
->Vérifiez que le port est bien configuré et que la configuration est
->enregistrée (il faut sauvegarder sinon la modification n’est pas prise en compte).
+>Überprüfen Sie, ob der Port korrekt konfiguriert und die Konfiguration gespeichert ist (er muss gespeichert werden, da sonst die Änderung nicht berücksichtigt wird).
 
->**Mes sondes ne sont pas vues**
+>**Meine Sonden werden nicht gesehen**
 >
->Bien s’assurer d’avoir bien coché la case pour la création automatique des équipements.
->Vérifer que le démon est bien lancé.
->Il est aussi possible de redémarrer le démon en debug pour voir s’il
->reçoit bien les messages des sondes.
->Vérifier aussi que les bons protocoles sont activés (attention à ne pas
->trop en activer sinon ça ne fonctionnera pas non plus).
+>Stellen Sie sicher, dass Sie das Kontrollkästchen für die automatische Erstellung von Geräten aktiviert haben. Überprüfen Sie, ob der Dämon gestartet ist. Es ist auch möglich, den Debug-Daemon neu zu starten, um festzustellen, ob er die Nachrichten von den Tests empfängt. Überprüfen Sie auch, ob die richtigen Protokolle aktiviert sind (achten Sie darauf, nicht zu viele zu aktivieren, da dies sonst auch nicht funktioniert).
 
->**Lors du démarrage en mode debug j’ai le message : "can not bind socket address" ou "Cannot assign requested address"**
+>**Beim Start im Debug-Modus erhalte ich die Meldung : "Socket-Adresse kann nicht gebunden werden "oder" Angeforderte Adresse kann nicht zugewiesen werden"**
 >
->Cela provient probablement d’une mauvaise adresse IP configurée dans le menu Général/administration/Configuration, section "Configuration
->réseau", puis "Accès interne" et Adresse URL ou IP.
+>Dies liegt wahrscheinlich an einer falschen IP-Adresse, die im Menü Allgemein / Verwaltung / Konfiguration, Abschnitt "Netzwerkkonfiguration", dann "Interner Zugriff" und URL oder IP-Adresse konfiguriert wurde.
 
->**Le démon refuse de démarrer**
+>**Der Dämon weigert sich zu starten**
 >
->Essayer de démarrer le démon en mode debug pour voir l’erreur.
+>Versuchen Sie, den Daemon im Debug-Modus zu starten, um den Fehler zu sehen.
 
->**Pourquoi l’association d’une prise est plus complexe sur Jeedom que sur d’autres solutions domotiques ?**
+>**Warum die Zuordnung einer Steckdose bei Jeedom komplexer ist als bei anderen Hausautomationslösungen ?**
 >
->Sur les autres solutions domotiques il suffit souvent juste de
->cliquer sur les boutons de la télécommande pour pouvoir piloter la
->prise que la télécommande pilote, pourquoi ce n’est pas le cas sous
->Jeedom ?
+>Bei anderen Hausautomationslösungen reicht es oft aus, nur auf die Tasten auf der Fernbedienung zu klicken, um die von der Fernbedienung gesteuerte Buchse steuern zu können, weshalb dies bei Jeedom nicht der Fall ist ?
 >
->Jeedom dissocie la télécommande de la prise, avec la méthode précédente
->vos boutons doivent piloter la prise, et si vous cassez l’association
->entre la prise et la télécommande la solution domotique ne peut plus
->piloter la prise.
+>Jeedom trennt die Fernbedienung von der Steckdose. Bei der vorherigen Methode müssen Ihre Tasten die Steckdose steuern. Wenn Sie die Zuordnung zwischen Steckdose und Fernbedienung aufheben, kann die Hausautomationslösung die Steckdose nicht mehr steuern.
 >
->Sous Jeedom c’est différent : l’association est plus complexe mais il
->n’est plus nécessaire que la télécommande ait X boutons monopolisés par
->la commande de la prise. Ces boutons peuvent servir à piloter un groupe
->de prise mixant plusieurs technologies (Z-Wwave, Enocean et RFXcom par
->exemple).
+>Unter Jeedom ist das anders : Die Zuordnung ist komplexer, es ist jedoch nicht mehr erforderlich, dass die Fernbedienung X-Tasten durch die Steuerung der Buchse monopolisiert. Mit diesen Tasten können Sie eine Steckdosengruppe steuern, die verschiedene Technologien mischt (z. B. Z-Wwave, Enocean und RFXcom).
 
->**Ma prise DIO ne veut pas s’associer avec Jeedom**
+>**Mein DIO-Stecker möchte sich nicht mit Jeedom verbinden**
 >
->Cela arrive généralement quand la mémoire interne de la prise est
->saturée. Pour effacer la mémoire des prises DIO/Chacon (elles
->n’acceptent pas plus de 3 codes différents) sous Jeedom, il faut
->créé une commande "reset" avec la valeur 0B110006\#ID\#09030070 A ce
->moment, la led rouge clignote deux fois, et la prise peut accepter une nouvelle association avec Jeedom.
+>Dies geschieht normalerweise, wenn der interne Speicher der Steckdose voll ist. Um den Speicher der DIO / Chacon-Sockets (sie akzeptieren nicht mehr als 3 verschiedene Codes) unter Jeedom zu löschen, müssen Sie einen "Reset" -Befehl mit dem Wert 0B110006 \ erstellen#ID\#09030070 Zu diesem Zeitpunkt blinkt die rote LED zweimal und die Buchse kann eine neue Zuordnung zu Jeedom akzeptieren.
 
->**La batterie de mes sondes ne remonte pas correctement**
+>**Die Batterie meiner Sonden geht nicht richtig hoch**
 >
->Vérfiez que vous avez bien une commande batterie avec pour logicalId "battery" sur votre équipement
+>Überprüfen Sie, ob Ihr Gerät eine Batteriebestellung mit der logischen ID "Batterie" enthält
 
->**J'ai l'erreur [Errno 5] Input/output error**
+>**Ich habe den Fehler [Errno 5] Eingabe- / Ausgabefehler**
 >
->Cette erreur est malheureusement matériel (problème de communication avec le RFXcom). Souvent c'est du à un soucis d'alimentation ou de câble USB, vous pouvez donc essayer en changent le câble USB et/ou en passant par un hub USB alimenté
+>Dieser Fehler ist leider Hardware (Kommunikationsproblem mit RFXcom). Dies ist häufig auf ein Problem mit der Stromversorgung oder dem USB-Kabel zurückzuführen. Sie können daher versuchen, das USB-Kabel zu wechseln und / oder einen USB-Hub mit Stromversorgung zu verwenden
 
->**Je n'arrive pas a faire reconnaitre certain capteur malgrès l'activation du bon protocole**
+>**Ich kann trotz Aktivierung des richtigen Protokolls keinen Sensor erkennen**
 >
-> Verifiez que le firmware est à jour. Puis si c'est toujours pas bon il faut tester avec le rfxmng
+> Überprüfen Sie, ob die Firmware auf dem neuesten Stand ist. Wenn es dann immer noch nicht gut ist, müssen Sie mit rfxmng testen
 
->**J'ai l'erreur Timeout waiting status**
+>**Ich habe den Fehler Timeout Wartestatus**
 >
-> Cela arrive en général dans 2 cas :
->- Votre module RFXCOM n'est pas à jour, voir [ici](http://www.rfxcom.com/epages/78165469.sf/nl_NL/?ObjectPath=/Shops/78165469/Categories/Downloads)
->- Vous avez pris le plugin RFXCOM alors que vous avez un RFPLAYER, il faut donc la prendre le plugin RFPLAYER
+> Dies geschieht normalerweise in 2 Fällen :
+>- Ihr RFXCOM-Modul ist nicht auf dem neuesten Stand [hier](http://www.rfxcom.com/epages/78165469.sf/nl_NL/?ObjectPath=/Shops/78165469/Categories/Downloads)
+>- Sie haben das RFXCOM-Plugin verwendet, während Sie einen RFPLAYER haben, daher müssen Sie das RFPLAYER-Plugin verwenden
+
+>**Ich habe Probleme beim Zusammenbau der Sensoren und die einzige Lösung besteht darin, alles neu zu starten**
+>
+> Mit Hilfe von Windows und dem rfxmanager ist es notwendig, im rfxcom die Aktivierung oder Nichtaktivierung der verschiedenen Protokolle zu härten

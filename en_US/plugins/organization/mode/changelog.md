@@ -1,23 +1,29 @@
-# 06/12/2019
+# Changelog Mode
 
-- Suppression du bouton de duplication de mode (trop de bug)
-- Correction d'un bug sur le calcul des commandes orphelines
-- Ajout d'une commande indiquant le mode précedent
-- Correction d'un bug sur les templates de widgets multistate V4
+# 12/11/2019
 
-# 08/05/2018
+- Correction of a bug on the Mobile app and the Homebridge plugin.
 
-- Ajout de l'option pour dupliquer un mode
+# 12/06/2019
 
-# 16/04/2018
+- Remove mode duplication button (too many bugs)
+- Correction of a bug on the calculation of orphan orders
+- Addition of a command indicating the previous mode
+- Fixed bug on multistate V4 widget templates
 
-- Correction d'un bug si les modes contenaient un caractere spécial
+# 05/08/2018
 
-# 03/04/2018
+- Add option to duplicate a mode
 
-- Correction de bugs
+# 04/16/2018
 
-# 12/02/2017
+- Fixed a bug if the modes contained a special character
 
-- Correction d'un bug sur la selection d'action condition sur mode
-- Correction de bug lors du renommage des modes
+# 04/03/2018
+
+- Bugfix
+
+# 02/12/2017
+
+- Correction of a bug on the selection of action condition on mode
+- Bug fix when renaming modes

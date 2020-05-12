@@ -1,108 +1,71 @@
-Plugin permettant de controller les thermostats Netatmo
+# Netatmo Thermostat plugin
 
-== Plugin configuration
+Plugin for controlling Netatmo thermostats
 
-Une fois le plugin installé, il vous faut renseigner vos informations de
-connexion Netatmo :
+# Plugin configuration 
 
--   **Client ID** : votre client ID (voir partie configuration)
+Once the plugin is installed, you need to enter your Netatmo connection information :
 
--   **Client secret** : votre client secret (voir partie configuration)
+-   **Client ID** : your client ID (see configuration section)
+-   **Client secret** : your secret client (see configuration section)
+-   **Username** : username of your netatmo account
+-   **Password** : password for your Netatmo account
+-   **Use alternative design** : allows to use another design (see widget section)
+-   **Synchronize** : allows you to synchronize Jeedom with your Netamo account to automatically discover your Netamo equipment. To do after saving the previous parameters.
 
--   **Nom d’utilisateur** : nom d’utilisateur de votre compte netatmo
+# Retrieving connection information 
 
--   **Mot de passe** : mot de passe de votre compte Netatmo
+Pour intégrer votre station, vous devez posséder un client\_id et un client\_secret généré sur le site <http://dev.netatmo.com>.
 
--   **Utiliser le design alternatif** : permet d’utiliser un autre
-    design (voir partie widget)
-
--   **Synchroniser** : permet de synchroniser Jeedom avec votre compte
-    Netamo pour découvrir automatiquement vos équipements Netamo. A
-    faire après avoir sauvegardé les paramètres précedent.
-
-Recupération des informations de connexion 
-==========================================
-
-Pour intégrer votre station, vous devez posséder un client\_id et un
-client\_secret généré sur le site <http://dev.netatmo.com>.
-
-Une fois dessus cliquez sur start :
+Once on click on start :
 
 ![netatmoWeather10](./images/netatmoWeather10.png)
 
-Puis sur "create an app"
+Then on "create an app"
 
 ![netatmoWeather11](./images/netatmoWeather11.png)
 
-Identifiez vous, avec votre mail et mot de passe
+Identify yourself, with your email and password
 
 ![netatmoWeather12](./images/netatmoWeather12.png)
 
-Remplissez les champs "Name" et "Description" (peux importe ce que vous
-mettez ca n’a aucune importance) :
+Fill in the "Name" and "Description" fields (whatever you put it doesn't matter) :
 
 ![netatmoWeather13](./images/netatmoWeather13.png)
 
-Puis tout en bas de la page cochez la case "I accept the terms of use"
-puis cliquez sur "Create"
+Then at the very bottom of the page check the box "I accept the terms of use" then click on "Create"
 
 ![netatmoWeather14](./images/netatmoWeather14.png)
 
-Recuperer les informations "CLient id" et "Client secret" et copier les
-dans la partie configuration du plugin dans Jeedom (voir chapitre
-précedent)
+Recover the "CLient id" and "Secret client" information and copy them in the configuration part of the plugin in Jeedom (see previous chapter)
 
 ![netatmoWeather15](./images/netatmoWeather15.png)
 
-Equipment configuration
-=============================
+# Equipment configuration 
 
-La configuration des équipements Netatmo est accessible à partir du menu
-plugin.
+The configuration of Netatmo equipment is accessible from the plugin menu.
 
-> **Tip**
->
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez à
-> partir de votre profil le laisser toujours visible).
+Here you find all the configuration of your equipment :
 
-You can find here the full configuration of your device :
+-   **Name of the Netatmo device** : name of your Netatmo equipment
+-   **Parent object** : indicates the parent object to which the equipment belongs
+-   **Activate** : makes your equipment active
+-   **Visible** : makes it visible on the dashboard
+-   **Login** : unique equipment identifier
+-   **Type** : type of your equipment (station, indoor probe, outdoor probe…)
 
--   **Nom de l’équipement Netatmo** : nom de votre équipement Netatmo
+Below you find the list of orders :
 
--   **Parent Object** : means the parent object the equipment depend
-    equipment
-
--   **Enable**: makes your equipment active
-
--   **Visible**: makes it visible on the dashboard
-
--   **Identifiant** : identifiant unique de l’équipement
-
--   **Type** : type de votre équipement (station, sonde intérieure,
-    sonde extérieures…​)
-
-En dessous vous retrouvez la liste des commandes :
-
--   le nom affiché sur le dashboard
-
--   historiser : permet d’historiser la donnée
-
--   configuration avancée (petites roues crantées) : permet d’afficher
-    la configuration avancée de la commande (méthode
-    d’historisation, widget…​)
-
--   Test: test the command
+-   the name displayed on the dashboard
+-   Historize : allows to historize the data
+-   advanced configuration (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.)
+-   Test : Used to test the command
 
 > **Tip**
 >
-> Lors du changement de mode de widget il est conseillé de cliquer sur
-> synchroniser pour voir le resultat immédiatement
+> When changing the widget mode it is advisable to click on synchronize to see the result immediately
 
-FAQ
-===
+# FAQ 
 
-Quelle est la fréquence de rafraichissement ?
-Le systeme recupère les informations toutes les 15 min.
-
-
+**What is the refresh rate ?**
+The system retrieves information every 15 min.

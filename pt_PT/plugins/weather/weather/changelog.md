@@ -1,28 +1,34 @@
-# 07/01/2020
+# Changelog Tempo
 
-- Augmentation du timeout de connexion
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
+# 01/07/2020
+
+- Tempo limite de conexão aumentado
 
 # 14/11/2019
 
-- Amélioration du widget
-- Correction de bug sur le déclenchement du levé/couché du soleil
+- Melhoria de widget
+- Correção de bug ao acionar o nascer / pôr do sol
 
-# 03/10/2019
+# 03/03/2019
 
-- Correction de bugs
+- Correções de bugs
 
 # 18/09/2019
 
-- Correction de l'indicateur de direction du vent
+- Correção do indicador de direção do vento
 
-# 06/09/2019
+# 06/06/2019
 
-- Correction de bug des widgets en v4
+- Correção de bug para widgets na v4
 
 # 01/08/2019
 
-- Support de PHP 7.3
+- Suporte para php 7.3
 
 # 28/01/2019
 
-- Le widget peut être redimmensionné
+- O widget pode ser redimensionado

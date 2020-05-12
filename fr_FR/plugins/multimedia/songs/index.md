@@ -1,10 +1,10 @@
-# Description
+# Plugin Sons
 
 Ce plugin permet d'intercepter certaine demandes de TTS (passant par le TTS jeedom et uniquement celui-ci) et de le remplacer par le son de votre choix.
 
 # Configuration
 
-Ce plugin ne necessite aucune configuration particuliere
+Ce plugin ne necessite aucune configuration particulière.
 
 # Ajout de son
 
@@ -16,4 +16,4 @@ Il vous suffit dans Plugins -> Multimedia -> Sons de cliquer sur ajouter puis :
 
 # Utilisation
 
-Une fois votre son ajouter pour l'utiliser il faut dans le message TTS mettre #id# (id étant l'identifiant du son créer plus haut)
+Une fois votre son ajouté, vous pouvez mettre dans le message TTS #id# (id étant l’identifiant du son créé plus haut)

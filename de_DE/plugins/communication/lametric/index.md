@@ -1,61 +1,45 @@
-Plugin permettant d’afficher des notifications / informations sur
-LaMetric.
+# LaMetric Plugin
 
-Plugin-Konfiguration
-=======================
+Plugin zur Anzeige von Benachrichtigungen / Informationen zu LaMetric.
 
-Une fois le plugin installé, il est nécessaire de créer une "indicator
-App" sur le site LaMetric :
+# Plugin Konfiguration 
 
--   1\. Se rendre à l’adresse : <https://developer.lametric.com>
+Sobald das Plugin installiert ist, muss auf der LaMetric-Site eine "Indikator-App" erstellt werden :
 
--   2\. Créer une "INDICATOR APP" :
+-   1 \. Se rendre à l'adresse : <https://developer.lametric.com>
+-   2 \. Erstellen Sie eine "INDICATOR APP" :
 
 ![lametric1](./images/lametric1.png)
 
--   3\. Configurer une icone, un nom et sélectionner Push dans "Communication
-    type" :
+-   3 \. Konfigurieren Sie ein Symbol, einen Namen und wählen Sie Push in "Typische Kommunikation" :
 
 ![lametric2](./images/lametric2.png)
 
--   4\. Donner un nom et une description à votre app et cocher "Private app"
-    puis cliquer sur "Save" :
+-   4 \. Geben Sie Ihrer App einen Namen und eine Beschreibung, aktivieren Sie "Private App" und klicken Sie auf "Speichern"" :
 
 ![lametric3](./images/lametric3.png)
 
--   5\. Publier l’application puis installer-la sur votre LaMetric grâce à
-    l’application mobile.
+-   5 \. Veröffentlichen Sie die Anwendung und installieren Sie sie mit der mobilen Anwendung auf Ihrem LaMetric.
 
-Une fois l’application publiée, vous disposez des informations
-essentielles pour la configuration du plugin.
+Sobald die Anwendung veröffentlicht ist, verfügen Sie über wichtige Informationen zum Konfigurieren des Plugins.
 
 ![lametric4](./images/lametric4.png)
 
-Vous pouvez ensuite créer un nouvel équipement dans Jeedom et renseigner
-les champs demandés :
+Sie können dann in Jeedom neue Ausrüstung erstellen und die gewünschten Felder ausfüllen :
 
 ![lametric5](./images/lametric5.png)
 
-Utilisation du plugin 
-=====================
+# Mit dem Plugin 
 
-2 commandes sont automatiquement créées lors de l’ajout d’un équipement
-:
+Beim Hinzufügen von Geräten werden automatisch 2 Bestellungen erstellt :
 
--   **Message** ⇒ Permet l’envoi de messages
+-   **Nachricht** ⇒ Ermöglicht das Senden von Nachrichten. Der Befehl Nachrichtentyp enthält 2 Felder : 
+    - **Symbol ID** : Correspond au numéro de l'icône souhaitée (Ne pas mettre le \# ; liste des icônes disponibles ici : <https://developer.lametric.com/icons>)
+    - **Text** : Entspricht dem Text, den Sie anzeigen möchten
+-   **Leeren** ⇒ Ermöglicht das Zurücksetzen der Anzeige auf leer ("JEEDOM" wird dann registriert)
 
--   **Vider** ⇒ Permet de remettre à vide l’affichage ("JEEDOM"
-    s’inscrit alors)
+Es ist möglich, mehrere Nachrichten auf einmal zu senden, indem die Symbole und die Texte durch das Zeichen getrennt werden : **|**
 
-La commande de type message contient 2 champs : \* **ID Icone** :
-Correspond au numéro de l’icône souhaitée (Ne pas mettre le \# ; liste
-des icônes disponibles ici : <https://developer.lametric.com/icons>) \*
-**Texte** : Correspond au texte que l’on souhaite afficher
-
-Il est possible d’envoyer plus de messages en un seul envoi en séparant
-les icônes et les textes par le caractère : **|**
-
-Voici par exemple un scénario envoyant 4 informations différentes en 1
-seul envoi :
+Hier ist zum Beispiel ein Szenario, in dem 4 verschiedene Informationen in einem einzigen Sendevorgang gesendet werden :
 
 ![lametric6](./images/lametric6.png)

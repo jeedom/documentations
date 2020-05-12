@@ -1,46 +1,55 @@
-- Correction de bug dans le script d'installation des dépendances
+# Changelog Ikea
 
-# 16/10/2019
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-- Mise à jour de la doc
+# 01/12/2020
 
-# 14/10/2019
+- Bug fix in the dependencies installation script
+- Inversion of the widget for the stores (be careful to delete the store type equipment and restart the daemon)
 
-- Correction de bugs
+# 10/16/2019
+
+- Updating the doc
+
+# 10/14/2019
+
+- Bugfix
 
 # 10/10/10
 
-- Support des stores
-- Amélioration du nom des commandes et type générique
-- Adaptation de l'interface à Jeedom V4
-- Support php 7.3
-- changement complet du démon
+- Blind support
+- Improvement of command names and generic type
+- Adapting the interface to Jeedom V4
+- Support PHP 7.3
+- complete demon change
 
-IMPORTANT : suite à cette mise à jour il faut reinstaller les dependances et relancer le demon
+Important : following this update you must reinstall the dependencies and relaunch the demon
 
 # 07-06-2019
 
-- Amélioration script de dépendances
+- Improved dependency script
 
-# 27-05-2019
+# 2019-05-27
 
-- Changement provisoire lié au changement induit par la dernière maj IKEA
-- Ajout des prises
-- Amélioration de la gestion des retours d'état
+- Temporary change due to the change brought about by the last IKEA update
+- Adding plugs
+- Improved management of status returns
 
-# 14/02/2019
+# 02/14/2019
 
-- Correction bug detection auto des confs
+- Correction bug auto detection of confs
 
-# 16/10/2018
-- Rajout conf transformer
-- Gestion des noms avec /
+# 10/16/2018
+- Add conf transform
+- Name management with /
 
-# 24/04/2018
+# 04/24/2018
 
-- Rajout du panneau de led 30x90
-- Rajout de l'ampoule E26 980lm
+- Addition of LED panel 30x90
+- Addition of the E26 980lm bulb
 
-# 21/03/2018
+# 03/21/2018
 
-- L'ampoule 1000lm possède deux variantes rajout de la conf
+- The 1000lm bulb has two variants adding the conf
