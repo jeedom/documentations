@@ -72,7 +72,7 @@ Configuration générale
 
 Pour configurer le plugin Edisio et associer un module à Jeedom,
 référez-vous à cette
-[documentation](https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html).
+[documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/edisio/).
 
 > **Important**
 >
