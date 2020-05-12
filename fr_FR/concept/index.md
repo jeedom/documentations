@@ -55,9 +55,9 @@ Ces commandes peuvent être historisées afin de conserver ces informations dans
 Ces commandes peuvent aussi servir à déclencher des [scénarios](/fr_FR/core/4.1/scenario) afin d'automatiser des actions en fonctions des informations remontées par vos capteurs. Par exemple, un capteur de mouvement détecte une présence, ce qui va déclencher un scénario qui allumera la lumière.
 
 - Les commandes *action* :
-Ces commandes permettent de piloter vos actionneurs. Par exemple, les commandes **on** et **off** d'une prise commandée vous permettront de l'allumer et de l'éteindre.
+Ces commandes permettent de piloter vos actionneurs. Par exemple, les commandes ``on`` et ``off`` d'une prise commandée vous permettront de l'allumer et de l'éteindre.
 
-Les commandes action sont généralement liées à des commandes info. Ici, notre prise possède deux actions **on** et **off**, généralement liées à une information **Etat**.
+Les commandes action sont généralement liées à des commandes info. Ici, notre prise possède deux actions ``on`` et ``off``, généralement liées à une information **Etat**.
 
 ![Commandes](images/concept-commands.jpg)
 
@@ -83,5 +83,3 @@ Quelques soit votre périphérique, il sera donc crée sous forme d'un équipeme
 Ce périphérique comportera ses propres commandes *info* ou *action*. Ces commandes seront affichées sous forme de Widgets formant la tuile de l'équipement, dans son objet parent.
 
 Vous verrez ensuite que chaque Objet, Équipement, Commande possède de nombreuses options, en terme de fonctionnalités ou d'affichage. Mais chaque chose en son temps, maintenant vous devriez avoir compris les concepts de base de Jeedom, et ainsi pouvoir commencer à organiser votre domotique en sachant où regarder.
-
-
