@@ -1,112 +1,70 @@
-SmartHome von Everspring In Wall Dimmer - AD146-0
-================================================
+# SmartHome von Everspring In Wall Dimmer - AD146-0
 
--   **Das Modul**
+**Das Modul**
 
 ![module](images/smarthomebyeverspring.AD146-0/module.jpg)
 
--   **Das Jeedom Visual**
+**Das Jeedom Visual**
 
 ![vuedefaut1](images/smarthomebyeverspring.AD146-0/vuedefaut1.jpg)
 
 Zusammenfassung
 ------
 
-Dieses Wanddimmer-Mikromodul von SmartHome Europe von
-Everspring dient zur Steuerung des Ein- und Ausschaltens
-Leuchten und elektrische Geräte in Ihrem Haus. Er kann
-bieten auch eine Dimmerfunktion, die nur ist
-kompatibel mit Glühbirnen. Bei einer Spannung von 230V kann dieses Modul
-Unterstützung von bis zu 300 Watt bei ohmscher oder glühender Last oder 200 Watt
-Watt fluoreszierende Ladung.
+Dieses Wanddimmer-Mikromodul von SmartHome Europe von Everspring dient zum Steuern des Ein- und Ausschaltens von Lichtern und elektrischen Geräten in Ihrem Zuhause. Es kann auch eine Dimmerfunktion bereitstellen, die nur mit Glühbirnen kompatibel ist. Bei einer Spannung von 230 V kann dieses Modul bis zu 300 Watt ohmsche oder glühende Ladung oder 200 Watt fluoreszierende Ladung unterstützen.
 
-Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden und ersetzt a
-vorhandener Schalter oder drei Drähte mit herkömmlicher Stromversorgung von
-Modul (Phase + Neutral).
+Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden, um einen vorhandenen Schalter zu ersetzen, oder im Dreileiter-Modus durch eine herkömmliche Modulversorgung (Phase + Neutralleiter).
 
-Das Wall Dimmer Module ist ein Z-Wave ™ -kompatibles Gerät
-Entwickelt für alle Z-Wave ™ -kompatiblen Netzwerke. Er
-kann per Fernbedienung, PC-Software oder einem anderen Gerät gesteuert werden
-welcher Z-Wave-Controller in Ihrem Netzwerk.
+Das Wall Dimmer-Modul ist ein Z-Wave ™ -kompatibles Gerät, das für alle Z-Wave ™ -kompatiblen Netzwerke geeignet ist. Es kann von einer Fernbedienung, einer PC-Software oder einem beliebigen Z-Wave-Controller in Ihrem Netzwerk gesteuert werden.
 
 Fonctions
 ---------
 
 -   Steuern Sie ein Licht / Gerät fern
-
 -   Wird hinter einem vorhandenen Switch installiert
-
 -   EIN / AUS und Variationsfunktion
-
 -   Geringer Energieverbrauch
-
 -   Sehr kleine, reduzierte Abmessungen
-
 -   Langstreckenantenne
-
 -   Z-Wave Plus-Technologie
-
 -   Einfache Installation in einer Standard-Unterputzdose
-
 -   Verwendung im 2-Draht-Modus (Neutralleiter nicht erforderlich)
-
 -   Kompatibel mit dimmbaren LED-Lampen
-
 -   Schaltfläche zum Einschließen / Ausschließen / Zuordnen des Moduls
-
 -   Z-Wave-Repeater-Funktion
 
 Technische Daten
 ---------------------------
 
 -   Modultyp : Z-Wave Empfänger
-
 -   Versorgung : 230 V, 50 Hz
-
 -   Verbrauch : 0,5 W.
-
 -   Maximale Leistung :
-
 -   Widerstandslast : 300W
-
 -   Glühbirne : 300W
-
 -   Kompaktleuchtstofflampe : 200W
-
 -   Frequenz : 868,42 MHz
-
 -   Geltungsbereich : bis zu 70 m im Freien, bis zu 30 m in Gebäuden
-
 -   Affichage: LED auf der Taste
-
 -   Abmessungen : 42 mm x 43 mm x 16 mm
 
 Moduldaten
 -----------------
 
 -   Machen Sie : SmartHome von Everspring
-
 -   Name : Im Wanddimmer
-
 -   Hersteller ID : 96
-
 -   Produkttyp : 3
-
 -   Produkt-ID : 2
 
 Configuration
 -------------
 
-So konfigurieren Sie das OpenZwave-Plugin und wissen, wie Sie Jeedom einsetzen
-Aufnahme beziehen sich darauf
-[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
+Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
 > **Wichtig**
 >
-> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie dreimal auf das Modul
-> Knopf, entsprechend seiner Papierdokumentation. Es ist wichtig zu
-> Beachten Sie, dass dieses Modul direkt in die Aufnahme geht, wenn
-> gehört zu keinem Netzwerk und wird mit Strom versorgt
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie die Taste gemäß der Papierdokumentation dreimal. Es ist wichtig zu beachten, dass dieses Modul direkt aufgenommen wird, wenn es zu keinem Netzwerk gehört und mit Strom versorgt wird
 
 ![inclusion](images/smarthomebyeverspring.AD146-0/inclusion.jpg)
 
@@ -116,47 +74,35 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ### Commandes
 
-Sobald das Modul erkannt wurde, werden die dem Modul zugeordneten Befehle ausgeführt
-disponibles.
+Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
 ![Befehle](images/smarthomebyeverspring.AD146-0/commandes.jpg)
 
 Hier ist die Liste der Befehle :
 
 -   Intensität : Dies ist der Befehl zum Einstellen der Lichtintensität
-
 -   Ein : Es ist die Steuerung, die das Licht einschaltet
-
 -   Aus : Es ist der Befehl, der das Licht ausschaltet
-
 -   Zustand : Es ist der Befehl, mit dem der Status des Lichts ermittelt werden kann
 
-Beachten Sie, dass im Dashboard die Informationen Status, EIN / AUS, Intensität angezeigt werden
-auf dem gleichen Symbol gefunden.
+Beachten Sie, dass im Dashboard die Informationen zu Status, EIN / AUS und Intensität auf demselben Symbol angezeigt werden.
 
 ### Konfiguration des Moduls
 
-Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
-Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
-Jeedom OpenZwave Plugin.
+Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie dazu auf die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom.
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
-Einstellungen)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
 
 ![Config1](images/smarthomebyeverspring.AD146-0/config1.jpg)
 
 Parameterdetails :
 
 -   1 : Dieser Parameter definiert den Statuswertbefehl. Es ist nicht ratsam, diesen Wert zu ändern.
-
 -   2 : Dieser Parameter definiert die Verzögerung für das Senden der Statusänderung an Gruppe 1 (Wert zwischen 3 und 25 Sekunden)
-
 -   3 : Mit diesem Parameter wird festgelegt, ob der Schalter nach einer Wiederherstellung der Stromversorgung seinen Status (EIN oder AUS) wieder einnimmt.
-
 -   4 : Dieser Parameter definiert den Schaltertyp (Push / Bistable)
-
 -   5 : Dieser Parameter definiert, ob der Schalter im Dimmmodus oder im Ein / Aus-Modus arbeitet
 
 ### Groupes
@@ -176,22 +122,7 @@ Gut zu wissen
 
 -   Die Statusrückmeldung kann nicht innerhalb von 3 Sekunden konfiguriert werden.
 
-### Alternative visuelle
-
-![vuewidget](images//smarthomebyeverspring.AD146-0/vuewidget.jpg)
-
 Wakeup
 ------
 
 Keine Vorstellung von Aufwecken auf diesem Modul.
-
-Faq.
-------
-
-Ja, es ist Parameter 2 und kann nicht unter 3 eingestellt werden
-secondes.
-
-Nein, nein. Dieses Modul kann durch mehrmaliges Drücken ein- oder ausgeschlossen werden
-auf dem Schalter.
-
-**@sarakha63**

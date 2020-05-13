@@ -76,7 +76,7 @@ Whichever method is used, you will then arrive on the Login page. By default the
 
 We will see here how to link your Jeedom to your Market account.
 
--   Once connected to your jeedom, you must go to Administration → Configuration
+-   Once connected to your jeedom, you must go to **Settings → System → Configuration**
 
 -   Click on the tab **Updates**
 
@@ -84,9 +84,9 @@ We will see here how to link your Jeedom to your Market account.
 
 -   Check the box **Activate**
 
--   Remplissez l'adresse : `https://www.jeedom.com/market`
+-   Remplissez l'adresse : `https://market.jeedom.com`
 
--   Also fill in the "Username" and "Password" fields according to your identifiers (Market identifiers and not Jeedom)
+-   Also fill in the field **Username** and **Password** based on your identifiers (Market identifiers and not Jeedom)
 
 -   You can test to verify that the connection is made correctly.
 
@@ -105,7 +105,7 @@ Then go to the "Networks" part"
 
 ![Réseaux](images/FirstStep_dns.jpg)
 
-Once here, you just need to activate "Use Jeedom DNS" then on the "Management" line to do "Restart" and your URL will appear at HTTP status level, you can of course customize it from the profile page from the Market
+Once here, just activate **Using Jeedom DNS** then on the line **Management** to do **Restart** and your URL will appear at HTTP status level, you can of course customize it from the Market profile page
 
 > **IMPORTANT**
 >
@@ -140,7 +140,7 @@ Nothing could be simpler to create an object :
 
 -   Jeedom will ask you the name of it. Validate. This is your first object created :
 
-![Objet](images/FirstStep_object.jpg)
+![Objand](images/FirstStep_object.jpg)
 
 For more information on this part, see *User manual -> Object*.
 

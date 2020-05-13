@@ -76,7 +76,7 @@ Unabhängig davon, welche Methode verwendet wird, gelangen Sie auf die Anmeldese
 
 Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen können.
 
--   Sobald Sie mit Ihrem Jeedom verbunden sind, müssen Sie zu Administration → Konfiguration gehen
+-   Sobald Sie mit Ihrer Freiheit verbunden sind, müssen Sie zu gehen **Einstellungen → System → Konfiguration**
 
 -   Klicken Sie auf die Registerkarte **Updates**
 
@@ -84,9 +84,9 @@ Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen könn
 
 -   Aktivieren Sie das Kontrollkästchen **Aktivieren**
 
--   Remplissez l'adresse : `https://www.jeedom.com/market`
+-   Remplissez l'adresse : `https://market.jeedom.com`
 
--   Füllen Sie auch die Felder "Benutzername" und "Passwort" entsprechend Ihren Kennungen aus (Marktkennungen und nicht Jeedom)
+-   Füllen Sie auch das Feld aus **Benutzername** und **Passwort** basierend auf Ihren Kennungen (Marktkennungen und nicht Jeedom)
 
 -   Sie können testen, ob die Verbindung korrekt hergestellt wurde.
 
@@ -105,7 +105,7 @@ Gehen Sie dann zum Teil "Netzwerke""
 
 ![Réseaux](images/FirstStep_dns.jpg)
 
-Sobald Sie hier sind, müssen Sie nur "Jeedom DNS verwenden" aktivieren und dann in der Zeile "Verwaltung" "Neustart" ausführen. Ihre URL wird auf HTTP-Statusebene angezeigt. Sie können sie natürlich auf der Profilseite anpassen vom Markt
+Sobald Sie hier sind, aktivieren Sie einfach **Verwenden von Jeedom DNS** dann auf der Linie **Verwaltung** zu tun **Neu starten** und Ihre URL wird auf HTTP-Statusebene angezeigt. Sie können sie natürlich auf der Marktprofilseite anpassen
 
 > **Wichtig**
 >
@@ -140,7 +140,7 @@ Nichts könnte einfacher sein, ein Objekt zu erstellen :
 
 -   Jeedom wird dich nach dem Namen fragen. Validieren. Dies ist Ihr erstes erstelltes Objekt :
 
-![Objet](images/FirstStep_object.jpg)
+![Objund](images/FirstStep_object.jpg)
 
 Weitere Informationen zu diesem Teil finden Sie unter *Benutzerhandbuch -> Objekt*.
 
