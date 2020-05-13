@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/philio.psr04/vuedefaut1.jpg)
 
-Résumé
-------
+## Résumé
 
 Cet interrupteur au design unique propose plusieurs fonctions. Vous pourrez l’utiliser pour allumer, éteindre ou varier l’éclairage, ajuster la position de vos volets, régler la température du thermostat ou l’utiliser comme une minuterie.
 
@@ -21,8 +20,7 @@ De plus, vous pouvez facilement déplacer et positionner cet interrupteur à l�
 
 Il utilise la dernière puce Z-Wave série 500, offrant une augmentation de la portée radio de 50% et une vitesse de communication de 250% plus rapide par rapport aux précédents produits Z-Wave, ainsi qu’une plus faible consomation d’énergie permettant une plus grande autonomie.
 
-Fonctions
----------
+## Fonctions
 
 -   Interrupteur multifonctions
 -   Technologie Z-Wave+
@@ -37,8 +35,7 @@ Fonctions
 -   LED d’indication RGBW
 -   Facile à installer
 
-Caractéristiques techniques
----------------------------
+## Caractéristiques techniques
 
 -   Alimentation : Batterie Lithium Polymère 3.7V, 220mA vAutonomie de la batterie : 6 mois pour 2h de charge
 -   Consommation en veille : 18µA
@@ -47,8 +44,7 @@ Caractéristiques techniques
 -   Distance de transmission : 100m en extérieur, 40m en intérieur
 -   Dimensions : Support : 71,16 x 10,94 mm (diamétre x épaisseur) Bouton : 59,99 x 14,89mm (diamétre x épaisseur) Support + Bouton : 71,16 x 17,22 mm (diamétrex épaisseur) Certifications : EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950 FCC Part 15 B, FCC Part 15 C
 
-Données du module
------------------
+## Données du module
 
 -   Marque : Philio
 -   Nom : PSR04 Smart Color Button
@@ -56,8 +52,7 @@ Données du module
 -   Type Produit : 9
 -   Produit ID : 34
 
-Configuration
--------------
+## Configuration
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
@@ -110,8 +105,7 @@ Ce module possède deux groupes d’association, le premier est le seul indispen
 
 ![Groupe](images/philio.psr04/groupe.jpg)
 
-Bon à savoir
-------------
+## Bon à savoir
 
 ### Spécificités
 
@@ -121,15 +115,13 @@ Pour utiliser ce module en télécommande il faut procéder comme suit :
 
 En effet ce type de module n’est pas fait pour interagir directement avec une box mais directement avec d’autres modules. Cependant en rajoutant Jeedom au groupe 2, cela permet de recevoir la position du bouton et donc de s’en servir pour contrôller un scénario (régler un volume par exemple)
 
-Wakeup
-------
+## Wakeup
 
 Pour réveiller ce module il y a une seule et unique façon de procéder :
 
 -   mettre le module en position basse et appuyer sur le bouton
 
-Note importante
----------------
+## Note importante
 
 > **Important**
 >

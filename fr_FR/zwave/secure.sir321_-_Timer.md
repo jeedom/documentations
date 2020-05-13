@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/secure.sir321/vuedefaut1.jpg)
 
-Résumé
-------
+## Résumé
 
 Le minuteur numérique SIR321 est un simple interrupteur à bouton-poussoir qui se souvient d’éteindre, à votre place, vos appareils électriques. De grosses économies d’énergie sont possibles en ajoutant ce dispositif simple sur tout appareil électrique de grande puissance, avec des charges allants jusqu’à 3kW (résistif).
 
@@ -17,8 +16,7 @@ Ces unités sont parfaites pour être utilisées sur les panneaux chauffants, th
 
 Le SIR 321 prend en charge les capteurs de température externe SES001, SES002 et SES003.
 
-Fonctions
----------
+## Fonctions
 
 -   Booster pour thermoplongeur, radiateur panneau, sèche-serviettes, radiateur à bain d’huile
 -   Minuterie pour chaudière
@@ -27,8 +25,7 @@ Fonctions
 -   Simple à utiliser et fiable
 -   Réalise des économies d’énergie
 
-Caractéristiques Techniques
----------------------------
+## Caractéristiques Techniques
 
 -   Type: Minuteur électronique
 -   Relais: 13(3)A, 230V AC, approprié pour des charges allants jusqu’à 3kW
@@ -37,16 +34,14 @@ Caractéristiques Techniques
 -   Indice de protection : IP30
 -   Température de fonctionnement: 0°C à 35°C
 
-Données du module
------------------
+## Données du module
 
 -   Marque : Horstmann
 -   Nom : SIR 321 RF Countdown Timer
 -   Fabricant ID : 89
 -   Type Produit : 1/2 (en fonction de si il est inclus avec une sonde de température ou non)
 
-Configuration
--------------
+## Configuration
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 > **Important**

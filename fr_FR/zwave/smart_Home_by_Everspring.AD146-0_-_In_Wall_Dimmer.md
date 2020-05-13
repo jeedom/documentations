@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/smarthomebyeverspring.AD146-0/vuedefaut1.jpg)
 
-Résumé
-------
+## Résumé
 
 Ce Micromodule Variateur Mural de la marque SmartHome Europe by Everspring, est conçu pour contrôler l’allumage et l’extinction des luminaires et des équipements électriques de votre maison. Il peut également fournir une fonction de variateur qui est uniquement compatible avec les ampoules. À une tension de 230V, ce module peut supporter jusqu’à 300 Watts en charge résistive ou incandescente, ou 200 Watts de charge fluorescente.
 
@@ -17,8 +16,7 @@ Il peut être utilisé en mode 2 fils (sans neutre), en remplacement d’un inte
 
 Le Module Variateur Mural est un appareil compatible Z-Wave™ qui est destiné pour fonctionner avec tous les réseaux compatibles Z-Wave™. Il peut être contrôlé par une télécommande, un logiciel PC, ou n’importe quel contrôleur Z-Wave de votre réseau.
 
-Fonctions
----------
+## Fonctions
 
 -   Commandez un éclairage/appareil à distance
 -   S’installe derrière un interrupteur existant
@@ -33,8 +31,7 @@ Fonctions
 -   Bouton pour inclure/exclure/associer le module
 -   Fonction répéteur Z-Wave
 
-Caractéristiques techniques
----------------------------
+## Caractéristiques techniques
 
 -   Type de module : Récepteur Z-Wave
 -   Alimentation : 230 V, 50 Hz
@@ -48,8 +45,7 @@ Caractéristiques techniques
 -   Affichage: LED sur le bouton
 -   Dimensions : 42mm x 43mm x 16mm
 
-Données du module
------------------
+## Données du module
 
 -   Marque : SmartHome by Everspring
 -   Nom : In Wall Dimmer
@@ -57,8 +53,7 @@ Données du module
 -   Type Produit : 3
 -   Produit ID : 2
 
-Configuration
--------------
+## Configuration
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
@@ -115,14 +110,12 @@ Ce module possède 2 groupes d’association.
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1
 
-Bon à savoir
-------------
+## Bon à savoir
 
 ### Spécificités
 
 -   Le retour d’état ne peut pas être configuré en dessous de 3 secondes.
 
-Wakeup
-------
+## Wakeup
 
 Pas de notion de wake up sur ce module.

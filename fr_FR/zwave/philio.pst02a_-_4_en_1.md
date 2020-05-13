@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/philio.pst02a/vuedefaut1.jpg)
 
-Résumé
-------
+## Résumé
 
 Le détecteur ZIP-PSM02-EU propose 4 fonctions différentes : détection de mouvement, détection d’ouverture, capteur de température et détecteur de luminosité. Il se compose de deux parties : un détecteur et un aimant. Ils sont conçus pour être placés sur une porte ou une fenêtre avec l’aimant fixé sur la partie qui s’ouvre et le détecteur sur la partie fixe.
 
@@ -19,8 +18,7 @@ Le détecteur peut également être utilisé en association avec un contrôleur 
 
 Le détecteur remontera aussi la luminosité et la température, soit en cas de changement important, et à chaque fois qu’un mouvement ou ouverture/fermeture sont détectés. Un contrôleur Z-Wave (télécommande, dongle …​) est nécessaire afin d’intégrer ce détecteur dans votre réseau si vous avez déjà un réseau existant.
 
-Fonctions
----------
+## Fonctions
 
 -   Détecteur 4 en 1: mouvement, ouverture, température, lumière
 -   Adopte la récente puce Z-Wave 400series pour supporter les opérations multicanaux et un débit de données plus élevé (9.6/40/100kbps)
@@ -33,8 +31,7 @@ Fonctions
 -   Petit, discret et esthétique
 -   Facilité d’utilisation et d’installation
 
-Caractéristiques techniques
----------------------------
+## Caractéristiques techniques
 
 -   Type de module : Emetteur Z-Wave
 -   Alimentation : 1 pile 3V CR123A
@@ -54,8 +51,7 @@ Caractéristiques techniques
 -   Norme CE : EN300 220-1
 -   Certification Z-Wave : ZC08-13050003
 
-Données du module
------------------
+## Données du module
 
 -   Marque : Philio Technology Corporation
 -   Nom : PST02-A 4 in 1 Multi-Sensor
@@ -63,8 +59,7 @@ Données du module
 -   Type Produit : 2
 -   Produit ID : 12
 
-Configuration
--------------
+## Configuration
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
@@ -135,15 +130,13 @@ Ce module possède deux groupes d’association, seul le premier est indispensab
 
 ![Groupe](images/philio.pst02a/groupe.jpg)
 
-Wakeup
-------
+## Wakeup
 
 Pour réveiller ce module il y a une seule et unique façon de procéder :
 
 -   relachez le bouton tamper et réappuyez dessus
 
-Note importante
----------------
+## Note importante
 
 > **Important**
 >

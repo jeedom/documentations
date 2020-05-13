@@ -8,15 +8,13 @@
 
 ![vuedefaut1](images/nodon.wallswitch/vuedefaut1.jpg)
 
-Résumé
-------
+## Résumé
 
 L’interrupteur mural NodOn® peut contrôler directement n’importe quel appareil compatible Z-Wave® ou Z-Wave Plus® tel que la prise intelligente NodOn® ou encore déclencher des scènes via une centrale domotique compatible.
 
 L’interrupteur possède une platine de fixation pour le monter facilement dans la maison: en utilisant les vis d’un pot d’encastrement, en le vissant au mur, ou tout simplement en le collant via les adhésifs double-face présents au dos de la platine.
 
-Fonctions
----------
+## Fonctions
 
 -   Contrôle seul ou avec une centrale domotique
 -   Facile à monter et démonter
@@ -24,8 +22,7 @@ Fonctions
 -   Sans Fil
 -   2 ans de batterie
 
-Caractéristiques techniques
----------------------------
+## Caractéristiques techniques
 
 -   Alimentation : Pile CR2032 – Autonomie 1,5 - 2ans
 -   4 boutons
@@ -42,8 +39,7 @@ Caractéristiques techniques
 -   EN301 489-3 V1.6.1
 -   EN 62479:2010
 
-Données du module
------------------
+## Données du module
 
 -   Marque : Nodon
 -   Nom : CWS-3-1-01 Wall Switch
@@ -51,8 +47,7 @@ Données du module
 -   Type Produit : 2
 -   Produit ID : 3
 
-Configuration
--------------
+## Configuration
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
@@ -124,20 +119,17 @@ Ce module possède 7 groupes d’association.
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1
 
-Bon à savoir
-------------
+## Bon à savoir
 
 ### Spécificités
 
 -   Ce module peut être capricieux à l’inclusion. Ne pas hésiter à le réveiller 1 ou 2 fois après l’inclusion. Et bien vérifier le groupe d’association.
 
-Wakeup
-------
+## Wakeup
 
 Pour réveiller ce module il suffit d’appuyer sur un de ces boutons
 
-Note importante
----------------
+## Note importante
 
 > **Important**
 >

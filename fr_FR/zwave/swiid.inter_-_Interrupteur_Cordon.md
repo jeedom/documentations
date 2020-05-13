@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/swiid.inter/vuedefaut1.jpg)
 
-Résumé
-------
+## Résumé
 
 SwiidInter est le premier interrupteur sur cordon dans l’environnement domotique Z-Wave qui soit suffisamment petit et discret pour être comparable à un interrupteur sur cordon ordinaire.
 
@@ -19,8 +18,7 @@ L’interrupteur SwiidInter offre également des possibilités d’association e
 
 L’interrupteur SwiidInter s’installe exactement comme un interrupteur sur cordon ordinaire : c’est donc une installation simple et rapide qui ne nécessite aucun outil spécialisé. Il doit ensuite être configuré pour s’intégrer dans un "réseau" Z-Wave, ce réseau pouvant être aussi simple qu’une seule télécommande qui commande votre interrupteur SwiidInter à distance.
 
-Fonctions
----------
+## Fonctions
 
 -   Interrupteur sur cordon utilisable à la fois manuellement (appui court) et par radio à distance (Z-Wave)
 -   Utilisation en remplacement d’un interrupteur à cordon standard d’une lampe de chevet, de table ou de bureau
@@ -30,8 +28,7 @@ Fonctions
 -   S’installe comme un interrupteur sur cordon ordinaire
 -   Convient pour tous types d’ampoules de lampe
 
-Caractéristiques techniques
----------------------------
+## Caractéristiques techniques
 
 -   Type de module : Récepteur Z-Wave
 -   Couleur : noire
@@ -47,8 +44,7 @@ Caractéristiques techniques
 -   Dimensions : 84 x 32 x 29 mm
 -   Normes UE : EN 61058-2-1:2011 EN 55015
 
-Données du module
------------------
+## Données du module
 
 -   Marque : Swiid
 -   Nom : Swiidinter
@@ -56,8 +52,7 @@ Données du module
 -   Type Produit : 256
 -   Produit ID : 256
 
-Configuration
--------------
+## Configuration
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
@@ -114,12 +109,10 @@ Ce module possède deux groupes d’association.
 >
 > Pour un fonctionnement optimum de votre module. Il faut que Jeedom soit associé à minima au groupe 2.
 
-Associer à une autre lumière
-----------------------------
+## Associer à une autre lumière
 
 Pour associer le swiidinter à une autre lumière et pouvoir bénéficier de l’allumage d’une autre lumière, il suffit de la rajouter au groupe d’association 1 via l’écran cité au-dessus.
 
-Wake up
--------
+## Wake up
 
 Pas de notion de wake up sur ce module.

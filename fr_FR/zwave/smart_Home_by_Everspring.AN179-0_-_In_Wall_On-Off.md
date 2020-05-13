@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/smarthomebyeverspring.AN179-0/vuedefaut1.jpg)
 
-Résumé
-------
+## Résumé
 
 Le Micromodule Mural ON/OFF de la marque SmartHome Europe by Everspring, est conçu pour contrôler l’allumage et l’extinction des luminaires et des appareils électriques de votre maison. Deux jeux de contacts secs permettent le raccordement de deux interrupteurs.
 
@@ -17,8 +16,7 @@ Le Micromodule Mural ON/OFF de la marque SmartHome Europe by Everspring, est con
 
 Le Micromodule Mural ON/OFF est un appareil compatible Z-Wave™ qui est destiné pour fonctionner avec tous les réseaux compatibles Z-Wave™. Il peut être contrôlé par une télécommande, un logiciel PC, ou n’importe quel contrôleur Z-Wave de votre réseau.
 
-Fonctions
----------
+## Fonctions
 
 -   Commandez un éclairage/appareil à distance
 -   S’installe derrière un interrupteur existant
@@ -31,8 +29,7 @@ Fonctions
 -   Bouton pour inclure/exclure/associer le module
 -   Fonction répéteur Z-Wave
 
-Caractéristiques techniques
----------------------------
+## Caractéristiques techniques
 
 -   Type de module : Récepteur Z-Wave
 -   Alimentation : 230 V, 50 Hz
@@ -43,8 +40,7 @@ Caractéristiques techniques
 -   Affichage: LED sur le bouton
 -   Dimensions : 42mm x 43mm x 16mm
 
-Données du module
------------------
+## Données du module
 
 -   Marque : SmartHome by Everspring
 -   Nom : In Wall On Off
@@ -52,8 +48,7 @@ Données du module
 -   Type Produit : 4
 -   Produit ID : 8
 
-Configuration
--------------
+## Configuration
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
@@ -108,14 +103,12 @@ Ce module possède 2 groupes d’association.
 >
 > A minima Jeedom devrait se retrouver dans le groupe 1
 
-Bon à savoir
-------------
+## Bon à savoir
 
 ### Spécificités
 
 -   Le retour d’état ne peut pas être configuré en dessous de 3 secondes.
 
-Wake up
--------
+## Wake up
 
 Pas de notion de wake up sur ce module.

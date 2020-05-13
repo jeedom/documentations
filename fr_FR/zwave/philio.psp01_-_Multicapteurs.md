@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/philio.psp01/vuedefaut1.jpg)
 
-Résumé
-------
+## Résumé
 
 Le détecteur PSP01 propose 3 fonctions différentes : détection de mouvement, capteur de température et détecteur de luminosité.
 
@@ -19,8 +18,7 @@ Le détecteur peut également être utilisé en association avec un contrôleur 
 
 Le détecteur remontera aussi la luminosité et la température, soit en cas de changement important, et à chaque fois qu’un mouvement est détecté. Un contrôleur Z-Wave (télécommande, dongle …​) est nécessaire afin d’intégrer ce détecteur dans votre réseau si vous avez déjà un réseau existant.
 
-Fonctions
----------
+## Fonctions
 
 -   Détecteur 3 en 1: mouvement, température, lumière
 -   Adopte la récente puce Z-Wave 400series pour supporter les opérations multicanaux et un débit de données plus élevé (9.6/40/100kbps)
@@ -33,8 +31,7 @@ Fonctions
 -   Petit, discret et esthétique
 -   Facilité d’utilisation et d’installation
 
-Caractéristiques techniques
----------------------------
+## Caractéristiques techniques
 
 -   Type de module : Emetteur Z-Wave
 -   Alimentation : 1 pile 3V CR123A
@@ -52,8 +49,7 @@ Caractéristiques techniques
 -   Norme CE : EN300 220-1
 -   Certification Z-Wave : ZC08-13050003
 
-Données du module
------------------
+## Données du module
 
 -   Marque : Philio Technology Corporation
 -   Nom : Philio PSP01
@@ -61,8 +57,7 @@ Données du module
 -   Type Produit : 2
 -   Produit ID : 2
 
-Configuration
--------------
+## Configuration
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
@@ -127,8 +122,7 @@ Ce module possède deux groupes d’association, seul le premier est indispensab
 
 ![Groupe](images/philio.psp01/groupe.jpg)
 
-Bon à savoir
-------------
+## Bon à savoir
 
 ### Spécificités
 
@@ -136,19 +130,13 @@ Bon à savoir
 >
 > Ce module a une particularité, n’ayant pas de rapport basé sur les variations mais uniquement sur la durée, il envoit toutes ses infos à chaque détection. Il envoie aussi plusieurs fois le signal de détection de présence à la suite. Il est donc conseillé de cocher la case "Evènement sur changement" sur la présence si vous utilisez cette commande en déclencheur de scénario.
 
-### Visuel alternatif
-
-![vuewidget](images/philio.psp01/vuewidget.jpg)
-
-Wakeup
-------
+## Wakeup
 
 Pour réveiller ce module il y a une seule et unique façon de procéder :
 
 -   relachez le bouton tamper et réappuyez dessus
 
-Note importante
----------------
+## Note importante
 
 > **Important**
 >

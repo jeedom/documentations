@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/secure.srt323/vuedefaut1.jpg)
 
-Résumé
-------
+## Résumé
 
 Le SRT323 est un thermostat mural fonctionnant sur batterie. Il dispose d’un bouton rotatif permettant à l’utilisateur de régler la température de consigne dans la pièce. Ce thermostat intègre un relais de commande de charge. Il n’est donc pas nécessaire d’installer un actionneur près de la chaudière.
 
@@ -21,8 +20,7 @@ Il peut être utilisé comme un remplaçant direct pour les thermostats existant
 
 Le SRT323 est un partenaire idéal pour une utilisation avec passerelle domotique, vous permettant de contrôler à distance votre système de chauffage. Vous n’aurez plus à vous soucier de rentrer chez vous dans une maison froide, tant que vous avez un smartphone, une tablette ou un PC à portée de main et connecté à internet.
 
-Fonctions
----------
+## Fonctions
 
 -   Thermostat pour application domestique
 -   Remplace un thermostat existant
@@ -32,8 +30,7 @@ Fonctions
 -   Compatible avec d’autres produits Z-Wave
 -   Un seul bouton
 
-Caractéristiques techniques
----------------------------
+## Caractéristiques techniques
 
 -   Type de module : Contrôleur Z-Wave
 -   Algorythme TPI intégré
@@ -47,8 +44,7 @@ Caractéristiques techniques
 -   Température de fonctionnement : 0°C à 40°C
 -   Dimensions : 86 x 86 x 36,25 mm
 
-Données du module
------------------
+## Données du module
 
 -   Marque : Horstmann
 -   Nom : SRT 323 Electronic Room Thermostat and Temperature
@@ -56,8 +52,7 @@ Données du module
 -   Type Produit : 1
 -   Produit ID : 4
 
-Configuration
--------------
+## Configuration
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
@@ -109,8 +104,7 @@ Détails des paramètres :
 Pour un fonctionnement optimum de votre module il faut que Jeedom soit associé aux 5 groupes
 ![Groupe](images/secure.srt323/groupe.jpg)
 
-Bon à savoir
-------------
+## Bon à savoir
 
 ### Spécificités
 
@@ -118,14 +112,12 @@ Bon à savoir
 >
 > Ce module est sur batterie. Donc il est important de noter qu’un changement de consigne sera uniquement pris en compte au reveil. Par défaut le wake up est à 86400 secondes. Il est vivement recommandé de le diminuer à 10 minutes environ. Ainsi un changement de consigne sera pris en compte par le module au maximum après 10 minutes
 
-Wakeup
-------
+## Wakeup
 
 Pour réveiller ce module il faut mettre le switch 1 en position ON et
 avec la molette choisir n et appuyer sur la molette.
 
-Note importante
----------------
+## Note importante
 
 > **Important**
 >

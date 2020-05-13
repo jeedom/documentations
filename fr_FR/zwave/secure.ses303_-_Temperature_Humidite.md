@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/secure.ses303/vuedefaut1.jpg)
 
-Résumé
-------
+## Résumé
 
 La sonde SES303 permet la mesure de la température d’ambiance intérieure ainsi que l’humidité. Elle est alimentée par 2 piles AA et est certifiée Z-Wave Plus. En plus de sa fonction principale, il est possible de câbler différentes sondes externes SECURE sur le module, soit:
 
@@ -19,8 +18,7 @@ La sonde SES303 permet la mesure de la température d’ambiance intérieure ain
 
 Ces modules sont parfaits pour la mesure de température dans des applications de contrôles de chauffage central ou toute autre application similaire. Son interface utilisateur est simple, avec un bouton-poussoir local et une LED d’indication sur la face arrière. On peut facilement l’inclure / l’exclure dans un réseau Z-Wave.
 
-Fonctions
----------
+## Fonctions
 
 -   Mesure précise de la température et de l’humidité
 -   Application dans des systèmes de contrôle dynamique de réservoirs/tubes/planchers chauffants/…​
@@ -29,8 +27,7 @@ Fonctions
 -   Installation facile et rapide
 -   Rapport de batterie faible
 
-Caractéristiques techniques
----------------------------
+## Caractéristiques techniques
 
 -   Type: Portable/fixation murale
 -   Plage de mesure de température: ±0.5°C pour 0°C à 40°C
@@ -41,8 +38,7 @@ Caractéristiques techniques
 -   Indice de protection : IP30
 -   Dimensions : 86 x 85 x 30 mm
 
-Données du module
------------------
+## Données du module
 
 -   Marque : Horstmann
 -   Nom : SES 303 Temperature and Humidity Sensor
@@ -50,8 +46,7 @@ Données du module
 -   Type Produit : 13
 -   Produit ID : 3
 
-Configuration
--------------
+## Configuration
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
@@ -78,6 +73,7 @@ Voici la liste des commandes :
 -   Batterie : c’est la commande batterie
 
 Plusieurs températures nons visibles sont aussi disponibles et seront utiles si vous avez raccordé des sondes externes
+
 ### Configuration du module
 
 > **Important**
@@ -107,8 +103,7 @@ Ce module possède un seul groupe d’association, il est indispensable
 
 ![Groupe](images/secure.ses303/groupe.jpg)
 
-Wakeup
-------
+## Wakeup
 
 Pour réveiller ce module il faut appuyer 1 fois sur le bouton au dos
 

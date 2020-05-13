@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/polycontrol.danalock/vuedefaut1.jpg)
 
-Résumé
-------
+## Résumé
 
 **Sécurisez votre maison en utilisant la serrure électronique Z-Wave de Poly-Control !**
 
@@ -43,9 +42,7 @@ Développez le contrôle de votre maison intelligente avec un Danalock, l’init
 
 Danalock allie l’élégance et le minimalisme du design scandinave - avec une lunette en aluminium massif anodisé et les technologies de pointe Bluetooth et Z-Wave. Une conception discrète danoise conçue pour durer.
 
-
-Fonctions
----------
+## Fonctions
 
 -   Contrôlez votre porte d’entrée à distance
 -   Serrure connectée
@@ -61,8 +58,7 @@ Fonctions
 -   Fonctionnement avec des piles
 -   Compatible avec iOS (iPhone 4s ou une version ultérieure), mais aussi Android (à partir de 4.4).
 
-Caractéristiques techniques
----------------------------
+## Caractéristiques techniques
 
 -   Alimentation : 4 piles 3V CR123
 -   Versions : V2
@@ -71,8 +67,7 @@ Caractéristiques techniques
 -   Dimensions : 79 mm x 49 mm (diamètre x hauteur)
 -   Poids : 363g
 
-Données du module
------------------
+## Données du module
 
 -   Marque : Poly-Control
 -   Nom : Danalock V2 BTZE
@@ -80,8 +75,7 @@ Données du module
 -   Type Produit : 1
 -   Produit ID : 1
 
-Configuration
--------------
+## Configuration
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
@@ -161,8 +155,7 @@ Ce module possède un seul groupe d’association.
 
 ![Groupe](images/polycontrol.danalock/groupe.jpg)
 
-Bon à savoir
-------------
+## Bon à savoir
 
 ### Spécificités
 
@@ -174,11 +167,6 @@ Bon à savoir
 >
 > Ce module renvoi son état si vous actionnez la serrure à la main l’état sera mis à jour.
 
-### Visuel alternatif
-
-![vuewidget](images/polycontrol.danalock/vuewidget.jpg)
-
-Wakeup
-------
+## Wakeup
 
 Il n’y a pas de notion de wake up pour ce module.

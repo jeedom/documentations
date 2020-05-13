@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/polycontrol.polylock/vuedefaut1.jpg)
 
-Résumé
-------
+## Résumé
 
 Sécurisez votre maison en utilisant la serrure électronique Z-Wave de Poly-Control !
 
@@ -21,8 +20,7 @@ Il est donc possible de verrouiller votre maison d’une manière similaire à v
 
 Le système Poly-Control peut être utilisé dans un environnement domestique ou de travail. La serrure Poly-Lock est alimentée par batterie, et a été testée pour fonctionner pendant 1 an, sans remplacement de la batterie.
 
-Fonctions
----------
+## Fonctions
 
 -   Contrôlez votre porte d’entrée à distance
 -   S’adapte à la plupart des portes
@@ -31,8 +29,7 @@ Fonctions
 -   Molette pour fermeture manuelle
 -   Installation facile
 
-Caractéristiques techniques
----------------------------
+## Caractéristiques techniques
 
 -   Alimentation : Pile Lithium-Chloride 3.6V
 -   Fréquence : 868,42 Mhz
@@ -40,8 +37,7 @@ Caractéristiques techniques
 -   Dimensions : 120 x 52 x 60 mm (L x l x h)
 -   Poids : 370g
 
-Données du module
------------------
+## Données du module
 
 -   Marque : Poly-Control
 -   Nom : Polylock
@@ -49,8 +45,7 @@ Données du module
 -   Type Produit : 1
 -   Produit ID : 1
 
-Configuration
--------------
+## Configuration
 
 Pour configurer le plugin OpenZwave et savoir comment mettre Jeedom en inclusion référez-vous à cette [documentation](https://doc.jeedom.com/fr_FR/plugins/automation%20protocol/openzwave/).
 
@@ -105,15 +100,13 @@ Ce module possède un seul groupe d’association.
 
 ![Groupe](images/polycontrol.polylock/groupe.jpg)
 
-Exemples d’utilisation
-----------------------
+## Exemples d’utilisation
 
 ![exemple](images/polycontrol.polylock/exemple.jpg)
 
 L’élément déclencheur est la commande évènement d’un clavier zipato (cela peut être n’importe quoi d’autre). Si la valeur est 6 (home) on ferme la porte à clé. En effet on vient de rentrer donc on peut fermer la porte à clé. Sinon (forcément 5) on ouvre la porte à clé et 2 minutes après on la referme. En effet, on veut sortir, la porte s’ouvre et se refermera peu de temps après.
 
-Bon à savoir
-------------
+## Bon à savoir
 
 ### Spécificités
 
@@ -125,11 +118,6 @@ Bon à savoir
 >
 > Ce module ne renvoit pas son état, si vous actionnez la serrure à la main l’état restera le même.
 
-### Visuel alternatif
-
-![vuewidget](images/polycontrol.polylock/vuewidget.jpg)
-
-Wake up
--------
+## Wake up
 
 Il n’y a pas de notion de wake up pour ce module.
