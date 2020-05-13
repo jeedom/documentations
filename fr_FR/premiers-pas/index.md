@@ -76,7 +76,7 @@ Quelque soit la méthode utilisée, vous arrivez ensuite sur la page de Login. P
 
 Nous allons voir ici comment lier votre Jeedom à votre compte Market.
 
--   Une fois connecté à votre jeedom, vous devez aller sur Administration → Configuration
+-   Une fois connecté à votre jeedom, vous devez aller sur **Réglages → Système → Configuration**
 
 -   Cliquez sur l’onglet **Mises à jour**
 
@@ -84,9 +84,9 @@ Nous allons voir ici comment lier votre Jeedom à votre compte Market.
 
 -   Cochez la case **activer**
 
--   Remplissez l’adresse : `https://www.jeedom.com/market`
+-   Remplissez l’adresse : `https://market.jeedom.com`
 
--   Renseignez également le champ "Nom d’utilisateur" et "Mot de passe" en fonction de vos identifants (identifiants du Market et non pas de Jeedom)
+-   Renseignez également le champ **Nom d’utilisateur** et **Mot de passe** en fonction de vos identifants (identifiants du Market et non pas de Jeedom)
 
 -   Vous pouvez tester pour vérifier que la connexion s’effectue correctement.
 
@@ -105,7 +105,7 @@ Puis d’aller sur la partie "Réseaux"
 
 ![Réseaux](images/FirstStep_dns.jpg)
 
-Une fois ici, il vous suffit d’activer "Utiliser les DNS Jeedom" puis sur la ligne "Gestion" de faire "Rédemarrer" et votre URL apparaitra au niveau de statut HTTP, vous pouvez bien sûr la personnaliser à partir de la page profil du Market
+Une fois ici, il vous suffit d’activer **Utiliser les DNS Jeedom** puis sur la ligne **Gestion** de faire **Rédemarrer** et votre URL apparaitra au niveau de statut HTTP, vous pouvez bien sûr la personnaliser à partir de la page profil du Market
 
 > **Important**
 >
