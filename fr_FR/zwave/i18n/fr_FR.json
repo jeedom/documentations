@@ -3626,7 +3626,6 @@
         "Ce module a une particularité, n'ayant pas de rapport basé sur les variations mais uniquement sur la durée, il envoit toutes ses infos à chaque détection": "Ce module a une particularité, n'ayant pas de rapport basé sur les variations mais uniquement sur la durée, il envoit toutes ses infos à chaque détection",
         "Il envoie aussi plusieurs fois le signal de détection de présence à la suite": "Il envoie aussi plusieurs fois le signal de détection de présence à la suite",
         "Il est donc conseillé de cocher la case \"Evènement sur changement\" sur la présence si vous utilisez cette commande en déclencheur de scénario": "Il est donc conseillé de cocher la case \"Evènement sur changement\" sur la présence si vous utilisez cette commande en déclencheur de scénario",
-        "Visuel alternatif": "Visuel alternatif",
         "Wakeup": "Wakeup",
         "Pour réveiller ce module il y a une seule et unique façon de procéder": "Pour réveiller ce module il y a une seule et unique façon de procéder",
         "relachez le bouton tamper et réappuyez dessus": "relachez le bouton tamper et réappuyez dessus",
@@ -4099,7 +4098,6 @@
         "Spécificités": "Spécificités",
         "Tip": "Tip",
         "Ce module renvoi son état si vous actionnez la serrure à la main l'état sera mis à jour": "Ce module renvoi son état si vous actionnez la serrure à la main l'état sera mis à jour",
-        "Visuel alternatif": "Visuel alternatif",
         "Wakeup": "Wakeup",
         "Il n'y a pas de notion de wake up pour ce module": "Il n'y a pas de notion de wake up pour ce module"
     },
@@ -4185,7 +4183,6 @@
         "Spécificités": "Spécificités",
         "Tip": "Tip",
         "Ce module ne renvoit pas son état, si vous actionnez la serrure à la main l'état restera le même": "Ce module ne renvoit pas son état, si vous actionnez la serrure à la main l'état restera le même",
-        "Visuel alternatif": "Visuel alternatif",
         "Wake up": "Wake up",
         "Il n'y a pas de notion de wake up pour ce module": "Il n'y a pas de notion de wake up pour ce module"
     },
@@ -4927,10 +4924,6 @@
         "Pour réveiller ce module il y a deux façons de procéder": "Pour réveiller ce module il y a deux façons de procéder",
         "appuyer sur le bouton tamper puis relâcher au bout de 1 à 2 secondes": "appuyer sur le bouton tamper puis relâcher au bout de 1 à 2 secondes",
         "appuyer sur Home, un chiffre au hasard et Enter": "appuyer sur Home, un chiffre au hasard et Enter",
-        "F.A.Q": "F.A.Q",
-        "Ce module se réveille en appuyant sur le bouton tamper et en le relachant": "Ce module se réveille en appuyant sur le bouton tamper et en le relachant",
-        "Il peut aussi se réveiller en appuyant sur Home puis 1 puis Enter": "Il peut aussi se réveiller en appuyant sur Home puis 1 puis Enter",
-        "Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wake up": "Ce module est un module sur batterie, la nouvelle configuration sera prise en compte au prochain wake up",
         "Note importante": "Note importante",
         "Il faut réveiller le module": "Il faut réveiller le module",
         "après son inclusion, après un changement de la configuration , après un changement de wake up, après un changement des groupes d'association": "après son inclusion, après un changement de la configuration , après un changement de wake up, après un changement des groupes d'association"

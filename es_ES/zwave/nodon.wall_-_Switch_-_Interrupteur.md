@@ -8,15 +8,13 @@
 
 ![vuedefaut1](images/nodon.wallswitch/vuedefaut1.jpg)
 
-Resumen
-------
+## Resumen
 
 El interruptor de pared NodOn® puede controlar directamente cualquier dispositivo compatible con Z-Wave® o Z-Wave Plus®, como el enchufe inteligente NodOn® o incluso disparar escenas a través de un sistema de automatización del hogar compatible.
 
 El interruptor tiene una placa de montaje para facilitar el montaje en la casa: usando los tornillos de una olla de montaje, atornillándolo a la pared o simplemente pegándolo a través de los adhesivos de doble cara presentes en la parte posterior de la placa.
 
-Fonctions
----------
+## Fonctions
 
 -   Control solo o con un sistema domótico
 -   Fácil de montar y desmontar
@@ -24,8 +22,7 @@ Fonctions
 -   Sin hilos
 -   2 años de batería
 
-Características técnicas
----------------------------
+## Características técnicas
 
 -   Suministro : Batería CR2032 - Autonomía 1,5 - 2 años
 -   4 botones
@@ -42,8 +39,7 @@ Características técnicas
 -   EN301 489-3 V1.6.1
 -   EN 62479:2010
 
-Datos del módulo
------------------
+## Datos del módulo
 
 -   Hacer : Nodon
 -   Nombre : CWS-3-1-01 Interruptor de pared
@@ -51,8 +47,7 @@ Datos del módulo
 -   Tipo de producto : 2
 -   ID del producto : 3
 
-Configuration
--------------
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -124,20 +119,17 @@ Este módulo tiene 7 grupos de asociación.
 >
 > Al menos Jeedom debería terminar en el grupo 1
 
-Bueno saber
-------------
+## Bueno saber
 
 ### Específicos
 
 -   Este módulo puede ser complicado en la inclusión. No dudes en despertarlo 1 o 2 veces después de la inclusión. Bueno revisa el grupo de asociación.
 
-Wakeup
-------
+## Wakeup
 
 Para activar este módulo, simplemente presione uno de estos botones
 
-Nota importante
----------------
+## Nota importante
 
 > **Importante**
 >

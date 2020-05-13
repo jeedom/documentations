@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/polycontrol.polylock/vuedefaut1.jpg)
 
-Resumen
-------
+## Resumen
 
 Asegure su hogar con la cerradura electrónica Z-Wave de Poly-Control !
 
@@ -21,8 +20,7 @@ Por lo tanto, es posible bloquear su casa de una manera similar a bloquear su au
 
 El sistema Poly-Control se puede utilizar en el hogar o en el trabajo. La cerradura Poly-Lock funciona con batería y se ha probado que funciona durante 1 año, sin reemplazar la batería.
 
-Fonctions
----------
+## Fonctions
 
 -   Controla tu puerta de entrada de forma remota
 -   Se adapta a la mayoría de las puertas
@@ -31,8 +29,7 @@ Fonctions
 -   Rueda para cierre manual
 -   Instalación fácil
 
-Características técnicas
----------------------------
+## Características técnicas
 
 -   Suministro : Batería de cloruro de litio de 3.6V
 -   Frecuencia : 868.42 Mhz
@@ -40,8 +37,7 @@ Características técnicas
 -   Dimensiones : 120 x 52 x 60 mm (largo x ancho x alto)
 -   Peso : 370g
 
-Datos del módulo
------------------
+## Datos del módulo
 
 -   Hacer : Poly-Control
 -   Nombre : Polylock
@@ -49,8 +45,7 @@ Datos del módulo
 -   Tipo de producto : 1
 -   ID del producto : 1
 
-Configuration
--------------
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -105,15 +100,13 @@ Este módulo tiene solo un grupo de asociación.
 
 ![Groupe](images/polycontrol.polylock/groupe.jpg)
 
-Ejemplos de uso
-----------------------
+## Ejemplos de uso
 
 ![exemple](images/polycontrol.polylock/exemple.jpg)
 
 El disparador es el comando de evento en un teclado zipato (puede ser cualquier otra cosa). Si el valor es 6 (casa) cerramos la puerta. Acabamos de regresar para poder cerrar la puerta. De lo contrario (necesariamente 5) abrimos la puerta con una llave y 2 minutos después de cerrarla. De hecho, queremos salir, la puerta se abre y se cerrará nuevamente poco después.
 
-Bueno saber
-------------
+## Bueno saber
 
 ### Específicos
 
@@ -125,11 +118,6 @@ Bueno saber
 >
 > Este módulo no devuelve su estado; si opera el bloqueo manualmente, el estado seguirá siendo el mismo.
 
-### Visual alternativo
-
-![vuewidget](images/polycontrol.polylock/vuewidget.jpg)
-
-Despertar
--------
+## Despertar
 
 No hay concepto de despertar para este módulo.

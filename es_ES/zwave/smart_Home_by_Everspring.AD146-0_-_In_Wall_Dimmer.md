@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/smarthomebyeverspring.AD146-0/vuedefaut1.jpg)
 
-Resumen
-------
+## Resumen
 
 Este micromódulo de atenuador de pared de SmartHome Europe de Everspring está diseñado para controlar el encendido y apagado de luces y equipos eléctricos en su hogar. También puede proporcionar una función de atenuación que solo es compatible con bombillas. A un voltaje de 230V, este módulo puede soportar hasta 300 vatios en carga resistiva o incandescente, o 200 vatios en carga fluorescente.
 
@@ -17,8 +16,7 @@ Se puede utilizar en modo de 2 hilos (sin neutro), reemplazando un interruptor e
 
 El módulo de atenuación de pared es un dispositivo compatible con Z-Wave ™ diseñado para funcionar con todas las redes compatibles con Z-Wave ™. Puede ser controlado por un control remoto, software de PC o cualquier controlador Z-Wave en su red.
 
-Fonctions
----------
+## Fonctions
 
 -   Controlar una luz / dispositivo de forma remota
 -   Se instala detrás de un interruptor existente
@@ -33,8 +31,7 @@ Fonctions
 -   Botón para incluir / excluir / asociar el módulo
 -   Función repetidora Z-Wave
 
-Características técnicas
----------------------------
+## Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 -   Suministro : 230 V, 50 Hz
@@ -48,8 +45,7 @@ Características técnicas
 -   Affichage: LED en el botón
 -   Dimensiones : 42 mm x 43 mm x 16 mm
 
-Datos del módulo
------------------
+## Datos del módulo
 
 -   Hacer : Smarthome por everspring
 -   Nombre : En pared dimmer
@@ -57,8 +53,7 @@ Datos del módulo
 -   Tipo de producto : 3
 -   ID del producto : 2
 
-Configuration
--------------
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -115,14 +110,12 @@ Este módulo tiene 2 grupos de asociación.
 >
 > Al menos Jeedom debería terminar en el grupo 1
 
-Bueno saber
-------------
+## Bueno saber
 
 ### Específicos
 
 -   La retroalimentación de estado no se puede configurar en 3 segundos.
 
-Wakeup
-------
+## Wakeup
 
 No hay noción de despertar en este módulo.

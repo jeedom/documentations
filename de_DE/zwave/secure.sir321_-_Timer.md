@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/secure.sir321/vuedefaut1.jpg)
 
-Zusammenfassung
-------
+## Zusammenfassung
 
 Der digitale Timer SIR321 ist ein einfacher Druckschalter, der daran erinnert, dass Sie Ihre elektrischen Geräte für Sie ausgeschaltet haben. Durch Hinzufügen dieses einfachen Geräts zu jedem elektrischen Hochleistungsgerät mit einer Last von bis zu 3 kW (ohmsch) können große Energieeinsparungen erzielt werden.
 
@@ -17,8 +16,7 @@ Diese Geräte eignen sich perfekt für Heizpaneele, Tauchsieder, Handtuchwärmer
 
 Der SIR 321 unterstützt die externen Temperatursensoren SES001, SES002 und SES003.
 
-Fonctions
----------
+## Fonctions
 
 -   Booster für Tauchsieder, Plattenheizkörper, Handtuchheizkörper, Ölbadkühler
 -   Kessel-Timer
@@ -27,8 +25,7 @@ Fonctions
 -   Einfach zu bedienen und zuverlässig
 -   Energie sparen
 
-Technische Daten
----------------------------
+## Technische Daten
 
 -   Type: Elektronischer Timer
 -   Relais: 13 (3) A, 230 V AC, geeignet für Lasten bis 3 kW
@@ -37,16 +34,14 @@ Technische Daten
 -   Schutzindex : IP30
 -   Betriebstemperatur: 0 ° C bis 35 ° C
 
-Moduldaten
------------------
+## Moduldaten
 
 -   Machen Sie : Horstmann
 -   Name : SIR 321 RF Countdown Timer
 -   Hersteller ID : 89
 -   Produkttyp : 1/2 (abhängig davon, ob es mit einem Temperaturfühler geliefert wird oder nicht)
 
-Configuration
--------------
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 > **Wichtig**

@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/secure.sir321/vuedefaut1.jpg)
 
-Summary
-------
+## Summary
 
 The SIR321 digital timer is a simple push-button switch that remembers turning off your electrical devices for you. Big energy savings are possible by adding this simple device on any high power electrical device, with loads going up to 3kW (resistive).
 
@@ -17,8 +16,7 @@ These units are perfect for use on heating panels, immersion heaters, towel warm
 
 The SIR 321 supports the external temperature sensors SES001, SES002 and SES003.
 
-Fonctions
----------
+## Fonctions
 
 -   Booster for immersion heater, panel radiator, towel radiator, oil bath radiator
 -   Boiler timer
@@ -27,8 +25,7 @@ Fonctions
 -   Simple to use and reliable
 -   Save energy
 
-Technical characteristics
----------------------------
+## Technical characteristics
 
 -   Type: Electronic timer
 -   Relais: 13 (3) A, 230V AC, suitable for loads up to 3kW
@@ -37,16 +34,14 @@ Technical characteristics
 -   Protection sign : IP30
 -   Operating temperature: 0 ° C to 35 ° C
 
-Module data
------------------
+## Module data
 
 -   Mark : Horstmann
 -   Name : SIR 321 RF Countdown Timer
 -   Manufacturer ID : 89
 -   Product Type : 1/2 (depending on whether it is included with a temperature probe or not)
 
-Configuration
--------------
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 > **IMPORTANT**

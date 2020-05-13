@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/philio.psr04/vuedefaut1.jpg)
 
-Zusammenfassung
-------
+## Zusammenfassung
 
 Dieser einzigartige Designschalter bietet mehrere Funktionen. Sie können damit das Licht ein-, ausschalten oder dimmen, die Position Ihrer Rollläden anpassen, die Thermostattemperatur einstellen oder es als Timer verwenden.
 
@@ -21,8 +20,7 @@ Darüber hinaus können Sie diesen Schalter dank seiner magnetischen Unterstütz
 
 Es verwendet den neuesten Chip der Z-Wave 500-Serie, der eine 50% ige Erhöhung der Funkreichweite und eine 250% schnellere Kommunikationsgeschwindigkeit im Vergleich zu früheren Z-Wave-Produkten sowie einen geringeren Stromverbrauch bietet größere Autonomie ermöglichen.
 
-Fonctions
----------
+## Fonctions
 
 -   Multifunktionsschalter
 -   Z-Wave + Technologie
@@ -37,8 +35,7 @@ Fonctions
 -   RGBW-Anzeige-LED
 -   Einfach zu installieren
 
-Technische Daten
----------------------------
+## Technische Daten
 
 -   Versorgung : Lithium Polymer 3 Batterie.7 V, 220 mA v Akkulaufzeit : 6 Monate für 2 Stunden aufladen
 -   Standby-Verbrauch : 18µA
@@ -47,8 +44,7 @@ Technische Daten
 -   Übertragungsentfernung : 100 m draußen, 40 m drinnen
 -   Abmessungen : Unterstützung : 71,16 x 10,94 mm (Durchmesser x Dicke) Taste : 59,99 x 14,89 mm (Durchmesser x Dicke) Unterstützung + Knopf : 71,16 x 17,22 mm (Diametrex-Dicke) Zertifizierungen : EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950 FCC Teil 15 B, FCC Teil 15 C
 
-Moduldaten
------------------
+## Moduldaten
 
 -   Machen Sie : Philio
 -   Name : PSR04 Smart Color Button
@@ -56,8 +52,7 @@ Moduldaten
 -   Produkttyp : 9
 -   Produkt-ID : 34
 
-Configuration
--------------
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -110,8 +105,7 @@ Dieses Modul hat zwei Assoziationsgruppen, die erste ist die einzige wesentliche
 
 ![Groupe](images/philio.psr04/groupe.jpg)
 
-Gut zu wissen
-------------
+## Gut zu wissen
 
 ### Besonderheiten
 
@@ -121,15 +115,13 @@ Gehen Sie wie folgt vor, um dieses Modul als Fernbedienung zu verwenden :
 
 In der Tat ist diese Art von Modul nicht dafür ausgelegt, direkt mit einer Box zu interagieren, sondern direkt mit anderen Modulen. Durch Hinzufügen von Jeedom zu Gruppe 2 können Sie jedoch die Position der Schaltfläche erhalten und damit ein Szenario steuern (z. B. eine Lautstärke anpassen)
 
-Wakeup
-------
+## Wakeup
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
 -   Stellen Sie das Modul in die niedrige Position und drücken Sie die Taste
 
-Wichtiger Hinweis
----------------
+## Wichtiger Hinweis
 
 > **Wichtig**
 >

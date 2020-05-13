@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/secure.ses303/vuedefaut1.jpg)
 
-Summary
-------
+## Summary
 
 The SES303 probe allows the measurement of indoor ambient temperature as well as humidity. It is powered by 2 AA batteries and is Z-Wave Plus certified. In addition to its main function, it is possible to wire various external SECURE probes on the module, either:
 
@@ -19,8 +18,7 @@ The SES303 probe allows the measurement of indoor ambient temperature as well as
 
 These modules are perfect for temperature measurement in central heating control applications or any similar application. Its user interface is simple, with a local push button and an indication LED on the rear side. You can easily include / exclude it in a Z-Wave network.
 
-Fonctions
----------
+## Fonctions
 
 -   Precise measurement of temperature and humidity
 -   Application in dynamic control systems of tanks / tubes / heated floors /…
@@ -29,8 +27,7 @@ Fonctions
 -   Quick and easy installation
 -   Low battery report
 
-Technical characteristics
----------------------------
+## Technical characteristics
 
 -   Type: Portable / wall mount
 -   Temperature measurement range: ± 0.5 ° C for 0 ° C to 40 ° C
@@ -41,8 +38,7 @@ Technical characteristics
 -   Protection sign : IP30
 -   Dimensions : 86 x 85 x 30 mm
 
-Module data
------------------
+## Module data
 
 -   Mark : Horstmann
 -   Name : SES 303 Temperature and Humidity Sensor
@@ -50,8 +46,7 @@ Module data
 -   Product Type : 13
 -   Product ID : 3
 
-Configuration
--------------
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -78,6 +73,7 @@ Here is the list of commands :
 -   Drums : it's the battery command
 
 Several non visible temperatures are also available and will be useful if you have connected external probes
+
 ### Configuration of the module
 
 > **IMPORTANT**
@@ -107,8 +103,7 @@ This module has only one association group, it is essential
 
 ![Groupe](images/secure.ses303/groupe.jpg)
 
-Wakeup
-------
+## Wakeup
 
 To wake up this module, press the button on the back once
 

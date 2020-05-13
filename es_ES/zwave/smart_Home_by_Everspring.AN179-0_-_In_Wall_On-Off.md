@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/smarthomebyeverspring.AN179-0/vuedefaut1.jpg)
 
-Resumen
-------
+## Resumen
 
 El micromódulo Wall / ON de SmartHome Europe de Everspring está diseñado para controlar el encendido y apagado de luces y electrodomésticos en su hogar. Dos juegos de contactos secos permiten la conexión de dos interruptores.
 
@@ -17,8 +16,7 @@ Por razones de seguridad, la unidad puede detectar el sobrecalentamiento y apaga
 
 El Micromodule Mural ON / OFF es un dispositivo compatible con Z-Wave ™ que está diseñado para funcionar con todas las redes compatibles con Z-Wave ™. Puede ser controlado por un control remoto, software de PC o cualquier controlador Z-Wave en su red.
 
-Fonctions
----------
+## Fonctions
 
 -   Controlar una luz / dispositivo de forma remota
 -   Se instala detrás de un interruptor existente
@@ -31,8 +29,7 @@ Fonctions
 -   Botón para incluir / excluir / asociar el módulo
 -   Función repetidora Z-Wave
 
-Características técnicas
----------------------------
+## Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 -   Suministro : 230 V, 50 Hz
@@ -43,8 +40,7 @@ Características técnicas
 -   Affichage: LED en el botón
 -   Dimensiones : 42 mm x 43 mm x 16 mm
 
-Datos del módulo
------------------
+## Datos del módulo
 
 -   Hacer : Smarthome por everspring
 -   Nombre : En pared encendido apagado
@@ -52,8 +48,7 @@ Datos del módulo
 -   Tipo de producto : 4
 -   ID del producto : 8
 
-Configuration
--------------
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -108,14 +103,12 @@ Este módulo tiene 2 grupos de asociación.
 >
 > Al menos Jeedom debería terminar en el grupo 1
 
-Bueno saber
-------------
+## Bueno saber
 
 ### Específicos
 
 -   La retroalimentación de estado no se puede configurar en 3 segundos.
 
-Despertar
--------
+## Despertar
 
 No hay noción de despertar en este módulo.

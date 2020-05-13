@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/philio.pst02c/vuedefaut1.jpg)
 
-Summary
-------
+## Summary
 
 The ZIP-PSM01 detector offers 3 different functions : opening detection, temperature sensor and light detector. It consists of two parts : a detector and a magnet. They are designed to be placed on a door or window with the magnet fixed on the opening part and the detector on the fixed part.
 
@@ -19,8 +18,7 @@ The detector will also raise the brightness and the temperature, i.e. in the eve
 
 A Z-Wave controller (remote control, dongle…) is necessary in order to integrate this detector into your network if you already have an existing network.
 
-Fonctions
----------
+## Fonctions
 
 -   3 in 1 detector: Aperture, temperature, light
 -   Adopts the recent Z-Wave 400series chip to support multi-channel operations and higher data throughput (9.6 / 40 / 100kbps)
@@ -33,8 +31,7 @@ Fonctions
 -   Small, discreet and aesthetic
 -   Ease of use and installation
 
-Technical characteristics
----------------------------
+## Technical characteristics
 
 -   Type of module : Z-Wave transmitter
 -   Food : 1 CR123A 3V battery
@@ -52,8 +49,7 @@ Technical characteristics
 -   CE standard : EN300 220-1
 -   Z-Wave certification : ZC08-13050003
 
-Module data
------------------
+## Module data
 
 -   Mark : Philio Technology Corporation
 -   Name : PST02-C Door / Window 3 in 1 sensor
@@ -61,8 +57,7 @@ Module data
 -   Product Type : 2
 -   Product ID : 14
 
-Configuration
--------------
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -129,15 +124,13 @@ This module has two association groups, only the first is essential.
 
 ![Groupe](images/philio.pst02c/groupe.jpg)
 
-Wakeup
-------
+## Wakeup
 
 To wake up this module there is only one way :
 
 -   release the tamper button and press it again
 
-Important note
----------------
+## Important note
 
 > **IMPORTANT**
 >

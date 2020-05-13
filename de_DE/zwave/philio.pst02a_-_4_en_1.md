@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/philio.pst02a/vuedefaut1.jpg)
 
-Zusammenfassung
-------
+## Zusammenfassung
 
 Der Detektor ZIP-PSM02-EU bietet 4 verschiedene Funktionen : Bewegungserkennung, Blendenerkennung, Temperatursensor und Lichtsensor. Es besteht aus zwei Teilen : ein Detektor und ein Magnet. Sie können an einer Tür oder einem Fenster angebracht werden, wobei der Magnet am Öffnungsteil und der Detektor am Festteil befestigt sind.
 
@@ -19,8 +18,7 @@ Der Detektor kann auch in Kombination mit einem Z-Wave-Controller für die Hausa
 
 Der Detektor erhöht auch die Helligkeit und die Temperatur, entweder im Falle einer signifikanten Änderung und jedes Mal, wenn eine Bewegung oder ein Öffnen / Schließen erkannt wird. Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits über ein vorhandenes Netzwerk verfügen.
 
-Fonctions
----------
+## Fonctions
 
 -   4 in 1 Detektor: Bewegung, Blende, Temperatur, Licht
 -   Übernimmt den aktuellen Chip der Z-Wave 400series, um Mehrkanalbetrieb und höheren Datendurchsatz (9,6 / 40 / 100kbps) zu unterstützen
@@ -33,8 +31,7 @@ Fonctions
 -   Klein, diskret und ästhetisch
 -   Benutzerfreundlichkeit und Installation
 
-Technische Daten
----------------------------
+## Technische Daten
 
 -   Modultyp : Z-Wave Sender
 -   Versorgung : 1 CR123A 3V Batterie
@@ -54,8 +51,7 @@ Technische Daten
 -   CE-Norm : EN300 220-1
 -   Z-Wave-Zertifizierung : ZC08-13050003
 
-Moduldaten
------------------
+## Moduldaten
 
 -   Machen Sie : Philio Technology Corporation
 -   Name : PST02-A 4-in-1-Multisensor
@@ -63,8 +59,7 @@ Moduldaten
 -   Produkttyp : 2
 -   Produkt-ID : 12
 
-Configuration
--------------
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -135,15 +130,13 @@ Dieses Modul hat zwei Zuordnungsgruppen, nur die erste ist wesentlich.
 
 ![Groupe](images/philio.pst02a/groupe.jpg)
 
-Wakeup
-------
+## Wakeup
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
 -   Lassen Sie die Sabotage-Taste los und drücken Sie sie erneut
 
-Wichtiger Hinweis
----------------
+## Wichtiger Hinweis
 
 > **Wichtig**
 >

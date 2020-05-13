@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/philio.psp01/vuedefaut1.jpg)
 
-Resumen
-------
+## Resumen
 
 El detector PSP01 ofrece 3 funciones diferentes : detección de movimiento, sensor de temperatura y sensor de luz.
 
@@ -19,8 +18,7 @@ El detector también se puede usar en combinación con un controlador Z-Wave par
 
 El detector también aumentará el brillo y la temperatura, es decir, en caso de un cambio significativo, y cada vez que se detecte un movimiento. Es necesario un controlador Z-Wave (control remoto, dongle, etc.) para integrar este detector en su red si ya tiene una red existente.
 
-Fonctions
----------
+## Fonctions
 
 -   Detector 3 en 1: movimiento, temperatura, luz
 -   Adopta el reciente chip de la serie Z-Wave 400 para admitir operaciones multicanal y un mayor rendimiento de datos (9.6 / 40 / 100kbps)
@@ -33,8 +31,7 @@ Fonctions
 -   Pequeño, discreto y estético
 -   Facilidad de uso e instalación
 
-Características técnicas
----------------------------
+## Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 -   Suministro : 1 batería CR123A 3V
@@ -52,8 +49,7 @@ Características técnicas
 -   Norma CE : EN300 220-1
 -   Certificación Z-Wave : ZC08-13050003
 
-Datos del módulo
------------------
+## Datos del módulo
 
 -   Hacer : Philio Technology Corporation
 -   Nombre : Philio PSP01
@@ -61,8 +57,7 @@ Datos del módulo
 -   Tipo de producto : 2
 -   ID del producto : 2
 
-Configuration
--------------
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -127,8 +122,7 @@ Este módulo tiene dos grupos de asociación, solo el primero es esencial.
 
 ![Groupe](images/philio.psp01/groupe.jpg)
 
-Bueno saber
-------------
+## Bueno saber
 
 ### Específicos
 
@@ -136,19 +130,13 @@ Bueno saber
 >
 > Este módulo tiene una particularidad, ya que no tiene un informe basado en variaciones sino solo en duración, envía toda su información sobre cada detección. También envía la señal de detección de presencia varias veces seguidas. Por lo tanto, es aconsejable marcar la casilla "Evento en cambio" en presencia si utiliza este comando como desencadenante de escenario.
 
-### Visual alternativo
-
-![vuewidget](images/philio.psp01/vuewidget.jpg)
-
-Wakeup
-------
+## Wakeup
 
 Para activar este módulo, solo hay una forma :
 
 -   suelte el botón de manipulación y presiónelo nuevamente
 
-Nota importante
----------------
+## Nota importante
 
 > **Importante**
 >

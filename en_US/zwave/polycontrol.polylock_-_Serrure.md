@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/polycontrol.polylock/vuedefaut1.jpg)
 
-Summary
-------
+## Summary
 
 Secure your home using the Z-Wave electronic lock from Poly-Control !
 
@@ -21,8 +20,7 @@ So it's possible to lock your house in a similar way to locking your car - with 
 
 The Poly-Control system can be used in a home or work environment. The Poly-Lock lock is battery powered, and has been tested to work for 1 year, without replacing the battery.
 
-Fonctions
----------
+## Fonctions
 
 -   Control your front door remotely
 -   Fits most doors
@@ -31,8 +29,7 @@ Fonctions
 -   Wheel for manual closing
 -   Easy installation
 
-Technical characteristics
----------------------------
+## Technical characteristics
 
 -   Food : 3.6V Lithium-Chloride battery
 -   Frequency : 868.42 Mhz
@@ -40,8 +37,7 @@ Technical characteristics
 -   Dimensions : 120 x 52 x 60 mm (L x W x H)
 -   Weight : 370g
 
-Module data
------------------
+## Module data
 
 -   Mark : Poly-Control
 -   Name : Polylock
@@ -49,8 +45,7 @@ Module data
 -   Product Type : 1
 -   Product ID : 1
 
-Configuration
--------------
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -105,15 +100,13 @@ This module has only one association group.
 
 ![Groupe](images/polycontrol.polylock/groupe.jpg)
 
-Examples of use
-----------------------
+## Examples of use
 
 ![exemple](images/polycontrol.polylock/exemple.jpg)
 
 The trigger is the event command on a zipato keyboard (it can be anything else). If the value is 6 (home) we lock the door. We have just returned so we can lock the door. Otherwise (necessarily 5) we open the door with a key and 2 minutes after we close it. Indeed, we want to go out, the door opens and will close again shortly after.
 
-Good to know
-------------
+## Good to know
 
 ### Specificities
 
@@ -125,11 +118,6 @@ Good to know
 >
 > This module does not return its state, if you operate the lock by hand the state will remain the same.
 
-### Alternative visual
-
-![vuewidget](images/polycontrol.polylock/vuewidget.jpg)
-
-Wake up
--------
+## Wake up
 
 There is no concept of wake up for this module.

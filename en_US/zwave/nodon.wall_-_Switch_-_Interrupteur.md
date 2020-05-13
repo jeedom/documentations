@@ -8,15 +8,13 @@
 
 ![vuedefaut1](images/nodon.wallswitch/vuedefaut1.jpg)
 
-Summary
-------
+## Summary
 
 The NodOn® wall switch can directly control any Z-Wave® or Z-Wave Plus® compatible device such as the NodOn® smart plug or even trigger scenes via a compatible home automation system.
 
 The switch has a mounting plate for easy mounting in the house: using the screws of a mounting pot, by screwing it to the wall, or simply by sticking it via the double-sided adhesives present on the back of the plate.
 
-Fonctions
----------
+## Fonctions
 
 -   Control alone or with a home automation system
 -   Easy to assemble and disassemble
@@ -24,8 +22,7 @@ Fonctions
 -   Wireless
 -   2 years of battery
 
-Technical characteristics
----------------------------
+## Technical characteristics
 
 -   Food : CR2032 battery - Autonomy 1,5 - 2 years
 -   4 buttons
@@ -42,8 +39,7 @@ Technical characteristics
 -   EN301 489-3 V1.6.1
 -   EN 62479:2010
 
-Module data
------------------
+## Module data
 
 -   Mark : Nodon
 -   Name : CWS-3-1-01 Wall Switch
@@ -51,8 +47,7 @@ Module data
 -   Product Type : 2
 -   Product ID : 3
 
-Configuration
--------------
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -124,20 +119,17 @@ This module has 7 association groups.
 >
 > At least Jeedom should end up in group 1
 
-Good to know
-------------
+## Good to know
 
 ### Specificities
 
 -   This module can be finicky on inclusion. Do not hesitate to wake it up 1 or 2 times after inclusion. Well check the association group.
 
-Wakeup
-------
+## Wakeup
 
 To wake up this module just press one of these buttons
 
-Important note
----------------
+## Important note
 
 > **IMPORTANT**
 >

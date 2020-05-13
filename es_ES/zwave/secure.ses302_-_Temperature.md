@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/secure.ses302/vuedefaut1.jpg)
 
-Resumen
-------
+## Resumen
 
 La sonda SES302 permite la medición de la temperatura ambiente interior. Está alimentado por 2 baterías AA y tiene certificación Z-Wave Plus. Además de su función principal, es posible conectar varias sondas seguras externas en el módulo, ya sea:
 
@@ -19,8 +18,7 @@ La sonda SES302 permite la medición de la temperatura ambiente interior. Está 
 
 Estos módulos son perfectos para la medición de temperatura en aplicaciones de control de calefacción central o cualquier aplicación similar. Su interfaz de usuario es simple, con un botón local y un LED indicador en la parte trasera. Puede incluirlo / excluirlo fácilmente en una red Z-Wave.
 
-Fonctions
----------
+## Fonctions
 
 -   Medición precisa de temperatura
 -   Aplicación en sistemas de control dinámico de tanques / tubos / suelos calentados /
@@ -29,8 +27,7 @@ Fonctions
 -   Instalación rápida y fácil
 -   Informe de batería baja
 
-Características técnicas
----------------------------
+## Características técnicas
 
 -   Type: Portátil / montaje en pared
 -   Rango de medición de temperatura: ± 0.5 ° C para 0 ° C a 40 ° C
@@ -41,8 +38,7 @@ Características técnicas
 -   Indice de PROTECCION : IP30
 -   Dimensiones : 86 x 85 x 30 mm
 
-Datos del módulo
------------------
+## Datos del módulo
 
 -   Hacer : Horstmann
 -   Nombre : Sensor de temperatura SES 302
@@ -50,8 +46,7 @@ Datos del módulo
 -   Tipo de producto : 13
 -   ID del producto : 2
 
-Configuration
--------------
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -105,13 +100,11 @@ Este módulo tiene solo un grupo de asociación, es esencial
 
 ![Groupe](images/secure.ses302/groupe.jpg)
 
-Wakeup
-------
+## Wakeup
 
 Para activar este módulo, presione el botón en la parte posterior una vez
 
-Nota importante
----------------
+## Nota importante
 
 > **Importante**
 >

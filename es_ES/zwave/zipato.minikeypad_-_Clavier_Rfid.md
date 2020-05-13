@@ -8,15 +8,13 @@
 
 ![vuedefaut1](images/zipato.minikeypad/vuedefaut1.jpg)
 
-Resumen
-------
+## Resumen
 
 Controle su sistema de seguridad con este mini teclado de pared Zipato !
 
 Con este teclado RFID compatible con Z-Wave, podrá activar o desactivar fácilmente su sistema de alarma. Las teclas "Inicio" y "Ausente" le permiten armar / desarmar el sistema de seguridad y / o ejecutar escenarios de automatización del hogar rápidamente. Además de usar el teclado numérico, también puede pasar una placa RFID frente al teclado para armar / desarmar el sistema. El teclado transmite a su controlador de automatización del hogar el identificador de la insignia que ha sido reconocida. Por lo tanto, puede crear fácilmente escenarios de acuerdo con la persona que usó su insignia.
 
-Fonctions
----------
+## Fonctions
 
 -   Código y teclado RFID
 -   Admite la tecnología Z-Wave
@@ -27,8 +25,7 @@ Fonctions
 -   Indicador LED para confirmar cada acción
 -   Zumbador integrado para la indicación audible de alarma de armado / desarmado, por ejemplo
 
-Características técnicas
----------------------------
+## Características técnicas
 
 -   Tipo : Esclavo Z-Wave
 -   Suministro : 2 pilas AA 1.5V
@@ -43,8 +40,7 @@ Características técnicas
 -   Dimensiones : 62 x 62 x 20 mm
 -   Certificaciones : Seguridad : UL EMC : FCC, CE RoHS
 
-Datos del módulo
------------------
+## Datos del módulo
 
 -   Hacer : Zipato
 -   Nombre : Mini teclado Zipato RFID
@@ -52,8 +48,7 @@ Datos del módulo
 -   Tipo de producto : 24881
 -   ID del producto : 17665
 
-Configuration
--------------
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -132,15 +127,13 @@ Esto le permite agregar códigos. Verás una mesa allí.
 >
 > Recuerde activar el módulo después de agregar un código o insignia.
 
-Ejemplos de uso
-----------------------
+## Ejemplos de uso
 
 ![exemple](images/zipato.minikeypad/exemple.jpg)
 
 El disparador es el comando de evento, de hecho, solo se actualiza cuando se ha presentado un código / insignia válido. Si el valor es 6 (inicio) desactivamos la alarma (por ejemplo), o encendemos la regleta, encendemos la luz según el brillo, enviamos una notificación para indicar que alguien ha regresado, lanzamos una síntesis voz para hacer un informe meteorológico, por ejemplo. De lo contrario (necesariamente 5) activamos la alarma, cortamos la regleta de alimentación, enviamos una notificación para indicar que la casa está vacía.
 
-Bueno saber
-------------
+## Bueno saber
 
 ### Específicos
 
@@ -149,23 +142,14 @@ El teclado lee códigos / insignias de dos maneras :
 -   cuando presiona home / away durante los primeros 1 a 2 segundos si comienza a escribir un código, leerá ese código
 -   Si no se hace nada dentro de los primeros 1 a 2 segundos, entra en modo de lectura de identificación RFID (luz roja encendida). En ese momento puede leer una placa, no antes.
 
-Wakeup
-------
+## Wakeup
 
 Para activar este módulo, hay dos formas de proceder :
 
 -   presione el botón de manipulación y luego suéltelo después de 1 a 2 segundos
 -   presione Inicio, un número aleatorio e Ingrese
 
-Faq.
-------
-
-Este módulo se activa presionando y soltando el botón de manipulación. También puede despertarse presionando Inicio, luego 1 y luego Entrar.
-
-Este módulo es un módulo de batería, la nueva configuración se tendrá en cuenta en la próxima activación.
-
-Nota importante
----------------
+## Nota importante
 
 > **Importante**
 >

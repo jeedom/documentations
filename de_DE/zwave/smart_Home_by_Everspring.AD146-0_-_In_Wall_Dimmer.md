@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/smarthomebyeverspring.AD146-0/vuedefaut1.jpg)
 
-Zusammenfassung
-------
+## Zusammenfassung
 
 Dieses Wanddimmer-Mikromodul von SmartHome Europe von Everspring dient zum Steuern des Ein- und Ausschaltens von Lichtern und elektrischen Geräten in Ihrem Zuhause. Es kann auch eine Dimmerfunktion bereitstellen, die nur mit Glühbirnen kompatibel ist. Bei einer Spannung von 230 V kann dieses Modul bis zu 300 Watt ohmsche oder glühende Ladung oder 200 Watt fluoreszierende Ladung unterstützen.
 
@@ -17,8 +16,7 @@ Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden, um einen vorhand
 
 Das Wall Dimmer-Modul ist ein Z-Wave ™ -kompatibles Gerät, das für alle Z-Wave ™ -kompatiblen Netzwerke geeignet ist. Es kann von einer Fernbedienung, einer PC-Software oder einem beliebigen Z-Wave-Controller in Ihrem Netzwerk gesteuert werden.
 
-Fonctions
----------
+## Fonctions
 
 -   Steuern Sie ein Licht / Gerät fern
 -   Wird hinter einem vorhandenen Switch installiert
@@ -33,8 +31,7 @@ Fonctions
 -   Schaltfläche zum Einschließen / Ausschließen / Zuordnen des Moduls
 -   Z-Wave-Repeater-Funktion
 
-Technische Daten
----------------------------
+## Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 -   Versorgung : 230 V, 50 Hz
@@ -48,8 +45,7 @@ Technische Daten
 -   Affichage: LED auf der Taste
 -   Abmessungen : 42 mm x 43 mm x 16 mm
 
-Moduldaten
------------------
+## Moduldaten
 
 -   Machen Sie : SmartHome von Everspring
 -   Name : Im Wanddimmer
@@ -57,8 +53,7 @@ Moduldaten
 -   Produkttyp : 3
 -   Produkt-ID : 2
 
-Configuration
--------------
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -115,14 +110,12 @@ Dieses Modul hat 2 Zuordnungsgruppen.
 >
 > Zumindest sollte Jeedom in Gruppe 1 landen
 
-Gut zu wissen
-------------
+## Gut zu wissen
 
 ### Besonderheiten
 
 -   Die Statusrückmeldung kann nicht innerhalb von 3 Sekunden konfiguriert werden.
 
-Wakeup
-------
+## Wakeup
 
 Keine Vorstellung von Aufwecken auf diesem Modul.

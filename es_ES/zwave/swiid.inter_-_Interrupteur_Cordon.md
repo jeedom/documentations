@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/swiid.inter/vuedefaut1.jpg)
 
-Resumen
-------
+## Resumen
 
 SwiidInter es el primer interruptor de cable en el entorno de automatización del hogar Z-Wave que es lo suficientemente pequeño y discreto como para ser comparable a un interruptor de cable ordinario.
 
@@ -19,8 +18,7 @@ El interruptor SwiidInter también ofrece posibilidades de asociación bidirecci
 
 El interruptor SwiidInter se instala exactamente como un interruptor de cable ordinario : Por lo tanto, es una instalación simple y rápida que no requiere ninguna herramienta especializada. Luego debe configurarse para integrarse en una "red" Z-Wave, esta red puede ser tan simple como un solo control remoto que controla su interruptor SwiidInter de forma remota.
 
-Fonctions
----------
+## Fonctions
 
 -   Encienda el cable que se puede usar tanto manualmente (pulsación corta) como por radio remoto (Z-Wave)
 -   Úselo como reemplazo de un interruptor de cable estándar en una mesita de noche, mesa o lámpara de escritorio
@@ -30,8 +28,7 @@ Fonctions
 -   Se instala como un interruptor de cable ordinario
 -   Apto para todo tipo de bombillas
 
-Características técnicas
----------------------------
+## Características técnicas
 
 -   Tipo de módulo : Receptor Z-Wave
 -   Color : noire
@@ -47,8 +44,7 @@ Características técnicas
 -   Dimensiones : 84 x 32 x 29 mm
 -   Normas de la UE : EN 61058-2-1:2011 EN 55015
 
-Datos del módulo
------------------
+## Datos del módulo
 
 -   Hacer : Swiid
 -   Nombre : Swiidinter
@@ -56,8 +52,7 @@ Datos del módulo
 -   Tipo de producto : 256
 -   ID del producto : 256
 
-Configuration
--------------
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -114,12 +109,10 @@ Este módulo tiene dos grupos de asociación.
 >
 > Para un funcionamiento óptimo de su módulo. Jeedom debe estar asociado al menos con el grupo 2.
 
-Asociarse con otra luz
-----------------------------
+## Asociarse con otra luz
 
 Para asociar el swiidinter con otra luz y poder beneficiarse de la iluminación de otra luz, simplemente agréguela al grupo de asociación 1 a través de la pantalla mencionada anteriormente.
 
-Despertar
--------
+## Despertar
 
 No hay noción de despertar en este módulo.

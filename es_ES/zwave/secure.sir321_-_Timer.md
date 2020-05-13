@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/secure.sir321/vuedefaut1.jpg)
 
-Resumen
-------
+## Resumen
 
 El temporizador digital SIR321 es un simple interruptor de botón que recuerda apagar sus dispositivos eléctricos por usted. Es posible un gran ahorro de energía al agregar este dispositivo simple en cualquier dispositivo eléctrico de alta potencia, con cargas de hasta 3kW (resistivas).
 
@@ -17,8 +16,7 @@ Estas unidades son perfectas para usar en paneles de calefacción, calentadores 
 
 El SIR 321 es compatible con los sensores de temperatura externos SES001, SES002 y SES003.
 
-Fonctions
----------
+## Fonctions
 
 -   Booster para calentador de inmersión, radiador de panel, radiador de toalla, radiador de baño de aceite
 -   Temporizador de caldera
@@ -27,8 +25,7 @@ Fonctions
 -   Simple de usar y confiable
 -   Ahorrar energía
 
-Características técnicas
----------------------------
+## Características técnicas
 
 -   Type: Temporizador electrónico
 -   Relais: 13 (3) A, 230 V CA, adecuado para cargas de hasta 3 kW
@@ -37,16 +34,14 @@ Características técnicas
 -   Indice de PROTECCION : IP30
 -   Temperatura de funcionamiento: 0 ° C a 35 ° C
 
-Datos del módulo
------------------
+## Datos del módulo
 
 -   Hacer : Horstmann
 -   Nombre : Temporizador de cuenta regresiva RF SIR 321
 -   ID del fabricante : 89
 -   Tipo de producto : 1/2 (dependiendo de si se incluye con una sonda de temperatura o no)
 
-Configuration
--------------
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 > **Importante**

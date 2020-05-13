@@ -8,15 +8,13 @@
 
 ![vuedefaut1](images/nodon.wallswitch/vuedefaut1.jpg)
 
-Zusammenfassung
-------
+## Zusammenfassung
 
 Der NodOn®-Wandschalter kann jedes Z-Wave®- oder Z-Wave Plus®-kompatible Gerät wie den NodOn®-Smart-Plug direkt steuern oder sogar Szenen über ein kompatibles Hausautomationssystem auslösen.
 
 Der Schalter verfügt über eine Montageplatte zur einfachen Montage im Haus: Verwenden Sie die Schrauben eines Montagetopfs, schrauben Sie ihn an die Wand oder kleben Sie ihn einfach über die doppelseitigen Klebstoffe auf der Rückseite der Platte.
 
-Fonctions
----------
+## Fonctions
 
 -   Steuerung allein oder mit einem Hausautomationssystem
 -   Einfach zu montieren und zu demontieren
@@ -24,8 +22,7 @@ Fonctions
 -   Drahtlos
 -   2 Jahre Batterie
 
-Technische Daten
----------------------------
+## Technische Daten
 
 -   Versorgung : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
 -   4 Tasten
@@ -42,8 +39,7 @@ Technische Daten
 -   EN301 489-3 V1.6.1
 -   EN 62479:2010
 
-Moduldaten
------------------
+## Moduldaten
 
 -   Machen Sie : Nodon
 -   Name : CWS-3-1-01 Wandschalter
@@ -51,8 +47,7 @@ Moduldaten
 -   Produkttyp : 2
 -   Produkt-ID : 3
 
-Configuration
--------------
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -124,20 +119,17 @@ Dieses Modul hat 7 Zuordnungsgruppen.
 >
 > Zumindest sollte Jeedom in Gruppe 1 landen
 
-Gut zu wissen
-------------
+## Gut zu wissen
 
 ### Besonderheiten
 
 -   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht, es 1 oder 2 Mal nach der Aufnahme aufzuwecken. Überprüfen Sie die Assoziationsgruppe.
 
-Wakeup
-------
+## Wakeup
 
 Um dieses Modul zu aktivieren, drücken Sie einfach eine dieser Tasten
 
-Wichtiger Hinweis
----------------
+## Wichtiger Hinweis
 
 > **Wichtig**
 >

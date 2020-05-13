@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/polycontrol.polylock/vuedefaut1.jpg)
 
-Zusammenfassung
-------
+## Zusammenfassung
 
 Sichern Sie Ihr Zuhause mit dem elektronischen Z-Wave-Schloss von Poly-Control !
 
@@ -21,8 +20,7 @@ So können Sie Ihr Haus ähnlich wie Ihr Auto abschließen - mit einer Fernbedie
 
 Das Poly-Control-System kann zu Hause oder am Arbeitsplatz eingesetzt werden. Das Poly-Lock-Schloss ist batteriebetrieben und funktioniert seit 1 Jahr, ohne die Batterie auszutauschen.
 
-Fonctions
----------
+## Fonctions
 
 -   Steuern Sie Ihre Haustür fern
 -   Passend für die meisten Türen
@@ -31,8 +29,7 @@ Fonctions
 -   Rad zum manuellen Schließen
 -   Einfache Installation
 
-Technische Daten
----------------------------
+## Technische Daten
 
 -   Versorgung : 3,6 V Lithium-Chlorid-Batterie
 -   Frequenz : 868,42 MHz
@@ -40,8 +37,7 @@ Technische Daten
 -   Abmessungen : 120 x 52 x 60 mm (L x B x H)
 -   Gewicht : 370g
 
-Moduldaten
------------------
+## Moduldaten
 
 -   Machen Sie : Poly-Control
 -   Name : Polylock
@@ -49,8 +45,7 @@ Moduldaten
 -   Produkttyp : 1
 -   Produkt-ID : 1
 
-Configuration
--------------
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -105,15 +100,13 @@ Dieses Modul hat nur eine Zuordnungsgruppe.
 
 ![Groupe](images/polycontrol.polylock/groupe.jpg)
 
-Anwendungsbeispiele
-----------------------
+## Anwendungsbeispiele
 
 ![exemple](images/polycontrol.polylock/exemple.jpg)
 
 Der Auslöser ist der Ereignisbefehl auf einer Zipato-Tastatur (es kann alles andere sein). Wenn der Wert 6 (home) ist, schließen wir die Tür ab. Wir sind gerade zurückgekehrt, damit wir die Tür abschließen können. Andernfalls (unbedingt 5) öffnen wir die Tür mit einem Schlüssel und 2 Minuten nachdem wir sie geschlossen haben. In der Tat wollen wir raus, die Tür öffnet sich und wird kurz darauf wieder schließen.
 
-Gut zu wissen
-------------
+## Gut zu wissen
 
 ### Besonderheiten
 
@@ -125,11 +118,6 @@ Gut zu wissen
 >
 > Dieses Modul gibt seinen Status nicht zurück. Wenn Sie die Sperre von Hand bedienen, bleibt der Status unverändert.
 
-### Alternative visuelle
-
-![vuewidget](images/polycontrol.polylock/vuewidget.jpg)
-
-Wach auf
--------
+## Wach auf
 
 Für dieses Modul gibt es kein Konzept zum Aufwecken.

@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/secure.srt323/vuedefaut1.jpg)
 
-Zusammenfassung
-------
+## Zusammenfassung
 
 Der SRT323 ist ein wandmontierter batteriebetriebener Thermostat. Es verfügt über einen Drehknopf, mit dem der Benutzer die eingestellte Temperatur im Raum einstellen kann. Dieser Thermostat enthält ein Ladesteuerungsrelais. Es ist daher nicht erforderlich, einen Stellantrieb in der Nähe des Kessels zu installieren.
 
@@ -21,8 +20,7 @@ Es kann als direkter Ersatz für vorhandene Thermostate verwendet werden, ohne d
 
 Der SRT323 ist ein idealer Partner für die Verwendung mit einem Hausautomations-Gateway, mit dem Sie Ihr Heizsystem fernsteuern können. Sie müssen sich keine Sorgen mehr machen, nach Hause in ein kaltes Haus zu gehen, solange Sie ein Smartphone, Tablet oder PC in der Nähe haben und mit dem Internet verbunden sind.
 
-Fonctions
----------
+## Fonctions
 
 -   Thermostat für den Hausgebrauch
 -   Ersetzt einen vorhandenen Thermostat
@@ -32,8 +30,7 @@ Fonctions
 -   Kompatibel mit anderen Z-Wave-Produkten
 -   Ein Knopf
 
-Technische Daten
----------------------------
+## Technische Daten
 
 -   Modultyp : Z-Wave-Controller
 -   Integrierter TPI-Algorithmus
@@ -47,8 +44,7 @@ Technische Daten
 -   Betriebstemperatur : 0 ° C bis 40 ° C
 -   Abmessungen : 86 x 86 x 36,25 mm
 
-Moduldaten
------------------
+## Moduldaten
 
 -   Machen Sie : Horstmann
 -   Name : SRT 323 Elektronischer Raumthermostat und Temperatur
@@ -56,8 +52,7 @@ Moduldaten
 -   Produkttyp : 1
 -   Produkt-ID : 4
 
-Configuration
--------------
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -109,8 +104,7 @@ Parameterdetails :
 Für eine optimale Funktion Ihres Moduls muss Jeedom den 5 Gruppen zugeordnet sein
 ![Groupe](images/secure.srt323/groupe.jpg)
 
-Gut zu wissen
-------------
+## Gut zu wissen
 
 ### Besonderheiten
 
@@ -118,14 +112,12 @@ Gut zu wissen
 >
 > Dieses Modul ist batteriebetrieben. Es ist daher wichtig zu beachten, dass eine Änderung des Sollwerts nur beim Aufwachen berücksichtigt wird. Standardmäßig liegt das Aufwecken bei 86400 Sekunden. Es wird dringend empfohlen, den Wert auf ca. 10 Minuten zu verringern. Somit wird eine Änderung des Sollwerts vom Modul spätestens nach 10 Minuten berücksichtigt
 
-Wakeup
-------
+## Wakeup
 
 Um dieses Modul aufzuwecken, müssen Sie den Schalter 1 auf ON stellen und
 Wählen Sie mit dem Rad n und drücken Sie das Rad.
 
-Wichtiger Hinweis
----------------
+## Wichtiger Hinweis
 
 > **Wichtig**
 >

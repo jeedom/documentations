@@ -8,15 +8,13 @@
 
 ![vuedefaut1](images/zipato.minikeypad/vuedefaut1.jpg)
 
-Zusammenfassung
-------
+## Zusammenfassung
 
 Steuern Sie Ihr Sicherheitssystem mit dieser Mini-Zipato-Wandtastatur !
 
 Mit dieser Z-Wave-kompatiblen RFID-Tastatur können Sie Ihr Alarmsystem einfach aktivieren oder deaktivieren. Mit den Tasten "Home" und "Away" können Sie das Sicherheitssystem aktivieren / deaktivieren und / oder Hausautomationsszenarien schnell ausführen. Zusätzlich zur Verwendung des Ziffernblocks können Sie auch ein RFID-Emblem vor der Tastatur anbringen, um das System zu aktivieren / deaktivieren. Die Tastatur überträgt die Kennung des erkannten Ausweises an Ihren Hausautomationscontroller. Auf diese Weise können Sie ganz einfach Szenarien erstellen, die der Person entsprechen, die sein Abzeichen verwendet hat.
 
-Fonctions
----------
+## Fonctions
 
 -   Code- und RFID-Tastatur
 -   Unterstützt die Z-Wave-Technologie
@@ -27,8 +25,7 @@ Fonctions
 -   LED-Anzeige zur Bestätigung jeder Aktion
 -   Integrierter Summer zum Beispiel zur akustischen Anzeige der Alarmschaltung / -entschaltung
 
-Technische Daten
----------------------------
+## Technische Daten
 
 -   Typ : Z-Wave-Slave
 -   Versorgung : 2x AA 1,5V Batterien
@@ -43,8 +40,7 @@ Technische Daten
 -   Abmessungen : 62 x 62 x 20 mm
 -   Zertifizierungen : Sicherheit : UL EMC : FCC, CE RoHS
 
-Moduldaten
------------------
+## Moduldaten
 
 -   Machen Sie : Zipato
 -   Name : Zipato Mini Keypad RFID
@@ -52,8 +48,7 @@ Moduldaten
 -   Produkttyp : 24881
 -   Produkt-ID : 17665
 
-Configuration
--------------
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -132,15 +127,13 @@ Auf diese Weise können Sie Codes hinzufügen. Dort sehen Sie eine Tabelle.
 >
 > Denken Sie daran, das Modul nach dem Hinzufügen eines Codes oder Ausweises zu aktivieren.
 
-Anwendungsbeispiele
-----------------------
+## Anwendungsbeispiele
 
 ![exemple](images/zipato.minikeypad/exemple.jpg)
 
 Der Auslöser ist der Ereignisbefehl. Tatsächlich wird er nur aktualisiert, wenn ein gültiger Code / Ausweis vorgelegt wurde. Wenn der Wert 6 (home) ist, deaktivieren wir den Alarm (zum Beispiel) oder schalten die Steckdosenleiste ein, schalten das Licht je nach Helligkeit ein, senden eine Benachrichtigung, um zu signalisieren, dass jemand zurückgekehrt ist, und starten eine Synhtese Stimme, um zum Beispiel einen Wetterbericht zu machen. Andernfalls (unbedingt 5) aktivieren wir den Alarm, schneiden die Steckdosenleiste ab und senden eine Benachrichtigung, um zu signalisieren, dass das Haus leer ist.
 
-Gut zu wissen
-------------
+## Gut zu wissen
 
 ### Besonderheiten
 
@@ -149,23 +142,14 @@ Die Tastatur liest Codes / Ausweise auf zwei Arten :
 -   Wenn Sie die ersten 1 bis 2 Sekunden auf Home / Away drücken und einen Code eingeben, wird dieser Code gelesen
 -   Wenn innerhalb der ersten 1 bis 2 Sekunden nichts unternommen wird, wechselt es in den RFID-Ausweislesemodus (rotes Licht an). Zu dieser Zeit kann er ein Abzeichen lesen, nicht vorher.
 
-Wakeup
-------
+## Wakeup
 
 Um dieses Modul zu aktivieren, gibt es zwei Möglichkeiten :
 
 -   Drücken Sie die Sabotagetaste und lassen Sie sie nach 1 bis 2 Sekunden los
 -   Drücken Sie Home, eine Zufallszahl und die Eingabetaste
 
-Faq.
-------
-
-Dieses Modul wird durch Drücken und Loslassen der Sabotage-Taste aktiviert. Er kann auch aufwachen, indem er Home, dann 1 und dann Enter drückt.
-
-Dieses Modul ist ein Batteriemodul, die neue Konfiguration wird beim nächsten Aufwecken berücksichtigt.
-
-Wichtiger Hinweis
----------------
+## Wichtiger Hinweis
 
 > **Wichtig**
 >

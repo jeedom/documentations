@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/philio.psr04/vuedefaut1.jpg)
 
-Resumen
-------
+## Resumen
 
 Este interruptor de diseño único ofrece varias funciones. Puede usarlo para encender, apagar o atenuar las luces, ajustar la posición de sus persianas, ajustar la temperatura del termostato o usarlo como temporizador.
 
@@ -21,8 +20,7 @@ Además, puede mover y colocar fácilmente este interruptor en la ubicación que
 
 Utiliza el último chip de la serie Z-Wave 500, que ofrece un aumento del 50% en el alcance de la radio y una velocidad de comunicación 250% más rápida en comparación con los productos Z-Wave anteriores, así como un menor consumo de energía. permitiendo una mayor autonomía.
 
-Fonctions
----------
+## Fonctions
 
 -   Interruptor multifuncional
 -   Tecnología Z-Wave +
@@ -37,8 +35,7 @@ Fonctions
 -   LED de indicación RGBW
 -   Fácil de instalar
 
-Características técnicas
----------------------------
+## Características técnicas
 
 -   Suministro : Batería de polímero de litio 3.7V, 220mA v Duración de la batería : 6 meses por 2 horas de carga
 -   Consumo en espera : 18µA
@@ -47,8 +44,7 @@ Características técnicas
 -   Distancia de transmisión : 100m en exteriores, 40m en interiores
 -   Dimensiones : Apoyo : Botón 71,16 x 10,94 mm (diámetro x grosor) : 59.99 x 14.89 mm (diámetro x grosor) Soporte + botón : Certificaciones de 71.16 x 17.22 mm (grosor diametrex) : EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950 FCC Parte 15 B, FCC Parte 15 C
 
-Datos del módulo
------------------
+## Datos del módulo
 
 -   Hacer : Philio
 -   Nombre : Botón de color inteligente PSR04
@@ -56,8 +52,7 @@ Datos del módulo
 -   Tipo de producto : 9
 -   ID del producto : 34
 
-Configuration
--------------
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -110,8 +105,7 @@ Este módulo tiene dos grupos de asociación, el primero es el único esencial. 
 
 ![Groupe](images/philio.psr04/groupe.jpg)
 
-Bueno saber
-------------
+## Bueno saber
 
 ### Específicos
 
@@ -121,15 +115,13 @@ Para usar este módulo como control remoto, proceda de la siguiente manera :
 
 De hecho, este tipo de módulo no está hecho para interactuar directamente con una caja, sino directamente con otros módulos. Sin embargo, al agregar Jeedom al grupo 2, esto le permite recibir la posición del botón y, por lo tanto, usarlo para controlar un escenario (por ejemplo, ajustar un volumen)
 
-Wakeup
-------
+## Wakeup
 
 Para activar este módulo, solo hay una forma :
 
 -   coloque el módulo en la posición baja y presione el botón
 
-Nota importante
----------------
+## Nota importante
 
 > **Importante**
 >

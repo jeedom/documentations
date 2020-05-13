@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/polycontrol.danalock/vuedefaut1.jpg)
 
-Summary
-------
+## Summary
 
 **Secure your home using the Z-Wave electronic lock from Poly-Control !**
 
@@ -43,9 +42,7 @@ Develop control of your smart home with a Danalock, the perfect initiator for al
 
 Danalock combines the elegance and minimalism of Scandinavian design - with a solid anodized aluminum bezel and advanced Bluetooth and Z-Wave technologies. A discreet Danish design built to last.
 
-
-Fonctions
----------
+## Fonctions
 
 -   Control your front door remotely
 -   Connected lock
@@ -61,8 +58,7 @@ Fonctions
 -   Battery operation
 -   Compatible with iOS (iPhone 4s or later), but also Android (from 4.4).
 
-Technical characteristics
----------------------------
+## Technical characteristics
 
 -   Food : 4 CR123 3V batteries
 -   Versions : V2
@@ -71,8 +67,7 @@ Technical characteristics
 -   Dimensions : 79 mm x 49 mm (diameter x height)
 -   Weight : 363g
 
-Module data
------------------
+## Module data
 
 -   Mark : Poly-Control
 -   Name : Danalock V2 BTZE
@@ -80,8 +75,7 @@ Module data
 -   Product Type : 1
 -   Product ID : 1
 
-Configuration
--------------
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -161,8 +155,7 @@ This module has only one association group.
 
 ![Groupe](images/polycontrol.danalock/groupe.jpg)
 
-Good to know
-------------
+## Good to know
 
 ### Specificities
 
@@ -174,11 +167,6 @@ Good to know
 >
 > This module returns its status if you operate the lock by hand the status will be updated.
 
-### Alternative visual
-
-![vuewidget](images/polycontrol.danalock/vuewidget.jpg)
-
-Wakeup
-------
+## Wakeup
 
 There is no concept of wake up for this module.

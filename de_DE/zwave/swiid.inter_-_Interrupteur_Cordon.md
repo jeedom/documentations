@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/swiid.inter/vuedefaut1.jpg)
 
-Zusammenfassung
-------
+## Zusammenfassung
 
 SwiidInter ist der erste Kabelschalter in der Z-Wave-Hausautomationsumgebung, der klein und diskret genug ist, um mit einem normalen Kabelschalter vergleichbar zu sein.
 
@@ -19,8 +18,7 @@ Der SwiidInter-Schalter bietet auch bidirektionale Zuordnungsmöglichkeiten. Som
 
 Der SwiidInter-Schalter wird genau wie ein gewöhnlicher Kabelschalter installiert : Es handelt sich daher um eine einfache und schnelle Installation, für die kein spezielles Werkzeug erforderlich ist. Es muss dann für die Integration in ein Z-Wave- "Netzwerk" konfiguriert werden. Dieses Netzwerk kann so einfach sein wie eine einzelne Fernbedienung, die Ihren SwiidInter-Switch fernsteuert.
 
-Fonctions
----------
+## Fonctions
 
 -   Schalten Sie das Kabel ein, das sowohl manuell (kurzes Drücken) als auch per Funkfernbedienung (Z-Wave) verwendet werden kann
 -   Verwendung als Ersatz für einen Standard-Kabelschalter an einer Nachttisch-, Tisch- oder Schreibtischlampe
@@ -30,8 +28,7 @@ Fonctions
 -   Wird wie ein gewöhnlicher Kabelschalter installiert
 -   Geeignet für alle Arten von Lampen
 
-Technische Daten
----------------------------
+## Technische Daten
 
 -   Modultyp : Z-Wave Empfänger
 -   Farbe : noire
@@ -47,8 +44,7 @@ Technische Daten
 -   Abmessungen : 84 x 32 x 29 mm
 -   EU-Standards : EN 61058-2-1:2011 EN 55015
 
-Moduldaten
------------------
+## Moduldaten
 
 -   Machen Sie : Swiid
 -   Name : Swiidinter
@@ -56,8 +52,7 @@ Moduldaten
 -   Produkttyp : 256
 -   Produkt-ID : 256
 
-Configuration
--------------
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -114,12 +109,10 @@ Dieses Modul hat zwei Zuordnungsgruppen.
 >
 > Für einen optimalen Betrieb Ihres Moduls. Jeedom muss mindestens der Gruppe 2 zugeordnet sein.
 
-Verbinde dich mit einem anderen Licht
-----------------------------
+## Verbinde dich mit einem anderen Licht
 
 Um den Swiidinter mit einem anderen Licht zu verknüpfen und von der Beleuchtung eines anderen Lichts zu profitieren, fügen Sie es einfach über den oben genannten Bildschirm der Zuordnungsgruppe 1 hinzu.
 
-Wach auf
--------
+## Wach auf
 
 Keine Vorstellung von Aufwecken auf diesem Modul.

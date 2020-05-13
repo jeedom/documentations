@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/philio.psr04/vuedefaut1.jpg)
 
-Summary
-------
+## Summary
 
 This unique design switch offers several functions. You can use it to turn on, off or dim the lights, adjust the position of your shutters, adjust the thermostat temperature or use it as a timer.
 
@@ -21,8 +20,7 @@ In addition, you can easily move and position this switch at the location of you
 
 It uses the latest Z-Wave 500 series chip, offering a 50% increase in radio range and 250% faster communication speed compared to previous Z-Wave products, as well as lower power consumption allowing greater autonomy.
 
-Fonctions
----------
+## Fonctions
 
 -   Multifunction switch
 -   Z-Wave + technology
@@ -37,8 +35,7 @@ Fonctions
 -   RGBW indication LED
 -   Easy to install
 
-Technical characteristics
----------------------------
+## Technical characteristics
 
 -   Food : Lithium Polymer 3 Battery.7V, 220mA v Battery life : 6 months for 2 hours charge
 -   Standby consumption : 18µA
@@ -47,8 +44,7 @@ Technical characteristics
 -   Transmission distance : 100m outdoors, 40m indoors
 -   Dimensions : Support : 71.16 x 10.94 mm (diameter x thickness) Button : 59.99 x 14.89mm (diameter x thickness) Support + Button : 71.16 x 17.22 mm (diametrex thickness) Certifications : EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950 FCC Part 15 B, FCC Part 15 C
 
-Module data
------------------
+## Module data
 
 -   Mark : Philio
 -   Name : PSR04 Smart Color Button
@@ -56,8 +52,7 @@ Module data
 -   Product Type : 9
 -   Product ID : 34
 
-Configuration
--------------
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -110,8 +105,7 @@ This module has two association groups, the first is the only essential. The sec
 
 ![Groupe](images/philio.psr04/groupe.jpg)
 
-Good to know
-------------
+## Good to know
 
 ### Specificities
 
@@ -121,15 +115,13 @@ To use this module as a remote control, proceed as follows :
 
 Indeed this type of module is not made to interact directly with a box but directly with other modules. However by adding Jeedom to group 2, this allows you to receive the position of the button and therefore to use it to control a scenario (adjust a volume for example)
 
-Wakeup
-------
+## Wakeup
 
 To wake up this module there is only one way :
 
 -   put the module in the low position and press the button
 
-Important note
----------------
+## Important note
 
 > **IMPORTANT**
 >

@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/smarthomebyeverspring.AD146-0/vuedefaut1.jpg)
 
-Summary
-------
+## Summary
 
 This Wall Dimmer Micromodule from SmartHome Europe by Everspring, is designed to control the switching on and off of lights and electrical equipment in your home. It can also provide a dimmer function which is only compatible with bulbs. At a voltage of 230V, this module can support up to 300 Watts in resistive or incandescent charge, or 200 Watts in fluorescent charge.
 
@@ -17,8 +16,7 @@ It can be used in 2-wire mode (without neutral), replacing an existing switch, o
 
 The Wall Dimmer Module is a Z-Wave ™ compatible device which is intended to work with all Z-Wave ™ compatible networks. It can be controlled by a remote control, PC software, or any Z-Wave controller on your network.
 
-Fonctions
----------
+## Fonctions
 
 -   Control a light / device remotely
 -   Installs behind an existing switch
@@ -33,8 +31,7 @@ Fonctions
 -   Button to include / exclude / associate the module
 -   Z-Wave repeater function
 
-Technical characteristics
----------------------------
+## Technical characteristics
 
 -   Type of module : Z-Wave receiver
 -   Food : 230 V, 50 Hz
@@ -48,8 +45,7 @@ Technical characteristics
 -   Affichage: LED on the button
 -   Dimensions : 42mm x 43mm x 16mm
 
-Module data
------------------
+## Module data
 
 -   Mark : SmartHome by Everspring
 -   Name : In Wall Dimmer
@@ -57,8 +53,7 @@ Module data
 -   Product Type : 3
 -   Product ID : 2
 
-Configuration
--------------
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -115,14 +110,12 @@ This module has 2 association groups.
 >
 > At least Jeedom should end up in group 1
 
-Good to know
-------------
+## Good to know
 
 ### Specificities
 
 -   Status feedback cannot be configured within 3 seconds.
 
-Wakeup
-------
+## Wakeup
 
 No notion of wake up on this module.

@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/philio.psp01/vuedefaut1.jpg)
 
-Zusammenfassung
-------
+## Zusammenfassung
 
 Der PSP01-Detektor bietet 3 verschiedene Funktionen : Bewegungserkennung, Temperatursensor und Lichtsensor.
 
@@ -19,8 +18,7 @@ Der Detektor kann auch in Kombination mit einem Z-Wave-Controller für die Hausa
 
 Der Detektor erhöht auch die Helligkeit und die Temperatur, d. H. Im Falle einer signifikanten Änderung und jedes Mal, wenn eine Bewegung erfasst wird. Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits über ein vorhandenes Netzwerk verfügen.
 
-Fonctions
----------
+## Fonctions
 
 -   3 in 1 Detektor: Bewegung, Temperatur, Licht
 -   Übernimmt den aktuellen Chip der Z-Wave 400series, um Mehrkanalbetrieb und höheren Datendurchsatz (9,6 / 40 / 100kbps) zu unterstützen
@@ -33,8 +31,7 @@ Fonctions
 -   Klein, diskret und ästhetisch
 -   Benutzerfreundlichkeit und Installation
 
-Technische Daten
----------------------------
+## Technische Daten
 
 -   Modultyp : Z-Wave Sender
 -   Versorgung : 1 CR123A 3V Batterie
@@ -52,8 +49,7 @@ Technische Daten
 -   CE-Norm : EN300 220-1
 -   Z-Wave-Zertifizierung : ZC08-13050003
 
-Moduldaten
------------------
+## Moduldaten
 
 -   Machen Sie : Philio Technology Corporation
 -   Name : Philio PSP01
@@ -61,8 +57,7 @@ Moduldaten
 -   Produkttyp : 2
 -   Produkt-ID : 2
 
-Configuration
--------------
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -127,8 +122,7 @@ Dieses Modul hat zwei Zuordnungsgruppen, nur die erste ist wesentlich.
 
 ![Groupe](images/philio.psp01/groupe.jpg)
 
-Gut zu wissen
-------------
+## Gut zu wissen
 
 ### Besonderheiten
 
@@ -136,19 +130,13 @@ Gut zu wissen
 >
 > Dieses Modul hat eine Besonderheit: Es enthält keinen Bericht, der auf Abweichungen basiert, sondern nur auf der Dauer. Es sendet alle Informationen zu jeder Erkennung. Es sendet auch das Anwesenheitserkennungssignal mehrmals hintereinander. Es ist daher ratsam, das Kontrollkästchen "Ereignis bei Änderung" zu aktivieren, wenn Sie diesen Befehl als Szenarioauslöser verwenden.
 
-### Alternative visuelle
-
-![vuewidget](images/philio.psp01/vuewidget.jpg)
-
-Wakeup
-------
+## Wakeup
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
 -   Lassen Sie die Sabotage-Taste los und drücken Sie sie erneut
 
-Wichtiger Hinweis
----------------
+## Wichtiger Hinweis
 
 > **Wichtig**
 >

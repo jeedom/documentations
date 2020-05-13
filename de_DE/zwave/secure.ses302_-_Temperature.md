@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/secure.ses302/vuedefaut1.jpg)
 
-Zusammenfassung
-------
+## Zusammenfassung
 
 Die Sonde SES302 ermöglicht die Messung der Umgebungstemperatur in Innenräumen. Es wird mit 2 AA-Batterien betrieben und ist Z-Wave Plus-zertifiziert. Zusätzlich zu seiner Hauptfunktion ist es auch möglich, verschiedene externe SECURE-Sonden am Modul zu verdrahten:
 
@@ -19,8 +18,7 @@ Die Sonde SES302 ermöglicht die Messung der Umgebungstemperatur in Innenräumen
 
 Diese Module eignen sich perfekt für die Temperaturmessung in Zentralheizungssteuerungsanwendungen oder ähnlichen Anwendungen. Die Benutzeroberfläche ist einfach, mit einem lokalen Druckknopf und einer Anzeige-LED auf der Rückseite. Sie können es einfach in ein Z-Wave-Netzwerk einschließen / ausschließen.
 
-Fonctions
----------
+## Fonctions
 
 -   Genaue Temperaturmessung
 -   Anwendung in dynamischen Steuerungssystemen von Tanks / Rohren / Fußbodenheizungen /…
@@ -29,8 +27,7 @@ Fonctions
 -   Schnelle und einfache Installation
 -   Bericht über niedrigen Batteriestand
 
-Technische Daten
----------------------------
+## Technische Daten
 
 -   Type: Tragbar / Wandhalterung
 -   Temperaturmessbereich: ± 0.5 ° C für 0 ° C bis 40 ° C
@@ -41,8 +38,7 @@ Technische Daten
 -   Schutzindex : IP30
 -   Abmessungen : 86 x 85 x 30 mm
 
-Moduldaten
------------------
+## Moduldaten
 
 -   Machen Sie : Horstmann
 -   Name : Temperatursensor SES 302
@@ -50,8 +46,7 @@ Moduldaten
 -   Produkttyp : 13
 -   Produkt-ID : 2
 
-Configuration
--------------
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -105,13 +100,11 @@ Dieses Modul hat nur eine Zuordnungsgruppe, es ist wichtig
 
 ![Groupe](images/secure.ses302/groupe.jpg)
 
-Wakeup
-------
+## Wakeup
 
 Um dieses Modul zu aktivieren, drücken Sie einmal die Taste auf der Rückseite
 
-Wichtiger Hinweis
----------------
+## Wichtiger Hinweis
 
 > **Wichtig**
 >

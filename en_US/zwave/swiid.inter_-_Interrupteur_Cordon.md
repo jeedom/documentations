@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/swiid.inter/vuedefaut1.jpg)
 
-Summary
-------
+## Summary
 
 SwiidInter is the first cord switch in the Z-Wave home automation environment that is small and discreet enough to be comparable to an ordinary cord switch.
 
@@ -19,8 +18,7 @@ The SwiidInter switch also offers two-way association possibilities. Thus, it ca
 
 The SwiidInter switch is installed exactly like an ordinary cord switch : it is therefore a simple and fast installation which does not require any specialized tool. It must then be configured to integrate into a Z-Wave "network", this network can be as simple as a single remote control which controls your SwiidInter switch remotely.
 
-Fonctions
----------
+## Fonctions
 
 -   Switch on cord usable both manually (short press) and by radio remote (Z-Wave)
 -   Use as a replacement for a standard cord switch on a bedside, table, or desk lamp
@@ -30,8 +28,7 @@ Fonctions
 -   Installs like an ordinary cord switch
 -   Suitable for all types of lamp bulbs
 
-Technical characteristics
----------------------------
+## Technical characteristics
 
 -   Type of module : Z-Wave receiver
 -   Color : noire
@@ -47,8 +44,7 @@ Technical characteristics
 -   Dimensions : 84 x 32 x 29 mm
 -   EU standards : EN 61058-2-1:2011 EN 55015
 
-Module data
------------------
+## Module data
 
 -   Mark : Swiid
 -   Name : Swiidinter
@@ -56,8 +52,7 @@ Module data
 -   Product Type : 256
 -   Product ID : 256
 
-Configuration
--------------
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -114,12 +109,10 @@ This module has two association groups.
 >
 > For optimum operation of your module. Jeedom must be associated at least with group 2.
 
-Associate with another light
-----------------------------
+## Associate with another light
 
 To associate the swiidinter with another light and be able to benefit from the lighting of another light, simply add it to association group 1 via the screen cited above.
 
-Wake up
--------
+## Wake up
 
 No notion of wake up on this module.

@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/philio.psp01/vuedefaut1.jpg)
 
-Summary
-------
+## Summary
 
 The PSP01 detector offers 3 different functions : motion detection, temperature sensor and light sensor.
 
@@ -19,8 +18,7 @@ The detector can also be used in combination with a Z-Wave controller for home a
 
 The detector will also raise the brightness and the temperature, i.e. in the event of a significant change, and each time a movement is detected. A Z-Wave controller (remote control, dongle…) is necessary in order to integrate this detector into your network if you already have an existing network.
 
-Fonctions
----------
+## Fonctions
 
 -   3 in 1 detector: movement, temperature, light
 -   Adopts the recent Z-Wave 400series chip to support multi-channel operations and higher data throughput (9.6 / 40 / 100kbps)
@@ -33,8 +31,7 @@ Fonctions
 -   Small, discreet and aesthetic
 -   Ease of use and installation
 
-Technical characteristics
----------------------------
+## Technical characteristics
 
 -   Type of module : Z-Wave transmitter
 -   Food : 1 CR123A 3V battery
@@ -52,8 +49,7 @@ Technical characteristics
 -   CE standard : EN300 220-1
 -   Z-Wave certification : ZC08-13050003
 
-Module data
------------------
+## Module data
 
 -   Mark : Philio Technology Corporation
 -   Name : Philio PSP01
@@ -61,8 +57,7 @@ Module data
 -   Product Type : 2
 -   Product ID : 2
 
-Configuration
--------------
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -127,8 +122,7 @@ This module has two association groups, only the first is essential.
 
 ![Groupe](images/philio.psp01/groupe.jpg)
 
-Good to know
-------------
+## Good to know
 
 ### Specificities
 
@@ -136,19 +130,13 @@ Good to know
 >
 > This module has a particularity, not having a report based on variations but only on duration, it sends all its information on each detection. It also sends the presence detection signal several times in succession. It is therefore advisable to check the "Event on change" box on the presence if you use this command as a scenario trigger.
 
-### Alternative visual
-
-![vuewidget](images/philio.psp01/vuewidget.jpg)
-
-Wakeup
-------
+## Wakeup
 
 To wake up this module there is only one way :
 
 -   release the tamper button and press it again
 
-Important note
----------------
+## Important note
 
 > **IMPORTANT**
 >

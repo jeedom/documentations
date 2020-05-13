@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/philio.pst02c/vuedefaut1.jpg)
 
-Resumen
-------
+## Resumen
 
 El detector ZIP-PSM01 ofrece 3 funciones diferentes : detección de apertura, sensor de temperatura y detector de luz. Consta de dos partes : un detector y un imán. Están diseñados para colocarse en una puerta o ventana con el imán fijado en la parte de apertura y el detector en la parte fija.
 
@@ -19,8 +18,7 @@ El detector también aumentará el brillo y la temperatura, es decir, en caso de
 
 Es necesario un controlador Z-Wave (control remoto, dongle, etc.) para integrar este detector en su red si ya tiene una red existente.
 
-Fonctions
----------
+## Fonctions
 
 -   Detector 3 en 1: Apertura, temperatura, luz
 -   Adopta el reciente chip de la serie Z-Wave 400 para admitir operaciones multicanal y un mayor rendimiento de datos (9.6 / 40 / 100kbps)
@@ -33,8 +31,7 @@ Fonctions
 -   Pequeño, discreto y estético
 -   Facilidad de uso e instalación
 
-Características técnicas
----------------------------
+## Características técnicas
 
 -   Tipo de módulo : Transmisor de onda Z
 -   Suministro : 1 batería CR123A 3V
@@ -52,8 +49,7 @@ Características técnicas
 -   Norma CE : EN300 220-1
 -   Certificación Z-Wave : ZC08-13050003
 
-Datos del módulo
------------------
+## Datos del módulo
 
 -   Hacer : Philio Technology Corporation
 -   Nombre : PST02-C Sensor de puerta / ventana 3 en 1
@@ -61,8 +57,7 @@ Datos del módulo
 -   Tipo de producto : 2
 -   ID del producto : 14
 
-Configuration
--------------
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -129,15 +124,13 @@ Este módulo tiene dos grupos de asociación, solo el primero es esencial.
 
 ![Groupe](images/philio.pst02c/groupe.jpg)
 
-Wakeup
-------
+## Wakeup
 
 Para activar este módulo, solo hay una forma :
 
 -   suelte el botón de manipulación y presiónelo nuevamente
 
-Nota importante
----------------
+## Nota importante
 
 > **Importante**
 >

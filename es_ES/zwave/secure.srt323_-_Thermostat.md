@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/secure.srt323/vuedefaut1.jpg)
 
-Resumen
-------
+## Resumen
 
 El SRT323 es un termostato de batería montado en la pared. Tiene un botón giratorio que permite al usuario ajustar la temperatura establecida en la habitación. Este termostato incorpora un relé de control de carga. Por lo tanto, no es necesario instalar un actuador cerca de la caldera.
 
@@ -21,8 +20,7 @@ Se puede usar como un reemplazo directo para los termostatos existentes, sin ten
 
 El SRT323 es un socio ideal para usar con una puerta de enlace domótica, lo que le permite controlar de forma remota su sistema de calefacción. Ya no tendrá que preocuparse por ir a casa a una casa fría, siempre que tenga a mano un teléfono inteligente, una tableta o una PC y esté conectado a Internet.
 
-Fonctions
----------
+## Fonctions
 
 -   Termostato para aplicación doméstica
 -   Reemplaza un termostato existente
@@ -32,8 +30,7 @@ Fonctions
 -   Compatible con otros productos Z-Wave
 -   Un botón
 
-Características técnicas
----------------------------
+## Características técnicas
 
 -   Tipo de módulo : Controlador Z-Wave
 -   Algoritmo TPI integrado
@@ -47,8 +44,7 @@ Características técnicas
 -   Temperatura de funcionamiento : 0 ° C a 40 ° C
 -   Dimensiones : 86 x 86 x 36.25 mm
 
-Datos del módulo
------------------
+## Datos del módulo
 
 -   Hacer : Horstmann
 -   Nombre : SRT 323 Termostato ambiental electrónico y temperatura
@@ -56,8 +52,7 @@ Datos del módulo
 -   Tipo de producto : 1
 -   ID del producto : 4
 
-Configuration
--------------
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -109,8 +104,7 @@ Detalles del parámetro :
 Para un funcionamiento óptimo de su módulo, Jeedom debe estar asociado con los 5 grupos
 ![Groupe](images/secure.srt323/groupe.jpg)
 
-Bueno saber
-------------
+## Bueno saber
 
 ### Específicos
 
@@ -118,14 +112,12 @@ Bueno saber
 >
 > Este módulo está en batería. Por lo tanto, es importante tener en cuenta que un cambio de punto de ajuste solo se tendrá en cuenta cuando se despierte. Por defecto, el despertador es a 86400 segundos. Se recomienda reducirlo a unos 10 minutos. Por lo tanto, el módulo tendrá en cuenta un cambio de punto de ajuste como máximo después de 10 minutos
 
-Wakeup
-------
+## Wakeup
 
 Para activar este módulo, debe colocar el interruptor 1 en la posición ON y
 con la rueda, elija n y presione la rueda.
 
-Nota importante
----------------
+## Nota importante
 
 > **Importante**
 >

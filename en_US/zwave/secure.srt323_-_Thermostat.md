@@ -8,8 +8,7 @@
 
 ![vuedefaut1](images/secure.srt323/vuedefaut1.jpg)
 
-Summary
-------
+## Summary
 
 The SRT323 is a wall-mounted battery-operated thermostat. It has a rotary button allowing the user to adjust the set temperature in the room. This thermostat incorporates a charge control relay. There is therefore no need to install an actuator near the boiler.
 
@@ -21,8 +20,7 @@ It can be used as a direct replacement for existing thermostats, without having 
 
 The SRT323 is an ideal partner for use with a home automation gateway, allowing you to remotely control your heating system. You will no longer have to worry about going home to a cold house, as long as you have a smartphone, tablet or PC close at hand and connected to the internet.
 
-Fonctions
----------
+## Fonctions
 
 -   Thermostat for domestic application
 -   Replaces an existing thermostat
@@ -32,8 +30,7 @@ Fonctions
 -   Compatible with other Z-Wave products
 -   One button
 
-Technical characteristics
----------------------------
+## Technical characteristics
 
 -   Type of module : Z-Wave controller
 -   Integrated TPI algorithm
@@ -47,8 +44,7 @@ Technical characteristics
 -   Operating temperature : 0 ° C to 40 ° C
 -   Dimensions : 86 x 86 x 36.25 mm
 
-Module data
------------------
+## Module data
 
 -   Mark : Horstmann
 -   Name : SRT 323 Electronic Room Thermostat and Temperature
@@ -56,8 +52,7 @@ Module data
 -   Product Type : 1
 -   Product ID : 4
 
-Configuration
--------------
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -109,8 +104,7 @@ Parameter details :
 For optimum functioning of your module, Jeedom must be associated with the 5 groups
 ![Groupe](images/secure.srt323/groupe.jpg)
 
-Good to know
-------------
+## Good to know
 
 ### Specificities
 
@@ -118,14 +112,12 @@ Good to know
 >
 > This module is on battery. So it is important to note that a change of setpoint will only be taken into account when you wake up. By default the wake up is at 86400 seconds. It is strongly recommended to decrease it to about 10 minutes. Thus a change of setpoint will be taken into account by the module at most after 10 minutes
 
-Wakeup
-------
+## Wakeup
 
 To wake up this module you must put switch 1 in the ON position and
 with the wheel choose n and press the wheel.
 
-Important note
----------------
+## Important note
 
 > **IMPORTANT**
 >

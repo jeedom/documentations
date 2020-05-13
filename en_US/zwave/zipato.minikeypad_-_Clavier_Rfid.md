@@ -8,15 +8,13 @@
 
 ![vuedefaut1](images/zipato.minikeypad/vuedefaut1.jpg)
 
-Summary
-------
+## Summary
 
 Control your security system with this mini Zipato wall keypad !
 
 With this Z-Wave compatible RFID keypad, you will be able to easily activate or deactivate your alarm system. The "Home" and "Away" keys allow you to arm / disarm the security system and / or execute home automation scenarios quickly. In addition to using the numeric keypad, you can also pass an RFID badge in front of the keyboard to arm / disarm the system. The keyboard transmits to your home automation controller the identifier of the badge that has been recognized. You can thus easily create scenarios according to the person who used his badge.
 
-Fonctions
----------
+## Fonctions
 
 -   Code and RFID keypad
 -   Supports Z-Wave technology
@@ -27,8 +25,7 @@ Fonctions
 -   LED indicator to confirm each action
 -   Integrated buzzer for audible indication of alarm arming / disarming for example
 
-Technical characteristics
----------------------------
+## Technical characteristics
 
 -   Type : Z-Wave slave
 -   Food : 2x AA 1.5V batteries
@@ -43,8 +40,7 @@ Technical characteristics
 -   Dimensions : 62 x 62 x 20 mm
 -   Certifications : Security : UL EMC : FCC, CE RoHS
 
-Module data
------------------
+## Module data
 
 -   Mark : Zipato
 -   Name : Zipato Mini Keypad RFID
@@ -52,8 +48,7 @@ Module data
 -   Product Type : 24881
 -   Product ID : 17665
 
-Configuration
--------------
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -132,15 +127,13 @@ This allows you to add codes. You will see a table there.
 >
 > Remember to wake up the module after adding a code or badge.
 
-Examples of use
-----------------------
+## Examples of use
 
 ![exemple](images/zipato.minikeypad/exemple.jpg)
 
 The trigger is the event command, in fact it is only updated when a valid code / badge has been presented. If the value is 6 (home) we deactivate the alarm (for example), or turn on the power strip, we turn on the light depending on the brightness, we send a notification to signal that someone has returned, we launch a synhtesis voice to do a weather report for example. Otherwise (necessarily 5) we activate the alarm, we cut the power strip, we send a notification to signal that the house is empty.
 
-Good to know
-------------
+## Good to know
 
 ### Specificities
 
@@ -149,23 +142,14 @@ The keypad reads codes / badges in two ways :
 -   when you press home / away for the first 1 to 2 seconds if you start typing a code, it will read that code
 -   if nothing is done within the first 1 to 2 seconds, it goes into RFID badge reading mode (red light on). At that time he can read a badge, not before.
 
-Wakeup
-------
+## Wakeup
 
 To wake up this module there are two ways to proceed :
 
 -   press the tamper button then release after 1 to 2 seconds
 -   press Home, a random number and Enter
 
-Faq.
-------
-
-This module wakes up by pressing and releasing the tamper button. He can also wake up by pressing Home then 1 then Enter.
-
-This module is a battery module, the new configuration will be taken into account at the next wake up.
-
-Important note
----------------
+## Important note
 
 > **IMPORTANT**
 >
