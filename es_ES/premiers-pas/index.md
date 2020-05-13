@@ -76,7 +76,7 @@ Cualquiera que sea el método utilizado, llegarás a la página de inicio de ses
 
 Veremos aquí cómo vincular su Jeedom a su cuenta de Market.
 
--   Una vez conectado a su libertad, debe ir a Administración → Configuración
+-   Una vez conectado a su libertad, debe ir a **Preferencias → Sistema → Configuración**
 
 -   Click en la pestaña **Actualizaciones**
 
@@ -84,9 +84,9 @@ Veremos aquí cómo vincular su Jeedom a su cuenta de Market.
 
 -   Marca la casilla **Activar**
 
--   Remplissez l'adresse : `https://www.jeedom.com/market`
+-   Remplissez l'adresse : `https://market.jeedom.com`
 
--   También complete los campos "Nombre de usuario" y "Contraseña" de acuerdo con sus identificadores (identificadores de mercado y no Jeedom)
+-   También complete el campo **Nombre de usuario** y **Contraseña** según sus identificadores (identificadores de mercado y no Jeedom)
 
 -   Puede probar para verificar que la conexión se realizó correctamente.
 
@@ -105,7 +105,7 @@ Luego ve a la parte de "Redes""
 
 ![Réseaux](images/FirstStep_dns.jpg)
 
-Una vez aquí, solo necesita activar "Usar Jeedom DNS", luego en la línea "Administración" para hacer "Reiniciar" y su URL aparecerá en el nivel de estado HTTP, por supuesto, puede personalizarlo desde la página de perfil del mercado
+Una vez aquí, solo actívala **Usando Jeedom DNS** luego en la línea **Gestión** de hacer **Reiniciar** y su URL aparecerá en el nivel de estado HTTP, por supuesto, puede personalizarla desde la página de perfil de Market
 
 > **Importante**
 >
@@ -140,7 +140,7 @@ Nada podría ser más simple para crear un objeto :
 
 -   Jeedom te preguntará el nombre. Validar. Este es tu primer objeto creado :
 
-![Objet](images/FirstStep_object.jpg)
+![Objy](images/FirstStep_object.jpg)
 
 Para obtener más información sobre esta parte, vea *Manual de usuario -> Objeto*.
 
