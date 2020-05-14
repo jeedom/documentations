@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 14/05/2020
+
+- Correction d'un bug sur la mise à jour des commandes info suite à une action
+- Déplacement des scripts de core/ressources dans data (mise à jour importante à faire et si elle n'est pas faite pourra causer la perte de tous les scripts lors des futurs mises à jour du core)
+
 # 12/05/2020
 
 - Possibilité d'ajouter un délai de mise à jour des commandes d'information suite à une action

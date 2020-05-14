@@ -4,10 +4,6 @@
 
 ![ems200.module](images/ems200/ems200.module.jpg)
 
-**El visual de Jeedom**
-
-![ems200.vue defaut](images/ems200/ems200.vue-defaut.jpg)
-
 ## Resumen
 
 Colocado en un pasillo, la sala de estar, el garaje de su casa, por ejemplo, el sensor de movimiento detecta una presencia, el cambio de estado es instantáneo.
@@ -104,7 +100,3 @@ Una vez que su equipo esté asociado con Jeedom, habrá diversa información dis
 -   Comunicación : Indica la última comunicación registrada entre Jeedom y el módulo
 -   Batería : Indica el estado de la batería de los módulos de batería
 -   Estado : Devuelve el estado del módulo
-
-## Visual alternativo
-
-![ems200.vue alternative](images/ems200/ems200.vue-alternative.jpg)

@@ -2,7 +2,6 @@
     "edisio\/edisio.EMS-200_-_Capteur_de_mouvement.md": {
         "Edisio EMS 200": "Edisio EMS 200",
         "Le module": "Le module",
-        "Le visuel Jeedom": "Le visuel Jeedom",
         "Résumé": "Résumé",
         "Placé dans un couloir, le salon, le garage de votre maison par exemple, le capteur de mouvement détecte une présence, le changement d'état est instantané": "Placé dans un couloir, le salon, le garage de votre maison par exemple, le capteur de mouvement détecte une présence, le changement d'état est instantané",
         "Grâce à son angle de vision étendu et sa portée, il permet de sécuriser un large périmètre": "Grâce à son angle de vision étendu et sa portée, il permet de sécuriser un large périmètre",
@@ -76,8 +75,7 @@
         "Indique la dernière communication enregistrée entre Jeedom et le module": "Indique la dernière communication enregistrée entre Jeedom et le module",
         "Indique l'état de la batterie des modules à piles": "Indique l'état de la batterie des modules à piles",
         "Status": "Status",
-        "Retourne le status du module": "Retourne le status du module",
-        "Visuel alternatif": "Visuel alternatif"
+        "Retourne le status du module": "Retourne le status du module"
     },
     "edisio\/edisio.EMV-400_-_Eclairage.md": {
         "Edision EMV 400 Eclairage": "Edision EMV 400 Eclairage",

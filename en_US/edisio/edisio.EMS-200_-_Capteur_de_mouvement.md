@@ -4,10 +4,6 @@
 
 ![ems200.module](images/ems200/ems200.module.jpg)
 
-**The Jeedom visual**
-
-![ems200.vue defaut](images/ems200/ems200.vue-defaut.jpg)
-
 ## Summary
 
 Placed in a corridor, the living room, the garage of your house for example, the motion sensor detects a presence, the change of state is instantaneous.
@@ -104,7 +100,3 @@ Once your equipment is associated with Jeedom, various information will be avail
 -   Communication : Indicates the last communication recorded between Jeedom and the module
 -   Drums : Indicates the battery status of the battery modules
 -   STATUS : Returns the status of the module
-
-## Alternative visual
-
-![ems200.vue alternative](images/ems200/ems200.vue-alternative.jpg)

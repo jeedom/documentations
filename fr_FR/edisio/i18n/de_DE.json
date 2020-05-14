@@ -2,7 +2,6 @@
     "edisio\/edisio.EMS-200_-_Capteur_de_mouvement.md": {
         "Edisio EMS 200": "Edisio EMS 200",
         "Le module": "Das Modul",
-        "Le visuel Jeedom": "Das Jeedom Visual",
         "Résumé": "Zusammenfassung",
         "Placé dans un couloir, le salon, le garage de votre maison par exemple, le capteur de mouvement détecte une présence, le changement d'état est instantané": "In einem Korridor, dem Wohnzimmer, der Garage Ihres Hauses zum Beispiel, erkennt der Bewegungssensor eine Präsenz, die Zustandsänderung erfolgt augenblicklich",
         "Grâce à son angle de vision étendu et sa portée, il permet de sécuriser un large périmètre": "Dank seines weiten Betrachtungswinkels und seiner Reichweite ist es möglich, einen großen Umfang zu sichern",
@@ -59,7 +58,6 @@
         "Indique la dernière communication enregistrée entre Jeedom et le module": "Zeigt die letzte zwischen Jeedom und dem Modul aufgezeichnete Kommunikation an",
         "Indique l'état de la batterie des modules à piles": "Zeigt den Batteriestatus der Batteriemodule an",
         "Retourne le status du module": "Gibt den Status des Moduls zurück",
-        "Visuel alternatif": "Alternative visuelle",
         " Fonctions.": " Funktionen.",
         " Fonctions?": " Funktionen?",
         "Fonctions ": "Funktionen ",

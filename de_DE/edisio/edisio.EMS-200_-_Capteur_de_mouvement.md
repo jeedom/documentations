@@ -4,10 +4,6 @@
 
 ![ems200.module](images/ems200/ems200.module.jpg)
 
-**Das Jeedom Visual**
-
-![ems200.vue defaut](images/ems200/ems200.vue-defaut.jpg)
-
 ## Zusammenfassung
 
 In einem Korridor, dem Wohnzimmer, der Garage Ihres Hauses zum Beispiel, erkennt der Bewegungssensor eine Präsenz, die Zustandsänderung erfolgt augenblicklich.
@@ -104,7 +100,3 @@ Sobald Ihre Ausrüstung mit Jeedom verknüpft ist, stehen verschiedene Informati
 -   Kommunikation : Zeigt die letzte zwischen Jeedom und dem Modul aufgezeichnete Kommunikation an
 -   Batterie : Zeigt den Batteriestatus der Batteriemodule an
 -   STATUS : Gibt den Status des Moduls zurück
-
-## Alternative visuelle
-
-![ems200.vue alternative](images/ems200/ems200.vue-alternative.jpg)
