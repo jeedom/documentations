@@ -4,10 +4,6 @@
 
 ![ems200.module](images/ems200/ems200.module.jpg)
 
-**Le visuel Jeedom**
-
-![ems200.vue defaut](images/ems200/ems200.vue-defaut.jpg)
-
 ## Résumé
 
 Placé dans un couloir, le salon, le garage de votre maison par exemple, le capteur de mouvement détecte une présence, le changement d’état est instantané.
@@ -104,7 +100,3 @@ Une fois votre équipement associé à Jeedom, diverses informations seront disp
 -   Communication : Indique la dernière communication enregistrée entre Jeedom et le module
 -   Batterie : Indique l’état de la batterie des modules à piles
 -   Status : Retourne le status du module
-
-## Visuel alternatif
-
-![ems200.vue alternative](images/ems200/ems200.vue-alternative.jpg)
