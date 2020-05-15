@@ -77,6 +77,7 @@ var docMenu = [
       {link : "",icon:"fas fa-check",fr_FR:"Testeur d'expression",en_US:"Expression tester",es_ES:"Probador de expresión",de_DE:"Expressionstester",pt_PT:""},
       {link : "",icon:"fas fa-eye",fr_FR:"Variables",en_US:"Variables",es_ES:"Variables",de_DE:"Variables",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/plugin",icon:"fas fa-tags",fr_FR:"Plugins",en_US:"Plugins",es_ES:"Plugins",de_DE:"Plugins",pt_PT:"Plugins"},
+      {version : ['4.1'],link : "/#LANG#/core/#VERSION#/search",icon:"fas fa-search",fr_FR:"Recherche",en_US:"Search",es_ES:"Search",de_DE:"Search",pt_PT:""},
       {link:"/#LANG#/mobile/index",icon:"fas fa-mobile",fr_FR:"Version mobile",en_US:"Mobile version",es_ES:"Versión móvil",de_DE:"Mobile Version",pt_PT:""},
       {link:"/#LANG#/core/#VERSION#/faq",icon:"fas fa-question-circle",fr_FR:"FAQ",en_US:"FAQ",es_ES:"FAQ",de_DE:"FAQ",pt_PT:"FAQ"}
     ]
@@ -278,7 +279,7 @@ $(function(){
   $('.parallax').parallax();
   $('.dropdown-trigger').dropdown();
   $('.collapsible').collapsible();
-  
+
   $('#div_summary').empty().append('<ul></ul>');
   var i=0;
   $('#div_content h1,h2').each(function(){
@@ -293,22 +294,22 @@ $(function(){
     i++;
   });
   $('.scrollspy').scrollSpy();
-  
+
   setTimeout(function() {
     $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10})
   }, 100);
-  
+
   $('#sel_lang').on('change',function(){
     setCookie('lang',$(this).val(),7)
     var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
     window.location.href = url;
   })
-  
+
   $('#sel_theme').on('change',function(){
     setCookie('theme',$(this).val(),7)
     setTheme();
   })
-  
+
   $('#sel_jeedomVersion').on('change',function(){
     setCookie('jeedomVersion',$(this).val(),7)
     var url = window.location.href;
@@ -318,7 +319,7 @@ $(function(){
     }
     window.location.reload();
   })
-  
+
   $('select').formSelect();
   $('#div_content :not(td)>img').addClass('responsive-img')
   cookiesPolicyBar();
