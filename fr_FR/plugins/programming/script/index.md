@@ -2,59 +2,57 @@
 
 Plugin permettant d’exécuter des scripts (shell, php, ruby…), des requêtes http, de récupérer des informations dans du XML ou JSON.
 
-# Configuration du plugin 
+# Configuration du plugin
 
 La configuration est très simple, après téléchargement du plugin, il vous suffit de l’activer et c’est tout.
 
-![script1](./images/script1.PNG)
+![script1](./images/script1.png)
 
-La seule option est l’endroit où jeedom met les scripts par défaut, il est conseillé de ne pas y toucher.
+La seule option est l’endroit où Jeedom met les scripts par défaut, il est conseillé de ne pas y toucher.
 
-# Configuration des équipements 
+# Configuration des équipements
 
-La configuration des équipements Script est accessible à partir du menu plugin :
+La configuration des équipements Script est accessible à partir du menu plugin/Programmation
 
-![script2](./images/script2.PNG)
+Voilà à quoi ressemble la page du plugin Script (ici avec déjà un équipement) :
 
-Voilà à quoi ressemble la page du plugin Script (ici avec déjà 1 équipement) :
-
-![script3](./images/script3.PNG)
+![script2](./images/script2.png)
 
 Vous retrouvez ici la liste de vos Scripts. Une fois que vous cliquez sur un équipement vous obtenez :
 
-![script4](./images/script4.PNG)
+![script3](./images/script3.png)
 
 Vous retrouvez ici toute la configuration de votre équipement :
 
--   **Nom de l’équipement script** : nom de votre équipement script
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à plusieurs catégories)
--   **Activer** : permet de rendre votre équipement actif
--   **Visible** : le rend visible sur le dashboard
--   **Objet parent** : indique l’objet parent auquel appartient l’équipement
--   **Auto-actualisation** : permet de spécifier un cron d’actualisation automatique pour toutes les commandes de type info.
+- **Nom de l’équipement script** : nom de votre équipement script
+- **Catégorie** : les catégories de l’équipement (il peut appartenir à plusieurs catégories)
+- **Activer** : permet de rendre votre équipement actif
+- **Visible** : le rend visible sur le dashboard
+- **Objet parent** : indique l’objet parent auquel appartient l’équipement
+- **Auto-actualisation** : permet de spécifier un cron d’actualisation automatique pour toutes les commandes de type info.
+- **Délai avant d'actualiser les infos suite à une action**
 
-En dessous vous retrouvez la liste des commandes :
+![script4](./images/script4.png)
+Vous retrouvez ici la liste des commandes :
 
 -   **Nom** : Ce champ contient le nom que vous souhaitez donner à votre commande/information.
 -   **Icône** : Ce champ permet d’associer une icône à votre nom (dans ce cas Jeedom remplace le nom par l’icône dans le dashboard).
 -   **Type de script** :
-    -   Le type http : permet d’envoyer une requête vers un équipement externe sans forcément attendre un retour de cette commande.L’exemple qui servira de support au type http sera la configuration d’une requête vers une Vera pour allumer une lumière.
-    -   Le type script : sert principalement à lancer des scripts internes à Jeedom. L’exemple qui servira de support au type script sera la configuration du script de monitoring température du raspberry disponible sur le market.
-    -   Le type XML : permet de rapatrier des informations encodées en XML depuis un équipement distant. L’exemple qui servira de support au type XML sera la configuration du script pour interroger un Eco-Device.
-    -   Le type JSON : permet de rapatrier des informations encodées en JSON depuis un équipement distant. L’exemple qui servira de support au type JSON sera la configuration du script pour interroger Sickbeard (ou XBMC).
+    -   Le type **http** : permet d’envoyer une requête vers un équipement externe sans forcément attendre un retour de cette commande. L’exemple qui servira de support au type http sera la configuration d’une requête vers une Vera pour allumer une lumière.
+    -   Le type **script** : sert principalement à lancer des scripts internes à Jeedom. L’exemple qui servira de support au type script sera la configuration du script de monitoring température du raspberry.
+    -   Le type **XML** : permet de rapatrier des informations encodées en XML depuis un équipement distant. L’exemple qui servira de support au type XML sera la configuration du script pour interroger un Eco-Device.
+    -   Le type **JSON** : permet de rapatrier des informations encodées en JSON depuis un équipement distant. L’exemple qui servira de support au type JSON sera la configuration du script pour interroger Sickbeard (ou XBMC).
 -   **le type** et le **sous-type**
 -   Le champ **requête**
     -   Ce champ doit contenir la requête en elle-même, ou le chemin du script si le champ "type de script" est script. Le bouton "parcourir" : permet de sélectionner le fichier contenu dans le dossier interne à Jeedom.
-        > **Tip**
-        >
-        > Ce dossier est accessible en SSH dans ``/var/www/html/plugins/script/core/ressources/``. Pour info, la commande SSH pour attribuer les droits ``www-data`` à un fichier est : ``sudo chown www-data:www-data NOMDUSCRIPT.EXTENSION``. A savoir que pour exécuter un script, celui-ci doit avoir les droits www-data.
+
+        > Ce dossier est accessible en SSH dans ``/var/www/html/plugins/script/data/``. Pour info, la commande SSH pour attribuer les droits ``www-data`` à un fichier est : ``sudo chown www-data:www-data NOMDUSCRIPT.EXTENSION``. A savoir que pour exécuter un script, celui-ci doit avoir les droits www-data.
+
     -   Le bouton **Editer** : permet d’éditer à l’aide d’un éditeur de code interne un des fichiers contenus dans le répertoire permettant l’accès au code du fichier.
     -   Le bouton **Nouveau** : permet de créer un fichier de commande.
-        > **Tip**
-        >
+
         > Ne pas oublier de saisir le nom du fichier ainsi que son extension complète sous peine de voir votre superbe script ne pas fonctionner. Sans extension Jeedom ne saura pas reconnaiître le langage associé à votre fichier. CF : Généralité
     -   Le bouton **Supprimer** : permet de supprimer un fichier de commande.
-    -   Le bouton **Partager** : un des plus importants, et après avoir validé les CGU développeurs dans votre profil sur le market, permet de partager votre création avec la communauté.
 -   Le champ **Options** : Champ aux options variables suivant le choix du type de script.
 -   **unité** : unité de la donnée (peut être vide).
 -   **min/max** : bornes de la donnée (peuvent être vides).
@@ -66,49 +64,49 @@ En dessous vous retrouvez la liste des commandes :
 
 > **Important**
 >
-> Il faut eviter,autant que possible, dans le chemin du script ou dans les parametres de celui-ci les caractères spéciaux. Les caractères autorisés étant : les chiffres, les lettres (majuscule ou minuscule)
+> Il faut éviter, autant que possible, dans le chemin du script ou dans les paramètres de celui-ci les caractères spéciaux. Les caractères autorisés étant : les chiffres, les lettres (majuscule ou minuscule)
 
-![script5](./images/script5.PNG)
+![script5](./images/script5.png)
 
-Permet d’appeller une url ou de récupérer le retour d’une URL.
+Permet d’appeler une url ou de récupérer le retour d’une URL.
 
 -   une case à cocher "Ne pas vérifier SSL" : si cochée, permet à Jeedom de ne pas envoyer les champs "Utilisateur" et "Mot de passe" à la requête. Jeedom ne cherchera pas à s’identifier au site/machine distant.
--   une case à cocher "Autoriser réponse vide" : si cochée, permet à Jeedom de ne pas attendre de réponse, ou d’ignorer toute réponse à la trame émise. En général, on coche si Jeedom nous renvoit un "Curl error : Empty reply from server".
+-   une case à cocher "Autoriser réponse vide" : si cochée, permet à Jeedom de ne pas attendre de réponse, ou d’ignorer toute réponse à la trame émise. En général, on coche si Jeedom nous renvoi un "Curl error : Empty reply from server".
 -   une case à cocher "Ne jamais remonter les erreurs" : permet de ne pas remonter d’alerte en cas d’erreur.
 -   un champ "timeout" : sans être renseigné, le timeout de la requête vaut par défaut 2 secondes, sinon il vaut la valeur renseignée.
 -   un champ "Essais au maximum" : 4 essais au maximum par défaut.
 -   un champ "Utilisateur" : pour renseigner un nom d’utilisateur.
 -   un champ "Mot de passe" : pour renseigner un mot de passe.
 
-# Le choix HTML 
+# Le choix HTML
 
-![script8](./images/script8.PNG)
+![script HTML](./images/script_html.png)
 
-Permet de parser une page Web (fichier HTML) pour récupérer une valeur dessus. La syntaxe est la même que pour jquery.
+Permet de passer une page Web (fichier HTML) pour récupérer une valeur dessus. La syntaxe est la même que pour jQuery.
 
 Le champ option possède un champ "URL du fichier HTML" : ce champ contient donc le lien vers la machine hébergeant le fichier HTML en question.
 
-# Le choix XML 
+# Le choix XML
 
-![script6](./images/script6.PNG)
+![script XML](./images/script_xml.png)
 
-Permet de récupérer du xml et d’aller chercher spécifiquement une valeur dedans.
+Permet de récupérer du XML et d’aller chercher spécifiquement une valeur dedans.
 
 Le champ option possède un champ "URL du fichier XML" : ce champ contient donc le lien vers la machine hébergeant le fichier XML en question.
 
 > **Important**
 >
-> Il n’est possible de récupérer que des valeurs, les attributs ne peuvent être récuperés.
+> Il n’est possible de récupérer que des valeurs, les attributs ne peuvent être récupérés.
 
-# Le choix JSON 
+# Le choix JSON
 
-![script7](./images/script7.PNG)
+![script JSON](./images/script_json.PNG)
 
-Permet de récupérer du json et d’aller chercher spécifiquement une valeur dedans.
+Permet de récupérer du JSON et d’aller chercher spécifiquement une valeur dedans.
 
 Le champ option possède un champ "URL du fichier JSON" : ce champ contient donc le lien vers la machine hébergeant le fichier JSON en question.
 
-# Exemple HTTP : Pilotage d’une Vera 
+# Exemple HTTP : Pilotage d’une Vera
 
 L’exemple est basé sur une Vera et consiste à piloter une ampoule dimmable. Je ne vais pas m’étendre sur la manière de piloter une Vera par requête http, le forum TLD est rempli de réponses. De plus, l’exemple correspond à mon type de matériel et devra être adapté au vôtre.
 
@@ -156,7 +154,7 @@ http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&
 >
 > Si votre commande est de type message vous pouvez utiliser les tags \#message\# et \#title\#, idem pour une commande de type couleur avec le tag \#color\#, ou de type slider avec #slider# ou liste avec #select#
 
-# Exemple HTTP : Envoyer une notification à XBMC 
+# Exemple HTTP : Envoyer une notification à XBMC
 
 But : Envoyer une notification vers XBMC lors de l’ouverture d’une porte d’entrée.
 
@@ -185,19 +183,19 @@ Testez sur un scénario *\[EXTERIEUR\]\[EXTERIEUR\]\[TEMPERATURE\]* &lt; 15 par 
 
 Action : Lancez le script, via un équipement virtuel, lié à votre script !
 
-# Exemple SCRIPT 
+# Exemple SCRIPT
 
 Le plus sympa mais pas le plus simple à expliquer.
 
-Pré-requis : savoir développer un script en php, python ou ruby.
+Prérequis : savoir développer un script en php, python ou ruby.
 
 >**IMPORTANT**
 >
-> L'extension de votre script doit absolument correspondre à son type. Ex .php pour un type php. En effet Jeedom se base sur l'extension du script pour l'executable à lancer (php si .php, python si .py....)
+> L'extension de votre script doit absolument correspondre à son type. Ex .php pour un type php. En effet Jeedom se base sur l'extension du script pour l'exécutable à lancer (php si .php, python si .py....)
 
 Le script de monitoring température du Raspberry va servir d’exemple pour l’utilisation du type de script : Script
 
-Après avoir téléchargé le script depuis le market, le bouton "Parcourir" vous permet de sélectionner le fichier temp\_rasp.php.
+Après avoir téléchargé le script, le bouton "Parcourir" vous permet de sélectionner le fichier temp\_rasp.php.
 
 Par curiosité, vous pouvez aller voir le contenu du fichier en appuyant sur le bouton "Editer", vous devriez obtenir le code suivant :
 
@@ -214,13 +212,13 @@ Ceci est un script php qui peut tout à fait être réutilisé hors Jeedom !
 
 Note : concrètement, c’est la fonction php "echo" qui va donner la valeur à Jeedom
 
-## Les paramètres 
+## Les paramètres
 
 Récupérer les infos de Jeedom pour les exploiter dans un script. La récupération dépend du type de script utilisé :
 
--   Dans la ligne : ``/usr/share/nginx/www/jeedom/plugins/script/core/ressources/MON\_SCRIPT\_PHP.php`` list , l’argument "list" est une chaîne de caractères (fixe) récupérée dans le script php grâce à la fonction suivante \$argv\[1\] cf : Google pour plus de détails sur la récupération de paramètres en PHP.
--   Nous avons vu précédement qu’il était possible de récupérer des valeurs dynamiques à partir de Jeedom.
--   Dans la ligne : ``/usr/share/nginx/www/jeedom/plugins/script/core/ressources/radio.py`` VOL *slider* , l’argument "*slider*" est récupéré de cette façon argv\[2\]. Au moment de l’exécution du script par jeedom, il remplacera automatiquement *slider* par la valeur (numérique) du slider. cf : Google pour plus de détails sur la récupération de paramètres en Python.
+-   Dans la ligne : ``/usr/share/nginx/www/jeedom/plugins/script/data/MON\_SCRIPT\_PHP.php`` list , l’argument "list" est une chaîne de caractères (fixe) récupérée dans le script php grâce à la fonction suivante \$argv\[1\] cf : Google pour plus de détails sur la récupération de paramètres en PHP.
+-   Nous avons vu précédemment qu’il était possible de récupérer des valeurs dynamiques à partir de Jeedom.
+-   Dans la ligne : ``/usr/share/nginx/www/jeedom/plugins/script/data/radio.py`` VOL *slider* , l’argument "*slider*" est récupéré de cette façon argv\[2\]. Au moment de l’exécution du script par jeedom, il remplacera automatiquement *slider* par la valeur (numérique) du slider. cf : Google pour plus de détails sur la récupération de paramètres en Python.
 
 -   Plus fort : Potentiellement, toutes les variables accessibles par Jeedom sont exploitables par le plugin script :
     -   Vous voulez récupérer la valeur de la température de la cuisine pour l’historiser en dehors de Jeedom ?
@@ -239,9 +237,9 @@ if (isset($argv)) {
 }
 ````
 
-# Exemple XML simple 
+# Exemple XML simple
 
-Voici la format du xml type :
+Voici la format du XML type :
 
 ````
 <root>
@@ -256,7 +254,7 @@ Si vous voulez la valeur de la led0 dans requête vous mettez led0. Si vous voul
 
 Notez que l’élément racine &lt;root&gt; n’est pas à préciser dans le champ requête.
 
-# Exemple XML complexe 
+# Exemple XML complexe
 
 ````
  <root>
@@ -274,7 +272,7 @@ la syntaxe est :
 
 leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de rang du tableau !
 
-# Exemple XML plus complexe 
+# Exemple XML plus complexe
 
 ````
 <AKT_Data ID="SMS-Liste" ZeitSt="01.05.2017 18:55">
@@ -314,7 +312,7 @@ leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de rang du
 </AKT_Data>
 ````
 
-Pour recuperer l’information du champ Wert du 1er bloc:
+Pour récuperer l’information du champ Wert du 1er bloc:
 
 ``MesPar>0>Wert>0 qui retourne donc "268.56 "``
 
@@ -324,9 +322,9 @@ Pour retourner l’élément suivant dans la "structure" Wert, il faut simplemen
 
 Pour passer au bloc "MesPar" suivant, il faut donc changer l’index en conséquence : le 1 par 2, par exemple.
 
-ATENTION : Si dans le fichier XML l’ordre change, la requête ne fonctionne plus. Il faudra réadapter la requete en fonction de l’ordre retourné.
+ATTENTION : Si dans le fichier XML l’ordre change, la requête ne fonctionne plus. Il faudra réadapter la requête en fonction de l’ordre retourné.
 
-# Exemple JSON 
+# Exemple JSON
 
 A l’instar du type XML, il est possible de lire des informations issues d’un retour JSON.
 
@@ -402,23 +400,23 @@ Inconvénients :
 -   cette méthode ne permet que de récupérer un seul élément à la fois.
 -   Si on désire retourner l’ensemble des valeurs de "show\_name", ce n’est malheureusement pas possible, il faudra dupliquer le script autant de fois que nécessaire.
 
-# Exemple HTML 
+# Exemple HTML
 
 Ici nous allons essayer de récupérer la dernière VDM.
 
-Tout d’adord il faut configurer l’url :
+Tout d’abord il faut configurer l’url :
 
 ``http://www.viedemerde.fr``
 
 Ensuite il faut trouver le "chemin" de la dernière VDM. Pour ce faire, il faut aller sur le site puis faire clic droit sur l’élément voulu puis inspecter l’élément, on obtient :
 
-![script9](./images/script9.PNG)
+![script6](./images/script6.png)
 
 Là c’est la partie la plus complexe et qui demande un peu d’analyse. Ici mon texte est dans une balise "a" qui est lui dans un élément de type p qui est une div de class "post article". Il faut donc que je sélectionne le premier élément div de class "post" et "article" puis le premier élément p et que je récupère tout ce qui est dans les balises "a" qu’il contient. J’ai donc : "div.post.article:first p:first a".
 
 On obtient donc :
 
-![script10](./images/script10.PNG)
+![script10](./images/script7.png)
 
 Pour une actualisation en temps réel, il est possible de mettre un cron de mise à jour.
 
