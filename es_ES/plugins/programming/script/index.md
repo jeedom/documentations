@@ -2,59 +2,57 @@
 
 Complemento que permite ejecutar scripts (shell, php, ruby ...), solicitudes http, para recuperar información en XML o JSON.
 
-# Configuración del plugin 
+# Configuración del plugin
 
 La configuración es muy simple, después de descargar el complemento, solo necesita activarlo y listo.
 
-![script1](./images/script1.PNG)
+![Guión1](./images/script1.png)
 
 La única opción es donde jeedom pone los scripts por defecto, se recomienda no tocarlos.
 
-# Configuración del equipo 
+# Configuración del equipo
 
-Se puede acceder a la configuración del equipo Script desde el menú de complementos :
+Se puede acceder a la configuración del equipo Script desde el menú de complementos / Programación
 
-![script2](./images/script2.PNG)
+Así es como se ve la página del complemento Script (aquí ya con el equipo) :
 
-Así es como se ve la página del complemento de Script (aquí con 1 dispositivo ya) :
-
-![script3](./images/script3.PNG)
+![Guión2](./images/script2.png)
 
 Aquí está la lista de sus guiones. Una vez que haces clic en un equipo, obtienes :
 
-![script4](./images/script4.PNG)
+![Guión3](./images/script3.png)
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nombre de l'équipement script** : nombre de su equipo de script
--   **Categoría** : categorías de equipos (puede pertenecer a varias categorías)
--   **Activar** : activa su equipo
--   **Visible** : lo hace visible en el tablero
--   **Objeto padre** : indica el objeto padre al que pertenece el equipo
--   **Autorrealización** : permite especificar un cron de actualización automática para todos los comandos de tipo de información.
+- **Nombre de l'équipement Guión** : nombre de su equipo de script
+- **Categoría** : categorías de equipos (puede pertenecer a varias categorías)
+- **Activar** : activa su equipo
+- **Visible** : lo hace visible en el tablero
+- **Objeto padre** : indica el objeto padre al que pertenece el equipo
+- **Autorrealización** : permite especificar un cron de actualización automática para todos los comandos de tipo de información.
+- **Demora antes de actualizar la información después de una acción**
 
-A continuación encontrará la lista de pedidos :
+![Guión4](./images/script4.png)
+Aquí encontrarás la lista de pedidos :
 
 -   **Nombre** : Este campo contiene el nombre que desea dar a su pedido / información.
 -   **Icono** : Este campo le permite asociar un icono con su nombre (en este caso, Jeedom reemplaza el nombre con el icono en el tablero).
--   **Tipo de script** :
-    -   El tipo http : permite enviar una solicitud a un dispositivo externo sin esperar necesariamente la devolución de este comando.El ejemplo que servirá como soporte para el tipo http será la configuración de una solicitud a un Vera para encender una luz.
-    -   El tipo de script : se usa principalmente para ejecutar scripts internos de Jeedom. El ejemplo que servirá como soporte para el tipo de script será la configuración del script de monitoreo de temperatura de frambuesa disponible en el mercado.
-    -   Tipo XML : permite recuperar información codificada en XML desde un dispositivo remoto. El ejemplo que servirá como soporte para el tipo XML será la configuración del script para consultar un Eco-Device.
-    -   El tipo JSON : permite recuperar información codificada en JSON desde un dispositivo remoto. El ejemplo que servirá de soporte para el tipo JSON será la configuración del script para consultar Sickbeard (o XBMC).
+-   **Tipo de Guión** :
+    -   El tipo **Http** : permite enviar una solicitud a un dispositivo externo sin esperar necesariamente la devolución de este comando. El ejemplo que servirá como soporte para el tipo http será la configuración de una solicitud a un Vera para encender una luz.
+    -   El tipo **Guión** : se usa principalmente para ejecutar scripts internos de Jeedom. El ejemplo que servirá como soporte para el tipo de script será la configuración del script de monitoreo de temperatura de la frambuesa.
+    -   El tipo **XML** : permite recuperar información codificada en XML desde un dispositivo remoto. El ejemplo que servirá como soporte para el tipo XML será la configuración del script para consultar un Eco-Device.
+    -   El tipo **JSON** : permite recuperar información codificada en JSON desde un dispositivo remoto. El ejemplo que servirá de soporte para el tipo JSON será la configuración del script para consultar Sickbeard (o XBMC).
 -   **el tipo** y el **Sub-tipo**
 -   El campo **Petición**
     -   Este campo debe contener la consulta o la ruta del script si el campo "tipo de script" es script. El botón "navegar"" : le permite seleccionar el archivo contenido en la carpeta interna de Jeedom.
-        > **Punta**
-        >
-        > Este archivo es accesible en SSH en ``/var/www/html/plugins/script/core/ressources/``. FYI, el comando SSH para asignar derechos ``www-data`` a un archivo es : ``sudo chown www-data:www-data NOMDUSCRIPT.EXTENSION``. Tenga en cuenta que para ejecutar un script, debe tener derechos de www-data.
+
+        > Este archivo es accesible en SSH en ``/var/www/html/plugins/script/data/``. FYI, el comando SSH para asignar derechos ``www-data`` a un archivo es : ``sudo chown www-data:www-data NOMDUSCRIPT.EXTENSION``. Tenga en cuenta que para ejecutar un script, debe tener derechos de www-data.
+
     -   El botón **Editar** : le permite editar usando un editor de código interno uno de los archivos contenidos en el directorio que le permite acceder al código del archivo.
     -   El botón **Nuevo** : permite crear un archivo de comando.
-        > **Punta**
-        >
+
         > No olvide ingresar el nombre del archivo y su extensión completa, de lo contrario su excelente script no funcionará. Sin extensión, Jeedom no podrá reconocer el idioma asociado con su archivo. CF : Generalidad
     -   El botón **Borrar** : permite eliminar un archivo de comando.
-    -   El botón **Compartir, repartir** : uno de los más importantes, y después de validar los T&C del desarrollador en su perfil en el mercado, le permite compartir su creación con la comunidad.
 -   El campo **Opciones** : Campo con opciones variables según la elección del tipo de script.
 -   **Unidad** : unidad de datos (puede estar vacía).
 -   **min / max** : límites de datos (pueden estar vacíos).
@@ -66,11 +64,11 @@ A continuación encontrará la lista de pedidos :
 
 > **Importante**
 >
-> Evite, tanto como sea posible, en la ruta del script o en sus parámetros caracteres especiales. Los caracteres permitidos son : números, letras (mayúsculas o minúsculas)
+> Se deben evitar los caracteres especiales en la ruta del script o en sus parámetros tanto como sea posible. Los caracteres permitidos son : números, letras (mayúsculas o minúsculas)
 
-![script5](./images/script5.PNG)
+![Guión5](./images/script5.png)
 
-Le permite llamar a una url o recuperar el retorno de una URL.
+Se usa para llamar a una URL o recuperar el retorno de una URL.
 
 -   una casilla de verificación "No marque SSL" : si está marcada, permite que Jeedom no envíe los campos "Usuario" y "Contraseña" cuando se le solicite. Jeedom no buscará identificarse con el sitio / máquina remota.
 -   una casilla de verificación "Permitir respuesta en blanco" : si está marcado, permite a Jeedom no esperar una respuesta o ignorar cualquier respuesta a la trama transmitida. En general, verificamos si Jeedom devuelve un "error de curvatura" : Respuesta vacía del servidor".
@@ -80,17 +78,17 @@ Le permite llamar a una url o recuperar el retorno de una URL.
 -   un campo "Usuario"" : para ingresar un nombre de usuario.
 -   un campo "Contraseña"" : para ingresar una contraseña.
 
-# La elección de HTML 
+# La elección de HTML
 
-![script8](./images/script8.PNG)
+![Guión HTML](./images/script_html.png)
 
-Analiza una página web (archivo HTML) para recuperar un valor anterior. La sintaxis es la misma que para jquery.
+Le permite pasar una página web (archivo HTML) para recuperar un valor anterior. La sintaxis es la misma que para jquery.
 
 El campo de opción tiene un campo "URL de archivo HTML"" : Por lo tanto, este campo contiene el enlace a la máquina que aloja el archivo HTML en cuestión.
 
-# La elección XML 
+# La elección XML
 
-![script6](./images/script6.PNG)
+![Guión XML](./images/script_xml.png)
 
 Le permite recuperar xml y buscar específicamente un valor en él.
 
@@ -100,15 +98,15 @@ El campo de opción tiene un campo "URL del archivo XML"" : este campo contiene 
 >
 > Solo se pueden recuperar los valores, no se pueden recuperar los atributos.
 
-# La elección de JSON 
+# La elección de JSON
 
-![script7](./images/script7.PNG)
+![Guión JSON](./images/script_json.PNG)
 
 Permite recuperar json y buscar específicamente un valor en él.
 
 El campo de opción tiene un campo "URL de archivo JSON"" : este campo, por lo tanto, contiene el enlace a la máquina que aloja el archivo JSON en cuestión.
 
-# Ejemplo HTTP : Pilotando una Vera 
+# Ejemplo HTTP : Pilotando una Vera
 
 El ejemplo se basa en una Vera y consiste en conducir una bombilla regulable. No me detendré en cómo controlar una Vera por solicitud http, el foro de TLD está lleno de respuestas. Además, el ejemplo corresponde a mi tipo de material y tendrá que adaptarse al suyo.
 
@@ -156,7 +154,7 @@ http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&
 >
 > Si su orden es del tipo de mensaje, puede usar las etiquetas \#message\# y \#title\#, lo mismo para un orden de color con la etiqueta \#color\#, o tipo deslizante con #slider# o lista con #select#
 
-# Ejemplo HTTP : Enviar notificación a XBMC 
+# Ejemplo HTTP : Enviar notificación a XBMC
 
 Objetivo : Enviar una notificación a XBMC al abrir una puerta principal.
 
@@ -185,11 +183,11 @@ Prueba en un escenario *\ [FUERA \] \ [FUERA \] \ [TEMPERATURA \]* &lt; 15 par e
 
 Acción : Inicie el script, a través de un equipo virtual, vinculado a su script !
 
-# Ejemplo SCRIPT 
+# Ejemplo SCRIPT
 
 El más bonito pero no el más fácil de explicar.
 
-Requisitos previos : saber desarrollar un script en php, python o ruby.
+Prerrequisitos : saber desarrollar un script en php, python o ruby.
 
 >**Importante**
 >
@@ -197,7 +195,7 @@ Requisitos previos : saber desarrollar un script en php, python o ruby.
 
 El script de monitoreo de temperatura de Raspberry servirá como un ejemplo para usar el tipo de script : Script
 
-Después de descargar el script del mercado, el botón "Examinar" le permite seleccionar el archivo temp\_rasp.php.
+Después de descargar el script, el botón "Examinar" le permite seleccionar el archivo temp\_rasp.php.
 
 Por curiosidad, puede ir y ver el contenido del archivo presionando el botón "Editar", debe obtener el siguiente código :
 
@@ -214,13 +212,13 @@ Este es un script php que se puede reutilizar fuera de Jeedom !
 
 Nota : concretamente, es la función php "echo" la que le dará el valor a Jeedom
 
-## Los parámetros 
+## Los parámetros
 
 Obtenga la información de Jeedom para usarla en un script. La recuperación depende del tipo de script utilizado :
 
--   En la linea : ``/usr/share/nginx/www/jeedom/plugins/script/core/ressources/MON\_SCRIPT\_PHP.php`` list, el argumento "list" es una cadena de caracteres (fija) recuperada en el script php usando la siguiente función \ $ argv \ [1 \] cf : Google para más detalles sobre la recuperación de configuraciones en PHP.
+-   En la linea : ``/usr/share/nginx/www/jeedom/plugins/script/data/MON\_SCRIPT\_PHP.php`` list, el argumento "list" es una cadena de caracteres (fija) recuperada en el script php usando la siguiente función \ $ argv \ [1 \] cf : Google para más detalles sobre la recuperación de configuraciones en PHP.
 -   Vimos anteriormente que era posible recuperar valores dinámicos de Jeedom.
--   En la linea : ``/usr/share/nginx/www/jeedom/plugins/script/core/ressources/radio.py`` VUELO *deslizador* , el argumento "*deslizador*" se recupera de esta manera argv \ [2 \]. Cuando el script es ejecutado por jeedom, reemplazará automáticamente *deslizador* por el valor (numérico) del control deslizante. CF : Google para más detalles sobre la recuperación de configuraciones en Python.
+-   En la linea : ``/usr/share/nginx/www/jeedom/plugins/script/data/radio.py`` VUELO *deslizador* , el argumento "*deslizador*" se recupera de esta manera argv \ [2 \]. Cuando el script es ejecutado por jeedom, reemplazará automáticamente *deslizador* por el valor (numérico) del control deslizante. CF : Google para más detalles sobre la recuperación de configuraciones en Python.
 
 -   Más fuerte : Potencialmente, todas las variables accesibles por Jeedom pueden ser utilizadas por el complemento de script :
     -   Desea recuperar el valor de la temperatura de la cocina para almacenarla fuera de Jeedom ?
@@ -239,7 +237,7 @@ if (isset($argv)) {
 }
 ````
 
-# Ejemplo XML simple 
+# Ejemplo XML simple
 
 Aquí está el formato del xml estándar :
 
@@ -256,7 +254,7 @@ Si desea el valor de led0 en la consulta, coloque led0. Si vous voulez la valeur
 
 Notez que l'élément racine &lt;root&gt; n'est pas à préciser dans le champ Petición.
 
-# Ejemplo complejo de XML 
+# Ejemplo complejo de XML
 
 ````
  <root>
@@ -274,7 +272,7 @@ La sintaxis es :
 
 leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de rang du tableau !
 
-# Ejemplo XML más complejo 
+# Ejemplo XML más complejo
 
 ````
 <AKT_Data ID="SMS-Liste" ZeitSt="01.05.2017 18:55">
@@ -324,9 +322,9 @@ Para devolver el siguiente elemento en la "estructura" de Wert, solo tiene que i
 
 Para pasar al siguiente bloque "MyPar", debe cambiar el índice en consecuencia : el 1 por 2, por ejemplo.
 
-ATENCIÓN : Si el orden cambia en el archivo XML, la solicitud ya no funciona. Será necesario reajustar la solicitud de acuerdo con el pedido devuelto.
+Atención : Si el orden cambia en el archivo XML, la solicitud ya no funciona. Será necesario reajustar la solicitud de acuerdo con el pedido devuelto.
 
-# Ejemplo JSON 
+# Ejemplo JSON
 
 Al igual que el tipo XML, es posible leer información de un retorno JSON.
 
@@ -402,23 +400,23 @@ Desventajas :
 -   este método solo permite recuperar un elemento a la vez.
 -   Si desea devolver todos los valores de "show\_name", lamentablemente esto no es posible, tendrá que duplicar el script tantas veces como sea necesario.
 
-# Ejemplo HTML 
+# Ejemplo HTML
 
 Aquí intentaremos recuperar el último FML.
 
-Primero que nada tienes que configurar la url :
+Primero necesitas configurar la url :
 
 ``http://www.viedemerde.fr``
 
 Entonces tienes que encontrar el "camino" de la última FML. Para hacer esto, vaya al sitio, luego haga clic derecho en el elemento deseado y luego inspeccione el elemento, obtendrá :
 
-![script9](./images/script9.PNG)
+![Guión6](./images/script6.png)
 
 Esta es la parte más compleja y requiere un pequeño análisis. Aquí mi texto está en una etiqueta "a" que está en un elemento de tipo p que es un artículo de publicación de clase div "". Así que tengo que seleccionar el primer elemento div de la clase "post" y "article", luego el primer elemento p y obtengo todo en las etiquetas "a" que contiene. Entonces tengo : "div.post.article:primero p:primero un".
 
 Entonces obtenemos :
 
-![script10](./images/script10.PNG)
+![Guión10](./images/script7.png)
 
 Para una actualización en tiempo real, es posible poner una actualización cron.
 

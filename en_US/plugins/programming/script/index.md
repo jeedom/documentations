@@ -2,59 +2,57 @@
 
 Plugin allowing to execute scripts (shell, php, ruby…), http requests, to retrieve information in XML or JSON.
 
-# Plugin configuration 
+# Plugin configuration
 
 The configuration is very simple, after downloading the plugin, you just need to activate it and that's it.
 
-![script1](./images/script1.PNG)
+![script1](./images/script1.png)
 
 The only option is where jeedom puts the scripts by default, it is advised not to touch them.
 
-# Equipment configuration 
+# Equipment configuration
 
-Configuration of Script equipment is accessible from the plugin menu :
+The configuration of Script equipment is accessible from the plugin / Programming menu
 
-![script2](./images/script2.PNG)
+This is what the Script plugin page looks like (here already with equipment) :
 
-This is what the Script plugin page looks like (here with 1 device already) :
-
-![script3](./images/script3.PNG)
+![script2](./images/script2.png)
 
 Here is the list of your Scripts. Once you click on a piece of equipment you get :
 
-![script4](./images/script4.PNG)
+![script3](./images/script3.png)
 
 Here you find all the configuration of your equipment :
 
--   **Name de l'équipement script** : name of your script equipment
--   **Category** : equipment categories (it can belong to several categories)
--   **Activate** : makes your equipment active
--   **Visible** : makes it visible on the dashboard
--   **Parent object** : indicates the parent object to which the equipment belongs
--   **Self-actualization** : allows to specify an automatic update cron for all info type commands.
+- **Name de l'équipement script** : name of your script equipment
+- **Category** : equipment categories (it can belong to several categories)
+- **Activate** : makes your equipment active
+- **Visible** : makes it visible on the dashboard
+- **Parent object** : indicates the parent object to which the equipment belongs
+- **Self-actualization** : allows to specify an automatic update cron for all info type commands.
+- **Delay before updating the information following an action**
 
-Below you find the list of orders :
+![script4](./images/script4.png)
+Here you find the list of orders :
 
 -   **Name** : This field contains the name you want to give to your order / information.
 -   **Icon** : This field allows you to associate an icon with your name (in this case Jeedom replaces the name with the icon in the dashboard).
 -   **Type de script** :
-    -   The http type : allows sending a request to an external device without necessarily waiting for a return of this command.The example that will serve as support for the http type will be the configuration of a request to a Vera to turn on a light.
-    -   The script type : mainly used to run internal Jeedom scripts. The example which will serve as support for the script type will be the configuration of the raspberry temperature monitoring script available on the market.
-    -   XML type : allows to retrieve information encoded in XML from a remote device. The example that will serve as support for the XML type will be the configuration of the script to query an Eco-Device.
-    -   The JSON type : allows to retrieve information encoded in JSON from a remote device. The example that will serve as support for the JSON type will be the configuration of the script to query Sickbeard (or XBMC).
+    -   The type **HTTP** : allows sending a request to an external device without necessarily waiting for a return of this command. The example that will serve as support for the http type will be the configuration of a request to a Vera to turn on a light.
+    -   The type **script** : mainly used to run internal Jeedom scripts. The example which will serve as support for the script type will be the configuration of the temperature monitoring script of the raspberry.
+    -   The type **XML** : allows to retrieve information encoded in XML from a remote device. The example that will serve as support for the XML type will be the configuration of the script to query an Eco-Device.
+    -   The type **JSON** : allows to retrieve information encoded in JSON from a remote device. The example that will serve as support for the JSON type will be the configuration of the script to query Sickbeard (or XBMC).
 -   **the type** and the **Sub-type**
 -   Field **Request**
     -   This field must contain the query itself, or the script path if the "type of script" field is script. The "browse" button" : allows you to select the file contained in the Jeedom internal folder.
-        > **Tip**
-        >
-        > This file is accessible in SSH in ``/var/www/html/plugins/script/core/ressources/``. FYI, the SSH command to assign rights ``www-data`` to a file is : ``sudo chown www-data:www-data NOMDUSCRIPT.EXTENSION``. Note that to execute a script, it must have www-data rights.
+
+        > This file is accessible in SSH in ``/var/www/html/plugins/script/data/``. FYI, the SSH command to assign rights ``www-data`` to a file is : ``sudo chown www-data:www-data NOMDUSCRIPT.EXTENSION``. Note that to execute a script, it must have www-data rights.
+
     -   The button **Edit** : allows you to edit using an internal code editor one of the files contained in the directory allowing access to the file code.
     -   The button **New** : allows to create a command file.
-        > **Tip**
-        >
+
         > Do not forget to enter the name of the file and its full extension, otherwise your superb script will not work. Without extension Jeedom will not be able to recognize the language associated with your file. CF : Generality
     -   The button **Delete** : allows to delete a command file.
-    -   The button **Share** : one of the most important, and after validating the developer T & Cs in your profile on the market, allows you to share your creation with the community.
 -   Field **Options** : Field with variable options depending on the choice of script type.
 -   **Unit** : data unit (can be empty).
 -   **min / max** : data bounds (may be empty).
@@ -66,11 +64,11 @@ Below you find the list of orders :
 
 > **Important**
 >
-> Avoid, as much as possible, in the script path or in its parameters special characters. The allowed characters being : numbers, letters (upper or lower case)
+> Special characters should be avoided in the script path or in its parameters as much as possible. The allowed characters being : numbers, letters (upper or lower case)
 
-![script5](./images/script5.PNG)
+![script5](./images/script5.png)
 
-Allows you to call a url or retrieve the return of a URL.
+Used to call a url or retrieve the return of a URL.
 
 -   a checkbox "Do not check SSL" : if checked, allows Jeedom not to send the "User" and "Password" fields when requested. Jeedom will not seek to identify itself to the remote site / machine.
 -   a checkbox "Allow blank response" : if checked, allows Jeedom to not wait for a response, or to ignore any response to the transmitted frame. In general, we check if Jeedom returns a "Curl error" : Empty reply from server".
@@ -80,17 +78,17 @@ Allows you to call a url or retrieve the return of a URL.
 -   a "User" field" : to enter a username.
 -   a "Password" field" : to enter a password.
 
-# The HTML choice 
+# The HTML choice
 
-![script8](./images/script8.PNG)
+![script HTML](./images/script_html.png)
 
-Parse a web page (HTML file) to retrieve a value above. The syntax is the same as for jquery.
+Allows you to pass a web page (HTML file) to retrieve a value above. The syntax is the same as for jquery.
 
 The option field has a "HTML file URL" field" : this field therefore contains the link to the machine hosting the HTML file in question.
 
-# The XML choice 
+# The XML choice
 
-![script6](./images/script6.PNG)
+![script XML](./images/script_xml.png)
 
 Allows you to recover xml and specifically look for a value in it.
 
@@ -100,15 +98,15 @@ The option field has a "URL of the XML file" field" : this field therefore conta
 >
 > Only values can be retrieved, attributes cannot be retrieved.
 
-# The JSON choice 
+# The JSON choice
 
-![script7](./images/script7.PNG)
+![script JSON](./images/script_json.PNG)
 
 Allows to recover json and to specifically look for a value in it.
 
 The option field has a "JSON file URL" field" : this field therefore contains the link to the machine hosting the JSON file in question.
 
-# HTTP example : Piloting a Vera 
+# HTTP example : Piloting a Vera
 
 The example is based on a Vera and consists of driving a dimmable bulb. I'm not going to dwell on how to control a Vera by http request, the TLD forum is full of answers. In addition, the example corresponds to my type of material and will have to be adapted to yours.
 
@@ -156,7 +154,7 @@ http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&
 >
 > If your order is of message type you can use the tags \#message\# and \#title\#, ditto for a color order with the tag \#color\#, or slider type with #slider# or list with #select#
 
-# HTTP example : Send notification to XBMC 
+# HTTP example : Send notification to XBMC
 
 Goal : Send a notification to XBMC when opening a front door.
 
@@ -185,7 +183,7 @@ Test on a scenario *\ [OUTSIDE \] \ [OUTSIDE \] \ [TEMPERATURE \]* &lt; 15 par e
 
 Action : Launch the script, via virtual equipment, linked to your script !
 
-# SCRIPT example 
+# SCRIPT example
 
 The nicest but not the easiest to explain.
 
@@ -197,7 +195,7 @@ Prerequisites : know how to develop a script in php, python or ruby.
 
 The Raspberry temperature monitoring script will serve as an example for using the script type : Script
 
-After downloading the script from the market, the "Browse" button allows you to select the temp\_rasp.php file.
+After downloading the script, the "Browse" button allows you to select the temp\_rasp.php file.
 
 Out of curiosity, you can go and see the contents of the file by pressing the "Edit" button, you should get the following code :
 
@@ -214,13 +212,13 @@ This is a php script that can be reused outside Jeedom !
 
 NOTE : concretely, it is the php "echo" function which will give the value to Jeedom
 
-## The settings 
+## The settings
 
 Get Jeedom's info to use it in a script. Recovery depends on the type of script used :
 
--   In the line : ``/usr/share/nginx/www/jeedom/plugins/script/core/ressources/MON\_SCRIPT\_PHP.php`` list, the argument "list" is a character string (fixed) retrieved in the php script using the following function \ $ argv \ [1 \] cf : Google for more details on retrieving settings in PHP.
+-   In the line : ``/usr/share/nginx/www/jeedom/plugins/script/data/MON\_SCRIPT\_PHP.php`` list, the argument "list" is a character string (fixed) retrieved in the php script using the following function \ $ argv \ [1 \] cf : Google for more details on retrieving settings in PHP.
 -   We saw previously that it was possible to retrieve dynamic values from Jeedom.
--   In the line : ``/usr/share/nginx/www/jeedom/plugins/script/core/ressources/radio.py`` FLIGHT *slider* , the argument "*slider*" is retrieved this way argv \ [2 \]. When the script is run by jeedom, it will automatically replace *slider* by the value (numeric) of the slider. CF : Google for more details on retrieving settings in Python.
+-   In the line : ``/usr/share/nginx/www/jeedom/plugins/script/data/radio.py`` FLIGHT *slider* , the argument "*slider*" is retrieved this way argv \ [2 \]. When the script is run by jeedom, it will automatically replace *slider* by the value (numeric) of the slider. CF : Google for more details on retrieving settings in Python.
 
 -   Stronger : Potentially, all the variables accessible by Jeedom can be used by the script plugin :
     -   You want to recover the value of the kitchen temperature to store it outside of Jeedom ?
@@ -239,7 +237,7 @@ if (isset($argv)) {
 }
 ````
 
-# Simple XML example 
+# Simple XML example
 
 Here is the format of the standard xml :
 
@@ -256,7 +254,7 @@ If you want the value of led0 in query you put led0. Si vous voulez la valeur de
 
 Notez que l'élément racine &lt;root&gt; n'est pas à préciser dans le champ Request.
 
-# Complex XML example 
+# Complex XML example
 
 ````
  <root>
@@ -274,7 +272,7 @@ The syntax is :
 
 leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de rang du tableau !
 
-# More complex XML example 
+# More complex XML example
 
 ````
 <AKT_Data ID="SMS-Liste" ZeitSt="01.05.2017 18:55">
@@ -324,9 +322,9 @@ To return the next element in the Wert "structure", you just have to indicate th
 
 To move to the next "MyPar" block, you must therefore change the index accordingly : the 1 by 2, for example.
 
-ATTENTION : If the order changes in the XML file, the request no longer works. It will be necessary to readjust the request according to the returned order.
+Be careful : If the order changes in the XML file, the request no longer works. It will be necessary to readjust the request according to the returned order.
 
-# JSON example 
+# JSON example
 
 Like the XML type, it is possible to read information from a JSON return.
 
@@ -402,23 +400,23 @@ Disadvantages :
 -   this method only allows to recover one element at a time.
 -   If you want to return all the values of "show\_name", this is unfortunately not possible, you will have to duplicate the script as many times as necessary.
 
-# HTML example 
+# HTML example
 
 Here we will try to retrieve the last FML.
 
-First of all you have to configure the url :
+First you need to configure the url :
 
 ``http://www.viedemerde.fr``
 
 Then you have to find the "path" of the last FML. To do this, go to the site then right click on the desired item then inspect the item, you get :
 
-![script9](./images/script9.PNG)
+![script6](./images/script6.png)
 
 This is the most complex part and requires a little analysis. Here my text is in an "a" tag which is in a p type element which is a class div "post article". So I have to select the first div element of class "post" and "article" then the first element p and I get everything in the "a" tags it contains. So I have : "div.post.article:first p:first a".
 
 So we get :
 
-![script10](./images/script10.PNG)
+![script10](./images/script7.png)
 
 For an update in real time, it is possible to put an update cron.
 

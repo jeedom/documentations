@@ -2,59 +2,57 @@
 
 Plugin zum Ausführen von Skripten (Shell, PHP, Ruby…) und http-Anforderungen zum Abrufen von Informationen in XML oder JSON.
 
-# Plugin Konfiguration 
+# Plugin Konfiguration
 
 Die Konfiguration ist sehr einfach. Nach dem Herunterladen des Plugins müssen Sie es nur noch aktivieren und fertig.
 
-![script1](./images/script1.PNG)
+![Skript1](./images/script1.png)
 
 Die einzige Möglichkeit besteht darin, dass jeedom die Skripte standardmäßig ablegt. Es wird empfohlen, sie nicht zu berühren.
 
-# Gerätekonfiguration 
+# Gerätekonfiguration
 
-Auf die Konfiguration der Skriptausrüstung kann über das Plugin-Menü zugegriffen werden :
+Auf die Konfiguration der Skriptausrüstung kann über das Plugin / Programmiermenü zugegriffen werden
 
-![script2](./images/script2.PNG)
+So sieht die Script-Plugin-Seite aus (hier bereits mit Ausrüstung) :
 
-So sieht die Script-Plugin-Seite aus (hier mit bereits 1 Gerät) :
-
-![script3](./images/script3.PNG)
+![Skript2](./images/script2.png)
 
 Hier ist die Liste Ihrer Skripte. Sobald Sie auf ein Gerät klicken, erhalten Sie :
 
-![script4](./images/script4.PNG)
+![Skript3](./images/script3.png)
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name de l'équipement script** : Name Ihrer Skriptausrüstung
--   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören)
--   **Aktivieren** : macht Ihre Ausrüstung aktiv
--   **Sichtbar** : macht es auf dem Dashboard sichtbar
--   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört
--   **Selbstverwirklichung** : Ermöglicht die Angabe eines Cron für die automatische Aktualisierung aller Befehle vom Typ "Info".
+- **Name de l'équipement Skript** : Name Ihrer Skriptausrüstung
+- **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören)
+- **Aktivieren** : macht Ihre Ausrüstung aktiv
+- **Sichtbar** : macht es auf dem Dashboard sichtbar
+- **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört
+- **Selbstverwirklichung** : Ermöglicht die Angabe eines Cron für die automatische Aktualisierung aller Befehle vom Typ "Info".
+- **Verzögerung vor dem Aktualisieren der Informationen nach einer Aktion**
 
-Nachfolgend finden Sie die Liste der Bestellungen :
+![Skript4](./images/script4.png)
+Hier finden Sie die Liste der Bestellungen :
 
 -   **Name** : Dieses Feld enthält den Namen, den Sie Ihrer Bestellung / Information geben möchten.
 -   **Symbol** : In diesem Feld können Sie Ihrem Namen ein Symbol zuordnen (in diesem Fall ersetzt Jeedom den Namen durch das Symbol im Dashboard).
--   **Typ de script** :
-    -   Der http-Typ : Ermöglicht das Senden einer Anforderung an ein externes Gerät, ohne unbedingt auf die Rückgabe dieses Befehls warten zu müssen.Das Beispiel, das als Unterstützung für den http-Typ dient, ist die Konfiguration einer Anforderung an eine Vera, ein Licht einzuschalten.
-    -   Der Skripttyp : Wird hauptsächlich zum Ausführen interner Jeedom-Skripte verwendet. Das Beispiel, das als Unterstützung für den Skripttyp dient, ist die Konfiguration des auf dem Markt erhältlichen Himbeer-Temperaturüberwachungsskripts.
-    -   XML-Typ : Ermöglicht das Abrufen von in XML codierten Informationen von einem Remote-Gerät. Das Beispiel, das als Unterstützung für den XML-Typ dient, ist die Konfiguration des Skripts zum Abfragen eines Öko-Geräts.
-    -   Der JSON-Typ : Ermöglicht das Abrufen von in JSON codierten Informationen von einem Remote-Gerät. Das Beispiel, das als Unterstützung für den JSON-Typ dient, ist die Konfiguration des Skripts zum Abfragen von Sickbeard (oder XBMC).
+-   **Typ de Skript** :
+    -   Der Typ **Http** : Ermöglicht das Senden einer Anforderung an ein externes Gerät, ohne unbedingt auf die Rückgabe dieses Befehls warten zu müssen. Das Beispiel, das als Unterstützung für den http-Typ dient, ist die Konfiguration einer Anforderung an eine Vera, ein Licht einzuschalten.
+    -   Der Typ **Skript** : Wird hauptsächlich zum Ausführen interner Jeedom-Skripte verwendet. Das Beispiel, das als Unterstützung für den Skripttyp dient, ist die Konfiguration des Temperaturüberwachungsskripts der Himbeere.
+    -   Der Typ **XML** : Ermöglicht das Abrufen von in XML codierten Informationen von einem Remote-Gerät. Das Beispiel, das als Unterstützung für den XML-Typ dient, ist die Konfiguration des Skripts zum Abfragen eines Öko-Geräts.
+    -   Der Typ **Json** : Ermöglicht das Abrufen von in JSON codierten Informationen von einem Remote-Gerät. Das Beispiel, das als Unterstützung für den JSON-Typ dient, ist die Konfiguration des Skripts zum Abfragen von Sickbeard (oder XBMC).
 -   **der Typ** und die **Untertyp**
 -   Das Feld **Petition**
     -   Dieses Feld muss die Abfrage selbst oder den Skriptpfad enthalten, wenn das Feld "Skripttyp" Skript ist. Die Schaltfläche "Durchsuchen"" : Mit dieser Option können Sie die Datei auswählen, die im internen Ordner Jeedom enthalten ist.
-        > **Spitze**
-        >
-        > Auf diese Datei kann in SSH in zugegriffen werden ``/var/www/html/plugins/script/core/ressources/``. Zu Ihrer Information, der SSH-Befehl zum Zuweisen von Rechten ``www-data`` zu einer Datei ist : ``sudo chown www-data:www-data NOMDUSCRIPT.EXTENSION``. Beachten Sie, dass ein Skript zum Ausführen von Rechten über WWW-Daten verfügen muss.
+
+        > Auf diese Datei kann in SSH in zugegriffen werden ``/var/www/html/plugins/script/data/``. Zu Ihrer Information, der SSH-Befehl zum Zuweisen von Rechten ``www-data`` zu einer Datei ist : ``sudo chown www-data:www-data NOMDUSCRIPT.EXTENSION``. Beachten Sie, dass ein Skript zum Ausführen von Rechten über WWW-Daten verfügen muss.
+
     -   Die Schaltfläche **Bearbeiten** : Mit dieser Option können Sie eine der im Verzeichnis enthaltenen Dateien mit einem internen Code-Editor bearbeiten und so auf den Dateicode zugreifen.
     -   Die Schaltfläche **Neu** : ermöglicht das Erstellen einer Befehlsdatei.
-        > **Spitze**
-        >
+
         > Vergessen Sie nicht, den Namen der Datei und ihre vollständige Erweiterung einzugeben, da sonst Ihr hervorragendes Skript nicht funktioniert. Ohne Erweiterung kann Jeedom die mit Ihrer Datei verknüpfte Sprache nicht erkennen. CF. : Allgemeinheit
     -   Die Schaltfläche **Löschen** : ermöglicht das Löschen einer Befehlsdatei.
-    -   Die Schaltfläche **Aktie** : Mit einer der wichtigsten und nach Überprüfung der Entwickler-AGB in Ihrem Profil auf dem Markt können Sie Ihre Kreation mit der Community teilen.
 -   Das Feld **Optionen** : Feld mit variablen Optionen abhängig von der Wahl des Skripttyps.
 -   **Unit** : Dateneinheit (kann leer sein).
 -   **min / max** : Datengrenzen (können leer sein).
@@ -66,11 +64,11 @@ Nachfolgend finden Sie die Liste der Bestellungen :
 
 > **Wichtig**
 >
-> Vermeiden Sie so weit wie möglich im Skriptpfad oder in seinen Parametern Sonderzeichen. Die erlaubten Zeichen sind : Zahlen, Buchstaben (Groß- oder Kleinschreibung)
+> Sonderzeichen sollten im Skriptpfad oder in seinen Parametern so weit wie möglich vermieden werden. Die erlaubten Zeichen sind : Zahlen, Buchstaben (Groß- oder Kleinschreibung)
 
-![script5](./images/script5.PNG)
+![Skript5](./images/script5.png)
 
-Ermöglicht das Aufrufen einer URL oder das Abrufen der Rückgabe einer URL.
+Wird verwendet, um eine URL aufzurufen oder die Rückgabe einer URL abzurufen.
 
 -   ein Kontrollkästchen "SSL nicht aktivieren" : Wenn diese Option aktiviert ist, kann Jeedom auf Anfrage die Felder "Benutzer" und "Kennwort" nicht senden. Jeedom wird nicht versuchen, sich gegenüber dem Remote-Standort / der Remote-Maschine zu identifizieren.
 -   ein Kontrollkästchen "Leere Antwort zulassen" : Wenn diese Option aktiviert ist, kann Jeedom nicht auf eine Antwort warten oder eine Antwort auf den übertragenen Frame ignorieren. Im Allgemeinen prüfen wir, ob Jeedom einen "Curl-Fehler" zurückgibt : Leere Antwort vom Server".
@@ -80,17 +78,17 @@ Ermöglicht das Aufrufen einer URL oder das Abrufen der Rückgabe einer URL.
 -   ein "Benutzer" -Feld" : um einen Benutzernamen einzugeben.
 -   ein "Passwort" Feld" : um ein Passwort einzugeben.
 
-# Die HTML-Auswahl 
+# Die HTML-Auswahl
 
-![script8](./images/script8.PNG)
+![Skript HTML](./images/script_html.png)
 
-Analysieren Sie eine Webseite (HTML-Datei), um einen obigen Wert abzurufen. Die Syntax ist dieselbe wie für jquery.
+Ermöglicht das Übergeben einer Webseite (HTML-Datei), um einen obigen Wert abzurufen. Die Syntax ist dieselbe wie für jquery.
 
 Das Optionsfeld enthält ein Feld "HTML-Datei-URL"" : Dieses Feld enthält daher den Link zu dem Computer, auf dem sich die betreffende HTML-Datei befindet.
 
-# Die XML-Auswahl 
+# Die XML-Auswahl
 
-![script6](./images/script6.PNG)
+![Skript XML](./images/script_xml.png)
 
 Ermöglicht es Ihnen, XML wiederherzustellen und gezielt nach einem Wert darin zu suchen.
 
@@ -100,15 +98,15 @@ Das Optionsfeld enthält das Feld "URL der XML-Datei"" : Dieses Feld enthält da
 >
 > Es können nur Werte abgerufen werden, Attribute können nicht abgerufen werden.
 
-# Die JSON-Wahl 
+# Die JSON-Wahl
 
-![script7](./images/script7.PNG)
+![Skript Json](./images/script_json.PNG)
 
 Ermöglicht die Wiederherstellung von json und die gezielte Suche nach einem Wert darin.
 
 Das Optionsfeld enthält ein Feld "JSON-Datei-URL"" : Dieses Feld enthält daher den Link zu dem Computer, auf dem sich die betreffende JSON-Datei befindet.
 
-# HTTP-Beispiel : Eine Vera steuern 
+# HTTP-Beispiel : Eine Vera steuern
 
 Das Beispiel basiert auf einer Vera und besteht aus dem Antreiben einer dimmbaren Glühbirne. Ich werde nicht näher darauf eingehen, wie eine Vera per http-Anfrage gesteuert werden kann. Das TLD-Forum ist voller Antworten. Außerdem entspricht das Beispiel meiner Materialart und muss an Ihre angepasst werden.
 
@@ -156,7 +154,7 @@ http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&
 >
 > Wenn Ihre Bestellung vom Nachrichtentyp ist, können Sie die Tags \ verwenden#message\# und \#title\#, Das Gleiche gilt für eine Farbbestellung mit dem Tag \#color\#, oder Schieberegler mit #slider# oder Liste mit #select#
 
-# HTTP-Beispiel : Benachrichtigung an XBMC senden 
+# HTTP-Beispiel : Benachrichtigung an XBMC senden
 
 Ziel : Senden Sie eine Benachrichtigung an XBMC, wenn Sie eine Vordertür öffnen.
 
@@ -185,7 +183,7 @@ Testen Sie ein Szenario *\ [AUSSEN \] \ [AUSSEN \] \ [TEMPERATUR \]* &lt; 15 par
 
 Aktion : Starten Sie das Skript über eine virtuelle Ausrüstung, die mit Ihrem Skript verknüpft ist !
 
-# SCRIPT-Beispiel 
+# SCRIPT-Beispiel
 
 Das Schönste, aber nicht das Einfachste zu erklären.
 
@@ -197,7 +195,7 @@ Voraussetzungen : wissen, wie man ein Skript in PHP, Python oder Ruby entwickelt
 
 Das Skript zur Überwachung der Himbeertemperatur dient als Beispiel für die Verwendung des Skripttyps : Script
 
-Nachdem Sie das Skript vom Markt heruntergeladen haben, können Sie über die Schaltfläche "Durchsuchen" die Datei temp\_rasp.php auswählen.
+Nach dem Herunterladen des Skripts können Sie über die Schaltfläche "Durchsuchen" die Datei temp\_rasp.php auswählen.
 
 Aus Neugier können Sie den Inhalt der Datei anzeigen, indem Sie auf die Schaltfläche "Bearbeiten" klicken. Sie sollten den folgenden Code erhalten :
 
@@ -214,13 +212,13 @@ Dies ist ein PHP-Skript, das außerhalb von Jeedom wiederverwendet werden kann !
 
 Notiz : konkret ist es die PHP "Echo" -Funktion, die Jeedom den Wert gibt
 
-## Die Parameter 
+## Die Parameter
 
 Holen Sie sich Jeedom's Informationen, um sie in einem Skript zu verwenden. Die Wiederherstellung hängt von der Art des verwendeten Skripts ab :
 
--   In der Leitung : ``/usr/share/nginx/www/jeedom/plugins/script/core/ressources/MON\_SCRIPT\_PHP.php`` list, das Argument "list" ist eine Zeichenfolge (fest), die im PHP-Skript mit der folgenden Funktion \ $ argv \ [1 \] abgerufen wird : Google für weitere Informationen zum Abrufen von Einstellungen in PHP.
+-   In der Leitung : ``/usr/share/nginx/www/jeedom/plugins/script/data/MON\_SCRIPT\_PHP.php`` list, das Argument "list" ist eine Zeichenfolge (fest), die im PHP-Skript mit der folgenden Funktion \ $ argv \ [1 \] abgerufen wird : Google für weitere Informationen zum Abrufen von Einstellungen in PHP.
 -   Wir haben zuvor gesehen, dass es möglich ist, dynamische Werte aus Jeedom abzurufen.
--   In der Leitung : ``/usr/share/nginx/www/jeedom/plugins/script/core/ressources/radio.py`` FLUG *Schieber* , das Argument "*Schieber*" wird auf diese Weise abgerufen argv \ [2 \]. Wenn das Skript von jeedom ausgeführt wird, wird es automatisch ersetzt *Schieber* durch den Wert (numerisch) des Schiebereglers. CF. : Weitere Informationen zum Abrufen von Einstellungen in Python finden Sie bei Google.
+-   In der Leitung : ``/usr/share/nginx/www/jeedom/plugins/script/data/radio.py`` FLUG *Schieber* , das Argument "*Schieber*" wird auf diese Weise abgerufen argv \ [2 \]. Wenn das Skript von jeedom ausgeführt wird, wird es automatisch ersetzt *Schieber* durch den Wert (numerisch) des Schiebereglers. CF. : Weitere Informationen zum Abrufen von Einstellungen in Python finden Sie bei Google.
 
 -   Stärker : Möglicherweise können alle Variablen, auf die Jeedom zugreifen kann, vom Skript-Plugin verwendet werden :
     -   Sie möchten den Wert der Küchentemperatur wiederherstellen, um sie außerhalb von Jeedom zu speichern ?
@@ -239,7 +237,7 @@ if (isset($argv)) {
 }
 ````
 
-# Einfaches XML-Beispiel 
+# Einfaches XML-Beispiel
 
 Hier ist das Format der Standard-XML :
 
@@ -256,7 +254,7 @@ Wenn Sie den Wert von led0 in der Abfrage haben möchten, geben Sie led0 ein. Si
 
 Notez que l'élément racine &lt;root&gt; n'est pas à préciser dans le champ Petition.
 
-# Komplexes XML-Beispiel 
+# Komplexes XML-Beispiel
 
 ````
  <root>
@@ -274,7 +272,7 @@ Die Syntax lautet :
 
 leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de rang du tableau !
 
-# Komplexeres XML-Beispiel 
+# Komplexeres XML-Beispiel
 
 ````
 <AKT_Data ID="SMS-Liste" ZeitSt="01.05.2017 18:55">
@@ -324,9 +322,9 @@ Um das nächste Element in der Wert "Struktur" zurückzugeben, müssen Sie nur d
 
 Um zum nächsten "MyPar" -Block zu gelangen, müssen Sie daher den Index entsprechend ändern : die 1 mal 2 zum Beispiel.
 
-ACHTUNG : Wenn sich die Reihenfolge in der XML-Datei ändert, funktioniert die Anforderung nicht mehr. Die Anforderung muss entsprechend der zurückgegebenen Bestellung angepasst werden.
+Achtung : Wenn sich die Reihenfolge in der XML-Datei ändert, funktioniert die Anforderung nicht mehr. Die Anforderung muss entsprechend der zurückgegebenen Bestellung angepasst werden.
 
-# JSON-Beispiel 
+# JSON-Beispiel
 
 Wie beim XML-Typ ist es möglich, Informationen aus einer JSON-Rückgabe zu lesen.
 
@@ -402,23 +400,23 @@ Nachteile :
 -   Mit dieser Methode kann jeweils nur ein Element wiederhergestellt werden.
 -   Wenn Sie alle Werte von "show\_name" zurückgeben möchten, ist dies leider nicht möglich. Sie müssen das Skript so oft wie nötig duplizieren.
 
-# HTML-Beispiel 
+# HTML-Beispiel
 
 Hier werden wir versuchen, die letzte FML abzurufen.
 
-Zunächst müssen Sie die URL konfigurieren :
+Zuerst müssen Sie die URL konfigurieren :
 
 ``http://www.viedemerde.fr``
 
 Dann müssen Sie den "Pfad" der letzten FML finden. Gehen Sie dazu zur Website, klicken Sie mit der rechten Maustaste auf den gewünschten Artikel und überprüfen Sie den Artikel, den Sie erhalten :
 
-![script9](./images/script9.PNG)
+![Skript6](./images/script6.png)
 
 Dies ist der komplexeste Teil und erfordert eine kleine Analyse. Hier befindet sich mein Text in einem "a" -Tag, das sich in einem Element vom Typ p befindet, das ein Post-Artikel der Klasse div ist". Also muss ich das erste div-Element der Klasse "post" und "article" auswählen, dann das erste Element p und ich bekomme alles in den darin enthaltenen "a" -Tags. Also habe ich : "div.post.article:erste p:zuerst a".
 
 Also bekommen wir :
 
-![script10](./images/script10.PNG)
+![Skript10](./images/script7.png)
 
 Für ein Update in Echtzeit ist es möglich, ein Update zu erstellen.
 
