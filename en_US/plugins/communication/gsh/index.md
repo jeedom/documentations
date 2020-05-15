@@ -1,4 +1,4 @@
-# Google Smarthome
+# Google smarthome plugin
 
 This plugin allows you to :
 
@@ -23,14 +23,14 @@ It can work in 2 ways :
 
 # Cloud mode
 
-> **IMPORTANT**
+> **Important**
 >
 > It is important to do the following steps in the order listed !!!
 
-> **IMPORTANT**
+> **Important**
 >
 > If you have an error message telling you that your user password or not is not correct you must :
-> - check that Amazon Alexa is active in the market
+> - check that Google Home is active on the market
 > - if this is the case, be sure of your credentials (attention you must respect upper / lower case) ?
 > - if this is the case change your password on the market and on the configuration of the voice assistant service (market profiles page tab my services) have it saved
 
@@ -70,25 +70,25 @@ In plugin -> communication -> Google Smarthome you can configure your different 
 >- Link Jeedom Smarthome in Google Home
 
 
-> **IMPORTANT**
+> **Important**
 >
 >Any modification to the configuration of the equipment sent to Google Home (addition of equipment, deletion of equipment, change of a generic order type) necessarily requires going to Plugin -> Communication -> Googme Smarthome then save
 
 # Standalone mode
 
-> **IMPORTANT**
+> **Important**
 >
 > If you have used cloud mode you should not do this part !!! Go directly to the chapter "Plugin configuration"
 
-> **IMPORTANT**
+> **Important**
 >
 > Standalone mode is a "scam" because it makes you create an application at Google in development mode which allows synchronization only for 3 days after activation of test mode. So when adding or modifying equipment, reactivate the test mode every 3 days to be able to synchronize. Attention we are talking about a modification of the configuration if you do not add or modify equipment there is nothing to do the application will work without time limit
 
-> **IMPORTANT**
+> **Important**
 >
-> Since the application is a dev application on the Google side, they can cut it, delete it or change the rules at any time.. In this case Jeedom cannot be held responsible in the event of a malfunction..
+> Since the application is a dev application on the Google side, they can cut it, delete it or change the rules at any time. In this case Jeedom cannot be held responsible in the event of a malfunction.
 
-> **IMPORTANT**
+> **Important**
 >
 > For the application (s) to work, it is essential that your jeedom is in https with a valid certificate (if you have a service pack, DNS access is there for that)
 
@@ -214,7 +214,7 @@ Then you need on a smartphone **android** (must not work on an iphone) connect t
 
 ## Jwt configuration
 
-JWT allows you to automatically report any change in the status of an item of equipment sent to Google, which therefore allows you to have the status more quickly when you request it from Google Home or the Google Home app.. It is not compulsory to configure it however if you check the box "Go back to the state" it is absolutely necessary to have done so for it to work.
+JWT allows you to automatically report any change in the status of an item of equipment sent to Google, which therefore allows you to have the status more quickly when you request it from Google Home or the Google Home app. It is not compulsory to configure it however if you check the box "Go back to the state" it is absolutely necessary to have done so for it to work.
 
 To make the configuration you need
 
@@ -235,7 +235,7 @@ On your Jeedom, go to Plugin -> Communication -> Google Smarthome and in the equ
 
 ![gsh](./images/gsh2.png)
 
-> **IMPORTANT**
+> **Important**
 >
 > The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly.
 
@@ -264,7 +264,7 @@ On equipment you can configure :
 
 The types of equipment are important this allows Google to react according to the sentences you say.
 
-> **IMPORTANT**
+> **Important**
 >
 > Jeedom support for "beta" types not yet documented at Google so that may or may not work depending on updates at google
 
@@ -318,7 +318,7 @@ All you have to do is assign the equipment to the rooms in the Google Home app
 
 >**The assistant asks me to assign the parts but I don't know what the equipment corresponds to.**
 >
->Yes the assistant does not display the real name of the equipment, just the nickname. You must therefore quit the assistant and return to the home control home page.. By clicking on the equipment you will have its name you can then assign it to a room
+>Yes the assistant does not display the real name of the equipment, just the nickname. You must therefore quit the assistant and return to the home control home page. By clicking on the equipment you will have its name you can then assign it to a room
 
 >**Why do you need to assign parts to each piece of equipment ?**
 >
@@ -326,7 +326,7 @@ All you have to do is assign the equipment to the rooms in the Google Home app
 
 >**I get the error message "OpenSSL unable to sign data"**
 >
->You have to check the "Raise the report" box without doing the JWT configuration
+>You have to check the "Push the state" box (in the advanced configuration, green button with the notched wheel) without doing the JWT configuration
 
 >**I get the error message "Cant find resource 404" when saving**
 >

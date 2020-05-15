@@ -1,6 +1,12 @@
->**IMPORTANT**
+# Changelog Google Smarthome
+
+>**Wichtig**
 >
->Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
+
+# 15.05.2020
+
+- Wechseln zu neuen Servern (Update erforderlich, um neue Geräte hinzufügen / entfernen zu können)
 
 # 05/07/2020
 

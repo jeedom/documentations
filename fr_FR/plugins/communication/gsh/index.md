@@ -1,4 +1,4 @@
-# Google smarthome
+# Plugin Google smarthome
 
 Ce plugin permet de :
 
@@ -30,7 +30,7 @@ Il peut fonctionner suivant 2 manières :
 > **IMPORTANT**
 >
 > Si vous avez un message d'erreur vous indiquants que votre mot de passe ou non d'utilisateur n'est pas bon il faut :
-> - vérifier qu'Amazon Alexa est bien en actif sur le market
+> - vérifier que Google Home est bien en actif sur le market
 > - si c'est bien le cas, etês vous sur de vos identifiants (attention il faut respecter majuscule/minuscule) ?
 > - si c'est le cas changer votre mot de passe sur le market et sur la configuration du service d'assistant vocal (page profils du market onglet mes services) faire sauvegarder
 
@@ -326,7 +326,7 @@ Il ne vous reste plus qu'a faire l'affectation des équipements aux pieces dans 
 
 >**J'ai le message d'erreur "OpenSSL unable to sign data"**
 >
->Vous avez du cocher la case "Remonter l'état" sans faire la configuration JWT
+>Vous avez du cocher la case "Pousser l'état" (dans la configuration avancée, bouton vert avec la roue cranté) sans faire la configuration JWT
 
 >**J'ai le message d'erreur "Cant find ressource 404" lors de la sauvegarde**
 >

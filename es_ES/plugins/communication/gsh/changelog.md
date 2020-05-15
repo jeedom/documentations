@@ -1,6 +1,12 @@
->**IMPORTANT**
+# Registro de cambios de Google Smarthome
+
+>**Importante**
 >
->Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+# 15/05/2020
+
+- Cambiar a nuevos servidores (se requiere actualización para poder agregar / eliminar nuevos equipos)
 
 # 07/05/2020
 
@@ -12,7 +18,7 @@
 
 # 30/04/2020
 
-- Corrección de un error en la sincronización del equipo.
+- Corrección de un error en la sincronización del equipo
 
 # 29/04/2020
 
@@ -26,7 +32,7 @@
 # 23/01/2020
 
 - Soporte mejorado para termostatos (posibilidad de elegir cualquier control de calefacción / frío / apagado)
-- Soporte de temperatura de color.
+- Soporte de temperatura de color
 - Preparación para el soporte de sincronización sin caché
 
 # 12/11/2019
@@ -37,7 +43,7 @@
 
 # 15/10/2019
 
-- Envío automático de la configuración al mercado durante la instalación.
+- Envío automático de la configuración al mercado durante la instalación
 
 # 26/08/2019
 
@@ -55,7 +61,7 @@
 
 - Correcciones de errores
 - Actualizando el documento
-- Adición de información sobre el estado de suscripción a los servicios de voz.
+- Adición de información sobre el estado de suscripción a los servicios de voz
 
 # 31/05/2019
 
@@ -93,7 +99,7 @@
 
 - Actualización de la documentación
 - Agregue una opción para revertir la apertura / cierre de las persianas
-- Adición de opciones para el termostato.
+- Adición de opciones para el termostato
 - Informar apoyo estatal
 - Soporte de una confirmación durante una acción (atención, el modo de validación tiene errores en el lado de Google, el modo de código para caminar)
 - Agregar sensores (aún no funciona, no hay documentos en la lista de Google)

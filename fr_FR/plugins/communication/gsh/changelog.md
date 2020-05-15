@@ -1,6 +1,12 @@
+# Changelog Google Smarthome
+
 >**IMPORTANT**
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+
+# 15/05/2020
+
+- Passage sur les nouveaux serveurs (mise à jour obligatoire pour pouvoir ajouter/supprimer de nouveaux équipements)
 
 # 07/05/2020
 
