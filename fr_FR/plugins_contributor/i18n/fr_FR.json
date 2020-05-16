@@ -128,6 +128,8 @@
     "plugins_contributor\/monitoring\/index.md": {
         "JeeLog": "JeeLog",
         "Plugin de journalisation d'activité pour les équipements, scénarios, et fichiers log": "Plugin de journalisation d'activité pour les équipements, scénarios, et fichiers log",
+        "fullyKiosK": "fullyKiosK",
+        "Plugin fullyKiosK": "Plugin fullyKiosK",
         "Monitoring": "Monitoring",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",

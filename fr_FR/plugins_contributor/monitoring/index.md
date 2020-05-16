@@ -9,4 +9,5 @@
 
 | | | | |
 |--- | --- | --- | ---|
+|<img src="fullyKiosK/fullyKiosK_icon.png" class="pluginLogo" width="100" />|fullyKiosK|Plugin fullyKiosK|[Documentation](https://sebsst.github.io/fullyKiosK/fr_FR/)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3406)<br/>[Changelog](https://sebsst.github.io/fullyKiosK/fr_FR/changelog)|
 |<img src="jeelog/jeelog_icon.png" class="pluginLogo" width="100" />|JeeLog|Plugin de journalisation d’activité pour les équipements, scénarios, et fichiers log|[Documentation](https://kiboost.github.io/jeedom_docs/plugins/jeelog/fr_FR/)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3362)<br/>[Changelog](https://kiboost.github.io/jeedom_docs/plugins/jeelog/fr_FR/changelog.html)|
