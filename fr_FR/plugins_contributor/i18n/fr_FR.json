@@ -55,6 +55,7 @@
         "Changelog": "Changelog"
     },
     "plugins_contributor\/devicecommunication\/index.md": {
+        "worxLandroidS": "worxLandroidS",
         "Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link": "Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link",
         "wifilightV2": "wifilightV2",
         "Pilote de nombreux périphériques wifi": "Pilote de nombreux périphériques wifi",
