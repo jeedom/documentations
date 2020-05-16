@@ -372,9 +372,14 @@ function setLeftMenu(){
         if ($(this).closest('li').closest('ul').closest('li')) {
           $(this).closest('li').closest('ul').closest('li').find('.collapsible-header').click()
         }
-        var container = $('#slide-out')
-        var pos = container.find('li.menu_active').offset().top
-        container.animate({scrollTop: pos+50})
+        setTimeout(function(){
+          var container = $('#slide-out')
+          var pos = container.find('li.menu_active').offset().top
+          var winHeight = $(window).height()
+          if (pos > winHeight-100) {
+            container.animate({scrollTop: pos-(winHeight/4)})
+          }
+        }, 500)
         return false
       }
     })
