@@ -364,18 +364,21 @@ function cookiesPolicyBar(){
 }
 
 function setLeftMenu(){
-  var url = window.location.href;
-  if(url.indexOf('design3d') != -1){
-    $('#ul_menu a').each(function(){
-      if($(this).attr('href') && $(this).attr('href').indexOf('design3d') != -1){
-        $(this).closest('li').addClass('menu_active');
-        if($(this).closest('li').closest('ul').closest('li')){
-          $(this).closest('li').closest('ul').closest('li').find('.collapsible-header').click();
-          return false;
+  var url = window.location.href
+  if (url.indexOf('design3d') != -1) {
+    $('#ul_menu a').each(function() {
+      if ($(this).attr('href') && $(this).attr('href').indexOf('design3d') != -1) {
+        $(this).closest('li').addClass('menu_active')
+        if ($(this).closest('li').closest('ul').closest('li')) {
+          $(this).closest('li').closest('ul').closest('li').find('.collapsible-header').click()
         }
+        var container = $('#slide-out')
+        var pos = container.find('li.menu_active').offset().top
+        container.animate({scrollTop: pos+50})
+        return false
       }
     })
-    return;
+    return
   }
   $('#ul_menu a').each(function(){
     if($(this).attr('href') && url.indexOf($(this).attr('href')) != -1){
