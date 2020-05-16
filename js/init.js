@@ -372,28 +372,33 @@ function setLeftMenu(){
         if ($(this).closest('li').closest('ul').closest('li')) {
           $(this).closest('li').closest('ul').closest('li').find('.collapsible-header').click()
         }
-        setTimeout(function(){
-          var container = $('#slide-out')
-          var pos = container.find('li.menu_active').offset().top
-          var winHeight = $(window).height()
-          if (pos > winHeight-100) {
-            container.animate({scrollTop: pos-(winHeight/4)})
-          }
-        }, 500)
+        scrollMenu()
         return false
       }
     })
     return
   }
   $('#ul_menu a').each(function(){
-    if($(this).attr('href') && url.indexOf($(this).attr('href')) != -1){
-      $(this).closest('li').addClass('menu_active');
-      if($(this).closest('li').closest('ul').closest('li')){
-        $(this).closest('li').closest('ul').closest('li').find('.collapsible-header').click();
-        return false;
+    if ($(this).attr('href') && url.indexOf($(this).attr('href')) != -1) {
+      $(this).closest('li').addClass('menu_active')
+      if ($(this).closest('li').closest('ul').closest('li')) {
+        $(this).closest('li').closest('ul').closest('li').find('.collapsible-header').click()
+        scrollMenu()
+        return false
       }
     }
   })
+}
+
+function scrollMenu() {
+  setTimeout(function(){
+    var container = $('#slide-out')
+    var pos = container.find('li.menu_active').offset().top
+    var winHeight = $(window).height()
+    if (pos > winHeight-100) {
+      container.animate({scrollTop: pos-(winHeight/4)})
+    }
+  }, 500)
 }
 
 function getUrlVars(_key) {
