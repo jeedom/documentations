@@ -11,13 +11,13 @@ To discover Jeedom, you can also rotate it in a Docker container :
 Docker is now available on all recent distributions.
 To install it on a distribution
 
--   rpm based
+-   made of ``rpm``
 
 ````
 yum install docker
 ````
 
--   deb based
+-   made of ``deb``
 
 ````
 apt-gand update
@@ -29,7 +29,7 @@ apt-gand install docker.io
 
 Image installation :
 
-``docker pull jeedom/jeedom``
+``docker pull jeedom/jeedom:latest``
 
 Then launch the :
 
@@ -41,6 +41,6 @@ With :
 -   ``/opt/jeedom/www`` and ``/opt/jeedom/mysql`` : directory where Jeedom data is put on the host
 -   ``your-root-password`` : root password to access Jeedom in SSH
 
-Then you need to install Jeedom by going to : IP\_DOCKER:9080
+Then you need to install Jeedom by going to : ``IP_DOCKER:9080``
 
 For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)
