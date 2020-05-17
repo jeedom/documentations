@@ -18,7 +18,7 @@ Además, este detector tiene una entrada analógica para conectar una sonda de t
 
 Es necesario un controlador Z-Wave (control remoto, dongle, etc.) para integrar este detector en su red si ya tiene una red existente.
 
-## Fonctions
+## Funciones
 
 -   Detector de apertura
 -   Botón para incluir / excluir el detector
@@ -47,7 +47,7 @@ Es necesario un controlador Z-Wave (control remoto, dongle, etc.) para integrar 
 -   Tipo de producto : 1792
 -   ID del producto : 4096
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -61,7 +61,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/fibaro.fgk101-DS18B20/information.jpg)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -74,7 +74,7 @@ Aquí está la lista de comandos :
 
 Puede ocultar o mostrar estos comandos como desee.
 
-### Configuracion del modulo
+### Configuración du module
 
 > **Importante**
 >
@@ -103,7 +103,7 @@ Detalles del parámetro :
 -   13: Permite configurar el modo de transmisión de señales de temperatura y almacenar
 -   14: activa la función de activación de escena
 
-### Groupes
+### Grupos
 
 Este módulo tiene tres grupos de asociación, solo el tercero es esencial.
 
@@ -121,7 +121,7 @@ Este módulo tiene tres grupos de asociación, solo el tercero es esencial.
 
 ![vuewidget](images/fibaro.fgk101-DS18B20/vuewidget.jpg)
 
-## Wakeup
+## Despertador
 
 Para activar este módulo, solo hay una forma :
 

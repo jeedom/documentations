@@ -16,7 +16,7 @@ El detector de humo Fibaro FGSD-002 es un detector de alarma de humo autónomo (
 
 Algunos materiales se queman sin fumar. Esta es la razón por la cual los ingenieros de Fibaro decidieron incluir protección adicional en su detector de humo en forma de un sensor de temperatura. Si no hay suficiente humo para hacer sonar la alarma, el dispositivo aún podrá detectar una amenaza al detectar un cambio rápido de temperatura causado por el incendio. Un cambio rápido de temperatura o un aumento de 54 ° C es suficiente para que el sensor de humo detecte una amenaza e informe a los habitantes de la casa. Solo este tipo de sensor de humo ofrece una alta eficiencia, independientemente de las quemaduras.
 
-## Fonctions
+## Funciones
 
 -   Detector de humo Z-Wave
 -   Alimentado por batería
@@ -55,7 +55,7 @@ Algunos materiales se queman sin fumar. Esta es la razón por la cual los ingeni
 -   Tipo de producto : 3074
 -   ID del producto : 4098
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -69,7 +69,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/fibaro.fgsd102/information.jpg)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -84,7 +84,7 @@ Aquí está la lista de comandos :
 -   Alerta de calor : es el control el que generará una alerta de calor (aún no es confiable)
 -   Batería : es el comando de la batería
 
-### Configuracion del modulo
+### Configuración du module
 
 > **Importante**
 >
@@ -117,7 +117,7 @@ Detalles del parámetro :
 -   31: intervalo de informe de temperatura pico
 -   32: intervalo de señal si la pérdida de Zwave
 
-### Groupes
+### Grupos
 
 Para un funcionamiento óptimo de su módulo. Jeedom debe estar asociado al menos con los grupos 1 4 y 5:
 
@@ -127,7 +127,7 @@ Para un funcionamiento óptimo de su módulo. Jeedom debe estar asociado al meno
 
 ### Específicos
 
-## Wakeup
+## Despertador
 
 Para activar este módulo, presione el botón central 3 veces
 

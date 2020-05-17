@@ -18,7 +18,7 @@ The button allows you to control two devices or scenes thanks to the management 
 
 This remote control can also be used as an emergency or panic button. In the event of distress or when its holder is faced with another emergency situation, it is enough for him to press the button and a Z-Wave signal will be emitted. In this case, this device can also be used as a medallion around the neck.
 
-## Fonctions
+## Functions
 
 -   Key fob remote control
 -   Primary or secondary controller
@@ -45,7 +45,7 @@ This remote control can also be used as an emergency or panic button. In the eve
 -   Product Type : 1
 -   Product ID : 38
 
-## Configuration
+## Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -59,7 +59,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/aeotec.panicbutton/information.jpg)
 
-### Commandes
+### Commands
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -71,7 +71,7 @@ Here is the list of commands :
   - 1 : Short press button
   - 2 : Long press button
 
-### Configuration of the module
+### Setup du module
 
 > **IMPORTANT**
 >
@@ -90,7 +90,7 @@ Parameter details :
 -   250: operating mode of the remote control (absolutely put Scene to use it as a remote control)
 -   255 : allows the Keyfob to be reset from the factory
 
-### Groupes
+### Groups
 
 This module has a single association group. It is essential.
 

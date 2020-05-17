@@ -14,7 +14,7 @@ Steuern Sie Ihr Sicherheitssystem mit dieser Mini-Zipato-Wandtastatur !
 
 Mit dieser Z-Wave-kompatiblen RFID-Tastatur können Sie Ihr Alarmsystem einfach aktivieren oder deaktivieren. Mit den Tasten "Home" und "Away" können Sie das Sicherheitssystem aktivieren / deaktivieren und / oder Hausautomationsszenarien schnell ausführen. Zusätzlich zur Verwendung des Ziffernblocks können Sie auch ein RFID-Emblem vor der Tastatur anbringen, um das System zu aktivieren / deaktivieren. Die Tastatur überträgt die Kennung des erkannten Ausweises an Ihren Hausautomationscontroller. Auf diese Weise können Sie ganz einfach Szenarien erstellen, die der Person entsprechen, die sein Abzeichen verwendet hat.
 
-## Fonctions
+## Funktionen
 
 -   Code- und RFID-Tastatur
 -   Unterstützt die Z-Wave-Technologie
@@ -48,7 +48,7 @@ Mit dieser Z-Wave-kompatiblen RFID-Tastatur können Sie Ihr Alarmsystem einfach 
 -   Produkttyp : 24881
 -   Produkt-ID : 17665
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -62,7 +62,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![information](images/zipato.minikeypad/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -75,7 +75,7 @@ Hier ist die Liste der Befehle :
 -   Code : Zeigt den Ausweis- oder Tastaturcode an, wenn sich der eingegebene Code nicht in einem der Speicher befindet
 -   Batterie : Es ist der Batteriebefehl
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Wichtig**
 >
@@ -97,7 +97,7 @@ Parameterdetails :
 -   4: Anzahl der Pieptöne pro Sekunde (nicht ändern hat keine Auswirkung)
 -   5: Betriebsart : normaler oder immer wacher Modus (nicht empfohlen, da sehr, sehr batterieintensiv)
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat zwei Zuordnungsgruppen.
 
@@ -142,7 +142,7 @@ Die Tastatur liest Codes / Ausweise auf zwei Arten :
 -   Wenn Sie die ersten 1 bis 2 Sekunden auf Home / Away drücken und einen Code eingeben, wird dieser Code gelesen
 -   Wenn innerhalb der ersten 1 bis 2 Sekunden nichts unternommen wird, wechselt es in den RFID-Ausweislesemodus (rotes Licht an). Zu dieser Zeit kann er ein Abzeichen lesen, nicht vorher.
 
-## Wakeup
+## Aufwachen
 
 Um dieses Modul zu aktivieren, gibt es zwei Möglichkeiten :
 

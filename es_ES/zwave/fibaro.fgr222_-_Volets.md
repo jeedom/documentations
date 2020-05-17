@@ -20,7 +20,7 @@ Cada módulo Z-Wave funciona como un repetidor inalámbrico con los otros módul
 
 Nota : Este módulo requiere neutral para operar.
 
-## Fonctions
+## Funciones
 
 -   Controle sus persianas o persianas de forma remota
 -   Compatible con BSO y persiana veneciana con posicionamiento de lamas
@@ -56,7 +56,7 @@ Nota : Este módulo requiere neutral para operar.
 -   Tipo de producto : 770
 -   ID del producto : 4096
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -70,7 +70,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/fibaro.fgrm222/information.jpg)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -93,7 +93,7 @@ Aquí está la lista de comandos :
 -   Declinar : Permite disminuir las lamas (modo de lamas ajustable)
 -   No : Se usa para definir el paso para presionar Rechazar o Inclinar
 
-### Configuracion del modulo
+### Configuración du module
 
 Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento OpenZwave de Jeedom.
 
@@ -129,7 +129,7 @@ Detalles del parámetro :
 -   44: permite elegir si el consumo y la potencia deben incluir o no los del propio módulo
 -   50: permite elegir si el módulo debe enviar la información a los nodos en asociación en modo escena o en modo asociación
 
-### Groupes
+### Grupos
 
 Este módulo tiene 3 grupos de asociación, solo el tercero es esencial.
 
@@ -137,13 +137,13 @@ Este módulo tiene 3 grupos de asociación, solo el tercero es esencial.
 
 ## Bueno saber
 
-### Reset
+### Restablecer
 
 ![Config5](images/fibaro.fgrm222/config5.jpg)
 
 Puede restablecer su medidor de consumo haciendo clic en este botón disponible en la pestaña Sistema.
 
-### Important
+### Importante
 
 > **Importante**
 >
@@ -153,6 +153,6 @@ Puede restablecer su medidor de consumo haciendo clic en este botón disponible 
 
 ![vuewidget](images/fibaro.fgrm222/vuewidget.jpg)
 
-## Wakeup
+## Despertador
 
 No hay noción de activación en este módulo.

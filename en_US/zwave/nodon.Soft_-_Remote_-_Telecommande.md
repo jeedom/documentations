@@ -1,4 +1,4 @@
-# Nodon Remote Control - Soft Remote
+# Nodon Télécommande - Soft Remote
 
 **The module**
 
@@ -14,7 +14,7 @@ The Soft Remote NodOn® can directly control any Z-Wave® or Z-Wave Plus® compa
 
 It can also trigger scenes via a compatible home automation center.
 
-## Fonctions
+## Functions
 
 -   Control any Z-Wave compatible device
 -   Impact and splash resistant
@@ -41,7 +41,7 @@ It can also trigger scenes via a compatible home automation center.
 -   Product Type : 2
 -   Product ID : 2
 
-## Configuration
+## Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -55,7 +55,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/nodon.softremote/information.png)
 
-### Commandes
+### Commands
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -80,7 +80,7 @@ Here is the list of commands :
 
 -   Drums : it is the command which raises the level of the batteries
 
-### Configuration of the module
+### Setup du module
 
 > **IMPORTANT**
 >
@@ -101,7 +101,7 @@ Parameter details :
 -   4-7 : Choose the button operating mode (in case of group associations)
 -   8 : Allows you to choose the operating mode of the LED
 
-### Groupes
+### Groups
 
 This module has 7 association groups.
 

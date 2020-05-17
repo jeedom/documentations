@@ -16,7 +16,7 @@ Por razones de seguridad, la unidad puede detectar el sobrecalentamiento y apaga
 
 El Micromodule Mural ON / OFF es un dispositivo compatible con Z-Wave ™ que está diseñado para funcionar con todas las redes compatibles con Z-Wave ™. Puede ser controlado por un control remoto, software de PC o cualquier controlador Z-Wave en su red.
 
-## Fonctions
+## Funciones
 
 -   Controlar una luz / dispositivo de forma remota
 -   Se instala detrás de un interruptor existente
@@ -48,7 +48,7 @@ El Micromodule Mural ON / OFF es un dispositivo compatible con Z-Wave ™ que es
 -   Tipo de producto : 4
 -   ID del producto : 8
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -62,7 +62,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/smarthomebyeverspring.AN179-0/information.jpg)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -76,7 +76,7 @@ Aquí está la lista de comandos :
 
 Tenga en cuenta que en el tablero de instrumentos, la información de estado, ON / OFF se encuentra en el mismo icono.
 
-### Configuracion del modulo
+### Configuración du module
 
 Puede configurar el módulo de acuerdo con su instalación. Para hacer esto, vaya al botón "Configuración" del complemento OpenZwave de Jeedom.
 
@@ -93,7 +93,7 @@ Detalles del parámetro :
 -   3 : Este parámetro se usa para definir si el interruptor reanudará su estado (ON u OFF) después de una recuperación de energía.
 -   4 : Este parámetro define el tipo de interruptor (push / bistable)
 
-### Groupes
+### Grupos
 
 Este módulo tiene 2 grupos de asociación.
 

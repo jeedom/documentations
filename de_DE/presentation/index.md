@@ -31,7 +31,7 @@ Der Kern umfasst unter anderem :
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
 
-## Historiques
+## Historisch
 
 *Alle Informationen können gespeichert werden (Temperaturkurve, Verbrauch, Türöffnungen usw.) und sind unter Analyse → Verlauf oder über die Dashboard-Kacheln zugänglich.*
 
@@ -49,7 +49,7 @@ Der Kern umfasst unter anderem :
 
 ![Widgets](images/doc-presentation-widgets.jpg)
 
-## Interactions
+## Interaktion
 
 *Mit dem Interaktionssystem in Jeedom können Sie Aktionen über Text- oder Sprachbefehle ausführen.*
 
@@ -62,7 +62,7 @@ Der Kern umfasst unter anderem :
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 
 
-# Market
+# Markt
 
 Um diesen Kern herum befinden sich Plugins, die aller Art sein können :
 

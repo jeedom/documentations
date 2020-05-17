@@ -20,7 +20,7 @@ Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden, um einen vorhand
 
 Für Lampen mit sehr geringem Verbrauch (z. B. LED-Lampe) können Sie die Last (Bypass) FGB-001 verwenden, die einen korrekten Betrieb des Moduls ermöglicht. Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits über ein vorhandenes Netzwerk verfügen. Jedes Z-Wave-Modul funktioniert wie ein drahtloser Repeater mit den anderen Modulen, um eine vollständige Abdeckung Ihres Hauses zu gewährleisten.
 
-## Fonctions
+## Funktionen
 
 -   Fernbeleuchtung
 -   Wird hinter einem vorhandenen Switch installiert
@@ -55,7 +55,7 @@ Für Lampen mit sehr geringem Verbrauch (z. B. LED-Lampe) können Sie die Last (
 -   Produkttyp : 256
 -   Produkt-ID : 4106
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -73,7 +73,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/fibaro.fgd211/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -88,7 +88,7 @@ Hier ist die Liste der Befehle :
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf demselben Symbol befinden
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie dazu auf die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom.
 
@@ -124,7 +124,7 @@ Parameterdetails :
 -   39: Alarmdauer definiert in Parameter 30
 -   41: Ermöglicht das Aktivieren oder Nicht-Aktivieren der Szenenaktivierungsfunktion
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat drei Assoziationsgruppen, nur die dritte ist wesentlich.
 
@@ -144,7 +144,7 @@ Wenn Sie das Modul ausschließen / einschließen möchten, ohne den Schalter zu 
 
 ![vuewidget](images/fibaro.fgd211/vuewidget.jpg)
 
-## Wakeup
+## Aufwachen
 
 Keine Vorstellung von Aufwecken auf diesem Modul.
 

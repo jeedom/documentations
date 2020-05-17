@@ -1,4 +1,4 @@
-# D-Link DCH-Z110 - "3 in 1 Öffnung"
+# D-Link DCH-Z110 - "3 en 1 Ouverture"
 
 **Das Modul**
 
@@ -16,7 +16,7 @@ Durch Öffnen der Tür oder des Fensters wird der Magnet vom Detektor wegbewegt,
 
 Der Detektor erhöht auch die Helligkeit und die Temperatur, d. H. Im Falle einer signifikanten Änderung, und jedes Mal, wenn das Öffnen / Schließen erfasst wird. Ein Z-Wave-Controller (Fernbedienung, Dongle…?) Ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits ein Netzwerk haben.
 
-## Fonctions
+## Funktionen
 
 -   3 in 1 Detektor: Blende, Temperatur, Licht
 -   Optimierte Antennenreichweite
@@ -44,7 +44,7 @@ Anderer Link [technisch](http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_183010
 -   Produkttyp : 2 \ [0x0002 \]
 -   Produkt-ID : 14 \ [0x000e \]
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -58,7 +58,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/dlink.dchz110/apres_inclusion.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -72,7 +72,7 @@ Hier ist die Liste der Befehle :
 -   Sabotage : Dies ist der Sabotagebefehl (er wird im Falle eines Reißens ausgelöst)
 -   Batterie : Es ist der Batteriebefehl
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Wichtig**
 >
@@ -104,7 +104,7 @@ Parameterdetails :
 -   21: Temperaturänderungswert in ° F, um einen Bericht auszulösen
 -   22: Wert in% der Helligkeitsschwankung, um einen Bericht auszulösen. Empfohlener Wert : 10
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat zwei Zuordnungsgruppen, nur die erste ist wesentlich.
 
@@ -114,7 +114,7 @@ Dieses Modul hat zwei Zuordnungsgruppen, nur die erste ist wesentlich.
 
 Zuordnung / Benachrichtigung mit anderen Modulen möglich (Beispiel: Benachrichtigung über das Sirenenglockenspiel DCH-Z510 bei Tür- / Fensteröffnung)
 
-## Wakeup
+## Aufwachen
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 

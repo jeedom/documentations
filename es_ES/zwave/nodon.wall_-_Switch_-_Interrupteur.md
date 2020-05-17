@@ -1,4 +1,4 @@
-# Nodon Switch - Interruptor de pared
+# Mediodía Interrupteur - Wall Switch
 
 **El módulo**
 
@@ -14,7 +14,7 @@ El interruptor de pared NodOn® puede controlar directamente cualquier dispositi
 
 El interruptor tiene una placa de montaje para facilitar el montaje en la casa: usando los tornillos de una olla de montaje, atornillándolo a la pared o simplemente pegándolo a través de los adhesivos de doble cara presentes en la parte posterior de la placa.
 
-## Fonctions
+## Funciones
 
 -   Control solo o con un sistema domótico
 -   Fácil de montar y desmontar
@@ -47,7 +47,7 @@ El interruptor tiene una placa de montaje para facilitar el montaje en la casa: 
 -   Tipo de producto : 2
 -   ID del producto : 3
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -61,7 +61,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/nodon.wallswitch/information.jpg)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con los módulos estarán disponibles.
 
@@ -83,7 +83,7 @@ Aquí está la lista de comandos :
 | **4**          | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
-### Configuracion del modulo
+### Configuración du module
 
 > **Importante**
 >
@@ -103,7 +103,7 @@ Detalles del parámetro :
 -   4-7 : Elija el modo de operación del botón (en caso de asociaciones de grupo)
 -   8 : Le permite elegir el modo de funcionamiento del LED
 
-### Groupes
+### Grupos
 
 Este módulo tiene 7 grupos de asociación.
 
@@ -125,7 +125,7 @@ Este módulo tiene 7 grupos de asociación.
 
 -   Este módulo puede ser complicado en la inclusión. No dudes en despertarlo 1 o 2 veces después de la inclusión. Bueno revisa el grupo de asociación.
 
-## Wakeup
+## Despertador
 
 Para activar este módulo, simplemente presione uno de estos botones
 

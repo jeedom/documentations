@@ -18,7 +18,7 @@ Die Sonde SES302 ermöglicht die Messung der Umgebungstemperatur in Innenräumen
 
 Diese Module eignen sich perfekt für die Temperaturmessung in Zentralheizungssteuerungsanwendungen oder ähnlichen Anwendungen. Die Benutzeroberfläche ist einfach, mit einem lokalen Druckknopf und einer Anzeige-LED auf der Rückseite. Sie können es einfach in ein Z-Wave-Netzwerk einschließen / ausschließen.
 
-## Fonctions
+## Funktionen
 
 -   Genaue Temperaturmessung
 -   Anwendung in dynamischen Steuerungssystemen von Tanks / Rohren / Fußbodenheizungen /…
@@ -46,7 +46,7 @@ Diese Module eignen sich perfekt für die Temperaturmessung in Zentralheizungsst
 -   Produkttyp : 13
 -   Produkt-ID : 2
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -60,7 +60,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/secure.ses302/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -73,7 +73,7 @@ Hier ist die Liste der Befehle :
 
 Es sind auch mehrere nicht sichtbare Temperaturen verfügbar, die nützlich sind, wenn Sie externe Sonden angeschlossen haben
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Wichtig**
 >
@@ -94,13 +94,13 @@ Parameterdetails :
 
 Alle anderen Parameter sind identisch und entsprechen allen möglicherweise angeschlossenen externen Sonden
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat nur eine Zuordnungsgruppe, es ist wichtig
 
 ![Groupe](images/secure.ses302/groupe.jpg)
 
-## Wakeup
+## Aufwachen
 
 Um dieses Modul zu aktivieren, drücken Sie einmal die Taste auf der Rückseite
 

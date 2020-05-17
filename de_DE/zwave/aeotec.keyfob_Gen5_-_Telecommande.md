@@ -18,7 +18,7 @@ Mit jeder Taste können Sie dank der Verwaltung von kurzen und langen Drücken z
 
 Und weil der Keyfob Gen5-Schlüsselanhänger Teil der Gene-Reihe von Aeotec ist, übertrifft er alles, was vorher existierte. Es verwendet den neuesten Chip der Z-Wave 500-Serie und bietet eine 50% ige Erhöhung der Funkreichweite und eine 250% schnellere Kommunikationsgeschwindigkeit im Vergleich zu früheren Z-Wave-Produkten.
 
-## Fonctions
+## Funktionen
 
 -   Schlüsselanhänger Fernbedienung
 -   Primärer oder sekundärer Controller
@@ -51,7 +51,7 @@ Und weil der Keyfob Gen5-Schlüsselanhänger Teil der Gene-Reihe von Aeotec ist,
 -   Produkttyp : 1
 -   Produkt-ID : 88
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -65,7 +65,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/aeotec.keyfob-gen5/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -83,7 +83,7 @@ Hier ist die Liste der Befehle :
   - 7 : Taste 4 kurz drücken
   - 8 : Taste 4 lange drücken
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Wichtig**
 >
@@ -102,7 +102,7 @@ Parameterdetails :
 -   250: Betriebsmodus der Fernbedienung (unbedingt Szene als Fernbedienung verwenden)
 -   255 : Ermöglicht das Zurücksetzen des Schlüsselanhänger ab Werk
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat zwei Assoziationsgruppen, die erste ist die einzige wesentliche.
 
@@ -120,7 +120,7 @@ Gehen Sie wie folgt vor, um dieses Modul als Fernbedienung zu verwenden :
 -   4 : Wecken Sie die Fernbedienung auf und stellen Sie sicher, dass die Änderung berücksichtigt wurde
 -   5 : Ändern Sie die Betriebsart der Fernbedienung, indem Sie die beiden Tasten auf der Rückseite 3 Sekunden lang drücken.
 
-## Wakeup
+## Aufwachen
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 

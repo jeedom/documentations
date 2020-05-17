@@ -1,4 +1,4 @@
-# Nodon Smart Plug - Smartplug
+# Nodon Prise Intelligente - Smartplug
 
 **The module**
 
@@ -12,7 +12,7 @@
 
 The NodOn® remote-controlled socket can be controlled via a Z-Wave® or Z-Wave Plus® compatible home automation system or directly via other Z-Wave® or Z-Wave Plus® controllers such as the Soft Remote, the wall switch or the Octan Remote NodOn®. German standard (Schuko) or French (Type E), the plug can be plugged in 2 directions, head up or head down. Associated with its fine design, these 2 characteristics allow easier integration, without clogging neighboring barrels on a power strip. Learning the socket with its controller requires only a few seconds. A local button allows you to switch the socket on or off directly.
 
-## Fonctions
+## Functions
 
 -   Line current loss detection
 -   Ergonomique: Possibility of plugging the head up / head down socket
@@ -39,7 +39,7 @@ The NodOn® remote-controlled socket can be controlled via a Z-Wave® or Z-Wave 
 -   Product Type : 1
 -   Product ID : 1
 
-## Configuration
+## Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -53,7 +53,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/nodon.smartplug/information.jpg)
 
-### Commandes
+### Commands
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -68,7 +68,7 @@ Here is the list of commands :
 
 Note that on the dashboard, the State, ON / OFF information is found on the same icon.
 
-### Configuration of the module
+### Setup du module
 
 You can configure the module according to your installation. To do this, go through the "Configuration" button of the Zwave plugin from Jeedom.
 
@@ -88,7 +88,7 @@ Parameter details :
 -   4 : Le paramètre force l'état de la Smart Plug à « ON » (Smart Plug activée). When the parameter is activated, it is not possible to switch off the Smart Plug (local or radio)
 -   Parameters 5 to 20 : Through configuration parameters \#5 à \#20, it is possible to configure up to 8 different alarms. In order to properly configure your alarms, the online form: www.nodon.en / support / asp3 / alarm will guide you
 
-### Groupes
+### Groups
 
 This module has 8 association groups.
 

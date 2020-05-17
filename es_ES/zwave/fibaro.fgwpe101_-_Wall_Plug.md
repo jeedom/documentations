@@ -12,7 +12,7 @@
 
 El Fibaro Wall Plug es un receptor-enchufe-transmisor universal en forma de adaptador para enchufarlo a un enchufe de pared en la red eléctrica, compatible con el estándar Z-Wave. Le permite administrar cualquier dispositivo con una potencia máxima de 2.5kW, al tiempo que integra la funcionalidad de medir la potencia activa de la corriente y el consumo de energía de los dispositivos. Este módulo está equipado con un anillo de luz con LED que indican su estado y el consumo de energía de cualquier dispositivo conectado. El enchufe de pared Fibaro puede controlarse mediante un botón en su carcasa o desde cualquier controlador compatible con el estándar Z-Wave
 
-## Fonctions
+## Funciones
 
 -   Controlado desde un controlador compatible con el estándar Z-Wave.
 -   Control de microchip.
@@ -40,7 +40,7 @@ El Fibaro Wall Plug es un receptor-enchufe-transmisor universal en forma de adap
 -   Tipo de producto : 1536
 -   ID del producto : 4096
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -54,7 +54,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/fibaro.fgwpe101/information.jpg)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -70,7 +70,7 @@ Aquí está la lista de comandos :
 
 Tenga en cuenta que en el tablero los comandos ON / OFF / STATUS se agrupan en un solo botón.
 
-### Configuracion del modulo
+### Configuración du module
 
 Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento OpenZwave de Jeedom.
 
@@ -108,7 +108,7 @@ Detalles del parámetro :
 -   63: color cuando se detecta una alarma Zwave
 -   70: energía de seguridad (el enchufe se cortará cuando la energía alcance este umbral)
 
-### Groupes
+### Grupos
 
 Este módulo tiene 3 grupos de asociación, solo el tercero es esencial.
 
@@ -116,12 +116,12 @@ Este módulo tiene 3 grupos de asociación, solo el tercero es esencial.
 
 ## Bueno saber
 
-### Reset
+### Restablecer
 
 ![Config5](images/fibaro.fgwpe101/config5.jpg)
 
 Puede restablecer su medidor de consumo haciendo clic en este botón disponible en la pestaña Sistema. Elija PressButton.
 
-## Wakeup
+## Despertador
 
 No hay noción de activación en este módulo.

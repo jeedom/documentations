@@ -18,7 +18,7 @@ Darüber hinaus verfügt dieser Detektor über einen Analogeingang zum Anschlie�
 
 Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits über ein vorhandenes Netzwerk verfügen.
 
-## Fonctions
+## Funktionen
 
 -   Detektor öffnen
 -   Taste zum Ein- / Ausschließen des Detektors
@@ -47,7 +47,7 @@ Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Det
 -   Produkttyp : 1792
 -   Produkt-ID : 4096
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -61,7 +61,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/fibaro.fgk101-DS18B20/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -74,7 +74,7 @@ Hier ist die Liste der Befehle :
 
 Sie können diese Befehle nach Belieben ein- oder ausblenden.
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Wichtig**
 >
@@ -103,7 +103,7 @@ Parameterdetails :
 -   13: Ermöglicht das Einstellen des Broadcast-Modus für das Senden von Temperatursignalen und das Puffern
 -   14: Aktiviert die Szenenaktivierungsfunktion
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat drei Assoziationsgruppen, nur die dritte ist wesentlich.
 
@@ -121,7 +121,7 @@ Dieses Modul hat drei Assoziationsgruppen, nur die dritte ist wesentlich.
 
 ![vuewidget](images/fibaro.fgk101-DS18B20/vuewidget.jpg)
 
-## Wakeup
+## Aufwachen
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 

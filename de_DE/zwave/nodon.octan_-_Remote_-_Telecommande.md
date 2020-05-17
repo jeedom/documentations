@@ -1,4 +1,4 @@
-# Nodon Fernbedienung - Octan
+# Nicken Télécommande - Octan
 
 **Das Modul**
 
@@ -14,7 +14,7 @@ Mit der Octan Remote NodOn® können Sie jeden Z-Wave®- oder Z-Wave Plus®-komp
 
 Dank seines integrierten Magneten kann er über seine Wandhalterung überall vom Kühler bis zur Kühlschranktür befestigt werden. Zwischen Fernbedienung und Schalter revolutioniert die Octan-Fernbedienung die Steuerung von Haushaltsgegenständen
 
-## Fonctions
+## Funktionen
 
 -   Steuerung allein oder mit einem Hausautomationssystem
 -   Integrierter Magnet
@@ -41,7 +41,7 @@ Dank seines integrierten Magneten kann er über seine Wandhalterung überall vom
 -   Produkttyp : 2
 -   Produkt-ID : 1
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -55,7 +55,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/nodon.octan/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -77,7 +77,7 @@ Hier ist die Liste der Befehle :
 | **4**          | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Wichtig**
 >
@@ -98,7 +98,7 @@ Parameterdetails :
 -   4-7 : Wählen Sie die Tastenbetriebsart (bei Gruppenzuordnungen)
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat 7 Zuordnungsgruppen.
 
@@ -120,7 +120,7 @@ Dieses Modul hat 7 Zuordnungsgruppen.
 
 -   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht, es 1 oder 2 Mal nach der Aufnahme aufzuwecken, und überprüfen Sie die Assoziationsgruppe sorgfältig.
 
-## Wakeup
+## Aufwachen
 
 Um dieses Modul zu aktivieren, drücken Sie einfach eine der Tasten
 

@@ -18,7 +18,7 @@ They are easily connected to the different receivers and can therefore control o
 
 In addition, interaction with other protocols is possible, it can interact with Edisio brand receivers, with Jeedom, but also by any Z-Wave receiver on your network.
 
-## Fonctions
+## Functions
 
 -   Mode of use : Lighting, Dimmer
 -   Small, discreet and aesthetic
@@ -73,7 +73,7 @@ Once, your associated equipment, you should get this :
 
 ![etc1.general](images/etc1/etc1.general.jpg)
 
-### Commandes
+### Commands
 
 Once your equipment is created, you should get the commands associated with the module :
 
@@ -84,7 +84,7 @@ Here is the list of commands :
 -   bt01 : It is the command that allows you to interact with button 1
 -   Drums : Indicates the battery status
 
-### Informations
+### Information
 
 Once your equipment is associated with Jeedom, various information will be available :
 
@@ -95,7 +95,7 @@ Once your equipment is associated with Jeedom, various information will be avail
 -   Drums : Indicates the battery status of the battery modules
 -   STATUS : Returns the status of the module
 
-### Utilisation
+### Use
 
 Once your remote control is configured, you can with the Jeedom Scenario plugin, interact with your remote control on Jeedom and its equipment.
 

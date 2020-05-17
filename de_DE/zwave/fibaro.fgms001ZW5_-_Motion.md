@@ -16,7 +16,7 @@ Der Fibaro-Bewegungsmelder ist batteriebetrieben und so konzipiert, dass er schn
 
 Der Bewegungsmelder kann zur Beleuchtung von Szenen und Überwachungs- und / oder Sicherheitssystemen verwendet werden.
 
-## Fonctions
+## Funktionen
 
 -   Drahtloser Bewegungsmelder
 -   Erkennt Bewegungen mithilfe eines passiven Infrarotsensors
@@ -52,7 +52,7 @@ Der Bewegungsmelder kann zur Beleuchtung von Szenen und Überwachungs- und / ode
 -   Produkttyp : 2048
 -   Produkt-ID : 4097
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -66,7 +66,7 @@ Nach dem Einfügen müssen Sie die zwave + -Konfiguration über die Dropdown-Lis
 
 ![Plugin Zwave](images/fibaro.fgms001zw5/information.jpg)
 
-### Commandes
+### Befehle
 
 Sie müssen einmal auf die Lupe klicken, um die Modulbefehle abzurufen. Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -81,7 +81,7 @@ Hier ist die Liste der Befehle :
 -   Sabotage : Dies ist der Sabotagebefehl (er wird bei Vibrationen ausgelöst)
 -   Batterie : Es ist der Batteriebefehl
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Wichtig**
 >
@@ -132,7 +132,7 @@ Parameterdetails :
 -   87: Temperatur, oberhalb derer die LED rot leuchtet (verbunden mit Parameter 81)
 -   89: Ermöglicht es der LED, im Falle einer Sabotage blau / weiß / rot zu blinken
 
-### Groupes
+### Gruppen
 
 ![Groupe](images/fibaro.fgms001zw5/groupe.jpg)
 
@@ -160,7 +160,7 @@ Die Namen der Gruppen in der Z-Wave + -Version lauten wie folgt:
 
 ![vuewidget](images/fibaro.fgms001zw5/vuewidget.jpg)
 
-## Wakeup
+## Aufwachen
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 

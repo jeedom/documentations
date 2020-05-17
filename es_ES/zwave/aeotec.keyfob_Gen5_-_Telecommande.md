@@ -18,7 +18,7 @@ Cada botón le permite controlar dos dispositivos o escenas gracias a la gestió
 
 Y debido a que el llavero Keyfob Gen5 es parte de la gama Gene de Aeotec, supera todo lo que existía antes. Utiliza el último chip de la serie Z-Wave 500, que ofrece un aumento del 50% en el alcance de la radio y una velocidad de comunicación 250% más rápida en comparación con los productos anteriores de Z-Wave.
 
-## Fonctions
+## Funciones
 
 -   Control remoto llavero
 -   Controlador primario o secundario
@@ -51,7 +51,7 @@ Y debido a que el llavero Keyfob Gen5 es parte de la gama Gene de Aeotec, supera
 -   Tipo de producto : 1
 -   ID del producto : 88
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -65,7 +65,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/aeotec.keyfob-gen5/information.jpg)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -83,7 +83,7 @@ Aquí está la lista de comandos :
   - 7 : Botón 4 pulsaciones cortas
   - 8 : Botón 4 prensas largas
 
-### Configuracion del modulo
+### Configuración du module
 
 > **Importante**
 >
@@ -102,7 +102,7 @@ Detalles del parámetro :
 -   250: modo de funcionamiento del control remoto (ponga absolutamente Scene para usarlo como control remoto)
 -   255 : permite que el llavero se restablezca de fábrica
 
-### Groupes
+### Grupos
 
 Este módulo tiene dos grupos de asociación, el primero es el único esencial.
 
@@ -120,7 +120,7 @@ Para usar este módulo como control remoto, proceda de la siguiente manera :
 -   4 : Active el control remoto y asegúrese de que el cambio se haya tenido en cuenta
 -   5 : Cambie el modo de funcionamiento del control remoto presionando los dos botones en la parte posterior durante 3 segundos.
 
-## Wakeup
+## Despertador
 
 Para activar este módulo, solo hay una forma :
 

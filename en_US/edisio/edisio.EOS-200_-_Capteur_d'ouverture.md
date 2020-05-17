@@ -16,7 +16,7 @@ Depending on the state, the sensor controls the switching on or off of your ligh
 
 The signal is only sent when the sensor is separated from its magnetic element. Integrated LED indicator signals any changes in state. Low battery level signaled by 3 audible "beeps" on the receiver
 
-## Fonctions
+## Functions
 
 -   Wireless magnetic sensor powered by batteries
 -   Detects openings / closings
@@ -43,7 +43,7 @@ The signal is only sent when the sensor is separated from its magnetic element. 
 -   Mark : Edisio Smart Home
 -   Name : EOS-200
 
-## General configuration
+## Setup générale
 
 To configure the Edisio plugin and associate a module with Jeedom, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/edisio/).
 
@@ -57,7 +57,7 @@ You will find below the button "E" which is the association button of the temper
 
 ![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
 
-### Configuration
+### Setup
 
 By default, the sensor is configured in NO (Normally Open)
 
@@ -92,7 +92,7 @@ Here is the list of commands :
 -   Door : It is the command which indicates if the door is open or closed
 -   Drums : Indicates the battery status
 
-### Informations
+### Information
 
 Once your equipment is associated with Jeedom, various information will be available :
 

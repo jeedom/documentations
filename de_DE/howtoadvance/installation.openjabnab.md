@@ -442,7 +442,7 @@ Dann müssen Sie 3 Dateien erstellen :
       QMAKE_CXXFLAGS + = -Fehler
     }
 
-    # Input
+    # Eingabe
     HEADERS + = tts_jeedom.h
     QUELLEN + = tts_jeedom.cpp
 

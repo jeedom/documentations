@@ -1,6 +1,6 @@
 # Implementación de Jeedom DNS
 
-## Objectif
+## Objetivo
 
 Configure Jeedom DNS para que tenga acceso a su Jeedom externamente a través de una URL HTTPS
 
@@ -12,7 +12,7 @@ Configure Jeedom DNS para que tenga acceso a su Jeedom externamente a través de
 
 Para tener acceso a Jeedom DNS es absolutamente necesario tener un paquete de servicio de energía o más.
 
-## Principe
+## Principio
 
 El principio de DNS de Jeedom es muy simple, su Jeedom se conectará a uno de nuestros servidores VPN (conexión cifrada). Entonces este servidor en cuestión con nosotros hace "proxy inverso" durante la solicitud : toma su solicitud para conectarse a su libertad y se la transfiere.
 
@@ -30,7 +30,7 @@ Actualmente tenemos 6 servidores DNS distribuidos en 2 máquinas físicas difere
 
 Ahí es muy simple, debe conectar su Jeedom al mercado (consulte la documentación del primer paso). 
 
-### Market
+### Mercado
 
 Une fois votre Jeedom lié au market, vous allez sur le market; puis sur votre profils (https://www.jeedom.com/market/index.php?v = d & p = perfiles) y finalmente en la pestaña "Mis Jeedoms".
 
@@ -46,7 +46,7 @@ Jeedom iniciará el DNS y le dará su URL de acceso a su Jeedom
 
 Aquí está su Jeedom accesible desde el exterior en https
 
-## FAQ
+## Preguntas frecuentes
 
 > **¿Hay necesidad de abrir puertos en mi caja?**
 >

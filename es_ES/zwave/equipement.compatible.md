@@ -128,7 +128,7 @@
 |<img src="../../es_ES/zwave/images/138.7.256_minikeypad.jpg" width="60" />|Benext|Mini teclado RFID|Teclado RFID|La insignia utilizada no vuelve. Este módulo se vende actualmente bajo la marca Zipato|[Comprar](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 |<img src="../../es_ES/zwave/images/138.7.257_minikeypad.jpg" width="60" />|Benext|Mini teclado RFID|Teclado RFID|La insignia utilizada no vuelve. Este módulo se vende actualmente bajo la marca Zipato|[Comprar](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 
-# Chromagic
+# Cromagico
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -171,7 +171,7 @@
 |<img src="../../es_ES/zwave/images/264.2.14_dchz110.doorsensor.jpg" width="60" />|Dlink|DCH-Z110|Ouverture||[Comprar](http://www.domadoo.fr/fr/peripheriques/3692-d-link-capteur-de-portefenetre-z-wave-3-en-1-790069409844.html)|
 |<img src="../../es_ES/zwave/images/264.4.10_dchz510.siren.jpg" width="60" />|Dlink|DCH-Z510|Sirena||[Comprar](http://www.domadoo.fr/fr/peripheriques/3696-d-link-sirene-z-wave-6-sons-110-db--790069410758.html)|
 
-# Dome
+# Domo
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -223,7 +223,7 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zwave/images/330.1.2_door.window.sensor.jpg" width="60" />|Ecolink|Sensor de puerta / ventana|Ouverture|||
 
-# Electronicsolutions
+# Soluciones electronicas
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -271,7 +271,7 @@
 |<img src="../../es_ES/zwave/images/96.7.1_st815.jpg" width="60" />|Everspring|ST815|Luminosité||[Comprar](http://www.domadoo.fr/fr/peripheriques/2498-everspring-capteur-de-luminosite-z-wave-avec-ecran-lcd-st815-3700946500349.html)|
 |<img src="../../es_ES/zwave/images/96.9.1_tse03.door.bell.jpg" width="60" />|Everspring|TSE03 Timbre de puerta|Carillon|||
 
-# Evolve
+# Evolucionar
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -406,7 +406,7 @@
 |<img src="../../es_ES/zwave/images/132.817.267_ssa3.jpg" width="60" />|Fortrezz|SSA-03|Sirena||[Comprar](http://www.domadoo.fr/fr/peripheriques/978-fortrezz-sirene-exterieure-ip54-z-wave-flash-ssa-03-0661799563277.html)|
 |<img src="../../es_ES/zwave/images/132.833.517_ssa3.jpg" width="60" />|Fortrezz|SSA-03|Sirena||[Comprar](http://www.domadoo.fr/fr/peripheriques/978-fortrezz-sirene-exterieure-ip54-z-wave-flash-ssa-03-0661799563277.html)|
 
-# Ge
+# Edad
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -415,7 +415,7 @@
 |<img src="../../es_ES/zwave/images/99.18756.12344_12344.dimmer.jpg" width="60" />|Ge|12344 Atenuador inteligente en pared|Micromodule|||
 |<img src="../../es_ES/zwave/images/99.18770.12338_relay.jpg" width="60" />|Ge|12722 Interruptor de relé de encendido / apagado|Micromodule|||
 
-# Gig
+# Concierto
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -510,7 +510,7 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zwave/images/144.1.1_smartcode912.jpg" width="60" />|Kwikset|Código inteligente de cerrojo electrónico|Serrure|||
 
-# Linear
+# Lineal
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -553,7 +553,7 @@
 |<img src="../../es_ES/zwave/images/600.3.4237_nas-pd01zt.jpg" width="60" />|Neocoolcam|Sensor PIR|Multicapteurs|||
 |<img src="../../es_ES/zwave/images/600.512.4135_nas.wr01ze.power.plug.jpg" width="60" />|Neocoolcam|Enchufe de alimentación inteligente NAS-WR01ZE|Prise|||
 
-# Nodon
+# Mediodía
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -601,7 +601,7 @@
 |<img src="../../es_ES/zwave/images/316.6.26_phpab01.micromodule.energy.meter.jpg" width="60" />|Philio|Micromódulo medidor de energía (PH-PAB01)|Consommation|Vendido bajo la olla Zipato|[Comprar](http://www.domadoo.fr/fr/peripheriques/3576-zipato-micromodule-compteur-d-energie-z-wave-3858890732689.html)|
 |<img src="../../es_ES/zwave/images/316.9.34_psr04.smart.color.button.jpg" width="60" />|Philio|Botón de color inteligente PSR04|Interrupteur||[Comprar](http://www.domadoo.fr/fr/peripheriques/3207-philio-interrupteurtelecommande-mural-z-wave-4713698571542.html)|
 
-# Polycontrol
+# Policontrol
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -665,7 +665,7 @@
 |<img src="../../es_ES/zwave/images/345.7.83_zmnhzdx.weather.station.jpg" width="60" />|Qubino|Estación meteorológica ZMNHZDx Z-Wave +|Estación meteorológica||[Comprar](http://www.domadoo.fr/fr/peripheriques/3443-qubino-station-meteo-z-wave-zmnhzd1-3830062070560.html)|
 |<img src="../../es_ES/zwave/images/345.7.84_zmnhxdx.3.phase.smart.meter.jpg" width="60" />|Qubino|Medidor ZMNHXDx 3 PhaseSmart|Rail-din|El módulo debe estar incluido en modo seguro para poder controlar los relés adicionales||
 
-# Remotec
+# Control remoto
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -680,7 +680,7 @@
 |<img src="../../es_ES/zwave/images/151.24881.17665_mini.keypad.rfid.jpg" width="60" />|Schlage|Mini teclado RFID|Teclado RFID|La insignia utilizada no vuelve. Este módulo se vende actualmente bajo la marca Zipato|[Comprar](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 |<img src="../../es_ES/zwave/images/151.26947.17665_on_wall_power_socket.jpg" width="60" />|Schlage|Toma de corriente en la pared|Prise|Este módulo se vende actualmente bajo la marca TapHome||
 
-# Sensative
+# Sensible
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -723,7 +723,7 @@
 |<img src="../../es_ES/zwave/images/358.256.256_swiid.inter.jpg" width="60" />|Swiid|SwiidInter|Interrupteur||[Comprar](http://www.domadoo.fr/fr/peripheriques/2675-swiid-interrupteur-sur-cordon-z-wave-swiidinter-blanc-370092591002.html)|
 |<img src="../../es_ES/zwave/images/358.8199.1798_swiid.swiidplug.jpg" width="60" />|Swiid|SwiidPlug|Prise||[Comprar](http://www.domadoo.fr/fr/peripheriques/2737-swiid-prise-gigogne-z-wave-plus-swiidplug-format-francais-370092591101.html)|
 
-# Thermofloor
+# Termoflor
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|

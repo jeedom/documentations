@@ -1,4 +1,4 @@
-# D-Link DCH-Z110 - "Apertura 3 en 1"
+# D-Link DCH-Z110 - "3 en 1 Ouverture"
 
 **El módulo**
 
@@ -16,7 +16,7 @@ Abrir la puerta o ventana alejará el imán del detector, lo que activará el de
 
 El detector también aumentará el brillo y la temperatura, es decir, en caso de un cambio significativo, y cada vez que se detecte la apertura / cierre. Es necesario un controlador Z-Wave (control remoto, dongle ...?) Para integrar este detector en su red si ya tiene una red existente.
 
-## Fonctions
+## Funciones
 
 -   Detector 3 en 1: Apertura, temperatura, luz
 -   Rango de antena optimizado
@@ -44,7 +44,7 @@ Otro enlace [tecnico](http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_183010381
 -   Tipo de producto : 2 \ [0x0002 \]
 -   ID del producto : 14 \ [0x000e \]
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -58,7 +58,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/dlink.dchz110/apres_inclusion.jpg)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -72,7 +72,7 @@ Aquí está la lista de comandos :
 -   Sabotaje : Este es el comando de sabotaje (se activa en caso de desgarro)
 -   Batería : es el comando de la batería
 
-### Configuracion del modulo
+### Configuración du module
 
 > **Importante**
 >
@@ -104,7 +104,7 @@ Detalles del parámetro :
 -   21: valor de variación de temperatura en ° F para activar un informe
 -   22: valor en% de variación de brillo para activar un informe. Valor recomendado : 10
 
-### Groupes
+### Grupos
 
 Este módulo tiene dos grupos de asociación, solo el primero es esencial.
 
@@ -114,7 +114,7 @@ Este módulo tiene dos grupos de asociación, solo el primero es esencial.
 
 Asociación / Notificación posible con otros módulos (ejemplo: Notificación de campanilla de sirena DCH-Z510 al abrir la puerta / ventana)
 
-## Wakeup
+## Despertador
 
 Para activar este módulo, solo hay una forma :
 

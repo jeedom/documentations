@@ -176,7 +176,7 @@ Entonces encuentras :
 
 Para más información sobre complementos, *Manual de usuario -> Complemento*.
 
-# Support
+# Apoyo
 
 
 Jeedom aborda campos muy amplios y evoluciona día a día.

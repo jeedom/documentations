@@ -14,7 +14,7 @@ Controle su sistema de seguridad con este mini teclado de pared Zipato !
 
 Con este teclado RFID compatible con Z-Wave, podrá activar o desactivar fácilmente su sistema de alarma. Las teclas "Inicio" y "Ausente" le permiten armar / desarmar el sistema de seguridad y / o ejecutar escenarios de automatización del hogar rápidamente. Además de usar el teclado numérico, también puede pasar una placa RFID frente al teclado para armar / desarmar el sistema. El teclado transmite a su controlador de automatización del hogar el identificador de la insignia que ha sido reconocida. Por lo tanto, puede crear fácilmente escenarios de acuerdo con la persona que usó su insignia.
 
-## Fonctions
+## Funciones
 
 -   Código y teclado RFID
 -   Admite la tecnología Z-Wave
@@ -48,7 +48,7 @@ Con este teclado RFID compatible con Z-Wave, podrá activar o desactivar fácilm
 -   Tipo de producto : 24881
 -   ID del producto : 17665
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -62,7 +62,7 @@ Una vez incluido, deberías obtener esto :
 
 ![information](images/zipato.minikeypad/information.jpg)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -75,7 +75,7 @@ Aquí está la lista de comandos :
 -   CODIGO : muestra la insignia o el código del teclado cuando el código ingresado no está en una de las memorias
 -   Batería : es el comando de la batería
 
-### Configuracion del modulo
+### Configuración du module
 
 > **Importante**
 >
@@ -97,7 +97,7 @@ Detalles del parámetro :
 -   4: cantidad de pitidos por segundo (no cambiar no tiene efecto)
 -   5: modo de operación : modo normal o siempre despierto (no recomendado porque consume mucha batería)
 
-### Groupes
+### Grupos
 
 Este módulo tiene dos grupos de asociación.
 
@@ -142,7 +142,7 @@ El teclado lee códigos / insignias de dos maneras :
 -   cuando presiona home / away durante los primeros 1 a 2 segundos si comienza a escribir un código, leerá ese código
 -   Si no se hace nada dentro de los primeros 1 a 2 segundos, entra en modo de lectura de identificación RFID (luz roja encendida). En ese momento puede leer una placa, no antes.
 
-## Wakeup
+## Despertador
 
 Para activar este módulo, hay dos formas de proceder :
 

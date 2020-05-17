@@ -10,7 +10,7 @@ Colocado en un pasillo, la sala de estar, el garaje de su casa, por ejemplo, el 
 
 Gracias a su amplio ángulo de visión y su alcance, permite asegurar un perímetro grande. El indicador LED integrado señala cualquier cambio de estado.
 
-## Fonctions
+## Funciones
 
 -   Detecta movimiento, incluso en completa oscuridad
 -   Ultra compacto
@@ -79,7 +79,7 @@ Una vez que su equipo está emparejado, debe obtener esto :
 >
 > Para que el widget esté presente en el tablero, recuerde colocar su equipo en un objeto.
 
-### Commandes
+### Comandos
 
 Una vez que se crea su equipo, debe obtener los comandos asociados con el módulo :
 
@@ -90,7 +90,7 @@ Aquí está la lista de comandos :
 -   Presencia : Es el comando que indica si se detecta una presencia
 -   Batería : Indica el estado de la batería
 
-### Informations
+### Información
 
 Una vez que su equipo esté asociado con Jeedom, habrá diversa información disponible :
 

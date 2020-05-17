@@ -22,7 +22,7 @@ It also has a siren alarm which can sound in the event of a problem. You can con
 
 This sensor incorporates a Z-Wave network range tester, which assures you of the correct functioning of the sensor during its installation.
 
-## Fonctions
+## Functions
 
 -   Flood detector (presence of water via contacts)
 -   Temperature detector
@@ -57,7 +57,7 @@ This sensor incorporates a Z-Wave network range tester, which assures you of the
 -   Product Type : 2816
 -   Product ID : 4097
 
-## Configuration
+## Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -71,7 +71,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/fibaro.fgfs101/information.jpg)
 
-### Commandes
+### Commands
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -84,7 +84,7 @@ Here is the list of commands :
 -   Sabotage : this is the sabotage command. It signals the opening of the case
 -   Drums : it's the battery command
 
-### Configuration of the module
+### Setup du module
 
 > **IMPORTANT**
 >
@@ -116,7 +116,7 @@ Parameter details :
 -   73 \. Temperature compensation : from -10000 to + 10000 (0 by default = 0 ° C) Allows you to define an offset between the sensor temperature and the actual temperature
 -   75 \. Setting the duration of the alarm : from 0 to 65535s (0 by default, The alarm stops as soon as it no longer detects a fault.)
 
-### Groupes
+### Groups
 
 For optimum operation of your module. Jeedom must be associated at least with groups 1, 4 and 5:
 

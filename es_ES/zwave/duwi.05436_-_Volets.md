@@ -19,7 +19,7 @@ Sus características principales son :
 
 Attention: este módulo no envía su estado al controlador de onda z cuando el usuario presiona los botones directamente. Debe actualizar su posición para actualizar o ajustar la encuesta (ver más abajo).
 
-## Fonctions
+## Funciones
 
 -   Arriba / abajo
 -   Un cable común que se activará en ascenso o descenso
@@ -47,11 +47,11 @@ Attention: este módulo no envía su estado al controlador de onda z cuando el u
 -   Tipo de producto : 16385
 -   ID del producto : 0
 
-## Connexion
+## Conexión
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -63,7 +63,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/duwi.05436/3-Inclusion.PNG)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -90,7 +90,7 @@ Luego presione y mantenga presionado el botón hacia abajo o hacia arriba hasta 
 
 Repita la operación en la otra dirección.
 
-### Configuracion del modulo
+### Configuración du module
 
 Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento OpenZwave de Jeedom.
 
@@ -111,7 +111,7 @@ Anotar : forzar un valor a cero para este parámetro implicará que el módulo c
 -   1 : Funcionalidad de parada : Habilitado o deshabilitado :
 Se usa para indicar si presionar en la dirección opuesta durante el movimiento detiene el obturador o lo devuelve inmediatamente en la dirección opuesta.
 
-### Groupes
+### Grupos
 
 Este módulo tiene solo un grupo de asociación en el que debe estar su controlador Z-Wave.
 

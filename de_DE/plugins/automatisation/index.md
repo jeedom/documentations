@@ -1,5 +1,5 @@
 
-# Automatisme
+# Automatismus
 
 
 >**Wichtig**

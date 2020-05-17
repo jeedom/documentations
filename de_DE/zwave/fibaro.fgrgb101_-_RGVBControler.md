@@ -22,7 +22,7 @@ Mit dem Mikromodul Z-Wave Fibaro FGRGB-101 können Sie zwischen 12 / 24V-Nieders
 -   Globale oder sofortige oder kumulative Verbrauchsmessung.
 -   Repeater-Funktion (Router) zur Erweiterung des Z-Wave-Netzwerks.
 
-## Fonctions
+## Funktionen
 
 -   Bestellen Sie Niederspannungslichter 12 / 24V (Halogen oder LED)
 -   Wird hinter einem vorhandenen Switch installiert
@@ -58,7 +58,7 @@ Mit dem Mikromodul Z-Wave Fibaro FGRGB-101 können Sie zwischen 12 / 24V-Nieders
 -   Produkttyp : 2304
 -   Produkt-ID : 4096
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -72,7 +72,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/fibaro.fgrgb101/configuration.png)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -96,7 +96,7 @@ Hier ist die Liste der Befehle :
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf demselben Symbol befinden
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie dazu auf die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom.
 
@@ -110,7 +110,7 @@ Parameterdetails :
 
 Bitte beachten Sie den vorherigen Screenshot, dessen Parameter ins Französische übersetzt werden.
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat fünf Assoziationsgruppen, nur die fünfte ist wesentlich.
 
@@ -130,6 +130,6 @@ Verwendung von 0-10V Sensoren.
 
 ![Alternative visuelle](images/fibaro.fgrgb101/Visuel_alternatif.png)
 
-## Wakeup
+## Aufwachen
 
 Keine Vorstellung von Aufwecken auf diesem Modul.

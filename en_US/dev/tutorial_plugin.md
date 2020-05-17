@@ -1,4 +1,4 @@
-# Develop on Jeedom
+# Développer sur Jeedom
 
 > **IMPORTANT**
 >
@@ -10,10 +10,10 @@ It does not replace the [Documentation officielle](https://jeedom.github.io/plug
 
 # Create the plugin base
 
-To start, you have to determine a name and an id (which must not exist)
+To start, you have to determine a name and an id (which must not exist) :
 
-Name : Poop Life
-Id : vdm
+- Name : Poop Life
+- Id : vdm
 
 Download the template plugin to have the [based](https://github.com/jeedom/plugin-template/archive/master.zip)
 
@@ -52,50 +52,22 @@ Changelog, documentation, language, compatibility null for the moment. I will co
 2 / We will rename the files necessary for the plugin to be recognized by Jeedom
 
 -   Rename file ``core/ajax/template.ajax.php`` In ``vdm.ajax.php``
-
 -   Rename file ``core/class/template.class.php`` In ``vdm.class.php`` and open it to edit it.
-
-- Replace ``class template extends eqLogic {``
-
-    by ``class vdm extends eqLogic {``
-
-- and ``class templateCmd extends cmd``
-
-    by ``class vdmCmd extends cmd``
-
+- Replace ``class template extends eqLogic {`` by ``class vdm extends eqLogic {``
+- and ``class templateCmd extends cmd`` by ``class vdmCmd extends cmd``
 - Rename the core / php / template.inc file.php to core / php / vdm.inc.php
 - Rename the desktop / php / template file.php to desktop / php / vdm.php and open it.
-
-- Replace ``$plugin = plugin::byId('template');``
-
-    By ``$plugin = plugin::byId(‘vdm');``
-
-- Replace ``{% raw %}{{Add a template}}{% endraw %}``
-
-    By ``{% raw %}{{Add equipment}}{% endraw %}``
-
-- Replace {% raw %}`` <legend> {{My templates}} </legend> ``{% endraw %}
-
-    By {% raw %}`` <legend> {{My equipment}} </legend> ``{% endraw %}
-
-- Replace ``{% raw %}{{Equipment name template}}{% endraw %}``
-
-    By ``{% raw %}{{Name of equipment }}{% endraw %}``
-
-- Replace ``{% raw %}{{template param 1}}{% endraw %}``
-
-    By ``{% raw %}{{Settings}}{% endraw %}``
-
-- Replace ``<?php include_file('desktop', 'template', 'js', 'template');?>``
-
-    By ``<?php include_file('desktop', vdm, 'js', vdm);?>``
+- Replace ``$plugin = plugin::byId('template');`` By ``$plugin = plugin::byId(‘vdm');``
+- Replace ``{% raw %}{{Add a template}}{% endraw %}`` By ``{% raw %}{{Add equipment}}{% endraw %}``
+- Replace ``<legend>{{Mes templates}}</legend>`` By ``{% raw %}<legend>{{Mes équipement}}</legend>{% endraw %}``
+- Replace ``{% raw %}{{Equipment name template}}{% endraw %}`` By ``{% raw %}{{Name of equipment }}{% endraw %}``
+- Replace ``{% raw %}{{template param 1}}{% endraw %}`` By ``{% raw %}{{Settings}}{% endraw %}``
+- Replace ``<?php include_file('desktop', 'template', 'js', 'template');?>`` By ``<?php include_file('desktop', vdm, 'js', vdm);?>``
 
 And nothing else, don't change the line ``<?php include_file('core', 'plugin.template', 'js');?>``
 
--Rename file ``desktop/modal/modal.template.php`` In ``desktop/modal/modal.vdm.php``
-
--Rename file ``desktop/js/template.js`` In ``desktop/js/ vdm.js``
-
+- Rename file ``desktop/modal/modal.template.php`` In ``desktop/modal/modal.vdm.php``
+- Rename file ``desktop/js/template.js`` In ``desktop/js/ vdm.js``
 - Open file ``plugin_info/install.php``
 
 And rename the functions as follows
@@ -171,7 +143,7 @@ You must therefore create an info type command to store this information. Elle s
 
 For the example we will add a command which refreshes the information. It will therefore be an action type command and other subtype
 
--Créer un équipement « vdm1 » In cliquant sur le +. Activate it and make it visible. Choose an object and the equipment must appear on the dashboard (depending on the object).
+- Créer un équipement « vdm1 » In cliquant sur le +. Activate it and make it visible. Choose an object and the equipment must appear on the dashboard (depending on the object).
 
 At this time, there are no commands that appear in the s command tab, nor on the widget.
 
@@ -205,9 +177,8 @@ public function postSave() {
 }
 ````
 
--Créer un autre équipement « vdm2 » In cliquant sur le +. In the commands tab, the commands appeared. Activate it and make it visible. Choose a parent object and see what it looks like on the dashboard.
-
--Enregistrer le premier équipement « vdm1 » pour créer les commandes. See the rendering on the widget too.
+- Créer un autre équipement « vdm2 » In cliquant sur le +. In the commands tab, the commands appeared. Activate it and make it visible. Choose a parent object and see what it looks like on the dashboard.
+- Enregistrer le premier équipement « vdm1 » pour créer les commandes. See the rendering on the widget too.
 
 In the commands tab, you should see.
 
@@ -320,7 +291,6 @@ Here is the rendering.The configuration options (Display and log) are present.
 
 Here it remains to recover a random vdm and to use the commands.
 
-
 # Information retrieval
 
 To randomly retrieve a vdm.
@@ -340,17 +310,17 @@ return $divs[0]->nodeValue ;
 Open the core / class / vdm.class file.php and for the class vdm which inherits from egLogic methods, I create a function randomVdm
 
 ````
-    public function randomVdm() {
-        $url = "http://www.viedemerde.fr/aleatoire";
-        $data = file_get_contents($url);
-        @$dom = new DOMDocument();
-        libxml_use_internal_errors(true);
-        $dom->loadHTML($data);
-        libxml_use_internal_errors(false);
-        $xpath = new DOMXPath($dom);
-        $divs = $xpath->query('//article[@class="art-panel col-xs-12"]//div[@class="panel-content"]//p//a');
-        return $divs[0]->nodeValue ;
-    }
+public function randomVdm() {
+    $url = "http://www.viedemerde.fr/aleatoire";
+    $data = file_get_contents($url);
+    @$dom = new DOMDocument();
+    libxml_use_internal_errors(true);
+    $dom->loadHTML($data);
+    libxml_use_internal_errors(false);
+    $xpath = new DOMXPath($dom);
+    $divs = $xpath->query('//article[@class="art-panel col-xs-12"]//div[@class="panel-content"]//p//a');
+    return $divs[0]->nodeValue ;
+}
 ````
 
 Now we will update the info command (story) with this information by launching the action command (refresh).
@@ -359,8 +329,7 @@ Still in core / class / vdm.class.php for the class vdmCmd we will use the execu
 ````
 public function execute($_options = array()) {
 
-
- }
+}
 ````
 
 C'est here qu'on va définir ce qu'il va se passer quand on lance la commande « Rafraîchir ». The class vdmCmd inherited all the methods of the class cmd (Core jeedom)
@@ -391,15 +360,15 @@ $eqlogic->checkAndUpdateCmd('story', $info);
 Which gives in the end
 
 ````
-    public function execute($_options = array()) {
-        $eqlogic = $this->getEqLogic(); //récupère l'éqlogic de la commande $this
-        switch ($this->getLogicalId()) {    //vérifie le logicalid de la commande
-            case 'refresh': // LogicalId de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm .
-                $info = $eqlogic->randomVdm();  //On lance la fonction randomVdm() pour récupérer une vdm and on la stocke dans la variable $info
-                $eqlogic->checkAndUpdateCmd('story', $info); // on mand à jour la commande avec le LogicalId "story"  de l'eqlogic
-                break;
-        }
+public function execute($_options = array()) {
+    $eqlogic = $this->getEqLogic(); //récupère l'éqlogic de la commande $this
+    switch ($this->getLogicalId()) {    //vérifie le logicalid de la commande
+        case 'refresh': // LogicalId de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm .
+            $info = $eqlogic->randomVdm();  //On lance la fonction randomVdm() pour récupérer une vdm and on la stocke dans la variable $info
+            $eqlogic->checkAndUpdateCmd('story', $info); // on mand à jour la commande avec le LogicalId "story"  de l'eqlogic
+            break;
     }
+}
 ````
 
 Now go to a created device and launch the Refresh command. Puis la commande « Histoire » qui doit être à jour.
@@ -432,20 +401,20 @@ Considering the plugin we will update every hour (let's be crazy). So we will us
 We will therefore open the vdm.class file.php and search
 
 ````
-    /*
-     * Fonction exécutée automatiquement toutes les heures by Jeedom
-      public static function cronHourly() {
+/*
+ * Fonction exécutée automatiquement toutes les heures by Jeedom
+  public static function cronHourly() {
 
-      }
-     */
+  }
+ */
 ````
 
 Uncomment the code
 
 ````
-      public static function cronHourly() {
+public static function cronHourly() {
 
-      }
+}
 ````
 
 Our function is operational
@@ -460,6 +429,7 @@ and sort them 1 by 1
 
 ````
 foreach (self::byType('vdm') as $vdm) {
+
 }
 ````
 
@@ -467,6 +437,7 @@ Before doing anything we check that the equipment is active
 
 ````
 if ($vdm->getIsEnable() == 1) {
+
 }
 ````
 
@@ -488,20 +459,21 @@ $cmd->execCmd();
 Which gives in the end
 
 ````
-      public static function CronHourly () {
-          foreach (self::byType('vdm') as $vdm) {//parcours tous les équipements du plugin vdm
-              if ($vdm->getIsEnable() == 1) {//vérifie que l'équipement est actif
-                  $cmd = $vdm->getCmd(null, 'refresh');//retourne la commande "refresh si elle existe
-                  if (!is_object($cmd)) {//Si la commande n'existe pas
-                    continue; //continue la boucle
-                  }
-                  $cmd->execCmd(); // la commande existe on la lance
-              }
-          }
-      }
+public static function CronHourly () {
+    foreach (self::byType('vdm') as $vdm) {//parcours tous les équipements du plugin vdm
+        if ($vdm->getIsEnable() == 1) {//vérifie que l'équipement est actif
+            $cmd = $vdm->getCmd(null, 'refresh');//retourne la commande "refresh si elle existe
+            if (!is_object($cmd)) {//Si la commande n'existe pas
+              continue; //continue la boucle
+            }
+            $cmd->execCmd(); // la commande existe on la lance
+        }
+    }
+}
 ````
 
-Pour tester, dans jeedom , aller dans configuration/moteur de tâches and lancer le cron de class « plugin » fonction « CronHourly »
+Pour tester, dans jeedom , aller dans configuration/moteur de tâches and lancer le cron de class « plugin » fonction « CronHourly ».
+
 Information is updated.
 
 It's good but it doesn't suit me. A la création de l'équipement, la commande « story » ne se mand pas à jour.
@@ -528,38 +500,38 @@ But here is an alternative that may prove more useful in more complex cases
 In the postUpdate () function, we launch the cronHourly () function with the device id
 
 ````
-    public function postUpdate() {
-        self::cronHourly($this->getId());// lance la fonction CronHourly avec l'id de l'eqLogic
-    }
+public function postUpdate() {
+    self::cronHourly($this->getId());// lance la fonction CronHourly avec l'id de l'eqLogic
+}
 ````
 
 But in this case we change the cronHourly () function
 
 ````
-    public static function cronHourly($_eqLogic_id = null) {
-        if ($_eqLogic_id == null) { // La fonction n'a pas d'argument donc on recherche tous les équipements du plugin
-            $eqLogics = self::byType('vdm', true);
-        } else {// La fonction a l'argument id(unique) d'un équipement(eqLogic)
-            $eqLogics = array(self::byId($_eqLogic_id));
-        }
+public static function cronHourly($_eqLogic_id = null) {
+    if ($_eqLogic_id == null) { // La fonction n'a pas d'argument donc on recherche tous les équipements du plugin
+        $eqLogics = self::byType('vdm', true);
+    } else {// La fonction a l'argument id(unique) d'un équipement(eqLogic)
+        $eqLogics = array(self::byId($_eqLogic_id));
+    }
 
-        foreach ($eqLogics as $vdm) {
-            if ($vdm->getIsEnable() == 1) {//vérifie que l'équipement est acitf
-                $cmd = $vdm->getCmd(null, 'refresh');//retourne la commande "refresh si elle existe
-                if (!is_object($cmd)) {//Si la commande n'existe pas
-                  continue; //continue la boucle
-                }
-                $cmd->execCmd(); // la commande existe on la lance
+    foreach ($eqLogics as $vdm) {
+        if ($vdm->getIsEnable() == 1) {//vérifie que l'équipement est acitf
+            $cmd = $vdm->getCmd(null, 'refresh');//retourne la commande "refresh si elle existe
+            if (!is_object($cmd)) {//Si la commande n'existe pas
+              continue; //continue la boucle
             }
+            $cmd->execCmd(); // la commande existe on la lance
         }
     }
+}
 ````
 
 Then you can change the frequency of the cron according to the importance of your information to recover.
 
 I can only invite you to take the time to go to this page to learn more ==> [here](https://jeedom.github.io/documentation/phpdoc/index.html)
 
-And even better to go to the core github ==> [Here](https://github.com/jeedom/core/tree/alpha/core/class)
+And even better to go to the core github ==> [here](https://github.com/jeedom/core/tree/alpha/core/class)
 
 Put your nose in to master even more .
 
@@ -583,7 +555,7 @@ Donc on va changer le style In affectant un template à la commande « story»
 
 Nothing's easier.
 
-I will see ==> [Here](https://github.com/jeedom/core/tree/alpha/core/template/dashboard)
+I will see ==> [here](https://github.com/jeedom/core/tree/alpha/core/template/dashboard)
 
 I'm looking for a template for cmd.info.string (our command is of type info subtype string) .Not difficult there are only two (default or tile)
 
@@ -592,17 +564,17 @@ J'applique le template « cmd.info.string.tile.html » à ma commande.
 For that I open the file vdm.class.php , fonction postSave() and j'ajoute le template « tile » pour la commande « story » In appliquant la méthode setTemplate()
 
 ````
-        $info = $this->getCmd(null, 'story');
-        if (!is_object($info)) {
-            $info = new vdmCmd();
-            $info->setName(__('Histoire', __FILE__));
-        }
-        $info->setLogicalId('story');
-        $info->setEqLogic_id($this->getId());
-        $info->setType('info');
-        $info->setTemplate('dashboard','tile');//template pour le dashboard
-        $info->setSubType('string');
-        $info->save();
+$info = $this->getCmd(null, 'story');
+if (!is_object($info)) {
+    $info = new vdmCmd();
+    $info->setName(__('Histoire', __FILE__));
+}
+$info->setLogicalId('story');
+$info->setEqLogic_id($this->getId());
+$info->setType('info');
+$info->setTemplate('dashboard','tile');//template pour le dashboard
+$info->setSubType('string');
+$info->save();
 ````
 
 Refresh the dasboard.
@@ -622,9 +594,9 @@ Yes, but !! Because there is a but. Try adding this in the postsave () or postUp
 Now that you have read correctly, you know that you must use the preSave () method
 
 ````
-    public function preSave() {
-        $this->setDisplay("width","800px");
-    }
+public function preSave() {
+    $this->setDisplay("width","800px");
+}
 ````
 
 Register equipment and refresh the dashboard.
@@ -682,12 +654,12 @@ It's simple, no? . C'est pourquoi il ne faut surtout pas toucher à cette ligne 
 If you take a closer look at the desktop file.php ago
 
 ````
-                    <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" /> // retourne l'id(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getId() ;
+<input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" /> // retourne l'id(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getId() ;
 ````
 
 ````
 {% raw %}
-                    <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Name of equipment}}"/>// retourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getName() ;
+<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Name of equipment}}"/>// retourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getName() ;
 {% endraw %}
 ````
 
@@ -723,12 +695,12 @@ If you have followed everything, you should have in the file desktop.php
 
 ````
 {% raw %}
-       <div class="form-group">
-        <label class="col-sm-3 control-label">{{Type de vdm}}</label>
-        <div class="col-sm-3">
-            <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/>
-        </div>
-    </div>
+ <div class="form-group">
+  <label class="col-sm-3 control-label">{{Type de vdm}}</label>
+  <div class="col-sm-3">
+      <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/>
+  </div>
+</div>
 {% endraw %}
 ````
 
@@ -736,16 +708,16 @@ Which we will replace with
 
 ````
 {% raw %}
-    <div class="form-group">
-        <label class="col-sm-3 control-label" >{{ Type de vdm }}</label>
-        <div class="col-sm-3">
-            <select class="form-control eqLogicAttr" data-l1key="configuration" data-l2key="type ">
-                <option value="aleatoire">{{Aleatoire}}</option>
-                <option value="epicees">{{Coquin}}</option>
-                <option value="tops">{{Best}}</option>
-            </select>
-        </div>
+<div class="form-group">
+    <label class="col-sm-3 control-label" >{{ Type de vdm }}</label>
+    <div class="col-sm-3">
+        <select class="form-control eqLogicAttr" data-l1key="configuration" data-l2key="type ">
+            <option value="aleatoire">{{Aleatoire}}</option>
+            <option value="epicees">{{Coquin}}</option>
+            <option value="tops">{{Best}}</option>
+        </select>
     </div>
+</div>
 {% endraw %}
 ````
 
@@ -763,11 +735,11 @@ $url = "http://www.viedemerde.fr/aleatoire";
 And replace with
 
 ````
-    $type = $this->getConfiguration("type ");
-        if($type == "") { //si le paramètre est vide ou n'existe pas
-            $type = "aleatoire"; //on prends le type aleatoire
-        }
-        $url = "http://www.viedemerde.fr/" .$type  ;
+$type = $this->getConfiguration("type ");
+if($type == "") { //si le paramètre est vide ou n'existe pas
+    $type = "aleatoire"; //on prends le type aleatoire
+}
+$url = "http://www.viedemerde.fr/" .$type  ;
 ````
 
 Now change the value of the select on a device, save and go to the dashboard to see what it gives.

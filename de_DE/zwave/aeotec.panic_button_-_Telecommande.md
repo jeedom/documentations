@@ -18,7 +18,7 @@ Mit der Taste können Sie dank der Verwaltung von kurzen und langen Drücken zwe
 
 Diese Fernbedienung kann auch als Not- oder Panikknopf verwendet werden. Im Notfall oder wenn der Inhaber mit einer anderen Notsituation konfrontiert ist, reicht es aus, den Knopf zu drücken, und es wird ein Z-Wave-Signal ausgegeben. In diesem Fall kann dieses Gerät auch als Medaillon um den Hals verwendet werden.
 
-## Fonctions
+## Funktionen
 
 -   Schlüsselanhänger Fernbedienung
 -   Primärer oder sekundärer Controller
@@ -45,7 +45,7 @@ Diese Fernbedienung kann auch als Not- oder Panikknopf verwendet werden. Im Notf
 -   Produkttyp : 1
 -   Produkt-ID : 38
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -59,7 +59,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/aeotec.panicbutton/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -71,7 +71,7 @@ Hier ist die Liste der Befehle :
   - 1 : Kurze Taste drücken
   - 2 : Langer Druckknopf
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Wichtig**
 >
@@ -90,7 +90,7 @@ Parameterdetails :
 -   250: Betriebsmodus der Fernbedienung (unbedingt Szene als Fernbedienung verwenden)
 -   255 : Ermöglicht das Zurücksetzen des Schlüsselanhänger ab Werk
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat eine einzelne Zuordnungsgruppe. Es ist wichtig.
 

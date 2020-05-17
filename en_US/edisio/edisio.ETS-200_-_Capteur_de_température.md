@@ -16,7 +16,7 @@ The signal is only sent after detecting a temperature difference of 0.5 ° C or 
 
 Integrated LED indicator signals any change of state.
 
-## Fonctions
+## Functions
 
 -   Wireless battery-powered temperature sensor
 -   Ultra compact
@@ -76,7 +76,7 @@ Once, your associated equipment, you should get this :
 
 ![ets200.general](images/ets200/ets200.general.jpg)
 
-### Commandes
+### Commands
 
 Once your equipment is created, you should get the commands associated with the module :
 
@@ -87,7 +87,7 @@ Here is the list of commands :
 -   Temperature : It is the command which indicates the temperature read
 -   Drums : Indicates the battery status
 
-### Informations
+### Information
 
 Once your equipment is associated with Jeedom, various information will be available :
 

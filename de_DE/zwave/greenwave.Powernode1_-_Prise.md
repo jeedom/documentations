@@ -22,7 +22,7 @@ Die PowerNode-gesteuerte Buchse verfügt außerdem über eine Lichtstatusanzeige
 
 Das PowerNode-Steckermodul ist mit einem Überstromschutz ausgestattet, um das angeschlossene Gerät zu schützen. Der PowerNode-Stecker wird bei einem defekten Gerät oder einem Kurzschluss deaktiviert. Zusätzlichen Schutz bietet die interne Sicherung in der Steckdose.
 
-## Fonctions
+## Funktionen
 
 -   Steuern Sie eine Lampe oder ein Gerät fern
 -   Steckermodul, das direkt zwischen einer Steckdose und der zu steuernden Last integriert ist
@@ -57,7 +57,7 @@ Das PowerNode-Steckermodul ist mit einem Überstromschutz ausgestattet, um das a
 -   Produkttyp : 2
 -   Produkt-ID : 2
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -71,7 +71,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/greenwave.Powernode1/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -87,7 +87,7 @@ Hier ist die Liste der Befehle :
 
 Beachten Sie, dass die Befehle ON / OFF / STATUS im Dashboard in einer einzigen Schaltfläche zusammengefasst sind.
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie dazu auf die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom.
 
@@ -104,7 +104,7 @@ Parameterdetails :
 -   1 : Verzögerung, bevor die Taste blinkt : Mindestanzahl von Sekunden zwischen zwei Kommunikationen (wenn diese Zeit überschritten wird, blinkt die Socket-Taste)
 -   2 : Ausgewählte Radfarbe (automatisch erkannt)
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat vier Assoziationsgruppen, nur die 3. Gruppe ist wichtig.
 
@@ -114,7 +114,7 @@ Dieses Modul hat vier Assoziationsgruppen, nur die 3. Gruppe ist wichtig.
 
 Im Gegensatz zu der Mehrfachsteckdose der großen Schwester erfordert diese Steckdose keine Abfrage, um den Verbrauch zu erhöhen.
 
-### Reset
+### Zurücksetzen
 
 ![Config2](images/greenwave.Powernode1/config2.jpg)
 
@@ -122,6 +122,6 @@ Sie können Ihren Verbrauchszähler zurücksetzen, indem Sie auf diese Schaltfl�
 
 ### Besonderheiten
 
-## Wakeup
+## Aufwachen
 
 Keine Vorstellung von Aufwecken auf diesem Modul.

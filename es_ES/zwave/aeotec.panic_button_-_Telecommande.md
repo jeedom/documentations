@@ -1,4 +1,4 @@
-# Botón de pánico Aeotec
+# Aeotec Botón de pánico
 
 **El módulo**
 
@@ -18,7 +18,7 @@ El botón le permite controlar dos dispositivos o escenas gracias a la gestión 
 
 Este control remoto también se puede usar como botón de emergencia o pánico. En caso de angustia o cuando su titular se enfrenta a otra situación de emergencia, es suficiente que presione el botón y se emitirá una señal de Z-Wave. En este caso, este dispositivo también se puede usar como un medallón alrededor del cuello.
 
-## Fonctions
+## Funciones
 
 -   Control remoto llavero
 -   Controlador primario o secundario
@@ -45,7 +45,7 @@ Este control remoto también se puede usar como botón de emergencia o pánico. 
 -   Tipo de producto : 1
 -   ID del producto : 38
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -59,7 +59,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/aeotec.panicbutton/information.jpg)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -71,7 +71,7 @@ Aquí está la lista de comandos :
   - 1 : Presione brevemente el botón
   - 2 : Mantenga presionado el botón
 
-### Configuracion del modulo
+### Configuración du module
 
 > **Importante**
 >
@@ -90,7 +90,7 @@ Detalles del parámetro :
 -   250: modo de funcionamiento del control remoto (ponga absolutamente Scene para usarlo como control remoto)
 -   255 : permite que el llavero se restablezca de fábrica
 
-### Groupes
+### Grupos
 
 Este módulo tiene un solo grupo de asociación. Es indispensable.
 

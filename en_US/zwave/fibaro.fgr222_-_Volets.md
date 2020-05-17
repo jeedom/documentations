@@ -20,7 +20,7 @@ Each Z-Wave module works like a wireless repeater with the other modules, to ens
 
 NOTE : This module requires neutral to operate.
 
-## Fonctions
+## Functions
 
 -   Control your blinds or roller shutters remotely
 -   Compatible with BSO and venetian blind with slat positioning
@@ -56,7 +56,7 @@ NOTE : This module requires neutral to operate.
 -   Product Type : 770
 -   Product ID : 4096
 
-## Configuration
+## Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -70,7 +70,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/fibaro.fgrm222/information.jpg)
 
-### Commandes
+### Commands
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -93,7 +93,7 @@ Here is the list of commands :
 -   Decline : Allows to decline the slats (adjustable slat mode)
 -   Not : Used to define the step for pressing Decline or Incline
 
-### Configuration of the module
+### Setup du module
 
 Then if you want to configure the module according to your installation, you have to go through the "Configuration" button of Jeedom's OpenZwave plugin.
 
@@ -129,7 +129,7 @@ Parameter details :
 -   44: allows to choose whether or not the consumption and the power must include that of the module itself
 -   50: allows to choose if the module should send the info to the nodes in association in scene mode or in association mode
 
-### Groupes
+### Groups
 
 This module has 3 association groups, only the third is essential.
 
@@ -143,7 +143,7 @@ This module has 3 association groups, only the third is essential.
 
 You can reset your consumption meter by clicking on this button available in the System tab.
 
-### Important
+### IMPORTANT
 
 > **IMPORTANT**
 >

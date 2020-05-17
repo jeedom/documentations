@@ -1,6 +1,6 @@
 # Cloud-Überwachung
 
-## Description
+## Beschreibung
 
 Cloud Monitoring ist ein kostenpflichtiger Jeedom SAS-Dienst, der Ihre Jeedoms oder Jeedoms permanent überwacht und Sie bei Problemen warnt.
 

@@ -19,7 +19,7 @@ Seine Hauptmerkmale sind :
 
 Attention: Dieses Modul sendet seinen Status nicht an den Z-Wave-Controller, wenn der Benutzer die Tasten direkt drückt. Sie müssen an seiner Position eine Aktualisierung durchführen, um die Umfrage zu aktualisieren oder anzupassen (siehe unten).
 
-## Fonctions
+## Funktionen
 
 -   Hoch / runter
 -   Ein gemeinsamer Draht, der beim Auf- oder Abstieg eingeschaltet wird
@@ -47,11 +47,11 @@ Attention: Dieses Modul sendet seinen Status nicht an den Z-Wave-Controller, wen
 -   Produkttyp : 16385
 -   Produkt-ID : 0
 
-## Connexion
+## Einloggen
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -63,7 +63,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/duwi.05436/3-Inclusion.PNG)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -90,7 +90,7 @@ Halten Sie dann die Abwärts- oder Aufwärts-Taste gedrückt, bis Sie die gewün
 
 Wiederholen Sie den Vorgang in die andere Richtung.
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, müssen Sie die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom aufrufen.
 
@@ -111,7 +111,7 @@ Hinweis : Wenn Sie für diesen Parameter einen Wert auf Null setzen, bedeutet di
 -   1 : Stop-Funktionalität : Aktiviert oder deaktiviert :
 Wird verwendet, um anzuzeigen, ob durch Drücken in die entgegengesetzte Richtung während der Bewegung der Verschluss gestoppt oder sofort in die entgegengesetzte Richtung zurückgeschaltet wird.
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat nur eine Zuordnungsgruppe, in der sich Ihr Z-Wave-Controller befinden muss.
 

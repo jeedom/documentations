@@ -37,7 +37,7 @@ A total of € 125 for an open source home automation box with complete control 
 >
 > Service pack ? What is it ? You can see [here](https://blog.jeedom.fr/?p=1215) the advantages of service packs.
 
-# Installation
+# Setup
 
 I want to install Jeedom :
 

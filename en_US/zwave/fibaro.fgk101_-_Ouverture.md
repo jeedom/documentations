@@ -18,7 +18,7 @@ In addition, this detector has an analog input for connecting a 1-Wire DS18B20 t
 
 A Z-Wave controller (remote control, dongle…) is necessary in order to integrate this detector into your network if you already have an existing network.
 
-## Fonctions
+## Functions
 
 -   Opening detector
 -   Button to include / exclude the detector
@@ -47,7 +47,7 @@ A Z-Wave controller (remote control, dongle…) is necessary in order to integra
 -   Product Type : 1792
 -   Product ID : 4096
 
-## Configuration
+## Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -61,7 +61,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/fibaro.fgk101-DS18B20/information.jpg)
 
-### Commandes
+### Commands
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -74,7 +74,7 @@ Here is the list of commands :
 
 You can hide or show these commands as you wish.
 
-### Configuration of the module
+### Setup du module
 
 > **IMPORTANT**
 >
@@ -103,7 +103,7 @@ Parameter details :
 -   13: allows to set the broadcast mode sending of temperature signals and to buffer
 -   14: activates the scene activation feature
 
-### Groupes
+### Groups
 
 This module has three association groups, only the third is essential.
 

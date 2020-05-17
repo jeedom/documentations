@@ -54,6 +54,7 @@
         "plugins]": "Plugins]",
         "*plugins": "*Plugins",
         "plugins*": "Plugins*",
+        "# plugins": "# Plugins",
         " Historiques.": " Historisch.",
         " Historiques?": " Historisch?",
         "Historiques ": "Historisch ",
@@ -61,6 +62,7 @@
         "Historiques]": "Historisch]",
         "*Historiques": "*Historisch",
         "Historiques*": "Historisch*",
+        "# Historiques": "# Historisch",
         " Interactions.": " Interaktion.",
         " Interactions?": " Interaktion?",
         "Interactions ": "Interaktion ",
@@ -68,12 +70,14 @@
         "Interactions]": "Interaktion]",
         "*Interactions": "*Interaktion",
         "Interactions*": "Interaktion*",
+        "# Interactions": "# Interaktion",
         " Market.": " Markt.",
         " Market?": " Markt?",
         "Market ": "Markt ",
         "[Market": "[Markt",
         "Market]": "Markt]",
         "*Market": "*Markt",
-        "Market*": "Markt*"
+        "Market*": "Markt*",
+        "# Market": "# Markt"
     }
 }

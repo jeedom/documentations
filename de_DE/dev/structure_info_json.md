@@ -35,9 +35,6 @@ Problem                    | URL zum Bugtracker, falls extern (wenn nicht ausgef
 
 [Plugin-Vorlagendatei / plugin_info / info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
 
-
-
-
 **KATEGORIE-NOMENKLATUR**
 
 Jeedom Markt         | Info.json               |
@@ -57,24 +54,3 @@ Hausautomationsprotokoll   | Automatisierungsprotokoll     |
 Gesundheit                 | Gesundheit                  |
 Sicherheit              | Sicherheit                |
 Automatismus           | Automatisierung          |
-
-
-   
-
-
-  
-
-
-  
-
-
-  
-
-    
-
-
-   
-
-
-
-

@@ -16,7 +16,7 @@ El detector de movimiento Fibaro funciona con baterías y está diseñado para i
 
 El detector de movimiento se puede utilizar para iluminar escenas y sistemas de vigilancia y / o seguridad.
 
-## Fonctions
+## Funciones
 
 -   Detector de movimiento inalámbrico
 -   Detecta movimiento usando un sensor infrarrojo pasivo
@@ -52,7 +52,7 @@ El detector de movimiento se puede utilizar para iluminar escenas y sistemas de 
 -   Tipo de producto : 2048
 -   ID del producto : 4097
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -66,7 +66,7 @@ Una vez incluido, debe aplicar la configuración de zwave + a través de la list
 
 ![Plugin Zwave](images/fibaro.fgms001zw5/information.jpg)
 
-### Commandes
+### Comandos
 
 Debe hacer clic una vez en la lupa para recuperar los comandos del módulo. Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -81,7 +81,7 @@ Aquí está la lista de comandos :
 -   Sabotaje : Este es el comando de sabotaje (se activa en caso de vibración)
 -   Batería : es el comando de la batería
 
-### Configuracion del modulo
+### Configuración du module
 
 > **Importante**
 >
@@ -132,7 +132,7 @@ Detalles del parámetro :
 -   87: temperatura por encima de la cual el LED se iluminará en rojo (vinculado al parámetro 81)
 -   89: permite que el LED parpadee en azul / blanco / rojo en caso de sabotaje
 
-### Groupes
+### Grupos
 
 ![Groupe](images/fibaro.fgms001zw5/groupe.jpg)
 
@@ -160,7 +160,7 @@ Los nombres de los grupos en la versión Z-Wave + son los siguientes:
 
 ![vuewidget](images/fibaro.fgms001zw5/vuewidget.jpg)
 
-## Wakeup
+## Despertador
 
 Para activar este módulo, solo hay una forma :
 

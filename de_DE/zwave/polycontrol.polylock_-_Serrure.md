@@ -20,7 +20,7 @@ So können Sie Ihr Haus ähnlich wie Ihr Auto abschließen - mit einer Fernbedie
 
 Das Poly-Control-System kann zu Hause oder am Arbeitsplatz eingesetzt werden. Das Poly-Lock-Schloss ist batteriebetrieben und funktioniert seit 1 Jahr, ohne die Batterie auszutauschen.
 
-## Fonctions
+## Funktionen
 
 -   Steuern Sie Ihre Haustür fern
 -   Passend für die meisten Türen
@@ -45,7 +45,7 @@ Das Poly-Control-System kann zu Hause oder am Arbeitsplatz eingesetzt werden. Da
 -   Produkttyp : 1
 -   Produkt-ID : 1
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -59,7 +59,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/polycontrol.polylock/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -72,7 +72,7 @@ Hier ist die Liste der Befehle :
 -   Schließen : Es ist der Befehl, der das Schließen des Schlosses ermöglicht
 -   Batterie : Es ist der Batteriebefehl
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Warnung**
 >
@@ -94,7 +94,7 @@ Parameterdetails :
 -   3: wird verwendet, um die Drehzahl des Schlosses zu definieren (0 bis 15, wobei 15 die langsamste ist)
 -   4: ermöglicht die Auswahl aus verschiedenen Betriebsarten (Drehmoment, Kraft, Leistung usw.)
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat nur eine Zuordnungsgruppe.
 

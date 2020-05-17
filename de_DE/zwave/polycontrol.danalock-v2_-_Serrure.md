@@ -42,7 +42,7 @@ Entwickeln Sie die Kontrolle über Ihr Smart Home mit einem Danalock, dem perfek
 
 Danalock kombiniert die Eleganz und den Minimalismus des skandinavischen Designs - mit einer Lünette aus massiv eloxiertem Aluminium und fortschrittlichen Bluetooth- und Z-Wave-Technologien. Ein diskretes dänisches Design für die Ewigkeit.
 
-## Fonctions
+## Funktionen
 
 -   Steuern Sie Ihre Haustür fern
 -   Verbundenes Schloss
@@ -75,7 +75,7 @@ Danalock kombiniert die Eleganz und den Minimalismus des skandinavischen Designs
 -   Produkttyp : 1
 -   Produkt-ID : 1
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -107,7 +107,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/polycontrol.danalock/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -120,7 +120,7 @@ Hier ist die Liste der Befehle :
 -   Schließen : Es ist der Befehl, der das Schließen des Schlosses ermöglicht
 -   Batterie : Es ist der Batteriebefehl
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Warnung**
 >
@@ -149,7 +149,7 @@ Parameterdetails :
 -   11 : Async 0 = Async aus, 1 = Async ein. Wenn Async aktiviert ist, wird das Schloss automatisch kalibriert, wenn es bereits entsperrt ist, und erneut entsperrt (wird für spezielle Türschlösser verwendet).
 -   12 : Betriebsbericht
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat nur eine Zuordnungsgruppe.
 
@@ -167,6 +167,6 @@ Dieses Modul hat nur eine Zuordnungsgruppe.
 >
 > Dieses Modul gibt seinen Status zurück, wenn Sie das Schloss von Hand bedienen. Der Status wird aktualisiert.
 
-## Wakeup
+## Aufwachen
 
 Für dieses Modul gibt es kein Konzept zum Aufwecken.

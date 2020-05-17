@@ -20,7 +20,7 @@ In addition, you can easily move and position this switch at the location of you
 
 It uses the latest Z-Wave 500 series chip, offering a 50% increase in radio range and 250% faster communication speed compared to previous Z-Wave products, as well as lower power consumption allowing greater autonomy.
 
-## Fonctions
+## Functions
 
 -   Multifunction switch
 -   Z-Wave + technology
@@ -52,7 +52,7 @@ It uses the latest Z-Wave 500 series chip, offering a 50% increase in radio rang
 -   Product Type : 9
 -   Product ID : 34
 
-## Configuration
+## Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -66,7 +66,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/philio.psr04/information.jpg)
 
-### Commandes
+### Commands
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -77,7 +77,7 @@ Here is the list of commands :
 -   State : it is the command which will raise the position of the button from 0 to 100%
 -   Drums : it is the command which reports the battery status of the module
 
-### Configuration of the module
+### Setup du module
 
 > **IMPORTANT**
 >
@@ -99,7 +99,7 @@ Parameter details :
 -   25 : allows to define if the module sends its position automatically after rotation (1s delay) or if it is necessary to press the button to validate the sending
 -   26 : activates the sending of scene or not on pressing of the central button (parameter not taken into account in Jeedom)
 
-### Groupes
+### Groups
 
 This module has two association groups, the first is the only essential. The second allows to go up the position to Jeedom
 

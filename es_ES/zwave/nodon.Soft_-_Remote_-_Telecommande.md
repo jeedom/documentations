@@ -1,4 +1,4 @@
-# Control remoto Nodon - Control remoto suave
+# Mediodía Télécommande - Soft Remote
 
 **El módulo**
 
@@ -14,7 +14,7 @@ El Soft Remote NodOn® puede controlar directamente cualquier dispositivo compat
 
 También puede activar escenas a través de un centro de automatización del hogar compatible.
 
-## Fonctions
+## Funciones
 
 -   Controla cualquier dispositivo compatible con Z-Wave
 -   Resistente a golpes y salpicaduras
@@ -41,7 +41,7 @@ También puede activar escenas a través de un centro de automatización del hog
 -   Tipo de producto : 2
 -   ID del producto : 2
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -55,7 +55,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/nodon.softremote/information.png)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -80,7 +80,7 @@ Aquí está la lista de comandos :
 
 -   Batería : es el comando que eleva el nivel de las baterías
 
-### Configuracion del modulo
+### Configuración du module
 
 > **Importante**
 >
@@ -101,7 +101,7 @@ Detalles del parámetro :
 -   4-7 : Elija el modo de operación del botón (en caso de asociaciones de grupo)
 -   8 : Le permite elegir el modo de funcionamiento del LED
 
-### Groupes
+### Grupos
 
 Este módulo tiene 7 grupos de asociación.
 
@@ -121,7 +121,7 @@ Este módulo tiene 7 grupos de asociación.
 
 -   Este módulo puede ser complicado en la inclusión. No dudes en despertarlo 1 o 2 veces después de la inclusión. Bueno revisa el grupo de asociación.
 
-## Wakeup
+## Despertador
 
 Para activar este módulo, solo presione uno de los botones
 

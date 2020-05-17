@@ -16,7 +16,7 @@ Mit seinen sehr kleinen Abmessungen können Sie es einfach in Ihre Tasche stecke
 
 Mit jeder Taste können Sie dank der Verwaltung von kurzen und langen Drücken zwei Geräte oder Szenen steuern. Diese Fernbedienung kann als primäre oder sekundäre Steuerung verwendet werden.
 
-## Fonctions
+## Funktionen
 
 -   Schlüsselanhänger Fernbedienung
 -   Primärer oder sekundärer Controller
@@ -44,7 +44,7 @@ Mit jeder Taste können Sie dank der Verwaltung von kurzen und langen Drücken z
 -   Produkttyp : 1
 -   Produkt-ID : 22
 
-# Configuration
+# Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 > **Wichtig**
@@ -54,7 +54,7 @@ Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeed
 >Einmal enthalten, sollten Sie dies erhalten :
 ![Plugin Zwave](images/aeotec.keyfob/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die den Modulen zugeordneten Befehle verfügbar.
 
@@ -72,7 +72,7 @@ Hier ist die Liste der Befehle :
   - 7 : Taste 4 kurz drücken
   - 8 : Taste 4 lange drücken
 
-### Konfiguration des Moduls
+### Konfiguration du module
 > **Wichtig**
 >
 > Wecken Sie das Modul bei einer ersten Aufnahme immer gleich danach auf
@@ -90,7 +90,7 @@ Parameterdetails :
 
 Alle anderen Parameter sind nur bei direkter Zuordnung zwischen Fernbedienung und Modulen sinnvoll.
 
-### Groupes
+### Gruppen
 Dieses Modul hat eine einzelne Zuordnungsgruppe. Es ist wichtig.
 
 ![Groupe](images/aeotec.keyfob/groupe.jpg)
@@ -107,7 +107,7 @@ Gehen Sie wie folgt vor, um dieses Modul als Fernbedienung zu verwenden :
 -   4 : Wecken Sie die Fernbedienung auf und stellen Sie sicher, dass die Änderung berücksichtigt wurde
 -   5 : Ändern Sie die Betriebsart der Fernbedienung, indem Sie die beiden Tasten auf der Rückseite 3 Sekunden lang drücken.
 
-# Wakeup
+# Aufwachen
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 

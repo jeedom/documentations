@@ -1,4 +1,4 @@
-# Sommaire
+# Summary
 
 - [Manually update Jeedom](/en_US/howto/jeedom.mise_a_jour_manuel)
 - [Go jeedom or plugin in beta](/en_US/howto/passer_en_beta)

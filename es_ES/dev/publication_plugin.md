@@ -6,7 +6,7 @@
 - A la espera de la validación de la cuenta de mercado como desarrollador
 - Tenga su complemento en github (depósito privado o no)
 
-## Configuration
+## Configuración
 
 Una vez conectado con su cuenta de desarrollador en el mercado, debe : 
 

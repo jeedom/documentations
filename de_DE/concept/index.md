@@ -1,4 +1,4 @@
-# Concept
+# Konzept
 
 Hier sind die wichtigsten Grundkonzepte von Jeedom. Diese Dokumentation bleibt freiwillig einfach, damit Sie die Kontrolle über Ihre Hausautomation übernehmen können.
 
@@ -8,7 +8,7 @@ Die Möglichkeiten von Jeedom sind nahezu unbegrenzt, da Sie mit ein paar Python
 >
 > Die folgenden Links verweisen auf Core v4.1. Auf der Dokumentationsseite (Benutzerhandbuch oder Konfiguration) können Sie die Version im Menü oben links ändern, um zu der Version zu wechseln, die dem gewünschten Core entspricht.
 
-## Affichage
+## Anzeigen
 
 Mit Jeedom können Sie eine große Anzahl von Geräten miteinander verbinden, unabhängig davon, ob diese auf den Protokollen Z-Wave, Enocean, Zigbee usw., APIs mithilfe von Plugins oder direkt in Form von Skripten basieren. Sie können auf die schauen [Markt](https://market.jeedom.com/) um einen Überblick über die unterstützten Geräte zu erhalten.
 
@@ -40,7 +40,7 @@ Diese Objekte können Teile des Hauses darstellen (Wohnzimmer, Schlafzimmer, Wer
 
 ## Ausrüstung und ihre Kontrollen
 
-### Commandes
+### Befehle
 
 Für die Interaktion mit unserer Hausautomation benötigen Sie Befehle ! Es gibt zwei Arten :
 
@@ -63,7 +63,7 @@ Aktionsbefehle sind normalerweise mit Info-Befehlen verknüpft. Hier hat unsere 
 
 Diese beiden Arten von Befehlen werden in Form von Geräten angehängt. Das Gerät verfügt daher über Info- und / oder Aktionsbefehle. Dieses Gerät verfügt über ein übergeordnetes Objekt, mit dem Sie es an der gewünschten Stelle anzeigen können.
 
-### Équipement
+### Gerät
 
 - Physiquement: Ich habe eine Steckdose mit einem Ein / Aus-Knopf und einer Status-LED im Wohnzimmer.
 - In Jeedom: Ich habe Geräte mit zwei Ein- und Ausschaltaktionen und einer Statusinformation im Salonobjekt.
@@ -76,7 +76,7 @@ Diese Befehle sind in einer Kachel zusammengefasst, die Ihrer Ausrüstung entspr
 
 ![Befehle](images/concept-equipment.jpg)
 
-## Conclusion
+## Fazit
 
 Unabhängig von Ihrem Gerät wird es in Form von Geräten erstellt, aus a [Plugin](/de_DE/core/4.1/plugin).
 

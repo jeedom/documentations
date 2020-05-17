@@ -18,7 +18,7 @@ Der Detektor kann auch in Kombination mit einem Z-Wave-Controller für die Hausa
 
 Der Detektor erhöht auch die Helligkeit und die Temperatur, d. H. Im Falle einer signifikanten Änderung und jedes Mal, wenn eine Bewegung erfasst wird. Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits über ein vorhandenes Netzwerk verfügen.
 
-## Fonctions
+## Funktionen
 
 -   3 in 1 Detektor: Bewegung, Temperatur, Licht
 -   Übernimmt den aktuellen Chip der Z-Wave 400series, um Mehrkanalbetrieb und höheren Datendurchsatz (9,6 / 40 / 100kbps) zu unterstützen
@@ -57,7 +57,7 @@ Der Detektor erhöht auch die Helligkeit und die Temperatur, d. H. Im Falle eine
 -   Produkttyp : 2
 -   Produkt-ID : 2
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -71,7 +71,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/philio.psp01/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -88,7 +88,7 @@ Hier ist die Liste der Befehle :
 
 Alle Module des Bereichs haben die gleichen IDs. Es liegt an Ihnen, die Module anzuzeigen, die Ihrem Modul entsprechen.
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Wichtig**
 >
@@ -116,7 +116,7 @@ Parameterdetails :
 -   12: Mit dieser Option können Sie die Dauer zwischen zwei Helligkeitsberichten definieren (eine Einheit = 30 Minuten)
 -   13: Mit dieser Option können Sie die Zeit zwischen zwei Temperaturberichten definieren (eine Einheit = 30 Minuten)
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat zwei Zuordnungsgruppen, nur die erste ist wesentlich.
 
@@ -130,7 +130,7 @@ Dieses Modul hat zwei Zuordnungsgruppen, nur die erste ist wesentlich.
 >
 > Dieses Modul hat eine Besonderheit: Es enthält keinen Bericht, der auf Abweichungen basiert, sondern nur auf der Dauer. Es sendet alle Informationen zu jeder Erkennung. Es sendet auch das Anwesenheitserkennungssignal mehrmals hintereinander. Es ist daher ratsam, das Kontrollkästchen "Ereignis bei Änderung" zu aktivieren, wenn Sie diesen Befehl als Szenarioauslöser verwenden.
 
-## Wakeup
+## Aufwachen
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 

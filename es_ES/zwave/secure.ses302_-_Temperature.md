@@ -18,7 +18,7 @@ La sonda SES302 permite la medición de la temperatura ambiente interior. Está 
 
 Estos módulos son perfectos para la medición de temperatura en aplicaciones de control de calefacción central o cualquier aplicación similar. Su interfaz de usuario es simple, con un botón local y un LED indicador en la parte trasera. Puede incluirlo / excluirlo fácilmente en una red Z-Wave.
 
-## Fonctions
+## Funciones
 
 -   Medición precisa de temperatura
 -   Aplicación en sistemas de control dinámico de tanques / tubos / suelos calentados /
@@ -46,7 +46,7 @@ Estos módulos son perfectos para la medición de temperatura en aplicaciones de
 -   Tipo de producto : 13
 -   ID del producto : 2
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -60,7 +60,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/secure.ses302/information.jpg)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -73,7 +73,7 @@ Aquí está la lista de comandos :
 
 Varias temperaturas no visibles también están disponibles y serán útiles si ha conectado sondas externas
 
-### Configuracion del modulo
+### Configuración du module
 
 > **Importante**
 >
@@ -94,13 +94,13 @@ Detalles del parámetro :
 
 Todos los demás parámetros son idénticos y corresponden a todas las sondas externas posiblemente conectadas
 
-### Groupes
+### Grupos
 
 Este módulo tiene solo un grupo de asociación, es esencial
 
 ![Groupe](images/secure.ses302/groupe.jpg)
 
-## Wakeup
+## Despertador
 
 Para activar este módulo, presione el botón en la parte posterior una vez
 

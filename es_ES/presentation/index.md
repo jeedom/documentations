@@ -31,7 +31,7 @@ The Core incluye entre otros :
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
 
-## Historiques
+## Histórico
 
 *Toda la información se puede guardar (curva de temperatura, consumo, aperturas de puertas, etc.) y accesible en Análisis → Historial o desde los mosaicos del Tablero.*
 
@@ -49,7 +49,7 @@ The Core incluye entre otros :
 
 ![Widgets](images/doc-presentation-widgets.jpg)
 
-## Interactions
+## Interacciones
 
 *El sistema de interacción en Jeedom le permite realizar acciones desde texto o comandos de voz.*
 
@@ -62,7 +62,7 @@ The Core incluye entre otros :
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 
 
-# Market
+# Mercado
 
 Alrededor de este núcleo hay complementos, que pueden ser de todo tipo :
 

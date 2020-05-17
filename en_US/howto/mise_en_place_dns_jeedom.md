@@ -1,6 +1,6 @@
 # Implementation of Jeedom DNS
 
-## Objectif
+## Goal
 
 Set up Jeedom DNS to have access to your Jeedom externally via a HTTPS URL
 
@@ -12,7 +12,7 @@ Set up Jeedom DNS to have access to your Jeedom externally via a HTTPS URL
 
 To have access to Jeedom DNS it is absolutely necessary to have a service pack power or more.
 
-## Principe
+## Principle
 
 The principle of Jeedom DNS is very simple, your Jeedom will connect to one of our VPN servers (encrypted connection). Then this server in question with us makes "reverse proxy" during the request : it takes your request to connect to your jeedom and transfers it to it.
 
@@ -46,7 +46,7 @@ Jeedom will start the DNS and give you your access url to your Jeedom
 
 Here is your Jeedom is accessible from the outside in https
 
-## FAQ
+## Faq
 
 > **Is there a need to open ports on my box**
 >

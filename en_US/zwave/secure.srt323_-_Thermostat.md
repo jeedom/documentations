@@ -20,7 +20,7 @@ It can be used as a direct replacement for existing thermostats, without having 
 
 The SRT323 is an ideal partner for use with a home automation gateway, allowing you to remotely control your heating system. You will no longer have to worry about going home to a cold house, as long as you have a smartphone, tablet or PC close at hand and connected to the internet.
 
-## Fonctions
+## Functions
 
 -   Thermostat for domestic application
 -   Replaces an existing thermostat
@@ -52,7 +52,7 @@ The SRT323 is an ideal partner for use with a home automation gateway, allowing 
 -   Product Type : 1
 -   Product ID : 4
 
-## Configuration
+## Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -70,7 +70,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/secure.srt323/information.jpg)
 
-### Commandes
+### Commands
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -84,7 +84,7 @@ Here is the list of commands :
 -   Heating State : it is the command which allows to know if the thermostat is in heating mode or not
 -   Drums : it's the battery command
 
-### Configuration of the module
+### Setup du module
 
 Then it is necessary to configure the module according to your installation. To do this, go through the "Configuration" button of Jeedom's OpenZwave plugin.
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
@@ -99,7 +99,7 @@ Parameter details :
 -   2: allows to choose the temperature unit
 -   3: allows you to define the temperature variation level so that the module raises it (in units of 0.1 ° C)
 
-### Groupes
+### Groups
 
 For optimum functioning of your module, Jeedom must be associated with the 5 groups
 ![Groupe](images/secure.srt323/groupe.jpg)

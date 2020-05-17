@@ -16,7 +16,7 @@ Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden, um einen vorhand
 
 Das Wall Dimmer-Modul ist ein Z-Wave ™ -kompatibles Gerät, das für alle Z-Wave ™ -kompatiblen Netzwerke geeignet ist. Es kann von einer Fernbedienung, einer PC-Software oder einem beliebigen Z-Wave-Controller in Ihrem Netzwerk gesteuert werden.
 
-## Fonctions
+## Funktionen
 
 -   Steuern Sie ein Licht / Gerät fern
 -   Wird hinter einem vorhandenen Switch installiert
@@ -53,7 +53,7 @@ Das Wall Dimmer-Modul ist ein Z-Wave ™ -kompatibles Gerät, das für alle Z-Wa
 -   Produkttyp : 3
 -   Produkt-ID : 2
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -67,7 +67,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/smarthomebyeverspring.AD146-0/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -82,7 +82,7 @@ Hier ist die Liste der Befehle :
 
 Beachten Sie, dass im Dashboard die Informationen zu Status, EIN / AUS und Intensität auf demselben Symbol angezeigt werden.
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie dazu auf die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom.
 
@@ -100,7 +100,7 @@ Parameterdetails :
 -   4 : Dieser Parameter definiert den Schaltertyp (Push / Bistable)
 -   5 : Dieser Parameter definiert, ob der Schalter im Dimmmodus oder im Ein / Aus-Modus arbeitet
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat 2 Zuordnungsgruppen.
 
@@ -116,6 +116,6 @@ Dieses Modul hat 2 Zuordnungsgruppen.
 
 -   Die Statusrückmeldung kann nicht innerhalb von 3 Sekunden konfiguriert werden.
 
-## Wakeup
+## Aufwachen
 
 Keine Vorstellung von Aufwecken auf diesem Modul.

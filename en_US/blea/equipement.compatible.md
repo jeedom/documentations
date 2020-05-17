@@ -56,7 +56,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/blea/images/dotti.jpg" width="60" />|Dotti|Dotti|Afficheur|Will work much better with keep connection option||
 
-# Dreamscreen
+# DreamScreen
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -123,7 +123,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/blea/images/lywsd02.jpg" width="60" />|Xiaomi|Temperature Humidity|Capteurs|Humidity Temperature Sensors with Display (Lywsd02)||
 
-# Meyerdom
+# MeyerDom
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -131,7 +131,7 @@
 |<img src="../../en_US/blea/images/meyerdom4contacts.jpg" width="60" />|MeyerDom|4 contactors|Contacteurs|4 contactors||
 |<img src="../../en_US/blea/images/meyerdomcontactvocal.jpg" width="60" />|MeyerDom|Voice Contact|Contacteurs|Voice Contactor||
 
-# Meyerdom4contacts
+# MeyerDom4contacts
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -154,7 +154,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/blea/images/miflora.jpg" width="60" />|Xiaomi|Miflora|Capteurs|Plant sensors||
 
-# Miscale
+# MiScale
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|

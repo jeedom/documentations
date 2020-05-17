@@ -1,4 +1,4 @@
-# Nodon Smart Plug - Smartplug
+# Nicken Prise Intelligente - Smartplug
 
 **Das Modul**
 
@@ -12,7 +12,7 @@
 
 Die ferngesteuerte NodOn®-Buchse kann über ein Z-Wave®- oder Z-Wave Plus®-kompatibles Hausautomationssystem oder direkt über andere Z-Wave®- oder Z-Wave Plus®-Steuerungen wie die Soft Remote, den Wandschalter oder gesteuert werden der Octan Remote NodOn®. Deutscher Standard (Schuko) oder französischer Standard (Typ E), der Stecker kann in beide Richtungen angeschlossen werden, Kopf hoch oder Kopf runter. In Verbindung mit seinem feinen Design ermöglichen diese beiden Eigenschaften eine einfachere Integration, ohne benachbarte Fässer auf einer Steckdosenleiste zu verstopfen. Das Erlernen der Buchse mit ihrem Controller dauert nur wenige Sekunden. Über eine lokale Taste können Sie die Steckdose direkt ein- oder ausschalten.
 
-## Fonctions
+## Funktionen
 
 -   Netzstromverlusterkennung
 -   Ergonomique: Möglichkeit des Einsteckens der Kopf-oben / Kopf-unten-Buchse
@@ -39,7 +39,7 @@ Die ferngesteuerte NodOn®-Buchse kann über ein Z-Wave®- oder Z-Wave Plus®-ko
 -   Produkttyp : 1
 -   Produkt-ID : 1
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -53,7 +53,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/nodon.smartplug/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -68,7 +68,7 @@ Hier ist die Liste der Befehle :
 
 Beachten Sie, dass sich im Dashboard die Informationen zu Status, EIN / AUS auf demselben Symbol befinden.
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie dazu auf die Schaltfläche "Konfiguration" des Zwave-Plugins von Jeedom.
 
@@ -88,7 +88,7 @@ Parameterdetails :
 -   4 : Le paramètre force l'état de la Smart Plug à « ON » (Smart Plug activée). Wenn der Parameter aktiviert ist, kann der Smart Plug (lokal oder Radio) nicht ausgeschaltet werden
 -   Parameter 5 bis 20 : Durch Konfigurationsparameter \#5 à \#In 20 können bis zu 8 verschiedene Alarme konfiguriert werden. Um Ihre Alarme richtig zu konfigurieren, das Online-Formular: www.nodon.de / support / asp3 / alarm führt Sie
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat 8 Zuordnungsgruppen.
 
@@ -113,6 +113,6 @@ Dieses Modul hat 8 Zuordnungsgruppen.
 
 -   Es ist sinnlos, Spaß beim Ein- und Ausstecken der Steckdose zu haben, um den Alarm zu beobachten. Dies funktioniert nur etwa dreimal. Darüber hinaus muss der Stecker noch eine Weile mit Strom versorgt werden, um den internen Akku aufzuladen.
 
-## Wakeup
+## Aufwachen
 
 Keine Vorstellung von Aufwecken auf diesem Modul.

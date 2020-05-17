@@ -16,7 +16,7 @@ It can be used in 2-wire mode (without neutral), replacing an existing switch, o
 
 The Wall Dimmer Module is a Z-Wave ™ compatible device which is intended to work with all Z-Wave ™ compatible networks. It can be controlled by a remote control, PC software, or any Z-Wave controller on your network.
 
-## Fonctions
+## Functions
 
 -   Control a light / device remotely
 -   Installs behind an existing switch
@@ -53,7 +53,7 @@ The Wall Dimmer Module is a Z-Wave ™ compatible device which is intended to wo
 -   Product Type : 3
 -   Product ID : 2
 
-## Configuration
+## Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -67,7 +67,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/smarthomebyeverspring.AD146-0/information.jpg)
 
-### Commandes
+### Commands
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -82,7 +82,7 @@ Here is the list of commands :
 
 Note that on the dashboard, the State, ON / OFF, intensity information is found on the same icon.
 
-### Configuration of the module
+### Setup du module
 
 You can configure the module according to your installation. To do this, go through the "Configuration" button of Jeedom's OpenZwave plugin.
 
@@ -100,7 +100,7 @@ Parameter details :
 -   4 : This parameter defines the type of switch (push / bistable)
 -   5 : This parameter defines whether the switch will operate in dimming mode or on / off mode
 
-### Groupes
+### Groups
 
 This module has 2 association groups.
 

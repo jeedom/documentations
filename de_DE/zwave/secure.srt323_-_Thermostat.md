@@ -20,7 +20,7 @@ Es kann als direkter Ersatz für vorhandene Thermostate verwendet werden, ohne d
 
 Der SRT323 ist ein idealer Partner für die Verwendung mit einem Hausautomations-Gateway, mit dem Sie Ihr Heizsystem fernsteuern können. Sie müssen sich keine Sorgen mehr machen, nach Hause in ein kaltes Haus zu gehen, solange Sie ein Smartphone, Tablet oder PC in der Nähe haben und mit dem Internet verbunden sind.
 
-## Fonctions
+## Funktionen
 
 -   Thermostat für den Hausgebrauch
 -   Ersetzt einen vorhandenen Thermostat
@@ -52,7 +52,7 @@ Der SRT323 ist ein idealer Partner für die Verwendung mit einem Hausautomations
 -   Produkttyp : 1
 -   Produkt-ID : 4
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -70,7 +70,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/secure.srt323/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -84,7 +84,7 @@ Hier ist die Liste der Befehle :
 -   Heizzustand : Mit diesem Befehl können Sie feststellen, ob sich der Thermostat im Heizmodus befindet oder nicht
 -   Batterie : Es ist der Batteriebefehl
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 Dann ist es notwendig, das Modul entsprechend Ihrer Installation zu konfigurieren. Gehen Sie dazu auf die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom.
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
@@ -99,7 +99,7 @@ Parameterdetails :
 -   2: ermöglicht die Auswahl der Temperatureinheit
 -   3: Mit dieser Option können Sie den Temperaturschwankungsgrad so definieren, dass das Modul ihn anhebt (in Einheiten von 0,1 ° C)
 
-### Groupes
+### Gruppen
 
 Für eine optimale Funktion Ihres Moduls muss Jeedom den 5 Gruppen zugeordnet sein
 ![Groupe](images/secure.srt323/groupe.jpg)
@@ -112,7 +112,7 @@ Für eine optimale Funktion Ihres Moduls muss Jeedom den 5 Gruppen zugeordnet se
 >
 > Dieses Modul ist batteriebetrieben. Es ist daher wichtig zu beachten, dass eine Änderung des Sollwerts nur beim Aufwachen berücksichtigt wird. Standardmäßig liegt das Aufwecken bei 86400 Sekunden. Es wird dringend empfohlen, den Wert auf ca. 10 Minuten zu verringern. Somit wird eine Änderung des Sollwerts vom Modul spätestens nach 10 Minuten berücksichtigt
 
-## Wakeup
+## Aufwachen
 
 Um dieses Modul aufzuwecken, müssen Sie den Schalter 1 auf ON stellen und
 Wählen Sie mit dem Rad n und drücken Sie das Rad.
