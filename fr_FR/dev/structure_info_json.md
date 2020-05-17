@@ -35,9 +35,6 @@ issue                    | URL vers le bugtracker si externe (si non remplis alo
 
 [Fichier plugin-template/plugin_info/info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
 
-
-
-
 **NOMENCLATURE CATEGORIES**
 
 Market Jeedom         | info.json               |
@@ -57,24 +54,3 @@ Protocole domotique   | automation protocol     |
 Santé                 | health                  |
 Sécurité              | security                |
 Automatisme           | automatisation          |
-
-
-   
-
-
-  
-
-
-  
-
-
-  
-
-    
-
-
-   
-
-
-
-
