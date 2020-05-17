@@ -3,6 +3,7 @@ Theme Core 2019 @Jeedom
 colors Dark
 */
 
+
 html.dark {
   --lineheight : 1.42em;
   /* keet it as rem even when zero!!*/
@@ -73,6 +74,10 @@ html.dark {
   --scBlocSep: rgb(35,35,35);
 
   --shd-color: rgba(15, 15, 15, 0.55);
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: var(--btn-default-color) !important;
 }
 
 html.dark #logo-container:before {
