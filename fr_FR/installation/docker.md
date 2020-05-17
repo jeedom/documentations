@@ -29,7 +29,7 @@ apt-get install docker.io
 
 Installation de l’image :
 
-``docker pull jeedom/jeedom``
+``docker pull jeedom/jeedom:latest``
 
 Puis lancez la :
 

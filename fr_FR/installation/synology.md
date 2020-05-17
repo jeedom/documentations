@@ -30,7 +30,7 @@ Cliquez sur "Registre" :
 
 ![install synology 5](images/install_synology_5.PNG)
 
-Dans le champ de recherche, tapez "jeedom", sélectionnez jeedom/jeedom et cliquez sur télécharger :
+Dans le champ de recherche, tapez "jeedom", sélectionnez jeedom/jeedom (prendre la version latest) et cliquez sur télécharger :
 
 ![install synology 20](images/install_synology_20.PNG)
 
