@@ -28,6 +28,7 @@
         "FR31810505784]": "FR31810505784]",
         "*FR31810505784": "*FR31810505784",
         "FR31810505784*": "FR31810505784*",
+        "# FR31810505784": "# FR31810505784",
         " Contact.": " Contact.",
         " Contact?": " Contact?",
         "Contact ": "Contact ",
@@ -35,12 +36,14 @@
         "Contact]": "Contact]",
         "*Contact": "*Contact",
         "Contact*": "Contact*",
+        "# Contact": "# Contact",
         " OVH.": " OVH.",
         " OVH?": " OVH?",
         "OVH ": "OVH ",
         "[OVH": "[OVH",
         "OVH]": "OVH]",
         "*OVH": "*OVH",
-        "OVH*": "OVH*"
+        "OVH*": "OVH*",
+        "# OVH": "# OVH"
     }
 }

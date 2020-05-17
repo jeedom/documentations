@@ -176,7 +176,7 @@ Sie finden dann :
 
 Weitere Informationen zu Plugins, *Benutzerhandbuch -> Plugin*.
 
-# Support
+# Unterstützung
 
 
 Jeedom befasst sich mit sehr weiten Feldern und entwickelt sich von Tag zu Tag weiter.

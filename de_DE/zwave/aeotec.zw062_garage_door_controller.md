@@ -178,7 +178,7 @@ Hier ist die Liste der Befehle :
 
 
 
-### Konfiguration des Moduls 
+### Konfiguration du module 
 
 
 

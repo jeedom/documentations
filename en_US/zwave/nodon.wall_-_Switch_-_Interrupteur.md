@@ -1,4 +1,4 @@
-# Nodon Switch - Wall Switch
+# Nodon Interrupteur - Wall Switch
 
 **The module**
 
@@ -14,7 +14,7 @@ The NodOn® wall switch can directly control any Z-Wave® or Z-Wave Plus® compa
 
 The switch has a mounting plate for easy mounting in the house: using the screws of a mounting pot, by screwing it to the wall, or simply by sticking it via the double-sided adhesives present on the back of the plate.
 
-## Fonctions
+## Functions
 
 -   Control alone or with a home automation system
 -   Easy to assemble and disassemble
@@ -47,7 +47,7 @@ The switch has a mounting plate for easy mounting in the house: using the screws
 -   Product Type : 2
 -   Product ID : 3
 
-## Configuration
+## Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -61,7 +61,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/nodon.wallswitch/information.jpg)
 
-### Commandes
+### Commands
 
 Once the module is recognized, the commands associated with the modules will be available.
 
@@ -83,7 +83,7 @@ Here is the list of commands :
 | **4**          | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
-### Configuration of the module
+### Setup du module
 
 > **IMPORTANT**
 >
@@ -103,7 +103,7 @@ Parameter details :
 -   4-7 : Choose the button operating mode (in case of group associations)
 -   8 : Allows you to choose the operating mode of the LED
 
-### Groupes
+### Groups
 
 This module has 7 association groups.
 

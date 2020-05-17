@@ -2,7 +2,7 @@
 
 Jeedom se puede usar en dispositivos móviles de dos maneras.
 
-## WebApp
+## Aplicación web
 
 Jeedom adopta una versión específica para dispositivos móviles y tabletas. Se accede desde la misma dirección, en un navegador en el móvil (Firefox, Chrome, Safari, etc.).
 

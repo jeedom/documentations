@@ -1,4 +1,4 @@
-# Desarrollar en Jeedom
+# Développer sur Jeedom
 
 > **Importante**
 >

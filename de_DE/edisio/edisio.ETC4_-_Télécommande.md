@@ -84,7 +84,7 @@ Sobald Sie Ihre zugehörige Ausrüstung haben, sollten Sie diese erhalten :
 
 ![asso equip](images/etc4/asso_equip.jpg)
 
-### Commandes
+### Befehle
 
 Sobald Ihre Ausrüstung erstellt ist, sollten Sie die mit dem Modul verknüpften Befehle erhalten :
 
@@ -98,7 +98,7 @@ Hier ist die Liste der Befehle :
 -   bt04 : Mit diesem Befehl können Sie mit Schaltfläche 4 interagieren
 -   Batterie : Zeigt den Batteriestatus an
 
-### Informations
+### Information
 
 Sobald Ihre Ausrüstung mit Jeedom verknüpft ist, stehen verschiedene Informationen zur Verfügung :
 
@@ -109,7 +109,7 @@ Sobald Ihre Ausrüstung mit Jeedom verknüpft ist, stehen verschiedene Informati
 -   Batterie : Zeigt den Batteriestatus für Batteriemodule an
 -   STATUS : Gibt den Status des Moduls zurück
 
-### Utilisation
+### Verwendung
 
 Sobald Ihre Fernbedienung konfiguriert ist, können Sie mit dem Jeedom Scenario-Plugin mit Ihrer Fernbedienung auf Jeedom interagieren.
 

@@ -16,7 +16,7 @@ With its very small dimensions, you can easily put it in your pocket. Easy to us
 
 Each button allows you to control two devices or scenes thanks to the management of short and long presses. This remote control can be used as a primary or secondary controller.
 
-## Fonctions
+## Functions
 
 -   Key fob remote control
 -   Primary or secondary controller
@@ -44,7 +44,7 @@ Each button allows you to control two devices or scenes thanks to the management
 -   Product Type : 1
 -   Product ID : 22
 
-# Configuration
+# Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 > **IMPORTANT**
@@ -54,7 +54,7 @@ To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer
 >Once included you should get this :
 ![Plugin Zwave](images/aeotec.keyfob/information.jpg)
 
-### Commandes
+### Commands
 
 Once the module is recognized, the commands associated with the modules will be available.
 
@@ -72,7 +72,7 @@ Here is the list of commands :
   - 7 : Button 4 short presses
   - 8 : Button 4 long presses
 
-### Configuration of the module
+### Setup du module
 > **IMPORTANT**
 >
 > During a first inclusion always wake up the module just after
@@ -90,7 +90,7 @@ Parameter details :
 
 All other parameters are only useful in the case of direct association between the remote control and modules.
 
-### Groupes
+### Groups
 This module has a single association group. It is essential.
 
 ![Groupe](images/aeotec.keyfob/groupe.jpg)

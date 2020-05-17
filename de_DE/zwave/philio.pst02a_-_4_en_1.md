@@ -18,7 +18,7 @@ Der Detektor kann auch in Kombination mit einem Z-Wave-Controller für die Hausa
 
 Der Detektor erhöht auch die Helligkeit und die Temperatur, entweder im Falle einer signifikanten Änderung und jedes Mal, wenn eine Bewegung oder ein Öffnen / Schließen erkannt wird. Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits über ein vorhandenes Netzwerk verfügen.
 
-## Fonctions
+## Funktionen
 
 -   4 in 1 Detektor: Bewegung, Blende, Temperatur, Licht
 -   Übernimmt den aktuellen Chip der Z-Wave 400series, um Mehrkanalbetrieb und höheren Datendurchsatz (9,6 / 40 / 100kbps) zu unterstützen
@@ -59,7 +59,7 @@ Der Detektor erhöht auch die Helligkeit und die Temperatur, entweder im Falle e
 -   Produkttyp : 2
 -   Produkt-ID : 12
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -73,7 +73,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/philio.pst02a/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -88,7 +88,7 @@ Hier ist die Liste der Befehle :
 -   Sabotage : Dies ist der Sabotagebefehl (er wird im Falle eines Reißens ausgelöst)
 -   Batterie : Es ist der Batteriebefehl
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Wichtig**
 >
@@ -124,13 +124,13 @@ Parameterdetails :
 -   21: Temperaturänderungswert in ° F, um einen Bericht auszulösen
 -   22: Wert in% der Helligkeitsschwankung zum Auslösen eines Berichts Empfohlener Wert : 10
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat zwei Zuordnungsgruppen, nur die erste ist wesentlich.
 
 ![Groupe](images/philio.pst02a/groupe.jpg)
 
-## Wakeup
+## Aufwachen
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 

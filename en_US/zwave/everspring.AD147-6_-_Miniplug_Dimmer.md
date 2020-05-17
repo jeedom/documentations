@@ -14,7 +14,7 @@ The Mini Dimmer Plug is designed to control the switching on and off of lights a
 
 The Mini Dimmer Plug is a Z-Wave ™ compatible device that is intended to work with all Z-Wave ™ compatible networks. It can be controlled by a remote control, PC software, or any Z-Wave controller on your network.
 
-## Fonctions
+## Functions
 
 -   Control a lamp remotely
 -   Plug module integrating directly between an electrical outlet and the load to be controlled
@@ -44,7 +44,7 @@ The Mini Dimmer Plug is a Z-Wave ™ compatible device that is intended to work 
 -   Product Type : 3
 -   Product ID : 3
 
-## Configuration
+## Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -58,7 +58,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/everspring.AD147-6/information.jpg)
 
-### Commandes
+### Commands
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -73,7 +73,7 @@ Here is the list of commands :
 
 Note that on the dashboard, the State, ON / OFF, Intensity information is found on the same icon.
 
-### Configuration of the module
+### Setup du module
 
 You can configure the module according to your installation. To do this, go through the "Configuration" button of Jeedom's OpenZwave plugin.
 
@@ -90,7 +90,7 @@ Parameter details :
 -   3 : This parameter is used to define whether the socket will resume its status (ON or OFF) after a power recovery.
 -   4 : This parameter allows you to define whether the outlet will operate in dimming mode or on / off mode
 
-### Groupes
+### Groups
 
 This module has 2 association groups.
 ![Groupe](images/everspring.AD147-6/groupe.jpg)

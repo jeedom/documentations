@@ -18,7 +18,7 @@ The detector can also be used in combination with a Z-Wave controller for home a
 
 The detector will also raise the brightness and the temperature, either in the event of a significant change, and each time a movement or opening / closing is detected. A Z-Wave controller (remote control, dongle…) is necessary in order to integrate this detector into your network if you already have an existing network.
 
-## Fonctions
+## Functions
 
 -   4 in 1 detector: movement, aperture, temperature, light
 -   Adopts the recent Z-Wave 400series chip to support multi-channel operations and higher data throughput (9.6 / 40 / 100kbps)
@@ -59,7 +59,7 @@ The detector will also raise the brightness and the temperature, either in the e
 -   Product Type : 2
 -   Product ID : 12
 
-## Configuration
+## Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -73,7 +73,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/philio.pst02a/information.jpg)
 
-### Commandes
+### Commands
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -88,7 +88,7 @@ Here is the list of commands :
 -   Sabotage : this is the sabotage command (it is triggered in the event of tearing)
 -   Drums : it's the battery command
 
-### Configuration of the module
+### Setup du module
 
 > **IMPORTANT**
 >
@@ -124,7 +124,7 @@ Parameter details :
 -   21: temperature variation value in ° F to trigger a report
 -   22: value in% of brightness variation to trigger a report Recommended value : 10
 
-### Groupes
+### Groups
 
 This module has two association groups, only the first is essential.
 

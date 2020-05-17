@@ -20,7 +20,7 @@ Die PowerNode-Steckdosenleiste ist mit einem Überstromschutz ausgestattet, um a
 
 Diese Steckdosenleiste ist ideal für die Steuerung von Multimedia-Geräten in einem Fernsehschrank oder für die Steuerung von Computergeräten in einem Büro, um die Verwendung von 6 einzelnen Z-Wave-Buchsen zu vermeiden.
 
-## Fonctions
+## Funktionen
 
 -   6-Port Z-Wave Steckdosenleiste
 -   Ermöglicht die Überwachung des Verbrauchs angeschlossener Geräte
@@ -54,7 +54,7 @@ Diese Steckdosenleiste ist ideal für die Steuerung von Multimedia-Geräten in e
 -   Produkttyp : 3
 -   Produkt-ID : 4
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -68,7 +68,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/greenwave.powernode/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -117,7 +117,7 @@ Hier ist die Liste der Befehle :
 
 Beachten Sie, dass die Befehle ON / OFF / STATUS im Dashboard in einer einzigen Schaltfläche zusammengefasst sind.
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie dazu auf die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom.
 
@@ -134,7 +134,7 @@ Parameterdetails :
 -   1 : Verzögerungen, bevor die Taste blinkt : Mindestanzahl von Sekunden zwischen zwei Kommunikationen (wenn diese Zeit überschritten wird, blinkt die Socket-Taste)
 -   2 : Ausgewählte Radfarbe (automatisch erkannt)
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat vier Assoziationsgruppen, nur die 1. Gruppe ist wichtig.
 
@@ -157,12 +157,12 @@ Sie können eine virtuelle verwenden, um einen kumulativen Verbrauch der 6 Socke
 
 ![consocumul2](images/greenwave.powernode/consocumul2.jpg)
 
-### Reset
+### Zurücksetzen
 
 ![Config3](images/greenwave.powernode/config3.jpg)
 
 Sie können Ihren Verbrauchszähler zurücksetzen, indem Sie auf diese Schaltfläche auf der Registerkarte System klicken. (Es gibt einen Reset pro Socket). Wählen Sie PressButton.
 
-## Wakeup
+## Aufwachen
 
 Keine Vorstellung von Aufwecken auf diesem Modul.

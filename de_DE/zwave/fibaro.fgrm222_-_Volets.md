@@ -20,7 +20,7 @@ Jedes Z-Wave-Modul funktioniert wie ein drahtloser Repeater mit den anderen Modu
 
 Notiz : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
 
-## Fonctions
+## Funktionen
 
 -   Steuern Sie Ihre Jalousien oder Rollläden fern
 -   Kompatibel mit BSO und Jalousie mit Lamellenpositionierung
@@ -56,7 +56,7 @@ Notiz : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
 -   Produkttyp : 769
 -   Produkt-ID : 4097
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -70,7 +70,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/fibaro.fgrm222/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -93,7 +93,7 @@ Hier ist die Liste der Befehle :
 -   Ablehnen : Ermöglicht das Ablehnen der Lamellen (einstellbarer Lamellenmodus)
 -   Nicht : Wird verwendet, um den Schritt zum Drücken von Ablehnen oder Neigen zu definieren
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, müssen Sie die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom aufrufen.
 
@@ -129,7 +129,7 @@ Parameterdetails :
 -   44: ermöglicht die Auswahl, ob der Verbrauch und die Leistung den des Moduls selbst berücksichtigen müssen
 -   50: Hier können Sie auswählen, ob das Modul die Informationen im Szenenmodus oder im Assoziationsmodus in Zuordnung an die Knoten senden soll
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist wesentlich.
 
@@ -137,19 +137,19 @@ Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist wesentlich.
 
 ## Gut zu wissen
 
-### Reset
+### Zurücksetzen
 
 ![Config5](images/fibaro.fgrm222/config5.jpg)
 
 Sie können Ihren Verbrauchszähler zurücksetzen, indem Sie auf diese Schaltfläche auf der Registerkarte System klicken.
 
-### Important
+### Wichtig
 
 > **Wichtig**
 >
 > Damit die Statusrückmeldung in Jeedom funktioniert, muss die Gerätekalibrierung erzwungen werden (Parameter 29 bis "Ja") und die Positionierung muss aktiv sein (Parameter 10 mit den Werten "Active Direct", "Active Venetian" "oder" Aktive Tür ").
 
 
-## Wakeup
+## Aufwachen
 
 Keine Vorstellung von Aufwecken auf diesem Modul.

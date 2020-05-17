@@ -226,7 +226,7 @@
 |<img src="../../es_ES/enocean/images/f6-10-00.jpg" width="60" />|Hoppe|Manilla para ventana Sécusignal Atlanta Aluminio|Manejar|Elegir el perfil correcto después de la inclusión|[Comprar](http://www.domadoo.fr/fr/peripheriques/1062-hoppe-poignee-fenetre-secusignal-atlanta-alu-4012789023428.html)|
 |<img src="../../es_ES/enocean/images/f6-10-00.jpg" width="60" />|Hoppe|Manilla para ventana Sécusignal Atlanta White|Manejar|Elegir el perfil correcto después de la inclusión|[Comprar](http://www.domadoo.fr/fr/peripheriques/1063-hoppe-poignee-fenetre-secusignal-atlanta-blanc-4012789104158.html)|
 
-# Recepteur
+# Receptor
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|

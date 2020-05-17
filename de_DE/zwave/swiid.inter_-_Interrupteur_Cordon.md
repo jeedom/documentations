@@ -1,4 +1,4 @@
-# Swiid Switch - Swiidinter
+# Swiid Interrupteur - Swiidinter
 
 **Das Modul**
 
@@ -18,7 +18,7 @@ Der SwiidInter-Schalter bietet auch bidirektionale Zuordnungsmöglichkeiten. Som
 
 Der SwiidInter-Schalter wird genau wie ein gewöhnlicher Kabelschalter installiert : Es handelt sich daher um eine einfache und schnelle Installation, für die kein spezielles Werkzeug erforderlich ist. Es muss dann für die Integration in ein Z-Wave- "Netzwerk" konfiguriert werden. Dieses Netzwerk kann so einfach sein wie eine einzelne Fernbedienung, die Ihren SwiidInter-Switch fernsteuert.
 
-## Fonctions
+## Funktionen
 
 -   Schalten Sie das Kabel ein, das sowohl manuell (kurzes Drücken) als auch per Funkfernbedienung (Z-Wave) verwendet werden kann
 -   Verwendung als Ersatz für einen Standard-Kabelschalter an einer Nachttisch-, Tisch- oder Schreibtischlampe
@@ -52,7 +52,7 @@ Der SwiidInter-Schalter wird genau wie ein gewöhnlicher Kabelschalter installie
 -   Produkttyp : 256
 -   Produkt-ID : 256
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -66,7 +66,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/swiid.inter/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -80,7 +80,7 @@ Hier ist die Liste der Befehle :
 
 Beachten Sie, dass sich im Dashboard alle Informationen auf demselben Symbol befinden
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie dazu auf die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom.
 
@@ -99,7 +99,7 @@ Mit diesem Parameter können Sie das Verhalten auswählen, wenn Sie den Swiidint
 -   NUR NUR : wird nur wirksam, um die anderen Lichter einzuschalten
 -   EIN und AUS (vollständig) : wird effektiv sein, um andere Lichter ein- und auszuschalten
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat zwei Zuordnungsgruppen.
 

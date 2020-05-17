@@ -20,7 +20,7 @@ It can be used in 2-wire mode (without neutral), replacing an existing switch, o
 
 For lamps with very low consumption (LED lamp for example), you can use the load (bypass) FGB-001 which allows correct operation of the module. A Z-Wave controller (remote control, dongle…) is necessary in order to integrate this detector into your network if you already have an existing network. Each Z-Wave module works like a wireless repeater with the other modules, to ensure total coverage of your home.
 
-## Fonctions
+## Functions
 
 -   Remote lighting control
 -   Installs behind an existing switch
@@ -55,7 +55,7 @@ For lamps with very low consumption (LED lamp for example), you can use the load
 -   Product Type : 256
 -   Product ID : 4106
 
-## Configuration
+## Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -73,7 +73,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/fibaro.fgd211/information.jpg)
 
-### Commandes
+### Commands
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -88,7 +88,7 @@ Here is the list of commands :
 
 Note that on the dashboard all the information is found on the same icon
 
-### Configuration of the module
+### Setup du module
 
 You can configure the module according to your installation. To do this, go through the "Configuration" button of Jeedom's OpenZwave plugin.
 
@@ -124,7 +124,7 @@ Parameter details :
 -   39: alarm duration defined in parameter 30
 -   41: allows to activate or not the Scene Activation function
 
-### Groupes
+### Groups
 
 This module has three association groups, only the third is essential.
 

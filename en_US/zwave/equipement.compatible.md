@@ -406,7 +406,7 @@
 |<img src="../../en_US/zwave/images/132.817.267_ssa3.jpg" width="60" />|Fortrezz|SSA-03|Mermaid||[Buy](http://www.domadoo.fr/fr/peripheriques/978-fortrezz-sirene-exterieure-ip54-z-wave-flash-ssa-03-0661799563277.html)|
 |<img src="../../en_US/zwave/images/132.833.517_ssa3.jpg" width="60" />|Fortrezz|SSA-03|Mermaid||[Buy](http://www.domadoo.fr/fr/peripheriques/978-fortrezz-sirene-exterieure-ip54-z-wave-flash-ssa-03-0661799563277.html)|
 
-# Ge
+# Age
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -680,7 +680,7 @@
 |<img src="../../en_US/zwave/images/151.24881.17665_mini.keypad.rfid.jpg" width="60" />|Schlage|Mini Keypad RFID|RFID keyboard|The badge used does not go back. This module is currently sold under the Zipato brand|[Buy](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 |<img src="../../en_US/zwave/images/151.26947.17665_on_wall_power_socket.jpg" width="60" />|Schlage|On-Wall Power Socket|Prise|This module is currently sold under the TapHome brand||
 
-# Sensative
+# Sensitive
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|

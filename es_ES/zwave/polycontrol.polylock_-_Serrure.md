@@ -20,7 +20,7 @@ Por lo tanto, es posible bloquear su casa de una manera similar a bloquear su au
 
 El sistema Poly-Control se puede utilizar en el hogar o en el trabajo. La cerradura Poly-Lock funciona con batería y se ha probado que funciona durante 1 año, sin reemplazar la batería.
 
-## Fonctions
+## Funciones
 
 -   Controla tu puerta de entrada de forma remota
 -   Se adapta a la mayoría de las puertas
@@ -45,7 +45,7 @@ El sistema Poly-Control se puede utilizar en el hogar o en el trabajo. La cerrad
 -   Tipo de producto : 1
 -   ID del producto : 1
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -59,7 +59,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/polycontrol.polylock/information.jpg)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -72,7 +72,7 @@ Aquí está la lista de comandos :
 -   Cerca : es el comando que hace posible cerrar la cerradura
 -   Batería : es el comando de la batería
 
-### Configuracion del modulo
+### Configuración du module
 
 > **Advertencia**
 >
@@ -94,7 +94,7 @@ Detalles del parámetro :
 -   3: se usa para definir la velocidad de rotación de la cerradura (de 0 a 15, siendo 15 la más lenta)
 -   4: le permite elegir entre diferentes modos de funcionamiento (par, fuerza, potencia, etc.)
 
-### Groupes
+### Grupos
 
 Este módulo tiene solo un grupo de asociación.
 

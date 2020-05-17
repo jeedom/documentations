@@ -16,7 +16,7 @@ Se puede utilizar en modo de 2 hilos (sin neutro), reemplazando un interruptor e
 
 El módulo de atenuación de pared es un dispositivo compatible con Z-Wave ™ diseñado para funcionar con todas las redes compatibles con Z-Wave ™. Puede ser controlado por un control remoto, software de PC o cualquier controlador Z-Wave en su red.
 
-## Fonctions
+## Funciones
 
 -   Controlar una luz / dispositivo de forma remota
 -   Se instala detrás de un interruptor existente
@@ -53,7 +53,7 @@ El módulo de atenuación de pared es un dispositivo compatible con Z-Wave ™ d
 -   Tipo de producto : 3
 -   ID del producto : 2
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -67,7 +67,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/smarthomebyeverspring.AD146-0/information.jpg)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -82,7 +82,7 @@ Aquí está la lista de comandos :
 
 Tenga en cuenta que en el tablero, el estado, ON / OFF, la información de intensidad se encuentra en el mismo icono.
 
-### Configuracion del modulo
+### Configuración du module
 
 Puede configurar el módulo de acuerdo con su instalación. Para hacer esto, vaya al botón "Configuración" del complemento OpenZwave de Jeedom.
 
@@ -100,7 +100,7 @@ Detalles del parámetro :
 -   4 : Este parámetro define el tipo de interruptor (push / bistable)
 -   5 : Este parámetro define si el interruptor funcionará en modo de atenuación o en modo encendido / apagado
 
-### Groupes
+### Grupos
 
 Este módulo tiene 2 grupos de asociación.
 
@@ -116,6 +116,6 @@ Este módulo tiene 2 grupos de asociación.
 
 -   La retroalimentación de estado no se puede configurar en 3 segundos.
 
-## Wakeup
+## Despertador
 
 No hay noción de despertar en este módulo.

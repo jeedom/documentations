@@ -1,4 +1,4 @@
-# Philio Smart Farbknopf
+# Philio Smart Color Button
 
 **Das Modul**
 
@@ -20,7 +20,7 @@ Darüber hinaus können Sie diesen Schalter dank seiner magnetischen Unterstütz
 
 Es verwendet den neuesten Chip der Z-Wave 500-Serie, der eine 50% ige Erhöhung der Funkreichweite und eine 250% schnellere Kommunikationsgeschwindigkeit im Vergleich zu früheren Z-Wave-Produkten sowie einen geringeren Stromverbrauch bietet größere Autonomie ermöglichen.
 
-## Fonctions
+## Funktionen
 
 -   Multifunktionsschalter
 -   Z-Wave + Technologie
@@ -52,7 +52,7 @@ Es verwendet den neuesten Chip der Z-Wave 500-Serie, der eine 50% ige Erhöhung 
 -   Produkttyp : 9
 -   Produkt-ID : 34
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -66,7 +66,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/philio.psr04/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -77,7 +77,7 @@ Hier ist die Liste der Befehle :
 -   Zustand : Es ist der Befehl, der die Position der Taste von 0 auf 100% erhöht
 -   Batterie : Es ist der Befehl, der den Batteriestatus des Moduls meldet
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Wichtig**
 >
@@ -99,7 +99,7 @@ Parameterdetails :
 -   25 : Hiermit können Sie festlegen, ob das Modul seine Position nach der Drehung automatisch sendet (1s Verzögerung) oder ob die Taste gedrückt werden muss, um das Senden zu bestätigen
 -   26 : Aktiviert das Senden einer Szene oder nicht beim Drücken der zentralen Taste (Parameter in Jeedom nicht berücksichtigt)
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat zwei Assoziationsgruppen, die erste ist die einzige wesentliche. Die zweite erlaubt es, die Position zu Jeedom zu erhöhen
 
@@ -115,7 +115,7 @@ Gehen Sie wie folgt vor, um dieses Modul als Fernbedienung zu verwenden :
 
 In der Tat ist diese Art von Modul nicht dafür ausgelegt, direkt mit einer Box zu interagieren, sondern direkt mit anderen Modulen. Durch Hinzufügen von Jeedom zu Gruppe 2 können Sie jedoch die Position der Schaltfläche erhalten und damit ein Szenario steuern (z. B. eine Lautstärke anpassen)
 
-## Wakeup
+## Aufwachen
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 

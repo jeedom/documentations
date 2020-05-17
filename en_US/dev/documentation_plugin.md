@@ -4,7 +4,7 @@
 
 We will see in this documentation how to do the documentation of your plugin.
 
-## Principe
+## Principle
 
 The principle is very simple the documentation of the plugin must be a simple web link to indicate in your info file.json (see details [here](https://doc.jeedom.com/en_US/dev/structure_info_json) ) in the documentation field.
 
@@ -28,7 +28,7 @@ Github asciidoc and markedown (md) support for pages, we will only see markedown
 
 We will not describe the complete markdown syntax to you, other sites already do this very well, [this one](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-### Emplacement
+### Location
 
 We recommend in your plugin (hosted on github) to make a folder and copy the files and directory from the docs folder into the template plugin (see [here](https://doc.jeedom.com/en_US/dev/plugin_template) )
 

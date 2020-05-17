@@ -22,7 +22,7 @@ El micromódulo Z-Wave Fibaro FGRGB-101 le permite elegir una iluminación de ba
 -   Medida de consumo global o instantánea o acumulativa.
 -   Función de repetidor (enrutador) para extender la red Z-Wave.
 
-## Fonctions
+## Funciones
 
 -   Ordene luces de bajo voltaje 12 / 24V (halógeno o LED)
 -   Se instala detrás de un interruptor existente
@@ -58,7 +58,7 @@ El micromódulo Z-Wave Fibaro FGRGB-101 le permite elegir una iluminación de ba
 -   Tipo de producto : 2304
 -   ID del producto : 4096
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -72,7 +72,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/fibaro.fgrgb101/configuration.png)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -96,7 +96,7 @@ Aquí está la lista de comandos :
 
 Tenga en cuenta que en el tablero de instrumentos, toda la información se encuentra en el mismo icono
 
-### Configuracion del modulo
+### Configuración du module
 
 Puede configurar el módulo de acuerdo con su instalación. Para hacer esto, vaya al botón "Configuración" del complemento OpenZwave de Jeedom.
 
@@ -110,7 +110,7 @@ Detalles del parámetro :
 
 Consulte la captura de pantalla anterior, los parámetros se traducen al francés.
 
-### Groupes
+### Grupos
 
 Este módulo tiene cinco grupos de asociación, solo el quinto es esencial.
 
@@ -130,6 +130,6 @@ Uso de sensores de 0-10 V.
 
 ![Visual alternativo](images/fibaro.fgrgb101/Visuel_alternatif.png)
 
-## Wakeup
+## Despertador
 
 No hay noción de activación en este módulo.

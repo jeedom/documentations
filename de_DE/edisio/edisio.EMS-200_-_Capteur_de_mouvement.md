@@ -10,7 +10,7 @@ In einem Korridor, dem Wohnzimmer, der Garage Ihres Hauses zum Beispiel, erkennt
 
 Dank seines weiten Betrachtungswinkels und seiner Reichweite ist es möglich, einen großen Umfang zu sichern. Die integrierte LED-Anzeige signalisiert jede Zustandsänderung.
 
-## Fonctions
+## Funktionen
 
 -   Erkennt Bewegungen auch bei völliger Dunkelheit
 -   Ultrakompakt
@@ -79,7 +79,7 @@ Sobald Ihre Ausrüstung gekoppelt ist, sollten Sie diese erhalten :
 >
 > Denken Sie daran, Ihre Ausrüstung in einem Objekt zu platzieren, damit das Widget im Dashboard angezeigt wird.
 
-### Commandes
+### Befehle
 
 Sobald Ihre Ausrüstung erstellt ist, sollten Sie die mit dem Modul verknüpften Befehle erhalten :
 
@@ -90,7 +90,7 @@ Hier ist die Liste der Befehle :
 -   Präsenz : Dies ist der Befehl, der angibt, ob eine Anwesenheit erkannt wird
 -   Batterie : Zeigt den Batteriestatus an
 
-### Informations
+### Information
 
 Sobald Ihre Ausrüstung mit Jeedom verknüpft ist, stehen verschiedene Informationen zur Verfügung :
 

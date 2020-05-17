@@ -18,7 +18,7 @@ Der Schalter MH-S412-EU kann jede Art von Last, Beleuchtung oder Elektrogerät s
 
 Der Schalter ist außerdem mit einer LED-Anzeige ausgestattet, die seinen Status anzeigt.
 
-## Fonctions
+## Funktionen
 
 -   Steuern Sie zwei Lampen oder Geräte fern
 -   Wird anstelle eines vorhandenen Schalters installiert (passt perfekt in eine 40-mm-Unterputzdose)
@@ -49,7 +49,7 @@ Der Schalter ist außerdem mit einer LED-Anzeige ausgestattet, die seinen Status
 -   Produkttyp : 16642
 -   Produkt-ID : 514
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -61,7 +61,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/mco.mhs412/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -79,7 +79,7 @@ Parameterdetails :
 
 -   1: Speicherzustand vor Stromausfall : enable (ermöglicht das Auffinden des letzten Zustands der Schalter unmittelbar vor dem Stromausfall) disable (die Schalter befinden sich im AUS-Zustand, wenn das Netz zurückkehrt)
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat 3 Zuordnungsgruppen. Nur der dritte ist wesentlich.
 
@@ -94,7 +94,7 @@ Dieses Modul hat 3 Zuordnungsgruppen. Nur der dritte ist wesentlich.
 - Die Berührung ist eher angenehm und die reaktionsschnelle Steuerung
 - Dieser Schalter kann seine Last im autonomen Modus steuern (nicht an einen Z-Wave-Controller angeschlossen)
 
-## Wakeup
+## Aufwachen
 
 Da dieses Modul an das Stromnetz (220 V) angeschlossen ist, ist der Wecker sofort verfügbar und erfordert daher keine besonderen Maßnahmen beim Ändern von Parametern
 

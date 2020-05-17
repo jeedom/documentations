@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/blpnr.jpg" width="60" />|Jardibric|BLP NR|Plante|||
 
-# Default
+# Standard
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -56,7 +56,7 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/dotti.jpg" width="60" />|Dotti|Dotti|Afficheur|Funktioniert viel besser mit der Option zum Verbinden der Verbindung||
 
-# Dreamscreen
+# DreamScreen
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -123,7 +123,7 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/lywsd02.jpg" width="60" />|Xiaomi|Temperatur Luftfeuchtigkeit|Capteurs|Feuchtigkeitstemperatursensoren mit Display (Lywsd02)||
 
-# Meyerdom
+# MeyerDom
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -131,7 +131,7 @@
 |<img src="../../de_DE/blea/images/meyerdom4contacts.jpg" width="60" />|MeyerDom|4 Schütze|Contacteurs|4 Schütze||
 |<img src="../../de_DE/blea/images/meyerdomcontactvocal.jpg" width="60" />|MeyerDom|Sprachkontakt|Contacteurs|Sprachschütz||
 
-# Meyerdom4contacts
+# MeyerDom4contacts
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -154,7 +154,7 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/miflora.jpg" width="60" />|Xiaomi|Miflora|Capteurs|Pflanzensensoren||
 
-# Miscale
+# MiScale
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -190,26 +190,26 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/noke.jpg" width="60" />|Noke|Noke|Cadenas|Nur beim Drücken der Taste sichtbar (kann über einen Frame-Hack ausgeführt werden, um den Schlüssel wiederherzustellen), wird jedoch nicht ausgeführt, da dies illegal ist||
 
-# Nut
+# Nuss
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/nut.jpg" width="60" />|Nut|Nut|Präsenz|Nur zur Anwesenheit||
 |<img src="../../de_DE/blea/images/nut.jpg" width="60" />|Nut|Nuss Mini Blau|Präsenz|||
 
-# Parrotpot
+# Papageientopf
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/parrotpot.jpg" width="60" />|Parrot|Papageientopf|Capteurs|Pflanzensensoren||
 
-# Playbulb
+# Spielbirne
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 ||Playbulb|Kugel|Lichter|Launische Reichweite, die eine etwas lange Bearbeitung von Aktionen rechtfertigen kann. Kann anstelle einer anderen Spielbirne erkannt werden, wenn dies im Dropdown-Menü geändert wird||
 
-# Ropot
+# Seil
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -239,7 +239,7 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/blea/images/ticatag.jpg" width="60" />|Tibe|Ticatag|Boutons|Die Freigabe wird auch nach einmaligem oder doppeltem Drücken gesendet||
 
-# Tile
+# Fliesen
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|

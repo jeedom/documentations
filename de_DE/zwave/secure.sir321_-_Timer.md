@@ -16,7 +16,7 @@ Diese Geräte eignen sich perfekt für Heizpaneele, Tauchsieder, Handtuchwärmer
 
 Der SIR 321 unterstützt die externen Temperatursensoren SES001, SES002 und SES003.
 
-## Fonctions
+## Funktionen
 
 -   Booster für Tauchsieder, Plattenheizkörper, Handtuchheizkörper, Ölbadkühler
 -   Kessel-Timer
@@ -41,7 +41,7 @@ Der SIR 321 unterstützt die externen Temperatursensoren SES001, SES002 und SES0
 -   Hersteller ID : 89
 -   Produkttyp : 1/2 (abhängig davon, ob es mit einem Temperaturfühler geliefert wird oder nicht)
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 > **Wichtig**
@@ -54,7 +54,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/secure.sir321/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -66,7 +66,7 @@ Hier ist die Liste der Befehle :
 -   Aus : Es ist der Befehl, das Relais auszuschalten
 -   Temperatur : Dies ist der Befehl zur Temperaturmessung, wenn eine externe Sonde vorhanden ist
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 Wenn Sie das Modul konfigurieren möchten, müssen Sie auf die Schaltfläche "Konfiguration" des Jeedom OpenZwave-Plugins klicken.
 
@@ -84,7 +84,7 @@ Parameterdetails :
 -   4: Hier können Sie festlegen, um wie viel die Temperatur variieren muss, damit das Modul es an Jeedom sendet (in Schritten von 0).1 10- → 0,1)
 -   5: Hier können Sie eine Abschalttemperatur einstellen, oberhalb derer das Modul das Relais abschaltet
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat zwei Zuordnungsgruppen. Wenn der erste wesentlich ist, ist der zweite aktiv und wichtig, wenn ein Temperatursensor angeschlossen ist.
 

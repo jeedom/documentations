@@ -1,4 +1,4 @@
-# Nodon Switch - Wandschalter
+# Nicken Interrupteur - Wall Switch
 
 **Das Modul**
 
@@ -14,7 +14,7 @@ Der NodOn®-Wandschalter kann jedes Z-Wave®- oder Z-Wave Plus®-kompatible Ger�
 
 Der Schalter verfügt über eine Montageplatte zur einfachen Montage im Haus: Verwenden Sie die Schrauben eines Montagetopfs, schrauben Sie ihn an die Wand oder kleben Sie ihn einfach über die doppelseitigen Klebstoffe auf der Rückseite der Platte.
 
-## Fonctions
+## Funktionen
 
 -   Steuerung allein oder mit einem Hausautomationssystem
 -   Einfach zu montieren und zu demontieren
@@ -47,7 +47,7 @@ Der Schalter verfügt über eine Montageplatte zur einfachen Montage im Haus: Ve
 -   Produkttyp : 2
 -   Produkt-ID : 3
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -61,7 +61,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/nodon.wallswitch/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die den Modulen zugeordneten Befehle verfügbar.
 
@@ -83,7 +83,7 @@ Hier ist die Liste der Befehle :
 | **4**          | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Wichtig**
 >
@@ -103,7 +103,7 @@ Parameterdetails :
 -   4-7 : Wählen Sie die Tastenbetriebsart (bei Gruppenzuordnungen)
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat 7 Zuordnungsgruppen.
 
@@ -125,7 +125,7 @@ Dieses Modul hat 7 Zuordnungsgruppen.
 
 -   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht, es 1 oder 2 Mal nach der Aufnahme aufzuwecken. Überprüfen Sie die Assoziationsgruppe.
 
-## Wakeup
+## Aufwachen
 
 Um dieses Modul zu aktivieren, drücken Sie einfach eine dieser Tasten
 

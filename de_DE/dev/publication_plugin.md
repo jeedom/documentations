@@ -6,7 +6,7 @@
 - Warten auf die Validierung des Marktkontos als Entwickler
 - Habe dein Plugin auf Github (private Einzahlung oder nicht)
 
-## Configuration
+## Konfiguration
 
 Sobald Sie mit Ihrem Dev-Konto auf dem Markt verbunden sind, müssen Sie : 
 

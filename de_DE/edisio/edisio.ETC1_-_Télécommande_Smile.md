@@ -18,7 +18,7 @@ Sie lassen sich leicht an die verschiedenen Empfänger anschließen und können 
 
 Darüber hinaus ist die Interaktion mit anderen Protokollen möglich. Sie kann mit Empfängern der Marke Edisio, mit Jeedom, aber auch mit jedem Z-Wave-Empfänger in Ihrem Netzwerk interagieren.
 
-## Fonctions
+## Funktionen
 
 -   Art der Verwendung : Beleuchtung, Dimmer
 -   Klein, diskret und ästhetisch
@@ -73,7 +73,7 @@ Sobald Sie Ihre zugehörige Ausrüstung haben, sollten Sie diese erhalten :
 
 ![etc1.general](images/etc1/etc1.general.jpg)
 
-### Commandes
+### Befehle
 
 Sobald Ihre Ausrüstung erstellt ist, sollten Sie die mit dem Modul verknüpften Befehle erhalten :
 
@@ -84,7 +84,7 @@ Hier ist die Liste der Befehle :
 -   bt01 : Mit diesem Befehl können Sie mit Schaltfläche 1 interagieren
 -   Batterie : Zeigt den Batteriestatus an
 
-### Informations
+### Information
 
 Sobald Ihre Ausrüstung mit Jeedom verknüpft ist, stehen verschiedene Informationen zur Verfügung :
 
@@ -95,7 +95,7 @@ Sobald Ihre Ausrüstung mit Jeedom verknüpft ist, stehen verschiedene Informati
 -   Batterie : Zeigt den Batteriestatus der Batteriemodule an
 -   STATUS : Gibt den Status des Moduls zurück
 
-### Utilisation
+### Verwendung
 
 Sobald Ihre Fernbedienung konfiguriert ist, können Sie mit dem Jeedom-Szenario-Plugin mit Ihrer Fernbedienung auf Jeedom und seinen Geräten interagieren.
 

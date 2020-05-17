@@ -1,4 +1,4 @@
-# Nodon Fernbedienung - Soft Remote
+# Nicken Télécommande - Soft Remote
 
 **Das Modul**
 
@@ -14,7 +14,7 @@ Die Soft Remote NodOn® kann jedes Z-Wave®- oder Z-Wave Plus®-kompatible Gerä
 
 Es kann auch Szenen über ein kompatibles Hausautomationszentrum auslösen.
 
-## Fonctions
+## Funktionen
 
 -   Steuern Sie jedes Z-Wave-kompatible Gerät
 -   Schlag- und spritzwassergeschützt
@@ -41,7 +41,7 @@ Es kann auch Szenen über ein kompatibles Hausautomationszentrum auslösen.
 -   Produkttyp : 2
 -   Produkt-ID : 2
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -55,7 +55,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/nodon.softremote/information.png)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -80,7 +80,7 @@ Hier ist die Liste der Befehle :
 
 -   Batterie : Es ist der Befehl, der den Füllstand der Batterien erhöht
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Wichtig**
 >
@@ -101,7 +101,7 @@ Parameterdetails :
 -   4-7 : Wählen Sie die Tastenbetriebsart (bei Gruppenzuordnungen)
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen
 
-### Groupes
+### Gruppen
 
 Dieses Modul hat 7 Zuordnungsgruppen.
 
@@ -121,7 +121,7 @@ Dieses Modul hat 7 Zuordnungsgruppen.
 
 -   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht, es 1 oder 2 Mal nach der Aufnahme aufzuwecken. Überprüfen Sie die Assoziationsgruppe.
 
-## Wakeup
+## Aufwachen
 
 Um dieses Modul zu aktivieren, drücken Sie einfach eine der Tasten
 

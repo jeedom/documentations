@@ -1,4 +1,4 @@
-# Llavero Aeotec
+# Aeotec Keyfob
 
 **El módulo**
 
@@ -16,7 +16,7 @@ Con sus dimensiones muy pequeñas, puede guardarlo fácilmente en su bolsillo. F
 
 Cada botón le permite controlar dos dispositivos o escenas gracias a la gestión de pulsaciones cortas y largas. Este control remoto se puede usar como controlador primario o secundario.
 
-## Fonctions
+## Funciones
 
 -   Control remoto llavero
 -   Controlador primario o secundario
@@ -44,7 +44,7 @@ Cada botón le permite controlar dos dispositivos o escenas gracias a la gestió
 -   Tipo de producto : 1
 -   ID del producto : 22
 
-# Configuration
+# Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 > **Importante**
@@ -54,7 +54,7 @@ Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consult
 >Una vez incluido, deberías obtener esto :
 ![Plugin Zwave](images/aeotec.keyfob/information.jpg)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con los módulos estarán disponibles.
 
@@ -72,7 +72,7 @@ Aquí está la lista de comandos :
   - 7 : Botón 4 pulsaciones cortas
   - 8 : Botón 4 prensas largas
 
-### Configuracion del modulo
+### Configuración du module
 > **Importante**
 >
 > Durante una primera inclusión, siempre active el módulo justo después
@@ -90,7 +90,7 @@ Detalles del parámetro :
 
 Todos los demás parámetros solo son útiles en el caso de asociación directa entre el control remoto y los módulos.
 
-### Groupes
+### Grupos
 Este módulo tiene un solo grupo de asociación. Es indispensable.
 
 ![Groupe](images/aeotec.keyfob/groupe.jpg)
@@ -107,7 +107,7 @@ Para usar este módulo como control remoto, proceda de la siguiente manera :
 -   4 : Active el control remoto y asegúrese de que el cambio se haya tenido en cuenta
 -   5 : Cambie el modo de funcionamiento del control remoto presionando los dos botones en la parte posterior durante 3 segundos.
 
-# Wakeup
+# Despertador
 
 Para activar este módulo, solo hay una forma :
 

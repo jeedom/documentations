@@ -22,7 +22,7 @@ Es hat auch einen Sirenenalarm, der im Falle eines Problems ertönen kann. Sie k
 
 Dieser Sensor enthält einen Z-Wave-Netzwerk-Entfernungsmesser, der Ihnen die korrekte Funktion des Sensors während seiner Installation sicherstellt.
 
-## Fonctions
+## Funktionen
 
 -   Hochwassermelder (Vorhandensein von Wasser über Kontakte)
 -   Temperaturdetektor
@@ -57,7 +57,7 @@ Dieser Sensor enthält einen Z-Wave-Netzwerk-Entfernungsmesser, der Ihnen die ko
 -   Produkttyp : 2816
 -   Produkt-ID : 4097
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -71,7 +71,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/fibaro.fgfs101/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -84,7 +84,7 @@ Hier ist die Liste der Befehle :
 -   Sabotage : Dies ist der Sabotagebefehl. Es signalisiert das Öffnen des Gehäuses
 -   Batterie : Es ist der Batteriebefehl
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Wichtig**
 >
@@ -116,7 +116,7 @@ Parameterdetails :
 -   73 \. Temperaturkompensation : von -10000 bis + 10000 (standardmäßig 0 = 0 ° C) Hier können Sie einen Versatz zwischen der Sensortemperatur und der tatsächlichen Temperatur definieren
 -   75 \. Einstellen der Dauer des Alarms : von 0 bis 65535s (standardmäßig 0, Der Alarm stoppt, sobald kein Fehler mehr erkannt wird.)
 
-### Groupes
+### Gruppen
 
 Für einen optimalen Betrieb Ihres Moduls. Jeedom muss mindestens den Gruppen 1, 4 und 5 zugeordnet sein:
 
@@ -130,7 +130,7 @@ Verkabelung für externe Stromversorgung.
 
 ![Alim Exterieur](images/fibaro.fgfs101/Alim_Exterieur.jpg)
 
-## Wakeup
+## Aufwachen
 
 Um dieses Modul zu aktivieren, drücken Sie dreimal die zentrale Taste
 

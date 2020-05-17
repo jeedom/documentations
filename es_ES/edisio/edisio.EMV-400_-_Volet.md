@@ -1,4 +1,4 @@
-# Obturador Edisio EMV 400
+# Edisio EMV 400 Volet
 
 **El módulo**
 
@@ -22,7 +22,7 @@ Finalmente, cada módulo se puede usar en modo remoto, es muy práctico porque p
 >
 > Neutral solo es necesario para el modo "Obturador""
 
-## Fonctions
+## Funciones
 
 -   2 salidas de relé suministradas
 -   Se instala en una caja empotrada de 55 mm o directamente en las cajas de guillotina
@@ -144,7 +144,7 @@ roulant" :
 
 ![infos equip](images/emv.400/infos_equip.jpg)
 
-### Commandes
+### Comandos
 
 Una vez que se guarda su equipo, debe obtener los comandos asociados con el módulo :
 
@@ -162,7 +162,7 @@ Aquí está la lista de comandos :
 >
 > La retroalimentación de estado es simulada por Jeedom. Por lo tanto, si usa otro transmisor, Jeedom no podrá actualizar el estado del receptor.
 
-### Informations
+### Información
 
 Una vez que su equipo esté asociado con Jeedom, habrá diversa información disponible :
 

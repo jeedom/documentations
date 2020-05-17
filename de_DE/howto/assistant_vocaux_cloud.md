@@ -1,6 +1,6 @@
 # Cloud-Sprachassistenten
 
-## Description
+## Beschreibung
 
 Mit diesem Dienst können Sie Ihr Jeedom mit Sprachassistenten von Google und Amazon verbinden.
 

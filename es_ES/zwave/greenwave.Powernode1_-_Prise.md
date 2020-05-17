@@ -22,7 +22,7 @@ El zócalo controlado por PowerNode también tiene un indicador de estado de luz
 
 El módulo de enchufe PowerNode está equipado con protección contra sobrecorriente para proteger el dispositivo conectado. El enchufe PowerNode se desactivará en caso de un dispositivo defectuoso o un cortocircuito. El fusible interno ubicado en el zócalo brinda protección adicional.
 
-## Fonctions
+## Funciones
 
 -   Controlar una lámpara o dispositivo de forma remota
 -   Módulo de enchufe que se integra directamente entre una toma de corriente y la carga a controlar
@@ -57,7 +57,7 @@ El módulo de enchufe PowerNode está equipado con protección contra sobrecorri
 -   Tipo de producto : 2
 -   ID del producto : 2
 
-## Configuration
+## Configuración
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -71,7 +71,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/greenwave.Powernode1/information.jpg)
 
-### Commandes
+### Comandos
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -87,7 +87,7 @@ Aquí está la lista de comandos :
 
 Tenga en cuenta que en el tablero los comandos ON / OFF / STATUS se agrupan en un solo botón.
 
-### Configuracion del modulo
+### Configuración du module
 
 Puede configurar el módulo de acuerdo con su instalación. Para hacer esto, vaya al botón "Configuración" del complemento OpenZwave de Jeedom.
 
@@ -104,7 +104,7 @@ Detalles del parámetro :
 -   1 : Retraso antes de que el botón parpadee : número mínimo de segundos entre dos comunicaciones (si se excede este tiempo, el botón del socket parpadeará)
 -   2 : Color de rueda seleccionado (detectado automáticamente)
 
-### Groupes
+### Grupos
 
 Este módulo tiene cuatro grupos de asociación, solo el tercer grupo es esencial.
 
@@ -114,7 +114,7 @@ Este módulo tiene cuatro grupos de asociación, solo el tercer grupo es esencia
 
 A diferencia de su socket múltiple hermana mayor, este socket no requiere sondeo para aumentar el consumo.
 
-### Reset
+### Restablecer
 
 ![Config2](images/greenwave.Powernode1/config2.jpg)
 
@@ -122,6 +122,6 @@ Puede restablecer su medidor de consumo haciendo clic en este botón disponible 
 
 ### Específicos
 
-## Wakeup
+## Despertador
 
 No hay noción de activación en este módulo.

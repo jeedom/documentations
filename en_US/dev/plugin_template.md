@@ -177,7 +177,7 @@ if (!isConnect()) {
 
 # Plugin creation part 3 : desktop folder
 
-## PHP
+## Php
 
 This folder contains the view itself. Inside we must find the plugin configuration page (the one that will appear when the user makes the plugin ⇒ category ⇒ your plugin). It is advisable to name it with the id of your plugin. It can also contain the panel (page that the user will find in home → name of your plugin).
 
@@ -224,7 +224,7 @@ Last important point on the configuration page: this can contain as many equipme
 
 All elements having the class eqLogicAttr must be in an element having the class css eqLogic Ditto for elements of class css cmdAttr which must be in an element of class cmd. All the commands of an equipment must be in the element having the corresponding eqLogic class
 
-## JS
+## Js
 
 All JS files must be in the JS folder (easy !!!). It is advisable to name it with the same ID as your plugin (in the configuration part, for the panel you do as you want). This JS file (that of the plugin configuration) must at least contain an addCmdToTable method which takes the command object to add as a parameter. Here is a simple example :
 
@@ -330,7 +330,7 @@ Other javascript functions can be used :
 
 The first argument gives the folder in which to find it (attention is the parent folder of the JS folder), the second the name of your javascript, the third tells Jeedom that it is a JS file and the last one in which plugin it is located.
 
-## CSS
+## Css
 
 This folder contains your CSS files (it should not be used too much), here is how to include them on your page :
 
@@ -340,7 +340,7 @@ This folder contains your CSS files (it should not be used too much), here is ho
 
 The first argument gives the folder in which to find it (attention is the parent folder of the CSS folder), the second the name of your css file, the third tells Jeedom that it is a CSS file and the last in which plugin it turns out that.
 
-## MODAL
+## Modal
 
 The modal folder allows you to store your php files intended to display modals. Here's how to call them from your main page (this code is in a javascript file) :
 
@@ -382,7 +382,7 @@ By far the most important folder of your plugin, it can include 4 subfolders.
 
 NOTE : all along this part the id of your plugin will be referenced by : plugin\_id
 
-## PHP
+## Php
 
 Contains the annex PHP files, I used to put for example an inclusion file if, of course, you have several class files or 3rparty to include
 

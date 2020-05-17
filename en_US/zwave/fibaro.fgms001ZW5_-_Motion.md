@@ -16,7 +16,7 @@ The Fibaro motion detector is battery powered and designed to be quickly and eas
 
 The motion detector can be used for lighting scenes and surveillance and / or security systems.
 
-## Fonctions
+## Functions
 
 -   Wireless motion detector
 -   Detects movement using a passive infrared sensor
@@ -52,7 +52,7 @@ The motion detector can be used for lighting scenes and surveillance and / or se
 -   Product Type : 2048
 -   Product ID : 4097
 
-## Configuration
+## Setup
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -66,7 +66,7 @@ Once included, you must apply the zwave + configuration via the drop-down list, 
 
 ![Plugin Zwave](images/fibaro.fgms001zw5/information.jpg)
 
-### Commandes
+### Commands
 
 You have to click once on the magnifying glass to retrieve the module commands. Once the module is recognized, the commands associated with the module will be available.
 
@@ -81,7 +81,7 @@ Here is the list of commands :
 -   Sabotage : this is the sabotage command (it is triggered in the event of vibration)
 -   Drums : it's the battery command
 
-### Configuration of the module
+### Setup du module
 
 > **IMPORTANT**
 >
@@ -132,7 +132,7 @@ Parameter details :
 -   87: temperature above which the LED will light red (linked to parameter 81)
 -   89: allows the LED to flash in blue / white / red in the event of sabotage
 
-### Groupes
+### Groups
 
 ![Groupe](images/fibaro.fgms001zw5/groupe.jpg)
 

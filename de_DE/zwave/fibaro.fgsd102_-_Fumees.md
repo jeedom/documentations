@@ -16,7 +16,7 @@ Der Rauchmelder Fibaro FGSD-002 ist ein autonomer Rauchmelder (DAAF) gemäß der
 
 Einige Materialien brennen ohne zu rauchen. Aus diesem Grund haben die Fibaro-Ingenieure beschlossen, ihren Rauchmelder in Form eines Temperatursensors zusätzlich zu schützen. Wenn nicht genügend Rauch vorhanden ist, um den Alarm auszulösen, kann das Gerät dennoch eine Bedrohung erkennen, indem es eine durch das Feuer verursachte schnelle Temperaturänderung erkennt. Eine schnelle Änderung der Temperatur oder ein Anstieg auf 54 ° C reicht aus, damit der Rauchsensor eine Bedrohung erkennt und sie den Bewohnern des Hauses meldet. Nur diese Art von Rauchsensor bietet einen hohen Wirkungsgrad, unabhängig davon, was verbrennt.
 
-## Fonctions
+## Funktionen
 
 -   Z-Wave Rauchmelder
 -   Batteriebetrieben
@@ -55,7 +55,7 @@ Einige Materialien brennen ohne zu rauchen. Aus diesem Grund haben die Fibaro-In
 -   Produkttyp : 3074
 -   Produkt-ID : 4098
 
-## Configuration
+## Konfiguration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -69,7 +69,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/fibaro.fgsd102/information.jpg)
 
-### Commandes
+### Befehle
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -84,7 +84,7 @@ Hier ist die Liste der Befehle :
 -   Hitzealarm : Es ist die Steuerung, die einen Wärmealarm auslöst (noch nicht zuverlässig)
 -   Batterie : Es ist der Batteriebefehl
 
-### Konfiguration des Moduls
+### Konfiguration du module
 
 > **Wichtig**
 >
@@ -117,7 +117,7 @@ Parameterdetails :
 -   31: Berichtsintervall für Temperaturspitzen
 -   32: Signalintervall bei Verlust von Zwave
 
-### Groupes
+### Gruppen
 
 Für einen optimalen Betrieb Ihres Moduls. Jeedom muss mindestens den Gruppen 1, 4 und 5 zugeordnet sein:
 
@@ -127,7 +127,7 @@ Für einen optimalen Betrieb Ihres Moduls. Jeedom muss mindestens den Gruppen 1,
 
 ### Besonderheiten
 
-## Wakeup
+## Aufwachen
 
 Um dieses Modul zu aktivieren, drücken Sie dreimal die zentrale Taste
 

@@ -1,4 +1,4 @@
-# Concept
+# Concepto
 
 Aquí están los principales conceptos básicos de Jeedom. Esta documentación sigue siendo voluntariamente simple para ayudarlo a tomar el control de su domótica.
 
@@ -8,7 +8,7 @@ Las posibilidades de Jeedom son casi infinitas, ya que puedes crear muchas cosas
 >
 > Los enlaces a continuación apuntan a Core v4.1. Una vez en la página de documentación (manual de usuario o configuración) puede cambiar la versión en el menú en la parte superior izquierda para cambiar a la versión correspondiente al núcleo que desee.
 
-## Affichage
+## Visualización
 
 Jeedom le permite interconectar una gran cantidad de dispositivos, ya sea que estén basados en los protocolos Z-Wave, Enocean, Zigbee, etc., en las API que usan complementos o directamente en forma de scripts. Puedes mirar en el [Mercado](https://market.jeedom.com/) para obtener una descripción general de los dispositivos compatibles.
 
@@ -40,7 +40,7 @@ Estos objetos pueden representar partes de la casa (sala de estar, dormitorio, t
 
 ## Equipamiento y sus controles
 
-### Commandes
+### Comandos
 
 Para interactuar con nuestra automatización del hogar, necesita comandos ! Estos son de dos tipos :
 
@@ -63,7 +63,7 @@ Los comandos de acción generalmente están vinculados a comandos de informació
 
 Estos dos tipos de comandos se adjuntan en forma de equipo. Por lo tanto, el equipo tiene comandos de información y / o acción, y es este equipo el que tendrá un Objeto como padre, lo que le permitirá mostrarlo donde desee.
 
-### Équipement
+### Dispositivos
 
 - Physiquement: Tengo un enchufe con un botón de encendido / apagado y un led de estado, en la sala de estar.
 - En Jeedom: Tengo equipo con dos acciones de encendido y apagado y una información de estado, en el objeto Salon.
@@ -76,7 +76,7 @@ Estos comandos están agrupados en un mosaico correspondiente a su equipo. Y est
 
 ![Comandos](images/concept-equipment.jpg)
 
-## Conclusion
+## Conclusión
 
 Sea cual sea su dispositivo, se creará en forma de equipo, a partir de un [Plugin](/es_ES/core/4.1/plugin).
 
