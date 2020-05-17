@@ -51,9 +51,9 @@ Il est composé de la manière suivante :
 
 La première partie commentée contient la licence (c’est mieux). Celle utilisée ici indique que le fichier appartient à Jeedom et qu’il est open source Ensuite vient l’inclusion du core de Jeedom (cela permet d’accéder aux fonctions internes) Ensuite viennent les 2 fonctions :
 
-- ``install\_pluginid()`` : méthode permettant d’installer le plugin. Ici l’installation ajoute une tâche cron à Jeedom
-- ``update\_pluginid()`` : méthode permettant d’installer le plugin. Utilisé ici pour redémarrer la tache cron
-- ``remove\_pluginid()`` : méthode permettant de supprimer le plugin. Ici la fonction supprime la tâche cron de Jeedom lors de la désinstallation
+- ``install_pluginid()`` : méthode permettant d’installer le plugin. Ici l’installation ajoute une tâche cron à Jeedom
+- ``update_pluginid()`` : méthode permettant d’installer le plugin. Utilisé ici pour redémarrer la tache cron
+- ``remove_pluginid()`` : méthode permettant de supprimer le plugin. Ici la fonction supprime la tâche cron de Jeedom lors de la désinstallation
 
 Exemple :
 
@@ -122,7 +122,7 @@ Le fichier est constitué de :
 - L’inclusion du core de Jeedom
 - La vérification que l’utilisateur est bien connecté (j’inclue le fichier 404 car ce fichier est un fichier de type vue)
 
-Ensuite vient le paramètre demandé (il peut en avoir plusieurs), c’est une syntaxe standard Bootstrap pour les formulaires, les seules particularités à respecter sont la classe (``configKey``) à mettre sur l’élément de paramètre ainsi que le "data-l1key" qui indique le nom du paramètre. Pour récupérer la valeur de celui-ci ailleurs dans le plugin il suffit de faire : ``config::byKey(*NOM\_PARAMETRE*, *PLUGIN\_ID*)``
+Ensuite vient le paramètre demandé (il peut en avoir plusieurs), c’est une syntaxe standard Bootstrap pour les formulaires, les seules particularités à respecter sont la classe (``configKey``) à mettre sur l’élément de paramètre ainsi que le "data-l1key" qui indique le nom du paramètre. Pour récupérer la valeur de celui-ci ailleurs dans le plugin il suffit de faire : ``config::byKey(NOM_PARAMETRE, PLUGIN_ID)``
 
 Exemple :
 
