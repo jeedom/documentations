@@ -35,9 +35,6 @@ problema                    | URL al rastreador de errores si es externo (si no 
 
 [Plugin-template file / plugin_info / info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
 
-
-
-
 **CATEGORÍA NOMENCLATURA**
 
 Mercado de la libertad         | Información.JSON               |
@@ -57,24 +54,3 @@ Protocolo de domótica   | protocolo de automatización     |
 Salud                 | salud                  |
 Seguridad              | seguridad                |
 Automatismo           | automatización          |
-
-
-   
-
-
-  
-
-
-  
-
-
-  
-
-    
-
-
-   
-
-
-
-

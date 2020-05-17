@@ -5,3 +5,4 @@
 - [Plugin-Dokumentation](/de_DE/dev/documentation_plugin)
 - [Plugin-Veröffentlichung](/de_DE/dev/publication_plugin)
 - [Plugin Widget](/de_DE/dev/widget_plugin)
+- [Plugin Vorlage](/de_DE/dev/plugin_template)
