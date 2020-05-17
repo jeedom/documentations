@@ -43,7 +43,7 @@ La mise en ligne est assez simple il suffit dans sur votre dépot github puis "S
 
 ![doc-github](images/tutoDoc.png)
 
-Github va ensuite vous fournir un lien de type "https://jeedom.github.io/plugin-template/" (au bout de quelques minutes en allant dessus vous devriez voir votre documentation mise en page correctement).
+Github va ensuite vous fournir un lien de type ``https://jeedom.github.io/plugin-template/`` (au bout de quelques minutes en allant dessus vous devriez voir votre documentation mise en page correctement).
 
 Il vous faut maintenant mettre les liens de votre documentation dans le fichier info.json de votre plugin pour cela il faut :
 
