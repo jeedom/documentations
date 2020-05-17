@@ -6,7 +6,7 @@ Complemento que permite ejecutar scripts (shell, php, ruby ...), solicitudes htt
 
 La configuración es muy simple, después de descargar el complemento, solo necesita activarlo y listo.
 
-![Guión1](./images/script1.png)
+![configuration](./images/configuration.png)
 
 La única opción es donde jeedom pone los scripts por defecto, se recomienda no tocarlos.
 
@@ -16,11 +16,11 @@ Se puede acceder a la configuración del equipo Script desde el menú de complem
 
 Así es como se ve la página del complemento Script (aquí ya con el equipo) :
 
-![Guión2](./images/script2.png)
+![liste des équipements](./images/liste_equipement.png)
 
 Aquí está la lista de sus guiones. Una vez que haces clic en un equipo, obtienes :
 
-![Guión3](./images/script3.png)
+![equipement](./images/equipement.png)
 
 Aquí encontrarás toda la configuración de tu equipo :
 
@@ -32,7 +32,7 @@ Aquí encontrarás toda la configuración de tu equipo :
 - **Autorrealización** : permite especificar un cron de actualización automática para todos los comandos de tipo de información.
 - **Demora antes de actualizar la información después de una acción**
 
-![Guión4](./images/script4.png)
+![commandes](./images/commandes.png)
 Aquí encontrarás la lista de pedidos :
 
 -   **Nombre** : Este campo contiene el nombre que desea dar a su pedido / información.
@@ -66,7 +66,7 @@ Aquí encontrarás la lista de pedidos :
 >
 > Se deben evitar los caracteres especiales en la ruta del script o en sus parámetros tanto como sea posible. Los caracteres permitidos son : números, letras (mayúsculas o minúsculas)
 
-![Guión5](./images/script5.png)
+![exemple](./images/exemple.png)
 
 Se usa para llamar a una URL o recuperar el retorno de una URL.
 
@@ -100,7 +100,7 @@ El campo de opción tiene un campo "URL del archivo XML"" : este campo contiene 
 
 # La elección de JSON
 
-![Guión JSON](./images/script_json.PNG)
+![Guión JSON](./images/script_json.png)
 
 Permite recuperar json y buscar específicamente un valor en él.
 
@@ -410,13 +410,13 @@ Primero necesitas configurar la url :
 
 Entonces tienes que encontrar el "camino" de la última FML. Para hacer esto, vaya al sitio, luego haga clic derecho en el elemento deseado y luego inspeccione el elemento, obtendrá :
 
-![Guión6](./images/script6.png)
+![Exemple HTML 1](./images/exemple_HTML_1.png)
 
 Esta es la parte más compleja y requiere un pequeño análisis. Aquí mi texto está en una etiqueta "a" que está en un elemento de tipo p que es un artículo de publicación de clase div "". Así que tengo que seleccionar el primer elemento div de la clase "post" y "article", luego el primer elemento p y obtengo todo en las etiquetas "a" que contiene. Entonces tengo : "div.post.article:primero p:primero un".
 
 Entonces obtenemos :
 
-![Guión10](./images/script7.png)
+![Exemple HTML 2](./images/exemple_HTML_2.PNG)
 
 Para una actualización en tiempo real, es posible poner una actualización cron.
 

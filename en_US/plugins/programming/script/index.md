@@ -6,7 +6,7 @@ Plugin allowing to execute scripts (shell, php, ruby…), http requests, to retr
 
 The configuration is very simple, after downloading the plugin, you just need to activate it and that's it.
 
-![script1](./images/script1.png)
+![configuration](./images/configuration.png)
 
 The only option is where jeedom puts the scripts by default, it is advised not to touch them.
 
@@ -16,11 +16,11 @@ The configuration of Script equipment is accessible from the plugin / Programmin
 
 This is what the Script plugin page looks like (here already with equipment) :
 
-![script2](./images/script2.png)
+![liste des équipements](./images/liste_equipement.png)
 
 Here is the list of your Scripts. Once you click on a piece of equipment you get :
 
-![script3](./images/script3.png)
+![equipement](./images/equipement.png)
 
 Here you find all the configuration of your equipment :
 
@@ -32,7 +32,7 @@ Here you find all the configuration of your equipment :
 - **Self-actualization** : allows to specify an automatic update cron for all info type commands.
 - **Delay before updating the information following an action**
 
-![script4](./images/script4.png)
+![commandes](./images/commandes.png)
 Here you find the list of orders :
 
 -   **Name** : This field contains the name you want to give to your order / information.
@@ -66,7 +66,7 @@ Here you find the list of orders :
 >
 > Special characters should be avoided in the script path or in its parameters as much as possible. The allowed characters being : numbers, letters (upper or lower case)
 
-![script5](./images/script5.png)
+![exemple](./images/exemple.png)
 
 Used to call a url or retrieve the return of a URL.
 
@@ -100,7 +100,7 @@ The option field has a "URL of the XML file" field" : this field therefore conta
 
 # The JSON choice
 
-![script JSON](./images/script_json.PNG)
+![script JSON](./images/script_json.png)
 
 Allows to recover json and to specifically look for a value in it.
 
@@ -410,13 +410,13 @@ First you need to configure the url :
 
 Then you have to find the "path" of the last FML. To do this, go to the site then right click on the desired item then inspect the item, you get :
 
-![script6](./images/script6.png)
+![Exemple HTML 1](./images/exemple_HTML_1.png)
 
 This is the most complex part and requires a little analysis. Here my text is in an "a" tag which is in a p type element which is a class div "post article". So I have to select the first div element of class "post" and "article" then the first element p and I get everything in the "a" tags it contains. So I have : "div.post.article:first p:first a".
 
 So we get :
 
-![script10](./images/script7.png)
+![Exemple HTML 2](./images/exemple_HTML_2.PNG)
 
 For an update in real time, it is possible to put an update cron.
 

@@ -6,7 +6,7 @@ Plugin zum Ausführen von Skripten (Shell, PHP, Ruby…) und http-Anforderungen 
 
 Die Konfiguration ist sehr einfach. Nach dem Herunterladen des Plugins müssen Sie es nur noch aktivieren und fertig.
 
-![Skript1](./images/script1.png)
+![configuration](./images/configuration.png)
 
 Die einzige Möglichkeit besteht darin, dass jeedom die Skripte standardmäßig ablegt. Es wird empfohlen, sie nicht zu berühren.
 
@@ -16,11 +16,11 @@ Auf die Konfiguration der Skriptausrüstung kann über das Plugin / Programmierm
 
 So sieht die Script-Plugin-Seite aus (hier bereits mit Ausrüstung) :
 
-![Skript2](./images/script2.png)
+![liste des équipements](./images/liste_equipement.png)
 
 Hier ist die Liste Ihrer Skripte. Sobald Sie auf ein Gerät klicken, erhalten Sie :
 
-![Skript3](./images/script3.png)
+![equipement](./images/equipement.png)
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
@@ -32,7 +32,7 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 - **Selbstverwirklichung** : Ermöglicht die Angabe eines Cron für die automatische Aktualisierung aller Befehle vom Typ "Info".
 - **Verzögerung vor dem Aktualisieren der Informationen nach einer Aktion**
 
-![Skript4](./images/script4.png)
+![commandes](./images/commandes.png)
 Hier finden Sie die Liste der Bestellungen :
 
 -   **Name** : Dieses Feld enthält den Namen, den Sie Ihrer Bestellung / Information geben möchten.
@@ -66,7 +66,7 @@ Hier finden Sie die Liste der Bestellungen :
 >
 > Sonderzeichen sollten im Skriptpfad oder in seinen Parametern so weit wie möglich vermieden werden. Die erlaubten Zeichen sind : Zahlen, Buchstaben (Groß- oder Kleinschreibung)
 
-![Skript5](./images/script5.png)
+![exemple](./images/exemple.png)
 
 Wird verwendet, um eine URL aufzurufen oder die Rückgabe einer URL abzurufen.
 
@@ -100,7 +100,7 @@ Das Optionsfeld enthält das Feld "URL der XML-Datei"" : Dieses Feld enthält da
 
 # Die JSON-Wahl
 
-![Skript Json](./images/script_json.PNG)
+![Skript Json](./images/script_json.png)
 
 Ermöglicht die Wiederherstellung von json und die gezielte Suche nach einem Wert darin.
 
@@ -410,13 +410,13 @@ Zuerst müssen Sie die URL konfigurieren :
 
 Dann müssen Sie den "Pfad" der letzten FML finden. Gehen Sie dazu zur Website, klicken Sie mit der rechten Maustaste auf den gewünschten Artikel und überprüfen Sie den Artikel, den Sie erhalten :
 
-![Skript6](./images/script6.png)
+![Exemple HTML 1](./images/exemple_HTML_1.png)
 
 Dies ist der komplexeste Teil und erfordert eine kleine Analyse. Hier befindet sich mein Text in einem "a" -Tag, das sich in einem Element vom Typ p befindet, das ein Post-Artikel der Klasse div ist". Also muss ich das erste div-Element der Klasse "post" und "article" auswählen, dann das erste Element p und ich bekomme alles in den darin enthaltenen "a" -Tags. Also habe ich : "div.post.article:erste p:zuerst a".
 
 Also bekommen wir :
 
-![Skript10](./images/script7.png)
+![Exemple HTML 2](./images/exemple_HTML_2.PNG)
 
 Für ein Update in Echtzeit ist es möglich, ein Update zu erstellen.
 

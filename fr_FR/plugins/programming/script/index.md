@@ -100,7 +100,7 @@ Le champ option possède un champ "URL du fichier XML" : ce champ contient donc 
 
 # Le choix JSON
 
-![script JSON](./images/script_json.PNG)
+![script JSON](./images/script_json.png)
 
 Permet de récupérer du JSON et d’aller chercher spécifiquement une valeur dedans.
 
@@ -416,7 +416,7 @@ Là c’est la partie la plus complexe et qui demande un peu d’analyse. Ici mo
 
 On obtient donc :
 
-![Exemple HTML 2](./images/exemple_HTML_2.png)
+![Exemple HTML 2](./images/exemple_HTML_2.PNG)
 
 Pour une actualisation en temps réel, il est possible de mettre un cron de mise à jour.
 

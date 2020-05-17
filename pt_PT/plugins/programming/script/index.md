@@ -6,7 +6,7 @@ Plugin que permite executar scripts (shell, php, ruby ...), solicitações http,
 
 A configuração é muito simples, depois de baixar o plugin, você só precisa ativá-lo e pronto.
 
-![Escrita1](../images/script1.png)
+![configuration](../images/configuration.png)
 
 A única opção é onde o jeedom coloca os scripts por padrão; é aconselhável não tocá-los.
 
@@ -16,11 +16,11 @@ A configuração do equipamento Script pode ser acessada no menu plugin / progra
 
 É assim que a página do plugin Script se parece (aqui já com o equipamento) :
 
-![Escrita2](../images/script2.png)
+![liste des équipements](../images/liste_equipement.png)
 
 Aqui está a lista dos seus scripts. Depois de clicar em um equipamento, você obtém :
 
-![Escrita3](../images/script3.png)
+![equipement](../images/equipement.png)
 
 Aqui você encontra toda a configuração do seu equipamento :
 
@@ -32,7 +32,7 @@ Aqui você encontra toda a configuração do seu equipamento :
 - **Atualização automática** : permite especificar um cron de atualização automática para todos os comandos do tipo de informação.
 - **Atraso antes de atualizar as informações após uma ação**
 
-![Escrita4](../images/script4.png)
+![commandes](../images/commandes.png)
 Aqui você encontra a lista de pedidos :
 
 -   **Nome** : Este campo contém o nome que você deseja dar ao seu pedido / informações.
@@ -66,7 +66,7 @@ Aqui você encontra a lista de pedidos :
 >
 > Caracteres especiais devem ser evitados no caminho do script ou em seus parâmetros, tanto quanto possível. Os caracteres permitidos sendo : números, letras (maiúsculas ou minúsculas)
 
-![Escrita5](../images/script5.png)
+![exemple](../images/exemple.png)
 
 Usado para chamar um URL ou recuperar o retorno de um URL.
 
@@ -100,7 +100,7 @@ O campo de opção possui um campo "URL do arquivo XML"" : portanto, este campo 
 
 # A escolha JSON
 
-![Escrita JSON](../images/script_json.PNG)
+![Escrita JSON](../images/script_json.png)
 
 Permite recuperar json e procurar especificamente um valor nele.
 
@@ -410,13 +410,13 @@ Primeiro você precisa configurar o URL :
 
 Então você tem que encontrar o "caminho" do último FML. Para fazer isso, acesse o site e clique com o botão direito do mouse no item desejado e depois inspecione o item :
 
-![Escrita6](../images/script6.png)
+![Exemple HTML 1](../images/exemple_HTML_1.png)
 
 Esta é a parte mais complexa e requer um pouco de análise. Aqui meu texto está em uma tag "a" que está em um elemento do tipo p que é uma classe div "post article". Então, eu tenho que selecionar o primeiro elemento div da classe "post" e "article", depois o primeiro elemento pe obteremos tudo nas tags "a" que ele contém. Então eu tenho : "div.post.article:primeiro p:primeiro a".
 
 Então nós temos :
 
-![Escrita10](../images/script7.png)
+![Exemple HTML 2](../images/exemple_HTML_2.PNG)
 
 Para uma atualização em tempo real, é possível colocar um cron de atualização.
 
