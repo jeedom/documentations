@@ -1,6 +1,6 @@
-# Plugin template
+# Documentation plugin template
 
-Plugin servant de base pour les plugins. Attention lors de l’utilisation à bien remplacer tous les templates par l’id de votre plugin.
+Vous pouvez retrouver une base de plugin vide [ici](https://github.com/jeedom/plugin-template)
 
 # Création plugin partie 1 : l’arborescence
 

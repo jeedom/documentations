@@ -5,3 +5,4 @@
 - [Documentation du plugin](/fr_FR/dev/documentation_plugin)
 - [Publication plugin](/fr_FR/dev/publication_plugin)
 - [Widget du plugin](/fr_FR/dev/widget_plugin)
+- [Plugin template](/fr_FR/dev/plugin_template)
