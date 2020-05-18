@@ -1,178 +1,121 @@
-Instalación de Letsencrypt 
-===========================
+# Instalación de Letsencrypt
 
-Estos son los comandos para iniciar la instalación de letsencrypt antes de
-generación :
+Estos son los comandos para iniciar la instalación de letsencrypt antes de la generación :
 
-    apt-get install -y git
-    cd / opt
-    git clone https://github.com/letsencrypt/letsencrypt
-    cd letsencrypt
-    ./ letsencrypt-auto --help
+````
+apt-gy install -y git
+cd /opt
+git clone https://github.com/letsencrypt/letsencrypt
+cd letsencrypt
+./letsencrypt-auto --help
+````
 
-Para solicitar un certificado, debe tener un nombre de
-dominio para el que se generará.
+Para solicitar un certificado, debe tener un nombre de dominio para el que se generará.
 
-Configuración de Apache 
-======================
+# Configuración de Apache
 
-Para que el proceso letsEncrypt se complete con éxito, es
-necesario realizar los tres pasos a continuación de antemano :
+Para que el proceso letsEncrypt finalice correctamente, es necesario realizar los tres pasos a continuación de antemano :
 
-Atención, es necesario abrir el puerto 80 en el enrutador (ISP) ! 
+Atención, es necesario abrir el puerto 80 en el enrutador (ISP) !
 
 -   Active el módulo apache SSL del cuadro Jeedom.
-
 -   Active el Apache VirtualHost HTTPS desde el cuadro Jeedom .
+-   Configure un puerto Reenvío de solicitudes HTTPS en su Internet Box para redirigirlas a su Jeedom Box.
 
--   Configure un puerto Reenvío de solicitudes HTTPS en su Box
-    Internet para redirigirlos a su Jeedom Box.
-
-Activación del módulo virtualHost y SSL 
-------------------------------------------
+## Activación del módulo virtualHost y SSL
 
 > **Nota**
 >
 > Conéctese en SSH en el cuadro Jeedom.
 
-    a2enmod ssl
-    a2ensite default-ssl.conf
-    servicio de reinicio apache2
+````
+a2enmod ssl
+a2ensite default-ssl.conf
+service apache2 restart
+````
 
 > **Nota**
 >
-> LetsEncrypt no emitirá ningún certificado mientras su sitio
-> en HTTPS no será accesible desde el exterior.
+> LetsEncrypt no emitirá ningún certificado siempre que no se pueda acceder a su sitio HTTPS desde el exterior.
 
-    / opt / letsencrypt / letsencrypt-auto --apache --email email @ domaine.com -d domaine.com
+``/opt/letsencrypt/letsencrypt-auto --apache --email email@domaine.com -d domaine.com``
 
-Necesita reemplazar la configuración <email@domaine.com> y domaine.com
-por tus valores. Normalmente los parámetros para agregar el protocolo HTTPS
-son agregados por el script en Apache.
+Necesita reemplazar la configuración <email@domaine.com> y dominio.com por tus valores. Normalmente, los parámetros para agregar el protocolo HTTPS los agrega el script en Apache.
 
 > **Nota**
 >
-> Si usa el método de renovación automática a continuación,
-> puedes deshabilitar virtualHost **default-ssl.conf** con el
-> Comando **a2dissite default-ssl.conf** Recuerde informar el código por
-> predeterminado a continuación en el VirtualHost creado por el script
-> renovación :
-> /etc/apache2/sites-available/000-default-le-ssl.conf \ `
+> Si utiliza el siguiente método de renovación automática, puede desactivar virtualHost ``default-ssl.conf`` con la orden ``a2dissite default-ssl.conf`` Recuerde llevar el código predeterminado a continuación en el VirtualHost creado por el script de renovación ``/etc/apache2/sites-available/000-default-le-ssl.conf``
 
-    <FilesMatch "\.(cgi|shtml|phtml|php)$">
-       SSLOptions + StdEnvVars
-    </FilesMatch>
-    <Directory /usr/lib/cgi-bin>
-       SSLOptions + StdEnvVars
-    </Directory>
-    </VirtualHost>
+````
+<FilesMatch "\.(cgi|shtml|phtml|php)$">
+   SSLOptions +StdEnvVars
+</FilesMatch>
+<Directory /usr/lib/cgi-bin>
+   SSLOptions +StdEnvVars
+</Directory>
+</VirtualHost>
+````
 
-Configuración de Nginx 
-======================
+# Configuración de Nginx
 
-Este comando solo se debe usar si tiene un servidor web
-Nginx.
+Este comando solo se debe usar si tiene un servidor web Nginx.
 
-    ./ letsencrypt-auto certonly - correo electrónico correo electrónico @ dominio.com -d domaine.com -a webroot --webroot-path /usr/share/nginx/www/
+``./letsencrypt-auto certonly --email email@domaine.com -d domaine.com -a webroot --webroot-path /usr/share/nginx/www/``
 
-Debe reemplazar los parámetros de correo electrónico y dominio con sus valores,
-así como la ruta a la raíz del servidor. Debes agregar el
-dos líneas de configuración HTTPS en la configuración nginx :
+Debe reemplazar los parámetros de correo electrónico y dominio con sus valores, así como la ruta a la raíz del servidor. Debe agregar las dos líneas de configuración HTTPS en la configuración nginx :
 
-    vi / etc / nginx / sites-enabled / default
+``vi /etc/nginx/sites-enabled/default``
 
-Agregue las siguientes líneas, entre las líneas `server {` y
-`root / usr / share / nginx / www;` :
+Agregue las siguientes líneas, entre las líneas ``server {`` y ``root /usr/share/nginx/www ;`` :
 
-    escucha 80;
-
-    escuchar 443 ssl;
-
-    ssl_certificate / etc / nginx / ssl / jeedom.chezmoi.fr.crt;
-
-    ssl_certificate_key / etc / nginx / ssl / jeedom.chezmoi.fr.key;
-
-    ssl_session_timeout 5m;
+````
+listen 80;
+listen 443 ssl;
+ssl_certificate /etc/nginx/ssl/ jeedom.chezmoi.fr.crt;
+ssl_certificate_key /etc/nginx/ssl/ jeedom.chezmoi.fr.key;
+ssl_session_timeout 5m;
+````
 
 Y finalmente reinicie el servidor Nginx.
 
-    servicio reinicio nginx
+``service nginx restart``
 
-Renovación 
-==============
+# Renovación
 
 La renovación se realiza con el pedido :
 
-    / opt / letsencrypt / letsencrypt-auto --apache --renew-by-default -d mondomaine.fr
+``/opt/letsencrypt/letsencrypt-auto --apache --renew-by-default -d mondomaine.fr``
 
-Recibirá un correo electrónico automáticamente cuando expire el plazo
-certificado que le recordará que inicie este comando.
+Recibirá un correo electrónico automáticamente cuando caduque el certificado que le recordará que inicie este pedido.
 
-Método automático 
--------------------
+## Método automático
 
-Todavía es mejor cuando es automático. Para hacer esto, aquí están los
-pasos a seguir :
+Todavía es mejor cuando es automático. Para hacer esto, estos son los pasos a seguir :
 
--   Instalar **bc**, utilizado en la secuencia de comandos le-renovar :
-
-<!-- -->
-
-    apt-get install -y bc
-
--   Cree un archivo para escribir el script (su ubicación es gratuita)
-    :
-
-<!-- -->
-
-    nano /bin/certletsencryptrenew.sh
-
--   Ingrese las líneas a continuación en el archivo creado previamente.
-    Copiar / pegar funciona a través de masilla. Este script verifica
-    el certificado caduca y lo renueva automáticamente si el
-    la fecha de vencimiento es dentro de los 30 días. Debes reemplazar el
-    configuración de dominio.com por tu valor :
-
-<!-- -->
-
+-   Instalar **bc**, utilizado en la secuencia de comandos le-renovar : ``apt-gy install -y bc``
+-   Cree un archivo para escribir el script (su ubicación es gratuita) : ``nano /bin/certletsencryptrenew.sh``
+-   Ingrese las líneas a continuación en el archivo creado previamente. Copiar / pegar funciona a través de masilla. Este script comprueba la caducidad del certificado y lo renueva automáticamente si la fecha de caducidad es inferior a 30 días. Debe reemplazar el parámetro de dominio.com por tu valor :
+````
     curl -L -o /usr/local/sbin/le-renew http://do.co/le-renew
-    chmod + x / usr / local / sbin / le -new
-    le-renovar domaine.com
-
--   Guarde el archivo y salga del editor de texto, por ejemplo,
-    con nano :
-
-<!-- -->
-
-    ctrl + o -> Enter (permite guardar)
-    ctrl + x -> Enter (salir)
-
--   Edite el crontab. Debe iniciar sesión como root :
-
-<!-- -->
-
-    crontab -e
-
--   Agregamos la siguiente línea :
-
-<!-- -->
-
-    0 5 * * 1 /bin/certletsencryptrenew.sh
-
+    chmod +x /usr/local/sbin/le-renew
+    le-renew domaine.com
+````
+-   Guarde el archivo y salga del editor de texto, por ejemplo, con nano :
+````
+    ctrl+o -> Entrée     (permy de sauvegarder)
+    ctrl+x -> Entrée     (permy de quitter)
+````
+-   Edite el crontab. Debe iniciar sesión como root ``crontab -e``
+-   Agregamos la siguiente línea : ``0 5 * * 1 /bin/certletsencryptrenew.sh``
 > **Importante**
 >
 > Tenga cuidado de adaptar la ruta al guión.
 
 > **Punta**
 >
-> Para entender la planificación 0 5 \* \* 1, mira aquí y
-> ajústelo a sus necesidades si es necesario :
-> <https://crontab.guru/#0_ _5_ _*_ _*_1>
-
--   Guarde el archivo y luego salga del editor de texto
-    copia de seguridad :
-
-<!-- -->
-
-    ctrl + o -> Entrar
-    ctrl + x -> Entrar
+> Para entender la planificación ``0 5 * * 1``, marque aquí y ajústelo según sea necesario :
+-   Guarde el archivo y salga del editor de texto guardando :
+````
+    ctrl+o -> Entrée
+    ctrl+x -> Entrée
+````
