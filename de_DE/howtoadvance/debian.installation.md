@@ -1,51 +1,32 @@
-Wir werden hier sehen, wie man einen Debian installiert, sowie
-als VM oder in direkter Installation auf einem physischen Computer
+# Installation de debian
 
-Quellenwiederherstellung 
-========================
+Wir werden hier sehen, wie ein Debian sowohl als VM als auch in direkter Installation auf einem physischen Computer installiert wird
 
-Sie finden die neueste Debian-Version in netinstall (Größe)
-minimal, aber Internet für die Installation benötigen)
-[hier](https://www.debian.org/CD/netinst) (Sie müssen das Bild aufnehmen
-amd64) oder direkt klicken
-[hier](http://cdimage.debian.org/debian-cd/9.1.0/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso)
-um die ISO herunterzuladen.
+# Quellenwiederherstellung
 
-Installationsstart 
-===========================
+Sie finden die neueste Debian-Version in netinstall (Mindestgröße, aber Internet für die Installation erforderlich) [hier](https://www.debian.org/CD/netinst) (Nehmen Sie das Bild in amd64 auf) oder klicken Sie direkt [hier](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) um die ISO herunterzuladen.
 
-Auf einer physischen Maschine 
-------------------------
+# Installationsstart
 
-Sie müssen entweder die ISO auf eine CD brennen und die CD in das Gerät einlegen
-(aber heutzutage sind CD-Player immer seltener) oder so
-Erstellen Sie einen bootfähigen USB-Stick.
+## Auf einer physischen Maschine
 
-Für den bootfähigen USB-Stick rufus herunterladen
-[die](http://rufus.akeo.ie/downloads/rufus-2.9.exe), starten und
-so konfigurieren :
+Sie müssen entweder die ISO auf eine CD brennen und die CD in das Gerät einlegen (heutzutage sind CD-Player jedoch immer seltener) oder einen bootfähigen USB-Stick erstellen.
+
+Für den bootfähigen USB-Stick rufus herunterladen [die](http://rufus.akeo.ie/downloads/rufus-2.9.exe), Starten Sie es und konfigurieren Sie es so :
 
 ![debian.installation](images/debian.installation.PNG)
 
 > **Notiz**
 >
-> Denken Sie daran, die heruntergeladene ISO-Datei auszuwählen
-> kurz zuvor
+> Denken Sie daran, die ISO-Datei auszuwählen, die Sie kurz zuvor heruntergeladen haben
 
-Sie müssen nur auf Start klicken und dann den USB-Stick einstecken
-auf dem Computer und starten Sie es.
+Sie müssen nur auf Start klicken, dann den USB-Stick in den Computer stecken und ihn starten.
 
-Auf einer VM 
-----------
+## Auf einer VM
 
-Die Handhabung ist ganz einfach, Sie erstellen eine neue Maschine
-virtuell, stecken Sie ein, legen Sie einen virtuellen CD-Player darauf, der zeigt
-an die ISO (denken Sie daran, sie anzuschließen) und Sie starten die Maschine. Siehe
-[hier](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.creer_une_vm.html)
-für weitere Details.
+Die Manipulation ist recht einfach: Sie erstellen eine neue virtuelle Maschine, schließen sie an, legen einen virtuellen CD-Player darauf, der auf die ISO zeigt (denken Sie daran, sie anzuschließen), und starten die Maschine. Sehen [hier](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.creer_une_vm.html) für weitere Details.
 
-Installation 
-============
+# Installation
 
 Drücken Sie die Eingabetaste, um die Installation zu starten :
 
@@ -63,8 +44,7 @@ Idem :
 
 ![debian.installation4](images/debian.installation4.PNG)
 
-Geben Sie den Namen Ihrer Maschine ein (hier nabaztag, aber wenn es sich um eine Freiheit handelt
-jeedom setzen)
+Geben Sie den Namen Ihrer Maschine ein (hier nabaztag, aber wenn es ein jeedom ist, setzen Sie jeedom)
 
 ![debian.installation5](images/debian.installation5.PNG)
 
@@ -72,8 +52,7 @@ Drücken Sie einfach die Eingabetaste :
 
 ![debian.installation6](images/debian.installation6.PNG)
 
-Geben Sie ein Passwort ein, ich empfehle hier ein einfaches (wie oooo),
-es kann später geändert werden (passwd Befehl) :
+Geben Sie ein Passwort ein, ich empfehle hier ein einfaches (wie oooo), es kann später geändert werden (passwd Befehl) :
 
 ![debian.installation7](images/debian.installation7.PNG)
 
@@ -81,8 +60,7 @@ Legen Sie es gleich zurück :
 
 ![debian.installation8](images/debian.installation8.PNG)
 
-Geben Sie den Namen des Hauptbenutzers an (hier nabaztag, aber wenn es ein ist
-jeedom put jeedom)
+Geben Sie den Namen des Hauptbenutzers an (hier nabaztag, aber wenn es sich um eine Freiheit handelt, setzen Sie jeedom)
 
 ![debian.installation9](images/debian.installation9.PNG)
 
@@ -90,8 +68,7 @@ Setzen Sie das gleiche zurück :
 
 ![debian.installation10](images/debian.installation10.PNG)
 
-Geben Sie ein Passwort ein, ich empfehle hier ein einfaches (wie oooo),
-es kann später geändert werden (passwd Befehl) :
+Geben Sie ein Passwort ein, ich empfehle hier ein einfaches (wie oooo), es kann später geändert werden (passwd Befehl) :
 
 ![debian.installation11](images/debian.installation11.PNG)
 
@@ -135,10 +112,7 @@ Und wieder (ja, wir validieren viel bei einer Debian-Installation) :
 
 ![debian.installation21](images/debian.installation21.PNG)
 
-Jetzt komplizierter, müssen Sie die Umgebung von abwählen
-Debian Desktop "durch Drücken der Leertaste und Auswahl von" Server
-SSH "durch Drücken der Leertaste (bewegen Sie sich mit den Pfeilen auf der
-Tastatur) und bestätigen Sie mit der Eingabetaste :
+Jetzt komplizierter, müssen Sie die Auswahl von "Debian-Desktop-Umgebung" durch Drücken der Leertaste aufheben und "SSH-Server" durch Drücken der Leertaste auswählen (Sie müssen sich mit den Pfeiltasten bewegen) und dann durch Drücken der Eingabetaste bestätigen :
 
 ![debian.installation22](images/debian.installation22.PNG)
 
@@ -150,44 +124,30 @@ Sie müssen / dev / sda auswählen und dann validieren :
 
 ![debian.installation24](images/debian.installation24.PNG)
 
-Dort müssen Sie nur den USB-Stick, die CD-ROM oder die virtuelle CD-ROM entfernen
-und drücken Sie die Eingabetaste :
+Dort müssen Sie nur den USB-Stick, die CD-ROM oder die virtuelle CD-ROM entfernen und die Eingabetaste drücken :
 
 ![debian.installation25](images/debian.installation25.PNG)
 
-Hier ist Ihre Debian-Installation abgeschlossen. Sie können die stoppen
-Tutorial dort, wenn Sie wollen oder folgen Sie den nächsten Schritten für ein paar
-Systemmodifikationen (nützlich besonders für Jeedom).
+Hier ist Ihre Debian-Installation abgeschlossen. Sie können das Tutorial dort beenden, wenn Sie möchten, oder die folgenden Schritte für einige Änderungen des Systems ausführen (nützlich insbesondere für Jeedom).
 
-Optimierung für Jeedom 
-========================
+# Optimierung für Jeedom
 
-Um die Installation von Jeedom vorzubereiten, können Sie einige tun
-Optimierungen :
+Um die Installation von Jeedom vorzubereiten, können Sie einige Optimierungen vornehmen :
 
-Fügen Sie vim und sudo hinzu 
--------------------
+## Fügen Sie vim und sudo hinzu
 
-    sudo apt-get install -y vim sudo
+``sudo apt-get install -y vim sudo``
 
-Fügen Sie fail2ban hinzu 
-----------------
+## Fügen Sie fail2ban hinzu
 
-Fail2ban ist eine Software, mit der Sie den Zugriff auf Ihr Debian sichern können,
-Bei zu vielen Verbindungsfehlern wird der Zugriff blockiert
-die betreffende IP (daher nicht an alle, nur an den Angreifer) a
-einige Zeit.
+Fail2ban ist eine Software, die es ermöglicht, den Zugriff auf Ihr Debian zu sichern. Bei zu vielen Verbindungsfehlern blockiert sie den Zugriff auf die betreffende IP (daher nicht auf alle, sondern nur auf die 'Angreifer) für eine Weile.
 
-    sudo apt-get install -y fail2ban
+``sudo apt-get install -y fail2ban``
 
-Fügen Sie die Open VMware Tools hinzu 
------------------------------
+## Fügen Sie die Open VMware Tools hinzu
 
-Öffnen Sie VMware Tools und installieren Sie systemspezifische Treiber
-installiert und bringen Sie die Optimierungen dieses gehosteten Betriebssystems
-auf einem ESXi-Hypervisor.
+Öffnen Sie VMware Tools, installieren Sie Treiber, die für das installierte Betriebssystem spezifisch sind, und stellen Sie Optimierungen für dieses Betriebssystem bereit, das auf einem ESXi-Hypervisor gehostet wird.
 
-    sudo apt-get install -y open-vm-tools
+``sudo apt-get install -y open-vm-tools``
 
-Sie müssen Jeedom nur installieren, indem Sie folgen
-[diese](https://doc.jeedom.com/de_DE/installation/index#tocAnchor-1-27)
+Sie müssen Jeedom nur installieren, indem Sie folgen [diese](https://doc.jeedom.com/de_DE/installation/cli)
