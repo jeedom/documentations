@@ -1,49 +1,33 @@
-> **Wichtig**
->
-> Das Aktivieren von Beta-Plugins ist sehr, sehr riskant und Sie
-> **VERBOTEN JEDEN ZUGRIFF AUF DIE UNTERSTÜTZUNG**. 
+# Gehe zur Beta
 
 > **Wichtig**
 >
-> Beta-Versionen sind oft instabil und können dazu führen
-> Bei vielen Bedenken ist es wichtig, sie nicht auf ein System von zu setzen
-> Produktion. Im Falle der Besorgnis wird das JEEDOM-Team nicht sein und kann es nicht
-> NICHT VERANTWORTLICH GEHALTEN.
+> Das Aktivieren von Beta-Plugins ist sehr, sehr riskant und Sie **VERBOTEN JEDEN ZUGRIFF AUF DIE UNTERSTÜTZUNG**.
+
+> **Wichtig**
+>
+> Beta-Versionen sind oft instabil und können viele Probleme verursachen. Stellen Sie sie daher nicht auf ein Produktionssystem. Im Falle der Besorgnis wird das JEEDOM-Team nicht haftbar gemacht und kann nicht haftbar gemacht werden.
 
 > **Notiz**
 >
-> Diese Dokumentation ist bewusst nicht detailliert, so dass
-> Die Bedienung ist nicht einfach. In der Tat erfordert es, in der Beta zu sein
-> Computerkenntnisse sowie Protokollentschlüsselung oder
-> Dokumentation.
+> Diese Dokumentation ist freiwillig wenig detailliert, so dass die Bedienung nicht einfach ist. In der Beta-Phase sind Kenntnisse sowohl in der IT als auch beim Entschlüsseln von Protokollen oder Dokumentationen erforderlich.
 
-Schalten Sie den Kern auf Beta 
-======================
+## Schalten Sie den Kern auf Beta
 
 > **Wichtig**
 >
-> Ein Beta-Update kann Ihre Jeedom und vollständig brechen
-> mach es nicht behebbar. Im Falle von Bedenken haben Sie KEINE UNTERSTÜTZUNG
-> muss für sich selbst sorgen.
+> Ein Beta-Update kann Ihr Jeedom vollständig beschädigen und es nicht mehr wiederherstellbar machen. Im Falle von Sorgen haben Sie KEINE UNTERSTÜTZUNG, müssen Sie für sich selbst sorgen.
 
-Beta-Plugins 
-==========================
+## Beta-Plugins
 
-Gehen Sie dazu zum Jeedom-Markt und dann zu Ihrem
-Profil, Party **Mein Profil**, Aktivieren Sie das Kontrollkästchen, um darauf zuzugreifen
-Beta-Plugins.
+Gehen Sie dazu zum Jeedom-Markt und dann in Ihrem Profilabschnitt **Mein Profil**, Aktivieren Sie das Kontrollkästchen, um Zugriff auf Beta-Plugins zu erhalten.
 
-Dann sollten Sie in Ihrem Jeedom auf den Plugin-Dateien
-siehe eine Schaltfläche "Beta installieren".
+Dann sollte in Ihrem Jeedom in den Plugin-Dateien die Schaltfläche "Beta installieren" angezeigt werden".
 
 > **Wichtig**
 >
-> Jedes in der Beta installierte Plugin verbietet den vollständigen Zugriff auf das
-> Unterstützung, auch wenn Ihr Problem nicht mit diesem Plugin zusammenhängt.
+> Jedes in der Beta installierte Plugin verbietet den vollständigen Zugriff auf den Support, auch wenn Ihr Problem dieses Plugin nicht betrifft.
 
 > **Wichtig**
 >
-> Jede Bitte um Unterstützung im Zusammenhang mit dem Übergang zur Beta oder ein Problem
-> mit einer Beta-Komponente oder auf einem System, das bereits einen Kern hatte oder
-> Ein Beta-Plugin wird sofort geschlossen, ohne dass eine Antwort von kommt
-> unser Teil.
+> Jede Anfrage nach Unterstützung im Zusammenhang mit dem Übergang zur Beta oder einem Problem mit einer Beta-Komponente oder auf einem System, das bereits über einen Core oder ein Beta-Plugin verfügt, wird sofort geschlossen, ohne dass wir darauf antworten.

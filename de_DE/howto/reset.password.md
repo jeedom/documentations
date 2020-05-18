@@ -1,45 +1,65 @@
-Wir werden hier sehen, wie Sie das Jeedom-Passwort direkt ändern können
-indem Sie es in der Datenbank ändern, falls Sie es vergessen haben 
+# Vorgehensweise bei Verlust des Passworts zur Verbindung mit Jeedom
 
-Das erste, was zu tun ist, ist in SSH eine Verbindung zu Jeedom herzustellen (mit a
-Kitty- oder Kitt-Software).
+# > 3.3.50
 
-Sobald die Verbindung hergestellt ist, müssen Sie die Kennungen aus der Datenbank abrufen
-Daten :
+Das erste, was Sie tun müssen, ist, in SSH eine Verbindung zu Jeedom herzustellen (mit einer Kitty- oder Kitt-Software).
 
-`` `{.bash}
+Dann müssen Sie nur noch tippen :
+
+````
+php /var/www/html/install/reset_password.php
+````
+
+Das System fragt Sie nach dem Benutzernamen, für den Sie das Passwort verloren haben (Sie haben die Liste aller Benutzer für den Fall), und drücken Sie nach der Eingabe (Groß- / Kleinschreibung beachten) die Eingabetaste. Und Sie haben Ihr neues Passwort.
+
+Beispiel :
+
+````
+php /var/www/html/install/reset_password.php
+Reset user password
+List of user :
+- toto
+- plop
+Please type login :
+toto
+Operation successfull, your new password for user toto is : 9ULB5RUr3VGHxBD8tYVSMeWPvOKILQbs
+````
+
+# < 3.3.50
+
+Wir werden hier sehen, wie Sie das Jeedom-Passwort direkt ändern können, indem Sie es in der Datenbank ändern, falls Sie es vergessen haben
+
+Das erste, was Sie tun müssen, ist, in SSH eine Verbindung zu Jeedom herzustellen (mit einer Kitty- oder Kitt-Software).
+
+Sobald die Verbindung hergestellt ist, müssen Sie die Kennungen aus der Datenbank abrufen :
+
+````
 cat /var/www/html/core/config/common.config.php
-`` ''
+````
 
-Hier finden Sie das Passwort für den Zugriff auf die Datenbank
-Jeedom, dann musst du tun :
+Hier finden Sie das Passwort für den Zugriff auf die Jeedom-Datenbank, das Sie dann tun müssen :
 
-`` `{.bash}
+````
 mysql -ujeedom -p
-`` ''
+````
 
-Dort fragt er Sie nach dem oben abgerufenen Passwort (dem Passwort
-nicht angezeigt : das ist normal). Dann tippe (oder besser),
-Kopieren / Einfügen. Sie müssen unter Putty mit der rechten Maustaste klicken, um "einzufügen") :
+Dort fragt er Sie nach dem oben wiederhergestellten Passwort (das Passwort wird nicht angezeigt : das ist normal). Geben Sie dann ein (oder besser kopieren / einfügen). Sie müssen unter Putty mit der rechten Maustaste klicken, um "einzufügen") :
 
-`` `{.bash}
+````
 benutze Jeedom;
-IN Benutzer-SET ERSETZEN `login` = 'adminTmp', password = 'c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81fc
-`` ''
+REPLACE INTO user SET `login`='adminTmp',password='c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec',profils='admin', enable='1';
+````
 
-Los geht's. Sie können die Verbindung zu Ihrem Jeedom mit dem trennen / wieder herstellen
-adminTmp / admin-IDs, mit denen Sie das Kennwort ändern können
-Übergeben Sie auch andere Konten.
+Hier. Sie können die Verbindung zu Ihrem Jeedom mit den Kennungen adminTmp / admin trennen / wieder herstellen, sodass Sie auch das Kennwort anderer Konten ändern können.
 
 >**Wichtig**
 >
->Denken Sie daran, dass nach dem Wiederherstellen Ihres Zugriffs der Benutzer adminTmp möglicherweise gelöscht wird
-Sicherheitsverletzung, für die Sie allein verantwortlich sind.
+>Denken Sie daran, dass nach dem Wiederherstellen Ihres Zugriffs zum Löschen des adminTmp-Benutzers möglicherweise eine Sicherheitsverletzung vorliegt, für die Sie allein verantwortlich sind.
 
 >**Wichtig**
 >
-> Wenn Sie die AD / LDAP-Authentifizierung aktiviert haben, funktioniert diese Rücksetzmethode nur, wenn Sie den AD / LDAP-Modus deaktivieren. Sie können dies tun, indem Sie dies tun : 
->`` `{.bash}
+> Wenn Sie die AD / LDAP-Authentifizierung aktiviert haben, funktioniert diese Rücksetzmethode nur, wenn Sie den AD / LDAP-Modus deaktivieren. Sie können dies tun, indem Sie dies tun :
+>````
 >benutze Jeedom;
 >REPLACE IN `config` SET` value` = '0',` key` = 'ldap:enable ', `plugin` =' core ';
->`` ''
+>````
