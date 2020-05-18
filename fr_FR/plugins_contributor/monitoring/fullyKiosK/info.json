@@ -2,7 +2,7 @@
 {
 	"id" : "fullyKiosK",
 	"name" : "fullyKiosK",
-	"description" : "Plugin fullyKiosK",
+	"description" : "Plugin fullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk",
 	"licence" : "AGPL",
 	"author" : "Ssc",
 	"require" : "2.3",

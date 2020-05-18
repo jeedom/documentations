@@ -422,7 +422,7 @@
     },
     "plugins_contributor\/monitoring\/index.md": {
         "Plugin de journalisation d'activité pour les équipements, scénarios, et fichiers log": "Aktivitätsprotokollierungs-Plugin für Geräte, Szenarien und Protokolldateien",
-        "Plugin fullyKiosK": "FullyKiosK Plugin",
+        "Plugin fullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk": "FullyKiosK-Plugin für die Tablet-Verwaltung mit der Fullkiosk-App",
         "Seuls les plugins de contributeur ont leur documentation ici": "Hier haben nur Contributor-Plugins ihre Dokumentation",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Sie können die Dokumentation der offiziellen Plugins direkt vom Jeedom Market abrufen",
         "Une fois sur le plugin en question, cliquez sur documentation": "Klicken Sie im betreffenden Plugin auf Dokumentation",
