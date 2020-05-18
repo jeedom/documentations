@@ -1,43 +1,41 @@
-Wir werden hier sehen, wie man manuell aktualisiert
-Jeedom, über SSH-Konsole.
+# Jeedom Kommandozeilen-Update
 
-Voraussetzungen 
-=========
+Wir werden hier sehen, wie man manuell aktualisiert
+
+## Voraussetzungen
 
 -   weiß, wie man in SSH eine Verbindung zu Jeedom herstellt
-
 -   kennen die SSH-Kennungen (siehe Installationsdokumentation)
-
 -   haben Internetzugang von der Jeedom Box
 
 > **Wichtig**
 >
-> Denken Sie daran, vor jedem Update ein Backup zu erstellen und zu exportieren
-> Handbuch.
+> Denken Sie daran, vor jedem manuellen Update ein Backup zu erstellen und zu exportieren.
 
-Herunterladen und entpacken 
-===============================
+## Herunterladen und entpacken
 
 In SSH tun :
 
-    sudo su -
-    cd / root
-    wget https://github.com/jeedom/core/archive/master.zip
-    entpacke master.zip
-    cp -R Core-Master / * / var / www / html
-    cp -R Core-Master /.[^.]* / var / www / html
+````
+sudo su -
+cd /root
+wget https://github.com/jeedom/core/archive/master.zip
+unzip master.zip
+cp -R core-master/* /var/www/html
+cp -R core-master/.[^.]* /var/www/html
+````
 
-Update 
-===========
+## Update
 
 Immer noch in SSH:
 
-    sudo su -
-    php / var / www / html / install / update.PHP-Modus = Kraft
-    chmod 775 -R / var / www / html
-    www-data chown:www-data -R / var / www / html
+````
+sudo su -
+php /var/www/html/install/update.php mode=force
+chmod 775 -R /var/www/html
+chown www-data:www-data -R /var/www/html
+````
 
 > **Wichtig**
 >
-> Wenn Ihre Installation von Jeedom etwas alt ist, muss sie ersetzt werden
-> all / var / www / html von / usr / share / nginx / www / jeedom
+> Wenn Ihre Jeedom-Installation etwas alt ist, müssen Sie alle ersetzen ``/var/www/html`` Von ``/usr/share/nginx/www/jeedom``

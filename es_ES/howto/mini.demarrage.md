@@ -1,40 +1,26 @@
-En primer lugar, gracias por comprar el Jeedom Mini +. Encontraras aqui,
-documentación detallada que explica cómo comisionar esto
-box, y así descubrir la domótica con Jeedom.
+# Mini + inicio
+
+En primer lugar, gracias por comprar el Jeedom Mini +. Aquí encontrará documentación detallada que explica cómo poner esta caja en servicio, y así descubrir la automatización del hogar con Jeedom.
 
 La caja Jeedom Mini + que recibió debe contener :
 
--   Una caja Jeedom Mini + (Tarjeta JeedomBoard Mono - ARM Cortex A9 1.2Ghz
-    Y 512 MB de RAM)
-
+-   Una caja Jeedom Mini + (Tarjeta Mono JeedomBoard - ARM Cortex A9 1.2Ghz y 512MB RAM)
 -   Un cargador de red de 5V 2A.
-
--   Una tarjeta micro SD con software Jeedom preinstalado. (Este
-    la tarjeta normalmente ya está insertada en la caja)
-
+-   Una tarjeta micro SD con software Jeedom preinstalado. (Esta tarjeta normalmente ya está insertada en la caja)
 -   Adaptador de tarjeta microSD / SD.
-
 -   Pegatina Jeedom.
-
--   *Un módulo RFXcom 433E con su cable USB.* (Solo si tienes
-    compró el paquete de inicio con interfaz RFXcom).
-
--   *Tarjeta RaZberry Z-Wave +.* (Solo si compraste el paquete
-    Arrancador compatible con Z-Wave +) (esta tarjeta normalmente ya está
-    instalado en la caja)
+-   *Un módulo RFXcom 433E con su cable USB.* (Solo si compró el paquete de inicio con la interfaz RFXcom).
+-   *Tarjeta RaZberry Z-Wave +.* (Solo si compró el paquete de inicio compatible con Z-Wave +) (Esta tarjeta normalmente ya está instalada en la caja)
 
 ![mini.demarrage01](images/mini.demarrage01.png)
 
-Antes de poder usarlo, debe enchufar su caja Jeedom Mini +
-en su red local (en enrutador, conmutador o caja de internet, etc.), y
-en el sector.
+Antes de poder usarlo, debe conectar su caja Jeedom Mini + a su red local (en el enrutador, conmutador o caja de Internet ...) y a la red eléctrica.
 
 ![mini.demarrage02](images/mini.demarrage02.png)
 
 ![mini.demarrage03](images/mini.demarrage03.png)
 
-Antes de comenzar, tenga en cuenta que Jeedom funciona utilizando
-complementos Varios complementos están preinstalados en su Jeedom Mini + :
+Antes de comenzar, tenga en cuenta que Jeedom funciona con complementos. Varios complementos están preinstalados en su Jeedom Mini + :
 
 ![mini.demarrage04](images/mini.demarrage04.png)
 
@@ -55,32 +41,16 @@ El plugin meteorológico.
 
 ![mini.demarrage08](images/mini.demarrage08.png)
 
-Todavía encontrará muchos otros complementos directamente a través de
-Interfaz Jeedom en el mercado Jeedom.
+Todavía encontrará muchos otros complementos directamente a través de la interfaz de Jeedom en el mercado de Jeedom.
 
-Además, no olvides que tienes 2 cupones
-(enviado por correo electrónico), lo que le permite instalar 2 complementos pagos
-gratis (RFXCOM y alarma). Para usarlo debes crear un
-cuenta en el mercado Jeedom, vea la documentación : [Doc
-Market](https://doc.jeedom.com/es_ES/premiers-pas/index).
+Además, no olvide que tiene 2 cupones (enviados por correo electrónico), lo que le permite instalar 2 complementos pagos de forma gratuita (RFXCOM y Alarm). Para usarlo, debe crear una cuenta en Jeedom Market, consulte la documentación : [Doc mercado](https://doc.jeedom.com/es_ES/premiers-pas/index).
 
-En el correo electrónico que recibió, también aparece el número de Servicio
-Paquete asociado a Jeedom Mini +. Puedes completarlo en tu
-Perfil de mercado, esto le permitirá, entre otras cosas, acceder
-diferentes servicios correspondientes a su Service Pack.
+El correo electrónico que recibió también incluye el número del paquete de servicio asociado con el Jeedom Mini +. Puede ingresarlo en su perfil de Market, esto le permitirá, entre otras cosas, acceder a los diversos servicios correspondientes a su Service Pack.
 
 ![mini.demarrage09](images/mini.demarrage09.png)
 
-Ahora puedes seguir la documentación : [Comenzando con
-Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index)
-Lo que le permitirá encontrar la dirección IP de su Jeedom Mini + y
-inicie sesión para comenzar a configurarlo y usarlo.
+Ahora puedes seguir la documentación : [Comenzando con Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index) Lo que le permitirá encontrar la dirección IP de su Jeedom Mini + y conectarse a ella para comenzar a configurarla y usarla.
 
-Para seguir explorando y usar Jeedom, tienes
-documentación completa : [Documentación
-Jeedom](https://jeedom.fr/doc) et également d'une section répertoriant
-video tutoriales : [Video tutoriales](https://doc.jeedom.com/es_ES/presentation/index#tocAnchor-1-3).
-No dudes en ir al Foro de Jeedom por cualquier otro
-Pregunta : [Foro de Jeedom](https://www.jeedom.com/forum/).
+Para profundizar en el descubrimiento y uso de Jeedom, tiene documentación completa : [Documentación de Jeedom](https://doc.jeedom.fr) y también una sección que enumera los videos tutoriales : [Video tutoriales](https://doc.jeedom.com/es_ES/presentation/index#tocAnchor-1-3). No dudes en ir al Foro Jeedom para cualquier otra pregunta : [Coomunity Jeedom](https://community.jeedom.com/).
 
 Gracias y buen descubrimiento de la automatización del hogar con Jeedom.

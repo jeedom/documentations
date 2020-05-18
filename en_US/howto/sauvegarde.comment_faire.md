@@ -1,48 +1,26 @@
-Description 
-===========
+# How to make backups
 
-There are two ways to save Jeedom and each has
-pros and cons.
+There are two ways to save Jeedom and each has advantages and disadvantages.
 
-It is possible to save from the interface
-Jeedom. This only concerns Jeedom software and its data.
-It has the advantage of being able to be made hot and the file of
-backup can be exported to other media.
+It is possible to save from the Jeedom interface. This only concerns Jeedom software and its data. It has the advantage of being able to be made hot and the backup file can be exported to other media.
 
-It is also possible to make a backup by making an image
-microSD card disc (mini and mini +). This way has the advantage
-to be a full backup of the system as well as of Jeedom and its
-data. However, it must be done by switching off Jeedom and
-plugging the microSD card into another computer.
+It is also possible to make a backup by making a disk image of the microSD card (mini and mini +). This way has the advantage of being a full backup of the system as well as of Jeedom and its data. By cons it must be done by turning off Jeedom and connecting the microSD card to another computer.
 
-The best way to be quiet is to use both : Do a
-back up the microSD card from time to time and program a
-regular backup of Jeedom.
+The best way to be quiet is to use both : Make a backup of the microSD card from time to time and schedule a regular backup of Jeedom.
 
 > **Tip**
 >
-> The microSD card restore procedure may be useful for
-> restore a default Jeedom from the image provided by
-> the team see
-> [here](https://www.jeedom.fr/doc/documentation/installation/en_US/doc-installation.html).
+> The procedure for restoring the microSD card may be useful for restoring a default Jeedom from the image provided by the team see [here](https://doc.jeedom.com/en_US/installation/).
 
-Jeedom Backup / Restore 
-=================================
+# Safeguard/Restoration de Jeedom
 
-Documentation is already present to explain the page
-Administration → Backups. You will find it
-[here](https://jeedom.github.io/core/en_US/backup).
+Documentation is already present to explain the Administration → Backups page. You will find it [here](https://doc.jeedom.com/en_US/core/3.3/backup).
 
-Backup / Restore microSD card 
-===========================================
+# Safeguard/Restoration de la carte microSD
 
-Preparations 
------------
+## Preparations
 
-These backups / restores are performed from another
-computer to make a "clean picture" of the SD card. It takes in
-first stop the mini +. To do this, put Jeedom in mode
-expert in the user menu at the top right.
+These backups / restores are carried out from another computer in order to make a "clean image" of the SD card. We must first stop the mini +. To do this, switch Jeedom to expert mode in the user menu at the top right.
 
 ![save restore06](images/save-restore06.jpg)
 
@@ -50,123 +28,67 @@ And click on Turn off
 
 ![save restore07](images/save-restore07.jpg)
 
-Then remove the microSD card from the mini + and connect it to
-your computer via an adapter / card reader /…
+Then, you have to take the microSD card out of the mini + and connect it to your computer via an adapter / card reader /…
 
 ![save restore08](images/save-restore08.jpg)
 
-Windows 
-------------
+## Windows
 
-You will have to start by downloading third-party software for example :
-[Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/)
+You will have to start by downloading third-party software for example : [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/)
 
-1.  **Safeguard**
+### Safeguard
 
-    -   Launch the software and check that the letter below
-        *Device* matches that of your card / reader
-        Map.
+-   Launch the software and check that the letter below *Device* matches that of your card / card reader.
+-   In the field *Image File*, specify the name of the image file you want to create and where it will be saved.
+-   Finally click on the button *Read*, in order to create the image.
+    image::images / save-restore09.jpg
 
-    -   In the field *Image File*, indicate the name of the image file that
-        you want to create as well as where it will be saved.
+### Restoration
 
-    -   Finally click on the button *Read*, in order to create the image.
-        image::images / save-restore09.jpg \ [align = "center" \]
-
-2.  **Restoration**
-
-    -   Launch the software and check that the letter below
-        *Device* matches that of your card / reader
-        Map.
-
-    -   In the field *Image File*, go get the image file that
-        you want to restore.
-
-    -   Finally click on the button *Write*, in order to restore this
-        image on microSD card.
+-   Launch the software and check that the letter below *Device* matches that of your card / card reader.
+-   In the field *Image File*, find the image file you want to restore.
+-   Finally click on the button *Write*, to restore this image to the microSD card.
 
 ![save restore10](images/save-restore10.jpg)
 
-Under MacOSX 
------------
+## Under MacOSX
 
-To make your task easier, you can download the software
-[ApplePi-Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
+To make your task easier, you can download the software [ApplePi-Baker](http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/)
 
 ![save restore11](images/save-restore11.jpg)
 
-1.  **Safeguard**
+### Safeguard
 
-    -   With ApplePi-Baker : Select the correct card from the list
-        *Pi-Crust*, and click *Create backup* in order to create a
-        image file of your microSD card.
+-   With ApplePi-Baker : Select the correct card from the list *Pi-Crust*, and click *Create backup* to create an image file of your microSD card.
 
-    -   In shell command :
+-   In shell command :
+ -   In order to find the disk corresponding to the card, open a terminal and enter the command : ``diskutil list``  
+ ![save restore12](images/save-restore12.jpg)
+ -   Start creating the image by entering the command : ``sudo dd if=/dev/disk1 of=~/Desktop/Backup_Jeedom.img bs=1m`` *Note: In this example, the name of the card disk is `/ dev / disk1`, so you must enter in the backup command \` / dev / disk1 \ `*
 
-        -   In order to find the disk corresponding to the card, open
-            a terminal and enter the command : `diskutil list`
-            image::images / save-restore12.jpg \ [align = "center" \]
+### Restoration
 
-        -   Start creating the image by entering the command :
-            `sudo dd if = / dev / disk1 of = ~ / Desktop / Backup_Jeedom.img bs = 1m`
-            *Note: In this example, the name of the card disk
-            is `/ dev / disk1`, so enter in the command
-            backup \ `/ dev / disk1 \`*
+-   With ApplePi-Baker : Select the correct card from the list *Pi-Crust*, put the path to the image file to restore in the field *IMG file* of the section *Pi-Ingredients*, and click *Restore Backup* to restore the image on the microSD card.
+-   In shell command :
+    -   In order to find the disk corresponding to the card, open a terminal and enter the same command as for the backup : ``diskutil list``
+ -   Unmount the partitions of the card by typing the command : ``sudo diskutil unmountDisk /dev/disk1``
+ -   Restore the image on the microSD card by typing the command : ``sudo dd bs=1m if=~/Desktop/Backup_Jeedom.img of=/dev/disk1`` *Note : In this example, the name of the card disk is `/ dev / disk1`, so you must enter in the backup command \` / dev / disk1 \ `*
 
-2.  **Restoration**
+## Under Linux
 
-    -   With ApplePi-Baker : Select the correct card from the list
-        *Pi-Crust*, put the path to the image file to restore
-        In the field *IMG file* of the section *Pi-Ingredients*, et
-        Click on *Restore Backup* in order to restore the image on the
-        microSD card.
+### Safeguard
 
-    -   In shell command :
+-   In order to find the disk corresponding to the card, open a terminal and enter the command : ``sudo fdisk -l | grep Dis``
+    ````
+    $ sudo fdisk -l | grep Dis
+    Disk /dev/sda: 320.1 GB, 320072933376 bytes
+    Disk /dev/sdb: 16.0 GB, 16012804096 bytes
+    Disk /dev/sdc: 8.0 GB, 8006402048 bytes
+    ````
+-   Start creating the image by entering the command : ``sudo dd if=/dev/sdc of=Backup_Jeedom.img bs=1m`` *Note: In this example, the name of the card disk is / dev / sdc.*
 
-        -   In order to find the disk corresponding to the card, open
-            a terminal and enter the same command as for the
-            Safeguard : `diskutil list`
+### Restoration
 
-        -   Unmount the partitions of the card by typing the command :
-            `sudo diskutil unmountDisk / dev / disk1`
-
-        -   Restore the image on the microSD card by typing the command
-            :
-            `sudo dd bs = 1m if = ~ / Desktop / Backup_Jeedom.img of = / dev / disk1`
-            *Note : In this example, the name of the card disk
-            is `/ dev / disk1`, so enter in the command
-            backup \ `/ dev / disk1 \`*
-
-Under Linux 
-----------
-
-1.  **Safeguard**
-
-    -   In order to find the disk corresponding to the card, open a
-        terminal and enter the command : `sudo fdisk -l | grep Dis`
-
-        `` `{.bash}
-        $ sudo fdisk -l | grep Dis
-        Disk / dev / sda: 320.1 GB, 320072933376 bytes
-        Disk / dev / sdb: 16.0 GB, 16012804096 bytes
-        Disk / dev / sdc: 8.0 GB, 8006402048 bytes
-        `` ''
-
-    -   Start creating the image by entering the command :
-        `sudo dd if = / dev / sdc of = Backup_Jeedom.img bs = 1m` * Note: Dans
-        this example, the name of the card disk is / dev / sdc.*
-
-2.  **Restoration**
-
-    -   In order to find the disk corresponding to the card, open a
-        terminal and enter the command : `sudo fdisk -l | grep Dis`
-
-    -   Unmount the partitions of the card by typing the command (in
-        replacing the X with the partition numbers) :
-        `sudo umount / dev / sdcX`
-
-    -   Restore the image on the microSD card by typing the command :
-        `sudo dd if = Backup_Jeedom.img of = / dev / sdc bs = 1m` * Note: Dans
-        this example, the name of the card disk is / dev / sdc.*
-
-
+-   In order to find the disk corresponding to the card, open a terminal and enter the command : ``sudo fdisk -l | grep Dis``
+-   Remove the partitions from the card by typing the command (replacing the X with the partition numbers) : ``sudo umount /dev/sdcX``
+-   Restore the image on the microSD card by typing the command : ``sudo dd if=Backup_Jeedom.img of=/dev/sdc bs=1m`` *Note: In this example, the name of the card disk is / dev / sdc.*
