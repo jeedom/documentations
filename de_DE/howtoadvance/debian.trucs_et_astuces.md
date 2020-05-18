@@ -1,62 +1,53 @@
-Nützliche Pakete 
-==============
+# Debian Tipps und Tricks
+
+# Nützliche Pakete
 
 Hier sind einige nützliche Pakete, um eine leere Installation durchzuführen :
 
--   **fail2ban** : Ermöglicht das Sperren von IPs, die versuchen, eine Verbindung herzustellen
-    Maschine.
-
--   **vim** : Es ist ein Befehlszeilentexteditor
-    Ersetzen Sie es auch durch Nano oder viele andere.
-
+-   **fail2ban** : Ermöglicht das Sperren von IP-Adressen, die versuchen, eine Verbindung zum Computer herzustellen.
+-   **vim** : Es ist ein Befehlszeilentexteditor, wir können ihn auch durch Nano oder viele andere ersetzen.
 -   **Netzwerkzeuge** : Sammlung von Programmen zur Verwaltung des Netzwerks
-
 -   **dos2unix** : Textkonvertierungswerkzeug
 
-<!-- -->
+``apt-get install -y vim fail2ban Netzwerkzeuge dos2unix``
 
-    apt-get install -y vim fail2ban net-tools dos2unix
+Wenn Sie mit VMware arbeiten, können Sie zusätzliche Tools hinzufügen:
 
-Wenn Sie mit VMware arbeiten, können Sie zusätzliche Tools hinzufügen
-:
+``apt-get install -y open-vm-tools``
 
-    apt-get install -y open-vm-tools
-
-Färben Sie die Konsole 
-====================
+# Färben Sie die Konsole
 
 Wenn Sie möchten, dass Ihre Konsole (Bash) Farben verwendet :
 
-    rm -rf /root/.bashrc
-    wget https://raw.githubusercontent.com / jeedom / core / stabil / install / bashrc -O /root/.bashrc
-    dos2unix /root/.bashrc
+````
+rm -rf /root/.bashrc
+wget https://raw.githubusercontent.com/jeedom/core/master/install/bashrc -O /root/.bashrc
+dos2unix /root/.bashrc
+````
 
-Root-Login in SSH zulassen 
-==================================
+# Root-Login in SSH zulassen
 
-Bearbeiten Sie die Datei / etc / ssh / sshd\_config und ändern Sie sie :
+Bearbeiten Sie die Datei ``/etc/ssh/sshd_config`` und ändern :
 
-    PermitRootLogin ohne Passwort
+``PermitRootLogin without-password``
 
 Von :
 
-    PermitRootLogin ja
+``PermitRootLogin yes``
 
 > **Wichtig**
 >
-> Stellen Sie sicher, dass Sie ein sicheres Root-Passwort verwenden ! Die Verwendung von
-> fail2ban wird ebenfalls empfohlen.
+> Stellen Sie sicher, dass Sie ein sicheres Root-Passwort verwenden ! Die Verwendung von fail2ban wird ebenfalls empfohlen.
 
-Montieren Sie eine Samba-Freigabe 
-=======================
+# Montieren Sie eine Samba-Freigabe
 
 Installation des cifs-Pakets
 
-    apt-get install -y cifs-utils
+``apt-get install -y cifs-utils``
 
 Erstellen Sie den Einhängepunkt :
 
-    mkdir / mnt / my_share
+``mkdir /mnt/mon_partage``
 
 > **Notiz**
 >
@@ -68,153 +59,124 @@ Mount in / etc / fstab hinzugefügt
 
 > **Notiz**
 >
-> Sie müssen die TODOs mit Ihrem Linux-Benutzernamen und Ihrem ändern
-> Passwort
+> Sie müssen die TODOs mit Ihrem Linux-Benutzernamen und Passwort ändern
 
-Übergang von Jessie zu Stretch 
-===========================
+# Übergang von Jessie zu Stretch
 
-Zum Testen des Upgrades und der Stretch-Installation mit Wiederherstellung
-Als Backup bestätige ich, dass die Installation von Stretch by
-Durch das Überschreiben sparen Sie Zeit.
+Nachdem Sie das Upgrade und die Stretch-Installation mit Wiederherstellung eines Backups getestet haben, bestätige ich, dass Sie durch die Installation von Stretch durch Überschreiben Zeit sparen.
 
--   **Methode 1 : Stretch-Installation :** Maximal 1 bis 2 Stunden und
-    vor allem ein sauberes Betriebssystem.
+-   **Methode 1 : Stretch-Installation :** Maximal 1 bis 2 Stunden und vor allem ein sauberes Betriebssystem.
+-   **Methode 2 : Update von Jessie auf Stretch :** einen halben Tag, um die Käfer abzuwischen.
 
--   **Methode 2 : Update von Jessie auf Stretch :** einen halben Tag um
-    Wischen Sie Fehler ab.
+## Methode 1 : Installation von Stretch und Backup Restore
 
-Methode 1 : Installation von Stretch und Backup Restore 
------------------------------------------------------------------
-
-Bevor Sie beginnen, erstellen Sie eine vollständige Sicherung über Jeedom von Ihnen
-Installation unter Jessie, dann exportieren Sie das Backup in ein anderes
-Speichermedium.
+Bevor Sie beginnen, erstellen Sie über Jeedom eine vollständige Sicherung Ihrer Installation unter Jessie und exportieren Sie die Sicherung auf ein anderes Speichermedium.
 
 > **Spitze**
 >
-> Laden Sie das Backup nicht über die Weboberfläche (SSH, FTP) herunter,
-> SAMBA, andere Ihrer Wahl), denn wenn Ihr Archiv groß ist
-> Es kann leicht durch HTTP-Download beschädigt werden.
-> Wenn es jedoch weniger als 100 MB beträgt, ist es spielbar.
+> Laden Sie das Backup nicht über die Weboberfläche herunter (SSH, FTP, SAMBA, andere Ihrer Wahl), denn wenn Ihr Archiv groß ist, kann es leicht durch einen HTTP-Download beschädigt werden. Wenn es jedoch weniger als 100 MB beträgt, ist es spielbar.
 
 -   Installieren Sie Debian Stretch auf Ihrer Box.
+-   Konfigurieren Sie Ihr lokales Netzwerk neu, überprüfen Sie, ob Ihr Computer betriebsbereit und auf dem neuesten Stand ist.
+-   Installieren Sie Jeedom, indem Sie den Anweisungen folgen [Doc](https://github.com/jeedom/documentation/blob/master/installation/de_DE/other.asciidoc)
 
--   Konfigurieren Sie Ihr lokales Netzwerk neu und überprüfen Sie, ob Ihr Computer vorhanden ist
-    betriebsbereit und aktuell.
+>**Achtung**
+>
+>MariaDB erlaubt keinen Zugriff mehr auf das 'root'-Profil, wodurch die Wiederherstellung einer Datenbank blockiert werden kann, deren Namen Sie geändert hätten (wie ich), sodass wir die Sicherung nicht sofort wiederherstellen. Wenn der Benutzer 'jeedom' nicht über die richtigen Berechtigungen verfügt, schlägt die Wiederherstellung fehl.
 
--   Installieren Sie Jeedom, indem Sie dem Dokument folgen :
-    <https://github.com/jeedom/documentation/blob/master/installation/de_DE/other.asciidoc>
+Référence : <http://jc.etiemble.free.fr/abc/index.PHP / Realisierungen / Tipps-Tricks / deb9php7> (Kapitel 5a)
 
-\ [ACHTUNG \] MariaDB erlaubt keinen Zugriff mehr auf das 'root'-Profil, das
-kann die Wiederherstellung einer Datenbank blockieren, die Sie haben
-hat den Namen geändert (wie ich), damit wir den nicht sofort wiederherstellen
-Backup. Wenn der Benutzer 'jeedom' nicht über die richtigen Berechtigungen verfügt, wird die
-Wiederherstellung wird fehlschlagen.
+Kurz gesagt, 2 Befehlszeilen, um den Benutzer 'root' in MYSQL unter Stretch zu autorisieren :
 
-Referenz :
-<http://jc.etiemble.free.fr/abc/index.php/realisations/trucs-astuces/deb9php7>
-(Kapitel 5a)
+````
+$ mysql -u root -p mysql
+Enter password:
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 2
+Server version: 10.1.21-MariaDB-5 Debian 9.0
+Copyright (c) 2000, 2016, Oracle, MariaDB Corporation Ab and others.
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
-Kurz gesagt, 2 Befehlszeilen, um den Benutzer 'root' zu autorisieren
-MYSQL unter Stretch :
-
-    $ mysql -u root -p mysql
-    Passwort eingeben:
-    Willkommen auf dem MariaDB-Monitor.  Befehle enden mit; oder \ g.
-    Ihre MariaDB-Verbindungs-ID lautet 2
-    Serverversion: 10.1.21-MariaDB-5 Debian 9.0
-    Copyright (c) 2000, 2016, Oracle, MariaDB Corporation Ab und andere.
-    Geben Sie 'help' ein. oder '\ h' um Hilfe. Geben Sie '\ c' ein, um die aktuelle Eingabeanweisung zu löschen.
-
-    MariaDB [MySQL]>
-    MariaDB [mysql]> GEWÄHRLEISTUNG FÜR ALLE PRIVILEGIEN *.* TO root @ 'localhost' IDENTIFIZIERT DURCH 'monpass';
-    Abfrage OK, 0 Zeilen betroffen (0.00 Sek.)
-    MariaDB [mysql]> exit;
-    Bye
+MariaDB [mysql]>
+MariaDB [mysql]> GRANT ALL PRIVILEGES ON *.* TO root@'localhost' IDENTIFIED BY 'monpass';
+Query OK, 0 rows affected (0.00 sec)
+MariaDB [mysql]> exit;
+Bye
+````
 
 > **Spitze**
 >
-> Ersetzen Sie 'monpass' durch Ihr MYSQL-Passwort, das für das verwendet wird
-> Root-Account unter "Debian 8 - Jessie". Ich gebe Root-Rechte
-> vor allem, um meine Datenbanken mit 'PHPMYADMIN' zu verwalten, aber geben Sie sie an
-> Der MYSQL-Benutzer 'jeedom' sollte ausreichen.
+> Ersetzen Sie 'monpass' durch Ihr MYSQL-Passwort, das für das Root-Konto unter "Debian 8 - Jessie" verwendet wird". Ich erteile insbesondere Root-Rechte, um meine Datenbanken mit 'PHPMYADMIN' zu verwalten, aber es sollte ausreichen, sie dem MYSQL-Benutzer 'jeedom' zu geben.
 
 > **Spitze**
 >
-> Das Passwort für den MYSQL jeedom-Benutzer finden Sie hier :
-> Administration → Konfiguration → OS / DB → Datenbank
+> Das Passwort für den MYSQL jeedom-Benutzer finden Sie hier : Administration → Konfiguration → OS / DB → Datenbank
 
-Es liegt an Ihnen, diesen Befehl entsprechend Ihrer Konfiguration anzupassen
-früher :
+Es liegt an Ihnen, diesen Befehl an Ihre vorherige Konfiguration anzupassen :
 
-    Gewähren Sie alle Privilegien auf *.* TO root @ 'localhost' IDENTIFIZIERT DURCH 'monpass';
+``GRANT ALL PRIVILEGES ON *.* TO root@'localhost' IDENTIFIED BY 'monpass';``
 
 ou
 
-    Gewähren Sie alle Privilegien auf *.* TO jeedom @ 'localhost' IDENTIFIZIERT DURCH 'monpass';
+``GRANT ALL PRIVILEGES ON *.* TO jeedom@'localhost' IDENTIFIED BY 'monpass';``
 
--   Kopieren Sie Ihr Backup in den Ordner `/ var / www / html / backup`
-
--   Geben Sie die Rechte an www-Daten :
-    `chown -R www-Daten: / var / www / html / backup / * `
-
--   Starten Sie die Wiederherstellung über die Jeedom-Oberfläche (Administration →
-    Backups → Lokale Backups : Wählen Sie das richtige Backup
-    und klicken Sie auf **Wiederherstellen** gleich unten)
-
+-   Kopieren Sie Ihr Backup in den Ordner ``/var/www/html/backup``
+-   Geben Sie die Rechte an www-Daten : ``chown -R www-data: /var/www/html/backup/*``
+-   Starten Sie die Wiederherstellung über die Jeedom-Oberfläche (Administration → Backups → Local Backups) : Wählen Sie das richtige Backup und klicken Sie auf **Wiederherstellen** gleich unten)
 -   Warten Sie während der Wiederherstellung
-
--   Stellen Sie die Rechte an www-Daten auf allen Jeedom wieder her :
-    `chown -R www-Daten: / var / www / html / `
-
+-   Stellen Sie die Rechte an www-Daten auf allen Jeedom wieder her : ``chown -R www-data: /var/www/html/``
 -   Starten Sie die Box neu : `reboot`
+-   Stellen Sie mit Ihren alten Kennungen über die Weboberfläche eine Verbindung zu Jeedom her
+-   Gehen Sie zu jedem Plugin, um die Abhängigkeiten neu zu installieren (insbesondere diejenigen, bei denen der Daemon "NOK" KO ist).
 
--   Stellen Sie mit Ihren alten Kennungen über eine Verbindung zu Jeedom her
-    Webinterface
-
--   Wechseln Sie zu jedem Plugin, um die Abhängigkeiten neu zu installieren (insbesondere
-    auf denen, bei denen der Dämon "NOK" KO ist).
-
-Methode 1 : Upgrade (weniger Erfolgschance) 
------------------------------------------------
+## Methode 1 : Upgrade (weniger Erfolgschance)
 
 Betriebssystem-Update in der Jessie-Version.
 
-    apt-get -y Update
-    apt-get -y Upgrade
-    apt-get -y dist-upgrade
+````
+apt-get -y update
+apt-get -y upgrade
+apt-get -y dist-upgrade
+````
 
-Bearbeiten Sie die Datei / etc / apt / sources.Liste und ersetze alle
-Jessie von Stretch macht mit vorheriger Dateisicherung :
+Bearbeiten Sie die Datei / etc / apt / sources.Listen Sie alle Jessie auf und ersetzen Sie sie durch Stretch, indem Sie die Datei vorher speichern :
 
-    cp / etc / apt / sources.list /etc/apt/sources.list_backup
-    sed -i 's / jessie / align / g' /etc/apt/sources.list
+````
+cp /etc/apt/sources.list /etc/apt/sources.list_backup
+sed -i 's/jessie/stretch/g' /etc/apt/sources.list
+````
 
 Betriebssystem-Update in der Stretch-Version.
 
-    apt-get -y Update
-    apt-get -y Upgrade
-    apt-get -y dist-upgrade
+````
+apt-get -y update
+apt-get -y upgrade
+apt-get -y dist-upgrade
+````
 
 Wechseln Sie zu MariaDB.
 
-    apt-get -y installiere mariadb-server mariadb-client mariadb-common
+``apt-get -y install mariadb-server mariadb-client mariadb-common``
 
 Jeedom Update
 
-    sh / var / www / html / install / install.sh -s 2
-    sh / var / www / html / install / install.sh -s 5
-    sh / var / www / html / install / install.sh -s 7
-    sh / var / www / html / install / install.sh -s 10
+````
+sh /var/www/html/install/install.sh -s 2
+sh /var/www/html/install/install.sh -s 5
+sh /var/www/html/install/install.sh -s 7
+sh /var/www/html/install/install.sh -s 10
+````
 
 Entfernen unnötiger Bibliotheken
 
-    apt -y entferne `aptitude -F% p search '~ o' | grep -E -v ^ lib`
-    apt -y entferne `aptitude -F% p search '~ o'`----
+````
+apt -y remove `aptitude -F %p search '~o' | grep -E -v ^lib`
+apt -y remove `aptitude -F %p search '~o'`----
+````
 
 Notiz : Wenn Sie beim Öffnen Ihrer Jeedom-Seite einen PHP-Code erhalten, aktivieren Sie diesen, indem Sie die folgenden Befehle ausführen :
 
-    a2enmod php7.0 
-    systemctl starte apache2.service neu
-
+````
+a2enmod php7.0
+systemctl restart apache2.service
+````

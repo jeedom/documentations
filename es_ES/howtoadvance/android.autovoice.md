@@ -1,42 +1,20 @@
-Objetivo 
-========
+# Autovoice de Android
 
-El propósito de este artículo es guiarte en el uso de Android
-hablar con Jeedom. Utilizaremos el motor de interacciones Jeedom que
-permite que se realicen solicitudes y Jeedom responda a ellas (y también, si nosotros
-deseo, activar diferentes escenarios o elementos).
+El propósito de este artículo es guiarte en el uso de Android para hablar con Jeedom. Utilizaremos el motor de interacciones Jeedom que permite formular solicitudes y que Jeedom responda a ellas (y también, si lo desea, activa diferentes escenarios o elementos).
 
-Instalación 
-============
+# Instalación
 
-Prerrequisitos 
--------------
+## Prerrequisitos
 
-Naturalmente, necesita un dispositivo Android (tableta, teléfono, PC con
-micrófono y altavoces) e instalar
-[Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=fr)
-et
-[AutoVoice](https://play.google.com/store/apps/details?id=com.joaomgcd.autovoice&hl=fr).
-Este último le permite crear sus propios comandos de voz para Google Now
-para automatizar tareas usando la voz.
+Naturalmente, necesita un dispositivo Android (tableta, teléfono, PC con micrófono y altavoces) e instálelo [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=fr) y [AutoVoice](https://play.google.com/store/apps/details?id=com.joaomgcd.autovoice&hl=fr). Este último le permite crear sus propios comandos de voz para Google Now para automatizar sus tareas usando la voz.
 
-Anotar : AutoVoice es solo el componente para hablar con Jeedom pero no
-no permitir que Jeedom responda. Para que él haga eso, no necesita el
-Complemento Tasker. También podemos usar este ejemplo reemplazando el
-Reconocimiento de voz de AutoVoice por etiqueta NFC, geolocalización,
-un SMS recibido
+Anotar : AutoVoice es solo el componente para hablar con Jeedom, pero no permite que Jeedom responda. Para hacerlo, no necesita el complemento Tasker. También podemos usar este ejemplo reemplazando el reconocimiento de voz de AutoVoice con una etiqueta NFC, geolocalización, SMS recibido
 
-El principio 
------------
+## El principio
 
-Usaremos un perfil Tasker en estado. Este será un
-Reconocimiento de voz AutoVoice. Luego en la tarea, preguntaremos
-Tasker para ejecutar 2 acciones. El primero será llamar a Jeedom y a él
-transmitir el resultado del texto del reconocimiento de voz. La segunda
-será para declarar el regreso de Jeedom.
+Usaremos un perfil Tasker en estado. Este será un reconocimiento de voz de AutoVoice. Luego, en la tarea, le pediremos a Tasker que ejecute 2 acciones. El primero será llamar a Jeedom y transmitir el resultado de texto del reconocimiento de voz. El segundo será anunciar el regreso de Jeedom.
 
-Creación de perfil 
-==================
+# Creación de perfil
 
 Agregamos un nuevo perfil con un **Estado** como un disparador.
 
@@ -59,19 +37,15 @@ especificar palabras clave u otros parámetros.
 
 ![android.autovoice5](images/android.autovoice5.png)
 
-Podemos darle al perfil un nombre como "Interacciones de Jeedom" y el
-la copia de seguridad se realizará después de vincular con una tarea.
+Podemos darle al perfil un nombre como "Interacciones de Jeedom" y la copia de seguridad se realizará después del enlace con una tarea.
 
-La tarea 
-========
+# La tarea
 
-Agregamos un **nueva tarea** al perfil recién creado. Por
-ejemplo, podría llamarse "API de Jeedom".
+Agregamos un **nueva tarea** al perfil recién creado. Por ejemplo, podría llamarse "API de Jeedom".
 
 ![android.autovoice6](images/android.autovoice6.png)
 
-La tarea finalmente agrupará 2 acciones : **Llamada API** y **di el
-Regreso**.
+La tarea finalmente agrupará 2 acciones : **Llamada API** y **decir de nuevo**.
 
 ![android.autovoice7](images/android.autovoice7.png)
 
@@ -83,46 +57,29 @@ Luego seleccionamos **Obtener HTTP**.
 
 ![android.autovoice9](images/android.autovoice9.png)
 
-Aquí rellenaremos con información de Jeedom. Aquí está la información para
-Entrar :
+Aquí rellenaremos con información de Jeedom. Aquí está la información para ingresar :
 
--   Serveur:Port : `https://mondomain.tld`
+-   Serveur:Puerto : ``https://mondomain.tld``
+-   Ruta : ``/jeedom/core/api/jeeApi.php?apikey=votreclef&type=interact&query=%avcommnofilter&utf8=1``
 
--   Ruta :
-    `/jeedom/core/api/jeeApi.php?apikey = yourkey & type = interact & query =% avcommnofilter & utf8 = 1`
-
-No olvides poner tu clave API en lugar de la cadena
-`yourkey`. Debe dejar `% avcommonfilter` al final, será
-reemplazado por la devolución de Autovoice.
+No olvide poner su clave API en lugar de la cadena "su clave" . Debemos irnos ``%avcommonfilter`` al final, será reemplazado por la devolución de Autovoice.
 
 ![android.autovoice10](images/android.autovoice10.png)
 
-Agregar una acción de tipo **Decir**. Para hacer esto, filtre las acciones por
-poniendo "decir" en la lupa.
+Agregar una acción de tipo **Decir**. Para hacer esto, filtre las acciones poniendo "say" en la lupa.
 
 ![android.autovoice11](images/android.autovoice11.png)
 
-E ingresamos `% HTTPD` en el campo de texto.
+Y volvemos ``%HTTPD`` en el campo de texto.
 
 ![android.autovoice12](images/android.autovoice12.png)
 
-Se acabó. En el reconocimiento de texto por AutoVoice, Jeedom será
-llamado y tendrá la respuesta configurada en las interacciones que
-será hablado por su teléfono. No olvide configurar el
-Jeedom interacciones y puedes preguntarle lo que quieras
-querer Desde "cuál es la temperatura en la sala de estar" hasta "encender la luz
-salon".
+Se acabó. En el reconocimiento de texto por AutoVoice, se llamará a Jeedom y se configurará la respuesta en las interacciones que su teléfono dirá. No olvides configurar las interacciones de Jeedom y puedes preguntarle lo que quieras. Desde "cuál es la temperatura en la sala de estar" hasta "encender la luz de la sala"".
 
 > **Punta**
 >
-> Si no funciona desde el principio, a menudo es porque AutoVoice
-> no está activo. Para ese lanzamiento, haga clic en Google Now
-> Integración y en la primera opción en la parte superior y autorizar
-> AutoVoice.
+> Si no funciona desde el principio, a menudo es porque AutoVoice no está activo. Para hacer esto, inícielo, haga clic en Integración de Google Now y en la primera opción en la parte superior y autorice AutoVoice.
 
 > **Punta**
 >
-> Por defecto, AutoVoice deshabilita la búsqueda de Google Now, es
-> posible cancelar este comportamiento, para eso en Tasker haga clic en
-> su perfil luego "edición" (lápiz pequeño), luego "avanzado" (mientras
-> abajo) y desmarque "Buscar en Google Now" (abajo).
+> De forma predeterminada, AutoVoice deshabilita la búsqueda de Google Now, es posible cancelar este comportamiento, para eso, en Tasker, haga clic en su perfil, luego en "edición" (lápiz pequeño), luego en "avanzado" (en la parte inferior) y desmarque "Do" Google Now Search "(abajo).

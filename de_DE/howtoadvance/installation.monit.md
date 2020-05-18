@@ -1,63 +1,65 @@
-Monit ist ein Serviceüberwachungsdienst. Er kümmert sich darum
-Überprüfen Sie, ob ein Dienst noch gestartet ist.
+# Installation überwachen
 
-Hierzu geben wir die Bewertungskriterien und die Maßnahmen an
-prendre.
+Monit ist ein Serviceüberwachungsdienst. Es ist dafür verantwortlich, zu überprüfen, ob ein Dienst immer gestartet wird.
 
-Installation von Monit 
-=====================
+Hierzu geben wir die Bewertungskriterien und die zu ergreifenden Maßnahmen an.
+
+# Installation von Monit
 
 Hier sind die Befehle, die gestartet werden müssen, um monit zu installieren :
 
-    sudo apt-get -y monit
+``sudo apt-get -y monit``
 
-Beispiele für conf 
-================
+# Beispiele für conf
 
 Hier sind Konfigurationsbeispiele für Monit with Jeedom.
 
-Apache Aufsicht 
-==================
+## Apache Aufsicht
 
-    # Apache (Test auf Port 80)
-    Überprüfen Sie den Prozess apache2 mit pidfile /var/run/apache2/apache2.pid
-        start program = "/ etc / init.d / apache2 start"
-        stop program = "/ etc / init.d / apache2 stop"
-           Wenn Port 80 für 2 Zyklen ausgefallen ist, starten Sie ihn neu
+````
+# Apache (test sur port 80)
+check process apache2 with pidfile /var/run/apache2/apache2.pid
+    start program = "/etc/init.d/apache2 start"
+    stop  program = "/etc/init.d/apache2 stop"
+       if failed port 80 for 2 cycles then restart
+````
 
-Nginx-Aufsicht (einschließlich Php-fpm) 
-=====================================
+## Nginx-Aufsicht (einschließlich Php-fpm)
 
-    # Php-fpm
-    Überprüfen Sie den Prozess php5-fpm mit pidfile /var/run/php5-fpm.pid
-       start program = "/ etc / init.d / php5-fpm start"
-       stop program = "/ etc / init.d / php5-fpm stop"
-       Wenn dies fehlschlägt, unixsocket /var/run/php5-fpm.sock
-              für 2 Zyklen
-              dann neu starten
+````
+# Php-fpm
+check process php5-fpm with pidfile /var/run/php5-fpm.pid
+   start program = "/etc/init.d/php5-fpm start"
+   stop  program = "/etc/init.d/php5-fpm stop"
+   if failed unixsocket /var/run/php5-fpm.sock
+          for 2 cycles
+          then restart
 
-    # Nginx (Test an Port 80)
-    Überprüfen Sie den Prozess Nginx mit pidfile /var/run/nginx.pid
-       start program = "/ etc / init.d / nginx start"
-       stop program = "/ etc / init.d / nginx stop"
-          Wenn Port 80 für 2 Zyklen ausgefallen ist, starten Sie ihn neu
+# Nginx (test sur port 80)
+check process nginx with pidfile /var/run/nginx.pid
+   start program = "/etc/init.d/nginx start"
+   stop  program = "/etc/init.d/nginx stop"
+      if failed port 80 for 2 cycles then restart
+````
 
-MySQL-Überwachung 
-=================
+## MySQL-Überwachung
 
-    # MySQL (Verbindung)
-    Überprüfen Sie den Prozess mysqld mit pidfile /var/run/mysqld/mysqld.pid
-       start program = "/ etc / init.d / mysql starten"
-       stop program = "/ etc / init.d / mysql halt"
-           wenn fehlgeschlagen
-           unixsocket /var/run/mysqld/mysqld.sock
-           dann alarmieren
+````
+# MySQL (connexion)
+check process mysqld with pidfile /var/run/mysqld/mysqld.pid
+   start program = "/etc/init.d/mysql start"
+   stop  program = "/etc/init.d/mysql stop"
+       if failed
+       unixsocket /var/run/mysqld/mysqld.sock
+       then alert
+````
 
-APCupsd Aufsicht 
-===================
+## APCupsd Aufsicht
 
-    # apcups (wenn Sie einen Wechselrichter mit diesem Dienst haben, andernfalls löschen / anpassen)
-    Überprüfen Sie den Prozess apcupsd mit pidfile /var/run/apcupsd.pid
-       start program = "/ etc / init.d / apcupsd starten"
-       stop program = "/ etc / init.d / apcupsd stop"
-          Wenn Port 3551 für 2 Zyklen ausgefallen ist, dann Alarm
+````
+# apcups (si vous disposez d'un onduleur avec ce service, sinon supprimer/adapter)
+check process apcupsd with pidfile /var/run/apcupsd.pid
+   start program = "/etc/init.d/apcupsd start"
+   stop  program = "/etc/init.d/apcupsd stop"
+      if failed port 3551 for 2 cycles then alert
+````
