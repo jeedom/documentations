@@ -2,7 +2,6 @@
 
 Welcome to this first step documentation, it will help you to put your Jeedom into service.
 
-
 ## Registration on the market
 
 The first thing to do is to create an account on the Market to be able to register your Jeedom on it. Click [here](https://market.jeedom.com/).
@@ -61,9 +60,7 @@ The simplest solution (but does not work in 100% of cases depending on the confi
 #### By your internet box
 
 -   Go to the administration interface of your internet box and look for Jeedom in your network devices.
-
 -   Get his IP.
-
 -   Put this IP in your internet browser. You should be on the Jeedom interface.
 
 ## First connection
@@ -77,23 +74,15 @@ Whichever method is used, you will then arrive on the Login page. By default the
 We will see here how to link your Jeedom to your Market account.
 
 -   Once connected to your jeedom, you must go to **Settings → System → Configuration**
-
 -   Click on the tab **Updates**
-
 -   Below, click on the tab **Market**
-
 -   Check the box **Activate**
-
 -   Remplissez l'adresse : `https://market.jeedom.com`
-
 -   Also fill in the field **Username** and **Password** based on your identifiers (Market identifiers and not Jeedom)
-
 -   You can test to verify that the connection is made correctly.
-
 -   Don&#39;t forget to save !
 
 For more details on the configuration page, see *Configuration manual -> Administration*.
-.
 
 ## Get my direct access URL
 
@@ -119,7 +108,6 @@ Once on it you just have to choose the line with the user **admin** and click on
 
 ![Password](images/FirstStep_boxPassword.jpg)
 
-
 A window will ask you for the password. Be careful to remember it well, or you will no longer be able to access your Jeedom.
 
 ## Create my first object
@@ -135,9 +123,7 @@ In Jeedom, it can be anything and everything, but it is recommended to do it acc
 Nothing could be simpler to create an object :
 
 -   Go to Tools → Objects
-
 -   Click on the Add button
-
 -   Jeedom will ask you the name of it. Validate. This is your first object created :
 
 ![Objand](images/FirstStep_object.jpg)
@@ -178,7 +164,6 @@ For more information on plugins, *User manual -> Plugin*.
 
 # Support
 
-
 Jeedom tackles very wide fields and evolving from day to day.
 However, there are many ways to find help and ask your questions.
 
@@ -187,7 +172,6 @@ However, there are many ways to find help and ask your questions.
 You will find it [here](https://community.jeedom.com/).
 
 The forum is very active and contains a lot of information. If you have a question, don't hesitate to ask it. You will have an answer in less than an hour (on average). Please note, the forum is maintained by the Jeedom community, made up of volunteers, and not by the Jeedom company.
-
 
 ## Support requests (or tickets)
 
@@ -198,11 +182,8 @@ The forum is very active and contains a lot of information. If you have a questi
 If you have not found a solution to your problem, as a last resort, you can request support from the Jeedom team. This request goes through a ticket. There are several ways to open one:
 
 -   Directly from Jeedom (recommended method): Settings menu → Support request.
-
 -   If for some reason you do not have access to your Jeedom, you can always open a ticket from the Market :
-
     -   Either by clicking on your name and then on *Support request*,
-
     -   either by going to your profile, then in the section **Tickets**, use the button "Open a support request".
 
 ![Support request](images/FirstStep_support.jpg)

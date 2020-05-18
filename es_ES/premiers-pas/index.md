@@ -2,7 +2,6 @@
 
 Bienvenido a la documentación de este primer paso, le ayudará a poner su Jeedom en servicio.
 
-
 ## Registro en el mercado
 
 Lo primero que debe hacer es crear una cuenta en el Mercado para poder registrar su Jeedom en él. Haga clic en [aquí](https://market.jeedom.com/).
@@ -61,9 +60,7 @@ La solución más simple (pero no funciona en el 100% de los casos dependiendo d
 #### Por su caja de internet
 
 -   Vaya a la interfaz de administración de su caja de internet y busque Jeedom en sus dispositivos de red.
-
 -   Consigue su IP.
-
 -   Pon esta IP en tu navegador de internet. Deberías estar en la interfaz Jeedom.
 
 ## Primera conexión
@@ -77,23 +74,15 @@ Cualquiera que sea el método utilizado, llegarás a la página de inicio de ses
 Veremos aquí cómo vincular su Jeedom a su cuenta de Market.
 
 -   Una vez conectado a su libertad, debe ir a **Preferencias → Sistema → Configuración**
-
 -   Click en la pestaña **Actualizaciones**
-
 -   A continuación, haga clic en la pestaña **Mercado**
-
 -   Marca la casilla **Activar**
-
 -   Remplissez l'adresse : `https://market.jeedom.com`
-
 -   También complete el campo **Nombre de usuario** y **Contraseña** según sus identificadores (identificadores de mercado y no Jeedom)
-
 -   Puede probar para verificar que la conexión se realizó correctamente.
-
 -   No olvides guardar !
 
 Para obtener más detalles sobre la página de configuración, consulte *Manual de configuración -> Administración*.
-.
 
 ## Obtener mi URL de acceso directo
 
@@ -119,7 +108,6 @@ Una vez en él, solo tiene que elegir la línea con el usuario **Administración
 
 ![Contraseña](images/FirstStep_boxPassword.jpg)
 
-
 Una ventana le pedirá la contraseña. Tenga cuidado de recordarlo bien, o ya no podrá acceder a su Jeedom.
 
 ## Crear mi primer objeto
@@ -135,9 +123,7 @@ En Jeedom, puede ser cualquier cosa, pero se recomienda hacerlo de acuerdo a sus
 Nada podría ser más simple para crear un objeto :
 
 -   Vaya a Herramientas → Objetos
-
 -   Haga clic en el botón Agregar
-
 -   Jeedom te preguntará el nombre. Validar. Este es tu primer objeto creado :
 
 ![Objy](images/FirstStep_object.jpg)
@@ -178,7 +164,6 @@ Para más información sobre complementos, *Manual de usuario -> Complemento*.
 
 # Apoyo
 
-
 Jeedom aborda campos muy amplios y evoluciona día a día.
 Sin embargo, hay muchas maneras de encontrar ayuda y hacer sus preguntas.
 
@@ -187,7 +172,6 @@ Sin embargo, hay muchas maneras de encontrar ayuda y hacer sus preguntas.
 Lo encontraras [aquí](https://community.jeedom.com/).
 
 El foro es muy activo y contiene mucha información. Si tiene alguna pregunta, no dude en preguntarla. Tendrás una respuesta en menos de una hora (en promedio). Tenga en cuenta que el foro es mantenido por la comunidad Jeedom, compuesta por voluntarios, y no por la compañía Jeedom.
-
 
 ## Solicitudes de soporte (o tickets)
 
@@ -198,11 +182,8 @@ El foro es muy activo y contiene mucha información. Si tiene alguna pregunta, n
 Si no ha encontrado una solución a su problema, como último recurso, puede solicitar asistencia al equipo de Jeedom. Esta solicitud pasa por un ticket. Hay varias formas de abrir uno:
 
 -   Directamente de Jeedom (método recomendado): Menú de configuración → Solicitud de soporte.
-
 -   Si por alguna razón no tiene acceso a su Jeedom, siempre puede abrir un boleto del Mercado :
-
     -   O haciendo clic en su nombre y luego en *Solicitud de soporte*,
-
     -   ya sea yendo a tu perfil, luego en la sección **Entradas**, use el botón "Abrir una solicitud de soporte".
 
 ![Solicitud de soporte](images/FirstStep_support.jpg)

@@ -1,115 +1,78 @@
-EmonCMS is a PHP energy monitoring application (Emon :
-Energy Monitor)
+# Using emoncms
 
-Regarding data sharing between Jeedom and EmonCMS (in
-one way or the other), you will find in this documentation the means
-to implement it.
+EmonCMS is a PHP energy monitoring application (Emon : Energy Monitor)
 
-A brief memo to install emoncms is also available (this
-installation is not currently offered natively in Jeedom)
+Regarding data sharing between Jeedom and EmonCMS (one way or the other), you will find in this documentation the means to implement it.
 
-EmonCMS can be installed next to Jeedom or elsewhere. You can
-even use the emoncms.org instance
+A brief memo to install emoncms is also available (this installation is currently not offered natively in Jeedom)
 
-Send a value from Jeedom to EmonCMS 
-=========================================
+EmonCMS can be installed next to Jeedom or elsewhere. You can even use the emoncms.org instance
 
-To send a value from Jeedom to EmonCMS, the simplest solution
-since it is available natively is to use the Push URL of a
-information
+# Send a value from Jeedom to EmonCMS
 
-In Jeedom, you can access the advanced settings by clicking on the
-toothed wheel on the right.
+To send a value from Jeedom to EmonCMS, the simplest solution since it is available natively is to use the Push URL of a piece of information
 
-Then in "Advanced configuration", we find the last parameter
-Push URL, it must be filled with the EmonCMS API address for the feed
-we want to fill
+In Jeedom, you can access the advanced parameters by clicking on the toothed wheel on the right.
+
+Then in "Advanced configuration", we find the last Push URL parameter, it must be filled with the EmonCMS API address for the feed we want to fill
 
 The url of push is of the form :
 
-[https://serveur/emoncms/input/post.json?json = {power:\#value\#}&apikey=xxx](https://serveur/emoncms/input/post.json?json = {power:#value#}& apikey = xxx)
+``https://serveur/emoncms/input/post.json?json={power:\#value\#}&apikey=xxx``
 
 With parameters :
 
 -   Id : the feed id found on emoncms
-
 -   apikey : the api key of read & write for emoncms
-
--   value : we must leave *value* for Jeedom to send the
-    value of info
-
+-   value : we must leave *value* so that Jeedom sends the value of the info
 -   power : to modify for
 
-Notification to Jeedom or recovery from Jeedom 
-======================================================
+# Notification to Jeedom or recovery from Jeedom
 
-To take a data from emoncms in Jeedom, there are two possibilities
-:
+To take a data from emoncms in Jeedom, there are two possibilities :
 
--   The first is to create an info via the script plugin in Jeedom
-    and use the API URL of the feed. This method requires recovering
-    the value regularly or via scenario for example and normally
-    not useful because the data has its source in jeedom\_setting
+-   The first is to create an info via the script plugin in Jeedom and use the API URL of the feed. This method requires recovering the value regularly or via scenario for example and normally not useful because the data has its source in ``jeedom_setting`` : ``https://serveur/emoncms/feed/value.json?id=1&apikey=xxx``
+-   The second possibility is to use the emoncms Event plugin to trigger an action on certain conditions. This method could be useful if we have a data which is calculated or directly retrieved by emoncms (for example OpenBEM) With the advantage of notifying only when necessary, on the other hand the event plugin does not allow pushing and you will have to go through MQTT for the Jeedom connection
 
-        https://serveur/emoncms/feed/value.json?id=1&apikey=xxx
+# Memo for EmonCMS installation
 
--   The second possibility is to use the emoncms Event plugin
-    to trigger an action on certain conditions. This method
-    could be useful if we have a data that is calculated or
-    directly retrieved by emoncms (for example OpenBEM) With
-    the advantage of notifying only when necessary, however the plugin
-    event does not allow you to push and you will have to go through MQTT
-    for Jeedom connection
+Installation is described on this github page [here](https://github.com/emoncms/emoncms/blob/master/docs/LinuxInstall.md)
 
-Memo for EmonCMS installation 
-================================
+Note that some plugins seem obsolete with the latest EmonCMS version (v9 at the end of 2015)
 
-Installation is described on this github page :
+If we install them, there are problems with the menus. Anyway, we only need a priori to :
 
-<https://github.com/emoncms/emoncms/blob/master/docs/LinuxInstall.md>
+````
+git clone https://github.com/emoncms/event.git # C'est lui qui pourra permettre de créer des réactions sur évènement dans emoncms pour notifier Jeedom
+git clone https://github.com/emoncms/openbem.git # C'est un plugin pour faire un suivi des consommations énergétiques de la maison
+git clone https://github.com/emoncms/energy.git
+git clone https://github.com/emoncms/report.git
+git clone https://github.com/elyobelyob/mqtt.git
+````
 
-Note that some plugins seem obsolete with the latest version
-EmonCMS (v9 at the end of 2015)
+# Nginx configuration
 
-If we install them, there are problems with the menus. Anyway,
-we only need a priori :
+Here is an example configuration for Nginx. For Apache there is no need for a specific conf classic directory
 
-git clone <https://github.com/emoncms/event.git> (He's the one who can
-allow to create reactions on event in emoncms for
-notify Jeedom)
+````
+location /emoncms {
+       alias /var/www/emoncms/;
+       index index.php;
+        try_files = $uri $uri/ @missing;
 
-git clone <https://github.com/emoncms/openbem.git> (This is a plugin for
-monitor the energy consumption of the house)
+   location ~ [^/]\.php(/|$) {
+           fastcgi_split_path_info ^(.+?\.php)(/.*)$;
+           fastcgi_pass unix:/var/run/php5-fpm.sock;
+           fastcgi_index index.php;
+           include fastcgi_params;
+           fastcgi_param   REMOTE_USER   $remote_user;
+           fastcgi_param  PATH_INFO $fastcgi_path_info;
+           fastcgi_param SCRIPT_FILENAME /var/www/emoncms/index.php;
+       }
 
-git clone <https://github.com/emoncms/energy.git>
+}
 
-git clone <https://github.com/emoncms/report.git>
-
-git clone <https://github.com/elyobelyob/mqtt.git>
-
-Nginx configuration 
-===================
-
-Here is an example configuration for Nginx. For Apache there is no
-special conf need a classic repertoire
-
-    location / emoncms {
-           alias / var / www / emoncms /;
-           index index.php;
-            try_files = $ uri $ uri / @missing;
-
-       location ~ [^ /] \.php(/|$) {
-               fastcgi_split_path_info ^ (. +?\ .php) (/.*) $;
-               fastcgi_pass unix:/var/run/php5-fpm.sock;
-               fastcgi_index index.php;
-               include fastcgi_params;
-               fastcgi_param REMOTE_USER $ remote_user;
-               fastcgi_param PATH_INFO $ fastcgi_path_info;
-               fastcgi_param SCRIPT_FILENAME /var/www/emoncms/index.php;
-           }
-
-    }
-
-    location @missing {
-            rewrite ^ / emoncms / (.*) $ /emoncms/index.php?q = $ 1 & $ args last;
-    }
+location @missing {
+        rewrite ^/emoncms/(.*)$ /emoncms/index.php?q=$1&$args last;
+}
+````

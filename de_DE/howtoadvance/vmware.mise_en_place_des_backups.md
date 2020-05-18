@@ -1,199 +1,141 @@
-Es ist wichtig, Backups Ihrer VMs zu haben, und es ist ein Punkt, dies nicht zu tun
-Vor allem nicht zu vernachlässigen, ganz zu schweigen von Hardwarefehlern, die Sie können
-Eines Tages muss ich nach einem Fehler zu einem Backup zurückkehren
-Manipulation oder ein Problem nach einem Update. Sei vorsichtig hier wir
-spricht über das vollständige Image von VMs, es ist nicht nur eine Anwendungssicherung,
-es wird daher eine ziemlich große Größe haben.
+# VMware-Backup-Implementierung
 
-Eine der Einschränkungen beim Erstellen eines Backups unter VMware ist das Vorhandensein von
-absolut 2 Datenspeicher. Dafür haben Sie mehrere Möglichkeiten :
+Es ist wichtig, Sicherungen Ihrer VMs zu haben. Dies ist ein Punkt, den Sie nicht übersehen sollten, ganz zu schweigen von Hardwarefehlern, die Sie möglicherweise eines Tages aufgrund einer unsachgemäßen Behandlung oder eines folgenden Problems zu einer Sicherung zurückkehren müssen ein Update. Bitte beachten Sie, dass es sich hier um das vollständige Image der VMs handelt. Es handelt sich nicht nur um eine Anwendungssicherung, sondern auch um eine relativ große Größe.
+
+Eine der Einschränkungen beim Erstellen einer Sicherung unter VMware besteht darin, absolut zwei Datenspeicher zu haben. Dafür haben Sie mehrere Möglichkeiten :
 
 -   2 Festplatten / SSD mit jeweils einem Datenspeicher
+-   ein NAS (Synology-Typ), der einen NFS-Mount gemeinsam nutzt. In diesem Fall müssen Sie VMware ein Netzwerkdateisystem hinzufügen, damit es als Datenspeicher angezeigt wird
 
--   ein NAS (Synology-Typ), der einen NFS-Mount gemeinsam nutzt. In diesem Fall ist es
-    Sie müssen VMware ein Netzwerkdateisystem hinzufügen, damit es angezeigt wird
-    Dieser ist wie ein Datenspeicher
-
-Für dieses Tutorial werde ich die ESXi-Weboberfläche verwenden
-verfügbar entweder durch Installation einer Vib oder von der Version
-6.0 Update 2. Zur Erinnerung, um einfach auf diese Schnittstelle zuzugreifen
-Gehen Sie zu IP\_ESXI / ui
+Für dieses Tutorial werde ich die ESXi-Weboberfläche verwenden, die entweder durch Installation einer Vib oder ab Version 6 verfügbar ist.0 Update 2. Um auf diese Schnittstelle zuzugreifen, gehen Sie zur Erinnerung einfach zu IP\_ESXI / ui
 
 > **Notiz**
 >
-> Für dieses Tutorial werde ich die ESXi-Weboberfläche verwenden
-> verfügbar entweder durch Installation einer Vib oder von der
-> Version 6.0 Update 2. Damit Erinnerungen auf diese Schnittstelle zugreifen können
-> Gehen Sie einfach zu IP\_ESXI / ui
+> Für dieses Tutorial werde ich die ESXi-Weboberfläche verwenden, die entweder durch Installation einer Vib oder ab Version 6 verfügbar ist.0 Update 2. Für Erinnerungen an den Zugriff auf diese Schnittstelle gehen Sie einfach zu ``IP_ESXI/ui``
 
-GhettoVCB Installation 
-=========================
+# GhettoVCB Installation
 
-Wir müssen das wiederherstellen
-[Skript](https://raw.githubusercontent.com/lamw/ghettoVCB/master/ghettoVCB.sh)
-und übertragen Sie es auf den ESXi (im selben Datenspeicher wie der, der sich befindet
-willkommene Backups zum Beispiel).
+Wir müssen das wiederherstellen [Skript](https://raw.githubusercontent.com/lamw/ghettoVCB/master/ghettoVCB.sh) und übertragen Sie es auf das ESXi (im selben Datenspeicher wie der, in dem beispielsweise die Sicherungen gehostet werden).
 
 > **Notiz**
 >
-> Im Rest dieses Tutorials denke ich, dass Sie das Skript eingefügt haben
-> ghettoVCB.sh in /vmfs/volumes/Backup/ghettoVCB.sh. Es liegt an Ihnen, sich anzupassen
-> Abhängig von Ihrer Konfiguration werden die Befehle / Skripte bereitgestellt.
+> Im Rest dieses Tutorials denke ich, dass Sie das ghettoVCB-Skript eingefügt haben.sh in /vmfs/volumes/Backup/ghettoVCB.sh. Es liegt an Ihnen, die bereitgestellten Befehle / Skripte entsprechend Ihrer Konfiguration anzupassen.
 
-Verbindung in ssh 
-================
+# Verbindung in ssh
 
-Sie müssen eine SSH-Verbindung auf dem ESXi herstellen, um dies zu tun
-von der Schnittstelle
+Sie müssen eine Verbindung in SSH auf dem ESXi herstellen, um dies zu tun, müssen Sie dies über die Schnittstelle tun
 
 ![vmware.backup](images/vmware.backup.PNG)
 
-Dann mit Kitt oder Kätzchen verbinden, indem Sie die IP von setzen
-Ihr ESXi und verwenden Sie Ihre Anmeldeinformationen daraus
+Stellen Sie dann mit Putty oder Kitty eine Verbindung her, indem Sie die IP Ihres ESXi eingeben und Ihre Kennungen dafür verwenden
 
-Erstellung der Konfigurationsdatei 
-====================================
+# Erstellung der Konfigurationsdatei
 
 > **Notiz**
 >
-> Für den Rest dieses Tutorials halte ich Ihren Datenspeicher für
-> Backup hat den Pfad / vmfs / volume / Backup. Achten Sie darauf, wenn zu ändern
-> Dies ist bei Ihnen nicht der Fall
+> Für den Rest dieses Tutorials denke ich, dass Ihr Sicherungsdatenspeicher den Pfad / vmfs / volume / Backup hat. Achten Sie darauf, ihn zu ändern, wenn dies bei Ihnen nicht der Fall ist
 
-Im Sicherungsdatenspeicher müssen Sie eine ghettoVCB-Datei erstellen.conf who
-enthält :
+Im Sicherungsdatenspeicher müssen Sie eine Datei erstellen ``ghettoVCB.conf`` was beinhaltet :
 
-    VM_BACKUP_VOLUME = / vmfs / volume / Backup /
-    DISK_BACKUP_FORMAT = dünn
-    VM_BACKUP_ROTATION_COUNT = 2
-    POWER_VM_DOWN_BEFORE_BACKUP = 0
-    ENABLE_HARD_POWER_OFF = 0
-    ITER_TO_WAIT_SHUTDOWN = 3
-    POWER_DOWN_TIMEOUT = 5
-    ENABLE_COMPRESSION = 0
-    VM_SNAPSHOT_MEMORY = 0
-    VM_SNAPSHOT_QUIESCE = 0
-    ALLOW_VMS_WITH_SNAPSHOTS_TO_BE_BACKEDUP = 0
-    ENABLE_NON_PERSISTENT_NFS = 0
-    UNMOUNT_NFS = 0
-    NFS_SERVER = 172.30.0.195
-    NFS_MOUNT = / nfsshare
-    NFS_LOCAL_NAME = nfs_storage_backup
-    NFS_VM_BACKUP_DIR = mybackups
-    SNAPSHOT_TIMEOUT = 15
-    EMAIL_LOG = 0
-    EMAIL_SERVER = auroa.primp-industries.com
-    EMAIL_SERVER_PORT = 25
-    EMAIL_DELAY_INTERVAL = 1
-    EMAIL_TO=auroa@primp-industries.com
-    EMAIL_FROM = root @ ghettoVCB
-    WORKDIR_DEBUG = 0
-    VM_SHUTDOWN_ORDER=
-    VM_STARTUP_ORDER=
+````
+VM_BACKUP_VOLUME=/vmfs/volumes/Backup/
+DISK_BACKUP_FORMAT=thin
+VM_BACKUP_ROTATION_COUNT=2
+POWER_VM_DOWN_BEFORE_BACKUP=0
+ENABLE_HARD_POWER_OFF=0
+ITER_TO_WAIT_SHUTDOWN=3
+POWER_DOWN_TIMEOUT=5
+ENABLE_COMPRESSION=0
+VM_SNAPSHOT_MEMORY=0
+VM_SNAPSHOT_QUIESCE=0
+ALLOW_VMS_WITH_SNAPSHOTS_TO_BE_BACKEDUP=0
+ENABLE_NON_PERSISTENT_NFS=0
+UNMOUNT_NFS=0
+NFS_SERVER=172.30.0.195
+NFS_MOUNT=/nfsshare
+NFS_LOCAL_NAME=nfs_storage_backup
+NFS_VM_BACKUP_DIR=mybackups
+SNAPSHOT_TIMEOUT=15
+EMAIL_LOG=0
+EMAIL_SERVER=auroa.primp-industries.com
+EMAIL_SERVER_PORT=25
+EMAIL_DELAY_INTERVAL=1
+EMAIL_TO=auroa@primp-industries.com
+EMAIL_FROM=root@ghettoVCB
+WORKDIR_DEBUG=0
+VM_SHUTDOWN_ORDER=
+VM_STARTUP_ORDER=
+````
 
 Die Parameter, die Sie anpassen müssen, sind :
 
--   **VM\_BACKUP\_VOLUME** ⇒ Speicherort Ihres Sicherungsdatenspeichers
-
--   **VM\_BACKUP\_ROTATION\_COUNT** ⇒ Anzahl der Sicherungen pro VM, die aufbewahrt werden sollen
+-   ``VM_BACKUP_VOLUME`` ⇒ Speicherort Ihres Sicherungsdatenspeichers
+-   ``VM_BACKUP_ROTATION_COUNT`` ⇒ Anzahl der Sicherungen pro VM, die aufbewahrt werden sollen
 
 > **Notiz**
 >
-> Sie können konsultieren
-> [hier](https://communities.vmware.com/docs/DOC-8760) Dokumentation
-> komplett von ghettoVCB mit einer Beschreibung jedes Parameters
+> Sie können konsultieren [hier](https://communities.vmware.com/docs/DOC-8760) die vollständige ghettoVCB-Dokumentation mit einer Beschreibung der einzelnen Parameter
 
 > **Wichtig**
 >
-> Achten Sie darauf, das / final für den Parameter einzugeben
-> VM\_BACKUP\_VOLUME, andernfalls ist das Skript fehlerhaft
+> Achten Sie darauf, die zu setzen ``/`` final für den Parameter ``VM_BACKUP_VOLUME`` Andernfalls ist das Skript fehlerhaft
 
-Backup-Test 
-==============
+# Backup-Test
 
-Hier starten wir eine erste erste Sicherung aller VMs für
-sehen, ob alles in Ordnung ist. Danach planen wir es automatisch.
-Kehren Sie in SSH zum ESXi zurück (stellen Sie gegebenenfalls die Verbindung wieder her) und tun Sie dies :
+Hier starten wir eine erste erste Sicherung aller VMs, um festzustellen, ob alles in Ordnung ist. Danach planen wir es automatisch. Kehren Sie in SSH zum ESXi zurück (stellen Sie gegebenenfalls die Verbindung wieder her) und tun Sie dies :
 
-    /vmfs/volumes/Backup/ghettoVCB.sh -a -g /vmfs/volumes/Backup/ghettoVCB.conf
+``/vmfs/volumes/Backup/ghettoVCB.sh -a -g /vmfs/volumes/Backup/ghettoVCB.conf``
 
-Dies startet eine Sicherung aller Ihrer VMs (und kann daher viel Zeit in Anspruch nehmen
-Zeit). Am Ende sollten Sie auf Ihrem Backup-Datenspeicher a haben
-Ordner nach VM und in jedem VM-Ordner ein Unterordner nach Datum
-mit 4 Dateien :
+Dadurch wird eine Sicherung aller Ihrer VMs gestartet (und dies kann daher lange dauern). Am Ende sollten Sie in Ihrem Sicherungsdatenspeicher einen Ordner nach VM und in jedem VM-Ordner einen Unterordner nach Datum mit 4 Dateien haben :
 
 ![vmware.backup2](images/vmware.backup2.PNG)
 
--   \* - flach.vmdk ⇒ die virtuelle Festplatte Ihres Computers
-
--   \.*.vmdk ⇒ der Deskriptor der Disc
-
--   \.*.vmx ⇒ die Datei, die die Konfiguration Ihres Computers enthält
-
--   STATUS.ok ⇒ zeigt an, dass das Backup in Ordnung ist
+-   ``*-flat.vmdk`` ⇒ die virtuelle Festplatte Ihrer Maschine
+-   ``*.vmdk`` ⇒ der Deskriptor der Disc
+-   ``*.vmx`` ⇒ die Datei mit der Konfiguration Ihres Geräts
+-   ``STATUS.ok`` ⇒ zeigt an, dass die Sicherung in Ordnung ist
 
 Hier ist eine weitere Möglichkeit für die Befehlszeile :
 
--   Backup-Simulation :
+-   Backup-Simulation : ``/vmfs/volumes/Backup/ghettoVCB.sh -d dryrun -a -g /vmfs/volumes/Backup/ghettoVCB.conf``
+-   Starten Sie im Debug-Modus : ``/vmfs/volumes/Backup/ghettoVCB.sh -d debug -a -g /vmfs/volumes/Backup/ghettoVCB.conf``
+-   Sichern Sie nur die VM "toto" ``/vmfs/volumes/Backup/ghettoVCB.sh -m toto -a -g /vmfs/volumes/Backup/ghettoVCB.conf``
 
-<!-- -->
+# Automatischer Start der Sicherung
 
-    /vmfs/volumes/Backup/ghettoVCB.sh -d dryrun -a -g /vmfs/volumes/Backup/ghettoVCB.conf
+Sie müssen die Befehlszeile zur Crontab hinzufügen, aber unter VMware ist die Crontab etwas Besonderes und wird vor allem bei jedem Start überschrieben. Um dies zu vermeiden, müssen Sie daher in SSH unter ESXi ein kleines Skript hinzufügen, das die Crontab beim Booten aktualisiert (keine Sorge, es ist recht einfach und schnell) :
 
--   Starten Sie im Debug-Modus :
+``vi /etc/rc.local.d/local.sh``
 
-<!-- -->
+Und davor ``exit 0`` Fügen Sie die folgenden Zeilen hinzu :
 
-    /vmfs/volumes/Backup/ghettoVCB.sh -d debug -a -g /vmfs/volumes/Backup/ghettoVCB.conf
-
--   Sichern Sie nur die VM "toto"
-
-<!-- -->
-
-    /vmfs/volumes/Backup/ghettoVCB.sh -m toto -a -g /vmfs/volumes/Backup/ghettoVCB.conf
-
-Automatischer Start der Sicherung 
-=================================
-
-Sie müssen die Befehlszeile zur crontab hinzufügen, aber unter VMware die
-crontab ist etwas Besonderes und wird bei jedem Start besonders überschrieben. Für
-Vermeiden Sie dies, damit Sie ein kleines Skript hinzufügen müssen, das das aktualisiert
-crontab beim Booten (keine Sorge, es ist ziemlich einfach und schnell), in
-SSH auf dem ESXi tun :
-
-    vi /etc/rc.local.d/local.sh
-
-Und vor "exit 0" fügen Sie die folgenden Zeilen hinzu :
-
-    / bin / kill $ (cat /var/run/crond.pid)
-    / bin / echo "0 0 1 * * /vmfs/volumes/Backup/ghettoVCB.sh -a -g /vmfs/volumes/Backup/ghettoVCB.conf >/dev/null 2>&1" >> /var/spool/cron/crontabs/root
-    / usr / lib / vmware / Busybox / Bin / Busybox Crond
+````
+/bin/kill $(cat /var/run/crond.pid)
+/bin/echo "0 0 1 * * /vmfs/volumes/Backup/ghettoVCB.sh -a -g /vmfs/volumes/Backup/ghettoVCB.conf >/dev/null 2>&1" >> /var/spool/cron/crontabs/root
+/usr/lib/vmware/busybox/bin/busybox crond
+````
 
 > **Notiz**
 >
-> Hier fordere ich jeden 1. des Monats ein Backup an, das Sie ändern können
-> dies durch Ändern : 0 0 1 \* \.*
+> Hier fordere ich jeden 1. des Monats ein Backup an, das Sie durch Ändern ändern können : ``0 0 1 * *``
 
 > **Notiz**
 >
-> Hier mache ich ein Backup aller VMs, Sie können dies anpassen, indem Sie
-> Ersetzen Sie -a durch -m ma\_vm. Seien Sie vorsichtig, wenn Sie setzen möchten
-> Bei mehreren VMs müssen Sie die Zeile "/ bin / echo" 0 0 1 \ duplizieren* \.*
-> / vmfs / volume / Backup / ghettoVCB.sh -a -g
-> /vmfs/volumes/Backup/ghettoVCB.conf &gt;/dev/null 2&gt;&1" &gt;&gt;
-> / var / spool / cron / crontabs / root "und legen Sie eine pro VM für die Sicherung ab
+> Hier mache ich ein Backup aller VMs, Sie können dies anpassen, indem Sie die ersetzen ``-a`` Von ``-m ma_vm``, Seien Sie vorsichtig, wenn Sie mehrere VMs platzieren möchten, müssen Sie die Zeile duplizieren ``/bin/echo "0 0 1 * *"``
+````
+/vmfs/volumes/Backup/ghettoVCB.sh -a -g
+/vmfs/volumes/Backup/ghettoVCB.conf &gt;/dev/null 2>&1";
+/var/spool/cron/crontabs/root" et en mettre une Von VM à backuper
+````
 
 > **Wichtig**
 >
-> Vergessen Sie nicht, den Pfad an die Konfigurationsdatei von anzupassen
-> ghettoVCB entsprechend Ihrer Konfiguration :
-> /vmfs/volumes/Backup/ghettoVCB.conf
+> Vergessen Sie nicht, den Pfad zur Konfigurationsdatei ghettoVCB entsprechend Ihrer Konfiguration anzupassen : ``/vmfs/volumes/Backup/ghettoVCB.conf``
 
-Letzter Schritt: Sie müssen Ihr ESXi neu starten, damit der Cron genommen werden kann
-In Anbetracht dessen können Sie das Ergebnis sehen, indem Sie (immer in SSH) :
+Letzter Schritt: Sie müssen Ihr ESXi neu starten, damit cron berücksichtigt wird. Sie können das Ergebnis sehen, indem Sie Folgendes tun (immer in SSH) :
 
-    cat / var / spool / cron / crontabs / root
+``cat /var/spool/cron/crontabs/root``
 
 Hier müssen Sie eine Linie haben :
 
-    0 0 1 * * /vmfs/volumes/Backup/ghettoVCB.sh -a -g /vmfs/volumes/Backup/ghettoVCB.conf >/dev/null 2>&1
+``0 0 1 * * /vmfs/volumes/Backup/ghettoVCB.sh -a -g /vmfs/volumes/Backup/ghettoVCB.conf >/dev/null 2>&1``

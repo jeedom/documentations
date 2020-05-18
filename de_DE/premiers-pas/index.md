@@ -2,7 +2,6 @@
 
 Willkommen zu dieser Dokumentation des ersten Schritts, die Ihnen hilft, Ihr Jeedom in Betrieb zu nehmen.
 
-
 ## Registrierung am Markt
 
 Das erste, was Sie tun müssen, ist, ein Konto auf dem Markt zu erstellen, um Ihr Jeedom darauf registrieren zu können. Klicken Sie auf [hier](https://market.jeedom.com/).
@@ -61,9 +60,7 @@ Die einfachste Lösung (funktioniert jedoch in 100% der Fälle nicht, abhängig 
 #### Durch Ihre Internetbox
 
 -   Gehen Sie zur Administrationsoberfläche Ihrer Internetbox und suchen Sie in Ihren Netzwerkgeräten nach Jeedom.
-
 -   Holen Sie sich seine IP.
-
 -   Geben Sie diese IP in Ihren Internetbrowser ein. Sie sollten sich auf der Jeedom-Oberfläche befinden.
 
 ## Erste Verbindung
@@ -77,23 +74,15 @@ Unabhängig davon, welche Methode verwendet wird, gelangen Sie auf die Anmeldese
 Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen können.
 
 -   Sobald Sie mit Ihrer Freiheit verbunden sind, müssen Sie zu gehen **Einstellungen → System → Konfiguration**
-
 -   Klicken Sie auf die Registerkarte **Updates**
-
 -   Klicken Sie unten auf die Registerkarte **Markt**
-
 -   Aktivieren Sie das Kontrollkästchen **Aktivieren**
-
 -   Remplissez l'adresse : `https://market.jeedom.com`
-
 -   Füllen Sie auch das Feld aus **Benutzername** und **Passwort** basierend auf Ihren Kennungen (Marktkennungen und nicht Jeedom)
-
 -   Sie können testen, ob die Verbindung korrekt hergestellt wurde.
-
 -   Vergiss nicht zu sparen !
 
 Weitere Informationen finden Sie auf der Konfigurationsseite unter *Konfigurationshandbuch -> Administration*.
-.
 
 ## Holen Sie sich meine direkte Zugriffs-URL
 
@@ -119,7 +108,6 @@ Sobald Sie darauf sind, müssen Sie nur noch die Leitung mit dem Benutzer auswä
 
 ![Passwort](images/FirstStep_boxPassword.jpg)
 
-
 In einem Fenster werden Sie nach dem Passwort gefragt. Denken Sie gut daran, sonst können Sie nicht mehr auf Ihr Jeedom zugreifen.
 
 ## Erstelle mein erstes Objekt
@@ -135,9 +123,7 @@ In Jeedom kann es alles und jedes sein, aber es wird empfohlen, es entsprechend 
 Nichts könnte einfacher sein, ein Objekt zu erstellen :
 
 -   Gehen Sie zu Extras → Objekte
-
 -   Klicken Sie auf die Schaltfläche Hinzufügen
-
 -   Jeedom wird dich nach dem Namen fragen. Validieren. Dies ist Ihr erstes erstelltes Objekt :
 
 ![Objund](images/FirstStep_object.jpg)
@@ -178,7 +164,6 @@ Weitere Informationen zu Plugins, *Benutzerhandbuch -> Plugin*.
 
 # Unterstützung
 
-
 Jeedom befasst sich mit sehr weiten Feldern und entwickelt sich von Tag zu Tag weiter.
 Es gibt jedoch viele Möglichkeiten, Hilfe zu finden und Ihre Fragen zu stellen.
 
@@ -187,7 +172,6 @@ Es gibt jedoch viele Möglichkeiten, Hilfe zu finden und Ihre Fragen zu stellen.
 Sie werden es finden [hier](https://community.jeedom.com/).
 
 Das Forum ist sehr aktiv und enthält viele Informationen. Wenn Sie eine Frage haben, zögern Sie nicht, sie zu stellen. Sie haben eine Antwort in weniger als einer Stunde (im Durchschnitt). Bitte beachten Sie, dass das Forum von der Jeedom-Community, die sich aus Freiwilligen zusammensetzt, und nicht von der Jeedom-Firma unterhalten wird.
-
 
 ## Supportanfragen (oder Tickets)
 
@@ -198,11 +182,8 @@ Das Forum ist sehr aktiv und enthält viele Informationen. Wenn Sie eine Frage h
 Wenn Sie als letztes Mittel keine Lösung für Ihr Problem gefunden haben, können Sie das Jeedom-Team um Unterstützung bitten. Diese Anfrage geht durch ein Ticket. Es gibt verschiedene Möglichkeiten, eine zu öffnen:
 
 -   Direkt von Jeedom (empfohlene Methode): Einstellungsmenü → Supportanfrage.
-
 -   Wenn Sie aus irgendeinem Grund keinen Zugang zu Ihrem Jeedom haben, können Sie jederzeit ein Ticket vom Markt öffnen :
-
     -   Klicken Sie entweder auf Ihren Namen und dann auf *Supportanfrage*,
-
     -   entweder indem Sie zu Ihrem Profil gehen, dann in den Abschnitt **Tickets**, Verwenden Sie die Schaltfläche "Supportanfrage öffnen".
 
 ![Supportanfrage](images/FirstStep_support.jpg)
