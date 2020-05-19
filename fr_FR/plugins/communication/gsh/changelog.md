@@ -6,6 +6,10 @@
 
 # 15/05/2020
 
+- Activation par défaut du local home execution
+
+# 15/05/2020
+
 - Passage sur les nouveaux serveurs (mise à jour obligatoire pour pouvoir ajouter/supprimer de nouveaux équipements)
 
 # 07/05/2020

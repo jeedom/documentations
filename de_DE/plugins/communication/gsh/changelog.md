@@ -6,6 +6,10 @@
 
 # 15.05.2020
 
+- Standardaktivierung der lokalen Home-Ausführung
+
+# 15.05.2020
+
 - Wechseln zu neuen Servern (Update erforderlich, um neue Geräte hinzufügen / entfernen zu können)
 
 # 05/07/2020

@@ -6,6 +6,10 @@
 
 # 05/15/2020
 
+- Default activation of local home execution
+
+# 05/15/2020
+
 - Switching to new servers (update required to be able to add / remove new equipment)
 
 # 05/07/2020

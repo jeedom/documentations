@@ -6,6 +6,10 @@
 
 # 15/05/2020
 
+- Activación predeterminada de la ejecución local del hogar
+
+# 15/05/2020
+
 - Cambiar a nuevos servidores (se requiere actualización para poder agregar / eliminar nuevos equipos)
 
 # 07/05/2020

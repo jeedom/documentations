@@ -244,7 +244,7 @@ Gehen Sie auf Ihrem Jeedom zu Plugin -> Kommunikation -> Google Smarthome und w�
 > Für den Typ "Kamera" müssen Sie die URL des Streams unbedingt konfigurieren (wir haben nur das RTSP getestet), damit es funktioniert.
 > Beachten Sie, dass sich die Kameraunterstützung derzeit in der Beta-Phase befindet und viele Ressourcen verbraucht
 
-## Equipement
+## Gerät
 
 Auf Geräten können Sie konfigurieren :
 
@@ -260,7 +260,7 @@ Auf Geräten können Sie konfigurieren :
   * Erweiterte Konfiguration von Geräten, ermöglicht den Zugriff auf die erweiterte Konfiguration von Befehlen und damit das Ändern generischer Typen
   * Ermöglicht den direkten Zugriff auf die Gerätekonfigurationsseite
 
-### Type
+### Typ
 
 Die Arten der Ausrüstung sind wichtig, damit Google entsprechend den von Ihnen angegebenen Sätzen reagieren kann.
 
@@ -297,7 +297,7 @@ Sie können auf der Registerkarte "Szene" auch Szenen mit Eingabe- und Ausgabeak
 
 Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 
-# FAQ
+# Faq
 
 >**Ich kann die Zuordnung im Cloud-Modus nicht herstellen ?**
 >

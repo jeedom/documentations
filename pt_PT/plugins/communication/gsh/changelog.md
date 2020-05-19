@@ -6,6 +6,10 @@
 
 # 15/05/2020
 
+- Ativação padrão da execução local local
+
+# 15/05/2020
+
 - Mudando para novos servidores (atualização necessária para poder adicionar / remover novos equipamentos)
 
 # 05/07/2020
