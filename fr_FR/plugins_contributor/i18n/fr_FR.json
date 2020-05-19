@@ -7,7 +7,7 @@
         "EIB - KN": "EIB - KN",
         "Connecter Jeedom avec votre installation domotique KNX et Jeedom deviendra un participant de votre installation": "Connecter Jeedom avec votre installation domotique KNX et Jeedom deviendra un participant de votre installation",
         "dht22": "dht22",
-        "Plugin permetant la lecture de sonde DHT11, DHT22, DAM2302 connecter au GPIO d'un raspberry": "Plugin permetant la lecture de sonde DHT11, DHT22, DAM2302 connecter au GPIO d'un raspberry",
+        "Plugin permetant la lecture de sondes DHT11, DHT22, AM2302 connectées au GPIO d'un raspberry": "Plugin permetant la lecture de sondes DHT11, DHT22, AM2302 connectées au GPIO d'un raspberry",
         "Protocole domotique": "Protocole domotique",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
