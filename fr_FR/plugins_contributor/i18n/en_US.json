@@ -211,6 +211,7 @@
         "# Changelog": "# Changelog"
     },
     "plugins_contributor\/devicecommunication\/index.md": {
+        "Plugin Jeedom pour Robots tondeuses Worx Landroid modèles S\/M\/L version cloud": "Jeedom plugin for Worx Landroid robot mowers models S \/ M \/ L cloud version",
         "Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link": "Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link",
         "Pilote de nombreux périphériques wifi": "Driver of many wifi devices",
         "Sure PetCare": "Sure PetCare",

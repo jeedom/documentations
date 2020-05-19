@@ -4,6 +4,7 @@
 	"licence" : "AGPL",
 	"author" : "SSC",
 	"require" : "2.4",
+	"description" : "Plugin Jeedom pour Robots tondeuses Worx Landroid modèles S/M/L version cloud",
 	"category" : "devicecommunication",
 	"hasDependency" : 1,
 	"hasOwnDeamon" : 1,
