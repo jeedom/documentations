@@ -32,6 +32,7 @@
 - **Analyse / Historique** : Ctrl Clic sur une légende pour afficher seulement cet historique, Alt Clic pour les afficher tous.
 - **Analyse / Historique** : Les options *groupement, type, variation, escalier* sont actives seulement avec une seule courbe affichée.
 - **Analyse / Historique** : On peut maintenant utiliser l'option *Aire* avec l'option *Escalier*.
+- **Analyse / Logs** : Nouvelle police de type monospace pour les logs.
 - **Vue** : possibilité de mettre des scénarios.
 - **Historique** : Intégration de la Timeline en DB pour des raisons de fiabilité.
 - **Historique** : Gestion de Timelines multiples.
@@ -53,7 +54,8 @@
 	- Ctrl Clic / Clic Centre également disponible dans leurs menus contextuels (sur les onglets).
 - Nouvelle page ModalDisplay :
 	- Menu Analyse : Ctrl Clic / Clic Centre sur *Temps réel* : Ouvre la fenêtre dans un nouvel onglet, en pleine page.
-	- Menu Outils : Ctrl Clic / Clic Centre sur *Notes*, *Testeur expression*, *Variables*, *Recherche* : Ouvre la fenêtre dans un nouvel onglet, en pleine page.<br/><br/>
+	- Menu Outils : Ctrl Clic / Clic Centre sur *Notes*, *Testeur expression*, *Variables*, *Recherche* : Ouvre la fenêtre dans un nouvel onglet, en pleine page.
+- Bloc code, Éditeur de fichier, Personnalisation avancée : Adaptation thème Dark.<br/><br/>
 - **WebApp** : Intégration de la nouvelle page Synthèse.
 - **WebApp** : Page scénarios, un clic sur le titre du scénario affiche le log de celui-ci.
 - **WebApp** : On peut maintenant sélectionner / copier une partie d'un log.
@@ -61,6 +63,7 @@
 - **WebApp** : Persistance de la bascule de thème (8h).
 - **WebApp** : Sur un design, un click avec trois doigts permet de revenir à l'accueil.
 - **WebApp** : Affichage des scénarios par groupe.
+- **WebApp** : Nouvelle police de type monospace pour les logs.
 - **WebApp** : Nombreux bug-fix (UI, portrait/landscape iOS, etc.).<br/><br/>
 - **Documentation** : Adaptations en adéquation avec la v4 et v4.1.
 - **Documentation** : Nouvelle page *Raccourcis clavier / souris* comprenant un récapitulatif de tous les raccourcis dans Jeedom. Accessible depuis la doc du Dashboard ou la FAQ.
