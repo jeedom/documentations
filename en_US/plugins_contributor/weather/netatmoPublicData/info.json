@@ -1,0 +1,31 @@
+{
+  "id": "netatmoPublicData",
+  "name": "Netatmo OpenData",
+  "description": "Récupèrer les données de vos stations météos Netatmo de votre choix et gratuitement. Vos voisins ont une station Netatmo ? <br />  Ce plugin est fait pour vous ! <br/><br/><br/>English : Display your favorite weather stations (owned or public) from Netatmo, for free ! \n",
+  "version": "1.0",
+  "licence": "AGPL",
+  "author": "Jim005",
+  "require": "3.2",
+  "category": "weather",
+  "hasDependency": false,
+  "hasOwnDeamon": false,
+  "maxDependancyInstallTime": 0,
+  "changelog": "https://jim005.github.io/jeedom-netatmoPublicData/#language#/changelog",
+  "documentation": "https://jim005.github.io/jeedom-netatmoPublicData/#language#/",
+  "link": {
+    "forum": "https://community.jeedom.com/t/pugin-netatmo-opendata-presentation/28530"
+  },
+  "language": [
+    "fr_FR",
+    "en_US"
+  ],
+  "compatibility": [
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "mobile",
+    "v4"
+  ]
+}
