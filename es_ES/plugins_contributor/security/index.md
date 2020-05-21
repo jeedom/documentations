@@ -10,3 +10,4 @@
 | | | | |
 |--- | --- | --- | ---|
 |<img src="facerecognition/facerecognition_icon.png" class="pluginLogo" width="100" />|Reconocimiento facial|Este complemento permite usar OpenCv para detectar su visión y reconocerlo.Atención, lo mismo que autorizaste con este plugin porque es bastante simple engañar al sistema (gemelos, fotos)|[Documentación](http://mika-nt28.github.io/Documentations/facerecognition/es_ES/)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3863)<br/>[Cambios](https://mika-nt28.github.io/Documentations/facerecognition/es_ES/changelog)|
+|<img src="openalpr/openalpr_icon.png" class="pluginLogo" width="100" />|OpenALPR|Complemento permanente para reconocer la matrícula con nuestras cámaras|[Documentación](https://mika-nt28.github.io/Documentations/openalpr/fr_FR)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1613)<br/>[Cambios](https://mika-nt28.github.io/Documentations/openalpr/es_ES/changelog)|

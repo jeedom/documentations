@@ -718,6 +718,7 @@
         "# Changelog": "# Cambios"
     },
     "plugins_contributor\/security\/index.md": {
+        "Plugin permanent de faire de la reconnaissance de plaque d'immatriculation avec nos camera": "Complemento permanente para reconocer la matrícula con nuestras cámaras",
         "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos)": "Atención, lo mismo que autorizaste con este plugin porque es bastante simple engañar al sistema (gemelos, fotos)",
         "Reconnaissance facial": "Reconocimiento facial",
         "Ce plugin permet utilise OpenCv pour détecter votre visiage et vous reconnaitre": "Este complemento permite usar OpenCv para detectar su visión y reconocerlo",
@@ -727,6 +728,14 @@
         "Une fois sur le plugin en question, cliquez sur documentation": "Una vez en el complemento en cuestión, haga clic en la documentación",
         "Vous pouvez voir": "Podéis ver",
         "tous les plugins officiels de cette catégorie": "todos los complementos oficiales en esta categoría",
+        " OpenALPR.": " OpenALPR.",
+        " OpenALPR?": " OpenALPR?",
+        "OpenALPR ": "OpenALPR ",
+        "[OpenALPR": "[OpenALPR",
+        "OpenALPR]": "OpenALPR]",
+        "*OpenALPR": "*OpenALPR",
+        "OpenALPR*": "OpenALPR*",
+        "# OpenALPR": "# OpenALPR",
         " IMPORTANT.": " Importante.",
         " IMPORTANT?": " Importante?",
         "IMPORTANT ": "Importante ",
