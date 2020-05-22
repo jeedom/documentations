@@ -3,7 +3,7 @@
 	"name" : "dht22",
 	"description" : "Plugin permetant la lecture de sondes DHT11, DHT22, AM2302 connectées au GPIO d'un raspberry",
 	"licence" : "AGPL",
-	"author" : "LEBANSAIS C",
+	"author" : "Linura",
 	"require" : "3.2",
 	"category" : "automation protocol",
 	"hasDependency" : true,
@@ -11,6 +11,6 @@
 	"maxDependancyInstallTime" : 45,
 	"changelog" : "https://linura.github.io/dht22/#language#/changelog",
 	"documentation" : "https://linura.github.io/dht22/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
+	"language" : ["fr_FR"],
 	"compatibility" : ["rpi"]
 }
