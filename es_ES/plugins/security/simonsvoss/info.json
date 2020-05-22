@@ -1,0 +1,23 @@
+{
+    "id": "simonsvoss",
+    "name": "Simons voss",
+    "description": "Plugin pour les serrure Simons Voss Smart Intego",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3",
+    "category": "security",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/simonsvoss\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/simonsvoss\/",
+    "language": [
+        "fr_FR"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "diy"
+    ]
+}
