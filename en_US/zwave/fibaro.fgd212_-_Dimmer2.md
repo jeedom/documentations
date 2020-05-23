@@ -148,7 +148,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/fibaro.fgd212/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module has been recognized, the commands associated with the modules will be
 disponibles.
@@ -176,7 +176,7 @@ Here is the list of commands :
 Note that on the dashboard all the information is found on the same
 icone
 
-### Setup du module
+### Configuration of the module
 
 You can configure the module according to your
 installation. This requires going through the "Configuration" button of the
@@ -201,7 +201,7 @@ Parameter details :
 
 ON GOING REDACTION
 
-### Groups
+### Groupes
 
 This module has five association groups, only the first is
 indispensable.

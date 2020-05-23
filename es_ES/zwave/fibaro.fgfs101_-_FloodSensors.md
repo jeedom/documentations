@@ -22,7 +22,7 @@ También tiene una alarma de sirena que puede sonar en caso de un problema. Pued
 
 Este sensor incorpora un probador de rango de red Z-Wave, que le asegura el correcto funcionamiento del sensor durante su instalación.
 
-## Funciones
+## Fonctions
 
 -   Detector de inundaciones (presencia de agua a través de contactos)
 -   Detector de temperatura
@@ -57,7 +57,7 @@ Este sensor incorpora un probador de rango de red Z-Wave, que le asegura el corr
 -   Tipo de producto : 2816
 -   ID del producto : 4097
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -71,7 +71,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/fibaro.fgfs101/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -84,7 +84,7 @@ Aquí está la lista de comandos :
 -   Sabotaje : este es el comando de sabotaje. Señala la apertura del caso
 -   Batería : es el comando de la batería
 
-### Configuración du module
+### Configuracion del modulo
 
 > **Importante**
 >
@@ -116,7 +116,7 @@ Detalles del parámetro :
 -   73 \. Compensación de temperatura : de -10000 a + 10000 (0 por defecto = 0 ° C) Le permite definir un desplazamiento entre la temperatura del sensor y la temperatura real
 -   75 \. Establecer la duración de la alarma : de 0 a 65535s (0 por defecto, la alarma se detiene tan pronto como ya no detecta una falla.)
 
-### Grupos
+### Groupes
 
 Para un funcionamiento óptimo de su módulo. Jeedom debe estar asociado al menos con los grupos 1, 4 y 5:
 
@@ -130,7 +130,7 @@ Cableado para alimentación externa.
 
 ![Alim Exterieur](images/fibaro.fgfs101/Alim_Exterieur.jpg)
 
-## Despertador
+## Wakeup
 
 Para activar este módulo, presione el botón central 3 veces
 

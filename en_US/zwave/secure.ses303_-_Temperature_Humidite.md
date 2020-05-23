@@ -18,7 +18,7 @@ The SES303 probe allows the measurement of indoor ambient temperature as well as
 
 These modules are perfect for temperature measurement in central heating control applications or any similar application. Its user interface is simple, with a local push button and an indication LED on the rear side. You can easily include / exclude it in a Z-Wave network.
 
-## Functions
+## Fonctions
 
 -   Precise measurement of temperature and humidity
 -   Application in dynamic control systems of tanks / tubes / heated floors /…
@@ -46,7 +46,7 @@ These modules are perfect for temperature measurement in central heating control
 -   Product Type : 13
 -   Product ID : 3
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -60,7 +60,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/secure.ses303/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -74,7 +74,7 @@ Here is the list of commands :
 
 Several non visible temperatures are also available and will be useful if you have connected external probes
 
-### Setup du module
+### Configuration of the module
 
 > **IMPORTANT**
 >
@@ -97,7 +97,7 @@ Parameter details :
 
 All the other parameters are identical and correspond to all the external probes possibly connected
 
-### Groups
+### Groupes
 
 This module has only one association group, it is essential
 

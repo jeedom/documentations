@@ -20,7 +20,7 @@ La regleta de alimentación PowerNode está equipada con protección contra sobr
 
 Esta regleta es ideal para controlar dispositivos multimedia en un gabinete de TV o para controlar equipos informáticos ubicados en una oficina y así evitar tener que usar 6 enchufes Z-Wave individuales.
 
-## Funciones
+## Fonctions
 
 -   Regleta de 6 puertos Z-Wave
 -   Permite el monitoreo del consumo de dispositivos conectados
@@ -54,7 +54,7 @@ Esta regleta es ideal para controlar dispositivos multimedia en un gabinete de T
 -   Tipo de producto : 3
 -   ID del producto : 4
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -68,7 +68,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/greenwave.powernode/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -117,7 +117,7 @@ Aquí está la lista de comandos :
 
 Tenga en cuenta que en el tablero los comandos ON / OFF / STATUS se agrupan en un solo botón.
 
-### Configuración du module
+### Configuracion del modulo
 
 Puede configurar el módulo de acuerdo con su instalación. Para hacer esto, vaya al botón "Configuración" del complemento OpenZwave de Jeedom.
 
@@ -134,7 +134,7 @@ Detalles del parámetro :
 -   1 : Retrasos antes de que el botón parpadee : número mínimo de segundos entre dos comunicaciones (si se excede este tiempo, el botón del socket parpadeará))
 -   2 : Color de rueda seleccionado (detectado automáticamente)
 
-### Grupos
+### Groupes
 
 Este módulo tiene cuatro grupos de asociación, solo el primer grupo es esencial.
 
@@ -157,12 +157,12 @@ Puede usar un virtual para crear un consumo acumulativo de los 6 sockets.
 
 ![consocumul2](images/greenwave.powernode/consocumul2.jpg)
 
-### Restablecer
+### Reset
 
 ![Config3](images/greenwave.powernode/config3.jpg)
 
 Puede restablecer su medidor de consumo haciendo clic en este botón disponible en la pestaña Sistema. (Hay un reinicio por socket). Elija PressButton.
 
-## Despertador
+## Wakeup
 
 No hay noción de activación en este módulo.

@@ -14,7 +14,7 @@ The Mini On / Off Plug is designed to control the switching on and off of lights
 
 The Mini On / Off Plug is a Z-Wave ™ compatible device that is intended to work with all Z-Wave ™ compatible networks. It can be controlled by a remote control, PC software, or any Z-Wave controller on your network.
 
-## Functions
+## Fonctions
 
 -   Control a lamp or device remotely
 -   Plug module integrating directly between an electrical outlet and the load to be controlled
@@ -44,7 +44,7 @@ The Mini On / Off Plug is a Z-Wave ™ compatible device that is intended to wor
 -   Product Type : 4
 -   Product ID : 7
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -58,7 +58,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/everspring.AN180-6/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the modules will be available.
 
@@ -72,7 +72,7 @@ Here is the list of commands :
 
 Note that on the dashboard, the State, ON / OFF information is found on the same icon.
 
-### Setup du module
+### Configuration of the module
 
 You can configure the module according to your installation. To do this, go through the "Configuration" button of Jeedom's OpenZwave plugin.
 
@@ -88,7 +88,7 @@ Parameter details :
 -   2 : This parameter defines the delay for sending the change of state to group 1 (value between 3 and 25 seconds)
 -   3 : This parameter is used to define whether the socket will resume its status (ON or OFF) after a power recovery.
 
-### Groups
+### Groupes
 
 This module has 2 association groups.
 

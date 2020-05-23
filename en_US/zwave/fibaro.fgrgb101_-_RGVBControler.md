@@ -22,7 +22,7 @@ The Z-Wave Fibaro FGRGB-101 micromodule can be used to control low-voltage 12 / 
 -   Global or instantaneous or cumulative consumption measurement.
 -   Repeater function (router) to extend the Z-Wave network.
 
-## Functions
+## Fonctions
 
 -   Control low voltage 12 / 24V lights (halogen or LED)
 -   Installs behind an existing switch
@@ -58,7 +58,7 @@ The Z-Wave Fibaro FGRGB-101 micromodule can be used to control low-voltage 12 / 
 -   Product Type : 2304
 -   Product ID : 4096
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -72,7 +72,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/fibaro.fgrgb101/configuration.png)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -96,7 +96,7 @@ Here is the list of commands :
 
 Note that on the dashboard all the information is found on the same icon
 
-### Setup du module
+### Configuration of the module
 
 You can configure the module according to your installation. To do this, go through the "Configuration" button of Jeedom's OpenZwave plugin.
 
@@ -110,7 +110,7 @@ Parameter details :
 
 Please refer to the previous screenshot, the parameters being translated into French.
 
-### Groups
+### Groupes
 
 This module has five association groups, only the fifth is essential.
 

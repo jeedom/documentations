@@ -18,7 +18,7 @@ Se conectan fácilmente a los diferentes receptores y, por lo tanto, pueden cont
 
 Además, es posible la interacción con otros protocolos, puede interactuar con los receptores de la marca Edisio, con Jeedom, pero también con cualquier receptor Z-Wave en su red.
 
-## Funciones
+## Fonctions
 
 -   Modo de uso : Iluminación, dimmer
 -   Pequeño, discreto y estético
@@ -73,7 +73,7 @@ Una vez, su equipo asociado, debería obtener esto :
 
 ![etc1.general](images/etc1/etc1.general.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se crea su equipo, debe obtener los comandos asociados con el módulo :
 
@@ -84,7 +84,7 @@ Aquí está la lista de comandos :
 -   bt01 : Es el comando que te permite interactuar con el botón 1
 -   Batería : Indica el estado de la batería
 
-### Información
+### Informations
 
 Una vez que su equipo esté asociado con Jeedom, habrá diversa información disponible :
 
@@ -95,7 +95,7 @@ Una vez que su equipo esté asociado con Jeedom, habrá diversa información dis
 -   Batería : Indica el estado de la batería de los módulos de batería
 -   Estado : Devuelve el estado del módulo
 
-### Uso
+### Utilisation
 
 Una vez que su control remoto está configurado, puede con el plugin Jeedom Scenario, interactuar con su control remoto en Jeedom y su equipo.
 

@@ -1,4 +1,4 @@
-# Migration Jeelink
+# Jeelink migration
 
 We will see here how to migrate an installation with Jeedom in slave mode to a Jeedom with the plugin "Jeedom Link". Jeedom slave mode being abandoned at the transition from Jeedom to version 3.0, it is necessary to proceed before the migration to the new operating mode.
 

@@ -16,7 +16,7 @@ La señal solo se envía después de detectar una diferencia de temperatura de 0
 
 El indicador LED integrado señala cualquier cambio de estado.
 
-## Funciones
+## Fonctions
 
 -   Sensor inalámbrico de temperatura alimentado por batería
 -   Ultra compacto
@@ -76,7 +76,7 @@ Una vez, su equipo asociado, debería obtener esto :
 
 ![ets200.general](images/ets200/ets200.general.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se crea su equipo, debe obtener los comandos asociados con el módulo :
 
@@ -87,7 +87,7 @@ Aquí está la lista de comandos :
 -   Temperatura : Es el comando que indica la temperatura leída
 -   Batería : Indica el estado de la batería
 
-### Información
+### Informations
 
 Una vez que su equipo esté asociado con Jeedom, habrá diversa información disponible :
 

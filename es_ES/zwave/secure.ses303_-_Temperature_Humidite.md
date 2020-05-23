@@ -18,7 +18,7 @@ La sonda SES303 permite medir la temperatura ambiente interior y la humedad. Est
 
 Estos módulos son perfectos para la medición de temperatura en aplicaciones de control de calefacción central o cualquier aplicación similar. Su interfaz de usuario es simple, con un botón local y un LED indicador en la parte trasera. Puede incluirlo / excluirlo fácilmente en una red Z-Wave.
 
-## Funciones
+## Fonctions
 
 -   Medición precisa de temperatura y humedad
 -   Aplicación en sistemas de control dinámico de tanques / tubos / suelos calentados /
@@ -46,7 +46,7 @@ Estos módulos son perfectos para la medición de temperatura en aplicaciones de
 -   Tipo de producto : 13
 -   ID del producto : 3
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -60,7 +60,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/secure.ses303/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -74,7 +74,7 @@ Aquí está la lista de comandos :
 
 Varias temperaturas no visibles también están disponibles y serán útiles si ha conectado sondas externas
 
-### Configuración du module
+### Configuracion del modulo
 
 > **Importante**
 >
@@ -97,13 +97,13 @@ Detalles del parámetro :
 
 Todos los demás parámetros son idénticos y corresponden a todas las sondas externas posiblemente conectadas
 
-### Grupos
+### Groupes
 
 Este módulo tiene solo un grupo de asociación, es esencial
 
 ![Groupe](images/secure.ses303/groupe.jpg)
 
-## Despertador
+## Wakeup
 
 Para activar este módulo, presione el botón en la parte posterior una vez
 

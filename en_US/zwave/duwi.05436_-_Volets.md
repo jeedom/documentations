@@ -19,7 +19,7 @@ Its main features are :
 
 Attention: this module does not send its status to the z-wave controller when the user presses the buttons directly. You have to do a 'Refresh' on its position to update, or adjust the Poll (see below).
 
-## Functions
+## Fonctions
 
 -   Down up
 -   A common wire which will be switched on ascent or descent
@@ -47,11 +47,11 @@ Attention: this module does not send its status to the z-wave controller when th
 -   Product type : 16385
 -   Product ID : 0
 
-## Connection
+## Connexion
 
 ![2 Montage](images/duwi.05436/2-Montage.PNG)
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -63,7 +63,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/duwi.05436/3-Inclusion.PNG)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -90,7 +90,7 @@ Then press and hold the down or up button until you reach the desired position. 
 
 Repeat the operation in the other direction.
 
-### Setup du module
+### Configuration of the module
 
 Then if you want to configure the module according to your installation, you have to go through the "Configuration" button of Jeedom's OpenZwave plugin.
 
@@ -111,7 +111,7 @@ To note : forcing a value to zero for this parameter will imply that the module 
 -   1 : Stop-functionnality : Enabled or Disabled :
 Used to indicate whether pressing in the opposite direction during movement stops the shutter or immediately returns it in the opposite direction.
 
-### Groups
+### Groupes
 
 This module has only one association group in which your Z-Wave controller must be.
 

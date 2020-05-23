@@ -18,7 +18,7 @@ The detector will also raise the brightness and the temperature, i.e. in the eve
 
 A Z-Wave controller (remote control, dongle…) is necessary in order to integrate this detector into your network if you already have an existing network.
 
-## Functions
+## Fonctions
 
 -   3 in 1 detector: Aperture, temperature, light
 -   Adopts the recent Z-Wave 400series chip to support multi-channel operations and higher data throughput (9.6 / 40 / 100kbps)
@@ -57,7 +57,7 @@ A Z-Wave controller (remote control, dongle…) is necessary in order to integra
 -   Product Type : 2
 -   Product ID : 14
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -71,7 +71,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/philio.pst02c/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -84,7 +84,7 @@ Here is the list of commands :
 -   Brightness : it is the command which makes it possible to raise the brightness
 -   Drums : it's the battery command
 
-### Setup du module
+### Configuration of the module
 
 > **IMPORTANT**
 >
@@ -118,7 +118,7 @@ Parameter details :
 -   21: temperature variation value in ° F to trigger a report
 -   22: value in% of brightness variation to trigger a report Recommended value : 10
 
-### Groups
+### Groupes
 
 This module has two association groups, only the first is essential.
 

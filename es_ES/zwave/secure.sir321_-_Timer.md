@@ -16,7 +16,7 @@ Estas unidades son perfectas para usar en paneles de calefacción, calentadores 
 
 El SIR 321 es compatible con los sensores de temperatura externos SES001, SES002 y SES003.
 
-## Funciones
+## Fonctions
 
 -   Booster para calentador de inmersión, radiador de panel, radiador de toalla, radiador de baño de aceite
 -   Temporizador de caldera
@@ -41,7 +41,7 @@ El SIR 321 es compatible con los sensores de temperatura externos SES001, SES002
 -   ID del fabricante : 89
 -   Tipo de producto : 1/2 (dependiendo de si se incluye con una sonda de temperatura o no)
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 > **Importante**
@@ -54,7 +54,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/secure.sir321/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -66,7 +66,7 @@ Aquí está la lista de comandos :
 -   Apagado : es el comando para apagar el relé
 -   Temperatura : es el comando de medición de temperatura si hay una sonda externa presente
 
-### Configuración du module
+### Configuracion del modulo
 
 Si desea configurar el módulo, debe pasar por el botón "Configuración" del complemento Jeedom OpenZwave.
 
@@ -84,7 +84,7 @@ Detalles del parámetro :
 -   4: Le permite establecer cuánto debe variar la temperatura para que el módulo lo envíe a Jeedom (en pasos de 0.1 10- → 0.1)
 -   5: Le permite establecer una temperatura de corte por encima de la cual el módulo cortará el relé
 
-### Grupos
+### Groupes
 
 Este módulo tiene dos grupos de asociación. Si el primero es esencial, el segundo está activo y es esencial si se conecta un sensor de temperatura.
 

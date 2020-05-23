@@ -2,7 +2,7 @@
 
 El propósito de este artículo es guiarte en el uso de Android para hablar con Jeedom. Utilizaremos el motor de interacciones Jeedom que permite formular solicitudes y que Jeedom responda a ellas (y también, si lo desea, activa diferentes escenarios o elementos).
 
-# Instalación
+# Installation
 
 ## Prerrequisitos
 

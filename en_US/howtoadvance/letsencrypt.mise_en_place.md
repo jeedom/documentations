@@ -80,7 +80,7 @@ And finally restart the Nginx server.
 
 ``service nginx restart``
 
-# Renewal
+# Renouvellement
 
 Renewal is done with the order :
 

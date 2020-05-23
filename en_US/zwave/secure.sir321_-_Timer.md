@@ -16,7 +16,7 @@ These units are perfect for use on heating panels, immersion heaters, towel warm
 
 The SIR 321 supports the external temperature sensors SES001, SES002 and SES003.
 
-## Functions
+## Fonctions
 
 -   Booster for immersion heater, panel radiator, towel radiator, oil bath radiator
 -   Boiler timer
@@ -41,7 +41,7 @@ The SIR 321 supports the external temperature sensors SES001, SES002 and SES003.
 -   Manufacturer ID : 89
 -   Product Type : 1/2 (depending on whether it is included with a temperature probe or not)
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 > **IMPORTANT**
@@ -54,7 +54,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/secure.sir321/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -66,7 +66,7 @@ Here is the list of commands :
 -   Off : it is the command to switch off the relay
 -   Temperature : it is the temperature measurement command if an external probe is present
 
-### Setup du module
+### Configuration of the module
 
 If you want to configure the module you have to go through the "Configuration" button of the Jeedom OpenZwave plugin.
 
@@ -84,7 +84,7 @@ Parameter details :
 -   4: Allows you to set how much the temperature must vary for the module to send it to Jeedom (in steps of 0.1 10- → 0.1)
 -   5: Allows you to set a cut off temperature above which the module will cut off the relay
 
-### Groups
+### Groupes
 
 This module has two association groups. If the first is essential, the second is active and is essential if a temperature sensor is connected.
 

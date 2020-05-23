@@ -80,7 +80,7 @@ Und schließlich starten Sie den Nginx-Server neu.
 
 ``service nginx restart``
 
-# Erneuerung
+# Renouvellement
 
 Die Verlängerung erfolgt mit der Bestellung :
 

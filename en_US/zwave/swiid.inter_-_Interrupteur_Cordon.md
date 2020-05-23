@@ -1,4 +1,4 @@
-# Swiid Interrupteur - Swiidinter
+# Swiid Switch - Swiidinter
 
 **The module**
 
@@ -18,7 +18,7 @@ The SwiidInter switch also offers two-way association possibilities. Thus, it ca
 
 The SwiidInter switch is installed exactly like an ordinary cord switch : it is therefore a simple and fast installation which does not require any specialized tool. It must then be configured to integrate into a Z-Wave "network", this network can be as simple as a single remote control which controls your SwiidInter switch remotely.
 
-## Functions
+## Fonctions
 
 -   Switch on cord usable both manually (short press) and by radio remote (Z-Wave)
 -   Use as a replacement for a standard cord switch on a bedside, table, or desk lamp
@@ -52,7 +52,7 @@ The SwiidInter switch is installed exactly like an ordinary cord switch : it is 
 -   Product Type : 256
 -   Product ID : 256
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -66,7 +66,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/swiid.inter/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -80,7 +80,7 @@ Here is the list of commands :
 
 Note that on the dashboard all the information is found on the same icon
 
-### Setup du module
+### Configuration of the module
 
 You can configure the module according to your installation. To do this, go through the "Configuration" button of Jeedom's OpenZwave plugin.
 
@@ -99,7 +99,7 @@ This parameter allows you to choose the behavior when you associate the swiidint
 -   ON ONLY : will be effective only to turn on the other lights
 -   ON and OFF (fully) : will be effective to turn other lights on and off
 
-### Groups
+### Groupes
 
 This module has two association groups.
 

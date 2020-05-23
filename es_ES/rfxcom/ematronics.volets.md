@@ -4,19 +4,19 @@
 
 ### Vaya a "Complementos", "Gestión de complementos", "RFX COM"
 
-![Imagen07](images/volet.ematronic/image07.png)
+![image07](images/volet.ematronic/image07.png)
 
 ### En "Gestión de protocolos RFXcom"
 
-![Imagen04](images/volet.ematronic/image04.png)
+![image04](images/volet.ematronic/image04.png)
 
 verifique el Protocolo 8, BlindsT1, Guardar y salir.
 
-![Imagen08](images/volet.ematronic/image08.png)
+![image08](images/volet.ematronic/image08.png)
 
 ### Activar, "Iniciar en modo de depuración"
 
-![Imagen03](images/volet.ematronic/image03.png)
+![image03](images/volet.ematronic/image03.png)
 
 Espere a que se abra la ventana, luego presione el botón Abrir en su control remoto Ematronic.
 
@@ -41,31 +41,31 @@ Identificar : Id1 e Id2 y agregue el siguiente hexadecimal : en mi ejemplo Id1 =
 
 ### Detenga el modo de depuración con el botón "Detener / reiniciar el demonio"
 
-![Imagen06](images/volet.ematronic/image06.png)
+![image06](images/volet.ematronic/image06.png)
 
 ## Creación del control remoto bajo JeeDom
 
 Vaya a Complementos, Protocolo de inicio, RFXcom.
 
-![Imagen10](images/volet.ematronic/image10.png)
+![image10](images/volet.ematronic/image10.png)
 
 Haga clic en "Agregar" e ingrese un nombre para su control remoto virtual.
 
-![Imagen00](images/volet.ematronic/image00.png)
+![image00](images/volet.ematronic/image00.png)
 
 Elija la plantilla de la lista de equipos : "Obturador ematrónico - Fallo".
 
 Reemplace la identificación automática con la que extrajo anteriormente y marque "Activar" y "Visible" :
 
-![Imagen11](images/volet.ematronic/image11.png)
+![image11](images/volet.ematronic/image11.png)
 
 Haga clic en "Guardar" para guardar su configuración y cargar la plantilla "Panel Ematronic - Predeterminado"".
 
-![Imagen02](images/volet.ematronic/image02.png)
+![image02](images/volet.ematronic/image02.png)
 
 Aquí está su control remoto listo, debería verse así :
 
-![Imagen05](images/volet.ematronic/image05.png)
+![image05](images/volet.ematronic/image05.png)
 
 ## Asocia tu control remoto virtual JeeDom con tu motor Ematronic
 

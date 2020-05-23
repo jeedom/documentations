@@ -8,7 +8,7 @@ The possibilities of Jeedom are almost endless, since you can create a lot of th
 >
 > The links below point to the Core v4.1. Once on the documentation page (User manual or configuration) you can change version in the menu at the top left to switch to the version corresponding to the Core you want.
 
-## Display
+## Affichage
 
 Jeedom allows to interface a very large number of devices together, whether these are based on the Z-Wave, Enocean, Zigbee protocols, etc., on APIs using plugins, or directly in the form of scripts. You can look on the [Market](https://market.jeedom.com/) to get an overview of supported devices.
 
@@ -18,7 +18,7 @@ You can view these devices in several ways :
 - On the [Synthesis](/en_US/core/4.1/overview) (v4.1)
 - On a [View](/en_US/core/4.1/view)
 - On a [Design](/en_US/core/4.1/design)
-- On a [Design 3D](/en_US/core/4.1/design3d)
+- On a [3D design](/en_US/core/4.1/design3d)
 
 ![Synthese](images/concept-synthese.jpg)
 
@@ -30,7 +30,7 @@ In order to organize your devices, you can create [Objects](/en_US/core/4.1/obje
 
 These objects can represent parts of the house (Living room, Bedroom, Workshop). Each object can have a parent object. This hierarchy will be used for display on the Dashboard. For example, you can have an object **House**, then objects **Living room** **Bedroom** object child **House**. Once on the Dashboard, the object **House** will also display, below, its child objects.
 
-![Objand](images/concept-objet.jpg)
+![Objet](images/concept-objet.jpg)
 
 > Tips
 >
@@ -40,7 +40,7 @@ These objects can represent parts of the house (Living room, Bedroom, Workshop).
 
 ## Equipment and their controls
 
-### Commands
+### Commandes
 
 To interact with our home automation, you need commands ! These are of two types :
 
@@ -63,7 +63,7 @@ Action commands are usually linked to info commands. Here our take has two actio
 
 These two types of commands are attached in the form of equipment. The equipment therefore has info and / or action commands, and it is this equipment that will have an Object as parent, allowing you to display it where you want.
 
-### Equipment
+### Équipement
 
 - Physiquement: I have a socket with an on / off button and a status led, in the living room.
 - In Jeedom: I have equipment with two on and off actions and a status info, in the Salon object.

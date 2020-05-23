@@ -20,7 +20,7 @@ Die PowerNode-Steckdosenleiste ist mit einem Überstromschutz ausgestattet, um a
 
 Diese Steckdosenleiste ist ideal für die Steuerung von Multimedia-Geräten in einem Fernsehschrank oder für die Steuerung von Computergeräten in einem Büro, um die Verwendung von 6 einzelnen Z-Wave-Buchsen zu vermeiden.
 
-## Funktionen
+## Fonctions
 
 -   6-Port Z-Wave Steckdosenleiste
 -   Ermöglicht die Überwachung des Verbrauchs angeschlossener Geräte
@@ -34,17 +34,17 @@ Diese Steckdosenleiste ist ideal für die Steuerung von Multimedia-Geräten in e
 
 -   Versorgung : 250 V AC, 50 Hz
 -   Maximaler Ladestrom : 10A
--   Maximale Lastleistung : )
+-   Maximale Lastleistung : 2400 W (bei 240 V)
 -   Standby-Verbrauch : 0,4 W.
 -   Messgenauigkeit : ± 0,1 W.
 -   Überstromschutz : 10A interne Sicherung
--   Steckertyp : )
+-   Steckertyp : DIN49440 / EWG 7/7 (Schuko)
 -   Z-Wave-Radiofrequenz : 868,42 MHz
 -   Maximale Reichweite Z-Wave : 30m
 -   Betriebstemperatur : 0 ° C bis + 25 ° C
 -   Lagertemperatur : -20 ° C bis + 60 ° C
 -   Maximale Luftfeuchtigkeit : 5% bis 90%
--   ) : IP20
+-   IP-Klasse (Feuchtigkeitstoleranz) : IP20
 
 ## Moduldaten
 
@@ -54,7 +54,7 @@ Diese Steckdosenleiste ist ideal für die Steuerung von Multimedia-Geräten in e
 -   Produkttyp : 3
 -   Produkt-ID : 4
 
-## Konfiguration
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -68,7 +68,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/greenwave.powernode/information.jpg)
 
-### Befehle
+### Commandes
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -117,7 +117,7 @@ Hier ist die Liste der Befehle :
 
 Beachten Sie, dass die Befehle ON / OFF / STATUS im Dashboard in einer einzigen Schaltfläche zusammengefasst sind.
 
-### Konfiguration du module
+### Konfiguration des Moduls
 
 Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie dazu auf die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom.
 
@@ -131,10 +131,10 @@ Wie Sie sehen, gibt es für dieses Modul nicht viel Konfiguration.
 
 Parameterdetails :
 
--   1 : Verzögerungen, bevor die Taste blinkt : )
--   2 : )
+-   1 : Verzögerungen, bevor die Taste blinkt : Mindestanzahl von Sekunden zwischen zwei Kommunikationen (wenn diese Zeit überschritten wird, blinkt die Socket-Taste)
+-   2 : Ausgewählte Radfarbe (automatisch erkannt)
 
-### Gruppen
+### Groupes
 
 Dieses Modul hat vier Assoziationsgruppen, nur die 1. Gruppe ist wichtig.
 
@@ -147,7 +147,7 @@ Dieses Modul hat vier Assoziationsgruppen, nur die 1. Gruppe ist wichtig.
 Im Gegensatz zu seiner kleinen Schwester "Une Prize" muss diese Steckdosenleiste abgefragt werden, um den Verbrauch zu steigern.
 ![Config2](images/greenwave.powernode/config2.jpg)
 
-Es ist nur erforderlich, es für den Power-Befehl jeder Buchse zu aktivieren. )
+Es ist nur erforderlich, es für den Power-Befehl jeder Buchse zu aktivieren. Dies führt zu einer Erhöhung der beiden Werte (Verbrauch und Leistung))
 
 ### Gesamtverbrauch
 
@@ -157,12 +157,12 @@ Sie können eine virtuelle verwenden, um einen kumulativen Verbrauch der 6 Socke
 
 ![consocumul2](images/greenwave.powernode/consocumul2.jpg)
 
-### Zurücksetzen
+### Reset
 
 ![Config3](images/greenwave.powernode/config3.jpg)
 
-Sie können Ihren Verbrauchszähler zurücksetzen, indem Sie auf diese Schaltfläche auf der Registerkarte System klicken. (). Wählen Sie PressButton.
+Sie können Ihren Verbrauchszähler zurücksetzen, indem Sie auf diese Schaltfläche auf der Registerkarte System klicken. (Es erfolgt ein Reset per Socket). Wählen Sie PressButton.
 
-## Aufwachen
+## Wakeup
 
 Keine Vorstellung von Aufwecken auf diesem Modul.

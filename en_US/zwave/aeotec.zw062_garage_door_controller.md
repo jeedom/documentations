@@ -178,7 +178,7 @@ Here is the list of commands :
 
 
 
-### Setup du module 
+### Configuration of the module 
 
 
 

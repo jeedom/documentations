@@ -126,7 +126,7 @@ Nichts könnte einfacher sein, ein Objekt zu erstellen :
 -   Klicken Sie auf die Schaltfläche Hinzufügen
 -   Jeedom wird dich nach dem Namen fragen. Validieren. Dies ist Ihr erstes erstelltes Objekt :
 
-![Objund](images/FirstStep_object.jpg)
+![Objet](images/FirstStep_object.jpg)
 
 Weitere Informationen zu diesem Teil finden Sie unter *Benutzerhandbuch -> Objekt*.
 
@@ -162,7 +162,7 @@ Sie finden dann :
 
 Weitere Informationen zu Plugins, *Benutzerhandbuch -> Plugin*.
 
-# Unterstützung
+# Support
 
 Jeedom befasst sich mit sehr weiten Feldern und entwickelt sich von Tag zu Tag weiter.
 Es gibt jedoch viele Möglichkeiten, Hilfe zu finden und Ihre Fragen zu stellen.

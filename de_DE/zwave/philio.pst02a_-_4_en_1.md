@@ -18,10 +18,10 @@ Der Detektor kann auch in Kombination mit einem Z-Wave-Controller für die Hausa
 
 Der Detektor erhöht auch die Helligkeit und die Temperatur, entweder im Falle einer signifikanten Änderung und jedes Mal, wenn eine Bewegung oder ein Öffnen / Schließen erkannt wird. Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits über ein vorhandenes Netzwerk verfügen.
 
-## Funktionen
+## Fonctions
 
 -   4 in 1 Detektor: Bewegung, Blende, Temperatur, Licht
--   )
+-   Verwendet den aktuellen Z-Wave 400series-Chip, um Mehrkanalbetrieb und höheren Datendurchsatz (9,6 / 40 / 100kbps) zu unterstützen)
 -   Verwendet das Z-Wave 6.02 SDK
 -   Optimierte Antennenreichweite
 -   Verwendung für Hausautomations- oder Sicherheitsanwendungen
@@ -59,7 +59,7 @@ Der Detektor erhöht auch die Helligkeit und die Temperatur, entweder im Falle e
 -   Produkttyp : 2
 -   Produkt-ID : 12
 
-## Konfiguration
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -73,7 +73,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/philio.pst02a/information.jpg)
 
-### Befehle
+### Commandes
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -88,7 +88,7 @@ Hier ist die Liste der Befehle :
 -   Sabotage : Dies ist der Sabotagebefehl (er wird im Falle eines Reißens ausgelöst)
 -   Batterie : Es ist der Batteriebefehl
 
-### Konfiguration du module
+### Konfiguration des Moduls
 
 > **Wichtig**
 >
@@ -109,11 +109,11 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklic
 Parameterdetails :
 
 -   2: Legt das an die Module in Zuordnungsgruppe 2 gesendete Signal fest
--   3: Stellt die Empfindlichkeit des Anwesenheitssensors ein (0 : deaktiviert 99: )
+-   3: Stellt die Empfindlichkeit des Anwesenheitssensors ein (0 : deaktiviert 99: maximale Empfindlichkeit)
 -   4: Stellt die Helligkeitsstufe ein, ab der das in Parameter 2 definierte Signal an die der Gruppe 2 zugeordneten Module gesendet wird
 -   5: Betriebsart (siehe Herstellerdokumentation) Empfohlener Wert : 8
 -   6: Multisensor-Betriebsmodus (siehe Herstellerdokumentation) Empfohlener Wert : 4
--   7: personalisierte Betriebsart des Multisensors (siehe Herstellerdokumentation) Empfohlener Wert : )
+-   7: personalisierte Betriebsart des Multisensors (siehe Herstellerdokumentation) Empfohlener Wert : 6 (um von der Anwesenheit zu AUS zurückzukehren)
 -   8: Ermöglicht die Definition der Dauer in Schritten von 8 Sekunden für die Bewegungserkennung
 -   9: Hiermit können Sie festlegen, nach welcher Zeit das AUS-Signal an die der Gruppe 2 zugeordneten Module gesendet werden soll
 -   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterieberichten definieren (eine Einheit = Parameter 20))
@@ -124,13 +124,13 @@ Parameterdetails :
 -   21: Temperaturänderungswert in ° F, um einen Bericht auszulösen
 -   22: Wert in% der Helligkeitsschwankung zum Auslösen eines Berichts Empfohlener Wert : 10
 
-### Gruppen
+### Groupes
 
 Dieses Modul hat zwei Zuordnungsgruppen, nur die erste ist wesentlich.
 
 ![Groupe](images/philio.pst02a/groupe.jpg)
 
-## Aufwachen
+## Wakeup
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 

@@ -84,7 +84,7 @@ Once, your associated equipment, you should get this :
 
 ![asso equip](images/etc4/asso_equip.jpg)
 
-### Commands
+### Commandes
 
 Once your equipment is created, you should get the commands associated with the module :
 
@@ -98,7 +98,7 @@ Here is the list of commands :
 -   bt04 : It is the command that allows you to interact with button 4
 -   Drums : Indicates the battery status
 
-### Information
+### Informations
 
 Once your equipment is associated with Jeedom, various information will be available :
 
@@ -109,7 +109,7 @@ Once your equipment is associated with Jeedom, various information will be avail
 -   Drums : Indicates the battery status for battery modules
 -   STATUS : Returns the status of the module
 
-### Use
+### Utilisation
 
 Once your remote control is configured, you can with the Jeedom Scenario plugin interact with your remote control on Jeedom.
 

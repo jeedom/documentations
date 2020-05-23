@@ -1,5 +1,5 @@
 
-# Otro
+# Autre
 
 
 >**Importante**

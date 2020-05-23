@@ -43,7 +43,7 @@ case $TTS_ENGINE in
 esac
 ````
 
-# Uso
+# Utilisation
 
 Solo necesita llamar a la url que proporciona el número de engranaje (aquí 3) :
 

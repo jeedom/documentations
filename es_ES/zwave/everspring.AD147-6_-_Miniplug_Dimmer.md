@@ -1,4 +1,4 @@
-# Everspring Dimmer Miniplug - AD147-6
+# Everspring Miniplug Dimmer - AD147-6
 
  **El módulo**
 
@@ -14,7 +14,7 @@ El Mini Dimmer Plug está diseñado para controlar el encendido y apagado de luc
 
 El Mini Dimmer Plug es un dispositivo compatible con Z-Wave ™ diseñado para funcionar con todas las redes compatibles con Z-Wave ™. Puede ser controlado por un control remoto, software de PC o cualquier controlador Z-Wave en su red.
 
-## Funciones
+## Fonctions
 
 -   Controla una lámpara de forma remota
 -   Módulo de enchufe que se integra directamente entre una toma de corriente y la carga a controlar
@@ -44,7 +44,7 @@ El Mini Dimmer Plug es un dispositivo compatible con Z-Wave ™ diseñado para f
 -   Tipo de producto : 3
 -   ID del producto : 3
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -58,7 +58,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/everspring.AD147-6/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -73,7 +73,7 @@ Aquí está la lista de comandos :
 
 Tenga en cuenta que en el tablero, el estado, ON / OFF, información de intensidad se encuentra en el mismo icono.
 
-### Configuración du module
+### Configuracion del modulo
 
 Puede configurar el módulo de acuerdo con su instalación. Para hacer esto, vaya al botón "Configuración" del complemento OpenZwave de Jeedom.
 
@@ -90,7 +90,7 @@ Detalles del parámetro :
 -   3 : Este parámetro se usa para definir si el socket reanudará su estado (ON u OFF) después de una recuperación de energía.
 -   4 : Este parámetro le permite definir si la salida funcionará en modo de atenuación o en modo encendido / apagado
 
-### Grupos
+### Groupes
 
 Este módulo tiene 2 grupos de asociación.
 ![Groupe](images/everspring.AD147-6/groupe.jpg)
@@ -105,6 +105,6 @@ Este módulo tiene 2 grupos de asociación.
 
 -   La retroalimentación de estado no se puede configurar en 3 segundos.
 
-## Despertador
+## Wakeup
 
 No hay noción de activación en este módulo.

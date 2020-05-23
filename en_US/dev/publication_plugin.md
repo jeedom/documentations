@@ -6,7 +6,7 @@
 - Waiting for validation of the market account as a developer
 - Have your plugin on github (private deposit or not)
 
-## Setup
+## Configuration
 
 Once connected with your dev account on the market you must : 
 

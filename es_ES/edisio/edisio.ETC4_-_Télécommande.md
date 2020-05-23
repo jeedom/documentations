@@ -84,7 +84,7 @@ Una vez, su equipo asociado, debería obtener esto :
 
 ![asso equip](images/etc4/asso_equip.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se crea su equipo, debe obtener los comandos asociados con el módulo :
 
@@ -98,7 +98,7 @@ Aquí está la lista de comandos :
 -   bt04 : Es el comando que te permite interactuar con el botón 4
 -   Batería : Indica el estado de la batería
 
-### Información
+### Informations
 
 Una vez que su equipo esté asociado con Jeedom, habrá diversa información disponible :
 
@@ -109,7 +109,7 @@ Una vez que su equipo esté asociado con Jeedom, habrá diversa información dis
 -   Batería : Indica el estado de la batería para los módulos de batería
 -   Estado : Devuelve el estado del módulo
 
-### Uso
+### Utilisation
 
 Una vez que su control remoto está configurado, puede interactuar con el control remoto Jeedom Scenario con su control remoto en Jeedom.
 

@@ -1,4 +1,4 @@
-# D-Link DCH-Z110 - "3 en 1 Ouverture"
+# D-Link DCH-Z110 - "3 in 1 Opening"
 
 **The module**
 
@@ -16,7 +16,7 @@ Opening the door or window will move the magnet away from the detector, which wi
 
 The detector will also raise the brightness and the temperature, i.e. in the event of a significant change, and each time the opening / closing is detected. A Z-Wave controller (remote control, dongle…?) Is necessary in order to integrate this detector into your network if you already have an existing network.
 
-## Functions
+## Fonctions
 
 -   3 in 1 detector: Aperture, temperature, light
 -   Optimized antenna range
@@ -44,7 +44,7 @@ Other link [technical](http://www.kafkas.gr/uploads/Pdf/182732/DCH-Z120_18301038
 -   Product Type : 2 \ [0x0002 \]
 -   Product ID : 14 \ [0x000e \]
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -58,7 +58,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/dlink.dchz110/apres_inclusion.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -72,7 +72,7 @@ Here is the list of commands :
 -   Sabotage : this is the sabotage command (it is triggered in the event of tearing)
 -   Drums : it's the battery command
 
-### Setup du module
+### Configuration of the module
 
 > **IMPORTANT**
 >
@@ -104,7 +104,7 @@ Parameter details :
 -   21: temperature variation value in ° F to trigger a report
 -   22: value in% of brightness variation to trigger a report. Recommended value : 10
 
-### Groups
+### Groupes
 
 This module has two association groups, only the first is essential.
 

@@ -148,7 +148,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/fibaro.fgd212/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que el módulo ha sido reconocido, los comandos asociados con los módulos serán
 disponibles.
@@ -176,7 +176,7 @@ Aquí está la lista de comandos :
 Tenga en cuenta que en el tablero de instrumentos toda la información se encuentra en el mismo
 icone
 
-### Configuración du module
+### Configuracion del modulo
 
 Puede configurar el módulo de acuerdo con su
 instalación Esto requiere pasar por el botón "Configuración" del
@@ -201,7 +201,7 @@ Detalles del parámetro :
 
 Ser redactado
 
-### Grupos
+### Groupes
 
 Este módulo tiene cinco grupos de asociación, solo el primero es
 indispensable.

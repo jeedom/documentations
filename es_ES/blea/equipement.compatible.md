@@ -32,7 +32,7 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/blpnr.jpg" width="60" />|Jardibric|BLP NR|Plante|||
 
-# Por defecto
+# Default
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -56,7 +56,7 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/dotti.jpg" width="60" />|Dotti|Dotti|Afficheur|Funcionará mucho mejor con la opción de mantener la conexión||
 
-# DreamScreen
+# Dreamscreen
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -123,7 +123,7 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/lywsd02.jpg" width="60" />|Xiaomi|Temperatura Humedad|Capteurs|Sensores de temperatura y humedad con pantalla (Lywsd02)||
 
-# MeyerDom
+# Meyerdom
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -131,7 +131,7 @@
 |<img src="../../es_ES/blea/images/meyerdom4contacts.jpg" width="60" />|MeyerDom|4 contactores|Contacteurs|4 contactores||
 |<img src="../../es_ES/blea/images/meyerdomcontactvocal.jpg" width="60" />|MeyerDom|Contacto de voz|Contacteurs|Contactor de voz||
 
-# MeyerDom4contacts
+# Meyerdom4contacts
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -154,7 +154,7 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/miflora.jpg" width="60" />|Xiaomi|Miflora|Capteurs|Sensores de planta||
 
-# MiScale
+# Miscale
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -190,14 +190,14 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/noke.jpg" width="60" />|Noke|Noke|Cadenas|Visible solo al presionar el botón (puede operar a través de un marco para recuperar la clave) pero no se hará porque es ilegal||
 
-# Nuez
+# Nut
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/nut.jpg" width="60" />|Nut|Nut|Presencia|Solo por presencia||
 |<img src="../../es_ES/blea/images/nut.jpg" width="60" />|Nut|Tuerca Mini Azul|Presencia|||
 
-# Loro
+# Parrotpot
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -239,7 +239,7 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/ticatag.jpg" width="60" />|Tibe|Ticatag|Boutons|El lanzamiento se envía incluso después de presionar una vez o presionar dos veces||
 
-# Azulejo
+# Tile
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|

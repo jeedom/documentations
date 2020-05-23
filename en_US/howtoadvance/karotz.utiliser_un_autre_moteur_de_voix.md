@@ -43,7 +43,7 @@ case $TTS_ENGINE in
 esac
 ````
 
-# Use
+# Utilisation
 
 You just need to call the url giving the gear number (here 3) :
 

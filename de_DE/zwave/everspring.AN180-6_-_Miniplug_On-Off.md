@@ -1,4 +1,4 @@
-# Everspring Ministecker ein / aus - AN180-6
+# Everspring Miniplug Ein / Aus - AN180-6
 
 **Das Modul**
 
@@ -14,7 +14,7 @@ Der Mini-Ein / Aus-Stecker dient zum Steuern des Ein- und Ausschaltens von Licht
 
 Der Mini-Ein / Aus-Stecker ist ein Z-Wave ™ -kompatibles Gerät, das für alle Z-Wave ™ -kompatiblen Netzwerke geeignet ist. Es kann von einer Fernbedienung, einer PC-Software oder einem beliebigen Z-Wave-Controller in Ihrem Netzwerk gesteuert werden.
 
-## Funktionen
+## Fonctions
 
 -   Steuern Sie eine Lampe oder ein Gerät fern
 -   Steckermodul, das direkt zwischen einer Steckdose und der zu steuernden Last integriert ist
@@ -44,7 +44,7 @@ Der Mini-Ein / Aus-Stecker ist ein Z-Wave ™ -kompatibles Gerät, das für alle
 -   Produkttyp : 4
 -   Produkt-ID : 7
 
-## Konfiguration
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -58,7 +58,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/everspring.AN180-6/information.jpg)
 
-### Befehle
+### Commandes
 
 Sobald das Modul erkannt wurde, sind die den Modulen zugeordneten Befehle verfügbar.
 
@@ -72,7 +72,7 @@ Hier ist die Liste der Befehle :
 
 Beachten Sie, dass sich im Dashboard die Informationen zu Status, EIN / AUS auf demselben Symbol befinden.
 
-### Konfiguration du module
+### Konfiguration des Moduls
 
 Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie dazu auf die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom.
 
@@ -88,7 +88,7 @@ Parameterdetails :
 -   2 : Dieser Parameter definiert die Verzögerung für das Senden der Statusänderung an Gruppe 1 (Wert zwischen 3 und 25 Sekunden)
 -   3 : Mit diesem Parameter wird festgelegt, ob die Steckdose nach einer Wiederherstellung der Stromversorgung ihren Status (EIN oder AUS) wieder einnimmt.
 
-### Gruppen
+### Groupes
 
 Dieses Modul hat 2 Zuordnungsgruppen.
 
@@ -104,6 +104,6 @@ Dieses Modul hat 2 Zuordnungsgruppen.
 
 -   Die Statusrückmeldung kann nicht innerhalb von 3 Sekunden konfiguriert werden.
 
-## Aufwachen
+## Wakeup
 
 Keine Vorstellung von Aufwecken auf diesem Modul.

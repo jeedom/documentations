@@ -12,7 +12,7 @@
 
 Dieser Mini-Aeon Labs-Controller ist mit einer Vielzahl von Z-Wave-Modulen wie Schaltern, Dimmern, Bewegungsmeldern, Schaltern für Jalousien kompatibel. So können Sie Ihre Lichter, Geräte oder Rollläden fernsteuern. Mit dieser Fernbedienung können Sie auch Module in Ihr Z-Wave-Netzwerk einschließen / ausschließen und Szenen mit den Tasten auf der Fernbedienung verknüpfen. Eine verschiebbare Klappe verbirgt die Tasten, mit denen das Z-Wave-Netzwerk konfiguriert wird.
 
-## Funktionen
+## Fonctions
 
 -   Z-Wave-Netzwerkkonfiguration (Einschluss / Ausschluss von Modulen)
 -   Ermöglicht die Steuerung von bis zu 4 Szenen
@@ -41,7 +41,7 @@ Dieser Mini-Aeon Labs-Controller ist mit einer Vielzahl von Z-Wave-Modulen wie S
 -   Produkttyp : 1
 -   Produkt-ID : 3
 
-## Konfiguration
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -55,7 +55,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/aeotec.minimote/information.jpg)
 
-### Befehle
+### Commandes
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -73,7 +73,7 @@ Hier ist die Liste der Befehle :
   - 7 : Taste 4 kurz drücken
   - 8 : Taste 4 lange drücken
 
-### Konfiguration du module
+### Konfiguration des Moduls
 
 > **Wichtig**
 >
@@ -95,13 +95,13 @@ Parameterdetails :
 -   244: Betriebsart Taste 4 (standardmäßig verlassen)
 -   250: Betriebsart der Fernbedienung (verlassen Sie Scene unbedingt, um sie als Fernbedienung zu verwenden)
 
-### Gruppen
+### Groupes
 
 Dieses Modul verfügt über vier Zuordnungsgruppen. Für die Verwendung als Fernbedienung in Jeedom ist keine erforderlich.
 
 ![Groupe](images/aeotec.minimote/groupe.jpg)
 
-## Aufwachen
+## Wakeup
 
  
 

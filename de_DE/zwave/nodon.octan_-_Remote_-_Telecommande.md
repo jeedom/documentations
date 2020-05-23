@@ -1,4 +1,4 @@
-# Nicken Télécommande - Octan
+# Nodon Fernbedienung - Octan
 
 **Das Modul**
 
@@ -10,11 +10,11 @@
 
 ## Zusammenfassung
 
-)
+Mit der Octan-Fernbedienung NodOn® können Sie jeden Z-Wave®- oder Z-Wave Plus®-kompatiblen Empfänger wie die NodOn®-Fernbedienungsbuchse (Hauptsteuerungsmodus - Standalone) steuern oder sogar Szenen / Aktionen über ein Hausautomationssystem auslösen kompatibel (Gateway-Modus)
 
 Dank seines integrierten Magneten kann er über seine Wandhalterung überall vom Kühler bis zur Kühlschranktür befestigt werden. Zwischen Fernbedienung und Schalter revolutioniert die Octan-Fernbedienung die Steuerung von Haushaltsgegenständen
 
-## Funktionen
+## Fonctions
 
 -   Steuerung allein oder mit einem Hausautomationssystem
 -   Integrierter Magnet
@@ -26,7 +26,7 @@ Dank seines integrierten Magneten kann er über seine Wandhalterung überall vom
 
 -   Versorgung : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
 -   4 Tasten
--   )
+-   Wandhalterung mit doppelseitigem Kleber (im Lieferumfang enthalten) oder Schrauben (nicht im Lieferumfang enthalten))
 -   Integrierter Magnet zur Befestigung an der Metalloberfläche
 -   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 2000m
 -   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave Plus® SDK 06.51 kompatibel.01 Geltungsbereich: 40 m innen / 80 m außen
@@ -41,7 +41,7 @@ Dank seines integrierten Magneten kann er über seine Wandhalterung überall vom
 -   Produkttyp : 2
 -   Produkt-ID : 1
 
-## Konfiguration
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -55,7 +55,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/nodon.octan/information.jpg)
 
-### Befehle
+### Commandes
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -77,7 +77,7 @@ Hier ist die Liste der Befehle :
 | **4**          | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
-### Konfiguration du module
+### Konfiguration des Moduls
 
 > **Wichtig**
 >
@@ -93,12 +93,12 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklic
 
 Parameterdetails :
 
--   1-2 : )
--   3 : )
--   4-7 : )
+-   1-2 : Ermöglicht die Auswahl der Schaltflächenprofile bei zentraler Verwendung (für die Verwendung in Jeedom unbrauchbar))
+-   3 : Wichtiger Parameter, um anzugeben, ob der Schalter im Szenen- oder zentralen Szenenmodus arbeiten soll (Szene absolut einstellen)
+-   4-7 : Wählen Sie die Tastenbetriebsart (bei Gruppenzuordnungen)
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen
 
-### Gruppen
+### Groupes
 
 Dieses Modul hat 7 Zuordnungsgruppen.
 
@@ -120,7 +120,7 @@ Dieses Modul hat 7 Zuordnungsgruppen.
 
 -   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht, es 1 oder 2 Mal nach der Aufnahme aufzuwecken, und überprüfen Sie die Assoziationsgruppe sorgfältig.
 
-## Aufwachen
+## Wakeup
 
 Um dieses Modul zu aktivieren, drücken Sie einfach eine der Tasten
 

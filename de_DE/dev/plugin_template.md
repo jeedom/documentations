@@ -177,7 +177,7 @@ if (!isConnect()) {
 
 # Plugin-Erstellung Teil 3 : Desktop-Ordner
 
-## Php
+## PHP
 
 Dieser Ordner enthält die Ansicht selbst. Im Inneren müssen Sie die Plugin-Konfigurationsseite finden (die angezeigt wird, wenn der Benutzer das Plugin ⇒ Kategorie ⇒ Ihr Plugin erstellt). Es ist ratsam, es mit der ID Ihres Plugins zu benennen. Es kann auch das Panel enthalten (Seite, die der Benutzer unter Startseite → Name Ihres Plugins findet).
 
@@ -224,7 +224,7 @@ Letzter wichtiger Punkt auf der Konfigurationsseite: Dies kann so viele Geräte 
 
 Alle Elemente mit der Klasse eqLogicAttr müssen sich in einem Element mit der Klasse css eqLogic Ditto für die Elemente der Klasse css cmdAttr befinden, die sich in einem Element der Klasse cmd befinden müssen. Alle Befehle eines Geräts müssen sich in dem Element mit der entsprechenden eqLogic-Klasse befinden
 
-## Js
+## JS
 
 Alle JS-Dateien müssen sich im JS-Ordner befinden (einfach !!!). Es ist ratsam, es mit der gleichen ID wie Ihr Plugin zu benennen (im Konfigurationsteil für das Panel, das Sie tun, was Sie wollen). Diese JS-Datei (die der Plugin-Konfiguration) muss mindestens eine addCmdToTable-Methode enthalten, die das hinzuzufügende Befehlsobjekt als Parameter verwendet. Hier ist ein einfaches Beispiel :
 
@@ -340,7 +340,7 @@ Dieser Ordner enthält Ihre CSS-Dateien (er sollte nicht zu häufig verwendet we
 
 Das erste Argument gibt den Ordner an, in dem es gefunden werden soll (Aufmerksamkeit ist der übergeordnete Ordner des CSS-Ordners), das zweite den Namen Ihrer CSS-Datei, das dritte sagt Jeedom, dass es sich um eine CSS-Datei handelt und das letzte, in dem sich das Plugin befindet es stellt sich heraus, dass.
 
-## Modal
+## MODAL
 
 Im modalen Ordner können Sie Ihre PHP-Dateien speichern, die für die Anzeige von Modalen vorgesehen sind. So rufen Sie sie von Ihrer Hauptseite aus auf (dieser Code befindet sich in einer Javascript-Datei) :
 
@@ -382,11 +382,11 @@ Der mit Abstand wichtigste Ordner Ihres Plugins kann 4 Unterordner enthalten.
 
 Notiz : In diesem Teil wird auf die ID Ihres Plugins verwiesen : plugin\_id
 
-## Php
+## PHP
 
 Enthält die Anhang-PHP-Dateien, die ich zum Beispiel verwendet habe, um eine Einschlussdatei zu erstellen, wenn Sie natürlich mehrere Klassendateien oder 3rparty zum Einschließen haben
 
-## Schablone
+## Template
 
 Jeedom kann 2 Unterordner enthalten, Dashboard und Mobile. Es ist ein Ordner, den Jeedom automatisch nach einem Widget durchsucht. Wenn Sie also bestimmte Widgets verwenden, müssen Sie hier deren HTML-Datei ablegen
 
@@ -394,7 +394,7 @@ Jeedom kann 2 Unterordner enthalten, Dashboard und Mobile. Es ist ein Ordner, de
 
 Hier sollte Ihre Übersetzung in Form einer JSON-Datei vorliegen (am besten und schauen Sie sich zum Beispiel das Plugin an [Zwave](https://github.com/jeedom/plugin-zwave) um die Form der Datei zu sehen)
 
-## Ajax
+## ajax
 
 Dieser Ordner ist für alle Ihre Ajax-Dateien bestimmt. Hier ist ein Skelett der Ajax-Datei :
 
@@ -438,7 +438,7 @@ try {
 ?>
 ````
 
-## Klasse
+## class
 
 Sehr wichtige Datei, es ist die Engine Ihres Plugins. Hierher kommen die 2 Pflichtklassen Ihres Plugins :
 

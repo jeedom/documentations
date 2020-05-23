@@ -37,7 +37,7 @@ Un total de 125 € para una caja de automatización del hogar de código abiert
 >
 > Servicio pack ? Quézako ? Podéis ver [aquí](https://blog.jeedom.fr/?p=1215) las ventajas de los service packs.
 
-# Instalación
+# Installation
 
 Quiero instalar Jeedom :
 

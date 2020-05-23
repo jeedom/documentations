@@ -20,7 +20,7 @@ Jedes Z-Wave-Modul funktioniert wie ein drahtloser Repeater mit den anderen Modu
 
 Notiz : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
 
-## Funktionen
+## Fonctions
 
 -   Steuern Sie Ihre Jalousien oder Rollläden fern
 -   Kompatibel mit BSO und Jalousie mit Lamellenpositionierung
@@ -46,7 +46,7 @@ Notiz : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
 -   Dimensions: 17 x 42 x 37 mm
 -   Betriebstemperatur : 0-40 ° C
 -   Temperatur begrenzen : 105°C
--   Standards : )
+-   Standards : LVD (2006/95 / EG), EMV (2004 / 10B / EG), R & TTE (1999/5 / EG))
 
 ## Moduldaten
 
@@ -56,7 +56,7 @@ Notiz : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
 -   Produkttyp : 770
 -   Produkt-ID : 4096
 
-## Konfiguration
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -70,7 +70,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/fibaro.fgrm222/information.jpg)
 
-### Befehle
+### Commandes
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -88,12 +88,12 @@ Hier ist die Liste der Befehle :
 -   Macht : Befehl, der den Verbrauch des Moduls zulässt
 -   Verbrauch : Befehl, mit dem die vom Modul verbrauchte Momentanleistung ermittelt werden kann
 -   STOP : Steuerung, um die Bewegung des Verschlusses zu stoppen
--   STOP BSO : )
--   Kippen : )
--   Ablehnen : )
+-   STOP BSO : Steuerung zum Stoppen der Bewegung (im einstellbaren Lamellenmodus)
+-   Kippen : Ermöglicht das Neigen der Lamellen (einstellbarer Lamellenmodus)
+-   Ablehnen : Dient zum Ablehnen der Lamellen (einstellbarer Lamellenmodus)
 -   Nicht : Wird verwendet, um den Schritt zum Drücken von Ablehnen oder Neigen zu definieren
 
-### Konfiguration du module
+### Konfiguration des Moduls
 
 Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, müssen Sie die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom aufrufen.
 
@@ -111,11 +111,11 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 
 Parameterdetails :
 
--   1: )
+-   1: Ermöglicht das Blockieren des Moduls (zum Einfrieren eines Verschlusses) (beim Drücken eines Schalters)
 -   2: Das Gleiche gilt für zwave-Befehle
--   3: )
--   10: )
--   12: )
+-   3: Art der Berichte (klassisch oder fibar)
+-   10: Betriebsart (Jalousie, Verschluss usw.))
+-   12: Dauer einer vollen Runde (im Jalousiemodus)
 -   13: Hier können Sie auswählen, wann die Lamellen in ihre vorherige Position zurückkehren sollen
 -   14: ermöglicht die Auswahl des Schaltertyps
 -   17: Hier können Sie auswählen, wie lange nach dem in 18 festgelegten Grenzwert der Verschluss stoppt
@@ -123,13 +123,13 @@ Parameterdetails :
 -   22: NA
 -   29: ermöglicht die Kalibrierung der Klappe
 -   30 bis 35: ermöglicht es, das Verhalten des Moduls vor den verschiedenen zwave-Alarmen zu definieren
--   40: )
+-   40: Leistungsdelta, um einen Informationsanstieg auszulösen (auch außerhalb des in 42 definierten Zeitraums)
 -   42: Info Feedback Zeitraum
--   43: )
+-   43: Energiedelta, um einen Informationsanstieg auszulösen (auch außerhalb des in 42 definierten Zeitraums)
 -   44: ermöglicht die Auswahl, ob der Verbrauch und die Leistung den des Moduls selbst umfassen müssen oder nicht
 -   50: Hier können Sie auswählen, ob das Modul die Informationen im Szenenmodus oder im Assoziationsmodus in Zuordnung an die Knoten senden soll
 
-### Gruppen
+### Groupes
 
 Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist wesentlich.
 
@@ -137,22 +137,22 @@ Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist wesentlich.
 
 ## Gut zu wissen
 
-### Zurücksetzen
+### Reset
 
 ![Config5](images/fibaro.fgrm222/config5.jpg)
 
 Sie können Ihren Verbrauchszähler zurücksetzen, indem Sie auf diese Schaltfläche auf der Registerkarte System klicken.
 
-### Wichtig
+### Important
 
 > **Wichtig**
 >
-> ").
+> Damit die Statusrückmeldung in Jeedom funktioniert, muss die Gerätekalibrierung erzwungen werden (Parameter 29 bis "Ja") und die Positionierung muss aktiv sein (Parameter 10 mit den Werten "Active Direct", "Active Venetian" "oder" Aktive Tür").
 
 ### Alternative visuelle
 
 ![vuewidget](images/fibaro.fgrm222/vuewidget.jpg)
 
-## Aufwachen
+## Wakeup
 
 Keine Vorstellung von Aufwecken auf diesem Modul.

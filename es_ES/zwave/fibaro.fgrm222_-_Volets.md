@@ -20,7 +20,7 @@ Cada módulo Z-Wave funciona como un repetidor inalámbrico con los otros módul
 
 Nota : Este módulo requiere neutral para operar.
 
-## Funciones
+## Fonctions
 
 -   Controle sus persianas o persianas de forma remota
 -   Compatible con BSO y persiana veneciana con posicionamiento de lamas
@@ -56,7 +56,7 @@ Nota : Este módulo requiere neutral para operar.
 -   Tipo de producto : 769
 -   ID del producto : 4097
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -70,7 +70,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/fibaro.fgrm222/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -93,7 +93,7 @@ Aquí está la lista de comandos :
 -   Declinar : Se usa para rechazar las lamas (modo de lamas ajustable)
 -   No : Se usa para definir el paso para presionar Rechazar o Inclinar
 
-### Configuración du module
+### Configuracion del modulo
 
 Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento OpenZwave de Jeedom.
 
@@ -129,7 +129,7 @@ Detalles del parámetro :
 -   44: permite elegir si el consumo y la potencia deben tener en cuenta o no el módulo en sí
 -   50: permite elegir si el módulo debe enviar la información a los nodos en asociación en modo escena o en modo asociación
 
-### Grupos
+### Groupes
 
 Este módulo tiene 3 grupos de asociación, solo el tercero es esencial.
 
@@ -137,19 +137,19 @@ Este módulo tiene 3 grupos de asociación, solo el tercero es esencial.
 
 ## Bueno saber
 
-### Restablecer
+### Reset
 
 ![Config5](images/fibaro.fgrm222/config5.jpg)
 
 Puede restablecer su medidor de consumo haciendo clic en este botón disponible en la pestaña Sistema.
 
-### Importante
+### Important
 
 > **Importante**
 >
 > Para que la retroalimentación de estado funcione en Jeedom, es necesario forzar la calibración del equipo (parámetro 29 a "Sí") y el posicionamiento debe estar activo (parámetro 10 con los valores "Active direct", "Active Venetian "o" Puerta activa").
 
 
-## Despertador
+## Wakeup
 
 No hay noción de activación en este módulo.

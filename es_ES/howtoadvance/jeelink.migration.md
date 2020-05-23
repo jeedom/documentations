@@ -1,4 +1,4 @@
-# Migración Jeelink
+# Migración de Jeelink
 
 Veremos aquí cómo migrar una instalación con Jeedom en modo esclavo a un Jeedom con el complemento "Jeedom Link". El modo esclavo Jeedom se abandona en la transición de Jeedom a la versión 3.0, es necesario proceder antes de la migración al nuevo modo operativo.
 
@@ -53,7 +53,7 @@ Dependiendo de los complementos instalados en su **Jeedom Slave**, es necesario 
 -   Hacer un [Jeedom backup](https://doc.jeedom.com/es_ES/core/doc-core-backup.html) de su **Jeedom Master** y tu (tu) **Jeedom Slave (s))** y recuperarlo (s) en su PC / NAS.
 -   Hacer un [Copia de seguridad de disco / SD](https://doc.jeedom.com/es_ES/howto/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd) de su **Jeedom Master** y tu (tu) **Jeedom Slave (s))** y recuperarlos en su PC / NAS.
 
-# Migración
+# Migration
 
 > **Nota**
 >

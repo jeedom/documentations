@@ -126,7 +126,7 @@ Nada podría ser más simple para crear un objeto :
 -   Haga clic en el botón Agregar
 -   Jeedom te preguntará el nombre. Validar. Este es tu primer objeto creado :
 
-![Objy](images/FirstStep_object.jpg)
+![Objet](images/FirstStep_object.jpg)
 
 Para obtener más información sobre esta parte, vea *Manual de usuario -> Objeto*.
 
@@ -162,7 +162,7 @@ Entonces encuentras :
 
 Para más información sobre complementos, *Manual de usuario -> Complemento*.
 
-# Apoyo
+# Support
 
 Jeedom aborda campos muy amplios y evoluciona día a día.
 Sin embargo, hay muchas maneras de encontrar ayuda y hacer sus preguntas.

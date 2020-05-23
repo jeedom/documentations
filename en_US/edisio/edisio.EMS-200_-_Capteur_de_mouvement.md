@@ -10,7 +10,7 @@ Placed in a corridor, the living room, the garage of your house for example, the
 
 Thanks to its wide viewing angle and its range, it makes it possible to secure a large perimeter. Integrated LED indicator signals any change of state.
 
-## Functions
+## Fonctions
 
 -   Detects movement, even in complete darkness
 -   Ultra compact
@@ -79,7 +79,7 @@ Once your equipment is paired, you should get this :
 >
 > So that the widget is present on the dashboard, remember to place your equipment in an object.
 
-### Commands
+### Commandes
 
 Once your equipment is created, you should get the commands associated with the module :
 
@@ -90,7 +90,7 @@ Here is the list of commands :
 -   Presence : It is the command which indicates if a presence is detected
 -   Drums : Indicates the battery status
 
-### Information
+### Informations
 
 Once your equipment is associated with Jeedom, various information will be available :
 

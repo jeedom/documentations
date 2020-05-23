@@ -12,7 +12,7 @@
 
 This mini Aeon Labs controller is compatible with a wide variety of Z-Wave modules such as switches, dimmers, motion detectors, switches for blinds ... So you can remotely control your lights, devices or shutters. With this remote control, you can also include / exclude modules from your Z-Wave network and associate scenes with the buttons on the remote control. A sliding flap conceals the buttons used to configure the Z-Wave network.
 
-## Functions
+## Fonctions
 
 -   Z-Wave network configuration (inclusion / exclusion of modules)
 -   Allows you to control up to 4 scenes
@@ -41,7 +41,7 @@ This mini Aeon Labs controller is compatible with a wide variety of Z-Wave modul
 -   Product Type : 1
 -   Product ID : 3
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -55,7 +55,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/aeotec.minimote/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -73,7 +73,7 @@ Here is the list of commands :
   - 7 : Button 4 short presses
   - 8 : Button 4 long presses
 
-### Setup du module
+### Configuration of the module
 
 > **IMPORTANT**
 >
@@ -95,7 +95,7 @@ Parameter details :
 -   244: button 4 operating mode (leave by default)
 -   250: remote control operating mode (absolutely leave Scene to use it as a remote control)
 
-### Groups
+### Groupes
 
 This module has four association groups, none is necessary to use it as a remote control in Jeedom.
 

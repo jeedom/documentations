@@ -42,7 +42,7 @@ Develop control of your smart home with a Danalock, the perfect initiator for al
 
 Danalock combines the elegance and minimalism of Scandinavian design - with a solid anodized aluminum bezel and advanced Bluetooth and Z-Wave technologies. A discreet Danish design built to last.
 
-## Functions
+## Fonctions
 
 -   Control your front door remotely
 -   Connected lock
@@ -75,7 +75,7 @@ Danalock combines the elegance and minimalism of Scandinavian design - with a so
 -   Product Type : 1
 -   Product ID : 1
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -107,7 +107,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/polycontrol.danalock/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -120,7 +120,7 @@ Here is the list of commands :
 -   To close : it is the command which makes it possible to close the lock
 -   Drums : it's the battery command
 
-### Setup du module
+### Configuration of the module
 
 > **Warning**
 >
@@ -149,7 +149,7 @@ Parameter details :
 -   11 : Async 0 = Async off, 1 = Async On. When async is activated the lock will be automatically calibrated if it is already unlocked and Unlock again (used for special door locks).
 -   12 : operation report
 
-### Groups
+### Groupes
 
 This module has only one association group.
 

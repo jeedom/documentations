@@ -18,10 +18,10 @@ Der Detektor erhöht auch die Helligkeit und die Temperatur, d. H. Im Falle eine
 
 Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits über ein vorhandenes Netzwerk verfügen.
 
-## Funktionen
+## Fonctions
 
 -   3 in 1 Detektor: Blende, Temperatur, Licht
--   )
+-   Verwendet den aktuellen Z-Wave 400series-Chip, um Mehrkanalbetrieb und höheren Datendurchsatz (9,6 / 40 / 100kbps) zu unterstützen)
 -   Verwendet das Z-Wave 6.02 SDK
 -   Optimierte Antennenreichweite
 -   Verwendung für Hausautomations- oder Sicherheitsanwendungen
@@ -35,7 +35,7 @@ Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Det
 
 -   Modultyp : Z-Wave Sender
 -   Versorgung : 1 CR123A 3V Batterie
--   Akkulaufzeit : )
+-   Akkulaufzeit : 3 Jahre (für 14 Fahrten pro Tag)
 -   Frequenz : 868.42 MHz
 -   Übertragungsentfernung : 30m drinnen
 -   Temperatursensor : -10 bis 70 ° C.
@@ -57,7 +57,7 @@ Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Det
 -   Produkttyp : 2
 -   Produkt-ID : 14
 
-## Konfiguration
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -71,7 +71,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/philio.pst02c/information.jpg)
 
-### Befehle
+### Commandes
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -84,7 +84,7 @@ Hier ist die Liste der Befehle :
 -   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
 -   Batterie : Es ist der Batteriebefehl
 
-### Konfiguration du module
+### Konfiguration des Moduls
 
 > **Wichtig**
 >
@@ -108,7 +108,7 @@ Parameterdetails :
 -   4: Stellt die Helligkeitsstufe ein, ab der das in Parameter 2 definierte Signal an die der Gruppe 2 zugeordneten Module gesendet wird
 -   5: Betriebsart (siehe Herstellerdokumentation) Empfohlener Wert : 8
 -   6: Multisensor-Betriebsmodus (siehe Herstellerdokumentation) Empfohlener Wert : 4
--   7: personalisierte Betriebsart des Multisensors (siehe Herstellerdokumentation) Empfohlener Wert : )
+-   7: personalisierte Betriebsart des Multisensors (siehe Herstellerdokumentation) Empfohlener Wert : 20 (um die funktionale Öffnung zu haben)
 -   9: Hiermit können Sie festlegen, nach welcher Zeit das AUS-Signal an die der Gruppe 2 zugeordneten Module gesendet werden soll
 -   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterieberichten definieren (eine Einheit = Parameter 20))
 -   11: wird verwendet, um die Dauer zwischen zwei automatischen Öffnungsberichten zu definieren (eine Einheit = Parameter 20)
@@ -118,13 +118,13 @@ Parameterdetails :
 -   21: Temperaturänderungswert in ° F, um einen Bericht auszulösen
 -   22: Wert in% der Helligkeitsschwankung zum Auslösen eines Berichts Empfohlener Wert : 10
 
-### Gruppen
+### Groupes
 
 Dieses Modul hat zwei Zuordnungsgruppen, nur die erste ist wesentlich.
 
 ![Groupe](images/philio.pst02c/groupe.jpg)
 
-## Aufwachen
+## Wakeup
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 

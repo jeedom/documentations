@@ -1,4 +1,4 @@
-# Développer sur Jeedom
+# Desarrollar en Jeedom
 
 > **Importante**
 >
@@ -6,7 +6,7 @@
 
 Aquí hay un breve tutorial para explicar cómo crear un complemento. Para el ejemplo crearemos un complemento que devuelve una oración del sitio viedemerde.es (El complemento será escalable).
 
-No reemplaza el [Documentación officielle](https://jeedom.github.io/plugin-template/es_ES/)
+No reemplaza el [documentación oficial](https://jeedom.github.io/plugin-template/es_ES/)
 
 # Crear la base del complemento
 

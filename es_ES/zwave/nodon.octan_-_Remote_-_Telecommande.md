@@ -1,4 +1,4 @@
-# Mediodía Télécommande - Octan
+# Mando a distancia Nodon - Octan
 
 **El módulo**
 
@@ -14,7 +14,7 @@ El Octan Remote NodOn® le permite controlar cualquier receptor compatible con Z
 
 Su imán integrado permite fijarlo en todas partes, desde el radiador hasta la puerta del refrigerador, a través de su soporte de pared. Entre el control remoto y el interruptor, el control remoto Octan revoluciona el control de los objetos domésticos
 
-## Funciones
+## Fonctions
 
 -   Control solo o con un sistema domótico
 -   Imán integrado
@@ -41,7 +41,7 @@ Su imán integrado permite fijarlo en todas partes, desde el radiador hasta la p
 -   Tipo de producto : 2
 -   ID del producto : 1
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -55,7 +55,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/nodon.octan/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -77,7 +77,7 @@ Aquí está la lista de comandos :
 | **4**          | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
-### Configuración du module
+### Configuracion del modulo
 
 > **Importante**
 >
@@ -98,7 +98,7 @@ Detalles del parámetro :
 -   4-7 : Elija el modo de funcionamiento del botón (en caso de asociaciones de grupo)
 -   8 : Le permite elegir el modo de funcionamiento del LED
 
-### Grupos
+### Groupes
 
 Este módulo tiene 7 grupos de asociación.
 
@@ -120,7 +120,7 @@ Este módulo tiene 7 grupos de asociación.
 
 -   Este módulo puede ser complicado en la inclusión. No dude en despertarlo 1 o 2 veces después de la inclusión, y verifique cuidadosamente el grupo de asociación.
 
-## Despertador
+## Wakeup
 
 Para activar este módulo, solo presione uno de los botones
 

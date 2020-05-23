@@ -4,19 +4,19 @@
 
 ### Go to "Plugins", "Plugins management", "RFX COM"
 
-![Picture07](images/volet.ematronic/image07.png)
+![image07](images/volet.ematronic/image07.png)
 
 ### In "Management of RFXcom protocols"
 
-![Picture04](images/volet.ematronic/image04.png)
+![image04](images/volet.ematronic/image04.png)
 
 check Protocol 8, BlindsT1, Save and exit.
 
-![Picture08](images/volet.ematronic/image08.png)
+![image08](images/volet.ematronic/image08.png)
 
 ### Activate, "Launch in debug mode"
 
-![Picture03](images/volet.ematronic/image03.png)
+![image03](images/volet.ematronic/image03.png)
 
 Wait for the window to open, then press the Open button on your Ematronic remote control.
 
@@ -41,31 +41,31 @@ Spot : Id1 and Id2 and add the following hexadecimal : in my example Id1 = 1F an
 
 ### Stop Debug Mode by the button "Stop / Restart the daemon"
 
-![Picture06](images/volet.ematronic/image06.png)
+![image06](images/volet.ematronic/image06.png)
 
 ## Creation of the remote control under JeeDom
 
 Go to Plugins, Home Protocol, RFXcom.
 
-![Picture10](images/volet.ematronic/image10.png)
+![image10](images/volet.ematronic/image10.png)
 
 Click on "Add" and enter a name for your virtual remote control.
 
-![Picture00](images/volet.ematronic/image00.png)
+![image00](images/volet.ematronic/image00.png)
 
 Choose the template from the list of equipment : "Ematronic shutter - Fault".
 
 Replace the automatic ID with the one you extracted previously and Check "Activate" and "Visible" :
 
-![Picture11](images/volet.ematronic/image11.png)
+![image11](images/volet.ematronic/image11.png)
 
 Click on "Save" to save your configuration and load the "Ematronic Pane - Default" template".
 
-![Picture02](images/volet.ematronic/image02.png)
+![image02](images/volet.ematronic/image02.png)
 
 Here is your remote control is ready, it should look like this :
 
-![Picture05](images/volet.ematronic/image05.png)
+![image05](images/volet.ematronic/image05.png)
 
 ## Associate your JeeDom virtual remote control with your Ematronic engine
 

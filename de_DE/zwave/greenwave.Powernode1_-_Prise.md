@@ -22,7 +22,7 @@ Die PowerNode-gesteuerte Buchse verfügt außerdem über eine Lichtstatusanzeige
 
 Das PowerNode-Steckermodul ist mit einem Überstromschutz ausgestattet, um das angeschlossene Gerät zu schützen. Der PowerNode-Stecker wird bei einem defekten Gerät oder einem Kurzschluss deaktiviert. Zusätzlichen Schutz bietet die interne Sicherung in der Steckdose.
 
-## Funktionen
+## Fonctions
 
 -   Steuern Sie eine Lampe oder ein Gerät fern
 -   Steckermodul, das direkt zwischen einer Steckdose und der zu steuernden Last integriert ist
@@ -37,17 +37,17 @@ Das PowerNode-Steckermodul ist mit einem Überstromschutz ausgestattet, um das a
 
 -   Versorgung : 250 V AC, 50 Hz
 -   Maximaler Ladestrom : 10A
--   Maximale Lastleistung : )
+-   Maximale Lastleistung : 2400 W (bei 240 V)
 -   Standby-Verbrauch : 0,4 W.
 -   Messgenauigkeit : ± 0,1 W.
 -   Überstromschutz : 10A interne Sicherung
--   Steckertyp : )
+-   Steckertyp : DIN49440 / EWG 7/7 (Schuko)
 -   Z-Wave-Radiofrequenz : 868,42 MHz
 -   Maximale Reichweite Z-Wave : 30m
 -   Betriebstemperatur : 0 ° C bis + 25 ° C
 -   Lagertemperatur : -20 ° C bis + 60 ° C
 -   Maximale Luftfeuchtigkeit : 5% bis 90%
--   ) : IP20
+-   IP-Klasse (Feuchtigkeitstoleranz) : IP20
 
 ## Moduldaten
 
@@ -57,7 +57,7 @@ Das PowerNode-Steckermodul ist mit einem Überstromschutz ausgestattet, um das a
 -   Produkttyp : 2
 -   Produkt-ID : 2
 
-## Konfiguration
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -71,7 +71,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/greenwave.Powernode1/information.jpg)
 
-### Befehle
+### Commandes
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -87,7 +87,7 @@ Hier ist die Liste der Befehle :
 
 Beachten Sie, dass die Befehle ON / OFF / STATUS im Dashboard in einer einzigen Schaltfläche zusammengefasst sind.
 
-### Konfiguration du module
+### Konfiguration des Moduls
 
 Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie dazu auf die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom.
 
@@ -101,10 +101,10 @@ Wie Sie sehen, gibt es für dieses Modul nicht viel Konfiguration.
 
 Parameterdetails :
 
--   1 : Verzögerung, bevor die Taste blinkt : )
--   2 : )
+-   1 : Verzögerung, bevor die Taste blinkt : Mindestanzahl von Sekunden zwischen zwei Kommunikationen (wenn diese Zeit überschritten wird, blinkt die Socket-Taste)
+-   2 : Ausgewählte Radfarbe (automatisch erkannt)
 
-### Gruppen
+### Groupes
 
 Dieses Modul hat vier Assoziationsgruppen, nur die 3. Gruppe ist wichtig.
 
@@ -114,7 +114,7 @@ Dieses Modul hat vier Assoziationsgruppen, nur die 3. Gruppe ist wichtig.
 
 Im Gegensatz zu der Mehrfachsteckdose der großen Schwester erfordert diese Steckdose keine Abfrage, um den Verbrauch zu erhöhen.
 
-### Zurücksetzen
+### Reset
 
 ![Config2](images/greenwave.Powernode1/config2.jpg)
 
@@ -122,6 +122,6 @@ Sie können Ihren Verbrauchszähler zurücksetzen, indem Sie auf diese Schaltfl�
 
 ### Besonderheiten
 
-## Aufwachen
+## Wakeup
 
 Keine Vorstellung von Aufwecken auf diesem Modul.

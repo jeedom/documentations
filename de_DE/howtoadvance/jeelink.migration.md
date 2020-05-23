@@ -1,4 +1,4 @@
-# Migration Jeelink
+# Jeelink-Migration
 
 Wir werden hier sehen, wie eine Installation mit Jeedom im Slave-Modus mit dem Plugin "Jeedom Link" auf ein Jeedom migriert wird". Der Jeedom-Slave-Modus wird beim Übergang von Jeedom zu Version 3 abgebrochen.0 ist es notwendig, vor der Migration in den neuen Betriebsmodus fortzufahren.
 

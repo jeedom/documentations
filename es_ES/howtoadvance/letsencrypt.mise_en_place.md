@@ -80,7 +80,7 @@ Y finalmente reinicie el servidor Nginx.
 
 ``service nginx restart``
 
-# Renovación
+# Renouvellement
 
 La renovación se realiza con el pedido :
 

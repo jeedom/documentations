@@ -12,11 +12,11 @@ Der beste Weg, leise zu sein, ist, beide zu verwenden : Erstellen Sie von Zeit z
 >
 > Das Verfahren zum Wiederherstellen der microSD-Karte kann nützlich sein, um ein Standard-Jeedom aus dem vom Team bereitgestellten Bild wiederherzustellen [hier](https://doc.jeedom.com/de_DE/installation/).
 
-# Schutz/Verpflegung de Jeedom
+# Jeedom Backup / Restore
 
 Die Dokumentation zur Seite Administration → Backups ist bereits vorhanden. Du wirst es finden [hier](https://doc.jeedom.com/de_DE/core/3.3/backup).
 
-# Schutz/Verpflegung de la carte microSD
+# Sichern / Wiederherstellen der microSD-Karte
 
 ## Vorbereitungen
 
@@ -36,14 +36,14 @@ Dann müssen Sie die microSD-Karte aus dem mini + nehmen und sie über einen Ada
 
 Sie müssen zunächst beispielsweise Software von Drittanbietern herunterladen : [Win32 Disk Imager](http://sourceforge.net/projects/win32diskimager/)
 
-### Schutz
+### Sauvegarde
 
 -   Starten Sie die Software und überprüfen Sie den folgenden Buchstaben *Gerät* entspricht der Ihrer Karte / Ihres Kartenlesers.
 -   Auf dem Feld *Bilddatei*, Geben Sie den Namen der Bilddatei an, die Sie erstellen möchten, und wo sie gespeichert werden soll.
 -   Klicken Sie abschließend auf die Schaltfläche *Lesen Sie*, um das Bild zu erstellen.
     image::images / save-restore09.jpg
 
-### Verpflegung
+### Restauration
 
 -   Starten Sie die Software und überprüfen Sie den folgenden Buchstaben *Gerät* entspricht der Ihrer Karte / Ihres Kartenlesers.
 -   Auf dem Feld *Bilddatei*, Suchen Sie die Bilddatei, die Sie wiederherstellen möchten.
@@ -57,16 +57,16 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen [ApplePi
 
 ![save restore11](images/save-restore11.jpg)
 
-### Schutz
+### Sauvegarde
 
 -   Mit ApplePi-Baker : Wählen Sie die richtige Karte aus der Liste *Pi-Kruste*, und klicken Sie auf *Backup erstellen* um eine Bilddatei Ihrer microSD-Karte zu erstellen.
 
 -   Im Shell-Befehl :
  -   Öffnen Sie ein Terminal und geben Sie den Befehl ein, um die der Karte entsprechende Festplatte zu finden : ``diskutil list``  
  ![save restore12](images/save-restore12.jpg)
- -   Beginnen Sie mit der Erstellung des Bildes, indem Sie den Befehl eingeben : ``sudo dd if=/dev/disk1 of=~/Desktop/Backup_Jeedom.img bs=1m`` *Bemerkung: In diesem Beispiel lautet der Name der Kartendiskette "/ dev / disk1". Geben Sie daher den Sicherungsbefehl "/ dev / disk1" ein*
+ -   Beginnen Sie mit der Erstellung des Bildes, indem Sie den Befehl eingeben : ``sudo dd if=/dev/disk1 of=~/Desktop/Backup_Jeedom.img bs=1m`` *Remarque: In diesem Beispiel lautet der Name der Kartendiskette "/ dev / disk1". Geben Sie daher den Sicherungsbefehl "/ dev / disk1" ein*
 
-### Verpflegung
+### Restauration
 
 -   Mit ApplePi-Baker : Wählen Sie die richtige Karte aus der Liste *Pi-Kruste*, Geben Sie den Pfad zur wiederherzustellenden Bilddatei in das Feld ein *IMG-Datei* des Abschnitts *Pi-Zutaten*, und klicken Sie auf *Backup wiederherstellen* um das Image auf der microSD-Karte wiederherzustellen.
 -   Im Shell-Befehl :
@@ -76,7 +76,7 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen [ApplePi
 
 ## Unter Linux
 
-### Schutz
+### Sauvegarde
 
 -   Öffnen Sie ein Terminal und geben Sie den Befehl ein, um die der Karte entsprechende Festplatte zu finden : ``sudo fdisk -l | grep Dis``
     ````
@@ -85,10 +85,10 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen [ApplePi
     Disk /dev/sdb: 16.0 GB, 16012804096 bytes
     Disk /dev/sdc: 8.0 GB, 8006402048 bytes
     ````
--   Beginnen Sie mit der Erstellung des Bildes, indem Sie den Befehl eingeben : ``sudo dd if=/dev/sdc of=Backup_Jeedom.img bs=1m`` *Bemerkung: In diesem Beispiel lautet der Name der Festplatte / dev / sdc.*
+-   Beginnen Sie mit der Erstellung des Bildes, indem Sie den Befehl eingeben : ``sudo dd if=/dev/sdc of=Backup_Jeedom.img bs=1m`` *Remarque: In diesem Beispiel lautet der Name der Festplatte / dev / sdc.*
 
-### Verpflegung
+### Restauration
 
 -   Öffnen Sie ein Terminal und geben Sie den Befehl ein, um die der Karte entsprechende Festplatte zu finden : ``sudo fdisk -l | grep Dis``
 -   Entfernen Sie die Partitionen von der Karte, indem Sie den Befehl eingeben (das X durch die Partitionsnummern ersetzen)) : ``sudo umount /dev/sdcX``
--   Stellen Sie das Bild auf der microSD-Karte wieder her, indem Sie den Befehl eingeben : ``sudo dd if=Backup_Jeedom.img of=/dev/sdc bs=1m`` *Bemerkung: In diesem Beispiel lautet der Name der Festplatte / dev / sdc.*
+-   Stellen Sie das Bild auf der microSD-Karte wieder her, indem Sie den Befehl eingeben : ``sudo dd if=Backup_Jeedom.img of=/dev/sdc bs=1m`` *Remarque: In diesem Beispiel lautet der Name der Festplatte / dev / sdc.*

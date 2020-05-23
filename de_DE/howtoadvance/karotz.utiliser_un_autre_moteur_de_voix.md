@@ -43,7 +43,7 @@ case $TTS_ENGINE in
 esac
 ````
 
-# Verwendung
+# Utilisation
 
 Sie müssen nur die URL mit der Zahnradnummer anrufen (hier 3) :
 

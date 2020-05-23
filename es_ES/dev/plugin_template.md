@@ -177,7 +177,7 @@ if (!isConnect()) {
 
 # Creación de complementos parte 3 : carpeta de escritorio
 
-## Php
+## PHP
 
 Esta carpeta contiene la vista misma. En el interior, debe encontrar la página de configuración del complemento (la que aparecerá cuando el usuario realice el complemento ⇒ categoría ⇒ su complemento). Es recomendable nombrarlo con la identificación de su complemento. También puede contener el panel (página que el usuario encontrará en la página de inicio → nombre de su complemento).
 
@@ -224,7 +224,7 @@ Para ver la lista de propiedades de equipos y comandos, está aquí (para ver la
 
 Todos los elementos que tienen la clase eqLogicAttr deben estar en un elemento que tenga la clase css eqLogic Ditto para los elementos de la clase css cmdAttr que deben estar en un elemento de la clase cmd. Todos los comandos de un equipo deben estar en el elemento que tenga la clase eqLogic correspondiente
 
-## Js
+## JS
 
 Todos los archivos JS deben estar en la carpeta JS (fácil !!!). Es aconsejable nombrarlo con la misma ID que su complemento (en la parte de configuración, para el panel que haga como desee). Este archivo JS (el de la configuración del complemento) debe contener al menos un método addCmdToTable que tome el objeto de comando para agregarlo como parámetro. Aquí hay un ejemplo simple :
 
@@ -330,7 +330,7 @@ Se pueden usar otras funciones de JavaScript :
 
 El primer argumento le da a la carpeta en la que encontrarlo (la atención es la carpeta principal de la carpeta JS), el segundo el nombre de su javascript, el tercero le dice a Jeedom que es un archivo JS y el último en el que se conecta se encuentra.
 
-## Css
+## CSS
 
 Esta carpeta contiene sus archivos CSS (no se debe usar demasiado), aquí le mostramos cómo incluirlos en su página :
 
@@ -340,7 +340,7 @@ Esta carpeta contiene sus archivos CSS (no se debe usar demasiado), aquí le mos
 
 El primer argumento le da a la carpeta en la que encontrarlo (la atención es la carpeta principal de la carpeta CSS), el segundo el nombre de su archivo CSS, el tercero le dice a Jeedom que es un archivo CSS y el último en el que el complemento se encuentra.
 
-## Modal
+## MODAL
 
 La carpeta modal le permite almacenar sus archivos php destinados a mostrar modales. Aquí se explica cómo llamarlos desde su página principal (este código está en un archivo javascript) :
 
@@ -382,11 +382,11 @@ Con mucho, la carpeta más importante de su complemento, puede incluir 4 subcarp
 
 Nota : a lo largo de esta parte, el ID de su complemento será referenciado por : plug-in\_id
 
-## Php
+## PHP
 
 Contiene los archivos PHP anexos, solía poner, por ejemplo, un archivo de inclusión si, por supuesto, tiene varios archivos de clase o 3rparty para incluir
 
-## Plantilla
+## Template
 
 Que puede contener 2 subcarpetas, tablero y dispositivo móvil, es una carpeta que Jeedom escanea automáticamente en busca de un widget, por lo que si está utilizando widgets específicos, aquí es donde debe colocar su archivo HTML
 
@@ -438,7 +438,7 @@ try {
 ?>
 ````
 
-## clase
+## class
 
 Archivo muy importante, es el motor de tu plugin. Aquí es de donde provienen las 2 clases obligatorias de su complemento :
 

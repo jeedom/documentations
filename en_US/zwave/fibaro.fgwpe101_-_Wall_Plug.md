@@ -12,7 +12,7 @@
 
 The Fibaro Wall Plug is a universal receiver-socket-transmitter in the form of an adapter to be plugged into a wall socket on the electrical network, compatible with the Z-Wave standard. It allows you to manage any device with a maximum power of 2.5kW, while integrating the functionality of measuring the active power of the current and the energy consumption of the devices. This module is equipped with a light ring with LEDs signaling its status and the energy consumption of any connected device. The Fibaro Wall Plug can be controlled by a button on its housing or from any controller compatible with the Z-Wave standard
 
-## Functions
+## Fonctions
 
 -   Controlled from a controller compatible with the Z-Wave standard.
 -   Microchip control.
@@ -40,7 +40,7 @@ The Fibaro Wall Plug is a universal receiver-socket-transmitter in the form of a
 -   Product Type : 1536
 -   Product ID : 4096
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -54,7 +54,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/fibaro.fgwpe101/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -70,7 +70,7 @@ Here is the list of commands :
 
 Note that on the dashboard ON / OFF / STATUS commands are grouped in a single button.
 
-### Setup du module
+### Configuration of the module
 
 Then if you want to configure the module according to your installation, you have to go through the "Configuration" button of Jeedom's OpenZwave plugin.
 
@@ -108,7 +108,7 @@ Parameter details :
 -   63: color when a Zwave alarm is detected
 -   70: safety power (the plug will cut when the power reaches this threshold)
 
-### Groups
+### Groupes
 
 This module has 3 association groups, only the third is essential.
 

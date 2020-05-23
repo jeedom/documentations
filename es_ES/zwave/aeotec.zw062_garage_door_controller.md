@@ -178,7 +178,7 @@ Aquí está la lista de comandos :
 
 
 
-### Configuración du module 
+### Configuracion del modulo 
 
 
 

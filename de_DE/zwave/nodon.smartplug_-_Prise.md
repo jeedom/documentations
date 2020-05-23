@@ -1,4 +1,4 @@
-# Nicken Prise Intelligente - Smartplug
+# Nodon Smart Plug - Smartplug
 
 **Das Modul**
 
@@ -12,7 +12,7 @@
 
 Die ferngesteuerte NodOn®-Buchse kann über ein Z-Wave®- oder Z-Wave Plus®-kompatibles Hausautomationssystem oder direkt über andere Z-Wave®- oder Z-Wave Plus®-Steuerungen wie die Soft Remote, den Wandschalter oder gesteuert werden der Octan Remote NodOn®. Deutscher Standard (Schuko) oder französischer Standard (Typ E), der Stecker kann in beide Richtungen angeschlossen werden, Kopf hoch oder Kopf runter. In Verbindung mit seinem feinen Design ermöglichen diese beiden Eigenschaften eine einfachere Integration, ohne benachbarte Fässer auf einer Steckdosenleiste zu verstopfen. Das Erlernen der Buchse mit ihrem Controller dauert nur wenige Sekunden. Über eine lokale Taste können Sie die Steckdose direkt ein- oder ausschalten.
 
-## Funktionen
+## Fonctions
 
 -   Netzstromverlusterkennung
 -   Ergonomique: Möglichkeit des Einsteckens der Kopf-oben / Kopf-unten-Buchse
@@ -39,7 +39,7 @@ Die ferngesteuerte NodOn®-Buchse kann über ein Z-Wave®- oder Z-Wave Plus®-ko
 -   Produkttyp : 1
 -   Produkt-ID : 1
 
-## Konfiguration
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -53,7 +53,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/nodon.smartplug/information.jpg)
 
-### Befehle
+### Commandes
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -61,14 +61,14 @@ Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügb
 
 Hier ist die Liste der Befehle :
 
--   Zustand : )
+-   Zustand : Es ist der Befehl, der es ermöglicht, den Status des Sockets zu kennen (Ein / Aus))
 -   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 -   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
--   Status : )
+-   Status : Wird verwendet, um herauszufinden, ob die Steckdose mit Strom versorgt wird oder nicht (Erkennung von Stromausfall / Unterbrechung))
 
 Beachten Sie, dass sich im Dashboard die Informationen zu Status, EIN / AUS auf demselben Symbol befinden.
 
-### Konfiguration du module
+### Konfiguration des Moduls
 
 Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie dazu auf die Schaltfläche "Konfiguration" des Zwave-Plugins von Jeedom.
 
@@ -83,12 +83,12 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklic
 Parameterdetails :
 
 -   1 : Dieser Parameter definiert den Zustand (EIN / AUS) des Smart Plug nach einem Stromausfall oder nach dem Anschließen
--   2 : ). ). Es wird empfohlen, diesen Parameter auf 1 zu setzen.
+-   2 : Dieser Parameter konfiguriert die Berichte über Stromausfall- / Rückkehrbenachrichtigungen sowie die zugehörigen Gruppen (Gruppen 4, 5, 6, 7, 8)). Es sind mehrere Kombinationen möglich (siehe Papierdokumentation oder Hilfeblase in jeedom). Es wird empfohlen, diesen Parameter auf 1 zu setzen.
 -   3 : Mit diesem Parameter können die Gruppen 2 und 3 aktiviert oder deaktiviert werden.
--   4 : Le paramètre force l'état de la Smart Plug à « ON » (Smart Plug activée). )
+-   4 : Le paramètre force l'état de la Smart Plug à « ON » (Smart Plug activée). Wenn der Parameter aktiviert ist, kann der Smart Plug (lokal oder Radio) nicht ausgeschaltet werden)
 -   Parameter 5 bis 20 : Durch Konfigurationsparameter \#5 à \#In 20 können bis zu 8 verschiedene Alarme konfiguriert werden. Um Ihre Alarme richtig zu konfigurieren, das Online-Formular: www.nodon.de / support / asp3 / alarm führt Sie
 
-### Gruppen
+### Groupes
 
 Dieses Modul hat 8 Zuordnungsgruppen.
 
@@ -97,7 +97,7 @@ Dieses Modul hat 8 Zuordnungsgruppen.
 -   Gruppe 1 - Rettungsleine : Diese Gruppe wird im Allgemeinen verwendet, um Informationen vom Smart Plug an den Hauptnetzwerkcontroller zu melden.
 -   Gruppe 2 - Smart Plug-Statusüberwachung Wenn der Smart Plug über die lokale Taste aktiviert (bzw. deaktiviert) wird, sendet er einen Aktivierungsbefehl (bzw. Deaktivierungsbefehl) an die zugehörigen Geräte. Es wird kein Befehl gesendet, wenn die Statusänderung des Smart Plug durch einen Funkbefehl verursacht wurde
 -   Gruppe 3 - Überwachung des Zusatzstatus Wenn der Smart Plug über die lokale Taste aktiviert (bzw. deaktiviert) wird, sendet er einen Deaktivierungsbefehl (bzw. Aktivierungsbefehl) an die zugehörigen Geräte. Es wird kein Befehl gesendet, wenn die Statusänderung des Smart Plug durch einen Funkbefehl verursacht wurde.
--   Gruppe 4 - Benachrichtigung über einen Stromausfall Wenn der Smart Plug einen Stromausfall oder eine Rückkehr der Stromversorgung feststellt, wird ein Benachrichtigungsbericht an die zugehörigen Geräte gesendet. Le rapport envoyé est un « Notiﬁcation Report : ).
+-   Gruppe 4 - Benachrichtigung über einen Stromausfall Wenn der Smart Plug einen Stromausfall oder eine Rückkehr der Stromversorgung feststellt, wird ein Benachrichtigungsbericht an die zugehörigen Geräte gesendet. Le rapport envoyé est un « Notiﬁcation Report : Energieverwaltung - Wechselstrom getrennt / wieder angeschlossen).
 -   Gruppe 5 - Aktivierung bei Stromausfall Wenn der Smart Plug einen Stromausfall erkennt, werden die zugehörigen Geräte aktiviert.
 -   Gruppe 6 - Deaktivierung bei Stromausfall Wenn der Smart Plug einen Stromausfall erkennt, werden die zugehörigen Geräte deaktiviert
 -   Gruppe 7 - Aktivierung bei Stromrückführung Wenn der Smart Plug eine Stromrückführung erkennt, werden die zugehörigen Geräte aktiviert.
@@ -113,6 +113,6 @@ Dieses Modul hat 8 Zuordnungsgruppen.
 
 -   Es ist sinnlos, Spaß beim Ein- und Ausstecken der Steckdose zu haben, um den Alarm zu beobachten. Dies funktioniert nur etwa dreimal. Darüber hinaus muss der Stecker noch eine Weile mit Strom versorgt werden, um den internen Akku aufzuladen.
 
-## Aufwachen
+## Wakeup
 
 Keine Vorstellung von Aufwecken auf diesem Modul.

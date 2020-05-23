@@ -18,7 +18,7 @@ El interruptor MH-S412-EU puede controlar cualquier tipo de carga, iluminación 
 
 El interruptor también está equipado con un indicador LED que indica su estado.
 
-## Funciones
+## Fonctions
 
 -   Controla dos lámparas o dispositivos de forma remota
 -   Se instala en lugar de un interruptor existente (cabe perfectamente en una caja empotrada de 40 mm))
@@ -49,7 +49,7 @@ El interruptor también está equipado con un indicador LED que indica su estado
 -   Tipo de producto : 16642
 -   ID del producto : 514
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -61,7 +61,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/mco.mhs412/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -79,7 +79,7 @@ Detalles del parámetro :
 
 -   1: Estado de ahorro antes de falla de energía : enable (permite encontrar el último estado de los interruptores justo antes del corte de energía) desechable (los interruptores estarán en estado OFF al regresar a la red eléctrica) )
 
-### Grupos
+### Groupes
 
 Este módulo tiene 3 grupos de asociación. Solo el tercero es esencial.
 
@@ -94,7 +94,7 @@ Este módulo tiene 3 grupos de asociación. Solo el tercero es esencial.
 - el tacto es bastante agradable y los controles receptivos
 - este interruptor puede controlar su carga en modo autónomo (no conectado a un controlador de onda z))
 
-## Despertador
+## Wakeup
 
 Este módulo está conectado a la red eléctrica (220v), el despertador es instantáneo y, por lo tanto, no requiere ninguna acción particular al cambiar los parámetros
 

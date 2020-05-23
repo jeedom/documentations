@@ -1,6 +1,6 @@
 # Monitoreo en la nube
 
-## Descripción
+## Description
 
 El monitoreo en la nube es un servicio pago de Jeedom SAS que monitorea permanentemente tus Jeedoms o tus Jeedoms y te advierte en caso de problemas.
 

@@ -1,10 +1,10 @@
 # So erstellen Sie die Dokumentation eines Plugins
 
-## Einführung
+## Introduction
 
 In dieser Dokumentation erfahren Sie, wie Sie die Dokumentation Ihres Plugins erstellen.
 
-## Prinzip
+## Principe
 
 Das Prinzip ist sehr einfach. Die Dokumentation des Plugins muss ein einfacher Weblink sein, der in Ihrer Info-Datei angegeben wird.json (siehe Details [hier](https://doc.jeedom.com/de_DE/dev/structure_info_json) ) im Dokumentationsfeld.
 
@@ -28,7 +28,7 @@ Github asciidoc und markierte (md) Unterstützung für Seiten, wir werden hier n
 
 Wir werden Ihnen nicht die vollständige Markdown-Syntax beschreiben, andere Websites tun dies bereits sehr gut [dieser hier](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-### Lage
+### Emplacement
 
 Wir empfehlen, in Ihrem Plugin (auf github gehostet) einen Ordner zu erstellen und die Dateien und das Verzeichnis aus dem Ordner docs in das Vorlagen-Plugin zu kopieren (siehe [hier](https://doc.jeedom.com/de_DE/dev/plugin_template) )
 

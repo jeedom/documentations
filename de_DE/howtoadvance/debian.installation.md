@@ -1,4 +1,4 @@
-# Installation de debian
+# Debian-Installation
 
 Wir werden hier sehen, wie ein Debian sowohl als VM als auch in direkter Installation auf einem physischen Computer installiert wird
 

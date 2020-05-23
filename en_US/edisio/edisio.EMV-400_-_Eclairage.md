@@ -1,4 +1,4 @@
-# Edision EMV 400 Eclairage
+# Edision EMV 400 Lighting
 
 **The module**
 
@@ -22,7 +22,7 @@ Finally, each module can be used in remote mode, it is very practical because it
 >
 > Neutral is only necessary for "Shutter" mode"
 
-## Functions
+## Fonctions
 
 -   2 relay outputs supplied
 -   Installs in a 55mm flush-mounted box or directly in the sash boxes
@@ -144,7 +144,7 @@ In the equipment list, on the right, select "Light micro-module" :
 
 ![infos equip eclairage](images/emv.400/infos_equip_eclairage.jpg)
 
-### Commands
+### Commandes
 
 Once your equipment is saved, you should get the commands associated with the module :
 
@@ -162,7 +162,7 @@ Here is the list of commands :
 >
 > Status feedback is simulated by Jeedom. Therefore, if you use another transmitter, Jeedom will not be able to update the receiver status.
 
-### Information
+### Informations
 
 Once your equipment is associated with Jeedom, various information will be available :
 

@@ -20,7 +20,7 @@ Se puede usar en modo de 2 hilos (sin neutro), reemplazando un interruptor exist
 
 Para lámparas de muy bajo consumo (lámpara LED, por ejemplo), puede usar la carga (bypass) FGB-001 que permite el funcionamiento correcto del módulo. Es necesario un controlador Z-Wave (control remoto, dongle, etc.) para integrar este detector en su red si ya tiene una red existente. Cada módulo Z-Wave funciona como un repetidor inalámbrico con los otros módulos, para garantizar la cobertura total de su hogar.
 
-## Funciones
+## Fonctions
 
 -   Control remoto de iluminación
 -   Se instala detrás de un interruptor existente
@@ -55,7 +55,7 @@ Para lámparas de muy bajo consumo (lámpara LED, por ejemplo), puede usar la ca
 -   Tipo de producto : 256
 -   ID del producto : 4106
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -73,7 +73,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/fibaro.fgd211/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -88,7 +88,7 @@ Aquí está la lista de comandos :
 
 Tenga en cuenta que en el tablero de instrumentos, toda la información se encuentra en el mismo icono
 
-### Configuración du module
+### Configuracion del modulo
 
 Puede configurar el módulo de acuerdo con su instalación. Para hacer esto, vaya al botón "Configuración" del complemento OpenZwave de Jeedom.
 
@@ -124,7 +124,7 @@ Detalles del parámetro :
 -   39: duración de la alarma definida en el parámetro 30
 -   41: permite activar o no la función de activación de escena
 
-### Grupos
+### Groupes
 
 Este módulo tiene tres grupos de asociación, solo el tercero es esencial.
 
@@ -144,7 +144,7 @@ Si desea excluir / incluir el módulo sin desmantelar su interruptor, puede pres
 
 ![vuewidget](images/fibaro.fgd211/vuewidget.jpg)
 
-## Despertador
+## Wakeup
 
 No hay noción de activación en este módulo.
 

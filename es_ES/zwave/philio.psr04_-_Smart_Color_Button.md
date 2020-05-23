@@ -1,4 +1,4 @@
-# Philio Smart Color Button
+# Botón de color inteligente Philio
 
 **El módulo**
 
@@ -20,7 +20,7 @@ Además, puede mover y colocar fácilmente este interruptor en la ubicación que
 
 Utiliza el último chip de la serie Z-Wave 500, que ofrece un aumento del 50% en el alcance de la radio y una velocidad de comunicación 250% más rápida en comparación con los productos Z-Wave anteriores, así como un menor consumo de energía. permitiendo una mayor autonomía.
 
-## Funciones
+## Fonctions
 
 -   Interruptor multifuncional
 -   Tecnología Z-Wave +
@@ -52,7 +52,7 @@ Utiliza el último chip de la serie Z-Wave 500, que ofrece un aumento del 50% en
 -   Tipo de producto : 9
 -   ID del producto : 34
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -66,7 +66,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/philio.psr04/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -77,7 +77,7 @@ Aquí está la lista de comandos :
 -   Estado : es el comando que elevará la posición del botón de 0 a 100%
 -   Batería : es el comando que informa el estado de la batería del módulo
 
-### Configuración du module
+### Configuracion del modulo
 
 > **Importante**
 >
@@ -99,7 +99,7 @@ Detalles del parámetro :
 -   25 : permite definir si el módulo envía su posición automáticamente después de la rotación (1s de retraso) o si es necesario presionar el botón para validar el envío
 -   26 : activa el envío de la escena o no al presionar el botón central (parámetro no tomado en cuenta en Jeedom)
 
-### Grupos
+### Groupes
 
 Este módulo tiene dos grupos de asociación, el primero es el único esencial. El segundo permite subir la posición a Jeedom
 
@@ -115,7 +115,7 @@ Para usar este módulo como control remoto, proceda de la siguiente manera :
 
 De hecho, este tipo de módulo no está hecho para interactuar directamente con una caja, sino directamente con otros módulos. Sin embargo, al agregar Jeedom al grupo 2, esto le permite recibir la posición del botón y, por lo tanto, usarlo para controlar un escenario (por ejemplo, ajustar un volumen)
 
-## Despertador
+## Wakeup
 
 Para activar este módulo, solo hay una forma :
 

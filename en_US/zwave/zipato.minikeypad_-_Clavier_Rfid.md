@@ -14,7 +14,7 @@ Control your security system with this mini Zipato wall keypad !
 
 With this Z-Wave compatible RFID keypad, you will be able to easily activate or deactivate your alarm system. The "Home" and "Away" keys allow you to arm / disarm the security system and / or execute home automation scenarios quickly. In addition to using the numeric keypad, you can also pass an RFID badge in front of the keyboard to arm / disarm the system. The keyboard transmits to your home automation controller the identifier of the badge that has been recognized. You can thus easily create scenarios according to the person who used his badge.
 
-## Functions
+## Fonctions
 
 -   Code and RFID keypad
 -   Supports Z-Wave technology
@@ -48,7 +48,7 @@ With this Z-Wave compatible RFID keypad, you will be able to easily activate or 
 -   Product Type : 24881
 -   Product ID : 17665
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -62,7 +62,7 @@ Once included you should get this :
 
 ![information](images/zipato.minikeypad/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -75,7 +75,7 @@ Here is the list of commands :
 -   CODED : displays the badge or keypad code when the code entered is not in one of the memories
 -   Drums : it's the battery command
 
-### Setup du module
+### Configuration of the module
 
 > **IMPORTANT**
 >
@@ -97,7 +97,7 @@ Parameter details :
 -   4: number of beeps per second (do not change has no effect)
 -   5: operating mode : normal or always awake mode (not recommended because very very battery consuming)
 
-### Groups
+### Groupes
 
 This module has two association groups.
 

@@ -2,7 +2,7 @@
 
 The purpose of this article is to guide you in using Android to speak to Jeedom. We will use the Jeedom interactions engine which makes it possible to formulate requests and that Jeedom responds to them (and also, if desired, activates different scenarios or elements).
 
-# Setup
+# Installation
 
 ## Prerequisites
 

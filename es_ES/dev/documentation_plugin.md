@@ -1,10 +1,10 @@
 # Cómo hacer la documentación de un complemento
 
-## Introduccion
+## Introduction
 
 Veremos en esta documentación cómo hacer la documentación de su complemento.
 
-## Principio
+## Principe
 
 El principio es muy simple, la documentación del complemento debe ser un simple enlace web para indicar en su archivo de información.json (ver detalles [aquí](https://doc.jeedom.com/es_ES/dev/structure_info_json) ) en el campo de la documentación.
 
@@ -28,7 +28,7 @@ Soporte de asciidoc y markedown (md) de Github para páginas, solo veremos el ma
 
 No le describiremos la sintaxis completa de rebajas, otros sitios ya lo hacen muy bien, [este](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-### Ubicación
+### Emplacement
 
 Recomendamos en su complemento (alojado en github) hacer una carpeta y copiar los archivos y el directorio de la carpeta de documentos en el complemento de plantilla (consulte [aquí](https://doc.jeedom.com/es_ES/dev/plugin_template) )
 

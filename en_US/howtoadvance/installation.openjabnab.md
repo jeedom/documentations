@@ -560,7 +560,7 @@ TEMPLATE = subdirs
 SUBDIRS = acapela google jeedom
 ````
 
-## Recompile
+## Recompilation
 
 ````
 cd /home/ojn/OpenJabNab/server

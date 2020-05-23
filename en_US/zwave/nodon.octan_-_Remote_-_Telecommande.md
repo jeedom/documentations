@@ -1,4 +1,4 @@
-# Nodon Télécommande - Octan
+# Nodon Remote Control - Octan
 
 **The module**
 
@@ -14,7 +14,7 @@ The Octan Remote NodOn® allows you to control any Z-Wave® or Z-Wave Plus® com
 
 Its integrated magnet allows it to be fixed everywhere, from the radiator to the refrigerator door, via its wall support. Between remote control and switch, the Octan Remote revolutionizes the control of household objects
 
-## Functions
+## Fonctions
 
 -   Control alone or with a home automation system
 -   Integrated magnet
@@ -41,7 +41,7 @@ Its integrated magnet allows it to be fixed everywhere, from the radiator to the
 -   Product Type : 2
 -   Product ID : 1
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -55,7 +55,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/nodon.octan/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -77,7 +77,7 @@ Here is the list of commands :
 | **4**          | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
-### Setup du module
+### Configuration of the module
 
 > **IMPORTANT**
 >
@@ -98,7 +98,7 @@ Parameter details :
 -   4-7 : Choose the button operating mode (in case of group associations)
 -   8 : Allows you to choose the operating mode of the LED
 
-### Groups
+### Groupes
 
 This module has 7 association groups.
 

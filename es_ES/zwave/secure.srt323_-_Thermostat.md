@@ -20,7 +20,7 @@ Se puede usar como un reemplazo directo para los termostatos existentes, sin ten
 
 El SRT323 es un socio ideal para usar con una puerta de enlace domótica, lo que le permite controlar de forma remota su sistema de calefacción. Ya no tendrá que preocuparse por ir a casa a una casa fría, siempre que tenga a mano un teléfono inteligente, una tableta o una PC y esté conectado a Internet.
 
-## Funciones
+## Fonctions
 
 -   Termostato para aplicación doméstica
 -   Reemplaza un termostato existente
@@ -52,7 +52,7 @@ El SRT323 es un socio ideal para usar con una puerta de enlace domótica, lo que
 -   Tipo de producto : 1
 -   ID del producto : 4
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -70,7 +70,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/secure.srt323/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -84,7 +84,7 @@ Aquí está la lista de comandos :
 -   Estado de calentamiento : Es el comando que permite saber si el termostato está en modo calefacción o no
 -   Batería : es el comando de la batería
 
-### Configuración du module
+### Configuracion del modulo
 
 Entonces es necesario configurar el módulo de acuerdo con su instalación. Para hacer esto, vaya al botón "Configuración" del complemento OpenZwave de Jeedom.
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
@@ -99,7 +99,7 @@ Detalles del parámetro :
 -   2: permite elegir la unidad de temperatura
 -   3: le permite definir el nivel de variación de temperatura para que el módulo lo eleve (en unidades de 0.1 ° C)
 
-### Grupos
+### Groupes
 
 Para un funcionamiento óptimo de su módulo, Jeedom debe estar asociado con los 5 grupos
 ![Groupe](images/secure.srt323/groupe.jpg)
@@ -112,7 +112,7 @@ Para un funcionamiento óptimo de su módulo, Jeedom debe estar asociado con los
 >
 > Este módulo está en batería. Por lo tanto, es importante tener en cuenta que un cambio de punto de ajuste solo se tendrá en cuenta cuando se despierte. Por defecto, el despertador es a 86400 segundos. Se recomienda reducirlo a unos 10 minutos. Por lo tanto, el módulo tendrá en cuenta un cambio de punto de ajuste como máximo después de 10 minutos
 
-## Despertador
+## Wakeup
 
 Para activar este módulo, debe colocar el interruptor 1 en la posición ON y
 con la rueda, elija n y presione la rueda.

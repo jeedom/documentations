@@ -1,4 +1,4 @@
-# Nicken Interrupteur - Wall Switch
+# Nodon Switch - Wandschalter
 
 **Das Modul**
 
@@ -14,7 +14,7 @@ Der NodOn®-Wandschalter kann jedes Z-Wave®- oder Z-Wave Plus®-kompatible Ger�
 
 Der Schalter verfügt über eine Montageplatte zur einfachen Montage im Haus: Verwenden Sie die Schrauben eines Montagetopfs, schrauben Sie ihn an die Wand oder kleben Sie ihn einfach über die doppelseitigen Klebstoffe auf der Rückseite der Platte.
 
-## Funktionen
+## Fonctions
 
 -   Steuerung allein oder mit einem Hausautomationssystem
 -   Einfach zu montieren und zu demontieren
@@ -26,7 +26,7 @@ Der Schalter verfügt über eine Montageplatte zur einfachen Montage im Haus: Ve
 
 -   Versorgung : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
 -   4 Tasten
--   )
+-   Wandmontage mit doppelseitigem Kleber (im Lieferumfang enthalten) oder Schrauben (nicht im Lieferumfang enthalten))
 -   Betriebstemperatur : 0 ° C bis 40 ° C
 -   Höhe : 2000m
 -   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Kompatibles Z-Wave Plus® SDK 06.51.06
@@ -47,7 +47,7 @@ Der Schalter verfügt über eine Montageplatte zur einfachen Montage im Haus: Ve
 -   Produkttyp : 2
 -   Produkt-ID : 3
 
-## Konfiguration
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -61,7 +61,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/nodon.wallswitch/information.jpg)
 
-### Befehle
+### Commandes
 
 Sobald das Modul erkannt wurde, sind die den Modulen zugeordneten Befehle verfügbar.
 
@@ -83,7 +83,7 @@ Hier ist die Liste der Befehle :
 | **4**          | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
-### Konfiguration du module
+### Konfiguration des Moduls
 
 > **Wichtig**
 >
@@ -98,12 +98,12 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklic
 
 Parameterdetails :
 
--   1-2 : )
--   3 : )
--   4-7 : )
+-   1-2 : Ermöglicht die Auswahl des Profils der Schaltflächen bei zentraler Verwendung (für die Verwendung in Jeedom unbrauchbar))
+-   3 : Wichtiger Parameter, um anzugeben, ob der Schalter im Szenen- oder zentralen Szenenmodus arbeiten soll (Szene absolut einstellen)
+-   4-7 : Wählen Sie die Tastenbetriebsart (bei Gruppenzuordnungen)
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen
 
-### Gruppen
+### Groupes
 
 Dieses Modul hat 7 Zuordnungsgruppen.
 
@@ -125,7 +125,7 @@ Dieses Modul hat 7 Zuordnungsgruppen.
 
 -   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht, es 1 oder 2 Mal nach der Aufnahme aufzuwecken. Überprüfen Sie die Assoziationsgruppe.
 
-## Aufwachen
+## Wakeup
 
 Um dieses Modul zu aktivieren, drücken Sie einfach eine dieser Tasten
 

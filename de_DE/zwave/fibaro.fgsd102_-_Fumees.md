@@ -16,11 +16,11 @@ Der Rauchmelder Fibaro FGSD-002 ist ein autonomer Rauchmelder (DAAF) gemäß der
 
 Einige Materialien brennen ohne zu rauchen. Aus diesem Grund haben die Fibaro-Ingenieure beschlossen, ihren Rauchmelder in Form eines Temperatursensors zusätzlich zu schützen. Wenn nicht genügend Rauch vorhanden ist, um den Alarm auszulösen, kann das Gerät dennoch eine Bedrohung erkennen, indem es eine durch das Feuer verursachte schnelle Temperaturänderung erkennt. Eine schnelle Änderung der Temperatur oder ein Anstieg auf 54 ° C reicht aus, damit der Rauchsensor eine Bedrohung erkennt und sie den Bewohnern des Hauses meldet. Nur diese Art von Rauchsensor bietet einen hohen Wirkungsgrad, unabhängig davon, was verbrennt.
 
-## Funktionen
+## Fonctions
 
 -   Z-Wave Rauchmelder
 -   Batteriebetrieben
--   )
+-   Einstellbare Sensorempfindlichkeit (3 Stufen)
 -   Manipulationsschutz
 -   Alarm durch Ton, LED-Licht und Z-Wave-Signal
 -   Branderkennung durch Messung der Lufttemperatur
@@ -37,13 +37,13 @@ Einige Materialien brennen ohne zu rauchen. Aus diesem Grund haben die Fibaro-In
 -   Akkulaufzeit : 3 Jahre
 -   Frequenz : 868,42 MHz
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
--   Abmessungen : )
+-   Abmessungen : 65 x 28 mm (Durchmesser x Höhe)
 -   Betriebstemperatur : 0-55 ° C
 -   Betriebsfeuchtigkeit : 0% - 93%
 -   Temperaturmessbereich : -20 bis 100 ° C.
 -   Rauchempfindlichkeit : 1. Stufe - 1,20 +/- 0,5% obs / m; 2. Stufe - 1,80 +/- 0,5% obs / m; 3. Stufe - 2,80 +/- 0,5% obs / m
 -   Geräuschpegel: 85 dB bei 3 m
--   Messgenauigkeit : )
+-   Messgenauigkeit : 0,5 ° C (in einem Bereich von 0 bis 55 ° C)
 -   Standards : EMC 2004/108 / EC und R & TTE 199/5 / WE
 -   Zertifizierungen : EN 14604:2005
 
@@ -55,7 +55,7 @@ Einige Materialien brennen ohne zu rauchen. Aus diesem Grund haben die Fibaro-In
 -   Produkttyp : 3074
 -   Produkt-ID : 4098
 
-## Konfiguration
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -69,7 +69,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/fibaro.fgsd102/information.jpg)
 
-### Befehle
+### Commandes
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -77,14 +77,14 @@ Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügb
 
 Hier ist die Liste der Befehle :
 
--   Rauch : )
+-   Rauch : Es ist der Modul-Alarmbefehl (für Rauch, Hitze)
 -   Temperatur : Es ist der Temperaturmessbefehl
 -   Sabotage : Dies ist der Sabotagebefehl. Es signalisiert das Öffnen des Gehäuses
 -   Testalarm : Es ist der Befehl, der die Tatsache anzeigt, dass sich das Modul im Testmodus befindet
--   Hitzealarm : )
+-   Hitzealarm : Es ist die Steuerung, die einen Wärmealarm auslöst (noch nicht zuverlässig))
 -   Batterie : Es ist der Batteriebefehl
 
-### Konfiguration du module
+### Konfiguration des Moduls
 
 > **Wichtig**
 >
@@ -106,18 +106,18 @@ Parameterdetails :
 -   1: Passt die Empfindlichkeit der Raucherkennung an
 -   2: Hier können Sie auswählen, welche Benachrichtigungen an Jeedom gesendet werden sollen (Beratung : toutes)
 -   3: ermöglicht die Auswahl, welche Benachrichtigungen von einer visuellen Anzeige begleitet werden
--   4: )
+-   4: Hier können Sie auswählen, welche Benachrichtigungen von einer akustischen Anzeige begleitet werden sollen (in allen Fällen ertönt das Modul durch Hitze- und Branderkennung)
 -   10: Ändern Sie diese Einstellung nur, wenn Sie wissen, was Sie tun
 -   11: idem
 -   12: idem
--   13: )
+-   13: Ermöglicht die Benachrichtigung anderer zwave-Module (zum Deaktivieren, sofern Sie nicht wissen, warum Sie sie aktivieren)
 -   20: Zeit zwischen zwei Temperaturberichten
 -   21: Temperaturdifferenz, von der aus die Temperatur an Jeedom gesendet wird, auch wenn die Dauer der Spitze nicht erreicht wird
 -   30: Temperatur des Wärmealarmauslösers
 -   31: Berichtsintervall für Temperaturspitzen
 -   32: Signalintervall bei Verlust von Zwave
 
-### Gruppen
+### Groupes
 
 Für einen optimalen Betrieb Ihres Moduls. Jeedom muss mindestens den Gruppen 1, 4 und 5 zugeordnet sein:
 
@@ -127,7 +127,7 @@ Für einen optimalen Betrieb Ihres Moduls. Jeedom muss mindestens den Gruppen 1,
 
 ### Besonderheiten
 
-## Aufwachen
+## Wakeup
 
 Um dieses Modul zu aktivieren, drücken Sie dreimal die zentrale Taste
 

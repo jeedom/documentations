@@ -16,7 +16,7 @@ The Fibaro FGSD-002 smoke detector is an Autonomous Smoke Alarm Detector (DAAF) 
 
 Some materials burn without smoking. This is why Fibaro engineers decided to include additional protection in their smoke detector in the form of a temperature sensor. If the amount of smoke is not sufficient to trigger the alarm, the device will still be able to detect a threat by detecting a rapid change in temperature caused by the fire. A quick change in temperature or increase to 54 ° C is enough for the smoke sensor to detect a threat and report it to the inhabitants of the house. Only this type of smoke sensor offers high efficiency, regardless of what burns.
 
-## Functions
+## Fonctions
 
 -   Z-Wave smoke detector
 -   Battery powered
@@ -55,7 +55,7 @@ Some materials burn without smoking. This is why Fibaro engineers decided to inc
 -   Product Type : 3074
 -   Product ID : 4098
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -69,7 +69,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/fibaro.fgsd102/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -84,7 +84,7 @@ Here is the list of commands :
 -   Heat alert : it is the control which will raise a heat alert (not reliable yet)
 -   Drums : it's the battery command
 
-### Setup du module
+### Configuration of the module
 
 > **IMPORTANT**
 >
@@ -117,7 +117,7 @@ Parameter details :
 -   31: temperature peak reporting interval
 -   32: signal interval if loss of Zwave
 
-### Groups
+### Groupes
 
 For optimum operation of your module. Jeedom must be associated at least with groups 1 4 and 5:
 

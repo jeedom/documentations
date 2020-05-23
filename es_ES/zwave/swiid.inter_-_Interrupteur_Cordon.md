@@ -1,4 +1,4 @@
-# Swiid Interrupteur - Swiidinter
+# Interruptor Swiid - Swiidinter
 
 **El módulo**
 
@@ -18,7 +18,7 @@ El interruptor SwiidInter también ofrece posibilidades de asociación bidirecci
 
 El interruptor SwiidInter se instala exactamente como un interruptor de cable ordinario : Por lo tanto, es una instalación simple y rápida que no requiere ninguna herramienta especializada. Luego debe configurarse para integrarse en una "red" Z-Wave, esta red puede ser tan simple como un solo control remoto que controla su interruptor SwiidInter de forma remota.
 
-## Funciones
+## Fonctions
 
 -   Encienda el cable que se puede usar tanto manualmente (pulsación corta) como por radio remoto (Z-Wave)
 -   Úselo como reemplazo de un interruptor de cable estándar en una mesita de noche, mesa o lámpara de escritorio
@@ -52,7 +52,7 @@ El interruptor SwiidInter se instala exactamente como un interruptor de cable or
 -   Tipo de producto : 256
 -   ID del producto : 256
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -66,7 +66,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/swiid.inter/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -80,7 +80,7 @@ Aquí está la lista de comandos :
 
 Tenga en cuenta que en el tablero de instrumentos, toda la información se encuentra en el mismo icono
 
-### Configuración du module
+### Configuracion del modulo
 
 Puede configurar el módulo de acuerdo con su instalación. Para hacer esto, vaya al botón "Configuración" del complemento OpenZwave de Jeedom.
 
@@ -99,7 +99,7 @@ Este parámetro le permite elegir el comportamiento cuando asocia el swiidinter 
 -   SOLO : será efectivo solo para encender las otras luces
 -   ENCENDIDO y APAGADO (completamente) : será efectivo para encender y apagar otras luces
 
-### Grupos
+### Groupes
 
 Este módulo tiene dos grupos de asociación.
 

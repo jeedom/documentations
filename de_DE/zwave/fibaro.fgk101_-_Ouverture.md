@@ -18,21 +18,21 @@ Darüber hinaus verfügt dieser Detektor über einen Analogeingang zum Anschlie�
 
 Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits über ein vorhandenes Netzwerk verfügen.
 
-## Funktionen
+## Fonctions
 
 -   Detektor öffnen
 -   Taste zum Ein- / Ausschließen des Detektors
 -   Erkennung schwacher Batterie
 -   Manipulationsschutz
 -   1 Potentialfreier verdrahteter Eingang
--   )
+-   1 analoger 1-Draht-Eingang (zum Anschließen eines DS18B20-Temperaturfühlers)
 -   Sehr kleine, reduzierte Abmessungen
 -   Benutzerfreundlichkeit und Installation
 
 ## Technische Daten
 
 -   Modultyp : Z-Wave Sender
--   Farbe : )
+-   Farbe : Weiß (FGK-101/102/103/104/105/106/107 je nach Farbe)
 -   Versorgung : ER14250 (1 / 2AA) 3,6-V-Batterie
 -   Frequenz : 868,42 MHz
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
@@ -42,12 +42,12 @@ Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Det
 ## Moduldaten
 
 -   Machen Sie : Fibar Group
--   Name : )
+-   Name : Fibaro FGK-101 mit Temperaturfühler (DS18B20)
 -   Hersteller ID : 271
 -   Produkttyp : 1792
 -   Produkt-ID : 4096
 
-## Konfiguration
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -61,7 +61,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/fibaro.fgk101-DS18B20/information.jpg)
 
-### Befehle
+### Commandes
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -74,7 +74,7 @@ Hier ist die Liste der Befehle :
 
 Sie können diese Befehle nach Belieben ein- oder ausblenden.
 
-### Konfiguration du module
+### Konfiguration des Moduls
 
 > **Wichtig**
 >
@@ -92,18 +92,18 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 
 Parameterdetails :
 
--   Aufwachen : )
--   1: )
+-   Aufwachen : Dies ist das Modul-Aufweckintervall (empfohlener Wert 7200)
+-   1: Legt die Verzögerung für das Aufheben des IN-Eingangsalarms (Trockenkontakt) fest)
 -   2: Hier können Sie auswählen, ob die blaue LED beispielsweise beim Öffnen und Schließen Ihrer Tür blinken soll
--   3: )
--   5: )
+-   3: wird verwendet, um den Kontakttyp zu definieren, der an die Klemmenleiste (IN) angeschlossen ist)
+-   5: Es wird nicht empfohlen, diesen Parameter zu ändern, es sei denn, Sie wissen warum (definiert den Signaltyp, der an die Zuordnungsgruppe 1 gesendet wird)
 -   7: Wert an Assoziationsgruppe 1 gesendet
 -   9: Mit dieser Option können Sie das Senden des Löschsignals zwischen dem IN-Eingang und der Zuordnungsgruppe 1 einstellen
--   12: )
+-   12: Ermöglicht die Einstellung der Empfindlichkeit gegenüber Temperaturänderungen (wenn eine 1-Draht-Sonde an das Modul angeschlossen ist)
 -   13: Ermöglicht das Einstellen des Broadcast-Modus für das Senden von Temperatursignalen und das Puffern
 -   14: Aktiviert die Szenenaktivierungsfunktion
 
-### Gruppen
+### Groupes
 
 Dieses Modul hat drei Assoziationsgruppen, nur die dritte ist wesentlich.
 
@@ -121,11 +121,11 @@ Dieses Modul hat drei Assoziationsgruppen, nur die dritte ist wesentlich.
 
 ![vuewidget](images/fibaro.fgk101-DS18B20/vuewidget.jpg)
 
-## Aufwachen
+## Wakeup
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
--   Drücken Sie die Einschlusstaste 3/4 Mal. )
+-   Drücken Sie die Einschlusstaste 3/4 Mal. Dies kann mehrmals hintereinander erforderlich sein (2 oder 3))
 
 ## Faq.
 

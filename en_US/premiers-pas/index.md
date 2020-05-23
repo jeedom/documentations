@@ -126,7 +126,7 @@ Nothing could be simpler to create an object :
 -   Click on the Add button
 -   Jeedom will ask you the name of it. Validate. This is your first object created :
 
-![Objand](images/FirstStep_object.jpg)
+![Objet](images/FirstStep_object.jpg)
 
 For more information on this part, see *User manual -> Object*.
 

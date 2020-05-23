@@ -16,7 +16,7 @@ Dependiendo del estado, el sensor controla el encendido o apagado de sus luces, 
 
 La señal solo se envía cuando el sensor está separado de su elemento magnético. El indicador LED integrado señala cualquier cambio de estado. Nivel de batería bajo señalado por 3 "pitidos" audibles en el receptor
 
-## Funciones
+## Fonctions
 
 -   Sensor magnético inalámbrico alimentado por baterías
 -   Detecta aperturas / cierres
@@ -43,7 +43,7 @@ La señal solo se envía cuando el sensor está separado de su elemento magnéti
 -   Hacer : Edisio Smart Home
 -   Nombre : EOS-200
 
-## Configuración générale
+## Configuración general
 
 Para configurar el complemento Edisio y asociar un módulo con Jeedom, consulte este [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/edisio/).
 
@@ -57,7 +57,7 @@ Encontrará debajo del botón "E", que es el botón de asociación del sensor de
 
 ![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
 
-### Configuración
+### Configuration
 
 Por defecto, el sensor está configurado en NO (normalmente abierto)
 
@@ -92,7 +92,7 @@ Aquí está la lista de comandos :
 -   Puerta : Es el comando que indica si la puerta está abierta o cerrada
 -   Batería : Indica el estado de la batería
 
-### Información
+### Informations
 
 Una vez que su equipo esté asociado con Jeedom, habrá diversa información disponible :
 

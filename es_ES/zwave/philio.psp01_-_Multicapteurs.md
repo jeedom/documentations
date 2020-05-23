@@ -18,7 +18,7 @@ El detector también se puede usar en combinación con un controlador Z-Wave par
 
 El detector también aumentará el brillo y la temperatura, es decir, en caso de un cambio significativo, y cada vez que se detecte un movimiento. Es necesario un controlador Z-Wave (control remoto, dongle, etc.) para integrar este detector en su red si ya tiene una red existente.
 
-## Funciones
+## Fonctions
 
 -   Detector 3 en 1: movimiento, temperatura, luz
 -   Adopta el reciente chip de la serie Z-Wave 400 para admitir operaciones multicanal y un mayor rendimiento de datos (9.6 / 40 / 100kbps)
@@ -57,7 +57,7 @@ El detector también aumentará el brillo y la temperatura, es decir, en caso de
 -   Tipo de producto : 2
 -   ID del producto : 2
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -71,7 +71,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/philio.psp01/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -88,7 +88,7 @@ Aquí está la lista de comandos :
 
 Todos los módulos de la gama tienen los mismos identificadores, depende de usted mostrar los correspondientes a su módulo.
 
-### Configuración du module
+### Configuracion del modulo
 
 > **Importante**
 >
@@ -116,7 +116,7 @@ Detalles del parámetro :
 -   12: le permite definir la duración entre dos informes de brillo (una unidad = 30 minutos)
 -   13: le permite definir el tiempo entre dos informes de temperatura (una unidad = 30 minutos)
 
-### Grupos
+### Groupes
 
 Este módulo tiene dos grupos de asociación, solo el primero es esencial.
 
@@ -130,7 +130,7 @@ Este módulo tiene dos grupos de asociación, solo el primero es esencial.
 >
 > Este módulo tiene una particularidad, ya que no tiene un informe basado en variaciones sino solo en duración, envía toda su información sobre cada detección. También envía la señal de detección de presencia varias veces seguidas. Por lo tanto, es aconsejable marcar la casilla "Evento en cambio" en presencia si utiliza este comando como desencadenante de escenario.
 
-## Despertador
+## Wakeup
 
 Para activar este módulo, solo hay una forma :
 

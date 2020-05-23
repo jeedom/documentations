@@ -18,10 +18,10 @@ Der Detektor kann auch in Kombination mit einem Z-Wave-Controller für die Hausa
 
 Der Detektor erhöht auch die Helligkeit und die Temperatur, d. H. Im Falle einer signifikanten Änderung und jedes Mal, wenn eine Bewegung erfasst wird. Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits über ein vorhandenes Netzwerk verfügen.
 
-## Funktionen
+## Fonctions
 
 -   3 in 1 Detektor: Bewegung, Temperatur, Licht
--   )
+-   Verwendet den aktuellen Z-Wave 400series-Chip, um Mehrkanalbetrieb und höheren Datendurchsatz (9,6 / 40 / 100kbps) zu unterstützen)
 -   Verwendet das Z-Wave 6.02 SDK
 -   Optimierte Antennenreichweite
 -   Verwendung für Hausautomations- oder Sicherheitsanwendungen
@@ -57,7 +57,7 @@ Der Detektor erhöht auch die Helligkeit und die Temperatur, d. H. Im Falle eine
 -   Produkttyp : 2
 -   Produkt-ID : 2
 
-## Konfiguration
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -71,7 +71,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/philio.psp01/information.jpg)
 
-### Befehle
+### Commandes
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -88,7 +88,7 @@ Hier ist die Liste der Befehle :
 
 Alle Module des Bereichs haben die gleichen IDs. Es liegt an Ihnen, die Module anzuzeigen, die Ihrem Modul entsprechen.
 
-### Konfiguration du module
+### Konfiguration des Moduls
 
 > **Wichtig**
 >
@@ -107,16 +107,16 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 Parameterdetails :
 
 -   2: Legt das an die Module in Zuordnungsgruppe 2 gesendete Signal fest
--   3: Stellt die Empfindlichkeit des Anwesenheitssensors ein (0 : deaktiviert 99: )
+-   3: Stellt die Empfindlichkeit des Anwesenheitssensors ein (0 : deaktiviert 99: maximale Empfindlichkeit)
 -   4: Stellt die Helligkeitsstufe ein, ab der das in Parameter 2 definierte Signal an die der Gruppe 2 zugeordneten Module gesendet wird
--   5: Betriebsmodus (nicht empfohlen, um ihn zu ändern : )
--   6: Multisensor-Betriebsmodus (nicht zum Ändern empfohlen : )
+-   5: Betriebsmodus (nicht empfohlen, um ihn zu ändern : Informationen hierzu finden Sie in der Dokumentation des Herstellers)
+-   6: Multisensor-Betriebsmodus (nicht zum Ändern empfohlen : Informationen hierzu finden Sie in der Dokumentation des Herstellers)
 -   9: Hiermit können Sie festlegen, nach welcher Zeit das AUS-Signal an die der Gruppe 2 zugeordneten Module gesendet werden soll
--   10: )
--   12: )
--   13: )
+-   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterieberichten festlegen (eine Einheit = 30 Minuten))
+-   12: Mit dieser Option können Sie die Dauer zwischen zwei Helligkeitsberichten definieren (eine Einheit = 30 Minuten))
+-   13: Mit dieser Option können Sie die Zeit zwischen zwei Temperaturberichten definieren (eine Einheit = 30 Minuten))
 
-### Gruppen
+### Groupes
 
 Dieses Modul hat zwei Zuordnungsgruppen, nur die erste ist wesentlich.
 
@@ -130,7 +130,7 @@ Dieses Modul hat zwei Zuordnungsgruppen, nur die erste ist wesentlich.
 >
 > Dieses Modul hat eine Besonderheit: Es enthält keinen Bericht, der auf Abweichungen basiert, sondern nur auf der Dauer. Es sendet alle Informationen zu jeder Erkennung. Es sendet auch das Anwesenheitserkennungssignal mehrmals hintereinander. Es ist daher ratsam, das Kontrollkästchen "Ereignis bei Änderung" zu aktivieren, wenn Sie diesen Befehl als Szenarioauslöser verwenden.
 
-## Aufwachen
+## Wakeup
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 

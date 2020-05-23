@@ -12,7 +12,7 @@
 
 Der Fibaro-Wandstecker ist ein universeller Empfänger-Sockel-Sender in Form eines Adapters zum Anschließen an eine Wandsteckdose im Stromnetz, der mit dem Z-Wave-Standard kompatibel ist. Sie können jedes Gerät mit einer maximalen Leistung von 2,5 kW verwalten und gleichzeitig die Funktionalität zur Messung der Wirkleistung des Stroms und des Energieverbrauchs der Geräte integrieren. Dieses Modul ist mit einem Lichtring mit LEDs ausgestattet, die den Status und den Energieverbrauch aller angeschlossenen Geräte anzeigen. Der Fibaro-Wandstecker kann über einen Knopf am Gehäuse oder über einen beliebigen Controller gesteuert werden, der mit dem Z-Wave-Standard kompatibel ist
 
-## Funktionen
+## Fonctions
 
 -   Wird von einem Controller gesteuert, der mit dem Z-Wave-Standard kompatibel ist.
 -   Mikrochip-Steuerung.
@@ -30,7 +30,7 @@ Der Fibaro-Wandstecker ist ein universeller Empfänger-Sockel-Sender in Form ein
 -   Dimensions: 17 x 42 x 37 mm
 -   Betriebstemperatur : 0-40 ° C
 -   Temperatur begrenzen : 105°C
--   Standards : )
+-   Standards : LVD (2006/95 / WE), EMC (2004/108 / EC), R & TTE (1999/5 / WE))
 
 ## Moduldaten
 
@@ -40,7 +40,7 @@ Der Fibaro-Wandstecker ist ein universeller Empfänger-Sockel-Sender in Form ein
 -   Produkttyp : 1536
 -   Produkt-ID : 4096
 
-## Konfiguration
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -54,7 +54,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/fibaro.fgwpe101/information.jpg)
 
-### Befehle
+### Commandes
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -70,7 +70,7 @@ Hier ist die Liste der Befehle :
 
 Beachten Sie, dass die Befehle ON / OFF / STATUS im Dashboard in einer einzigen Schaltfläche zusammengefasst sind.
 
-### Konfiguration du module
+### Konfiguration des Moduls
 
 Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, müssen Sie die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom aufrufen.
 
@@ -93,10 +93,10 @@ Parameterdetails :
 -   34: Hier können Sie auswählen, auf welche Art von Zwave-Netzwerkalarm der Socket reagieren soll
 -   35: Hier können Sie festlegen, wie die Steckdose auf Alarme reagiert
 -   39: Legt die Dauer des Alarms fest
--   40: )
--   42: )
+-   40: Hier können Sie festlegen, um wie viel die Leistung variieren muss, um erhöht zu werden (in%))
+-   42: wie im Standardmodus (bis zu 5 Mal pro Schritt, wie in Parameter 43 definiert))
 -   43: Leistungsanstiegsintervall
--   45: )
+-   45: Verbrauchsanstiegsintervall (in kWh 10 = 0,1 kWh)
 -   47: Intervall in Sekunden für die Meldung von Informationen unabhängig von einer Abweichung
 -   49: Berücksichtigen Sie den Verbrauch des Moduls selbst in den Werten
 -   50: Mindestwert von Parameter 52
@@ -106,9 +106,9 @@ Parameterdetails :
 -   61: Farbe, wenn der Stecker an ist
 -   62: Farbe bei ausgeschaltetem Stecker
 -   63: Farbe, wenn ein Zwave-Alarm erkannt wird
--   70: )
+-   70: Sicherheitsstrom (der Stecker wird unterbrochen, wenn der Strom diesen Schwellenwert erreicht)
 
-### Gruppen
+### Groupes
 
 Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist wesentlich.
 
@@ -116,12 +116,12 @@ Dieses Modul hat 3 Assoziationsgruppen, nur die dritte ist wesentlich.
 
 ## Gut zu wissen
 
-### Zurücksetzen
+### Reset
 
 ![Config5](images/fibaro.fgwpe101/config5.jpg)
 
 Sie können Ihren Verbrauchszähler zurücksetzen, indem Sie auf diese Schaltfläche auf der Registerkarte System klicken. Wählen Sie PressButton.
 
-## Aufwachen
+## Wakeup
 
 Keine Vorstellung von Aufwecken auf diesem Modul.

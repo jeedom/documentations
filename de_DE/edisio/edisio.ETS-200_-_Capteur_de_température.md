@@ -16,7 +16,7 @@ Das Signal wird erst gesendet, nachdem eine Temperaturdifferenz von 0,5 ° C ode
 
 Die integrierte LED-Anzeige signalisiert jede Zustandsänderung.
 
-## Funktionen
+## Fonctions
 
 -   Drahtloser batteriebetriebener Temperatursensor
 -   Ultrakompakt
@@ -76,7 +76,7 @@ Sobald Sie Ihre zugehörige Ausrüstung haben, sollten Sie diese erhalten :
 
 ![ets200.general](images/ets200/ets200.general.jpg)
 
-### Befehle
+### Commandes
 
 Sobald Ihre Ausrüstung erstellt ist, sollten Sie die mit dem Modul verknüpften Befehle erhalten :
 
@@ -87,7 +87,7 @@ Hier ist die Liste der Befehle :
 -   Temperatur : Es ist der Befehl, der die gelesene Temperatur anzeigt
 -   Batterie : Zeigt den Batteriestatus an
 
-### Information
+### Informations
 
 Sobald Ihre Ausrüstung mit Jeedom verknüpft ist, stehen verschiedene Informationen zur Verfügung :
 

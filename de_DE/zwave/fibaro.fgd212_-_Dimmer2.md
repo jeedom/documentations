@@ -148,7 +148,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/fibaro.fgd212/information.jpg)
 
-### Befehle
+### Commandes
 
 Sobald das Modul erkannt wurde, werden die den Modulen zugeordneten Befehle ausgeführt
 disponibles.
@@ -176,7 +176,7 @@ Hier ist die Liste der Befehle :
 Beachten Sie, dass sich im Dashboard alle Informationen auf derselben befinden
 icone
 
-### Konfiguration du module
+### Konfiguration des Moduls
 
 Sie können das Modul entsprechend Ihrer Konfiguration konfigurieren
 Installation. Dies erfordert das Durchlaufen der Schaltfläche "Konfiguration" des
@@ -201,7 +201,7 @@ Parameterdetails :
 
 ENTWURF SEIN
 
-### Gruppen
+### Groupes
 
 Dieses Modul hat fünf Zuordnungsgruppen, nur die erste ist
 indispensable.

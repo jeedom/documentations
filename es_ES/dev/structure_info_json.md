@@ -1,6 +1,6 @@
 **Documentación del archivo Info.json**
 
-Integrado desde la versión 3.0 de Jeedom, el archivo **Información.JSON** es obligatorio para el correcto funcionamiento de los complementos y su despliegue adecuado en el mercado Jeedom.
+Integrado desde la versión 3.0 de Jeedom, el archivo **info.json** es obligatorio para el correcto funcionamiento de los complementos y su despliegue adecuado en el mercado Jeedom.
 
 El archivo de información.json se guarda en la carpeta / plugin_info / de su complemento.
 

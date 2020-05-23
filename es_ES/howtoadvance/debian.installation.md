@@ -1,4 +1,4 @@
-# Instalación de debian
+# Instalación de Debian
 
 Veremos aquí cómo instalar un Debian, tanto como VM o en instalación directa en una máquina física
 
@@ -26,7 +26,7 @@ Solo tiene que hacer clic en Inicio, luego poner la llave USB en la máquina y a
 
 La manipulación es bastante simple, crea una nueva máquina virtual, la conecta, coloca un reproductor de CD virtual que apunta a la ISO (recuerde conectarla) y ejecuta la máquina. Ver [aquí](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.creer_une_vm.html) para más detalles.
 
-# Instalación
+# Installation
 
 Presione enter para comenzar la instalación :
 

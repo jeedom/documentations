@@ -1,4 +1,4 @@
-# Développer sur Jeedom
+# Develop on Jeedom
 
 > **IMPORTANT**
 >
@@ -6,7 +6,7 @@
 
 Here is a short tutorial to explain how to create a plugin. For the example we will create a plugin which returns a sentence from the viedemerde site.en (The plugin will be scalable).
 
-It does not replace the [Documentation officielle](https://jeedom.github.io/plugin-template/en_US/)
+It does not replace the [official documentation](https://jeedom.github.io/plugin-template/en_US/)
 
 # Create the plugin base
 

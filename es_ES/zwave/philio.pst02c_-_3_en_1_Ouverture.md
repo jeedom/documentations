@@ -18,7 +18,7 @@ El detector también aumentará el brillo y la temperatura, es decir, en caso de
 
 Es necesario un controlador Z-Wave (control remoto, dongle, etc.) para integrar este detector en su red si ya tiene una red existente.
 
-## Funciones
+## Fonctions
 
 -   Detector 3 en 1: Apertura, temperatura, luz
 -   Adopta el reciente chip de la serie Z-Wave 400 para admitir operaciones multicanal y un mayor rendimiento de datos (9.6 / 40 / 100kbps)
@@ -57,7 +57,7 @@ Es necesario un controlador Z-Wave (control remoto, dongle, etc.) para integrar 
 -   Tipo de producto : 2
 -   ID del producto : 14
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -71,7 +71,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/philio.pst02c/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -84,7 +84,7 @@ Aquí está la lista de comandos :
 -   Brillo : es el comando que hace posible aumentar el brillo
 -   Batería : es el comando de la batería
 
-### Configuración du module
+### Configuracion del modulo
 
 > **Importante**
 >
@@ -118,13 +118,13 @@ Detalles del parámetro :
 -   21: valor de variación de temperatura en ° F para activar un informe
 -   22: valor en% de variación de brillo para activar un informe Valor recomendado : 10
 
-### Grupos
+### Groupes
 
 Este módulo tiene dos grupos de asociación, solo el primero es esencial.
 
 ![Groupe](images/philio.pst02c/groupe.jpg)
 
-## Despertador
+## Wakeup
 
 Para activar este módulo, solo hay una forma :
 

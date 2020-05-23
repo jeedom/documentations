@@ -16,7 +16,7 @@ Je nach Status steuert der Sensor das Ein- und Ausschalten Ihrer Lichter, das Sc
 
 Das Signal wird nur gesendet, wenn der Sensor von seinem Magnetelement getrennt ist. Die integrierte LED-Anzeige signalisiert Statusänderungen. Niedriger Batteriestand durch 3 akustische "Pieptöne" am Empfänger
 
-## Funktionen
+## Fonctions
 
 -   Drahtloser Magnetsensor mit Batterien
 -   Erkennt Öffnungen / Verschlüsse
@@ -43,7 +43,7 @@ Das Signal wird nur gesendet, wenn der Sensor von seinem Magnetelement getrennt 
 -   Machen Sie : Edisio Smart Home
 -   Name : EOS-200
 
-## Konfiguration générale
+## Allgemeine Konfiguration
 
 Informationen zum Konfigurieren des Edisio-Plugins und zum Zuordnen eines Moduls zu Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/edisio/).
 
@@ -57,7 +57,7 @@ Unter der Schaltfläche "E" befindet sich die Zuordnungstaste des Temperatursens
 
 ![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
 
-### Konfiguration
+### Configuration
 
 Standardmäßig ist der Sensor in NO (normalerweise offen) konfiguriert)
 
@@ -92,7 +92,7 @@ Hier ist die Liste der Befehle :
 -   Tür : Dies ist der Befehl, der angibt, ob die Tür geöffnet oder geschlossen ist
 -   Batterie : Zeigt den Batteriestatus an
 
-### Information
+### Informations
 
 Sobald Ihre Ausrüstung mit Jeedom verknüpft ist, stehen verschiedene Informationen zur Verfügung :
 

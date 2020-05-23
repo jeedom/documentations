@@ -1,4 +1,4 @@
-# E.dision EMV 400 Eclairage
+# Edision EMV 400 Beleuchtung
 
 **Das Modul**
 
@@ -22,7 +22,7 @@ Schließlich kann jedes Modul im Remote-Modus verwendet werden. Dies ist sehr pr
 >
 > Neutral ist nur für den "Shutter" -Modus erforderlich"
 
-## Funktionen
+## Fonctions
 
 -   2 Relaisausgänge geliefert
 -   Wird in einer 55-mm-Unterputzdose oder direkt in den Flügelkästen installiert
@@ -144,7 +144,7 @@ Wählen Sie in der Ausrüstungsliste rechts "Leichtes Mikromodul"" :
 
 ![infos equip eclairage](images/emv.400/infos_equip_eclairage.jpg)
 
-### Befehle
+### Commandes
 
 Sobald Ihre Ausrüstung gespeichert ist, sollten Sie die mit dem Modul verknüpften Befehle erhalten :
 
@@ -162,7 +162,7 @@ Hier ist die Liste der Befehle :
 >
 > Die Statusrückmeldung wird von Jeedom simuliert. Wenn Sie einen anderen Sender verwenden, kann Jeedom den Empfängerstatus daher nicht aktualisieren.
 
-### Information
+### Informations
 
 Sobald Ihre Ausrüstung mit Jeedom verknüpft ist, stehen verschiedene Informationen zur Verfügung :
 

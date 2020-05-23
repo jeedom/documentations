@@ -12,7 +12,7 @@
 
 Este mini controlador Aeon Labs es compatible con una amplia variedad de módulos Z-Wave como interruptores, atenuadores, detectores de movimiento, interruptores para persianas ... Para que pueda controlar de forma remota sus luces, dispositivos o persianas. Con este control remoto, también puede incluir / excluir módulos de su red Z-Wave y asociar escenas con los botones del control remoto. Una tapa deslizante oculta los botones utilizados para configurar la red Z-Wave.
 
-## Funciones
+## Fonctions
 
 -   Configuración de red Z-Wave (inclusión / exclusión de módulos)
 -   Le permite controlar hasta 4 escenas
@@ -41,7 +41,7 @@ Este mini controlador Aeon Labs es compatible con una amplia variedad de módulo
 -   Tipo de producto : 1
 -   ID del producto : 3
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -55,7 +55,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/aeotec.minimote/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -73,7 +73,7 @@ Aquí está la lista de comandos :
   - 7 : Botón 4 pulsaciones cortas
   - 8 : Botón 4 prensas largas
 
-### Configuración du module
+### Configuracion del modulo
 
 > **Importante**
 >
@@ -95,13 +95,13 @@ Detalles del parámetro :
 -   244: botón 4 modo de funcionamiento (dejar por defecto)
 -   250: modo de operación de control remoto (deje absolutamente Scene para usarlo como control remoto)
 
-### Grupos
+### Groupes
 
 Este módulo tiene cuatro grupos de asociación, ninguno es necesario para usarlo como control remoto en Jeedom.
 
 ![Groupe](images/aeotec.minimote/groupe.jpg)
 
-## Despertador
+## Wakeup
 
  
 

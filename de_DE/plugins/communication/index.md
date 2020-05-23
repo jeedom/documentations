@@ -1,5 +1,5 @@
 
-# Kommunikation
+# Communication
 
 
 >**Wichtig**

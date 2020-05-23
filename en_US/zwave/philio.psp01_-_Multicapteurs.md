@@ -18,7 +18,7 @@ The detector can also be used in combination with a Z-Wave controller for home a
 
 The detector will also raise the brightness and the temperature, i.e. in the event of a significant change, and each time a movement is detected. A Z-Wave controller (remote control, dongle…) is necessary in order to integrate this detector into your network if you already have an existing network.
 
-## Functions
+## Fonctions
 
 -   3 in 1 detector: movement, temperature, light
 -   Adopts the recent Z-Wave 400series chip to support multi-channel operations and higher data throughput (9.6 / 40 / 100kbps)
@@ -57,7 +57,7 @@ The detector will also raise the brightness and the temperature, i.e. in the eve
 -   Product Type : 2
 -   Product ID : 2
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -71,7 +71,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/philio.psp01/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -88,7 +88,7 @@ Here is the list of commands :
 
 All the modules of the range having the same ids, it's up to you to display those corresponding to your module.
 
-### Setup du module
+### Configuration of the module
 
 > **IMPORTANT**
 >
@@ -116,7 +116,7 @@ Parameter details :
 -   12: allows you to define the duration between two brightness reports (one unit = 30 minutes)
 -   13: allows you to define the time between two temperature reports (one unit = 30 minutes)
 
-### Groups
+### Groupes
 
 This module has two association groups, only the first is essential.
 

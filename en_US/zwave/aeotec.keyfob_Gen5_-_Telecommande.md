@@ -18,7 +18,7 @@ Each button allows you to control two devices or scenes thanks to the management
 
 And because the Keyfob Gen5 key fob is part of the Gene range from Aeotec, it surpasses everything that existed before. It uses the latest Z-Wave 500 series chip, offering a 50% increase in radio range and 250% faster communication speed compared to previous Z-Wave products.
 
-## Functions
+## Fonctions
 
 -   Key fob remote control
 -   Primary or secondary controller
@@ -51,7 +51,7 @@ And because the Keyfob Gen5 key fob is part of the Gene range from Aeotec, it su
 -   Product Type : 1
 -   Product ID : 88
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -65,7 +65,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/aeotec.keyfob-gen5/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -83,7 +83,7 @@ Here is the list of commands :
   - 7 : Button 4 short presses
   - 8 : Button 4 long presses
 
-### Setup du module
+### Configuration of the module
 
 > **IMPORTANT**
 >
@@ -102,7 +102,7 @@ Parameter details :
 -   250: operating mode of the remote control (absolutely put Scene to use it as a remote control)
 -   255 : allows the Keyfob to be reset from the factory
 
-### Groups
+### Groupes
 
 This module has two association groups, the first is the only essential.
 

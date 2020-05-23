@@ -21,7 +21,7 @@ NoDriverLoading=1
 
 Luego guarde presionando Ctrl + x
 
-# Reiniciar
+# Reboot
 
 ``sudo reboot``
 

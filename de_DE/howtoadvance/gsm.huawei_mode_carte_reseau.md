@@ -21,7 +21,7 @@ NoDriverLoading=1
 
 Speichern Sie dann durch Drücken von Strg + x
 
-# Rebooten
+# Reboot
 
 ``sudo reboot``
 

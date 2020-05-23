@@ -4,19 +4,19 @@
 
 ### Gehen Sie zu "Plugins", "Plugins-Verwaltung", "RFX COM""
 
-![Bild07](images/volet.ematronic/image07.png)
+![image07](images/volet.ematronic/image07.png)
 
 ### In "Verwaltung von RFXcom-Protokollen"
 
-![Bild04](images/volet.ematronic/image04.png)
+![image04](images/volet.ematronic/image04.png)
 
 Überprüfen Sie Protokoll 8, BlindsT1, Speichern und beenden.
 
-![Bild08](images/volet.ematronic/image08.png)
+![image08](images/volet.ematronic/image08.png)
 
 ### Aktivieren Sie "Im Debug-Modus starten""
 
-![Bild03](images/volet.ematronic/image03.png)
+![image03](images/volet.ematronic/image03.png)
 
 Warten Sie, bis sich das Fenster öffnet, und drücken Sie dann die Taste Öffnen auf Ihrer Ematronic-Fernbedienung.
 
@@ -41,31 +41,31 @@ Spot : Id1 und Id2 und fügen Sie das folgende Hexadezimal hinzu : in meinem Bei
 
 ### Stoppen Sie den Debug-Modus mit der Schaltfläche "Stop / Restart the Daemon""
 
-![Bild06](images/volet.ematronic/image06.png)
+![image06](images/volet.ematronic/image06.png)
 
 ## Erstellung der Fernbedienung unter JeeDom
 
 Gehen Sie zu Plugins, Home Protocol, RFXcom.
 
-![Bild10](images/volet.ematronic/image10.png)
+![image10](images/volet.ematronic/image10.png)
 
 Klicken Sie auf "Hinzufügen" und geben Sie einen Namen für Ihre virtuelle Fernbedienung ein.
 
-![Bild00](images/volet.ematronic/image00.png)
+![image00](images/volet.ematronic/image00.png)
 
 Wählen Sie die Vorlage aus der Liste der Geräte : "Ematronic Shutter - Fehler".
 
 Ersetzen Sie die automatische ID durch die zuvor extrahierte und aktivieren Sie "Aktivieren" und "Sichtbar"" :
 
-![Bild11](images/volet.ematronic/image11.png)
+![image11](images/volet.ematronic/image11.png)
 
 Klicken Sie auf "Speichern", um Ihre Konfiguration zu speichern und die Vorlage "Ematronic Pane - Default" zu laden".
 
-![Bild02](images/volet.ematronic/image02.png)
+![image02](images/volet.ematronic/image02.png)
 
 Hier ist Ihre Fernbedienung fertig, sie sollte so aussehen :
 
-![Bild05](images/volet.ematronic/image05.png)
+![image05](images/volet.ematronic/image05.png)
 
 ## Verknüpfen Sie Ihre virtuelle JeeDom-Fernbedienung mit Ihrer Ematronic-Engine
 

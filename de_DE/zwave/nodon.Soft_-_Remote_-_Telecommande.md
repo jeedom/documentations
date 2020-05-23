@@ -1,4 +1,4 @@
-# Nicken Télécommande - Soft Remote
+# Nodon Fernbedienung - Soft Remote
 
 **Das Modul**
 
@@ -14,7 +14,7 @@ Die Soft Remote NodOn® kann jedes Z-Wave®- oder Z-Wave Plus®-kompatible Gerä
 
 Es kann auch Szenen über ein kompatibles Hausautomationszentrum auslösen.
 
-## Funktionen
+## Fonctions
 
 -   Steuern Sie jedes Z-Wave-kompatible Gerät
 -   Schlag- und spritzwassergeschützt
@@ -41,7 +41,7 @@ Es kann auch Szenen über ein kompatibles Hausautomationszentrum auslösen.
 -   Produkttyp : 2
 -   Produkt-ID : 2
 
-## Konfiguration
+## Configuration
 
 Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
@@ -55,7 +55,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/nodon.softremote/information.png)
 
-### Befehle
+### Commandes
 
 Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügbar.
 
@@ -71,16 +71,16 @@ Hier ist die Liste der Befehle :
 | **1 (0         | 10             | 12             | 11             | 13             |
 | plein)**       |                |                |                |                |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| **)**      | 20             | 22             | 21             | 23             |
+| **2 (+)**      | 20             | 22             | 21             | 23             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| **)** | 30             | 32             | 31             | 33             |
+| **3 (0 leer)** | 30             | 32             | 31             | 33             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **4 (-)**      | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
 -   Batterie : Es ist der Befehl, der den Füllstand der Batterien erhöht
 
-### Konfiguration du module
+### Konfiguration des Moduls
 
 > **Wichtig**
 >
@@ -96,12 +96,12 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklic
 
 Parameterdetails :
 
--   1-2 : )
--   3 : )
--   4-7 : )
+-   1-2 : Ermöglicht die Auswahl des Profils der Schaltflächen bei zentraler Verwendung (für die Verwendung in Jeedom unbrauchbar))
+-   3 : Wichtiger Parameter, um anzugeben, ob der Schalter im Szenen- oder zentralen Szenenmodus arbeiten soll (Szene absolut einstellen)
+-   4-7 : Wählen Sie die Tastenbetriebsart (bei Gruppenzuordnungen)
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen
 
-### Gruppen
+### Groupes
 
 Dieses Modul hat 7 Zuordnungsgruppen.
 
@@ -121,7 +121,7 @@ Dieses Modul hat 7 Zuordnungsgruppen.
 
 -   Dieses Modul kann bei der Aufnahme schwierig sein. Zögern Sie nicht, es 1 oder 2 Mal nach der Aufnahme aufzuwecken. Überprüfen Sie die Assoziationsgruppe.
 
-## Aufwachen
+## Wakeup
 
 Um dieses Modul zu aktivieren, drücken Sie einfach eine der Tasten
 

@@ -42,7 +42,7 @@ Desarrolle el control de su hogar inteligente con Danalock, el iniciador perfect
 
 Danalock combina la elegancia y el minimalismo del diseño escandinavo, con un sólido bisel de aluminio anodizado y tecnologías avanzadas de Bluetooth y Z-Wave. Un diseño danés discreto construido para durar.
 
-## Funciones
+## Fonctions
 
 -   Controla tu puerta de entrada de forma remota
 -   Cerradura conectada
@@ -75,7 +75,7 @@ Danalock combina la elegancia y el minimalismo del diseño escandinavo, con un s
 -   Tipo de producto : 1
 -   ID del producto : 1
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -107,7 +107,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/polycontrol.danalock/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -120,7 +120,7 @@ Aquí está la lista de comandos :
 -   Cerca : es el comando que hace posible cerrar la cerradura
 -   Batería : es el comando de la batería
 
-### Configuración du module
+### Configuracion del modulo
 
 > **Advertencia**
 >
@@ -149,7 +149,7 @@ Detalles del parámetro :
 -   11 : Asíncrono 0 = Asíncrono desactivado, 1 = Asíncrono activado. Cuando se activa la sincronización, la cerradura se calibrará automáticamente si ya está desbloqueada y se desbloqueará nuevamente (se usa para cerraduras especiales).
 -   12 : informe de operación
 
-### Grupos
+### Groupes
 
 Este módulo tiene solo un grupo de asociación.
 
@@ -167,6 +167,6 @@ Este módulo tiene solo un grupo de asociación.
 >
 > Este módulo devuelve su estado si opera el bloqueo manualmente, el estado se actualizará.
 
-## Despertador
+## Wakeup
 
 No hay concepto de despertar para este módulo.

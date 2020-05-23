@@ -1,4 +1,4 @@
-# Mediodía Prise Intelligente - Smartplug
+# Enchufe inteligente Nodon - Smartplug
 
 **El módulo**
 
@@ -12,7 +12,7 @@
 
 El enchufe con control remoto NodOn® se puede controlar a través de un sistema de automatización del hogar compatible con Z-Wave® o Z-Wave Plus® o directamente a través de otros controladores Z-Wave® o Z-Wave Plus® como el control remoto suave, el interruptor de pared o el Octan Remote NodOn®. Estándar alemán (Schuko) o francés (Tipo E), el enchufe se puede conectar en ambas direcciones, cabeza arriba o cabeza abajo. Asociadas con su diseño fino, estas 2 características permiten una integración más fácil, sin obstruir los barriles vecinos en una regleta. Aprender el zócalo con su controlador requiere solo unos segundos. Un botón local le permite encender o apagar el enchufe directamente.
 
-## Funciones
+## Fonctions
 
 -   Detección de pérdida de corriente de línea
 -   Ergonomique: Posibilidad de enchufar el enchufe cabeza arriba / cabeza abajo
@@ -39,7 +39,7 @@ El enchufe con control remoto NodOn® se puede controlar a través de un sistema
 -   Tipo de producto : 1
 -   ID del producto : 1
 
-## Configuración
+## Configuration
 
 Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
@@ -53,7 +53,7 @@ Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/nodon.smartplug/information.jpg)
 
-### Comandos
+### Commandes
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
@@ -68,7 +68,7 @@ Aquí está la lista de comandos :
 
 Tenga en cuenta que en el tablero de instrumentos, la información de estado, ON / OFF se encuentra en el mismo icono.
 
-### Configuración du module
+### Configuracion del modulo
 
 Puede configurar el módulo de acuerdo con su instalación. Para hacer esto, vaya al botón "Configuración" del complemento Zwave de Jeedom.
 
@@ -88,7 +88,7 @@ Detalles del parámetro :
 -   4 : Le paramètre force l'état de la Smart Plug à « ON » (Smart Plug activée). Cuando el parámetro está activado, no es posible apagar el Smart Plug (local o radio)
 -   Parámetros 5 a 20 : Mediante parámetros de configuración \#5 à \#20, es posible configurar hasta 8 alarmas diferentes. Para configurar correctamente sus alarmas, el formulario en línea: www.nodon.es / support / asp3 / alarm lo guiará
 
-### Grupos
+### Groupes
 
 Este módulo tiene 8 grupos de asociación.
 
@@ -113,6 +113,6 @@ Este módulo tiene 8 grupos de asociación.
 
 -   Es inútil divertirse conectando / desconectando el enchufe para observar la alarma. Esto solo funcionará unas 3 veces. Más allá del enchufe debe permanecer encendido durante un tiempo para recargar la batería interna.
 
-## Despertador
+## Wakeup
 
 No hay noción de activación en este módulo.

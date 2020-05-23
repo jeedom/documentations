@@ -18,7 +18,7 @@ MH-S412-EU switch can control any type of load, lighting or electrical appliance
 
 The switch is also equipped with an LED indicator that indicates its status.
 
-## Functions
+## Fonctions
 
 -   Control two lamps or devices remotely
 -   Installs in place of an existing switch (fits perfectly into a 40mm flush-mounted box)
@@ -49,7 +49,7 @@ The switch is also equipped with an LED indicator that indicates its status.
 -   Product Type : 16642
 -   Product ID : 514
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -61,7 +61,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/mco.mhs412/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -79,7 +79,7 @@ Parameter details :
 
 -   1: Saving state before power failure : enable (allows to find the last state of the switches just before the power cut) diseable )
 
-### Groups
+### Groupes
 
 This module has 3 association groups. Only the third is essential.
 

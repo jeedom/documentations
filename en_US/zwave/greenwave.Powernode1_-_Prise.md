@@ -22,7 +22,7 @@ The PowerNode controlled socket also has a light status indicator which gives di
 
 PowerNode plug module is equipped with overcurrent protection to protect the connected device. The PowerNode plug will be deactivated in the event of a faulty device or a short circuit. Additional protection is provided by the internal fuse located in the socket.
 
-## Functions
+## Fonctions
 
 -   Control a lamp or device remotely
 -   Plug module integrating directly between an electrical outlet and the load to be controlled
@@ -57,7 +57,7 @@ PowerNode plug module is equipped with overcurrent protection to protect the con
 -   Product Type : 2
 -   Product ID : 2
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -71,7 +71,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/greenwave.Powernode1/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -87,7 +87,7 @@ Here is the list of commands :
 
 Note that on the dashboard ON / OFF / STATUS commands are grouped in a single button.
 
-### Setup du module
+### Configuration of the module
 
 You can configure the module according to your installation. To do this, go through the "Configuration" button of Jeedom's OpenZwave plugin.
 
@@ -104,7 +104,7 @@ Parameter details :
 -   1 : Delay before the button flashes : minimum number of seconds between two communications (if this time is exceeded the socket button will flash)
 -   2 : Selected wheel color (automatically detected)
 
-### Groups
+### Groupes
 
 This module has four association groups, only the 3rd group is essential.
 

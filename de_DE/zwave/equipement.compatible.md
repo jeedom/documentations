@@ -128,7 +128,7 @@
 |<img src="../../de_DE/zwave/images/138.7.256_minikeypad.jpg" width="60" />|Benext|Mini-Tastatur RFID|RFID-Tastatur|Das verwendete Abzeichen geht nicht zurück. Dieses Modul wird derzeit unter der Marke Zipato verkauft|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 |<img src="../../de_DE/zwave/images/138.7.257_minikeypad.jpg" width="60" />|Benext|Mini-Tastatur RFID|RFID-Tastatur|Das verwendete Abzeichen geht nicht zurück. Dieses Modul wird derzeit unter der Marke Zipato verkauft|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 
-# Chromagisch
+# Chromagic
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -171,7 +171,7 @@
 |<img src="../../de_DE/zwave/images/264.2.14_dchz110.doorsensor.jpg" width="60" />|Dlink|DCH-Z110|Ouverture||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3692-d-link-capteur-de-portefenetre-z-wave-3-en-1-790069409844.html)|
 |<img src="../../de_DE/zwave/images/264.4.10_dchz510.siren.jpg" width="60" />|Dlink|DCH-Z510|Meerjungfrau||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3696-d-link-sirene-z-wave-6-sons-110-db--790069410758.html)|
 
-# Kuppel
+# Dome
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -223,7 +223,7 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/330.1.2_door.window.sensor.jpg" width="60" />|Ecolink|Tür- / Fenstersensor|Ouverture|||
 
-# Elektronische Lösungen
+# Electronicsolutions
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -271,7 +271,7 @@
 |<img src="../../de_DE/zwave/images/96.7.1_st815.jpg" width="60" />|Everspring|ST815|Luminosité||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2498-everspring-capteur-de-luminosite-z-wave-avec-ecran-lcd-st815-3700946500349.html)|
 |<img src="../../de_DE/zwave/images/96.9.1_tse03.door.bell.jpg" width="60" />|Everspring|TSE03 Türklingel|Carillon|||
 
-# Entwickeln
+# Evolve
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -406,7 +406,7 @@
 |<img src="../../de_DE/zwave/images/132.817.267_ssa3.jpg" width="60" />|Fortrezz|SSA-03|Meerjungfrau||[Kaufen](http://www.domadoo.fr/fr/peripheriques/978-fortrezz-sirene-exterieure-ip54-z-wave-flash-ssa-03-0661799563277.html)|
 |<img src="../../de_DE/zwave/images/132.833.517_ssa3.jpg" width="60" />|Fortrezz|SSA-03|Meerjungfrau||[Kaufen](http://www.domadoo.fr/fr/peripheriques/978-fortrezz-sirene-exterieure-ip54-z-wave-flash-ssa-03-0661799563277.html)|
 
-# Alter
+# Ge
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -428,7 +428,7 @@
 |<img src="../../de_DE/zwave/images/338.3.1298_gr.auto_valve.jpg" width="60" />|Gr-smarthome|1/4 Umdrehungsventil (GR-105N)|Vanne|||
 |<img src="../../de_DE/zwave/images/338.514.1297_gr.auto_valve.jpg" width="60" />|Gr-smarthome|1/4 Umdrehungsventil (GR-105)|Vanne||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2958-gr-smarthome-motorisation-z-wave-pour-vanne-14-de-tour.html)|
 
-# Grünwelle
+# Greenwave
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -553,7 +553,7 @@
 |<img src="../../de_DE/zwave/images/600.3.4237_nas-pd01zt.jpg" width="60" />|Neocoolcam|PIR-Sensor|Multicapteurs|||
 |<img src="../../de_DE/zwave/images/600.512.4135_nas.wr01ze.power.plug.jpg" width="60" />|Neocoolcam|Smart Power Plug NAS-WR01ZE|Prise|||
 
-# Nicken
+# Nodon
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -680,7 +680,7 @@
 |<img src="../../de_DE/zwave/images/151.24881.17665_mini.keypad.rfid.jpg" width="60" />|Schlage|Mini-Tastatur RFID|RFID-Tastatur|Das verwendete Abzeichen geht nicht zurück. Dieses Modul wird derzeit unter der Marke Zipato verkauft|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2470-zipato-clavier-a-code-et-rfid-z-wave-3858890730579.html)|
 |<img src="../../de_DE/zwave/images/151.26947.17665_on_wall_power_socket.jpg" width="60" />|Schlage|Steckdose an der Wand|Prise|Dieses Modul wird derzeit unter der Marke TapHome verkauft||
 
-# Empfindlich
+# Sensative
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|

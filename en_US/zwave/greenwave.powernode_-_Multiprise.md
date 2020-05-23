@@ -20,7 +20,7 @@ PowerNode power strip is equipped with overcurrent protection to protect connect
 
 This power strip is ideal for controlling multimedia devices in a TV cabinet or for controlling computer equipment located in an office and thus avoiding having to use 6 individual Z-Wave sockets.
 
-## Functions
+## Fonctions
 
 -   6-port Z-Wave power strip
 -   Enables monitoring of consumption of connected devices
@@ -54,7 +54,7 @@ This power strip is ideal for controlling multimedia devices in a TV cabinet or 
 -   Product Type : 3
 -   Product ID : 4
 
-## Setup
+## Configuration
 
 To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
@@ -68,7 +68,7 @@ Once included you should get this :
 
 ![Plugin Zwave](images/greenwave.powernode/information.jpg)
 
-### Commands
+### Commandes
 
 Once the module is recognized, the commands associated with the module will be available.
 
@@ -117,7 +117,7 @@ Here is the list of commands :
 
 Note that on the dashboard ON / OFF / STATUS commands are grouped in a single button.
 
-### Setup du module
+### Configuration of the module
 
 You can configure the module according to your installation. To do this, go through the "Configuration" button of Jeedom's OpenZwave plugin.
 
@@ -134,7 +134,7 @@ Parameter details :
 -   1 : Delays before the button flashes : minimum number of seconds between two communications (if this time is exceeded the socket button will flash)
 -   2 : Selected wheel color (automatically detected)
 
-### Groups
+### Groupes
 
 This module has four association groups, only the 1st group is essential.
 
