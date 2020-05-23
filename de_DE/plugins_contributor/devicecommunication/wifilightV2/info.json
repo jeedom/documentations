@@ -2,7 +2,7 @@
 	"id" : "wifilightV2",
 	"name" : "wifilightV2",
     "installation" : "Le plugin ne nécessite pas d'installation.",
-	"description" : "Pilote de nombreux périphériques wifi : lampes, leds, prises de marques diverses : Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link ... ",
+	"description" : "Pilote de nombreux périphériques wifi : lampes, leds, prises, interrupteurs, thermostat, de marques diverses : Gateway Xiaomi Zigbee, Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link, Nanoleaf ... ",
 	"licence" : "AGPL",
 	"author" : "Bernard Caron",
 	"require" : "3.0",

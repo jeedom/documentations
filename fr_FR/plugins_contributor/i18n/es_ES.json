@@ -212,7 +212,7 @@
     },
     "plugins_contributor\/devicecommunication\/index.md": {
         "Plugin Jeedom pour Robots tondeuses Worx Landroid modèles S\/M\/L version cloud": "Complemento Jeedom para los modelos de cortacéspedes robot Worx Landroid versión S \/ M \/ L en la nube",
-        "Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link": "Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link",
+        "Gateway Xiaomi Zigbee, Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link, Nanoleaf": "Gateway Xiaomi Zigbee, Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link, Nanoleaf",
         "Pilote de nombreux périphériques wifi": "Driver de muchos dispositivos wifi",
         "Sure PetCare": "Sure PetCare",
         "Plugin pour les objets connectées pour animaux Sure Petcare (Sureflap)": "Plug-in para objetos conectados a animales Sure Petcare para animales (Sureflap)",
@@ -228,7 +228,7 @@
         "Une fois sur le plugin en question, cliquez sur documentation": "Una vez en el complemento en cuestión, haga clic en la documentación",
         "Vous pouvez voir": "Podéis ver",
         "tous les plugins officiels de cette catégorie": "todos los complementos oficiales en esta categoría",
-        "lampes, leds, prises de marques diverses": "lámparas, leds, tomas de varias marcas",
+        "lampes, leds, prises, interrupteurs, thermostat, de marques diverses": "lámparas, leds, enchufes, interruptores, termostato, de varias marcas",
         " worxLandroidS.": " worxLandroidS.",
         " worxLandroidS?": " worxLandroidS?",
         "worxLandroidS ": "worxLandroidS ",

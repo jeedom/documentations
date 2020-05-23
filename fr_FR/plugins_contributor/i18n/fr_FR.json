@@ -59,7 +59,7 @@
     "plugins_contributor\/devicecommunication\/index.md": {
         "worxLandroidS": "worxLandroidS",
         "Plugin Jeedom pour Robots tondeuses Worx Landroid modèles S\/M\/L version cloud": "Plugin Jeedom pour Robots tondeuses Worx Landroid modèles S\/M\/L version cloud",
-        "Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link": "Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link",
+        "Gateway Xiaomi Zigbee, Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link, Nanoleaf": "Gateway Xiaomi Zigbee, Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link, Nanoleaf",
         "wifilightV2": "wifilightV2",
         "Pilote de nombreux périphériques wifi": "Pilote de nombreux périphériques wifi",
         "Sure PetCare": "Sure PetCare",
@@ -81,7 +81,7 @@
         "Documentation": "Documentation",
         "Market": "Market",
         "Changelog": "Changelog",
-        "lampes, leds, prises de marques diverses": "lampes, leds, prises de marques diverses"
+        "lampes, leds, prises, interrupteurs, thermostat, de marques diverses": "lampes, leds, prises, interrupteurs, thermostat, de marques diverses"
     },
     "plugins_contributor\/energy\/index.md": {
         "Suivi CO2": "Suivi CO2",
