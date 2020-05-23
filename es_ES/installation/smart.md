@@ -17,7 +17,7 @@ Jeedom ofrece un servicio con suscripción automática de respaldo en la nube pr
 
 ## Cómo funciona el modo de recuperación
 
-Material requerido : una llave USB (mínimo 8GB).
+Material requerido : una llave USB (mínimo 8 GB).
 
 >**Nota**
 >

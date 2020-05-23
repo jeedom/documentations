@@ -38,7 +38,7 @@ Dieser Sensor enthält einen Z-Wave-Netzwerk-Entfernungsmesser, der Ihnen die ko
 -   Batterietyp : CR123A
 -   Akkulaufzeit : 2 Jahre
 -   Verbrauch an externer Stromversorgung : 0,4W
--   Maximal am Ausgang unterstützter Strom (ALARM NC, TAMP NC) :25mA
+-   Maximaler am Strom unterstützter Strom (ALARM NC, TAMP NC) :25mA
 -   Maximale am Ausgang unterstützte Spannung : 40 V (AC oder DC)
 -   Frequenz : 868,42 MHz
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
@@ -63,7 +63,7 @@ Informationen zum Konfigurieren des OpenZwave-Plugins und zum Einfügen von Jeed
 
 > **Wichtig**
 >
-> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie dreimal die zentrale Einschlusstaste mit der Bezeichnung TMP gemäß der Papierdokumentation (schwarzer Tab).
+> Um dieses Modul in den Einschlussmodus zu versetzen, drücken Sie dreimal die zentrale Einschlusstaste mit der Bezeichnung TMP gemäß der Papierdokumentation (die schwarze Registerkarte)).
 
 ![Vue interieur](images/fibaro.fgfs101/Vue_interieur.jpg)
 
@@ -79,7 +79,7 @@ Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügb
 
 Hier ist die Liste der Befehle :
 
--   Leck : Dies ist der Modulalarmbefehl (für das Vorhandensein von Wasser, Überschwemmungen usw.)
+-   Leck : Dies ist der Modulalarmbefehl (für das Vorhandensein von Wasser, Überschwemmungen usw.))
 -   Temperatur : Es ist der Temperaturmessbefehl
 -   Sabotage : Dies ist der Sabotagebefehl. Es signalisiert das Öffnen des Gehäuses
 -   Batterie : Es ist der Batteriebefehl
@@ -109,7 +109,7 @@ Parameterdetails :
   - 1 : Akustischer Alarm deaktiviert und visueller Alarm aktiviert
   - 2 : Akustischer Alarm ein und visueller Alarm aus
   - 3 : Akustischer und visueller Alarm aktiviert.
--   10 \. Übertragungszeit zwischen zwei Temperaturmesswerten : von 1 bis 65535 s (standardmäßig 300). Achten Sie darauf, dass Sie keinen zu engen Übertragswert unter Strafe stellen, wenn die Batterie des Moduls bei jeder Geschwindigkeit schmilzt ! (1800 wird empfohlen)
+-   10 \. Übertragungszeit zwischen zwei Temperaturmesswerten : von 1 bis 65535 s (standardmäßig 300)). Achten Sie darauf, dass Sie keinen zu engen Übertragswert unter Strafe stellen, wenn die Batterie des Moduls bei jeder Geschwindigkeit schmilzt ! (1800 wird empfohlen)
 -   12 \. Temperaturunterschied zwischen zwei Berichten : von 1 bis 1000 (Standard 50 = 0,5 °). Gemäß Parameter 10 ist es auch möglich, die Temperaturübertragung in Abhängigkeit von deren Variation zu steuern.
 -   50 \. Einstellen des Niedertemperaturalarms : von -10000 bis + 10000 (standardmäßig 1500 = 15 ° C) Ermöglicht das Auslösen eines Alarms, wenn die Temperatur unter einen bestimmten Schwellenwert fällt.
 -   51.Hochtemperaturalarm einstellen : von -10000 bis + 10000 (standardmäßig 3500 = 35 ° C) Ermöglicht das Auslösen eines Alarms, wenn die Temperatur einen bestimmten Schwellenwert überschreitet.

@@ -88,9 +88,9 @@ Here is the list of commands :
 -   Power : Command allowing to have the consumption of the module
 -   Consumption : Command allowing to know the instantaneous power used by the module
 -   STOP : Control to stop the movement of the shutter
--   STOP BSO : Command to stop the movement (in adjustable slat mode)
+-   STOP BSO : Control to stop the movement (in adjustable slat mode)
 -   Tilt : Allows you to tilt the slats (adjustable slat mode)
--   Decline : Allows to decline the slats (adjustable slat mode)
+-   Decline : Used to decline the slats (adjustable slat mode)
 -   Not : Used to define the step for pressing Decline or Incline
 
 ### Setup du module
@@ -114,7 +114,7 @@ Parameter details :
 -   1: allows to block the module (to freeze a shutter) (in the case of pressing a switch)
 -   2: ditto but for zwave commands
 -   3: type of reports (classic or fibar)
--   10: operating mode (Venetian blind, shutter, etc.)
+-   10: operating mode (Venetian blind, shutter, etc.))
 -   12: duration of a full turn (in Venetian blind mode)
 -   13: allows you to choose when the slats should return to their previous position
 -   14: allows to choose the type of switch
@@ -123,9 +123,9 @@ Parameter details :
 -   22: NA
 -   29: allows to calibrate the flap
 -   30 to 35: allows to define the behavior of the module in front of the different zwave alarms
--   40: power delta to trigger an increase in information (even outside the period defined in 42)
+-   40: power delta to trigger a rise in information (even outside the period defined in 42)
 -   42: info feedback period
--   43: energy delta to trigger a rise in information (even outside the period defined in 42)
+-   43: energy delta to trigger an ascent of information (even outside the period defined in 42)
 -   44: allows to choose whether or not the consumption and the power must include that of the module itself
 -   50: allows to choose if the module should send the info to the nodes in association in scene mode or in association mode
 
@@ -147,7 +147,7 @@ You can reset your consumption meter by clicking on this button available in the
 
 > **IMPORTANT**
 >
-> For the status feedback to work in Jeedom, it is necessary to force the equipment calibration (parameter 29 to "Yes") and the positioning must be active (parameter 10 with the values "Active direct", "Active Venetian "or" Active door ").
+> For the status feedback to work in Jeedom, it is necessary to force the equipment calibration (parameter 29 to "Yes") and the positioning must be active (parameter 10 with the values "Active direct", "Active Venetian "or" Active door").
 
 ### Alternative visual
 

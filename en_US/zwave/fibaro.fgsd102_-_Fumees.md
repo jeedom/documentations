@@ -77,7 +77,7 @@ Once the module is recognized, the commands associated with the module will be a
 
 Here is the list of commands :
 
--   Smoke : it is the module alert command (for smoke, heat, etc.)
+-   Smoke : it is the module alert command (for smoke, heat)
 -   Temperature : it is the temperature measurement command
 -   Sabotage : this is the sabotage command. It signals the opening of the case
 -   Test alert : it is the command which will bring up the fact that the module is in test mode
@@ -106,7 +106,7 @@ Parameter details :
 -   1: adjusts the sensitivity of smoke detection
 -   2: allows you to choose which notifications will be sent to Jeedom (advice : toutes)
 -   3: allows to choose which notifications will be accompanied by a visual indication
--   4: allows to choose which notifications will be accompanied by an audible indication (in all cases the heat and fire detections will sound the module)
+-   4: allows you to choose which notifications will be accompanied by an audible indication (in all cases the heat and fire detections will sound the module)
 -   10: don't change this setting unless you know what you're doing
 -   11: idem
 -   12: idem

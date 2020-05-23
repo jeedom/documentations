@@ -94,7 +94,7 @@ Then if you want to configure the module according to your installation, you hav
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the Settings tab)
+You will arrive on this page (after clicking on the parameters tab)
 
 ![Config1](images/philio.pst02c/config1.jpg)
 
@@ -110,8 +110,8 @@ Parameter details :
 -   6: multi-sensor operating mode (refer to the manufacturer's documentation) Recommended value : 4
 -   7: personalized operating mode of the multi-sensor (refer to the manufacturer's documentation) Recommended value : 20 (to have the functional opening)
 -   9: allows to define after how long the OFF signal will be sent to the modules associated with group 2
--   10: used to define the duration between two battery reports (one unit = parameter 20)
--   11: allows you to define the duration between two automatic opening reports (one unit = parameter 20)
+-   10: allows you to define the duration between two battery reports (one unit = parameter 20)
+-   11: used to define the duration between two automatic opening reports (one unit = parameter 20)
 -   12: allows you to define the duration between two auto brightness reports (one unit = parameter 20) Recommended value : 3
 -   13: allows to define the time between two auto temperature reports (one unit = parameter 20) Recommended value : 2
 -   20: duration of an interval for parameters 10 to 13 Recommended value : 10

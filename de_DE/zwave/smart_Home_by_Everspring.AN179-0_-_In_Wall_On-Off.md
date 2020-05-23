@@ -82,7 +82,7 @@ Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie d
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/smarthomebyeverspring.AN179-0/config1.jpg)
 
@@ -91,7 +91,7 @@ Parameterdetails :
 -   1 : Dieser Parameter definiert den Statuswertbefehl. Es ist nicht ratsam, diesen Wert zu ändern.
 -   2 : Dieser Parameter definiert die Verzögerung für das Senden der Statusänderung an Gruppe 1 (Wert zwischen 3 und 25 Sekunden)
 -   3 : Mit diesem Parameter wird festgelegt, ob der Schalter nach einer Wiederherstellung der Stromversorgung seinen Status (EIN oder AUS) wieder einnimmt.
--   4 : Dieser Parameter definiert den Schaltertyp (Push / Bistable)
+-   4 : Dieser Parameter definiert den Schaltertyp (Push / Bistable))
 
 ### Gruppen
 

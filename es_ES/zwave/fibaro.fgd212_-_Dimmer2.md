@@ -41,7 +41,7 @@ Fonctions
 
 -   ON / OFF y función de variación
 
--   Usar en modo de 2 hilos (no es necesario neutral)
+-   Uso en modo de 2 hilos (neutro no necesario)
 
 -   Integra el chip de la serie Z-Wave 500
 
@@ -59,7 +59,7 @@ Fonctions
 -   Funciona con diferentes tipos de interruptores de botón,
     rockero, de tres vías, etc.
 
--   Función de arranque suave
+-   Función de arranque suave (arranque suave)
 
 -   LED para indicación del estado de inclusión, calibración y
     Niveles de MENÚ
@@ -92,7 +92,7 @@ Características técnicas
 -   Tipo de lámpara compatible (regulable) : Incandescente, Fluocompacto,
     Halógeno (230VAC y 12VDC con transformador electrónico), LED
 
--   Tipo de lámpara compatible (no regulable) : Fluorescente compacta, LED
+-   Tipo de lámpara compatible (no regulable)) : Fluorescente compacta, LED
 
 -   Frecuencia : 868.42 Mhz
 
@@ -185,7 +185,7 @@ Complemento Jeedom OpenZwave.
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 Llegará a esta página (después de hacer clic en la pestaña
-configuraciones)
+Configuraciones)
 
 ![Config1](images/fibaro.fgd212/config1.jpg)
 

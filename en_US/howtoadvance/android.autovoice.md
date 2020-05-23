@@ -82,4 +82,4 @@ It's finish. On text recognition by AutoVoice, Jeedom will be called and you wil
 
 > **Tip**
 >
-> By default, AutoVoice disables Google Now search, it is possible to cancel this behavior, for this in Tasker click on your profile then "edition" (small pencil), then "advanced" (at the bottom), and uncheck "Do Google Now Search "(bottom).
+> By default, AutoVoice disables Google Now search, it is possible to cancel this behavior, for that in Tasker click on your profile then "edition" (small pencil), then "advanced" (at the bottom), and uncheck "Do Google Now Search "(at the very bottom).

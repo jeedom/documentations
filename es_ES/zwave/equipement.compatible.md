@@ -49,8 +49,8 @@
 |<img src="../../es_ES/zwave/images/134.259.111_zw111.nano.dimmer.jpg" width="60" />|Aeotec|Nano Dimmer (ZW111)|Micromodule|||
 |<img src="../../es_ES/zwave/images/134.259.116_zw116.nano.switch.jpg" width="60" />|Aeotec|Nano Switch (ZW116)|Micromodule|||
 |<img src="../../es_ES/zwave/images/134.259.121_zw121_led_strip.jpg" width="60" />|Aeotec|Tira Led (ZW121)|RGBW|||
-|<img src="../../es_ES/zwave/images/134.259.132_zw132.dual.nano.switch.jpg" width="60" />|Aeotec|Interruptor Nano Dual (ZW132)|Micromodule|||
-|<img src="../../es_ES/zwave/images/134.259.140_zw140.dual.nano.switch.jpg" width="60" />|Aeotec|Interruptor Nano Dual (ZW140)|Micromodule|||
+|<img src="../../es_ES/zwave/images/134.259.132_zw132.dual.nano.switch.jpg" width="60" />|Aeotec|Interruptor nano dual (ZW132)|Micromodule|||
+|<img src="../../es_ES/zwave/images/134.259.140_zw140.dual.nano.switch.jpg" width="60" />|Aeotec|Interruptor nano dual (ZW140)|Micromodule|||
 |<img src="../../es_ES/zwave/images/134.259.62_zw62.garage.door.controller.jpg" width="60" />|Aeotec|Controlador de puerta de garaje Gen5 (ZW062)|Porte||[Comprar](http://www.domadoo.fr/fr/peripheriques/3403-aeon-labs-controleur-de-porte-de-garage-z-wave-gen5.html)|
 |<img src="../../es_ES/zwave/images/134.259.75_zw075_switch.jpg" width="60" />|Aeotec|Smart Switch Gen5 (ZW075)|Prise||[Comprar](http://www.domadoo.fr/fr/peripheriques/2594-aeon-labs-module-prise-commutateur-z-wave-plus-avec-mesure-d-energie-gen5-1220000012578.html)|
 |<img src="../../es_ES/zwave/images/134.259.78_zw078_heavy.duty.smart.switch.gen5.jpg" width="60" />|Aeotec|Interruptor inteligente de servicio pesado Gen5 (ZW078)|Prise||[Comprar](http://www.domadoo.fr/fr/peripheriques/2593-aeon-labs-module-commutateur-forte-charge-40a-z-wave-plus-gen5-1220000012547.html)|
@@ -66,10 +66,10 @@
 |<img src="../../es_ES/zwave/images/134.3.11_dsc11_smart.strip.jpg" width="60" />|Aeotec|Tira inteligente (DSC11)|Multiprise|||
 |<img src="../../es_ES/zwave/images/134.3.121_zw121_led_strip.jpg" width="60" />|Aeotec|Tira Led (ZW121)|RGBW|||
 |<img src="../../es_ES/zwave/images/134.3.12_dsc12103.micro.smart.energy.switch.jpg" width="60" />|Aeotec|Micro interruptor de energía inteligente (DSC12103)|Micromodule||[Comprar](http://www.domadoo.fr/fr/peripheriques/286-aeon-labs-micromodule-commutateur-et-compteur-d-energie-g2-1220000011014.html)|
-|<img src="../../es_ES/zwave/images/134.3.132_zw132.dual.nano.switch.jpg" width="60" />|Aeotec|Interruptor Nano Dual (ZW132)|Micromodule|||
+|<img src="../../es_ES/zwave/images/134.3.132_zw132.dual.nano.switch.jpg" width="60" />|Aeotec|Interruptor nano dual (ZW132)|Micromodule|||
 |<img src="../../es_ES/zwave/images/134.3.139_zw139.nano.switch.jpg" width="60" />|Aeotec|Nano Switch (ZW139)|Micromodule|||
-|<img src="../../es_ES/zwave/images/134.3.13_dsc13103.micro.smart.energy.illuminator.jpg" width="60" />|Aeotec|Iluminador de energía micro inteligente (DSC13103)|Micromodule||[Comprar](http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html)|
-|<img src="../../es_ES/zwave/images/134.3.140_zw140.dual.nano.switch.jpg" width="60" />|Aeotec|Interruptor Nano Dual (ZW140)|Micromodule|||
+|<img src="../../es_ES/zwave/images/134.3.13_dsc13103.micro.smart.energy.illuminator.jpg" width="60" />|Aeotec|Iluminador Micro Smart Energy (DSC13103)|Micromodule||[Comprar](http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html)|
+|<img src="../../es_ES/zwave/images/134.3.140_zw140.dual.nano.switch.jpg" width="60" />|Aeotec|Interruptor nano dual (ZW140)|Micromodule|||
 |<img src="../../es_ES/zwave/images/134.3.14_dsc14104_blind.control.switch.jpg" width="60" />|Aeotec|Controlador de micro motor (DSC14104)|Volets||[Comprar](http://www.domadoo.fr/fr/peripheriques/284-aeon-labs-micromodule-z-wave-pour-volet-roulant-1220000010864.html)|
 |<img src="../../es_ES/zwave/images/134.3.17_dsc17103_micro.double.switch_g2.jpg" width="60" />|Aeotec|Micro doble interruptor inteligente (DSC17103)|Micromodule|Prácticamente ya no se vende|[Comprar](http://www.domadoo.fr/fr/peripheriques/285-aeon-labs-micromodule-commutateur-double-et-compteur-d-energie-1220000010949.html)|
 |<img src="../../es_ES/zwave/images/134.3.18_dsc18103_micro.switch.2nd.edition.jpg" width="60" />|Aeotec|Micro Smart Switch 2nd Edition (DSC18103)|Micromodule||[Comprar](http://www.domadoo.fr/fr/peripheriques/286-aeon-labs-micromodule-commutateur-et-compteur-d-energie-g2-1220000011014.html)|
@@ -618,7 +618,7 @@
 |<img src="../../es_ES/zwave/images/340.256.257_009303_wall_controller.jpg" width="60" />|Popp|009303 Controlador de pared de batería Z-Wave Plus|Control remoto||[Comprar](http://www.domadoo.fr/fr/peripheriques/3074-popp-controleur-mural-sans-fil-z-wave.html)|
 |<img src="../../es_ES/zwave/images/340.256.259_key.fob.jpg" width="60" />|Popp|KFOB-C|Control remoto||[Comprar](http://www.domadoo.fr/fr/peripheriques/3071-popp-telecommande-porte-cles-4-boutons-z-wave-0019962009204.html)|
 |<img src="../../es_ES/zwave/images/340.256.513_popp.smoke.sensor.jpg" width="60" />|Popp|Detector de humo y sirena|Humo||[Comprar](http://www.domadoo.fr/fr/peripheriques/3073-popp-detecteur-de-fumee-et-sirene-d-interieur-z-wave-0019962004100.html)|
-|<img src="../../es_ES/zwave/images/340.3.10_700397.wall.plug.ip44.jpg" width="60" />|Popp|700397 Interruptor de enchufe de pared para exterior Schuko (IP44) |Prise|||
+|<img src="../../es_ES/zwave/images/340.3.10_700397.wall.plug.ip44.jpg" width="60" />|Popp|700397 Interruptor de enchufe de pared Schuko para exteriores (IP44) |Prise|||
 |<img src="../../es_ES/zwave/images/340.3.1_009105.wall.plug.switch.jpg" width="60" />|Popp|009105 Interruptor de enchufe de pared Schuko (IP44)|Prise||[Comprar](http://www.domadoo.fr/fr/peripheriques/3070-popp-z-wave-plugin-switch-ip44-outdoor-use.html)|
 |<img src="../../es_ES/zwave/images/340.3.4098_700793.power.plug.jpg" width="60" />|Popp|700793 Enchufe inteligente|Prise|||
 |<img src="../../es_ES/zwave/images/340.4.17_rainsensor.jpg" width="60" />|Popp|Pluviómetro|Pluviómetro||[Comprar](http://www.domadoo.fr/fr/peripheriques/4094-popp-pluviometre-z-wave-z-rain-4251295700168.html)|

@@ -24,7 +24,7 @@ intelligente Lichtquellenerkennung, die erleichtert
 Konfiguration und sorgt für hohe Kompatibilität des Gerätes. Er
 hat Selbstschutz gegen Überlastung und die Funktion von
 sanfter Start. Bei nicht dimmbaren Lichtquellen,
-nur die EIN / AUS-Funktion ist möglich (bei 3-Draht-Verbindung).
+Es ist nur die EIN / AUS-Funktion möglich (bei 3-Draht-Verbindung).
 
 Es ist kompatibel mit allen Arten von Lampen, die Variationen oder unterstützen
 nein Neben der Variationsfunktion kann dieses Mikromodul auch
@@ -59,7 +59,7 @@ Fonctions
 -   Funktioniert mit verschiedenen Arten von Drucktastenschaltern,
     Rocker, Dreiwege usw.
 
--   Softstart-Funktion
+-   Sanftanlauffunktion (Sanftanlauf)
 
 -   LED zur Anzeige des Einschlussstatus, der Kalibrierung und
     MENÜ-Ebenen

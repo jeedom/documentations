@@ -47,7 +47,7 @@ El módulo de enchufe PowerNode está equipado con protección contra sobrecorri
 -   Temperatura de funcionamiento : 0 ° C a + 25 ° C
 -   Temperatura de almacenamiento : -20 ° C a + 60 ° C
 -   Humedad máxima : 5% a 90%
--   Clase de IP (tolerancia a la humedad) : IP20
+-   Clase IP (tolerancia a la humedad) : IP20
 
 ## Datos del módulo
 
@@ -101,7 +101,7 @@ Como puede ver, no hay mucha configuración para este módulo.
 
 Detalles del parámetro :
 
--   1 : Retraso antes de que el botón parpadee : número mínimo de segundos entre dos comunicaciones (si se excede este tiempo, el botón del socket parpadeará)
+-   1 : Retraso antes de que el botón parpadee : número mínimo de segundos entre dos comunicaciones (si se excede este tiempo, el botón del socket parpadeará))
 -   2 : Color de rueda seleccionado (detectado automáticamente)
 
 ### Grupos

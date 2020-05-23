@@ -86,7 +86,7 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 ![Config1](images/aeotec.keyfob/config1.jpg)
 
 Parameterdetails :
--   250: Betriebsmodus der Fernbedienung (unbedingt Szene als Fernbedienung verwenden)
+-   250: Betriebsmodus der Fernbedienung (setzen Sie Scene unbedingt als Fernbedienung ein)
 
 Alle anderen Parameter sind nur bei direkter Zuordnung zwischen Fernbedienung und Modulen sinnvoll.
 
@@ -103,7 +103,7 @@ Gehen Sie wie folgt vor, um dieses Modul als Fernbedienung zu verwenden :
 
 -   1 : Fernbedienung einschließen
 -   2 : Wecken Sie die Fernbedienung auf
--   3 : Ändern Sie den Parameter 250 in true (tun Sie dies auch dann, wenn er bereits als wahr erscheint)
+-   3 : Ändern Sie den Parameter 250 in true (tun Sie dies auch dann, wenn er bereits als true angezeigt wird)
 -   4 : Wecken Sie die Fernbedienung auf und stellen Sie sicher, dass die Änderung berücksichtigt wurde
 -   5 : Ändern Sie die Betriebsart der Fernbedienung, indem Sie die beiden Tasten auf der Rückseite 3 Sekunden lang drücken.
 

@@ -2,7 +2,7 @@
 
 # > 3.3.50
 
-The first thing to do is to connect in SSH to Jeedom (with a kitty or putty type software).
+The first thing to do is to connect in SSH to Jeedom (with a software type kitty or putty).
 
 Then you just have to type :
 
@@ -29,7 +29,7 @@ Operation successfull, your new password for user toto is : 9ULB5RUr3VGHxBD8tYVS
 
 We will see here how to change the Jeedom password directly by modifying it in the database, in case you have forgotten it
 
-The first thing to do is to connect in SSH to Jeedom (with a kitty or putty type software).
+The first thing to do is to connect in SSH to Jeedom (with a software type kitty or putty).
 
 Once connected, you must retrieve the identifiers from the database :
 
@@ -43,7 +43,7 @@ Here you will find the password to access the Jeedom database, you must then do 
 mysql -ujeedom -p
 ````
 
-There he asks you for the password recovered above (the password is not displayed : it's normal). Then type (or better, copy / paste. You have to "right-click" under Putty to "paste") :
+There he asks you for the password recovered above (the password is not displayed : it's normal). Then type (or better, copy / paste. You have to "right-click" under Putty to "paste"") :
 
 ````
 use jeedom;

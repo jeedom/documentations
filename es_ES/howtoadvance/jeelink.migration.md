@@ -16,7 +16,7 @@ Veremos aquí cómo migrar una instalación con Jeedom en modo esclavo a un Jeed
 >
 > Para una mejor lectura y comprensión de este tutorial, aquí están los términos utilizados :
 >
-> - **Jeedom Target** : Servidor (su antiguo Jeedom Master) que centraliza el equipo del **Jeedom (s) Fuente (s)**  Las capturas de pantalla en un fondo negro corresponden a la **Jeedom Target**.
+> - **Jeedom Target** : Servidor (su antiguo Jeedom Master) que centraliza el equipo del **Jeedom (s) Fuente (s))**  Las capturas de pantalla en un fondo negro corresponden a la **Jeedom Target**.
 >
 > - **Fuente de la libertad** : Servidor (su / su antiguo esclavo (s) Jeedom) que vuelve a ensamblar su equipo en el **Jeedom Target**.
 >
@@ -26,7 +26,7 @@ Veremos aquí cómo migrar una instalación con Jeedom en modo esclavo a un Jeed
 
 ## Actualizaciones de configuración y verificación
 
--   Actualiza el **Jeedom Master** a la última versión (incluso si no se le ofrece ninguna actualización).
+-   Actualiza el **Jeedom Master** a la última versión (incluso si no se le ofrece ninguna actualización)).
 -   Actualizar complementos de **Jeedom Master** las últimas versiones disponibles.
 -   Compruebe en la página de Salud que la configuración de red interna del **Jeedom Master** está bien (y externo si su **Fuentes de Jeedoms** será distante).
 
@@ -50,8 +50,8 @@ Dependiendo de los complementos instalados en su **Jeedom Slave**, es necesario 
 
 ## Copias de seguridad preventivas
 
--   Hacer un [Jeedom backup](https://doc.jeedom.com/es_ES/core/doc-core-backup.html) de su **Jeedom Master** y tu **Jeedom Slave (s)** y recuperarlo (s) en su PC / NAS.
--   Hacer un [Copia de seguridad de disco / SD](https://doc.jeedom.com/es_ES/howto/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd) de su **Jeedom Master** y tu **Jeedom Slave (s)** y recuperarlos en su PC / NAS.
+-   Hacer un [Jeedom backup](https://doc.jeedom.com/es_ES/core/doc-core-backup.html) de su **Jeedom Master** y tu (tu) **Jeedom Slave (s))** y recuperarlo (s) en su PC / NAS.
+-   Hacer un [Copia de seguridad de disco / SD](https://doc.jeedom.com/es_ES/howto/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd) de su **Jeedom Master** y tu (tu) **Jeedom Slave (s))** y recuperarlos en su PC / NAS.
 
 # Migración
 
@@ -80,17 +80,17 @@ En su **Jeedom Target**, *Complementos ⇒ Gestión de complementos* :
 > si está utilizando la Raspberry Pi existente, que actualmente es una  **Jeedom Slave**, le recomendamos que use una nueva tarjeta SD / microSD. Esto le permitirá retroceder fácilmente si es necesario.
 
 -   Instale un nuevo Jeedom en una nueva tarjeta SD (ya sea para poner en su **Jeedom Slave** existente o para una nueva Raspberry Pi) siguiendo el [documentación de instalación](https://doc.jeedom.com/es_ES/installation/doc-installation.html).
--   Actualiza el **Fuente de la libertad** a la última versión (incluso si no se le ofrece ninguna actualización).
+-   Actualiza el **Fuente de la libertad** a la última versión (incluso si no se le ofrece ninguna actualización)).
 -   Compruebe en la página Estado que la configuración de red interna (y externa si es necesario) del **Fuente de la libertad** esta bien.
 
 ## Configuración de fuente de Jeedom
 
 -   Cambie la contraseña del usuario administrador o / y configure un nuevo usuario.
--   Configure su cuenta de Jeedom Market (*Configuración ⇒ Actualizaciones y archivos ⇒ pestaña "Mercado""*) Haga clic en la prueba después de guardar, para validar la entrada de sus identificadores de Jeedom Market).
+-   Configure su cuenta de Jeedom Market (*Configuración ⇒ Actualizaciones y archivos ⇒ pestaña "Mercado""*). Haga clic en la prueba después de guardar, para confirmar la entrada de sus identificadores de Jeedom Market).
 -   Instalación y activación del complemento "Jeedom Link" en el nuevo **Fuente de la libertad**.
 ![jeelink.migration2](images/jeelink.migration2.png)
--   Instalación y activación de complementos que desea usar. (Es recomendable hacerlos uno por uno, verificando cuidadosamente cada vez que las dependencias y los demonios estén bien).
--   Recrea el árbol de objetos (solo los que te serán útiles) del **Jeedom Target** (Viejo maestro) en tu nuevo **Fuente de la libertad** (Ex esclavo).
+-   Instalación y activación de complementos que desea usar. (Es recomendable hacerlos uno por uno, verificando cada vez que las dependencias y los demonios estén bien).
+-   Recrea el árbol de objetos (solo los que te serán útiles) del **Jeedom Target** (Viejo maestro) en tu nuevo **Fuente de la libertad** (Antiguo esclavo).
 
 ## Configuración de equipos en el **Fuente de la libertad**
 
@@ -106,7 +106,7 @@ Para enviar equipos presentes en el **Fuente de la libertad** hacia **Jeedom Tar
 
 ### Complemento Zwave
 
--   Haga clic en el botón "Sincronizar" para recuperar los módulos asociados con su controlador. (Se guardan en el recuerdo)
+-   Haga clic en el botón "Sincronizar" para recuperar los módulos asociados con su controlador. (Se mantienen en el recuerdo)
 -   Reemplazar archivo *Zwcfg* : *Complementos ⇒ Gestión de complementos ⇒ onda Z*. Haga clic en el botón rojo *Zwcfg* y pegue el contenido del archivo de texto creado previamente en su computadora. *Guardar cambios*.
 -   Cambie el nombre de sus módulos y colóquelos en los objetos deseados, utilizando su memo de migración.
 
@@ -171,9 +171,9 @@ En la pestaña *Comandos*, accede a todos los parámetros de los controles del e
 
 > **Nota**
 >
-> Para hacer en **Jeedom Target** (Ex maestro) para cada pedido de información del equipo del anterior **Esclavo** cuya historia queremos recuperar.
+> Para hacer en **Jeedom Target** (Ex maestro) para cada comando de información del equipo del ex **Esclavo** cuya historia queremos recuperar.
 
--   Vaya a la configuración del comando (*Rueda dentada a la derecha*).
+-   Ir a la configuración del pedido (*Rueda dentada a la derecha*).
 -   Ir a la pestaña *Configuración avanzada*.
 -   Haga clic en el botón *Copiar el histórico de esta orden en otra orden*.
 -   Encuentre el pedido correspondiente para el nuevo equipo JeeLink correspondiente y confirme.
@@ -182,9 +182,9 @@ En la pestaña *Comandos*, accede a todos los parámetros de los controles del e
 
 > **Nota**
 >
-> Para hacer en **Jeedom Target** (Ex maestro) para cada comando de información / acción del equipo del antiguo **Esclavo** cuyas ocurrencias queremos reemplazar en escenarios / virtuales /
+> Para hacer en **Jeedom Target** (Ex maestro) para cada comando de información / acción del equipo del primero **Esclavo** cuyas ocurrencias queremos reemplazar en escenarios / virtuales /
 
--   Vaya a la configuración del comando (*Rueda dentada a la derecha*).
+-   Ir a la configuración del pedido (*Rueda dentada a la derecha*).
 -   Ir a la pestaña *Información*.
 -   Haga clic en el botón *Reemplazar este comando por el comando*.
 -   Encuentre el pedido correspondiente para el nuevo equipo JeeLink correspondiente y confirme.
@@ -193,9 +193,9 @@ En la pestaña *Comandos*, accede a todos los parámetros de los controles del e
 
 > **Nota**
 >
-> Para hacer en **Jeedom Target** (Ex maestro) para cada comando de información / acción del equipo del antiguo **Esclavo** que queremos recuperar configuraciones de pantalla avanzadas.
+> Para hacer en **Jeedom Target** (Ex maestro) para cada comando de información / acción del equipo del primero **Esclavo** que queremos recuperar configuraciones de pantalla avanzadas.
 
--   Vaya a la configuración del comando (*Rueda dentada a la derecha*).
+-   Ir a la configuración del pedido (*Rueda dentada a la derecha*).
 -   Haga clic en el botón *Aplicar*.
 -   Busque y seleccione el comando correspondiente para el nuevo equipo JeeLink correspondiente y confirme.
 
@@ -203,7 +203,7 @@ En la pestaña *Comandos*, accede a todos los parámetros de los controles del e
 
 > **Nota**
 >
-> Para hacer en **Jeedom Target** (Ex maestro) para cada comando de información / acción del equipo del antiguo **Esclavo** que queremos recuperar la configuración avanzada.
+> Para hacer en **Jeedom Target** (Ex maestro) para cada comando de información / acción del equipo del primero **Esclavo** que queremos recuperar la configuración avanzada.
 
 -   No hay una solución fácil a este nivel, necesitará tener dos pestañas / ventanas abiertas en su navegador.
 -   Órdenes abiertas para equipos viejos **Esclavo** en una pestaña (Jeedom Target).
@@ -225,6 +225,6 @@ En la pestaña *Comandos*, accede a todos los parámetros de los controles del e
 > Después de validar con certeza que su equipo / escenarios / interacciones / virtual /. funciona bien con el nuevo sistema jeelink, puedes hacer la limpieza.
 
 -   Eliminar el equipo residual de la antigua **Jeedom Slave**.
--   Desactive y elimine complementos que ya no le sean útiles (aquellos para los que solo tenía equipo en el Slave).
+-   Deshabilite y elimine complementos que ya no le sean útiles (aquellos para los que solo tenía equipo en Slave).
 -   En el complemento "Jeedom Link", cambie el nombre del equipo que podría tener un nombre que termine con "remoto XXXX".
 -   En la página de Jeedom Network, elimine la anterior **Jeedom Slave**.

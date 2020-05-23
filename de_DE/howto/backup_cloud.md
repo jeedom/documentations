@@ -15,5 +15,5 @@ Sobald der Dienst gekauft wurde, ist es in jeedom notwendig :
 
 > **Fehlerspezifikationsmandatwert für Attributverschiebung in Zeile 19, Spalte 146**
 >
-> Wenn Sie diesen Fehler haben, müssen Sie sich an den Support wenden. Es handelt sich um einen Fehler auf unserer Seite auf der Ebene (Festplatte des Sicherungsservers ist schreibgeschützt).
-> Nach der Korrektur auf unserer Seite müssen Sie wahrscheinlich eine Neukonfiguration der Cloud-Sicherung auf Ihrer Profilseite erzwingen (Registerkarte "Service", dann Cloud-Sicherung)
+> Wenn Sie diesen Fehler haben, müssen Sie sich an den Support wenden. Dies ist ein Fehler auf unserer Seite auf der Ebene (Festplatte des Sicherungsservers ist schreibgeschützt).
+> Nach der Korrektur auf unserer Seite müssen Sie wahrscheinlich eine Neukonfiguration der Cloud-Sicherung auf Ihrer Profilseite erzwingen (Registerkarte "Service" und dann Cloud-Sicherung)

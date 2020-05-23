@@ -69,7 +69,7 @@ Here is the list of commands :
 | Buttons        | Support          | Long press     | Relaxation    | Double support   |
 + ================ + ================ + ================ = + ================ + ================= +
 | **1 (0         | 10             | 12             | 11             | 13             |
-| full)**       |                |                |                |                |
+| plein)**       |                |                |                |                |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **2 (+)**      | 20             | 22             | 21             | 23             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
@@ -90,7 +90,7 @@ Then if you want to configure the module according to your installation, you hav
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the Settings tab)
+You will arrive on this page (after clicking on the parameters tab)
 
 ![Config1](images/nodon.softremote/config1.png)
 

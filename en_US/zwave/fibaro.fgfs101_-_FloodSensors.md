@@ -79,7 +79,7 @@ Once the module is recognized, the commands associated with the module will be a
 
 Here is the list of commands :
 
--   Leak : this is the module alert command (for the presence of water, flooding, etc.)
+-   Leak : this is the module alert command (for the presence of water, flooding, etc.))
 -   Temperature : it is the temperature measurement command
 -   Sabotage : this is the sabotage command. It signals the opening of the case
 -   Drums : it's the battery command

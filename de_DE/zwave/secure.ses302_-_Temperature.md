@@ -83,14 +83,14 @@ Dann ist es notwendig, das Modul entsprechend Ihrer Installation zu konfiguriere
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/secure.ses302/config1.jpg)
 
 Parameterdetails :
 
--   1: Hier können Sie festlegen, um wie viel die Temperatur variieren muss, damit das Modul es an Jeedom sendet (in Schritten von 0,1)
--   2: Hier können Sie das Zeitintervall für das Senden der Temperatur an Jeedom festlegen (in Minuten)
+-   1: Hier können Sie festlegen, wie stark die Temperatur variieren muss, damit das Modul es an Jeedom sendet (in Schritten von 0,1))
+-   2: Stellen Sie das Zeitintervall für das Senden der Temperatur an Jeedom ein (in Minuten))
 
 Alle anderen Parameter sind identisch und entsprechen allen möglicherweise angeschlossenen externen Sonden
 

@@ -41,7 +41,7 @@ Y debido a que el llavero Keyfob Gen5 es parte de la gama Gene de Aeotec, supera
 -   Frecuencia: 868.42 MHz
 -   Distancia de transmisión : 100m en campo abierto
 -   Temperatura de funcionamiento : -10 ° C a 50 ° C
--   Dimensiones : 55 x 30 x 13 mm (largo x ancho x alto)
+-   Dimensiones : 55 x 30 x 13 mm (largo x ancho x alto))
 
 ## Datos del módulo
 
@@ -99,7 +99,7 @@ Llegará a esta página (después de hacer clic en la pestaña Configuración)
 
 Detalles del parámetro :
 
--   250: modo de funcionamiento del control remoto (ponga absolutamente Scene para usarlo como control remoto)
+-   250: modo de funcionamiento del control remoto (ponga absolutamente a Scene para usarlo como control remoto)
 -   255 : permite que el llavero se restablezca de fábrica
 
 ### Grupos

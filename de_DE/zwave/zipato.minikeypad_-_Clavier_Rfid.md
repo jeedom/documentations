@@ -70,7 +70,7 @@ Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügb
 
 Hier ist die Liste der Befehle :
 
--   Aktion : es ist der Befehl, der nach Hause / weg geht (5 für weg 6 für zu Hause)
+-   Aktion : Es ist der Befehl, der nach Hause / weg geht (5 für weg 6 für zu Hause)
 -   Sabotage : Dies ist der Sabotagebefehl (er wird im Falle eines Reißens ausgelöst)
 -   Code : Zeigt den Ausweis- oder Tastaturcode an, wenn sich der eingegebene Code nicht in einem der Speicher befindet
 -   Batterie : Es ist der Batteriebefehl
@@ -91,7 +91,7 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 
 Parameterdetails :
 
--   1: ermöglicht das Zurücksetzen der Standardkonfiguration (nicht empfohlen)
+-   1: Ermöglicht das Zurücksetzen der Standardkonfiguration (nicht empfohlen))
 -   2: Widerrufsfrist (nicht zu ändern)
 -   3: Rückkehr per Piepton : Ermöglicht das Aktivieren oder Nicht-Aktivieren einer Reihe von 8 Signaltönen nach Erkennung eines Ausweises / Codes
 -   4: Anzahl der Pieptöne pro Sekunde (nicht ändern hat keine Auswirkung)
@@ -140,7 +140,7 @@ Der Auslöser ist der Ereignisbefehl. Tatsächlich wird er nur aktualisiert, wen
 Die Tastatur liest Codes / Ausweise auf zwei Arten :
 
 -   Wenn Sie die ersten 1 bis 2 Sekunden auf Home / Away drücken und einen Code eingeben, wird dieser Code gelesen
--   Wenn innerhalb der ersten 1 bis 2 Sekunden nichts unternommen wird, wechselt es in den RFID-Ausweislesemodus (rotes Licht an). Zu dieser Zeit kann er ein Abzeichen lesen, nicht vorher.
+-   Wenn innerhalb der ersten 1 bis 2 Sekunden nichts unternommen wird, wechselt es in den RFID-Ausweislesemodus (rotes Licht leuchtet)). Zu dieser Zeit kann er ein Abzeichen lesen, nicht vorher.
 
 ## Aufwachen
 

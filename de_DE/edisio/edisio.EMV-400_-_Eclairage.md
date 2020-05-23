@@ -30,7 +30,7 @@ Schließlich kann jedes Modul im Remote-Modus verwendet werden. Dies ist sehr pr
 -   Kompatibel mit elektronischen und mechanischen Endschaltern
 -   Remote-Modus
 -   Timer-Funktion: Ein / Aus-Modus: 30min oder 60min
--   Signalreplik (Repeater)
+-   Signalreplik (Repeater))
 -   Bidirektionales Mikromodul
 -   Niedriger Batteriestand des Senders
 -   Klein, diskret und ästhetisch

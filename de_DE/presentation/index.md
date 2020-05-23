@@ -57,7 +57,7 @@ Der Kern umfasst unter anderem :
 
 ## Update Center
 
-*Mit dem Update Center können Sie alle Funktionen von Jeedom aktualisieren, einschließlich der Kernsoftware und ihrer Plugins. Andere Erweiterungsverwaltungsfunktionen sind verfügbar (Löschen, Neuinstallieren, Überprüfen usw.).*
+*Mit dem Update Center können Sie alle Funktionen von Jeedom aktualisieren, einschließlich der Kernsoftware und ihrer Plugins. Andere Erweiterungsverwaltungsfunktionen sind verfügbar (Löschen, Neuinstallieren, Überprüfen usw.).).*
 
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 
@@ -68,8 +68,8 @@ Um diesen Kern herum befinden sich Plugins, die aller Art sein können :
 
 -   Hausautomationsprotokoll (Z-Wave, RFXcom, EnOcean…),
 -   IP-Protokoll (KNX, xPL…),
--   Kommunizierendes Objekt (Nest, Netatmo…),
--   Hoher Pegel (Alarm, Thermostat ...),
+-   Kommunikationsobjekt (Nest, Netatmo…),
+-   Hoher Pegel (Alarm, Thermostat),
 -   Schnittstelle (Widget),
 -   Organisation (Kalender, Google Kalender),
 -   Entwicklung (Skript).

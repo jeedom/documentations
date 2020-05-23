@@ -87,7 +87,7 @@ Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/philio.psr04/config1.jpg)
 
@@ -97,7 +97,7 @@ Detalles del parámetro :
 -   2 : define el terminal más alto (posición completamente a la derecha)
 -   10 : intervalo de tiempo de ascenso de la batería
 -   25 : permite definir si el módulo envía su posición automáticamente después de la rotación (1s de retraso) o si es necesario presionar el botón para validar el envío
--   26 : activa el envío de escena o no al presionar el botón central (parámetro no tomado en cuenta en Jeedom)
+-   26 : activa el envío de la escena o no al presionar el botón central (parámetro no tomado en cuenta en Jeedom)
 
 ### Grupos
 

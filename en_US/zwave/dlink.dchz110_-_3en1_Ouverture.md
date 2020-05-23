@@ -50,7 +50,7 @@ To configure the OpenZwave plugin and know how to put Jeedom in inclusion, refer
 
 > **IMPORTANT**
 >
-> Do not install the module on the window / door before having correctly configured it, and pay careful attention to the alignment of the magnet when testing on a flat surface and when installing. (Use shims if necessary) To put this module in inclusion mode, press the association button 3 times 3.5 seconds, according to its documentation. (constant red flashing in association mode)
+> Do not install the module on the window / door before having correctly configured it, and pay careful attention to the alignment of the magnet when testing on a flat surface and when installing. (Use shims if necessary) To put this module in inclusion mode, press the association button in 3 times.5 seconds, according to its documentation. (constant red flashing in association mode)
 
 ![config inclusion](images/dlink.dchz110/config-inclusion.jpg)
 
@@ -94,12 +94,12 @@ Parameter details :
 -   4: adjusts the brightness level from which the signal defined in parameter 2 will be sent to the modules associated with group 2
 -   5: operating mode (refer to the manufacturer's documentation)
 -   6: multi-sensor operating mode (refer to the manufacturer's documentation). Recommended value : 7
--   7: custom operating mode of the multi-sensor (refer to the manufacturer's documentation). Recommended value : 20 (to have the functional opening)
+-   7: personalized operating mode of the multi-sensor (refer to the manufacturer's documentation). Recommended value : 20 (to have the functional opening)
 -   9: allows to define after how long the OFF signal will be sent to the modules associated with group 2
--   10: used to define the duration between two battery reports (one unit = parameter 20)
--   11: allows you to define the duration between two automatic opening reports (one unit = parameter 20)
+-   10: allows you to define the duration between two battery reports (one unit = parameter 20)
+-   11: used to define the duration between two automatic opening reports (one unit = parameter 20)
 -   12: allows you to define the duration between two auto brightness reports (one unit = parameter 20). Recommended value : 6
--   13: allows to define the duration between two auto temperature reports (one unit = parameter 20). Recommended value : 2
+-   13: allows you to define the time between two auto temperature reports (one unit = parameter 20). Recommended value : 2
 -   20: duration of an interval for parameters 10 to 13. Recommended value : 10
 -   21: temperature variation value in ° F to trigger a report
 -   22: value in% of brightness variation to trigger a report. Recommended value : 10
@@ -125,7 +125,7 @@ To wake up this module there is only one way :
 
 This module wakes up by pressing its association button.
 
-This module is a battery module, the new configuration will be taken into account at the next wakeup. (association button to force it, hence the advantage of not installing the module before it is properly configured)
+This module is a battery module, the new configuration will be taken into account at the next wakeup. (association button to force it, hence the advantage of not installing the module before its proper configuration)
 
 ## Important note
 

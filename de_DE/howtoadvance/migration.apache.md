@@ -22,7 +22,7 @@
 
 ## Deaktivierung von Jeedom- und Nginx-Diensten
 
-In Jeedom müssen Sie zu jedem Plugin mit einem Daemon gehen, dann die automatische Verwaltung des Daemons deaktivieren und ihn ausschneiden. Deaktivieren Sie dann in der Task-Engine alle Aufgaben (es gibt eine allgemeine Deaktivierungsschaltfläche) und in den Szenarien alle Szenarien (es gibt eine allgemeine Deaktivierungsschaltfläche).
+In Jeedom müssen Sie zu jedem Plugin mit einem Daemon gehen, dann die automatische Verwaltung des Daemons deaktivieren und ihn ausschneiden. Deaktivieren Sie dann in der Task-Engine alle Aufgaben (es gibt eine allgemeine Deaktivierungsschaltfläche) und in den Szenarien alle Szenarien (es gibt eine allgemeine Deaktivierungsschaltfläche)).
 
 ````
 systemctl stop cron
@@ -100,4 +100,4 @@ Stellen Sie dann eine Verbindung zu Ihrem Jeedom her und reaktivieren Sie die Ta
 
 > **Wichtig**
 >
-> Es ist ratsam, nach der Migration ein Update von Jeedom zu starten (auch wenn es nichts bietet).
+> Nach der Migration ist es ratsam, ein Update von Jeedom zu starten (auch wenn es nichts bietet).

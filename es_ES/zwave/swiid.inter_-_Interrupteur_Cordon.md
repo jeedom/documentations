@@ -86,13 +86,13 @@ Puede configurar el módulo de acuerdo con su instalación. Para hacer esto, vay
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/swiid.inter/config1.jpg)
 
 Detalles del parámetro :
 
-Este parámetro le permite elegir el comportamiento cuando asocia el swiidinter con otro módulo (pulsación larga)
+Este parámetro le permite elegir el comportamiento cuando asocia el swiidinter con otro módulo (presione prolongadamente)
 
 -   Inactivo : no tendrá efecto en otras luces
 -   Solo apagado : será efectivo solo para apagar otras luces

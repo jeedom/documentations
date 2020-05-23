@@ -98,7 +98,7 @@ Then if you want to configure the module according to your installation, you hav
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the Settings tab)
+You will arrive on this page (after clicking on the parameters tab)
 
 ![Config1](images/philio.pst02a/config1.jpg)
 
@@ -109,15 +109,15 @@ You will arrive on this page (after clicking on the Settings tab)
 Parameter details :
 
 -   2: sets the signal sent to the modules in association group 2
--   3: adjusts the sensitivity of the presence sensor (0 : disabled 99: maximum sensitivity)
+-   3: adjusts the sensitivity of the presence sensor (0 : disabled 99: max sensitivity)
 -   4: adjusts the brightness level from which the signal defined in parameter 2 will be sent to the modules associated with group 2
 -   5: operating mode (refer to the manufacturer's documentation) Recommended value : 8
 -   6: multi-sensor operating mode (refer to the manufacturer's documentation) Recommended value : 4
 -   7: personalized operating mode of the multi-sensor (refer to the manufacturer's documentation) Recommended value : 6 (to have a return to OFF of the presence)
 -   8: allows to define the duration in steps of 8 seconds of motion redetection
 -   9: allows to define after how long the OFF signal will be sent to the modules associated with group 2
--   10: used to define the duration between two battery reports (one unit = parameter 20)
--   11: allows you to define the duration between two automatic opening reports (one unit = parameter 20)
+-   10: allows you to define the duration between two battery reports (one unit = parameter 20)
+-   11: used to define the duration between two automatic opening reports (one unit = parameter 20)
 -   12: allows you to define the duration between two auto brightness reports (one unit = parameter 20) Recommended value : 3
 -   13: allows to define the time between two auto temperature reports (one unit = parameter 20) Recommended value : 2
 -   20: duration of an interval for parameters 10 to 13 Recommended value : 10

@@ -12,11 +12,11 @@
 
 El módulo de atenuación FGD-211 le permitirá controlar una lámpara o una lámpara de techo de forma remota utilizando el protocolo Z-Wave mientras mantiene su interruptor existente.
 
-Por lo tanto, podrá activar la lámpara conectada y variar su intensidad utilizando el interruptor existente, un transmisor Z-Wave o directamente desde el botón en el micromódulo. Es compatible con cualquier tipo de variación de soporte de lámpara (incandescencia, fluo-compacto, LED, ...). El módulo dimmer Fibaro es un concentrado de tecnología, detecta automáticamente el tipo de carga conectada y está protegido contra sobretensiones.
+Por lo tanto, podrá activar la lámpara conectada y variar su intensidad utilizando el interruptor existente, un transmisor Z-Wave o directamente desde el botón en el micromódulo. Es compatible con cualquier tipo de variación de soporte de lámpara (incandescencia, fluo-compacto, LED,). El módulo dimmer Fibaro es un concentrado de tecnología, detecta automáticamente el tipo de carga conectada y está protegido contra sobretensiones.
 
-Para las bombillas fluorescentes que no son compatibles con la atenuación, el módulo actúa automáticamente como un módulo de interruptor (solo ON / OFF).
+Para las bombillas fluorescentes que no son compatibles con la atenuación, el módulo actúa automáticamente como un módulo de interruptor (solo ENCENDIDO / APAGADO)).
 
-Se puede utilizar en modo de 2 hilos (sin neutro), reemplazando un interruptor existente o de tres hilos con un suministro de módulo convencional (fase + neutro).
+Se puede usar en modo de 2 hilos (sin neutro), reemplazando un interruptor existente o de tres hilos con un suministro convencional al módulo (Fase + Neutro)).
 
 Para lámparas de muy bajo consumo (lámpara LED, por ejemplo), puede usar la carga (bypass) FGB-001 que permite el funcionamiento correcto del módulo. Es necesario un controlador Z-Wave (control remoto, dongle, etc.) para integrar este detector en su red si ya tiene una red existente. Cada módulo Z-Wave funciona como un repetidor inalámbrico con los otros módulos, para garantizar la cobertura total de su hogar.
 
@@ -25,7 +25,7 @@ Para lámparas de muy bajo consumo (lámpara LED, por ejemplo), puede usar la ca
 -   Control remoto de iluminación
 -   Se instala detrás de un interruptor existente
 -   ON / OFF y función de variación
--   Usar en modo de 2 hilos (no es necesario neutral)
+-   Uso en modo de 2 hilos (neutro no necesario)
 -   Detección automática de carga
 -   Protegido contra sobrecargas
 -   Pequeño, discreto y estético
@@ -38,7 +38,7 @@ Para lámparas de muy bajo consumo (lámpara LED, por ejemplo), puede usar la ca
 -   Cableado : neutral no requerido
 -   Carga máxima : 25-500W (carga resistiva) o 1.5A (carga inductiva)
 -   Tipo de lámpara compatible (regulable) : Incandescente, fluorescente compacta, halógena (230VAC y 12VDC con transformador electrónico), LED
--   Tipo de lámpara compatible (no regulable) : Fluorescente compacta, LED
+-   Tipo de lámpara compatible (no regulable)) : Fluorescente compacta, LED
 -   Fusible : 2.5A
 -   Frecuencia : 868.42 Mhz
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
@@ -113,12 +113,12 @@ Detalles del parámetro :
 -   11: permite definir el porcentaje de variación (manual)
 -   12: permite definir el nivel máximo autorizado
 -   13: permite definir el nivel mínimo autorizado
--   14: AJUSTE IMPORTANTE : permite elegir entre interruptor BISTABLE o MONOSTABLE (botón)
+-   14: AJUSTE IMPORTANTE : permite elegir entre interruptor BISTABLE o MONOSTABLE (botón pulsador)
 -   15: activa la opción que permite establecer el brillo al máximo en doble pulsación (o volver a biestable)
 -   16: opción para activar la memorización del último estado
 -   17: permite elegir entre el modo de ida y vuelta y el modo de control remoto
 -   18: permite la sincronización del nivel de variación con los otros variadores asociados
--   19: modo de funcionamiento del interruptor biestable (inversión o no)
+-   19: modo de funcionamiento del interruptor biestable (marcha atrás o no))
 -   20: permite ajustar el nivel mínimo para bombillas LEDS regulables, por ejemplo
 -   30: define el modo de funcionamiento del módulo en caso de recepción de una señal de alarma de difusión
 -   39: duración de la alarma definida en el parámetro 30
@@ -138,7 +138,7 @@ Este módulo tiene tres grupos de asociación, solo el tercero es esencial.
 >
 > El parámetro más importante de la configuración es 14. Le permite elegir el tipo de interruptor utilizado. Por defecto, el tipo se establece en monoestable.
 
-Si desea excluir / incluir el módulo sin desmantelar su interruptor, puede presionarlo varias veces (o ir y venir en caso de un interruptor biestable)
+Si desea excluir / incluir el módulo sin desmantelar su interruptor, puede presionarlo varias veces (o ir y venir en caso de un interruptor biestable))
 
 ### Visual alternativo
 

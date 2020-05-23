@@ -76,7 +76,7 @@ Then if you want to configure the module according to your installation, you hav
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the Settings tab)
+You will arrive on this page (after clicking on the parameters tab)
 
 ![Config1](images/fibaro.fgwpe101/config1.jpg)
 
@@ -93,7 +93,7 @@ Parameter details :
 -   34: allows you to choose which type of Zwave network alarm the socket should react to
 -   35: allows you to set how the outlet will respond to alarms
 -   39: sets the duration of the alarm
--   40: allows to define how much the power must vary to be raised (in%)
+-   40: allows you to define how much the power must vary to be raised (in%)
 -   42: same as in standard mode (up to 5 times per step defined in param 43)
 -   43: power rise interval
 -   45: consumption rise interval (in kWh 10 = 0.1 kWh)

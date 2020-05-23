@@ -107,7 +107,7 @@ You will arrive on this page (after clicking on the Settings tab)
 Parameter details :
 
 -   2: sets the signal sent to the modules in association group 2
--   3: adjusts the sensitivity of the presence sensor (0 : disabled 99: maximum sensitivity)
+-   3: adjusts the sensitivity of the presence sensor (0 : disabled 99: max sensitivity)
 -   4: adjusts the brightness level from which the signal defined in parameter 2 will be sent to the modules associated with group 2
 -   5: operating mode (not recommended to change it : refer to the manufacturer's documentation)
 -   6: multi-sensor operating mode (not recommended to change it : refer to the manufacturer's documentation)

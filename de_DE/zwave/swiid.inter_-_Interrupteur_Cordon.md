@@ -20,10 +20,10 @@ Der SwiidInter-Schalter wird genau wie ein gewöhnlicher Kabelschalter installie
 
 ## Funktionen
 
--   Schalten Sie das Kabel ein, das sowohl manuell (kurzes Drücken) als auch per Funkfernbedienung (Z-Wave) verwendet werden kann
+-   Schalten Sie das Kabel ein, das sowohl manuell (kurzes Drücken) als auch per Funkfernbedienung (Z-Wave) verwendet werden kann)
 -   Verwendung als Ersatz für einen Standard-Kabelschalter an einer Nachttisch-, Tisch- oder Schreibtischlampe
 -   EIN / AUS-Funktion
--   Aktivierung eines Hausautomationsszenarios bei langem Drücken (Z-Wave-Assoziation)
+-   Aktivierung eines Hausautomationsszenarios bei langem Drücken (Z-Wave-Zuordnung))
 -   Abmessungen vergleichbar mit einem normalen Kabelschalter
 -   Wird wie ein gewöhnlicher Kabelschalter installiert
 -   Geeignet für alle Arten von Lampen
@@ -86,13 +86,13 @@ Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie d
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/swiid.inter/config1.jpg)
 
 Parameterdetails :
 
-Mit diesem Parameter können Sie das Verhalten auswählen, wenn Sie den Swiidinter einem anderen Modul zuordnen (langes Drücken)
+Mit diesem Parameter können Sie das Verhalten auswählen, wenn Sie den Swiidinter einem anderen Modul zuordnen (langes Drücken))
 
 -   Inaktiv : hat keine Auswirkung auf andere Lichter
 -   Nur AUS : wird nur wirksam, um andere Lichter auszuschalten

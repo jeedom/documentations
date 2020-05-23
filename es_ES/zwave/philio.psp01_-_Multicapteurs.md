@@ -107,7 +107,7 @@ Llegará a esta página (después de hacer clic en la pestaña Configuración)
 Detalles del parámetro :
 
 -   2: establece la señal enviada a los módulos en el grupo de asociación 2
--   3: ajusta la sensibilidad del sensor de presencia (0 : discapacitado 99: máxima sensibilidad)
+-   3: ajusta la sensibilidad del sensor de presencia (0 : discapacitado 99: sensibilidad máxima)
 -   4: ajusta el nivel de brillo desde el cual la señal definida en el parámetro 2 se enviará a los módulos asociados con el grupo 2
 -   5: modo de funcionamiento (no se recomienda cambiarlo : consulte la documentación del fabricante)
 -   6: modo de funcionamiento multisensor (no se recomienda cambiarlo : consulte la documentación del fabricante)

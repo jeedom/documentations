@@ -25,14 +25,14 @@ Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Det
 -   Erkennung schwacher Batterie
 -   Manipulationsschutz
 -   1 Potentialfreier verdrahteter Eingang
--   1 analoger 1-Draht-Eingang (zum Anschließen eines DS18B20-Temperaturfühlers)
+-   )
 -   Sehr kleine, reduzierte Abmessungen
 -   Benutzerfreundlichkeit und Installation
 
 ## Technische Daten
 
 -   Modultyp : Z-Wave Sender
--   Farbe : Weiß (FGK-101/102/103/104/105/106/107 je nach Farbe)
+-   Farbe : )
 -   Versorgung : ER14250 (1 / 2AA) 3,6-V-Batterie
 -   Frequenz : 868,42 MHz
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
@@ -42,7 +42,7 @@ Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Det
 ## Moduldaten
 
 -   Machen Sie : Fibar Group
--   Name : Fibaro FGK-101 mit Temperaturfühler (DS18B20)
+-   Name : )
 -   Hersteller ID : 271
 -   Produkttyp : 1792
 -   Produkt-ID : 4096
@@ -92,14 +92,14 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 
 Parameterdetails :
 
--   Aufwachen : Dies ist das Modul-Aufweckintervall (empfohlener Wert 7200)
--   1: Legt die Verzögerung für die Löschung des IN-Eingangsalarms fest (Trockenkontakt)
+-   Aufwachen : )
+-   1: )
 -   2: Hier können Sie auswählen, ob die blaue LED beispielsweise beim Öffnen und Schließen Ihrer Tür blinken soll
--   3: wird verwendet, um den Kontakttyp zu definieren, der an die Klemmenleiste (IN) angeschlossen ist
--   5: Es wird nicht empfohlen, diesen Parameter zu ändern, es sei denn, Sie wissen warum (definiert den Signaltyp, der an die Zuordnungsgruppe 1 gesendet wird)
+-   3: )
+-   5: )
 -   7: Wert an Assoziationsgruppe 1 gesendet
 -   9: Mit dieser Option können Sie das Senden des Löschsignals zwischen dem IN-Eingang und der Zuordnungsgruppe 1 einstellen
--   12: ermöglicht die Einstellung der Empfindlichkeit gegenüber Temperaturänderungen (wenn eine 1-Draht-Sonde an das Modul angeschlossen ist)
+-   12: )
 -   13: Ermöglicht das Einstellen des Broadcast-Modus für das Senden von Temperatursignalen und das Puffern
 -   14: Aktiviert die Szenenaktivierungsfunktion
 
@@ -125,7 +125,7 @@ Dieses Modul hat drei Assoziationsgruppen, nur die dritte ist wesentlich.
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
--   Drücken Sie die Einschlusstaste 3/4 Mal. Dies kann mehrmals hintereinander erforderlich sein (2 oder 3)
+-   Drücken Sie die Einschlusstaste 3/4 Mal. )
 
 ## Faq.
 

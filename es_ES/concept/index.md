@@ -28,7 +28,7 @@ Estos se pueden ver en un navegador en una computadora de escritorio o en un tel
 
 Para organizar sus dispositivos, puede crear [Objetos](/es_ES/core/4.1/object).
 
-Estos objetos pueden representar partes de la casa (sala de estar, dormitorio, taller). Cada objeto puede tener un objeto padre. Esta jerarquía se usará para mostrar en el Panel de control. Por ejemplo, puedes tener un objeto **Casa**, entonces objetos **Sala de estar** **Habitación** niño objeto **Casa**. Una vez en el Tablero, el objeto **Casa** también mostrará, a continuación, sus objetos secundarios.
+Estos objetos pueden representar partes de la casa (sala de estar, dormitorio, taller)). Cada objeto puede tener un objeto padre. Esta jerarquía se usará para mostrar en el Panel de control. Por ejemplo, puedes tener un objeto **Casa**, entonces objetos **Sala de estar** **Habitación** niño objeto **Casa**. Una vez en el Tablero, el objeto **Casa** también mostrará, a continuación, sus objetos secundarios.
 
 ![Objy](images/concept-objet.jpg)
 

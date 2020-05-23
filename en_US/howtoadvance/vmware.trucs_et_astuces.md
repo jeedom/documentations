@@ -30,7 +30,7 @@ You have to go to the control panel then "File services" and check the box "Acti
 
 ![vmware.tips4](images/vmware.tips4.PNG)
 
-Then click on "Shared folder", then choose the folder to share (here Backup), click on modify then "NFS authorization" and finally on create (here I already have one, your list should be empty) :
+Then you have to click on "Shared folder", then choose the folder to share (here Backup), click on modify then "NFS authorization" and finally on create (here I already have one, your list should be empty) :
 
 ![vmware.tips5](images/vmware.tips5.PNG)
 
@@ -76,7 +76,7 @@ To see if you have it, you have to connect with the thick client (I didn't find 
 
 ![vmware.tips13](images/vmware.tips13.PNG)
 
-The implementation is quite simple, first you have to activate the SSH service of the ESXi (on the web interface you have to go to action ⇒ services ⇒ Activate Secure Shell), then connect in SSH above (the identifiers are same as accessing the interface). Then you just have to do :
+The implementation is quite simple, first you have to activate the SSH service of the ESXi (on the web interface you have to go to action ⇒ services ⇒ Activate Secure Shell), then connect in SSH above (the identifiers are the same as to access the interface). Then you just have to do :
 
 ``esxcli software vib install -v https://global.download.synology.com/download/Tools/NFSVAAIPlugin/1.0-0001/VMware_ESXi/esx-nfsplugin.vib -f``
 
@@ -194,7 +194,7 @@ Then to access your ESXi you just have to go to your external DNS or IP with you
 
 > **IMPORTANT**
 >
-> If you go through the NAS reverse proxy the console in web mode of VMs does not work (because it goes through websocket), on the other hand if you go through VMware Remote Console everything should be ok (it goes through port 902)
+> If you go through the NAS reverse proxy the console in VMs web mode does not work (because it goes through websocket), on the other hand if you go through VMware Remote Console everything should be ok (it goes through port 902)
 
 > **NOTE**
 >

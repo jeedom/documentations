@@ -28,7 +28,7 @@ Actualmente tenemos 6 servidores DNS distribuidos en 2 máquinas físicas difere
 
 ### Jeedom
 
-Ahí es muy simple, debe conectar su Jeedom al mercado (consulte la documentación del primer paso). 
+Ahí es súper simple, debe conectar su Jeedom al mercado (consulte la documentación del primer paso). 
 
 ### Mercado
 
@@ -58,7 +58,7 @@ Aquí está su Jeedom accesible desde el exterior en https
 
 > **Cambié el puerto de escucha interno de mi Jeedom y el Jeedom DNS ya no funciona**
 >
-> De hecho, el Jeedom DNS solo funciona si su Jeedom está escuchando en el puerto local 80 (todos los demás puertos están cerrados en la interfaz VPN cuando se conecta). Esto no plantea problemas de seguridad porque la VPN crea un túnel encriptado, por lo que incluso si el flujo está libre en el puerto 80, está encriptado en el túnel VPN.
+> De hecho, el DNS de Jeedom solo funciona si su Jeedom escucha en el puerto local 80 (todos los demás puertos están cerrados en la interfaz VPN cuando se conecta). Esto no plantea problemas de seguridad porque la VPN crea un túnel encriptado, por lo que incluso si el flujo está libre en el puerto 80, está encriptado en el túnel VPN.
 
 > **No tengo la página de inicio de sesión pero no puedo iniciar sesión**
 >

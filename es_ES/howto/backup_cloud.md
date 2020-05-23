@@ -15,5 +15,5 @@ Una vez que se compra el servicio, debe estar en libertad :
 
 > **Valor de mandato de especificación de error para diferir atributo en la línea 19, columna 146**
 >
-> Si tiene este error, debe ponerse en contacto con el soporte, es un error de nuestra parte en el nivel (el disco duro del servidor de respaldo es de solo lectura).
+> Si tiene este error, debe comunicarse con el soporte, es un error de nuestra parte en el nivel (disco duro del servidor de respaldo en solo lectura).
 > Después de la corrección de nuestro lado, probablemente tendrá que forzar una reconfiguración de la copia de seguridad en la nube en su página de perfil (pestaña de servicio y luego copia de seguridad en la nube)

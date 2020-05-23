@@ -10,7 +10,7 @@ No reemplaza el [Documentación officielle](https://jeedom.github.io/plugin-temp
 
 # Crear la base del complemento
 
-Para comenzar, debe determinar un nombre y una identificación (que no debe existir) :
+Para comenzar, debe determinar un nombre y una identificación (que no debe existir)) :
 
 - Nombre : Vida de caca
 - Identificación : vdm
@@ -119,7 +119,7 @@ Abro el archivo ``desktop/php/desktop.php`` para corregir.
 
 Sustituyo ``color:#94ca02;"`` por ``color:#00A9EC;"``
 
-También notamos que los textos no están alineados, por lo que corregimos el estilo de la configuración (propiedad superior)
+También observamos que los textos no están alineados, por lo que corregimos el estilo de la configuración (propiedad superior)
 
 ````
 {% raw %}<span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>{% endraw %}
@@ -344,7 +344,7 @@ switch ($this->getLogicalId()) {
 }
 ````
 
-Ahora queda por iniciar la función randomVdm () . Para hacer esto, recuperamos el eqLogic (equipo) del comando de lanzamiento y lanzamos la función
+Ahora queda por iniciar la función randomVdm() . Para hacer esto, recuperamos el eqLogic (equipo) del comando de lanzamiento y lanzamos la función
 
 ````
 $eqlogic = $this->getEqLogic(); // Récupération de l'eqlogic
@@ -396,7 +396,7 @@ Hay varios :
 - CronHourly : eh ... cada hora
 - CronDaily : bien 1 / día
 
-Teniendo en cuenta el complemento, actualizaremos cada hora (seamos locos). Entonces usaremos la función cronHourly ().
+Teniendo en cuenta el complemento, actualizaremos cada hora (seamos locos). Entonces usaremos la función cronHourly().
 
 Por lo tanto, abriremos el archivo vdm.class.PHP y búsqueda
 
@@ -480,7 +480,7 @@ Es bueno pero no me conviene. A la création de l'équipement, la commande « st
 
 Entonces mejoramos el código.
 
-Para la creación de los comandos usamos el método postSave (). Utilizaremos el método postUpdate () para actualizar la información.
+Para la creación de los pedidos utilizamos el método postSave(). Utilizaremos el método postUpdate () para actualizar la información.
 
 La forma más fácil ya que solo hay un comando y se crea en postSave
 
@@ -505,7 +505,7 @@ public function postUpdate() {
 }
 ````
 
-Pero en este caso cambiamos la función cronHourly ()
+Pero en este caso cambiamos la función cronHourly()
 
 ````
 public static function cronHourly($_eqLogic_id = null) {
@@ -591,7 +591,7 @@ $this->setDisplay("width","800px");
 
 Si pero !! Porque hay un pero. Intente agregar esto en la función postsave () o postUpdate () y no tendrá en cuenta el cambio. Por qué ? Bueno, lea el documento del complemento de plantilla ==> AQUÍ
 
-Ahora que ha leído correctamente, sabe que debe usar el método preSave ()
+Ahora que ha leído correctamente, sabe que debe usar el método preSave()
 
 ````
 public function preSave() {
@@ -636,7 +636,7 @@ Y reemplazar con
 <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/> //Importante de laisser la classe eqLogicAttr
 ````
 
-Guarde y vaya a un dispositivo de complemento que ya ha creado siguiendo este laboratorio (Actualice si es necesario).
+Guarde y vaya a un dispositivo de complemento que ya haya creado siguiendo este laboratorio (Actualice si es necesario).
 
 Dans le champs « Paramètre» d'un équipement, taper « aleatoire » y sauvegarder.
 
@@ -687,7 +687,7 @@ Por lo demás, desarrollaremos el complemento eligiendo un tipo de vdm (aleatori
 
 # Uso de opciones / parámetros
 
-Para ir más allá y comprender el capítulo anterior, dejaremos que el usuario elija un tipo de vdm (aleatorio o picante o superior)
+Para ir más allá y comprender el capítulo anterior, dejaremos que el usuario elija un tipo de vdm (aleatorio o picante o superior))
 
 On pourrait le laisser taper dans l'input « Type de vdm » : al azar o picante o superior, pero haremos lo contrario dejándolo elegir a través de una etiqueta de selección
 

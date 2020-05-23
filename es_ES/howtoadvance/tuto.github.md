@@ -41,7 +41,7 @@ Ahora que tiene una cuenta de Github y está identificado con su dirección de c
 En mi caso, por lo tanto, quiero insertar una modificación en el archivo *history.class.php* Este archivo se encuentra en el núcleo de la libertad y más precisamente aquí : núcleo / clase /
 
 - Así que estamos en mi repositorio (TaGGoU91 / core) que se indica como una bifurcación de Jeedom / core
-- Entonces vamos a / core / class (el primer núcleo está en negrita, es el repositorio donde estoy (core, vea Small 1)
+- Entonces vamos a / core / class (el primer núcleo está en negrita, es el repositorio donde estoy (core, vea Small 1))
 - Entonces tenemos nuestro archivo *history.class.php* - Hacemos clic en el archivo
 
 ![tuto.github5](images/tuto.github5.png)
@@ -51,7 +51,7 @@ En mi caso, por lo tanto, quiero insertar una modificación en el archivo *histo
 
 ![tuto.github6](images/tuto.github6.png)
 
-Para buscar el archivo, colóquese en el bloque de texto del archivo que acaba de abrir en modo de edición con el lápiz y presione "Ctrl + F" para activar la búsqueda. Pega o especifica el texto que está buscando (un elemento significativo y una línea solamente, no un bloque completo a la vez). Valide con "Enter" para comenzar la búsqueda.
+Para buscar el archivo, colóquese en el bloque de texto del archivo que acaba de abrir en modo de edición con el lápiz y presione "Ctrl + F" para activar la búsqueda. Pega o especifica el texto que está buscando (un elemento significativo y una línea solamente, no un bloque completo de una vez). Valide con "Enter" para comenzar la búsqueda.
 > **Punta**
 >
 > Si no hace clic en la ventana que contiene el texto o el código que está buscando, se abrirá la búsqueda del navegador y, en mi caso, en Google Chrome, no sabrá cómo buscar en el código o documentación directamente.
@@ -76,12 +76,12 @@ Luego en la parte inferior encontramos esto : 1. El título explícito se indica
 El **cometer** hecho arriba solo se refiere a la bifurcación del proyecto en su espacio de GitHub. Para enviar cambios al proyecto original, debe realizar un PR (Solicitud de extracción)
 
 - Hacemos clic en la pestaña Solicitud de extracción
-- Nueva solicitud de extracción (relaciones públicas para amigos)
+- Nueva solicitud de extracción (relaciones públicas para amigos))
 
 ![tuto.github9](images/tuto.github9.png)
 
-- El RP lanzará una comparación entre la base de datos jeedom con su repositorio (la bifurcación).
-- Esto indica las modificaciones (la primera es porque me actualicé desde jeedom, la segunda sobre precisamente el cambio de la última función de cambio de estado, ¡perfecto!)
+- El RP lanzará una comparación entre la base de datos jeedom y su repositorio (la bifurcación).
+- Esto indica las modificaciones (la primera es porque me actualicé desde jeedom, la segunda precisamente sobre el cambio de la última función de cambio de estado, perfecto !!!)
 - El viejo código
 - El nuevo código
 - Creamos la solicitud de extracción (PR)

@@ -10,7 +10,7 @@ Es ersetzt nicht die [Dokumentation officielle](https://jeedom.github.io/plugin-
 
 # Erstellen Sie die Plugin-Basis
 
-Zu Beginn müssen Sie einen Namen und eine ID bestimmen (die nicht existieren dürfen) :
+Zu Beginn müssen Sie einen Namen und eine ID ermitteln (die nicht existieren dürfen)) :
 
 - Name : Kacke das Leben
 - Identifikation : vdm
@@ -119,7 +119,7 @@ Ich öffne die Datei ``desktop/php/desktop.php`` zu korrigieren.
 
 Ich ersetze ``color:#94ca02;"`` Von ``color:#00A9EC;"``
 
-Wir stellen auch fest, dass die Texte nicht ausgerichtet sind, sodass wir den Stil der Konfiguration korrigieren (Eigenschaft top)
+Wir stellen außerdem fest, dass die Texte nicht ausgerichtet sind, sodass wir den Stil der Konfiguration korrigieren (Eigenschaft top)
 
 ````
 {% raw %}<span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>{% endraw %}
@@ -143,11 +143,11 @@ Sie müssen daher einen Befehl vom Typ info erstellen, um diese Informationen zu
 
 Für das Beispiel fügen wir einen Befehl hinzu, der die Informationen aktualisiert. Es wird daher ein Aktionstypbefehl und ein anderer Subtyp sein
 
-- Créer un équipement « vdm1 » In cliquant sur le +. Aktivieren Sie es und machen Sie es sichtbar. Wählen Sie ein Objekt aus und die Ausrüstung muss im Dashboard angezeigt werden (je nach Objekt).
+- Créer un équipement « vdm1 » In cliquant sur le +. Aktivieren Sie es und machen Sie es sichtbar. Wählen Sie ein Objekt aus und die Ausrüstung muss (je nach Objekt) im Dashboard angezeigt werden).
 
 Derzeit werden weder auf der Befehlsregisterkarte s noch im Widget Befehle angezeigt.
 
-Öffnen Sie die Datei core / class / vdm.class.PHP und suchen Sie nach der Funktion postSave () (Lesen Sie das Template-Plugin-Dokument, falls noch nicht geschehen)
+Öffnen Sie die Datei core / class / vdm.class.PHP und suchen Sie nach der Funktion postSave () (Lesen Sie das Dokument zum Vorlagen-Plugin, falls dies noch nicht geschehen ist)
 
 Wir erstellen die 2 Bestellungen
 
@@ -323,7 +323,7 @@ public function randomVdm() {
 }
 ````
 
-Jetzt aktualisieren wir den Info-Befehl (Story) mit diesen Informationen, indem wir den Aktionsbefehl (Aktualisieren) starten.
+Jetzt aktualisieren wir den Info-Befehl (Story) mit diesen Informationen, indem wir den Aktionsbefehl (Aktualisieren) starten).
 Immer noch in core / class / vdm.class.PHP für die Klasse vdmCmd verwenden wir die Methode execute
 
 ````
@@ -332,7 +332,7 @@ public function execute($_options = array()) {
 }
 ````
 
-C'est hier qu'on va définir ce qu'il va se passer quand on lance la commande « Rafraîchir ». Die Klasse vdmCmd hat alle Methoden der Klasse cmd (Core jeedom) geerbt
+C'est hier qu'on va définir ce qu'il va se passer quand on lance la commande « Rafraîchir ». Die Klasse vdmCmd hat alle Methoden der Klasse cmd (Core jeedom) geerbt)
 
 On vérifie le logicalIdentifikation de la commande lancée und si « refresh » on lance les actions
 
@@ -344,7 +344,7 @@ switch ($this->getLogicalId()) {
 }
 ````
 
-Jetzt muss noch die Funktion randomVdm () gestartet werden . Dazu rufen wir die eqLogic (Ausrüstung) aus dem Startbefehl ab und starten die Funktion
+Jetzt bleibt die randomVdm-Funktion zu starten() . Dazu rufen wir die eqLogic (Ausrüstung) aus dem Startbefehl ab und starten die Funktion
 
 ````
 $eqlogic = $this->getEqLogic(); // Récupération de l'eqlogic
@@ -396,7 +396,7 @@ Es gibt mehrere :
 - CronHourly : äh ... jede Stunde
 - CronDaily : gut 1 / Tag
 
-In Anbetracht des Plugins werden wir jede Stunde aktualisieren (lasst uns verrückt sein). Also werden wir die Funktion cronHourly () verwenden.
+In Anbetracht des Plugins werden wir jede Stunde aktualisieren (lasst uns verrückt sein). Also werden wir die cronHourly-Funktion verwenden().
 
 Wir werden daher die Datei vdm.class öffnen.PHP und Suche
 
@@ -480,7 +480,7 @@ Es ist gut, aber es passt nicht zu mir. A la création de l'équipement, la comm
 
 Also verbessern wir den Code.
 
-Für die Erstellung der Befehle haben wir die postSave () -Methode verwendet. Wir werden die postUpdate () -Methode verwenden, um die Informationen zu aktualisieren.
+Für die Erstellung der Aufträge haben wir die postSave-Methode verwendet(). Wir werden die postUpdate () -Methode verwenden, um die Informationen zu aktualisieren.
 
 Der einfachste Weg, da es nur einen Befehl gibt und dieser in postSave erstellt wird
 
@@ -505,7 +505,7 @@ public function postUpdate() {
 }
 ````
 
-In diesem Fall ändern wir jedoch die Funktion cronHourly ()
+In diesem Fall ändern wir jedoch die Funktion cronHourly()
 
 ````
 public static function cronHourly($_eqLogic_id = null) {
@@ -591,7 +591,7 @@ $this->setDisplay("width","800px");
 
 Ja aber !! Weil es ein aber gibt. Versuchen Sie, dies in der Funktion postsave () oder postUpdate () hinzuzufügen, ohne die Änderung zu berücksichtigen. Warum ? Lesen Sie das Dokument des Vorlagen-Plugins ==> HIER
 
-Nachdem Sie richtig gelesen haben, wissen Sie, dass Sie die preSave () -Methode verwenden müssen
+Nachdem Sie richtig gelesen haben, wissen Sie, dass Sie die preSave-Methode verwenden müssen()
 
 ````
 public function preSave() {
@@ -687,7 +687,7 @@ Im Übrigen werden wir das Plugin weiterentwickeln, indem wir einen gewünschten
 
 # Verwendung von Optionen / Parametern
 
-Um weiter zu gehen und das vorherige Kapitel zu verstehen, überlassen wir es dem Benutzer, einen Typ von vdm auszuwählen (zufällig oder scharf oder oben)
+Um weiter zu gehen und das vorherige Kapitel zu verstehen, überlassen wir es dem Benutzer, einen vdm-Typ auszuwählen (zufällig oder scharf oder oben)
 
 On pourrait le laisser taper dans l'input « Type de vdm » : zufällig oder scharf oder oben, aber wir werden es anders machen, indem wir es über ein Auswahl-Tag auswählen lassen
 

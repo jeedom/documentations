@@ -24,7 +24,7 @@ Darüber hinaus ist die Interaktion mit anderen Protokollen möglich. Sie kann m
 ## Technische Daten
 
 -   Modultyp : Edisio Sender
--   Versorgung : 3VDC (Lithiumbatterie CR2430)
+-   Versorgung : 3VDC (Lithiumbatterie CR2430))
 -   Kanäle : 4
 -   Frequenz : 868,3 MHz
 -   Betriebstemperatur : -10 ° C + 50 ° C

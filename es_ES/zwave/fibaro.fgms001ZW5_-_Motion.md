@@ -91,7 +91,7 @@ Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/fibaro.fgms001zw5/config1.jpg)
 
@@ -110,21 +110,21 @@ Detalles del parámetro :
 -   4: no se recomienda cambiar esta configuración
 -   6: tiempo después del cual el sensor enviará la señal de "más movimiento" (valor recomendado 30)
 -   8: activa el modo noche / día o ambos (valor recomendado : siempre activo)
--   9: le permite establecer el umbral para cambiar al modo nocturno (útil si ha cambiado el parámetro 8)
--   12: para modificar solo si sabe por qué lo está haciendo (asociación con un módulo, por ejemplo)
+-   9: ajusta el umbral para cambiar al modo nocturno (útil si ha cambiado el parámetro 8)
+-   12: modificar solo si sabe por qué lo está haciendo (asociación con un módulo, por ejemplo)
 -   14: idem
 -   16: idem
 -   20: sensibilidad del sensor giroscópico (valor recomendado 15)
 -   22: tiempo después del cual el sensor enviará la señal "no más sabotaje" (valor recomendado 30)
--   24: le permite saber cómo se notifica el sabotaje (IMPORTANTE : valor recomendado : Sensor anti-sabotaje notificado a la clase de comando SensorAlarm / La cancelación se notifica después del tiempo definido en el parámetro 22)
+-   24: le permite saber cómo se notifica el sabotaje (IMPORTANTE : valor recomendado : Sensor anti-sabotaje notificado a la clase de comando SensorAlarm / La cancelación se notifica después del tiempo definido en el parámetro 22 )
 -   26: cambiar solo si sabes por qué lo estás haciendo
--   40: le permite especificar cuánto se debe modificar el valor de brillo para enviarlo (valor recomendado 50)
+-   40: permite decir cuánto se debe modificar el valor de brillo para ser enviado (valor recomendado 50)
 -   42: permite dar una duración mínima entre dos envíos sucesivos incluso si el brillo no ha cambiado (valor recomendado 3600)
 -   60: permite decir cuánto se debe modificar el valor de temperatura para ser enviado (valor recomendado 2 o 0.2 grados)
 -   62: da la frecuencia de las mediciones de temperatura (valor recomendado 900)
 -   64: permite dar una duración mínima entre dos envíos sucesivos incluso si la temperatura no ha cambiado (valor recomendado 2700)
 -   66: permite ajustar la temperatura
--   80: permite elegir el color del led cuando hay detección de movimiento (ver para desactivarlo)
+-   80: le permite elegir el color del LED cuando hay detección de movimiento (consulte desactivarlo)
 -   81: permite ajustar el brillo del led
 -   82: ajusta el umbral de brillo mínimo para configurar el LED al 1% (vinculado al parámetro 81)
 -   83: ajusta el umbral de brillo máximo para configurar el LED al 100% (vinculado al parámetro 81)
@@ -164,7 +164,7 @@ Los nombres de los grupos en la versión Z-Wave + son los siguientes:
 
 Para activar este módulo, solo hay una forma :
 
--   presione el botón de inclusión 3 veces (la luz se vuelve azul). Incluso si la luz se enciende, puede ser necesario hacerlo varias veces seguidas (2 o 3)
+-   presione el botón de inclusión 3 veces (la luz se vuelve azul)). Incluso si la luz se enciende, puede ser necesario hacer esto varias veces seguidas (2 o 3)
 
 ## Faq.
 

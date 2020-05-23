@@ -2,7 +2,7 @@
 
 You will find here the documentation to install Jeedom on a raspberry PI 3 **without microSD card.**
 
-The PI3 indeed offers the possibility of booting directly onto a USB device and therefore freeing yourself from the microSD card which sometimes generates problems (corruption).
+The PI3 indeed offers the possibility of booting directly onto a USB device and therefore freeing yourself from the microSD card that sometimes generates problems (corruption).
 
 **The installation procedure is strictly identical to that on a microSD card, but you will need to make sure you have up-to-date firmware.**
 
@@ -66,4 +66,4 @@ Then restart PI3
     ``dtoverlay=pi3-disable-bt``
 -   Make a clean stop
     ``sudo halt``
--   Disconnect reconnect (no sudo reboot!).
+-   Disconnect reconnect (no sudo reboot !).

@@ -12,11 +12,11 @@
 
 Mit dem Mikromodul Z-Wave Fibaro FGRGB-101 können Sie zwischen 12 / 24V-Niederspannungsbeleuchtung (Halogen oder LED), einem weißen RGB- oder RGB + -LED-Streifen wählen oder sogar analoge Sonden mit dem 0-Standard anschließen. 10V.
 
--   4 analoge Eingänge 0 bis 10 V zum Anschluss an viele kompatible Sensoren, Potentiometer, Drucktasten (monostabil) oder Schalter (bistabil).
+-   ).
 -   4 Dimmerausgänge (PWM) zur Steuerung :
 -   1 Kanal mit RGB + weißer LED (RGBW) 12 / 24V
 -   \* oder 4 Kanäle mit weißen LEDs 12 / 24V
--   \* oder 4 Kanäle von 12 / 24V-Halogenlampen (144W 12V / 288W 24V max.)
+-   .)
 -   \* oder 12 / 24V-Lüfter.
 -   Benötigt separate 12 / 24V Stromversorgung.
 -   Globale oder sofortige oder kumulative Verbrauchsmessung.
@@ -24,7 +24,7 @@ Mit dem Mikromodul Z-Wave Fibaro FGRGB-101 können Sie zwischen 12 / 24V-Nieders
 
 ## Funktionen
 
--   Bestellen Sie Niederspannungslichter 12 / 24V (Halogen oder LED)
+-   )
 -   Wird hinter einem vorhandenen Switch installiert
 -   Zuvor programmierte Lichtsimulation
 -   EIN / AUS und Variationsfunktion
@@ -35,14 +35,14 @@ Mit dem Mikromodul Z-Wave Fibaro FGRGB-101 können Sie zwischen 12 / 24V-Nieders
 
 -   Versorgung : 12 V oder 24 V DC
 -   Maximale Ausgangsleistung :
--   \* 12A insgesamt (Addition aller Kanäle),
+-   ),
 -   \* 6A max. pro Kanal
 -   Maximale Leistung mit Halogenlampen :
--   \* 12V - 144W insgesamt (alle Kanäle),
--   \* 24V - 288W insgesamt (alle Kanäle)
+-   ),
+-   )
 -   PWM-Modulationsfrequenz : 244 Hz
 -   Verbrauch : 0,3W
--   Funkprotokoll : Z-Wave bei 868,4 MHz (EU)
+-   Funkprotokoll : )
 -   Z-Wave Sendeleistung : 1mW
 -   Betriebstemperatur : 0 - 40 C
 -   Zur Installation in Boxen : Ø ≥ 50 mm
@@ -85,11 +85,11 @@ Hier ist die Liste der Befehle :
 -   Farbe : Mit diesem Befehl können Sie den anzuzeigenden Farbcode anpassen
 -   Schornstein : Dies ist der Befehl, der eine Kaminatmosphäre simuliert
 -   Gewitter : Dies ist der Befehl, der eine Sturmatmosphäre simuliert
--   Morgendämmerung : Es ist der Befehl, der eine Aude-Atmosphäre simuliert (progressiver Sonnenaufgang)
+-   Morgendämmerung : )
 -   Verblassen : Dies ist der Befehl, der das gesamte Farbspektrum simuliert
 -   RBB : Dies ist der Befehl, der eine Cop-Atmosphäre simuliert
--   Kaltes Weiß : Dies ist der Befehl, der eine kühle weiße Farbe simuliert, wenn der Farbstreifen dies zulässt. (Dieser Befehl ist standardmäßig nicht sichtbar.)
--   Warmes Weiß : Dies ist der Befehl, der eine warmweiße Farbe simuliert, wenn der Farbstreifen dies zulässt. (Dieser Befehl ist standardmäßig nicht sichtbar.)
+-   Kaltes Weiß : Dies ist der Befehl, der eine kühle weiße Farbe simuliert, wenn der Farbstreifen dies zulässt. ()
+-   Warmes Weiß : Dies ist der Befehl, der eine warmweiße Farbe simuliert, wenn der Farbstreifen dies zulässt. ()
 -   Ein : Dies ist der Befehl, mit dem das Banner in der zuletzt ausgewählten Farbe aktiviert wird
 -   Aus : Dies ist der Befehl, der das Banner ausschaltet
 -   Intensität : Es ist die Steuerung, mit der die Lichtintensität eingestellt werden kann

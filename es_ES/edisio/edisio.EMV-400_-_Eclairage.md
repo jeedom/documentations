@@ -30,7 +30,7 @@ Finalmente, cada módulo se puede usar en modo remoto, es muy práctico porque p
 -   Compatible con finales de carrera electrónicos y mecánicos
 -   Modo remoto
 -   Función de temporizador: Modo de encendido / apagado: 30 min o 60 min
--   Réplica de señal (repetidor)
+-   Replica de señal (repetidor)
 -   Micromódulo bidireccional
 -   Nivel bajo de batería del transmisor
 -   Pequeño, discreto y estético

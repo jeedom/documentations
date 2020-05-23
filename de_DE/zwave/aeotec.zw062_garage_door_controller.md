@@ -51,7 +51,7 @@ Funktionen
 
 -   Akustische und visuelle Warnungen zum Öffnen / Schließen.
 
--   Einstellbare Alarmlautstärke (max. 105 dB)
+-   Einstellbare Alarmlautstärke (max. 105 dB))
 
 -   USB-Anschluss zum Laden eigener MP3-Sounds.
 

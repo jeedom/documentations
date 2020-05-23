@@ -12,11 +12,11 @@
 
 Mit dem Dimmermodul FGD-211 können Sie eine Lampe oder Deckenleuchte mithilfe des Z-Wave-Protokolls fernsteuern, während Sie Ihren vorhandenen Schalter beibehalten.
 
-Sie können daher die angeschlossene Lampe aktivieren und ihre Intensität mit dem vorhandenen Schalter, einem Z-Wave-Sender oder direkt über die Taste am Mikromodul variieren. Es ist mit allen Arten von Lampen kompatibel, die Variationen unterstützen (Glühlampen, Fluo-Compact, LED, ...). Das Fibaro-Dimmermodul ist ein technologisches Konzentrat, erkennt automatisch die Art der angeschlossenen Last und ist gegen Überspannungen geschützt.
+Sie können daher die angeschlossene Lampe aktivieren und ihre Intensität mit dem vorhandenen Schalter, einem Z-Wave-Sender oder direkt über die Taste am Mikromodul variieren. Es ist mit allen Arten von Lampen kompatibel, die Variationen unterstützen (Glühlampen, Fluo-Compact, LED,…). Das Fibaro-Dimmermodul ist ein technologisches Konzentrat, erkennt automatisch die Art der angeschlossenen Last und ist gegen Überspannungen geschützt.
 
-Bei Leuchtstofflampen, die kein Dimmen unterstützen, fungiert das Modul automatisch als Schaltmodul (nur EIN / AUS).
+Bei Leuchtstofflampen, die kein Dimmen unterstützen, fungiert das Modul automatisch als Schaltmodul (nur EIN / AUS)).
 
-Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden, um einen vorhandenen Schalter zu ersetzen, oder im Dreileiter-Modus durch eine herkömmliche Modulversorgung (Phase + Neutralleiter).
+Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden, um einen vorhandenen Schalter zu ersetzen, oder im Dreileiter-Modus durch eine herkömmliche Versorgung des Moduls (Phase + Neutral)).
 
 Für Lampen mit sehr geringem Verbrauch (z. B. LED-Lampe) können Sie die Last (Bypass) FGB-001 verwenden, die einen korrekten Betrieb des Moduls ermöglicht. Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Detektor in Ihr Netzwerk zu integrieren, wenn Sie bereits über ein vorhandenes Netzwerk verfügen. Jedes Z-Wave-Modul funktioniert wie ein drahtloser Repeater mit den anderen Modulen, um eine vollständige Abdeckung Ihres Hauses zu gewährleisten.
 
@@ -113,8 +113,8 @@ Parameterdetails :
 -   11: ermöglicht die Definition des Prozentsatzes der Abweichung (manuell)
 -   12: ermöglicht die Definition der maximal autorisierten Ebene
 -   13: ermöglicht das Definieren der autorisierten Mindeststufe
--   14: WICHTIGE EINSTELLUNG : ermöglicht die Auswahl zwischen dem Schalter BISTABLE oder MONOSTABLE (Druckknopf)
--   15: Aktiviert die Option, mit der die Helligkeit bei doppeltem Drücken auf Maximum eingestellt werden kann (oder bei bistabil zurückkehren)
+-   14: WICHTIGE EINSTELLUNG : Ermöglicht die Auswahl zwischen dem Schalter BISTABLE oder MONOSTABLE (Druckknopf))
+-   15: Aktiviert die Option, mit der die Helligkeit bei doppeltem Drücken auf Maximum eingestellt werden kann (oder bei bistabil zurückgesetzt werden kann))
 -   16: Option zum Aktivieren der Speicherung des letzten Status
 -   17: ermöglicht die Auswahl zwischen dem Hin- und Her-Modus und dem Fernbedienungsmodus
 -   18: ermöglicht die Synchronisation des Variationsniveaus mit den anderen zugeordneten Variatoren

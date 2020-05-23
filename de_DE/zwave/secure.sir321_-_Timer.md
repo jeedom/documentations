@@ -10,7 +10,7 @@
 
 ## Zusammenfassung
 
-Der digitale Timer SIR321 ist ein einfacher Druckschalter, der daran erinnert, dass Sie Ihre elektrischen Geräte für Sie ausgeschaltet haben. Durch Hinzufügen dieses einfachen Geräts zu jedem elektrischen Hochleistungsgerät mit einer Last von bis zu 3 kW (ohmsch) können große Energieeinsparungen erzielt werden.
+Der digitale Timer SIR321 ist ein einfacher Druckschalter, der daran erinnert, dass Sie Ihre elektrischen Geräte für Sie ausgeschaltet haben. Durch Hinzufügen dieses einfachen Geräts zu jedem elektrischen Hochleistungsgerät mit einer Last von bis zu 3 kW (ohmsch) können große Energieeinsparungen erzielt werden).
 
 Diese Geräte eignen sich perfekt für Heizpaneele, Tauchsieder, Handtuchwärmer und Ölkühler. Der Boost reicht von 30 bis 120 Minuten.
 
@@ -72,7 +72,7 @@ Wenn Sie das Modul konfigurieren möchten, müssen Sie auf die Schaltfläche "Ko
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/secure.sir321/config1.jpg)
 
@@ -80,8 +80,8 @@ Parameterdetails :
 
 -   1: Ermöglicht das Aktivieren oder Nicht-Aktivieren der ausfallsicheren Timer-Funktion (siehe Moduldokumentation)
 -   2: Stellt die Temperatureinheit ein
--   3: Stellen Sie das Zeitintervall für das Senden der Temperatur an Jeedom ein (in Sekunden)
--   4: Hier können Sie festlegen, um wie viel die Temperatur variieren muss, damit das Modul es an Jeedom sendet (in Schritten von 0).1 10- → 0,1)
+-   3: Legt das Zeitintervall für das Senden der Temperatur an Jeedom fest (in Sekunden))
+-   4: Hier können Sie festlegen, um wie viel die Temperatur variieren muss, damit das Modul es an Jeedom sendet (in Schritten von 0).1 10- → 0.1)
 -   5: Hier können Sie eine Abschalttemperatur einstellen, oberhalb derer das Modul das Relais abschaltet
 
 ### Gruppen

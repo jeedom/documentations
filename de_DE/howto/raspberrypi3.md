@@ -2,7 +2,7 @@
 
 Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-PI 3 **ohne microSD-Karte.**
 
-Der PI3 bietet in der Tat die Möglichkeit, direkt auf ein USB-Gerät zu booten und sich so von der microSD-Karte zu befreien, was manchmal zu Problemen führt (Beschädigung).
+Der PI3 bietet in der Tat die Möglichkeit, direkt auf ein USB-Gerät zu booten und sich so von der microSD-Karte zu befreien, die manchmal Probleme verursacht (Beschädigung)).
 
 **Der Installationsvorgang ist streng identisch mit dem auf einer microSD-Karte, Sie müssen jedoch sicherstellen, dass Sie über die aktuelle Firmware verfügen.**
 
@@ -55,7 +55,7 @@ Starten Sie dann PI3 neu
 -   **Ändern Sie den Swap-Call-Wert.** Standardmäßig ruft das System den Swap auf, wenn weniger als 40% des Ram vorhanden sind.
 -   Öffnen Sie die Datei, um diese Einstellung zu ändern :
     ``sudo nano /etc/sysctl.conf``
--   Fügen Sie diese Zeile hinzu, um Pi3 zu bitten, den Swap nur zu verwenden, wenn 10% des verfügbaren Speichers (100 MB verfügbarer RAM) vorhanden sind :
+-   Fügen Sie diese Zeile hinzu, um Pi3 zu bitten, den Swap nur zu verwenden, wenn 10% des verfügbaren Speichers (100 MB verfügbarer RAM) vorhanden sind) :
     ``vm.swappiness = 10``
 -   Dann neu starten :
     ``sudo reboot``
@@ -66,4 +66,4 @@ Starten Sie dann PI3 neu
     ``dtoverlay=pi3-disable-bt``
 -   Machen Sie einen sauberen Stopp
     ``sudo halt``
--   Trennen Sie die Verbindung wieder (kein Sudo-Neustart!).
+-   Trennen Sie die Verbindung wieder (kein Sudo-Neustart !).

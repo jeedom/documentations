@@ -37,17 +37,17 @@ Das PowerNode-Steckermodul ist mit einem Überstromschutz ausgestattet, um das a
 
 -   Versorgung : 250 V AC, 50 Hz
 -   Maximaler Ladestrom : 10A
--   Maximale Lastleistung : 2400 W (bei 240 V)
+-   Maximale Lastleistung : )
 -   Standby-Verbrauch : 0,4 W.
 -   Messgenauigkeit : ± 0,1 W.
 -   Überstromschutz : 10A interne Sicherung
--   Steckertyp : DIN49440 / EWG 7/7 (Schuko)
+-   Steckertyp : )
 -   Z-Wave-Radiofrequenz : 868,42 MHz
 -   Maximale Reichweite Z-Wave : 30m
 -   Betriebstemperatur : 0 ° C bis + 25 ° C
 -   Lagertemperatur : -20 ° C bis + 60 ° C
 -   Maximale Luftfeuchtigkeit : 5% bis 90%
--   IP-Klasse (Feuchtigkeitstoleranz) : IP20
+-   ) : IP20
 
 ## Moduldaten
 
@@ -101,8 +101,8 @@ Wie Sie sehen, gibt es für dieses Modul nicht viel Konfiguration.
 
 Parameterdetails :
 
--   1 : Verzögerung, bevor die Taste blinkt : Mindestanzahl von Sekunden zwischen zwei Kommunikationen (wenn diese Zeit überschritten wird, blinkt die Socket-Taste)
--   2 : Ausgewählte Radfarbe (automatisch erkannt)
+-   1 : Verzögerung, bevor die Taste blinkt : )
+-   2 : )
 
 ### Gruppen
 

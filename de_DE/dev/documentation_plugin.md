@@ -43,7 +43,7 @@ Das Online-Gehen ist ganz einfach. Aktivieren Sie in Ihrem Github-Repository "Ei
 
 ![doc-github](images/tutoDoc.png)
 
-Github stellt Ihnen dann einen Typlink zur Verfügung ``https://jeedom.github.io/plugin-template/`` (Nach ein paar Minuten sollten Sie Ihr Dokumentationslayout korrekt sehen.).
+Github stellt Ihnen dann einen Typlink zur Verfügung ``https://jeedom.github.io/plugin-template/`` (Nach ein paar Minuten sollten Sie Ihr Dokumentationslayout korrekt sehen).
 
 Jetzt müssen Sie die Links Ihrer Dokumentation in die Info-Datei einfügen.json deines Plugins dafür ist es notwendig :
 

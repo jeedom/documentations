@@ -20,7 +20,7 @@ Einige Materialien brennen ohne zu rauchen. Aus diesem Grund haben die Fibaro-In
 
 -   Z-Wave Rauchmelder
 -   Batteriebetrieben
--   Einstellbare Sensorempfindlichkeit (3 Stufen)
+-   )
 -   Manipulationsschutz
 -   Alarm durch Ton, LED-Licht und Z-Wave-Signal
 -   Branderkennung durch Messung der Lufttemperatur
@@ -37,13 +37,13 @@ Einige Materialien brennen ohne zu rauchen. Aus diesem Grund haben die Fibaro-In
 -   Akkulaufzeit : 3 Jahre
 -   Frequenz : 868,42 MHz
 -   Übertragungsentfernung : 50 m freies Feld, 30 m drinnen
--   Abmessungen : 65 x 28 mm (Durchmesser x Höhe)
+-   Abmessungen : )
 -   Betriebstemperatur : 0-55 ° C
 -   Betriebsfeuchtigkeit : 0% - 93%
 -   Temperaturmessbereich : -20 bis 100 ° C.
 -   Rauchempfindlichkeit : 1. Stufe - 1,20 +/- 0,5% obs / m; 2. Stufe - 1,80 +/- 0,5% obs / m; 3. Stufe - 2,80 +/- 0,5% obs / m
 -   Geräuschpegel: 85 dB bei 3 m
--   Messgenauigkeit : 0,5 ° C (in einem Bereich von 0 bis 55 ° C)
+-   Messgenauigkeit : )
 -   Standards : EMC 2004/108 / EC und R & TTE 199/5 / WE
 -   Zertifizierungen : EN 14604:2005
 
@@ -77,11 +77,11 @@ Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügb
 
 Hier ist die Liste der Befehle :
 
--   Rauch : Dies ist der Modulalarmbefehl (für Rauch, Hitze usw.)
+-   Rauch : )
 -   Temperatur : Es ist der Temperaturmessbefehl
 -   Sabotage : Dies ist der Sabotagebefehl. Es signalisiert das Öffnen des Gehäuses
 -   Testalarm : Es ist der Befehl, der die Tatsache anzeigt, dass sich das Modul im Testmodus befindet
--   Hitzealarm : Es ist die Steuerung, die einen Wärmealarm auslöst (noch nicht zuverlässig)
+-   Hitzealarm : )
 -   Batterie : Es ist der Batteriebefehl
 
 ### Konfiguration du module
@@ -106,11 +106,11 @@ Parameterdetails :
 -   1: Passt die Empfindlichkeit der Raucherkennung an
 -   2: Hier können Sie auswählen, welche Benachrichtigungen an Jeedom gesendet werden sollen (Beratung : toutes)
 -   3: ermöglicht die Auswahl, welche Benachrichtigungen von einer visuellen Anzeige begleitet werden
--   4: ermöglicht die Auswahl, welche Benachrichtigungen von einer akustischen Anzeige begleitet werden (in allen Fällen ertönt das Modul durch die Hitze- und Branderkennung)
+-   4: )
 -   10: Ändern Sie diese Einstellung nur, wenn Sie wissen, was Sie tun
 -   11: idem
 -   12: idem
--   13: Ermöglicht das Benachrichtigen anderer zwave-Module (zum Deaktivieren, sofern Sie nicht wissen, warum Sie es aktivieren)
+-   13: )
 -   20: Zeit zwischen zwei Temperaturberichten
 -   21: Temperaturdifferenz, von der aus die Temperatur an Jeedom gesendet wird, auch wenn die Dauer der Spitze nicht erreicht wird
 -   30: Temperatur des Wärmealarmauslösers

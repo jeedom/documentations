@@ -72,7 +72,7 @@ If you want to configure the module you have to go through the "Configuration" b
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the Settings tab)
+You will arrive on this page (after clicking on the parameters tab)
 
 ![Config1](images/secure.sir321/config1.jpg)
 
@@ -80,7 +80,7 @@ Parameter details :
 
 -   1: Allows you to activate or not the fail safe timer function (refer to the module documentation)
 -   2: Adjusts the temperature unit
--   3: Set the time interval for sending the temperature to Jeedom (in seconds)
+-   3: Sets the time interval for sending the temperature to Jeedom (in seconds)
 -   4: Allows you to set how much the temperature must vary for the module to send it to Jeedom (in steps of 0.1 10- → 0.1)
 -   5: Allows you to set a cut off temperature above which the module will cut off the relay
 

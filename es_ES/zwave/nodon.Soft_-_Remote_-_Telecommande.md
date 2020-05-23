@@ -69,7 +69,7 @@ Aquí está la lista de comandos :
 | Botones        | Apoyo          | Pulsación larga     | Relajamiento    | Doble soporte   |
 + ================ + ================ + ================ = + ================ + ================= +
 | **1 (0         | 10             | 12             | 11             | 13             |
-| completo)**       |                |                |                |                |
+| plein)**       |                |                |                |                |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **2 (+)**      | 20             | 22             | 21             | 23             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
@@ -90,15 +90,15 @@ Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/nodon.softremote/config1.png)
 
 Detalles del parámetro :
 
 -   1-2 : Le permite elegir el perfil de los botones cuando se usa centralmente (inútil para usar en Jeedom)
--   3 : Parámetro importante para decir si el interruptor debe funcionar en el modo Escena o Escena central (escena configurada absolutamente)
--   4-7 : Elija el modo de operación del botón (en caso de asociaciones de grupo)
+-   3 : Parámetro importante para decir si el interruptor debe funcionar en el modo Escena o Escena central (Configuración de escena absolutamente)
+-   4-7 : Elija el modo de funcionamiento del botón (en caso de asociaciones de grupo)
 -   8 : Le permite elegir el modo de funcionamiento del LED
 
 ### Grupos

@@ -69,11 +69,11 @@ Hier ist die Liste der Befehle :
 | Tasten        | Unterstützung          | Lange drücken     | Entspannung    | Doppelte Unterstützung   |
 + =============== + =============== + ================ = + =============== + ================= +
 | **1 (0         | 10             | 12             | 11             | 13             |
-| voll)**       |                |                |                |                |
+| plein)**       |                |                |                |                |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| **2 (+)**      | 20             | 22             | 21             | 23             |
+| **)**      | 20             | 22             | 21             | 23             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
-| **3 (0 leer)** | 30             | 32             | 31             | 33             |
+| **)** | 30             | 32             | 31             | 33             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **4 (-)**      | 40             | 42             | 41             | 43             |
 + ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
@@ -90,15 +90,15 @@ Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, 
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/nodon.softremote/config1.png)
 
 Parameterdetails :
 
--   1-2 : Ermöglicht die Auswahl des Profils der Schaltflächen bei zentraler Verwendung (für die Verwendung in Jeedom unbrauchbar)
--   3 : Wichtiger Parameter, um anzugeben, ob der Schalter im Szenen- oder zentralen Szenenmodus arbeiten soll (Szene absolut einstellen)
--   4-7 : Wählen Sie die Tastenbetriebsart (bei Gruppenzuordnungen)
+-   1-2 : )
+-   3 : )
+-   4-7 : )
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen
 
 ### Gruppen

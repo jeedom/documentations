@@ -10,7 +10,7 @@ It does not replace the [Documentation officielle](https://jeedom.github.io/plug
 
 # Create the plugin base
 
-To start, you have to determine a name and an id (which must not exist) :
+To start, you have to determine a name and an id (which must not exist)) :
 
 - Name : Poop Life
 - Id : vdm
@@ -119,7 +119,7 @@ I open the file ``desktop/php/desktop.php`` to correct.
 
 I replace ``color:#94ca02;"`` by ``color:#00A9EC;"``
 
-We also notice that the texts are not aligned so we correct the style of the configuration (top property)
+We also note that the texts are not aligned so we correct the style of the configuration (top property)
 
 ````
 {% raw %}<span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>{% endraw %}
@@ -344,7 +344,7 @@ switch ($this->getLogicalId()) {
 }
 ````
 
-Now it remains to launch the randomVdm () function . To do this, we retrieve the eqLogic (equipment) from the launch command and we launch the function
+Now it remains to launch the randomVdm function() . To do this, we retrieve the eqLogic (equipment) from the launch command and we launch the function
 
 ````
 $eqlogic = $this->getEqLogic(); // Récupération de l'eqlogic
@@ -396,7 +396,7 @@ There are several of them :
 - CronHourly : uh .. every hour
 - CronDaily : well 1 / day
 
-Considering the plugin we will update every hour (let's be crazy). So we will use the cronHourly () function.
+Considering the plugin we will update every hour (let's be crazy). So we will use the cronHourly function().
 
 We will therefore open the vdm.class file.php and search
 
@@ -480,7 +480,7 @@ It's good but it doesn't suit me. A la création de l'équipement, la commande �
 
 So we improve the code.
 
-For the creation of the commands we used the postSave () method. We will use the postUpdate () method to update the information.
+For the creation of the orders we used the postSave method(). We will use the postUpdate () method to update the information.
 
 The easiest way since there is only one command and it is created in postSave
 
@@ -505,7 +505,7 @@ public function postUpdate() {
 }
 ````
 
-But in this case we change the cronHourly () function
+But in this case we change the cronHourly function()
 
 ````
 public static function cronHourly($_eqLogic_id = null) {
@@ -591,7 +591,7 @@ $this->setDisplay("width","800px");
 
 Yes, but !! Because there is a but. Try adding this in the postsave () or postUpdate () function and it doesn't take into account the change. Why ? Well, read the doc of the template plugin ==> HERE
 
-Now that you have read correctly, you know that you must use the preSave () method
+Now that you have read correctly, you know that you must use the preSave method()
 
 ````
 public function preSave() {

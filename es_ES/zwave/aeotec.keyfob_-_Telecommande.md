@@ -34,7 +34,7 @@ Cada botón le permite controlar dos dispositivos o escenas gracias a la gestió
 -   Frecuencia: 868.42 MHz
 -   Distancia de transmisión : 100m en campo abierto
 -   Temperatura de funcionamiento : -10 ° C a 50 ° C
--   Dimensiones : 55 x 30 x 13 mm (largo x ancho x alto)
+-   Dimensiones : 55 x 30 x 13 mm (largo x ancho x alto))
 
 ## Datos del módulo
 
@@ -86,7 +86,7 @@ Llegará a esta página (después de hacer clic en la pestaña Configuración)
 ![Config1](images/aeotec.keyfob/config1.jpg)
 
 Detalles del parámetro :
--   250: modo de funcionamiento del control remoto (ponga absolutamente Scene para usarlo como control remoto)
+-   250: modo de funcionamiento del control remoto (ponga absolutamente a Scene para usarlo como control remoto)
 
 Todos los demás parámetros solo son útiles en el caso de asociación directa entre el control remoto y los módulos.
 
@@ -103,7 +103,7 @@ Para usar este módulo como control remoto, proceda de la siguiente manera :
 
 -   1 : Incluye control remoto
 -   2 : Despierta el control remoto
--   3 : Cambie el parámetro 250 a verdadero (haga esto incluso si ya parece ser verdadero)
+-   3 : Cambie el parámetro 250 a verdadero (hágalo incluso si ya parece verdadero))
 -   4 : Active el control remoto y asegúrese de que el cambio se haya tenido en cuenta
 -   5 : Cambie el modo de funcionamiento del control remoto presionando los dos botones en la parte posterior durante 3 segundos.
 

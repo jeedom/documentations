@@ -34,7 +34,7 @@ El sistema Poly-Control se puede utilizar en el hogar o en el trabajo. La cerrad
 -   Suministro : Batería de cloruro de litio de 3.6V
 -   Frecuencia : 868.42 Mhz
 -   Alcance : hasta 100 m en exteriores, hasta 30 m en edificios
--   Dimensiones : 120 x 52 x 60 mm (largo x ancho x alto)
+-   Dimensiones : 120 x 52 x 60 mm (largo x ancho x alto))
 -   Peso : 370g
 
 ## Datos del módulo
@@ -67,7 +67,7 @@ Una vez que se reconoce el módulo, los comandos asociados con el módulo estar�
 
 Aquí está la lista de comandos :
 
--   Estado : Este es el comando que volverá a la última acción ejecutada (abrir / cerrar)
+-   Estado : es el comando que volverá a la última acción ejecutada (abrir / cerrar)
 -   Abrir : es el comando que abre la cerradura
 -   Cerca : es el comando que hace posible cerrar la cerradura
 -   Batería : es el comando de la batería
@@ -82,7 +82,7 @@ Si desea configurar el módulo de acuerdo con su instalación, debe pasar por el
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/polycontrol.polylock/config1.jpg)
 
@@ -92,7 +92,7 @@ Detalles del parámetro :
 -   1: le permite definir cuánto tiempo se abrirá la cerradura para abrir (0 a 15 s)
 -   2: le permite definir cuánto tiempo se cerrará la cerradura (0 a 15 s)
 -   3: se usa para definir la velocidad de rotación de la cerradura (de 0 a 15, siendo 15 la más lenta)
--   4: le permite elegir entre diferentes modos de funcionamiento (par, fuerza, potencia, etc.)
+-   4: le permite elegir entre diferentes modos de funcionamiento (par, fuerza, potencia, etc.))
 
 ### Grupos
 

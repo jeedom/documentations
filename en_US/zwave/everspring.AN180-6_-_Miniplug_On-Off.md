@@ -66,7 +66,7 @@ Once the module is recognized, the commands associated with the modules will be 
 
 Here is the list of commands :
 
--   State : It is the command which makes it possible to know the status of the socket (On / Off)
+-   State : It is the command which makes it possible to know the status of the socket (On / off)
 -   We : This is the command that turns on the outlet
 -   Off : It is the command which makes it possible to extinguish the catch
 
@@ -78,7 +78,7 @@ You can configure the module according to your installation. To do this, go thro
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the Settings tab)
+You will arrive on this page (after clicking on the parameters tab)
 
 ![Config1](images/everspring.AN180-6/config1.jpg)
 

@@ -10,7 +10,7 @@
 
 ## Zusammenfassung
 
-Mit der Octan Remote NodOn® können Sie jeden Z-Wave®- oder Z-Wave Plus®-kompatiblen Empfänger wie die NodOn®-Fernbedienungsbuchse (Hauptsteuerungsmodus - Standalone) steuern oder sogar Szenen / Aktionen über ein Hausautomationssystem auslösen kompatibel (Gateway-Modus)
+)
 
 Dank seines integrierten Magneten kann er über seine Wandhalterung überall vom Kühler bis zur Kühlschranktür befestigt werden. Zwischen Fernbedienung und Schalter revolutioniert die Octan-Fernbedienung die Steuerung von Haushaltsgegenständen
 
@@ -26,7 +26,7 @@ Dank seines integrierten Magneten kann er über seine Wandhalterung überall vom
 
 -   Versorgung : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
 -   4 Tasten
--   Wandhalterung mit doppelseitigem Kleber (im Lieferumfang enthalten) oder Schrauben (nicht im Lieferumfang enthalten)
+-   )
 -   Integrierter Magnet zur Befestigung an der Metalloberfläche
 -   Betriebstemperatur : 0 ° C bis 40 ° C - Höhe : 2000m
 -   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Z-Wave Plus® SDK 06.51 kompatibel.01 Geltungsbereich: 40 m innen / 80 m außen
@@ -87,15 +87,15 @@ Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, 
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/nodon.octan/config1.jpg)
 
 Parameterdetails :
 
--   1-2 : Ermöglicht die Auswahl der Schaltflächenprofile bei zentraler Verwendung (für die Verwendung in Jeedom unbrauchbar)
--   3 : Wichtiger Parameter, um anzugeben, ob der Schalter im Szenen- oder zentralen Szenenmodus arbeiten soll (Szene absolut einstellen)
--   4-7 : Wählen Sie die Tastenbetriebsart (bei Gruppenzuordnungen)
+-   1-2 : )
+-   3 : )
+-   4-7 : )
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen
 
 ### Gruppen

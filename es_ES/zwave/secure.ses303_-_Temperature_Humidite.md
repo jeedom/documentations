@@ -12,7 +12,7 @@
 
 La sonda SES303 permite medir la temperatura ambiente interior y la humedad. Está alimentado por 2 baterías AA y tiene certificación Z-Wave Plus. Además de su función principal, es posible conectar varias sondas seguras externas en el módulo, ya sea:
 
--   Un sensor de temperatura externo NTC (SES001)
+-   Un sensor externo de temperatura NTC (SES001)
 -   4 sensores de temperatura con cable para manguera o tanque (SES002) conectados por cables de 1 m
 -   1 sensor de temperatura con cable para manguera o tanque (SES003) conectado por un cable de 4 m
 
@@ -84,16 +84,16 @@ Entonces es necesario configurar el módulo de acuerdo con su instalación. Para
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/secure.ses303/config1.jpg)
 
 Detalles del parámetro :
 
 -   1: Le permite establecer cuánto debe variar la temperatura para que el módulo lo envíe a Jeedom (en pasos de 0.1)
--   2: Le permite establecer el intervalo de tiempo para enviar la temperatura a Jeedom (en minutos)
--   3: Le permite establecer cuánto debe variar la humedad para que el módulo lo envíe a Jeedom (en%)
--   4: Establece el intervalo para enviar humedad a Jeedom (en minutos)
+-   2: Establezca el intervalo de tiempo para enviar la temperatura a Jeedom (en minutos)
+-   3: Le permite establecer cuánto debe variar la humedad para que el módulo lo envíe a Jeedom (por%)
+-   4: Le permite establecer el intervalo de tiempo para enviar humedad a Jeedom (en minutos)
 
 Todos los demás parámetros son idénticos y corresponden a todas las sondas externas posiblemente conectadas
 

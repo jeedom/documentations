@@ -16,7 +16,7 @@ Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-
 
 > **Notiz**
 >
-> Wenn Sie Ihr Bild mit Etcher brennen, ist der Dekomprimierungsschritt nutzlos (Zip-Format wird direkt bei der Auswahl der Bilddatei erkannt).
+> Wenn Sie Ihr Bild mit Etcher brennen, ist der Dekomprimierungsschritt nutzlos (das Zip-Format wird direkt bei der Auswahl der Bilddatei erkannt).
 
 ## Aktivieren Sie den SSH-Zugriff
 

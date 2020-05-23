@@ -28,14 +28,14 @@ Geben Sie Ihre Anmeldeinformationen bei ESXI ein :
 Wie Sie sehen können, ist die Benutzeroberfläche sehr schön und ermöglicht es Ihnen, viele Dinge zu tun. Ich werde nicht auf Details eingehen, aber Sie können bereits von diesem Bildschirm aus :
 
 -   Stoppen Sie den ESXi / starten Sie ihn neu
--   siehe Ressourcennutzung (CPU, Speicher und Festplatte)
+-   Siehe Ressourcennutzung (CPU, Speicher und Festplatte))
 -   Informationen zu Ihrem System haben (Betriebszeit, Version von VMware, Version des BIOS, Anzeige von Datenspeichern)
 -   Schaltfläche zum Erstellen einer VM (wir werden sie direkt danach verwenden)
--   Eine Aktionsschaltfläche, mit der Sie in den Wartungsmodus wechseln können (nützlich, wenn Sie einen ESXi-Cluster haben, andernfalls werden Sie ihn nie verwenden), den SSH-Dienst aktivieren / deaktivieren (wird im Tutorial zur Sicherungskonfiguration verwendet)
+-   Mit einer Aktionsschaltfläche, mit der Sie in den Wartungsmodus wechseln können (praktisch, wenn Sie einen ESXi-Cluster haben, den Sie sonst nie verwenden werden), aktivieren / deaktivieren Sie den SSH-Dienst (wird im Tutorial zur Sicherungskonfiguration verwendet)
 
 # Installations-ISO senden
 
-Nach dem Herunterladen Ihrer Installation iso ([hier](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) zum Beispiel für debian 8.5 in netinstall) müssen Sie es in Ihrem Datenspeicher ablegen.
+Nach dem Herunterladen Ihrer Installation ISO ([hier](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) zum Beispiel für debian 8.5 in netinstall) müssen Sie es in Ihrem Datenspeicher ablegen.
 
 Klicken Sie dazu auf Datenspeicher :
 
@@ -83,7 +83,7 @@ Geben Sie den Zieldatenspeicher an :
 
 ![vmware.createvm8](images/vmware.createvm8.PNG)
 
-Hier können Sie die Parameter Ihres Computers konfigurieren (Festplatte, CPU, Speicher…) :
+Hier können Sie die Parameter Ihres Computers konfigurieren (Festplatte, CPU, Speicher…)) :
 
 ![vmware.createvm9](images/vmware.createvm9.PNG)
 
@@ -125,7 +125,7 @@ Ihr Computer wird gestartet und Sie können Ihr Betriebssystem installieren :
 
 > **Wichtig**
 >
-> Sobald Ihr Computer installiert ist, müssen die VMware-Tools unbedingt installiert werden (VMware kann Informationen über Ihre VM haben und diese ordnungsgemäß herunterfahren). Unter debian einfach "sudo apt-get -y installiere open-vm-tools".
+> Sobald Ihr Computer installiert ist, ist es ABSOLUT erforderlich, VMware-Tools zu installieren (VMware kann Informationen über Ihre VM haben und diese ordnungsgemäß herunterfahren). Unter debian einfach "sudo apt-get -y installiere open-vm-tools".
 
 Für den Rest der Installation lade ich Sie ein, dies zu lesen [Tutorial](https://doc.jeedom.com/de_DE/howtoadvance/debian.installation)
 

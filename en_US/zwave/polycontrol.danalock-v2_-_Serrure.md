@@ -87,7 +87,7 @@ To put the Z-Wave plugin (openzwave) in Jeedom in secure inclusion mode : just g
 
 ![inclusion securise jeedom 1](images/polycontrol.danalock/inclusion-securise-jeedom-1.jpg)
 
-Then in the "Actions" tab click on : "Add module in secure mode (inclusion)"
+Then in the "Actions" tab click on : "ADD MODULE IN SECURE MODE (INCLUSION)"
 
 ![inclusion securise jeedom 2](images/polycontrol.danalock/inclusion-securise-jeedom-2.jpg)
 
@@ -115,7 +115,7 @@ Once the module is recognized, the commands associated with the module will be a
 
 Here is the list of commands :
 
--   Status : this is the command that will go back to the last action executed (open / close)
+-   Status : it is the command which will go back to the last action executed (open / close)
 -   Open : it is the command which opens the lock
 -   To close : it is the command which makes it possible to close the lock
 -   Drums : it's the battery command
@@ -130,7 +130,7 @@ If you want to configure the module according to your installation, you have to 
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the Settings tab)
+You will arrive on this page (after clicking on the parameters tab)
 
 ![Config1](images/polycontrol.danalock/bouton_configuration.jpg)
 

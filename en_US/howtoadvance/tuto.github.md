@@ -51,7 +51,7 @@ In my case, I therefore want to push a modification on the file *history.class.p
 
 ![tuto.github6](images/tuto.github6.png)
 
-In order to search the file, position yourself in the text block of the file that you have just opened in edit mode with the pencil and press "Ctrl + F" to activate the search. You paste or specify the text you are looking for (a significant element and a line only, not a whole block at once). Validate with "Enter" to start the search.
+In order to search the file, position yourself in the text block of the file that you have just opened in edit mode with the pencil and press "Ctrl + F" to activate the search. You paste or specify the text you are looking for (a significant element and a line only, not a whole block all at once). Validate with "Enter" to start the search.
 > **Tip**
 >
 > If you do not click in the window containing the text or the code you are looking for, the browser search will open and in my case, on Google chrome, it does not know how to search in the code or documentation directly.
@@ -76,12 +76,12 @@ Then on the lower part we find this : 1. Explicit title is indicated if possible
 The **commit** done above only concerns the fork of the project in your GitHub space. To submit changes to the original project, you must perform a PR (Pull Request)
 
 - We click on the Pull Request tab
-- New Pull Request (PR for friends)
+- New Pull Request (PR for friends))
 
 ![tuto.github9](images/tuto.github9.png)
 
 - The PR will launch a comparison between the jeedom database with your repository (the fork).
-- This indicates the modifications (the first is because I have updated myself since jeedom, the second concerning precisely the change of the lastchangestateduration function, perfect !!!)
+- This indicates the modifications (the first is because I have updated myself since jeedom, the second precisely concerning the change of the lastchangestateduration function, perfect !!!)
 - The old code
 - The new code
 - We create the Pull Request (PR)

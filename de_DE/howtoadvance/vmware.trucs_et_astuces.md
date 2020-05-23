@@ -66,7 +66,7 @@ Klicken Sie auf Fertig stellen :
 
 ![vmware.tips12](images/vmware.tips12.PNG)
 
-Und jetzt sollte Ihr neuer Datenspeicher angezeigt werden (andernfalls klicken Sie auf "Aktualisieren").
+Und jetzt sollte Ihr neuer Datenspeicher angezeigt werden (andernfalls klicken Sie auf "Aktualisieren"").
 
 # VAAI Synology Plugin für die NFS-Montage hinzugefügt
 
@@ -76,7 +76,7 @@ Um zu sehen, ob Sie es haben, müssen Sie sich mit dem Thick Client verbinden (i
 
 ![vmware.tips13](images/vmware.tips13.PNG)
 
-Die Implementierung ist recht einfach: Zuerst müssen Sie den SSH-Dienst des ESXi aktivieren (auf der Weboberfläche müssen Sie zu Aktion ⇒ Dienste ⇒ Secure Shell aktivieren) und dann in SSH oben eine Verbindung herstellen (die Bezeichner sind wie beim Zugriff auf die Schnittstelle). Dann musst du nur noch tun :
+Die Implementierung ist recht einfach: Zuerst müssen Sie den SSH-Dienst des ESXi aktivieren (auf der Weboberfläche müssen Sie zu Aktion ⇒ Dienste ⇒ Secure Shell aktivieren) und dann in SSH oben eine Verbindung herstellen (die Bezeichner sind das gleiche wie für den Zugriff auf die Schnittstelle). Dann musst du nur noch tun :
 
 ``esxcli software vib install -v https://global.download.synology.com/download/Tools/NFSVAAIPlugin/1.0-0001/VMware_ESXi/esx-nfsplugin.vib -f``
 
@@ -111,7 +111,7 @@ Sie müssen mit Ihrem Internetbrowser zur IP des ESXi gehen und dann auf den Lin
 
 ![vmware.createvm](images/vmware.createvm.PNG)
 
-Nach dem Herunterladen müssen Sie nur die Installation starten (ich gebe diesen Teil freiwillig weiter, da er ausreicht, um alles zu validieren).
+Nach dem Herunterladen müssen Sie nur noch die Installation starten (ich gebe diesen Teil freiwillig weiter, da er ausreicht, um alles zu validieren).
 
 Starten Sie dann VMware vSphere Client, den Sie haben sollten :
 
@@ -123,7 +123,7 @@ Sie müssen nur die IP Ihres ESXi, den Benutzernamen und das Passwort eingeben u
 
 # ESXi-Update
 
-Das Verfahren ist recht einfach. Sie müssen den Patch zuerst wiederherstellen, indem Sie fortfahren [hier](https://my.vmware.com/group/vmware/patch#search) (Sie müssen sich wahrscheinlich mit Ihrem VMware-Konto anmelden.). Auf der Liste ``Select a Product`` stellen ``ESXi (Embedded and Installable)``, Im Gegenteil, lassen Sie die neueste Version von VMware und tun Sie dies ``Search``. Laden Sie dann den gewünschten Patch herunter (normalerweise den letzten). Die Build-Nummer (die erste Nummer, die nicht mit KB beginnt) gibt Ihnen die Version des Patches, die Sie mit Ihrer Build-Nummer vergleichen können.
+Das Verfahren ist recht einfach. Sie müssen den Patch zuerst wiederherstellen, indem Sie fortfahren [hier](https://my.vmware.com/group/vmware/patch#search) (Sie müssen sich wahrscheinlich mit Ihrem VMware-Konto anmelden). Auf der Liste ``Select a Product`` stellen ``ESXi (Embedded and Installable)``, Im Gegenteil, lassen Sie die neueste Version von VMware und tun Sie dies ``Search``. Laden Sie dann den gewünschten Patch herunter (normalerweise den letzten). Die Build-Nummer (die erste Nummer, die nicht mit KB beginnt) gibt Ihnen die Version des Patches, die Sie mit Ihrer Build-Nummer vergleichen können.
 
 Übertragen Sie dann die Zip in einen Ihrer Datenspeicher und machen Sie :
 
@@ -194,7 +194,7 @@ Um dann auf Ihr ESXi zuzugreifen, müssen Sie nur mit Ihrem Browser zu Ihrem ext
 
 > **Wichtig**
 >
-> Wenn Sie den NAS-Reverse-Proxy verwenden, funktioniert die Konsole im Webmodus von VMs nicht (da sie über den Websocket ausgeführt wird). Wenn Sie jedoch die VMware Remote Console verwenden, sollte alles in Ordnung sein (über Port 902)
+> Wenn Sie den NAS-Reverse-Proxy verwenden, funktioniert die Konsole im VM-Webmodus nicht (da sie über den Websocket ausgeführt wird). Wenn Sie jedoch die VMware Remote Console verwenden, sollte alles in Ordnung sein (über Port 902))
 
 > **Notiz**
 >

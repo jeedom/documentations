@@ -5,7 +5,7 @@ Veremos aquí cómo actualizar manualmente en
 ## Prerrequisitos
 
 -   saber cómo conectarse en SSH a Jeedom
--   Conozca los identificadores SSH (consulte la documentación de instalación)
+-   Conocer los identificadores SSH (ver documentación de instalación)
 -   tener acceso a Internet desde el cuadro Jeedom
 
 > **Importante**

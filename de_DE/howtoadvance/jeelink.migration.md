@@ -16,11 +16,11 @@ Wir werden hier sehen, wie eine Installation mit Jeedom im Slave-Modus mit dem P
 >
 > Zum besseren Lesen und Verstehen dieses Tutorials werden hier die Begriffe verwendet :
 >
-> - **Jeedom Ziel** : Server (Ihr alter Jeedom Master), der die Ausrüstung des zentralisiert **Jeedom (s) Quelle (n)**  Die Screenshots auf schwarzem Hintergrund entsprechen dem **Jeedom Ziel**.
+> - **Jeedom Ziel** : Server (Ihr alter Jeedom Master), der die Ausrüstung des zentralisiert **Jeedom (s) Quelle (n))**  Die Screenshots auf schwarzem Hintergrund entsprechen dem **Jeedom Ziel**.
 >
 > - **Jeedom Source** : Server (Ihr / Ihr alter Jeedom Slave (s)), der Ihre Ausrüstung auf dem wieder zusammenbaut **Jeedom Ziel**.
 >
-> - Die Begriffe von **Jeedom Meister** und **Jeedom Sklave** nicht mehr relevant. Die neue Betriebsart der Gerätesynchronisation zwischen mehreren Jeedoms kann bidirektional sein. Ein Jeedom-Server kann jetzt sein **Quelle** und **Ziel** während der alte Modus nur den Aufstieg der Ausrüstung von erlaubte  **der Sklave** zu **der Meister**. Mit dem neuen Modus ist es auch möglich, mehrere zu haben **Jeedom Ziele** für das gleiche **Jeedom Source**. Die Kommunikation zwischen Jeedoms kann jetzt auch remote über das Internet erfolgen (Jeedom DNS oder andere).
+> - Die Begriffe von **Jeedom Meister** und **Jeedom Sklave** nicht mehr relevant. Die neue Betriebsart der Gerätesynchronisation zwischen mehreren Jeedoms kann bidirektional sein. Ein Jeedom-Server kann jetzt sein **Quelle** und **Ziel** während der alte Modus nur den Aufstieg der Ausrüstung von erlaubte  **der Sklave** zu **der Meister**. Mit dem neuen Modus ist es auch möglich, mehrere zu haben **Jeedom Ziele** für das gleiche **Jeedom Source**. Die Kommunikation zwischen Jeedoms kann jetzt auch über das Internet (Jeedom DNS oder andere) erfolgen).
 
 ![jeelink.migration9](images/jeelink.migration9.png)
 
@@ -50,8 +50,8 @@ Abhängig von den auf Ihrem installierten Plugins **Jeedom Sklave**, Die folgend
 
 ## Vorbeugende Backups
 
--   Mach a [Jeedom Backup](https://doc.jeedom.com/de_DE/core/doc-core-backup.html) von dir **Jeedom Meister** und dein **Jeedom Slave (s)** und stellen Sie es auf Ihrem PC / NAS wieder her….
--   Mach a [SD / Disk-Backup](https://doc.jeedom.com/de_DE/howto/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd) von dir **Jeedom Meister** und dein **Jeedom Slave (s)** und stellen Sie sie auf Ihrem PC / NAS wieder her….
+-   Mach a [Jeedom Backup](https://doc.jeedom.com/de_DE/core/doc-core-backup.html) von dir **Jeedom Meister** und dein (dein) **Jeedom Slave (s)** und stellen Sie es auf Ihrem PC / NAS wieder her….
+-   Mach a [SD / Disk-Backup](https://doc.jeedom.com/de_DE/howto/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd) von dir **Jeedom Meister** und dein (dein) **Jeedom Slave (s)** und stellen Sie sie auf Ihrem PC / NAS wieder her….
 
 # Migration
 
@@ -86,10 +86,10 @@ Auf deine **Jeedom Ziel**, *Plugins ⇒ Verwaltung von Plugins* :
 ## Konfiguration der Jeedom-Quelle
 
 -   Ändern Sie das Passwort des Administrators oder / und konfigurieren Sie einen neuen Benutzer.
--   Konfigurieren Sie Ihr Jeedom Market-Konto (*Konfiguration ⇒ Updates und Dateien ⇒ Registerkarte "Markt""*). Klicken Sie nach dem Speichern auf Test, um die Eingabe Ihrer Jeedom Market-IDs zu bestätigen.
+-   Konfigurieren Sie Ihr Jeedom Market-Konto (*Konfiguration ⇒ Updates und Dateien ⇒ Registerkarte "Markt""*). Klicken Sie nach dem Speichern auf Test, um die Eingabe Ihrer Jeedom Market-IDs zu bestätigen).
 -   Installation und Aktivierung des Plugins "Jeedom Link" auf dem neuen **Jeedom Source**.
 ![jeelink.migration2](images/jeelink.migration2.png)
--   Installation und Aktivierung von Plugins, die Sie verwenden möchten. (Es ist ratsam, sie einzeln durchzuführen und jedes Mal sorgfältig zu überprüfen, ob die Abhängigkeiten und Dämonen in Ordnung sind.).
+-   Installation und Aktivierung von Plugins, die Sie verwenden möchten. (Es ist ratsam, sie einzeln durchzuführen und jedes Mal zu überprüfen, ob die Abhängigkeiten und Dämonen in Ordnung sind).
 -   Erstellen Sie den Baum der Objekte (nur die, die für Sie nützlich sein werden) des **Jeedom Ziel** (Alter Meister) auf Ihrem neuen **Jeedom Source** (Ehemaliger Sklave).
 
 ## Konfiguration der Ausrüstung auf dem **Jeedom Source**
@@ -171,9 +171,9 @@ In der Registerkarte *Befehle*, Sie greifen auf alle Parameter der Gerätesteuer
 
 > **Notiz**
 >
-> Weiter machen **Jeedom Ziel** (Ehemaliger Meister) für jede Info-Bestellung der Ausrüstung des ersteren **Sklave** wessen Geschichte wir wiederherstellen wollen.
+> Weiter machen **Jeedom Ziel** (Ehemaliger Meister) für jeden Infobefehl der Ausrüstung des ersteren **Sklave** wessen Geschichte wir wiederherstellen wollen.
 
--   Gehen Sie zur Konfiguration des Befehls (*Zahnrad rechts*).
+-   Gehen Sie zur Bestellkonfiguration (*Zahnrad rechts*).
 -   Gehen Sie zur Registerkarte *Erweiterte Konfiguration*.
 -   Klicken Sie auf die Schaltfläche *Kopieren der Chronik von diesem Befehls auf einen anderen Befehl*.
 -   Suchen Sie die entsprechende Bestellung für das entsprechende neue JeeLink-Gerät und bestätigen Sie.
@@ -182,9 +182,9 @@ In der Registerkarte *Befehle*, Sie greifen auf alle Parameter der Gerätesteuer
 
 > **Notiz**
 >
-> Weiter machen **Jeedom Ziel** (Ehemaliger Meister) für jeden Info- / Aktionsbefehl der Ausrüstung des alten **Sklave** wessen Vorkommen wir in Szenarien / virtual /… ersetzen wollen
+> Weiter machen **Jeedom Ziel** (Ehemaliger Meister) für jeden Info- / Aktionsbefehl der Ausrüstung des ersteren **Sklave** wessen Vorkommen wir in Szenarien / virtual /… ersetzen wollen
 
--   Gehen Sie zur Konfiguration des Befehls (*Zahnrad rechts*).
+-   Gehen Sie zur Bestellkonfiguration (*Zahnrad rechts*).
 -   Gehen Sie zur Registerkarte *Information*.
 -   Klicken Sie auf die Schaltfläche *Diesen Befehl durch den Befehl ersetzen*.
 -   Suchen Sie die entsprechende Bestellung für das entsprechende neue JeeLink-Gerät und bestätigen Sie.
@@ -193,9 +193,9 @@ In der Registerkarte *Befehle*, Sie greifen auf alle Parameter der Gerätesteuer
 
 > **Notiz**
 >
-> Weiter machen **Jeedom Ziel** (Ehemaliger Meister) für jeden Info- / Aktionsbefehl der Ausrüstung des alten **Sklave** welche wir erweiterte Anzeigeeinstellungen abrufen möchten.
+> Weiter machen **Jeedom Ziel** (Ehemaliger Meister) für jeden Info- / Aktionsbefehl der Ausrüstung des ersteren **Sklave** welche wir erweiterte Anzeigeeinstellungen abrufen möchten.
 
--   Gehen Sie zur Konfiguration des Befehls (*Zahnrad rechts*).
+-   Gehen Sie zur Bestellkonfiguration (*Zahnrad rechts*).
 -   Klicken Sie auf die Schaltfläche *Übernehmen*.
 -   Suchen Sie den entsprechenden Befehl für das entsprechende neue JeeLink-Gerät, wählen Sie ihn aus und bestätigen Sie ihn.
 
@@ -203,11 +203,11 @@ In der Registerkarte *Befehle*, Sie greifen auf alle Parameter der Gerätesteuer
 
 > **Notiz**
 >
-> Weiter machen **Jeedom Ziel** (Ehemaliger Meister) für jeden Info- / Aktionsbefehl der Ausrüstung des alten **Sklave** die wir wollen die erweiterte Konfiguration wiederherstellen.
+> Weiter machen **Jeedom Ziel** (Ehemaliger Meister) für jeden Info- / Aktionsbefehl der Ausrüstung des ersteren **Sklave** die wir wollen die erweiterte Konfiguration wiederherstellen.
 
 -   Auf dieser Ebene ist dies keine einfache Lösung. In Ihrem Browser müssen zwei Registerkarten / Fenster geöffnet sein.
--   Offene Bestellungen für Altgeräte **Sklave** in einem Tab (Jeedom Target).
--   Öffnen Sie die Steuerelemente für jeeLink-Geräte auf der anderen Registerkarte (Jeedom Target).
+-   Offene Bestellungen für Altgeräte **Sklave** in einer Registerkarte (Jeedom Target).
+-   Öffnen Sie die Steuerelemente für jeeLink-Geräte auf der anderen Registerkarte (Jeedom Target)).
 -   Und kopieren Sie die gewünschten Parameter von Hand.
 
 > **Notiz**

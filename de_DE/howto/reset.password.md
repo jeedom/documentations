@@ -2,7 +2,7 @@
 
 # > 3.3.50
 
-Das erste, was Sie tun müssen, ist, in SSH eine Verbindung zu Jeedom herzustellen (mit einer Kitty- oder Kitt-Software).
+Das erste, was Sie tun müssen, ist, in SSH eine Verbindung zu Jeedom herzustellen (mit einem Software-Typ Kitty oder Putty).
 
 Dann müssen Sie nur noch tippen :
 
@@ -29,7 +29,7 @@ Operation successfull, your new password for user toto is : 9ULB5RUr3VGHxBD8tYVS
 
 Wir werden hier sehen, wie Sie das Jeedom-Passwort direkt ändern können, indem Sie es in der Datenbank ändern, falls Sie es vergessen haben
 
-Das erste, was Sie tun müssen, ist, in SSH eine Verbindung zu Jeedom herzustellen (mit einer Kitty- oder Kitt-Software).
+Das erste, was Sie tun müssen, ist, in SSH eine Verbindung zu Jeedom herzustellen (mit einem Software-Typ Kitty oder Putty).
 
 Sobald die Verbindung hergestellt ist, müssen Sie die Kennungen aus der Datenbank abrufen :
 
@@ -43,7 +43,7 @@ Hier finden Sie das Passwort für den Zugriff auf die Jeedom-Datenbank, das Sie 
 mysql -ujeedom -p
 ````
 
-Dort fragt er Sie nach dem oben wiederhergestellten Passwort (das Passwort wird nicht angezeigt : das ist normal). Geben Sie dann ein (oder besser kopieren / einfügen). Sie müssen unter Putty mit der rechten Maustaste klicken, um "einzufügen") :
+Dort fragt er Sie nach dem oben wiederhergestellten Passwort (das Passwort wird nicht angezeigt : es ist normal). Geben Sie dann ein (oder besser kopieren / einfügen). Sie müssen unter Putty mit der rechten Maustaste klicken, um "einzufügen"") :
 
 ````
 benutze Jeedom;

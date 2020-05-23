@@ -215,7 +215,7 @@
         "Gateway Xiaomi Zigbee, Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link, Nanoleaf": "Gateway Xiaomi Zigbee, Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link, Nanoleaf",
         "Pilote de nombreux périphériques wifi": "Treiber vieler WLAN-Geräte",
         "Sure PetCare": "Sicher PetCare",
-        "Plugin pour les objets connectées pour animaux Sure Petcare (Sureflap)": "Plug-In für Sure Petcare verbundene Objekte für Tiere (Sureflap)",
+        "Plugin pour les objets connectées pour animaux Sure Petcare (Sureflap": "Plug-In für Sure Petcare verbundene Objekte für Tiere (Sureflap",
         "K Roomba": "K Roomba",
         "Plugin pour contrôler les aspirateurs Roomba": "Plugin zur Steuerung von Roomba-Staubsaugern",
         "Home Connect": "Home Connect",
@@ -719,7 +719,7 @@
     },
     "plugins_contributor\/security\/index.md": {
         "Plugin permanent de faire de la reconnaissance de plaque d'immatriculation avec nos camera": "Permanentes Plugin zur Erkennung von Nummernschildern mit unseren Kameras",
-        "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos)": "Achtung, egal was Sie mit diesem Plugin autorisiert haben, denn es ist ganz einfach, das System zu täuschen (Zwillinge, Fotos)",
+        "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos": "Achtung, egal was Sie mit diesem Plugin autorisiert haben, denn es ist ganz einfach, das System zu täuschen (Zwillinge, Fotos",
         "Reconnaissance facial": "Gesichtserkennung",
         "Ce plugin permet utilise OpenCv pour détecter votre visiage et vous reconnaitre": "Mit diesem Plugin können Sie OpenCv verwenden, um Ihr Visier zu erkennen und Sie zu erkennen",
         "Sécurité": "Sicherheit",

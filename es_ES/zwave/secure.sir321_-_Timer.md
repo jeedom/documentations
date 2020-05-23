@@ -10,7 +10,7 @@
 
 ## Resumen
 
-El temporizador digital SIR321 es un simple interruptor de botón que recuerda apagar sus dispositivos eléctricos por usted. Es posible un gran ahorro de energía al agregar este dispositivo simple en cualquier dispositivo eléctrico de alta potencia, con cargas de hasta 3kW (resistivas).
+El temporizador digital SIR321 es un simple interruptor de botón que recuerda apagar sus dispositivos eléctricos por usted. Es posible un gran ahorro de energía al agregar este dispositivo simple en cualquier dispositivo eléctrico de alta potencia, con cargas de hasta 3kW (resistivo).
 
 Estas unidades son perfectas para usar en paneles de calefacción, calentadores de inmersión, calentadores de toallas y enfriadores de aceite. El impulso va de 30 a 120 minutos.
 
@@ -72,7 +72,7 @@ Si desea configurar el módulo, debe pasar por el botón "Configuración" del co
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/secure.sir321/config1.jpg)
 
@@ -80,7 +80,7 @@ Detalles del parámetro :
 
 -   1: Le permite activar o no la función de temporizador a prueba de fallas (consulte la documentación del módulo)
 -   2: Ajusta la unidad de temperatura
--   3: Establezca el intervalo de tiempo para enviar la temperatura a Jeedom (en segundos)
+-   3: Establece el intervalo de tiempo para enviar la temperatura a Jeedom (en segundos)
 -   4: Le permite establecer cuánto debe variar la temperatura para que el módulo lo envíe a Jeedom (en pasos de 0.1 10- → 0.1)
 -   5: Le permite establecer una temperatura de corte por encima de la cual el módulo cortará el relé
 

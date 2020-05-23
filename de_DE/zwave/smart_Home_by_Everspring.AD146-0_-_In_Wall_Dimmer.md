@@ -12,7 +12,7 @@
 
 Dieses Wanddimmer-Mikromodul von SmartHome Europe von Everspring dient zum Steuern des Ein- und Ausschaltens von Lichtern und elektrischen Geräten in Ihrem Zuhause. Es kann auch eine Dimmerfunktion bereitstellen, die nur mit Glühbirnen kompatibel ist. Bei einer Spannung von 230 V kann dieses Modul bis zu 300 Watt ohmsche oder glühende Ladung oder 200 Watt fluoreszierende Ladung unterstützen.
 
-Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden, um einen vorhandenen Schalter zu ersetzen, oder im Dreileiter-Modus durch eine herkömmliche Modulversorgung (Phase + Neutralleiter).
+Es kann im 2-Draht-Modus (ohne Neutralleiter) verwendet werden, um einen vorhandenen Schalter zu ersetzen, oder im Dreileiter-Modus durch eine herkömmliche Versorgung des Moduls (Phase + Neutral)).
 
 Das Wall Dimmer-Modul ist ein Z-Wave ™ -kompatibles Gerät, das für alle Z-Wave ™ -kompatiblen Netzwerke geeignet ist. Es kann von einer Fernbedienung, einer PC-Software oder einem beliebigen Z-Wave-Controller in Ihrem Netzwerk gesteuert werden.
 
@@ -88,7 +88,7 @@ Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie d
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/smarthomebyeverspring.AD146-0/config1.jpg)
 
@@ -97,7 +97,7 @@ Parameterdetails :
 -   1 : Dieser Parameter definiert den Statuswertbefehl. Es ist nicht ratsam, diesen Wert zu ändern.
 -   2 : Dieser Parameter definiert die Verzögerung für das Senden der Statusänderung an Gruppe 1 (Wert zwischen 3 und 25 Sekunden)
 -   3 : Mit diesem Parameter wird festgelegt, ob der Schalter nach einer Wiederherstellung der Stromversorgung seinen Status (EIN oder AUS) wieder einnimmt.
--   4 : Dieser Parameter definiert den Schaltertyp (Push / Bistable)
+-   4 : Dieser Parameter definiert den Schaltertyp (Push / Bistable))
 -   5 : Dieser Parameter definiert, ob der Schalter im Dimmmodus oder im Ein / Aus-Modus arbeitet
 
 ### Gruppen

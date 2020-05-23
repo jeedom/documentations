@@ -21,7 +21,7 @@ El interruptor también está equipado con un indicador LED que indica su estado
 ## Funciones
 
 -   Controla dos lámparas o dispositivos de forma remota
--   Se instala en lugar de un interruptor existente (cabe perfectamente en una caja de montaje empotrado de 40 mm)
+-   Se instala en lugar de un interruptor existente (cabe perfectamente en una caja empotrada de 40 mm))
 -   Función ON / OFF
 -   Soporta comandos de asociación (Grupo 1 y Grupo 2)
 -   Control local de los dos cargos
@@ -71,13 +71,13 @@ Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/mco.mhs412/config1.jpg)
 
 Detalles del parámetro :
 
--   1: Estado de ahorro antes de falla de energía : enable (permite encontrar el último estado de los interruptores justo antes del corte de energía) desechable (los interruptores estarán en estado APAGADO cuando vuelva la red eléctrica)
+-   1: Estado de ahorro antes de falla de energía : enable (permite encontrar el último estado de los interruptores justo antes del corte de energía) desechable (los interruptores estarán en estado OFF al regresar a la red eléctrica) )
 
 ### Grupos
 
@@ -92,7 +92,7 @@ Este módulo tiene 3 grupos de asociación. Solo el tercero es esencial.
 - los botones táctiles tienen un halo azul cuando se controla la carga
 - los botones táctiles tienen un halo naranja cuando la carga no está controlada
 - el tacto es bastante agradable y los controles receptivos
-- este interruptor puede controlar su carga en modo autónomo (no conectado a un controlador de onda z)
+- este interruptor puede controlar su carga en modo autónomo (no conectado a un controlador de onda z))
 
 ## Despertador
 

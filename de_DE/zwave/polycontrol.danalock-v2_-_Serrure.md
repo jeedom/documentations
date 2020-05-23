@@ -49,14 +49,14 @@ Danalock kombiniert die Eleganz und den Minimalismus des skandinavischen Designs
 -   1 Zylinder anpassbar an verschiedene Längen geliefert
 -   5 physische Schlüssel dienen zum Öffnen der Tür von außen
 -   Verbindung über Bluetooth Smart und Z-Wave
--   Integration in kompatible Z-Wave-Controller (eedomus, Vera,…)
+-   )
 -   Aktivitätsverlauf
 -   Verschiedene Einstellmöglichkeiten zum Schließen und Öffnen
 -   Zugriffsfreigabe : Geben Sie Ihrer Haushälterin oder einem Freund für einen begrenzten Zeitraum Zugang
 -   Automatische Kalibrierung
 -   Einfach zu installieren
 -   Batteriebetrieb
--   Kompatibel mit iOS (iPhone 4s oder höher), aber auch Android (ab 4.4).
+-   ).
 
 ## Technische Daten
 
@@ -64,7 +64,7 @@ Danalock kombiniert die Eleganz und den Minimalismus des skandinavischen Designs
 -   Versionen : V2
 -   Material : Massives eloxiertes Aluminium
 -   Kommunikation : Bluetooth und Z-Wave
--   Abmessungen : 79 mm x 49 mm (Durchmesser x Höhe)
+-   Abmessungen : )
 -   Gewicht : 363g
 
 ## Moduldaten
@@ -87,7 +87,7 @@ So versetzen Sie das Z-Wave-Plugin (openzwave) in Jeedom in den sicheren Einschl
 
 ![inclusion securise jeedom 1](images/polycontrol.danalock/inclusion-securise-jeedom-1.jpg)
 
-Klicken Sie dann auf der Registerkarte "Aktionen" auf : "Modul im sicheren Modus hinzufügen (Aufnahme)"
+Klicken Sie dann auf der Registerkarte "Aktionen" auf : ")"
 
 ![inclusion securise jeedom 2](images/polycontrol.danalock/inclusion-securise-jeedom-2.jpg)
 
@@ -115,7 +115,7 @@ Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügb
 
 Hier ist die Liste der Befehle :
 
--   Status : Dies ist der Befehl, der zur letzten ausgeführten Aktion zurückkehrt (Öffnen / Schließen)
+-   Status : )
 -   Öffnen : Es ist der Befehl, der das Schloss öffnet
 -   Schließen : Es ist der Befehl, der das Schließen des Schlosses ermöglicht
 -   Batterie : Es ist der Batteriebefehl
@@ -130,7 +130,7 @@ Wenn Sie das Modul gemäß Ihrer Installation konfigurieren möchten, müssen Si
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/polycontrol.danalock/bouton_configuration.jpg)
 
@@ -138,15 +138,15 @@ Parameterdetails :
 
 -   1 : Richtung 0-1 : 0 = Motor läuft im Uhrzeigersinn, 1 = Motor läuft im Uhrzeigersinn gegen den Uhrzeigersinn
 -   2 : Geschwindigkeit 1 = am langsamsten, 2 = langsam, 3 = normal, 4 = schnell, 5 = am schnellsten
--   3 : Modus 1 = Motorantrieb (Energieeinsparung), 2 = Vollantriebsmodus (Normal)
--   4 : Anzahl der Umdrehungen (1 = 10 Grad, 9 = 90 Grad usw.)
+-   3 : )
+-   4 : .)
 -   5 : Automatische Sperre 0-60 Wie viele Sekunden ab dem Zeitpunkt, zu dem die Sperre entsperrt wurde, um automatisch wieder geschlossen zu werden. Wenn 0, ist es deaktiviert.
--   6 : Deaktivieren oder aktivieren Sie das akustische Signal zum Sperren oder Entsperren (0 = Deaktivieren, 1 = Aktivieren.)
+-   6 : .)
 -   7 : Batterietyp : Stellen Sie den Batterietyp ein, der das Gerät mit Strom versorgt.
 -   8 : Batteriealarm : Wenn der Akkuladestand unter diesem Wert liegt, informiert das Gerät den Benutzer nach dem Sperren oder Entsperren mit einem akustischen Signal.
 -   9 : Turn & Go 0 = Turn & Go off, 1 = Turn & Go On. Latch & Go dreht den Griff automatisch, wenn es manuell betätigt wird.
--   10 : Brake & GoBack 0 = Deaktiviert. 1⇒15 Sekunden zum Bremsen. Bei Verwendung der Feststellbremse für x Sekunden, dann 75 Grad zurück. Entwickelt für spezielle Türen ohne Hebel. (Nur beim Entsperren).
--   11 : Async 0 = Async aus, 1 = Async ein. Wenn Async aktiviert ist, wird das Schloss automatisch kalibriert, wenn es bereits entsperrt ist, und erneut entsperrt (wird für spezielle Türschlösser verwendet).
+-   10 : Brake & GoBack 0 = Deaktiviert. 1⇒15 Sekunden zum Bremsen. Bei Verwendung der Feststellbremse für x Sekunden, dann 75 Grad zurück. Entwickelt für spezielle Türen ohne Hebel. ().
+-   11 : ).
 -   12 : Betriebsbericht
 
 ### Gruppen

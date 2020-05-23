@@ -12,7 +12,7 @@
 
 Este micromódulo de atenuador de pared de SmartHome Europe de Everspring está diseñado para controlar el encendido y apagado de luces y equipos eléctricos en su hogar. También puede proporcionar una función de atenuación que solo es compatible con bombillas. A un voltaje de 230V, este módulo puede soportar hasta 300 vatios en carga resistiva o incandescente, o 200 vatios en carga fluorescente.
 
-Se puede utilizar en modo de 2 hilos (sin neutro), reemplazando un interruptor existente o de tres hilos con un suministro de módulo convencional (fase + neutro).
+Se puede usar en modo de 2 hilos (sin neutro), reemplazando un interruptor existente o de tres hilos con un suministro convencional al módulo (Fase + Neutro)).
 
 El módulo de atenuación de pared es un dispositivo compatible con Z-Wave ™ diseñado para funcionar con todas las redes compatibles con Z-Wave ™. Puede ser controlado por un control remoto, software de PC o cualquier controlador Z-Wave en su red.
 
@@ -26,7 +26,7 @@ El módulo de atenuación de pared es un dispositivo compatible con Z-Wave ™ d
 -   Antena de largo alcance
 -   Tecnología Z-Wave Plus
 -   Se instala fácilmente en una caja de empotrar estándar
--   Usar en modo de 2 hilos (no es necesario neutral)
+-   Uso en modo de 2 hilos (neutro no necesario)
 -   Compatible con bombillas Led regulables
 -   Botón para incluir / excluir / asociar el módulo
 -   Función repetidora Z-Wave
@@ -88,7 +88,7 @@ Puede configurar el módulo de acuerdo con su instalación. Para hacer esto, vay
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/smarthomebyeverspring.AD146-0/config1.jpg)
 

@@ -1,6 +1,6 @@
 # Installierte VMware auf Nuc
 
-Hier ist ein Tutorial zum Installieren von VMware auf einem Intel NUC (Gen6). Wir werden später sehen, wie man Jeedom hinzufügt
+Hier ist ein Tutorial zum Installieren von VMware auf einem Intel NUC (Gen6)). Wir werden später sehen, wie man Jeedom hinzufügt
 
 # Das Material 
 
@@ -43,7 +43,7 @@ Sie müssen eine SSD und einen Speicher hinzufügen. SSD-Level Ich empfehle 240 
 
 ## Speicher
 
-Achtung für den Speicher ist DDR4 in So-DIMM 260 Pins unbedingt erforderlich, für VMware sind mindestens 4 GB erforderlich, aber aus Erfahrung rate ich Ihnen mindestens 8 GB (persönlich bin ich sogar bis zu 16 GB montiert, der NUC unterstützt höchstens 32 GB). Dort wird kein Speicher empfohlen, der billigste geht sehr gut (Vorsicht, ich nehme immer Packungen mit 2 Riegeln, dies verbessert die Leistung) :
+Achtung für den Speicher, den Sie unbedingt für DDR4 in So-DIMM 260-Pins benötigen, benötigen Sie mindestens 4 GB für VMware, aber aus Erfahrung empfehle ich Ihnen mindestens 8 GB (persönlich bin ich sogar bis zu 16 GB, der NUC unterstützt maximal 32 GB). Dort wird kein Speicher empfohlen, der billigste geht sehr gut (Vorsicht, ich nehme immer Packungen mit 2 Riegeln, dies verbessert die Leistung) :
 
 -   [Entscheidender SO-DIMM DDR4 8 GB (2 x 4 GB) 2133 MHz CL15 SR X8](http://www.ldlc.com/fiche/PB00204134.html) 35 €
 -   [Entscheidender SO-DIMM DDR4 16 GB (2 x 8 GB) 2133 MHz CL15 DR X8](http://www.ldlc.com/fiche/PB00204135.html) 65 €
@@ -64,7 +64,7 @@ Ich denke, es ist das Schwierigste, dein Leben zu vereinfachen :
 -   mach weiter [hier](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) und registrieren
 -   Warten Sie, bis die E-Mail die Registrierung bestätigt hat
 -   zurück [hier](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) und melden Sie sich an (möglicherweise werden Sie aufgefordert, die Bedingungen zu akzeptieren, die Sie validieren müssen)
--   dann geh [die](https://my.vmware.com/fr/web/vmware/details?productId=491&downloadGroup=ESXI60U2) und fügen Sie Ihrem Konto "ESXi ISO-Image (einschließlich VMware Tools) hinzu""
+-   dann geh [die](https://my.vmware.com/fr/web/vmware/details?productId=491&downloadGroup=ESXI60U2) und fügen Sie Ihrem Konto "ESXi ISO-Image" hinzu (einschließlich VMware Tools)"
 -   endlich zurück [hier](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) und dort müssen Sie in "Downlaod Packages" ein Paket "ESXi ISO-Image (einschließlich VMware Tools)" haben, das Sie herunterladen müssen
 
 ![installation.vmware.nuc](images/installation.vmware.nuc.PNG)
@@ -129,7 +129,7 @@ Dort ist es sehr einfach, stecken Sie einfach den USB-Stick in einen der USB-Ans
 >
 > Ich habe vergessen, die Validierung der Lizenz zu erfassen. Sie müssen nur zustimmen, indem Sie den Anweisungen folgen
 
-Wählen Sie hier die Festplatte aus, die der SSD entspricht (Sie können sie entweder nach Name oder nach Größe suchen)
+Wählen Sie hier die der SSD entsprechende Festplatte aus (Sie können sie entweder nach Name oder nach Größe suchen)
 
 ![installation.vmware.nuc13](images/installation.vmware.nuc13.jpg)
 
@@ -137,7 +137,7 @@ Wählen Sie "Französisch" :
 
 ![installation.vmware.nuc14](images/installation.vmware.nuc14.jpg)
 
-Geben Sie ein Passwort ein. Am Anfang rate ich Ihnen, eine einfache Sache wie "oooo" einzugeben (wir werden es später ändern.) :
+Geben Sie ein Passwort ein. Am Anfang rate ich Ihnen, eine einfache Sache wie "oooo" einzugeben (wir werden es später ändern) :
 
 ![installation.vmware.nuc15](images/installation.vmware.nuc15.jpg)
 
@@ -155,4 +155,4 @@ Sobald der Neustart abgeschlossen ist, sollten Sie haben :
 
 Hier ist VMware installiert (außerdem ist es schön, dass es Ihnen seine IP gibt), mehr als zum Spielen !!!
 
-Für den Rest ist hier ein [Tutorial](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.creer_une_vm.html) für die Erstellung Ihrer ersten VM. Und du wirst finden [hier](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.trucs_et_astuces.html) Tutorial zu Tipps und Tricks (zum Beispiel zum Aktualisieren Ihrer VMware-Lizenz)
+Für den Rest ist hier ein [Tutorial](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.creer_une_vm.html) für die Erstellung Ihrer ersten VM. Und du wirst finden [hier](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.trucs_et_astuces.html) Ein Tutorial mit Tipps und Tricks (zum Beispiel zum Aktualisieren Ihrer VMware-Lizenz)

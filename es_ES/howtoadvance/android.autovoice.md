@@ -82,4 +82,4 @@ Se acabó. En el reconocimiento de texto por AutoVoice, se llamará a Jeedom y s
 
 > **Punta**
 >
-> De forma predeterminada, AutoVoice deshabilita la búsqueda de Google Now, es posible cancelar este comportamiento, para eso, en Tasker, haga clic en su perfil, luego en "edición" (lápiz pequeño), luego en "avanzado" (en la parte inferior) y desmarque "Do" Google Now Search "(abajo).
+> De forma predeterminada, AutoVoice deshabilita la búsqueda de Google Now, es posible cancelar este comportamiento, para eso en Tasker haga clic en su perfil, luego en "edición" (lápiz pequeño), luego en "avanzado" (en la parte inferior) y desmarque "Do Google Now Search "(en la parte inferior).

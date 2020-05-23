@@ -24,7 +24,7 @@ check process apache2 with pidfile /var/run/apache2/apache2.pid
        if failed port 80 for 2 cycles then restart
 ````
 
-## Supervisión Nginx (incluido Php-fpm)
+## Supervisión Nginx (incluyendo Php-fpm)
 
 ````
 # Php-fpm

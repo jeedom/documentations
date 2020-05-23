@@ -67,7 +67,7 @@ Once the module is recognized, the commands associated with the module will be a
 
 Here is the list of commands :
 
--   Status : this is the command that will go back to the last action executed (open / close)
+-   Status : it is the command which will go back to the last action executed (open / close)
 -   Open : it is the command which opens the lock
 -   To close : it is the command which makes it possible to close the lock
 -   Drums : it's the battery command
@@ -82,7 +82,7 @@ If you want to configure the module according to your installation, you have to 
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the Settings tab)
+You will arrive on this page (after clicking on the parameters tab)
 
 ![Config1](images/polycontrol.polylock/config1.jpg)
 
@@ -92,7 +92,7 @@ Parameter details :
 -   1: allows you to define how long the lock will turn to open (0 to 15 s)
 -   2: allows you to define how long the lock will turn to close (0 to 15 s)
 -   3: used to define the speed of rotation of the lock (0 to 15, 15 being the slowest)
--   4: allows you to choose from different operating modes (torque, force, power, etc.)
+-   4: allows you to choose from different operating modes (torque, force, power, etc.))
 
 ### Groups
 

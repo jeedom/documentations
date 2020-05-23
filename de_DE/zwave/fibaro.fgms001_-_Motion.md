@@ -77,7 +77,7 @@ Hier ist die Liste der Befehle :
 -   Präsenz : Es ist der Befehl, der eine Anwesenheitserkennung erkennt
 -   Temperatur : Es ist der Befehl, der es ermöglicht, die Temperatur zu erhöhen
 -   Helligkeit : Es ist der Befehl, der es ermöglicht, die Helligkeit zu erhöhen
--   Sabotage : Dies ist der Sabotagebefehl (er wird bei Vibrationen ausgelöst)
+-   Sabotage : )
 -   Batterie : Es ist der Batteriebefehl
 
 ### Konfiguration du module
@@ -102,33 +102,33 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 
 Parameterdetails :
 
--   Aufwachen : Dies ist das Modul-Aufweckintervall (empfohlener Wert 7200)
+-   Aufwachen : )
 -   1: Stellt die Empfindlichkeit des Anwesenheitssensors ein
 -   2: Stellt die Trägheit des Anwesenheitssensors ein
 -   3: Es wird nicht empfohlen, diese Einstellung zu ändern
 -   4: Es wird nicht empfohlen, diese Einstellung zu ändern
--   6: Zeit, nach der der Sensor das Signal "Mehr Bewegung" sendet (empfohlener Wert 30)
--   8: Aktiviert den Nacht- / Tag-Modus oder beides (empfohlener Wert : immer aktiv)
--   9: Mit dieser Option können Sie den Schwellenwert für das Umschalten in den Nachtmodus festlegen (nützlich, wenn Sie Parameter 8 geändert haben.)
--   12: Nur ändern, wenn Sie wissen, warum Sie dies tun (z. B. Zuordnung zu einem Modul)
+-   6: )
+-   8: Aktiviert den Nacht- / Tag-Modus oder beides (empfohlener Wert : )
+-   9: )
+-   12: )
 -   14: idem
 -   16: idem
--   20: Empfindlichkeit des Kreiselsensors (empfohlener Wert 15)
--   22: Zeit, nach der der Sensor das Signal "Keine Sabotage mehr" sendet (empfohlener Wert 30)
--   24: Hier erfahren Sie, wie die Sabotage gemeldet wird (WICHTIG : empfohlener Wert : Anti-Sabotage-Sensor an SensorAlarm-Befehlsklasse gemeldet / Stornierung wird nach der in Parameter 22 festgelegten Zeit benachrichtigt
+-   20: )
+-   22: )
+-   24: Hier erfahren Sie, wie die Sabotage gemeldet wird (WICHTIG : empfohlener Wert :  )
 -   26: nur zu ändern, wenn Sie wissen, warum Sie es tun
--   40: Hier können Sie festlegen, um wie viel der Helligkeitswert geändert werden muss, um gesendet zu werden (empfohlener Wert 50)
--   42: ermöglicht die Angabe einer Mindestdauer zwischen zwei aufeinanderfolgenden Sendungen, auch wenn sich die Helligkeit nicht geändert hat (empfohlener Wert 3600)
--   60: Ermöglicht die Angabe, um wie viel der Temperaturwert geändert werden muss, um gesendet zu werden (empfohlener Wert 2 oder 0).2 Grad)
--   62: gibt die Häufigkeit der Temperaturmessungen an (empfohlener Wert 900)
--   64: ermöglicht die Angabe einer Mindestdauer zwischen zwei aufeinanderfolgenden Sendungen, auch wenn sich die Temperatur nicht geändert hat (empfohlener Wert 2700)
+-   40: )
+-   42: )
+-   60: Ermöglicht die Angabe, um wie viel der Temperaturwert geändert werden muss, um gesendet zu werden (empfohlener Wert 2 oder 0).)
+-   62: )
+-   64: )
 -   66: ermöglicht die Einstellung der Temperatur
--   80: ermöglicht die Auswahl der Farbe der LED bei Bewegungserkennung (siehe Deaktivieren)
+-   80: )
 -   81: ermöglicht die Einstellung der Helligkeit der LED
--   82: Passt die minimale Helligkeitsschwelle an, um die LED auf 1% einzustellen (verknüpft mit Parameter 81)
--   83: Passt die maximale Helligkeitsschwelle an, um die LED auf 100% einzustellen (verknüpft mit Parameter 81)
--   86: Temperatur, unter der die LED blau leuchtet (verbunden mit Parameter 81)
--   87: Temperatur, oberhalb derer die LED rot leuchtet (verbunden mit Parameter 81)
+-   82: )
+-   83: )
+-   86: )
+-   87: )
 -   89: Ermöglicht es der LED, im Falle einer Sabotage blau / weiß / rot zu blinken
 
 ### Gruppen
@@ -153,7 +153,7 @@ Dieses Modul hat drei Assoziationsgruppen, nur die dritte ist wesentlich.
 
 Um dieses Modul aufzuwecken, gibt es nur einen Weg :
 
--   Drücken Sie die Einschlusstaste dreimal (das Licht wird blau). Selbst wenn das Licht aufleuchtet, kann es erforderlich sein, dies mehrmals hintereinander zu tun (2 oder 3)
+-   ). )
 
 ## Faq.
 

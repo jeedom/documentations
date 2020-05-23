@@ -24,7 +24,7 @@ The Z-Wave Fibaro FGRGB-101 micromodule can be used to control low-voltage 12 / 
 
 ## Functions
 
--   Order low voltage lights 12 / 24V (halogen or LED)
+-   Control low voltage 12 / 24V lights (halogen or LED)
 -   Installs behind an existing switch
 -   Previously programmed light simulation
 -   ON / OFF and Variation function

@@ -21,7 +21,7 @@ Der Detektor erhöht auch die Helligkeit und die Temperatur, d. H. Im Falle eine
 ## Funktionen
 
 -   3 in 1 Detektor: Bewegung, Temperatur, Licht
--   Übernimmt den aktuellen Chip der Z-Wave 400series, um Mehrkanalbetrieb und höheren Datendurchsatz (9,6 / 40 / 100kbps) zu unterstützen
+-   )
 -   Verwendet das Z-Wave 6.02 SDK
 -   Optimierte Antennenreichweite
 -   Verwendung für Hausautomations- oder Sicherheitsanwendungen
@@ -107,14 +107,14 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 Parameterdetails :
 
 -   2: Legt das an die Module in Zuordnungsgruppe 2 gesendete Signal fest
--   3: Stellt die Empfindlichkeit des Anwesenheitssensors ein (0 : deaktiviert 99: maximale Empfindlichkeit)
+-   3: Stellt die Empfindlichkeit des Anwesenheitssensors ein (0 : deaktiviert 99: )
 -   4: Stellt die Helligkeitsstufe ein, ab der das in Parameter 2 definierte Signal an die der Gruppe 2 zugeordneten Module gesendet wird
--   5: Betriebsmodus (nicht empfohlen, um ihn zu ändern : siehe Dokumentation des Herstellers)
--   6: Multisensor-Betriebsmodus (nicht zum Ändern empfohlen : siehe Dokumentation des Herstellers)
+-   5: Betriebsmodus (nicht empfohlen, um ihn zu ändern : )
+-   6: Multisensor-Betriebsmodus (nicht zum Ändern empfohlen : )
 -   9: Hiermit können Sie festlegen, nach welcher Zeit das AUS-Signal an die der Gruppe 2 zugeordneten Module gesendet werden soll
--   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterieberichten definieren (eine Einheit = 30 Minuten)
--   12: Mit dieser Option können Sie die Dauer zwischen zwei Helligkeitsberichten definieren (eine Einheit = 30 Minuten)
--   13: Mit dieser Option können Sie die Zeit zwischen zwei Temperaturberichten definieren (eine Einheit = 30 Minuten)
+-   10: )
+-   12: )
+-   13: )
 
 ### Gruppen
 

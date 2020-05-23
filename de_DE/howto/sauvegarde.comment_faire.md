@@ -4,7 +4,7 @@ Es gibt zwei Möglichkeiten, Jeedom zu retten, und jede hat Vor- und Nachteile.
 
 Es ist möglich, über die Jeedom-Oberfläche zu speichern. Dies betrifft nur die Jeedom-Software und ihre Daten. Es hat den Vorteil, dass es heiß gemacht werden kann und die Sicherungsdatei auf andere Medien exportiert werden kann.
 
-Es ist auch möglich, ein Backup zu erstellen, indem Sie ein Disk-Image der microSD-Karte (mini und mini +) erstellen. Dieser Weg hat den Vorteil, dass eine vollständige Sicherung des Systems sowie von Jeedom und seinen Daten möglich ist. Dies muss durch Ausschalten von Jeedom und Anschließen der microSD-Karte an einen anderen Computer erfolgen.
+Es ist auch möglich, ein Backup zu erstellen, indem Sie ein Disk-Image der microSD-Karte (mini und mini +) erstellen). Dieser Weg hat den Vorteil, dass eine vollständige Sicherung des Systems sowie von Jeedom und seinen Daten möglich ist. Dies muss durch Ausschalten von Jeedom und Anschließen der microSD-Karte an einen anderen Computer erfolgen.
 
 Der beste Weg, leise zu sein, ist, beide zu verwenden : Erstellen Sie von Zeit zu Zeit ein Backup der microSD-Karte und planen Sie ein regelmäßiges Backup von Jeedom.
 
@@ -90,5 +90,5 @@ Um Ihre Aufgabe zu vereinfachen, können Sie die Software herunterladen [ApplePi
 ### Verpflegung
 
 -   Öffnen Sie ein Terminal und geben Sie den Befehl ein, um die der Karte entsprechende Festplatte zu finden : ``sudo fdisk -l | grep Dis``
--   Entfernen Sie die Partitionen von der Karte, indem Sie den Befehl eingeben (das X durch die Partitionsnummern ersetzen) : ``sudo umount /dev/sdcX``
+-   Entfernen Sie die Partitionen von der Karte, indem Sie den Befehl eingeben (das X durch die Partitionsnummern ersetzen)) : ``sudo umount /dev/sdcX``
 -   Stellen Sie das Bild auf der microSD-Karte wieder her, indem Sie den Befehl eingeben : ``sudo dd if=Backup_Jeedom.img of=/dev/sdc bs=1m`` *Bemerkung: In diesem Beispiel lautet der Name der Festplatte / dev / sdc.*

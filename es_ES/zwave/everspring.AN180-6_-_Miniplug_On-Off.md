@@ -10,7 +10,7 @@
 
 ## Resumen
 
-El mini enchufe de encendido / apagado está diseñado para controlar el encendido y apagado de luces y equipos eléctricos en su hogar. Con un voltaje de 220 - 240 V, este enchufe puede soportar una carga de hasta 1500W (resistencia), 800W (incandescente), 200W (motor, fluorescente, Led).
+El mini enchufe de encendido / apagado está diseñado para controlar el encendido y apagado de luces y equipos eléctricos en su hogar. Con un voltaje de 220 - 240 V, este enchufe puede soportar una carga de hasta 1500W (resistencia), 800W (incandescente), 200W (motor, fluorescente, Led)).
 
 El Mini On / Off Plug es un dispositivo compatible con Z-Wave ™ diseñado para funcionar con todas las redes compatibles con Z-Wave ™. Puede ser controlado por un control remoto, software de PC o cualquier controlador Z-Wave en su red.
 
@@ -78,7 +78,7 @@ Puede configurar el módulo de acuerdo con su instalación. Para hacer esto, vay
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/everspring.AN180-6/config1.jpg)
 

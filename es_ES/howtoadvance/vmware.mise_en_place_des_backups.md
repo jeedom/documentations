@@ -86,7 +86,7 @@ Aquí lanzaremos una primera copia de seguridad inicial de todas las máquinas v
 
 ``/vmfs/volumes/Backup/ghettoVCB.sh -a -g /vmfs/volumes/Backup/ghettoVCB.conf``
 
-Esto lanzará una copia de seguridad de todas sus máquinas virtuales (y, por lo tanto, puede llevar mucho tiempo). Al final, debe tener en su almacén de datos de respaldo una carpeta por VM y en cada carpeta de VM una subcarpeta por fecha que contenga 4 archivos :
+Esto lanzará una copia de seguridad de todas sus máquinas virtuales (y, por lo tanto, puede llevar mucho tiempo)). Al final, debe tener en su almacén de datos de respaldo una carpeta por VM y en cada carpeta de VM una subcarpeta por fecha que contenga 4 archivos :
 
 ![vmware.backup2](images/vmware.backup2.PNG)
 
@@ -132,7 +132,7 @@ Y antes ``exit 0`` agregue las siguientes líneas :
 >
 > No olvide adaptar la ruta al archivo de configuración ghettoVCB de acuerdo con su configuración : ``/vmfs/volumes/Backup/ghettoVCB.conf``
 
-Ultimo paso: debes reiniciar tu ESXi para que se tenga en cuenta cron, puedes ver el resultado haciendo (siempre en SSH) :
+Ultimo paso: debe reiniciar su ESXi para que se tenga en cuenta cron, puede ver el resultado haciendo (siempre en SSH) :
 
 ``cat /var/spool/cron/crontabs/root``
 

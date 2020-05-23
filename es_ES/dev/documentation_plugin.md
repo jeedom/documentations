@@ -39,11 +39,11 @@ Una vez hecho esto, tendrá en la carpeta docs una carpeta fr_FR (la única para
 
 ### Publicación
 
-Conectarse en línea es bastante simple, en su repositorio de github, luego en "Configuración" y en la parte de "Páginas de GitHub", actívelo en la "rama maestra / carpeta de documentos" (como lo indica la redacción de solo los archivos en el la carpeta / documentación de la rama maestra de su complemento estará en línea).
+Conectarse en línea es bastante simple, en su repositorio de github, luego en "Configuración" y en la parte de "Páginas de GitHub", actívelo en "rama maestra / carpeta de documentos" (como lo indica la redacción de solo los archivos en el la carpeta / documentación de la rama maestra de su complemento estará en línea).
 
 ![doc-github](images/tutoDoc.png)
 
-Github le proporcionará un enlace de tipo ``https://jeedom.github.io/plugin-template/`` (después de unos minutos de revisarlo, debería ver el diseño de la documentación correctamente).
+Github le proporcionará un enlace de tipo ``https://jeedom.github.io/plugin-template/`` (después de unos minutos, debería ver el diseño de la documentación correctamente).
 
 Ahora necesita poner los enlaces de su documentación en el archivo de información.json de tu plugin para eso es necesario :
 

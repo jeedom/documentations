@@ -14,7 +14,7 @@ Hay varias formas en Jeedom para informar una inquietud :
 
 > **Importante**
 >
-> El soporte se realiza exclusivamente por correo electrónico, recuerde controlar su correo no deseado. Muy a menudo, el soporte responde rápidamente (demora antes de la respuesta en promedio de menos de 72 horas, tenga cuidado dependiendo del problema, puede ser mucho más largo).
+> El soporte se realiza exclusivamente por correo electrónico, recuerde controlar su correo no deseado. Muy a menudo, el soporte responde rápidamente (demora antes de la respuesta en promedio de menos de 72 horas, tenga cuidado, dependiendo del problema, puede ser mucho más largo).
 
 ## Qué información enviar para tener una solución lo más rápido posible ?
 
@@ -24,7 +24,7 @@ Pero como realmente queremos ayudarlo, aquí hay algunas pistas para brindarnos 
 
 - Su preocupación se refiere a un problema de visualización gráfica (widget, página, campos de texto ...), incluso si le parece obvio durante la explicación, coloque una captura de pantalla (de hecho, es posible copiar el ¡imagen directamente en la comunidad!), le tomará 30 segundos, le ahorrará varias decenas de minutos a la persona que intenta ayudarlo, y obtendrá una respuesta relevante, más rápido.
 - Tiene un error "500" o "\ {\ {" en Jeedom : en este caso, coloque directamente el archivo http.error (puede encontrarlo rápidamente en Análisis -> Registros), sin eso, no podemos saber de dónde viene el problema (de nuevo, no hay luz de advertencia en libertad o entre desarrolladores externos para el momento !^^)
-- Tiene un error de JavaScript (panel de advertencia en la parte superior derecha) o cuando hace F12, entonces consuela una línea roja. En este caso, comience por darnos el mensaje de error completo en cuestión. Desafortunadamente, en la mayoría de los casos, este mensaje de error a veces es un poco vago, por sí solo no permite identificar el problema encontrado. También lo hace F12 (en el navegador, en la pestaña Jeedom donde tiene problemas). Luego haga clic en "consola", luego intente reproducir el problema encontrado (comience por actualizar la página y, si es necesario, repita las mismas acciones). Normalmente recibirá el mensaje de error nuevamente, pero esta vez deberá hacer clic al final de la línea (puede ser como en la captura de pantalla siguiente o en el formulario VMXXX.js) :
+- Tiene un error de JavaScript (panel de advertencia en la parte superior derecha) o cuando hace F12, entonces consuela una línea roja. En este caso, comience por darnos el mensaje de error completo en cuestión. Desafortunadamente, en la mayoría de los casos, este mensaje de error a veces es un poco vago, por sí solo no permite identificar el problema encontrado. Entonces debe hacer F12 (en el navegador, en la pestaña Jeedom donde tiene problemas). Luego haga clic en "consola", luego intente reproducir el problema encontrado (comience por actualizar la página y, si es necesario, repita las mismas acciones)). Normalmente recibirá el mensaje de error nuevamente, pero esta vez deberá hacer clic al final de la línea (puede ser como en la captura de pantalla siguiente o en el formulario VMXXX.js) :
 
 ![remonter_un_bug001](images/remonter_un_bug001.png)
 

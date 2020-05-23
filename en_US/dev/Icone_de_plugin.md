@@ -14,7 +14,7 @@ This file is required.
 
 Thank you in advance for not using the same color code as the icons of the official Jeedom plugins.
 
-For 2020 it is now recommended to no longer put the name under the image (be careful to keep the same size of the model anyway!)
+For 2020 it is now recommended to no longer put the name under the image (be careful to keep the same size of the model anyway !)
 
 Please use this template (rounded bors, size, colored background, transparency around etc.):
 

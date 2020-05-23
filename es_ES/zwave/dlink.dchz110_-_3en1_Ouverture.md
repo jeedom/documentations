@@ -12,7 +12,7 @@
 
 El detector DCH-Z110 ofrece 3 funciones diferentes : detección de apertura, sensor de temperatura y detector de luz. Consta de dos partes : un detector y un imán. Están diseñados para colocarse en una puerta o ventana con el imán fijado en la parte de apertura y el detector en la parte fija.
 
-Abrir la puerta o ventana alejará el imán del detector, lo que activará el detector que enviará una señal de alarma de onda Z, si el sistema está armado (esta señal puede ser operada por una sirena o por un caja de domótica, por ejemplo). El sensor también se puede utilizar para el control automático de la iluminación, según el nivel de brillo. Por ejemplo, el sensor enviará una señal al interruptor Z-Wave para encender la luz cuando la puerta se abra y la habitación esté oscura.
+Al abrir la puerta o ventana, el imán se alejará del detector, lo que activará el detector que enviará una señal de alarma de onda Z, si el sistema está armado (esta señal puede ser operada por una sirena o por un caja de domótica por ejemplo). El sensor también se puede utilizar para el control automático de la iluminación, según el nivel de brillo. Por ejemplo, el sensor enviará una señal al interruptor Z-Wave para encender la luz cuando la puerta se abra y la habitación esté oscura.
 
 El detector también aumentará el brillo y la temperatura, es decir, en caso de un cambio significativo, y cada vez que se detecte la apertura / cierre. Es necesario un controlador Z-Wave (control remoto, dongle ...?) Para integrar este detector en su red si ya tiene una red existente.
 
@@ -50,7 +50,7 @@ Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consult
 
 > **Importante**
 >
-> No instale el módulo en la ventana / puerta antes de haberlo configurado correctamente, y preste especial atención a la alineación del imán al probar en una superficie plana y al instalar. (Use cuñas si es necesario) Para poner este módulo en modo de inclusión, presione el botón de asociación 3 veces 3.5 segundos, según su documentación. (parpadeo rojo constante en modo asociación)
+> No instale el módulo en la ventana / puerta antes de haberlo configurado correctamente, y preste especial atención a la alineación del imán al probar en una superficie plana y al instalar. (Use cuñas si es necesario) Para poner este módulo en modo de inclusión, debe presionar el botón de asociación 3 veces 3.5 segundos, según su documentación. (parpadeo rojo constante en modo asociación)
 
 ![config inclusion](images/dlink.dchz110/config-inclusion.jpg)
 
@@ -96,10 +96,10 @@ Detalles del parámetro :
 -   6: modo de funcionamiento multisensor (consulte la documentación del fabricante). Valor recomendado : 7
 -   7: modo de funcionamiento personalizado del multisensor (consulte la documentación del fabricante). Valor recomendado : 20 (tener la apertura funcional)
 -   9: permite definir después de cuánto tiempo se enviará la señal OFF a los módulos asociados con el grupo 2
--   10: se usa para definir la duración entre dos informes de batería (una unidad = parámetro 20)
--   11: le permite definir la duración entre dos informes de apertura automáticos (una unidad = parámetro 20)
+-   10: le permite definir la duración entre dos informes de batería (una unidad = parámetro 20)
+-   11: Se utiliza para definir la duración entre dos informes de apertura automática (una unidad = parámetro 20)
 -   12: le permite definir la duración entre dos informes de brillo automático (una unidad = parámetro 20). Valor recomendado : 6
--   13: permite definir la duración entre dos informes de temperatura automáticos (una unidad = parámetro 20). Valor recomendado : 2
+-   13: le permite definir el tiempo entre dos informes de temperatura automáticos (una unidad = parámetro 20). Valor recomendado : 2
 -   20: duración de un intervalo para los parámetros 10 a 13. Valor recomendado : 10
 -   21: valor de variación de temperatura en ° F para activar un informe
 -   22: valor en% de variación de brillo para activar un informe. Valor recomendado : 10
@@ -125,7 +125,7 @@ Para activar este módulo, solo hay una forma :
 
 Este módulo se activa presionando su botón de asociación.
 
-Este módulo es un módulo de batería, la nueva configuración se tendrá en cuenta en la próxima activación. (botón de asociación para forzarlo, de ahí la ventaja de no instalar el módulo antes de que esté configurado correctamente)
+Este módulo es un módulo de batería, la nueva configuración se tendrá en cuenta en la próxima activación. (botón de asociación para forzarlo, de ahí la ventaja de no instalar el módulo antes de su configuración adecuada)
 
 ## Nota importante
 

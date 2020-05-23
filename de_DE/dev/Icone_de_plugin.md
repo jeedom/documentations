@@ -14,7 +14,7 @@ Diese Datei ist erforderlich.
 
 Vielen Dank im Voraus, dass Sie nicht denselben Farbcode wie die Symbole der offiziellen Jeedom-Plugins verwenden.
 
-Für 2020 wird jetzt empfohlen, den Namen nicht mehr unter das Bild zu setzen (achten Sie trotzdem darauf, die Größe des Modells beizubehalten!)
+Für 2020 wird jetzt empfohlen, den Namen nicht mehr unter das Bild zu setzen (achten Sie trotzdem darauf, die Größe des Modells beizubehalten !)
 
 Bitte verwenden Sie diese Vorlage (abgerundete Bohrungen, Größe, farbiger Hintergrund, Transparenz usw.):
 

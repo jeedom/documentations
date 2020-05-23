@@ -43,7 +43,7 @@ Tienes que agregar un SSD y memoria. Nivel de SSD Recomiendo 240 GB o más, a me
 
 ## Memoria
 
-Atención a la memoria es absolutamente necesario DDR4 en So-DIMM 260 pines, es necesario al menos 4 GB para VMware, pero por experiencia le aconsejo al menos 8 GB (personalmente incluso estoy montado hasta 16 GB, el NUC admite como máximo 32 GB). Allí, no se recomienda memoria, la más barata va muy bien (cuidado, siempre tomo paquetes de 2 barras, esto mejora el rendimiento) :
+Atención a la memoria es absolutamente necesario DDR4 en So-DIMM 260 pines, es necesario al menos 4 GB para VMware, pero por experiencia le aconsejo al menos 8 GB (personalmente incluso estoy montado hasta 16 GB, el NUC admite como máximo 32GB). Allí, no se recomienda memoria, el más barato va muy bien (tenga cuidado, siempre tomo paquetes de 2 barras, esto mejora el rendimiento) :
 
 -   [Crucial SO-DIMM DDR4 8 GB (2 x 4 GB) 2133 MHz CL15 SR X8](http://www.ldlc.com/fiche/PB00204134.html) € 35
 -   [Crucial SO-DIMM DDR4 16 GB (2 x 8 GB) 2133 MHz CL15 DR X8](http://www.ldlc.com/fiche/PB00204135.html) 65 €
@@ -64,7 +64,7 @@ Es lo más difícil en realidad, creo, para simplificar tu vida tienes que :
 -   seguir [aquí](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) y registrarse
 -   espera el correo electrónico para validar el registro
 -   volver [aquí](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) e inicie sesión (se le puede pedir que acepte las condiciones, debe validar)
--   entonces ve [el](https://my.vmware.com/fr/web/vmware/details?productId=491&downloadGroup=ESXI60U2) y agregue a su cuenta "imagen ESXi ISO (Incluye VMware Tools)"
+-   entonces ve [el](https://my.vmware.com/fr/web/vmware/details?productId=491&downloadGroup=ESXI60U2) y agregue a su cuenta "ESXi ISO image (incluye VMware Tools)"
 -   finalmente regreso [aquí](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi6) y allí debe tener en "Downlaod Packages", un paquete "ESXi ISO image (incluye VMware Tools)" que debe descargar
 
 ![installation.vmware.nuc](images/installation.vmware.nuc.PNG)
@@ -137,7 +137,7 @@ Seleccione "francés" :
 
 ![installation.vmware.nuc14](images/installation.vmware.nuc14.jpg)
 
-Pon una contraseña, al principio te aconsejo que pongas una cosa simple como "oooo" (la cambiaremos más adelante) :
+Pon una contraseña, al principio te aconsejo que pongas una cosa simple como "oooo" (la cambiaremos más tarde) :
 
 ![installation.vmware.nuc15](images/installation.vmware.nuc15.jpg)
 
@@ -155,4 +155,4 @@ Una vez que el reinicio haya finalizado, debería tener :
 
 Aquí está instalado VMware (además es bueno, te da su IP), más que jugar con !!!
 
-Por lo demás aquí hay un [Tutorial](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.creer_une_vm.html) para la creación de tu primera VM. Y encontrarás [aquí](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html) tutorial de consejos y trucos (por ejemplo, para actualizar su licencia de VMware)
+Por lo demás aquí hay un [Tutorial](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.creer_une_vm.html) para la creación de tu primera VM. Y encontrarás [aquí](https://doc.jeedom.com/es_ES/howto/doc-howto-vmware.trucs_et_astuces.html) un tutorial de consejos y trucos (por ejemplo, para actualizar su licencia de VMware)

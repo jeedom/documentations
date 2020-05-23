@@ -17,7 +17,7 @@ Seine Hauptmerkmale sind :
 -   Die Möglichkeit, ein "Common" zu verwenden, um den Aufstieg oder Abstieg zu wechseln. Plötzlich ist es möglich, beide Richtungen mit jeder Art von Spannung zu steuern, sogar mit einem Neutralleiter.
 -   Die Möglichkeit, ein kontinuierliches Auf- / Abstiegssignal ohne zeitliche Begrenzung zu senden.
 
-Attention: Dieses Modul sendet seinen Status nicht an den Z-Wave-Controller, wenn der Benutzer die Tasten direkt drückt. Sie müssen an seiner Position eine Aktualisierung durchführen, um die Umfrage zu aktualisieren oder anzupassen (siehe unten).
+Attention: Dieses Modul sendet seinen Status nicht an den Z-Wave-Controller, wenn der Benutzer die Tasten direkt drückt. Sie müssen an seiner Position eine Aktualisierung durchführen, um die Umfrage zu aktualisieren oder anzupassen (siehe unten)).
 
 ## Funktionen
 
@@ -33,7 +33,7 @@ Attention: Dieses Modul sendet seinen Status nicht an den Z-Wave-Controller, wen
 -   Modultyp : Z-Wave Empfänger / Aktor
 -   230V, 50Hz Stromversorgung
 -   Neutral erforderlich
--   Maximale Belastung : 1800 W (ohmsch), 460 VA (induktiv)
+-   Maximale Belastung : 1800 W (ohmsch), 460 VA (induktiv))
 -   Sicherung : T8AH
 -   Frequenz : 868,42 MHz
 -   Abmessungen : 52 x 52 x 31 mm
@@ -96,7 +96,7 @@ Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, 
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/duwi.05436/5-Paramètres.PNG)
 
@@ -122,5 +122,5 @@ Dieses Modul hat nur eine Zuordnungsgruppe, in der sich Ihr Z-Wave-Controller be
 -   Wie zu Beginn angegeben, meldet das Modul die vom Benutzer durch direktes Drücken des Schalters vorgenommenen Positionsänderungen nicht. Für eine Rückkehr des Staates ist es daher notwendig :
     - Konfigurieren Sie entweder eine Umfrage nach 5 Minuten in der Konfiguration, Registerkarte 'Werte'
 ![Groupe](images/duwi.05436/7-Poll.PNG)
-  - Erstellen Sie entweder ein Szenario, in dem der Befehl 'Aktualisieren' alle x Minuten (mindestens 1 Minute) gestartet wird
+  - Erstellen Sie entweder ein Szenario, in dem der Befehl 'Aktualisieren' alle x Minuten (mindestens 1 Minute) gestartet wird)
 -   Das Festlegen des Betriebs ohne Zeitlimit kann für VMC-Befehle hilfreich sein

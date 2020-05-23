@@ -59,7 +59,7 @@ Fonctions
 -   Works with different types of push button switches,
     rocker, three-way, etc.
 
--   Soft-start function
+-   Soft start function (Soft-start)
 
 -   LED for indication of inclusion status, calibration and
     MENU levels
@@ -185,7 +185,7 @@ Jeedom OpenZwave plugin.
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 You will arrive on this page (after clicking on the tab
-settings)
+Settings)
 
 ![Config1](images/fibaro.fgd212/config1.jpg)
 

@@ -16,11 +16,11 @@ We will see here how to migrate an installation with Jeedom in slave mode to a J
 >
 > For a better reading and understanding of this tutorial, here are the terms used :
 >
-> - **Jeedom Target** : Server (your old Jeedom Master) which centralizes the equipment of the **Jeedom (s) Source (s)**  The screenshots on a black background correspond to the **Jeedom Target**.
+> - **Jeedom Target** : Server (your old Jeedom Master) which centralizes the equipment of the **Jeedom (s) Source (s))**  The screenshots on a black background correspond to the **Jeedom Target**.
 >
 > - **Jeedom Source** : Server (your / your old Jeedom Slave (s)) which reassembles your equipment on the **Jeedom Target**.
 >
-> - The notions of **Jeedom Master** and **Jeedom Slave** no longer relevant. The new operating mode of equipment synchronization between several Jeedoms can be bidirectional. A Jeedom server can now be **Source** and **Target** whereas the old mode only allowed the ascent of the equipment of  **the Slave** to **the master**. With the new mode it is also possible to have several **Jeedom Targets** for the same **Jeedom Source**. Communication between Jeedoms can now also be done remotely via the Internet (Jeedom DNS or other).
+> - The notions of **Jeedom Master** and **Jeedom Slave** no longer relevant. The new operating mode of equipment synchronization between several Jeedoms can be bidirectional. A Jeedom server can now be **Source** and **Target** whereas the old mode only allowed the ascent of the equipment of  **the Slave** to **the master**. With the new mode it is also possible to have several **Jeedom Targets** for the same **Jeedom Source**. Communication between Jeedoms can now also be done remotely via the internet (Jeedom DNS or other).
 
 ![jeelink.migration9](images/jeelink.migration9.png)
 
@@ -50,8 +50,8 @@ Depending on the plugins installed on your **Jeedom Slave**, it is necessary to 
 
 ## Preventive backups
 
--   Do a [Jeedom backup](https://doc.jeedom.com/en_US/core/doc-core-backup.html) of your **Jeedom Master** and your **Jeedom Slave (s)** and recover it (s) on your PC / NAS….
--   Do a [SD / Disk backup](https://doc.jeedom.com/en_US/howto/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd) of your **Jeedom Master** and your **Jeedom Slave (s)** and recover them on your PC / NAS….
+-   Do a [Jeedom backup](https://doc.jeedom.com/en_US/core/doc-core-backup.html) of your **Jeedom Master** and your (your) **Jeedom Slave (s)** and recover it (s) on your PC / NAS….
+-   Do a [SD / Disk backup](https://doc.jeedom.com/en_US/howto/doc-howto-sauvegarde.comment_faire.html#_sauvegarde_restauration_de_la_carte_microsd) of your **Jeedom Master** and your (your) **Jeedom Slave (s)** and recover them on your PC / NAS….
 
 # Migration
 
@@ -59,7 +59,7 @@ Depending on the plugins installed on your **Jeedom Slave**, it is necessary to 
 >
 > Do not delete old equipment from  **the Slave** sure **the master**.
 
-## Install and activate the "Jeedom Link" plugin on the **Jeedom Target** (former Master).
+## Install and activate the "Jeedom Link" plugin on the **Jeedom Target** (former master).
 
 On your **Jeedom Target**, *Plugins ⇒ Management of plugins* :
 
@@ -86,10 +86,10 @@ On your **Jeedom Target**, *Plugins ⇒ Management of plugins* :
 ## Jeedom Source Configuration
 
 -   Change the password of the admin user or / and configure a new user.
--   Configure your Jeedom Market account (*Configuration ⇒ Updates and files ⇒ "Market" tab"*). Click on test after saving, to validate the entry of your Jeedom Market identifiers).
+-   Configure your Jeedom Market account (*Configuration ⇒ Updates and files ⇒ "Market" tab"*). Click on test after saving, to confirm the entry of your Jeedom Market identifiers).
 -   Installation and activation of the "Jeedom Link" plugin on the new **Jeedom Source**.
 ![jeelink.migration2](images/jeelink.migration2.png)
--   Installation and activation of plugins you want to use. (It is advisable to do them one by one, checking carefully each time that the dependencies and any demons are OK).
+-   Installation and activation of plugins you want to use. (It is advisable to do them one by one, checking every time that the dependencies and any demons are OK).
 -   Recreate the tree of objects (just the ones that will be useful to you) of the **Jeedom Target** (Old Master) on your new **Jeedom Source** (Former Slave).
 
 ## Configuration of equipment on the **Jeedom Source**
@@ -171,9 +171,9 @@ In the tab *Commands*, you access all the parameters of the equipment controls :
 
 > **NOTE**
 >
-> To do on **Jeedom Target** (Former Master) for each info order of the equipment of the former **Slave** whose history we want to recover.
+> To do on **Jeedom Target** (Former Master) for each info command of the equipment of the former **Slave** whose history we want to recover.
 
--   Go to the configuration of the command (*Toothed wheel on the right*).
+-   Go to order configuration (*Toothed wheel on the right*).
 -   Go to the tab *Advanced configuration*.
 -   Click on the button *Copy the history of this command on another command*.
 -   Find the corresponding order for the corresponding new JeeLink equipment and confirm.
@@ -182,9 +182,9 @@ In the tab *Commands*, you access all the parameters of the equipment controls :
 
 > **NOTE**
 >
-> To do on **Jeedom Target** (Former Master) for each info / action command of the equipment of the old **Slave** whose occurrences we want to replace in scenarios / virtual /…
+> To do on **Jeedom Target** (Former Master) for each info / action command of the equipment of the former **Slave** whose occurrences we want to replace in scenarios / virtual /…
 
--   Go to the configuration of the command (*Toothed wheel on the right*).
+-   Go to order configuration (*Toothed wheel on the right*).
 -   Go to the tab *Information*.
 -   Click on the button *Replace this command by the command*.
 -   Find the corresponding order for the corresponding new JeeLink equipment and confirm.
@@ -193,9 +193,9 @@ In the tab *Commands*, you access all the parameters of the equipment controls :
 
 > **NOTE**
 >
-> To do on **Jeedom Target** (Former Master) for each info / action command of the equipment of the old **Slave** which we want to retrieve advanced display settings.
+> To do on **Jeedom Target** (Former Master) for each info / action command of the equipment of the former **Slave** which we want to retrieve advanced display settings.
 
--   Go to the configuration of the command (*Toothed wheel on the right*).
+-   Go to order configuration (*Toothed wheel on the right*).
 -   Click on the button *Apply to*.
 -   Find and select the corresponding command for the corresponding new JeeLink equipment and confirm.
 
@@ -203,7 +203,7 @@ In the tab *Commands*, you access all the parameters of the equipment controls :
 
 > **NOTE**
 >
-> To do on **Jeedom Target** (Former Master) for each info / action command of the equipment of the old **Slave** which we want to recover the advanced configuration.
+> To do on **Jeedom Target** (Former Master) for each info / action command of the equipment of the former **Slave** which we want to recover the advanced configuration.
 
 -   No easy solution at this level, you will need to have two tabs / windows open on your browser.
 -   Open orders for old equipment **Slave** in a tab (Jeedom Target).
@@ -225,6 +225,6 @@ In the tab *Commands*, you access all the parameters of the equipment controls :
 > After validating with certainty that your equipment / scenarios / interactions / virtual /…. work well with the new jeelink system, you can do the cleaning.
 
 -   Remove residual equipment from the old **Jeedom Slave**.
--   Deactivate and delete plugins that are no longer useful to you (Those for which you only had equipment on the Slave).
+-   Disable and delete plugins that are no longer useful to you (Those for which you only had equipment on the Slave).
 -   In the "Jeedom Link" plugin, rename the equipment that could have a name ending with "remote XXXX".
 -   In the Jeedom Network page, delete the old one **Jeedom Slave**.

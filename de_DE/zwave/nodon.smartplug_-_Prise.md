@@ -61,10 +61,10 @@ Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügb
 
 Hier ist die Liste der Befehle :
 
--   Zustand : Es ist der Befehl, der es ermöglicht, den Status der Buchse zu kennen (Ein / Aus)
+-   Zustand : )
 -   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 -   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
--   Status : Wird verwendet, um herauszufinden, ob die Steckdose mit Strom versorgt wird oder nicht (Erkennung von Stromausfall / Unterbrechung)
+-   Status : )
 
 Beachten Sie, dass sich im Dashboard die Informationen zu Status, EIN / AUS auf demselben Symbol befinden.
 
@@ -74,7 +74,7 @@ Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie d
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/nodon.smartplug/config1.jpg)
 
@@ -83,9 +83,9 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 Parameterdetails :
 
 -   1 : Dieser Parameter definiert den Zustand (EIN / AUS) des Smart Plug nach einem Stromausfall oder nach dem Anschließen
--   2 : Dieser Parameter konfiguriert die Berichte über Stromausfall- / Rückkehrbenachrichtigungen sowie die zugehörigen Gruppen (Gruppen 4, 5, 6, 7, 8). Es sind mehrere Kombinationen möglich (siehe Papierdokumentation oder Hilfeblase in jeedom). Es wird empfohlen, diesen Parameter auf 1 zu setzen.
+-   2 : ). ). Es wird empfohlen, diesen Parameter auf 1 zu setzen.
 -   3 : Mit diesem Parameter können die Gruppen 2 und 3 aktiviert oder deaktiviert werden.
--   4 : Le paramètre force l'état de la Smart Plug à « ON » (Smart Plug activée). Wenn der Parameter aktiviert ist, kann der Smart Plug (lokal oder Radio) nicht ausgeschaltet werden
+-   4 : Le paramètre force l'état de la Smart Plug à « ON » (Smart Plug activée). )
 -   Parameter 5 bis 20 : Durch Konfigurationsparameter \#5 à \#In 20 können bis zu 8 verschiedene Alarme konfiguriert werden. Um Ihre Alarme richtig zu konfigurieren, das Online-Formular: www.nodon.de / support / asp3 / alarm führt Sie
 
 ### Gruppen
@@ -97,7 +97,7 @@ Dieses Modul hat 8 Zuordnungsgruppen.
 -   Gruppe 1 - Rettungsleine : Diese Gruppe wird im Allgemeinen verwendet, um Informationen vom Smart Plug an den Hauptnetzwerkcontroller zu melden.
 -   Gruppe 2 - Smart Plug-Statusüberwachung Wenn der Smart Plug über die lokale Taste aktiviert (bzw. deaktiviert) wird, sendet er einen Aktivierungsbefehl (bzw. Deaktivierungsbefehl) an die zugehörigen Geräte. Es wird kein Befehl gesendet, wenn die Statusänderung des Smart Plug durch einen Funkbefehl verursacht wurde
 -   Gruppe 3 - Überwachung des Zusatzstatus Wenn der Smart Plug über die lokale Taste aktiviert (bzw. deaktiviert) wird, sendet er einen Deaktivierungsbefehl (bzw. Aktivierungsbefehl) an die zugehörigen Geräte. Es wird kein Befehl gesendet, wenn die Statusänderung des Smart Plug durch einen Funkbefehl verursacht wurde.
--   Gruppe 4 - Benachrichtigung über einen Stromausfall Wenn der Smart Plug einen Stromausfall oder eine Rückkehr der Stromversorgung feststellt, wird ein Benachrichtigungsbericht an die zugehörigen Geräte gesendet. Le rapport envoyé est un « Notiﬁcation Report : Energieverwaltung - Wechselstrom getrennt / wieder angeschlossen).
+-   Gruppe 4 - Benachrichtigung über einen Stromausfall Wenn der Smart Plug einen Stromausfall oder eine Rückkehr der Stromversorgung feststellt, wird ein Benachrichtigungsbericht an die zugehörigen Geräte gesendet. Le rapport envoyé est un « Notiﬁcation Report : ).
 -   Gruppe 5 - Aktivierung bei Stromausfall Wenn der Smart Plug einen Stromausfall erkennt, werden die zugehörigen Geräte aktiviert.
 -   Gruppe 6 - Deaktivierung bei Stromausfall Wenn der Smart Plug einen Stromausfall erkennt, werden die zugehörigen Geräte deaktiviert
 -   Gruppe 7 - Aktivierung bei Stromrückführung Wenn der Smart Plug eine Stromrückführung erkennt, werden die zugehörigen Geräte aktiviert.

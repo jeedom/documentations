@@ -43,7 +43,7 @@ You have to add an SSD and memory. SSD level I recommend 240GB or more, unless y
 
 ## Memory
 
-Attention for the memory it is absolutely necessary DDR4 in So-DIMM 260 pins, it is necessary at least 4GB for VMware, but by experience I advise you at least 8GB (personally I am even mounted up to 16GB, the NUC supports at most 32GB). There, no memory recommended, the cheapest goes very well (beware I always take packs of 2 bars, this improves performance) :
+Attention for the memory it is absolutely necessary DDR4 in So-DIMM 260 pins, it is necessary at least 4GB for VMware, but by experience I advise you at least 8GB (personally I am even mounted up to 16GB, the NUC supports at most 32GB). There, no memory recommended, the cheapest goes very well (be careful I always take packs of 2 bars, this improves performance) :
 
 -   [Crucial SO-DIMM DDR4 8 GB (2 x 4 GB) 2133 MHz CL15 SR X8](http://www.ldlc.com/fiche/PB00204134.html) € 35
 -   [Crucial SO-DIMM DDR4 16 GB (2 x 8 GB) 2133 MHz CL15 DR X8](http://www.ldlc.com/fiche/PB00204135.html) € 65
@@ -155,4 +155,4 @@ Once the reboot is finished you should have :
 
 Here VMware is installed (in addition it is nice it gives you its IP), more than to play with !!!
 
-For the rest here is a [Tutorial](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.creer_une_vm.html) for the creation of your first VM. And you will find [here](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.trucs_et_astuces.html) tips and tricks tutorial (for example to upgrade your VMware license)
+For the rest here is a [Tutorial](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.creer_une_vm.html) for the creation of your first VM. And you will find [here](https://doc.jeedom.com/en_US/howto/doc-howto-vmware.trucs_et_astuces.html) a tips and tricks tutorial (for example to upgrade your VMware license)

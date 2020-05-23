@@ -87,7 +87,7 @@ Then if you want to configure the module according to your installation, you hav
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the Settings tab)
+You will arrive on this page (after clicking on the parameters tab)
 
 ![Config1](images/philio.psr04/config1.jpg)
 
@@ -113,7 +113,7 @@ To use this module as a remote control, proceed as follows :
 
 -   Add the controller in group 2
 
-Indeed this type of module is not made to interact directly with a box but directly with other modules. However by adding Jeedom to group 2, this allows you to receive the position of the button and therefore to use it to control a scenario (adjust a volume for example)
+Indeed this type of module is not made to interact directly with a box but directly with other modules. However by adding Jeedom to group 2, this allows you to receive the position of the button and therefore use it to control a scenario (adjust a volume for example)
 
 ## Wakeup
 

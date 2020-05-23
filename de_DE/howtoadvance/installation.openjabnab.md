@@ -1,6 +1,6 @@
 # Openjabnab-Installation
 
-Hier ist ein Tutorial, wie man openjabnab lokal installiert (auf einem RPI oder Summen)
+Hier ist ein Tutorial, wie man openjabnab lokal installiert (auf einem RPI oder Brummen))
 
 > **Notiz**
 >
@@ -237,7 +237,7 @@ make
 
 > **Notiz**
 >
-> Dieser Schritt kann sehr lang sein (bis zu 45 Minuten)
+> Dieser Schritt kann sehr lang sein (bis zu 45 Minuten))
 
 # Openjabnab-Konfiguration
 
@@ -378,7 +378,7 @@ Sie müssen jetzt die lila API aktivieren und öffentlich weitergeben. Hier find
 
 ![installation.openjabnab8](images/installation.openjabnab8.PNG)
 
-Unten finden Sie die Liste der Plugins. Vergessen Sie nicht, diese zu aktivieren (TTS-Typ oder Ohrsteuerung) :
+Unten finden Sie die Liste der Plugins. Vergessen Sie nicht, diese zu aktivieren (TTS-Typ oder Ohrsteuerung)) :
 
 ![installation.openjabnab9](images/installation.openjabnab9.PNG)
 

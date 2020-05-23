@@ -154,7 +154,7 @@ Sie finden dann :
 - Eine Schaltfläche zum Entfernen des Plugins,
 - Eine kurze Beschreibung,
 - Ein Link zur Plugin-Dokumentation,
-- Ein Link zum Changelog (die letzten vorgenommenen Änderungen),
+- Ein Link zum Changelog (die neuesten Änderungen),
 - Kompatibilität mit verschiedenen Plattformen,
 - Nutzerbewertungen,
 - Wie man das Plugin benutzt,
@@ -171,7 +171,7 @@ Es gibt jedoch viele Möglichkeiten, Hilfe zu finden und Ihre Fragen zu stellen.
 
 Sie werden es finden [hier](https://community.jeedom.com/).
 
-Das Forum ist sehr aktiv und enthält viele Informationen. Wenn Sie eine Frage haben, zögern Sie nicht, sie zu stellen. Sie haben eine Antwort in weniger als einer Stunde (im Durchschnitt). Bitte beachten Sie, dass das Forum von der Jeedom-Community, die sich aus Freiwilligen zusammensetzt, und nicht von der Jeedom-Firma unterhalten wird.
+Das Forum ist sehr aktiv und enthält viele Informationen. Wenn Sie eine Frage haben, zögern Sie nicht, sie zu stellen. Sie haben eine Antwort in weniger als einer Stunde (im Durchschnitt)). Bitte beachten Sie, dass das Forum von der Jeedom-Community, die sich aus Freiwilligen zusammensetzt, und nicht von der Jeedom-Firma unterhalten wird.
 
 ## Supportanfragen (oder Tickets)
 

@@ -20,7 +20,7 @@ if (!is_array($replace)) {
 
 The preToHtml function returns :
 
-- a string if the widget is cached (if it is cached, there has been no change since the last generation, so you might want to send it right away)
+- a string if the widget is cached (if it is cached it means that there has been no change since the last generation, so you might as well send it back)
 - a table with the main replaces, you have the list [here](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
 ## The template system
@@ -74,7 +74,7 @@ Here I create a toto widget based on the "tmplicon" template in info type and in
 
 >**TIPS**
 >
-> Little tip you can instead of an icon put an image tag (be careful with the path)
+> Little tip you can instead of an icon put an image tag (watch out for the path)
 
 Then to use your widget :
 

@@ -12,7 +12,7 @@
 
 El sensor FGFS-101 es compacto y tiene una amplia variedad de funciones. Con su tecnología y precisión avanzadas, el sensor de inundación de Fibaro lo alerta de una inundación amenazante o de un rápido aumento o disminución de la temperatura.
 
-Está equipado con un sensor de inclinación que envía inmediatamente una alerta a la red Z-Wave si el detector es movido o robado (informa la información de inclinación o movimiento al controlador Z-Wave).
+Está equipado con un sensor de inclinación que envía inmediatamente una alerta a la red Z-Wave si el detector es movido o robado (informa la información de inclinación o movimiento al controlador Z-Wave)).
 
 Este detector universal de inundación y temperatura puede funcionar con batería o con una fuente de alimentación externa de 12 o 24 V CC. Cuando se conecta a una fuente de alimentación externa, la batería actúa como fuente de alimentación de respaldo.
 
@@ -38,7 +38,7 @@ Este sensor incorpora un probador de rango de red Z-Wave, que le asegura el corr
 -   Tipo de batería : CR123A
 -   Duración de la batería : 2 años
 -   Consumo en fuente de alimentación externa : 0,4W
--   Corriente máxima admitida en la salida (ALARM NC, TAMP NC) :25mA
+-   Corriente máxima admitida en la salida (ALARMA NC, TAMP NC) :25mA
 -   Tensión máxima soportada en la salida : 40V (CA o CC)
 -   Frecuencia : 868.42 Mhz
 -   Distancia de transmisión : 50m de campo libre, 30m en interiores
@@ -63,7 +63,7 @@ Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consult
 
 > **Importante**
 >
-> Para poner este módulo en modo de inclusión, presione el botón de inclusión central 3 veces, marcado TMP, de acuerdo con su documentación en papel (la pestaña negra).
+> Para poner este módulo en modo de inclusión, presione el botón central de inclusión 3 veces, marcado TMP, de acuerdo con su documentación en papel (la pestaña negra).
 
 ![Vue interieur](images/fibaro.fgfs101/Vue_interieur.jpg)
 
@@ -79,7 +79,7 @@ Una vez que se reconoce el módulo, los comandos asociados con el módulo estar�
 
 Aquí está la lista de comandos :
 
--   Fuga : Este es el comando de alerta del módulo (para presencia de agua, inundaciones, etc.)
+-   Fuga : Este es el comando de alerta del módulo (para presencia de agua, inundaciones, etc.))
 -   Temperatura : es el comando de medición de temperatura
 -   Sabotaje : este es el comando de sabotaje. Señala la apertura del caso
 -   Batería : es el comando de la batería
@@ -109,12 +109,12 @@ Detalles del parámetro :
   - 1 : Alarma sonora desactivada y alarma visual activada
   - 2 : Alarma sonora activada y alarma visual desactivada
   - 3 : Alarma audible y visual activada.
--   10 \. Tiempo de transferencia entre dos lecturas de temperatura : de 1 a 65535 s (300 por defecto). Tenga cuidado de no poner un valor de acarreo demasiado cercano bajo pena de ver la batería del módulo derretirse a cualquier velocidad ! (Se recomienda 1800)
+-   10 \. Tiempo de transferencia entre dos lecturas de temperatura : de 1 a 65535 s (300 por defecto). Tenga cuidado de no poner un valor de acarreo demasiado cercano bajo pena de ver la batería del módulo derretirse a cualquier velocidad ! (1800 se recomienda)
 -   12 \. Diferencia de temperatura entre dos informes : de 1 a 1000 (por defecto 50 = 0.5 °). De acuerdo con el parámetro 10, también es posible gestionar la transferencia de temperatura en función de la variación de este último.
 -   50 \. Configurar la alarma de baja temperatura : de -10000 a + 10000 (1500 por defecto = 15 ° C) Permite activar una alarma cuando la temperatura cae por debajo de cierto umbral.
 -   51.Configurar la alarma de alta temperatura : de -10000 a + 10000 (3500 por defecto = 35 ° C) Permite activar una alarma cuando la temperatura supera un cierto umbral.
 -   73 \. Compensación de temperatura : de -10000 a + 10000 (0 por defecto = 0 ° C) Le permite definir un desplazamiento entre la temperatura del sensor y la temperatura real
--   75 \. Establecer la duración de la alarma : de 0 a 65535s (0 por defecto, la alarma se detiene tan pronto como ya no detecta una falla)
+-   75 \. Establecer la duración de la alarma : de 0 a 65535s (0 por defecto, la alarma se detiene tan pronto como ya no detecta una falla.)
 
 ### Grupos
 

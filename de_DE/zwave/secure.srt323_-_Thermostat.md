@@ -89,7 +89,7 @@ Hier ist die Liste der Befehle :
 Dann ist es notwendig, das Modul entsprechend Ihrer Installation zu konfigurieren. Gehen Sie dazu auf die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom.
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/secure.srt323/config1.jpg)
 
@@ -97,7 +97,7 @@ Parameterdetails :
 
 -   1: ermöglicht die Aktivierung oder Nichtaktivierung des internen Temperatursensors
 -   2: ermöglicht die Auswahl der Temperatureinheit
--   3: Mit dieser Option können Sie den Temperaturschwankungsgrad so definieren, dass das Modul ihn anhebt (in Einheiten von 0,1 ° C)
+-   3: Mit dieser Option können Sie den Temperaturschwankungsgrad so definieren, dass das Modul ihn anhebt (in Einheiten von 0,1 ° C))
 
 ### Gruppen
 

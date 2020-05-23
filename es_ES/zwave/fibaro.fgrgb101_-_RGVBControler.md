@@ -12,7 +12,7 @@
 
 El micromódulo Z-Wave Fibaro FGRGB-101 le permite elegir una iluminación de bajo voltaje de 12 / 24V (halógeno o LED), una tira de LED blanca RGB o RGB + o incluso conectar sondas analógicas utilizando el estándar 0. 10V.
 
--   4 entradas analógicas de 0 a 10 V para conectar a muchos sensores, potenciómetros, botones pulsadores (monoestable) o interruptores (biestables) compatibles.
+-   4 entradas analógicas de 0 a 10 V para conectar a muchos sensores compatibles, potenciómetros, botones pulsadores (monoestables) o interruptores (biestables).
 -   4 salidas de dimmer (PWM) para controlar :
 -   \* es decir, 1 canal de RGB + LED blanco (RGBW) 12 / 24V
 -   \* o 4 canales de LED blancos 12 / 24V
@@ -24,7 +24,7 @@ El micromódulo Z-Wave Fibaro FGRGB-101 le permite elegir una iluminación de ba
 
 ## Funciones
 
--   Ordene luces de bajo voltaje 12 / 24V (halógeno o LED)
+-   Controla luces de bajo voltaje de 12 / 24V (halógenas o LED)
 -   Se instala detrás de un interruptor existente
 -   Simulación de luz previamente programada
 -   ON / OFF y función de variación

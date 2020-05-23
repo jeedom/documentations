@@ -89,11 +89,11 @@ Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 Detalles del parámetro :
 
--   241: Botón 1 modo de funcionamiento (salir por defecto)
+-   241: botón 1 modo de funcionamiento (dejar por defecto)
 -   242: botón 2 modo de funcionamiento (dejar por defecto)
--   243: Botón 3 modo de funcionamiento (salir por defecto)
+-   243: Botón 3 modo de funcionamiento (dejar por defecto)
 -   244: botón 4 modo de funcionamiento (dejar por defecto)
--   250: modo de funcionamiento del control remoto (deje absolutamente Scene para usarlo como control remoto)
+-   250: modo de operación de control remoto (deje absolutamente Scene para usarlo como control remoto)
 
 ### Grupos
 

@@ -20,7 +20,7 @@ if (!is_array($replace)) {
 
 La función preToHtml devuelve :
 
-- una cadena si el widget está en caché (si está en caché, no ha habido cambios desde la última generación, por lo que es posible que desee enviarlo de inmediato)
+- una cadena si el widget está almacenado en caché (si está almacenado en caché, significa que no ha habido cambios desde la última generación, por lo que podría enviarlo de inmediato)
 - una tabla con los reemplazos principales, tienes la lista [aquí](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
 ## El sistema de plantillas
@@ -74,7 +74,7 @@ Aquí creo un widget de toto basado en la plantilla "tmplicon" en tipo de inform
 
 >**Consejos**
 >
-> Pequeño consejo que puede en lugar de un icono poner una etiqueta de imagen (tenga cuidado con la ruta)
+> Pequeño consejo que puede, en lugar de un icono, poner una etiqueta de imagen (cuidado con la ruta)
 
 Luego para usar tu widget :
 

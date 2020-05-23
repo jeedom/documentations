@@ -23,7 +23,7 @@ Thanks to its wide viewing angle and its range, it makes it possible to secure a
 ## Technical characteristics
 
 -   Type of module : Edisio transmitter
--   Food : 3VDC (Lithium Battery ER14250)
+-   Food : 3VDC (Lithium battery ER14250)
 -   Frequency : 868.3 MHz
 -   Operating temperature : 0 ° C + 45 ° C
 -   Range in free field : 100M

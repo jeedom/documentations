@@ -43,7 +43,7 @@ Aquí encontrará la contraseña para acceder a la base de datos Jeedom, luego d
 mysql -ujeedom -p
 ````
 
-Allí te pide la contraseña recuperada arriba (la contraseña no se muestra : es normal). Luego escriba (o mejor, copie / pegue. Debe "hacer clic con el botón derecho" debajo de Masilla para "pegar") :
+Allí te pide la contraseña recuperada arriba (la contraseña no se muestra : es normal). Luego escriba (o mejor, copie / pegue. Debe "hacer clic con el botón derecho" debajo de Masilla para "pegar"") :
 
 ````
 usar la libertad;

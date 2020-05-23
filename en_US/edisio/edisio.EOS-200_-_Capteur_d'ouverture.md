@@ -30,7 +30,7 @@ The signal is only sent when the sensor is separated from its magnetic element. 
 ## Technical characteristics
 
 -   Type of module : Edisio transmitter
--   Food : 3VDC (Lithium Battery ER14250)
+-   Food : 3VDC (Lithium battery ER14250)
 -   Frequency : 868.3 MHz
 -   Operating temperature : 0 ° C + 45 ° C
 -   Range in free field : 100M

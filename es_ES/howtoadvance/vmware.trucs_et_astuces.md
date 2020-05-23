@@ -30,7 +30,7 @@ Debe ir al panel de control, luego "Servicios de archivos" y marcar la casilla "
 
 ![vmware.tips4](images/vmware.tips4.PNG)
 
-Luego haga clic en "Carpeta compartida", luego elija la carpeta para compartir (aquí Copia de seguridad), haga clic en modificar y luego en "Autorización NFS" y finalmente en crear (aquí ya tengo una, su lista debería estar vacía) :
+Luego debe hacer clic en "Carpeta compartida", luego elegir la carpeta para compartir (aquí Copia de seguridad), hacer clic en modificar y luego "Autorización NFS" y finalmente en crear (aquí ya tengo una, su lista debería estar vacía) :
 
 ![vmware.tips5](images/vmware.tips5.PNG)
 
@@ -66,7 +66,7 @@ Haga clic en finalizar :
 
 ![vmware.tips12](images/vmware.tips12.PNG)
 
-Y ahora debería aparecer su nuevo almacén de datos (de lo contrario, haga clic en "Actualizar").
+Y ahora debería aparecer su nuevo almacén de datos (de lo contrario, haga clic en "Actualizar"").
 
 # Complemento VAAI Synology agregado para montaje NFS
 
@@ -76,7 +76,7 @@ Para ver si lo tiene, debe conectarse con el cliente grueso (no encontré la inf
 
 ![vmware.tips13](images/vmware.tips13.PNG)
 
-La implementación es bastante simple, primero debe activar el servicio SSH del ESXi (en la interfaz web debe pasar a la acción ⇒ servicios ⇒ Activar Secure Shell), luego conectarse en SSH arriba (los identificadores son igual que acceder a la interfaz). Entonces solo tienes que hacer :
+La implementación es bastante simple, primero debe activar el servicio SSH del ESXi (en la interfaz web debe pasar a la acción ⇒ servicios ⇒ Activar Secure Shell), luego conectarse en SSH arriba (los identificadores son lo mismo que para acceder a la interfaz). Entonces solo tienes que hacer :
 
 ``esxcli software vib install -v https://global.download.synology.com/download/Tools/NFSVAAIPlugin/1.0-0001/VMware_ESXi/esx-nfsplugin.vib -f``
 
@@ -111,7 +111,7 @@ Debe ir, con su navegador de Internet, a la IP del ESXi y luego hacer clic en el
 
 ![vmware.createvm](images/vmware.createvm.PNG)
 
-Una vez descargado, solo tiene que iniciar la instalación (paso voluntariamente esta parte porque es suficiente para validar todo).
+Una vez descargado, solo tiene que iniciar la instalación (voluntariamente paso esta parte porque es suficiente para validar todo).
 
 Luego, inicie VMware vSphere Client, debería tener :
 
@@ -172,7 +172,7 @@ Y eso es todo. Un pequeño consejo si tiene un Synology NAS que puede hacer (ten
 -   abra los 80 hacia los 80 del NAS (útil solo para generar los certificados, encriptemos)
 -   abra el puerto 902 a ESXi 902
 
-Luego, en el NAS en el panel de control, luego en el portal de aplicaciones y el proxy inverso (atención, es absolutamente necesario DSM 6) :
+Luego, en el NAS en el panel de control, luego en el portal de la aplicación y el proxy inverso (atención, es absolutamente necesario DSM 6) :
 
 ![vmware.tips19](images/vmware.tips19.PNG)
 
@@ -194,7 +194,7 @@ Luego, para acceder a su ESXi, solo tiene que ir a su DNS o IP externo con su na
 
 > **Importante**
 >
-> Si pasa por el proxy inverso de NAS, la consola en modo web de máquinas virtuales no funciona (porque pasa por websocket), por otro lado, si pasa por VMware Remote Console, todo debería estar bien (pasa por el puerto 902)
+> Si pasa por el proxy inverso de NAS, la consola en el modo web de VM no funciona (porque pasa por WebSocket), por otro lado, si pasa por VMware Remote Console, todo debería estar bien (pasa por el puerto 902)
 
 > **Nota**
 >

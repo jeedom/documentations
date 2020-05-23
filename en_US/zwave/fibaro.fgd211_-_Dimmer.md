@@ -12,11 +12,11 @@
 
 The FGD-211 dimmer module will allow you to control a lamp or ceiling lamp remotely thanks to the Z-Wave protocol while keeping your existing switch.
 
-You will therefore be able to activate the connected lamp and vary its intensity using the existing switch, a Z-Wave transmitter or directly from the button on the micromodule. It is compatible with any type of lamp supporting variation (incandescence, fluo-compact, LED, ...). The Fibaro dimmer module is a concentrate of technology, it automatically detects the type of load connected and is protected against overvoltages.
+You will therefore be able to activate the connected lamp and vary its intensity using the existing switch, a Z-Wave transmitter or directly from the button on the micromodule. It is compatible with any type of lamp supporting variation (incandescence, fluo-compact, LED,…). The Fibaro dimmer module is a concentrate of technology, it automatically detects the type of load connected and is protected against overvoltages.
 
 For fluorescent bulbs that do not support dimming, the module then automatically acts as a switch module (ON / OFF only).
 
-It can be used in 2-wire mode (without neutral), replacing an existing switch, or three-wire with a conventional module supply (Phase + Neutral).
+It can be used in 2-wire mode (without neutral), replacing an existing switch, or three-wire with a conventional supply to the module (Phase + Neutral).
 
 For lamps with very low consumption (LED lamp for example), you can use the load (bypass) FGB-001 which allows correct operation of the module. A Z-Wave controller (remote control, dongle…) is necessary in order to integrate this detector into your network if you already have an existing network. Each Z-Wave module works like a wireless repeater with the other modules, to ensure total coverage of your home.
 
@@ -114,7 +114,7 @@ Parameter details :
 -   12: allows to define the maximum authorized level
 -   13: allows to define the minimum authorized level
 -   14: IMPORTANT ADJUSTMENT : allows to choose between BISTABLE or MONOSTABLE switch (push button)
--   15: activates the option allowing to set the brightness to the maximum on double press (or go back on bistable)
+-   15: activates the option allowing to set the brightness to maximum on double press (or go back on bistable)
 -   16: option to activate the memorization of the last state
 -   17: allows to choose between the back and forth mode and the remote control mode
 -   18: allows synchronization of the variation level with the other associated variators

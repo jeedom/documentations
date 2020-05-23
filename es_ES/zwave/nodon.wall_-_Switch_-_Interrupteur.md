@@ -26,7 +26,7 @@ El interruptor tiene una placa de montaje para facilitar el montaje en la casa: 
 
 -   Suministro : Batería CR2032 - Autonomía 1,5 - 2 años
 -   4 botones
--   Montaje en pared mediante adhesivo de doble cara (incluido) o tornillos (no incluidos)
+-   Montaje en pared mediante adhesivo de doble cara (incluido) o tornillos (no incluidos))
 -   Temperatura de funcionamiento : 0 ° C a 40 ° C
 -   Altitud : 2000m
 -   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con Z-Wave Plus® SDK 06.51.06
@@ -93,14 +93,14 @@ Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 ![Config1](images/nodon.wallswitch/config1.jpg)
 
 Detalles del parámetro :
 
 -   1-2 : Le permite elegir el perfil de los botones cuando se usa centralmente (inútil para usar en Jeedom)
--   3 : Parámetro importante para decir si el interruptor debe funcionar en el modo Escena o Escena central (escena configurada absolutamente)
--   4-7 : Elija el modo de operación del botón (en caso de asociaciones de grupo)
+-   3 : Parámetro importante para decir si el interruptor debe funcionar en el modo Escena o Escena central (Configuración de escena absolutamente)
+-   4-7 : Elija el modo de funcionamiento del botón (en caso de asociaciones de grupo)
 -   8 : Le permite elegir el modo de funcionamiento del LED
 
 ### Grupos

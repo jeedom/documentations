@@ -2,7 +2,7 @@
 
 Hier ein End-to-End-Verfahren zum Installieren eines WLAN-Schlüssels vom Typ "Edimax ew-7811n" auf einem Jeedom Mini und unter Berücksichtigung einer WLAN-Authentifizierung vom Typ "WPA 2 + AES"".
 
-Bitte beachten Sie, dass dieses Verfahren nur so funktioniert, wie es nur im oben angegebenen strengen Kontext der Umgebung der Fall ist (dasselbe Modell, dieselbe Jeedom-Box, dieselbe WiFi-Authentifizierung) . Natürlich kann es auch für andere Komponenten funktionieren (oder nicht), jedoch ohne Garantie.
+Bitte beachten Sie, dass dieses Verfahren nur im oben angegebenen strengen Kontext der Umgebung funktioniert (gleiches Modell, gleiche Jeedom-Box, gleiche WiFi-Authentifizierung)) . Natürlich kann es auch für andere Komponenten funktionieren (oder nicht), jedoch ohne Garantie.
 
 > **Wichtig**
 >
@@ -57,7 +57,7 @@ iface default inet dhcp
 
 ## Bearbeiten der Datei ``/etc/wpa\_supplicant.conf``
 
-Jetzt müssen Sie nur noch Ihre WLAN-Einstellungen eingeben (Name Ihrer SSID und Ihres WPA-Schlüssels). Dies erfolgt durch Bearbeiten der Datei / etc / wpa\_supplicant.conf mit Befehl :
+Jetzt müssen Sie nur noch Ihre WLAN-Einstellungen eingeben (Name Ihrer SSID und Ihres WPA-Schlüssels)). Dies erfolgt durch Bearbeiten der Datei / etc / wpa\_supplicant.conf mit Befehl :
 
 ``sudo nano /etc/wpa_supplicant.conf``
 
@@ -83,10 +83,10 @@ network={
 
 Achten Sie darauf, die unten angegebenen Parameter durch Ihre zu ersetzen :
 
-- NOM_DE_TON_RESEAU_SSID mit dem Namen Ihres eigenen Netzwerks, wobei die Anführungszeichen ("") beibehalten werden
-- TA_CLE_WIFI mit dem Namen Ihres eigenen Netzwerks, wobei die Anführungszeichen ("") beibehalten werden
+- NOM_DE_TON_RESEAU_SSID mit dem Namen Ihres eigenen Netzwerks, wobei die Anführungszeichen gut bleiben (" ")
+- TA_CLE_WIFI mit dem Namen Ihres eigenen Netzwerks, wobei die Anführungszeichen gut bleiben (" ")
 
-Ich mache Sie auch darauf aufmerksam, dass Ihr WLAN-Schlüssel in der Datei deutlich angezeigt wird. Wenn Sie mehr Sicherheit wünschen, können Sie Ihren Schlüssel vorher über den Befehl "sudo wpa_passphrase" verschlüsseln und dann Ihren verschlüsselten Schlüssel einfügen (in diesem Fall ohne Anführungszeichen).
+Ich mache Sie auch darauf aufmerksam, dass Ihr WLAN-Schlüssel in der Datei deutlich angezeigt wird. Wenn Sie mehr Sicherheit wünschen, können Sie Ihren Schlüssel vorher über den Befehl "sudo wpa_passphrase" verschlüsseln und dann Ihren verschlüsselten Schlüssel einfügen (in diesem Fall ohne Anführungszeichen)).
 
 ## WiFi-Aktivierung
 

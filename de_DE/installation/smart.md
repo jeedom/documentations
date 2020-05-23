@@ -17,7 +17,7 @@ Jeedom bietet einen Service mit automatischem Backup-Abonnement für die Private
 
 ## So funktioniert der Wiederherstellungsmodus
 
-Erforderliches Material : ein USB-Stick (mindestens 8 GB).
+Erforderliches Material : einen USB-Stick (mindestens 8 GB)).
 
 >**Notiz**
 >

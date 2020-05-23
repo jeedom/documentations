@@ -83,8 +83,8 @@ network={
 
 Be careful to replace the parameters indicated below with yours :
 
-- NOM_DE_TON_RESEAU_SSID by the name of your own network, keeping the quotes ("")
-- TA_CLE_WIFI by the name of your own network, keeping the quotes ("")
+- NOM_DE_TON_RESEAU_SSID by the name of your own network, keeping the quotes well (" ")
+- TA_CLE_WIFI by the name of your own network, keeping the quotes well (" ")
 
 I also draw your attention that your WiFi key will appear in clear in the file. If you want more security, you can encrypt your key beforehand via the command "sudo wpa_passphrase" then insert your encrypted key (without putting the quotes in this case).
 

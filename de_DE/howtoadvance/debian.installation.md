@@ -4,7 +4,7 @@ Wir werden hier sehen, wie ein Debian sowohl als VM als auch in direkter Install
 
 # Quellenwiederherstellung
 
-Sie finden die neueste Debian-Version in netinstall (Mindestgröße, aber Internet für die Installation erforderlich) [hier](https://www.debian.org/CD/netinst) (Nehmen Sie das Bild in amd64 auf) oder klicken Sie direkt [hier](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) um die ISO herunterzuladen.
+Sie finden die neueste Debian-Version in netinstall (Mindestgröße, aber Internet für die Installation erforderlich) [hier](https://www.debian.org/CD/netinst) (nimm das Bild in amd64) oder klicke direkt [hier](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) um die ISO herunterzuladen.
 
 # Installationsstart
 
@@ -36,7 +36,7 @@ Wählen Sie "Französisch" und bestätigen Sie mit der Eingabetaste
 
 ![debian.installation2](images/debian.installation2.PNG)
 
-Hier muss man "Französisch" wählen
+Hier muss man "Französisch" wählen)
 
 ![debian.installation3](images/debian.installation3.PNG)
 
@@ -44,7 +44,7 @@ Idem :
 
 ![debian.installation4](images/debian.installation4.PNG)
 
-Geben Sie den Namen Ihrer Maschine ein (hier nabaztag, aber wenn es ein jeedom ist, setzen Sie jeedom)
+Geben Sie den Namen Ihrer Maschine ein (hier nabaztag, aber wenn es sich um eine Freiheit handelt, setzen Sie die Freiheit)
 
 ![debian.installation5](images/debian.installation5.PNG)
 
@@ -52,7 +52,7 @@ Drücken Sie einfach die Eingabetaste :
 
 ![debian.installation6](images/debian.installation6.PNG)
 
-Geben Sie ein Passwort ein, ich empfehle hier ein einfaches (wie oooo), es kann später geändert werden (passwd Befehl) :
+Geben Sie ein Passwort ein, ich empfehle hier ein einfaches (wie oooo), es kann später geändert werden (Befehl passwd) :
 
 ![debian.installation7](images/debian.installation7.PNG)
 
@@ -68,7 +68,7 @@ Setzen Sie das gleiche zurück :
 
 ![debian.installation10](images/debian.installation10.PNG)
 
-Geben Sie ein Passwort ein, ich empfehle hier ein einfaches (wie oooo), es kann später geändert werden (passwd Befehl) :
+Geben Sie ein Passwort ein, ich empfehle hier ein einfaches (wie oooo), es kann später geändert werden (Befehl passwd) :
 
 ![debian.installation11](images/debian.installation11.PNG)
 

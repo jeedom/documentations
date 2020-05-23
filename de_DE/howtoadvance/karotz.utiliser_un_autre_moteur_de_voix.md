@@ -6,7 +6,7 @@ Sie müssen zuerst eine Verbindung zu Telnet (Port 23) auf openkarotz herstellen
 
 # Hinzufügen einer Voice Engine
 
-Weiter ``/www/cgi-bin/`` und bearbeiten Sie die Datei ``tts.inc``, eine Funktion hinzufügen (Beispiel für Jeedom) :
+Weiter ``/www/cgi-bin/`` und bearbeiten Sie die Datei ``tts.inc``, füge eine Funktion hinzu (Beispiel für Jeedom) :
 
 ````
 function jeedomTTS {

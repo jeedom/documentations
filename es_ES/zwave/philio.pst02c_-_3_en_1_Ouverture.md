@@ -12,7 +12,7 @@
 
 El detector ZIP-PSM01 ofrece 3 funciones diferentes : detección de apertura, sensor de temperatura y detector de luz. Consta de dos partes : un detector y un imán. Están diseñados para colocarse en una puerta o ventana con el imán fijado en la parte de apertura y el detector en la parte fija.
 
-Abrir la puerta o ventana alejará el imán del detector, lo que activará el detector que enviará una señal de alarma de onda Z, si el sistema está armado (esta señal puede ser operada por una sirena o por un caja de domótica, por ejemplo). El sensor también se puede utilizar para el control automático de la iluminación, según el nivel de brillo. Por ejemplo, el sensor enviará una señal al interruptor Z-Wave para encender la luz cuando la puerta se abra y la habitación esté oscura.
+Al abrir la puerta o ventana, el imán se alejará del detector, lo que activará el detector que enviará una señal de alarma de onda Z, si el sistema está armado (esta señal puede ser operada por una sirena o por un caja de domótica por ejemplo). El sensor también se puede utilizar para el control automático de la iluminación, según el nivel de brillo. Por ejemplo, el sensor enviará una señal al interruptor Z-Wave para encender la luz cuando la puerta se abra y la habitación esté oscura.
 
 El detector también aumentará el brillo y la temperatura, es decir, en caso de un cambio significativo, y cada vez que se detecte la apertura / cierre.
 
@@ -94,7 +94,7 @@ Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/philio.pst02c/config1.jpg)
 
@@ -110,8 +110,8 @@ Detalles del parámetro :
 -   6: modo de funcionamiento multisensor (consulte la documentación del fabricante) Valor recomendado : 4
 -   7: modo de funcionamiento personalizado del multisensor (consulte la documentación del fabricante) Valor recomendado : 20 (tener la apertura funcional)
 -   9: permite definir después de cuánto tiempo se enviará la señal OFF a los módulos asociados con el grupo 2
--   10: se usa para definir la duración entre dos informes de batería (una unidad = parámetro 20)
--   11: le permite definir la duración entre dos informes de apertura automáticos (una unidad = parámetro 20)
+-   10: le permite definir la duración entre dos informes de batería (una unidad = parámetro 20)
+-   11: Se utiliza para definir la duración entre dos informes de apertura automática (una unidad = parámetro 20)
 -   12: le permite definir la duración entre dos informes de brillo automático (una unidad = parámetro 20) Valor recomendado : 3
 -   13: permite definir el tiempo entre dos informes de temperatura automáticos (una unidad = parámetro 20) Valor recomendado : 2
 -   20: duración de un intervalo para los parámetros 10 a 13 Valor recomendado : 10

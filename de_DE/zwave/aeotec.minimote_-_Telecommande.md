@@ -93,7 +93,7 @@ Parameterdetails :
 -   242: Betriebsart Taste 2 (standardmäßig verlassen)
 -   243: Betriebsart Taste 3 (standardmäßig verlassen)
 -   244: Betriebsart Taste 4 (standardmäßig verlassen)
--   250: Betriebsmodus der Fernbedienung (verlassen Sie Scene unbedingt, um sie als Fernbedienung zu verwenden)
+-   250: Betriebsart der Fernbedienung (verlassen Sie Scene unbedingt, um sie als Fernbedienung zu verwenden)
 
 ### Gruppen
 

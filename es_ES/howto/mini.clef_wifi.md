@@ -83,8 +83,8 @@ network={
 
 Tenga cuidado de reemplazar los parámetros indicados a continuación con los suyos :
 
-- NOM_DE_TON_RESEAU_SSID por el nombre de su propia red, manteniendo las comillas ("")
-- TA_CLE_WIFI por el nombre de su propia red, manteniendo las comillas ("")
+- NOM_DE_TON_RESEAU_SSID por el nombre de su propia red, manteniendo las comillas bien (" ")
+- TA_CLE_WIFI por el nombre de su propia red, manteniendo bien las comillas (" ")
 
 También llamo su atención para que su clave WiFi aparezca clara en el archivo. Si desea más seguridad, puede cifrar su clave de antemano mediante el comando "sudo wpa_passphrase" y luego insertar su clave cifrada (sin poner las comillas en este caso).
 

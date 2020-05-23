@@ -16,13 +16,13 @@ Jeedom sendet die Informationen auf der Gesundheitsseite regelmäßig an unseren
 
 ## Wie werde ich gewarnt?
 
-Standardmäßig werden Sie durch eine E-Mail in Ihrer E-Mail benachrichtigt, die in Ihren Profilen konfiguriert ist. Sie können dies jedoch in der Konfiguration der Cloud-Überwachung (auf Ihrer Marktprofilseite) tun : 
+Standardmäßig werden Sie durch eine E-Mail in Ihrer E-Mail benachrichtigt, die in Ihren Profilen konfiguriert ist. Sie können dies jedoch in der Cloud-Überwachungskonfiguration (auf Ihrer Marktprofilseite) tun) : 
 
 - Geben Sie eine andere E-Mail-Adresse ein (nur eine möglich)
 - Fügen Sie eine Warnung zum Telegramm hinzu
 - Fügen Sie eine Warnung zu Slack hinzu (geben Sie einfach die Adresse von Webhook an)
-- Fügen Sie eine SMS-Benachrichtigung hinzu (beachten Sie, dass hierfür ein SMS-Guthaben auf dem Markt erforderlich ist)
-- Hinzufügen einer Benachrichtigung per Benachrichtigung (erfordert die mobile App) 
+- Fügen Sie eine SMS-Warnung hinzu (beachten Sie, dass hierfür ein SMS-Guthaben auf dem Markt erforderlich ist)
+- Fügen Sie eine Benachrichtigung per Benachrichtigung hinzu (erfordert die mobile App) 
 
 > **Teleg**
 >
@@ -32,7 +32,7 @@ Standardmäßig werden Sie durch eine E-Mail in Ihrer E-Mail benachrichtigt, die
 
 Das Verfahren ist recht einfach, das muss man : 
 
-- Haben Sie ein Guthaben für die Cloud-Überwachung (Sie können es in einem 1-Monats-Stapel kaufen, also können Sie 2 Monate dauern, dann 6 Monate anhalten und danach fortfahren)
+- Haben Sie eine Kreditüberwachungs-Cloud (Sie können sie in einem Stapel von 1 Monat kaufen, also können Sie 2 Monate dauern, dann 6 Monate anhalten und danach fortfahren)
 - habe Freiheit 3.3.44 min
 
 Nachdem Sie das Guthaben für die Cloud-Überwachung hinzugefügt haben, müssen Sie entweder einige Stunden (ca. 24 Stunden) oder in Jeedom im Konfigurationsbereich warten und dann auf die Schaltfläche "Test" klicken, um eine Verbindung zum Markt herzustellen (dies zwingt Jeedom zur Wiederherstellung Marktinformationen und damit die Tatsache, dass der Cloud-Überwachungsdienst aktiv ist).

@@ -57,7 +57,7 @@ The Core incluye entre otros :
 
 ## Centro de actualizaciones
 
-*El centro de actualizaciones le permite actualizar todas las funciones de Jeedom, incluido el software principal y sus complementos. Otras funciones de administración de extensiones están disponibles (eliminar, reinstalar, verificar, etc.).*
+*El centro de actualizaciones le permite actualizar todas las funciones de Jeedom, incluido el software principal y sus complementos. Hay otras funciones de administración de extensiones disponibles (eliminar, reinstalar, verificar, etc.).*
 
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 
@@ -66,10 +66,10 @@ The Core incluye entre otros :
 
 Alrededor de este núcleo hay complementos, que pueden ser de todo tipo :
 
--   Protocolo de automatización del hogar (Z-Wave, RFXcom, EnOcean ...),
--   Protocolo IP (KNX, xPL ...),
--   Objeto comunicante (Nest, Netatmo ...),
--   Nivel alto (alarma, termostato ...),
+-   Protocolo de automatización del hogar (Z-Wave, RFXcom, EnOcean),
+-   Protocolo IP (KNX, xPL),
+-   Objeto comunicante (Nest, Netatmo),
+-   Nivel alto (alarma, termostato),
 -   Interfaz (widget),
 -   Organización (calendario, calendario de Google),
 -   Desarrollo (guión).

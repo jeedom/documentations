@@ -34,7 +34,7 @@ Das Poly-Control-System kann zu Hause oder am Arbeitsplatz eingesetzt werden. Da
 -   Versorgung : 3,6 V Lithium-Chlorid-Batterie
 -   Frequenz : 868,42 MHz
 -   Geltungsbereich : bis zu 100 m im Freien, bis zu 30 m in Gebäuden
--   Abmessungen : 120 x 52 x 60 mm (L x B x H)
+-   Abmessungen : )
 -   Gewicht : 370g
 
 ## Moduldaten
@@ -67,7 +67,7 @@ Sobald das Modul erkannt wurde, sind die dem Modul zugeordneten Befehle verfügb
 
 Hier ist die Liste der Befehle :
 
--   Status : Dies ist der Befehl, der zur letzten ausgeführten Aktion zurückkehrt (Öffnen / Schließen)
+-   Status : )
 -   Öffnen : Es ist der Befehl, der das Schloss öffnet
 -   Schließen : Es ist der Befehl, der das Schließen des Schlosses ermöglicht
 -   Batterie : Es ist der Batteriebefehl
@@ -82,17 +82,17 @@ Wenn Sie das Modul gemäß Ihrer Installation konfigurieren möchten, müssen Si
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/polycontrol.polylock/config1.jpg)
 
 Parameterdetails :
 
 -   0: Ermöglicht das Ändern der Drehrichtung für die Befehle zum Öffnen / Schließen
--   1: Hier können Sie festlegen, wie lange sich das Schloss öffnen soll (0 bis 15 s)
--   2: Hier können Sie festlegen, wie lange sich das Schloss zum Schließen drehen soll (0 bis 15 s)
--   3: wird verwendet, um die Drehzahl des Schlosses zu definieren (0 bis 15, wobei 15 die langsamste ist)
--   4: ermöglicht die Auswahl aus verschiedenen Betriebsarten (Drehmoment, Kraft, Leistung usw.)
+-   1: )
+-   2: )
+-   3: )
+-   4: )
 
 ### Gruppen
 
@@ -104,7 +104,7 @@ Dieses Modul hat nur eine Zuordnungsgruppe.
 
 ![exemple](images/polycontrol.polylock/exemple.jpg)
 
-Der Auslöser ist der Ereignisbefehl auf einer Zipato-Tastatur (es kann alles andere sein). Wenn der Wert 6 (home) ist, schließen wir die Tür ab. Wir sind gerade zurückgekehrt, damit wir die Tür abschließen können. Andernfalls (unbedingt 5) öffnen wir die Tür mit einem Schlüssel und 2 Minuten nachdem wir sie geschlossen haben. In der Tat wollen wir raus, die Tür öffnet sich und wird kurz darauf wieder schließen.
+). Wenn der Wert 6 (home) ist, schließen wir die Tür ab. Wir sind gerade zurückgekehrt, damit wir die Tür abschließen können. Andernfalls (unbedingt 5) öffnen wir die Tür mit einem Schlüssel und 2 Minuten nachdem wir sie geschlossen haben. In der Tat wollen wir raus, die Tür öffnet sich und wird kurz darauf wieder schließen.
 
 ## Gut zu wissen
 

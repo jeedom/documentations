@@ -59,7 +59,7 @@ Unter der Schaltfläche "E" befindet sich die Zuordnungstaste des Temperatursens
 
 ### Konfiguration
 
-Standardmäßig ist der Sensor in NO (normalerweise offen) konfiguriert
+Standardmäßig ist der Sensor in NO (normalerweise offen) konfiguriert)
 
 ![eos200.nf no](images/eos200/eos200.nf-no.jpg)
 

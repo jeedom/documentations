@@ -4,7 +4,7 @@ Jeedom se puede instalar en diferentes tipos de hardware :
 
 -   un Raspberry pi 2 o 3
 -   un NAS Synology
--   cualquier sistema Linux basado en Debian 9 (stretch)
+-   cualquier sistema Linux basado en Debian 9 (estiramiento)
 -   Freebox Delta
 
 También puede comprar una caja preparada con Jeedom preinstalado que también contiene un paquete de servicio (más soporte y servicios) y complementos ofrecidos :

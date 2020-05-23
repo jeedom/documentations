@@ -4,13 +4,13 @@ Zunächst einmal vielen Dank für den Kauf des Jeedom Mini +. Hier finden Sie ei
 
 Die Jeedom Mini + Box, die Sie erhalten haben, muss enthalten :
 
--   Eine Jeedom Mini + Box (JeedomBoard Mono Card - ARM Cortex A9 1.2 GHz & 512 MB RAM)
+-   Eine Jeedom Mini + Box (JeedomBoard Mono Card - ARM Cortex A9 1.2 GHz und 512 MB RAM)
 -   Ein 5V 2A Netzladegerät.
--   Eine Micro-SD-Karte mit vorinstallierter Jeedom-Software. (Diese Karte ist normalerweise bereits in die Box eingelegt.)
+-   Eine Micro-SD-Karte mit vorinstallierter Jeedom-Software. (Diese Karte ist normalerweise bereits in die Box eingelegt)
 -   MicroSD / SD-Kartenadapter.
 -   Jeedom Aufkleber.
 -   *Ein RFXcom 433E-Modul mit USB-Kabel.* (Nur wenn Sie das Starterpaket mit RFXcom-Schnittstelle gekauft haben).
--   *RaZberry Z-Wave + Karte.* (Nur wenn Sie das Z-Wave + -kompatible Starterpaket gekauft haben) (Diese Karte ist normalerweise bereits in der Box installiert.)
+-   *RaZberry Z-Wave + Karte.* (Nur wenn Sie das Z-Wave + -kompatible Starterpaket gekauft haben) (Diese Karte ist normalerweise bereits in der Box installiert)
 
 ![mini.demarrage01](images/mini.demarrage01.png)
 
@@ -43,7 +43,7 @@ Das Wetter Plugin.
 
 Sie finden noch viele andere Plugins direkt über die Jeedom-Oberfläche auf dem Jeedom Market.
 
-Vergessen Sie auch nicht, dass Sie 2 Gutscheine haben (per E-Mail gesendet), mit denen Sie 2 kostenpflichtige Plugins kostenlos installieren können (RFXCOM und Alarm). Um es zu verwenden, müssen Sie ein Konto auf dem Jeedom Market erstellen (siehe Dokumentation) : [Doc Markt](https://doc.jeedom.com/de_DE/premiers-pas/index).
+Vergessen Sie auch nicht, dass Sie 2 Gutscheine (per E-Mail gesendet) haben, mit denen Sie 2 kostenpflichtige Plugins kostenlos installieren können (RFXCOM und Alarm)). Um es zu verwenden, müssen Sie ein Konto auf dem Jeedom Market erstellen (siehe Dokumentation) : [Doc Markt](https://doc.jeedom.com/de_DE/premiers-pas/index).
 
 Die E-Mail, die Sie erhalten haben, enthält auch die mit dem Jeedom Mini + verknüpfte Service Pack-Nummer. Sie können es in Ihr Marktprofil eingeben. Auf diese Weise können Sie unter anderem auf die verschiedenen Services zugreifen, die Ihrem Service Pack entsprechen.
 

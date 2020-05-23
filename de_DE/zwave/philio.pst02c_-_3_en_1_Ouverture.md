@@ -12,7 +12,7 @@
 
 Der ZIP-PSM01-Detektor bietet 3 verschiedene Funktionen : Öffnungserkennung, Temperatursensor und Lichtdetektor. Es besteht aus zwei Teilen : ein Detektor und ein Magnet. Sie können an einer Tür oder einem Fenster angebracht werden, wobei der Magnet am Öffnungsteil und der Detektor am Festteil befestigt sind.
 
-Durch Öffnen der Tür oder des Fensters wird der Magnet vom Detektor wegbewegt, wodurch der Detektor ausgelöst wird, der ein Z-Wave-Alarmsignal sendet, wenn das System scharfgeschaltet ist (dieses Signal kann von einer Sirene oder von einem gesteuert werden) Hausautomationsbox zum Beispiel). Der Sensor kann je nach Helligkeitsstufe auch zur automatischen Lichtsteuerung verwendet werden. Beispielsweise sendet der Sensor ein Signal an den Z-Wave-Schalter, um das Licht einzuschalten, wenn sich die Tür öffnet und der Raum dunkel ist.
+Durch Öffnen der Tür oder des Fensters wird der Magnet vom Detektor wegbewegt, wodurch der Detektor ausgelöst wird, der ein Z-Wave-Alarmsignal sendet, wenn das System scharfgeschaltet ist (dieses Signal kann von einer Sirene oder von einem betrieben werden) Hausautomationsbox zum Beispiel). Der Sensor kann je nach Helligkeitsstufe auch zur automatischen Lichtsteuerung verwendet werden. Beispielsweise sendet der Sensor ein Signal an den Z-Wave-Schalter, um das Licht einzuschalten, wenn sich die Tür öffnet und der Raum dunkel ist.
 
 Der Detektor erhöht auch die Helligkeit und die Temperatur, d. H. Im Falle einer signifikanten Änderung, und jedes Mal, wenn das Öffnen / Schließen erfasst wird.
 
@@ -21,7 +21,7 @@ Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Det
 ## Funktionen
 
 -   3 in 1 Detektor: Blende, Temperatur, Licht
--   Übernimmt den aktuellen Chip der Z-Wave 400series, um Mehrkanalbetrieb und höheren Datendurchsatz (9,6 / 40 / 100kbps) zu unterstützen
+-   )
 -   Verwendet das Z-Wave 6.02 SDK
 -   Optimierte Antennenreichweite
 -   Verwendung für Hausautomations- oder Sicherheitsanwendungen
@@ -35,7 +35,7 @@ Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Det
 
 -   Modultyp : Z-Wave Sender
 -   Versorgung : 1 CR123A 3V Batterie
--   Akkulaufzeit : 3 Jahre (für 14 Fahrten pro Tag)
+-   Akkulaufzeit : )
 -   Frequenz : 868.42 MHz
 -   Übertragungsentfernung : 30m drinnen
 -   Temperatursensor : -10 bis 70 ° C.
@@ -94,7 +94,7 @@ Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, 
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/philio.pst02c/config1.jpg)
 
@@ -108,10 +108,10 @@ Parameterdetails :
 -   4: Stellt die Helligkeitsstufe ein, ab der das in Parameter 2 definierte Signal an die der Gruppe 2 zugeordneten Module gesendet wird
 -   5: Betriebsart (siehe Herstellerdokumentation) Empfohlener Wert : 8
 -   6: Multisensor-Betriebsmodus (siehe Herstellerdokumentation) Empfohlener Wert : 4
--   7: personalisierte Betriebsart des Multisensors (siehe Herstellerdokumentation) Empfohlener Wert : 20 (um die funktionale Öffnung zu haben)
+-   7: personalisierte Betriebsart des Multisensors (siehe Herstellerdokumentation) Empfohlener Wert : )
 -   9: Hiermit können Sie festlegen, nach welcher Zeit das AUS-Signal an die der Gruppe 2 zugeordneten Module gesendet werden soll
--   10: wird verwendet, um die Dauer zwischen zwei Batterieberichten zu definieren (eine Einheit = Parameter 20)
--   11: Mit dieser Option können Sie die Dauer zwischen zwei automatischen Eröffnungsberichten definieren (eine Einheit = Parameter 20)
+-   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterieberichten definieren (eine Einheit = Parameter 20))
+-   11: wird verwendet, um die Dauer zwischen zwei automatischen Öffnungsberichten zu definieren (eine Einheit = Parameter 20)
 -   12: Mit dieser Option können Sie die Dauer zwischen zwei automatischen Helligkeitsberichten definieren (eine Einheit = Parameter 20). Empfohlener Wert : 3
 -   13: Ermöglicht die Definition der Zeit zwischen zwei automatischen Temperaturberichten (eine Einheit = Parameter 20). Empfohlener Wert : 2
 -   20: Dauer eines Intervalls für die Parameter 10 bis 13 Empfohlener Wert : 10

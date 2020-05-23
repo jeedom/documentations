@@ -154,7 +154,7 @@ You then find :
 - A button to remove the plugin,
 - A brief description,
 - A link to the plugin documentation,
-- A link to the changelog (the last modifications made),
+- A link to the changelog (the latest changes),
 - Compatibility with different platforms,
 - User reviews,
 - How to use the plugin,

@@ -78,7 +78,7 @@ Veremos aquí cómo vincular su Jeedom a su cuenta de Market.
 -   A continuación, haga clic en la pestaña **Mercado**
 -   Marca la casilla **Activar**
 -   Remplissez l'adresse : `https://market.jeedom.com`
--   También complete el campo **Nombre de usuario** y **Contraseña** según sus identificadores (identificadores de mercado y no Jeedom)
+-   También complete el campo **Nombre de usuario** y **Contraseña** basado en sus identificadores (identificadores de mercado y no Jeedom)
 -   Puede probar para verificar que la conexión se realizó correctamente.
 -   No olvides guardar !
 
@@ -154,7 +154,7 @@ Entonces encuentras :
 - Un botón para eliminar el complemento,
 - Una breve descripcion,
 - Un enlace a la documentación del complemento,
-- Un enlace al registro de cambios (las últimas modificaciones realizadas),
+- Un enlace al registro de cambios (los últimos cambios),
 - Compatibilidad con diferentes plataformas,
 - Opiniones de usuarios,
 - Cómo usar el complemento,
@@ -171,9 +171,9 @@ Sin embargo, hay muchas maneras de encontrar ayuda y hacer sus preguntas.
 
 Lo encontraras [aquí](https://community.jeedom.com/).
 
-El foro es muy activo y contiene mucha información. Si tiene alguna pregunta, no dude en preguntarla. Tendrás una respuesta en menos de una hora (en promedio). Tenga en cuenta que el foro es mantenido por la comunidad Jeedom, compuesta por voluntarios, y no por la compañía Jeedom.
+El foro es muy activo y contiene mucha información. Si tiene alguna pregunta, no dude en preguntarla. Tendrá una respuesta en menos de una hora (en promedio). Tenga en cuenta que el foro es mantenido por la comunidad Jeedom, compuesta por voluntarios, y no por la compañía Jeedom.
 
-## Solicitudes de soporte (o tickets)
+## Solicitudes de soporte (o tickets))
 
 > **Importante**
 >

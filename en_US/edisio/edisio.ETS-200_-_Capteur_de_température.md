@@ -29,7 +29,7 @@ Integrated LED indicator signals any change of state.
 
 -   Type of module : Edisio transmitter
 -   Use : Indoors
--   Food : 3VDC (Lithium Battery ER14250)
+-   Food : 3VDC (Lithium battery ER14250)
 -   Autonomy : Up to 3 years
 -   Frequency : 868.3 MHz
 -   Operating temperature : 0 ° C + 45 ° C

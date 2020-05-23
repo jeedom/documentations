@@ -88,9 +88,9 @@ Aquí está la lista de comandos :
 -   Potencia : Comando que permite tener el consumo del módulo
 -   El consumo : Comando que permite conocer la potencia instantánea utilizada por el módulo
 -   Detener : Control para detener el movimiento del obturador
--   DETENER BSO : Comando para detener el movimiento (en modo de lamas ajustable)
--   Inclinación : Le permite inclinar las lamas (modo de lamas ajustable)
--   Declinar : Permite disminuir las lamas (modo de lamas ajustable)
+-   DETENER BSO : Control para detener el movimiento (en modo de lamas ajustable)
+-   Inclinación : Le permite inclinar las lamas (modo de lamas ajustable))
+-   Declinar : Se usa para rechazar las lamas (modo de lamas ajustable)
 -   No : Se usa para definir el paso para presionar Rechazar o Inclinar
 
 ### Configuración du module
@@ -99,7 +99,7 @@ Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/fibaro.fgrm222/config1.jpg)
 
@@ -114,8 +114,8 @@ Detalles del parámetro :
 -   1: permite bloquear el módulo (para congelar un obturador) (en el caso de presionar un interruptor)
 -   2: lo mismo pero para los comandos zwave
 -   3: tipo de informes (clásico o fibroso)
--   10: modo de funcionamiento (persiana veneciana, obturador, etc.)
--   12: duración de un turno completo (en modo de persiana veneciana)
+-   10: modo de funcionamiento (persiana veneciana, obturador, etc.))
+-   12: duración de un turno completo (en modo ciego veneciano)
 -   13: le permite elegir cuándo los listones deben volver a su posición anterior
 -   14: permite elegir el tipo de interruptor
 -   17: permite elegir cuánto tiempo después del límite definido en 18 se detiene el obturador
@@ -125,7 +125,7 @@ Detalles del parámetro :
 -   30 a 35: permite definir el comportamiento del módulo frente a las diferentes alarmas zwave
 -   40: delta de potencia para desencadenar un aumento de la información (incluso fuera del período definido en 42)
 -   42: período de retroalimentación de información
--   43: delta de energía para desencadenar un aumento de la información (incluso fuera del período definido en 42)
+-   43: delta de energía para desencadenar un ascenso de información (incluso fuera del período definido en 42)
 -   44: permite elegir si el consumo y la potencia deben tener en cuenta o no el módulo en sí
 -   50: permite elegir si el módulo debe enviar la información a los nodos en asociación en modo escena o en modo asociación
 
@@ -147,7 +147,7 @@ Puede restablecer su medidor de consumo haciendo clic en este botón disponible 
 
 > **Importante**
 >
-> Para que la retroalimentación de estado funcione en Jeedom, es necesario forzar la calibración del equipo (parámetro 29 a "Sí") y el posicionamiento debe estar activo (parámetro 10 con los valores "Active direct", "Active Venetian "o" Puerta activa ").
+> Para que la retroalimentación de estado funcione en Jeedom, es necesario forzar la calibración del equipo (parámetro 29 a "Sí") y el posicionamiento debe estar activo (parámetro 10 con los valores "Active direct", "Active Venetian "o" Puerta activa").
 
 
 ## Despertador

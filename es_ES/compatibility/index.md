@@ -14,11 +14,11 @@ RPI4                    | No oficial / estable     | Atención si usas un wifi /
 32 bit                 | No compatible            |                          
 VMware                  | Estable                  | No hay soporte para VMware, solo para Jeedom.
 
-El equipo de jeedom lo recomienda (según su presupuesto) :
+El equipo de jeedom te recomienda (dependiendo de tu presupuesto) :
 
-- Jeedom Smart (todo está preinstalado, no tiene que hacer nada)
+- Jeedom Smart (todo está preinstalado, no tienes que hacer nada)
 - Odroid C2 (mejor relación rendimiento / precio)
-- Intel Nuc gen (rendimiento extremo, consulte la categoría de tutoriales para la elección en diferentes modelos e instalación)
+- Intel Nuc gen (rendimiento extremo, consulte la categoría de tutoriales para la elección en los diferentes modelos e instalación)
 - RPI4
 
 #  Images
@@ -32,7 +32,7 @@ Puedes encontrar todas las imágenes de Jeedom [aquí](https://images.jeedom.com
 | Estibador         |                | Beta           | root / Mjeedom96 |                |
 
 
-Todas las demás imágenes descargables anteriormente ya no se mantienen, es mejor pasar por la instalación manual de Jeedom [Doctor](https://doc.jeedom.com/es_ES/installation/index) después de instalar una distribución de Linux correspondiente a su hardware : Debian (vm, pc, ...), Raspbian Lite (Raspberry pi), Armbian (Ordoid, ...)
+Todas las demás imágenes descargables anteriormente ya no se mantienen, es mejor pasar por la instalación manual de Jeedom [Doctor](https://doc.jeedom.com/es_ES/installation/index) después de instalar una distribución de Linux correspondiente a su hardware : Debian (vm, pc, ...), Raspbian Lite (Raspberry pi), Armbian (Ordoid,)
 
 #  Logiciel
 

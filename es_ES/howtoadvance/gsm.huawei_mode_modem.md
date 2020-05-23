@@ -28,7 +28,7 @@ Una vez iniciado, configure la masilla de esta manera (poniéndose su número de
 
 ![gsmonly3](images/gsmonly3.PNG)
 
-Aparecerá una ventana negra (de vez en cuando puede haber un mensaje de "arranque ...", esto es normal, significa que está bien conectado a la clave GSM). En esta ventana tienes que escribir y luego presionar la tecla "Enter"" :
+Aparecerá una ventana negra (de vez en cuando puede haber un mensaje "boot ...", esto es normal, significa que está bien conectado a la clave GSM). En esta ventana tienes que escribir y luego presionar la tecla "Enter"" :
 
 ``AT^u2diag=0``
 

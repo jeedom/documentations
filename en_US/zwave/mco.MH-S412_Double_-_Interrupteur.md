@@ -21,7 +21,7 @@ The switch is also equipped with an LED indicator that indicates its status.
 ## Functions
 
 -   Control two lamps or devices remotely
--   Installs in place of an existing switch (fits perfectly into a 40mm flush-mounting box)
+-   Installs in place of an existing switch (fits perfectly into a 40mm flush-mounted box)
 -   ON / OFF function
 -   Support association commands (Group 1 and Group 2)
 -   Control of the two charges locally
@@ -71,13 +71,13 @@ Then if you want to configure the module according to your installation, you hav
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the Settings tab)
+You will arrive on this page (after clicking on the parameters tab)
 
 ![Config1](images/mco.mhs412/config1.jpg)
 
 Parameter details :
 
--   1: Saving state before power failure : enable (allows to find the last state of the switches just before the power cut) diseable (the switches will be in the OFF state when the mains return)
+-   1: Saving state before power failure : enable (allows to find the last state of the switches just before the power cut) diseable )
 
 ### Groups
 

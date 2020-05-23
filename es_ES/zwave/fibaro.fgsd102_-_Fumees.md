@@ -77,7 +77,7 @@ Una vez que se reconoce el módulo, los comandos asociados con el módulo estar�
 
 Aquí está la lista de comandos :
 
--   Humo : es el comando de alerta del módulo (para humo, calor, etc.)
+-   Humo : es el comando de alerta del módulo (para humo, calor)
 -   Temperatura : es el comando de medición de temperatura
 -   Sabotaje : este es el comando de sabotaje. Señala la apertura del caso
 -   Alerta de prueba : Es el comando el que mostrará el hecho de que el módulo está en modo de prueba
@@ -110,7 +110,7 @@ Detalles del parámetro :
 -   10: no cambie esta configuración a menos que sepa lo que está haciendo
 -   11: idem
 -   12: idem
--   13: permite notificar a otros módulos zwave (para desactivar a menos que sepa por qué lo activa)
+-   13: permite notificar a otros módulos zwave (para desactivar a menos que sepa por qué lo activa))
 -   20: tiempo entre dos informes de temperatura
 -   21: diferencia de temperatura a partir de la cual, incluso si no se alcanza la duración de la parte superior, la temperatura se enviará a Jeedom
 -   30: Temperatura de activación de alarma de calor

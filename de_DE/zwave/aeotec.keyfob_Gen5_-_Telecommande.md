@@ -99,7 +99,7 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 
 Parameterdetails :
 
--   250: Betriebsmodus der Fernbedienung (unbedingt Szene als Fernbedienung verwenden)
+-   250: Betriebsmodus der Fernbedienung (setzen Sie Scene unbedingt als Fernbedienung ein)
 -   255 : Ermöglicht das Zurücksetzen des Schlüsselanhänger ab Werk
 
 ### Gruppen

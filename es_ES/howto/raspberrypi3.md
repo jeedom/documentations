@@ -66,4 +66,4 @@ Luego reinicie PI3
     ``dtoverlay=pi3-disable-bt``
 -   Hacer una parada limpia
     ``sudo halt``
--   Desconecte la reconexión (¡sin reinicio de sudo!).
+-   Desconectar reconectar (no reiniciar sudo !).

@@ -9,8 +9,8 @@ The Jeedom Mini + box you received must contain :
 -   A micro SD card with Jeedom software pre-installed. (This card is normally already inserted in the box)
 -   MicroSD / SD Card adapter.
 -   Jeedom sticker.
--   *An RFXcom 433E module with its USB cable.* (Only if you bought the starter pack with RFXcom interface).
--   *RaZberry Z-Wave + card.* (Only if you purchased the Z-Wave + compatible starter pack) (This card is normally already installed in the box)
+-   *An RFXcom 433E module with its USB cable.* (Only if you have purchased the starter pack with RFXcom interface).
+-   *RaZberry Z-Wave + card.* (Only if you bought the Z-Wave + compatible starter pack) (This card is normally already installed in the box)
 
 ![mini.demarrage01](images/mini.demarrage01.png)
 

@@ -22,7 +22,7 @@
 
 ## Desactivación de los servicios Jeedom y nginx
 
-En Jeedom, debe ir a cada complemento con un demonio, luego desactivar la gestión automática del demonio y cortarlo. Luego, en el motor de tareas, desactive todas las tareas (hay un botón de desactivación general) y en los escenarios, desactive todos los escenarios (hay un botón de desactivación general).
+En Jeedom, debe ir a cada complemento con un demonio, luego desactivar la gestión automática del demonio y cortarlo. Luego, en el motor de tareas, desactive todas las tareas (hay un botón de desactivación general) y en los escenarios, desactive todos los escenarios (hay un botón de desactivación general)).
 
 ````
 systemctl stop cron

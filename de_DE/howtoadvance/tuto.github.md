@@ -8,7 +8,7 @@ Dieses Tutorial präsentiert Ihnen :
 -   Senden Sie eine Änderung
 -   Aktualisieren Sie Ihre Gabel
 
-Damit Sie zu Jeedom beitragen können, müssen Sie die Änderungen vorschlagen (PR : Pull Request).
+Damit Sie zu Jeedom beitragen können, müssen Sie die Änderungen vorschlagen (PR : Pull-Anfrage).
 
 # Erstellen Sie ein GitHub-Konto
 
@@ -41,7 +41,7 @@ Jetzt, da Sie ein Github-Konto haben und mit Ihrer verifizierten E-Mail-Adresse 
 In meinem Fall möchte ich daher eine Änderung an der Datei vornehmen *history.class.php* Diese Datei befindet sich im Kern von jeedom und genauer hier : Kern / Klasse /
 
 - Wir befinden uns also in meinem Repository (TaGGoU91 / core), das als Gabelung von Jeedom / core angezeigt wird
-- Also gehen wir zu / core / class (der erste Kern ist fett gedruckt, es ist das Repository, in dem ich mich befinde (Kern, siehe Klein 1)
+- Also gehen wir zu / core / class (der erste Kern ist fett gedruckt, es ist das Repository, in dem ich mich befinde (Kern, siehe Klein 1))
 - Also haben wir unsere Akte *history.class.php* - Wir klicken auf die Datei
 
 ![tuto.github5](images/tuto.github5.png)
@@ -51,12 +51,12 @@ In meinem Fall möchte ich daher eine Änderung an der Datei vornehmen *history.
 
 ![tuto.github6](images/tuto.github6.png)
 
-Um die Datei zu durchsuchen, positionieren Sie sich mit dem Stift im Textblock der Datei, die Sie gerade im Bearbeitungsmodus geöffnet haben, und drücken Sie "Strg + F", um die Suche zu aktivieren. Sie fügen den gesuchten Text ein oder geben ihn an (nur ein wichtiges Element und eine Zeile, nicht ein ganzer Block gleichzeitig). Bestätigen Sie mit "Enter", um die Suche zu starten.
+Um die Datei zu durchsuchen, positionieren Sie sich mit dem Stift im Textblock der Datei, die Sie gerade im Bearbeitungsmodus geöffnet haben, und drücken Sie "Strg + F", um die Suche zu aktivieren. Sie fügen den gesuchten Text ein oder geben ihn an (nur ein wichtiges Element und eine Zeile, nicht ein ganzer Block auf einmal). Bestätigen Sie mit "Enter", um die Suche zu starten.
 > **Spitze**
 >
 > Wenn Sie nicht in das Fenster klicken, das den gesuchten Text oder Code enthält, wird die Browsersuche geöffnet und in meinem Fall weiß Google Chrome nicht, wie im Code oder gesucht werden soll Dokumentation direkt.
 
-- Das Suchfeld, ja es ist ziemlich dünn als Information, die kopierte Zeile ist viel größer;).
+- Das Suchfeld, ja es ist ziemlich dünn wie Information, die kopierte Zeile ist viel größer;).
 
 ![tuto.github7](images/tuto.github7.png)
 
@@ -73,15 +73,15 @@ Dann finden wir dies im unteren Teil : 1. Wenn möglich, wird ein expliziter Tit
 
 ## Senden Sie eine Änderung
 
-Die **begehen** Das oben Genannte betrifft nur den Zweig des Projekts in Ihrem GitHub-Bereich. Um Änderungen am ursprünglichen Projekt einzureichen, müssen Sie eine PR (Pull Request) durchführen
+Die **begehen** Das oben Genannte betrifft nur den Zweig des Projekts in Ihrem GitHub-Bereich. Um Änderungen am ursprünglichen Projekt einzureichen, müssen Sie eine PR (Pull Request) durchführen)
 
 - Wir klicken auf die Registerkarte Pull Request
-- Neue Pull-Anfrage (PR für Freunde)
+- Neue Pull-Anfrage (PR für Freunde))
 
 ![tuto.github9](images/tuto.github9.png)
 
-- Der PR startet einen Vergleich zwischen der Jeedom-Datenbank und Ihrem Repository (der Gabelung).
-- Dies zeigt die Änderungen an (die erste ist, weil ich mich seit jeedom aktualisiert habe, die zweite betrifft genau die Änderung der Funktion der letzten Änderung, perfekt !!!)
+- Der PR startet einen Vergleich zwischen der Jeedom-Datenbank und Ihrem Repository (der Gabelung)).
+- Dies zeigt die Änderungen an (die erste ist, weil ich mich seit jeedom aktualisiert habe, die zweite genau in Bezug auf die Änderung der Funktion der letzten Änderung, perfekt !!!)
 - Der alte Code
 - Der neue Code
 - Wir erstellen die Pull Request (PR)

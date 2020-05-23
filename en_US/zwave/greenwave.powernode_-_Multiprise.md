@@ -161,7 +161,7 @@ You can use a virtual to create a cumulative consumption of the 6 sockets.
 
 ![Config3](images/greenwave.powernode/config3.jpg)
 
-You can reset your consumption meter by clicking on this button available in the System tab. (There is a reset per socket). Choose PressButton.
+You can reset your consumption meter by clicking on this button available in the System tab. (There is a reset by socket). Choose PressButton.
 
 ## Wakeup
 

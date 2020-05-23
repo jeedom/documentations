@@ -16,7 +16,7 @@ Du musst gehen [hier](https://images.jeedom.com/jeeboard/),Stellen Sie dann im O
 
 ## Das Jeedom-Bild dekomprimieren
 
-Entpacken Sie das Jeedom-Image (wenn Sie nichts zum Entpacken haben, können Sie es installieren [Winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)) müssen Sie erhalten :
+Entpacken Sie das Jeedom-Image (wenn Sie nichts zum Entpacken haben, können Sie es installieren [Winrar](http://www.clubic.com/telecharger-fiche9632-winrar.html)), du musst bekommen :
 
 ![install humming 2](images/install_humming_2.PNG)
 

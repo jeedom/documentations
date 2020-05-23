@@ -9,10 +9,10 @@ Here is its structure: first a folder with the name of your plugin (its unique i
 - ``3rdparty`` : folder containing the external libraries used in the plugin (example for the SMS plugin a library for serial communication in php)
 - ``core`` : folder containing all internal operating files
 - ``class`` : folder containing the plugin class
-- ``php`` : folder which may contain functions which need not necessarily belong to a class (often used to allow the inclusion of multiple classes or configuration files at once)
+- ``php`` : folder that can contain functions that do not have to belong to a class (often used to allow the inclusion of multiple classes or configuration files at once)
 - ``config`` : plugin configuration file
 - ``ajax`` : folder containing AJA call target filesX
-- ``desktop`` : folder containing the "desktop" view of the plugin (in contrast to the "mobile" view)
+- ``desktop`` : folder containing the "desktop" view of the plugin (in contrast to the "mobile" view")
  -   ``js`` : folder containing all javascript files
  -   ``php`` : folder containing all the php files that display
  -   ``css`` : there is none here but, if necessary, all the plugin css files go into it
@@ -20,7 +20,7 @@ Here is its structure: first a folder with the name of your plugin (its unique i
 - ``plugin\_info`` : contains the files allowing Jeedom to qualify the plugin, to install and configure it
  -   ``info.json`` : file containing the basic information of the plugin (it is mandatory otherwise Jeedom will not see the plugin), it contains among other things the module identifier, description, installation instructions…
  -   ``install.php`` : file containing (if necessary) the methods for installing and uninstalling the plugin
- -   ``configuration.php`` : file containing the parameters to configure the plugin independent of its equipment (example for the Zwave module, the ip of the Raspberry Pi with the Razberry card)
+ -   ``configuration.php`` : file containing the parameters to configure the plugin independent of its equipment (example for the Zwave module, the Raspberry Pi ip with the Razberry card)
 - ``docs`` : must contain the plugin doc in markdown format, the root and the index.md file. All images are in docs / images. The doc itself is in a folder depending on the language (ex in French : ``docs/fr\_FR``)
 
 As for the file naming convention, here are the
@@ -122,7 +122,7 @@ The file consists of :
 - The inclusion of the Jeedom core
 - Verification that the user is well connected (I include the 404 file because this file is a view type file)
 
-Then comes the requested parameter (there can be several), it is a standard Bootstrap syntax for forms, the only particularities to respect are the class (``configKey``) to put on the parameter element as well as the "data-l1key" which indicates the name of the parameter. To recover the value of it elsewhere in the plugin just do : ``config::byKey(NOM_PARAMETRE, PLUGIN_ID)``
+Then comes the requested parameter (it can have several), it is a standard Bootstrap syntax for forms, the only particularities to respect are the class (``configKey``) to put on the parameter element as well as the "data-l1key" which indicates the name of the parameter. To recover the value of it elsewhere in the plugin just do : ``config::byKey(NOM_PARAMETRE, PLUGIN_ID)``
 
 Example :
 
@@ -179,7 +179,7 @@ if (!isConnect()) {
 
 ## Php
 
-This folder contains the view itself. Inside we must find the plugin configuration page (the one that will appear when the user makes the plugin ⇒ category ⇒ your plugin). It is advisable to name it with the id of your plugin. It can also contain the panel (page that the user will find in home → name of your plugin).
+This folder contains the view itself. Inside, you must find the plugin configuration page (the one that will appear when the user does the plugin ⇒ category ⇒ your plugin). It is advisable to name it with the id of your plugin. It can also contain the panel (page that the user will find in home → name of your plugin).
 
 All files in this folder must end up ``.php`` and must start with :
 
@@ -192,7 +192,7 @@ if (!isConnect('admin')) {
  ?>
  ````
 
-Once on this page you will have access in php to all the functions of the core of jeedom (see [here](https://www.jeedom.com/doc/documentation/code/) ) as well as those of all modules installed so yours too.
+Once on this page you will have access in php to all the functions of the core of jeedom (see [here](https://www.jeedom.com/doc/documentation/code/) ) as well as those of all installed modules so yours too.
 
 All these pages being views, they mainly use HTML syntax. For all that is presented, Jeedom is mainly based on bootstrap so all the [Documentation](http://getbootstrap.com/) is applicable.
 
@@ -392,7 +392,7 @@ Which can contain 2 subfolders, dashboard and mobile, it is a folder that Jeedom
 
 ## i18n
 
-This is where your translation should be in the form of a json file (best and look for example the plugin [Zwave](https://github.com/jeedom/plugin-zwave) to see the form of the file)
+This is where your translation should be in the form of a json file (best and look for example the plugin [Zwave](https://github.com/jeedom/plugin-zwave) to see the shape of the file)
 
 ## ajax
 
@@ -528,7 +528,7 @@ In our example here it is a command to make SARAH speak, where the plugin retrie
 
 Here for the compulsory part, here is what can be used next (with example) :
 
-### toHtml (\ $\_ version = &#39;dashboard&#39;)
+### toHtml (\ $\_ version = 'dashboard')
 
 Function usable in the control or in the equipment, according to the needs, here is an example for the equipment
 
@@ -678,7 +678,7 @@ if (is_array($parameters)) {
 }
 ````
 
-Saving the widget in the cache: so that during the next request we provide it faster, we can notice the 0 here which indicates an infinite lifetime, otherwise the duration is in seconds (we will see in the next part how the weather plugin updates its widget).
+Saving the widget in the cache: so that during the next request we provide it faster, we can notice the 0 here which indicates an infinite lifespan, otherwise the duration is in seconds (we will see in the next part how the weather plugin updates its widget).
 
 ````
 cache::set('weatherWidget' . $_version . $this->getId(), $html, 0);
@@ -692,7 +692,7 @@ return $html;
 
 You should also tell Jeedom what your widget allows for personalization. It's a bit complex (and again) but normally flexible and simple to set up.
 
-It works the same way on your equipment or control, it is a static attribute of the class \ $\_ widgetPossibility which must be a multidimensional array, but it is there that it becomes complicated if a dimension of the array is true or false. He then considers that all possible children are at this value (I will give an example).
+It works the same way on your equipment or control, it is a static attribute of the class \ $\_ widgetPossibility which must be a multidimensional array, but it is there that it becomes complicated if a dimension of the array is true or false. It then considers that all possible children are at this value (I will give an example).
 
 First the cases where you must use it: if in your class inheriting from eqLogic or cmd has a toHtml function otherwise it is not worth reading more.
 
@@ -762,7 +762,7 @@ Very important part :
 $weather->checkAndUpdateCmd($cmd,$cmd->execute());
 ````
 
-At the time of the function ``checkAndUpdateCmd`` (which allows to signal to Jeedom a new update of the value, with triggering of all the actions which must be made : dashboard update, scenario verification, etc.),
+At the time of the function ``checkAndUpdateCmd`` (which allows to signal to Jeedom a new update of the value, with triggering of all the actions which must be made : update of the dashboard, verification of scenarios…),
 
 For the command class, a little trick to know if you use the basic js template. When sending the Jeedom equipment makes the differential on the orders and will delete those which are in base but not in the new definition of the equipment. This is how to avoid it :
 
@@ -783,5 +783,5 @@ $eqLogic->batteryStatus(56);
 
 - On orders when adding a value Jeedom applies the instance method ``formatValue($_value)`` which, depending on the subtype, can reshape it (especially for binary values)
 - NEVER do a method in the class inheriting from cmd called : execCmd or event
-- if in the configuration of your order you have entered returnStateTime (in minutes) and returnStateValue, Jeedom will automatically change the value of your order by returnStateValue after X minute (s)
+- if in the configuration of your order you have entered returnStateTime (in minutes) and returnStateValue, Jeedom will automatically change the value of your order by returnStateValue after X minutes (s)
 - always for the order you can use addHistoryValue to force the setting in history (attention your order must be historical)

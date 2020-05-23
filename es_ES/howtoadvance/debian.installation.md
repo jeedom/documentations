@@ -4,7 +4,7 @@ Veremos aquí cómo instalar un Debian, tanto como VM o en instalación directa 
 
 # Fuente de recuperación
 
-Puede encontrar la última versión de Debian en netinstall (tamaño mínimo pero necesita internet para la instalación) [aquí](https://www.debian.org/CD/netinst) (tome la imagen en amd64) o haga clic directamente [aquí](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) para descargar el ISO.
+Puede encontrar la última versión de Debian en netinstall (tamaño mínimo pero necesita internet para la instalación) [aquí](https://www.debian.org/CD/netinst) (toma la imagen en amd64) o haz clic directamente [aquí](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) para descargar el ISO.
 
 # Lanzamiento de la instalación
 
@@ -36,7 +36,7 @@ Elija "Francés" y confirme con la tecla Intro
 
 ![debian.installation2](images/debian.installation2.PNG)
 
-Aquí tienes que elegir "francés"
+Aquí tienes que elegir "francés")
 
 ![debian.installation3](images/debian.installation3.PNG)
 

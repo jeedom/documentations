@@ -46,7 +46,7 @@ Notiz : Dieses Modul benötigt zum Betrieb einen Neutralleiter.
 -   Dimensions: 17 x 42 x 37 mm
 -   Betriebstemperatur : 0-40 ° C
 -   Temperatur begrenzen : 105°C
--   Standards : LVD (2006/95 / EG), EMV (2004 / 10B / EG), R & TTE (1999/5 / EG)
+-   Standards : )
 
 ## Moduldaten
 
@@ -88,9 +88,9 @@ Hier ist die Liste der Befehle :
 -   Macht : Befehl, der den Verbrauch des Moduls zulässt
 -   Verbrauch : Befehl, mit dem die vom Modul verbrauchte Momentanleistung ermittelt werden kann
 -   STOP : Steuerung, um die Bewegung des Verschlusses zu stoppen
--   STOP BSO : Befehl zum Stoppen der Bewegung (im einstellbaren Lamellenmodus)
--   Kippen : Ermöglicht das Neigen der Lamellen (einstellbarer Lamellenmodus)
--   Ablehnen : Ermöglicht das Ablehnen der Lamellen (einstellbarer Lamellenmodus)
+-   STOP BSO : )
+-   Kippen : )
+-   Ablehnen : )
 -   Nicht : Wird verwendet, um den Schritt zum Drücken von Ablehnen oder Neigen zu definieren
 
 ### Konfiguration du module
@@ -99,7 +99,7 @@ Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, 
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/fibaro.fgrm222/config1.jpg)
 
@@ -111,11 +111,11 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 
 Parameterdetails :
 
--   1: ermöglicht das Blockieren des Moduls (zum Einfrieren eines Verschlusses) (beim Drücken eines Schalters)
+-   1: )
 -   2: Das Gleiche gilt für zwave-Befehle
--   3: Art der Berichte (klassisch oder faserig)
--   10: Betriebsart (Jalousie, Verschluss usw.)
--   12: Dauer einer vollen Runde (im Jalousiemodus)
+-   3: )
+-   10: )
+-   12: )
 -   13: Hier können Sie auswählen, wann die Lamellen in ihre vorherige Position zurückkehren sollen
 -   14: ermöglicht die Auswahl des Schaltertyps
 -   17: Hier können Sie auswählen, wie lange nach dem in 18 festgelegten Grenzwert der Verschluss stoppt
@@ -123,9 +123,9 @@ Parameterdetails :
 -   22: NA
 -   29: ermöglicht die Kalibrierung der Klappe
 -   30 bis 35: ermöglicht es, das Verhalten des Moduls vor den verschiedenen zwave-Alarmen zu definieren
--   40: Leistungsdelta, um eine Erhöhung der Informationen auszulösen (auch außerhalb des in 42 definierten Zeitraums)
+-   40: )
 -   42: Info Feedback Zeitraum
--   43: Energiedelta, um einen Informationsanstieg auszulösen (auch außerhalb des in 42 definierten Zeitraums)
+-   43: )
 -   44: ermöglicht die Auswahl, ob der Verbrauch und die Leistung den des Moduls selbst berücksichtigen müssen
 -   50: Hier können Sie auswählen, ob das Modul die Informationen im Szenenmodus oder im Assoziationsmodus in Zuordnung an die Knoten senden soll
 
@@ -147,7 +147,7 @@ Sie können Ihren Verbrauchszähler zurücksetzen, indem Sie auf diese Schaltfl�
 
 > **Wichtig**
 >
-> Damit die Statusrückmeldung in Jeedom funktioniert, muss die Gerätekalibrierung erzwungen werden (Parameter 29 bis "Ja") und die Positionierung muss aktiv sein (Parameter 10 mit den Werten "Active Direct", "Active Venetian" "oder" Aktive Tür ").
+> ").
 
 
 ## Aufwachen

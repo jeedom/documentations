@@ -61,10 +61,10 @@ Una vez que se reconoce el módulo, los comandos asociados con el módulo estar�
 
 Aquí está la lista de comandos :
 
--   Estado : Es el comando que permite conocer el estado del zócalo (activar / desactivar)
+-   Estado : Es el comando que permite conocer el estado del socket (On / Off)
 -   Uno : Este es el comando que enciende la salida
 -   Apagado : Es el comando que hace posible extinguir la captura
--   Estado : Se usa para averiguar si el tomacorriente está alimentado o no (corte de energía / detección de desconexión)
+-   Estado : Se utiliza para averiguar si el enchufe está alimentado o no (corte de energía / detección de desconexión)
 
 Tenga en cuenta que en el tablero de instrumentos, la información de estado, ON / OFF se encuentra en el mismo icono.
 
@@ -74,7 +74,7 @@ Puede configurar el módulo de acuerdo con su instalación. Para hacer esto, vay
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/nodon.smartplug/config1.jpg)
 

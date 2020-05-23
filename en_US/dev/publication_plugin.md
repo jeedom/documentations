@@ -24,7 +24,7 @@ Once connected with your dev account on the market you must :
     - compatible hardware
     - a note on use if necessary
   - Github : this is where you will put the information between the market and Github
-    - the token (only put if your plugin is on a private deposit)
+    - the token (to put only if your plugin is on a private deposit)
     - your github username
     - the name of the repository on github
     - tick the box for the market to manage the translation of your plugin and documentation (be careful in this case to give all rights to the user zoic21 of github on your github repository)
@@ -36,4 +36,4 @@ Once connected with your dev account on the market you must :
    - pro (is useless in 99% of cases)
    - stablev3 (coming soon)
    
-   Synchronization is done either automatically every day at 12.10 p.m. (beware given the number of plugins and call restrictions api the update starts at 12.10 p.m. but take several ten hours). You can also start a manual synchronization of a branch from the plugin file
+   Synchronization is done either automatically every day at 12.10 p.m. (beware given the number of plugins and call restrictions api the update starts at 12.10 p.m). You can also start a manual synchronization of a branch from the plugin file

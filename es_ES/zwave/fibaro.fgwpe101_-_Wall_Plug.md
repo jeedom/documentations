@@ -76,7 +76,7 @@ Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/fibaro.fgwpe101/config1.jpg)
 
@@ -93,7 +93,7 @@ Detalles del parámetro :
 -   34: le permite elegir a qué tipo de alarma de red Zwave debe reaccionar el socket
 -   35: le permite configurar cómo responderá la salida a las alarmas
 -   39: establece la duración de la alarma
--   40: permite definir cuánto debe variar la potencia para aumentar (en%)
+-   40: le permite definir cuánto debe variar la potencia para aumentar (en%)
 -   42: igual que en el modo estándar (hasta 5 veces por paso definido en el parámetro 43)
 -   43: intervalo de aumento de potencia
 -   45: intervalo de aumento del consumo (en kWh 10 = 0.1 kWh)

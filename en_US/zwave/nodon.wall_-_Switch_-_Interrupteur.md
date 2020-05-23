@@ -26,7 +26,7 @@ The switch has a mounting plate for easy mounting in the house: using the screws
 
 -   Food : CR2032 battery - Autonomy 1,5 - 2 years
 -   4 buttons
--   Wall mounting by double-sided adhesive (included) or screws (not included)
+-   Wall mounting by double-sided adhesive (included) or screws (not included))
 -   Operating temperature : 0 ° C to 40 ° C
 -   Altitude : 2000m
 -   Z-Wave® radio protocol : 868.4MHz - 500 Series - Compatible Z-Wave Plus® SDK 06.51.06
@@ -93,7 +93,7 @@ Then if you want to configure the module according to your installation, you hav
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the Settings tab)
+You will arrive on this page (after clicking on the parameters tab)
 ![Config1](images/nodon.wallswitch/config1.jpg)
 
 Parameter details :

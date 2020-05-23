@@ -20,7 +20,7 @@ if (!is_array($replace)) {
 
 Die Funktion preToHtml gibt zurück :
 
-- eine Zeichenfolge, wenn das Widget zwischengespeichert ist (wenn es zwischengespeichert ist, hat sich seit der letzten Generation nichts geändert, daher möchten Sie es möglicherweise sofort senden)
+- Eine Zeichenfolge, wenn das Widget zwischengespeichert ist (wenn es zwischengespeichert ist, bedeutet dies, dass seit der letzten Generation keine Änderungen vorgenommen wurden. Sie können es also genauso gut sofort zurücksenden)
 - Eine Tabelle mit den wichtigsten ersetzt, haben Sie die Liste [hier](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
 ## Das Vorlagensystem
@@ -74,7 +74,7 @@ Hier erstelle ich ein Toto-Widget basierend auf der Vorlage "tmplicon" im Infoty
 
 >**Tipps**
 >
-> Kleiner Tipp Sie können anstelle eines Symbols ein Bild-Tag einfügen (Vorsicht mit dem Pfad)
+> Kleiner Tipp Sie können anstelle eines Symbols ein Bild-Tag setzen (achten Sie auf den Pfad)
 
 Dann verwenden Sie Ihr Widget :
 

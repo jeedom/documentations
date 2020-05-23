@@ -69,7 +69,7 @@ Around this core are plugins, which can be of all kinds :
 -   Home automation protocol (Z-Wave, RFXcom, EnOcean…),
 -   IP protocol (KNX, xPL…),
 -   Communicating object (Nest, Netatmo…),
--   High level (alarm, thermostat ...),
+-   High level (alarm, thermostat),
 -   Interface (widget),
 -   Organization (calendar, Google calendar),
 -   Development (script).

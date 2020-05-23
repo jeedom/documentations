@@ -12,7 +12,7 @@
 
 This Wall Dimmer Micromodule from SmartHome Europe by Everspring, is designed to control the switching on and off of lights and electrical equipment in your home. It can also provide a dimmer function which is only compatible with bulbs. At a voltage of 230V, this module can support up to 300 Watts in resistive or incandescent charge, or 200 Watts in fluorescent charge.
 
-It can be used in 2-wire mode (without neutral), replacing an existing switch, or three-wire with a conventional module supply (Phase + Neutral).
+It can be used in 2-wire mode (without neutral), replacing an existing switch, or three-wire with a conventional supply to the module (Phase + Neutral).
 
 The Wall Dimmer Module is a Z-Wave ™ compatible device which is intended to work with all Z-Wave ™ compatible networks. It can be controlled by a remote control, PC software, or any Z-Wave controller on your network.
 
@@ -88,7 +88,7 @@ You can configure the module according to your installation. To do this, go thro
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the Settings tab)
+You will arrive on this page (after clicking on the parameters tab)
 
 ![Config1](images/smarthomebyeverspring.AD146-0/config1.jpg)
 

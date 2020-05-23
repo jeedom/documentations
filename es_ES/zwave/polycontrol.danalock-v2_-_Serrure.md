@@ -49,7 +49,7 @@ Danalock combina la elegancia y el minimalismo del diseño escandinavo, con un s
 -   1 cilindro adaptable a diferentes longitudes suministradas
 -   Se proporcionan 5 llaves físicas para abrir la puerta desde el exterior
 -   Conexión a través de Bluetooth Smart y Z-Wave
--   Integración en controladores Z-Wave compatibles (eedomus, Vera, ...)
+-   Integración en controladores Z-Wave compatibles (eedomus, Vera,)
 -   Historial de actividad
 -   Diferentes opciones de configuración para cerrar y abrir
 -   Acceso compartido : dar acceso a su ama de llaves o un amigo por un período limitado
@@ -87,7 +87,7 @@ Para poner el complemento Z-Wave (openzwave) en Jeedom en modo de inclusión seg
 
 ![inclusion securise jeedom 1](images/polycontrol.danalock/inclusion-securise-jeedom-1.jpg)
 
-Luego, en la pestaña "Acciones", haga clic en : "Agregar módulo en modo seguro (inclusión)"
+Luego, en la pestaña "Acciones", haga clic en : "AGREGAR MÓDULO EN MODO SEGURO (INCLUSIÓN)"
 
 ![inclusion securise jeedom 2](images/polycontrol.danalock/inclusion-securise-jeedom-2.jpg)
 
@@ -115,7 +115,7 @@ Una vez que se reconoce el módulo, los comandos asociados con el módulo estar�
 
 Aquí está la lista de comandos :
 
--   Estado : Este es el comando que volverá a la última acción ejecutada (abrir / cerrar)
+-   Estado : es el comando que volverá a la última acción ejecutada (abrir / cerrar)
 -   Abrir : es el comando que abre la cerradura
 -   Cerca : es el comando que hace posible cerrar la cerradura
 -   Batería : es el comando de la batería
@@ -130,7 +130,7 @@ Si desea configurar el módulo de acuerdo con su instalación, debe pasar por el
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/polycontrol.danalock/bouton_configuration.jpg)
 
@@ -141,12 +141,12 @@ Detalles del parámetro :
 -   3 : Modo 1 = accionamiento del motor (ahorro de energía), 2 = modo de accionamiento completo (normal)
 -   4 : Número de vueltas (1 = 10 grados, 9 = 90 grados, etc.)
 -   5 : Bloqueo automático 0-60 Cuántos segundos desde el momento en que se desbloqueó el bloqueo para cerrarse automáticamente nuevamente. Si 0, está deshabilitado.
--   6 : Desactive o active la señal acústica de bloqueo o desbloqueo (0 = Desactivar, 1 = Activar)
+-   6 : Desactivar o activar la señal acústica de bloqueo o desbloqueo (0 = Desactivar, 1 = Activar.)
 -   7 : Tipo de batería : Configure el tipo de batería que alimenta el dispositivo.
 -   8 : Alarma de la batería : Cuando el nivel de la batería es inferior a este valor, el dispositivo informará al usuario con una señal audible después de bloquear o desbloquear.
 -   9 : Turn & Go 0 = Turn & Go off, 1 = Turn & Go On. Latch & Go girará la manija automáticamente cuando se opera manualmente.
 -   10 : Brake & GoBack 0 = Deshabilitado. 1⇒15 segundos para frenar. Cuando se usan los frenos de bloqueo por x cantidad de segundos, luego retroceden 75 grados. Diseñado para puertas especiales sin palanca. (Solo al desbloquear).
--   11 : Asíncrono 0 = Asíncrono desactivado, 1 = Asíncrono activado. Cuando se activa asíncrono, la cerradura se calibrará automáticamente si ya está desbloqueada y se desbloqueará nuevamente (se usa para cerraduras especiales).
+-   11 : Asíncrono 0 = Asíncrono desactivado, 1 = Asíncrono activado. Cuando se activa la sincronización, la cerradura se calibrará automáticamente si ya está desbloqueada y se desbloqueará nuevamente (se usa para cerraduras especiales).
 -   12 : informe de operación
 
 ### Grupos

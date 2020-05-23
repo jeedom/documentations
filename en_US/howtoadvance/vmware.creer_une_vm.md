@@ -31,11 +31,11 @@ As you can see the interface is quite nice and allows you to do a lot of things,
 -   see resource usage (CPU, memory and disk)
 -   have information about your system (operating time, version of VMware, version of the bios, display of datastores)
 -   button to create a VM (we will use it right after)
--   an action button which allows you to switch to maintenance mode (practical if you have an ESXi cluster otherwise you will never use it), activate / deactivate the SSH service (is used in the backup configuration tutorial)
+-   an action button which allows you to switch to maintenance mode (useful if you have an ESXi cluster otherwise you will never use it), activate / deactivate the SSH service (is used in the backup configuration tutorial)
 
 # Sending installation ISO
 
-After downloading your installation iso ([here](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) for example for debian 8.5 in netinstall), you need to put it on your datastore.
+After downloading your installation ISO ([here](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) for example for debian 8.5 in netinstall), you need to put it on your datastore.
 
 For that click on datastore :
 
@@ -125,7 +125,7 @@ Your machine will launch and you will be able to install your OS :
 
 > **IMPORTANT**
 >
-> Once your machine is installed you MUST ABSOLUTELY install the VMware tools (this allows VMware to have information about your VM and to shut it down properly). Under debian just do "sudo apt-get -y install open-vm-tools".
+> Once your machine is installed it is ABSOLUTELY necessary to install VMware tools (it allows VMware to have information on your VM and to shut down it properly). Under debian just do "sudo apt-get -y install open-vm-tools".
 
 For the rest of the installation I invite you to read this [Tutorial](https://doc.jeedom.com/en_US/howtoadvance/debian.installation)
 

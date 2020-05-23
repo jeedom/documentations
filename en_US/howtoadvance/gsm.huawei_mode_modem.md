@@ -28,7 +28,7 @@ Once launched configure putty like this (by putting your COM port number to your
 
 ![gsmonly3](images/gsmonly3.PNG)
 
-A black window will appear (from time to time there may be a "boot ..." message, this is normal, it means that you are well connected to the GSM key). In this window you have to type then press the "Enter" key" :
+A black window will appear (from time to time there may be a message "boot ...", this is normal, it means that you are well connected to the GSM key). In this window you have to type then press the "Enter" key" :
 
 ``AT^u2diag=0``
 

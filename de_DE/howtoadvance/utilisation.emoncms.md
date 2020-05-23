@@ -4,7 +4,7 @@ EmonCMS ist eine PHP-Energieüberwachungsanwendung (Emon : Energiemonitor)
 
 In Bezug auf den Datenaustausch zwischen Jeedom und EmonCMS (auf die eine oder andere Weise) finden Sie in dieser Dokumentation die Mittel zur Implementierung.
 
-Ein kurzes Memo zur Installation von emoncms ist ebenfalls verfügbar (diese Installation wird derzeit in Jeedom nicht nativ angeboten)
+Ein kurzes Memo zur Installation von Emoncms ist ebenfalls verfügbar (diese Installation wird derzeit in Jeedom nicht nativ angeboten)
 
 EmonCMS kann neben Jeedom oder anderswo installiert werden. Sie können sogar die Instanz emoncms.org verwenden
 
@@ -38,7 +38,7 @@ Um Daten von Emoncms in Jeedom zu nehmen, gibt es zwei Möglichkeiten :
 
 Die Installation wird auf dieser Github-Seite beschrieben [hier](https://github.com/emoncms/emoncms/blob/master/docs/LinuxInstall.md)
 
-Beachten Sie, dass einige Plugins mit der neuesten EmonCMS-Version (Version 9 Ende 2015) veraltet zu sein scheinen
+Beachten Sie, dass einige Plugins mit der neuesten EmonCMS-Version (Version 9 Ende 2015) veraltet zu sein scheinen)
 
 Wenn wir sie installieren, gibt es Probleme mit den Menüs. Jedenfalls brauchen wir nur a priori :
 

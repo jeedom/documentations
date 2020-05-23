@@ -12,7 +12,7 @@
 
 Der Detektor ZIP-PSM02-EU bietet 4 verschiedene Funktionen : Bewegungserkennung, Blendenerkennung, Temperatursensor und Lichtsensor. Es besteht aus zwei Teilen : ein Detektor und ein Magnet. Sie können an einer Tür oder einem Fenster angebracht werden, wobei der Magnet am Öffnungsteil und der Detektor am Festteil befestigt sind.
 
-Durch Öffnen der Tür oder des Fensters wird der Magnet vom Detektor wegbewegt, wodurch der Detektor ausgelöst wird, der ein Z-Wave-Alarmsignal sendet, wenn das System scharfgeschaltet ist (dieses Signal kann von einer Sirene oder von einem gesteuert werden) Hausautomationsbox zum Beispiel). Dieser Detektor kann zur Sicherheit oder zur Automatisierung verwendet werden. Wenn der Detektor Sicherheitsvorrichtungen zugeordnet ist, dient er als Alarmauslöser, indem Änderungen der Infrarotstrahlung oder der Tür- / Fensteröffnung erkannt werden. Wenn sich eine Person im Sichtfeld des Detektors bewegt oder eine Tür / ein Fenster öffnet, wird ein Funksignal gesendet, das einen Alarm auslöst, um Eindringlinge abzuhalten.
+Durch Öffnen der Tür oder des Fensters wird der Magnet vom Detektor wegbewegt, wodurch der Detektor ausgelöst wird, der ein Z-Wave-Alarmsignal sendet, wenn das System scharfgeschaltet ist (dieses Signal kann von einer Sirene oder von einem betrieben werden) Hausautomationsbox zum Beispiel). Dieser Detektor kann zur Sicherheit oder zur Automatisierung verwendet werden. Wenn der Detektor Sicherheitsvorrichtungen zugeordnet ist, dient er als Alarmauslöser, indem Änderungen der Infrarotstrahlung oder der Tür- / Fensteröffnung erkannt werden. Wenn sich eine Person im Sichtfeld des Detektors bewegt oder eine Tür / ein Fenster öffnet, wird ein Funksignal gesendet, das einen Alarm auslöst, um Eindringlinge abzuhalten.
 
 Der Detektor kann auch in Kombination mit einem Z-Wave-Controller für die Hausautomation verwendet werden, um sowohl Änderungen der Infrarotstrahlung (Anwesenheit) oder der Tür- / Fensteröffnungsniveaus als auch Änderungen des Niveaus von zu erfassen Helligkeit. Somit können wir ein Licht auslösen, wenn eine Bewegung oder ein Öffnen der Tür im Dunkeln festgestellt wird.
 
@@ -21,7 +21,7 @@ Der Detektor erhöht auch die Helligkeit und die Temperatur, entweder im Falle e
 ## Funktionen
 
 -   4 in 1 Detektor: Bewegung, Blende, Temperatur, Licht
--   Übernimmt den aktuellen Chip der Z-Wave 400series, um Mehrkanalbetrieb und höheren Datendurchsatz (9,6 / 40 / 100kbps) zu unterstützen
+-   )
 -   Verwendet das Z-Wave 6.02 SDK
 -   Optimierte Antennenreichweite
 -   Verwendung für Hausautomations- oder Sicherheitsanwendungen
@@ -98,7 +98,7 @@ Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, 
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/philio.pst02a/config1.jpg)
 
@@ -109,15 +109,15 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 Parameterdetails :
 
 -   2: Legt das an die Module in Zuordnungsgruppe 2 gesendete Signal fest
--   3: Stellt die Empfindlichkeit des Anwesenheitssensors ein (0 : deaktiviert 99: maximale Empfindlichkeit)
+-   3: Stellt die Empfindlichkeit des Anwesenheitssensors ein (0 : deaktiviert 99: )
 -   4: Stellt die Helligkeitsstufe ein, ab der das in Parameter 2 definierte Signal an die der Gruppe 2 zugeordneten Module gesendet wird
 -   5: Betriebsart (siehe Herstellerdokumentation) Empfohlener Wert : 8
 -   6: Multisensor-Betriebsmodus (siehe Herstellerdokumentation) Empfohlener Wert : 4
--   7: personalisierte Betriebsart des Multisensors (siehe Herstellerdokumentation) Empfohlener Wert : 6 (um von der Anwesenheit zu AUS zurückzukehren)
+-   7: personalisierte Betriebsart des Multisensors (siehe Herstellerdokumentation) Empfohlener Wert : )
 -   8: Ermöglicht die Definition der Dauer in Schritten von 8 Sekunden für die Bewegungserkennung
 -   9: Hiermit können Sie festlegen, nach welcher Zeit das AUS-Signal an die der Gruppe 2 zugeordneten Module gesendet werden soll
--   10: wird verwendet, um die Dauer zwischen zwei Batterieberichten zu definieren (eine Einheit = Parameter 20)
--   11: Mit dieser Option können Sie die Dauer zwischen zwei automatischen Eröffnungsberichten definieren (eine Einheit = Parameter 20)
+-   10: Mit dieser Option können Sie die Dauer zwischen zwei Batterieberichten definieren (eine Einheit = Parameter 20))
+-   11: wird verwendet, um die Dauer zwischen zwei automatischen Öffnungsberichten zu definieren (eine Einheit = Parameter 20)
 -   12: Mit dieser Option können Sie die Dauer zwischen zwei automatischen Helligkeitsberichten definieren (eine Einheit = Parameter 20). Empfohlener Wert : 3
 -   13: Ermöglicht die Definition der Zeit zwischen zwei automatischen Temperaturberichten (eine Einheit = Parameter 20). Empfohlener Wert : 2
 -   20: Dauer eines Intervalls für die Parameter 10 bis 13 Empfohlener Wert : 10

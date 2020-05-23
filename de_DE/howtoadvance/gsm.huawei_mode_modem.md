@@ -28,7 +28,7 @@ Konfigurieren Sie Putty nach dem Start wie folgt (indem Sie Ihre COM-Port-Nummer
 
 ![gsmonly3](images/gsmonly3.PNG)
 
-Ein schwarzes Fenster wird angezeigt (von Zeit zu Zeit wird möglicherweise die Meldung "Booten ..." angezeigt. Dies ist normal. Dies bedeutet, dass Sie gut mit dem GSM-Schlüssel verbunden sind.). In diesem Fenster müssen Sie eingeben und dann die Eingabetaste drücken" :
+Ein schwarzes Fenster wird angezeigt (von Zeit zu Zeit wird möglicherweise die Meldung "boot ..." angezeigt. Dies ist normal. Dies bedeutet, dass Sie gut mit dem GSM-Schlüssel verbunden sind). In diesem Fenster müssen Sie eingeben und dann die Eingabetaste drücken" :
 
 ``AT^u2diag=0``
 

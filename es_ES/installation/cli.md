@@ -4,7 +4,7 @@ Aquí encontrará la documentación para instalar Jeedom en la mayoría de los s
 
 > **Importante**
 >
-> Debian 10 (Buster) es la distribución oficialmente compatible para la versión 3.3.X o más Jeedom (pero Stretch sigue siendo perfectamente funcional). Si no tiene un comando mínimo de entornos Linux, le recomendamos que comience con un Smart.
+> Debian 10 (Buster) es la distribución oficialmente compatible para la versión 3.3.X o más de Jeedom (pero Stretch sigue siendo perfectamente funcional). Si no tiene un comando mínimo de entornos Linux, le recomendamos que comience con un Smart.
 
 > **Importante**
 >

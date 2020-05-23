@@ -17,7 +17,7 @@ Sus características principales son :
 -   La posibilidad de usar un 'Común' para cambiar el ascenso o descenso. De repente, es posible controlar ambas direcciones con cualquier tipo de voltaje, incluso un neutro.
 -   La posibilidad de enviar una señal de ascenso / descenso continuo sin límite de tiempo.
 
-Attention: este módulo no envía su estado al controlador de onda z cuando el usuario presiona los botones directamente. Debe actualizar su posición para actualizar o ajustar la encuesta (ver más abajo).
+Attention: este módulo no envía su estado al controlador de onda z cuando el usuario presiona los botones directamente. Debe actualizar su posición para actualizar o ajustar la Encuesta (consulte a continuación).
 
 ## Funciones
 
@@ -96,7 +96,7 @@ Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/duwi.05436/5-Paramètres.PNG)
 

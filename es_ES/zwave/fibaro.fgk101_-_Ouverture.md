@@ -95,7 +95,7 @@ Detalles del parámetro :
 -   Despertador : Este es el intervalo de activación del módulo (valor recomendado 7200)
 -   1: establece el retraso para cancelar la alarma de entrada IN (contacto seco)
 -   2: le permite elegir si el led azul debería parpadear al abrir y cerrar la puerta, por ejemplo
--   3: se usa para definir el tipo de contacto conectado al bloque de terminales (IN)
+-   3: se utiliza para definir el tipo de contacto conectado al bloque de terminales (IN)
 -   5: no se recomienda cambiar este parámetro a menos que sepa por qué (define el tipo de señal enviada al grupo de asociación 1)
 -   7: valor enviado al grupo de asociación 1
 -   9: le permite configurar el envío de la señal de cancelación entre la entrada IN y el grupo de asociación 1

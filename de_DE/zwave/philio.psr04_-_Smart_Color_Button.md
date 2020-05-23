@@ -24,13 +24,13 @@ Es verwendet den neuesten Chip der Z-Wave 500-Serie, der eine 50% ige Erhöhung 
 
 -   Multifunktionsschalter
 -   Z-Wave + Technologie
--   EIN / AUS und Dimmfunktion (Beleuchtung oder Fensterläden)
+-   )
 -   Integrierte Timerfunktion
 -   Etanche
 -   Passt sich jedem Dekorationsstil an
 -   Wiederaufladbarer Akku
 -   Sehr geringer Energieverbrauch
--   Lange Akkulaufzeit (6 Monate pro Ladung)
+-   )
 -   Magnethalter
 -   RGBW-Anzeige-LED
 -   Einfach zu installieren
@@ -87,17 +87,17 @@ Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, 
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/philio.psr04/config1.jpg)
 
 Parameterdetails :
 
--   1: definiert die unterste Grenze (Position vollständig links)
--   2 : definiert das höchste Terminal (Position ganz rechts)
+-   1: )
+-   2 : )
 -   10 : Zeitintervall für den Batterieaufstieg
 -   25 : Hiermit können Sie festlegen, ob das Modul seine Position nach der Drehung automatisch sendet (1s Verzögerung) oder ob die Taste gedrückt werden muss, um das Senden zu bestätigen
--   26 : Aktiviert das Senden einer Szene oder nicht beim Drücken der zentralen Taste (Parameter in Jeedom nicht berücksichtigt)
+-   26 : )
 
 ### Gruppen
 
@@ -113,7 +113,7 @@ Gehen Sie wie folgt vor, um dieses Modul als Fernbedienung zu verwenden :
 
 -   Fügen Sie den Controller in Gruppe 2 hinzu
 
-In der Tat ist diese Art von Modul nicht dafür ausgelegt, direkt mit einer Box zu interagieren, sondern direkt mit anderen Modulen. Durch Hinzufügen von Jeedom zu Gruppe 2 können Sie jedoch die Position der Schaltfläche erhalten und damit ein Szenario steuern (z. B. eine Lautstärke anpassen)
+In der Tat ist diese Art von Modul nicht dafür ausgelegt, direkt mit einer Box zu interagieren, sondern direkt mit anderen Modulen. )
 
 ## Aufwachen
 

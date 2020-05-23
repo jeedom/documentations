@@ -96,7 +96,7 @@ Parameter details :
 -   1: sets the delay for canceling the IN input alarm (dry contact)
 -   2: allows you to choose if the blue led should flash when opening and closing your door for example
 -   3: used to define the contact type connected to the terminal block (IN)
--   5: not recommended to change this parameter unless you know why (defines the type of signal sent to association group 1)
+-   5: not recommended to change this parameter unless you know why (defines the type of signal sent to the association group 1)
 -   7: value sent to association group 1
 -   9: allows you to set the sending of the cancellation signal between the IN input and association group 1
 -   12: allows to adjust the sensitivity to temperature change (if a 1 wire probe is connected to the module)
@@ -125,7 +125,7 @@ This module has three association groups, only the third is essential.
 
 To wake up this module there is only one way :
 
--   press the inclusion button 3/4 times. It may be necessary to do this several times in a row (2 or 3)
+-   press the inclusion button 3/4 times. It may be necessary to do this several times in succession (2 or 3)
 
 ## Faq.
 

@@ -10,7 +10,7 @@
 
 ## Zusammenfassung
 
-Der Mini-Ein / Aus-Stecker dient zum Steuern des Ein- und Ausschaltens von Lichtern und elektrischen Geräten in Ihrem Haus. Mit einer Spannung von 220 - 240 V kann dieser Stecker eine Last von bis zu 1500 W (Widerstand), 800 W (Glühlampe), 200 W (Motor, Leuchtstoff, LED) aufnehmen.
+Der Mini-Ein / Aus-Stecker dient zum Steuern des Ein- und Ausschaltens von Lichtern und elektrischen Geräten in Ihrem Haus. Mit einer Spannung von 220 - 240 V kann dieser Stecker eine Last von bis zu 1500 W (Widerstand), 800 W (Glühlampe), 200 W (Motor, fluoreszierend, LED) tragen).
 
 Der Mini-Ein / Aus-Stecker ist ein Z-Wave ™ -kompatibles Gerät, das für alle Z-Wave ™ -kompatiblen Netzwerke geeignet ist. Es kann von einer Fernbedienung, einer PC-Software oder einem beliebigen Z-Wave-Controller in Ihrem Netzwerk gesteuert werden.
 
@@ -66,7 +66,7 @@ Sobald das Modul erkannt wurde, sind die den Modulen zugeordneten Befehle verfü
 
 Hier ist die Liste der Befehle :
 
--   Zustand : Es ist der Befehl, der es ermöglicht, den Status der Buchse zu kennen (Ein / Aus)
+-   Zustand : Es ist der Befehl, der es ermöglicht, den Status des Sockets zu kennen (Ein / Aus))
 -   Ein : Dies ist der Befehl, der die Steckdose einschaltet
 -   Aus : Es ist der Befehl, der es ermöglicht, den Fang zu löschen
 
@@ -78,7 +78,7 @@ Sie können das Modul entsprechend Ihrer Installation konfigurieren. Gehen Sie d
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/everspring.AN180-6/config1.jpg)
 

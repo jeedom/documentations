@@ -4,7 +4,7 @@
         "Jeedom est utilisable sur Mobile de deux manières": "Jeedom est utilisable sur Mobile de deux manières",
         "WebApp": "WebApp",
         "Jeedom adopte une version spécifique sur mobile et tablette": "Jeedom adopte une version spécifique sur mobile et tablette",
-        "Vous y accédez à partir de la même adresse, dans un navigateur sur Mobile (Firefox, Chrome, Safari, etc.)": "Vous y accédez à partir de la même adresse, dans un navigateur sur Mobile (Firefox, Chrome, Safari, etc.)",
+        "Vous y accédez à partir de la même adresse, dans un navigateur sur Mobile (Firefox, Chrome, Safari, etc": "Vous y accédez à partir de la même adresse, dans un navigateur sur Mobile (Firefox, Chrome, Safari, etc",
         "Cette version adaptée est aussi simplifiée, dans un soucis d'affichage et de performance": "Cette version adaptée est aussi simplifiée, dans un soucis d'affichage et de performance",
         "Equipements": "Equipements",
         "Accédez au dashboard par objet": "Accédez au dashboard par objet",
@@ -15,7 +15,7 @@
         "Accédez à vos Vues": "Accédez à vos Vues",
         "Designs": "Designs",
         "Accédez à vos Design ou Design 3D": "Accédez à vos Design ou Design 3D",
-        "(L'affichage d'un Design est plein écran, faite un clic à trois doigts pour revenir sur l'accueil)": "(L'affichage d'un Design est plein écran, faite un clic à trois doigts pour revenir sur l'accueil)",
+        "L'affichage d'un Design est plein écran, faite un clic à trois doigts pour revenir sur l'accueil": "L'affichage d'un Design est plein écran, faite un clic à trois doigts pour revenir sur l'accueil",
         "Scénario": "Scénario",
         "Affichage des tuiles de vos scénarios, par groupe, avec possibilité de les activer\/désactiver, arrêter\/démarrer": "Affichage des tuiles de vos scénarios, par groupe, avec possibilité de les activer\/désactiver, arrêter\/démarrer",
         "En cliquant sur le titre du scénario, vous accéderez à son log": "En cliquant sur le titre du scénario, vous accéderez à son log",
@@ -34,11 +34,11 @@
         "L'application mobile Jeedom (compatible IOS\/Android) permet le pilotage de votre système domotique Jeedom, que ce soit en Wifi local, ou sur le réseau 3G\/4G de votre opérateur": "L'application mobile Jeedom (compatible IOS\/Android) permet le pilotage de votre système domotique Jeedom, que ce soit en Wifi local, ou sur le réseau 3G\/4G de votre opérateur",
         "L'application se connecte automatiquement à votre Jeedom par l'intermédiaire d'un QRcode, aucune configuration n'est nécessaire": "L'application se connecte automatiquement à votre Jeedom par l'intermédiaire d'un QRcode, aucune configuration n'est nécessaire",
         "Vous retrouverez sur votre mobile les fonctionnalités de votre Jeedom": "Vous retrouverez sur votre mobile les fonctionnalités de votre Jeedom",
-        "(scénarios, objets connectés et domotique, plugins)": "(scénarios, objets connectés et domotique, plugins)",
+        "scénarios, objets connectés et domotique, plugins": "scénarios, objets connectés et domotique, plugins",
         "Vous pourrez aussi personnaliser votre application avec des raccourcis et plus encore": "Vous pourrez aussi personnaliser votre application avec des raccourcis et plus encore",
         "[AppStore": "[AppStore",
         "[PlayStore": "[PlayStore",
-        "mt=8)": "mt=8)",
-        "id=fr.jeedom.jeedom&hl=fr)": "id=fr.jeedom.jeedom&hl=fr)"
+        "mt=8": "mt=8",
+        "id=fr.jeedom.jeedom&hl=fr": "id=fr.jeedom.jeedom&hl=fr"
     }
 }

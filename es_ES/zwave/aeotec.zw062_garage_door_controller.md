@@ -51,7 +51,7 @@ Funciones
 
 -   Alertas audibles y visuales de apertura / cierre.
 
--   Volumen de alarma ajustable (105 dB máx.)
+-   Volumen de alarma ajustable (105 dB máx)
 
 -   Puerto USB para cargar sus propios sonidos MP3.
 

@@ -35,7 +35,7 @@ Este control remoto también se puede usar como botón de emergencia o pánico. 
 -   Duración de la batería : 2 a 3 meses por 10 a 20 usos por día
 -   Frecuencia: 868.42 MHz
 -   Distancia de transmisión : 30m en interiores
--   Dimensiones : 55 x 30 x 11 mm (largo x ancho x alto)
+-   Dimensiones : 55 x 30 x 11 mm (largo x ancho x alto))
 
 ## Datos del módulo
 
@@ -87,7 +87,7 @@ Llegará a esta página (después de hacer clic en la pestaña Configuración)
 
 Detalles del parámetro :
 
--   250: modo de funcionamiento del control remoto (ponga absolutamente Scene para usarlo como control remoto)
+-   250: modo de funcionamiento del control remoto (ponga absolutamente a Scene para usarlo como control remoto)
 -   255 : permite que el llavero se restablezca de fábrica
 
 ### Grupos
@@ -104,7 +104,7 @@ Para usar este módulo como control remoto, proceda de la siguiente manera :
 
 -   1 : Incluye control remoto
 -   2 : Despierta el control remoto
--   3 : Cambie el parámetro 250 a verdadero (haga esto incluso si ya parece ser verdadero)
+-   3 : Cambie el parámetro 250 a verdadero (hágalo bien incluso si ya aparece en verdadero)
 -   4 : Active el control remoto y asegúrese de que el cambio se haya tenido en cuenta
 -   5 : Cambie el modo de funcionamiento del control remoto presionando y manteniendo presionados los dos botones en la parte posterior durante 3 segundos.
 

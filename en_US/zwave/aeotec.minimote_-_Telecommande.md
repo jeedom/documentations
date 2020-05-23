@@ -93,7 +93,7 @@ Parameter details :
 -   242: button 2 operating mode (leave by default)
 -   243: button 3 operating mode (leave by default)
 -   244: button 4 operating mode (leave by default)
--   250: operating mode of the remote control (absolutely leave Scene to use it as a remote control)
+-   250: remote control operating mode (absolutely leave Scene to use it as a remote control)
 
 ### Groups
 

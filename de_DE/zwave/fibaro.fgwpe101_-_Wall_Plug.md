@@ -30,7 +30,7 @@ Der Fibaro-Wandstecker ist ein universeller Empfänger-Sockel-Sender in Form ein
 -   Dimensions: 17 x 42 x 37 mm
 -   Betriebstemperatur : 0-40 ° C
 -   Temperatur begrenzen : 105°C
--   Standards : LVD (2006/95 / WE), EMC (2004/108 / EC), R & TTE (1999/5 / WE)
+-   Standards : )
 
 ## Moduldaten
 
@@ -76,7 +76,7 @@ Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, 
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/fibaro.fgwpe101/config1.jpg)
 
@@ -93,10 +93,10 @@ Parameterdetails :
 -   34: Hier können Sie auswählen, auf welche Art von Zwave-Netzwerkalarm der Socket reagieren soll
 -   35: Hier können Sie festlegen, wie die Steckdose auf Alarme reagiert
 -   39: Legt die Dauer des Alarms fest
--   40: ermöglicht zu definieren, um wie viel die Leistung variieren muss, um erhöht zu werden (in%)
--   42: wie im Standardmodus (bis zu 5 Mal pro Schritt gemäß Parameter 43)
+-   40: )
+-   42: )
 -   43: Leistungsanstiegsintervall
--   45: Verbrauchsanstiegsintervall (in kWh 10 = 0,1 kWh)
+-   45: )
 -   47: Intervall in Sekunden für die Meldung von Informationen unabhängig von einer Abweichung
 -   49: Berücksichtigen Sie den Verbrauch des Moduls selbst in den Werten
 -   50: Mindestwert von Parameter 52
@@ -106,7 +106,7 @@ Parameterdetails :
 -   61: Farbe, wenn der Stecker an ist
 -   62: Farbe bei ausgeschaltetem Stecker
 -   63: Farbe, wenn ein Zwave-Alarm erkannt wird
--   70: Sicherheitsstrom (der Stecker wird unterbrochen, wenn der Strom diesen Schwellenwert erreicht)
+-   70: )
 
 ### Gruppen
 

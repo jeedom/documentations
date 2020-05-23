@@ -16,7 +16,7 @@ Um ein Zertifikat anzufordern, müssen Sie einen Domainnamen haben, für den es 
 
 Damit der Let'sEncrypt-Prozess ordnungsgemäß beendet werden kann, müssen Sie die folgenden drei Schritte ausführen :
 
-Achtung Es ist notwendig, Port 80 am Router (ISP) zu öffnen !
+Achtung Es ist notwendig, Port 80 am Router (ISP) zu öffnen) !
 
 -   Aktivieren Sie das Apache-SSL-Modul der Jeedom-Box.
 -   Aktivieren Sie das Apache VirtualHost HTTPS über die Jeedom-Box .

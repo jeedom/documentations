@@ -215,7 +215,7 @@
         "Gateway Xiaomi Zigbee, Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link, Nanoleaf": "Gateway Xiaomi Zigbee, Sonoff, Tuya, Ewelink, Mi.Light, Yeelight, TP-Link, Nanoleaf",
         "Pilote de nombreux périphériques wifi": "Driver de muchos dispositivos wifi",
         "Sure PetCare": "Sure PetCare",
-        "Plugin pour les objets connectées pour animaux Sure Petcare (Sureflap)": "Plug-in para objetos conectados a animales Sure Petcare para animales (Sureflap)",
+        "Plugin pour les objets connectées pour animaux Sure Petcare (Sureflap": "Plug-in para objetos conectados a animales Sure Petcare para animales (Sureflap",
         "K Roomba": "K Roomba",
         "Plugin pour contrôler les aspirateurs Roomba": "Complemento para controlar las aspiradoras Roomba",
         "Home Connect": "Home Connect",
@@ -719,7 +719,7 @@
     },
     "plugins_contributor\/security\/index.md": {
         "Plugin permanent de faire de la reconnaissance de plaque d'immatriculation avec nos camera": "Complemento permanente para reconocer la matrícula con nuestras cámaras",
-        "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos)": "Atención, lo mismo que autorizaste con este plugin porque es bastante simple engañar al sistema (gemelos, fotos)",
+        "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos": "Atención, lo mismo que autorizaste con este plugin porque es bastante simple engañar al sistema (gemelos, fotos",
         "Reconnaissance facial": "Reconocimiento facial",
         "Ce plugin permet utilise OpenCv pour détecter votre visiage et vous reconnaitre": "Este complemento permite usar OpenCv para detectar su visión y reconocerlo",
         "Sécurité": "Seguridad",

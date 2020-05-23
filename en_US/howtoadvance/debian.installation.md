@@ -36,7 +36,7 @@ Choose "French" and confirm with the enter key
 
 ![debian.installation2](images/debian.installation2.PNG)
 
-Here you have to choose "French"
+Here you have to choose "French")
 
 ![debian.installation3](images/debian.installation3.PNG)
 
@@ -52,7 +52,7 @@ Just hit enter :
 
 ![debian.installation6](images/debian.installation6.PNG)
 
-Put a password, I recommend a simple one here (like oooo), it can be changed later (passwd command) :
+Put a password, I recommend a simple one here (like oooo), it can be changed later (command passwd) :
 
 ![debian.installation7](images/debian.installation7.PNG)
 
@@ -68,7 +68,7 @@ Put back the same :
 
 ![debian.installation10](images/debian.installation10.PNG)
 
-Put a password, I recommend a simple one here (like oooo), it can be changed later (passwd command) :
+Put a password, I recommend a simple one here (like oooo), it can be changed later (command passwd) :
 
 ![debian.installation11](images/debian.installation11.PNG)
 

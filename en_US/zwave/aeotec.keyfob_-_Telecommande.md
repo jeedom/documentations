@@ -103,7 +103,7 @@ To use this module as a remote control, proceed as follows :
 
 -   1 : Include remote control
 -   2 : Wake up the remote control
--   3 : Change parameter 250 to true (do this even if it already appears to be true)
+-   3 : Change parameter 250 to true (do this even if it already appears to true)
 -   4 : Wake up the remote control and make sure that the change has been taken into account
 -   5 : Change the operating mode of the remote control by pressing the two buttons on the back for 3 seconds.
 

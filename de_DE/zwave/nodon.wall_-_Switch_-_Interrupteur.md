@@ -26,7 +26,7 @@ Der Schalter verfügt über eine Montageplatte zur einfachen Montage im Haus: Ve
 
 -   Versorgung : CR2032 Batterie - Autonomie 1,5 - 2 Jahre
 -   4 Tasten
--   Wandmontage mit doppelseitigem Kleber (im Lieferumfang enthalten) oder Schrauben (nicht im Lieferumfang enthalten)
+-   )
 -   Betriebstemperatur : 0 ° C bis 40 ° C
 -   Höhe : 2000m
 -   Z-Wave®-Funkprotokoll : 868.4MHz - 500 Series - Kompatibles Z-Wave Plus® SDK 06.51.06
@@ -93,14 +93,14 @@ Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, 
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 ![Config1](images/nodon.wallswitch/config1.jpg)
 
 Parameterdetails :
 
--   1-2 : Ermöglicht die Auswahl des Profils der Schaltflächen bei zentraler Verwendung (für die Verwendung in Jeedom unbrauchbar)
--   3 : Wichtiger Parameter, um anzugeben, ob der Schalter im Szenen- oder zentralen Szenenmodus arbeiten soll (Szene absolut einstellen)
--   4-7 : Wählen Sie die Tastenbetriebsart (bei Gruppenzuordnungen)
+-   1-2 : )
+-   3 : )
+-   4-7 : )
 -   8 : Hier können Sie den Betriebsmodus der LED auswählen
 
 ### Gruppen

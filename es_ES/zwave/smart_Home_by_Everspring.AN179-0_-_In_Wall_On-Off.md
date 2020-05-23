@@ -82,7 +82,7 @@ Puede configurar el módulo de acuerdo con su instalación. Para hacer esto, vay
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña Configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/smarthomebyeverspring.AN179-0/config1.jpg)
 

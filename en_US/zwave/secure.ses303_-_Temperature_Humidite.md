@@ -84,16 +84,16 @@ Then it is necessary to configure the module according to your installation. To 
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the Settings tab)
+You will arrive on this page (after clicking on the parameters tab)
 
 ![Config1](images/secure.ses303/config1.jpg)
 
 Parameter details :
 
 -   1: Allows you to set how much the temperature must vary for the module to send it to Jeedom (in steps of 0.1)
--   2: Allows you to set the time interval for sending the temperature to Jeedom (in minutes)
+-   2: Set the time interval for sending the temperature to Jeedom (in minutes)
 -   3: Allows you to set how much the humidity must vary for the module to send it to Jeedom (by%)
--   4: Sets the interval for sending humidity to Jeedom (in minutes)
+-   4: Allows you to set the time interval for sending humidity to Jeedom (in minutes)
 
 All the other parameters are identical and correspond to all the external probes possibly connected
 

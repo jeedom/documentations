@@ -18,7 +18,7 @@ Das Jeedom-Team empfiehlt Sie (abhängig von Ihrem Budget) :
 
 - Jeedom Smart (alles ist vorinstalliert, Sie müssen nichts tun)
 - Odroid C2 (bestes Leistungs- / Preisverhältnis)
-- Intel Nuc gen (extreme Leistung, siehe Tutorial-Kategorie für die Auswahl in verschiedenen Modellen und Installation)
+- Intel Nuc gen (extreme Leistung, siehe die Tutorial-Kategorie für die Auswahl in den verschiedenen Modellen und Installation)
 - RPI4
 
 #  Images
@@ -32,13 +32,13 @@ Sie finden alle Jeedom-Bilder [hier](https://images.jeedom.com/)
 | Docker         |                | Beta           | root / Mjeedom96 |                |
 
 
-Alle anderen zuvor herunterladbaren Bilder werden nicht mehr gepflegt. Es ist besser, die manuelle Installation von Jeedom durchzuführen [Doc](https://doc.jeedom.com/de_DE/installation/index) nach der Installation einer Linux-Distribution, die Ihrer Hardware entspricht : Debian (vm, pc,…), Raspbian Lite (Raspberry pi), Armbian (Ordoid,…)
+Alle anderen zuvor herunterladbaren Bilder werden nicht mehr gepflegt. Es ist besser, die manuelle Installation von Jeedom durchzuführen [Doc](https://doc.jeedom.com/de_DE/installation/index) nach der Installation einer Linux-Distribution, die Ihrer Hardware entspricht : Debian (vm, pc,…), Raspbian Lite (Raspberry pi), Armbian (Ordoid,…))
 
 #  Logiciel
 
 > **Wichtig**
 >
-> Jeedom unterstützt nur Debian Jessie (nicht empfohlen), Stretch (nicht empfohlen) und Buster (stabil). Jede andere Version (Wheezy…) oder Distribution (Ubuntu…) wird von Jeedom nicht unterstützt.
+> Jeedom unterstützt nur Debian Jessie (nicht empfohlen), Stretch (nicht empfohlen) und Buster (stabil)). Jede andere Version (Wheezy…) oder Distribution (Ubuntu…) wird von Jeedom nicht unterstützt.
 
 | Name                     | Zustand                    | Bemerkungen                |
 |-------------------------|-------------------------|--------------------------|

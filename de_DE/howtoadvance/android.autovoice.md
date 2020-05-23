@@ -1,6 +1,6 @@
 # Android Autovoice
 
-Der Zweck dieses Artikels ist es, Sie bei der Verwendung von Android zu unterstützen, um mit Jeedom zu sprechen. Wir werden die Jeedom-Interaktions-Engine verwenden, die es ermöglicht, Anfragen zu formulieren und dass Jeedom darauf reagiert (und auf Wunsch auch verschiedene Szenarien oder Elemente aktiviert).
+Der Zweck dieses Artikels ist es, Sie bei der Verwendung von Android zu unterstützen, um mit Jeedom zu sprechen. Wir werden die Jeedom-Interaktions-Engine verwenden, die es ermöglicht, Anfragen zu formulieren und dass Jeedom darauf reagiert (und auf Wunsch auch verschiedene Szenarien oder Elemente aktiviert)).
 
 # Installation
 
@@ -82,4 +82,4 @@ Es ist vorbei. Bei der Texterkennung durch AutoVoice wird Jeedom aufgerufen und 
 
 > **Spitze**
 >
-> Standardmäßig deaktiviert AutoVoice die Google Now-Suche. Es ist möglich, dieses Verhalten abzubrechen. Klicken Sie dazu in Tasker auf Ihr Profil, dann auf "Edition" (kleiner Stift), dann auf "Erweitert" (unten) und deaktivieren Sie "Do" Google Now Search "(unten).
+> Standardmäßig deaktiviert AutoVoice die Google Now-Suche. Es ist möglich, dieses Verhalten abzubrechen. Klicken Sie dazu in Tasker auf Ihr Profil, dann auf "Edition" (kleiner Stift), dann auf "Erweitert" (unten) und deaktivieren Sie "Do" Google Now Search "(ganz unten).

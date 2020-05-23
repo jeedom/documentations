@@ -132,7 +132,7 @@ Und davor ``exit 0`` Fügen Sie die folgenden Zeilen hinzu :
 >
 > Vergessen Sie nicht, den Pfad zur Konfigurationsdatei ghettoVCB entsprechend Ihrer Konfiguration anzupassen : ``/vmfs/volumes/Backup/ghettoVCB.conf``
 
-Letzter Schritt: Sie müssen Ihr ESXi neu starten, damit cron berücksichtigt wird. Sie können das Ergebnis sehen, indem Sie Folgendes tun (immer in SSH) :
+Letzter Schritt: Sie müssen Ihr ESXi neu starten, damit cron berücksichtigt wird. Sie können das Ergebnis sehen, indem Sie dies tun (immer in SSH)) :
 
 ``cat /var/spool/cron/crontabs/root``
 

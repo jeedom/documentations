@@ -122,14 +122,14 @@ ou
 
 -   Kopieren Sie Ihr Backup in den Ordner ``/var/www/html/backup``
 -   Geben Sie die Rechte an www-Daten : ``chown -R www-data: /var/www/html/backup/*``
--   Starten Sie die Wiederherstellung über die Jeedom-Oberfläche (Administration → Backups → Local Backups) : Wählen Sie das richtige Backup und klicken Sie auf **Wiederherstellen** gleich unten)
+-   Starten Sie die Wiederherstellung über die Jeedom-Oberfläche (Administration → Backups → Local Backups) : Wählen Sie das richtige Backup und klicken Sie auf **Wiederherstellen** knapp unter)
 -   Warten Sie während der Wiederherstellung
 -   Stellen Sie die Rechte an www-Daten auf allen Jeedom wieder her : ``chown -R www-data: /var/www/html/``
 -   Starten Sie die Box neu : `reboot`
 -   Stellen Sie mit Ihren alten Kennungen über die Weboberfläche eine Verbindung zu Jeedom her
 -   Gehen Sie zu jedem Plugin, um die Abhängigkeiten neu zu installieren (insbesondere diejenigen, bei denen der Daemon "NOK" KO ist).
 
-## Methode 1 : Upgrade (weniger Erfolgschance)
+## Methode 1 : Upgrade (weniger Erfolgschancen)
 
 Betriebssystem-Update in der Jessie-Version.
 

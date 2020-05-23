@@ -21,9 +21,9 @@ Der Schalter ist außerdem mit einer LED-Anzeige ausgestattet, die seinen Status
 ## Funktionen
 
 -   Steuern Sie zwei Lampen oder Geräte fern
--   Wird anstelle eines vorhandenen Schalters installiert (passt perfekt in eine 40-mm-Unterputzdose)
+-   )
 -   EIN / AUS-Funktion
--   Unterstützungszuordnungsbefehle (Gruppe 1 und Gruppe 2)
+-   )
 -   Kontrolle der beiden Ladungen vor Ort
 -   Status-LED
 -   Glasoberfläche, modernes Design
@@ -71,13 +71,13 @@ Wenn Sie das Modul dann entsprechend Ihrer Installation konfigurieren möchten, 
 
 ![Konfiguration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben)
 
 ![Config1](images/mco.mhs412/config1.jpg)
 
 Parameterdetails :
 
--   1: Speicherzustand vor Stromausfall : enable (ermöglicht das Auffinden des letzten Zustands der Schalter unmittelbar vor dem Stromausfall) disable (die Schalter befinden sich im AUS-Zustand, wenn das Netz zurückkehrt)
+-   1: Speicherzustand vor Stromausfall :  )
 
 ### Gruppen
 
@@ -92,7 +92,7 @@ Dieses Modul hat 3 Zuordnungsgruppen. Nur der dritte ist wesentlich.
 - Die Touch-Tasten haben einen blauen Heiligenschein, wenn die Last gesteuert wird
 - Die Touch-Tasten haben einen orangefarbenen Heiligenschein, wenn die Last nicht gesteuert wird
 - Die Berührung ist eher angenehm und die reaktionsschnelle Steuerung
-- Dieser Schalter kann seine Last im autonomen Modus steuern (nicht an einen Z-Wave-Controller angeschlossen)
+- )
 
 ## Aufwachen
 

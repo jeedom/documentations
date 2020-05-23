@@ -31,11 +31,11 @@ Como puede ver, la interfaz es bastante agradable y le permite hacer muchas cosa
 -   ver uso de recursos (CPU, memoria y disco)
 -   tener información sobre su sistema (tiempo de funcionamiento, versión de VMware, versión de la BIOS, visualización de almacenes de datos)
 -   botón para crear una VM (la usaremos justo después)
--   un botón de acción que le permite cambiar al modo de mantenimiento (práctico si tiene un clúster ESXi; de lo contrario, nunca lo usará), active / desactive el servicio SSH (se usa en el tutorial de configuración de respaldo)
+-   un botón de acción que le permite cambiar al modo de mantenimiento (útil si tiene un clúster ESXi; de lo contrario, nunca lo usará), active / desactive el servicio SSH (se usa en el tutorial de configuración de respaldo)
 
 # Envío de instalación ISO
 
-Después de descargar su instalación iso ([aquí](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) por ejemplo para debian 8.5 en netinstall), debe ponerlo en su almacén de datos.
+Después de descargar su instalación ISO ([aquí](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) por ejemplo para debian 8.5 en netinstall), debe ponerlo en su almacén de datos.
 
 Para ese clic en el almacén de datos :
 
@@ -83,7 +83,7 @@ Indique el almacén de datos de destino :
 
 ![vmware.createvm8](images/vmware.createvm8.PNG)
 
-Aquí podrá configurar los parámetros de su máquina (disco duro, CPU, memoria ...) :
+Aquí podrá configurar los parámetros de su máquina (disco duro, CPU, memoria) :
 
 ![vmware.createvm9](images/vmware.createvm9.PNG)
 
@@ -125,7 +125,7 @@ Su máquina se iniciará y podrá instalar su sistema operativo :
 
 > **Importante**
 >
-> Una vez que su máquina esté instalada, DEBE ABSOLUTAMENTE instalar las herramientas de VMware (esto le permite a VMware tener información sobre su VM y apagarla correctamente). Bajo debian simplemente haga "sudo apt-get -y install open-vm-tools".
+> Una vez que su máquina está instalada, es ABSOLUTAMENTE necesario instalar las herramientas de VMware (le permite a VMware tener información sobre su VM y apagarla correctamente)). Bajo debian simplemente haga "sudo apt-get -y install open-vm-tools".
 
 Para el resto de la instalación, los invito a leer esto [Tutorial](https://doc.jeedom.com/es_ES/howtoadvance/debian.installation)
 

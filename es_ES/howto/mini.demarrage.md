@@ -9,7 +9,7 @@ La caja Jeedom Mini + que recibió debe contener :
 -   Una tarjeta micro SD con software Jeedom preinstalado. (Esta tarjeta normalmente ya está insertada en la caja)
 -   Adaptador de tarjeta microSD / SD.
 -   Pegatina Jeedom.
--   *Un módulo RFXcom 433E con su cable USB.* (Solo si compró el paquete de inicio con la interfaz RFXcom).
+-   *Un módulo RFXcom 433E con su cable USB.* (Solo si ha comprado el paquete de inicio con interfaz RFXcom).
 -   *Tarjeta RaZberry Z-Wave +.* (Solo si compró el paquete de inicio compatible con Z-Wave +) (Esta tarjeta normalmente ya está instalada en la caja)
 
 ![mini.demarrage01](images/mini.demarrage01.png)

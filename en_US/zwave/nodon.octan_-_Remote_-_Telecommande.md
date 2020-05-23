@@ -26,7 +26,7 @@ Its integrated magnet allows it to be fixed everywhere, from the radiator to the
 
 -   Food : CR2032 battery - Autonomy 1,5 - 2 years
 -   4 buttons
--   Wall support fixed with double-sided adhesive (included) or screws (not included)
+-   Wall support fixed by double-sided adhesive (included) or screws (not included))
 -   Integrated magnet for fixing to metal surface
 -   Operating temperature : 0 ° C to 40 ° C - Altitude : 2000m
 -   Z-Wave® radio protocol : 868.4MHz - 500 Series - Z-Wave Plus® SDK 06.51 compatible.01 Scope: 40m indoor / 80m outdoor
@@ -87,7 +87,7 @@ Then if you want to configure the module according to your installation, you hav
 
 ![Setup plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the Settings tab)
+You will arrive on this page (after clicking on the parameters tab)
 
 ![Config1](images/nodon.octan/config1.jpg)
 

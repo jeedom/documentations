@@ -109,21 +109,21 @@ Parameter details :
 -   4: not recommended to change this setting
 -   6: time after which the sensor will send the "more movement" signal (recommended value 30)
 -   8: activates night / day mode or both (recommended value : always active)
--   9: allows you to set the threshold for switching to night mode (useful if you have changed parameter 8)
+-   9: adjusts the threshold for switching to night mode (useful if you have changed parameter 8)
 -   12: to modify only if you know why you are doing it (association with a module for example)
 -   14: idem
 -   16: idem
 -   20: sensitivity of the gyro sensor (recommended value 15)
 -   22: time after which the sensor will send the "no more sabotage" signal (recommended value 30)
--   24: lets you tell how the sabotage is notified (IMPORTANT : recommended value : Anti-sabotage sensor notified to SensorAlarm command class / Cancellation is notified after the time defined in parameter 22)
+-   24: lets you tell how the sabotage is notified (IMPORTANT : recommended value : Anti-sabotage sensor notified to SensorAlarm command class / Cancellation is notified after the time defined in parameter 22 )
 -   26: to change only if you know why you are doing it
--   40: lets you specify how much the brightness value must be modified to be sent (recommended value 50)
+-   40: allows to say how much the brightness value must be modified to be sent (recommended value 50)
 -   42: allows to give a minimum duration between two successive sendings even if the brightness has not changed (recommended value 3600)
 -   60: allows to say how much the temperature value must be modified to be sent (recommended value 2 or 0.2 degrees)
 -   62: gives the frequency of temperature measurements (recommended value 900)
 -   64: allows to give a minimum duration between two successive sendings even if the temperature has not changed (recommended value 2700)
 -   66: allows to adjust the temperature
--   80: allows to choose the color of the led when there is motion detection (see to deactivate it)
+-   80: allows you to choose the color of the led when there is motion detection (see deactivating it)
 -   81: allows to adjust the brightness of the led
 -   82: adjusts the minimum brightness threshold to set the LED to 1% (linked to parameter 81)
 -   83: adjusts the maximum brightness threshold to set the LED to 100% (linked to parameter 81)
@@ -153,7 +153,7 @@ This module has three association groups, only the third is essential.
 
 To wake up this module there is only one way :
 
--   press the inclusion button 3 times (the light turns blue). Even if the light turns on, it may be necessary to do it several times in succession (2 or 3)
+-   press the inclusion button 3 times (the light turns blue)). Even if the light turns on, it may be necessary to do this several times in succession (2 or 3)
 
 ## Faq.
 
