@@ -10,10 +10,5 @@
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
 	"changelog" : "https://agp42.github.io/Jeedom-TaskerAutoremote/#language#/changelog",
-	"documentation" : "https://agp42.github.io/Jeedom-TaskerAutoremote/#language#",
-	"link" : {
-		"forum":"https://community.jeedom.com/t/plugin-tiers-sujet-principal-plugin-taskerautoremote/4058"
-	},
-	"language" : ["fr_FR"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+	"documentation" : "https://agp42.github.io/Jeedom-TaskerAutoremote/#language#"
 }

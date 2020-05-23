@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 05/23/2020
+
+- Installation of nodejs 12 instead of 8
+
 # 01/12/2020
 
 - Bug fix in the dependencies installation script

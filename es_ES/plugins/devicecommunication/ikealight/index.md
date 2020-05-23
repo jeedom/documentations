@@ -2,9 +2,9 @@
 
 El complemento IkeaLight permite establecer un enlace con la puerta de enlace Ikea Tradfri. Puede controlar sus luces y obtener retroalimentación de estado en tiempo real.
 
-# Configuration
+# Configuración
 
-## Configuración del plugin
+## Configuración du plugin
 
 Después de descargar el complemento, debe activarlo e ingresar la IP de su puerta de enlace, así como la clave disponible en la etiqueta de la puerta de enlace (el "Código de seguridad").
 

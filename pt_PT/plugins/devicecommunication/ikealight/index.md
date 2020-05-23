@@ -2,9 +2,9 @@
 
 O plug-in IkeaLight possibilita estabelecer um link com o gateway Ikea Tradfri. Você pode controlar suas luzes e obter feedback de status em tempo real.
 
-# Configuration
+# Configuração
 
-## Configuração do plugin
+## Configuração du plugin
 
 Após o download do plug-in, é necessário ativá-lo e inserir o IP do seu gateway, bem como a chave disponível no rótulo do gateway (o "Código de segurança").
 

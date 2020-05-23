@@ -2,9 +2,9 @@
 
 Mit dem IkeaLight-Plugin kann eine Verbindung zum Ikea Tradfri-Gateway hergestellt werden. Sie können Ihre Lichter steuern und Echtzeit-Status-Feedback erhalten.
 
-# Configuration
+# Konfiguration
 
-## Plugin Konfiguration
+## Konfiguration du plugin
 
 Nach dem Herunterladen des Plugins müssen Sie es aktivieren und die IP Ihres Gateways sowie den auf dem Gateway-Etikett verfügbaren Schlüssel (den "Sicherheitscode") eingeben.
 

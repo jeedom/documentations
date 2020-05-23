@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 23.05.2020
+
+- Installation von NodeJS 12 anstelle von 8
+
 # 01/12/2020
 
 - Fehlerbehebung im Installationsskript für Abhängigkeiten

@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 23/05/2020
+
+- Instalación de nodejs 12 en lugar de 8
+
 # 01/12/2020
 
 - Corrección de errores en el script de instalación de dependencias
