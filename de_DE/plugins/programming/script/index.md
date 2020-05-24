@@ -59,8 +59,6 @@ Hier finden Sie die Liste der Bestellungen :
 -   **Chronik** : ermöglicht das Historisieren der Daten.
 -   **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard.
 -   **Ereignis** : Rückgabe im Falle von Ereignissen. Bei RFXcom muss dieses Kontrollkästchen immer aktiviert sein, da Sie ein RFXcom-Modul nicht abfragen können.
--   **Memcache zulassen** : Erlauben Sie Jeedom, den Cache für den Wert zu verwenden (Standard 5 Minuten), bevor Sie das Skript erneut ausführen, um den Wert erneut abzurufen.
--   **Lebenslanger Cache** : ermöglicht das Ändern der Lebensdauer des Caches (standardmäßig 5 Minuten).
 
 > **Wichtig**
 >
@@ -106,7 +104,7 @@ Ermöglicht die Wiederherstellung von json und die gezielte Suche nach einem Wer
 
 Das Optionsfeld enthält ein Feld "JSON-Datei-URL"" : Dieses Feld enthält daher den Link zu dem Computer, auf dem sich die betreffende JSON-Datei befindet.
 
-# HTTP-Beispiel : Eine Vera steuern
+# Exemple HTTP : Eine Vera steuern
 
 Das Beispiel basiert auf einer Vera und besteht aus dem Antreiben einer dimmbaren Glühbirne. Ich werde nicht näher darauf eingehen, wie eine Vera per http-Anfrage gesteuert werden kann. Das TLD-Forum ist voller Antworten. Außerdem entspricht das Beispiel meiner Materialart und muss an Ihre angepasst werden.
 
@@ -154,7 +152,7 @@ http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&
 >
 > Wenn Ihre Bestellung vom Nachrichtentyp ist, können Sie die Tags \ verwenden#message\# und \#title\#, Das Gleiche gilt für eine Farbbestellung mit dem Tag \#color\#, oder Schieberegler mit #slider# oder Liste mit #select#
 
-# HTTP-Beispiel : Benachrichtigung an XBMC senden
+# Exemple HTTP : Benachrichtigung an XBMC senden
 
 Ziel : Senden Sie eine Benachrichtigung an XBMC, wenn Sie eine Vordertür öffnen.
 
@@ -183,7 +181,7 @@ Testen Sie ein Szenario *\ [AUSSEN \] \ [AUSSEN \] \ [TEMPERATUR \]* &lt; 15 par
 
 Aktion : Starten Sie das Skript über eine virtuelle Ausrüstung, die mit Ihrem Skript verknüpft ist !
 
-# SCRIPT-Beispiel
+# Exemple SCRIPT
 
 Das Schönste, aber nicht das Einfachste zu erklären.
 
@@ -237,7 +235,7 @@ if (isset($argv)) {
 }
 ````
 
-# Einfaches XML-Beispiel
+# Exemple XML simple
 
 Hier ist das Format der Standard-XML :
 
@@ -254,7 +252,7 @@ Wenn Sie den Wert von led0 in der Abfrage haben möchten, geben Sie led0 ein. Si
 
 Notez que l'élément racine &lt;root&gt; n'est pas à préciser dans le champ Petition.
 
-# Komplexes XML-Beispiel
+# Exemple XML complexe
 
 ````
  <root>
@@ -272,7 +270,7 @@ Die Syntax lautet :
 
 leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de rang du tableau !
 
-# Komplexeres XML-Beispiel
+# Exemple XML plus complexe
 
 ````
 <AKT_Data ID="SMS-Liste" ZeitSt="01.05.2017 18:55">
@@ -324,7 +322,7 @@ Um zum nächsten "MyPar" -Block zu gelangen, müssen Sie daher den Index entspre
 
 Achtung : Wenn sich die Reihenfolge in der XML-Datei ändert, funktioniert die Anforderung nicht mehr. Die Anforderung muss entsprechend der zurückgegebenen Bestellung angepasst werden.
 
-# JSON-Beispiel
+# Exemple JSON
 
 Wie beim XML-Typ ist es möglich, Informationen aus einer JSON-Rückgabe zu lesen.
 
@@ -400,7 +398,7 @@ Nachteile :
 -   Mit dieser Methode kann jeweils nur ein Element wiederhergestellt werden.
 -   Wenn Sie alle Werte von "show\_name" zurückgeben möchten, ist dies leider nicht möglich. Sie müssen das Skript so oft wie nötig duplizieren.
 
-# HTML-Beispiel
+# Exemple HTML
 
 Hier werden wir versuchen, die letzte FML abzurufen.
 

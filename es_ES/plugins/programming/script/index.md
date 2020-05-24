@@ -59,8 +59,6 @@ Aquí encontrarás la lista de pedidos :
 -   **Guardar historial** : permite historizar los datos.
 -   **Mostrar** : permite mostrar los datos en el tablero.
 -   **Evento** : volver en caso de eventos. En el caso de RFXcom, esta casilla siempre debe estar marcada porque no puede interrogar a un módulo RFXcom.
--   **Permitir memcache** : permitir que Jeedom use caché para el valor (predeterminado 5 min) antes de volver a ejecutar el script para obtener el valor nuevamente.
--   **Caché de por vida** : permite modificar la vida útil del caché (por defecto 5 min).
 
 > **Importante**
 >
@@ -106,7 +104,7 @@ Permite recuperar json y buscar específicamente un valor en él.
 
 El campo de opción tiene un campo "URL de archivo JSON"" : este campo, por lo tanto, contiene el enlace a la máquina que aloja el archivo JSON en cuestión.
 
-# Ejemplo HTTP : Pilotando una Vera
+# Exemple HTTP : Pilotando una Vera
 
 El ejemplo se basa en una Vera y consiste en conducir una bombilla regulable. No me detendré en cómo controlar una Vera por solicitud http, el foro de TLD está lleno de respuestas. Además, el ejemplo corresponde a mi tipo de material y tendrá que adaptarse al suyo.
 
@@ -154,7 +152,7 @@ http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&
 >
 > Si su orden es del tipo de mensaje, puede usar las etiquetas \#message\# y \#title\#, lo mismo para un orden de color con la etiqueta \#color\#, o tipo deslizante con #slider# o lista con #select#
 
-# Ejemplo HTTP : Enviar notificación a XBMC
+# Exemple HTTP : Enviar notificación a XBMC
 
 Objetivo : Enviar una notificación a XBMC al abrir una puerta principal.
 
@@ -183,7 +181,7 @@ Prueba en un escenario *\ [FUERA \] \ [FUERA \] \ [TEMPERATURA \]* &lt; 15 par e
 
 Acción : Inicie el script, a través de un equipo virtual, vinculado a su script !
 
-# Ejemplo SCRIPT
+# Exemple SCRIPT
 
 El más bonito pero no el más fácil de explicar.
 
@@ -237,7 +235,7 @@ if (isset($argv)) {
 }
 ````
 
-# Ejemplo XML simple
+# Exemple XML simple
 
 Aquí está el formato del xml estándar :
 
@@ -254,7 +252,7 @@ Si desea el valor de led0 en la consulta, coloque led0. Si vous voulez la valeur
 
 Notez que l'élément racine &lt;root&gt; n'est pas à préciser dans le champ Petición.
 
-# Ejemplo complejo de XML
+# Exemple XML complexe
 
 ````
  <root>
@@ -272,7 +270,7 @@ La sintaxis es :
 
 leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de rang du tableau !
 
-# Ejemplo XML más complejo
+# Exemple XML plus complexe
 
 ````
 <AKT_Data ID="SMS-Liste" ZeitSt="01.05.2017 18:55">
@@ -324,7 +322,7 @@ Para pasar al siguiente bloque "MyPar", debe cambiar el índice en consecuencia 
 
 Atención : Si el orden cambia en el archivo XML, la solicitud ya no funciona. Será necesario reajustar la solicitud de acuerdo con el pedido devuelto.
 
-# Ejemplo JSON
+# Exemple JSON
 
 Al igual que el tipo XML, es posible leer información de un retorno JSON.
 
@@ -400,7 +398,7 @@ Desventajas :
 -   este método solo permite recuperar un elemento a la vez.
 -   Si desea devolver todos los valores de "show\_name", lamentablemente esto no es posible, tendrá que duplicar el script tantas veces como sea necesario.
 
-# Ejemplo HTML
+# Exemple HTML
 
 Aquí intentaremos recuperar el último FML.
 

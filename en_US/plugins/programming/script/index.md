@@ -59,8 +59,6 @@ Here you find the list of orders :
 -   **Historize** : allows to historize the data.
 -   **Pin up** : allows to display the data on the dashboard.
 -   **Event** : return in case of events. In the case of RFXcom this box must always be checked because you cannot interrogate an RFXcom module.
--   **Allow memcache** : allow Jeedom to use cache for the value (default 5 min) before re-executing the script to get the value again.
--   **Lifetime cache** : allows to modify the lifetime of the cache (by default 5 min).
 
 > **Important**
 >
@@ -106,7 +104,7 @@ Allows to recover json and to specifically look for a value in it.
 
 The option field has a "JSON file URL" field" : this field therefore contains the link to the machine hosting the JSON file in question.
 
-# HTTP example : Piloting a Vera
+# Exemple HTTP : Piloting a Vera
 
 The example is based on a Vera and consists of driving a dimmable bulb. I'm not going to dwell on how to control a Vera by http request, the TLD forum is full of answers. In addition, the example corresponds to my type of material and will have to be adapted to yours.
 
@@ -154,7 +152,7 @@ http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&
 >
 > If your order is of message type you can use the tags \#message\# and \#title\#, ditto for a color order with the tag \#color\#, or slider type with #slider# or list with #select#
 
-# HTTP example : Send notification to XBMC
+# Exemple HTTP : Send notification to XBMC
 
 Goal : Send a notification to XBMC when opening a front door.
 
@@ -183,7 +181,7 @@ Test on a scenario *\ [OUTSIDE \] \ [OUTSIDE \] \ [TEMPERATURE \]* &lt; 15 par e
 
 Action : Launch the script, via virtual equipment, linked to your script !
 
-# SCRIPT example
+# Exemple SCRIPT
 
 The nicest but not the easiest to explain.
 
@@ -237,7 +235,7 @@ if (isset($argv)) {
 }
 ````
 
-# Simple XML example
+# Exemple XML simple
 
 Here is the format of the standard xml :
 
@@ -254,7 +252,7 @@ If you want the value of led0 in query you put led0. Si vous voulez la valeur de
 
 Notez que l'élément racine &lt;root&gt; n'est pas à préciser dans le champ Request.
 
-# Complex XML example
+# Exemple XML complexe
 
 ````
  <root>
@@ -272,7 +270,7 @@ The syntax is :
 
 leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de rang du tableau !
 
-# More complex XML example
+# Exemple XML plus complexe
 
 ````
 <AKT_Data ID="SMS-Liste" ZeitSt="01.05.2017 18:55">
@@ -324,7 +322,7 @@ To move to the next "MyPar" block, you must therefore change the index according
 
 Be careful : If the order changes in the XML file, the request no longer works. It will be necessary to readjust the request according to the returned order.
 
-# JSON example
+# Exemple JSON
 
 Like the XML type, it is possible to read information from a JSON return.
 
@@ -400,7 +398,7 @@ Disadvantages :
 -   this method only allows to recover one element at a time.
 -   If you want to return all the values of "show\_name", this is unfortunately not possible, you will have to duplicate the script as many times as necessary.
 
-# HTML example
+# Exemple HTML
 
 Here we will try to retrieve the last FML.
 
