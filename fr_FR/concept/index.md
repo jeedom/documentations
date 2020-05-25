@@ -82,25 +82,42 @@ Ce périphérique comportera ses propres commandes *info* ou *action*. Ces comma
 
 Vous verrez ensuite que chaque Objet, Équipement, Commande possède de nombreuses options, en terme de fonctionnalités ou d'affichage. Mais chaque chose en son temps, maintenant vous devriez avoir compris les concepts de base de Jeedom, et ainsi pouvoir commencer à organiser votre domotique en sachant où regarder.
 
-### Mon premier scénario
-
-*En cours de rédaction*
+## Mon premier scénario
 
 L’intérêt de la domotique, au delà du contrôle centralisé et à distance de nos périphériques, réside surtout dans l'automatisation. Le but n'est pas de passer des heures devant son Dashboard ou son Design, mais au contraire que votre logement s'adapte à vos habitudes et se fasse oublier. Plus de volet à ouvrir et fermer tout les jours, plus de lumière à allumer et éteindre, être prévenu quand mettre la poubelle sur la rue, quand il y a du courrier dans la boite au lettre, le chauffage qui s'adapte en fonction des saisons et des conditions climatiques. Les possibilités sont infinies, et dépendent du mode de vie de chacun. Les scénarios sont là pour çà !
 
-Un scénario est une suites d'action définies qui s’exécuteront à certains moment de la journée. L’exécution peu-être programmée (tout les Lundi à telle heure), ou provoquée par un événement. Comme vue plus haut, cet événement peut par exemple être notre commande info *Presence* d'un détecteur de mouvement.
+Un scénario est une suites d'actions définies qui s’exécuteront à certains moment de la journée. L’exécution peu-être programmée (tout les Lundi à telle heure), ou provoquée par un événement. Comme vue plus haut, cet événement peut par exemple être notre commande info *Presence* d'un détecteur de mouvement, suite à une détection.
 
 Le but ici n'est pas d'être exhaustif mais de découvrir les scénarios au travers d'exemples simples. La [documentation du manuel d'utilisation](/fr_FR/core/4.1/scenario) est beaucoup plus complète.
 
 
-#### Allumage de la lumière sur détection de mouvement.
+### Allumage de la lumière sur détection de mouvement.
 
-/////
+Admettons que nous ayons une lumière pilotée et un détecteur de mouvement dans la chambre.
+
+![1stScenario](images/1stScenario.gif)
+
+- Allez dans **Outils → Scénarios**
+- Cliquez sur *Ajouter* puis donnez lui un nom.
+- A droite, dans la partie *Déclenchement*, vérifiez que le mode est bien en *Provoqué* puis cliquez sur *+ Déclencheur*.
+- A l'aide du bouton *choisir une commande* à droite du champ *Evénement*, sélectionnez l'objet puis l’équipement et sa commande.
+
+Le *Déclencheur* est ce qui va déclencher l’exécution de ce scénario. Ici, nous souhaitons le déclencher quand notre détecteur détecte une présence, nous allons donc utiliser la commande `#[Chambre][Détecteur Chambre][Présence]# == 1`.
+
+Les `#` indiquent une commande, ensuite on trouve `[le nom de son objet parent]`, puis `[le nom de l'équipement]`, et enfin `[le nom de la commande]`. Ici, on ajoute ` == 1` car on veux que le scénario se déclenche seulement sur la détection d'une présence. Or sur un détecteur de présence, cette détection repasse à 0 quelques secondes après. Ce passage à 0 ne déclenchera donc pas une nouvelle fois notre scénario.
+
+- Cliquez sur l'onglet *Scénario* puis sur le bouton en haut *Ajouter bloc*. Choisissez un bloc *Action* puis sur celui-ci, *Ajoutez* une *Action*. Cette action sera notre commande d'allumage de la lumière. Selon le même principe : `#[Chambre][Lumière Chambre][On]#`.
+
+- Sauvegardez, et votre scénario est prêt !
+
+Nous avons fait ici qu’effleurer les possibilités des scénarios. Vous pouvez ajouter des conditions (bloc *Si/Alors/Sinon*), temporiser des actions (bloc *Dans*), les programmer (bloc *A*), et même utiliser directement du code php (bloc *Code*).
+
+Nous avons ici utilisé le mode de déclenchement *provoqué*, avec une commande. Mais vous pouvez également utiliser (et combiner) le mode *programmé* pour exécuter un scénario tout les matins, ou toutes les heures, etc.
 
 
-#### Programmation du jour.
+### Programmation du jour.
 
-Un sujet récurent pour les débutants de Jeedom, la programmation d’événements journaliers comme :
+Un sujet récurent pour les débutants sur Jeedom, la programmation d’événements journaliers comme :
 
 - Allumer la cafetière à 7h en semaine.
 - Ouvrir les volets au lever du soleil.
