@@ -1,19 +1,25 @@
-02-04-2020
+# Changelog EnOcean
+
+>**IMPORTANT**
+>
+>Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+
+# 02/04/2020
 
 Amélioration du profil MAS Ventilairsec
 
-21-01-2020
+# 21/01/2020
 
 Code pour pouvoir gérer des futures trames de type MSC
 Trame MSC Ventilairsec intégré
 Amélioration de certains conflits de trames
 
-27-05-2019
+# 27/05/2019
 
 Correction bug sur profil PM25
 Changemetn page équipement compliant Jeedom V4
 
-28/02/2019
+# 28/02/2019
 
 Rajout de nombreuses confs (soft button, avidsen etccc)
 Mise en place d'un début de remote management

@@ -1,118 +1,66 @@
-Open Enocean 
-============
+# Abra el complemento Enocean
 
-Descripción 
------------
+Este complemento es un complemento que permite la compatibilidad con Enocean
 
-Ce plugin est un plugin permettant une compatibilité Enocean
+# Configuration
 
-![openenocean icon](./images/openenocean_icon.png)
-
-Configuración 
--------------
-
-Configuración del plugin: 
-========================
-
-a.  Installation/Création
+## Configuración del plugin
 
 > **Punta**
 >
-> Afin d'utiliser le plugin, vous devez le télécharger, l'installer et
-> l'activer comme tout plugin Jeedom.
+> Para usar el complemento, debe descargarlo, instalarlo y activarlo como cualquier complemento de Jeedom.
 
 > **Importante**
 >
-> La chose la plus importante ici est de sélectionner votre Contrôlleur
-> USB (vous pouvez choisir Auto cela fonctionnera pour la clé Enocean
-> USB300). Pour tout autre modèle il est préférable de le choisir dans
-> la liste :
+> Lo más importante aquí es seleccionar su controlador USB (puede elegir Auto, funcionará para la llave Enocean USB300). Para cualquier otro modelo, es mejor elegirlo de la lista :
 
 -   USB300 : EnOcean\_GmbH EnOean\_USB\_300\_DB
-
 -   USB310 : FTDI FT232R\_USB\_UART
-
 -   Jeedom Smart : ttyS1
 
-L'autre option disponible sur cette page est : **Borrar
-automatiquement les périphériques exclus**. Celle-ci permet de supprimer
-les équipements de Jeedom lorsqu'il sont exclus.
+La otra opción disponible en esta página es : **Eliminar automáticamente los dispositivos excluidos**. Esto elimina el equipo Jeedom cuando se excluye.
 
-Vous pouvez aussi vérifier l'état des dépendances et les relancer. En
-cas de soucis avec le plugin toujours relancer les dépendances même si
-OK dans le doute.
+También puede verificar el estado de las dependencias y reiniciarlas. En caso de problemas con el complemento, siempre reinicie las dependencias, incluso si está en caso de duda.
 
-Le plugin 
-=========
+# El complemento
 
-Rendez vous dans le menu plugins/protocole pour retrouver le plugin.
+Vaya al menú de complementos / protocolos para encontrar el complemento.
 
-Sur cette page vous pourrez voir les Módulos déjà inclus.
+En esta página puedes ver los módulos ya incluidos.
 
-Sur la partie haute de cette page vous avez plusieurs boutons (visibles
-selon que vous êtes en mode expert ou non)
+En la parte superior de esta página tiene varios botones (visibles dependiendo de si está en modo experto o no))
 
--   Bouton ajouter : Permet d'ajouter certains Módulos qui n'ont pas de
-    notions d'appairage ou qui nécessitent un envoi de commandes depuis
-    Jeedom
+-   Botón Agregar : Le permite agregar ciertos módulos que no tienen nociones de emparejamiento o que requieren enviar comandos desde Jeedom
+-   Botón de inclusión : Este botón permite poner Jeedom en Inclusion (varios modos, solo el primero está disponible en este momento)
+-   Botón de exclusión : Este botón permite poner a Jeedom en Exclusion
+-   Botón de configuración : Este botón abre la ventana de configuración del complemento
+-   Botón de salud : Este botón le permite tener una visión general del estado de todos sus módulos
 
--   Bouton Inclusion : Ce bouton permet de mettre Jeedom en Inclusion
-    (plusieurs modes, seul le premier est disponible pour le moment)
+# Equipement
 
--   Bouton Exclusion : Ce bouton permet de mettre Jeedom en Exclusion
+Cuando hace clic en uno de sus módulos, llega a la página de configuración de ese módulo :
 
--   Bouton Configuation : Ce bouton permet d'ouvrir la fenêtre de
-    Configuración del plugin
+-   Dale un nombre al módulo
+-   Activar / hacerlo visible o no
+-   Elige tu objeto padre
+-   Asignar una categoría
+-   Definir un retraso de monitoreo de comunicación para ciertos módulos
+-   Publica un comentario
 
--   Bouton Santé : Ce bouton permet d'avoir un aperçu Santé de tous vos
-    Módulos
+En el lado derecho encontrarás :
 
-Dispositivos 
-==========
+-   El perfil del equipo (generalmente detectado automáticamente si el módulo lo permite)
+-   Elija un modelo si para este perfil hay varios modelos disponibles
+-   Ver lo visual
 
-Lorsque que vous cliquez sur un de vos Módulos, vous arrivez sur la page
-de configuration de celui-ci. Comme partout dans Jeedom vous pouvez ici
-sur la partie gauche:
+# Equipamiento con configuración
 
--   Donner un nom au module
-
--   L'activer/le rendre visible ou non
-
--   Choisir son objet parent
-
--   Lui attribuer une catégorie
-
--   Definir un delai de surveillance de communication pour certains
-    Módulos
-
--   Mettre un commentaire
-
-Sur la partie droite vous trouverez :
-
--   Le profil de l'équipement (généralement auto détecté si le module
-    le permet)
-
--   Choisir un modèle si pour ce profil plusieurs modèles sont
-    disponible
-
--   Voir le visuel
-
-Dispositivos avec configuration 
-=============================
-
-Pour certains Módulos il est possible d'avoir un bouton configurer, en
-cliquant dessus vous arriverez sur une page permettant de configurer
-celui-ci
+Para algunos módulos es posible tener un botón de configuración, al hacer clic en él, llegará a una página que le permite configurarlo
 
 > **Importante**
 >
-> Ici il vous suffit de choisir toutes les options et de cliquer sur
-> Aplicar. (Attention : il tous les paramètres sont envoyés, donc
-> validez bien l'ensemble)
+> Aquí solo tienes que elegir todas las opciones y hacer clic en aplicar. (Atención : allí se envían todos los parámetros, así que valide todo)
 
-Liste de compatibilité 
-======================
+# Lista de compatibilidad
 
-Vous trouverez sur le site de documentation jeedom une liste de
-compatibilité de Módulos avec leur procédure d'inclusion si elles sont
-spécifiques.
+Encontraras [aquí](https://doc.jeedom.com/es_ES/enocean/equipement.compatible) una lista de compatibilidad de módulos con su procedimiento de inclusión si son específicos.

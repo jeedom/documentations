@@ -1,118 +1,66 @@
-Open Enocean 
-============
+# Öffnen Sie das Enocean-Plugin
 
-Beschreibung 
------------
+Dieses Plugin ist ein Plugin, das Enocean-Kompatibilität ermöglicht
 
-Ce plugin est un plugin permettant une compatibilité Enocean
+# Configuration
 
-![openenocean icon](./images/openenocean_icon.png)
-
-Konfiguration 
--------------
-
-Plugin Konfiguration: 
-========================
-
-a.  Installation/Création
+## Plugin Konfiguration
 
 > **Spitze**
 >
-> Afin d'utiliser le plugin, vous devez le télécharger, l'installer et
-> l'activer comme tout plugin Jeedom.
+> Um das Plugin verwenden zu können, müssen Sie es wie jedes Jeedom-Plugin herunterladen, installieren und aktivieren.
 
 > **Wichtig**
 >
-> La chose la plus importante ici est de sélectionner votre Contrôlleur
-> USB (vous pouvez choisir Auto cela fonctionnera pour la clé Enocean
-> USB300). Pour tout autre modèle il est préférable de le choisir dans
-> la liste :
+> Das Wichtigste dabei ist, dass Sie Ihren USB-Controller auswählen (Sie können Auto auswählen, damit er für den Enocean USB300-Schlüssel funktioniert). Für jedes andere Modell ist es besser, es aus der Liste auszuwählen :
 
 -   USB300 : EnOcean\_GmbH EnOean\_USB\_300\_DB
-
 -   USB310 : FTDI FT232R\_USB\_UART
-
 -   Jeedom Smart : ttyS1
 
-L'autre option disponible sur cette page est : **Löschen
-automatiquement les périphériques exclus**. Celle-ci permet de supprimer
-les équipements de Jeedom lorsqu'il sont exclus.
+Die andere auf dieser Seite verfügbare Option ist : **Ausgeschlossene Geräte automatisch löschen**. Dadurch werden Jeedom-Geräte entfernt, wenn sie ausgeschlossen sind.
 
-Vous pouvez aussi vérifier l'état des dépendances et les relancer. En
-cas de soucis avec le plugin toujours relancer les dépendances même si
-OK dans le doute.
+Sie können auch den Status von Abhängigkeiten überprüfen und neu starten. Bei Problemen mit dem Plugin werden die Abhängigkeiten immer neu gestartet, auch wenn im Zweifelsfall OK.
 
-Le plugin 
-=========
+# Das Plugin
 
-Rendez vous dans le menu plugins/protocole pour retrouver le plugin.
+Gehen Sie zum Menü Plugins / Protokoll, um das Plugin zu finden.
 
-Sur cette page vous pourrez voir les Module déjà inclus.
+Auf dieser Seite sehen Sie die bereits enthaltenen Module.
 
-Sur la partie haute de cette page vous avez plusieurs boutons (visibles
-selon que vous êtes en mode expert ou non)
+Im oberen Teil dieser Seite befinden sich mehrere Schaltflächen (sichtbar, je nachdem, ob Sie sich im Expertenmodus befinden oder nicht)
 
--   Bouton ajouter : Permet d'ajouter certains Module qui n'ont pas de
-    notions d'appairage ou qui nécessitent un envoi de commandes depuis
-    Jeedom
+-   Schaltfläche Hinzufügen : Ermöglicht das Hinzufügen bestimmter Module, die keine Vorstellungen von Pairing haben oder die das Senden von Befehlen von Jeedom erfordern
+-   Einschlussschaltfläche : Mit dieser Schaltfläche können Sie Jeedom in Inclusion versetzen (in mehreren Modi ist derzeit nur der erste verfügbar)
+-   Ausschlussschaltfläche : Mit dieser Schaltfläche können Sie Jeedom ausschließen
+-   Konfigurationsschaltfläche : Diese Schaltfläche öffnet das Plugin-Konfigurationsfenster
+-   Gesundheitstaste : Mit dieser Schaltfläche erhalten Sie einen Überblick über den Zustand aller Ihrer Module
 
--   Bouton Inclusion : Ce bouton permet de mettre Jeedom en Inclusion
-    (plusieurs modes, seul le premier est disponible pour le moment)
+# Equipement
 
--   Bouton Exclusion : Ce bouton permet de mettre Jeedom en Exclusion
+Wenn Sie auf eines Ihrer Module klicken, gelangen Sie auf die Konfigurationsseite dieses Moduls :
 
--   Bouton Configuation : Ce bouton permet d'ouvrir la fenêtre de
-    Plugin Konfiguration
+-   Geben Sie dem Modul einen Namen
+-   Aktivieren / sichtbar machen oder nicht
+-   Wählen Sie Ihr übergeordnetes Objekt
+-   Ordnen Sie eine Kategorie zu
+-   Definieren Sie eine Kommunikationsüberwachungsverzögerung für bestimmte Module
+-   Schreibe einen Kommentar
 
--   Bouton Santé : Ce bouton permet d'avoir un aperçu Santé de tous vos
-    Module
+Auf der rechten Seite finden Sie :
 
-Gerät 
-==========
+-   Das Profil des Geräts (im Allgemeinen automatisch erkannt, wenn das Modul dies zulässt)
+-   Wählen Sie ein Modell, wenn für dieses Profil mehrere Modelle verfügbar sind
+-   Siehe das Bild
 
-Lorsque que vous cliquez sur un de vos Module, vous arrivez sur la page
-de configuration de celui-ci. Comme partout dans Jeedom vous pouvez ici
-sur la partie gauche:
+# Ausrüstung mit Konfiguration
 
--   Donner un nom au module
-
--   L'activer/le rendre visible ou non
-
--   Choisir son objet parent
-
--   Lui attribuer une catégorie
-
--   Definir un delai de surveillance de communication pour certains
-    Module
-
--   Mettre un commentaire
-
-Sur la partie droite vous trouverez :
-
--   Le profil de l'équipement (généralement auto détecté si le module
-    le permet)
-
--   Choisir un modèle si pour ce profil plusieurs modèles sont
-    verfügbar
-
--   Voir le visuel
-
-Gerät avec configuration 
-=============================
-
-Pour certains Module il est possible d'avoir un bouton configurer, en
-cliquant dessus vous arriverez sur une page permettant de configurer
-celui-ci
+Für einige Module ist es möglich, eine Schaltfläche zum Konfigurieren zu haben. Wenn Sie darauf klicken, gelangen Sie zu einer Seite, auf der Sie sie konfigurieren können
 
 > **Wichtig**
 >
-> Ici il vous suffit de choisir toutes les options et de cliquer sur
-> Anwenden. (Attention : il tous les paramètres sont envoyés, donc
-> validez bien l'ensemble)
+> Hier müssen Sie nur alle Optionen auswählen und auf Übernehmen klicken. (Achtung : Dort werden alle Parameter gesendet, also validieren Sie das Ganze)
 
-Liste de compatibilité 
-======================
+# Kompatibilitätsliste
 
-Vous trouverez sur le site de documentation jeedom une liste de
-compatibilité de Module avec leur procédure d'inclusion si elles sont
-spécifiques.
+Sie werden finden [hier](https://doc.jeedom.com/de_DE/enocean/equipement.compatible) eine Kompatibilitätsliste der Module mit ihrem Einschlussverfahren, wenn sie spezifisch sind.

@@ -1,15 +1,29 @@
 {
-	"id" : "openenocean",
-	"name" : "EnOcean",
-	"description" : "Plugin ajoutant le support du EnOcean à Jeedom",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.2.12",
-	"category" : "automation protocol",
-	"hasDependency" : true,
-        "hasOwnDeamon" : true,
-        "changelog" : "https://jeedom.github.io/plugin-openenocean/#language#/changelog",
-     "documentation" : "https://jeedom.github.io/plugin-openenocean/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+    "id": "openenocean",
+    "name": "EnOcean",
+    "description": "Plugin ajoutant le support du EnOcean à Jeedom https:\/\/jeedom.github.io\/documentation\/enocean\/fr_FR\/equipement.compatible De nombreux modules seront rajoutés rapidement et en continue Nous vous conseillons de migrer avec precaution",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.2.12",
+    "category": "automation protocol",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/openenocean\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/openenocean\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy"
+    ]
 }

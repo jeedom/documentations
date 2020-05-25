@@ -1,27 +1,37 @@
-21-01-2020
+# Changelog EnOcean
 
-Code pour pouvoir gérer des futures trames de type MSC
-Trame MSC Ventilairsec intégré
-Amélioration de certains conflits de trames
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-27-05-2019
+# 04/02/2020
 
-Correction bug sur profil PM25
-Changemetn page équipement compliant Jeedom V4
+Verbesserung des MAS Ventilairsec-Profils
 
-28/02/2019
+# 21.01.2020
 
-Rajout de nombreuses confs (soft button, avidsen etccc)
-Mise en place d'un début de remote management
-Amélioration de l'envoi simultané de commande
-Amélioration de l'envoi de commande avec gestion de répétition
+Code, um zukünftige Frames vom Typ MSC verwalten zu können
+Integrierter MSC Ventilairsec-Rahmen
+Verbesserung bestimmter Rahmenkonflikte
 
-- Correction d'un bug si le niveau de log est sur aucun
+# 27.05.2019
 
-# 06/07/2018
+Fehlerkorrektur am PM25-Profil
+Changemetn-konforme Ausrüstungsseite Jeedom V4
 
-Rajout mode poussoir pour RPS
+# 28.02.2019
 
-# 26/06/2018
+Hinzufügung vieler Confs (Soft Button, Avidsen Etccc)
+Implementierung eines Remote-Management-Starts
+Verbessertes gleichzeitiges Senden von Bestellungen
+Verbesserung des Auftragsversands durch Wiederholungsverwaltung
 
-Rajout de plusieurs configuration pour la gamme avidsen
+- Korrektur eines Fehlers, wenn die Protokollstufe keine ist
+
+# 07/06/2018
+
+Push-Modus für RPS hinzufügen
+
+# 26.06.2008
+
+Hinzufügen mehrerer Konfigurationen für den Avidsen-Bereich
