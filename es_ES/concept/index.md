@@ -55,9 +55,9 @@ Estos comandos se pueden registrar para mantener esta información a lo largo de
 Estos comandos también se pueden usar para activar [Escenarios](/es_ES/core/4.1/scenario) para automatizar acciones basadas en la información reportada por sus sensores. Por ejemplo, un sensor de movimiento detecta una presencia, lo que desencadenará un escenario que encenderá la luz.
 
 - Las órdenes *Acción* :
-Estos comandos le permiten controlar sus actuadores. Por ejemplo, comandos ``on`` y ``off`` de un tomacorriente controlado le permitirá encenderlo y apagarlo.
+Estos comandos le permiten controlar sus actuadores. Por ejemplo, comandos ````on```` y ````off```` de un tomacorriente controlado le permitirá encenderlo y apagarlo.
 
-Los comandos de acción generalmente están vinculados a comandos de información. Aquí nuestra toma tiene dos acciones ``on`` y ``off``, generalmente relacionado con la información **Estado**.
+Los comandos de acción generalmente están vinculados a comandos de información. Aquí nuestra toma tiene dos acciones ````on```` y ````off````, generalmente relacionado con la información **Estado**.
 
 ![Comandos](images/concept-commands.jpg)
 
@@ -82,25 +82,42 @@ Este dispositivo tendrá sus propios comandos *Información* o *Acción*. Estos 
 
 Luego verá que cada Objeto, Equipo, Orden tiene muchas opciones, en términos de funcionalidad o visualización. Pero todo a su tiempo, a estas alturas ya debería haber entendido los conceptos básicos de Jeedom, y así poder comenzar a organizar su automatización del hogar sabiendo dónde buscar.
 
-### Mi primer escenario
-
-*Ser redactado*
+## Mi primer escenario
 
 La ventaja de la automatización del hogar, más allá del control centralizado y remoto de nuestros periféricos, reside sobre todo en la automatización. El objetivo no es pasar horas frente a su Tablero o Diseño, sino que, por el contrario, su alojamiento se adapta a sus hábitos y lo hace olvidar. Más persianas para abrir y cerrar todos los días, más luz para encender y apagar, se advierte cuándo tirar la basura en la calle, cuando hay correo en el buzón, la calefacción que se adapta según estaciones y condiciones climáticas. Las posibilidades son infinitas y dependen del estilo de vida. Los escenarios están ahí para eso !
 
-Un escenario es una serie de acciones definidas que se ejecutarán en determinados momentos del día. La ejecución puede ser programada (todos los lunes a esa hora) o causada por un evento. Como se vio anteriormente, este evento puede ser, por ejemplo, nuestro comando de información *Presencia* un detector de movimiento.
+Un escenario es una serie de acciones definidas que se ejecutarán en determinados momentos del día. La ejecución puede ser programada (todos los lunes a esa hora) o causada por un evento. Como se vio anteriormente, este evento puede ser, por ejemplo, nuestro comando de información *Presencia* un detector de movimiento, después de una detección.
 
 El objetivo aquí no es ser exhaustivo, sino descubrir los escenarios a través de ejemplos simples. los [documentación del manual de usuario](/es_ES/core/4.1/scenario) es mucho más completo.
 
 
-#### Detección de luz en movimiento.
+### Detección de luz en movimiento.
 
-/////
+Supongamos que tenemos una luz controlada y un detector de movimiento en la habitación.
+
+![1stScenario](images/1stScenario.gif)
+
+- Ir a **Herramientas → Escenarios**
+- Haga clic en *Añadir* entonces dale un nombre.
+- Derecha, en la seccion *Liberación*, compruebe que el modo está en *Provocado* luego haga clic en *+ Disparador*.
+- Usando el botón *Elija una orden* a la derecha del campo *Evento*, seleccione el objeto, luego el equipo y su orden.
+
+El *Disparador* es lo que desencadenará la ejecución de este escenario. Aquí, queremos activarlo cuando nuestro detector detecta una presencia, por lo que utilizaremos el comando `#[Habitación][Détecteur Habitación][Présence]# == 1`.
+
+El `#` indica un comando, luego encontramos `[el nombre de su objeto padre]`, luego `[el nombre del dispositivo]`, y finalmente `[el nombre del comando]`. Aquí, agregamos `== 1` porque queremos que el escenario se active solo al detectar una presencia. Sin embargo, en un detector de presencia, esta detección vuelve a 0 unos segundos después. Por lo tanto, este cambio a 0 no activará nuestro escenario nuevamente.
+
+- Click en la pestaña *Escenario* entonces el botón en la parte superior *Agregar bloque*. Elige un bloque *Acción* entonces en este, *Agregar* Una *Acción*. Esta acción será nuestro comando de cambio de luz. De acuerdo con el mismo principio : ``#[Habitación][Lumière Habitación][On]#``.
+
+- Guarde y su script estará listo !
+
+Aquí solo hemos tocado las posibilidades de los escenarios. Puedes agregar condiciones (bloquear *Si/Entonces/Sino*), acciones de retraso (bloqueo *DENTRO*), programarlos (bloquear *A las*), e incluso usar directamente el código php (bloque *CODIGO*).
+
+Aquí usamos el modo de disparo *Provocado*, con un pedido. Pero también puedes usar (y combinar) el modo *Programado* ejecutar un script cada mañana, o cada hora, etc.
 
 
-#### Programa del día.
+### Programa del día.
 
-Un tema recurrente para los principiantes de Jeedom, la programación de eventos diarios como :
+Un tema recurrente para principiantes en Jeedom, la programación de eventos diarios como :
 
 - Encienda la cafetera a las 7 a.m. de lunes a viernes.
 - Abre las persianas al amanecer.

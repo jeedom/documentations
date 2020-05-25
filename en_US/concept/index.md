@@ -55,9 +55,9 @@ These commands can be logged in order to keep this information over time in the 
 These commands can also be used to trigger [Scenarios](/en_US/core/4.1/scenario) to automate actions based on the information reported by your sensors. For example, a motion sensor detects a presence, which will trigger a scenario that will turn on the light.
 
 - The orders *Action* :
-These commands allow you to control your actuators. For example, commands ``on`` and ``off`` of a controlled outlet will allow you to turn it on and off.
+These commands allow you to control your actuators. For example, commands ````on```` and ````off```` of a controlled outlet will allow you to turn it on and off.
 
-Action commands are usually linked to info commands. Here our take has two actions ``on`` and ``off``, usually related to information **State**.
+Action commands are usually linked to info commands. Here our take has two actions ````on```` and ````off````, usually related to information **State**.
 
 ![Commands](images/concept-commands.jpg)
 
@@ -82,25 +82,42 @@ This device will have its own commands *Info* or *Action*. These commands will b
 
 You will then see that each Object, Equipment, Order has many options, in terms of functionality or display. But everything in its time, by now you should have understood the basic concepts of Jeedom, and thus be able to start organizing your home automation knowing where to look.
 
-### My first scenario
-
-*ON GOING REDACTION*
+## My first scenario
 
 The advantage of home automation, beyond centralized and remote control of our peripherals, lies above all in automation. The goal is not to spend hours in front of your Dashboard or Design, but on the contrary that your accommodation adapts to your habits and makes you forget. No more shutters to open and close every day, no more light to turn on and off, be warned when to put the trash on the street, when there is mail in the mailbox, the heating that adapts according to seasons and climatic conditions. The possibilities are endless, and depend on one's lifestyle. The scenarios are there for that !
 
-A scenario is a series of defined actions that will run at certain times of the day. The execution can be scheduled (every Monday at such time), or caused by an event. As seen above, this event can for example be our info command *Presence* a motion detector.
+A scenario is a series of defined actions that will execute at certain times of the day. The execution can be scheduled (every Monday at such time), or caused by an event. As seen above, this event can for example be our info command *Presence* a motion detector, following a detection.
 
 The goal here is not to be exhaustive but to discover the scenarios through simple examples. The [user manual documentation](/en_US/core/4.1/scenario) is much more complete.
 
 
-#### Light on motion detection.
+### Light on motion detection.
 
-/////
+Suppose we have a controlled light and a motion detector in the room.
+
+![1stScenario](images/1stScenario.gif)
+
+- Go to **Tools → Scenarios**
+- Click on *Add* then give it a name.
+- Right, in the section *Trigger*, check that the mode is in *Provoked* then click on *+ Trigger*.
+- Using the button *Choose a command* to the right of the field *Event*, select the object then the equipment and its order.
+
+The *Trigger* is what will trigger the execution of this scenario. Here, we want to trigger it when our detector detects a presence, so we will use the command `#[Bedroom][Détecteur Bedroom][Présence]# == 1`.
+
+The `#` indicate a command, then we find `[the name of its parent object]`, then `[the name of the device]`, and finally `[the name of the command]`. Here, we add `== 1` because we want the scenario to be triggered only on the detection of a presence. However on a presence detector, this detection goes back to 0 a few seconds after. This change to 0 will therefore not trigger our scenario again.
+
+- Click on the tab *Scenario* then the button at the top *Add block*. Choose a block *Action* then on this one, *Add* A *Action*. This action will be our light switching command. According to the same principle : ``#[Bedroom][Lumière Bedroom][On]#``.
+
+- Save, and your script is ready !
+
+Here we have only touched on the possibilities of the scenarios. You can add conditions (block *If / Do / Else*), delay actions (block *IN*), program them (block *At*), and even directly use php code (block *CODE*).
+
+Here we used the trigger mode *Provoked*, with an order. But you can also use (and combine) the mode *Programmed* to run a script every morning, or every hour, etc.
 
 
-#### Program of the day.
+### Program of the day.
 
-A recurring topic for Jeedom beginners, the programming of daily events like :
+A recurring topic for beginners on Jeedom, the programming of daily events like :
 
 - Turn on the coffee maker at 7 a.m. on weekdays.
 - Open the shutters at sunrise.

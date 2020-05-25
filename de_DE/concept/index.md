@@ -55,9 +55,9 @@ Diese Befehle können protokolliert werden, um diese Informationen über die Zei
 Diese Befehle können auch zum Auslösen verwendet werden [Szenarien](/de_DE/core/4.1/scenario) um Aktionen basierend auf den von Ihren Sensoren gemeldeten Informationen zu automatisieren. Ein Bewegungssensor erkennt beispielsweise eine Anwesenheit, die ein Szenario auslöst, das das Licht einschaltet.
 
 - Bestellungen *Aktion* :
-Mit diesen Befehlen können Sie Ihre Aktuatoren steuern. Zum Beispiel Befehle ``on`` und ``off`` Mit einer kontrollierten Steckdose können Sie sie ein- und ausschalten.
+Mit diesen Befehlen können Sie Ihre Aktuatoren steuern. Zum Beispiel Befehle ````on```` und ````off```` Mit einer kontrollierten Steckdose können Sie sie ein- und ausschalten.
 
-Aktionsbefehle sind normalerweise mit Info-Befehlen verknüpft. Hier hat unsere Einstellung zwei Aktionen ``on`` und ``off``, in der Regel im Zusammenhang mit Informationen **Zustand**.
+Aktionsbefehle sind normalerweise mit Info-Befehlen verknüpft. Hier hat unsere Einstellung zwei Aktionen ````on```` und ````off````, in der Regel im Zusammenhang mit Informationen **Zustand**.
 
 ![Befehle](images/concept-commands.jpg)
 
@@ -82,25 +82,42 @@ Dieses Gerät verfügt über eigene Befehle *Info* oder *Aktion*. Diese Befehle 
 
 Sie werden dann sehen, dass jedes Objekt, jede Ausrüstung, jede Bestellung viele Optionen in Bezug auf Funktionalität oder Anzeige hat. Aber alles zu seiner Zeit, jetzt sollten Sie die Grundkonzepte von Jeedom verstanden haben und somit in der Lage sein, Ihre Hausautomation zu organisieren und zu wissen, wo Sie suchen müssen.
 
-### Mein erstes Szenario
-
-*ENTWURF SEIN*
+## Mein erstes Szenario
 
 Der Vorteil der Heimautomation über die zentrale und ferngesteuerte Steuerung unserer Peripheriegeräte hinaus liegt vor allem in der Automatisierung. Das Ziel ist nicht, Stunden vor Ihrem Dashboard oder Design zu verbringen, sondern im Gegenteil, dass sich Ihre Unterkunft an Ihre Gewohnheiten anpasst und Sie vergessen lässt. Täglich mehr Fensterläden zum Öffnen und Schließen, mehr Licht zum Ein- und Ausschalten. Seien Sie gewarnt, wann Sie den Müll auf die Straße bringen müssen, wenn sich Post im Briefkasten befindet und die Heizung sich entsprechend anpasst Jahreszeiten und klimatische Bedingungen. Die Möglichkeiten sind endlos und hängen vom eigenen Lebensstil ab. Dafür gibt es die Szenarien !
 
-Ein Szenario besteht aus einer Reihe definierter Aktionen, die zu bestimmten Tageszeiten ausgeführt werden. Die Ausführung kann geplant werden (jeden Montag zu diesem Zeitpunkt) oder durch ein Ereignis verursacht werden. Wie oben gezeigt, kann dieses Ereignis beispielsweise unser Info-Befehl sein *Präsenz* ein Bewegungsmelder.
+Ein Szenario besteht aus einer Reihe definierter Aktionen, die zu bestimmten Tageszeiten ausgeführt werden. Die Ausführung kann geplant werden (jeden Montag zu diesem Zeitpunkt) oder durch ein Ereignis verursacht werden. Wie oben gezeigt, kann dieses Ereignis beispielsweise unser Info-Befehl sein *Präsenz* ein Bewegungsmelder nach einer Erkennung.
 
 Das Ziel hier ist nicht, erschöpfend zu sein, sondern die Szenarien anhand einfacher Beispiele zu entdecken. Das [Dokumentation des Benutzerhandbuchs](/de_DE/core/4.1/scenario) ist viel vollständiger.
 
 
-#### Licht bei Bewegungserkennung.
+### Licht bei Bewegungserkennung.
 
-/////
+Angenommen, wir haben ein kontrolliertes Licht und einen Bewegungsmelder im Raum.
+
+![1stScenario](images/1stScenario.gif)
+
+- Gehe zu **Werkzeuge → Szenarien**
+- Klicken Sie auf *Hinzufügen* dann gib ihm einen Namen.
+- Richtig, im Abschnitt *Veröffentlichung*, Überprüfen Sie, ob der Modus aktiviert ist *Provozierten* dann klicken Sie auf *+ Auslöser*.
+- Mit der Taste *Wählen Sie eine Bestellung* rechts vom Feld *Ereignis*, Wählen Sie das Objekt, dann das Gerät und seine Reihenfolge.
+
+Die *Auslöser* ist das, was die Ausführung dieses Szenarios auslöst. Hier möchten wir es auslösen, wenn unser Detektor eine Anwesenheit erkennt, also werden wir den Befehl `verwenden#[Schlafzimmer][Détecteur Schlafzimmer][Présence]# == 1`.
+
+Das "#" gibt einen Befehl an, dann gibt es "[den Namen des übergeordneten Objekts]", dann "[den Namen des Geräts]" und schließlich "[den Namen des Befehls]". Hier fügen wir `== 1` hinzu, da das Szenario nur bei der Anwesenheitserkennung ausgelöst werden soll. Bei einem Anwesenheitsdetektor wird diese Erkennung jedoch einige Sekunden später auf 0 zurückgesetzt. Diese Änderung auf 0 wird daher unser Szenario nicht erneut auslösen.
+
+- Klicken Sie auf die Registerkarte *Szenario* dann die Schaltfläche oben *Block hinzufügen*. Wähle einen Block *Aktion* dann auf diesem, *Hinzufügen* Ein *Aktion*. Diese Aktion wird unser Lichtschaltbefehl sein. Nach dem gleichen Prinzip : ``#[Schlafzimmer][Lumière Schlafzimmer][On]#``.
+
+- Speichern Sie und Ihr Skript ist fertig !
+
+Hier haben wir nur die Möglichkeiten der Szenarien angesprochen. Sie können Bedingungen hinzufügen (blockieren *If / Then / Oder*), Verzögerungsaktionen (Block *IN*), programmiere sie (block *Bis*), und sogar direkt PHP-Code verwenden (Block *Code*).
+
+Hier haben wir den Trigger-Modus verwendet *Provozierten*, mit einer Bestellung. Sie können den Modus aber auch verwenden (und kombinieren) *Programmiert* jeden Morgen oder jede Stunde ein Skript ausführen usw.
 
 
-#### Programm des Tages.
+### Programm des Tages.
 
-Ein wiederkehrendes Thema für Jeedom-Anfänger, die Programmierung von täglichen Veranstaltungen wie :
+Ein wiederkehrendes Thema für Anfänger auf Jeedom, die Programmierung von täglichen Veranstaltungen wie :
 
 - Schalten Sie die Kaffeemaschine an Wochentagen um 7 Uhr morgens ein.
 - Öffnen Sie die Fensterläden bei Sonnenaufgang.
