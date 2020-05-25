@@ -65,7 +65,7 @@
         "Plugin pour utiliser le RFXcom USB": "Plugin zur Verwendung des RFXcom USB",
         "Car la philosophie du plugin ayant changé et les ids aussi, il faudra réinclure vos devices sur ce nouveau plugin": "Da sich die Philosophie des Plugins geändert hat und auch die IDs, müssen Sie Ihre Geräte in dieses neue Plugin aufnehmen",
         "Plugin ajoutant le support de la clé RfPlayer de Ziblue à Jeedom": "Plugin, das Unterstützung für den RfPlayer-Schlüssel von Ziblue zu Jeedom hinzufügt",
-        "Plugin permettant la gestion du protocol Z-Wave": "Plugin zur Verwaltung des Z-Wave-Protokolls",
+        "Plugin pour contrôler les équipements ZWave via une clé ZWave compatible openZwave": "Plugin zur Steuerung von ZWave-Geräten über einen openWave-kompatiblen ZWave-Schlüssel",
         "compatible De nombreux modules seront rajoutés rapidement et en continue Nous vous conseillons de migrer avec precaution": "kompatibel Viele Module werden schnell und kontinuierlich hinzugefügt. Wir empfehlen Ihnen, sorgfältig zu migrieren",
         "Permet de gérer le protocole MyHome Bus": "Ermöglicht die Verwaltung des MyHome Bus-Protokolls",
         "IPX 800 v4": "IPX 800 v4",
