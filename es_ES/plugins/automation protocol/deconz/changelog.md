@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 25/05/2020
+
+- Corrección de una inquietud sobre el tipo genérico de luces de color (es aconsejable corregir el tipo genérico para el comando del tipo de acción de color; de lo contrario, esto puede causar problemas en Alexa o Google home, luz que se apaga durante la solicitud ON)
+
 # 12/05/2020
 
 - Adición de un reinicio automático de la conexión a deconz en caso de pérdida
@@ -24,7 +28,7 @@
 # 12/24/2019
 
 - Adición de dispositivos de advertencia y tipos de alarma ZHA
-- Soporte de la tienda Ikea (beta)
+- Soporte para tiendas ikea (beta)
 - Problemas resueltos con la búsqueda de firmware para la clave
 
 # 11/15/2019
@@ -92,7 +96,7 @@
 - Soporte para módulos de doble relé
 - Soporte mejorado para módulos de sensores y actuadores
 
-Atención, detectamos casos en los que hubo duplicación de pedidos (si lo cumple, no dude en ponerse en contacto con el soporte)
+Atención, hemos detectado casos en los que hubo duplicación de pedidos (si lo cumple, no dude en ponerse en contacto con el soporte)
 
 # 07/08/2019
 

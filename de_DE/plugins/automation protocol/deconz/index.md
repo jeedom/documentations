@@ -1,6 +1,6 @@
 # Deconz Plugin
 
-Mit diesem Plugin können Sie über einen Conbee-Schlüssel (1 oder 2) das Dekonz-Tool steuern, mit dem Sie ZigBee (Xiaomi-Modul, Philips-Farbton, Ikea ...) ausführen können.
+Mit diesem Plugin können Sie über einen Conbee-Schlüssel (1 oder 2) das Dekonz-Tool steuern, mit dem Sie Zigbee (Xiaomi-Modul, Philips-Farbton, Ikea) ausführen können...).
 
 Dieses Plugin ist vollständig Cloud-frei, stellt also keine Kommunikation nach außen (Drittanbieter-Server) her und funktioniert zu 100% lokal !!!!
 
@@ -16,7 +16,7 @@ Achtung, der Zigbee funktioniert überhaupt nicht wie der Zwave, die Liste der e
 
 >**Wichtig**
 >
-> Das Plugin ist nicht kompatibel mit einer 32-Bit-Architektur (alte Hardware). Das Modul ist mit allen Raspberry Pi kompatibel
+> Das Plugin ist nicht mit einer 32-Bit-Architektur (alte Hardware) kompatibel). Das Modul ist mit allen Raspberry Pi kompatibel
 
 >**Wichtig**
 >
@@ -73,7 +73,7 @@ Hier finden Sie die wichtigsten Informationen Ihrer Deconz-Netzwerke (insbesonde
 Dort wirst du in der Lage sein :
 
 - Aktualisieren Sie die Firmware (funktioniert nur, wenn kein anderer USB-Stick an das Gerät angeschlossen ist)
-- Führen Sie einen Reset durch (Vorsicht, es muss alles neu zugeordnet werden)
+- Führen Sie einen Reset durch (Vorsicht, es ist erforderlich, alles neu zuzuordnen)
 - Ändern Sie die Quelle des Firmware-Updates (es wird nicht empfohlen, es zu berühren)
 - Kanal wechseln
 
@@ -93,7 +93,7 @@ Um das Modul in den Einschlussmodus zu schalten, müssen Sie die Dokumentation f
 
 >**Wichtig**
 >
-> Das ZigBee-Netzwerk unterscheidet sich stark vom Zwave-Netzwerk. Das ZigBee-Netzwerk kann einen Repeater durchlaufen, dies muss jedoch bei der Aufnahme der Fall sein. Es ist daher während der Aufnahme des Moduls erforderlich, dies so nah wie möglich am Schlüssel zu tun, wenn die Kommunikation nicht über einen Repeater erfolgen soll (achten Sie darauf, dass maximal 32 Module auf dem Conbee-Schlüssel leben können).Oder so nah wie möglich am Repeater (jedes angetriebene Modul kann ein Repeater sein).
+> Das ZigBee-Netzwerk unterscheidet sich stark vom Zwave-Netzwerk. Das ZigBee-Netzwerk kann einen Repeater durchlaufen, dies muss jedoch bei der Aufnahme der Fall sein. Wenn Sie das Modul einschließen, ist es daher erforderlich, dies so nah wie möglich am Schlüssel zu tun, wenn die Kommunikation nicht über einen Repeater erfolgen soll (achten Sie darauf, dass maximal 32 Module auf dem Conbee-Schlüssel leben können).Oder so nah wie möglich am Repeater (jedes angetriebene Modul kann ein Repeater sein).
 
 # Synchronisation
 
@@ -107,14 +107,14 @@ Auf der ersten Registerkarte finden Sie die gesamte Konfiguration Ihrer Geräte 
 - Übergeordnetes Objekt : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
 - Aktivieren : macht Ihre Ausrüstung aktiv,
 - Sichtbar : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar.
-- Eine Konfigurationsschaltfläche, die Ihnen je nach Modul die möglichen Optionen bietet (seien Sie vorsichtig, hier zeigt Jeedom die Optionen an, wie sie das Modul bietet. Manchmal ist dies je nach Modul nicht sehr sinnvoll.)
+- Eine Konfigurationsschaltfläche, die Ihnen je nach Modul die möglichen Optionen bietet (seien Sie vorsichtig, hier zeigt Jeedom die Optionen an, wie sie das Modul manchmal bietet. Je nach Modul ist dies nicht sehr sinnvoll)
 - Allgemeine Informationen zum Modul
 - die Wahl der visuellen
 
 >**Wichtig**
 >
 > Hier ist die Auftragsverwaltung überhaupt nicht wie die zwave. Beim Einfügen eines Moduls gibt es mehrere mögliche Fälle :
-> - Das Modul hat eine bestimmte Konfiguration : In diesem Fall haben Sie die visuelle Darstellung des Moduls sowie eine angepasste Konfiguration (dies ist selten der Fall, da dies im Zickzack erforderlich sein kann)
+> - Das Modul hat eine bestimmte Konfiguration : In diesem Fall haben Sie das Bild des Moduls sowie eine angepasste Konfiguration (dies ist selten der Fall, da dies im Zickzack erforderlich sein kann)
 > - Das Modul hat je nach Typ eine generische Konfiguration  : Sie haben eine allgemeine Grafik und die Befehle, die den Modultypen entsprechen (dies ist der häufigste Fall)
 > - Modul und Typen sind aus jeedom unbekannt : In diesem Fall müssen Sie eine Support-Anfrage öffnen, um sie beim nächsten Plugin-Update hinzuzufügen
 
@@ -153,10 +153,10 @@ sudo GCFFlasher_internal -d 0 -f deCONZ_Rpi_0x26300500.bin.GCF
 
 >**Mein RPI (4) sieht den Dekonz-Schlüssel nicht**
 >
->Sie müssen die Key-Firmware mit einem anderen System (Windows) aktualisieren
+>Sie müssen die Key-Firmware mit einem anderen System (Windows) aktualisieren)
 
 >**Es gelingt mir, meine Ausrüstung zu kontrollieren, aber ich habe kein Feedback zu Informationsbestellungen**
 >
->Dies ist wahrscheinlich auf ein Problem mit Zeitzonen zurückzuführen (deconz ist sehr wählerisch). Du musst :
->- Überprüfen Sie in &quot;Deconz Networks&quot;, ob die Zeitzone und die Zeit korrekt sind. Wenn nicht, können Sie sie entweder in deconz konfigurieren oder das Kontrollkästchen &quot;Zeitzonen&quot; auf dem Gateway in der Konfiguration des deconz-Plugins aktivieren (wenn Sie diese letzte Methode ausführen, müssen Sie dies tun 1 Stunde warten, bevor die Korrektur wirksam wird)
+>Dies ist wahrscheinlich auf ein Problem mit Zeitzonen zurückzuführen (deconz ist oben sehr wählerisch). Du musst :
+>- Überprüfen Sie in "Deconz Networks", ob die Zeitzone und die Zeit korrekt sind. Wenn nicht, können Sie sie entweder in deconz konfigurieren oder das Kontrollkästchen "Zeitzonen" auf dem Gateway in der Konfiguration des deconz-Plugins aktivieren (wenn Sie diese letzte Methode ausführen, müssen Sie dies tun Warten Sie 1 Stunde, bevor die Korrektur wirksam wird)
 >- Überprüfen Sie die Zeitzone Ihres Betriebssystems (insbesondere auf dem RPI), die unbedingt gut sein muss

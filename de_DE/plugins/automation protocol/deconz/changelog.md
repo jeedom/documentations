@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 25.05.2020
+
+- Korrektur eines Problems bezüglich des generischen Farbtyps (es ist ratsam, den generischen Typ für den Befehl des Farbtyps zu korrigieren, da dies sonst zu Problemen in Alexa oder Google Home führen kann, wenn das Licht während der EIN-Anforderung erlischt)
+
 # 05/12/2020
 
 - Hinzufügen eines automatischen Neustarts der Verbindung zu deconz im Falle eines Verlusts
@@ -24,7 +28,7 @@
 # 2019.12.24
 
 - Hinzufügen von Warngeräte- und ZHAAlarm-Typen
-- Ikea Store Support (Beta)
+- Unterstützung für Ikea Stores (Beta)
 - Probleme beim Finden der Firmware für den Schlüssel behoben
 
 # 2019.11.15
@@ -37,7 +41,7 @@
 
 # 2019.08.11
 
-- Aktualisierung des Dokuments (Hinzufügung der Deaktivierung der Seriennummer auf RPI, andernfalls ist der Dämon instabil)
+- Aktualisierung des Dokuments (Hinzufügung der Deaktivierung der Seriennummer im RPI, andernfalls ist der Dämon instabil)
 - Verbesserung der Ventilunterstützung
 
 # 2019.03.11
@@ -67,11 +71,11 @@
 # 2019.09.09
 
 - Korrektur eines Fehlers auf der Protokollebene von deconz in der lokalen Installation
-- Update der lokalen Version von deconz auf 2.5.69 (Achten Sie darauf, dass in der Plugin-Konfiguration die Installation von Deconz neu gestartet und der Dämon dann neu gestartet wird.)
+- Update der lokalen Version von deconz auf 2.5.69 (Achten Sie darauf, dass es in der Plugin-Konfiguration die Installation von Deconz neu startet und starten Sie dann den Dämon neu)
 
 # 2019.08.28
 
-- Update der lokalen Version von deconz auf 2.5.67 (Achten Sie darauf, dass in der Plugin-Konfiguration die Installation von Deconz neu gestartet wird.)
+- Update der lokalen Version von deconz auf 2.5.67 (Achten Sie darauf, dass in der Plugin-Konfiguration die Installation von Deconz neu gestartet wird)
 
 # 2019.08.13
 

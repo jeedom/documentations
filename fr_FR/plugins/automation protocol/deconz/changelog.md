@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 25/05/2020
+
+- Correction d'un soucis sur les generiques type des lumieres couleur (il est conseillé de corriger le type generique pour la commande de type action couleur sinon cela peut causer des soucis dans Alexa ou Google home, lumiere qui s'eteint lors de la demande ON)
+
 # 12/05/2020
 
 - Ajout d'une relance automatique de la connexion à deconz en cas de perte

@@ -1,6 +1,6 @@
 # Deconz plugin
 
-This plugin allows, via a conbee key (1 or 2), to control the deconz tool which allows zigbee (xiaomi module, philips hue, ikea ...).
+This plugin allows, via a conbee key (1 or 2), to control the deconz tool which allows you to zigbee (xiaomi module, philips hue, ikea...).
 
 This plugin is completely cloudless, so it makes no communication to the outside (third party server) and functions 100% locally !!!!
 
@@ -16,7 +16,7 @@ Attention the Zigbee does not work at all like the Zwave, the list of modules in
 
 >**Important**
 >
-> The plugin is not compatible with a 32bit architecture (old hardware). The module is compatible with all Raspberry Pi
+> The plugin is not compatible with a 32-bit architecture (old hardware). The module is compatible with all Raspberry Pi
 
 >**Important**
 >
@@ -38,7 +38,7 @@ Here you find the list of deconz compatible modules [here](https://phoscon.de/en
 
 The plugin supports several deconz gateways (1 conbee key per gateway). A conbee gateway can be installed on :
 
-- jeedom itself (smart, rpi and x64_86 supported)
+- jeedom himself (smart, rpi and x64_86 supported)
 - a remote rpi
 - or any other card compatible with deconz.
 
@@ -73,7 +73,7 @@ Here you will find the main information of your deconz networks (in particular t
 There you will be able :
 
 - update the firmware (only works if there is no other USB key connected to the machine)
-- do a reset (beware it requires reassociating everything)
+- do a reset (beware it requires re-associating everything)
 - change the source of firmware update (it is not recommended to touch it)
 - change the channel
 
@@ -93,7 +93,7 @@ To switch the module to inclusion mode, you must go to the documentation for the
 
 >**Important**
 >
-> The Zigbee network is very different from the Zwave network, the zigbee can go through a repeater but it must be the case from the inclusion. It is therefore necessary during the inclusion of the module to do so as close to the key as possible if you do not want the communication to go through a repeater (be careful you can have a maximum of 32 modules live on the conbee key).Or as close as possible to the repeater (any powered module can be a repeater).
+> The Zigbee network is very different from the Zwave network, the zigbee can go through a repeater but it must be the case from the inclusion. It is therefore necessary when including the module to do so as close as possible to the key if you do not want the communication to go through a repeater (be careful you can have a maximum of 32 modules live on the conbee key).Or as close as possible to the repeater (any powered module can be a repeater).
 
 # Synchronisation
 
@@ -107,7 +107,7 @@ You will find in the first tab all the configuration of your equipment :
 - Parent object : indicates the parent object to which the equipment belongs,
 - Activate : makes your equipment active,
 - Visible : makes your equipment visible on the dashboard.
-- A configuration button which, depending on the module, will offer you the possible options (be careful here Jeedom will display the options such as the module offers them sometimes it doesn&#39;t make much sense depending on the module)
+- A configuration button which, depending on the module, will offer you the possible options (be careful here Jeedom will display the options such as the module offers them sometimes, it doesn't make much sense depending on the module)
 - general information about the module
 - the choice of visual
 
@@ -153,10 +153,10 @@ sudo GCFFlasher_internal -d 0 -f deCONZ_Rpi_0x26300500.bin.GCF
 
 >**My rpi (4) does not see the deconz key**
 >
->You must update the key firmware using another system (windows)
+>You have to update the key firmware using another system (windows)
 
 >**I manage to control my equipment but I have no feedback on information orders**
 >
->This is probably due to a problem with time zones (deconz is very picky about it). It is necessary :
->- check in &quot;Deconz Networks&quot; that the timezone and time are correct if not you can either configure it in deconz or check the &quot;Time zones&quot; box on the gateway in the configuration of the deconz plugin (if you do this last method you must wait 1 hour before the correction is effective)
+>This is probably due to a problem with time zones (deconz is very picky above). It is necessary :
+>- check in "Deconz Networks" that the timezone and the time are correct if not you can either configure it in deconz or check the "Time zones" box on the gateway in the configuration of the deconz plugin (if you do this last method you must wait 1 hour before the correction is effective)
 >- check the time zone of your OS (especially on the rpi) which must absolutely be good

@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 05/25/2020
+
+- Correction of a concern on the generic type of color lights (it is advisable to correct the generic type for the command of color action type otherwise this may cause problems in Alexa or Google home, light which goes out during the ON request)
+
 # 05/12/2020
 
 - Addition of an automatic restart of the connection to deconz in case of loss
@@ -24,7 +28,7 @@
 # 12/24/2019
 
 - Addition of Warning device and ZHAAlarm types
-- Ikea store support (beta)
+- Support for ikea stores (beta)
 - Fixed issues with finding firmware for the key
 
 # 11/15/2019
@@ -92,7 +96,7 @@
 - Support for double relay modules
 - Improved support for sensor and actuator modules
 
-Attention we detected cases where there were duplication of orders (if you meet it do not hesitate to contact support)
+Attention we have detected cases where there were duplication of orders (if you meet it do not hesitate to contact support)
 
 # 07/08/2019
 

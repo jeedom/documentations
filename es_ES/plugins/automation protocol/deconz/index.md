@@ -1,6 +1,6 @@
 # Complemento Deconz
 
-Este complemento permite, a través de una clave de conbee (1 o 2), controlar la herramienta deconz que permite zigbee (módulo xiaomi, philips hue, ikea ...).
+Este complemento permite, a través de una tecla conbee (1 o 2), controlar la herramienta deconz que le permite zigbee (módulo xiaomi, philips hue, ikea...).
 
 Este complemento no tiene nubes, por lo que no se comunica con el exterior (servidor de terceros) y funciona 100% localmente !!!!
 
@@ -38,7 +38,7 @@ Aquí encontrará la lista de módulos compatibles con deconz [aquí](https://ph
 
 El complemento admite varias puertas de enlace deconz (1 clave de conbee por puerta de enlace). Se puede instalar una puerta de enlace conbee en :
 
-- Jeedom en sí (compatible con smart, rpi y x64_86)
+- Jeedom mismo (compatible con smart, rpi y x64_86)
 - un rpi remoto
 - o cualquier otra tarjeta compatible con deconz.
 
@@ -93,7 +93,7 @@ Para cambiar el módulo al modo de inclusión, debe ir a la documentación del m
 
 >**Importante**
 >
-> La red Zigbee es muy diferente de la red Zwave, el zigbee puede pasar por un repetidor pero debe ser el caso desde la inclusión. Por lo tanto, es necesario durante la inclusión del módulo hacerlo lo más cerca posible de la clave si no desea que la comunicación pase por un repetidor (tenga cuidado de que puede tener un máximo de 32 módulos en vivo en la clave de conbee).O lo más cerca posible del repetidor (cualquier módulo alimentado puede ser un repetidor).
+> La red Zigbee es muy diferente de la red Zwave, el zigbee puede pasar por un repetidor pero debe ser el caso desde la inclusión. Por lo tanto, es necesario cuando se incluye el módulo para hacerlo lo más cerca posible de la tecla si no desea que la comunicación pase por un repetidor (tenga cuidado de que puede tener un máximo de 32 módulos en vivo en la tecla de conbee)).O lo más cerca posible del repetidor (cualquier módulo alimentado puede ser un repetidor).
 
 # Synchronisation
 
@@ -157,6 +157,6 @@ sudo GCFFlasher_internal -d 0 -f deCONZ_Rpi_0x26300500.bin.GCF
 
 >**Me las arreglo para controlar mi equipo pero no tengo comentarios sobre pedidos de información**
 >
->Esto probablemente se deba a un problema con las zonas horarias (deconz es muy exigente al respecto). Hay que :
->- marque en &quot;Deconz Networks&quot; que la zona horaria y la hora son correctas, si no puede configurarlo en deconz o marque la casilla &quot;Zonas horarias&quot; en la puerta de enlace en la configuración del complemento deconz (si hace este último método, debe espere 1 hora antes de que la corrección sea efectiva)
+>Esto probablemente se deba a un problema con las zonas horarias (la descontaminación es muy exigente arriba)). Hay que :
+>- marque en "Deconz Networks" que la zona horaria y la hora son correctas, si no puede configurarlo en deconz o marque la casilla "Zonas horarias" en la puerta de enlace en la configuración del complemento deconz (si hace este último método debe espere 1 hora antes de que la corrección sea efectiva)
 >- compruebe la zona horaria de su sistema operativo (especialmente en el rpi) que debe ser absolutamente bueno

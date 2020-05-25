@@ -1,10 +1,10 @@
 # Deconz plugin
 
-Este plugin permite, através de uma tecla conbee (1 ou 2), controlar a ferramenta deconz que permite zigbee (módulo xiaomi, philips hue, ikea ...).
+Este plugin permite, através de uma tecla conbee (1 ou 2), controlar a ferramenta deconz que permite zigbee (módulo xiaomi, philips hue, ikea...).
 
 Este plug-in é completamente sem nuvens, por isso não faz comunicação com o exterior (servidor de terceiros) e funciona 100% localmente !!!!
 
-Atenção, o Zigbee não funciona como o Zwave, a lista de módulos incluídos não é salva na chave (nada é salvo na chave). Portanto, é fácil substituir a chave (por backup / restauração, o backup pode ser recuperado do jeedom, mas não restaurado do jeedom, é necessário que a restauração passe pelo Deconz, se você estiver em uma instalação local, é IP_JEEDOM:8484). Por contras, no caso de mover a chave de um sistema para outro, também é necessário fazer um backup / restauração.
+Atenção, o Zigbee não funciona como o Zwave, a lista de módulos incluídos não é salva na chave (nada é salvo na chave)). Portanto, é fácil substituir a chave (por backup / restauração, o backup pode ser recuperado do jeedom, mas não restaurado do jeedom, é necessário que a restauração passe pelo Deconz, se você estiver em uma instalação local, é IP_JEEDOM:8484). Por contras, no caso de mover a chave de um sistema para outro, também é necessário fazer um backup / restauração.
 
 >**IMPORTANTE**
 >
@@ -20,7 +20,7 @@ Atenção, o Zigbee não funciona como o Zwave, a lista de módulos incluídos n
 
 >**IMPORTANTE**
 >
-> No RPI, você deve desativar as opções seriais para que a chave conbee funcione corretamente (isso acontece no ssh no raspi-config)
+> No RPI, é necessário desativar as opções seriais para que a chave conbee funcione corretamente (isso acontece no ssh no raspi-config)
 
 # Módulo compatível
 
@@ -38,7 +38,7 @@ Aqui você encontra a lista de módulos compatíveis com deconz [aqui](https://p
 
 O plug-in suporta vários gateways deconz (1 chave de conexão por gateway). Um gateway conbee pode ser instalado em :
 
-- jeedom propriamente dito (smart, rpi e x64_86 suportado)
+- o próprio jeedom (smart, rpi e x64_86 suportado)
 - um rpi remoto
 - ou qualquer outro cartão compatível com deconz.
 
@@ -73,8 +73,8 @@ Aqui você encontrará as principais informações de suas redes deconz (em part
 Lá você poderá :
 
 - atualizar o firmware (só funciona se não houver outra chave USB conectada à máquina)
-- redefinir (cuidado, é necessário reassociar tudo)
-- alterar a fonte de atualização do firmware (não é recomendável tocá-lo)
+- redefinir (cuidado, é necessário associar novamente tudo)
+- alterar a fonte da atualização do firmware (não é recomendável tocá-lo)
 - mudar de canal
 
 ## Noeuds
@@ -93,7 +93,7 @@ Para alternar o módulo para o modo de inclusão, você deve ir para a documenta
 
 >**IMPORTANTE**
 >
-> A rede Zigbee é muito diferente da rede Zwave, o zigbee pode passar por um repetidor, mas deve ser o caso da inclusão. Portanto, durante a inclusão do módulo é necessário fazê-lo o mais próximo possível da chave, se você não deseja que a comunicação passe por um repetidor (tenha cuidado, você pode ter no máximo 32 módulos ativos na tecla de conexão).Ou o mais próximo possível do repetidor (qualquer módulo energizado pode ser um repetidor).
+> A rede Zigbee é muito diferente da rede Zwave, o zigbee pode passar por um repetidor, mas deve ser o caso da inclusão. Portanto, durante a inclusão do módulo, é necessário fazê-lo o mais próximo possível da chave, se você não deseja que a comunicação passe por um repetidor (tenha cuidado, você pode ter no máximo 32 módulos ativos na chave de conexão).Ou o mais próximo possível do repetidor (qualquer módulo energizado pode ser um repetidor).
 
 # Synchronisation
 
@@ -107,7 +107,7 @@ Você encontrará na primeira aba toda a configuração do seu equipamento :
 - Objeto pai : indica o objeto pai ao qual o equipamento pertence,
 - Ativar : torna seu equipamento ativo,
 - Visivél : torna seu equipamento visível no painel.
-- Um botão de configuração que, dependendo do módulo, oferecerá as opções possíveis (tenha cuidado aqui, o Jeedom exibirá as opções que o módulo as oferece, às vezes não faz muito sentido, dependendo do módulo)
+- Um botão de configuração que, dependendo do módulo, oferecerá as opções possíveis (tenha cuidado aqui, o Jeedom exibirá as opções que o módulo lhes oferece, às vezes não faz muito sentido, dependendo do módulo)
 - informações gerais sobre o módulo
 - a escolha do visual
 
@@ -153,10 +153,10 @@ sudo GCFFlasher_internal -d 0 -f deCONZ_Rpi_0x26300500.bin.GCF
 
 >**Meu rpi (4) não vê a tecla deconz**
 >
->Você deve atualizar o firmware principal usando outro sistema (windows)
+>Você precisa atualizar o firmware principal usando outro sistema (Windows)
 
 >**Consigo controlar meu equipamento, mas não tenho feedback sobre pedidos de informações**
 >
->Provavelmente, isso se deve a um problema com fusos horários (deconz é muito exigente). Você deve :
+>Provavelmente, isso se deve a um problema com fusos horários (o deconz é muito exigente acima). Você deve :
 >- verifique em "Deconz Networks" se o fuso horário e a hora estão corretos, caso contrário, você pode configurá-lo em deconz ou marque a caixa "Fusos horários" no gateway na configuração do plug-in deconz (se você fizer esse último método, deverá aguarde 1 hora antes que a correção seja efetivada)
 >- verifique o fuso horário do seu sistema operacional (especialmente no rpi) que deve ser absolutamente bom

@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 25/05/2020
+
+- Correção de uma preocupação com o tipo genérico de luzes coloridas (é recomendável corrigir o tipo genérico para o comando do tipo de ação de cores, caso contrário, isso poderá causar problemas no Alexa ou no Google home, luz que apaga durante a solicitação LIGADA)
+
 # 05/12/2020
 
 - Adição de um reinício automático da conexão ao deconz em caso de perda
@@ -24,7 +28,7 @@
 # 24/12/2019
 
 - Adição de dispositivos de aviso e tipos ZHAAlarm
-- Suporte da loja Ikea (beta)
+- Suporte para lojas ikea (beta)
 - Corrigidos problemas com a localização de firmware para a chave
 
 # 15/11/2019
@@ -37,7 +41,7 @@
 
 # 08/08/2019
 
-- Atualização do documento (adição da desativação da serial no RPI, caso contrário, o daemon é instável)
+- Atualização do documento (adição da desativação do serial no RPI, caso contrário, o daemon é instável)
 - Melhoria do suporte da válvula
 
 # 03/03/2019
@@ -67,7 +71,7 @@
 # 09/09/2019
 
 - Correção de um bug no nível de log do deconz na instalação local
-- Atualização da versão local do deconz para 2.5.69 (tenha o cuidado de tê-lo na configuração do plugin, reinicie a instalação do Deconz e, em seguida, reinicie o demônio)
+- Atualização da versão local do deconz para 2.5.69 (tenha o cuidado de tê-lo na configuração do plug-in, reinicie a instalação do Deconz e reinicie o demon, em seguida)
 
 # 28/08/2019
 
@@ -92,7 +96,7 @@
 - Suporte para módulos de relé duplo
 - Suporte aprimorado para módulos de sensores e atuadores
 
-Atenção, detectamos casos em que houve duplicação de pedidos (se você o atender, não hesite em entrar em contato com o suporte)
+Atenção, detectamos casos em que houve duplicação de pedidos (se você o encontrar, não hesite em entrar em contato com o suporte)
 
 # 07/08/2019
 
