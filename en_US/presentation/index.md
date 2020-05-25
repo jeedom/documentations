@@ -1,6 +1,6 @@
 # Presentation
 
-Jeedom is free open-source software that can be installed on any Linux system. It is based on a heart with multiple functionalities : simple and advanced scenario management, interaction with the home automation installation in text and sound, visualization of history and generation of curves and graphs, linking of all equipment and connected objects, customization of the interface...
+Jeedom is free open-source software that can be installed on any Linux system. It is based on a kernel with multiple functionalities : scenario management, interaction with the home automation system in text and sound, visualization of history and generation of curves and graphics, linking of all connected equipment and objects, customization of the interface ... Its clear interface and intuitive allows to set up a complete solution without knowledge in development.
 
 Jeedom does not require access to external servers to operate. Your entire installation is managed locally and you are therefore the only ones who have access to it to guarantee complete confidentiality.
 
@@ -40,6 +40,8 @@ The Core includes among others :
 ## Scenarios
 
 *Scenarios allow you to automate all or part of your equipment. They are built with different blocks. Conditional blocks (If Then, Otherwise), actions, programming (IN x minutes or A hhmm), loop, comment, or php code. All blocks are nestable into each other, offering endless possibilities.*
+
+[My first scenario](/en_US/concept/#tocAnchor-4)
 
 ![Page Scénario](images/doc-presentation-scenario.jpg)
 

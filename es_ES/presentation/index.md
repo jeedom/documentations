@@ -1,6 +1,6 @@
 # Presentación
 
-Jeedom es un software gratuito de código abierto que se puede instalar en cualquier sistema Linux. Se basa en un corazón con múltiples funcionalidades : gestión de escenarios simple y avanzada, interacción con la instalación de domótica en texto y sonido, visualización del historial y generación de curvas y gráficos, vinculación de todos los equipos y objetos conectados, personalización de la interfaz...
+Jeedom es un software gratuito de código abierto que se puede instalar en cualquier sistema Linux. Se basa en un núcleo con múltiples funcionalidades : gestión de escenarios, interacción con el sistema domótico en texto y sonido, visualización del historial y generación de curvas y gráficos, vinculación de todos los equipos y objetos conectados, personalización de la interfaz ... Su interfaz clara y intuitivo permite configurar una solución completa sin conocimiento en desarrollo.
 
 Jeedom no requiere acceso a servidores externos para operar. Toda su instalación se gestiona localmente y, por lo tanto, usted es el único que tiene acceso a ella para garantizar una total confidencialidad.
 
@@ -40,6 +40,8 @@ The Core incluye entre otros :
 ## Escenarios
 
 *Los escenarios le permiten automatizar todo o parte de su equipo. Están construidos con diferentes bloques. Bloques condicionales (si entonces, de lo contrario), acciones, programación (IN x minutos o A hhmm), bucle, comentario o código php. Todos los bloques se pueden encajar entre sí, ofreciendo infinitas posibilidades.*
+
+[Mi primer escenario](/es_ES/concept/#tocAnchor-4)
 
 ![Page Scénario](images/doc-presentation-scenario.jpg)
 

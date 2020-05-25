@@ -1,6 +1,6 @@
 # Präsentation
 
-Jeedom ist eine kostenlose Open-Source-Software, die auf jedem Linux-System installiert werden kann. Es basiert auf einem Herzen mit mehreren Funktionen : Einfaches und erweitertes Szenariomanagement, Interaktion mit der Installation der Hausautomation in Text und Ton, Visualisierung des Verlaufs und Generierung von Kurven und Grafiken, Verknüpfung aller angeschlossenen Geräte und Objekte, Anpassung der Benutzeroberfläche...
+Jeedom ist eine kostenlose Open-Source-Software, die auf jedem Linux-System installiert werden kann. Es basiert auf einem Kernel mit mehreren Funktionen : Szenariomanagement, Interaktion mit dem Hausautomationssystem in Text und Ton, Visualisierung des Verlaufs und Erzeugung von Kurven und Grafiken, Verknüpfung aller angeschlossenen Geräte und Objekte, Anpassung der Benutzeroberfläche ... Die übersichtliche Benutzeroberfläche und intuitiv ermöglicht die Einrichtung einer Komplettlösung ohne Kenntnisse in der Entwicklung.
 
 Jeedom benötigt für den Betrieb keinen Zugriff auf externe Server. Ihre gesamte Installation wird lokal verwaltet und Sie sind daher die einzigen, die Zugriff darauf haben, um vollständige Vertraulichkeit zu gewährleisten.
 
@@ -40,6 +40,8 @@ Der Kern umfasst unter anderem :
 ## Szenarien
 
 *Mithilfe von Szenarien können Sie Ihre Geräte ganz oder teilweise automatisieren. Sie sind mit verschiedenen Blöcken gebaut. Bedingte Blöcke (wenn dann, sonst), Aktionen, Programmierung (IN x Minuten oder A hhmm), Schleife, Kommentar oder PHP-Code. Alle Blöcke sind ineinander verschachtelbar und bieten endlose Möglichkeiten.*
+
+[Mein erstes Szenario](/de_DE/concept/#tocAnchor-4)
 
 ![Page Scénario](images/doc-presentation-scenario.jpg)
 
