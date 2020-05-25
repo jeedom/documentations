@@ -76,10 +76,35 @@ Diese Befehle sind in einer Kachel zusammengefasst, die Ihrer Ausrüstung entspr
 
 ![Befehle](images/concept-equipment.jpg)
 
-## Conclusion
-
 Unabhängig von Ihrem Gerät wird es in Form von Geräten erstellt, aus a [Plugin](/de_DE/core/4.1/plugin).
 
 Dieses Gerät verfügt über eigene Befehle *Info* oder *Aktion*. Diese Befehle werden als Widgets angezeigt, die die Gerätekachel in ihrem übergeordneten Objekt bilden.
 
 Sie werden dann sehen, dass jedes Objekt, jede Ausrüstung, jede Bestellung viele Optionen in Bezug auf Funktionalität oder Anzeige hat. Aber alles zu seiner Zeit, jetzt sollten Sie die Grundkonzepte von Jeedom verstanden haben und somit in der Lage sein, Ihre Hausautomation zu organisieren und zu wissen, wo Sie suchen müssen.
+
+### Mein erstes Szenario
+
+*ENTWURF SEIN*
+
+Der Vorteil der Heimautomation über die zentrale und ferngesteuerte Steuerung unserer Peripheriegeräte hinaus liegt vor allem in der Automatisierung. Das Ziel ist nicht, Stunden vor Ihrem Dashboard oder Design zu verbringen, sondern im Gegenteil, dass sich Ihre Unterkunft an Ihre Gewohnheiten anpasst und Sie vergessen lässt. Täglich mehr Fensterläden zum Öffnen und Schließen, mehr Licht zum Ein- und Ausschalten. Seien Sie gewarnt, wann Sie den Müll auf die Straße bringen müssen, wenn sich Post im Briefkasten befindet und die Heizung sich entsprechend anpasst Jahreszeiten und klimatische Bedingungen. Die Möglichkeiten sind endlos und hängen vom eigenen Lebensstil ab. Dafür gibt es die Szenarien !
+
+Ein Szenario besteht aus einer Reihe definierter Aktionen, die zu bestimmten Tageszeiten ausgeführt werden. Die Ausführung kann geplant werden (jeden Montag zu diesem Zeitpunkt) oder durch ein Ereignis verursacht werden. Wie oben gezeigt, kann dieses Ereignis beispielsweise unser Info-Befehl sein *Präsenz* ein Bewegungsmelder.
+
+Das Ziel hier ist nicht, erschöpfend zu sein, sondern die Szenarien anhand einfacher Beispiele zu entdecken. Das [Dokumentation des Benutzerhandbuchs](/de_DE/core/4.1/scenario) ist viel vollständiger.
+
+
+#### Licht bei Bewegungserkennung.
+
+/////
+
+
+#### Programm des Tages.
+
+Ein wiederkehrendes Thema für Jeedom-Anfänger, die Programmierung von täglichen Veranstaltungen wie :
+
+- Schalten Sie die Kaffeemaschine an Wochentagen um 7 Uhr morgens ein.
+- Öffnen Sie die Fensterläden bei Sonnenaufgang.
+- Schließen Sie die Fensterläden bei Sonnenuntergang, wenn ich nicht da bin.
+
+Für diese Art von Szenario finden Sie hier eine sehr gute Einführung : [Programm des Tages](https://kiboost.github.io/jeedom_docs/jeedomV4Tips/Tutos/ProgDuJour/de_DE/)
+

@@ -76,10 +76,35 @@ Estos comandos están agrupados en un mosaico correspondiente a su equipo. Y est
 
 ![Comandos](images/concept-equipment.jpg)
 
-## Conclusion
-
 Sea cual sea su dispositivo, se creará en forma de equipo, a partir de un [Plugin](/es_ES/core/4.1/plugin).
 
 Este dispositivo tendrá sus propios comandos *Información* o *Acción*. Estos comandos se mostrarán como widgets que forman el mosaico del equipo, en su objeto principal.
 
 Luego verá que cada Objeto, Equipo, Orden tiene muchas opciones, en términos de funcionalidad o visualización. Pero todo a su tiempo, a estas alturas ya debería haber entendido los conceptos básicos de Jeedom, y así poder comenzar a organizar su automatización del hogar sabiendo dónde buscar.
+
+### Mi primer escenario
+
+*Ser redactado*
+
+La ventaja de la automatización del hogar, más allá del control centralizado y remoto de nuestros periféricos, reside sobre todo en la automatización. El objetivo no es pasar horas frente a su Tablero o Diseño, sino que, por el contrario, su alojamiento se adapta a sus hábitos y lo hace olvidar. Más persianas para abrir y cerrar todos los días, más luz para encender y apagar, se advierte cuándo tirar la basura en la calle, cuando hay correo en el buzón, la calefacción que se adapta según estaciones y condiciones climáticas. Las posibilidades son infinitas y dependen del estilo de vida. Los escenarios están ahí para eso !
+
+Un escenario es una serie de acciones definidas que se ejecutarán en determinados momentos del día. La ejecución puede ser programada (todos los lunes a esa hora) o causada por un evento. Como se vio anteriormente, este evento puede ser, por ejemplo, nuestro comando de información *Presencia* un detector de movimiento.
+
+El objetivo aquí no es ser exhaustivo, sino descubrir los escenarios a través de ejemplos simples. los [documentación del manual de usuario](/es_ES/core/4.1/scenario) es mucho más completo.
+
+
+#### Detección de luz en movimiento.
+
+/////
+
+
+#### Programa del día.
+
+Un tema recurrente para los principiantes de Jeedom, la programación de eventos diarios como :
+
+- Encienda la cafetera a las 7 a.m. de lunes a viernes.
+- Abre las persianas al amanecer.
+- Cierra las persianas al atardecer, si no estoy allí.
+
+Para este tipo de escenario, aquí hay una muy buena introducción : [Programa del día](https://kiboost.github.io/jeedom_docs/jeedomV4Tips/Tutos/ProgDuJour/es_ES/)
+

@@ -76,10 +76,35 @@ These commands are grouped in a tile corresponding to your equipment. And this t
 
 ![Commands](images/concept-equipment.jpg)
 
-## Conclusion
-
 Whatever your device, it will be created in the form of equipment, from a [Plugin](/en_US/core/4.1/plugin).
 
 This device will have its own commands *Info* or *Action*. These commands will be displayed as Widgets forming the equipment tile, in its parent object.
 
 You will then see that each Object, Equipment, Order has many options, in terms of functionality or display. But everything in its time, by now you should have understood the basic concepts of Jeedom, and thus be able to start organizing your home automation knowing where to look.
+
+### My first scenario
+
+*ON GOING REDACTION*
+
+The advantage of home automation, beyond centralized and remote control of our peripherals, lies above all in automation. The goal is not to spend hours in front of your Dashboard or Design, but on the contrary that your accommodation adapts to your habits and makes you forget. No more shutters to open and close every day, no more light to turn on and off, be warned when to put the trash on the street, when there is mail in the mailbox, the heating that adapts according to seasons and climatic conditions. The possibilities are endless, and depend on one's lifestyle. The scenarios are there for that !
+
+A scenario is a series of defined actions that will run at certain times of the day. The execution can be scheduled (every Monday at such time), or caused by an event. As seen above, this event can for example be our info command *Presence* a motion detector.
+
+The goal here is not to be exhaustive but to discover the scenarios through simple examples. The [user manual documentation](/en_US/core/4.1/scenario) is much more complete.
+
+
+#### Light on motion detection.
+
+/////
+
+
+#### Program of the day.
+
+A recurring topic for Jeedom beginners, the programming of daily events like :
+
+- Turn on the coffee maker at 7 a.m. on weekdays.
+- Open the shutters at sunrise.
+- Close the shutters at sunset, if I'm not there.
+
+For this type of scenario, here is a very good introduction : [Program of the day](https://kiboost.github.io/jeedom_docs/jeedomV4Tips/Tutos/ProgDuJour/en_US/)
+
