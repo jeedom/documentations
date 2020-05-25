@@ -76,10 +76,35 @@ Ces commandes sont regroupées dans une tuile correspondant à votre équipement
 
 ![Commandes](images/concept-equipment.jpg)
 
-## Conclusion
-
 Quelques soit votre périphérique, il sera donc crée sous forme d'un équipement, à partir d'un [Plugin](/fr_FR/core/4.1/plugin).
 
 Ce périphérique comportera ses propres commandes *info* ou *action*. Ces commandes seront affichées sous forme de Widgets formant la tuile de l'équipement, dans son objet parent.
 
 Vous verrez ensuite que chaque Objet, Équipement, Commande possède de nombreuses options, en terme de fonctionnalités ou d'affichage. Mais chaque chose en son temps, maintenant vous devriez avoir compris les concepts de base de Jeedom, et ainsi pouvoir commencer à organiser votre domotique en sachant où regarder.
+
+### Mon premier scénario
+
+*En cours de rédaction*
+
+L’intérêt de la domotique, au delà du contrôle centralisé et à distance de nos périphériques, réside surtout dans l'automatisation. Le but n'est pas de passer des heures devant son Dashboard ou son Design, mais au contraire que votre logement s'adapte à vos habitudes et se fasse oublier. Plus de volet à ouvrir et fermer tout les jours, plus de lumière à allumer et éteindre, être prévenu quand mettre la poubelle sur la rue, quand il y a du courrier dans la boite au lettre, le chauffage qui s'adapte en fonction des saisons et des conditions climatiques. Les possibilités sont infinies, et dépendent du mode de vie de chacun. Les scénarios sont là pour çà !
+
+Un scénario est une suites d'action définies qui s’exécuteront à certains moment de la journée. L’exécution peu-être programmée (tout les Lundi à telle heure), ou provoquée par un événement. Comme vue plus haut, cet événement peut par exemple être notre commande info *Presence* d'un détecteur de mouvement.
+
+Le but ici n'est pas d'être exhaustif mais de découvrir les scénarios au travers d'exemples simples. La [documentation du manuel d'utilisation](/fr_FR/core/4.1/scenario) est beaucoup plus complète.
+
+
+#### Allumage de la lumière sur détection de mouvement.
+
+/////
+
+
+#### Programmation du jour.
+
+Un sujet récurent pour les débutants de Jeedom, la programmation d’événements journaliers comme :
+
+- Allumer la cafetière à 7h en semaine.
+- Ouvrir les volets au lever du soleil.
+- Fermer les volets au coucher du soleil, si je ne suis pas là.
+
+Pour ce type de scénario, voici une très bonne introduction : [Programmation du jour](https://kiboost.github.io/jeedom_docs/jeedomV4Tips/Tutos/ProgDuJour/fr_FR/)
+
