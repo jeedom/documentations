@@ -4,6 +4,12 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 05/25/2020
+
+- Correction of a return problem if there is a code for the order and it is bad
+- Added option to ask google for confirmation when ordering.
+- Suppression of a false error message when saving
+
 # 05/15/2020
 
 - Default activation of local home execution
@@ -35,7 +41,7 @@
 
 # 01/23/2020
 
-- Improved support for thermostats (possibility to choose any heating / cold / off control)
+- Improved support for thermostats (possibility to choose any heating / cold / off command)
 - Color temperature support
 - Preparing for synchronization support without cache
 
@@ -92,7 +98,7 @@
 
 # 02/08/2019
 
-- Support of modes on the alarm on the Jeedom side (not yet working on the Google side ...)
+- Support of modes on the alarm on the Jeedom side (not yet working on the Google side...)
 - Added inversion on shutters and blinds
 - Adding TVs (requires jeedom 3.3.x or more)
 - Addition of volume control and media command (stop, pause, play, next, previous) for the speaker type (requires jeedom 3.3.x or more)
@@ -105,10 +111,10 @@
 - Add an option to reverse the opening / closing of the shutters
 - Addition of options for the thermostat
 - Report state support
-- Support of a confirmation during an action (attention the validation mode is bugged on Google side, the walking code mode)
+- Support of a confirmation during an action (attention validation mode is bugged on Google side, code mode works)
 - Adding sensors (not yet working, no Google listed doc)
 - Adding blinds
-- Adding windows (not yet working, no doc listed on Google)
+- Adding windows (not yet working, no Google listed doc)
 - Adding doors (not yet working, no Google listed doc)
 
 # 11/25/2018
@@ -117,7 +123,7 @@
 
 # 10/04/2018
 
-- Support for the shutters (note that this is unofficial on the Google side)
+- Support of the shutters (attention it is not official on the Google side)
 
 # 07/31/2018
 

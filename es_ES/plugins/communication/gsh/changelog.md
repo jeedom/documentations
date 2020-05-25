@@ -4,6 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 25/05/2020
+
+- Corrección de un problema de devolución si hay un código para el pedido y es malo
+- Opción agregada para pedir confirmación a Google al realizar el pedido.
+- Supresión de un mensaje de error falso al guardar
+
 # 15/05/2020
 
 - Activación predeterminada de la ejecución local del hogar
@@ -35,13 +41,13 @@
 
 # 23/01/2020
 
-- Soporte mejorado para termostatos (posibilidad de elegir cualquier control de calefacción / frío / apagado)
+- Soporte mejorado para termostatos (posibilidad de elegir cualquier comando de calefacción / frío / apagado)
 - Soporte de temperatura de color
 - Preparación para el soporte de sincronización sin caché
 
 # 12/11/2019
 
-- Soporte de ventilador mejorado (solo encendido / apagado ahora)
+- Soporte de ventilador mejorado (solo encendido / apagado ahora))
 - Adición de soporte de campana
 - Actualizando el documento
 
@@ -92,7 +98,7 @@
 
 # 02/02/2019
 
-- Soporte de modos en la alarma en el lado de Jeedom (aún no funciona en el lado de Google ...)
+- Soporte de modos en la alarma en el lado de Jeedom (aún no funciona en el lado de Google...)
 - Inversión agregada en persianas y persianas
 - Agregar televisores (requiere jeedom 3.3.x o más)
 - Adición de control de volumen y comando de medios (detener, pausar, reproducir, siguiente, anterior) para el tipo de altavoz (requiere jeedom 3.3.x o más)
@@ -105,10 +111,10 @@
 - Agregue una opción para revertir la apertura / cierre de las persianas
 - Adición de opciones para el termostato
 - Informar apoyo estatal
-- Soporte de una confirmación durante una acción (atención, el modo de validación tiene errores en el lado de Google, el modo de código para caminar)
+- Soporte de una confirmación durante una acción (el modo de validación de atención tiene errores en el lado de Google, el modo de código funciona)
 - Agregar sensores (aún no funciona, no hay documentos en la lista de Google)
 - Agregar persianas
-- Agregar ventanas (aún no funciona, no hay documentos en Google)
+- Agregar ventanas (aún no funciona, no hay documentos en la lista de Google)
 - Agregar puertas (aún no funciona, no hay documentos en la lista de Google)
 
 # 25/11/2018
@@ -117,7 +123,7 @@
 
 # 10/04/2018
 
-- Soporte para las persianas (tenga en cuenta que esto no es oficial en el lado de Google)
+- Soporte de las persianas (atención no es oficial en el lado de Google)
 
 # 31/07/2018
 

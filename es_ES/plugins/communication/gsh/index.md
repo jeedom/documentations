@@ -11,7 +11,7 @@ Puede funcionar de 2 maneras :
 
 > **Importante**
 >
-> El modo en la nube requiere una suscripción a los servicios de voz (3 meses gratis al comprar el complemento). Puedes gestionar tu suscripción [aquí](https://market.jeedom.com/index.php?v=d&p=profils#services)
+> El modo en la nube requiere una suscripción a los servicios de voz (se ofrecen 3 meses al comprar el complemento). Puedes gestionar tu suscripción [aquí](https://market.jeedom.com/index.php?v=d&p=profils#services)
 
 > **Importante**
 >
@@ -31,12 +31,12 @@ Puede funcionar de 2 maneras :
 >
 > Si tiene un mensaje de error que le indica que su contraseña de usuario o no es correcta, debe :
 > - comprobar que Google Home está activo en el mercado
-> - Si este es el caso, asegúrese de sus credenciales (atención debe respetar mayúsculas / minúsculas) ?
+> - si este es el caso, asegúrese de sus identificadores (atención debe respetar mayúsculas / minúsculas)) ?
 > - si este es el caso, cambie su contraseña en el mercado y en la configuración del servicio de asistente de voz (pestaña de página de perfiles de mercado mis servicios) guarde
 
-Después de instalar el complemento, solo necesita ir a la configuración del complemento, seleccionar el modo Cloud y luego hacer clic en "Enviar" (esto enviará la información de conexión a la API del complemento en el mercado)
+Después de instalar el complemento, simplemente vaya a la configuración del complemento, seleccione el modo Cloud y luego haga clic en "Enviar" (esto enviará la información de conexión a la API del complemento en el mercado)
 
-Luego, en Jeedom in Communication / Google Smarthome debe hacer clic en Guardar para enviar su configuración inicial, necesita al menos un dispositivo en Aceptar (de lo contrario, al conectar Google Home <-> Jeedom tendrá un error)
+Luego, en Jeedom in Communication / Google Smarthome debe hacer clic en guardar para enviar su configuración inicial, necesita al menos un dispositivo en Aceptar (de lo contrario, al conectar Google Home <-> Jeedom obtendrá un error)
 
 Luego, en la aplicación de inicio de Google, debe ir a la primera pestaña y hacer clic en Agregar (el +) :
 
@@ -54,7 +54,7 @@ Luego, en la lista con el botón de búsqueda (lupa en la parte superior derecha
 
 ![gsh](./images/gsh32.png)
 
-Rellene sus identificadores de mercado (bueno, esos mercados no son los de su Jeedom).
+Ingrese sus identificadores de mercado (bueno, esos mercados no son los de su Jeedom).
 
 ![gsh](./images/gsh6.png)
 
@@ -121,7 +121,7 @@ Haga clic en "Nombra tu acción de Smart Home" :
 
 ![gsh](./images/gsh11.png)
 
-Ponga "prueba smarthome" y valide (botón Guardar en la esquina superior derecha) :
+Ponga "smarthome test" y valide (botón Guardar en la parte superior derecha) :
 
 ![gsh](./images/gsh12.png)
 
@@ -159,8 +159,8 @@ Luego complete los 4 campos de acuerdo con la página de configuración del comp
 > Los campos son :
 > - ID del cliente primero
 > - entonces el cliente secreto
-> - luego "URL de autorización" (tenga cuidado de tomar el de la sección "Smarthome")
-> - luego "Token URL" (tenga cuidado de tomar el de la sección "Smarthome")
+> - luego "URL de autorización" (tenga cuidado de tomar el de la sección "Smarthome"")
+> - luego "Token URL" (tenga cuidado de tomar el de la sección "Smarthome"")
 
 No hay nada que hacer simplemente "Siguiente" :
 
@@ -210,7 +210,7 @@ Luego en la prueba :
 
 ![gsh](./images/gsh28.png)
 
-Entonces lo necesitas en un teléfono inteligente **Androide** (no debe funcionar en un iphone) conéctese a su Jeedom por **la url externa** de este. Luego debe ir a la aplicación de inicio, luego "configurar o agregar", luego "Configurar un dispositivo" y finalmente hacer clic en "Funciona con Google" y agregarlo a su servicio creado anteriormente (comienza con [prueba])
+Entonces lo necesitas en un teléfono inteligente **Androide** (no debe funcionar en un iphone) conéctese a su Jeedom por **la url externa** de este. Luego vaya a la aplicación de inicio, luego "configure o agregue", luego "Configure un dispositivo" y finalmente haga clic en "Funciona con Google" y agregue su servicio creado anteriormente (comienza con [prueba])
 
 ## Configuración Jwt
 
@@ -220,8 +220,8 @@ Para hacer la configuración necesitas
 
 * ir [aquí](https://console.developers.google.com/iam-admin/serviceaccounts), si Google le pide que elija el proyecto (el creado justo arriba).
 * Haga clic en crear una cuenta de servicio
-  * Dale un nombre (puedes poner lo que quieras, evitar)
-  * Recupere el correo electrónico generado justo debajo para copiarlo en la configuración del complemento en Jeedom (campos : Correo del cliente (JWT))
+  * Dale un nombre (puedes poner lo que quieras, evitar )
+  * Recupere el correo electrónico generado justo debajo para copiarlo en la configuración del complemento en Jeedom (campos : Cliente de correo (JWT))
   * Haga clic en crear
   * Haga clic en continuar sin modificar nada
   * Haga clic en "Crear una clave"
@@ -244,7 +244,7 @@ En su Jeedom, vaya a Complemento -> Comunicación -> Google Smarthome y en la se
 > Para el tipo de "cámara" debe configurar absolutamente la URL de la transmisión (probamos solo el RTSP) para que funcione.
 > Tenga en cuenta que el soporte de la cámara está actualmente en versión beta y consume muchos recursos
 
-## Dispositivos
+## Equipement
 
 En el equipo puede configurar :
 
@@ -260,7 +260,7 @@ En el equipo puede configurar :
   * Configuración avanzada de equipos, permite el acceso a la configuración avanzada de comandos y, por lo tanto, a modificar tipos genéricos
   * Le permite ir directamente a la página de configuración del equipo
 
-### Tipo
+### Type
 
 Los tipos de equipos son importantes, esto le permite a Google reaccionar de acuerdo con las oraciones que dices.
 
@@ -272,8 +272,8 @@ Los tipos de equipos son importantes, esto le permite a Google reaccionar de acu
 * Termostato : admite cambio de punto de ajuste y modos (de forma limitada, Google solo autoriza ciertos nombres de modos, tenga cuidado de hacer la configuración avanzada)
 * Salida : encendido / apagado
 * Cámara : en beta, puede mostrar la transmisión en un Android TV en la red local
-* Tienda : permite abrir / cerrar una persiana (puede invertir la dirección en la configuración avanzada)
-* Persiana : abre / cierra un obturador (puede invertir la dirección en la configuración avanzada)
+* Tienda : abrir / cerrar una persiana (puede invertir la dirección en la configuración avanzada)
+* Persiana : abrir / cerrar un obturador (puede invertir la dirección en la configuración avanzada)
 * [Ventana beta] : normalmente admite el estado abierto / cerrado de una ventana (para obtener información solo si hago la pregunta en inglés de que funciona)
 * Puerta [beta] : normalmente admite el estado abierto / cerrado de una puerta (para obtener información solo si hago la pregunta en inglés de que funciona)
 * Alarma [beta] : le permite armar / desarmar la alarma (tenga cuidado de usar el término arma / desarmar para que Google realice la acción)
@@ -293,24 +293,24 @@ También puede crear escenas en la pestaña de escena, con acciones de entrada y
 
 > **Nota**
 >
-> Al guardar Jeedom solicitará automáticamente la sincronización con Google. Atención en modo independiente si tiene un error (escriba "No se encontró la entidad solicitada") intente reactivar la prueba de la aplicación ([aquí](https://console.actions.google.com)) luego haga clic nuevamente en el botón de conexión en la página de la página de configuración del complemento. También verifique la configuración (especialmente la parte oauth) de su aplicación de Google (a veces Google borra los campos)
+> Al guardar Jeedom solicitará automáticamente la sincronización con Google. Atención en modo independiente si tiene un error (escriba "No se encontró la entidad solicitada") intente reactivar la prueba de la aplicación ([aquí](https://console.actions.google.com)) luego haga clic nuevamente en el botón de conexión en la página de la página de configuración del complemento. También verifique la configuración (especialmente la parte oauth) de su aplicación de Google (a veces los campos son borrados por Google)
 
 Todo lo que tiene que hacer es asignar el equipo a las habitaciones en la aplicación Google Home
 
-# Preguntas frecuentes
+# FAQ
 
 >**No puedo hacer la asociación en modo nube ?**
 >
 > Debemos verificar que :
 > - está bien en https (si tiene un paquete de servicio, use jeeodm DNS, estos son seguros de forma predeterminada)
-> - ha activado el asistente de Google en el mercado (página de perfiles, pestaña de mis servicios y luego configuración en la sección de asistente de voz)
+> - ha activado el asistente de Google en el mercado (página de perfil, pestaña mis servicios y luego configuración en la sección de asistente de voz)
 > - se ha suscrito a la suscripción de servicios de voz y aún es válida (necesaria desde el 01/06/2019). Esto se puede ver en su página de perfiles de mercado, pestaña mis servicios
 > - es necesario en el complemento -> comunicación -> Google Smarthome selecciona el equipo "transmitir" y configura el tipo y finalmente guarda
 > - usa bien tus credenciales de mercado
 
->**Durante la asociación tengo un error (pero no en un problema de contraseña / nombre de usuario)**
+>**Durante la asociación tengo un error (pero no un problema de contraseña / nombre de usuario)**
 >
->Si tiene un error durante la asociación con Jeedom, probablemente se deba al hecho de que no agregó / transmitió equipo antes de realizar la asociación. Para corregir, vaya a Complementos -> Comunicación -> Alexa luego marcó al menos un equipo para transmitir y guardar (verifique que el equipo esté en buen estado, si está en NOK, haga clic en el NOK para ver por qué o preguntar sobre tipo genérico en libertad). Luego rehaga la asociación
+>Si tiene un error durante la asociación con Jeedom, probablemente se deba al hecho de que no agregó / transmitió equipo antes de realizar la asociación. Para corregir, vaya a Complementos -> Comunicación -> Alexa, luego marcó al menos un equipo para transmitir y guardó (verifique que el equipo esté en buen estado, si está en NOK, haga clic en NOK para ver por qué o preguntar sobre tipo genérico en libertad). Luego rehaga la asociación
 
 >**¿Cuáles son los posibles pedidos? ?**
 >
@@ -332,7 +332,7 @@ Todo lo que tiene que hacer es asignar el equipo a las habitaciones en la aplica
 >
 >Así que no te preocupes, todo está guardado, es solo una sincronización automática que no se hace. Para hacerlo, diga "Sincronizar mis dispositivos" a su asistente. Para tratar de corregir esta preocupación :
 > ir a la página siguiente [aquí](https://console.cloud.google.com/cloud-resource-manager). En esta página verá la lista de todos los proyectos, incluso los invisibles en la página de acciones de Google. Eliminar todos los proyectos no utilizados.
-> Luego, vuelva a hacer el tutorial desde el paso de configurar la clave API Homegraph (activación, generación de clave, luego disocie jeedom de su cuenta de Google y vuelva a hacer el enlace)
+> Luego, vuelva a hacer el tutorial desde el paso de configurar la clave de inicio de API (activación, generación de clave, luego disocie jeedom de su cuenta de Google y vuelva a hacer el enlace)
 
 
 >**Tiene un error de enlace o no puede actualizar el parámetro, verifique su conexión en modo nube**
@@ -349,4 +349,4 @@ Todo lo que tiene que hacer es asignar el equipo a las habitaciones en la aplica
 
 >**El demonio / dependencias están en NOK**
 >
->No importa que no se deba cuidar, no se usa en ningún caso para el funcionamiento del complemento por el momento (es útil para nosotros solo pasar la validación de Google)
+>No importa que no se deba cuidar, no se utiliza en ningún caso para el funcionamiento del complemento por el momento (es útil para nosotros solo pasar la validación de Google)

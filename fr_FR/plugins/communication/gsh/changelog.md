@@ -4,6 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 25/05/2020
+
+- Correction d'un soucis de retour si il y a un code pour la commande et que celui-ci est mauvais
+- Ajout d'une option pour demander à google une confirmation lors d'une commande.
+- Suppression d'un faux message d'erreur lors de la sauvegarde
+
 # 15/05/2020
 
 - Activation par défaut du local home execution

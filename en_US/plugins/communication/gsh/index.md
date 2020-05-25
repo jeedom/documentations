@@ -11,7 +11,7 @@ It can work in 2 ways :
 
 > **Important**
 >
-> Cloud mode requires a subscription to voice services (3 months free when purchasing the plugin). You can manage your subscription [here](https://market.jeedom.com/index.php?v=d&p=profils#services)
+> Cloud mode requires a subscription to voice services (3 months offered when purchasing the plugin). You can manage your subscription [here](https://market.jeedom.com/index.php?v=d&p=profils#services)
 
 > **Important**
 >
@@ -19,7 +19,7 @@ It can work in 2 ways :
 
 > **Important**
 >
-> The plugin does not support equipment with dual functions (2 outputs as certain zwave Fibaro module). You absolutely have to go through 2 virtual ones to break it down.
+> The plugin does not support equipment with dual functions (2 output as certain zwave Fibaro module). You absolutely have to go through 2 virtual ones to break it down.
 
 # Cloud mode
 
@@ -31,12 +31,12 @@ It can work in 2 ways :
 >
 > If you have an error message telling you that your user password or not is not correct you must :
 > - check that Google Home is active on the market
-> - if this is the case, be sure of your credentials (attention you must respect upper / lower case) ?
+> - if this is the case, be sure of your identifiers (attention you must respect upper / lower case) ?
 > - if this is the case change your password on the market and on the configuration of the voice assistant service (market profiles page tab my services) have it saved
 
-After installing the plugin, you just need to go to the configuration of the plugin, select the Cloud mode then click on "Send" (this will send the connection information to the plugin API on the market)
+After installing the plugin, simply go to the configuration of the plugin, select the Cloud mode then click on "Send" (this will send the connection information to the plugin API on the market)
 
-Then in Jeedom in Communication / Google Smarthome you must click on save to send your initial configuration, you need at least one device in OK (otherwise when connecting Google Home <-> Jeedom you will have an error)
+Then in Jeedom in Communication / Google Smarthome you must click on save to send your initial configuration, you need at least one device in OK (otherwise when connecting Google Home <-> Jeedom you will get an error)
 
 Then on the Google home application you have to go to the first tab click on Add (the +) :
 
@@ -54,7 +54,7 @@ Then in the list with the search button (magnifying glass at the top right), sea
 
 ![gsh](./images/gsh32.png)
 
-Fill it in your market identifiers (well those market not those of your Jeedom).
+Enter your market identifiers (well those market not those of your Jeedom).
 
 ![gsh](./images/gsh6.png)
 
@@ -159,8 +159,8 @@ Then fill in the 4 fields according to the plugin configuration page, then click
 > The fields are :
 > - client ID first
 > - then the secret client
-> - then "Authorization URL" (be careful to take the one from the "Smarthome" section)
-> - then "Token URL" (be careful to take the one from the "Smarthome" section)
+> - then "Authorization URL" (be careful to take the one from the "Smarthome" section")
+> - then "Token URL" (be careful to take the one from the "Smarthome" section")
 
 There is nothing to do simply "Next" :
 
@@ -220,8 +220,8 @@ To make the configuration you need
 
 * go [here](https://console.developers.google.com/iam-admin/serviceaccounts), if Google asks you to choose the project (the one created just above).
 * Click on create a service account
-  * Give it a name (you can put whatever you want, avoid)
-  * Recover the generated email just below to copy it into the configuration of the plugin on Jeedom (fields : Customer Mail (JWT))
+  * Give it a name (you can put whatever you want, avoid )
+  * Recover the generated email just below to copy it into the configuration of the plugin on Jeedom (fields : Mail client (JWT))
   * Click on create
   * Click on continue without modifying anything
   * Click on "Create a key"
@@ -244,7 +244,7 @@ On your Jeedom, go to Plugin -> Communication -> Google Smarthome and in the equ
 > For the "camera" type you must absolutely configure the URL of the stream (we tested only the RTSP) so that it works.
 > Note that camera support is currently in beta and consumes a lot of resources
 
-## Device
+## Equipement
 
 On equipment you can configure :
 
@@ -272,9 +272,9 @@ The types of equipment are important this allows Google to react according to th
 * Thermostat : support setpoint change and modes (in a limited way only certain mode names are authorized by Google, be careful to do the advanced configuration)
 * Outlet : On Off
 * Camera : in beta, can display the stream on an Android TV on the local network
-* Store : allows to open / close a blind (you can reverse the direction in the advanced configuration)
-* Shutter : opens / closes a shutter (you can reverse the direction in the advanced configuration)
-* [Beta window] : normally support the open / closed status of a window (for information only if I ask the question in English that it works)
+* Store : open / close a blind (you can reverse the direction in the advanced configuration)
+* Shutter : open / close a shutter (you can reverse the direction in the advanced configuration)
+* [Beta window] : normally supports the open / closed status of a window (for information only if I ask the question in English that it works)
 * Door [beta] : normally supports the open / closed status of a door (for information only if I ask the question in English that it works)
 * Alarm [beta] : allows you to arm / disarm the alarm (be careful you must use the term weapon / disarm for Google to do the action)
 * Lock [beta] : close / open equipment
@@ -297,13 +297,13 @@ You can also create scenes in the scene tab, with input and output actions.
 
 All you have to do is assign the equipment to the rooms in the Google Home app
 
-# Faq
+# FAQ
 
 >**I can't make the association in cloud mode ?**
 >
 > We must verify that :
 > - you are fine in https (if you have a service pack, use jeeodm DNS these are secure by default)
-> - you have activated Google assistant on the market (profiles page, my services tab then configuration in the voice assistant section)
+> - you have activated Google assistant on the market (profile page, tab my services then configuration in the voice assistant section)
 > - you have subscribed to the voice services subscription and it is still valid (necessary from 01/06/2019). This can be seen on your market profiles page, tab my services
 > - it is necessary in plugin -> communication -> Google Smarthome select "transmit" equipment and set the type and finally save
 > - use your market credentials well
@@ -332,7 +332,7 @@ All you have to do is assign the equipment to the rooms in the Google Home app
 >
 >So no worries everything is saved, it's just automatic synchronization that is not done. To make it say "Synchronize my devices" to your assistant. To try to correct this concern :
 > go to the next page [here](https://console.cloud.google.com/cloud-resource-manager). On this page you will see the list of all projects even those invisible on the google actions page. Delete all unused projects.
-> Then redo the tutorial from the step configure the API Homegraph key (activation, generation of key, then dissociate jeedom from your google account and redo the link)
+> Then redo the tutorial from the step configure the API key Homegraph (activation, generation of key, then dissociate jeedom from your google account and redo the link)
 
 
 >**You have a link error or Unable to update the parameter, check your connection in cloud mode**

@@ -4,6 +4,12 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 25/05/2020
+
+- Correção de um problema de devolução se houver um código para o pedido e estiver incorreto
+- Adicionada opção para solicitar ao Google confirmação ao fazer o pedido.
+- Supressão de uma mensagem de erro falsa ao salvar
+
 # 15/05/2020
 
 - Ativação padrão da execução local local
@@ -35,13 +41,13 @@
 
 # 23/01/2020
 
-- Suporte aprimorado para termostatos (possibilidade de escolher qualquer controle de aquecimento / frio / desligado)
+- Suporte aprimorado para termostatos (possibilidade de escolher qualquer comando de aquecimento / frio / desligado)
 - Suporte de temperatura de cor
 - Preparando o Suporte à Sincronização Sem Cache
 
 # 11/12/2019
 
-- Suporte aprimorado para os fãs (somente on / off agora)
+- Suporte aprimorado para os fãs (agora on / off apenas)
 - Adição de suporte de capô
 - Atualizando o documento
 
@@ -92,7 +98,7 @@
 
 # 08/02/2019
 
-- Suporte de modos no alarme no lado Jeedom (ainda não está funcionando no lado do Google ...)
+- Suporte de modos no alarme no lado Jeedom (ainda não está funcionando no lado do Google...)
 - Inversão adicionada em persianas e persianas
 - Adicionando TVs (requer jeedom 3.3.x ou mais)
 - Adição de controle de volume e comando de mídia (parar, pausar, reproduzir, próximo, anterior) para o tipo de alto-falante (requer jeedom 3.3.x ou mais)
@@ -105,11 +111,11 @@
 - Adicione uma opção para reverter a abertura / fechamento das persianas
 - Adição de opções para o termostato
 - Relatório de suporte ao estado
-- Suporte a uma confirmação durante uma ação (atenção: o modo de validação está com erros no lado do Google, o modo de código ambulante)
-- Adicionando sensores (ainda não está funcionando, nenhum documento listado no Google)
+- Suporte a uma confirmação durante uma ação (o modo de validação de atenção está com erros no lado do Google, o modo de código funciona)
+- Adicionando sensores (ainda não está funcionando, nenhum documento listado no Google))
 - Adicionando blinds
-- Adicionando janelas (ainda não está funcionando, nenhum documento listado no Google)
-- Adicionando portas (ainda não está funcionando, nenhum documento listado no Google)
+- Adicionando janelas (ainda não está funcionando, nenhum documento listado no Google))
+- Adicionando portas (ainda não está funcionando, nenhum documento listado no Google))
 
 # 25/11/2018
 
@@ -117,7 +123,7 @@
 
 # 10/04/2018
 
-- Suporte para as persianas (observe que isso não é oficial no lado do Google)
+- Suporte das persianas (atenção, não é oficial do lado do Google)
 
 # 31/07/2018
 

@@ -4,6 +4,12 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 25.05.2020
+
+- Korrektur eines Rückgabeproblems, wenn es einen Code für die Bestellung gibt und dieser schlecht ist
+- Option hinzugefügt, um Google bei der Bestellung um Bestätigung zu bitten.
+- Unterdrückung einer falschen Fehlermeldung beim Speichern
+
 # 15.05.2020
 
 - Standardaktivierung der lokalen Home-Ausführung
@@ -35,7 +41,7 @@
 
 # 23.01.2020
 
-- Verbesserte Unterstützung für Thermostate (Möglichkeit zur Auswahl einer Heizungs- / Kalt- / Ausschaltsteuerung)
+- Verbesserte Unterstützung für Thermostate (Möglichkeit, einen beliebigen Heiz- / Kalt- / Ausschaltbefehl zu wählen)
 - Unterstützung der Farbtemperatur
 - Vorbereiten der Synchronisierungsunterstützung ohne Cache
 
@@ -92,7 +98,7 @@
 
 # 02/08/2019
 
-- Unterstützung von Alarmmodi auf der Jeedom-Seite (funktioniert noch nicht auf der Google-Seite ...)
+- Unterstützung von Alarmmodi auf der Jeedom-Seite (funktioniert noch nicht auf der Google-Seite...)
 - Inversion an Rollläden und Jalousien hinzugefügt
 - Hinzufügen von Fernsehgeräten (erfordert Jeedom 3.3.x oder mehr)
 - Hinzufügen eines Lautstärkereglers und eines Medienbefehls (Stopp, Pause, Wiedergabe, Weiter, Zurück) für den Lautsprechertyp (erfordert Jeedom 3.3.x oder mehr)
@@ -105,10 +111,10 @@
 - Fügen Sie eine Option hinzu, um das Öffnen / Schließen der Fensterläden umzukehren
 - Hinzufügen von Optionen für den Thermostat
 - Statusunterstützung melden
-- Unterstützung einer Bestätigung während einer Aktion (Achtung, der Validierungsmodus ist auf Google-Seite fehlerhaft, der Walking-Code-Modus)
+- Unterstützung einer Bestätigung während einer Aktion (Aufmerksamkeitsüberprüfungsmodus ist auf Google-Seite fehlerhaft, Codemodus funktioniert)
 - Hinzufügen von Sensoren (funktioniert noch nicht, kein von Google gelistetes Dokument)
 - Jalousien hinzufügen
-- Hinzufügen von Fenstern (funktioniert noch nicht, kein Dokument bei Google aufgeführt)
+- Hinzufügen von Fenstern (funktioniert noch nicht, kein von Google gelistetes Dokument)
 - Hinzufügen von Türen (funktioniert noch nicht, kein von Google gelistetes Dokument)
 
 # 25.11.2008
@@ -117,7 +123,7 @@
 
 # 10/04/2018
 
-- Unterstützung für die Fensterläden (beachten Sie, dass dies auf der Google-Seite inoffiziell ist)
+- Unterstützung der Fensterläden (Aufmerksamkeit ist auf Google-Seite nicht offiziell)
 
 # 31.07.2008
 
