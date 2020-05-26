@@ -7,11 +7,11 @@ var docMenu = [
     pt_PT : "Apresentação",
     link : "/#LANG#/presentation/index"
   },{
-    fr_FR : "Concept",
-    en_US : "Concept",
-    es_ES : "Concepto",
-    de_DE : "Konzept",
-    pt_PT : "Conceito",
+    fr_FR : "Concepts",
+    en_US : "Concepts",
+    es_ES : "Conceptos",
+    de_DE : "Konzepte",
+    pt_PT : "Conceitos",
     link : "/#LANG#/concept/"
   },{
     fr_FR:'Assistance et bug',
