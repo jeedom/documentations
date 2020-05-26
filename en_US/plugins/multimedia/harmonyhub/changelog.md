@@ -1,14 +1,26 @@
-07-06-2019
-Bugfix sur dépendances NOK alors que OK
+# Changelog Harmony Hub
 
-23-05-2019
- Mise en place de la page équipement pour futur Jeedom
+>**Important**
+>
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-19-02-2019
-Cette mise à jour est une maj en liée à la mise à jour de Logitech qui réactives le XMMP. Il vous faudra recréer le fichier de conf et surtout activer dans l\'application Harmony le mode développeur activant le XMMP
-Pour information cette maj intervient le jour même du correctif de Logitech. Tout comme le moyen de contournement du 21-12-2018 qui  a permis à de nombreuses personnes d'être dépanné puisque ca marchait chez toutes les personnes qui etait sous Debian stretch (mieux que rien). Nous ne savions pas quand Logitech allait remettre le support du XMMP. Mais coup sur coup il y a eu une réaction.
+# 09-20-2019
 
+- V4 adaptation
 
-21-12-2018
+# 07-06-2019
 
-Correction en urgence lié à la maj de Logitech (provisoire pour dépanner, pensez à relancer les dépendances)
+- Bugfix on NOK dependencies while OK
+
+# 2019-05-23
+
+- Installation of the equipment page for future Jeedom
+
+# 2019-02-19
+
+This update is a major linked to the update of Logitech which reactivates the XMMP. You will have to recreate the conf file and especially activate in the Harmony application the developer mode activating the XMMP
+For information, this shift intervenes the same day as the Logitech patch. Just like the workaround of 21-12-2018 which allowed many people to be repaired since it worked for everyone who was under Debian stretch (better than nothing). We did not know when Logitech was going to release support for XMMP. But blow after blow there was a reaction.
+
+# 2018-12-21
+
+Emergency correction related to the major of Logitech (temporary to troubleshoot, remember to relaunch the dependencies)

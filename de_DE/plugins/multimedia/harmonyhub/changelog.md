@@ -1,14 +1,26 @@
-07-06-2019
-Bugfix sur dépendances NOK alors que OK
+# Changelog Harmony Hub
 
-23-05-2019
- Mise en place de la page équipement pour futur Jeedom
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-19-02-2019
-Cette mise à jour est une maj en liée à la mise à jour de Logitech qui réactives le XMMP. Il vous faudra recréer le fichier de conf et surtout activer dans l\'application Harmony le mode développeur activant le XMMP
-Pour information cette maj intervient le jour même du correctif de Logitech. Tout comme le moyen de contournement du 21-12-2018 qui  a permis à de nombreuses personnes d'être dépanné puisque ca marchait chez toutes les personnes qui etait sous Debian stretch (mieux que rien). Nous ne savions pas quand Logitech allait remettre le support du XMMP. Mais coup sur coup il y a eu une réaction.
+# 20.09.2019
 
+- V4 Anpassung
 
-21-12-2018
+# 07-06-2019
 
-Correction en urgence lié à la maj de Logitech (provisoire pour dépanner, pensez à relancer les dépendances)
+- Bugfix für NOK-Abhängigkeiten bei OK
+
+# 2019-05-23
+
+- Installation der Ausrüstungsseite für zukünftige Jeedom
+
+# 2019-02-19
+
+Dieses Update ist ein wichtiger Bestandteil des Updates von Logitech, mit dem XMMP reaktiviert wird. Sie müssen die conf-Datei neu erstellen und insbesondere in der Harmony-Anwendung den Entwicklermodus aktivieren, der das XMMP aktiviert
+Zur Information: Diese Verschiebung erfolgt am selben Tag wie der Logitech-Patch. Genau wie die Problemumgehung vom 21-12-2018, die es vielen Menschen ermöglichte, repariert zu werden, da sie für alle Personen funktionierte, die sich unter Debian-Dehnung befanden (besser als nichts)). Wir wussten nicht, wann Logitech die Unterstützung für XMMP veröffentlichen würde. Aber Schlag auf Schlag gab es eine Reaktion.
+
+# 2018-12-21
+
+Notfallkorrektur in Bezug auf den Hauptteil von Logitech (vorübergehend zur Fehlerbehebung, denken Sie daran, die Abhängigkeiten neu zu starten)

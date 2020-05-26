@@ -4,127 +4,114 @@ Harmony Hub
 Beschreibung 
 -----------
 
-Ce plugin permet de controller et de récupérer tous les dispositifs de
-son Harmony Hub.
+Dieses Plugin ermöglicht die Steuerung und Wiederherstellung aller Geräte von
+sein Harmony Hub.
 
- \
 
 ![harmonyhub icon](./images/harmonyhub_icon.png)
 
- \
 
-Ce plugin de récupérer vos activités et vos dispositifs. Et ensuite de
-pouvoir ajouter automatiquement toutes les commandes associées, pour
-pouvoir les controller via scénarios, virtuels, dashboard etc…​.
+Dieses Plugin zur Wiederherstellung Ihrer Aktivitäten und Geräte. Und dann von
+in der Lage sein, alle zugehörigen Befehle automatisch hinzuzufügen
+um sie über Szenarien, Virtuals, Dashboards usw. steuern zu können….
 
-Konfiguration
+Konfiguration 
 -------------
 
-### Configuration du plugin Harmony Hub : 
+### Konfiguration des Harmony Hub Plugins : 
 
-a.  Installation/Création
+a. Installation / Erstellung
 
-Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-l’activer comme tout plugin Jeedom.
+Um das Plugin nutzen zu können, müssen Sie herunterladen und installieren
+aktiviere es wie jedes Jeedom Plugin.
 
-Suite à cela il vous faudra lancer l’installation des dépendances :
+Danach müssen Sie mit der Installation der Abhängigkeiten beginnen :
 
- \
 
 ![dep harmony](./images/dep_harmony.jpg)
 
- \
 
-Suite à cela il vous faudra lancer la création de votre premier fichier
-de config (à faire pour prendre en compte un éventuel rajout d’activité
-ou dispositif) :
-
- \
+Danach müssen Sie mit der Erstellung Ihrer ersten Datei beginnen
+config (zu tun, um eine mögliche Hinzufügung von Aktivität zu berücksichtigen
+oder Gerät) :
+ 
 
 ![conf harmony](./images/conf_harmony.jpg)
 
- \
 
-…​
+…
 
-Les équipements 
+Die Ausrüstungen 
 ---------------
 
-### Vos dispositifs/Activités : 
+### Ihre Geräte / Aktivitäten : 
 
-a.  Création
+a. Schöpfung
 
-Afin de créer vos premiers équipemments, il faut vous rendre dans le
-menu plugin:
-
- \
+Um Ihre ersten Ausrüstungen zu erstellen, müssen Sie zum gehen
+Plugin-Menü:
 
 ![menu harmony](./images/menu_harmony.jpg)
 
- \
 
-Ensuite cliquez sur le bouton "+" pour rajouter un équipement :
+Klicken Sie dann auf die Schaltfläche "+", um Geräte hinzuzufügen :
 
- \
 
 ![harmonyhub screenshot2](./images/harmonyhub_screenshot2.jpg)
 
- \
+ 
 
-Vous arriverez sur cette page :
+Sie werden auf dieser Seite ankommen :
 
- \
+ 
 
 ![harmonyhub screenshot3](./images/harmonyhub_screenshot3.jpg)
 
- \
+ 
 
-Dans cette page vous pouvez attribuer un objet, activer et/ou rendre
-visible votre équipement.
+Auf dieser Seite können Sie ein Objekt zuweisen, aktivieren und / oder zurückgeben
+sichtbar Ihre Ausrüstung.
 
-Le menu déroulant vous permet de choisir parmis :
+Über das Dropdown-Menü können Sie auswählen :
 
--   Activités : Un équipement regroupant toutes vos activités ainsi que
-    le power off général. Et une info de l’activité en cours.
+-   Aktivitäten : Ausrüstung, die alle Ihre Aktivitäten zusammenbringt sowie
+    das allgemeine Ausschalten. Und eine Info zur aktuellen Aktivität.
 
--   Un de vos dispositifs : Un équipement regroupant toutes les
-    commandes pour un dispositif donné.
+-   Eines Ihrer Geräte : Ausrüstung, die alle zusammenbringt
+    Befehle für ein bestimmtes Gerät.
 
-Une fois choisit il vous suffit de cliquer sur sauver pour générer
-automatiquement la liste des commandes correspondantes.
+Sobald Sie ausgewählt haben, klicken Sie einfach auf Speichern, um zu generieren
+automatisch die Liste der entsprechenden Befehle.
 
- \
+ 
 
 ![harmonyhub screenshot4](./images/harmonyhub_screenshot4.jpg)
 
- \
+ 
 
-Par défaut, toutes les commandes sont en non affichées. Elles sont
-cependant toutes disponibles via scénario/ virtuel etc…​ Si vous voulez
-en afficher sur votre dashboard, il vous suffit de les réorganiser en
-glisser déposer de cliquer sur afficher. Vous pouvez ensuite en jouant
-avec les retours à la ligne, des widgets spécifiques ou les icones
-proposer vous créer votre simili télécommande.
-
- \
+Standardmäßig werden nicht alle Bestellungen angezeigt. Sie sind
+jedoch alle über Skript / virtuell etc ... Wenn Sie möchten
+Zeigen Sie sie in Ihrem Dashboard an. Sie müssen sie nur neu organisieren
+Drag Drop Klick Klick Anzeige. Sie können dann durch Spielen
+mit Zeilenumbrüchen, bestimmten Widgets oder Symbolen
+schlagen vor, dass Sie Ihre eigene Fernbedienung erstellen.
 
 ![harmonyhub screenshot5](./images/harmonyhub_screenshot5.jpg)
 ![harmonyhub screenshot6](./images/harmonyhub_screenshot6.jpg)
 
- \
 
-…​
+…
 
-Information importante
+Wichtige Informationen
 ----------------------
 
-Depuis le 19-02-2019 il faut activer une option développeur dans l'application Harmony
+Seit dem 19-02-2019 müssen Sie eine Entwickleroption in der Harmony-Anwendung aktivieren
 
-Voir ce lien de Logitech :
+Siehe diesen Logitech-Link :
 
 
 <https://community.logitech.com/s/question/0D55A00008OsX3CSAV/update-to-accessing-harmony-hubs-local-api-via-xmpp>
-FAQ 
+Faq 
 ---
 
-Avez vous affiché des commandes.
+Haben Sie Bestellungen angezeigt?.

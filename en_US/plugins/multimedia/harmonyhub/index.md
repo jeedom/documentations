@@ -1,130 +1,117 @@
 Harmony Hub 
 ===========
 
-Description
+Description 
 -----------
 
-Ce plugin permet de controller et de récupérer tous les dispositifs de
-son Harmony Hub.
+This plugin allows to control and recover all the devices of
+his Harmony Hub.
 
- \
 
 ![harmonyhub icon](./images/harmonyhub_icon.png)
 
- \
 
-Ce plugin de récupérer vos activités et vos dispositifs. Et ensuite de
-pouvoir ajouter automatiquement toutes les commandes associées, pour
-pouvoir les controller via scénarios, virtuels, dashboard etc…​.
+This plugin to recover your activities and devices. And then from
+be able to automatically add all associated commands to
+to be able to control them via scenarios, virtuals, dashboard etc….
 
-Configuration
+Setup 
 -------------
 
-### Configuration du plugin Harmony Hub : 
+### Configuration of the Harmony Hub plugin : 
 
-a. Installation/Creation
+at. Installation / Creation
 
-Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-l’activer comme tout plugin Jeedom.
+In order to use the plugin, you need to download, install and
+activate it like any Jeedom plugin.
 
-Suite à cela il vous faudra lancer l’installation des dépendances :
+After that you will have to start the installation of dependencies :
 
- \
 
 ![dep harmony](./images/dep_harmony.jpg)
 
- \
 
-Suite à cela il vous faudra lancer la création de votre premier fichier
-de config (à faire pour prendre en compte un éventuel rajout d’activité
-ou dispositif) :
-
- \
+After that you will have to start creating your first file
+config (to do to take into account a possible addition of activity
+or device) :
+ 
 
 ![conf harmony](./images/conf_harmony.jpg)
 
- \
 
-…​
+…
 
-Les équipements 
+The equipments 
 ---------------
 
-### Vos dispositifs/Activités : 
+### Your devices / Activities : 
 
-a.  Création
+at. Creation
 
-Afin de créer vos premiers équipemments, il faut vous rendre dans le
-menu plugin:
-
- \
+In order to create your first equipments, you must go to the
+plugin menu:
 
 ![menu harmony](./images/menu_harmony.jpg)
 
- \
 
-Ensuite cliquez sur le bouton "+" pour rajouter un équipement :
+Then click on the "+" button to add equipment :
 
- \
 
 ![harmonyhub screenshot2](./images/harmonyhub_screenshot2.jpg)
 
- \
+ 
 
-Vous arriverez sur cette page :
+You will arrive on this page :
 
- \
+ 
 
 ![harmonyhub screenshot3](./images/harmonyhub_screenshot3.jpg)
 
- \
+ 
 
-Dans cette page vous pouvez attribuer un objet, activer et/ou rendre
-visible votre équipement.
+In this page you can assign an object, activate and / or return
+visible your equipment.
 
-Le menu déroulant vous permet de choisir parmis :
+The drop-down menu allows you to choose from :
 
--   Activités : Un équipement regroupant toutes vos activités ainsi que
-    le power off général. Et une info de l’activité en cours.
+-   Activities : Equipment bringing together all your activities as well as
+    the general power off. And an info of the current activity.
 
--   Un de vos dispositifs : Un équipement regroupant toutes les
-    commandes pour un dispositif donné.
+-   One of your devices : Equipment bringing together all
+    commands for a given device.
 
-Une fois choisit il vous suffit de cliquer sur sauver pour générer
-automatiquement la liste des commandes correspondantes.
+Once you have chosen just click on save to generate
+automatically the list of corresponding commands.
 
- \
+ 
 
 ![harmonyhub screenshot4](./images/harmonyhub_screenshot4.jpg)
 
- \
+ 
 
-Par défaut, toutes les commandes sont en non affichées. Elles sont
-cependant toutes disponibles via scénario/ virtuel etc…​ Si vous voulez
-en afficher sur votre dashboard, il vous suffit de les réorganiser en
-glisser déposer de cliquer sur afficher. Vous pouvez ensuite en jouant
-avec les retours à la ligne, des widgets spécifiques ou les icones
-proposer vous créer votre simili télécommande.
-
- \
+By default, all orders are not displayed. They are
+however all available via script / virtual etc ... If you want
+display them on your dashboard, you just have to reorganize them into
+drag drop click click display. You can then by playing
+with line breaks, specific widgets or icons
+suggest you create your own remote control.
 
 ![harmonyhub screenshot5](./images/harmonyhub_screenshot5.jpg)
 ![harmonyhub screenshot6](./images/harmonyhub_screenshot6.jpg)
 
- \
 
-…​
+…
 
-Information importante
+Important information
 ----------------------
 
-Depuis le 19-02-2019 il faut activer une option développeur dans l'application Harmony
+Since 19-02-2019 you must activate a developer option in the Harmony application
 
-Voir ce lien de Logitech :
+See this Logitech link :
 
 
 <https://community.logitech.com/s/question/0D55A00008OsX3CSAV/update-to-accessing-harmony-hubs-local-api-via-xmpp>
-FAQ 
+Faq 
 ---
 
-Avez vous affiché des commandes.
+Did you display orders.
