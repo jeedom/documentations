@@ -20,9 +20,8 @@ yum install docker
 -   made of ``deb``
 
 ````
-apt-gand update
-apt-gand install docker
-apt-gand install docker.io
+apt-get update
+apt-get install docker.io
 ````
 
 ## Installing a Jeedom image
