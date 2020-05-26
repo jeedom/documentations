@@ -21,7 +21,6 @@ yum install docker
 
 ````
 apt-get update
-apt-get install docker
 apt-get install docker.io
 ````
 
