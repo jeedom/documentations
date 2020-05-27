@@ -24,7 +24,7 @@ Sobald Sie auf eine davon klicken, erhalten Sie :
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name de l'équipement Clink** : Name Ihrer Clink-Ausrüstung,
+-   **Name der Klirrausrüstung** : Name Ihrer Clink-Ausrüstung,
 -   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
 -   **Aktivieren** : macht Ihre Ausrüstung aktiv,
 -   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar.
@@ -51,7 +51,7 @@ Nachfolgend finden Sie die Liste der Bestellungen :
 -   **Schnittstellenfilter** : Ermöglicht das Filtern, um das Element nur in der mobilen / Desktop-Version oder auf beiden zu öffnen
 -   **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard
 -   **Test** : Wird zum Testen des Befehls verwendet,
--   **Löschen** (Zeichen -) : ermöglicht das Löschen des Befehls.
+-   **Löschen** (Schild -) : ermöglicht das Löschen des Befehls.
 
 > **Wichtig**
 >

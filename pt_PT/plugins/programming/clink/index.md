@@ -24,7 +24,7 @@ Depois de clicar em um deles, você obtém :
 
 Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nome de l'équipement Clink** : nome do seu equipamento Clink,
+-   **Nome do equipamento do tim-tim** : nome do seu equipamento Clink,
 -   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
 -   **Ativar** : torna seu equipamento ativo,
 -   **Visivél** : torna seu equipamento visível no painel.
@@ -51,7 +51,7 @@ Abaixo você encontra a lista de pedidos :
 -   **Filtro de interface** : permite filtrar para abrir o elemento apenas na versão móvel / desktop ou em ambas
 -   **Display** : permite exibir os dados no painel
 -   **Teste** : permite testar o comando,
--   **Remover** (sinal -) : permite excluir o comando.
+-   **Remover** (placa -) : permite excluir o comando.
 
 > **IMPORTANTE**
 >

@@ -24,7 +24,7 @@ Una vez que haces clic en uno de ellos, obtienes :
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nombre de l'équipement Clink** : nombre de su equipo Clink,
+-   **Clink nombre del equipo** : nombre de su equipo Clink,
 -   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
 -   **Activar** : activa su equipo,
 -   **Visible** : hace que su equipo sea visible en el tablero.

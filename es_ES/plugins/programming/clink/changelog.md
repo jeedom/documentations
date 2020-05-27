@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 26/05/2020
+
+- Correcciones de errores
+
 # 08/13/2019
 
 - Soporte para php 7.3
