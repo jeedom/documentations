@@ -56,17 +56,17 @@ By clicking on one of your equipment you arrive on the configuration page of you
 
 -   **Equipment tab** :
 -   **Name of the RFXcom device** : name of your RFXcom equipment
--   **ID** : the ID of your probe (to be changed only knowingly)
+-   **ID** : the ID of your probe (to be changed only with full knowledge of the facts))
 -   **Activate** : makes your equipment active
 -   **Visible** : makes it visible on the dashboard
 -   **Parent object** : indicates the parent object to which the equipment belongs
 -   **Category** : equipment categories (it can belong to several categories)
 -   **Do not check battery** : tells Jeedom not to alert you if the equipment sends a low battery frame (some modules do not handle this info correctly and generate false alerts)
--   **Maximum allowed delay between 2 messages (min)** : the maximum time allowed between 2 messages before Jeedom declares the equipment as a timeout".
+-   **Maximum time allowed between 2 messages (min)** : the maximum time allowed between 2 messages before Jeedom declares the equipment as a timeout".
 -   **Recover ID (battery change)** : the RFXcom has the particularity of changing the ID of the probe when changing the battery, Jeedom offers an assistant to facilitate the operation. You have to :
     -   change the battery of your probe
     -   wait for its creation of Jeedom and go to the new probe created
-    -   press the "Recover ID (change battery) button"
+    -   press the button "Recover ID (change of battery))"
     -   On the window, in the drop-down menu choose the old probe,
     -   Valider
 -   **Equipment** : allows you to define the model of your equipment (to be configured only for manual creation of equipment, in automatic Jeedom configures this field alone)
@@ -77,7 +77,7 @@ By clicking on one of your equipment you arrive on the configuration page of you
 -   **Orders Tab** :
   -   the name displayed on the dashboard
   -   type and subtype
-  -   the information key if it is an info, or the hexadecimal code to send when it is an action. The configurations allow these fields to be filled in automatically (you must create the equipment, choose the configuration then save)
+  -   the information key if it is an info, or the hexadecimal code to send when it is an action. The configurations allow these fields to be filled in automatically (you have to create the equipment, choose the configuration then save)
   -   The group allows easy management for equipment supporting the notion of group. This replaces the tag \#GROUP\# in the hexadecimal chain when executing the command
   -   "Status feedback value "and" Duration before status feedback" : allows to indicate to Jeedom that after a change on the information its value must return to Y, X min after the change. Example : in the case of a presence detector which emits only during a presence detection, it is useful to set for example 0 in value and 4 in duration, so that 4 min after a detection of movement (and s' there has been no news since) Jeedom resets the value of the information to 0 (no more movement detected)
   -   Historize : allows to historize the data
@@ -85,9 +85,9 @@ By clicking on one of your equipment you arrive on the configuration page of you
   -   Event : in the case of RFXcom this box must always be checked because you cannot interrogate an RFXcom module
   -   Unit : data unit (can be empty)
   -   min / max : data bounds (may be empty)
-  -   advanced configuration (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.)
+  -   Advanced configuration (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.))
   -   Test : Used to test the command
-  -   delete (sign -) : allows to delete the command
+  -   Delete (sign -) : allows to delete the command
 
 # Operation on RFXcom equipment
 

@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 27/05/2019
+
+- Correções de bugs
+
 # 02/10/2019
 
 - Melhoria da função de detecção de porta rfxcom

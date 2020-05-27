@@ -56,7 +56,7 @@ Al hacer clic en uno de sus equipos, llega a la página de configuración de su 
 
 -   **Pestaña del equipo** :
 -   **Nombre del dispositivo RFXcom** : nombre de su equipo RFXcom
--   **Identificación** : la ID de su sonda (se cambiará solo a sabiendas)
+-   **Identificación** : La identificación de su sonda (se debe cambiar solo con pleno conocimiento de los hechos))
 -   **Activar** : activa su equipo
 -   **Visible** : lo hace visible en el tablero
 -   **Objeto padre** : indica el objeto padre al que pertenece el equipo
@@ -66,12 +66,12 @@ Al hacer clic en uno de sus equipos, llega a la página de configuración de su 
 -   **Recuperar ID (cambio de batería)** : el RFXcom tiene la particularidad de cambiar la ID de la sonda al cambiar la batería, Jeedom ofrece un asistente para facilitar la operación. Usted debe :
     -   cambie la batería de su sonda
     -   espere su creación de Jeedom y vaya a la nueva sonda creada
-    -   presione el botón "Recuperar ID (cambiar batería)"
+    -   presione el botón "Recuperar ID (cambio de batería))"
     -   En la ventana, en el menú desplegable, elija la sonda anterior,
     -   Valider
--   **Dispositivos** : le permite definir el modelo de su equipo (que se configurará solo para la creación manual del equipo, en Jeedom automático configura este campo solo)
+-   **Dispositivos** : le permite definir el modelo de su equipo (para ser configurado solo para la creación manual de equipos, en Jeedom automático configura este campo solo)
 -   **Creación** : le da la fecha de creación del equipo
--   **Comunicación** : le da la fecha de la última comunicación con el equipo (por ejemplo, puede estar vacío en el caso de un enchufe)
+-   **Comunicación** : le da la fecha de la última comunicación con el equipo (por ejemplo, puede estar vacío en el caso de un enchufe))
 -   **Batería** : nivel de batería del equipo
 -   **Estado** : estado del equipo (puede ser tiempo de espera, por ejemplo)
 -   **Pestaña de pedidos** :
@@ -85,9 +85,9 @@ Al hacer clic en uno de sus equipos, llega a la página de configuración de su 
   -   Evento : en el caso de RFXcom, esta casilla siempre debe estar marcada porque no puede interrogar a un módulo RFXcom
   -   Unidad : unidad de datos (puede estar vacía)
   -   min / max : límites de datos (pueden estar vacíos)
-  -   configuración avanzada (ruedas con muescas pequeñas) : muestra la configuración avanzada del comando (método de registro, widget, etc.)
+  -   Configuración avanzada (ruedas pequeñas con muescas) : muestra la configuración avanzada del comando (método de registro, widget, etc.))
   -   Probar : Se usa para probar el comando
-  -   eliminar (firmar -) : permite eliminar el comando
+  -   Eliminar (firmar -) : permite eliminar el comando
 
 # Operación en equipos RFXcom
 
@@ -116,7 +116,7 @@ Haga clic en "Agregar" para agregar un módulo, asigne un nombre a su módulo y 
 Seleccione "Plug - Fault" en "Equipo", luego haga clic en "Guardar".
 
 -   Vaya a la pestaña "Pedidos""
--   Pon tu módulo / socket en modo de aprendizaje. (Haga clic en el botón de aprendizaje en su módulo / socket. Algunos enchufes no tienen un botón, simplemente desconecte el enchufe, luego vuelva a enchufarlo y durante los primeros 3 segundos después de enchufar el enchufe está en modo de aprendizaje).
+-   Pon tu módulo / socket en modo de aprendizaje. (Haga clic en el botón de aprendizaje en su módulo / socket. Algunos enchufes no tienen un botón, solo desenchufe el enchufe, luego vuelva a enchufarlo y durante los primeros 3 segundos después de enchufar el enchufe está en modo de aprendizaje).
 -   Haga clic en "Probar" un pedido.
 -   Si la conexión fue buena, puede hacer clic en "Guardar", de lo contrario puede repetir este paso.
 
@@ -159,7 +159,7 @@ Ahora puede pedir su componente Somfy RTS con Jeedom.
 >Teclas de control remoto que parecen mensaje : 0913004C410A24015970, Subtipo = ARC, Id = 400A24 ... Ejemplo "Mensajes"
 >un control remoto de 4 botones : 0913006D410A21015E70 0913006E410A22015970 0913006F410A24015970 09130070410A28015970
 >
->Para simular una presión sobre el comando (emisión), debe elegir un tipo de equipo "Lightning4 (13) Predeterminado". A continuación, agregue un comando de tipo Acción / Falla y coloque el valor "Mensaje" en el ID logístico (de tipo0913006D410A21015E70). El botón de prueba le permite verificar la operación correcta.
+>Para simular una presión sobre el comando (emisión), debe elegir un tipo de equipo "Lightning4 (13) Predeterminado". A continuación, agregue un comando de tipo Acción / Falla y coloque el valor "Mensaje" en la ID Logística (de tipo0913006D410A21015E70). El botón de prueba le permite verificar la operación correcta.
 >
 >Para la recepción, es imprescindible utilizar el comando automático generado por Jeedom (uno por tecla) con el valor Id = 400A24 en el campo ID en la parte superior izquierda, mientras se selecciona un tipo de equipo "Lightning4 (13) Predeterminado". Es la información "Pulse" que se recibe cada vez que se presiona el control remoto y, por lo tanto, permite activar eventos en Jeedom.
 
@@ -198,7 +198,7 @@ Ahora puede pedir su componente Somfy RTS con Jeedom.
 >
 >Jeedom disocia el control remoto del zócalo, con el método anterior, sus botones deben controlar el zócalo, y si rompe la asociación entre el zócalo y el control remoto, la solución de automatización del hogar ya no puede controlar el zócalo.
 >
->Bajo Jeedom es diferente : la asociación es más compleja pero ya no es necesario que el control remoto tenga botones X monopolizados por el control del zócalo. Estos botones se pueden usar para controlar un grupo de salida que mezcla varias tecnologías (Z-Wwave, Enocean y RFXcom, por ejemplo).
+>Bajo Jeedom es diferente : la asociación es más compleja pero ya no es necesario que el control remoto tenga botones X monopolizados por el control del zócalo. Estos botones se pueden usar para controlar un grupo de salida que mezcla varias tecnologías (Z-Wwave, Enocean y RFXcom por ejemplo).
 
 >**Mi conector DIO no quiere asociarse con Jeedom**
 >

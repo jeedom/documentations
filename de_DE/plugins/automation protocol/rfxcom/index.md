@@ -56,28 +56,28 @@ Wenn Sie auf eines Ihrer Geräte klicken, gelangen Sie auf die Konfigurationssei
 
 -   **Registerkarte Ausrüstung** :
 -   **Name des RFXcom-Geräts** : Name Ihres RFXcom-Geräts
--   **Identifikation** : die ID Ihrer Sonde (darf nur bei vollständiger Kenntnis der Fakten geändert werden)
+-   **Identifikation** : die ID Ihrer Sonde (nur wissentlich zu ändern))
 -   **Aktivieren** : macht Ihre Ausrüstung aktiv
 -   **Sichtbar** : macht es auf dem Dashboard sichtbar
 -   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört
 -   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören)
--   **Die Batterie nicht überprüfen** : weist Jeedom an, Sie nicht zu warnen, wenn das Gerät einen Rahmen mit schwacher Batterie sendet (einige Module verarbeiten diese Informationen nicht korrekt und generieren falsche Warnungen)
--   **Maximale Zeit zwischen 2 Nachrichten (min)** : Die maximal zulässige Zeit zwischen zwei Nachrichten, bevor Jeedom das Gerät als Zeitüberschreitung deklariert".
+-   **Die Batterie nicht überprüfen** : weist Jeedom an, Sie nicht zu warnen, wenn das Gerät einen niedrigen Batterierahmen sendet (einige Module verarbeiten diese Informationen nicht korrekt und generieren falsche Warnungen)
+-   **Maximal zulässige Zeit zwischen 2 Nachrichten (min)** : Die maximal zulässige Zeit zwischen zwei Nachrichten, bevor Jeedom das Gerät als Zeitüberschreitung deklariert".
 -   **ID wiederherstellen (Batteriewechsel)** : Das RFXcom hat die Besonderheit, die ID der Sonde beim Batteriewechsel zu ändern. Jeedom bietet einen Assistenten an, um die Bedienung zu erleichtern. Du musst :
     -   Wechseln Sie die Batterie Ihrer Sonde
     -   Warten Sie auf die Erschaffung von Jeedom und gehen Sie zu der neu erstellten Sonde
-    -   Drücken Sie die Taste "ID wiederherstellen (Batterie wechseln)""
+    -   Drücken Sie die Taste "ID wiederherstellen (Batteriewechsel))"
     -   Wählen Sie im Fenster im Dropdown-Menü die alte Sonde,
     -   Valider
--   **Gerät** : ermöglicht es Ihnen, das Modell Ihrer Ausrüstung zu definieren (nur für die manuelle Erstellung von Ausrüstung zu konfigurieren, in der automatischen Jeedom konfiguriert nur dieses Feld)
+-   **Gerät** : Mit dieser Option können Sie das Modell Ihrer Ausrüstung definieren (nur für die manuelle Erstellung von Geräten zu konfigurieren. In der automatischen Konfiguration konfiguriert Jeedom nur dieses Feld)
 -   **Schaffung** : gibt Ihnen das Erstellungsdatum der Ausrüstung an
 -   **Kommunikation** : gibt Ihnen das Datum der letzten Kommunikation mit dem Gerät an (kann beispielsweise bei einer Steckdose leer sein)
 -   **Batterie** : Batteriestand des Geräts
--   **Status** : Gerätestatus (kann zum Beispiel eine Zeitüberschreitung sein)
+-   **Status** : Gerätestatus (kann beispielsweise eine Zeitüberschreitung sein)
 -   **Registerkarte &quot;Bestellungen&quot;** :
   -   Der im Dashboard angezeigte Name
   -   Typ und Subtyp
-  -   Der Informationsschlüssel, wenn es sich um eine Information handelt, oder der Hexadezimalcode, der gesendet werden soll, wenn es sich um eine Aktion handelt. In den Konfigurationen können diese Felder automatisch ausgefüllt werden (Sie müssen das Gerät erstellen, die Konfiguration auswählen und dann speichern)
+  -   Der Informationsschlüssel, wenn es sich um eine Information handelt, oder der Hexadezimalcode, der gesendet werden soll, wenn es sich um eine Aktion handelt. Mit den Konfigurationen können diese Felder automatisch ausgefüllt werden (Sie müssen das Gerät erstellen, die Konfiguration auswählen und dann speichern)
   -   Die Gruppe ermöglicht eine einfache Verwaltung von Geräten, die den Begriff der Gruppe unterstützen. Dies ersetzt das Tag \#GROUP\# in der hexadezimalen Kette bei der Ausführung des Befehls
   -   "Statusrückmeldungswert "und" Dauer vor Statusrückmeldung" : ermöglicht es Jeedom anzuzeigen, dass nach einer Änderung der Informationen der Wert auf Y, X min nach der Änderung zurückkehren muss. Beispiel : Im Fall eines Anwesenheitsdetektors, der nur während einer Anwesenheitserkennung emittiert, ist es nützlich, beispielsweise 0 in Wert und 4 in Dauer einzustellen, so dass 4 min nach einer Bewegungserkennung (und s ') Seitdem gab es keine Neuigkeiten.) Jeedom setzt den Wert der Informationen auf 0 zurück (keine Bewegung mehr erkannt)
   -   Chronik : ermöglicht das Historisieren der Daten
@@ -85,9 +85,9 @@ Wenn Sie auf eines Ihrer Geräte klicken, gelangen Sie auf die Konfigurationssei
   -   Ereignis : Bei RFXcom muss dieses Kontrollkästchen immer aktiviert sein, da Sie ein RFXcom-Modul nicht abfragen können
   -   Unit : Dateneinheit (kann leer sein)
   -   min / max : Datengrenzen (können leer sein)
-  -   erweiterte Konfiguration (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.)
+  -   Erweiterte Konfiguration (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.))
   -   Test : Wird zum Testen des Befehls verwendet
-  -   löschen (unterschreiben -) : ermöglicht das Löschen des Befehls
+  -   Löschen (unterschreiben -) : ermöglicht das Löschen des Befehls
 
 # Betrieb an RFXcom-Geräten
 
@@ -116,7 +116,7 @@ Klicken Sie auf "Hinzufügen", um ein Modul hinzuzufügen, benennen Sie Ihr Modu
 Wählen Sie "Plug - Fault" unter "Equipment" und klicken Sie auf "Save"".
 
 -   Gehen Sie zur Registerkarte "Bestellungen""
--   Versetzen Sie Ihr Modul / Ihre Buchse in den Lernmodus. (Klicken Sie auf die Lernschaltfläche Ihres Moduls / Sockels. Einige Steckdosen haben keine Taste. Ziehen Sie einfach den Stecker heraus, stecken Sie ihn wieder ein und befinden Sie sich für die ersten 3 Sekunden nach dem Einstecken des Steckers im Lernmodus.
+-   Versetzen Sie Ihr Modul / Ihre Buchse in den Lernmodus. (Klicken Sie auf die Lernschaltfläche Ihres Moduls / Sockels. Einige Steckdosen haben keine Taste. Ziehen Sie einfach den Stecker ab, stecken Sie ihn wieder ein und befinden Sie sich für die ersten 3 Sekunden nach dem Einstecken des Steckers im Lernmodus).
 -   Klicken Sie auf "Test" einer Bestellung.
 -   Wenn die Verbindung gut funktioniert hat, können Sie auf "Speichern" klicken, andernfalls können Sie diesen Schritt wiederholen.
 
@@ -124,7 +124,7 @@ Ihr Modul / Socket ist jetzt mit JEEDOM verbunden. Denken Sie daran, es zu aktiv
 
 # Fügen Sie einen Somfy Store hinzu
 
-Seit der Veröffentlichung des neuen RFXcom RFXtrx433E-Moduls ist es nun möglich, seine Somfy RTS-Geräte (RFY / RFU) von Jeedom aus zu steuern. (Wer unterstützt dieses Modul über das RFXcom-Plugin)
+Seit der Veröffentlichung des neuen RFXcom RFXtrx433E-Moduls ist es nun möglich, seine Somfy RTS-Geräte (RFY / RFU) von Jeedom aus zu steuern. (Wer unterstützt dieses Modul über das RFXcom-Plugin?)
 
 Pour ajouter un nouveau périphérique, se rendre dans le menu Plugins &gt; Protocole Domotique &gt; RFXcom
 
@@ -146,7 +146,7 @@ Sie können jetzt Ihre Somfy RTS-Komponente bei Jeedom bestellen.
 
 # FAQ
 
->**Simulieren / Erkennen einer chinesischen rfxcom-Fernbedienung (nicht entschlüsselt).**
+>**Simulieren / Erkennen einer chinesischen rfxcom-Fernbedienung (nicht entschlüsselt)).**
 >
 >   **Programmierung von chinesischen Code-Fernbedienungen in Jeedom**
 >
@@ -159,7 +159,7 @@ Sie können jetzt Ihre Somfy RTS-Komponente bei Jeedom bestellen.
 >Fernbedienungstasten, die wie eine Nachricht aussehen : 0913004C410A24015970, Subtyp = ARC, Id = 400A24… Beispiel "Nachrichten"
 >eine 4-Tasten-Fernbedienung : 0913006D410A21015E70 0913006E410A22015970 0913006F410A24015970 09130070410A28015970
 >
->Um ein Drücken auf den Befehl (Emission) zu simulieren, müssen Sie einen Gerätetyp "Lightning4 (13) Default" auswählen". Fügen Sie dann einen Befehl vom Typ Aktion / Fehler hinzu und geben Sie den Wert "Nachricht" in die Protokoll-ID ein (vom Typ 0913006D410A21015E70). Mit der Testtaste können Sie den korrekten Betrieb überprüfen.
+>Um ein Drücken auf den Befehl (Emission) zu simulieren, müssen Sie einen Gerätetyp "Lightning4 (13) Default" auswählen". Fügen Sie dann einen Befehl vom Typ Aktion / Fehler hinzu und geben Sie den Wert "Nachricht" in die Protokoll-ID (Typ 0913006D410A21015E70) ein). Mit der Testtaste können Sie den korrekten Betrieb überprüfen.
 >
 >Für den Empfang muss unbedingt der von Jeedom generierte automatische Befehl (einer pro Schlüssel) mit dem Wert Id = 400A24 im ID-Feld oben links verwendet werden, während Geräte vom Typ "Lightning4 (13) Default" ausgewählt werden". Es ist die "Impuls" -Information, die jedes Mal empfangen wird, wenn die Fernbedienung gedrückt wird, und daher das Auslösen von Ereignissen in Jeedom ermöglicht.
 
@@ -198,7 +198,7 @@ Sie können jetzt Ihre Somfy RTS-Komponente bei Jeedom bestellen.
 >
 >Jeedom trennt die Fernbedienung von der Steckdose. Bei der vorherigen Methode müssen Ihre Tasten die Steckdose steuern. Wenn Sie die Zuordnung zwischen Steckdose und Fernbedienung aufheben, kann die Hausautomationslösung die Steckdose nicht mehr steuern.
 >
->Unter Jeedom ist das anders : Die Zuordnung ist komplexer, es ist jedoch nicht mehr erforderlich, dass die Fernbedienung X-Tasten durch die Steuerung der Buchse monopolisiert. Mit diesen Tasten können Sie eine Steckdosengruppe steuern, die verschiedene Technologien mischt (z. B. Z-Wwave, Enocean und RFXcom).
+>Unter Jeedom ist das anders : Die Zuordnung ist komplexer, es ist jedoch nicht mehr erforderlich, dass die Fernbedienung X-Tasten durch die Steuerung der Buchse monopolisiert. Mit diesen Tasten können Sie eine Steckdosengruppe steuern, die verschiedene Technologien mischt (z. B. Z-Wwave, Enocean und RFXcom)).
 
 >**Mein DIO-Stecker möchte sich nicht mit Jeedom verbinden**
 >

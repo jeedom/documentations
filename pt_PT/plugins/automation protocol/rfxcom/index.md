@@ -1,6 +1,6 @@
 # Plug-in RFXcom
 
-Plug-in para usar uma chave RFXcom com Jeedom. Este plug-in funciona local e remotamente (com o plug-in Jeedom Link)
+Plug-in para usar uma chave RFXcom com Jeedom. Este plugin funciona local e remotamente (com o plugin Jeedom Link)
 
 O plug-in RFXcom permite que você se comunique com todos os periféricos compatíveis com o módulo USB RFXCOM. Entre esses periféricos estão as seguintes marcas : Oregon, LaCross, Chacon, X10, DI-O, Blyss, etc.
 
@@ -56,7 +56,7 @@ Ao clicar em um dos seus equipamentos, você chega na página de configuração 
 
 -   **Guia Equipamento** :
 -   **Nome do dispositivo RFXcom** : nome do seu equipamento RFXcom
--   **ID** : o ID do seu probe (a ser alterado apenas conscientemente)
+-   **ID** : o ID do seu probe (a ser alterado apenas conscientemente))
 -   **Ativar** : torna seu equipamento ativo
 -   **Visivél** : torna visível no painel
 -   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence
@@ -66,10 +66,10 @@ Ao clicar em um dos seus equipamentos, você chega na página de configuração 
 -   **Recuperar ID (troca de bateria)** : o RFXcom tem a particularidade de alterar o ID da sonda ao trocar a bateria, a Jeedom oferece um assistente para facilitar a operação. Você deve :
     -   troque a bateria da sua sonda
     -   aguarde a criação do Jeedom e vá para a nova sonda criada
-    -   pressione o botão "Recuperar ID (trocar bateria)"
+    -   pressione o botão "Recuperar ID (troca de bateria))"
     -   Na janela, no menu suspenso, escolha a sonda antiga,
     -   Valider
--   **Equipamento** : permite definir o modelo do seu equipamento (a ser configurado apenas para criação manual de equipamentos, no Jeedom automático configura esse campo sozinho)
+-   **Equipamento** : permite definir o modelo do seu equipamento (a ser configurado apenas para a criação manual de equipamentos, no Jeedom automático configura esse campo sozinho)
 -   **Criação** : fornece a data de criação do equipamento
 -   **Comunicação** : fornece a data da última comunicação com o equipamento (pode estar vazio no caso de uma tomada, por exemplo)
 -   **Bateria** : nível de bateria do equipamento
@@ -77,17 +77,17 @@ Ao clicar em um dos seus equipamentos, você chega na página de configuração 
 -   **Guia Pedidos** :
   -   o nome exibido no painel
   -   tipo e subtipo
-  -   a chave de informações, se for uma informação, ou o código hexadecimal a ser enviado quando for uma ação. As configurações permitem que esses campos sejam preenchidos automaticamente (você deve criar o equipamento, escolher a configuração e salvar)
+  -   a chave de informações, se for uma informação, ou o código hexadecimal a ser enviado quando for uma ação. As configurações permitem que esses campos sejam preenchidos automaticamente (você precisa criar o equipamento, escolher a configuração e salvar)
   -   O grupo permite fácil gerenciamento de equipamentos que suportam a noção de grupo. Isso substitui a tag \#GROUP\# na cadeia hexadecimal ao executar o comando
-  -   "Valor do feedback do status "e" Duração antes do feedback do status" : permite indicar a Jeedom que após uma alteração nas informações, seu valor deve retornar a Y, X min após a alteração. Exemplo : no caso de um detector de presença que emite apenas durante uma detecção de presença, é útil definir, por exemplo, 0 em valor e 4 em duração, de modo que 4 minutos após a detecção de movimento (e s ' não há notícias desde então) Jeedom redefine o valor das informações para 0 (não é mais detectado movimento)
+  -   "Valor do feedback do status "e" Duração antes do feedback do status" : permite indicar a Jeedom que após uma alteração nas informações, seu valor deve retornar a Y, X min após a alteração. Exemplo : no caso de um detector de presença que emite apenas durante uma detecção de presença, é útil definir, por exemplo, 0 em valor e 4 em duração, de modo que 4 minutos após a detecção de movimento (e s ' não houve notícias desde então) Jeedom redefine o valor das informações para 0 (mais movimento detectado)
   -   Historicizar : permite historiar os dados
   -   Display : permite exibir os dados no painel
   -   Evento : no caso do RFXcom, essa caixa sempre deve ser marcada, porque você não pode interrogar um módulo do RFXcom
   -   Unidade : unidade de dados (pode estar vazia)
   -   min / max : limites de dados (podem estar vazios)
-  -   configuração avançada (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.)
+  -   Configuração avançada (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.))
   -   Teste : permite testar o comando
-  -   excluir (assinar -) : permite excluir o comando
+  -   Excluir (assinar -) : permite excluir o comando
 
 # Operação em equipamentos RFXcom
 
@@ -116,7 +116,7 @@ Clique em "Adicionar" para adicionar um módulo, nomeie seu módulo e clique em 
 Selecione "Plug - Fault" em "Equipment" e clique em "Save".
 
 -   Vá para a guia "Pedidos""
--   Coloque seu módulo / soquete no modo de aprendizado. (Clique no botão de aprendizado no seu módulo / soquete. Algumas tomadas não possuem um botão, basta desconectar o plugue e, em seguida, reconectá-lo e nos primeiros 3 segundos após o plugue estar no modo de aprendizado).
+-   Coloque seu módulo / soquete no modo de aprendizado. (Clique no botão de aprendizado no seu módulo / soquete. Algumas tomadas não possuem um botão, basta desconectar o plugue e, em seguida, reconectá-lo e nos primeiros 3 segundos após conectar o plugue no modo de aprendizado).
 -   Clique em "Testar" um pedido.
 -   Se a conexão correu bem, você pode clicar em "Salvar", caso contrário, pode repetir esta etapa.
 
@@ -146,7 +146,7 @@ Agora você pode solicitar o seu componente Somfy RTS com o Jeedom.
 
 # FAQ
 
->**Simular / reconhecer um controle remoto chinês rfxcom (não codificado).**
+>**Simule / reconheça um controle remoto chinês rfxcom (não codificado).**
 >
 >   **Programação de controles remotos de código chinês no Jeedom**
 >
@@ -159,7 +159,7 @@ Agora você pode solicitar o seu componente Somfy RTS com o Jeedom.
 >Teclas de controle remoto que se parecem com Mensagem : 0913004C410A24015970, Subtipo = ARC, Id = 400A24… Exemplo "Mensagens""
 >um controle remoto de 4 botões : 0913006D410A21015E70 0913006E410A22015970 0913006F410A24015970 09130070410A28015970
 >
->Para simular uma pressão no comando (emissão), você deve escolher um tipo de equipamento "Lightning4 (13) Padrão". Em seguida, adicione um comando do tipo Ação / Falha e insira o valor "Mensagem" no Logicial ID (do tipo0913006D410A21015E70). O botão de teste permite verificar a operação correta.
+>Para simular uma pressão no comando (emissão), você deve escolher um tipo de equipamento "Lightning4 (13) Padrão". Em seguida, adicione um comando do tipo Ação / Falha e insira o valor "Mensagem" no ID oficial (tipo0913006D410A21015E70). O botão de teste permite verificar a operação correta.
 >
 >Para recepção, é imperativo usar o comando automático gerado pelo Jeedom (um por chave) com o valor Id = 400A24 no campo ID no canto superior esquerdo, ao selecionar um tipo de equipamento "Lightning4 (13) Default". É a informação "Pulse" que é recebida toda vez que o controle remoto é pressionado e, portanto, possibilita o acionamento de eventos no Jeedom.
 
@@ -178,11 +178,11 @@ Agora você pode solicitar o seu componente Somfy RTS com o Jeedom.
 
 >**Eu tenho uma mensagem dizendo que a porta não existe**
 >
->Verifique se a porta está configurada corretamente e se a configuração está salva (ela deve ser salva, caso contrário, a modificação não será levada em consideração).
+>Verifique se a porta está configurada corretamente e se a configuração está salva (ela deve ser salva, caso contrário, a modificação não será levada em consideração)).
 
 >**Minhas sondas não são vistas**
 >
->Verifique se você marcou a caixa de criação automática de equipamento. Verifique se o demônio é lançado. Também é possível reiniciar o daemon de depuração para ver se ele recebe as mensagens dos probes. Verifique também se os protocolos corretos estão ativados (tenha cuidado para não ativar muitos, caso contrário também não funcionará).
+>Verifique se você marcou a caixa de criação automática de equipamento. Verifique se o demônio é lançado. Também é possível reiniciar o daemon de depuração para ver se ele recebe as mensagens dos probes. Verifique também se os protocolos corretos estão ativados (tenha cuidado para não ativar muitos, caso contrário não funcionará).
 
 >**Ao iniciar no modo de depuração, recebo a mensagem : "não é possível vincular o endereço do soquete "ou" Não é possível atribuir o endereço solicitado"**
 >
