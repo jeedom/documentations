@@ -383,6 +383,11 @@ pre{
   word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 
+.gsc-search-button{
+  position:relative !important;
+  left:-41px !important;
+}
+
 .gsc-control-cse {
   background: transparent !important;
   border: none !important;
@@ -394,7 +399,9 @@ pre{
 }
 
 .cse .gsc-search-button-v2, .gsc-search-button-v2 {
-  padding: 10px 27px !important;
+  padding: 9px 27px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
 }
 
 .gsc-results-wrapper-overlay {
@@ -441,7 +448,6 @@ pre{
 .gsc-search-box-tools .gstl_50{
   background : none !important;
 }
-
 
 .gsib_a .gsc-input {
   background: none !important;
