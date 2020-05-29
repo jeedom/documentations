@@ -286,6 +286,9 @@ function genText(_menu,_lang){
 $(function(){
   document.title = 'Documentation Jeedom'
   $('.sidenav').sidenav();
+  if ($('#slide-out').length > 0 && window.matchMedia("only screen and (max-width: 760px)").matches) {
+    $('.sidenav').sidenav('close');
+  }
   $('.parallax').parallax();
   $('.dropdown-trigger').dropdown();
   $('.collapsible').collapsible();
