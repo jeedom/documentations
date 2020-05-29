@@ -446,7 +446,15 @@ if($('#div_searchBar')){
   html += "window.onload = function(){";
   html += "$('#gsc-i-id1').removeAttr( 'style' );";
   html += "$('#gsc-i-id1').attr('style','width: 100%; padding: 0px; border: none; margin: -0.0625em 0px 0px; height: 1.25em; outline: none; background-image: url(https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png); text-indent: 48px; background-position: left center; background-repeat: no-repeat no-repeat;');";
-    html += "$('#gsc-i-id1').attr('placeholder','Rechercher sur la documentation');";
+    if(lang == 'fr_FR'){
+      html += "$('#gsc-i-id1').attr('placeholder','Rechercher...');";
+    }else if(lang == 'en_US'){
+      html += "$('#gsc-i-id1').attr('placeholder','Search...');";
+    }else if(lang == 'es_ES'){
+      html += "$('#gsc-i-id1').attr('placeholder','Buscar...');";
+    }else if(lang == 'de_DE'){
+      html += "$('#gsc-i-id1').attr('placeholder','Suche...');";
+    }
     html += "};";
     html += "</script>";
     html += "<gcse:search></gcse:search>";
