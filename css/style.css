@@ -394,7 +394,7 @@ pre{
 }
 
 .cse .gsc-search-button-v2, .gsc-search-button-v2 {
-  padding: 9px 27px;
+  padding: 10px 27px !important;
 }
 
 .gsc-results-wrapper-overlay {
@@ -442,17 +442,16 @@ pre{
   background : none !important;
 }
 
-.gsc-input-box {
-  border: 1px solid var(--logo-primary-color) !important;
-  box-shadow: none !important;
-}
 
 .gsib_a .gsc-input {
   background: none !important;
   background-color: var(--form-bg-color) !important;
+  height: 2em !important;
+  text-indent: 5px !important;
 }
 
 .gsc-input-box {
+  border: none !important;
   background: none !important;
 }
 
@@ -469,4 +468,8 @@ pre{
 
 .gs-no-results-result .gs-snippet{
   border: 1px solid var(--logo-primary-color) !important;
+}
+
+.gstl_50 tr{
+  border: none !important;
 }
