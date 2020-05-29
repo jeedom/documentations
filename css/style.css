@@ -438,7 +438,7 @@ pre{
   opacity: 0.4;
 }
 
-.gsc-search-box-tools .gsc-search-box .gsc-input{
+.gsc-search-box-tools .gstl_50{
   background : none !important;
 }
 
@@ -448,5 +448,10 @@ pre{
 }
 
 .gsib_a .gsc-input {
+  background: none !important;
   background-color: var(--form-bg-color) !important;
+}
+
+.gsc-input-box {
+  background: none !important;
 }

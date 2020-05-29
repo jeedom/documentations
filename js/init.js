@@ -452,6 +452,8 @@ if($('#div_searchBar')){
     html += "<gcse:search></gcse:search>";
     html += "</div>";
     $('#div_searchBar').empty().append(html);
-    $('.gsib_a input').addClass('browser-default');
+    setTimeout(function(){
+      $('.gsib_a input').addClass('browser-default');
+    }, 1000);
   }
   
