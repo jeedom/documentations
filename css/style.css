@@ -455,3 +455,17 @@ pre{
 .gsc-input-box {
   background: none !important;
 }
+
+.gsc-tabHeader.gsc-tabhActive{
+  color: var(--logo-primary-color) !important;
+  border-color: var(--logo-primary-color) !important;
+  background-color: var(--panel-bg-color) !important;
+}
+
+.gsc-tabHeader.gsc-tabhInactive{
+  background-color: var(--form-bg-color) !important;
+}
+
+.gs-no-results-result .gs-snippet{
+  border: 1px solid var(--logo-primary-color) !important;
+}
