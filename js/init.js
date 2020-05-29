@@ -287,10 +287,15 @@ $(function(){
   document.title = 'Documentation Jeedom'
   $('.sidenav').sidenav();
   setTimeout(function(){ 
-  if ($('#slide-out').length > 0 && window.matchMedia("only screen and (max-width: 760px)").matches) {
-    $('.sidenav').sidenav();
-  }
-    }, 500);
+    if ($('#slide-out').length > 0 && window.matchMedia("only screen and (max-width: 760px)").matches) {
+      $('.sidenav').sidenav();
+    }
+  }, 250);
+  setTimeout(function(){ 
+    if ($('#slide-out').length > 0 && window.matchMedia("only screen and (max-width: 760px)").matches) {
+      $('.sidenav').sidenav();
+    }
+  }, 500);
   $('.parallax').parallax();
   $('.dropdown-trigger').dropdown();
   $('.collapsible').collapsible();
