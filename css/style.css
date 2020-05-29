@@ -457,12 +457,13 @@ pre{
 }
 
 .gsc-tabHeader.gsc-tabhActive{
-  color: var(--logo-primary-color) !important;
+  color: var(--link-color) !important;
   border-color: var(--logo-primary-color) !important;
   background-color: var(--panel-bg-color) !important;
 }
 
 .gsc-tabHeader.gsc-tabhInactive{
+  color: var(--link-color) !important;
   background-color: var(--form-bg-color) !important;
 }
 
