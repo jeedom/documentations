@@ -289,7 +289,7 @@ $(function(){
   $('.parallax').parallax();
   $('.dropdown-trigger').dropdown();
   $('.collapsible').collapsible();
-
+  
   $('#div_summary').empty().append('<ul></ul>');
   var i=0;
   $('#div_content h1,h2').each(function(){
@@ -304,22 +304,22 @@ $(function(){
     i++;
   });
   $('.scrollspy').scrollSpy();
-
+  
   setTimeout(function() {
     $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10})
   }, 100);
-
+  
   $('#sel_lang').on('change',function(){
     setCookie('lang',$(this).val(),7)
     var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
     window.location.href = url;
   })
-
+  
   $('#sel_theme').on('change',function(){
     setCookie('theme',$(this).val(),7)
     setTheme();
   })
-
+  
   $('#sel_jeedomVersion').on('change',function(){
     setCookie('jeedomVersion',$(this).val(),7)
     var url = window.location.href;
@@ -329,7 +329,7 @@ $(function(){
     }
     window.location.reload();
   })
-
+  
   $('select').formSelect();
   $('#div_content :not(td)>img').addClass('responsive-img')
   cookiesPolicyBar();
@@ -430,3 +430,28 @@ function getUrlVars(_key) {
   vars.length = nbVars;
   return vars;
 }
+
+if($('#div_searchBar')){
+  var html = "<div>";
+  html += "<script>";
+  html += "(function() {";
+  html += "var cx = '007992890294536312136:75s0-jhumye';";
+  html += "var gcse = document.createElement('script');";
+  html += "gcse.type = 'text/javascript';";
+  html += "gcse.async = true;";
+  html += "gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;";
+  html += "var s = document.getElementsByTagName('script')[0];";
+  html += "s.parentNode.insertBefore(gcse, s);";
+  html += "})();";
+  html += "window.onload = function(){";
+  html += "$('#gsc-i-id1').removeAttr( 'style' );";
+  html += "$('#gsc-i-id1').attr('style','width: 100%; padding: 0px; border: none; margin: -0.0625em 0px 0px; height: 1.25em; outline: none; background-image: url(https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png); text-indent: 48px; background-position: left center; background-repeat: no-repeat no-repeat;');";
+    html += "$('#gsc-i-id1').attr('placeholder','Rechercher sur la documentation');";
+    html += "};";
+    html += "</script>";
+    html += "<gcse:search></gcse:search>";
+    html += "</div>";
+    $('#div_searchBar').empty().append(html);
+    $('.gsib_a input').addClass('browser-default');
+  }
+  
