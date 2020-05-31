@@ -322,6 +322,10 @@ $(function(){
   });
   $('.scrollspy').scrollSpy();
   
+  $('.tocAnchor').off('click').on('click',function(){
+    window.location.hash = $(this).attr('href')
+  });
+  
   setTimeout(function() {
     $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10})
   }, 100);
@@ -353,7 +357,8 @@ $(function(){
   setLeftMenu();
   
   if(window.location.hash) {
-    $('body').scrollTo(window.location.hash);
+    document.getElementById(window.location.hash.replace('#','')).scrollIntoView()
+    window.scrollBy(0, -200);
   }
 });
 
