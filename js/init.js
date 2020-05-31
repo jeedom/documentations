@@ -295,13 +295,16 @@ $(function(){
   
   $('#div_summary').empty().append('<ul></ul>');
   var i=0;
-  $('#div_content h1,h2').each(function(){
+  $('#div_content h1,h2,h3').each(function(){
     $(this).attr('id','tocAnchor-'+i)
     if($(this).is('h1')){
       $('#div_summary ul').append('<li><a href="#tocAnchor-'+i+'" class="tocAnchor">'+$(this).text()+'</a></li>')
     }
     if($(this).is('h2')){
-      $('#div_summary ul').append('<li><a href="#tocAnchor-'+i+'" class="tocAnchor" style="margin-left:15px;">'+$(this).text()+'</a></li>')
+      $('#div_summary ul').append('<li><a href="#tocAnchor-'+i+'" class="tocAnchor" style="margin-left:10px;">'+$(this).text()+'</a></li>')
+    }
+    if($(this).is('h3')){
+      $('#div_summary ul').append('<li><a href="#tocAnchor-'+i+'" class="tocAnchor" style="margin-left:20px;">'+$(this).text()+'</a></li>')
     }
     $(this).addClass('scrollspy');
     i++;
