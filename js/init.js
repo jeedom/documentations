@@ -286,17 +286,17 @@ function genText(_menu,_lang){
 $(function(){
   document.title = 'Documentation Jeedom'
   $('.sidenav').sidenav();
-  setTimeout(function(){ 
+  setTimeout(function(){
     if ($('#slide-out').length > 0 && window.matchMedia("only screen and (max-width: 760px)").matches) {
       $('.sidenav').sidenav();
     }
   }, 100);
-  setTimeout(function(){ 
+  setTimeout(function(){
     if ($('#slide-out').length > 0 && window.matchMedia("only screen and (max-width: 760px)").matches) {
       $('.sidenav').sidenav();
     }
   }, 250);
-  setTimeout(function(){ 
+  setTimeout(function(){
     if ($('#slide-out').length > 0 && window.matchMedia("only screen and (max-width: 760px)").matches) {
       $('.sidenav').sidenav();
     }
@@ -309,6 +309,7 @@ $(function(){
   var i=0;
   $('#div_content h1,h2,h3').each(function(){
     $(this).attr('id','tocAnchor-'+i)
+    $(this).attr('data-name',encodeURIComponent($(this).text()));
     if($(this).is('h1')){
       $('#div_summary ul').append('<li><a href="#tocAnchor-'+i+'" class="tocAnchor">'+$(this).text()+'</a></li>')
     }
@@ -352,6 +353,13 @@ $(function(){
   $('#div_content :not(td)>img').addClass('responsive-img')
   cookiesPolicyBar();
   setLeftMenu();
+  
+  if(window.location.hash) {
+    var hash = window.location.hash.replace('#', '')
+    if($('h1,h2,h3[data-name="'+hash+'"]')){
+      
+    }
+  }
 });
 
 function setTheme(){
