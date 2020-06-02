@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Addition of parameter of delta setpoint - outside temperature for the calculation of lma direction hot / cold
+
 # 04/07/2020
 
 - Bugfix

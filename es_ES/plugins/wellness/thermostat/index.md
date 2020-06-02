@@ -5,7 +5,7 @@ Este complemento le permite crear y administrar termostatos para controlar el ca
 -   el modo **histéresis** corresponde a encender y apagar la calefacción en función de la temperatura interior, en relación con un umbral correspondiente al punto de ajuste. La histéresis permite evitar cambios muy frecuentes cuando la temperatura está alrededor del punto de ajuste.
 -   el modo **temporal** calcula un porcentaje de calefacción durante un ciclo de tiempo predefinido, teniendo en cuenta las diferencias entre el punto de ajuste y las temperaturas interior y exterior (aislamiento). Este modo es más preciso, tiene una función de aprendizaje que permite el ajuste automático de los coeficientes, pero puede requerir algunos ajustes manuales para adaptarlo a su instalación. Importante para que funcione el modo horario, necesita absolutamente un sensor de temperatura interior y exterior.
 
-# Configuration
+# Configuración
 
 Este complemento es para crear termostatos en Jeedom. Puede controlar calefacción, aire acondicionado o ambos.
 
@@ -51,7 +51,7 @@ Para crear un nuevo termostato, vaya a la página de configuración desplazándo
 
 Primero, informaremos los parámetros generales del termostato. Se encuentran en la parte superior izquierda, sección general y es necesario especificar aquí el objeto principal, la activación y la visibilidad del termostato, información habitual para cualquier usuario de Jeedom.
 
-## La elección del algoritmo de termostato
+## El choix de l'algorithme du thermostat
 
 ![Choix de l'algorithme](./images/thermostat31.png)
 
@@ -97,7 +97,7 @@ Para el control del radiador o aire acondicionado, se describe en la pestaña *A
 
 Las acciones son aquellas que permiten calentar, enfriar (aire acondicionado), deteniendo el comando. Se puede prever una acción adicional en cada cambio de punto de ajuste, ya sea en modo manual o automático.
 
-## Las modas : el punto de partida para la automatización
+## Els modes : el punto de partida para la automatización
 
 Los modos (definidos en la pestaña *Modos*) son puntos de ajuste predeterminados del termostato que corresponden a su estilo de vida. Por ejemplo, el modo **Noche** o **Eco** dale la temperatura que quieras cuando todos estén dormidos. El modo **Día** o **Confort** determina el comportamiento del termostato para tener una temperatura agradable cuando estás presente en casa. Aquí no hay nada congelado. Puede definir tantos modos como desee usarlos a través de escenarios (volveremos a esto más adelante).
 
@@ -117,7 +117,7 @@ Para definir un modo, proceda de la siguiente manera :
 >
 >Atención durante el cambio de nombre de un modo es absolutamente necesario revisar los escenarios / equipos que usan el nombre antiguo para pasarlos al nuevo
 
-## Las aberturas : para interrumpir temporalmente el termostato
+## Els ouvertures : para interrumpir temporalmente el termostato
 
 Imagine que desea detener temporalmente su calefacción o aire acondicionado, por ejemplo, para ventilar la habitación para la que está activo el termostato. Para detectar la apertura de la ventana, utilizará un sensor ubicado en la apertura de su ventana, lo que le permitirá llevar a cabo esta interrupción agregándola en la pestaña de configuración de las aberturas. Aquí se pueden configurar dos parámetros adicionales; los tiempos de apertura y cierre de la ventana harán que el termostato se detenga y reanude la operación.
 
@@ -201,12 +201,13 @@ Los coeficientes son los siguientes :
 -   **Tiempo de calentamiento mínimo (% del ciclo)** : Si el cálculo resulta en un tiempo de calentamiento inferior a este valor, entonces el termostato considera que no es necesario calentar / enfriar, el comando pasará al siguiente ciclo. Esto evita dañar ciertos dispositivos como las estufas, pero también logra una eficiencia energética real.
 -   **Margen de falla en caliente / Margen de falla en frío** : este valor se utiliza para detectar un mal funcionamiento de calefacción / aire acondicionado. Cuando la temperatura excede este margen en comparación con el punto de ajuste durante más de 3 ciclos consecutivos, el termostato cambia al modo de falla de calefacción.
 - **Limita los ciclos de encendido / apagado incesante (pellet, gas, fuel oil) y PID** : Esta opción le permite regular con diferentes niveles de calefacción. El retorno de energía del siguiente ciclo debe dar el nuevo punto de ajuste del nivel de calefacción al calentador. Los ciclos terminan al 100%, por lo tanto, tenga un tiempo de ciclo corto.
+- **Punto de ajuste Delta: temperatura exterior para dirección frío / calor** : el termostato elige la dirección (calefacción o aire acondicionado) de acuerdo con el punto de ajuste y la temperatura exterior (por razones de ahorro, suponemos que la temperatura interior tiende hacia la temperatura exterior). Puede con estos parámetros cambiar el umbral. Ex : si desea 25 y está 22 afuera por defecto, el termostato entrará en modo de calefacción (solo entrar en este modo para el cálculo no significa que se calentará), al configurar el delta caliente en 4 ya no se calentará porque 25-22 = 3 y 3 <4, por lo tanto, entrará en modo de enfriamiento (si la temperatura interior está por encima del punto de ajuste)
 
 > **Punta**
 >
 > El aprendizaje siempre está activo. Pero la fase de inicialización puede ser relativamente larga (alrededor de 3 días). Durante esta fase, es necesario tener períodos suficientemente largos durante los cuales el punto de ajuste no cambia.
 
-## Controles del termostato
+## Els commandes du thermostat
 
 ![Liste des commandes dans le résumé domotique](./images/thermostatlistecommandes.png)
 
@@ -260,7 +261,7 @@ Si la creación de escenarios a veces es complicada, para la programación de un
 
 El complemento de agenda le permite ir más allá en la programación y, sobre todo, presenta menos riesgo de equivocarse. De hecho, en comparación con la programación anterior, el calendario aparecerá en claro en la pantalla y podremos tener en cuenta las vacaciones, las vacaciones.En resumen, controle el termostato según su estilo de vida.
 
-## Programación con el complemento de agenda
+## Programación avec le plugin agenda
 
 No presentamos aquí el complemento Agenda, el objetivo es acoplarlo con la programación del termostato. Tenga en cuenta que si tiene el complemento de agenda, una pestaña *Programación* aparece en la configuración del termostato, lo que permite el acceso directo al calendario asociado.
 
@@ -301,7 +302,7 @@ En el menú `Inicio`, está el submenú` Termostato`. La ventana que aparece cua
 
 *Gráfico de curva del termostato*
 
-# FAQ
+# Preguntas frecuentes
 
 >**¿Podemos usar el termostato con un piso calentado, que tiene una alta inercia ?**
 >

@@ -5,7 +5,7 @@ This plugin allows you to create and manage thermostats to control the heating o
 -   The mode **hysteresis** corresponds to switching the heating on and off as a function of the interior temperature, in relation to a threshold corresponding to the setpoint. The hysteresis allows to avoid too frequent switching when the temperature is around the set point.
 -   The mode **temporal** calculates a percentage of heating over a predefined time cycle, taking into account the differences between the setpoint and the indoor and outdoor temperatures (insulation). This mode is more precise, has a learning function allowing automatic adjustment of the coefficients but may require some manual adjustments to adapt it to your installation. Important for the time mode to work, you absolutely need an indoor AND outdoor temperature sensor.
 
-# Configuration
+# Setup
 
 This plugin is for creating thermostats in Jeedom. It can control heating, air conditioning or both.
 
@@ -51,7 +51,7 @@ To create a new thermostat, go to the configuration page by scrolling down the P
 
 First, we will inform the general parameters of the thermostat. They are found at the top left, general section and it is necessary to specify here the parent object, the activation and the visibility of the thermostat, usual information for any user of jeedom.
 
-## The choice of thermostat algorithm
+## The choix de l'algorithme du thermostat
 
 ![Choix de l'algorithme](./images/thermostat31.png)
 
@@ -97,7 +97,7 @@ For the control of the radiator or air conditioner, it is described in the tab *
 
 Actions are those that allow heating, cooling (air conditioning), stopping the command. An additional action can be envisaged at each setpoint change, whether in manual or automatic mode.
 
-## The trends : the starting point for automation
+## Thes modes : the starting point for automation
 
 The modes (defined in the tab *Modes*) are predetermined thermostat setpoints that correspond to your lifestyle. For example, the mode **Night** or **Eco** give the temperature you want when everyone is asleep. The mode **Day** or **Comfort** determines the behavior of the thermostat to have a comfortable temperature when you are present at home. Nothing is frozen here. You can define as many modes as you want to use them via scenarios (We will come back to this later).
 
@@ -117,7 +117,7 @@ To define a mode, proceed as follows :
 >
 >Attention during the renaming of a mode it is absolutely necessary to review the scenarios / equipment which use the old name to pass them on the new
 
-## The openings : to temporarily interrupt the thermostat
+## Thes ouvertures : to temporarily interrupt the thermostat
 
 Imagine that you want to temporarily stop your heating or air conditioning, for example to ventilate the room for which the thermostat is active. To detect the opening of the window, you will use a sensor located on the opening of your window, thus allowing you to carry out this interruption by adding it in the tab of configuration of the openings. Two additional parameters can be set here; the opening and closing times of the window will cause the thermostat to stop and resume operation.
 
@@ -201,12 +201,13 @@ The coefficients are as follows :
 -   **Minimal heating duration (% cycle)** : If the calculation results in a heating time lower than this value, then the thermostat considers that it is not necessary to heat / cool, the command will carry over to the next cycle. This avoids damaging certain devices such as stoves, but also achieves real energy efficiency.
 -   **Hot Failure Margin / Cold Failure Margin** : this value is used to detect a heating / air conditioning malfunction. When the temperature exceeds this margin compared to the setpoint for more than 3 consecutive cycles, the thermostat switches to heating failure mode.
 - **Limits incessant on / off cycles (pellet, gas, fuel oil) and PID** : This option allows you to regulate with different heating levels. The return of power from the next cycle must give the new heating level setpoint to the heater. Cycles end at 100%, so have a short cycle time.
+- **Delta setpoint - outside temperature for hot / cold direction** : the thermostat chooses the direction (heating or air conditioning) according to the setpoint and the outside temperature (for reasons of savings we assume that the inside temperature tends towards the outside temperature). You can with these parameters change the threshold. Ex : if you want 25 and it is 22 outside by default the thermostat will go into heating mode (just going into this mode for the calculation it does not mean that it will heat), by setting the hot delta to 4 it will no longer heat because 25-22 = 3 and 3 <4 it will therefore go into cooling mode (if the interior temperature is above the setpoint)
 
 > **Tip**
 >
 > Learning is always active. But the initialization phase can be relatively long (around 3 days). During this phase, it is necessary to have sufficiently long periods during which the setpoint does not change.
 
-## Thermostat controls
+## Thes commandes du thermostat
 
 ![Liste des commandes dans le résumé domotique](./images/thermostatlistecommandes.png)
 
@@ -260,7 +261,7 @@ If scenario creation is sometimes complicated, for the programming of a thermost
 
 The agenda plugin allows you to go further in programming and above all presents less risk of being wrong. Indeed, compared to the previous programming, the calendar will appear in clear on the screen and we will be able to take into account holidays, vacations….In short, control the thermostat according to his lifestyle.
 
-## Programming with the agenda plugin
+## Programming avec le plugin agenda
 
 We do not present here the Agenda plugin, the objective being to couple it with the programming of the thermostat. Note that if you have the agenda plugin, a tab *Programming* appears in the thermostat configuration, allowing direct access to the associated calendar.
 
@@ -301,7 +302,7 @@ In the `Home` menu, there is the` Thermostat` submenu. The window that appears w
 
 *Thermostat curve graph*
 
-# FAQ
+# Faq
 
 >**Can we use the thermostat with a heated floor, which has a high inertia ?**
 >

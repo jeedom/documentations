@@ -5,7 +5,7 @@ Este plugin permite que você crie e gerencie termostatos para controlar o aquec
 -   o modo **histerese** corresponde a ligar e desligar o aquecimento em função da temperatura interior, em relação a um limiar correspondente ao ponto de ajuste. A histerese permite evitar comutações muito frequentes quando a temperatura está próxima do ponto definido.
 -   o modo **temporal** calcula uma porcentagem de aquecimento em um ciclo de tempo predefinido, levando em consideração as diferenças entre o ponto de ajuste e as temperaturas interna e externa (isolamento). Este modo é mais preciso, possui uma função de aprendizado que permite o ajuste automático dos coeficientes, mas pode exigir alguns ajustes manuais para adaptá-lo à sua instalação. Importante para o modo horário funcionar, você precisa absolutamente de um sensor de temperatura interno e externo.
 
-# Configuration
+# Configuração
 
 Este plugin é para criar termostatos no Jeedom. Pode controlar o aquecimento, o ar condicionado ou ambos.
 
@@ -51,7 +51,7 @@ Para criar um novo termostato, vá para a página de configuração rolando o me
 
 Primeiro, informaremos os parâmetros gerais do termostato. Eles são encontrados no canto superior esquerdo, seção geral, e é necessário especificar aqui o objeto pai, a ativação e a visibilidade do termostato, informações usuais para qualquer usuário de jeedom.
 
-## A escolha do algoritmo do termostato
+## O choix de l'algorithme du thermostat
 
 ![Choix de l'algorithme](../images/thermostat31.png)
 
@@ -97,7 +97,7 @@ Para o controle do radiador ou do ar condicionado, é descrito na guia *Estoque*
 
 Ações são aquelas que permitem aquecimento, resfriamento (ar condicionado), parada do comando. Uma ação adicional pode ser prevista a cada alteração do ponto de ajuste, seja no modo manual ou automático.
 
-## Modas : o ponto de partida para automação
+## Os modes : o ponto de partida para automação
 
 Os modos (definidos na guia *Modos*) são pontos de ajuste predeterminados do termostato que correspondem ao seu estilo de vida. Por exemplo, o modo **Noite** onde **Eco** dê a temperatura que você quer quando todo mundo estiver dormindo. O modo **Dia** onde **Conforto** determina o comportamento do termostato para ter uma temperatura confortável quando você estiver presente em casa. Nada está congelado aqui. Você pode definir quantos modos desejar para usá-los através de cenários (voltaremos a isso mais tarde).
 
@@ -117,7 +117,7 @@ Para definir um modo, faça o seguinte :
 >
 >Atenção durante a renomeação de um modo, é absolutamente necessário revisar os cenários / equipamentos que usam o nome antigo para transmiti-los aos novos
 
-## As aberturas : interromper temporariamente o termostato
+## Os ouvertures : interromper temporariamente o termostato
 
 Imagine que deseja interromper temporariamente o aquecimento ou o ar-condicionado, por exemplo, para ventilar a sala em que o termostato está ativo. Para detectar a abertura da janela, você usará um sensor localizado na abertura da janela, permitindo realizar essa interrupção adicionando-a na guia de configuração das aberturas. Dois parâmetros adicionais podem ser definidos aqui: os tempos de abertura e fechamento da janela farão com que o termostato pare e retome a operação.
 
@@ -201,12 +201,13 @@ Os coeficientes são os seguintes :
 -   **Tempo de aquecimento mínimo (% do ciclo)** : Se o cálculo resultar em um tempo de aquecimento menor que esse valor, o termostato considera que não é necessário aquecer / esfriar, o comando será transferido para o próximo ciclo. Isso evita danos a certos dispositivos, como fogões, mas também atinge eficiência de energia real.
 -   **Margem de falha a quente / margem de falha a frio** : este valor é usado para detectar um mau funcionamento do aquecimento / ar condicionado. Quando a temperatura excede essa margem em comparação com o ponto de ajuste por mais de 3 ciclos consecutivos, o termostato passa para o modo de falha de aquecimento.
 - **Limita ciclos liga / desliga incessantes (pellet, gás, óleo combustível) e PID** : Esta opção permite regular com diferentes níveis de aquecimento. O retorno da energia do próximo ciclo deve fornecer o novo ponto de ajuste do nível de aquecimento ao aquecedor. Os ciclos terminam em 100%, portanto, tenha um tempo de ciclo curto.
+- **Ponto de ajuste Delta - temperatura externa para direção quente / fria** : o termostato escolhe a direção (aquecimento ou ar condicionado) de acordo com o ponto de ajuste e a temperatura externa (por razões de economia, assumimos que a temperatura interna tende à temperatura externa). Você pode com esses parâmetros alterar o limite. Ex : se você quiser 25 e estiver 22 fora, por padrão, o termostato entrará no modo de aquecimento (basta entrar neste modo para o cálculo, não significa que irá aquecer), configurando o delta quente para 4 não aquecerá mais porque 25-22 = 3 e 3 <4, portanto, entrará no modo de resfriamento (se a temperatura interna estiver acima do ponto de ajuste)
 
 > **Dica**
 >
 > A aprendizagem está sempre ativa. Mas a fase de inicialização pode ser relativamente longa (em torno de 3 dias). Durante esta fase, é necessário ter períodos suficientemente longos durante os quais o ponto de ajuste não muda.
 
-## Controles do termostato
+## Os commandes du thermostat
 
 ![Liste des commandes dans le résumé domotique](../images/thermostatlistecommandes.png)
 
@@ -260,7 +261,7 @@ Se a criação de cenários às vezes é complicada, para a programação de um 
 
 O plugin da agenda permite que você vá mais longe na programação e, acima de tudo, apresenta menos risco de estar errado. De fato, comparado à programação anterior, o calendário aparecerá na tela de forma clara e poderemos levar em consideração feriados, férias….Em resumo, controle o termostato de acordo com seu estilo de vida.
 
-## Programando com o plugin da agenda
+## Programação avec le plugin agenda
 
 Não apresentamos aqui o plug-in Agenda, com o objetivo de acoplá-lo à programação do termostato. Observe que, se você tiver o plug-in da agenda, uma guia *Programação* aparece na configuração do termostato, permitindo acesso direto ao calendário associado.
 
@@ -301,7 +302,7 @@ No menu `Home`, existe o submenu` Thermostat`. A janela que aparece quando você
 
 *Gráfico de curva do termostato*
 
-# FAQ
+# Faq
 
 >**Podemos usar o termostato com piso aquecido, com alta inércia ?**
 >

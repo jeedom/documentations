@@ -4,6 +4,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Adición del parámetro del punto de consigna delta - temperatura exterior para el cálculo de la dirección lma frío / calor
+
 # 07/04/2020
 
 - Correcciones de errores
