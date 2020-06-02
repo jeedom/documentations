@@ -6,7 +6,7 @@
 
 # 01/06/2020
 
-- Ajout de parametre de delta consigne - temperature exterieure pour le calcul de lma direction chaud/froid
+- Ajout de paramètre de delta consigne - température exterieure pour le calcul de la direction chaud/froid
 
 # 07/04/2020
 
@@ -18,7 +18,7 @@
 
 # 17/12/2019
 
-- Correction d'un soucis d'affichage
+- Correction d'un souci d'affichage
 - Ajout d'une option "Seuil de cycle ou le chauffage est considéré comme chaud"
 
 # 16/12/2019
