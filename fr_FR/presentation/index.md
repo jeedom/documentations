@@ -26,7 +26,11 @@ Le Core comprend entre autres :
 
 *Les équipements, comprenant des actionneurs ou des capteurs, sont organisés par objets. Les objets peuvent, par exemple, représenter des pièces physiques*.
 
+[Synthèse](/fr_FR/core/4.1/overview)
+
 ![Synthèse](images/doc-presentation-synthese.jpg)
+
+[Dashboard](/fr_FR/core/4.1/dashboard)
 
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
@@ -34,6 +38,8 @@ Le Core comprend entre autres :
 ## Historiques
 
 *Toutes les informations sont historisables (courbe de température, consommation, ouvertures de porte, etc), et accessibles dans Analyse → Historique ou depuis les tuiles du Dashboard.*
+
+[Historique](/fr_FR/core/4.1/history)
 
 ![Page Historique](images/doc-presentation-historique.jpg)
 
@@ -72,7 +78,6 @@ Autour de ce noyau viennent se greffer des plugins, qui peuvent être de toutes 
 -   Protocole IP (KNX,xPL…),
 -   Objet communiquant (Nest, Netatmo…),
 -   Haut niveau (alarme, thermostat…),
--   Interface (widget),
 -   Organisation (agenda, Google agenda),
 -   Développement (script).
 
