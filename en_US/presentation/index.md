@@ -26,7 +26,11 @@ The Core includes among others :
 
 *Equipment, including actuators or sensors, is organized by objects. Objects can, for example, represent physical parts*.
 
-![Synthèse](images/doc-presentation-synthese.jpg)
+[Synthesis](/en_US/core/4.1/overview)
+
+![Synthesis](images/doc-presentation-synthese.jpg)
+
+[Dashboard](/en_US/core/4.1/dashboard)
 
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
@@ -35,7 +39,9 @@ The Core includes among others :
 
 *All the information can be saved (temperature curve, consumption, door openings, etc.), and accessible in Analysis → History or from the Dashboard tiles.*
 
-![Page Historique](images/doc-presentation-historique.jpg)
+[History](/en_US/core/4.1/history)
+
+![Page History](images/doc-presentation-historique.jpg)
 
 ## Scenarios
 
@@ -72,7 +78,6 @@ Around this core are plugins, which can be of all kinds :
 -   IP protocol (KNX, xPL…),
 -   Communicating object (Nest, Netatmo…),
 -   High level (alarm, thermostat),
--   Interface (widget),
 -   Organization (calendar, Google calendar),
 -   Development (script).
 

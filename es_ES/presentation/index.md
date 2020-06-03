@@ -26,7 +26,11 @@ The Core incluye entre otros :
 
 *El equipo, incluidos los actuadores o sensores, está organizado por objetos. Los objetos pueden, por ejemplo, representar partes físicas*.
 
-![Synthèse](images/doc-presentation-synthese.jpg)
+[Síntesis](/es_ES/core/4.1/overview)
+
+![Síntesis](images/doc-presentation-synthese.jpg)
+
+[Dashboard](/es_ES/core/4.1/dashboard)
 
 ![Dashboard](images/doc-presentation-dashboard.jpg)
 
@@ -35,7 +39,9 @@ The Core incluye entre otros :
 
 *Toda la información se puede guardar (curva de temperatura, consumo, aperturas de puertas, etc.) y accesible en Análisis → Historial o desde los mosaicos del Tablero.*
 
-![Page Historique](images/doc-presentation-historique.jpg)
+[Historial](/es_ES/core/4.1/history)
+
+![Page Historial](images/doc-presentation-historique.jpg)
 
 ## Escenarios
 
@@ -72,7 +78,6 @@ Alrededor de este núcleo hay complementos, que pueden ser de todo tipo :
 -   Protocolo IP (KNX, xPL),
 -   Objeto comunicante (Nest, Netatmo),
 -   Nivel alto (alarma, termostato),
--   Interfaz (widget),
 -   Organización (calendario, calendario de Google),
 -   Desarrollo (guión).
 

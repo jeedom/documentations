@@ -26,16 +26,22 @@ Der Kern umfasst unter anderem :
 
 *Geräte, einschließlich Aktuatoren oder Sensoren, sind nach Objekten organisiert. Objekte können beispielsweise physische Teile darstellen*.
 
-![Synthèse](images/doc-presentation-synthese.jpg)
+[Synthese](/de_DE/core/4.1/overview)
 
-![Dashboard](images/doc-presentation-dashboard.jpg)
+![Synthese](images/doc-presentation-synthese.jpg)
+
+[Armaturenbrett](/de_DE/core/4.1/dashboard)
+
+![Armaturenbrett](images/doc-presentation-dashboard.jpg)
 
 
 ## Historiques
 
 *Alle Informationen können gespeichert werden (Temperaturkurve, Verbrauch, Türöffnungen usw.) und sind unter Analyse → Verlauf oder über die Dashboard-Kacheln zugänglich.*
 
-![Page Historique](images/doc-presentation-historique.jpg)
+[Chronik](/de_DE/core/4.1/history)
+
+![Page Chronik](images/doc-presentation-historique.jpg)
 
 ## Szenarien
 
@@ -72,7 +78,6 @@ Um diesen Kern herum befinden sich Plugins, die aller Art sein können :
 -   IP-Protokoll (KNX, xPL…),
 -   Kommunikationsobjekt (Nest, Netatmo…),
 -   Hoher Pegel (Alarm, Thermostat),
--   Schnittstelle (Widget),
 -   Organisation (Kalender, Google Kalender),
 -   Entwicklung (Skript).
 
