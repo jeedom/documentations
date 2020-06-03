@@ -22,7 +22,7 @@ Vous pouvez afficher ces périphériques de plusieurs manières :
 
 ![Synthese](images/concept-synthese.jpg)
 
-Ceux-ci sont consultables dans un navigateur sur un ordinateur de bureau, ou sur un smartphone avec la WebApp ou l'application mobile : [Version Mobile](/fr_FR/mobile/index")
+Ceux-ci sont consultables dans un navigateur sur un ordinateur de bureau, ou sur un smartphone avec la WebApp ou l'application mobile : [Version Mobile](/fr_FR/mobile/index)
 
 ## Les Objets
 
