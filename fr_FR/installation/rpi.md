@@ -1,18 +1,43 @@
 # Installation sur Raspberry Pi
 
-Vous trouverez ici la documentation pour installer Jeedom sur un raspberry PI **avec une carte SD.**
+Vous trouverez ici la documentation pour installer Jeedom sur un raspberry PI **avec une carte SD.**. Il existe 2 modes :
+
+- Automatique : utilisation de l'image pour rapsberry pi faite par Jeedom avec Jeeodm de preinstallé dessus
+- Ligne de commande : installation manuel de jeedom à partir de Raspberry pi OS
 
 > **Important**
 >
 > Debian 10 (Buster) est la distribution officiellement supportée.
 
+# Installation automatique
+
+## Télécharger le dernière image
+
+[ici](https://images.jeedom.com/rpi/)
+
+## Gravez cette image sur une SD avec Raspberry Pi imager par exemple
+
+[ici](https://www.raspberrypi.org/downloads/)
+
+## Démarrer le PI
+
+Insérez votre carte SD, branchez le cable réseau, branchez l’alimentation.
+
+> **Important**
+>
+> Lors du premiers démarrage le raspberry pi peut etre lent car il redimensionne la partition pour correspondre à votre carte SD
+
+Il vous suffit ensuite dans votre navigateur de mettre : http://IP_RPI/ (en remplacent IP_RPI par l'ip de votre Raspberry pi).
+
+# Installation en ligne de commande
+
 ## Télécharger le dernière image "lite"
 
 [ici](https://downloads.raspberrypi.org/raspbian_lite_latest)
 
-## Gravez cette image sur une SD avec etcher par exemple
+## Gravez cette image sur une SD avec Raspberry Pi imager par exemple
 
-[ici](https://etcher.io/)
+[ici](https://www.raspberrypi.org/downloads/)
 
 > **Note**
 >
