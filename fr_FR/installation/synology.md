@@ -20,7 +20,7 @@ Attendez jusqu’à ce que l’installation soit finie :
 >
 > Pour avoir accès au paquet Docker, il faut absolument avoir DSM 5.2 et un NAS compatible
 
-## Récupération et installation des images Jeedom
+## Récupération de l'images Jeedom
 
 Lancez l’application Docker :
 
@@ -39,6 +39,8 @@ Validez ensuite la demande de version, le mieux étant de prendre la dernière.
 Cliquez ensuite sur image, ici vous pouvez suivre l’avancement du téléchargement (peut prendre plusieurs dizaines de minutes) :
 
 ![install synology 21](images/install_synology_21.PNG)
+
+## Configuration du container
 
 Une fois terminé, cliquez sur l’image puis lancez :
 
