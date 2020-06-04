@@ -4,8 +4,6 @@
 >
 > Attention, nous partons ici du principe que vous maîtrisez déjà Docker
 
-Pour découvrir Jeedom, vous pouvez aussi le faire tourner dans un conteneur Docker :
-
 ## Installation de docker
 
 Docker est maintenant disponible sur toutes les distributions récentes.
@@ -21,7 +19,6 @@ yum install docker
 
 ````
 apt-get update
-apt-get install docker
 apt-get install docker.io
 ````
 
@@ -33,14 +30,21 @@ Installation de l’image :
 
 Puis lancez la :
 
-``sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/mysql:/var/lib/mysql -e ROOT_PASSWORD=your-root-password -p 9080:80 jeedom/jeedom``
+``sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/db:/var/lib/mysql -p 9080:80 jeedom/jeedom``
 
 Avec :
 
 -   ``jeedom-server`` : nom du Docker jeedom voulu
--   ``/opt/jeedom/www`` et ``/opt/jeedom/mysql`` : répertoire où les données de Jeedom sont mises sur l’hôte
--   ``your-root-password`` : mot de passe root pour accéder à Jeedom en SSH
+-   ``/opt/jeedom/www`` et ``/opt/jeedom/db`` : répertoire où les données de Jeedom sont mises sur l’hôte (attention a bien les créer avant)
+
+> **TIPS**
+>
+> Il est possible que suite au lancement docker ne vous rende pas la main, rien de grave vous pouvez tout fermer jeedom continuera de tourner
 
 Il vous faut ensuite installer Jeedom en allant sur : ``IP_DOCKER:9080``
+
+> **TIPS**
+>
+> Vous pouvez voir les dockers qui tournent ``docker ps`` pour arreter jeedom-server par exemple il vous suffit de faire ``docker stop jeedom-server``, pour le relancer ``docker start jeedom-server``
 
 Pour la suite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
