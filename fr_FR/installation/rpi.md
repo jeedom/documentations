@@ -25,7 +25,7 @@ Insérez votre carte SD, branchez le cable réseau, branchez l’alimentation.
 
 > **Important**
 >
-> Lors du premiers démarrage le raspberry pi peut etre lent car il redimensionne la partition pour correspondre à votre carte SD
+> Lors du premiers démarrage le raspberry pi peut etre lent car il redimensionne la partition pour correspondre à votre carte SD. De plus une fois le 1er demarrage fait il est conseillé de redemarrer à nouveau pour que le swap soit de taille correct.
 
 Il vous suffit ensuite dans votre navigateur de mettre : http://IP_RPI/ (en remplacent IP_RPI par l'ip de votre Raspberry pi).
 
