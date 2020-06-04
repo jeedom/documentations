@@ -1,18 +1,43 @@
 # Installation auf Raspberry Pi
 
-Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-PI **mit einer SD-Karte.**
+Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-PI **mit einer SD-Karte.**. Es gibt 2 Modi :
+
+- Automatisch (Beta) : Verwendung des Bildes für Rapsberry Pi von Jeedom mit Jeeodm von vorinstalliert
+- Befehlszeile : manuelle Installation von jeedom von Raspberry pi OS
 
 > **Wichtig**
 >
 > Debian 10 (Buster) ist die offiziell unterstützte Distribution.
 
+# Automatische Installation
+
+## Laden Sie das neueste Bild herunter
+
+[hier](https://images.jeedom.com/rpi/)
+
+## Brennen Sie dieses Bild beispielsweise mit dem Raspberry Pi Imager auf eine SD
+
+[hier](https://www.raspberrypi.org/downloads/)
+
+## Starten Sie den PI
+
+Legen Sie Ihre SD-Karte ein, schließen Sie das Netzwerkkabel an und schließen Sie die Stromversorgung an.
+
+> **Wichtig**
+>
+> Während des ersten Starts kann der Himbeer-Pi langsam sein, da die Größe der Partition an Ihre SD-Karte angepasst wird
+
+Il vous suffit ensuite dans votre navigateur de mettre : http://IP_RPI/ (en remplacent IP_RPI par l'ip de votre Raspberry pi).
+
+# Befehlszeileninstallation
+
 ## Laden Sie das neueste "lite" -Bild herunter"
 
 [hier](https://downloads.raspberrypi.org/raspbian_lite_latest)
 
-## Brennen Sie dieses Bild beispielsweise mit einem Radierer auf eine SD
+## Brennen Sie dieses Bild beispielsweise mit dem Raspberry Pi Imager auf eine SD
 
-[hier](https://etcher.io/)
+[hier](https://www.raspberrypi.org/downloads/)
 
 > **Notiz**
 >
