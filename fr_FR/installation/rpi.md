@@ -2,7 +2,7 @@
 
 Vous trouverez ici la documentation pour installer Jeedom sur un raspberry PI **avec une carte SD.**. Il existe 2 modes :
 
-- Automatique : utilisation de l'image pour rapsberry pi faite par Jeedom avec Jeeodm de preinstallé dessus
+- Automatique (beta) : utilisation de l'image pour rapsberry pi faite par Jeedom avec Jeeodm de preinstallé dessus
 - Ligne de commande : installation manuel de jeedom à partir de Raspberry pi OS
 
 > **Important**
