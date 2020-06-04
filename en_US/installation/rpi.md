@@ -25,7 +25,7 @@ Insert your SD card, connect the network cable, connect the power.
 
 > **Important**
 >
-> During the first startup the raspberry pi can be slow because it resizes the partition to match your SD card
+> During the first start-up the raspberry pi can be slow because it resizes the partition to correspond to your SD card. In addition, once the first start is made it is advisable to restart again so that the swap is of correct size.
 
 Il vous suffit ensuite dans votre navigateur de mettre : http://IP_RPI/ (en remplacent IP_RPI par l'ip de votre Raspberry pi).
 

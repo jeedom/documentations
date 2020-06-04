@@ -25,7 +25,7 @@ Inserte su tarjeta SD, conecte el cable de red, conecte la alimentación.
 
 > **Importante**
 >
-> Durante el primer inicio, la frambuesa pi puede ser lenta porque cambia el tamaño de la partición para que coincida con su tarjeta SD
+> Durante la primera puesta en marcha, la frambuesa pi puede ser lenta porque cambia el tamaño de la partición para que se corresponda con su tarjeta SD. Además, una vez que se realiza el primer inicio, es recomendable reiniciar nuevamente para que el intercambio sea del tamaño correcto.
 
 Il vous suffit ensuite dans votre navigateur de mettre : http://IP_RPI/ (en remplacent IP_RPI par l'ip de votre Raspberry pi).
 

@@ -272,7 +272,7 @@
         "Gravez cette image sur une SD avec Raspberry Pi imager par exemple": "Burn this image on a SD with Raspberry Pi imager for example",
         "Démarrer le PI": "Start the PI",
         "Insérez votre carte SD, branchez le cable réseau, branchez l'alimentation": "Insert your SD card, connect the network cable, connect the power",
-        "Lors du premiers démarrage le raspberry pi peut etre lent car il redimensionne la partition pour correspondre à votre carte SD": "During the first startup the raspberry pi can be slow because it resizes the partition to match your SD card",
+        "Lors du premiers démarrage le raspberry pi peut etre lent car il redimensionne la partition pour correspondre à votre carte SD. De plus une fois le 1er demarrage fait il est conseillé de redemarrer à nouveau pour que le swap soit de taille correct": "During the first start-up the raspberry pi can be slow because it resizes the partition to correspond to your SD card. In addition, once the first start is made it is advisable to restart again so that the swap is of correct size",
         "Installation en ligne de commande": "Command line installation",
         "Télécharger le dernière image \"lite": "Download the latest \"lite\" image",
         "Si vous utilisez Etcher pour graver votre image, l'étape de décompression est inutile (format Zip reconnu directement dans la sélection du fichier image": "If you use Etcher to burn your image, the decompression step is useless (Zip format recognized directly in the selection of the image file",

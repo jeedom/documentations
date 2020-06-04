@@ -25,7 +25,7 @@ Legen Sie Ihre SD-Karte ein, schließen Sie das Netzwerkkabel an und schließen 
 
 > **Wichtig**
 >
-> Während des ersten Starts kann der Himbeer-Pi langsam sein, da die Größe der Partition an Ihre SD-Karte angepasst wird
+> Während des ersten Starts kann der Himbeer-Pi langsam sein, da er die Größe der Partition so ändert, dass sie Ihrer SD-Karte entspricht. Darüber hinaus ist es ratsam, nach dem ersten Start erneut zu starten, damit der Swap die richtige Größe hat.
 
 Il vous suffit ensuite dans votre navigateur de mettre : http://IP_RPI/ (en remplacent IP_RPI par l'ip de votre Raspberry pi).
 

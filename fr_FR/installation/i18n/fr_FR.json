@@ -154,7 +154,7 @@
         "Gravez cette image sur une SD avec Raspberry Pi imager par exemple": "Gravez cette image sur une SD avec Raspberry Pi imager par exemple",
         "Démarrer le PI": "Démarrer le PI",
         "Insérez votre carte SD, branchez le cable réseau, branchez l'alimentation": "Insérez votre carte SD, branchez le cable réseau, branchez l'alimentation",
-        "Lors du premiers démarrage le raspberry pi peut etre lent car il redimensionne la partition pour correspondre à votre carte SD": "Lors du premiers démarrage le raspberry pi peut etre lent car il redimensionne la partition pour correspondre à votre carte SD",
+        "Lors du premiers démarrage le raspberry pi peut etre lent car il redimensionne la partition pour correspondre à votre carte SD. De plus une fois le 1er demarrage fait il est conseillé de redemarrer à nouveau pour que le swap soit de taille correct": "Lors du premiers démarrage le raspberry pi peut etre lent car il redimensionne la partition pour correspondre à votre carte SD. De plus une fois le 1er demarrage fait il est conseillé de redemarrer à nouveau pour que le swap soit de taille correct",
         "Installation en ligne de commande": "Installation en ligne de commande",
         "Télécharger le dernière image \"lite": "Télécharger le dernière image \"lite",
         "Note": "Note",

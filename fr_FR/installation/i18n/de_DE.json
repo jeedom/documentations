@@ -272,7 +272,7 @@
         "Gravez cette image sur une SD avec Raspberry Pi imager par exemple": "Brennen Sie dieses Bild beispielsweise mit dem Raspberry Pi Imager auf eine SD",
         "Démarrer le PI": "Starten Sie den PI",
         "Insérez votre carte SD, branchez le cable réseau, branchez l'alimentation": "Legen Sie Ihre SD-Karte ein, schließen Sie das Netzwerkkabel an und schließen Sie die Stromversorgung an",
-        "Lors du premiers démarrage le raspberry pi peut etre lent car il redimensionne la partition pour correspondre à votre carte SD": "Während des ersten Starts kann der Himbeer-Pi langsam sein, da die Größe der Partition an Ihre SD-Karte angepasst wird",
+        "Lors du premiers démarrage le raspberry pi peut etre lent car il redimensionne la partition pour correspondre à votre carte SD. De plus une fois le 1er demarrage fait il est conseillé de redemarrer à nouveau pour que le swap soit de taille correct": "Während des ersten Starts kann der Himbeer-Pi langsam sein, da er die Größe der Partition so ändert, dass sie Ihrer SD-Karte entspricht. Darüber hinaus ist es ratsam, nach dem ersten Start erneut zu starten, damit der Swap die richtige Größe hat",
         "Installation en ligne de commande": "Befehlszeileninstallation",
         "Télécharger le dernière image \"lite": "Laden Sie das neueste \"lite\" -Bild herunter",
         "Si vous utilisez Etcher pour graver votre image, l'étape de décompression est inutile (format Zip reconnu directement dans la sélection du fichier image": "Wenn Sie Ihr Bild mit Etcher brennen, ist der Dekomprimierungsschritt nutzlos (das Zip-Format wird direkt bei der Auswahl der Bilddatei erkannt",
