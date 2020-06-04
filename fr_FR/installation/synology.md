@@ -44,48 +44,20 @@ Une fois terminé, cliquez sur l’image puis lancez :
 
 ![install synology 22](images/install_synology_22.PNG)
 
-Donnez un nom à votre jeedom ainsi qu’un port local redirigé vers le port 80 (ici 9080) puis faites suivant :
+Donnez un nom à votre jeedom, cochez la case "Exécuter le conteneur à l’aide de privilèges élevés" puis cliquez sur parametre avancées puis dans parametres de port redirigé le port 80 (ici vers 9080) :
 
-![install synology 23](images/install_synology_23.PNG)
+![install synology 26](images/install_synology_23.PNG)
 
-Faites suivant :
+Puis sur "Volume" ajoutez les 2 volumes suivant :
 
-![install synology 24](images/install_synology_24.PNG)
+![install synology 26](images/install_synology_24.PNG)
 
-Cliquez sur "Paramètres avancés"
-
-![install synology 25](images/install_synology_25.PNG)
-
-Puis sur "Ajouter un dossier"
-
-![install synology 26](images/install_synology_26.PNG)
-
-Choisissez un dossier sur votre Synology (c’est dans ce dossier qu’il y aura tous les fichiers jeedom), attention à bien décocher "Lecture seule"
-
-![install synology 27](images/install_synology_27.PNG)
-
-Dans chemin d’accès, mettez /var/www/html puis cliquez sur "Environnement" :
-
-![install synology 28](images/install_synology_28.PNG)
-
-Repetez cette opération pour le dossier /var/lib/mysql
-
-Cochez "Exécuter le conteneur à l’aide de privilèges élevés" puis validez le tout :
-
-![install synology 29](images/install_synology_29.PNG)
-
-Cochez "Exécuter ce conteneur lorsque l’assistant a terminé" puis cliquez sur "Appliquer".
-
-> **Paramètre de configuration avancé**
->
-> Il existe 3 paramètres optionnel de configuration, ces paramètres doivent etre passé en variable d'environement
-> - APACHE_PORT : permet de changer le port par défaut (80) d'écoute du serveur web
-> - MODE_HOST : indique que le résaux est en mode host
+Cochez "Exécuter le conteneur à l’aide de privilèges élevés" puis validez le tout.
 
 > **IMPORTANT**
 >
-> Certain plugin on besoin d'avoir le broadcast du réseaux (type plugin Xioami), pour cela il faut ABSOLUMENT passer en le réseaux en mode host (possible uniquement lors de la création), changer le port d'écoute par defaut du serveur web et ssh par des ports non utilisé (type 9080 pour le serveur web et 9022 pour le ssh), et mettre la variable MODE_HOST à 1
+> Certain plugin on besoin d'avoir le broadcast du réseaux (type plugin Xioami), pour cela il faut ABSOLUMENT passer en le réseaux en mode host (possible uniquement lors de la création), changer le port d'écoute par defaut du serveur web (type 9080 pour le serveur web)
 
-Il vous faut maintenant installer Jeedom, c’est très simple, allez sur IP\_NAS:9080
+Après une phase de 1er démarrage plus ou moins longue vous avez juste à allez sur IP_NAS:9080
 
 Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
