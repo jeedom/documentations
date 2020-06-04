@@ -4,8 +4,6 @@
 >
 > Please note, we assume here that you are already familiar with Docker
 
-To discover Jeedom, you can also rotate it in a Docker container :
-
 ## Docker installation
 
 Docker is now available on all recent distributions.
@@ -21,7 +19,6 @@ yum install docker
 
 ````
 apt-gand update
-apt-gand install docker
 apt-gand install docker.io
 ````
 
@@ -33,14 +30,21 @@ Image installation :
 
 Then launch the :
 
-``sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/mysql:/var/lib/mysql -e ROOT_PASSWORD=your-root-password -p 9080:80 jeedom/jeedom``
+``sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/db:/var/lib/mysql -p 9080:80 jeedom/jeedom``
 
 With :
 
 -   ``jeedom-server`` : jeedom Docker name wanted
--   ``/opt/jeedom/www`` and ``/opt/jeedom/mysql`` : directory where Jeedom data is put on the host
--   ``your-root-password`` : root password to access Jeedom in SSH
+-   ``/opt/jeedom/www`` and ``/opt/jeedom/db`` : directory where Jeedom data is put on the host (be careful to create it before)
+
+> **TIPS**
+>
+> It is possible that after launching docker does not return your hand, nothing serious you can close everything jeedom will continue to run
 
 Then you need to install Jeedom by going to : ``IP_DOCKER:9080``
+
+> **TIPS**
+>
+> You can see the dockers turning ``docker ps`` to stop jeedom-server for example you just have to do ``docker stop jeedom-server``, to revive it ``docker start jeedom-server``
 
 For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)
