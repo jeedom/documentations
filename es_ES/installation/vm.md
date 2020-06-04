@@ -2,13 +2,13 @@
 
 Si desea descubrir Jeedom sin riesgo, también puede virtualizarlo en su PC, este es el procedimiento a seguir. No se arriesga en una máquina virtual, la integridad de su PC está protegida :
 
-## Descargue e instale VMware Player
+## Descargue e instale VirtualBox
 
 Debes descargar el software Virtual Box [Aquí](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
 
 ## Descargar una imagen de Strecht de Debian - netinstall
 
-Descargue una imagen minimalista de Debian 9 Stretch [Aquí](https://cdimage.debian.org/debian-cd/current/amd64/bt-cd/debian-10.3.0-amd64-netinst.iso.torrent)
+Descargue una imagen minimalista de Debian 10 Buster [Aquí](https://cdimage.debian.org/debian-cd/current/amd64/bt-cd/debian-10.3.0-amd64-netinst.iso.torrent)
 
 ## Configurar el entorno VM
 
