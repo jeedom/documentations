@@ -1,18 +1,43 @@
 # Instalación en Raspberry Pi
 
-Encontrará aquí la documentación para instalar Jeedom en una PI de frambuesa **con una tarjeta SD.**
+Encontrará aquí la documentación para instalar Jeedom en una PI de frambuesa **con una tarjeta SD.**. Hay 2 modos :
+
+- Automático (beta) : uso de la imagen para rapsberry pi hecha por Jeedom con Jeeodm de preinstalado
+- Línea de comando : instalación manual de jeedom desde Raspberry pi OS
 
 > **Importante**
 >
 > Debian 10 (Buster) es la distribución oficialmente compatible.
 
+# Instalación automática
+
+## Descargue la última imagen
+
+[aquí](https://images.jeedom.com/rpi/)
+
+## Grabe esta imagen en una SD con Raspberry Pi imager por ejemplo
+
+[aquí](https://www.raspberrypi.org/downloads/)
+
+## Comience el PI
+
+Inserte su tarjeta SD, conecte el cable de red, conecte la alimentación.
+
+> **Importante**
+>
+> Durante el primer inicio, la frambuesa pi puede ser lenta porque cambia el tamaño de la partición para que coincida con su tarjeta SD
+
+Il vous suffit ensuite dans votre navigateur de mettre : http://IP_RPI/ (en remplacent IP_RPI par l'ip de votre Raspberry pi).
+
+# Instalación de línea de comando
+
 ## Descargue la última imagen "lite""
 
 [aquí](https://downloads.raspberrypi.org/raspbian_lite_latest)
 
-## Grabe esta imagen en una SD con etcher, por ejemplo
+## Grabe esta imagen en una SD con Raspberry Pi imager por ejemplo
 
-[aquí](https://etcher.io/)
+[aquí](https://www.raspberrypi.org/downloads/)
 
 > **Nota**
 >
