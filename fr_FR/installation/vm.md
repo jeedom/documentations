@@ -6,6 +6,39 @@ Si vous voulez découvrir Jeedom sans risque, vous pouvez aussi le virtualiser s
 
 Vous devez télécharger le logicel Virtual Box [ICI](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
 
+# Installation automatique
+
+Téléchargez l'iso jeedom [ici](https://images.jeedom.com/x86-64/).
+
+## Configuration de l’environnement de la VM
+
+Cliquez sur nouvelle et renseignez les champs comme ci dessous :
+
+![VirtualBox1](images/VirtualBox1.PNG)
+
+-   Cliquez sur suivant, adapter la taille de la mémoire par rapport à votre système (1024 sont suffisants)
+-   Cliquez sur suivant, créer un disque virtuel maintenant
+-   Cliquez sur Créer, choisissez VDI
+-   Cliquez sur suivant, dynamiquement alloué
+-   Cliquez sur suivant, Choisissez une taille pour l’espace (4Go suffisent)
+-   Cliquez sur créer
+
+## Lancement de la VM
+
+-   Cliquez sur configuration
+-   Sélectionnez stockage
+-   Ajoutez un lecteur optique
+-   Choisissez un disque
+![VirtualBox2](images/VirtualBox2.PNG)
+-   Indiquez l’image précédemment téléchargée
+-   Sélectionnez ensuite réseau et choisissez "accès par pont" dans le mode d’accès réseau.
+![VirtualBox3](images/VirtualBox3.PNG)
+-   Cliquez sur OK \*Cliquez sur démarrer
+
+Selectionnez "Installer jeedom" (touche entrée du clavier), valider avec yes (touche flèche bas puis entrée). Toute la suite va se faire automatiquement (10 à 30min), puis une fois la vm redemarré attendant 5min et vous devriez avoir accès à Jeedom en mettant simplement l'ip de jeedom dans un navigateur.
+
+# Installation manuel
+
 ## Téléchargement d’une image Debian strecht - netinstall
 
 Téléchargez une image minimaliste debian 10 Buster [Ici](https://cdimage.debian.org/debian-cd/current/amd64/bt-cd/debian-10.3.0-amd64-netinst.iso.torrent)

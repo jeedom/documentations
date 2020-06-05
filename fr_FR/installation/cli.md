@@ -1,6 +1,6 @@
 # Installation en ligne de commande
 
-Vous trouverez ici la documentation pour installer Jeedom sur la plupart des systèmes linux (testée et approuvée sur la distribution Debian)
+Vous trouverez ici la documentation pour installer Jeedom sur Debian
 
 > **Important**
 >
