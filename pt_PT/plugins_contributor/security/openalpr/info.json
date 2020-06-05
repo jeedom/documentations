@@ -4,7 +4,7 @@
 	"description" : "Plugin permanent de faire de la reconnaissance de plaque d'immatriculation avec nos camera",
 	"licence" : "AGPL",
 	"author" : "Halbout Michael",
-	"require" : "3.4",
+	"require" : "3.3",
 	"category" : "security",
 	"display" : "panel",
 	"mobile" : "panel",
