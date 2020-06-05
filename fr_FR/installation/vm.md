@@ -4,7 +4,7 @@ Si vous voulez découvrir Jeedom sans risque, vous pouvez aussi le virtualiser s
 
 ## Téléchargement et installation de VirtualBox
 
-Vous devez télécharger le logicel Virtual Box [ICI](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
+Vous devez télécharger le logicel Virtual Box [ici](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
 
 # Installation automatique
 
@@ -35,7 +35,7 @@ Cliquez sur nouvelle et renseignez les champs comme ci dessous :
 ![VirtualBox3](images/VirtualBox3.PNG)
 -   Cliquez sur OK \*Cliquez sur démarrer
 
-Selectionnez "Installer jeedom" (touche entrée du clavier), valider avec yes (touche flèche bas puis entrée). Toute la suite va se faire automatiquement (10 à 30min), puis une fois la vm redemarré attendant 5min et vous devriez avoir accès à Jeedom en mettant simplement l'ip de jeedom dans un navigateur.
+Selectionnez "Install on disk" (touche entrée du clavier), valider avec yes (touche flèche bas puis entrée). Toute la suite va se faire automatiquement (10 à 30min), puis une fois la vm redemarré attendant 5min et vous devriez avoir accès à Jeedom en mettant simplement l'ip de jeedom dans un navigateur.
 
 >**TIPS**
 >

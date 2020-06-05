@@ -1,5 +1,11 @@
 # Installation en ligne de commande
 
+# Installation automatique
+
+Vous pouvez directement installer l'OS et Jeedom en meme temps tout automatiquent en partant de l'iso disponible [ici](https://images.jeedom.com/x86-64/). Vous avez juste ensuite à faire "Install on disk" (touche entrée), puis "yes" (flèche bas puis entrée). Toute la suite va se faire automatiquement (10 à 30min), puis une fois la vm redemarré attendant 5min et vous devriez avoir accès à Jeedom en mettant simplement l'ip de jeedom dans un navigateur.
+
+# Installation manuel
+
 Vous trouverez ici la documentation pour installer Jeedom sur Debian
 
 > **Important**
@@ -9,6 +15,10 @@ Vous trouverez ici la documentation pour installer Jeedom sur Debian
 > **Important**
 >
 > Le script d’installation peut être dangereux, car il part du principe que votre système est vierge. Si ce n’est pas le cas merci de lire le script et de faire une installation à la main.
+
+>**TIPS**
+>
+>Pour connaitre l'ip de la vm (une fois connecté dessus, les identifiants s'affichent sur l'écran de connexion) faite ``ip -s -c -h a``
 
 Connectez-vous en SSH à votre système et faites :
 
