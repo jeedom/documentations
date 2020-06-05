@@ -37,6 +37,10 @@ Cliquez sur nouvelle et renseignez les champs comme ci dessous :
 
 Selectionnez "Installer jeedom" (touche entrée du clavier), valider avec yes (touche flèche bas puis entrée). Toute la suite va se faire automatiquement (10 à 30min), puis une fois la vm redemarré attendant 5min et vous devriez avoir accès à Jeedom en mettant simplement l'ip de jeedom dans un navigateur.
 
+>**TIPS**
+>
+>Pour connaitre l'ip de la vm (une fois connecté dessus, les identifiants s'affichent sur l'écran de connexion) faite ``ip -s -c -h a``
+
 # Installation manuel
 
 ## Téléchargement d’une image Debian strecht - netinstall
