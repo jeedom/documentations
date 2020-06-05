@@ -4,7 +4,44 @@ Wenn Sie Jeedom ohne Risiko entdecken möchten, können Sie es auch auf Ihrem PC
 
 ## Laden Sie VirtualBox herunter und installieren Sie es
 
-Sie müssen die Virtual Box-Software herunterladen [Hier](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
+Sie müssen die Virtual Box-Software herunterladen [hier](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
+
+# Automatische Installation
+
+Laden Sie die Jeedom ISO herunter [hier](https://images.jeedom.com/x86-64/).
+
+## Konfigurieren der VM-Umgebung
+
+Klicken Sie auf Neu und füllen Sie die Felder wie folgt aus :
+
+![VirtualBox1](images/VirtualBox1.PNG)
+
+-   Klicken Sie auf Weiter und passen Sie die Speichergröße an Ihr System an (1024 sind ausreichend)
+-   Klicken Sie auf Weiter und erstellen Sie jetzt eine virtuelle Festplatte
+-   Klicken Sie auf Erstellen und wählen Sie VDI
+-   Klicken Sie auf Weiter, dynamisch zugeordnet
+-   Klicken Sie auf Weiter. Wählen Sie eine Größe für den Speicherplatz (4 GB sind ausreichend)
+-   Klicken Sie auf Erstellen
+
+## VM-Start
+
+-   Klicken Sie auf Konfiguration
+-   Speicher auswählen
+-   Fügen Sie ein optisches Laufwerk hinzu
+-   Wählen Sie eine Disc
+![VirtualBox2](images/VirtualBox2.PNG)
+-   Geben Sie das zuvor heruntergeladene Bild an
+-   Wählen Sie dann Netzwerk und im Netzwerkzugriffsmodus "Bridge-Zugriff".
+![VirtualBox3](images/VirtualBox3.PNG)
+-   Klicken Sie auf OK \* Klicken Sie auf Start
+
+Wählen Sie "Auf Festplatte installieren" (Eingabetaste auf der Tastatur), bestätigen Sie mit Ja (Abwärtspfeiltaste und geben Sie dann ein). Der Rest wird automatisch erledigt (10 bis 30 Minuten). Sobald der VM neu gestartet wurde, warten Sie 5 Minuten. Sie sollten Zugriff auf Jeedom haben, indem Sie einfach die IP von Jeedom in einen Browser einfügen.
+
+>**Tipps**
+>
+>Um die IP der VM herauszufinden (sobald sie mit ihr verbunden ist, werden die Kennungen auf dem Verbindungsbildschirm angezeigt) ``ip -s -c -h a``
+
+# Manuelle Installation
 
 ## Herunterladen eines Debian-Strecht-Images - netinstall
 

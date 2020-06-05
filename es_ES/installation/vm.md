@@ -4,7 +4,44 @@ Si desea descubrir Jeedom sin riesgo, también puede virtualizarlo en su PC, est
 
 ## Descargue e instale VirtualBox
 
-Debes descargar el software Virtual Box [Aquí](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
+Debes descargar el software Virtual Box [aquí](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
+
+# Instalación automática
+
+Descargar la iso de jeedom [aquí](https://images.jeedom.com/x86-64/).
+
+## Configurar el entorno VM
+
+Haga clic en nuevo y complete los campos a continuación :
+
+![VirtualBox1](images/VirtualBox1.PNG)
+
+-   Haga clic en siguiente, adapte el tamaño de la memoria en relación con su sistema (1024 son suficientes)
+-   Haga clic en Siguiente, cree un disco virtual ahora
+-   Haga clic en Crear, elija VDI
+-   Haga clic en siguiente, asignado dinámicamente
+-   Haga clic en siguiente, elija un tamaño para el espacio (4 GB es suficiente)
+-   Haga clic en crear
+
+## Lanzamiento de VM
+
+-   Haga clic en configuración
+-   Seleccionar almacenamiento
+-   Agregar una unidad óptica
+-   Elige un disco
+![VirtualBox2](images/VirtualBox2.PNG)
+-   Indica la imagen descargada previamente
+-   Luego seleccione la red y elija "acceso de puente" en el modo de acceso a la red.
+![VirtualBox3](images/VirtualBox3.PNG)
+-   Haga clic en Aceptar \* Haga clic en Inicio
+
+Seleccione "Instalar en disco" (ingrese la tecla en el teclado), confirme con sí (tecla de flecha hacia abajo y luego ingrese). Todo lo demás se hará automáticamente (de 10 a 30 minutos), luego, una vez que el vm se reinicie, esperará 5 minutos y deberá tener acceso a Jeedom simplemente poniendo la ip de jeedom en un navegador.
+
+>**Consejos**
+>
+>Para conocer la IP de la VM (una vez conectada a ella, los identificadores se muestran en la pantalla de conexión) ``ip -s -c -h a``
+
+# Instalación manual
 
 ## Descargar una imagen de Strecht de Debian - netinstall
 

@@ -4,7 +4,44 @@ If you want to discover Jeedom without risk, you can also virtualize it on your 
 
 ## Download and install VirtualBox
 
-You must download the Virtual Box software [Here](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
+You must download the Virtual Box software [here](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
+
+# Automatic installation
+
+Download the jeedom iso [here](https://images.jeedom.com/x86-64/).
+
+## Configuring the VM environment
+
+Click on new and fill in the fields as below :
+
+![VirtualBox1](images/VirtualBox1.PNG)
+
+-   Click on next, adapt the memory size in relation to your system (1024 are sufficient)
+-   Click next, create a virtual disk now
+-   Click Create, choose VDI
+-   Click on next, dynamically allocated
+-   Click on next, Choose a size for the space (4GB is enough)
+-   Click on create
+
+## VM launch
+
+-   Click on configuration
+-   Select storage
+-   Add an optical drive
+-   Choose a disc
+![VirtualBox2](images/VirtualBox2.PNG)
+-   Indicate the image previously downloaded
+-   Then select network and choose "bridge access" in network access mode.
+![VirtualBox3](images/VirtualBox3.PNG)
+-   Click OK \* Click start
+
+Select "Install on disk" (enter key on the keyboard), confirm with yes (down arrow key then enter). All the rest will be done automatically (10 to 30min), then once the vm restarted waiting 5min and you should have access to Jeedom by simply putting the ip of jeedom in a browser.
+
+>**TIPS**
+>
+>To find out the IP of the VM (once connected to it, the identifiers are displayed on the connection screen) ``ip -s -c -h a``
+
+# Manual installation
 
 ## Downloading a Debian strecht image - netinstall
 

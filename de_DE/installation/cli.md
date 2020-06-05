@@ -1,6 +1,12 @@
 # Befehlszeileninstallation
 
-Hier finden Sie die Dokumentation zur Installation von Jeedom auf den meisten Linux-Systemen (getestet und genehmigt in der Debian-Distribution)
+# Automatische Installation
+
+Sie können das Betriebssystem und Jeedom gleichzeitig direkt installieren und gleichzeitig von der verfügbaren ISO aus automatisieren [hier](https://images.jeedom.com/x86-64/). Sie müssen dann nur noch "Auf Festplatte installieren" (Eingabetaste) und dann "Ja" (Abwärtspfeil und dann Eingabe) ausführen). Der Rest wird automatisch erledigt (10 bis 30 Minuten). Sobald der VM neu gestartet wurde, warten Sie 5 Minuten. Sie sollten Zugriff auf Jeedom haben, indem Sie einfach die IP von Jeedom in einen Browser einfügen.
+
+# Manuelle Installation
+
+Hier finden Sie die Dokumentation zur Installation von Jeedom auf Debian
 
 > **Wichtig**
 >
@@ -9,6 +15,10 @@ Hier finden Sie die Dokumentation zur Installation von Jeedom auf den meisten Li
 > **Wichtig**
 >
 > Das Installationsskript kann gefährlich sein, da davon ausgegangen wird, dass Ihr System leer ist. Wenn nicht, lesen Sie bitte das Skript und installieren Sie es von Hand.
+
+>**Tipps**
+>
+>Um die IP der VM herauszufinden (sobald sie mit ihr verbunden ist, werden die Kennungen auf dem Verbindungsbildschirm angezeigt) ``ip -s -c -h a``
 
 Stellen Sie in SSH eine Verbindung zu Ihrem System her und tun Sie dies :
 
