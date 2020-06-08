@@ -1,7 +1,7 @@
 {
 	"id" : "heta",
 	"name" : "Heta",
-	"description" : "Plugin pilotage des poëles à pellet Heta équipé du boitier WiRCU",
+	"description" : "Plugin pilotage des poëles à pellet Heta, AustroFlamm équipés du boitier WiRCU",
 	"licence" : "AGPL",
 	"author" : "edeweerdt",
 	"require" : "3.0",

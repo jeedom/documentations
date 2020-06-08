@@ -262,6 +262,8 @@
         "Intégration du Thermostat Qivivo": "Intégration du Thermostat Qivivo",
         "Gestion Humidité": "Gestion Humidité",
         "Plugin pour la gestion de l'humidité grâce à un humidificateur ou déshumidificateur d'air": "Plugin pour la gestion de l'humidité grâce à un humidificateur ou déshumidificateur d'air",
+        "Heta": "Heta",
+        "Plugin pilotage des poëles à pellet Heta, AustroFlamm équipés du boitier WiRCU": "Plugin pilotage des poëles à pellet Heta, AustroFlamm équipés du boitier WiRCU",
         "ELM Touch": "ELM Touch",
         "Plugin pour la régulation de chaudière gaz Elm Leblanc avec le thermostat connecté ELM Touch": "Plugin pour la régulation de chaudière gaz Elm Leblanc avec le thermostat connecté ELM Touch",
         "Confort": "Confort",
