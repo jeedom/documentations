@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 06/08/2020
+
+- Added type ZGPSwitch (button friend of hue)
+
 # 05/25/2020
 
 - Correction of a concern on the generic type of color lights (it is advisable to correct the generic type for the command of color action type otherwise this may cause problems in Alexa or Google home, light which goes out during the ON request)

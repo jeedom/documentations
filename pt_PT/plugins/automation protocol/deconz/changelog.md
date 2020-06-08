@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 06/08/2020
+
+- Adicionado tipo ZGPSwitch (botão amigo de matiz)
+
 # 25/05/2020
 
 - Correção de uma preocupação com o tipo genérico de luzes coloridas (é recomendável corrigir o tipo genérico para o comando do tipo de ação de cores, caso contrário, isso poderá causar problemas no Alexa ou no Google home, luz que apaga durante a solicitação LIGADA)

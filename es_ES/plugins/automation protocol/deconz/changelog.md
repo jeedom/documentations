@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 06/08/2020
+
+- Tipo agregado ZGPSwitch (botón amigo del tono)
+
 # 25/05/2020
 
 - Corrección de una inquietud sobre el tipo genérico de luces de color (es aconsejable corregir el tipo genérico para el comando del tipo de acción de color; de lo contrario, esto puede causar problemas en Alexa o Google home, luz que se apaga durante la solicitud ON)

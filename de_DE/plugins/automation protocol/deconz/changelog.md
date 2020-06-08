@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 06.08.2020
+
+- Typ ZGPSwitch (Button Friend of Hue) hinzugefügt)
+
 # 25.05.2020
 
 - Korrektur eines Problems bezüglich des generischen Farbtyps (es ist ratsam, den generischen Typ für den Befehl des Farbtyps zu korrigieren, da dies sonst zu Problemen in Alexa oder Google Home führen kann, wenn das Licht während der EIN-Anforderung erlischt)
