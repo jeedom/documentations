@@ -1,7 +1,7 @@
 # Kamerakompatibilität
 
 |Image|Nom|Remarque|Lien|
-|---|---|---|---|---|---|
+|---|---|---|---|
 |<img src="../../de_DE/camera/images/alcatel.portiervideo.jpg" width="60" />|IP_Linkcom / Alcatel Videotür-Eingangseinheit|||
 |<img src="../../de_DE/camera/images/android.ipwebcam.jpg" width="60" />|Android IP Webcam|||
 |<img src="../../de_DE/camera/images/axis.207w.jpg" width="60" />|Axis|||
