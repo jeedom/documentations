@@ -1,7 +1,7 @@
 {
   "id": "netatmoPublicData",
   "name": "Netatmo OpenData",
-  "description": "Récupèrer les données de vos stations météos Netatmo de votre choix et gratuitement. Vos voisins ont une station Netatmo ? <br />  Ce plugin est fait pour vous ! <br/><br/><br/>English : Display your favorite weather stations (owned or public) from Netatmo, for free ! \n",
+  "description": "Vos voisins ont une station météo Netatmo dans leur jardin (et pas vous ) ? <br><strong>Récupèrer leurs données pour votre Jeedom</strong> (température, pression, pluie, vent...) et gratuitement. <br><br> \nDepuis la carte Netatmo, sélectionnez jusqu'à 5 stations favorites, puis elles seront visibles dans Jeedom et utilisable dans vos Scnéraios, Vues, Design, etc.  Notamment : \n\n<br>- Température\n<br>- Pression\n<br>- Vent ( Vitesse + Direction)\n<br>- Rafales de vent ( Vitesse + Direction)\n<br>- Pluie (Temps réel + sur 1h + sur la journée )  \n\n  <br><br><br>English : Display your favorite weather stations (owned or public) from Netatmo, for free !",
   "version": "1.0",
   "licence": "AGPL",
   "author": "Jim005",
