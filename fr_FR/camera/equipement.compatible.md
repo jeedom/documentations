@@ -15,7 +15,6 @@
 |<img src="../../fr_FR/camera/images/dericam.h502w.jpg" width="60" />|Dericam H502W|||
 |<img src="../../fr_FR/camera/images/ebode.ext.jpg" width="60" />|Ebode extérieure|||
 |<img src="../../fr_FR/camera/images/ebode.mot.hd.jpg" width="60" />|Ebode HD motorisée|||
-|<img src="../../fr_FR/camera/images/ebode.mot.jpg" width="60" />||||
 |<img src="../../fr_FR/camera/images/foscam.FI9803EP.jpg" width="60" />|Foscam FI9803EP|||
 |<img src="../../fr_FR/camera/images/foscam.FI9803P.jpg" width="60" />|Foscam FI9803P|||
 |<img src="../../fr_FR/camera/images/foscam.R2.jpg" width="60" />|Foscam R2|||
@@ -44,7 +43,6 @@
 |<img src="../../fr_FR/camera/images/wanscam.hw0021.jpg" width="60" />|Wanscam HW0021|||
 |<img src="../../fr_FR/camera/images/wanscam.hw0026.jpg" width="60" />|Wanscam HW0026|||
 |<img src="../../fr_FR/camera/images/wanscam.hw0036.jpg" width="60" />|Wanscam HW0036|||
-|<img src="../../fr_FR/camera/images/wanscam.hw0038.jpg" width="60" />||||
 |<img src="../../fr_FR/camera/images/wanscam.hw0043.jpg" width="60" />|Wanscam HW0043|||
 |<img src="../../fr_FR/camera/images/wanscam.hw0045.jpg" width="60" />|Wanscam HW0045|||
 |<img src="../../fr_FR/camera/images/wanscam.hw0049.jpg" width="60" />|Wanscam HW0049|||
