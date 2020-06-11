@@ -7,7 +7,7 @@
 # 11/11/2020
 
 - Adding configuration
-- Possibility to see the camera in video stream (and no longer image by image)
+- Possibility to see the camera in video stream (and no longer frame by frame) - Beta
 - Redesign of the camera pre-configuration system
 
 # 05/11/2020

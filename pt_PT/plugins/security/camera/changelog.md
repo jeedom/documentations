@@ -7,7 +7,7 @@
 # 11/11/2020
 
 - Adicionando configuração
-- Possibilidade de ver a câmera no fluxo de vídeo (e não mais imagem por imagem)
+- Possibilidade de ver a câmera em fluxo de vídeo (e não mais quadro a quadro) - Beta
 - Redesign do sistema de pré-configuração da câmera
 
 # 05/11/2020

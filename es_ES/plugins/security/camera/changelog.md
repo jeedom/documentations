@@ -7,7 +7,7 @@
 # 11/11/2020
 
 - Agregar configuración
-- Posibilidad de ver la cámara en transmisión de video (y ya no imagen por imagen)
+- Posibilidad de ver la cámara en transmisión de video (y ya no cuadro por cuadro) - Beta
 - Rediseño del sistema de preconfiguración de la cámara
 
 # 05/11/2020

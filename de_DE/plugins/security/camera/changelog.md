@@ -7,7 +7,7 @@
 # 11/11/2020
 
 - Konfiguration hinzufügen
-- Möglichkeit, die Kamera im Videostream zu sehen (und nicht mehr Bild für Bild)
+- Möglichkeit, die Kamera im Videostream zu sehen (und nicht mehr Frame für Frame) - Beta
 - Neugestaltung des Kamera-Vorkonfigurationssystems
 
 # 05/11/2020
