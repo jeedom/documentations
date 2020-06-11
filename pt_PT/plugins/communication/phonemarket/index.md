@@ -8,7 +8,7 @@ Plug-in para enviar SMS e fazer chamadas com mensagens automáticas da Jeedom.
 
 > **Dica**
 >
-> O plug-in funciona em um sistema de crédito, 1 SMS = 1 crédito para a França, caso contrário, 2 créditos, 1 chamada = 2 créditos para a França, caso contrário, 4 créditos. Você pode verificar seu crédito [aqui](http://market.jeedom.fr/index.php?v=d&p=profils&tab=sms). No caso de créditos baixos (menos de 5), um e-mail será enviado a você.
+> O plug-in funciona em um sistema de crédito, 1 SMS = 1 crédito para a França, caso contrário, 2 créditos, 1 chamada = 2 créditos para a França, caso contrário, 4 créditos. Você pode verificar seu crédito [aqui](https://market.jeedom.com/index.php?v=d&p=profils#services). No caso de créditos baixos (menos de 5), um e-mail será enviado a você.
 
 > **IMPORTANTE**
 >
@@ -36,7 +36,7 @@ Depois de clicar em um deles, você obtém :
 
 Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nome de l'équipement Phonemarket** : nome do seu equipamento Phonemarket,
+-   **Nome do equipamento do telefone comercial** : nome do seu equipamento Phonemarket,
 -   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
 -   **Ativar** : torna seu equipamento ativo,
 -   **Visivél** : torna seu equipamento visível no painel.
@@ -44,7 +44,7 @@ Aqui você encontra toda a configuração do seu equipamento :
 Abaixo você encontra a lista de pedidos :
 
 -   **Nome** : o nome exibido no painel,
--   **Tipo** : tipo de pedido (chamadas ou sms),
+-   **Tipo** : tipo de comando (chamadas ou sms),
 -   **Número** : número de telefone a ser chamado ou para quem um SMS deve ser enviado (dependendo do tipo),
 -   **Teste** : permite testar o comando,
--   **Remover** (sinal -) : permite excluir o comando.
+-   **Remover** (placa -) : permite excluir o comando.

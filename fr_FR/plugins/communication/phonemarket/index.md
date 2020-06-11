@@ -8,7 +8,7 @@ Plugin permettant d’envoyer des SMS et de passer des appels avec messages auto
 
 > **Tip**
 >
-> Le plugin marche sur un système de crédit, 1 SMS  = 1 crédit pour la France sinon 2 crédits, 1 appel = 2 crédits pour la France sinon 4 crédits. Vous pouvez consulter votre crédit [ici](http://market.jeedom.fr/index.php?v=d&p=profils&tab=sms). En cas de crédits faibles (moins de 5), un mail vous sera envoyé.
+> Le plugin marche sur un système de crédit, 1 SMS  = 1 crédit pour la France sinon 2 crédits, 1 appel = 2 crédits pour la France sinon 4 crédits. Vous pouvez consulter votre crédit [ici](https://market.jeedom.com/index.php?v=d&p=profils#services). En cas de crédits faibles (moins de 5), un mail vous sera envoyé.
 
 > **Important**
 >

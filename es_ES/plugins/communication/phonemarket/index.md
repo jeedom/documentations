@@ -8,7 +8,7 @@ Complemento para enviar SMS y hacer llamadas con mensajes automáticos de Jeedom
 
 > **Punta**
 >
-> El complemento funciona en un sistema de crédito, 1 SMS = 1 crédito para Francia, de lo contrario 2 créditos, 1 llamada = 2 créditos para Francia, de lo contrario 4 créditos. Puedes consultar tu crédito [aquí](http://market.jeedom.fr/index.php?v=d&p=profils&tab=sms). En caso de créditos bajos (menos de 5), se le enviará un correo electrónico.
+> El complemento funciona en un sistema de crédito, 1 SMS = 1 crédito para Francia, de lo contrario 2 créditos, 1 llamada = 2 créditos para Francia, de lo contrario 4 créditos. Puedes consultar tu crédito [aquí](https://market.jeedom.com/index.php?v=d&p=profils#services). En caso de créditos bajos (menos de 5), se le enviará un correo electrónico.
 
 > **Importante**
 >
@@ -36,7 +36,7 @@ Una vez que haces clic en uno de ellos, obtienes :
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nombre de l'équipement Phonemarket** : nombre de su equipo de Phonemarket,
+-   **Nombre del equipo del mercado telefónico** : nombre de su equipo de Phonemarket,
 -   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
 -   **Activar** : activa su equipo,
 -   **Visible** : hace que su equipo sea visible en el tablero.
@@ -44,7 +44,7 @@ Aquí encontrarás toda la configuración de tu equipo :
 A continuación encontrará la lista de pedidos :
 
 -   **Nombre** : el nombre que se muestra en el tablero,
--   **Tipo** : tipo de orden (llamadas o sms),
--   **Número** : número de teléfono a llamar o a quién se debe enviar un SMS (según el tipo),
+-   **Tipo** : tipo de comando (llamadas o sms),
+-   **Número** : número de teléfono al que se debe llamar o a quién se debe enviar un SMS (según el tipo),
 -   **Probar** : Se usa para probar el comando,
 -   **Borrar** (signo -) : permite eliminar el comando.
