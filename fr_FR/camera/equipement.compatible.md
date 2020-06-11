@@ -30,7 +30,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/camera/images/d-link.dcs-5300g.jpg" width="60" />|D-Link|DCS-5300G||||
-|<img src="../../fr_FR/camera/images/d-link.dcs-932l.jpg" width="60" />|D-link|||||
+|<img src="../../fr_FR/camera/images/d-link.dcs-932l.jpg" width="60" />|D-Link|DCS 932l||||
 |<img src="../../fr_FR/camera/images/d-link.dcs-no-ptz.jpg" width="60" />|D-Link|DCS||||
 |<img src="../../fr_FR/camera/images/d-link.dcs-ptz.jpg" width="60" />|D-Link|DCS PTZ||||
 |<img src="../../fr_FR/camera/images/d-link.dsc-5020l.jpg" width="60" />|D-Link|DSC-5020L && DCS-935L||||
@@ -60,7 +60,7 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/camera/images/ebode.ext.jpg" width="60" />|Ebode|Extérieure||||
 |<img src="../../fr_FR/camera/images/ebode.mot.hd.jpg" width="60" />|Ebode|HD motorisée||||
-|<img src="../../fr_FR/camera/images/ebode.mot.jpg" width="60" />|Ebode|||||
+|<img src="../../fr_FR/camera/images/ebode.mot.jpg" width="60" />|Ebode|Motorisée||||
 
 # Foscam
 
@@ -165,7 +165,7 @@
 |<img src="../../fr_FR/camera/images/wanscam.hw0021.jpg" width="60" />|Wanscam|HW0021||||
 |<img src="../../fr_FR/camera/images/wanscam.hw0026.jpg" width="60" />|Wanscam|HW0026||||
 |<img src="../../fr_FR/camera/images/wanscam.hw0036.jpg" width="60" />|Wanscam|HW0036||||
-|<img src="../../fr_FR/camera/images/wanscam.hw0038.jpg" width="60" />|Wanscam|||||
+|<img src="../../fr_FR/camera/images/wanscam.hw0038.jpg" width="60" />|Wanscam|HW0038||||
 |<img src="../../fr_FR/camera/images/wanscam.hw0043.jpg" width="60" />|Wanscam|HW0043||||
 |<img src="../../fr_FR/camera/images/wanscam.hw0045.jpg" width="60" />|Wanscam|HW0045||||
 |<img src="../../fr_FR/camera/images/wanscam.hw0049.jpg" width="60" />|Wanscam|HW0049||||
