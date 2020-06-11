@@ -86,7 +86,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/camera/images/hikvision.DS-7216HWI-SH-A.jpg" width="60" />|Hikvision|DS-7216HWI-SH/A||(XXX = 101 pour le channel 1 / XXX = 202 pour le channe 2)||
-||Hikvision|DS-2CD2132-I, DS-2CD3332-I, DS-2CD2232-I5, DS-2CD2732F-IS||||
+|<img src="../../fr_FR/camera/images/hikvision.ds-2cd2132-I.jpg" width="60" />|Hikvision|DS-2CD2132-I, DS-2CD3332-I, DS-2CD2232-I5, DS-2CD2732F-IS||||
 
 # Karotz
 
