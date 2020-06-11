@@ -5,19 +5,19 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/alcatel.portiervideo.jpg" width="60" />|Alcatel|IP_Linkcom/Alcatel portier video||||
+|<img src="../../fr_FR/camera/images/alcatel.portiervideo.jpg" width="60" />|Alcatel|IP_Linkcom/ portier video||||
 
 # Android
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/android.ipwebcam.jpg" width="60" />|Android|Android IP Webcam||||
+|<img src="../../fr_FR/camera/images/android.ipwebcam.jpg" width="60" />|Android|IP Webcam||||
 
 # Axis
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/axis.207w.jpg" width="60" />|Axis|Axis||||
+|<img src="../../fr_FR/camera/images/axis.207w.jpg" width="60" />|Axis|||||
 |<img src="../../fr_FR/camera/images/bluestork.cam.jpg" width="60" />|Axis|Bluestork||||
 
 # D-link
@@ -35,38 +35,38 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/dahua.SD22204T-GN-W.jpg" width="60" />|Dahua|Dahua SD22204T-GN-W||||
+|<img src="../../fr_FR/camera/images/dahua.SD22204T-GN-W.jpg" width="60" />|Dahua|SD22204T-GN-W||||
 
 # Dericam
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/dericam.h502w.jpg" width="60" />|Dericam|Dericam H502W||||
+|<img src="../../fr_FR/camera/images/dericam.h502w.jpg" width="60" />|Dericam|H502W||||
 
 # Doorbird
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/doorbird.jpg" width="60" />|Doorbird|Doorbird||||
+|<img src="../../fr_FR/camera/images/doorbird.jpg" width="60" />|Doorbird|||||
 
 # Ebode
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/ebode.ext.jpg" width="60" />|Ebode|Ebode extérieure||||
-|<img src="../../fr_FR/camera/images/ebode.mot.hd.jpg" width="60" />|Ebode|Ebode HD motorisée||||
+|<img src="../../fr_FR/camera/images/ebode.ext.jpg" width="60" />|Ebode|extérieure||||
+|<img src="../../fr_FR/camera/images/ebode.mot.hd.jpg" width="60" />|Ebode|HD motorisée||||
 |<img src="../../fr_FR/camera/images/ebode.mot.jpg" width="60" />|Ebode|||||
 
 # Foscam
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/foscam.FI9803EP.jpg" width="60" />|Foscam|Foscam FI9803EP|||[Acheter](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
-|<img src="../../fr_FR/camera/images/foscam.FI9803P.jpg" width="60" />|Foscam|Foscam FI9803P|||[Acheter](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
-|<img src="../../fr_FR/camera/images/foscam.R2.jpg" width="60" />|Foscam|Foscam R2|||[Acheter](https://www.domadoo.fr/fr/cameras/4976-foscam-camera-ip-wifi-interieure-motorisee-2mp-6954836001486.html)|
-|<img src="../../fr_FR/camera/images/foscam.hd.jpg" width="60" />|Foscam|Foscam HD||Prise en charge de la plupart des cameras Foscam HD|[Acheter](https://www.domadoo.fr/fr/cameras/4975-foscam-camera-ip-wifi-interieure-2mp-6954836069547.html)|
-|<img src="../../fr_FR/camera/images/foscam.mot.hd.jpg" width="60" />|Foscam|Foscam HD motorisée||Prise en charge de la plupart des cameras Foscam motorisées HD|[Acheter](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
-|<img src="../../fr_FR/camera/images/foscam.mot.jpg" width="60" />|Foscam|Foscam motorisée||Prise en charge de la plupart des cameras Foscam motorisées|[Acheter](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
+|<img src="../../fr_FR/camera/images/foscam.FI9803EP.jpg" width="60" />|Foscam|FI9803EP|||[Acheter](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
+|<img src="../../fr_FR/camera/images/foscam.FI9803P.jpg" width="60" />|Foscam|FI9803P|||[Acheter](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
+|<img src="../../fr_FR/camera/images/foscam.R2.jpg" width="60" />|Foscam|R2|||[Acheter](https://www.domadoo.fr/fr/cameras/4976-foscam-camera-ip-wifi-interieure-motorisee-2mp-6954836001486.html)|
+|<img src="../../fr_FR/camera/images/foscam.hd.jpg" width="60" />|Foscam|HD||Prise en charge de la plupart des cameras Foscam HD|[Acheter](https://www.domadoo.fr/fr/cameras/4975-foscam-camera-ip-wifi-interieure-2mp-6954836069547.html)|
+|<img src="../../fr_FR/camera/images/foscam.mot.hd.jpg" width="60" />|Foscam|HD motorisée||Prise en charge de la plupart des cameras Foscam motorisées HD|[Acheter](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
+|<img src="../../fr_FR/camera/images/foscam.mot.jpg" width="60" />|Foscam|motorisée||Prise en charge de la plupart des cameras Foscam motorisées|[Acheter](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
 
 # Hedden
 
@@ -87,39 +87,39 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/karotz.jpg" width="60" />|Karotz|Karotz||||
+|<img src="../../fr_FR/camera/images/karotz.jpg" width="60" />|Karotz|||||
 |<img src="../../fr_FR/camera/images/openkarotz.cam.jpg" width="60" />|Karotz|Openkarotz Camera||||
 
 # Konx
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/konx.portier.jpg" width="60" />|Konx|Konx portier vidéo||||
+|<img src="../../fr_FR/camera/images/konx.portier.jpg" width="60" />|Konx|portier vidéo||||
 
 # Mustcam
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/mustcam.mot.hd.jpg" width="60" />|Mustcam|Mustcam HD motorisée||||
+|<img src="../../fr_FR/camera/images/mustcam.mot.hd.jpg" width="60" />|Mustcam|HD motorisée||||
 
 # Netatmo
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/presence.jpg" width="60" />|Netatmo|Netatmo Presence||Necessite absolument le plugin Netatmo Security (payant)|[Acheter](https://www.domadoo.fr/fr/objets-communicants/3855-netatmo-camera-exterieure-de-securite-presence-3700730501866.html)|
-|<img src="../../fr_FR/camera/images/welcome.jpg" width="60" />|Netatmo|Netatmo Welcome||Necessite absolument le plugin Netatmo Security (payant)|[Acheter](https://www.domadoo.fr/fr/objets-communicants/3064-netatmo-camera-a-reconnaissance-faciale-welcome-3700730500623.html)|
+|<img src="../../fr_FR/camera/images/presence.jpg" width="60" />|Netatmo|Presence||Necessite absolument le plugin Netatmo Security (payant)|[Acheter](https://www.domadoo.fr/fr/objets-communicants/3855-netatmo-camera-exterieure-de-securite-presence-3700730501866.html)|
+|<img src="../../fr_FR/camera/images/welcome.jpg" width="60" />|Netatmo|Welcome||Necessite absolument le plugin Netatmo Security (payant)|[Acheter](https://www.domadoo.fr/fr/objets-communicants/3064-netatmo-camera-a-reconnaissance-faciale-welcome-3700730500623.html)|
 
 # Onvif
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/onvif.jpg" width="60" />|Onvif|Onvif||Découverte des caméras Onvif (attention ne marche pas toujours, aucune garantie possible)||
+|<img src="../../fr_FR/camera/images/onvif.jpg" width="60" />|Onvif|||Découverte des caméras Onvif (attention ne marche pas toujours, aucune garantie possible)||
 
 # Panasonic
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/panasonic.bl-c121.jpg" width="60" />|Panasonic|Panasonic BL-C121||||
+|<img src="../../fr_FR/camera/images/panasonic.bl-c121.jpg" width="60" />|Panasonic|BL-C121||||
 
 # Rpi
 
@@ -131,7 +131,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/tenvis.jpg" width="60" />|Tenvis|Tenvis||||
+|<img src="../../fr_FR/camera/images/tenvis.jpg" width="60" />|Tenvis|||||
 
 # Trendnet
 
@@ -151,22 +151,22 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/vivotek.7xxx-8xxx.jpg" width="60" />|Vivotek|Vivotek 8xxx et 7xxx||||
+|<img src="../../fr_FR/camera/images/vivotek.7xxx-8xxx.jpg" width="60" />|Vivotek|8xxx et 7xxx||||
 
 # Wanscam
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/wanscam.hw0021.jpg" width="60" />|Wanscam|Wanscam HW0021||||
-|<img src="../../fr_FR/camera/images/wanscam.hw0026.jpg" width="60" />|Wanscam|Wanscam HW0026||||
-|<img src="../../fr_FR/camera/images/wanscam.hw0036.jpg" width="60" />|Wanscam|Wanscam HW0036||||
+|<img src="../../fr_FR/camera/images/wanscam.hw0021.jpg" width="60" />|Wanscam|HW0021||||
+|<img src="../../fr_FR/camera/images/wanscam.hw0026.jpg" width="60" />|Wanscam|HW0026||||
+|<img src="../../fr_FR/camera/images/wanscam.hw0036.jpg" width="60" />|Wanscam|HW0036||||
 |<img src="../../fr_FR/camera/images/wanscam.hw0038.jpg" width="60" />|Wanscam|||||
-|<img src="../../fr_FR/camera/images/wanscam.hw0043.jpg" width="60" />|Wanscam|Wanscam HW0043||||
-|<img src="../../fr_FR/camera/images/wanscam.hw0045.jpg" width="60" />|Wanscam|Wanscam HW0045||||
-|<img src="../../fr_FR/camera/images/wanscam.hw0049.jpg" width="60" />|Wanscam|Wanscam HW0049||||
-|<img src="../../fr_FR/camera/images/wanscam.hw00XX.jpg" width="60" />|Wanscam|Wanscam HW00XX||||
-|<img src="../../fr_FR/camera/images/wanscam.jw0008.jpg" width="60" />|Wanscam|Wanscam motorisée||||
-|<img src="../../fr_FR/camera/images/wanscam.q3.jpg" width="60" />|Wanscam|Wanscam q3(s)||||
+|<img src="../../fr_FR/camera/images/wanscam.hw0043.jpg" width="60" />|Wanscam|HW0043||||
+|<img src="../../fr_FR/camera/images/wanscam.hw0045.jpg" width="60" />|Wanscam|HW0045||||
+|<img src="../../fr_FR/camera/images/wanscam.hw0049.jpg" width="60" />|Wanscam|HW0049||||
+|<img src="../../fr_FR/camera/images/wanscam.hw00XX.jpg" width="60" />|Wanscam|HW00XX||||
+|<img src="../../fr_FR/camera/images/wanscam.jw0008.jpg" width="60" />|Wanscam|motorisée||||
+|<img src="../../fr_FR/camera/images/wanscam.q3.jpg" width="60" />|Wanscam|q3(s)||||
 
 # Ycam
 
@@ -178,7 +178,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/camera/images/zavio.f3115.jpg" width="60" />|Zavio|Zavio F3115||||
+|<img src="../../fr_FR/camera/images/zavio.f3115.jpg" width="60" />|Zavio|F3115||||
 
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
