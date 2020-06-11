@@ -7,9 +7,9 @@ Plug-in para criar e gerenciar câmeras wifi (exibição e gravação)
 Depois de instalar o plugin, você só precisa ativá-lo, no entanto, existem alguns parâmetros de configuração avançados :
 
 -   **Caminho do registro** : indica o caminho em que o Jeedom deve armazenar as imagens que captura de suas câmeras (não é recomendável tocá-lo). Se o seu caminho não estiver no caminho de instalação do Jeedom, você não poderá visualizar as capturas no Jeedom.
--   **Tamanho máximo da pasta de gravação (MB)** : indica o tamanho máximo autorizado para a pasta onde as capturas são salvas (não é recomendável tocá-la). Se essa cota for atingida, o Jeedom excluirá as capturas mais antigas.
+-   **Tamanho máximo da pasta de gravação (MB)** : indica o tamanho máximo autorizado para a pasta onde as capturas são salvas (não é recomendável tocá-lo). Se essa cota for atingida, o Jeedom excluirá as capturas mais antigas.
 -   **O plug-in da câmera deve reagir às interações** : palavras-chave / frases às quais o plugin reagirá por meio de interações Jeedom.
--   **Painel** : Permite exibir o painel (Menu Home -> Câmera) e ter uma visão de todas as suas câmeras (veja abaixo). Não se esqueça de ativar o painel na configuração do plugin para acessá-lo mais tarde.
+-   **Painel** : Permite exibir o painel (Menu Home -> Câmera) e ter uma visão de todas as suas câmeras (veja abaixo)). Não se esqueça de ativar o painel na configuração do plugin para acessá-lo mais tarde.
 
 
 # Configuração do equipamento
@@ -33,11 +33,11 @@ Aqui você tem as principais informações da sua câmera :
 
 ## Images
 
-Esta parte permite configurar a qualidade da imagem. Na verdade, o Jeedom diminui o tamanho da imagem ou a compactação antes de enviá-lo para o seu navegador. Isso permite que as imagens sejam mais fluidas (porque são mais claras). É também nesta parte que você pode configurar o número de quadros por segundo a serem exibidos. Todas as configurações estão disponíveis em : móvel / desktop e miniatura / normal.
+Esta parte permite configurar a qualidade da imagem. Na verdade, o Jeedom diminui o tamanho da imagem ou a compactação antes de enviá-lo para o seu navegador. Isso melhora a fluidez das imagens (porque elas são mais claras). É também nesta parte que você pode configurar o número de quadros por segundo a serem exibidos. Todas as configurações estão disponíveis em : móvel / desktop e miniatura / normal.
 
--   Refresco (s) : atraso em segundos entre a exibição de 2 imagens (aqui você pode colocar números menores que 1)
+-   Refresco (s)) : atraso em segundos entre a exibição de 2 imagens (aqui você pode colocar números menores que 1)
 -   Compressão (%) : quanto mais baixo, menos a imagem é compactada, a 100% nenhuma compressão é feita
--   Tamanho (% - 0) : automático) : quanto maior a%, mais próximos estamos do tamanho original da imagem. A 100%, não há redimensionamento da imagem
+-   Tamanho (% - 0) : automatique) : quanto maior a%, mais próximos estamos do tamanho original da imagem. A 100%, não há redimensionamento da imagem
 
 > **NOTA**
 >
@@ -61,10 +61,10 @@ Esta parte permite configurar a qualidade da imagem. Na verdade, o Jeedom diminu
 -   ID do pedido (use com comandos do tipo info para, por exemplo, levar as informações de movimento da câmera para o Jeedom por meio da API, veja abaixo)
 -   Nome do comando com a possibilidade de colocar um ícone (para excluí-lo, você deve clicar duas vezes no ícone em questão)
 -   Tipo e subtipo de pedido
--   Pedido para enviar à câmera para executar uma ação (alternar para o modo noturno, ptz, etc.). Você pode usar as tags \#username\# e \#password\#, que será substituído automaticamente pelo nome de usuário e senha ao usar este comando
+-   Solicite o envio à câmera para executar uma ação (alternar para o modo noturno, ptz etc.).). Você pode usar as tags \#username\# e \#password\#, que será substituído automaticamente pelo nome de usuário e senha ao usar este comando
 -   Comando Stop : para câmeras PTZ, geralmente existe um comando que interrompe o movimento; é aqui que deve ser especificado
 -   Display : permite exibir o pedido ou não no painel
--   Configuração avançada (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.)
+-   Configuração avançada (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.).)
 -   Teste : permite testar o comando
 -   Excluir (assinar -) : permite excluir o comando
 
@@ -100,11 +100,11 @@ O plug-in da câmera também fornece um painel que permite ver todas as suas câ
 
 # Salvar e enviar captura
 
-Este comando um tanto específico permite que a captura o envie (compatível com o plugin slack, mail e transfer).
+Este comando um tanto específico permite seguir a captura para enviá-la (compatível com o plugin slack, mail e transfer).
 
 A configuração é bastante simples: você chama a ação de envio de captura (chamada "Gravação") em um cenário. Na parte do título, você passa as opções.
 
-Por padrão, basta colocar o número de capturas que você deseja no campo "número de capturas ou opções", mas você pode ir além com as opções (consulte os detalhes abaixo "opções avançadas de capturas"). Na parte da mensagem, basta preencher a ordem do plug-in (atualmente, folga, email ou transferência) que envia as capturas. Você pode colocar vários separados por &&.
+Por padrão, basta colocar o número de capturas que você deseja no campo "número de capturas ou opções", mas você pode ir além com as opções (veja detalhes abaixo "opções avançadas de capturas"). Na parte da mensagem, basta preencher a ordem do plug-in (atualmente, folga, email ou transferência) que envia as capturas. Você pode colocar vários separados por &&.
 
 ## Opções avançadas de captura
 
@@ -112,7 +112,7 @@ Por padrão, basta colocar o número de capturas que você deseja no campo "núm
 -   ``delay`` : atraso entre 2 capturas, se não especificado, o atraso é 1s
 -   ``wait`` : tempo de espera antes de começar a pegar, se não for especificado, nenhuma remessa será feita
 -   ``sendPacket`` : número de capturas que acionam o envio de um pacote de capturas, se não especificado, as capturas serão enviadas apenas no final
--   ``detectMove=1`` : envie capturas apenas se houver uma alteração acima do limite de detecção (consulte a configuração da câmera)
+-   ``detectMove=1`` : envia as capturas somente se houver uma alteração maior que o limite de detecção (consulte a configuração da câmera)
 -   ``movie=1`` : após o término da gravação, as imagens são convertidas em vídeo
 -   ``sendFirstSnap=1`` : envia a primeira captura da gravação
 
@@ -138,6 +138,6 @@ Obviamente, antes de criar um comando de tipo de informação na sua câmera
 >
 >No ssh ou na administração -> OS / DB -> System do : dpkg --configure -a
 
->**Quais são as condições para a minha câmera ser compatível com Jeedom (se não estiver na lista de compatibilidade) ?**
+>**Quais são as condições para que minha câmera seja compatível com Jeedom (se não estiver na lista de compatibilidade) ?**
 >
 > A única condição é que a câmera tenha um URL que envie de volta uma imagem (bem, uma imagem e não um fluxo de vídeo)

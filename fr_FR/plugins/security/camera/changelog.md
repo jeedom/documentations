@@ -4,6 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 11/0/2020
+
+- Ajout de configuration
+- Possibilité de voir la camera en flux video (et non plus image par image)
+- Refonte du systeme de pre-configuration des cameras
+
 # 11/05/2020
 
 - Retour de la fonction de decouverte ONVIF (merci @Aidom)

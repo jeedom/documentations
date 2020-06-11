@@ -4,6 +4,12 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 11/11/2020
+
+- Konfiguration hinzufügen
+- Möglichkeit, die Kamera im Videostream zu sehen (und nicht mehr Bild für Bild)
+- Neugestaltung des Kamera-Vorkonfigurationssystems
+
 # 05/11/2020
 
 - Rückgabe der ONVIF-Erkennungsfunktion (danke @Aidom)
@@ -24,7 +30,7 @@
 # 2019.09.23
 
 - Fehlerbehebungen
-- Hinzufügen eines Feldes zum Einfügen von Optionen Videostream (rtsp)
+- Hinzufügen eines Feldes zum Einfügen von Videostream-Optionen (rtsp)
 
 # 2019.09.20
 
@@ -54,12 +60,12 @@
 # 17.01.2019
 
 - Aktualisieren des Dokuments
-- Behebung eines Problems mit der Konfiguration von Wanscam q3 (s)
+- Ein Problem mit der Konfiguration von Wanscam q3 (s) wurde behoben)
 
 # 2019.01.15
 
-- Wanscam q3 (s) Kamera hinzugefügt
-- Modusauswahl automatisch basierend auf Capture-URL und Videostream (RTSP)
+- Hinzufügung der Wanscam q3 Kamera (s))
+- Die Modusauswahl erfolgt automatisch basierend auf der Aufnahme-URL und dem Videostream (RTSP))
 - Fehlerbehebungen
 - Ersatz für hinzugefügt #username# und #password# in Bestellungen
 - Korrektur eines Abhängigkeitsproblems

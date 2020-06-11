@@ -4,6 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 11/11/2020
+
+- Agregar configuración
+- Posibilidad de ver la cámara en transmisión de video (y ya no imagen por imagen)
+- Rediseño del sistema de preconfiguración de la cámara
+
 # 05/11/2020
 
 - Regreso de la función de descubrimiento ONVIF (gracias @Aidom)
@@ -54,11 +60,11 @@
 # 17/01/2019
 
 - Actualizando el documento
-- Corrección de un problema con la configuración de Wanscam q3 (s)
+- Se solucionó un problema con la configuración de Wanscam q3 (s)
 
 # 01/15/2019
 
-- Cámara Wanscam q3 (s) agregada
+- Adición de la cámara Wanscam q3 (s)
 - Selección de modo automáticamente basada en url de captura y transmisión de video (RTSP)
 - Correcciones de errores
 - Reemplazo agregado para #username# y #password# en pedidos

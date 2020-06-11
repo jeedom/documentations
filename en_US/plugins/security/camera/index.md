@@ -9,7 +9,7 @@ After installing the plugin, you just need to activate it, however there are som
 -   **Record path** : indicates the path where Jeedom should store the images it captures from your cameras (it is not recommended to touch it). If your path is not in the Jeedom installation path then you will not be able to view the captures in Jeedom.
 -   **Maximum recording folder size (MB)** : indicates the maximum size authorized for the folder where the catches are saved (it is not recommended to touch it). If this quota is reached Jeedom will delete the oldest catches.
 -   **The camera plugin must react to interactions** : keywords / phrases to which the plugin will react via Jeedom interactions.
--   **Panel** : Allows you to display the panel (Home Menu -&gt; Camera) and have a view of all of your cameras (see below). Do not forget to activate the panel in the configuration of the plugin to access it later.
+-   **Panel** : Allows you to display the panel (Home Menu -> Camera) and to have a view of all of your cameras (see below)). Do not forget to activate the panel in the configuration of the plugin to access it later.
 
 
 # Equipment configuration
@@ -25,19 +25,19 @@ Here you have the main information of your camera :
 -   **IP** : the local IP address of your camera
 -   **Port** : the port for which to attach the camera
 -   **Protocol** : the communication protocol of your camera (http or https)
--   **Username** : username to log in to the camera (if required). Please note that the plugin does not support special characters (you must therefore limit yourself to numbers, lowercase / uppercase letters)
--   **Password** : password to connect to the camera (if necessary).Please note that the plugin does not support special characters (you must therefore limit yourself to numbers, lowercase / uppercase letters)
+-   **Username** : username to log in to the camera (if required). Please note the plugin does not support special characters (you must therefore limit yourself to numbers, lowercase / uppercase letters)
+-   **Password** : password to connect to the camera (if necessary).Please note the plugin does not support special characters (you must therefore limit yourself to numbers, lowercase / uppercase letters)
 -   **Snapshot URL** : Camera snapshot URL. Change depending on the cameras. Be careful not to put a flow url under penalty of crashing Jeedom. You can add the tags \#username\# and \#password\#, which will be automatically replaced by the username and password when using this command
 -   **Feed URL** : rtsp camera video stream url://#username#:#password#@#ip#:554 / videoMain (example for Foscam cameras)
 -   **Model** : allows to choose the camera model. Be careful if you change this will overwrite your configuration settings
 
 ## Images
 
-This part allows you to configure the image quality. Indeed Jeedom decreases the size of the image or the compress before sending it to your browser. This allows the images to be more fluid (because they are lighter). It is also in this part that you can configure the number of frames per second to display. All settings are available in : mobile / desktop and miniature / normal.
+This part allows you to configure the image quality. Indeed Jeedom decreases the size of the image or the compress before sending it to your browser. This improves the fluidity of the images (because they are lighter). It is also in this part that you can configure the number of frames per second to display. All settings are available in : mobile / desktop and miniature / normal.
 
 -   Refreshment (s) : delay in seconds between the display of 2 images (here you can put numbers less than 1)
 -   Compression (%) : the lower it is the less the image is compressed, at 100% no compression is done
--   Size (% - 0 : automatic) : the higher the% the closer we are to the original size of the image. At 100% no resizing of the image takes place
+-   Size (% - 0 : automatique) : the higher the% the closer we are to the original size of the image. At 100% no resizing of the image takes place
 
 > **NOTE**
 >
@@ -61,7 +61,7 @@ This part allows you to configure the image quality. Indeed Jeedom decreases the
 -   Order ID (use with info type commands to, for example, bring the movement information from the camera to Jeedom via the API, see below)
 -   Name of the command with the possibility of putting an icon instead (to delete it you must double-click on the icon in question)
 -   Order type and subtype
--   Request to send to the camera to perform an action (switch to night mode, ptz, etc.). You can use the tags \#username\# and \#password\#, which will be automatically replaced by the username and password when using this command
+-   Request to send to the camera to do an action (switch to night mode, ptz, etc.). You can use the tags \#username\# and \#password\#, which will be automatically replaced by the username and password when using this command
 -   Stop command : for PTZ cameras, there is often a command that stops the movement, this is where it must be specified
 -   Show : allows to display the order or not on the dashboard
 -   Advanced configuration (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.)
@@ -100,11 +100,11 @@ It is of course also available in mobile by Plugin → Camera :
 
 # Save and send capture
 
-This somewhat specific command allows the capture to send it (compatible with the slack, mail and transfer plugin).
+This somewhat specific command allows following the capture to send it (compatible with the slack, mail and transfer plugin).
 
 The configuration is quite simple you call the action of sending of capture (called &quot;Recording&quot;) in a scenario. In the title part you pass the options.
 
-By default, just put the number of captures you want in the &quot;number of captures or options&quot; field, but you can go further with options (see details below &quot;advanced options of captures&quot;). In the message part, you just have to fill in the order of the plugin (currently slack, email or transfer) which sends the captures. You can put several separated by &amp;&amp;.
+By default, just put the number of captures you want in the "number of captures or options" field, but you can go further with options (see details below "advanced options of captures"). In the message part, you just have to fill in the order of the plugin (currently slack, email or transfer) which sends the captures. You can put several separated by &amp;&amp;.
 
 ## Advanced capture options
 
@@ -112,7 +112,7 @@ By default, just put the number of captures you want in the &quot;number of capt
 -   ``delay`` : delay between 2 captures, if not specified then the delay is 1s
 -   ``wait`` : waiting time before starting to catch, if not specified then no shipment is made
 -   ``sendPacket`` : number of catches triggering the sending of a catch packet, if not specified then the catches will only be sent at the end
--   ``detectMove=1`` : send captures only if there is a change above the detection threshold (see camera configuration)
+-   ``detectMove=1`` : sends the captures only if there is a change higher than the detection threshold (see camera configuration)
 -   ``movie=1`` : after recording is finished, images are converted to video
 -   ``sendFirstSnap=1`` : send the first capture of the recording
 

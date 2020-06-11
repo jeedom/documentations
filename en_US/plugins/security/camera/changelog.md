@@ -4,9 +4,15 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 11/11/2020
+
+- Adding configuration
+- Possibility to see the camera in video stream (and no longer image by image)
+- Redesign of the camera pre-configuration system
+
 # 05/11/2020
 
-- Return of the ONVIF discovery function (thank you @Aidom)
+- Return of the ONVIF discovery function (thanks @Aidom)
 - Possibility to use commands (script type) for camera control
 
 # 10/17/2019
@@ -24,7 +30,7 @@
 # 09/23/2019
 
 - Bugfix
-- Addition of a field to put options video stream (rtsp)
+- Addition of a field to put video stream options (rtsp)
 
 # 09/20/2019
 
@@ -54,11 +60,11 @@
 # 01/17/2019
 
 - Updating the doc
-- Correction of a problem with the configuration of Wanscam q3 (s)
+- Fixed a problem with the configuration of Wanscam q3 (s)
 
 # 01/15/2019
 
-- Wanscam q3 (s) camera added
+- Addition of the Wanscam q3 camera (s)
 - Mode selection automatically based on capture url and video stream (RTSP)
 - Bugfix
 - Added replacement for #username# and #password# in orders
@@ -68,7 +74,7 @@
 
 - Redesign of the panel, we now choose the number of cameras per line in the plugin configuration, their size is calculated automatically
 - Mobile widget improvement
-- Support for RTSP / MJPEG video streams ... Please note that there is a conversion done. This is only to be used if you have no choice, you should privilege snapshots (faster and less load on Jeedom)
+- Support for RTSP / MJPEG video streams ... Please note that there is a conversion done. This is only to be used if you have no choice, you should use snapshots (faster and less load on Jeedom)
 
 # 04/03/2018
 
