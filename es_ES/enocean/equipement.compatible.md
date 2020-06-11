@@ -176,8 +176,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||F6-02|||||
-||F6-02|||||
+||F6-02|[F6-02-01] Control de luces y persianas - Estilo de aplicación 1||||
+||F6-02|[F6-02-01] Control de luz y persiana - Modo de estilo de aplicación 1 activado / desactivado||||
 |<img src="../../es_ES/enocean/images/f6-02-02.jpg" width="60" />|Nodon|Soft Remote blue tech|Control remoto|Disponible en varios colores. Dos modos de funcionamiento posibles en Jeedom (activar / desactivar con dos botones o alternar con 4 botones). Se gestionan múltiples soportes.|[Comprar](http://www.domadoo.fr/fr/peripheriques/2624-nodon-soft-remote-enocean-tech-blue-3700313920053.html)|
 |<img src="../../es_ES/enocean/images/f6-02-02.jpg" width="60" />|Nodon|Control remoto suave y acogedor gris|Control remoto|Disponible en varios colores. Dos modos de funcionamiento posibles en Jeedom (activar / desactivar con dos botones o alternar con 4 botones). Se gestionan múltiples soportes.|[Comprar](http://www.domadoo.fr/fr/peripheriques/2625-nodon-soft-remote-enocean-cozy-grey-3700313920060.html)|
 |<img src="../../es_ES/enocean/images/f6-02-02.jpg" width="60" />|Nodon|Laguna azul suave y remota|Control remoto|Disponible en varios colores. Dos modos de funcionamiento posibles en Jeedom (activar / desactivar con dos botones o alternar con 4 botones). Se gestionan múltiples soportes.|[Comprar](http://www.domadoo.fr/fr/peripheriques/2898-nodon-soft-remote-enocean-lagoon-3700313920312.html)|
@@ -187,7 +187,7 @@
 |<img src="../../es_ES/enocean/images/f6-02-02.jpg" width="60" />|Nodon|Interruptor de pared Z-Wave plus - Cozi White|Interrupteur|Disponible en varios colores. Dos modos de funcionamiento posibles en Jeedom (activar / desactivar con dos botones o alternar con 4 botones). Se gestionan múltiples soportes.|[Comprar](http://www.domadoo.fr/fr/peripheriques/2995-nodon-interrupteur-mural-z-wave-plus-cozi-white-3700313920268.html)|
 |<img src="../../es_ES/enocean/images/f6-02-02.jpg" width="60" />|Nodon|Interruptor de pared EnOcean - Cozi Gray|Interrupteur|Disponible en varios colores. Dos modos de funcionamiento posibles en Jeedom (activar / desactivar con dos botones o alternar con 4 botones). Se gestionan múltiples soportes.|[Comprar](http://www.domadoo.fr/fr/peripheriques/2628-nodon-interrupteur-mural-enocean-cozi-grey-3700313920084.html)|
 |<img src="../../es_ES/enocean/images/f6-02-02.jpg" width="60" />|Eltako|Convertidor infrarrojo / EnOcean con puerto USB para control remoto Harmony Logitech - FIW-USB|Infrarouge|Cree tantos dispositivos como familia de botones disponibles en la documentación del módulo (cada familia debe estar incluida)|[Comprar](http://www.domadoo.fr/fr/peripheriques/3263-eltako-convertisseur-infrarougeenocean-avec-port-usb-4010312311158.html)|
-|<img src="../../es_ES/enocean/images/f6-02-02.mode_on_off.jpg" width="60" />|F6-02|||||
+|<img src="../../es_ES/enocean/images/f6-02-02.mode_on_off.jpg" width="60" />|F6-02|[F6-02-02] Control de luz y persiana - Modo de estilo de aplicación 2 ON / OFF||||
 |<img src="../../es_ES/enocean/images/f6-02-02.open.jpg" width="60" />|Eltako|Contacto de puerta / ventana con palanca - blanco - FTKE-RW|Ouverture|Elegir el perfil correcto después de la inclusión|[Comprar](http://www.domadoo.fr/fr/peripheriques/3125-eltako-contact-de-portefenetre-blanc-4010312315231.html)|
 |<img src="../../es_ES/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|Soft Remote blue tech|Control remoto|Disponible en varios colores. Dos modos de funcionamiento posibles en Jeedom (activar / desactivar con dos botones o alternar con 4 botones). Se gestionan múltiples soportes.|[Comprar](http://www.domadoo.fr/fr/peripheriques/2624-nodon-soft-remote-enocean-tech-blue-3700313920053.html)|
 |<img src="../../es_ES/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|Control remoto suave y acogedor gris|Control remoto|Disponible en varios colores. Dos modos de funcionamiento posibles en Jeedom (activar / desactivar con dos botones o alternar con 4 botones). Se gestionan múltiples soportes.|[Comprar](http://www.domadoo.fr/fr/peripheriques/2625-nodon-soft-remote-enocean-cozy-grey-3700313920060.html)|
@@ -205,7 +205,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/enocean/images/f6-03-01.impulsion.jpg" width="60" />|Eltako|Módulo F8S12-12VDC|Impulsion|Elegir el perfil correcto después de la inclusión y crear equipos para cada canal||
-||F6-03|||||
+||F6-03|[F6-03-01] Control de luz y persiana - Estilo de aplicación 1||||
 
 # F6-04
 

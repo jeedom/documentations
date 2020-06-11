@@ -176,8 +176,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||F6-02|||||
-||F6-02|||||
+||F6-02|[F6-02-01] Light and Blind Control - Application Style 1||||
+||F6-02|[F6-02-01] Light and Blind Control - Application Style 1 Mode ON / OFF||||
 |<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|Soft Remote blue tech|Remote control|Available in several colors. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). Multiple supports are managed.|[Buy](http://www.domadoo.fr/fr/peripheriques/2624-nodon-soft-remote-enocean-tech-blue-3700313920053.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|Soft Remote cozy gray|Remote control|Available in several colors. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). Multiple supports are managed.|[Buy](http://www.domadoo.fr/fr/peripheriques/2625-nodon-soft-remote-enocean-cozy-grey-3700313920060.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|Soft Remote blue lagoon|Remote control|Available in several colors. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). Multiple supports are managed.|[Buy](http://www.domadoo.fr/fr/peripheriques/2898-nodon-soft-remote-enocean-lagoon-3700313920312.html)|
@@ -187,7 +187,7 @@
 |<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|Z-Wave plus wall switch - Cozi White|Interrupteur|Available in several colors. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). Multiple supports are managed.|[Buy](http://www.domadoo.fr/fr/peripheriques/2995-nodon-interrupteur-mural-z-wave-plus-cozi-white-3700313920268.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|EnOcean wall switch - Cozi Gray|Interrupteur|Available in several colors. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). Multiple supports are managed.|[Buy](http://www.domadoo.fr/fr/peripheriques/2628-nodon-interrupteur-mural-enocean-cozi-grey-3700313920084.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Eltako|Infrared / EnOcean converter with USB port for Harmony Logitech remote control - FIW-USB|Infrarouge|Create as many devices as family of buttons available in the module documentation (each family must be included)|[Buy](http://www.domadoo.fr/fr/peripheriques/3263-eltako-convertisseur-infrarougeenocean-avec-port-usb-4010312311158.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.mode_on_off.jpg" width="60" />|F6-02|||||
+|<img src="../../en_US/enocean/images/f6-02-02.mode_on_off.jpg" width="60" />|F6-02|[F6-02-02] Light and Blind Control - Application Style 2 Mode ON / OFF||||
 |<img src="../../en_US/enocean/images/f6-02-02.open.jpg" width="60" />|Eltako|Door / window contact with lever - white - FTKE-RW|Ouverture|Choosing the right profile after inclusion|[Buy](http://www.domadoo.fr/fr/peripheriques/3125-eltako-contact-de-portefenetre-blanc-4010312315231.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|Soft Remote blue tech|Remote control|Available in several colors. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). Multiple supports are managed.|[Buy](http://www.domadoo.fr/fr/peripheriques/2624-nodon-soft-remote-enocean-tech-blue-3700313920053.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|Soft Remote cozy gray|Remote control|Available in several colors. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). Multiple supports are managed.|[Buy](http://www.domadoo.fr/fr/peripheriques/2625-nodon-soft-remote-enocean-cozy-grey-3700313920060.html)|
@@ -205,7 +205,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/enocean/images/f6-03-01.impulsion.jpg" width="60" />|Eltako|F8S12-12VDC module|Impulsion|Choosing the right profile after inclusion and creating equipment for each channel||
-||F6-03|||||
+||F6-03|[F6-03-01] Light and Blind Control - Application Style 1||||
 
 # F6-04
 

@@ -176,8 +176,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||F6-02|||||
-||F6-02|||||
+||F6-02|[F6-02-01] Licht- und Blindsteuerung - Anwendungsstil 1||||
+||F6-02|[F6-02-01] Licht- und Blindsteuerung - Anwendungsstil 1 Modus EIN / AUS||||
 |<img src="../../de_DE/enocean/images/f6-02-02.jpg" width="60" />|Nodon|Soft Remote Blue Tech|Fernbedienung|In verschiedenen Farben erhältlich. In Jeedom sind zwei Betriebsarten möglich (Ein / Aus auf zwei Tasten oder Umschalten auf 4 Tasten). Es werden mehrere Unterstützungen verwaltet.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2624-nodon-soft-remote-enocean-tech-blue-3700313920053.html)|
 |<img src="../../de_DE/enocean/images/f6-02-02.jpg" width="60" />|Nodon|Soft Remote gemütliches Grau|Fernbedienung|In verschiedenen Farben erhältlich. In Jeedom sind zwei Betriebsarten möglich (Ein / Aus auf zwei Tasten oder Umschalten auf 4 Tasten). Es werden mehrere Unterstützungen verwaltet.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2625-nodon-soft-remote-enocean-cozy-grey-3700313920060.html)|
 |<img src="../../de_DE/enocean/images/f6-02-02.jpg" width="60" />|Nodon|Soft Remote blaue Lagune|Fernbedienung|In verschiedenen Farben erhältlich. In Jeedom sind zwei Betriebsarten möglich (Ein / Aus auf zwei Tasten oder Umschalten auf 4 Tasten). Es werden mehrere Unterstützungen verwaltet.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2898-nodon-soft-remote-enocean-lagoon-3700313920312.html)|
@@ -187,7 +187,7 @@
 |<img src="../../de_DE/enocean/images/f6-02-02.jpg" width="60" />|Nodon|Z-Wave plus Wandschalter - Cozi White|Interrupteur|In verschiedenen Farben erhältlich. In Jeedom sind zwei Betriebsarten möglich (Ein / Aus auf zwei Tasten oder Umschalten auf 4 Tasten). Es werden mehrere Unterstützungen verwaltet.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2995-nodon-interrupteur-mural-z-wave-plus-cozi-white-3700313920268.html)|
 |<img src="../../de_DE/enocean/images/f6-02-02.jpg" width="60" />|Nodon|EnOcean Wandschalter - Cozi Gray|Interrupteur|In verschiedenen Farben erhältlich. In Jeedom sind zwei Betriebsarten möglich (Ein / Aus auf zwei Tasten oder Umschalten auf 4 Tasten). Es werden mehrere Unterstützungen verwaltet.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2628-nodon-interrupteur-mural-enocean-cozi-grey-3700313920084.html)|
 |<img src="../../de_DE/enocean/images/f6-02-02.jpg" width="60" />|Eltako|Infrarot / EnOcean-Konverter mit USB-Anschluss für die Harmony Logitech-Fernbedienung - FIW-USB|Infrarouge|Erstellen Sie so viele Geräte wie in der Moduldokumentation verfügbare Schaltflächenfamilie (jede Familie muss enthalten sein)|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3263-eltako-convertisseur-infrarougeenocean-avec-port-usb-4010312311158.html)|
-|<img src="../../de_DE/enocean/images/f6-02-02.mode_on_off.jpg" width="60" />|F6-02|||||
+|<img src="../../de_DE/enocean/images/f6-02-02.mode_on_off.jpg" width="60" />|F6-02|[F6-02-02] Licht- und Blindsteuerung - Anwendungsstil 2 Modus EIN / AUS||||
 |<img src="../../de_DE/enocean/images/f6-02-02.open.jpg" width="60" />|Eltako|Tür- / Fensterkontakt mit Hebel - weiß - FTKE-RW|Ouverture|Auswahl des richtigen Profils nach der Aufnahme|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3125-eltako-contact-de-portefenetre-blanc-4010312315231.html)|
 |<img src="../../de_DE/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|Soft Remote Blue Tech|Fernbedienung|In verschiedenen Farben erhältlich. In Jeedom sind zwei Betriebsarten möglich (Ein / Aus auf zwei Tasten oder Umschalten auf 4 Tasten). Es werden mehrere Unterstützungen verwaltet.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2624-nodon-soft-remote-enocean-tech-blue-3700313920053.html)|
 |<img src="../../de_DE/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|Soft Remote gemütliches Grau|Fernbedienung|In verschiedenen Farben erhältlich. In Jeedom sind zwei Betriebsarten möglich (Ein / Aus auf zwei Tasten oder Umschalten auf 4 Tasten). Es werden mehrere Unterstützungen verwaltet.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2625-nodon-soft-remote-enocean-cozy-grey-3700313920060.html)|
@@ -205,7 +205,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/enocean/images/f6-03-01.impulsion.jpg" width="60" />|Eltako|F8S12-12VDC-Modul|Impulsion|Auswahl des richtigen Profils nach Aufnahme und Erstellung von Geräten für jeden Kanal||
-||F6-03|||||
+||F6-03|[F6-03-01] Licht- und Blindsteuerung - Anwendungsstil 1||||
 
 # F6-04
 
