@@ -4,6 +4,14 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 14/06/2020
+
+- Mejora del sistema para limpiar archivos de transmisión de video (tenga en cuenta que la función todavía está en beta, es posible que nuestra configuración sea un poco demasiado agresiva)
+- Corrección de un error en la recuperación de información de movimiento de cámaras foscam HD
+- Se solucionó un problema si un usuario no administrador quería ver la transmisión de video
+- Corrección del error de visualización en el diseño en modo "solo flujo""
+- Correcciones de errores
+
 # 11/11/2020
 
 - Agregar configuración

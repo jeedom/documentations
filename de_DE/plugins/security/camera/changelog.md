@@ -4,6 +4,14 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 14.06.2020
+
+- Verbesserung des Systems zum Bereinigen von Videostream-Dateien (Beachten Sie, dass sich die Funktion noch in der Beta-Phase befindet. Möglicherweise ist unsere Einstellung etwas zu aggressiv)
+- Korrektur eines Fehlers bei der Wiederherstellung von Bewegungsinformationen von Foscam HD-Kameras
+- Es wurde ein Problem behoben, durch das ein Benutzer ohne Administratorrechte den Videostream ansehen wollte
+- Korrektur des Anzeigefehlers beim Design im Modus "Nur Flussmittel""
+- Fehlerbehebungen
+
 # 11/11/2020
 
 - Konfiguration hinzufügen

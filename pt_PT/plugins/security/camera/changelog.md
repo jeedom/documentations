@@ -4,6 +4,14 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 14/06/2020
+
+- Melhoria do sistema para limpeza de arquivos de fluxo de vídeo (observe que a função ainda está na versão beta, é possível que nossa configuração seja um pouco agressiva)
+- Correção de um erro na recuperação de informações de movimento de câmeras foscam HD
+- Corrigido um problema se um usuário não administrador quisesse assistir ao fluxo de vídeo
+- Correção do erro de exibição no design no modo "somente fluxo""
+- Correções de bugs
+
 # 11/11/2020
 
 - Adicionando configuração

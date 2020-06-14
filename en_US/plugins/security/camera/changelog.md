@@ -4,6 +4,14 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 06/14/2020
+
+- Improvement of the system for cleaning video stream files (note that the function is still in beta, it is possible that our setting is a little too aggressive)
+- Correction of a bug on the recovery of movement information from foscam HD cameras
+- Fixed a problem if a non admin user wanted to watch the video stream
+- Correction of display bug on design in "flux only" mode"
+- Bugfix
+
 # 11/11/2020
 
 - Adding configuration
