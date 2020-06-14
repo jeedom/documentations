@@ -1,14 +1,14 @@
 {
-	"id" : "JeeRss",
-	"name" : "JeeRss",
-	"description" : "Plugin pour lire un flux Rss",
-	"licence" : "AGPL",
-	"author" : "Christophe CHAMANT",
-	"require" : "3.0",
-	"category" : "communication",
-	"hasDependency" : false,
-	"hasOwnDeamon" : false,
-	"maxDependancyInstallTime" : 120,
-	"changelog" : "https://nextdom.github.io/plugin-jeerss/#language#/changelog",
-	"documentation" : "https://nextdom.github.io/plugin-jeerss/#language#/"
+	"id" : "seniorcarecomfortsecurity",
+	"name" : "Senior Care - Confort et Sécurité",
+  "description" : "Plugin pour l'assistance aux personnes âgées - Gestion du confort et de la sécurité du logement",
+  "licence" : "AGPL",
+  "author" : "Agp42",
+  "require" : "3.2",
+  "category" : "security",
+  "hasDependency" : false,
+  "hasOwnDeamon" : false,
+  "maxDependancyInstallTime" : 0,
+  "changelog" : "https://agp42.github.io/seniorcarecomfortsecurity/#language#/changelog",
+  "documentation" : "https://agp42.github.io/seniorcarecomfortsecurity/#language#/"
 }

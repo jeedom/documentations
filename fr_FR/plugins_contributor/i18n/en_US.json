@@ -653,6 +653,8 @@
         " Changelog*": " Changelog*"
     },
     "plugins_contributor\/security\/index.md": {
+        "Senior Care - Confort et Sécurité": "Senior Care - Comfort and Safety",
+        "Plugin pour l'assistance aux personnes âgées - Gestion du confort et de la sécurité du logement": "Plugin for assistance to the elderly - Management of comfort and security of housing",
         "Plugin permanent de faire de la reconnaissance de plaque d'immatriculation avec nos camera": "Permanent plugin to recognize license plate with our cameras",
         "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos": "Attention, all the same to what you authorized with this plugin because it is quite simple to deceive the system (Twins, photos",
         "Reconnaissance facial": "Facial recognition",
