@@ -64,7 +64,7 @@
     },
     "plugins_contributor\/automatisation\/index.md": {
         "Séquencement d'actions": "Sequencing actions",
-        "Plugin pour gérer des actions séquencées": "Plugin to manage sequenced actions",
+        "Plugin pour gérer des actions séquencées et déclencheurs complexes": "Plugin to manage sequenced actions and complex triggers",
         "Gestion de Volets": "Shutter management",
         "Ce plugin gère l'ouverture et la fermeture de nos volets": "This plugin manages the opening and closing of our shutters",
         "Seuls les plugins de contributeur ont leur documentation ici": "Only contributor plugins have their documentation here",
