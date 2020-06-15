@@ -1,20 +1,14 @@
 {
-	"id" : "ree",
-	"name" : "REEspaña",
-	"description" : "Tarifa de la luz por horas de Red Electrica Española",
+	"id" : "seniorcarealertbt",
+	"name" : "Senior Care - Bouton d'alerte",
+	"description" : "Plugin pour l'assistance aux personnes âgées - Gestion des boutons d'alertes",
 	"licence" : "AGPL",
-	"author" : "Sembrador",
+	"author" : "Agp42",
 	"require" : "3.2",
-	"category" : "energy",
+	"category" : "security",
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://jeedom.github.io/plugin-template/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-template/#language#/",
-	"link" : {
-		"forum":"Lien vers le forum",
-		"video" : "Lien vers une video"
-	},
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+	"changelog" : "https://agp42.github.io/seniorcarealertbt/#language#/changelog",
+	"documentation" : "https://agp42.github.io/seniorcarealertbt/#language#/"
 }

@@ -1,14 +1,14 @@
 {
-    "id" : "JeeOrangeTv",
-    "name" : "JeeOrangeTv",
-    "description" : "Plugin pour piloter le décodeur TV Orange par IP",
-    "licence" : "AGPL",
-    "author" : "Christophe CHAMANT",
-    "require" : "3.0",
-    "category" : "multimedia",
-    "hasDependency" : true,
-    "hasOwnDeamon" : true,
-    "maxDependancyInstallTime" : 120,
-    "changelog" : "https://totoff974.github.io/JeeOrangeTv/#language#/changelog",
-    "documentation" : "https://totoff974.github.io/JeeOrangeTv/#language#/"
+	"id" : "seniorcareinactivity",
+	"name" : "Senior Care - Détection d'inactivité",
+	"description" : "Plugin pour l'assistance aux personnes âgées - Fonction de détection d'inactivité",
+	"licence" : "AGPL",
+	"author" : "Agp42",
+	"require" : "3.2",
+	"category" : "security",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://agp42.github.io/seniorcareinactivity/#language#/changelog",
+	"documentation" : "https://agp42.github.io/seniorcareinactivity/#language#/"
 }

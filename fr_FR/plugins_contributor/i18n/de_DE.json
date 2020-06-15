@@ -653,8 +653,14 @@
         " Changelog*": " Änderungsprotokoll*"
     },
     "plugins_contributor\/security\/index.md": {
+        "Alarme Verisure": "Freizeitalarm",
+        "Plugin Verisure pour Jeedom": "Verisure Plugin für Jeedom",
+        "Senior Care - Détection d'inactivité": "Senior Care - Inaktivitätserkennung",
+        "Plugin pour l'assistance aux personnes âgées - Fonction de détection d'inactivité": "Plugin zur Unterstützung älterer Menschen - Inaktivitätserkennungsfunktion",
         "Senior Care - Confort et Sécurité": "Seniorenbetreuung - Komfort und Sicherheit",
         "Plugin pour l'assistance aux personnes âgées - Gestion du confort et de la sécurité du logement": "Plugin zur Unterstützung älterer Menschen - Verwaltung des Komforts und der Sicherheit von Wohnraum",
+        "Senior Care - Bouton d'alerte": "Seniorenbetreuung - Alarmschaltfläche",
+        "Plugin pour l'assistance aux personnes âgées - Gestion des boutons d'alertes": "Plugin zur Unterstützung älterer Menschen - Verwaltung von Alarmtasten",
         "Plugin permanent de faire de la reconnaissance de plaque d'immatriculation avec nos camera": "Permanentes Plugin zur Erkennung von Nummernschildern mit unseren Kameras",
         "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos": "Achtung, egal was Sie mit diesem Plugin autorisiert haben, denn es ist ganz einfach, das System zu täuschen (Zwillinge, Fotos",
         "Reconnaissance facial": "Gesichtserkennung",
