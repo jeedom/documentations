@@ -44,6 +44,8 @@
         "Plugin pour Livebox 2, play, 4": "Plugin pour Livebox 2, play, 4",
         "jeeRhasspy": "jeeRhasspy",
         "Plugin pour le support de l'assistant vocal Rhasspy dans Jeedom": "Plugin pour le support de l'assistant vocal Rhasspy dans Jeedom",
+        "Gotify": "Gotify",
+        "Plugin permettant la connection à un serveur Gotify": "Plugin permettant la connection à un serveur Gotify",
         "TaskerAutoRemote": "TaskerAutoRemote",
         "Plugin pour envoyer des messages et notification à tout appareil Android via AutoRemote": "Plugin pour envoyer des messages et notification à tout appareil Android via AutoRemote",
         "Communication": "Communication",
@@ -56,7 +58,8 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
         "Market": "Market",
-        "Changelog": "Changelog"
+        "Changelog": "Changelog",
+        "Gotify est une solution self-hosted, libre et open source permettant l'envoi et la réception de message": "Gotify est une solution self-hosted, libre et open source permettant l'envoi et la réception de message"
     },
     "plugins_contributor\/devicecommunication\/index.md": {
         "worxLandroidS": "worxLandroidS",

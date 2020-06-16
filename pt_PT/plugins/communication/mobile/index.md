@@ -15,7 +15,7 @@ Depois de instalar o plugin, você só precisa ativá-lo :
 Para configurar o plug-in, você deve adicionar os telefones que poderão acessar o Jeedom.
 
 Para adicionar um telefone : **Plugins** → **Comunicação** → **App
-Móvel** → **Adicionar**
+Mobile** → **Adicionar**
 
 ![mobile2](../images/mobile2.png)
 
@@ -105,7 +105,7 @@ Bem como os dois textos associados :
 ![mobile dashboard 6](../images/mobile_dashboard_6.PNG)
 ![mobile dashboard 7](../images/mobile_dashboard_7.PNG)
 
-Aqui, você tem agora um atalho do seu pedido (na versão 1.1 Espera-se que os comandos On / Off apareçam na mesma tecla).
+Aqui, você tem agora um atalho do seu pedido (na versão 1.1 Espera-se que os comandos liga / desliga apareçam na mesma tecla).
 
 ![mobile dashboard 8](../images/mobile_dashboard_8.PNG)
 
@@ -113,7 +113,7 @@ Aqui, você tem agora um atalho do seu pedido (na versão 1.1 Espera-se que os c
 
 ## Tipos genéricos no plug-in Mobile
 
-Melhor que as palavras, aqui está um exemplo dos créditos genéricos para uma luz com todos os seus controles (veja também a tabela Luz abaixo) :
+Melhor que as palavras, aqui está um exemplo dos créditos genéricos para uma luz com todos os seus controles (veja também a tabela Luz abaixo)) :
 
 ![generic type in plugin](../images/generic_type_in_plugin.jpg)
 
@@ -127,7 +127,7 @@ Imagem                           | Tipo genérico               | Parte do plugi
 ![LIGHT](../images/LIGHT_2.jpg) | `Lumière Bouton On`<br/>`Botão apagado`<br/>`Luz do estado` | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE` | Feedback de status presente, o botão esquerdo alterna entre ligado e desligado |
 ![LIGHT](../images/LIGHT_2.jpg) | `Lumière Bouton Toggle`<br/>`Luz do estado` | `LIGHT_TOGGLE`<br/>`LIGHT_STATE` | Feedback de status presente, o botão esquerdo alterna entre ligado e desligado |
 ![LIGHT](../images/LIGHT_3.jpg) | `Lumière Bouton On`<br/>`Botão apagado`<br/>`Luz do estado`<br/>`Light Slider` | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER` | Feedback de status presente, o botão esquerdo permite alternar entre On e Off e o controle deslizante permite controlar a intensidade |
-![LIGHT](../images/LIGHT_4.jpg) | `Lumière Bouton On`<br/>`Botão apagado`<br/>`Luz do estado`<br/>`Light Slider`<br/>`Cor clara (informação)`<br/>`Cor clara (ação)`<br/>`Light Mode` (opcional, é usado para ter modos de luz, por exemplo, arco-íris na Hue philips) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Feedback de status presente, o botão esquerdo permite alternar entre On e Off e o controle deslizante permite controlar a intensidade. No círculo, a cor da lâmpada está presente e, quando você clica nela, pode alterar a cor e ativar um modo |
+![LIGHT](../images/LIGHT_4.jpg) | `Lumière Bouton On`<br/>`Botão apagado`<br/>`Luz do estado`<br/>`Light Slider`<br/>`Cor clara (informação)`<br/>`Cor clara (ação)`<br/>`Light Mode` (opcional, é usado para ter modos de luz, por exemplo, arco-íris na Hue philips)) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Feedback de status presente, o botão esquerdo permite alternar entre On e Off e o controle deslizante permite controlar a intensidade. No círculo, a cor da lâmpada está presente e, quando você clica nela, pode alterar a cor e ativar um modo |
 
 ### As tomadas
 
@@ -148,7 +148,7 @@ Imagem                           | Tipo genérico               | Parte do plugi
 
 Imagem                           | Tipo genérico               | Parte do plugin Dev            | Descrição          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![FLOOD](../images/FLOOD.jpg)   | `Innondation`<br/>TEMPERATURA (opcional)<br/>Humidade (opcional)<br/>`SABOTAGE` (opcional)|`FLOOD`<br/>TEMPERATURA (opcional)<br/>«UMIDADE» (opcional)<br/>«UMIDADE» (opcional) | Permite que você tenha seu sensor de inundação completo em uma única linha.
+![FLOOD](../images/FLOOD.jpg)   | `Innondation`<br/>`Temperatura` (opcional)<br/>Humidade (opcional)<br/>Sabotagem (opcional)|`FLOOD`<br/>`TEMPERATURE` (opcional)<br/>«UMIDADE» (opcional)<br/>«UMIDADE» (opcional) | Permite que você tenha seu sensor de inundação completo em uma única linha.
 
 ### Serrure
 
@@ -166,7 +166,7 @@ Imagem                         | Tipo genérico               | Parte do plugin 
 
 Imagem                           | Tipo genérico               | Parte do plugin Dev            | Descrição          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![SMOKE](../images/SMOKE.jpg)   | `Fumaça`<br/>TEMPERATURA (opcional)|`SMOKE`<br/>TEMPERATURA (opcional) | Permite que você tenha seu sensor de fumaça completo em uma única linha.
+![SMOKE](../images/SMOKE.jpg)   | `Fumaça`<br/>`Temperatura` (opcional)|`SMOKE`<br/>`TEMPERATURE` (opcional) | Permite que você tenha seu sensor de fumaça completo em uma única linha.
 
 ### Temperatura
 
@@ -178,19 +178,19 @@ Imagem                                       | Tipo genérico               | Pa
 
 Imagem                                 | Tipo genérico               | Parte do plugin Dev            | Descrição          |
 :-----------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![PRESENCE](../images/PRESENCE.jpg)   | `Presença`<br/>TEMPERATURA (opcional)<br/>`Brilho` (opcional)<br/>Humidade (opcional)<br/>`UV '(opcional)<br/>`SABOTAGE` (opcional)|`PRESENCE`<br/>TEMPERATURA (opcional)<br/>`BRILHO` (opcional)<br/>«UMIDADE» (opcional)<br/>`UV '(opcional)<br/>`SABOTAGE` (opcional) | Veja a imagem.
+![PRESENCE](../images/PRESENCE.jpg)   | `Presença`<br/>`Temperatura` (opcional)<br/>`Brightness` (opcional)<br/>Humidade (opcional)<br/>`UV` (opcional)<br/>Sabotagem (opcional)|`PRESENCE`<br/>`TEMPERATURE` (opcional)<br/>`BRILHO` (opcional)<br/>«UMIDADE» (opcional)<br/>`UV` (opcional)<br/>`SABOTAGE` (opcional) | Veja a imagem.
 
 ### Ouvrant
 
 Imagem                                       | Tipo genérico               | Parte do plugin Dev            | Descrição          |
 :-----------------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![OPENING](../images/OPENING.jpg)   | `Porte / Fenêtre`<br/>TEMPERATURA (opcional)|`OPENING / OPENING_WINDOW`<br/>TEMPERATURA (opcional) | Veja Imagem (ou seja, você pode escolher entre janela e porta).
+![OPENING](../images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`Temperatura` (opcional)|`OPENING / OPENING_WINDOW`<br/>`TEMPERATURE` (opcional) | Consulte Imagem (ou seja, você pode escolher entre janela e porta).
 
 ### Fio piloto
 
 Imagem                               | Tipo genérico               | Parte do plugin Dev            | Descrição          |
 :---------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![HEATING](../images/HEATING.jpg)   | `Chauffage fil pilote Bouton ON`<br/>`Botão OFF do fio piloto de aquecimento`<br/>`Estado do fio piloto de aquecimento`<br/>`Aquecimento do fio piloto de botão` (opcional) | `HEATING_ON`<br/>`HEATING_OFF`<br/>`HEATING_STATE`<br/>`HEATING_OTHER`|Os botões ON / OFF e Status permitem criar o botão na extremidade esquerda do modelo e o `botão de aquecimento do fio piloto` está lá para adicionar botões (no máximo 5)
+![HEATING](../images/HEATING.jpg)   | `Chauffage fil pilote Bouton ON`<br/>`Botão OFF do fio piloto de aquecimento`<br/>`Estado do fio piloto de aquecimento`<br/>`Aquecimento do fio piloto de botão` (opcional) | `HEATING_ON`<br/>`HEATING_OFF`<br/>`HEATING_STATE`<br/>`HEATING_OTHER`|Os botões ON / OFF e Status permitem criar o botão na extrema esquerda do modelo e os `fios de aquecimento do botão piloto 'existem para adicionar botões (5 no máximo)
 
 ## OS JOKERS
 

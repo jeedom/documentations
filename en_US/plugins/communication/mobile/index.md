@@ -76,7 +76,7 @@ Jeedom mobile app is now ready to work.
 
 ## Favorites
 
-On the application you can have Favorites (command shortcuts, plugins, scenarios).
+On the application you can have Favorites (shortcuts of commands, plugins, scenarios).
 
 Here is the procedure for creating them :
 
@@ -148,7 +148,7 @@ Picture                           | Type generic               | Dev plugin part
 
 Picture                           | Type generic               | Dev plugin part            | Description          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![FLOOD](./images/FLOOD.jpg)   | `Innondation`<br/>`TEMPERATURE` (optional)<br/>`Humidity` (optional)<br/>`SABOTAGE` (optional)|`FLOOD`<br/>`TEMPERATURE` (optional)<br/>`HUMIDITY` (optional)<br/>`HUMIDITY` (optional) | Allows you to have your complete flood sensor on a single line.
+![FLOOD](./images/FLOOD.jpg)   | `Innondation`<br/>`Temperature` (optional)<br/>`Humidity` (optional)<br/>`Sabotage` (optional)|`FLOOD`<br/>`TEMPERATURE` (optional)<br/>`HUMIDITY` (optional)<br/>`HUMIDITY` (optional) | Allows you to have your complete flood sensor on a single line.
 
 ### Serrure
 
@@ -166,7 +166,7 @@ Picture                         | Type generic               | Dev plugin part  
 
 Picture                           | Type generic               | Dev plugin part            | Description          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![SMOKE](./images/SMOKE.jpg)   | `Smoke`<br/>`TEMPERATURE` (optional)|`SMOKE`<br/>`TEMPERATURE` (optional) | Allows you to have your complete smoke sensor on a single line.
+![SMOKE](./images/SMOKE.jpg)   | `Smoke`<br/>`Temperature` (optional)|`SMOKE`<br/>`TEMPERATURE` (optional) | Allows you to have your complete smoke sensor on a single line.
 
 ### Temperature
 
@@ -178,13 +178,13 @@ Picture                                       | Type generic               | Dev
 
 Picture                                 | Type generic               | Dev plugin part            | Description          |
 :-----------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![PRESENCE](./images/PRESENCE.jpg)   | `Presence`<br/>`TEMPERATURE` (optional)<br/>`Brightness` (optional)<br/>`Humidity` (optional)<br/>`UV` (optional)<br/>`SABOTAGE` (optional)|`PRESENCE`<br/>`TEMPERATURE` (optional)<br/>`BRIGHTNESS` (optional)<br/>`HUMIDITY` (optional)<br/>`UV` (optional)<br/>`SABOTAGE` (optional) | See picture.
+![PRESENCE](./images/PRESENCE.jpg)   | `Presence`<br/>`Temperature` (optional)<br/>`Brightness` (optional)<br/>`Humidity` (optional)<br/>`UV` (optional)<br/>`Sabotage` (optional)|`PRESENCE`<br/>`TEMPERATURE` (optional)<br/>`BRIGHTNESS` (optional)<br/>`HUMIDITY` (optional)<br/>`UV` (optional)<br/>`SABOTAGE` (optional) | See picture.
 
 ### Ouvrant
 
 Picture                                       | Type generic               | Dev plugin part            | Description          |
 :-----------------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![OPENING](./images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`TEMPERATURE` (optional)|`OPENING / OPENING_WINDOW`<br/>`TEMPERATURE` (optional) | See Image (ie you can choose between window and door).
+![OPENING](./images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`Temperature` (optional)|`OPENING / OPENING_WINDOW`<br/>`TEMPERATURE` (optional) | See Image (i.e. you can choose between window and door).
 
 ### Pilot wire
 

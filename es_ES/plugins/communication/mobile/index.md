@@ -15,7 +15,7 @@ Después de instalar el complemento, solo necesita activarlo :
 Para configurar el complemento, debe agregar los teléfonos que podrán acceder a Jeedom.
 
 Para agregar un teléfono : **Plugins** → **Comunicación** → **App
-Móvil** → **Añadir**
+Mobile** → **Añadir**
 
 ![mobile2](./images/mobile2.png)
 
@@ -68,9 +68,9 @@ Después de descargar e instalar su aplicación móvil Jeedom, inicie la aplicac
 
 Luego llega a un tutorial de configuración que le recomendamos que siga. Algunos pasos se han realizado previamente.
 
-Luego podrá elegir entre una configuración manual o automática por QRcode. Si opta por la configuración de QRcode, simplemente muestre el QRcode presente en el complemento de la aplicación móvil en el equipo del teléfono inteligente creado previamente. En este caso, la aplicación recuperará automáticamente toda la configuración de su Jeedom y se conectará automáticamente. Cuando está conectado a su hogar a través de Wifi, la aplicación usará automáticamente la dirección Ethernet de Jeedom interna de su red. Cuando esté conectado en 4G o 3G, usará su dirección externa para conectarse a su Jeedom (por ejemplo, a través del servicio DNS de Jeedom si lo usa). Si elige la configuración manual, en este caso deberá ingresar manualmente las direcciones IP internas y externas de su Jeedom. Esta opción está reservada para un público informado.
+Luego podrá elegir entre una configuración manual o automática por QRcode. Si opta por la configuración de QRcode, simplemente muestre el QRcode presente en el complemento de la aplicación móvil en el equipo del teléfono inteligente creado previamente. En este caso, la aplicación recuperará automáticamente toda la configuración de su Jeedom y se conectará automáticamente. Cuando está conectado a su hogar a través de Wifi, la aplicación usará automáticamente la dirección Ethernet de Jeedom interna de su red. Cuando esté conectado en 4G o 3G, usará su dirección externa para conectarse a su Jeedom (por ejemplo, a través del servicio DNS de Jeedom si lo usa)). Si elige la configuración manual, en este caso deberá ingresar manualmente las direcciones IP internas y externas de su Jeedom. Esta opción está reservada para un público informado.
 
-La aplicación se sincronizará y llegará a su página de inicio (precedida por una mini guía de presentación).
+La aplicación se sincronizará y usted llegará a su página de inicio (precedida por una mini guía de presentación).
 
 La aplicación móvil Jeedom ahora está lista para funcionar.
 
@@ -113,7 +113,7 @@ Aquí, ahora tiene un acceso directo de su pedido (en la versión 1.1 Se espera 
 
 ## Tipos genéricos en el complemento móvil
 
-Mejor que las palabras, aquí hay un ejemplo de los créditos genéricos para una luz con todos sus controles (vea también la tabla de Luz a continuación) :
+Mejor que las palabras, aquí hay un ejemplo de los créditos genéricos para una luz con todos sus controles (vea también la tabla de Luz a continuación)) :
 
 ![generic type in plugin](./images/generic_type_in_plugin.jpg)
 
@@ -148,7 +148,7 @@ Imagen                           | Tipo genérico               | Parte del comp
 
 Imagen                           | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![FLOOD](./images/FLOOD.jpg)   | `Innondation`<br/>`TEMPERATURA` (opcional)<br/>`Humedad` (opcional)<br/>`SABOTAGE` (opcional)|`FLOOD`<br/>`TEMPERATURA` (opcional)<br/>`HUMEDAD` (opcional)<br/>`HUMEDAD` (opcional) | Le permite tener su sensor de inundación completo en una sola línea.
+![FLOOD](./images/FLOOD.jpg)   | `Innondation`<br/>`Temperatura` (opcional)<br/>`Humedad` (opcional)<br/>`Sabotaje` (opcional)|`FLOOD`<br/>`TEMPERATURA` (opcional)<br/>`HUMEDAD` (opcional)<br/>`HUMEDAD` (opcional) | Le permite tener su sensor de inundación completo en una sola línea.
 
 ### Serrure
 
@@ -166,7 +166,7 @@ Imagen                         | Tipo genérico               | Parte del comple
 
 Imagen                           | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![SMOKE](./images/SMOKE.jpg)   | `Humo`<br/>`TEMPERATURA` (opcional)|`SMOKE`<br/>`TEMPERATURA` (opcional) | Le permite tener su sensor de humo completo en una sola línea.
+![SMOKE](./images/SMOKE.jpg)   | `Humo`<br/>`Temperatura` (opcional)|`SMOKE`<br/>`TEMPERATURA` (opcional) | Le permite tener su sensor de humo completo en una sola línea.
 
 ### Temperatura
 
@@ -178,19 +178,19 @@ Imagen                                       | Tipo genérico               | Pa
 
 Imagen                                 | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-----------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![PRESENCE](./images/PRESENCE.jpg)   | `Presencia`<br/>`TEMPERATURA` (opcional)<br/>`Brillo` (opcional)<br/>`Humedad` (opcional)<br/>`UV` (opcional)<br/>`SABOTAGE` (opcional)|`PRESENCE`<br/>`TEMPERATURA` (opcional)<br/>`BRILLO` (opcional)<br/>`HUMEDAD` (opcional)<br/>`UV` (opcional)<br/>`SABOTAGE` (opcional) | Ver foto.
+![PRESENCE](./images/PRESENCE.jpg)   | `Presencia`<br/>`Temperatura` (opcional)<br/>`Brillo` (opcional)<br/>`Humedad` (opcional)<br/>`UV` (opcional)<br/>`Sabotaje` (opcional)|`PRESENCE`<br/>`TEMPERATURA` (opcional)<br/>`BRILLO` (opcional)<br/>`HUMEDAD` (opcional)<br/>`UV` (opcional)<br/>`SABOTAGE` (opcional) | Ver foto.
 
 ### Ouvrant
 
 Imagen                                       | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-----------------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![OPENING](./images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`TEMPERATURA` (opcional)|`OPENING / OPENING_WINDOW`<br/>`TEMPERATURA` (opcional) | Ver imagen (es decir, puede elegir entre ventana y puerta).
+![OPENING](./images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`Temperatura` (opcional)|`OPENING / OPENING_WINDOW`<br/>`TEMPERATURA` (opcional) | Ver imagen (es decir, puede elegir entre ventana y puerta).
 
 ### Cable piloto
 
 Imagen                               | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :---------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![HEATING](./images/HEATING.jpg)   | `Chauffage fil pilote Bouton ON`<br/>`Botón de apagado del cable piloto de calentamiento`<br/>`Calentar el estado del cable piloto`<br/>`Botón de calentamiento del cable piloto` (opcional) | `HEATING_ON`<br/>`HEATING_OFF`<br/>`HEATING_STATE`<br/>`HEATING_OTHER`|Los botones ON / OFF y Status le permiten crear el botón en el extremo izquierdo de la plantilla y el `botón de calentamiento del cable piloto 'está ahí para agregar botones (5 máx.)
+![HEATING](./images/HEATING.jpg)   | `Chauffage fil pilote Bouton ON`<br/>`Botón de apagado del cable piloto de calentamiento`<br/>`Calentar el estado del cable piloto`<br/>`Botón de calentamiento del cable piloto` (opcional) | `HEATING_ON`<br/>`HEATING_OFF`<br/>`HEATING_STATE`<br/>`HEATING_OTHER`|Los botones ON / OFF y Status le permiten crear el botón en el extremo izquierdo de la plantilla y el `botón de calentamiento del cable piloto 'está ahí para agregar botones (5 máx)
 
 ## Los bromistas
 
