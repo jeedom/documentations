@@ -8,19 +8,19 @@ Voici sa structure: tout d’abord un dossier du nom de votre plugin (son identi
 
 - ``3rdparty`` : dossier contenant les librairies externes utilisées dans le plugin (exemple pour le plugin SMS une librairie pour la communication série en php)
 - ``core`` : dossier contenant tous les fichiers de fonctionnement interne
-- ``class`` : dossier contenant la classe du plugin
-- ``php`` : dossier pouvant contenir des fonctions ne devant pas forcément appartenir à une classe (souvent utilisé pour permettre l’inclusion de multiples classes ou fichiers de configuration en une fois)
-- ``config`` : fichier de configuration du plugin
-- ``ajax`` : dossier contenant les fichiers cibles d’appels AJAX
+  - ``class`` : dossier contenant la classe du plugin
+  - ``php`` : dossier pouvant contenir des fonctions ne devant pas forcément appartenir à une classe (souvent utilisé pour permettre l’inclusion de multiples classes ou fichiers de configuration en une fois)
+  - ``config`` : fichier de configuration du plugin
+  - ``ajax`` : dossier contenant les fichiers cibles d’appels AJAX
 - ``desktop`` : dossier contenant la vue "bureau" du plugin (en opposition avec la vue "mobile")
- -   ``js`` : dossier contenant tous les fichiers de type javascript
- -   ``php`` : dossier contenant tous les fichiers de type php qui font de l’affichage
- -   ``css`` : il n’y en pas ici mais, si besoin, tous les fichiers css du plugin vont dedans
- -   ``modal`` : dossier contenant le code des modals du plugin
+  -   ``js`` : dossier contenant tous les fichiers de type javascript
+  -   ``php`` : dossier contenant tous les fichiers de type php qui font de l’affichage
+  -   ``css`` : il n’y en pas ici mais, si besoin, tous les fichiers css du plugin vont dedans
+  -   ``modal`` : dossier contenant le code des modals du plugin
 - ``plugin\_info`` : contient les fichiers permettant à Jeedom de qualifier le plugin, de faire son installation et sa configuration
- -   ``info.json`` : fichier contenant les informations de base du plugin (il est obligatoire sinon Jeedom ne verra pas le plugin), il contient entre autre l’identifiant du module, la description, les instructions d’installation…​
- -   ``install.php`` : fichier contenant (si besoin) les méthodes d’installation et de désinstallation du plugin
- -   ``configuration.php`` : fichier contenant les paramètres à configurer du plugin indépendants des équipements de celui-ci (exemple pour le module Zwave l’ip du Raspberry Pi ayant la carte Razberry)
+  -   ``info.json`` : fichier contenant les informations de base du plugin (il est obligatoire sinon Jeedom ne verra pas le plugin), il contient entre autre l’identifiant du module, la description, les instructions d’installation…​
+  -   ``install.php`` : fichier contenant (si besoin) les méthodes d’installation et de désinstallation du plugin
+  -   ``configuration.php`` : fichier contenant les paramètres à configurer du plugin indépendants des équipements de celui-ci (exemple pour le module Zwave l’ip du Raspberry Pi ayant la carte Razberry)
 - ``docs`` : doit contenir la doc du plugin au format markdown, la racine et le fichier index.md. Toutes les images sont dans docs/images. La doc elle-même est dans un dossier en fonction de la langue (ex en francais : ``docs/fr\_FR``)
 
 Pour ce qui est de la convention de nommage des fichiers voici les
@@ -37,13 +37,13 @@ Voici les recommandations :
 - le nom de la première page de vue d’un plugin doit être le même que l’ID du plugin
 - le nom du fichier JS (s’il y en a un) de la première page de vue du plugin doit être l’ID du plugin
 
-# Création plugin partie 2 : plugin info
+# Création plugin partie 2 : dossier plugin info
 
 ## ``info.json``
 
 Voir [ici](https://doc.jeedom.com/fr_FR/dev/structure_info_json)
 
-## ``installation.php``
+## ``install.php``
 
 Fichier donnant les instructions d’installation d’un plugin :
 
