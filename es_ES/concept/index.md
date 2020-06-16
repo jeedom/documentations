@@ -10,7 +10,7 @@ Las posibilidades de Jeedom son casi infinitas, ya que puedes crear muchas cosas
 
 ## Affichage
 
-Jeedom le permite interconectar una gran cantidad de dispositivos, ya sea que estén basados en los protocolos Z-Wave, Enocean, Zigbee, etc., en las API que usan complementos o directamente en forma de scripts. Puedes mirar en el [Mercado](https://market.jeedom.com/) para obtener una descripción general de los dispositivos compatibles.
+Jeedom permite interconectar una gran cantidad de periféricos, ya sea que estén basados en los protocolos Z-Wave, Enocean, Zigbee, etc., en API gracias a complementos, o directamente en forma de scripts. Puedes mirar en el [Mercado](https://market.jeedom.com/) para obtener una descripción general de los dispositivos compatibles.
 
 Puede ver estos dispositivos de varias maneras :
 
@@ -34,7 +34,7 @@ Estos objetos pueden representar partes de la casa (sala de estar, dormitorio, t
 
 > Tips
 >
-> DENTRO **Configuración → Preferencias** puede definir en qué objeto desea llegar al Tablero. [Preferencias](/es_ES/core/4.1/profils)
+> DENTRO **Configuración → Preferencias** puede definir a qué objeto desea llegar en el Tablero. [Preferencias](/es_ES/core/4.1/profils)
 
 ![Salpicadero](images/concept-dashboard.jpg)
 
@@ -68,7 +68,7 @@ Estos dos tipos de comandos se adjuntan en forma de equipo. Por lo tanto, el equ
 - Physiquement: Tengo un enchufe con un botón de encendido / apagado y un led de estado, en la sala de estar.
 - En Jeedom: Tengo equipo con dos acciones de encendido y apagado y una información de estado, en el objeto Salon.
 
-Estos equipos son creados por complementos. Por ejemplo, el complemento Z-Wave le permitirá incluir su complemento Z-Waze, que creará un dispositivo con sus controles, que puede nombrar y vincular a un Objeto.
+Estos equipos son creados por complementos. Por ejemplo, el complemento Z-Wave le permitirá incluir su enchufe Z-Waze, que creará equipos con sus controles, que puede nombrar y vincular a un Objeto.
 
 En términos de visualización, cada pedido se muestra utilizando un widget. The Core ofrece los widgets principales, así como una herramienta para crearlos (V4) : [Reproductores](/es_ES/core/4.1/widgets).
 
@@ -84,9 +84,9 @@ Luego verá que cada Objeto, Equipo, Orden tiene muchas opciones, en términos d
 
 ## Mi primer escenario
 
-La ventaja de la automatización del hogar, más allá del control centralizado y remoto de nuestros periféricos, reside sobre todo en la automatización. El objetivo no es pasar horas frente a su Tablero o Diseño, sino que, por el contrario, su alojamiento se adapta a sus hábitos y lo hace olvidar. Más persianas para abrir y cerrar todos los días, más luz para encender y apagar, se advierte cuándo tirar la basura en la calle, cuando hay correo en el buzón, la calefacción que se adapta según estaciones y condiciones climáticas. Las posibilidades son infinitas y dependen del estilo de vida. Los escenarios están ahí para eso !
+La ventaja de la automatización del hogar, más allá del control centralizado y remoto de nuestros periféricos, reside sobre todo en la automatización. El objetivo no es pasar horas frente a su Tablero o Diseño, sino que, por el contrario, su alojamiento se adapta a sus hábitos y lo hace olvidar. No más persianas para abrir y cerrar todos los días, más luz para encender y apagar, se advierte cuándo tirar la basura en la calle, cuando hay correo en el buzón, la calefacción que se adapta según estaciones y condiciones climáticas. Las posibilidades son infinitas y dependen del estilo de vida. Los escenarios están ahí para eso !
 
-Un escenario es una serie de acciones definidas que se ejecutarán en determinados momentos del día. La ejecución puede ser programada (todos los lunes a esa hora) o causada por un evento. Como se vio anteriormente, este evento puede ser, por ejemplo, nuestro comando de información *Presencia* un detector de movimiento, después de una detección.
+Un escenario es una serie de acciones definidas que se ejecutarán en determinados momentos del día. La ejecución puede programarse (todos los lunes a esa hora) o ser causada por un evento. Como se vio anteriormente, este evento puede ser, por ejemplo, nuestro comando de información *Presencia* un detector de movimiento, después de una detección.
 
 El objetivo aquí no es ser exhaustivo, sino descubrir los escenarios a través de ejemplos simples. los [documentación del manual de usuario](/es_ES/core/4.1/scenario) es mucho más completo.
 

@@ -10,7 +10,7 @@ The possibilities of Jeedom are almost endless, since you can create a lot of th
 
 ## Affichage
 
-Jeedom allows to interface a very large number of devices together, whether these are based on the Z-Wave, Enocean, Zigbee protocols, etc., on APIs using plugins, or directly in the form of scripts. You can look on the [Market](https://market.jeedom.com/) to get an overview of supported devices.
+Jeedom allows to interface a very large number of peripherals together, whether these are based on the Z-Wave, Enocean, Zigbee protocols etc., on APIs thanks to plugins, or directly in the form of scripts. You can look on the [Market](https://market.jeedom.com/) to get an overview of supported devices.
 
 You can view these devices in several ways :
 
@@ -34,7 +34,7 @@ These objects can represent parts of the house (Living room, Bedroom, Workshop).
 
 > Tips
 >
-> IN **Settings → Preferences** you can define on which object you wish to arrive on the Dashboard. [Preferences](/en_US/core/4.1/profils)
+> IN **Settings → Preferences** you can define which object you want to arrive on the Dashboard. [Preferences](/en_US/core/4.1/profils)
 
 ![Dashboard](images/concept-dashboard.jpg)
 
@@ -68,7 +68,7 @@ These two types of commands are attached in the form of equipment. The equipment
 - Physiquement: I have a socket with an on / off button and a status led, in the living room.
 - In Jeedom: I have equipment with two on and off actions and a status info, in the Salon object.
 
-These equipments are created by plugins. For example, the Z-Wave plugin will allow you to include your Z-Waze plug, which will create a device with its controls, which you can name and link to an Object.
+These equipments are created by plugins. For example, the Z-Wave plugin will allow you to include your Z-Waze plug, which will create equipment with its controls, which you can name and link to an Object.
 
 In terms of display, each order is displayed using a Widget. The Core offers the main Widgets, as well as a tool to create them (V4) : [Widget](/en_US/core/4.1/widgets).
 
@@ -84,9 +84,9 @@ You will then see that each Object, Equipment, Order has many options, in terms 
 
 ## My first scenario
 
-The advantage of home automation, beyond centralized and remote control of our peripherals, lies above all in automation. The goal is not to spend hours in front of your Dashboard or Design, but on the contrary that your accommodation adapts to your habits and makes you forget. No more shutters to open and close every day, no more light to turn on and off, be warned when to put the trash on the street, when there is mail in the mailbox, the heating that adapts according to seasons and climatic conditions. The possibilities are endless, and depend on one's lifestyle. The scenarios are there for that !
+The advantage of home automation, beyond centralized and remote control of our peripherals, lies above all in automation. The goal is not to spend hours in front of your Dashboard or Design, but on the contrary that your accommodation adapts to your habits and makes you forget. No more shutters to open and close every day, no more light to turn on and off, be warned when to put the trash on the street, when there is mail in the mailbox, the heating which adapts according to seasons and climatic conditions. The possibilities are endless, and depend on one's lifestyle. The scenarios are there for that !
 
-A scenario is a series of defined actions that will execute at certain times of the day. The execution can be scheduled (every Monday at such time), or caused by an event. As seen above, this event can for example be our info command *Presence* a motion detector, following a detection.
+A scenario is a series of defined actions that will execute at certain times of the day. Execution can be scheduled (every Monday at such time), or caused by an event. As seen above, this event can for example be our info command *Presence* a motion detector, following a detection.
 
 The goal here is not to be exhaustive but to discover the scenarios through simple examples. The [user manual documentation](/en_US/core/4.1/scenario) is much more complete.
 

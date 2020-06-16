@@ -10,7 +10,7 @@ Die Möglichkeiten von Jeedom sind nahezu unbegrenzt, da Sie mit ein paar Python
 
 ## Affichage
 
-Mit Jeedom können Sie eine große Anzahl von Geräten miteinander verbinden, unabhängig davon, ob diese auf den Protokollen Z-Wave, Enocean, Zigbee usw., APIs mithilfe von Plugins oder direkt in Form von Skripten basieren. Sie können auf die schauen [Markt](https://market.jeedom.com/) um einen Überblick über die unterstützten Geräte zu erhalten.
+Jeedom ermöglicht es, eine sehr große Anzahl von Peripheriegeräten miteinander zu verbinden, unabhängig davon, ob diese auf den Protokollen Z-Wave, Enocean, Zigbee usw., APIs dank Plugins oder direkt in Form von Skripten basieren. Sie können auf die schauen [Markt](https://market.jeedom.com/) um einen Überblick über die unterstützten Geräte zu erhalten.
 
 Sie können diese Geräte auf verschiedene Arten anzeigen :
 
@@ -34,7 +34,7 @@ Diese Objekte können Teile des Hauses darstellen (Wohnzimmer, Schlafzimmer, Wer
 
 > Tips
 >
-> IN **Einstellungen → Einstellungen** Sie können festlegen, für welches Objekt Sie im Dashboard ankommen möchten. [Vorlieben](/de_DE/core/4.1/profils)
+> IN **Einstellungen → Einstellungen** Sie können definieren, welches Objekt im Dashboard ankommen soll. [Vorlieben](/de_DE/core/4.1/profils)
 
 ![Armaturenbrett](images/concept-dashboard.jpg)
 
@@ -68,7 +68,7 @@ Diese beiden Arten von Befehlen werden in Form von Geräten angehängt. Das Ger�
 - Physiquement: Ich habe eine Steckdose mit einem Ein / Aus-Knopf und einer Status-LED im Wohnzimmer.
 - In Jeedom: Ich habe Geräte mit zwei Ein- und Ausschaltaktionen und einer Statusinformation im Salonobjekt.
 
-Diese Geräte werden von Plugins erstellt. Mit dem Z-Wave-Plugin können Sie beispielsweise Ihren Z-Waze-Plugin einbinden, wodurch ein Gerät mit seinen Steuerelementen erstellt wird, das Sie benennen und mit einem Objekt verknüpfen können.
+Diese Geräte werden von Plugins erstellt. Mit dem Z-Wave-Plugin können Sie beispielsweise Ihren Z-Waze-Plugin einbinden, der Geräte mit seinen Steuerelementen erstellt, die Sie benennen und mit einem Objekt verknüpfen können.
 
 In Bezug auf die Anzeige wird jede Bestellung mit einem Widget angezeigt. Der Core bietet die wichtigsten Widgets sowie ein Tool zum Erstellen dieser Widgets (V4)) : [Widgets](/de_DE/core/4.1/widgets).
 
@@ -84,7 +84,7 @@ Sie werden dann sehen, dass jedes Objekt, jede Ausrüstung, jede Bestellung viel
 
 ## Mein erstes Szenario
 
-Der Vorteil der Heimautomation über die zentrale und ferngesteuerte Steuerung unserer Peripheriegeräte hinaus liegt vor allem in der Automatisierung. Das Ziel ist nicht, Stunden vor Ihrem Dashboard oder Design zu verbringen, sondern im Gegenteil, dass sich Ihre Unterkunft an Ihre Gewohnheiten anpasst und Sie vergessen lässt. Täglich mehr Fensterläden zum Öffnen und Schließen, mehr Licht zum Ein- und Ausschalten. Seien Sie gewarnt, wann Sie den Müll auf die Straße bringen müssen, wenn sich Post im Briefkasten befindet und die Heizung sich entsprechend anpasst Jahreszeiten und klimatische Bedingungen. Die Möglichkeiten sind endlos und hängen vom eigenen Lebensstil ab. Dafür gibt es die Szenarien !
+Der Vorteil der Heimautomation über die zentrale und ferngesteuerte Steuerung unserer Peripheriegeräte hinaus liegt vor allem in der Automatisierung. Das Ziel ist nicht, Stunden vor Ihrem Dashboard oder Design zu verbringen, sondern im Gegenteil, dass sich Ihre Unterkunft an Ihre Gewohnheiten anpasst und Sie vergessen lässt. Keine Fensterläden mehr zum täglichen Öffnen und Schließen, mehr Licht zum Ein- und Ausschalten, seien Sie gewarnt, wann Sie den Müll auf die Straße bringen müssen, wenn sich Post im Briefkasten befindet und die Heizung sich entsprechend anpasst Jahreszeiten und klimatische Bedingungen. Die Möglichkeiten sind endlos und hängen vom eigenen Lebensstil ab. Dafür gibt es die Szenarien !
 
 Ein Szenario besteht aus einer Reihe definierter Aktionen, die zu bestimmten Tageszeiten ausgeführt werden. Die Ausführung kann geplant werden (jeden Montag zu diesem Zeitpunkt) oder durch ein Ereignis verursacht werden. Wie oben gezeigt, kann dieses Ereignis beispielsweise unser Info-Befehl sein *Präsenz* ein Bewegungsmelder nach einer Erkennung.
 
