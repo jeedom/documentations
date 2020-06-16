@@ -9,11 +9,11 @@
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://jeedom.github.io/prixcarburants/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/prixcarburants/#language#/",
+	"changelog" : "https://floman321.github.io/prixcarburants/#language#/changelog",
+	"documentation" : "https://floman321.github.io/prixcarburants/#language#/",
 	"link" : {
-		"forum":"https://community.jeedom.com/t/projet-en-cours-prix-carburants/23547/3"
+		"forum":"https://community.jeedom.com/t/prix-carburants/23547"
 	},
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
+	"language" : ["fr_FR"],
 	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
 }
