@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 06/16/2020
+
+- Correction of the problem of opening the history in flow mode
+
 # 06/14/2020
 
 - Improvement of the system for cleaning video stream files (note that the function is still in beta, it is possible that our setting is a little too aggressive)

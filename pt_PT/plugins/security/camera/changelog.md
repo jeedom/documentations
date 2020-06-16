@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 16/06/2020
+
+- Correção do problema de abrir o histórico no modo de fluxo
+
 # 14/06/2020
 
 - Melhoria do sistema para limpeza de arquivos de fluxo de vídeo (observe que a função ainda está na versão beta, é possível que nossa configuração seja um pouco agressiva)

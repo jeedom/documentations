@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 16.06.2020
+
+- Behebung des Problems des Öffnens des Verlaufs im Flow-Modus
+
 # 14.06.2020
 
 - Verbesserung des Systems zum Bereinigen von Videostream-Dateien (Beachten Sie, dass sich die Funktion noch in der Beta-Phase befindet. Möglicherweise ist unsere Einstellung etwas zu aggressiv)

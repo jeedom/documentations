@@ -14,6 +14,6 @@
 	"link" : {
 		"forum":"https://community.jeedom.com/t/prix-carburants/23547"
 	},
-	"language" : ["fr_FR"],
+	"language" : ["fr_FR","en_US"],
 	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
 }

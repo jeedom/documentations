@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 16/06/2020
+
+- Corrección del problema de abrir el historial en modo flujo
+
 # 14/06/2020
 
 - Mejora del sistema para limpiar archivos de transmisión de video (tenga en cuenta que la función todavía está en beta, es posible que nuestra configuración sea un poco demasiado agresiva)
