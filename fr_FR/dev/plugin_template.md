@@ -392,7 +392,7 @@ Qui peut contenir 2 sous-dossiers, dashboard et mobile, c’est un dossier que J
 
 ## i18n
 
-C’est ici que votre traduction doit se trouver sous forme de fichier json (le mieux et de regarder par exemple le plugin [zwave](https://github.com/jeedom/plugin-zwave) pour voir la forme du fichier)
+C’est ici que votre traduction doit se trouver sous forme de fichier json (le mieux et de regarder par exemple le plugin [zwave](https://github.com/jeedom/plugin-openzwave) pour voir la forme du fichier)
 
 ## ajax
 
