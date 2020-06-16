@@ -8,19 +8,19 @@ Aquí esta su estructura: primero una carpeta con el nombre de su complemento (s
 
 - ``3rdparty`` : carpeta que contiene las bibliotecas externas utilizadas en el complemento (ejemplo para el complemento de SMS, una biblioteca para comunicación en serie en php)
 - ``core`` : carpeta que contiene todos los archivos operativos internos
-- ``class`` : carpeta que contiene la clase de complemento
-- ``php`` : carpeta que puede contener funciones que no tienen que pertenecer a una clase (a menudo utilizada para permitir la inclusión de múltiples clases o archivos de configuración a la vez)
-- ``config`` : archivo de configuración del complemento
-- ``ajax`` : carpeta que contiene archivos de destino de llamadas AJAX
+  - ``class`` : carpeta que contiene la clase de complemento
+  - ``php`` : carpeta que puede contener funciones que no tienen que pertenecer a una clase (a menudo utilizada para permitir la inclusión de múltiples clases o archivos de configuración a la vez)
+  - ``config`` : archivo de configuración del complemento
+  - ``ajax`` : carpeta que contiene archivos de destino de llamadas AJAX
 - ``desktop`` : carpeta que contiene la vista "escritorio" del complemento (en contraste con la vista "móvil"")
- -   ``js`` : carpeta que contiene todos los archivos javascript
- -   ``php`` : carpeta que contiene todos los archivos php que se muestran
- -   ``css`` : no hay ninguno aquí, pero, si es necesario, todos los archivos CSS del complemento entran
- -   ``modal`` : carpeta que contiene el código modal del complemento
-- ``plugin\_info`` : contiene los archivos que permiten a Jeedom calificar el complemento, instalarlo y configurarlo
- -   ``info.json`` : archivo que contiene la información básica del complemento (es obligatorio, de lo contrario, Jeedom no verá el complemento), contiene entre otras cosas el identificador del módulo, la descripción, las instrucciones de instalación
- -   ``install.php`` : archivo que contiene (si es necesario) los métodos para instalar y desinstalar el complemento
- -   ``configuration.php`` : archivo que contiene los parámetros para configurar el complemento independientemente de su equipo (ejemplo para el módulo Zwave, la Raspberry Pi ip con la tarjeta Razberry)
+  -   ``js`` : carpeta que contiene todos los archivos javascript
+  -   ``php`` : carpeta que contiene todos los archivos php que se muestran
+  -   ``css`` : no hay ninguno aquí, pero, si es necesario, todos los archivos CSS del complemento entran
+  -   ``modal`` : carpeta que contiene el código modal del complemento
+- ``plugin_info`` : contiene los archivos que permiten a Jeedom calificar el complemento, instalarlo y configurarlo
+  -   ``info.json`` : archivo que contiene la información básica del complemento (es obligatorio, de lo contrario, Jeedom no verá el complemento), contiene entre otras cosas el identificador del módulo, la descripción, las instrucciones de instalación
+  -   ``install.php`` : archivo que contiene (si es necesario) los métodos para instalar y desinstalar el complemento
+  -   ``configuration.php`` : archivo que contiene los parámetros para configurar el complemento independientemente de su equipo (ejemplo para el módulo Zwave, la Raspberry Pi ip con la tarjeta Razberry)
 - ``docs`` : debe contener el documento del complemento en formato markdown, la raíz y el archivo index.md. Todas las imágenes están en documentos / imágenes. El documento en sí está en una carpeta dependiendo del idioma (ej. En francés : ``docs/fr\_FR``)
 
 En cuanto a la convención de nomenclatura de archivos, aquí están los
@@ -37,13 +37,13 @@ Aquí están las recomendaciones :
 - el nombre de la primera página de vista de un complemento debe ser el mismo que el ID del complemento
 - el nombre del archivo JS (si hay uno) de la primera página de vista del complemento debe ser el ID del complemento
 
-# Creación de complementos parte 2 : complemento de información
+# Creación de complementos parte 2 : carpeta del complemento de información
 
 ## ``info.json``
 
 Ver [aquí](https://doc.jeedom.com/es_ES/dev/structure_info_json)
 
-## ``installation.php``
+## ``install.php``
 
 Archivo que da instrucciones para instalar un complemento :
 
@@ -392,7 +392,7 @@ Que puede contener 2 subcarpetas, tablero y dispositivo móvil, es una carpeta q
 
 ## i18n
 
-Aquí es donde su traducción debe estar en forma de un archivo json (mejor y busque, por ejemplo, el complemento [Zwave](https://github.com/jeedom/plugin-zwave) para ver la forma del archivo)
+Aquí es donde su traducción debe estar en forma de un archivo json (mejor y busque, por ejemplo, el complemento [Zwave](https://github.com/jeedom/plugin-openzwave) para ver la forma del archivo)
 
 ## ajax
 

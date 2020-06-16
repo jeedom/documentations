@@ -8,19 +8,19 @@ Hier ist seine Struktur: Zuerst einen Ordner mit dem Namen Ihres Plugins (genaue
 
 - ``3rdparty`` : Ordner mit den im Plugin verwendeten externen Bibliotheken (Beispiel für das SMS-Plugin eine Bibliothek für die serielle Kommunikation in PHP)
 - ``core`` : Ordner mit allen internen Betriebsdateien
-- ``class`` : Ordner mit der Plugin-Klasse
-- ``php`` : Ordner, der Funktionen enthalten kann, die nicht zu einer Klasse gehören müssen (häufig verwendet, um mehrere Klassen oder Konfigurationsdateien gleichzeitig einzuschließen)
-- ``config`` : Plugin-Konfigurationsdatei
-- ``ajax`` : Ordner mit AJA-AufrufzieldateienX
+  - ``class`` : Ordner mit der Plugin-Klasse
+  - ``php`` : Ordner, der Funktionen enthalten kann, die nicht zu einer Klasse gehören müssen (häufig verwendet, um mehrere Klassen oder Konfigurationsdateien gleichzeitig einzuschließen)
+  - ``config`` : Plugin-Konfigurationsdatei
+  - ``ajax`` : Ordner mit AJA-AufrufzieldateienX
 - ``desktop`` : Ordner mit der "Desktop" -Ansicht des Plugins (im Gegensatz zur "mobilen" Ansicht")
- -   ``js`` : Ordner mit allen Javascript-Dateien
- -   ``php`` : Ordner mit allen angezeigten PHP-Dateien
- -   ``css`` : Es gibt keine hier, aber wenn nötig, gehen alle Plugin-CSS-Dateien hinein
- -   ``modal`` : Ordner mit dem Modalcode des Plugins
-- ``plugin\_info`` : enthält die Dateien, mit denen Jeedom das Plugin qualifizieren, installieren und konfigurieren kann
- -   ``info.json`` : Datei mit den grundlegenden Informationen des Plugins (es ist obligatorisch, sonst sieht Jeedom das Plugin nicht), enthält unter anderem die Modul-ID, Beschreibung, Installationsanweisungen…
- -   ``install.php`` : Datei, die (falls erforderlich) die Methoden zum Installieren und Deinstallieren des Plugins enthält
- -   ``configuration.php`` : Datei mit den Parametern zum Konfigurieren des Plugins unabhängig von seiner Ausstattung (Beispiel für das Zwave-Modul, die Raspberry Pi IP mit der Razberry-Karte)
+  -   ``js`` : Ordner mit allen Javascript-Dateien
+  -   ``php`` : Ordner mit allen angezeigten PHP-Dateien
+  -   ``css`` : Es gibt keine hier, aber wenn nötig, gehen alle Plugin-CSS-Dateien hinein
+  -   ``modal`` : Ordner mit dem Modalcode des Plugins
+- ``plugin_info`` : enthält die Dateien, mit denen Jeedom das Plugin qualifizieren, installieren und konfigurieren kann
+  -   ``info.json`` : Datei mit den grundlegenden Informationen des Plugins (es ist obligatorisch, sonst sieht Jeedom das Plugin nicht), enthält unter anderem die Modul-ID, Beschreibung, Installationsanweisungen…
+  -   ``install.php`` : Datei, die (falls erforderlich) die Methoden zum Installieren und Deinstallieren des Plugins enthält
+  -   ``configuration.php`` : Datei mit den Parametern zum Konfigurieren des Plugins unabhängig von seiner Ausstattung (Beispiel für das Zwave-Modul, die Raspberry Pi IP mit der Razberry-Karte)
 - ``docs`` : muss das Plugin-Dokument im Markdown-Format, das Stammverzeichnis und die Datei index.md enthalten. Alle Bilder sind in Dokumenten / Bildern. Das Dokument selbst befindet sich je nach Sprache in einem Ordner (z. B. in Französisch : ``docs/fr\_FR``)
 
 In Bezug auf die Dateinamenskonvention sind hier die
@@ -37,13 +37,13 @@ Hier sind die Empfehlungen :
 - Der Name der ersten Ansichtsseite eines Plugins muss mit der Plugin-ID übereinstimmen
 - Der Name der JS-Datei (falls vorhanden) der ersten Plugin-Ansichtsseite muss die Plugin-ID sein
 
-# Plugin-Erstellung Teil 2 : Info Plugin
+# Plugin-Erstellung Teil 2 : Info Plugin Ordner
 
 ## ``info.json``
 
 Sehen [hier](https://doc.jeedom.com/de_DE/dev/structure_info_json)
 
-## ``installation.php``
+## ``install.php``
 
 Datei mit Anweisungen zum Installieren eines Plugins :
 
@@ -392,7 +392,7 @@ Jeedom kann 2 Unterordner enthalten, Dashboard und Mobile. Es ist ein Ordner, de
 
 ## i18n
 
-Hier sollte Ihre Übersetzung in Form einer JSON-Datei vorliegen (am besten und schauen Sie sich zum Beispiel das Plugin an [Zwave](https://github.com/jeedom/plugin-zwave) um die Form der Datei zu sehen)
+Hier sollte Ihre Übersetzung in Form einer JSON-Datei vorliegen (am besten und schauen Sie sich zum Beispiel das Plugin an [Zwave](https://github.com/jeedom/plugin-openzwave) um die Form der Datei zu sehen)
 
 ## ajax
 

@@ -150,7 +150,7 @@
         "le nom de la première page de vue d'un plugin doit être le même que l'ID du plugin": "el nombre de la primera página de vista de un complemento debe ser el mismo que el ID del complemento",
         "le nom du fichier JS (s'il y en a un) de la première page de vue du plugin doit être l'ID du plugin": "el nombre del archivo JS (si hay uno) de la primera página de vista del complemento debe ser el ID del complemento",
         "Création plugin partie 2": "Creación de complementos parte 2",
-        "plugin info": "complemento de información",
+        "dossier plugin info": "carpeta del complemento de información",
         "Fichier donnant les instructions d'installation d'un plugin": "Archivo que da instrucciones para instalar un complemento",
         "Il est composé de la manière suivante": "Se compone de la siguiente manera",
         "La première partie commentée contient la licence (c'est mieux": "La primera parte comentada contiene la licencia (es mejor",

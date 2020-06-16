@@ -98,7 +98,7 @@
         "le nom de la première page de vue d'un plugin doit être le même que l'ID du plugin": "le nom de la première page de vue d'un plugin doit être le même que l'ID du plugin",
         "le nom du fichier JS (s'il y en a un) de la première page de vue du plugin doit être l'ID du plugin": "le nom du fichier JS (s'il y en a un) de la première page de vue du plugin doit être l'ID du plugin",
         "Création plugin partie 2": "Création plugin partie 2",
-        "plugin info": "plugin info",
+        "dossier plugin info": "dossier plugin info",
         "Voir": "Voir",
         "Fichier donnant les instructions d'installation d'un plugin": "Fichier donnant les instructions d'installation d'un plugin",
         "Il est composé de la manière suivante": "Il est composé de la manière suivante",

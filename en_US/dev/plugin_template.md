@@ -8,19 +8,19 @@ Here is its structure: first a folder with the name of your plugin (its unique i
 
 - ``3rdparty`` : folder containing the external libraries used in the plugin (example for the SMS plugin a library for serial communication in php)
 - ``core`` : folder containing all internal operating files
-- ``class`` : folder containing the plugin class
-- ``php`` : folder that can contain functions that do not have to belong to a class (often used to allow the inclusion of multiple classes or configuration files at once)
-- ``config`` : plugin configuration file
-- ``ajax`` : folder containing AJA call target filesX
+  - ``class`` : folder containing the plugin class
+  - ``php`` : folder that can contain functions that do not have to belong to a class (often used to allow the inclusion of multiple classes or configuration files at once)
+  - ``config`` : plugin configuration file
+  - ``ajax`` : folder containing AJA call target filesX
 - ``desktop`` : folder containing the "desktop" view of the plugin (in contrast to the "mobile" view")
- -   ``js`` : folder containing all javascript files
- -   ``php`` : folder containing all the php files that display
- -   ``css`` : there is none here but, if necessary, all the plugin css files go into it
- -   ``modal`` : folder containing the modal code of the plugin
-- ``plugin\_info`` : contains the files allowing Jeedom to qualify the plugin, to install and configure it
- -   ``info.json`` : file containing the basic information of the plugin (it is mandatory otherwise Jeedom will not see the plugin), it contains among other things the module identifier, description, installation instructions…
- -   ``install.php`` : file containing (if necessary) the methods for installing and uninstalling the plugin
- -   ``configuration.php`` : file containing the parameters to configure the plugin independent of its equipment (example for the Zwave module, the Raspberry Pi ip with the Razberry card)
+  -   ``js`` : folder containing all javascript files
+  -   ``php`` : folder containing all the php files that display
+  -   ``css`` : there is none here but, if necessary, all the plugin css files go into it
+  -   ``modal`` : folder containing the modal code of the plugin
+- ``plugin_info`` : contains the files allowing Jeedom to qualify the plugin, to install and configure it
+  -   ``info.json`` : file containing the basic information of the plugin (it is mandatory otherwise Jeedom will not see the plugin), it contains among other things the module identifier, description, installation instructions…
+  -   ``install.php`` : file containing (if necessary) the methods for installing and uninstalling the plugin
+  -   ``configuration.php`` : file containing the parameters to configure the plugin independent of its equipment (example for the Zwave module, the Raspberry Pi ip with the Razberry card)
 - ``docs`` : must contain the plugin doc in markdown format, the root and the index.md file. All images are in docs / images. The doc itself is in a folder depending on the language (ex in French : ``docs/fr\_FR``)
 
 As for the file naming convention, here are the
@@ -37,13 +37,13 @@ Here are the recommendations :
 - the name of the first view page of a plugin must be the same as the plugin ID
 - the name of the JS file (if there is one) of the first plugin view page must be the plugin ID
 
-# Plugin creation part 2 : info plugin
+# Plugin creation part 2 : info plugin folder
 
 ## ``info.json``
 
 View [here](https://doc.jeedom.com/en_US/dev/structure_info_json)
 
-## ``installation.php``
+## ``install.php``
 
 File giving instructions for installing a plugin :
 
@@ -392,7 +392,7 @@ Which can contain 2 subfolders, dashboard and mobile, it is a folder that Jeedom
 
 ## i18n
 
-This is where your translation should be in the form of a json file (best and look for example the plugin [Zwave](https://github.com/jeedom/plugin-zwave) to see the shape of the file)
+This is where your translation should be in the form of a json file (best and look for example the plugin [Zwave](https://github.com/jeedom/plugin-openzwave) to see the shape of the file)
 
 ## ajax
 

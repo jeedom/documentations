@@ -150,7 +150,7 @@
         "le nom de la première page de vue d'un plugin doit être le même que l'ID du plugin": "Der Name der ersten Ansichtsseite eines Plugins muss mit der Plugin-ID übereinstimmen",
         "le nom du fichier JS (s'il y en a un) de la première page de vue du plugin doit être l'ID du plugin": "Der Name der JS-Datei (falls vorhanden) der ersten Plugin-Ansichtsseite muss die Plugin-ID sein",
         "Création plugin partie 2": "Plugin-Erstellung Teil 2",
-        "plugin info": "Info Plugin",
+        "dossier plugin info": "Info Plugin Ordner",
         "Fichier donnant les instructions d'installation d'un plugin": "Datei mit Anweisungen zum Installieren eines Plugins",
         "Il est composé de la manière suivante": "Es setzt sich wie folgt zusammen",
         "La première partie commentée contient la licence (c'est mieux": "Der erste kommentierte Teil enthält die Lizenz (es ist besser",

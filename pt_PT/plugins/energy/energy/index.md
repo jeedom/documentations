@@ -11,7 +11,7 @@ Depois de baixar o plugin, você precisa ativá-lo. Você terá acesso à config
 Aqui você encontra a configuração básica :
 
 -   **Preços** : esta parte permite configurar os parâmetros de preços
-    -   **Moeda** : permite que você configure sua moeda (por padrão €)
+    -   **Moeda** : permite configurar sua moeda (por padrão €)
 -   **Água** : configuração de gerenciamento de água
     -   **Ativar** : ativar ou não a gestão da água
     -   **Tarifa** : preço da água por L
@@ -39,7 +39,7 @@ A configuração do equipamento "energia" pode ser acessada no menu do plugin :
 
 ![energy3](../images/energy3.PNG)
 
-É assim que a página do plug-in de energia se parece (aqui com 5 dispositivos já) :
+É assim que a página do plug-in de energia se parece (aqui com 5 equipamentos já) :
 
 ![energy4](../images/energy4.PNG)
 
@@ -54,7 +54,7 @@ Aqui você encontra toda a configuração do seu equipamento :
 -   **Ativar** : torna seu equipamento ativo
 -   **Visivél** : torna visível no painel
 -   **Tipo** : permite escolher o tipo de "energia" (eletricidade, água ou gás)
--   **Este contador fornece um total** : informa à jeedom que este equipamento fornece o consumo total para o objeto afetado. Por exemplo, se você possui um contador de teleinfo ou um hidrômetro que mostra o consumo total de sua casa, marque essa caixa e atribua o contador ao objeto que representa a casa (e, portanto, certamente o objeto pai de todas os outros).
+-   **Este contador fornece um total** : informa à jeedom que este equipamento fornece o consumo total para o objeto afetado. Por exemplo, se você tiver um contador de teleinfo ou um hidrômetro que mostre o consumo total de sua casa, marque essa caixa e atribua o contador ao objeto que representa a casa (e, portanto, certamente o objeto pai de todas outras).
 -   **Histórico** : permite apagar completamente o histórico do seu contador. Recomenda-se fazer isso após a configuração do equipamento para evitar sair do histórico de consumo dos módulos e, portanto, ter o primeiro dia totalmente distorcido.
 
 > **IMPORTANTE**
@@ -65,7 +65,7 @@ Aqui você encontra toda a configuração do seu equipamento :
 
 Abaixo você encontra a configuração do equipamento. Um botão à direita permite adicionar mais :
 
--   **Categoria** : categoria de consumo de equipamento (as categorias são fixas, você não pode adicionar nenhuma). No modo de contador total, apenas a categoria Outros é possível.
+-   **Categoria** : categoria de consumo de equipamento (as categorias são fixas, você não pode adicionar nenhum). No modo de contador total, apenas a categoria Outros é possível.
 -   **Poder** : como ter o poder deste equipamento ? é aqui que você pode simular o consumo. Por exemplo, aqui há \#\[Chambre\]\[Lumière\]\[Etat\]\# \* 0.6 : o estado da minha luz varia de 0 a 100; portanto, quando minha lâmpada está acesa, tenho 100 \* 0,6 = 60 ou uma potência de 60 watts, que corresponde à potência da minha lâmpada.
 -   **CONSUMO** : comando que fornece o consumo do equipamento, se você deixar vazio e o campo de energia estiver preenchido, o plug-in calculará automaticamente o consumo.
 -   **Remover** (pequeno botão de menos) : excluir a linha.
@@ -81,7 +81,7 @@ Duas possibilidades :
 
 # Teleinfo 
 
-Para o teleinfo, basta colocar os diferentes índices do seu teleinfo no campo de consumo do equipamento (todos no mesmo campo com + no meio ou criar um campo por índice).
+Para o teleinfo, basta colocar os diferentes índices do teleinfo no campo de consumo do equipamento (todos no mesmo campo com + no meio ou criar um campo por índice).
 
 # Painel 
 
@@ -93,7 +93,7 @@ Esse é o resultado :
 
 ![energy8](../images/energy8.PNG)
 
-Aqui você pode escolher, o período de exibição do painel, o agrupamento de dados (dia ou mês) e o tipo de energia que você deseja exibir (dependendo dos dados ativos ou não).
+Aqui você pode escolher, o período de exibição do painel, o agrupamento de dados (dia ou mês) e o tipo de energia que você deseja exibir (dependendo dos dados ativos ou não)).
 
 O painel também pode ser acessado por celular via Plugins → Energia :
 
@@ -111,4 +111,7 @@ O plug-in de energia não existe para fazer em tempo real, é preciso uma leitur
 leva 15 minutos para que uma mudança de estado seja levada em consideração, se a lâmpada permanecer acesa apenas por 10 minutos
 portanto, o consumo não será levado em consideração.
 
+**Meus contadores não se mexem mais.**
+
+Durante o cálculo, o plug-in verifica se o novo valor é muito maior que o antigo, se não for o caso, e então ignora o novo valor. Para redefinir esse valor para 0, clique em "Excluir histórico" na configuração do equipamento
 

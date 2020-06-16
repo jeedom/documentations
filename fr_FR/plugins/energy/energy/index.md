@@ -111,4 +111,7 @@ Le plugin énergie n’est pas là pour faire du temps réel, il fait un relevé
 consommation, il faut 15 min pour qu’un changement d’état soit pris en compte, si votre lampe ne reste allumée que 10 min sa
 consommation ne sera donc pas pris en compte.
 
+**Mes compteurs ne bougent plus.**
+
+Lors du calcul le plugin regarde si la nouvelle valeur est bien superieure à l'ancienne si ce n'est pas le cas alors il ignore la nouvelle valeur. Pour remettre cette valeur à 0 il faut cliquer sur "Supprimer l'historique" sur la configuration de l'équipement
 

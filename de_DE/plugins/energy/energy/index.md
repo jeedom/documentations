@@ -11,7 +11,7 @@ Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es aktivieren. Sie hab
 Hier finden Sie die Grundkonfiguration :
 
 -   **Preisgestaltung** : In diesem Teil können Sie die Preisparameter konfigurieren
-    -   **Währung** : ermöglicht Ihnen die Konfiguration Ihrer Währung (standardmäßig €)
+    -   **Währung** : Mit dieser Option können Sie Ihre Währung konfigurieren (standardmäßig €)
 -   **Wasser** : Wassermanagement-Konfiguration
     -   **Aktivieren** : Wassermanagement aktivieren oder nicht
     -   **Tarif** : Wasserpreis pro L
@@ -27,7 +27,7 @@ Wenn Sie in Spitzen- / Nebenzeiten sind :
 
 ![energy2](./images/energy2.PNG)
 
-Hier können Sie den Tarif in Spitzen- und Nebenzeiten sowie in den Umschaltzeiten (maximal 3 Zonen) eingeben.
+Hier können Sie den Tarif in Spitzen- und Nebenzeiten sowie in den Umschaltzeiten (maximal 3 Zonen) eingeben).
 
 > **Spitze**
 >
@@ -39,7 +39,7 @@ Die Konfiguration der "Energie" -Ausrüstung ist über das Plugin-Menü zugängl
 
 ![energy3](./images/energy3.PNG)
 
-So sieht die Energie-Plugin-Seite aus (hier mit bereits 5 Geräten) :
+So sieht die Energie-Plugin-Seite aus (hier mit bereits 5 Ausrüstungen) :
 
 ![energy4](./images/energy4.PNG)
 
@@ -53,8 +53,8 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 -   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört
 -   **Aktivieren** : macht Ihre Ausrüstung aktiv
 -   **Sichtbar** : macht es auf dem Dashboard sichtbar
--   **Typ** : ermöglicht die Auswahl der Art der "Energie" (Strom, Wasser oder Gas)
--   **Dieser Zähler ergibt eine Summe** : teilt jeedom mit, dass dieses Gerät den Gesamtverbrauch für das betroffene Objekt angibt. Wenn Sie beispielsweise einen Teleinfo-Zähler oder einen Wasserzähler haben, der Ihnen den Gesamtverbrauch Ihres Hauses anzeigt, aktivieren Sie dieses Kontrollkästchen und weisen den Zähler dem Objekt zu, das das Haus darstellt (und damit sicherlich das übergeordnete Objekt von allen) die anderen).
+-   **Typ** : ermöglicht die Auswahl des "Energie" -Typs (Strom, Wasser oder Gas))
+-   **Dieser Zähler ergibt eine Summe** : teilt jeedom mit, dass dieses Gerät den Gesamtverbrauch für das betroffene Objekt angibt. Wenn Sie beispielsweise einen Teleinfo-Zähler oder einen Wasserzähler haben, der Ihnen den Gesamtverbrauch Ihres Hauses anzeigt, aktivieren Sie dieses Kontrollkästchen und weisen den Zähler dem Objekt zu, das das Haus darstellt (und daher sicherlich das übergeordnete Objekt von allen) Andere).
 -   **Chronik** : Mit dieser Option können Sie den Verlauf Ihres Zählers vollständig löschen. Es wird empfohlen, dies nach der Konfiguration des Geräts zu tun, um zu vermeiden, dass die Verbrauchshistorie der Module verlassen wird und der erste Tag daher völlig verzerrt ist.
 
 > **Wichtig**
@@ -65,7 +65,7 @@ Auf der rechten Seite finden Sie auch Selektoren, mit denen Sie auswählen könn
 
 Nachfolgend finden Sie die Konfiguration der Geräte. Über eine Schaltfläche rechts können Sie weitere hinzufügen :
 
--   **Kategorie** : Geräteverbrauchskategorie (Kategorien sind festgelegt, Sie können keine hinzufügen). Im Gesamtzählermodus ist nur die Kategorie Andere möglich.
+-   **Kategorie** : Geräteverbrauchskategorie (Kategorien sind fest, Sie können keine hinzufügen). Im Gesamtzählermodus ist nur die Kategorie Andere möglich.
 -   **Macht** : wie man die Kraft dieses Geräts hat ? Hier können Sie den Verbrauch simulieren. Zum Beispiel gibt es hier \#\.[Chambre\.]\.[Lumière\.]\.[Etat\.]\.# \.* 0.6 : Der Zustand meines Lichts variiert von 0 bis 100, also wenn meine Lampe leuchtet, habe ich 100 \* 0,6 = 60 oder eine Leistung von 60 Watt, was der Leistung meiner Glühbirne entspricht.
 -   **Verbrauch** : Befehl, der den Verbrauch des Geräts angibt. Wenn Sie das Gerät leer lassen und das Stromfeld gefüllt ist, berechnet das Plugin automatisch den Verbrauch.
 -   **Löschen** (kleiner Minusknopf) : um die Zeile zu löschen.
@@ -81,7 +81,7 @@ Zwei Möglichkeiten :
 
 # Teleinfo 
 
-Für Teleinfo müssen Sie nur die verschiedenen Indizes Ihres Teleinfo in das Verbrauchsfeld des Geräts einfügen (entweder alle im selben Feld mit + in der Mitte oder ein Feld pro Index erstellen).
+Für teleinfo müssen Sie nur die verschiedenen Indizes Ihres teleinfo in das Verbrauchsfeld des Geräts einfügen (entweder alle im selben Feld mit + in der Mitte oder ein Feld pro Index erstellen).
 
 # Platte 
 
@@ -111,4 +111,7 @@ Das Energie-Plugin ist nicht in Echtzeit verfügbar, es wird alle 15 Minuten abg
 Beim Verbrauch dauert es 15 Minuten, bis eine Zustandsänderung berücksichtigt wird, wenn Ihre Lampe nur 10 Minuten lang eingeschaltet bleibt
 Verbrauch wird daher nicht berücksichtigt.
 
+**Meine Zähler bewegen sich nicht mehr.**
+
+Während der Berechnung prüft das Plugin, ob der neue Wert viel höher als der alte ist. Wenn dies nicht der Fall ist, ignoriert es den neuen Wert. Um diesen Wert auf 0 zurückzusetzen, klicken Sie in der Gerätekonfiguration auf "Verlauf löschen"
 

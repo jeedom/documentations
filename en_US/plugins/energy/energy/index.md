@@ -39,7 +39,7 @@ The configuration of "energy" equipment is accessible from the plugin menu :
 
 ![energy3](./images/energy3.PNG)
 
-This is what the energy plugin page looks like (here with 5 devices already) :
+This is what the energy plugin page looks like (here with 5 equipments already) :
 
 ![energy4](./images/energy4.PNG)
 
@@ -53,7 +53,7 @@ Here you find all the configuration of your equipment :
 -   **Parent object** : indicates the parent object to which the equipment belongs
 -   **Activate** : makes your equipment active
 -   **Visible** : makes it visible on the dashboard
--   **Type** : allows to choose the type of "energy" (electricity, water or gas)
+-   **Type** : allows to choose the "energy" type (electricity, water or gas)
 -   **This counter gives a total** : tells jeedom that this equipment gives the total consumption for the affected object. For example if you have a teleinfo counter or a water meter which shows you the total consumption of your home, you check this box and assign the counter to the object which represents the home (and therefore certainly the parent object of all others).
 -   **History** : allows you to completely erase the history of your counter. It is recommended to do this after configuration of the equipment to avoid leaving with the consumption history of the modules and therefore having the first day totally distorted.
 
@@ -81,7 +81,7 @@ Two possibilities :
 
 # Teleinfo 
 
-For teleinfo, you just have to put the different indexes of your teleinfo in the equipment consumption field (either all in the same field with + in the middle, or create one field per index).
+For teleinfo, you just need to put the different indexes of your teleinfo in the equipment consumption field (either all in the same field with + in the middle, or create one field per index).
 
 # Panel 
 
@@ -111,4 +111,7 @@ The energy plugin is not there to do real time, it takes a reading every 15 min.
 consumption, it takes 15 min for a change of state to be taken into account, if your lamp only stays on for 10 min
 consumption will therefore not be taken into account.
 
+**My counters don't move anymore.**
+
+During the calculation the plugin looks if the new value is much higher than the old one if it is not the case then it ignores the new value. To reset this value to 0, click on "Delete history" on the equipment configuration
 

@@ -27,7 +27,7 @@ Si estás en horas pico / fuera de horas pico :
 
 ![energy2](./images/energy2.PNG)
 
-Aquí puede ingresar la tarifa en horas pico y fuera de horas pico, así como las horas de alternar (máximo de 3 zonas).
+Aquí puede ingresar la tarifa en horas pico y fuera de horas pico, así como las horas de alternancia (máximo de 3 zonas).
 
 > **Punta**
 >
@@ -39,7 +39,7 @@ Se puede acceder a la configuración del equipo "energético" desde el menú de 
 
 ![energy3](./images/energy3.PNG)
 
-Así es como se ve la página del complemento de energía (aquí con 5 dispositivos ya) :
+Así es como se ve la página del complemento de energía (aquí con 5 equipos ya) :
 
 ![energy4](./images/energy4.PNG)
 
@@ -53,7 +53,7 @@ Aquí encontrarás toda la configuración de tu equipo :
 -   **Objeto padre** : indica el objeto padre al que pertenece el equipo
 -   **Activar** : activa su equipo
 -   **Visible** : lo hace visible en el tablero
--   **Tipo** : permite elegir el tipo de "energía" (electricidad, agua o gas)
+-   **Tipo** : permite elegir el tipo de "energía" (electricidad, agua o gas))
 -   **Este contador da un total** : le dice a Jeedom que este equipo da el consumo total del objeto afectado. Por ejemplo, si tiene un contador de teleinformación o un medidor de agua que le muestra el consumo total de su hogar, marque esta casilla y asigne el contador al objeto que representa el hogar (y, por lo tanto, ciertamente el objeto principal de todos los otros).
 -   **Historial** : le permite borrar completamente el historial de su contador. Se recomienda hacer esto después de la configuración del equipo para evitar irse con el historial de consumo de los módulos y, por lo tanto, tener el primer día totalmente distorsionado.
 
@@ -81,7 +81,7 @@ Dos posibilidades :
 
 # Teleinfo 
 
-Para teleinfo, solo tiene que poner los diferentes índices de su teleinfo en el campo de consumo de equipo (ya sea en el mismo campo con + en el medio, o crear un campo por índice).
+Para teleinfo, solo tiene que poner los diferentes índices de su teleinfo en el campo de consumo del equipo (ya sea en el mismo campo con + en el medio, o crear un campo por índice).
 
 # Panel 
 
@@ -93,7 +93,7 @@ Este es el resultado :
 
 ![energy8](./images/energy8.PNG)
 
-Aquí puede elegir, el período de visualización del panel, la agrupación de datos (día o mes) y el tipo de energía que desea mostrar (dependiendo de los datos activos o no).
+Aquí puede elegir, el período de visualización del panel, la agrupación de datos (día o mes) y el tipo de energía que desea mostrar (dependiendo de los datos activos o no)).
 
 El panel también es accesible por móvil a través de Complementos → Energía :
 
@@ -111,4 +111,7 @@ El complemento de energía no está disponible para hacer en tiempo real, se nec
 consumo, toma 15 minutos para que se tenga en cuenta un cambio de estado, si su lámpara solo permanece encendida durante 10 minutos
 por lo tanto, el consumo no se tendrá en cuenta.
 
+**Mis contadores ya no se mueven.**
+
+Durante el cálculo, el complemento busca si el nuevo valor es mucho más alto que el anterior, si no es el caso, ignora el nuevo valor. Para restablecer este valor a 0, haga clic en "Eliminar historial" en la configuración del equipo
 
