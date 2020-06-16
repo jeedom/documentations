@@ -10,7 +10,7 @@ Les possibilités de Jeedom sont quasi infinies, puisque vous pouvez avec quelqu
 
 ## Affichage
 
-Jeedom permet d'interfacer de très nombreux périphériques ensemble, que ceux-ci soit basés sur les protocoles Z-Wave, Enocean, Zigbee etc, sur des APIs grâce à des plugins, ou directement sous forme de scripts. Vous pouvez regardez sur le [Market](https://market.jeedom.com/) pour avoir un aperçu des périphériques supportés.
+Jeedom permet d'interfacer de très nombreux périphériques ensemble, que ceux-ci soient basés sur les protocoles Z-Wave, Enocean, Zigbee etc, sur des APIs grâce à des plugins, ou directement sous forme de scripts. Vous pouvez regardez sur le [Market](https://market.jeedom.com/) pour avoir un aperçu des périphériques supportés.
 
 Vous pouvez afficher ces périphériques de plusieurs manières :
 
@@ -34,7 +34,7 @@ Ces objets peuvent représenter des pièces de l'habitation (Salon, Chambre, Ate
 
 > Tips
 >
-> Dans **Réglages → Préférences** vous pouvez définir sur quel objet vous souhaité arriver sur le Dashboard. [Préférences](/fr_FR/core/4.1/profils)
+> Dans **Réglages → Préférences** vous pouvez définir sur quel objet vous souhaitez arriver sur le Dashboard. [Préférences](/fr_FR/core/4.1/profils)
 
 ![Dashboard](images/concept-dashboard.jpg)
 
@@ -68,7 +68,7 @@ Ces deux types de commandes sont rattachées sous la forme d'un équipement. L'�
 - Physiquement: J'ai une prise avec un bouton on/off et une led d'état, dans le salon.
 - Dans Jeedom: J'ai un équipement avec deux actions on et off et une info état, dans l'objet Salon.
 
-Ces équipements sont crées par des plugins. Par exemple, le plugin Z-Wave vous permettra d'inclure votre prise Z-Waze, ce qui créera un équipement avec ses commandes, que vous pourrez nommez et lier à un Objet.
+Ces équipements sont créés par des plugins. Par exemple, le plugin Z-Wave vous permettra d'inclure votre prise Z-Waze, ce qui créera un équipement avec ses commandes, que vous pourrez nommer et lier à un Objet.
 
 En terme d'affichage, chaque commandes est affichée grâce à un Widget. Le Core propose les principaux Widgets, ainsi qu'un outil pour en créer (V4) : [Widgets](/fr_FR/core/4.1/widgets).
 
@@ -76,7 +76,7 @@ Ces commandes sont regroupées dans une tuile correspondant à votre équipement
 
 ![Commandes](images/concept-equipment.jpg)
 
-Quelques soit votre périphérique, il sera donc crée sous forme d'un équipement, à partir d'un [Plugin](/fr_FR/core/4.1/plugin).
+Quelques soit votre périphérique, il sera donc créé sous forme d'un équipement, à partir d'un [Plugin](/fr_FR/core/4.1/plugin).
 
 Ce périphérique comportera ses propres commandes *info* ou *action*. Ces commandes seront affichées sous forme de Widgets formant la tuile de l'équipement, dans son objet parent.
 
@@ -84,9 +84,9 @@ Vous verrez ensuite que chaque Objet, Équipement, Commande possède de nombreus
 
 ## Mon premier scénario
 
-L’intérêt de la domotique, au delà du contrôle centralisé et à distance de nos périphériques, réside surtout dans l'automatisation. Le but n'est pas de passer des heures devant son Dashboard ou son Design, mais au contraire que votre logement s'adapte à vos habitudes et se fasse oublier. Plus de volet à ouvrir et fermer tout les jours, plus de lumière à allumer et éteindre, être prévenu quand mettre la poubelle sur la rue, quand il y a du courrier dans la boite au lettre, le chauffage qui s'adapte en fonction des saisons et des conditions climatiques. Les possibilités sont infinies, et dépendent du mode de vie de chacun. Les scénarios sont là pour çà !
+L’intérêt de la domotique, au delà du contrôle centralisé et à distance de nos périphériques, réside surtout dans l'automatisation. Le but n'est pas de passer des heures devant son Dashboard ou son Design, mais au contraire que votre logement s'adapte à vos habitudes et se fasse oublier. Plus de volet à ouvrir et fermer tous les jours, plus de lumière à allumer et éteindre, être prévenu quand mettre la poubelle sur la rue, quand il y a du courrier dans la boite aux lettres, le chauffage qui s'adapte en fonction des saisons et des conditions climatiques. Les possibilités sont infinies, et dépendent du mode de vie de chacun. Les scénarios sont là pour çà !
 
-Un scénario est une suites d'actions définies qui s’exécuteront à certains moment de la journée. L’exécution peu-être programmée (tout les Lundi à telle heure), ou provoquée par un événement. Comme vue plus haut, cet événement peut par exemple être notre commande info *Presence* d'un détecteur de mouvement, suite à une détection.
+Un scénario est une suites d'actions définies qui s’exécuteront à certains moment de la journée. L’exécution peut-être programmée (tous les Lundi à telle heure), ou provoquée par un événement. Comme vue plus haut, cet événement peut par exemple être notre commande info *Presence* d'un détecteur de mouvement, suite à une détection.
 
 Le but ici n'est pas d'être exhaustif mais de découvrir les scénarios au travers d'exemples simples. La [documentation du manuel d'utilisation](/fr_FR/core/4.1/scenario) est beaucoup plus complète.
 
