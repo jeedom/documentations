@@ -3,6 +3,8 @@
         "Mochad - X10": "Mochad - X10",
         "Plugin pour gérer des équipements X10 via le démon Mochad et une interface informatique CM15": "Complemento para administrar dispositivos X10 a través del demonio Mochad y una interfaz de computadora CM15",
         "Plugin Jeedouino pour gérer une\/des carte(s) Arduino (via Ethernet ou USB ), les GPIO du R.PI, les cartes PiFace (piRack), les cartes RPI IO Plus 32e\/s, les MCP23017 (sur RPI) ou les ESP8266 \/ NodeMCU \/ Wemos": "Complemento Jeedouino para administrar tarjetas Arduino (a través de Ethernet o USB), GPI R.PI, tarjetas PiFace (piRack), tarjetas RPI IO Plus 32e \/ s, MCP23017 (en RPI) o ESP8266 \/ NodeMCU \/ Wemos",
+        "Global Cache": "Caché global",
+        "Ce plugin permet de connecter tous les appareils Global Cache à Jeedom": "Este complemento le permite conectar todos los dispositivos de caché global a Jeedom",
         "EIB - KN": "BEI - KN",
         "Connecter Jeedom avec votre installation domotique KNX et Jeedom deviendra un participant de votre installation": "Conecte Jeedom con su sistema de domótica KNX y Jeedom se convertirá en un participante en su instalación",
         "Plugin permetant la lecture de sondes DHT11, DHT22, AM2302 connectées au GPIO d'un raspberry": "Plugin que permite la lectura de sondas DHT11, DHT22, AM2302 conectadas al GPIO de una frambuesa",
