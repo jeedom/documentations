@@ -17,7 +17,7 @@ Voici sa structure: tout d’abord un dossier du nom de votre plugin (son identi
   -   ``php`` : dossier contenant tous les fichiers de type php qui font de l’affichage
   -   ``css`` : il n’y en pas ici mais, si besoin, tous les fichiers css du plugin vont dedans
   -   ``modal`` : dossier contenant le code des modals du plugin
-- ``plugin\_info`` : contient les fichiers permettant à Jeedom de qualifier le plugin, de faire son installation et sa configuration
+- ``plugin_info`` : contient les fichiers permettant à Jeedom de qualifier le plugin, de faire son installation et sa configuration
   -   ``info.json`` : fichier contenant les informations de base du plugin (il est obligatoire sinon Jeedom ne verra pas le plugin), il contient entre autre l’identifiant du module, la description, les instructions d’installation…​
   -   ``install.php`` : fichier contenant (si besoin) les méthodes d’installation et de désinstallation du plugin
   -   ``configuration.php`` : fichier contenant les paramètres à configurer du plugin indépendants des équipements de celui-ci (exemple pour le module Zwave l’ip du Raspberry Pi ayant la carte Razberry)
