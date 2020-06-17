@@ -4,7 +4,7 @@
 	"description" : "Plugin pour gérer les alarmes Diagral eOne",
 	"licence" : "AGPL",
 	"author" : "mguyard",
-	"version" : "1.2.3",
+	"version" : "1.2.4",
 	"require" : "3.2",
 	"category" : "security",
 	"hasDependency" : false,
