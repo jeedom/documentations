@@ -51,9 +51,9 @@ Es setzt sich wie folgt zusammen :
 
 Der erste kommentierte Teil enthält die Lizenz (es ist besser). Die hier verwendete zeigt an, dass die Datei zu Jeedom gehört und Open Source ist. Dann kommt die Aufnahme des Kerns von Jeedom (dies ermöglicht den Zugriff auf interne Funktionen). Dann kommen die 2 Funktionen :
 
-- ``install_pluginid()`` : Methode zur Installation des Plugins. Hier fügt die Installation Jeedom einen Cron-Job hinzu
-- ``update_pluginid()`` : Methode zur Installation des Plugins. Wird hier verwendet, um die Cron-Task neu zu starten
-- ``remove_pluginid()`` : Methode zum Entfernen des Plugins. Hier entfernt die Funktion die Cron-Task während der Deinstallation aus Jeedom
+- ``pluginid_install()`` : Methode zur Installation des Plugins. Hier fügt die Installation Jeedom einen Cron-Job hinzu
+- ``pluginid_update()`` : Methode zur Installation des Plugins. Wird hier verwendet, um die Cron-Task neu zu starten
+- ``pluginid_remove()`` : Methode zum Entfernen des Plugins. Hier entfernt die Funktion die Cron-Task während der Deinstallation aus Jeedom
 
 Beispiel :
 
@@ -76,7 +76,7 @@ Beispiel :
  */
 require_once dirname(__FILE__) . '/../../../core/php/core.inc.php';
 
-function zwave_install() {
+function openzwave_install() {
     $cron = cron::byClassAndFunction('zwave', 'pull');
     if (!is_object($cron)) {
         $cron = new cron();
@@ -89,7 +89,7 @@ function zwave_install() {
     }
 }
 
-function zwave_update() {
+function openzwave_update() {
     $cron = cron::byClassAndFunction('zwave', 'pull');
     if (!is_object($cron)) {
         $cron = new cron();
@@ -103,7 +103,7 @@ function zwave_update() {
     $cron->stop();
 }
 
-function zwave_remove() {
+function openzwave_remove() {
     $cron = cron::byClassAndFunction('zwave', 'pull');
     if (is_object($cron)) {
         $cron->remove();
