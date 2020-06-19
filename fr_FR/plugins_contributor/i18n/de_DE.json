@@ -120,6 +120,8 @@
     "plugins_contributor\/communication\/index.md": {
         "Plugin pour Livebox 2, play, 4": "Plugin für Livebox 2, spielen, 4",
         "Plugin pour le support de l'assistant vocal Rhasspy dans Jeedom": "Plugin zur Unterstützung des Rhasspy-Sprachassistenten in Jeedom",
+        "Infos & Localisation": "Info & Lage",
+        "Gestion de la présence, de la géolocalisation et autres infos d'un téléphone": "Verwaltung der Anwesenheit, Geolokalisierung und anderer Informationen eines Telefons",
         "Plugin permettant la connection à un serveur Gotify": "Plugin, das die Verbindung zu einem Gotify-Server ermöglicht",
         "Plugin pour envoyer des messages et notification à tout appareil Android via AutoRemote": "Plugin zum Senden von Nachrichten und Benachrichtigungen an jedes Android-Gerät über AutoRemote",
         "Seuls les plugins de contributeur ont leur documentation ici": "Hier haben nur Contributor-Plugins ihre Dokumentation",
