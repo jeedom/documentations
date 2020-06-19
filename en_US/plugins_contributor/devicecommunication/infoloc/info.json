@@ -1,0 +1,15 @@
+{
+  "id" : "infoloc",
+  "name" : "Infos & Localisation",
+  "version" : "0.9.2",
+  "description" : "Gestion de la présence, de la géolocalisation et autres infos d'un téléphone",
+  "license" : "GPL",
+  "author" : "Jeremie-C",
+  "require" : "3.0",
+  "category" : "devicecommunication",
+  "hasDependency": true,
+  "language" : ["fr_FR","en_US"],
+  "compatibility" : ["miniplus","smart","rpi","docker","diy"],
+  "documentation": "https://Jeremie-C.github.io/plugin-infoloc/#language#/index",
+  "changelog": "https://Jeremie-C.github.io/plugin-infoloc/#language#/changelog"  
+}
