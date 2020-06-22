@@ -1,7 +1,7 @@
 {
   "id" : "infoloc",
   "name" : "Infos & Localisation",
-  "version" : "0.9.2",
+  "version" : "0.9.3",
   "description" : "Gestion de la présence, de la géolocalisation et autres infos d'un téléphone",
   "license" : "GPL",
   "author" : "Jeremie-C",
