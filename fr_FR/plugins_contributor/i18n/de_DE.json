@@ -828,6 +828,8 @@
         "Plugin pilotage des poëles à pellet Heta, AustroFlamm équipés du boitier WiRCU": "Steuerungs-Plugin für Heta, AustroFlamm-Pelletöfen, die mit der WiRCU-Box ausgestattet sind",
         "ELM Touch": "ELM Touch",
         "Plugin pour la régulation de chaudière gaz Elm Leblanc avec le thermostat connecté ELM Touch": "Plugin für die Regelung des Gaskessels von Elm Leblanc mit angeschlossenem Thermostat ELM Touch",
+        "SPA Balboa": "Balboa SPA",
+        "Ce plugin permet de connecter et recuperer les informations de votre SPA Balboa": "Mit diesem Plugin können Sie eine Verbindung herstellen und Informationen von Ihrem Balboa SPA abrufen",
         "Seuls les plugins de contributeur ont leur documentation ici": "Hier haben nur Contributor-Plugins ihre Dokumentation",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Sie können die Dokumentation der offiziellen Plugins direkt vom Jeedom Market abrufen",
         "Une fois sur le plugin en question, cliquez sur documentation": "Klicken Sie im betreffenden Plugin auf Dokumentation",
