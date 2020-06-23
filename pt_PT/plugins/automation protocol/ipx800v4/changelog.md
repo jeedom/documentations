@@ -27,7 +27,7 @@
 
 - Adição de um sistema de backup diário automático para ipx800v4
 - Suporte PWM apenas em uma cor
-- Supressão da reinicialização do daemon a cada alteração nos equipamentos (é necessário agora que você modifica um equipamento para reiniciar o daemon manualmente)
+- Supressão da reinicialização do daemon a cada alteração no equipamento (agora é necessário quando você modifica um equipamento para reiniciar o daemon manualmente)
 
 # 24/04/2018
 
@@ -39,11 +39,11 @@
 
 # 03/05/2018
 
-- 	Adicionando o X-dimmer (não se esqueça da configuração do plug-in G check para solicitações do x-dimmer)
+- 	Adicionando o X-dimmer (não esqueça de configurar o plug-in de verificação G para solicitações do x-dimmer)
 
 #  18/02/2018
 
--	Adição de opção nas solicitações ao ipx800 (possibilidade de selecionar o tipo de solicitação para reduzir a carga)
+-	Adição de opção em solicitações ao ipx800 (possibilidade de selecionar o tipo de solicitação para reduzir a carga)
 
 -   Suporte enOcean aprimorado
 

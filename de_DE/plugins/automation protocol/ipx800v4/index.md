@@ -4,7 +4,7 @@ Mit diesem Plugin können Sie eine IPX 800 v4 verwalten
 
 # Plugin Konfiguration
 
-Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur aktivieren und die Kontrollkästchen aktivieren, die Sie für Anfragen an IPX800v4 betreffen (Beispiel: Überprüfen Sie X-Dimmer, wenn Sie einen X-Dimmer haben). Sie können auch die Häufigkeit der Anforderungen auswählen, um die Belastung von ipx800v4 zu verringern
+Nach dem Herunterladen des Plugins müssen Sie es nur aktivieren und die für Sie geltenden Kontrollkästchen für Anforderungen an IPX800v4 aktivieren (Beispiel: Überprüfen Sie X-Dimmer, wenn Sie einen X-Dimmer haben). Sie können auch die Häufigkeit der Anforderungen auswählen, um die Belastung von ipx800v4 zu verringern
 
 > **Wichtig**
 >
@@ -12,7 +12,7 @@ Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur aktivieren und 
 
 > **Wichtig**
 >
-> Um die Last zu verringern, wird empfohlen, ALLE Typanforderungen zu deaktivieren und nur die APIs zu überprüfen, die Sie betreffen (Details finden Sie in der API-Dokumentation für IPX800v4)
+> Um die Belastung zu verringern, wird empfohlen, ALLE Typanforderungen zu deaktivieren und nur die APIs zu überprüfen, die Sie betreffen (Details finden Sie in der API-Dokumentation für IPX800v4)
 
 > **Notiz**
 >
@@ -42,9 +42,9 @@ Abhängig von Ihrer Konfiguration werden Sie jedoch als Leitfaden dienen.
 
 Sie haben die Arten von Aktionen :
 
-- Ein : Mit dieser Option können Sie einen Ausgang (oder virtuellen Eingang) auf 1 setzen oder einem analogen Eingang (oder Zähler) einen Wert zuweisen
-- Aus : Mit dieser Option können Sie einen Ausgang (oder einen virtuellen Eingang) auf 0 setzen
-- Umschalten : ermöglicht das Umkehren des Status einer Ausgabe (oder einer virtuellen Eingabe)
+- Ein : Mit dieser Option können Sie einen Ausgang (oder virtuellen Eingang) auf 1 setzen oder einem analogen Eingang (oder Zähler) einen Wert zuweisen)
+- Aus : Ermöglicht das Setzen eines Ausgangs (oder eines virtuellen Eingangs) auf 0)
+- Umschalten : Ermöglicht das Umkehren des Status einer Ausgabe (oder einer virtuellen Eingabe))
 - ...
 
 Sie haben die Arten von Aktuatoren :
@@ -66,7 +66,7 @@ Dann haben Sie abhängig von der Art der Aktion und dem Aktuator mehrere Paramet
 - Relaisnummer
 - virtuelle Ausgangsnummer
 - virtuelle Eintragsnummer
-- Analogeingangsnummer und zuzuweisender Wert (leer lassen, wenn Sie mit dem Cursor auswählen möchten)
+- Zuweisende Analogeingangsnummer und Wert (leer lassen, wenn Sie mit dem Schieberegler auswählen möchten)
 - Zählernummer und Betrieb (ex +200 oder -100)
 - Pilotdrahtnummer und Bestellwert (0 Komfort, 1 Öko, 2 Frostfrei, 3 Aus, 4 Komfort-1, 5 Komfort-2)
 - ...
@@ -95,6 +95,25 @@ Sie haben verschiedene Typen (abhängig von Ihren Erweiterungen) :
 - ...
 
 Für jeden Typ fragt jeedom Sie nach der Nummer der gewünschten Informationen
+
+# Informationen von IPX an Jeedom senden
+
+Um zu vermeiden, dass Informationen in Jeedom aktualisiert werden oder zu häufig abgefragt wird (was dem ipx800 schaden kann), können Sie den IPX800 bitten, die Informationen in Richtung Jeedom zu übertragen (Vorsicht, dies ist nicht für alle möglich Eingabe- / Ausgabetypen)
+
+Hier ist die Syntax, die bei einem IPX-Push verwendet werden soll :
+
+- Aktualisierung aller digitalen Eingänge : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allD&data=$D``
+- Aktualisierung aller Relais : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allR&data=$R``
+- Aktualisierung aller virtuellen Ausgänge : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allVO&data=$VO``
+- Aktualisieren einer einzelnen Variablen : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=A&data=$B`` mit ``A`` Wer nimmt die Werte ``D``, ``R`` oder ``VO`` und ``B`` Hiermit wird die Referenz des Werts verwendet, der auf dem IPX gesendet werden soll (z. B.) ``D1`` oder ``VO1`` oder ``R1``…)
+
+Dann erhalten Sie eine Szene nach Typ (Eintrag, Relais ...) mit :
+
+- Ereignis : ``ON EVENT`` und wählen Sie den gewünschten Typ (z. B. physikalische Ausgänge)
+- Aktion : ``ON``
+- Ergebnis : ``PUSH`` und wählen Sie den entsprechenden Push (zum Beispiel Jeedom Relais)
+
+
 
 # Template
 

@@ -4,7 +4,7 @@ Este complemento le permite administrar un IPX 800 v4
 
 # Configuración del plugin
 
-Después de descargar el complemento, solo necesita activarlo y marcar las casillas que le interesan para las solicitudes de IPX800v4 (por ejemplo, marque X-Dimmer si tiene un X-dimmer). También puede elegir la frecuencia de las solicitudes para aligerar la carga en ipx800v4
+Después de descargar el complemento, solo necesita activarlo y marcar las casillas que se aplican a usted para solicitudes a IPX800v4 (por ejemplo, marque X-Dimmer si tiene un X-dimmer). También puede elegir la frecuencia de las solicitudes para aligerar la carga en ipx800v4
 
 > **Importante**
 >
@@ -43,7 +43,7 @@ dependiendo de tu configuración pero serás guía.
 Tienes los tipos de acción :
 
 - Uno : le permite establecer una salida (o entrada virtual) en 1, o asignar un valor a una entrada analógica (o contador)
-- Apagado : le permite establecer una salida (o entrada virtual) a 0
+- Apagado : permite establecer en 0 una salida (o entrada virtual)
 - Alternar : permite invertir el estado de una salida (o entrada virtual)
 - ...
 
@@ -66,7 +66,7 @@ Luego, dependiendo del tipo de acción y el actuador, tiene varios parámetros q
 - número de relevo
 - número de salida virtual
 - número de entrada virtual
-- número de entrada analógica y valor para asignar (déjelo en blanco si desea elegir con el cursor)
+- número de entrada analógica y valor para asignar (déjelo en blanco si desea elegir con el control deslizante)
 - Número de contador y operación (ex +200 o -100)
 - número de cable piloto y valor de pedido (0 confort, 1 eco, 2 sin escarcha, 3 apagado, 4 confort-1, 5 confort-2)
 - ...
@@ -95,6 +95,25 @@ Tienes diferentes tipos (dependiendo de tus extensiones) :
 - ...
 
 Para cada tipo, jeedom le preguntará el número de la información deseada
+
+# Enviar información de IPX a Jeedom
+
+Para evitar que la información se actualice en Jeedom o los interrogatorios demasiado frecuentes (que pueden dañar el ipx800) es posible pedirle al IPX800 que empuje la información hacia Jeedom (atención, no es posible para todos tipos de entrada / salida)
+
+Aquí está la sintaxis para usar en una inserción IPX a :
+
+- Actualización de todas las entradas digitales : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allD&data=$D``
+- Actualización de todos los relés : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allR&data=$R``
+- Actualización de todas las salidas virtuales : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allVO&data=$VO``
+- Actualizar una sola variable : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=A&data=$B`` con ``A`` quien toma los valores ``D``, ``R`` o ``VO`` y ``B`` que toma la referencia del valor a enviar en el IPX (por ejemplo ``D1`` o ``VO1`` o ``R1``...)
+
+Entonces te hará una escena por tipo (entrada, retransmisión ...) con :
+
+- Evento : ``ON EVENT`` y elija el tipo deseado (por ejemplo, salidas físicas)
+- Acción : ``ON``
+- Resultado : ``PUSH`` y elija el empuje correspondiente (por ejemplo, Jeedom Relais)
+
+
 
 # Template
 

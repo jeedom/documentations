@@ -4,7 +4,7 @@ This plugin allows you to manage an IPX 800 v4
 
 # Plugin configuration
 
-After downloading the plugin, you just need to activate it and check the boxes that concern you for requests to IPX800v4 (example check X-Dimmer if you have an X-dimmer). You can also choose the frequency of requests to lighten the load on ipx800v4
+After downloading the plugin, you just need to activate it and check the boxes that apply to you for requests to IPX800v4 (example check X-Dimmer if you have an X-dimmer). You can also choose the frequency of requests to lighten the load on ipx800v4
 
 > **Important**
 >
@@ -43,7 +43,7 @@ depending on your configuration but you will be guide.
 You have the types of action :
 
 - We : allows you to set an output (or virtual input) to 1, or to assign a value to an analog input (or counter)
-- Off : allows you to set an output (or virtual input) to 0
+- Off : allows to set to 0 an output (or virtual input)
 - Toggle : allows to reverse the state of an output (or virtual input)
 - ...
 
@@ -66,7 +66,7 @@ Then depending on the type of action and the actuator you have several parameter
 - relay number
 - virtual output number
 - virtual entry number
-- analog input number and value to assign (leave blank if you want to choose with the cursor)
+- analog input number and value to assign (leave blank if you want to choose with the slider)
 - counter number and operation (ex +200 or -100)
 - pilot wire number and order value (0 comfort, 1 eco, 2 frost-free, 3 off, 4 comfort-1, 5 comfort-2)
 - ...
@@ -95,6 +95,25 @@ You have different types (depending on your extensions) :
 - ...
 
 For each type jeedom will ask you the number of the desired information
+
+# Push information from IPX to Jeedom
+
+To avoid making information refresh in Jeedom or too frequent interrogations (which can harm the ipx800) it is possible to ask the IPX800 to push the information towards Jeedom (attention it is not possible for all input / output types)
+
+Here is the syntax to use in an IPX push to :
+
+- Update of all digital inputs : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allD&data=$D``
+- Update of all relays : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allR&data=$R``
+- Update of all virtual outputs : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allVO&data=$VO``
+- Updating a single variable : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=A&data=$B`` with ``A`` who takes the values ``D``, ``R`` or ``VO`` and ``B`` which takes the reference of the value to send on the IPX (for example ``D1`` or ``VO1`` or ``R1``…)
+
+Then it will make you a scene by type (entry, relay ...) with :
+
+- Event : ``ON EVENT`` and choose the desired type (for example Physical outputs)
+- Action : ``ON``
+- Result : ``PUSH`` and choose the corresponding push (for example Jeedom Relais)
+
+
 
 # Template
 

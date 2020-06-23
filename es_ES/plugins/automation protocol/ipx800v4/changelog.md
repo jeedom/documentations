@@ -27,7 +27,7 @@
 
 - Adición de un sistema de respaldo diario automático para ipx800v4
 - Soporte PWM en un solo color
-- Supresión del reinicio del demonio en cada cambio en los equipos (ahora es necesario que cuando modifique un equipo reinicie el demonio manualmente)
+- Supresión del reinicio del demonio en cada cambio en el equipo (ahora es necesario cuando modifica un equipo para reiniciar el demonio manualmente)
 
 # 04/24/2018
 
@@ -39,11 +39,11 @@
 
 # 03/05/2018
 
-- 	Agregar el X-dimmer (no se olvide de la configuración del complemento de verificación G para las solicitudes de x-dimmer)
+- 	Agregar el X-dimmer (no olvide configurar el complemento de verificación G para las solicitudes de x-dimmer)
 
 #  02/18/2018
 
--	Adición de opción en las solicitudes al ipx800 (posibilidad de seleccionar el tipo de solicitud para reducir la carga)
+-	Adición de opción en solicitudes a ipx800 (posibilidad de seleccionar el tipo de solicitud para reducir la carga)
 
 -   Soporte mejorado de enOcean
 

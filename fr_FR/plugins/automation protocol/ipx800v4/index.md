@@ -96,6 +96,25 @@ Vous avez les types differents (en fonction de vos extensions) :
 
 Pour chaque type jeedom vous demandera le numéro de l’information voulue
 
+# Push des informations de l'IPX vers Jeedom
+
+Pour eviter de faire un refresh des informations dans Jeedom ou des interogations trop fréquente (qui peuvent mettre à mal l'ipx800) il est possible de demande à l'IPX800 de pousser les informations vers Jeedom (attention ce n'est pas possible pour tous les types d'entrée/sortie)
+
+Voici la syntaxe à utiliser dans un push IPX pour :
+
+- Mise à jour de toutes les entrées digitales : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allD&data=$D``
+- Mise à jour de tous les relais : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allR&data=$R``
+- Mise à jour de toutes les sorties virtuelles : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=allVO&data=$VO``
+- Mise à jour d’une seule variable : ``/core/api/jeeApi.php?type=ipx800v4&apikey=XXX&typeData=A&data=$B`` avec ``A`` qui prend les valeurs ``D``, ``R`` ou ``VO`` et ``B`` qui prend la référence de la valeur à envoyer sur l’IPX(par exemple ``D1`` ou ``VO1`` ou ``R1``…)
+
+Ensuite il vous faire une scene par type (entrée, relais...) avec :
+
+- Evenement : ``ON EVENT`` et choisir le type voulu (par exemple Sorties physiques)
+- Action : ``ON``
+- Résultat : ``PUSH`` et choisir le push correspondant (par exemple Jeedom Relais)
+
+
+
 # Template
 
 Pour vous aider il y a un template qui permet de creer certain type de commande d’un seul coup et plus rapidement.

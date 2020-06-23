@@ -27,7 +27,7 @@
 
 - Hinzufügen eines automatischen täglichen Backup-Systems für ipx800v4
 - PWM-Unterstützung nur in einer Farbe
-- Unterdrückung des Neustarts des Dämons bei jeder Änderung an den Geräten (dies ist jetzt erforderlich, wenn Sie ein Gerät ändern und den Dämon manuell neu starten)
+- Unterdrückung des Neustarts des Dämons bei jeder Änderung am Gerät (es ist jetzt erforderlich, wenn Sie ein Gerät ändern, um den Dämon manuell neu zu starten)
 
 # 2018.04.24
 
@@ -39,11 +39,11 @@
 
 # 2018.03.05
 
-- 	Hinzufügen des X-Dimmers (Vergessen Sie nicht die Konfiguration des Check-Plugins G für X-Dimmer-Anfragen)
+- 	Hinzufügen des X-Dimmers (vergessen Sie nicht, das Check-Plugin G für X-Dimmer-Anforderungen zu konfigurieren)
 
 #  2018.02.18
 
--	Hinzufügen einer Option für die Anforderungen zum ipx800 (Möglichkeit zur Auswahl des Anforderungstyps zur Reduzierung der Last)
+-	Hinzufügen einer Option für Anforderungen an das ipx800 (Möglichkeit zur Auswahl des Anforderungstyps zur Reduzierung der Last)
 
 -   Verbesserte enOcean-Unterstützung
 
