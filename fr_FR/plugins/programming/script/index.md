@@ -20,23 +20,23 @@ Voilà à quoi ressemble la page du plugin Script (ici avec déjà un équipemen
 
 Vous retrouvez ici la liste de vos Scripts. Une fois que vous cliquez sur un équipement vous obtenez :
 
-![equipement](./images/equipement.png)
+![équipement](./images/equipement.png)
 
 Vous retrouvez ici toute la configuration de votre équipement :
 
 - **Nom de l’équipement script** : nom de votre équipement script
 - **Catégorie** : les catégories de l’équipement (il peut appartenir à plusieurs catégories)
 - **Activer** : permet de rendre votre équipement actif
-- **Visible** : le rend visible sur le dashboard
+- **Visible** : le rend visible sur le Dashboard
 - **Objet parent** : indique l’objet parent auquel appartient l’équipement
-- **Auto-actualisation** : permet de spécifier un cron d’actualisation automatique pour toutes les commandes de type info.
-- **Délai avant d'actualiser les infos suite à une action**
+- **Auto-actualisation** : permet de spécifier un Cron d’actualisation automatique pour toutes les commandes de type info.
+- **Délai avant d'actualiser les infos suite à une action** : Saisir un nombre de seconde
 
 ![commandes](./images/commandes.png)
 Vous retrouvez ici la liste des commandes :
 
 -   **Nom** : Ce champ contient le nom que vous souhaitez donner à votre commande/information.
--   **Icône** : Ce champ permet d’associer une icône à votre nom (dans ce cas Jeedom remplace le nom par l’icône dans le dashboard).
+-   **Icône** : Ce champ permet d’associer une icône à votre nom (dans ce cas Jeedom remplace le nom par l’icône dans le Dashboard).
 -   **Type de script** :
     -   Le type **http** : permet d’envoyer une requête vers un équipement externe sans forcément attendre un retour de cette commande. L’exemple qui servira de support au type http sera la configuration d’une requête vers une Vera pour allumer une lumière.
     -   Le type **script** : sert principalement à lancer des scripts internes à Jeedom. L’exemple qui servira de support au type script sera la configuration du script de monitoring température du raspberry.
@@ -51,14 +51,13 @@ Vous retrouvez ici la liste des commandes :
     -   Le bouton **Editer** : permet d’éditer à l’aide d’un éditeur de code interne un des fichiers contenus dans le répertoire permettant l’accès au code du fichier.
     -   Le bouton **Nouveau** : permet de créer un fichier de commande.
 
-        > Ne pas oublier de saisir le nom du fichier ainsi que son extension complète sous peine de voir votre superbe script ne pas fonctionner. Sans extension Jeedom ne saura pas reconnaiître le langage associé à votre fichier. CF : Généralité
+        > Ne pas oublier de saisir le nom du fichier ainsi que son extension complète sous peine de voir votre superbe script ne pas fonctionner. Sans extension Jeedom ne saura pas reconnaître le langage associé à votre fichier. CF : Généralité
     -   Le bouton **Supprimer** : permet de supprimer un fichier de commande.
--   Le champ **Options** : Champ aux options variables suivant le choix du type de script.
+-   Le champ **Options** : Champ avec des options variables suivant le choix du type de script.
 -   **unité** : unité de la donnée (peut être vide).
 -   **min/max** : bornes de la donnée (peuvent être vides).
 -   **historiser** : permet d’historiser la donnée.
--   **afficher** : permet d’afficher la donnée sur le dashboard.
--   **évènement** : retour en cas d’évènements. Dans le cas du RFXcom cette case doit toujours être cochée car on ne peut pas interroger un module RFXcom.
+-   **afficher** : permet d’afficher la donnée sur le Dashboard.
 
 > **Important**
 >
@@ -185,11 +184,28 @@ Action : Lancez le script, via un équipement virtuel, lié à votre script !
 
 Le plus sympa mais pas le plus simple à expliquer.
 
-Prérequis : savoir développer un script en php, python ou ruby.
+**Prérequis : savoir développer un script en php, python, perl ou ruby.**
 
 >**IMPORTANT**
 >
-> L'extension de votre script doit absolument correspondre à son type. Ex .php pour un type php. En effet Jeedom se base sur l'extension du script pour l'exécutable à lancer (php si .php, python si .py....)
+> L'extension de votre script doit absolument correspondre à son type. En effet Jeedom se base sur l'extension du script pour l'exécutable à lancer
+>
+> Si le nom de votre fichier ne contient pas :
+> * .php .py .pl .rb
+>
+
+Le plugin script lancera un shell qui l’exécutera en se basant sur la directive de la 1ère ligne ( shebang ).
+Exemple :
+
+```
+#!/bin/csh -f
+#!/bin/ksh
+#!/usr/bin/env python3
+#!/usr/bin/env php
+#!/usr/bin/env node
+etc ...
+```
+
 
 Le script de monitoring température du Raspberry va servir d’exemple pour l’utilisation du type de script : Script
 
@@ -204,7 +220,7 @@ Ceci est un script php qui peut tout à fait être réutilisé hors Jeedom !
     $temp = shell_exec("cat /sys/class/thermal/thermal_zone0/temp");
     $temp = $temp / 1000;
     $temp = round($temp,1);
-    echo $temp
+    echo $temp;
  ?>
  ````
 
@@ -237,7 +253,7 @@ if (isset($argv)) {
 
 # Exemple XML simple
 
-Voici la format du XML type :
+Voici le format du XML type :
 
 ````
 <root>
@@ -310,7 +326,7 @@ leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de rang du
 </AKT_Data>
 ````
 
-Pour récuperer l’information du champ Wert du 1er bloc:
+Pour récupérer l’information du champ Wert du 1er bloc:
 
 ``MesPar>0>Wert>0 qui retourne donc "268.56 "``
 
@@ -414,12 +430,12 @@ Là c’est la partie la plus complexe et qui demande un peu d’analyse. Ici mo
 
 On obtient donc :
 
-![Exemple HTML 2](./images/exemple_HTML_2.PNG)
+![Exemple HTML VDM](./images/exemple_HTML_VDM.png)
 
-Pour une actualisation en temps réel, il est possible de mettre un cron de mise à jour.
+Pour une actualisation en temps réel, il est possible de mettre un Cron de mise à jour.
 
 > **Tip**
 >
-> Lors de la mise en place d’un cron de mise à jour, Jeedom va automatiquement cocher la case Evènement, c’est tout à fait normal.
+> Lors de la mise en place d’un Cron de mise à jour, Jeedom va automatiquement cocher la case Évènement, c’est tout à fait normal.
 
 Voilà ensuite vous pouvez imaginer un scénario qui vous envoie par SMS la dernière VDM.

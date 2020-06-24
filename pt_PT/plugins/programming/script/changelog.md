@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 24/06/2020
+
+- Correção da interface
+
 # 14/05/2020
 
 - Correção de um bug na atualização dos comandos info após uma ação

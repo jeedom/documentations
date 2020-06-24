@@ -20,24 +20,24 @@ This is what the Script plugin page looks like (here already with equipment) :
 
 Here is the list of your Scripts. Once you click on a piece of equipment you get :
 
-![equipement](./images/equipement.png)
+![équipement](./images/equipement.png)
 
 Here you find all the configuration of your equipment :
 
-- **Name de l'équipement script** : name of your script equipment
+- **Script equipment name** : name of your script equipment
 - **Category** : equipment categories (it can belong to several categories)
 - **Activate** : makes your equipment active
 - **Visible** : makes it visible on the dashboard
 - **Parent object** : indicates the parent object to which the equipment belongs
 - **Self-actualization** : allows to specify an automatic update cron for all info type commands.
-- **Delay before updating the information following an action**
+- **Delay before updating the information following an action** : Enter number of seconds
 
 ![commandes](./images/commandes.png)
 Here you find the list of orders :
 
 -   **Name** : This field contains the name you want to give to your order / information.
--   **Icon** : This field allows you to associate an icon with your name (in this case Jeedom replaces the name with the icon in the dashboard).
--   **Type de script** :
+-   **Icon** : This field allows you to associate an icon with your name (in this case Jeedom replaces the name with the icon in the Dashboard).
+-   **Script type** :
     -   The type **HTTP** : allows sending a request to an external device without necessarily waiting for a return of this command. The example that will serve as support for the http type will be the configuration of a request to a Vera to turn on a light.
     -   The type **script** : mainly used to run internal Jeedom scripts. The example which will serve as support for the script type will be the configuration of the temperature monitoring script of the raspberry.
     -   The type **XML** : allows to retrieve information encoded in XML from a remote device. The example that will serve as support for the XML type will be the configuration of the script to query an Eco-Device.
@@ -58,7 +58,6 @@ Here you find the list of orders :
 -   **min / max** : data bounds (may be empty).
 -   **Historize** : allows to historize the data.
 -   **Pin up** : allows to display the data on the dashboard.
--   **Event** : return in case of events. In the case of RFXcom this box must always be checked because you cannot interrogate an RFXcom module.
 
 > **Important**
 >
@@ -104,7 +103,7 @@ Allows to recover json and to specifically look for a value in it.
 
 The option field has a "JSON file URL" field" : this field therefore contains the link to the machine hosting the JSON file in question.
 
-# Exemple HTTP : Piloting a Vera
+# HTTP example : Piloting a Vera
 
 The example is based on a Vera and consists of driving a dimmable bulb. I'm not going to dwell on how to control a Vera by http request, the TLD forum is full of answers. In addition, the example corresponds to my type of material and will have to be adapted to yours.
 
@@ -126,13 +125,13 @@ Explanations :
 
 -   Name : 100% because we will turn on a light at full power
 -   Script type : http
--   Type : Action (it&#39;s an order)
+-   Type : Action (this is a command)
 -   Sub type : Default
 -   Request :
 
-````
+`` ''`
 http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=100
-````
+`` ''`
 
 > **Tip**
 >
@@ -144,31 +143,31 @@ You can therefore multiply orders in the same equipment, for example by placing 
 
 It is also possible to create a slider type command by putting the tag \#slider\# in the request :
 
-````
+`` ''`
 http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=#slider#
-````
+`` ''`
 
 > **Tip**
 >
 > If your order is of message type you can use the tags \#message\# and \#title\#, ditto for a color order with the tag \#color\#, or slider type with #slider# or list with #select#
 
-# Exemple HTTP : Send notification to XBMC
+# HTTP example : Send notification to XBMC
 
 Goal : Send a notification to XBMC when opening a front door.
 
 -   Name : PUSH XBMC
 -   Script type : http
--   Type : Action (it&#39;s an order)
+-   Type : Action (this is a command)
 -   Sub-type : Default
 -   Request :
 
-````
+`` ''`
 http://IP_DE_XBMC:8080/jsonrpc?request={ %22jsonrpc%22:%222.0%22,%22method%22:%22GUI.ShowNotification%22,%22params%22:{ %22title%22:%22Mouvement% 20Detecté%22,%22message%22:%22Porte% 20Entrée%22},%22id%22:1}
-````
+`` ''`
 
 It&#39;s up to you to test this in a scenario for example !
 
-XBMC API [here](http://wiki.xbmc.org/index.php?title=JSON-RPC_API/v6) (only the fields marked "required" are compulsory)
+XBMC API [here](http://wiki.xbmc.org/index.php?title=JSON-RPC_API/v6) (only the fields marked "required" are mandatory)
 
 Goal : Send a notification to XBMC when the temperature drops below a certain threshold
 
@@ -181,15 +180,32 @@ Test on a scenario *\ [OUTSIDE \] \ [OUTSIDE \] \ [TEMPERATURE \]* &lt; 15 par e
 
 Action : Launch the script, via virtual equipment, linked to your script !
 
-# Exemple SCRIPT
+# SCRIPT example
 
 The nicest but not the easiest to explain.
 
-Prerequisites : know how to develop a script in php, python or ruby.
+**Prerequisites : know how to develop a script in php, python, perl or ruby.**
 
 >**Important**
 >
-> The extension of your script must absolutely match its type. Ex .php for a php type. Indeed Jeedom is based on the extension of the script for the executable to launch (php if .php, python if .py ....)
+> The extension of your script must absolutely match its type. Indeed Jeedom is based on the extension of the script for the executable to launch
+>
+> If your file name does not contain :
+> * .php .py .pl .rb
+>
+
+The script plugin will launch a shell which will execute it based on the directive of the 1st line (shebang ).
+Example :
+
+`` ''
+#!/ bin / csh -f
+#!/ bin / ksh
+#!/ usr / bin / env python3
+#!/ usr / bin / env php
+#!/ usr / bin / env node
+Etc. ...
+`` ''
+
 
 The Raspberry temperature monitoring script will serve as an example for using the script type : Script
 
@@ -199,14 +215,14 @@ Out of curiosity, you can go and see the contents of the file by pressing the "E
 
 This is a php script that can be reused outside Jeedom !
 
-````
+`` ''`
  <?php
     $temp = shell_exec("cat /sys/class/thermal/thermal_zone0/temp");
     $temp = $temp / 1000;
     $temp = round($temp,1);
-    echo $temp
+    echo $temp;
  ?>
- ````
+ `` ''`
 
 NOTE : concretely, it is the php "echo" function which will give the value to Jeedom
 
@@ -224,7 +240,7 @@ Get Jeedom's info to use it in a script. Recovery depends on the type of script 
 
 Recommendation to test the parameters in the php script :
 
-````
+`` ''`
 if (isset($argv)) {
  foreach ($argv as $arg) {
      $argList = explode('=', $arg);
@@ -233,28 +249,28 @@ if (isset($argv)) {
      }
  }
 }
-````
+`` ''`
 
-# Exemple XML simple
+# Simple XML example
 
-Here is the format of the standard xml :
+Here is the format of the standard XML :
 
-````
+`` ''`
 <root>
     <led0>1</led0>
     <leds>
       <led1>toto</led1>
     </leds>
 </root>
-````
+`` ''`
 
 If you want the value of led0 in query you put led0. Si vous voulez la valeur de la led1 qui est le fils de leds vous mettez leds &gt; led1.
 
 Notez que l'élément racine &lt;root&gt; n'est pas à préciser dans le champ Request.
 
-# Exemple XML complexe
+# Complex XML example
 
-````
+`` ''`
  <root>
    <led0>1</led0>
    <leds>
@@ -264,15 +280,15 @@ Notez que l'élément racine &lt;root&gt; n'est pas à préciser dans le champ R
      <led1>tata</led1>
    </leds>
  </root>
- ````
+ `` ''`
 
 The syntax is :
 
 leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de rang du tableau !
 
-# Exemple XML plus complexe
+# More complex XML example
 
-````
+`` ''`
 <AKT_Data ID="SMS-Liste" ZeitSt="01.05.2017 18:55">
  <MesPar DH="HBCHa" StrNr="2167" Typ="02" Var="02">
    <Name>Tresa - Ponte Tresa, Rocchetta</Name>
@@ -308,7 +324,7 @@ leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de rang du
   <Wert Typ="min24">500.64</Wert>
  </MesPar>
 </AKT_Data>
-````
+`` ''`
 
 To retrieve information from the Wert field of the 1st block:
 
@@ -322,7 +338,7 @@ To move to the next "MyPar" block, you must therefore change the index according
 
 Be careful : If the order changes in the XML file, the request no longer works. It will be necessary to readjust the request according to the returned order.
 
-# Exemple JSON
+# JSON example
 
 Like the XML type, it is possible to read information from a JSON return.
 
@@ -340,7 +356,7 @@ Validate the display of information from your browser (test in Chrome).
 
 Example of return :
 
-````
+`` ''`
  {
      "data": [
          {
@@ -383,7 +399,7 @@ Example of return :
      "message": "",
      "result": "success"
  }
- ````
+ `` ''`
 
 In the hypothesis where we would like to return the show\_name of the 3rd element in php (marked HERE), we would have to do : data> 2> show\_name, the return array index starting at Zero.
 
@@ -398,7 +414,7 @@ Disadvantages :
 -   this method only allows to recover one element at a time.
 -   If you want to return all the values of "show\_name", this is unfortunately not possible, you will have to duplicate the script as many times as necessary.
 
-# Exemple HTML
+# HTML example
 
 Here we will try to retrieve the last FML.
 
@@ -408,13 +424,13 @@ First you need to configure the url :
 
 Then you have to find the "path" of the last FML. To do this, go to the site then right click on the desired item then inspect the item, you get :
 
-![Exemple HTML 1](./images/exemple_HTML_1.png)
+![HTML example 1](./images/exemple_HTML_1.png)
 
 This is the most complex part and requires a little analysis. Here my text is in an "a" tag which is in a p type element which is a class div "post article". So I have to select the first div element of class "post" and "article" then the first element p and I get everything in the "a" tags it contains. So I have : "div.post.article:first p:first a".
 
 So we get :
 
-![Exemple HTML 2](./images/exemple_HTML_2.PNG)
+![HTML example VDM](./images/exemple_HTML_VDM.png)
 
 For an update in real time, it is possible to put an update cron.
 

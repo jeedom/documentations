@@ -20,28 +20,28 @@ So sieht die Script-Plugin-Seite aus (hier bereits mit Ausrüstung) :
 
 Hier ist die Liste Ihrer Skripte. Sobald Sie auf ein Gerät klicken, erhalten Sie :
 
-![equipement](./images/equipement.png)
+![équipement](./images/equipement.png)
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
-- **Name de l'équipement Skript** : Name Ihrer Skriptausrüstung
+- **Name der Skriptausrüstung** : Name Ihrer Skriptausrüstung
 - **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören)
 - **Aktivieren** : macht Ihre Ausrüstung aktiv
 - **Sichtbar** : macht es auf dem Dashboard sichtbar
 - **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört
 - **Selbstverwirklichung** : Ermöglicht die Angabe eines Cron für die automatische Aktualisierung aller Befehle vom Typ "Info".
-- **Verzögerung vor dem Aktualisieren der Informationen nach einer Aktion**
+- **Verzögerung vor dem Aktualisieren der Informationen nach einer Aktion** : Geben Sie die Anzahl der Sekunden ein
 
 ![commandes](./images/commandes.png)
 Hier finden Sie die Liste der Bestellungen :
 
 -   **Name** : Dieses Feld enthält den Namen, den Sie Ihrer Bestellung / Information geben möchten.
 -   **Symbol** : In diesem Feld können Sie Ihrem Namen ein Symbol zuordnen (in diesem Fall ersetzt Jeedom den Namen durch das Symbol im Dashboard).
--   **Typ de Skript** :
+-   **Skripttyp** :
     -   Der Typ **Http** : Ermöglicht das Senden einer Anforderung an ein externes Gerät, ohne unbedingt auf die Rückgabe dieses Befehls warten zu müssen. Das Beispiel, das als Unterstützung für den http-Typ dient, ist die Konfiguration einer Anforderung an eine Vera, ein Licht einzuschalten.
     -   Der Typ **Skript** : Wird hauptsächlich zum Ausführen interner Jeedom-Skripte verwendet. Das Beispiel, das als Unterstützung für den Skripttyp dient, ist die Konfiguration des Temperaturüberwachungsskripts der Himbeere.
     -   Der Typ **XML** : Ermöglicht das Abrufen von in XML codierten Informationen von einem Remote-Gerät. Das Beispiel, das als Unterstützung für den XML-Typ dient, ist die Konfiguration des Skripts zum Abfragen eines Öko-Geräts.
-    -   Der Typ **Json** : Ermöglicht das Abrufen von in JSON codierten Informationen von einem Remote-Gerät. Das Beispiel, das als Unterstützung für den JSON-Typ dient, ist die Konfiguration des Skripts zum Abfragen von Sickbeard (oder XBMC).
+    -   Der Typ **Json** : Ermöglicht das Abrufen von in JSON codierten Informationen von einem Remote-Gerät. Das Beispiel, das als Unterstützung für den JSON-Typ dient, ist die Konfiguration des Skripts zum Abfragen von Sickbeard (oder XBMC)).
 -   **der Typ** und die **Untertyp**
 -   Das Feld **Petition**
     -   Dieses Feld muss die Abfrage selbst oder den Skriptpfad enthalten, wenn das Feld "Skripttyp" Skript ist. Die Schaltfläche "Durchsuchen"" : Mit dieser Option können Sie die Datei auswählen, die im internen Ordner Jeedom enthalten ist.
@@ -58,7 +58,6 @@ Hier finden Sie die Liste der Bestellungen :
 -   **min / max** : Datengrenzen (können leer sein).
 -   **Chronik** : ermöglicht das Historisieren der Daten.
 -   **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard.
--   **Ereignis** : Rückgabe im Falle von Ereignissen. Bei RFXcom muss dieses Kontrollkästchen immer aktiviert sein, da Sie ein RFXcom-Modul nicht abfragen können.
 
 > **Wichtig**
 >
@@ -98,13 +97,13 @@ Das Optionsfeld enthält das Feld "URL der XML-Datei"" : Dieses Feld enthält da
 
 # Die JSON-Wahl
 
-![Skript Json](./images/script_json.png)
+![Skript JSON](./images/script_json.png)
 
 Ermöglicht die Wiederherstellung von json und die gezielte Suche nach einem Wert darin.
 
 Das Optionsfeld enthält ein Feld "JSON-Datei-URL"" : Dieses Feld enthält daher den Link zu dem Computer, auf dem sich die betreffende JSON-Datei befindet.
 
-# Exemple HTTP : Eine Vera steuern
+# HTTP-Beispiel : Eine Vera steuern
 
 Das Beispiel basiert auf einer Vera und besteht aus dem Antreiben einer dimmbaren Glühbirne. Ich werde nicht näher darauf eingehen, wie eine Vera per http-Anfrage gesteuert werden kann. Das TLD-Forum ist voller Antworten. Außerdem entspricht das Beispiel meiner Materialart und muss an Ihre angepasst werden.
 
@@ -114,10 +113,10 @@ Das Beispiel basiert auf einer Vera und besteht aus dem Antreiben einer dimmbare
 
 Lassen Sie uns gehen :
 
--   Wir schaffen Ausrüstung : zum Beispiel LUM KÜCHE (ich denke wir haben alle eine Küche zur Hand)
+-   Wir schaffen Ausrüstung : Zum Beispiel LUM KÜCHE (Ich denke, wir haben alle eine Küche zur Hand)
 -   Wir verknüpfen es mit einem übergeordneten Objekt : Mit VERA kann ich beispielsweise alle mit VERA verbundenen Bestellungen auf einem einzigen Elternteil zentralisieren.
 -   Wählen Sie Ihre Kategorie.
--   Aktivieren Sie Ihre Ausrüstung, überprüfen Sie sie nicht sichtbar, wir werden etwas später sehen, wie Sie sie mit einer virtuellen (sexier, more WAF) verknüpfen können
+-   Aktivieren Sie Ihre Ausrüstung, überprüfen Sie sie nicht sichtbar, wir werden etwas später sehen, wie Sie sie mit einer virtuellen (sexier, mehr WAF) verknüpfen können)
 -   Geben Sie zur Selbstaktualisierung nichts ein, es handelt sich um einen Impulsbefehl, der mit einem Knopfdruck oder einem Szenario verknüpft ist !
 -   Fügen Sie einen Skriptbefehl hinzu
 -   Denken Sie daran, zu speichern
@@ -126,13 +125,13 @@ Erklärungen :
 
 -   Name : 100%, weil wir ein Licht mit voller Leistung einschalten
 -   Skripttyp : http
--   Typ : Aktion (es ist eine Bestellung)
+-   Typ : Aktion (dies ist ein Befehl)
 -   Untertyp : Standard
 -   Petition :
 
-````
+`` ''`
 http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=100
-````
+`` ''`
 
 > **Spitze**
 >
@@ -144,31 +143,31 @@ Sie können daher Bestellungen in derselben Ausrüstung multiplizieren, indem Si
 
 Es ist auch möglich, einen Befehl vom Typ Schieberegler zu erstellen, indem Sie das Tag \ einfügen#slider\# in der Anfrage :
 
-````
+`` ''`
 http://<IP_VERA>:3480/data_request?id=lu_action&output_format=json&DeviceNum=12&serviceId=urn:upnp-org:serviceId:Dimming1&action=SetLoadLevelTarget&newLoadlevelTarget=#slider#
-````
+`` ''`
 
 > **Spitze**
 >
 > Wenn Ihre Bestellung vom Nachrichtentyp ist, können Sie die Tags \ verwenden#message\# und \#title\#, Das Gleiche gilt für eine Farbbestellung mit dem Tag \#color\#, oder Schieberegler mit #slider# oder Liste mit #select#
 
-# Exemple HTTP : Benachrichtigung an XBMC senden
+# HTTP-Beispiel : Benachrichtigung an XBMC senden
 
 Ziel : Senden Sie eine Benachrichtigung an XBMC, wenn Sie eine Vordertür öffnen.
 
 -   Name : XBMC DRÜCKEN
 -   Skripttyp : http
--   Typ : Aktion (es ist eine Bestellung)
+-   Typ : Aktion (dies ist ein Befehl)
 -   Untertyp : Standard
 -   Petition :
 
-````
+`` ''`
 http://IP_DE_XBMC:8080/jsonrpc?request={ %22jsonrpc%22:%222.0%22,%22method%22:%22GUI.ShowNotification%22,%22params%22:{ %22title%22:%22Mouvement% 20Detecté%22,%22message%22:%22Porte% 20Entrée%22},%22id%22:1}
-````
+`` ''`
 
 Es liegt an Ihnen, dies beispielsweise in einem Szenario zu testen !
 
-XBMC-API [hier](http://wiki.xbmc.org/index.php?title=JSON-RPC_API/v6) (nur die mit "erforderlich" gekennzeichneten Felder sind obligatorisch)
+XBMC-API [hier](http://wiki.xbmc.org/index.php?title=JSON-RPC_API/v6) (Nur die mit "erforderlich" gekennzeichneten Felder sind obligatorisch)
 
 Ziel : Senden Sie eine Benachrichtigung an XBMC, wenn die Temperatur einen bestimmten Schwellenwert unterschreitet
 
@@ -181,15 +180,32 @@ Testen Sie ein Szenario *\ [AUSSEN \] \ [AUSSEN \] \ [TEMPERATUR \]* &lt; 15 par
 
 Aktion : Starten Sie das Skript über eine virtuelle Ausrüstung, die mit Ihrem Skript verknüpft ist !
 
-# Exemple SCRIPT
+# SCRIPT-Beispiel
 
 Das Schönste, aber nicht das Einfachste zu erklären.
 
-Voraussetzungen : wissen, wie man ein Skript in PHP, Python oder Ruby entwickelt.
+**Voraussetzungen : wissen, wie man ein Skript in PHP, Python, Perl oder Ruby entwickelt.**
 
 >**Wichtig**
 >
-> Die Erweiterung Ihres Skripts muss unbedingt dem Typ entsprechen. Ex .PHP für einen PHP-Typ. In der Tat basiert Jeedom auf der Erweiterung des Skripts für den Start der ausführbaren Datei (php if .PHP, Python wenn .py ....)
+> Die Erweiterung Ihres Skripts muss unbedingt dem Typ entsprechen. In der Tat basiert Jeedom auf der Erweiterung des Skripts für den Start der ausführbaren Datei
+>
+> Wenn Ihr Dateiname nicht enthält :
+> * .php .py .pl .rb
+>
+
+Das Skript-Plugin startet eine Shell, die es basierend auf der Direktive der 1. Zeile (shebang) ausführt ).
+Beispiel :
+
+`` ''
+#!/ bin / csh -f
+#!/ bin / ksh
+#!/ usr / bin / env python3
+#!/ usr / bin / env php
+#!/ usr / bin / env Knoten
+Usw. ...
+`` ''
+
 
 Das Skript zur Überwachung der Himbeertemperatur dient als Beispiel für die Verwendung des Skripttyps : Script
 
@@ -199,14 +215,14 @@ Aus Neugier können Sie den Inhalt der Datei anzeigen, indem Sie auf die Schaltf
 
 Dies ist ein PHP-Skript, das außerhalb von Jeedom wiederverwendet werden kann !
 
-````
+`` ''`
  <?php
     $temp = shell_exec("cat /sys/class/thermal/thermal_zone0/temp");
     $temp = $temp / 1000;
     $temp = round($temp,1);
-    echo $temp
+    echo $temp;
  ?>
- ````
+ `` ''`
 
 Notiz : konkret ist es die PHP "Echo" -Funktion, die Jeedom den Wert gibt
 
@@ -224,7 +240,7 @@ Holen Sie sich Jeedom's Informationen, um sie in einem Skript zu verwenden. Die 
 
 Empfehlung zum Testen der Parameter im PHP-Skript :
 
-````
+`` ''`
 if (isset($argv)) {
  foreach ($argv as $arg) {
      $argList = explode('=', $arg);
@@ -233,28 +249,28 @@ if (isset($argv)) {
      }
  }
 }
-````
+`` ''`
 
-# Exemple XML simple
+# Einfaches XML-Beispiel
 
-Hier ist das Format der Standard-XML :
+Hier ist das Format des Standard-XML :
 
-````
+`` ''`
 <root>
     <led0>1</led0>
     <leds>
       <led1>toto</led1>
     </leds>
 </root>
-````
+`` ''`
 
 Wenn Sie den Wert von led0 in der Abfrage haben möchten, geben Sie led0 ein. Si vous voulez la valeur de la led1 qui est le fils de leds vous mettez leds &gt; led1.
 
 Notez que l'élément racine &lt;root&gt; n'est pas à préciser dans le champ Petition.
 
-# Exemple XML complexe
+# Komplexes XML-Beispiel
 
-````
+`` ''`
  <root>
    <led0>1</led0>
    <leds>
@@ -264,15 +280,15 @@ Notez que l'élément racine &lt;root&gt; n'est pas à préciser dans le champ P
      <led1>tata</led1>
    </leds>
  </root>
- ````
+ `` ''`
 
 Die Syntax lautet :
 
 leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de rang du tableau !
 
-# Exemple XML plus complexe
+# Komplexeres XML-Beispiel
 
-````
+`` ''`
 <AKT_Data ID="SMS-Liste" ZeitSt="01.05.2017 18:55">
  <MesPar DH="HBCHa" StrNr="2167" Typ="02" Var="02">
    <Name>Tresa - Ponte Tresa, Rocchetta</Name>
@@ -308,7 +324,7 @@ leds &gt; 1 &gt; led1 qui donne en réponse tata, 1 étant le numéro de rang du
   <Wert Typ="min24">500.64</Wert>
  </MesPar>
 </AKT_Data>
-````
+`` ''`
 
 Informationen aus dem Feld Wert des 1. Blocks abrufen:
 
@@ -322,7 +338,7 @@ Um zum nächsten "MyPar" -Block zu gelangen, müssen Sie daher den Index entspre
 
 Achtung : Wenn sich die Reihenfolge in der XML-Datei ändert, funktioniert die Anforderung nicht mehr. Die Anforderung muss entsprechend der zurückgegebenen Bestellung angepasst werden.
 
-# Exemple JSON
+# JSON-Beispiel
 
 Wie beim XML-Typ ist es möglich, Informationen aus einer JSON-Rückgabe zu lesen.
 
@@ -340,7 +356,7 @@ Bevor Sie mit der Konfiguration des JSON-Skript-Plugins beginnen, müssen Sie zu
 
 Beispiel für die Rückgabe :
 
-````
+`` ''`
  {
      "data": [
          {
@@ -383,7 +399,7 @@ Beispiel für die Rückgabe :
      "message": "",
      "result": "success"
  }
- ````
+ `` ''`
 
 In der Hypothese, in der wir den show\_name des 3. Elements in php (HIER markiert) zurückgeben möchten, müssten wir dies tun : data> 2> show\_name, der Rückgabearray-Index, der bei Null beginnt.
 
@@ -398,7 +414,7 @@ Nachteile :
 -   Mit dieser Methode kann jeweils nur ein Element wiederhergestellt werden.
 -   Wenn Sie alle Werte von "show\_name" zurückgeben möchten, ist dies leider nicht möglich. Sie müssen das Skript so oft wie nötig duplizieren.
 
-# Exemple HTML
+# HTML-Beispiel
 
 Hier werden wir versuchen, die letzte FML abzurufen.
 
@@ -408,13 +424,13 @@ Zuerst müssen Sie die URL konfigurieren :
 
 Dann müssen Sie den "Pfad" der letzten FML finden. Gehen Sie dazu zur Website, klicken Sie mit der rechten Maustaste auf den gewünschten Artikel und überprüfen Sie den Artikel, den Sie erhalten :
 
-![Exemple HTML 1](./images/exemple_HTML_1.png)
+![HTML-Beispiel 1](./images/exemple_HTML_1.png)
 
 Dies ist der komplexeste Teil und erfordert eine kleine Analyse. Hier befindet sich mein Text in einem "a" -Tag, das sich in einem Element vom Typ p befindet, das ein Post-Artikel der Klasse div ist". Also muss ich das erste div-Element der Klasse "post" und "article" auswählen, dann das erste Element p und ich bekomme alles in den darin enthaltenen "a" -Tags. Also habe ich : "div.post.article:erste p:zuerst a".
 
 Also bekommen wir :
 
-![Exemple HTML 2](./images/exemple_HTML_2.PNG)
+![HTML-Beispiel VDM](./images/exemple_HTML_VDM.png)
 
 Für ein Update in Echtzeit ist es möglich, ein Update zu erstellen.
 

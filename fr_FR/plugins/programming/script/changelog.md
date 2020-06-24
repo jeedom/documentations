@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 24/06/2020
+
+- Correction de l'interface
+
 # 14/05/2020
 
 - Correction d'un bug sur la mise à jour des commandes info suite à une action

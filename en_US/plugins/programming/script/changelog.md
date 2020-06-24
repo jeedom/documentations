@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 6/24/2020
+
+- Correction of the interface
+
 # 05/14/2020
 
 - Correction of a bug on the update of the info commands following an action
