@@ -1,10 +1,10 @@
 # Philips Hue plugin
 
-Plugin para integrar no ecossistema Philips Hue.
+Plug-in para integrar-se ao ecossistema Philips Hue (pode gerenciar até 2 pontes simultaneamente).
 
 # Configuração do plugin
 
-Após o download do plug-in, você precisará inserir o endereço IP da sua ponte de matiz, se ainda não o tiver feito pelo sistema de descoberta automática.
+Após o download do plug-in, você precisará inserir o endereço IP da (s) sua (s) ponte (s) de matiz.
 
 # Configuração do equipamento
 
@@ -14,11 +14,13 @@ Após o download do plug-in, você precisará inserir o endereço IP da sua pont
 
 Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nome de l'équipement Hue** : nome do seu equipamento Hue,
+-   **Nome do equipamento Hue** : nome do seu equipamento Hue,
 -   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
 -   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias),
 -   **Ativar** : torna seu equipamento ativo,
 -   **Visivél** : torna seu equipamento visível no painel,
+-   **Ponte** : indica a ponte à qual a lâmpada está conectada
+-   **Sempre ligado** : diga ao jeedom para nunca marcar a lâmpada como inacessível
 
 Abaixo você encontra a lista de pedidos :
 

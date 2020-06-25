@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 25/06/2020
+
+- Soporte multi-puente (2 en este momento)
+
 # 05/11/2020
 
 - Adición de una orden para saber si la bombilla es accesible o no

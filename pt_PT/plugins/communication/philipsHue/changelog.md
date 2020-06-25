@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 25/06/2020
+
+- Suporte multi-ponte (2 no momento)
+
 # 05/11/2020
 
 - Adição de uma ordem para saber se a lâmpada está acessível ou não
@@ -55,7 +59,7 @@
 
 # 16/10/2018
 
-- Correção de um erro na inversão de presença do sensor de movimento (para aqueles já criados, será necessário marcar o cache de inversão na linha do comando Presença)
+- Correção de um erro na inversão de presença do sensor de movimento (para aqueles já criados, será necessário marcar o cache de inversão na linha do comando Presence)
 
 # 12/12/2018
 
@@ -73,7 +77,7 @@
 
 # 31/05/2018
 
--	LTC001 (teto de ambiente Hue)
+-	LTC001 (teto ambiente Hue)
 
 # 14/04/2018
 

@@ -1,7 +1,7 @@
 {
     "id": "philipsHue",
     "name": "Philips Hue",
-    "description": "Plugin pour s'integrer à l'écosystème Philips Hue.<br\/>",
+    "description": "Plugin pour s'integrer à l'écosystème Philips Hue (peut gerer jusqu'a 2 ponts simultanement).",
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "3.3.32",

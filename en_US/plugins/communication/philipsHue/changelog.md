@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 06/25/2020
+
+- Multi-bridge support (2 at the moment)
+
 # 05/11/2020
 
 - Addition of an order to know if the bulb is reachable or not

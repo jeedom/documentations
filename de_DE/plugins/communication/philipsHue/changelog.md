@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 25.06.2020
+
+- Multi-Bridge-Unterstützung (derzeit 2)
+
 # 05/11/2020
 
 - Hinzufügen einer Bestellung, um zu wissen, ob die Glühbirne erreichbar ist oder nicht
@@ -34,7 +38,7 @@
 # 20.04.2019
 
 - SML002-Unterstützung
-- Unterstützung für OSRAM SMART Socket Status Feedback (Aufmerksamkeit erfordert Wiedereingliederung)
+- Unterstützung für OSRAM SMART Socket Status Feedback (Aufmerksamkeit erfordert erneutes Schließen)
 
 # 17.01.2019
 

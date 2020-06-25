@@ -1,10 +1,10 @@
 # Philips Hue Plugin
 
-Plugin zur Integration in das Philips Hue-Ökosystem.
+Plugin zur Integration in das Philips Hue-Ökosystem (kann bis zu 2 Bridges gleichzeitig verwalten).
 
 # Plugin Konfiguration
 
-Nach dem Herunterladen des Plugins müssen Sie die IP-Adresse Ihrer Farbtonbrücke eingeben, sofern dies nicht bereits vom automatischen Erkennungssystem durchgeführt wurde.
+Nach dem Herunterladen des Plugins müssen Sie die IP-Adresse Ihrer Farbtonbrücke (n) eingeben.
 
 # Gerätekonfiguration
 
@@ -14,11 +14,13 @@ Nach dem Herunterladen des Plugins müssen Sie die IP-Adresse Ihrer Farbtonbrüc
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name de l'équipement Hue** : Name Ihrer Hue-Ausrüstung,
+-   **Name der Farbtonausrüstung** : Name Ihrer Hue-Ausrüstung,
 -   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
 -   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören),
 -   **Aktivieren** : macht Ihre Ausrüstung aktiv,
 -   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
+-   **Brücke** : zeigt die Brücke an, an die die Lampe angeschlossen ist
+-   **Immer an** : Sagen Sie jeedom, dass die Lampe niemals als nicht erreichbar markiert werden soll
 
 Nachfolgend finden Sie die Liste der Bestellungen :
 
@@ -31,7 +33,7 @@ Nachfolgend finden Sie die Liste der Bestellungen :
 
 Gruppe 0 ist etwas Besonderes, da sie nicht gelöscht oder geändert werden kann, notwendigerweise alle Lampen antreibt und auch die Szenen trägt.
 
-In der Tat können Sie "Szenen" auf Philips Hue machen. Diese müssen unbedingt über die mobile Anwendung erfolgen (in Jeedom nicht möglich). Und nach dem Hinzufügen einer Szene müssen Sie Jeedom unbedingt mit der richtigen synchronisieren (indem Sie einfach die Konfiguration des Plugins speichern)
+In der Tat können Sie "Szenen" auf Philips Hue machen. Diese müssen unbedingt über die mobile Anwendung erfolgen (in Jeedom ist dies nicht möglich)). Und nach dem Hinzufügen einer Szene müssen Sie Jeedom unbedingt mit der richtigen synchronisieren (indem Sie einfach die Konfiguration des Plugins speichern)
 
 # Tansition
 

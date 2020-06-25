@@ -1,10 +1,10 @@
 # Plugin Philips Hue
 
-Plugin pour s'integrer à l'écosysteme Philips Hue.
+Plugin pour s'integrer à l'écosysteme Philips Hue (peut gerer jusqu'a 2 ponts simultanement).
 
 # Configuration du plugin
 
-Après téléchargement du plugin, il vous faudra renseigner l’adresse IP de votre pont hue, si ce n’est pas déja fait par le système de découverte automatique.
+Après téléchargement du plugin, il vous faudra renseigner l’adresse IP de votre/vos pont(s) hue.
 
 # Configuration des équipements
 
@@ -19,6 +19,8 @@ Vous retrouvez ici toute la configuration de votre équipement :
 -   **Catégorie** : les catégories de l’équipement (il peut appartenir à plusieurs catégories),
 -   **Activer** : permet de rendre votre équipement actif,
 -   **Visible** : rend votre équipement visible sur le dashboard,
+-   **Pont** : indique le pont sur lequel la lampe est connecté
+-   **Toujours allumé** : indique a jeedom de ne jamais marqué la lampe en non joignable
 
 En-dessous vous retrouvez la liste des commandes :
 

@@ -1,10 +1,10 @@
 # Philips Hue plugin
 
-Plugin to integrate into the Philips Hue ecosystem.
+Plugin to integrate into the Philips Hue ecosystem (can manage up to 2 bridges simultaneously).
 
 # Plugin configuration
 
-After downloading the plugin, you will need to enter the IP address of your hue bridge, if not already done by the automatic discovery system.
+After downloading the plugin, you will need to enter the IP address of your hue bridge (s).
 
 # Equipment configuration
 
@@ -14,11 +14,13 @@ After downloading the plugin, you will need to enter the IP address of your hue 
 
 Here you find all the configuration of your equipment :
 
--   **Name de l'équipement Hue** : name of your Hue equipment,
+-   **Hue equipment name** : name of your Hue equipment,
 -   **Parent object** : indicates the parent object to which the equipment belongs,
 -   **Category** : equipment categories (it can belong to several categories),
 -   **Activate** : makes your equipment active,
 -   **Visible** : makes your equipment visible on the dashboard,
+-   **Bridge** : indicates the bridge to which the lamp is connected
+-   **Always on** : tell jeedom to never mark the lamp as unreachable
 
 Below you find the list of orders :
 
