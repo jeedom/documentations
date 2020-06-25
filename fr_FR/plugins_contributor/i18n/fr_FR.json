@@ -23,10 +23,14 @@
         "Changelog": "Changelog"
     },
     "plugins_contributor\/automatisation\/index.md": {
+        "Volet proportionel": "Volet proportionel",
+        "Ce plugin gère l'ouverture et la fermeture proportionnel de nos volet": "Ce plugin gère l'ouverture et la fermeture proportionnel de nos volet",
         "Séquencement d'actions": "Séquencement d'actions",
         "Plugin pour gérer des actions séquencées et déclencheurs complexes": "Plugin pour gérer des actions séquencées et déclencheurs complexes",
         "Gestion de Volets": "Gestion de Volets",
         "Ce plugin gère l'ouverture et la fermeture de nos volets": "Ce plugin gère l'ouverture et la fermeture de nos volets",
+        "Gestion du Chauffe Eau": "Gestion du Chauffe Eau",
+        "Ce plugin gère l'allumage et l'extinction notre chauffe-eau en fonction de la température de l'eau et \/ ou de l'heure disponibilité de l'eau chaude": "Ce plugin gère l'allumage et l'extinction notre chauffe-eau en fonction de la température de l'eau et \/ ou de l'heure disponibilité de l'eau chaude",
         "Automatisme": "Automatisme",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",

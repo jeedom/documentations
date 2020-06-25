@@ -65,10 +65,14 @@
         " Changelog*": " Changelog*"
     },
     "plugins_contributor\/automatisation\/index.md": {
+        "Volet proportionel": "Proportional component",
+        "Ce plugin gère l'ouverture et la fermeture proportionnel de nos volet": "This plugin manages the opening and proportional closing of our shutters",
         "Séquencement d'actions": "Sequencing actions",
         "Plugin pour gérer des actions séquencées et déclencheurs complexes": "Plugin to manage sequenced actions and complex triggers",
         "Gestion de Volets": "Shutter management",
         "Ce plugin gère l'ouverture et la fermeture de nos volets": "This plugin manages the opening and closing of our shutters",
+        "Gestion du Chauffe Eau": "Water heater management",
+        "Ce plugin gère l'allumage et l'extinction notre chauffe-eau en fonction de la température de l'eau et \/ ou de l'heure disponibilité de l'eau chaude": "This plugin manages the switching on and off of our water heater depending on the temperature of the water and \/ or the time of availability of hot water",
         "Seuls les plugins de contributeur ont leur documentation ici": "Only contributor plugins have their documentation here",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "You can consult the documentation of the official plugins directly from the Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Once on the plugin in question, click on documentation",

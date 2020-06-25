@@ -65,10 +65,14 @@
         " Changelog*": " Cambios*"
     },
     "plugins_contributor\/automatisation\/index.md": {
+        "Volet proportionel": "Componente proporcional",
+        "Ce plugin gère l'ouverture et la fermeture proportionnel de nos volet": "Este complemento gestiona la apertura y el cierre proporcional de nuestras persianas",
         "Séquencement d'actions": "Acciones de secuencia",
         "Plugin pour gérer des actions séquencées et déclencheurs complexes": "Complemento para administrar acciones secuenciadas y disparadores complejos",
         "Gestion de Volets": "Gestión de persianas",
         "Ce plugin gère l'ouverture et la fermeture de nos volets": "Este complemento gestiona la apertura y cierre de nuestras persianas",
+        "Gestion du Chauffe Eau": "Gestión del calentador de agua",
+        "Ce plugin gère l'allumage et l'extinction notre chauffe-eau en fonction de la température de l'eau et \/ ou de l'heure disponibilité de l'eau chaude": "Este complemento gestiona el encendido y apagado de nuestro calentador de agua en función de la temperatura del agua y \/ o el tiempo de disponibilidad de agua caliente",
         "Seuls les plugins de contributeur ont leur documentation ici": "Solo los complementos de contribuyentes tienen su documentación aquí",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Puede consultar la documentación de los complementos oficiales directamente desde Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Una vez en el complemento en cuestión, haga clic en la documentación",
