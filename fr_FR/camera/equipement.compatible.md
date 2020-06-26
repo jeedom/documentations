@@ -71,12 +71,12 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/camera/images/foscam.C2.jpg" width="60" />|Foscam|C1/C2||||
-|<img src="../../fr_FR/camera/images/foscam.C2M.jpg" width="60" />|Foscam|C2M||||
-|<img src="../../fr_FR/camera/images/foscam.D2.jpg" width="60" />|Foscam|D2P/D2EP|||[Acheter](https://www.domadoo.fr/fr/cameras/4975-foscam-camera-ip-wifi-interieure-2mp-6954836069547.html)|
+|<img src="../../fr_FR/camera/images/foscam.C2M.jpg" width="60" />|Foscam|C2M|||[Acheter](https://www.domadoo.fr/fr/cameras/4975-foscam-camera-ip-wifi-interieure-2mp-6954836069547.html)|
+|<img src="../../fr_FR/camera/images/foscam.D2.jpg" width="60" />|Foscam|D2P/D2EP||||
 |<img src="../../fr_FR/camera/images/foscam.FI9800.jpg" width="60" />|Foscam|FI980xP/FI980xEP||||
 |<img src="../../fr_FR/camera/images/foscam.FI9853.jpg" width="60" />|Foscam|FI9853P/FI9853EP||||
 |<img src="../../fr_FR/camera/images/foscam.FI9900.jpg" width="60" />|Foscam|FI9900EP/FI9900P/FI9901EP/FI9901P||||
-|<img src="../../fr_FR/camera/images/foscam.FI9902.jpg" width="60" />|Foscam|FI9902P/FI9902EP|||[Acheter](https://www.domadoo.fr/fr/cameras/4975-foscam-camera-ip-wifi-interieure-2mp-6954836069547.html)|
+|<img src="../../fr_FR/camera/images/foscam.FI9902.jpg" width="60" />|Foscam|FI9902P/FI9902EP|||[Acheter](https://www.domadoo.fr/fr/cameras/4977-foscam-camera-ip-wifi-exterieur-2mp-6954836013533.html)|
 |<img src="../../fr_FR/camera/images/foscam.FI9928P.jpg" width="60" />|Foscam|FI9928P|||[Acheter](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
 |<img src="../../fr_FR/camera/images/foscam.G4.jpg" width="60" />|Foscam|G4P/G4EP||||
 |<img src="../../fr_FR/camera/images/foscam.R2.jpg" width="60" />|Foscam|R2P/R2EP||||
