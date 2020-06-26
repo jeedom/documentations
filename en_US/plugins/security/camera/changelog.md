@@ -4,6 +4,14 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 6/26/2020
+
+- Adding Dahua camera
+- Addition of Foscam camera
+- Suppression of motion detection
+- Adding panasonic wc np502 thanks @Flobul
+- Adding IOS camera thank you @Flobul
+
 # 06/16/2020
 
 - Correction of the problem of opening the history in flow mode

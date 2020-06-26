@@ -112,13 +112,12 @@ Par défaut il suffit de mettre le nombre de captures voulues dans le champ "nom
 -   ``delay`` : délai entre 2 captures, si non précisé alors le délai est de 1s
 -   ``wait`` : délai d'attente avant de commencer les captures, si non précié alors aucun envoi n'est fait
 -   ``sendPacket`` : nombre de captures déclenchant l'envoi de paquet de captures, si non précisé alors les captures ne seront envoyées qu'à la fin
--   ``detectMove=1`` : envoi les captures que s'il y a un changement supérieur au seuil de détection (voir configuration de la caméra)
 -   ``movie=1`` : une fois l'enregistrement terminé, les images sont converties en vidéo
 -   ``sendFirstSnap=1`` : envoi la première capture de l'enregistrement
 
 > **Exemples**
 >
-> nbSnap=3 delay=5 ==> envoi 3 captures faites à 5 secondes d'intervalle (envoi déclenché via le scénario) movie=1 sendFirstSnap=1 detectMove=1 ==> envoi la première capture, puis envoi d'une capture à chaque détection de mouvement et enregistre une vidéo jusqu'à la commande "Arrêter Enregistrement" à insérer dans le scénario. Le film sera stocké sur votre Jeedom.
+> nbSnap=3 delay=5 ==> envoi 3 captures faites à 5 secondes d'intervalle (envoi déclenché via le scénario) movie=1 sendFirstSnap=1 enregistre une vidéo jusqu'à la commande "Arrêter Enregistrement" à insérer dans le scénario. Le film sera stocké sur votre Jeedom.
 
 # Envoi de la détection de mouvement à Jeedom
 

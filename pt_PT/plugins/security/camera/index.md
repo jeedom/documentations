@@ -112,13 +112,12 @@ Por padrão, basta colocar o número de capturas que você deseja no campo "núm
 -   ``delay`` : atraso entre 2 capturas, se não especificado, o atraso é 1s
 -   ``wait`` : tempo de espera antes de começar a pegar, se não for especificado, nenhuma remessa será feita
 -   ``sendPacket`` : número de capturas que acionam o envio de um pacote de capturas, se não especificado, as capturas serão enviadas apenas no final
--   ``detectMove=1`` : envia as capturas somente se houver uma alteração maior que o limite de detecção (consulte a configuração da câmera)
 -   ``movie=1`` : após o término da gravação, as imagens são convertidas em vídeo
 -   ``sendFirstSnap=1`` : envia a primeira captura da gravação
 
 > **Exemplos**
 >
-> nbSnap = 3 atraso = 5 ==> envia 3 capturas feitas em intervalos de 5 segundos (envio acionado pelo cenário) movie = 1 sendFirstSnap = 1 detectMove = 1 ==> envia a primeira captura e envia uma captura para cada detecção de movimento e grave um vídeo até o comando "Stop Recording" para inserir no cenário. O filme será armazenado no seu Jeedom.
+> nbSnap = 3 atraso = 5 ==> envia 3 capturas feitas em intervalos de 5 segundos (envio acionado pelo cenário) movie = 1 sendFirstSnap = 1 grava um vídeo até o comando "Stop Recording" para inserir no cenário. O filme será armazenado no seu Jeedom.
 
 # Enviar detecção de movimento para Jeedom
 

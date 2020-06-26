@@ -112,13 +112,12 @@ Standardmäßig geben Sie einfach die gewünschte Anzahl von Aufnahmen in das Fe
 -   ``delay`` : Verzögerung zwischen 2 Aufnahmen, wenn nicht angegeben, beträgt die Verzögerung 1s
 -   ``wait`` : Wartezeit vor Fangbeginn, falls nicht anders angegeben, erfolgt kein Versand
 -   ``sendPacket`` : Anzahl der Fänge, die das Senden eines Fangpakets auslösen. Wenn nicht angegeben, werden die Fänge erst am Ende gesendet
--   ``detectMove=1`` : sendet die Aufnahmen nur, wenn eine Änderung über dem Erkennungsschwellenwert liegt (siehe Kamerakonfiguration))
 -   ``movie=1`` : Nach Abschluss der Aufnahme werden die Bilder in Videos konvertiert
 -   ``sendFirstSnap=1`` : Senden Sie die erste Aufnahme der Aufnahme
 
 > **Beispiele**
 >
-> nbSnap = 3 delay = 5 ==&gt; 3 in 5-Sekunden-Intervallen erstellte Aufnahmen senden (Senden über das Szenario ausgelöst) movie = 1 sendFirstSnap = 1 detectMove = 1 ==&gt; Sende die erste Aufnahme und sende dann eine Aufnahme an Bei jeder Bewegungserkennung wird ein Video aufgezeichnet, bis der Befehl &quot;Aufzeichnung beenden&quot; in das Szenario eingefügt wird. Der Film wird auf Ihrem Jeedom gespeichert.
+> nbSnap = 3 delay = 5 ==> 3 Aufnahmen im Abstand von 5 Sekunden senden (Senden über das Szenario ausgelöst) movie = 1 sendFirstSnap = 1 Video aufnehmen, bis der Befehl "Aufnahme beenden" in das Szenario eingefügt wird. Der Film wird auf Ihrem Jeedom gespeichert.
 
 # Senden Sie die Bewegungserkennung an Jeedom
 

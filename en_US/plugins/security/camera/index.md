@@ -112,13 +112,12 @@ By default, just put the number of captures you want in the "number of captures 
 -   ``delay`` : delay between 2 captures, if not specified then the delay is 1s
 -   ``wait`` : waiting time before starting to catch, if not specified then no shipment is made
 -   ``sendPacket`` : number of catches triggering the sending of a catch packet, if not specified then the catches will only be sent at the end
--   ``detectMove=1`` : sends the captures only if there is a change higher than the detection threshold (see camera configuration)
 -   ``movie=1`` : after recording is finished, images are converted to video
 -   ``sendFirstSnap=1`` : send the first capture of the recording
 
 > **Examples**
 >
-> nbSnap = 3 delay = 5 ==&gt; send 3 captures made at 5 second intervals (send triggered via the scenario) movie = 1 sendFirstSnap = 1 detectMove = 1 ==&gt; send the first capture, then send a capture to each motion detection and record a video until the &quot;Stop Recording&quot; command to insert in the scenario. The movie will be stored on your Jeedom.
+> nbSnap = 3 delay = 5 ==> send 3 captures made at 5 second intervals (send triggered via the scenario) movie = 1 sendFirstSnap = 1 record a video until the command "Stop Recording" to insert in the scenario. The movie will be stored on your Jeedom.
 
 # Send motion detection to Jeedom
 

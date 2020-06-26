@@ -40,6 +40,10 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/camera/images/dahua.IPC-B1B40.jpg" width="60" />|Dahua|IPC-B1B40||||
+|<img src="../../es_ES/camera/images/dahua.IPC-D2B40.jpg" width="60" />|Dahua|IPC-D2B40||||
+|<img src="../../es_ES/camera/images/dahua.IPC-HDBW1431E-S.jpg" width="60" />|Dahua|IPC-HDBW1431E-S||||
+|<img src="../../es_ES/camera/images/dahua.IPC-K35A.jpg" width="60" />|Dahua|IPC-K35A||||
 |<img src="../../es_ES/camera/images/dahua.SD22204T-GN-W.jpg" width="60" />|Dahua|SD22204T-GN-W||||
 
 # Dericam
@@ -66,12 +70,17 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/camera/images/foscam.FI9803EP.jpg" width="60" />|Foscam|FI9803EP|||[Comprar](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
-|<img src="../../es_ES/camera/images/foscam.FI9803P.jpg" width="60" />|Foscam|FI9803P|||[Comprar](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
-|<img src="../../es_ES/camera/images/foscam.R2.jpg" width="60" />|Foscam|R2|||[Comprar](https://www.domadoo.fr/fr/cameras/4976-foscam-camera-ip-wifi-interieure-motorisee-2mp-6954836001486.html)|
-|<img src="../../es_ES/camera/images/foscam.hd.jpg" width="60" />|Foscam|HD||Soporte para la mayoría de las cámaras Foscam HD|[Comprar](https://www.domadoo.fr/fr/cameras/4975-foscam-camera-ip-wifi-interieure-2mp-6954836069547.html)|
-|<img src="../../es_ES/camera/images/foscam.mot.hd.jpg" width="60" />|Foscam|HD motorizado||Soporte para la mayoría de las cámaras motorizadas Foscam HD|[Comprar](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
-|<img src="../../es_ES/camera/images/foscam.mot.jpg" width="60" />|Foscam|Motorizado||Soporte para la mayoría de las cámaras Foscam motorizadas|[Comprar](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
+|<img src="../../es_ES/camera/images/foscam.C2.jpg" width="60" />|Foscam|C1 / C2||||
+|<img src="../../es_ES/camera/images/foscam.C2M.jpg" width="60" />|Foscam|C2M||||
+|<img src="../../es_ES/camera/images/foscam.D2.jpg" width="60" />|Foscam|D2P / D2EP|||[Comprar](https://www.domadoo.fr/fr/cameras/4975-foscam-camera-ip-wifi-interieure-2mp-6954836069547.html)|
+|<img src="../../es_ES/camera/images/foscam.FI9800.jpg" width="60" />|Foscam|FI980xP / FI980xEP||||
+|<img src="../../es_ES/camera/images/foscam.FI9853.jpg" width="60" />|Foscam|FI9853P / FI9853EP||||
+|<img src="../../es_ES/camera/images/foscam.FI9900.jpg" width="60" />|Foscam|FI9900EP / FI9900P / FI9901EP / FI9901P||||
+|<img src="../../es_ES/camera/images/foscam.FI9902.jpg" width="60" />|Foscam|FI9902P / FI9902EP|||[Comprar](https://www.domadoo.fr/fr/cameras/4975-foscam-camera-ip-wifi-interieure-2mp-6954836069547.html)|
+|<img src="../../es_ES/camera/images/foscam.FI9928P.jpg" width="60" />|Foscam|FI9928P|||[Comprar](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
+|<img src="../../es_ES/camera/images/foscam.G4.jpg" width="60" />|Foscam|G4P / G4EP||||
+|<img src="../../es_ES/camera/images/foscam.R2.jpg" width="60" />|Foscam|R2P / R2EP||||
+|<img src="../../es_ES/camera/images/foscam.R2M.jpg" width="60" />|Foscam|R2MP / R2MEP|||[Comprar](https://www.domadoo.fr/fr/cameras/4976-foscam-camera-ip-wifi-interieure-motorisee-2mp-6954836001486.html)|
 
 # Hedden
 
@@ -87,6 +96,15 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/camera/images/hikvision.DS-7216HWI-SH-A.jpg" width="60" />|Hikvision|DS-7216HWI-SH / A||(XXX = 101 para el canal 1 / XXX = 202 para el canal 2)||
 |<img src="../../es_ES/camera/images/hikvision.ds-2cd2132-I.jpg" width="60" />|Hikvision|DS-2CD2132-I, DS-2CD3332-I, DS-2CD2232-I5, DS-2CD2732F-IS||||
+
+# Ios
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/camera/images/ios.ip-camera.jpg" width="60" />|ios|Cámara IP||||
+|<img src="../../es_ES/camera/images/ios.karakuri.camera.jpg" width="60" />|ios|Cámara Karakuri - Obturador automático y monitoreo WEB||||
+|<img src="../../es_ES/camera/images/ios.livereporter.jpg" width="60" />|ios|Reportero en vivo||||
+|<img src="../../es_ES/camera/images/ios.periscopehd.jpg" width="60" />|ios|Periscopio HD||||
 
 # Karotz
 
@@ -125,6 +143,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/camera/images/panasonic.bl-c121.jpg" width="60" />|Panasonic|BL-C121||||
+|<img src="../../es_ES/camera/images/panasonic.wv-np502.jpg" width="60" />|Panasonic|Panasonic WV-NP502||||
 
 # Rpi
 

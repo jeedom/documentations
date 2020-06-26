@@ -4,6 +4,14 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 26/06/2020
+
+- Adicionando câmera Dahua
+- Adição da câmera Foscam
+- Supressão da detecção de movimento
+- Adicionando panasonic wc np502 obrigado @Flobul
+- Adicionando câmera IOS, obrigado @Flobul
+
 # 16/06/2020
 
 - Correção do problema de abrir o histórico no modo de fluxo
