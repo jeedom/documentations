@@ -41,6 +41,12 @@ Seleccione "Instalar en disco" (ingrese la tecla en el teclado), confirme con s�
 >
 >Para conocer la IP de la VM (una vez conectada a ella, los identificadores se muestran en la pantalla de conexión) ``ip -s -c -h a``
 
+> **Información**
+>
+> Las ID de conexión ssh predeterminadas son : jeedom y Mjeedom96 para la contraseña 
+
+Entonces puedes seguir la documentación [Primer paso con Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index)
+
 # Instalación manual
 
 ## Descargar una imagen de Strecht de Debian - netinstall

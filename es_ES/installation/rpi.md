@@ -29,6 +29,12 @@ Inserte su tarjeta SD, conecte el cable de red, conecte la alimentación.
 
 Il vous suffit ensuite dans votre navigateur de mettre : http://IP_RPI/ (en remplacent IP_RPI par l'ip de votre Raspberry pi).
 
+> **Información**
+>
+> Las ID de conexión ssh predeterminadas son : jeedom y Mjeedom96 para la contraseña 
+
+Entonces puedes seguir la documentación [Primer paso con Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index)
+
 # Instalación de línea de comando
 
 ## Descargue la última imagen "lite""

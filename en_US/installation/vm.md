@@ -41,6 +41,12 @@ Select "Install on disk" (enter key on the keyboard), confirm with yes (down arr
 >
 >To find out the IP of the VM (once connected to it, the identifiers are displayed on the connection screen) ``ip -s -c -h a``
 
+> **Information**
+>
+> The default ssh connection IDs are : jeedom and Mjeedom96 for the password 
+
+Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)
+
 # Manual installation
 
 ## Downloading a Debian strecht image - netinstall

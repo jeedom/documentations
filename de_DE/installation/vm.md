@@ -41,6 +41,12 @@ Wählen Sie "Auf Festplatte installieren" (Eingabetaste auf der Tastatur), best�
 >
 >Um die IP der VM herauszufinden (sobald sie mit ihr verbunden ist, werden die Kennungen auf dem Verbindungsbildschirm angezeigt) ``ip -s -c -h a``
 
+> **Informationen**
+>
+> Die Standard-SSH-Verbindungs-IDs sind : jeedom und Mjeedom96 für das Passwort 
+
+Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)
+
 # Manuelle Installation
 
 ## Herunterladen eines Debian-Strecht-Images - netinstall
