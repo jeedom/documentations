@@ -826,6 +826,8 @@
         " English*": " Englisch*"
     },
     "plugins_contributor\/wellness\/index.md": {
+        "Sensibo Sky": "Sensibo Sky",
+        "Plugin pour piloter le module Sensibo Sky": "Plugin zur Steuerung des Sensibo Sky-Moduls",
         "Intégration du Thermostat Qivivo": "Integration des Qivivo Thermostats",
         "Gestion Humidité": "Feuchtigkeitsmanagement",
         "Plugin pour la gestion de l'humidité grâce à un humidificateur ou déshumidificateur d'air": "Plugin für das Feuchtigkeitsmanagement dank Luftbefeuchter oder Luftentfeuchter",

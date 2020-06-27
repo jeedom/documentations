@@ -286,6 +286,8 @@
         "le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo": "le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo"
     },
     "plugins_contributor\/wellness\/index.md": {
+        "Sensibo Sky": "Sensibo Sky",
+        "Plugin pour piloter le module Sensibo Sky": "Plugin pour piloter le module Sensibo Sky",
         "Qivivo": "Qivivo",
         "Intégration du Thermostat Qivivo": "Intégration du Thermostat Qivivo",
         "Gestion Humidité": "Gestion Humidité",
