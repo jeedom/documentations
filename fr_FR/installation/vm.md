@@ -41,6 +41,12 @@ Selectionnez "Install on disk" (touche entrée du clavier), valider avec yes (to
 >
 >Pour connaitre l'ip de la vm (une fois connecté dessus, les identifiants s'affichent sur l'écran de connexion) faite ``ip -s -c -h a``
 
+> **Information**
+>
+> Les identifiant de connection ssh par defaut sont : jeedom et Mjeedom96 pour le mot de passe 
+
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
+
 # Installation manuel
 
 ## Téléchargement d’une image Debian strecht - netinstall
