@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 29/06/2020
+
+- Posibilidad de controlar la iluminación de la cámara Presencia
+
 # 16/10/2019
 
 - Actualizando el documento
@@ -19,7 +23,7 @@
 - Renombrar en seguridad netatmo
 
 
-Importante : esta versión es una reescritura completa del complemento, por lo que hay un impacto en los widgets (que ahora es estándar en el núcleo, un cambio importante en la visualización de este). Se recomienda encarecidamente eliminar el equipo creado y rehacer una sincronización
+Importante : esta versión es una reescritura completa del complemento, por lo que hay un impacto en los widgets (que ahora es estándar en el núcleo, un cambio importante en la visualización del mismo)). Se recomienda encarecidamente eliminar el equipo creado y rehacer una sincronización
 
 # 21/06/2018
 

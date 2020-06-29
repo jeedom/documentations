@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 06/29/2020
+
+- Possibility to control the lighting of the camera Presence
+
 # 10/16/2019
 
 - Updating the doc
@@ -19,7 +23,7 @@
 - Renaming in netatmo security
 
 
-Important : this version is a complete rewrite of the plugin, so there is an impact on widgets (which is now standard in the core, major change in the display of this one). It is strongly recommended to delete the equipment created and to redo a synchronization
+Important : this version is a complete rewrite of the plugin, so there is an impact on the widgets (which is now standard in the core, major change in the display of it). It is strongly recommended to delete the equipment created and to redo a synchronization
 
 # 06/21/2018
 

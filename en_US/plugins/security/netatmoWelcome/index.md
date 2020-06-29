@@ -1,4 +1,4 @@
-# Neatmo Security Plugin (Security)
+# Neatmo Security plugin
 
 Plugin to retrieve information from Netatmo Security equipment
 
@@ -29,7 +29,7 @@ Identify yourself, with your email and password
 
 ![netatmoWelcome12](./images/netatmoWelcome12.png)
 
-Fill in the "Name" and "Description" fields (whatever you put in it doesn't matter) :
+Fill in the "Name" and "Description" fields (whatever you put it doesn't matter) :
 
 ![netatmoWelcome13](./images/netatmoWelcome13.png)
 
@@ -37,7 +37,7 @@ Then at the very bottom of the page check the box "I accept the terms of use" th
 
 ![netatmoWelcome14](./images/netatmoWelcome14.png)
 
-Recover the "CLient id" and "Secret client" information and copy them in the configuration part of the plugin in Jeedom (see previous chapter)
+Retrieve the information "CLient id" and "Secret client" and copy them in the configuration part of the plugin in Jeedom (see previous chapter)
 
 ![netatmoWelcome15](./images/netatmoWelcome15.png)
 
@@ -56,16 +56,20 @@ Below you find the list of orders :
 
 -   the name of the command
 -   Historize : allows to historize the data
--   advanced configuration (small notched wheels) : Displays
-    advanced configuration of the command (logging method, widget, etc.)
+-   Advanced configuration (small notched wheels) : Displays
+    advanced configuration of the command (logging method, widget, etc.))
 -   Test : Used to test the command
 
 # FAQ
 
 >**I do not have the events in real time but after 15min**
 >
->To have a real-time return of events (fire alarm triggering, person passing in front of the camera ..) you MUST ABSOLUTELY have your jeedom have an external URL in https with a valid certificate on port 443 (and only this port). It is an obligation imposed by netatmo
+>To have a real-time return of events (fire alarm triggering, person passing in front of the camera, etc.) you MUST ABSOLUTELY have your jeedom have an external URL in https with a valid certificate on port 443 (and only this port the). It is an obligation imposed by netatmo
 
 >**I cannot deactivate / activate surveillance**
 >
 >Attention if you put a code this function is not possible by the jeedom plugin
+
+>**I have an error of type "Incorrect string value: '\ xF0 \ x9F \ x98 \ x98 "when synchronizing**
+>
+>Check that you do not have a non-standard character (smiley type) on the name of a camera or a person

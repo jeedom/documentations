@@ -69,3 +69,7 @@ En dessous vous retrouvez la liste des commandes :
 >**Je n'arrive pas a desactiver/activer la surveillance**
 >
 >Attention si vous avez mis un code cette fonction n'est pas possible par le plugin jeedom
+
+>**J'ai une erreur de type "Incorrect string value: '\xF0\x9F\x98\x98" lors de la synchronisation**
+>
+>Vérifiez que vous n'avez pas un caractere non standard (type smiley) sur le nom d'une camera ou d'une personne

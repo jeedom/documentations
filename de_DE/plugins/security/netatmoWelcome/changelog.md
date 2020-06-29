@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 29.06.2020
+
+- Möglichkeit zur Steuerung der Beleuchtung der Kamera Präsenz
+
 # 16.10.2019
 
 - Aktualisieren des Dokuments
@@ -19,11 +23,11 @@
 - Umbenennung in Netatmo-Sicherheit
 
 
-Wichtig : Diese Version ist eine vollständige Neufassung des Plugins, daher gibt es Auswirkungen auf Widgets (was jetzt im Kern Standard ist, wesentliche Änderung in der Anzeige dieses Plugins). Es wird dringend empfohlen, die erstellten Geräte zu löschen und eine Synchronisierung zu wiederholen
+Wichtig : Diese Version ist eine vollständige Neufassung des Plugins, sodass sich dies auf die Widgets auswirkt (was jetzt im Kern Standard ist und die Anzeige stark verändert). Es wird dringend empfohlen, die erstellten Geräte zu löschen und eine Synchronisierung zu wiederholen
 
 # 21.06.2008
 
-- Korrektur des Netatmo-Frameworks (neue von Netatmo zurückgegebene Daten werden im Code nicht berücksichtigt)
+- Korrektur des Netatmo-Frameworks (neue von Netatmo zurückgegebene Daten werden in ihrem Code nicht berücksichtigt)
 
 # 2018.03.04
 
