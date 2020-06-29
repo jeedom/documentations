@@ -60,6 +60,7 @@
         " Changelog*": " Änderungsprotokoll*"
     },
     "plugins\/automation protocol\/index.md": {
+        "Ce plugin va vous permettre d'intégrer un wes de CartElectronics": "Mit diesem Plugin können Sie eine CartElectronics wes integrieren",
         "Ce plugin permet de piloter les modules Wattcubes de Wattlet via le Wattcube Web": "Mit diesem Plugin können Sie die Wattcubes-Module von Wattlet über das Wattcube Web steuern",
         "Permet de piloter les équipements domotiques de type 433Mhz ( Chacon, Oregon, La Crosse, X10, DI-O, Blyss": "Ermöglicht die Steuerung von 433-MHz-Hausautomationsgeräten (Chacon, Oregon, La Crosse, X10, DI-O, Blyss)",
         "Plugin pour utiliser le RFXcom USB": "Plugin zur Verwendung des RFXcom USB",

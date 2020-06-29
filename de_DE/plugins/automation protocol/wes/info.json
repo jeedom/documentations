@@ -1,9 +1,22 @@
 {
-	"id" : "wes",
-	"name" : "Wes",
-	"licence" : "AGPL",
-	"author" : "Jeedom Legacyz",
-	"require" : "2.0",
-	"category" : "automation protocol",
-	"hasOwnDeamon" : true
+    "id": "wes",
+    "name": "Wes",
+    "description": "Ce plugin va vous permettre d'intégrer un wes de CartElectronics",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3",
+    "category": "automation protocol",
+    "hasOwnDeamon": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protoco\/wes\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protoco\/wes\/",
+    "language": [
+        "fr_FR"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy"
+    ]
 }

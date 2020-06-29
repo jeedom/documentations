@@ -19,6 +19,7 @@
     },
     "plugins\/automation protocol\/index.md": {
         "Wes": "Wes",
+        "Ce plugin va vous permettre d'intégrer un wes de CartElectronics": "Ce plugin va vous permettre d'intégrer un wes de CartElectronics",
         "Wattlet": "Wattlet",
         "Ce plugin permet de piloter les modules Wattcubes de Wattlet via le Wattcube Web": "Ce plugin permet de piloter les modules Wattcubes de Wattlet via le Wattcube Web",
         "Permet de piloter les équipements domotiques de type 433Mhz ( Chacon, Oregon, La Crosse, X10, DI-O, Blyss": "Permet de piloter les équipements domotiques de type 433Mhz ( Chacon, Oregon, La Crosse, X10, DI-O, Blyss",

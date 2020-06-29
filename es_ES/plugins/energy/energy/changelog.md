@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 29/06/2020
+
+- Corrección de error en el cálculo del consumo de agua
+
 # 01/01/2020
 
 - Mejora de la gestión de equipos discapacitados

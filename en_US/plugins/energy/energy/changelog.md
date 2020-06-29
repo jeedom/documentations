@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 06/29/2020
+
+- Correction of bug on the calculation of water consumption
+
 # 01/01/2020
 
 - Improved management of disabled equipment

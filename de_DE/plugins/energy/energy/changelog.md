@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 29.06.2020
+
+- Fehlerbehebung bei der Berechnung des Wasserverbrauchs
+
 # 01/01/2020
 
 - Verbessertes Management behinderter Geräte

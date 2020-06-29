@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 29/06/2020
+
+- Correção de erro no cálculo do consumo de água
+
 # 01/01/2020
 
 - Gerenciamento aprimorado de equipamentos com deficiência
