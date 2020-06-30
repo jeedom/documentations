@@ -7,8 +7,8 @@
     "require": "3.3",
     "category": "automation protocol",
     "hasOwnDeamon": true,
-    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protoco\/wes\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protoco\/wes\/",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/wes\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/wes\/",
     "language": [
         "fr_FR"
     ],
