@@ -118,6 +118,18 @@ Encontrarás en la primera pestaña toda la configuración de tu equipo :
 > - el módulo tiene una configuración genérica dependiendo de los tipos  : tiene un visual genérico y los comandos correspondientes a los tipos del módulo (este es el caso más común)
 > - módulo y tipos son desconocidos de jeedom : en este caso, debe abrir una solicitud de soporte para agregarla en la próxima actualización del complemento
 
+# Sauvegarde
+
+El complemento realiza una copia de seguridad de la red contenida en la clave en un archivo local, puede descargarlo desde la página de configuración.
+
+# Restauration
+
+Al restaurar una copia de seguridad de Jeedom, el equipo se restaura pero no se adjunta a la clave, puede que tenga que reinstalar la clave. Para hacer esto, necesitará la copia de seguridad mencionada anteriormente. Este archivo se incluirá en Phoscon pero primero debe cambiar la extensión del archivo .dat en .tar.gz
+
+Luego vaya a la interfaz de Phoscon. Menú => Puerta de enlace => Opción de copia de seguridad => Cargar copia de seguridad.
+
+Solo tiene que hacer un descubrimiento de clave API, guardar y finalmente una sincronización desde la página del complemento.
+
 # Actualización de firmware
 
 ## Conbee II

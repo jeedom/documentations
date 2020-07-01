@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 01/07/2020
+
+- Lanzamiento mejorado de deCONZ
+
 # 06/08/2020
 
 - Tipo agregado ZGPSwitch (botón amigo del tono)

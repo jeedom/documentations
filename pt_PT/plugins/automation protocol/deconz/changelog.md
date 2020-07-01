@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 01/07/2020
+
+- Lançamento aprimorado do deCONZ
+
 # 06/08/2020
 
 - Adicionado tipo ZGPSwitch (botão amigo de matiz)

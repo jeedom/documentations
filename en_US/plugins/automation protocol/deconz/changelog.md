@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 07/01/2020
+
+- Improved launch of deCONZ
+
 # 06/08/2020
 
 - Added type ZGPSwitch (button friend of hue)

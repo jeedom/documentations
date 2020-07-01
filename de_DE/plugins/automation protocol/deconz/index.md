@@ -118,6 +118,18 @@ Auf der ersten Registerkarte finden Sie die gesamte Konfiguration Ihrer Geräte 
 > - Das Modul hat je nach Typ eine generische Konfiguration  : Sie haben eine allgemeine Grafik und die Befehle, die den Modultypen entsprechen (dies ist der häufigste Fall)
 > - Modul und Typen sind aus jeedom unbekannt : In diesem Fall müssen Sie eine Support-Anfrage öffnen, um sie beim nächsten Plugin-Update hinzuzufügen
 
+# Sauvegarde
+
+Das Plugin führt eine Sicherung des im Schlüssel enthaltenen Netzwerks in einer lokalen Datei durch. Sie können es von der Konfigurationsseite herunterladen.
+
+# Restauration
+
+Wenn Sie ein Jeedom-Backup wiederherstellen, wird das Gerät wiederhergestellt, aber nicht an den Schlüssel angeschlossen. Möglicherweise müssen Sie den Schlüssel neu installieren. Dazu benötigen Sie das oben erwähnte Backup. Diese Datei wird in Phoscon enthalten sein, Sie müssen jedoch zuerst die Dateierweiterung ändern .dat in .tar.gz
+
+Gehen Sie dann zur Phoscon-Oberfläche. Menü => Gateway => Sicherungsoption => Sicherung laden.
+
+Sie müssen nur eine API-Schlüsselerkennung, Speichern und schließlich eine Synchronisierung über die Plugin-Seite durchführen.
+
 # Firmware-Update
 
 ## Conbee II

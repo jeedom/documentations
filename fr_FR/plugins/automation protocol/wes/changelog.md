@@ -7,6 +7,6 @@
 # 10/05/2020
 
 - Compatibilité V4.
-- Le plugin deviens officiel.
+- Le plugin devient officiel.
 - Unification des classes.
 - Corrections multiples.

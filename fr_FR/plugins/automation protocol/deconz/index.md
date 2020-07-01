@@ -118,6 +118,18 @@ Vous retrouvez dans le premier onglet toute la configuration de votre équipemen
 > - le module a une configuration generique en fonction des types  : vous avez un visuel generique et les commande correspondant aux types du module (c'est le cas le plus courant)
 > - le module et les types sont inconnus de jeedom : dans ce cas il faut ouvrir une demande de support pour qu'on l'ajoute dans la mise à jour suivante du plugin
 
+# Sauvegarde
+
+Le plugin effectue une sauvegarde du réseau contenu dans la clé dans un fichier local, vous pouvez la télécharger depuis la page configuration.
+
+# Restauration
+
+Lors d’une restauration d’une sauvegarde Jeedom, les équipements sont restaurées mais pas rattaché à la clé, vous pouvez être amené à devoir réinstallé la clé. Pour ce faire vous aurez besoin de la sauvegarde cité plus haut. Ce fichier sera à inclure dans dans Phoscon mais il faut au préalable changer l’extension du fichier .dat en .tar.gz
+
+Ensuite rendes-vous dans l’interface de Phoscon. Menu => Gateway => Backup Option => Load Backup.
+
+Il ne vous reste plus qu’à faire une découverte de clé API, Sauvegarder et enfin une synchronisation depuis la page du plugin.
+
 # Mise à jour firmware
 
 ## Conbee II

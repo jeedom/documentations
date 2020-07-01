@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 07/01/2020
+
+- Verbesserter Start von deCONZ
+
 # 06.08.2020
 
 - Typ ZGPSwitch (Button Friend of Hue) hinzugefügt)
