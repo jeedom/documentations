@@ -10,7 +10,7 @@ It can operate through a cloud service provided by Jeedom.
 
 > **Important**
 >
-> The plugin does not support equipment with dual functions (2 outputs as certain zwave Fibaro module). You absolutely have to go through 2 virtual ones to break it down.
+> The plugin does not support equipment with dual functions (2 output as certain zwave Fibaro module). You absolutely have to go through 2 virtual ones to break it down.
 
 # Establishing the connection to Alexa
 
@@ -30,7 +30,7 @@ Once the service is active, you have to on the Alexa app or on the [website](htt
 >
 > If you have an error message telling you that your user password or not is not correct you must :
 > - check that Amazon Alexa is active in the market
-> - if this is the case, be sure of your credentials (attention you must respect upper / lower case) ?
+> - if this is the case, be sure of your identifiers (attention you must respect upper / lower case) ?
 > - if this is the case change your password on the market and on the configuration of the voice assistant service (market profiles page tab my services) have it saved
 
 > **Important**
@@ -45,6 +45,10 @@ On your Jeedom, go to Plugin -> Communication -> Alexa and in the equipment sect
 >
 > The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly. You can see [here](https://jeedom.github.io/plugin-mobile/en_US/#tocAnchor-1-6) explanations on generic generics
 
+> **Important**
+>
+> For the modes you need MINIMUM two otherwise Amazon refuses the configuration and nothing will synchronize
+
 You can also create scenes in the scene tab, with input and output actions.
 
 > **Important**
@@ -55,7 +59,7 @@ You can also create scenes in the scene tab, with input and output actions.
 
 >**I read that the plugin would require a subscription, why ?**
 >
-> It's quite simple, Jeedom is a non-cloud solution (hear everything is at home there is no server on our side for your Jeedom) but Alexa can only send requests to a single server for a skill. So we had to make a server that receives all requests from Alexa and retransmits them to your Jeedom. Unfortunately server (in addition to the cost of development and maintenance) at a rental cost on our side. This is why there will be a subscription for the "Voice Assistant" service which will cover both Amazon and Google (don't worry for the price it will be minimal, the goal is just to amortize the cost of the server)
+> It's quite simple, Jeedom is a non-cloud solution (hear everything is at home there is no server on our side for your Jeedom) but Alexa can only send requests to a single server for a skill. So we had to make a server that receives all requests from Alexa and retransmits them to your Jeedom. Unfortunately server (in addition to the cost of development and maintenance) at a rental cost on our side. This is why there will be a subscription for the service "Voice Assistant" which will cover both Amazon and Google (don't worry for the price it will be minimal, the goal is just to amortize the cost of the server)
 
 >**To open / close the shutters I must say turn on / off ?**
 >
@@ -78,7 +82,7 @@ You can also create scenes in the scene tab, with input and output actions.
 > It is necessary :
 > - deleted all my transmitted equipment (green OK) from the Alexa plugin
 > - save well
-> - “oublié” tous mes équipement jeedom visibles dans la rubrique Maison connectée de Alexa.amazon.com (or app)
+> - “oublié” tous mes équipement jeedom visibles dans la rubrique Maison connectée de Alexa.amazon.com (or the app)
 > - do a detection from Alexa
 > - return equipment
 > - redo detection from Alexa

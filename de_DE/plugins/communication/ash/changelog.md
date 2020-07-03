@@ -1,3 +1,5 @@
+# Changelog Alexa
+
 >**Wichtig**
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
@@ -60,7 +62,7 @@
 # 31.05.2019
 
 - Verschlussunterstützung
-- Sensorunterstützung (Bewegung, Kontakt, Temperatur)
+- Unterstützung von Sensoren (Bewegung, Kontakt, Temperatur)
 - Fehlerbehebungen
 - Wichtig : Ab dem 01.06.2019 werden Sprachdienste kostenpflichtig. Sie können Ihren Status auf Ihrer Profilseite auf dem Markt sehen
 
@@ -83,7 +85,7 @@
 
 # 10/09/2018
 
-- Korrektur vieler Fehler bei Statusrückgaben (Licht, Steckdose, Temperatur, Thermostat ...)
+- Korrektur vieler Fehler bei Statusrückgaben (Licht, Steckdose, Temperatur, Thermostat)...)
 
 # 10/08/2018
 

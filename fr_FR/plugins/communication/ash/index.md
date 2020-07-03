@@ -45,6 +45,10 @@ Sur votre Jeedom, allez sur Plugin -> Communication -> Alexa et dans la partie �
 >
 > Le plugin se base sur les types génériques de Jeedom des commandes pour piloter votre domotique. Il est donc très important de configurer ceux-ci correctement. Vous pouvez voir [ici](https://jeedom.github.io/plugin-mobile/fr_FR/#tocAnchor-1-6) des explications sur les generiques type
 
+> **IMPORTANT**
+>
+> Pour les modes il en faut MINIMUM deux sinon Amazon refuse la configuration et plus rien ne se synchronisera
+
 Vous pouvez aussi créer des scènes dans l'onglet scène, avec des actions d'entrée et de sortie.
 
 > **IMPORTANT**

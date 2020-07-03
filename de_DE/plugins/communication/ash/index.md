@@ -30,7 +30,7 @@ Sobald der Dienst aktiv ist, müssen Sie auf der Alexa-App oder auf der [Website
 >
 > Wenn Sie eine Fehlermeldung erhalten, die Sie darüber informiert, dass Ihr Benutzerkennwort nicht korrekt ist oder nicht, müssen Sie dies tun :
 > - Überprüfen Sie, ob Amazon Alexa auf dem Markt aktiv ist
-> - Wenn dies der Fall ist, achten Sie auf Ihre Anmeldeinformationen (Aufmerksamkeit, die Sie in Groß- / Kleinschreibung beachten müssen) ?
+> - Wenn dies der Fall ist, achten Sie auf Ihre Kennungen (achten Sie auf Groß- / Kleinschreibung) ?
 > - Wenn dies der Fall ist, ändern Sie Ihr Passwort auf dem Markt und haben Sie es bei der Konfiguration des Sprachassistenten-Dienstes (Registerkarte Marktprofile Seite Meine Dienste) gespeichert
 
 > **Wichtig**
@@ -45,6 +45,10 @@ Gehen Sie auf Ihrem Jeedom zu Plugin -> Kommunikation -> Alexa und wählen Sie i
 >
 > Das Plugin basiert auf den generischen Jeedom-Befehlen zur Steuerung Ihrer Hausautomation. Es ist daher sehr wichtig, diese korrekt zu konfigurieren. Sie können sehen [hier](https://jeedom.github.io/plugin-mobile/de_DE/#tocAnchor-1-6) Erklärungen zu generischen Generika
 
+> **Wichtig**
+>
+> Für die Modi benötigen Sie mindestens zwei, andernfalls lehnt Amazon die Konfiguration ab und nichts wird synchronisiert
+
 Sie können auf der Registerkarte "Szene" auch Szenen mit Eingabe- und Ausgabeaktionen erstellen.
 
 > **Wichtig**
@@ -55,7 +59,7 @@ Sie können auf der Registerkarte "Szene" auch Szenen mit Eingabe- und Ausgabeak
 
 >**Ich habe gelesen, dass das Plugin ein Abonnement erfordern würde, warum ?**
 >
-> Es ist ganz einfach, Jeedom ist eine Nicht-Cloud-Lösung (hören Sie, dass alles zu Hause ist, es gibt keinen Server für Ihr Jeedom auf unserer Seite), aber Alexa kann nur Anforderungen für eine Fertigkeit an einen einzelnen Server senden. Also mussten wir einen Server erstellen, der alle Anfragen von Alexa empfängt und sie erneut an Ihr Jeedom überträgt. Leider Server (zusätzlich zu den Kosten für Entwicklung und Wartung) zu einem Mietpreis auf unserer Seite. Aus diesem Grund wird es ein Abonnement für den "Voice Assistant" -Dienst geben, der sowohl Amazon als auch Google abdeckt (keine Sorge, der Preis ist minimal, das Ziel besteht nur darin, die Kosten des Servers zu amortisieren)
+> Es ist ganz einfach, Jeedom ist eine Nicht-Cloud-Lösung (hören Sie, dass alles zu Hause ist, es gibt keinen Server für Ihr Jeedom auf unserer Seite), aber Alexa kann nur Anforderungen für eine Fertigkeit an einen einzelnen Server senden. Also mussten wir einen Server erstellen, der alle Anfragen von Alexa empfängt und sie erneut an Ihr Jeedom überträgt. Leider Server (zusätzlich zu den Kosten für Entwicklung und Wartung) zu einem Mietpreis auf unserer Seite. Aus diesem Grund wird es ein Abonnement für den Dienst "Voice Assistant" geben, der sowohl Amazon als auch Google abdeckt (keine Sorge, der Preis ist minimal, das Ziel ist nur, die Kosten des Servers zu amortisieren)
 
 >**Um die Fensterläden zu öffnen / schließen, muss ich Ein- / Ausschalten sagen ?**
 >
@@ -67,7 +71,7 @@ Sie können auf der Registerkarte "Szene" auch Szenen mit Eingabe- und Ausgabeak
 
 >**Während der Zuordnung habe ich einen Fehler (aber nicht bei einem Problem mit Passwort / Benutzername)**
 >
->Wenn Sie während der Zuordnung zu Jeedom einen Fehler haben, liegt dies wahrscheinlich daran, dass Sie vor der Zuordnung keine Geräte hinzugefügt / übertragen haben. Um dies zu korrigieren, gehen Sie zu Plugins -> Kommunikation -> Alexa und aktivieren Sie mindestens ein Gerät zum Senden und Speichern (überprüfen Sie, ob das Gerät in Ordnung ist. Wenn es sich in NOK befindet, klicken Sie auf NOK, um zu sehen, warum oder fragen Sie nach generischer Typ in jeedom). Wiederholen Sie dann die Zuordnung
+>Wenn Sie während der Zuordnung zu Jeedom einen Fehler haben, liegt dies wahrscheinlich daran, dass Sie vor der Zuordnung keine Geräte hinzugefügt / übertragen haben. Um dies zu korrigieren, gehen Sie zu Plugins -> Kommunikation -> Alexa und aktivieren Sie mindestens ein Gerät zum Senden und Speichern (überprüfen Sie, ob das Gerät in Ordnung ist. Wenn es sich in NOK befindet, klicken Sie auf NOK, um zu sehen, warum oder fragen Sie nach generischer Typ in Jeedom). Wiederholen Sie dann die Zuordnung
 
 >**Beim Hinzufügen von Geräten habe ich NOK**
 >
@@ -78,7 +82,7 @@ Sie können auf der Registerkarte "Szene" auch Szenen mit Eingabe- und Ausgabeak
 > Du musst :
 > - löschte alle meine übertragenen Geräte (grün OK) aus dem Alexa-Plugin
 > - gut sparen
-> - “oublié” tous mes équipement jeedom visibles dans la rubrique Maison connectée de Alexa.amazon.com (oder App)
+> - “oublié” tous mes équipement jeedom visibles dans la rubrique Maison connectée de Alexa.amazon.com (oder die App)
 > - mache eine Entdeckung von Alexa
 > - Rückgabegeräte
 > - Wiederholen Sie die Erkennung von Alexa

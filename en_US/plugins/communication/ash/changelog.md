@@ -1,3 +1,5 @@
+# Changelog Alexa
+
 >**Important**
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
@@ -60,7 +62,7 @@
 # 05/31/2019
 
 - Shutter support
-- Sensor support (movement, contact, temperature)
+- Support of sensors (movement, contact, temperature)
 - Bugfix
 - Important : from 01/06/2019 the voice services become chargeable, you can see your status on your profile page on the market, tab my services
 
@@ -83,7 +85,7 @@
 
 # 10/09/2018
 
-- Correction of many bugs on status returns (light, outlet, temperature, thermostat ...)
+- Correction of many bugs on status returns (light, outlet, temperature, thermostat...)
 
 # 10/08/2018
 

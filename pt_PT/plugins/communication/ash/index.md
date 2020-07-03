@@ -10,7 +10,7 @@ Ele pode operar através de um serviço em nuvem fornecido pela Jeedom.
 
 > **IMPORTANTE**
 >
-> O plug-in não suporta equipamentos com funções duplas (2 saídas como determinado módulo Fibwire zwave). Você absolutamente tem que passar por 2 virtuais para quebrá-lo.
+> O plug-in não suporta equipamentos com funções duplas (2 saídas como certo módulo Fibaro zwave). Você absolutamente tem que passar por 2 virtuais para quebrá-lo.
 
 # Estabelecendo a conexão com o Alexa
 
@@ -24,13 +24,13 @@ Depois de instalar o plug-in, basta acessar a parte de configuração do plug-in
 
 ## Configuração Alexa
 
-Depois que o serviço estiver ativo, você precisará no aplicativo Alexa ou no [site](https://alexa.amazon.fr/spa/index.html) vá para a parte da habilidade e procure a habilidade Jeedom e ative-a; solicitará identificadores que você deve colocar no mercado (tenha cuidado em colocar seus identificadores de mercado e não os do seu Jeedom)
+Depois que o serviço estiver ativo, você precisará no aplicativo Alexa ou no [site](https://alexa.amazon.fr/spa/index.html) vá para a parte da habilidade e procure a habilidade Jeedom e ative-a. Lá, ele solicitará identificadores que você deve colocar no mercado (tenha cuidado em colocar seus identificadores de mercado e não os do seu Jeedom)
 
 > **IMPORTANTE**
 >
 > Se houver uma mensagem de erro informando que sua senha de usuário ou não está correta, você deve :
 > - verifique se o Amazon Alexa está ativo no mercado
-> - se for esse o caso, verifique suas credenciais (atenção: você deve respeitar maiúsculas / minúsculas) ?
+> - se for esse o caso, certifique-se de seus identificadores (atenção, você deve respeitar maiúsculas / minúsculas) ?
 > - se for esse o caso, altere sua senha no mercado e na configuração do serviço de assistente de voz (guia página de perfis de mercado, meus serviços) salvou
 
 > **IMPORTANTE**
@@ -45,6 +45,10 @@ No seu Jeedom, vá para Plugin -> Communication -> Alexa e, na seção equipment
 >
 > O plug-in é baseado nos tipos genéricos de comandos Jeedom para controlar sua automação residencial. Portanto, é muito importante configurá-los corretamente. Você pode ver [aqui](https://jeedom.github.io/plugin-mobile/pt_PT/#tocAnchor-1-6) explicações sobre genéricos genéricos
 
+> **IMPORTANTE**
+>
+> Para os modos que você precisa de dois MÍNIMOS, caso contrário, a Amazon recusa a configuração e nada será sincronizado
+
 Você também pode criar cenas na guia cena, com ações de entrada e saída.
 
 > **IMPORTANTE**
@@ -55,7 +59,7 @@ Você também pode criar cenas na guia cena, com ações de entrada e saída.
 
 >**Eu li que o plugin exigiria uma assinatura, por que ?**
 >
-> É bastante simples, o Jeedom é uma solução que não é da nuvem (ouça tudo está em casa, não há servidor do nosso lado para o seu Jeedom), mas o Alexa só pode enviar solicitações para um único servidor por uma habilidade. Então tivemos que criar um servidor que recebesse todos os pedidos do Alexa e os retransmitisse para o seu Jeedom. Infelizmente servidor (além do custo de desenvolvimento e manutenção) a um custo de aluguel do nosso lado. É por isso que haverá uma assinatura do serviço "Voice Assistant", que cobrirá a Amazon e o Google (não se preocupe com o preço, será mínimo, o objetivo é apenas amortizar o custo do servidor)
+> É bastante simples, o Jeedom é uma solução que não é da nuvem (ouça tudo está em casa, não há servidor do nosso lado para o seu Jeedom), mas o Alexa só pode enviar solicitações para um único servidor por uma habilidade. Então tivemos que criar um servidor que recebesse todos os pedidos do Alexa e os retransmitisse para o seu Jeedom. Infelizmente servidor (além do custo de desenvolvimento e manutenção) a um custo de aluguel do nosso lado. É por isso que haverá uma assinatura do serviço "Voice Assistant", que cobrirá tanto a Amazon quanto o Google (não se preocupe com o preço, será mínimo, o objetivo é apenas amortizar o custo do servidor)
 
 >**Para abrir / fechar as persianas, devo dizer ligar / desligar ?**
 >
@@ -78,7 +82,7 @@ Você também pode criar cenas na guia cena, com ações de entrada e saída.
 > Você deve :
 > - apaguei todo o meu equipamento transmitido (verde OK) do plugin Alexa
 > - salve bem
-> - “oublié” tous mes équipement jeedom visibles dans la rubrique Maison connectée de Alexa.amazon.com (ou aplicativo)
+> - “oublié” tous mes équipement jeedom visibles dans la rubrique Maison connectée de Alexa.amazon.com (ou o aplicativo)
 > - faça uma detecção do Alexa
 > - equipamento de retorno
 > - refazer a detecção do Alexa

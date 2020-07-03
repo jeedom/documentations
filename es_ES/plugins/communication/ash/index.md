@@ -30,7 +30,7 @@ Una vez que el servicio está activo, debe hacerlo en la aplicación Alexa o en 
 >
 > Si tiene un mensaje de error que le indica que su contraseña de usuario o no es correcta, debe :
 > - compruebe que Amazon Alexa esté activa en el mercado
-> - Si este es el caso, asegúrese de sus credenciales (atención debe respetar mayúsculas / minúsculas) ?
+> - si este es el caso, asegúrese de sus identificadores (atención debe respetar mayúsculas / minúsculas)) ?
 > - si este es el caso, cambie su contraseña en el mercado y en la configuración del servicio de asistente de voz (pestaña de página de perfiles de mercado mis servicios) guarde
 
 > **Importante**
@@ -44,6 +44,10 @@ En su Jeedom, vaya a Complemento -> Comunicación -> Alexa y en la sección de e
 > **Importante**
 >
 > El complemento se basa en los tipos genéricos de comandos Jeedom para controlar la automatización de su hogar. Por lo tanto, es muy importante configurarlos correctamente. Podéis ver [aquí](https://jeedom.github.io/plugin-mobile/es_ES/#tocAnchor-1-6) explicaciones sobre genéricos genéricos
+
+> **Importante**
+>
+> Para los modos, necesita MINIMO dos; de lo contrario, Amazon rechaza la configuración y nada se sincronizará
 
 También puede crear escenas en la pestaña de escena, con acciones de entrada y salida.
 
@@ -65,9 +69,9 @@ También puede crear escenas en la pestaña de escena, con acciones de entrada y
 >
 > Mire sus tipos genéricos, Alexa requiere absolutamente un retorno de estado, de lo contrario le dirá que el dispositivo no responde. También preste atención a la demora para realizar la acción si es demasiado largo, recibirá el mensaje de que el dispositivo no responde.
 
->**Durante la asociación tengo un error (pero no en un problema de contraseña / nombre de usuario)**
+>**Durante la asociación tengo un error (pero no un problema de contraseña / nombre de usuario)**
 >
->Si tiene un error durante la asociación con Jeedom, probablemente se deba al hecho de que no agregó / transmitió equipo antes de realizar la asociación. Para corregir, vaya a Complementos -> Comunicación -> Alexa luego marcó al menos un equipo para transmitir y guardar (verifique que el equipo esté en buen estado, si está en NOK, haga clic en el NOK para ver por qué o preguntar sobre tipo genérico en libertad). Luego rehaga la asociación
+>Si tiene un error durante la asociación con Jeedom, probablemente se deba al hecho de que no agregó / transmitió equipo antes de realizar la asociación. Para corregir, vaya a Complementos -> Comunicación -> Alexa, luego marcó al menos un equipo para transmitir y guardó (verifique que el equipo esté en buen estado, si está en NOK, haga clic en NOK para ver por qué o preguntar sobre tipo genérico en libertad). Luego rehaga la asociación
 
 >**Cuando agrego equipo tengo NOK**
 >
@@ -78,7 +82,7 @@ También puede crear escenas en la pestaña de escena, con acciones de entrada y
 > Hay que :
 > - borré todo mi equipo transmitido (verde OK) del complemento Alexa
 > - guardar bien
-> - “oublié” tous mes équipement jeedom visibles dans la rubrique Maison connectée de Alexa.amazon.com (o aplicación)
+> - “oublié” tous mes équipement jeedom visibles dans la rubrique Maison connectée de Alexa.amazon.com (o la aplicación)
 > - hacer una detección de Alexa
 > - devolver equipo
 > - rehacer detección de Alexa

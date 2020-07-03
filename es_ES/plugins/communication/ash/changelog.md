@@ -1,3 +1,5 @@
+# Registro de cambios Alexa
+
 >**Importante**
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
@@ -60,7 +62,7 @@
 # 31/05/2019
 
 - Obturador de apoyo
-- Soporte del sensor (movimiento, contacto, temperatura)
+- Soporte de sensores (movimiento, contacto, temperatura)
 - Correcciones de errores
 - Importante : a partir del 01/06/2019 los servicios de voz cobran, puede ver su estado en su página de perfil en el mercado, pestaña mis servicios
 
@@ -83,7 +85,7 @@
 
 # 10/09/2018
 
-- Corrección de muchos errores en los retornos de estado (luz, salida, temperatura, termostato ...)
+- Corrección de muchos errores en los retornos de estado (luz, salida, temperatura, termostato...)
 
 # 10/08/2018
 
