@@ -1,11 +1,11 @@
+# Swimo Plugin
+
 Mit diesem Plugin können Sie Swimo Pool Controller mit Jeedom verbinden.
-Das Plugin ermöglicht es, die Werte der verschiedenen Sensoren wiederherzustellen sowie die Aktoren zu steuern. (Änderung der Modi, Ein / Aus, Änderung der Sollwerte)
+Das Plugin ermöglicht es, die Werte der verschiedenen Sensoren wiederherzustellen sowie die Aktoren zu steuern. (Moduswechsel, Ein / Aus, Sollwertwechsel)
 
-Plugin Konfiguration
-=======================
+# Plugin Konfiguration
 
-Nach dem Herunterladen des Plugins müssen Sie es nur noch aktivieren,
-Konfigurieren Sie dann einige Elemente :
+Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur aktivieren und dann einige Elemente konfigurieren :
 
 - die Swimo IP-Adresse
 - Swimo-Serie
@@ -13,8 +13,7 @@ Konfigurieren Sie dann einige Elemente :
 
 ![swimo](./images/swimo1.png)
 
-Gerätekonfiguration
-=============================
+# Gerätekonfiguration
 
 Die Synchronisation der Geräte ermöglicht die Wiederherstellung der auf dem Swimo konfigurierten Sonden und Aktuatoren.
 
