@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 07/06/2020
+
+- Correction of a bug on reading the value of the 0-10v extension
+
 # 05/09/2020
 
 - Added support for 0-10v extension

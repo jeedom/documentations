@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 07/06/2020
+
+- Korrektur eines Fehlers beim Lesen des Werts der 0-10v-Erweiterung
+
 # 05/09/2020
 
 - Unterstützung für 0-10v-Erweiterung hinzugefügt
