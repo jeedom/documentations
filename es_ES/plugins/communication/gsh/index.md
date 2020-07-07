@@ -268,19 +268,6 @@ Los tipos de equipos son importantes, esto le permite a Google reaccionar de acu
 >
 > El soporte de Jeedom para los tipos "beta" aún no está documentado en Google, por lo que puede o no funcionar dependiendo de las actualizaciones en Google
 
-* Iluminación : admite encendido / apagado, cambio de color, atenuación....
-* Termostato : admite cambio de punto de ajuste y modos (de forma limitada, Google solo autoriza ciertos nombres de modos, tenga cuidado de hacer la configuración avanzada)
-* Salida : encendido / apagado
-* Cámara : en beta, puede mostrar la transmisión en un Android TV en la red local
-* Tienda : abrir / cerrar una persiana (puede invertir la dirección en la configuración avanzada)
-* Persiana : abrir / cerrar un obturador (puede invertir la dirección en la configuración avanzada)
-* [Ventana beta] : normalmente admite el estado abierto / cerrado de una ventana (para obtener información solo si hago la pregunta en inglés de que funciona)
-* Puerta [beta] : normalmente admite el estado abierto / cerrado de una puerta (para obtener información solo si hago la pregunta en inglés de que funciona)
-* Alarma [beta] : le permite armar / desarmar la alarma (tenga cuidado de usar el término arma / desarmar para que Google realice la acción)
-* Bloquear [beta] : equipo cerrado / abierto
-* TV [beta] : le permite cambiar el volumen y los canales
-* Embarazada [beta] : le permite cambiar el volumen y detener, pausar, siguiente, anterior, reanudar
-
 ## Escenario
 
 También puede crear escenas en la pestaña de escena, con acciones de entrada y salida.

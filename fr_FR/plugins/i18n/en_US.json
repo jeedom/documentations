@@ -302,7 +302,7 @@
         "ATTENTION, il ne s'agit pas d'un plugin Officiel Jeedom mais d'un plugin développé par une tierce personne et dont l'évolution a été abandonnée": "PLEASE NOTE, this is not an official Jeedom plugin but a plugin developed by a third person and whose development has been abandoned",
         "L'équipe technique Jeedom assurera l'assistance sur ce plugin sans obligation de résultat": "The Jeedom technical team will provide assistance with this plugin without obligation of result",
         "Il permet aussi de régler le volume": "It also allows you to adjust the volume",
-        "le plugin nécessite un abonnement aux services vocaux (3 mois offert lors de l'achat du plugin) pour une configuration facile": "the plugin requires a subscription to voice services (3 months offered when purchasing the plugin) for easy configuration",
+        "le plugin nécessite un abonnement aux services vocaux (3 mois offerts lors de l'achat du plugin) pour une configuration facile": "the plugin requires a subscription to voice services (3 months free when purchasing the plugin) for easy configuration",
         "L'app se connecte automatiquement à votre Jeedom avec une initialisation automatique par QRcode, aucune configuration n'est nécessaire": "The app automatically connects to your Jeedom with automatic initialization by QRcode, no configuration is necessary",
         "possibilité de le faire manuellement": "possibility to do it manually",
         "Vous retrouverez sur votre mobile toutes les fonctionnalités de votre Jeedom": "You will find on your mobile all the features of your Jeedom",

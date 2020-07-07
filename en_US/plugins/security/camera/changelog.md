@@ -4,6 +4,12 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 07/07/2020
+
+- Correction of a problem on the default port of the stream url for Foscam cameras thanks @nebz
+- Addition of the Reolink RLC-410-5MP camera thanks @Dorsad
+- Add RocketCam (Freebox) thanks @JAG
+
 # 6/26/2020
 
 - Adding Dahua camera

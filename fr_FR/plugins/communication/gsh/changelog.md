@@ -4,6 +4,16 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 07/07/2020
+
+>**IMPORTANT**
+>
+>Cette mise à jour est majeur et peux avoir des bugs malgrès les nombreux test effectués. Nous ferons tout pour les corriger le plus rapidement possible
+
+- Refonte du plugin pour supporté plus de type (attention il peut y avoir des regressions non vues lors de la phase de test)
+- Ajout de nombreux type
+- Ajout de nombreuses actions/infos
+
 # 25/05/2020
 
 - Correction d'un soucis de retour si il y a un code pour la commande et que celui-ci est mauvais

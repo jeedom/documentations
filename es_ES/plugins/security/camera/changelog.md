@@ -4,6 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 07/07/2020
+
+- Corrección de un problema en el puerto predeterminado de la URL de transmisión para cámaras Foscam gracias @nebz
+- Adición de la cámara Reolink RLC-410-5MP gracias @Dorsad
+- Añadir RocketCam (Freebox) gracias @JAG
+
 # 26/06/2020
 
 - Agregar cámara Dahua

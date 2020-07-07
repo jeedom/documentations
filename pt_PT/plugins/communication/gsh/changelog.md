@@ -4,6 +4,16 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 07/07/2020
+
+>**IMPORTANTE**
+>
+>Esta atualização é importante e pode ter erros, apesar dos muitos testes realizados. Faremos tudo para corrigi-los o mais rápido possível
+
+- Redesenho do plug-in para suportar mais tipos (tenha cuidado, pode haver regressões não vistas durante a fase de teste)
+- Adição de muitos tipos
+- Adicione muitas ações / informações
+
 # 25/05/2020
 
 - Correção de um problema de devolução se houver um código para o pedido e estiver incorreto

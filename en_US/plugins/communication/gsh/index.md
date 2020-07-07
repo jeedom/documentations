@@ -268,19 +268,6 @@ The types of equipment are important this allows Google to react according to th
 >
 > Jeedom support for "beta" types not yet documented at Google so that may or may not work depending on updates at google
 
-* Light : supports switching on / off, color change, dimming....
-* Thermostat : support setpoint change and modes (in a limited way only certain mode names are authorized by Google, be careful to do the advanced configuration)
-* Outlet : On Off
-* Camera : in beta, can display the stream on an Android TV on the local network
-* Store : open / close a blind (you can reverse the direction in the advanced configuration)
-* Shutter : open / close a shutter (you can reverse the direction in the advanced configuration)
-* [Beta window] : normally supports the open / closed status of a window (for information only if I ask the question in English that it works)
-* Door [beta] : normally supports the open / closed status of a door (for information only if I ask the question in English that it works)
-* Alarm [beta] : allows you to arm / disarm the alarm (be careful you must use the term weapon / disarm for Google to do the action)
-* Lock [beta] : close / open equipment
-* TV [beta] : allows you to change the volume and channels
-* Pregnant [beta] : allows you to change the volume and stop, pause, next, previous, resume
-
 ## Scenario
 
 You can also create scenes in the scene tab, with input and output actions.

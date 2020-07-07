@@ -268,19 +268,6 @@ Die Arten der Ausrüstung sind wichtig, damit Google entsprechend den von Ihnen 
 >
 > Jeedom-Unterstützung für "Beta" -Typen, die noch nicht bei Google dokumentiert sind, sodass dies je nach Updates bei Google möglicherweise funktioniert oder nicht
 
-* Licht : unterstützt das Ein- und Ausschalten, Farbwechsel und Dimmen....
-* Thermostat : Unterstützung von Sollwertänderungen und Modi (in begrenztem Umfang werden nur bestimmte Modusnamen von Google autorisiert. Achten Sie auf die erweiterte Konfiguration)
-* Steckdose : ein / aus
-* Kamera : In der Beta kann der Stream auf einem Android-Fernseher im lokalen Netzwerk angezeigt werden
-* Speichern : Öffnen / Schließen einer Jalousie (Sie können die Richtung in der erweiterten Konfiguration umkehren)
-* Klappe : Öffnen / Schließen eines Verschlusses (Sie können die Richtung in der erweiterten Konfiguration umkehren)
-* [Beta-Fenster] : unterstützt normalerweise den Öffnungs- / Schließstatus eines Fensters (zur Information nur, wenn ich die Frage auf Englisch stelle, dass es funktioniert)
-* Tür [Beta] : unterstützt normalerweise den offenen / geschlossenen Status einer Tür (nur zur Information, wenn ich die Frage auf Englisch stelle, dass sie funktioniert)
-* Alarm [Beta] : Mit dieser Option können Sie den Alarm aktivieren / deaktivieren (achten Sie darauf, dass Sie den Begriff Waffe / Deaktivierung verwenden, damit Google die Aktion ausführt)
-* Sperre [Beta] : Geräte schließen / öffnen
-* TV [Beta] : Mit dieser Option können Sie die Lautstärke und die Kanäle ändern
-* Schwanger [Beta] : Mit dieser Option können Sie die Lautstärke ändern und anhalten, anhalten, als nächstes, vorheriges fortsetzen
-
 ## Szenario
 
 Sie können auf der Registerkarte "Szene" auch Szenen mit Eingabe- und Ausgabeaktionen erstellen.
