@@ -1,9 +1,9 @@
 # Installation auf Raspberry Pi
 
-Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-PI **mit einer SD-Karte.**. Es gibt 2 Modi :
+Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-PI **mit einer MiroSD-Karte.**. Es gibt 2 Modi :
 
-- Automatisch (Beta) : Verwendung des Bildes für Rapsberry Pi von Jeedom mit Jeeodm von vorinstalliert
-- Befehlszeile : manuelle Installation von jeedom von Raspberry pi OS
+- Automatisch (Beta) : Verwendung des Bildes für Raspberry Pi von Jeedom mit vorinstalliertem Jeedom
+- Befehlszeile : manuelle Installation von Jeedom von Raspberry Pi OS
 
 > **Wichtig**
 >
@@ -15,23 +15,25 @@ Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-
 
 [hier](https://images.jeedom.com/rpi/)
 
-## Brennen Sie dieses Bild beispielsweise mit dem Raspberry Pi Imager auf eine SD
+Mit dem Raspberry Pi Imager können Sie das Installationsimage von Raspberry Pi OS in der neuesten Version direkt herunterladen.
+
+## Brennen Sie dieses Bild beispielsweise mit dem Raspberry Pi Imager auf eine MicroSD-Karte
 
 [hier](https://www.raspberrypi.org/downloads/)
 
 ## Starten Sie den PI
 
-Legen Sie Ihre SD-Karte ein, schließen Sie das Netzwerkkabel an und schließen Sie die Stromversorgung an.
+Legen Sie Ihre MicroSD-Karte ein, schließen Sie das Netzwerkkabel an und schließen Sie die Stromversorgung an.
 
 > **Wichtig**
 >
-> Während des ersten Starts kann der Himbeer-Pi langsam sein, da er die Größe der Partition so ändert, dass sie Ihrer SD-Karte entspricht. Darüber hinaus ist es ratsam, nach dem ersten Start erneut zu starten, damit der Swap die richtige Größe hat.
+> Während des ersten Starts kann der Raspberry Pi langsam sein, da die Größe der Partition der Größe Ihrer MicroSD-Karte entspricht. Darüber hinaus ist es ratsam, nach dem ersten Start erneut zu starten, damit der Swap die richtige Größe hat.
 
-Il vous suffit ensuite dans votre navigateur de mettre : http://IP_RPI/ (en remplacent IP_RPI par l'ip de votre Raspberry pi).
+Il vous suffit ensuite, dedann votre navigateur, de saisir : http://IP_RPI/ (en remplaçant IP_RPI par l'ip de votre Raspberry Pi).
 
 > **Informationen**
 >
-> Die Standard-SSH-Verbindungs-IDs sind : jeedom und Mjeedom96 für das Passwort 
+> Die Standard-SSH-Anmeldeinformationen sind : jeedom und Mjeedom96 für das Passwort 
 
 Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)
 
@@ -41,7 +43,9 @@ Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://do
 
 [hier](https://downloads.raspberrypi.org/raspbian_lite_latest)
 
-## Brennen Sie dieses Bild beispielsweise mit dem Raspberry Pi Imager auf eine SD
+Mit dem Raspberry Pi Imager können Sie das Installationsimage von Raspberry Pi OS in der neuesten Version direkt herunterladen.
+
+## Brennen Sie dieses Bild beispielsweise mit dem Raspberry Pi Imager auf eine MiroSD-Karte
 
 [hier](https://www.raspberrypi.org/downloads/)
 
@@ -65,15 +69,15 @@ Klicken Sie einfach mit der rechten Maustaste : neues / Textdokument und benenne
 
 ![ExtensionFichier](images/ExtensionFichier.PNG)
 
-## Starten Sie den PI
+## Starten Sie den Raspberry Pi
 
-Legen Sie Ihre SD-Karte ein, schließen Sie das Netzwerkkabel an und schließen Sie die Stromversorgung an.
+Legen Sie Ihre MicroSD-Karte ein, schließen Sie das Netzwerkkabel an und schließen Sie die Stromversorgung an.
 
 ## Verbinden Sie sich in SSH
 
-Identifizieren Sie Ihren Pi im Netzwerk
+Identifizieren Sie Ihren Raspberry Pi im Netzwerk
 
-Sie müssen die IP-Adresse Ihres PI kennen. Mehrere Lösungen :
+Sie müssen die IP-Adresse Ihres Raspberry PI kennen. Viele Lösungen :
 
 -   Konsultieren Sie die DHCP-Konfiguration in Ihrem Router
 -   Verwenden Sie einen Port-Scanner vom Typ Angyipscanner" [hier](http://angryip.org/download/#windows)
@@ -82,13 +86,13 @@ Verbindung herstellen
 
 Verwenden Sie dann beispielsweise Kitt, um Ihre Verbindung herzustellen [Hier](http://www.putty.org/)
 
-Geben Sie die IP-Adresse Ihres PI ein (hier 192.168.0.10) und klicken Sie auf Öffnen. Akzeptieren Sie die Standardsicherheitsmeldung, wenn Sie sich zum ersten Mal anmelden.
+Geben Sie die IP-Adresse Ihres Raspberry Pi ein (hier 192.168.0.10) und klicken Sie auf Öffnen. Akzeptieren Sie die Standardsicherheitsmeldung, wenn Sie sich zum ersten Mal anmelden.
 
 Melden Sie sich mit Anmeldeinformationen an **Pi / Himbeere**
 
 > **Wichtig**
 >
-> Aus Sicherheitsgründen muss das Standardkennwort unbedingt geändert werden. Besonders häufig sind Fälle von Hacking, die auf der Verwendung des Standard-Login / Passwort-Paares der Himbeere basieren. (Befehl passwd und sudo passwd)
+> Aus Sicherheitsgründen muss das Standardkennwort unbedingt geändert werden. Besonders häufig sind Fälle von Hacking, die auf der Verwendung des Standard-Login / Passwort-Paares des Raspberry Pi basieren. (Befehl : passwd und sudo passwd)
 
 ## Starten Sie das Installationsskript jeedom
 
@@ -116,7 +120,7 @@ Dann gehen Sie einfach zu IP\_MACHINE\_JEEDOM
 
 ## Systemoptimierung
 
-Wenn Sie Ihre Raspberry for Jeedom ohne angeschlossenen Bildschirm verwenden, wird empfohlen, den minimalen Arbeitsspeicher im Videoteil mitzuführen.
+Wenn Sie Ihren Raspberry Pi für Jeedom ohne angeschlossenen Bildschirm verwenden, wird empfohlen, dem Videoteil mindestens RAM zuzuweisen.
 
 Einfach einloggen **SSH** und ändern Sie die Konfigurationsdatei : ``sudo nano /boot/config.txt``
 
@@ -130,6 +134,6 @@ gpu_freq=250
 
 Beenden Sie durch Speichern : ``CTRL+X`` dann ``O`` dann ``ENTER``
 
-Starten Sie Ihr RPI neu
+Starten Sie Ihren Raspberry Pi neu
 
 Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)

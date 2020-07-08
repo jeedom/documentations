@@ -1,9 +1,9 @@
 # Installation on Raspberry Pi
 
-You will find here the documentation to install Jeedom on a raspberry PI **with an SD card.**. There are 2 modes :
+You will find here the documentation to install Jeedom on a raspberry PI **with a MiroSD card.**. There are 2 modes :
 
-- Automatic (beta) : use of the image for rapsberry pi made by Jeedom with Jeeodm of preinstalled on it
-- Command line : manual installation of jeedom from Raspberry pi OS
+- Automatic (beta) : use of the image for Raspberry Pi made by Jeedom with Jeedom preinstalled on it
+- Command line : manual installation of Jeedom from Raspberry Pi OS
 
 > **Important**
 >
@@ -15,23 +15,25 @@ You will find here the documentation to install Jeedom on a raspberry PI **with 
 
 [here](https://images.jeedom.com/rpi/)
 
-## Burn this image on a SD with Raspberry Pi imager for example
+Raspberry Pi imager allows you to directly download the installation image of Raspberry Pi OS, in its most recent version.
+
+## Burn this image on a MicroSD card with Raspberry Pi imager for example
 
 [here](https://www.raspberrypi.org/downloads/)
 
 ## Start the PI
 
-Insert your SD card, connect the network cable, connect the power.
+Insert your MicroSD card, connect the network cable and connect the power.
 
 > **Important**
 >
-> During the first start-up the raspberry pi can be slow because it resizes the partition to correspond to your SD card. In addition, once the first start is made it is advisable to restart again so that the swap is of correct size.
+> During the first startup the Raspberry Pi can be slow because it resizes the partition to match the size of your MicroSD card. In addition, once the first start is made, it is advisable to restart again so that the Swap is of correct size.
 
-Il vous suffit ensuite dans votre navigateur de mettre : http://IP_RPI/ (en remplacent IP_RPI par l'ip de votre Raspberry pi).
+Il vous suffit ensuite, dethen votre navigateur, de saisir : http://IP_RPI/ (en remplaçant IP_RPI par l'ip de votre Raspberry Pi).
 
 > **Information**
 >
-> The default ssh connection IDs are : jeedom and Mjeedom96 for the password 
+> The default SSH login credentials are : jeedom and Mjeedom96 for the password 
 
 Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)
 
@@ -41,7 +43,9 @@ Then you can follow the documentation [First step with Jeedom](https://doc.jeedo
 
 [here](https://downloads.raspberrypi.org/raspbian_lite_latest)
 
-## Burn this image on a SD with Raspberry Pi imager for example
+Raspberry Pi imager allows you to directly download the installation image of Raspberry Pi OS, in its most recent version.
+
+## Burn this image on a MiroSD card with Raspberry Pi imager for example
 
 [here](https://www.raspberrypi.org/downloads/)
 
@@ -65,15 +69,15 @@ Just right click : new / text document and rename it to "ssh" **without extensio
 
 ![ExtensionFichier](images/ExtensionFichier.PNG)
 
-## Start the PI
+## Start the Raspberry Pi
 
-Insert your SD card, connect the network cable, connect the power.
+Insert your MicroSD card, connect the network cable and connect the power.
 
 ## Connect in SSH
 
-Identify your Pi on the network
+Identify your Raspberry Pi on the network
 
-You need to know the IP address of your PI. Many solutions :
+You need to know the IP address of your Raspberry PI. Many solutions :
 
 -   Consult the DHCP configuration in your router
 -   Use an angyipscanner type port scanner" [here](http://angryip.org/download/#windows)
@@ -82,13 +86,13 @@ Establish connection
 
 Then use for example putty to establish your connection [Here](http://www.putty.org/)
 
-Enter the IP address of your PI (here 192.168.0.10) and click on open. Accept the default security message when logging in for the first time.
+Enter the IP address of your Raspberry Pi (here 192.168.0.10) and click on open. Accept the default security message when logging in for the first time.
 
 Log in with credentials **pi / raspberry**
 
 > **Important**
 >
-> For security reasons, it is imperative to change the default password. Cases of hacking based on the use of the default login / password pair of the Raspberry are particularly widespread. (passwd and sudo passwd command)
+> For security reasons, it is imperative to change the default password. Cases of hacking based on the use of the default login / password pair of the Raspberry Pi are particularly widespread. (Command : passwd and sudo passwd)
 
 ## Launch the jeedom installation script
 
@@ -116,7 +120,7 @@ Then just go to IP\_MACHINE\_JEEDOM
 
 ## System optimization
 
-If you use your Raspberry for Jeedom without a screen connected, it is recommended to carry the minimum RAM at the video part.
+If you use your Raspberry Pi for Jeedom without a screen connected, it is recommended to allocate the minimum of RAM to the video part.
 
 Just log in **SSH** and modify the config file : ``sudo nano /boot/config.txt``
 
@@ -130,6 +134,6 @@ gpu_freq=250
 
 Quit by saving : ``CTRL+X`` then ``O`` then ``ENTER``
 
-Reboot your RPI
+Reboot your Raspberry Pi
 
 Then you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)
