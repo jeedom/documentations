@@ -1,9 +1,9 @@
 # Installation sur Raspberry Pi
 
-Vous trouverez ici la documentation pour installer Jeedom sur un raspberry PI **avec une carte SD.**. Il existe 2 modes :
+Vous trouverez ici la documentation pour installer Jeedom sur un raspberry Pi **avec une carte MiroSD.**. Il existe 2 modes :
 
-- Automatique (beta) : utilisation de l'image pour rapsberry pi faite par Jeedom avec Jeeodm de preinstallé dessus
-- Ligne de commande : installation manuel de jeedom à partir de Raspberry pi OS
+- Automatique (bêta) : utilisation de l'image pour Raspberry Pi faite par Jeedom avec Jeedom de préinstallé dessus
+- Ligne de commande : installation manuelle de Jeedom à partir de Raspberry Pi OS
 
 > **Important**
 >
@@ -11,37 +11,41 @@ Vous trouverez ici la documentation pour installer Jeedom sur un raspberry PI **
 
 # Installation automatique
 
-## Télécharger le dernière image
+## Télécharger la dernière image
 
 [ici](https://images.jeedom.com/rpi/)
 
-## Gravez cette image sur une SD avec Raspberry Pi imager par exemple
+Raspberry Pi imager permet de télécharger directement l'image d'installation de Raspberry Pi OS, dans sa version la plus récente.
+
+## Gravez cette image sur une carte MicroSD avec Raspberry Pi imager par exemple
 
 [ici](https://www.raspberrypi.org/downloads/)
 
 ## Démarrer le PI
 
-Insérez votre carte SD, branchez le cable réseau, branchez l’alimentation.
+Insérez votre carte MicroSD, branchez le câble réseau et branchez l’alimentation.
 
 > **Important**
 >
-> Lors du premiers démarrage le raspberry pi peut etre lent car il redimensionne la partition pour correspondre à votre carte SD. De plus une fois le 1er demarrage fait il est conseillé de redemarrer à nouveau pour que le swap soit de taille correct.
+> Lors du premiers démarrage le Raspberry Pi peut être lent car il redimensionne la partition pour correspondre à la taille de votre carte MicroSD. De plus, une fois le 1er démarrage fait, il est conseillé de redémarrer à nouveau pour que le Swap soit de taille correcte.
 
-Il vous suffit ensuite dans votre navigateur de mettre : http://IP_RPI/ (en remplacent IP_RPI par l'ip de votre Raspberry pi).
+Il vous suffit ensuite, depuis votre navigateur, de saisir : http://IP_RPI/ (en remplaçant IP_RPI par l'ip de votre Raspberry Pi).
 
 > **Information**
 >
-> Les identifiant de connection ssh par defaut sont : jeedom et Mjeedom96 pour le mot de passe 
+> Les identifiants de connexion SSH par défaut sont : jeedom et Mjeedom96 pour le mot de passe 
 
 Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
 
 # Installation en ligne de commande
 
-## Télécharger le dernière image "lite"
+## Télécharger la dernière image "lite"
 
 [ici](https://downloads.raspberrypi.org/raspbian_lite_latest)
 
-## Gravez cette image sur une SD avec Raspberry Pi imager par exemple
+Raspberry Pi imager permet de télécharger directement l'image d'installation de Raspberry Pi OS, dans sa version la plus récente.
+
+## Gravez cette image sur une carte MiroSD avec Raspberry Pi imager par exemple
 
 [ici](https://www.raspberrypi.org/downloads/)
 
@@ -55,25 +59,25 @@ Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://d
 >
 > Pour des raisons de sécurité, l’accès SSH n’est plus activé par défaut sur cette distribution. Il faut donc l’activer.
 
-Il faut créer sur la partition boot (la seule accessible sous windows) un fichier ssh vide.
+Il faut créer sur la partition boot (la seule accessible sous Windows) un fichier ssh vide.
 
 Il suffit de faire un clic droit : nouveau / document texte et le renommer en "ssh" **sans extension**
 
 > **Important**
 >
-> Sous windows, dans l’explorateur il faut donc vérifier votre paramétrage dans affichage / options / modifier les options de dossiers et de recherche /
+> Sous Windows, dans l’explorateur il faut donc vérifier votre paramétrage dans affichage / options / modifier les options de dossiers et de recherche /
 
 ![ExtensionFichier](images/ExtensionFichier.PNG)
 
-## Démarrer le PI
+## Démarrer le Raspberry Pi
 
-Insérez votre carte SD, branchez le cable réseau, branchez l’alimentation.
+Insérez votre carte MicroSD, branchez le câble réseau et branchez l’alimentation.
 
 ## Se connecter en SSH
 
-Identifiez votre Pi sur le réseau
+Identifiez votre Raspberry Pi sur le réseau
 
-Il faut connaître l’adresse Ip de votre PI. Plusieurs solutions :
+Il faut connaître l’adresse Ip de votre Raspberry PI. Plusieurs solutions :
 
 -   Consultez la configuration DHCP dans votre routeur
 -   Utilisez un scanner de port type "angyipscanner" [ici](http://angryip.org/download/#windows)
@@ -82,13 +86,13 @@ Etablir la connexion
 
 Ensuite utilisez par exemple putty pour établir votre connexion [Ici](http://www.putty.org/)
 
-Rentrer l’adresse de Ip de votre PI (ici 192.168.0.10) et cliquez sur open. Accepter le message par défaut relatif à la sécurité lors de la première connexion.
+Rentrer l’adresse de Ip de votre Raspberry Pi (ici 192.168.0.10) et cliquez sur open. Accepter le message par défaut relatif à la sécurité lors de la première connexion.
 
 Connectez-vous avec les identifiants **pi / raspberry**
 
 > **Important**
 >
-> Pour des raisons de sécurité, il est impératif de modifier le mot de passe par défaut. Les cas de piratages basés sur l’exploitation du couple login/mot de passe par défaut du Raspberry sont particulièrement répandus. (commande passwd et sudo passwd)
+> Pour des raisons de sécurité, il est impératif de modifier le mot de passe par défaut. Les cas de piratages basés sur l’exploitation du couple login/mot de passe par défaut du Raspberry Pi sont particulièrement répandus. (commande : passwd et sudo passwd)
 
 ## Lancer le script d’installation jeedom
 
@@ -114,9 +118,9 @@ Il vous suffit ensuite d’aller sur IP\_MACHINE\_JEEDOM
 ./install.sh -w /var/www/html -z
 ````
 
-## Optimisation système
+## Optimisation du système
 
-Si vous utilisez votre Raspberry pour Jeedom sans écran connecté, il est recommandé d'effectuer le minimum de RAM à la partie vidéo.
+Si vous utilisez votre Raspberry Pi pour Jeedom sans écran connecté, il est recommandé d'affecter le minimum de RAM à la partie vidéo.
 
 Il suffit de se connecter en **SSH** et de modifier le fichier config : ``sudo nano /boot/config.txt``
 
@@ -130,6 +134,6 @@ gpu_freq=250
 
 Quittez en sauvegardant : ``CTRL+X`` puis ``O`` puis ``ENTER``
 
-Rebootez votre RPI
+Rebootez votre Raspberry Pi
 
 Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
