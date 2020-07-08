@@ -4,7 +4,7 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 5/06/2020
+# 07/05/2020
 
 Danke an arnog23 für die Hilfe.
 - Korrekturübergang vom alten zum neuen WES-Plugin

@@ -4,7 +4,7 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 5/06/2020
+# 07/05/2020
 
 Thanks to arnog23 for the help.
 - Correction transition from old plugin to new WES plugin

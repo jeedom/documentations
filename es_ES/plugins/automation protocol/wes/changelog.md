@@ -4,7 +4,7 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-# 06/05/2020
+# 05/07/2020
 
 Gracias a arnog23 por la ayuda.
 - Corrección de transición del antiguo complemento al nuevo complemento WES
