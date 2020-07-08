@@ -334,6 +334,6 @@ All you have to do is assign the equipment to the rooms in the Google Home app
 >
 >Just click on the NOK a window will tell you the generic type to have on the equipment controls for it to work
 
->**The demon / dependencies are in NOK**
+>**Changing the speed on a fan does not work**
 >
->It does not matter it should not be taken care of it is not used in any case for the functioning of the plugin for the moment (it is useful for us just to pass the Google validation)
+>After analysis Google does not send an order during an action on speed. We must therefore wait for Google to correct

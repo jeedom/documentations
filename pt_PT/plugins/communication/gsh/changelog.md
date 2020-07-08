@@ -8,6 +8,10 @@
 
 >**IMPORTANTE**
 >
+>Você DEVE ABSOLUTAMENTE solicitar a sincronização do equipamento e enviar a configuração de volta ao mercado da Jeedom para que o plugin funcione
+
+>**IMPORTANTE**
+>
 >Esta atualização é importante e pode ter erros, apesar dos muitos testes realizados. Faremos tudo para corrigi-los o mais rápido possível
 
 - Redesenho do plug-in para suportar mais tipos (tenha cuidado, pode haver regressões não vistas durante a fase de teste)

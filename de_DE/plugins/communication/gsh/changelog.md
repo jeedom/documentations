@@ -8,6 +8,10 @@
 
 >**Wichtig**
 >
+>Sie MÜSSEN ABSOLUT die Synchronisierung der Geräte anfordern und die Konfiguration von Jeedom an den Markt zurücksenden, damit das Plugin funktioniert
+
+>**Wichtig**
+>
 >Dieses Update ist schwerwiegend und kann trotz der vielen durchgeführten Tests Fehler aufweisen. Wir werden alles tun, um sie so schnell wie möglich zu korrigieren
 
 - Neugestaltung des Plugins zur Unterstützung weiterer Typen (Vorsicht, während der Testphase können keine Regressionen auftreten)

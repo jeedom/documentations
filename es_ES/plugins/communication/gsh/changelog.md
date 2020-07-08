@@ -8,6 +8,10 @@
 
 >**Importante**
 >
+>DEBE ABSOLUTAMENTE solicitar la sincronización del equipo y enviar la configuración al mercado desde Jeedom para que el complemento funcione
+
+>**Importante**
+>
 >Esta actualización es importante y puede tener errores a pesar de las muchas pruebas realizadas. Haremos todo lo posible para corregirlos lo más rápido posible
 
 - Rediseño del complemento para admitir más tipos (tenga cuidado porque puede haber regresiones no vistas durante la fase de prueba)

@@ -8,6 +8,10 @@
 
 >**Important**
 >
+>You MUST ABSOLUTELY request equipment synchronization and send the configuration back to the market from Jeedom for the plugin to work
+
+>**Important**
+>
 >This update is major and may have bugs despite the many tests performed. We will do everything to correct them as quickly as possible
 
 - Redesign of the plugin to support more types (be careful there may be regressions not seen during the test phase)

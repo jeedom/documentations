@@ -334,6 +334,6 @@ Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 >
 >Klicken Sie einfach auf NOK. In einem Fenster wird der generische Typ angezeigt, den Sie auf den Gerätesteuerungen haben müssen, damit er funktioniert
 
->**Die Dämonen / Abhängigkeiten sind in NOK**
+>**Das Ändern der Drehzahl eines Lüfters funktioniert nicht**
 >
->Es spielt keine Rolle, dass nicht darauf geachtet werden sollte, dass es momentan auf keinen Fall für die Funktion des Plugins verwendet wird (es ist nützlich, nur die Google-Validierung zu bestehen)
+>Nach der Analyse sendet Google während einer Aktion zur Geschwindigkeit keine Bestellung. Wir müssen daher warten, bis Google korrigiert

@@ -334,6 +334,6 @@ Il ne vous reste plus qu'a faire l'affectation des équipements aux pieces dans 
 >
 >Cliquez simplement sur le NOK une fenetre vous dira les generique type a avoir sur les commandes de l'équipement pour que cela marche
 
->**Le demon/les dépendances sont en NOK**
+>**Le changement de vitesse sur un ventilateur ne marche pas**
 >
->Ce n'est pas grave il ne faut pas s'en occupe ca ne sert en aucun cas au fonctionnement du plugin pour le moment (ca nous sert en faite juste pour passer la validation Google)
+>Après analyse Google n'envoi pas d'ordre lors d'une action sur la vitesse. Il faut donc attendre que Google corrige

@@ -334,6 +334,6 @@ Tudo o que você precisa fazer é atribuir o equipamento às salas no aplicativo
 >
 >Basta clicar no NOK, uma janela informará o tipo genérico a ser usado nos controles do equipamento para que funcione
 
->**Os demônios / dependências estão em NOK**
+>**Alterar a velocidade de um ventilador não funciona**
 >
->Não importa se não deve ser cuidado, pois não é usado em nenhum caso para o funcionamento do plug-in no momento (é útil passarmos na validação do Google)
+>Após a análise, o Google não envia um pedido durante uma ação em velocidade. Portanto, devemos esperar que o Google corrija
