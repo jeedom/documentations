@@ -4,6 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 10/07/2020
+
+- Correção de um bug no gerenciamento de repetições
+- Possibilidade de definir um tempo fixo para o terminal min / max para o nascer / pôr do sol
+
 # 14/11/2019
 
 - Correções de bugs

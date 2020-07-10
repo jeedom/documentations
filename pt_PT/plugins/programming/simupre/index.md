@@ -1,6 +1,6 @@
 # Plugin de simulação de presença
 
-Este plug-in permite simular facilmente uma presença na casa quando você estiver ausente de uma maneira credível (tempo e duração aleatória dos eventos)
+Este plug-in permite simular facilmente uma presença na casa quando você estiver ausente de maneira credível (tempo e duração aleatória dos eventos)
 
 Você pode encontrar [aqui](https://blog.jeedom.com/4266-simulation-de-presence/) um artigo mostrando um exemplo de configuração do plug-in
 
@@ -28,9 +28,9 @@ Na segunda aba, você encontrará a configuração das simulações :
 - ações de entrada : são feitos ao iniciar a simulação
 - ações de saída (opcional) : são feitos no final da simulação
 - horários e durações de início :
-  - o horário de início pode ser fixado entre 2 terminais (entre 18h30 e 19h30, por exemplo, o plug-in escolherá um horário aleatório entre os dois terminais todos os dias)
-  - o horário de início pode ser relativo ao nascer do sol (por exemplo, de -20, por 20 minutos antes a 30, por 30 minutos depois)
-  - o horário de início pode ser relativo ao pôr do sol (por exemplo, de -10, por 10 minutos antes a 15, por 15 minutos depois)
+  - a hora de início pode ser fixada entre 2 terminais (entre 18:30 e 19:30, por exemplo, o plugin escolherá um horário aleatório entre os dois terminais por dia)
+  - o horário de início pode ser relativo ao nascer do sol (por exemplo, de -20 a 20 minutos antes de 30, 30 minutos depois ou 6:00 e 30min para ter algo que começa entre 6h00 e 30min após o nascer do sol)
+  - o horário de início pode ser relativo ao pôr do sol (por exemplo, de -10, por 10 minutos antes a 15, por 15 minutos após)
 - uma duração ou uma hora final
   - se for uma duração, basta colocar 20 no mínimo e 40 no máximo por uma duração aleatória entre 20 e 40 min
   - para um horário de término fixo entre 19h05 e 19h35, você deve definir 19:05 em min e 19:35 max

@@ -28,8 +28,8 @@ Dans le second onglet vous allez retrouver la configuration des simulations :
 - des actions d'entrées : se font lors du lancement de la simulation
 - des action de sorties (optionnelles) : se font lors de la fin de la simulation
 - des heures de début et des durées :
-  - l'heure de début peut être fixe entre 2 bornes (entre 18h30 et 19h30 par exemple, le plugin choisira chaque jour une heure aléatoire entre les deux bornes)
-  - l'heure de début peut être par rapport au lever du soleil (par exemple de -20, pour 20 minutes avant à 30, pour 30 minutes après)
+  - l'heure de début peut être fixe entre 2 bornes (entre 18:30 et 19:30 par exemple, le plugin choisira chaque jour une heure aléatoire entre les deux bornes)
+  - l'heure de début peut être par rapport au lever du soleil (par exemple de -20, pour 20 minutes avant à 30, pour 30 minutes après, ou 6:00 et 30min pour avoir quelque chose qui commence entre 6h00 et 30min après le levé du soleil)
   - l'heure de début peut être par rapport au coucher du soleil (par exemple de -10, pour 10 minutes avant à 15, pour 15 minutes après)
 - une durée ou une heure de fin
   - si c'est une durée il vous suffit de mettre 20 en minimun et 40 en maximum pour une durée aléatoire entre 20 et 40 min

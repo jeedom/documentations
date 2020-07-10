@@ -1,6 +1,6 @@
 # Präsenzsimulations-Plugin
 
-Mit diesem Plugin können Sie auf einfache Weise eine Präsenz im Haus simulieren, wenn Sie glaubwürdig abwesend sind (Zeit und zufällige Dauer von Ereignissen)
+Mit diesem Plugin können Sie auf einfache Weise eine Präsenz im Haus simulieren, wenn Sie glaubwürdig abwesend sind (Zeit und zufällige Dauer von Ereignissen))
 
 Sie können finden [hier](https://blog.jeedom.com/4266-simulation-de-presence/) Ein Artikel mit einer Beispielkonfiguration des Plugins
 
@@ -28,13 +28,13 @@ Auf der zweiten Registerkarte finden Sie die Konfiguration der Simulationen :
 - Eingabeaktionen : werden beim Starten der Simulation ausgeführt
 - Ausgabeaktionen (optional) : werden am Ende der Simulation durchgeführt
 - Startzeiten und -dauern :
-  - Die Startzeit kann zwischen 2 Terminals festgelegt werden (zwischen 18:30 Uhr und 19:30 Uhr wählt das Plugin beispielsweise jeden Tag eine zufällige Zeit zwischen den beiden Terminals)
-  - Die Startzeit kann relativ zum Sonnenaufgang sein (z. B. von -20 für 20 Minuten vor bis 30 für 30 Minuten danach)
+  - Die Startzeit kann zwischen 2 Klemmen (zwischen 18) festgelegt werden:30 und 19:Beispielsweise wählt das Plugin jeden Tag eine zufällige Zeit zwischen den beiden Terminals)
+  - Die Startzeit kann relativ zum Sonnenaufgang sein (z. B. von -20 für 20 Minuten vor bis 30, für 30 Minuten nach oder 6:00 und 30 Minuten, um etwas zu haben, das zwischen 6 Uhr und 30 Minuten nach Sonnenaufgang beginnt)
   - Die Startzeit kann relativ zum Sonnenuntergang sein (z. B. von -10 für 10 Minuten vor bis 15 für 15 Minuten danach)
 - eine Dauer oder eine Endstunde
   - Wenn es sich um eine Dauer handelt, müssen Sie für eine zufällige Dauer zwischen 20 und 40 Minuten nur mindestens 20 und maximal 40 eingeben
   - Für eine feste Endzeit zwischen 19:05 und 19:35 ist es notwendig, 19 zu setzen:05 in min und 19:35 max
-- Probe : Mit dieser Option können Sie die Start- / Endaktion über den Zeitraum X-mal wiederholen (beachten Sie, dass der Zeitraum größer als 2 Minuten sein muss. Sie können beispielsweise bei einer Simulation mit einer Dauer von 5 Minuten keine 5 Wiederholungen durchführen.). Es wird empfohlen, nicht mehr als 5 zu wiederholen, da das System sie möglicherweise nicht ausführt
+- Probe : Mit dieser Option können Sie die Start- / Endaktion über den Zeitraum X-mal wiederholen (beachten Sie, dass der Zeitraum größer als 2 Minuten sein muss. Sie können beispielsweise bei einer Simulation mit einer Dauer von 5 Minuten keine 5 Wiederholungen durchführen). Es wird empfohlen, nicht mehr als 5 zu wiederholen, da das System sie möglicherweise nicht ausführt
 
 >**Notiz**
 >

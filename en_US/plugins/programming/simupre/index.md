@@ -28,8 +28,8 @@ In the second tab you will find the configuration of the simulations :
 - input actions : are done when launching the simulation
 - output actions (optional) : are done at the end of the simulation
 - start times and durations :
-  - the start time can be fixed between 2 terminals (between 6:30 p.m. and 7:30 p.m. for example, the plugin will choose a random time between the two terminals each day)
-  - start time can be relative to sunrise (for example from -20, for 20 minutes before to 30, for 30 minutes after)
+  - the start time can be fixed between 2 terminals (between 18:30 and 19:30 for example, the plugin will choose a random time between the two terminals each day)
+  - the start time can be relative to sunrise (for example from -20, for 20 minutes before to 30, for 30 minutes after, or 6:00 and 30min to have something that starts between 6h00 and 30min after sunrise)
   - the start time can be relative to sunset (for example from -10, for 10 minutes before to 15, for 15 minutes after)
 - a duration or an end hour
   - if it is a duration you just have to put 20 in minimum and 40 in maximum for a random duration between 20 and 40 min

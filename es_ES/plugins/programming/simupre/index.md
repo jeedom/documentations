@@ -28,13 +28,13 @@ En la segunda pestaña encontrarás la configuración de las simulaciones :
 - acciones de entrada : se realizan al iniciar la simulación
 - acciones de salida (opcional) : se hacen al final de la simulación
 - tiempos de inicio y duraciones :
-  - la hora de inicio se puede fijar entre 2 terminales (entre las 6:30 p.m. y las 7:30 p.m., por ejemplo, el complemento elegirá una hora aleatoria entre las dos terminales cada día)
-  - la hora de inicio puede ser relativa a la salida del sol (por ejemplo, desde -20, durante 20 minutos antes hasta 30, durante 30 minutos después)
-  - el tiempo de inicio puede ser relativo al ocaso (por ejemplo, desde -10, durante 10 minutos antes hasta 15, durante 15 minutos después)
+  - el tiempo de inicio se puede fijar entre 2 terminales (entre 18:30 y 19:30 por ejemplo, el complemento elegirá un tiempo aleatorio entre las dos terminales cada día)
+  - la hora de inicio puede ser relativa al amanecer (por ejemplo, desde -20, durante 20 minutos antes hasta 30, durante 30 minutos después, o 6:00 y 30 minutos para tener algo que comienza entre las 6:00 y los 30 minutos después del amanecer)
+  - la hora de inicio puede ser relativa a la puesta del sol (por ejemplo, desde -10, durante 10 minutos antes hasta 15, durante 15 minutos después)
 - una duración o una hora de finalización
   - si es una duración, solo tiene que poner 20 en mínimo y 40 en máximo para una duración aleatoria entre 20 y 40 minutos
   - para una hora de finalización fija entre las 7:05 p.m. y las 7:35 p.m., debe establecer 19:05 en min y 19:35 máx
-- Ensayo : le permite repetir X veces la acción de inicio / finalización durante el período (tenga en cuenta que el período debe ser superior a 2 minutos, no puede hacer 5 repeticiones en una simulación de duración de 5 minutos, por ejemplo). Importante, se recomienda no poner más de 5 en repetición, más allá del sistema puede no ejecutarlos
+- Ensayo : le permite repetir X veces la acción de inicio / finalización durante el período (tenga en cuenta que el período debe ser superior a 2 minutos, no puede hacer 5 repeticiones en una simulación de 5 minutos de duración, por ejemplo). Importante, se recomienda no poner más de 5 en repetición, más allá del sistema puede no ejecutarlos
 
 >**Nota**
 >

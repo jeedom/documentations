@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 10/07/2020
+
+- Corrección de un error en el manejo de repeticiones
+- Posibilidad de establecer una hora fija para el terminal min / max para el amanecer / atardecer
+
 # 11/14/2019
 
 - Correcciones de errores

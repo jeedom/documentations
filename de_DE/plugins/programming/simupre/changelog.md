@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 07/10/2020
+
+- Behebung eines Fehlers bei der Verwaltung von Wiederholungen
+- Möglichkeit, eine feste Zeit für das Min / Max-Terminal für Sonnenaufgang / Sonnenuntergang einzustellen
+
 # 2019.11.14
 
 - Fehlerbehebungen

@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 07/10/2020
+
+- Correction of a bug on the management of repetitions
+- Possibility of setting a fixed time for the min / max terminal for sunrise / sunset
+
 # 11/14/2019
 
 - Bugfix
