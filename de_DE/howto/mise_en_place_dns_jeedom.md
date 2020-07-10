@@ -42,7 +42,7 @@ Jeedom startet das DNS und gibt Ihnen Ihre Zugangs-URL zu Ihrem Jeedom
 
 > **Wichtig**
 >
-> Sie können diese URL ändern, indem Sie zu Ihrer Marktprofilseite und dann zu meinen Jeedoms gehen. Bitte beachten Sie, dass jede Änderung 24 Stunden dauert, bevor sie wirksam wird
+> Sie können diese URL ändern, indem Sie auf die Seite mit Ihren Marktprofilen und dann auf die Registerkarte "Meine Dienste" klicken und unter "Einfacher Fernzugriff" auf Konfiguration klicken. Im DNS-Feld können Sie sie anpassen. Nach der Registrierung müssen Sie DNS in Jeedom neu starten (System -> Anpassung -> Konfiguration, dann die Registerkarte Netzwerke und im Abschnitt "DNS (Proxy) Market" neu starten")
 
 Hier ist Ihr Jeedom von außen in https zugänglich
 
@@ -50,7 +50,7 @@ Hier ist Ihr Jeedom von außen in https zugänglich
 
 > **Muss ich Ports an meiner Box öffnen?**
 >
-> Nein, es ist nicht erforderlich, einen Port von Ihrer Internetbox zu Ihrem Jeedom zu öffnen. Die Verbindung erfolgt in Richtung Jeedom -> VPN, es handelt sich also um eine ausgehende Verbindung (an den Ports 1194, 1195, 1996 und 1997) und nicht um eine eingehende Verbindung.
+> Nein, es ist nicht erforderlich, einen Port von Ihrer Internetbox zu Ihrem Jeedom zu öffnen. Die Verbindung befindet sich in Richtung Jeedom -> VPN, es handelt sich also um eine ausgehende Verbindung (an den Ports 1194, 1195, 1996, 1997, 1198, 1199, 2000 und 2001) und nicht um eine eingehende Verbindung.
 
 > **Warum Jeedom DNS meinen Zugriff darauf schützt**
 >
