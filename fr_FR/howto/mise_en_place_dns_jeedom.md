@@ -50,7 +50,7 @@ Voilà votre Jeedom est accessible de l'exterieure en https
 
 > **Y a-t-il besoin d'ouvrir des ports sur ma box**
 >
-> Non il n'y a pas besoin d'ouvrir de port de votre box internet vers votre Jeedom. La connexion est dans le sens Jeedom -> VPN, c'est donc une connexion sortante (sur les ports 1194,1195,1996 et 1997) et non une connexion entrante.
+> Non il n'y a pas besoin d'ouvrir de port de votre box internet vers votre Jeedom. La connexion est dans le sens Jeedom -> VPN, c'est donc une connexion sortante (sur les ports 1194,1195,1996,1997,1198,1199,2000 et 2001) et non une connexion entrante.
 
 > **Pourquoi le DNS Jeedom protège mon accès à celui-ci**
 >
