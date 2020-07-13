@@ -13,4 +13,4 @@ Anwendungsfälle können sein :
 
 >**Wichtig**
 >
->Zur Erinnerung: Die Designs verwenden IMMER die Dashboard-Version des Codes (ob auf Mobilgeräten oder auf dem Desktop)
+>Zur Erinnerung: Entwürfe verwenden IMMER die Dashboard-Version des Codes (ob auf Mobilgeräten oder auf dem Desktop))

@@ -13,4 +13,4 @@ Use cases can be :
 
 >**Important**
 >
->As a reminder, the designs ALWAYS use the dashboard version of the code (whether on mobile or desktop)
+>As a reminder, designs ALWAYS use the dashboard version of the code (whether on mobile or desktop)

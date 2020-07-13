@@ -13,4 +13,4 @@ Os casos de uso podem ser :
 
 >**IMPORTANTE**
 >
->Como lembrete, os designs SEMPRE usam a versão do painel do código (seja no celular ou no computador)
+>Como lembrete, os designs SEMPRE usam a versão do código do painel (seja no celular ou no computador))
