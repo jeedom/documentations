@@ -1,7 +1,5 @@
 # Tragen Sie zur Entwicklung des Kerns bei
 
-*In Bearbeitung*
-
 Sie möchten zur Entwicklung des Jeedom Core beitragen ?
 
 - Sie können PRs machen (*Anfragen ziehen*) Auf dem *Repository* vom Kern.
@@ -20,7 +18,7 @@ Der Kerncode ist Open Source und verfügbar [hier](https://github.com/jeedom/cor
 - **Veröffentlichung** : Geben Sie den Kandidatenzweig von V3 frei. Nur für Bugfixes.
 - **Meister** : Zweig der stabilen Version V3. Nur für Bugfixes.
 
-Aktualisierungen werden in diesen Zweigen abhängig von der Konfiguration von Jeedom durchgeführt **Einstellungen → System → Konfiguration / Updates / Markt**
+Aktualisierungen werden in diesen Zweigen abhängig von der Konfiguration von Jeedom durchgeführt **Einstellungen → System → Konfiguration / Updates / Markt**.
 
 PRs (*Anfragen ziehen*) sollte immer auf dem Alpha-Zweig durchgeführt werden.
 
@@ -123,7 +121,7 @@ Die Datei `desktop / common / js / utils.js` ist daher immer vorhanden und wird 
 - Verwalten Sie einen möglichen Themenwechsel entsprechend der Zeit.
 - Ermöglichen Sie verschiedenen js-Dateien den Zugriff auf allgemeine Funktionen.
 
-Also der Index.PHP und die Utensilien.js liefern die Grundstruktur und Funktionen der Schnittstelle.
+Also der Index.PHP und die Utensilien.js bieten die grundlegende Struktur und Funktionen der Schnittstelle.
 Anschließend wird der Inhalt der aufgerufenen Seite von desktop / php / page geladen.PHP und Desktop / js / page.js.
 Diese rein schnittstellenorientierten Inhaltsdateien können direkt in PHP oder dank der js-Klassen (`/ core / js`) über Ajax-Aufrufe auf Core-Funktionen (die` / core / class`-Klassen) zugreifen (`/ core / ajax`).
 
@@ -131,7 +129,7 @@ Die internen Funktionen des Core sind somit für den internen Betrieb (Back-End)
 
 ### Mobile
 
-Die Desktop-Oberfläche reagiert und passt sich der Größe des Browsers an. Einige Dinge, wie das Bearbeiten eines Drehbuchs, wären jedoch auf einem kleinen Bildschirm kompliziert. Darüber hinaus ist es bei einem Smartphone im Freien, in 3G oder sogar 4G, wichtig, die Geschwindigkeit des Displays zu optimieren. Aus diesem Grund verfügt Jeedom über eine leichtere mobile Oberfläche, die für kleine Bildschirme geeignet ist.
+Die Desktop-Oberfläche reagiert und passt sich der Größe des Browsers an. Einige Dinge, wie das Bearbeiten eines Skripts, wären jedoch auf einem kleinen Bildschirm kompliziert. Darüber hinaus ist es bei einem Smartphone im Freien, in 3G oder sogar 4G, wichtig, die Geschwindigkeit des Displays zu optimieren. Aus diesem Grund verfügt Jeedom über eine leichtere mobile Oberfläche, die für kleine Bildschirme geeignet ist.
 
 Die Referenzseite lautet `/ mobile / html / index.html`, die sich darum kümmert :
 - Überprüfen Sie die Benutzerauthentifizierung.
@@ -151,10 +149,43 @@ Ein bemerkenswerter Unterschied bei Mobile ist das Fehlen von PHP-Seiten. Die Ge
 
 ### Verweise
 
-
+*In Bearbeitung*
 
 
 
 ## Back-end
 
 *In Bearbeitung*
+
+Die Schnittstelle ist eine Sache, aber natürlich ist Ihr Jeedom immer aktiv, um die Szenarien, die Crones, die Protokolle, die Historien usw. auszuführen.
+
+Das Back-End basiert auf denselben PHP-Klassen wie das Front-End, das in `/ core / class /` vorhanden ist. Jeder Teil von Jeedom hat insbesondere seine PHP-Klasse :
+
+- jeeObject.class.php : Gruppiert Funktionen in Bezug auf Jeedom-Objekte.
+- eqLogic.class.php : Kombiniert Funktionen für Jeedom-Geräte.
+- cmd.class.php : Kombiniert Funktionen in Bezug auf Jeedom-Befehle.
+- cron.class.php : Kombiniert Funktionen in Bezug auf die geplanten Aufgaben von Jeedom.
+- Config.class.php : Gruppiert Funktionen in Bezug auf Jeedom-Konfigurationsparameter.
+- Szenario.Klasse.php : Kombiniert die Funktionen in Bezug auf Jeedom-Szenarien.
+- DB.class.php : Kombiniert alle Jeedom-Datenbankzugriffsfunktionen. Der gesamte SQL-Zugriff, der von den anderen Klassen benötigt wird, wird von dieser verwaltet.
+
+etc.
+
+## Documentation
+
+Über die reine Entwicklung des Kerns hinaus können Sie auch an der Dokumentation von Jeedom teilnehmen.
+
+Dies kann in `docs / fr_FR /` gefunden werden. Sie können PRs machen (*Anfragen ziehen*) auf Dateien .md, vorzugsweise auf dem Alpha-Zweig.
+
+Die Übersetzungen sind in den anderen Sprachdateien vorhanden. Das Verzeichnis `docs / i18n /` enthält Dateien .json by language für die Übersetzung der Zeichenketten der Core-Schnittstelle selbst.
+
+Diese werden automatisch von einem Jeedom-spezifischen Übersetzungssystem generiert. Es besteht daher keine Notwendigkeit, Änderungen daran vorzunehmen, da diese vom System überschrieben werden. Wenn Sie Übersetzungen verbessern möchten, können Sie darüber berichten [Gemeinschaft](https://community.jeedom.com/). Wenn Sie eine der Sprachen von Jeedom beherrschen und weiter gehen möchten, können Sie den Zugriff auf das Übersetzungssystem anfordern, mit dem Sie alle Übersetzungen jeder Sprache aus den verschiedenen Versionen von Core und offiziellen Plugins korrigieren können : [Kontaktieren Sie das Projektteam](mailto:contact@jeedom.com).
+
+Im Code können Sie Zeichenfolgen angeben, die wie folgt übersetzt werden sollen :
+
+In php : `$ $ myString = __ ('Mein zu übersetzender Satz', __FILE __);`
+
+In js : ``{% raw %}var myString = '{{Mein zu übersetzender Satz}}'{% endraw %}``
+
+Das Übersetzungssystem kümmert sich dann um die Übersetzung und Referenzierung in den JSON-Dateien (`docs / i18n /`) sowie um den Kern ihres Ersatzes in der Schnittstelle.
+

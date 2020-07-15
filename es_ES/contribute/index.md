@@ -1,7 +1,5 @@
 # Contribuir al desarrollo del núcleo
 
-*En curso*
-
 Desea contribuir al desarrollo de Jeedom Core ?
 
 - Puedes hacer relaciones públicas (*Solicitudes de extracción*) Sobre *repositorio* de Core.
@@ -20,7 +18,7 @@ El código central es de código abierto y está disponible [aquí](https://gith
 - **Lanzamiento** : Liberar la rama candidata de V3. Solo para correcciones de errores.
 - **Maestro** : Rama de la versión estable V3. Solo para correcciones de errores.
 
-Las actualizaciones se realizan en estas ramas dependiendo de la configuración de Jeedom **Configuración → Sistema → Configuración / Actualizaciones / Market**
+Las actualizaciones se realizan en estas ramas dependiendo de la configuración de Jeedom **Configuración → Sistema → Configuración / Actualizaciones / Market**.
 
 Relaciones públicas (*Solicitudes de extracción*) siempre debe hacerse en la rama alfa.
 
@@ -123,7 +121,7 @@ El archivo `desktop / common / js / utils.Por lo tanto, js` siempre está presen
 - Administre un posible cambio de tema según la hora.
 - Permitir que diferentes archivos js accedan a funciones comunes.
 
-Entonces el índice.PHP y las utilidades.js proporciona la estructura básica y las funciones de la interfaz.
+Entonces el índice.PHP y las utilidades.js proporciona la estructura y funciones básicas de la interfaz.
 Luego, el contenido de la página llamada se carga desde el escritorio / php / page.php y escritorio / js / page.js.
 Estos archivos de contenido puramente orientados a la interfaz pueden acceder a las funciones principales (las clases `/ core / class`) directamente en php, o en js gracias a las clases js (` / core / js`) a través de llamadas ajax (`/ core / ajax`).
 
@@ -151,10 +149,43 @@ Una diferencia notable en dispositivos móviles es la ausencia de páginas php. 
 
 ### Referencias
 
-
+*En curso*
 
 
 
 ## Back-end
 
 *En curso*
+
+La interfaz es una cosa, pero, por supuesto, su Jeedom siempre está activo, para ejecutar los escenarios, los crons, los registros, las historias, etc.
+
+El Back-end se basa en las mismas clases de php que el Front-end, presente en `/ core / class /`. Cada parte de Jeedom tiene su clase php, en particular :
+
+- jeeObject.class.php : Agrupa funciones relacionadas con objetos Jeedom.
+- eqLogic.class.php : Combina funciones relacionadas con equipos Jeedom.
+- cmd.class.php : Combina funciones relacionadas con los comandos Jeedom.
+- clase cron.php : Combina funciones relacionadas con las tareas programadas de Jeedom.
+- config.class.php : Agrupa funciones relacionadas con los parámetros de configuración de Jeedom.
+- escenario.clase.php : Combina las funciones relacionadas con los escenarios de Jeedom.
+- DB.class.php : Combina todas las funciones de acceso a la base de datos Jeedom. Este administra todo el acceso a SQL requerido por las otras clases.
+
+etc.
+
+## Documentation
+
+Más allá del desarrollo puro de Core, también puede participar en la documentación de Jeedom.
+
+Esto se puede encontrar en `docs / fr_FR /`. Puedes hacer relaciones públicas (*Solicitudes de extracción*) en archivos .md, preferiblemente en la rama alfa.
+
+Las traducciones están presentes en los archivos de otros idiomas. El directorio `docs / i18n /` contiene archivos .json por idioma para la traducción de las cadenas de caracteres de la interfaz Core.
+
+Estos son generados automáticamente por un sistema de traducción específico de Jeedom. Por lo tanto, no es necesario realizar cambios, ya que el sistema los sobrescribirá. Si desea mejorar las traducciones, puede informarlo [Comunidad](https://community.jeedom.com/). Si domina uno de los idiomas de Jeedom y desea ir más allá, puede solicitar acceso al sistema de traducción, que le permite corregir todas las traducciones de cada idioma desde las diferentes versiones de Core y los complementos oficiales : [contacta al equipo del proyecto](mailto:contact@jeedom.com).
+
+En el código puede especificar cadenas para traducir así :
+
+En php : `$ $ myString = __ ('Mi oración a traducir', __FILE __);`
+
+En js : ``{% raw %}var myString = '{{Mi oración se traducirá}}'{% endraw %}``
+
+El sistema de traducción se encargará de su traducción y su referencia en los archivos json (`docs / i18n /`), y el núcleo de su reemplazo en la interfaz.
+
