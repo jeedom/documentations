@@ -1,7 +1,5 @@
 # Contribuer au développement du Core
 
-*EN COURS*
-
 Vous souhaitez contribuer au développement du Core de Jeedom ?
 
 - Vous pouvez faire des PRs (*Pull requests*) sur le *repository* du Core.
@@ -20,7 +18,7 @@ Le code du Core est Open-Source et disponible [ici](https://github.com/jeedom/co
 - **release** : Branche Release Candidate de la V3. Uniquement pour des bugfixs.
 - **master** : Branche de la version stable V3. Uniquement pour des bugfixs.
 
-Les mises à jour ce font sur ces branches en fonction de la configuration de Jeedom **Réglages → Système → Configuration / Mises à jour/Market**
+Les mises à jour ce font sur ces branches en fonction de la configuration de Jeedom **Réglages → Système → Configuration / Mises à jour/Market**.
 
 Les PRs (*Pull requests*) doivent toujours être fait sur la branche alpha.
 
@@ -117,7 +115,7 @@ Le fichier `/desktop/php/index.php` se charge aussi de :
 
 Le fichier `desktop/common/js/utils.js` est donc toujours présent, et chargé une fois. Il permet de :
 - Gérer les events js du menu.
-- Gérer les paramètres d'url en fonction de la page demander.
+- Gérer les paramètres d'url en fonction de la page demandée.
 - Charger la page demandée dans la div `div_pageContainer`.
 - Gérer les ouverture/fermeture des modales (fenêtre de dialogue).
 - Gérer une éventuelle bascule de thème en fonction de l'heure.
@@ -151,10 +149,48 @@ Une différence notable en Mobile est l'absence de pages php. La génération du
 
 ### Références
 
-
+*en cours*
 
 
 
 ## Back-end
 
-*EN COURS*
+*en cours*
+
+L'interface est une chose, mais bien sûr votre Jeedom est toujours actif, afin de faire tourner les scénarios, les crons, les logs, les historiques etc.
+
+Le Back-end s’appuie sur les mêmes classes php que le Front-end, présentent dans `/core/class/`. Chaque partie de Jeedom possède sa classe php, notamment :
+
+- jeeObject.class.php : Regroupe les fonctions concernant les objets de Jeedom.
+- eqLogic.class.php : Regroupe les fonctions concernant les équipements de Jeedom.
+- cmd.class.php : Regroupe les fonctions concernant les commandes de Jeedom.
+- cron.class.php : Regroupe les fonctions concernant les tâches planifiées de Jeedom.
+- config.class.php : Regroupe les fonctions concernant les paramètres de configuration de Jeedom.
+- scenario.class.php : Regroupe les fonctions concernant les scénarios de Jeedom.
+- DB.class.php : Regroupe toutes les fonctions d'accès à la base données de Jeedom. Tous les accès SQL requis par les autres classes sont gérés par celle-ci.
+etc.
+
+## Documentation
+
+Au delà du développement pur du Core, vous pouvez également participer à la documentation de Jeedom.
+
+Celle-ci se trouve dans `docs/fr_FR/`. Vous pouvez faire des PRs (*Pull requests*) sur les fichiers .md, de préférence sur la branche alpha.
+
+Les traductions sont présentent dans les autres dossiers de langues. Le répertoire `docs/i18n/` comprend des fichiers .json par langue pour la traduction des chaînes de caractères de l'interface du Core lui même.
+
+Celles-ci sont générées automatiquement par un système de traduction propre à Jeedom. Il est donc inutile de faire des modifications dessus, car elle seront écrasées par le système. Si vous souhaitez améliorer les traductions vous pouvez le signaler sur [Community](https://community.jeedom.com/). Si vous maîtriser une des langues de Jeedom et souhaitez allez plus loin, vous pouvez demander un accès au système de traduction, qui permet de corriger toutes les traductions de chaque langue des différentes version du Core et des plugins officiels : [contacter l'équipe du projet](mailto:contact@jeedom.com).
+
+Dans le code vous pouvez spécifier des chaînes à traduire comme cela :
+
+En php :
+
+```php
+	$myString = __('Ma phrase qui sera traduite', __FILE__);
+```
+
+En js :
+```js
+	var myString = '{{Ma phrase qui sera traduite}}'
+```
+Le système de traduction se chargera alors de leur traduction et de leur référencement dans les fichiers json (`docs/i18n/`), et le Core de leur remplacement dans l'interface.
+
