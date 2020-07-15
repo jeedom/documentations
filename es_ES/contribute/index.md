@@ -10,7 +10,8 @@ Aquí están los conceptos básicos para saber.
 ## Ramas Github
 
 Para participar en el desarrollo de Jeedom, debe tener una cuenta de Github.
-El código central es de código abierto y está disponible [aquí](https://github.com/jeedom/core) a través de varias ramas :
+
+El código central es de código abierto y está disponible [aquí](https://github.com/jeedom/core).
 
 - **alfa** :  Rama alfa V4. Principalmente para desarrolladores de la próxima versión de Jeedom.
 - **Beta** : Rama beta V4. Principalmente para beta testers.
@@ -45,7 +46,7 @@ El código se distribuye en diferentes directorios en la raíz de Jeedom (por de
 	- API : API php archivos.
 	- **clase** : Archivos de clase php (*eqLogic, cmd, jeeObject, history, cron, etc.*).
 	- com : Archivos de clase php de comunicación (*http, shell*).
-	- config : Configuración básica de archivos php y *default.config.ini* incluidos los ajustes de configuración predeterminados.
+	- config : Configuración básica de archivos php y *default.config.ini* incluidos los ajustes de configuración predeterminados. archivo de versión para la versión Core.
 	- css : Iconos disponibles con Core y sus CSS.
 	- i18n : Archivos Json que incluyen cadenas traducidas.
 	- img : Imágenes principales (logotipos, fondos, etc.).
@@ -147,10 +148,29 @@ En cuanto a la interfaz de escritorio, la página llamada consta de dos archivos
 
 Una diferencia notable en dispositivos móviles es la ausencia de páginas php. Por lo tanto, la generación del código se basa en las clases js, que siempre pueden llamar a las funciones principales con llamadas ajax.
 
-### Referencias
+#### Archivos CSS
 
-*En curso*
+Core CSS se basa principalmente en estos archivos:
+- En el escritorio :
+	- escritorio / css / boostrap.css : Versión limpiada por el equipo CSS Bootstrap v3.3.7.
+	- desktop / css / desktop.main.css : Interfaz principal CSS.
+	- desktop / css / coreWidgets.css : CSS específico para widgets Core.
 
+- En móvil :
+	- mobiles / css / mobile.main.css : Interfaz principal CSS.
+	- móviles / css / coreWidgets.css : CSS específico para widgets Core.
+
+Los temas contienen CSS específicos para cada tema, incluidos colors.css.
+
+Orden de carga de CSS en el escritorio :
+- 3rd Party css (CodeMirror, etc.).
+- Fuentes (roboto, camingocode, text-security-disc).
+- coreWidgets.css
+- Escritorio.main.css
+- colores.css (variables de color del tema).
+- core2019_xx.css (archivo de tema principal).
+- oscuridad.css (si está habilitado en la configuración).
+- personalizado.css (archivo css de personalización avanzada).
 
 
 ## Back-end

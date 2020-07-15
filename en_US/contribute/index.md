@@ -10,7 +10,8 @@ Here are the basics to know.
 ## Github branches
 
 To participate in the development of Jeedom, you must have a Github account.
-Core code is Open-Source and available [here](https://github.com/jeedom/core) through several branches :
+
+Core code is Open-Source and available [here](https://github.com/jeedom/core).
 
 - **alpha** :  V4 alpha branch. Mainly for developers for the next version of Jeedom.
 - **Beta** : V4 beta branch. Mainly for beta testers.
@@ -45,7 +46,7 @@ The code is distributed in different directories at the root of Jeedom (by defau
 	- API : API php files.
 	- **class** : Php class files (*eqLogic, cmd, jeeObject, history, cron, etc.*).
 	- com : Communication php class files (*http, shell*).
-	- config : Core configuration php files and *default.config.ini* including default configuration settings.
+	- config : Core configuration php files and *default.config.ini* including default configuration settings. version file for the Core version.
 	- css : Icons available with Core and their CSS.
 	- i18n : Json files including translated strings.
 	- img : Core images (logos, backgrounds, etc.).
@@ -147,10 +148,29 @@ As for the Desktop interface, the page called consists of two files :
 
 A notable difference in Mobile is the absence of php pages. The generation of the code is therefore based on the js classes, which can always call the Core functions with ajax calls.
 
-### References
+#### CSS files
 
-*Running*
+Core CSS mainly relies on these files:
+- In Desktop :
+	- desktop / css / boostrap.css : Version cleaned by the CSS Bootstrap v3.3.7 team.
+	- desktop / css / desktop.main.css : Main interface CSS.
+	- desktop / css / coreWidgets.css : CSS specific to Core widgets.
 
+- In Mobile :
+	- mobiles / css / mobile.main.css : Main interface CSS.
+	- mobiles / css / coreWidgets.css : CSS specific to Core widgets.
+
+Themes contain CSS specific to each theme, including colors.css.
+
+CSS loading order in Desktop :
+- 3rdParty css (CodeMirror, etc.).
+- Fonts (roboto, camingocode, text-security-disc).
+- coreWidgets.css
+- Desktop.main.css
+- colors.css (theme color variables).
+- core2019_xx.css (main theme file).
+- shadows.css (if enabled in configuration).
+- custom.css (advanced customization css file).
 
 
 ## Back-end

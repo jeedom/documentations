@@ -10,7 +10,8 @@ Hier sind die Grundlagen zu wissen.
 ## Github-Zweige
 
 Um an der Entwicklung von Jeedom teilnehmen zu können, müssen Sie über einen Github-Account verfügen.
-Der Kerncode ist Open Source und verfügbar [hier](https://github.com/jeedom/core) durch mehrere Zweige :
+
+Der Kerncode ist Open Source und verfügbar [hier](https://github.com/jeedom/core).
 
 - **Alpha** :  V4 Alpha-Zweig. Hauptsächlich für Entwickler für die nächste Version von Jeedom.
 - **Beta** : V4 Beta-Zweig. Hauptsächlich für Betatester.
@@ -45,7 +46,7 @@ Der Code wird in verschiedenen Verzeichnissen im Stammverzeichnis von Jeedom ver
 	- API : API PHP-Dateien.
 	- **Klasse** : PHP-Klassendateien (*eqLogic, cmd, jeeObject, history, cron usw.*).
 	- com : Kommunikations-PHP-Klassendateien (*http, Shell*).
-	- Config : Kernkonfiguration PHP-Dateien und *default.config.ini* einschließlich Standardkonfigurationseinstellungen.
+	- Config : Kernkonfiguration PHP-Dateien und *default.config.ini* einschließlich Standardkonfigurationseinstellungen. Versionsdatei für die Core-Version.
 	- CSS : Mit Core und deren CSS verfügbare Symbole.
 	- i18n : Json-Dateien einschließlich übersetzter Zeichenfolgen.
 	- img : Kernbilder (Logos, Hintergründe usw.).
@@ -147,10 +148,29 @@ Was die Desktop-Oberfläche betrifft, besteht die aufgerufene Seite aus zwei Dat
 
 Ein bemerkenswerter Unterschied bei Mobile ist das Fehlen von PHP-Seiten. Die Generierung des Codes basiert daher auf den js-Klassen, die bei Ajax-Aufrufen immer die Core-Funktionen aufrufen können.
 
-### Verweise
+#### CSS-Dateien
 
-*In Bearbeitung*
+Core CSS basiert hauptsächlich auf diesen Dateien:
+- In Desktop :
+	- Desktop / CSS / Boostrap.CSS : Vom CSS Bootstrap v3.3.7-Team bereinigte Version.
+	- desktop / css / desktop.main.CSS : Hauptschnittstelle CSS.
+	- desktop / css / coreWidgets.CSS : CSS-spezifisch für Core-Widgets.
 
+- In Mobile :
+	- mobiles / css / mobile.main.CSS : Hauptschnittstelle CSS.
+	- mobiles / css / coreWidgets.CSS : CSS-spezifisch für Core-Widgets.
+
+Themen enthalten für jedes Thema spezifisches CSS, einschließlich colours.css.
+
+CSS-Ladereihenfolge in Desktop :
+- 3rdParty CSS (CodeMirror usw.).
+- Schriftarten (Roboto, Camingocode, Text-Security-Disc).
+- coreWidgets.css
+- Desktop.main.css
+- Farben.CSS (Themenfarbvariablen).
+- core2019_xx.CSS (Hauptdesign-Datei).
+- Schatten.CSS (falls in der Konfiguration aktiviert).
+- Benutzerdefiniert.CSS (erweiterte Anpassung CSS-Datei).
 
 
 ## Back-end
