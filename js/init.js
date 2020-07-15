@@ -167,6 +167,7 @@ var docMenu = [
     de_DE : "Entwickle auf Jeedom",
     pt_PT : "Desenvolva no Jeedom",
     submenu:[
+      {link:"/#LANG#/contribute/",fr_FR:"Contribuer",en_US:"Contribute",es_ES:"Contribuir",de_DE:"Bijdragen",pt_PT:"Contribuir"},
       {link:"/#LANG#/dev/tutorial_plugin",fr_FR:"Présentation",en_US:"Presentation",es_ES:"Présentation",de_DE:"Einführung",pt_PT:""},
       {link:"/#LANG#/core/4.0/api_http",fr_FR:"Api HTTP",en_US:"Api HTTP",es_ES:"Api HTTP",de_DE:"Api HTTP",pt_PT:"Api HTTP"},
       {link:"/#LANG#/core/4.0/jsonrpc_api",fr_FR:"API JsonRPC",en_US:"API JsonRPC",es_ES:"API JsonRPC",de_DE:"API JsonRPC",pt_PT:"API JsonRPC"},
@@ -304,7 +305,7 @@ $(function(){
   $('.parallax').parallax();
   $('.dropdown-trigger').dropdown();
   $('.collapsible').collapsible();
-  
+
   $('#div_summary').empty().append('<ul></ul>');
   $('#div_content h1,h2,h3').each(function(){
     var id = encodeURIComponent($(this).text());
@@ -321,26 +322,26 @@ $(function(){
     $(this).addClass('scrollspy');
   });
   $('.scrollspy').scrollSpy();
-  
+
   $('.tocAnchor').off('click').on('click',function(){
     window.location.hash = $(this).attr('href')
   });
-  
+
   setTimeout(function() {
     $('#div_summary').pushpin({top:$('nav').height(),offset:$('nav').height()+10})
   }, 100);
-  
+
   $('#sel_lang').on('change',function(){
     setCookie('lang',$(this).val(),7)
     var url = window.location.href.replace('fr_FR',$(this).val()).replace('en_US',$(this).val()).replace('es_ES',$(this).val()).replace('de_DE',$(this).val());
     window.location.href = url;
   })
-  
+
   $('#sel_theme').on('change',function(){
     setCookie('theme',$(this).val(),7)
     setTheme();
   })
-  
+
   $('#sel_jeedomVersion').on('change',function(){
     setCookie('jeedomVersion',$(this).val(),7)
     var url = window.location.href;
@@ -350,12 +351,12 @@ $(function(){
     }
     window.location.reload();
   })
-  
+
   $('select').formSelect();
   $('#div_content :not(td)>img').addClass('responsive-img')
   cookiesPolicyBar();
   setLeftMenu();
-  
+
   if(window.location.hash) {
     document.getElementById(window.location.hash.replace('#','')).scrollIntoView()
     window.scrollBy(0, -200);
@@ -490,4 +491,3 @@ if($('#div_searchBar')){
       $('.gsib_a input').addClass('browser-default');
     }, 1000);
   }
-  

@@ -1,12 +1,11 @@
-# Contribuer au développement de Jeedom (Core)
+# Contribuer au développement du Core
 
 *EN COURS*
 
 Vous souhaitez contribuer au développement du Core de Jeedom ?
 
-Vous pouvez faire des PRs (*Pull requests*) sur le *repository* du Core.
-
-Si vous avez des idées d'évolutions et souhaitez participer sur le long terme, n'hésitez pas à [contacter l'équipe du projet](mailto:contact@jeedom.com).
+- Vous pouvez faire des PRs (*Pull requests*) sur le *repository* du Core.
+- Si vous avez des idées d'évolutions et souhaitez participer sur le long terme, n'hésitez pas à [contacter l'équipe du projet](mailto:contact@jeedom.com).
 
 Voici les notions de bases à connaître.
 
@@ -15,10 +14,10 @@ Voici les notions de bases à connaître.
 Pour participer au développement de Jeedom, vous devez avoir un compte Github.
 Le code du Core est Open-Source et disponible [ici](https://github.com/jeedom/core) au travers de plusieurs branches :
 
-- **V4-stable** : Branche stable de V4
-- **release** : Branche Release Candidate de la V4. Uniquement pour des bugfixs.
-- **beta** : Branche de la version V4 beta. Principalement destinée aux beta-testeurs.
 - **alpha** :  Branche de la version V4 alpha. Principalement destinée aux développeurs pour la version suivant de Jeedom.
+- **beta** : Branche de la version V4 beta. Principalement destinée aux beta-testeurs.
+- **V4-stable** : Branche stable de V4
+- **release** : Branche Release Candidate de la V3. Uniquement pour des bugfixs.
 - **master** : Branche de la version stable V3. Uniquement pour des bugfixs.
 
 Les mises à jour ce font sur ces branches en fonction de la configuration de Jeedom **Réglages → Système → Configuration / Mises à jour/Market**
@@ -37,27 +36,30 @@ Pour aider au développement du Core, vous devez maîtriser :
 
 Des connaissances de l’environnent Linux sont également souhaitable.
 
-## Structure du code
+## Arborescence du Core
 
 Le code est réparti dans différents répertoires à la racine de Jeedom (par défaut : var/www/html) :
+
+<details>
+<summary>Arborescence du Core</summary>
 
 - 3rdparty : Dossier comprenant les librairies externe utilisées par Jeedom (jQuery, CodeMirror, etc).
 - backup : Dossier des sauvegardes de Jeedom.
 - **core** : Dossier comprenant les fonctions internes du Core:
-	- ajax : Fichiers php d'interface entre les classes js et les classes php.
+	- **ajax** : Fichiers php d'interface entre les classes js et les classes php.
 	- api : Fichiers php des API.
-	- class : Fichiers des classes php (*eqLogic, cmd, jeeObject, history, cron, etc.*).
+	- **class** : Fichiers des classes php (*eqLogic, cmd, jeeObject, history, cron, etc.*).
 	- com : Fichiers des classes php de communication (*http, shell*).
 	- config : Fichiers php de configuration du Core et *default.config.ini* comprenant les paramètres de configuration par défaut.
 	- css : Icônes disponibles avec le Core et leur CSS.
 	- i18n : Fichiers json comprenant les chaînes de caractères traduites.
 	- img : Images (logos, fonds, etc.) du Core.
-	- js : Fichiers des class js, appelées notamment depuis les pages de Jeedom.
+	- **js** : Fichiers des class js, appelées notamment depuis les pages de Jeedom.
 	- php : Fichiers php nécessaires au Core (hors classes).
 	- repo : Fichiers php propre au market, samba, etc.
-	- template : Fichiers html (*Dashboard et Mobile*) pour l'affichage des eqLogics (Tuile), commandes (Widgets) et scenarios.
-	- themes : Fichiers CSS des trois thèmes du Core (Dark, Light, Legacy), pour Dashboard et Mobile.
-- data : Dossier comprenant les données utilisateur (Rapports, Vues, css/js de PErsonnalisation Avancée, Design 3D, etc).
+	- **template** : Fichiers html (*Dashboard et Mobile*) pour l'affichage des eqLogics (Tuile), commandes (Widgets) et scenarios.
+	- **themes** : Fichiers CSS des trois thèmes du Core (Dark, Light, Legacy), pour Dashboard et Mobile.
+- data : Dossier comprenant les données utilisateur (Rapports, Vues, css/js de Personnalisation Avancée, Design 3D, etc).
 - **desktop** : Dossier comprenant toutes les pages affichées (l'interface) en desktop et leurs fonctions.
 	- common : Fichiers js/php communs à toutes ou plusieurs pages. Regroupe des fonctions pouvant être appelées depuis plusieurs pages, notamment le *utils.js*, présent sur toutes les pages en Desktop.
 	- css : Fichiers css propre à l'affichage Desktop.
@@ -77,6 +79,8 @@ Le code est réparti dans différents répertoires à la racine de Jeedom (par d
 - script : Sript de déploiement, certificats.
 - support : Dossier utilisé en cas de demande de support.
 - vendor : Dossier comprenant des librairies tierces php.
+
+</details>
 
 
 ## Front-end
@@ -98,6 +102,7 @@ L'interface de Jeedom fonctionne sur le principe du One-Page. Une fois chargée,
 Le fichier principal en Desktop est `/desktop/php/index.php`.
 
 Chaque page possède au minimum deux paramètres dans l'url. Exemple :
+
 `https://my.dns1.jeedom.com/index.php?v=d&p=dashboard` :
 - **v** : Version de l'interface. d pour Desktop, m pour mobile.
 - **p** : Page à afficher. Ici, `dashboard`.
@@ -118,7 +123,7 @@ Le fichier `/desktop/php/index.php` se charge aussi de :
 Le fichier `desktop/common/js/utils.js` est donc toujours présent, et chargé une fois. Il permet de :
 - Gérer les events js du menu.
 - Gérer les paramètres d'url en fonction de la page demander.
-- Charger la page demander dans la div `div_pageContainer`.
+- Charger la page demandée dans la div `div_pageContainer`.
 - Gérer les ouverture/fermeture des modales (fenêtre de dialogue).
 - Gérer une éventuelle bascule de thème en fonction de l'heure.
 - Permettre aux différents fichiers js d'accéder à des fonctions communes.
@@ -127,11 +132,14 @@ Ainsi, l'index.php et le utils.js fournissent la structure et les fonctions de b
 Ensuite, le contenu de la page appelée est chargé depuis desktop/php/page.php et desktop/js/page.js.
 Ces fichiers de contenu, purement orientés interface, peuvent accéder aux fonctions du Core (les classes `/core/class`) directement en php, ou en js grâce aux classes js (`/core/js`) en passant par des appels ajax (`/core/ajax`).
 
-Les fonctions interne du Core sont ainsi bien séparées, pour le fonctionnement interne (Back-end), mais sont accessible par l'interface.
+Les fonctions internes du Core sont ainsi bien séparées, pour le fonctionnement interne (Back-end), mais sont accessible par l'interface. De même, chaque page possède sont propre code php et js. Ceci permet de mieux faire évoluer et maintenir le code, mais aussi d'optimiser les performances en chargeant uniquement les classes et fonctions nécessaires.
 
 ### Mobile
 
+L'interface Desktop est responsive et s'adapte à la taille du navigateur. Toutefois, certaines choses, comme l'édition d'un scénario, serait compliqué sur une petit écran. De plus, sur un smartphone à l’extérieur, en 3G ou même 4G, il est important d'optimiser la rapidité de l'affichage. C'est pourquoi Jeedom possède une interface Mobile, plus légère et adaptée aux petits écrans.
+
+*EN COURS*
 
 ## Back-end
 
-
+*EN COURS*
