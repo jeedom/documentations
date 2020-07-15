@@ -182,15 +182,9 @@ Celles-ci sont générées automatiquement par un système de traduction propre 
 
 Dans le code vous pouvez spécifier des chaînes à traduire comme cela :
 
-En php :
+En php : `$myString = __('Ma phrase qui sera traduite', __FILE__);`
 
-```php
-	$myString = __('Ma phrase qui sera traduite', __FILE__);
-```
+En js : ``{% raw %}var myString = '{{Ma phrase qui sera traduite}}'{% endraw %}``
 
-En js :
-```js
-	var myString = '{{Ma phrase qui sera traduite}}'
-```
 Le système de traduction se chargera alors de leur traduction et de leur référencement dans les fichiers json (`docs/i18n/`), et le Core de leur remplacement dans l'interface.
 
