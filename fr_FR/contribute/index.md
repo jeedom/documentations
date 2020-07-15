@@ -40,9 +40,6 @@ Des connaissances de l’environnent Linux sont également souhaitable.
 
 Le code est réparti dans différents répertoires à la racine de Jeedom (par défaut : var/www/html) :
 
-<details>
-<summary>Arborescence du Core</summary>
-
 - 3rdparty : Dossier comprenant les librairies externe utilisées par Jeedom (jQuery, CodeMirror, etc).
 - backup : Dossier des sauvegardes de Jeedom.
 - **core** : Dossier comprenant les fonctions internes du Core:
@@ -79,8 +76,6 @@ Le code est réparti dans différents répertoires à la racine de Jeedom (par d
 - script : Sript de déploiement, certificats.
 - support : Dossier utilisé en cas de demande de support.
 - vendor : Dossier comprenant des librairies tierces php.
-
-</details>
 
 
 ## Front-end
@@ -138,7 +133,27 @@ Les fonctions internes du Core sont ainsi bien séparées, pour le fonctionnemen
 
 L'interface Desktop est responsive et s'adapte à la taille du navigateur. Toutefois, certaines choses, comme l'édition d'un scénario, serait compliqué sur une petit écran. De plus, sur un smartphone à l’extérieur, en 3G ou même 4G, il est important d'optimiser la rapidité de l'affichage. C'est pourquoi Jeedom possède une interface Mobile, plus légère et adaptée aux petits écrans.
 
-*EN COURS*
+La page de référence est `/mobile/html/index.html`, qui se charge de :
+- Vérifier l'authentification de l'utilisateur.
+- Créer la structure html (*head, body, div_pageContainer, etc*).
+- Charger les CSS, librairies etc.
+- Charger le thème de l’utilisateur.
+- Renseigner certaines variables php/js globales.
+- Charger le fichier js `mobile/js/application.js`
+
+Le fichier `mobile/js/application.js` contient les fonctions communes à toutes les pages.
+
+Comme pour l'interface Desktop, la page appelée est constituée de deux fichiers :
+- `/mobile/html/home.html` : le code html.
+- `/mobile/js/home.js` : les fonctions js propre à cette page.
+
+Une différence notable en Mobile est l'absence de pages php. La génération du code repose donc sur les classes js, qui peuvent toujours appeler les fonctions du Core avec des appels ajax.
+
+### Références
+
+
+
+
 
 ## Back-end
 
