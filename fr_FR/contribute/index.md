@@ -121,7 +121,7 @@ Le fichier `desktop/common/js/utils.js` est donc toujours présent, et chargé u
 - Gérer une éventuelle bascule de thème en fonction de l'heure.
 - Permettre aux différents fichiers js d'accéder à des fonctions communes.
 
-Ainsi, l'index.php et le utils.js fournissent la structure et les fonctions de bases de l'interface.
+Ainsi, l'index.php et le utils.js fournissent la structure et les fonctions de base de l'interface.
 Ensuite, le contenu de la page appelée est chargé depuis desktop/php/page.php et desktop/js/page.js.
 Ces fichiers de contenu, purement orientés interface, peuvent accéder aux fonctions du Core (les classes `/core/class`) directement en php, ou en js grâce aux classes js (`/core/js`) en passant par des appels ajax (`/core/ajax`).
 
@@ -129,7 +129,7 @@ Les fonctions internes du Core sont ainsi bien séparées, pour le fonctionnemen
 
 ### Mobile
 
-L'interface Desktop est responsive et s'adapte à la taille du navigateur. Toutefois, certaines choses, comme l'édition d'un scénario, serait compliqué sur une petit écran. De plus, sur un smartphone à l’extérieur, en 3G ou même 4G, il est important d'optimiser la rapidité de l'affichage. C'est pourquoi Jeedom possède une interface Mobile, plus légère et adaptée aux petits écrans.
+L'interface Desktop est responsive et s'adapte à la taille du navigateur. Toutefois, certaines choses, comme l'édition d'un scénario, seraient compliquées sur un petit écran. De plus, sur un smartphone à l’extérieur, en 3G ou même 4G, il est important d'optimiser la rapidité de l'affichage. C'est pourquoi Jeedom possède une interface Mobile, plus légère et adaptée aux petits écrans.
 
 La page de référence est `/mobile/html/index.html`, qui se charge de :
 - Vérifier l'authentification de l'utilisateur.
@@ -168,6 +168,7 @@ Le Back-end s’appuie sur les mêmes classes php que le Front-end, présentent 
 - config.class.php : Regroupe les fonctions concernant les paramètres de configuration de Jeedom.
 - scenario.class.php : Regroupe les fonctions concernant les scénarios de Jeedom.
 - DB.class.php : Regroupe toutes les fonctions d'accès à la base données de Jeedom. Tous les accès SQL requis par les autres classes sont gérés par celle-ci.
+
 etc.
 
 ## Documentation
