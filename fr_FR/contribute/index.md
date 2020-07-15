@@ -10,7 +10,8 @@ Voici les notions de bases à connaître.
 ## Branches Github
 
 Pour participer au développement de Jeedom, vous devez avoir un compte Github.
-Le code du Core est Open-Source et disponible [ici](https://github.com/jeedom/core) au travers de plusieurs branches :
+
+Le code du Core est Open-Source et disponible [ici](https://github.com/jeedom/core).
 
 - **alpha** :  Branche de la version V4 alpha. Principalement destinée aux développeurs pour la version suivant de Jeedom.
 - **beta** : Branche de la version V4 beta. Principalement destinée aux beta-testeurs.
@@ -45,7 +46,7 @@ Le code est réparti dans différents répertoires à la racine de Jeedom (par d
 	- api : Fichiers php des API.
 	- **class** : Fichiers des classes php (*eqLogic, cmd, jeeObject, history, cron, etc.*).
 	- com : Fichiers des classes php de communication (*http, shell*).
-	- config : Fichiers php de configuration du Core et *default.config.ini* comprenant les paramètres de configuration par défaut.
+	- config : Fichiers php de configuration du Core et *default.config.ini* comprenant les paramètres de configuration par défaut. fichier version pour la version du Core.
 	- css : Icônes disponibles avec le Core et leur CSS.
 	- i18n : Fichiers json comprenant les chaînes de caractères traduites.
 	- img : Images (logos, fonds, etc.) du Core.
@@ -147,10 +148,29 @@ Comme pour l'interface Desktop, la page appelée est constituée de deux fichier
 
 Une différence notable en Mobile est l'absence de pages php. La génération du code repose donc sur les classes js, qui peuvent toujours appeler les fonctions du Core avec des appels ajax.
 
-### Références
+#### Fichiers CSS
 
-*en cours*
+Les CSS du Core reposent principalement sur ces fichiers:
+- En Desktop :
+	- desktop/css/boostrap.css : Version nettoyée par l'équipe du CSS Bootstrap v3.3.7.
+	- desktop/css/desktop.main.css : CSS principal de l'interface.
+	- desktop/css/coreWidgets.css : CSS propres aux widgets du Core.
 
+- En Mobile :
+	- mobiles/css/mobile.main.css : CSS principal de l'interface.
+	- mobiles/css/coreWidgets.css : CSS propres aux widgets du Core.
+
+Les thèmes contiennent des CSS propres à chaque thème, notamment les colors.css.
+
+Ordre de chargement des CSS en Desktop :
+- 3rdParty css (CodeMirror, etc.).
+- Fonts (roboto, camingocode, text-security-disc).
+- coreWidgets.css
+- desktop.main.css
+- colors.css (variables de couleurs du thème).
+- core2019_xx.css (fichier principal du thème).
+- shadows.css (si activé en configuration).
+- custom.css (fichier css de personnalisation avancée).
 
 
 ## Back-end
