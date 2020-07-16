@@ -148,7 +148,7 @@ Comme pour l'interface Desktop, la page appelée est constituée de deux fichier
 
 Une différence notable en Mobile est l'absence de pages php. La génération du code repose donc sur les classes js, qui peuvent toujours appeler les fonctions du Core avec des appels ajax.
 
-#### Fichiers CSS
+### Fichiers CSS
 
 Les CSS du Core reposent principalement sur ces fichiers:
 - En Desktop :
