@@ -148,7 +148,7 @@ En cuanto a la interfaz de escritorio, la página llamada consta de dos archivos
 
 Una diferencia notable en dispositivos móviles es la ausencia de páginas php. Por lo tanto, la generación del código se basa en las clases js, que siempre pueden llamar a las funciones principales con llamadas ajax.
 
-#### Archivos CSS
+### Archivos CSS
 
 Core CSS se basa principalmente en estos archivos:
 - En el escritorio :

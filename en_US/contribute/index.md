@@ -148,7 +148,7 @@ As for the Desktop interface, the page called consists of two files :
 
 A notable difference in Mobile is the absence of php pages. The generation of the code is therefore based on the js classes, which can always call the Core functions with ajax calls.
 
-#### CSS files
+### CSS files
 
 Core CSS mainly relies on these files:
 - In Desktop :

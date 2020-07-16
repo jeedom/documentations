@@ -148,7 +148,7 @@ Was die Desktop-Oberfläche betrifft, besteht die aufgerufene Seite aus zwei Dat
 
 Ein bemerkenswerter Unterschied bei Mobile ist das Fehlen von PHP-Seiten. Die Generierung des Codes basiert daher auf den js-Klassen, die bei Ajax-Aufrufen immer die Core-Funktionen aufrufen können.
 
-#### CSS-Dateien
+### CSS-Dateien
 
 Core CSS basiert hauptsächlich auf diesen Dateien:
 - In Desktop :
