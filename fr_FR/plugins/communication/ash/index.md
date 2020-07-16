@@ -10,6 +10,10 @@ Il peut fonctionner en passant par un service cloud mis à disposition par Jeedo
 
 > **Important**
 >
+> Il faut ABSOLUMENT que votre Jeedom soit accessible en HTTPS (le plugin ne marche pas en HTTP) valide (donc pas de certificat auto-signé)
+
+> **Important**
+>
 > Le plugin ne supporte pas les équipement avec des double fonction (2 sortie comme certain module zwave Fibaro). Il faut absolument passer par 2 virtuels pour le décomposer.
 
 # Mise en place de la connexion vers Alexa

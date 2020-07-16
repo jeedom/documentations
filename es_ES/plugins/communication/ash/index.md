@@ -10,6 +10,10 @@ Puede operar a través de un servicio en la nube proporcionado por Jeedom.
 
 > **Importante**
 >
+> Es ABSOLUTAMENTE necesario que su Jeedom sea accesible en HTTPS (el complemento no funciona en HTTP) válido (por lo tanto, no hay certificado autofirmado))
+
+> **Importante**
+>
 > El complemento no es compatible con equipos con funciones duales (2 salidas como cierto módulo zwave Fibaro). Absolutamente tienes que pasar por 2 virtuales para descomponerlo.
 
 # Establecer la conexión a Alexa

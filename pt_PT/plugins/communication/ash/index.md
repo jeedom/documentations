@@ -10,6 +10,10 @@ Ele pode operar através de um serviço em nuvem fornecido pela Jeedom.
 
 > **IMPORTANTE**
 >
+> É absolutamente necessário que seu Jeedom esteja acessível em HTTPS (o plug-in não funciona em HTTP) válido (portanto, nenhum certificado autoassinado))
+
+> **IMPORTANTE**
+>
 > O plug-in não suporta equipamentos com funções duplas (2 saídas como certo módulo Fibaro zwave). Você absolutamente tem que passar por 2 virtuais para quebrá-lo.
 
 # Estabelecendo a conexão com o Alexa
