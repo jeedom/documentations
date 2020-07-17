@@ -49,6 +49,9 @@ Vous retrouvez dans le premier onglet toute la configuration de votre équipemen
 Le tableau des conditions vous permet de spécifier des conditions de positionnement spécifique, qui prenne la main sur le tableau de position du volets :
 - Position : si la condition est vrai, la position du volets
 - Mode : la condition ne marche que si le volet est dans ce mode (vous pouvez en mettre plusieurs séparé par des ,). Si ce champs n'est pas remplis alors la condition sera testée quelque soit le mode
+>**IMPORTANT**
+>
+>On parle ici du mode du volet cela N'A RIEN A VOIR avec le plugin mode
 - Action immediate : agit immediatement dès que la condition est vrai (n'attend donc pas le cron de verification)
 - Suspendre : si la condition est vrai elle suspend la gestion automatique du volet
 - Condition : votre condition

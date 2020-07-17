@@ -48,8 +48,11 @@ Encontrarás en la primera pestaña toda la configuración de tu equipo :
 
 La tabla de condiciones le permite especificar condiciones de posicionamiento específicas, que se apoderan de la tabla de posición de la aleta :
 - Posición : si la condición es verdadera, la posición de las aletas
-- Modo : la condición solo funciona si el obturador está en este modo (puede poner varios separados por). Si este campo no se llena, la condición se probará independientemente del modo
-- Acción inmediata : actúa inmediatamente tan pronto como la condición es verdadera (por lo tanto, no espera el cron de verificación)
+- Modo : la condición solo funciona si el obturador está en este modo (puede poner varios separados por ,). Si este campo no se llena, la condición se probará independientemente del modo
+>**Importante**
+>
+>Estamos hablando del modo de obturador aquí NO ES NADA VER CON el complemento de modo
+- Acción inmediata : actúa inmediatamente tan pronto como la condición sea verdadera (así que no espere a que se verifique el cron)
 - Suspender : si la condición es verdadera, suspende la gestión automática del obturador
 - Condición : su condicion
 - Comentario : campos libres para comentarios
@@ -80,10 +83,10 @@ Aquí puede ver los planes de posicionamiento del obturador realizados en la pla
 
 - Azimut del sol : ángulo azimutal actual del sol
 - Salida del sol : ángulo de elevación actual del sol
-- Ejecutar acción : fuerza el cálculo de la posición del obturador de acuerdo con la posición del sol y las condiciones y le aplica el resultado sea cual sea el estado de gestión (en pausa o no)
+- Ejecutar acción : obliga a calcular la posición del obturador de acuerdo con la posición del sol y las condiciones y le aplica el resultado independientemente del estado de gestión (en pausa o no))
 - Última posición : última posición solicitada desde el obturador por el complemento
-- Estado de gestión : estado de gestión (suspendido o no)
-- Reanudar : forzar el regreso al modo de administración automática (tenga en cuenta que este comando debe iniciarse para volver a la administración automática si ha cambiado la posición de su obturador manualmente y ha marcado la casilla "No tomar el control")
+- Estado de gestión : estado de gestión (suspendido o no))
+- Reanudar : forzar el retorno al modo de administración automática (tenga en cuenta que este comando debe iniciarse para volver a la administración automática si ha cambiado la posición de su obturador manualmente y ha marcado la casilla "No recuperar el control"")
 - Suspender : suspende el posicionamiento automático del obturador
 - Refrescar : actualizar los valores de los comandos "Acimut del sol" y "Elevación del sol""
 - Modo : modo de obturador actual

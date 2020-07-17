@@ -48,8 +48,11 @@ You will find in the first tab all the configuration of your equipment :
 
 The conditions table allows you to specify specific positioning conditions, which takes hold of the flap position table :
 - Position : if the condition is true, the position of the flaps
-- Fashion : the condition only works if the shutter is in this mode (you can put several separated by,). If this field is not filled then the condition will be tested whatever the mode
-- Immediate action : acts immediately as soon as the condition is true (therefore does not wait for the verification cron)
+- Fashion : the condition only works if the shutter is in this mode (you can put several separated by ,). If this field is not filled then the condition will be tested whatever the mode
+>**Important**
+>
+>We are talking about the shutter mode here IT'S NOTHING TO SEE with the mode plugin
+- Immediate action : acts immediately as soon as the condition is true (so do not wait for the verification cron)
 - To suspend : if the condition is true it suspends the automatic management of the shutter
 - Condition : your condition
 - Comment : free fields for comments
@@ -80,10 +83,10 @@ Here you can see the positioning plans of the shutter made in the Agenda plannin
 
 - Sun azimuth : current azimuth angle of the sun
 - Sun rise : current elevation angle of the sun
-- Execute action : forces the shutter position calculation according to the position of the sun and the conditions and applies the result to it whatever the management state (paused or not)
+- Execute action : forces the shutter position to be calculated according to the position of the sun and the conditions and applies the result to it regardless of the management state (paused or not)
 - Last Position : last position requested from the shutter by the plugin
 - Management status : management status (suspended or not)
-- Resume : force the return to automatic management mode (Note that this command must be launched to return to automatic management if you have changed the position of your shutter manually and checked the "Do not take over" box)
+- Resume : force the return to automatic management mode (Note that this command must be launched to return to automatic management if you have changed the position of your shutter manually and checked the box "Do not regain control"")
 - To suspend : suspends automatic shutter positioning
 - Refresh : update the values of the "Sun azimuth" and "Sun elevation" commands"
 - Fashion : current shutter mode

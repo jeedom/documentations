@@ -48,8 +48,11 @@ Auf der ersten Registerkarte finden Sie die gesamte Konfiguration Ihrer Geräte 
 
 In der Bedingungstabelle können Sie bestimmte Positionierungsbedingungen angeben, die die Klappenpositionstabelle erfassen :
 - Position : Wenn die Bedingung erfüllt ist, die Position der Klappen
-- Modus : Die Bedingung funktioniert nur, wenn sich der Verschluss in diesem Modus befindet (Sie können mehrere durch, getrennt setzen). Wenn dieses Feld nicht ausgefüllt ist, wird die Bedingung unabhängig vom Modus getestet
-- Sofortige Aktion : wirkt sofort, sobald die Bedingung erfüllt ist (wartet daher nicht auf die Überprüfung cron)
+- Modus : Die Bedingung funktioniert nur, wenn sich der Verschluss in diesem Modus befindet (Sie können mehrere durch trennen ,). Wenn dieses Feld nicht ausgefüllt ist, wird die Bedingung unabhängig vom Modus getestet
+>**Wichtig**
+>
+>Wir sprechen hier über den Verschlussmodus. Mit dem Modus-Plugin ist nichts zu sehen
+- Sofortige Aktion : Wirkt sofort, sobald die Bedingung erfüllt ist (warten Sie also nicht auf die Überprüfung)
 - Anhalten : Wenn die Bedingung erfüllt ist, wird die automatische Verwaltung des Verschlusses unterbrochen
 - Zustand : Ihr Zustand
 - Kommentar : freie Felder für Kommentare
@@ -65,12 +68,12 @@ Hier können Sie die Positionierung des Verschlusses entsprechend der Sonnenposi
 - Azimut : Sonnenstandwinkel
 - Höhe : Höhenwinkel der Sonne
 - Position : Position des Verschlusses, wenn die Sonne im Azimut und in den Höhengrenzen steht
-- Zustand : zusätzliche Bedingung, die erfüllt sein muss, damit der Verschluss diese Position einnimmt (kann leer sein)
+- Zustand : Zusätzliche Bedingung, die erfüllt sein muss, damit der Verschluss diese Position einnimmt (kann leer sein)
 - Kommentar : freie Felder für Kommentare
 
 >**TIPP**
 >
->Kleiner Tipp die Seite [suncalc.org](https://www.suncalc.org) Sobald Ihre Adresse eingegeben wurde, können Sie den Sonnenstand (und damit den Azimut- und Elevationswinkel) entsprechend den Tagesstunden anzeigen (ziehen Sie einfach die kleine Sonne nach oben)
+>Kleiner Tipp die Seite [suncalc.org](https://www.suncalc.org) Sobald Ihre Adresse eingegeben wurde, können Sie den Sonnenstand (und damit den Azimut- und Elevationswinkel) entsprechend den Stunden des Tages anzeigen (ziehen Sie einfach die kleine Sonne nach oben)
 
 ## Planning
 
@@ -80,10 +83,10 @@ Hier sehen Sie die Positionierungspläne des Verschlusses, die in der Agenda-Pla
 
 - Sonnenazimut : aktueller Azimutwinkel der Sonne
 - Sonnenaufgang : aktueller Elevationswinkel der Sonne
-- Aktion ausführen : Erzwingt die Berechnung der Verschlussposition entsprechend dem Sonnenstand und den Bedingungen und wendet das Ergebnis unabhängig vom Verwaltungszustand (angehalten oder nicht) darauf an
+- Aktion ausführen : Erzwingt die Berechnung der Verschlussposition entsprechend dem Sonnenstand und den Bedingungen und wendet das Ergebnis unabhängig vom Verwaltungszustand (angehalten oder nicht) darauf an)
 - Letzte Position : Letzte vom Plugin vom Verschluss angeforderte Position
 - Managementstatus : Managementstatus (ausgesetzt oder nicht)
-- Zusammenfassung : Erzwingen Sie die Rückkehr in den automatischen Verwaltungsmodus (Beachten Sie, dass dieser Befehl gestartet werden muss, um zur automatischen Verwaltung zurückzukehren, wenn Sie die Position Ihres Verschlusses manuell geändert und das Kontrollkästchen "Nicht übernehmen" aktiviert haben.)
+- Zusammenfassung : Erzwingen Sie die Rückkehr in den automatischen Verwaltungsmodus (Beachten Sie, dass dieser Befehl gestartet werden muss, um zur automatischen Verwaltung zurückzukehren, wenn Sie die Position Ihres Verschlusses manuell geändert und das Kontrollkästchen "Keine Kontrolle wiedererlangen" aktiviert haben")
 - Anhalten : Unterbricht die automatische Verschlusspositionierung
 - Aktualisieren : Aktualisieren Sie die Werte der Befehle "Sonnenazimut" und "Sonnenhöhe""
 - Modus : aktueller Verschlussmodus

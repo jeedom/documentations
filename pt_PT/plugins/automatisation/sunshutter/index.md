@@ -48,8 +48,11 @@ Você encontrará na primeira aba toda a configuração do seu equipamento :
 
 A tabela de condições permite especificar condições de posicionamento específicas, que são mantidas na tabela de posição da aba :
 - Posição : se a condição for verdadeira, a posição dos retalhos
-- Modo : a condição só funciona se o obturador estiver neste modo (você pode colocar vários separados por,). Se este campo não for preenchido, a condição será testada independentemente do modo
-- Ação imediata : age imediatamente assim que a condição for verdadeira (portanto, não espera pelo cron de verificação)
+- Modo : a condição só funciona se o obturador estiver neste modo (você pode colocar vários ,). Se este campo não for preenchido, a condição será testada independentemente do modo
+>**IMPORTANTE**
+>
+>Estamos falando do modo do obturador aqui. NÃO É NADA A VER COM o plugin do modo
+- Ação imediata : age imediatamente assim que a condição for verdadeira (portanto, não espere pela verificação cron)
 - Suspender : se a condição for verdadeira, suspende o gerenciamento automático do obturador
 - Condição : sua condição
 - COMMENTAIRE : campos livres para comentários
@@ -65,7 +68,7 @@ A tabela de condições permite especificar condições de posicionamento espec�
 - Azimute : ângulo de posição do sol
 - Elevação : ângulo de altura do sol
 - Posição : posição do obturador para tirar se o sol estiver nos limites de azimute e elevação
-- Condição : condição adicional a satisfazer para que o obturador assuma esta posição (pode estar vazio)
+- Condição : condição adicional a satisfazer para que o obturador tome esta posição (pode estar vazio)
 - COMMENTAIRE : campos livres para comentários
 
 >**DICA**
@@ -80,10 +83,10 @@ Aqui você pode ver os planos de posicionamento da persiana feitos no planejamen
 
 - Azimute do sol : ângulo atual do azimute do sol
 - Nascer do sol : ângulo de elevação atual do sol
-- Executar ação : força o cálculo da posição do obturador de acordo com a posição do sol e as condições e aplica o resultado a ele, independentemente do estado de gerenciamento (pausado ou não)
+- Executar ação : força a posição do obturador a ser calculada em função da posição do sol e das condições e aplica o resultado a ele, qualquer que seja o estado de gerenciamento (pausado ou não)
 - Última posição : última posição solicitada do obturador pelo plugin
 - Status de gerenciamento : status de gerenciamento (suspenso ou não)
-- Resumo : forçar o retorno ao modo de gerenciamento automático (observe que este comando deve ser iniciado para retornar ao gerenciamento automático se você tiver alterado a posição do obturador manualmente e marcado a caixa "Não assumir")
+- Resumo : forçar o retorno ao modo de gerenciamento automático (observe que este comando deve ser iniciado para retornar ao gerenciamento automático se você tiver alterado a posição do obturador manualmente e marcado a caixa "Não recuperar o controle"")
 - Suspender : suspende o posicionamento automático do obturador
 - Legal : atualize os valores dos comandos "Sun azimuth" e "Sun elevation""
 - Modo : modo de obturador atual
