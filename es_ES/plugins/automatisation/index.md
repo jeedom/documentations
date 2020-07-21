@@ -9,4 +9,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="sunshutter/sunshutter_icon.png" class="pluginLogo" width="100" />|Gestión de persianas|Complemento para gestionar la apertura / cierre de las persianas según el sol y otras condiciones|[Documentación](sunshutter/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)<br/>[Cambios](sunshutter/changelog.md)|
+|<img src="sunshutter/sunshutter_icon.png" class="pluginLogo" width="100" />|Gestión de persianas|Complemento para gestionar la apertura / cierre de las persianas según el sol y otras condiciones. IMPORTANTE: este complemento no funciona con todos o nada de los obturadores que ABSOLUTAMENTE necesita obturadores con ajuste proporcional (%)|[Documentación](sunshutter/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)<br/>[Cambios](sunshutter/changelog.md)|

@@ -203,6 +203,7 @@
         " Changelog*": " Änderungsprotokoll*"
     },
     "plugins\/automatisation\/index.md": {
+        "IMPORTANT ce plugin ne marche pas avec des volets tout ou rien il faut ABSOLUMENT des volets avec reglage proportionnels (%": "WICHTIG Dieses Plugin funktioniert nicht mit allen oder nichts Rollläden, es ist ABSOLUT notwendig Rollläden mit proportionaler Einstellung (%",
         "Gestion Volets": "Verschlussmanagement",
         "Plugin pour gerer l'ouverture\/fermeture des volets en fonction du soleil et d'autre condition": "Plugin zum Verwalten des Öffnens \/ Schließens der Fensterläden entsprechend der Sonne und anderen Bedingungen",
         "Seuls les plugins officiels ont leur documentation ici": "Nur offizielle Plugins haben hier ihre Dokumentation",
