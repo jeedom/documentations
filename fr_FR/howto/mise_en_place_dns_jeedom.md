@@ -20,9 +20,7 @@ Ce principe a l'avantage de ne pas exposer votre Jeedom sur internet, pas d'ouve
 
 > **IMPORTANT**
 >
-> Pour que cela fonctionne il faut que votre box autorise une connexion sortante sur les ports 1194,1195,1996,1997,1198,1199,2000 et 2001 en UDP. En particulier pour les Livebox et routeur 4g Huawei il faut baisser le niveau du firewall,pour les personnes chez free il faut aussi parfois passer en ip fixe (sinon free partage votre ip entre plusieurs utilisateurs ce qui pose soucis au DNS) de plus pour les Freebox Delta il faut désactiver le contrôle parental
-
-Nous avons actuellement 6 serveurs DNS répartis sur 2 machines physiques différentes, ayant chacun une connexion 500Mbit/s. 
+> Pour que cela fonctionne il faut que votre box autorise une connexion sortante sur les ports 1194,1195,1996,1997,1198,1199,2000 et 2001 en UDP. En particulier pour les Livebox et routeur 4g Huawei il faut baisser le niveau du firewall,pour les personnes chez free il faut aussi parfois passer en ip fixe (sinon free partage votre ip entre plusieurs utilisateurs ce qui pose soucis au DNS) de plus pour les Freebox Delta il faut désactiver le contrôle parental 
 
 ## Mise en place
 
@@ -66,4 +64,4 @@ Voilà votre Jeedom est accessible de l'exterieure en https
 
 > **Ma configuration est bonne mais impossible d'avoir une page ça tourne à l'infini**
 >
-> Si votre configuration est bonne (Initialization Sequence Completed dans le log openvpn_DNS_Jeedom) mais que vous n'arrivez pas à avoir la page de connexion qui marche avec l'application mobile de manière aléatoire et vous êtes en 4g ou en fin de ligne ADSL. Il faut dans ce cas cocher la case dans la configuration réseaux jeedom comme quoi vous etes en 4g et relancer le dns comme ca jeedom va changer le mtu de votre connexion pour reduire la taille des packets.
+> Si votre configuration est bonne (Initialization Sequence Completed dans le log openvpn_DNS_Jeedom) mais que vous n'arrivez pas à avoir la page de connexion qui marche avec l'application mobile de manière aléatoire et vous êtes en 4g ou en fin de ligne ADSL. Il faut dans ce cas cocher la case dans la configuration réseaux jeedom comme quoi vous etes en 4g et relancer le dns comme ca jeedom va changer le mtu de votre connexion pour reduire la taille des packets. En fonction des versions de Jeedom cette option est automatiquement gérée par le core (et donc n'apparait pas) il suffit de redemarre le DNS.
