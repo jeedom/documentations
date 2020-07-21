@@ -20,9 +20,7 @@ Dieses Prinzip hat den Vorteil, dass Sie Ihr Jeedom nicht im Internet verfügbar
 
 > **Wichtig**
 >
-> Damit dies funktioniert, muss Ihre Box eine ausgehende Verbindung an den Ports 1194,1195,1996,1997,1198,1199,2000 und 2001 in UDP zulassen. Insbesondere für die Huawei Livebox und den 4g-Router müssen Sie die Firewall-Ebene senken. Für freie Benutzer müssen Sie manchmal auch zu einer festen IP wechseln (andernfalls können Sie Ihre IP kostenlos zwischen mehreren Benutzern teilen, was Bedenken hinsichtlich DNS aufwirft) Freebox Delta müssen Sie die Kindersicherung deaktivieren
-
-Wir haben derzeit 6 DNS-Server, die auf 2 verschiedenen physischen Computern mit jeweils einer 500-Mbit / s-Verbindung verteilt sind. 
+> Damit dies funktioniert, muss Ihre Box eine ausgehende Verbindung an den Ports 1194,1195,1996,1997,1198,1199,2000 und 2001 in UDP zulassen. Insbesondere für die Huawei Livebox und den 4g-Router müssen Sie die Firewall-Ebene senken. Für freie Benutzer müssen Sie manchmal auch zu einer festen IP wechseln (andernfalls können Sie Ihre IP kostenlos zwischen mehreren Benutzern teilen, was Bedenken hinsichtlich DNS aufwirft) Freebox Delta müssen Sie die Kindersicherung deaktivieren 
 
 ## Einrichten
 
@@ -66,4 +64,4 @@ Hier ist Ihr Jeedom von außen in https zugänglich
 
 > **Meine Konfiguration ist gut, aber es ist unmöglich, eine Seite zu haben, die endlos umblättert**
 >
-> Wenn Ihre Konfiguration korrekt ist (Initialisierungssequenz im Protokoll openvpn_DNS_Jeedom abgeschlossen), Sie jedoch nicht die Anmeldeseite erhalten können, die zufällig mit der mobilen Anwendung funktioniert, und Sie sich in 4g oder am Ende der ADSL-Zeile befinden. In diesem Fall müssen Sie das Kontrollkästchen in der Jeedom-Netzwerkkonfiguration wie in 4g aktivieren und die DNS neu starten, damit Jeedom die MTU Ihrer Verbindung ändert, um die Größe der Pakete zu verringern.
+> Wenn Ihre Konfiguration korrekt ist (Initialisierungssequenz im Protokoll openvpn_DNS_Jeedom abgeschlossen), Sie jedoch nicht die Anmeldeseite erhalten können, die zufällig mit der mobilen Anwendung funktioniert, und Sie sich in 4g oder am Ende der ADSL-Zeile befinden. In diesem Fall müssen Sie das Kontrollkästchen in der Jeedom-Netzwerkkonfiguration wie in 4g aktivieren und die DNS neu starten, damit Jeedom die MTU Ihrer Verbindung ändert, um die Größe der Pakete zu verringern. Abhängig von den Versionen von Jeedom wird diese Option automatisch vom Core verwaltet (und wird daher nicht angezeigt). Starten Sie einfach den DNS neu.

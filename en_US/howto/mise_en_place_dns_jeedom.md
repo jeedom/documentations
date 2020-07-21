@@ -20,9 +20,7 @@ This principle has the advantage of not exposing your Jeedom on the internet, no
 
 > **IMPORTANT**
 >
-> For this to work, your box must allow an outgoing connection on ports 1194,1195,1996,1997,1198,1199,2000 and 2001 in UDP. In particular for the Huawei Livebox and 4g router, you have to lower the firewall level, for people at free it is also sometimes necessary to switch to a fixed ip (otherwise free sharing your ip between several users which poses concerns for the DNS) more for Freebox Delta you have to deactivate parental control
-
-We currently have 6 DNS servers distributed on 2 different physical machines, each having a 500Mbit / s connection. 
+> For this to work, your box must allow an outgoing connection on ports 1194,1195,1996,1997,1198,1199,2000 and 2001 in UDP. In particular for the Huawei Livebox and 4g router, you have to lower the firewall level, for people at free it is also sometimes necessary to switch to a fixed ip (otherwise free sharing your ip between several users which poses concerns for the DNS) more for Freebox Delta you have to deactivate parental control 
 
 ## Set up
 
@@ -66,4 +64,4 @@ Here is your Jeedom is accessible from the outside in https
 
 > **My configuration is good but impossible to have a page it turns endlessly**
 >
-> If your configuration is correct (Initialization Sequence Completed in the log openvpn_DNS_Jeedom) but you cannot get the login page which works with the mobile application randomly and you are in 4g or at the end of the ADSL line. In this case, you must check the box in the jeedom network configuration like what you are in 4g and relaunch the dns like that jeedom will change the mtu of your connection to reduce the size of the packets.
+> If your configuration is correct (Initialization Sequence Completed in the log openvpn_DNS_Jeedom) but you cannot get the login page which works with the mobile application randomly and you are in 4g or at the end of the ADSL line. In this case, you must check the box in the jeedom network configuration like what you are in 4g and relaunch the dns like that jeedom will change the mtu of your connection to reduce the size of the packets. Depending on the versions of Jeedom, this option is automatically managed by the core (and therefore does not appear) just restart the DNS.
