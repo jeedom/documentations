@@ -51,7 +51,7 @@ Entonces puedes seguir la documentación [Primer paso con Jeedom](https://doc.je
 
 ## Descargar una imagen de Strecht de Debian - netinstall
 
-Descargue una imagen minimalista de Debian 10 Buster [Aquí](https://cdimage.debian.org/debian-cd/current/amd64/bt-cd/debian-10.3.0-amd64-netinst.iso.torrent)
+Descargue una imagen minimalista de Debian 10 Buster [aquí](https://www.debian.org/CD/http-ftp/), eligiendo CD -> AMD64
 
 ## Configurar el entorno VM
 
