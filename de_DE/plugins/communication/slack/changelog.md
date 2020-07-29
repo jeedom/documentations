@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 29.07.2020
+
+- Fehlerbehebungen
+
 # 12/03/2019
 
 - Korrektur eines Fehlers bei der Generierung der Slack Contact URL für Jeedom
@@ -18,7 +22,7 @@
 
 # 25.01.2019
 
-- Fehlerbehebung (für Fragen)
+- Fehlerbehebung (für fragen)
 - Standardisierung der Benutzeroberfläche
 
 # 29.03.2008

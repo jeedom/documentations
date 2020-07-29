@@ -1,6 +1,6 @@
 # Slack Plugin
 
-Dieses Plugin ermöglicht es, eine Verbindung zwischen Slack und Jeedom herzustellen, um Benachrichtigungen von Jeedom zu senden oder mit Jeedom zu chatten (mithilfe von Interaktionen).
+Mit diesem Plugin können Sie eine Verbindung zwischen Slack und Jeedom herstellen, um Benachrichtigungen von Jeedom zu senden oder mit Jeedom zu chatten (mithilfe von Interaktionen)).
 
 # Plugin Konfiguration 
 
@@ -24,25 +24,25 @@ Sobald Sie auf eine davon klicken, erhalten Sie :
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name de l'équipement** : Name Ihrer Slack-Ausrüstung
+-   **Name der Ausrüstung** : Name Ihrer Slack-Ausrüstung
 -   **Aktivieren** : macht Ihre Ausrüstung aktiv
 -   **Sichtbar** : macht es auf dem Dashboard sichtbar
--   **Domain** : Domainname Ihres Slack (erlaubt insbesondere, wenn Sie mehrere Slack haben, um diese zu unterscheiden)
+-   **Domain** : Domainname Ihres Slack (insbesondere wenn Sie mehrere Slacks zur Unterscheidung haben)
 -   **Token-Authentifizierung** : Slack-API-Token, das nur zum Senden von Dateien (z. B. zum Erfassen einer Kamera) nützlich ist (siehe unten)
--   **URL zurückgeben** : Dies ist die URL, die im Slack-Webhook angegeben werden muss (bitte beachten Sie, dass Ihr Jeedom von außen zugänglich sein muss)
+-   **URL zurückgeben** : Dies ist die URL, die im Slack-Webhook angegeben werden muss (Vorsicht, Ihr Jeedom muss von außen zugänglich sein)
 
 Nachfolgend finden Sie die Konfiguration der Befehle :
 
 -   **Name** : Name der Bestellung
 -   **Webhook** : URL zum Anrufen, um eine Nachricht auf Slack zu senden
 -   **Ziel** : Nicht obligatorisch, ermöglicht das Erzwingen des Sendens einer Nachricht an einen Kanal oder einen Benutzer
--   Erweiterte Konfiguration (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.)
+-   Erweiterte Konfiguration (kleine gekerbte Räder) : Dient zum Anzeigen der erweiterten Konfiguration des Befehls (Protokollierungsmethode, Widget usw.))
 -   Test : Wird zum Testen des Befehls verwendet
 -   Löschen (unterschreiben -) : ermöglicht das Löschen des Befehls
 
 > **Spitze**
 >
-> Standardmäßig gibt es 2 Befehle : Absender, der Ihnen den Namen des letzten Absenders der Nachricht gibt, und Nachricht, der Ihnen die Nachricht gibt. Dies kann nützlich sein, wenn Sie etwas tun möchten, das mit Interaktionen nicht möglich ist, um ein Szenario beim Eintreffen eines neuen auszulösen Nachricht zum Beispiel und stellen Sie den Wert wieder her (wir können uns zum Beispiel vorstellen, die Nachricht auf Sonos oder Karotz lesen zu lassen)
+> Standardmäßig gibt es 2 Befehle : Absender, der Ihnen den Namen des letzten Absenders der Nachricht gibt, und Nachricht, die Ihnen die Nachricht gibt. Dies kann verwendet werden, wenn Sie etwas tun möchten, das mit den Interaktionen nicht möglich ist, um ein Szenario beim Eintreffen eines neuen auszulösen Nachricht zum Beispiel und rufen Sie den Wert davon ab (wir können uns zum Beispiel vorstellen, die Nachricht auf Sonos oder Karotz lesen zu lassen)
 
 Lockere Kontoerstellung 
 
@@ -82,9 +82,9 @@ Dann "Outgoing WebHooks Integration hinzufügen" :
 
 Die verschiedenen Parameter finden Sie unten auf der Seite :
 
--   **Kanal** : nicht erforderlich, lassen Sie uns Slack anweisen, alles in diesem Kanal an Jeedom zu senden. Wir können zum Beispiel einen Kanal nur für Jeedom erstellen (praktischer als ein Triggerwort zu setzen)
--   **Wortauslöser** : nicht obligatorisch, wenn Sie einen Kanal gesetzt haben, sonst ist es absolut notwendig. In diesem Feld können Sie ein Auslösewort für das Senden an Jeedom definieren. Wenn Sie beispielsweise Jeedom eingeben, müssen alle Ihre Anforderungen mit Jeedom beginnen (z : Jeedom wie viel ist er im Raum)
--   **URL (s)** : Die anzurufende URL finden Sie auf Ihrer Ausrüstungsseite unter Jeedom unter dem Namen "Return URL""
+-   **Kanal** : nicht erforderlich, lassen Sie uns Slack anweisen, alles in diesem Kanal an Jeedom zu senden. Zum Beispiel können wir einen Kanal nur für Jeedom erstellen (praktischer als ein Triggerwort zu setzen)
+-   **Wort auslösen (s))** : nicht obligatorisch, wenn Sie einen Kanal gesetzt haben, sonst ist es absolut notwendig. In diesem Feld können Sie ein Auslösewort für das Senden an Jeedom definieren. Wenn Sie beispielsweise Jeedom eingeben, müssen alle Ihre Anforderungen mit Jeedom beginnen (z : Jeedom wie viel kostet es im Schlafzimmer)
+-   **URL (s))** : Die anzurufende URL finden Sie auf Ihrer Ausrüstungsseite unter Jeedom unter dem Namen "Return URL""
 
 Die anderen Felder sind nicht nützlich, außer vielleicht dem "Namen anpassen", mit dem der Name des Jeedom-Bots definiert werden kann (Name, mit dem Jeedom antwortet). Sie können auch mit "Symbol anpassen" das Symbol von Jeedom ändern.
 
@@ -118,7 +118,7 @@ Ganz unten finden Sie "Incoming WebHooks" :
 
 ![slack13](./images/slack13.PNG)
 
-Dann müssen Sie einen Kanal oder einen Standardzielbenutzer auswählen (Sie können dann in Jeedom einen pro Befehl angeben) :
+Anschließend müssen Sie einen Kanal oder einen Standardzielbenutzer auswählen (Sie können dann einen Befehl per Befehl in Jeedom angeben) :
 
 ![slack14](./images/slack14.PNG)
 
@@ -130,7 +130,7 @@ Am Ende der Seite finden Sie die Informationen zum Webhook. Sie müssen lediglic
 
 > **Spitze**
 >
-> Im Zielfeld des Befehls in Jeedom können Sie einen Kanal (ex \#monchannel) oder einen Benutzer (ex @toto) angeben.
+> Im Befehlszielfeld in Jeedom können Sie einen Kanal (ex \#monchannel) oder einen Benutzer (ex @toto) angeben).
 
 Hier unter Jeedom müssen Sie nur speichern und dort können Sie von Jeedom aus Nachrichten auf Slack senden
 

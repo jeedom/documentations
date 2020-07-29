@@ -1,6 +1,6 @@
 # Complemento flojo
 
-Este complemento permite establecer una conexión entre Slack y Jeedom para enviar alertas desde Jeedom o chatear con Jeedom (usando interacciones).
+Este complemento le permite establecer una conexión entre Slack y Jeedom para enviar alertas desde Jeedom o chatear con Jeedom (mediante interacciones).
 
 # Configuración del plugin 
 
@@ -24,25 +24,25 @@ Una vez que haces clic en uno de ellos, obtienes :
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nombre de l'équipement** : nombre de su equipo Slack
+-   **Nombre del equipo** : nombre de su equipo Slack
 -   **Activar** : activa su equipo
 -   **Visible** : lo hace visible en el tablero
--   **Dominio** : nombre de dominio de su Slack (permite en particular si tiene varios Slack para diferenciarlos)
+-   **Dominio** : nombre de dominio de su Slack (especialmente si tiene varios Slacks para diferenciarlos)
 -   **Autenticación de token** : Token API de Slack, útil solo para enviar archivos (por ejemplo, capturar una cámara), consulte a continuación el método para recuperarlo
--   **URL de retorno** : esta es la URL que se debe proporcionar en el webhook de Slack (tenga en cuenta que su Jeedom debe ser accesible desde el exterior)
+-   **URL de retorno** : esta es la URL que debe darse en el webhook de Slack (tenga cuidado, su Jeedom debe ser accesible desde el exterior)
 
 A continuación encontrará la configuración de los comandos :
 
 -   **Nombre** : Nombre de la orden
 -   **Web hook** : URL para llamar para enviar un mensaje en Slack
 -   **Destino** : no obligatorio, permite forzar el envío de un mensaje a un canal o usuario
--   Configuración avanzada (ruedas con muescas pequeñas) : muestra la configuración avanzada del comando (método de registro, widget, etc.)
+-   Configuración avanzada (ruedas pequeñas con muescas) : se utiliza para mostrar la configuración avanzada del comando (método de registro, widget, etc)
 -   Probar : Se usa para probar el comando
 -   Eliminar (firmar -) : permite eliminar el comando
 
 > **Punta**
 >
-> Por defecto hay 2 comandos : El remitente que le da el nombre del último remitente del mensaje y el mensaje que le da el mensaje, esto puede ser útil, si desea hacer algo que no es posible con las interacciones para desencadenar un escenario a la llegada de uno nuevo mensaje, por ejemplo, y recuperar su valor (podemos imaginar, por ejemplo, que se lea el mensaje en Sonos o Karotz)
+> Por defecto hay 2 comandos : El remitente que le da el nombre del último remitente del mensaje y el mensaje que le da el mensaje, se puede usar, si desea hacer algo que no es posible con las interacciones para desencadenar un escenario a la llegada de uno nuevo mensaje, por ejemplo, y recuperar su valor (podemos imaginar, por ejemplo, que se lea el mensaje en Sonos o Karotz)
 
 Creación de cuenta floja 
 
@@ -82,9 +82,9 @@ Luego "Agregar integración de WebHooks salientes" :
 
 Encontrará los diferentes parámetros en la parte inferior de la página :
 
--   **Canal** : no es obligatorio, digamos a Slack que envíe todo en este canal a Jeedom. Podemos, por ejemplo, crear un canal solo para Jeedom (más práctico que poner una palabra clave)
--   **Word Trigger (s)** : no es obligatorio si ha puesto un canal, de lo contrario es absolutamente necesario. Este campo le permite definir una palabra activadora para enviar a Jeedom, por ejemplo, si coloca Jeedom todas sus solicitudes deben comenzar con Jeedom (ej : Jeedom cuánto está él en la habitación)
--   **URL (s)** : URL para llamar, la encontrará en la página de su equipo en Jeedom bajo el nombre de "URL de retorno"
+-   **Canal** : no es obligatorio, digamos a Slack que envíe todo en este canal a Jeedom. Por ejemplo, podemos crear un canal solo para Jeedom (más práctico que poner una palabra de activación)
+-   **Desencadenar palabra (s))** : no es obligatorio si ha puesto un canal, de lo contrario es absolutamente necesario. Este campo le permite definir una palabra activadora para enviar a Jeedom, por ejemplo, si coloca Jeedom todas sus solicitudes deben comenzar con Jeedom (ej : Jeedom cuanto cuesta en el dormitorio)
+-   **URL (s))** : URL para llamar, la encontrará en la página de su equipo en Jeedom bajo el nombre de "URL de retorno"
 
 Los otros campos no son útiles, excepto quizás el "Personalizar nombre" que permite definir el nombre del bot Jeedom (nombre con el que responde Jeedom), también puede cambiar el icono de Jeedom con el "Personalizar icono".
 
