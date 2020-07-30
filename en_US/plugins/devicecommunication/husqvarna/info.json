@@ -6,5 +6,7 @@
 	"require" : "3.0",
 	"category" : "devicecommunication",
 	"hasDependency" : false,
-	"hasOwnDeamon" : false
+	"hasOwnDeamon" : false,
+	"language" : ["fr_FR","en_US","de_DE","sp_SP"],
+"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
 }

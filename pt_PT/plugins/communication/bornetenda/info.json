@@ -10,5 +10,7 @@
     "hasOwnDeamon": false,
     "maxDependancyInstallTime": 0,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/bornetenda\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/bornetenda\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/bornetenda\/",
+    "language" : ["fr_FR","en_US","de_DE","sp_SP"],
+"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
 }

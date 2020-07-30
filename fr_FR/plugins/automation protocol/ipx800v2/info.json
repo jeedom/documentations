@@ -5,5 +5,7 @@
 	"author" : "Jeedom Legacy",
 	"require" : "2.0",
 	"category" : "automation protocol",
-	"hasOwnDeamon" : true
+	"hasOwnDeamon" : true,
+	"language" : ["fr_FR","en_US","de_DE","sp_SP"],
+"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
 }
