@@ -5,12 +5,35 @@
     "author": "Jeedom Legacy",
     "require": "1.124.0",
     "category": "communication",
-    "description": "Auteur du plugin : Thomas Guenneguez<br>ATTENTION, il ne s’agit pas d’un plugin Officiel Jeedom mais d’un plugin développé par une tierce personne et dont l’évolution a été abandonnée. L’équipe technique Jeedom assurera l’assistance sur ce plugin sans obligation de résultat.<br>Plugin permettant de gérer les Bornes Tenda W301A.",
+    "description": {
+        "fr_FR": "Auteur du plugin : Thomas Guenneguez<br>ATTENTION, il ne s’agit pas d’un plugin Officiel Jeedom mais d’un plugin développé par une tierce personne et dont l’évolution a été abandonnée. L’équipe technique Jeedom assurera l’assistance sur ce plugin sans obligation de résultat.<br>Plugin permettant de gérer les Bornes Tenda W301A.",
+        "en_US": "Author of the plugin: Thomas Guenneguez <br> WARNING, this is not an Official Jeedom plugin but a plugin developed by a third party and whose evolution has been abandoned. The Jeedom technical team will provide assistance on this plugin without any obligation of result. <br> Plugin to manage Tenda W301A Terminals",
+        "es_ES": "Autor del complemento: Thomas Guenneguez <br> ADVERTENCIA, este no es un complemento oficial de Jeedom, sino un complemento desarrollado por un tercero y cuya evolución ha sido abandonada. El equipo técnico de Jeedom proporcionará asistencia en este complemento sin ninguna obligación de resultado. <br> Complemento para administrar terminales Tenda W301A",
+        "de_DE": "Autor des Plugins: Thomas Guenneguez <br> WARNUNG, dies ist kein offizielles Jeedom-Plugin, sondern ein Plugin, das von einem Dritten entwickelt wurde und dessen Entwicklung aufgegeben wurde. Das technische Team von Jeedom wird dieses Plugin ohne Ergebnisverpflichtung unterstützen. <br> Plugin zur Verwaltung von Tenda W301A Terminals",
+        "pt_PT": "Autor do plugin: Thomas Guenneguez <br> AVISO, este não é um plugin oficial do Jeedom, mas um plugin desenvolvido por terceiros e cuja evolução foi abandonada. A equipe técnica da Jeedom fornecerá assistência neste plug-in sem nenhuma obrigação de resultado. <br> Plugin para gerenciar os terminais Tenda W301A"
+    },
     "hasDependency": false,
     "hasOwnDeamon": false,
     "maxDependancyInstallTime": 0,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/bornetenda\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/bornetenda\/",
-    "language" : ["fr_FR","en_US","de_DE","sp_SP"],
-"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "it_IT",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

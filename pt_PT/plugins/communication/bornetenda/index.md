@@ -22,11 +22,11 @@ Então defina :
 
 -   *''Ativar '*'(verifique, caso contrário, o equipamento não será utilizável)
 
--   *''Visivél '*'(opcional se você não quiser torná-lo visível no painel)
+-   *''Visivél '*'(opcional se você não deseja torná-lo visível no painel)
 
 -   *''Endereço IP*''
 
--   *''Conta*''
+-   *''Compte*''
 
 -   *''Senha*''
 
@@ -40,7 +40,7 @@ Os dados são atualizados a cada minuto.
 
 Este plugin não gera um log, como tê-lo ?
 --------------------------------------------------
-É necessário ativar temporariamente a depuração do Jeedom (menu Configuração ⇒ Configuração de logs e mensagens ⇒ Ativar + Nível do log = Depuração).
+Primeiro, é necessário ativar temporariamente a depuração do Jeedom (menu Configuração ⇒ configuração de logs e mensagens ⇒ ativar + nível de log = depuração).
 
 Por que o plugin é gratuito ?
 --------------------------------

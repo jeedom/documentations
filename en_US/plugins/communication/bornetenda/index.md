@@ -22,11 +22,11 @@ Then define :
 
 -   *''Activate '*'(check, otherwise the equipment will not be usable)
 
--   *''Visible '*'(optional if you don't want to make it visible on the Dashboard)
+-   *''Visible '*'(optional if you do not want to make it visible on the Dashboard)
 
 -   *''IP adress*''
 
--   *''Account*''
+-   *''Compte*''
 
 -   *''Password*''
 
@@ -40,7 +40,7 @@ Data is refreshed every minute.
 
 This plugin does not generate a log, how to have it ?
 --------------------------------------------------
-It is necessary to temporarily activate the Jeedom debug (Configuration menu ⇒ Configuration of logs & messages ⇒ Activate + Log level = Debug).
+It is first necessary to temporarily activate Jeedom debugging (Configuration menu ⇒ Logs & messages configuration ⇒ Activate + Log level = Debug).
 
 Why the plugin is free ?
 --------------------------------

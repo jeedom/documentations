@@ -1,11 +1,28 @@
 {
-	"id" : "ipx800v2",
-	"name" : "ipx800 V2",
-	"licence" : "AGPL",
-	"author" : "Jeedom Legacy",
-	"require" : "2.0",
-	"category" : "automation protocol",
-	"hasOwnDeamon" : true,
-	"language" : ["fr_FR","en_US","de_DE","sp_SP"],
-"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+    "id": "ipx800v2",
+    "name": "ipx800 V2",
+    "licence": "AGPL",
+    "author": "Jeedom Legacy",
+    "require": "2.0",
+    "category": "automation protocol",
+    "hasOwnDeamon": true,
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "it_IT",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

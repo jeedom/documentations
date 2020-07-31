@@ -12,7 +12,7 @@ Wir werden jetzt ein Gerät konfigurieren. Klicken Sie dazu auf *''Plugins / Kom
 
 Klicken Sie dann oben links auf die Schaltfläche "*''Ausrüstung hinzufügen*''"
 
-Geben Sie dann den Namen des Geräts ein (z. Terminal 1)
+Geben Sie dann den Namen des Geräts ein (z. Schalter 1)
 
 Dann definieren :
 
@@ -20,13 +20,13 @@ Dann definieren :
 
 -   *''Kategorie '*'(optionnelle)
 
--   *''Aktivieren '*'(überprüfen, sonst ist das Gerät nicht verwendbar)
+-   *''Aktivieren '*'(Überprüfen Sie, ob das Gerät sonst nicht verwendet werden kann)
 
 -   *''Sichtbar '*'(Optional, wenn Sie es nicht im Dashboard sichtbar machen möchten)
 
 -   *''IP-Adresse*''
 
--   *''Konto*''
+-   *''Compte*''
 
 -   *''Passwort*''
 
@@ -40,7 +40,7 @@ Die Daten werden jede Minute aktualisiert.
 
 Dieses Plugin generiert kein Protokoll, wie man es hat ?
 --------------------------------------------------
-Das Jeedom-Debug muss vorübergehend aktiviert werden (Konfigurationsmenü ⇒ Konfiguration von Protokollen und Meldungen ⇒ Aktivieren + Protokollstufe = Debug).
+Es ist zunächst erforderlich, das Jeedom-Debugging vorübergehend zu aktivieren (Konfigurationsmenü ⇒ Konfiguration von Protokollen und Nachrichten ⇒ Aktivieren + Protokollstufe = Debuggen)).
 
 Warum ist das Plugin kostenlos? ?
 --------------------------------

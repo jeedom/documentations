@@ -20,13 +20,13 @@ Luego defina :
 
 -   *''Categoría '*'(optionnelle)
 
--   *''Activar '*'(marque, de lo contrario el equipo no será utilizable)
+-   *''Activar '*'(verificar, de lo contrario el equipo no será utilizable)
 
 -   *''Visible '*'(opcional si no desea que sea visible en el Tablero)
 
 -   *''Dirección IP*''
 
--   *''Cuenta*''
+-   *''Compte*''
 
 -   *''Contraseña*''
 
@@ -40,7 +40,7 @@ Los datos se actualizan cada minuto.
 
 Este complemento no genera un registro, cómo tenerlo ?
 --------------------------------------------------
-Es necesario activar temporalmente la depuración de Jeedom (Menú de configuración ⇒ Configuración de registros y mensajes ⇒ Activar + Nivel de registro = Depurar).
+Primero es necesario activar temporalmente la depuración de Jeedom (Menú de configuración ⇒ Configuración de registros y mensajes ⇒ Activar + Nivel de registro = Depurar).
 
 Por qué el complemento es gratis ?
 --------------------------------

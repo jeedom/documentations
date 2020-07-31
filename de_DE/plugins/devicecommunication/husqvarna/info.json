@@ -1,12 +1,29 @@
 {
-	"id" : "husqvarna",
-	"name" : "Husqvarna",
-	"licence" : "AGPL",
-	"author" : "Jeedom Legacy",
-	"require" : "3.0",
-	"category" : "devicecommunication",
-	"hasDependency" : false,
-	"hasOwnDeamon" : false,
-	"language" : ["fr_FR","en_US","de_DE","sp_SP"],
-"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+    "id": "husqvarna",
+    "name": "Husqvarna",
+    "licence": "AGPL",
+    "author": "Jeedom Legacy",
+    "require": "3.0",
+    "category": "devicecommunication",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }
