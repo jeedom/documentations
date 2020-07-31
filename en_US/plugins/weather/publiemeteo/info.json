@@ -17,5 +17,7 @@
         "v4"
     ],
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/publiemeteo\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/publiemeteo\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/publiemeteo\/",
+    "language" : ["fr_FR","en_US","de_DE","sp_SP"],
+"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
 }
