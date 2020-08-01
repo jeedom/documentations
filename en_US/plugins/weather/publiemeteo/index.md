@@ -61,4 +61,4 @@ Once connected fill in the registration form. Then in the data menu, you must co
 >For wunderground.com they are sent every 15 minutes.
 
 - This plugin does not generate a log, how can we have one ?
->It is necessary beforehand to temporarily activate the Jeedom debug (Configuration menu => Configuration of logs & messages => Activate + Log level = Debug).
+>It is first necessary to temporarily activate Jeedom debugging (Configuration menu => Logs & messages configuration => Activate + Log level = Debug).

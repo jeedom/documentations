@@ -61,4 +61,4 @@ Una vez conectado complete el formulario de registro. Luego, en el menú de dato
 >Para wunderground.com se envían cada 15 minutos.
 
 - Este complemento no genera un registro, ¿cómo podemos tener uno? ?
->Es necesario de antemano activar temporalmente la depuración de Jeedom (Menú de configuración => Configuración de registros y mensajes => Activar + Nivel de registro = Depurar).
+>Primero es necesario activar temporalmente la depuración de Jeedom (Menú de configuración => Configuración de registros y mensajes => Activar + Nivel de registro = Depurar).

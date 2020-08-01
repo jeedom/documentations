@@ -35,7 +35,7 @@ Es wird daher notwendig sein, an einem der unterstützten Standorte eine Wetters
 ## So erstellen Sie eine Station in Awekia
 Il faut aller <a href="http://www.awekas.at/fr/benutzer.php?mode=new">http://www.awekas.at/fr/benutzer.php?Modus = neu </a>
 
->- Wählen Sie im Übertragungsmodus WSWIN (awekas.txt)
+>- Wählen Sie im Übertragungsmodus WSWIN (awekas.txt))
 >- Geben Sie im Pfad der Datendatei die URL ein, die sich auf der Plugin-Konfigurationsseite befindet.
 >- Die Daten werden regelmäßig regelmäßig von der Site abgerufen
 
@@ -61,4 +61,4 @@ Sobald die Verbindung hergestellt ist, füllen Sie das Registrierungsformular au
 >Für Wunderground.com werden sie alle 15 Minuten gesendet.
 
 - Dieses Plugin generiert kein Protokoll. Wie können wir eines haben? ?
->Es ist notwendig, vorher das Jeedom-Debug vorübergehend zu aktivieren (Konfigurationsmenü => Konfiguration von Protokollen und Nachrichten => Aktivieren + Protokollstufe = Debuggen).
+>Es ist zunächst erforderlich, das Jeedom-Debugging vorübergehend zu aktivieren (Konfigurationsmenü => Protokoll- und Nachrichtenkonfiguration => Aktivieren + Protokollstufe = Debuggen)).

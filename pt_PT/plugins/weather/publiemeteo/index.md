@@ -61,4 +61,4 @@ Uma vez conectado, preencha o formulário de registro. Em seguida, no menu de da
 >Para wunderground.com eles são enviados a cada 15 minutos.
 
 - Este plugin não gera um log, como podemos ter um ?
->É necessário previamente ativar temporariamente a depuração do Jeedom (menu Configuração => Configuração de logs e mensagens => Ativar + Nível do log = Depuração).
+>Primeiro, é necessário ativar temporariamente a depuração do Jeedom (menu Configuração => Configuração de logs e mensagens => Ativar + Nível do log = Depuração).

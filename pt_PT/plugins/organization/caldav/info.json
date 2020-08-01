@@ -1,10 +1,24 @@
 {
-	"id" : "caldav",
-	"name" : "Agenda Caldav",
-	"licence" : "AGPL",
-	"author" : "Jeedom Legacy",
-	"require" : "1.20",
-	"category" : "organization",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP"],
-"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+    "id": "caldav",
+    "name": "Agenda Caldav",
+    "licence": "AGPL",
+    "author": "Jeedom Legacy",
+    "require": "1.20",
+    "category": "organization",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }
