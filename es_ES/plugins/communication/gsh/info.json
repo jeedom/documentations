@@ -1,7 +1,13 @@
 {
     "id": "gsh",
     "name": "Google Smarthome",
-    "description": "Plugin pour piloter Jeedom avec un Google Home. Important : le plugin nécessite un abonnement aux services vocaux (3 mois offerts lors de l’achat du plugin) pour une configuration facile. Pour gérer cet abonnement : https:\/\/www.jeedom.com\/market\/index.php?v=d&p=profils#services Vous pouvez utiliser aussi le mode standalone mais sa configuration est plus complexe, nous vous conseillons vivement de lire la documentation avant tout achat si vous souhaitez utiliser ce mode.",
+    "description": {
+        "fr_FR": "Plugin pour piloter Jeedom avec un Google Home. Important : le plugin nécessite un abonnement aux services vocaux (3 mois offerts lors de l’achat du plugin) pour une configuration facile. Pour gérer cet abonnement : https:\/\/www.jeedom.com\/market\/index.php?v=d&p=profils#services Vous pouvez utiliser aussi le mode standalone mais sa configuration est plus complexe, nous vous conseillons vivement de lire la documentation avant tout achat si vous souhaitez utiliser ce mode.",
+        "en_US": "Plugin to control Jeedom with a Google Home. Important: the plugin requires a subscription to voice services (3 months free when purchasing the plugin) for easy configuration. To manage this subscription: https:\/\/www.jeedom.com\/market\/index.php?v=d&p=profils#services You can also use the standalone mode but its configuration is more complex, we strongly advise you to read the documentation before any purchase if you want to use this mode",
+        "es_ES": "Complemento para controlar Jeedom con un Google Home. Importante: el complemento requiere una suscripción a los servicios de voz (3 meses gratis al comprar el complemento) para una fácil configuración. Para administrar esta suscripción: https:\/\/www.jeedom.com\/market\/index.php?v=d&p=profils#services También puede usar el modo independiente pero su configuración es más compleja, le recomendamos encarecidamente que lea la documentación antes de cualquier compra si desea utilizar este modo",
+        "de_DE": "Plugin zur Steuerung von Jeedom mit einem Google Home. Wichtig: Für die einfache Konfiguration des Plugins ist ein Abonnement für Sprachdienste erforderlich (3 Monate kostenlos beim Kauf des Plugins). So verwalten Sie dieses Abonnement: https:\/\/www.jeedom.com\/market\/index.php?v=d&p=profils#services Sie können auch den Standalone-Modus verwenden, die Konfiguration ist jedoch komplexer. Wir empfehlen Ihnen dringend, die Dokumentation zu lesen vor jedem Kauf, wenn Sie diesen Modus verwenden möchten",
+        "pt_PT": "Plug-in para controlar o Jeedom com uma Página inicial do Google. Importante: o plug-in requer uma assinatura dos serviços de voz (3 meses grátis na compra do plug-in) para facilitar a configuração. Para gerenciar esta assinatura: https:\/\/www.jeedom.com\/market\/index.php?v=d&p=profils#services Você também pode usar o modo autônomo, mas sua configuração é mais complexa, é altamente recomendável que você leia a documentação antes de qualquer compra, se você quiser usar este modo"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.2.1",
@@ -9,5 +15,21 @@
     "hasDependency": true,
     "hasOwnDeamon": true,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/gsh\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/gsh\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/gsh\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

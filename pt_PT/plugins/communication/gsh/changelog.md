@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 08/02/2020
+
+- Correções de bugs
+
 # 07/07/2020
 
 >**IMPORTANTE**

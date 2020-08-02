@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 08/02/2020
+
+- Correcciones de errores
+
 # 07/07/2020
 
 >**Importante**
