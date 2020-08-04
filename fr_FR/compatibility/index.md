@@ -27,8 +27,7 @@ Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/)
 
 | Images         | Hardware       | Etat           | Accès SSH      | Remarques      |
 |----------------|----------------|----------------|----------------|----------------|
-| Jeedomboard    | jeedomboard et | Stable         | root/Mjeedom96 |                |
-|                | hummingboard   |                |                |                |
+| Jeedomboard    | jeedomboard et hummingboard | Stable         | root/Mjeedom96 |                |
 | Docker         |                | Beta           | root/Mjeedom96 |                |
 
 
