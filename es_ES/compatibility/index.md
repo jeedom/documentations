@@ -7,9 +7,9 @@ Colibrí            | Estable                  |
 Odroid C2               | Estable                  |                          
 INTELIGENTE                   | Estable                  |                          
 RPI1                    | Estable                  |                          
-RPI2                    | No oficial / estable     |                          
-RPI3                    | No oficial / estable     | Atención si usas un wifi / bluetooth Razberry no funcionará
-RPI4                    | No oficial / estable     | Atención si usas un wifi / bluetooth Razberry no funcionará
+RPI2                    | Estable                  |                          
+RPI3                    | Estable                  | Atención si usas un wifi / bluetooth Razberry no funcionará
+RPI4                    | Estable                  | Atención si usas un wifi / bluetooth Razberry no funcionará
 64 bit                 | Estable                  |                          
 32 bit                 | No compatible            |                          
 VMware                  | Estable                  | No hay soporte para VMware, solo para Jeedom.
@@ -25,14 +25,19 @@ El equipo de jeedom te recomienda (dependiendo de tu presupuesto) :
 
 Puedes encontrar todas las imágenes de Jeedom [aquí](https://images.jeedom.com/)
 
-| Imágenes         | Hardware       | Estado           | Acceso SSH      | Observaciones      |
-|----------------|----------------|----------------|----------------|----------------|
-| Jeedomboard    | Jeedomboard y | Estable         | root / Mjeedom96 |                |
-|                | colibrí   |                |                |                |
-| Estibador         |                | Beta           | root / Mjeedom96 |                |
+| Imágenes         | Hardware       | Estado           | Acceso SSH      | Observaciones      | Documentación      |
+|----------------|----------------|----------------|----------------|----------------|---------------------|
+| Jeedomboard    | Jeedomboard y Hummingboard | Estable         | root / Mjeedom96 |                | [Jeedomboard](https://doc.jeedom.com/es_ES/installation/mini) |
+| INTELIGENTE          | Jeedom Smart   | Estable           | root / Mjeedom96 |                | [INTELIGENTE](https://doc.jeedom.com/es_ES/installation/smart) |
+| RPI            | RPI1 / 2/3/4     | Beta           | root / Mjeedom96 |  Para rpi es recomendable tomar la versión rpi-64 para RPI 2/3/4 (la imagen es un 20% más eficiente)              | [RPI](https://doc.jeedom.com/es_ES/installation/rpi) |
+| x86_64         | Cualquier sistema x86_64 (Intel, AMD, VM...)               | Estable           | root / Mjeedom96 |                | [x86_64](https://doc.jeedom.com/es_ES/installation/vm) |
+| Estibador         |                | Beta           | root / Mjeedom96 |                | [Estibador](https://doc.jeedom.com/es_ES/installation/docker) |
+| Caja libre        | Freebox Delta  | Estable         | root / Mjeedom96 | Para instalar directamente desde Freebox               | [Caja libre](https://doc.jeedom.com/es_ES/installation/freeboxdelta) |
+| Synology (Docker)| NAS Synology | Beta          | root / Mjeedom96  |                | [Synology](https://doc.jeedom.com/es_ES/installation/synology) |
 
-
-Todas las demás imágenes descargables anteriormente ya no se mantienen, es mejor pasar por la instalación manual de Jeedom [Doctor](https://doc.jeedom.com/es_ES/installation/index) después de instalar una distribución de Linux correspondiente a su hardware : Debian (vm, pc, ...), Raspbian Lite (Raspberry pi), Armbian (Ordoid,)
+> **Información**
+>
+> También puede instalar manualmente Jeedom en cualquier sistema Debian siguiendo esto [Documentación](https://doc.jeedom.com/es_ES/installation/cli)
 
 #  Logiciel
 
@@ -43,7 +48,7 @@ Todas las demás imágenes descargables anteriormente ya no se mantienen, es mej
 | Nombre                     | Estado                    | Observaciones                |
 |-------------------------|-------------------------|--------------------------|
 | PHP 5.5 o menos        | No compatible            |                          |
-| PHP 5.6                 | Estable                  |                          |
+| PHP 5.6                 | Fin del soporte (en 4.1) |                          |
 | PHP 7.X                 | Estable                  |                          |
 | Mysql 5.5 / 5.6           | Estable                  |                          |
 | Mysql 5.7               | Estable                  |                          |

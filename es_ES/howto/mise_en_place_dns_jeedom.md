@@ -65,3 +65,7 @@ Aquí está su Jeedom accesible desde el exterior en https
 > **Mi configuración es buena pero imposible tener una página que da vuelta infinitamente**
 >
 > Si su configuración es correcta (Secuencia de inicialización completada en el registro openvpn_DNS_Jeedom) pero no puede obtener la página de inicio de sesión que funciona aleatoriamente con la aplicación móvil y está en 4g o al final de la línea ADSL. En este caso, debe marcar la casilla en la configuración de red de jeedom como lo que está en 4g y reiniciar el dns como ese jeedom cambiará el mtu de su conexión para reducir el tamaño de los paquetes. Dependiendo de las versiones de Jeedom, esta opción es administrada automáticamente por el núcleo (y por lo tanto no aparece) solo reinicie el DNS.
+
+> **Tengo el error "ERROR: No se puede abrir TUN / TAP dev / dev / net / tun: No existe tal archivo o directorio (errno = 2)"**
+>
+> Este error generalmente ocurre en instalaciones de tipo acoplador, como se indica en la documentación para [compatibilidad](https://doc.jeedom.com/es_ES/compatibility/) el soporte de Docker es beta precisamente por este tipo de problema. La solución generalmente es instalar openvpn en el host (cuando sea posible)

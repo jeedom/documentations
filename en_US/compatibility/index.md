@@ -7,9 +7,9 @@ Hummingboard            | Stable                  |
 Odroid C2               | Stable                  |                          
 SMART                   | Stable                  |                          
 RPI1                    | Stable                  |                          
-RPI2                    | Unofficial / Stable     |                          
-RPI3                    | Unofficial / Stable     | Attention if you use a Razberry wifi / bluetooth will not work
-RPI4                    | Unofficial / Stable     | Attention if you use a Razberry wifi / bluetooth will not work
+RPI2                    | Stable                  |                          
+RPI3                    | Stable                  | Attention if you use a Razberry wifi / bluetooth will not work
+RPI4                    | Stable                  | Attention if you use a Razberry wifi / bluetooth will not work
 64 bit                 | Stable                  |                          
 32 bit                 | Unsupported            |                          
 Vmware                  | Stable                  | No support for VMware, only for Jeedom.
@@ -25,14 +25,19 @@ The jeedom team recommends you (depending on your budget) :
 
 You can find all Jeedom images [here](https://images.jeedom.com/)
 
-| Pictures         | Hardware       | State           | SSH access      | Remarks      |
-|----------------|----------------|----------------|----------------|----------------|
-| Jeedomboard    | jeedomboard and | Stable         | root / Mjeedom96 |                |
-|                | hummingboard   |                |                |                |
-| Docker         |                | Beta           | root / Mjeedom96 |                |
+| Pictures         | Hardware       | State           | SSH access      | Remarks      | Documentation      |
+|----------------|----------------|----------------|----------------|----------------|---------------------|
+| Jeedomboard    | Jeedomboard and Hummingboard | Stable         | root / Mjeedom96 |                | [Jeedomboard](https://doc.jeedom.com/en_US/installation/mini) |
+| SMART          | Jeedom Smart   | Stable           | root / Mjeedom96 |                | [SMART](https://doc.jeedom.com/en_US/installation/smart) |
+| RPI            | RPI1 / 2/3/4     | Beta           | root / Mjeedom96 |  For rpi it is advisable to take the rpi-64 version for RPI 2/3/4 (the image is 20% more efficient)              | [RPI](https://doc.jeedom.com/en_US/installation/rpi) |
+| x86_64         | Any x86_64 system (Intel, AMD, VM...)               | Stable           | root / Mjeedom96 |                | [x86_64](https://doc.jeedom.com/en_US/installation/vm) |
+| Docker         |                | Beta           | root / Mjeedom96 |                | [Docker](https://doc.jeedom.com/en_US/installation/docker) |
+| Freebox        | Freebox Delta  | Stable         | root / Mjeedom96 | To install directly from the Freebox               | [Freebox](https://doc.jeedom.com/en_US/installation/freeboxdelta) |
+| Synology (Docker)| NAS Synology | Beta          | root / Mjeedom96  |                | [Synology](https://doc.jeedom.com/en_US/installation/synology) |
 
-
-All other previously downloadable images are no longer maintained, it is better to go through the manual installation of Jeedom [Doc](https://doc.jeedom.com/en_US/installation/index) after installing a linux distribution corresponding to your hardware : Debian (vm, pc,…), Raspbian Lite (Raspberry pi), Armbian (Ordoid,…)
+> **Information**
+>
+> You can also manually install Jeedom on any Debian system by following this [Documentation](https://doc.jeedom.com/en_US/installation/cli)
 
 #  Logiciel
 
@@ -43,7 +48,7 @@ All other previously downloadable images are no longer maintained, it is better 
 | Name                     | State                    | Remarks                |
 |-------------------------|-------------------------|--------------------------|
 | PHP 5.5 or less        | Unsupported            |                          |
-| PHP 5.6                 | Stable                  |                          |
+| PHP 5.6                 | End of support (in 4.1) |                          |
 | PHP 7.X                 | Stable                  |                          |
 | Mysql 5.5 / 5.6           | Stable                  |                          |
 | Mysql 5.7               | Stable                  |                          |
