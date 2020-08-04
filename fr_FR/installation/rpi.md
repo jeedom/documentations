@@ -15,6 +15,10 @@ Vous trouverez ici la documentation pour installer Jeedom sur un raspberry Pi **
 
 [ici](https://images.jeedom.com/rpi/)
 
+> **IMPORTANT**
+>
+>Il y 2 types d'image celle jeedom-debian-XXXX-rpi-X.X.XX.zip qui est en 32bits, elle est compatible avec tous les modeles de RPI et la jeedom-debian-XXXX-rpi-64-X.X.XX.zip qui est en 64bits, elle est (nettement) plus performante mais n'est compatible que RPI2/3/4. Pour resumer en rpi 1 prennez la 32 bit sinon prennez la 64bits (rpi-64)
+
 Raspberry Pi imager permet de télécharger directement l'image d'installation de Raspberry Pi OS, dans sa version la plus récente.
 
 ## Gravez cette image sur une carte MicroSD avec Raspberry Pi imager par exemple
