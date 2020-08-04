@@ -7,9 +7,9 @@ Hummingboard            | Stable                  |
 Odroid C2               | Stable                  |                          
 Smart                   | Stable                  |                          
 RPI1                    | Stable                  |                          
-RPI2                    | Non officiel/Stable     |                          
-RPI3                    | Non officiel/Stable     | Attention si vous utilisez un Razberry le wifi/bluetooth ne pourra marcher
-RPI4                    | Non officiel/Stable     | Attention si vous utilisez un Razberry le wifi/bluetooth ne pourra marcher
+RPI2                    | Stable                  |                          
+RPI3                    | Stable                  | Attention si vous utilisez un Razberry le wifi/bluetooth ne pourra marcher
+RPI4                    | Stable                  | Attention si vous utilisez un Razberry le wifi/bluetooth ne pourra marcher
 64 bits                 | Stable                  |                          
 32 bits                 | Non supporté            |                          
 Vmware                  | Stable                  | Pas de support pour VMware, seulement pour Jeedom.
@@ -33,8 +33,11 @@ Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/)
 | x86_64         | Tout systeme x86_64 (Intel, AMD, VM...)               | Stable           | root/Mjeedom96 |                | [x86_64](https://doc.jeedom.com/fr_FR/installation/vm) |
 | Docker         |                | Beta           | root/Mjeedom96 |                | [Docker](https://doc.jeedom.com/fr_FR/installation/docker) |
 | Freebox        | Freebox Delta  | Stable         | root/Mjeedom96 | A installer directement depuis la Freebox               | [Freebox](https://doc.jeedom.com/fr_FR/installation/freeboxdelta) |
+| Synology (Docker)| Nas Synology | Beta          | root/Mjeedom96  |                | [Synology](https://doc.jeedom.com/fr_FR/installation/synology) |
 
-* 
+> **Informations**
+>
+> Vous pouvez aussi installer manuellement Jeedom sur tout système Debian en suivant cette [documentation](https://doc.jeedom.com/fr_FR/installation/cli)
 
 #  Logiciel
 
