@@ -25,13 +25,16 @@ L’équipe jeedom vous recommande (en fonction de votre budget) :
 
 Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/)
 
-| Images         | Hardware       | Etat           | Accès SSH      | Remarques      |
-|----------------|----------------|----------------|----------------|----------------|
-| Jeedomboard    | jeedomboard et hummingboard | Stable         | root/Mjeedom96 |                |
-| Docker         |                | Beta           | root/Mjeedom96 |                |
+| Images         | Hardware       | Etat           | Accès SSH      | Remarques      | Documentations      |
+|----------------|----------------|----------------|----------------|----------------|---------------------|
+| Jeedomboard    | Jeedomboard et Hummingboard | Stable         | root/Mjeedom96 |                | [Jeedomboard](https://doc.jeedom.com/fr_FR/installation/mini) |
+| Smart          | Jeedom Smart   | Stable           | root/Mjeedom96 |                | [Smart](https://doc.jeedom.com/fr_FR/installation/smart) |
+| RPI            | RPI1/2/3/4     | Beta           | root/Mjeedom96 |  Pour rpi il est conseillé de prendre la version rpi-64 pour les RPI 2/3/4 (l'image est 20% plus performantes)              | [RPI](https://doc.jeedom.com/fr_FR/installation/rpi) |
+| x86_64         | Tout systeme x86_64 (Intel, AMD, VM...)               | Stable           | root/Mjeedom96 |                | [x86_64](https://doc.jeedom.com/fr_FR/installation/vm) |
+| Docker         |                | Beta           | root/Mjeedom96 |                | [Docker](https://doc.jeedom.com/fr_FR/installation/docker) |
+| Freebox        | Freebox Delta  | Stable         | root/Mjeedom96 | A installer directement depuis la Freebox               | [Freebox](https://doc.jeedom.com/fr_FR/installation/freeboxdelta) |
 
-
-Toutes les autres images téléchargeables précédemment ne sont plus maintenues, il vaut mieux passer par l’installation manuelle de Jeedom [doc](https://doc.jeedom.com/fr_FR/installation/index) après avoir installé une distribution linux correspondant à votre matériel : Debian (vm, pc,…​), Raspbian Lite (Raspberry pi), Armbian (Ordoid,…​)
+* 
 
 #  Logiciel
 
