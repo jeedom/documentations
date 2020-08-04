@@ -13,13 +13,17 @@ Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-
 
 ## Laden Sie das neueste Bild herunter
 
-[hier](https://images.jeedom.com/rpi/)
+Sie finden die Bilder [hier](https://images.jeedom.com/rpi/)
+
+> **Wichtig**
+>
+>Es gibt 2 Arten von Bildern, die jeedom-debian-XXXX-rpi-X.X.XX.Der 32-Bit-Reißverschluss ist mit allen RPI-Modellen und dem jeedom-debian-XXXX-rpi-64 kompatibel-X.X.XX.Zip mit 64 Bit ist (deutlich) effizienter, aber nur mit RPI2 / 3/4 kompatibel. Um in RPI 1 zusammenzufassen, nehmen Sie das 32-Bit, andernfalls die 64-Bit (RPI-64))
 
 Mit dem Raspberry Pi Imager können Sie das Installationsimage von Raspberry Pi OS in der neuesten Version direkt herunterladen.
 
 ## Brennen Sie dieses Bild beispielsweise mit dem Raspberry Pi Imager auf eine MicroSD-Karte
 
-[hier](https://www.raspberrypi.org/downloads/)
+Sie können es herunterladen [hier](https://www.raspberrypi.org/downloads/)
 
 ## Starten Sie den PI
 
