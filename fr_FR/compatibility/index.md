@@ -48,7 +48,7 @@ Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/)
 | Nom                     | Etat                    | Remarques                |
 |-------------------------|-------------------------|--------------------------|
 | PHP 5.5 ou moins        | Non supporté            |                          |
-| PHP 5.6                 | Fin de support          |                          |
+| PHP 5.6                 | Fin de support (en 4.1) |                          |
 | PHP 7.X                 | Stable                  |                          |
 | Mysql 5.5/5.6           | Stable                  |                          |
 | Mysql 5.7               | Stable                  |                          |
