@@ -65,3 +65,7 @@ Voilà votre Jeedom est accessible de l'exterieure en https
 > **Ma configuration est bonne mais impossible d'avoir une page ça tourne à l'infini**
 >
 > Si votre configuration est bonne (Initialization Sequence Completed dans le log openvpn_DNS_Jeedom) mais que vous n'arrivez pas à avoir la page de connexion qui marche avec l'application mobile de manière aléatoire et vous êtes en 4g ou en fin de ligne ADSL. Il faut dans ce cas cocher la case dans la configuration réseaux jeedom comme quoi vous etes en 4g et relancer le dns comme ca jeedom va changer le mtu de votre connexion pour reduire la taille des packets. En fonction des versions de Jeedom cette option est automatiquement gérée par le core (et donc n'apparait pas) il suffit de redemarre le DNS.
+
+> **J'ai l'erreur "ERROR: Cannot open TUN/TAP dev /dev/net/tun: No such file or directory (errno=2)"**
+>
+> Cette erreur se produit en general sur les installations de type docker, comme indiqué dans la documentation de [compatibilité](https://doc.jeedom.com/fr_FR/compatibility/) le support de docker est beta justement a cause de ce genre de soucis. La solution est en général d'installation openvpn sur l'hôte (quand cela est possible)
