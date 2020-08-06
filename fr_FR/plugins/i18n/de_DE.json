@@ -845,6 +845,27 @@
         "*ici*": "*hier*",
         " ici*": " hier*"
     },
+    "plugins\/images\/index.md": {
+        "Seuls les plugins officiels ont leur documentation ici": "Nur offizielle Plugins haben hier ihre Dokumentation",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Sie können die Dokumentation der anderen Plugins direkt im Jeedom Market einsehen",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Klicken Sie im betreffenden Plugin auf Dokumentation",
+        "Vous pouvez voir": "Sie können sehen",
+        "tous les plugins officiels de cette catégorie": "Alle offiziellen Plugins in dieser Kategorie",
+        " IMPORTANT.": " Wichtig.",
+        " IMPORTANT?": " Wichtig?",
+        "IMPORTANT ": "Wichtig ",
+        " IMPORTANT]": " Wichtig]",
+        "[IMPORTANT]": "[Wichtig]",
+        "*IMPORTANT*": "*Wichtig*",
+        " IMPORTANT*": " Wichtig*",
+        " ici.": " hier.",
+        " ici?": " hier?",
+        "ici ": "hier ",
+        " ici]": " hier]",
+        "[ici]": "[hier]",
+        "*ici*": "*hier*",
+        " ici*": " hier*"
+    },
     "plugins\/monitoring\/index.md": {
         "Plugin pour monitorer vos serveurs d'impression 3D": "Plugin zur Überwachung Ihrer 3D-Druckserver",
         "Onduleur (NUT": "Wechselrichter (MUTTER",
