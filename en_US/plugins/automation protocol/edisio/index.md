@@ -21,7 +21,7 @@ After downloading the plugin, you just need to activate it and set the port to a
         > **Tip**
         >
         > If you do not know which USB port is used, you can simply indicate "Auto".
-    -   *Internal socket port (dangerous modification, must be the same value on all Jeedom deported edisio)* : allows to modify the internal communication port of the daemon.
+    -   *Internal socket port (dangerous modification, must be the same value on all edisio deported Jeedoms)* : allows to modify the internal communication port of the daemon.
 
 > **Important**
 >
@@ -39,13 +39,13 @@ The configuration of edisio equipment is accessible from the plugin menu :
 
 ![edisio10](./images/edisio10.JPG)
 
-This is what the page of the edisio plugin looks like (here with 4 devices already) :
+This is what the edisio plugin page looks like (here with already 4 devices) :
 
 ![edisio2](./images/edisio2.JPG)
 
 > **Tip**
 >
-> As in many places on Jeedom, putting the mouse on the far left allows a quick access menu to appear (you can always leave it visible in your profile)
+> As in many places on Jeedom, putting the mouse to the far left brings up a quick access menu (you can from your profiles always leave it visible)
 
 You will find here :
 
@@ -62,14 +62,14 @@ Once you click on one of them, you get :
 Here you find all the configuration of your equipment :
 
 -   Edisio device name : name of your edisio equipment
--   ID : the ID of your probe (to be changed only knowingly)
+-   ID : the ID of your probe (to be changed only with full knowledge of the facts))
 -   Activate : makes your equipment active
 -   Visible : makes it visible on the dashboard
 -   Parent object : indicates the parent object to which the equipment belongs
 -   Category : equipment categories (it can belong to several categories)
 -   Do not check battery : tells Jeedom not to alert you if the equipment sends a low battery frame (some modules do not handle this info correctly and generate false alerts)
--   Maximum allowed delay between 2 messages (min) : the maximum time allowed between 2 messages before Jeedom declares the equipment as a timeout". Attention this parameter requires having configured the option "Force the repetition of messages every (min)" and it must be greater than this value
--   Comment : allows you to put comments on the equipment (ex : battery changed on XX / XX / XXXX)
+-   Maximum time allowed between 2 messages (min) : the maximum time allowed between 2 messages before Jeedom declares the equipment as a timeout". Attention this parameter requires having configured the option "Force the repetition of messages every (min)" and it must be greater than this value
+-   Comment : allows you to put comments on the equipment (ex : battery changed on XX / XX /XXXX)
 -   Equipment : allows you to define the model of your equipment (to be configured only for manual creation of equipment, in automatic Jeedom configures this field alone)
 -   Creation : gives you the date of creation of the equipment
 -   Communication : gives you the date of last communication with the equipment (can be empty in the case of a socket for example)
@@ -80,23 +80,23 @@ Below you find the list of orders :
 
 -   the name displayed on the dashboard
 -   type and subtype
--   the information key if it is an info, or the hexadecimal code to send when it is an action. The configurations allow these fields to be filled in automatically (you must create the equipment, choose the configuration then save)
+-   the information key if it is an info, or the hexadecimal code to send when it is an action. The configurations allow these fields to be filled in automatically (you have to create the equipment, choose the configuration then save)
 -   "Status feedback value "and" Duration before status feedback" : allows to indicate to Jeedom that after a change on the information its value must return to Y, X min after the change. Example : in the case of a presence detector which emits only during a presence detection, it is useful to set for example 0 in value and 4 in duration, so that 4 min after a detection of movement (and s' there has been no news since) Jeedom resets the value of the information to 0 (no more movement detected)
 -   Historize : allows to historize the data
 -   Show : allows to display the data on the dashboard
 -   Event : in the case of edisio this box must always be checked because you cannot query an edisio module
 -   Unit : data unit (can be empty)
 -   min / max : data bounds (may be empty)
--   advanced configuration (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.)
+-   Advanced configuration (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.))
 -   Test : Used to test the command
--   delete (sign -) : allows to delete the command
+-   Delete (sign -) : allows to delete the command
 
 ## Operation on edisio equipment
 
 At the top of your equipment configuration page, you have 3 buttons that allow you to perform certain options :
 
 -   Duplicate : duplicates equipment
--   configure (small notched wheels) : same principle as for the commands, it allows an advanced configuration of the equipment
+-   configure (small toothed wheels) : same principle as for the commands, it allows an advanced configuration of the equipment
 
 ## Inclusion of edisio equipment
 

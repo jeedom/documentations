@@ -21,7 +21,7 @@ Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur aktivieren und 
         > **Spitze**
         >
         > Wenn Sie nicht wissen, welcher USB-Anschluss verwendet wird, können Sie einfach "Auto" angeben".
-    -   *Interner Socket-Port (gefährliche Änderung, muss bei allen von Jeedom deportierten Edisio den gleichen Wert haben)* : Ermöglicht das Ändern des internen Kommunikationsports des Dämons.
+    -   *Interner Socket-Port (gefährliche Änderung, muss bei allen von edisio deportierten Jeedoms den gleichen Wert haben)* : Ermöglicht das Ändern des internen Kommunikationsports des Dämons.
 
 > **Wichtig**
 >
@@ -39,13 +39,13 @@ Die Konfiguration der edisio-Geräte kann über das Plugin-Menü aufgerufen werd
 
 ![edisio10](./images/edisio10.JPG)
 
-So sieht die Seite des edisio Plugins aus (hier mit bereits 4 Geräten) :
+So sieht die edisio Plugin Seite aus (hier mit bereits 4 Geräten) :
 
 ![edisio2](./images/edisio2.JPG)
 
 > **Spitze**
 >
-> Wie an vielen Orten in Jeedom wird durch einfaches Setzen der Maus ganz links ein Schnellzugriffsmenü angezeigt (Sie können es jederzeit in Ihrem Profil sichtbar lassen)
+> Wie an vielen Stellen in Jeedom wird durch einfaches Bewegen der Maus ganz links ein Schnellzugriffsmenü angezeigt (Sie können es in Ihren Profilen immer sichtbar lassen)
 
 Sie finden hier :
 
@@ -62,41 +62,41 @@ Sobald Sie auf eine davon klicken, erhalten Sie :
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
 -   EDISIO Gerätename : Name Ihrer Edisio-Ausrüstung
--   Identifikation : die ID Ihrer Sonde (darf nur bei vollständiger Kenntnis der Fakten geändert werden)
+-   Identifikation : die ID Ihrer Sonde (nur wissentlich zu ändern))
 -   Aktivieren : macht Ihre Ausrüstung aktiv
 -   Sichtbar : macht es auf dem Dashboard sichtbar
 -   Übergeordnetes Objekt : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört
 -   Kategorie : Gerätekategorien (es kann zu mehreren Kategorien gehören)
--   Die Batterie nicht überprüfen : weist Jeedom an, Sie nicht zu warnen, wenn das Gerät einen Rahmen mit schwacher Batterie sendet (einige Module verarbeiten diese Informationen nicht korrekt und generieren falsche Warnungen)
--   Maximale Zeit zwischen 2 Nachrichten (min) : Die maximal zulässige Zeit zwischen zwei Nachrichten, bevor Jeedom das Gerät als Zeitüberschreitung deklariert". Beachten Sie, dass für diesen Parameter die Option "Wiederholung von Nachrichten alle (min) erzwingen" konfiguriert werden muss und dieser Wert größer sein muss
--   Kommentar : ermöglicht es Ihnen, Kommentare zum Gerät abzugeben (z : Batterie gewechselt am XX / XX / XXXX)
--   Gerät : ermöglicht es Ihnen, das Modell Ihrer Ausrüstung zu definieren (nur für die manuelle Erstellung von Ausrüstung zu konfigurieren, in der automatischen Jeedom konfiguriert nur dieses Feld)
+-   Die Batterie nicht überprüfen : weist Jeedom an, Sie nicht zu warnen, wenn das Gerät einen niedrigen Batterierahmen sendet (einige Module verarbeiten diese Informationen nicht korrekt und generieren falsche Warnungen)
+-   Maximal zulässige Zeit zwischen 2 Nachrichten (min) : Die maximal zulässige Zeit zwischen zwei Nachrichten, bevor Jeedom das Gerät als Zeitüberschreitung deklariert". Beachten Sie, dass für diesen Parameter die Option "Wiederholung von Nachrichten alle (min) erzwingen" konfiguriert werden muss und dieser Wert größer sein muss
+-   Kommentar : ermöglicht es Ihnen, Kommentare zum Gerät abzugeben (z : Batterie gewechselt am XX / XX /XXXX)
+-   Gerät : Mit dieser Option können Sie das Modell Ihrer Ausrüstung definieren (nur für die manuelle Erstellung von Geräten zu konfigurieren. In der automatischen Konfiguration konfiguriert Jeedom nur dieses Feld)
 -   Schaffung : gibt Ihnen das Erstellungsdatum der Ausrüstung an
 -   Kommunikation : gibt Ihnen das Datum der letzten Kommunikation mit dem Gerät an (kann beispielsweise bei einer Steckdose leer sein)
 -   Batterie : Batteriestand des Geräts
--   Status : Gerätestatus (kann zum Beispiel eine Zeitüberschreitung sein)
+-   Status : Gerätestatus (kann beispielsweise eine Zeitüberschreitung sein)
 
 Nachfolgend finden Sie die Liste der Bestellungen :
 
 -   Der im Dashboard angezeigte Name
 -   Typ und Subtyp
--   Der Informationsschlüssel, wenn es sich um eine Information handelt, oder der Hexadezimalcode, der gesendet werden soll, wenn es sich um eine Aktion handelt. In den Konfigurationen können diese Felder automatisch ausgefüllt werden (Sie müssen das Gerät erstellen, die Konfiguration auswählen und dann speichern)
+-   Der Informationsschlüssel, wenn es sich um eine Information handelt, oder der Hexadezimalcode, der gesendet werden soll, wenn es sich um eine Aktion handelt. Mit den Konfigurationen können diese Felder automatisch ausgefüllt werden (Sie müssen das Gerät erstellen, die Konfiguration auswählen und dann speichern)
 -   "Statusrückmeldungswert "und" Dauer vor Statusrückmeldung" : ermöglicht es Jeedom anzuzeigen, dass nach einer Änderung der Informationen der Wert auf Y, X min nach der Änderung zurückkehren muss. Beispiel : Im Fall eines Anwesenheitsdetektors, der nur während einer Anwesenheitserkennung emittiert, ist es nützlich, beispielsweise 0 in Wert und 4 in Dauer einzustellen, so dass 4 min nach einer Bewegungserkennung (und s ') Seitdem gab es keine Neuigkeiten.) Jeedom setzt den Wert der Informationen auf 0 zurück (keine Bewegung mehr erkannt)
 -   Chronik : ermöglicht das Historisieren der Daten
 -   Anzeige : ermöglicht die Anzeige der Daten im Dashboard
 -   Ereignis : Bei edisio muss dieses Kontrollkästchen immer aktiviert sein, da Sie kein edisio-Modul abfragen können
 -   Unit : Dateneinheit (kann leer sein)
 -   min / max : Datengrenzen (können leer sein)
--   erweiterte Konfiguration (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.)
+-   Erweiterte Konfiguration (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.))
 -   Test : Wird zum Testen des Befehls verwendet
--   löschen (unterschreiben -) : ermöglicht das Löschen des Befehls
+-   Löschen (unterschreiben -) : ermöglicht das Löschen des Befehls
 
 ## Betrieb an edisio Geräten
 
 Oben auf Ihrer Gerätekonfigurationsseite befinden sich 3 Schaltflächen, mit denen Sie bestimmte Optionen ausführen können :
 
 -   Duplikat : Geräte dupliziert
--   konfigurieren (kleine gekerbte Räder) : Das gleiche Prinzip wie bei den Befehlen ermöglicht eine erweiterte Konfiguration der Geräte
+-   konfigurieren (kleine Zahnräder) : Das gleiche Prinzip wie bei den Befehlen ermöglicht eine erweiterte Konfiguration der Geräte
 
 ## Aufnahme von Edisio-Geräten
 

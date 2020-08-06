@@ -21,7 +21,7 @@ Después de descargar el complemento, solo necesita activarlo y configurar el pu
         > **Punta**
         >
         > Si no sabe qué puerto USB se utiliza, simplemente puede indicar "Auto".
-    -   *Puerto de socket interno (modificación peligrosa, debe ser el mismo valor en todos los edisio deportados de Jeedom)* : permite modificar el puerto de comunicación interna del demonio.
+    -   *Puerto de socket interno (modificación peligrosa, debe ser el mismo valor en todos los Jeedoms deportados edisio)* : permite modificar el puerto de comunicación interna del demonio.
 
 > **Importante**
 >
@@ -45,7 +45,7 @@ Así es como se ve la página del complemento edisio (aquí con 4 dispositivos y
 
 > **Punta**
 >
-> Como en muchos lugares de Jeedom, colocar el mouse en el extremo izquierdo permite que aparezca un menú de acceso rápido (siempre puede dejarlo visible en su perfil)
+> Como en muchos lugares de Jeedom, al colocar el mouse en el extremo izquierdo aparece un menú de acceso rápido (desde tus perfiles siempre puedes dejarlo visible)
 
 Lo encuentras aqui :
 
@@ -62,17 +62,17 @@ Una vez que haces clic en uno de ellos, obtienes :
 Aquí encontrarás toda la configuración de tu equipo :
 
 -   Nombre del dispositivo EDISIO : nombre de su equipo edisio
--   Identificación : la ID de su sonda (se cambiará solo a sabiendas)
+-   Identificación : La identificación de su sonda (se debe cambiar solo con pleno conocimiento de los hechos))
 -   Activar : activa su equipo
 -   Visible : lo hace visible en el tablero
 -   Objeto padre : indica el objeto padre al que pertenece el equipo
 -   Categoría : categorías de equipos (puede pertenecer a varias categorías)
 -   No comprobar la batería : le dice a Jeedom que no le avise si el equipo envía un marco de batería baja (algunos módulos no manejan esta información correctamente y generan alertas falsas)
 -   Tiempo máximo permitido entre 2 mensajes (min) : El tiempo máximo permitido entre 2 mensajes antes de que Jeedom declare el equipo como tiempo de espera". Atención, este parámetro requiere haber configurado la opción "Forzar la repetición de mensajes cada (min)" y debe ser mayor que este valor
--   Comentario : le permite poner comentarios en el equipo (ej : batería cambiada en XX / XX / XXXX)
--   Dispositivos : le permite definir el modelo de su equipo (que se configurará solo para la creación manual del equipo, en Jeedom automático configura este campo solo)
+-   Comentario : le permite poner comentarios en el equipo (ej : batería cambiada en XX / XX /XXXX)
+-   Dispositivos : le permite definir el modelo de su equipo (para ser configurado solo para la creación manual de equipos, en Jeedom automático configura este campo solo)
 -   Creación : le da la fecha de creación del equipo
--   Comunicación : le da la fecha de la última comunicación con el equipo (por ejemplo, puede estar vacío en el caso de un enchufe)
+-   Comunicación : le da la fecha de la última comunicación con el equipo (por ejemplo, puede estar vacío en el caso de un enchufe))
 -   Batería : nivel de batería del equipo
 -   Estado : estado del equipo (puede ser tiempo de espera, por ejemplo)
 
@@ -87,16 +87,16 @@ A continuación encontrará la lista de pedidos :
 -   Evento : en el caso de edisio, esta casilla siempre debe estar marcada porque no puede consultar un módulo edisio
 -   Unidad : unidad de datos (puede estar vacía)
 -   min / max : límites de datos (pueden estar vacíos)
--   configuración avanzada (ruedas con muescas pequeñas) : muestra la configuración avanzada del comando (método de registro, widget, etc.)
+-   Configuración avanzada (ruedas pequeñas con muescas) : muestra la configuración avanzada del comando (método de registro, widget, etc.))
 -   Probar : Se usa para probar el comando
--   eliminar (firmar -) : permite eliminar el comando
+-   Eliminar (firmar -) : permite eliminar el comando
 
 ## Operación en equipos edisio
 
 En la parte superior de la página de configuración de su equipo, tiene 3 botones que le permiten realizar ciertas opciones :
 
 -   Duplicar : equipo duplicado
--   configurar (ruedas con muescas pequeñas) : mismo principio que para los comandos, permite una configuración avanzada del equipo
+-   configurar (ruedas dentadas pequeñas) : mismo principio que para los comandos, permite una configuración avanzada del equipo
 
 ## Inclusión de equipos edisio
 

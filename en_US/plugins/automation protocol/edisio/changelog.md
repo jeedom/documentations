@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 08/06/2020
+
+- Bugfix
+
 # 10/01/2020
 
 - Fixed a problem with the display of images and models

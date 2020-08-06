@@ -1,7 +1,13 @@
 {
     "id": "edisio",
     "name": "Edisio",
-    "description": "Plugin Edisio pour gérer le protocole Edisio avec clef USB Edisio. Ainsi vous pourrez communiquer avec les produits de la gamme Edisio.",
+    "description": {
+        "fr_FR": "Plugin Edisio pour gérer le protocole Edisio avec clef USB Edisio. Ainsi vous pourrez communiquer avec les produits de la gamme Edisio.",
+        "en_US": "Edisio plugin to manage the Edisio protocol with Edisio USB key. This will allow you to communicate with the products in the Edisio range",
+        "es_ES": "Complemento Edisio para administrar el protocolo Edisio con la llave USB Edisio. Esto le permitirá comunicarse con los productos de la gama Edisio",
+        "de_DE": "Edisio-Plugin zur Verwaltung des Edisio-Protokolls mit dem Edisio-USB-Stick. Auf diese Weise können Sie mit den Produkten der Edisio-Reihe kommunizieren",
+        "pt_PT": "Edisio plugin para gerenciar o protocolo Edisio com a chave USB Edisio. Isso permitirá que você se comunique com os produtos da linha Edisio"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.0",
@@ -9,5 +15,26 @@
     "hasOwnDeamon": true,
     "hasDependency": true,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/edisio\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/edisio\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/edisio\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

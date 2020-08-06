@@ -21,7 +21,7 @@ Depois de baixar o plugin, você só precisa ativá-lo e configurar a porta para
         > **Dica**
         >
         > Se você não souber qual porta USB é usada, basta indicar "Auto".
-    -   *Porta de soquete interna (modificação perigosa, deve ser o mesmo valor em todos os Edisio deportados pelo Jeedom)* : permite modificar a porta de comunicação interna do daemon.
+    -   *Porta de soquete interna (modificação perigosa, deve ser o mesmo valor em todos os Jeedoms deportados pelo edisio)* : permite modificar a porta de comunicação interna do daemon.
 
 > **IMPORTANTE**
 >
@@ -45,7 +45,7 @@ A configuração do equipamento edisio pode ser acessada no menu do plugin :
 
 > **Dica**
 >
-> Como em muitos lugares do Jeedom, colocar o mouse na extremidade esquerda permite que um menu de acesso rápido seja exibido (você sempre pode deixá-lo visível em seu perfil)
+> Como em muitos lugares do Jeedom, colocar o mouse na extremidade esquerda abre um menu de acesso rápido (você pode, a partir de seus perfis, deixá-lo sempre visível)
 
 Você encontra aqui :
 
@@ -62,15 +62,15 @@ Depois de clicar em um deles, você obtém :
 Aqui você encontra toda a configuração do seu equipamento :
 
 -   Nome equipamentos EDISIO : nome do seu equipamento edisio
--   ID : o ID do seu probe (a ser alterado apenas conscientemente)
+-   ID : o ID do seu probe (a ser alterado apenas conscientemente))
 -   Ativar : torna seu equipamento ativo
 -   Visivél : torna visível no painel
 -   Objeto pai : indica o objeto pai ao qual o equipamento pertence
 -   Categoria : categorias de equipamentos (pode pertencer a várias categorias)
 -   Não verificar a bateria : diz à Jeedom para não alertá-lo se o equipamento enviar uma estrutura de bateria fraca (alguns módulos não lidam com essas informações corretamente e geram alertas falsos)
 -   Tempo máximo permitido entre 2 mensagens (min) : o tempo máximo permitido entre 2 mensagens antes da Jeedom declarar o equipamento como um tempo limite". Atenção: este parâmetro requer a configuração da opção "Forçar a repetição de mensagens a cada (min)" e deve ser maior que esse valor
--   COMMENTAIRE : permite que você coloque comentários sobre o equipamento : bateria trocada em XX / XX / XXXX)
--   Equipamento : permite definir o modelo do seu equipamento (a ser configurado apenas para criação manual de equipamentos, no Jeedom automático configura esse campo sozinho)
+-   COMMENTAIRE : permite que você coloque comentários sobre o equipamento : bateria trocada em XX / XX /XXXX)
+-   Equipamento : permite definir o modelo do seu equipamento (a ser configurado apenas para a criação manual de equipamentos, no Jeedom automático configura esse campo sozinho)
 -   Criação : fornece a data de criação do equipamento
 -   Comunicação : fornece a data da última comunicação com o equipamento (pode estar vazio no caso de uma tomada, por exemplo)
 -   Bateria : nível de bateria do equipamento
@@ -80,23 +80,23 @@ Abaixo você encontra a lista de pedidos :
 
 -   o nome exibido no painel
 -   tipo e subtipo
--   a chave de informações, se for uma informação, ou o código hexadecimal a ser enviado quando for uma ação. As configurações permitem que esses campos sejam preenchidos automaticamente (você deve criar o equipamento, escolher a configuração e salvar)
--   "Valor do feedback do status "e" Duração antes do feedback do status" : permite indicar a Jeedom que após uma alteração nas informações, seu valor deve retornar a Y, X min após a alteração. Exemplo : no caso de um detector de presença que emite apenas durante uma detecção de presença, é útil definir, por exemplo, 0 em valor e 4 em duração, de modo que 4 minutos após a detecção de movimento (e s ' não há notícias desde então) Jeedom redefine o valor das informações para 0 (não é mais detectado movimento)
+-   a chave de informações, se for uma informação, ou o código hexadecimal a ser enviado quando for uma ação. As configurações permitem que esses campos sejam preenchidos automaticamente (você precisa criar o equipamento, escolher a configuração e salvar)
+-   "Valor do feedback do status "e" Duração antes do feedback do status" : permite indicar a Jeedom que após uma alteração nas informações, seu valor deve retornar a Y, X min após a alteração. Exemplo : no caso de um detector de presença que emite apenas durante uma detecção de presença, é útil definir, por exemplo, 0 em valor e 4 em duração, de modo que 4 minutos após a detecção de movimento (e s ' não houve notícias desde então) Jeedom redefine o valor das informações para 0 (mais movimento detectado)
 -   Historicizar : permite historiar os dados
 -   Display : permite exibir os dados no painel
 -   Evento : no caso do edisio, esta caixa deve sempre estar marcada, porque você não pode consultar um módulo edisio
 -   Unidade : unidade de dados (pode estar vazia)
 -   min / max : limites de dados (podem estar vazios)
--   configuração avançada (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.)
+-   Configuração avançada (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.))
 -   Teste : permite testar o comando
--   excluir (assinar -) : permite excluir o comando
+-   Excluir (assinar -) : permite excluir o comando
 
 ## Operação em equipamentos Edisio
 
 Na parte superior da página de configuração do equipamento, você tem 3 botões que permitem executar determinadas opções :
 
 -   Duplicar : equipamento duplicado
--   configure (pequenas rodas dentadas) : mesmo princípio dos comandos, permite uma configuração avançada do equipamento
+-   configurar (rodas dentadas pequenas) : mesmo princípio dos comandos, permite uma configuração avançada do equipamento
 
 ## Inclusão de equipamentos edisio
 

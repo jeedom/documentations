@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 06/08/2020
+
+- Correcciones de errores
+
 # 01/10/2020
 
 - Se solucionó un problema con la visualización de imágenes y modelos
