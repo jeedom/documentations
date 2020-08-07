@@ -319,9 +319,8 @@
         "De nombreuses autres fonctions sont aussi présentes": "De nombreuses autres fonctions sont aussi présentes",
         "SqueezeBox Control": "SqueezeBox Control",
         "Ce plugin vous permet de contrôler vos Squeezebox": "Ce plugin vous permet de contrôler vos Squeezebox",
-        "il faut au minimum PHP 7.0": "il faut au minimum PHP 7.0",
         "Sonos controller": "Sonos controller",
-        "Plugin de controle de Sonos\/Ikea Symfonisk": "Plugin de controle de Sonos\/Ikea Symfonisk",
+        "Array": "Array",
         "Sons": "Sons",
         "Plugin permettant d'ajouter des MP3 pour etre jouer par des plugins TTS (utilisant le TTS Jeedom": "Plugin permettant d'ajouter des MP3 pour etre jouer par des plugins TTS (utilisant le TTS Jeedom",
         "Roku": "Roku",
@@ -350,7 +349,6 @@
         "Changelog": "Changelog",
         "Slobberbone": "Slobberbone",
         "ATTENTION, il ne s'agit pas d'un plugin Officiel Jeedom mais d'un plugin développé par une tierce personne et dont l'évolution a été abandonnée": "ATTENTION, il ne s'agit pas d'un plugin Officiel Jeedom mais d'un plugin développé par une tierce personne et dont l'évolution a été abandonnée",
-        "ATTENTION": "ATTENTION",
         "Il fait de l'autodecouverte, il attribue vos squeezebox aux bons objets si elles contiennent le nom de l'objet": "Il fait de l'autodecouverte, il attribue vos squeezebox aux bons objets si elles contiennent le nom de l'objet",
         "Il permet aussi une gestion complète multidirectionnelle de la synchro": "Il permet aussi une gestion complète multidirectionnelle de la synchro",
         "La possibilité de synchroniser toutes les squeezebox en un clic, toutes les allumer, toutes les éteindre etc.... Une fonction TTS est aussi disponibleUn panel dédié simple (mais qui va vouloir devenir très complet) est aussi disponible": "La possibilité de synchroniser toutes les squeezebox en un clic, toutes les allumer, toutes les éteindre etc.... Une fonction TTS est aussi disponibleUn panel dédié simple (mais qui va vouloir devenir très complet) est aussi disponible"
