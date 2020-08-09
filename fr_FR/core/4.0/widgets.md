@@ -22,7 +22,7 @@ Ce widget est un peu particulier car c'est un widget multi-commandes, c'est à d
 
 ##### Paramètre(s) optionnel(s)
 
-- **scale** *(Echelle)* : Permet de changer la taille du widget, en renseignant le paramètre **scale** à `0.5`, le widget sera 2 fois plus petit.
+- **scale** *(échelle)* : Permet de changer la taille du widget, en renseignant le paramètre **scale** à `0.5`, le widget sera 2 fois plus petit.
 
 >**IMPORTANT**      
 >Il faut ABSOLUMENT que les types génériques soient renseignés; `Température` sur la commande de température et `Humidité` sur la commande humidité (cela se configure dans la configuration avancée de la commande onglet configuration).
@@ -36,7 +36,7 @@ Ce widget permet d'afficher le contenu d'une commande info/autre sur plusieurs l
 
 ##### Paramètre(s) optionnel(s)
 
-- **maxHeight** *(Hauteur Maxi)* : Permet de définir la hauteur maximale du widget (un ascenseur *(scrollbar)* apparaitra sur le coté si le texte dépasse).
+- **maxHeight** *(hauteur maxi)* : Permet de définir la hauteur maximale du widget (un ascenseur *(scrollbar)* apparaitra sur le coté si le texte dépasse).
 
 ### Slider Button
 
@@ -48,22 +48,60 @@ Widget pour commande action/curseur dôté d'un bouton "**+**" et d'un bouton "*
 
 ### Rain
 
-Widget permettant l'affichage des précipitations.
+Widget permettant l'affichage de niveaux d'eau.
+
+![Widget Rain](./images/widgets4.png)
 
 ##### Paramètre(s) optionnel(s)
 
-- **scale** *(Echelle)* : Permet de changer la taille du widget, en renseignant le paramètre **scale** à `0.5`, le widget sera 2 fois plus petit.
-- **showRange** : Affiche les valeurs mini et maxi de la commande.
+- **scale** *(échelle)* : Permet de changer la taille du widget, en renseignant le paramètre **scale** à `0.5`, le widget sera 2 fois plus petit.
+- **showRange** : Mettre à `1` pour afficher les valeurs mini et maxi de la commande.
+- **animate** : Désactive l'animation du widget en ayant `0` pour valeur.
 
 ### Toggle d'icône ON/OFF
 
+Concernant les widgets pour interrupteurs *(on/off, allumer/éteindre, ouvrir/fermé, etc...)*, il peut-être considéré comme plus agréable visuellement de n'afficher qu'une icône reflétant l'état de l'appareil à contrôler.
 
+Cette possibilité est utilisable aussi bien avec les widgets par défaut qu'avec les widgets personnalisés.
 
-## Menu outils widgets
+Pour se faire, il est nécessaire de prendre en compte 2 pré-requis :
 
-**Outils → Widgets**
+- Les **2 commandes action/défaut** doivent être liées à une commande **info/binaire** qui se chargera de mémoriser l'état actuel de l'appareil.
 
-La page widgets vous permet d'ajouter des widgets personnalisés en complément de ceux disponibles par défaut dans Jeedom.
+>**Exemple**      
+>![Widget ToggleLink](./images/widgets5.png)
+
+>**Conseil**     
+>Décocher la case *"Afficher"* de la commande info/binaire qui n'aura pas besoin d'être affichée.
+
+- Afin que le Core Jeedom soit en mesure d'identifier quelle commande correspond à telle action, il est indispensable de respecter le nommage suivant pour les **2 commandes action/défaut** :
+```
+    'on':'on',
+    'off':'off',
+    'monter':'on',
+    'descendre':'off',
+    'ouvrir':'on',
+    'ouvrirStop':'on',
+    'ouvert':'on',
+    'fermer':'off',
+    'activer':'on',
+    'desactiver':'off',
+    'désactiver':'off',
+    'lock':'on',
+    'unlock':'off',
+    'marche':'on',
+    'arret':'off',
+    'arrêt':'off',
+    'stop':'off',
+    'go':'on'
+```
+
+>**Astuce**      
+>Tant que le nom normalisé reste lisible il est possible d'adapter le nommage, par exemple *ouvrir_volet* ou *volet_fermer*, *marche_2* et *arret_2*, etc.
+
+## Widgets personnalisés
+
+La page Widgets, accessible par le menu **Outils → Widgets**, vous permet d'ajouter des widgets personnalisés en complément de ceux disponibles par défaut dans Jeedom.
 
 Il existe deux types de widgets personnalisés :
 
@@ -86,12 +124,12 @@ Dans cette partie vous retrouverez l'ensemble des widgets que vous avez créés 
 
 ![Mes Widgets](./images/widgets1.png)
 
-> **Tip**      
+> **Astuce**      
 > Vous pouvez ouvrir un widget en faisant :
 > - `Clic` sur l'un d'entre eux.
 > - `Ctrl+Clic` ou `Clic+Centre` pour l'ouvrir dans un nouvel onglet du navigateur.
 
-Le moteur de recherche à dispositon vous permettra de filtrer l'affichage des widgets selon différent critères (nom, type, sous-type, etc...). La touche `Echap` annule la recherche.
+Le moteur de recherche vous permet de filtrer l'affichage des widgets selon différent critères (nom, type, sous-type, etc...). La touche `Echap` annule la recherche.
 
 ![Recherche Widgets](./images/widgets2.png)
 
@@ -109,8 +147,8 @@ Une fois sur la page **Outils → Widgets** il vous faut cliquer sur le bouton "
 
 Ensuite :
 - Vous choisissez s’il s'applique sur une commande de type **Action** ou **Info**.
-- En fonction du choix précédent, vous allez devoir **choisir le sous-type** de la commande *(binaire, numérique, autre...)*.
-- Enfin **le template** parmis ceux qui seront disponibles en fonction des choix précédents.
+- En fonction du choix précédent, vous allez devoir **choisir le sous-type** de la commande.
+- Enfin **le template** parmis ceux qui seront disponibles selon les choix précédents.
 - Une fois le template choisi, Jeedom affiche les possibilités de configuration de celui-ci en-dessous.
 
 ### Les templates
@@ -137,7 +175,7 @@ Pour les template utilisant des images, il vous est proposé de paramétrer la l
 >**Note**     
 >Nous sommes désolés pour les noms en anglais, il s’agit d’une contrainte du système de template. Ce choix permet de garantir une certaine rapidité et efficacité, aussi bien pour vous que pour nous. Nous n'avons pas eu le choix
 
->**Tips**     
+>**Astuces**     
 >Pour les utilisateurs avancés il est possible de mettre des tags dans les valeurs de remplacement et de spécifier leur valeur dans la configuration avancée de la commande.    
 >Si, par exemple, dans **Largeur desktop** vous mettez comme valeur `#largeur_desktop#` (**attention à bien mettre les** `#` **autour**) puis dans la configuration avancée d'une commande, onglet affichage → "**Paramètres optionnels widget**" vous ajoutez le paramètre `largeur_desktop` (**sans les** `#`) et lui donnez la valeur "**90**", ce widget personnalisé sur cette commande aura une largeur de 90 pixels. Cela permet d'adapter la taille du widget à chaque commande sans avoir à  faire un widget spécifique à chaque fois.
 
@@ -162,32 +200,32 @@ Les tests sont sous la forme : `#value# == 1`, `#value#` sera automatiquement re
 >**Note**     
 >Il est possible d'afficher la valeur de la commande dans le widget en précisant `#value#` dans le code HTML du test. Pour afficher l'unité ajoutez `#unite#`.
 
-### Widget code
+## Widget code
 
-#### Les tags
+### Les tags
 
 En mode code vous avez accès à différents tags pour les commandes, en voici une liste (pas forcément exhaustive) :
 
-- #name# : nom de la commande
-- #valueName# : nom de la valeur de la commande, et = #name# quand c'est une commande de type info
-- #minValue# : valeur minimum que peut prendre la commande (si la commande est de type slider)
-- #maxValue# : valeur maximum que peut prendre la commande (si la commande est de type slider)
-- #hide_name# : vide ou hidden si l'utilisateur a demandé à masquer le nom du widget, à mettre directement dans une balise class
-- #id# : id de la commande
-- #state# : valeur de la commande, vide pour une commande de type action si elle n'est pas a liée à une commande d'état
-- #uid# : identifiant unique pour cette génération du widget (si il y a plusieurs fois la même commande, cas des designs:  seul cet identifiant est réellement unique)
-- #valueDate# : date de la valeur de la commande
-- #collectDate# : date de collecte de la commande
-- #alertLevel# : niveau d'alerte (voir [ici](https://github.com/Jeedom/core/blob/alpha/core/config/Jeedom.config.php#L67) pour la liste)
-- #hide_history# : si l'historique (valeur max, min, moyenne, tendance) doit être masqué ou non. Comme pour le #hide_name# il vaut vide ou hidden, et peut donc être utilisé directement dans une class. IMPORTANT si ce tag n'est pas trouvé sur votre widget alors les tags #minHistoryValue#, #averageHistoryValue#, #maxHistoryValue# et #tendance# ne seront pas remplacés par Jeedom.
-- #minHistoryValue# : valeur minimale sur la période (période définie dans la configuration de Jeedom par l'utilisateur)
-- #averageHistoryValue# : valeur moyenne sur la période (période définie dans la configuration de Jeedom par l'utilisateur)
-- #maxHistoryValue# : valeur maximale sur la période (période définie dans la configuration de Jeedom par l'utilisateur)
-- #tendance# : tendance sur la période (période définie dans la configuration de Jeedom par l'utilisateur). Attention la tendance est directement une class pour icône : fas fa-arrow-up, fas fa-arrow-down ou fas fa-minus
+- **#name#** : nom de la commande
+- **#valueName#** : nom de la valeur de la commande, et = #name# quand c'est une commande de type info
+- **#minValue#** : valeur minimum que peut prendre la commande (si la commande est de type slider)
+- **#maxValue#** : valeur maximum que peut prendre la commande (si la commande est de type slider)
+- **#hide_name#** : vide ou hidden si l'utilisateur a demandé à masquer le nom du widget, à mettre directement dans une balise class
+- **#id#** : id de la commande
+- **#state#** : valeur de la commande, vide pour une commande de type action si elle n'est pas a liée à une commande d'état
+- **#uid#** : identifiant unique pour cette génération du widget (si il y a plusieurs fois la même commande, cas des designs:  seul cet identifiant est réellement unique)
+- **#valueDate#** : date de la valeur de la commande
+- **#collectDate#** : date de collecte de la commande
+- **#alertLevel#** : niveau d'alerte (voir [ici](https://github.com/Jeedom/core/blob/alpha/core/config/Jeedom.config.php#L67) pour la liste)
+- **#hide_history#** : si l'historique (valeur max, min, moyenne, tendance) doit être masqué ou non. Comme pour le #hide_name# il vaut vide ou hidden, et peut donc être utilisé directement dans une class. IMPORTANT si ce tag n'est pas trouvé sur votre widget alors les tags #minHistoryValue#, #averageHistoryValue#, #maxHistoryValue# et #tendance# ne seront pas remplacés par Jeedom.
+- **#minHistoryValue#** : valeur minimale sur la période (période définie dans la configuration de Jeedom par l'utilisateur)
+- **#averageHistoryValue#** : valeur moyenne sur la période (période définie dans la configuration de Jeedom par l'utilisateur)
+- **#maxHistoryValue#** : valeur maximale sur la période (période définie dans la configuration de Jeedom par l'utilisateur)
+- **#tendance#** : tendance sur la période (période définie dans la configuration de Jeedom par l'utilisateur). Attention la tendance est directement une class pour icône : fas fa-arrow-up, fas fa-arrow-down ou fas fa-minus
 
-#### Mise à jour des valeurs
+### Mise à jour des valeurs
 
-Lors d'une nouvelle valeur Jeedom va chercher dans la page html, si la commande est là et dans Jeedom.cmd.update si il y a une fonction d'update. Si oui il l'appelle avec un unique argument qui est un objet sous la forme :
+Lors d'une nouvelle valeur Jeedom va chercher dans la page si la commande est là et dans Jeedom.cmd.update si il y a une fonction d'update. Si oui il l'appelle avec un unique argument qui est un objet sous la forme :
 
 ```
 {display_value:'#state#',valueDate:'#valueDate#',collectDate:'#collectDate#',alertLevel:'#alertLevel#'}
@@ -213,11 +251,13 @@ Jeedom.cmd.update['#id#'] = function(_options){
   $('.cmd[data-cmd_id=#id#] .state').empty().append(_options.display_value +' #unite#');
 }
 ```
-La fonction appelée lors d'une mise à jour du widget. Elle met alors à jour le code html du widget_template.
+La fonction est appelée lors d'une mise à jour du widget. Elle met alors à jour le code html du widget_template.
 
 ```
 Jeedom.cmd.update['#id#']({display_value:'#state#',valueDate:'#valueDate#',collectDate:'#collectDate#',alertLevel:'#alertLevel#'});
 ```
  L'appel  à cette fonction pour l'initialisation du widget.
+
+### Exemples
 
  Vous trouverez [ici](https://github.com/Jeedom/core/tree/V4-stable/core/template) des exemples de widgets (dans les dossiers dashboard et mobile)
