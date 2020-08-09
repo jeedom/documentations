@@ -60,7 +60,7 @@ Widget permettant l'affichage de niveaux d'eau.
 
 ### Toggle d'icône ON/OFF
 
-Concernant les widgets pour interrupteurs *(on/off, allumer/éteindre, ouvrir/fermé, etc...)*, il peut-être considéré comme plus agréable visuellement de n'afficher qu'une icône reflétant l'état de l'appareil à contrôler.
+Concernant les widgets pour interrupteurs *(on/off, allumer/éteindre, ouvrir/fermer, etc...)*, il peut-être considéré comme plus agréable visuellement de n'afficher qu'une icône reflétant l'état de l'appareil à contrôler.
 
 Cette possibilité est utilisable aussi bien avec les widgets par défaut qu'avec les widgets personnalisés.
 
