@@ -16,16 +16,16 @@ Les équipements (ou tuiles) possèdent certains paramètres de configuration ac
 
 ### HygroThermographe
 
-![Widget HygroThermographe](./images/widgets3.png)
-
 Ce widget est un peu particulier car c'est un widget multi-commandes, c'est à dire qu'il assemble la valeur de plusieurs commandes. Ici il prend les commandes de type température et humidité. Pour le configurer il faut affecter le widget aux commandes température et humidité de votre équipement.
+
+![Widget HygroThermographe](./images/widgets3.png)
 
 ##### Paramètre(s) optionnel(s)
 
 - **scale** *(échelle)* : Permet de changer la taille du widget, en renseignant le paramètre **scale** à `0.5`, le widget sera 2 fois plus petit.
 
 >**IMPORTANT**      
->Il faut ABSOLUMENT que les types génériques soient renseignés; `Température` sur la commande de température et `Humidité` sur la commande humidité (cela se configure dans la configuration avancée de la commande onglet configuration).
+>Il faut ABSOLUMENT que les types génériques soient renseignés; `Température` sur la commande de température et `Humidité` sur la commande humidité (cela se configure dans la configuration avancée de la commande, onglet configuration).
 
 >**NOTE**      
 > Attention sur un design il ne faut surtout pas mettre une commande seule avec ce widget cela ne marchera pas vu que c'est un widget utilisant la valeur de plusieurs commandes, il faut absolument mettre le widget complet
@@ -74,7 +74,7 @@ Pour se faire, il est nécessaire de prendre en compte 2 pré-requis :
 >**Conseil**     
 >Décocher la case *"Afficher"* de la commande info/binaire qui n'aura pas besoin d'être affichée.
 
-- Afin que le Core Jeedom soit en mesure d'identifier quelle commande correspond à telle action, il est indispensable de respecter le nommage suivant pour les **2 commandes action/défaut** :
+- Afin que le Core Jeedom soit en mesure d'identifier quelle commande correspond à quelle action, il est indispensable de respecter le nommage suivant pour les **2 commandes action/défaut** :
 ```
     'on':'on',
     'off':'off',
@@ -129,7 +129,7 @@ Dans cette partie vous retrouverez l'ensemble des widgets que vous avez créés 
 > - `Clic` sur l'un d'entre eux.
 > - `Ctrl+Clic` ou `Clic+Centre` pour l'ouvrir dans un nouvel onglet du navigateur.
 
-Le moteur de recherche vous permet de filtrer l'affichage des widgets selon différent critères (nom, type, sous-type, etc...). La touche `Echap` annule la recherche.
+Le moteur de recherche vous permet de filtrer l'affichage des widgets selon différents critères (nom, type, sous-type, etc...). La touche `Echap` annule la recherche.
 
 ![Recherche Widgets](./images/widgets2.png)
 
@@ -172,10 +172,7 @@ La case **Time widget**, si disponible, permet d'afficher la durée depuis le de
 
 Pour les template utilisant des images, il vous est proposé de paramétrer la largeur du widget en pixel en fonction du support (**Largeur desktop** & **Largeur mobile**). Des images différentes peuvent également être sélectionnées selon le thème actif de Jeedom *(light ou dark)*.
 
->**Note**     
->Nous sommes désolés pour les noms en anglais, il s’agit d’une contrainte du système de template. Ce choix permet de garantir une certaine rapidité et efficacité, aussi bien pour vous que pour nous. Nous n'avons pas eu le choix
-
->**Astuces**     
+>**Astuce**     
 >Pour les utilisateurs avancés il est possible de mettre des tags dans les valeurs de remplacement et de spécifier leur valeur dans la configuration avancée de la commande.    
 >Si, par exemple, dans **Largeur desktop** vous mettez comme valeur `#largeur_desktop#` (**attention à bien mettre les** `#` **autour**) puis dans la configuration avancée d'une commande, onglet affichage → "**Paramètres optionnels widget**" vous ajoutez le paramètre `largeur_desktop` (**sans les** `#`) et lui donnez la valeur "**90**", ce widget personnalisé sur cette commande aura une largeur de 90 pixels. Cela permet d'adapter la taille du widget à chaque commande sans avoir à  faire un widget spécifique à chaque fois.
 
