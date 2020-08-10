@@ -22,7 +22,7 @@ You can view these devices in several ways :
 
 ![Synthese](images/concept-synthese.jpg)
 
-These can be viewed in a browser on a desktop computer, or on a smartphone with the WebApp or mobile application : [Mobile version](/en_US/mobile/index")
+These can be viewed in a browser on a desktop computer, or on a smartphone with the WebApp or mobile application : [Mobile version](/en_US/mobile/index)
 
 ## Items
 

@@ -22,7 +22,7 @@ Sie können diese Geräte auf verschiedene Arten anzeigen :
 
 ![Synthese](images/concept-synthese.jpg)
 
-Diese können in einem Browser auf einem Desktop-Computer oder auf einem Smartphone mit der WebApp oder einer mobilen Anwendung angezeigt werden : [Mobil Version](/de_DE/mobile/index")
+Diese können in einem Browser auf einem Desktop-Computer oder auf einem Smartphone mit der WebApp oder einer mobilen Anwendung angezeigt werden : [Mobil Version](/de_DE/mobile/index)
 
 ## Objekte
 

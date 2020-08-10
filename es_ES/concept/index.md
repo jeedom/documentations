@@ -22,7 +22,7 @@ Puede ver estos dispositivos de varias maneras :
 
 ![Synthese](images/concept-synthese.jpg)
 
-Estos se pueden ver en un navegador en una computadora de escritorio o en un teléfono inteligente con la aplicación web o aplicación móvil : [Versión móvil](/es_ES/mobile/index")
+Estos se pueden ver en un navegador en una computadora de escritorio o en un teléfono inteligente con la aplicación web o aplicación móvil : [Versión móvil](/es_ES/mobile/index)
 
 ## Los objetos
 
