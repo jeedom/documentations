@@ -10,6 +10,7 @@
 | | | | |
 |--- | --- | --- | ---|
 |<img src="delestage/delestage_icon.png" class="pluginLogo" width="100" />|Load shedding|Plugin to manage load shedding. 3 possible operating modes : <br>- Clever <br>- Hierarchical <br>- Cascadocyclique|[Documentation](delestage/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2616)<br/>[Changelog](delestage/changelog.md)|
+|<img src="enedis/enedis_icon.png" class="pluginLogo" width="100" />|Enedis Linky|Array|[Documentation](enedis/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4036)<br/>[Changelog](enedis/changelog.md)|
 |<img src="energy/energy_icon.png" class="pluginLogo" width="100" />|Energie|Plugin to manage your energy consumption|[Documentation](energy/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=54)<br/>[Changelog](energy/changelog.md)|
 |<img src="energy2/energy2_icon.png" class="pluginLogo" width="100" />|Comptage|Plugin for energy metering (gas, electricity and water). Allows you to make an estimated calculation of the DPE.|[Documentation](energy2/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3591)<br/>[Changelog](energy2/changelog.md)|
 |<img src="envoy/envoy_icon.png" class="pluginLogo" width="100" />|Enphase Envoy|Plugin to collect photovoltaic information from Envoy gateways|[Documentation](envoy/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3992)<br/>[Changelog](envoy/changelog.md)|
