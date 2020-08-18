@@ -1,7 +1,13 @@
 {
     "id": "simupre",
     "name": "Simulation présence",
-    "description": "Plugin pour la simulation de présence",
+    "description": {
+        "fr_FR": "Plugin pour la simulation de présence",
+        "en_US": "Plugin for presence simulation",
+        "es_ES": "Plugin para simulación de presencia",
+        "de_DE": "Plugin zur Anwesenheitssimulation",
+        "pt_PT": "Plugin para simulação de presença"
+    },
     "licence": "GPLv2",
     "author": "Jeedom SAS",
     "require": "3.2",
@@ -11,17 +17,12 @@
     "maxDependancyInstallTime": 0,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/simupre\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/simupre\/",
-    "link": {
-        "forum": "https:\/\/www.jeedom.com\/forum\/viewtopic.php?t=46477"
-    },
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",
@@ -29,6 +30,7 @@
         "rpi",
         "docker",
         "diy",
-        "mobile"
+        "mobile",
+        "v4"
     ]
 }
