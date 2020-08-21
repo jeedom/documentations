@@ -4,6 +4,8 @@ Plugin allowing the recovery of consumption of the communicating meter *linky* b
 
 4 types of consumption data are accessible :
 - the **drawn power** per half hour *(in kW)*.
+>*The consumption curve *(or drawn power)* restores the power demanded by all your electrical devices on average over half an hour.*
+
 - the **daily consumption** *(in kWh)*.
 - the **monthly consumption** *(in kWh)*.
 - the **annual consumption** *(in kWh)*.

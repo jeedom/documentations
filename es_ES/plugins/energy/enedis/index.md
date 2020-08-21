@@ -4,6 +4,8 @@ Plugin que permite recuperar consumos del contador comunicante *linky* consultan
 
 4 tipos de datos de consumo accesibles :
 - el **poder dibujado** por media hora *(en kW)*.
+>*La curva de consumo *(o poder extraído)* restaura la energía demandada por todos sus dispositivos eléctricos en promedio durante media hora.*
+
 - el **consumo diario** *(en kWh)*.
 - el **consumo mensual** *(en kWh)*.
 - el **consumo anual** *(en kWh)*.

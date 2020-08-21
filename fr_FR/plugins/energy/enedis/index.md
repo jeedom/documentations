@@ -11,7 +11,7 @@ Plugin permettant la récupération des consommations du compteur communicant *l
 - la **consommation annuelle** *(en kWh)*.
 
 >**Important**      
->Il est nécessaire d'être en possession d'un compte-client Enedis : https://mon-compte-client.enedis.fr/.
+>Il est nécessaire d'être en possession d'un compte-client Enedis. Le plugin récupère les informations à partie de la partie *professionnels* [du site Enedis](https://espace-client-connexion.enedis.fr/auth/XUI/#login/&realm=particuliers&goto=https://espace-client-particuliers.enedis.fr%2Fgroup%2Fespace-particuliers%2Faccueil){:target="\_blank"}, il faut donc vérifier que vous y avez bien accès et que les données y sont disponibles. Dans le cas contraire le plugin ne fonctionnera pas.
 
 # Configuration
 
