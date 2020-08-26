@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 07/18/2020
+
+- Support for nuki Opener
+
 # 10/23/2019
 
 - Jeedom V4 support

@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 18/07/2020
+
+- Suporte para o nuki Opener
+
 # 23/10/2019
 
 - Suporte Jeedom V4

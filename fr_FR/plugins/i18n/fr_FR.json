@@ -459,9 +459,8 @@
     "plugins\/security\/index.md": {
         "Simons voss": "Simons voss",
         "Plugin pour les serrure Simons Voss Smart Intego": "Plugin pour les serrure Simons Voss Smart Intego",
-        "Il permet aussi de configurer le bridge en mode push": "Il permet aussi de configurer le bridge en mode push",
         "Nuki": "Nuki",
-        "Ce plugin permet de piloter les serrures connectées Nuki à l'aide du bridge": "Ce plugin permet de piloter les serrures connectées Nuki à l'aide du bridge",
+        "Array": "Array",
         "Attention pour afficher le flux vidéo il faut le plugin caméra": "Attention pour afficher le flux vidéo il faut le plugin caméra",
         "Netatmo Security": "Netatmo Security",
         "Plugin pour Netatmo Security": "Plugin pour Netatmo Security",
