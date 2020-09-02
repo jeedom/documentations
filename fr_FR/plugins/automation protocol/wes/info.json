@@ -1,7 +1,13 @@
 {
     "id": "wes",
     "name": "Wes",
-    "description": "Ce plugin va vous permettre d'intégrer un wes de CartElectronics",
+    "description": {
+        "fr_FR": "Ce plugin va vous permettre d'intégrer un wes de CartElectronics",
+        "en_US": "This plugin will allow you to integrate a CartElectronics wes",
+        "es_ES": "Este complemento le permitirá integrar un wes de CartElectronics",
+        "de_DE": "Mit diesem Plugin können Sie eine CartElectronics wes integrieren",
+        "pt_PT": "Este plugin permitirá que você integre um dispositivo CartElectronics"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "3.3",
@@ -10,13 +16,19 @@
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/wes\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/wes\/",
     "language": [
-        "fr_FR"
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",
         "smart",
         "rpi",
         "docker",
-        "diy"
+        "diy",
+        "mobile",
+        "v4"
     ]
 }
