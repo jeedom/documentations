@@ -4,14 +4,14 @@ Plugin que permite recuperar consumos del contador comunicante *linky* consultan
 
 4 tipos de datos de consumo accesibles :
 - el **poder dibujado** por media hora *(en kW)*.
->*La curva de consumo *(o poder extraído)* restaura la energía demandada por todos sus dispositivos eléctricos en promedio durante media hora.*
+>*La curva de consumo *(o energía retirada) * devuelve la energía consumida por todos sus dispositivos eléctricos en promedio durante media hora.
 
 - el **consumo diario** *(en kWh)*.
 - el **consumo mensual** *(en kWh)*.
 - el **consumo anual** *(en kWh)*.
 
 >**Importante**      
->Il est nécessaire d'être en possession d'un compte-client Enedis : https://mon-compte-client.enedis.fr/.
+>Debes tener una cuenta de cliente de Enedis. El complemento recupera información del juego *profesionales* [del sitio de Enedis](https://espace-client-connexion.enedis.fr/auth/XUI/#login/&realm=particuliers&goto=https://espace-client-particuliers.enedis.fr%2Fgroup%2Fespace-particuliers%2Faccueil){:target = "\_ blank"}, por lo tanto, debe verificar que tiene acceso a él con sus identificadores habituales y que los datos están visibles allí. De lo contrario, el complemento no funcionará.
 
 # Configuration
 
@@ -36,5 +36,11 @@ El complemento luego verificará la conexión correcta al sitio *Enedis* y recup
 - **consumo mensual** : los últimos 12 meses,
 - **consumo anual** : los últimos 3 años.
 
->**Nota**     
->Los datos solo se agregan si están disponibles en su cuenta de cliente *Enedis*.
+# Plantilla de widget
+
+El complemento ofrece la posibilidad de mostrar datos de consumo en una plantilla de widget que imita la apariencia de un medidor *Linky*. Tienes la posibilidad de seleccionar o no esta plantilla marcando o desmarcando la casilla **Plantilla de widget** en la página general del equipo en cuestión.
+
+La plantilla se mostrará tanto en la versión de escritorio como en la versión móvil.
+
+>**CONSEJO**     
+>En la versión de escritorio, la información que se muestra en el widget se adapta en tamaño al cambiar el tamaño del mosaico.

@@ -4,14 +4,14 @@ Plugin zur Wiederherstellung des Verbrauchs des kommunizierenden Messgeräts *Li
 
 Es stehen 4 Arten von Verbrauchsdaten zur Verfügung :
 - die **gezogene Kraft** pro halbe Stunde *(in kW)*.
->*Die Verbrauchskurve *(oder gezogene Kraft)* stellt die von all Ihren elektrischen Geräten benötigte Leistung im Durchschnitt über eine halbe Stunde wieder her.*
+>*Die Verbrauchskurve *(oder entzogene Energie) * gibt die von all Ihren elektrischen Geräten durchschnittlich über eine halbe Stunde aufgenommene Energie zurück.
 
 - die **Täglicher Verbrauch** *(in kWh)*.
 - die **monatlicher Verbrauch** *(in kWh)*.
 - die **Jahresverbrauch** *(in kWh)*.
 
 >**Wichtig**      
->Il est nécessaire d'être en possession d'un compte-client Enedis : https://mon-compte-client.enedis.fr/.
+>Sie müssen über ein Enedis-Kundenkonto verfügen. Das Plugin ruft Informationen aus dem Spiel ab *Profis* [der Enedis-Site](https://espace-client-connexion.enedis.fr/auth/XUI/#login/&realm=particuliers&goto=https://espace-client-particuliers.enedis.fr%2Fgroup%2Fespace-particuliers%2Faccueil){:target = "\_ blank"}, müssen Sie daher überprüfen, ob Sie mit Ihren üblichen Kennungen darauf zugreifen können und ob die Daten dort sichtbar sind. Andernfalls funktioniert das Plugin nicht.
 
 # Configuration
 
@@ -36,5 +36,11 @@ Das Plugin überprüft dann die korrekte Verbindung zur Site *Enedis* und abrufe
 - **monatlicher Verbrauch** : die letzten 12 Monate,
 - **Jahresverbrauch** : die letzten 3 Jahre.
 
->**Notiz**     
->Daten werden nur hinzugefügt, wenn sie in Ihrem Kundenkonto verfügbar sind *Enedis*.
+# Widget-Vorlage
+
+Das Plugin bietet die Möglichkeit, Verbrauchsdaten in einer Widget-Vorlage anzuzeigen, die das Erscheinungsbild eines Zählers imitiert *Linky*. Sie haben die Möglichkeit, diese Vorlage auszuwählen oder nicht, indem Sie das Kontrollkästchen aktivieren oder deaktivieren **Widget-Vorlage** auf der allgemeinen Seite der betreffenden Ausrüstung.
+
+Die Vorlage wird sowohl auf Desktop- als auch auf Mobilversionen angezeigt.
+
+>**TIPP**     
+>In der Desktop-Version passen sich die im Widget angezeigten Informationen an die Größe an, wenn die Größe der Kachel geändert wird.

@@ -4,14 +4,14 @@ Plugin allowing the recovery of consumption of the communicating meter *linky* b
 
 4 types of consumption data are accessible :
 - the **drawn power** per half hour *(in kW)*.
->*The consumption curve *(or drawn power)* restores the power demanded by all your electrical devices on average over half an hour.*
+>*The consumption curve *(or withdrawn power) * returns the power drawn by all your electrical devices on average over half an hour.
 
 - the **daily consumption** *(in kWh)*.
 - the **monthly consumption** *(in kWh)*.
 - the **annual consumption** *(in kWh)*.
 
 >**Important**      
->Il est nécessaire d'être en possession d'un compte-client Enedis : https://mon-compte-client.enedis.fr/.
+>You must have an Enedis customer account. The plugin retrieves information from the game *professionals* [of the Enedis site](https://espace-client-connexion.enedis.fr/auth/XUI/#login/&realm=particuliers&goto=https://espace-client-particuliers.enedis.fr%2Fgroup%2Fespace-particuliers%2Faccueil){:target = "\_ blank"}, you must therefore check that you have access to it with your usual identifiers and that the data is visible there. Otherwise the plugin will not work.
 
 # Configuration
 
@@ -36,5 +36,11 @@ The plugin will then check the correct connection to the site *Enedis* and retri
 - **monthly consumption** : the last 12 months,
 - **annual consumption** : the last 3 years.
 
->**NOTE**     
->Data is only added if it is available on your customer account *Enedis*.
+# Widget template
+
+The plugin offers the possibility of displaying consumption data in a widget template imitating the appearance of a meter *Linky*. You have the possibility to select or not this template by checking or unchecking the box **Widget template** on the general page of the equipment concerned.
+
+The template will be displayed on both desktop and mobile versions.
+
+>**TRICK**     
+>In desktop version, the information displayed on the widget adapts in size when resizing the tile.
