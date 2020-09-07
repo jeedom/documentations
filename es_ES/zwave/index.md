@@ -1,6 +1,6 @@
 # Documentación del módulo de onda Z
 
-Encontrará aquí la documentación que consideramos útil hacer en cierto módulo de onda Z.
+Aquí encontrará la documentación que consideramos útil hacer en algún módulo Z-wave.
 
 Como recordatorio, puede encontrar la lista de equipos compatibles [aquí](equipement.compatible.md) y [aquí](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/) documentación del complemento.
 

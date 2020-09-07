@@ -6,13 +6,13 @@ Veremos en esta documentación cómo hacer la documentación de su complemento.
 
 ## Principe
 
-El principio es muy simple, la documentación del complemento debe ser un simple enlace web para indicar en su archivo de información.json (ver detalles [aquí](https://doc.jeedom.com/es_ES/dev/structure_info_json) ) en el campo de la documentación.
+El principio es muy simple, la documentación del complemento debe ser un enlace web simple para indicar en su archivo de información.json (ver detalles [aquí](https://doc.jeedom.com/es_ES/dev/structure_info_json) ) en el campo de la documentación.
 
-Tenga en cuenta que también tiene un campo de registro de cambios que debería funcionar de la misma manera que el campo de documentación.
+Tenga en cuenta que también tiene un campo de registro de cambios que debe funcionar de la misma manera que el campo de documentación.
 
 ## Como hacer ?
 
-Como se ve arriba, solo tiene que indicar en el archivo de información.json el enlace http (s) a su documentación, por lo tanto, es libre en la presentación, el host o incluso el modo :
+Como se vio arriba, solo debes indicar en el archivo de información.json el enlace http (s) a su documentación, por lo que está libre en la presentación, el host o incluso el modo :
 
 - un blog
 - un servidor web simple
@@ -24,26 +24,26 @@ La forma más fácil para su documentación es usar el sistema de páginas githu
 
 ### Lenguaje de documentación
 
-Soporte de asciidoc y markedown (md) de Github para páginas, solo veremos el markedown aquí.
+Github admite asciidoc y markedown (md) para las páginas, solo veremos el markdown aquí.
 
-No le describiremos la sintaxis completa de rebajas, otros sitios ya lo hacen muy bien, [este](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+No le describiremos la sintaxis completa de Markdown, otros sitios ya lo hacen muy bien, incluyendo [este](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ### Emplacement
 
-Recomendamos en su complemento (alojado en github) hacer una carpeta y copiar los archivos y el directorio de la carpeta de documentos en el complemento de plantilla (consulte [aquí](https://doc.jeedom.com/es_ES/dev/plugin_template) )
+Le recomendamos que en su complemento (alojado en github) cree una carpeta y copie los archivos y directorios de la carpeta / docs en la plantilla del complemento (consulte [aquí](https://doc.jeedom.com/es_ES/dev/plugin_template) )
 
-Una vez hecho esto, tendrá en la carpeta docs una carpeta fr_FR (la única para modificar). En esta carpeta te recomendamos que hagas 2 archivos :
+Una vez hecho esto, tendrá en la carpeta / docs una carpeta fr_FR (la única para modificar). En esta carpeta, le recomendamos que haga 2 archivos :
 
 - ``changelog.md`` => su registro de cambios
 - ``index.md`` => su documentación
 
 ### Publicación
 
-Conectarse en línea es bastante simple, en su repositorio de github, luego en "Configuración" y en la parte de "Páginas de GitHub", actívelo en "rama maestra / carpeta de documentos" (como lo indica la redacción de solo los archivos en el la carpeta / documentación de la rama maestra de su complemento estará en línea).
+La carga es bastante simple, simplemente vaya a su repositorio de github, luego a "Configuración" y en la parte de "Páginas de GitHub" para activar la que está en la "carpeta maestra de rama / documentos" (como se indica en el título, solo los archivos en la carpeta / docs de la rama maestra de su complemento estarán en línea).
 
 ![doc-github](images/tutoDoc.png)
 
-Github le proporcionará un enlace de tipo ``https://jeedom.github.io/plugin-template/`` (después de unos minutos, debería ver el diseño de la documentación correctamente).
+Github le proporcionará un enlace de tipo ``https://jeedom.github.io/plugin-template/`` (después de unos minutos, al revisarlo, debería ver el diseño de su documentación correctamente).
 
 Ahora necesita poner los enlaces de su documentación en el archivo de información.json de tu plugin para eso es necesario :
 
@@ -52,4 +52,4 @@ Ahora necesita poner los enlaces de su documentación en el archivo de informaci
 
 > **Nota**
 >
-> Comprenderá cuándo el usuario solicitará ver su documento de jeedom o el mercado lo reemplazará automáticamente #language# por el idioma del usuario para señalar el idioma correcto (si su documentación no está disponible en el idioma del usuario, esto volverá automáticamente al francés)
+> Como puede ver, cuando el usuario solicita ver su documento, Jeedom o el mercado lo reemplazarán automáticamente #language# por el idioma del usuario para señalar el idioma correcto (si su documentación no está disponible en el idioma del usuario, automáticamente, esto se referirá al francés)

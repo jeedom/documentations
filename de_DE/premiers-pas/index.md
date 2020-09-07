@@ -27,7 +27,7 @@ Wenn Sie eine Jeedom-Box gekauft haben, sollten Sie eine E-Mail mit einem Code f
 >
 > Wenn Sie ein Service Pack auf dem Jeedom Market kaufen, haben Sie nichts zu tun, es wird Ihnen automatisch zugewiesen.
 
-Sobald der Code in der Mail abgerufen wurde, müssen Sie nur noch zu gehen [Jeedom Markt](https://market.jeedom.com/) und identifiziere dich.
+Sobald der Code aus der E-Mail abgerufen wurde, müssen Sie nur noch zu gehen [Jeedom Markt](https://market.jeedom.com/) und identifiziere dich.
 
 Dann gehen Sie zu Ihrer Profilseite:
 
@@ -55,7 +55,7 @@ Die einfachste Lösung (funktioniert jedoch in 100% der Fälle nicht, abhängig 
 
 > **Wichtig**
 >
-> Abhängig von Ihrer ADSL-Box funktioniert diese Funktionalität möglicherweise nicht. Wenn ja, nichts Ernstes, müssen Sie nur eine Verbindung zu Ihrer ADSL-Box herstellen und die Jeedom-IP darin finden. Dieser Schritt gibt Ihnen nur die lokale IP Ihres Jeedom. Dies ist nicht der Fall, wenn das Hinzufügen Ihres Jeedom zu Ihrem Marktkonto abgeschlossen ist.
+> Abhängig von Ihrer ADSL-Box funktioniert diese Funktion möglicherweise nicht. Wenn ja, nichts Ernstes, müssen Sie nur eine Verbindung zu Ihrer ADSL-Box herstellen und die Jeedom-IP darin finden. Dieser Schritt gibt Ihnen nur die lokale IP Ihres Jeedom. Dies ist nicht der Fall, wenn das Hinzufügen Ihres Jeedom zu Ihrem Marktkonto abgeschlossen ist.
 
 #### Durch Ihre Internetbox
 
@@ -78,7 +78,7 @@ Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen könn
 -   Klicken Sie unten auf die Registerkarte **Markt**
 -   Aktivieren Sie das Kontrollkästchen **Aktivieren**
 -   Remplissez l'adresse : `https://market.jeedom.com`
--   Füllen Sie auch das Feld aus **Benutzername** und **Passwort** basierend auf Ihren Kennungen (Marktkennungen und nicht Jeedom)
+-   Füllen Sie auch die Felder aus **Benutzername** und **Passwort** basierend auf Ihren Kennungen (Marktkennungen und nicht Jeedom)
 -   Sie können testen, ob die Verbindung korrekt hergestellt wurde.
 -   Vergiss nicht zu sparen !
 
@@ -98,7 +98,7 @@ Sobald Sie hier sind, aktivieren Sie einfach **Verwenden von Jeedom DNS** dann a
 
 > **Wichtig**
 >
-> Wenn Sie gerade Ihr Jeedom mit Ihrem Market-Konto verknüpft haben, müssen Sie 24 bis 48 Stunden warten, bevor Sie den DNS-Dienst nutzen können
+> Wenn Sie gerade Ihr Jeedom mit Ihrem Market-Konto verknüpft haben, müssen Sie 24 bis 48 Stunden warten, bevor Sie den DNS-Dienst verwenden können
 
 ## Ändern Sie das Standardkennwort von Jeedom
 
@@ -192,7 +192,7 @@ Alle weiteren Austausche erfolgen per E-Mail.
 
 > **Spitze**
 >
-> Wenn beim Öffnen eines Tickets eine Fehlermeldung angezeigt wird, dass Sie Ihr Kontingent erreicht haben, bedeutet dies, dass Sie abhängig von Ihrem Service Pack auf eine bestimmte Anzahl von Supportanfragen pro Monat beschränkt sind.
+> Wenn beim Öffnen eines Tickets eine Fehlermeldung angezeigt wird, dass Sie Ihr Kontingent erreicht haben, sind Sie abhängig von Ihrem Service Pack auf eine bestimmte Anzahl von Supportanfragen pro Monat beschränkt.
 
 Die verschiedenen Service Packs sind :
 - Community (kostenlos): 2 Tickets / Monat (nur für kostenpflichtige Plugins)

@@ -1,6 +1,6 @@
 # Präsentation
 
-Jeedom ist eine kostenlose Open-Source-Software, die auf jedem Linux-System installiert werden kann. Es basiert auf einem Kernel mit mehreren Funktionen : Szenariomanagement, Interaktion mit dem Hausautomationssystem in Text und Ton, Visualisierung des Verlaufs und Erzeugung von Kurven und Grafiken, Verknüpfung aller angeschlossenen Geräte und Objekte, Anpassung der Benutzeroberfläche ... Die übersichtliche Benutzeroberfläche und intuitiv ermöglicht die Einrichtung einer Komplettlösung ohne Kenntnisse in der Entwicklung.
+Jeedom ist eine kostenlose Open-Source-Software, die auf jedem Linux-System installiert werden kann. Es basiert auf einem Kernel mit mehreren Funktionen : Szenariomanagement, Text- und Toninteraktion mit der Installation der Hausautomation, Visualisierung von Historien und Generierung von Kurven und Grafiken, Verknüpfung aller Geräte und verbundenen Objekte, Anpassung der Benutzeroberfläche ... Die übersichtliche Benutzeroberfläche und Mit intuitiv können Sie eine Komplettlösung ohne Entwicklungskenntnisse einrichten.
 
 Jeedom benötigt für den Betrieb keinen Zugriff auf externe Server. Ihre gesamte Installation wird lokal verwaltet und Sie sind daher die einzigen, die Zugriff darauf haben, um vollständige Vertraulichkeit zu gewährleisten.
 
@@ -37,7 +37,7 @@ Der Kern umfasst unter anderem :
 
 ## Historiques
 
-*Alle Informationen können gespeichert werden (Temperaturkurve, Verbrauch, Türöffnungen usw.) und sind unter Analyse → Verlauf oder über die Dashboard-Kacheln zugänglich.*
+*Alle Informationen können historisiert werden (Temperaturkurven, Verbrauch, Türöffnungen usw.) und können unter Analyse → Verlauf oder über die Dashboard-Kacheln abgerufen werden.*
 
 [Chronik](/de_DE/core/4.1/history)
 
@@ -45,7 +45,7 @@ Der Kern umfasst unter anderem :
 
 ## Szenarien
 
-*Mithilfe von Szenarien können Sie Ihre Geräte ganz oder teilweise automatisieren. Sie sind mit verschiedenen Blöcken gebaut. Bedingte Blöcke (wenn dann, sonst), Aktionen, Programmierung (IN x Minuten oder A hhmm), Schleife, Kommentar oder PHP-Code. Alle Blöcke sind ineinander verschachtelbar und bieten endlose Möglichkeiten.*
+*Mithilfe von Szenarien können Sie Ihre Geräte ganz oder teilweise automatisieren. Sie sind mit verschiedenen Blöcken gebaut. Bedingte Blöcke (If, Then, Else), Aktionen, Programmierung (IN x Minuten oder A hhmm), Schleife, Kommentar oder PHP-Code. Alle Blöcke sind ineinander verschachtelbar und bieten endlose Möglichkeiten.*
 
 [Mein erstes Szenario](/de_DE/concept/#tocAnchor-4)
 
@@ -85,5 +85,5 @@ Diese Plugins können vom Markt installiert werden und ermöglichen es Ihnen, di
 
 ![Page Markt](images/doc-presentation-market.jpg)
 
-Jeedom ermöglicht es jedem Plugin, standardisiert mit einem anderen zu chatten. Dies ermöglicht zum Beispiel die Verwendung des Thermostats oder der Alarm-Plugins mit einem beliebigen Hausautomationsprotokoll oder sogar einem IP-Plugin oder einem kommunizierenden Objekt
+Jeedom ermöglicht es jedem Plugin, standardisiert mit einem anderen zu chatten. Dies ermöglicht es beispielsweise, Thermostat- oder Alarm-Plugins mit einem beliebigen Hausautomationsprotokoll oder sogar einem IP-Plugin oder Kommunikationsobjekt zu verwenden
 

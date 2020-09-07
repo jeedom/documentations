@@ -1,6 +1,6 @@
 # Dokumentation des Z-Wave-Moduls
 
-Hier finden Sie die Dokumentation, die wir für bestimmte Z-Wave-Module als nützlich erachtet haben.
+Hier finden Sie die Dokumentation, die wir für einige Z-Wave-Module als nützlich erachtet haben.
 
 Zur Erinnerung finden Sie die Liste der kompatiblen Geräte [hier](equipement.compatible.md) und [hier](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/) Plugin-Dokumentation.
 

@@ -6,18 +6,18 @@ Jeedom se puede usar en dispositivos móviles de dos maneras.
 
 Jeedom adopta una versión específica para dispositivos móviles y tabletas. Se accede desde la misma dirección, en un navegador en Mobile (Firefox, Chrome, Safari, etc.).
 
-Esta versión adaptada también se simplifica, por motivos de visualización y rendimiento.
+Esta versión adaptada también se simplifica, en aras de la visualización y el rendimiento.
 
 ![Web App](images/webApp.png)
 
 - Dispositivos : Acceda al tablero por objeto. También puedes ver el Resumen.
 - Mensajes : Ver centro de mensajes.
 - Vistas : Accede a tus vistas.
-- Diseños : Acceda a su diseño o diseño 3D. (La visualización de un diseño es pantalla completa, haga clic con tres dedos para volver a la página de inicio).
-- Escenario : Visualización de los cuadros de sus escenarios, por grupo, con la posibilidad de activar / desactivar, detener / iniciar. Al hacer clic en el título del script, accederá a su registro.
+- Diseños : Accede a tus Diseños o Diseños 3D. (La visualización de un diseño es pantalla completa, haga clic con tres dedos para volver a la página de inicio).
+- Escenario : Visualización de los mosaicos de tus escenarios, en grupos, con posibilidad de activarlos / desactivarlos, detenerlos / iniciarlos. Al hacer clic en el título del script, accederá a su registro.
 - Análisis : Acceda a la línea de tiempo, registros, análisis de equipos, cronos, demonios y salud.
-- Otro : Cambie entre los temas principales y alternativos, acceda a la versión de escritorio, fuerce la actualización, acceda a la documentación, sobre o cierre la sesión.
-- Plugins : Algunos complementos pueden tener una pantalla de aplicación web dedicada. Estarán disponibles aquí.
+- Otro : Cambiar entre los temas principal y alternativo, ir a la versión de escritorio, forzar actualización, ir a la documentación, acerca de o cerrar sesión.
+- Plugins : Algunos complementos pueden tener una pantalla dedicada a la aplicación web. Estarán disponibles aquí.
 
 > Tips
 >
@@ -27,7 +27,7 @@ La aplicación web tiene una función principalmente de asesoramiento. Por supue
 
 ## Aplicación Jeedom
 
-La aplicación móvil Jeedom (compatible con IOS / Android) le permite controlar su sistema de automatización del hogar Jeedom, ya sea por Wi-Fi local o en la red 3G / 4G de su operador. La aplicación se conecta automáticamente a su Jeedom a través de un código QR, no es necesaria ninguna configuración. Encontrarás en tu móvil la funcionalidad de tu Jeedom. (escenarios, objetos de domótica y conectados, complementos). También puede personalizar su aplicación con accesos directos y más...
+La aplicación móvil Jeedom (compatible con IOS / Android) le permite controlar su sistema de automatización del hogar Jeedom, ya sea por Wi-Fi local o en la red 3G / 4G de su operador. La aplicación se conecta automáticamente a su Jeedom a través de un código QR, no es necesaria ninguna configuración. Encontrarás en tu móvil la funcionalidad de tu Jeedom. (escenarios, objetos conectados y domótica, complementos). También puede personalizar su aplicación con accesos directos y más...
 
 [![AppStore](images/appstore.png)](https://itunes.apple.com/fr/app/jeedom/id1010855094?mt=8)	[![PlayStore](images/googleplay.png)](https://play.google.com/store/apps/details?id = fr.jeedom.jeedom & hl = fr)
 

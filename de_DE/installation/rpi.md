@@ -17,7 +17,7 @@ Sie finden die Bilder [hier](https://images.jeedom.com/rpi/)
 
 > **Wichtig**
 >
->Es gibt 2 Arten von Bildern, die jeedom-debian-XXXX-rpi-X.X.XX.Der 32-Bit-Reißverschluss ist mit allen RPI-Modellen und dem jeedom-debian-XXXX-rpi-64 kompatibel-X.X.XX.Zip mit 64 Bit ist (deutlich) effizienter, aber nur mit RPI2 / 3/4 kompatibel. Um in RPI 1 zusammenzufassen, nehmen Sie das 32-Bit, andernfalls die 64-Bit (RPI-64))
+>Es gibt 2 Arten von Bildern, die jeedom-debian-XXXX-rpi-X.X.XX.Der 32-Bit-Reißverschluss ist mit allen RPI-Modellen und dem jeedom-debian-XXXX-rpi-64 kompatibel-X.X.XX.Zip mit 64 Bit ist (deutlich) effizienter, aber nur mit RPI2 / 3/4 kompatibel. Um in RPI 1 zusammenzufassen, nehmen Sie die 32 Bits, andernfalls die 64 Bits (rpi-64))
 
 Mit dem Raspberry Pi Imager können Sie das Installationsimage von Raspberry Pi OS in der neuesten Version direkt herunterladen.
 
@@ -31,7 +31,7 @@ Legen Sie Ihre MicroSD-Karte ein, schließen Sie das Netzwerkkabel an und schlie
 
 > **Wichtig**
 >
-> Während des ersten Starts kann der Raspberry Pi langsam sein, da die Größe der Partition der Größe Ihrer MicroSD-Karte entspricht. Darüber hinaus ist es ratsam, nach dem ersten Start erneut zu starten, damit der Swap die richtige Größe hat.
+> Beim ersten Start ist der Raspberry Pi möglicherweise langsam, da die Größe der Partition an die Größe Ihrer MicroSD-Karte angepasst wird. Darüber hinaus ist es ratsam, nach dem ersten Start erneut zu starten, damit der Swap die richtige Größe hat.
 
 Il vous suffit ensuite, dedann votre navigateur, de saisir : http://IP_RPI/ (en remplaçant IP_RPI par l'ip de votre Raspberry Pi).
 
@@ -69,7 +69,7 @@ Klicken Sie einfach mit der rechten Maustaste : neues / Textdokument und benenne
 
 > **Wichtig**
 >
-> Unter Windows müssen Sie daher im Explorer Ihre Konfiguration in Anzeige / Optionen / Ordner ändern und Suchoptionen ändern /
+> Unter Windows müssen Sie daher im Explorer Ihre Einstellungen in Anzeige / Optionen / Ordner ändern und Suchoptionen ändern /
 
 ![ExtensionFichier](images/ExtensionFichier.PNG)
 
@@ -84,13 +84,13 @@ Identifizieren Sie Ihren Raspberry Pi im Netzwerk
 Sie müssen die IP-Adresse Ihres Raspberry PI kennen. Viele Lösungen :
 
 -   Konsultieren Sie die DHCP-Konfiguration in Ihrem Router
--   Verwenden Sie einen Port-Scanner vom Typ Angyipscanner" [hier](http://angryip.org/download/#windows)
+-   Verwenden Sie einen Port-Scanner wie "Angry IP Scanner"" [hier](http://angryip.org/download/#windows)
 
 Verbindung herstellen
 
-Verwenden Sie dann beispielsweise Kitt, um Ihre Verbindung herzustellen [Hier](http://www.putty.org/)
+Verwenden Sie dann beispielsweise PuTTY, um Ihre Verbindung herzustellen [Hier](http://www.putty.org/)
 
-Geben Sie die IP-Adresse Ihres Raspberry Pi ein (hier 192.168.0.10) und klicken Sie auf Öffnen. Akzeptieren Sie die Standardsicherheitsmeldung, wenn Sie sich zum ersten Mal anmelden.
+Geben Sie die IP-Adresse Ihres Raspberry Pi ein (hier 192.168.0.10) und klicken Sie auf Öffnen. Akzeptieren Sie die Standardsicherheitsmeldung bei der ersten Anmeldung.
 
 Melden Sie sich mit Anmeldeinformationen an **Pi / Himbeere**
 

@@ -7,7 +7,7 @@ Es gibt verschiedene Möglichkeiten, benutzerdefinierte Widgets für Plugins zu 
 
 ## ToHtml-Funktion
 
-Vor allem muss die Funktion toHtml das Widget in HTML zurückgeben, Sie haben ein Beispiel [die](https://github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
+Daraufhin muss die Funktion toHtml, nichts Besonderes, das Widget in HTML zurückgeben, Sie haben ein Beispiel [die](https://github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
 
 Das Wichtigste ist vor allem die 1. Zeile :
 
@@ -48,11 +48,11 @@ Hier erstellen wir ein neues Widget basierend auf der Vorlage "tmplmultistate" (
 
 > **Wichtig**
 >
-> Jede Vorlage ist für einen bestimmten Typ und Untertyp bestimmt. Sie müssen daher überprüfen, ob die Vorlage, die Sie verwenden möchten, für den Typ und den Untertyp vorhanden ist
+> Jede Vorlage ist für einen bestimmten Typ und Subtyp bestimmt. Sie müssen daher überprüfen, ob die Vorlage, die Sie verwenden möchten, für den Typ und den Subtyp vorhanden ist
 
 Da es sich dann um eine Vorlage mit mehreren Status handelt, müssen Sie die Symbole entsprechend dem Status definieren. Dies erfolgt im Testteil der Tabelle.
 
-Beispiel : Für den ersten Test sagen wir, wenn der Wert des Befehls 2 wert ist, müssen wir das Tag ersetzen #\_state_# (im HTML-Code der Vorlage) von </i>
+Beispiel : Für den ersten Test sagen wir, wenn der Wert des Befehls 2 wert ist, muss das Tag ersetzt werden #\_state_# (im HTML-Code der Vorlage) von </i>
 
 Ein anderes Beispiel, das auf einer anderen Vorlage basiert, könnte sein :
 
@@ -70,11 +70,11 @@ public static function templateWidget(){
 }
 ````
 
-Hier erstelle ich ein Toto-Widget basierend auf der Vorlage "tmplicon" im Infotyp und im Binärtyp. Wenn es 1 ist, wird das Symbol sein <i class='icon_green icon jeedom-porte-ferme'></i> und wenn es 0 dauert, wird es sein </i>
+Hier erstelle ich ein Toto-Widget basierend auf der Vorlage "tmplicon" im Infotyp und im binären Subtyp. Wenn es 1 ist, wird das Symbol sein <i class='icon_green icon jeedom-porte-ferme'></i> und wenn es 0 ist, wird es sein </i>
 
 >**Tipps**
 >
-> Kleiner Tipp Sie können anstelle eines Symbols ein Bild-Tag setzen (achten Sie auf den Pfad)
+> Kleiner Tipp, Sie können anstelle eines Symbols ein Bild-Tag einfügen (achten Sie auf den Pfad)
 
 Dann verwenden Sie Ihr Widget :
 
@@ -83,6 +83,6 @@ $cmd->setTemplate('dashboard','neato::state');
 $cmd->setTemplate('mobile','neato::state');
 ````
 
-Es ist wie bei einem normalen Widget, mit Ausnahme des Namens des Widgets in der Form id_plugin::name_widget. Für das 2. Beispiel ist es id_plugin::toto
+Es ist wie bei einem normalen Widget, mit Ausnahme des Namens des Widgets in der Form id_plugin::name_widget. Für das zweite Beispiel ist es id_plugin::toto
 
 

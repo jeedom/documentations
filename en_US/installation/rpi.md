@@ -17,7 +17,7 @@ You find the images [here](https://images.jeedom.com/rpi/)
 
 > **Important**
 >
->There are 2 types of image that jeedom-debian-XXXX-rpi-X.X.XX.zip which is in 32bits, it is compatible with all RPI models and the jeedom-debian-XXXX-rpi-64-X.X.XX.zip which is in 64bits, it is (significantly) more efficient but is only compatible with RPI2 / 3/4. To summarize in rpi 1 take the 32 bit otherwise take the 64bits (rpi-64)
+>There are 2 types of image, that jeedom-debian-XXXX-rpi-X.X.XX.zip which is in 32bits, it is compatible with all RPI models and the jeedom-debian-XXXX-rpi-64-X.X.XX.zip which is in 64bits, it is (significantly) more efficient but is only compatible with RPI2 / 3/4. To summarize in RPI 1, take the 32bits otherwise take the 64bits (rpi-64)
 
 Raspberry Pi imager allows you to directly download the installation image of Raspberry Pi OS, in its most recent version.
 
@@ -31,7 +31,7 @@ Insert your MicroSD card, connect the network cable and connect the power.
 
 > **Important**
 >
-> During the first startup the Raspberry Pi can be slow because it resizes the partition to match the size of your MicroSD card. In addition, once the first start is made, it is advisable to restart again so that the Swap is of correct size.
+> On first boot, the Raspberry Pi may be slow as it resizes the partition to match your MicroSD card size. In addition, once the first start is made, it is advisable to restart again so that the Swap is of correct size.
 
 Il vous suffit ensuite, dethen votre navigateur, de saisir : http://IP_RPI/ (en remplaçant IP_RPI par l'ip de votre Raspberry Pi).
 
@@ -69,7 +69,7 @@ Just right click : new / text document and rename it to "ssh" **without extensio
 
 > **Important**
 >
-> Under windows, in the explorer you must therefore check your configuration in display / options / modify the folder and search options /
+> Under Windows, in Explorer, you must therefore check your settings in display / options / modify the folder and search options /
 
 ![ExtensionFichier](images/ExtensionFichier.PNG)
 
@@ -84,13 +84,13 @@ Identify your Raspberry Pi on the network
 You need to know the IP address of your Raspberry PI. Many solutions :
 
 -   Consult the DHCP configuration in your router
--   Use an angyipscanner type port scanner" [here](http://angryip.org/download/#windows)
+-   Use a port scanner such as "Angry IP Scanner" [here](http://angryip.org/download/#windows)
 
 Establish connection
 
-Then use for example putty to establish your connection [Here](http://www.putty.org/)
+Then use for example PuTTY to establish your connection [Here](http://www.putty.org/)
 
-Enter the IP address of your Raspberry Pi (here 192.168.0.10) and click on open. Accept the default security message when logging in for the first time.
+Enter the IP address of your Raspberry Pi (here 192.168.0.10) and click on open. Accept the default security message on first login.
 
 Log in with credentials **pi / raspberry**
 

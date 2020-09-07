@@ -2,7 +2,7 @@
 
 Aquí están los principales conceptos básicos de Jeedom. Esta documentación sigue siendo voluntariamente simple para ayudarlo a tomar el control de su domótica.
 
-Las posibilidades de Jeedom son casi infinitas, ya que puedes crear muchas cosas con unos pocos python u otros scripts php, pero ese no es el punto aquí.
+Las posibilidades de Jeedom son casi infinitas, ya que puedes crear muchas cosas con unos pocos php, python u otros scripts, pero ese no es el tema aquí.
 
 > Tip
 >
@@ -28,13 +28,13 @@ Estos se pueden ver en un navegador en una computadora de escritorio o en un tel
 
 Para organizar sus dispositivos, puede crear [Objetos](/es_ES/core/4.1/object).
 
-Estos objetos pueden representar partes de la casa (sala de estar, dormitorio, taller)). Cada objeto puede tener un objeto padre. Esta jerarquía se usará para mostrar en el Panel de control. Por ejemplo, puedes tener un objeto **Casa**, entonces objetos **Sala de estar** **Habitación** niño objeto **Casa**. Una vez en el Tablero, el objeto **Casa** también mostrará, a continuación, sus objetos secundarios.
+Estos objetos pueden representar partes de la casa (sala de estar, dormitorio, taller)). Cada objeto puede tener un objeto padre. Esta jerarquía se usará para mostrar en el Panel de control. Por ejemplo, puedes tener un objeto **Casa**, entonces objetos **Sala de estar** **Habitación** niños objeto **Casa**. Una vez en el Tablero, el objeto **Casa** también mostrará, a continuación, sus objetos secundarios.
 
 ![Objet](images/concept-objet.jpg)
 
 > Tips
 >
-> DENTRO **Configuración → Preferencias** puede definir a qué objeto desea llegar en el Tablero. [Preferencias](/es_ES/core/4.1/profils)
+> DENTRO **Configuración → Preferencias**, puede definir a qué objeto desea llegar en el Tablero. [Preferencias](/es_ES/core/4.1/profils)
 
 ![Salpicadero](images/concept-dashboard.jpg)
 
@@ -52,7 +52,7 @@ Para interactuar con nuestra automatización del hogar, necesita comandos ! Esto
 Estos comandos almacenan información de los sensores. Por ejemplo, la temperatura de una sonda, el movimiento de un sensor de presencia, etc.
 Estos comandos se pueden registrar para mantener esta información a lo largo del tiempo en forma de curva : [Historial](/es_ES/core/4.1/history)
 
-Estos comandos también se pueden usar para activar [Escenarios](/es_ES/core/4.1/scenario) para automatizar acciones basadas en la información reportada por sus sensores. Por ejemplo, un sensor de movimiento detecta una presencia, lo que desencadenará un escenario que encenderá la luz.
+Estos comandos también se pueden usar para activar [Escenarios](/es_ES/core/4.1/scenario) para automatizar acciones basadas en la información enviada por sus sensores. Por ejemplo, un sensor de movimiento detecta una presencia, lo que desencadenará un escenario que encenderá la luz.
 
 - Las órdenes *Acción* :
 Estos comandos le permiten controlar sus actuadores. Por ejemplo, comandos ````on```` y ````off```` de un tomacorriente controlado le permitirá encenderlo y apagarlo.
@@ -70,13 +70,13 @@ Estos dos tipos de comandos se adjuntan en forma de equipo. Por lo tanto, el equ
 
 Estos equipos son creados por complementos. Por ejemplo, el complemento Z-Wave le permitirá incluir su enchufe Z-Waze, que creará equipos con sus controles, que puede nombrar y vincular a un Objeto.
 
-En términos de visualización, cada pedido se muestra utilizando un widget. The Core ofrece los widgets principales, así como una herramienta para crearlos (V4) : [Reproductores](/es_ES/core/4.1/widgets).
+En términos de visualización, cada pedido se muestra mediante un widget. The Core ofrece los widgets principales, así como una herramienta para crearlos (V4) : [Reproductores](/es_ES/core/4.1/widgets).
 
 Estos comandos están agrupados en un mosaico correspondiente a su equipo. Y este mosaico se mostrará en el Tablero en el Objeto que haya elegido.
 
 ![Comandos](images/concept-equipment.jpg)
 
-Sea cual sea su dispositivo, se creará en forma de equipo, a partir de un [Plugin](/es_ES/core/4.1/plugin).
+Cualquiera que sea su dispositivo, se creará en forma de dispositivo, a partir de un [Plugin](/es_ES/core/4.1/plugin).
 
 Este dispositivo tendrá sus propios comandos *Información* o *Acción*. Estos comandos se mostrarán como widgets que forman el mosaico del equipo, en su objeto principal.
 
@@ -84,9 +84,9 @@ Luego verá que cada Objeto, Equipo, Orden tiene muchas opciones, en términos d
 
 ## Mi primer escenario
 
-La ventaja de la automatización del hogar, más allá del control centralizado y remoto de nuestros periféricos, reside sobre todo en la automatización. El objetivo no es pasar horas frente a su Tablero o Diseño, sino que, por el contrario, su alojamiento se adapta a sus hábitos y lo hace olvidar. No más persianas para abrir y cerrar todos los días, más luz para encender y apagar, se advierte cuándo tirar la basura en la calle, cuando hay correo en el buzón, la calefacción que se adapta según estaciones y condiciones climáticas. Las posibilidades son infinitas y dependen del estilo de vida. Los escenarios están ahí para eso !
+La ventaja de la automatización del hogar, más allá del control centralizado y remoto de nuestros periféricos, reside sobre todo en la automatización. El objetivo no es pasar horas frente a su Tablero o Diseño, sino que, por el contrario, su alojamiento se adapta a sus hábitos y lo hace olvidar. No más persianas para abrir y cerrar todos los días, no más luces para encender y apagar, estar avisado cuando tirar la basura a la calle, cuando hay correo en el buzón, la calefacción que se adapta según el estaciones y condiciones climáticas. Las posibilidades son infinitas y dependen del estilo de vida. Los escenarios están ahí para eso !
 
-Un escenario es una serie de acciones definidas que se ejecutarán en determinados momentos del día. La ejecución puede programarse (todos los lunes a esa hora) o ser causada por un evento. Como se vio anteriormente, este evento puede ser, por ejemplo, nuestro comando de información *Presencia* un detector de movimiento, después de una detección.
+Un escenario es una serie de acciones definidas que se ejecutarán en determinados momentos del día. La ejecución puede ser programada (todos los lunes a una hora determinada) o causada por un evento. Como se vio anteriormente, este evento puede ser, por ejemplo, nuestro comando de información *Presencia* un detector de movimiento, después de una detección.
 
 El objetivo aquí no es ser exhaustivo, sino descubrir los escenarios a través de ejemplos simples. los [documentación del manual de usuario](/es_ES/core/4.1/scenario) es mucho más completo.
 
@@ -112,7 +112,7 @@ El `#` indica un comando, luego encontramos `[el nombre de su objeto padre]`, lu
 
 Aquí solo hemos tocado las posibilidades de los escenarios. Puedes agregar condiciones (bloquear *Si/Entonces/Sino*), acciones de retraso (bloqueo *DENTRO*), programarlos (bloquear *A las*), e incluso usar directamente el código php (bloque *CODIGO*).
 
-Aquí usamos el modo de disparo *Provocado*, con un pedido. Pero también puedes usar (y combinar) el modo *Programado* ejecutar un script cada mañana, o cada hora, etc.
+Aquí usamos el modo de disparo *Provocado*, con un pedido. Pero también puedes usar (y combinar) el modo *Programado* ejecutar un escenario cada mañana o cada hora, etc.
 
 
 ### Programa del día.

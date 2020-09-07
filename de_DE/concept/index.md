@@ -2,7 +2,7 @@
 
 Hier sind die wichtigsten Grundkonzepte von Jeedom. Diese Dokumentation bleibt freiwillig einfach, damit Sie die Kontrolle über Ihre Hausautomation übernehmen können.
 
-Die Möglichkeiten von Jeedom sind nahezu unbegrenzt, da Sie mit ein paar Python- oder anderen PHP-Skripten viele Dinge erstellen können, aber darum geht es hier nicht.
+Die Möglichkeiten von Jeedom sind nahezu unbegrenzt, da Sie mit ein paar PHP-, Python- oder anderen Skripten viele Dinge erstellen können, aber das ist hier nicht das Thema.
 
 > Tip
 >
@@ -10,7 +10,7 @@ Die Möglichkeiten von Jeedom sind nahezu unbegrenzt, da Sie mit ein paar Python
 
 ## Affichage
 
-Jeedom ermöglicht es, eine sehr große Anzahl von Peripheriegeräten miteinander zu verbinden, unabhängig davon, ob diese auf den Protokollen Z-Wave, Enocean, Zigbee usw., APIs dank Plugins oder direkt in Form von Skripten basieren. Sie können auf die schauen [Markt](https://market.jeedom.com/) um einen Überblick über die unterstützten Geräte zu erhalten.
+Jeedom ermöglicht es, eine sehr große Anzahl von Peripheriegeräten miteinander zu verbinden, unabhängig davon, ob diese auf den Protokollen Z-Wave, Enocean, Zigbee usw., APIs dank Plugins oder direkt in Form von Skripten basieren. Sie können auf der sehen [Markt](https://market.jeedom.com/) um einen Überblick über die unterstützten Geräte zu erhalten.
 
 Sie können diese Geräte auf verschiedene Arten anzeigen :
 
@@ -28,13 +28,13 @@ Diese können in einem Browser auf einem Desktop-Computer oder auf einem Smartph
 
 Um Ihre Geräte zu organisieren, können Sie erstellen [Objekte](/de_DE/core/4.1/object).
 
-Diese Objekte können Teile des Hauses darstellen (Wohnzimmer, Schlafzimmer, Werkstatt). Jedes Objekt kann ein übergeordnetes Objekt haben. Diese Hierarchie wird für die Anzeige im Dashboard verwendet. Sie können beispielsweise ein Objekt haben **Haus**, dann Objekte **Wohnzimmer** **Schlafzimmer** Objekt Kind **Haus**. Einmal im Dashboard, das Objekt **Haus** zeigt auch unten seine untergeordneten Objekte an.
+Diese Objekte können Teile des Hauses darstellen (Wohnzimmer, Schlafzimmer, Werkstatt). Jedes Objekt kann ein übergeordnetes Objekt haben. Diese Hierarchie wird für die Anzeige im Dashboard verwendet. Sie können beispielsweise ein Objekt haben **Haus**, dann Objekte **Wohnzimmer** **Schlafzimmer** Objekt Kinder **Haus**. Einmal im Dashboard, das Objekt **Haus** zeigt auch unten seine untergeordneten Objekte an.
 
 ![Objet](images/concept-objet.jpg)
 
 > Tips
 >
-> IN **Einstellungen → Einstellungen** Sie können definieren, welches Objekt im Dashboard ankommen soll. [Vorlieben](/de_DE/core/4.1/profils)
+> IN **Einstellungen → Einstellungen**, Sie können definieren, welches Objekt im Dashboard ankommen soll. [Vorlieben](/de_DE/core/4.1/profils)
 
 ![Armaturenbrett](images/concept-dashboard.jpg)
 
@@ -52,7 +52,7 @@ Für die Interaktion mit unserer Hausautomation benötigen Sie Befehle ! Es gibt
 Diese Befehle speichern Informationen von Sensoren. Zum Beispiel die Temperatur einer Sonde, eine Bewegung eines Anwesenheitssensors usw.
 Diese Befehle können protokolliert werden, um diese Informationen über die Zeit in Form einer Kurve zu erhalten : [Chronik](/de_DE/core/4.1/history)
 
-Diese Befehle können auch zum Auslösen verwendet werden [Szenarien](/de_DE/core/4.1/scenario) um Aktionen basierend auf den von Ihren Sensoren gemeldeten Informationen zu automatisieren. Ein Bewegungssensor erkennt beispielsweise eine Anwesenheit, die ein Szenario auslöst, das das Licht einschaltet.
+Diese Befehle können auch zum Auslösen verwendet werden [Szenarien](/de_DE/core/4.1/scenario) um Aktionen basierend auf den von Ihren Sensoren gesendeten Informationen zu automatisieren. Ein Bewegungssensor erkennt beispielsweise eine Anwesenheit, die ein Szenario auslöst, das das Licht einschaltet.
 
 - Bestellungen *Aktion* :
 Mit diesen Befehlen können Sie Ihre Aktuatoren steuern. Zum Beispiel Befehle ````on```` und ````off```` Mit einer kontrollierten Steckdose können Sie sie ein- und ausschalten.
@@ -76,7 +76,7 @@ Diese Befehle sind in einer Kachel zusammengefasst, die Ihrer Ausrüstung entspr
 
 ![Befehle](images/concept-equipment.jpg)
 
-Unabhängig von Ihrem Gerät wird es in Form von Geräten erstellt, aus a [Plugin](/de_DE/core/4.1/plugin).
+Unabhängig von Ihrem Gerät wird es daher in Form eines Geräts aus a erstellt [Plugin](/de_DE/core/4.1/plugin).
 
 Dieses Gerät verfügt über eigene Befehle *Info* oder *Aktion*. Diese Befehle werden als Widgets angezeigt, die die Gerätekachel in ihrem übergeordneten Objekt bilden.
 
@@ -84,9 +84,9 @@ Sie werden dann sehen, dass jedes Objekt, jede Ausrüstung, jede Bestellung viel
 
 ## Mein erstes Szenario
 
-Der Vorteil der Heimautomation über die zentrale und ferngesteuerte Steuerung unserer Peripheriegeräte hinaus liegt vor allem in der Automatisierung. Das Ziel ist nicht, Stunden vor Ihrem Dashboard oder Design zu verbringen, sondern im Gegenteil, dass sich Ihre Unterkunft an Ihre Gewohnheiten anpasst und Sie vergessen lässt. Keine Fensterläden mehr zum täglichen Öffnen und Schließen, mehr Licht zum Ein- und Ausschalten, seien Sie gewarnt, wann Sie den Müll auf die Straße bringen müssen, wenn sich Post im Briefkasten befindet und die Heizung sich entsprechend anpasst Jahreszeiten und klimatische Bedingungen. Die Möglichkeiten sind endlos und hängen vom eigenen Lebensstil ab. Dafür gibt es die Szenarien !
+Der Vorteil der Heimautomation über die zentrale und ferngesteuerte Steuerung unserer Peripheriegeräte hinaus liegt vor allem in der Automatisierung. Das Ziel ist nicht, Stunden vor Ihrem Dashboard oder Design zu verbringen, sondern im Gegenteil, dass sich Ihre Unterkunft an Ihre Gewohnheiten anpasst und Sie vergessen lässt. Keine Fensterläden mehr, die jeden Tag geöffnet und geschlossen werden müssen, keine Lichter mehr zum Ein- und Ausschalten, seien Sie gewarnt, wann Sie den Müll auf die Straße bringen müssen, wenn sich Post im Briefkasten befindet, die Heizung passt sich dem an Jahreszeiten und klimatische Bedingungen. Die Möglichkeiten sind endlos und hängen vom eigenen Lebensstil ab. Dafür gibt es die Szenarien !
 
-Ein Szenario besteht aus einer Reihe definierter Aktionen, die zu bestimmten Tageszeiten ausgeführt werden. Die Ausführung kann geplant werden (jeden Montag zu diesem Zeitpunkt) oder durch ein Ereignis verursacht werden. Wie oben gezeigt, kann dieses Ereignis beispielsweise unser Info-Befehl sein *Präsenz* ein Bewegungsmelder nach einer Erkennung.
+Ein Szenario besteht aus einer Reihe definierter Aktionen, die zu bestimmten Tageszeiten ausgeführt werden. Die Ausführung kann geplant werden (jeden Montag zu einer bestimmten Zeit) oder durch ein Ereignis verursacht werden. Wie oben gezeigt, kann dieses Ereignis beispielsweise unser Info-Befehl sein *Präsenz* ein Bewegungsmelder nach einer Erkennung.
 
 Das Ziel hier ist nicht, erschöpfend zu sein, sondern die Szenarien anhand einfacher Beispiele zu entdecken. Das [Dokumentation des Benutzerhandbuchs](/de_DE/core/4.1/scenario) ist viel vollständiger.
 
@@ -112,7 +112,7 @@ Das "#" gibt einen Befehl an, dann gibt es "[den Namen des übergeordneten Objek
 
 Hier haben wir nur die Möglichkeiten der Szenarien angesprochen. Sie können Bedingungen hinzufügen (blockieren *If / Then / Oder*), Verzögerungsaktionen (Block *IN*), programmiere sie (block *Bis*), und sogar direkt PHP-Code verwenden (Block *Code*).
 
-Hier haben wir den Trigger-Modus verwendet *Provozierten*, mit einer Bestellung. Sie können den Modus aber auch verwenden (und kombinieren) *Programmiert* jeden Morgen oder jede Stunde ein Skript ausführen usw.
+Hier haben wir den Trigger-Modus verwendet *Provozierten*, mit einer Bestellung. Sie können den Modus aber auch verwenden (und kombinieren) *Programmiert* jeden Morgen oder jede Stunde ein Szenario ausführen usw.
 
 
 ### Programm des Tages.

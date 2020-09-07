@@ -7,7 +7,7 @@ There are several possibilities to make custom widgets for plugins :
 
 ## ToHtml function
 
-Above nothing special the toHtml function must return the widget in html, you have an example [the](https://github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
+Thereupon, nothing special, the toHtml function must return the widget in html, you have an example [the](https://github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
 
 The important thing is especially the 1st lines :
 
@@ -20,7 +20,7 @@ if (!is_array($replace)) {
 
 The preToHtml function returns :
 
-- a string if the widget is cached (if it is cached it means that there has been no change since the last generation, so you might as well send it back)
+- a string if the widget is cached (if it is cached, it means that there have been no changes since the last generation so you might as well send it back immediately)
 - a table with the main replaces, you have the list [here](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
 ## The template system
@@ -44,15 +44,15 @@ public static function templateWidget(){
 }
 ````
 
-Here we will create a new widget based on the "tmplmultistate" template (you have the list of templates [here](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) it's those with tmpl in their name), for an info type command and under string type.
+Here, we will create a new widget based on the "tmplmultistate" template (you have the list of templates [here](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) it's those with tmpl in their name), for an info type command and under string type.
 
 > **IMPORTANT**
 >
-> Each template is for a given type and sub type, so you must verify that the template you want to use exists for the type and sub type
+> Each template is for a given type and subtype, so you have to check that the template you want to use exists for the type and subtype
 
-Then since it is a template with several states you have to define the icons according to the state. It is done in the test part of the table.
+Then, since it is a template with several states, you have to define the icons according to the state. It is done in the test part of the table.
 
-Example : for the first test we say if the value of the command is worth 2 then we will have to replace the tag #\_state_# (in the html code of the template) by </i>
+Example : for the first test, we say if the value of the command is worth 2 then it will be necessary to replace the tag #\_state_# (in the html code of the template) by </i>
 
 Another example based on another template could be :
 
@@ -70,11 +70,11 @@ public static function templateWidget(){
 }
 ````
 
-Here I create a toto widget based on the "tmplicon" template in info type and in binary type. When it is 1 then the icon will be <i class='icon_green icon jeedom-porte-ferme'></i> and when it takes 0 it will be </i>
+Here, I create a toto widget based on the "tmplicon" template in info type and binary subtype. When it is 1 then the icon will be <i class='icon_green icon jeedom-porte-ferme'></i> and when it is 0, it will be </i>
 
 >**TIPS**
 >
-> Little tip you can instead of an icon put an image tag (watch out for the path)
+> Small tip, you can instead of an icon put an image tag (pay attention to the path)
 
 Then to use your widget :
 
@@ -83,6 +83,6 @@ $cmd->setTemplate('dashboard','neato::state');
 $cmd->setTemplate('mobile','neato::state');
 ````
 
-It is like for a normal widget except for the name of the widget which is in the form id_plugin::name_widget. For the 2nd example it will be id_plugin::toto
+It is like for a normal widget except for the name of the widget which is in the form id_plugin::name_widget. For the 2nd example, it will be id_plugin::toto
 
 

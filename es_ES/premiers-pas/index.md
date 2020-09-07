@@ -27,7 +27,7 @@ Si compró una caja Jeedom, entonces debería haber recibido un correo electrón
 >
 > Si compra un paquete de servicio en Jeedom Market, no tiene nada que hacer, se le asigna automáticamente.
 
-Una vez que se recupera el código en el correo, solo necesita ir al [Mercado de la libertad](https://market.jeedom.com/) e identificarte.
+Una vez que se haya recuperado el código del correo electrónico, todo lo que tiene que hacer es ir al [Mercado de la libertad](https://market.jeedom.com/) e identificarte.
 
 Luego ve a tu página de perfil:
 
@@ -55,7 +55,7 @@ La solución más simple (pero no funciona en el 100% de los casos dependiendo d
 
 > **Importante**
 >
-> Dependiendo de su cuadro ADSL, esta funcionalidad puede no funcionar. Si es así, nada serio, solo necesita conectarse a su caja ADSL y encontrar la IP de libertad en ella. Este paso no hace más que darle la IP local de su Jeedom. Esto no ocurre cuando se agrega su Jeedom a su cuenta de mercado.
+> Dependiendo de su caja ADSL, es posible que esta función no funcione. Si es así, nada serio, solo necesita conectarse a su caja ADSL y encontrar la IP de libertad en ella. Este paso no hace más que darle la IP local de su Jeedom. Esto no ocurre cuando se agrega su Jeedom a su cuenta de mercado.
 
 #### Por su caja de internet
 
@@ -78,7 +78,7 @@ Veremos aquí cómo vincular su Jeedom a su cuenta de Market.
 -   A continuación, haga clic en la pestaña **Mercado**
 -   Marca la casilla **Activar**
 -   Remplissez l'adresse : `https://market.jeedom.com`
--   También complete el campo **Nombre de usuario** y **Contraseña** basado en sus identificadores (identificadores de mercado y no Jeedom)
+-   También complete los campos **Nombre de usuario** y **Contraseña** basado en sus identificadores (identificadores de mercado y no Jeedom)
 -   Puede probar para verificar que la conexión se realizó correctamente.
 -   No olvides guardar !
 
@@ -104,7 +104,7 @@ Una vez aquí, solo actívala **Usando Jeedom DNS** luego en la línea **Gestió
 
 Uno de los pasos importantes es cambiar la contraseña predeterminada de su cuenta Jeedom, para eso haga clic en Configuración → Sistema → Usuarios:
 
-Una vez en él, solo tiene que elegir la línea con el usuario **Administración** y haga clic en **Contraseña** :
+Una vez en ella, solo debes elegir la línea con el usuario **Administración** y haga clic en **Contraseña** :
 
 ![Contraseña](images/FirstStep_boxPassword.jpg)
 
@@ -144,7 +144,7 @@ Luego tendrá la lista de todos los complementos que se pueden instalar.
 
 ![Liste des Plugins](images/FirstStep_plugin1.jpg)
 
-Al hacer clic en un complemento obtienes su archivo:
+Al hacer clic en un complemento, obtiene su archivo:
 
 ![Fiche Plugins](images/FirstStep_plugin2.jpg)
 
@@ -192,7 +192,7 @@ Todos los intercambios posteriores serán por correo electrónico.
 
 > **Punta**
 >
-> Si, al abrir un ticket, recibe un error que indica que ha alcanzado su cuota, significa que está limitado a un cierto número de solicitudes de soporte por mes, dependiendo de su paquete de servicio.
+> Si, al abrir un ticket, obtiene un error que indica que ha alcanzado su cuota, entonces está limitado a una cierta cantidad de solicitudes de soporte por mes, dependiendo de su paquete de servicios.
 
 Los diferentes paquetes de servicio son :
 - Comunidad (gratis): 2 tickets / mes (solo en complementos pagos)

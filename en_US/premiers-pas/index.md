@@ -27,7 +27,7 @@ If you bought a Jeedom box then you should have received an email containing a c
 >
 > If you buy a service pack from the Jeedom Market you have nothing to do, it is automatically assigned to you.
 
-Once the code is retrieved in the mail, you just need to go to the [Jeedom Market](https://market.jeedom.com/) and identify yourself.
+Once the code has been retrieved from the email, all you have to do is go to the [Jeedom Market](https://market.jeedom.com/) and identify yourself.
 
 Then go to your profile page:
 
@@ -55,7 +55,7 @@ The simplest solution (but does not work in 100% of cases depending on the confi
 
 > **IMPORTANT**
 >
-> Depending on your ADSL box this functionality may not work. If so, nothing serious, you just need to connect to your ADSL box and find the jeedom IP in it. This step does nothing but give you the local IP of your Jeedom. This is not when adding your Jeedom to your market account is done.
+> Depending on your ADSL box, this feature may not work. If so, nothing serious, you just need to connect to your ADSL box and find the jeedom IP in it. This step does nothing but give you the local IP of your Jeedom. This is not when adding your Jeedom to your market account is done.
 
 #### By your internet box
 
@@ -78,7 +78,7 @@ We will see here how to link your Jeedom to your Market account.
 -   Below, click on the tab **Market**
 -   Check the box **Activate**
 -   Remplissez l'adresse : `https://market.jeedom.com`
--   Also fill in the field **Username** and **Password** based on your identifiers (Market identifiers and not Jeedom)
+-   Also fill in the fields **Username** and **Password** based on your identifiers (Market identifiers and not Jeedom)
 -   You can test to verify that the connection is made correctly.
 -   Don&#39;t forget to save !
 
@@ -88,7 +88,7 @@ For more details on the configuration page, see *Configuration manual -> Adminis
 
 If you have a Service Pack, Jeedom provides you with a direct access URL to your Jeedom without having to open the ports on your box or other.
 
-To configure it, simply go to Settings → System → Configuration
+To configure it, just go to Settings → System → Configuration
 
 Then go to the "Networks" part"
 
@@ -98,13 +98,13 @@ Once here, just activate **Using Jeedom DNS** then on the line **Management** to
 
 > **IMPORTANT**
 >
-> If you have just linked your Jeedom to your Market account, you must wait 24 to 48 hours before being able to use the DNS service
+> If you have just linked your Jeedom to your Market account, you must wait 24 to 48 hours before you can use the DNS service
 
 ## Change Jeedom's default password
 
 One of the important steps is to change the default password of your Jeedom account, for that click on Settings → System → Users:
 
-Once on it you just have to choose the line with the user **admin** and click on **Password** :
+Once on it, you just have to choose the line with the user **admin** and click on **Password** :
 
 ![Password](images/FirstStep_boxPassword.jpg)
 
@@ -132,7 +132,7 @@ For more information on this part, see *User manual -> Object*.
 
 ## Install my first plugin
 
-A plugin allows to add functionality to Jeedom. There are hundreds. Many are free, others may be chargeable. To access the plugins page go to Plugins → Plugins management.
+A plugin allows to add functionality to Jeedom. There are hundreds. Many are free, others may be chargeable. To access the plugins page, go to Plugins → Plugins management.
 
 Then just click on Market:
 
@@ -144,7 +144,7 @@ You will then have the list of all plugins that can be installed.
 
 ![Liste des Plugins](images/FirstStep_plugin1.jpg)
 
-By clicking on a plugin you get its file:
+By clicking on a plugin, you get its file:
 
 ![Fiche Plugins](images/FirstStep_plugin2.jpg)
 
@@ -192,7 +192,7 @@ All further exchanges will be by email.
 
 > **Tip**
 >
-> If, when opening a ticket, you get an error indicating that you have reached your quota, it means that you are limited to a certain number of support requests per month, depending on your service pack.
+> If, when opening a ticket, you get an error indicating that you have reached your quota, then you are limited to a certain number of support requests per month, depending on your service pack.
 
 The different service packs are :
 - Community (free): 2 tickets / month (on paid plugins only)

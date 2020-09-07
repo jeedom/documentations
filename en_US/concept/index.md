@@ -2,7 +2,7 @@
 
 Here are the main basic concepts of Jeedom. This documentation remains voluntarily simple in order to help you take control of your home automation.
 
-The possibilities of Jeedom are almost endless, since you can create a lot of things with a few python or other php scripts, but that's not the point here.
+The possibilities of Jeedom are almost endless, since you can create a lot of things with a few php, python or other scripts, but that's not the subject here.
 
 > Tip
 >
@@ -10,7 +10,7 @@ The possibilities of Jeedom are almost endless, since you can create a lot of th
 
 ## Affichage
 
-Jeedom allows to interface a very large number of peripherals together, whether these are based on the Z-Wave, Enocean, Zigbee protocols etc., on APIs thanks to plugins, or directly in the form of scripts. You can look on the [Market](https://market.jeedom.com/) to get an overview of supported devices.
+Jeedom allows to interface a very large number of peripherals together, whether these are based on the Z-Wave, Enocean, Zigbee protocols etc., on APIs thanks to plugins, or directly in the form of scripts. You can watch on the [Market](https://market.jeedom.com/) to get an overview of supported devices.
 
 You can view these devices in several ways :
 
@@ -28,13 +28,13 @@ These can be viewed in a browser on a desktop computer, or on a smartphone with 
 
 In order to organize your devices, you can create [Objects](/en_US/core/4.1/object).
 
-These objects can represent parts of the house (Living room, Bedroom, Workshop). Each object can have a parent object. This hierarchy will be used for display on the Dashboard. For example, you can have an object **House**, then objects **Living room** **Bedroom** object child **House**. Once on the Dashboard, the object **House** will also display, below, its child objects.
+These objects can represent parts of the house (Living room, Bedroom, Workshop). Each object can have a parent object. This hierarchy will be used for display on the Dashboard. For example, you can have an object **House**, then objects **Living room** **Bedroom** object children **House**. Once on the Dashboard, the object **House** will also display, below, its child objects.
 
 ![Objet](images/concept-objet.jpg)
 
 > Tips
 >
-> IN **Settings → Preferences** you can define which object you want to arrive on the Dashboard. [Preferences](/en_US/core/4.1/profils)
+> IN **Settings → Preferences**, you can define which object you want to arrive on the Dashboard. [Preferences](/en_US/core/4.1/profils)
 
 ![Dashboard](images/concept-dashboard.jpg)
 
@@ -52,7 +52,7 @@ To interact with our home automation, you need commands ! These are of two types
 These commands store information from sensors. For example, the temperature of a probe, a movement of a presence sensor, etc.
 These commands can be logged in order to keep this information over time in the form of a curve : [History](/en_US/core/4.1/history)
 
-These commands can also be used to trigger [Scenarios](/en_US/core/4.1/scenario) to automate actions based on the information reported by your sensors. For example, a motion sensor detects a presence, which will trigger a scenario that will turn on the light.
+These commands can also be used to trigger [Scenarios](/en_US/core/4.1/scenario) in order to automate actions based on the information sent by your sensors. For example, a motion sensor detects a presence, which will trigger a scenario that will turn on the light.
 
 - The orders *Action* :
 These commands allow you to control your actuators. For example, commands ````on```` and ````off```` of a controlled outlet will allow you to turn it on and off.
@@ -76,7 +76,7 @@ These commands are grouped in a tile corresponding to your equipment. And this t
 
 ![Commands](images/concept-equipment.jpg)
 
-Whatever your device, it will be created in the form of equipment, from a [Plugin](/en_US/core/4.1/plugin).
+Whatever your device, it will therefore be created in the form of a device, from a [Plugin](/en_US/core/4.1/plugin).
 
 This device will have its own commands *Info* or *Action*. These commands will be displayed as Widgets forming the equipment tile, in its parent object.
 
@@ -84,9 +84,9 @@ You will then see that each Object, Equipment, Order has many options, in terms 
 
 ## My first scenario
 
-The advantage of home automation, beyond centralized and remote control of our peripherals, lies above all in automation. The goal is not to spend hours in front of your Dashboard or Design, but on the contrary that your accommodation adapts to your habits and makes you forget. No more shutters to open and close every day, no more light to turn on and off, be warned when to put the trash on the street, when there is mail in the mailbox, the heating which adapts according to seasons and climatic conditions. The possibilities are endless, and depend on one's lifestyle. The scenarios are there for that !
+The advantage of home automation, beyond centralized and remote control of our peripherals, lies above all in automation. The goal is not to spend hours in front of your Dashboard or Design, but on the contrary that your accommodation adapts to your habits and makes you forget. No more shutters to open and close every day, no more lights to turn on and off, be warned when to put the trash on the street, when there is mail in the letterbox, the heating which adapts according to the seasons and climatic conditions. The possibilities are endless, and depend on one's lifestyle. The scenarios are there for that !
 
-A scenario is a series of defined actions that will execute at certain times of the day. Execution can be scheduled (every Monday at such time), or caused by an event. As seen above, this event can for example be our info command *Presence* a motion detector, following a detection.
+A scenario is a series of defined actions that will be executed at certain times of the day. The execution can be scheduled (every Monday at a particular time), or caused by an event. As seen above, this event can for example be our info command *Presence* a motion detector, following a detection.
 
 The goal here is not to be exhaustive but to discover the scenarios through simple examples. The [user manual documentation](/en_US/core/4.1/scenario) is much more complete.
 
@@ -112,7 +112,7 @@ The `#` indicate a command, then we find `[the name of its parent object]`, then
 
 Here we have only touched on the possibilities of the scenarios. You can add conditions (block *If / Do / Else*), delay actions (block *IN*), program them (block *At*), and even directly use php code (block *CODE*).
 
-Here we used the trigger mode *Provoked*, with an order. But you can also use (and combine) the mode *Programmed* to run a script every morning, or every hour, etc.
+Here we used the trigger mode *Provoked*, with an order. But you can also use (and combine) the mode *Programmed* to run a scenario every morning, or every hour, etc.
 
 
 ### Program of the day.

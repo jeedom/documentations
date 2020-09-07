@@ -1,8 +1,8 @@
 # Z-wave module documentation
 
-You will find here the documentation which we considered useful to make on certain Z-wave module.
+You will find here the documentation that we deemed useful to do on some Z-wave module.
 
-As a reminder you can find the list of compatible equipment [here](equipement.compatible.md) and [here](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/) plugin documentation.
+As a reminder, you can find the list of compatible equipment [here](equipement.compatible.md) and [here](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/) plugin documentation.
 
 - [Aotec Keyfob](aeotec.keyfob_-_Telecommande.md)
 - [Aotec Keyfob Gen 5](aeotec.keyfob_Gen5_-_Telecommande.md)
