@@ -17,11 +17,11 @@ Vous retrouvez les images [ici](https://images.jeedom.com/rpi/)
 
 > **IMPORTANT**
 >
->Il y 2 types d'image celle jeedom-debian-XXXX-rpi-X.X.XX.zip qui est en 32bits, elle est compatible avec tous les modeles de RPI et la jeedom-debian-XXXX-rpi-64-X.X.XX.zip qui est en 64bits, elle est (nettement) plus performante mais n'est compatible que RPI2/3/4. Pour resumer en rpi 1 prennez la 32 bit sinon prennez la 64bits (rpi-64)
+>Il y 2 types d'image, celle jeedom-debian-XXXX-rpi-X.X.XX.zip qui est en 32bits, elle est compatible avec tous les modèles de RPI et la jeedom-debian-XXXX-rpi-64-X.X.XX.zip qui est en 64bits, elle est (nettement) plus performante mais n'est compatible que RPI2/3/4. Pour resumer en RPI 1, prenez la 32bits sinon prenez la 64bits (rpi-64)
 
 Raspberry Pi imager permet de télécharger directement l'image d'installation de Raspberry Pi OS, dans sa version la plus récente.
 
-## Gravez cette image sur une carte MicroSD avec Raspberry Pi imager par exemple
+## Gravez cette image sur une carte MicroSD avec Raspberry Pi Imager par exemple
 
 Vous pouvez le télécharger [ici](https://www.raspberrypi.org/downloads/)
 
@@ -31,7 +31,7 @@ Insérez votre carte MicroSD, branchez le câble réseau et branchez l’aliment
 
 > **Important**
 >
-> Lors du premiers démarrage le Raspberry Pi peut être lent car il redimensionne la partition pour correspondre à la taille de votre carte MicroSD. De plus, une fois le 1er démarrage fait, il est conseillé de redémarrer à nouveau pour que le Swap soit de taille correcte.
+> Lors du premier démarrage, le Raspberry Pi peut être lent car il redimensionne la partition pour correspondre à la taille de votre carte MicroSD. De plus, une fois le 1er démarrage fait, il est conseillé de redémarrer à nouveau pour que le Swap soit de taille correcte.
 
 Il vous suffit ensuite, depuis votre navigateur, de saisir : http://IP_RPI/ (en remplaçant IP_RPI par l'ip de votre Raspberry Pi).
 
@@ -47,9 +47,9 @@ Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://d
 
 [ici](https://downloads.raspberrypi.org/raspbian_lite_latest)
 
-Raspberry Pi imager permet de télécharger directement l'image d'installation de Raspberry Pi OS, dans sa version la plus récente.
+Raspberry Pi Imager permet de télécharger directement l'image d'installation de Raspberry Pi OS, dans sa version la plus récente.
 
-## Gravez cette image sur une carte MiroSD avec Raspberry Pi imager par exemple
+## Gravez cette image sur une carte MiroSD avec Raspberry Pi Imager par exemple
 
 [ici](https://www.raspberrypi.org/downloads/)
 
@@ -69,7 +69,7 @@ Il suffit de faire un clic droit : nouveau / document texte et le renommer en "s
 
 > **Important**
 >
-> Sous Windows, dans l’explorateur il faut donc vérifier votre paramétrage dans affichage / options / modifier les options de dossiers et de recherche /
+> Sous Windows, dans l’explorateur, il faut donc vérifier votre paramétrage dans affichage / options / modifier les options de dossiers et de recherche /
 
 ![ExtensionFichier](images/ExtensionFichier.PNG)
 
@@ -84,13 +84,13 @@ Identifiez votre Raspberry Pi sur le réseau
 Il faut connaître l’adresse Ip de votre Raspberry PI. Plusieurs solutions :
 
 -   Consultez la configuration DHCP dans votre routeur
--   Utilisez un scanner de port type "angyipscanner" [ici](http://angryip.org/download/#windows)
+-   Utilisez un scanner de port type "Angry IP Scanner" [ici](http://angryip.org/download/#windows)
 
 Etablir la connexion
 
-Ensuite utilisez par exemple putty pour établir votre connexion [Ici](http://www.putty.org/)
+Ensuite, utilisez par exemple PuTTY pour établir votre connexion [Ici](http://www.putty.org/)
 
-Rentrer l’adresse de Ip de votre Raspberry Pi (ici 192.168.0.10) et cliquez sur open. Accepter le message par défaut relatif à la sécurité lors de la première connexion.
+Rentrez l’adresse IP de votre Raspberry Pi (ici 192.168.0.10) et cliquez sur open. Acceptez le message par défaut relatif à la sécurité lors de la première connexion.
 
 Connectez-vous avec les identifiants **pi / raspberry**
 
