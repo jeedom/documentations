@@ -2,7 +2,7 @@
 
 Voici les principaux concepts de base de Jeedom. Cette documentation reste volontairement simple afin de vous aider à prendre en main votre domotique.
 
-Les possibilités de Jeedom sont quasi infinies, puisque vous pouvez avec quelques scripts php python ou autre créer énormément de choses, mais ce n'est pas le sujet ici.
+Les possibilités de Jeedom sont quasi infinies, puisque vous pouvez avec quelques scripts php, python ou autres créer énormément de choses, mais ce n'est pas le sujet ici.
 
 > Tip
 >
@@ -10,7 +10,7 @@ Les possibilités de Jeedom sont quasi infinies, puisque vous pouvez avec quelqu
 
 ## Affichage
 
-Jeedom permet d'interfacer de très nombreux périphériques ensemble, que ceux-ci soient basés sur les protocoles Z-Wave, Enocean, Zigbee etc, sur des APIs grâce à des plugins, ou directement sous forme de scripts. Vous pouvez regardez sur le [Market](https://market.jeedom.com/) pour avoir un aperçu des périphériques supportés.
+Jeedom permet d'interfacer de très nombreux périphériques ensemble, que ceux-ci soient basés sur les protocoles Z-Wave, Enocean, Zigbee etc, sur des APIs grâce à des plugins, ou directement sous forme de scripts. Vous pouvez regarder sur le [Market](https://market.jeedom.com/) pour avoir un aperçu des périphériques supportés.
 
 Vous pouvez afficher ces périphériques de plusieurs manières :
 
@@ -28,13 +28,13 @@ Ceux-ci sont consultables dans un navigateur sur un ordinateur de bureau, ou sur
 
 Afin d'organiser vos périphériques, vous pouvez créer des [Objets](/fr_FR/core/4.1/object).
 
-Ces objets peuvent représenter des pièces de l'habitation (Salon, Chambre, Atelier). Chaque objet peut avoir un objet parent. Cette hiérarchie servira à l'affichage sur le Dashboard. Par exemple, vous pouvez avoir un objet **Maison**, puis des objets **Salon** **Chambre** enfant de l'objet **Maison**. Une fois sur le Dashboard, l'objet **Maison** affichera aussi, en dessous, ses objets enfants.
+Ces objets peuvent représenter des pièces de l'habitation (Salon, Chambre, Atelier). Chaque objet peut avoir un objet parent. Cette hiérarchie servira à l'affichage sur le Dashboard. Par exemple, vous pouvez avoir un objet **Maison**, puis des objets **Salon** **Chambre** enfants de l'objet **Maison**. Une fois sur le Dashboard, l'objet **Maison** affichera aussi, en dessous, ses objets enfants.
 
 ![Objet](images/concept-objet.jpg)
 
 > Tips
 >
-> Dans **Réglages → Préférences** vous pouvez définir sur quel objet vous souhaitez arriver sur le Dashboard. [Préférences](/fr_FR/core/4.1/profils)
+> Dans **Réglages → Préférences**, vous pouvez définir sur quel objet vous souhaitez arriver sur le Dashboard. [Préférences](/fr_FR/core/4.1/profils)
 
 ![Dashboard](images/concept-dashboard.jpg)
 
@@ -46,13 +46,13 @@ Pour interagir avec notre domotique, il faut des commandes ! Celles-ci sont de d
 
 > Note
 >
-> Rassurez vous, les commandes sont normalement crées automatiquement ! Ces explications sont pour une meilleure compréhension.
+> Rassurez-vous, les commandes sont normalement créées automatiquement ! Ces explications sont pour une meilleure compréhension.
 
 - Les commandes *info* :
 Ces commandes stockent des informations, issues de capteurs. Par exemple, la température d'une sonde, un mouvement d'un capteur de présence, etc.
 Ces commandes peuvent être historisées afin de conserver ces informations dans le temps sous forme de courbe : [Historique](/fr_FR/core/4.1/history)
 
-Ces commandes peuvent aussi servir à déclencher des [scénarios](/fr_FR/core/4.1/scenario) afin d'automatiser des actions en fonctions des informations remontées par vos capteurs. Par exemple, un capteur de mouvement détecte une présence, ce qui va déclencher un scénario qui allumera la lumière.
+Ces commandes peuvent aussi servir à déclencher des [scénarios](/fr_FR/core/4.1/scenario) afin d'automatiser des actions en fonction des informations remontées par vos capteurs. Par exemple, un capteur de mouvement détecte une présence, ce qui va déclencher un scénario qui allumera la lumière.
 
 - Les commandes *action* :
 Ces commandes permettent de piloter vos actionneurs. Par exemple, les commandes ``on`` et ``off`` d'une prise commandée vous permettront de l'allumer et de l'éteindre.
@@ -70,13 +70,13 @@ Ces deux types de commandes sont rattachées sous la forme d'un équipement. L'�
 
 Ces équipements sont créés par des plugins. Par exemple, le plugin Z-Wave vous permettra d'inclure votre prise Z-Waze, ce qui créera un équipement avec ses commandes, que vous pourrez nommer et lier à un Objet.
 
-En terme d'affichage, chaque commandes est affichée grâce à un Widget. Le Core propose les principaux Widgets, ainsi qu'un outil pour en créer (V4) : [Widgets](/fr_FR/core/4.1/widgets).
+En terme d'affichage, chaque commande est affichée grâce à un Widget. Le Core propose les principaux Widgets, ainsi qu'un outil pour en créer (V4) : [Widgets](/fr_FR/core/4.1/widgets).
 
 Ces commandes sont regroupées dans une tuile correspondant à votre équipement. Et cette tuile sera donc affichée sur le Dashboard dans l'Objet que vous aurez choisi.
 
 ![Commandes](images/concept-equipment.jpg)
 
-Quelques soit votre périphérique, il sera donc créé sous forme d'un équipement, à partir d'un [Plugin](/fr_FR/core/4.1/plugin).
+Quel que soit votre périphérique, il sera donc créé sous forme d'un équipement, à partir d'un [Plugin](/fr_FR/core/4.1/plugin).
 
 Ce périphérique comportera ses propres commandes *info* ou *action*. Ces commandes seront affichées sous forme de Widgets formant la tuile de l'équipement, dans son objet parent.
 
@@ -84,9 +84,9 @@ Vous verrez ensuite que chaque Objet, Équipement, Commande possède de nombreus
 
 ## Mon premier scénario
 
-L’intérêt de la domotique, au delà du contrôle centralisé et à distance de nos périphériques, réside surtout dans l'automatisation. Le but n'est pas de passer des heures devant son Dashboard ou son Design, mais au contraire que votre logement s'adapte à vos habitudes et se fasse oublier. Plus de volet à ouvrir et fermer tous les jours, plus de lumière à allumer et éteindre, être prévenu quand mettre la poubelle sur la rue, quand il y a du courrier dans la boite aux lettres, le chauffage qui s'adapte en fonction des saisons et des conditions climatiques. Les possibilités sont infinies, et dépendent du mode de vie de chacun. Les scénarios sont là pour çà !
+L’intérêt de la domotique, au delà du contrôle centralisé et à distance de nos périphériques, réside surtout dans l'automatisation. Le but n'est pas de passer des heures devant son Dashboard ou son Design, mais au contraire que votre logement s'adapte à vos habitudes et se fasse oublier. Plus de volets à ouvrir et fermer tous les jours, plus de lumières à allumer et éteindre, être prévenu quand mettre la poubelle sur la rue, quand il y a du courrier dans la boîte aux lettres, le chauffage qui s'adapte en fonction des saisons et des conditions climatiques. Les possibilités sont infinies, et dépendent du mode de vie de chacun. Les scénarios sont là pour çà !
 
-Un scénario est une suites d'actions définies qui s’exécuteront à certains moment de la journée. L’exécution peut-être programmée (tous les Lundi à telle heure), ou provoquée par un événement. Comme vue plus haut, cet événement peut par exemple être notre commande info *Presence* d'un détecteur de mouvement, suite à une détection.
+Un scénario est une suite d'actions définies qui s’exécuteront à certains moments de la journée. L’exécution peut-être programmée (tous les Lundis à telle heure), ou provoquée par un événement. Comme vue plus haut, cet événement peut par exemple être notre commande info *Presence* d'un détecteur de mouvement, suite à une détection.
 
 Le but ici n'est pas d'être exhaustif mais de découvrir les scénarios au travers d'exemples simples. La [documentation du manuel d'utilisation](/fr_FR/core/4.1/scenario) est beaucoup plus complète.
 
@@ -112,12 +112,12 @@ Les `#` indiquent une commande, ensuite on trouve `[le nom de son objet parent]`
 
 Nous avons fait ici qu’effleurer les possibilités des scénarios. Vous pouvez ajouter des conditions (bloc *Si/Alors/Sinon*), temporiser des actions (bloc *Dans*), les programmer (bloc *A*), et même utiliser directement du code php (bloc *Code*).
 
-Nous avons ici utilisé le mode de déclenchement *provoqué*, avec une commande. Mais vous pouvez également utiliser (et combiner) le mode *programmé* pour exécuter un scénario tout les matins, ou toutes les heures, etc.
+Nous avons ici utilisé le mode de déclenchement *provoqué*, avec une commande. Mais vous pouvez également utiliser (et combiner) le mode *programmé* pour exécuter un scénario tous les matins, ou toutes les heures, etc.
 
 
 ### Programmation du jour.
 
-Un sujet récurent pour les débutants sur Jeedom, la programmation d’événements journaliers comme :
+Un sujet récurrent pour les débutants sur Jeedom, la programmation d’événements journaliers comme :
 
 - Allumer la cafetière à 7h en semaine.
 - Ouvrir les volets au lever du soleil.
