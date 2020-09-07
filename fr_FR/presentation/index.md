@@ -1,10 +1,10 @@
 # Présentation
 
-Jeedom est un logiciel Open-Source gratuit qui peut s'installer sur n'importe quel système Linux. Il est basé sur un noyau avec de multiples fonctionnalités : gestion de scénarios, interaction avec l'installation domotique de manière textuelle et sonore, visualisation d'historique et génération de courbes et graphiques, mise en relation de tous les équipements et objets connectés, personnalisation de l'interface... Son interface claire et intuitive permet de mettre en place une solution complète sans connaissance en développement.
+Jeedom est un logiciel Open-Source gratuit qui peut s'installer sur n'importe quel système Linux. Il est basé sur un noyau avec de multiples fonctionnalités : gestion de scénarios, interaction avec l'installation domotique de manière textuelle et sonore, visualisation d'historiques et génération de courbes et graphiques, mise en relation de tous les équipements et objets connectés, personnalisation de l'interface... Son interface claire et intuitive permet de mettre en place une solution complète sans connaissance en développement.
 
 Jeedom ne nécessite pas l'accès à des serveurs extérieurs pour fonctionner. Toute votre installation se gère en local et vous êtes donc les seuls à y avoir accès pour vous garantir une confidentialité complète.
 
-Grâce à sa flexibilité et aux nombreux paramètres de personnalisation, chaque utilisateur peut créer sa propre domotique Jeedom. A l'aide des widgets, des vues et des design, vous avez une totale liberté pour imaginer votre propre interface si vous le souhaitez.
+Grâce à sa flexibilité et aux nombreux paramètres de personnalisation, chaque utilisateur peut créer sa propre domotique Jeedom. A l'aide des widgets, des vues et des designs, vous avez une totale liberté pour imaginer votre propre interface si vous le souhaitez.
 
 Jeedom permet de nombreuses possibilités dont :
 
@@ -37,7 +37,7 @@ Le Core comprend entre autres :
 
 ## Historiques
 
-*Toutes les informations sont historisables (courbe de température, consommation, ouvertures de porte, etc), et accessibles dans Analyse → Historique ou depuis les tuiles du Dashboard.*
+*Toutes les informations sont historisables (courbes de température, consommations, ouvertures de porte, etc), et accessibles dans Analyse → Historique ou depuis les tuiles du Dashboard.*
 
 [Historique](/fr_FR/core/4.1/history)
 
@@ -45,7 +45,7 @@ Le Core comprend entre autres :
 
 ## Scénarios
 
-*Les scénarios permettent d'automatiser tout ou partie de vos équipements. Ils sont construits avec différents blocs. Des blocs conditionnels (Si Alors, Sinon), d'actions, de programmation (DANS x minutes ou A hhmm), de boucle, de commentaire, ou de code php. Tous les blocs sont imbricables les uns dans les autres, offrant des possibilités infinies.*
+*Les scénarios permettent d'automatiser tout ou partie de vos équipements. Ils sont construits avec différents blocs. Des blocs conditionnels (Si, Alors, Sinon), d'actions, de programmation (DANS x minutes ou A hhmm), de boucle, de commentaire, ou de code php. Tous les blocs sont imbricables les uns dans les autres, offrant des possibilités infinies.*
 
 [Mon premier scénario](/fr_FR/concept/#tocAnchor-4)
 
@@ -85,5 +85,5 @@ Ces plugins peuvent être installés depuis le Market et permettent d’étendre
 
 ![Page Market](images/doc-presentation-market.jpg)
 
-Jeedom permet à n’importe quel plugin de discuter avec un autre sur une base normalisée. Cela permet par exemple d’utiliser les plugins thermostat ou alarme avec n’importe quel protocole domotique ou même un plugin IP ou objet communiquant…
+Jeedom permet à n’importe quel plugin de discuter avec un autre sur une base normalisée. Cela permet par exemple d’utiliser les plugins thermostat ou alarme avec n’importe quel protocole domotique ou même un plugin IP ou objet communicant…
 
