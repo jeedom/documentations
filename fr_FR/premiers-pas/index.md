@@ -2,7 +2,7 @@
 
 Bienvenue dans cette documentation de premiers pas, celle-ci va vous aider à mettre en service votre Jeedom.
 
-## Inscription sur le market
+## Inscription sur le Market
 
 La première chose à faire est de se créer un compte sur le Market pour pouvoir enregistrer votre Jeedom sur celui-ci. Cliquez [ici](https://market.jeedom.com/).
 
@@ -27,7 +27,7 @@ Si vous avez acheté une box Jeedom alors vous avez dû recevoir un mail contena
 >
 > Si vous achetez un service pack depuis le Market Jeedom vous n’avez rien à faire, celui-ci vous est automatiquement affecté.
 
-Une fois le code recupéré dans le mail il vous suffit d’aller sur le [market Jeedom](https://market.jeedom.com/) et de vous identifier.
+Une fois le code recupéré dans le mail, il vous suffit d’aller sur le [Market Jeedom](https://market.jeedom.com/) et de vous identifier.
 
 Puis allez sur votre page de profil :
 
@@ -55,7 +55,7 @@ Solution la plus simple (mais ne marche pas dans 100% des cas en fonction de la 
 
 > **Important**
 >
-> En fonction de votre box ADSL cette fonctionalité peut ne pas marcher. Si c’est le cas, rien de grave, il vous suffit de vous connecter à votre box ADSL et de trouver l’IP de jeedom dans celle-ci. Cette étape ne fait rien d’autre que de vous donner l’IP locale de votre Jeedom. Ce n’est pas à ce moment-là que l’ajout de votre Jeedom à votre compte market est fait.
+> En fonction de votre box ADSL, cette fonctionalité peut ne pas marcher. Si c’est le cas, rien de grave, il vous suffit de vous connecter à votre box ADSL et de trouver l’IP de Jeedom dans celle-ci. Cette étape ne fait rien d’autre que de vous donner l’IP locale de votre Jeedom. Ce n’est pas à ce moment-là que l’ajout de votre Jeedom à votre compte Market est fait.
 
 #### Par votre box internet
 
@@ -69,16 +69,16 @@ Quelque soit la méthode utilisée, vous arrivez ensuite sur la page de Login. P
 
 ![Connexion à votre Jeedom](images/FirstStep_box_connect.jpg)
 
-## Lier mon Jeedom à mon compte market
+## Lier mon Jeedom à mon compte Market
 
 Nous allons voir ici comment lier votre Jeedom à votre compte Market.
 
--   Une fois connecté à votre jeedom, vous devez aller sur **Réglages → Système → Configuration**
+-   Une fois connecté à votre Jeedom, vous devez aller sur **Réglages → Système → Configuration**
 -   Cliquez sur l’onglet **Mises à jour**
 -   En dessous, cliquez sur l’onglet **Market**
 -   Cochez la case **activer**
 -   Remplissez l’adresse : `https://market.jeedom.com`
--   Renseignez également le champ **Nom d’utilisateur** et **Mot de passe** en fonction de vos identifants (identifiants du Market et non pas de Jeedom)
+-   Renseignez également les champs **Nom d’utilisateur** et **Mot de passe** en fonction de vos identifants (identifiants du Market et non pas de Jeedom)
 -   Vous pouvez tester pour vérifier que la connexion s’effectue correctement.
 -   N’oubliez pas de sauvegarder !
 
@@ -88,7 +88,7 @@ Pour plus de détails sur la page de configuration, voir *Manuel de configuratio
 
 Si vous avez un Service Pack, Jeedom vous met à disposition une URL d’accès direct à votre Jeedom sans que vous ayez à ouvrir les ports sur votre box ou autre.
 
-Pour la configurer il vous suffit d’aller dans Réglages → Système → Configuration
+Pour la configurer, il vous suffit d’aller dans Réglages → Système → Configuration
 
 Puis d’aller sur la partie "Réseaux"
 
@@ -98,13 +98,13 @@ Une fois ici, il vous suffit d’activer **Utiliser les DNS Jeedom** puis sur la
 
 > **Important**
 >
-> Si vous venez de lier votre Jeedom à votre compte Market il faut attendre 24 à 48h avant de pouvoir utiliser le service DNS
+> Si vous venez de lier votre Jeedom à votre compte Market, il faut attendre 24 à 48h avant de pouvoir utiliser le service DNS
 
 ## Changer le mot de passe par défaut de Jeedom
 
 Une des étapes importantes est de changer le mot de passe par défaut de votre compte Jeedom, pour cela cliquez sur Réglages → Système → Utilisateurs :
 
-Une fois dessus vous avez juste à choisir la ligne avec l’utilisateur **admin** et à cliquer sur **Mot de passe** :
+Une fois dessus, vous avez juste à choisir la ligne avec l’utilisateur **admin** et à cliquer sur **Mot de passe** :
 
 ![Mot de passe](images/FirstStep_boxPassword.jpg)
 
@@ -123,7 +123,7 @@ Dans Jeedom, cela peut être tout et n’importe quoi, mais il est recommandé d
 Pour créer un objet, rien de plus simple :
 
 -   Allez sur Outils → Objets
--   Cliquez sur le bouton ajouter
+-   Cliquez sur le bouton Ajouter
 -   Jeedom va vous demander le nom de celui-ci. Validez. Voilà votre premier objet créé :
 
 ![Objet](images/FirstStep_object.jpg)
@@ -132,7 +132,7 @@ Pour plus d’informations sur cette partie, voir *Manuel d'utilisation -> Objet
 
 ## Installer mon premier plugin
 
-Un plugin permet d’ajouter des fonctionnalités à Jeedom. Il en existe des centaines. Beaucoup sont gratuits, d’autres peuvent être payants. Pour accéder à la page des plugins aller sur Plugins → Gestion des plugins.
+Un plugin permet d’ajouter des fonctionnalités à Jeedom. Il en existe des centaines. Beaucoup sont gratuits, d’autres peuvent être payants. Pour accéder à la page des plugins, aller sur Plugins → Gestion des plugins.
 
 Il vous suffit ensuite de cliquer sur Market :
 
@@ -144,7 +144,7 @@ Vous allez alors avoir la liste de tous les plugins qu’il est possible d’ins
 
 ![Liste des Plugins](images/FirstStep_plugin1.jpg)
 
-En cliquant sur un plugin vous obtenez sa fiche :
+En cliquant sur un plugin, vous obtenez sa fiche :
 
 ![Fiche Plugins](images/FirstStep_plugin2.jpg)
 
@@ -192,7 +192,7 @@ Toute la suite des échanges se fera par mail.
 
 > **Tip**
 >
-> Si, lors de l’ouverture d’un ticket, vous obtenez une erreur indiquant que vous avez atteint votre quota, c’est que vous êtes limités à un certain nombre de demandes de support par mois, en fonction de votre service pack.
+> Si, lors de l’ouverture d’un ticket, vous obtenez une erreur indiquant que vous avez atteint votre quota, c’est que vous êtes limité à un certain nombre de demandes de support par mois, en fonction de votre service pack.
 
 Les différents services packs sont :
 - Community (gratuit) : 2 tickets/mois (sur plugins payants uniquement)
