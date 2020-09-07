@@ -6,13 +6,13 @@ Nous allons voir dans cette documentation comment faire la documentation de votr
 
 ## Principe
 
-Le principe est très simple la documentation du plugin doit etre un simple lien web a indiquer dans votre fichier info.json (voir le détail [ici](https://doc.jeedom.com/fr_FR/dev/structure_info_json) ) dans le champs documentation.
+Le principe est très simple, la documentation du plugin doit être un simple lien web à indiquer dans votre fichier info.json (voir le détail [ici](https://doc.jeedom.com/fr_FR/dev/structure_info_json) ) dans le champ documentation.
 
-A noter que vous avez aussi un champs changelog qui doit fonctionne de la meme maniere que le champs documentation.
+A noter que vous avez aussi un champ changelog qui doit fonctionner de la même manière que le champ documentation.
 
 ## Comment faire ?
 
-Comme vu plus haut vous devez juste indiquer dans le fichier info.json le lien http(s) vers votre documentation vous etes donc libre sur la présentation, l'hébergeur ou meme le mode :
+Comme vu plus haut, vous devez juste indiquer dans le fichier info.json le lien http(s) vers votre documentation, vous êtes donc libre sur la présentation, l'hébergeur ou même le mode :
 
 - un blog
 - un simple serveur web
@@ -20,30 +20,30 @@ Comme vu plus haut vous devez juste indiquer dans le fichier info.json le lien h
 
 ## Github
 
-Le plus simple pour votre documentation est d'utiliser le systeme de page de github qui à l'avantage d'etre très facile à utiliser.
+Le plus simple pour votre documentation est d'utiliser le système de page de github qui a l'avantage d'être très facile à utiliser.
 
 ### Langage de la documentation
 
-Github support asciidoc et markedown (md) pour les pages, nous ne verrons ici que le markedown.
+Github support asciidoc et markedown (md) pour les pages, nous ne verrons ici que le markdown.
 
-On ne va pas vous decrire la syntaxe complete du markdown, d'autre site le font déja très bien dont [celui-ci](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+On ne va pas vous décrire la syntaxe complète du markdown, d'autres sites le font déja très bien dont [celui-ci](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ### Emplacement
 
-Nous vous recommandons dans votre plugin (hebergé sur github) de faire un dossier et d'y copier les fichiers et repertoire du dossier docs dans le plugin template (voir [ici](https://doc.jeedom.com/fr_FR/dev/plugin_template) )
+Nous vous recommandons dans votre plugin (hébergé sur github) de faire un dossier et d'y copier les fichiers et répertoires du dossier /docs dans le plugin template (voir [ici](https://doc.jeedom.com/fr_FR/dev/plugin_template) )
 
-Une fois cela fait vous allez avoir dans le dossier docs un dossier fr_FR (le seul à modifier). Dans ce dossier nous vous conseillons de faire 2 fichiers :
+Une fois cela fait, vous allez avoir dans le dossier /docs un dossier fr_FR (le seul à modifier). Dans ce dossier, nous vous conseillons de faire 2 fichiers :
 
 - ``changelog.md`` => votre changelog
 - ``index.md`` => votre documentation
 
 ### Mise en ligne
 
-La mise en ligne est assez simple il suffit dans sur votre dépot github puis "Settings" et dans la partie "GitHub Pages" d'activer celle sur "master branch /docs folder" (comme l'indique le libellé seul les fichiers dans le dossier /docs de la branche master de votre plugin seront en ligne).
+La mise en ligne est assez simple, il suffit d'aller sur votre dépot github puis "Settings" et dans la partie "GitHub Pages" d'activer celle sur "master branch /docs folder" (comme l'indique le libellé, seuls les fichiers dans le dossier /docs de la branche master de votre plugin seront en ligne).
 
 ![doc-github](images/tutoDoc.png)
 
-Github va ensuite vous fournir un lien de type ``https://jeedom.github.io/plugin-template/`` (au bout de quelques minutes en allant dessus vous devriez voir votre documentation mise en page correctement).
+Github va ensuite vous fournir un lien de type ``https://jeedom.github.io/plugin-template/`` (au bout de quelques minutes, en allant dessus, vous devriez voir votre documentation mise en page correctement).
 
 Il vous faut maintenant mettre les liens de votre documentation dans le fichier info.json de votre plugin pour cela il faut :
 
@@ -52,4 +52,4 @@ Il vous faut maintenant mettre les liens de votre documentation dans le fichier 
 
 > **Note**
 >
-> Vous l'aurez compris lorsque l'utilisateur va demander à voir votre doc jeedom ou le market vont automatiquement remplacer #language# par la langue de l'utilisateur pour pointer vers la bonne langue (si votre documentation n'est pas disponible dans la langue de l'utilisateur alors automatiquement cela renverra vers le Français)
+> Vous l'aurez compris, lorsque l'utilisateur va demander à voir votre doc, Jeedom ou le market vont automatiquement remplacer #language# par la langue de l'utilisateur pour pointer vers la bonne langue (si votre documentation n'est pas disponible dans la langue de l'utilisateur alors automatiquement, cela renverra vers le Français)
