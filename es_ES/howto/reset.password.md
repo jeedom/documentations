@@ -4,6 +4,12 @@
 
 Lo primero que debe hacer es conectarse en SSH a Jeedom (con un software tipo kitty o masilla).
 
+>**Recordatorios**
+>
+>De forma predeterminada, los identificadores de conexión SSH en jeedom (smart, mini y mini +) son :
+>- Nombre de usuario : jeedom, contraseña Mjeedom96
+>- Nombre de usuario : root, contraseña Mjeedom96
+
 Entonces solo tienes que escribir :
 
 ````

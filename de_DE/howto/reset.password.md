@@ -4,6 +4,12 @@
 
 Das erste, was Sie tun müssen, ist, in SSH eine Verbindung zu Jeedom herzustellen (mit einem Software-Typ Kitty oder Putty).
 
+>**Erinnerungen**
+>
+>Standardmäßig sind die SSH-Verbindungskennungen bei jeedom (smart, mini und mini +) entweder :
+>- Benutzername : jeedom, Passwort Mjeedom96
+>- Benutzername : root, Passwort Mjeedom96
+
 Dann müssen Sie nur noch tippen :
 
 ````

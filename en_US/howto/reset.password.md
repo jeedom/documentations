@@ -4,6 +4,12 @@
 
 The first thing to do is to connect in SSH to Jeedom (with a software type kitty or putty).
 
+>**Reminders**
+>
+>By default, the SSH connection identifiers on jeedom (smart, mini and mini +) are either :
+>- Username : jeedom, password Mjeedom96
+>- Username : root, password Mjeedom96
+
 Then you just have to type :
 
 ````
