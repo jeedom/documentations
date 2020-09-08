@@ -890,7 +890,7 @@ Lancer la Regénération de la détection du nœud depuis l’onglet Actions du 
 
 Si vous avez plusieurs modules dans ce cas de figure, lancer **Regénérer la détection de nœuds inconnues** depuis l’écran **Réseau ZWave** onglet **Actions**.
 
-## Mon module est présumé mort par le controleur Dead
+## Mon module est présumé mort (Dead) par le contrôleur
 
 ![troubleshooting02](./images/troubleshooting02.png)
 
