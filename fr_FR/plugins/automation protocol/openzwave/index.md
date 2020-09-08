@@ -890,13 +890,13 @@ Lancer la Regénération de la détection du nœud depuis l’onglet Actions du 
 
 Si vous avez plusieurs modules dans ce cas de figure, lancer **Regénérer la détection de nœuds inconnues** depuis l’écran **Réseau ZWave** onglet **Actions**.
 
-## Mon module est présumé mort (Dead) par le contrôleur
+## Mon module est présumé mort par le controleur Dead
 
 ![troubleshooting02](./images/troubleshooting02.png)
 
 Si le module est toujours branché et joignable, suivre les solutions proposées dans l’écran du module.
 
-Si le module a été décommissionné ou est réellement défectueux, vous pouvez l’exclure du réseau en utilisant **supprimer le nœud en échec** via onglet **Actions**.
+Si le module a été décommissionné ou est réellement défectueux, vous pouvez l’exclure du réseau en utilisant **supprimer le nœud en erreur** via onglet **Actions**.
 
 Si le module est parti en réparation et un nouveau module de remplacement a été livré, vous pouvez lancer **Remplacer nœud en échec** via onglet **Actions**, le contrôleur déclenche l’inclusion puis vous devez procéder à l’inclusion sur le module. L’id de l’ancien module sera conservé ainsi que ses commandes.
 
