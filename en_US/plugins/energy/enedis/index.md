@@ -4,14 +4,14 @@ Plugin allowing the recovery of consumption of the communicating meter *linky* b
 
 4 types of consumption data are accessible :
 - the **drawn power** per half hour *(in kW)*.
->*The consumption curve *(or withdrawn power) * returns the power drawn by all your electrical devices on average over half an hour.
+> The consumption curve *(or drawn power)* restores the power demanded by all your electrical devices on average over half an hour.
 
 - the **daily consumption** *(in kWh)*.
 - the **monthly consumption** *(in kWh)*.
 - the **annual consumption** *(in kWh)*.
 
 >**Important**      
->You must have an Enedis customer account. The plugin retrieves information from the game *professionals* [of the Enedis site](https://espace-client-connexion.enedis.fr/auth/XUI/#login/&realm=particuliers&goto=https://espace-client-particuliers.enedis.fr%2Fgroup%2Fespace-particuliers%2Faccueil){:target = "\_ blank"}, you must therefore check that you have access to it with your usual identifiers and that the data is visible there. Otherwise the plugin will not work.
+>You must have an Enedis customer account. The plugin retrieves information from the game *professionals* [of the Enedis site](https://espace-client-connexion.enedis.fr/auth/XUI/#login/&realm=particuliers&goto=https://espace-client-particuliers.enedis.fr%2Fgroup%2Fespace-particuliers%2Faccueil){:target = "\_ blank"}, you must therefore check that you have access to it with your usual identifiers and that the data is visible there. Otherwise, the plugin will not work.
 
 # Configuration
 

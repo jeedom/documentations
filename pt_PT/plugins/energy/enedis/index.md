@@ -4,7 +4,7 @@ Plugin permitindo a recuperação do consumo do medidor de comunicação *linky*
 
 4 tipos de dados de consumo estão acessíveis :
 - o **poder desenhado** por meia hora *(em kW)*.
->*A curva de consumo *(ou energia retirada) * retorna a energia consumida por todos os seus dispositivos elétricos, em média, mais de meia hora.
+> A curva de consumo *(ou poder desenhado)* restaura a energia exigida por todos os seus dispositivos elétricos, em média, mais de meia hora.
 
 - o **consumo diário** *(em kWh)*.
 - o **consumo mensal** *(em kWh)*.

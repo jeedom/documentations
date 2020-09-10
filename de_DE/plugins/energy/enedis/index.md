@@ -4,7 +4,7 @@ Plugin zur Wiederherstellung des Verbrauchs des kommunizierenden Messgeräts *Li
 
 Es stehen 4 Arten von Verbrauchsdaten zur Verfügung :
 - die **gezogene Kraft** pro halbe Stunde *(in kW)*.
->*Die Verbrauchskurve *(oder entzogene Energie) * gibt die von all Ihren elektrischen Geräten durchschnittlich über eine halbe Stunde aufgenommene Energie zurück.
+> Die Verbrauchskurve *(oder gezogene Kraft)* stellt die von all Ihren elektrischen Geräten benötigte Leistung im Durchschnitt über eine halbe Stunde wieder her.
 
 - die **Täglicher Verbrauch** *(in kWh)*.
 - die **monatlicher Verbrauch** *(in kWh)*.
