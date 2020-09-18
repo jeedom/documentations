@@ -49,14 +49,14 @@ Une fois dans le centre de mise à jour, cliquez sur le bouton orange intitulé 
 
 La modale de mise à niveau va analyser l'ensemble des plugins installés sur votre machine, à partir du market Jeedom, et vérifier la compatibilité annoncée avec la V4. Elle se décompose en 2 parties :
 
-- La partie haute présente quelques nouveautés de la nouvelle version avec un bandeau récapitulant de manière générale la compatibilité des plugins installés :    
+- La partie haute présente quelques innovations à découvrir en V4 avec un bandeau récapitulant de manière générale la compatibilité des plugins installés :    
 ![migration modal up](images/migrate-version07.png)
 
-- La partie basse consiste en un tableau détaillant l'ensemble des plugins installés ainsi que leur compatibilité confirmée ou non avec la V4 :    
+- La partie basse consiste en un tableau détaillant l'ensemble des plugins installés ainsi que leur compatibilité confirmée ou non avec cette nouvelle version :    
 ![migration modal down](images/migrate-version08.png)
 
 > **Information**     
-Cette nouvelle version de Jeedom amène des changements profonds. En conséquence les widgets tiers et certaines personnalisations de design utilisés en V3 sont suceptibles de ne plus s'afficher ou réagir comme voulu et peuvent nécessiter une intervention de votre part suite au passage en V4.
+Cette nouvelle version de Jeedom amène des changements majeurs. En conséquence les widgets tiers et certaines personnalisations de design utilisés en V3 sont suceptibles de ne plus s'afficher ou réagir comme voulu et peuvent nécessiter une intervention de votre part suite au passage en V4.
 
 ### Mise à niveau
 
@@ -77,4 +77,4 @@ En fonction du matériel sur lequel est installé Jeedom, cette opération est s
 Une fois l'opération de migration terminée, un bandeau vert s'affiche en haut de l'écran avec le message ***L'opération est réussie. Merci de faire `F5` pour avoir les dernières nouveautés*** :    
 ![migration finish](images/migrate-version10.png)
 
-Il ne reste donc plus qu'à appuyer sur le bouton `F5` du clavier *(ou actualiser la page)* pour visualiser le passage effectif en V4. Il est possible que certains plugins demandent à nouveau d'être mis à jour suite à la migration, n'hésitez pas à les mettre à jour immédiatement.
+Il ne reste donc plus qu'à appuyer sur le bouton `F5` du clavier *(ou actualiser la page)* pour constater le passage effectif en V4. Il est possible que certains plugins demandent à nouveau d'être mis à jour suite à la migration, n'hésitez pas à les mettre à jour immédiatement.
