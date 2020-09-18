@@ -23,7 +23,7 @@ Le processus de sauvegarde démarre. Cela peut prendre un certain temps, vous po
 ![backup logs](images/migrate-version04.png)
 
 Si tout se déroule normalement, la fin du processus est indiquée par le message :      
-``***************Fin de la sauvegarde de Jeedom***************
+``***************Fin de la sauvegarde de Jeedom***************    
 [END BACKUP SUCCESS]``
 
 Le fichier de sauvegarde a été correctement généré dans Jeedom.
@@ -59,7 +59,7 @@ La modale de mise à niveau va analyser l'ensemble des plugins installés sur vo
 > **Important**    
 Le bouton **Mettre à niveau V4** ne devient cliquable qu'une fois l'intégralité de la fenêtre consultée. Il faut donc veiller à bien scroller jusqu'en bas de la page.
 
-> **Information**
+> **Information**     
 Cette nouvelle version de Jeedom amène des changements profonds. En conséquence les widgets tiers et certaines personnalisations de design utilisés en V3 sont suceptibles de ne plus s'afficher ou réagir comme voulu et peuvent nécessiter une intervention de votre part suite au passage en V4.
 
 ### Mise à niveau
@@ -72,7 +72,7 @@ Pour démarrer le processus de migration, cliquez sur **D'accord** :
 
 Vous basculez alors sur la page contenant les logs de migration qui va commencer par effectuer la sauvegarde de l'installation actuelle avant de mettre à jour les plugins et le core.
 
-> **Important**
+> **Important**    
 En fonction du matériel sur lequel est installé Jeedom, cette opération est suceptible de durer plusieurs minutes. Il est primordial de laisser le processus de migration se dérouler jusqu'à la fin.
 
 Une fois l'opération de migration terminée, un bandeau vert s'affiche en haut de l'écran avec le message ***L'opération est réussie. Merci de faire `F5` pour avoir les dernières nouveautés*** :    
