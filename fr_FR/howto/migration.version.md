@@ -23,8 +23,7 @@ Le processus de sauvegarde démarre. Cela peut prendre un certain temps, vous po
 ![backup logs](images/migrate-version04.png)
 
 Si tout se déroule normalement, la fin du processus est indiquée par le message :      
-``***************Fin de la sauvegarde de Jeedom***************    
-[END BACKUP SUCCESS]``
+``***************Fin de la sauvegarde de Jeedom*************** [END BACKUP SUCCESS]``
 
 Le fichier de sauvegarde a été correctement généré dans Jeedom.
 
