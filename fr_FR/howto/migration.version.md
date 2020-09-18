@@ -8,7 +8,7 @@ Avant toute mise à jour de Jeedom, il est important de s'assurer d'avoir pris l
 
 ### Création de la sauvegarde
 
-Nous allons tout d'abord générer un fichier de sauvegarde de votre installation actuelle.
+Nous allons tout d'abord générer le fichier de sauvegarde de votre installation actuelle.
 
 Dirigeons-nous vers le **menu en forme d'engrenages**, présent en haut dans la barre de navigation, sur la gauche de l'horloge, puis cliquons sur le sous-menu **Sauvegardes** pour accéder au [composant qui gère les sauvegardes](https://doc.jeedom.com/fr_FR/core/3.3/backup):    
 ![backup menu](images/migrate-version01.png)
@@ -55,15 +55,15 @@ La modale de mise à niveau va analyser l'ensemble des plugins installés sur vo
 - La partie basse consiste en un tableau détaillant l'ensemble des plugins installés ainsi que leur compatibilité confirmée ou non avec la V4 :    
 ![migration modal down](images/migrate-version08.png)
 
-> **Important**    
-Le bouton **Mettre à niveau V4** ne devient cliquable qu'une fois l'intégralité de la fenêtre consultée. Il faut donc veiller à bien scroller jusqu'en bas de la page.
-
 > **Information**     
 Cette nouvelle version de Jeedom amène des changements profonds. En conséquence les widgets tiers et certaines personnalisations de design utilisés en V3 sont suceptibles de ne plus s'afficher ou réagir comme voulu et peuvent nécessiter une intervention de votre part suite au passage en V4.
 
 ### Mise à niveau
 
 Maintenant que nous avons pris connaissance de toutes les informations importantes à connaitre avant de mettre à niveau notre Jeedom, nous pouvons lancer la migration en cliquant sur le bouton orange **Mettre à niveau V4** en haut à droite de la fenêtre modale.
+
+> **Important**    
+Le bouton **Mettre à niveau V4** ne devient cliquable qu'une fois l'intégralité de la fenêtre consultée. Il faut donc veiller à bien scroller jusqu'en bas de la page.
 
 Une fenêtre pop-up s'ouvre et nous apprend qu'une sauvegarde complète sera effectuée automatiquement avant migration afin de pouvoir revenir rapidement et facilement en V3 si cela était nécessaire.
 Pour démarrer le processus de migration, cliquez sur **D'accord** :    
