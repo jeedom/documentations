@@ -78,6 +78,10 @@ En el complemento -> comunicación -> Google Smarthome puede configurar sus dife
 
 > **Importante**
 >
+> Google modificando (muy) a menudo la interfaz no tenemos los recursos humanos para rehacer todas las capturas cada vez. Por tanto, puede haber grandes diferencias entre las capturas y la realidad
+
+> **Importante**
+>
 > Si ha utilizado el modo nube, no debe hacer esta parte !!! Vaya directamente al capítulo "Configuración del complemento"
 
 > **Importante**

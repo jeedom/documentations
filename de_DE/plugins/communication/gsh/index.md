@@ -78,6 +78,10 @@ Unter Plugin -> Kommunikation -> Google Smarthome können Sie Ihre verschiedenen
 
 > **Wichtig**
 >
+> Google ändert (sehr) häufig die Benutzeroberfläche. Wir verfügen nicht über die personellen Ressourcen, um jedes Mal alle Erfassungen zu wiederholen. Es kann daher große Unterschiede zwischen den Aufnahmen und der Realität geben
+
+> **Wichtig**
+>
 > Wenn Sie den Cloud-Modus verwendet haben, sollten Sie diesen Teil nicht ausführen !!! Gehen Sie direkt zum Kapitel "Plugin-Konfiguration"
 
 > **Wichtig**

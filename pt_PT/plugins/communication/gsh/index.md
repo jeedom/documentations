@@ -78,6 +78,10 @@ No plugin -> comunicação -> Google Smarthome, você pode configurar seus difer
 
 > **Importante**
 >
+> Modificando (muito) frequentemente a interface do Google, não temos recursos humanos para refazer todas as capturas a cada vez. Portanto, pode haver grandes diferenças entre as capturas e a realidade
+
+> **Importante**
+>
 > Se você usou o modo nuvem, não deve fazer esta parte !!! Vá diretamente para o capítulo "Configuração do plug-in"
 
 > **Importante**

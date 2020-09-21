@@ -78,6 +78,10 @@ In plugin -> communication -> Google Smarthome you can configure your different 
 
 > **Important**
 >
+> Google modifying (very) often the interface we do not have the human resources to redo all the captures each time. There can therefore be big differences between the captures and the reality
+
+> **Important**
+>
 > If you have used cloud mode you should not do this part !!! Go directly to the chapter "Plugin configuration"
 
 > **Important**
