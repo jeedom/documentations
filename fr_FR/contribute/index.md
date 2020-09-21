@@ -5,19 +5,19 @@ Vous souhaitez contribuer au développement du Core de Jeedom ?
 - Vous pouvez faire des PRs (*Pull requests*) sur le *repository* du Core.
 - Si vous avez des idées d'évolutions et souhaitez participer sur le long terme, n'hésitez pas à [contacter l'équipe du projet](mailto:contact@jeedom.com).
 
-Voici les notions de bases à connaître.
+Voici les notions de bases à connaître :
 
 ## Branches Github
 
-Pour participer au développement de Jeedom, vous devez avoir un compte Github.
+Pour participer au développement de Jeedom, vous devez avoir un compte [Github](https://github.com/).
 
 Le code du Core est Open-Source et disponible [ici](https://github.com/jeedom/core).
 
-- **alpha** :  Branche de la version V4 alpha. Principalement destinée aux développeurs pour la version suivant de Jeedom.
-- **beta** : Branche de la version V4 beta. Principalement destinée aux beta-testeurs.
-- **V4-stable** : Branche stable de V4
+- **alpha** :  Branche de la version V4 alpha. Principalement destinée aux développeurs pour la version suivante de Jeedom.
+- **beta** : Branche de la version V4 beta. Principalement destinée aux beta-testeurs, pour tester avant passage en Stable.
+- **V4-stable** : Branche stable de V4.
 - **release** : Branche Release Candidate de la V3. Uniquement pour des bugfixs.
-- **master** : Branche de la version stable V3. Uniquement pour des bugfixs.
+- **master** : Branche de la version stable V3.
 
 Les mises à jour ce font sur ces branches en fonction de la configuration de Jeedom **Réglages → Système → Configuration / Mises à jour/Market**.
 
@@ -27,11 +27,11 @@ De même, afin de participer aux discussions sur [Community](https://community.j
 
 ## Développement
 
-Pour aider au développement du Core, vous devez maîtriser :
+Pour aider au développement du Core, vous devez maîtriser un ou plusieurs des langages suivants:
 
-- php : Développement des classes php, des appels ajax depuis le front-end.
+- PHP : Développement des classes php, des appels ajax depuis le front-end.
 - javascript : Développement des classes js et du front-end.
-- css : Développement de l'interface.
+- CSS : Développement de l'interface.
 
 Des connaissances de l’environnent Linux sont également souhaitable.
 
@@ -39,7 +39,7 @@ Des connaissances de l’environnent Linux sont également souhaitable.
 
 Le code est réparti dans différents répertoires à la racine de Jeedom (par défaut : var/www/html) :
 
-- 3rdparty : Dossier comprenant les librairies externe utilisées par Jeedom (jQuery, CodeMirror, etc).
+- 3rdparty : Dossier comprenant les librairies externes utilisées par Jeedom (jQuery, CodeMirror, etc).
 - backup : Dossier des sauvegardes de Jeedom.
 - **core** : Dossier comprenant les fonctions internes du Core:
 	- **ajax** : Fichiers php d'interface entre les classes js et les classes php.
@@ -87,7 +87,7 @@ Au départ, le browser charge le fichier `/index.php` :
 - Chargement des fichiers et classes nécessaires avec `/core/php/core.inc.php`.
 - Vérification de l'authentification de l'utilisateur.
 - Vérification de paramètres dans l'url pour charger directement le bon contenu.
-- Redirige vers la version Desktop `/desktop/php/index.php` ou Mobile `mobile/html/home.html` ou autre en fonction des paramètres de l'url.
+- Redirige vers la version Desktop `/desktop/php/index.php` ou Mobile `mobile/html/home.html` en fonction des paramètres de l'url.
 
 ### Desktop
 
@@ -199,7 +199,7 @@ Celle-ci se trouve dans `docs/fr_FR/`. Vous pouvez faire des PRs (*Pull requests
 
 Les traductions sont présentent dans les autres dossiers de langues. Le répertoire `docs/i18n/` comprend des fichiers .json par langue pour la traduction des chaînes de caractères de l'interface du Core lui même.
 
-Celles-ci sont générées automatiquement par un système de traduction propre à Jeedom. Il est donc inutile de faire des modifications dessus, car elle seront écrasées par le système. Si vous souhaitez améliorer les traductions vous pouvez le signaler sur [Community](https://community.jeedom.com/). Si vous maîtriser une des langues de Jeedom et souhaitez allez plus loin, vous pouvez demander un accès au système de traduction, qui permet de corriger toutes les traductions de chaque langue des différentes version du Core et des plugins officiels : [contacter l'équipe du projet](mailto:contact@jeedom.com).
+Celles-ci sont générées automatiquement par un système de traduction propre à Jeedom. Il est donc inutile de faire des modifications dessus, car elle seront écrasées par le système. Si vous souhaitez améliorer les traductions vous pouvez le signaler sur [Community](https://community.jeedom.com/). Si vous maîtriser une des langues de Jeedom et souhaitez allez plus loin, vous pouvez demander un accès au système de traduction, qui permet de corriger toutes les traductions de chaque langue des différentes versions du Core et des plugins officiels : [contacter l'équipe du projet](mailto:contact@jeedom.com).
 
 Dans le code vous pouvez spécifier des chaînes à traduire comme cela :
 
