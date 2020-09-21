@@ -1,4 +1,4 @@
-Presentación  
+Presentación 
 ============
 
 Este complemento le permite administrar tarjetas GCE IPX800.
@@ -23,7 +23,7 @@ en '' Complementos / Protocolo de automatización del hogar / IPX800''
 
 Luego haga clic en el botón en la esquina superior izquierda '' Agregar equipo''
 
-Luego ingrese el nombre del equipo (ej.. IPX 1).
+Luego ingrese el nombre del equipo (ej. IPX 1).
 
 Luego defina :
 
@@ -31,16 +31,16 @@ Luego defina :
 
 -   ''Categoría '' (opcional)
 
--   ''Activar '' (verificar, de lo contrario el equipo no será utilizable)
+-   ''Activar '' (marca, de lo contrario el equipo no será utilizable)
 
 -   ''Visible '' (opcional si no desea que sea visible en
     el tablero de instrumentos)
 
 -   ''Dirección IP''
 
--   ''Puerto''
+-   ''Port''
 
--   ''Cuenta''
+-   ''Compte''
 
 -   ''Contraseña''
 
@@ -58,12 +58,12 @@ Para activar el empuje, haga clic en
 
 Luego baja y haz clic en Aplicar.
 
-Comportamiento con la aplicación móvil. 
+Comportamiento con la aplicación móvil 
 --------------------------------------
 
 Por defecto, aquí está el comportamiento :
 
--   ''El ip800''
+-   ''L'ip800''
 
 Todos los comandos están configurados.
 

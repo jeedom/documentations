@@ -31,16 +31,16 @@ Dann definieren :
 
 -   ''Kategorie '' (optional)
 
--   ''Aktiviere '' (überprüfe, sonst kann das Gerät nicht verwendet werden)
+-   ''Aktivieren Sie '' (kreuzen Sie an, sonst kann das Gerät nicht verwendet werden)
 
 -   ''Sichtbar '' (optional, wenn Sie es nicht sichtbar machen möchten
     das Dashboard)
 
 -   ''IP-Adresse''
 
--   ''Hafen''
+-   ''Port''
 
--   ''Konto''
+-   ''Compte''
 
 -   ''Passwort''
 
@@ -63,7 +63,7 @@ Verhalten mit der mobilen Anwendung
 
 Standardmäßig ist hier das Verhalten :
 
--   ''Das ip800''
+-   ''L'ip800''
 
 Die Befehle sind alle konfiguriert.
 

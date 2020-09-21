@@ -31,16 +31,16 @@ Then define :
 
 -   ''Category '' (optional)
 
--   ''Activate '' (check, otherwise the equipment will not be usable)
+-   ''Activate '' (tick, otherwise the equipment will not be usable)
 
 -   ''Visible '' (optional if you don't want to make it visible on
-    the Dashboard)
+    the dashboard)
 
 -   ''IP adress''
 
 -   ''Port''
 
--   ''Account''
+-   ''Compte''
 
 -   ''Password''
 
@@ -63,7 +63,7 @@ Behavior with the mobile application
 
 By default, here is the behavior :
 
--   ''The ip800''
+-   ''L'ip800''
 
 The commands are all configured.
 

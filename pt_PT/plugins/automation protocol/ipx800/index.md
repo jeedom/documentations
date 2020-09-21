@@ -1,96 +1,96 @@
-Présentation 
+1. Introdução 
 ============
 
-Ce plugin permet de gérer les cartes IPX800 de GCE.
-Initialement, ce plugin a été créé pour connecter les IPX800 de GCE.
+Este plugin permite gerenciar cartões GCE IPX800.
+Inicialmente, este plugin foi criado para conectar GCE IPX800s.
 
-Données visibles sur le Dashboard : 
+Dados visíveis no painel : 
 -----------------------------------
 
--   ''les entrées analogiques''
+-   ''entradas analógicas''
 
--   ''les entrées numeriques''
+-   ''entradas digitais''
 
--   ''les relais''
+-   ''os relés''
 
--   ''les compteurs d’impulsions''
+-   ''contadores de pulso''
 
-Installation/Paramétrage 
+Instalação / Configuração 
 ========================
 
-Nous allons maintenant paramétrer un équipement. Pour se faire, cliquer
-sur ''Plugins / Protocole domotique / IPX800''
+Agora vamos configurar um dispositivo. Para fazer isso, clique em
+'' Plugins / Protocolo de automação residencial / IPX800''
 
-Puis cliquer sur le bouton en haut à gauche ''Ajouter un équipement''
+Em seguida, clique no botão no canto superior esquerdo '' Adicionar equipamento''
 
-Puis saisir le nom de l’équipement (ex. IPX 1).
+Em seguida, digite o nome do equipamento (ex. IPX 1).
 
-Puis définir :
+Então defina :
 
--   ''Objet parent''
+-   ''Objeto pai''
 
--   ''Catégorie'' (optionnelle)
+-   ''Categoria '' (opcional)
 
--   ''Activer'' (à cocher, sinon l’équipement ne sera pas utilisable)
+-   ''Ative '' (marque, caso contrário, o equipamento não será utilizável)
 
--   ''Visible'' (optionel si vous ne désirez pas le rendre visible sur
-    le Dashboard)
+-   ''Visível '' (opcional se você não quiser torná-lo visível em
+    O painel)
 
--   ''Adresse IP''
+-   ''Endereço IP''
 
 -   ''Port''
 
 -   ''Compte''
 
--   ''Mot de passe''
+-   ''Senha''
 
-Fréquence de rafraichissement 
+Taxa de atualização 
 -----------------------------
 
-Pour les entrées analogiques et les compteurs, les données sont
-récupérées par le plugin toutes les minutes. Il n’est pas possible
-d’avoir une fréquence plus élevée. Pour le reste, si le mode push est
-activé, le rafraichissement est quasi instantané.
+Para entradas e contadores analógicos, os dados são
+recuperado pelo plugin a cada minuto. Não é possível
+ter uma frequência mais alta. De resto, se o modo push for
+ativado, a atualização é quase instantânea.
 
-Pour activer le push, il faut cliquer sur
+Para ativar o push, clique em
 
 ![bouton config push](../images/bouton_config_push.jpg)
 
-Ensuite aller en bas et cliquer sur Appliquer.
+Em seguida, desça e clique em Aplicar.
 
-Comportement avec l’application mobile 
+Comportamento com o aplicativo móvel 
 --------------------------------------
 
-Par defaut, voici le comportement :
+Por padrão, aqui está o comportamento :
 
--   ''L’ip800''
+-   ''L'ip800''
 
-Les commandes sont toutes paramétrées.
+Os comandos estão todos configurados.
 
--   ''les entrées analogiques''
+-   ''entradas analógicas''
 
-Les commandes sont toutes par defaut visible et le type dépend de la
-sonde choisi.
+Os comandos são todos visíveis por padrão e o tipo depende da
+sonda escolhida.
 
--   ''les entrées numeriques''
+-   ''entradas digitais''
 
-Les commandes sont considérées comme des lumières.
+Pedidos são considerados luzes.
 
--   ''les relais''
+-   ''os relés''
 
-Les commandes sont considérées comme des lumières.
+Pedidos são considerados luzes.
 
--   ''les compteurs d’impulsions''
+-   ''contadores de pulso''
 
-Les commandes sont considérées comme des types génériques.
+Pedidos são considerados tipos genéricos.
 
-Il faut noter que l’on retrouvera dans l’application les commandes à
-partir du moment où elles sont paramétrées, même si elles ne sont pas
-marquées comme visible. Pour les masquer, il faut choisir dans
-"Configuration commande" ⇒ "Type générique" ⇒ "Ne pas tenir compte de
-cette commande".
+Note-se que encontraremos na aplicação os comandos para
+a partir do momento em que são configurados, mesmo que não sejam
+marcado como visível. Para ocultá-los, você deve escolher
+"Configuração de comando "⇒" Tipo genérico "⇒" Ignorar
+este comando".
 
-Quelques copies d’écran 
+Algumas capturas de tela 
 =======================
 
 ![ipx800 screenshot1](../images/ipx800_screenshot1.jpg)

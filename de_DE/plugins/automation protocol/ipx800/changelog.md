@@ -1,3 +1,9 @@
+# Changelog ipx800 V3
+
+# 2020-04-12
+
+- Fehlerbehebung mit jeedom v4
+
 # 2019.12.27
 
 - Fehlerbehebung für das xmlstatus-Attribut
@@ -20,7 +26,7 @@
 -   Unter Berücksichtigung der Sonden CT100A und ORP Probe.
 -   Setzen Sie die Erfassung fort, wenn ein IPX HS ist.
 -   Fängt bestimmte Fehlermeldungen ab.
--   Hinzufügen des Typs LIGHT \ _TOGGL für Relais.
+-   Hinzufügen des Typs LIGHT\_TOGGL für Relais.
 -   Definition der Tastenrelaisvorlage.
 -   Änderung, um mit dem mobilen Plugin kompatibel zu sein.
 -   Aktualisieren der analogen Eingänge, auch wenn sich der Wert nicht ändert
@@ -38,7 +44,7 @@
     muss global ausgefüllt werden.
 -   Korrektur der Pulsfrequenzen pro Minute.
 -   Debug-Meldung für Puls- / Minutenberechnungen.
--   Supression de l'info `updatetime`.
+-   Entfernung der Info `updatetime`.
 -   Hinzufügen von 50A-Klemmen.
 -   Hinzufügung einer automatischen Korrektur in Bezug auf die Min- und Max-Schwelle.
 -   Link zu Anzeigeoptionen hinzufügen.
@@ -53,4 +59,4 @@
 -   Cron wurde behoben, um nur Statusänderungen vorzunehmen.
 -   Möglichkeit, den Push nur an bestimmten Eingängen zu konfigurieren.
 -   Fügen Sie Formeln für analoge Eingänge hinzu.
--   Ajout `all on` et `all off`.
+-   Hinzufügen von "all on" und "all off".
