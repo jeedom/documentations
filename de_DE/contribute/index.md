@@ -5,19 +5,19 @@ Sie möchten zur Entwicklung des Jeedom Core beitragen ?
 - Sie können PRs machen (*Anfragen ziehen*) Auf dem *Repository* vom Kern.
 - Wenn Sie Ideen für die Entwicklung haben und langfristig teilnehmen möchten, zögern Sie nicht [Kontaktieren Sie das Projektteam](mailto:contact@jeedom.com).
 
-Hier sind die Grundlagen zu wissen.
+Hier sind die Grundlagen zu wissen :
 
 ## Github-Zweige
 
-Um an der Entwicklung von Jeedom teilnehmen zu können, müssen Sie über einen Github-Account verfügen.
+Um an der Entwicklung von Jeedom teilnehmen zu können, müssen Sie einen Account haben [Github](https://github.com/).
 
 Der Kerncode ist Open Source und verfügbar [hier](https://github.com/jeedom/core).
 
-- **Alpha** :  V4 Alpha-Zweig. Hauptsächlich für Entwickler für die nächste Version von Jeedom.
-- **Beta** : V4 Beta-Zweig. Hauptsächlich für Betatester.
-- **V4-stabil** : Stabiler Zweig von V4
+- **Alpha** :  V4 Alpha-Zweig. Hauptsächlich für Entwickler der nächsten Version von Jeedom gedacht.
+- **Beta** : V4 Beta-Zweig. Hauptsächlich für Betatester gedacht, um vor dem Wechsel zu Stable zu testen.
+- **V4-stabil** : Stabiler Zweig von V4.
 - **Veröffentlichung** : Geben Sie den Kandidatenzweig von V3 frei. Nur für Bugfixes.
-- **Meister** : Zweig der stabilen Version V3. Nur für Bugfixes.
+- **Meister** : Zweig der stabilen Version V3.
 
 Aktualisierungen werden in diesen Zweigen abhängig von der Konfiguration von Jeedom durchgeführt **Einstellungen → System → Konfiguration / Updates / Markt**.
 
@@ -27,9 +27,9 @@ Ebenso, um an Diskussionen über teilzunehmen [Gemeinschaft](https://community.j
 
 ## Entwicklung
 
-Um die Entwicklung des Kerns zu unterstützen, müssen Sie diese beherrschen :
+Um die Entwicklung des Kerns zu unterstützen, müssen Sie eine oder mehrere der folgenden Sprachen beherrschen:
 
-- php : Entwicklung von PHP-Klassen, Ajax ruft vom Frontend auf.
+- Php : Entwicklung von PHP-Klassen, Ajax ruft vom Frontend auf.
 - JavaScript : Entwicklung von js Klassen und Frontend.
 - CSS : Schnittstellenentwicklung.
 
@@ -39,7 +39,7 @@ Kenntnisse der Linux-Umgebung sind ebenfalls wünschenswert.
 
 Der Code wird in verschiedenen Verzeichnissen im Stammverzeichnis von Jeedom verteilt (standardmäßig) : var / www / html) :
 
-- 3. Partei : Datei mit den von Jeedom verwendeten externen Bibliotheken (jQuery, CodeMirror usw).
+- 3. Partei : Datei mit den von Jeedom verwendeten externen Bibliotheken (jQuery, CodeMirror usw.)).
 - Sicherungskopie : Jeedom-Sicherungsordner.
 - **Ader** : Datei mit den internen Funktionen des Core:
 	- **Ajax** : Schnittstelle zwischen PHP-Dateien zwischen JS-Klassen und PHP-Klassen.
@@ -87,7 +87,7 @@ Zunächst lädt der Browser die Datei `/ index.php` :
 - Laden Sie die erforderlichen Dateien und Klassen mit `/ core / php / core.inc.php`.
 - Überprüfung der Benutzerauthentifizierung.
 - Überprüfen Sie die Parameter in der URL, um den richtigen Inhalt direkt zu laden.
-- Weiterleiten an die Desktop-Version `/ desktop / php / index.php` oder Mobile` mobile / html / home.html` oder andere abhängig von den Parametern der URL.
+- Weiterleiten an die Desktop-Version `/ desktop / php / index.php` oder Mobile` mobile / html / home.html` nach URL-Parametern.
 
 ### Desktop
 
@@ -199,7 +199,7 @@ Dies kann in `docs / fr_FR /` gefunden werden. Sie können PRs machen (*Anfragen
 
 Die Übersetzungen sind in den anderen Sprachdateien vorhanden. Das Verzeichnis `docs / i18n /` enthält Dateien .json by language für die Übersetzung der Zeichenketten der Core-Schnittstelle selbst.
 
-Diese werden automatisch von einem Jeedom-spezifischen Übersetzungssystem generiert. Es besteht daher keine Notwendigkeit, Änderungen daran vorzunehmen, da diese vom System überschrieben werden. Wenn Sie Übersetzungen verbessern möchten, können Sie darüber berichten [Gemeinschaft](https://community.jeedom.com/). Wenn Sie eine der Sprachen von Jeedom beherrschen und weiter gehen möchten, können Sie den Zugriff auf das Übersetzungssystem anfordern, mit dem Sie alle Übersetzungen jeder Sprache aus den verschiedenen Versionen von Core und offiziellen Plugins korrigieren können : [Kontaktieren Sie das Projektteam](mailto:contact@jeedom.com).
+Diese werden automatisch von einem Jeedom-spezifischen Übersetzungssystem generiert. Es besteht daher keine Notwendigkeit, Änderungen daran vorzunehmen, da diese vom System überschrieben werden. Wenn Sie Übersetzungen verbessern möchten, können Sie darüber berichten [Gemeinschaft](https://community.jeedom.com/). Wenn Sie eine der Jeedom-Sprachen beherrschen und weiter gehen möchten, können Sie den Zugriff auf das Übersetzungssystem anfordern, mit dem Sie alle Übersetzungen jeder Sprache der verschiedenen Versionen des Core und der offiziellen Plugins korrigieren können : [Kontaktieren Sie das Projektteam](mailto:contact@jeedom.com).
 
 Im Code können Sie Zeichenfolgen angeben, die wie folgt übersetzt werden sollen :
 

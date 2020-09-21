@@ -5,19 +5,19 @@ Desea contribuir al desarrollo de Jeedom Core ?
 - Puedes hacer relaciones públicas (*Solicitudes de extracción*) Sobre *repositorio* de Core.
 - Si tiene ideas para el desarrollo y desea participar a largo plazo, no dude en [contacta al equipo del proyecto](mailto:contact@jeedom.com).
 
-Aquí están los conceptos básicos para saber.
+Aquí están los conceptos básicos para saber :
 
 ## Ramas Github
 
-Para participar en el desarrollo de Jeedom, debe tener una cuenta de Github.
+Para participar en el desarrollo de Jeedom, debes tener una cuenta [Github](https://github.com/).
 
 El código central es de código abierto y está disponible [aquí](https://github.com/jeedom/core).
 
-- **alfa** :  Rama alfa V4. Principalmente para desarrolladores de la próxima versión de Jeedom.
-- **Beta** : Rama beta V4. Principalmente para beta testers.
-- **V4 estable** : Rama estable de V4
+- **alfa** :  Rama alfa V4. Destinado principalmente a desarrolladores para la próxima versión de Jeedom.
+- **Beta** : Rama beta V4. Destinado principalmente a probadores beta, para probar antes de cambiar a estable.
+- **V4 estable** : Rama estable de V4.
 - **Lanzamiento** : Liberar la rama candidata de V3. Solo para correcciones de errores.
-- **Maestro** : Rama de la versión estable V3. Solo para correcciones de errores.
+- **Maestro** : Rama de la versión estable V3.
 
 Las actualizaciones se realizan en estas ramas dependiendo de la configuración de Jeedom **Configuración → Sistema → Configuración / Actualizaciones / Market**.
 
@@ -27,11 +27,11 @@ Del mismo modo, para participar en debates sobre [Comunidad](https://community.j
 
 ## Desarrollo
 
-Para ayudar al desarrollo del Core, debes dominar :
+Para ayudar al desarrollo del Core, debe dominar uno o más de los siguientes idiomas:
 
-- php : Desarrollo de clases php, llamadas ajax desde el front-end.
+- Php : Desarrollo de clases php, llamadas ajax desde el front-end.
 - JavaScript : Desarrollo de clases js y front-end.
-- css : Desarrollo de interfaz.
+- Css : Desarrollo de interfaz.
 
 El conocimiento del entorno Linux también es deseable.
 
@@ -87,7 +87,7 @@ Inicialmente, el navegador carga el archivo `/ index.php` :
 - Cargue los archivos y clases necesarios con `/ core / php / core.inc.php`.
 - Verificación de autenticación de usuario.
 - Comprobación de parámetros en la URL para cargar el contenido correcto directamente.
-- Redirigir a la versión de escritorio `/ desktop / php / index.php` o Mobile `mobile / html / home.html` u otro dependiendo de los parámetros de la url.
+- Redirigir a la versión de escritorio `/ desktop / php / index.php` o Mobile `mobile / html / home.html` según los parámetros de la URL.
 
 ### Desktop
 
@@ -199,7 +199,7 @@ Esto se puede encontrar en `docs / fr_FR /`. Puedes hacer relaciones públicas (
 
 Las traducciones están presentes en los archivos de otros idiomas. El directorio `docs / i18n /` contiene archivos .json por idioma para la traducción de las cadenas de caracteres de la interfaz Core.
 
-Estos son generados automáticamente por un sistema de traducción específico de Jeedom. Por lo tanto, no es necesario realizar cambios, ya que el sistema los sobrescribirá. Si desea mejorar las traducciones, puede informarlo [Comunidad](https://community.jeedom.com/). Si domina uno de los idiomas de Jeedom y desea ir más allá, puede solicitar acceso al sistema de traducción, que le permite corregir todas las traducciones de cada idioma desde las diferentes versiones de Core y los complementos oficiales : [contacta al equipo del proyecto](mailto:contact@jeedom.com).
+Estos son generados automáticamente por un sistema de traducción específico de Jeedom. Por lo tanto, no es necesario realizar cambios, ya que el sistema los sobrescribirá. Si desea mejorar las traducciones, puede informarlo [Comunidad](https://community.jeedom.com/). Si domina uno de los idiomas de Jeedom y desea ir más allá, puede solicitar acceso al sistema de traducción, que le permite corregir todas las traducciones de cada idioma de las diferentes versiones del Core y de los plugins oficiales : [contacta al equipo del proyecto](mailto:contact@jeedom.com).
 
 En el código puede especificar cadenas para traducir así :
 
