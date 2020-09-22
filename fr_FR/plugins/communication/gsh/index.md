@@ -272,6 +272,10 @@ Les types d'équipements sont important cela permet à Google de réagir en fonc
 >
 > Jeedom support des types "beta" non encore documenté chez Google donc qui peuvent marcher ou non en fonction des mises à jour chez google
 
+> **IMPORTANT**
+>
+> Le type thermostat n'est pleinement supporté qu'à travers un équipement venant du plugin thermostat, dans le cas contrainre la gestion des modes risque de ne pas marcher
+
 ## Scénario
 
 Vous pouvez aussi créer des scènes dans l'onglet scène, avec des actions d'entrée et de sortie.

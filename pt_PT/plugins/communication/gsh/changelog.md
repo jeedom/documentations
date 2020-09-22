@@ -4,9 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 21/09/20
 
 - Suporte aprimorado de termostatos (não vindo do plug-in de termostato)
 - Melhoria da janela de configuração para dispositivos Google Smarthome
+- Correções de bugs
 
 # 08/02/2020
 

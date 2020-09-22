@@ -4,9 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 21/09/20
 
 - Compatibilidad con termostatos mejorada (que no proviene del complemento de termostato)
 - Mejora de la ventana de configuración para dispositivos Google Smarthome
+- Correcciones de errores
 
 # 08/02/2020
 

@@ -4,9 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 09/21/20
 
 - Improved thermostats support (not coming from the thermostat plugin)
 - Improvement of the configuration window for Google Smarthome devices
+- Bugfix
 
 # 08/02/2020
 

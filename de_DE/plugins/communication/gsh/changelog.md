@@ -4,9 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 21.09.20
 
 - Verbesserte Thermostatunterstützung (kommt nicht vom Thermostat-Plugin)
 - Verbesserung des Konfigurationsfensters für Google Smarthome-Geräte
+- Fehlerbehebungen
 
 # 08/02/2020
 
