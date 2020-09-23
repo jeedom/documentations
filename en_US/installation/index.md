@@ -35,7 +35,7 @@ A total of € 125 for an open source home automation box with complete control 
 
 > **Tip**
 >
-> Service pack ? What is it ? You can see [here](https://blog.jeedom.fr/?p=1215) the advantages of service packs.
+> Service pack ? What is it ? You can see [here](https://blog.jeedom.com/?p=1215) the advantages of service packs.
 
 # Installation
 

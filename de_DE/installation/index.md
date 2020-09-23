@@ -35,7 +35,7 @@ Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Ko
 
 > **Spitze**
 >
-> Service Pack ? Quézako ? Sie können sehen [hier](https://blog.jeedom.fr/?p=1215) die Vorteile von Service Packs.
+> Service Pack ? Quézako ? Sie können sehen [hier](https://blog.jeedom.com/?p=1215) die Vorteile von Service Packs.
 
 # Installation
 
