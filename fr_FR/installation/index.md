@@ -35,7 +35,7 @@ Soit un total de 125 € pour une box domotique open source avec une maîtrise c
 
 > **Tip**
 >
-> Service pack ? Quézako ? Vous pouvez voir [ici](https://blog.jeedom.fr/?p=1215) les avantages des service packs.
+> Service pack ? Quézako ? Vous pouvez voir [ici](https://blog.jeedom.com/?p=1215) les avantages des service packs.
 
 # Installation
 
