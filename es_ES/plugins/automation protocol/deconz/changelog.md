@@ -4,6 +4,9 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Soporte de válvula ally de Danfoss (se requiere deconz 2.05.79)
+- Cambio del método de instalación para RPI y x86_64 (paso por los repositorios deconz)
+
 # 01/07/2020
 
 - Lanzamiento mejorado de deCONZ

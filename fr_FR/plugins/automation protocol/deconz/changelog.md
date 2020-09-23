@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 23/09/2020
+
+- Support de la vanne Danfoss ally (necessite deconz 2.05.79)
+- Changemement de la méthode d'installation pour RPI et x86_64 (passage par les depots deconz)
+
 # 01/07/2020
 
 - Amélioration du lancement de deCONZ
