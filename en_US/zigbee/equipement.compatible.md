@@ -57,7 +57,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|Sonoff Basic ZBR3||Generic equipment for a socket or any On / Off module||
+|<img src="../../en_US/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|Sonoff Basic ZBR3|||[Buy](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
 |<img src="../../en_US/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|Sonoff wears||Attetion there is a bug in the firmware which makes it go up as a temperature and humidity module so following the inclusion, reset the correct model and remove the temperature and humidity controls|[Buy](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
 |<img src="../../en_US/zigbee/images/eWeLink.MS01.png" width="60" />|Sonoff|Sonoff movement|||[Buy](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.html)|
 |<img src="../../en_US/zigbee/images/eWeLink.TH01.png" width="60" />|Sonoff|Sonoff Temperature / humidity|||[Buy](https://www.domadoo.fr/fr/peripheriques/5260-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30.html)|
@@ -83,3 +83,4 @@
 
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
+2020-09-24 15:17:28

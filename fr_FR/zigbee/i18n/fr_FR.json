@@ -23,7 +23,6 @@
         "Sonoff porte": "Sonoff porte",
         "Attetion il y a un bug dans le firmware qui le fait remonter comme un module de température et d'humidité il faut donc suite à l'inclusion remettre le bon model et supprimer les commandes de température et d'humidité": "Attetion il y a un bug dans le firmware qui le fait remonter comme un module de température et d'humidité il faut donc suite à l'inclusion remettre le bon model et supprimer les commandes de température et d'humidité",
         "Sonoff Basic ZBR3": "Sonoff Basic ZBR3",
-        "Equipement générique pour une prise ou tout module On\/Off": "Equipement générique pour une prise ou tout module On\/Off",
         "Philips": "Philips",
         "Philips mouvement": "Philips mouvement",
         "Ikea": "Ikea",
@@ -39,6 +38,7 @@
         "Opening\/Motion": "Opening\/Motion",
         "Equipement générique pour les ouvrants ou capteur de mouvement": "Equipement générique pour les ouvrants ou capteur de mouvement",
         "On\/Off": "On\/Off",
+        "Equipement générique pour une prise ou tout module On\/Off": "Equipement générique pour une prise ou tout module On\/Off",
         "Light RGB": "Light RGB",
         "Equipement générique pour une lumiere RGB": "Equipement générique pour une lumiere RGB",
         "Danfoss": "Danfoss",
@@ -54,6 +54,7 @@
         "Legrand cable outlet": "Legrand cable outlet",
         "Compatibilité des modules Zigbee": "Compatibilité des modules Zigbee",
         "Acheter": "Acheter",
-        "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels"
+        "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
+        "2020-09-24 15": "2020-09-24 15"
     }
 }

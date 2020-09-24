@@ -57,7 +57,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|Sonoff Basic ZBR3||Generische Ausrüstung für eine Steckdose oder ein Ein / Aus-Modul||
+|<img src="../../de_DE/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|Sonoff Basic ZBR3|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
 |<img src="../../de_DE/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|Sonoff trägt||Es gibt einen Fehler in der Firmware, der dazu führt, dass sie als Temperatur- und Feuchtigkeitsmodul angezeigt wird. Setzen Sie daher nach der Aufnahme das richtige Modell zurück und entfernen Sie die Temperatur- und Feuchtigkeitsregler|[Kaufen](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
 |<img src="../../de_DE/zigbee/images/eWeLink.MS01.png" width="60" />|Sonoff|Sonoff-Bewegung|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.html)|
 |<img src="../../de_DE/zigbee/images/eWeLink.TH01.png" width="60" />|Sonoff|Sonoff Temperatur / Luftfeuchtigkeit|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5260-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30.html)|
@@ -83,3 +83,4 @@
 
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
+2020-09-24 15:17:28
