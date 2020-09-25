@@ -272,6 +272,10 @@ Los tipos de equipos son importantes, esto le permite a Google reaccionar de acu
 >
 > El soporte de Jeedom para los tipos "beta" aún no está documentado en Google, por lo que puede o no funcionar dependiendo de las actualizaciones en Google
 
+> **Importante**
+>
+> El tipo de termostato solo es totalmente compatible a través de un dispositivo proveniente del complemento de termostato, en caso de que la gestión de los modos no funcione
+
 ## Escenario
 
 También puede crear escenas en la pestaña de escena, con acciones de entrada y salida.

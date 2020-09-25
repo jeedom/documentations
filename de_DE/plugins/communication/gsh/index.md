@@ -272,6 +272,10 @@ Die Arten der Ausrüstung sind wichtig, damit Google entsprechend den von Ihnen 
 >
 > Jeedom-Unterstützung für "Beta" -Typen, die noch nicht bei Google dokumentiert sind, sodass dies je nach Updates bei Google möglicherweise funktioniert oder nicht
 
+> **Wichtig**
+>
+> Der Thermostat-Typ wird nur durch Geräte unterstützt, die vom Thermostat-Plugin stammen, falls die Verwaltung der Modi möglicherweise nicht funktioniert
+
 ## Szenario
 
 Sie können auf der Registerkarte "Szene" auch Szenen mit Eingabe- und Ausgabeaktionen erstellen.

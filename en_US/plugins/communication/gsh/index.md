@@ -272,6 +272,10 @@ The types of equipment are important this allows Google to react according to th
 >
 > Jeedom support for "beta" types not yet documented at Google so that may or may not work depending on updates at google
 
+> **Important**
+>
+> The thermostat type is only fully supported through equipment coming from the thermostat plugin, otherwise the management of the modes may not work
+
 ## Scenario
 
 You can also create scenes in the scene tab, with input and output actions.

@@ -4,7 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 21/09/20
+# 25/09/2020
+
+- Correction de bugs sur le retour d'activation de l'alarme
+
+# 21/09/2020
 
 - Amélioration du support des thermostats (ne venant pas du plugin thermostat)
 - Amélioration de la fenetre de configuration des équipements Google Smarthome

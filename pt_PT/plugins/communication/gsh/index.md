@@ -272,6 +272,10 @@ Os tipos de equipamento são importantes, permitindo que o Google reaja de acord
 >
 > Suporte Jeedom para tipos "beta" ainda não documentados no Google, para que possam ou não funcionar, dependendo das atualizações no Google
 
+> **Importante**
+>
+> O tipo de termostato só é totalmente compatível com o equipamento proveniente do plug-in do termostato, caso contrário, o gerenciamento dos modos pode não funcionar
+
 ## Cenas
 
 Você também pode criar cenas na guia cena, com ações de entrada e saída.
