@@ -67,7 +67,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/Sunricher.Motor_Controller.png" width="60" />|Sunricher|Controlador de motor Sunricher||||
+|<img src="../../es_ES/zigbee/images/Sunricher.Motor_Controller.png" width="60" />|Sunricher|[SR-ZG9080A] Controlador de motor Sunricher||||
 |<img src="../../es_ES/zigbee/images/Sunricher.RGB-CCT.png" width="60" />|Sunricher|Sunricher RGB-CCT||||
 |<img src="../../es_ES/zigbee/images/Sunricher.ZG2858A.png" width="60" />|Sunricher|Sunricher ZG2858A||||
 
@@ -84,4 +84,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-25-09-2020 00:32:01
+25-09-2020 08:59:55
