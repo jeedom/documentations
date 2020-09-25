@@ -648,7 +648,7 @@
 |<img src="../../fr_FR/zwave/images/345.1.1_zmnhda2.dimmer.jpg" width="60" />|Qubino|ZMNHDA2 Dimmer|Micromodule|Remplacé par le ZMNHDDx Dimmer||
 |<img src="../../fr_FR/zwave/images/345.1.81_zmnhddx_dimmer.jpg" width="60" />|Qubino|ZMNHDDx Dimmer|Micromodule||[Acheter](http://www.domadoo.fr/fr/peripheriques/3063-qubino-micromodule-variateur-et-consometre-z-wave-zmnhdd1-3830062070096.html)|
 |<img src="../../fr_FR/zwave/images/345.1.82_zmnhsdx.din.dimmer.jpg" width="60" />|Qubino|ZMNHSDx Din Dimmer|Rail-din||[Acheter](http://www.domadoo.fr/fr/peripheriques/3256-qubino-module-rail-din-variateur-z-wave-zmnhsd1-3830062070386.html)|
-||Qubino|ZMNHVDx Flush Dimmer 0-10V|Rail-din||[Acheter](http://www.domadoo.fr/fr/peripheriques/3256-qubino-module-rail-din-variateur-z-wave-zmnhsd1-3830062070386.html)|
+|<img src="../../fr_FR/zwave/images/345.1.83_zmnhsdx.flush.dimmer.png" width="60" />|Qubino|ZMNHVDx Flush Dimmer 0-10V|Rail-din||[Acheter](http://www.domadoo.fr/fr/peripheriques/3256-qubino-module-rail-din-variateur-z-wave-zmnhsd1-3830062070386.html)|
 |<img src="../../fr_FR/zwave/images/345.1.84_zmnhwd1_flush_rgbw_dimmer.jpg" width="60" />|Qubino|Variateur RGBW|RGBW||[Acheter](http://www.domadoo.fr/fr/peripheriques/3990-qubino-micromodule-variateur-rgbw-z-wave.html)|
 |<img src="../../fr_FR/zwave/images/345.1.85_zmnhhdx.mini.dimmer.jpg" width="60" />|Qubino|ZMNHHDx Mini Dimmer|Micromodule|||
 |<img src="../../fr_FR/zwave/images/345.2.1_zmnhba2.flush.2.relays.jpg" width="60" />|Qubino|ZMNHBA2 Double Charge|Micromodule|Problème connue de remonté d'état, Switch1 et Puissance. Remplacé par ZMNHBD1|[Acheter](http://www.domadoo.fr/fr/peripheriques/3062-qubino-micromodule-commutateur-2-relais-et-consometre-z-wave-zmnhbd1-3830062070119.html.html)|
@@ -873,3 +873,5 @@
 
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
+
+2020-09-25 00:08:17

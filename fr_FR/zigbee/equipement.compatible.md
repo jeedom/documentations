@@ -83,4 +83,5 @@
 
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
-2020-09-24 15:17:28
+
+2020-09-25 00:32:01
