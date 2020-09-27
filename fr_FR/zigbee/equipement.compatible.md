@@ -90,4 +90,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-09-26 00:32:01
+2020-09-27 00:32:09
