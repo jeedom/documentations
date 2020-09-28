@@ -2,7 +2,10 @@
 
 # Installation automatique
 
-Vous pouvez directement installer l'OS et Jeedom en meme temps tout automatiquent en partant de l'iso disponible [ici](https://images.jeedom.com/x86-64/). Vous avez juste ensuite à faire "Install on disk" (touche entrée), puis "yes" (flèche bas puis entrée). Toute la suite va se faire automatiquement (10 à 30min), puis une fois la vm redemarré attendant 5min et vous devriez avoir accès à Jeedom en mettant simplement l'ip de jeedom dans un navigateur.
+Pour une installation automatique vous merci de suivre la documentation correspondant à votre type de système : 
+
+- Sur une [VM](https://doc.jeedom.com/fr_FR/installation/vm)
+- Sur du [bearemetal (type Intel Nuc)](https://doc.jeedom.com/fr_FR/installation/baremetal)
 
 # Installation manuel
 
