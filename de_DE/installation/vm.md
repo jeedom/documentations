@@ -33,7 +33,8 @@ Klicken Sie auf Neu und füllen Sie die Felder wie folgt aus :
 -   Geben Sie das zuvor heruntergeladene Bild an
 -   Wählen Sie dann Netzwerk und im Netzwerkzugriffsmodus "Bridge-Zugriff".
 ![VirtualBox3](images/VirtualBox3.PNG)
--   Klicken Sie auf OK \* Klicken Sie auf Start
+-   Klicken Sie auf OK
+-   Klicken Sie auf Start
 
 Wählen Sie "Auf Festplatte installieren" (Eingabetaste auf der Tastatur), bestätigen Sie mit Ja (Abwärtspfeiltaste und geben Sie dann ein). Der Rest wird automatisch erledigt (10 bis 30 Minuten). Sobald der VM neu gestartet wurde, warten Sie 5 Minuten. Sie sollten Zugriff auf Jeedom haben, indem Sie einfach die IP von Jeedom in einen Browser einfügen.
 

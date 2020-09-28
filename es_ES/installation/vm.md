@@ -33,7 +33,8 @@ Haga clic en nuevo y complete los campos a continuación :
 -   Indica la imagen descargada previamente
 -   Luego seleccione la red y elija "acceso de puente" en el modo de acceso a la red.
 ![VirtualBox3](images/VirtualBox3.PNG)
--   Haga clic en Aceptar \* Haga clic en Inicio
+-   Haga clic en Aceptar
+-   Haga clic en iniciar
 
 Seleccione "Instalar en disco" (ingrese la tecla en el teclado), confirme con sí (tecla de flecha hacia abajo y luego ingrese). Todo lo demás se hará automáticamente (de 10 a 30 minutos), luego, una vez que el vm se reinicie, esperará 5 minutos y deberá tener acceso a Jeedom simplemente poniendo la ip de jeedom en un navegador.
 

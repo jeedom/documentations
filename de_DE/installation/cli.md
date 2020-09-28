@@ -2,7 +2,10 @@
 
 # Automatische Installation
 
-Sie können das Betriebssystem und Jeedom gleichzeitig direkt installieren und gleichzeitig von der verfügbaren ISO aus automatisieren [hier](https://images.jeedom.com/x86-64/). Sie müssen dann nur noch "Auf Festplatte installieren" (Eingabetaste) und dann "Ja" (Abwärtspfeil und dann Eingabe) ausführen). Der Rest wird automatisch erledigt (10 bis 30 Minuten). Sobald der VM neu gestartet wurde, warten Sie 5 Minuten. Sie sollten Zugriff auf Jeedom haben, indem Sie einfach die IP von Jeedom in einen Browser einfügen.
+Befolgen Sie für eine automatische Installation die Dokumentation zu Ihrem Systemtyp : 
+
+- Auf einem [VM](https://doc.jeedom.com/de_DE/installation/vm)
+- Auf [Bärenmetall (Typ Intel Nuc)](https://doc.jeedom.com/de_DE/installation/baremetal)
 
 # Manuelle Installation
 

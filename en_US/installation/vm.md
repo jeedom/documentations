@@ -33,7 +33,8 @@ Click on new and fill in the fields as below :
 -   Indicate the image previously downloaded
 -   Then select network and choose "bridge access" in network access mode.
 ![VirtualBox3](images/VirtualBox3.PNG)
--   Click OK \* Click start
+-   Click on OK
+-   Click on start
 
 Select "Install on disk" (enter key on the keyboard), confirm with yes (down arrow key then enter). All the rest will be done automatically (10 to 30min), then once the vm restarted waiting 5min and you should have access to Jeedom by simply putting the ip of jeedom in a browser.
 
