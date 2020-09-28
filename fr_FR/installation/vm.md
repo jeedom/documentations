@@ -33,7 +33,8 @@ Cliquez sur nouvelle et renseignez les champs comme ci dessous :
 -   Indiquez l’image précédemment téléchargée
 -   Sélectionnez ensuite réseau et choisissez "accès par pont" dans le mode d’accès réseau.
 ![VirtualBox3](images/VirtualBox3.PNG)
--   Cliquez sur OK \*Cliquez sur démarrer
+-   Cliquez sur OK
+-   Cliquez sur démarrer
 
 Selectionnez "Install on disk" (touche entrée du clavier), valider avec yes (touche flèche bas puis entrée). Toute la suite va se faire automatiquement (10 à 30min), puis une fois la vm redemarré attendant 5min et vous devriez avoir accès à Jeedom en mettant simplement l'ip de jeedom dans un navigateur.
 
