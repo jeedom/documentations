@@ -34,6 +34,8 @@ Attendez l'installation devrait se derouler toute seule jusqu'au bout
 >
 >Il faut absolument une connexion internet lors de l'installation
 
+Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/index)
+
 # Installation manuelle
 
 Une fois l'OS insallé (Derniere version de Debian de préference) suivre cette [documentation](https://doc.jeedom.com/fr_FR/installation/cli)
