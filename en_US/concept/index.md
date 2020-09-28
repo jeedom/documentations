@@ -63,6 +63,8 @@ Action commands are usually linked to info commands. Here our take has two actio
 
 These two types of commands are attached in the form of equipment. The equipment therefore has info and / or action commands, and it is this equipment that will have an Object as parent, allowing you to display it where you want.
 
+Each command has a Generic Type property which allows Jeeodm to understand what it is doing.You can see [here](https://doc.jeedom.com/en_US/concept/generic_type) the documentation on generic type
+
 ### Équipement
 
 - Physiquement: I have a socket with an on / off button and a status led, in the living room.

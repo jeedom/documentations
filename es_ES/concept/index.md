@@ -63,6 +63,8 @@ Los comandos de acción generalmente están vinculados a comandos de informació
 
 Estos dos tipos de comandos se adjuntan en forma de equipo. Por lo tanto, el equipo tiene comandos de información y / o acción, y es este equipo el que tendrá un Objeto como padre, lo que le permitirá mostrarlo donde desee.
 
+Cada comando tiene una propiedad de tipo genérico que permite a Jeeodm comprender lo que está haciendo.Podéis ver [aquí](https://doc.jeedom.com/es_ES/concept/generic_type) la documentación sobre tipo genérico
+
 ### Équipement
 
 - Physiquement: Tengo un enchufe con un botón de encendido / apagado y un led de estado, en la sala de estar.

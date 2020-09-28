@@ -63,6 +63,8 @@ Aktionsbefehle sind normalerweise mit Info-Befehlen verknüpft. Hier hat unsere 
 
 Diese beiden Arten von Befehlen werden in Form von Geräten angehängt. Das Gerät verfügt daher über Info- und / oder Aktionsbefehle. Dieses Gerät verfügt über ein übergeordnetes Objekt, mit dem Sie es an der gewünschten Stelle anzeigen können.
 
+Jeder Befehl verfügt über eine generische Typ-Eigenschaft, mit der Jeeodm verstehen kann, was er tut.Sie können sehen [hier](https://doc.jeedom.com/de_DE/concept/generic_type) die Dokumentation zum generischen Typ
+
 ### Équipement
 
 - Physiquement: Ich habe eine Steckdose mit einem Ein / Aus-Knopf und einer Status-LED im Wohnzimmer.
