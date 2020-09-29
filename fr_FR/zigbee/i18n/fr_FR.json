@@ -6,6 +6,7 @@
         "motion.aq2] Xiaomi Aquara mouvement": "motion.aq2] Xiaomi Aquara mouvement",
         "magnet.aq2] Xiaomi Aquara porte": "magnet.aq2] Xiaomi Aquara porte",
         "vibration.aq1] Xioami Aquara Vibration": "vibration.aq1] Xioami Aquara Vibration",
+        "[Q8KG03LM] Xioami interrupteur double avec neutre": "[Q8KG03LM] Xioami interrupteur double avec neutre",
         "b286acn01] Xioami interrupteur double": "b286acn01] Xioami interrupteur double",
         "Image": "Image",
         "Marque": "Marque",
@@ -47,6 +48,7 @@
         "Pour réinitialiser la vanne, enlever les piles et les remettre en appuyant sur le bouton jusqu'au second rallumage de l'écran": "Pour réinitialiser la vanne, enlever les piles et les remettre en appuyant sur le bouton jusqu'au second rallumage de l'écran",
         "Danalock": "Danalock",
         "DANA_277755] Danalock V3": "DANA_277755] Danalock V3",
+        "Jeedom ne recommande pas ce module qui semble avoir un bug sur le firmware qui oblige a reinclure le module toute les X heures ou jours": "Jeedom ne recommande pas ce module qui semble avoir un bug sur le firmware qui oblige a reinclure le module toute les X heures ou jours",
         "Legrand": "Legrand",
         "Legrand prise mobile Céliane": "Legrand prise mobile Céliane",
         "Legrand micro module": "Legrand micro module",
@@ -58,6 +60,6 @@
         "La vanne n'envoi aucun information pour l'identifier il faut donc absolument mettre manuelle le type de module dans Jeedom après inclusion": "La vanne n'envoi aucun information pour l'identifier il faut donc absolument mettre manuelle le type de module dans Jeedom après inclusion",
         "Compatibilité des modules Zigbee": "Compatibilité des modules Zigbee",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-09-28 00": "2020-09-28 00"
+        "2020-09-29 00": "2020-09-29 00"
     }
 }
