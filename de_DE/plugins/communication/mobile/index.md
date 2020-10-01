@@ -148,7 +148,7 @@ Bild                           | Typ Gattung               | Dev Plugin Teil    
 
 Bild                           | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![FLOOD](./images/FLOOD.jpg)   | `Innondation`<br/>`Temperatur` (optional)<br/>`Luftfeuchtigkeit` (optional)<br/>"Sabotage" (optional)|`FLOOD`<br/>`TEMPERATUR` (optional)<br/>`FEUCHTIGKEIT` (optional)<br/>`FEUCHTIGKEIT` (optional) | Ermöglicht es Ihnen, Ihren gesamten Hochwassersensor in einer einzigen Leitung zu haben.
+![FLOOD](./images/FLOOD.jpg)   | `Innondation`<br/>`TEMPERATUR` (optional)<br/>`Luftfeuchtigkeit` (optional)<br/>`SABOTAGE` (optional)|`FLOOD`<br/>`TEMPERATUR` (optional)<br/>`FEUCHTIGKEIT` (optional)<br/>`FEUCHTIGKEIT` (optional) | Ermöglicht es Ihnen, Ihren gesamten Hochwassersensor in einer einzigen Leitung zu haben.
 
 ### Serrure
 
@@ -166,7 +166,7 @@ Bild                         | Typ Gattung               | Dev Plugin Teil      
 
 Bild                           | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![SMOKE](./images/SMOKE.jpg)   | `Rauch`<br/>`Temperatur` (optional)|`SMOKE`<br/>`TEMPERATUR` (optional) | Ermöglicht es Ihnen, Ihren kompletten Rauchsensor in einer einzigen Leitung zu haben.
+![SMOKE](./images/SMOKE.jpg)   | `Rauch`<br/>`TEMPERATUR` (optional)|`SMOKE`<br/>`TEMPERATUR` (optional) | Ermöglicht es Ihnen, Ihren kompletten Rauchsensor in einer einzigen Leitung zu haben.
 
 ### Temperatur
 
@@ -178,13 +178,13 @@ Bild                                       | Typ Gattung               | Dev Plu
 
 Bild                                 | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :-----------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![PRESENCE](./images/PRESENCE.jpg)   | `Präsenz`<br/>`Temperatur` (optional)<br/>`Helligkeit` (optional)<br/>`Luftfeuchtigkeit` (optional)<br/>`UV` (optional)<br/>"Sabotage" (optional)|`PRESENCE`<br/>`TEMPERATUR` (optional)<br/>`BRIGHTNESS` (optional)<br/>`FEUCHTIGKEIT` (optional)<br/>`UV` (optional)<br/>`SABOTAGE` (optional) | Siehe Bild.
+![PRESENCE](./images/PRESENCE.jpg)   | `Präsenz`<br/>`TEMPERATUR` (optional)<br/>`Helligkeit` (optional)<br/>`Luftfeuchtigkeit` (optional)<br/>`UV` (optional)<br/>`SABOTAGE` (optional)|`PRESENCE`<br/>`TEMPERATUR` (optional)<br/>`BRIGHTNESS` (optional)<br/>`FEUCHTIGKEIT` (optional)<br/>`UV` (optional)<br/>`SABOTAGE` (optional) | Siehe Bild.
 
 ### Ouvrant
 
 Bild                                       | Typ Gattung               | Dev Plugin Teil            | Beschreibung          |
 :-----------------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![OPENING](./images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`Temperatur` (optional)|`OPENING / OPENING_WINDOW`<br/>`TEMPERATUR` (optional) | Siehe Bild (d. H. Sie können zwischen Fenster und Tür wählen).
+![OPENING](./images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`TEMPERATUR` (optional)|`OPENING / OPENING_WINDOW`<br/>`TEMPERATUR` (optional) | Siehe Bild (d. H. Sie können zwischen Fenster und Tür wählen).
 
 ### Pilotdraht
 

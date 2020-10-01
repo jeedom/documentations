@@ -148,7 +148,7 @@ Imagen                           | Tipo genérico               | Parte del comp
 
 Imagen                           | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![FLOOD](./images/FLOOD.jpg)   | `Innondation`<br/>`Temperatura` (opcional)<br/>`Humedad` (opcional)<br/>`Sabotaje` (opcional)|`FLOOD`<br/>`TEMPERATURA` (opcional)<br/>`HUMEDAD` (opcional)<br/>`HUMEDAD` (opcional) | Le permite tener su sensor de inundación completo en una sola línea.
+![FLOOD](./images/FLOOD.jpg)   | `Innondation`<br/>`TEMPERATURA` (opcional)<br/>`Humedad` (opcional)<br/>`SABOTAGE` (opcional)|`FLOOD`<br/>`TEMPERATURA` (opcional)<br/>`HUMEDAD` (opcional)<br/>`HUMEDAD` (opcional) | Le permite tener su sensor de inundación completo en una sola línea.
 
 ### Serrure
 
@@ -166,7 +166,7 @@ Imagen                         | Tipo genérico               | Parte del comple
 
 Imagen                           | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![SMOKE](./images/SMOKE.jpg)   | `Humo`<br/>`Temperatura` (opcional)|`SMOKE`<br/>`TEMPERATURA` (opcional) | Le permite tener su sensor de humo completo en una sola línea.
+![SMOKE](./images/SMOKE.jpg)   | `Humo`<br/>`TEMPERATURA` (opcional)|`SMOKE`<br/>`TEMPERATURA` (opcional) | Le permite tener su sensor de humo completo en una sola línea.
 
 ### Temperatura
 
@@ -178,13 +178,13 @@ Imagen                                       | Tipo genérico               | Pa
 
 Imagen                                 | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-----------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![PRESENCE](./images/PRESENCE.jpg)   | `Presencia`<br/>`Temperatura` (opcional)<br/>`Brillo` (opcional)<br/>`Humedad` (opcional)<br/>`UV` (opcional)<br/>`Sabotaje` (opcional)|`PRESENCE`<br/>`TEMPERATURA` (opcional)<br/>`BRILLO` (opcional)<br/>`HUMEDAD` (opcional)<br/>`UV` (opcional)<br/>`SABOTAGE` (opcional) | Ver foto.
+![PRESENCE](./images/PRESENCE.jpg)   | `Presencia`<br/>`TEMPERATURA` (opcional)<br/>`Brillo` (opcional)<br/>`Humedad` (opcional)<br/>`UV` (opcional)<br/>`SABOTAGE` (opcional)|`PRESENCE`<br/>`TEMPERATURA` (opcional)<br/>`BRILLO` (opcional)<br/>`HUMEDAD` (opcional)<br/>`UV` (opcional)<br/>`SABOTAGE` (opcional) | Ver foto.
 
 ### Ouvrant
 
 Imagen                                       | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-----------------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![OPENING](./images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`Temperatura` (opcional)|`OPENING / OPENING_WINDOW`<br/>`TEMPERATURA` (opcional) | Ver imagen (es decir, puede elegir entre ventana y puerta).
+![OPENING](./images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`TEMPERATURA` (opcional)|`OPENING / OPENING_WINDOW`<br/>`TEMPERATURA` (opcional) | Ver imagen (es decir, puede elegir entre ventana y puerta).
 
 ### Cable piloto
 

@@ -148,7 +148,7 @@ Imagem                           | Tipo genérico               | Parte do plugi
 
 Imagem                           | Tipo genérico               | Parte do plugin Dev            | Descrição          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![FLOOD](../images/FLOOD.jpg)   | `Innondation`<br/>`Temperatura` (opcional)<br/>Humidade (opcional)<br/>Sabotagem (opcional)|`FLOOD`<br/>`TEMPERATURE` (opcional)<br/>«UMIDADE» (opcional)<br/>«UMIDADE» (opcional) | Permite que você tenha seu sensor de inundação completo em uma única linha.
+![FLOOD](../images/FLOOD.jpg)   | `Innondation`<br/>`TEMPERATURE` (opcional)<br/>Humidade (opcional)<br/>`SABOTAGE` (opcional)|`FLOOD`<br/>`TEMPERATURE` (opcional)<br/>«UMIDADE» (opcional)<br/>«UMIDADE» (opcional) | Permite que você tenha seu sensor de inundação completo em uma única linha.
 
 ### Serrure
 
@@ -166,7 +166,7 @@ Imagem                         | Tipo genérico               | Parte do plugin 
 
 Imagem                           | Tipo genérico               | Parte do plugin Dev            | Descrição          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![SMOKE](../images/SMOKE.jpg)   | `Fumaça`<br/>`Temperatura` (opcional)|`SMOKE`<br/>`TEMPERATURE` (opcional) | Permite que você tenha seu sensor de fumaça completo em uma única linha.
+![SMOKE](../images/SMOKE.jpg)   | `Fumaça`<br/>`TEMPERATURE` (opcional)|`SMOKE`<br/>`TEMPERATURE` (opcional) | Permite que você tenha seu sensor de fumaça completo em uma única linha.
 
 ### Temperatura
 
@@ -178,13 +178,13 @@ Imagem                                       | Tipo genérico               | Pa
 
 Imagem                                 | Tipo genérico               | Parte do plugin Dev            | Descrição          |
 :-----------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![PRESENCE](../images/PRESENCE.jpg)   | `Presença`<br/>`Temperatura` (opcional)<br/>`Brightness` (opcional)<br/>Humidade (opcional)<br/>`UV` (opcional)<br/>Sabotagem (opcional)|`PRESENCE`<br/>`TEMPERATURE` (opcional)<br/>`BRILHO` (opcional)<br/>«UMIDADE» (opcional)<br/>`UV` (opcional)<br/>`SABOTAGE` (opcional) | Veja a imagem.
+![PRESENCE](../images/PRESENCE.jpg)   | `Presença`<br/>`TEMPERATURE` (opcional)<br/>`Brightness` (opcional)<br/>Humidade (opcional)<br/>`UV` (opcional)<br/>`SABOTAGE` (opcional)|`PRESENCE`<br/>`TEMPERATURE` (opcional)<br/>`BRILHO` (opcional)<br/>«UMIDADE» (opcional)<br/>`UV` (opcional)<br/>`SABOTAGE` (opcional) | Veja a imagem.
 
 ### Ouvrant
 
 Imagem                                       | Tipo genérico               | Parte do plugin Dev            | Descrição          |
 :-----------------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![OPENING](../images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`Temperatura` (opcional)|`OPENING / OPENING_WINDOW`<br/>`TEMPERATURE` (opcional) | Consulte Imagem (ou seja, você pode escolher entre janela e porta).
+![OPENING](../images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`TEMPERATURE` (opcional)|`OPENING / OPENING_WINDOW`<br/>`TEMPERATURE` (opcional) | Consulte Imagem (ou seja, você pode escolher entre janela e porta).
 
 ### Fio piloto
 
