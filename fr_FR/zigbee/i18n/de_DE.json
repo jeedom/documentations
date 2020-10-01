@@ -43,7 +43,7 @@
         "La vanne n'envoi aucun information pour l'identifier il faut donc absolument mettre manuelle le type de module dans Jeedom après inclusion": "Das Ventil sendet keine Informationen, um es zu identifizieren. Daher ist es unbedingt erforderlich, den Modultyp in Jeedom nach der Aufnahme manuell einzustellen",
         "Compatibilité des modules Zigbee": "Kompatibilität von ZigBee-Modulen",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind",
-        "2020-09-30 00": "2020-09-30 00",
+        "2020-10-01 00": "2020-10-01 00",
         " iaomi.": " iaomi.",
         " iaomi?": " iaomi?",
         "iaomi ": "iaomi ",
