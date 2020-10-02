@@ -17,9 +17,14 @@ Einmal starten :
 - Wählen Sie Ihren USB-Stick unter "Reader""
 - Klicken Sie auf OK
 
-## Installation
+Dann musst du nur noch ``booter`` auf dem USB-Stick. Motherboards haben im Allgemeinen 2 Startmodi : UEFI (aktuell, Standardauswahl) und BIOS (Verlauf)). Wir empfehlen, dass Sie das BIOS verwenden (die Option, die je nach Motherboard geändert werden kann und nicht immer leicht zu finden ist, daher können wir Ihnen kein allgemeines Verfahren geben)
 
-Stecken Sie den USB-Stick in Ihren physischen Computer, konfigurieren Sie den Start auf dem USB-Laufwerk und dann : 
+## Installation im BIOS-Modus (empfohlen)
+
+- Wählen Sie "Jeedom installieren""
+- Und schließlich "Ja"
+
+## Installation im UEFI-Modus (nicht empfohlen)
 
 - Wählen Sie "Erweiterte Optionen""
 - Und schließlich "Im Textmodus installieren"

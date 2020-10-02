@@ -17,9 +17,14 @@ Once launch :
 - Select your USB key in "Reader"
 - Click on OK
 
-## Installation
+Then you just have to ``booter`` on the USB key. Motherboards generally have 2 boot modes : UEFI (most recent, the default choice) and BIOS (the history). We recommend that you take BIOS (the option to change according to each motherboard and is not always easy to find, so we cannot give you a general procedure)
 
-Insert the USB key into your physical machine, configure the boot on the USB drive, then : 
+## Installation in Bios mode (recommended)
+
+- Select "Install Jeedom"
+- And finally "yes"
+
+## Installation in UEFI mode (not recommended)
 
 - Select "Advanced options"
 - And finally "Install in text mode"

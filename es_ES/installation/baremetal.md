@@ -17,9 +17,14 @@ Una vez lanzado :
 - Seleccione su llave USB en "Lector"
 - Haga clic en Aceptar
 
-## Installation
+Entonces solo tienes que ``booter`` en la llave USB. Las placas base generalmente tienen 2 modos de arranque : UEFI (más reciente, la opción predeterminada) y BIOS (el historial). Te recomendamos que lleves BIOS (la opción de cambiar según cada placa base y no siempre es fácil de encontrar, por lo que no podemos darte un procedimiento general)
 
-Inserte la llave USB en su máquina física, configure el arranque en la unidad USB, luego : 
+## Instalación en modo Bios (recomendado)
+
+- Seleccione "Instalar Jeedom"
+- Y finalmente "si"
+
+## Instalación en modo UEFI (no recomendado)
 
 - Seleccione "Opciones avanzadas"
 - Y finalmente "Instalar en modo texto"
