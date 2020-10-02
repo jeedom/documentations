@@ -17,9 +17,14 @@ Une fois lancer :
 - Selectionner votre clef USB dans "Lecteur"
 - Cliquez sur OK
 
-## Installation
+Ensuite il vous suffit de ``booter`` sur la clef USB. Les cartes mère ont en général 2 modes de boot : UEFI (plus récent, le choix par defaut) et BIOS (l'historique). Nous vous recommandons de prendre BIOS (l'option changement en fonction de chaque carte mère et n'est pas toujours simple a trouver, nous ne pouvons donc pas vous donner de procèdure générale)
 
-Inserez la clef USB dans votre machine physique, configurez le boot sur le lecteur USB, puis : 
+## Installation en mode Bios (recommandé)
+
+- Selectionnez "Install Jeedom"
+- Et enfin "yes"
+
+## Installation en mode UEFI (non recommandé)
 
 - Selectionnez "Avanced options"
 - Et enfin "Install in text mode"
