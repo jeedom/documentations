@@ -45,12 +45,12 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.FYRTUR_roller_blind.png" width="60" />|Ikea|Ikea fyrtur||For inclusion, it is advisable to reset the blind (by pressing the 2 buttons until the diode lights up), then put Jeedom in inclusion mode, remove the betarie and replace the battery of the blind||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.KADRILJ_roller_blind.png" width="60" />|Ikea|Ikea Kadrilj||For inclusion, it is advisable to reset the blind (by pressing the 2 buttons until the diode lights up), then put Jeedom in inclusion mode, remove the betarie and replace the battery of the blind||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_signal_repeater.png" width="60" />|Ikea|Ikea repeateur||||
 |<img src="../../en_US/zigbee/images/ikea.e1743.png" width="60" />|Ikea|[e1743] Ikea 2 button remote control||||
 |<img src="../../en_US/zigbee/images/ikea.e1766.png" width="60" />|Ikea|[e1766] Ikea remote control 2 buttons store||||
 |<img src="../../en_US/zigbee/images/ikea.e1810.png" width="60" />|Ikea|[e1810] Ikea 5 button remote control||||
-|<img src="../../en_US/zigbee/images/ikea.fyrtur.png" width="60" />|Ikea|Ikea fyrtur||For inclusion, it is advisable to reset the blind (by pressing the 2 buttons until the diode lights up), then put Jeedom in inclusion mode, remove the betarie and replace the battery of the blind||
-|<img src="../../en_US/zigbee/images/ikea.kadrilj.png" width="60" />|Ikea|Ikea Kadrilj||For inclusion, it is advisable to reset the blind (by pressing the 2 buttons until the diode lights up), then put Jeedom in inclusion mode, remove the betarie and replace the battery of the blind||
 |<img src="../../en_US/zigbee/images/ikea.motion_sensor.png" width="60" />|Ikea|Ikea motion sensor||||
 
 # Philips
@@ -81,7 +81,9 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|[C2ACN01] XIAOMI Aqara LLKZMK11LM Intelligent two-way module||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|[b286acn01] Xioami double switch|||[Buy](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
+|<img src="../../en_US/zigbee/images/LUMI.lumi.switch.1.withoutNeutral.png" width="60" />|Xiaomi|[XXXX] Xioami single switch without neutral||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.switch.Q8KG03LM.png" width="60" />|Xiaomi|[Q8KG03LM] Xioami double switch with neutral||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|[vibration.aq1] Xioami Aquara Vibration|||[Buy](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
 |<img src="../../en_US/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|[magnet.aq2] Xiaomi Aquara door|||[Buy](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
@@ -91,4 +93,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-10-04 00:32:02
+2020-10-05 00:32:03

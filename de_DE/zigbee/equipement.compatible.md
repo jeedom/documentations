@@ -45,12 +45,12 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.FYRTUR_roller_blind.png" width="60" />|Ikea|Ikea fyrtur||Für die Aufnahme ist es ratsam, die Jalousie zurückzusetzen (durch Drücken der 2 Tasten, bis die Diode aufleuchtet), dann Jeedom in den Einschlussmodus zu versetzen, die Betarie zu entfernen und die Batterie der Jalousie auszutauschen||
+|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.KADRILJ_roller_blind.png" width="60" />|Ikea|Ikea Kadrilj||Für die Aufnahme ist es ratsam, die Jalousie zurückzusetzen (durch Drücken der 2 Tasten, bis die Diode aufleuchtet), dann Jeedom in den Einschlussmodus zu versetzen, die Betarie zu entfernen und die Batterie der Jalousie auszutauschen||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_signal_repeater.png" width="60" />|Ikea|Ikea repeateur||||
 |<img src="../../de_DE/zigbee/images/ikea.e1743.png" width="60" />|Ikea|[e1743] Ikea 2-Tasten-Fernbedienung||||
 |<img src="../../de_DE/zigbee/images/ikea.e1766.png" width="60" />|Ikea|[e1766] Ikea Fernbedienung 2 Tasten speichern||||
 |<img src="../../de_DE/zigbee/images/ikea.e1810.png" width="60" />|Ikea|[e1810] Ikea 5-Tasten-Fernbedienung||||
-|<img src="../../de_DE/zigbee/images/ikea.fyrtur.png" width="60" />|Ikea|Ikea fyrtur||Für die Aufnahme ist es ratsam, die Jalousie zurückzusetzen (durch Drücken der 2 Tasten, bis die Diode aufleuchtet), dann Jeedom in den Einschlussmodus zu versetzen, die Betarie zu entfernen und die Batterie der Jalousie auszutauschen||
-|<img src="../../de_DE/zigbee/images/ikea.kadrilj.png" width="60" />|Ikea|Ikea Kadrilj||Für die Aufnahme ist es ratsam, die Jalousie zurückzusetzen (durch Drücken der 2 Tasten, bis die Diode aufleuchtet), dann Jeedom in den Einschlussmodus zu versetzen, die Betarie zu entfernen und die Batterie der Jalousie auszutauschen||
 |<img src="../../de_DE/zigbee/images/ikea.motion_sensor.png" width="60" />|Ikea|Ikea Bewegungssensor||||
 
 # Philips
@@ -81,7 +81,9 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|[C2ACN01] XIAOMI Aqara LLKZMK11LM Intelligentes Zweiwege-Modul||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|[b286acn01] Xioami-Doppelschalter|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.1.withoutNeutral.png" width="60" />|Xiaomi|[XXXX] Xioami-Einzelschalter ohne Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.Q8KG03LM.png" width="60" />|Xiaomi|[Q8KG03LM] Xioami-Doppelschalter mit Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|[vibration.aq1] Xioami Aquara Vibration|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
 |<img src="../../de_DE/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|[magnet.aq2] Xiaomi Aquara Tür|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
@@ -91,4 +93,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-10-04 00:32:02
+2020-10-05 00:32:03

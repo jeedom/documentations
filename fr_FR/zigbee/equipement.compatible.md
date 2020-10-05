@@ -45,12 +45,12 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.FYRTUR_roller_blind.png" width="60" />|Ikea|Ikea Fyrtur||Pour l'inclusion il est conseillé de faire une remise à zéro du store (en pressant les 2 boutons jusqu'a ce que la diode s'allume), puis mettre Jeedom en mode inclusion, retirer la betarie et remettre la batterie du store||
+|<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.KADRILJ_roller_blind.png" width="60" />|Ikea|Ikea Kadrilj||Pour l'inclusion il est conseillé de faire une remise à zéro du store (en pressant les 2 boutons jusqu'a ce que la diode s'allume), puis mettre Jeedom en mode inclusion, retirer la betarie et remettre la batterie du store||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_signal_repeater.png" width="60" />|Ikea|Ikea repeateur||||
 |<img src="../../fr_FR/zigbee/images/ikea.e1743.png" width="60" />|Ikea|[e1743] Ikea télécommande 2 boutons||||
 |<img src="../../fr_FR/zigbee/images/ikea.e1766.png" width="60" />|Ikea|[e1766] Ikea télécommande 2 boutons store||||
 |<img src="../../fr_FR/zigbee/images/ikea.e1810.png" width="60" />|Ikea|[e1810] Ikea télécommande 5 boutons||||
-|<img src="../../fr_FR/zigbee/images/ikea.fyrtur.png" width="60" />|Ikea|Ikea Fyrtur||Pour l'inclusion il est conseillé de faire une remise à zéro du store (en pressant les 2 boutons jusqu'a ce que la diode s'allume), puis mettre Jeedom en mode inclusion, retirer la betarie et remettre la batterie du store||
-|<img src="../../fr_FR/zigbee/images/ikea.kadrilj.png" width="60" />|Ikea|Ikea Kadrilj||Pour l'inclusion il est conseillé de faire une remise à zéro du store (en pressant les 2 boutons jusqu'a ce que la diode s'allume), puis mettre Jeedom en mode inclusion, retirer la betarie et remettre la batterie du store||
 |<img src="../../fr_FR/zigbee/images/ikea.motion_sensor.png" width="60" />|Ikea|Ikea motion sensor||||
 
 # Philips
@@ -81,7 +81,9 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|[C2ACN01] XIAOMI Aqara LLKZMK11LM Module bidirectionnel Intelligent||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|[b286acn01] Xioami interrupteur double|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.switch.1.withoutNeutral.png" width="60" />|Xiaomi|[XXXX] Xioami interrupteur simple sans neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.switch.Q8KG03LM.png" width="60" />|Xiaomi|[Q8KG03LM] Xioami interrupteur double avec neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|[vibration.aq1] Xioami Aquara Vibration|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
 |<img src="../../fr_FR/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|[magnet.aq2] Xiaomi Aquara porte|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
@@ -91,4 +93,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-10-04 00:32:02
+2020-10-05 00:32:03
