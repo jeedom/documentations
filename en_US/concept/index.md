@@ -24,7 +24,7 @@ You can view these devices in several ways :
 
 These can be viewed in a browser on a desktop computer, or on a smartphone with the WebApp or mobile application : [Mobile version](/en_US/mobile/index)
 
-## Items
+## The Objects
 
 In order to organize your devices, you can create [Objects](/en_US/core/4.1/object).
 
@@ -34,11 +34,11 @@ These objects can represent parts of the house (Living room, Bedroom, Workshop).
 
 > Tips
 >
-> IN **Settings → Preferences**, you can define which object you want to arrive on the Dashboard. [Preferences](/en_US/core/4.1/profils)
+> In **Settings → Preferences**, you can define which object you want to arrive on the Dashboard. [Preferences](/en_US/core/4.1/profils)
 
 ![Dashboard](images/concept-dashboard.jpg)
 
-## Equipment and their controls
+## Equipment and their commands
 
 ### Commandes
 
@@ -70,7 +70,7 @@ Each command has a Generic Type property which allows Jeeodm to understand what 
 - Physiquement: I have a socket with an on / off button and a status led, in the living room.
 - In Jeedom: I have equipment with two on and off actions and a status info, in the Salon object.
 
-These equipments are created by plugins. For example, the Z-Wave plugin will allow you to include your Z-Waze plug, which will create equipment with its controls, which you can name and link to an Object.
+These equipments are created by plugins. For example, the Z-Wave plugin will allow you to include your Z-Waze plug, which will create equipment with its commands, which you can name and link to an Object.
 
 In terms of display, each command is displayed using a Widget. The Core offers the main Widgets, as well as a tool to create them (V4) : [Widget](/en_US/core/4.1/widgets).
 
@@ -112,7 +112,7 @@ The `#` indicate a command, then we find `[the name of its parent object]`, then
 
 - Save, and your script is ready !
 
-Here we have only touched on the possibilities of the scenarios. You can add conditions (block *If / Do / Else*), delay actions (block *IN*), program them (block *At*), and even directly use php code (block *CODE*).
+Here we have only touched on the possibilities of the scenarios. You can add conditions (block *If / Do / Else*), delay actions (block *In*), program them (block *At*), and even directly use php code (block *CODE*).
 
 Here we used the trigger mode *Provoked*, with a command. But you can also use (and combine) the mode *Programmed* to run a scenario every morning, or every hour, etc.
 
