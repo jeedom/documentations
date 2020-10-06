@@ -41,6 +41,8 @@ Le Core comprend entre autres :
 
 [Historique](/fr_FR/core/4.1/history)
 
+[Timeline](/fr_FR/core/4.1/timeline)
+
 ![Page Historique](images/doc-presentation-historique.jpg)
 
 ## Scénarios
