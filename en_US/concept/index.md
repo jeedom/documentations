@@ -46,15 +46,15 @@ To interact with our home automation, you need commands ! These are of two types
 
 > Note
 >
-> Rest assured, orders are normally created automatically ! These explanations are for a better understanding.
+> Rest assured, commands are normally created automatically ! These explanations are for a better understanding.
 
-- The orders *Info* :
+- The Commands *Info* :
 These commands store information from sensors. For example, the temperature of a probe, a movement of a presence sensor, etc.
 These commands can be logged in order to keep this information over time in the form of a curve : [History](/en_US/core/4.1/history)
 
 These commands can also be used to trigger [Scenarios](/en_US/core/4.1/scenario) in order to automate actions based on the information sent by your sensors. For example, a motion sensor detects a presence, which will trigger a scenario that will turn on the light.
 
-- The orders *Action* :
+- The Commands *Action* :
 These commands allow you to control your actuators. For example, commands ````on```` and ````off```` of a controlled outlet will allow you to turn it on and off.
 
 Action commands are usually linked to info commands. Here our take has two actions ````on```` and ````off````, usually related to information **State**.
@@ -72,7 +72,7 @@ Each command has a Generic Type property which allows Jeeodm to understand what 
 
 These equipments are created by plugins. For example, the Z-Wave plugin will allow you to include your Z-Waze plug, which will create equipment with its controls, which you can name and link to an Object.
 
-In terms of display, each order is displayed using a Widget. The Core offers the main Widgets, as well as a tool to create them (V4) : [Widget](/en_US/core/4.1/widgets).
+In terms of display, each command is displayed using a Widget. The Core offers the main Widgets, as well as a tool to create them (V4) : [Widget](/en_US/core/4.1/widgets).
 
 These commands are grouped in a tile corresponding to your equipment. And this tile will be displayed on the Dashboard in the Object you have chosen.
 
@@ -82,7 +82,7 @@ Whatever your device, it will therefore be created in the form of a device, from
 
 This device will have its own commands *Info* or *Action*. These commands will be displayed as Widgets forming the equipment tile, in its parent object.
 
-You will then see that each Object, Equipment, Order has many options, in terms of functionality or display. But everything in its time, by now you should have understood the basic concepts of Jeedom, and thus be able to start organizing your home automation knowing where to look.
+You will then see that each Object, Equipment, Command has many options, in terms of functionality or display. But everything in its time, by now you should have understood the basic concepts of Jeedom, and thus be able to start organizing your home automation knowing where to look.
 
 ## My first scenario
 
@@ -102,7 +102,7 @@ Suppose we have a controlled light and a motion detector in the room.
 - Go to **Tools → Scenarios**
 - Click on *Add* then give it a name.
 - Right, in the section *Trigger*, check that the mode is in *Provoked* then click on *+ Trigger*.
-- Using the button *Choose a command* to the right of the field *Event*, select the object then the equipment and its order.
+- Using the button *Choose a command* to the right of the field *Event*, select the object then the equipment and its command.
 
 The *Trigger* is what will trigger the execution of this scenario. Here, we want to trigger it when our detector detects a presence, so we will use the command `#[Bedroom][Détecteur Bedroom][Présence]# == 1`.
 
@@ -114,7 +114,7 @@ The `#` indicate a command, then we find `[the name of its parent object]`, then
 
 Here we have only touched on the possibilities of the scenarios. You can add conditions (block *If / Do / Else*), delay actions (block *IN*), program them (block *At*), and even directly use php code (block *CODE*).
 
-Here we used the trigger mode *Provoked*, with an order. But you can also use (and combine) the mode *Programmed* to run a scenario every morning, or every hour, etc.
+Here we used the trigger mode *Provoked*, with a command. But you can also use (and combine) the mode *Programmed* to run a scenario every morning, or every hour, etc.
 
 
 ### Program of the day.

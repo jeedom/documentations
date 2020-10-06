@@ -24,7 +24,7 @@ The Core includes among others :
 
 ## Dashboard / Summary
 
-*Equipment, including actuators or sensors, is organized by objects. Objects can, for example, represent physical parts*.
+*Equipment, including actuators or sensors, is organized by objects. Objects can, for example, represent physical rooms*.
 
 [Synthesis](/en_US/core/4.1/overview)
 
@@ -55,7 +55,7 @@ The Core includes among others :
 
 ## Widget creation
 
-*Jeedom offers a Widget creation engine for equipment orders. You can thus create your own Widgets, in addition to the basic Widgets. Widgets can also be created directly from code, for advanced users.*
+*Jeedom offers a Widget creation engine for equipment commands. You can thus create your own Widgets, in addition to the basic Widgets. Widgets can also be created directly from code, for advanced users.*
 
 ![Widgets](images/doc-presentation-widgets.jpg)
 
@@ -87,5 +87,5 @@ These plugins can be installed from the Market and allow you to extend the possi
 
 ![Page Market](images/doc-presentation-market.jpg)
 
-Jeedom allows any plugin to chat with another on a standardized basis. This makes it possible, for example, to use thermostat or alarm plugins with any home automation protocol or even an IP plugin or communicating object
+Jeedom allows any plugin to interact with another one a standardized basis. This makes it possible, for example, to use thermostat or alarm plugins with any home automation protocol or even an IP plugin or communicating object
 
