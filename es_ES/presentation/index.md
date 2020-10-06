@@ -41,6 +41,8 @@ The Core incluye entre otros :
 
 [Historial](/es_ES/core/4.1/history)
 
+[Línea de tiempo](/es_ES/core/4.1/timeline)
+
 ![Page Historial](images/doc-presentation-historique.jpg)
 
 ## Escenarios

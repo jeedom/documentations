@@ -41,6 +41,8 @@ The Core includes among others :
 
 [History](/en_US/core/4.1/history)
 
+[Timeline](/en_US/core/4.1/timeline)
+
 ![Page History](images/doc-presentation-historique.jpg)
 
 ## Scenarios

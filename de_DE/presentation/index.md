@@ -41,6 +41,8 @@ Der Kern umfasst unter anderem :
 
 [Chronik](/de_DE/core/4.1/history)
 
+[Zeitleiste](/de_DE/core/4.1/timeline)
+
 ![Page Chronik](images/doc-presentation-historique.jpg)
 
 ## Szenarien
