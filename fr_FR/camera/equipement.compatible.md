@@ -221,4 +221,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-10-05 00:20:49
+2020-10-06 00:20:22

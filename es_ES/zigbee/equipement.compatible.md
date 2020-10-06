@@ -81,10 +81,10 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|[ctrl_neutral1] Xiaomi interruptor simple sin neutral||||
+|<img src="../../es_ES/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|[Q8KG03LM] Doble interruptor Xioami sin neutro||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|[C2ACN01] XIAOMI Aqara LLKZMK11LM Módulo inteligente de dos vías||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|[b286acn01] Doble interruptor Xioami|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
-|<img src="../../es_ES/zigbee/images/LUMI.lumi.switch.1.withoutNeutral.png" width="60" />|Xiaomi|[XXXX] Interruptor único Xioami sin neutro||||
-|<img src="../../es_ES/zigbee/images/LUMI.lumi.switch.Q8KG03LM.png" width="60" />|Xiaomi|[Q8KG03LM] Doble interruptor Xioami con neutro||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|[vibration.aq1] Xioami Aquara Vibration|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
 |<img src="../../es_ES/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|[magnet.aq2] Puerta Xiaomi Aquara|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../es_ES/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|[motion.aq2] Movimiento Xiaomi Aquara|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
@@ -93,4 +93,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-10-05 00:32:03
+2020-10-06 00:32:09
