@@ -283,8 +283,6 @@
         "Google Smarthome": "Google Smarthome",
         "En usage combiné avec un Google home il permet de faire le pont avec les interactions et d'avoir un retour vocal, il permet aussi d'utiliser la fonction ask": "In Kombination mit einer Google-Startseite können Sie die Interaktionen überbrücken und ein Sprachfeedback erhalten. Außerdem können Sie die Ask-Funktion verwenden",
         "Plugin permettant de faire parler un device CAST": "Plugin, mit dem ein CAST-Gerät sprechen kann",
-        "Pour le moment l'aspirateur n'est pas supporté": "Momentan wird der Staubsauger nicht unterstützt",
-        "Plugin pour controller les équipements Dyson Link (pure link, hot+cool, humidify+cool": "Plugin zur Steuerung von Dyson Link-Geräten (Pure Link, heiß + cool, befeuchten + cool",
         "Dialog flow": "Dialogfluss",
         "Plugin permet de parler à Google Home\/Assistant par le biais des interactions Jeedom": "Das Plugin ermöglicht die Kommunikation mit Google Home \/ Assistant über Jeedom-Interaktionen",
         "Borne Tenda W301A": "Tenda W301A Poller",

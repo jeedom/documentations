@@ -1,7 +1,18 @@
 {
     "id": "dyson",
     "name": "Dyson",
-    "description": "Plugin pour controller les équipements Dyson Link (pure link, hot+cool, humidify+cool...). Pour le moment l'aspirateur n'est pas supporté.",
+    "description": {
+        "fr_FR": "Plugin pour controller les équipements Dyson Link (pure link, hot+cool, humidify+cool...). Pour le moment l'aspirateur n'est pas supporté.",
+        "en_US": "Plugin to control Dyson Link equipment (pure link, hot + cool, humidify + cool ...). For the moment the vacuum cleaner is not supported",
+        "es_ES": "Complemento para controlar el equipo Dyson Link (enlace puro, hot + cool, humidify + cool ...). Por el momento, la aspiradora no es compatible",
+        "de_DE": "Plugin zur Steuerung von Dyson Link-Geräten (Pure Link, Hot + Cool, Befeuchten + Cool ...). Momentan wird der Staubsauger nicht unterstützt",
+        "ru_RU": "",
+        "id_ID": "",
+        "it_IT": "",
+        "ja_JP": "",
+        "pt_PT": "Plugin para controlar o equipamento Dyson Link (link puro, quente + frio, umidificar + frio ...). No momento, o aspirador não é suportado",
+        "tr": ""
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "3.3",
@@ -9,16 +20,13 @@
     "hasDependency": true,
     "hasOwnDeamon": true,
     "maxDependancyInstallTime": 0,
-    "changelog": "https:\/\/doc.jeedom.com\/#language#\/communication\/dyson\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/communication\/dyson\/",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/dyson\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/dyson\/",
     "language": [
         "fr_FR",
         "en_US",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "sp_SP"
     ],
     "compatibility": [
         "miniplus",
@@ -26,6 +34,7 @@
         "rpi",
         "docker",
         "diy",
-        "mobile"
+        "mobile",
+        "v4"
     ]
 }
