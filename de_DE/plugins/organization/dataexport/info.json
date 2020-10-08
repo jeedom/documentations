@@ -1,0 +1,17 @@
+{
+	"id" : "dataexport",
+	"name" : "Data Export",
+	"description" : "Plugin permettant de réaliser des exports d'historique à la demande vers un fichier *.CSV. Il est également possible d'automatiser la réception de fichiers d'export sur le canal de son choix via scénario ou programmation.",
+	"utilization": "Ajoutez un lot d'exportation et définissez les commandes à inclure ainsi que la période souhaitée.\n Cochez la case 'Envoi programmé' pour configurer l'envoi automatique de fichiers d'export ou utilisez la commande 'Envoi Export CSV' dans un scénario.",
+	"licence" : "AGPL",
+	"author" : "Jeedom SAS",
+	"require" : "3.3.39",
+	"category" : "organization",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/dataexport\/changelog",
+	"documentation" : "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/dataexport\/",
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+}
