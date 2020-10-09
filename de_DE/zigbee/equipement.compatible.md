@@ -5,7 +5,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/spirit.valve.png" width="60" />|Eurotronic|Spiritusventil||Das Ventil sendet keine Informationen, um es zu identifizieren. Daher ist es unbedingt erforderlich, den Modultyp in Jeedom nach der Aufnahme manuell einzustellen||
+|<img src="../../de_DE/zigbee/images/spirit.valve.png" width="60" />|Eurotronic|Spiritusventil||Ventil, das dazu neigt, eine Bestellung nicht mehr anzunehmen, es sei denn, sie ist wieder enthalten.||
 
 # GR-SMARTHOME
 
@@ -20,6 +20,12 @@
 |<img src="../../de_DE/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Legrand Kabelausgang||||
 |<img src="../../de_DE/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand Mikromodul||||
 |<img src="../../de_DE/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand Mobilsteckdose Céliane||||
+
+# TZ2000
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|TZ2000|[TS0201] Temperatur / Luftfeuchtigkeit||||
 
 # Danalock
 
@@ -41,22 +47,33 @@
 |<img src="../../de_DE/zigbee/images/on_off.png" width="60" />|Generic|Ein / Aus||Generische Ausrüstung für eine Steckdose oder ein Ein / Aus-Modul||
 |<img src="../../de_DE/zigbee/images/opening.png" width="60" />|Generic|Öffnung / Bewegung||Generisches Gerät zum Öffnen oder Bewegungssensor||
 
+# Icasa
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/icasa.ICZB-IW11D.png" width="60" />|Icasa|[IW11D] AC-Dimmer||||
+|<img src="../../de_DE/zigbee/images/icasa.ICZB-IW11SW.png" width="60" />|Icasa|[IW11SW] Wechselstromschalter||||
+|<img src="../../de_DE/zigbee/images/icasa.ICZB-KPD14S.png" width="60" />|Icasa|[KPD14S] Pulse 4S Wall Controller||||
+|<img src="../../de_DE/zigbee/images/icasa.ICZB-R12D.png" width="60" />|Icasa|[R12D] Rotationsdimmer||||
+|<img src="../../de_DE/zigbee/images/icasa.RGB-CCT.png" width="60" />|Icasa|[RGBCTT] Sunricher RGB||||
+
 # Ikea
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.FYRTUR_roller_blind.png" width="60" />|Ikea|Ikea fyrtur||Für die Aufnahme ist es ratsam, die Jalousie zurückzusetzen (durch Drücken der 2 Tasten, bis die Diode aufleuchtet), dann Jeedom in den Einschlussmodus zu versetzen, die Betarie zu entfernen und die Batterie der Jalousie auszutauschen||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.KADRILJ_roller_blind.png" width="60" />|Ikea|Ikea Kadrilj||Für die Aufnahme ist es ratsam, die Jalousie zurückzusetzen (durch Drücken der 2 Tasten, bis die Diode aufleuchtet), dann Jeedom in den Einschlussmodus zu versetzen, die Betarie zu entfernen und die Batterie der Jalousie auszutauschen||
+|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_motion_sensor.png" width="60" />|Ikea|Ikea Bewegungssensor||||
+|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_onoff_switch.png" width="60" />|Ikea|[e1743] Ikea 2-Tasten-Fernbedienung||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_signal_repeater.png" width="60" />|Ikea|Ikea repeateur||||
-|<img src="../../de_DE/zigbee/images/ikea.e1743.png" width="60" />|Ikea|[e1743] Ikea 2-Tasten-Fernbedienung||||
-|<img src="../../de_DE/zigbee/images/ikea.e1766.png" width="60" />|Ikea|[e1766] Ikea Fernbedienung 2 Tasten speichern||||
+|<img src="../../de_DE/zigbee/images/KE.TRADFRI_openclose_remote.png" width="60" />|Ikea|[e1766] Ikea Fernbedienung 2 Tasten speichern||||
 |<img src="../../de_DE/zigbee/images/ikea.e1810.png" width="60" />|Ikea|[e1810] Ikea 5-Tasten-Fernbedienung||||
-|<img src="../../de_DE/zigbee/images/ikea.motion_sensor.png" width="60" />|Ikea|Ikea Bewegungssensor||||
 
 # Philips
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/Philips.LCA001.png" width="60" />|Philips|[LCA001] Weiß- und Farbambiente||||
 |<img src="../../de_DE/zigbee/images/Philips.SML001.png" width="60" />|Philips|[SML001] Philips Uhrwerk||||
 
 # Sonoff
@@ -83,14 +100,21 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|[ctrl_neutral1] Xiaomi einfacher Schalter ohne Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|[Q8KG03LM] Xioami-Doppelschalter ohne Neutralleiter||||
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.plug.png" width="60" />|Xiaomi|[Stecker] Xiaomi-Buchse||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|[C2ACN01] XIAOMI Aqara LLKZMK11LM Intelligentes Zweiwege-Modul||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|[b286acn01] Xioami-Doppelschalter|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|[mgl01] Lichtsensor||||
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.sensor_cube.png" width="60" />|Xiaomi|||||
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.sensor_ht.png" width="60" />|Xiaomi|[Wetter] Temperatur- / Feuchtigkeitssensor||||
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.sensor_magnet.png" width="60" />|Xiaomi|[Magnet] Xiaomi Öffnungssensor||||
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.sensor_motion.png" width="60" />|Xiaomi|[Bewegung] Xiaomi Bewegungssensor||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|[vibration.aq1] Xioami Aquara Vibration|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
-|<img src="../../de_DE/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|[magnet.aq2] Xiaomi Aquara Tür|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
+||Xiaomi|[Wetter] Temperatur- / Druck- / Feuchtigkeitssensor||||
+|<img src="../../de_DE/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|[magnet.aq2] Xiaomi Aquara Apertursensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../de_DE/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|[motion.aq2] Xiaomi Aquara Bewegung|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
 |<img src="../../de_DE/zigbee/images/lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|[wleak.aq1] Xiaomi Aquara Flut|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
 
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-10-08 00:32:02
+2020-10-09 00:32:03
