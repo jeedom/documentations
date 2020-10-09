@@ -70,6 +70,7 @@
 |<img src="../../de_DE/zwave/images/134.3.139_zw139.nano.switch.jpg" width="60" />|Aeotec|Nano-Schalter (ZW139)|Micromodule|||
 |<img src="../../de_DE/zwave/images/134.3.13_dsc13103.micro.smart.energy.illuminator.jpg" width="60" />|Aeotec|Micro Smart Energy Illuminator (DSC13103))|Micromodule||[Kaufen](http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html)|
 |<img src="../../de_DE/zwave/images/134.3.140_zw140.dual.nano.switch.jpg" width="60" />|Aeotec|Dualer Nano-Schalter (ZW140)|Micromodule|||
+|<img src="../../de_DE/zwave/images/134.3.141_zw141_nano.shutter.jpg" width="60" />|Aeotec|ZW141 Rollladen|Volets|||
 |<img src="../../de_DE/zwave/images/134.3.14_dsc14104_blind.control.switch.jpg" width="60" />|Aeotec|Mikromotor-Controller (DSC14104)|Volets||[Kaufen](http://www.domadoo.fr/fr/peripheriques/284-aeon-labs-micromodule-z-wave-pour-volet-roulant-1220000010864.html)|
 |<img src="../../de_DE/zwave/images/134.3.17_dsc17103_micro.double.switch_g2.jpg" width="60" />|Aeotec|Micro Double Smart Switch (DSC17103))|Micromodule|Praktisch nicht mehr verkauft|[Kaufen](http://www.domadoo.fr/fr/peripheriques/285-aeon-labs-micromodule-commutateur-double-et-compteur-d-energie-1220000010949.html)|
 |<img src="../../de_DE/zwave/images/134.3.18_dsc18103_micro.switch.2nd.edition.jpg" width="60" />|Aeotec|Micro Smart Switch 2. Ausgabe (DSC18103)|Micromodule||[Kaufen](http://www.domadoo.fr/fr/peripheriques/286-aeon-labs-micromodule-commutateur-et-compteur-d-energie-g2-1220000011014.html)|
@@ -88,12 +89,17 @@
 |<img src="../../de_DE/zwave/images/134.4.37_dsd37_range.extender.jpg" width="60" />|Aeotec|Range Extender (DSD37)|Repeater|Modul ohne Funktionalität, außer zur Weitergabe von Netzwerkinformationen|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
 |<img src="../../de_DE/zwave/images/134.4.80_zw080.siren.jpg" width="60" />|Aeotec|Sirene Gen5 (ZW080)|Meerjungfrau||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html)|
 |<img src="../../de_DE/zwave/images/134.514.89_zw089_recessed.door.sensor.jpg" width="60" />|Aeotec|Einbautürsensor Gen5 (ZW089)|Ouverture||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
+|<img src="../../de_DE/zwave/images/881.2.12_zwa012.door7.pro.jpg" width="60" />|Aeotec|Tür- / Fenstersensor 7 Pro (ZWA012)|Ouverture|||
+|<img src="../../de_DE/zwave/images/881.2.19_zwa019.water7.pro.jpg" width="60" />|Aeotec|Wassersensor 7 Pro (ZWA019)|Fuite|||
 |<img src="../../de_DE/zwave/images/881.2.21_zwa021.radiator.thermostat.jpg" width="60" />|Aeotec|Kühlerthermostat|Thermostat|||
 |<img src="../../de_DE/zwave/images/881.2.3_zwa003_nanomote.quad.jpg" width="60" />|Aeotec|NanoMote Quad (ZWA003)|Fernbedienung|||
 |<img src="../../de_DE/zwave/images/881.2.4_zwa004_nanomote.one.jpg" width="60" />|Aeotec|NanoMote One (ZWA004)|Fernbedienung|||
 |<img src="../../de_DE/zwave/images/881.2.5_zwa005_trisensor.jpg" width="60" />|Aeotec|Trisensor (ZWA005)|Multicapteurs|||
 |<img src="../../de_DE/zwave/images/881.2.7_zwa008.door7.jpg" width="60" />|Aeotec|Tür- / Fenstersensor 7 (ZWA008)|Ouverture|||
+|<img src="../../de_DE/zwave/images/881.2.9_zwa009_aerq.jpg" width="60" />|Aeotec|aerQ Temperatur & Luftfeuchtigkeit (ZWA009)|Multicapteurs|||
+|<img src="../../de_DE/zwave/images/881.3.141_zw141_nano.shutter.jpg" width="60" />|Aeotec|ZW141 Rollladen|Volets|||
 |<img src="../../de_DE/zwave/images/881.3.162_zw162_doorbell6.jpg" width="60" />|Aeotec|Türklingel 6 (ZW162)|Meerjungfrau|||
+|<img src="../../de_DE/zwave/images/881.3.164_zw164_siren 6.jpg" width="60" />|Aeotec|Sirene 6 (ZW164)|Meerjungfrau|||
 |<img src="../../de_DE/zwave/images/881.3.175_zw175_switch.jpg" width="60" />|Aeotec|Smart Switch 7 (ZW175)|Prise|||
 |<img src="../../de_DE/zwave/images/881.3.180_zwa006.smart.boost.timer.switch.jpg" width="60" />|Aeotec|Smart Boost Timer Schalter (ZWA006)|Prise|||
 |<img src="../../de_DE/zwave/images/881.3.1_zwa001_led.bulb6.white.jpg" width="60" />|Aeotec|LED-Lampe 6 Multi-Weiß (ZWA001)|Ampoule|||
@@ -304,6 +310,7 @@
 |<img src="../../de_DE/zwave/images/271.1026.4098_fgs212.simple.relay.jpg" width="60" />|Fibaro|FGS-212 Einzelladung|Micromodule|Ersetzt FGS-211|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
 |<img src="../../de_DE/zwave/images/271.1027.4096_fgs213.switch.jpg" width="60" />|Fibaro|FGS-213-Schalter|Micromodule|Szenenbenachrichtigungen werden nicht zurückgesendet, sondern erfordern die Unterstützung von CC Central Scene|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3727-fibaro-micromodule-commutateur-z-wave-fgs-213-5902020528722.html)|
 |<img src="../../de_DE/zwave/images/271.1027.8192_fgs213.switch.jpg" width="60" />|Fibaro|FGS-213-Schalter|Micromodule||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3727-fibaro-micromodule-commutateur-z-wave-fgs-213-5902020528722.html)|
+|<img src="../../de_DE/zwave/images/271.1028.4096_fgs214.simple.relay.jpg" width="60" />|Fibaro|FGS-214 Einzelladung|Micromodule|Ersetzt den FGS-212||
 |<img src="../../de_DE/zwave/images/271.1281.16386_fgbs001.universal.binary.sensor.jpg" width="60" />|Fibaro|Universalrelais FGBS-001|Micromodule||[Kaufen](http://www.domadoo.fr/fr/peripheriques/916-fibaro-detecteur-universel-z-wave-fgbs-001-5902020528074.html)|
 |<img src="../../de_DE/zwave/images/271.1281.257_fgbs001.universal.binary.sensor.jpg" width="60" />|Fibaro|Universalrelais FGBS-001|Micromodule||[Kaufen](http://www.domadoo.fr/fr/peripheriques/916-fibaro-detecteur-universel-z-wave-fgbs-001-5902020528074.html)|
 |<img src="../../de_DE/zwave/images/271.1281.258_fgbs001.universal.binary.sensor.jpg" width="60" />|Fibaro|Universalrelais FGBS-001|Micromodule||[Kaufen](http://www.domadoo.fr/fr/peripheriques/916-fibaro-detecteur-universel-z-wave-fgbs-001-5902020528074.html)|
@@ -373,7 +380,7 @@
 ||Fibaro|FGS-221 Doppelte Last|Micromodule|Dieses Modul wird im Handel durch den FGS-222 ersetzt|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
 ||Fibaro|FGS-222 Doppelte Ladung|Micromodule|Ersetzt den FGS-221|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
 |<img src="../../de_DE/zwave/images/271.515.4096_fgs223.double.switch.jpg" width="60" />|Fibaro|FGS-223 Doppelte Last|Micromodule|In Instanz 1 (Schalter S2) ist eine manuelle Aktualisierung für die Wiederherstellung der Stromversorgung und den S2-Status erforderlich. Szenenbenachrichtigungen werden nicht zurückgesendet, sondern erfordern die Unterstützung von CC Central Scene.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3728-fibaro-micromodule-commutateur-double-z-wave-fgs-223-5902020528661.html)|
-||Fibaro|FGS-223 Doppelte Last|Micromodule|In Instanz 1 (Schalter S2) ist eine manuelle Aktualisierung für die Wiederherstellung der Stromversorgung und den S2-Status erforderlich. Szenenbenachrichtigungen werden nicht zurückgesendet, sondern erfordern die Unterstützung von CC Central Scene.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3728-fibaro-micromodule-commutateur-double-z-wave-fgs-223-5902020528661.html)|
+|<img src="../../de_DE/zwave/images/271.516.4096_fgs224.double.switch.jpg" width="60" />|Fibaro|FGS-224 Doppelte Ladung|Micromodule|||
 |<img src="../../de_DE/zwave/images/271.6145.4096_fgwpg111.uk.wall.plug.jpg" width="60" />|Fibaro|FGWPGE UK Wandstecker Gen5|Prise|||
 |<img src="../../de_DE/zwave/images/271.6657.4096_fgwdseu221.walli.switch.jpg" width="60" />|Fibaro|Walli-Schalter FGWDSEU-221|Micromodule|||
 |<img src="../../de_DE/zwave/images/271.6913.4096_fgwdseu221.walli.switch.jpg" width="60" />|Fibaro|Walli-Schalter FGWDSEU-221|Micromodule|||
@@ -557,6 +564,7 @@
 |<img src="../../de_DE/zwave/images/600.3.4232_ab01z.siren.jpg" width="60" />|Neocoolcam|Sirenenalarm NAS-AB01Z|Meerjungfrau|||
 |<img src="../../de_DE/zwave/images/600.3.4237_nas-pd01zt.jpg" width="60" />|Neocoolcam|PIR-Sensor|Multicapteurs|||
 |<img src="../../de_DE/zwave/images/600.512.4135_nas.wr01ze.power.plug.jpg" width="60" />|Neocoolcam|Smart Power Plug NAS-WR01ZE|Prise|||
+|<img src="../../de_DE/zwave/images/600.512.4140_nas.sc03ze.jpg" width="60" />|Neocoolcam|Vorhangschalter NAS-SC03ZE|Volets|||
 
 # Nodon
 
@@ -747,6 +755,11 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/411.1.1_thermostat.jpg" width="60" />|Thermofloor|Heatit Z-Wave Thermostat|Thermostat||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2731-thermofloor-thermostat-z-wave-heatit-3600w-16a-blanc-7071236011934.html)|
+|<img src="../../de_DE/zwave/images/411.3.515_z-trm3.jpg" width="60" />|Thermofloor|Z-TRM3 Thermostat|Thermostat|||
+|<img src="../../de_DE/zwave/images/411.3.520_Z-Relay.jpg" width="60" />|Thermofloor|Z-Relay|Rail-Din|||
+|<img src="../../de_DE/zwave/images/411.3.522_z-water.jpg" width="60" />|Thermofloor|Z-Water|Rail-Din|||
+|<img src="../../de_DE/zwave/images/411.3.8704_zdim.jpg" width="60" />|Thermofloor|Z-Dim|Micromodule|||
+|<img src="../../de_DE/zwave/images/411.4.516_heatit.ztemp2.thermostat.jpg" width="60" />|Thermofloor|Z-Temp2 Thermostat|Thermostat|||
 
 # Vision Sicherheit
 
@@ -874,4 +887,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-10-08 00:08:27
+2020-10-09 12:14:56
