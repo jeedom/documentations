@@ -63,6 +63,10 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.FYRTUR_roller_blind.png" width="60" />|Ikea|Ikea fyrtur||For inclusion, it is advisable to reset the blind (by pressing the 2 buttons until the diode lights up), then put Jeedom in inclusion mode, remove the betarie and replace the battery of the blind||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.KADRILJ_roller_blind.png" width="60" />|Ikea|Ikea Kadrilj||For inclusion, it is advisable to reset the blind (by pressing the 2 buttons until the diode lights up), then put Jeedom in inclusion mode, remove the betarie and replace the battery of the blind||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|Light RGB||Generic equipment for an RGB light||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WS_400lm.png" width="60" />|Ikea|Light RGB||Generic equipment for an RGB light||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WW_400lm.png" width="60" />|Ikea|Light RGB||Generic equipment for an RGB light||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_control_outlet.png" width="60" />|Ikea|[XXXX] Ikea remote control 2 buttons for socket||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_motion_sensor.png" width="60" />|Ikea|Ikea motion sensor||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_onoff_switch.png" width="60" />|Ikea|[e1743] Ikea 2 button remote control||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_signal_repeater.png" width="60" />|Ikea|Ikea repeateur||||
@@ -109,7 +113,7 @@
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_magnet.png" width="60" />|Xiaomi|[magnet] Xiaomi opening sensor||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_motion.png" width="60" />|Xiaomi|[motion] Xiaomi motion sensor||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|[vibration.aq1] Xioami Aquara Vibration|||[Buy](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
-||Xiaomi|[Weather] Temperature / pressure / humidity sensor||||
+|<img src="../../en_US/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|[Weather] Temperature / pressure / humidity sensor||||
 |<img src="../../en_US/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|[magnet.aq2] Xiaomi Aquara aperture sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../en_US/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|[motion.aq2] Xiaomi Aquara motion|||[Buy](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
 |<img src="../../en_US/zigbee/images/lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|[wleak.aq1] Xiaomi Aquara flood|||[Buy](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
@@ -117,4 +121,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-10-09 00:32:03
+2020-10-10 00:32:07

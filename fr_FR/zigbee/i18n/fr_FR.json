@@ -42,6 +42,9 @@
         "Ikea repeateur": "Ikea repeateur",
         "[e1743] Ikea télécommande 2 boutons": "[e1743] Ikea télécommande 2 boutons",
         "Ikea motion sensor": "Ikea motion sensor",
+        "[XXXX] Ikea télécommande 2 boutons pour prise": "[XXXX] Ikea télécommande 2 boutons pour prise",
+        "Light RGB": "Light RGB",
+        "Equipement générique pour une lumiere RGB": "Equipement générique pour une lumiere RGB",
         "Ikea Kadrilj": "Ikea Kadrilj",
         "Pour l'inclusion il est conseillé de faire une remise à zéro du store (en pressant les 2 boutons jusqu'a ce que la diode s'allume), puis mettre Jeedom en mode inclusion, retirer la betarie et remettre la batterie du store": "Pour l'inclusion il est conseillé de faire une remise à zéro du store (en pressant les 2 boutons jusqu'a ce que la diode s'allume), puis mettre Jeedom en mode inclusion, retirer la betarie et remettre la batterie du store",
         "Ikea Fyrtur": "Ikea Fyrtur",
@@ -55,8 +58,6 @@
         "Equipement générique pour les ouvrants ou capteur de mouvement": "Equipement générique pour les ouvrants ou capteur de mouvement",
         "On\/Off": "On\/Off",
         "Equipement générique pour une prise ou tout module On\/Off": "Equipement générique pour une prise ou tout module On\/Off",
-        "Light RGB": "Light RGB",
-        "Equipement générique pour une lumiere RGB": "Equipement générique pour une lumiere RGB",
         "Danfoss": "Danfoss",
         "eTRV0100] Danfoss Ally": "eTRV0100] Danfoss Ally",
         "Pour réinitialiser la vanne, enlever les piles et les remettre en appuyant sur le bouton jusqu'au second rallumage de l'écran": "Pour réinitialiser la vanne, enlever les piles et les remettre en appuyant sur le bouton jusqu'au second rallumage de l'écran",
@@ -76,6 +77,6 @@
         "Vanne qui a tendance à ne plus accepter d'ordre à moins de la reinclure": "Vanne qui a tendance à ne plus accepter d'ordre à moins de la reinclure",
         "Compatibilité des modules Zigbee": "Compatibilité des modules Zigbee",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-10-09 00": "2020-10-09 00"
+        "2020-10-10 00": "2020-10-10 00"
     }
 }
