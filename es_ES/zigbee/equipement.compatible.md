@@ -108,7 +108,7 @@
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|[C2ACN01] XIAOMI Aqara LLKZMK11LM Módulo inteligente de dos vías||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|[b286acn01] Doble interruptor Xioami|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|[mgl01] Sensor de luz||||
-|<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_cube.png" width="60" />|Xiaomi|||||
+|<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_cube.png" width="60" />|Xiaomi|[Cubo] Cubo||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_ht.png" width="60" />|Xiaomi|[Clima] Sensor de temperatura / humedad||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_magnet.png" width="60" />|Xiaomi|[imán] Sensor de apertura Xiaomi||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_motion.png" width="60" />|Xiaomi|[movimiento] Sensor de movimiento Xiaomi||||
@@ -121,4 +121,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-10-10 00:32:07
+2020-10-11 00:32:06

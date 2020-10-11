@@ -10,6 +10,7 @@
         "[motion] Xiaomi capteur de mouvement": "[motion] Xiaomi capteur de mouvement",
         "[magnet] Xiaomi capteur ouverture": "[magnet] Xiaomi capteur ouverture",
         "[Weather] Capteur de température\/humidité": "[Weather] Capteur de température\/humidité",
+        "[Cube] Cube": "[Cube] Cube",
         "[mgl01] Capteur de luminosité": "[mgl01] Capteur de luminosité",
         "b286acn01] Xioami interrupteur double": "b286acn01] Xioami interrupteur double",
         "[C2ACN01] Xiaomi Aqara LLKZMK11LM Module bidirectionnel Intelligent": "[C2ACN01] Xiaomi Aqara LLKZMK11LM Module bidirectionnel Intelligent",
@@ -77,6 +78,6 @@
         "Vanne qui a tendance à ne plus accepter d'ordre à moins de la reinclure": "Vanne qui a tendance à ne plus accepter d'ordre à moins de la reinclure",
         "Compatibilité des modules Zigbee": "Compatibilité des modules Zigbee",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-10-10 00": "2020-10-10 00"
+        "2020-10-11 00": "2020-10-11 00"
     }
 }

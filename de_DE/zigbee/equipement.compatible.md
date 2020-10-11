@@ -108,7 +108,7 @@
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|[C2ACN01] XIAOMI Aqara LLKZMK11LM Intelligentes Zweiwege-Modul||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|[b286acn01] Xioami-Doppelschalter|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|[mgl01] Lichtsensor||||
-|<img src="../../de_DE/zigbee/images/LUMI.lumi.sensor_cube.png" width="60" />|Xiaomi|||||
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.sensor_cube.png" width="60" />|Xiaomi|[Würfel] Würfel||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.sensor_ht.png" width="60" />|Xiaomi|[Wetter] Temperatur- / Feuchtigkeitssensor||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.sensor_magnet.png" width="60" />|Xiaomi|[Magnet] Xiaomi Öffnungssensor||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.sensor_motion.png" width="60" />|Xiaomi|[Bewegung] Xiaomi Bewegungssensor||||
@@ -121,4 +121,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-10-10 00:32:07
+2020-10-11 00:32:06
