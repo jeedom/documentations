@@ -51,6 +51,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/icasa.ICZB-FC.png" width="60" />|Icasa|[FC] Bombilla Filamant||||
 |<img src="../../es_ES/zigbee/images/icasa.ICZB-IW11D.png" width="60" />|Icasa|[IW11D] Atenuador de CA||||
 |<img src="../../es_ES/zigbee/images/icasa.ICZB-IW11SW.png" width="60" />|Icasa|[IW11SW] Interruptor de CA||||
 |<img src="../../es_ES/zigbee/images/icasa.ICZB-KPD14S.png" width="60" />|Icasa|[KPD14S] Controlador de pared Pulse 4S||||
@@ -78,14 +79,24 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/Philips.LCA001.png" width="60" />|Philips|[LCA001] Ambiente blanco y de color||||
+|<img src="../../es_ES/zigbee/images/Philips.ROM001.png" width="60" />|Philips|[ROM001] Unidad||||
+|<img src="../../es_ES/zigbee/images/Philips.RWL021.png" width="60" />|Philips|||||
 |<img src="../../es_ES/zigbee/images/Philips.SML001.png" width="60" />|Philips|[SML001] Movimiento de Philips||||
+
+# Schneider
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|[591011] Sensor de apertura||!! Atención el módulo no funciona !! La inclusión debe realizarse muy cerca de la clave, de lo contrario, el módulo se desplaza sobre la inclusión||
+|<img src="../../es_ES/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|[592011] Sensor de inundación||!! Atención el módulo no funciona !! La inclusión debe realizarse muy cerca de la clave, de lo contrario, el módulo se desplaza sobre la inclusión||
+|<img src="../../es_ES/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|[PUCK DIMMER 1] Atenuador de disco||||
 
 # Sonoff
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|[BASICZBR3] Sonoff Basic ZBR3|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
-|<img src="../../es_ES/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|[DO01] Sonoff lleva||Si hay un error en el firmware que lo hace subir como módulo de temperatura y humedad, es necesario, después de la inclusión, restablecer el modelo correcto y eliminar los controles de temperatura y humedad|[Comprar](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
+|<img src="../../es_ES/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|[DO01] Sonoff lleva||Atención, hay un error en el firmware que hace que suba como módulo de temperatura y humedad, por lo tanto, después de la inclusión, es necesario restablecer el modelo correcto y quitar los controles de temperatura y humedad|[Comprar](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
 |<img src="../../es_ES/zigbee/images/eWeLink.MS01.png" width="60" />|Sonoff|[MS01] Movimiento Sonoff|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.html)|
 |<img src="../../es_ES/zigbee/images/eWeLink.TH01.png" width="60" />|Sonoff|[TH01] Sonoff Temperatura / humedad|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5260-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30.html)|
 |<img src="../../es_ES/zigbee/images/eWeLink.WB01.png" width="60" />|Sonoff|[WB01] Botón Sonoff|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5259-sonoff-interrupteur-sans-fil-zigbee-30.html)|
@@ -114,6 +125,7 @@
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_motion.png" width="60" />|Xiaomi|[movimiento] Sensor de movimiento Xiaomi||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|[vibration.aq1] Xioami Aquara Vibration|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|[Clima] Sensor de temperatura / presión / humedad||||
+|<img src="../../es_ES/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|[Enchufe] Toma de Xiaomi||||
 |<img src="../../es_ES/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|[magnet.aq2] Sensor de apertura Xiaomi Aquara|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../es_ES/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|[motion.aq2] Movimiento Xiaomi Aquara|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
 |<img src="../../es_ES/zigbee/images/lumi.sensor_switch.png" width="60" />|Xiaomi|||||
@@ -122,4 +134,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-10-12 00:32:03
+2020-10-13 00:32:07

@@ -51,6 +51,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/icasa.ICZB-FC.png" width="60" />|Icasa|[FC] Filamant Bulb||||
 |<img src="../../en_US/zigbee/images/icasa.ICZB-IW11D.png" width="60" />|Icasa|[IW11D] AC dimmer||||
 |<img src="../../en_US/zigbee/images/icasa.ICZB-IW11SW.png" width="60" />|Icasa|[IW11SW] AC switch||||
 |<img src="../../en_US/zigbee/images/icasa.ICZB-KPD14S.png" width="60" />|Icasa|[KPD14S] Pulse 4S Wall Controller||||
@@ -78,14 +79,24 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/Philips.LCA001.png" width="60" />|Philips|[LCA001] White and color ambiance||||
+|<img src="../../en_US/zigbee/images/Philips.ROM001.png" width="60" />|Philips|[ROM001] Drive||||
+|<img src="../../en_US/zigbee/images/Philips.RWL021.png" width="60" />|Philips|||||
 |<img src="../../en_US/zigbee/images/Philips.SML001.png" width="60" />|Philips|[SML001] Philips movement||||
+
+# Schneider
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|[591011] Opening sensor||!! Attention the module does not work !! The inclusion must be done very close to the key otherwise the module loops on the inclusion||
+|<img src="../../en_US/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|[592011] Flood sensor||!! Attention the module does not work !! The inclusion must be done very close to the key otherwise the module loops on the inclusion||
+|<img src="../../en_US/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|[PUCK DIMMER 1] Puck dimmer||||
 
 # Sonoff
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|[BASICZBR3] Sonoff Basic ZBR3|||[Buy](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
-|<img src="../../en_US/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|[DO01] Sonoff wears||Attetion there is a bug in the firmware which makes it go up as a temperature and humidity module so following the inclusion, reset the correct model and remove the temperature and humidity controls|[Buy](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
+|<img src="../../en_US/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|[DO01] Sonoff wears||Attention there is a bug in the firmware which makes it go up as a temperature and humidity module it is therefore necessary following the inclusion to reset the correct model and remove the temperature and humidity controls|[Buy](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
 |<img src="../../en_US/zigbee/images/eWeLink.MS01.png" width="60" />|Sonoff|[MS01] Sonoff movement|||[Buy](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.html)|
 |<img src="../../en_US/zigbee/images/eWeLink.TH01.png" width="60" />|Sonoff|[TH01] Sonoff Temperature / humidity|||[Buy](https://www.domadoo.fr/fr/peripheriques/5260-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30.html)|
 |<img src="../../en_US/zigbee/images/eWeLink.WB01.png" width="60" />|Sonoff|[WB01] Sonoff button|||[Buy](https://www.domadoo.fr/fr/peripheriques/5259-sonoff-interrupteur-sans-fil-zigbee-30.html)|
@@ -114,6 +125,7 @@
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_motion.png" width="60" />|Xiaomi|[motion] Xiaomi motion sensor||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|[vibration.aq1] Xioami Aquara Vibration|||[Buy](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|[Weather] Temperature / pressure / humidity sensor||||
+|<img src="../../en_US/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|[Plug] Xiaomi socket||||
 |<img src="../../en_US/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|[magnet.aq2] Xiaomi Aquara aperture sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../en_US/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|[motion.aq2] Xiaomi Aquara motion|||[Buy](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
 |<img src="../../en_US/zigbee/images/lumi.sensor_switch.png" width="60" />|Xiaomi|||||
@@ -122,4 +134,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-10-12 00:32:03
+2020-10-13 00:32:07
