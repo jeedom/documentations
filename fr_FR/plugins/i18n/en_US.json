@@ -284,7 +284,6 @@
         "En usage combiné avec un Google home il permet de faire le pont avec les interactions et d'avoir un retour vocal, il permet aussi d'utiliser la fonction ask": "In use combined with a Google home it allows to bridge the interactions and to have a voice feedback, it also allows to use the ask function",
         "Plugin permettant de faire parler un device CAST": "Plugin allowing a CAST device to speak",
         "Dialog flow": "Dialog flow",
-        "Plugin permet de parler à Google Home\/Assistant par le biais des interactions Jeedom": "Plugin allows talking to Google Home \/ Assistant through Jeedom interactions",
         "Borne Tenda W301A": "Tenda W301A bollard",
         "Plugin permettant d'utiliser Amazon Alexa (echo, dot...) pour piloter votre Jeedom": "Plugin to use Amazon Alexa (echo, dot ...) to control your Jeedom",
         "Seuls les plugins officiels ont leur documentation ici": "Only official plugins have their documentation here",

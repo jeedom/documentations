@@ -1,6 +1,10 @@
->**IMPORTANT**
+# Changelog Dialog flow
+
+>**Important**
 >
->As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
+>As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+
+- Possibility of activating the automatic rotation of the API key
 
 # 31/03/2020
 

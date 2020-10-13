@@ -16,13 +16,13 @@ Install the plugin and activate it. Then always on the plugin configuration page
 
 ![dialogflow](./images/dialogflow1.png)
 
-> **IMPORTANT**
+> **Important**
 >
 > You don't have to create any equipment for this plugin. Just follow the instructions below.
 
 On the market you must activate "Google Smarthome" in the "My Services" tab".
 
-> **IMPORTANT**
+> **Important**
 >
 > The access url of your jeedom must absolutely be in https
 
@@ -55,4 +55,4 @@ From your Google Home / Assistant, just say "Talk to Jeedom", "Ask Jeedom" or ev
 
 >**Error your Jeedom did not answer correctly ETIMEDOUT code. Something else**
 >
->This comes from your Jeedom which did not respond within the time limit (imposed by Google). It can come from 2 things, a slow internet connection, or actions that take too long..
+>This comes from your Jeedom which did not respond within the allotted time (imposed by Google). It can come from 2 things, a slow internet connection, or actions that take too long.

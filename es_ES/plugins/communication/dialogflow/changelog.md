@@ -1,6 +1,10 @@
->**IMPORTANT**
+# Flujo de diálogo de registro de cambios
+
+>**Importante**
 >
->Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+- Posibilidad de activar la rotación automática de la clave API
 
 # 31/03/2020
 
@@ -8,7 +12,7 @@
 
 # 27/03/2020
 
-- Corrección de un problema de lenguaje.
+- Corrección de un problema de lenguaje
 
 # 01/11/2020
 
@@ -16,7 +20,7 @@
 
 # 15/10/2019
 
-- Envío automático de la configuración al mercado durante la instalación.
+- Envío automático de la configuración al mercado durante la instalación
 
 # 08/13/2019
 

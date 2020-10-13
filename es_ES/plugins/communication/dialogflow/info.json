@@ -1,7 +1,13 @@
 {
     "id": "dialogflow",
     "name": "Dialog flow",
-    "description": "Plugin permet de parler à Google Home\/Assistant par le biais des interactions Jeedom",
+    "description": {
+        "fr_FR": "Plugin permet de parler à Google Home\/Assistant par le biais des interactions Jeedom",
+        "en_US": "Plugin allows talking to Google Home \/ Assistant through Jeedom interactions",
+        "es_ES": "El complemento permite hablar con Google Home \/ Assistant a través de las interacciones de Jeedom",
+        "de_DE": "Das Plugin ermöglicht die Kommunikation mit Google Home \/ Assistant über Jeedom-Interaktionen",
+        "pt_PT": "O plug-in permite conversar com o Google Home \/ Assistant por meio de interações Jeedom"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.0",
@@ -11,17 +17,17 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
-        "Jeedomboard",
-        "Smart",
-        "RPI\/RPI2",
-        "Docker",
-        "DIY"
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
     ]
 }

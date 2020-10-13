@@ -2,11 +2,11 @@
 
 O plug-in de fluxo de diálogo torna possível conectar o Jeedom ao Google Home / Assistant por um aplicativo nativo e interações
 
-> **NOTE**
+> **NOTA**
 >
-> Há também o plug-in do Google Smarthome, que permite conectar o Jeedom ao Google Home / Assistant, mas desta vez para a integração do Google Smarthome, ele não usa interações..
+> Há também o plug-in do Google Smarthome, que permite conectar o Jeedom ao Google Home / Assistant, mas desta vez para a integração do Google Smarthome, ele não usa interações.
 
-> **Important**
+> **IMPORTANTE**
 >
 > O plug-in requer uma assinatura para serviços de voz. Você pode gerenciar sua assinatura [aqui](https://market.jeedom.com/index.php?v=d&p=profils#services)
 
@@ -16,17 +16,17 @@ Instale o plugin e ative-o. Sempre na página de configuração do plug-in, cliq
 
 ![dialogflow](../images/dialogflow1.png)
 
-> **IMPORTANT**
+> **IMPORTANTE**
 >
 > Você não precisa criar nenhum equipamento para este plugin. Basta seguir as instruções abaixo.
 
 No mercado, você deve ativar o "Google Smarthome" na guia "Meus serviços"".
 
-> **IMPORTANT**
+> **IMPORTANTE**
 >
 > O URL de acesso da sua jeedom deve estar absolutamente em https
 
-> **NOTE**
+> **NOTA**
 >
 > Você pode conectar apenas um Jeedom ao Google por conta de mercado
 
@@ -45,7 +45,7 @@ O Google informará que a configuração foi criada / atualizada com sucesso :
 Aqui, o link entre o Jeedom e o Google Home / Assistant é feito.
 
 Agora você pode conversar com seu Jeedom e usar todas as interações do seu Jeedom diretamente do seu Home / Assistente do Google.
-No seu Home / Assistente do Google, basta dizer "Fale com o Jeedom", "Pergunte ao Jeedom" ou até mesmo "Diga ao Jeedom" para iniciar a interação com o Jeedom e "Obrigado" quando terminar a conversa..
+No seu Home / Assistente do Google, basta dizer "Fale com o Jeedom", "Pergunte ao Jeedom" ou até mesmo "Diga ao Jeedom" para iniciar a interação com o Jeedom e "Obrigado" quando terminar a conversa.
 
 # FAQ
 
@@ -55,4 +55,4 @@ No seu Home / Assistente do Google, basta dizer "Fale com o Jeedom", "Pergunte a
 
 >**Erro: seu Jeedom não respondeu corretamente o código ETIMEDOUT. Algo mais**
 >
->Isso vem do seu Jeedom, que não respondeu dentro do prazo (imposto pelo Google). Pode vir de duas coisas, uma conexão lenta à Internet ou ações que demoram muito..
+>Isso vem do seu Jeedom, que não respondeu dentro do tempo previsto (imposto pelo Google). Pode vir de duas coisas, uma conexão lenta à Internet ou ações que demoram muito.
