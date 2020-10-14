@@ -155,6 +155,7 @@
 |<img src="../../de_DE/zwave/images/2.5.373_thermostat.devolo.jpg" width="60" />|Danfoss|Devolo Home Control Kühlerthermostat|Thermostat|||
 |<img src="../../de_DE/zwave/images/2.5.3_thermostat.living.connect.jpg" width="60" />|Danfoss|Living Connect Thermostat|Thermostat||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2495-danfoss-tete-electronique-living-connect-z-wave-lc-13-5013567421497.html)|
 |<img src="../../de_DE/zwave/images/2.5.4_thermostat.014g0013.jpg" width="60" />|Danfoss|Living Connect Thermostat|Thermostat||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2495-danfoss-tete-electronique-living-connect-z-wave-lc-13-5013567421497.html)|
+|<img src="../../de_DE/zwave/images/2.584.40992_rs.room.sensor.jpg" width="60" />|Danfoss|RS Raumsensor|Thermostat||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3069-danfoss-sonde-d-ambiance-z-wave-danfoss-link-rs.html)|
 
 # Devolo
 
@@ -887,4 +888,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-10-13 00:08:21
+2020-10-14 00:08:05

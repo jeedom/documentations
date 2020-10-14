@@ -47,6 +47,12 @@
 |<img src="../../en_US/zigbee/images/on_off.png" width="60" />|Generic|On / off||Generic equipment for a socket or any On / Off module||
 |<img src="../../en_US/zigbee/images/opening.png" width="60" />|Generic|Opening / Motion||Generic equipment for opening or motion sensor||
 
+# Heiman
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|[N-3.0] Smoke sensor||||
+
 # Icasa
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -64,15 +70,26 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.FYRTUR_roller_blind.png" width="60" />|Ikea|Ikea fyrtur||For inclusion, it is advisable to reset the blind (by pressing the 2 buttons until the diode lights up), then put Jeedom in inclusion mode, remove the betarie and replace the battery of the blind||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.KADRILJ_roller_blind.png" width="60" />|Ikea|Ikea Kadrilj||For inclusion, it is advisable to reset the blind (by pressing the 2 buttons until the diode lights up), then put Jeedom in inclusion mode, remove the betarie and replace the battery of the blind||
-|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|Light RGB||Generic equipment for an RGB light||
-|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WS_400lm.png" width="60" />|Ikea|Light RGB||Generic equipment for an RGB light||
-|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WW_400lm.png" width="60" />|Ikea|Light RGB||Generic equipment for an RGB light||
-|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_control_outlet.png" width="60" />|Ikea|[XXXX] Ikea remote control 2 buttons for socket||||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_30W.png" width="60" />|Ikea|Driver 30W||||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|Bulb E14 opal 600lm||||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_CWS_opal_600lm.png" width="60" />|Ikea|Bulb E27 CWS opal 600lm||||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WS_400lm.png" width="60" />|Ikea|Bulb GU10 WS 400lm||||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WW_400lm.png" width="60" />|Ikea|Bulb GU10 WW 400lm||||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_control_outlet.png" width="60" />|Ikea|Ikea socket||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_motion_sensor.png" width="60" />|Ikea|Ikea motion sensor||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_onoff_switch.png" width="60" />|Ikea|[e1743] Ikea 2 button remote control||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_signal_repeater.png" width="60" />|Ikea|Ikea repeateur||||
 |<img src="../../en_US/zigbee/images/KE.TRADFRI_openclose_remote.png" width="60" />|Ikea|[e1766] Ikea remote control 2 buttons store||||
 |<img src="../../en_US/zigbee/images/ikea.e1810.png" width="60" />|Ikea|[e1810] Ikea 5 button remote control||||
+
+# Orvibo
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/fei.34e25a8282064fc1939e5b777d5a805d.png" width="60" />|Orvibo|Emergency button||||
+|<img src="../../en_US/zigbee/images/fei.898ca74409a740b28d5841661e72268d.png" width="60" />|Orvibo|[ST30] Temperature / humidity||||
+|<img src="../../en_US/zigbee/images/fei.b7e305eb329f497384e966fe3fb0ac69.png" width="60" />|Orvibo|Water leak||||
+|<img src="../../en_US/zigbee/images/fei.c3442b4ac59b4ba1a83119d938f283ab.png" width="60" />|Orvibo|Smoke detector||||
 
 # Philips
 
@@ -128,10 +145,10 @@
 |<img src="../../en_US/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|[Plug] Xiaomi socket||||
 |<img src="../../en_US/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|[magnet.aq2] Xiaomi Aquara aperture sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../en_US/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|[motion.aq2] Xiaomi Aquara motion|||[Buy](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
-|<img src="../../en_US/zigbee/images/lumi.sensor_switch.png" width="60" />|Xiaomi|||||
+|<img src="../../en_US/zigbee/images/lumi.sensor_switch.png" width="60" />|Xiaomi|[swtich] Xiaomi Aquara switch||||
 |<img src="../../en_US/zigbee/images/lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|[wleak.aq1] Xiaomi Aquara flood|||[Buy](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
 
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-10-13 00:32:07
+2020-10-14 00:32:11
