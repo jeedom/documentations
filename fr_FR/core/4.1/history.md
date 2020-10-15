@@ -1,7 +1,7 @@
 # Historique
 **Analyse → Historique**
 
-Partie importante dans un logiciel : la partie historisation, véritable mémoire de celui-ci. Il est possible dans Jeedom d’historiser n’importe quelle commande de type information (binaire ou numérique). Cela vous permettra donc par exemple d’historiser une courbe de température, de consommation,  les ouvertures d’une porte, etc.​
+Partie importante dans un logiciel : la partie historisation, véritable mémoire de celui-ci. Il est possible dans Jeedom d’historiser n’importe quelle commande de type information (binaire ou numérique). Cela vous permettra donc par exemple d’historiser une courbe de température, de consommation, les ouvertures d’une porte, etc.​
 
 ![Historique](./images/history.gif)
 
@@ -41,7 +41,7 @@ Si vous affichez un graphique par la page historique, vous avez accès à plusie
 - **Type d'affichage** : Affichage en *Ligne*, *Aire*, ou *Barre*. Option sauvegardée sur la commande et utilisée depuis le Dashboard.
 - **Variation** : Affiche la différence de valeur par rapport au point précédent. Option sauvegardée sur la commande et utilisée depuis le Dashboard.
 - **Escalier** : Permet d’afficher la courbe sous la forme d’un escalier ou d’un affichage continu. Option sauvegardée sur la commande et utilisée depuis le Dashboard.
-- **Comparer** : Permet de comparer la courbe entre différentes périodes. La comparaison s'effectue en fonction de la période affichée. Si la période est d'une semaine, la comparaison se fera sur -1 semaine, -2 semaine, etc.
+- **Comparer** : Permet de comparer la courbe entre différentes périodes. La comparaison s'effectue en fonction de la période affichée. Si la période est d'une semaine, la comparaison se fera sur -1 semaine, -2 semaines, etc.
 
 
 > **Tip**
@@ -70,11 +70,11 @@ La page d’historique donne accès à quelques options supplémentaires
 
 #### Historique calculé
 
-Permet d’afficher une courbe en fonction d’un calcul sur plusieurs commande (vous pouvez à peu prêt tout faire, +-/\* valeur absolue…​ voir documentation PHP pour certaines fonctions).
+Permet d’afficher une courbe en fonction d’un calcul sur plusieurs commandes (vous pouvez à peu près tout faire, +-/\* valeur absolue…​ voir documentation PHP pour certaines fonctions).
 Ex :
 abs(*\[Jardin\]\[Hygrometrie\]\[Température\]* - *\[Espace de vie\]\[Hygrométrie\]\[Température\]*)
 
-Vous avez aussi accès à un gestion de formules de calcul qui vous permet de les sauvegarder pour les ré-afficher plus facilement.
+Vous avez aussi accès à une gestion de formules de calcul qui vous permet de les sauvegarder pour les ré-afficher plus facilement.
 
 > **Tip**
 >
