@@ -26,8 +26,8 @@ Vous trouverez dans cette partie la **liste des scénarios** que vous avez cré�
 Vous disposez d'un moteur de recherche permettant de filtrer l'affichage des scénarios. La touche Echap annule la recherche.
 A droite du champ de recherche, trois boutons que l'on retrouve à plusieurs endroits de Jeedom:
 - La croix pour annuler la recherche.
-- Le dossier ouvert pour déplier tout les panneaux et afficher touts les scénarios.
-- Le dossier fermé pour replier tout les panneaux.
+- Le dossier ouvert pour déplier tous les panneaux et afficher tous les scénarios.
+- Le dossier fermé pour replier tous les panneaux.
 
 Une fois sur la configuration d'un scénario, vous disposez d'un menu contextuel au Clic Droit sur les onglets du scénario. Vous pouvez également utiliser un Ctrl Clic ou Clic Centre pour ouvrir directement un autre scénario dans un nouvel onglet du navigateur.
 
@@ -70,12 +70,12 @@ Dans l’onglet **Général**, on retrouve les paramètres principaux du scénar
 - **Visible** : Permet de rendre visible le scénario (Dashboard).
 - **Objet parent** : Affectation à un objet parent. Il sera alors visible ou non selon ce parent.
 - **Timeout en secondes (0 = illimité)** : La durée d’exécution maximale autorisée pour ce scénario. Au delà de ce temps, l'exécution du scénario est interrompue.
-- **Multi lancement** : Cochez cette case si vous souhaitez que le scénario puisse être lancé plusieurs fois en même temps.
+- **Multi-lancement** : Cochez cette case si vous souhaitez que le scénario puisse être lancé plusieurs fois en même temps.
 >**IMPORTANT**
 >
->Le multilancement marche à la seconde, c'est a dire que si vous avez 2 lancements dans la meme seconde sans la case coché il y aura quand meme 2 lancements du scénario (alors qu'il ne devrait pas). De meme lors de plusieurs lancement dans la meme seconde il se peut que certains lancements perdent les tags. Conclusion il faut ABSOLUEMENT eviter de multiple lancement dans la meme secondes.
+>Le multi-lancement marche à la seconde, c'est-à-dire que si vous avez 2 lancements dans la même seconde sans la case cochée il y aura quand même 2 lancements du scénario (alors qu'il ne devrait pas). De même lors de plusieurs lancements dans la même seconde il se peut que certains lancements perdent les tags. Conclusion il faut ABSOLUMENT éviter de multiples lancements dans la même seconde.
 - **Mode synchrone** : Lance le scénario dans le thread courant au lieu d'un thread dédié. Permet d'augmenter la vitesse de lancement du scénario, mais peut rendre le système instable.
-- **Log** : Le type de log souhaité pour le scénario. Vous pouvez couper les log du scénario ou au contraire le faire apparaître dans Analyse → Temps réel.
+- **Log** : Le type de log souhaité pour le scénario. Vous pouvez couper les logs du scénario ou au contraire le faire apparaître dans Analyse → Temps réel.
 - **Timeline** : Permet de garder un suivi du scénario dans la timeline (voir doc Historique).
 - **Icône** : Permet de choisir une icône pour le scénario en lieu et place de l’icône standard.
 - **Description** : Permet d’écrire un petit texte pour décrire votre scénario.
@@ -88,18 +88,18 @@ Dans l’onglet **Général**, on retrouve les paramètres principaux du scénar
 
 > **Tip Mode programmé**
 >
-> Le mode programmé utilise la syntaxe **Cron**. Vous pourrez par exemple exécuté un scénario toutes les 20 minutes avec  ``*/20 * * * *``, ou à 5h du matin pour régler une multitude de choses pour la journée avec ``0 5 * * *``. Le ? à droite d'une programmation vous permet de régler celle-ci sans être un spécialiste de la syntaxe Cron.
+> Le mode programmé utilise la syntaxe **Cron**. Vous pourrez par exemple exécuter un scénario toutes les 20 minutes avec  ``*/20 * * * *``, ou à 5h du matin pour régler une multitude de choses pour la journée avec ``0 5 * * *``. Le ? à droite d'une programmation vous permet de régler celle-ci sans être un spécialiste de la syntaxe Cron.
 
 ## Onglet Scénario
 
 C’est ici que vous allez construire votre scénario. Après la création du scénario, son contenu est vide, il ne fera donc ... rien. Il faut commencer par **ajouter un bloc**, avec le bouton situé à droite. Une fois un bloc créé, vous pourrez y ajouter un autre **bloc** ou une **action**.
 
 Pour plus de praticité et ne pas avoir à constamment réordonner les blocs dans le scénario, l'ajout d'un bloc se fait après le champ dans lequel se situe le curseur de la souris.
-*Par exemple, si vous avez une dizaine de blocs, et que vous cliquez dans la condition SI du premier bloc, le bloc ajouté le sera après se bloc, au même niveau. Si aucun champ n'est actif, il sera ajouté à la fin du scénario.*
+*Par exemple, si vous avez une dizaine de blocs, et que vous cliquez dans la condition SI du premier bloc, le bloc ajouté le sera après ce bloc, au même niveau. Si aucun champ n'est actif, il sera ajouté à la fin du scénario.*
 
 > **Tip**
 >
-> Dans les conditions et actions, il vaut mieux privilégier les guillemets simples (') au lieu des doubles (").
+> Dans les conditions et actions, il faut mieux privilégier les guillemets simples (') au lieu des doubles (").
 
 > **Tip**
 >
@@ -109,7 +109,7 @@ Pour plus de praticité et ne pas avoir à constamment réordonner les blocs dan
 
 Voici les différents types de blocs disponibles :
 
-- **Si/Alors/Sinon** : Permet de réaliser des actions sous condition(si ceci, alors cela).
+- **Si/Alors/Sinon** : Permet de réaliser des actions sous condition (si ceci, alors cela).
 - **Action** : Permet de lancer des actions simples sans aucune condition.
 - **Boucle** : Permet de réaliser des actions de manière répétitive de 1 jusqu’à un nombre défini (ou même la valeur d’un capteur, ou un nombre aléatoire…​).
 - **Dans** : Permet de lancer une action dans X minute(s) (0 est une valeur possible). La particularité est que les actions sont lancées en arrière-plan, elles ne bloquent donc pas la suite du scénario. C’est donc un bloc non bloquant.
@@ -121,7 +121,7 @@ Chaque bloc a ses options pour mieux les manipuler :
 
 - Sur la gauche :
     - La flèche bidirectionnelle permet de déplacer un bloc ou une action pour les réordonner dans le scénario.
-    - L’œil permet de réduire un bloc (*collapse*) pour réduire son impact visuel. Ctrl Clic sur l’œil les réduis ou affiche tous.
+    - L’œil permet de réduire un bloc (*collapse*) pour réduire son impact visuel. Ctrl Clic sur l’œil les réduit ou affiche tous.
     - La case à cocher permet de désactiver complètement le bloc sans pour autant le supprimer. Il ne sera donc pas exécuté.
 
 - Sur la droite :
@@ -167,21 +167,21 @@ Le bloc Code permet d’exécuter du code php. Il est donc très puissant mais n
         -  ``color`` : ``$option = array('color' => 'couleur en hexadécimal');``
         -  ``slider`` : ``$option = array('slider' => 'valeur voulue de 0 à 100');``
 
-#### Accès aux log
+#### Accès aux logs
 
 -  ``log::add('filename','level','message');``
     - ``filename`` : Nom du fichier de log.
     - ``level`` : [debug], [info], [error], [event].
     - ``message`` : Message à écrire dans les logs.
 
-#### Accès aux scénario
+#### Accès aux scénarios
 
 - ``$scenario->getName();`` : Retourne le nom du scénario courant.
 - ``$scenario->getGroup();`` : Retourne le groupe du scénario.
 - ``$scenario->getIsActive();`` : Retourne l’état du scénario.
 - ``$scenario->setIsActive($active);`` : Permet d’activer ou non le scénario.
     - ``$active`` : 1 actif , 0 non actif.
-- ``$scenario->running();`` : Permet de savoir si le scénario est en cours d'éxécution ou non (true / false).
+- ``$scenario->running();`` : Permet de savoir si le scénario est en cours d'exécution ou non (true / false).
 - ``$scenario->save();`` : Sauvegarde les modifications.
 - ``$scenario->setData($key, $value);`` : Sauvegarde une donnée (variable).
     - ``$key`` : clé de la valeur (int ou string).
@@ -200,8 +200,8 @@ Le bloc Code permet d’exécuter du code php. Il est donc très puissant mais n
 
 ### Bloc Commentaire
 
-Le Bloc commentaire agît différemment quand il est masqué. Ses boutons sur la gauche disparaissent ainsi que le titre du bloc, et réapparaissent au survol. De même, la première ligne du commentaire est affichée en caractères gras.
-Ceci permet d'utiliser ce bloc comme séparation purement visuel au sein du scénario.
+Le Bloc commentaire agit différemment quand il est masqué. Ses boutons sur la gauche disparaissent ainsi que le titre du bloc, et réapparaissent au survol. De même, la première ligne du commentaire est affichée en caractères gras.
+Ceci permet d'utiliser ce bloc comme séparation purement visuelle au sein du scénario.
 
 ### Les Actions
 
@@ -216,7 +216,7 @@ Les actions ajoutées dans les blocs ont plusieurs options :
 
 > **Tip**
 >
-> Suivant la commande sélectionnée, on peut voir d'afficher différents champs supplémentaires.
+> Suivant la commande sélectionnée, on peut voir différents champs supplémentaires affichés.
 
 ## Les substitutions possibles
 
@@ -225,19 +225,19 @@ Les actions ajoutées dans les blocs ont plusieurs options :
 Il existe des déclencheurs spécifiques (autre que ceux fournis par les commandes) :
 
 - ``#start#`` : Déclenché au (re)démarrage de Jeedom.
-- ``#begin_backup#`` : Événement envoyé au début d’une sauvegarde.
-- ``#end_backup#`` : Événement envoyé à la fin d’une sauvegarde.
-- ``#begin_update#`` : Événement envoyé au début d’une mise à jour.
-- ``#end_update#`` : Événement envoyé à la fin d’une mise à jour.
-- ``#begin_restore#`` : Événement envoyé au début d’une restauration.
-- ``#end_restore#`` : Événement envoyé à la fin d’une restauration.
+- ``#begin_backup#`` : Évènement envoyé au début d’une sauvegarde.
+- ``#end_backup#`` : Évènement envoyé à la fin d’une sauvegarde.
+- ``#begin_update#`` : Évènement envoyé au début d’une mise à jour.
+- ``#end_update#`` : Évènement envoyé à la fin d’une mise à jour.
+- ``#begin_restore#`` : Évènement envoyé au début d’une restauration.
+- ``#end_restore#`` : Évènement envoyé à la fin d’une restauration.
 - ``#user_connect#`` : Connexion d'un utilisateur
 
 Vous pouvez aussi déclencher un scénario quand une variable est mise à jour en mettant : #variable(nom_variable)# ou en utilisant l’API HTTP décrite [ici](https://doc.jeedom.com/fr_FR/core/4.1/api_http).
 
 ### Opérateurs de comparaison et liens entre les conditions
 
-Vous pouvez utiliser n’importe lequel des symboles suivant pour les comparaisons dans les conditions :
+Vous pouvez utiliser n’importe lequel des symboles suivants pour les comparaisons dans les conditions :
 
 - ``==`` : Egal à.
 - ``>`` : Strictement supérieur à.
@@ -278,7 +278,7 @@ Un tag est remplacé lors de l’exécution du scénario par sa valeur. Vous pou
 - ``#smonth#`` : Nom du mois. Ex : Janvier.
 - ``#IP#`` : IP interne de Jeedom.
 - ``#hostname#`` : Nom de la machine Jeedom.
-- ``#trigger#`` (deprecié, mieux vaut utiliser ``trigger()``) : Peut être le nom de la commande qui a déclenché le scénario :
+- ``#trigger#`` (déprecié, mieux vaut utiliser ``trigger()``) : Peut être le nom de la commande qui a déclenché le scénario :
     - ``api`` si le lancement a été déclenché par l'API,
     - ``schedule`` si il a été lancé par une programmation,
     - ``user`` si il a été lancé manuellement,
@@ -322,7 +322,7 @@ Plusieurs fonctions sont disponibles pour les équipements :
     -1 : Aucun historique n’existe ou la valeur n’existe pas dans l'historique.
     -2 : La commande n’est pas historisée.
 
-- ``age(commande)`` : Donne l'age en secondes de la valeur de la commande (``collecDate``)
+- ``age(commande)`` : Donne l'âge en secondes de la valeur de la commande (``collecDate``)
     -1 : La commande n’existe pas ou elle n'est pas de type info.
 
 - ``stateChanges(commande,[valeur], période)`` et ``stateChangesBetween(commande, [valeur], start, end)`` : Donnent le nombre de changements d’état (vers une certaine valeur si indiquée, ou au total sinon) sur la période (period=[month,day,hour,min] ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou [expression PHP](http://php.net/manual/fr/datetime.formats.relative.php)).
@@ -361,9 +361,9 @@ Plusieurs fonctions sont disponibles pour les équipements :
 
 - ``name(type,commande)`` : Permet de récupérer le nom de la commande, de l’équipement ou de l’objet. Type : cmd, eqLogic ou object.
 
-- ``lastCommunication(equipment,[format])`` : Renvoie la date de la dernière communication pour l'équipement donnée en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](http://php.net/manual/fr/function.date.php)). Un retour de -1 signifie que l’équipement est introuvable.
+- ``lastCommunication(equipment,[format])`` : Renvoie la date de la dernière communication pour l'équipement donné en paramètre, le 2ème paramètre optionnel permet de spécifier le format de retour (détails [ici](http://php.net/manual/fr/function.date.php)). Un retour de -1 signifie que l’équipement est introuvable.
 
-- ``color_gradient(couleur_debut,couleur_fin,valuer_min,valeur_max,valeur)`` : Renvoi une couleur calculé par rapport à valeur dans l'intervalle couleur_debut/couleur_fin. La valeur doit etre comprise entre valeur_min et valeur_max.
+- ``color_gradient(couleur_debut,couleur_fin,valuer_min,valeur_max,valeur)`` : Renvoie une couleur calculée par rapport à la valeur dans l'intervalle couleur_debut/couleur_fin. La valeur doit être comprise entre valeur_min et valeur_max.
 
 Les périodes et intervalles de ces fonctions peuvent également s'utiliser avec [des expressions PHP](http://php.net/manual/fr/datetime.formats.relative.php) comme par exemple :
 
@@ -396,7 +396,7 @@ Voici des exemples pratiques pour comprendre les valeurs retournées par ces dif
 | ``lastStateDuration(prise,1)``         | Renvoie 3600 : la prise a été allumée pour la dernière fois pendant 3600 secondes (1h)           |
 | ``stateChanges(prise,période)``        | Renvoie 3 : la prise a changé 3 fois d’état pendant la période            |
 | ``stateChanges(prise,0,période)``      | Renvoie 2 : la prise s’est éteinte (passage à 0) deux fois pendant la période                              |
-| ``stateChanges(prise,1,période)``      | Renvoie 1 : la prise s’est allumée (passage à 1) une fois pendant la  période                              |
+| ``stateChanges(prise,1,période)``      | Renvoie 1 : la prise s’est allumée (passage à 1) une fois pendant la période                              |
 | ``lastBetween(#[Salle de bain][Hydrometrie][Humidité]#,Yesterday,Today)`` | Renvoie la dernière température enregistrée hier.                    |
 | ``variable(plop,10)``                  | Renvoie la valeur de la variable plop ou 10 si elle est vide ou n’existe pas                         |
 | ``scenario(#[Salle de bain][Lumière][Auto]#)`` | Renvoie 1 en cours, 0 si arreté et -1 si desactivé, -2 si le scénario n’existe pas et -3 si l’état n’est pas cohérent                         |
@@ -431,10 +431,10 @@ Une boîte à outils de fonctions génériques peut également servir à effectu
 Et les exemples pratiques :
 
 
-| Exemple de fonction                  | Résultat retourné                    |
+| Exemple de fonctions                  | Résultat retourné                    |
 |--------------------------------------|--------------------------------------|
 | ``randText(il fait #[salon][oeil][température]#;La température est de #[salon][oeil][température]#;Actuellement on a #[salon][oeil][température]#)`` | la fonction retournera un de ces textes aléatoirement à chaque exécution.                           |
-| ``randomColor(40,60)``                 | Retourne une couleur aléatoire  proche du vert.
+| ``randomColor(40,60)``                 | Retourne une couleur aléatoire proche du vert.
 | ``trigger(#[Salle de bain][Hydrometrie][Humidité]#)``   | 1 si c’est bien ``#[Salle de bain][Hydrometrie][Humidité]#`` qui a déclenché le scénario sinon 0  |
 | ``triggerValue(#[Salle de bain][Hydrometrie][Humidité]#)`` | 80 si l’hydrométrie de ``#[Salle de bain][Hydrometrie][Humidité]#`` est de 80 %.                         |
 | ``round(#[Salle de bain][Hydrometrie][Humidité]# / 10)`` | Renvoie 9 si le pourcentage d’humidité et 85                     |
@@ -469,13 +469,13 @@ En plus des commandes domotiques, vous avez accès aux actions suivantes :
 - **Retourner un texte/une donnée** (scenario_return) : Retourne un texte ou une valeur pour une interaction par exemple.
 - **Icône** (icon) : Permet de changer l’icône de représentation du scénario.
 - **Alerte** (alert) : Permet d’afficher un petit message d’alerte sur tous les navigateurs qui ont une page Jeedom ouverte. Vous pouvez, en plus, choisir 4 niveaux d’alerte.
-- **Pop-up** (popup) : Permet d’afficher un pop-up qui doit absolument être validé sur tous les navigateurs qui ont une page jeedom ouverte.
+- **Pop-up** (popup) : Permet d’afficher un pop-up qui doit absolument être validé sur tous les navigateurs qui ont une page Jeedom ouverte.
 - **Rapport** (report) : Permet d’exporter une vue au format (PDF,PNG, JPEG ou SVG) et de l’envoyer par le biais d’une commande de type message. Attention, si votre accès Internet est en HTTPS non-signé, cette fonctionnalité ne fonctionnera pas. Il faut du HTTP ou HTTPS signé.
 - **Supprimer bloc DANS/A programmé** (remove_inat) : Permet de supprimer la programmation de tous les blocs DANS et A du scénario.
 - **Evènement** (event) : Permet de pousser une valeur dans une commande de type information de manière arbitraire.
 - **Tag** (tag) : Permet d'ajouter/modifier un tag (le tag n'existe que pendant l'exécution en cours du scénario à la différence des variables qui survivent à la fin du scénario).
 - **Coloration des icônes du dashboard** (setColoredIcon) : permet d'activer ou non la coloration des icônes sur le dashboard.
-- **Export historique** (exportHistory) : permet d'exporter l'historique en csv d'une commande sous forme d'un fichier (envoi par mail par exemple). Vous pouvez mettre plusieures commande (séparé par des &&). La selection de la periode se fait sous la forme :
+- **Export historique** (exportHistory) : permet d'exporter l'historique en csv d'une commande sous forme d'un fichier (envoi par mail par exemple). Vous pouvez mettre plusieures commandes (séparées par des &&). La sélection de la période se fait sous la forme :
   - "-1 month" => -1 mois
   - "-1 day midnight" => -1 jour à minuit
   - "now" => maintenant
