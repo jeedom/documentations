@@ -549,6 +549,7 @@
 |<img src="../../fr_FR/zwave/images/351.2049.12546_mco.home.mh8-fc.thermostat.jpg" width="60" />|Mco|Thermostat MH8-FC-EU|Thermostat||[Acheter](http://www.domadoo.fr/fr/peripheriques/3735-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700212.html)|
 |<img src="../../fr_FR/zwave/images/351.2049.20738_mco.home.mh8-fc.thermostat.jpg" width="60" />|Mco|Thermostat MH8-FC-EU|Thermostat||[Acheter](http://www.domadoo.fr/fr/peripheriques/3735-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700212.html)|
 |<img src="../../fr_FR/zwave/images/351.2050.12546_mco.home.mh8-fc4.thermostat.jpg" width="60" />|Mco|Thermostat MH8-FC4-EU|Thermostat||[Acheter](http://www.domadoo.fr/fr/peripheriques/3736-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700205.html)|
+|<img src="../../fr_FR/zwave/images/351.2051.20738_mco.home.mh8-fc.thermostat.jpg" width="60" />|Mco|Thermostat MH8-FC-EU|Thermostat||[Acheter](http://www.domadoo.fr/fr/peripheriques/3735-mcohome-thermostat-pour-ventilo-convecteur-a-2-tubes-z-wave-mh8-fc-4251295700212.html)|
 |<img src="../../fr_FR/zwave/images/351.2309.513_c02.monitor.jpg" width="60" />|Mco|CO2 Monitor (MH9-CO2-WD)|Multicapteurs||[Acheter](http://www.domadoo.fr/fr/peripheriques/3734-mcohome-capteur-d-humidite-temperature-et-co2-avec-ecran-z-wave-mh9-co2-4251295700229.html)|
 |<img src="../../fr_FR/zwave/images/351.8458.4866_mh.p210.dimmer.jpg" width="60" />|Mco|MH-P210 Mini Energy Dimmer|Micromodule|Vendu sous la marque Zipato|[Acheter](http://www.domadoo.fr/fr/peripheriques/3577-zipato-mini-micromodule-variateur-z-wave-3858890732733.html)|
 
@@ -888,4 +889,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-10-15 00:08:04
+2020-10-16 00:08:05

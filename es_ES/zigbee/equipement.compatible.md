@@ -86,6 +86,9 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/ORVIBO.6c155b46eb9a4dcbb64fb3dd858aa18e.png" width="60" />|Orvibo|[CC10ZW] Controlador RGB||||
+|<img src="../../es_ES/zigbee/images/ORVIBO.82c167c95ed746cdbd21d6817f72c593.png" width="60" />|Orvibo|[CM10ZW] Reproducción multifuncional||||
+|<img src="../../es_ES/zigbee/images/ORVIBO.e82vcb50ccded44a8a1259b0ba53be5f.png" width="60" />|Orvibo|[CD10ZW] Conector del sensor||||
 |<img src="../../es_ES/zigbee/images/fei.34e25a8282064fc1939e5b777d5a805d.png" width="60" />|Orvibo|Boton de emergencia||||
 |<img src="../../es_ES/zigbee/images/fei.898ca74409a740b28d5841661e72268d.png" width="60" />|Orvibo|[ST30] Temperatura / humedad||||
 |<img src="../../es_ES/zigbee/images/fei.b7e305eb329f497384e966fe3fb0ac69.png" width="60" />|Orvibo|Gotera de agua||||
@@ -151,4 +154,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-10-15 00:32:10
+2020-10-16 00:32:03

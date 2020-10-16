@@ -49,6 +49,9 @@
         "Water leak": "Water leak",
         "[ST30] Température\/humidité": "[ST30] Température\/humidité",
         "Emergency button": "Emergency button",
+        "[CD10ZW] Sensor connector": "[CD10ZW] Sensor connector",
+        "[CM10ZW] Multi-functional Replay": "[CM10ZW] Multi-functional Replay",
+        "[CC10ZW] RGB controller": "[CC10ZW] RGB controller",
         "Ikea": "Ikea",
         "[e1810] Ikea télécommande 5 boutons": "[e1810] Ikea télécommande 5 boutons",
         "[e1766] Ikea télécommande 2 boutons store": "[e1766] Ikea télécommande 2 boutons store",
@@ -99,6 +102,6 @@
         "Compatibilité des modules Zigbee": "Compatibilité des modules Zigbee",
         "Attention le module ne marche pas": "Attention le module ne marche pas",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-10-15 00": "2020-10-15 00"
+        "2020-10-16 00": "2020-10-16 00"
     }
 }

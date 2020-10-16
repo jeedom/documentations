@@ -86,6 +86,9 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/ORVIBO.6c155b46eb9a4dcbb64fb3dd858aa18e.png" width="60" />|Orvibo|[CC10ZW] RGB controller||||
+|<img src="../../fr_FR/zigbee/images/ORVIBO.82c167c95ed746cdbd21d6817f72c593.png" width="60" />|Orvibo|[CM10ZW] Multi-functional Replay||||
+|<img src="../../fr_FR/zigbee/images/ORVIBO.e82vcb50ccded44a8a1259b0ba53be5f.png" width="60" />|Orvibo|[CD10ZW] Sensor connector||||
 |<img src="../../fr_FR/zigbee/images/fei.34e25a8282064fc1939e5b777d5a805d.png" width="60" />|Orvibo|Emergency button||||
 |<img src="../../fr_FR/zigbee/images/fei.898ca74409a740b28d5841661e72268d.png" width="60" />|Orvibo|[ST30] Température/humidité||||
 |<img src="../../fr_FR/zigbee/images/fei.b7e305eb329f497384e966fe3fb0ac69.png" width="60" />|Orvibo|Water leak||||
@@ -151,4 +154,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-10-15 00:32:10
+2020-10-16 00:32:03

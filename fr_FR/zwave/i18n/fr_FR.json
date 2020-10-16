@@ -953,8 +953,8 @@
         "MH-P210 Mini Energy Dimmer": "MH-P210 Mini Energy Dimmer",
         "Vendu sous la marque Zipato": "Vendu sous la marque Zipato",
         "CO2 Monitor (MH9-CO2-WD": "CO2 Monitor (MH9-CO2-WD",
-        "Thermostat MH8-FC4-EU": "Thermostat MH8-FC4-EU",
         "Thermostat MH8-FC-EU": "Thermostat MH8-FC-EU",
+        "Thermostat MH8-FC4-EU": "Thermostat MH8-FC4-EU",
         "Thermostat MH7H-WH\/EH": "Thermostat MH7H-WH\/EH",
         "MH-S312 Double": "MH-S312 Double",
         "Equivalent au MH-S412": "Equivalent au MH-S412",
@@ -1292,7 +1292,7 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-10-15 00": "2020-10-15 00"
+        "2020-10-16 00": "2020-10-16 00"
     },
     "zwave\/everspring.AD147-6_-_Miniplug_Dimmer.md": {
         "Everspring Miniplug Dimmer - AD147-6": "Everspring Miniplug Dimmer - AD147-6",
