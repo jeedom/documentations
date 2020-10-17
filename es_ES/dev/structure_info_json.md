@@ -1,6 +1,6 @@
-**Documentación del archivo Info.json**
+**Archivo de documentación info.json**
 
-Integrado desde la versión 3.0 de Jeedom, el archivo **info.json** es obligatorio para el correcto funcionamiento de los complementos y su despliegue adecuado en el mercado Jeedom.
+Integrado desde la versión 3.0 de Jeedom, el archivo **info.json** es obligatorio para el correcto funcionamiento de los complementos y su correcta implementación en Jeedom Market.
 
 El archivo de información.json se guarda en la carpeta / plugin_info / de su complemento.
 
@@ -10,47 +10,47 @@ Los campos marcados con * son campos obligatorios.
 
 Campos                   | Valores                                                                                                                   |
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-Identificación *                     | Identificador único del complemento en el mercado de Jeedom. Debe comenzar con una carta. Sin acentos.                             |
+carné de identidad *                     | Identificador único del complemento en Jeedom Market. Debe comenzar con una letra. Sin acentos.                             |
 nombre *                   | Nombre del complemento.                                                                                                            |
-Descripción *            | Descripción del complemento, tal como aparecerá en el Mercado Jeedom Mínimo 80 caracteres. (`<br/>`para el salto de línea.)                                  |                                                                                     |
-uso                    | Información adicional a la documentación sobre el uso del complemento.                                                    |
+descripción *            | Descripción del complemento, ya que se mostrará en Jeedom Market Mínimo 80 caracteres. (`<br/>`para volver a la línea.)                                  |                                                                                     |
+utilizar                    | Información adicional a la documentación sobre el uso del complemento.                                                    |
 Licencia *                | Tipo de licencia.                                                                                                          |
-autor *                 | Nombre del autor del complemento, tal como se mostrará una vez que el complemento esté instalado, en la información del complemento.         |
+autor *                 | Nombre del autor del complemento, tal como se mostrará después de instalar el complemento, en la información del complemento.         |
 exigir *                | Versión mínima de Jeedom.                                                                                                |
-categoría *               | Categoría de clasificación del complemento en el mercado Jeedom. **Es esencial respetar la nomenclatura de la tabla a continuación** |
-visualización                  | si el complemento utiliza un panel dedicado en el escritorio, es el nombre del archivo principal de este panel.                    |
-Móvil                   | Si el complemento utiliza un panel dedicado en la aplicación web Jeedom, este es el nombre del archivo principal para este panel.   |
-Cambios *              | Enlace HTML al registro de cambios.                                                                                              |
-Documentación *          | Enlace HTML a la documentación del complemento.                                                                                |
-enlace -> video               | Enlace HTML a una presentación de video.                                                                                 |
-enlace -> foro               | Enlace HTML al foro sobre el tema oficial del complemento.                                                                  |
+categoría *               | Categoría de clasificación del complemento en el mercado Jeedom. **Observe la nomenclatura de la siguiente tabla** |
+monitor                  | si el complemento usa un panel dedicado en el escritorio, este es el nombre del archivo principal de este panel.                    |
+móvil                   | Si el complemento utiliza un panel dedicado en la aplicación web Jeedom, este es el nombre del archivo principal de este panel.   |
+registro de cambios *              | Enlace html al registro de cambios.                                                                                              |
+documentación *          | Enlace html a la documentación del complemento.                                                                                |
+enlace -> video               | Enlace html a un video de presentación.                                                                                 |
+enlace -> foro               | Enlace html al foro sobre el tema oficial del complemento.                                                                  |
 idiomas                | Lista de idiomas disponibles para el complemento:francés, inglés, alemán, italiano, español, ruso, indonesio            |
-compatibilidad            | Compatibilidad de complementos: miniplus, inteligente, acoplador, rpi, bricolaje, mobileapp.                                                   |
+compatibilidad            | Compatibilidad de complementos: miniplus, inteligente, ventana acoplable, rpi, bricolaje, mobileapp.                                                   |
 hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
 hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
 maxDependancyInstallTime | Tiempo máximo permitido para la instalación de dependencias, expresado en minutos.                                            |
-problema                    | URL al rastreador de errores si es externo (si no está lleno, recibirá un correo electrónico)
+problema                    | URL del rastreador de errores si es externo (si no se completa, recibirá un correo electrónico)
 
 **Ejemplo** :
 
-[Plugin-template file / plugin_info / info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
+[Archivo plugin-template / plugin_info / info.json](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
 
-**CATEGORÍA NOMENCLATURA**
+**CATEGORÍAS DE NOMENCLATURA**
 
-Mercado de la libertad         | Información.JSON               |
+Mercado Jeedom         | info.json               |
 --------------------- | ----------------------- |
-Comunicación         | Comunicación           |
-Confort               | bienestar                |
+Comunicación         | comunicación           |
+Comodidad               | bienestar                |
 Energía               | energía                  |
-Tiempo                 | clima                 |
-Monitoreo            | Monitoreo              |
-Multimedia            | Multimedia              |
-Naturaleza                | Naturaleza                  |
-Objetos conectados      | dispositivo de comunicación     |
+Pronóstico del tiempo                 | clima                 |
+Vigilancia            | vigilancia              |
+Multimedia            | multimedia              |
+Naturaleza                | naturaleza                  |
+Objetos conectados      | dispositivo de comunicacion     |
 Organización          | organización            |
 Pasarela domótica  | protocolo de domótica|
 Programación         | programación             |
 Protocolo de domótica   | protocolo de automatización     |
 Salud                 | salud                  |
 Seguridad              | seguridad                |
-Automatismo           | automatización          |
+Automatismo           | automatizando          |

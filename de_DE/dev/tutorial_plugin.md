@@ -1,34 +1,34 @@
-# Entwickle auf Jeedom
+# Entwickle dich auf Jeedom
 
-> **Wichtig**
+> **WICHTIG**
 >
-> Dieses Tutorial wurde von ZygOm4t1k geschrieben, dem wir herzlich danken. Sie finden das Original [hier](https://forum.jeedom.com/viewtopic.php?f=27&t=37630#p621495)
+> Dieses Tutorial wurde von ZygOm4t1k geschrieben, dem wir aufrichtig danken. Sie finden das Original [Hier](https://forum.jeedom.com/viewtopic.php?f=27&t=37630#p621495)
 
-In diesem kurzen Tutorial wird erklärt, wie Sie ein Plugin erstellen. Für das Beispiel erstellen wir ein Plugin, das einen Satz von der viedemerde-Site zurückgibt.de (Das Plugin ist skalierbar).
+In diesem kleinen Labor wird erklärt, wie ein Plugin erstellt wird. Für das Beispiel erstellen wir ein Plugin, das einen Satz von der viedemerde-Site zurückgibt.de (Das Plugin kann aktualisiert werden).
 
 Es ersetzt nicht die [offizielle Dokumentation](https://jeedom.github.io/plugin-template/de_DE/)
 
-# Erstellen Sie die Plugin-Basis
+# Erstellen Sie die Basis des Plugins
 
-Zu Beginn müssen Sie einen Namen und eine ID ermitteln (die nicht existieren dürfen)) :
+Zu Beginn müssen Sie einen Namen und eine ID bestimmen (die nicht existieren dürfen) :
 
-- Name : Kacke das Leben
-- Identifikation : vdm
+- Familienname, Nachname : Scheiße das Leben
+- Ich würde : vdm
 
-Laden Sie das Vorlagen-Plugin herunter, um das zu erhalten [Basis](https://github.com/jeedom/plugin-template/archive/master.zip)
+Laden Sie das Vorlagen-Plugin herunter, um das zu erhalten [basierend](https://github.com/jeedom/plugin-template/archive/master.zip)
 
 Entpacken Sie die Datei . Vous obtiendrez un dossier « plugin-template-master » contenant des dossiers 3rparty , core , desktop…
 
-Los geht's.
+Lass uns gehen.
 
-Renommer le dossier « plugin-template-master » In « vdm » (l'id) du plugin.
+Renommer le dossier « plugin-template-master » im « vdm » (l'id) du plugin.
 
 1 / Öffnen Sie die Datei plugin_info / info.json und bearbeiten Sie die.
 
 ````
 {
     "id" : "vdm",
-    "name" : "Kacke das Leben",
+    "name" : "Scheiße das Leben",
     "description" : "Plugin pour récupérer les dernières vdm",
     "licence" : "AGPL",
     "author" : "Zyg0m4t1k",
@@ -43,31 +43,31 @@ Renommer le dossier « plugin-template-master » In « vdm » (l'id) du plugin.
 
 Kopieren Sie den obigen Code und fügen Sie ihn ein.
 
-Ich habe die ID (vdm), den Namen, eine Beschreibung, den Autor und die Kategorie geändert.
+Ich habe die ID (vdm), den Namen, die Beschreibung, den Autor und die Kategorie geändert.
 
-erfordern : Mindestversion von jeedom, um Zugriff auf das Plugin auf dem Markt zu haben.
+benötigen : Mindestversion von jeedom, um Zugriff auf das Plugin auf dem Markt zu haben.
 
 Änderungsprotokoll, Dokumentation, Sprache, Kompatibilität für den Moment null. Ich werde später darauf zurückkommen
 
 2 / Wir werden die Dateien umbenennen, die erforderlich sind, damit das Plugin von Jeedom erkannt wird
 
--   Datei umbenennen ``core/ajax/template.ajax.php`` In ``vdm.ajax.php``
--   Datei umbenennen ``core/class/template.class.php`` In ``vdm.class.php`` und öffnen Sie es, um es zu bearbeiten.
-- Ersetzen Sie ``class template extends eqLogic {`` Von ``class vdm extends eqLogic {``
-- und ``class templateCmd extends cmd`` Von ``class vdmCmd extends cmd``
-- Benennen Sie die Datei core / php / template.inc um.php to core / php / vdm.inc.php
+-   Datei umbenennen ``core/ajax/template.ajax.php`` im ``vdm.ajax.php``
+-   Datei umbenennen ``core/class/template.class.php`` im ``vdm.class.php`` und öffnen Sie es, um es zu bearbeiten.
+- Ersetzen Sie ``class template extends eqLogic {`` durch ``class vdm extends eqLogic {``
+- und ``class templateCmd extends cmd`` durch ``class vdmCmd extends cmd``
+- Benennen Sie die Datei core / php / template.inc um.php in core / php / vdm.inc.php
 - Benennen Sie die Desktop- / PHP- / Vorlagendatei um.PHP zu Desktop / PHP / VDM.PHP und öffne es.
 - Ersetzen Sie ``$plugin = plugin::byId('template');`` Mit ``$plugin = plugin::byId(‘vdm');``
 - Ersetzen Sie ``{% raw %}{{Fügen Sie eine Vorlage hinzu}}{% endraw %}`` Mit ``{% raw %}{{Ausrüstung hinzufügen}}{% endraw %}``
 - Ersetzen Sie ``<legend>{{Mes templates}}</legend>`` Mit ``{% raw %}<legend>{{Mes équipement}}</legend>{% endraw %}``
-- Ersetzen Sie ``{% raw %}{{Gerätename Vorlage}}{% endraw %}`` Mit ``{% raw %}{{Name der Ausrüstung }}{% endraw %}``
-- Ersetzen Sie ``{% raw %}{{Vorlage Parameter 1}}{% endraw %}`` Mit ``{% raw %}{{Einstellungen}}{% endraw %}``
+- Ersetzen Sie ``{% raw %}{{Gerätename Vorlage}}{% endraw %}`` Mit ``{% raw %}{{Ausrüstungsname }}{% endraw %}``
+- Ersetzen Sie ``{% raw %}{{Vorlage Parameter 1}}{% endraw %}`` Mit ``{% raw %}{{Die Einstellungen}}{% endraw %}``
 - Ersetzen Sie ``<?php include_file('desktop', 'template', 'js', 'template');?>`` Mit ``<?php include_file('desktop', vdm, 'js', vdm);?>``
 
 Und sonst nichts, ändern Sie nicht die Linie ``<?php include_file('core', 'plugin.template', 'js');?>``
 
-- Datei umbenennen ``desktop/modal/modal.template.php`` In ``desktop/modal/modal.vdm.php``
-- Datei umbenennen ``desktop/js/template.js`` In ``desktop/js/ vdm.js``
+- Datei umbenennen ``desktop/modal/modal.template.php`` im ``desktop/modal/modal.vdm.php``
+- Datei umbenennen ``desktop/js/template.js`` im ``desktop/js/ vdm.js``
 - Datei öffnen ``plugin_info/install.php``
 
 Und benennen Sie die Funktionen wie folgt um
@@ -103,9 +103,9 @@ Wir aktivieren es und dann Plugins / Monitoring / Vie de Merde
 
 ![image](images/tutorial_vdm_desktop1.png)
 
-Es ist nicht richtig, weil die Farbe der meisten nicht mit der Farbe des Symbols übereinstimmt.
+Es ist falsch, weil die Farbe des Plus nicht mit der Farbe des Symbols übereinstimmt.
 
-Ich öffne die Datei ``desktop/php/desktop.php`` zu korrigieren.
+Ich öffne die Datei ``desktop/php/desktop.php`` korrigieren.
 
 ````
 {% raw %}
@@ -117,7 +117,7 @@ Ich öffne die Datei ``desktop/php/desktop.php`` zu korrigieren.
 {% endraw %}
 ````
 
-Ich ersetze ``color:#94ca02;"`` Von ``color:#00A9EC;"``
+Ich ersetze ``color:#94ca02;"`` durch ``color:#00A9EC;"``
 
 Wir stellen außerdem fest, dass die Texte nicht ausgerichtet sind, sodass wir den Stil der Konfiguration korrigieren (Eigenschaft top)
 
@@ -133,23 +133,23 @@ par
 
 ![image](images/tutorial_vdm_desktop2.png)
 
-Hier ist die Basis fertig. Sie sollten das Asset-Plugin haben, aber im Moment tut es nichts.
+Hier ist die Basis fertig. Sie sollten das Plugin aktiv haben, aber im Moment tut es nichts.
 
-# Bestellungen
+# Die Bestellungen
 
-Der Zweck des Plugins besteht darin, einen zufälligen vdm abzurufen und im Dashboard anzuzeigen.
+Das Ziel des Plugins ist es, einen zufälligen vdm abzurufen und im Dashboard anzuzeigen.
 
-Sie müssen daher einen Befehl vom Typ info erstellen, um diese Informationen zu speichern. Elle sera de sous-type « String » car c'est une chaîne de caractère.
+Es ist daher erforderlich, einen Befehl vom Typ info zu erstellen, um diese Informationen zu speichern. Elle sera de sous-type « String » car c'est une chaîne de caractère.
 
 Für das Beispiel fügen wir einen Befehl hinzu, der die Informationen aktualisiert. Es wird daher ein Aktionstypbefehl und ein anderer Subtyp sein
 
-- Créer un équipement « vdm1 » In cliquant sur le +. Aktivieren Sie es und machen Sie es sichtbar. Wählen Sie ein Objekt aus und die Ausrüstung muss (je nach Objekt) im Dashboard angezeigt werden).
+- Créer un équipement « vdm1 » im cliquant sur le +. Aktivieren Sie es und machen Sie es sichtbar. Wählen Sie einen Artikel aus und die Ausrüstung muss (abhängig vom Artikel) im Dashboard angezeigt werden).
 
-Derzeit werden weder auf der Befehlsregisterkarte s noch im Widget Befehle angezeigt.
+Derzeit werden weder auf den Befehlsregistern noch im Widget Befehle angezeigt.
 
-Öffnen Sie die Datei core / class / vdm.class.PHP und suchen Sie nach der Funktion postSave () (Lesen Sie das Dokument zum Vorlagen-Plugin, falls dies noch nicht geschehen ist)
+Öffnen Sie die Datei core / class / vdm.class.PHP und suchen Sie nach der Funktion postSave () (Lesen Sie das Plugin-Template-Dokument, falls noch nicht fertig)
 
-Wir erstellen die 2 Bestellungen
+Wir erstellen die 2 Befehle
 
 ````
 public function postSave() {
@@ -177,10 +177,10 @@ public function postSave() {
 }
 ````
 
-- Créer un autre équipement « vdm2 » In cliquant sur le +. Auf der Registerkarte Befehle wurden die Befehle angezeigt. Aktivieren Sie es und machen Sie es sichtbar. Wählen Sie ein übergeordnetes Objekt aus und sehen Sie, wie es im Dashboard aussieht.
+- Créer un autre équipement « vdm2 » im cliquant sur le +. Auf der Registerkarte Bestellungen wurden die Bestellungen angezeigt. Aktivieren Sie es und machen Sie es sichtbar. Wählen Sie ein übergeordnetes Objekt aus und sehen Sie, wie es im Dashboard aussieht.
 - Enregistrer le premier équipement « vdm1 » pour créer les commandes. Siehe auch das Rendering im Widget.
 
-Auf der Registerkarte Befehle sollten Sie sehen.
+Auf der Registerkarte Bestellungen sollten Sie sehen.
 
 ![image](images/tutorial_vdm_cmd1.png)
 
@@ -201,7 +201,7 @@ Auf der Registerkarte Befehle sollten Sie sehen.
 {% endraw %}
 ````
 
-Zum Zeitpunkt der Anzeige ist dies das Desktop / js / vdm-Skript.js, das aufgerufen wird und die Funktion addCmdToTable startet.
+Zur Anzeigezeit ist dies das Desktop / js / vdm-Skript.js, das aufgerufen wird und die Funktion addCmdToTable startet.
 
 ````
 {% raw %}
@@ -239,9 +239,9 @@ function addCmdToTable(_cmd) {
 {% endraw %}
 ````
 
-Dies erfolgt automatisch.
+Es passiert automatisch.
 
-Ich möchte die Anzeige- und Protokolloptionen für jede Bestellung hinzufügen.
+Ich möchte die Anzeige- und Verlaufsoptionen für jede Bestellung hinzufügen.
 
 Ich bearbeite den HTML-Code der Tabelle in der Desktop-Datei.PHP durch Hinzufügen einer Spalte ..
 
@@ -258,7 +258,7 @@ Bearbeiten Sie dann den Desktop.js, finde
     if (is_numeric(_cmd.id)) {
 ````
 
-Wir fügen die gewünschten Informationen hinzu.
+Fügen Sie die gewünschten Informationen hinzu.
 
 ````
 {% raw %}
@@ -291,9 +291,9 @@ Hier ist das Rendering.Die Konfigurationsoptionen (Anzeige und Protokoll) sind v
 
 Hier bleibt es, einen zufälligen vdm wiederherzustellen und die Befehle zu verwenden.
 
-# Informationsabruf
+# Informationsrückgewinnung
 
-Um zufällig einen vdm abzurufen.
+Um einen vdm zufällig abzurufen.
 
 ````
 $url = "http://www.viedemerde.fr/aleatoire";
@@ -307,7 +307,7 @@ $divs = $xpath->query('//article[@class="art-panel col-xs-12"]//div[@class="pane
 return $divs[0]->nodeValue ;
 ````
 
-Öffnen Sie die Datei core / class / vdm.class.php und für die Klasse vdm, die von egLogic-Methoden erbt, erstelle ich eine Funktion randomVdm
+Öffnen Sie die Datei core / class / vdm.class.php und für die vdm-Klasse, die von egLogic-Methoden erbt, erstelle ich eine randomVdm-Funktion
 
 ````
 public function randomVdm() {
@@ -323,7 +323,7 @@ public function randomVdm() {
 }
 ````
 
-Jetzt aktualisieren wir den Info-Befehl (Story) mit diesen Informationen, indem wir den Aktionsbefehl (Aktualisieren) starten).
+Jetzt aktualisieren wir den Befehl info (story) mit diesen Informationen, indem wir die Aktion starten (aktualisieren)).
 Immer noch in core / class / vdm.class.PHP für die Klasse vdmCmd verwenden wir die Methode execute
 
 ````
@@ -332,19 +332,19 @@ public function execute($_options = array()) {
 }
 ````
 
-C'est hier qu'on va définir ce qu'il va se passer quand on lance la commande « Rafraîchir ». Die Klasse vdmCmd hat alle Methoden der Klasse cmd (Core jeedom) geerbt)
+C'est Hier qu'on va définir ce qu'il va se passer quand on lance la commande « Rafraîchir ». Die vdmCmd-Klasse hat alle Methoden von der cmd-Klasse (Core jeedom) geerbt)
 
-On vérifie le logicalIdentifikation de la commande lancée und si « refresh » on lance les actions
+On vérifie le logicalIch würde de la commande lancée und si « refresh » on lance les actions
 
 ````
 switch ($this->getLogicalId()) {
-    case 'refresh': // LogicalIdentifikation de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm .
+    case 'refresh': // LogicalIch würde de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm .
     // code pour rafraîchir ma commande
     break;
 }
 ````
 
-Jetzt bleibt die randomVdm-Funktion zu starten() . Dazu rufen wir die eqLogic (Ausrüstung) aus dem Startbefehl ab und starten die Funktion
+Jetzt bleibt die randomVdm-Funktion zu starten() . Dazu stellen wir die eqLogic (das Gerät) aus dem Startbefehl wieder her und starten die Funktion
 
 ````
 $eqlogic = $this->getEqLogic(); // Récupération de l'eqlogic
@@ -357,15 +357,15 @@ On mund à jour la commande « story » avec la variable $info. Wir werden die c
 $eqlogic->checkAndUpdateCmd('story', $info);
 ````
 
-Was am Ende gibt
+Was letztendlich gibt
 
 ````
 public function execute($_options = array()) {
     $eqlogic = $this->getEqLogic(); //récupère l'éqlogic de la commande $this
     switch ($this->getLogicalId()) {    //vérifie le logicalid de la commande
-        case 'refresh': // LogicalIdentifikation de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm .
+        case 'refresh': // LogicalIch würde de la commande rafraîchir que l'on a créé dans la méthode Postsave de la classe vdm .
             $info = $eqlogic->randomVdm();  //On lance la fonction randomVdm() pour récupérer une vdm und on la stocke dans la variable $info
-            $eqlogic->checkAndUpdateCmd('story', $info); // on mund à jour la commande avec le LogicalIdentifikation "story"  de l'eqlogic
+            $eqlogic->checkAndUpdateCmd('story', $info); // on mund à jour la commande avec le LogicalIch würde "story"  de l'eqlogic
             break;
     }
 }
@@ -373,7 +373,7 @@ public function execute($_options = array()) {
 
 Gehen Sie nun zu einem erstellten Gerät und starten Sie den Befehl Aktualisieren. Puis la commande « Histoire » qui doit être à jour.
 
-Im Dashboard werden Informationen angezeigt. Klicken Sie auf das Aktualisierungssymbol, um die Informationen zu ändern
+Im Dashboard werden die Informationen angezeigt. Klicken Sie auf das Aktualisierungssymbol, um die Informationen zu ändern
 
 Wir werden dann die Größe des Widgets definieren und es ein wenig anpassen
 
@@ -383,26 +383,26 @@ Automatisieren Sie dann die Aktualisierung.
 
 Das Plugin ist funktionsfähig, macht aber im Moment nicht viel. Si vous cliquer sur la commande « refresh » , la commande « story » se mund à jour mais sinon rien.
 
-Beachten Sie, dass ich es für die Bestellung mit logischer ID benenne. Und es ist wichtig. Eine eindeutige logische ID pro Gerät (eqLogic) vereinfacht die Arbeit.
+Beachten Sie, dass ich den Befehl mit der logischen ID benenne. Und das ist wichtig. Eine eindeutige logische ID pro Gerät (eqLogic) vereinfacht die Arbeit.
 
-Wir werden nun sehen, wie der Befehl mit den nativen Funktionen des Kerns aktualisiert wird : Crons
+Wir werden nun sehen, wie der Befehl mithilfe der nativen Kernfunktionen aktualisiert wird : Crons
 
-Es gibt mehrere :
+Es gibt mehrere von ihnen :
 
-- cron : jede Minute aktualisieren
-- Cron5 : Alle 5 Minuten aktualisieren
-- Cron15 : Alle 15 Minuten aktualisieren
-- Cron30 : Alle 30 Minuten aktualisieren
-- CronHourly : äh ... jede Stunde
-- CronDaily : gut 1 / Tag
+- cron : jede Minute Erfrischung
+- cron5 : Erfrischung alle 5 Minuten
+- cron15 : Erfrischung alle 15 Minuten
+- cron30 : Erfrischung alle 30 Minuten
+- cronHourly : äh ... jede Stunde
+- cronDaily : ben 1 / Tag
 
-In Anbetracht des Plugins werden wir jede Stunde aktualisieren (lasst uns verrückt sein). Also werden wir die cronHourly-Funktion verwenden().
+Angesichts des Plugins werden wir jede Stunde aktualisieren (lasst uns verrückt sein). Wir werden daher die Funktion cronHourly verwenden().
 
 Wir werden daher die Datei vdm.class öffnen.PHP und Suche
 
 ````
 /*
- * Fonction exécutée automatiquement toutes les heures Von Jeedom
+ * Fonction exécutée automatiquement toutes les heures durch Jeedom
   public static function cronHourly() {
 
   }
@@ -419,7 +419,7 @@ public static function cronHourly() {
 
 Unsere Funktion ist betriebsbereit
 
-Jetzt müssen Sie alle Geräte von unserem Plugin wiederherstellen,
+Jetzt müssen wir alle Geräte unseres Plugins wiederherstellen,
 
 ````
 self::byType('vdm') //array contenant tous les équipements du plugin
@@ -456,10 +456,10 @@ continue;
 $cmd->execCmd();
 ````
 
-Was am Ende gibt
+Was letztendlich gibt
 
 ````
-public static function CronHourly () {
+public static function cronHourly () {
     foreach (self::byType('vdm') as $vdm) {//parcours tous les équipements du plugin vdm
         if ($vdm->getIsEnable() == 1) {//vérifie que l'équipement est actif
             $cmd = $vdm->getCmd(null, 'refresh');//retourne la commande "refresh si elle existe
@@ -472,13 +472,13 @@ public static function CronHourly () {
 }
 ````
 
-Pour tester, dans jeedom , aller dans configuration/moteur de tâches und lancer le cron de class « plugin » fonction « CronHourly ».
+Pour tester, dans jeedom , aller dans configuration/moteur de tâches und lancer le cron de class « plugin » fonction « cronHourly ».
 
-Informationen werden aktualisiert.
+Die Informationen werden aktualisiert.
 
 Es ist gut, aber es passt nicht zu mir. A la création de l'équipement, la commande « story » ne se mund pas à jour.
 
-Also verbessern wir den Code.
+Wir verbessern daher den Code.
 
 Für die Erstellung der Aufträge haben wir die postSave-Methode verwendet(). Wir werden die postUpdate () -Methode verwenden, um die Informationen zu aktualisieren.
 
@@ -495,13 +495,13 @@ Der einfachste Weg, da es nur einen Befehl gibt und dieser in postSave erstellt 
 
 Sie müssen testen, es funktioniert?
 
-Hier ist jedoch eine Alternative, die sich in komplexeren Fällen als nützlicher erweisen kann
+Aber hier ist eine Alternative, die sich in komplexeren Fällen als nützlicher erweisen kann
 
 In der Funktion postUpdate () starten wir die Funktion cronHourly () mit der Geräte-ID
 
 ````
 public function postUpdate() {
-    self::cronHourly($this->getId());// lance la fonction CronHourly avec l'id de l'eqLogic
+    self::cronHourly($this->getId());// lance la fonction cronHourly avec l'id de l'eqLogic
 }
 ````
 
@@ -529,15 +529,15 @@ public static function cronHourly($_eqLogic_id = null) {
 
 Anschließend können Sie die Häufigkeit des Cron entsprechend der Wichtigkeit der Wiederherstellung Ihrer Informationen ändern.
 
-Ich kann Sie nur einladen, sich die Zeit zu nehmen, um auf dieser Seite mehr zu erfahren ==> [hier](https://jeedom.github.io/documentation/phpdoc/index.html)
+Ich kann Sie nur einladen, sich die Zeit zu nehmen, um auf dieser Seite mehr zu erfahren ==> [Hier](https://jeedom.github.io/documentation/phpdoc/index.html)
 
-Und noch besser, um zum Kern-Github zu gehen ==> [hier](https://github.com/jeedom/core/tree/alpha/core/class)
+Und noch besser, um zum Kern-Github zu gehen ==> [Hier](https://github.com/jeedom/core/tree/alpha/core/class)
 
 Setzen Sie Ihre Nase ein, um noch mehr zu meistern .
 
-Das Plugin ist so wie es ist funktionsfähig.
+Das Plugin funktioniert wie es ist.
 
-Ich werde mir die Zeit nehmen, um hinzuzufügen, wie ein benutzerdefiniertes Cron entsprechend der Ausrüstung eingerichtet wird .
+Ich werde mir die Zeit nehmen, um die Möglichkeit hinzuzufügen, einen benutzerdefinierten Cron entsprechend der Ausrüstung einzurichten .
 
 # Das Widget
 
@@ -547,21 +547,21 @@ Wenn Sie nichts berührt haben, die Ausrüstung aktiviert und sichtbar ist, nimm
 
 La commande qui apparaît est la commande «story» de type info , sous-type string
 
-Es ist mir ein Vergnügen, morgens aufzustehen und beim Aufwachen einen Vdm zu lesen. Es erlaubt mir zu sehen, dass es schlimmer ist als ich :D
+Es ist mir ein Vergnügen, morgens aufzuwachen und morgens einen Vdm zu lesen. Es erlaubt mir zu sehen, dass es schlimmer ist als ich :D
 
-Aber ich habe meine Brille nicht und momentan kann ich sie beim Rendern im Widget nicht lesen
+Aber ich habe meine Brille nicht und beim Rendern im Widget kann ich sie nicht lesen
 
-Donc on va changer le style In affectant un template à la commande « story»
+Donc on va changer le style im affectant un template à la commande « story»
 
-Nichts könnte einfacher sein.
+Nichts ist einfacher.
 
-Ich werde sehen ==> [hier](https://github.com/jeedom/core/tree/alpha/core/template/dashboard)
+Ich werde sehen ==> [Hier](https://github.com/jeedom/core/tree/alpha/core/template/dashboard)
 
 Ich suche eine Vorlage für cmd.info.string (unser Befehl ist vom Typ info subtype string) .Nicht schwer, es gibt nur zwei (Standard oder Kachel)
 
 J'applique le template « cmd.info.string.tile.html » à ma commande.
 
-Dafür öffne ich die Datei vdm.class.php , fonction postSave() und j'ajoute le template « tile » pour la commande « story » In appliquant la méthode setTemplate()
+Dafür öffne ich die Datei vdm.class.php , fonction postSave() und j'ajoute le template « tile » pour la commande « story » im appliquant la méthode setTemplate()
 
 ````
 $info = $this->getCmd(null, 'story');
@@ -579,9 +579,9 @@ $info->save();
 
 Aktualisieren Sie das Dasboard.
 
-Es ist besser, aber das Widget nimmt immer die Breite des Dashboards an. Also werden wir korrigieren. Von défaut la largeur du widgund de l'équipement(eqLogic) und la hauteur sont à « auto ».
+Es ist besser, aber das Widget nimmt immer die Breite des Dashboards an. Wir werden daher korrigieren. Durch défaut la largeur du widgund de l'équipement(eqLogic) und la hauteur sont à « auto ».
 
-Wir werden daher die Breite des Widgets (Ausrüstung => eqLogic) mit der von der eqLogic-Klasse geerbten Methode setDisplay () ändern .Wir lassen die Höhe in Auto.
+Wir werden daher die Breite des Widgets (Ausrüstung => eqLogic) mit der von der eqLogic-Klasse geerbten Methode setDisplay () ändern .Wir lassen die Höhe im Auto.
 
 Fügen Sie dazu einfach hinzu
 
@@ -589,9 +589,9 @@ Fügen Sie dazu einfach hinzu
 $this->setDisplay("width","800px");
 ````
 
-Ja aber !! Weil es ein aber gibt. Versuchen Sie, dies in der Funktion postsave () oder postUpdate () hinzuzufügen, ohne die Änderung zu berücksichtigen. Warum ? Lesen Sie das Dokument des Vorlagen-Plugins ==> HIER
+Ja aber !! Weil es ein aber gibt. Versuchen Sie, dies in der Funktion postsave () oder postUpdate () hinzuzufügen, ohne die Änderung zu berücksichtigen. Warum ? Ben muss das Template Plugin doc ==> HIER lesen
 
-Nachdem Sie richtig gelesen haben, wissen Sie, dass Sie die preSave-Methode verwenden müssen()
+Nachdem Sie das richtig gelesen haben, wissen Sie, dass Sie die preSave-Methode verwenden müssen()
 
 ````
 public function preSave() {
@@ -602,13 +602,13 @@ public function preSave() {
 Registrieren Sie Geräte und aktualisieren Sie das Dashboard.
 
 
-# Die Parameter. Die Optionen
+# Einstellungen. Die Optionen
 
-> **Wichtig**
+> **WICHTIG**
 >
->Dies ist ein wichtiges Kapitel, das Sie verstehen müssen, bevor Sie fortfahren.
+>Dies ist ein wichtiges Kapitel und muss verstanden werden, bevor Sie mit dem nächsten fortfahren.
 
-Im Moment verwenden wir daher 3 Klassen des Kerns der Freiheit : EqLogic, cmd, cron . Gehen Sie für Informationen, Wir fügen ein 4. mit dem Klassen-Plugin in der vdm-Datei.PHP, dass Sie öffnen und offen lassen, weil wir es bearbeiten werden .
+Im Moment haben wir daher 3 Klassen aus dem Kern der Jeedom verwendet : EqLogic, cmd, cron . Gehen Sie für Informationen, Wir fügen ein 4. mit dem Klassen-Plugin in der vdm-Datei.PHP, dass Sie öffnen und offen lassen, weil wir es bearbeiten werden .
 
 ````
 $plugin = plugin::byId('vdm'); // appelle la classe plugin du core
@@ -616,13 +616,13 @@ $plugin = plugin::byId('vdm'); // appelle la classe plugin du core
 
 Sie müssen verstehen, dass alles getan wird, um unsere Arbeit zu erleichtern.
 
-Für einen Parameter / eine Option innerhalb des Plugins verwenden wir eine der Methoden der Klasse eqLogic des Kerns : setConfiguration () durch Hinzufügen der gewünschten Parameter. Zum Beispiel :
+Für einen Parameter / eine Option innerhalb des Plugins verwenden wir eine der Methoden der eqLogic-Klasse des Kerns : setConfiguration () durch Hinzufügen der gewünschten Parameter. Beispielsweise :
 
 ````
 $this->setConfiguration("type","mon_type"); // si on veut  définir un paramètre type de valeur mon_type. Comme on a défini la largeur du widgund via la méthode setDisplay()
 ````
 
-Um die Auswahl dem Benutzer zu überlassen, kehren wir zur Desktop-Datei zurück.PHP, die Sie offen gelassen haben, weil Sie diesem TP buchstäblich folgen :D
+Um die Auswahl dem Benutzer zu überlassen, kehren wir zur Desktop-Datei zurück.PHP, die Sie offen gelassen haben, weil Sie diesem TP bis zum Buchstaben folgen :D
 
 Chercher
 
@@ -640,18 +640,18 @@ Speichern Sie und gehen Sie zu einem Plugin-Gerät, das Sie bereits erstellt hab
 
 Dans le champs « Paramètre» d'un équipement, taper « aleatoire » und sauvegarder.
 
-Perfekt ist die Einstellung gespeichert.
+Perfekt wird der Parameter gespeichert.
 
 ![image](images/tutorial_parametre1.png)
 
 
-Es ist einfach, nein? . C'est pourquoi il ne faut surtout pas toucher à cette ligne de code comme indiqué dans le premier menu « test » . Er macht die ganze Arbeit
+Es ist einfach, nein? . C'est pourquoi il ne faut surtout pas toucher à cette ligne de code comme indiqué dans le premier menu « test » . Er ist derjenige, der die ganze Arbeit macht
 
 ````
-<?php include_file('core', 'plugin.template', 'js');?>//Chargement du fichier core/js/plugin.template.js (In partant de la racine du site)
+<?php include_file('core', 'plugin.template', 'js');?>//Chargement du fichier core/js/plugin.template.js (im partant de la racine du site)
 ````
 
-Wenn Sie sich die Desktop-Datei genauer ansehen.PHP vor
+Wenn Sie sich die Desktop-Datei genauer ansehen.PHP gibt es
 
 ````
 <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" /> // retourne l'id(unique) de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getId() ;
@@ -659,13 +659,13 @@ Wenn Sie sich die Desktop-Datei genauer ansehen.PHP vor
 
 ````
 {% raw %}
-<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Name der Ausrüstung}}"/>// retourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getName() ;
+<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Ausrüstungsname}}"/>// retourne le nom de l'eqLogic(équipement) . Qu'on va pouvoir récupérer via $this->getName() ;
 {% endraw %}
 ````
 
 Etc…
 
-Wenn Sie das alles gut verstanden haben, können wir weitermachen. Aber zuerst werden wir die Datei desktop.php ändern
+Wenn Sie all dies aufgenommen haben, können wir weitermachen. Aber zuerst werden wir die Datei desktop.php ändern
 
 ````
 {% raw %}
@@ -681,17 +681,17 @@ Par
 {% endraw %}
 ````
 
-Wichtig : Der Text in geschweiften Klammern entspricht dem Text, der übersetzt wird, wenn Sie das Plugin auf den Markt bringen
+Wichtig : Der Text zwischen geschweiften Klammern entspricht dem Text, der übersetzt wird, wenn Sie das Plugin auf den Markt bringen
 
-Im Übrigen werden wir das Plugin weiterentwickeln, indem wir einen gewünschten vdm-Typ (zufällig oder scharf oder oben) sowie einen personalisierten Cron für jedes Gerät auswählen.
+Im Übrigen werden wir das Plugin entwickeln, indem wir einen gewünschten vdm-Typ (zufällig oder scharf oder oben) sowie einen personalisierten Cron für jedes Gerät auswählen.
 
 # Verwendung von Optionen / Parametern
 
-Um weiter zu gehen und das vorherige Kapitel zu verstehen, überlassen wir es dem Benutzer, einen vdm-Typ auszuwählen (zufällig oder scharf oder oben)
+Um weiter zu gehen und das vorherige Kapitel zu verstehen, lassen wir den Benutzer einen Typ von vdm auswählen (zufällig oder scharf oder oben)
 
 On pourrait le laisser taper dans l'input « Type de vdm » : zufällig oder scharf oder oben, aber wir werden es anders machen, indem wir es über ein Auswahl-Tag auswählen lassen
 
-Wenn Sie alles befolgt haben, sollten Sie in der Datei desktop.php haben
+Wenn Sie alles befolgt haben, was Sie in der Datei desktop.php haben sollten
 
 ````
 {% raw %}
@@ -704,7 +704,7 @@ Wenn Sie alles befolgt haben, sollten Sie in der Datei desktop.php haben
 {% endraw %}
 ````
 
-Was wir ersetzen werden
+Das werden wir durch ersetzen
 
 ````
 {% raw %}
@@ -742,4 +742,4 @@ if($type == "") { //si le paramètre est vide ou n'existe pas
 $url = "http://www.viedemerde.fr/" .$type  ;
 ````
 
-Ändern Sie nun den Wert der Auswahl auf einem Gerät, speichern Sie und gehen Sie zum Dashboard, um zu sehen, was es gibt.
+Ändern Sie nun den Wert der Auswahl für ein Gerät, speichern Sie es und gehen Sie zum Dashboard, um zu sehen, was es gibt.

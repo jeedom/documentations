@@ -1,6 +1,6 @@
 # Documentación del módulo Edisio
 
-Aquí encontrará la documentación que consideramos útil hacer en cierto módulo Edisio.
+Aquí encontrará la documentación que consideramos útil hacer sobre cierto módulo de Edisio.
 
 Como recordatorio, puede encontrar la lista de equipos compatibles [aquí](equipement.compatible.md) y [aquí](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/edisio/) documentación del complemento.
 

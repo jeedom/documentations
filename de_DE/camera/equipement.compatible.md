@@ -5,13 +5,13 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/camera/images/alcatel.portiervideo.jpg" width="60" />|Alcatel|IP_Linkcom / Video-Türöffner||||
+|<img src="../../de_DE/camera/images/alcatel.portiervideo.jpg" width="60" />|Alcatel|IP_Linkcom / Videotür-Einstiegseinheit||||
 
 # Android
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/camera/images/android.ipwebcam.jpg" width="60" />|Android|IP Webcam||||
+|<img src="../../de_DE/camera/images/android.ipwebcam.jpg" width="60" />|Android|IP-Webcam||||
 
 # Axis
 
@@ -62,8 +62,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/camera/images/ebode.ext.jpg" width="60" />|Ebode|Im Freien||||
-|<img src="../../de_DE/camera/images/ebode.mot.hd.jpg" width="60" />|Ebode|Motorisierte HD||||
+|<img src="../../de_DE/camera/images/ebode.ext.jpg" width="60" />|Ebode|Außen||||
+|<img src="../../de_DE/camera/images/ebode.mot.hd.jpg" width="60" />|Ebode|HD motorisiert||||
 |<img src="../../de_DE/camera/images/ebode.mot.jpg" width="60" />|Ebode|Motorisiert||||
 
 # Foscam
@@ -130,20 +130,20 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/camera/images/mustcam.mot.hd.jpg" width="60" />|Mustcam|Motorisierte HD||||
+|<img src="../../de_DE/camera/images/mustcam.mot.hd.jpg" width="60" />|Mustcam|HD motorisiert||||
 
 # Netatmo
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/camera/images/presence.jpg" width="60" />|Netatmo|Presence||Erfordert unbedingt das Netatmo Security Plugin (kostenpflichtig))|[Kaufen](https://www.domadoo.fr/fr/objets-communicants/3855-netatmo-camera-exterieure-de-securite-presence-3700730501866.html)|
-|<img src="../../de_DE/camera/images/welcome.jpg" width="60" />|Netatmo|Welcome||Erfordert unbedingt das Netatmo Security Plugin (kostenpflichtig))|[Kaufen](https://www.domadoo.fr/fr/objets-communicants/3064-netatmo-camera-a-reconnaissance-faciale-welcome-3700730500623.html)|
+|<img src="../../de_DE/camera/images/presence.jpg" width="60" />|Netatmo|Presence||Benötigt unbedingt das Netatmo Security Plugin (kostenpflichtig))|[Kaufen](https://www.domadoo.fr/fr/objets-communicants/3855-netatmo-camera-exterieure-de-securite-presence-3700730501866.html)|
+|<img src="../../de_DE/camera/images/welcome.jpg" width="60" />|Netatmo|Welcome||Benötigt unbedingt das Netatmo Security Plugin (kostenpflichtig))|[Kaufen](https://www.domadoo.fr/fr/objets-communicants/3064-netatmo-camera-a-reconnaissance-faciale-welcome-3700730500623.html)|
 
 # Onvif
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/camera/images/onvif.jpg" width="60" />|Onvif|Onvif||Entdeckung von Onvif-Kameras (Aufmerksamkeit funktioniert nicht immer, keine Garantie möglich)||
+|<img src="../../de_DE/camera/images/onvif.jpg" width="60" />|Onvif|Onvif||Entdeckung von Onvif-Kameras (Vorsicht nicht immer, keine Garantie möglich)||
 
 # Panasonic
 
@@ -219,6 +219,6 @@
 |<img src="../../de_DE/camera/images/zavio.f3115.jpg" width="60" />|Zavio|F3115||||
 
 
-Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
+Diese Liste basiert auf Benutzerfeedback, daher kann das Jeedom-Team nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
 2020-10-17 00:20:02

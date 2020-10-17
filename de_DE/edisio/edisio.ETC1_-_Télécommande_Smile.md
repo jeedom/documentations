@@ -14,7 +14,7 @@
 
 Les télécommandes “Smile” ont un canal, elles sont idéales pour la table de chevet, salle de bain et surtout pour les enfants, car celles-ci sont très robustes grâce au matériau utilisé. Ultra simples et à la fois “fun” elles ont pour but d'être pratiques dans l'habitat. Sie existieren in drei verschiedenen Farben.
 
-Sie lassen sich leicht an die verschiedenen Empfänger anschließen und können daher Ein / Aus-Lichter, variable Lichter, Rollläden, Tore und Garagentore steuern. Erhältlich in 3 Farben.
+Sie lassen sich leicht an verschiedene Empfänger anschließen und können daher Ein- und Ausschalten der Beleuchtung, variable Beleuchtung, Fensterläden, Tore und Garagentore steuern. Erhältlich in 3 Farben.
 
 Darüber hinaus ist die Interaktion mit anderen Protokollen möglich. Sie kann mit Empfängern der Marke Edisio, mit Jeedom, aber auch mit jedem Z-Wave-Empfänger in Ihrem Netzwerk interagieren.
 
@@ -24,23 +24,23 @@ Darüber hinaus ist die Interaktion mit anderen Protokollen möglich. Sie kann m
 -   Klein, diskret und ästhetisch
 -   Benutzerfreundlichkeit und Installation
 
-## Technische Daten
+## Technische Eigenschaften
 
 -   Modultyp : Edisio Sender
--   Versorgung : 3VDC (CR2032 Lithiumbatterie)
+-   Essen : 3VDC (CR2032 Lithiumbatterie)
 -   Kanäle : 1
 -   Funkprotokoll : 868,3 MHz
--   Reichweite im freien Feld : 100M
+-   Geltungsbereich im freien Feld : 100 M.
 -   Betriebstemperatur : -10 ° C + 50 ° C
--   Abmessungen : 65 x 18 mm
--   Schutzart : IP64
+-   Maße : 65 x 18 mm
+-   Stärke des Schutzes : IP64
 
 ![etc1.dimmension](images/etc1/etc1.dimmension.png)
 
 ## Moduldaten
 
--   Machen Sie : Edisio Smart Home
--   Name : ETC1
+-   Kennzeichen : Edisio Smart Home
+-   Familienname, Nachname : ETC1
 -   Referenz : P01 / Y01 / L01
 
 ## Allgemeine Konfiguration
@@ -49,17 +49,17 @@ Informationen zum Konfigurieren des Edisio-Plugins und zum Zuordnen eines Moduls
 
 > **Wichtig**
 >
-> Vergessen Sie nicht, die Option in der Plugin-Konfiguration zu aktivieren, damit Jeedom Ihre Sendermodule automatisch erstellt.
+> Damit Jeedom Ihre Sendermodule automatisch erstellt, vergessen Sie nicht, die Option in der Plugin-Konfiguration zu aktivieren.
 
-### Funktionsplan
+### Betriebsdiagramm
 
 So funktioniert die Fernbedienung :
 
 ![etc1.diagramme](images/etc1/etc1.diagramme.jpg)
 
-### Batteriewechsel
+### Batterie austauschen
 
-Gehen Sie wie folgt vor, um die Batterie Ihrer Fernbedienung auszutauschen :
+Gehen Sie wie folgt vor, um die Batterie in Ihrer Fernbedienung auszutauschen :
 
 ![etc1.remplacement pile](images/etc1/etc1.remplacement-pile.jpg)
 
@@ -67,38 +67,38 @@ Gehen Sie wie folgt vor, um die Batterie Ihrer Fernbedienung auszutauschen :
 
 Die Zuordnung eines Edisio-Senders ist einfach und automatisch. Drücken Sie einfach die Taste auf Ihrer Fernbedienung.
 
-![Befehle](images/etc1/etc1.touche-c.jpg)
+![Aufträge](images/etc1/etc1.touche-c.jpg)
 
-Sobald Sie Ihre zugehörige Ausrüstung haben, sollten Sie diese erhalten :
+Sobald Ihre zugehörige Ausrüstung, sollten Sie diese erhalten :
 
 ![etc1.general](images/etc1/etc1.general.jpg)
 
 ### Commandes
 
-Sobald Ihre Ausrüstung erstellt ist, sollten Sie die mit dem Modul verknüpften Befehle erhalten :
+Sobald Ihre Ausrüstung erstellt wurde, sollten Sie die dem Modul zugeordneten Befehle erhalten :
 
-![Befehle](images/etc1/etc1.commandes.jpg)
+![Aufträge](images/etc1/etc1.commandes.jpg)
 
 Hier ist die Liste der Befehle :
 
 -   bt01 : Mit diesem Befehl können Sie mit Schaltfläche 1 interagieren
--   Batterie : Zeigt den Batteriestatus an
+-   Schlagzeug : Zeigt den Batteriestatus an
 
 ### Informations
 
 Sobald Ihre Ausrüstung mit Jeedom verknüpft ist, stehen verschiedene Informationen zur Verfügung :
 
-![Befehle](images/etc1/etc1.informations.jpg)
+![Aufträge](images/etc1/etc1.informations.jpg)
 
 -   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
 -   Kommunikation : Zeigt die letzte zwischen Jeedom und dem Mikromodul aufgezeichnete Kommunikation an
--   Batterie : Zeigt den Batteriestatus der Batteriemodule an
--   STATUS : Gibt den Status des Moduls zurück
+-   Schlagzeug : Zeigt den Batteriestatus der Batteriemodule an
+-   Status : Gibt den Status des Moduls zurück
 
 ### Utilisation
 
-Sobald Ihre Fernbedienung konfiguriert ist, können Sie mit dem Jeedom-Szenario-Plugin mit Ihrer Fernbedienung auf Jeedom und seinen Geräten interagieren.
+Sobald Ihre Fernbedienung konfiguriert ist, können Sie mit dem Jeedom-Szenario-Plugin mit Ihrer Fernbedienung über Jeedom und seine Geräte interagieren.
 
-> **Notiz**
+> **Hinweis**
 >
-> Die Fernbedienung mit binärer Statusrückmeldung.
+> Die Fernbedienung hat eine binäre Statusrückgabe.

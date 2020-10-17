@@ -10,35 +10,35 @@
 
 ## Summary
 
-The EMV-400 micromodule will allow you to manage a bidirectional motor or electrical equipment. It allows the control of 2 Start / Stop outputs or of an Open / Stop / Close shutter.
+The EMV-400 micromodule will allow you to manage a bidirectional motor or electrical equipment. It allows the control of 2 Start / Stop outputs or an Open / Stop / Close roller shutter.
 
-In addition, interaction with other protocols is possible, it can be controlled by switches and / or remote controls from the Edisio brand, directly from Jeedom, but also by any Z-Wave transmitter on your network.
+In addition, interaction with other protocols is possible, it can be controlled by Edisio brand switches and / or remote controls, directly from Jeedom, but also by any Z-Wave transmitter in your network.
 
-Each Edisio module on the electrical network, with the possibility of operating as a wireless repeater with the other modules, in order to ensure total coverage of your home.
+Each Edisio module on an electrical network, has the possibility of functioning as a wireless repeater with the other modules, in order to ensure total coverage of your home.
 
-Finally, each module can be used in remote mode, it is very practical because it allows to associate a transmitter without having to access the receiver.
+Finally, each module can be used in remote mode, which is very practical because it allows a transmitter to be associated without having to access the receiver.
 
-> **IMPORTANT**
+> **Important**
 >
-> Neutral is only necessary for "Shutter" mode"
+> Neutral is only necessary for "Shutter mode"
 
 ## Fonctions
 
--   2 relay outputs supplied
--   Installs in a 55mm flush-mounted box or directly in the sash boxes
+-   2 relay outputs powered
+-   Installs in a 55mm flush-mounting box or directly in the opening boxes
 -   Mode of use: On / Off, Open / Stop / Close
--   Compatible with electronic and mechanical limit switches
+-   Compatible with electronic and mechanical limit switch motors
 -   Remote mode
 -   Timer function: On / Off mode: 30min or 60min
 -   Signal replica (repeater)
 -   Bidirectional micromodule
--   Low transmitter battery level
+-   Transmitter low battery level
 -   Small, discreet and aesthetic
 -   Ease of use and installation
 
 ## Technical characteristics
 
--   Type of module: Edisio receiver
+-   Type of module: Edisio Receiver
 -   Alimentation: 230VAC, 50Hz
 -   Wiring: 4 wires, 2 for controls and 2 for power
 -   Frequency: 868.3 MHz
@@ -53,77 +53,77 @@ Finally, each module can be used in remote mode, it is very practical because it
 ## Module data
 
 -   Mark : Edisio Smart Home
--   Name : EMV-400
+-   Last name : EMV-400
 
 ## General configuration
 
-To configure the Edisio plugin and associate a module with Jeedom, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/edisio/).
+To configure the Edisio plugin and associate a module with Jeedom, refer to this [documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/edisio/).
 
-> **IMPORTANT**
+> **Important**
 >
-> For Jeedom to automatically create your transmitter modules, don't forget to activate the option in the plugin configuration.
+> So that Jeedom automatically creates your transmitter modules, don't forget to activate the option in the plugin configuration.
 
-> **IMPORTANT**
+> **Important**
 >
 > Conversely, Edisio receivers must be created manually in Jeedom.
 
-### DIP Switch and button "R"
+### DIP Switch and "R" button"
 
 ![bouton association](images/emv.400/bouton_association.jpg)
 
--   The DIP Switch will allow you to adjust the parameters (Repeater / Shutter mode / lighting / Timer) of the module:
+-   The DIP Switch will allow you to adjust the parameters (Repeater / Shutter mode / Lighting / Timer) of the module:
 
 ![dip switch](images/emv.400/dip_switch.jpg)
 
-> **NOTE**
+> **Note**
 >
-> To avoid unnecessary redundancies, never activate the "Repeater" mode on all receivers, maximum of 5 receivers per installation.
+> In order to avoid unnecessary redundancies, never activate the "Repeater" mode on all the receivers, 5 receivers at most per installation.
 
--   The button "R", will allow to associate a transmitter to the receiver, to activate or deactivate the timer function and to activate the remote mode :
+-   The "R" button will allow you to associate a transmitter with the receiver, to activate or deactivate the timer function and to activate the remote mode :
 
 ![bouton r](images/emv.400/bouton_r.jpg)
 
-> **NOTE**
+> **Note**
 >
 > Pressing R 3x activates the remote mode.
 
-### Function diagram
+### Operating diagram
 
-Depending on whether your transmitter is configured in "1 key" or "2 keys" mode, here is how the module works:
+Depending on whether your transmitter is configured in "1-button" or "2-button" mode, this is how the module works:
 
-> **NOTE**
+> **Note**
 >
-> Refer to the manufacturer's documentation in order to configure your transmitter.
+> Refer to the manufacturer's documentation, in order to configure your transmitter.
 
 ![diagramme](images/emv.400/diagramme.jpg)
 
 ### Timer function
 
-The timer function automatically switches off the relays after 30 or 60 minutes.
+The timer function allows the relays to switch off automatically after 30 or 60 minutes.
 
-> **NOTE**
+> **Note**
 >
-> This function is only used in "Lighting" mode"
+> This function is only used in "Lighting"
 
-## The "Shutter" mode"
+## The "Shutter"
 
-The "Shutter" mode allows you to control a bidirectional electronic and mechanical limit switch from a distance.
+The "Shutter" mode is used to control a bidirectional motor with electronic and mechanical limit switch remotely.
 
-> **IMPORTANT**
+> **Important**
 >
-> Neutral is required
+> Neutral is necessary
 
-### Electrical configuration and connections
+### Configuration and electrical connections
 
 ![mode moteur](images/emv.400/mode_moteur.jpg)
 
-> **IMPORTANT**
+> **Important**
 >
-> In order for the module to be in "Shutter" mode, the DIP Switch 2 must be at the bottom
+> In order for the module to be in "Shutter" mode, DIP Switch 2 must be at the bottom
 
-> **IMPORTANT**
+> **Important**
 >
-> NEVER CONNECT UNDER VOLTAGE
+> NEVER CONNECT WITH LIVE
 
 ### Creation of the module in Jeedom
 
@@ -131,15 +131,15 @@ To associate an Edisio receiver module with Jeedom, you must manually create a d
 
 ![ajout equip](images/emv.400/ajout_equip.jpg)
 
-Once your equipment is created, you should get this :
+Once you've created your gear, you should get this :
 
 ![crea equip](images/emv.400/crea_equip.jpg)
 
-> **NOTE**
+> **Note**
 >
 > Remember to activate your new equipment.
 
-In the list of equipment, on the right, select "Micro-module shutter
+In the list of equipment, on the right, select "Shutter micro-module
 roulant" :
 
 ![infos equip](images/emv.400/infos_equip.jpg)
@@ -148,81 +148,81 @@ roulant" :
 
 Once your equipment is saved, you should get the commands associated with the module :
 
-![Commands](images/emv.400/commande.jpg)
+![Orders](images/emv.400/commande.jpg)
 
 Here is the list of commands :
 
--   State : This is the command that simulates the return of status
+-   State : This is the command that simulates the status feedback
 -   Ascend : This is the command that opens the shutter
--   STOP : It is the command which makes it possible to stop the movement of the shutter
+-   Stop : This is the command that stops the movement of the shutter
 -   Go down : This is the command that closes the shutter
 -   E : This is the command that allows you to use the remote mode
 
-> **IMPORTANT**
+> **Important**
 >
-> Status feedback is simulated by Jeedom. Therefore, if you use another transmitter, Jeedom will not be able to update the receiver status.
+> Status feedback is simulated by Jeedom. Therefore, if you use another transmitter, Jeedom will not be able to update the status of the receiver.
 
 ### Informations
 
 Once your equipment is associated with Jeedom, various information will be available :
 
-![Commands](images/emv.400/infos_moteur.jpg)
+![Orders](images/emv.400/infos_moteur.jpg)
 
--   Creation : Indicates the date on which the equipment was created
+-   Creation : Indicates the date on which the equipment to was created
 -   Communication : Indicates the last communication recorded between Jeedom and the micro-module
--   Drums : Indicates the battery status for battery modules
--   STATUS : Returns the status of the module
+-   Drums : Indicates battery status for battery modules
+-   Status : Returns the status of the module
 
 ## Association of the micromodule with Jeedom
 
-So that you can interact with Jeedom, as if it were an Edisio transmitter.
+So that you can interact with Jeedom, as if it was an Edisio transmitter.
 
-> **NOTE**
+> **Note**
 >
 > One of the big advantages of Edisio is that a receiver can have several associated transmitters
 
 ### Standard method
 
-Each output must be associated with a Jeedom command:
+Each output is associated with a Jeedom command:
 
 -   Associate output 1 :
-    -   Press 1x on the "R" of the receiver, a single beep (short in repetition) signals the programming of output 1 activated.
-    -   Within 10 seconds, press "Test" on the "Open" command in Jeedom, a continuous beep signals the association of output 1 with Jeedom.
-    -   Within 10 sec, press "R" on the receiver again, to confirm the association, the beep stops.
+    -   Press 1x on the "R" of the receiver, a single beep (short in repetition) indicates the programming of output 1 activated.
+    -   Within 10 seconds, press "Test" on the "Open" command in Jeedom, a continuous beep indicates the association of output 1 with Jeedom.
+    -   Within 10 seconds, press "R" on the receiver again, to validate the association, the beep stops.
 -   Associate output 2 :
-    -   Press 2x on the "R" of the receiver, double beep (short in repetition) signals the programming of output 2 activated.
-    -   Within 10 seconds, press "Test" on the "Close" command in Jeedom, a continuous beep signals the association of output 2 with Jeedom.
-    -   Within 10 sec, press "R" on the receiver again, to confirm the association, the beep stops.
+    -   Press twice on the "R" of the receiver, double beep (short in repetition) indicates the programming of output 2 activated.
+    -   Within 10 seconds, press "Test" on the "Close" command in Jeedom, a continuous beep signals the association of output 2 to Jeedom.
+    -   Within 10 seconds, press "R" on the receiver again, to validate the association, the beep stops.
 
-> **NOTE**
+> **Note**
 >
 > There is no need to associate the "Stop" command, it is done automatically.
 
 ### Remote method
 
-We talked about it at the beginning of this documentation, in the case of modules already embedded in false ceilings or even attics. This method allows the addition of a new transmitter without accessing the "R" of the receiver.
+We talked about this at the start of this documentation, in the case of modules already built into false ceilings or even attics. This method allows the addition of a new transmitter without accessing the "R" of the receiver.
 
 -   Associate the button "R" :
-    -   Press 3x on "R" on the receiver, triple beep (short in repetition) signals the active programming mode.
-    -   Within 10 seconds, press "Test" on the "E" command in Jeedom, a continuous beep signals the association with Jeedom.
-    -   Within 10 sec, press "E" on the receiver again, to confirm the association, the beep stops.
+    -   Press 3x on "R" on the receiver, triple beep sound (short in repetition) indicates the programming mode activated.
+    -   Within 10 sec, press "Test" of the "E" command in Jeedom, a continuous beep signals the association to Jeedom.
+    -   Within 10 sec, press "E" on the receiver again, to validate the association, the beep stops.
 
 It's done, your Jeedom is now associated and its command "E"
 now replaces the "R" button on the receiver.
 
 -   Associate a new transmitter with a receiver with Jeedom already associated :
     -   Exit 1 :
-        -   Press 1x on "Test" command "E" in Jeedom, single beep (short in repetition) signals the programming of output 1 activated.
-        -   Within 10 seconds, press one of the "C" keys on the new transmitter to be associated, a continuous beep signals the association of output 1.
-        -   Within 10 seconds, press "Test" again on the "E" command in Jeedom, to confirm the association, the beep stops.
+        -   Press 1x on "Test" the "E" command in Jeedom, a single beep (short in repetition) indicates the programming of output 1 activated.
+        -   Within 10 seconds, press one of the "C" keys of the new transmitter to be associated, a continuous beep indicates the association of output 1.
+        -   Within 10 seconds, press again on "Test" of the "E" command in Jeedom, to validate the association, the beep stops.
     -   Exit 2 :
-        -   Press 2x on "Test" of the "E" command in Jeedom, double beep (short in repetition) signals the programming of output 2 activated.
-        -   Within 10 seconds, press one of the "C" keys on the new transmitter to be associated, a continuous beep signals the association of output 2.
-        -   Within 10 seconds, press "Test" again on the "E" command in Jeedom, to confirm the association, the beep stops.
+        -   Press 2x on "Test" of the "E" command in Jeedom, double beep sound (short in repetition) indicates the programming of output 2 activated.
+        -   Within 10 seconds, press one of the "C" keys of the new transmitter to be associated, a continuous beep indicates the association of output 2.
+        -   Within 10 seconds, press again on "Test" of the "E" command in Jeedom, to validate the association, the beep stops.
 
-> **NOTE**
+> **Note**
 >
-> You can repeat as many times as you want to associate transmitters with the receiver
+> You can start over as many times as you want to associate transmitters with the receiver
 
 ## Alternative visual
 
@@ -230,6 +230,6 @@ now replaces the "R" button on the receiver.
 
 ## Faq.
 
-**How to clear receiver memory ?**
+**How to clear the receiver's memory ?**
 
-Press and hold the "R" for 10 seconds, until the continuous beep sound.
+Press and hold 10 sec on the "R", until the continuous beep.
