@@ -890,15 +890,32 @@ Lancer la Regénération de la détection du nœud depuis l’onglet Actions du 
 
 Si vous avez plusieurs modules dans ce cas de figure, lancer **Regénérer la détection de nœuds inconnues** depuis l’écran **Réseau ZWave** onglet **Actions**.
 
-## Mon module est présumé mort par le controleur Dead
+## Mon module est défaillant ou présumé Dead (mort) par le controleur
 
 ![troubleshooting02](./images/troubleshooting02.png)
 
 Si le module est toujours branché et joignable, suivre les solutions proposées dans l’écran du module.
 
-Si le module a été décommissionné ou est réellement défectueux, vous pouvez l’exclure du réseau en utilisant **supprimer le nœud en erreur** via onglet **Actions**.
+Si le module est parti en réparation et un nouveau module de remplacement a été livré ou acheté, vous pouvez remplacer  le noeud en échec de deux façons différentes pour refaire l’inclusion d'un module sans perdre vos scénarios, widgets et historiques de valeur :
 
-Si le module est parti en réparation et un nouveau module de remplacement a été livré, vous pouvez lancer **Remplacer nœud en échec** via onglet **Actions**, le contrôleur déclenche l’inclusion puis vous devez procéder à l’inclusion sur le module. L’id de l’ancien module sera conservé ainsi que ses commandes.
+1. Si le module est présumé "Dead" :
+-   Noter (copie écran) vos valeurs de paramètres, elles seront perdues suite à l’inclusion
+-   Aller sur l’onglet **Actions** du module et lancez la commande **Remplacer noeud en échec**
+-   Le contrôleur est en mode inclusion, procéder à l’inclusion selon la documentation du module
+-   Remettre vos paramètres spécifiques
+
+2. Si le module n’est pas présumé "Dead" mais est toujours accessible :
+-   Dans la configuration ZWave, décocher l’option **Supprimer automatiquement les périphériques exclus**
+-   Noter (copie écran) vos valeurs de paramètres, elles seront perdues suite à l’inclusion
+-   Exclure le module défaillant
+-   Aller sur la page de configuration du module défaillant
+-   Ouvrir la page du plugin ZWave dans un nouvel onglet
+-   Faire l’inclusion du module
+-   Copier l’ID du nouveau module, puis supprimer cet équipement
+-   Retourner sur l’onglet de l’ancien module puis coller le nouvel ID à la place de l’ancien ID
+-   Remettre vos paramètres spécifiques
+
+Si le module a été décommissionné ou est réellement défectueux et que vous ne souhaitez pas conserver ses paramètres, vous pouvez l’exclure du réseau en utilisant **Supprimer le nœud en erreur** via onglet **Actions**.
 
 ## Comment utiliser la commande SwitchAll
 
@@ -974,29 +991,6 @@ Voici différentes étapes pour y arriver sans perdre vos scénarios, widgets et
 -   11\) Répéter les étapes 7 à 11 pour chaque module à transférer.
 -   12\) A la fin, vous ne devriez plus avoir d’équipement en ID 0.
 -   13\) Vérifier que tous les modules sont bien nommés dans l’écran de santé Z-Wave. Lancer la Synchronisation si ce n’est pas le cas.
-
-## Remplacer un module defaillant
-
-Comment refaire l’inclusion d’un module défaillant sans perdre vos scénarios, widgets et historiques de valeur
-
-Si le module est présumé "Dead" :
-
--   Noter (copie écran) vos valeurs de paramètres, elles seront perdues suite à l’inclusion.
--   Aller sur l’onglet actions du module et lancez la commande "Remplacer noeud en échec".
--   Le contrôleur est en mode inclusion, procéder à l’inclusion selon la documentation du module.
--   Remettre vos paramètres spécifiques.
-
-Si le module n’est pas présumé "Dead" mais est toujours accessible:
-
--   Dans la configuration ZWave, décocher l’option "Supprimer automatiquement les périphériques exclus".
--   Noter (copie écran) vos valeurs de paramètres, elles seront perdues suite à l’inclusion.
--   Exclure le module défaillant.
--   Aller sur la page de configuration du module défaillant.
--   Ouvrir la page du plugin ZWave dans un nouvel onglet.
--   Faire l’inclusion du module.
--   Copier l’ID du nouveau module, puis supprimer cet équipement.
--   Retourner sur l’onglet de l’ancien module puis coller le nouvel ID à la place de l’ancien ID.
--   Remettre vos paramètres spécifiques.
 
 ## Suppression de noeud fantome
 
