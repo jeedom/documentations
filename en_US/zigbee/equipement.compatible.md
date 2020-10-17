@@ -100,7 +100,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/Philips.LCA001.png" width="60" />|Philips|[LCA001] White and color ambiance||||
 |<img src="../../en_US/zigbee/images/Philips.ROM001.png" width="60" />|Philips|[ROM001] Drive||||
-|<img src="../../en_US/zigbee/images/Philips.RWL021.png" width="60" />|Philips|||||
+|<img src="../../en_US/zigbee/images/Philips.RWL021.png" width="60" />|Philips|[RWL021] 4 button remote control||||
 |<img src="../../en_US/zigbee/images/Philips.SML001.png" width="60" />|Philips|[SML001] Philips movement||||
 
 # Schneider
@@ -154,4 +154,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-10-16 00:32:03
+2020-10-17 00:32:03

@@ -100,7 +100,7 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/Philips.LCA001.png" width="60" />|Philips|[LCA001] White and color ambiance||||
 |<img src="../../fr_FR/zigbee/images/Philips.ROM001.png" width="60" />|Philips|[ROM001] Variateur||||
-|<img src="../../fr_FR/zigbee/images/Philips.RWL021.png" width="60" />|Philips|||||
+|<img src="../../fr_FR/zigbee/images/Philips.RWL021.png" width="60" />|Philips|[RWL021] Télécommande 4 boutons||||
 |<img src="../../fr_FR/zigbee/images/Philips.SML001.png" width="60" />|Philips|[SML001] Philips mouvement||||
 
 # Schneider
@@ -154,4 +154,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-10-16 00:32:03
+2020-10-17 00:32:03

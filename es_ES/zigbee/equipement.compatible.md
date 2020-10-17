@@ -100,7 +100,7 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/Philips.LCA001.png" width="60" />|Philips|[LCA001] Ambiente blanco y de color||||
 |<img src="../../es_ES/zigbee/images/Philips.ROM001.png" width="60" />|Philips|[ROM001] Unidad||||
-|<img src="../../es_ES/zigbee/images/Philips.RWL021.png" width="60" />|Philips|||||
+|<img src="../../es_ES/zigbee/images/Philips.RWL021.png" width="60" />|Philips|[RWL021] Mando a distancia de 4 botones||||
 |<img src="../../es_ES/zigbee/images/Philips.SML001.png" width="60" />|Philips|[SML001] Movimiento de Philips||||
 
 # Schneider
@@ -154,4 +154,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-10-16 00:32:03
+2020-10-17 00:32:03

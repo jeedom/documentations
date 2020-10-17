@@ -100,7 +100,7 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/Philips.LCA001.png" width="60" />|Philips|[LCA001] Weiß- und Farbambiente||||
 |<img src="../../de_DE/zigbee/images/Philips.ROM001.png" width="60" />|Philips|[ROM001] Laufwerk||||
-|<img src="../../de_DE/zigbee/images/Philips.RWL021.png" width="60" />|Philips|||||
+|<img src="../../de_DE/zigbee/images/Philips.RWL021.png" width="60" />|Philips|[RWL021] 4-Tasten-Fernbedienung||||
 |<img src="../../de_DE/zigbee/images/Philips.SML001.png" width="60" />|Philips|[SML001] Philips Uhrwerk||||
 
 # Schneider
@@ -154,4 +154,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-10-16 00:32:03
+2020-10-17 00:32:03
