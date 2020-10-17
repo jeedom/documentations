@@ -1,59 +1,59 @@
 # Dokumentations-Plugin-Vorlage
 
-Sie finden eine leere Plugin-Datenbank [Hier](https://github.com/jeedom/plugin-template)
+Sie finden eine leere Plugin-Datenbank [hier](https://github.com/jeedom/plugin-template)
 
 # Plugin-Erstellung Teil 1 : l'arborescence
 
-Hier ist seine Struktur: Zunächst ein Ordner mit dem Namen Ihres Plugins (genauer gesagt seiner eindeutigen Kennung), der die folgenden Unterordner enthalten muss :
+Hier ist seine Struktur: Zuerst einen Ordner mit dem Namen Ihres Plugins (genauer gesagt seiner eindeutigen Kennung), der die folgenden Unterordner enthalten muss :
 
 - ``3rdparty`` : Ordner mit den im Plugin verwendeten externen Bibliotheken (Beispiel für das SMS-Plugin eine Bibliothek für die serielle Kommunikation in PHP)
-- ``core`` : Ordner mit allen internen Arbeitsdateien
+- ``core`` : Ordner mit allen internen Betriebsdateien
   - ``class`` : Ordner mit der Plugin-Klasse
-  - ``php`` : Ordner, der Funktionen enthalten kann, die nicht unbedingt zu einer Klasse gehören müssen (häufig verwendet, um mehrere Klassen oder Konfigurationsdateien gleichzeitig einzuschließen)
+  - ``php`` : Ordner, der Funktionen enthalten kann, die nicht zu einer Klasse gehören müssen (häufig verwendet, um mehrere Klassen oder Konfigurationsdateien gleichzeitig einzuschließen)
   - ``config`` : Plugin-Konfigurationsdatei
-  - ``ajax`` : Ordner mit den Zieldateien von AJA-AufrufenX
-- ``desktop`` : Ordner mit der "Desktop" -Ansicht des Plugins (im Gegensatz zur "mobilen Ansicht"")
-  -   ``js`` : Ordner mit allen Dateien vom Typ Javascript
-  -   ``php`` : Ordner mit allen PHP-Dateien, die die Anzeige machen
-  -   ``css`` : Hier gibt es keine, aber bei Bedarf gehen alle CSS-Dateien des Plugins ein
-  -   ``modal`` : Ordner mit dem Code der Modalitäten des Plugins
+  - ``ajax`` : Ordner mit AJA-AufrufzieldateienX
+- ``desktop`` : Ordner mit der "Desktop" -Ansicht des Plugins (im Gegensatz zur "mobilen" Ansicht")
+  -   ``js`` : Ordner mit allen Javascript-Dateien
+  -   ``php`` : Ordner mit allen angezeigten PHP-Dateien
+  -   ``css`` : Es gibt keine hier, aber wenn nötig, gehen alle Plugin-CSS-Dateien hinein
+  -   ``modal`` : Ordner mit dem Modalcode des Plugins
 - ``plugin_info`` : enthält die Dateien, mit denen Jeedom das Plugin qualifizieren, installieren und konfigurieren kann
-  -   ``info.json`` : Datei mit den grundlegenden Informationen des Plugins (es ist obligatorisch, sonst sieht Jeedom das Plugin nicht), enthält unter anderem die Kennung des Moduls, eine Beschreibung, Installationsanweisungen
+  -   ``info.json`` : Datei mit den grundlegenden Informationen des Plugins (es ist obligatorisch, sonst sieht Jeedom das Plugin nicht), enthält unter anderem die Modul-ID, Beschreibung, Installationsanweisungen…
   -   ``install.php`` : Datei, die (falls erforderlich) die Methoden zum Installieren und Deinstallieren des Plugins enthält
-  -   ``configuration.php`` : Datei mit den Parametern zum Konfigurieren des Plugins unabhängig von seiner Ausstattung (Beispiel für das Zwave-Modul die IP des Raspberry Pi mit der Razberry-Karte)
-- ``docs`` : muss das Plugin-Dokument im Markdown-Format, das Stammverzeichnis und die Datei index.md enthalten. Alle Bilder sind in Dokumenten / Bildern. Das Dokument selbst befindet sich je nach Sprache in einer Datei (z. B. in Französisch : ``docs/fr\_FR``)
+  -   ``configuration.php`` : Datei mit den Parametern zum Konfigurieren des Plugins unabhängig von seiner Ausstattung (Beispiel für das Zwave-Modul, die Raspberry Pi IP mit der Razberry-Karte)
+- ``docs`` : muss das Plugin-Dokument im Markdown-Format, das Stammverzeichnis und die Datei index.md enthalten. Alle Bilder sind in Dokumenten / Bildern. Das Dokument selbst befindet sich je nach Sprache in einem Ordner (z. B. in Französisch : ``docs/fr\_FR``)
 
 In Bezug auf die Dateinamenskonvention sind hier die
-Imperative :
+Bedarf :
 
-- Die PHP-Klassendateien müssen mit enden ``.class.php``
-- Wenn es nicht von einer Include-Datei verwaltet wird, muss der Dateiname lauten ``nom\_class.class.php``
-- Dateien, die nur als Einstiegspunkt für mehrere Dateien verwendet werden, müssen mit enden ``.inc.php``
+- Klasse PHP-Dateien müssen mit enden ``.class.php``
+- Wenn es nicht von einer Include-Datei verwaltet wird, muss der Name der Datei lauten ``nom\_class.class.php``
+- Dateien, die nur als Einstiegspunkt für mehrere Dateien dienen, müssen mit enden ``.inc.php``
 - Konfigurationsdateien müssen mit enden ``.config.php``
 
 Hier sind die Empfehlungen :
 
-- Dateien vom Typ AJAX müssen mit enden ``.ajax.php``
-- Der Name der ersten Seitenansicht eines Plugins muss mit der Plugin-ID übereinstimmen
-- Der Name der JS-Datei (falls vorhanden) der ersten Seitenansicht des Plugins muss die Plugin-ID sein
+- AJAX-Dateien müssen mit enden ``.ajax.php``
+- Der Name der ersten Ansichtsseite eines Plugins muss mit der Plugin-ID übereinstimmen
+- Der Name der JS-Datei (falls vorhanden) der ersten Plugin-Ansichtsseite muss die Plugin-ID sein
 
-# Plugin-Erstellung Teil 2 : Plugin Info Ordner
+# Plugin-Erstellung Teil 2 : Info Plugin Ordner
 
 ## ``info.json``
 
-Sehen [Hier](https://doc.jeedom.com/de_DE/dev/structure_info_json)
+Sehen [hier](https://doc.jeedom.com/de_DE/dev/structure_info_json)
 
 ## ``install.php``
 
-Datei mit den Installationsanweisungen eines Plugins :
+Datei mit Anweisungen zum Installieren eines Plugins :
 
 Es setzt sich wie folgt zusammen :
 
-Der erste kommentierte Teil enthält die Lizenz (es ist besser). Die hier verwendete zeigt an, dass die Datei zu Jeedom gehört und Open Source ist. Dann kommt die Aufnahme des Jeedom-Kerns (dies ermöglicht den Zugriff auf interne Funktionen). Dann kommen die 2 Funktionen :
+Der erste kommentierte Teil enthält die Lizenz (es ist besser). Die hier verwendete zeigt an, dass die Datei zu Jeedom gehört und Open Source ist. Dann kommt die Aufnahme des Kerns von Jeedom (dies ermöglicht den Zugriff auf interne Funktionen). Dann kommen die 2 Funktionen :
 
 - ``pluginid_install()`` : Methode zur Installation des Plugins. Hier fügt die Installation Jeedom einen Cron-Job hinzu
-- ``pluginid_update()`` : Methode zur Installation des Plugins. Wird hier verwendet, um den Cron-Job neu zu starten
-- ``pluginid_remove()`` : Methode zum Entfernen des Plugins. Hier löscht die Funktion den Cron-Job von Jeedom während der Deinstallation
+- ``pluginid_update()`` : Methode zur Installation des Plugins. Wird hier verwendet, um die Cron-Task neu zu starten
+- ``pluginid_remove()`` : Methode zum Entfernen des Plugins. Hier entfernt die Funktion die Cron-Task während der Deinstallation aus Jeedom
 
 Beispiel :
 
@@ -114,15 +114,15 @@ function openzwave_remove() {
 
 ## ``configuration.php``
 
-Datei, mit der Konfigurationsinformationen vom Benutzer angefordert werden :
+Datei zum Anfordern von Konfigurationsinformationen vom Benutzer :
 
 Die Datei besteht aus :
 
 - Die Lizenz wie bisher
-- Die Einbeziehung des Jeedom-Kerns
-- Überprüfen, ob der Benutzer angemeldet ist (ich füge die 404-Datei hinzu, da es sich bei dieser Datei um eine Ansichtsdatei handelt)
+- Die Aufnahme des Jeedom-Kerns
+- Überprüfung, ob der Benutzer gut verbunden ist (ich füge die 404-Datei hinzu, da es sich bei dieser Datei um eine Ansichtsdatei handelt)
 
-Dann kommt der angeforderte Parameter (er kann mehrere haben), es ist eine Standard-Bootstrap-Syntax für Formulare. Die einzigen zu beachtenden Besonderheiten sind die Klassen (``configKey``) um das Parameterelement sowie den "data-l1key" anzugeben, der den Namen des Parameters angibt. Um den Wert an anderer Stelle im Plugin abzurufen, tun Sie dies einfach : ``config::byKey(NOM_PARAMETRE, PLUGIN_ID)``
+Dann kommt der angeforderte Parameter (er kann mehrere haben), es ist eine Standard-Bootstrap-Syntax für Formulare, die einzigen zu beachtenden Besonderheiten sind die Klassen (``configKey``) um das Parameterelement sowie den "data-l1key" anzugeben, der den Namen des Parameters angibt. Um den Wert an anderer Stelle im Plugin wiederherzustellen, tun Sie dies einfach : ``config::byKey(NOM_PARAMETRE, PLUGIN_ID)``
 
 Beispiel :
 
@@ -179,9 +179,9 @@ if (!isConnect()) {
 
 ## PHP
 
-Dieser Ordner enthält die Ansicht selbst. Darin müssen wir die Plugin-Konfigurationsseite finden (die, die angezeigt wird, wenn der Benutzer das Plugin ⇒ Kategorie ⇒ Ihr Plugin erstellt). Es ist ratsam, es mit der ID Ihres Plugins zu benennen. Es kann auch das Panel enthalten (Seite, die der Benutzer unter Startseite → Name Ihres Plugins findet).
+Dieser Ordner enthält die Ansicht selbst. Im Inneren müssen Sie die Plugin-Konfigurationsseite finden (die angezeigt wird, wenn der Benutzer das Plugin ⇒ Kategorie ⇒ Ihr Plugin erstellt). Es ist ratsam, es mit der ID Ihres Plugins zu benennen. Es kann auch das Panel enthalten (Seite, die der Benutzer unter Startseite → Name Ihres Plugins findet).
 
-Alle Dateien in diesem Ordner müssen mit enden ``.php`` und muss mit beginnen :
+Alle Dateien in diesem Ordner müssen enden ``.php`` und muss mit beginnen :
 
 ````
 <?php
@@ -192,9 +192,9 @@ if (!isConnect('admin')) {
  ?>
  ````
 
-Sobald Sie auf dieser Seite sind, haben Sie in PHP Zugriff auf alle Funktionen des Jeedom-Kerns (siehe [Hier](https://www.jeedom.com/doc/documentation/code/) ) sowie die aller installierten Module, also auch Ihre.
+Sobald Sie auf dieser Seite sind, haben Sie in PHP Zugriff auf alle Funktionen des Kerns von Jeedom (siehe [hier](https://www.jeedom.com/doc/documentation/code/) ) sowie die aller installierten Module, also auch Ihre.
 
-Alle diese Seiten sind Ansichten und verwenden hauptsächlich HTML-Syntax. Für alles, was Präsentation ist, basiert Jeedom hauptsächlich auf Bootstrap [Dokumentation](http://getbootstrap.com/) anwendbar.
+Alle diese Seiten sind Ansichten und verwenden hauptsächlich HTML-Syntax. Für alles, was präsentiert wird, basiert Jeedom hauptsächlich auf Bootstrap [Dokumentation](http://getbootstrap.com/) anwendbar.
 
 Um die Erstellung von Plugins zu vereinfachen, können Sie das Javascript-Vorlagenskript für Plugins in Ihre Seite aufnehmen :
 
@@ -202,31 +202,31 @@ Um die Erstellung von Plugins zu vereinfachen, können Sie das Javascript-Vorlag
 <?php include_file('core', 'plugin.template', 'js'); ?>
 ````
 
-Am Ende Ihrer Seite platzieren und nur auf der Konfigurationsseite Ihres Plugins nützlich. Dieses Skript ermöglicht es, das obligatorische Javascript auf eine einzige Funktion zu reduzieren (siehe Abschnitt über JS-Dateien).
+Am Ende Ihrer Seite zu platzieren und nur auf der Konfigurationsseite Ihres Plugins nützlich. Dieses Skript ermöglicht es, das obligatorische Javascript auf eine einzige Funktion zu reduzieren (siehe Abschnitt über JS-Dateien).
 
-Auf Ihrer Konfigurationsseite wurde eine HTML-Syntax implementiert, um Ihr Leben zu vereinfachen. Für die meisten Plugins müssen Sie also nur HTML ausführen, um Ihre Informationen in der Datenbank zu speichern und sie daher auf der Seite Ihrer Klasse erneut zu verwenden.
+Auf Ihrer Konfigurationsseite wurde eine HTML-Syntax implementiert, um Ihr Leben zu vereinfachen. Für die meisten Plugins müssen Sie also nur HTML ausführen, um Ihre Informationen in der Datenbank zu speichern und sie daher auf der Seite Ihrer Klasse zu verwenden.
 
-Die Syntax ist recht einfach: Ihr Element (Eingabe, Auswahl ...) muss die Klasse css eqLogicAttr (oder cmdAttr für Befehle) und ein Attribut enthalten, das den Namen der Eigenschaft angibt :
+Die Syntax ist recht einfach: Ihr Element (Eingabe, Auswahl…) muss die Klasse css eqLogicAttr (oder cmdAttr für Befehle) und ein Attribut enthalten, das den Namen der Eigenschaft angibt :
 
 ````
 <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement mail}}"/>
 ````
 
-Dort wird beispielsweise beim Laden der Daten jeedom der Wert des Gerätenamens in die Eingabe eingegeben und beim Speichern wiederhergestellt, um es wieder in die Datenbank aufzunehmen. Kleiner Tipp, einige Eigenschaften sind tatsächlich JSON-Strings in BDD (dies ermöglicht dem Plugin viel Freiheit). In diesem Fall müssen Sie dies nur tun :
+Dort wird beispielsweise beim Laden der Jeedom-Daten der Wert des Gerätenamens in die Eingabe eingegeben und beim Speichern wiederhergestellt, um ihn wieder in die Datenbank aufzunehmen. Kleiner Tipp: Einige Eigenschaften sind tatsächlich JSON-Zeichenfolgen in BDD (dies ermöglicht Ihnen viel Freiheit für das Plugin). In diesem Fall tun Sie dies einfach :
 
 ````
 <input class="eqLogicAttr form-control" data-l1key='configuration' data-l2key='fromName' />
 ````
 
-Die Liste der Geräte- und Befehlseigenschaften finden Sie hier (um die Eigenschaften von JSON anzuzeigen, sehen Sie sich nur den Getter oder den Setter an. Wenn zwei Parameter erforderlich sind, handelt es sich um JSON)
+Die Liste der Eigenschaften von Geräten und Befehlen finden Sie hier (um die Eigenschaften von JSON anzuzeigen, sehen Sie sich nur den Getter oder den Setter an. Wenn zwei Parameter erforderlich sind, handelt es sich um JSON)
 
-Letzter wichtiger Punkt auf der Konfigurationsseite: Dies kann so viele Geräte und Steuerungen enthalten, wie benötigt werden. Es gibt jedoch einige Regeln zu befolgen :
+Letzter wichtiger Punkt auf der Konfigurationsseite: Dies kann so viele Geräte und Befehle wie nötig enthalten. Es gibt jedoch einige Regeln zu befolgen :
 
-Alle Elemente mit der Klasse eqLogicAttr müssen sich in einem Element mit der Klasse css eqLogic befinden. Gleiches gilt für die Elemente der Klasse css cmdAttr, die sich in einem Element der Klasse cmd befinden müssen. Alle Befehle eines Geräts müssen sich im Element mit der entsprechenden eqLogic-Klasse befinden
+Alle Elemente mit der Klasse eqLogicAttr müssen sich in einem Element mit der Klasse css eqLogic Ditto für die Elemente der Klasse css cmdAttr befinden, die sich in einem Element der Klasse cmd befinden müssen. Alle Befehle eines Geräts müssen sich in dem Element mit der entsprechenden eqLogic-Klasse befinden
 
 ## JS
 
-Alle JS-Dateien sollten sich im JS-Ordner befinden (einfach !!!). Es ist ratsam, es mit der gleichen ID wie Ihr Plugin zu benennen (im Konfigurationsteil für das Panel, das Sie tun, was Sie wollen). Diese JS-Datei (die der Plugin-Konfiguration) muss mindestens eine addCmdToTable-Methode enthalten, die das hinzuzufügende Befehlsobjekt als Parameter verwendet. Hier ist ein einfaches Beispiel :
+Alle JS-Dateien müssen sich im JS-Ordner befinden (einfach !!!). Es ist ratsam, es mit der gleichen ID wie Ihr Plugin zu benennen (im Konfigurationsteil für das Panel, das Sie tun, was Sie wollen). Diese JS-Datei (die der Plugin-Konfiguration) muss mindestens eine addCmdToTable-Methode enthalten, die das hinzuzufügende Befehlsobjekt als Parameter verwendet. Hier ist ein einfaches Beispiel :
 
 ````
 function addCmdToTable(_cmd) {
@@ -253,7 +253,7 @@ Sie werden feststellen, dass es eine Zeile pro Befehl gibt und dass diese die Kl
 Mehrere wichtige Punkte :
 
 - Diese Funktion kann mit einem leeren Objekt (daher die ersten 3 Zeilen) aufgerufen werden, wenn ein neuer Befehl hinzugefügt wird
-- Die letzte Zeile wird verwendet, um alle Felder zu initialisieren, nachdem die Zeile eingefügt wurde
+- Die letzte Zeile initialisiert alle Felder, sobald die Zeile eingefügt wurde
 
 Letzter Punkt: Ein vollständigeres Beispiel mit Befehlstyp und Untertyp :
 
@@ -316,35 +316,35 @@ function addCmdToTable(_cmd) {
 Hier können wir feststellen :
 
 - ``jeedom.cmd.availableType()`` fügt eine Auswahl mit der Liste der bekannten Typen ein (Aktion und Informationen für den Moment)
-- ``<span class="subType" subType="' + init(\_cmd.subType) + '"><\span>`` : wo die Untertypauswahl eingestellt werden soll
-- ``jeedom.cmd.changeType(\$('\#table\_cmd tbody tr:last'), init(\_cmd.subType))`` Hiermit können Sie den Subtyp mit dem richtigen Wert initialisieren
+- ``<span class="subType" subType="' + init(\_cmd.subType) + '"><\span>`` : der Ort, an dem die Auswahl des Untertyps gestellt werden muss
+- ``jeedom.cmd.changeType(\$('\#table\_cmd tbody tr:last'), init(\_cmd.subType))`` Dadurch kann der Subtyp mit dem richtigen Wert initialisiert werden
 
 Andere Javascript-Funktionen können verwendet werden :
 
-- ``printEqLogic`` Dies nimmt als Parameter das gesamte Objekt des Geräts (nützlich bei Datenverarbeitung vor der Rückgabe). Es wird aufgerufen, wenn die Gerätedaten angezeigt werden
+- ``printEqLogic`` Dabei wird das gesamte Objekt des Geräts als Parameter verwendet (nützlich bei der Datenverarbeitung vor der Wiederherstellung). Es wird aufgerufen, wenn die Gerätedaten angezeigt werden
 - ``saveEqLogic`` Als Parameter wird das Geräteobjekt verwendet, das in der Datenbank gespeichert wird (nützlich, wenn Sie vor dem Speichern eine Verarbeitung durchführen müssen). Als letztes können Sie JS-Dateien auf saubere Weise in Ihre PHP-Seite aufnehmen :
 
 ````
 <?php include_file('desktop', 'weather', 'js', 'weather'); ?>
 ````
 
-Das erste Argument gibt den Ordner an, in dem es gefunden werden soll (seien Sie vorsichtig, es ist der übergeordnete Ordner des JS-Ordners), das zweite den Namen Ihres Javascript, das dritte sagt Jeedom, dass es sich um eine JS-Datei handelt und das letzte, in dem es sich befindet befindet sich.
+Das erste Argument gibt den Ordner an, in dem es gefunden werden soll (Aufmerksamkeit ist der übergeordnete Ordner des JS-Ordners), das zweite den Namen Ihres Javascript, das dritte sagt Jeedom, dass es sich um eine JS-Datei handelt, und das letzte, in dem es sich befindet befindet sich.
 
 ## CSS
 
-Dieser Ordner enthält Ihre CSS-Dateien (sie sollten nicht überbeansprucht werden). So fügen Sie sie in Ihre Seite ein :
+Dieser Ordner enthält Ihre CSS-Dateien (er sollte nicht zu häufig verwendet werden). So fügen Sie sie in Ihre Seite ein :
 
 ````
 <?php include_file('desktop', 'weather', 'css', 'weather'); ?>
 ````
 
-Das erste Argument gibt den Ordner an, in dem es gefunden werden soll (seien Sie vorsichtig, es ist der übergeordnete Ordner des CSS-Ordners), das zweite den Namen Ihrer CSS-Datei, das dritte sagt Jeedom, dass es sich um eine CSS-Datei handelt und das letzte, in dem sich das Plugin befindet es stellt sich heraus, dass.
+Das erste Argument gibt den Ordner an, in dem es gefunden werden soll (Aufmerksamkeit ist der übergeordnete Ordner des CSS-Ordners), das zweite den Namen Ihrer CSS-Datei, das dritte sagt Jeedom, dass es sich um eine CSS-Datei handelt und das letzte, in dem sich das Plugin befindet es stellt sich heraus, dass.
 
 ## MODAL
 
-Im modalen Ordner können Sie Ihre PHP-Dateien speichern, um Modale anzuzeigen. So rufen Sie sie von Ihrer Hauptseite aus auf (dieser Code wird in eine Javascript-Datei eingefügt) :
+Im modalen Ordner können Sie Ihre PHP-Dateien speichern, die für die Anzeige von Modalen vorgesehen sind. So rufen Sie sie von Ihrer Hauptseite aus auf (dieser Code befindet sich in einer Javascript-Datei) :
 
-Du kannst sehen :
+Wir können sehen :
 
 ````
 $('#md_modal').dialog({title: "{{Classe du périphérique}}"});
@@ -353,17 +353,17 @@ $('#md_modal').load('index.php?v=d&plugin=zwave&modal=show.class&id=' + $('.eqLo
 
 In der ersten Zeile können Sie Ihrem Modal einen Titel hinzufügen
 
-Die zweite Zeile lädt Ihr Modal und Ihre Anzeige. Die Syntax ist recht einfach : Plugin, die ID Ihres Plugins, Modal, der Name Ihres Modals ohne PHP und dann die Parameter, die Sie an es übergeben möchten
+Die zweite Zeile lädt Ihr Modal und Ihre Anzeige. Die Syntax ist recht einfach : Plugin, die ID Ihres Plugins, Modal, der Name Ihres Modals ohne PHP und dann die Parameter, die Sie übergeben möchten
 
 ## JS API
 
-Dies ist kein Ordner, aber in den neuesten Versionen von Jeedom bietet es dem Entwickler eine vollständige Javascript-API (dies vermeidet das Schreiben von Ajax-Aufrufen in alle Richtungen). Ich werde versuchen, einen Artikel zu verfassen, um die verschiedenen Funktionen zu erklären, aber Sie können den Code bereits hier finden.
+Es ist kein Ordner, aber in den neuesten Versionen von Jeedom bietet es dem Entwickler eine ganze Javascript-API (dies vermeidet das Schreiben von Ajax-Aufrufen in alle Richtungen). Ich werde versuchen, einen Artikel zu verfassen, um die verschiedenen Funktionen zu erklären, aber Sie können den Code bereits hier finden.
 
-Soviel zu den Details des Desktop-Ordners. Ich vermute, dass es nicht das vollständigste ist (ich werde versuchen, es gemäß den verschiedenen eingegangenen Anfragen zu vervollständigen), aber ich hoffe, dass Sie dank dessen Plugins für Jeedom erstellen können.
+Soviel zu den Details des Desktop-Ordners. Ich vermute, dass es nicht das vollständigste ist (ich werde versuchen, es gemäß den verschiedenen eingegangenen Anfragen zu vervollständigen), aber ich hoffe, dass Sie dank ihm Plugins für Jeedom erstellen können.
 
 ## Tipps und Tricks
 
-### Assitant Cron
+### Assistent cron
 
 ````
 $('body').delegate('.helpSelectCron','click',function(){
@@ -374,29 +374,29 @@ $('body').delegate('.helpSelectCron','click',function(){
 });
 ````
 
-Wenn wir auf die Schaltfläche Assistent klicken, rufen wir die Eingabe ab, in die geschrieben werden soll, und rufen dann den Assistenten an. Sobald die Konfiguration im Assistenten abgeschlossen ist, wird das Ergebnis abgerufen und in die zuvor ausgewählte Eingabe geschrieben
+Wenn wir auf die Schaltfläche "Assistent" klicken, erhalten wir die Eingabe zum Schreiben und rufen den Assistenten an. Sobald die Konfiguration im Assistenten abgeschlossen ist, wird das Ergebnis abgerufen und in die zuvor ausgewählte Eingabe geschrieben
 
 # Plugin-Erstellung Teil 4 : Kernordner
 
-Der mit Abstand wichtigste Ordner Ihres Plugins kann 4 Unterordner haben.
+Der mit Abstand wichtigste Ordner Ihres Plugins kann 4 Unterordner enthalten.
 
-Hinweis : In diesem Teil wird auf die ID Ihres Plugins verwiesen : Plugin\_id
+Notiz : In diesem Teil wird auf die ID Ihres Plugins verwiesen : plugin\_id
 
 ## PHP
 
-Enthält die zusätzlichen PHP-Dateien, die ich zum Einfügen einer Include-Datei verwendet habe, zum Beispiel, wenn Sie natürlich mehrere Klassendateien oder 3rparty-Dateien zum Einschließen haben
+Enthält die Anhang-PHP-Dateien, die ich zum Beispiel verwendet habe, um eine Einschlussdatei zu erstellen, wenn Sie natürlich mehrere Klassendateien oder 3rparty zum Einschließen haben
 
 ## Template
 
-Jeedom kann 2 Unterordner enthalten, Dashboard und Mobile. Es ist ein Ordner, den Jeedom automatisch nach Widgets durchsucht. Wenn Sie also bestimmte Widgets verwenden, müssen Sie hier deren HTML-Datei ablegen
+Jeedom kann 2 Unterordner enthalten, Dashboard und Mobile. Es ist ein Ordner, den Jeedom automatisch nach einem Widget durchsucht. Wenn Sie also bestimmte Widgets verwenden, müssen Sie hier deren HTML-Datei ablegen
 
 ## i18n
 
-Hier sollte Ihre Übersetzung in Form einer JSON-Datei vorliegen (am besten und schauen Sie sich zum Beispiel das Plugin an [zwave](https://github.com/jeedom/plugin-openzwave) um die Form der Datei zu sehen)
+Hier sollte Ihre Übersetzung in Form einer JSON-Datei vorliegen (am besten und schauen Sie sich zum Beispiel das Plugin an [Zwave](https://github.com/jeedom/plugin-openzwave) um die Form der Datei zu sehen)
 
 ## ajax
 
-Dieser Ordner ist für alle Ihre Ajax-Dateien vorgesehen. Hier ist ein Skelett der Ajax-Datei :
+Dieser Ordner ist für alle Ihre Ajax-Dateien bestimmt. Hier ist ein Skelett der Ajax-Datei :
 
 ````
 <?php
@@ -440,12 +440,12 @@ try {
 
 ## class
 
-Sehr wichtige Datei, es ist die Engine Ihres Plugins. Hierher kommen die 2 obligatorischen Klassen Ihres Plugins :
+Sehr wichtige Datei, es ist die Engine Ihres Plugins. Hierher kommen die 2 Pflichtklassen Ihres Plugins :
 
-- ``Plugin\_id``
-- ``Plugin\_idCmd``
+- ``plugin\_id``
+- ``plugin\_idCmd``
 
-Der erste erbt von der eqLogic-Klasse und der zweite von cmd. Hier ist eine Vorlage :
+Die erste muss von der eqLogic-Klasse und die zweite von cmd erben. Hier ist eine Vorlage :
 
 ````
 <?php
@@ -502,7 +502,7 @@ Klasse plugin_idCmd extends cmd {
 ?>
 ````
 
-Für die Definition von Jeedom-Klassen lade ich Sie ein, dies zu konsultieren [Seite? ˅](https://doc.jeedom.com/dev/phpdoc/4.0/)
+Für die Definition von Jeedom-Klassen lade ich Sie ein, dies zu konsultieren [Standort](https://doc.jeedom.com/dev/phpdoc/4.0/)
 
 Die einzige obligatorische Methode ist die Instanzmethode für die cmd execute-Klasse. Hier ist ein Beispiel mit dem SARAH-Plugin :
 
@@ -522,15 +522,15 @@ public function execute($_options = array()) {
   }
   ````
 
-Als ziemlich einfaches, aber vollständiges Beispiel lautet das Prinzip wie folgt: Wenn der Befehl eine Aktion oder eine Information ist (aber nicht nur ein Ereignis und sein Cache überschritten wird), ruft jeedom diese Methode auf.
+Ganz einfach, aber vollständig, das Prinzip lautet wie folgt: Wenn der Befehl eine Aktion oder eine Information ist (aber nicht nur für den Fall, dass der Cache überschritten wird), ruft jeedom diese Methode auf.
 
-In unserem Beispiel hier ist es ein Befehl, SARAH zum Sprechen zu bringen, wobei das Plugin die Parameter in den Optionen \ $\_ abruft (Vorsicht, dies ist ein Array und seine Attribute ändern sich je nach Subtyp des Befehls : Farbe für einen Farbuntertyp, Schieberegler für einen Untertyp-Schieberegler, Titel und Nachricht für einen Nachrichtenuntertyp und leer für einen anderen Untertyp).
+In unserem Beispiel hier ist es ein Befehl, SARAH zum Sprechen zu bringen, wobei das Plugin die Parameter in den Optionen \ $\_ abruft (beachten Sie, dass dies ein Array ist und sich seine Attribute je nach Subtyp des Befehls ändern : Farbe für einen Farbuntertyp, Schieberegler für einen Schiebereglersubtyp, Titel und Nachricht für einen Nachrichtensubtyp und leer für einen anderen Untertyp).
 
-Hier ist für den obligatorischen Teil, hier ist jetzt, was daneben verwendet werden kann (mit Beispiel) :
+Hier für den obligatorischen Teil, hier ist, was als nächstes verwendet werden kann (mit Beispiel) :
 
 ### toHtml (\ $\_ version = 'Dashboard')
 
-Eine Funktion, die je nach Anforderung in der Steuerung oder im Gerät verwendet werden kann, ist hier ein Beispiel für das Gerät
+Die Funktion, die je nach Bedarf in der Steuerung oder im Gerät verwendet werden kann, ist hier ein Beispiel für das Gerät
 
 ````
 public function toHtml($_version = 'dashboard') {
@@ -637,19 +637,19 @@ public function toHtml($_version = 'dashboard') {
 
 Einige interessante Dinge hier :
 
-Um die angeforderte Version in ein Dashboard oder ein Mobiltelefon zu konvertieren (mview wird beispielsweise mobil, können Sie beispielsweise in den Ansichten den Namen der Objekte hinzufügen)
+Um die angeforderte Version in ein Dashboard oder ein Mobilgerät zu konvertieren (mview wird beispielsweise mobil, können Sie beispielsweise in den Ansichten den Namen der Objekte hinzufügen)
 
 ````
 $_version = jeedom::versionAlias($_version);
 ````
 
-Abrufen einer Bestellvorlage, hier die Bestellvorlage : Plugins / Wetter / Kern / Vorlage / \ $\_ Version / Vorhersage.html (\ $\_ Version gültig für Handy oder Dashboard)
+Abrufen einer Bestellvorlage, hier die Bestellvorlage : Plugins / Wetter / Kern / Vorlage / \ $\_ Version / Vorhersage.HTML (\ $\_ Version wert Handy oder Dashboard)
 
 ````
 $forcast_template = getTemplate('core', $_version, 'forecast', 'weather');
 ````
 
-Hier ersetzen die zuvor ausgefüllten Tags \ $ den HTML-Code, um die Werte zu enthalten
+Ersetzen Sie hier die zuvor ausgefüllten Tags in \ $ HTML ersetzen, um die Werte zu enthalten
 
 ````
 $html_forecast .= template_replace($replace, $forcast_template);
@@ -661,7 +661,7 @@ Auf diese Weise können Sie den Befehl mit der logischen\_id abrufen : Temperatu
 $this->getCmd(null, 'temperature_min');
 ````
 
-Dort kann der Wert nur dann in das Tag eingefügt werden, wenn die Bestellung erfolgreich abgerufen wurde
+Hier kann der Wert nur dann in das Tag eingefügt werden, wenn die Bestellung abgerufen wurde
 
 ````
 $replace['#temperature#'] = is_object($temperature) ? $temperature->execCmd() : '';
@@ -684,32 +684,32 @@ Speichern des Widgets im Cache: Damit wir es bei der nächsten Anfrage schneller
 cache::set('weatherWidget' . $_version . $this->getId(), $html, 0);
 ````
 
-Endlich das HTML an Jeedom senden :
+Senden Sie schließlich HTML an Jeedom :
 
 ````
 return $html;
 ````
 
-Sie müssen Jeedom auch mitteilen, was Ihr Widget in Bezug auf die Anpassung zulässt. Es ist ein bisschen komplex (und immer noch), aber normalerweise flexibel und einfach einzurichten.
+Sie sollten Jeedom auch mitteilen, was Ihr Widget für die Personalisierung zulässt. Es ist ein bisschen komplex (und wieder), aber normalerweise flexibel und einfach einzurichten.
 
-Es funktioniert auf Ihrem Gerät oder Steuerelement genauso. Es ist ein statisches Attribut der Klasse \ $\_ widgetPossibility, das ein mehrdimensionales Array sein muss. Hier wird es jedoch kompliziert, wenn eine Array-Dimension wahr ist oder falsch. Es wird dann davon ausgegangen, dass alle möglichen Kinder diesen Wert haben (ich werde ein Beispiel geben).
+Es funktioniert genauso auf Ihrem Gerät oder Steuerelement. Es ist ein statisches Attribut der Klasse \ $\_ widgetPossibility, das ein mehrdimensionales Array sein muss. Dort wird es jedoch kompliziert, wenn eine Dimension des Arrays wahr ist oder falsch. Es wird dann davon ausgegangen, dass alle möglichen Kinder diesen Wert haben (ich werde ein Beispiel geben).
 
-Zuallererst die Fälle, in denen Sie es verwenden müssen: Wenn in Ihrer Klasse das Erben von eqLogic oder von cmd eine toHtml-Funktion hat, lohnt es sich nicht, Folgendes zu lesen.
+Zuerst die Fälle, in denen Sie es verwenden müssen: Wenn in Ihrer Klasse das Erben von eqLogic oder cmd eine toHtml-Funktion hat, lohnt es sich nicht, mehr zu lesen.
 
 ### Pre- und Post-Methode
 
-Beim Erstellen oder Löschen Ihrer Objekte (Ausrüstung, Befehl oder andere) in Jeedom können vor / nach der Aktion verschiedene Methoden aufgerufen werden :
+Beim Erstellen oder Löschen Ihrer Objekte (Ausrüstung, Bestellung oder andere) in Jeedom können vor / nach der Aktion verschiedene Methoden aufgerufen werden :
 
 - ``preInsert`` ⇒ Methode, die vor der Erstellung Ihres Objekts aufgerufen wurde
 - ``postInsert`` ⇒ Methode, die nach der Erstellung Ihres Objekts aufgerufen wird
 - ``preUpdate`` ⇒ Methode, die vor dem Aktualisieren Ihres Objekts aufgerufen wird
 - ``postUpdate`` ⇒ Methode, die nach dem Aktualisieren Ihres Objekts aufgerufen wird
-- ``preSave`` ⇒ Methode, die vor dem Speichern (Erstellen und Aktualisieren) Ihres Objekts aufgerufen wird
+- ``preSave`` ⇒ Methode, die vor dem Speichern (daher Erstellung und Aktualisierung) Ihres Objekts aufgerufen wird
 - ``postSave`` ⇒ Methode, die nach dem Speichern Ihres Objekts aufgerufen wird
 - ``preRemove`` ⇒ Methode, die vor dem Löschen Ihres Objekts aufgerufen wird
 - ``postRemove`` ⇒ Methode, die nach dem Löschen Ihres Objekts aufgerufen wird
 
-Beispiel, noch mit dem Wetter-Plugin zum Erstellen oder Aktualisieren von Bestellungen nach dem Speichern (das Beispiel ist vereinfacht) :
+Beispiel: Immer mit dem Wetter-Plugin zum Erstellen oder Aktualisieren von Bestellungen nach dem Speichern (das Beispiel ist vereinfacht) :
 
 ````
 public function postUpdate() {
@@ -739,7 +739,7 @@ public function postUpdate() {
 }
 ````
 
-Der Anfang ist ziemlich normal bei der Erstellung eines Auftrags, das Ende ist interessanter bei der Implementierung eines Cron, der die Methode aufruft ``weather::updateWeatherData`` indem Sie die ID des Geräts übergeben, das standardmäßig alle 30 Minuten aktualisiert werden soll.
+Der Start ist ziemlich normal bei der Erstellung eines Befehls, das Ende ist interessanter bei der Implementierung eines Cron, der die Methode aufruft ``weather::updateWeatherData`` indem Sie die ID des Geräts übergeben, das standardmäßig alle 30 Minuten aktualisiert werden soll.
 
 Hier die updateWeatherData-Methode (ebenfalls vereinfacht) :
 
@@ -754,7 +754,7 @@ public static function updateWeatherData($_options) {
 }
 ````
 
-Wir sehen hier, dass wir während des Aufrufs die betreffenden Geräte abrufen und dann die Befehle ausführen, um die Werte abzurufen und gegebenenfalls zu aktualisieren.
+Wir sehen hier, dass wir während des Aufrufs die betreffenden Geräte wiederherstellen und dann die Befehle ausführen, um die Werte wiederherzustellen und sie gegebenenfalls zu aktualisieren.
 
 Sehr wichtiger Teil :
 
@@ -762,9 +762,9 @@ Sehr wichtiger Teil :
 $weather->checkAndUpdateCmd($cmd,$cmd->execute());
 ````
 
-Zum Zeitpunkt der Funktion ``checkAndUpdateCmd`` (Dies ermöglicht es Jeedom, eine neue Aktualisierung des Werts zu signalisieren, wobei alle Aktionen ausgelöst werden, die ausgeführt werden müssen : Dashboard-Update, Szenarioüberprüfung),
+Zum Zeitpunkt der Funktion ``checkAndUpdateCmd`` (Dies ermöglicht es Jeedom, eine neue Aktualisierung des Werts zu signalisieren, wobei alle Aktionen ausgelöst werden, die ausgeführt werden müssen : Aktualisierung des Dashboards, Überprüfung von Szenarien…),
 
-Für die Befehlsklasse ein kleiner Tipp, um zu wissen, ob Sie die grundlegende js-Vorlage verwenden. Beim Senden der Jeedom-Ausrüstung wird ein Differential an den Bedienelementen vorgenommen und diejenigen entfernt, die sich in der Basis befinden, jedoch nicht in der neuen Definition der Ausrüstung. Hier erfahren Sie, wie Sie dies vermeiden können :
+Für die Befehlsklasse ein kleiner Trick, um festzustellen, ob Sie die grundlegende js-Vorlage verwenden. Beim Senden der Jeedom-Ausrüstung wird der Unterschied bei den Bestellungen festgestellt und diejenigen gelöscht, die sich in der Basis befinden, jedoch nicht in der neuen Definition der Ausrüstung. So vermeiden Sie es :
 
 ````
 public function dontRemoveCmd() {
@@ -772,16 +772,16 @@ public function dontRemoveCmd() {
 }
 ````
 
-Zum Schluss noch ein paar Tipps und Tricks :
+Zum Abschluss hier einige Tipps und Tricks :
 
 - Vermeiden Sie (es sei denn, Sie wissen, was Sie tun) das Überschreiben einer Methode der geerbten Klasse (dies kann viele Probleme verursachen)
-- Um die Batterie (in%) eines Geräts wieder zusammenzubauen, tun Sie dies (Jeedom kümmert sich um den Rest und benachrichtigt den Benutzer gegebenenfalls) :
+- Um die Batterie (in%) eines Geräts wieder zusammenzubauen, tun Sie dies (Jeedom kümmert sich um den Rest und warnt den Benutzer, falls erforderlich) :
 
 ````
 $eqLogic->batteryStatus(56);
 ````
 
-- Bei den Aufträgen beim Hinzufügen eines Wertes wendet Jeedom die Instanzmethode an ``formatValue($_value)`` Dies kann je nach Subtyp neu formatiert werden (insbesondere für Binärwerte)
-- Führen Sie NIEMALS eine Methode in der Klasse aus, die vom Aufruf von cmd erbt : execCmd oder Ereignis
-- Wenn Sie in der Konfiguration Ihrer Bestellung returnStateTime (in Minuten) und returnStateValue eingegeben haben, ändert Jeedom nach X Minute (n) automatisch den Wert Ihrer Bestellung durch returnStateValue)
-- Für den Befehl können Sie dennoch addHistoryValue verwenden, um die Einstellung im Verlauf zu erzwingen (beachten Sie, dass Ihre Bestellung historisiert werden muss)
+- Bei Aufträgen beim Hinzufügen eines Werts wendet Jeedom die Instanzmethode an ``formatValue($_value)`` Dies kann es je nach Subtyp neu formen (insbesondere für Binärwerte))
+- Führen Sie NIEMALS eine Methode in der Klasse aus, die von cmd erbt : execCmd oder Ereignis
+- Wenn Sie in der Konfiguration Ihrer Bestellung returnStateTime (in Minuten) und returnStateValue eingegeben haben, ändert Jeedom den Wert Ihrer Bestellung nach X Minuten automatisch durch returnStateValue)
+- Für die Bestellung können Sie immer addHistoryValue verwenden, um die Einstellung im Verlauf zu erzwingen (beachten Sie, dass Ihre Bestellung historisch sein muss)

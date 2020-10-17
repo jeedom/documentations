@@ -1,8 +1,8 @@
 ## Notas legales
 
-El sitio jeedom está editado y operado por la empresa JEEDOM SAS, una sociedad anónima simplificada (SAS) con un capital de 4.000 €, inscrita en el Registro de Comercio y Sociedades de Lyon con el número 810505 784 RCS LYON.
+El sitio Jeedom es editado y operado por la compañía JEEDOM SAS, una Sociedad por Acciones Simplificada (SAS) con un capital de € 4,000, registrada en el Registro de Comercio y Compañías de Lyon con el número 810 505 784 RCS LYON.
 
-La oficina central : 1691 Avenue de l'Hippodrome 69140 Rillieux La Pape - Francia
+Cuartel general : 1691 Avenue de l'Hippodrome 69140 Rillieux La Pape - Francia
 
 Número de IVA intracomunitario : FR31810505784
 
@@ -12,7 +12,7 @@ Presidente: ENOXA SAS
 
 ## Contact
 
-Puede comunicarse con nuestro servicio de atención al cliente por correo electrónico a contact@jeedom.com
+Puede comunicarse con nuestro servicio al cliente por correo electrónico a contact@jeedom.com
 
 ## Anfitrión
 
@@ -22,4 +22,4 @@ OVH
 http://www.ovh.com
 2 rue Kellermann - 59100 ROUBAIX - Francia
 
-Director de publicación y webmaster : Jeedom SAS
+Director de publicaciones y webmaster : Jeedom SAS

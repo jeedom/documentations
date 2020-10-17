@@ -62,8 +62,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/camera/images/ebode.ext.jpg" width="60" />|Ebode|Exterior||||
-|<img src="../../en_US/camera/images/ebode.mot.hd.jpg" width="60" />|Ebode|HD motorized||||
+|<img src="../../en_US/camera/images/ebode.ext.jpg" width="60" />|Ebode|Outdoor||||
+|<img src="../../en_US/camera/images/ebode.mot.hd.jpg" width="60" />|Ebode|Motorized HD||||
 |<img src="../../en_US/camera/images/ebode.mot.jpg" width="60" />|Ebode|Motorized||||
 
 # Foscam
@@ -111,7 +111,7 @@
 |<img src="../../en_US/camera/images/ios.ip-camera.jpg" width="60" />|ios|IP Camera||||
 |<img src="../../en_US/camera/images/ios.karakuri.camera.jpg" width="60" />|ios|Karakuri Camera - Auto Shutter & WEB Monitoring||||
 |<img src="../../en_US/camera/images/ios.livereporter.jpg" width="60" />|ios|Live Reporter||||
-|<img src="../../en_US/camera/images/ios.periscopehd.jpg" width="60" />|ios|HD Periscope||||
+|<img src="../../en_US/camera/images/ios.periscopehd.jpg" width="60" />|ios|HD periscope||||
 
 # Karotz
 
@@ -130,20 +130,20 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/camera/images/mustcam.mot.hd.jpg" width="60" />|Mustcam|HD motorized||||
+|<img src="../../en_US/camera/images/mustcam.mot.hd.jpg" width="60" />|Mustcam|Motorized HD||||
 
 # Netatmo
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/camera/images/presence.jpg" width="60" />|Netatmo|Presence||Absolutely requires the Netatmo Security plugin (paying)|[Buy](https://www.domadoo.fr/fr/objets-communicants/3855-netatmo-camera-exterieure-de-securite-presence-3700730501866.html)|
-|<img src="../../en_US/camera/images/welcome.jpg" width="60" />|Netatmo|Welcome||Absolutely requires the Netatmo Security plugin (paying)|[Buy](https://www.domadoo.fr/fr/objets-communicants/3064-netatmo-camera-a-reconnaissance-faciale-welcome-3700730500623.html)|
+|<img src="../../en_US/camera/images/presence.jpg" width="60" />|Netatmo|Presence||Absolutely requires the Netatmo Security plugin (paid)|[Buy](https://www.domadoo.fr/fr/objets-communicants/3855-netatmo-camera-exterieure-de-securite-presence-3700730501866.html)|
+|<img src="../../en_US/camera/images/welcome.jpg" width="60" />|Netatmo|Welcome||Absolutely requires the Netatmo Security plugin (paid)|[Buy](https://www.domadoo.fr/fr/objets-communicants/3064-netatmo-camera-a-reconnaissance-faciale-welcome-3700730500623.html)|
 
 # Onvif
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/camera/images/onvif.jpg" width="60" />|Onvif|Onvif||Discovery of Onvif cameras (be careful not always, no guarantee possible)||
+|<img src="../../en_US/camera/images/onvif.jpg" width="60" />|Onvif|Onvif||Discovery of Onvif cameras (attention does not always work, no guarantee possible)||
 
 # Panasonic
 
@@ -219,6 +219,6 @@
 |<img src="../../en_US/camera/images/zavio.f3115.jpg" width="60" />|Zavio|F3115||||
 
 
-This list is based on user feedback, so the Jeedom team cannot guarantee that all the modules on this list are 100% functional
+This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
 2020-10-17 00:20:02

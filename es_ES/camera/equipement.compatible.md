@@ -11,7 +11,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/camera/images/android.ipwebcam.jpg" width="60" />|Android|Cámara web IP||||
+|<img src="../../es_ES/camera/images/android.ipwebcam.jpg" width="60" />|Android|Webcam IP||||
 
 # Axis
 
@@ -34,7 +34,7 @@
 |<img src="../../es_ES/camera/images/d-link.dcs-no-ptz.jpg" width="60" />|D-Link|DCS||||
 |<img src="../../es_ES/camera/images/d-link.dcs-ptz.jpg" width="60" />|D-Link|DCS PTZ||||
 |<img src="../../es_ES/camera/images/d-link.dsc-5020l.jpg" width="60" />|D-Link|DSC-5020L && DCS-935L||||
-|<img src="../../es_ES/camera/images/d-link.eyeOnbabyMonitor.jpg" width="60" />|D-Link|Monitor de bebé EyeOn||||
+|<img src="../../es_ES/camera/images/d-link.eyeOnbabyMonitor.jpg" width="60" />|D-Link|EyeOn Baby Monitor||||
 
 # Dahua
 
@@ -62,7 +62,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/camera/images/ebode.ext.jpg" width="60" />|Ebode|Exterior||||
+|<img src="../../es_ES/camera/images/ebode.ext.jpg" width="60" />|Ebode|Al aire libre||||
 |<img src="../../es_ES/camera/images/ebode.mot.hd.jpg" width="60" />|Ebode|HD motorizado||||
 |<img src="../../es_ES/camera/images/ebode.mot.jpg" width="60" />|Ebode|Motorizado||||
 
@@ -136,14 +136,14 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/camera/images/presence.jpg" width="60" />|Netatmo|Presence||Requiere absolutamente el complemento de seguridad de Netatmo (pagando)|[Comprar](https://www.domadoo.fr/fr/objets-communicants/3855-netatmo-camera-exterieure-de-securite-presence-3700730501866.html)|
-|<img src="../../es_ES/camera/images/welcome.jpg" width="60" />|Netatmo|Welcome||Requiere absolutamente el complemento de seguridad de Netatmo (pagando)|[Comprar](https://www.domadoo.fr/fr/objets-communicants/3064-netatmo-camera-a-reconnaissance-faciale-welcome-3700730500623.html)|
+|<img src="../../es_ES/camera/images/presence.jpg" width="60" />|Netatmo|Presence||Requiere absolutamente el complemento de seguridad de Netatmo (pago)|[Comprar](https://www.domadoo.fr/fr/objets-communicants/3855-netatmo-camera-exterieure-de-securite-presence-3700730501866.html)|
+|<img src="../../es_ES/camera/images/welcome.jpg" width="60" />|Netatmo|Welcome||Requiere absolutamente el complemento de seguridad de Netatmo (pago)|[Comprar](https://www.domadoo.fr/fr/objets-communicants/3064-netatmo-camera-a-reconnaissance-faciale-welcome-3700730500623.html)|
 
 # Onvif
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/camera/images/onvif.jpg" width="60" />|Onvif|Onvif||Descubrimiento de cámaras Onvif (tenga cuidado, no siempre, no hay garantía posible)||
+|<img src="../../es_ES/camera/images/onvif.jpg" width="60" />|Onvif|Onvif||Descubrimiento de cámaras Onvif (la atención no siempre funciona, no hay garantía posible)||
 
 # Panasonic
 

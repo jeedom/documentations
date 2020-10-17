@@ -1,4 +1,4 @@
-# Administrar widgets de complementos
+# Gestión de widgets de complementos
 
 Hay varias posibilidades para crear widgets personalizados para complementos :
 
@@ -7,7 +7,7 @@ Hay varias posibilidades para crear widgets personalizados para complementos :
 
 ## Función ToHtml
 
-Entonces, nada especial, la función toHtml debe devolver el widget en html, tienes un ejemplo [los](https://github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
+Entonces, nada especial, la función toHtml debe devolver el widget en html, tienes un ejemplo [el](https://github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
 
 Lo importante son sobre todo las primeras líneas :
 
@@ -18,10 +18,10 @@ if (!is_array($replace)) {
 }
 ````
 
-La función preToHtml regresa :
+La función preToHtml devuelve :
 
 - una cadena si el widget está almacenado en caché (si está almacenado en caché, significa que no ha habido cambios desde la última generación, por lo que también puede devolverlo inmediatamente)
-- una tabla con los principales reemplazos, tienes la lista [aquí](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
+- una tabla con los reemplazos principales, tienes la lista [aquí](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
 ## El sistema de plantillas
 
@@ -44,9 +44,9 @@ public static function templateWidget(){
 }
 ````
 
-Aquí, crearemos un nuevo widget basado en la plantilla "tmplmultistate" (tienes la lista de plantillas [aquí](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) son aquellos con tmpl en su nombre), para un comando de tipo info y bajo tipo cadena.
+Aquí, crearemos un nuevo widget basado en la plantilla "tmplmultistate" (tienes la lista de plantillas [aquí](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) son aquellos con tmpl en su nombre), para un comando de tipo de información y debajo de tipo de cadena.
 
-> **IMPORTANTE**
+> **Importante**
 >
 > Cada plantilla es para un tipo y subtipo determinados, por lo que debe verificar que la plantilla que desea usar exista para el tipo y subtipo
 
@@ -70,9 +70,9 @@ public static function templateWidget(){
 }
 ````
 
-Aquí, creo un widget toto basado en la plantilla "tmplicon" en tipo de información y subtipo binario. Cuando sea 1, el icono será<i class='icon_green icon jeedom-porte-ferme'></i> y cuando sea 0, será </i>
+Aquí, creo un widget toto basado en la plantilla "tmplicon" en tipo de información y subtipo binario. Cuando sea 1, el icono será <i class='icon_green icon jeedom-porte-ferme'></i> y cuando sea 0, será </i>
 
->**CONSEJOS**
+>**Consejos**
 >
 > Pequeño consejo, puede en lugar de un icono poner una etiqueta de imagen (preste atención a la ruta)
 
@@ -83,6 +83,6 @@ $cmd->setTemplate('dashboard','neato::state');
 $cmd->setTemplate('mobile','neato::state');
 ````
 
-Es como un widget normal excepto por el nombre del widget que tiene el formato id_plugin::nombre del widget. Para el segundo ejemplo, será id_plugin::toto
+Es como un widget normal, excepto por el nombre del widget que tiene el formato id_plugin::nombre_widget. Para el segundo ejemplo, será id_plugin::toto
 
 

@@ -1,4 +1,4 @@
-# Managing plugin widgets
+# Management of plugin widgets
 
 There are several possibilities to make custom widgets for plugins :
 
@@ -44,7 +44,7 @@ public static function templateWidget(){
 }
 ````
 
-Here, we will create a new widget based on the "tmplmultistate" template (you have the list of templates [here](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) it is those with tmpl in their name), for an command of type info and under type string.
+Here, we will create a new widget based on the "tmplmultistate" template (you have the list of templates [here](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) it's those with tmpl in their name), for an info type command and under string type.
 
 > **IMPORTANT**
 >
@@ -70,7 +70,7 @@ public static function templateWidget(){
 }
 ````
 
-Here, I create a toto widget based on the "tmplicon" template in info type and binary subtype. When it is 1 then the icon will be<i class='icon_green icon jeedom-porte-ferme'></i> and when it is 0, it will be </i>
+Here, I create a toto widget based on the "tmplicon" template in info type and binary subtype. When it is 1 then the icon will be <i class='icon_green icon jeedom-porte-ferme'></i> and when it is 0, it will be </i>
 
 >**TIPS**
 >
@@ -83,6 +83,6 @@ $cmd->setTemplate('dashboard','neato::state');
 $cmd->setTemplate('mobile','neato::state');
 ````
 
-It's like a normal widget except for the name of the widget which is in the form id_plugin::widget_name. For the 2nd example, it will be id_plugin::toto
+It is like for a normal widget except for the name of the widget which is in the form id_plugin::name_widget. For the 2nd example, it will be id_plugin::toto
 
 

@@ -20,4 +20,4 @@ How to go to the advanced configuration of an order :
 - From the advanced configuration of the equipment you have the list of orders and the 3 small notched wheels at the end of the line 
 - From Analysis -> Home automation summary, you search or unfold until you find your order then you click on it or click on the toothed wheel at the end of the line
 
-Here you know everything, do not hesitate to try to put for each order the generic type that corresponds to this will allow the plugin to better understand what your equipment does
+Here you know everything, do not hesitate to try to put for each order the generic type that corresponds this will allow the plugin to better understand what your equipment does
