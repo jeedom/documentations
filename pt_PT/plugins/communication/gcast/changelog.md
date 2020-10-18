@@ -4,6 +4,16 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+
+
+Obrigado @Caelion por todas as seguintes melhorias : 
+
+- criação de uma função de status : que indica se uma chamada está em andamento com o Jeedom (TTS)
+- adicionando um comando de atualização
+- adicionou um comando mudo
+- criação de função de aplicativo : que fornece detalhes quando um aplicativo do Cast no dispositivo (Nome + Detalhe)
+- criação de uma função de volume : para volume atual
+
 # 31/03/2020
 
 - Limpeza e otimização

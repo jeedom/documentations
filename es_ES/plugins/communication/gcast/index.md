@@ -16,7 +16,7 @@ Sin IFTTT, su Asistente de Google no podrá intercambiar con Jeedom.
 
 -   Se connecter ou s'inscrire sur IFTTT : <https://ifttt.com> (o mediante la aplicación móvil)
 -   Pestaña "Mis Applets" y luego "Nuevo Applet"
--   Haga clic en "+ Esto", elija Asistente de Google (enlace su Asistente de Google a IFTTT si aún no lo ha hecho)
+-   Haga clic en "+ Esto", elija Asistente de Google (enlace su Asistente de Google a IFTTT si aún no lo ha hecho))
 -   Elija el activador "Diga una frase con un ingrediente de texto"
 
 **Ejemplo de configuración de la primera parte del Applet :**
@@ -26,8 +26,8 @@ Sin IFTTT, su Asistente de Google no podrá intercambiar con Jeedom.
     >
     > Debe poner absolutamente '\ $' al final de su oración
 
--   **¿Cuál es otra forma de decirlo?? (opcional)** : maison \$
--   **Y de otra manera? (opcional)** : jarvis \$
+-   **¿Cuál es otra forma de decirlo?? (optional)** : maison \$
+-   **Y de otra manera? (optional)** : jarvis \$
 -   **¿Qué quiere que diga el Asistente en respuesta??** : Yo hago
     > **Punta**
     >
@@ -35,7 +35,7 @@ Sin IFTTT, su Asistente de Google no podrá intercambiar con Jeedom.
     > antes de que procese su solicitud
 
 -   **Idioma** : French
--   Haga clic en "+ Eso", elija Webhooks (active el servicio si aún no lo ha hecho)
+-   Haga clic en "+ Eso", elija Webhooks (active el servicio si aún no lo ha hecho))
 -   Elija el único disparador disponible : Hacer una solicitud web
 
 **Ejemplo de configuración de la segunda parte del Applet :**
@@ -43,7 +43,7 @@ Sin IFTTT, su Asistente de Google no podrá intercambiar con Jeedom.
 -   **URL** : Debe pegar la URL de retorno indicada en la página de su equipo
     > **Punta**
     >
-    > La URL de retorno debe cambiarse : ***ID\_ EQUIPO*** debe ser reemplazado por la ID de su Asistente de Google (Haga clic en "Configuración avanzada" en la página de su equipo para conocer la ID) y *pregunta=XXXX* por consulta = {{TextField}}
+    > La URL de retorno debe cambiarse : ***ID\_ EQUIPO*** debe ser reemplazado por la ID de su Asistente de Google (Haga clic en "Configuración avanzada" en la página de su equipo para conocer la ID) y *query=XXXX* por consulta = {{TextField}}
 
     > **Importante**
     >
@@ -56,3 +56,9 @@ Sin IFTTT, su Asistente de Google no podrá intercambiar con Jeedom.
 Todo lo que tiene que hacer es hacer clic en "Guardar" y aprovechar sus interacciones entre Google Assistant y Jeedom !
 
 El uso de ASK es incluso posible
+
+# FAQ
+
+> **El control de volumen funciona pero no el TTS**
+>
+> Debe verificar la configuración de su red interna (el complemento lo usa para la generación de TTS), en particular, no https en las redes internas.

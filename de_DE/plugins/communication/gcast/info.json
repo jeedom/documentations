@@ -1,11 +1,33 @@
 {
     "id": "gcast",
     "name": "Gcast",
-    "description": "Plugin permettant de faire parler un device CAST. Il permet aussi de régler le volume. En usage combiné avec un Google home il permet de faire le pont avec les interactions et d'avoir un retour vocal, il permet aussi d'utiliser la fonction ask.",
+    "description": {
+        "fr_FR": "Plugin permettant de faire parler un device CAST. Il permet aussi de régler le volume. En usage combiné avec un Google home il permet de faire le pont avec les interactions et d'avoir un retour vocal, il permet aussi d'utiliser la fonction ask.",
+        "en_US": "Plugin allowing a CAST device to speak. It also allows you to adjust the volume. When used in combination with a Google home, it allows you to bridge interactions and have voice feedback, it also allows you to use the ask function",
+        "es_ES": "Complemento que permite que un dispositivo CAST hable. También le permite ajustar el volumen. Cuando se usa en combinación con un hogar de Google, le permite unir interacciones y tener comentarios de voz, también le permite usar la función de preguntar",
+        "de_DE": "Plugin, mit dem ein CAST-Gerät sprechen kann. Sie können damit auch die Lautstärke einstellen. In Kombination mit einer Google-Startseite können Sie Interaktionen überbrücken und Sprachfeedback erhalten. Außerdem können Sie die Ask-Funktion verwenden",
+        "pt_PT": "Plug-in que permite que um dispositivo CAST fale. Também permite ajustar o volume. Quando usado em combinação com uma página inicial do Google, ele permite que você interaja com interações e tenha feedback por voz, além de usar a função de solicitação"
+    },
     "licence": "AGPL",
     "author": "Ludovic SARAKHA",
     "require": "3.0",
     "category": "communication",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/gcast\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/gcast\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/gcast\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }
