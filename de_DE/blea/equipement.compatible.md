@@ -267,4 +267,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-10-19 15:58:06
+2020-10-19 17:55:52
