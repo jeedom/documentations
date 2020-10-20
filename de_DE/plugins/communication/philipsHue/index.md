@@ -80,3 +80,7 @@ Hier sind zum Beispiel die Sequenzen für die Schaltfläche Ein :
 >
 > Du musst :
 > - Schreiben Sie uns die Ausrüstung, die Sie hinzufügen möchten, mit Foto und Möglichkeiten - senden Sie uns das Protokoll-Debug der Synchronisation mit der Bridge, während Sie uns mit einer Support-Anfrage kontaktieren
+
+>**Ich habe die Historisierung eines Auftrags hinzugefügt, aber es funktioniert nicht**
+>
+>Bei Leistungsproblemen müssen Sie den philips hue-Daemon neu starten, damit diese Änderung berücksichtigt wird.

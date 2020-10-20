@@ -80,3 +80,7 @@ Voici les séquence pour le bouton On par exemple :
 >
 > Il faut :
 > - nous d'écrire l'équipement que vous voulez qu'on ajoute avec photo et possibilités de celui-ci - nous envoyer le log en debug de la synchronisation avec le pont Le tout en nous contactant par une demande de support
+
+>**J'ai ajouté l'historisation d'une commande mais ca ne marche pas**
+>
+>Pour des questions de performance il faut redemarrer le demon philips hue pour qu'il prenne en compte ce changement.

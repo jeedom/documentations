@@ -1,0 +1,34 @@
+{
+    "id": "bestway",
+    "name": "Bestway",
+    "description": "Plugin pour piloter les équipements connecté Bestway. Pour le moment seul le SPA Milan a été testé (seul spa connecté de la gamme).",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.0",
+    "category": "communication",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "display": "panel",
+    "mobile": "panel",
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/bestway\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/bestway",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "de_DE",
+        "sp_SP",
+        "ru_RU",
+        "id_ID",
+        "it_IT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
+}

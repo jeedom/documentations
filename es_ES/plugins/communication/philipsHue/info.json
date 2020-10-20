@@ -1,7 +1,13 @@
 {
     "id": "philipsHue",
     "name": "Philips Hue",
-    "description": "Plugin pour s'integrer à l'écosystème Philips Hue (peut gerer jusqu'a 2 ponts simultanement).",
+    "description": {
+        "fr_FR": "Plugin pour s'integrer à l'écosystème Philips Hue (peut gerer jusqu'a 2 ponts simultanement).",
+        "en_US": "Plugin to integrate into the Philips Hue ecosystem (can manage up to 2 bridges simultaneously)",
+        "es_ES": "Complemento para integrarse en el ecosistema Philips Hue (puede gestionar hasta 2 puentes simultáneamente)",
+        "de_DE": "Plugin zur Integration in das Philips Hue-Ökosystem (kann bis zu 2 Bridges gleichzeitig verwalten)",
+        "pt_PT": "Plug-in para integrar-se ao ecossistema Philips Hue (pode gerenciar até 2 pontes simultaneamente)"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "3.3.32",
@@ -12,17 +18,17 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",
         "smart",
         "rpi",
         "docker",
-        "diy"
+        "diy",
+        "mobile",
+        "v4"
     ]
 }

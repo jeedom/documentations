@@ -1,8 +1,12 @@
-# Registro de cambios Dyson 
+# Registro de cambios Dyson
 
 >**Importante**
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
+
+# 10/11/2020
+
+- Corrección de errores
 
 # 10/07/2020
 

@@ -80,3 +80,7 @@ Aqui estão as sequências para o botão On, por exemplo :
 >
 > Você deve :
 > - escreva-nos o equipamento que você deseja adicionar com a foto e as possibilidades - envie-nos o log de depuração da sincronização com a ponte enquanto nos contata com uma solicitação de suporte
+
+>**Eu adicionei a historização de um pedido, mas não funciona**
+>
+>Para problemas de desempenho, você deve reiniciar o daemon philips hue para que ele leve essa mudança em consideração.

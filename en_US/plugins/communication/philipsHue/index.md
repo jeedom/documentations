@@ -80,3 +80,7 @@ Here are the sequences for the On button for example :
 >
 > It is necessary :
 > - write us the equipment you want to add with photo and possibilities of it - send us the log debug of synchronization with the bridge while contacting us with a support request
+
+>**I added the historization of an order but it does not work**
+>
+>For performance issues, you must restart the philips hue daemon so that it takes this change into account.
