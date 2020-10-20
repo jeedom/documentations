@@ -1,11 +1,32 @@
 {
     "id": "netatmoWeather",
     "name": "Netatmo Station",
-    "description": "Permet de récupérer les informations des stations météo Netatmo.",
+    "description": {
+        "fr_FR": "Permet de récupérer les informations des stations météo Netatmo.",
+        "en_US": "Allows you to retrieve information from Netatmo weather stations",
+        "es_ES": "Le permite recuperar información de las estaciones meteorológicas de Netatmo",
+        "de_DE": "Ermöglicht das Abrufen von Informationen von Netatmo-Wetterstationen",
+        "pt_PT": "Permite recuperar informações das estações meteorológicas da Netatmo"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.2",
     "category": "weather",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/netatmoWeather\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/netatmoWeather\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/netatmoWeather\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "v4"
+    ]
 }

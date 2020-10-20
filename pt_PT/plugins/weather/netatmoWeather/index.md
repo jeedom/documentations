@@ -30,7 +30,7 @@ Identifique-se, com seu email e senha
 
 ![netatmoWeather12](../images/netatmoWeather12.png)
 
-Preencha os campos "Nome" e "Descrição" (o que você inserir não importa) :
+Preencha os campos "Nome" e "Descrição" (o que você colocar, não importa) :
 
 ![netatmoWeather13](../images/netatmoWeather13.png)
 
@@ -38,7 +38,7 @@ Em seguida, na parte inferior da página, marque a caixa "Aceito os termos de us
 
 ![netatmoWeather14](../images/netatmoWeather14.png)
 
-Recupere as informações "ID do cliente" e "Cliente secreto" e copie-as na parte de configuração do plug-in no Jeedom (consulte o capítulo anterior)
+Recupere as informações "ID do cliente" e "Segredo do cliente" e copie-as na parte de configuração do plug-in no Jeedom (consulte o capítulo anterior)
 
 ![netatmoWeather15](../images/netatmoWeather15.png)
 
@@ -52,13 +52,13 @@ A configuração do equipamento Netatmo pode ser acessada no menu plug-in :
 
 ![netatmoWeather3](../images/netatmoWeather3.png)
 
-É assim que a página do plugin Netatmo se parece (aqui já com 2 equipamentos) :
+É assim que a página do plugin Netatmo se parece (aqui com 2 equipamentos) :
 
 ![netatmoWeather4](../images/netatmoWeather4.png)
 
 > **Dica**
 >
-> Como em muitos lugares do Jeedom, posicionar o mouse na extremidade esquerda permite que um menu de acesso rápido apareça (você sempre pode deixá-lo visível em seu perfil).
+> Como em muitos lugares do Jeedom, posicionar o mouse à extrema esquerda exibe um menu de acesso rápido (você pode, a partir do seu perfil, deixá-lo sempre visível).
 
 Depois de clicar em um equipamento, você obtém :
 
@@ -71,13 +71,13 @@ Aqui você encontra toda a configuração do seu equipamento :
 -   **Ativar** : torna seu equipamento ativo
 -   **Visivél** : torna visível no painel
 -   **Login** : identificador único de equipamento
--   **Tipo** : tipo de seu equipamento (estação, sonda interna, sonda externa ...)
+-   **Tipo** : tipo do seu equipamento (estação, sonda interna, sonda externa)
 
 Abaixo você encontra a lista de pedidos :
 
 -   o nome exibido no painel
 -   Historicizar : permite historiar os dados
--   configuração avançada (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.)
+-   Configuração avançada (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.))
 -   Teste : permite testar o comando
 
 # Widget

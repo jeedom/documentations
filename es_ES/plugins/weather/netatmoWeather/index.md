@@ -8,7 +8,7 @@ Una vez que se instala el complemento, debe ingresar la información de conexió
 
 ![netatmoWeather2](./images/netatmoWeather2.png)
 
--   **ID del cliente** : su ID de cliente (vea la sección de configuración)
+-   **ID del cliente** : su ID de cliente (consulte la sección de configuración)
 -   **Client secret** : su cliente secreto (vea la sección de configuración)
 -   **Nombre de usuario** : nombre de usuario de su cuenta netatmo
 -   **Contraseña** : contraseña para su cuenta de Netatmo
@@ -30,7 +30,7 @@ Identifícate con tu correo electrónico y contraseña
 
 ![netatmoWeather12](./images/netatmoWeather12.png)
 
-Complete los campos "Nombre" y "Descripción" (no importa lo que ingrese) :
+Rellene los campos "Nombre" y "Descripción" (lo que escriba no importa) :
 
 ![netatmoWeather13](./images/netatmoWeather13.png)
 
@@ -38,7 +38,7 @@ Luego, en la parte inferior de la página, marque la casilla "Acepto los términ
 
 ![netatmoWeather14](./images/netatmoWeather14.png)
 
-Recupere la información de "ID de cliente" y "Cliente secreto" y cópielos en la parte de configuración del complemento en Jeedom (consulte el capítulo anterior)
+Recupere la información de "Id. Del cliente" y "Secreto del cliente" y cópielos en la parte de configuración del complemento en Jeedom (consulte el capítulo anterior)
 
 ![netatmoWeather15](./images/netatmoWeather15.png)
 
@@ -52,13 +52,13 @@ La configuración del equipo Netatmo es accesible desde el menuplugin :
 
 ![netatmoWeather3](./images/netatmoWeather3.png)
 
-Así es como se ve la página del complemento Netatmo (aquí con 2 equipos ya) :
+Así es como se ve la página del complemento Netatmo (aquí con ya 2 equipos) :
 
 ![netatmoWeather4](./images/netatmoWeather4.png)
 
 > **Punta**
 >
-> Como en muchos lugares de Jeedom, colocar el mouse en el extremo izquierdo permite que aparezca un menú de acceso rápido (siempre puede dejarlo visible desde su perfil).
+> Como en muchos lugares de Jeedom, al colocar el mouse en el extremo izquierdo aparece un menú de acceso rápido (desde su perfil siempre puede dejarlo visible).
 
 Una vez que haces clic en un equipo, obtienes :
 
@@ -71,13 +71,13 @@ Aquí encontrarás toda la configuración de tu equipo :
 -   **Activar** : activa su equipo
 -   **Visible** : lo hace visible en el tablero
 -   **Identificador** : identificador de equipo único
--   **Tipo** : tipo de su equipo (estación, sonda interior, sonda exterior ...)
+-   **Tipo** : tipo de su equipo (estación, sonda interior, sonda exterior)
 
 A continuación encontrará la lista de pedidos :
 
 -   el nombre que se muestra en el tablero
 -   Guardar historial : permite historizar los datos
--   configuración avanzada (ruedas con muescas pequeñas) : muestra la configuración avanzada del comando (método de registro, widget, etc.)
+-   Configuración avanzada (ruedas pequeñas con muescas) : muestra la configuración avanzada del comando (método de registro, widget, etc.))
 -   Probar : Se usa para probar el comando
 
 # Widget

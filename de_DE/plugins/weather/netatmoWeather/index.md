@@ -8,8 +8,8 @@ Sobald das Plugin installiert ist, müssen Sie Ihre Netatmo-Verbindungsinformati
 
 ![netatmoWeather2](./images/netatmoWeather2.png)
 
--   **Kunden-ID** : Ihre Client-ID (siehe Konfigurationsabschnitt)
--   **Geheimer Kunde** : Ihr geheimer Client (siehe Konfigurationsabschnitt)
+-   **Kunden-ID** : Ihre Client-ID (siehe Abschnitt Konfiguration)
+-   **Geheimer Kunde** : Ihr geheimer Client (siehe Abschnitt Konfiguration)
 -   **Benutzername** : Benutzername Ihres Netatmo-Kontos
 -   **Passwort** : Passwort für Ihr Netatmo-Konto
 -   **Synchronize** : Mit dieser Option können Sie Jeedom mit Ihrem Netamo-Konto synchronisieren, um Ihre Netamo-Geräte automatisch zu erkennen. Nach dem Speichern der vorherigen Parameter.
@@ -38,7 +38,7 @@ Aktivieren Sie dann ganz unten auf der Seite das Kontrollkästchen "Ich akzeptie
 
 ![netatmoWeather14](./images/netatmoWeather14.png)
 
-Stellen Sie die Informationen "CLient ID" und "Secret Client" wieder her und kopieren Sie sie in den Konfigurationsteil des Plugins in Jeedom (siehe vorheriges Kapitel)
+Rufen Sie die Informationen "Client-ID" und "Client-Geheimnis" ab und kopieren Sie sie in den Konfigurationsteil des Plugins in Jeedom (siehe vorheriges Kapitel))
 
 ![netatmoWeather15](./images/netatmoWeather15.png)
 
@@ -58,7 +58,7 @@ So sieht die Netatmo-Plugin-Seite aus (hier mit bereits 2 Geräten) :
 
 > **Spitze**
 >
-> Wie an vielen Stellen in Jeedom wird durch Platzieren der Maus ganz links ein Schnellzugriffsmenü angezeigt (Sie können es jederzeit in Ihrem Profil sichtbar lassen).
+> Wie an vielen Stellen in Jeedom wird durch Platzieren der Maus ganz links ein Schnellzugriffsmenü angezeigt (Sie können es in Ihrem Profil immer sichtbar lassen).
 
 Sobald Sie auf ein Gerät klicken, erhalten Sie :
 
@@ -71,13 +71,13 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 -   **Aktivieren** : macht Ihre Ausrüstung aktiv
 -   **Sichtbar** : macht es auf dem Dashboard sichtbar
 -   **Login** : eindeutige Gerätekennung
--   **Typ** : Art Ihrer Ausrüstung (Station, Innensonde, Außensonde…)
+-   **Typ** : Art Ihrer Ausrüstung (Station, Innensonde, Außensonde)
 
 Nachfolgend finden Sie die Liste der Bestellungen :
 
 -   Der im Dashboard angezeigte Name
 -   Chronik : ermöglicht das Historisieren der Daten
--   erweiterte Konfiguration (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.)
+-   Erweiterte Konfiguration (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.))
 -   Test : Wird zum Testen des Befehls verwendet
 
 # Widget
