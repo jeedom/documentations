@@ -5,7 +5,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zigbee/images/spirit.valve.png" width="60" />|Eurotronic|Vanne Spirit||Vanne qui a tendance à ne plus accepter d'ordre à moins de la reinclure.||
+|<img src="../../fr_FR/zigbee/images/spirit.valve.png" width="60" />|Eurotronic|Vanne Spirit||Vanne qui a tendance à ne plus accepter d'ordre (changement de consigne) à moins d'enlever les piles et de les remettres. Par contre elle remonte toujours bien les informations de température et changement de consigne manuel||
 
 # GR-SMARTHOME
 
@@ -94,21 +94,33 @@
 |<img src="../../fr_FR/zigbee/images/fei.b7e305eb329f497384e966fe3fb0ac69.png" width="60" />|Orvibo|Water leak||||
 |<img src="../../fr_FR/zigbee/images/fei.c3442b4ac59b4ba1a83119d938f283ab.png" width="60" />|Orvibo|Smoke detector||||
 
+# Osram
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|OSRAM Smart+ Ampoule LED Connectée - Culot E27||||
+
 # Philips
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/Philips.LCA001.png" width="60" />|Philips|White and color ambiance||||
+|<img src="../../fr_FR/zigbee/images/Philips.LCT003.png" width="60" />|Philips|White and Color Ambiance GU10||||
+|<img src="../../fr_FR/zigbee/images/Philips.LST002.png" width="60" />|Philips|Lightstrip white and color||||
 |<img src="../../fr_FR/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../fr_FR/zigbee/images/Philips.RWL021.png" width="60" />|Philips|Télécommande 4 boutons||||
 |<img src="../../fr_FR/zigbee/images/Philips.SML001.png" width="60" />|Philips|Philips mouvement||||
+|<img src="../../fr_FR/zigbee/images/Philips.huego.png" width="60" />|Philips|Hue Go||||
+|<img src="../../fr_FR/zigbee/images/Philips.hueplay.png" width="60" />|Philips|Hue Play||||
 
 # Schneider
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Capteur d'ouverture||!! Attention le module ne marche pas !!||
-|<img src="../../fr_FR/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Capteur d'innondation||!! Attention le module ne marche pas !!||
+|<img src="../../fr_FR/zigbee/images/Schneider_Electric.1GANGSHUTTER1.png" width="60" />|Schneider|Shutter||||
+|<img src="../../fr_FR/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Wiser Door sensor||!! Attention le module ne marche pas !!||
+|<img src="../../fr_FR/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Wiser leak snesor||!! Attention le module ne marche pas !!||
+|<img src="../../fr_FR/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Wiser Exxact Dimmer||||
 |<img src="../../fr_FR/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|Puck dimmer||||
 
 # Sonoff
@@ -154,4 +166,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-10-22 02:32:16
+2020-10-23 02:32:04

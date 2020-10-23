@@ -5,7 +5,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/spirit.valve.png" width="60" />|Eurotronic|Spiritusventil||Ventil, das dazu neigt, eine Bestellung nicht mehr anzunehmen, es sei denn, sie ist wieder enthalten.||
+|<img src="../../de_DE/zigbee/images/spirit.valve.png" width="60" />|Eurotronic|Spiritusventil||Ventil, das dazu neigt, Bestellungen nicht mehr anzunehmen (Änderung des Sollwerts), es sei denn, die Batterien werden entfernt und zurückgesetzt. Andererseits werden immer die Temperaturinformationen und die manuelle Sollwertänderung zurückgemeldet||
 
 # GR-SMARTHOME
 
@@ -94,21 +94,33 @@
 |<img src="../../de_DE/zigbee/images/fei.b7e305eb329f497384e966fe3fb0ac69.png" width="60" />|Orvibo|Wasserleck||||
 |<img src="../../de_DE/zigbee/images/fei.c3442b4ac59b4ba1a83119d938f283ab.png" width="60" />|Orvibo|Rauchmelder||||
 
+# Osram
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|OSRAM Smart + Connected LED-Lampe - E27-Sockel||||
+
 # Philips
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/Philips.LCA001.png" width="60" />|Philips|Weiß und Farbambiente||||
+|<img src="../../de_DE/zigbee/images/Philips.LCT003.png" width="60" />|Philips|Weiß- und Farbambiente GU10||||
+|<img src="../../de_DE/zigbee/images/Philips.LST002.png" width="60" />|Philips|Lichtstreifen weiß und Farbe||||
 |<img src="../../de_DE/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../de_DE/zigbee/images/Philips.RWL021.png" width="60" />|Philips|4-Tasten-Fernbedienung||||
 |<img src="../../de_DE/zigbee/images/Philips.SML001.png" width="60" />|Philips|Philips Bewegung||||
+|<img src="../../de_DE/zigbee/images/Philips.huego.png" width="60" />|Philips|Hue Go||||
+|<img src="../../de_DE/zigbee/images/Philips.hueplay.png" width="60" />|Philips|Farbton spielen||||
 
 # Schneider
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Sensor öffnen||!! Achtung das Modul funktioniert nicht !!||
-|<img src="../../de_DE/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Hochwassersensor||!! Achtung das Modul funktioniert nicht !!||
+|<img src="../../de_DE/zigbee/images/Schneider_Electric.1GANGSHUTTER1.png" width="60" />|Schneider|Shutter||||
+|<img src="../../de_DE/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Klügerer Türsensor||!! Achtung das Modul funktioniert nicht !!||
+|<img src="../../de_DE/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Klügerer Leck-Snesor||!! Achtung das Modul funktioniert nicht !!||
+|<img src="../../de_DE/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Klügerer exakter Dimmer||||
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|Puckdimmer||||
 
 # Sonoff
@@ -154,4 +166,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-10-22 02:32:16
+2020-10-23 02:32:04

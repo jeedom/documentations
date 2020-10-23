@@ -761,7 +761,7 @@
 |<img src="../../de_DE/zwave/images/411.3.520_Z-Relay.jpg" width="60" />|Thermofloor|Z-Relay|Rail-Din|||
 |<img src="../../de_DE/zwave/images/411.3.522_z-water.jpg" width="60" />|Thermofloor|Z-Water|Rail-Din|||
 |<img src="../../de_DE/zwave/images/411.3.8704_zdim.jpg" width="60" />|Thermofloor|Z-Dim|Micromodule|||
-|<img src="../../de_DE/zwave/images/411.4.516_heatit.ztemp2.thermostat.jpg" width="60" />|Thermofloor|Z-Temp2 Thermostat|Thermostat|||
+|<img src="../../de_DE/zwave/images/411.4.516_heatit.ztemp2.thermostat.jpg" width="60" />|Heatit|Z-Temp2 Thermostat|Thermostat|||
 
 # Vision Sicherheit
 
@@ -889,4 +889,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-10-22 02:08:04
+2020-10-23 02:08:04
