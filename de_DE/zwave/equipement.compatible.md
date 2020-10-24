@@ -453,7 +453,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/520.256.10_hkzw-so05.jpg" width="60" />|Hank|Smart Plug (HKZW-SO05)|Prise|||
-||Hank|Bulb|Ampoule|Ändern Sie auf der Registerkarte "System" die Farbkanäle mit dem Wert 31, um konsistente Farbverhältnisse zu erhalten||
+|<img src="../../de_DE/zwave/images/520.256.4_hkwx-rgb01.jpg" width="60" />|Hank|Bulb|Ampoule|Ändern Sie auf der Registerkarte "System" die Farbkanäle mit dem Wert 31, um konsistente Farbverhältnisse zu erhalten||
 |<img src="../../de_DE/zwave/images/520.257.5_hkzw-so01.jpg" width="60" />|Hank|Smart Plug (HKZW-SO01)|Prise|||
 |<img src="../../de_DE/zwave/images/520.512.11_scene-controller-4.jpg" width="60" />|Hank|Szenensteuerung 4|Tragbarer Controller|||
 |<img src="../../de_DE/zwave/images/520.512.18_hkzw-ms02.motion.sensor.jpg" width="60" />|Hank|Bewegungssensor (HKZW-MS02)|Multicapteurs|||
@@ -757,10 +757,10 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/411.1.1_thermostat.jpg" width="60" />|Thermofloor|Heatit Z-Wave Thermostat|Thermostat||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2731-thermofloor-thermostat-z-wave-heatit-3600w-16a-blanc-7071236011934.html)|
-|<img src="../../de_DE/zwave/images/411.3.515_z-trm3.jpg" width="60" />|Thermofloor|Z-TRM3 Thermostat|Thermostat|||
-|<img src="../../de_DE/zwave/images/411.3.520_Z-Relay.jpg" width="60" />|Thermofloor|Z-Relay|Rail-Din|||
-|<img src="../../de_DE/zwave/images/411.3.522_z-water.jpg" width="60" />|Thermofloor|Z-Water|Rail-Din|||
-|<img src="../../de_DE/zwave/images/411.3.8704_zdim.jpg" width="60" />|Thermofloor|Z-Dim|Micromodule|||
+|<img src="../../de_DE/zwave/images/411.3.515_z-trm3.jpg" width="60" />|Heatit|Z-TRM3 Thermostat|Thermostat|||
+|<img src="../../de_DE/zwave/images/411.3.520_Z-Relay.jpg" width="60" />|Heatit|Z-Relay|Rail-Din|||
+|<img src="../../de_DE/zwave/images/411.3.522_z-water.jpg" width="60" />|Heatit|Z-Water|Rail-Din|||
+|<img src="../../de_DE/zwave/images/411.3.8704_zdim.jpg" width="60" />|Heatit|Z-Dim|Micromodule|||
 |<img src="../../de_DE/zwave/images/411.4.516_heatit.ztemp2.thermostat.jpg" width="60" />|Heatit|Z-Temp2 Thermostat|Thermostat|||
 
 # Vision Sicherheit
@@ -889,4 +889,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-10-23 02:08:04
+2020-10-24 02:08:04

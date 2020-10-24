@@ -453,7 +453,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zwave/images/520.256.10_hkzw-so05.jpg" width="60" />|Hank|Smart Plug (HKZW-SO05)|Prise|||
-||Hank|Bulb|Ampoule|System tab, modify Color Channels with the value 31 to have consistent color ratios||
+|<img src="../../en_US/zwave/images/520.256.4_hkwx-rgb01.jpg" width="60" />|Hank|Bulb|Ampoule|System tab, modify Color Channels with the value 31 to have consistent color ratios||
 |<img src="../../en_US/zwave/images/520.257.5_hkzw-so01.jpg" width="60" />|Hank|Smart Plug (HKZW-SO01)|Prise|||
 |<img src="../../en_US/zwave/images/520.512.11_scene-controller-4.jpg" width="60" />|Hank|Scene Controller 4|Portable controller|||
 |<img src="../../en_US/zwave/images/520.512.18_hkzw-ms02.motion.sensor.jpg" width="60" />|Hank|Motion Sensor (HKZW-MS02)|Multicapteurs|||
@@ -757,10 +757,10 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zwave/images/411.1.1_thermostat.jpg" width="60" />|Thermofloor|Heatit Z-Wave thermostat|Thermostat||[Buy](http://www.domadoo.fr/fr/peripheriques/2731-thermofloor-thermostat-z-wave-heatit-3600w-16a-blanc-7071236011934.html)|
-|<img src="../../en_US/zwave/images/411.3.515_z-trm3.jpg" width="60" />|Thermofloor|Z-TRM3 thermostat|Thermostat|||
-|<img src="../../en_US/zwave/images/411.3.520_Z-Relay.jpg" width="60" />|Thermofloor|Z-Relay|Rail-Din|||
-|<img src="../../en_US/zwave/images/411.3.522_z-water.jpg" width="60" />|Thermofloor|Z-Water|Rail-Din|||
-|<img src="../../en_US/zwave/images/411.3.8704_zdim.jpg" width="60" />|Thermofloor|Z-Dim|Micromodule|||
+|<img src="../../en_US/zwave/images/411.3.515_z-trm3.jpg" width="60" />|Heatit|Z-TRM3 thermostat|Thermostat|||
+|<img src="../../en_US/zwave/images/411.3.520_Z-Relay.jpg" width="60" />|Heatit|Z-Relay|Rail-Din|||
+|<img src="../../en_US/zwave/images/411.3.522_z-water.jpg" width="60" />|Heatit|Z-Water|Rail-Din|||
+|<img src="../../en_US/zwave/images/411.3.8704_zdim.jpg" width="60" />|Heatit|Z-Dim|Micromodule|||
 |<img src="../../en_US/zwave/images/411.4.516_heatit.ztemp2.thermostat.jpg" width="60" />|Heatit|Z-Temp2 thermostat|Thermostat|||
 
 # Vision security
@@ -889,4 +889,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-10-23 02:08:04
+2020-10-24 02:08:04

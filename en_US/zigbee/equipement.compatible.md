@@ -27,6 +27,14 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|TZ2000|Temperature / humidity||||
 
+# Alfawise
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/TUYATEC-1g3tawnp.RH3052.png" width="60" />|Alfawise|Alfawise Temperature / humidity||||
+|<img src="../../en_US/zigbee/images/TUYATEC-deetibst.RH3040.png" width="60" />|Alfawise|Alfawise carries||||
+|<img src="../../en_US/zigbee/images/TUYATEC-ip9ganvw.RH3001.png" width="60" />|Alfawise|Alfawise carries||||
+
 # Danalock
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -37,15 +45,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Danfoss Ally|||[Buy](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
-
-# Generic
-
-|Image|Marque|Nom|Type|Remarque|Lien|
-|---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/light.rgb.png" width="60" />|Generic|Light RGB||Generic equipment for an RGB light||
-|<img src="../../en_US/zigbee/images/on_off.png" width="60" />|Generic|On / off||Generic equipment for a socket or any On / Off module||
-|<img src="../../en_US/zigbee/images/opening.png" width="60" />|Generic|Opening / Motion||Generic equipment for opening or motion sensor||
+|<img src="../../en_US/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Danfoss Ally|||[Documentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 
 # Heiman
 
@@ -104,20 +104,44 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/Philips.LCA001.png" width="60" />|Philips|White and color ambiance||||
-|<img src="../../en_US/zigbee/images/Philips.LCT003.png" width="60" />|Philips|White and Color Ambiance GU10||||
-|<img src="../../en_US/zigbee/images/Philips.LST002.png" width="60" />|Philips|Lightstrip white and color||||
+|<img src="../../en_US/zigbee/images/Philips.LCA001.png" width="60" />|Philips|Hue White and Color Ambiance A60 E27||||
+|<img src="../../en_US/zigbee/images/Philips.LCT001.png" width="60" />|Philips|Hue bulb white and color||||
+|<img src="../../en_US/zigbee/images/Philips.LCT002.png" width="60" />|Philips|Hue White and Color BR30 (1st Gen)||||
+|<img src="../../en_US/zigbee/images/Philips.LCT003.png" width="60" />|Philips|Hue White and Color Ambiance Spot GU10||||
+|<img src="../../en_US/zigbee/images/Philips.LCT007.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26 (Gen 2)||||
+|<img src="../../en_US/zigbee/images/Philips.LCT010.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26 (Gen 3)||||
+|<img src="../../en_US/zigbee/images/Philips.LCT011.png" width="60" />|Philips|Hue White and Color Ambiance BR30 Richer Colors||||
+|<img src="../../en_US/zigbee/images/Philips.LCT012.png" width="60" />|Philips|Hue White and Color Ambiance Candle E12||||
+|<img src="../../en_US/zigbee/images/Philips.LCT014.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26||||
+|<img src="../../en_US/zigbee/images/Philips.LCT015.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26||||
+|<img src="../../en_US/zigbee/images/Philips.LCT024.png" width="60" />|Philips|Hue White and Color Ambiance Play Light Bar||||
+|<img src="../../en_US/zigbee/images/Philips.LLC001.png" width="60" />|Philips|Hue LivingColors||||
+|<img src="../../en_US/zigbee/images/Philips.LLC005.png" width="60" />|Philips|Hue LivingColors||||
+|<img src="../../en_US/zigbee/images/Philips.LLC006.png" width="60" />|Philips|Hue LivingColors Iris Table Lamp Gen3||||
+|<img src="../../en_US/zigbee/images/Philips.LLC007.png" width="60" />|Philips|Hue LivingColors||||
+|<img src="../../en_US/zigbee/images/Philips.LLC010.png" width="60" />|Philips|Hue Iris Table Lamp||||
+|<img src="../../en_US/zigbee/images/Philips.LLC011.png" width="60" />|Philips|Hue Bloom Living Colors Starter Pack||||
+|<img src="../../en_US/zigbee/images/Philips.LLC012.png" width="60" />|Philips|Hue Bloom Table Lamp||||
+|<img src="../../en_US/zigbee/images/Philips.LLC013.png" width="60" />|Philips|Hue LivingColors||||
+|<img src="../../en_US/zigbee/images/Philips.LLC020.png" width="60" />|Philips|Hue Go Portable Light||||
+|<img src="../../en_US/zigbee/images/Philips.LLM001.png" width="60" />|Philips|Hue Beyond Suspension Light||||
+|<img src="../../en_US/zigbee/images/Philips.LLM010.png" width="60" />|Philips|Hue white and color||||
+|<img src="../../en_US/zigbee/images/Philips.LLM011.png" width="60" />|Philips|Hue white and color||||
+|<img src="../../en_US/zigbee/images/Philips.LLM012.png" width="60" />|Philips|Hue white and color||||
+|<img src="../../en_US/zigbee/images/Philips.LST001.png" width="60" />|Philips|Hue LightStrip||||
+|<img src="../../en_US/zigbee/images/Philips.LST002.png" width="60" />|Philips|Hue LightStrip Plus||||
+|<img src="../../en_US/zigbee/images/Philips.LST004.png" width="60" />|Philips|Hue LightStrip Outdoor||||
 |<img src="../../en_US/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../en_US/zigbee/images/Philips.RWL021.png" width="60" />|Philips|4 button remote control||||
 |<img src="../../en_US/zigbee/images/Philips.SML001.png" width="60" />|Philips|Philips movement||||
 |<img src="../../en_US/zigbee/images/Philips.huego.png" width="60" />|Philips|Hue Go||||
-|<img src="../../en_US/zigbee/images/Philips.hueplay.png" width="60" />|Philips|Hue play||||
 
 # Schneider
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/Schneider_Electric.1GANGSHUTTER1.png" width="60" />|Schneider|Shutter||||
+|<img src="../../en_US/zigbee/images/Schneider_Electric.2GANGSWITCH2.png" width="60" />|Schneider|Double switch||||
 |<img src="../../en_US/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Wiser Door sensor||!! Attention the module does not work !!||
 |<img src="../../en_US/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Wiser leak snesor||!! Attention the module does not work !!||
 |<img src="../../en_US/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Wiser Exxact Dimmer||||
@@ -129,6 +153,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|Sonoff Basic ZBR3|||[Buy](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
 |<img src="../../en_US/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|Sonoff wears||Attention there is a bug in the firmware which makes it go up as a temperature and humidity module it is therefore necessary following the inclusion to reset the correct model and remove the temperature and humidity controls|[Buy](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
+|<img src="../../en_US/zigbee/images/eWeLink.DS01.png" width="60" />|Sonoff|Sonoff wears|||[Buy](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
 |<img src="../../en_US/zigbee/images/eWeLink.MS01.png" width="60" />|Sonoff|Sonoff movement|||[Buy](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.html)|
 |<img src="../../en_US/zigbee/images/eWeLink.TH01.png" width="60" />|Sonoff|Sonoff Temperature / humidity|||[Buy](https://www.domadoo.fr/fr/peripheriques/5260-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30.html)|
 |<img src="../../en_US/zigbee/images/eWeLink.WB01.png" width="60" />|Sonoff|Sonoff button|||[Buy](https://www.domadoo.fr/fr/peripheriques/5259-sonoff-interrupteur-sans-fil-zigbee-30.html)|
@@ -148,13 +173,18 @@
 |<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|Xiaomi single switch without neutral||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|Xioami double switch without neutral||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.plug.png" width="60" />|Xiaomi|Xiaomi taken||||
+|<img src="../../en_US/zigbee/images/LUMI.lumi.plug.mmeu01.png" width="60" />|Xiaomi|Xiaomi taken||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|Xiaomi Aqara LLKZMK11LM Intelligent two-way module||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|Xioami double switch|||[Buy](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|Brightness sensor||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_cube.png" width="60" />|Xiaomi|Cube||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_ht.png" width="60" />|Xiaomi|Temperature / humidity sensor||||
+|<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|Xiaomi aquara aperture sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_magnet.png" width="60" />|Xiaomi|Xiaomi sensor opening||||
+|<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|Xiaomi aquara motion|||[Buy](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_motion.png" width="60" />|Xiaomi|Xiaomi motion sensor||||
+|<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_switch.png" width="60" />|Xiaomi|Xiaomi aquara switch||||
+|<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|Xiaomi aquara flood|||[Buy](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|Xioami Aquara Vibration|||[Buy](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|Temperature / pressure / humidity sensor||||
 |<img src="../../en_US/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|Xiaomi taken||||
@@ -166,4 +196,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-10-23 02:32:04
+2020-10-24 02:32:04
