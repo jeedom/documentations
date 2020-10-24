@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 23/09/2020
+
 - Danfoss Ally Ventilhalterung (Dekonz 2.05.79 erforderlich)
 - Änderung der Installationsmethode für RPI und x86_64 (Durchgang durch die Dekonz-Repositorys)
 

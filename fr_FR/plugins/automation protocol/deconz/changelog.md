@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 24/10/2020
+
+- Correction d'un bug sur le passage en lock des thermostats
+
 # 23/09/2020
 
 - Support de la vanne Danfoss ally (necessite deconz 2.05.79)

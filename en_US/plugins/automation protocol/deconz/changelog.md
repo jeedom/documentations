@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 23/09/2020
+
 - Danfoss ally valve support (deconz 2.05.79 required)
 - Change of the installation method for RPI and x86_64 (passage through the deconz repositories)
 
