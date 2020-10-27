@@ -21,12 +21,6 @@
 |<img src="../../de_DE/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand Mikromodul||||
 |<img src="../../de_DE/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand Mobilsteckdose Céliane||||
 
-# TZ2000
-
-|Image|Marque|Nom|Type|Remarque|Lien|
-|---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|TZ2000|Temperatur Feuchtigkeit||||
-
 # Alfawise
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -45,7 +39,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Danfoss Verbündeter|||[Dokumentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
+|<img src="../../de_DE/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Danfoss Verbündeter|Thermostatkopf||[Dokumentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 
 # Heiman
 
@@ -140,12 +134,12 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/Schneider_Electric.1GANGSHUTTER1.png" width="60" />|Schneider|Shutter||||
+|<img src="../../de_DE/zigbee/images/Schneider_Electric.1GANGSHUTTER1.png" width="60" />|Schneider|PlusLink Verschlusseinsatz|Volets||[Dokumentation](https://download.schneider-electric.com/files?p_enDocType=System+user+guide&p_File_Name=Merten_PL_Wiser_TIs_DE.pdf&p_Doc_Ref=Merten_PL_Wiser_TIs_DE)<br/>|
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.2GANGSWITCH2.png" width="60" />|Schneider|Doppelschalter||||
-|<img src="../../de_DE/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Klügerer Türsensor||!! Achtung das Modul funktioniert nicht !!||
-|<img src="../../de_DE/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Klügerer Leck-Snesor||!! Achtung das Modul funktioniert nicht !!||
-|<img src="../../de_DE/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Klügerer exakter Dimmer||||
-|<img src="../../de_DE/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|Puckdimmer||||
+|<img src="../../de_DE/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Klügerer Fenster- / Türsensor|Ouverture|!! Achtung das Modul funktioniert nicht !!|[Dokumentation](https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=MFR1569800.pdf&p_Doc_Ref=MFR1569800)<br/>|
+|<img src="../../de_DE/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Klügerer Wasserlecksensor|Fuite|!! Achtung das Modul funktioniert nicht !!||
+|<img src="../../de_DE/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Wiser Exxact Dimmer rotierend|Variateur|||
+|<img src="../../de_DE/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|Klügeres Mikrodimmermodul|Variateur|||
 
 # Sonoff
 
@@ -165,6 +159,13 @@
 |<img src="../../de_DE/zigbee/images/Sunricher.Motor_Controller.png" width="60" />|Sunricher|Sunricher Motorsteuerung||||
 |<img src="../../de_DE/zigbee/images/Sunricher.RGB-CCT.png" width="60" />|Sunricher|Sunricher RGB||||
 |<img src="../../de_DE/zigbee/images/Sunricher.ZG2858A.png" width="60" />|Sunricher|Sunricher ||||
+
+# Tuya
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Temperatur Feuchtigkeit||||
+|<img src="../../de_DE/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Moes Kühlerantrieb||||
 
 # Xiaomi
 
@@ -196,4 +197,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-10-26 01:32:09
+2020-10-27 01:32:03

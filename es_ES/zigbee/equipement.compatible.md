@@ -21,12 +21,6 @@
 |<img src="../../es_ES/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Micro módulo Legrand||||
 |<img src="../../es_ES/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Toma móvil Legrand Céliane||||
 
-# TZ2000
-
-|Image|Marque|Nom|Type|Remarque|Lien|
-|---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|TZ2000|Temperatura / humedad||||
-
 # Alfawise
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -45,7 +39,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Aliado de Danfoss|||[Documentación](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Comprar](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
+|<img src="../../es_ES/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Aliado de Danfoss|Cabezal termostático||[Documentación](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Comprar](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 
 # Heiman
 
@@ -140,12 +134,12 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/Schneider_Electric.1GANGSHUTTER1.png" width="60" />|Schneider|Shutter||||
+|<img src="../../es_ES/zigbee/images/Schneider_Electric.1GANGSHUTTER1.png" width="60" />|Schneider|Inserto de persiana PlusLink|Volets||[Documentación](https://download.schneider-electric.com/files?p_enDocType=System+user+guide&p_File_Name=Merten_PL_Wiser_TIs_DE.pdf&p_Doc_Ref=Merten_PL_Wiser_TIs_DE)<br/>|
 |<img src="../../es_ES/zigbee/images/Schneider_Electric.2GANGSWITCH2.png" width="60" />|Schneider|Interruptor doble||||
-|<img src="../../es_ES/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Sensor de puerta más sabio||!! Atención el módulo no funciona !!||
-|<img src="../../es_ES/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Snesor de fugas más sabio||!! Atención el módulo no funciona !!||
-|<img src="../../es_ES/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Atenuador exacto más sabio||||
-|<img src="../../es_ES/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|Atenuador de disco||||
+|<img src="../../es_ES/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Sensor de puerta / ventana más inteligente|Ouverture|!! Atención el módulo no funciona !!|[Documentación](https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=MFR1569800.pdf&p_Doc_Ref=MFR1569800)<br/>|
+|<img src="../../es_ES/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Sensor de fugas de agua más inteligente|Fuite|!! Atención el módulo no funciona !!||
+|<img src="../../es_ES/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Regulador giratorio Wiser Exxact|Variateur|||
+|<img src="../../es_ES/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|Módulo micro dimmer más sabio|Variateur|||
 
 # Sonoff
 
@@ -165,6 +159,13 @@
 |<img src="../../es_ES/zigbee/images/Sunricher.Motor_Controller.png" width="60" />|Sunricher|Controlador de motor Sunricher||||
 |<img src="../../es_ES/zigbee/images/Sunricher.RGB-CCT.png" width="60" />|Sunricher|Sunricher RGB||||
 |<img src="../../es_ES/zigbee/images/Sunricher.ZG2858A.png" width="60" />|Sunricher|Sunricher ||||
+
+# Tuya
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Temperatura / humedad||||
+|<img src="../../es_ES/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Actuador de radiador Moes||||
 
 # Xiaomi
 
@@ -196,4 +197,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-10-26 01:32:09
+27-10-2020 01:32:03
