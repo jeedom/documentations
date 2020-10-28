@@ -808,10 +808,13 @@
         "USB Stick ZU 1401": "USB Stick ZU 1401",
         "Heatit": "Heatit",
         "Thermostat Z-Temp2": "Thermostat Z-Temp2",
+        "Maintenir appuyé le bouton d'inclusion pendant 20 secondes": "Maintenir appuyé le bouton d'inclusion pendant 20 secondes",
         "Z-Dim": "Z-Dim",
+        "Variateur": "Variateur",
         "Z-Water": "Z-Water",
         "Rail-Din": "Rail-Din",
         "Z-Relay": "Z-Relay",
+        "Contacteur": "Contacteur",
         "Thermostat Z-TRM3": "Thermostat Z-TRM3",
         "Thermofloor": "Thermofloor",
         "Heatit Z-Wave thermostat": "Heatit Z-Wave thermostat",
@@ -892,7 +895,6 @@
         "Reto plug in Switch": "Reto plug in Switch",
         "Turtle Switch": "Turtle Switch",
         "Turtle Dimmer": "Turtle Dimmer",
-        "Variateur": "Variateur",
         "Popp": "Popp",
         "Universal Keypad": "Universal Keypad",
         "Clavier": "Clavier",
@@ -1293,7 +1295,7 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-10-26 01": "2020-10-26 01"
+        "2020-10-28 01": "2020-10-28 01"
     },
     "zwave\/everspring.AD147-6_-_Miniplug_Dimmer.md": {
         "Everspring Miniplug Dimmer - AD147-6": "Everspring Miniplug Dimmer - AD147-6",

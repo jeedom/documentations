@@ -757,11 +757,11 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/411.1.1_thermostat.jpg" width="60" />|Thermofloor|Heatit Z-Wave Thermostat|Thermostat||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2731-thermofloor-thermostat-z-wave-heatit-3600w-16a-blanc-7071236011934.html)|
-|<img src="../../de_DE/zwave/images/411.3.515_z-trm3.jpg" width="60" />|Heatit|Z-TRM3 Thermostat|Thermostat|||
-|<img src="../../de_DE/zwave/images/411.3.520_Z-Relay.jpg" width="60" />|Heatit|Z-Relay|Rail-Din|||
-|<img src="../../de_DE/zwave/images/411.3.522_z-water.jpg" width="60" />|Heatit|Z-Water|Rail-Din|||
-|<img src="../../de_DE/zwave/images/411.3.8704_zdim.jpg" width="60" />|Heatit|Z-Dim|Micromodule|||
-|<img src="../../de_DE/zwave/images/411.4.516_heatit.ztemp2.thermostat.jpg" width="60" />|Heatit|Z-Temp2 Thermostat|Thermostat|||
+|<img src="../../de_DE/zwave/images/411.3.515_z-trm3.jpg" width="60" />|Heatit|Z-TRM3 Thermostat|Thermostat||[Dokumentation](https://www.thermo-floor.no/media/multicase/documents/_tfasdokumentasjon/heatit%20controls/heatit%20z-trm3/manual_heatit_z-trm3_fw%204.0%20ver2020-b_eng.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/thermostats/5193-heatit-controls-thermostat-z-wave-pour-plancher-chauffant-electrique-16a-z-trm3-7071236015239.html)|
+|<img src="../../de_DE/zwave/images/411.3.520_Z-Relay.jpg" width="60" />|Heatit|Z-Relay|Contacteur||[Dokumentation](https://www.heatit.com/wp-content/uploads/2019/12/Manual_Heatit_Z-Relay_ENG.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/chauffage-clim/5200-heatit-controls-module-relais-25a-z-wave-z-relay.html)|
+|<img src="../../de_DE/zwave/images/411.3.522_z-water.jpg" width="60" />|Heatit|Z-Water|Rail-Din||[Dokumentation](https://www.thermo-floor.no/media/multicase/documents/_tfasdokumentasjon/heatit%20controls/heatit%20z-water/manual_heatit_z-water_analog%20inputs_fw%202.1_ver2019-a_eng.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/thermostats/5199-heatit-controls-controleur-de-chauffage-hydronique-z-wave-10-sorties-z-water-7071236014065.html)|
+|<img src="../../de_DE/zwave/images/411.3.8704_zdim.jpg" width="60" />|Heatit|Z-Dim|Variateur||[Dokumentation](https://www.thermo-floor.no/media/multicase/documents/_tfasdokumentasjon/heatit%20controls/heatit%20z-dim/manual_heatit_z-dim_fw%201.0_ver2019-b_eng.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/eclairage/5293-heatit-controls-interrupteur-variateur-rotatif-z-wave-z-dim-7071236014003.html)|
+|<img src="../../de_DE/zwave/images/411.4.516_heatit.ztemp2.thermostat.jpg" width="60" />|Heatit|Z-Temp2 Thermostat|Thermostat|Halten Sie die Einschlusstaste 20 Sekunden lang gedrückt|[Dokumentation](https://www.heatit.com/wp-content/uploads/2019/12/Manual_Heatit_Z-Temp2_FW-1.1_Ver2020-B_ENG.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/thermostats/5196-heatit-controls-thermostat-z-wave-sans-fil-z-temp2-7071236015307.html)|
 
 # Vision Sicherheit
 
@@ -889,4 +889,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-10-26 01:08:04
+2020-10-28 01:08:05
