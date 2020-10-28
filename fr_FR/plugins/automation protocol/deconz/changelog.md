@@ -4,9 +4,9 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 24/10/2020
+# 28/10/2020
 
-- Correction d'un bug sur le passage en lock des thermostats
+- Ajout d'un message indiquant de ne surtout pas faire la mise à jour du firmware de clef si vous etes sur VM ou Freebox Delta au risque de casser la clef.
 
 # 23/09/2020
 

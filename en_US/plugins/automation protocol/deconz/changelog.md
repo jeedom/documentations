@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 24/10/2020
+
+- Correction of a bug on switching thermostats to lock
+
 # 23/09/2020
 
 - Danfoss ally valve support (deconz 2.05.79 required)

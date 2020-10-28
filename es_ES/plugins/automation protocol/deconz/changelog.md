@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 24/10/2020
+
+- Corrección de un error al cambiar los termostatos a bloquear
+
 # 23/09/2020
 
 - Soporte de válvula ally de Danfoss (se requiere deconz 2.05.79)

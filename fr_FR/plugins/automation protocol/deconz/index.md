@@ -134,7 +134,7 @@ Il ne vous reste plus qu’à faire une découverte de clé API, Sauvegarder et 
 
 ## Conbee II
 
-Vous pouvez le faire directement depuis jeedom si la clef est branchée sur celui-ci, à partir de la configuration du plugin
+Vous pouvez le faire directement depuis jeedom si la clef est branchée sur celui-ci, à partir de la configuration du plugin mais il est plus que fortement conseillé de la faire depuis windows en suivant la documentation officiel Deconz
 
 ## Conbee
 

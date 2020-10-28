@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 24/10/2020
+
+- Correção de um bug ao trocar termostatos para travar
+
 # 23/09/2020
 
 - Suporte de válvula Danfoss ally (deconz 2.05.79 necessário)
