@@ -1020,6 +1020,8 @@
         "Gr-smarthome": "Gr-smarthome",
         "Vanne 1\/4 de tour (GR-105": "Vanne 1\/4 de tour (GR-105",
         "Vanne": "Vanne",
+        "GR-Smarthome": "GR-Smarthome",
+        "Z-Wave Auto Valve 7G plus2": "Z-Wave Auto Valve 7G plus2",
         "Vanne 1\/4 de tour (GR-105N": "Vanne 1\/4 de tour (GR-105N",
         "Gig": "Gig",
         "CT101 Thermostat Iris": "CT101 Thermostat Iris",
@@ -1113,6 +1115,7 @@
         "ST815": "ST815",
         "Luminosité": "Luminosité",
         "ST814": "ST814",
+        "Température,Humidité": "Température,Humidité",
         "SM103": "SM103",
         "HSM02": "HSM02",
         "Miniplug On\/Off": "Miniplug On\/Off",
@@ -1295,7 +1298,7 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-10-28 01": "2020-10-28 01"
+        "2020-10-29 01": "2020-10-29 01"
     },
     "zwave\/everspring.AD147-6_-_Miniplug_Dimmer.md": {
         "Everspring Miniplug Dimmer - AD147-6": "Everspring Miniplug Dimmer - AD147-6",

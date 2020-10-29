@@ -106,6 +106,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/Philips.LCA001.png" width="60" />|Philips|Hue White and Color Ambiance A60 E27||||
+|<img src="../../es_ES/zigbee/images/Philips.LCL001.png" width="60" />|Philips|Hue LightStrip Plus||||
 |<img src="../../es_ES/zigbee/images/Philips.LCT001.png" width="60" />|Philips|Bulbo de tono blanco y color||||
 |<img src="../../es_ES/zigbee/images/Philips.LCT002.png" width="60" />|Philips|Hue White y Color BR30 (1.a generación)||||
 |<img src="../../es_ES/zigbee/images/Philips.LCT003.png" width="60" />|Philips|Hue White y Color Ambiance Spot GU10||||
@@ -129,12 +130,14 @@
 |<img src="../../es_ES/zigbee/images/Philips.LLM010.png" width="60" />|Philips|Hue blanco y color||||
 |<img src="../../es_ES/zigbee/images/Philips.LLM011.png" width="60" />|Philips|Hue blanco y color||||
 |<img src="../../es_ES/zigbee/images/Philips.LLM012.png" width="60" />|Philips|Hue blanco y color||||
+|<img src="../../es_ES/zigbee/images/Philips.LOM002.png" width="60" />|Philips|Enchufe inteligente Hue||||
 |<img src="../../es_ES/zigbee/images/Philips.LST001.png" width="60" />|Philips|Hue LightStrip||||
 |<img src="../../es_ES/zigbee/images/Philips.LST002.png" width="60" />|Philips|Hue LightStrip Plus||||
 |<img src="../../es_ES/zigbee/images/Philips.LST004.png" width="60" />|Philips|Hue LightStrip para exteriores||||
+|<img src="../../es_ES/zigbee/images/Philips.LTW001.png" width="60" />|Philips|Ambiente blanco Hue||||
 |<img src="../../es_ES/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../es_ES/zigbee/images/Philips.RWL021.png" width="60" />|Philips|Mando a distancia de 4 botones||||
-|<img src="../../es_ES/zigbee/images/Philips.SML001.png" width="60" />|Philips|Movimiento Philips||||
+|<img src="../../es_ES/zigbee/images/Philips.SML001.png" width="60" />|Philips|Movimiento Philips|Movimiento, brillo, temperatura|||
 |<img src="../../es_ES/zigbee/images/Philips.huego.png" width="60" />|Philips|Hue Go||||
 
 # Schneider
@@ -204,4 +207,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-28-10-2020 01:32:03
+2020-10-29 01:32:03

@@ -106,6 +106,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/Philips.LCA001.png" width="60" />|Philips|Hue White and Color Ambiance A60 E27||||
+|<img src="../../en_US/zigbee/images/Philips.LCL001.png" width="60" />|Philips|Hue LightStrip Plus||||
 |<img src="../../en_US/zigbee/images/Philips.LCT001.png" width="60" />|Philips|Hue bulb white and color||||
 |<img src="../../en_US/zigbee/images/Philips.LCT002.png" width="60" />|Philips|Hue White and Color BR30 (1st Gen)||||
 |<img src="../../en_US/zigbee/images/Philips.LCT003.png" width="60" />|Philips|Hue White and Color Ambiance Spot GU10||||
@@ -129,12 +130,14 @@
 |<img src="../../en_US/zigbee/images/Philips.LLM010.png" width="60" />|Philips|Hue white and color||||
 |<img src="../../en_US/zigbee/images/Philips.LLM011.png" width="60" />|Philips|Hue white and color||||
 |<img src="../../en_US/zigbee/images/Philips.LLM012.png" width="60" />|Philips|Hue white and color||||
+|<img src="../../en_US/zigbee/images/Philips.LOM002.png" width="60" />|Philips|Hue Smart plug||||
 |<img src="../../en_US/zigbee/images/Philips.LST001.png" width="60" />|Philips|Hue LightStrip||||
 |<img src="../../en_US/zigbee/images/Philips.LST002.png" width="60" />|Philips|Hue LightStrip Plus||||
 |<img src="../../en_US/zigbee/images/Philips.LST004.png" width="60" />|Philips|Hue LightStrip Outdoor||||
+|<img src="../../en_US/zigbee/images/Philips.LTW001.png" width="60" />|Philips|Hue white ambiance||||
 |<img src="../../en_US/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../en_US/zigbee/images/Philips.RWL021.png" width="60" />|Philips|4 button remote control||||
-|<img src="../../en_US/zigbee/images/Philips.SML001.png" width="60" />|Philips|Philips movement||||
+|<img src="../../en_US/zigbee/images/Philips.SML001.png" width="60" />|Philips|Philips movement|Movement, Brightness, Temperature|||
 |<img src="../../en_US/zigbee/images/Philips.huego.png" width="60" />|Philips|Hue Go||||
 
 # Schneider
@@ -204,4 +207,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-10-28 01:32:03
+2020-10-29 01:32:03

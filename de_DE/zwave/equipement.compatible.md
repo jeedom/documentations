@@ -276,7 +276,7 @@
 |<img src="../../de_DE/zwave/images/96.4.7_an180.miniplug.onoff.jpg" width="60" />|Everspring|Ministecker ein / aus|Prise||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2684-everspring-mini-prise-onoff-z-wave-plus-an180-6-prise-francaise-3700946500400.html)|
 |<img src="../../de_DE/zwave/images/96.514.1_hsm02.doorwindow.jpg" width="60" />|Everspring|HSM02|Ouverture||[Kaufen](http://www.domadoo.fr/fr/peripheriques/838-everspring-mini-detecteur-d-ouverture-z-wave-hsm02-3700946500134.html)|
 ||Everspring|SM103|Ouverture||[Kaufen](http://www.domadoo.fr/fr/peripheriques/851-everspring-capteur-d-ouverture-z-wave-sm103-3700946500233.html)|
-|<img src="../../de_DE/zwave/images/96.6.1_st814.temperature.and.humidity.sensor.jpg" width="60" />|Everspring|ST814|Multicapteurs||[Kaufen](http://www.domadoo.fr/fr/peripheriques/861-everspring-capteur-de-temperature-et-d-humidite-z-wave-st814-3700946500325.html)|
+|<img src="../../de_DE/zwave/images/96.6.1_st814.temperature.and.humidity.sensor.jpg" width="60" />|Everspring|ST814|Temperatur Feuchtigkeit||[Kaufen](http://www.domadoo.fr/fr/peripheriques/861-everspring-capteur-de-temperature-et-d-humidite-z-wave-st814-3700946500325.html)|
 |<img src="../../de_DE/zwave/images/96.7.1_st815.jpg" width="60" />|Everspring|ST815|Luminosité||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2498-everspring-capteur-de-luminosite-z-wave-avec-ecran-lcd-st815-3700946500349.html)|
 |<img src="../../de_DE/zwave/images/96.9.1_tse03.door.bell.jpg" width="60" />|Everspring|TSE03 Türklingel|Carillon|||
 
@@ -438,7 +438,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/338.3.1298_gr.auto_valve.jpg" width="60" />|Gr-smarthome|1/4 Umdrehungsventil (GR-105N)|Vanne|||
-|<img src="../../de_DE/zwave/images/338.4.2_gr.auto_valve.jpg" width="60" />|Gr-smarthome|1/4 Umdrehungsventil (GR-105)|Vanne||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2958-gr-smarthome-motorisation-z-wave-pour-vanne-14-de-tour.html)|
+|<img src="../../de_DE/zwave/images/338.4.2_gr.auto_valve.jpg" width="60" />|GR-Smarthome|Z-Wave Auto Valve 7G plus2|Vanne||[Dokumentation](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2355)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5238-gr-smarthome-motorisation-z-wave-700-pour-vanne-14-de-tour.html)|
 |<img src="../../de_DE/zwave/images/338.514.1297_gr.auto_valve.jpg" width="60" />|Gr-smarthome|1/4 Umdrehungsventil (GR-105)|Vanne||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2958-gr-smarthome-motorisation-z-wave-pour-vanne-14-de-tour.html)|
 
 # Greenwave
@@ -889,4 +889,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-10-28 01:08:05
+2020-10-29 01:08:06

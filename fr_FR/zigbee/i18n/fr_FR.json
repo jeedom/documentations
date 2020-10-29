@@ -51,10 +51,13 @@
         "Philips": "Philips",
         "Hue Go": "Hue Go",
         "Philips mouvement": "Philips mouvement",
+        "Mouvement,Luminosité,Température": "Mouvement,Luminosité,Température",
         "Télécommande 4 boutons": "Télécommande 4 boutons",
+        "Hue white ambiance": "Hue white ambiance",
         "Hue LightStrip Outdoor": "Hue LightStrip Outdoor",
         "Hue LightStrip Plus": "Hue LightStrip Plus",
         "Hue LightStrip": "Hue LightStrip",
+        "Hue Smart plug": "Hue Smart plug",
         "Hue white and color": "Hue white and color",
         "Hue Beyond Suspension Light": "Hue Beyond Suspension Light",
         "Hue Go Portable Light": "Hue Go Portable Light",
@@ -72,6 +75,7 @@
         "Hue White and Color Ambiance Spot GU10": "Hue White and Color Ambiance Spot GU10",
         "Hue White and Color BR30 (1st Gen": "Hue White and Color BR30 (1st Gen",
         "Hue bulb white and color": "Hue bulb white and color",
+        "Hue Lightstrip Plus": "Hue Lightstrip Plus",
         "Hue White and Color Ambiance A60 E27": "Hue White and Color Ambiance A60 E27",
         "Osram": "Osram",
         "OSRAM Smart+ Ampoule LED Connectée - Culot E27": "OSRAM Smart+ Ampoule LED Connectée - Culot E27",
@@ -132,6 +136,6 @@
         "Documentation": "Documentation",
         "Attention le module ne marche pas": "Attention le module ne marche pas",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-10-28 01": "2020-10-28 01"
+        "2020-10-29 01": "2020-10-29 01"
     }
 }
