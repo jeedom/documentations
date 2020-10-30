@@ -108,14 +108,12 @@
 |<img src="../../en_US/zigbee/images/Philips.LCA001.png" width="60" />|Philips|Hue White and Color Ambiance A60 E27||||
 |<img src="../../en_US/zigbee/images/Philips.LCL001.png" width="60" />|Philips|Hue LightStrip Plus||||
 |<img src="../../en_US/zigbee/images/Philips.LCT001.png" width="60" />|Philips|Hue bulb white and color||||
-|<img src="../../en_US/zigbee/images/Philips.LCT002.png" width="60" />|Philips|Hue White and Color BR30 (1st Gen)||||
-|<img src="../../en_US/zigbee/images/Philips.LCT003.png" width="60" />|Philips|Hue White and Color Ambiance Spot GU10||||
+||Philips|Hue White and Color BR30 (1st Gen)||||
 |<img src="../../en_US/zigbee/images/Philips.LCT007.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26 (Gen 2)||||
 |<img src="../../en_US/zigbee/images/Philips.LCT010.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26 (Gen 3)||||
 |<img src="../../en_US/zigbee/images/Philips.LCT011.png" width="60" />|Philips|Hue White and Color Ambiance BR30 Richer Colors||||
 |<img src="../../en_US/zigbee/images/Philips.LCT012.png" width="60" />|Philips|Hue White and Color Ambiance Candle E12||||
 |<img src="../../en_US/zigbee/images/Philips.LCT014.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26||||
-|<img src="../../en_US/zigbee/images/Philips.LCT015.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26||||
 |<img src="../../en_US/zigbee/images/Philips.LCT024.png" width="60" />|Philips|Hue White and Color Ambiance Play Light Bar||||
 |<img src="../../en_US/zigbee/images/Philips.LLC001.png" width="60" />|Philips|Hue LivingColors||||
 |<img src="../../en_US/zigbee/images/Philips.LLC005.png" width="60" />|Philips|Hue LivingColors||||
@@ -134,7 +132,6 @@
 |<img src="../../en_US/zigbee/images/Philips.LST001.png" width="60" />|Philips|Hue LightStrip||||
 |<img src="../../en_US/zigbee/images/Philips.LST002.png" width="60" />|Philips|Hue LightStrip Plus||||
 |<img src="../../en_US/zigbee/images/Philips.LST004.png" width="60" />|Philips|Hue LightStrip Outdoor||||
-|<img src="../../en_US/zigbee/images/Philips.LTW001.png" width="60" />|Philips|Hue white ambiance||||
 |<img src="../../en_US/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../en_US/zigbee/images/Philips.RWL021.png" width="60" />|Philips|4 button remote control||||
 |<img src="../../en_US/zigbee/images/Philips.SML001.png" width="60" />|Philips|Philips movement|Movement, Brightness, Temperature|||
@@ -207,4 +204,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-10-29 01:32:03
+2020-10-30 01:32:04

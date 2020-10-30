@@ -1,7 +1,13 @@
 {
     "id": "calendar",
     "name": "Agenda",
-    "description": "Plugin pour créer un calendrier",
+    "description": {
+        "fr_FR": "Plugin pour créer un calendrier",
+        "en_US": "Plugin to create a calendar",
+        "es_ES": "Complemento para crear un calendario",
+        "de_DE": "Plugin zum Erstellen eines Kalenders",
+        "pt_PT": "Plug-in para criar um calendário"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "3.3",
@@ -12,17 +18,16 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",
         "smart",
         "rpi",
         "docker",
-        "diy"
+        "diy",
+        "v4"
     ]
 }

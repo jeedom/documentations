@@ -1,3 +1,5 @@
+# Changelog Agenda
+
 >**Important**
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
@@ -81,4 +83,4 @@
 
 # 02/27/2018
 
--	Deletion of activation / deactivation commands (to deactivate an agenda in a scenario you must now use the equipment deactivation function)
+-	Removal of activation / deactivation commands (to deactivate an agenda in a scenario you must now use the equipment deactivation function)

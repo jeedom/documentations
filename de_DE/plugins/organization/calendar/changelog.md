@@ -1,3 +1,5 @@
+# Changelog Agenda
+
 >**Wichtig**
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
@@ -81,4 +83,4 @@
 
 # 27.02.2008
 
--	Löschen von Aktivierungs- / Deaktivierungsbefehlen (um eine Agenda in einem Szenario zu deaktivieren, müssen Sie jetzt die Gerätedeaktivierungsfunktion verwenden)
+-	Entfernen von Aktivierungs- / Deaktivierungsbefehlen (um eine Agenda in einem Szenario zu deaktivieren, müssen Sie jetzt die Deaktivierungsfunktion des Geräts verwenden)

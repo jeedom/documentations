@@ -1,3 +1,5 @@
+# Agenda do Changelog
+
 >**IMPORTANTE**
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
@@ -81,4 +83,4 @@
 
 # 27/02/2018
 
--	Exclusão de comandos de ativação / desativação (para desativar uma agenda em um cenário, você deve agora usar a função de desativação do equipamento)
+-	Remoção de comandos de ativação / desativação (para desativar uma agenda em um cenário, você deve agora usar a função de desativação de equipamento)

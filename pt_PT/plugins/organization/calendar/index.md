@@ -1,6 +1,6 @@
 # Plug-in do calendário
 
-Plug-in para criar uma agenda e acionar ações (comando ou cenário).
+Plugin que permite criar uma agenda e acionar ações (comando ou cenário).
 
 # Configuração do plugin
 
@@ -22,7 +22,7 @@ Aqui você encontra toda a configuração do seu equipamento :
 -   **Widget, número de dias** : define o número de dias do evento a serem exibidos no widget.
 -   **Número máximo de eventos** : define o número máximo de eventos a serem exibidos no painel.
 -   **Não exibir comandos de status e ativação / desativação** : permite ocultar o status do calendário, bem como os comandos para ativá-lo ou não.
--   **Lista de eventos do calendário** : exibido abaixo da lista de todos os eventos do calendário (clique nele para editar o evento diretamente).
+-   **Lista de eventos do calendário** : abaixo da lista de todos os eventos do calendário (clicar nele permite editar o evento diretamente).
 -   **Adicionar evento** : adicionar um evento ao calendário.
 -   **Agenda** : Exibição de uma visualização do tipo agenda com todos os eventos que você pode mover, escolha exibi-la por semana ou dia, mova eventos (arraste e solte) e um clique em um evento abrirá sua janela de edição.
 
@@ -35,9 +35,9 @@ A parte mais importante do plug-in, é aqui que você poderá configurar seu eve
 Aqui você encontra :
 
 -   **Nome do evento** : Nome do seu evento.
--   **ícone** : permite adicionar um ícone na frente do nome do seu equipamento (para fazer isso, clique em "Escolha um ícone").
+-   **ícone** : permite adicionar um ícone na frente do nome do seu equipamento (para fazer isso, você deve clicar em "Escolha um ícone").
 -   **Cor** : permite que você escolha a cor do seu evento (uma marca de seleção também permite torná-lo transparente).
--   **Cor du texte** : permite que você escolha a cor do texto do seu evento.
+-   **Cor do texto** : permite que você escolha a cor do texto do seu evento.
 -   **Não aparecer no painel** : permite não exibir este evento no widget.
 
 ## Iniciar ação
@@ -66,16 +66,16 @@ Igual à ação inicial, mas desta vez é a (s) ação (ões) a executar no fina
 -   **Começo** : Data de início do evento.
 -   **Final** : Data de término do evento.
 -   **O dia inteiro** : permite definir o evento durante todo o dia.
--   **Incluir par un autre agenda** : Permite incluir outro evento no seu evento atual. Por exemplo, se você tiver um evento A repetido toda segunda-feira e incluir esse evento A no evento atual, esse evento será repetido automaticamente toda segunda-feira.
+-   **Incluir por outro calendário** : Permite incluir outro evento no seu evento atual. Por exemplo, se você tiver um evento A repetido toda segunda-feira e incluir esse evento A no evento atual, esse evento será repetido automaticamente toda segunda-feira.
 -   **Incluir** : permite forçar uma data de ocorrência, você pode colocar vários separando-os com, (vírgulas), também pode definir um intervalo com : (dois pontos).
--   **Repetida** : digamos que seu evento seja repetido (se essa caixa não estiver marcada, você não terá as seguintes opções).
--   **Modo de repetição** : permite especificar o modo de repetição, simples : todos os dias, todos os X dias ... ou repetição a cada 1º, 2º ... para repetir um evento a cada 3ª segunda-feira do mês, por exemplo (as seguintes opções podem ser diferentes dependendo dessa opção).
--   **Repita cada** : \ [apenas modo de repetição simples \] permite definir a frequência de repetição do evento (por exemplo, a cada 3 dias ou a cada 2 meses ...).
+-   **Repetida** : permite que você diga que seu evento é repetido (se essa caixa não estiver marcada, você não terá as seguintes opções).
+-   **Modo de repetição** : permite especificar o modo de repetição, simples : todos os dias, todos os X dias ... ou repita a cada 1º, 2º ... para repetir um evento a cada 3ª segunda-feira do mês, por exemplo (as seguintes opções podem ser diferentes dependendo dessa opção).
+-   **Repita cada** : \ [apenas modo de repetição única \] permite definir com que frequência o evento será repetido (por exemplo, a cada 3 dias ou a cada 2 meses).
 -   **O** : \ [modo de repetição o primeiro, o segundo ... somente \] permite que você escolha uma repetição a cada 2ª segunda-feira do mês, por exemplo.
 -   **Somente o** : permite restringir a repetição a determinados dias da semana.
 -   **Restrição** : permite restringir o evento apenas em feriados ou excluir feriados.
 -   **Até** : fornece a data final da ocorrência do evento.
--   **Excluir par un autre agenda** : permite excluir este evento de acordo com outro calendário (para evitar, por exemplo, que dois eventos contraditórios se reúnam).
+-   **Excluir por outro calendário** : permite excluir este evento de acordo com outra agenda (por exemplo, para evitar que dois eventos contraditórios sejam encontrados juntos).
 -   **Excluir** : igual a "Incluir", mas desta vez para excluir datas.
 
 > **NOTA**
