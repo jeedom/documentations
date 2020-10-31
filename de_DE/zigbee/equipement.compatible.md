@@ -134,7 +134,8 @@
 |<img src="../../de_DE/zigbee/images/Philips.LST004.png" width="60" />|Philips|Farbton LightStrip Outdoor||||
 |<img src="../../de_DE/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../de_DE/zigbee/images/Philips.RWL021.png" width="60" />|Philips|4-Tasten-Fernbedienung||||
-|<img src="../../de_DE/zigbee/images/Philips.SML001.png" width="60" />|Philips|Philips Bewegung|Bewegung, Helligkeit, Temperatur|||
+|<img src="../../de_DE/zigbee/images/Philips.SML001.png" width="60" />|Philips|Farbton Innenbewegungsdetektor|Bewegung, Helligkeit, Temperatur|||
+|<img src="../../de_DE/zigbee/images/Philips.SML002.png" width="60" />|Philips|Farbton Außenbewegungsdetektor|Bewegung, Helligkeit, Temperatur|||
 |<img src="../../de_DE/zigbee/images/Philips.huego.png" width="60" />|Philips|Hue Go||||
 
 # Schneider
@@ -204,4 +205,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-10-30 01:32:04
+2020-10-31 01:32:04

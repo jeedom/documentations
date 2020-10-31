@@ -50,8 +50,9 @@
         "Volets": "Volets",
         "Philips": "Philips",
         "Hue Go": "Hue Go",
-        "Philips mouvement": "Philips mouvement",
+        "Hue détecteur de mouvement extérieure": "Hue détecteur de mouvement extérieure",
         "Mouvement,Luminosité,Température": "Mouvement,Luminosité,Température",
+        "Hue détecteur de mouvement intérieure": "Hue détecteur de mouvement intérieure",
         "Télécommande 4 boutons": "Télécommande 4 boutons",
         "Hue LightStrip Outdoor": "Hue LightStrip Outdoor",
         "Hue LightStrip Plus": "Hue LightStrip Plus",
@@ -134,6 +135,6 @@
         "Documentation": "Documentation",
         "Attention le module ne marche pas": "Attention le module ne marche pas",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-10-30 01": "2020-10-30 01"
+        "2020-10-31 01": "2020-10-31 01"
     }
 }

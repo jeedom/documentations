@@ -134,7 +134,8 @@
 |<img src="../../es_ES/zigbee/images/Philips.LST004.png" width="60" />|Philips|Hue LightStrip para exteriores||||
 |<img src="../../es_ES/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../es_ES/zigbee/images/Philips.RWL021.png" width="60" />|Philips|Mando a distancia de 4 botones||||
-|<img src="../../es_ES/zigbee/images/Philips.SML001.png" width="60" />|Philips|Movimiento Philips|Movimiento, brillo, temperatura|||
+|<img src="../../es_ES/zigbee/images/Philips.SML001.png" width="60" />|Philips|Detector de movimiento interior Hue|Movimiento, brillo, temperatura|||
+|<img src="../../es_ES/zigbee/images/Philips.SML002.png" width="60" />|Philips|Detector de movimiento exterior Hue|Movimiento, brillo, temperatura|||
 |<img src="../../es_ES/zigbee/images/Philips.huego.png" width="60" />|Philips|Hue Go||||
 
 # Schneider
@@ -204,4 +205,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-10-30 01:32:04
+2020-10-31 01:32:04

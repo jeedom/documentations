@@ -134,7 +134,8 @@
 |<img src="../../fr_FR/zigbee/images/Philips.LST004.png" width="60" />|Philips|Hue LightStrip Outdoor||||
 |<img src="../../fr_FR/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../fr_FR/zigbee/images/Philips.RWL021.png" width="60" />|Philips|Télécommande 4 boutons||||
-|<img src="../../fr_FR/zigbee/images/Philips.SML001.png" width="60" />|Philips|Philips mouvement|Mouvement,Luminosité,Température|||
+|<img src="../../fr_FR/zigbee/images/Philips.SML001.png" width="60" />|Philips|Hue détecteur de mouvement intérieure|Mouvement,Luminosité,Température|||
+|<img src="../../fr_FR/zigbee/images/Philips.SML002.png" width="60" />|Philips|Hue détecteur de mouvement extérieure|Mouvement,Luminosité,Température|||
 |<img src="../../fr_FR/zigbee/images/Philips.huego.png" width="60" />|Philips|Hue Go||||
 
 # Schneider
@@ -204,4 +205,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-10-30 01:32:04
+2020-10-31 01:32:04
