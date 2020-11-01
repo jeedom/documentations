@@ -14,3 +14,10 @@ Este servicio es de pago y puede suscribirse en el Jeedom Market, en la página 
 Encontrará en la documentación respectiva de los complementos sus diferencias.
 
 Luego, una vez que se suscribe la suscripción, es necesario configurarla siguiendo la documentación del complemento
+
+> **Importante**
+>
+> Google y AMAZON requieren que su Jeedom sea accesible en HTTPS (el complemento no funciona en HTTP) con un certificado válido (por lo tanto, sin certificado autofirmado)
+>
+> Gracias a los paquetes de servicio Power o Ultimate, se puede acceder a su Jeedom a través de HTTPS.
+> Si tiene un Community Service Pack, debe instalar usted mismo un certificado SSL emitido por una autoridad de certificación.

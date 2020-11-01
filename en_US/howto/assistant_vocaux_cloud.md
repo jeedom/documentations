@@ -14,3 +14,10 @@ This service is chargeable and can be subscribed on the Jeedom Market, in the pa
 You will find in the respective documentation of the plugins their differences.
 
 Then once the subscription is subscribed it is necessary to configure by following the documentation of the plugin
+
+> **Important**
+>
+> Google and AMAZON require that your Jeedom be accessible in HTTPS (the plugin does not work in HTTP) with a valid certificate (therefore no self-signed certificate)
+>
+> Thanks to the Power or Ultimate Service Packs, your Jeedom is accessible via HTTPS.
+> If you have a Community Service Pack, you must install yourself an SSL certificate issued by a certification authority.

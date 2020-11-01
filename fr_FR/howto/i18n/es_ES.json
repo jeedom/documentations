@@ -10,6 +10,9 @@
         "Ce service est payant et peut être souscrit sur le Market Jeedom, dans la page": "Este servicio es de pago y puede suscribirse en el Jeedom Market, en la página",
         "Vous trouverez dans la documentation respective des plugins leurs différences": "Encontrará en la documentación respectiva de los complementos sus diferencias",
         "Ensuite une fois l'abonnement souscrit il faut faire la configuration en suivant la documentation du plugin": "Luego, una vez que se suscribe la suscripción, es necesario configurarla siguiendo la documentación del complemento",
+        "Google et AMAZON imposent que votre Jeedom soit accessible en HTTPS (le plugin ne marche pas en HTTP) avec un certificat valide (donc pas de certificat auto-signé": "Google y AMAZON requieren que su Jeedom sea accesible en HTTPS (el complemento no funciona en HTTP) con un certificado válido (por lo tanto, sin certificado autofirmado",
+        "Grâce aux Service Pack Power ou Ultimate, votre Jeedom est accessible en HTTPS": "Gracias a los paquetes de servicio Power o Ultimate, se puede acceder a su Jeedom a través de HTTPS",
+        "Si vous disposez d'un Service Pack Community, vous devez installer vous même un certificat SSL émis par une autorité de certification": "Si tiene un Community Service Pack, debe instalar usted mismo un certificado SSL emitido por una autoridad de certificación",
         " Description.": " Descripción.",
         " Description?": " Descripción?",
         "Description ": "Descripción ",
@@ -23,7 +26,14 @@
         " documentation]": " Documentación]",
         "[documentation]": "[Documentación]",
         "*documentation*": "*Documentación*",
-        " documentation*": " Documentación*"
+        " documentation*": " Documentación*",
+        " Important.": " Importante.",
+        " Important?": " Importante?",
+        "Important ": "Importante ",
+        " Important]": " Importante]",
+        "[Important]": "[Importante]",
+        "*Important*": "*Importante*",
+        " Important*": " Importante*"
     },
     "howto\/backup_cloud.md": {
         "Sauvegarde cloud": "Copia de seguridad en la nube",
