@@ -14,3 +14,10 @@ Ce service est payant et peut être souscrit sur le Market Jeedom, dans la page 
 Vous trouverez dans la documentation respective des plugins leurs différences.
 
 Ensuite une fois l'abonnement souscrit il faut faire la configuration en suivant la documentation du plugin
+
+> **Important**
+>
+> Google et AMAZON imposent que votre Jeedom soit accessible en HTTPS (le plugin ne marche pas en HTTP) avec un certificat valide (donc pas de certificat auto-signé)
+>
+> Grâce aux Service Pack Power ou Ultimate, votre Jeedom est accessible en HTTPS.
+> Si vous disposez d'un Service Pack Community, vous devez installer vous même un certificat SSL émis par une autorité de certification.
