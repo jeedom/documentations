@@ -889,4 +889,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-11-01 01:08:04
+2020-11-02 01:08:07

@@ -127,6 +127,8 @@
         "BLP NR": "BLP NR",
         "Plante": "Plante",
         "BeeWi": "BeeWi",
+        "SmartLite BBL227": "SmartLite BBL227",
+        "Il faut valider l'appairage pendant la première minute après avoir allumé l'ampoule": "Il faut valider l'appairage pendant la première minute après avoir allumé l'ampoule",
         "capteur d'ouverture": "capteur d'ouverture",
         "Capteurs d'ouverture de porte": "Capteurs d'ouverture de porte",
         "Il faut activer le mode bluetooth pour utiliser les commande": "Il faut activer le mode bluetooth pour utiliser les commande",
@@ -142,6 +144,7 @@
         "Awoxmesh": "Awoxmesh",
         "Beagle": "Beagle",
         "Beewismartdoor": "Beewismartdoor",
+        "Beewismartlite": "Beewismartlite",
         "Blpnr": "Blpnr",
         "Default": "Default",
         "Divoompixoo": "Divoompixoo",
@@ -159,6 +162,6 @@
         "Ropot": "Ropot",
         "iaomiht": "iaomiht",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-11-01 01": "2020-11-01 01"
+        "2020-11-02 01": "2020-11-02 01"
     }
 }

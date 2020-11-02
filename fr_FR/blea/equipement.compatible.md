@@ -26,6 +26,12 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/blea/images/beewismartdoor.jpg" width="60" />|BeeWi|capteur d'ouverture|Capteurs|Capteurs d'ouverture de porte||
 
+# Beewismartlite
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../fr_FR/blea/images/beewismartlite.jpg" width="60" />|BeeWi|SmartLite BBL227|Lumières|Il faut valider l'appairage pendant la première minute après avoir allumé l'ampoule||
+
 # Blpnr
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -267,4 +273,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-11-01 01:21:02
+2020-11-02 01:21:05

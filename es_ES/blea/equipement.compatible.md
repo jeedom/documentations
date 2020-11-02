@@ -26,6 +26,12 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/blea/images/beewismartdoor.jpg" width="60" />|BeeWi|sensor de apertura|Capteurs|Sensores de apertura de puertas||
 
+# Beewismartlite
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/blea/images/beewismartlite.jpg" width="60" />|BeeWi|SmartLite BBL227|Luces|El emparejamiento debe validarse durante el primer minuto después de encender la bombilla||
+
 # Blpnr
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -267,4 +273,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-11-01 01:21:02
+2020-11-02 01:21:05
