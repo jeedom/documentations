@@ -109,11 +109,13 @@
 |<img src="../../de_DE/zigbee/images/Philips.LCL001.png" width="60" />|Philips|Farbton LightStrip Plus||||
 |<img src="../../de_DE/zigbee/images/Philips.LCT001.png" width="60" />|Philips|Farbton Birne weiß und Farbe||||
 ||Philips|Farbton Weiß und Farbe BR30 (1. Gen)||||
+|<img src="../../de_DE/zigbee/images/Philips.LCT003.png" width="60" />|Philips|Farbton Weiß und Farbambiente Spot GU10||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.LCT007.png" width="60" />|Philips|Farbton Weiß und Farbambiente A19 E26 (Gen 2)||||
 |<img src="../../de_DE/zigbee/images/Philips.LCT010.png" width="60" />|Philips|Farbton Weiß und Farbambiente A19 E26 (Gen 3)||||
 |<img src="../../de_DE/zigbee/images/Philips.LCT011.png" width="60" />|Philips|Farbton Weiß und Farbambiente BR30 Reichere Farben||||
 |<img src="../../de_DE/zigbee/images/Philips.LCT012.png" width="60" />|Philips|Farbton Weiß und Farbe Ambiance Candle E12||||
 |<img src="../../de_DE/zigbee/images/Philips.LCT014.png" width="60" />|Philips|Farbton Weiß und Farbambiente A19 E26||||
+|<img src="../../de_DE/zigbee/images/Philips.LCT015.png" width="60" />|Philips|Farbton Weiß und Farbambiente A19 E26||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.LCT024.png" width="60" />|Philips|Farbton Weiß und Farbambiente spielen Lichtleiste||||
 |<img src="../../de_DE/zigbee/images/Philips.LLC001.png" width="60" />|Philips|Farbton LivingColors||||
 |<img src="../../de_DE/zigbee/images/Philips.LLC005.png" width="60" />|Philips|Farbton LivingColors||||
@@ -132,6 +134,8 @@
 |<img src="../../de_DE/zigbee/images/Philips.LST001.png" width="60" />|Philips|Farbton LightStrip||||
 |<img src="../../de_DE/zigbee/images/Philips.LST002.png" width="60" />|Philips|Farbton LightStrip Plus||||
 |<img src="../../de_DE/zigbee/images/Philips.LST004.png" width="60" />|Philips|Farbton LightStrip Outdoor||||
+|<img src="../../de_DE/zigbee/images/Philips.LTW001.png" width="60" />|Philips|Farbton Weiß und Farbe||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
+|<img src="../../de_DE/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Farbton Weiß B22||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../de_DE/zigbee/images/Philips.RWL021.png" width="60" />|Philips|4-Tasten-Fernbedienung||||
 |<img src="../../de_DE/zigbee/images/Philips.SML001.png" width="60" />|Philips|Farbton Innenbewegungsdetektor|Bewegung, Helligkeit, Temperatur|||
@@ -205,4 +209,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-11-02 01:32:05
+2020-11-03 01:32:11

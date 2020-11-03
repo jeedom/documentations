@@ -109,11 +109,13 @@
 |<img src="../../en_US/zigbee/images/Philips.LCL001.png" width="60" />|Philips|Hue LightStrip Plus||||
 |<img src="../../en_US/zigbee/images/Philips.LCT001.png" width="60" />|Philips|Hue bulb white and color||||
 ||Philips|Hue White and Color BR30 (1st Gen)||||
+|<img src="../../en_US/zigbee/images/Philips.LCT003.png" width="60" />|Philips|Hue White and Color Ambiance Spot GU10||Please note that there is no status feedback for this model, only an order sending is possible||
 |<img src="../../en_US/zigbee/images/Philips.LCT007.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26 (Gen 2)||||
 |<img src="../../en_US/zigbee/images/Philips.LCT010.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26 (Gen 3)||||
 |<img src="../../en_US/zigbee/images/Philips.LCT011.png" width="60" />|Philips|Hue White and Color Ambiance BR30 Richer Colors||||
 |<img src="../../en_US/zigbee/images/Philips.LCT012.png" width="60" />|Philips|Hue White and Color Ambiance Candle E12||||
 |<img src="../../en_US/zigbee/images/Philips.LCT014.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26||||
+|<img src="../../en_US/zigbee/images/Philips.LCT015.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26||Please note that there is no status feedback for this model, only an order sending is possible||
 |<img src="../../en_US/zigbee/images/Philips.LCT024.png" width="60" />|Philips|Hue White and Color Ambiance Play Light Bar||||
 |<img src="../../en_US/zigbee/images/Philips.LLC001.png" width="60" />|Philips|Hue LivingColors||||
 |<img src="../../en_US/zigbee/images/Philips.LLC005.png" width="60" />|Philips|Hue LivingColors||||
@@ -132,6 +134,8 @@
 |<img src="../../en_US/zigbee/images/Philips.LST001.png" width="60" />|Philips|Hue LightStrip||||
 |<img src="../../en_US/zigbee/images/Philips.LST002.png" width="60" />|Philips|Hue LightStrip Plus||||
 |<img src="../../en_US/zigbee/images/Philips.LST004.png" width="60" />|Philips|Hue LightStrip Outdoor||||
+|<img src="../../en_US/zigbee/images/Philips.LTW001.png" width="60" />|Philips|Hue white and color||Please note that there is no status feedback for this model, only an order sending is possible||
+|<img src="../../en_US/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Hue White B22||Please note that there is no status feedback for this model, only an order sending is possible||
 |<img src="../../en_US/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../en_US/zigbee/images/Philips.RWL021.png" width="60" />|Philips|4 button remote control||||
 |<img src="../../en_US/zigbee/images/Philips.SML001.png" width="60" />|Philips|Hue indoor motion detector|Movement, Brightness, Temperature|||
@@ -205,4 +209,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-11-02 01:32:05
+2020-11-03 01:32:11

@@ -54,6 +54,9 @@
         "Mouvement,Luminosité,Température": "Mouvement,Luminosité,Température",
         "Hue détecteur de mouvement intérieure": "Hue détecteur de mouvement intérieure",
         "Télécommande 4 boutons": "Télécommande 4 boutons",
+        "Hue White B22": "Hue White B22",
+        "Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible": "Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible",
+        "Hue White and Color": "Hue White and Color",
         "Hue LightStrip Outdoor": "Hue LightStrip Outdoor",
         "Hue LightStrip Plus": "Hue LightStrip Plus",
         "Hue LightStrip": "Hue LightStrip",
@@ -72,6 +75,7 @@
         "Hue White and Color Ambiance BR30 Richer Colors": "Hue White and Color Ambiance BR30 Richer Colors",
         "Hue White and Color Ambiance A19 E26 (Gen 3": "Hue White and Color Ambiance A19 E26 (Gen 3",
         "Hue White and Color Ambiance A19 E26 (Gen 2": "Hue White and Color Ambiance A19 E26 (Gen 2",
+        "Hue White and Color Ambiance Spot GU10": "Hue White and Color Ambiance Spot GU10",
         "Hue White and Color BR30 (1st Gen": "Hue White and Color BR30 (1st Gen",
         "Hue bulb white and color": "Hue bulb white and color",
         "Hue Lightstrip Plus": "Hue Lightstrip Plus",
@@ -135,6 +139,6 @@
         "Documentation": "Documentation",
         "Attention le module ne marche pas": "Attention le module ne marche pas",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-11-02 01": "2020-11-02 01"
+        "2020-11-03 01": "2020-11-03 01"
     }
 }
