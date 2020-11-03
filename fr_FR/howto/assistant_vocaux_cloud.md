@@ -20,4 +20,4 @@ Ensuite une fois l'abonnement souscrit il faut faire la configuration en suivant
 > Google et AMAZON imposent que votre Jeedom soit accessible en HTTPS (le plugin ne marche pas en HTTP) avec un certificat valide (donc pas de certificat auto-signé)
 >
 > Grâce aux Service Pack Power ou Ultimate, votre Jeedom est accessible en HTTPS.
-> Si vous disposez d'un Service Pack Community, vous devez installer vous même un certificat SSL émis par une autorité de certification.
+> Si vous disposez d'un Service Pack Community, vous devez installer vous même un certificat SSL émis par une autorité de certification (ex: Let's Encrypt, ...).
