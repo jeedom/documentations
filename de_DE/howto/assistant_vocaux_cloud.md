@@ -20,4 +20,4 @@ Sobald das Abonnement abonniert ist, muss die Konfiguration anhand der Dokumenta
 > Google und AMAZON verlangen, dass Ihr Jeedom in HTTPS (das Plugin funktioniert nicht in HTTP) mit einem gültigen Zertifikat (daher kein selbstsigniertes Zertifikat) zugänglich ist)
 >
 > Dank der Power- oder Ultimate Service Packs ist Ihr Jeedom über HTTPS zugänglich.
-> Wenn Sie über ein Community Service Pack verfügen, müssen Sie selbst ein von einer Zertifizierungsstelle ausgestelltes SSL-Zertifikat installieren.
+> Wenn Sie über ein Community Service Pack verfügen, müssen Sie selbst ein SSL-Zertifikat installieren, das von einer Zertifizierungsstelle ausgestellt wurde (z: Lassen Sie uns verschlüsseln, ...).
