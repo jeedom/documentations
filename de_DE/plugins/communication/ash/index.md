@@ -10,7 +10,10 @@ Es kann über einen Cloud-Dienst von Jeedom betrieben werden.
 
 > **Wichtig**
 >
-> Es ist ABSOLUT notwendig, dass Ihr Jeedom in HTTPS zugänglich ist (das Plugin funktioniert nicht in HTTP), gültig (daher kein selbstsigniertes Zertifikat))
+> AMAZON setzt voraus, dass Ihr Jeedom in HTTPS (das Plugin funktioniert nicht in HTTP) mit einem gültigen Zertifikat (daher kein selbstsigniertes Zertifikat) zugänglich ist)
+>
+> Dank der Power- oder Ultimate Service Packs ist Ihr Jeedom über HTTPS zugänglich.
+> Wenn Sie über ein Community Service Pack verfügen, müssen Sie selbst ein von einer Zertifizierungsstelle ausgestelltes SSL-Zertifikat installieren.
 
 > **Wichtig**
 >
@@ -79,7 +82,7 @@ Sie können auf der Registerkarte "Szene" auch Szenen mit Eingabe- und Ausgabeak
 
 >**Beim Hinzufügen von Geräten habe ich NOK**
 >
->Klicken Sie einfach auf NOK. In einem Fenster wird der generische Typ angezeigt, den Sie auf den Gerätesteuerungen haben müssen, damit er funktioniert
+>Klicken Sie einfach auf NOK. In einem Fenster wird der generische Typ angezeigt, den Sie auf den Gerätesteuerungen haben müssen, damit er funktioniert. Sie können sehen [hier](https://doc.jeedom.com/de_DE/concept/generic_type) die Dokumentation zum generischen Typ
 
 >**Das Hinzufügen von Ausrüstung / Szene wird in der alexa-Anwendung nicht angezeigt**
 >
@@ -87,6 +90,7 @@ Sie können auf der Registerkarte "Szene" auch Szenen mit Eingabe- und Ausgabeak
 > - löschte alle meine übertragenen Geräte (grün OK) aus dem Alexa-Plugin
 > - gut sparen
 > - “oublié” tous mes équipement jeedom visibles dans la rubrique Maison connectée de Alexa.amazon.com (oder die App)
+> - im plugin -> plugin management dann alexa auf "send the configuration to the market" klicken"
 > - mache eine Entdeckung von Alexa
 > - Rückgabegeräte
 > - Wiederholen Sie die Erkennung von Alexa

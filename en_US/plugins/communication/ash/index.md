@@ -10,7 +10,10 @@ It can operate through a cloud service provided by Jeedom.
 
 > **Important**
 >
-> It is ABSOLUTELY necessary that your Jeedom is accessible in HTTPS (the plugin does not work in HTTP) valid (therefore no self-signed certificate)
+> AMAZON requires that your Jeedom be accessible in HTTPS (the plugin does not work in HTTP) with a valid certificate (therefore no self-signed certificate)
+>
+> Thanks to the Power or Ultimate Service Packs, your Jeedom is accessible via HTTPS.
+> If you have a Community Service Pack, you must install yourself an SSL certificate issued by a certification authority.
 
 > **Important**
 >
@@ -79,7 +82,7 @@ You can also create scenes in the scene tab, with input and output actions.
 
 >**When adding equipment I have NOK**
 >
->Just click on the NOK a window will tell you the generic type to have on the equipment controls for it to work
+>Just click on the NOK a window will tell you the generic type to have on the equipment controls for it to work. You can see [here](https://doc.jeedom.com/en_US/concept/generic_type) the documentation on generic type
 
 >**Adding equipment / scene does not appear in the alexa application**
 >
@@ -87,6 +90,7 @@ You can also create scenes in the scene tab, with input and output actions.
 > - deleted all my transmitted equipment (green OK) from the Alexa plugin
 > - save well
 > - “oublié” tous mes équipement jeedom visibles dans la rubrique Maison connectée de Alexa.amazon.com (or the app)
+> - in plugin -> plugin management then alexa click on "send the configuration to the market"
 > - do a detection from Alexa
 > - return equipment
 > - redo detection from Alexa

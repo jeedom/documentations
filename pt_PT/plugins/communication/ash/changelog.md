@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Possibilidade de escolher o modo de termostato (apenas com um termostato do plugin jeedom termostato e se os modos são chamados de calor, resfriamento, desligado, automático, eco)
+- Possibilidade de ativar a rotação automática da chave API
+- Correções de bugs
+
 # 30/04/2020
 
 - Correção de um problema com o controle de descida do obturador

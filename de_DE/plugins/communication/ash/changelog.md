@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Möglichkeit, den Thermostatmodus zu wählen (nur mit einem Thermostat aus dem Jeedom-Thermostat-Plugin und wenn die Modi Wärme, Kühlen, Aus, Auto, Öko heißen)
+- Möglichkeit der Aktivierung der automatischen Drehung des API-Schlüssels
+- Fehlerbehebungen
+
 # 30.04.2020
 
 - Behebung eines Problems mit der Verschlussabstiegssteuerung

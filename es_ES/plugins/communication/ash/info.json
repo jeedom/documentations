@@ -1,11 +1,33 @@
 {
     "id": "ash",
     "name": "Alexa",
-    "description": "Plugin permettant d'utiliser Amazon Alexa (echo, dot...) pour piloter votre Jeedom. Important : le plugin nécessite un abonnement aux services vocaux . Pour gérer cet abonnement : https:\/\/www.jeedom.com\/market\/index.php?v=d&p=profils#services",
+    "description": {
+        "fr_FR": "Plugin permettant d'utiliser Amazon Alexa (echo, dot...) pour piloter votre Jeedom. Important : le plugin nécessite un abonnement aux services vocaux . Pour gérer cet abonnement : https:\/\/www.jeedom.com\/market\/index.php?v=d&p=profils#services",
+        "en_US": "Plugin allowing you to use Amazon Alexa (echo, dot ...) to control your Jeedom. Important: the plugin requires a subscription to voice services. To manage this subscription: https:\/\/www.jeedom.com\/market\/index.php?v=d&p=profils#services",
+        "es_ES": "Complemento que le permite usar Amazon Alexa (echo, dot ...) para controlar su Jeedom. Importante: el complemento requiere una suscripción a los servicios de voz. Para administrar esta suscripción: https:\/\/www.jeedom.com\/market\/index.php?v=d&p=profils#services",
+        "de_DE": "Plugin, mit dem Sie Amazon Alexa (Echo, Punkt ...) verwenden können, um Ihr Jeedom zu steuern. Wichtig: Für das Plugin ist ein Abonnement für Sprachdienste erforderlich. So verwalten Sie dieses Abonnement: https:\/\/www.jeedom.com\/market\/index.php?v=d&p=profils#services",
+        "pt_PT": "Plugin que permite usar o Amazon Alexa (eco, ponto ...) para controlar seu Jeedom. Importante: o plug-in requer uma assinatura para serviços de voz. Para gerenciar esta assinatura: https:\/\/www.jeedom.com\/market\/index.php?v=d&p=profils#services"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.2.1",
     "category": "communication",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/ash\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/ash\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/ash\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

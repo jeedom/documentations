@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Posibilidad de elegir el modo de termostato (solo con un termostato del complemento de termostato jeedom y si los modos se llaman calor, frío, apagado, automático, eco)
+- Posibilidad de activar la rotación automática de la clave API
+- Correcciones de errores
+
 # 30/04/2020
 
 - Corrección de un problema con el control de descenso del obturador

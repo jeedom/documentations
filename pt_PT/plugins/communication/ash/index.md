@@ -10,7 +10,10 @@ Ele pode operar através de um serviço em nuvem fornecido pela Jeedom.
 
 > **IMPORTANTE**
 >
-> É absolutamente necessário que seu Jeedom esteja acessível em HTTPS (o plug-in não funciona em HTTP) válido (portanto, nenhum certificado autoassinado))
+> AMAZON requer que seu Jeedom esteja acessível em HTTPS (o plugin não funciona em HTTP) com um certificado válido (portanto, nenhum certificado autoassinado)
+>
+> Graças aos Power ou Ultimate Service Packs, seu Jeedom pode ser acessado via HTTPS.
+> Se você tiver um Community Service Pack, deverá instalar um certificado SSL emitido por uma autoridade de certificação.
 
 > **IMPORTANTE**
 >
@@ -79,7 +82,7 @@ Você também pode criar cenas na guia cena, com ações de entrada e saída.
 
 >**Ao adicionar equipamento, tenho NOK**
 >
->Basta clicar no NOK, uma janela informará o tipo genérico a ser usado nos controles do equipamento para que funcione
+>Basta clicar no NOK, uma janela informará o tipo genérico a ser usado nos controles do equipamento para que funcione. Você pode ver [aqui](https://doc.jeedom.com/pt_PT/concept/generic_type) a documentação sobre tipo genérico
 
 >**Adicionar equipamento / cena não aparece no aplicativo alexa**
 >
@@ -87,6 +90,7 @@ Você também pode criar cenas na guia cena, com ações de entrada e saída.
 > - apaguei todo o meu equipamento transmitido (verde OK) do plugin Alexa
 > - salve bem
 > - “oublié” tous mes équipement jeedom visibles dans la rubrique Maison connectée de Alexa.amazon.com (ou o aplicativo)
+> - em plugin -> gerenciamento de plugin, em seguida, alexa clique em "enviar a configuração para o mercado"
 > - faça uma detecção do Alexa
 > - equipamento de retorno
 > - refazer a detecção do Alexa

@@ -10,7 +10,10 @@ Il peut fonctionner en passant par un service cloud mis à disposition par Jeedo
 
 > **Important**
 >
-> Il faut ABSOLUMENT que votre Jeedom soit accessible en HTTPS (le plugin ne marche pas en HTTP) valide (donc pas de certificat auto-signé)
+> AMAZON impose que votre Jeedom soit accessible en HTTPS (le plugin ne marche pas en HTTP) avec un certificat valide (donc pas de certificat auto-signé)
+>
+> Grâce aux Service Pack Power ou Ultimate, votre Jeedom est accessible en HTTPS.
+> Si vous disposez d'un Service Pack Community, vous devez installer vous même un certificat SSL émis par une autorité de certification (ex: Let's Encrypt, ...).
 
 > **Important**
 >
@@ -47,7 +50,7 @@ Sur votre Jeedom, allez sur Plugin -> Communication -> Alexa et dans la partie �
 
 > **IMPORTANT**
 >
-> Le plugin se base sur les types génériques de Jeedom des commandes pour piloter votre domotique. Il est donc très important de configurer ceux-ci correctement. Vous pouvez voir [ici](https://jeedom.github.io/plugin-mobile/fr_FR/#tocAnchor-1-6) des explications sur les generiques type
+> Le plugin se base sur les types génériques de Jeedom des commandes pour piloter votre domotique. Il est donc très important de configurer ceux-ci correctement. Vous pouvez voir [ici](https://doc.jeedom.com/fr_FR/concept/generic_type) des explications sur les generiques type
 
 > **IMPORTANT**
 >
@@ -79,7 +82,7 @@ Vous pouvez aussi créer des scènes dans l'onglet scène, avec des actions d'en
 
 >**Lors de l'ajout des équipement j'ai des NOK**
 >
->Cliquez simplement sur le NOK une fenetre vous dira les generique type a avoir sur les commandes de l'équipement pour que cela marche
+>Cliquez simplement sur le NOK une fenetre vous dira les generique type a avoir sur les commandes de l'équipement pour que cela marche. Vous pouvez voir [ici](https://doc.jeedom.com/fr_FR/concept/generic_type) la documentation sur les générique type
 
 >**L'ajout d'équipement/scene n'apparait pas dans l'application alexa**
 >
@@ -87,6 +90,7 @@ Vous pouvez aussi créer des scènes dans l'onglet scène, avec des actions d'en
 > - supprimé tous mes équipements transmis (vert OK) depuis le plugin Alexa
 > - bien sauvegarder
 > - “oublié” tous mes équipement jeedom visibles dans la rubrique Maison connectée de Alexa.amazon.com (ou l’app)
+> - dans plugin -> gestion de plugin puis alexa cliquer sur "encoyer la configuration au market"
 > - faire une detection depuis Alexa
 > - remettre les équipements
 > - refaire une detection depuis Alexa

@@ -10,7 +10,10 @@ Puede operar a través de un servicio en la nube proporcionado por Jeedom.
 
 > **Importante**
 >
-> Es ABSOLUTAMENTE necesario que su Jeedom sea accesible en HTTPS (el complemento no funciona en HTTP) válido (por lo tanto, no hay certificado autofirmado))
+> AMAZON requiere que su Jeedom sea accesible en HTTPS (el complemento no funciona en HTTP) con un certificado válido (por lo tanto, sin certificado autofirmado)
+>
+> Gracias a los paquetes de servicio Power o Ultimate, se puede acceder a su Jeedom a través de HTTPS.
+> Si tiene un Community Service Pack, debe instalar usted mismo un certificado SSL emitido por una autoridad de certificación.
 
 > **Importante**
 >
@@ -79,7 +82,7 @@ También puede crear escenas en la pestaña de escena, con acciones de entrada y
 
 >**Cuando agrego equipo tengo NOK**
 >
->Simplemente haga clic en NOK, una ventana le indicará el tipo genérico que debe tener en los controles del equipo para que funcione
+>Simplemente haga clic en NOK, una ventana le indicará el tipo genérico que debe tener en los controles del equipo para que funcione. Podéis ver [aquí](https://doc.jeedom.com/es_ES/concept/generic_type) la documentación sobre tipo genérico
 
 >**Agregar equipo / escena no aparece en la aplicación alexa**
 >
@@ -87,6 +90,7 @@ También puede crear escenas en la pestaña de escena, con acciones de entrada y
 > - borré todo mi equipo transmitido (verde OK) del complemento Alexa
 > - guardar bien
 > - “oublié” tous mes équipement jeedom visibles dans la rubrique Maison connectée de Alexa.amazon.com (o la aplicación)
+> - en el complemento -> administración de complementos, luego alexa haga clic en "enviar la configuración al mercado"
 > - hacer una detección de Alexa
 > - devolver equipo
 > - rehacer detección de Alexa
