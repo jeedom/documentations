@@ -6,6 +6,9 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
 
+# 10/09/2020
+- Se corrigió un error de visualización en la vista móvil sin la plantilla de widget.
+
 # 09/06/2020
 - Transición de Beta a Estable.
 

@@ -6,6 +6,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
 
+# 09/10/2020
+- Fixed a display bug in mobile view without the widget template.
+
 # 06/09/2020
 - Transition from Beta to Stable.
 

@@ -6,6 +6,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 09/10/2020
+- Ein Anzeigefehler in der mobilen Ansicht ohne die Widget-Vorlage wurde behoben.
+
 # 06/09/2020
 - Übergang von Beta zu Stable.
 

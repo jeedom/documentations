@@ -6,6 +6,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 10/09/2020
+- Corrigido um bug de exibição na visualização móvel sem o modelo de widget.
+
 # 09/06/2020
 - Transição de Beta para Estável.
 
