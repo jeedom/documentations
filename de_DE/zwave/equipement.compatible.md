@@ -300,8 +300,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zwave/images/271.1024.260_fgs211.switch.3kw.jpg" width="60" />|Fibaro|FGS-211 Einzelladung|Micromodule|Modul durch FGS-212 ersetzt|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
-|<img src="../../de_DE/zwave/images/271.1024.261_fgs211.switch.3kw.jpg" width="60" />|Fibaro|FGS-211 Einzelladung|Micromodule|Modul durch FGS-212 ersetzt|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
+|<img src="../../de_DE/zwave/images/271.1024.260_fgs211.switch.3kw.jpg" width="60" />|Fibaro|Mikromodul mit einem Ladeschalter|Relais|Modul durch FGS-212 ersetzt|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
+|<img src="../../de_DE/zwave/images/271.1024.261_fgs211.switch.3kw.jpg" width="60" />|Fibaro|Mikromodul mit einem Ladeschalter|Relais|Modul durch FGS-212 ersetzt|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
 |<img src="../../de_DE/zwave/images/271.1024.262_fgs211.switch.3kw.jpg" width="60" />|Fibaro|FGS-211 Einzelladung|Micromodule|Modul durch FGS-212 ersetzt|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
 |<img src="../../de_DE/zwave/images/271.1024.263_fgs211.switch.3kw.jpg" width="60" />|Fibaro|FGS-211 Einzelladung|Micromodule|Modul durch FGS-212 ersetzt|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
 |<img src="../../de_DE/zwave/images/271.1024.264_fgs211.switch.3kw.jpg" width="60" />|Fibaro|FGS-211 Einzelladung|Micromodule|Modul durch FGS-212 ersetzt|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
@@ -889,4 +889,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-11-04 01:08:04
+2020-11-06 01:08:06

@@ -300,8 +300,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zwave/images/271.1024.260_fgs211.switch.3kw.jpg" width="60" />|Fibaro|FGS-211 Simple Charge|Micromodule|Module remplacé par le FGS-212|[Acheter](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
-|<img src="../../fr_FR/zwave/images/271.1024.261_fgs211.switch.3kw.jpg" width="60" />|Fibaro|FGS-211 Simple Charge|Micromodule|Module remplacé par le FGS-212|[Acheter](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
+|<img src="../../fr_FR/zwave/images/271.1024.260_fgs211.switch.3kw.jpg" width="60" />|Fibaro|Micromodule commutateur simple charge|Relais|Module remplacé par le FGS-212|[Acheter](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
+|<img src="../../fr_FR/zwave/images/271.1024.261_fgs211.switch.3kw.jpg" width="60" />|Fibaro|Micromodule commutateur simple charge|Relais|Module remplacé par le FGS-212|[Acheter](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
 |<img src="../../fr_FR/zwave/images/271.1024.262_fgs211.switch.3kw.jpg" width="60" />|Fibaro|FGS-211 Simple Charge|Micromodule|Module remplacé par le FGS-212|[Acheter](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
 |<img src="../../fr_FR/zwave/images/271.1024.263_fgs211.switch.3kw.jpg" width="60" />|Fibaro|FGS-211 Simple Charge|Micromodule|Module remplacé par le FGS-212|[Acheter](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
 |<img src="../../fr_FR/zwave/images/271.1024.264_fgs211.switch.3kw.jpg" width="60" />|Fibaro|FGS-211 Simple Charge|Micromodule|Module remplacé par le FGS-212|[Acheter](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
@@ -889,4 +889,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-11-04 01:08:04
+2020-11-06 01:08:06

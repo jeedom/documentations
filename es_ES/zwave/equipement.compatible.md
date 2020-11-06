@@ -300,8 +300,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zwave/images/271.1024.260_fgs211.switch.3kw.jpg" width="60" />|Fibaro|Carga única FGS-211|Micromodule|Módulo reemplazado por el FGS-212|[Comprar](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
-|<img src="../../es_ES/zwave/images/271.1024.261_fgs211.switch.3kw.jpg" width="60" />|Fibaro|Carga única FGS-211|Micromodule|Módulo reemplazado por el FGS-212|[Comprar](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
+|<img src="../../es_ES/zwave/images/271.1024.260_fgs211.switch.3kw.jpg" width="60" />|Fibaro|Micromódulo de interruptor de carga simple|Relais|Módulo reemplazado por el FGS-212|[Comprar](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
+|<img src="../../es_ES/zwave/images/271.1024.261_fgs211.switch.3kw.jpg" width="60" />|Fibaro|Micromódulo de interruptor de carga simple|Relais|Módulo reemplazado por el FGS-212|[Comprar](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
 |<img src="../../es_ES/zwave/images/271.1024.262_fgs211.switch.3kw.jpg" width="60" />|Fibaro|Carga única FGS-211|Micromodule|Módulo reemplazado por el FGS-212|[Comprar](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
 |<img src="../../es_ES/zwave/images/271.1024.263_fgs211.switch.3kw.jpg" width="60" />|Fibaro|Carga única FGS-211|Micromodule|Módulo reemplazado por el FGS-212|[Comprar](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
 |<img src="../../es_ES/zwave/images/271.1024.264_fgs211.switch.3kw.jpg" width="60" />|Fibaro|Carga única FGS-211|Micromodule|Módulo reemplazado por el FGS-212|[Comprar](http://www.domadoo.fr/fr/peripheriques/2862-fibaro-micromodule-commutateur-z-wave-fgs-212-5902020528272.html)|
@@ -889,4 +889,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-11-04 01:08:04
+2020-11-06 01:08:06
