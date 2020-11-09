@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 03/11/2020
+
 - Possibility to choose the thermostat mode (only with a thermostat from the jeedom thermostat plugin and if the modes are called heat, cool, off, auto, eco)
 - Possibility of activating the automatic rotation of the API key
 - Bugfix

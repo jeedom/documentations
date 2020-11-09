@@ -13,7 +13,7 @@ Puede operar a través de un servicio en la nube proporcionado por Jeedom.
 > AMAZON requiere que su Jeedom sea accesible en HTTPS (el complemento no funciona en HTTP) con un certificado válido (por lo tanto, sin certificado autofirmado)
 >
 > Gracias a los paquetes de servicio Power o Ultimate, se puede acceder a su Jeedom a través de HTTPS.
-> Si tiene un Community Service Pack, debe instalar usted mismo un certificado SSL emitido por una autoridad de certificación.
+> Si tiene un Community Service Pack, debe instalar usted mismo un certificado SSL emitido por una autoridad de certificación (p. Ej: Vamos a cifrar, ...).
 
 > **Importante**
 >
@@ -50,7 +50,7 @@ En su Jeedom, vaya a Complemento -> Comunicación -> Alexa y en la sección de e
 
 > **Importante**
 >
-> El complemento se basa en los tipos genéricos de comandos Jeedom para controlar la automatización de su hogar. Por lo tanto, es muy importante configurarlos correctamente. Podéis ver [aquí](https://jeedom.github.io/plugin-mobile/es_ES/#tocAnchor-1-6) explicaciones sobre genéricos genéricos
+> El complemento se basa en los tipos genéricos de comandos Jeedom para controlar la automatización de su hogar. Por lo tanto, es muy importante configurarlos correctamente. Podéis ver [aquí](https://doc.jeedom.com/es_ES/concept/generic_type) explicaciones sobre genéricos genéricos
 
 > **Importante**
 >

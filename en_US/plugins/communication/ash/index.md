@@ -13,7 +13,7 @@ It can operate through a cloud service provided by Jeedom.
 > AMAZON requires that your Jeedom be accessible in HTTPS (the plugin does not work in HTTP) with a valid certificate (therefore no self-signed certificate)
 >
 > Thanks to the Power or Ultimate Service Packs, your Jeedom is accessible via HTTPS.
-> If you have a Community Service Pack, you must install yourself an SSL certificate issued by a certification authority.
+> If you have a Community Service Pack, you must install yourself an SSL certificate issued by a certification authority (ex: Let's encrypt, ...).
 
 > **Important**
 >
@@ -50,7 +50,7 @@ On your Jeedom, go to Plugin -> Communication -> Alexa and in the equipment sect
 
 > **Important**
 >
-> The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly. You can see [here](https://jeedom.github.io/plugin-mobile/en_US/#tocAnchor-1-6) explanations on generic generics
+> The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly. You can see [here](https://doc.jeedom.com/en_US/concept/generic_type) explanations on generic generics
 
 > **Important**
 >

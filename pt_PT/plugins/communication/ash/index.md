@@ -13,7 +13,7 @@ Ele pode operar através de um serviço em nuvem fornecido pela Jeedom.
 > AMAZON requer que seu Jeedom esteja acessível em HTTPS (o plugin não funciona em HTTP) com um certificado válido (portanto, nenhum certificado autoassinado)
 >
 > Graças aos Power ou Ultimate Service Packs, seu Jeedom pode ser acessado via HTTPS.
-> Se você tiver um Community Service Pack, deverá instalar um certificado SSL emitido por uma autoridade de certificação.
+> Se você tiver um Community Service Pack, deverá instalar um certificado SSL emitido por uma autoridade de certificação (por exemplo: Vamos criptografar, ...).
 
 > **IMPORTANTE**
 >
@@ -50,7 +50,7 @@ No seu Jeedom, vá para Plugin -> Communication -> Alexa e, na seção equipment
 
 > **IMPORTANTE**
 >
-> O plug-in é baseado nos tipos genéricos de comandos Jeedom para controlar sua automação residencial. Portanto, é muito importante configurá-los corretamente. Você pode ver [aqui](https://jeedom.github.io/plugin-mobile/pt_PT/#tocAnchor-1-6) explicações sobre genéricos genéricos
+> O plug-in é baseado nos tipos genéricos de comandos Jeedom para controlar sua automação residencial. Portanto, é muito importante configurá-los corretamente. Você pode ver [aqui](https://doc.jeedom.com/pt_PT/concept/generic_type) explicações sobre genéricos genéricos
 
 > **IMPORTANTE**
 >
