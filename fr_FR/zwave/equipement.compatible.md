@@ -818,6 +818,7 @@
 |<img src="../../fr_FR/zwave/images/280.258.4128_tz66d.double.switch.jpg" width="60" />|Wenzhou|TZ66D|Interrupteur|Vendu aussi sous la marque TkbHome. Bouton de droit fonctionne en association seulement.|[Acheter](http://www.domadoo.fr/fr/peripheriques/2058-tkb-home-tz66d-interrupteur-double-z-wave-blanc-6959174466010.html)|
 |<img src="../../fr_FR/zwave/images/280.3.3_tz56.double.switch.jpg" width="60" />|Wenzhou|TZ56|Interrupteur|Le deuxième Bouton sert uniquement en association direct||
 |<img src="../../fr_FR/zwave/images/280.3.4_tz55.double.switch.dimmer.jpg" width="60" />|Wenzhou|TZ55|Interrupteur|Le deuxième Bouton sert uniquement en association direct||
+|<img src="../../fr_FR/zwave/images/280.3.5_tz78.single.switch.jpg" width="60" />|Wenzhou|TZ78 Simple charge|Micromodule|||
 |<img src="../../fr_FR/zwave/images/280.514.1553_tz67.wall.plug.dimmer.jpg" width="60" />|Wenzhou|TZ67|Prise|Vendu aussi sous la marque TkbHome.||
 |<img src="../../fr_FR/zwave/images/280.785.515_tz57.double.switch.jpg" width="60" />|Wenzhou|TZ57|Interrupteur|||
 |<img src="../../fr_FR/zwave/images/280.785.772_tz74.double.switch.jpg" width="60" />|Wenzhou|TZ74 Double charge|Micromodule|||
@@ -889,4 +890,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-11-10 01:08:05
+2020-11-11 01:08:10
