@@ -1,6 +1,6 @@
-# Plugin Météo
+# Plugin Weather
 
-Le plugin Weather permet de récupérer les données météorologiques pour une ou plusieurs villes. Il permet entre autre d’avoir les informations de lever et coucher du soleil, de température, de prévision, de vent, etc. Les informations récupérées viennent du site internet openweathermap.
+Le plugin **Weather** permet de récupérer les données météorologiques d'une ou plusieurs villes. Il donne accès, entre autre, aux prévisions météorologiques, aux informations de lever et coucher du soleil, de température, d'humidité, de vent, etc... Les informations proviennent du site internet **openweathermap**.
 
 # Configuration du plugin
 
@@ -10,20 +10,23 @@ Pour obtenir votre clef api il faut aller [ici](https://home.openweathermap.org)
 
 > **Important**
 >
-> Il faut attendre quelques heures ensuite le temps que la clef soit active avant de pouvoir récupérer des informations
+> Il faut attendre quelques heures avant de pouvoir récupérer des informations suite à la création du compte, le temps que la clef soit active.
 
 # Configuration des équipements
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Vous retrouvez ici la configuration de votre équipement :
 
 -   **Nom de l’équipement météo** : nom de votre équipement météo
 -   **Activer** : permet de rendre votre équipement actif
 -   **Visible** : rend votre équipement visible sur le dashboard
 -   **Objet parent** : indique l’objet parent auquel appartient l’équipement
--   **Ville** : Il faut mettre le nom de votre ville suivi du code pays, ex : Paris,fr
--   **Affichage complet en mobile** : permet d’afficher toutes les informations météo ou non en mobile
+-   **Ville** : Il faut mettre le nom de votre ville suivi du code pays, *(ex : Paris,fr)*
 
-Vous retrouvez en dessous toutes les commandes disponibles ainsi que la possibilité d’historiser ou non les valeurs numériques. Le code (numéro) en fonction des conditions est disponible [ici](https://openweathermap.org/weather-conditions)
+-   **Affichage complet en mobile** : permet d’afficher toutes les informations météo ou non en mobile
+-   **Mode image** : pour afficher des images à la place des icônes sur le widget
+
+
+En cliquant sur l'onglet **Commandes**, vous retrouvez toutes les commandes disponibles ainsi que la possibilité d’historiser ou non les valeurs numériques. Le code (numéro) en fonction des conditions est consultable [à cette adresse](https://openweathermap.org/weather-conditions)
 
 Le rafraîchissement des données météo s’effectue toutes les 30 minutes.
 

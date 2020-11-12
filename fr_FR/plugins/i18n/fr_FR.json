@@ -521,9 +521,9 @@
         "Changelog": "Changelog"
     },
     "plugins\/weather\/index.md": {
-        "Vous vouliez acheter une station météo, ce plugin vous fera peut être changer d'avis": "Vous vouliez acheter une station météo, ce plugin vous fera peut être changer d'avis",
+        "Vous vouliez acheter une station météo, ce plugin vous fera sûrement changer d'avis": "Vous vouliez acheter une station météo, ce plugin vous fera sûrement changer d'avis",
         "Weather": "Weather",
-        "Ce plugin vous permet de récuperer les informations météo": "Ce plugin vous permet de récuperer les informations météo",
+        "Ce plugin permet de récuperer les informations météorologiques de la ville de votre choix telles que les conditions météorologiques et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et plus encore": "Ce plugin permet de récuperer les informations météorologiques de la ville de votre choix telles que les conditions météorologiques et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et plus encore",
         "Publie Meteo": "Publie Meteo",
         "Netatmo Station": "Netatmo Station",
         "Permet de récupérer les informations des stations météo Netatmo": "Permet de récupérer les informations des stations météo Netatmo",
@@ -537,9 +537,7 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
         "Market": "Market",
-        "Changelog": "Changelog",
-        "On trouve des informations tel que, les conditions, températures,  actuelles et des jours à venir": "On trouve des informations tel que, les conditions, températures,  actuelles et des jours à venir",
-        "Vous aurez aussi le taux d'humidité, la force du vent et sa direction, l'heure du lever et du coucher de soleil et plein d'autres": "Vous aurez aussi le taux d'humidité, la force du vent et sa direction, l'heure du lever et du coucher de soleil et plein d'autres"
+        "Changelog": "Changelog"
     },
     "plugins\/wellness\/index.md": {
         "Thinking Cleaner": "Thinking Cleaner",

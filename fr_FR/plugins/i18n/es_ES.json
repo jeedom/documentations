@@ -1493,8 +1493,8 @@
         " Changelog*": " Cambios*"
     },
     "plugins\/weather\/index.md": {
-        "Vous vouliez acheter une station météo, ce plugin vous fera peut être changer d'avis": "Querías comprar una estación meteorológica, este complemento puede hacerte cambiar de opinión",
-        "Ce plugin vous permet de récuperer les informations météo": "Este complemento le permite recuperar información meteorológica",
+        "Vous vouliez acheter une station météo, ce plugin vous fera sûrement changer d'avis": "Querías comprar una estación meteorológica, este plugin seguramente te hará cambiar de opinión",
+        "Ce plugin permet de récuperer les informations météorologiques de la ville de votre choix telles que les conditions météorologiques et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et plus encore": "Este complemento le permite recuperar la información meteorológica de la ciudad de su elección, como las condiciones climáticas y las temperaturas actuales y los días venideros, la tasa de humedad, la fuerza del viento y su dirección, las horas de salida y puesta del sol. sol y mas",
         "Publie Meteo": "Publicar el tiempo",
         "Netatmo Station": "Netatmo Station",
         "Permet de récupérer les informations des stations météo Netatmo": "Le permite recuperar información de las estaciones meteorológicas de Netatmo",
@@ -1504,8 +1504,6 @@
         "Une fois sur le plugin en question, cliquez sur documentation": "Una vez en el complemento en cuestión, haga clic en la documentación",
         "Vous pouvez voir": "Podéis ver",
         "tous les plugins officiels de cette catégorie": "todos los complementos oficiales en esta categoría",
-        "On trouve des informations tel que, les conditions, températures,  actuelles et des jours à venir": "Encontramos información como condiciones, temperaturas, corriente y días venideros",
-        "Vous aurez aussi le taux d'humidité, la force du vent et sa direction, l'heure du lever et du coucher de soleil et plein d'autres": "También tendrá la humedad, la fuerza del viento y su dirección, la hora del amanecer y el atardecer y muchos otros",
         " Weather.": " Clima.",
         " Weather?": " Clima?",
         "Weather ": "Clima ",

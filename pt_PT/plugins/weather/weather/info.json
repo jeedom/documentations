@@ -1,7 +1,14 @@
 {
     "id": "weather",
     "name": "Weather",
-    "description": "Ce plugin vous permet de récuperer les informations météo.On trouve des informations tel que, les conditions, températures,  actuelles et des jours à venir. Vous aurez aussi le taux d'humidité, la force du vent et sa direction, l'heure du lever et du coucher de soleil et plein d'autres. Vous vouliez acheter une station météo, ce plugin vous fera peut être changer d'avis.",
+    "description": {
+        "fr_FR": "Ce plugin permet de récuperer les informations météorologiques de la ville de votre choix telles que les conditions météorologiques et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et plus encore. Vous vouliez acheter une station météo, ce plugin vous fera sûrement changer d'avis.",
+        "en_US": "This plugin allows you to retrieve weather information. We find information such as, conditions, temperatures, current and days to come. You will also have the humidity, the strength of the wind and its direction, the time of sunrise and sunset and many others. You wanted to buy a weather station, this plugin may make you change your mind",
+        "es_ES": "Este complemento le permite recuperar información del clima. Encontramos información como condiciones, temperaturas, corriente y días venideros. También tendrá la humedad, la fuerza del viento y su dirección, la hora del amanecer y el atardecer y muchos otros. Querías comprar una estación meteorológica, este complemento puede hacerte cambiar de opinión",
+        "de_DE": "Mit diesem Plugin können Sie Wetterinformationen abrufen. Wir finden Informationen wie Bedingungen, Temperaturen, aktuelle und kommende Tage. Sie werden auch die Luftfeuchtigkeit, die Stärke des Windes und seine Richtung, die Zeit von Sonnenaufgang und Sonnenuntergang und viele andere haben. Sie wollten eine Wetterstation kaufen, dieses Plugin kann Sie dazu bringen, Ihre Meinung zu ändern",
+        "pt_PT": "Este plug-in permite recuperar informações sobre o tempo, e informações como condições, temperaturas, corrente e dias que se seguem. Você também terá a umidade, a força do vento e sua direção, a hora do nascer e do pôr do sol e muitos outros. Você queria comprar uma estação meteorológica, este plugin pode fazer você mudar de idéia"
+    },
+    "utilization": "Renseignez votre clé API openweathermap dans la configuration du plugin. Créez un équipement et indiquez le nom de votre ville suivi du code pays (ex : Paris,fr)",
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "3.0",
@@ -11,17 +18,21 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
         "ru_RU",
         "id_ID",
-        "it_IT"
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
         "smart",
         "rpi",
         "docker",
-        "diy"
+        "diy",
+        "v4"
     ]
 }

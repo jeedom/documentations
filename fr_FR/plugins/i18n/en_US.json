@@ -1493,8 +1493,8 @@
         " Changelog*": " Changelog*"
     },
     "plugins\/weather\/index.md": {
-        "Vous vouliez acheter une station météo, ce plugin vous fera peut être changer d'avis": "You wanted to buy a weather station, this plugin may make you change your mind",
-        "Ce plugin vous permet de récuperer les informations météo": "This plugin allows you to retrieve weather information",
+        "Vous vouliez acheter une station météo, ce plugin vous fera sûrement changer d'avis": "You wanted to buy a weather station, this plugin will surely make you change your mind",
+        "Ce plugin permet de récuperer les informations météorologiques de la ville de votre choix telles que les conditions météorologiques et les températures actuelles et des jours à venir, le taux d'humidité, la force du vent et sa direction, les heures de lever et coucher du soleil et plus encore": "This plugin allows you to retrieve the weather information of the city of your choice such as the weather conditions and the current temperatures and the days to come, the humidity rate, the force of the wind and its direction, the times of sunrise and sunset. sun and more",
         "Publie Meteo": "Publish Weather",
         "Netatmo Station": "Netatmo Station",
         "Permet de récupérer les informations des stations météo Netatmo": "Allows you to retrieve information from Netatmo weather stations",
@@ -1504,8 +1504,6 @@
         "Une fois sur le plugin en question, cliquez sur documentation": "Once on the plugin in question, click on documentation",
         "Vous pouvez voir": "You can see",
         "tous les plugins officiels de cette catégorie": "all official plugins in this category",
-        "On trouve des informations tel que, les conditions, températures,  actuelles et des jours à venir": "We find information such as, conditions, temperatures, current and days to come",
-        "Vous aurez aussi le taux d'humidité, la force du vent et sa direction, l'heure du lever et du coucher de soleil et plein d'autres": "You will also have the humidity, the strength of the wind and its direction, the time of sunrise and sunset and many others",
         " Weather.": " Weather.",
         " Weather?": " Weather?",
         "Weather ": "Weather ",
