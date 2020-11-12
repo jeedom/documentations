@@ -1,4 +1,4 @@
-Descripción
+Description
 ===
 
 Plugin que permite la conexión con la aplicación VMI Link + el VMI de la marca Ventilairsec.
