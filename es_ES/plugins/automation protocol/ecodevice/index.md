@@ -1,219 +1,219 @@
-Présentation 
+Presentación 
 ============
 
-Ce plugin permet de gérer les cartes Ecodevice de GCE.
+Este complemento le permite administrar tarjetas GCE Ecodevice.
 
-Initialement, ce plugin a été créé pour connecter les Ecodevices de GCE.
+Inicialmente, este complemento se creó para conectar dispositivos ecológicos GCE.
 
-Données visibles sur le Dashboard : 
+Datos visibles en el Tablero : 
 -----------------------------------
 
--   '''les compteurs de Téléinformation '''
+-   '''Contadores de teleinformación '''
 
 ![ecodevice screenshot2](./images/ecodevice_screenshot2.jpg)
 
--   '''les compteurs d’impulsions'''
+-   '''contadores de pulso'''
 
 ![ecodevice screenshot3](./images/ecodevice_screenshot3.jpg)
 
-Fréquence de rafraichissement 
+Frecuencia de actualización 
 -----------------------------
 
-Le plugin met à jour ces données de 2 façons :
+El complemento actualiza estos datos de 2 maneras :
 
-Les données sont récupérées par le plugin toutes les minutes pour tous
-les compteurs. Il n’est pas possible d’avoir une fréquence plus élevée.
+El complemento recupera los datos cada minuto para todos
+los contadores. No es posible tener una frecuencia más alta.
 
-Pour les débits, consommations instantanés et Puissance Apparente une
-collecte est fait par un daemon en fonction de la fréquence paramétrée
-au niveau du plugin. Attention, une forte diminution engendre une forte
-surcharge de votre serveur jeedom.
+Para caudales, consumo instantáneo y potencia aparente a
+la recolección es realizada por un demonio de acuerdo con la frecuencia establecida
+nivel de complemento. Tenga en cuenta que una gran disminución genera una gran
+sobrecargando su servidor jeedom.
 
-Installation/Paramétrage 
+Instalación / Configuración 
 ========================
 
-Nous allons maintenant paramétrer un équipement. Pour se faire, cliquer
-sur '''Plugins / Protocole domotique / Eco-device'''.
+Ahora configuraremos un dispositivo. Para hacerlo, haga clic en
+en '' 'Complementos / Protocolo de automatización del hogar / Eco-dispositivo'''.
 
-Puis cliquer sur le bouton en haut à gauche "'''Ajouter un
+Luego haga clic en el botón en la esquina superior izquierda "'' 'Agregar un
 équipement'''".
 
-Puis saisir le nom de l’équipement (ex. Ecodevice 1).
+Luego ingrese el nombre del equipo (ej. Ecodevice 1).
 
-Puis définir :
+Luego defina :
 
--   '''Objet parent'''
+-   '''Objeto padre'''
 
--   '''Catégorie '''(optionnelle)
+-   '''Categoría '' '(opcional)
 
--   '''Activer '''(à cocher, sinon l’équipement ne sera pas utilisable)
+-   '''Active '' '(verifique, de lo contrario el equipo no será utilizable)
 
--   '''Visible '''(optionel si vous ne désirez pas le rendre visible sur
-    le Dashboard)
+-   '''Visible '' '(opcional si no desea que sea visible en
+    el tablero de instrumentos)
 
--   '''Adresse IP'''
+-   '''Dirección IP'''
 
 -   '''Port'''
 
 -   '''Compte'''
 
--   '''Mot de passe'''
+-   '''Contraseña'''
 
 ![ecodevice screenshot1](./images/ecodevice_screenshot1.jpg)
 
-Vous retrouverez l’ensemble des élements de la carte dans le menu à
-gauche en clickant sur l’icone de celle-ci.
+Encontrará todos los elementos de la tarjeta en el menú en
+izquierda haciendo clic en el icono.
 
-Voici la page de configuration de compteur. Tant que le type de compteur
-n’est pas defini, les commandes ne sont pas crées.
+Aquí está la página de configuración del contador. Mientras el tipo de contador
+no está definido, no se crean comandos.
 
 ![ecodevice screenshot4](./images/ecodevice_screenshot4.jpg)
 
-Voici la page de configuration d’une entrée téléinformation. Tant que le
-type de contrat n’est pas defini, les commandes ne sont pas crées.
+Aquí está la página de configuración para una entrada de teleinformación. Mientras el
+tipo de contrato no está definido, no se crean pedidos.
 
 ![ecodevice screenshot5](./images/ecodevice_screenshot5.jpg)
 
-Installation/Paramétrage 
+Instalación / Configuración 
 ========================
 
-Ce plugin ne nécessite aucun pre-requis d’installation.
+Este complemento no requiere ningún requisito previo de instalación.
 
-Preguntas frecuentes
+Preguntas frecuentes 
 ===
 
-Il faut dans le menu gauche cliquer sur l’icône suivant pour y avoir
-accès : ![la](./images/acces_sous_indicateur.jpg)
+En el menú de la izquierda, haga clic en el siguiente icono para tener
+acceso : ![el](./images/acces_sous_indicateur.jpg)
 
-Par défaut c’est toutes les minutes. Il est possible de configurer
-manuellement du push sur l’ecodevice. Pour les débits, consommations
-instantanées et puissance apparente peuvent être collectées plus
-fréquement en fonction du démon.
+Por defecto es cada minuto. Es posible configurar
+empujar manualmente el dispositivo ecológico. Para débitos, consumo
+el poder instantáneo y aparente se puede recoger más
+con frecuencia dependiendo del demonio.
 
-Il faut cliquer sur l’icône à gauche du nom de la carte dans la liste de
+Haga clic en el icono a la izquierda del nombre de la tarjeta en la lista de
 gauche.
 
-Ce plugin est gratuit pour que chacun puisse en profiter simplement. Si
-vous souhaitez tout de même faire un don au développeur du plugin, merci
-de m’envoyer un [message
-privé](https://www.jeedom.com/forum/memberlist.php?mode=viewprofile&u=698)
-sur le forum.
+Este complemento es gratuito para que todos puedan simplemente disfrutarlo. Si
+aún quieres donar al desarrollador del complemento, gracias
+mandame un mensaje
+privé](https://www.jeedom.com/forum/memberlist.php?mode = viewprofile & u = 698)
+en el foro.
 
-C’est tout à fait possible via
-[github](https://github.com/guenneguezt/plugin-ecodevice)
+Es completamente posible a través de
+[Github](https://github.com/guenneguezt/plugin-ecodevice)
 
-Pour le calcul du débit de fuel en une heure de fonctionnement, il faut
-connaître le marquage de votre gicleur de fuel. Pour cela, vous
-trouverez les informations dans [le doc
+Para calcular el flujo de combustible en una hora de operación,
+saber la marca de su inyector de combustible. Por eso, tu
+encuentre la información en [el documento
 suivant](http://fr.cd.danfoss.com/PCMPDF/DKBDPD060A204.pdf).
 
-La valeur donnée est en USgal/Heure avec la correspondance en Kg/H.
+El valor dado está en USgal / Hora con la correspondencia en Kg / H.
 
-Pour la densité du fuel, on peut prendre 820Kg/m³ et une pression de 7
+Para la densidad del combustible, podemos tomar 820 Kg / m³ y una presión de 7
 bar.
 
-Donc si vous avez un gicleur marqué 0.65S : 2,67 kg/h (suivant le
-tableau Danfoss). 2,67x0,82=2,1894 litres à l’heure. Cela donne une
-indication "approximative" de votre consommation.
+Entonces, si tiene una boquilla marcada 0.65S : 2,67 kg / h (dependiendo de
+Mesa Danfoss). 2.67x0.82 = 2.1894 litros por hora. Esto le da un
+Indicación "aproximada" de su consumo.
 
-Oui, il n’a pas été rédigé par mes soins, mais a le mérite d’exister.
-Merci au rédacteur.
+Sí, no fue escrito por mí, pero tiene el mérito de existir.
+Gracias al editor.
 <http://blog.domadoo.fr/guides/jeedom-guide-dutilisation-plugin-ecodevice/>
 
-cambios
+Cambios 
 =========
 
-> **Warning**
+> **Advertencia**
 >
-> Detail complet des mises à jour sur [Historique
+> Detalles completos de las actualizaciones en [Historial
 > Commit](https://github.com/guenneguezt/plugin-ecodevice/commits/master)
 
-Liste des évolutions majeures de la version courante :
+Lista de cambios importantes en la versión actual :
 
--   Suppression du lien Paypal pour être conforme avec Jeedom V3.1
+-   Eliminación del enlace de Paypal para cumplir con Jeedom V3.1
 
-Anciennes évolutions :
+Desarrollos antiguos :
 
--   Ajout d’une Clef API spécifique au plugin
+-   Adición de una clave API específica al complemento
 
--   Modification pour compatibilité Jeedom V3
+-   Modificación para compatibilidad con Jeedom V3
 
--   Plus de suivi de version
+-   No más seguimiento de versiones
 
--   Correction pour firmware 1.04.82
+-   Corrección para firmware 1.04.82
 
--   Correction du triphase
+-   Corrección trifásica
 
--   Correction du démon
+-   Demonio
 
--   Ajout de la génération automatique et intélligente des commandes de
-    téléinfo
+-   Adición de la generación automática e inteligente de los comandos de
+    Teleinfo
 
--   Changement unité Ampère en A
+-   Cambiar la unidad de amperios a A
 
--   Ajout de démon pour valeur variant rapidement
+-   Agregar demonio para un valor rápidamente variable
 
--   Commande par type de compteur (eau, gaz, electricité, fuel)
+-   Ordenar por tipo de medidor (agua, gas, electricidad, combustible)
 
--   Ajout des max et min pour widget
+-   Adición de max y min para widget
 
--   Widget par défaut
+-   Widget predeterminado
 
--   Amélioration de FAQ
+-   Mejora de preguntas frecuentes
 
--   Correction commande reboot.
+-   Comando de reinicio de corrección.
 
--   Modification pour recréer les sous-commandes si elles
-    n’existent plus.
+-   Modificación para recrear los subcomandos si
+    ya no existe.
 
--   Correction de la commande reboot
+-   Corrección del comando de reinicio
 
--   Ajout de commande pour reboot
+-   Adición de comando para reiniciar
 
--   Detection des xml corrompu.
+-   Detección de xml corrupto.
 
--   Mise à jour des entrées analogiques, même si la valeur ne change pas
-    pour les graphiques.
+-   Actualización de entradas analógicas, incluso si el valor no cambia
+    para gráficos.
 
--   Ajout de Intensité souscrite.
+-   Adición de intensidad suscrita.
 
--   Intensité maximale.
+-   Intensidad máxima.
 
--   Ajout du compteur journalier en monde non fuel.
+-   Adición del contador diario en el mundo sin combustible.
 
--   Modification de cron pour plus d’autonomie.
+-   Modificación de Cron para mayor autonomía.
 
--   Modification de l’extension du logo.
+-   Modificación de la extensión del logo.
 
--   Compatibilité Imperihome
+-   Compatibilidad Imperihome
 
--   Retrait de la suppression des équipements lors de la désactivation
-    du plugin
+-   Retiro del retiro del equipo durante la desactivación
+    plugin
 
--   Correction par rapport au nouveau core.
+-   Corrección en comparación con el nuevo núcleo.
 
--   Suppression de l’info `updatetime`.
+-   Eliminación de la información `updatetime`.
 
--   Ajout de données évolution (variation par minute).
+-   Adición de datos de evolución (variación por minuto).
 
--   Ajout d’un choix de tarification pour ne présenter que les commandes
-    correspondantes à celle-ci.
+-   Agregar una opción de precios para presentar solo los pedidos
+    correspondiente a ella.
 
--   Ajout de lien vers les options d’affichage.
+-   Agregar enlace para mostrar opciones.
 
--   Correction de double cron.
+-   Corrección cron doble.
 
--   Ajout du nombre d’impulsions par minute.
+-   Suma del número de pulsos por minuto.
 
--   Redéclenchement jusqu’à 3 fois en cas d’indisponibilité
-    de l’ecodevice.
+-   Reactivar hasta 3 veces en caso de indisponibilidad
+    del ecodispositivo.
 
--   Ajout d’une information `status`.
+-   Adición de información de `estado`.
 
--   Ne pas mettre à jour les données si elles ne changent pas.
+-   No actualice los datos si no cambia.
 
--   Problème de ZIP.
+-   Problema ZIP.
 
--   Initialisation.
+-   Inicialización.
 
 

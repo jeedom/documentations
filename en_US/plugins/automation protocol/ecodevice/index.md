@@ -1,219 +1,219 @@
-Présentation 
+Presentation 
 ============
 
-Ce plugin permet de gérer les cartes Ecodevice de GCE.
+This plugin allows you to manage GCE Ecodevice cards.
 
-Initialement, ce plugin a été créé pour connecter les Ecodevices de GCE.
+Initially, this plugin was created to connect GCE Ecodevices.
 
-Données visibles sur le Dashboard : 
+Data visible on the Dashboard : 
 -----------------------------------
 
--   '''les compteurs de Téléinformation '''
+-   '''Tele-information counters '''
 
 ![ecodevice screenshot2](./images/ecodevice_screenshot2.jpg)
 
--   '''les compteurs d’impulsions'''
+-   '''pulse counters'''
 
 ![ecodevice screenshot3](./images/ecodevice_screenshot3.jpg)
 
-Fréquence de rafraichissement 
+Refresh rate 
 -----------------------------
 
-Le plugin met à jour ces données de 2 façons :
+The plugin updates this data in 2 ways :
 
-Les données sont récupérées par le plugin toutes les minutes pour tous
-les compteurs. Il n’est pas possible d’avoir une fréquence plus élevée.
+Data is retrieved by the plugin every minute for everyone
+the counters. It is not possible to have a higher frequency.
 
-Pour les débits, consommations instantanés et Puissance Apparente une
-collecte est fait par un daemon en fonction de la fréquence paramétrée
-au niveau du plugin. Attention, une forte diminution engendre une forte
-surcharge de votre serveur jeedom.
+For flow rates, instantaneous consumption and Apparent Power a
+collection is done by a daemon according to the set frequency
+plugin level. Please note, a large decrease generates a large
+overloading your jeedom server.
 
-Installation/Paramétrage 
+Installation / Setup 
 ========================
 
-Nous allons maintenant paramétrer un équipement. Pour se faire, cliquer
-sur '''Plugins / Protocole domotique / Eco-device'''.
+We will now configure a device. To do so, click
+on '' 'Plugins / Home automation protocol / Eco-device'''.
 
-Puis cliquer sur le bouton en haut à gauche "'''Ajouter un
+Then click on the button at the top left "'' 'Add a
 équipement'''".
 
-Puis saisir le nom de l’équipement (ex. Ecodevice 1).
+Then enter the name of the equipment (ex. Ecodevice 1).
 
-Puis définir :
+Then define :
 
--   '''Objet parent'''
+-   '''Parent object'''
 
--   '''Catégorie '''(optionnelle)
+-   '''Category '' '(optional)
 
--   '''Activer '''(à cocher, sinon l’équipement ne sera pas utilisable)
+-   '''Activate '' '(check, otherwise the equipment will not be usable)
 
--   '''Visible '''(optionel si vous ne désirez pas le rendre visible sur
-    le Dashboard)
+-   '''Visible '' '(optional if you don't want to make it visible on
+    the dashboard)
 
--   '''Adresse IP'''
+-   '''IP adress'''
 
 -   '''Port'''
 
 -   '''Compte'''
 
--   '''Mot de passe'''
+-   '''Password'''
 
 ![ecodevice screenshot1](./images/ecodevice_screenshot1.jpg)
 
-Vous retrouverez l’ensemble des élements de la carte dans le menu à
-gauche en clickant sur l’icone de celle-ci.
+You will find all the elements of the card in the menu at
+left by clicking on the icon.
 
-Voici la page de configuration de compteur. Tant que le type de compteur
-n’est pas defini, les commandes ne sont pas crées.
+Here is the counter configuration page. As long as the counter type
+is not defined, commands are not created.
 
 ![ecodevice screenshot4](./images/ecodevice_screenshot4.jpg)
 
-Voici la page de configuration d’une entrée téléinformation. Tant que le
-type de contrat n’est pas defini, les commandes ne sont pas crées.
+Here is the configuration page for a tele-information input. As long as the
+type of contract is not defined, orders are not created.
 
 ![ecodevice screenshot5](./images/ecodevice_screenshot5.jpg)
 
-Installation/Paramétrage 
+Installation / Setup 
 ========================
 
-Ce plugin ne nécessite aucun pre-requis d’installation.
+This plugin does not require any installation prerequisites.
 
-FAQ
+FAQ 
 ===
 
-Il faut dans le menu gauche cliquer sur l’icône suivant pour y avoir
-accès : ![la](./images/acces_sous_indicateur.jpg)
+In the left menu, click on the following icon to have
+access : ![the](./images/acces_sous_indicateur.jpg)
 
-Par défaut c’est toutes les minutes. Il est possible de configurer
-manuellement du push sur l’ecodevice. Pour les débits, consommations
-instantanées et puissance apparente peuvent être collectées plus
-fréquement en fonction du démon.
+By default it is every minute. It is possible to configure
+manually push on the ecodevice. For debits, consumption
+instantaneous and apparent power can be collected more
+frequently depending on the demon.
 
-Il faut cliquer sur l’icône à gauche du nom de la carte dans la liste de
+Click on the icon to the left of the card name in the list of
 gauche.
 
-Ce plugin est gratuit pour que chacun puisse en profiter simplement. Si
-vous souhaitez tout de même faire un don au développeur du plugin, merci
-de m’envoyer un [message
-privé](https://www.jeedom.com/forum/memberlist.php?mode=viewprofile&u=698)
-sur le forum.
+This plugin is free so that everyone can simply enjoy it. Yes
+you still want to donate to the plugin developer, thank you
+send me a message
+privé](https://www.jeedom.com/forum/memberlist.php?mode = viewprofile & u = 698)
+on the forum.
 
-C’est tout à fait possible via
-[github](https://github.com/guenneguezt/plugin-ecodevice)
+It is entirely possible via
+[Github](https://github.com/guenneguezt/plugin-ecodevice)
 
-Pour le calcul du débit de fuel en une heure de fonctionnement, il faut
-connaître le marquage de votre gicleur de fuel. Pour cela, vous
-trouverez les informations dans [le doc
+To calculate the fuel flow in one hour of operation,
+know the marking of your fuel nozzle. For that, you
+find the information in [the doc
 suivant](http://fr.cd.danfoss.com/PCMPDF/DKBDPD060A204.pdf).
 
-La valeur donnée est en USgal/Heure avec la correspondance en Kg/H.
+The value given is in USgal / Hour with the correspondence in Kg / H.
 
-Pour la densité du fuel, on peut prendre 820Kg/m³ et une pression de 7
+For the density of the fuel, we can take 820Kg / m³ and a pressure of 7
 bar.
 
-Donc si vous avez un gicleur marqué 0.65S : 2,67 kg/h (suivant le
-tableau Danfoss). 2,67x0,82=2,1894 litres à l’heure. Cela donne une
-indication "approximative" de votre consommation.
+So if you have a nozzle marked 0.65S : 2.67 kg / h (depending on
+Danfoss table). 2.67x0.82 = 2.1894 liters per hour. This gives a
+"approximate" indication of your consumption.
 
-Oui, il n’a pas été rédigé par mes soins, mais a le mérite d’exister.
-Merci au rédacteur.
+Yes, it was not written by me, but has the merit of existing.
+Thanks to the editor.
 <http://blog.domadoo.fr/guides/jeedom-guide-dutilisation-plugin-ecodevice/>
 
-Changelog
+Changelog 
 =========
 
 > **Warning**
 >
-> Detail complet des mises à jour sur [Historique
+> Full details of updates on [History
 > Commit](https://github.com/guenneguezt/plugin-ecodevice/commits/master)
 
-Liste des évolutions majeures de la version courante :
+List of major changes in the current version :
 
--   Suppression du lien Paypal pour être conforme avec Jeedom V3.1
+-   Removal of the Paypal link to comply with Jeedom V3.1
 
-Anciennes évolutions :
+Old developments :
 
--   Ajout d’une Clef API spécifique au plugin
+-   Addition of a specific API Key to the plugin
 
--   Modification pour compatibilité Jeedom V3
+-   Modification for Jeedom V3 compatibility
 
--   Plus de suivi de version
+-   No more version tracking
 
--   Correction pour firmware 1.04.82
+-   Correction for firmware 1.04.82
 
--   Correction du triphase
+-   Triphase correction
 
--   Correction du démon
+-   Demon fix
 
--   Ajout de la génération automatique et intélligente des commandes de
-    téléinfo
+-   Addition of the automatic and intelligent generation of the commands of
+    Teleinfo
 
--   Changement unité Ampère en A
+-   Change Ampere unit to A
 
--   Ajout de démon pour valeur variant rapidement
+-   Adding daemon for rapidly varying value
 
--   Commande par type de compteur (eau, gaz, electricité, fuel)
+-   Order by type of meter (water, gas, electricity, fuel)
 
--   Ajout des max et min pour widget
+-   Addition of max and min for widget
 
--   Widget par défaut
+-   Default widget
 
--   Amélioration de FAQ
+-   FAQ improvement
 
--   Correction commande reboot.
+-   Correction reboot command.
 
--   Modification pour recréer les sous-commandes si elles
-    n’existent plus.
+-   Modification to recreate the subcommands if they
+    no longer exist.
 
--   Correction de la commande reboot
+-   Correction of the reboot command
 
--   Ajout de commande pour reboot
+-   Addition of command for reboot
 
--   Detection des xml corrompu.
+-   Detection of corrupt xml.
 
--   Mise à jour des entrées analogiques, même si la valeur ne change pas
-    pour les graphiques.
+-   Updating analog inputs, even if the value does not change
+    for graphics.
 
--   Ajout de Intensité souscrite.
+-   Addition of Subscribed Intensity.
 
--   Intensité maximale.
+-   Maximum intensity.
 
--   Ajout du compteur journalier en monde non fuel.
+-   Addition of the daily counter in non-fuel world.
 
--   Modification de cron pour plus d’autonomie.
+-   Cron modification for more autonomy.
 
--   Modification de l’extension du logo.
+-   Modification of the logo extension.
 
--   Compatibilité Imperihome
+-   Compatibility Imperihome
 
--   Retrait de la suppression des équipements lors de la désactivation
-    du plugin
+-   Removal of the removal of equipment during deactivation
+    plugin
 
--   Correction par rapport au nouveau core.
+-   Correction compared to the new core.
 
--   Suppression de l’info `updatetime`.
+-   Removal of the `updatetime` info.
 
--   Ajout de données évolution (variation par minute).
+-   Addition of evolution data (variation per minute).
 
--   Ajout d’un choix de tarification pour ne présenter que les commandes
-    correspondantes à celle-ci.
+-   Adding a pricing choice to present only the orders
+    corresponding to it.
 
--   Ajout de lien vers les options d’affichage.
+-   Add link to display options.
 
--   Correction de double cron.
+-   Double cron correction.
 
--   Ajout du nombre d’impulsions par minute.
+-   Addition of the number of pulses per minute.
 
--   Redéclenchement jusqu’à 3 fois en cas d’indisponibilité
-    de l’ecodevice.
+-   Re-trigger up to 3 times in case of unavailability
+    of the ecodevice.
 
--   Ajout d’une information `status`.
+-   Addition of `status` information.
 
--   Ne pas mettre à jour les données si elles ne changent pas.
+-   Do not update data if it does not change.
 
--   Problème de ZIP.
+-   ZIP problem.
 
--   Initialisation.
+-   Initialization.
 
 

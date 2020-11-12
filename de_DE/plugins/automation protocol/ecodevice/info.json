@@ -1,12 +1,28 @@
 {
-	"id" : "ecodevice",
-	"name" : "Eco-device",
-	"licence" : "AGPL",
-	"author" : "Jeedom Legacy",
-	"require" : "3.0",
-	"category" : "automation protocol",
-	"installation" : "Nécessite firmware 1.04.82 minimum",
-        "hasOwnDeamon" : true,
-        "changelog" : "https://jeedom.github.io/plugin-ecodevice/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-ecodevice/#language#/"
+    "id": "ecodevice",
+    "name": "Eco-device",
+    "licence": "AGPL",
+    "author": "Jeedom Legacy",
+    "require": "3.0",
+    "category": "automation protocol",
+    "installation": "Nécessite firmware 1.04.82 minimum",
+    "hasOwnDeamon": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ecodevice\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ecodevice\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

@@ -1,11 +1,13 @@
-# 02/01/2020
+# Changelog Eco-device
 
-- Corrección de errores
+# 01/02/2020
 
-# 03/10/2019
+- Correcciones de errores
 
-- compatibilité v3.3
+# 10/03/2019
+
+- compatibilidad v3.3
 
 # 15/09/2019
 
-- Corrección de errores
+- Correcciones de errores
