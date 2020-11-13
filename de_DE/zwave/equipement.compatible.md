@@ -829,7 +829,11 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/329.18.260_ubs.switch.jpg" width="60" />|Widom|USB Einmalladung|Micromodule|||
 |<img src="../../de_DE/zwave/images/329.4628.1284_wds.double.switch.jpg" width="60" />|Widom|WDS Doppelte Ladung|Micromodule||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3694-widom-micromodule-commutateur-double-z-wave-8059265060047.html)|
-||Widom|WPMC Energy Driven Switch|Micromodule||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3693-widom-micromodule-commutateur-z-wave-avec-pince-amperemetrique.html)|
+|<img src="../../de_DE/zwave/images/329.4628.1792_smart.plug.jpg" width="60" />|Widom|WPMS Smart Plug|Prise|||
+|<img src="../../de_DE/zwave/images/329.4628.2048_smart.roller.shutter.jpg" width="60" />|Widom|WPMS Smart Rollladen|Volets|||
+|<img src="../../de_DE/zwave/images/329.4628.2304_smart.dry.contact.jpg" width="60" />|Widom|WPMS Smart Dry Contact|Micromocule|||
+|<img src="../../de_DE/zwave/images/329.4628.2560_smart.te.dimmer.jpg" width="60" />|Widom|Smart TE Dimmer|Micromodule|||
+|<img src="../../de_DE/zwave/images/329.4628.2816_smart.double.switch.jpg" width="60" />|Widom|WDSM Smart Double Switch|Micromodule|||
 |<img src="../../de_DE/zwave/images/329.4628.772_wpms.energy.driven.switch.jpg" width="60" />|Widom|WPMS Energy Driven Switch|Micromodule||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3688-widom-micromodule-z-wave-commutateur-avec-mesure-d-energie.html)|
 
 # Zipato
@@ -890,4 +894,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-11-11 01:08:10
+2020-11-13 01:08:05

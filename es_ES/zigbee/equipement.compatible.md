@@ -5,7 +5,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Eurotronic|Válvula de espíritu||Válvula que tiende a no aceptar más órdenes (cambio de setpoint) a menos que se retiren las baterías y se vuelvan a colocar. Por otro lado, siempre retroalimenta la información de temperatura y el cambio manual del punto de ajuste||
+|<img src="../../es_ES/zigbee/images/Eurotronic.SPZB0001.png" width="60" />|Eurotronic|Válvula de espíritu||Válvula que tiende a no aceptar más órdenes (cambio de setpoint) a menos que se retiren las baterías y se vuelvan a colocar. Por otro lado, siempre retroalimenta la información de temperatura y el cambio manual del punto de ajuste||
 
 # GR-SMARTHOME
 
@@ -100,6 +100,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|Bombilla LED OSRAM Smart + Connected - Base E27||||
+|<img src="../../es_ES/zigbee/images/OSRAM.Plug_01.png" width="60" />|Osram|Enchufe OSRAM Smart +||||
 
 # Philips
 
@@ -210,4 +211,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-11-12 01:32:03
+2020-11-13 01:32:11

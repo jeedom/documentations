@@ -5,7 +5,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Eurotronic|Spiritusventil||Ventil, das dazu neigt, Bestellungen nicht mehr anzunehmen (Änderung des Sollwerts), es sei denn, die Batterien werden entfernt und zurückgesetzt. Andererseits werden immer die Temperaturinformationen und die manuelle Sollwertänderung zurückgemeldet||
+|<img src="../../de_DE/zigbee/images/Eurotronic.SPZB0001.png" width="60" />|Eurotronic|Spiritusventil||Ventil, das dazu neigt, Bestellungen nicht mehr anzunehmen (Änderung des Sollwerts), es sei denn, die Batterien werden entfernt und zurückgesetzt. Andererseits werden immer die Temperaturinformationen und die manuelle Sollwertänderung zurückgemeldet||
 
 # GR-SMARTHOME
 
@@ -100,6 +100,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|OSRAM Smart + Connected LED-Lampe - E27-Sockel||||
+|<img src="../../de_DE/zigbee/images/OSRAM.Plug_01.png" width="60" />|Osram|OSRAM Smart + Plug||||
 
 # Philips
 
@@ -210,4 +211,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-11-12 01:32:03
+2020-11-13 01:32:11

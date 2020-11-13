@@ -5,7 +5,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Eurotronic|Spirit valve||Valve that tends to no longer accept orders (change of setpoint) unless the batteries are removed and put back. On the other hand, it always feeds back the temperature information and manual setpoint change||
+|<img src="../../en_US/zigbee/images/Eurotronic.SPZB0001.png" width="60" />|Eurotronic|Spirit valve||Valve that tends to no longer accept orders (change of setpoint) unless the batteries are removed and put back. On the other hand, it always feeds back the temperature information and manual setpoint change||
 
 # GR-SMARTHOME
 
@@ -100,6 +100,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|OSRAM Smart + Connected LED Bulb - E27 Base||||
+|<img src="../../en_US/zigbee/images/OSRAM.Plug_01.png" width="60" />|Osram|OSRAM Smart + Plug||||
 
 # Philips
 
@@ -210,4 +211,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-11-12 01:32:03
+2020-11-13 01:32:11
