@@ -100,6 +100,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|Bombilla LED OSRAM Smart + Connected - Base E27||||
+|<img src="../../es_ES/zigbee/images/OSRAM.MR16_TW_OSRAM.png" width="60" />|Osram|OSRAM SMART + Spot GU5.3 blanco sintonizable||||
 |<img src="../../es_ES/zigbee/images/OSRAM.Plug_01.png" width="60" />|Osram|Enchufe OSRAM Smart +||||
 
 # Philips
@@ -173,6 +174,12 @@
 |<img src="../../es_ES/zigbee/images/Sunricher.RGB-CCT.png" width="60" />|Sunricher|Sunricher RGB||||
 |<img src="../../es_ES/zigbee/images/Sunricher.ZG2858A.png" width="60" />|Sunricher|Sunricher ||||
 
+# Tryo2sys
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/ptm215ze.png" width="60" />|Tryo2sys|PTM 215 ZE ||||
+
 # Tuya
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -211,4 +218,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-11-13 01:32:11
+2020-11-14 01:32:10

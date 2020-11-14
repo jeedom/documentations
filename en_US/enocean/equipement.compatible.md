@@ -250,4 +250,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-11-13 01:17:03
+2020-11-14 01:17:09

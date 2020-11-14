@@ -28,6 +28,8 @@
         "Moes Radiator Actuator": "Moes Radiator Actuator",
         "Tuya": "Tuya",
         "Température\/humidité": "Température\/humidité",
+        "Tryo2sys": "Tryo2sys",
+        "PTM 215 ZE": "PTM 215 ZE",
         "Sunricher": "Sunricher",
         "Sunricher RGB": "Sunricher RGB",
         "Sunricher motor controller": "Sunricher motor controller",
@@ -83,6 +85,8 @@
         "Hue White and Color Ambiance A60 E27": "Hue White and Color Ambiance A60 E27",
         "Osram": "Osram",
         "OSRAM Smart+ Plug": "OSRAM Smart+ Plug",
+        "3 Tunable White": "3 Tunable White",
+        "OSRAM SMART+ Spot GU5": "OSRAM SMART+ Spot GU5",
         "OSRAM Smart+ Ampoule LED Connectée - Culot E27": "OSRAM Smart+ Ampoule LED Connectée - Culot E27",
         "Orvibo": "Orvibo",
         "Smoke detector": "Smoke detector",
@@ -141,6 +145,6 @@
         "Documentation": "Documentation",
         "Attention le module ne marche pas": "Attention le module ne marche pas",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-11-13 01": "2020-11-13 01"
+        "2020-11-14 01": "2020-11-14 01"
     }
 }
