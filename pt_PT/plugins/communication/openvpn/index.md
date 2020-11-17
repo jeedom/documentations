@@ -4,13 +4,13 @@ Este plugin permite conectar o Jeedom a um servidor openvpn. Também é usado e,
 
 # Configuração do plugin
 
-Após o download do plug-in, você só precisa ativar e instalar as dependências do openvpn (clique no botão Instalar / Atualizar)
+Depois de baixar o plug-in, você só precisa ativar e instalar as dependências do openvpn (clique no botão Instalar / Atualizar)
 
 # Configuração do equipamento
 
 Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nome de l'équipement Openvpn** : nome do seu dispositivo Openvpn,
+-   **Nome do dispositivo openvpn** : nome do seu dispositivo Openvpn,
 -   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
 -   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias),
 -   **Ativar** : torna seu equipamento ativo,

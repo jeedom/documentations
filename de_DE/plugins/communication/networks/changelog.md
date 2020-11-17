@@ -39,7 +39,7 @@
 
 # 05/08/2018
 
-- Unterstützung für ARP-Ping (erfordert das Erzwingen der Installation von Abhängigkeiten)
+- ARP-Ping-Unterstützung (erfordert das Erzwingen der Installation von Abhängigkeiten)
 - Unterstützung für Ping an einem Port (Socket)
 - Panel Verbesserung
 

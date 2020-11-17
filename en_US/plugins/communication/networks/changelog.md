@@ -39,7 +39,7 @@
 
 # 05/08/2018
 
-- Support for ARP ping (requires forcing the installation of dependencies)
+- ARP ping support (requires forcing the installation of dependencies)
 - Support for ping on a port (socket)
 - Panel improvement
 

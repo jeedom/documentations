@@ -24,7 +24,7 @@ Depois de clicar em um deles, você obtém :
 
 Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nome de l'équipement Networks** : nome do seu equipamento de rede,
+-   **Nome do equipamento de redes** : nome do seu equipamento de rede,
 -   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
 -   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias),
 -   **Ativar** : torna seu equipamento ativo,
@@ -32,7 +32,7 @@ Aqui você encontra toda a configuração do seu equipamento :
 -   **Endereço IP** : Endereço IP para executar ping,
 -   **Endereço MAC (wol)** : Endereço MAC para wake-on-lan,
 -   **IP de transmissão (wol)** : endereço IP de broadcast da rede para enviar wake-on-lan,
--   **Método Ping** : Escolha do método ping : IP (normal), ARP (preferível para telefones ou periféricos que adormecem), PORT (para testar se uma porta está aberta)
+-   **Método Ping** : Escolha do método ping : IP (normal), ARP (preferencial para telefones ou dispositivos que adormecem), PORT (para testar se uma porta está aberta)
 -   **TTL** : Tempo de vida útil, os valores podem ser : 
     - 0 : mesmo host
     - 1 : mesmas sub-redes

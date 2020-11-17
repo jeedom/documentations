@@ -10,7 +10,7 @@ After downloading the plugin, you just need to activate and install the openvpn 
 
 Here you find all the configuration of your equipment :
 
--   **Name de l'équipement Openvpn** : name of your Openvpn device,
+-   **Name of the openvpn device** : name of your Openvpn device,
 -   **Parent object** : indicates the parent object to which the equipment belongs,
 -   **Category** : equipment categories (it can belong to several categories),
 -   **Activate** : makes your equipment active,

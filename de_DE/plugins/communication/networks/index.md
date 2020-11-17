@@ -14,7 +14,7 @@ Auf die Konfiguration der Netzwerkgeräte kann über das Plugin-Menü zugegriffe
 
 ![networks2](./images/networks2.PNG)
 
-So sieht die Networks-Plugin-Seite aus (hier mit bereits 1 Gerät) :
+So sieht die Networks-Plugin-Seite aus (hier mit bereits 1 Gerät)) :
 
 ![networks3](./images/networks3.PNG)
 
@@ -24,7 +24,7 @@ Sobald Sie auf eine davon klicken, erhalten Sie :
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name de l'équipement Networks** : Name Ihres Netzwerkgeräts,
+-   **Name des Netzwerkgeräts** : Name Ihres Netzwerkgeräts,
 -   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
 -   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören),
 -   **Aktivieren** : macht Ihre Ausrüstung aktiv,
@@ -32,7 +32,7 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 -   **IP-Adresse** : IP-Adresse zum Ping,
 -   **MAC-Adresse (wol)** : MAC-Adresse für Wake-on-LAN,
 -   **Broadcast IP (wol)** : Netzwerk-Broadcast-IP-Adresse zum Senden von Wake-on-LAN,
--   **Ping-Methode** : Wahl der Ping-Methode : IP (normal), ARP (bevorzugt für Telefone oder Peripheriegeräte, die einschlafen), PORT (um zu testen, ob ein Port offen ist)
+-   **Ping-Methode** : Wahl der Ping-Methode : IP (normal), ARP (bevorzugt für Telefone oder Geräte, die einschlafen), PORT (um zu testen, ob ein Port offen ist)
 -   **TTL** : Lebenszeit können Werte sein : 
     - 0 : gleicher Host
     - 1 : gleiche Subnetze
@@ -42,7 +42,7 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
     - 256 : keine Begrenzung
     Wenn Sie den Fehler "Lebenszeit überschritten" haben, erhöhen Sie diesen Wert. Wenn leer, ist der Parameter 255. Beachten Sie, dass bei einigen Konfigurationen (z. B. Docker) der 255 nicht autorisiert ist, sodass dieser Wert verringert werden muss.
 -   **Hafen** : Port zu Ping, wenn Sie sich an einem Port im Ping-Modus befinden (Beispiel) : 8080 für 192.168.0.12:8080),
--   **Selbstaktualisierung (cron)** : cron definiert die Ping-Frequenz,
+-   **Automatische Aktualisierung (cron)** : cron definiert die Ping-Frequenz,
 
 Nachfolgend finden Sie die Liste der Bestellungen :
 

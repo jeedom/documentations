@@ -1,11 +1,11 @@
-Präsentation 
+Präsentation
 ============
 
 Mit diesem Plugin können Sie GCE Ecodevice-Karten verwalten.
 
 Ursprünglich wurde dieses Plugin erstellt, um GCE Ecodevices zu verbinden.
 
-Im Dashboard sichtbare Daten : 
+Im Dashboard sichtbare Daten :
 -----------------------------------
 
 -   '''Tele-Informationsschalter '''
@@ -16,7 +16,7 @@ Im Dashboard sichtbare Daten :
 
 ![ecodevice screenshot3](./images/ecodevice_screenshot3.jpg)
 
-Aktualisierungsrate 
+Aktualisierungsrate
 -----------------------------
 
 Das Plugin aktualisiert diese Daten auf zwei Arten :
@@ -24,12 +24,12 @@ Das Plugin aktualisiert diese Daten auf zwei Arten :
 Die Daten werden vom Plugin jede Minute für alle abgerufen
 die Zähler. Eine höhere Frequenz ist nicht möglich.
 
-Für Durchflussraten, momentanen Verbrauch und scheinbare Leistung a
-Die Erfassung erfolgt durch einen Dämon gemäß der eingestellten Häufigkeit
+Für Durchflussraten, Momentanverbrauch und Scheinleistung a
+Die Erfassung erfolgt durch einen Daemon gemäß der konfigurierten Häufigkeit
 Plugin-Level. Bitte beachten Sie, dass ein starker Rückgang einen großen Rückgang erzeugt
 Überlastung Ihres Jeedom-Servers.
 
-Installation / Einrichtung 
+Installation / Einrichtung
 ========================
 
 Wir werden jetzt ein Gerät konfigurieren. Klicken Sie dazu auf
@@ -65,7 +65,7 @@ Sie finden alle Elemente der Karte im Menü unter
 links durch Klicken auf das Symbol.
 
 Hier ist die Zählerkonfigurationsseite. Solange der Zählertyp
-ist nicht definiert, Befehle werden nicht erstellt.
+ist nicht definiert, Aufträge werden nicht erstellt.
 
 ![ecodevice screenshot4](./images/ecodevice_screenshot4.jpg)
 
@@ -74,12 +74,7 @@ Vertragsart ist nicht definiert, Aufträge werden nicht angelegt.
 
 ![ecodevice screenshot5](./images/ecodevice_screenshot5.jpg)
 
-Installation / Einrichtung 
-========================
-
-Dieses Plugin erfordert keine Installationsvoraussetzungen.
-
-Faq 
+FAQ
 ===
 
 Klicken Sie im linken Menü auf das folgende Symbol
@@ -92,15 +87,6 @@ häufig abhängig vom Dämon.
 
 Klicken Sie auf das Symbol links neben dem Kartennamen in der Liste von
 gauche.
-
-Dieses Plugin ist kostenlos, so dass jeder es einfach genießen kann. Wenn
-Sie möchten immer noch an den Plugin-Entwickler spenden, danke
-Sende mir eine Nachricht
-privé](https://www.jeedom.com/forum/memberlist.php?mode = viewprofile & u = 698)
-im Forum.
-
-Es ist durchaus möglich über
-[Github](https://github.com/guenneguezt/plugin-ecodevice)
 
 Um den Kraftstoffdurchfluss in einer Betriebsstunde zu berechnen,
 Kennen Sie die Markierung Ihrer Kraftstoffdüse. Dafür du
@@ -119,101 +105,3 @@ Danfoss Tisch). 2,67 x 0,82 = 2,1894 Liter pro Stunde. Dies gibt eine
 Ja, es wurde nicht von mir geschrieben, hat aber den Verdienst zu existieren.
 Danke an den Herausgeber.
 <http://blog.domadoo.fr/guides/jeedom-guide-dutilisation-plugin-ecodevice/>
-
-Änderungsprotokoll 
-=========
-
-> **Warnung**
->
-> Ausführliche Informationen zu Aktualisierungen unter [Verlauf
-> Commit](https://github.com/guenneguezt/plugin-ecodevice/commits/master)
-
-Liste der wichtigsten Änderungen in der aktuellen Version :
-
--   Entfernen des Paypal-Links zur Einhaltung von Jeedom V3.1
-
-Alte Entwicklungen :
-
--   Hinzufügen eines bestimmten API-Schlüssels zum Plugin
-
--   Änderung für Jeedom V3-Kompatibilität
-
--   Keine Versionsverfolgung mehr
-
--   Korrektur für Firmware 1.04.82
-
--   Dreiphasenkorrektur
-
--   Dämonenfix
-
--   Hinzufügung der automatischen und intelligenten Erzeugung der Befehle von
-    Teleinfo
-
--   Ampere-Einheit auf A stellen
-
--   Hinzufügen eines Daemons für sich schnell ändernde Werte
-
--   Bestellung nach Zählertyp (Wasser, Gas, Strom, Kraftstoff)
-
--   Hinzufügen von max und min für das Widget
-
--   Standard-Widget
-
--   FAQ Verbesserung
-
--   Befehl zum Neustart der Korrektur.
-
--   Änderung zum Neuerstellen der Unterbefehle, falls vorhanden
-    nicht mehr existieren.
-
--   Korrektur des Neustartbefehls
-
--   Hinzufügen eines Befehls zum Neustart
-
--   Erkennung von beschädigten XML.
-
--   Aktualisieren der analogen Eingänge, auch wenn sich der Wert nicht ändert
-    für Grafiken.
-
--   Hinzufügen der abonnierten Intensität.
-
--   Maximale Intensität.
-
--   Hinzufügung des Tageszählers in der Welt ohne Kraftstoff.
-
--   Cron-Modifikation für mehr Autonomie.
-
--   Änderung der Logoerweiterung.
-
--   Kompatibilitäts-Imperihome
-
--   Entfernen des Entfernens von Geräten während der Deaktivierung
-    Plugin
-
--   Korrektur gegenüber dem neuen Kern.
-
--   Entfernen der "Updatetime" -Info.
-
--   Hinzufügen von Evolutionsdaten (Variation pro Minute).
-
--   Hinzufügen einer Preisauswahl, um nur die Bestellungen anzuzeigen
-    entsprechend.
-
--   Link zu Anzeigeoptionen hinzufügen.
-
--   Doppelte Cron-Korrektur.
-
--   Addition der Anzahl der Impulse pro Minute.
-
--   Bei Nichtverfügbarkeit bis zu 3 Mal erneut auslösen
-    des ecodevice.
-
--   Hinzufügen von Statusinformationen.
-
--   Aktualisieren Sie keine Daten, wenn sie sich nicht ändern.
-
--   ZIP-Problem.
-
--   Initialisierung.
-
-

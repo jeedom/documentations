@@ -14,7 +14,7 @@ The configuration of the Networks equipment is accessible from the plugin menu :
 
 ![networks2](./images/networks2.PNG)
 
-This is what the Networks plugin page looks like (here with 1 device already) :
+This is what the Networks plugin page looks like (here with already 1 device) :
 
 ![networks3](./images/networks3.PNG)
 
@@ -24,7 +24,7 @@ Once you click on one of them, you get :
 
 Here you find all the configuration of your equipment :
 
--   **Name de l'équipement Networks** : name of your Networks equipment,
+-   **Networks equipment name** : name of your Networks equipment,
 -   **Parent object** : indicates the parent object to which the equipment belongs,
 -   **Category** : equipment categories (it can belong to several categories),
 -   **Activate** : makes your equipment active,
@@ -32,7 +32,7 @@ Here you find all the configuration of your equipment :
 -   **IP adress** : IP address to ping,
 -   **MAC address (wol)** : MAC address for wake-on-lan,
 -   **Broadcast IP (wol)** : network broadcast IP address to send wake-on-lan,
--   **Ping method** : Choice of ping method : IP (normal), ARP (preferred for phones or peripherals that fall asleep), PORT (to test if a port is open)
+-   **Ping method** : Choice of ping method : IP (normal), ARP (preferred for phones or devices that fall asleep), PORT (to test if a port is open)
 -   **TTL** : Time-to-live, values can be : 
     - 0 : same host
     - 1 : same subnets
@@ -42,7 +42,7 @@ Here you find all the configuration of your equipment :
     - 256 : no limit
     If you have a 'Time to live exceeded' error, increase this value. If empty, then the parameter is 255. Note that on some configuration (Docker for example) the 255 is not authorized so it is necessary to decrease this value.
 -   **Port** : Port to ping if you are in ping mode on a port (example : 8080 for 192.168.0.12:8080),
--   **Self-updating (cron)** : cron defining the ping frequency,
+-   **Auto-refresh (cron)** : cron defining the ping frequency,
 
 Below you find the list of orders :
 

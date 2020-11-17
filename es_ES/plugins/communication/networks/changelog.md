@@ -39,7 +39,7 @@
 
 # 08/05/2018
 
-- Soporte para ping ARP (requiere forzar la instalación de dependencias)
+- Soporte de ping ARP (requiere forzar la instalación de dependencias)
 - Soporte para ping en un puerto (socket)
 - Mejora del panel
 

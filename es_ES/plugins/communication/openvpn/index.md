@@ -10,7 +10,7 @@ Después de descargar el complemento, solo necesita activar e instalar las depen
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nombre de l'équipement Openvpn** : nombre de su dispositivo Openvpn,
+-   **Nombre del dispositivo openvpn** : nombre de su dispositivo Openvpn,
 -   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
 -   **Categoría** : categorías de equipos (puede pertenecer a varias categorías),
 -   **Activar** : activa su equipo,

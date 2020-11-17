@@ -27,7 +27,7 @@
 # 2018.09.11
 
 - Möglichkeit, Optionen zur openvpn-Konfiguration hinzuzufügen
-- Möglichkeit, Befehle nach dem Start von DNS (dem Tag) auszuführen #interface# erlaubt den Namen der Schnittstelle zu haben)
+- Möglichkeit, Befehle nach dem Start von DNS (dem Tag) auszuführen #interface# ermöglicht es, den Namen der Schnittstelle zu haben)
 
 # 2018.10.30
 
@@ -47,4 +47,4 @@
 
 # 03/01/2018
 
--	Behebung eines Fehlers beim Hochladen von Dateien (CA und andere)
+-	Behebung eines Fehlers beim Hochladen von Dateien (CA und andere))

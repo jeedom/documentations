@@ -14,7 +14,7 @@ Se puede acceder a la configuración del equipo de Redes desde el menú de compl
 
 ![networks2](./images/networks2.PNG)
 
-Así es como se ve la página del complemento Redes (aquí con 1 dispositivo ya) :
+Así es como se ve la página del complemento de Redes (aquí con 1 dispositivo ya) :
 
 ![networks3](./images/networks3.PNG)
 
@@ -24,7 +24,7 @@ Una vez que haces clic en uno de ellos, obtienes :
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nombre de l'équipement Networks** : nombre de su equipo de redes,
+-   **Nombre del equipo de redes** : nombre de su equipo de redes,
 -   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
 -   **Categoría** : categorías de equipos (puede pertenecer a varias categorías),
 -   **Activar** : activa su equipo,
@@ -32,7 +32,7 @@ Aquí encontrarás toda la configuración de tu equipo :
 -   **Dirección IP** : Dirección IP para hacer ping,
 -   **Dirección MAC (wol)** : Dirección MAC para wake-on-lan,
 -   **Broadcast IP (wol)** : Dirección IP de transmisión de red para enviar wake-on-lan,
--   **Método de ping** : Elección del método de ping : IP (normal), ARP (preferido para teléfonos o periféricos que se quedan dormidos), PORT (para probar si un puerto está abierto)
+-   **Método de ping** : Elección del método de ping : IP (normal), ARP (preferido para teléfonos o dispositivos que se quedan dormidos), PORT (para probar si un puerto está abierto))
 -   **TTL** : Tiempo de vida, los valores pueden ser : 
     - 0 : mismo anfitrión
     - 1 : mismas subredes

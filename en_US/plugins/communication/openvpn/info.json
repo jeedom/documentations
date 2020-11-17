@@ -1,7 +1,13 @@
 {
     "id": "openvpn",
     "name": "Openvpn",
-    "description": "Plugin permettant de gérer la connexion à un serveur openvpn",
+    "description": {
+        "fr_FR": "Plugin permettant de gérer la connexion à un serveur openvpn.",
+        "en_US": "Plugin to manage the connection to an openvpn server",
+        "es_ES": "Complemento para administrar la conexión a un servidor openvpn",
+        "de_DE": "Plugin zum Verwalten der Verbindung zu einem OpenVPN-Server",
+        "pt_PT": "Plugin para gerenciar a conexão com um servidor openvpn"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "3.3",
@@ -12,17 +18,16 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
         "Jeedomboard",
         "Smart",
         "RPI\/RPI2",
         "Docker",
-        "DIY"
+        "DIY",
+        "v4"
     ]
 }

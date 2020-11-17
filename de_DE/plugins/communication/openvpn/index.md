@@ -10,7 +10,7 @@ Nach dem Herunterladen des Plugins müssen Sie nur die openvpn-Abhängigkeiten a
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name de l'équipement Openvpn** : Name Ihres Openvpn-Geräts,
+-   **Name des openvpn-Geräts** : Name Ihres Openvpn-Geräts,
 -   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
 -   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören),
 -   **Aktivieren** : macht Ihre Ausrüstung aktiv,

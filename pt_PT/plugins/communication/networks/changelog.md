@@ -39,7 +39,7 @@
 
 # 05/08/2018
 
-- Suporte para ping ARP (requer forçar a instalação de dependências)
+- Suporte a ping ARP (requer forçar a instalação de dependências)
 - Suporte para ping em uma porta (soquete)
 - Melhoria do painel
 
