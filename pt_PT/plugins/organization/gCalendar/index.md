@@ -20,9 +20,9 @@ Você precisa criar uma conta de desenvolvedor com o google para acessar as APIs
 >
 > Tenha cuidado ao inserir "URIs de redirecionamento autorizado", você deve prestar atenção : 
 > - ter autorizado o domínio aqui antes [aqui](https://console.developers.google.com/apis/credentials/consent). O Google sinalizará normalmente
-> - pressione bem a tecla Enter depois de copiar / colar o URL de redirecionamento do jeedom para a página de configuração do Google (pressionar o botão Salvar diretamente após copiar / agrupar sem pressionar a tecla Enter não funciona !!!)
+> - pressione a tecla Enter após copiar / colar o URL de redirecionamento do jeedom para a página de configuração do Google (pressionar o botão Salvar diretamente após copiar / intercalar sem pressionar a tecla Enter não funciona!!!)
 
-Recupere a chave do cliente e o segredo do cliente (você terá que colocá-los no lado Jeedom no equipamento)
+Obtenha a chave do cliente e o segredo do cliente (você precisará colocá-los no lado Jeedom no equipamento)
 
 Em seguida, você precisa adicionar a API do Google Agenda acessando [aqui](https://console.developers.google.com/apis/dashboard), depois, "Ative a API" e pesquise "API do Google Agenda" e adicione o.
 

@@ -4,7 +4,17 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-- Adición del parámetro del punto de consigna delta - temperatura exterior para el cálculo de la dirección lma frío / calor
+
+# 11/11/2020
+
+- Optimizaciones generales
+- Eliminación de la "Humedad"
+- Nueva presentación de la lista de objetos
+- Adición de la etiqueta "compatibilidad V4"
+
+# 01/06/2020
+
+- Adición del parámetro de consigna delta: temperatura exterior para calcular la dirección frío / calor
 
 # 07/04/2020
 
@@ -16,13 +26,13 @@
 
 # 17/12/2019
 
-- Problemas de visualización solucionados
+- Problema de visualización solucionado
 - Adición de una opción "Umbral de ciclo o calefacción se considera caliente"
 
 # 16/12/2019
 
 - Corrección de errores en modo apagado del termostato
-- Adición de una opción para limitar la duración de un segundo ciclo al 100% del tiempo (permite tener en cuenta el hecho de que los radiadores ya están calientes)
+- La adición de una opción para limitar la duración de un segundo ciclo al 100% del tiempo (permite tener en cuenta el hecho de que los radiadores ya están calientes)
 
 # 03/11/2019
 
@@ -83,7 +93,7 @@
 
 - Agregar un cálculo de rendimiento (kWh / DJU) si se da un comando de consumo al complemento
 - Corrección de un error en la gestión de alertas de falla del sensor de temperatura
-- Adición de un campo para un control de humedad (solo útil para el complemento Google Smarthome)
+- Adición de un campo para un control de humedad (útil solo para el complemento Google Smarthome)
 
 # 01/07/2018
 

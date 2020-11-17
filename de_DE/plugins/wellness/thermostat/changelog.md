@@ -4,7 +4,17 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-- Addition des Parameters Delta-Sollwert - Außentemperatur zur Berechnung der LMA-Richtung heiß / kalt
+
+# 11/11/2020
+
+- Allgemeine Optimierungen
+- Entfernung der "Luftfeuchtigkeit"
+- Neue Darstellung der Objektliste
+- Hinzufügung des Tags "V4-Kompatibilität"
+
+# 06/01/2020
+
+- Hinzufügung des Delta-Sollwertparameters - Außentemperatur zur Berechnung der Heiß- / Kaltrichtung
 
 # 04/07/2020
 
@@ -16,13 +26,13 @@
 
 # 17.12.2019
 
-- Anzeigeprobleme behoben
+- Anzeigeproblem behoben
 - Hinzufügen einer Option "Zyklusschwelle oder Erwärmung wird als heiß angesehen"
 
 # 16.12.2019
 
 - Fehlerkorrektur im Thermostat-Aus-Modus
-- Hinzufügen einer Option zur Begrenzung der Dauer eines zweiten Zyklus auf 100% der Zeit (ermöglicht die Berücksichtigung der Tatsache, dass die Heizkörper bereits heiß sind)
+- Hinzufügen einer Option zum Begrenzen der Dauer eines zweiten Zyklus auf 100% der Zeit (berücksichtigt die Tatsache, dass die Heizkörper bereits heiß sind)
 
 # 2019.03.11
 
@@ -83,7 +93,7 @@
 
 - Hinzufügen einer Leistungsberechnung (kWh / DJU), wenn dem Plugin ein Verbrauchsbefehl gegeben wird
 - Behebung eines Fehlers bei der Verwaltung von Temperatursensor-Fehlerwarnungen
-- Hinzufügen eines Feldes zur Feuchtigkeitskontrolle (nur nützlich für das Google Smarthome-Plugin)
+- Hinzufügen eines Feldes zur Feuchtigkeitskontrolle (nur für das Google Smarthome-Plugin nützlich)
 
 # 07/01/2018
 

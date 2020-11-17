@@ -20,9 +20,9 @@ Debe crear una cuenta de desarrollador con google para acceder a las API, vaya [
 >
 > Tenga cuidado cuando ingrese "URI de redireccionamiento autorizado" al que debe prestar atención : 
 > - habiendo autorizado el dominio aquí antes [aquí](https://console.developers.google.com/apis/credentials/consent). Google te indicará normalmente
-> - Bueno, presione la tecla Intro después de copiar / pegar la URL de redireccionamiento de Jeedom a la página de configuración de Google (¡presionar el botón Guardar directamente después de copiar / clasificar sin presionar la tecla Intro no funciona!
+> - presione la tecla Intro después de copiar / pegar la URL de redireccionamiento de Jeedom a la página de configuración de Google (presionar el botón Guardar directamente después de copiar / clasificar sin presionar la tecla Intro no funciona!!!)
 
-Recupere la clave y el secreto del cliente (deberá colocarlos en el lado de Jeedom en el equipo)
+Obtenga la clave del cliente y el secreto del cliente (deberá colocarlos en el lado de Jeedom en el equipo)
 
 Luego debe agregar la API de Google Calendar yendo [aquí](https://console.developers.google.com/apis/dashboard), luego en "Activar la API" y busque "API de Google Calendar" y luego agregue el.
 
@@ -32,7 +32,7 @@ Copie la clave del cliente y el cliente secreto en el lado de Jeedom, luego haga
 
 >**Importante**
 >
->Tenga cuidado de vincular las 2 cuentas (Google y Jeedom) DEBE estar conectado a Jeedom por su url externa (puede verla en el centro de configuración de Jeedom en la sección de red)
+>Atención para vincular las 2 cuentas (Google y Jeedom) es ABSOLUTAMENTE necesario estar conectado a Jeedom por su url externa (puede verlo en el centro de configuración de redes de partes de Jeedom)
 
 # Comando 
 

@@ -1,45 +1,50 @@
 # Plugin Google Agenda
 
-Le plugin agenda permet de récupérer les événements de son Google Agenda. Il peut aussi lancer une interaction lors d’un évènement
+Le plugin **Google Agenda** permet de récupérer les événements de vos agendas Google. Il peut également déclencher une interaction lors d’un évènement.
 
-# Configuration 
+# Configuration
 
-## Creer un équipement Google Agenda 
+## Créer un équipement Google Agenda
 
-Coté Jeedom il vous faut creer un équipement Google Agenda et récuperer l’URL de redirection. 
-
-> **IMPORTANT**
->
-> L'url d'accès externe a votre Jeedom doit absolument etre en https. Google n'autorise pas les connexions non cryptées.
-
-## Creer un compte developpeur chez Google 
-
-Il vous faut creer un compte developpeur chez google pour avoir accès aux API, allez [ici](https://console.developers.google.com/apis/credentials) puis faites "Creer identifiants" et "ID client Oauth", selectionnez "Application Web" et dans "URI de redirection autorisés" mettez celle donnée sur la page de configuration de l’équipement jeedom.
+Coté Jeedom il vous faut créer un équipement Google Agenda et récuperer l’URL de redirection.
 
 > **IMPORTANT**
 >
-> Attention lorsque vous saisiez "URI de redirection autorisés" il faut faire attention à : 
-> - avoir autorisé le domaine ici avant [ici](https://console.developers.google.com/apis/credentials/consent). Google vous le signal normalement
-> - bien appuyer sur la touche entrée après avoir copier/coller l'url de redirection depuis jeedom vers la page de configuration Google (appuyer sur le bouton de sauvegarde directement après le copier/collier sans appuyer sur la touche entrée ne marche pas!!!)
+> L'url d'accès externe à votre Jeedom doit absolument être en https, Google n'autorisant pas les connexions non cryptées.
 
-Récuperez la clef client et le secret client (il vous faudra les mettres coté Jeedom dans l’équipement)
+## Créer un compte développeur Google
 
-Il vous faut ensuite ajouter l’API Google Calendar en allant [ici](https://console.developers.google.com/apis/dashboard), puis en faisant "Activer l’api" et recherchez "Google Calendar API" puis ajoutez la.
+Il vous faut créer un compte développeur auprès de Google pour avoir accès à l'API. Pour se faire, [suivez ce lien](https://console.developers.google.com/apis/credentials), Créez un nouveau projet si nécessaire puis cliquez sur "**+ Créer des identifiants**" et sélectionnez "**ID client Oauth**".     
+ Ensuite  choisissez "**Application Web**" dans le menu déroulant puis ajoutez l'"*URL de retour*" donnée sur la page de l’équipement Jeedom dans "**URI de redirection autorisés**".
 
-## Liée le compte Google à jeedom 
+> **IMPORTANT**
+>
+>Lorsque vous renseignez "URI de redirection autorisés" il faut faire attention à :
+> - avoir autorisé le domaine avant [ici](https://console.developers.google.com/apis/credentials/consent). Google vous le signal normalement
+> - bien appuyer sur la touche entrée après avoir copier/coller l'url de redirection depuis jeedom vers la page de configuration Google (*appuyer sur le bouton de sauvegarde directement après le copier/collier sans appuyer sur la touche entrée ne fonctionne pas!*)     
 
-Copiez la clef client et le secrey client coté Jeedom puis cliquez sur le bouton Lier, validez tout.
+Récupérez l'**ID client**' et le **code secret du client** (il vous faudra les renseigner dans l’équipement coté Jeedom)
+
+Il faut ensuite ajouter l’API Google Calendar en allant [ici](https://console.developers.google.com/apis/dashboard). Cliquez sur "**+ Activer les API et les services**" puis recherchez "Google Calendar API" et ajoutez la.
+
+> **A SAVOIR**
+>
+>La procédure ci-dessus est suceptible d'évoluer avec le temps. Nous vous recommandons de suivre les directives données sur le site.
+
+## Lier le compte Google à jeedom
+
+Copiez le **Client ID** et la **Secret Key** coté Jeedom puis cliquez sur le bouton "**Lier**". N'oubliez pas de sauvegarder l'équipement.
 
 >**IMPORTANT**
 >
 >Attention pour lier les 2 comptes (Google et Jeedom) il faut ABSOLUMENT être connecté à Jeedom par son url externe (vous pouvez la voir dans le centre de configuration Jeedom partie réseaux)
 
-# Commande 
+# Commandes
 
-Le plugin ne comporte que des commandes qui vous donne le titre des évenement
+Le plugin comporte uniquement des commandes donnant le titre des évènements.
 
-# Interaction 
+# Interaction
 
-Jeedom peut interpreter le titre d’un évènement comme une interaction et donc déclencher une action. Pour cela il vous faut activer les intéractions sur la page de configuration de l’équipement.
+Jeedom peut interpréter le titre d’un évènement comme une interaction et donc déclencher une action. Pour cela il faut activer les interactions sur la page de configuration de l’équipement.
 
-Vous pouvez aussi indiquer une commande de retour par laquel jeedom va répondre suite à l’éxecution de l’interaction.
+Vous pouvez aussi indiquer une commande de retour par laquelle jeedom répondra suite à l’éxecution de l’interaction.    

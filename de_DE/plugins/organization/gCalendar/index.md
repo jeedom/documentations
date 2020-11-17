@@ -20,9 +20,9 @@ Sie müssen ein Entwicklerkonto bei Google erstellen, um auf die APIs zugreifen 
 >
 > Seien Sie vorsichtig, wenn Sie "Authorized Redirect URIs" eingeben, auf die Sie achten müssen : 
 > - die Domain hier schon einmal autorisiert zu haben [hier](https://console.developers.google.com/apis/credentials/consent). Google wird Sie normal signalisieren
-> - Drücken Sie die Eingabetaste, nachdem Sie die Weiterleitungs-URL von jeedom auf die Google-Konfigurationsseite kopiert / eingefügt haben (das Drücken der Schaltfläche Speichern direkt nach dem Kopieren / Sortieren ohne Drücken der Eingabetaste funktioniert nicht !!!)
+> - Drücken Sie die Eingabetaste, nachdem Sie die Weiterleitungs-URL von jeedom auf die Google-Konfigurationsseite kopiert / eingefügt haben (das Drücken der Speichern-Taste direkt nach dem Kopieren / Sortieren ohne Drücken der Eingabetaste funktioniert nicht!!!)
 
-Stellen Sie den Client-Schlüssel und das Client-Geheimnis wieder her (Sie müssen sie in der Ausrüstung auf die Jeedom-Seite legen)
+Stellen Sie den Kundenschlüssel und das Kundengeheimnis wieder her (Sie müssen sie auf der Jeedom-Seite in der Ausrüstung ablegen)
 
 Anschließend müssen Sie die Google Kalender-API hinzufügen, indem Sie fortfahren [hier](https://console.developers.google.com/apis/dashboard), Klicken Sie dann auf "API aktivieren" und suchen Sie nach "Google Kalender-API". Fügen Sie dann die hinzu.
 

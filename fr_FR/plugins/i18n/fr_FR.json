@@ -396,9 +396,9 @@
         "Uniquement pour Android via l'application Tasker": "Uniquement pour Android via l'application Tasker",
         "Geoloc": "Geoloc",
         "Plugin permettant à Jeedom de gérer la géolocalisation": "Plugin permettant à Jeedom de gérer la géolocalisation",
-        "La démarche est expliqué dans la documentation": "La démarche est expliqué dans la documentation",
+        "La démarche est expliquée dans la documentation": "La démarche est expliquée dans la documentation",
         "Google agenda": "Google agenda",
-        "Plugin permettant de recuperer les événements de Google Agenda": "Plugin permettant de recuperer les événements de Google Agenda",
+        "Plugin permettant de récupérer les évènements de Google Agenda": "Plugin permettant de récupérer les évènements de Google Agenda",
         "Saint du lendemain": "Saint du lendemain",
         "DomoGeek": "DomoGeek",
         "Plugin pour récuperer les informations du site DomoGeek": "Plugin pour récuperer les informations du site DomoGeek",
@@ -434,7 +434,7 @@
         "Adresse IP": "Adresse IP",
         "Saison": "Saison",
         "Saint du jour": "Saint du jour",
-        "Il est capable d'interpréter les titres des événements comme interaction": "Il est capable d'interpréter les titres des événements comme interaction",
+        "Il est capable d'interpréter les titres des évènements comme interaction": "Il est capable d'interpréter les titres des évènements comme interaction",
         "ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact": "ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact"
     },
     "plugins\/other\/index.md": {

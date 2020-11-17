@@ -1,7 +1,13 @@
 {
     "id": "gCalendar",
     "name": "Google agenda",
-    "description": "Plugin permettant de recuperer les événements de Google Agenda. Il est capable d’interpréter les titres des événements comme interaction.IMPORTANT : ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact). La démarche est expliqué dans la documentation. ",
+    "description": {
+        "fr_FR": "Plugin permettant de récupérer les évènements de Google Agenda. Il est capable d’interpréter les titres des évènements comme interaction. IMPORTANT : ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact). La démarche est expliquée dans la documentation.",
+        "en_US": "Plugin to retrieve events from Google Calendar. It is able to interpret the titles of the events as interaction.IMPORTANT: this plugin requires to have a dev account with Google (everyone can have one it's free and without impact). The process is explained in the documentation",
+        "es_ES": "Complemento para recuperar eventos de Google Calendar. Es capaz de interpretar los títulos de los eventos como interacción. IMPORTANTE: este complemento requiere tener una cuenta de desarrollo con Google (cualquiera puede tener una, es gratis y sin impacto). El proceso se explica en la documentación",
+        "de_DE": "Plugin zum Abrufen von Ereignissen aus Google Kalender. Es ist in der Lage, die Titel der Ereignisse als Interaktion zu interpretieren. WICHTIG: Für dieses Plugin ist ein Entwicklerkonto bei Google erforderlich (jeder kann eines haben, das kostenlos und ohne Auswirkungen ist). Der Vorgang wird in der Dokumentation erläutert",
+        "pt_PT": "Plug-in para recuperar eventos do Google Agenda. É capaz de interpretar os títulos dos eventos como interação.IMPORTANTE: este plug-in exige uma conta de desenvolvedor no Google (qualquer pessoa pode ter uma que é gratuita e sem impacto). O processo é explicado na documentação"
+    },
     "licence": "AGPL",
     "require": "3.0",
     "category": "organization",
@@ -11,17 +17,16 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",
         "smart",
         "rpi",
         "docker",
-        "diy"
+        "diy",
+        "v4"
     ]
 }

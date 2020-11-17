@@ -4,7 +4,17 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-- Addition of parameter of delta setpoint - outside temperature for the calculation of lma direction hot / cold
+
+# 11/11/2020
+
+- General optimizations
+- Removal of the "Humidity"
+- New presentation of the list of objects
+- Addition of the tag "V4 compatibility"
+
+# 06/01/2020
+
+- Addition of delta setpoint parameter - outside temperature for calculating the hot / cold direction
 
 # 04/07/2020
 
@@ -16,7 +26,7 @@
 
 # 12/17/2019
 
-- Fixed display issues
+- Fixed display issue
 - Addition of an option "Cycle threshold or heating is considered hot"
 
 # 12/16/2019
@@ -83,7 +93,7 @@
 
 - Adding a performance calculation (kWh / DJU) if a consumption command is given to the plugin
 - Correction of a bug on the management of temperature sensor failure alerts
-- Addition of a field for a humidity control (only useful for the Google Smarthome plugin)
+- Addition of a field for a humidity control (useful only for the Google Smarthome plugin)
 
 # 07/01/2018
 

@@ -20,9 +20,9 @@ You need to create a developer account with google to access the APIs, go [here]
 >
 > Be careful when you enter "Authorized redirect URIs" you must pay attention to : 
 > - having authorized the domain here before [here](https://console.developers.google.com/apis/credentials/consent). Google will signal you normally
-> - well press the enter key after copying / pasting the redirect url from jeedom to the Google configuration page (pressing the save button directly after copying / collating without pressing the enter key does not work !!!)
+> - well press the enter key after copying / pasting the redirect url from jeedom to the Google configuration page (pressing the save button directly after copying / collating without pressing the enter key does not work!!!)
 
-Recover the client key and client secret (you will have to put them on the Jeedom side in the equipment)
+Recover the client key and client secret (you will need to put them on the Jeedom side in the equipment)
 
 Then you need to add the Google Calendar API by going [here](https://console.developers.google.com/apis/dashboard), then by "Activate the API" and search for "Google Calendar API" then add the.
 
@@ -32,7 +32,7 @@ Copy the client key and the secrey client on the Jeedom side then click on the L
 
 >**Important**
 >
->Be careful to link the 2 accounts (Google and Jeedom) you MUST be connected to Jeedom by its external url (you can see it in the Jeedom configuration center in the network section)
+>Attention to link the 2 accounts (Google and Jeedom) it is ABSOLUTELY necessary to be connected to Jeedom by its external url (you can see it in the configuration center Jeedom part networks)
 
 # Command 
 

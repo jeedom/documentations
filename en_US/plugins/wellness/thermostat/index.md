@@ -5,7 +5,7 @@ This plugin allows you to create and manage thermostats to control the heating o
 -   The mode **hysteresis** corresponds to switching the heating on and off as a function of the interior temperature, in relation to a threshold corresponding to the setpoint. The hysteresis allows to avoid too frequent switching when the temperature is around the set point.
 -   The mode **temporal** calculates a percentage of heating over a predefined time cycle, taking into account the differences between the setpoint and the indoor and outdoor temperatures (insulation). This mode is more precise, has a learning function allowing automatic adjustment of the coefficients but may require some manual adjustments to adapt it to your installation. Important for the time mode to work, you absolutely need an indoor AND outdoor temperature sensor.
 
-# Setup
+# Configuration
 
 This plugin is for creating thermostats in Jeedom. It can control heating, air conditioning or both.
 
@@ -37,11 +37,11 @@ Then there are different tabs :
 -   The Advanced Configuration tab allows you to adjust the heating regulation parameters.
 -   If in addition, you have the Agenda plugin, programming mode changes becomes possible directly from the programming tab.
 
-Your thermostat is now operational, and by using scenarios or by combining it with other plugins (agenda, virtual, presence, ...), it will blend smoothly into your home automation installation. This is what we get on the dashboard :
+Your thermostat is now operational and by using scenarios or by combining it with other plugins (agenda, virtual, presence, ...), it will blend smoothly into your home automation installation. This is what we get on the dashboard :
 
-![Aspect sur le dashboard](./images/thermostat.png)
+![Aspect sur le Dashboard](./images/thermostat.png)
 
-The lock on the widget allows you to block the thermostat in a given setpoint, following an unforeseen event : leave, guests,….
+The lock on the widget allows you to block the thermostat in a given setpoint, following an unforeseen event : holidays, guests, ...
 
 ## The creation of a thermostat in detail
 
@@ -51,7 +51,7 @@ To create a new thermostat, go to the configuration page by scrolling down the P
 
 First, we will inform the general parameters of the thermostat. They are found at the top left, general section and it is necessary to specify here the parent object, the activation and the visibility of the thermostat, usual information for any user of jeedom.
 
-## The choix de l'algorithme du thermostat
+## The choice of thermostat algorithm
 
 ![Choix de l'algorithme](./images/thermostat31.png)
 
@@ -59,7 +59,7 @@ Highlighted in this image is the thermostat operating motor. There are 2 possibl
 
 When you select the Hysteresis mode, the heating starts when the temperature is lower than the setpoint minus the hysteresis and it turns off as soon as the temperature exceeds the setpoint plus the hysteresis.
 
-![Principe du mode hystérésis](./images/PrincipeHysteresis.png)
+![Principe du mode hysteresis](./images/PrincipeHysteresis.png)
 
 For example, if the hysteresis is set at 1 ° C and the setpoint is 19 ° C, then the heating is activated when the temperature drops below 18 ° C and stops as soon as it reaches 20 ° C.
 
@@ -89,17 +89,19 @@ Next, specify the commands that measure the temperature and control the heating 
 
 > **Tip**
 >
-> The fields `Lower temperature limit` and` Upper temperature limit` define the operating range of the thermostat outside which a heating failure is triggered. See below the paragraph on default actions.
+> The fields `Lower temperature limit` and` Upper temperature limit` define the operating range of the thermostat outside which a heating failure is triggered. See the paragraph on default actions below.
 
-For the control of the radiator or air conditioner, it is described in the tab *Actions*. Here we can define several actions, which gives our thermostat the possibility of controlling different equipment (case of operation by zone for example or control of another thermostat)
+You also have a field to indicate the consumption per day in kWh of your heating (if you have it otherwise it does not matter). This allows the thermostat plugin to give you an indication of the performance of your heating (it just does the calculation according to consumption / unified day degree)
+
+For the control of the radiator or air conditioner, it is described in the tab *Actions*. Here we can define several actions, which gives our thermostat the ability to control different equipment (case of zone operation for example or control of another thermostat)
 
 ![Actions sur les appareils](./images/actionssurappareil.png)
 
 Actions are those that allow heating, cooling (air conditioning), stopping the command. An additional action can be envisaged at each setpoint change, whether in manual or automatic mode.
 
-## Thes modes : the starting point for automation
+## The trends : the starting point for automation
 
-The modes (defined in the tab *Modes*) are predetermined thermostat setpoints that correspond to your lifestyle. For example, the mode **Night** or **Eco** give the temperature you want when everyone is asleep. The mode **Day** or **Comfort** determines the behavior of the thermostat to have a comfortable temperature when you are present at home. Nothing is frozen here. You can define as many modes as you want to use them via scenarios (We will come back to this later).
+The modes (defined in the tab *Modes*) are predetermined thermostat guidelines that fit your lifestyle. For example, the mode **Night** or **Eco** give the temperature you want when everyone is asleep. The mode **Day** or **Comfort** determines the behavior of the thermostat to have a comfortable temperature when you are present at home. Nothing is frozen here. You can define as many modes as you want to use them via scenarios (We will come back to this later).
 
 In the image below, the mode **Comfort** has a setpoint of 19 ° C and for the mode **Eco**, the thermostat is set at 17 ° C. The mode **Vacation** programs the thermostat at 15 ° C in the event of prolonged absence. It is not visible on the dashboard, because it is a scenario which programs all the equipment in *Vacation* and thus position the thermostat in this mode.
 
@@ -107,7 +109,7 @@ In the image below, the mode **Comfort** has a setpoint of 19 ° C and for the m
 
 To define a mode, proceed as follows :
 
--   Click on the button *Add Mode*,
+-   Click on the button *Add mode*,
 -   give a name to this mode, for example `Eco`,
 -   add an action and choose the command *Thermostat* of your thermostat equipment,
 -   adjust the desired temperature for this mode,
@@ -117,7 +119,7 @@ To define a mode, proceed as follows :
 >
 >Attention during the renaming of a mode it is absolutely necessary to review the scenarios / equipment which use the old name to pass them on the new
 
-## Thes ouvertures : to temporarily interrupt the thermostat
+## The openings : to temporarily interrupt the thermostat
 
 Imagine that you want to temporarily stop your heating or air conditioning, for example to ventilate the room for which the thermostat is active. To detect the opening of the window, you will use a sensor located on the opening of your window, thus allowing you to carry out this interruption by adding it in the tab of configuration of the openings. Two additional parameters can be set here; the opening and closing times of the window will cause the thermostat to stop and resume operation.
 
@@ -126,8 +128,8 @@ Imagine that you want to temporarily stop your heating or air conditioning, for 
 To configure the operation when the window is opened :
 
 -   select the opening sensor info in the `Opening` field
--   adjust the time before the thermostat switches off after opening in the `Switch off if open more than (min) field :``
--   adjust the time after closing the window to restart the thermostat in the `Rekindle if closed since (min) field :``
+-   adjust the time before the thermostat switches off after opening in the `Switch off if open more than (min) :``
+-   adjust the time after closing the window allowing the thermostat to be restarted in the `Switch on if closed since (min) :``
 -   Click on the button *Save* to record the inclusion of openings
 
 > **Tip**
@@ -185,29 +187,29 @@ You can enter several actions, which will be executed in sequence and in the cas
 This tab contains all the parameters for adjusting the thermostat in time mode. In most cases, it is not necessary to modify these values, since self-learning will automatically calculate the coefficients. However, even if the thermostat can adapt to most cases, it is possible to adjust the coefficients for an optimized configuration for your installation.
 
 ![Setup Advanced du
-thermostat](../ images / configurationavancee.png)
+thermostat](./ images / configurationavancee.png)
 
 The coefficients are as follows :
 
--   **Heating coefficient / Cooling coefficient** : this is the gain of the regulatory system . This value is multiplied by the difference between the setpoint and the interior temperature measured to deduce the heating / cooling time.
+-   **Heating coefficient / Cooling coefficient** : this is the gain of the regulatory system. This value is multiplied by the difference between the setpoint and the interior temperature measured to deduce the heating / cooling time.
 -   **Hot learning / Cold learning** : this parameter indicates the progress of learning. A value of 1 indicates the start of learning, the algorithm performs a coarse adjustment of the coefficients. Then as this parameter increases, the adjustment becomes more refined. A value of 50 indicates the end of learning.
 -   **Heating insulation / Air conditioning insulation** : this coefficient is multiplied by the difference between the setpoint and the outside temperature measured to deduce the heating / air conditioning time. It represents the contribution of the outside temperature to the heating / cooling time and its value is normally lower than the heating / cooling coefficient, in the case of a well insulated room.
 -   **Learn hot insulation / Learn cold insulation** : same function as above, but for the insulation coefficients.
--   **Offsand chauffage(%) / Offsand clim(%)** : The heating offset allows to take into account *internal contributions*, normally it should not be fixed but we suppose that learning integrates the dynamic part in the other 2 coefficients. The *internal contributions*, it is for example a computer which will cause a rise in temperature when it is turned on, but it may also be individuals (1 person = 80W on average), the refrigerator in the kitchen. In a room to the south, it is a sunny facade which can provide additional energy. In theory, this coefficient is negative.
-- **Offsand à appliquer si le radiateur est considéré chaud (%)** : to be used if your heating control system has a significant inertia, whether due to the radiators, the configuration of the room (distance between the radiator and the temperature probe) or the temperature probe itself ( depending on the model, their reactivity is more or less). The visible consequence of this inertia is a temporary overshoot of the set point during significant temperature increases (set point which goes from 15 ° C to 19 ° C for example). This parameter corresponds to the difference observed between the heating period (= heating is on) and the period when the temperature measured by the probe increases, divided by the length of the configured cycle. For example, if there is a difference of 30 minutes between the start of heating and the start of temperature rise, and the duration of the heating cycles is set to 60 minutes, we can set this parameter 50%. Thus, when a 100% heating cycle is followed by another heating, this parameter allows to take into account the heat generated by the radiator in the first cycle but not yet measured by the probe for the calculation of the second cycle, by reducing d '' its heating power. The power of the second cycle will then be reduced by 50% compared to the calculation made according to the temperature measured by the probe.
+-   **Heating offset (%) / Air conditioning offset (%)** : The heating offset allows to take into account *internal contributions*, normally it should not be fixed but we suppose that learning integrates the dynamic part in the other 2 coefficients. The *internal contributions*, it is for example a computer which will cause a rise in temperature when it is turned on, but it may also be individuals (1 person = 80W on average), the refrigerator in the kitchen. In a room to the south, it is a sunny facade which can provide additional energy. In theory, this coefficient is negative.
+- **Offset to be applied if the radiator is considered hot (%)** : to be used if your heating control system has a significant inertia, whether due to the radiators, the configuration of the room (distance between the radiator and the temperature probe) or the temperature probe itself ( depending on the model, their reactivity is more or less). The visible consequence of this inertia is a temporary overshoot of the set point during significant temperature increases (set point which goes from 15 ° C to 19 ° C for example). This parameter corresponds to the difference observed between the heating period (= heating is on) and the period when the temperature measured by the probe increases, divided by the length of the configured cycle. For example, if there is a difference of 30 minutes between the start of heating and the start of temperature rise, and the duration of the heating cycles is set to 60 minutes, we can set this parameter 50%. Thus, when a 100% heating cycle is followed by another heating, this parameter allows to take into account the heat generated by the radiator in the first cycle but not yet measured by the probe for the calculation of the second cycle, by reducing d '' its heating power. The power of the second cycle will then be reduced by 50% compared to the calculation made according to the temperature measured by the probe.
 -   **Self learning** : check box to activate / deactivate learning the coefficients.
 -   **Smart start** : This option allows you to give intelligence to the thermostat, by anticipating the change of setpoint so that the temperature is reached at the programmed time. This option requires having the agenda plugin. Please note that for the smart start to work, it is essential that the learning is more than 25. Another point it takes only the nearest event to come
 -   **cycle (min)** : this is the thermostat calculation cycle. At the end of the cycle and according to the difference between the temperatures and the setpoint, the thermostat calculates the heating time for the next cycle.
--   **Minimal heating duration (% cycle)** : If the calculation results in a heating time lower than this value, then the thermostat considers that it is not necessary to heat / cool, the command will carry over to the next cycle. This avoids damaging certain devices such as stoves, but also achieves real energy efficiency.
+-   **Minimum heating time (% of cycle)** : If the calculation results in a heating time lower than this value, then the thermostat considers that it is not necessary to heat / cool, the command will carry over to the next cycle. This avoids damaging certain devices such as stoves, but also achieves real energy efficiency.
 -   **Hot Failure Margin / Cold Failure Margin** : this value is used to detect a heating / air conditioning malfunction. When the temperature exceeds this margin compared to the setpoint for more than 3 consecutive cycles, the thermostat switches to heating failure mode.
-- **Limits incessant on / off cycles (pellet, gas, fuel oil) and PID** : This option allows you to regulate with different heating levels. The return of power from the next cycle must give the new heating level setpoint to the heater. Cycles end at 100%, so have a short cycle time.
-- **Delta setpoint - outside temperature for hot / cold direction** : the thermostat chooses the direction (heating or air conditioning) according to the setpoint and the outside temperature (for reasons of savings we assume that the inside temperature tends towards the outside temperature). You can with these parameters change the threshold. Ex : if you want 25 and it is 22 outside by default the thermostat will go into heating mode (just going into this mode for the calculation it does not mean that it will heat), by setting the hot delta to 4 it will no longer heat because 25-22 = 3 and 3 <4 it will therefore go into cooling mode (if the interior temperature is above the setpoint)
+- **Limits incessant on / off cycles (pellet, gas, fuel oil) and PID** : This option allows you to regulate with different heating levels. The return of power from the next cycle should give the new heating level setpoint to the heater. Cycles end at 100%, so have a short cycle time.
+- **Delta setpoint - outside temperature for hot / cold direction** : the thermostat chooses the direction (heating or air conditioning) according to the setpoint and the outside temperature (for reasons of savings, it is assumed that the inside temperature tends towards the outside temperature). With these parameters you can change the threshold. Ex : if you want 25 and it is 22 outside by default the thermostat will go into heating mode (just put in this mode for the calculation it does not mean that it will heat), by setting the hot delta to 4 it will no longer heat because 25-22 = 3 and 3 <4 it will therefore go into cooling mode (if the interior temperature is above the setpoint)
 
 > **Tip**
 >
 > Learning is always active. But the initialization phase can be relatively long (around 3 days). During this phase, it is necessary to have sufficiently long periods during which the setpoint does not change.
 
-## Thes commandes du thermostat
+## Thermostat controls
 
 ![Liste des commandes dans le résumé domotique](./images/thermostatlistecommandes.png)
 
@@ -215,23 +217,23 @@ All commands are not accessible in programming, some are status information retu
 
 ![Liste des commandes dans les scénarios](./images/thermostatcommandesscenario.png)
 
--   **Thes modes** : it is possible to make the mode changes, by directly executing the commands (here, Comfort, Comfort morning, Eco, Holidays)
+-   **The trends** : it is possible to make the mode changes, by directly executing the commands (here, Comfort, Comfort morning, Eco, Holidays)
 -   **Off** : this command cuts the thermostat, the regulation is no longer active, the heating / air conditioning is stopped
 -   **Thermostat** : this is the thermostat setpoint
--   **lock** : lock command, it is not possible to change the thermostat status (mode change, setpoint)
--   **unlock** : unlocks the thermostat allowing to modify its state
+-   **lock** : lock command, it is not possible to modify the thermostat status (mode change, setpoint)
+-   **unlock** : unlocks the thermostat to change its state
 -   **Heating only** : regulation only intervenes to heat
 -   **Air conditioning only** : the regulation is only active to cool
--   **Offsand chauffage** : modifies the offset coefficient of the heating corresponding to the internal contributions : a scenario can modify this parameter according to a presence detector for example
--   **Offsand froid** : as above but for air conditioning
+-   **Heating offset** : modifies the offset coefficient of the heating corresponding to the internal contributions : a scenario can modify this parameter according to a presence detector for example
+-   **Cold offset** : as above but for air conditioning
 -   **Allow everything** : modifies the behavior of the thermostat to act both in heating and in air conditioning
 -   **Power** : only available in time mode, this command indicates the percentage of heating / cooling time over the cycle time.
 -   **Performance** : only available if you have an outdoor temperature control and a consumption control (in kWh, reset to 0 every day at 00:00). This shows you the performance of your heating system compared to the unified degree day.
--   **Delta setpoint** : only available in time mode, this command allows you to enter a calculation delta on the setpoint. If> 0 then the thermostat will search if it should heat for (setpoint - delta / 2) if yes then it will seek to heat up to (setpoint + delta / 2). The advantage is to heat longer but less often.
+-   **Delta setpoint** : only available in time mode, this command allows you to enter a calculation delta on the setpoint. If> 0 then the thermostat will seek if it should heat for (setpoint - delta / 2) if yes then it will seek to heat up to (setpoint + delta / 2). The advantage is to heat longer but less often.
 
 > **Tip**
 >
-> The use of the thermostat in `Heating only` mode requires having defined the controls *To heat I have to ?* and *To stop everything I have to ?* In `Air conditioning only` mode, controls are required *To cool I have to ?* and *To stop everything I have to ?*. And in `All authorized` mode, it is necessary to have entered the 3 commands.
+> Using the thermostat in `Heating only` mode requires having defined the controls *To heat I have to ?* and *To stop everything I have to ?* In `Air conditioning only` mode, controls are required *To cool I have to ?* and *To stop everything I have to ?*. And in `All authorized` mode, it is necessary to have entered the 3 commands.
 
 ## A concrete example of using the thermostat
 
@@ -259,13 +261,13 @@ Note that in the scenarios, the thermostat control is complete since we can act 
 
 If scenario creation is sometimes complicated, for the programming of a thermostat, the combination of thermostat actions with the calendar of the agenda plugin makes it possible to do this simply.
 
-The agenda plugin allows you to go further in programming and above all presents less risk of being wrong. Indeed, compared to the previous programming, the calendar will appear in clear on the screen and we will be able to take into account holidays, vacations….In short, control the thermostat according to his lifestyle.
+The agenda plugin allows you to go further in programming and above all presents less risk of being wrong. Indeed, compared to the previous programming, the calendar will appear in clear on the screen and we will be able to take into account holidays, vacations .... In short, control the thermostat according to his lifestyle.
 
-## Programming avec le plugin agenda
+## Programming with the agenda plugin
 
 We do not present here the Agenda plugin, the objective being to couple it with the programming of the thermostat. Note that if you have the agenda plugin, a tab *Programming* appears in the thermostat configuration, allowing direct access to the associated calendar.
 
-So we are going to create a new agenda named **Programming chauffage**, to which will be added the thermostat mode change events.
+So we are going to create a new agenda named **Heating programming**, to which will be added the thermostat mode change events.
 Once the calendar has been created, we will add the Morning (Monday to Friday from 5 a.m. to 7:30 a.m.), Evening (Monday, Tuesday, Thursday and Friday from 5 p.m. to 9 p.m.), Wednesday (Wednesday from 12 p.m. to 9 p.m.) events, Weekend (8 a.m. to 10 p.m.), Public holidays. All these events have as their starting action the selection of the mode **Comfort** of the thermostat and as an end action the mode **Eco** :
 
 ![Actions de l'agenda](./images/agendaactions.png)
@@ -291,7 +293,7 @@ Once the thermostat is configured, it is important to check its efficiency.
 In the `Home` menu, there is the` Thermostat` submenu. The window that appears when you select this menu is divided into three areas :
 
 -   The *Widget* thermostat, to view the instantaneous status of the thermostat,
--   a graph representing the total heating time per day (in number of hours),
+-   a graph representing the cumulative heating time per day (in number of hours),
 -   another graph which displays the setpoint curves, interior temperature and heating status.
 
 ![cumul du temps de chauffe du thermostat](./images/graphecumultempsdechauffe.png)
@@ -302,11 +304,11 @@ In the `Home` menu, there is the` Thermostat` submenu. The window that appears w
 
 *Thermostat curve graph*
 
-# Faq
+# FAQ
 
 >**Can we use the thermostat with a heated floor, which has a high inertia ?**
 >
->The thermostat adapts practically to all cases, but this requires an in-depth analysis of your installation to adjust the coefficients, if you are in a particular situation. See the section on *Advanced configuration* to adjust the coefficients, especially in the case of a heated floor. Several topics on the forum deal with the use of the thermostat for different types of heating (stove, floor heating boiler, etc.)
+>The thermostat adapts practically to all cases, but this requires an in-depth analysis of your installation to adjust the coefficients, if you are in a particular situation. See the section on *Advanced configuration* to adjust the coefficients, especially in the case of a heated floor. Several topics on the forum deal with the use of the thermostat for different types of heating (stove, floor heating boiler, etc.))
 
 >**My coefficients keep moving**
 >
@@ -332,7 +334,7 @@ In the `Home` menu, there is the` Thermostat` submenu. The window that appears w
 >
 >It is that the temperature probes do not automatically raise their value, it is advisable to set up a "Cron of control"
 
->**Thes courbes du thermostat (en particulier la consigne) ne semblent pas être juste**
+>**Thermostat curves (especially the setpoint) do not seem to be right**
 >
 >Look at the smoothing side of the order history in question. Indeed to gain efficiency Jeedom averages the values over 5 min then over the hour.
 

@@ -2,7 +2,7 @@
 
 Ce plugin permet de créer et gérer des thermostats pour piloter le chauffage de votre domicile. Il fonctionne selon 2 modes, au choix :
 
--   le mode **hystéresis** correspond à l’allumage et l’extinction du chauffage en fonction de la température intérieure, par rapport à un seuil correspondant à la consigne. L’hystéresis permet d’éviter des commutations trop fréquentes lorsque la température est autour la consigne.
+-   le mode **hystérésis** correspond à l’allumage et l’extinction du chauffage en fonction de la température intérieure, par rapport à un seuil correspondant à la consigne. L’hystérésis permet d’éviter des commutations trop fréquentes lorsque la température est autour la consigne.
 -   le mode **temporel** calcule un pourcentage de chauffage sur un cycle temporel prédéfini, en tenant compte des écarts entre la consigne et les températures intérieure et extérieure (isolation). Ce mode est plus précis, dispose d’un apprentissage permettant d’ajuster automatiquement les coefficients mais peut nécessiter quelques réglages manuels pour l’adapter à votre installation. Important pour que le mode temporel marche il faut absolument une sonde de température intérieure ET extérieure.
 
 # Configuration
@@ -25,23 +25,23 @@ Dans un premier temps, nous allons vous montrer la mise en œuvre, puis détaill
 
 Le thermostat de Jeedom est très puissant mais pour une utilisation traditionnelle, sa mise en œuvre est vraiment simple et rapide, à partir du moment où on a compris les étapes essentielles :
 
--   définition du Moteur de thermostat (hystérésis ou temporel). C’est le choix de l’algorithme de régulation.
--   la configuration et la plage de fonctionnement : chauffage uniquement, climatisation ou bien les deux , températures min et max d’utilisation.
+-   définition du moteur de thermostat (hystérésis ou temporel). C’est le choix de l’algorithme de régulation.
+-   la configuration et la plage de fonctionnement : chauffage uniquement, climatisation ou bien les deux, températures min et max d’utilisation.
 -   La définition des actions que le thermostat doit exécuter pour chauffer, refroidir ou arrêter.
 
 On trouve ensuite différents onglets :
 
--   La configuration des modes définit des températures de consignes prédéterminées. Par exemple, le mode confort à 20°C, eco à 18°C. Il peut y avoir aussi jour, nuit, vacances, absence,…​vous commencez à entrevoir ici les possibilités de personnalisation du plugin.
+-   La configuration des modes définit des températures de consignes prédéterminées. Par exemple, le mode confort à 20°C, éco à 18°C. Il peut y avoir aussi jour, nuit, vacances, absence, ... vous commencez à entrevoir ici les possibilités de personnalisation du plugin.
 -   Pour affiner le mode de fonctionnement du thermostat, vous allez pouvoir également configurer des ouvertures qui vont interrompre temporairement la régulation (par exemple, une fenêtre ouverte peut arrêter le chauffage). La définition de cette interruption s’effectue ici simplement.
 -   La gestion des modes de défaillance pour les sondes de température ou pour le chauffage permet de définir des actions à exécuter pour un mode dégradé.
 -   L’onglet Configuration avancée permet d’ajuster les paramètres de régulation du chauffage.
 -   Si de plus, vous disposez du plugin Agenda, la programmation des changements de mode devient possible directement depuis l’onglet programmation.
 
-Votre thermostat est maintenant opérationnel, et par l’utilisation de scénarios ou en le combinant avec d’autres plugins (agenda, virtuel,présence,…​), il va se fondre en douceur dans votre installation domotique. Voilà ce que l’on obtient sur le dashboard :
+Votre thermostat est maintenant opérationnel et par l’utilisation de scénarios ou en le combinant avec d’autres plugins (agenda, virtuel, présence, ...), il va se fondre en douceur dans votre installation domotique. Voilà ce que l’on obtient sur le Dashboard :
 
-![Aspect sur le dashboard](./images/thermostat.png)
+![Aspect sur le Dashboard](./images/thermostat.png)
 
-Le verrou présent sur le widget permet de bloquer le thermostat dans une consigne donnée, suite à un imprévu : congés, invités,…​.
+Le verrou présent sur le widget permet de bloquer le thermostat dans une consigne donnée, suite à un imprévu : congés, invités, ...
 
 ## La création d’un thermostat en détail
 
@@ -49,7 +49,7 @@ Pour créer un nouveau thermostat, rendez-vous sur la page de configuration en d
 
 ![Configuration générale](./images/thermostat_config_générale.png)
 
-Dans un premier temps, nous allons renseigner les paramètres généraux du thermostat. On les trouve en haut à gauche, section général et il faut préciser ici l’objet parent, l’activation et la visibilité du thermostat, informations habituelles pour tout utilisateur de jeedom.
+Dans un premier temps, nous allons renseigner les paramètres généraux du thermostat. On les trouve en haut à gauche, section générale et il faut préciser ici l’objet parent, l’activation et la visibilité du thermostat, informations habituelles pour tout utilisateur de jeedom.
 
 ## Le choix de l’algorithme du thermostat
 
@@ -63,7 +63,7 @@ Lorsque vous sélectionnez le mode Hystérésis, la mise en route de votre chauf
 
 Par exemple, si on règle l’hystérésis à 1°C et que la valeur de consigne vaut 19°C, alors le chauffage s’active lorsque la température passe en dessous de 18°C et s’arrête dès qu’il atteint 20°C.
 
-Les paramètres à fournir sont l’hystérésis en °C et la commande qui permet de récupérer la mesure de température. On règlera l’hystérésis en fonction de la précision du capteur, par exemple pour une sonde précise à 0.5°C, un hystérésis de 0.2°C est un bon compromis.
+Les paramètres à fournir sont l’hystérésis en °C et la commande qui permet de récupérer la mesure de température. On règlera l’hystérésis en fonction de la précision du capteur, par exemple pour une sonde précise à 0.5°C, une hystérésis de 0.2°C est un bon compromis.
 
 > **Tip**
 >
@@ -89,7 +89,9 @@ Ensuite, il faut préciser les commandes qui permettent de mesurer la températu
 
 > **Tip**
 >
-> Les champs `Borne de température inférieure` et `Borne de température supérieure` définissent la plage de fonctionnement du thermostat en dehors de laquelle une défaillance du chauffage est enclenchée. Voir ci dessous le paragraphe sur les actions de défaillance.
+> Les champs `Borne de température inférieure` et `Borne de température supérieure` définissent la plage de fonctionnement du thermostat en dehors de laquelle une défaillance du chauffage est enclenchée. Voir ci-dessous le paragraphe sur les actions de défaillance.
+
+Vous avez aussi un champs pour indiquer la consommation par jour en kWh de votre chauffage (si vous l'avez sinon ce n'est pas grave). Cela permet au plugin thermostat de vous donner une indication de performance de votre chauffage (il fait juste le calcul suivant consommation / degrès jour unifé)
 
 Pour la commande du radiateur ou du climatiseur, il est décrit dans l’onglet *Actions*. On peut ici définir plusieurs actions, ce qui donne la possibilité à notre thermostat de piloter différents équipements (cas d’un fonctionnement par zone par exemple ou contrôle d’un autre thermostat)
 
@@ -101,7 +103,7 @@ Les actions sont celles qui permettent de chauffer, de refroidir (climatisation)
 
 Les modes (définis dans l’onglet *Modes*) sont des consignes prédéterminées du thermostat qui correspondent à votre mode de vie. Par exemple, le mode **Nuit** ou **Eco** donne la température que vous souhaitez lorsque tout le monde dort. Le mode **Jour** ou **Confort** détermine le comportement du thermostat pour avoir une température de confort lorsque vous êtes présent au domicile. Ici, rien n’est figé. Vous pouvez définir autant de modes que vous le souhaitez pour les utiliser via des scénarios (Nous y reviendrons plus tard).
 
-Dans l’image ci-dessous, le mode **Confort** a une valeur de consigne de 19°C et pour le mode **Eco**, le thermostat est réglé à 17°C. Le mode **Vacances** programme le thermostat à 15°C en cas d’absence prolongée. Il n’est pas visible sur le dashboard, car c’est un scénario qui programme tous les équipements en *vacances* et ainsi positionner le thermostat sur ce mode.
+Dans l’image ci-dessous, le mode **Confort** a une valeur de consigne de 19°C et pour le mode **Eco**, le thermostat est réglé à 17°C. Le mode **Vacances** programme le thermostat à 15°C en cas d’absence prolongée. Il n’est pas visible sur le Dashboard, car c’est un scénario qui programme tous les équipements en *vacances* et ainsi positionner le thermostat sur ce mode.
 
 ![Définition des modes](./images/Definitionmodes.png)
 
@@ -115,7 +117,7 @@ Pour définir un mode, procédez comme suit :
 
 >**IMPORTANT**
 >
->Attention lors du renommage d'un mode il faut absoluement revoir les scénarios/équipement qui utiliser l'ancien nom pour les passer sur le nouveau
+>Attention lors du renommage d'un mode il faut absolument revoir les scénarios/équipement qui utiliser l'ancien nom pour les passer sur le nouveau
 
 ## Les ouvertures : pour interrompre temporairement le thermostat
 
@@ -158,17 +160,17 @@ Pour définir une action de défaillance :
 -   cliquez sur le bouton *Ajoutez une action de défaillance*
 -   sélectionnez une action et remplissez les champs associés
 
-Vous pouvez saisir plusieurs actions, qui seront exécutées en séquence et dans le cas d’actions plus complexes, faire appel à un scénario (taper `scenario` sans accent dans le champs action puis cliquer ailleurs pour pouvoir saisir le nom du scénario).
+Vous pouvez saisir plusieurs actions, qui seront exécutées en séquence et dans le cas d’actions plus complexes, faire appel à un scénario (taper `scenario` sans accent dans le champ action puis cliquer ailleurs pour pouvoir saisir le nom du scénario).
 
 ### Défaillance du chauffage/climatisation
 
-Le bon fonctionnement du chauffage ou de la climatisation est conditionné par un bon suivi de consigne. Ainsi, si la température s’écarte de la plage de fonctionnement du thermostat, celui-ci enclenche les actions de défaillance du chauffage/climatisation. Cette analyse s’effecue sur plusieurs cycles.
+Le bon fonctionnement du chauffage ou de la climatisation est conditionné par un bon suivi de consigne. Ainsi, si la température s’écarte de la plage de fonctionnement du thermostat, celui-ci enclenche les actions de défaillance du chauffage/climatisation. Cette analyse s’effectue sur plusieurs cycles.
 
 > **Tip**
 >
 > Le paramètre qui permet au thermostat de décider d’une défaillance de sonde est situé dans l’onglet *Avancée*. Il s’agit de la `Marge de défaillance chaud` pour le chauffage et de la `Marge de défaillance froid` pour la climatisation.
 
-Sur cette image, l’action de défaillance envoie l’ordre de passage en mode ECO du radiateur par le fil pilote, puis envoie un message par le plugin pushbullet.
+Sur cette image, l’action de défaillance envoie l’ordre de passage en mode ECO du radiateur par le fil pilote, puis envoie un message par le plugin Pushbullet.
 
 ![Défaillance du chauffage](./images/defaillancechauffage.png)
 
@@ -178,30 +180,30 @@ Pour définir une action de défaillance :
 -   cliquez sur le bouton *Ajoutez une action de défaillance*
 -   sélectionnez une action et remplissez les champs associés
 
-Vous pouvez saisir plusieurs actions, qui seront exécutées en séquence et dans le cas d’actions plus complexes, faire appel à un scénario (taper `scenario` sans accent dans le champs action puis cliquer ailleurs pour pouvoir saisir le nom du scénario).
+Vous pouvez saisir plusieurs actions, qui seront exécutées en séquence et dans le cas d’actions plus complexes, faire appel à un scénario (taper `scenario` sans accent dans le champ action puis cliquer ailleurs pour pouvoir saisir le nom du scénario).
 
 ## Gérer des cas particuliers avec la configuration avancée du thermostat
 
-Cet onglet contient tous les paramètres de réglage du thermostat en mode temporel. Dans la plupart des cas, il n’est pas nécessaire de modifier ces valeurs, car l’auto-apprentisssage va calculer automatiquement les coefficients. Cependant, même si le thermostat peut s’adapter à la plupart des cas de figure, il est possible d’ajuster les coefficients pour une configuration optimisée à votre installation.
+Cet onglet contient tous les paramètres de réglage du thermostat en mode temporel. Dans la plupart des cas, il n’est pas nécessaire de modifier ces valeurs, car l’auto-apprentissage va calculer automatiquement les coefficients. Cependant, même si le thermostat peut s’adapter à la plupart des cas de figure, il est possible d’ajuster les coefficients pour une configuration optimisée à votre installation.
 
 ![Configuration avancée du
 thermostat](./images/configurationavancee.png)
 
 Les coefficients sont les suivants :
 
--   **Coefficient de chauffage / Coefficient de climatisation** : il s’agit du gain du système de régulation . Cette valeur est multipliée par l’écart entre la consigne et la température intérieure mesurée pour déduire le temps de chauffage/climatisation.
+-   **Coefficient de chauffage / Coefficient de climatisation** : il s’agit du gain du système de régulation. Cette valeur est multipliée par l’écart entre la consigne et la température intérieure mesurée pour déduire le temps de chauffage/climatisation.
 -   **Apprentissage chaud / Apprentissage froid** : ce paramètre indique l’état d’avancement de l’apprentissage. Une valeur de 1 indique le début de l’apprentissage, l’algorithme effectue un réglage grossier des coefficients. Puis au fur et à mesure que ce paramètre augmente, le réglage s’affine. Une valeur de 50 indique la fin de l’apprentissage.
 -   **Isolation chauffage / Isolation clim** : ce coefficient est multiplié par l’écart entre la consigne et la température extérieure mesurée pour déduire le temps de chauffage/climatisation. Il représente la contribution de la température extérieure au temps de chauffage/climatisation et sa valeur est normalement inférieure au coefficient de chauffage/climatisation, dans le cas d’une pièce bien isolée.
 -   **Apprentissage isolation chaud / Apprentissage isolation froid** : même fonction que ci-dessus, mais pour les coefficients d’isolation.
 -   **Offset chauffage(%) / Offset clim(%)** : L’offset du chauffage permet de tenir compte des *apports internes*, normalement il ne devrait pas être fixe mais on suppose que l’apprentissage intègre la partie dynamique dans les 2 autres coefficients. Les *apports internes*, c’est par exemple un ordinateur qui va provoquer une élévation de température lorsqu’on l’allume, mais ce peut-être aussi les individus (1 personne =80W en moyenne), le réfrigérateur dans la cuisine. Dans une pièce au sud, c’est une façade ensoleillée qui peut réaliser un apport d’énergie supplémentaire. En théorie, ce coefficient est négatif.
 - **Offset à appliquer si le radiateur est considéré chaud (%)** : à utiliser si votre système de contrôle du chauffage a une inertie non négligeable, que ce soit du fait des radiateurs, de la configuration de la pièce (distance entre le radiateur et la sonde de température) ou de la sonde de température elle-même (selon les modèles, leur réactivité est plus ou moins grande). La conséquence visible de cette inertie est un dépassement temporaire de la consigne lors des montées en température importantes (consigne qui passe de 15°C à 19°C par exemple). Ce paramètre correspond au décalage constaté entre la période de chauffe (= le chauffage est allumé) et la période où la température relevée par la sonde augmente, divisé par la longueur du cycle paramétrée. Par exemple, si on constate un décalage de 30 minutes entre le début de la chauffe et le début de l’élévation de température, et que la durée des cycles de chauffe est réglée sur 60 minutes, on peut mettre ce paramètre 50%. Ainsi, quand un cycle de chauffe à 100% est suivi par une autre chauffe, ce paramètre permet de prendre en compte la chaleur générée par le radiateur au premier cycle mais non encore mesurée par la sonde pour le calcul du deuxième cycle, en diminuant d’autant sa puissance de chauffe. La puissance du deuxième cycle sera alors diminuée de 50% par rapport au calcul réalisé en fonction de la température mesurée par la sonde.
 -   **Auto apprentissage** : case à cocher pour activer/désactiver l’apprentissage des coefficients.
--   **Smart start** : Cette option permet de donner de l’intelligence au thermostat, en anticipant le changement de consigne pour que la température soit atteinte à l’heure programmée. Cette option nécessite d’avoir le plugin agenda. Attention pour que le smart start marche il faut absolument que l'apprentissage soit à plus de 25. Autre point il ne prend que l'évenement le plus proche à venir
+-   **Smart start** : Cette option permet de donner de l’intelligence au thermostat, en anticipant le changement de consigne pour que la température soit atteinte à l’heure programmée. Cette option nécessite d’avoir le plugin agenda. Attention pour que le smart start marche il faut absolument que l'apprentissage soit à plus de 25. Autre point il ne prend que l'événement le plus proche à venir
 -   **cycle (min)** : il s’agit du cycle de calcul du thermostat. En fin de cycle et en fonction de l’écart entre les températures et la consigne, le thermostat calcule le temps de chauffe pour le cycle suivant.
 -   **Temps de chauffe minimum (% du cycle)** : Si le calcul aboutit à un temps de chauffe inférieur à cette valeur, alors le thermostat considère qu’il n’est pas nécessaire de chauffer/climatiser, la commande se reportera sur le cycle suivant. Cela permet d’éviter d’endommager certains appareils comme les poêles, mais aussi d’obtenir une réelle efficacité énergétique.
 -   **Marge de défaillance chaud / Marge de défaillance froid** : cette valeur est utilisée pour détecter un défaut de fonctionnement du chauffage/climatisation. Lorsque la température sort de cette marge par rapport à la consigne pendant plus de 3 cycles consécutifs, le thermostat passe en mode de défaillance du chauffage.
-- **Limite les cycles marche/arrêt incessants (pellet, gaz, fioul) et PID** : LCette option permet de faire de la régulation avec différents niveaux de chauffe. Le retour de la puissance du prochain cycle doit donné la nouvelle consigne de niveau de chauffe à l'appareil de chauffage. Les cycles se terminent à 100%, il faut donc avoir un temps de cycle court.
-- **Delta consigne - temperature exterieure pour la direction chaud/froid** : le thermostat choisi la dirrection (chauffage ou climatisation) en fonction de la consigne et la température exterieure (pour des questions d'économies on part du principe que la température intérieur tend ver sla temperature exterieure). Vous pouvez avec ces parametre changé le seuil. Ex : si vous voulez 25 et qu'il fait 22 dehors par defaut le thermostat va se mettre en mode chauffage (juste se mettre dans ce mode pour le calcul ca ne veut pas dire qu'il va chauffer), en mettant le delta chaud à 4 il ne chauffera plus car 25-22=3 et 3<4 il se mettra donc en mode froid (si bien sur la température intérieure est supérieure à la consigne)
+- **Limite les cycles marche/arrêt incessants (pellet, gaz, fioul) et PID** : Cette option permet de faire de la régulation avec différents niveaux de chauffe. Le retour de la puissance du prochain cycle doit donner la nouvelle consigne de niveau de chauffe à l'appareil de chauffage. Les cycles se terminent à 100%, il faut donc avoir un temps de cycle court.
+- **Delta consigne - température extérieure pour la direction chaud/froid** : le thermostat choisi la direction (chauffage ou climatisation) en fonction de la consigne et la température extérieure (pour des questions d'économies on part du principe que la température intérieure tend vers la température extérieure). Vous pouvez avec ces paramètres changer le seuil. Ex : si vous voulez 25 et qu'il fait 22 dehors par défaut le thermostat va se mettre en mode chauffage (juste se mettre dans ce mode pour le calcul cela ne veut pas dire qu'il va chauffer), en mettant le delta chaud à 4 il ne chauffera plus car 25-22=3 et 3<4 il se mettra donc en mode froid (si bien sur la température intérieure est supérieure à la consigne)
 
 > **Tip**
 >
@@ -219,19 +221,19 @@ Toutes les commandes ne sont pas accessibles en programmation, certaines sont de
 -   **Off** : cette commande coupe le thermostat, la régulation n’est plus active, le chauffage/climatisation est arrêté
 -   **Thermostat** : il s’agit de la consigne du thermostat
 -   **lock** : commande de verrouillage, il n’est pas possible de modifier l’état du thermostat (changement de mode, consigne)
--   **unlock** : déverrouille le thermostat permetant de modifier son état
+-   **unlock** : déverrouille le thermostat permettant de modifier son état
 -   **Chauffage seulement** : la régulation n’intervient que pour chauffer
 -   **Climatisation seulement** : la régulation n’est active que pour refroidir
 -   **Offset chauffage** : modifie le coefficient d’offset du chauffage correspondant aux apports internes : un scénario peut modifier ce paramètre en fonction d’un détecteur de présence par exemple
 -   **Offset froid** : comme ci-dessus mais pour la climatisation
 -   **Tout autorisé** : modifie le comportement du thermostat pour agir à la fois en chauffage et en climatisation
 -   **Puissance** : uniquement disponible en mode temporel, cette commande indique le pourcentage de temps de chauffe/refroidissement sur le temps de cycle.
--   **Performance** : uniquement disponible si vous avez une commande de températeur extérieure et une commande de consommation (en kwh, remis à 0 tous les jours à 00h00). Celle-ci vous indique la performance de votre systeme de chauffage par rapport au degrès jour unifié.
--   **Delta consigne** : uniquement disponible en mode temporel, cette commande permet de saisir un delta de calcul sur la consigne. Si > 0 alors le thermostat va chercher si il doit chauffer pour (consigne - delta/2) si oui alors il va chercher à chauffer jusqu'à (consigne + delta/2). L'interêt est de chauffer plus longtemps mais moins souvent.
+-   **Performance** : uniquement disponible si vous avez une commande de température extérieure et une commande de consommation (en kwh, remis à 0 tous les jours à 00h00). Celle-ci vous indique la performance de votre système de chauffage par rapport au degrés jour unifié.
+-   **Delta consigne** : uniquement disponible en mode temporel, cette commande permet de saisir un delta de calcul sur la consigne. Si > 0 alors le thermostat va chercher s'il doit chauffer pour (consigne - delta/2) si oui alors il va chercher à chauffer jusqu'à (consigne + delta/2). L'intérêt est de chauffer plus longtemps mais moins souvent.
 
 > **Tip**
 >
-> L’utilisation du thermostat en mode `Chauffage seulement` nécesite d’avoir défini les commandes *Pour chauffer je dois ?* et *Pour tout arrêter je dois ?* En mode `Climatisation seulement`, il faut les commandes *Pour refroidir je dois ?* et *Pour tout arrêter je dois ?*. Et en mode `Tout autorisé`, il est nécessaire d’avoir saisi les 3 commandes.
+> L’utilisation du thermostat en mode `Chauffage seulement` nécessite d’avoir défini les commandes *Pour chauffer je dois ?* et *Pour tout arrêter je dois ?* En mode `Climatisation seulement`, il faut les commandes *Pour refroidir je dois ?* et *Pour tout arrêter je dois ?*. Et en mode `Tout autorisé`, il est nécessaire d’avoir saisi les 3 commandes.
 
 ## Un exemple concret d’utilisation du thermostat
 
@@ -259,7 +261,7 @@ Notez que dans les scénarios, le pilotage du thermostat est complet puisqu’on
 
 Si la création de scénario est parfois compliqué, pour le cas de la programmation d’un thermostat, la combinaison des actions du thermostat avec le calendrier du plugin agenda permet de réaliser ceci simplement.
 
-Le plugin agenda permet d’aller plus loin dans la programmation et surtout présente moins de risque de se tromper. En effet, par rapport à la programmation précédente, le calendrier va apparaître en clair sur l’écran et on va pouvoir tenir compte des jours fériés, des vacances…​.Bref, piloter le thermostat en fonction de son mode de vie.
+Le plugin agenda permet d’aller plus loin dans la programmation et surtout présente moins de risque de se tromper. En effet, par rapport à la programmation précédente, le calendrier va apparaître en clair sur l’écran et on va pouvoir tenir compte des jours fériés, des vacances.... Bref, piloter le thermostat en fonction de son mode de vie.
 
 ## Programmation avec le plugin agenda
 
