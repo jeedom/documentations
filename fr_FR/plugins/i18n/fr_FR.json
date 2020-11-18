@@ -93,7 +93,7 @@
         "Plugin pour gérer le wifi de votre box ainsi que fixer l'ip": "Plugin pour gérer le wifi de votre box ainsi que fixer l'ip",
         "Nécessite une clé 3G et une carte SIM": "Nécessite une clé 3G et une carte SIM",
         "SMS": "SMS",
-        "Plugin ajoutant la gestion (envoi\/réception) des SMS à Jeedom": "Plugin ajoutant la gestion (envoi\/réception) des SMS à Jeedom",
+        "Plugin ajoutant la gestion (envoi\/réception) de SMS à Jeedom": "Plugin ajoutant la gestion (envoi\/réception) de SMS à Jeedom",
         "Slack": "Slack",
         "Plugin pour lier Jeedom à Slack": "Plugin pour lier Jeedom à Slack",
         "Phone market": "Phone market",
@@ -181,7 +181,7 @@
         "Le dashboard est complétement personnalisable": "Le dashboard est complétement personnalisable",
         "Vous pouvez changer la position de chaque aiguille et changer le texte de chaque écran indépendammment (soit via le dashboard soit via scénario": "Vous pouvez changer la position de chaque aiguille et changer le texte de chaque écran indépendammment (soit via le dashboard soit via scénario",
         "Il existe aussi une commande démo ainsi qu'une commande tous (pour agir sur tous les écrans en meme temps) ,ainsi qu'une commande phrase pour splitter une phrase sur les 4 écrans": "Il existe aussi une commande démo ainsi qu'une commande tous (pour agir sur tous les écrans en meme temps) ,ainsi qu'une commande phrase pour splitter une phrase sur les 4 écrans",
-        "Avec ce plugin vous pouvez ainsi être notifié par SMS, voir grâce au moteur d'interactions poser une question ou déclencher une action via SMS": "Avec ce plugin vous pouvez ainsi être notifié par SMS, voir grâce au moteur d'interactions poser une question ou déclencher une action via SMS"
+        "Avec ce plugin vous pouvez ainsi être notifié par SMS, voire poser une question ou déclencher une action via SMS grâce au moteur d'interactions": "Avec ce plugin vous pouvez ainsi être notifié par SMS, voire poser une question ou déclencher une action via SMS grâce au moteur d'interactions"
     },
     "plugins\/devicecommunication\/index.md": {
         "Nabaztag": "Nabaztag",

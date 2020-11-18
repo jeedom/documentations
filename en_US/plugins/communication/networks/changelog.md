@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 16/11/2020
+
+- New presentation of the list of objects
+- Addition of the tag "V4 compatibility"
+
 # 04/08/2020
 
 - bugfix arp ping considers the device absent if more than one attempt was necessary
@@ -21,9 +26,9 @@
 - Support for php 7.3
 
  # 02/06/2018
- 
+
  - Optimization of dependency calculation
- 
+
  # 07/05/2018
 
 - Separation of the refresh cron in a dedicated task so as not to impact the overall cron of the plugins

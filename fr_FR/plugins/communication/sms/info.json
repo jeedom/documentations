@@ -1,10 +1,16 @@
 {
     "id": "sms",
     "name": "SMS",
-    "description": "Plugin ajoutant la gestion (envoi\/réception) des SMS à Jeedom.Avec ce plugin vous pouvez ainsi être notifié par SMS, voir grâce au moteur d'interactions poser une question ou déclencher une action via SMS.(Nécessite une clé 3G et une carte SIM ).",
+    "description": {
+        "fr_FR": "Plugin ajoutant la gestion (envoi\/réception) de SMS à Jeedom. Avec ce plugin vous pouvez ainsi être notifié par SMS, voire poser une question ou déclencher une action via SMS grâce au moteur d'interactions. (Nécessite une clé 3G et une carte SIM ).",
+        "en_US": "Plugin adding the management (sending \/ receiving) of SMS to Jeedom.With this plugin you can be notified by SMS, see thanks to the interaction engine ask a question or trigger an action via SMS. (Requires a 3G key and a card SIM)",
+        "es_ES": "Complemento que agrega la administración (envío \/ recepción) de SMS a Jeedom. Con este complemento puede recibir notificaciones por SMS, vea gracias al motor de interacción para hacer una pregunta o activar una acción a través de SMS. (Requiere una clave 3G y una tarjeta SIM)",
+        "de_DE": "Plugin, das die Verwaltung (Senden \/ Empfangen) von SMS zu Jeedom hinzufügt. Mit diesem Plugin können Sie per SMS benachrichtigt werden. Dank der Interaktions-Engine können Sie eine Frage stellen oder eine Aktion per SMS auslösen. (Erfordert einen 3G-Schlüssel und eine Karte SIM)",
+        "pt_PT": "Plug-in que adiciona o gerenciamento (envio \/ recebimento) de SMS ao Jeedom.Com este plug-in, você pode ser notificado por SMS, veja graças ao mecanismo de interação fazer uma pergunta ou acionar uma ação via SMS. (Requer uma chave 3G e um cartão SIM)"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.0",
+    "require": "3.3.39",
     "category": "communication",
     "hasDependency": true,
     "hasOwnDeamon": true,
@@ -13,17 +19,17 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",
         "smart",
         "rpi",
         "docker",
-        "diy"
+        "diy",
+        "mobile",
+        "v4"
     ]
 }

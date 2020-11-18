@@ -2,13 +2,13 @@
 
 Este complemento le permite hacer ping o reactivar en equipos de red.
 
-# Configuración del plugin 
+# Configuración del plugin
 
 Después de descargar el complemento, solo necesita activarlo, no hay configuración en este nivel.
 
 ![networks](./images/networks.PNG)
 
-# Configuración del equipo 
+# Configuración del equipo
 
 Se puede acceder a la configuración del equipo de Redes desde el menú de complementos :
 
@@ -32,8 +32,8 @@ Aquí encontrarás toda la configuración de tu equipo :
 -   **Dirección IP** : Dirección IP para hacer ping,
 -   **Dirección MAC (wol)** : Dirección MAC para wake-on-lan,
 -   **Broadcast IP (wol)** : Dirección IP de transmisión de red para enviar wake-on-lan,
--   **Método de ping** : Elección del método de ping : IP (normal), ARP (preferido para teléfonos o dispositivos que se quedan dormidos), PORT (para probar si un puerto está abierto))
--   **TTL** : Tiempo de vida, los valores pueden ser : 
+-   **Método de ping** : Elección del método de ping : IP (normal), ARP (preferido para teléfonos inteligentes y dispositivos que se duermen), PORT (para probar si un puerto está abierto)
+-   **TTL** : Tiempo de vida, los valores pueden ser :
     - 0 : mismo anfitrión
     - 1 : mismas subredes
     - 32 : mismo sitio

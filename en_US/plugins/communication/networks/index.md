@@ -2,13 +2,13 @@
 
 This plugin allows you to ping or wake-on-lan on network equipment.
 
-# Plugin configuration 
+# Plugin configuration
 
 After downloading the plugin, you just need to activate it, there is no configuration at this level.
 
 ![networks](./images/networks.PNG)
 
-# Equipment configuration 
+# Equipment configuration
 
 The configuration of the Networks equipment is accessible from the plugin menu :
 
@@ -32,8 +32,8 @@ Here you find all the configuration of your equipment :
 -   **IP adress** : IP address to ping,
 -   **MAC address (wol)** : MAC address for wake-on-lan,
 -   **Broadcast IP (wol)** : network broadcast IP address to send wake-on-lan,
--   **Ping method** : Choice of ping method : IP (normal), ARP (preferred for phones or devices that fall asleep), PORT (to test if a port is open)
--   **TTL** : Time-to-live, values can be : 
+-   **Ping method** : Choice of ping method : IP (normal), ARP (preferred for smartphones and devices that fall asleep), PORT (to test if a port is open)
+-   **TTL** : Time-to-live, values ​​can be :
     - 0 : same host
     - 1 : same subnets
     - 32 : same site
@@ -52,7 +52,7 @@ Below you find the list of orders :
 
 > **NOTE**
 >
-> Jeedom will check the IP ping every minute (default).
+> Jeedom will check the ping on the IP every minute (by default).
 
 > **Important**
 >

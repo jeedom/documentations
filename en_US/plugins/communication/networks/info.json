@@ -3,10 +3,10 @@
     "name": "Network",
     "description": {
         "fr_FR": "Plugin permettant la gestion réseau des équipements : ping (ip, arp, port) et wake on lan",
-        "en_US": "Plugin allowing network management of equipment: ping (ip, arp and port) and wake on lan",
-        "es_ES": "Complemento que permite la gestión de la red del equipo: ping (ip, arp y port) y wake on lan",
-        "de_DE": "Plugin zur Netzwerkverwaltung von Geräten: Ping (IP, Arp und Port) und Wake-On-LAN",
-        "pt_PT": "Plugin que permite o gerenciamento de rede de equipamentos: ping (ip, arp e port) e wake on lan"
+        "en_US": "Plugin allowing network management of equipment: ping (ip, arp, port) and wake on lan",
+        "es_ES": "Complemento que permite la gestión de equipos en red: ping (ip, arp, puerto) y wake on lan",
+        "de_DE": "Plugin zur Netzwerkverwaltung von Geräten: Ping (IP, Arp, Port) und Wake-On-LAN",
+        "pt_PT": "Plugin que permite gerenciamento de rede de equipamentos: ping (ip, arp, porta) e wake on lan"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",

@@ -1,6 +1,6 @@
 # Plugin de SMS
 
-O plug-in SMS permite que você se comunique com o Jeedom via SMS; também permite que o Jeedom lhe envie um SMS em caso de alerta (plug-in de alarme, cenário etc.)
+O plug-in SMS permite que você converse com o Jeedom via SMS, também permite que o Jeedom envie um SMS em caso de alerta (plug-in de alarme, cenário)
 
 > **IMPORTANTE**
 >
@@ -18,7 +18,7 @@ Depois de baixar o plugin, você só precisa ativá-lo e configurar a porta. Dep
 
 > **IMPORTANTE**
 >
-> Observe que algumas teclas 3G estão por padrão no modo modem e não GSM. Usando o software do fabricante da chave, você deve alterar o modo de chave no GSM (ou texto ou serial). 
+> Observe que algumas teclas 3G estão por padrão no modo modem e não GSM. Usando o software do fabricante da chave, você deve alterar o modo de chave para GSM (ou texto ou serial). 
 
 -   **Código PIN** : Permite indicar o código PIN do cartão SIM e deixar em branco se você não tiver um. 
 -   **Modo de texto** : Modo de compatibilidade estendida, a ser usado apenas se o envio e / ou recebimento de mensagens não funcionar.
@@ -27,7 +27,7 @@ Depois de baixar o plugin, você só precisa ativá-lo e configurar a porta. Dep
 -   **Intensidade do sinal** : Força de recepção do sinal da sua chave GSM.
 -   **Rede** : Rede telefônica da sua chave GSM (pode ser "Nenhuma" se a Jeedom não puder recuperá-la). 
 -   **tomada interna (modificação perigosa)** : permite modificar a porta de comunicação interna do daemon.
--   **Ciclo (s)** : ciclo de varredura de daemon para enviar e receber SMS. Um número muito baixo pode causar instabilidade
+-   **Ciclo (s))** : ciclo de varredura de daemon para enviar e receber SMS. Um número muito baixo pode causar instabilidade
 
 # Configuração do equipamento 
 
@@ -35,7 +35,7 @@ A configuração do equipamento SMS pode ser acessada no menu do plugin e depois
 
 Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nome de l'équipement SMS** : nome do seu equipamento SMS,
+-   **Nome do equipamento SMS** : nome do seu equipamento SMS,
 -   **Ativar** : torna seu equipamento ativo,
 -   **Visivél** : torna seu equipamento visível no painel,
 -   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence.
@@ -49,9 +49,9 @@ Abaixo você encontra a lista de pedidos :
     >
     > Somente os números de telefone declarados em um dispositivo poderão usar as interações porque somente eles serão autorizados.
 -   **Display** : permite exibir os dados no painel,
--   **Configuração avançada** (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.),
+-   **Configuração avançada** (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.)),
 -   **Teste** : permite testar o comando,
--   **Remover** (sinal -) : permite excluir o comando.
+-   **Remover** (placa -) : permite excluir o comando.
 
 # Usando o plugin 
 
@@ -65,7 +65,7 @@ Então você precisa adicionar um novo equipamento e configurá-lo :
 -   O nome dele,
 -   Se está ativo ou não,
 
-Em seguida, você deve adicionar os comandos que serão compostos por um nome e um número, apenas os números listados na lista de comandos podem receber uma resposta do Jeedom (isso permite proteger, evitando colocar uma senha em cada início de SMS enviado para Jeedom). Você também pode indicar qual usuário está vinculado a esse número (para gerenciar direitos no nível de interação).
+Em seguida, é necessário adicionar os comandos que serão compostos por um nome e um número, apenas os números listados na lista de comandos podem receber uma resposta do Jeedom (isso possibilita a segurança, evitando definir uma senha como cada início de um SMS enviado ao Jeedom). Você também pode indicar qual usuário está vinculado a esse número (para gerenciamento de direitos no nível da interação).
 
 Para se comunicar com Jeedom, basta enviar uma mensagem a ele de um número autorizado, todas as interações provenientes do sistema de interação.
 

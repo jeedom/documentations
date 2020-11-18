@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 16/11/2020
+
+- Nueva presentación de la lista de objetos
+- Adición de la etiqueta "compatibilidad V4"
+
 # 08/04/2020
 
 - bugfix arp ping considera el dispositivo ausente si fue necesario más de un intento
@@ -21,9 +26,9 @@
 - Soporte para php 7.3
 
  # 02/02/2018
- 
+
  - Optimización del cálculo de dependencia
- 
+
  # 05/07/2018
 
 - Separación del cron de actualización en una tarea dedicada para no afectar el cron general de los complementos

@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 16/11/2020
+
+- Neue Darstellung der Objektliste
+- Hinzufügung des Tags "V4-Kompatibilität"
+
 # 04/08/2020
 
 - Bugfix Arp Ping betrachtet das Gerät als nicht vorhanden, wenn mehr als ein Versuch erforderlich war
@@ -21,9 +26,9 @@
 - Unterstützung für PHP 7.3
 
  # 02/06/2018
- 
+
  - Optimierung der Abhängigkeitsberechnung
- 
+
  # 07/05/2018
 
 - Trennung des Aktualisierungs-Cron in eine dedizierte Aufgabe, um den gesamten Cron der Plugins nicht zu beeinträchtigen

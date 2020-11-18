@@ -1,6 +1,6 @@
 # SMS plugin
 
-The SMS plugin allows you to communicate with Jeedom via SMS, it also allows Jeedom to send you an SMS in the event of an alert (alarm plugin, scenario, etc.)
+The SMS plugin allows you to dialogue with Jeedom via SMS, it also allows Jeedom to send you an SMS in the event of an alert (alarm plugin, scenario)
 
 > **Important**
 >
@@ -18,7 +18,7 @@ After downloading the plugin, you just need to activate it and configure the por
 
 > **Important**
 >
-> Please note that some 3G keys are by default in modem mode and not GSM. Using the software of your key manufacturer, you must change the key mode on GSM (or text, or serial). 
+> Please note that some 3G keys are by default in modem mode and not GSM. Using the software of your key manufacturer, you must change the key mode to GSM (or text, or serial). 
 
 -   **Pin code** : Allows you to indicate the pin code of the SIM card, to leave empty if you do not have one. 
 -   **Text mode** : Extended compatibility mode, to be used only if sending and / or receiving messages does not work.
@@ -35,7 +35,7 @@ The configuration of SMS equipment is accessible from the plugin menu then commu
 
 Here you find all the configuration of your equipment :
 
--   **Name de l'équipement SMS** : name of your SMS equipment,
+-   **SMS equipment name** : name of your SMS equipment,
 -   **Activate** : makes your equipment active,
 -   **Visible** : makes your equipment visible on the dashboard,
 -   **Parent object** : indicates the parent object to which the equipment belongs.
@@ -43,13 +43,13 @@ Here you find all the configuration of your equipment :
 Below you find the list of orders :
 
 -   **Name** : the name displayed on the dashboard,
--   **User** : corresponding user in Jeedom (allows to restrict certain interactions to certain users),
+-   **User** : corresponding user in Jeedom (allows you to restrict certain interactions to certain users),
 -   **Number** : phone number to send messages to. You can put several numbers by separating them with; (ex: 0612345678; 0698765432).
     > **Important**
     >
     > Only the telephone numbers declared in a device will be able to use the interactions because only they will be authorized.
 -   **Show** : allows to display the data on the dashboard,
--   **Advanced configuration** (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.),
+-   **Advanced configuration** (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.)),
 -   **Test** : Used to test the command,
 -   **Delete** (sign -) : allows to delete the command.
 
@@ -65,7 +65,7 @@ So you have to add new equipment and then configure it :
 -   The name of it,
 -   If it is active or not,
 
-Then you must add the commands which will be composed of a name and a number, only the numbers listed in the command list can receive a response from Jeedom (this allows to secure, while avoiding to put a password at each start of SMS sent to Jeedom). You can also indicate which user is linked to this number (for managing rights at the interaction level).
+Then you have to add the commands which will be composed of a name and a number, only the numbers listed in the list of commands can receive a response from Jeedom (this makes it possible to secure, while avoiding setting a password to each start of an SMS sent to Jeedom). You can also indicate which user is linked to this number (for rights management at interaction level).
 
 To communicate with Jeedom, it will then suffice to send him a message from an authorized number, all interactions coming from the interaction system.
 

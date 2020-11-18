@@ -2,13 +2,13 @@
 
 Mit diesem Plugin können Sie Netzwerkgeräte anpingen oder aktivieren.
 
-# Plugin Konfiguration 
+# Plugin Konfiguration
 
-Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur noch aktivieren. Auf dieser Ebene gibt es keine Konfiguration.
+Nach dem Herunterladen des Plugins müssen Sie es nur noch aktivieren. Auf dieser Ebene gibt es keine Konfiguration.
 
 ![networks](./images/networks.PNG)
 
-# Gerätekonfiguration 
+# Gerätekonfiguration
 
 Auf die Konfiguration der Netzwerkgeräte kann über das Plugin-Menü zugegriffen werden :
 
@@ -32,8 +32,8 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 -   **IP-Adresse** : IP-Adresse zum Ping,
 -   **MAC-Adresse (wol)** : MAC-Adresse für Wake-on-LAN,
 -   **Broadcast IP (wol)** : Netzwerk-Broadcast-IP-Adresse zum Senden von Wake-on-LAN,
--   **Ping-Methode** : Wahl der Ping-Methode : IP (normal), ARP (bevorzugt für Telefone oder Geräte, die einschlafen), PORT (um zu testen, ob ein Port offen ist)
--   **TTL** : Lebenszeit können Werte sein : 
+-   **Ping-Methode** : Wahl der Ping-Methode : IP (normal), ARP (bevorzugt für Smartphones und Geräte, die einschlafen), PORT (um zu testen, ob ein Port offen ist)
+-   **TTL** : Lebenszeit können Werte sein :
     - 0 : gleicher Host
     - 1 : gleiche Subnetze
     - 32 : gleiche Seite

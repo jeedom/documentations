@@ -2,13 +2,13 @@
 
 Este plug-in permite executar ping ou wake-on-lan em equipamentos de rede.
 
-# Configuração do plugin 
+# Configuração do plugin
 
 Depois de baixar o plugin, você só precisa ativá-lo, não há configuração neste nível.
 
 ![networks](../images/networks.PNG)
 
-# Configuração do equipamento 
+# Configuração do equipamento
 
 A configuração do equipamento de rede pode ser acessada no menu do plugin :
 
@@ -32,8 +32,8 @@ Aqui você encontra toda a configuração do seu equipamento :
 -   **Endereço IP** : Endereço IP para executar ping,
 -   **Endereço MAC (wol)** : Endereço MAC para wake-on-lan,
 -   **IP de transmissão (wol)** : endereço IP de broadcast da rede para enviar wake-on-lan,
--   **Método Ping** : Escolha do método ping : IP (normal), ARP (preferencial para telefones ou dispositivos que adormecem), PORT (para testar se uma porta está aberta)
--   **TTL** : Tempo de vida útil, os valores podem ser : 
+-   **Método Ping** : Escolha do método ping : IP (normal), ARP (preferido para smartphones e dispositivos que adormecem), PORT (para testar se uma porta está aberta)
+-   **TTL** : Tempo de vida útil, os valores podem ser :
     - 0 : mesmo host
     - 1 : mesmas sub-redes
     - 32 : mesmo site
