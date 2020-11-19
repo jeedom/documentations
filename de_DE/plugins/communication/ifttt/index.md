@@ -24,10 +24,10 @@ Sobald Sie auf eine davon klicken, erhalten Sie :
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name de l'équipement** : Name Ihrer IFTTT-Ausrüstung
+-   **Name der Ausrüstung** : Name Ihrer IFTTT-Ausrüstung
 -   **Aktivieren** : macht Ihre Ausrüstung aktiv
 -   **Sichtbar** : macht es auf dem Dashboard sichtbar
--   **Schlüssel** : IFTTT-Schlüssel, den Sie in der Konfiguration des Webhooks-Dienstes finden (der den Channel Maker ersetzt)
+-   **Schlüssel** : IFTTT-Schlüssel, den Sie in der Konfiguration des Webhooks-Dienstes finden (der den Channel Maker ersetzt))
 
 Nachfolgend finden Sie die Konfiguration der Befehle :
 
@@ -35,9 +35,9 @@ Nachfolgend finden Sie die Konfiguration der Befehle :
 -   **Untertyp** : Gerätetyp
 -   **Ereignis** : Ereignisname in IFTTT konfiguriert
 -   **Wert** : Wert, der an IFTTT gesendet werden soll, 3 mögliche Unterscheidungen, abhängig vom Subtyp, den Sie für die Tags verwenden können : \.#color\.#, \.#slider\.#, \.#message\.# und \#title\.#
--   erweiterte Konfiguration (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.)
+-   Erweiterte Konfiguration (kleine gekerbte Räder) : Dient zum Anzeigen der erweiterten Konfiguration des Befehls (Protokollierungsmethode, Widget usw.))
 -   Test : Wird zum Testen des Befehls verwendet
--   löschen (unterschreiben -) : ermöglicht das Löschen des Befehls
+-   Löschen (unterschreiben -) : ermöglicht das Löschen des Befehls
 
 # Erstellung eines IFTTT-Kontos 
 
@@ -103,7 +103,7 @@ Dann sehen Sie, für das Beispiel werde ich eine Benachrichtigung auf meinem Tel
 
 ![ifttt19](./images/ifttt19.png)
 
-Bestätigen Sie durch Klicken auf "Benachrichtigung senden" (kann sich je nach Kanal ändern) :
+Bestätigen Sie mit einem Klick auf "Benachrichtigung senden" (kann sich je nach Kanal ändern) :
 
 ![ifttt20](./images/ifttt20.png)
 
@@ -151,7 +151,7 @@ Wählen Sie "Standort" :
 
 ![ifttt27](./images/ifttt27.png)
 
-Wählen Sie Ihren Auslöser (hier werde ich nehmen, wenn wir einen Bereich betreten) :
+Wählen Sie Ihren Auslöser (hier nehme ich beim Betreten einer Zone) :
 
 ![ifttt28](./images/ifttt28.png)
 
@@ -175,7 +175,7 @@ Jeedom-Seite erstellen Sie auf Ihrer IFTTT-Ausrüstung einen Befehl info / other
 
 ![ifttt33](./images/ifttt33.PNG)
 
-Sehr wichtig hier : Bestellnummer abrufen (hier 5369).
+Sehr wichtig hier : Holen Sie sich die Befehls-ID (hier 5369).
 
 Wir kehren dann zu IFTTT zurück und geben ihm in unseren Webhooks die URL zum Aufrufen. Dies ist der komplizierteste Schritt. Finden Sie Ihre externe Zugriffs-URL :
 
@@ -184,7 +184,7 @@ Wir kehren dann zu IFTTT zurück und geben ihm in unseren Webhooks die URL zum A
 
 Denken Sie daran, zu ersetzen :
 
--   \.#APIKEY\.# : über Ihren JEEDOM-API-Schlüssel (befindet sich unter Allgemein → Administration → Konfiguration)
+-   \.#APIKEY\.# : über Ihren JEEDOM-API-Schlüssel (diesen finden Sie unter Allgemein → Administration → Konfiguration)
 -   \.#IDCMD\.# : anhand der ID Ihrer zuvor erstellten Bestellung
 -   \.#VALEUR\.# : durch den Wert, den Sie Ihrer Bestellung geben möchten. Achtung hier müssen die Leerzeichen durch% 20 ersetzt werden (und es ist besser, Sonderzeichen zu vermeiden), z : Ohne% 20zone
 

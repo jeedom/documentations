@@ -1,27 +1,38 @@
 {
     "id": "ifttt",
     "name": "IFTTT",
-    "description": "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher un événement de toutes sortes",
+    "description": {
+        "fr_FR": "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes.",
+        "en_US": "Thanks to this plugin, you can benefit from the countless recipes available on IFTT. Thus a Jeedom event can become an entry point for an IFTT recipe and trigger an event of all kinds",
+        "es_ES": "Gracias a este complemento, puede beneficiarse de las innumerables recetas disponibles en IFTT. Por lo tanto, un evento Jeedom puede convertirse en un punto de entrada para una receta IFTT y desencadenar un evento de todo tipo",
+        "de_DE": "Dank dieses Plugins können Sie von den unzähligen Rezepten profitieren, die auf IFTT verfügbar sind. Somit kann ein Jeedom-Ereignis ein Einstiegspunkt für ein IFTT-Rezept werden und ein Ereignis aller Art auslösen",
+        "pt_PT": "Graças a este plugin, você pode se beneficiar das inúmeras receitas disponíveis no IFTT. Assim, um evento Jeedom pode se tornar um ponto de entrada para uma receita IFTT e acionar um evento de todos os tipos"
+    },
     "licence": "AGPL",
     "author": "Loïc",
-    "require": "3.0",
+    "require": "3.3.39",
     "category": "communication",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/ifttt\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/ifttt\/",
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
         "ru_RU",
         "id_ID",
-        "it_IT"
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
-        "Jeedomboard",
-        "Smart",
-        "RPI\/RPI2",
-        "Docker",
-        "DIY"
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
     ]
 }

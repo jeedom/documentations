@@ -14,7 +14,7 @@ A configuração do equipamento IFTTT pode ser acessada no menu plugins :
 
 ![ifttt8](../images/ifttt8.PNG)
 
-É assim que a página do plugin IFTTT se parece (aqui com 1 dispositivo já) :
+É assim que a página do plug-in IFTTT se parece (aqui com já um dispositivo) :
 
 ![ifttt9](../images/ifttt9.PNG)
 
@@ -24,7 +24,7 @@ Depois de clicar em um deles, você obtém :
 
 Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nome de l'équipement** : nome do seu equipamento IFTTT
+-   **Nome de equipamentos** : nome do seu equipamento IFTTT
 -   **Ativar** : torna seu equipamento ativo
 -   **Visivél** : torna visível no painel
 -   **Chave** : Chave IFTTT que você encontrará na configuração do serviço Webhooks (que substitui o criador de canais)
@@ -35,9 +35,9 @@ Abaixo você encontrará a configuração dos comandos :
 -   **Subtipo** : subtipo de equipamento
 -   **Evento** : nome do evento configurado no IFTTT
 -   **Valor** : valor a ser enviado para o IFTTT, três possíveis distinções, dependendo do subtipo, você pode usar as tags : \#color\#, \#slider\#, \#message\# e \#title\#
--   configuração avançada (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.)
+-   Configuração avançada (pequenas rodas dentadas) : usado para exibir a configuração avançada do comando (método de log, widget, etc)
 -   Teste : permite testar o comando
--   excluir (assinar -) : permite excluir o comando
+-   Excluir (assinar -) : permite excluir o comando
 
 # Criação de uma conta IFTTT 
 
@@ -103,7 +103,7 @@ Então você vê, por exemplo, enviarei uma notificação no meu telefone (você
 
 ![ifttt19](../images/ifttt19.png)
 
-Valide clicando em "Enviar uma notificação" (pode mudar dependendo dos canais) :
+Confirme clicando em "Enviar uma notificação" (pode mudar dependendo do canal) :
 
 ![ifttt20](../images/ifttt20.png)
 
@@ -151,7 +151,7 @@ Selecione "Localização" :
 
 ![ifttt27](../images/ifttt27.png)
 
-Escolha seu gatilho (aqui eu pegarei quando entrarmos em uma área) :
+Escolha o seu gatilho (aqui vou pegar quando entrar em uma zona) :
 
 ![ifttt28](../images/ifttt28.png)
 
@@ -175,7 +175,7 @@ No lado Jeedom, no seu equipamento IFTTT, crie um comando de informação / outr
 
 ![ifttt33](../images/ifttt33.PNG)
 
-Muito importante aqui : recuperar o ID do pedido (aqui 5369).
+Muito importante aqui : obter o ID do comando (aqui 5369).
 
 Em seguida, retornamos ao IFTTT e, em nossos webhooks, forneceremos o URL para chamar. Esta é a etapa mais complicada: encontre seu URL de acesso externo :
 
@@ -184,7 +184,7 @@ Em seguida, retornamos ao IFTTT e, em nossos webhooks, forneceremos o URL para c
 
 Lembre-se de substituir :
 
--   \#APIKEY\# : pela sua chave da API JEEDOM (é em Geral → Administração → Configuração)
+-   \#APIKEY\# : pela sua chave API JEEDOM (pode ser encontrada em Geral → Administração → Configuração)
 -   \#IDCMD\# : pelo ID do seu pedido criado anteriormente
 -   \#VALEUR\# : pelo valor que você deseja atribuir ao seu pedido. Atenção aqui os espaços devem ser substituídos por% 20 (e é melhor evitar caracteres especiais), ex : Excluindo% 20zona
 

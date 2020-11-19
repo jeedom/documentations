@@ -14,7 +14,7 @@ The configuration of IFTTT equipment is accessible from the plugins menu :
 
 ![ifttt8](./images/ifttt8.PNG)
 
-This is what the IFTTT plugin page looks like (here with 1 device already) :
+This is what the IFTTT plugin page looks like (here with already 1 device) :
 
 ![ifttt9](./images/ifttt9.PNG)
 
@@ -24,7 +24,7 @@ Once you click on one of them, you get :
 
 Here you find all the configuration of your equipment :
 
--   **Name de l'équipement** : name of your IFTTT equipment
+-   **Name of equipment** : name of your IFTTT equipment
 -   **Activate** : makes your equipment active
 -   **Visible** : makes it visible on the dashboard
 -   **Key** : IFTTT key that you will find in the configuration of the Webhooks service (which replaces channel maker)
@@ -35,9 +35,9 @@ Below you will find the configuration of the commands :
 -   **Sub-type** : equipment subtype
 -   **Event** : event name configured in IFTTT
 -   **Value** : value to send to IFTTT, 3 possible distinctions, depending on the subtype you can use the tags : \#color\#, \#slider\#, \#message\# and \#title\#
--   advanced configuration (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.)
+-   Advanced configuration (small notched wheels) : used to display the advanced configuration of the command (logging method, widget, etc)
 -   Test : Used to test the command
--   delete (sign -) : allows to delete the command
+-   Delete (sign -) : allows to delete the command
 
 # Creation of an IFTTT account 
 
@@ -103,7 +103,7 @@ Then you see, for the example I will send a notification on my phone (you must f
 
 ![ifttt19](./images/ifttt19.png)
 
-Validate by clicking on "Send a notification" (may change depending on the channels) :
+Confirm by clicking on "Send a notification" (may change depending on the channel) :
 
 ![ifttt20](./images/ifttt20.png)
 
@@ -151,7 +151,7 @@ Select "Location" :
 
 ![ifttt27](./images/ifttt27.png)
 
-Choose your trigger (here I will take when we enter an area) :
+Choose your trigger (here I will take when entering a zone) :
 
 ![ifttt28](./images/ifttt28.png)
 
@@ -175,7 +175,7 @@ Jeedom side, on your IFTTT equipment, create an info / other type command (or bi
 
 ![ifttt33](./images/ifttt33.PNG)
 
-Very important here : retrieve the order id (here 5369).
+Very important here : get the command id (here 5369).
 
 We then return to IFTTT and in our webhooks we will give it the url to call. This is the most complicated step, find your external access url :
 
@@ -184,7 +184,7 @@ We then return to IFTTT and in our webhooks we will give it the url to call. Thi
 
 Remember to replace :
 
--   \#APIKEY\# : by your JEEDOM API key (it is in General → Administration → Configuration)
+-   \#APIKEY\# : by your JEEDOM API key (it can be found in General → Administration → Configuration)
 -   \#IDCMD\# : by the id of your previously created order
 -   \#VALEUR\# : by the value you want to give to your order. Attention here the spaces must be replaced by% 20 (and it is better to avoid special characters), ex : Excluding% 20zone
 

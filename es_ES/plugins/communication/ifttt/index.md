@@ -24,7 +24,7 @@ Una vez que haces clic en uno de ellos, obtienes :
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nombre de l'équipement** : nombre de su equipo IFTTT
+-   **Nombre del equipo** : nombre de su equipo IFTTT
 -   **Activar** : activa su equipo
 -   **Visible** : lo hace visible en el tablero
 -   **Clave** : Clave IFTTT que encontrará en la configuración del servicio Webhooks (que reemplaza al creador de canales)
@@ -35,9 +35,9 @@ A continuación encontrará la configuración de los comandos :
 -   **Sub-tipo** : subtipo de equipo
 -   **Evento** : nombre del evento configurado en IFTTT
 -   **Valor** : valor para enviar a IFTTT, 3 distinciones posibles, dependiendo del subtipo, puede usar las etiquetas : \#color\#, \#slider\#, \#message\# y \#title\#
--   configuración avanzada (ruedas con muescas pequeñas) : muestra la configuración avanzada del comando (método de registro, widget, etc.)
+-   Configuración avanzada (ruedas pequeñas con muescas) : se utiliza para mostrar la configuración avanzada del comando (método de registro, widget, etc)
 -   Probar : Se usa para probar el comando
--   eliminar (firmar -) : permite eliminar el comando
+-   Eliminar (firmar -) : permite eliminar el comando
 
 # Creación de una cuenta IFTTT 
 
@@ -103,7 +103,7 @@ Luego verá, por ejemplo, enviaré una notificación en mi teléfono (primero de
 
 ![ifttt19](./images/ifttt19.png)
 
-Valide haciendo clic en "Enviar una notificación" (puede cambiar según los canales) :
+Confirme haciendo clic en "Enviar una notificación" (puede cambiar según el canal) :
 
 ![ifttt20](./images/ifttt20.png)
 
@@ -151,7 +151,7 @@ Seleccione "Ubicación" :
 
 ![ifttt27](./images/ifttt27.png)
 
-Elija su disparador (aquí tomaré cuando ingresemos a un área) :
+Elija su disparador (aquí lo tomaré al ingresar a una zona) :
 
 ![ifttt28](./images/ifttt28.png)
 
@@ -175,7 +175,7 @@ En el lado de Jeedom, en su equipo IFTTT, cree un comando de información / otro
 
 ![ifttt33](./images/ifttt33.PNG)
 
-Muy importante aquí : recuperar la identificación del pedido (aquí 5369).
+Muy importante aquí : obtener la identificación del comando (aquí 5369).
 
 Luego volvemos a IFTTT y en nuestros webhooks le daremos la url para llamar. Este es el paso más complicado, encuentra tu URL de acceso externo :
 
@@ -184,7 +184,7 @@ Luego volvemos a IFTTT y en nuestros webhooks le daremos la url para llamar. Est
 
 Recuerde reemplazar :
 
--   \#APIKEY\# : por su clave JEEDOM API (está en General → Administración → Configuración)
+-   \#APIKEY\# : por su clave API JEEDOM (se puede encontrar en General → Administración → Configuración)
 -   \#IDCMD\# : por la identificación de su pedido previamente creado
 -   \#VALEUR\# : por el valor que desea dar a su pedido. Atención aquí los espacios deben ser reemplazados por% 20 (y es mejor evitar caracteres especiales), ej : Excluyendo% 20zone
 

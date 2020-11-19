@@ -279,7 +279,7 @@
         "Jeedom Link": "Jeedom Link",
         "Plugin permettant de lier plusieurs Jeedom": "Plugin allowing to link several Jeedom",
         "Plugin permettant de gérer un ou plusieurs Jarvis": "Plugin to manage one or more Jarvis",
-        "Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher un événement de toutes sortes": "So a Jeedom event can become an entry point for an IFTT recipe and trigger an event of all kinds",
+        "Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes": "Thus a Jeedom event can become an entry point for an IFTT recipe and trigger events of all kinds",
         "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT": "Thanks to this plugin, you can benefit from the countless recipes available on IFTT",
         "Google Smarthome": "Google Smarthome",
         "Plugin pour piloter Jeedom avec un Google Home": "Plugin to drive Jeedom with a Google Home",
