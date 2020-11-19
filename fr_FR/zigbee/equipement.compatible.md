@@ -82,6 +82,14 @@
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_signal_repeater.png" width="60" />|Ikea|Ikea repeateur||||
 |<img src="../../fr_FR/zigbee/images/KE.TRADFRI_openclose_remote.png" width="60" />|Ikea|Ikea télécommande 2 boutons store||||
 
+# Nodon
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/NodOn.SIN-4-1-01.png" width="60" />|Nodon|SIN-4-1-01||||
+|<img src="../../fr_FR/zigbee/images/NodOn.SIN-4-2-01.png" width="60" />|Nodon|SIN-4-2-01||||
+|<img src="../../fr_FR/zigbee/images/ptm216z.png" width="60" />|Nodon|PTM 216 Z||||
+
 # Orvibo
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -178,7 +186,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zigbee/images/ptm215ze.png" width="60" />|Tryo2sys|PTM 215 ZE ||||
+|<img src="../../fr_FR/zigbee/images/ptm215ze.png" width="60" />|Tryo2sys|PTM 215 ZE||||
 
 # Tuya
 
@@ -218,4 +226,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-11-18 01:32:10
+2020-11-19 01:32:10

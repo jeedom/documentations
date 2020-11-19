@@ -82,6 +82,14 @@
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_signal_repeater.png" width="60" />|Ikea|Ikea repeateur||||
 |<img src="../../de_DE/zigbee/images/KE.TRADFRI_openclose_remote.png" width="60" />|Ikea|Ikea Fernbedienung 2 Tasten speichern||||
 
+# Nodon
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/NodOn.SIN-4-1-01.png" width="60" />|Nodon|SIN-4-1-01||||
+|<img src="../../de_DE/zigbee/images/NodOn.SIN-4-2-01.png" width="60" />|Nodon|SIN-4-2-01||||
+|<img src="../../de_DE/zigbee/images/ptm216z.png" width="60" />|Nodon|PTM 216 Z||||
+
 # Orvibo
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -178,7 +186,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/ptm215ze.png" width="60" />|Tryo2sys|PTM 215 ZE ||||
+|<img src="../../de_DE/zigbee/images/ptm215ze.png" width="60" />|Tryo2sys|PTM 215 ZE||||
 
 # Tuya
 
@@ -218,4 +226,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-11-18 01:32:10
+2020-11-19 01:32:10
