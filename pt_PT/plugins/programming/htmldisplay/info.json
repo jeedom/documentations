@@ -1,7 +1,13 @@
 {
     "id": "htmldisplay",
     "name": "HTML Display",
-    "description": "Plugin permettant de mettre du code html dans un widget équipement (permet par exemple de faire son propre menu pour les designs)",
+    "description": {
+        "fr_FR": "Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs).",
+        "en_US": "Plugin allowing you to put html code in an equipment widget (for example allows you to make your own menu for designs)",
+        "es_ES": "Complemento que le permite poner código html en un widget de equipo (por ejemplo, le permite crear su propio menú para diseños)",
+        "de_DE": "Plugin, mit dem Sie HTML-Code in ein Geräte-Widget einfügen können (z. B. können Sie Ihr eigenes Menü für Designs erstellen)",
+        "pt_PT": "Plug-in que permite inserir código html em um widget de equipamento (por exemplo, permite criar seu próprio menu para designs)"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "4.0",
@@ -14,11 +20,9 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",

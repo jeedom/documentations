@@ -1,45 +1,50 @@
 # Complemento de Google Calendar
 
-El complemento de agenda le permite recuperar eventos de su Google Calendar. También puede iniciar una interacción durante un evento
+El complemento **Calendario de Google** le permite recuperar eventos de sus calendarios de Google. También puede desencadenar una interacción durante un evento.
 
-# Configuración 
+# Configuration
 
-## Crea un dispositivo Google Calendar 
+## Crea un dispositivo Google Calendar
 
-En el lado de Jeedom, debe crear un dispositivo Google Calendar y recuperar la URL de redireccionamiento. 
-
-> **Importante**
->
-> La url de acceso externo a su Jeedom debe estar absolutamente en https. Google no permite conexiones sin cifrar.
-
-## Crea una cuenta de desarrollador en Google 
-
-Debe crear una cuenta de desarrollador con google para acceder a las API, vaya [aquí](https://console.developers.google.com/apis/credentials) luego haga "Crear identificadores" y "ID de cliente Oauth", seleccione "Aplicación web" y en "URI de redireccionamiento autorizado" ponga el que figura en la página de configuración del equipo jeedom.
+En el lado de Jeedom, debe crear un dispositivo Google Calendar y recuperar la URL de redireccionamiento.
 
 > **Importante**
 >
-> Tenga cuidado cuando ingrese "URI de redireccionamiento autorizado" al que debe prestar atención : 
-> - habiendo autorizado el dominio aquí antes [aquí](https://console.developers.google.com/apis/credentials/consent). Google te indicará normalmente
-> - presione la tecla Intro después de copiar / pegar la URL de redireccionamiento de Jeedom a la página de configuración de Google (presionar el botón Guardar directamente después de copiar / clasificar sin presionar la tecla Intro no funciona!!!)
+> La URL para el acceso externo a su Jeedom debe estar absolutamente en https, Google no permite conexiones sin cifrar.
 
-Obtenga la clave del cliente y el secreto del cliente (deberá colocarlos en el lado de Jeedom en el equipo)
+## Cree una cuenta de desarrollador de Google
 
-Luego debe agregar la API de Google Calendar yendo [aquí](https://console.developers.google.com/apis/dashboard), luego en "Activar la API" y busque "API de Google Calendar" y luego agregue el.
+Necesita crear una cuenta de desarrollador con Google para acceder a la API. Para hacerse, [siga este enlace](https://console.developers.google.com/apis/credentials), Cree un nuevo proyecto si es necesario y luego haga clic en "**+ Crear identificadores**" y seleccione "**ID de cliente de Oauth**".     
+ Entonces escoge "**Aplicación web**" en el menú desplegable, luego agregue el'"*URL de retorno*" dado en la página del equipo Jeedom en "**URI de redireccionamiento permitidos**".
 
-## Vincula la cuenta de Google a jeedom 
+> **Importante**
+>
+>Cuando ingrese "URI de redireccionamiento autorizado", debe prestar atención a :
+> - han autorizado el dominio antes [aquí](https://console.developers.google.com/apis/credentials/consent). Google te indicará normalmente
+> - presione la tecla Intro después de copiar / pegar la URL de redireccionamiento de jeedom a la página de configuración de Google (*presionar el botón guardar directamente después de copiar / collar sin presionar la tecla enter no funciona!*)     
 
-Copie la clave del cliente y el cliente secreto en el lado de Jeedom, luego haga clic en el botón Enlace, valide todo.
+Recoge el'**Identificación del cliente**' y el **código secreto del cliente** (Deberá ingresarlos en el equipo lateral de Jeedom)
+
+Luego debes agregar la API de Google Calendar yendo [aquí](https://console.developers.google.com/apis/dashboard). Haga clic en "**+ Activar API y servicios**" luego busque "API de Google Calendar" y agregue el.
+
+> **A saber**
+>
+>El procedimiento anterior puede cambiar con el tiempo. Le recomendamos que siga las instrucciones dadas en el sitio.
+
+## Vincular la cuenta de Google a jeedom
+
+Cópialo **ID del cliente** y la **Clave secreta** Lado de Jeedom luego haga clic en el botón "**Enlazar**". No olvide guardar el equipo.
 
 >**Importante**
 >
 >Atención para vincular las 2 cuentas (Google y Jeedom) es ABSOLUTAMENTE necesario estar conectado a Jeedom por su url externa (puede verlo en el centro de configuración de redes de partes de Jeedom)
 
-# Comando 
+# Commandes
 
-El complemento solo incluye comandos que le dan el título del evento
+El complemento solo incluye comandos que dan el título de los eventos.
 
-# Interacción 
+# Interaction
 
-Jeedom puede interpretar el título de un evento como una interacción y, por lo tanto, desencadenar una acción. Para esto debes activar las interacciones en la página de configuración del equipo.
+Jeedom puede interpretar el título de un evento como una interacción y, por lo tanto, desencadenar una acción. Para ello, debe activar las interacciones en la página de configuración del equipo.
 
-También puede indicar un comando de retorno mediante el cual jeedom responderá después de la ejecución de la interacción.
+También puede indicar un comando de retorno mediante el cual jeedom responderá después de la ejecución de la interacción.    

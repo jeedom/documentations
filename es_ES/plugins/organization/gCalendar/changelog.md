@@ -4,9 +4,14 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 16/11/2020
+
+- Nueva presentación de la lista de objetos
+- Adición de la etiqueta "compatibilidad V4"
+
 # 28/04/2020
 
-- Corrección de un problema con los eventos del día actual a horcajadas 2 días
+- Se solucionó un problema con los eventos del día actual que se extendían a dos días
 
 # 07/04/2020
 
@@ -14,7 +19,7 @@
 
 # 08/13/2019
 
-- Soporte para php 7.3
+- Soporte para PHP 7.3
 
 # 05/03/2019
 
@@ -23,7 +28,7 @@
 # 03/03/2019
 
 - Agregar un pedido para tener la lista de eventos del mañana
-- Actualización de doc
+- Actualización de la documentación
 
 # 01/02/2019
 
@@ -40,16 +45,16 @@
 
 # 28/11/2018
 
-- Actualizando el documento
+- Actualización de la documentación
 
 # 16/11/2018
 
-- Actualizando el documento
-- Agregar mensaje de error durante la conexión
+- Actualización de la documentación
+- Se agregaron mensajes de error al conectarse
 
 # 11/02/2018
 
-- Corrección de errores en la gestión de eventos actuales
+- Corrección de un error en la gestión de eventos actuales
 - Soporte para eventos diarios
 
 # 22/03/2018

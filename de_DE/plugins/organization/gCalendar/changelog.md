@@ -4,9 +4,14 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 16/11/2020
+
+- Neue Darstellung der Objektliste
+- Hinzufügung des Tags "V4-Kompatibilität"
+
 # 28.04.2020
 
-- Behebung eines Problems mit aktuellen Tagesereignissen, die sich über 2 Tage erstrecken
+- Es wurde ein Problem behoben, bei dem aktuelle Tagesereignisse 2 Tage dauerten
 
 # 04/07/2020
 
@@ -23,7 +28,7 @@
 # 03/03/2019
 
 - Hinzufügen einer Bestellung, um die Liste der Ereignisse von morgen anzuzeigen
-- Aktualisierung von doc
+- Aktualisierung der Dokumentation
 
 # 01/02/2019
 
@@ -40,16 +45,16 @@
 
 # 28.11.2008
 
-- Aktualisieren des Dokuments
+- Aktualisierung der Dokumentation
 
 # 16.11.2008
 
-- Aktualisieren des Dokuments
-- Hinzufügen einer Fehlermeldung während der Verbindung
+- Aktualisierung der Dokumentation
+- Beim Herstellen der Verbindung wurden Fehlermeldungen hinzugefügt
 
 # 11/02/2018
 
-- Fehlerkorrektur bei der Verwaltung aktueller Ereignisse
+- Behebung eines Fehlers bei der Verwaltung aktueller Ereignisse
 - Unterstützung für tägliche Veranstaltungen
 
 # 22.03.2008

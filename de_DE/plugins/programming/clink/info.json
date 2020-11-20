@@ -1,19 +1,36 @@
 {
     "id": "clink",
     "name": "Click link",
-    "description": "Plugin de gestion de lien et d'interface",
+    "description": {
+        "fr_FR": "Ce plugin permet la gestion de liens et d’évènements directement sur l’interface Jeedom. Vous pourrez, par exemple, créer une commande qui ouvre une modale (fenêtre de dialogue) avec une vue contenant vos caméras. Cela permet lorsque quelqu’un sonne chez vous d’afficher la caméra de l’entrée sur votre Jeedom.",
+        "en_US": "Link and interface management plugin",
+        "es_ES": "Complemento de gestión de enlaces e interfaces",
+        "de_DE": "Link- und Schnittstellenverwaltungs-Plugin",
+        "pt_PT": "Plug-in de gerenciamento de links e interfaces"
+    },
     "licence": "AGPL",
     "author": "Loïc",
-    "require": "3.0",
+    "require": "3.3.39",
     "category": "programming",
     "eventjs": 1,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/clink\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/clink\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "ja_JP",
+        "pt_PT"
+    ],
     "compatibility": [
         "miniplus",
         "smart",
         "rpi",
+        "docker",
         "diy",
+        "mobile",
         "v4"
     ]
 }
