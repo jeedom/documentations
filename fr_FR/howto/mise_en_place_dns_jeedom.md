@@ -28,13 +28,7 @@ Ce principe a l'avantage de ne pas exposer votre Jeedom sur internet, pas d'ouve
 
 Là c'est super simple, vous devez connecter votre Jeedom au market (voir documentation premier-pas). 
 
-### Market
-
-Une fois votre Jeedom lié au market, vous allez sur le market; puis sur votre profils (https://www.jeedom.com/market/index.php?v=d&p=profils) et enfin sur l'onglet "Mes Jeedoms".
-
-### Retour à Jeedom
-
-Une fois le status du market à "Connexion possible", allez sur votre Jeedom, dans l'administration de celui-ci allez sur l'onglet Réseaux et cochez "Utiliser les DNS Jeedom" puis sauvegardez.
+Puis sur votre Jeedom, dans l'administration de celui-ci allez sur l'onglet Réseaux et cochez "Utiliser les DNS Jeedom" puis sauvegardez.
 
 Jeedom va démarrer le DNS et vous donner votre url d'accès à votre Jeedom
 
