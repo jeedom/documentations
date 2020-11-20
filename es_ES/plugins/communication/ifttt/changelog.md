@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 18/11/2020
+
+- Nueva presentación de la lista de objetos
+- Adición de la etiqueta "compatibilidad V4"
+
 # 08/28/2019
 
 - Actualización de la documentación
@@ -11,7 +16,7 @@
 
 # 08/13/2019
 
-- Soporte para php 7.3
+- Soporte para PHP 7.3
 
 # 15/04/2019
 

@@ -36,7 +36,7 @@ A continuación, puede crear nuevos equipos en Jeedom y completar los campos sol
 -   **Mensaje** ⇒ Permite el envío de mensajes. El comando de tipo de mensaje contiene 2 campos : 
     - **ID de icono** : Correspond au numéro de l'icône souhaitée (Ne pas mettre le \# ; liste des icônes disponibles ici : <https://developer.lametric.com/icons>)
     - **Texto** : Corresponde al texto que desea mostrar
--   **Vaciar** ⇒ Le permite restablecer la pantalla a vacía ("JEEDOM" se registra entonces)
+-   **Vaciar** ⇒ Se utiliza para restablecer la pantalla a vacía ("JEEDOM" luego se registra)
 
 Es posible enviar más mensajes en un solo envío separando los iconos y los textos por el carácter : **|**
 

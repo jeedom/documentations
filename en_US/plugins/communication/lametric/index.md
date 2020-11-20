@@ -36,7 +36,7 @@ You can then create new equipment in Jeedom and fill in the requested fields :
 -   **Message** ⇒ Allows the sending of messages. The message type command contains 2 fields : 
     - **Icon ID** : Correspond au numéro de l'icône souhaitée (Ne pas mettre le \# ; liste des icônes disponibles ici : <https://developer.lametric.com/icons>)
     - **Text** : Corresponds to the text you want to display
--   **Clear** ⇒ Allows you to reset the display to empty ("JEEDOM" is then registered)
+-   **Clear** ⇒ Used to reset the display to empty ("JEEDOM" is then registered)
 
 It is possible to send more messages in one send by separating the icons and the texts by the character : **|**
 

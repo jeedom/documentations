@@ -1,6 +1,6 @@
 # Plug-in do Notification Manager
 
-Este plugin permite gerenciar notificações (recuperação em caso de erro, geração de texto ...)
+Este plugin é usado para gerenciar notificações (recuperação em caso de erro, geração de texto...)
 
 # Configuração do plugin
 
@@ -46,7 +46,7 @@ O plugin também oferece a possibilidade de geração de texto para que as mensa
 
 # Texto condicional
 
-Você também pode colocar texto condicional no formato {(teste) ? Real : faux}.
+Você também pode colocar texto condicional no formulário {(teste) ? Real : faux}.
 
 > **IMPORTANTE**
 >

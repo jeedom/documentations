@@ -1,11 +1,33 @@
 {
     "id": "mail",
     "name": "Mail",
-    "description": "Plugin pour envoyer des mails",
+    "description": {
+        "fr_FR": "Ce plugin permet d'envoyer des e-mails depuis Jeedom. Cela permet de vous notifier directement par mail lors d'une alerte ou tout simplement pour un bilan journalier. Vous pouvez définir autant de destinataires que vous voulez, cela est utile pour envoyer des rapports personnalisés ou cibler les alertes pour tel ou tel destinataire.",
+        "en_US": "Plugin to send emails",
+        "es_ES": "Complemento para enviar correos electrónicos",
+        "de_DE": "Plugin zum Versenden von E-Mails",
+        "pt_PT": "Plug-in para enviar e-mails"
+    },
     "licence": "AGPL",
     "author": "Loïc",
-    "require": "2.4",
+    "require": "3.3.39",
     "category": "communication",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/mail\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/mail\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/mail\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

@@ -1,5 +1,9 @@
 # Changelog Eco-Gerät
 
+# 16/11/2020
+
+- Schnittstellenaktualisierung
+
 # 11/11/2020
 
 - Neue Darstellung der Objektliste

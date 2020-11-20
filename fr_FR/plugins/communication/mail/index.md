@@ -80,7 +80,7 @@ Dans un scénario, une fois sélectionné dans une action, il faudra saisir le t
 
 > **Important**
 >
-> Avec Gmail il faut donner un mot de passe spécifique pour l’application : Mon compte ⇒ connexion et sécurité ⇒ Se connecter à Google ⇒ Mots de passe d’application
+> Si vous êtes en double authentification avec Gmail il faut donner un mot de passe spécifique pour l’application : Mon compte ⇒ connexion et sécurité ⇒ Se connecter à Google ⇒ Mots de passe d’application, si ce n'est pas le cas vous devez renseigner votre mot de passe gmail habituel.
 
 > **Tip**
 >

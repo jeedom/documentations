@@ -1,6 +1,6 @@
 # Notification Manager-Plugin
 
-Mit diesem Plugin können Sie Benachrichtigungen verwalten (Wiederherstellung im Fehlerfall, Generierung von Text ...)
+Mit diesem Plugin können Sie Benachrichtigungen verwalten (Wiederherstellung im Fehlerfall, Texterzeugung...)
 
 # Plugin Konfiguration
 
@@ -46,7 +46,7 @@ Das Plugin bietet auch die Möglichkeit der Texterzeugung, sodass die Nachrichte
 
 # Bedingter Text
 
-Sie können auch bedingten Text in das Formular {(Test) einfügen ? War : faux}.
+Sie können auch bedingten Text in die Form {(test) ? War : faux}.
 
 > **Wichtig**
 >

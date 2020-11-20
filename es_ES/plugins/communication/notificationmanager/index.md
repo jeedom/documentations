@@ -1,6 +1,6 @@
 # Complemento del Administrador de notificaciones
 
-Este complemento le permite administrar notificaciones (recuperación en caso de error, generación de texto ...)
+Este complemento le permite administrar notificaciones (recuperación en caso de error, generación de texto...)
 
 # Configuración del plugin
 

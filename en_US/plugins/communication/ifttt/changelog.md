@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 11/18/2020
+
+- New presentation of the list of objects
+- Addition of the tag "V4 compatibility"
+
 # 08/28/2019
 
 - Documentation update
@@ -11,7 +16,7 @@
 
 # 08/13/2019
 
-- Support for php 7.3
+- Support for PHP 7.3
 
 # 04/15/2019
 

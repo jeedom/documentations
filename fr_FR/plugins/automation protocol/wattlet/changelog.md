@@ -9,3 +9,4 @@
 - Mise à jour de l'interface V4
 - Nouvelle présentation de la liste des objets
 - Ajout du tag compatibilité V4
+- Mise à jour de l'icône du plugin

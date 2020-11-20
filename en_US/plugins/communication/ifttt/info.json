@@ -3,10 +3,10 @@
     "name": "IFTTT",
     "description": {
         "fr_FR": "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT. Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes.",
-        "en_US": "Thanks to this plugin, you can benefit from the countless recipes available on IFTT. Thus a Jeedom event can become an entry point for an IFTT recipe and trigger an event of all kinds",
-        "es_ES": "Gracias a este complemento, puede beneficiarse de las innumerables recetas disponibles en IFTT. Por lo tanto, un evento Jeedom puede convertirse en un punto de entrada para una receta IFTT y desencadenar un evento de todo tipo",
-        "de_DE": "Dank dieses Plugins können Sie von den unzähligen Rezepten profitieren, die auf IFTT verfügbar sind. Somit kann ein Jeedom-Ereignis ein Einstiegspunkt für ein IFTT-Rezept werden und ein Ereignis aller Art auslösen",
-        "pt_PT": "Graças a este plugin, você pode se beneficiar das inúmeras receitas disponíveis no IFTT. Assim, um evento Jeedom pode se tornar um ponto de entrada para uma receita IFTT e acionar um evento de todos os tipos"
+        "en_US": "Thanks to this plugin, you can benefit from the countless recipes available on IFTT. Thus a Jeedom event can become an entry point for an IFTT recipe and trigger events of all kinds",
+        "es_ES": "Gracias a este complemento, puede beneficiarse de las innumerables recetas disponibles en IFTT. Por lo tanto, un evento de Jeedom puede convertirse en un punto de entrada para una receta IFTT y desencadenar eventos de todo tipo",
+        "de_DE": "Dank dieses Plugins können Sie von den unzähligen Rezepten profitieren, die auf IFTT verfügbar sind. Somit kann ein Jeedom-Ereignis ein Einstiegspunkt für ein IFTT-Rezept werden und Ereignisse aller Art auslösen",
+        "pt_PT": "Graças a este plugin, você pode se beneficiar das inúmeras receitas disponíveis no IFTT. Assim, um evento Jeedom pode se tornar um ponto de entrada para uma receita IFTT e eventos de gatilho de todos os tipos"
     },
     "licence": "AGPL",
     "author": "Loïc",

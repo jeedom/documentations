@@ -1,6 +1,6 @@
 # Notification Manager plugin
 
-This plugin allows you to manage notifications (recovery in case of error, generation of text ...)
+This plugin allows you to manage notifications (recovery in case of error, text generation...)
 
 # Plugin configuration
 

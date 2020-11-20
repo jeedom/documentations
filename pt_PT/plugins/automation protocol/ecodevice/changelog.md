@@ -1,5 +1,9 @@
 # Changelog Eco-device
 
+# 16/11/2020
+
+- Atualização da interface
+
 # 11/11/2020
 
 - Nova apresentação da lista de objetos

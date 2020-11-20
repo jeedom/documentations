@@ -36,7 +36,7 @@ Beim Hinzufügen von Geräten werden automatisch 2 Bestellungen erstellt :
 -   **Nachricht** ⇒ Ermöglicht das Senden von Nachrichten. Der Befehl Nachrichtentyp enthält 2 Felder : 
     - **Symbol ID** : Correspond au numéro de l'icône souhaitée (Ne pas mettre le \# ; liste des icônes disponibles ici : <https://developer.lametric.com/icons>)
     - **Text** : Entspricht dem Text, den Sie anzeigen möchten
--   **Leeren** ⇒ Ermöglicht das Zurücksetzen der Anzeige auf leer ("JEEDOM" wird dann registriert)
+-   **Leeren** ⇒ Dient zum Zurücksetzen der Anzeige auf leer ("JEEDOM" wird dann registriert)
 
 Es ist möglich, mehrere Nachrichten auf einmal zu senden, indem die Symbole und die Texte durch das Zeichen getrennt werden : **|**
 

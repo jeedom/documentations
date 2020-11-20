@@ -36,7 +36,7 @@ Você pode criar um novo equipamento no Jeedom e preencher os campos solicitados
 -   **Mensagem** ⇒ Permite o envio de mensagens. O comando do tipo de mensagem contém 2 campos : 
     - **ID do ícone** : Correspond au numéro de l'icône souhaitée (Ne pas mettre le \# ; liste des icônes disponibles ici : <https://developer.lametric.com/icons>)
     - **Texto** : Corresponde ao texto que você deseja exibir
--   **Vazio** ⇒ Permite restaurar o display para vazio ("JEEDOM" é registrado)
+-   **Vazio** ⇒ Usado para redefinir o display para vazio ("JEEDOM" é então registrado)
 
 É possível enviar mais mensagens em um envio, separando os ícones e os textos pelo caractere : **|**
 
