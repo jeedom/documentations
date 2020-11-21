@@ -1,4 +1,9 @@
 # Registro de cambios Broadlink
+# 20/11/2020
+
+- Optimizaciones generales
+- Nueva presentación de la lista de objetos
+- Adición de la etiqueta "compatibilidad V4"
 
 # 31/07/2020
 

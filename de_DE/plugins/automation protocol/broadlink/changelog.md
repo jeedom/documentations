@@ -1,4 +1,9 @@
 # Changelog Broadlink
+# 20/11/2020
+
+- Allgemeine Optimierungen
+- Neue Darstellung der Objektliste
+- Hinzufügung des Tags "V4-Kompatibilität"
 
 # 31.07.2020
 
