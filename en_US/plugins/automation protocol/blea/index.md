@@ -1,153 +1,124 @@
 
-BLEA (Bluetooth advertisement)
-==============================
+# BLEA plugin (Bluetooth advertisement)
 
-Description
------------
+This plugin is a plugin allowing you to receive events from certain bluetooth devices (such as NIU from Nodon and other)
 
-Ce plugin est un plugin permettant de pouvoir recevoir les événements de certains périphériques bluetooth (tel que les NIU de chez Nodon)
-
-![blea icon](./images/blea_icon.png)
-
-Configuration
--------------
-
-Configuration du plugin
-========================
-
-a. Installation/Creation
+# Plugin configuration
 
 > **Tip**
 >
-> In order to use the plugin, you have to download it, install it and
-> activate it like any Jeedom plugin.
+> In order to use the plugin, you must download, install and activate it like any Jeedom plugin.
 
-- After that you will arrive on this page:
+After that you will come to this page :
 
 ![gestion](./images/gestion.jpg)
 
-Sur cette page vous avez peu de choses à faire. Il est très vivement recommandé de lancer l’installation des dépendances (même si elles apparaissent OK). Puis à la fin de rafraichir la page.
+On this page you have little to do. It is highly recommended to start the installation of the dependencies (even if they appear OK). Then at the end of refreshing the page.
 
 > **Important**
 >
-> The most important thing here is to select your Bluetooth 
-> controller
+> The most important thing here is to select your Bluetooth Controller
 
-L’autre option disponible sur cette page est : **Supprimer automatiquement les périphériques exclus**. Celle-ci permet de supprimer les équipements de Jeedom lorsqu’ils sont exclus.
+The other option available on this page is : **Automatically delete excluded devices**. This removes the Jeedom equipment when it is excluded.
 
-Vous pouvez aussi vérifier l’état des dépendances et les relancer. Encas de soucis avec le plugin, toujours relancer les dépendances même si OK dans le doute.
+You can also check the status of dependencies and relaunch them. Incase of problems with the plugin, always relaunch the dependencies even if OK when in doubt.
 
-Le plugin
-=========
+# The plugin
 
 Rendez vous dans le menu Plugins &gt; Protocole Domotique pour retrouver le plugin.
 
 ![blea screenshot1](./images/blea_screenshot1.jpg)
 
-On this page you will see the modules already included.
+On this page you can see the modules already included.
 
-On the top part of this page, you have several buttons.
+On the upper part of this page, you have several buttons.
 
-- Inclusion button: this button allows to put Jeedom in Inclusion mode.
-- Exclusion button: this button allows to put Jeedom in Exclusion mode.
-- Bouton Configuration : ce bouton permet d’ouvrir la fenêtre de configuration du plugin.
-- Bouton Santé : ce bouton permet d’avoir un aperçu Santé de tous vos modules.
+- Inclusion button : this button allows to put Jeedom in Inclusion.
+- Exclusion button : this button allows to put Jeedom in Exclusion.
+- Configuration button : this button opens the plugin configuration window.
+- Health button : this button allows you to have a Health overview of all your modules.
 
 ![blea screenshot2](./images/blea_screenshot2.jpg)
 
-Equipement
-==========
+# Equipement
 
-Lorsque que vous cliquez sur un de vos modules, vous arrivez sur la page de configuration de celui-ci. Comme partout dans Jeedom vous pouvez ici sur la partie gauche :
+When you click on one of your modules, you arrive on the configuration page of this module. Like everywhere in Jeedom you can here on the left side :
 
-- Give the module a name.
+- Give a name to the module.
 - Activate / make it visible or not.
-- Choose his parent object.
-- Give it a category.
-- Definir un delai de surveillance de communication pour certains modules.
-- Put a comment.
+- Choose your parent object.
+- Assign a category.
+- Define a communication monitoring delay for certain modules.
+- Post a comment.
 
-On the right side you will find:
+On the right side you will find :
 
-- Le profil de l’équipement (généralement auto détecté si le module le permet).
-- Choisir un modèle si pour ce profil plusieurs modèles sont disponibles.
-- Voir le visuel.
+- The profile of the equipment (generally auto detected if the module allows it).
+- Choose a model if for this profile several models are available.
+- See the visual.
 
-Quels modules
-=============
+# Which modules
 
-Pour le moment, seuls certains modules spécifiques sont reconnus.
+For the moment, only certain specific modules are recognized.
 
-Cas des NIU
------------
+## NIU case
 
-Les NIU s’incluent très facilement, mettez Jeedom en Inclusion puis appuyer sur le bouton (aussi simple que cela).
+NIU is very easy to include, put Jeedom in Inclusion then press the button (as simple as that).
 
-Une fois le NIU créé, vous obtiendrez ceci :
+Once the NIU is created, you will get this :
 
 ![blea screenshot3](./images/blea_screenshot3.jpg)
 
-Vous aurez ainsi 4 commandes :
+You will have 4 orders :
 
 ![blea commands niu](./images/blea_commands_niu.jpg)
 
-- BoutonId : donne une représentation numérique du type d’appui (idéal pour les scénarios)
-  - 01 : simple appui
-  - 02 : double appui
-  - 03 : appui long
+- ButtonId : gives a digital representation of the type of support (ideal for scenarios)
+  - 01 : simple press
+  - 02 : double support
+  - 03 : long press
   - 04 : relachement
-- Boutons : donne une représentation textuelle du type d’appui
-- Rssi : donne la valeur d’intensité du signal
-- Batterie : donne la valeur de la batterie
+- Buttons : gives a textual representation of the type of support
+- Rssi : gives the signal strength value
+- Drums : gives the battery value
 
-Cas d’autres modules
---------------------
+## Other modules
 
-D’autres modules peuvent être inclus du type beacon NUT, bracelet fitbit, etc.
+Other modules can be included such as beacon NUT, fitbit bracelet, etc.
 
-Ils permettront une détection de présence avec une détection sur un
-créneau de 1 minute.
+They will allow presence detection with detection on a 1 minute slot.
 
-Of course many other modules will be added.
+Obviously many other modules will be added.
 
-Configuration d'antennes distantes
-================================
+# Remote antenna configuration
 
-Le bluetooth ayant une portée relativement limitée, il est possible qu'une partie de votre habitation soit hors portée de votre antenne selon l'emplacement de votre box Jeedom.
-Mais il existe une solution: il est possible d'étendre le réseau en installant des antennes supplémentaires.
+Bluetooth has a relatively limited range, it is possible that part of your home is out of range of your antenna depending on the location of your Jeedom box.
+But there is a solution: it is possible to extend the network by installing additional antennas.
 
-Le plus simple est d'utiliser un raspBerry pi (existant ou dédié selon l'équipement que vous avez déjà). On va supposer ici que le raspBerry est déjà installé avec une raspbian et que ssh ainsi que le bluetooth sont activé.
+The simplest is to use a raspBerry pi (existing or dedicated depending on the equipment you already have). We will assume here that the raspBerry is already installed with a raspbian and that ssh as well as bluetooth are activated.
 
-Créé l'antenne
---------------
+## Created the antenna
 
-Vous devez vous rendre sur la page du plugin (Plugins > Protocole Domotique) et cliquer sur "Antennes"
+You must go to the plugin page (Plugins> Home Automation Protocol) and click on "Antennas"
 
-1) cliquez sur "Ajouter"
-2) choisisez un nom
-3) Entrez l'ip et le port (22 par défaut)
-4) Entrez le nom d'utilisateur ("pi" par défaut) et le mot de passe
-5) Entrez l'équipement bluetooth sur le pi ("hci0" sur une installation par défaut)
-6) Sauvegardez
+1) click on "Add"
+2) choose a name
+3) Enter the ip and port (22 by default)
+4) Enter the user name ("pi" by default) and the password
+5) Enter the bluetooth equipment on the pi ("hci0" on a default installation)
+6) Save
 
-Installation du démon
-----------------------
+## Installation of the daemon
 
-Si il n'y a pas eu d'erreur et que votre antenne est bien créée dans le plugin, il faut maintenant installer les dépendances nécesaires et lancer le démon sur l'antenne qui va se charger de faire le lien entre les équipements bluetooth à portée de l'antenne et le plugin (et donc Jeedom).
+If there was no error and your antenna is well created in the plugin, you must now install the necessary dependencies and launch the daemon on the antenna which will take care of making the link between the Bluetooth devices at range of the antenna and the plugin (and therefore Jeedom).
 
-1) Cliquez sur le bouton "Envoyer les fichiers", cela peut prendre un peu de temps, patientez. Un bandeau vert confirmant la réussite va apparaître, rouge s'il y a eu un problème. Dans ce cas, vérifiez le log "Blea", vérifiez la configuration (ip, user, password, ...)
-2) Cliquez ensuite sur le bouton "Lancer les dépendances". De nouveau, cela peut prendre du temps, patientez. Un bandeau vert confirmera la réussite ou rouge sinon (pareil, vérifiez la log Blea)
-3) Optionelle, vous pouvez récupérer manuellement le log d'installation des dépendances en cliquant sur "Log dépendances" et vérfier la log, un fichier log spécifique sera disponnible dans la config du plugin.
-4) Si tout c'est bien déroulé, vous pouvez cliquer sur "Lancer le démon", après maximum une minute la date de dernière communication devrait se mettre à jour, cela veut dire que le démon communique correctement avec le plugin BLEA.
-5) Dernière étape optionnelle mais recommandée: activez la gestion automatique du démon en cliquant sur le bouton correspondant. Cela fera en sorte que le plugin tentera de relancer automatiquement le démon distant en cas de perte de connexion (pratique si votre pi distant a été temporairement débranché du secteur ou qu'il a été redémarré suite à des mises à jours).
+1) Click on the "Send files" button, it may take a little time, please wait. A green banner confirming success will appear, red if there has been a problem. In this case, check the "Blea" log, check the configuration (ip, user, password, ...)
+2) Then click on the "Launch dependencies" button". Again, it may take time, please wait. A green banner will confirm the success or red if not (same, check the Blea log)
+3) Optional, you can manually recover the dependencies installation log by clicking on "Dependencies log" and check the log, a specific log file will be available in the plugin config.
+4) If all goes well, you can click on "Launch the daemon", after a maximum of one minute the date of the last communication should update, this means that the daemon is communicating correctly with the BLEA plugin.
+5) Last optional but recommended step: activate the automatic management of the daemon by clicking on the corresponding button. This will cause the plugin to automatically try to restart the remote daemon in the event of a connection loss (useful if your remote pi has been temporarily disconnected from the mains or has been restarted following updates).
 
-Changelog
-=========
 
-Changelog détaillé :
-<https://github.com/jeedom/plugin-blea/commits/master>
+# List of compatible equipment
 
-Liste des équipements compatibles
-=================================
-
-<https://jeedom.github.io/documentation/#equipment>
+You can find [here](https://doc.jeedom.com/en_US/blea/equipement.compatible) the list of compatible equipment

@@ -1,95 +1,104 @@
-# 22/08/2019
-- Rajout du Divoom Tivoo
-- Améliorations mineures
+# Changelog Bluetooth Werbung
 
-# 19/08/2019
-- Rajout d'un message pour penser à changer le niveau de l'api dans Jeedom si vous utilisez des antennes
-- Rajout de certains appareils DIVOOM (attention ils nécessitent une relance des dépendances). Je ne le rajoute pas en contrôle de dépendances car ce sont justes des dépendances spécifiques pour eux, inutile donc de forcer tout le monde à relancer les dépendances)
-- Rajout du niveau de batterie sur les cleargrass
-- Améliorations mineures
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 30/07/2019
-- Correction d'un bug sur le dotti lié au passage à python3
+# 30.08.2019
+- Hinzufügung eines außergewöhnlichen Managements
 
-# 29/07/2019
-- Fixes mineurs
-- Séparation des devices inconnus sur la page d'équipement
-- Possibilité de supprimer tous les devices inconnus en un clic (uniquement ceux non attribués à un objet)
-- Correction d'un bug sur le scan sélectif "Inconnu"
-- Améliorations globales
+# 22.08.2019
+- Zugabe von Tivoo Divoom
+- Kleinere Verbesserungen
 
-# 20/07/2019
-- Changement de méthode pour l'ensemble de la gamme playbulb (une seule conf et des visuels) plus de dépendances par rapport aux différentes versions (maintenant a l'inclusion on récupére les adresses des diffférentes méthodes)
-- Rajout de la miscale V2 avec poids et impedance (et tout un tas de mesures calculées). Gestion des utilisateurs pour les calculs (dans le bouton config avancée)
-- Changement de la miscale V1 (il faudra recréer les users) mais on gagne quelques infos en plus
-- Pour les playbulbs je recommande une reinclusion de tous les devices
-- Correction d'un bug sur le graph réseau en mode sans local
-- Correction d'un bug sur la régénération des commandes sur demande
-- A l'inclusion les antennes d'émissions et de réceptions sont automatiquement remplies par l'antenne ayant permis l'inclusion
-- Changement de la notion de présence (plus besoin de repetion toujours, plus besoin de return state et return state time) maintenant une commande présence par antenne et local et une command presence dependant des autres
-- Réglage possible maintenant du scan interval et du nombre de scan ou un device n'est pas visible pour le déclarer absent (gain de détection présence et surtout absence)
-- Possibilité de mettre à jour toutes les antennes en un clic
-- Possibilité de redémarrer toutes les antennes en un clic
-- Lors d'une mise à jour du plugin les antennes sont mises à jour et redémarrer (peut parfois échouer)
-- Passage en scan passif sauf au learn (avec mémoire de la conf jeedom pour savoir qui est qui)
-- Passage à Python3
-- Modification perso de bluepy, avec meilleurs gestion d'erreur (peut etre plus de blocage sur proxmow, vmware)
-- Rajout d'un timeout de connection au sein meme de bluepy pour éviter qu'une tentative de connection tourne en boucle
-- Si le démon Local est en status NOK alors les présences locales sont mises a 0
-- Si une antenne n'a pas communiqué depuis plus d'une minute alors les présences de cette antenne sont mises à 0
-- Rajout de la possibilité de récupérer les nouvelles configurations sans mettre à jour le plugin
-- Rajout d'un mode passif ou actif pour le scan
-- Réorganisation de la page équipement
-- Rajout d'une option nombre de scan pour considérer absent spécifique à l'équipement (si défini remplacera la globale pour cet équipement)
-- Ajout de la possibilité de définir en un clic tous les équipements sur une antenne ou sur local
-- Possibilité de choisir exactement le type de produit à inclure lors d'un scan (avec possibilité de choisir tous)
+# 19.08.2019
+- Hinzufügen einer Nachricht, um zu überlegen, ob die API-Ebene in Jeedom geändert werden soll, wenn Sie Antennen verwenden
+- Hinzufügen einiger DIVOOM-Geräte (beachten Sie, dass für sie ein Neustart der Abhängigkeiten erforderlich ist). Ich füge es nicht in die Abhängigkeitssteuerung ein, da es sich nur um bestimmte Abhängigkeiten für sie handelt, sodass nicht jeder gezwungen werden muss, die Abhängigkeiten neu zu starten)
+- Hinzufügen von Batteriestand auf Cleargrass
+- Kleinere Verbesserungen
 
-# 26/06/2019
-- Rajout du xiaomi cleargrass
-- Rajout du lywsd02 Xiaomi
-- Début de gestion dynamique de modèles
-- Début réécriture gamme playbulb pour plus avoir de différence en fonction des firmwares
-- Correction bug sur status démon dans certains cas
-- Deblocage des fonctions refresh / delai : chaque user fait ce qu'il veut (attention quand même)
-- NB : plus besoin de refresh pour les xiaomi HT les miflora : gain de batterie, meilleur portée, plus de datas. Je recommande de ne pas activer le refresh forcé qui n'est plus necessaire sauf si votre device semble ne pas advertiser correctement
+# 30.07.2019
+- Korrektur eines Fehlers auf dem Dotti im Zusammenhang mit dem Übergang zu Python3
 
-# 22/05/2019
+# 29.07.2019
+- Moll behoben
+- Trennung unbekannter Geräte auf der Geräteseite
+- Möglichkeit, alle unbekannten Geräte mit einem Klick zu löschen (nur diejenigen, die keinem Objekt zugewiesen sind)
+- Korrektur eines Fehlers im selektiven Scan "Unbekannt"
+- Allgemeine Verbesserungen
 
-- Passage de la page d'équipement en V4 compliant.
-- Amélioration des xiaomi hygrothermographe (plus besoin de connection pour les datas) merci @kipk
-- Amélioration des miflora (plus besoin de connection pour les datas)
+# 20.07.2019
+- Methodenänderung für den gesamten Playbulb-Bereich (nur ein Conf und Visuals) mehr Abhängigkeiten im Vergleich zu den verschiedenen Versionen (jetzt bei der Aufnahme stellen wir die Adressen der verschiedenen Methoden wieder her)
+- Zugabe von miscal V2 mit Gewicht und Impedanz (und einer ganzen Reihe berechneter Maße). Benutzerverwaltung für Berechnungen (in der erweiterten Konfigurationsschaltfläche)
+- Änderung von miscal V1 (es wird notwendig sein, die Benutzer neu zu erstellen), aber wir erhalten einige weitere Informationen
+- Für Glühbirnen empfehle ich die Wiedereinschaltung aller Geräte
+- Korrektur eines Fehlers im Netzwerkdiagramm im lokallosen Modus
+- Behebung eines Fehlers bei der Regeneration von Bestellungen auf Anfrage
+- Beim Einschluss werden die Sende- und Empfangsantennen automatisch von der Antenne ausgefüllt, die den Einschluss aktiviert hat
+- Änderung des Anwesenheitsbegriffs (keine Notwendigkeit für Wiederholung immer, keine Notwendigkeit für Rückkehrzustand und Rückkehrzustandszeit) jetzt ein Anwesenheitsbefehl durch Antenne und lokal und ein Anwesenheitsbefehl abhängig von den anderen
+- Eine jetzt mögliche Anpassung des Scanintervalls und der Anzahl der Scans oder eines Geräts ist nicht sichtbar, um es als nicht vorhanden zu deklarieren (Anwesenheit und insbesondere Abwesenheit der Verstärkungserkennung))
+- Möglichkeit, alle Antennen mit einem Klick zu aktualisieren
+- Möglichkeit, alle Antennen mit einem Klick neu zu starten
+- Während eines Updates des Plugins werden die Antennen aktualisiert und neu gestartet (kann manchmal ausfallen)
+- Passiver Scan außer lernen (mit Erinnerung an die Jeedom conf zu wissen, wer wer ist)
+- Wechseln zu Python3
+- Persönliche Änderung von Bluepy mit besserer Fehlerbehandlung (möglicherweise mehr Blockierung auf Proxmow, VMware)
+- Hinzufügen eines Verbindungszeitlimits innerhalb von bluepy selbst, um zu verhindern, dass ein Verbindungsversuch wiederholt wird
+- Wenn sich der lokale Dämon im NOK-Status befindet, werden die lokalen Präsenzen auf 0 gesetzt
+- Wenn eine Antenne länger als eine Minute nicht kommuniziert hat, wird das Vorhandensein dieser Antenne auf 0 gesetzt
+- Hinzu kommt die Möglichkeit, neue Konfigurationen abzurufen, ohne das Plugin zu aktualisieren
+- Hinzufügen eines passiven oder aktiven Modus für den Scan
+- Neuordnung der Ausrüstungsseite
+- Hinzufügen einer Reihe von Scanoptionen, um zu berücksichtigen, dass das Gerät nicht vorhanden ist (falls definiert, wird das globale für dieses Gerät ersetzt)
+- Hinzu kommt die Möglichkeit, mit einem Klick alle Geräte auf einer Antenne oder auf lokaler Ebene zu definieren
+- Möglichkeit, genau den Produkttyp auszuwählen, der während eines Scans aufgenommen werden soll (mit der Möglichkeit, alle auszuwählen)
 
-# 09/03/2019
+# 26.06.2019
+- Hinzufügen des Xiaomi Cleargrass
+- Zugabe von Xiaomi lywsd02
+- Beginn des dynamischen Modellmanagements
+- Beginnen Sie mit dem Umschreiben des Playbulb-Bereichs, um je nach Firmware größere Unterschiede zu erzielen
+- Fehlerbehebung beim Dämonenstatus in einigen Fällen
+- Aktualisierungs- / Verzögerungsfunktionen entsperren : Jeder Benutzer macht, was er will (seien Sie jedoch vorsichtig)
+- NB : Für Xiaomi HT Miflora ist keine Aktualisierung mehr erforderlich : Batteriegewinn, bessere Reichweite, mehr Daten. Ich empfehle, die erzwungene Aktualisierung nicht zu aktivieren, die nicht mehr erforderlich ist, es sei denn, Ihr Gerät scheint nicht richtig zu werben
 
-- Ajout de la gestion automatique du daemon sur les antennes.
-- Gestion temp négative
-- Correction sur le rafraichissement des nuts (info batterie)
+# 22.05.2019
 
-# 16/01/2019
+- Wechseln Sie von der Ausrüstungsseite zu kompatiblem V4.
+- Verbesserung des Xiaomi Hygrothermographen (keine Verbindung für Daten erforderlich) Vielen Dank an @kipk
+- Verbesserung der Miflora (keine Verbindung für Daten erforderlich)
 
-- Correction d'un soucis sur le maximum possible d'une commande
+# 03/09/2019
 
-# 07/06/2018
+- Hinzufügung der automatischen Verwaltung des Dämons auf den Antennen.
+- Negatives Temperaturmanagement
+- Korrektur beim Auffrischen der Muttern (Batterieinfo)
 
-- Amélioration du script de dépendances.
-- Suppressions du check dépendances qui restera vert quoiqu'il en soit en attendant (pensez lors de l'installation à lancer les dépendances)
+# 16.01.2019
 
-# 06/04/2018
+- Korrektur einer Sorge um die maximal mögliche Reihenfolge
 
-- Correction probable d'un bug de refresh notification sur Hygrothermographe et Miflora (necessite probablement une relance des dépendances pour les gens impactés)
+# 06/07/2018
 
-# 28/03/2018
+- Verbessertes Abhängigkeitsskript.
+- Entfernen der Abhängigkeitsprüfung, die während des Wartens ohnehin grün bleibt (denken Sie während der Installation daran, die Abhängigkeiten zu starten)
 
-- rajout conf dreamscreen
-- modification du démon pour préciser les logs
-- modification de la reconnaissance des MI_SCALE V1
-- Watchdog bluepy-helper (en essai)
+# 04/06/2018
 
-# 10/02/2018
+- Wahrscheinliche Korrektur eines Aktualisierungsfehler-Benachrichtigungsfehlers bei Hygrothermograph und Miflora (erfordert wahrscheinlich einen Neustart der Abhängigkeiten für die betroffenen Personen)
 
-- Correction d'un bug sur la modal de graph réseau si jamais un équipement n'avait pas d'objet
+# 28.03.2008
 
-# 01/03/2018
+- füge conf dreamscreen hinzu
+- Änderung des Dämons zur Angabe der Protokolle
+- Änderung der Erkennung von MI_SCALE V1
+- Watchdog Bluepy-Helfer (im Prozess)
 
-- Rajout de la conf pour le thermomètre/hygrometre avec écran Xiaomi
-- Rajout de certaines confs awox mesh
+# 02/10/2018
+
+- Korrektur eines Fehlers im Netzwerkgraphen modal, wenn ein Gerät kein Objekt hatte
+
+# 03/01/2018
+
+- Hinzufügen der Conf für das Thermometer / Hygrometer mit Xiaomi-Bildschirm
+- Zugabe von Awox Mesh Confs

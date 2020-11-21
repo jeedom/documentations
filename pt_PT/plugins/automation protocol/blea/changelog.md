@@ -1,98 +1,104 @@
+# Changelog Bluetooth Anúncio
+
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
 # 30/08/2019
-- Rajout d'une gestion d'exception
+- Adição de gestão excepcional
 
 # 22/08/2019
-- Rajout du Divoom Tivoo
-- Améliorations mineures
+- Adição de Tivoo Divoom
+- Pequenas melhorias
 
 # 19/08/2019
-- Rajout d'un message pour penser à changer le niveau de l'api dans Jeedom si vous utilisez des antennes
-- Rajout de certains appareils DIVOOM (attention ils nécessitent une relance des dépendances). Je ne le rajoute pas en contrôle de dépendances car ce sont justes des dépendances spécifiques pour eux, inutile donc de forcer tout le monde à relancer les dépendances)
-- Rajout du niveau de batterie sur les cleargrass
-- Améliorations mineures
+- Adição de uma mensagem para pensar em alterar o nível da API no Jeedom se você usar antenas
+- Adição de alguns dispositivos DIVOOM (observe que eles exigem um relançamento de dependências). Eu não o adiciono no controle de dependência, porque essas são apenas dependências específicas para eles, portanto, não é necessário forçar todos a reiniciar as dependências)
+- Adição do nível da bateria no capim claro
+- Pequenas melhorias
 
 # 30/07/2019
-- Correction d'un bug sur le dotti lié au passage à python3
+- Correção de um bug no dotti vinculado à transição para python3
 
 # 29/07/2019
-- Fixes mineurs
-- Séparation des devices inconnus sur la page d'équipement
-- Possibilité de supprimer tous les devices inconnus en un clic (uniquement ceux non attribués à un objet)
-- Correction d'un bug sur le scan sélectif "Inconnu"
-- Améliorations globales
+- Menor fixo
+- Separação de dispositivos desconhecidos na página do equipamento
+- Capacidade de excluir todos os dispositivos desconhecidos em um clique (apenas aqueles não atribuídos a um objeto)
+- Correção de um erro na verificação seletiva "Desconhecido"
+- Melhorias gerais
 
 # 20/07/2019
-- Changement de méthode pour l'ensemble de la gamme playbulb (une seule conf et des visuels) plus de dépendances par rapport aux différentes versions (maintenant a l'inclusion on récupére les adresses des diffférentes méthodes)
-- Rajout de la miscale V2 avec poids et impedance (et tout un tas de mesures calculées). Gestion des utilisateurs pour les calculs (dans le bouton config avancée)
-- Changement de la miscale V1 (il faudra recréer les users) mais on gagne quelques infos en plus
-- Pour les playbulbs je recommande une reinclusion de tous les devices
-- Correction d'un bug sur le graph réseau en mode sans local
-- Correction d'un bug sur la régénération des commandes sur demande
-- A l'inclusion les antennes d'émissions et de réceptions sont automatiquement remplies par l'antenne ayant permis l'inclusion
-- Changement de la notion de présence (plus besoin de repetion toujours, plus besoin de return state et return state time) maintenant une commande présence par antenne et local et une command presence dependant des autres
-- Réglage possible maintenant du scan interval et du nombre de scan ou un device n'est pas visible pour le déclarer absent (gain de détection présence et surtout absence)
-- Possibilité de mettre à jour toutes les antennes en un clic
-- Possibilité de redémarrer toutes les antennes en un clic
-- Lors d'une mise à jour du plugin les antennes sont mises à jour et redémarrer (peut parfois échouer)
-- Passage en scan passif sauf au learn (avec mémoire de la conf jeedom pour savoir qui est qui)
-- Passage à Python3
-- Modification perso de bluepy, avec meilleurs gestion d'erreur (peut etre plus de blocage sur proxmow, vmware)
-- Rajout d'un timeout de connection au sein meme de bluepy pour éviter qu'une tentative de connection tourne en boucle
-- Si le démon Local est en status NOK alors les présences locales sont mises a 0
-- Si une antenne n'a pas communiqué depuis plus d'une minute alors les présences de cette antenne sont mises à 0
-- Rajout de la possibilité de récupérer les nouvelles configurations sans mettre à jour le plugin
-- Rajout d'un mode passif ou actif pour le scan
-- Réorganisation de la page équipement
-- Rajout d'une option nombre de scan pour considérer absent spécifique à l'équipement (si défini remplacera la globale pour cet équipement)
-- Ajout de la possibilité de définir en un clic tous les équipements sur une antenne ou sur local
-- Possibilité de choisir exactement le type de produit à inclure lors d'un scan (avec possibilité de choisir tous)
+- Mudança de método para todo o intervalo de playbulb (apenas um conf e recursos visuais) mais dependências em comparação com as diferentes versões (agora na inclusão, recuperamos os endereços dos diferentes métodos)
+- Adição de miscal V2 com peso e impedância (e várias medidas calculadas). Gerenciamento de usuários para cálculos (no botão de configuração avançada)
+- Alteração do miscal V1 (será necessário recriar os usuários), mas obtemos mais algumas informações
+- Para lâmpadas de reprodução, recomendo uma reinclusão de todos os dispositivos
+- Correção de um bug no gráfico de rede no modo sem locall
+- Correção de um erro na regeneração de ordens a pedido
+- Na inclusão, as antenas de transmissão e recepção são preenchidas automaticamente pela antena que permitiu a inclusão
+- Mudança da noção de presença (sem necessidade de repetição sempre, sem necessidade de estado de retorno e hora do estado de retorno) agora um comando de presença por antena e local e um comando de presença dependendo dos outros
+- Agora é possível fazer o ajuste do intervalo de varredura e o número de varreduras ou um dispositivo não é visível para declará-lo ausente (presença de detecção de ganho e principalmente ausência)
+- Possibilidade de atualizar todas as antenas em um clique
+- Possibilidade de reiniciar todas as antenas em um clique
+- Durante uma atualização do plug-in, as antenas são atualizadas e reiniciadas (às vezes podem falhar)
+- Varredura passiva, exceto aprender (com memória do Jeedom conf para saber quem é quem)
+- Mudando para Python3
+- Modificação pessoal do bluepy, com melhor tratamento de erros (talvez mais bloqueio no proxmow, vmware)
+- Adição de um tempo limite de conexão no próprio bluepy para impedir que uma tentativa de conexão faça um loop
+- Se o daemon Local estiver no status NOK, as presenças locais serão definidas como 0
+- Se uma antena não se comunicar por mais de um minuto, a presença dessa antena é definida como 0
+- Adição da possibilidade de recuperar novas configurações sem atualizar o plugin
+- Adição de um modo passivo ou ativo para a verificação
+- Reorganização da página de equipamentos
+- A adição de várias opções de varredura para considerar ausente específica para o equipamento (se definido substituirá a global para este equipamento)
+- Além da possibilidade de definir em um clique todo o equipamento em uma antena ou em local
+- Capacidade de escolher exatamente o tipo de produto a ser incluído durante uma digitalização (com a possibilidade de escolher todas)
 
 # 26/06/2019
-- Rajout du xiaomi cleargrass
-- Rajout du lywsd02 Xiaomi
-- Début de gestion dynamique de modèles
-- Début réécriture gamme playbulb pour plus avoir de différence en fonction des firmwares
-- Correction bug sur status démon dans certains cas
-- Deblocage des fonctions refresh / delai : chaque user fait ce qu'il veut (attention quand même)
-- NB : plus besoin de refresh pour les xiaomi HT les miflora : gain de batterie, meilleur portée, plus de datas. Je recommande de ne pas activer le refresh forcé qui n'est plus necessaire sauf si votre device semble ne pas advertiser correctement
+- Adicionando o xiaomi cleargrass
+- Adição de Xiaomi lywsd02
+- Início do gerenciamento dinâmico de modelos
+- Comece a reescrever a faixa do playbulb para ter mais diferença, dependendo dos firmwares
+- Correção de bug no status demon em alguns casos
+- Desbloqueando as funções de atualização / atraso : cada usuário faz o que quer (tenha cuidado)
+- NB : não há mais necessidade de atualização para o xiaomi HT miflora : ganho de bateria, melhor alcance, mais dados. Eu recomendo não ativar a atualização forçada que não é mais necessária, a menos que seu dispositivo pareça não anunciar corretamente
 
 # 22/05/2019
 
-- Passage de la page d'équipement en V4 compliant.
-- Amélioration des xiaomi hygrothermographe (plus besoin de connection pour les datas) merci @kipk
-- Amélioration des miflora (plus besoin de connection pour les datas)
+- Mudar da página do equipamento para V4 compatível.
+- Melhoria do higrotermógrafo xiaomi (sem necessidade de conexão de dados) obrigado @kipk
+- Melhoria do miflora (sem necessidade de conexão de dados)
 
 # 09/03/2019
 
-- Ajout de la gestion automatique du daemon sur les antennes.
-- Gestion temp négative
-- Correction sur le rafraichissement des nuts (info batterie)
+- Adição do gerenciamento automático do daemon nas antenas.
+- Gerenciamento de temperatura negativo
+- Correção na atualização das porcas (informações da bateria)
 
 # 16/01/2019
 
-- Correction d'un soucis sur le maximum possible d'une commande
+- Correção de uma preocupação com a ordem máxima possível
 
-# 07/06/2018
+# 06/06/2018
 
-- Amélioration du script de dépendances.
-- Suppressions du check dépendances qui restera vert quoiqu'il en soit en attendant (pensez lors de l'installation à lancer les dépendances)
+- Script de dependência aprimorado.
+- Remoção da verificação de dependências que permanecerá verde de qualquer maneira enquanto aguarda (lembre-se durante a instalação para iniciar as dependências)
 
-# 06/04/2018
+# 06/06/2018
 
-- Correction probable d'un bug de refresh notification sur Hygrothermographe et Miflora (necessite probablement une relance des dépendances pour les gens impactés)
+- Correção provável de um bug de atualização de notificação no Hygrothermographe e Miflora (provavelmente requer o relançamento de dependências para as pessoas afetadas))
 
 # 28/03/2018
 
-- rajout conf dreamscreen
-- modification du démon pour préciser les logs
-- modification de la reconnaissance des MI_SCALE V1
-- Watchdog bluepy-helper (en essai)
+- adicionar conf dreamscreen
+- modificação do daemon para especificar os logs
+- modificação do reconhecimento do MI_SCALE V1
+- Watchdog bluepy-helper (em teste)
 
 # 10/02/2018
 
-- Correction d'un bug sur la modal de graph réseau si jamais un équipement n'avait pas d'objet
+- Correção de um bug no gráfico de rede modal se algum equipamento não tiver objeto
 
-# 01/03/2018
+# 01/01/2018
 
-- Rajout de la conf pour le thermomètre/hygrometre avec écran Xiaomi
-- Rajout de certaines confs awox mesh
+- Adição do conf para o termômetro / higrômetro com tela Xiaomi
+- Adição de algumas confs de malha awox

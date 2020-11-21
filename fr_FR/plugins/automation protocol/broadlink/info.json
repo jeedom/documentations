@@ -1,7 +1,13 @@
 {
     "id": "broadlink",
     "name": "Broadlink",
-    "description": "Plugin ajoutant le support de certains produits Broadlink comme (le RM, le A1 etccc)",
+    "description": {
+        "fr_FR": "Plugin ajoutant le support de certains produits Broadlink comme (le RM, le A1 etccc)",
+        "en_US": "Plugin adding support for some Broadlink products such as (RM, A1 etccc)",
+        "es_ES": "Complemento que agrega soporte para algunos productos Broadlink como (RM, A1, etc.cc)",
+        "de_DE": "Plugin, das Unterstützung für einige Broadlink-Produkte wie (RM, A1 usw.) hinzufügt",
+        "pt_PT": "Plugin adicionando suporte para alguns produtos Broadlink, como (RM, A1 etccc)"
+    },
     "licence": "AGPL",
     "author": "Ludovic",
     "require": "3.0",
@@ -9,5 +15,21 @@
     "hasDependency": true,
     "hasOwnDeamon": true,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/broadlink\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/broadlink\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/broadlink\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }
