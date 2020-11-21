@@ -15,11 +15,11 @@
 # 2019-06-24
 
 - V4-Ausrüstungsseite
-- Teilverwaltung von Kodi18 (wird gerade für den Addon-Teil auf der Kodi-Seite geändert)
+- Teilverwaltung Kodi18 (wird gerade für den Addon-Teil auf der Kodi-Seite geändert)
 
 # Version 2 - 2015-04-06 21:57:23
 
-- Hinzufügen von Deckblättern Umschreiben des Ereignisteils Umblättern des Textes für den Favicon-Titel vom Typ Neufassung der Konfigurationsseite Entfernen des Begriffs playerID Umbau des mobilen Widgets Codeverbesserung Fehlerkorrekturen Verschiebung des Kodi-Addons (send json, more d 'ids)
+- Hinzufügen von Deckblättern Umschreiben des Text-Scrolling-Ereignisteils für den Titel des Favicon-Typs Neugestaltung der Konfigurationsseite Entfernen des Konzepts der playerID Neugestaltung des mobilen Widgets Codeverbesserung Fehlerbehebungen Aktualisierung des Kodi-Addons (json senden, mehr 'ids)
 
 # Version 2.1 - 06.04.2015 22:25:15
 

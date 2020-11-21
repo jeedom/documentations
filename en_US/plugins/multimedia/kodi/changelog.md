@@ -15,11 +15,11 @@
 # 2019-06-24
 
 - V4 equipment page
-- Partial management of Kodi18 (in the process of being changed for the addons part on the Kodi side)
+- Partial management Kodi18 (in the process of being changed for the addons part on the Kodi side)
 
 # Version 2 - 2015-04-06 21:57:23
 
-- Addition of covers Rewriting of the event Text scrolling for the Favicon title of type Redesign of the config page Deletion of the notion of playerID Redesign of the mobile widget Code improvement Bug corrections Shift of the Kodi addon (send json, more d 'ids)
+- Addition of covers Rewrite of the Text scrolling event part for the Favicon type title Redesign of the config page Removal of the concept of playerID Redesign of the mobile widget Code improvement Bug fixes Update of the Kodi addon (send json, more 'ids)
 
 # Version 2.1 - 2015-04-06 22:25:15
 

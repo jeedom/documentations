@@ -158,8 +158,8 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.1GANGSHUTTER1.png" width="60" />|Schneider|PlusLink Verschlusseinsatz|Volets||[Dokumentation](https://download.schneider-electric.com/files?p_enDocType=System+user+guide&p_File_Name=Merten_PL_Wiser_TIs_DE.pdf&p_Doc_Ref=Merten_PL_Wiser_TIs_DE)<br/>|
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.2GANGSWITCH2.png" width="60" />|Schneider|Doppelschalter||||
-|<img src="../../de_DE/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Klügerer Fenster- / Türsensor|Ouverture|!! Achtung das Modul funktioniert nicht !!|[Dokumentation](https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=MFR1569800.pdf&p_Doc_Ref=MFR1569800)<br/>|
-|<img src="../../de_DE/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Klügerer Wasserlecksensor|Fuite|!! Achtung das Modul funktioniert nicht !!||
+|<img src="../../de_DE/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Klügerer Fenster- / Türsensor|Ouverture||[Dokumentation](https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=MFR1569800.pdf&p_Doc_Ref=MFR1569800)<br/>|
+|<img src="../../de_DE/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Klügerer Wasserlecksensor|Fuite|||
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Wiser Exxact Dimmer rotierend|Variateur|||
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|Klügeres Mikrodimmermodul|Variateur|||
 
@@ -226,4 +226,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-11-20 01:32:03
+2020-11-21 01:32:03

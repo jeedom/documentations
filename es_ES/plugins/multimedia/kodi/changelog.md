@@ -15,11 +15,11 @@
 # 2019-06-24
 
 - Página del equipo V4
-- Gestión parcial de Kodi18 (en el proceso de modificación para la parte de complementos en el lado de Kodi)
+- Gestión parcial de Kodi18 (en proceso de modificación para la parte de complementos en el lado de Kodi)
 
 # Versión 2 - 2015-04-06 21:57:23
 
-- Adición de portadas Reescritura del evento Desplazamiento de texto para el título de tipo Favicon Rediseño de la página de configuración Eliminación de la noción de ID de jugador Rediseño del widget móvil Mejora de código Correcciones de errores Cambio del complemento Kodi (enviar json, más d 'ids)
+- Adición de portadas Reescritura de la parte del evento de desplazamiento de texto para el título de tipo Favicon Rediseño de la página de configuración Eliminación del concepto de playerID Rediseño del widget móvil Mejora de código Corrección de errores Actualización del complemento Kodi (enviar json, más 'ids)
 
 # Versión 2.1 - 2015-04-06 22:25:15
 

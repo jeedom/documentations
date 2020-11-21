@@ -7,7 +7,7 @@
 # 2019.08.28
 - verbesserte Widgets
 - Panel Verbesserung
-- Übergang zu einem Dämon (Beleben bei Bedarf wiederbeleben)
+- Übergang zu einem Dämon (bei Bedarf Abhängigkeiten wiederbeleben)
 - Upgrade vom LMS-Plugin auf 2.1.1
 - Verwaltung von Jingles hinzugefügt
 - Fügen Sie eine Option hinzu, um am Anfang eines tts ein Leerzeichen hinzuzufügen

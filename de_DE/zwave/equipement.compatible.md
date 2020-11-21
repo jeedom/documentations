@@ -366,6 +366,7 @@
 |<img src="../../de_DE/zwave/images/271.4609.4096_fgcd001.co.sensor.jpg" width="60" />|Fibaro|CO-Sensor FGCD-001|Rauch|||
 |<img src="../../de_DE/zwave/images/271.4609.4097_fgcd001.co.sensor.jpg" width="60" />|Fibaro|CO-Sensor FGCD-001|Rauch|||
 |<img src="../../de_DE/zwave/images/271.4865.4096_fgt001.heat.controller.jpg" width="60" />|Fibaro|FGT-001 WÄRMEREGLER|Thermostat|||
+|<img src="../../de_DE/zwave/images/271.4865.4097_fgt001.heat.controller.jpg" width="60" />|Fibaro|FGT-001 WÄRMEREGLER|Thermostat|||
 ||Fibaro|FGS-221 Doppelte Last|Micromodule|Dieses Modul wird im Handel durch den FGS-222 ersetzt|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
 ||Fibaro|FGS-221 Doppelte Last|Micromodule|Dieses Modul wird im Handel durch den FGS-222 ersetzt|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
 ||Fibaro|FGS-221 Doppelte Last|Micromodule|Dieses Modul wird im Handel durch den FGS-222 ersetzt|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
@@ -894,4 +895,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-11-20 01:08:10
+2020-11-21 01:08:11

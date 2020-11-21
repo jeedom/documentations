@@ -41,7 +41,7 @@ Esta sección es una de las más importantes que contiene
 -   IP : dirección IP de su kodi (es importante ingresar la ip y no un nombre de host). Si Kodi está en la misma máquina que Jeedom pon 127.0.0.1. Este campo es obligatorio
 -   Puerto : el puerto de comunicación del servidor web en kodi (debe activar el servidor web en kodi). Este campo es obligatorio
 -   Nombre de usuario : el nombre de usuario para iniciar sesión en Kodi si tiene uno
--   Contraseña : la contraseña para conectarse a Kodi si tiene una. (esto va con el nombre de usuario)
+-   Contraseña : la contraseña para conectarse a Kodi si tiene una. (esto va junto con el nombre de usuario)
 -   Dirección MAC : la dirección MAC de la máquina para despertar en lan
 -   Volumen + /- : El paso de incremento o disminución del volumen (1 a 100)
 
@@ -119,7 +119,7 @@ Aquí encontrarás 3 parámetros importantes para configurar :
 
 Kodi sube muchos estatutos :
 
--   Género : sube la lista completa de géneros (solo se puede usar a través de script o virtual)
+-   Género : muestra la lista completa de géneros (solo se puede usar a través de un escenario o virtual)
 -   Hora final : hora de finalización programada, actualizada cuando se inicia el medio y cuando se reanuda la pausa
 -   Estado y statusnb : Sube el estado (uno en texto y el otro en número) Estos son los diferentes valores :
     - Comenzó 0
@@ -135,9 +135,9 @@ Kodi sube muchos estatutos :
     - Currículum de audio 10
     - Parada 18
 -   Medios de estado : volverá a un estado más general (Reproducir, Pausa, Parar, Parar) independientemente del tipo de medio
--   Miniatura : volverá a montar la cubierta (más particularmente el enlace que permite tenerla)
+-   Miniatura : levantará la tapa (más particularmente el enlace que permite tenerlo)
 -   Título : subirá el título de los medios actuales y detalles sobre el episodio y la temporada en el caso de una serie
--   Tipo de medio : volverá al tipo de medio (Serie, Audio, Películas)
+-   Tipo de medio : mostrará el tipo de medio (serie, audio, películas) )
 
 # Detalles del widget 
 
@@ -153,7 +153,7 @@ Aquí hay algunos detalles sobre el widget :
 
 -   D : Parte 1 del título actual
 -   E : Parte 2 del título actual
--   F : Comandos de reproducción (reproducción después de parar, etc.)
+-   F : Comandos de reproducción (reproducir la siguiente parada, etc.))
 -   G : Active el modo de control de volumen o regrese al modo de reproducción
 
 ![partievolume](./images/partievolume.jpg)

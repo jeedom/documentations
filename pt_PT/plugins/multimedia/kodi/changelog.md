@@ -19,7 +19,7 @@
 
 # Versão 2 - 06-04-2015 21:57:23
 
-- Adição de capas Reescrita do evento Rolagem de texto para o título Favicon do tipo Redesign da página de configuração Exclusão da noção de playerID Redesign do widget móvel Melhoria do código Correções de erros Mudança do complemento Kodi (envie json, mais d 'ids)
+- Adição de capas Reescrita da parte do evento de rolagem de texto para o título do tipo Favicon Redesenho da página de configuração Remoção do conceito de playerID Redesenho do widget móvel Melhoria do código Correções de bugs Atualização do complemento Kodi (send json, more 'ids)
 
 # Versão 2.1 - 2015-04-06 22:25:15
 

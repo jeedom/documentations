@@ -1,12 +1,34 @@
 {
     "id": "kodi",
     "name": "Kodi",
-    "description": "Plugin pour envoyer et recevoir des commandes à\/depuis Kodi",
+    "description": {
+        "fr_FR": "Plugin pour envoyer et recevoir des commandes à\/depuis Kodi",
+        "en_US": "Plugin to send and receive orders to \/ from Kodi",
+        "es_ES": "Complemento para enviar y recibir pedidos a \/ desde Kodi",
+        "de_DE": "Plugin zum Senden und Empfangen von Bestellungen an \/ von Kodi",
+        "pt_PT": "Plug-in para enviar e receber comandos de \/ para o Kodi"
+    },
     "licence": "AGPL",
     "author": "Ludovic SARAKHA",
     "require": "3.1",
     "category": "multimedia",
     "hasDependency": true,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/kodi\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/kodi\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/kodi\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

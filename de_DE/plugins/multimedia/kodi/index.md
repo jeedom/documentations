@@ -38,10 +38,10 @@ In diesem Abschnitt finden Sie alle Jeedom-Konfigurationen. Nämlich den Namen I
 
 Dieser Abschnitt ist einer der wichtigsten, die er enthält
 
--   IP : IP-Adresse Ihres Kodi (es ist wichtig, die IP-Adresse und keinen Hostnamen einzugeben). Wenn sich Kodi auf demselben Computer wie jeedom befindet, geben Sie 127.0.0.1 ein. Dieses Feld ist erforderlich
+-   IP : IP-Adresse Ihres Kodi (es ist wichtig, die IP und keinen Hostnamen einzugeben). Wenn sich Kodi auf demselben Computer wie jeedom befindet, geben Sie 127.0.0.1 ein. Dieses Feld ist erforderlich
 -   Hafen : der Kommunikationsport des Webservers in Kodi (Sie müssen den Webserver in Kodi aktivieren). Dieses Feld ist erforderlich
 -   Benutzername : Der Benutzername, um sich bei Kodi anzumelden, falls Sie einen haben
--   Passwort : Das Kennwort für die Verbindung zu Kodi, falls vorhanden. (Dies geht mit dem Benutzernamen)
+-   Passwort : Das Kennwort für die Verbindung zu Kodi, falls vorhanden. (Dies geht zusammen mit dem Benutzernamen)
 -   MAC-Adresse : Die MAC-Adresse des Geräts, das auf LAN aktiviert werden soll
 -   Lautstärke + /- : der Schritt der Inkrementierung oder Dekrementierung des Volumens (1 bis 100)
 
@@ -119,7 +119,7 @@ Hier finden Sie 3 wichtige zu konfigurierende Parameter :
 
 Kodi geht viele Statuten hoch :
 
--   Genre : geht die vollständige Liste der Genres hoch (nur per Skript oder virtuell verwendbar)
+-   Genre : Ruft die vollständige Liste der Genres auf (nur über Szenario oder virtuell verwendbar)
 -   Endzeit : Geplante Endzeit, aktualisiert beim Starten des Mediums und beim Fortsetzen der Pause
 -   Status und Statusnb : Erhöhen Sie den Status (einer im Text, der andere in der Nummer). Dies sind die verschiedenen Werte :
     - 0 gestartet
@@ -135,9 +135,9 @@ Kodi geht viele Statuten hoch :
     - Audio-Lebenslauf 10
     - Stop 18
 -   Statusmedien : wird unabhängig vom Medientyp zu einem allgemeineren Status (Wiedergabe, Pause, Stopp, Stopp) zurückkehren
--   Vorschaubild : wird die Abdeckung wieder zusammenbauen (insbesondere den Link, der es erlaubt, sie zu haben)
+-   Vorschaubild : wird die Abdeckung erhöhen (insbesondere den Link, der es erlaubt, es zu haben)
 -   Titel : wird den Titel der aktuellen Medien und Details zur Episode und der Staffel im Fall einer Serie erhöhen
--   Medientyp : wird die Art der Medien (Serien, Audio, Filme) zurückgehen
+-   Medientyp : zeigt die Art der Medien (Serien, Audio, Filme) )
 
 # Widget-Details 
 
@@ -153,7 +153,7 @@ Hier sind einige Details zum Widget :
 
 -   D. : Teil 1 des aktuellen Titels
 -   E. : Teil 2 des aktuellen Titels
--   F. : Wiedergabebefehle (Wiedergabe nach Stopp usw.)
+-   F. : Wiedergabebefehle (nächsten Stopp abspielen usw.))
 -   G. : Aktivieren Sie den Lautstärkeregler oder kehren Sie zum Wiedergabemodus zurück
 
 ![partievolume](./images/partievolume.jpg)

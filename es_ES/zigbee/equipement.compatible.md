@@ -158,8 +158,8 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/Schneider_Electric.1GANGSHUTTER1.png" width="60" />|Schneider|Inserto de persiana PlusLink|Volets||[Documentación](https://download.schneider-electric.com/files?p_enDocType=System+user+guide&p_File_Name=Merten_PL_Wiser_TIs_DE.pdf&p_Doc_Ref=Merten_PL_Wiser_TIs_DE)<br/>|
 |<img src="../../es_ES/zigbee/images/Schneider_Electric.2GANGSWITCH2.png" width="60" />|Schneider|Interruptor doble||||
-|<img src="../../es_ES/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Sensor de puerta / ventana más inteligente|Ouverture|!! Atención el módulo no funciona !!|[Documentación](https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=MFR1569800.pdf&p_Doc_Ref=MFR1569800)<br/>|
-|<img src="../../es_ES/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Sensor de fugas de agua más inteligente|Fuite|!! Atención el módulo no funciona !!||
+|<img src="../../es_ES/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Sensor de puerta / ventana más inteligente|Ouverture||[Documentación](https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=MFR1569800.pdf&p_Doc_Ref=MFR1569800)<br/>|
+|<img src="../../es_ES/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Sensor de fugas de agua más inteligente|Fuite|||
 |<img src="../../es_ES/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Regulador giratorio Wiser Exxact|Variateur|||
 |<img src="../../es_ES/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|Módulo micro dimmer más sabio|Variateur|||
 
@@ -226,4 +226,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-11-20 01:32:03
+2020-11-21 01:32:03

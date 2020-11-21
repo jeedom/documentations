@@ -1,7 +1,13 @@
 {
     "id": "squeezeboxcontrol",
     "name": "SqueezeBox Control",
-    "description": "Ce plugin vous permet de contrôler vos Squeezebox.Il fait de l'autodecouverte, il attribue vos squeezebox aux bons objets si elles contiennent le nom de l'objet.Il permet aussi une gestion complète multidirectionnelle de la synchro. La possibilité de synchroniser toutes les squeezebox en un clic, toutes les allumer, toutes les éteindre etc.... Une fonction TTS est aussi disponibleUn panel dédié simple (mais qui va vouloir devenir très complet) est aussi disponible.De nombreuses autres fonctions sont aussi présentes",
+    "description": {
+        "fr_FR": "Ce plugin vous permet de contrôler vos Squeezebox.Il fait de l'autodecouverte, il attribue vos squeezebox aux bons objets si elles contiennent le nom de l'objet.Il permet aussi une gestion complète multidirectionnelle de la synchro. La possibilité de synchroniser toutes les squeezebox en un clic, toutes les allumer, toutes les éteindre etc.... Une fonction TTS est aussi disponibleUn panel dédié simple (mais qui va vouloir devenir très complet) est aussi disponible.De nombreuses autres fonctions sont aussi présentes",
+        "en_US": "This plugin allows you to control your Squeezeboxes.It does autodiscover, it assigns your squeezeboxes to the right objects if they contain the object name.It also allows full multidirectional sync management. The ability to synchronize all the squeezeboxes in one click, turn them all on, turn them all off etc ... A TTS function is also available A simple dedicated panel (but which will want to become very complete) is also available. also present",
+        "es_ES": "Este complemento le permite controlar sus Squeezeboxes. Detecta automáticamente, asigna sus squeezeboxes a los objetos correctos si contienen el nombre del objeto. También permite una gestión de sincronización multidireccional completa. La capacidad de sincronizar todos los squeezeboxes con un solo clic, encenderlos, apagarlos, etc. También está disponible una función TTS También está disponible un panel dedicado simple (pero que querrá ser muy completo). Muchas otras funciones están disponibles. también presente",
+        "de_DE": "Mit diesem Plugin können Sie Ihre Squeezeboxen steuern. Es erkennt automatisch und weist Ihre Squeezeboxen den richtigen Objekten zu, wenn sie den Objektnamen enthalten. Außerdem ermöglicht es die vollständige multidirektionale Synchronisierungsverwaltung. Die Möglichkeit, alle Squeezeboxen mit einem Klick zu synchronisieren, alle einzuschalten, alle auszuschalten usw. Eine TTS-Funktion ist ebenfalls verfügbar. Ein einfaches dediziertes Bedienfeld (das jedoch sehr vollständig werden soll) ist ebenfalls verfügbar. Viele andere Funktionen sind verfügbar. auch vorhanden",
+        "pt_PT": "Este plugin permite que você controle suas Squeezeboxes. Ele descobre automaticamente, atribui suas Squeezeboxes aos objetos certos, se eles contiverem o nome do objeto. Também permite o gerenciamento completo da sincronização multidirecional. A capacidade de sincronizar todas as squeezeboxes em um clique, ativá-las, desativá-las etc ... Também está disponível uma função TTS Um painel dedicado simples (mas que desejará se tornar muito completo) também está disponível. também presente"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "3.0",
@@ -16,17 +22,17 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
-        "Jeedomboard",
-        "Smart",
-        "RPI\/RPI2",
-        "Docker",
-        "DIY"
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
     ]
 }

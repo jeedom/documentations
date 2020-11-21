@@ -10,13 +10,13 @@ Mit diesem Plugin können Sie alle Ihre SqueezeBoxen scannen, um sie nach Mögli
 
 Wie bei jedem Jeedom-Plugin müssen Sie das Plugin vom Markt herunterladen und dann aktivieren. Danach beginnt der Konfigurationsschritt.
 
-**Bisttention particulière pour les utilisateurs de LMS sur SYNOLOGY**
+**Besondere Aufmerksamkeit für Benutzer von LMS auf SYNOLOGY**
 
 Wenn Sie LMS für Ihre Nas Synology verwenden, sollten Sie wissen, dass die von Synology angebotene Version alt ist. Es gibt jedoch ein Repository, das von der neuesten LMS-Version 7.9 profitiert. Ich empfehle Ihnen dringend, diese Version auf Ihrem NAS zu installieren, wodurch viele Fehler behoben werden.
 
 [VERSION 7.9 für Synologie](http://forums.slimdevices.com/showthread.php?103636-Test-Repo-for-LMS-7-9-0-on-Synology-DSM-5-*)
 
-**Bisttention particulière aux utilisateurs du plugin SqueezeBox (le deuxième) du market*
+**Besonderes Augenmerk auf Benutzer des SqueezeBox-Plugins (das zweite) auf dem Markt*
 
 Um das Risiko eines Konflikts zu vermeiden, wenn Sie das andere SqueezeBox-Plugin verwenden, empfehle ich Ihnen dringend, es zu deaktivieren und die Erweiterung auf dem LMS-Server zu deinstallieren.
 
@@ -74,12 +74,12 @@ Wenn Sie auf ein Gerät klicken, gelangen Sie auf dessen Seite :
 
 ![squeezeboxcontrol screenshot8](./images/squeezeboxcontrol_screenshot8.jpg)
 
-Auf dieser Seite finden Sie alle Informationen Ihrer SqueezeBox sowie alle Befehle und einige Optionen (andere werden folgen) :
+Auf dieser Seite finden Sie alle Informationen Ihrer SqueezeBox sowie alle Befehle und einige Optionen (andere werden folgen)) :
 
 - **Kein Volumen :** Mit dieser Option können Sie den Schritt einer Volume + - oder Volume-Aktion anpassen-
-- **Bisuto On/Off sur synchro :** Wenn diese Option aktiviert ist, wenn eine Synchronisierung für diese Squeezebox durchgeführt wird, wird sie bei Nicht-Synchronisierung ein- und ausgeschaltet.
+- **Auto On / Off bei Synchronisation :** Wenn diese Option aktiviert ist, wenn eine Synchronisierung für diese Squeezebox durchgeführt wird, wird sie bei Nicht-Synchronisierung ein- und ausgeschaltet.
 - **Jingle Pre TTS :** ermöglicht zu definieren, ob vor einer Sprachsynthese ein Jingle vom Typ Dingdong auftritt.
-- **Motor :** ermöglicht Ihnen die Auswahl der Sprachsynthese-Engine (Picotts, Google, Voxygen). Mit einem Szenario-Befehl können Sie ihn im laufenden Betrieb ändern.
+- **Motor :** Mit dieser Option können Sie die Sprachsynthese-Engine auswählen (Picotts, Google, Voxygen)). Mit einem Szenario-Befehl können Sie ihn im laufenden Betrieb ändern.
 - **Tts Optionen :** ermöglicht die Auswahl der Stimme oder der Sprache des Text-zu-Sprache entsprechend der gewählten Engine. Mit einem Szenario-Befehl können Sie ihn im laufenden Betrieb ändern.
 
 # Das Dashboard 
@@ -90,11 +90,11 @@ Wenn Sie Ihre Squeezebox im Dashboard anzeigen, erhalten Sie Folgendes :
 
 - **Bis :** Ermöglicht es Ihnen, das Ein- und Ausschalten Ihrer SqueezeBox zu steuern und auf einen Blick zu erkennen, ob sie eingeschaltet ist
 - **B. :** Ermöglicht es Ihnen, Ihre SqueezeBox mit einer anderen, mit allen anderen, von einer anderen zu synchronisieren oder zu desynchronisieren (weitere Informationen finden Sie im Abschnitt zur Synchronisierung)
-- **C. :** Ermöglicht das Anzeigen des Deckblatts des aktuellen Messwerts (wird je nach Status der SqueezeBox in Farbe oder Schwarzweiß angezeigt). Ein Klick auf die Jacke ermöglicht auch den direkten Zugriff auf die Medienbibliothek :
+- **C. :** Ermöglicht es Ihnen, das Cover des aktuellen Messwerts anzuzeigen (wird je nach Status der SqueezeBox in Farbe oder Schwarzweiß angezeigt). Ein Klick auf die Jacke ermöglicht auch den direkten Zugriff auf die Medienbibliothek :
 
 ![squeezeboxcontrol screenshot7](./images/squeezeboxcontrol_screenshot7.jpg)
 
-- **D. :** Zeigt den Künstler und das aktuelle Album an (dieser Bildlauftext überschreitet eine bestimmte Länge)
+- **D. :** Zeigt den Künstler und das laufende Album an (dieser Text rollt über eine bestimmte Länge hinaus)
 - **E. :** Zeigt den Titel der aktuellen Lesung an (dieser Text scrollt über eine bestimmte Länge hinaus)
 - **F. :** Bedienfeld mit Grundfunktionen (Zurück, Schneller Rücklauf, Wiedergabe / Pause, Stopp, Schneller Vorlauf, Weiter)
 - **G. :** Lautstärkeregler (Schieberegler und zwei Vol- und Vol + -Tasten)
@@ -111,7 +111,7 @@ In diesem Fenster sehen Sie den aktuellen Synchronisationsstatus Ihrer Squeezebo
 - **Synchronisieren von :** Mit dieser Option können Sie diese Squeezebox über die im Dropdown-Menü ausgewählte Squeezebox synchronisieren
 - **Synchronisieren mit :** Mit dieser Option können Sie diese Squeezebox mit der im Dropdown-Menü ausgewählten Squeezebox synchronisieren
 - **Mit allen synchronisieren :** Mit dieser Option können Sie diese Squeezebox mit all Ihren Squeezeboxen synchronisieren
-- **D.ésynchroniser :** Nur sichtbar, wenn die Squeezebox synchron ist und diese Aktion die Desynchronisierung ermöglicht.
+- **Desynchronisieren :** Nur sichtbar, wenn die Squeezebox synchron ist und diese Aktion die Desynchronisierung ermöglicht.
 
 # Pannel SqueezeBox Control
 
@@ -123,9 +123,9 @@ Sie können Ihre SqueezeBox tatsächlich nach Objekten filtern, wobei das verste
 
 Oben stehen jedoch andere Optionen zur Verfügung :
 
-- **Einschalten toutes :** schaltet alle Squeezeboxen ein
-- **Ausschalten toutes :** schaltet alle Squeezeboxen aus
-- **Server LMS :** ermöglicht den direkten Zugriff auf Ihren LMS-Server
+- **Schalten Sie alle ein :** schaltet alle Squeezeboxen ein
+- **Schalten Sie alle aus :** schaltet alle Squeezeboxen aus
+- **LMS-Server :** ermöglicht den direkten Zugriff auf Ihren LMS-Server
 - **Konfiguration :** ermöglicht den direkten Zugriff auf die Konfiguration Ihres LMS-Servers
 - **Vollständiger Scan :** Mit dieser Option können Sie einen vollständigen Scan Ihrer Medienbibliothek auf dem LMS-Server auslösen
 - **Schneller Scan :** Mit dieser Option können Sie einen schnellen Scan Ihrer Medienbibliothek auf dem LMS-Server auslösen
@@ -138,49 +138,49 @@ Viele Befehle sind über Szenarien verfügbar (andere werden kommen). Hier ist d
 
 - **Album :** Info-Befehl mit dem aktuellen Album
 - **Einschalten :** schaltet die Squeezebox ein
-- **Einschalten tous :** schaltet alle Squeezeboxen ein
+- **Schalten Sie alle ein :** schaltet alle Squeezeboxen ein
 - **Künstler :** Info-Befehl mit dem laufenden Künstler
 - **Voraus :** Schneller Vorlauf
-- **D.ésynchroniser :** Mit dieser Option können Sie die Squeezebox desynchronisieren
+- **Desynchronisieren :** Mit dieser Option können Sie die Squeezebox desynchronisieren
 - **Zustand :** Kennen Sie den Zustand der Squeezebox
 - **Ausschalten :** schaltet die Squeezebox aus
-- **Ausschalten tous :** schaltet alle Squeezeboxen aus **Album abspielen :** Befehlsnachricht, die das Abspielen des im Parameter (Nachricht) übergebenen Albums ermöglicht (die aktuelle Alpha-Funktion funktioniert, liefert jedoch möglicherweise nicht das gewünschte Ergebnis)
+- **Schalten Sie alle aus :** schaltet alle Squeezeboxen aus **Album abspielen :** Befehlsnachricht, die das Abspielen des in Parameter (Nachricht) übergebenen Albums ermöglicht (die aktuelle Alpha-Funktion funktioniert, liefert jedoch möglicherweise nicht das gewünschte Ergebnis)
 - **Künstler spielen :** Befehlsnachricht, die das Abspielen des in Parameter (Nachricht) übergebenen Interpreten ermöglicht (die aktuelle Alpha-Funktion funktioniert, liefert jedoch möglicherweise nicht das gewünschte Ergebnis)
-- **Genre spielen :** Nachrichtenbefehl, mit dem das in Parameter (Nachricht) übergebene Genre abgespielt werden kann (die aktuelle Alpha-Funktion funktioniert, liefert jedoch möglicherweise nicht das gewünschte Ergebnis)
+- **Genre spielen :** Nachrichtenbefehl, der das Abspielen des in Parameter (Nachricht) übergebenen Genres ermöglicht (die aktuelle Alpha-Funktion funktioniert, liefert jedoch möglicherweise nicht das gewünschte Ergebnis)
 - **Playlist abspielen :** Befehlsnachricht, mit der die in Parameter (Nachricht) übergebene Wiedergabeliste abgespielt werden kann (die aktuelle Alpha-Funktion funktioniert, liefert jedoch möglicherweise nicht das gewünschte Ergebnis)
 - **Stück spielen :** Befehlsnachricht, die das Abspielen des im Parameter (Nachricht) übergebenen Songs ermöglicht (die aktuelle Alpha-Funktion funktioniert, liefert jedoch möglicherweise nicht das gewünschte Ergebnis). Gibt auch die Songs an, die das Wort enthalten
-- **Favoriten spielen :** Befehlsnachricht, mit der die Favoriten abgespielt werden können, die dem Parameter (Nachricht) entsprechen (diese Funktion basiert auf den Indizes und kann mehrere durch getrennte Indizes verwenden; . Wir können auch einen Bereich mit definieren - .  Beispiel : 0,0-0.2; 2 spielt einen Favoriten mit Index 2 oder etwas zwischen 0.0 und 0.2 enthalten. LMS-Indizes basieren auf einer Verzeichnisarchitektur und werden im LMS-Dokument erläutert
-- **Spielen Sie Favoriten nach Namen :** Befehlsnachricht, die es ermöglicht, die Favoriten abzuspielen, die dem entsprechen, was im Parameter (Nachricht) übergeben wird (basierend auf den Namen, die im Parameter einen einzelnen Namen annehmen, und alle entsprechenden Favoriten hinzufügen. Beispiel : Radio gibt alle Favoriten zurück, die Radio enthalten oder sich in einem Verzeichnis befinden, das Radio enthält. Ein weiteres Beispiel : radio / gibt notwendigerweise Favoriten an, die sich in einem Favoritenverzeichnis befinden, das als Radio bezeichnet wird. Dieser Befehl unterscheidet nicht zwischen Groß- und Kleinschreibung
+- **Favoriten spielen :** Befehlsnachricht, mit der die Favoriten abgespielt werden können, die dem Parameter (Nachricht) entsprechen (diese Funktion basiert auf den Indizes und kann mehrere durch getrennte Indizes verwenden; . Wir können auch einen Bereich mit definieren - .  Beispiel : 0,0-0.2; 2 spielt einen Favoriten mit Index 2 oder etwas zwischen 0.0 und 0.2 enthalten. LMS-Indizes basieren auf einer Verzeichnisarchitektur und werden im LMS-Dokument erläutert)
+- **Spielen Sie Favoriten nach Namen :** Befehlsnachricht, die es ermöglicht, die Favoriten abzuspielen, die dem entsprechen, was im Parameter (Nachricht) übergeben wird (basierend auf den Namen, die im Parameter einen einzelnen Namen annehmen, und alle entsprechenden Favoriten hinzufügen. Beispiel : Radio gibt alle Favoriten zurück, die Radio enthalten oder sich in einem Verzeichnis befinden, das Radio enthält. Ein weiteres Beispiel : radio / gibt notwendigerweise Favoriten an, die sich in einem Favoritenverzeichnis befinden, das als Radio bezeichnet wird. Dieser Befehl unterscheidet nicht zwischen Groß- und Kleinschreibung)
 - **Spielen Sie Url :** Befehlsnachricht, mit der eine im Parameter übergebene URL abgespielt werden kann
 - **Lesen :** Befehl zum Spielen der Squeezebox
 - **Stumm :** Befehl zum Stummschalten der Squeezebox
 - **Nicht stumm :** Befehl zum Wiederherstellen des Sounds der Squeezebox
 - **Sprich :** Nachrichtenbefehl, um die Squeezebox zum Sprechen zu bringen
-- **Sprich full options :** Nachrichtenbefehl, um die Squeezebox zum Sprechen zu bringen. Die Nachricht ist der Text, der Titel kann mehrere Optionen enthalten 
+- **Sprechen Sie über alle Optionen :** Nachrichtenbefehl, um die Squeezebox zum Sprechen zu bringen. Die Nachricht ist der Text, der Titel kann mehrere Optionen enthalten 
 
 - multi : ermöglicht das gleichzeitige Sprechen auf mehreren Squeezeboxen : Multi = Toiletten; Schlafzimmer bringt die Squeezebox, die die Bestellung initiiert, zum Sprechen, ebenso wie Toiletten und Schlafzimmer
 - Lautstärke : ermöglicht die Definition des Volumens, das für das TTS verwendet werden soll : volume=70
-- Stimme : Nur für TTSwebserver, ermöglicht die zufällige Auswahl der Stimme aus einer Liste oder unter allen (außer Pico) : Beispiel : stimme = alle oder stimme = melodin; sorciere
+- Stimme : Nur für TTSwebserver, ermöglicht die zufällige Auswahl der Stimme aus einer Liste oder unter allen (außer Pico)) : Beispiel : stimme = alle oder stimme = melodin; sorciere
 - klingeln : Mit dieser Option können Sie einen Jingle auswählen, der vor dem Beispiel abgespielt werden soll (oder aus einer Liste ausgewählt werden soll) : Jingle = Kuckuck oder Jingle = Kuckuck, sei vorsichtig
-- playurl : ermöglicht das Fortfahren durch Lesen einer URL nach dem tts (Beispiel playurl = XXXXXXXXXX)
+- playurl : Mit dieser Option können Sie fortfahren, indem Sie nach dem tts eine URL lesen (Beispiel playurl)=XXXXXXXXXX)
 - playfavoris : Das Gleiche gilt für einen Indexfavoriten (siehe Befehl Favoriten)
 - playfavorisname : idem aber mit den Funktionen des Favoriten Befehlsnamens
-- Playalbum : dito mit dem Namen eines Albums oder eines Teils des Namens)
-- Playartist : das Gleiche gilt für den Namen eines Künstlers (oder eines Teils des Namens)
+- Playalbum : das Gleiche gilt für den Namen eines Albums oder ein Ende des Namens)
+- Playartist : das Gleiche gilt für den Namen eines Künstlers (oder eines Teils des Namens))
 - Playgender : das Gleiche gilt für den Namen einer Gattung
-- Spielgesang : dito mit dem Namen eines Liedes (oder eines Teils des Namens)
+- Spielgesang : das Gleiche gilt für den Namen eines Liedes (oder eines Stücks des Namens))
 - Wiedergabeliste : Das Gleiche gilt für den Namen einer Wiedergabeliste
 - Playstop : Mit playstop = 1 werden die Squeezeboxen nach tts gestoppt (andernfalls nehmen sie ihren Ausgangszustand wieder auf)
 - Playoffs : Mit Playoff = 1 werden die Squeezeboxen nach tts gestoppt (andernfalls nehmen sie ihren Ausgangszustand wieder auf)
 
-- **Konfigurieren Sie TTS :** Sehr interessante Option, mit der in einem Szenario die Einstellung der TTS-Engine im laufenden Betrieb geändert werden kann (siehe Abschnitt Das TTS im Szenario)
+- **Konfigurieren Sie TTS :** Sehr interessante Option, mit der in einem Szenario die TTS-Motoreinstellung im laufenden Betrieb geändert werden kann (siehe Abschnitt Das TTS im Szenario))
 - **Pause :** Befehl zum Anhalten der Squeezebox
 - **Früher :** vorheriges Lied bestellen
 - **Zurück :** Schnellrückgabebefehl
 - **Schnell scannen :** Befehl zum Auslösen eines schnellen Scans Ihrer Medienbibliothek auf dem LMS-Server (ideal zum Planen regelmäßiger Scans)
 - **Vollständiger Scan :** Befehl zum Auslösen eines vollständigen Scans Ihrer Medienbibliothek auf dem LMS-Server (ideal zum Planen regelmäßiger Scans)
 - **Wiedergabeliste scannen :** Befehl zum Auslösen eines Scans Ihrer Wiedergabelisten auf dem LMS-Server (ideal zum Planen regelmäßiger Scans)
-- **STOP :** Befehl zum Stoppen der Squeezebox (nicht ausschalten)
+- **STOP :** Befehl zum Stoppen der Squeezebox (nicht ausschalten))
 - **Folgende :** nächster Liedbefehl
 - **Synchronisieren mit :** Info-Befehl, mit dem Sie feststellen können, mit wem die Squeezebox synchronisiert ist
 - **Synchronisieren seit :** Nachrichtenbefehl, mit dem die Squeezebox von der im Parameter (Nachricht) übergebenen Squeezebox synchronisiert werden kann. Der Wert kann entweder die Mac-Adresse der Squeezebox oder der genaue Name in Jeedom sein
@@ -188,9 +188,9 @@ Viele Befehle sind über Szenarien verfügbar (andere werden kommen). Hier ist d
 - **Mit allen synchronisieren :** Befehl zum Synchronisieren der Squeezebox mit all Ihren Squeezeboxen
 - **Aktueller Titel :** Info-Befehl mit dem aktuellen Titel
 - **Lautstärke :** Regler zum Einstellen der Lautstärke
-- **Lautstärke Status :** Info-Befehl mit aktuellem Volume
+- **Lautstärkestatus :** Info-Befehl mit aktuellem Volume
 - **Lautstärke + :** Lautstärkeregler
-- **Lautstärke- :** Steuerung zum Verringern der Lautstärke
+- **Volume- :** Steuerung zum Verringern der Lautstärke
 
 # TTS im Szenario 
 
@@ -204,7 +204,7 @@ Verwenden Sie dazu die Funktion "TTS konfigurieren"". Es ermöglicht die Definit
 
 ![tts3](./images/tts3.jpg)
 
-Die möglichen Optionen für die Engine sind (Vorsicht, Großbuchstaben beachten)
+Die möglichen Optionen für den Motor sind (beachten Sie die Kleinbuchstaben)
 
 + ------------------ + ------------------------------ --------------------------- +
 | Motor           | Mögliche Optionen                                       |

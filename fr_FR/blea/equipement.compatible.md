@@ -7,6 +7,12 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/blea/images/amazfitgtr.jpg" width="60" />|Huami|Amazfit GTR|Santé|Uniquement de la présence pour le moment||
 
+# Aqualin
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../fr_FR/blea/images/aqualin.jpg" width="60" />|Aqualin|Bluetooth valve drip|Plante|||
+
 # Awoxmesh
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -92,6 +98,18 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/blea/images/hector.jpg" width="60" />|Hector|Hector|Capteurs|Ne doit pas rester connecté en permanence sur votre téléphone si vous voulez l'interaction dans Jeedom||
 
+# Ibbq4
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../fr_FR/blea/images/ibbq4.jpg" width="60" />|Inkbird|Inkbird IBT-4XS|Capteurs|Capteurs de Température barbecue||
+
+# Ibbq6
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../fr_FR/blea/images/ibbq6.jpg" width="60" />|Inkbird|Inkbird IBT-6XS|Capteurs|Capteurs de Température barbecue||
+
 # Itag
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -128,6 +146,12 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/blea/images/lywsd02.jpg" width="60" />|Xiaomi|Température Humidité|Capteurs|Capteurs de Température Humidité avec écran (Lywsd02)||
+
+# Lywsd03
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../fr_FR/blea/images/lywsd03.jpg" width="60" />|Xiaomi|Température Humidité|Capteurs|Capteurs de Température Humidité avec écran (Lywsd03)||
 
 # Meyerdom
 
@@ -273,4 +297,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-11-20 01:21:02
+2020-11-21 01:21:03

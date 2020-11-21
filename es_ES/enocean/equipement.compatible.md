@@ -68,10 +68,17 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/enocean/images/a5-12-00.jpg" width="60" />|Avidsen|Módulo de pinza de corriente|Compteur|||
+|<img src="../../es_ES/enocean/images/a5-12-00.jpg" width="60" />|Thermokon|Medidor de energía|Compteur|||
 |<img src="../../es_ES/enocean/images/a5-12-01.jpg" width="60" />|Eltako|Módulo de medición de energía 65A|Compteur||[Comprar](http://www.domadoo.fr/fr/peripheriques/2837-eltako-module-de-comptage-d-energie-65a-4010312311059.html)|
 |<img src="../../es_ES/enocean/images/a5-12-01.jpg" width="60" />|Eltako|Módulo de medición de energía 16A|Compteur||[Comprar](http://www.domadoo.fr/fr/peripheriques/2836-eltako-module-de-comptage-d-energie-16a-4010312303184.html)|
 |<img src="../../es_ES/enocean/images/a5-12-01.jpg" width="60" />|Avidsen|Módulo de Teleinfo|Compteur|||
 |<img src="../../es_ES/enocean/images/a5-12-10.jpg" width="60" />|Ewattch|Subcontador eléctrico SQUID EnOcean - 12 entradas|Compteur||[Comprar](http://www.domadoo.fr/fr/peripheriques/2859-ewattch-squid-sous-compteur-electrique-enocean-12-entrees-3770002148045.html)|
+
+# A5-13
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+||A5-13|||||
 
 # A5-14
 
@@ -85,6 +92,13 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/enocean/images/a5-20-01.jpg" width="60" />|Micropelt|Válvula termostática EnOcean sin batería|Vanne|Asegúrese de que la válvula parpadee una vez en respuesta a la inclusión|[Comprar](http://www.domadoo.fr/fr/peripheriques/3259-micropelt-vanne-thermostatique-enocean-4260413370022.html)|
+|<img src="../../es_ES/enocean/images/a5-20-01.jpg" width="60" />|Thermokon|SAB + airconfig|Vanne|Asegúrese de que la válvula parpadee una vez en respuesta a la inclusión||
+
+# A5-3f
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/enocean/images/a5-3f-7f.jpg" width="60" />|Thermokon|SR65 3AI|Módulos de entrada|||
 
 # D1079-00
 
@@ -108,6 +122,7 @@
 |<img src="../../es_ES/enocean/images/d2-01-0a.jpg" width="60" />|Nodon|EnOcean Smart Plug|Prise|Asegúrese de que el enchufe se desconecte después de la inclusión. De lo contrario, proceda a una exclusión antes|[Comprar](http://www.domadoo.fr/fr/peripheriques/2631-nodon-prise-intelligente-enocean-type-eu-3700313920008.html)|
 |<img src="../../es_ES/enocean/images/d2-01-0b.jpg" width="60" />|Nodon|Enchufe inteligente + medición|Prise|Asegúrese de que el enchufe se desconecte después de la inclusión. De lo contrario, proceda a una exclusión antes|[Comprar](http://www.domadoo.fr/fr/peripheriques/2633-nodon-prise-intelligente-metering-enocean-type-eu-3700313920022.html)|
 |<img src="../../es_ES/enocean/images/d2-01-0c.jpg" width="60" />|Avidsen|Módulo de cable piloto|Cable piloto|Asegúrese de que el enchufe se desconecte después de la inclusión. De lo contrario, proceda a una exclusión antes||
+|<img src="../../es_ES/enocean/images/d2-01-0c.jpg" width="60" />|Nodon|Módulo de cable piloto|Cable piloto|Asegúrese de que el enchufe se desconecte después de la inclusión. De lo contrario, proceda a una exclusión antes|[Comprar](http://www.domadoo.fr/fr/peripheriques/5134-nodon-module-chauffage-fil-pilote-enocean-3700313924693.html)|
 |<img src="../../es_ES/enocean/images/d2-01-0e.jpg" width="60" />|Nodon|Micro enchufe inteligente|Prise|Asegúrese de que el enchufe se desconecte después de la inclusión. De lo contrario, proceda a una exclusión antes|[Comprar](http://www.domadoo.fr/fr/peripheriques/4309-nodon-micro-smart-plug-enocean-prise-fr-3700313921401.html)|
 |<img src="../../es_ES/enocean/images/d2-01-0f.jpg" width="60" />|Nodon|Micromódulo de interruptor único EnOcean|Micromodule|Asegúrese de que el micromódulo abandone el aprendizaje después de la inclusión. De lo contrario, proceda a una exclusión antes||
 |<img src="../../es_ES/enocean/images/d2-01-0f.jpg" width="60" />|Avidsen|Micromódulo de interruptor único EnOcean|Micromodule|Asegúrese de que el micromódulo abandone el aprendizaje después de la inclusión. De lo contrario, proceda a una exclusión antes||
@@ -144,6 +159,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/enocean/images/d2-14-30.jpg" width="60" />|Nexelec|Insafe|Humo|||
+|<img src="../../es_ES/enocean/images/d2-14-41.jpg" width="60" />|Enocean|STM550|Multicapteurs|||
 
 # D2-15
 
@@ -223,6 +239,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/enocean/images/f6-10-00.jpg" width="60" />|El DS Crossroads|Manilla para ventana D-Sign|Manejar|Elegir el perfil correcto después de la inclusión||
+|<img src="../../es_ES/enocean/images/f6-10-00.jpg" width="60" />|El DS Crossroads|Manija de ventana de helio|Manejar|Elegir el perfil correcto después de la inclusión||
 |<img src="../../es_ES/enocean/images/f6-10-00.jpg" width="60" />|Hoppe|Manilla para ventana Sécusignal Atlanta Aluminio|Manejar|Elegir el perfil correcto después de la inclusión|[Comprar](http://www.domadoo.fr/fr/peripheriques/1062-hoppe-poignee-fenetre-secusignal-atlanta-alu-4012789023428.html)|
 |<img src="../../es_ES/enocean/images/f6-10-00.jpg" width="60" />|Hoppe|Manilla para ventana Sécusignal Atlanta White|Manejar|Elegir el perfil correcto después de la inclusión|[Comprar](http://www.domadoo.fr/fr/peripheriques/1063-hoppe-poignee-fenetre-secusignal-atlanta-blanc-4012789104158.html)|
 
@@ -250,4 +268,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-11-20 01:17:09
+2020-11-21 01:17:05

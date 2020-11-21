@@ -158,8 +158,8 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/Schneider_Electric.1GANGSHUTTER1.png" width="60" />|Schneider|PlusLink shutter insert|Volets||[Documentation](https://download.schneider-electric.com/files?p_enDocType=System+user+guide&p_File_Name=Merten_PL_Wiser_TIs_DE.pdf&p_Doc_Ref=Merten_PL_Wiser_TIs_DE)<br/>|
 |<img src="../../fr_FR/zigbee/images/Schneider_Electric.2GANGSWITCH2.png" width="60" />|Schneider|Interrupteur double||||
-|<img src="../../fr_FR/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Wiser Window/Door Sensor|Ouverture|!! Attention le module ne marche pas !!|[Documentation](https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=MFR1569800.pdf&p_Doc_Ref=MFR1569800)<br/>|
-|<img src="../../fr_FR/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Wiser Water Leakage Sensor|Fuite|!! Attention le module ne marche pas !!||
+|<img src="../../fr_FR/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Wiser Window/Door Sensor|Ouverture||[Documentation](https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=MFR1569800.pdf&p_Doc_Ref=MFR1569800)<br/>|
+|<img src="../../fr_FR/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Wiser Water Leakage Sensor|Fuite|||
 |<img src="../../fr_FR/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Wiser Exxact dimmer rotary|Variateur|||
 |<img src="../../fr_FR/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|Wiser micro module dimmer|Variateur|||
 
@@ -226,4 +226,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-11-20 01:32:03
+2020-11-21 01:32:03

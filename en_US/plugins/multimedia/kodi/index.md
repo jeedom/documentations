@@ -41,7 +41,7 @@ This section is one of the most important it contains
 -   IP : ip address of your kodi (it is important to enter the ip and not a hostname). If Kodi is on the same machine as jeedom put 127.0.0.1. This field is required
 -   Port : the communication port of the web server in kodi (you must activate the web server in kodi). This field is required
 -   Username : the username to log in to Kodi if you have one
--   Password : the password to connect to Kodi if you have one. (this goes with the username)
+-   Password : the password to connect to Kodi if you have one. (this goes together with the username)
 -   MAC Address : the MAC address of the machine to wake on lan
 -   Volume + /- : the step of incrementation or decrementation of the volume (1 to 100)
 
@@ -119,7 +119,7 @@ Here you will find 3 important parameters to configure :
 
 Kodi goes up many statutes :
 
--   Kind : goes up the complete list of genres (only usable via script or virtual)
+-   Kind : brings up the complete list of genres (only usable via scenario or virtual)
 -   End time : scheduled end time, updated when media is started and when pause is resumed
 -   Status and statusnb : Go up the status (one in text the other in number) These are the different values :
     - Started 0
@@ -135,9 +135,9 @@ Kodi goes up many statutes :
     - Audio resume 10
     - Stop 18
 -   Media Status : will go back to a more general status (Play, Pause, Stop, Stop) regardless of the type of media
--   Thumbnail : will reassemble the cover (more particularly the link allowing to have it)
+-   Thumbnail : will raise the cover (more particularly the link allowing to have it)
 -   Title : will go up the title of the current media and details on the episode and the season in the case of a series
--   Media type : will go back the type of media (Series, Audio, Films)
+-   Media type : will show the type of media (Serial, Audio, Films )
 
 # Widget Details 
 
@@ -153,7 +153,7 @@ Here are some details about the widget :
 
 -   D : Part 1 of the current title
 -   E : Part 2 of the current title
--   F : Playback commands (playback following stop, etc.)
+-   F : Playback commands (play next stop etc)
 -   G : Activate volume control mode or return to playback mode
 
 ![partievolume](./images/partievolume.jpg)

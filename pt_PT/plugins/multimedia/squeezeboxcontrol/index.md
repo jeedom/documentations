@@ -10,13 +10,13 @@ Este plugin permite que você verifique todas as suas SqueezeBoxes e, se possív
 
 Como qualquer plug-in Jeedom, você deve fazer o download do plug-in do mercado e ativá-lo. Depois disso, começa a etapa de configuração.
 
-**àttention particulière pour les utilisateurs de LMS sur SYNOLOGY**
+**Atenção especial para usuários de LMS em SYNOLOGY**
 
 Se você usa o LMS em seu Nas Synology, deve saber que a versão oferecida pela synology é antiga. Mas há um repositório para se beneficiar da versão mais recente do LMS 7.9. Eu recomendo fortemente que você instale esta versão no seu NAS, que corrige muitos erros.
 
 [VERSÃO 7.9 para Synology](http://forums.slimdevices.com/showthread.php?103636-Test-Repo-for-LMS-7-9-0-on-Synology-DSM-5-*)
 
-**àttention particulière aux utilisateurs du plugin SqueezeBox (le deuxième) du market*
+**Atenção especial aos usuários do plugin SqueezeBox (o segundo) no mercado*
 
 Para evitar qualquer risco de conflito se você usar o outro plug-in SqueezeBox, recomendo fortemente que você o desative e desinstale a extensão no servidor LMS.
 
@@ -74,12 +74,12 @@ Quando você clica em um item de equipamento, chega à sua página :
 
 ![squeezeboxcontrol screenshot8](../images/squeezeboxcontrol_screenshot8.jpg)
 
-Você encontrará nesta página todas as informações da sua SqueezeBox, assim como todos os comandos e algumas opções (outras virão) :
+Você encontrará nesta página todas as informações do seu SqueezeBox, além de todos os comandos e algumas opções (outros virão) :
 
 - **Sem volume :** permite ajustar a etapa de uma ação Volume + ou Volume-
-- **àuto On/Off sur synchro :** se esta opção estiver ativada se uma sincronização for feita neste squeezebox, ela será ativada e desativada quando estiver fora de sincronia.
+- **Auto On / Off na sincronização :** se esta opção estiver ativada se uma sincronização for feita neste squeezebox, ela será ativada e desativada quando estiver fora de sincronia.
 - **Jingle Pre TTS :** permite definir se antes de uma síntese de fala haverá um jingle do tipo dingdong.
-- **Motor :** permite que você escolha o mecanismo de síntese de fala (picotts, google, voxygen). Um comando de cenário permite que você o altere rapidamente.
+- **Motor :** permite escolher o mecanismo de síntese de fala (picotts, google, voxygen). Um comando de cenário permite que você o altere rapidamente.
 - **Tts opções :** permite escolher a voz ou o idioma da conversão de texto em fala de acordo com o mecanismo. Um comando de cenário permite que você o altere rapidamente.
 
 # O painel 
@@ -94,10 +94,10 @@ Se você exibir sua squeezebox no painel, é isso que você obterá :
 
 ![squeezeboxcontrol screenshot7](../images/squeezeboxcontrol_screenshot7.jpg)
 
-- **D :** Exibe o artista e o álbum atual (este texto de rolagem além de um determinado comprimento)
-- **E :** Exibe o título da leitura atual (esse texto rola além de um determinado comprimento)
+- **D :** Exibe o artista e o álbum em andamento (esse texto rola além de um determinado comprimento)
+- **E :** Exibe o título da leitura atual (esse rolagem de texto além de um determinado comprimento)
 - **F :** Painel de controle com funções básicas (Voltar, Retroceder rapidamente, Reproduzir / Pausar, Parar, Avanço rápido, Avançar)
-- **G :** Painel de controle de volume (controle deslizante e dois botões Vol e Vol +)
+- **G :** Painel de controle de volume (controle deslizante e dois botões Vol- e Vol +)
 
 # Painel de sincronização do painel
 
@@ -111,7 +111,7 @@ Nesta janela, você pode ver o status atual da sincronização do seu squeezebox
 - **Sincronizar de :** permite sincronizar este squeezebox a partir do squeezebox escolhido no menu suspenso
 - **Sincronizar com :** permite sincronizar este squeezebox com o squeezebox escolhido no menu suspenso
 - **Sincronizar com todos :** permite sincronizar esta squeezebox com todas as suas squeezeboxs
-- **Désynchroniser :** visível apenas se o squeezebox estiver sincronizado, e essa ação permite dessincronizá-lo.
+- **Dessincronizar :** visível apenas se o squeezebox estiver sincronizado, e essa ação permite dessincronizá-lo.
 
 # Painel SqueezeBox Control
 
@@ -123,9 +123,9 @@ Você pode realmente filtrar sua SqueezeBox por objetos com o menu oculto à esq
 
 No entanto, outras opções estão disponíveis na parte superior :
 
-- **Ativar toutes :** liga todas as squeezeboxes
-- **Desligar toutes :** desativa todas as squeezeboxes
-- **Garçom LMS :** permite acesso direto ao seu servidor LMS
+- **Ligue tudo :** liga todas as squeezeboxes
+- **Desligue tudo :** desativa todas as squeezeboxes
+- **Servidor LMS :** permite acesso direto ao seu servidor LMS
 - **Configuração :** permite acesso direto à configuração do seu servidor LMS
 - **Verificação completa :** permite ativar uma verificação completa da sua biblioteca de mídia no servidor LMS
 - **Verificação Rápida :** permite ativar uma verificação rápida da sua biblioteca de mídia no servidor LMS
@@ -138,16 +138,16 @@ Muitos comandos estão disponíveis através de cenários (outros virão). Aqui 
 
 - **Album :** comando info que contém o álbum atual
 - **Ativar :** liga a squeezebox
-- **Ativar tous :** liga todas as squeezeboxes
+- **Ligue tudo :** liga todas as squeezeboxes
 - **Artista :** comando info que contém o artista em andamento
 - **Adiantamento :** Avanço rápido
-- **Désynchroniser :** permite dessincronizar o squeezebox
+- **Dessincronizar :** permite dessincronizar o squeezebox
 - **Estado :** Conheça o estado da squeezebox
 - **Desligar :** desliga o squeezebox
-- **Desligar tous :** desativa todas as squeezeboxes **Reproduzir álbum :** mensagem de comando que permite reproduzir o álbum transmitido no parâmetro (message) (a função alfa atual funciona, mas pode não fornecer o resultado desejado)
+- **Desligue tudo :** desativa todas as squeezeboxes **Reproduzir álbum :** comando message para reproduzir o álbum transmitido no parâmetro (message) (a função alfa atual funciona, mas pode não fornecer o resultado desejado)
 - **Tocar Artista :** mensagem de comando que permite reproduzir o artista transmitido no parâmetro (message) (a função alfa atual funciona, mas pode não fornecer o resultado desejado)
 - **Tocar Gênero :** comando de mensagem que permite reproduzir o gênero transmitido no parâmetro (message) (a função alfa atual funciona, mas pode não fornecer o resultado desejado)
-- **Reproduzir lista de reprodução :** mensagem de comando que permite reproduzir a lista de reprodução passada no parâmetro (message) (a função alfa atual funciona, mas pode não fornecer o resultado desejado)
+- **Reproduzir lista de reprodução :** comando message para reproduzir a lista de reprodução passada no parâmetro (message) (a função alfa atual funciona, mas pode não fornecer o resultado desejado)
 - **Peça de jogo :** mensagem de comando que permite reproduzir a música passada no parâmetro (message) (a função alfa atual funciona, mas pode não fornecer o resultado desejado) Também fornecerá as músicas que contêm a palavra
 - **Reproduzir Favoritos :** mensagem de comando que permite reproduzir os favoritos correspondentes ao que é passado no parâmetro (message) (esta função é baseada nos índices e pode levar vários índices separados por; . Também podemos definir um intervalo com - .  Exemplo : 0,0-0.2; 2 reproduz um favorito com o índice 2 ou algo entre 0.0 e 0.2 incluídos. Os índices do LMS são baseados em uma arquitetura de diretório e são explicados no documento do LMS)
 - **Reproduzir favoritos por nome :** mensagem de comando que permite reproduzir os favoritos correspondentes ao que é passado no parâmetro (message) (com base nos nomes que leva no parâmetro um único nome e adiciona todos os favoritos correspondentes. Exemplo : radio retornará todos os favoritos que contêm rádio ou estão em um diretório que contém rádio outro exemplo : radio / dará necessariamente favoritos que estão em um diretório de favoritos chamado radio. Este comando não diferencia maiúsculas de minúsculas)
@@ -156,24 +156,24 @@ Muitos comandos estão disponíveis através de cenários (outros virão). Aqui 
 - **Silenciar :** comando para silenciar o squeezebox
 - **Não muda :** comando para restaurar o som do squeezebox
 - **Fala :** comando de mensagem para fazer o squeezebox falar
-- **Fala full options :** comando de mensagem para fazer o squeezebox falar. A mensagem será o texto, o título pode conter várias opções 
+- **Opções completas do Talk :** comando de mensagem para fazer o squeezebox falar. A mensagem será o texto, o título pode conter várias opções 
 
 - multi : permite falar em várias squeezebox ao mesmo tempo : multi = banheiros; o quarto fará com que o squeezebox que inicia o pedido fale, assim como os banheiros e o quarto
 - volume : permite definir o volume a ser usado para o TTS : volume=70
 - voz : somente para TTSwebserver, permite escolher a voz aleatoriamente em uma lista ou entre todas (exceto pico) : Exemplo : voz = tudo ou voz = melodina; sorciere
 - tinir : permite que você escolha um toque para tocar antes (ou escolher de uma lista) exemplo : jingle = cuco ou jingle = cuco; tenha cuidado
-- playurl : permite continuar lendo um URL após o tts (exemplo playurl = XXXXXXXXXX)
+- playurl : permite que você continue lendo um URL após o tts (por exemplo, playurl=XXXXXXXXXX)
 - playfavoris : idem com um favorito do índice (consulte o comando de favoritos)
 - playfavorisname : idem, mas com as funções do nome do comando favorites
-- playalbum : idem com o nome de um álbum ou parte do nome)
+- playalbum : idem com o nome de um álbum ou no final do nome)
 - playartist : idem com o nome de um artista (ou parte do nome)
 - playgender : idem com o nome de um gênero
-- música : idem com o nome de uma música (ou parte do nome)
+- música : idem com o nome de uma música (ou uma parte do nome)
 - lista de reprodução : idem com o nome de uma lista de reprodução
 - playstop : com playstop = 1, isso interrompe as squeezeboxes após tts (caso contrário, elas retomarão seu estado inicial)
 - playoff : com playoff = 1, isso interromperá as squeezeboxes após tts (caso contrário, elas retomarão seu estado inicial)
 
-- **Configurar TTS :** opção muito interessante, permitindo em um cenário alterar a configuração do mecanismo TTS em tempo real (consulte a seção O TTS no cenário)
+- **Configurar TTS :** opção muito interessante que permite em um cenário alterar a configuração do mecanismo TTS em tempo real (consulte a seção O TTS no cenário)
 - **Pausa :** comando para pausar o squeezebox
 - **Anterior :** pedir música anterior
 - **Recuar :** comando de retorno rápido
@@ -188,7 +188,7 @@ Muitos comandos estão disponíveis através de cenários (outros virão). Aqui 
 - **Sincronizar com todos :** comando para sincronizar o squeezebox com todos os seus squeezeboxes
 - **Título atual :** comando info que contém o título atual
 - **Volume :** controle para ajustar o volume
-- **Volume Status :** comando info com volume atual
+- **Status do volume :** comando info com volume atual
 - **Volume + :** controle de volume
 - **Volume- :** controle para diminuir o volume
 
@@ -204,7 +204,7 @@ Para fazer isso, use a função "Configurar TTS"". Permite definir o mecanismo e
 
 ![tts3](../images/tts3.jpg)
 
-As opções possíveis para o mecanismo são (cuidado, respeite letras maiúsculas em minúsculas)
+As opções possíveis para o motor são (atenção respeite as letras maiúsculas em minúsculas)
 
 + ------------------ + ------------------------------ --------------------------- +
 | Motor           | Possíveis opções                                       |
