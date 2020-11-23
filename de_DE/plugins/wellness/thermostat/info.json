@@ -10,7 +10,7 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.3",
+    "require": "3.3.39",
     "category": "wellness",
     "display": "panel",
     "mobile": "panel",
