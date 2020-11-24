@@ -1,9 +1,10 @@
 {
     "id": "caldav",
     "name": "Agenda Caldav",
+    "description": "Auteur du plugin : Thomas Guenneguez. ATTENTION : il ne s’agit pas d’un plugin Officiel Jeedom mais d’un plugin développé par une tierce personne et dont l’évolution a été abandonnée. L’équipe technique Jeedom assurera l’assistance sur ce plugin sans obligation de résultat. Plugin pour lire les évènements d'un Agenda Caldav. Avec une expression régulière on peut, par exemple, extraire une température d'un évènement.",
     "licence": "AGPL",
     "author": "Jeedom Legacy",
-    "require": "1.20",
+    "require": "3.3.39",
     "category": "organization",
     "language": [
         "fr_FR",
