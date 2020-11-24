@@ -1,46 +1,46 @@
 # Wifip
-Ce plugin est utilisé pour une gestion de votre réseau wifi.
+Este plugin é usado para gerenciar sua rede wifi.
 
-## Activation et présentation du plugin Wifip
+## Ativação e apresentação do plugin Wifip
 ### Activation
-Après instalation de votre plugin, vous devez l'activer.
+Depois de instalar seu plugin, você deve ativá-lo.
 
-![wifip](/../images/activation.png)
+![wifip](/images/activation.png)
 
-Après avoir activé le plugin vous devriez le voir dans  **Plugins** → **Communication** → **Wifip**. Si ce n'est pas le cas n'hésitez pas à actualiser votre page (Ctrl+F5 ou Cmd+R).
+Depois de ativar o plugin, você deverá vê-lo em  **Plugins** → **Comunicação** → **Wifip**. Se não for esse o caso, não hesite em atualizar sua página (Ctrl + F5 ou Cmd + R).
 
-### Présentation
+### 1. Introdução
 
-Wifip est composé d'une vue principale et une vue sur vos objets
+O Wifip é composto por uma visão principal e uma visão dos seus objetos
 
-![wifip](/../images/bases.png)
+![wifip](/images/bases.png)
 
-Vous avez également la possibilité de consulter la santé de votre wifi.
+Você também pode verificar a saúde do seu wifi.
 
-## Votre équipement Wifip
+## O seu equipamento Wifip
 
-Dans la vue globale :
+Na visão global :
 
-Partie général :
+Parte geral :
 
-* Nom de votre équipement
-* Parent de votre équipement
+* Nome do seu equipamento
+* Pai do seu equipamento
 
-Partie Wifi :
+Parte wifi :
 
-* Case activer wifi
-* Différents réseaux wifi sélectionnables
-* Clé réseaux
+* Ativar caixa wifi
+* Diferentes redes wifi selecionáveis
+* Chave de rede
 
-Partie Informations :
+Seção de informações :
 
-* Adresse MAC ethernet
-* Adresse Ip ethernet
-* Adresse MAC wifi
-* Adresse Ip wifi
+* Endereço MAC Ethernet
+* Endereço IP Ethernet
+* Endereço MAC wifi
+* Endereço IP Wifi
 
-![wifip](/../images/equipement.png)
+![wifip](/images/equipement.png)
 
-Dans la vue commandes différentes commandes sont actives, pour chaque commandes les options suivantes sont disponibles : renommer, supprimer, historiser, configurer ou tester.
+Na visualização de comandos, diferentes comandos estão ativos; para cada comando, as seguintes opções estão disponíveis : renomear, excluir, arquivar, configurar ou testar.
 
-![wifip](/../images/commande.png)
+![wifip](/images/commande.png)

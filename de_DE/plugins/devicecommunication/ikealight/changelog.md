@@ -11,7 +11,7 @@
 # 01/12/2020
 
 - Fehlerbehebung im Installationsskript für Abhängigkeiten
-- Inversion des Widgets für die Stores (Löschen Sie die Geräte des Store-Typs und starten Sie den Daemon neu.)
+- Inversion des Widgets für die Geschäfte (Entfernen Sie die Geräte vom Typ Geschäft und starten Sie den Dämon neu)
 
 # 16.10.2019
 

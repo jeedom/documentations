@@ -14,7 +14,7 @@
 
 # 06/13/2019
 
-- Suppression of the restarting of the daemon at each change on the equipments (it is necessary now when you modify an equipment relaunch the daemon manually)
+- Suppression of the restarting of the daemon at each change on the equipment (it is now necessary when you modify an equipment to restart the daemon manually)
 
 # 02/20/2019
 
@@ -27,7 +27,7 @@
 # 12/14/2018
 
 - Bug fix
-- Setting the update frequency possible (in seconds)
+- Adjustment of the update frequency possible (in seconds)
 
 # 11/06/2018
 

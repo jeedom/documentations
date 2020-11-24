@@ -22,8 +22,8 @@ Aquí encontrarás toda la configuración de tu equipo :
 -   **Visible** : hace que su equipo sea visible en el tablero,
 -   **Categoría** : categorías de equipos (puede pertenecer a varias categorías),
 -   **IP** : La ecoRT2 ip,
--   **Clave API** : Clave de ecoRT2 API (por defecto, la clave de API es apikey)
--   **Extensión** : aquí debe indicar las extensiones presentes en ecoRT2 para que Jeedom pueda interrogarlas. Ejemplo para enOcean es necesario poner ENO (si tiene varios, es necesario separarlos por). Normalmente, todas las extensiones son compatibles, para que el código de la extensión sea necesario consultar la documentación de esta.
+-   **Clave API** : Clave API ecoRT2 (por defecto, la clave API es apikey)
+-   **Extensión** : aquí debe indicar las extensiones presentes en ecoRT2 para que Jeedom pueda interrogarlas. Ejemplo para enOcean debe poner ENO (si tiene varios, debe separarlos por ,). Normalmente, todas las extensiones son compatibles, para que el código de la extensión sea necesario consultar la documentación de esta.
 
 El complemento predeterminado no crea nada, dependerá de usted hacerlo de acuerdo con su configuración, pero será guiado.
 
@@ -34,7 +34,7 @@ El complemento predeterminado no crea nada, dependerá de usted hacerlo de acuer
 Tienes los tipos de acción :
 
 -   **Uno** : le permite establecer una salida (o entrada virtual) en 1, o asignar un valor a una entrada analógica (o contador)
--   **Apagado** : le permite establecer una salida (o entrada virtual) a 0
+-   **Apagado** : permite establecer en 0 una salida (o entrada virtual)
 -   **Alternar** : permite invertir el estado de una salida (o entrada virtual)
 
 Tienes los tipos de actuadores :

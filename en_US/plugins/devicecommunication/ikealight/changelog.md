@@ -11,7 +11,7 @@
 # 01/12/2020
 
 - Bug fix in the dependencies installation script
-- Inversion of the widget for the stores (be careful to delete the store type equipment and restart the daemon)
+- Inversion of the widget for the stores (be careful to remove the store type equipment and restart the demon)
 
 # 10/16/2019
 

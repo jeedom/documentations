@@ -23,7 +23,7 @@ Aqui você encontra toda a configuração do seu equipamento :
 -   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias),
 -   **IP** : O ecoRT2 ip,
 -   **Chave de API** : chave da API ecoRT2 (por padrão, a chave da API é apikey)
--   **Extensão** : aqui você deve indicar as extensões presentes no ecoRT2 para que o jeedom possa interrogá-las. Exemplo para enOcean, é necessário colocar ENO (se você tiver vários, será necessário separá-los por). Todas as extensões são normalmente suportadas, para que o código da extensão seja necessário, consulte a documentação deste.
+-   **Extensão** : aqui você deve indicar as extensões presentes no ecoRT2 para que o jeedom possa interrogá-las. Exemplo para enOcean, você deve colocar ENO (se você tiver vários, deverá separá-los por ,). Todas as extensões são normalmente suportadas, para que o código da extensão seja necessário, consulte a documentação deste.
 
 O plug-in padrão não cria nada, você pode fazer isso de acordo com sua configuração, mas você será guiado.
 
@@ -33,8 +33,8 @@ O plug-in padrão não cria nada, você pode fazer isso de acordo com sua config
 
 Você tem os tipos de ação :
 
--   **Nós** : permite definir uma saída (ou entrada virtual) para 1 ou atribuir um valor a uma entrada analógica (ou contador)
--   **Fora** : permite definir uma saída (ou entrada virtual) para 0
+-   **Nós** : permite definir uma saída (ou entrada virtual) para 1 ou atribuir um valor a uma entrada analógica (ou contador))
+-   **Fora** : permite definir para 0 uma saída (ou entrada virtual)
 -   **Alternar** : permite reverter o estado de uma saída (ou entrada virtual)
 
 Você tem os tipos de atuadores :

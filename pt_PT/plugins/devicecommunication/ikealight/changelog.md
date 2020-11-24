@@ -11,7 +11,7 @@
 # 01/12/2020
 
 - Correção de bug no script de instalação de dependências
-- Inversão do widget para as lojas (tenha cuidado para excluir o equipamento do tipo loja e reiniciar o daemon)
+- Inversão do widget para as lojas (cuidado para remover o equipamento do tipo loja e reiniciar o demônio)
 
 # 16/10/2019
 

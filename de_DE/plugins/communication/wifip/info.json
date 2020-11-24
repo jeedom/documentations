@@ -1,12 +1,14 @@
 {
-	"id" : "wifip",
-	"name" : "Wifip",
-	"description" : "Plugin pour gérer le wifi de votre box ainsi que fixer l'ip",
-	"licence" : "AGPL",
-	"author" : "Ludovic SARAKHA",
-	"require" : "3.0",
-	"category" : "communication",
-        "hasDependency" : true,
-        "changelog" : "https://jeedom.github.io/plugin-wifip/#language#/changelog",
-        "documentation" : "https://jeedom.github.io/plugin-wifip/#language#/"
+    "id": "wifip",
+    "name": "Wifip",
+    "description": "Plugin permettant de gérer le wifi de votre box ainsi que fixer l'ip.",
+    "licence": "AGPL",
+    "author": "Ludovic SARAKHA",
+    "require": "3.3.39",
+    "category": "communication",
+    "hasDependency": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/wifip\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/wifip\/",
+	  "language" : ["fr_FR","en_US","de_DE","sp_SP"],
+	  "compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
 }

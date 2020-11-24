@@ -1,4 +1,9 @@
 # Changelog Broadlink
+
+# 23/11/2020
+
+- Gestion des les dependances de certains installations corrompus par tierces de cryptography en python 3 (relancez les dépendances si vous êtes confrontés a un soucis)
+
 # 20/11/2020
 
 - Optimisations générales

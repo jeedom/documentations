@@ -1,6 +1,15 @@
+# Registro de cambios contando
+
+
 >**Importante**
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+# 05/11/2020
+
+- Eliminar comando para agregar comandos
+- Mejora de la gestión de equipos discapacitados
+
 
 # 16/05/2019
 

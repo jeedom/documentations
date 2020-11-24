@@ -14,7 +14,7 @@
 
 # 13/06/2019
 
-- Supressão da reinicialização do daemon a cada alteração nos equipamentos (é necessário agora que você modifica um equipamento para reiniciar o daemon manualmente)
+- Supressão da reinicialização do daemon a cada alteração no equipamento (agora é necessário quando você modifica um equipamento para reiniciar o daemon manualmente)
 
 # 20/02/2019
 
@@ -27,7 +27,7 @@
 # 14/12/2018
 
 - Bug fix
-- Configurando a frequência de atualização possível (em segundos)
+- Possível ajuste da frequência de atualização (em segundos)
 
 # 06/06/2018
 

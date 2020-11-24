@@ -23,7 +23,7 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 -   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören),
 -   **IP** : Die ecoRT2 ip,
 -   **API-Schlüssel** : ecoRT2-API-Schlüssel (standardmäßig ist der API-Schlüssel apikey)
--   **Erweiterung** : Hier müssen Sie die auf ecoRT2 vorhandenen Erweiterungen angeben, damit jeedom sie abfragen kann. Beispiel für enOcean ist es notwendig, ENO zu setzen (wenn Sie mehrere haben, müssen Sie diese durch trennen,). Alle Erweiterungen werden normalerweise unterstützt. Für den Code der Erweiterung muss auf die Dokumentation dieser Erweiterung verwiesen werden.
+-   **Erweiterung** : Hier müssen Sie die auf ecoRT2 vorhandenen Erweiterungen angeben, damit jeedom sie abfragen kann. Beispiel für enOcean müssen Sie ENO setzen (wenn Sie mehrere haben, müssen Sie diese durch trennen ,). Alle Erweiterungen werden normalerweise unterstützt. Für den Code der Erweiterung muss auf die Dokumentation dieser Erweiterung verwiesen werden.
 
 Das Standard-Plugin erstellt nichts, es liegt an Ihnen, dies gemäß Ihrer Konfiguration zu tun, aber Sie werden angeleitet.
 
@@ -33,9 +33,9 @@ Das Standard-Plugin erstellt nichts, es liegt an Ihnen, dies gemäß Ihrer Konfi
 
 Sie haben die Arten von Aktionen :
 
--   **Ein** : Mit dieser Option können Sie einen Ausgang (oder virtuellen Eingang) auf 1 setzen oder einem analogen Eingang (oder Zähler) einen Wert zuweisen
--   **Aus** : Mit dieser Option können Sie einen Ausgang (oder einen virtuellen Eingang) auf 0 setzen
--   **Umschalten** : ermöglicht das Umkehren des Status einer Ausgabe (oder einer virtuellen Eingabe)
+-   **Ein** : Mit dieser Option können Sie einen Ausgang (oder virtuellen Eingang) auf 1 setzen oder einem analogen Eingang (oder Zähler) einen Wert zuweisen)
+-   **Aus** : Ermöglicht das Setzen eines Ausgangs (oder eines virtuellen Eingangs) auf 0)
+-   **Umschalten** : Ermöglicht das Umkehren des Status einer Ausgabe (oder einer virtuellen Eingabe))
 
 Sie haben die Arten von Aktuatoren :
 

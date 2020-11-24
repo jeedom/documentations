@@ -23,7 +23,7 @@ Here you find all the configuration of your equipment :
 -   **Category** : equipment categories (it can belong to several categories),
 -   **IP** : The ecoRT2 ip,
 -   **API key** : ecoRT2 API key (by default the API key is apikey)
--   **Extension** : here you must indicate the extensions present on ecoRT2 so that jeedom can interrogate them. Example for enOcean it is necessary to put ENO (if you have several it is necessary to separate them by,). All the extensions are normally supported, for the code of the extension to put it is necessary to refer to the documentation of this one.
+-   **Extension** : here you must indicate the extensions present on ecoRT2 so that jeedom can interrogate them. Example for enOcean you must put ENO (if you have several, you must separate them by ,). All the extensions are normally supported, for the code of the extension to put it is necessary to refer to the documentation of this one.
 
 The default plugin does not create anything, it will be up to you to do it according to your configuration, but you will be guided.
 
@@ -34,7 +34,7 @@ The default plugin does not create anything, it will be up to you to do it accor
 You have the types of action :
 
 -   **We** : allows you to set an output (or virtual input) to 1, or to assign a value to an analog input (or counter)
--   **Off** : allows you to set an output (or virtual input) to 0
+-   **Off** : allows to set to 0 an output (or virtual input)
 -   **Toggle** : allows to reverse the state of an output (or virtual input)
 
 You have the types of actuators :

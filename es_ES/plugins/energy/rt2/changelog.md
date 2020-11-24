@@ -14,7 +14,7 @@
 
 # 06/13/2019
 
-- Supresión del reinicio del demonio en cada cambio en los equipos (ahora es necesario que cuando modifique un equipo reinicie el demonio manualmente)
+- Supresión del reinicio del demonio en cada cambio en el equipo (ahora es necesario cuando modifica un equipo para reiniciar el demonio manualmente)
 
 # 20/02/2019
 
@@ -27,7 +27,7 @@
 # 14/12/2018
 
 - Corrección de errores
-- Establecer la frecuencia de actualización posible (en segundos)
+- Ajuste de la frecuencia de actualización posible (en segundos)
 
 # 06/11/2018
 

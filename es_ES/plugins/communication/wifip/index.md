@@ -1,101 +1,46 @@
-Waze in Time 
-============
+# Wifip
+Este complemento se usa para administrar su red wifi.
 
-Description 
------------
+## Activación y presentación del complemento Wifip
+### Activation
+Después de instalar su complemento, debe activarlo.
 
-Ce plugin permet d’avoir les infos de trajet (traffic pris en compte)
-via Waze. Ce plugin peux ne plus marcher si Waze n’acceptes plus qu’on
-interroge son site
+![wifip](/images/activation.png)
 
-![wazeintime screenshot1](./images/wazeintime_screenshot1.jpg)
+Después de activar el complemento, debería verlo en  **Plugins** → **Comunicación** → **Wifip**. Si este no es el caso, no dude en actualizar su página (Ctrl + F5 o Cmd + R).
 
-Configuration 
--------------
+### Presentación
 
-### Configuration du plugin: 
+Wifip se compone de una vista principal y una vista de sus objetos
 
-a.  Installation/Création
+![wifip](/images/bases.png)
 
-Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-l’activer comme tout plugin Jeedom.
+También puedes verificar el estado de tu wifi.
 
-Suite à cela il vous faudra créer votre ou vos trajets :
+## Tu equipo Wifip
 
-Rendez vous dans le menu plugins/organisation, vous y trouverez le
-plugin Waze Duration :
+En la visión global :
 
-![configuration1](./images/configuration1.jpg)
+Parte general :
 
-Ensuite vous arriverez sur la page qui listera vos équipements (vous
-pouvez avoir plusieurs Trajets) et qui vous permettra d’en créer
+* Nombre de su equipo
+* Padre de su equipo
 
-![wazeintime screenshot2](./images/wazeintime_screenshot2.jpg)
+Parte wifi :
 
-Cliquez sur le bouton Ajouter un Trajet ou sur le bouton + :
+* Activar caja wifi
+* Diferentes redes wifi seleccionables
+* Clave de red
 
-![config2](./images/config2.jpg)
+Sección de información :
 
-Vous arriverez ensuite sur la page de configuration de votre Trajet:
+* Dirección MAC Ethernet
+* Dirección IP de Ethernet
+* Dirección MAC wifi
+* Dirección IP Wifi
 
-![wazeintime screenshot3](./images/wazeintime_screenshot3.jpg)
+![wifip](/images/equipement.png)
 
-Sur cette page vous trouverez trois sections :
+En la vista de comandos hay diferentes comandos activos, para cada comando están disponibles las siguientes opciones : renombrar, eliminar, archivar, configurar o probar.
 
-i.  Général
-
-Vous trouverez dans cette section toutes les configurations jeedom. A
-savoir le nom de votre équippement, l’objet auquel vous voulez
-l’associer, la catégorie, si vous voulez que l’équippement soit actif ou
-non , et enfin si vous voulez qu’il soit visible sur le dashboard.
-
-i.  Configuration
-
-Cette section est une des plus importantes elle permet de régler le
-point de départ et d’arrivée :
-
--   Ces infos doivent être les latitudes et longitudes des positions
-
--   Elles peuvent être retrouvées en utilisant le site fournis en
-    cliquant sur le lien de la page (il vous suffit de rentrer une
-    adresse et de cliquer sur obtenir les coordonnées GPS)
-
-    i.  Tableau de Commandes
-
-![config3](./images/config3.jpg)
-
--   Durée 1 : durée aller avec le trajet 1
-
--   Durée 2 : durée aller avec le trajet alternatif
-
--   Trajet 1 : Trajet 1
-
--   Trajet 2 : Trajet alternatif
-
--   Durée retour 1 : durée retour avec le trajet 1
-
--   Durée retour 2 : durée retour avec le trajet alternatif
-
--   Trajet retour 1 : Trajet retour 1
-
--   Trajet retour 2 : Trajet retour alternatif
-
--   Rafraichir : Permet de rafraichir les infos
-
-Toutes ces commandes sont disponibles via scénarios et via le dashboard
-
-### Le widget : 
-
-![wazeintime screenshot1](./images/wazeintime_screenshot1.jpg)
-
--   Le bouton en haut à droite permet de rafraichir les infos.
-
--   Toutes les infos sont visibles (pour les trajets, si le trajet est
-    long, il peut être tronquée mais la version complète est visible en
-    laissant la souris dessus)
-
-### Comment sont rafraichis les infos : 
-
-Les infos sont rafraichis une fois toutes les 30 minutes. Vous pouvez
-les rafraichir à la demande via scénario avec la commande rafraichir, ou
-via le dash avec les doubles flêches
+![wifip](/images/commande.png)

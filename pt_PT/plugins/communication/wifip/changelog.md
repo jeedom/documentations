@@ -1,3 +1,5 @@
+# Changelog Wifip
+
 # 14/09/2018
 
-- Suppression de la doc qui ne correpond pas au plugin
+- Exclusão do documento que não corresponde ao plugin

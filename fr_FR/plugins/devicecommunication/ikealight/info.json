@@ -1,10 +1,16 @@
 {
     "id": "ikealight",
     "name": "Ikea",
-    "description": "Le plugin IkeaLight permet d’établir un lien avec la passerelle Ikea Tradfri. Vous pourrez controller vos lumières et avoir un retour d'état temps réel.",
+    "description": {
+        "fr_FR": "Le plugin IkeaLight permet d’établir un lien avec la passerelle Ikea Tradfri. Vous pourrez contrôler vos lumières et avoir un retour d'état en temps réel.",
+        "en_US": "The IkeaLight plugin makes it possible to establish a link with the Ikea Tradfri gateway. You will be able to control your lights and have real-time status feedback",
+        "es_ES": "El complemento IkeaLight permite establecer un enlace con la puerta de enlace Ikea Tradfri. Podrá controlar sus luces y recibir comentarios sobre el estado en tiempo real",
+        "de_DE": "Mit dem IkeaLight-Plugin kann eine Verbindung zum Ikea Tradfri-Gateway hergestellt werden. Sie können Ihre Lichter steuern und erhalten eine Echtzeit-Statusrückmeldung",
+        "pt_PT": "O plug-in IkeaLight possibilita estabelecer um link com o gateway Ikea Tradfri. Você poderá controlar suas luzes e obter feedback de status em tempo real"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.0",
+    "require": "3.3.39",
     "category": "devicecommunication",
     "hasDependency": 1,
     "hasOwnDeamon": 1,
@@ -13,17 +19,17 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
-        "Jeedomboard",
-        "Smart",
-        "RPI\/RPI2",
-        "Docker",
-        "DIY"
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
     ]
 }

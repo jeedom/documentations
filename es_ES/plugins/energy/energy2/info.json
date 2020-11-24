@@ -1,10 +1,16 @@
 {
     "id": "energy2",
     "name": "Comptage",
-    "description": "Plugin pour le comptage de l’énergie (gaz, électricité et eau). Permet de faire un calcul estimatif du DPE.",
+    "description": {
+        "fr_FR": "Plugin pour le comptage de l’énergie (gaz, électricité et eau). Permet de faire un calcul estimatif du DPE.",
+        "en_US": "Plugin for energy metering (gas, electricity and water). Allows an estimated calculation of the DPE",
+        "es_ES": "Plugin para medición de energía (gas, electricidad y agua). Permite un cálculo estimado del DPE",
+        "de_DE": "Plugin zur Energiemessung (Gas, Strom und Wasser). Ermöglicht eine geschätzte Berechnung der DPE",
+        "pt_PT": "Plugin para medição de energia (gás, eletricidade e água). Permite um cálculo estimado do DPE"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.2",
+    "require": "3.3.39",
     "category": "energy",
     "display": "panel",
     "mobile": "panel",
@@ -13,11 +19,9 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",
@@ -25,6 +29,7 @@
         "rpi",
         "docker",
         "diy",
-        "mobile"
+        "mobile",
+        "v4"
     ]
 }

@@ -1,19 +1,19 @@
 # Wifip
-Ce plugin est utilisé pour une gestion de votre réseau wifi.
+Ce plugin est utilisé pour la gestion de votre réseau wifi.
 
 ## Activation et présentation du plugin Wifip
 ### Activation
-Après instalation de votre plugin, vous devez l'activer.
+Après installation du plugin, vous devez l'activer.
 
-![wifip](/../images/activation.png)
+![wifip](/images/activation.png)
 
-Après avoir activé le plugin vous devriez le voir dans  **Plugins** → **Communication** → **Wifip**. Si ce n'est pas le cas n'hésitez pas à actualiser votre page (Ctrl+F5 ou Cmd+R).
+Après avoir activé le plugin vous devriez le voir dans  **Plugins** → **Communication** → **Wifip**. Si ce n'est pas le cas, n'hésitez pas à actualiser votre page (``Ctrl+F5`` ou ``Cmd+R``).
 
 ### Présentation
 
 Wifip est composé d'une vue principale et une vue sur vos objets
 
-![wifip](/../images/bases.png)
+![wifip](/images/bases.png)
 
 Vous avez également la possibilité de consulter la santé de votre wifi.
 
@@ -39,8 +39,8 @@ Partie Informations :
 * Adresse MAC wifi
 * Adresse Ip wifi
 
-![wifip](/../images/equipement.png)
+![wifip](/images/equipement.png)
 
 Dans la vue commandes différentes commandes sont actives, pour chaque commandes les options suivantes sont disponibles : renommer, supprimer, historiser, configurer ou tester.
 
-![wifip](/../images/commande.png)
+![wifip](/images/commande.png)

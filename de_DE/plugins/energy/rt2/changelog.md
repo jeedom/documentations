@@ -14,7 +14,7 @@
 
 # 2019.06.13
 
-- Unterdrückung des Neustarts des Dämons bei jeder Änderung an den Geräten (dies ist jetzt erforderlich, wenn Sie ein Gerät ändern und den Dämon manuell neu starten)
+- Unterdrückung des Neustarts des Dämons bei jeder Änderung am Gerät (es ist jetzt erforderlich, wenn Sie ein Gerät ändern, um den Dämon manuell neu zu starten)
 
 # 20.02.2019
 
@@ -27,7 +27,7 @@
 # 14.12.2008
 
 - Fehlerbehebung
-- Einstellen der Aktualisierungsfrequenz möglich (in Sekunden)
+- Anpassung der Aktualisierungsfrequenz möglich (in Sekunden)
 
 # 11/06/2018
 

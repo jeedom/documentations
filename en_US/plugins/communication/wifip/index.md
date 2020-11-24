@@ -1,101 +1,46 @@
-Waze in Time 
-============
+# Wifip
+This plugin is used for managing your wifi network.
 
-Description 
------------
+## Wifip plugin activation and presentation
+### Activation
+After installing your plugin, you must activate it.
 
-Ce plugin permet d’avoir les infos de trajet (traffic pris en compte)
-via Waze. Ce plugin peux ne plus marcher si Waze n’acceptes plus qu’on
-interroge son site
+![wifip](/images/activation.png)
 
-![wazeintime screenshot1](./images/wazeintime_screenshot1.jpg)
+After activating the plugin you should see it in  **Plugins** → **Communication** → **Wifip**. If this is not the case do not hesitate to update your page (Ctrl + F5 or Cmd + R).
 
-Configuration 
--------------
+### Presentation
 
-### Configuration du plugin: 
+Wifip is composed of a main view and a view on your objects
 
-a.  Installation/Création
+![wifip](/images/bases.png)
 
-Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-l’activer comme tout plugin Jeedom.
+You can also check the health of your wifi.
 
-Suite à cela il vous faudra créer votre ou vos trajets :
+## Your Wifip equipment
 
-Rendez vous dans le menu plugins/organisation, vous y trouverez le
-plugin Waze Duration :
+In the global view :
 
-![configuration1](./images/configuration1.jpg)
+General part :
 
-Ensuite vous arriverez sur la page qui listera vos équipements (vous
-pouvez avoir plusieurs Trajets) et qui vous permettra d’en créer
+* Name of your equipment
+* Parent of your equipment
 
-![wazeintime screenshot2](./images/wazeintime_screenshot2.jpg)
+Wifi part :
 
-Cliquez sur le bouton Ajouter un Trajet ou sur le bouton + :
+* Activate wifi box
+* Different wifi networks selectable
+* Network key
 
-![config2](./images/config2.jpg)
+Information section :
 
-Vous arriverez ensuite sur la page de configuration de votre Trajet:
+* Ethernet MAC address
+* Ethernet IP address
+* MAC address wifi
+* Wifi IP address
 
-![wazeintime screenshot3](./images/wazeintime_screenshot3.jpg)
+![wifip](/images/equipement.png)
 
-Sur cette page vous trouverez trois sections :
+In the commands view different commands are active, for each command the following options are available : rename, delete, archive, configure or test.
 
-i.  Général
-
-Vous trouverez dans cette section toutes les configurations jeedom. A
-savoir le nom de votre équippement, l’objet auquel vous voulez
-l’associer, la catégorie, si vous voulez que l’équippement soit actif ou
-non , et enfin si vous voulez qu’il soit visible sur le dashboard.
-
-i.  Configuration
-
-Cette section est une des plus importantes elle permet de régler le
-point de départ et d’arrivée :
-
--   Ces infos doivent être les latitudes et longitudes des positions
-
--   Elles peuvent être retrouvées en utilisant le site fournis en
-    cliquant sur le lien de la page (il vous suffit de rentrer une
-    adresse et de cliquer sur obtenir les coordonnées GPS)
-
-    i.  Tableau de Commandes
-
-![config3](./images/config3.jpg)
-
--   Durée 1 : durée aller avec le trajet 1
-
--   Durée 2 : durée aller avec le trajet alternatif
-
--   Trajet 1 : Trajet 1
-
--   Trajet 2 : Trajet alternatif
-
--   Durée retour 1 : durée retour avec le trajet 1
-
--   Durée retour 2 : durée retour avec le trajet alternatif
-
--   Trajet retour 1 : Trajet retour 1
-
--   Trajet retour 2 : Trajet retour alternatif
-
--   Rafraichir : Permet de rafraichir les infos
-
-Toutes ces commandes sont disponibles via scénarios et via le dashboard
-
-### Le widget : 
-
-![wazeintime screenshot1](./images/wazeintime_screenshot1.jpg)
-
--   Le bouton en haut à droite permet de rafraichir les infos.
-
--   Toutes les infos sont visibles (pour les trajets, si le trajet est
-    long, il peut être tronquée mais la version complète est visible en
-    laissant la souris dessus)
-
-### Comment sont rafraichis les infos : 
-
-Les infos sont rafraichis une fois toutes les 30 minutes. Vous pouvez
-les rafraichir à la demande via scénario avec la commande rafraichir, ou
-via le dash avec les doubles flêches
+![wifip](/images/commande.png)
