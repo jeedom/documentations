@@ -20,9 +20,9 @@ Here you find all the configuration of your equipment :
 -   **Visible** : makes your equipment visible on the dashboard,
 -   **Category** : equipment categories (it can belong to several categories).
 -   **IP adress** : socket IP address
--   **Login** : login login (default ubnt)
+-   **Login** : connection login (by default ubnt)
 -   **Password** : password (default ubnt)
--   **Take number** : outlet number (starts at 1)
+-   **Take number** : take number (starts at 1)
 
 > **NOTE**
 >

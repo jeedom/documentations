@@ -1,106 +1,106 @@
-Plugin permettant de connecter une enceinte Bluetooth à votre Jeedom. Le
-plugin permet aussi de contrôler le volume de votre enceinte via le
-package pulseaudio.
+Plugin que permite conectar un altavoz Bluetooth a su Jeedom. El
+El complemento también le permite controlar el volumen de su altavoz a través de
+paquete pulseaudio.
 
 Description : 
 =============
 
-Ce plugin permet la gestion du service PulseAudio. Ce service gère tout
-ce qui concerne les entrées sorties sons et micro, que les sorties
-soient filaires, via bluetooth ou encore sur le réseau.
+Este complemento permite la gestión del servicio PulseAudio. Este servicio gestiona todo
+con respecto a las entradas y salidas de audio y micrófono, como las salidas
+ya sea por cable, a través de bluetooth o en la red.
 
-Il rend également visible le service PulseAudio sur votre réseau
-interne, il vous est alors possible de le contrôler depuis un PC sous
-GNU/Linux et de faire en sorte que la musique lue sur votre PC soit
-envoyée sur la sortie son de Jeedom.
+También hace que el servicio PulseAudio sea visible en su red
+interno, puede controlarlo desde una PC en ejecución
+GNU / Linux y obtén la música que suena en tu PC
+enviado en salida de sonido Jeedom.
 
-Ce plugin permet également l’ajout des enceintes Bluetooth au service
-PulseAudio de Jeedom et le propose comme une sortie standard. Ainsi, via
-Jeedom et ce plugin PulseAudio vous pouvez exécuter Deezer sur votre PC
-sous GNU/Linux (ou Windows avec le client PulseAudio compatible) et
-faire en sorte que le son soit envoyés aux enceintes bluetooth
-raccordées à Jeedom ainsi que sur la sortie son (HDMI/Jack) de Jeedom
-pour compléter avec un ampli.
+Este complemento también permite agregar altavoces Bluetooth al servicio
+Jeedom PulseAudio y lo ofrece como salida estándar. Entonces, vía
+Jeedom y este complemento PulseAudio puedes ejecutar Deezer en tu PC
+bajo GNU / Linux (o Windows con el cliente PulseAudio compatible) y
+recibe el sonido enviado a los altavoces bluetooth
+conectado a Jeedom así como a la salida de sonido (HDMI / Jack) de Jeedom
+para completar con un amplificador.
 
-Ce mode simultané arrivera prochainement avec la possibilité de mettre
-une latence, évitant le décalage entre les sorties son
-HDMI/Jack/Bluetooth, parfait pour le mode soirée à la foi sur la
-terrasse avec les enceintes Bluetooth et dans la salle avec l’ampli !
+Este modo simultáneo llegará pronto con la posibilidad de configurar
+latencia, evitando el retraso entre salidas de sonido
+HDMI / Jack / Bluetooth, perfecto para el modo nocturno a la fe en el
+terraza con altavoces Bluetooth y en la sala con amplificador !
 
-Configuration 
+Configuración 
 =============
 
-Installation du plugin 
+Instalación de complementos 
 ----------------------
 
-Après téléchargement du plugin, il vous faudra simplement activer le
+Después de descargar el complemento, simplemente deberá activar el
 plugin :
 
 ![image](index_html_6e0dcff06783d142.png)
 
-Lancez l’installation des dépendances :
+Iniciar la instalación de dependencias:
 
 ![image](index_html_ee255917648caafe.png)
 
-L’installation peut prendre du temps…
+La instalación puede llevar tiempo
 
 ![image](index_html_8f5ac294e319722b.png)
 
-Une fois les dépendances installées, la date de la dernière installation
-est inscrite :
+Una vez que se instalan las dependencias, la fecha de la última instalación
+está registrado:
 
 ![image](index_html_ae07628d0d9cf23c.png)
 
 Allez dans les logs puis vérifiez le log « pulseaudio\_dep » afin de
-vérifier s’il y a des éventuelles erreurs
+verificar si hay errores
 
 ![image](index_html_1857092a331f01.png)
 
-Configuration du plugin 
+Configuración del plugin 
 -----------------------
 
-De retour dans la configuration du plugin Pulseaudio, dans la section
+De vuelta en la configuración del complemento Pulseaudio, en la sección
 « Plugin PulseAudio », sélectionner le port de clé Bluetooth :
 
 ![image](index_html_a5211f99cfeafe53.png)
 
-Enfin, sauvegardez les modifications.
+Finalmente, guarda los cambios.
 
-Configuración del dispositivo
+Configuración del equipo 
 =============================
 
-Pour accéder à la configuration des équipements PulseAudio, aller dans
-l’onglet « Plugins », « Multimédia » puis « PulseAudio » :
+Para acceder a la configuración del equipo PulseAudio, vaya a
+l'onglet « Plugins », « Multimédia » puis « PulseAudio » :
 
 ![image](index_html_6144037f2a656556.png)
 
-Cliquez sur « Ajouter » pour ajouter une enceinte Bluetooth :
+Cliquez sur « Ajouter » pour ajouter une Altavoz bluetooth :
 
 ![image](index_html_a952e7310171feda.png)
 
-Ajoutez un nom à votre équipement :
+Agregue un nombre a su equipo:
 
 ![image](index_html_5a766711e205ad3.png)
 
-Renseignez les différents champs :
+Rellene los diferentes campos:
 
 ![image](index_html_59ce8e4aed01a0ef.png)
 
--   **Nom de l’enceinte Bluetooth** : le nom de votre équipement
+-   **Nombre del altavoz Bluetooth** : el nombre de tu equipo
 
--   **Objet parent** : indique l’objet parent auquel appartient
+-   **Objeto padre** : indica el objeto padre al que pertenece
     equipo
 
--   **Port clé Bluetooth** : sélection du port de votre émetteur
-    Bluetooth utilisé pour ce profil
+-   **Puerto de llave Bluetooth** : selección del puerto de su transmisor
+    Bluetooth utilizado para este perfil
 
--   **Catégorie** : les catégories de l’équipement
+-   **Categoría** : categorías de equipos
 
--   **Commentaire** : perme d’ajouter un commentaire
+-   **Comentario** : permite agregar un comentario
 
--   ** ** Activar: para que su equipo activo
+-   **Activar** : activa su equipo
 
-Cliquez sur l’assistant d’appairage :
+Haga clic en el asistente de emparejamiento:
 
 ![image](index_html_b11a463a181fee2c.png)
 
@@ -108,87 +108,87 @@ Cliquez sur le bouton « suivant » :
 
 ![image](index_html_74cfef6547af4c77.png)
 
-L’assistant scanne les périphériques Bluetooth situés aux alentours de
-votre box Jeedom :
+El asistente escanea los dispositivos Bluetooth ubicados alrededor
+tu caja Jeedom:
 
 ![image](index_html_fe41bb846a95a14d.png)
 
-Entez l’adresse MAC de votre enceinte Bluetooth, puis cliquez sur
+Ingrese la dirección MAC de su altavoz Bluetooth, luego haga clic
 « suivant » :
 
 ![image](index_html_dc20199f96adebcf.png)
 
-L’assistant connecte votre enceinte Bluetooth à Jeedom :
+El asistente conecta su altavoz Bluetooth a Jeedom:
 
 ![image](index_html_775afe588b6090f6.png)
 
 Une fois terminé, cliquez sur « suivant » .
 
-Entrez un nom de service.
+Ingrese un nombre de servicio.
 
-**ATTENTION** : il ne faut aucun espace ou caractère spécial dans ce nom
-de service
+**Atención** : no debe haber espacios ni caracteres especiales en este nombre
+de servicio
 
 Cliquez sur « suivant » une fois terminé :
 
 ![image](index_html_d15cbd674d21a3e7.png)
 
-Fermez l’assistant :
+Cierra el asistente:
 
 ![image](index_html_34ceb59a4191f244.png)
 
-L’adresse MAC de votre enceinte Bluetooth et le nom du service associé
-sont renseignés :
+La dirección MAC de su altavoz Bluetooth y el nombre del servicio asociado
+están informados:
 
 ![image](index_html_2f0531b2fa9ff325.png)
 
-Activez, puis Enregistrez l’équipement :
+Activar, luego registrar equipo:
 
 ![image](index_html_b314d3c57bca2c32.png)
 
-Preguntas frecuentes
+Preguntas frecuentes 
 ===
 
-**Comment vérifier le status de mon service associé à mon enceinte ?.**
+**Cómo verificar el estado de mi servicio asociado con mi gabinete ?.**
 
 Cliquez sur le bouton « Status » :
 
 ![image](index_html_44f3633e34fd5c50.png)
 
-Vérifier le statut du service. Celui-ci doit être démarré (start) avec
-succès (SUCCESS) :
+Verificar el estado del servicio. Esto debe comenzar con
+éxito (ÉXITO):
 
 ![image](index_html_fa551e46a49f58af.png)
 
-**Comment tester l’envoi d’un fichier son à mon enceinte ?.**
+**Cómo probar el envío de un archivo de sonido a mi altavoz ?.**
 
 Cliquez sur le bouton « Tester » :
 
 ![image](index_html_bcb212ce18487be2.png)
 
-La lecture d’un fichier audio de test démarre. Le son sort de votre
-enceinte Bluetooth.
+Comienza la reproducción de un archivo de audio de prueba. El sonido sale de tu
+Altavoz bluetooth.
 
-Pour arrêter le test, cliquez sur « Arrêter le test ». Le processus de
-lecture est stoppé.
+Pour arrêter le test, cliquez sur « Arrêter le test ». El proceso de
+la lectura se detiene.
 
 ![image](index_html_d2e914b1c2572539.png)
 
-**Comment régler le volume de mes sorties son ?.**
+**Cómo ajustar el volumen de mis salidas de sonido?.**
 
-Allez dans la configuration du plugin Pulseaudio, dans la section
+Vaya a la configuración del complemento Pulseaudio, en la sección
 « Plugin PulseAudio » :
 
 ![image](index_html_5ba2b0d4b358e723.png)
 
-**Le volume de votre enceinte peut être réglé. Vous pouvez aussi cocher
-les sorties audios à désactiver**
+**El volumen de su altavoz se puede ajustar. También puedes consultar
+las salidas de audio para desactivar**
 
-Troubleshoting 
+Solucionar problemas 
 ==============
 
-**Je n’ai pas de son !!!.**
+**No tengo sonido!!!.**
 
-Pensez à vérifier tous les logs afin de détecter un éventuel problème 
+Recuerde verificar todos los registros para detectar un posible problema
 
 ![image](index_html_672321a0b40ba4c5.png)

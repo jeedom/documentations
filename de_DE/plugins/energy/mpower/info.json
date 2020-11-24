@@ -1,27 +1,34 @@
 {
     "id": "mpower",
     "name": "Mpower",
-    "description": "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : Etat Puissance Consommation Courant Voltage Et facteur de puissance Les données sont rafraichies toutes les minutes et après une action depuis jeedom Uniquement testé sur le modèle 6 prises",
+    "description": {
+        "fr_FR": "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : état, puissance, consommation, courant, voltage et facteur de puissance. Les données sont rafraichies toutes les minutes et après une action depuis jeedom. Uniquement testé avec le modèle 6 prises.",
+        "en_US": "This plugin allows you to control your Mpower multiple sockets. The widget allows you to see all the information: State Power Consumption Current Voltage And power factor The data are refreshed every minute and after an action from jeedom Only tested on the 6 socket model",
+        "es_ES": "Este complemento le permite controlar sus múltiples sockets Mpower. El widget le permite ver toda la información: Consumo de energía del estado Voltaje de corriente y factor de potencia Los datos se actualizan cada minuto y después de una acción de jeedom Solo probado en el modelo de 6 sockets",
+        "de_DE": "Mit diesem Plugin können Sie Ihre Mpower-Mehrfachbuchsen steuern. Mit dem Widget können Sie alle Informationen anzeigen: Status Stromverbrauch Stromspannung und Leistungsfaktor Die Daten werden jede Minute und nach einer Aktion von jeedom aktualisiert. Nur getestet am 6-Sockel-Modell",
+        "pt_PT": "Este plugin permite que você controle seus múltiplos soquetes Mpower. O widget permite ver todas as informações: Estado Consumo de energia Tensão atual e fator de potência Os dados são atualizados a cada minuto e após uma ação de jeedom Testado apenas no modelo de 6 soquetes"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.0",
+    "require": "3.3.39",
     "category": "energy",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/mpower\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/mpower\/",
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
         "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
-        "Jeedomboard",
-        "Smart",
-        "RPI\/RPI2",
-        "Docker",
-        "DIY"
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
     ]
 }

@@ -20,9 +20,9 @@ Aquí encontrarás toda la configuración de tu equipo :
 -   **Visible** : hace que su equipo sea visible en el tablero,
 -   **Categoría** : categorías de equipos (puede pertenecer a varias categorías).
 -   **Dirección IP** : dirección IP de socket
--   **Login** : login login (ubnt predeterminado)
+-   **Login** : inicio de sesión de conexión (por defecto ubnt)
 -   **Contraseña** : contraseña (ubnt predeterminada)
--   **Toma el número** : número de salida (comienza en 1)
+-   **Toma el número** : tomar número (comienza en 1)
 
 > **Nota**
 >

@@ -20,9 +20,9 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 -   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
 -   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören).
 -   **IP-Adresse** : Socket-IP-Adresse
--   **Login** : Login Login (Standard ubnt)
+-   **Login** : Verbindungsanmeldung (standardmäßig ubnt)
 -   **Passwort** : Passwort (Standard ubnt)
--   **Nimm die Nummer** : Steckdosenummer (beginnt bei 1)
+-   **Nimm die Nummer** : Nummer nehmen (beginnt bei 1)
 
 > **Notiz**
 >

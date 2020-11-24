@@ -20,9 +20,9 @@ Aqui você encontra toda a configuração do seu equipamento :
 -   **Visivél** : torna seu equipamento visível no painel,
 -   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias).
 -   **Endereço IP** : endereço IP do soquete
--   **Entrar** : login login (ubnt padrão)
+-   **Entrar** : login de conexão (por padrão, ubnt)
 -   **Senha** : senha (ubnt padrão)
--   **Take number** : número da tomada (começa em 1)
+-   **Take number** : pegue o número (começa em 1)
 
 > **NOTA**
 >
