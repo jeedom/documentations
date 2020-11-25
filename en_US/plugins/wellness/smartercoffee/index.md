@@ -1,6 +1,6 @@
 # Smartcoffee plugin
 
-This plugin allows you to manage your Smarter coffee maker (attention only V1 not the ifttt compatible version).
+This plugin allows you to manage your Smarter coffee maker (be careful only V1 not the ifttt compatible version).
 
 # Plugin configuration 
 

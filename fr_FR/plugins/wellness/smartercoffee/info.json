@@ -1,10 +1,16 @@
 {
     "id": "smartercoffee",
     "name": "Smarter Coffee",
-    "description": "Plugin pour gérer la cafetière smarter",
+    "description": {
+        "fr_FR": "Plugin permettant de gérer la cafetière smarter. Attention : uniqument compatible avec la version 1 de la cafetière, la version 2 qui gère Ifttt n'est pas compatible",
+        "en_US": "Plugin to manage the smarter coffee maker",
+        "es_ES": "Complemento para administrar la cafetera más inteligente",
+        "de_DE": "Plugin zur Verwaltung der intelligenteren Kaffeemaschine",
+        "pt_PT": "Plug-in para gerenciar a cafeteira mais inteligente"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.0",
+    "require": "3.3.39",
     "category": "wellness",
     "hasOwnDeamon": true,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/smartercoffee\/changelog",
@@ -12,17 +18,17 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",
         "smart",
         "rpi",
         "docker",
-        "diy"
+        "diy",
+        "mobile",
+        "v4"
     ]
 }

@@ -82,6 +82,12 @@
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_signal_repeater.png" width="60" />|Ikea|Repetidor de Ikea||||
 |<img src="../../es_ES/zigbee/images/KE.TRADFRI_openclose_remote.png" width="60" />|Ikea|Tienda Ikea control remoto 2 botones||||
 
+# Innr
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/Innr.RB285C.png" width="60" />|Innr|INNR E27 Multicolor RGBW + Blanco||||
+
 # Nodon
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -226,4 +232,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-11-24 01:32:03
+2020-11-25 01:32:04

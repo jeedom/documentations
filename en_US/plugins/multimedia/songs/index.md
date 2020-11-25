@@ -16,4 +16,4 @@ Just in Plugins -> Multimedia -> Sounds click on add then :
 
 # Utilisation
 
-Once your sound is added to use it, you must put in the TTS message #id# (id being the identifier of the sound created above)
+Once your sound is added, you can put in the TTS message #id# (id being the identifier of the sound created above)

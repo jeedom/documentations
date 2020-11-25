@@ -1,32 +1,29 @@
 # Plugin Geoloc
 
+# Description
+
 Plugin permettant de gérer des coordonnées et le calcul de distance entre 2 points, le temps de trajet (en voiture) entre 2 points ainsi que la distance.
 
 # Configuration
 
-Une fois le plugin installé et activé à partir du Market, on accède à la page du plugin Géolocalisation par :
+Une fois le plugin installé et activé à partir du Market, on accède à la page du plugin Géolocalisation par le menu Plugins → Organisation → Geoloc.
 
-![geoloc28](./images/geoloc28.jpg)
 
 Vous retrouvez ici tous vos équipements Geoloc :
 
 ![geoloc29](./images/geoloc29.jpg)
 
-> **Tip**
->
-> Comme à beaucoup d’endroit sur Jeedom, placer la souris tout à gauche permet de faire apparaître un menu d’accès rapide (vous pouvez à partir de votre profil le laisser toujours visible).
-
-Une fois un équipement sélectionné vous obtenez :
+Une fois un équipement sélectionné vous arrivez sur cette page :
 
 ![geoloc screenshot1](./images/geoloc_screenshot1.JPG)
 
-L’onglet « Général » permet de choisir le nom de l’équipement, l’objet parent ainsi que son état et sa visibilité. L’onglet « Commande » permet de rajouter les informations que nous voulons obtenir. Une fois l’équipement ajouté, nous avons le choix entre trois types de commandes : fixe, dynamique et distance.
+L’onglet «Equipement» permet de choisir le nom de l’équipement, l’objet parent ainsi que son état et sa visibilité. L’onglet «Commandes» permet d'ajouter les informations que nous voulons obtenir. Une fois l’équipement ajouté, nous avons le choix entre trois types de commandes : fixe, dynamique et distance.
 
 ![geoloc screenshot2](./images/geoloc_screenshot2.jpg)
 
 ## Fixe
 
-Représente un point ayant des coordonnées qui ne changent pas. Par exemple les coordonnées de votre habitation, de votre travail…​ Il vous suffit de noter les coordonnées sous la forme : Latitude,Longitude.
+Représente un point ayant des coordonnées qui ne changent pas. Par exemple, les coordonnées de votre habitation, de votre travail, etc…​ Il vous suffit de noter les coordonnées sous la forme : ``Latitude,Longitude``.
 
 ![geoloc3](./images/geoloc3.jpg)
 

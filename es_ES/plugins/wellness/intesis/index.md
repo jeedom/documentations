@@ -14,7 +14,7 @@ Después de descargar el complemento, primero debe activarlo, ya que <br>cualqui
 
 ![conf](./images/intesisConf.png)
 
-Luego, se recomienda encarecidamente comenzar la instalación de las dependencias (incluso si parecen estar bien) :
+Luego, se recomienda encarecidamente iniciar la instalación de dependencias (incluso si aparecen bien)) :
 
 ![dependances](./images/intesisDep.png)
 
@@ -74,16 +74,16 @@ Las órdenes de type « action » (actionneurs) disponibles sont les suivantes :
 - Uno : Para encender el aire acondicionado
 -	Apagado : Para apagar el aire acondicionado
 - Consigna : Para cambiar el punto de ajuste de temperatura del aire acondicionado
-- Modo de lista : Para cambiar el modo de funcionamiento del aire acondicionado (automático, calor, seco, ventilador, frío)
-- Columpio arriba-abajo : Para modificar el modo de oscilación de las palas verticales de orientación del flujo de aire (1, 2, 3 y Swing)
-- Swing izquierda-derecha : Para modificar el modo de oscilación de las palas de orientación del flujo de aire horizontal (1, 2, 3 y Swing)
+- Modo de lista : Para cambiar el modo de funcionamiento del acondicionador de aire (automático, calor, seco, ventilador, frío))
+- Columpio arriba-abajo : Para cambiar el modo de oscilación de las palas verticales de orientación del flujo de aire (1, 2, 3 y Swing)
+- Swing izquierda-derecha : Para modificar el modo de oscilación de las palas horizontales de orientación del flujo de aire (1, 2, 3 y Swing)
 - Velocidad del ventilador : Para modificar la velocidad de rotación del ventilador (de 1 a 4)
 
 Las órdenes de type « info» (capteurs) disponibles sont les suivantes :
 
 -	Estado : Retroalimentación de estado de ENCENDIDO / APAGADO del aire acondicionado
 -	Información del punto de ajuste : Retroalimentación del estado del punto de ajuste de temperatura
--	Modo : Retroalimentación de estado del modo de funcionamiento del aire acondicionado (automático, calor, seco, ventilador, frío)
+-	Modo : Retroalimentación de estado del modo de operación del aire acondicionado (Auto, Heat, Dry, Fan, Cool)
 -	Información de oscilación alta-baja : Retroalimentación de estado del modo de oscilación de las palas verticales del aire acondicionado.
 -	Información de oscilación izquierda-derecha : Retroalimentación de estado del modo de oscilación de las palas horizontales del aire acondicionado.
 -	Información de velocidad del ventilador : Feedback del estado de la velocidad del ventilador
@@ -101,7 +101,7 @@ Como se indica en el punto 3) anterior, los comandos que aparecen en el widget s
 >
 >Pour les commandes de type « info », le retour d'état se fait toutes les 5 minutes. Entonces, si usa el control remoto del aire acondicionado para modificar el punto de ajuste (u otro), Jeedom refleja este estado en el widget dentro de un período máximo de 5 minutos.
 
-Al igual que con cualquier widget de Jeedom, puede reorganizar los comandos en el widget utilizando el modo de edición (para esto, haga clic en el lápiz en la esquina superior izquierda) :
+Al igual que con cualquier widget de Jeedom, puede reorganizar los controles en el widget utilizando el modo de edición (para hacer esto, haga clic en el lápiz en la esquina superior izquierda) :
 
 ![widget](./images/intesisWidget.png)
 

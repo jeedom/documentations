@@ -14,7 +14,7 @@ Nach dem Herunterladen des Plugins müssen Sie es zunächst als aktivieren <br>e
 
 ![conf](./images/intesisConf.png)
 
-Es wird dringend empfohlen, mit der Installation der Abhängigkeiten zu beginnen (auch wenn sie in Ordnung erscheinen) :
+In diesem Fall wird dringend empfohlen, die Installation von Abhängigkeiten zu starten (auch wenn diese in Ordnung sind) :
 
 ![dependances](./images/intesisDep.png)
 
@@ -75,9 +75,9 @@ Bestellungen de type « action » (actionneurs) disponibles sont les suivantes :
 -	Aus : Klimaanlage ausschalten
 - Anleitung : Ändern des Temperatursollwerts der Klimaanlage
 - Listenmodus : So ändern Sie die Betriebsart der Klimaanlage (Auto, Heizen, Trocknen, Lüfter, Kühlen)
-- Auf-Ab-Schaukel : So ändern Sie den Schwingungsmodus der vertikalen Luftstrom-Orientierungsschaufeln (1, 2, 3 und Swing)
-- Links-rechts-Schaukel : So ändern Sie den Schwingungsmodus der horizontalen Luftstrom-Orientierungsschaufeln (1, 2, 3 und Swing)
-- Lüftergeschwindigkeit : So ändern Sie die Drehzahl des Lüfters (von 1 bis 4)
+- Auf-Ab-Schaukel : Zum Ändern des Schwingungsmodus der vertikalen Luftstrom-Orientierungsschaufeln (1, 2, 3 und Swing))
+- Links-rechts-Schaukel : Ändern des Schwingungsmodus der horizontalen Luftstrom-Orientierungsschaufeln (1, 2, 3 und Swing))
+- Lüftergeschwindigkeit : So ändern Sie die Lüfterdrehzahl (von 1 bis 4))
 
 Bestellungen de type « info» (capteurs) disponibles sont les suivantes :
 
@@ -101,7 +101,7 @@ Wie in Punkt 3) oben angegeben, sind die Befehle, die im Widget angezeigt werden
 >
 >Pour les commandes de type « info », le retour d'état se fait toutes les 5 minutes. Wenn Sie also die Fernbedienung der Klimaanlage verwenden, um den Sollwert (oder einen anderen) zu ändern, spiegelt Jeedom diesen Zustand innerhalb eines Zeitraums von maximal 5 Minuten im Widget wider.
 
-Wie bei jedem Jeedom-Widget können Sie die Befehle im Widget im Bearbeitungsmodus neu anordnen (klicken Sie dazu oben links auf den Stift) :
+Wie bei jedem Jeedom-Widget können Sie die Steuerelemente im Widget im Bearbeitungsmodus neu organisieren (klicken Sie dazu oben links auf den Stift) :
 
 ![widget](./images/intesisWidget.png)
 

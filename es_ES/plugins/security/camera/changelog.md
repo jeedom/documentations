@@ -4,6 +4,9 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+
+- Adición de la cámara Foscam FI9926P
+
 # 07/07/2020
 
 - Corrección de un problema en el puerto predeterminado de la URL de transmisión para cámaras Foscam gracias @nebz

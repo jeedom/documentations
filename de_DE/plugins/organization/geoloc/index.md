@@ -14,7 +14,7 @@ Hier finden Sie alle Ihre Geoloc-Geräte :
 
 > **Spitze**
 >
-> Wie an vielen Stellen in Jeedom wird durch Platzieren der Maus ganz links ein Schnellzugriffsmenü angezeigt (Sie können es jederzeit in Ihrem Profil sichtbar lassen).
+> Wie an vielen Stellen in Jeedom wird durch Platzieren der Maus ganz links ein Schnellzugriffsmenü angezeigt (Sie können es in Ihrem Profil immer sichtbar lassen).
 
 Sobald ein Gerät ausgewählt ist, erhalten Sie :
 

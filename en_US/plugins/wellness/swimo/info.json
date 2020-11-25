@@ -1,10 +1,16 @@
 {
     "id": "swimo",
     "name": "Swimo",
-    "description": "Permet de piloter un controleur de piscine Swimo",
+    "description": {
+        "fr_FR": "Permet de piloter un contrôleur de piscine Swimo.",
+        "en_US": "Allows you to control a Swimo pool controller",
+        "es_ES": "Le permite controlar un controlador de piscina Swimo",
+        "de_DE": "Ermöglicht die Steuerung eines Swimo-Pool-Controllers",
+        "pt_PT": "Permite controlar um controlador de pool Swimo"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.2",
+    "require": "3.3.39",
     "category": "wellness",
     "hasDependency": false,
     "hasOwnDeamon": false,
@@ -12,7 +18,16 @@
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/swimo\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/swimo\/",
     "language": [
-        "fr_FR"
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
@@ -20,6 +35,7 @@
         "rpi",
         "docker",
         "diy",
-        "mobile"
+        "mobile",
+        "v4"
     ]
 }

@@ -14,7 +14,7 @@ Após o download do plug-in, você deve primeiro ativá-lo, como <br>qualquer pl
 
 ![conf](../images/intesisConf.png)
 
-Em seguida, é altamente recomendável iniciar a instalação das dependências (mesmo que pareçam OK) :
+Em seguida, é altamente recomendável iniciar a instalação de dependências (mesmo se elas parecerem OK)) :
 
 ![dependances](../images/intesisDep.png)
 
@@ -75,15 +75,15 @@ Pedidos de type « action » (actionneurs) disponibles sont les suivantes :
 -	Fora : Para desligar o ar condicionado
 - Ordem : Para alterar o ponto de ajuste de temperatura do ar condicionado
 - Modo de lista : Para alterar o modo de operação do ar condicionado (Automático, Calor, Seco, Ventilador, Frio)
-- Balanço de cima para baixo : Para modificar o modo de oscilação das pás de orientação do fluxo de ar vertical (1, 2, 3 e Swing)
-- Balanço esquerdo-direito : Para modificar o modo de oscilação das lâminas de orientação do fluxo de ar horizontal (1, 2, 3 e Swing)
+- Balanço de cima para baixo : Para alterar o modo de oscilação das pás de orientação do fluxo de ar vertical (1, 2, 3 e Swing)
+- Balanço esquerdo-direito : Para modificar o modo de oscilação das pás de orientação do fluxo de ar horizontal (1, 2, 3 e Swing)
 - Velocidade do ventilador : Para modificar a velocidade de rotação do ventilador (de 1 a 4)
 
 Pedidos de type « info» (capteurs) disponibles sont les suivantes :
 
 -	Estado : Feedback do status ON / OFF do ar condicionado
 -	Informação do ponto de ajuste : Feedback do status do ponto de ajuste de temperatura
--	Modo : Feedback do status do modo operacional do ar condicionado (Automático, Calor, Seco, Ventilador, Frio)
+-	Modo : Feedback do status do modo operacional do ar condicionado (Auto, Calor, Seco, Ventilador, Frio)
 -	Informações de alta e baixa oscilação : Feedback do status do modo de oscilação das pás verticais do ar condicionado.
 -	Informações de oscilação esquerda-direita : Feedback do status do modo de oscilação das pás horizontais do ar condicionado.
 -	Informação da velocidade do ventilador : Feedback do status da velocidade do ventilador
@@ -101,11 +101,11 @@ Conforme indicado no ponto 3) acima, os comandos que aparecem no widget são ape
 >
 >Pour les commandes de type « info », le retour d'état se fait toutes les 5 minutes. Portanto, se você usar o controle remoto do ar condicionado para modificar o ponto de ajuste (ou outro), o Jeedom refletirá esse estado no Widget dentro de um período máximo de 5 minutos.
 
-Como em qualquer widget Jeedom, você pode reorganizar os comandos no widget usando o modo de edição (para isso, clique no lápis no canto superior esquerdo) :
+Como em qualquer widget Jeedom, você pode reorganizar os controles no widget usando o modo de edição (para fazer isso, clique no lápis no canto superior esquerdo) :
 
 ![widget](../images/intesisWidget.png)
 
-Alguns exemplos de widgets de Intesis com diferentes comandos visíveis (no Jeedom V3) :
+Alguns exemplos de widgets Intesis com diferentes comandos visíveis (no Jeedom V3) :
 
 ![widget1](../images/intesisWidget1.png)
 

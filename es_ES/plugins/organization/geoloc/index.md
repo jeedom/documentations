@@ -14,7 +14,7 @@ Aquí encontrarás todos tus equipos Geoloc :
 
 > **Punta**
 >
-> Como en muchos lugares de Jeedom, colocar el mouse en el extremo izquierdo permite que aparezca un menú de acceso rápido (siempre puede dejarlo visible desde su perfil).
+> Como en muchos lugares de Jeedom, al colocar el mouse en el extremo izquierdo aparece un menú de acceso rápido (desde su perfil siempre puede dejarlo visible).
 
 Una vez que se selecciona un equipo, obtienes :
 

@@ -4,6 +4,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+
+- Adição de câmera Foscam FI9926P
+
 # 07/07/2020
 
 - Correção de um problema na porta padrão do URL do fluxo para as câmeras Foscam, obrigado @nebz

@@ -12,8 +12,8 @@ Solo en Complementos -> Multimedia -> Sonidos, haga clic en Agregar y luego :
 
 - Nombre del sonido : nombre de sonido para una fácil recuperación
 - Identificación : identificador de sonido, es recomendable poner solo letras o números aquí. Este identificador debe usarse en la solicitud TTS
-- Suena : su sonido para reproducir (el archivo debe estar en mp3, 50mo max)
+- Suena : su sonido para reproducir (el archivo debe estar en mp3, 50mo máx)
 
 # Utilisation
 
-Una vez que se agrega su sonido para usarlo, debe poner el mensaje TTS #id# (id es el identificador del sonido creado anteriormente)
+Una vez que se agrega su sonido, puede poner el mensaje TTS #id# (id es el identificador del sonido creado anteriormente)

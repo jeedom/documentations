@@ -14,7 +14,7 @@ After downloading the plugin, you must first activate it, as <br>any Jeedom plug
 
 ![conf](./images/intesisConf.png)
 
-Then, it is strongly advised to start the installation of the dependencies (even if they appear OK) :
+Then, it is strongly recommended to launch the installation of dependencies (even if they appear OK) :
 
 ![dependances](./images/intesisDep.png)
 
@@ -74,8 +74,8 @@ The orders de type « action » (actionneurs) disponibles sont les suivantes :
 - We : To turn on the air conditioner
 -	Off : To turn off the air conditioner
 - Instructions : To change the air conditioner temperature setpoint
-- List mode : To change the operating mode of the air conditioner (Auto, Heat, Dry, Fan, Cool)
-- Up-down swing : To modify the oscillation mode of the vertical air flow orientation blades (1, 2, 3 and Swing)
+- List mode : To change the air conditioner operating mode (Auto, Heat, Dry, Fan, Cool)
+- Up-down swing : To change the oscillation mode of the vertical airflow orientation blades (1, 2, 3 and Swing)
 - Left-right swing : To modify the oscillation mode of the horizontal air flow orientation blades (1, 2, 3 and Swing)
 - Fan speed : To modify the fan rotation speed (from 1 to 4)
 
@@ -101,7 +101,7 @@ As indicated in point 3) above, the commands that appear on the widget are only 
 >
 >Pour les commandes de type « info », le retour d'état se fait toutes les 5 minutes. So if you use the remote control of the air conditioner to modify the setpoint (or other), Jeedom reflects this state in the Widget within a maximum period of 5 minutes.
 
-As with any Jeedom widget, you can rearrange the commands on the widget using the edit mode (for this, click on the pencil in the top left) :
+As with any Jeedom widget, you can reorganize the controls on the widget using the edit mode (to do this, click on the pencil at the top left) :
 
 ![widget](./images/intesisWidget.png)
 

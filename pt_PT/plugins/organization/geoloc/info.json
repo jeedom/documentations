@@ -2,26 +2,32 @@
     "id": "geoloc",
     "name": "Geoloc",
     "licence": "AGPL",
-    "description": "Plugin permettant à Jeedom de gérer la géolocalisation. (Uniquement pour Android via l'application Tasker)",
+    "description": {
+        "fr_FR": "Plugin permettant à Jeedom de gérer la géolocalisation (Uniquement pour Android via l'application Tasker).",
+        "en_US": "Plugin allowing Jeedom to manage geolocation. (Only for Android via the Tasker app)",
+        "es_ES": "Complemento que permite a Jeedom gestionar la geolocalización. (Solo para Android a través de la aplicación Tasker)",
+        "de_DE": "Plugin, mit dem Jeedom die Geolokalisierung verwalten kann. (Nur für Android über die Tasker App)",
+        "pt_PT": "Plugin que permite ao Jeedom gerenciar a localização geográfica. (Somente para Android pelo aplicativo Tasker)"
+    },
     "author": "Jeedom SAS",
-    "require": "3.0",
+    "require": "3.3.39",
     "category": "organization",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/geoloc\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/geoloc\/",
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",
         "smart",
         "rpi",
         "docker",
-        "diy"
+        "diy",
+        "mobile",
+        "v4"
     ]
 }

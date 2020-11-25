@@ -4,6 +4,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+
+- Addition of Foscam FI9926P camera
+
 # 07/07/2020
 
 - Correction of a problem on the default port of the stream url for Foscam cameras thanks @nebz

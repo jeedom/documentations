@@ -1,6 +1,6 @@
 # Smartcoffee Plugin
 
-Mit diesem Plugin können Sie Ihre Smarter Kaffeemaschine verwalten (nur V1 beachten, nicht die ifttt-kompatible Version).
+Mit diesem Plugin können Sie Ihre Smarter-Kaffeemaschine verwalten (achten Sie nur auf V1, nicht auf die ifttt-kompatible Version).
 
 # Plugin Konfiguration 
 
@@ -26,5 +26,5 @@ Wenn Sie auf eines Ihrer Geräte klicken, gelangen Sie auf die Konfigurationssei
 
 #  Für den Befehl Persönlichen Modus für Szenario ausführen :
 
-Das Kraftfeld muss einen Wert von 1 bis 3 enthalten, der der Kraft entspricht. Das andere Feld, wenn es benötigt wird  :Anzahl der Tassen (1-12); g für Bohnen f für Filter; Aufheizzeit (Beispiel 12; f; 30)
+Das Kraftfeld muss einen Wert von 1 bis 3 enthalten, der der Kraft entspricht. Das andere Feld, wenn es benötigt wird  :Anzahl der Tassen (1-12), g für Bohnen f für Filter, Aufheizzeit (Beispiel 12; f; 30))
 

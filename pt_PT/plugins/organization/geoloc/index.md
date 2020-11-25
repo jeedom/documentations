@@ -14,7 +14,7 @@ Aqui você encontra todo o seu equipamento Geoloc :
 
 > **Dica**
 >
-> Como em muitos lugares do Jeedom, posicionar o mouse na extremidade esquerda permite que um menu de acesso rápido apareça (você sempre pode deixá-lo visível em seu perfil).
+> Como em muitos lugares do Jeedom, posicionar o mouse à extrema esquerda exibe um menu de acesso rápido (você pode, a partir do seu perfil, deixá-lo sempre visível).
 
 Depois que um equipamento é selecionado, você obtém :
 

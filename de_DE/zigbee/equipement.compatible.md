@@ -82,6 +82,12 @@
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_signal_repeater.png" width="60" />|Ikea|Ikea repeateur||||
 |<img src="../../de_DE/zigbee/images/KE.TRADFRI_openclose_remote.png" width="60" />|Ikea|Ikea Fernbedienung 2 Tasten speichern||||
 
+# Innr
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/Innr.RB285C.png" width="60" />|Innr|INNR E27 Multicolor RGBW + Weiß||||
+
 # Nodon
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -226,4 +232,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-11-24 01:32:03
+2020-11-25 01:32:04

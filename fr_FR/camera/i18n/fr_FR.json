@@ -70,6 +70,7 @@
         "R2P\/R2EP": "R2P\/R2EP",
         "G4P\/G4EP": "G4P\/G4EP",
         "FI9928P": "FI9928P",
+        "FI9926P": "FI9926P",
         "FI9902P\/FI9902EP": "FI9902P\/FI9902EP",
         "FI9900EP\/FI9900P\/FI9901EP\/FI9901P": "FI9900EP\/FI9900P\/FI9901EP\/FI9901P",
         "FI9853P\/FI9853EP": "FI9853P\/FI9853EP",
@@ -113,6 +114,6 @@
         "Trendnet": "Trendnet",
         "Ycam": "Ycam",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-11-24 01": "2020-11-24 01"
+        "2020-11-25 01": "2020-11-25 01"
     }
 }

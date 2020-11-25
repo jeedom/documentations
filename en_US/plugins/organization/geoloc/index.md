@@ -14,7 +14,7 @@ Here you find all your Geoloc equipment :
 
 > **Tip**
 >
-> As in many places on Jeedom, placing the mouse on the far left allows a quick access menu to appear (you can always leave it visible from your profile).
+> As in many places on Jeedom, placing the mouse to the far left brings up a quick access menu (you can from your profile always leave it visible).
 
 Once an equipment is selected you get :
 

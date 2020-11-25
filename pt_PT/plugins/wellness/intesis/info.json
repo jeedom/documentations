@@ -1,28 +1,33 @@
 {
     "id": "intesis",
     "name": "Intesis",
-    "description": "Plugin pour controler intesis",
+    "description": {
+        "fr_FR": "Plugin permettant de piloter les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox). Basées sur le protocole WMP, les passerelles « Intesis Wifi (ASCII) AC Interfaces » sont des box qui permettent de domotiser des systèmes de climatisation gainables (interface Intesis à connecter en filaire sur le bus du climatisateur) ou à split avec télécommande infrarouge (interface Intesis IR). Ce plugin supporte tous les modèles de passerelles Intesis Wifi (ASCII) AC Interfaces (aussi bien filaires que IR), mais n’est pas compatible avec les passerelles IntesisHome (et notamment pas avec les passerelles Intesis de la gamme IntesisHome).",
+        "en_US": "Plugin to control intesis",
+        "es_ES": "Plugin para controlar intesis",
+        "de_DE": "Plugin zur Steuerung der Intesis",
+        "pt_PT": "Plugin para controlar intesis"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.2",
+    "require": "3.3.39",
     "category": "wellness",
     "hasDependency": true,
     "hasOwnDeamon": true,
     "maxDependancyInstallTime": 0,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/intesis\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/intesis\/",
-    "link": {
-        "forum": "Lien vers le forum",
-        "video": "Lien vers une video"
-    },
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
         "ru_RU",
         "id_ID",
-        "it_IT"
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
@@ -30,6 +35,7 @@
         "rpi",
         "docker",
         "diy",
-        "mobile"
+        "mobile",
+        "v4"
     ]
 }

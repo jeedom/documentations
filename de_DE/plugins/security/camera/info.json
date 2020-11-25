@@ -1,10 +1,16 @@
 {
     "id": "camera",
     "name": "Caméra",
-    "description": "Plugin pour afficher les caméras IP L'affichage vidéo de la caméra s'effectue par snapshot (capture) successives toutes les secondes. Le plugin est compatible avec les cameras RTSP",
+    "description": {
+        "fr_FR": "Plugin permettant l'affichage des caméras IP. L'affichage vidéo de la caméra s'effectue par snapshots (captures) successives toutes les secondes. Le plugin est compatible avec les cameras RTSP.",
+        "en_US": "Plugin to display IP cameras The video display of the camera is performed by successive snapshot (capture) every second. The plugin is compatible with RTSP cameras",
+        "es_ES": "Complemento para mostrar las cámaras IP La visualización de video de la cámara se realiza mediante una instantánea (captura) sucesiva cada segundo. El complemento es compatible con cámaras RTSP",
+        "de_DE": "Plugin zur Anzeige von IP-Kameras Die Videoanzeige der Kamera erfolgt durch aufeinanderfolgende Momentaufnahmen (Capture) pro Sekunde. Das Plugin ist mit RTSP-Kameras kompatibel",
+        "pt_PT": "Plug-in para exibir câmeras IP A exibição de vídeo da câmera é realizada por instantâneo (captura) sucessivo a cada segundo. O plug-in é compatível com câmeras RTSP"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.2.12",
+    "require": "3.3.39",
     "category": "security",
     "display": "panel",
     "mobile": "panel",
@@ -15,11 +21,9 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",
@@ -27,6 +31,7 @@
         "rpi",
         "docker",
         "diy",
-        "mobile"
+        "mobile",
+        "v4"
     ]
 }

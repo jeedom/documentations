@@ -1,4 +1,6 @@
-# Intesis 
+# Intesis
+
+#Description
 
 Plugin permettant de piloter **les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox).**  basées sur le protocole WMP.
 
@@ -8,9 +10,9 @@ Ce plugin supporte tous les modèles de passerelles Intesis Wifi (ASCII) AC Inte
 
 Les passerelles Intesis Wifi (ASCII) AC Interfaces sont [disponibles à la vente ici.](https://www.domadoo.fr/fr/323_intesis-unites-ac-domestiques-daikin-vers-une-interface-wi-fi-rac)
 
-# Configuration du plugin 
+# Configuration du plugin
 
-Après téléchargement du plugin, il faut tout d’abord activer celui-ci, comme <br>tout plugin Jeedom :
+Après téléchargement du plugin, il faut tout d’abord activer celui-ci, comme tout plugin Jeedom :
 
 ![conf](./images/intesisConf.png)
 
@@ -34,14 +36,14 @@ Rien n’est à modifier dans le champ « Port socket interne » de la section �
 
 # Comment déclarer une nouvelle interface intesis Wifi dans Jeedom
 
-Rendez-vous dans le menu « Plugins / Protocole domotique / Intesis » :
+Rendez-vous dans le menu « Plugins → Confort → Intesis » :
 
 ![menu](./images/intesisMenu.png)
 
 Vous arrivez sur la page suivante, qui se compose de deux sections :
 
-- « Gestion », avec les options suivantes : « Ajouter » et « Configuration » (cette option vous renvoie à la page de configuration du plugin, décrite au point précédent).
-- « Mes Intesis » : C’est là que sont ou seront affichées les passerelles Intesis wifi gérées par Jeedom.
+- **Gestion** avec les options suivantes : « Ajouter » et « Configuration » (cette option vous renvoie à la page de configuration du plugin, décrite au point précédent).
+- **Mes Intesis** : C’est là que sont ou seront affichées les passerelles Intesis wifi gérées par Jeedom.
 
 ![gestion](./images/intesisGest.png)
 
@@ -67,7 +69,7 @@ Ici vous pouvez masquer et rendre visibles les différentes commandes de type «
 
 ![cmd](./images/intesisCmd.png)
 
-Le plugin propose au total 14 commandes. 
+Le plugin propose au total 14 commandes.
 
 Les commandes de type « action » (actionneurs) disponibles sont les suivantes :
 

@@ -1,6 +1,6 @@
 # Plugin Smartcoffee
 
-Este plugin permite que você gerencie sua cafeteira mais inteligente (atenção apenas V1, não a versão compatível com ifttt).
+Este plug-in permite que você gerencie sua cafeteira mais inteligente (tenha cuidado apenas com a V1 e não com a versão compatível com ifttt).
 
 # Configuração do plugin 
 

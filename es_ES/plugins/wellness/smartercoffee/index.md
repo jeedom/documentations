@@ -1,6 +1,6 @@
 # Complemento SmartCoffee
 
-Este complemento le permite administrar su cafetera Smarter (solo atención V1, no la versión compatible con ifttt).
+Este complemento le permite administrar su cafetera Smarter (tenga cuidado solo con V1, no con la versión compatible)).
 
 # Configuración del plugin 
 
@@ -22,7 +22,7 @@ Al hacer clic en uno de sus equipos, llega a la página de configuración de su 
 -   **Visible** : lo hace visible en el tablero
 -   **Objeto padre** : indica el objeto padre al que pertenece el equipo
 -   **Pestaña de pedidos** :
-    -  Aquí encontrará todos los comandos (algunos están dedicados solo al escenario)
+    -  Aquí encontrarás todos los comandos (algunos están dedicados solo al escenario)
 
 #  Para el comando Ejecutar modo personal para escenario :
 

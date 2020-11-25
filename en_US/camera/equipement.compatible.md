@@ -78,6 +78,7 @@
 |<img src="../../en_US/camera/images/foscam.FI9853.jpg" width="60" />|Foscam|FI9853P / FI9853EP||||
 |<img src="../../en_US/camera/images/foscam.FI9900.jpg" width="60" />|Foscam|FI9900EP / FI9900P / FI9901EP / FI9901P||||
 |<img src="../../en_US/camera/images/foscam.FI9902.jpg" width="60" />|Foscam|FI9902P / FI9902EP|||[Buy](https://www.domadoo.fr/fr/cameras/4977-foscam-camera-ip-wifi-exterieur-2mp-6954836013533.html)|
+|<img src="../../en_US/camera/images/foscam.FI9926P.jpg" width="60" />|Foscam|FI9926P||||
 |<img src="../../en_US/camera/images/foscam.FI9928P.jpg" width="60" />|Foscam|FI9928P|||[Buy](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
 |<img src="../../en_US/camera/images/foscam.G4.jpg" width="60" />|Foscam|G4P / G4EP||||
 |<img src="../../en_US/camera/images/foscam.R2.jpg" width="60" />|Foscam|R2P / R2EP||||
@@ -221,4 +222,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-11-24 01:20:02
+2020-11-25 01:20:04
