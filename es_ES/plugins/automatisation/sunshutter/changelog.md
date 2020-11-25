@@ -4,6 +4,9 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+
+- Posibilidad de poner etiquetas para las diferentes condiciones (opcional, pero permite ejecutar un escenario siguiendo un posicionamiento del obturador, por ejemplo)
+
 # 05/11/2020
 
 - Corrección de errores en los paneles

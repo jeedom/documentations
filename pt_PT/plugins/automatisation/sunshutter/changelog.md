@@ -4,6 +4,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+
+- Possibilidade de colocar etiquetas para as diferentes condições (opcional, mas permite executar um cenário após um posicionamento do obturador, por exemplo)
+
 # 05/11/2020
 
 - Correções de bugs nos painéis

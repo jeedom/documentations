@@ -205,9 +205,9 @@
         " Changelog*": " Changelog*"
     },
     "plugins\/automatisation\/index.md": {
-        "IMPORTANT ce plugin ne marche pas avec des volets tout ou rien il faut ABSOLUMENT des volets avec reglage proportionnels (%": "IMPORTANT this plugin does not work with all or nothing shutters, it is ABSOLUTELY necessary shutters with proportional adjustment (%",
+        "ce plugin ne fonctionne pas avec des volets tout ou rien, il faut ABSOLUMENT des volets avec réglages proportionnels (%": "this plugin does not work with all or nothing flaps, it is ABSOLUTELY necessary flaps with proportional settings (%",
         "Gestion Volets": "Shutter management",
-        "Plugin pour gerer l'ouverture\/fermeture des volets en fonction du soleil et d'autre condition": "Plugin to manage the opening \/ closing of the shutters according to the sun and other conditions",
+        "Plugin permettant de gérer l'ouverture\/fermeture des volets en fonction du soleil et d'autres conditions": "Plugin allowing to manage the opening \/ closing of the shutters according to the sun and other conditions",
         "Seuls les plugins officiels ont leur documentation ici": "Only official plugins have their documentation here",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "You can consult the documentation of the other plugins directly from the Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Once on the plugin in question, click on documentation",

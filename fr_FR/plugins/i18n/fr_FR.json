@@ -73,9 +73,9 @@
         "Cela permettra à chacun de migrer tranquillement": "Cela permettra à chacun de migrer tranquillement"
     },
     "plugins\/automatisation\/index.md": {
-        "IMPORTANT ce plugin ne marche pas avec des volets tout ou rien il faut ABSOLUMENT des volets avec reglage proportionnels (%": "IMPORTANT ce plugin ne marche pas avec des volets tout ou rien il faut ABSOLUMENT des volets avec reglage proportionnels (%",
+        "ce plugin ne fonctionne pas avec des volets tout ou rien, il faut ABSOLUMENT des volets avec réglages proportionnels (%": "ce plugin ne fonctionne pas avec des volets tout ou rien, il faut ABSOLUMENT des volets avec réglages proportionnels (%",
         "Gestion Volets": "Gestion Volets",
-        "Plugin pour gerer l'ouverture\/fermeture des volets en fonction du soleil et d'autre condition": "Plugin pour gerer l'ouverture\/fermeture des volets en fonction du soleil et d'autre condition",
+        "Plugin permettant de gérer l'ouverture\/fermeture des volets en fonction du soleil et d'autres conditions": "Plugin permettant de gérer l'ouverture\/fermeture des volets en fonction du soleil et d'autres conditions",
         "Automatisme": "Automatisme",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",

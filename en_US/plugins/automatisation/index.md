@@ -9,4 +9,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="sunshutter/sunshutter_icon.png" class="pluginLogo" width="100" />|Shutter management|Plugin to manage the opening / closing of the shutters according to the sun and other conditions. IMPORTANT this plugin does not work with all or nothing shutters, it is ABSOLUTELY necessary shutters with proportional adjustment (%)|[Documentation](sunshutter/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)<br/>[Changelog](sunshutter/changelog.md)|
+|<img src="sunshutter/sunshutter_icon.png" class="pluginLogo" width="100" />|Shutter management|Plugin allowing to manage the opening / closing of the shutters according to the sun and other conditions. Important : this plugin does not work with all or nothing flaps, it is ABSOLUTELY necessary flaps with proportional settings (%).|[Documentation](sunshutter/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)<br/>[Changelog](sunshutter/changelog.md)|

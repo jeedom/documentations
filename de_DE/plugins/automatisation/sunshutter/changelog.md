@@ -4,6 +4,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+
+- Möglichkeit, Beschriftungen für die verschiedenen Bedingungen anzubringen (optional, ermöglicht jedoch die Ausführung eines Szenarios beispielsweise nach einer Positionierung des Verschlusses)
+
 # 05/11/2020
 
 - Fehlerbehebungen an Panels

@@ -1,10 +1,16 @@
 {
     "id": "sunshutter",
     "name": "Gestion Volets",
-    "description": "Plugin pour gerer l'ouverture\/fermeture des volets en fonction du soleil et d'autre condition. IMPORTANT ce plugin ne marche pas avec des volets tout ou rien il faut ABSOLUMENT des volets avec reglage proportionnels (%)",
+    "description": {
+        "fr_FR": "Plugin permettant de gérer l'ouverture\/fermeture des volets en fonction du soleil et d'autres conditions. IMPORTANT : ce plugin ne fonctionne pas avec des volets tout ou rien, il faut ABSOLUMENT des volets avec réglages proportionnels (%).",
+        "en_US": "Plugin to manage the opening \/ closing of shutters depending on the sun and other conditions. IMPORTANT this plugin does not work with all or nothing shutters it is ABSOLUTELY necessary shutters with proportional adjustment (%)",
+        "es_ES": "Complemento para gestionar la apertura \/ cierre de persianas en función del sol y otras condiciones. IMPORTANTE: este complemento no funciona con todos o nada de los obturadores, es ABSOLUTAMENTE necesario obturadores con ajuste proporcional (%)",
+        "de_DE": "Plugin zum Verwalten des Öffnens \/ Schließens von Rollläden in Abhängigkeit von der Sonne und anderen Bedingungen. WICHTIG Dieses Plugin funktioniert nicht mit allen oder nichts Rollläden. Es sind ABSOLUT notwendige Rollläden mit proportionaler Einstellung (%)",
+        "pt_PT": "Plugin para gerenciar a abertura \/ fechamento de persianas, dependendo do sol e de outras condições. IMPORTANTE, este plugin não funciona com persianas com tudo ou nada; é absolutamente necessário persianas com ajuste proporcional (%)"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.3",
+    "require": "3.3.39",
     "category": "automatisation",
     "display": "panel",
     "hasDependency": false,
@@ -15,11 +21,9 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",
@@ -27,6 +31,7 @@
         "rpi",
         "docker",
         "diy",
-        "mobile"
+        "mobile",
+        "v4"
     ]
 }

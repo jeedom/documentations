@@ -205,9 +205,9 @@
         " Changelog*": " Cambios*"
     },
     "plugins\/automatisation\/index.md": {
-        "IMPORTANT ce plugin ne marche pas avec des volets tout ou rien il faut ABSOLUMENT des volets avec reglage proportionnels (%": "IMPORTANTE: este complemento no funciona con todos o nada de los obturadores que ABSOLUTAMENTE necesita obturadores con ajuste proporcional (%",
+        "ce plugin ne fonctionne pas avec des volets tout ou rien, il faut ABSOLUMENT des volets avec réglages proportionnels (%": "este complemento no funciona con contraventanas de todo o nada, ABSOLUTAMENTE necesita contraventanas con ajustes proporcionales (%",
         "Gestion Volets": "Gestión de persianas",
-        "Plugin pour gerer l'ouverture\/fermeture des volets en fonction du soleil et d'autre condition": "Complemento para gestionar la apertura \/ cierre de las persianas según el sol y otras condiciones",
+        "Plugin permettant de gérer l'ouverture\/fermeture des volets en fonction du soleil et d'autres conditions": "Plugin para gestionar la apertura \/ cierre de persianas en función del sol y otras condiciones",
         "Seuls les plugins officiels ont leur documentation ici": "Solo los complementos oficiales tienen su documentación aquí",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Puede consultar la documentación de los otros complementos directamente desde Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Una vez en el complemento en cuestión, haga clic en la documentación",

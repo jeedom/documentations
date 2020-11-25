@@ -9,4 +9,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="sunshutter/sunshutter_icon.png" class="pluginLogo" width="100" />|Gestion Volets|Plugin pour gerer l'ouverture/fermeture des volets en fonction du soleil et d'autre condition. IMPORTANT ce plugin ne marche pas avec des volets tout ou rien il faut ABSOLUMENT des volets avec reglage proportionnels (%)|[Documentation](sunshutter/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)<br/>[Changelog](sunshutter/changelog.md)|
+|<img src="sunshutter/sunshutter_icon.png" class="pluginLogo" width="100" />|Gestion Volets|Plugin permettant de gérer l'ouverture/fermeture des volets en fonction du soleil et d'autres conditions. IMPORTANT : ce plugin ne fonctionne pas avec des volets tout ou rien, il faut ABSOLUMENT des volets avec réglages proportionnels (%).|[Documentation](sunshutter/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)<br/>[Changelog](sunshutter/changelog.md)|

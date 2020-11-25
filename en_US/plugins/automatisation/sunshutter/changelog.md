@@ -4,6 +4,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+
+- Possibility to put labels for the different conditions (optional but allows to execute a scenario following a positioning of the shutter for example)
+
 # 05/11/2020
 
 - Bug fixes on panels

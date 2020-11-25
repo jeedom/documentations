@@ -205,9 +205,9 @@
         " Changelog*": " Änderungsprotokoll*"
     },
     "plugins\/automatisation\/index.md": {
-        "IMPORTANT ce plugin ne marche pas avec des volets tout ou rien il faut ABSOLUMENT des volets avec reglage proportionnels (%": "WICHTIG Dieses Plugin funktioniert nicht mit allen oder nichts Rollläden, es ist ABSOLUT notwendig Rollläden mit proportionaler Einstellung (%",
+        "ce plugin ne fonctionne pas avec des volets tout ou rien, il faut ABSOLUMENT des volets avec réglages proportionnels (%": "Dieses Plugin funktioniert nicht mit allen oder nichts Klappen, es ist ABSOLUT notwendig Klappen mit proportionalen Einstellungen (%",
         "Gestion Volets": "Verschlussmanagement",
-        "Plugin pour gerer l'ouverture\/fermeture des volets en fonction du soleil et d'autre condition": "Plugin zum Verwalten des Öffnens \/ Schließens der Fensterläden entsprechend der Sonne und anderen Bedingungen",
+        "Plugin permettant de gérer l'ouverture\/fermeture des volets en fonction du soleil et d'autres conditions": "Plugin, mit dem das Öffnen \/ Schließen der Fensterläden entsprechend der Sonne und anderen Bedingungen verwaltet werden kann",
         "Seuls les plugins officiels ont leur documentation ici": "Nur offizielle Plugins haben hier ihre Dokumentation",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Sie können die Dokumentation der anderen Plugins direkt im Jeedom Market einsehen",
         "Une fois sur le plugin en question, cliquez sur documentation": "Klicken Sie im betreffenden Plugin auf Dokumentation",
