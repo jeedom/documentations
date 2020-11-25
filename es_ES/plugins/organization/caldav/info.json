@@ -1,7 +1,13 @@
 {
     "id": "caldav",
     "name": "Agenda Caldav",
-    "description": "Auteur du plugin : Thomas Guenneguez. ATTENTION : il ne s’agit pas d’un plugin Officiel Jeedom mais d’un plugin développé par une tierce personne et dont l’évolution a été abandonnée. L’équipe technique Jeedom assurera l’assistance sur ce plugin sans obligation de résultat. Plugin pour lire les évènements d'un Agenda Caldav. Avec une expression régulière on peut, par exemple, extraire une température d'un évènement.",
+    "description": {
+        "fr_FR": "Auteur du plugin : Thomas Guenneguez. ATTENTION : il ne s’agit pas d’un plugin Officiel Jeedom mais d’un plugin développé par une tierce personne et dont l’évolution a été abandonnée. L’équipe technique Jeedom assurera l’assistance sur ce plugin sans obligation de résultat. Plugin pour lire les évènements d'un Agenda Caldav. Avec une expression régulière on peut, par exemple, extraire une température d'un évènement.",
+        "en_US": "Author of the plugin: Thomas Guenneguez. ATTENTION: this is not an Official Jeedom plugin but a plugin developed by a third party and whose evolution has been abandoned. The Jeedom technical team will provide assistance on this plugin with no obligation of result. Plugin to read events from a Caldav Calendar. With a regular expression we can, for example, extract a temperature from an event",
+        "es_ES": "Autor del complemento: Thomas Guenneguez. TENGA EN CUENTA: este no es un complemento oficial de Jeedom, sino un complemento desarrollado por un tercero y cuyo desarrollo ha sido abandonado. El equipo técnico de Jeedom proporcionará asistencia sobre este complemento sin obligación de resultado. Complemento para leer eventos de un calendario Caldav. Con una expresión regular podemos, por ejemplo, extraer una temperatura de un evento",
+        "de_DE": "Autor des Plugins: Thomas Guenneguez. BITTE BEACHTEN SIE: Dies ist kein offizielles Jeedom-Plugin, sondern ein Plugin, das von einem Dritten entwickelt wurde und dessen Entwicklung abgebrochen wurde. Das technische Team von Jeedom wird dieses Plugin unverbindlich unterstützen. Plugin zum Lesen von Ereignissen aus einem Caldav-Kalender. Mit einem regulären Ausdruck können wir beispielsweise eine Temperatur aus einem Ereignis extrahieren",
+        "pt_PT": "Autor do plugin: Thomas Guenneguez. ATENÇÃO: este não é um plugin oficial da Jeedom, mas sim um plugin desenvolvido por terceiros e cuja evolução foi abandonada. A equipe técnica da Jeedom fornecerá assistência neste plugin sem obrigação de resultado. Plugin para ler eventos de um Calendário Caldav. Com uma expressão regular, podemos, por exemplo, extrair a temperatura de um evento"
+    },
     "licence": "AGPL",
     "author": "Jeedom Legacy",
     "require": "3.3.39",
@@ -11,7 +17,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
@@ -21,5 +32,7 @@
         "diy",
         "mobile",
         "v4"
-    ]
+    ],
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/caldav\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/caldav\/"
 }
