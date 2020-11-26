@@ -23,9 +23,11 @@
         "Type": "Type",
         "Remarque": "Remarque",
         "Lien": "Lien",
+        "Tuya": "Tuya",
+        "Interrupteur double": "Interrupteur double",
+        "Interrupteur simple": "Interrupteur simple",
         "Moes": "Moes",
         "Moes Radiator Actuator": "Moes Radiator Actuator",
-        "Tuya": "Tuya",
         "Température\/humidité": "Température\/humidité",
         "Tryo2sys": "Tryo2sys",
         "PTM 215 ZE": "PTM 215 ZE",
@@ -47,7 +49,6 @@
         "Fuite": "Fuite",
         "Wiser Window\/Door Sensor": "Wiser Window\/Door Sensor",
         "Ouverture": "Ouverture",
-        "Interrupteur double": "Interrupteur double",
         "PlusLink shutter insert": "PlusLink shutter insert",
         "Volets": "Volets",
         "Philips": "Philips",
@@ -56,8 +57,9 @@
         "Mouvement,Luminosité,Température": "Mouvement,Luminosité,Température",
         "Hue détecteur de mouvement intérieure": "Hue détecteur de mouvement intérieure",
         "Télécommande 4 boutons": "Télécommande 4 boutons",
-        "Hue White B22": "Hue White B22",
+        "Hue White Candle E14": "Hue White Candle E14",
         "Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible": "Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible",
+        "Hue White B22": "Hue White B22",
         "Hue White and Color": "Hue White and Color",
         "Hue LightStrip Outdoor": "Hue LightStrip Outdoor",
         "Hue LightStrip Plus": "Hue LightStrip Plus",
@@ -149,6 +151,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-11-25 01": "2020-11-25 01"
+        "2020-11-26 01": "2020-11-26 01"
     }
 }

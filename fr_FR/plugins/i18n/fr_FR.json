@@ -506,8 +506,9 @@
         "Attention pour afficher le flux vidéo il faut le plugin caméra": "Attention pour afficher le flux vidéo il faut le plugin caméra",
         "Netatmo Security": "Netatmo Security",
         "Plugin pour Netatmo Security": "Plugin pour Netatmo Security",
-        "gestion access": "gestion access",
-        "Plugin de gestion d'acces via un système de bagdes": "Plugin de gestion d'acces via un système de bagdes",
+        "Ils sont disponibles uniquement sur devis auprès de Jeedom (contact via notre site web": "Ils sont disponibles uniquement sur devis auprès de Jeedom (contact via notre site web",
+        "Gestion d'accès": "Gestion d'accès",
+        "Plugin qui permet de gérer le contrôle d'accès d'un bâtiment via la création d'utilisateurs, groupes, plages horaires et lecteurs\/actionneurs": "Plugin qui permet de gérer le contrôle d'accès d'un bâtiment via la création d'utilisateurs, groupes, plages horaires et lecteurs\/actionneurs",
         "Le plugin est compatible avec les cameras RTSP": "Le plugin est compatible avec les cameras RTSP",
         "Caméra": "Caméra",
         "Plugin permettant l'affichage des caméras IP. L'affichage vidéo de la caméra s'effectue par snapshots (captures) successives toutes les secondes": "Plugin permettant l'affichage des caméras IP. L'affichage vidéo de la caméra s'effectue par snapshots (captures) successives toutes les secondes",
@@ -524,7 +525,9 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
         "Market": "Market",
-        "Changelog": "Changelog"
+        "Changelog": "Changelog",
+        "ATTENTION": "ATTENTION",
+        "Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack": "Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack"
     },
     "plugins\/travel\/index.md": {
         "Waze in Time": "Waze in Time",

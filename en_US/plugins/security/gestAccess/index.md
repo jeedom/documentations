@@ -53,7 +53,7 @@ In the list *Type*, select **Door / Reader**.
 
 #### Door configuration
 
-**Setup équipement** allows to configure the door.
+**Equipment configuration** allows to configure the door.
 
 ![gestionAcces](./images/confReader.jpg)
 
@@ -63,7 +63,7 @@ In the list *Type*, select **Door / Reader**.
 
 ![gestionAcces](./images/rightReader.jpg)
 
-**Add des droits** allows you to select an already existing time slot to assign it to your door.
+**Add rights** allows you to select an already existing time slot to assign it to your door.
 >All users connected to the selected time zone will be able to pass through this door during the times set on it.
 
 ![gestionAcces](./images/scheduleReader.jpg)
@@ -88,14 +88,14 @@ In the list *Type*, indicate **User**.
 
 #### User configuration
 
-**Setup utilisateur** is used to configure. 
+**User settings** is used to configure. 
 
 ![gestionAcces](./images/confUser.jpg)
 
 Several fields are customizable.
 You can indicate :
 
-- a user id (corresponding to the user&#39;s badge numbers),
+- a user id (corresponding to the user's badge numbers),
 - the name,
 - first name,
 - user profile picture,
@@ -118,7 +118,7 @@ The file will be named according to the values indicated in the fields **Usernam
 
 #### Configuring groups for a user
 
- **Setup des groupes** used to assign your user to a group.
+ **Groups configuration** used to assign your user to a group.
 >Check a box to select the corresponding group.
 
 ![gestionAccess](./images/confGUser.jpg)
@@ -129,7 +129,7 @@ The tab **User rights** used to assign specific rights to the user.
 
 ![gestionAccess](./images/rightUser.jpg)
 
-**Add des droits**, allows to select a door and a time range which will be assigned to the selected user. 
+**Add rights**, allows to select a door and a time range which will be assigned to the selected user. 
 Two options are available **Refuse** and **Accept** for action.
 
 ![gestionAccess](./images/addRightUser.jpg)
@@ -154,7 +154,7 @@ In the type list, select **Group**.
 
 The tab **Group rights** used to assign specific rights to your group.
 
-**Add des droits**, allows you to select a door and a time range which will be assigned to the selected group.
+**Add rights**, allows you to select a door and a time range which will be assigned to the selected group.
 Two options are available **Refuse** and **Accept** for action.
 
 ![gestionAccess](./images/addRightGroup.jpg)
@@ -177,7 +177,7 @@ In the type list, select **Time slots**.
 
 #### Time range configuration
 
-The tab **Setup plage horaire** allows to configure a new time slot. 
+The tab **Time slot configuration** allows to configure a new time slot. 
 
 ![gestionAccess](./images/confTimelapse.jpg)
 

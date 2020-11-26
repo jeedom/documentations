@@ -53,7 +53,7 @@ Na lista *Tipo*, selecionar **Porta / Leitor**.
 
 #### Configuração da porta
 
-**Configuração équipement** permite configurar a porta.
+**Configuração do equipamento** permite configurar a porta.
 
 ![gestionAcces](../images/confReader.jpg)
 
@@ -63,7 +63,7 @@ Na lista *Tipo*, selecionar **Porta / Leitor**.
 
 ![gestionAcces](../images/rightReader.jpg)
 
-**Adicionar des droits** permite selecionar um horário já existente para atribuí-lo à sua porta.
+**Adicionar direitos** permite selecionar um horário já existente para atribuí-lo à sua porta.
 >Todos os usuários conectados ao fuso horário selecionado poderão passar por essa porta durante os horários definidos nela.
 
 ![gestionAcces](../images/scheduleReader.jpg)
@@ -88,14 +88,14 @@ Na lista *Tipo*, indicar **Usuário**.
 
 #### Configuração do usuário
 
-**Configuração utilisateur** é usado para configurar. 
+**Configurações do usuário** é usado para configurar. 
 
 ![gestionAcces](../images/confUser.jpg)
 
 Vários campos são personalizáveis.
 Você pode indicar :
 
-- um ID do usuário (correspondente aos números do crachá do usuário),
+- um ID do usuário (correspondente aos números dos crachás do usuário),
 - o nome,
 - o primeiro nome,
 - foto do perfil do usuário,
@@ -118,7 +118,7 @@ O arquivo será nomeado de acordo com os valores indicados nos campos **Nome de 
 
 #### Configurando grupos para um usuário
 
- **Configuração des groupes** usado para atribuir seu usuário a um grupo.
+ **Configuração de grupos** usado para atribuir seu usuário a um grupo.
 >Marque uma caixa para selecionar o grupo correspondente.
 
 ![gestionAccess](../images/confGUser.jpg)
@@ -129,7 +129,7 @@ A guia **Direitos do usuário** usado para atribuir direitos específicos ao usu
 
 ![gestionAccess](../images/rightUser.jpg)
 
-**Adicionar des droits**, permite selecionar uma porta e um intervalo de tempo que será atribuído ao usuário selecionado. 
+**Adicionar direitos**, permite selecionar uma porta e um intervalo de tempo que será atribuído ao usuário selecionado. 
 Duas opções estão disponíveis **Recusar** e **Aceitar** para ação.
 
 ![gestionAccess](../images/addRightUser.jpg)
@@ -154,7 +154,7 @@ Na lista de tipos, selecione **Grupo**.
 
 A guia **Direitos do grupo** usado para atribuir direitos específicos ao seu grupo.
 
-**Adicionar des droits**, permite selecionar uma porta e um intervalo de tempo que serão atribuídos ao grupo selecionado.
+**Adicionar direitos**, permite selecionar uma porta e um intervalo de tempo que serão atribuídos ao grupo selecionado.
 Duas opções estão disponíveis **Recusar** e **Aceitar** para ação.
 
 ![gestionAccess](../images/addRightGroup.jpg)
@@ -177,7 +177,7 @@ Na lista de tipos, selecione **Intervalo de tempo**.
 
 #### Configuração de intervalo de tempo
 
-A guia **Configuração plage horaire** permite configurar um novo horário. 
+A guia **Configuração do intervalo de tempo** permite configurar um novo horário. 
 
 ![gestionAccess](../images/confTimelapse.jpg)
 

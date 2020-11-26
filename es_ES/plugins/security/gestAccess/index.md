@@ -53,7 +53,7 @@ En la lista *Tipo*, seleccione **Puerta / lector**.
 
 #### Configuración de la puerta
 
-**Configuración équipement** permite configurar la puerta.
+**Configuración del equipo** permite configurar la puerta.
 
 ![gestionAcces](./images/confReader.jpg)
 
@@ -63,7 +63,7 @@ En la lista *Tipo*, seleccione **Puerta / lector**.
 
 ![gestionAcces](./images/rightReader.jpg)
 
-**Añadir des droits** le permite seleccionar un intervalo de tiempo ya existente para asignarlo a su puerta.
+**Agregar derechos** le permite seleccionar un intervalo de tiempo ya existente para asignarlo a su puerta.
 >Todos los usuarios conectados a la zona horaria seleccionada podrán pasar por esta puerta durante los horarios establecidos.
 
 ![gestionAcces](./images/scheduleReader.jpg)
@@ -88,14 +88,14 @@ En la lista *Tipo*, indicar **Usuario**.
 
 #### Configuración del usuario
 
-**Configuración utilisateur** se usa para configurar. 
+**Configuraciones de usuario** se usa para configurar. 
 
 ![gestionAcces](./images/confUser.jpg)
 
 Varios campos son personalizables.
 Puedes indicar :
 
-- una identificación de usuario (correspondiente a los números de credencial del usuario),
+- una identificación de usuario (correspondiente a los números de identificación del usuario),
 - el apellido,
 - el nombre,
 - foto de perfil de usuario,
@@ -118,7 +118,7 @@ El archivo se nombrará de acuerdo con los valores indicados en los campos **Nom
 
 #### Configurar grupos para un usuario
 
- **Configuración des groupes** usado para asignar su usuario a un grupo.
+ **Configuración de grupos** usado para asignar su usuario a un grupo.
 >Marque una casilla para seleccionar el grupo correspondiente.
 
 ![gestionAccess](./images/confGUser.jpg)
@@ -129,7 +129,7 @@ La pestaña **Derechos de usuario** utilizado para asignar derechos específicos
 
 ![gestionAccess](./images/rightUser.jpg)
 
-**Añadir des droits**, permite seleccionar una puerta y un rango de tiempo que se asignará al usuario seleccionado. 
+**Agregar derechos**, permite seleccionar una puerta y un rango de tiempo que se asignará al usuario seleccionado. 
 Hay dos opciones disponibles **Rechazar** y **Aceptar** para la acción.
 
 ![gestionAccess](./images/addRightUser.jpg)
@@ -154,7 +154,7 @@ En la lista de tipos, seleccione **Grupo**.
 
 La pestaña **Derechos de grupo** usado para asignar derechos específicos a su grupo.
 
-**Añadir des droits**, le permite seleccionar una puerta y un rango de tiempo que se asignará al grupo seleccionado.
+**Agregar derechos**, le permite seleccionar una puerta y un rango de tiempo que se asignará al grupo seleccionado.
 Hay dos opciones disponibles **Rechazar** y **Aceptar** para la acción.
 
 ![gestionAccess](./images/addRightGroup.jpg)
@@ -177,7 +177,7 @@ En la lista de tipos, seleccione **Ranura de tiempo**.
 
 #### Configuración de rango de tiempo
 
-La pestaña **Configuración plage horaire** permite configurar un nuevo horario. 
+La pestaña **Configuración de intervalo de tiempo** permite configurar un nuevo horario. 
 
 ![gestionAccess](./images/confTimelapse.jpg)
 

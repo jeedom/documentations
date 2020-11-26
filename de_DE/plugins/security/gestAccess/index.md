@@ -53,7 +53,7 @@ In der Liste *Typ*, auswählen **Tür / Leser**.
 
 #### Türkonfiguration
 
-**Konfiguration équipement** ermöglicht die Konfiguration der Tür.
+**Gerätekonfiguration** ermöglicht die Konfiguration der Tür.
 
 ![gestionAcces](./images/confReader.jpg)
 
@@ -63,7 +63,7 @@ In der Liste *Typ*, auswählen **Tür / Leser**.
 
 ![gestionAcces](./images/rightReader.jpg)
 
-**Hinzufügen des droits** Mit dieser Option können Sie ein bereits vorhandenes Zeitfenster auswählen, um es Ihrer Tür zuzuweisen.
+**Rechte hinzufügen** Mit dieser Option können Sie ein bereits vorhandenes Zeitfenster auswählen, um es Ihrer Tür zuzuweisen.
 >Alle Benutzer, die mit der ausgewählten Zeitzone verbunden sind, können diese Tür während der darauf festgelegten Zeiten passieren.
 
 ![gestionAcces](./images/scheduleReader.jpg)
@@ -88,7 +88,7 @@ In der Liste *Typ*, anzeigen **Benutzer**.
 
 #### Benutzerkonfiguration
 
-**Konfiguration utilisateur** wird zum Konfigurieren verwendet. 
+**Benutzereinstellungen** wird zum Konfigurieren verwendet. 
 
 ![gestionAcces](./images/confUser.jpg)
 
@@ -118,7 +118,7 @@ Die Datei wird gemäß den in den Feldern angegebenen Werten benannt **Benutzern
 
 #### Gruppen für einen Benutzer konfigurieren
 
- **Konfiguration des groupes** wird verwendet, um Ihren Benutzer einer Gruppe zuzuweisen.
+ **Gruppenkonfiguration** wird verwendet, um Ihren Benutzer einer Gruppe zuzuweisen.
 >Aktivieren Sie ein Kontrollkästchen, um die entsprechende Gruppe auszuwählen.
 
 ![gestionAccess](./images/confGUser.jpg)
@@ -129,7 +129,7 @@ Die Registerkarte **Benutzerrechte** wird verwendet, um dem Benutzer bestimmte R
 
 ![gestionAccess](./images/rightUser.jpg)
 
-**Hinzufügen des droits**, Ermöglicht die Auswahl einer Tür und eines Zeitbereichs, die dem ausgewählten Benutzer zugewiesen werden. 
+**Rechte hinzufügen**, Ermöglicht die Auswahl einer Tür und eines Zeitbereichs, die dem ausgewählten Benutzer zugewiesen werden. 
 Es stehen zwei Optionen zur Verfügung **Ablehnen** und **Akzeptiere** zum Handeln.
 
 ![gestionAccess](./images/addRightUser.jpg)
@@ -154,7 +154,7 @@ Wählen Sie in der Typenliste aus **Gruppe**.
 
 Die Registerkarte **Gruppenrechte** wird verwendet, um Ihrer Gruppe bestimmte Rechte zuzuweisen.
 
-**Hinzufügen des droits**, Mit dieser Option können Sie eine Tür und einen Zeitbereich auswählen, die der ausgewählten Gruppe zugewiesen werden.
+**Rechte hinzufügen**, Mit dieser Option können Sie eine Tür und einen Zeitbereich auswählen, die der ausgewählten Gruppe zugewiesen werden.
 Es stehen zwei Optionen zur Verfügung **Ablehnen** und **Akzeptiere** zum Handeln.
 
 ![gestionAccess](./images/addRightGroup.jpg)
@@ -177,7 +177,7 @@ Wählen Sie in der Typenliste aus **Zeitbereich**.
 
 #### Zeitbereichskonfiguration
 
-Die Registerkarte **Konfiguration plage horaire** ermöglicht die Konfiguration eines neuen Zeitfensters. 
+Die Registerkarte **Zeitschlitzkonfiguration** ermöglicht die Konfiguration eines neuen Zeitfensters. 
 
 ![gestionAccess](./images/confTimelapse.jpg)
 

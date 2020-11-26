@@ -124,7 +124,7 @@
 |<img src="../../de_DE/zigbee/images/Philips.LCA001.png" width="60" />|Philips|Farbton Weiß und Farbambiente A60 E27||||
 |<img src="../../de_DE/zigbee/images/Philips.LCL001.png" width="60" />|Philips|Farbton LightStrip Plus||||
 |<img src="../../de_DE/zigbee/images/Philips.LCT001.png" width="60" />|Philips|Farbton Birne weiß und Farbe||||
-||Philips|Farbton Weiß und Farbe BR30 (1. Gen)||||
+|<img src="../../de_DE/zigbee/images/Philips.LCT002.png" width="60" />|Philips|Farbton Weiß und Farbe BR30 (1. Gen)||||
 |<img src="../../de_DE/zigbee/images/Philips.LCT003.png" width="60" />|Philips|Farbton Weiß und Farbambiente Spot GU10||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.LCT007.png" width="60" />|Philips|Farbton Weiß und Farbambiente A19 E26 (Gen 2)||||
 |<img src="../../de_DE/zigbee/images/Philips.LCT010.png" width="60" />|Philips|Farbton Weiß und Farbambiente A19 E26 (Gen 3)||||
@@ -152,6 +152,7 @@
 |<img src="../../de_DE/zigbee/images/Philips.LST004.png" width="60" />|Philips|Farbton LightStrip Outdoor||||
 |<img src="../../de_DE/zigbee/images/Philips.LTW001.png" width="60" />|Philips|Farbton Weiß und Farbe||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Farbton Weiß B22||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
+|<img src="../../de_DE/zigbee/images/Philips.LWE002.png" width="60" />|Philips|Farbton weiße Kerze E14||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../de_DE/zigbee/images/Philips.RWL021.png" width="60" />|Philips|4-Tasten-Fernbedienung||||
 |<img src="../../de_DE/zigbee/images/Philips.SML001.png" width="60" />|Philips|Farbton Innenbewegungsdetektor|Bewegung, Helligkeit, Temperatur|||
@@ -200,6 +201,8 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Temperatur Feuchtigkeit||||
 |<img src="../../de_DE/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Moes Kühlerantrieb||||
+|<img src="../../de_DE/zigbee/images/_TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Einzelschalter||||
+|<img src="../../de_DE/zigbee/images/_TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Doppelschalter||||
 
 # Xiaomi
 
@@ -232,4 +235,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-11-25 01:32:04
+2020-11-26 01:32:04

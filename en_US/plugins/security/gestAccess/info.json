@@ -1,14 +1,27 @@
 {
     "id": "gestAccess",
-    "name": "gestion access",
-    "description": "Plugin de gestion d'acces via un système de bagdes",
+    "name": "Gestion d'accès",
+    "description": "Plugin qui permet de gérer le contrôle d'accès d'un bâtiment via la création d'utilisateurs, groupes, plages horaires et lecteurs/actionneurs. ATTENTION : Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack. Ils sont disponibles uniquement sur devis auprès de Jeedom (contact via notre site web).",
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.3",
+    "require": "3.3.39",
     "display": "panel",
     "category": "security",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/gestAccess\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/gestAccess\/",
-    "language": "",
-    "compatibility": ""
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

@@ -124,7 +124,7 @@
 |<img src="../../fr_FR/zigbee/images/Philips.LCA001.png" width="60" />|Philips|Hue White and Color Ambiance A60 E27||||
 |<img src="../../fr_FR/zigbee/images/Philips.LCL001.png" width="60" />|Philips|Hue Lightstrip Plus||||
 |<img src="../../fr_FR/zigbee/images/Philips.LCT001.png" width="60" />|Philips|Hue bulb white and color||||
-||Philips|Hue White and Color BR30 (1st Gen)||||
+|<img src="../../fr_FR/zigbee/images/Philips.LCT002.png" width="60" />|Philips|Hue White and Color BR30 (1st Gen)||||
 |<img src="../../fr_FR/zigbee/images/Philips.LCT003.png" width="60" />|Philips|Hue White and Color Ambiance Spot GU10||Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible||
 |<img src="../../fr_FR/zigbee/images/Philips.LCT007.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26 (Gen 2)||||
 |<img src="../../fr_FR/zigbee/images/Philips.LCT010.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26 (Gen 3)||||
@@ -152,6 +152,7 @@
 |<img src="../../fr_FR/zigbee/images/Philips.LST004.png" width="60" />|Philips|Hue LightStrip Outdoor||||
 |<img src="../../fr_FR/zigbee/images/Philips.LTW001.png" width="60" />|Philips|Hue White and Color||Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible||
 |<img src="../../fr_FR/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Hue White B22||Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible||
+|<img src="../../fr_FR/zigbee/images/Philips.LWE002.png" width="60" />|Philips|Hue White Candle E14||Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible||
 |<img src="../../fr_FR/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../fr_FR/zigbee/images/Philips.RWL021.png" width="60" />|Philips|Télécommande 4 boutons||||
 |<img src="../../fr_FR/zigbee/images/Philips.SML001.png" width="60" />|Philips|Hue détecteur de mouvement intérieure|Mouvement,Luminosité,Température|||
@@ -200,6 +201,8 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Température/humidité||||
 |<img src="../../fr_FR/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Moes Radiator Actuator||||
+|<img src="../../fr_FR/zigbee/images/_TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Interrupteur simple||||
+|<img src="../../fr_FR/zigbee/images/_TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Interrupteur double||||
 
 # Xiaomi
 
@@ -232,4 +235,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-11-25 01:32:04
+2020-11-26 01:32:04
