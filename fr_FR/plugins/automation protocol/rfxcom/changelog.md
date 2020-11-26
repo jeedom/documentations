@@ -4,6 +4,14 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 26/11/2020
+
+- Refonte complete du demon du plugin
+- Passage en python3
+- Support complet de tous les modules RFXcom
+
+ATTENTION : Cette mise à jour est importante et impose de relancer l'installation des dépendances. Il est aussi possible qu'il faille refaire l'inclusion de certain capteur.
+
 # 27/05/2019
 
 - Correction de bugs
