@@ -1,7 +1,13 @@
 {
     "id": "rfxcom",
     "name": "RFXcom",
-    "description": "Plugin pour utiliser le RFXcom USB. Permet de piloter les équipements domotiques de type 433Mhz ( Chacon, Oregon, La Crosse, X10, DI-O, Blyss...)",
+    "description": {
+        "fr_FR": "Plugin pour utiliser le RFXcom USB. Permet de piloter les équipements domotiques de type 433Mhz ( Chacon, Oregon, La Crosse, X10, DI-O, Blyss...)",
+        "en_US": "Plugin to use the RFXcom USB. Used to control 433Mhz type home automation equipment (Chacon, Oregon, La Crosse, X10, DI-O, Blyss ...)",
+        "es_ES": "Complemento para usar el RFXcom USB. Se utiliza para controlar equipos de automatización del hogar de tipo 433Mhz (Chacon, Oregon, La Crosse, X10, DI-O, Blyss ...)",
+        "de_DE": "Plugin zur Verwendung des RFXcom USB. Zur Steuerung von Hausautomationsgeräten vom Typ 433 MHz (Chacon, Oregon, La Crosse, X10, DI-O, Blyss ...)",
+        "pt_PT": "Plugin para usar o RFXcom USB. Usado para controlar equipamentos de automação residencial do tipo 433Mhz (Chacon, Oregon, La Crosse, X10, DI-O, Blyss ...)"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "3.1",
@@ -13,17 +19,16 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",
         "smart",
         "rpi",
         "docker",
-        "diy"
+        "diy",
+        "v4"
     ]
 }
