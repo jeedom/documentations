@@ -4,6 +4,14 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 26/11/2020
+
+- Revisión completa del demonio de complementos
+- Pasaje en python3
+- Soporte completo de todos los módulos RFXcom
+
+Atención : Esta actualización es importante y requiere reiniciar la instalación de dependencias. También es posible que sea necesario rehacer la inclusión de ciertos sensores.
+
 # 27/05/2019
 
 - Correcciones de errores

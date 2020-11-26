@@ -4,6 +4,14 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 26.11.2020
+
+- Vollständige Überarbeitung des Plugin-Daemons
+- Passage in Python3
+- Volle Unterstützung aller RFXcom-Module
+
+Achtung : Dieses Update ist wichtig und erfordert einen Neustart der Installation von Abhängigkeiten. Es ist auch möglich, dass bestimmte Sensoren wiederholt werden müssen.
+
 # 27.05.2019
 
 - Fehlerbehebungen

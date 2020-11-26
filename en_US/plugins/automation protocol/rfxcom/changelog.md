@@ -4,6 +4,14 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 11/26/2020
+
+- Complete overhaul of the plugin daemon
+- Passage in python3
+- Full support of all RFXcom modules
+
+Be careful : This update is important and requires restarting the installation of dependencies. It is also possible that it is necessary to redo the inclusion of certain sensors.
+
 # 05/27/2019
 
 - Bugfix
