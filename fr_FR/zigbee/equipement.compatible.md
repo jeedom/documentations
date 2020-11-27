@@ -18,6 +18,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Legrand cable outlet||||
+|<img src="../../fr_FR/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Legrand contactor||||
 |<img src="../../fr_FR/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand micro module||||
 |<img src="../../fr_FR/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand prise mobile Céliane||||
 
@@ -114,6 +115,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|OSRAM Smart+ Ampoule LED Connectée - Culot E27||||
+|<img src="../../fr_FR/zigbee/images/OSRAM.LIGHTIFY_Indoor_Flex_RGBW.png" width="60" />|Osram|OSRAM LIGHTIFY Indoor Flex RGBW||||
 |<img src="../../fr_FR/zigbee/images/OSRAM.MR16_TW_OSRAM.png" width="60" />|Osram|OSRAM SMART+ Spot GU5.3 Tunable White||||
 |<img src="../../fr_FR/zigbee/images/OSRAM.Plug_01.png" width="60" />|Osram|OSRAM Smart+ Plug||||
 
@@ -151,6 +153,7 @@
 |<img src="../../fr_FR/zigbee/images/Philips.LST002.png" width="60" />|Philips|Hue LightStrip Plus||||
 |<img src="../../fr_FR/zigbee/images/Philips.LST004.png" width="60" />|Philips|Hue LightStrip Outdoor||||
 |<img src="../../fr_FR/zigbee/images/Philips.LTW001.png" width="60" />|Philips|Hue White and Color||Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible||
+|<img src="../../fr_FR/zigbee/images/Philips.LWA001.png" width="60" />|Philips|Hue White Ambiance E27||Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible||
 |<img src="../../fr_FR/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Hue White B22||Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible||
 |<img src="../../fr_FR/zigbee/images/Philips.LWE002.png" width="60" />|Philips|Hue White Candle E14||Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible||
 |<img src="../../fr_FR/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
@@ -235,4 +238,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-11-26 01:32:04
+2020-11-27 01:32:04

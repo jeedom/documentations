@@ -60,6 +60,7 @@
         "Hue White Candle E14": "Hue White Candle E14",
         "Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible": "Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible",
         "Hue White B22": "Hue White B22",
+        "Hue White Ambiance E27": "Hue White Ambiance E27",
         "Hue White and Color": "Hue White and Color",
         "Hue LightStrip Outdoor": "Hue LightStrip Outdoor",
         "Hue LightStrip Plus": "Hue LightStrip Plus",
@@ -88,6 +89,7 @@
         "OSRAM Smart+ Plug": "OSRAM Smart+ Plug",
         "3 Tunable White": "3 Tunable White",
         "OSRAM SMART+ Spot GU5": "OSRAM SMART+ Spot GU5",
+        "OSRAM LIGHTIFY Indoor Flex RGBW": "OSRAM LIGHTIFY Indoor Flex RGBW",
         "OSRAM Smart+ Ampoule LED Connectée - Culot E27": "OSRAM Smart+ Ampoule LED Connectée - Culot E27",
         "Orvibo": "Orvibo",
         "Smoke detector": "Smoke detector",
@@ -140,6 +142,7 @@
         "Legrand": "Legrand",
         "Legrand prise mobile Céliane": "Legrand prise mobile Céliane",
         "Legrand micro module": "Legrand micro module",
+        "Legrand contactor": "Legrand contactor",
         "Legrand cable outlet": "Legrand cable outlet",
         "GR-SMARTHOME": "GR-SMARTHOME",
         "GR-SMARTHOME VANNE 1\/4 DE TOUR": "GR-SMARTHOME VANNE 1\/4 DE TOUR",
@@ -151,6 +154,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-11-26 01": "2020-11-26 01"
+        "2020-11-27 01": "2020-11-27 01"
     }
 }

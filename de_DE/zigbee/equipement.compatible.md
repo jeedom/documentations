@@ -18,6 +18,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Legrand Kabelausgang||||
+|<img src="../../de_DE/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Legrand Schütz||||
 |<img src="../../de_DE/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand Mikromodul||||
 |<img src="../../de_DE/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand Mobilsteckdose Céliane||||
 
@@ -114,6 +115,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|OSRAM Smart + Connected LED-Lampe - E27-Sockel||||
+|<img src="../../de_DE/zigbee/images/OSRAM.LIGHTIFY_Indoor_Flex_RGBW.png" width="60" />|Osram|OSRAM LIGHTIFY Indoor Flex RGBW||||
 |<img src="../../de_DE/zigbee/images/OSRAM.MR16_TW_OSRAM.png" width="60" />|Osram|OSRAM SMART + Spot GU5.3 Abstimmbares Weiß||||
 |<img src="../../de_DE/zigbee/images/OSRAM.Plug_01.png" width="60" />|Osram|OSRAM Smart + Plug||||
 
@@ -151,6 +153,7 @@
 |<img src="../../de_DE/zigbee/images/Philips.LST002.png" width="60" />|Philips|Farbton LightStrip Plus||||
 |<img src="../../de_DE/zigbee/images/Philips.LST004.png" width="60" />|Philips|Farbton LightStrip Outdoor||||
 |<img src="../../de_DE/zigbee/images/Philips.LTW001.png" width="60" />|Philips|Farbton Weiß und Farbe||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
+|<img src="../../de_DE/zigbee/images/Philips.LWA001.png" width="60" />|Philips|Farbton Weiß Ambiente E27||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Farbton Weiß B22||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.LWE002.png" width="60" />|Philips|Farbton weiße Kerze E14||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
@@ -235,4 +238,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-11-26 01:32:04
+2020-11-27 01:32:04

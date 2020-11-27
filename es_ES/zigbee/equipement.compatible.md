@@ -18,6 +18,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Salida de cable Legrand||||
+|<img src="../../es_ES/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Contactor Legrand||||
 |<img src="../../es_ES/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Micro módulo Legrand||||
 |<img src="../../es_ES/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Toma móvil Legrand Céliane||||
 
@@ -114,6 +115,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|Bombilla LED OSRAM Smart + Connected - Base E27||||
+|<img src="../../es_ES/zigbee/images/OSRAM.LIGHTIFY_Indoor_Flex_RGBW.png" width="60" />|Osram|OSRAM LIGHTIFY Interior Flex RGBW||||
 |<img src="../../es_ES/zigbee/images/OSRAM.MR16_TW_OSRAM.png" width="60" />|Osram|OSRAM SMART + Spot GU5.3 blanco sintonizable||||
 |<img src="../../es_ES/zigbee/images/OSRAM.Plug_01.png" width="60" />|Osram|Enchufe OSRAM Smart +||||
 
@@ -151,6 +153,7 @@
 |<img src="../../es_ES/zigbee/images/Philips.LST002.png" width="60" />|Philips|Hue LightStrip Plus||||
 |<img src="../../es_ES/zigbee/images/Philips.LST004.png" width="60" />|Philips|Hue LightStrip para exteriores||||
 |<img src="../../es_ES/zigbee/images/Philips.LTW001.png" width="60" />|Philips|Hue blanco y color||Tenga en cuenta que no hay comentarios de estado para este modelo, solo es posible enviar un pedido||
+|<img src="../../es_ES/zigbee/images/Philips.LWA001.png" width="60" />|Philips|Hue White Ambiance E27||Tenga en cuenta que no hay comentarios de estado para este modelo, solo es posible enviar un pedido||
 |<img src="../../es_ES/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Hue blanco B22||Tenga en cuenta que no hay comentarios de estado para este modelo, solo es posible enviar un pedido||
 |<img src="../../es_ES/zigbee/images/Philips.LWE002.png" width="60" />|Philips|Vela Hue White E14||Tenga en cuenta que no hay comentarios de estado para este modelo, solo es posible enviar un pedido||
 |<img src="../../es_ES/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
@@ -235,4 +238,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-11-26 01:32:04
+27-11-2020 01:32:04
