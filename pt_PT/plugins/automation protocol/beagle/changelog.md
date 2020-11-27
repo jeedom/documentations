@@ -1,3 +1,11 @@
-# 06/02/2020
+# Changelog Odace SFSP
 
-Première version
+# Plug-in do Beagle
+
+>**IMPORTANTE**
+>
+>Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+
+# 02/06/2020
+
+Primeira versão

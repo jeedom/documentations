@@ -1,118 +1,49 @@
-Open Enocean 
+Odace SFSP
 ============
 
-Description
------------
+This plugin is a plugin allowing compatibility with the Odace wireless range without battery from Schneider.
 
-Ce plugin est un plugin permettant une compatibilité Enocean
 
-![openenocean icon](./images/openenocean_icon.png)
+# Setup 
 
-Configuration
--------------
-
-Plugin configuration:
-========================
-
-a. Installation/Creation
+## Plugin configuration : 
 
 > **Tip**
 >
-> Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-> l’activer comme tout plugin Jeedom.
+> In order to use the plugin, you must download, install and activate it like any Jeedom plugin.
 
 > **Important**
 >
-> La chose la plus importante ici est de sélectionner votre Contrôlleur
-> USB (vous pouvez choisir Auto cela fonctionnera pour la clé Enocean
-> USB300). Pour tout autre modèle il est préférable de le choisir dans
-> la liste :
+> The most important thing on the configuration page is to select your bluetooth device. It is very important to use a bluetooth dongle dedeicated to this plugin for a consistent experience.
 
--   USB300 : EnOcean\_GmbH EnOean\_USB\_300\_DB
+You can also check the status of dependencies and relaunch them. In case of problems with the plugin always relaunch the dependencies even if OK when in doubt.
 
--   USB310 : FTDI FT232R\_USB\_UART
+# The plugin 
 
--   Jeedom Smart : ttyS1
+Go to the plugins / protocol menu to find the plugin.
 
-L’autre option disponible sur cette page est : **Supprimer
-automatiquement les périphériques exclus**. Celle-ci permet de supprimer
-les équipements de Jeedom lorsqu’il sont exclus.
+On this page you can see the modules already included.
 
-Vous pouvez aussi vérifier l’état des dépendances et les relancer. En
-cas de soucis avec le plugin toujours relancer les dépendances même si
-OK dans le doute.
+On the upper part of this page you have several buttons
 
-The plugin
-=========
+-   Start Scan button : Allows you to integrate a new device. Properly pair the device in question, in accordance with its documentation.
+-   Configuration button : Allows you to go directly to the plugin configuration page
+-   Health button : This button allows you to have a Health overview of all your modules
+-   Scenes Button : Allows you to interrogate the devices to know the scenes they have
+-   Groups Button : Allows you to interrogate the devices to know the groups they have
 
-Rendez vous dans le menu plugins/protocole pour retrouver le plugin.
+# Equipment 
 
-Sur cette page vous pourrez voir les modules déjà inclus.
+When you click on one of your modules, you arrive on the configuration page of this module. Like everywhere in Jeedom you can here on the left side:
 
-Sur la partie haute de cette page vous avez plusieurs boutons (visibles
-selon que vous êtes en mode expert ou non)
+-   Give a name to the module
+-   Activate / make it visible or not
+-   Choose your parent object
+-   Assign a category
 
--   Bouton ajouter : Permet d’ajouter certains modules qui n’ont pas de
-    notions d’appairage ou qui nécessitent un envoi de commandes depuis
-    Jeedom
+On the right side you will find :
 
--   Bouton Inclusion : Ce bouton permet de mettre Jeedom en Inclusion
-    (plusieurs modes, seul le premier est disponible pour le moment)
+-   A visual of the module. For switches the display is the same regardless of its type
+-   Specific information such as firmware version, model, unique module identifier, mac address
+-   In the case of an actuator you will also find information on "Pairing", if after inclusion it is not on "Paired" you can retry the pairing by clicking on the orange button "frame pairing" "having took care to pair the module"
 
--   Bouton Exclusion : Ce bouton permet de mettre Jeedom en Exclusion
-
--   Bouton Configuation : Ce bouton permet d’ouvrir la fenêtre de
-    configuration du plugin
-
--   Bouton Santé : Ce bouton permet d’avoir un aperçu Santé de tous vos
-    modules
-
-Equipment
-==========
-
-Lorsque que vous cliquez sur un de vos modules, vous arrivez sur la page
-de configuration de celui-ci. Comme partout dans Jeedom vous pouvez ici
-sur la partie gauche:
-
--   Donner un nom au module
-
--   L’activer/le rendre visible ou non
-
--   Choisir son objet parent
-
--   Lui attribuer une catégorie
-
--   Definir un delai de surveillance de communication pour certains
-    modules
-
--   Mettre un commentaire
-
-On the right side you will find:
-
--   Le profil de l’équipement (généralement auto détecté si le module
-    le permet)
-
--   Choisir un modèle si pour ce profil plusieurs modèles sont
-    disponibles
-
--   Voir le visuel
-
-Equipement avec configuration 
-=============================
-
-Pour certains modules il est possible d’avoir un bouton configurer, en
-cliquant dessus vous arriverez sur une page permettant de configurer
-celui-ci
-
-> **Important**
->
-> Ici il vous suffit de choisir toutes les options et de cliquer sur
-> appliquer. (Attention : il tous les paramètres sont envoyés, donc
-> validez bien l’ensemble)
-
-Liste de compatibilité 
-======================
-
-Vous trouverez sur le site de documentation jeedom une liste de
-compatibilité de modules avec leur procédure d’inclusion si elles sont
-spécifiques.

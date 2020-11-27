@@ -1,15 +1,31 @@
 {
-	"id" : "beagle",
-	"name" : "Odace SFSP",
-	"description" : "Plugin ajoutant le support de la gamme Odace SFSP (sans fil sans pile) Schneider à Jeedom. Il permet d'obtenir les informations des interrupteurs (volets/ scènes / simple / double). Il permet de contrôler les actionneurs (volet/dcl). Il permet aussi de pouvoir utiliser les scènes et les groupes.",
-	"licence" : "AGPL",
-	"author" : "Jeedom SAS",
-	"require" : "3.2.12",
-	"category" : "automation protocol",
-	"hasDependency" : true,
-        "hasOwnDeamon" : true,
-        "changelog" : "https://jeedom.github.io/plugin-beagle/#language#/changelog",
-     "documentation" : "https://jeedom.github.io/plugin-beagle/#language#/",
-	"language" : ["fr_FR","en_US","de_DE","sp_SP","ru_RU","id_ID","it_IT"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+    "id": "beagle",
+    "name": "Odace SFSP",
+    "description": {
+        "fr_FR": "Plugin ajoutant le support de la gamme Odace SFSP (sans fil sans pile) Schneider à Jeedom. Il permet d'obtenir les informations des interrupteurs (volets\/ scènes \/ simple \/ double). Il permet de contrôler les actionneurs (volet\/dcl). Il permet aussi de pouvoir utiliser les scènes et les groupes.",
+        "en_US": "Plugin adding support for the Odace SFSP range (wireless without battery) Schneider to Jeedom. It is used to obtain information from the switches (shutters \/ scenes \/ single \/ double). It is used to control the actuators (shutter \/ dcl). It also allows you to use scenes and groups",
+        "pt_PT": "Plugin adicionando suporte para a gama Odace SFSP (sem fio sem bateria) Schneider para Jeedom. É usado para obter informações dos interruptores (persianas \/ cenas \/ simples \/ duplas). É usado para controlar os atuadores (obturador \/ dcl). Também permite usar cenas e grupos"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.2.12",
+    "category": "automation protocol",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/beagle\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/beagle\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

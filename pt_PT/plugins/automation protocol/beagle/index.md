@@ -1,76 +1,49 @@
 Odace SFSP
 ============
 
-Description 
------------
-
-Ce plugin est un plugin permettant une compatibilité avec la gamme Odace Sans Fil Sans Pile de Schneider.
+Este plugin é compatível com a gama Odace Sans Fil Sans Pile da Schneider.
 
 
-Configuration 
--------------
+# Configuração 
 
-Configuration du plugin: 
-========================
+## Configuração do plugin : 
 
-a.  Installation/Création
-
-> **Tip**
+> **Dica**
 >
-> Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-> l’activer comme tout plugin Jeedom.
+> Para usar o plug-in, você deve fazer o download, instalar e ativá-lo como qualquer plug-in Jeedom.
 
-> **Important**
+> **IMPORTANTE**
 >
-> La chose la plus importante sur la page de configuration du plugin est de sélectionner votre Contrôleur Bluetooth
-> Il est très important d'utiliser un dongle bluetooth dédié pour ce plugin pour un bon fonctionnement de celui-ci.
+> A coisa mais importante na página de configuração do plugin é selecionar o seu controlador Bluetooth. É muito importante usar um dongle bluetooth dedicado para este plugin para o bom funcionamento dele.
 
-Vous pouvez aussi vérifier l’état des dépendances et les relancer. En
-cas de soucis avec le plugin toujours relancer les dépendances même si
-OK dans le doute.
+Você também pode verificar o status das dependências e reiniciá-las. Em caso de problemas com o plug-in, reinicie sempre as dependências, mesmo se estiver bem em caso de dúvida.
 
-Le plugin 
-=========
+# O plugin 
 
-Rendez vous dans le menu plugins/protocole pour retrouver le plugin.
+Vá para o menu plugins / protocolo para encontrar o plugin.
 
-Sur cette page vous pourrez voir les modules déjà inclus.
+Nesta página você pode ver os módulos já incluídos.
 
-Sur la partie haute de cette page vous avez plusieurs boutons
+Na parte superior desta página, você tem vários botões
 
--   Bouton Lancer Scan : Permet d'intégrer un nouveau device. Bien mettre le device en question en appairage, conformément à la documentation de celui-ci.
+-   Botão Iniciar digitalização : Permite integrar um novo dispositivo. Emparelhe corretamente o dispositivo em questão, de acordo com sua documentação.
+-   Botão de configuração : Permite ir diretamente para a página de configuração do plugin
+-   Botão de saúde : Este botão permite que você tenha uma visão geral da saúde de todos os seus módulos
+-   Botão Cenas : Permite que você interrogue os dispositivos para conhecer as cenas que eles têm
+-   Botão Grupos : Permite consultar dispositivos para descobrir quais grupos eles têm
 
--   Bouton Configuration : Permet de se rendre directement sur la page configuration du plugin
+# Equipamento 
 
--   Bouton Santé : Ce bouton permet d’avoir un aperçu Santé de tous vos
-    modules
+Quando você clica em um de seus módulos, você chega na página de configuração deste módulo. Como em qualquer lugar em Jeedom, você pode aqui no lado esquerdo:
 
+-   Dê um nome ao módulo
+-   Ative / torne visível ou não
+-   Escolha seu objeto pai
+-   Atribuir uma categoria
 
--   Bouton Scènes : Permet d'interroger les devices pour connaître les scènes qu'ils disposent
+No lado direito, você encontrará :
 
--   Bouton Groupes : Permet d'interroger les devices pour connaître les groupes qu'ils disposent
-
-Equipement 
-==========
-
-Lorsque que vous cliquez sur un de vos modules, vous arrivez sur la page
-de configuration de celui-ci. Comme partout dans Jeedom vous pouvez ici
-sur la partie gauche:
-
--   Donner un nom au module
-
--   L’activer/le rendre visible ou non
-
--   Choisir son objet parent
-
--   Lui attribuer une catégorie
-
-Sur la partie droite vous trouverez :
-
--   Un visuel du module. Pour les interrupteurs le visuel est le même peut importe son type
-
--   Des infos spécifiques comme la version du firmware, le modèle, l'identifiant unique du module, son adresse mac
-
--   Dans le cas d'un actionneur vous trouverez aussi une information de "Pairage", si après inclusion celle-ci n'est pas sur "Pairé" vous pourrez retenter l'appairage en cliquant sur le bouton orange "trame pairing"
-"en ayant pris soin de mettre le module en appairage"
+-   Um visual do módulo. Para comutadores, a exibição é a mesma, independentemente do seu tipo
+-   Informações específicas, como versão do firmware, modelo, identificador exclusivo do módulo, endereço mac
+-   No caso de um atuador, você também encontrará informações sobre "Emparelhamento". Se, após a inclusão, ele não estiver em "Emparelhado", é possível tentar novamente o emparelhamento clicando no botão laranja "quadro emparelhado". teve o cuidado de emparelhar o módulo"
 

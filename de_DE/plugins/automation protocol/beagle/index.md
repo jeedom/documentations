@@ -1,118 +1,49 @@
-Open Enocean 
+Odace SFSP
 ============
 
-Beschreibung 
------------
+Dieses Plugin ist ein Plugin, das die Kompatibilität mit der Odace Sans Fil Sans Pile-Reihe von Schneider ermöglicht.
 
-Ce plugin est un plugin permettant une compatibilité Enocean
 
-![openenocean icon](./images/openenocean_icon.png)
+# Konfiguration 
 
-Konfiguration
--------------
+## Plugin Konfiguration : 
 
-Plugin Konfiguration:
-========================
-
-a.  Installation/Création
-
-> **Tip**
+> **Spitze**
 >
-> Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-> l’activer comme tout plugin Jeedom.
+> Um das Plugin verwenden zu können, müssen Sie es wie jedes Jeedom-Plugin herunterladen, installieren und aktivieren.
 
-> **Important**
+> **Wichtig**
 >
-> La chose la plus importante ici est de sélectionner votre Contrôlleur
-> USB (vous pouvez choisir Auto cela fonctionnera pour la clé Enocean
-> USB300). Pour tout autre modèle il est préférable de le choisir dans
-> la liste :
+> Das Wichtigste auf der Plugin-Konfigurationsseite ist die Auswahl Ihres Bluetooth-Controllers. Es ist sehr wichtig, einen dedizierten Bluetooth-Dongle für dieses Plugin zu verwenden, damit es ordnungsgemäß funktioniert.
 
--   USB300 : EnOcean\_GmbH EnOean\_USB\_300\_DB
+Sie können auch den Status von Abhängigkeiten überprüfen und neu starten. Bei Problemen mit dem Plugin werden die Abhängigkeiten immer neu gestartet, auch wenn im Zweifelsfall OK.
 
--   USB310 : FTDI FT232R\_USB\_UART
+# Das Plugin 
 
--   Jeedom Smart : ttyS1
+Gehen Sie zum Menü Plugins / Protokoll, um das Plugin zu finden.
 
-L’autre option disponible sur cette page est : **Supprimer
-automatiquement les périphériques exclus**. Celle-ci permet de supprimer
-les équipements de Jeedom lorsqu’il sont exclus.
+Auf dieser Seite sehen Sie die bereits enthaltenen Module.
 
-Vous pouvez aussi vérifier l’état des dépendances et les relancer. En
-cas de soucis avec le plugin toujours relancer les dépendances même si
-OK dans le doute.
+Im oberen Teil dieser Seite befinden sich mehrere Schaltflächen
 
-Das Plugin 
-=========
+-   Schaltfläche "Scan starten" : Ermöglicht die Integration eines neuen Geräts. Koppeln Sie das betreffende Gerät gemäß seiner Dokumentation ordnungsgemäß.
+-   Konfigurationsschaltfläche : Ermöglicht den direkten Zugriff auf die Plugin-Konfigurationsseite
+-   Gesundheitstaste : Mit dieser Schaltfläche erhalten Sie einen Überblick über den Zustand aller Ihrer Module
+-   Schaltfläche "Szenen" : Ermöglicht es Ihnen, die Geräte abzufragen, um die Szenen zu kennen, die sie haben
+-   Schaltfläche "Gruppen" : Ermöglicht das Abfragen von Geräten, um herauszufinden, welche Gruppen sie haben
 
-Rendez vous dans le menu plugins/protocole pour retrouver le plugin.
+# Gerät 
 
-Sur cette page vous pourrez voir les modules déjà inclus.
+Wenn Sie auf eines Ihrer Module klicken, gelangen Sie auf die Konfigurationsseite dieses Moduls. Wie überall in Jeedom können Sie hier auf der linken Seite:
 
-Sur la partie haute de cette page vous avez plusieurs boutons (visibles
-selon que vous êtes en mode expert ou non)
+-   Geben Sie dem Modul einen Namen
+-   Aktivieren / sichtbar machen oder nicht
+-   Wählen Sie Ihr übergeordnetes Objekt
+-   Ordnen Sie eine Kategorie zu
 
--   Bouton ajouter : Permet d’ajouter certains modules qui n’ont pas de
-    notions d’appairage ou qui nécessitent un envoi de commandes depuis
-    Jeedom
+Auf der rechten Seite finden Sie :
 
--   Bouton Inclusion : Ce bouton permet de mettre Jeedom en Inclusion
-    (plusieurs modes, seul le premier est disponible pour le moment)
+-   Eine visuelle Darstellung des Moduls. Bei Schaltern ist die Anzeige unabhängig vom Typ gleich
+-   Spezifische Informationen wie Firmware-Version, Modell, eindeutige Modul-ID, Mac-Adresse
+-   Im Falle eines Aktuators finden Sie auch Informationen zu "Pairing". Wenn es nach dem Einfügen nicht zu "Paired" gehört, können Sie die Pairing erneut versuchen, indem Sie auf die orangefarbene Schaltfläche "Frame Pairing" "mit klicken achtete darauf, das Modul zu koppeln"
 
--   Bouton Exclusion : Ce bouton permet de mettre Jeedom en Exclusion
-
--   Bouton Configuation : Ce bouton permet d’ouvrir la fenêtre de
-    configuration du plugin
-
--   Bouton Santé : Ce bouton permet d’avoir un aperçu Santé de tous vos
-    modules
-
-Equipement 
-==========
-
-Lorsque que vous cliquez sur un de vos modules, vous arrivez sur la page
-de configuration de celui-ci. Comme partout dans Jeedom vous pouvez ici
-sur la partie gauche:
-
--   Donner un nom au module
-
--   L’activer/le rendre visible ou non
-
--   Choisir son objet parent
-
--   Lui attribuer une catégorie
-
--   Definir un delai de surveillance de communication pour certains
-    modules
-
--   Mettre un commentaire
-
-Sur la partie droite vous trouverez :
-
--   Le profil de l’équipement (généralement auto détecté si le module
-    le permet)
-
--   Choisir un modèle si pour ce profil plusieurs modèles sont
-    disponibles
-
--   Voir le visuel
-
-Equipement avec configuration 
-=============================
-
-Pour certains modules il est possible d’avoir un bouton configurer, en
-cliquant dessus vous arriverez sur une page permettant de configurer
-celui-ci
-
-> **Important**
->
-> Ici il vous suffit de choisir toutes les options et de cliquer sur
-> appliquer. (Attention : il tous les paramètres sont envoyés, donc
-> validez bien l’ensemble)
-
-Liste de compatibilité 
-======================
-
-Vous trouverez sur le site de documentation jeedom une liste de
-compatibilité de modules avec leur procédure d’inclusion si elles sont
-spécifiques.
