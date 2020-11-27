@@ -29,8 +29,8 @@ Vous disposez d'un moteur de recherche permettant de filtrer l'affichage des obj
 A droite du champ de recherche, trois boutons que l'on retrouve à plusieurs endroits de Jeedom:
 
 - La croix pour annuler la recherche.
-- Le dossier ouvert pour déplier tous les panneaux et afficher tous les objets.
-- Le dossier fermé pour replier tous les panneaux.
+- Le dossier ouvert pour déplier tout les panneaux et afficher touts les objets.
+- Le dossier fermé pour replier tout les panneaux.
 
 Une fois sur la configuration d'un objet, vous disposez d'un menu contextuel au Clic Droit sur les onglets de l'objet. Vous pouvez également utiliser un Ctrl Clic ou Clic Centre pour ouvrir directement un autre objet dans un nouvel onglet du navigateur.
 
@@ -87,7 +87,7 @@ Chaque onglet représente un type de résumé défini dans la configuration de J
 
 ## Onglet Résumé par équipement
 
-Cette page affiche tous les équipements ayant l'objet comme parent. Sur chaque équipement, en cliquant dessus, la liste des commandes info de l'équipement est présentée, avec sur la droite le moyen d'attribuer cette commande à un ou plusieurs résumés de l'objet.
+Cette page affiche tout les équipements ayant l'objet comme parent. Sur chaque équipement, en cliquant dessus, la liste des commandes info de l'équipement est présentée, avec sur la droite le moyen d'attribuer cette commande à un ou plusieurs résumés de l'objet.
 
 Si un ou des résumé(s) sont déjà définis, le sélecteur apparait en orange, avec les types de résumés cochés sur la droite.
 
