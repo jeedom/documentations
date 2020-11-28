@@ -29,7 +29,7 @@ Algunas peculiaridades :
 
 **Oregón**
 
-Cambiar las baterías cambia la identificación del producto. Por lo tanto, es necesario, al cambiar las baterías, agregar un nuevo módulo, luego hacer clic en "Recuperar ID" frente a "Cambio de batería". Debe realizar esta acción en el nuevo módulo y elegir el nombre del módulo apropiado (el nombre antiguo del módulo cuyas baterías acaban de ser reemplazadas).
+Cambiar las baterías cambia la identificación del producto. Por lo tanto, es necesario, al cambiar las baterías, agregar un nuevo módulo, luego hacer clic en "Recuperar ID" frente a "Cambio de batería". Esta acción debe llevarse a cabo en el nuevo módulo y elegir el nombre del módulo apropiado (el nombre antiguo del módulo cuyas baterías acaban de ser reemplazadas).
 
 **Loro**
 

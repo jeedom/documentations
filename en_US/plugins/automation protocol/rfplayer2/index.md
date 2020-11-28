@@ -29,7 +29,7 @@ Some peculiarities :
 
 **Oregon**
 
-Changing the batteries changes the product ID. So when changing batteries, add a new module, then click on "Recover ID" opposite "Change battery". You must do this action on the new module and choose the appropriate module name (the old name of the module whose batteries have just been replaced).
+Changing the batteries changes the product ID. So when changing batteries, add a new module, then click on "Recover ID" opposite "Change battery". This action must be carried out on the new module and choose the name of the appropriate module (the old name of the module whose batteries have just been replaced).
 
 **Parrot**
 

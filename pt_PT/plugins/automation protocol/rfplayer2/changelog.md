@@ -41,7 +41,7 @@ Gerenciamento de caracteres especiais para o envio do nome do papagaio, o rfp100
 # 10/10/2018
 
 Correção do modo papagaio
-E início da implementação do protocolo EDISIO (atualização enviada especialmente para o modo papagaio)
+E início da implementação do protocolo EDISIO (atualização abrangente, especialmente para o modo papagaio)
 
 # 14/06/2018
 

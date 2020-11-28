@@ -1,7 +1,13 @@
 {
     "id": "rfplayer2",
     "name": "RfPlayer2",
-    "description": "Plugin ajoutant le support de la clé RfPlayer de Ziblue à Jeedom. Ce plugin remplacera à terme le premier plugin. Il sera mis à disposition de tous les possesseurs du premier plugin. Cela permettra à chacun de migrer tranquillement. Car la philosophie du plugin ayant changé et les ids aussi, il faudra réinclure vos devices sur ce nouveau plugin.",
+    "description": {
+        "fr_FR": "Plugin ajoutant le support de la clé RfPlayer de Ziblue à Jeedom. Ce plugin remplacera à terme le premier plugin. Il sera mis à disposition de tous les possesseurs du premier plugin. Cela permettra à chacun de migrer tranquillement. Car la philosophie du plugin ayant changé et les ids aussi, il faudra réinclure vos devices sur ce nouveau plugin.",
+        "en_US": "Plugin adding support for RfPlayer key from Ziblue to Jeedom. This plugin will eventually replace the first plugin. It will be made available to all owners of the first plugin. This will allow everyone to migrate quietly. Because the philosophy of the plugin having changed and the ids too, you will have to re-include your devices on this new plugin",
+        "es_ES": "Complemento que agrega soporte para la clave RfPlayer de Ziblue a Jeedom. Este complemento eventualmente reemplazará al primer complemento. Se pondrá a disposición de todos los propietarios del primer complemento. Esto permitirá que todos migren en silencio. Debido a que la filosofía del complemento ha cambiado y los identificadores también, tendrá que volver a incluir sus dispositivos en este nuevo complemento",
+        "de_DE": "Plugin, das Unterstützung für RfPlayer-Schlüssel von Ziblue zu Jeedom hinzufügt. Dieses Plugin wird eventuell das erste Plugin ersetzen. Es wird allen Besitzern des ersten Plugins zur Verfügung gestellt. Dadurch kann jeder ruhig migrieren. Da sich die Philosophie des Plugins geändert hat und auch die IDs, müssen Sie Ihre Geräte wieder in dieses neue Plugin aufnehmen",
+        "pt_PT": "Plugin adicionando suporte à chave RfPlayer da Ziblue para Jeedom. Este plug-in eventualmente substituirá o primeiro plug-in. Será disponibilizado a todos os proprietários do primeiro plugin. Isso permitirá que todos migrem silenciosamente. Como a filosofia do plug-in mudou e os IDs também, você precisará incluir novamente seus dispositivos neste novo plug-in"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "3.0",
@@ -13,17 +19,17 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",
         "smart",
         "rpi",
         "docker",
-        "diy"
+        "diy",
+        "mobile",
+        "v4"
     ]
 }

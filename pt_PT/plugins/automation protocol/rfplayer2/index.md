@@ -18,7 +18,7 @@ O RFPlayer é compatível com muitos módulos. O plugin RFPlayer2 muda completam
 Razões generosas para garantir uma compatibilidade justa com o próprio RFplayer.
 
 Para incluir um módulo, basta clicar em Inclusão e seguir o passo a passo. Este vai pedir para você escolher
-o protocolo, o tipo (atuador / transmissor) no caso de um transmissor que a configuração criada conterá todos os dados brutos transmitidos pelo rfplayer (alguns podem ser inúteis para o seu uso, você pode ocultá-los). A vantagem desse método é estar alinhado com o Rfplayer (alguns dispositivos fornecendo informações em um lugar, outros em outro) e também permitir durante a inclusão filtrar com precisão o protocolo a ser incluído.
+o protocolo e, em seguida, o tipo (atuador / transmissor) no caso de um transmissor que a configuração criada conterá todos os dados brutos transmitidos pelo rfplayer (alguns podem ser inúteis para o seu uso, você pode ocultá-los). A vantagem desse método é estar alinhado com o Rfplayer (alguns dispositivos fornecendo informações em um lugar, outros em outro) e também permitir durante a inclusão filtrar com precisão o protocolo a ser incluído.
 
 Você não precisará se preocupar em incluir sondas do Oregon quando desejar incluir um sensor X2D.
  
@@ -29,7 +29,7 @@ Algumas peculiaridades :
 
 **Oregon**
 
-Trocar as pilhas altera a identificação do produto. Portanto, ao trocar as baterias, adicione um novo módulo e clique em "Recuperar ID" ao lado de "Trocar bateria". Você deve executar esta ação no novo módulo e escolher o nome do módulo apropriado (o nome antigo do módulo cujas baterias foram substituídas).
+Trocar as pilhas altera a identificação do produto. Portanto, ao trocar as baterias, adicione um novo módulo e clique em "Recuperar ID" ao lado de "Trocar bateria". Essa ação deve ser executada no novo módulo e escolher o nome do módulo apropriado (o nome antigo do módulo cujas baterias foram substituídas).
 
 **Papagaio**
 

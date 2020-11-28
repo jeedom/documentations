@@ -18,7 +18,7 @@ Der RFPlayer ist mit vielen Modulen kompatibel. Das RFPlayer2-Plugin ändert sei
 Es ist generell eine faire Kompatibilität mit dem RFplayer selbst zu gewährleisten.
 
 Um ein Modul einzuschließen, klicken Sie einfach auf Einschluss und folgen Sie den Anweisungen Schritt für Schritt. Dieser wird Sie bitten zu wählen
-das Protokoll, dann der Typ (Aktor / Sender) im Falle eines Senders, den die Konfiguration erstellt hat, enthält alle vom RF-Player übertragenen Rohdaten (einige können für Ihre Verwendung unbrauchbar sein, Sie können sie ausblenden). Der Vorteil dieser Methode besteht darin, dass sie auf den Rfplayer abgestimmt ist (einige Geräte geben die Informationen an einer Stelle, andere an einer anderen) und dass während des Einschlusses das einzuschließende Protokoll fein gefiltert werden kann.
+Das Protokoll, dann der Typ (Aktor / Sender) im Fall eines Senders, den die Konfiguration erstellt hat, enthält alle vom RF-Player übertragenen Rohdaten (einige können für Ihre Verwendung unbrauchbar sein, Sie können sie ausblenden). Der Vorteil dieser Methode besteht darin, dass sie auf den Rfplayer abgestimmt ist (einige Geräte geben die Informationen an einer Stelle, andere an einer anderen) und dass während des Einschlusses das einzuschließende Protokoll fein gefiltert werden kann.
 
 Sie müssen sich keine Gedanken über die Aufnahme von Oregon-Sonden machen, wenn Sie einen X2D-Sensor einbauen möchten.
  
@@ -29,7 +29,7 @@ Einige Besonderheiten :
 
 **Oregon**
 
-Durch Ändern der Batterien wird die Produkt-ID geändert. Wenn Sie die Batterien wechseln, müssen Sie daher ein neues Modul hinzufügen und dann vor "Batteriewechsel" auf "ID wiederherstellen" klicken". Sie müssen diese Aktion für das neue Modul ausführen und den entsprechenden Modulnamen auswählen (den alten Namen des Moduls, dessen Batterien gerade ausgetauscht wurden).
+Durch Ändern der Batterien wird die Produkt-ID geändert. Wenn Sie die Batterien wechseln, müssen Sie daher ein neues Modul hinzufügen und dann vor "Batteriewechsel" auf "ID wiederherstellen" klicken". Diese Aktion muss für das neue Modul ausgeführt werden und der Name des entsprechenden Moduls ausgewählt werden (der alte Name des Moduls, dessen Batterien gerade ausgetauscht wurden).
 
 **Papagei**
 

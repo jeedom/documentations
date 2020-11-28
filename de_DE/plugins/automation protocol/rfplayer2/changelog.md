@@ -41,7 +41,7 @@ Die Verwaltung von Sonderzeichen zum Senden des Papageiennamens, das rfp1000 mag
 # 10/10/2018
 
 Korrektur des Papageienmodus
-Und Beginn der Implementierung des EDISIO-Protokolls (Update speziell für den Papageienmodus gepusht)
+Und Beginn der Implementierung des EDISIO-Protokolls (umfangreiches Update speziell für den Papageienmodus)
 
 # 14.06.2008
 

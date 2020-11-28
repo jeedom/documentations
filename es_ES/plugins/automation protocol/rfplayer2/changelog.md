@@ -41,7 +41,7 @@ Gestión de caracteres especiales para enviar el nombre de loro, el rfp1000 no l
 # 10/10/2018
 
 Corrección del modo loro
-E inicio de la implementación del protocolo EDISIO (actualización promovida especialmente para el modo loro)
+E inicio de la implementación del protocolo EDISIO (actualización extensa especialmente para el modo loro)
 
 # 14/06/2018
 

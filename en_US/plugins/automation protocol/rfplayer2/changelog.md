@@ -41,7 +41,7 @@ Management of special characters for sending the parrot name, the rfp1000 does n
 # 10/10/2018
 
 Correction of parrot mode
-And start of implementation of the EDISIO protocol (update pushed especially for the parrot mode)
+And start of implementation of the EDISIO protocol (extensive update especially for parrot mode)
 
 # 06/14/2018
 
