@@ -9,8 +9,8 @@ Each device corresponds to a WiserLink.
 The information necessary for its creation is :
 
 -   The Wiser IP address
--   Username (admin by default)
--   Password (admin by default)
+-   Username (default admin)
+-   The password (default admin)
 
 # The orders 
 

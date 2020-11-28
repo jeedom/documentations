@@ -16,18 +16,18 @@ Vá para o menu plugins / bem-estar para encontrá-lo.
 
 # Painel de controle
 
-    -   Aviso : mensagem se um erro estiver em andamento (escova bloqueada, caixote do lixo cheio etc.)
+    -   Aviso : mensagem se um erro estiver em andamento (escova bloqueada, recipiente de poeira cheio etc)
     -   Parar : Pare o robô
     -   Código de status : Código técnico do estado
     -   Iniciar eco house : iniciar a limpeza ecológica
     -   Iniciar turbo house : Iniciar limpeza turbo
     -   No comando : Responsável ou não
-    -   Estado : Mensagem de status (pronta para limpar, durante a limpeza, pausada etc.)
+    -   Estado : Mensagem de status (pronta para limpar, limpar, pausada etc)
     -   Pausa : Pausar o robô
-    -   Programação : Usado para descobrir se uma programação está em andamento (neato programação)
+    -   Programação : Usado para descobrir se a programação está em andamento (neato programação)
     -   Legal : Atualizar informações
     -   Resumo : retomar a limpeza (se pausado)
-    -   Base de volta : retorno à partida (se estiver em pausa)
+    -   Base de volta : retornar ao início (se pausado)
     -   Na doca : Permite saber se o robô está na estação ou não
 
 Todos esses comandos estão disponíveis através de cenários e através do painel
@@ -43,6 +43,6 @@ As informações são atualizadas uma vez a cada 15 minutos e após cada ação 
 >
 > É necessário, na configuração do plugin (Plugins -> Management Plugins), salvar para refazer a detecção do seu robô aspirador de pó
 
->**O comando de limpeza não funciona, o robô sai e retorna à sua base ou não respeita as limitações (mapa)**
+>**O controle de limpeza não funciona, o robô sai e retorna à sua base ou não respeita os limites (cartão)**
 >
 >Em certos modelos de robôs, é absolutamente necessário definir um mapa / paln de navegação, você encontrará [aqui](https://support.neatorobotics.com/hc/fr/articles/360009513113-Comment-cr%C3%A9er-un-plan-d-%C3%A9tage-) fazer isso

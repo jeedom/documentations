@@ -16,18 +16,18 @@ Vaya al menú de complementos / bienestar para encontrarlo.
 
 # Panel de control
 
-    -   Alerta : mensaje si hay un error en curso (cepillo bloqueado, depósito de polvo lleno, etc.)
+    -   Alerta : mensaje si hay un error en curso (cepillo bloqueado, contenedor de polvo lleno, etc.))
     -   Detener : Detener robot
     -   Codigo estado : Código técnico del estado
     -   Iniciar casa ecológica : comenzar la limpieza ecológica
     -   Iniciar turbo house : Iniciar limpieza turbo
     -   En carga : A cargo o no
-    -   Estado : Mensaje de estado (listo para limpiar, durante la limpieza, en pausa, etc.)
+    -   Estado : Mensaje de estado (listo para limpiar, limpiar, en pausa, etc.))
     -   Pausa : Pausa el robot
-    -   Programación : Se usa para averiguar si una programación está en progreso (programación neato)
+    -   Programación : Se usa para averiguar si la programación está en progreso (programación neato)
     -   Refrescar : Actualizar información
     -   Reanudar : reanudar la limpieza (si está en pausa)
-    -   Retorno base : regreso a la salida (si es un descanso)
+    -   Retorno base : volver al inicio (si está en pausa)
     -   En dock : Le permite saber si el robot está en el muelle o no
 
 Todos estos comandos están disponibles a través de escenarios y a través del tablero
@@ -43,6 +43,6 @@ La información se actualiza una vez cada 15 minutos y después de cada acción 
 >
 > Es necesario en la configuración del complemento (Complementos -> Complementos de gestión) guardar para que vuelva a detectar la aspiradora de su robot
 
->**El comando de limpieza no funciona, el robot se va y vuelve a su base o no respeta las limitaciones (mapa)**
+>**El control de limpieza no funciona, el robot sale y vuelve a su base o no respeta los límites (tarjeta)**
 >
 >En cierto modelo de robot es absolutamente necesario definir un mapa de navegación / plano, encontrará [aquí](https://support.neatorobotics.com/hc/fr/articles/360009513113-Comment-cr%C3%A9er-un-plan-d-%C3%A9tage-) para hacer

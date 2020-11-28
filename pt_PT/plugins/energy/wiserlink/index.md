@@ -9,8 +9,8 @@ Cada dispositivo corresponde a um WiserLink.
 As informações necessárias para sua criação são :
 
 -   O endereço IP do Wiser
--   Nome de usuário (administrador por padrão)
--   Senha (admin por padrão)
+-   Nome de usuário (administrador padrão)
+-   A senha (administrador padrão)
 
 # Pedidos 
 

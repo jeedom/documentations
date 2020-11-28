@@ -1,7 +1,13 @@
 {
     "id": "wiserlink",
     "name": "WiserLink",
-    "description": "Plugin pour afficher les données du module IP Wiser. Il remonte l'ensemble des 5 canaux \/ la téléinfo \/ les 2 modules impulsionnels. Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie.",
+    "description": {
+        "fr_FR": "Plugin pour afficher les données du module IP Wiser. Il remonte l'ensemble des 5 canaux \/ la téléinfo \/ les 2 modules impulsionnels. Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie.",
+        "en_US": "Plugin to display the data of the Wiser IP module. It goes up all the 5 channels \/ the tele-info \/ the 2 impulse modules. In each case the icons are customizable as well as the names and we have the power and energy",
+        "es_ES": "Plugin para mostrar los datos del módulo Wiser IP. Sube los 5 canales \/ la teleinformación \/ los 2 módulos de impulso. En cada caso, los iconos son personalizables, así como los nombres y tenemos el poder y la energía",
+        "de_DE": "Plugin zur Anzeige der Daten des Wiser IP-Moduls. Es geht alle 5 Kanäle \/ die Tele-Info \/ die 2 Impulsmodule hoch. In jedem Fall sind die Symbole sowie die Namen anpassbar und wir haben die Kraft und Energie",
+        "pt_PT": "Plug-in para exibir os dados do módulo IP Wiser. Ele sobe todos os 5 canais \/ a tele-informação \/ os 2 módulos de impulso. Em cada caso, os ícones são personalizáveis, assim como os nomes, e temos poder e energia"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "3.0",
@@ -11,17 +17,17 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
-        "Jeedomboard",
-        "Smart",
-        "RPI\/RPI2",
-        "Docker",
-        "DIY"
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
     ]
 }

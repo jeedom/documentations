@@ -9,8 +9,8 @@ Jedes Gerät entspricht einem WiserLink.
 Die für seine Erstellung erforderlichen Informationen sind :
 
 -   Die klügere IP-Adresse
--   Benutzername (standardmäßig admin)
--   Passwort (standardmäßig admin)
+-   Benutzername (Standardadministrator)
+-   Das Passwort (Standardadministrator)
 
 # Bestellungen 
 

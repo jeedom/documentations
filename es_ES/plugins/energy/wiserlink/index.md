@@ -9,8 +9,8 @@ Cada dispositivo corresponde a un WiserLink.
 La información necesaria para su creación es :
 
 -   La dirección IP más sabia
--   Nombre de usuario (administrador por defecto)
--   Contraseña (administrador por defecto)
+-   Nombre de usuario (administrador predeterminado)
+-   La contraseña (administrador predeterminado)
 
 # Las órdenes 
 

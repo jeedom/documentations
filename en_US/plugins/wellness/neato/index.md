@@ -16,18 +16,18 @@ Go to the plugins / wellness menu to find it.
 
 # Commands
 
-    -   Alert : message if an error is in progress (brush blocked, full dust bin, etc.)
+    -   Alert : message if an error is in progress (brush blocked, dust container full etc)
     -   Stop : Stop robot
     -   State code : State technical code
     -   Start eco house : start eco cleaning
     -   Start turbo house : Start turbo cleaning
     -   Loading : In charge or not
-    -   State : Status message (ready to clean, during cleaning, paused, etc.)
+    -   State : Status message (ready to clean, cleaning, paused etc)
     -   Pause : Pause the robot
-    -   Programming : Used to find out if a programming is in progress (neato programming)
+    -   Programming : Used to find out if programming is in progress (neato programming)
     -   Refresh : Refresh info
     -   Resume : resume cleaning (if paused)
-    -   Base return : return to departure (if on break)
+    -   Base return : return to start (if paused)
     -   On dock : Lets you know if the robot is on the dock or not
 
 All these commands are available via scenarios and via the dashboard
@@ -43,6 +43,6 @@ The information is refreshed once every 15 minutes and after each action perform
 >
 > It is necessary in the configuration of the plugin (Plugins -> Management Plugins) to save so that it redoes the detection of your robot vacuum cleaner
 
->**The cleaning command does not work, the robot leaves and returns to its base or it does not respect the limitations (map)**
+>**The cleaning control does not work, the robot goes out and returns to its base or it does not respect the limits (card)**
 >
 >On certain robot model it is absolutely necessary to define a navigation map / paln, you will find [here](https://support.neatorobotics.com/hc/fr/articles/360009513113-Comment-cr%C3%A9er-un-plan-d-%C3%A9tage-) to do it
