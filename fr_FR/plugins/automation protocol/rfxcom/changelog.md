@@ -4,6 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+
+# 29/11/2020
+
+- Correction de bugs sur la remonté des batteries
+- Correction de bugs sur le pilotage des poele mcz 2 fan
+- Corrections de bugs
+
 # 26/11/2020
 
 - Refonte complete du demon du plugin
