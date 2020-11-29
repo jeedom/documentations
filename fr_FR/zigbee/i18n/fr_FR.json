@@ -9,6 +9,7 @@
         "Capteur de température\/pression\/humidité": "Capteur de température\/pression\/humidité",
         "ioami Aquara Vibration": "ioami Aquara Vibration",
         "iaomi Aquara switch Aq2": "iaomi Aquara switch Aq2",
+        "iaomi Aquara fumée": "iaomi Aquara fumée",
         "iaomi capteur de mouvement": "iaomi capteur de mouvement",
         "iaomi capteur ouverture": "iaomi capteur ouverture",
         "Capteur de température\/humidité": "Capteur de température\/humidité",
@@ -62,6 +63,7 @@
         "Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible": "Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible",
         "Hue White B22": "Hue White B22",
         "Hue White Ambiance E27": "Hue White Ambiance E27",
+        "LTW012": "LTW012",
         "Hue White and Color": "Hue White and Color",
         "Hue LightStrip Outdoor": "Hue LightStrip Outdoor",
         "Hue LightStrip Plus": "Hue LightStrip Plus",
@@ -119,6 +121,7 @@
         "Bulb E27 CWS opal 600lm": "Bulb E27 CWS opal 600lm",
         "Bulb E14 opal 600lm": "Bulb E14 opal 600lm",
         "Driver 30W": "Driver 30W",
+        "Driver 10W": "Driver 10W",
         "Ikea Kadrilj": "Ikea Kadrilj",
         "Ikea Fyrtur": "Ikea Fyrtur",
         "Icasa": "Icasa",
@@ -155,6 +158,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-11-28 01": "2020-11-28 01"
+        "2020-11-29 01": "2020-11-29 01"
     }
 }
