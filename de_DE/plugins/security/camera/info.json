@@ -3,10 +3,10 @@
     "name": "Caméra",
     "description": {
         "fr_FR": "Plugin permettant l'affichage des caméras IP. L'affichage vidéo de la caméra s'effectue par snapshots (captures) successives toutes les secondes. Le plugin est compatible avec les cameras RTSP.",
-        "en_US": "Plugin to display IP cameras The video display of the camera is performed by successive snapshot (capture) every second. The plugin is compatible with RTSP cameras",
-        "es_ES": "Complemento para mostrar las cámaras IP La visualización de video de la cámara se realiza mediante una instantánea (captura) sucesiva cada segundo. El complemento es compatible con cámaras RTSP",
-        "de_DE": "Plugin zur Anzeige von IP-Kameras Die Videoanzeige der Kamera erfolgt durch aufeinanderfolgende Momentaufnahmen (Capture) pro Sekunde. Das Plugin ist mit RTSP-Kameras kompatibel",
-        "pt_PT": "Plug-in para exibir câmeras IP A exibição de vídeo da câmera é realizada por instantâneo (captura) sucessivo a cada segundo. O plug-in é compatível com câmeras RTSP"
+        "en_US": "Plugin allowing the display of IP cameras. The video display of the camera is carried out by successive snapshots (captures) every second. The plugin is compatible with RTSP cameras",
+        "es_ES": "Complemento que permite la visualización de cámaras IP. La visualización de vídeo de la cámara se realiza mediante sucesivas instantáneas (capturas) cada segundo. El complemento es compatible con cámaras RTSP",
+        "de_DE": "Plugin zur Anzeige von IP-Kameras. Die Videoanzeige der Kamera erfolgt jede Sekunde durch aufeinanderfolgende Schnappschüsse (Aufnahmen). Das Plugin ist mit RTSP-Kameras kompatibel",
+        "pt_PT": "Plugin que permite a exibição de câmeras IP. A exibição do vídeo da câmera é realizada por sucessivos instantâneos (capturas) a cada segundo. O plugin é compatível com câmeras RTSP"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
