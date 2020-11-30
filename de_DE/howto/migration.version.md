@@ -23,7 +23,7 @@ Der Sicherungsprozess beginnt. Es kann einige Zeit dauern, Sie können den Forts
 ![backup logs](images/migrate-version04.png)
 
 Wenn alles normal läuft, wird das Ende des Prozesses durch die Meldung angezeigt :      
-````***************Fin de la sauvegarde de Jeedom*************** [END BACKUP SUCCESS]````
+``***************Fin de la sauvegarde de Jeedom*************** [END BACKUP SUCCESS]``
 
 Die Sicherungsdatei wurde korrekt in Jeedom generiert.
 
@@ -54,7 +54,7 @@ Das Upgrade-Fenster analysiert das System und alle auf Ihrem Computer installier
 
 >**Wichtig**
 >
->Eine vorherige Migration zu einer Installation mit einer Umgebung ist nicht möglich ````Debian Stretch 9.X`````` *(````Debian 8.X Jessie```` oder niedriger)*. Sie werden außerdem aufgefordert, alle Plugins zu entfernen, die als veraltet eingestuft wurden.
+>Eine vorherige Migration zu einer Installation mit einer Umgebung ist nicht möglich ``Debian Stretch 9.X`` *(``Debian 8.X Jessie`` oder niedriger)*. Sie werden außerdem aufgefordert, alle Plugins zu entfernen, die als veraltet eingestuft wurden.
 
 - Der untere Teil besteht aus einer Tabelle, in der alle installierten Plugins sowie ihre bestätigte Kompatibilität mit dieser neuen Version aufgeführt sind :    
 ![migration modal down](images/migrate-version08.png)
@@ -78,7 +78,8 @@ Klicken Sie auf, um den Migrationsprozess zu starten **In Ordnung** :
 Anschließend wechseln Sie zu der Seite mit den Migrationsprotokollen, auf der zunächst die aktuelle Installation gesichert wird, bevor die Plugins und der Core aktualisiert werden.
 
 > **Wichtig**    
-Abhängig von der Hardware, auf der Jeedom installiert ist, kann dieser Vorgang einige Minuten dauern. Es ist wichtig, den Migrationsprozess bis zum Ende laufen zu lassen.
+>
+>Abhängig von der Hardware, auf der Jeedom installiert ist, kann dieser Vorgang einige Minuten dauern. Es ist wichtig, den Migrationsprozess bis zum Ende laufen zu lassen.
 
 Sobald der Migrationsvorgang abgeschlossen ist, wird oben auf dem Bildschirm ein grünes Banner mit der Meldung angezeigt ***Die Operation ist erfolgreich. Bitte machen Sie `F5` für die neuesten Nachrichten*** :    
 ![migration finish](images/migrate-version10.png)

@@ -4,6 +4,13 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+
+# 11/29/2020
+
+- Correction of bugs on battery recovery
+- Bug fixing on mcz 2 fan stove control
+- Bug fixes
+
 # 11/26/2020
 
 - Complete overhaul of the plugin daemon

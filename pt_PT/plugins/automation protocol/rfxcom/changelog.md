@@ -4,6 +4,13 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+
+# 29/11/2020
+
+- Correção de bugs na recuperação da bateria
+- Resolução de bug no controle do fogão com ventoinha MCZ 2
+- Correções de bugs
+
 # 26/11/2020
 
 - Revisão completa do daemon do plugin

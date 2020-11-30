@@ -23,7 +23,7 @@ The backup process starts. It may take some time, you can follow the progress in
 ![backup logs](images/migrate-version04.png)
 
 If everything goes normally, the end of the process is indicated by the message :      
-````***************Fin de la sauvegarde de Jeedom*************** [END BACKUP SUCCESS]````
+``***************Fin de la sauvegarde de Jeedom*************** [END BACKUP SUCCESS]``
 
 The backup file was correctly generated in Jeedom.
 
@@ -54,7 +54,7 @@ The upgrade window will analyze the system and all the plugins installed on your
 
 >**Important**
 >
->It will not be possible to migrate to an installation with an environment prior to ````Debian Stretch 9.X`````` *(````Debian 8.X Jessie```` or lower)*. You will also be asked to remove any plugins identified as being obsolete.
+>It will not be possible to migrate to an installation with an environment prior to ``Debian Stretch 9.X`` *(``Debian 8.X Jessie`` or lower)*. You will also be asked to remove any plugins identified as being obsolete.
 
 - The lower part consists of a table detailing all the plugins installed as well as their confirmed compatibility or not with this new version :    
 ![migration modal down](images/migrate-version08.png)
@@ -78,7 +78,8 @@ To start the migration process, click **Okay** :
 You then switch to the page containing the migration logs which will start by backing up the current installation before updating the plugins and the core.
 
 > **Important**    
-Depending on the hardware on which Jeedom is installed, this operation may take several minutes. It is essential to let the migration process run until the end.
+>
+>Depending on the hardware on which Jeedom is installed, this operation may take several minutes. It is essential to let the migration process run until the end.
 
 Once the migration operation is complete, a green banner is displayed at the top of the screen with the message ***The operation is successful. Please do `F5` for the latest news*** :    
 ![migration finish](images/migrate-version10.png)

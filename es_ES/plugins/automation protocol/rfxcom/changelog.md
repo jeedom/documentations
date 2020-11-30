@@ -4,6 +4,13 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+
+# 29/11/2020
+
+- Corrección de errores en la recuperación de la batería
+- Corrección de errores en el control de la estufa del ventilador mcz 2
+- Correcciones de errores
+
 # 26/11/2020
 
 - Revisión completa del demonio de complementos

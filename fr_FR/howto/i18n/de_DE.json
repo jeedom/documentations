@@ -166,7 +166,6 @@
         "La fenêtre de mise à niveau va analyser le système et l'ensemble des plugins installés sur votre machine à partir du market Jeedom afin de  vérifier la compatibilité annoncée avec la V4. Elle se décompose en 2 parties": "Das Upgrade-Fenster analysiert das System und alle auf Ihrem Computer installierten Plugins aus dem Jeedom-Markt, um die mit V4 angekündigte Kompatibilität zu überprüfen. Es zerfällt in 2 Teile",
         "La partie haute présente quelques innovations à découvrir en V4 avec un bandeau récapitulant de manière générale la compatibilité des plugins installés": "Im oberen Teil werden einige Neuerungen vorgestellt, die in V4 zu entdecken sind. Ein Banner fasst die Kompatibilität der installierten Plugins zusammen",
         "Il ne sera pas possible de procéder à la migration sur une installation dont l'environnement est antérieur à": "Eine vorherige Migration zu einer Installation mit einer Umgebung ist nicht möglich",
-        "`": "``",
         "ou inférieur": "oder niedriger",
         "Il sera également demandé de supprimer d'éventuels plugins identifiés comme étant obsolètes": "Sie werden außerdem aufgefordert, alle Plugins zu entfernen, die als veraltet eingestuft wurden",
         "La partie basse consiste en un tableau détaillant l'ensemble des plugins installés ainsi que leur compatibilité confirmée ou non avec cette nouvelle version": "Der untere Teil besteht aus einer Tabelle, in der alle installierten Plugins sowie ihre bestätigte Kompatibilität mit dieser neuen Version aufgeführt sind",

@@ -23,7 +23,7 @@ Comienza el proceso de respaldo. Puede llevar algún tiempo, puede seguir el pro
 ![backup logs](images/migrate-version04.png)
 
 Si todo va con normalidad, el final del proceso se indica mediante el mensaje :      
-````***************Fin de la sauvegarde de Jeedom*************** [END BACKUP SUCCESS]````
+``***************Fin de la sauvegarde de Jeedom*************** [END BACKUP SUCCESS]``
 
 El archivo de respaldo se generó correctamente en Jeedom.
 
@@ -54,7 +54,7 @@ La ventana de actualización analizará el sistema y todos los complementos inst
 
 >**Importante**
 >
->No será posible migrar a una instalación con un entorno anterior a ````Debian Stretch 9.X`````` *(````Debian 8.X Jessie```` o bajo)*. También se le pedirá que elimine los complementos identificados como obsoletos.
+>No será posible migrar a una instalación con un entorno anterior a ``Debian Stretch 9.X`` *(``Debian 8.X Jessie`` o bajo)*. También se le pedirá que elimine los complementos identificados como obsoletos.
 
 - La parte inferior consta de una tabla que detalla todos los plugins instalados así como su compatibilidad confirmada o no con esta nueva versión :    
 ![migration modal down](images/migrate-version08.png)
@@ -78,7 +78,8 @@ Para iniciar el proceso de migración, haga clic en **Correcto** :
 Luego, cambiará a la página que contiene los registros de migración, que comenzará guardando la instalación actual antes de actualizar los complementos y el núcleo.
 
 > **Importante**    
-Según el hardware en el que esté instalado Jeedom, esta operación puede tardar varios minutos. Es fundamental dejar correr el proceso de migración hasta el final.
+>
+>Según el hardware en el que esté instalado Jeedom, esta operación puede tardar varios minutos. Es fundamental dejar correr el proceso de migración hasta el final.
 
 Una vez que se completa la operación de migración, se muestra un banner verde en la parte superior de la pantalla con el mensaje ***La operación es exitosa. Haga `F5` para conocer las últimas noticias*** :    
 ![migration finish](images/migrate-version10.png)

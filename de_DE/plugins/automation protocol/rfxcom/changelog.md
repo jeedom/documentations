@@ -4,6 +4,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+
+# 29.11.2020
+
+- Behebung von Fehlern bei der Wiederherstellung der Batterie
+- Fehlerbehebung bei der Steuerung des mcz 2-Lüfterofens
+- Fehlerbehebungen
+
 # 26.11.2020
 
 - Vollständige Überarbeitung des Plugin-Daemons

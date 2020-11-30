@@ -166,7 +166,6 @@
         "La fenêtre de mise à niveau va analyser le système et l'ensemble des plugins installés sur votre machine à partir du market Jeedom afin de  vérifier la compatibilité annoncée avec la V4. Elle se décompose en 2 parties": "The upgrade window will analyze the system and all the plugins installed on your machine from the Jeedom market in order to check the compatibility announced with V4. It breaks down into 2 parts",
         "La partie haute présente quelques innovations à découvrir en V4 avec un bandeau récapitulant de manière générale la compatibilité des plugins installés": "The upper part presents some innovations to discover in V4 with a banner summarizing in general the compatibility of the installed plugins",
         "Il ne sera pas possible de procéder à la migration sur une installation dont l'environnement est antérieur à": "It will not be possible to migrate to an installation with an environment prior to",
-        "`": "``",
         "ou inférieur": "or lower",
         "Il sera également demandé de supprimer d'éventuels plugins identifiés comme étant obsolètes": "You will also be asked to remove any plugins identified as being obsolete",
         "La partie basse consiste en un tableau détaillant l'ensemble des plugins installés ainsi que leur compatibilité confirmée ou non avec cette nouvelle version": "The lower part consists of a table detailing all the plugins installed as well as their confirmed compatibility or not with this new version",
