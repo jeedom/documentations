@@ -155,9 +155,9 @@ sudo GCFFlasher_internal -d 0 -f deCONZ_Rpi_0x26300500.bin.GCF
 >
 >Si vous etes sous RPI le serial n'a pas du etre coupé (ca se passe dans raspi-config)
 
->**J'ai un équipement daylight dans liste des noeuds mais pas dans Jeedom**
+>**J'ai un équipement "Daylight" dans liste des noeuds mais pas dans Jeedom**
 >
->C'est normalement c'est un équipement virtuel non supprimable créé par Deconz. Vu que c'est pas un "vrai" équipement Jeedom ne le remonte pas
+>C'est normal. C'est un équipement virtuel non supprimable créé par Deconz. Vu que ce n'est pas un "vrai" équipement, Jeedom ne le remonte pas.
 
 >**J'ai l'erreur "Erreur lors de la requete : 127.0.0.1:8484/api/931559A482/sensors(POST), data : null erreur : 1 => unauthorized user"**
 >
