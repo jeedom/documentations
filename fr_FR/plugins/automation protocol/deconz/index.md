@@ -163,9 +163,9 @@ sudo GCFFlasher_internal -d 0 -f deCONZ_Rpi_0x26300500.bin.GCF
 >
 >Vous n'avez pas autorisé Jeedom a se connecter à Deconz, il faut dans deconz (Phoscon, si vous l'avez installé en local il faut aller sur IPJEEDOM:8484) puis dans le menu en haut a gauche (les 3 petits trait) il faut aller sur "gateway" puis "advanced" et cliquer Authenticate App et enfin dans les 60s aller sur la configuration du plugin dans Jeedom, bien sauvegarder la liste des gateway si vous l'avez changer puis cliquer sur "Récuperer clef API"
 
->**Mon rpi (4) ne voit pas la clef deconz**
+>**Mon Raspberry (4) ne voit pas la clef Conbee**
 >
->Il faut mettre a jour le firmware de clef a l'aide d'un autre systeme (windows)
+>Il faut mettre à jour le firmware de la clef à l'aide d'un autre système (Windows).
 
 >**J'arrive a piloter mes équipements mais je n'ai pas de retour sur les commandes d'informations**
 >
