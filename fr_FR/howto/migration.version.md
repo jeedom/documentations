@@ -54,7 +54,7 @@ La fenêtre de mise à niveau va analyser le système et l'ensemble des plugins 
 
 >**IMPORTANT**
 >
->Il ne sera pas possible de procéder à la migration sur une installation dont l'environnement est antérieur à ``Debian Stretch 9.X``` *(``Debian 8.X Jessie`` ou inférieur)*. Il sera également demandé de supprimer d'éventuels plugins identifiés comme étant obsolètes.
+>Il ne sera pas possible de procéder à la migration sur une installation dont l'environnement est antérieur à ``Debian Stretch 9.X`` *(``Debian 8.X Jessie`` ou inférieur)*. Il sera également demandé de supprimer d'éventuels plugins identifiés comme étant obsolètes.
 
 - La partie basse consiste en un tableau détaillant l'ensemble des plugins installés ainsi que leur compatibilité confirmée ou non avec cette nouvelle version :    
 ![migration modal down](images/migrate-version08.png)
@@ -78,7 +78,8 @@ Pour démarrer le processus de migration, cliquez sur **D'accord** :
 Vous basculez alors sur la page contenant les logs de migration qui va commencer par effectuer la sauvegarde de l'installation actuelle avant de mettre à jour les plugins et le core.
 
 > **IMPORTANT**    
-En fonction du matériel sur lequel est installé Jeedom, cette opération est suceptible de durer plusieurs minutes. Il est primordial de laisser le processus de migration se dérouler jusqu'à la fin.
+>
+>En fonction du matériel sur lequel est installé Jeedom, cette opération est suceptible de durer plusieurs minutes. Il est primordial de laisser le processus de migration se dérouler jusqu'à la fin.
 
 Une fois l'opération de migration terminée, un bandeau vert s'affiche en haut de l'écran avec le message ***L'opération est réussie. Merci de faire `F5` pour avoir les dernières nouveautés*** :    
 ![migration finish](images/migrate-version10.png)
