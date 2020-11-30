@@ -1,6 +1,6 @@
 # Plugin Deconz
 
-Ce plugin permet par l'intermediaire d'une clef conbee (1 ou 2), de piloter l'outil deconz qui permet de faire du zigbee (module xiaomi, philips hue, ikea...).
+Ce plugin permet par l'intermediaire d'une clef conbee (1 ou 2), de piloter l'outil Deconz qui permet de faire du zigbee (module xiaomi, philips hue, ikea...).
 
 Ce plugin est totalement cloudless, il ne fait donc aucune communication vers l'exterieure (serveur tierce) et fonction 100% en local !!!!
 
@@ -24,7 +24,7 @@ Attention le Zigbee ne marche pas du tout comme le Zwave, la liste des modules i
 
 # Module compatible
 
-Vous trouvez ici la liste des modules compatible deconz [ici](https://phoscon.de/en/conbee/compatible)
+Vous trouvez ici la liste des modules compatible Deconz [ici](https://phoscon.de/en/conbee/compatible)
 
 >**NOTE**
 >
@@ -36,15 +36,15 @@ Vous trouvez ici la liste des modules compatible deconz [ici](https://phoscon.de
 
 # Configuration du plugins
 
-Le plugin support plusieurs gateway deconz (1 clef conbee par gateway). Une gateway conbee peut etre installer sur :
+Le plugin support plusieurs gateway Deconz (1 clef conbee par gateway). Une gateway conbee peut etre installer sur :
 
 - jeedom lui meme (smart, rpi  et x64_86 supporté)
 - un rpi deporté
-- ou tout autre carte compatible avec deconz.
+- ou tout autre carte compatible avec Deconz.
 
 Pour l'installation en deporté voici la [documentation](https://phoscon.de/en/conbee/install)
 
-Pour l'installation sur jeedom vous avez juste à cliquer sur le bouton pour installer deconz en local.
+Pour l'installation sur jeedom vous avez juste à cliquer sur le bouton pour installer Deconz en local.
 
 >**IMPORTANT**
 >
@@ -52,21 +52,21 @@ Pour l'installation sur jeedom vous avez juste à cliquer sur le bouton pour ins
 
 >**NOTE**
 >
->Pour mettre à jour deconz en local il vous suffit de recliquer sur le bouton d'installation de deconz en local
+>Pour mettre à jour Deconz en local il vous suffit de recliquer sur le bouton d'installation de Deconz en local
 
 ## Ajout des gateways
 
-Pour ajouter de nouvelles gateway au plugin il faut soit sur la page de configuration du plugin (Plugin -> Gestion de plugins puis deconz), cliquer sur decouverte (ca ne marche pas toujours) ou alors a la main ajouter au moins l'ip de la gateway et le port.
+Pour ajouter de nouvelles gateway au plugin il faut soit sur la page de configuration du plugin (Plugin -> Gestion de plugins puis Deconz), cliquer sur decouverte (ca ne marche pas toujours) ou alors a la main ajouter au moins l'ip de la gateway et le port.
 
-Ensuite dans deconz (Phoscon, si vous l'avez installé en local il faut aller sur IPJEEDOM:8484) puis dans le menu en haut a gauche (les 3 petits trait) il faut aller sur "gateway" puis "advanced" et cliquer "Authenticate App" et enfin dans les 60s aller sur la configuration du plugin dans Jeedom, bien sauvegarder la liste des gateway si vous l'avez changer puis cliquer sur "Récuperer clef API".
+Ensuite dans Deconz (Phoscon, si vous l'avez installé en local il faut aller sur IPJEEDOM:8484) puis dans le menu en haut a gauche (les 3 petits trait) il faut aller sur "gateway" puis "advanced" et cliquer "Authenticate App" et enfin dans les 60s aller sur la configuration du plugin dans Jeedom, bien sauvegarder la liste des gateway si vous l'avez changer puis cliquer sur "Récuperer clef API".
 
-# Réseaux deconz
+# Réseaux Deconz
 
 Attention en haut a droite vous avez un bouton de selection pour choisir la gateway à regarder
 
 ## Résumé
 
-Ici vous allez retrouver les informations principal de votre réseaux deconz (en particulier la version de deconz et de firmware).
+Ici vous allez retrouver les informations principal de votre réseaux Deconz (en particulier la version de Deconz et de firmware).
 
 ## Action
 
@@ -161,7 +161,7 @@ sudo GCFFlasher_internal -d 0 -f deCONZ_Rpi_0x26300500.bin.GCF
 
 >**J'ai l'erreur "Erreur lors de la requete : 127.0.0.1:8484/api/931559A482/sensors(POST), data : null erreur : 1 => unauthorized user"**
 >
->Vous n'avez pas autorisé Jeedom a se connecter à Deconz, il faut dans deconz (Phoscon, si vous l'avez installé en local il faut aller sur IPJEEDOM:8484) puis dans le menu en haut a gauche (les 3 petits trait) il faut aller sur "gateway" puis "advanced" et cliquer Authenticate App et enfin dans les 60s aller sur la configuration du plugin dans Jeedom, bien sauvegarder la liste des gateway si vous l'avez changer puis cliquer sur "Récuperer clef API"
+>Vous n'avez pas autorisé Jeedom a se connecter à Deconz, il faut dans Deconz (Phoscon, si vous l'avez installé en local il faut aller sur IPJEEDOM:8484) puis dans le menu en haut a gauche (les 3 petits trait) il faut aller sur "gateway" puis "advanced" et cliquer Authenticate App et enfin dans les 60s aller sur la configuration du plugin dans Jeedom, bien sauvegarder la liste des gateway si vous l'avez changer puis cliquer sur "Récuperer clef API"
 
 >**Mon rpi (4) ne voit pas la clef deconz**
 >
@@ -169,6 +169,6 @@ sudo GCFFlasher_internal -d 0 -f deCONZ_Rpi_0x26300500.bin.GCF
 
 >**J'arrive a piloter mes équipements mais je n'ai pas de retour sur les commandes d'informations**
 >
->Cela vient surement d'un soucis sur les fuseaux horaires (deconz est très pointilleux la dessus). Il faut :
->- vérifier dans "Réseaux deconz" que la timezone et l'heure sont correcte si non vous pouvez soit le configurer dans deconz soit cocher la case "Fuseaux horaire" sur la gateway dans la configuration du plugin deconz (si vous faite cette derniere méthode il faut attendre 1h avant que la correction soit effective)
+>Cela vient surement d'un soucis sur les fuseaux horaires (Deconz est très pointilleux la dessus). Il faut :
+>- vérifier dans "Réseaux Deconz" que la timezone et l'heure sont correcte si non vous pouvez soit le configurer dans Deconz soit cocher la case "Fuseaux horaire" sur la gateway dans la configuration du plugin Deconz (si vous faite cette derniere méthode il faut attendre 1h avant que la correction soit effective)
 >- vérifier le fuseau horaire de votre OS (en particulier sur les rpi) qui doit absolument etre bon
