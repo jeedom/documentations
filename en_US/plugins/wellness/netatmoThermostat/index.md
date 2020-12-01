@@ -10,7 +10,7 @@ Once the plugin is installed, you need to enter your Netatmo connection informat
 -   **Client secret** : your secret client (see configuration section)
 -   **Username** : username of your netatmo account
 -   **Password** : password for your Netatmo account
--   **Use alternative design** : allows to use another design (see widget section)
+-   **Use alternative design** : allows you to use another design (see widget part)
 -   **Synchronize** : allows you to synchronize Jeedom with your Netamo account to automatically discover your Netamo equipment. To do after saving the previous parameters.
 
 # Retrieving connection information 
@@ -29,7 +29,7 @@ Identify yourself, with your email and password
 
 ![netatmoWeather12](./images/netatmoWeather12.png)
 
-Fill in the "Name" and "Description" fields (whatever you put it doesn't matter) :
+Fill in the "Name" and "Description" fields (it doesn't matter what you put it doesn't matter) :
 
 ![netatmoWeather13](./images/netatmoWeather13.png)
 
@@ -37,7 +37,7 @@ Then at the very bottom of the page check the box "I accept the terms of use" th
 
 ![netatmoWeather14](./images/netatmoWeather14.png)
 
-Recover the "CLient id" and "Secret client" information and copy them in the configuration part of the plugin in Jeedom (see previous chapter)
+Retrieve the information "CLient id" and "Secret client" and copy them in the configuration part of the plugin in Jeedom (see previous chapter)
 
 ![netatmoWeather15](./images/netatmoWeather15.png)
 
@@ -52,13 +52,13 @@ Here you find all the configuration of your equipment :
 -   **Activate** : makes your equipment active
 -   **Visible** : makes it visible on the dashboard
 -   **Login** : unique equipment identifier
--   **Type** : type of your equipment (station, indoor probe, outdoor probe…)
+-   **Type** : type of your equipment (station, indoor probe, outdoor probe)
 
 Below you find the list of orders :
 
 -   the name displayed on the dashboard
 -   Historize : allows to historize the data
--   advanced configuration (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.)
+-   Advanced configuration (small notched wheels) : used to display the advanced configuration of the command (logging method, widget, etc)
 -   Test : Used to test the command
 
 > **Tip**

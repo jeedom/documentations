@@ -10,7 +10,7 @@ Depois que o plug-in estiver instalado, você precisará inserir suas informaç�
 -   **Cliente secreto** : seu cliente secreto (consulte a seção de configuração)
 -   **Nome de Usuário** : nome de usuário da sua conta netatmo
 -   **Senha** : senha para sua conta Netatmo
--   **Usar design alternativo** : permite usar outro design (consulte a seção do widget)
+-   **Usar design alternativo** : permite que você use outro design (consulte a parte do widget)
 -   **Sincronizar** : permite sincronizar o Jeedom com sua conta Netamo para descobrir automaticamente seu equipamento Netamo. A fazer depois de salvar os parâmetros anteriores.
 
 # Recuperando informações de conexão 
@@ -29,7 +29,7 @@ Identifique-se, com seu email e senha
 
 ![netatmoWeather12](../images/netatmoWeather12.png)
 
-Preencha os campos "Nome" e "Descrição" (o que você colocar, não importa) :
+Preencha os campos "Nome" e "Descrição" (não importa o que você coloca, não importa) :
 
 ![netatmoWeather13](../images/netatmoWeather13.png)
 
@@ -52,13 +52,13 @@ Aqui você encontra toda a configuração do seu equipamento :
 -   **Ativar** : torna seu equipamento ativo
 -   **Visivél** : torna visível no painel
 -   **Login** : identificador único de equipamento
--   **Tipo** : tipo de seu equipamento (estação, sonda interna, sonda externa ...)
+-   **Tipo** : tipo do seu equipamento (estação, sonda interna, sonda externa)
 
 Abaixo você encontra a lista de pedidos :
 
 -   o nome exibido no painel
 -   Historicizar : permite historiar os dados
--   configuração avançada (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.)
+-   Configuração avançada (pequenas rodas dentadas) : usado para exibir a configuração avançada do comando (método de log, widget, etc)
 -   Teste : permite testar o comando
 
 > **Dica**

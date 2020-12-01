@@ -1,27 +1,37 @@
 {
     "id": "netatmoThermostat",
     "name": "Netatmo Thermostat",
-    "description": "Plugin pour contrôler son thermostat Netatmo.<br\/><br\/>Le plugin permet de :<br\/>-Choisir le mode de fonctionnement du thermostat (programme,max,absent,hors gel, off, consigne manuel)<br\/>-Choisir son calendrier (vacances, standard etc...)<br\/>- De connaitre la batterie et les niveaux de signals du thermostat<br\/>- De connaitre le planning actuel ainsi que le suivant (et l'heure de fin du planning actuel)<br\/>- De définir le jour et heure de fin des modes (absent, hors-gel, max et manuel)<br\/>- L'ensemble des fonctions sont disponibles via scénarios<br\/>- Les deux widgets (dashboard et mobile) permettent d'accéder à toutes ces fonctionnalités",
+    "description": {
+        "fr_FR": "Plugin pour contrôler son thermostat Netatmo.<br\/><br\/>Le plugin permet de :<br\/>-Choisir le mode de fonctionnement du thermostat (programme,max,absent,hors gel, off, consigne manuel)<br\/>-Choisir son calendrier (vacances, standard etc...)<br\/>- De connaitre la batterie et les niveaux de signals du thermostat<br\/>- De connaitre le planning actuel ainsi que le suivant (et l'heure de fin du planning actuel)<br\/>- De définir le jour et heure de fin des modes (absent, hors-gel, max et manuel)<br\/>- L'ensemble des fonctions sont disponibles via scénarios<br\/>- Les deux widgets (dashboard et mobile) permettent d'accéder à toutes ces fonctionnalités",
+        "en_US": "Plugin to control your Netatmo thermostat. <br\/><br\/> The plugin allows to: <br\/> -Choose the operating mode of the thermostat (program, max, absent, frost protection, off, manual setpoint) <br\/> -Choose your calendar (holidays, standard etc ...) <br\/> - Know the battery and the signal levels of the thermostat <br\/> - To know the current schedule as well as the next one (and the end time of the current schedule) <br\/> - Define the day and time of the end of the modes (absent, frost protection, max and manual) <br\/> - All functions are available via scenarios <br\/> - The two widgets (dashboard and mobile) provide access to all these features",
+        "es_ES": "Plugin para controlar su termostato Netatmo. <br\/><br\/> El complemento permite: <br\/> -Elija el modo de funcionamiento del termostato (programa, máx., Ausente, protección contra heladas, apagado, punto de ajuste manual) <br\/> -Elija su calendario (vacaciones, estándar, etc.) <br\/> - Conozca la batería y los niveles de señal del termostato <br\/> - Para conocer el horario actual así como el próximo (y la hora de finalización del horario actual) <br\/> - Definir el día y la hora del final de los modos (ausente, protección contra heladas, máximo y manual) <br\/> - Todas las funciones están disponibles a través de escenarios. <br\/> - Los dos widgets (tablero y dispositivo móvil) proporcionan acceso a todas estas funciones",
+        "de_DE": "Plugin zur Steuerung Ihres Netatmo-Thermostats. <br\/><br\/> Das Plugin ermöglicht: <br\/> -Wählen Sie die Betriebsart des Thermostats (Programm, max, abwesend, Frostschutz, aus, manueller Sollwert) <br\/> -Wählen Sie Ihren Kalender (Feiertage, Standard usw.) <br\/> - Kennen Sie die Batterie und die Signalpegel des Thermostats <br\/> - Den aktuellen und den nächsten Zeitplan (und die Endzeit des aktuellen Zeitplans) kennen. <br\/> - Definieren Sie den Tag und die Uhrzeit des Endes der Modi (nicht vorhanden, Frostschutz, max und manuell). <br\/> - Alle Funktionen sind über Szenarien verfügbar <br\/> - Die beiden Widgets (Dashboard und Mobile) bieten Zugriff auf alle diese Funktionen",
+        "pt_PT": "Plugin para controlar seu termostato Netatmo. <br\/><br\/> O plugin permite: <br\/> -Escolha o modo de operação do termostato (programa, máximo, ausente, proteção contra gelo, desligado, ponto de ajuste manual) <br\/> -Escolha sua agenda (feriados, padrão etc ...) <br\/> - Conheça a bateria e os níveis de sinal do termostato <br\/> - Conhecer o cronograma atual e o próximo (e o horário final do cronograma atual) <br\/> - Defina o dia e a hora do final dos modos (ausente, proteção contra gelo, máx e manual) <br\/> - Todas as funções estão disponíveis através de cenários <br\/> - Os dois widgets (painel e celular) fornecem acesso a todos esses recursos"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.0",
+    "require": "3.3.39",
     "category": "wellness",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/netatmoThermostat\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/netatmoThermostat\/",
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
         "ru_RU",
         "id_ID",
-        "it_IT"
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
         "smart",
         "rpi",
         "docker",
-        "diy"
+        "diy",
+        "v4"
     ]
 }
