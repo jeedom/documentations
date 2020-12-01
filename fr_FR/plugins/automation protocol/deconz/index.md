@@ -1,6 +1,6 @@
 # Plugin Deconz
 
-Ce plugin permet par l'intermediaire d'une clef conbee (1 ou 2), de piloter l'outil deconz qui permet de faire du zigbee (module xiaomi, philips hue, ikea...).
+Ce plugin permet par l'intermediaire d'une clef conbee (1 ou 2), de piloter l'outil deconz qui permet de faire du zigbee (module Xiaomi, Philips Hue, Ikea...).
 
 Ce plugin est totalement cloudless, il ne fait donc aucune communication vers l'exterieure (serveur tierce) et fonction 100% en local !!!!
 
