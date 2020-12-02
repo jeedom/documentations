@@ -40,7 +40,17 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/Danfoss.0x0200.png" width="60" />|Danfoss|0x0200|Controlador de piso calefactado|||
 |<img src="../../es_ES/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Aliado de Danfoss|Cabezal termostático||[Documentación](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Comprar](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
+
+# Develco
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/Develco_Products_AS.AQSZB-110.png" width="60" />|Develco|Sensor de calidad del aire||||
+|<img src="../../es_ES/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Develco|Keypad||||
+|<img src="../../es_ES/zigbee/images/Develco_Products_AS.PBTZB-110.png" width="60" />|Develco|Botón de pánico||Parece haber un problema con el firmware, solo la desactivación de la alerta (presione el botón durante 5 segundos después de activar el modo de pánico) se envía a las redes zigbee||
+|<img src="../../es_ES/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Develco|Siren||||
 
 # Ecodim
 
@@ -52,6 +62,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/HEIMAN.358e4e3e03c644709905034dae81433e.png" width="60" />|Heiman|Sensor de gas||||
 |<img src="../../es_ES/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Sensor de humo||||
 
 # Icasa
@@ -243,4 +254,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-12-01 01:32:04
+2020-12-02 01:32:10
