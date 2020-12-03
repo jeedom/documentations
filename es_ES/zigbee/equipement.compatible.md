@@ -47,10 +47,16 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/Develco.ZHEMI101.png" width="60" />|Develco|Interfaz de medidor eléctrico||||
 |<img src="../../es_ES/zigbee/images/Develco_Products_AS.AQSZB-110.png" width="60" />|Develco|Sensor de calidad del aire||||
+|<img src="../../es_ES/zigbee/images/Develco_Products_AS.DIOZB-110.png" width="60" />|Develco|Módulo IO||||
 |<img src="../../es_ES/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Develco|Keypad||||
 |<img src="../../es_ES/zigbee/images/Develco_Products_AS.PBTZB-110.png" width="60" />|Develco|Botón de pánico||Parece haber un problema con el firmware, solo la desactivación de la alerta (presione el botón durante 5 segundos después de activar el modo de pánico) se envía a las redes zigbee||
 |<img src="../../es_ES/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Develco|Siren||||
+|<img src="../../es_ES/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Develco|Wallplug||||
+|<img src="../../es_ES/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Develco|Detector de fugas de agua||||
+|<img src="../../es_ES/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Develco|Cable inteligente||||
+|<img src="../../es_ES/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Develco|Detector de humo||||
 
 # Ecodim
 
@@ -254,4 +260,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-12-02 01:32:10
+2020-12-03 01:32:11

@@ -136,11 +136,16 @@
         "Ecodim": "Ecodim",
         "Led Smart Dimmer": "Led Smart Dimmer",
         "Develco": "Develco",
+        "Smart cable": "Smart cable",
+        "Water leak detector": "Water leak detector",
+        "Wallplug": "Wallplug",
         "Siren": "Siren",
         "Panic button": "Panic button",
         "Il semble y avoir un soucis avec le firmware seul la desactivation de l'alerte (appuie 5s sur le bouton après activation du mode panic) est envoyé sur le réseaux zigbee": "Il semble y avoir un soucis avec le firmware seul la desactivation de l'alerte (appuie 5s sur le bouton après activation du mode panic) est envoyé sur le réseaux zigbee",
         "Keypad": "Keypad",
+        "IO Module": "IO Module",
         "Air Quality Sensor": "Air Quality Sensor",
+        "Electric meter interface": "Electric meter interface",
         "Danfoss": "Danfoss",
         "Danfoss Ally": "Danfoss Ally",
         "Tête thermostatique": "Tête thermostatique",
@@ -167,6 +172,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-12-02 01": "2020-12-02 01"
+        "2020-12-03 01": "2020-12-03 01"
     }
 }
