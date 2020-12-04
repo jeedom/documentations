@@ -40,7 +40,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zigbee/images/Danfoss.0x0200.png" width="60" />|Danfoss|0x0200|Contrôleur Plancher Chauffant|||
+|<img src="../../fr_FR/zigbee/images/Danfoss.0x0200.png" width="60" />|Danfoss|Danfoss Icon Floor Controller|Contrôleur Plancher Chauffant|||
 |<img src="../../fr_FR/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Danfoss Ally|Tête thermostatique||[Documentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 
 # Develco
@@ -68,7 +68,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zigbee/images/HEIMAN.358e4e3e03c644709905034dae81433e.png" width="60" />|Heiman|Gaz sensor||||
+|<img src="../../fr_FR/zigbee/images/HEIMAN.SmokeSensor-EF-3.0.png" width="60" />|Heiman|Smoke sensor||||
 |<img src="../../fr_FR/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Smoke sensor||||
 
 # Icasa
@@ -120,6 +120,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/HEIMAN.358e4e3e03c644709905034dae81433e.png" width="60" />|Orvibo|Gaz sensor||||
 |<img src="../../fr_FR/zigbee/images/ORVIBO.6c155b46eb9a4dcbb64fb3dd858aa18e.png" width="60" />|Orvibo|RGB controller||||
 |<img src="../../fr_FR/zigbee/images/ORVIBO.82c167c95ed746cdbd21d6817f72c593.png" width="60" />|Orvibo|Multi-functional Replay||||
 |<img src="../../fr_FR/zigbee/images/ORVIBO.e82vcb50ccded44a8a1259b0ba53be5f.png" width="60" />|Orvibo|Sensor connector||||
@@ -260,4 +261,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-12-03 01:32:11
+2020-12-04 01:32:04
