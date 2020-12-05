@@ -7,6 +7,21 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/Eurotronic.SPZB0001.png" width="60" />|Eurotronic|Spiritusventil||Ventil, das dazu neigt, Bestellungen nicht mehr anzunehmen (Änderung des Sollwerts), es sei denn, die Batterien werden entfernt und zurückgesetzt. Andererseits werden immer die Temperaturinformationen und die manuelle Sollwertänderung zurückgemeldet||
 
+# Frient von Develco
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/Develco.ZHEMI101.png" width="60" />|Frient von Develco|Stromzähler-Schnittstelle||||
+|<img src="../../de_DE/zigbee/images/Develco_Products_AS.AQSZB-110.png" width="60" />|Develco|Luftqualitätssensor||||
+|<img src="../../de_DE/zigbee/images/Develco_Products_AS.DIOZB-110.png" width="60" />|Frient von Develco|E / A-Modul||||
+|<img src="../../de_DE/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Develco|Keypad||||
+|<img src="../../de_DE/zigbee/images/Develco_Products_AS.PBTZB-110.png" width="60" />|Develco|Panikknopf||Es scheint ein Problem mit der Firmware zu geben, nur die Deaktivierung des Alarms (drücken Sie die Taste für 5 Sekunden nach Aktivierung des Panikmodus) wird an die ZigBee-Netzwerke gesendet||
+|<img src="../../de_DE/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Develco|Siren||||
+|<img src="../../de_DE/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Frient von Develco|Wallplug||||
+|<img src="../../de_DE/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient von Develco|Wasserleckdetektor||||
+|<img src="../../de_DE/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Frient von Develco|Intelligentes Kabel||||
+|<img src="../../de_DE/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Frient von Develco|Rauchmelder||||
+
 # GR-SMARTHOME
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -42,21 +57,6 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/Danfoss.0x0200.png" width="60" />|Danfoss|Danfoss Icon Floor Controller|Beheizter Bodenregler|||
 |<img src="../../de_DE/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Danfoss Verbündeter|Thermostatkopf||[Dokumentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
-
-# Develco
-
-|Image|Marque|Nom|Type|Remarque|Lien|
-|---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/Develco.ZHEMI101.png" width="60" />|Develco|Stromzähler-Schnittstelle||||
-|<img src="../../de_DE/zigbee/images/Develco_Products_AS.AQSZB-110.png" width="60" />|Develco|Luftqualitätssensor||||
-|<img src="../../de_DE/zigbee/images/Develco_Products_AS.DIOZB-110.png" width="60" />|Develco|E / A-Modul||||
-|<img src="../../de_DE/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Develco|Keypad||||
-|<img src="../../de_DE/zigbee/images/Develco_Products_AS.PBTZB-110.png" width="60" />|Develco|Panikknopf||Es scheint ein Problem mit der Firmware zu geben, nur die Deaktivierung des Alarms (drücken Sie die Taste für 5 Sekunden nach Aktivierung des Panikmodus) wird an die ZigBee-Netzwerke gesendet||
-|<img src="../../de_DE/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Develco|Siren||||
-|<img src="../../de_DE/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Develco|Wallplug||||
-|<img src="../../de_DE/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Develco|Wasserleckdetektor||||
-|<img src="../../de_DE/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Develco|Intelligentes Kabel||||
-|<img src="../../de_DE/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Develco|Rauchmelder||||
 
 # Ecodim
 
@@ -261,4 +261,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-12-04 01:32:04
+2020-12-05 01:32:11

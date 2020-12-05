@@ -7,6 +7,21 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/Eurotronic.SPZB0001.png" width="60" />|Eurotronic|Spirit valve||Valve that tends to no longer accept orders (change of setpoint) unless the batteries are removed and put back. On the other hand, it always feeds back the temperature information and manual setpoint change||
 
+# Frient by Develco
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/Develco.ZHEMI101.png" width="60" />|Frient by Develco|Electric meter interface||||
+|<img src="../../en_US/zigbee/images/Develco_Products_AS.AQSZB-110.png" width="60" />|Develco|Air Quality Sensor||||
+|<img src="../../en_US/zigbee/images/Develco_Products_AS.DIOZB-110.png" width="60" />|Frient by Develco|IO Module||||
+|<img src="../../en_US/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Develco|Keypad||||
+|<img src="../../en_US/zigbee/images/Develco_Products_AS.PBTZB-110.png" width="60" />|Develco|Panic Button||There seems to be a problem with the firmware, only the deactivation of the alert (press the button for 5s after activating the panic mode) is sent to the zigbee networks||
+|<img src="../../en_US/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Develco|Siren||||
+|<img src="../../en_US/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Frient by Develco|Wallplug||||
+|<img src="../../en_US/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient by Develco|Water leak detector||||
+|<img src="../../en_US/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Frient by Develco|Smart cable||||
+|<img src="../../en_US/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Frient by Develco|Smoke detector||||
+
 # GR-SMARTHOME
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -42,21 +57,6 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/Danfoss.0x0200.png" width="60" />|Danfoss|Danfoss Icon Floor Controller|Heated Floor Controller|||
 |<img src="../../en_US/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Danfoss Ally|Thermostatic head||[Documentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
-
-# Develco
-
-|Image|Marque|Nom|Type|Remarque|Lien|
-|---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/Develco.ZHEMI101.png" width="60" />|Develco|Electric meter interface||||
-|<img src="../../en_US/zigbee/images/Develco_Products_AS.AQSZB-110.png" width="60" />|Develco|Air Quality Sensor||||
-|<img src="../../en_US/zigbee/images/Develco_Products_AS.DIOZB-110.png" width="60" />|Develco|IO Module||||
-|<img src="../../en_US/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Develco|Keypad||||
-|<img src="../../en_US/zigbee/images/Develco_Products_AS.PBTZB-110.png" width="60" />|Develco|Panic Button||There seems to be a problem with the firmware, only the deactivation of the alert (press the button for 5s after activating the panic mode) is sent to the zigbee networks||
-|<img src="../../en_US/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Develco|Siren||||
-|<img src="../../en_US/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Develco|Wallplug||||
-|<img src="../../en_US/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Develco|Water leak detector||||
-|<img src="../../en_US/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Develco|Smart cable||||
-|<img src="../../en_US/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Develco|Smoke detector||||
 
 # Ecodim
 
@@ -261,4 +261,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-12-04 01:32:04
+2020-12-05 01:32:11
