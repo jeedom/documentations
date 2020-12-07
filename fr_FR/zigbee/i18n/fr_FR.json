@@ -13,8 +13,8 @@
         "iaomi capteur de mouvement": "iaomi capteur de mouvement",
         "iaomi capteur ouverture": "iaomi capteur ouverture",
         "Capteur de température\/humidité": "Capteur de température\/humidité",
-        "Capteur de luminosité": "Capteur de luminosité",
         "ioami interrupteur double": "ioami interrupteur double",
+        "Capteur de luminosité": "Capteur de luminosité",
         "ioami interrupteur simple": "ioami interrupteur simple",
         "iaomi Aqara LLKZMK11LM Module bidirectionnel Intelligent": "iaomi Aqara LLKZMK11LM Module bidirectionnel Intelligent",
         "ioami interrupteur double sans neutre": "ioami interrupteur double sans neutre",
@@ -173,6 +173,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-12-06 01": "2020-12-06 01"
+        "2020-12-07 01": "2020-12-07 01"
     }
 }
