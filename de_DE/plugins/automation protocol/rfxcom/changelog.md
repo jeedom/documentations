@@ -4,6 +4,12 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 03/12/2020
+
+- Fehler beim Update behoben
+- Korrektur der Windrichtung (Division durch 10 zu viel)
+
+
 # 01.12.2020
 
 - Fehlerbehebungen

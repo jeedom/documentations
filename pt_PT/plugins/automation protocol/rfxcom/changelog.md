@@ -4,6 +4,12 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 12/03/2020
+
+- Bugs corrigidos no processo de atualização
+- Correção da direção do vento (divisão por 10 demais)
+
+
 # 01/12/2020
 
 - Correções de bugs

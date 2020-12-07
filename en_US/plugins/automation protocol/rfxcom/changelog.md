@@ -4,6 +4,12 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 03/12/2020
+
+- Fixed bugs on the update process
+- Correction of wind direction (division by 10 too much)
+
+
 # 12/01/2020
 
 - Bug fixes

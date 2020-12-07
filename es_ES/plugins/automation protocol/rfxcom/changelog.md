@@ -4,6 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 12/03/2020
+
+- Errores corregidos en el proceso de actualización
+- Corrección de la dirección del viento (división por 10 demasiado)
+
+
 # 12/01/2020
 
 - Correcciones de errores
