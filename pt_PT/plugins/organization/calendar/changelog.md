@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 29/10/2020
+
+- Corrigido um bug em repetições anuais e sistema operacional de 32 bits
+
 # 20/03/2020
 
 - Correção de bug em espanhol

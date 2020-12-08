@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 10/29/2020
+
+- Fixed a bug on annual repetitions and 32bits OS
+
 # 03/20/2020
 
 - Bug fix in Spanish

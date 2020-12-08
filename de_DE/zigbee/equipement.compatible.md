@@ -28,6 +28,15 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/TYZB01_rifa0wlb.TS0011.png" width="60" />|GR-SMARTHOME|GR-SMARTHOME 1/4 DREHVENTIL|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5264-gr-smarthome-motorisation-zigbee-30-pour-vanne-14-de-tour.html)|
 
+# Groupes
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/Groupes.Blanc-Luminosite-On-Off.png" width="60" />|Groupes|Weiß - Helligkeit - Ein - Aus||||
+|<img src="../../de_DE/zigbee/images/Groupes.Couleur-Blanc-Luminosite-On-Off.png" width="60" />|Groupes|Farbe - Weiß - Helligkeit - Ein - Aus||||
+|<img src="../../de_DE/zigbee/images/Groupes.Luminosite-On-Off.png" width="60" />|Groupes|Helligkeit - Ein - Aus||||
+|<img src="../../de_DE/zigbee/images/Groupes.On-Off.png" width="60" />|Groupes|An aus||||
+
 # Legrand
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -198,6 +207,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/SONOFF.01MINIZB.png" width="60" />|Sonoff|||||
 |<img src="../../de_DE/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|Sonoff Basic ZBR3|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
 |<img src="../../de_DE/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|Sonoff trägt||Achtung, es gibt einen Fehler in der Firmware, der dazu führt, dass sie als Temperatur- und Feuchtigkeitsmodul aufsteigt. Daher ist es nach der Aufnahme erforderlich, das richtige Modell zurückzusetzen und die Temperatur- und Feuchtigkeitsregler zu entfernen|[Kaufen](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
 |<img src="../../de_DE/zigbee/images/eWeLink.DS01.png" width="60" />|Sonoff|Sonoff trägt|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
@@ -262,4 +272,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-12-07 01:32:04
+2020-12-08 01:32:03

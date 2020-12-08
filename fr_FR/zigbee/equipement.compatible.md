@@ -28,6 +28,15 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/TYZB01_rifa0wlb.TS0011.png" width="60" />|GR-SMARTHOME|GR-SMARTHOME VANNE 1/4 DE TOUR|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5264-gr-smarthome-motorisation-zigbee-30-pour-vanne-14-de-tour.html)|
 
+# Groupes
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/Groupes.Blanc-Luminosite-On-Off.png" width="60" />|Groupes|Blanc - Luminosité - On - Off||||
+|<img src="../../fr_FR/zigbee/images/Groupes.Couleur-Blanc-Luminosite-On-Off.png" width="60" />|Groupes|Couleur - Blanc - Luminosité - On - Off||||
+|<img src="../../fr_FR/zigbee/images/Groupes.Luminosite-On-Off.png" width="60" />|Groupes|Luminosité - On - Off||||
+|<img src="../../fr_FR/zigbee/images/Groupes.On-Off.png" width="60" />|Groupes|On - Off||||
+
 # Legrand
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -198,6 +207,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/SONOFF.01MINIZB.png" width="60" />|Sonoff|||||
 |<img src="../../fr_FR/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|Sonoff Basic ZBR3|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
 |<img src="../../fr_FR/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|Sonoff porte||Attention il y a un bug dans le firmware qui le fait remonter comme un module de température et d'humidité il faut donc suite à l'inclusion remettre le bon model et supprimer les commandes de température et d'humidité|[Acheter](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
 |<img src="../../fr_FR/zigbee/images/eWeLink.DS01.png" width="60" />|Sonoff|Sonoff porte|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
@@ -262,4 +272,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-12-07 01:32:04
+2020-12-08 01:32:03

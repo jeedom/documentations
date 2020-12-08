@@ -151,6 +151,11 @@
         "Legrand micro module": "Legrand micro module",
         "Legrand contactor": "Legrand contactor",
         "Legrand cable outlet": "Legrand cable outlet",
+        "Groupes": "Groupes",
+        "On - Off": "On - Off",
+        "Luminosité - On - Off": "Luminosité - On - Off",
+        "Couleur - Blanc - Luminosité - On - Off": "Couleur - Blanc - Luminosité - On - Off",
+        "Blanc - Luminosité - On - Off": "Blanc - Luminosité - On - Off",
         "GR-SMARTHOME": "GR-SMARTHOME",
         "GR-SMARTHOME VANNE 1\/4 DE TOUR": "GR-SMARTHOME VANNE 1\/4 DE TOUR",
         "Frient by Develco": "Frient by Develco",
@@ -173,6 +178,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-12-07 01": "2020-12-07 01"
+        "2020-12-08 01": "2020-12-08 01"
     }
 }

@@ -28,6 +28,15 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/TYZB01_rifa0wlb.TS0011.png" width="60" />|GR-SMARTHOME|GR-SMARTHOME VÁLVULA DE 1/4 DE VUELTA|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5264-gr-smarthome-motorisation-zigbee-30-pour-vanne-14-de-tour.html)|
 
+# Groupes
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/Groupes.Blanc-Luminosite-On-Off.png" width="60" />|Groupes|Blanco - Brillo - Encendido - Apagado||||
+|<img src="../../es_ES/zigbee/images/Groupes.Couleur-Blanc-Luminosite-On-Off.png" width="60" />|Groupes|Color - Blanco - Brillo - Encendido - Apagado||||
+|<img src="../../es_ES/zigbee/images/Groupes.Luminosite-On-Off.png" width="60" />|Groupes|Brillo - Encendido - Apagado||||
+|<img src="../../es_ES/zigbee/images/Groupes.On-Off.png" width="60" />|Groupes|Encendido apagado||||
+
 # Legrand
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -198,6 +207,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/SONOFF.01MINIZB.png" width="60" />|Sonoff|||||
 |<img src="../../es_ES/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|Sonoff Basic ZBR3|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
 |<img src="../../es_ES/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|Sonoff viste||Atención, hay un error en el firmware que hace que suba como módulo de temperatura y humedad, por lo tanto, después de la inclusión, es necesario restablecer el modelo correcto y quitar los controles de temperatura y humedad|[Comprar](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
 |<img src="../../es_ES/zigbee/images/eWeLink.DS01.png" width="60" />|Sonoff|Sonoff viste|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
@@ -262,4 +272,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-07/12/2020 01:32:04
+2020-12-08 01:32:03

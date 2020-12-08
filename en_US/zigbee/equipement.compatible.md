@@ -28,6 +28,15 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/TYZB01_rifa0wlb.TS0011.png" width="60" />|GR-SMARTHOME|GR-SMARTHOME 1/4 TURN VALVE|||[Buy](https://www.domadoo.fr/fr/peripheriques/5264-gr-smarthome-motorisation-zigbee-30-pour-vanne-14-de-tour.html)|
 
+# Groupes
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/Groupes.Blanc-Luminosite-On-Off.png" width="60" />|Groupes|White - Brightness - On - Off||||
+|<img src="../../en_US/zigbee/images/Groupes.Couleur-Blanc-Luminosite-On-Off.png" width="60" />|Groupes|Color - White - Brightness - On - Off||||
+|<img src="../../en_US/zigbee/images/Groupes.Luminosite-On-Off.png" width="60" />|Groupes|Brightness - On - Off||||
+|<img src="../../en_US/zigbee/images/Groupes.On-Off.png" width="60" />|Groupes|On - Off||||
+
 # Legrand
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -198,6 +207,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/SONOFF.01MINIZB.png" width="60" />|Sonoff|||||
 |<img src="../../en_US/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|Sonoff Basic ZBR3|||[Buy](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
 |<img src="../../en_US/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|Sonoff wears||Attention there is a bug in the firmware which makes it go up as a temperature and humidity module it is therefore necessary following the inclusion to reset the correct model and remove the temperature and humidity controls|[Buy](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
 |<img src="../../en_US/zigbee/images/eWeLink.DS01.png" width="60" />|Sonoff|Sonoff wears|||[Buy](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
@@ -262,4 +272,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-12-07 01:32:04
+2020-12-08 01:32:03
