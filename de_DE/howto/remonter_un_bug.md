@@ -48,4 +48,5 @@ Der Support ist abhängig von Ihrem Service Pack verfügbar
 - Service Pack Pro: 100 Tickets / Monat
 
 Es gibt verschiedene Möglichkeiten, eine Anfrage zu öffnen:
-[Dokumentation Supportanfragen oder Tickets](https://doc.jeedom.com/de_DE/premiers-pas/#Les%20demandes%20de%20support%20)
+[Dokumentation Supportanfragen oder Tickets](https://doc.jeedom.com/de_DE/premiers-pas/#Les%20demandes%20de%20support%20\(ou%20tickets\))
+
