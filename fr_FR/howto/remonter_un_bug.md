@@ -36,3 +36,16 @@ Voila si vous suivez bien tout ça vous devriez avoir des réponses a votre prob
 
 - Vous avez un souci avec un démon ? il faut absolument mettre la log en debug de celui-ci sinon aucune aide ne sera possible. Vous pouvez aussi ajouter la log d'installation des dépendances (souvent en \_update).
 - Vous avez un problème d'installation de dépendances ? il faut absolument mettre la log de leur installation (souvent en \_update).
+
+# Les demandes d'Assistance et Support (ou tickets)
+
+Si vous n’avez pas trouvé de solution à votre problème, vous pouvez faire une demande de support à l’équipe Jeedom. 
+Cette demande passe par un ticket. 
+
+Le support est accessible en fonction de votre Service Pack
+- Service Pack Community (version gratuite de Jeedom): 2 tickets/mois sur les plugins payants uniquement
+- Service Pack Power et Ultimate: 10 tickets/mois
+- Service Pack Pro: 100 tickets/mois
+
+Il est possible d'ouvrir une demande de plusieurs façons:
+[Documentation Les demandes de support ou tickets](https://doc.jeedom.com/fr_FR/premiers-pas/#Les%20demandes%20de%20support%20)
