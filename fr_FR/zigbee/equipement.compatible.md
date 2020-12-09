@@ -251,7 +251,7 @@
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|Xioami interrupteur double|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|Capteur de luminosité||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_86sw2.png" width="60" />|Xiaomi|Xioami interrupteur double|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_cube.png" width="60" />|Xiaomi|||||
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_cube.png" width="60" />|Xiaomi|Xiaomi smart cube||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_ht.png" width="60" />|Xiaomi|Capteur de température/humidité||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|Xiaomi Aquara capteur d'ouverture|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_magnet.png" width="60" />|Xiaomi|Xiaomi capteur ouverture||||
@@ -272,4 +272,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-12-08 01:32:03
+2020-12-09 01:32:04
