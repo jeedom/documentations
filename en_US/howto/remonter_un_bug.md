@@ -36,3 +36,16 @@ Here if you follow all this well you should have answers to your problem much fa
 
 - You have a problem with a demon ? it is absolutely necessary to put the log in debug of it otherwise no help will be possible. You can also add the dependencies installation log (often in\_update).
 - You have a problem installing dependencies ? it is absolutely necessary to put the log of their installation (often in\_update).
+
+# Assistance and Support requests (or tickets)
+
+If you have not found a solution to your problem, you can request support from the Jeedom team. 
+This request goes through a ticket. 
+
+Support is available depending on your Service Pack
+- Service Pack Community (free version of Jeedom): 2 tickets / month on paid plugins only
+- Power and Ultimate Service Pack: 10 tickets / month
+- Service Pack Pro: 100 tickets / month
+
+It is possible to open a request in several ways:
+[Documentation Support requests or tickets](https://doc.jeedom.com/en_US/premiers-pas/#Les%20demandes%20de%20support%20)

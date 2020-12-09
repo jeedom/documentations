@@ -36,3 +36,16 @@ Aquí, si sigues todo esto bien, deberías tener respuestas a tu problema mucho 
 
 - Tienes un problema con un demonio ? es absolutamente necesario poner el log en la depuración, de lo contrario no será posible ninguna ayuda. También puede agregar el registro de instalación de dependencias (a menudo en\_update).
 - Tienes un problema instalando dependencias ? es absolutamente necesario poner el registro de su instalación (a menudo en\_update).
+
+# Solicitudes de asistencia y soporte (o tickets)
+
+Si no ha encontrado una solución a su problema, puede solicitar asistencia al equipo de Jeedom. 
+Esta solicitud pasa por un ticket. 
+
+El soporte está disponible según su Service Pack
+- Service Pack Community (versión gratuita de Jeedom): 2 boletos / mes solo en complementos pagos
+- Paquete de servicio Power and Ultimate: 10 entradas / mes
+- Service Pack Pro: 100 entradas / mes
+
+Es posible abrir una solicitud de varias formas:
+[Solicitudes o tickets de soporte de documentación](https://doc.jeedom.com/es_ES/premiers-pas/#Les%20demandes%20de%20support%20)

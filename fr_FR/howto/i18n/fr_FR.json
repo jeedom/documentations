@@ -410,7 +410,19 @@
         "il faut absolument mettre la log en debug de celui-ci sinon aucune aide ne sera possible": "il faut absolument mettre la log en debug de celui-ci sinon aucune aide ne sera possible",
         "Vous pouvez aussi ajouter la log d'installation des dépendances (souvent en \\_update": "Vous pouvez aussi ajouter la log d'installation des dépendances (souvent en \\_update",
         "Vous avez un problème d'installation de dépendances": "Vous avez un problème d'installation de dépendances",
-        "il faut absolument mettre la log de leur installation (souvent en \\_update": "il faut absolument mettre la log de leur installation (souvent en \\_update"
+        "il faut absolument mettre la log de leur installation (souvent en \\_update": "il faut absolument mettre la log de leur installation (souvent en \\_update",
+        "Les demandes d'Assistance et Support (ou tickets": "Les demandes d'Assistance et Support (ou tickets",
+        "Si vous n'avez pas trouvé de solution à votre problème, vous pouvez faire une demande de support à l'équipe Jeedom": "Si vous n'avez pas trouvé de solution à votre problème, vous pouvez faire une demande de support à l'équipe Jeedom",
+        "Cette demande passe par un ticket": "Cette demande passe par un ticket",
+        "Le support est accessible en fonction de votre Service Pack": "Le support est accessible en fonction de votre Service Pack",
+        "Service Pack Community (version gratuite de Jeedom": "Service Pack Community (version gratuite de Jeedom",
+        "2 tickets\/mois sur les plugins payants uniquement": "2 tickets\/mois sur les plugins payants uniquement",
+        "Service Pack Power et Ultimate": "Service Pack Power et Ultimate",
+        "10 tickets\/mois": "10 tickets\/mois",
+        "Service Pack Pro": "Service Pack Pro",
+        "100 tickets\/mois": "100 tickets\/mois",
+        "Il est possible d'ouvrir une demande de plusieurs façons": "Il est possible d'ouvrir une demande de plusieurs façons",
+        "Documentation Les demandes de support ou tickets": "Documentation Les demandes de support ou tickets"
     },
     "howto\/reset.password.md": {
         "Procedure en cas de perte du mot de passe de connexion à Jeedom": "Procedure en cas de perte du mot de passe de connexion à Jeedom",

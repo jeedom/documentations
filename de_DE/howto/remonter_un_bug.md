@@ -36,3 +36,16 @@ Wenn Sie all dies gut verfolgen, sollten Sie Antworten auf Ihr Problem viel schn
 
 - Du hast ein Problem mit einem Dämon ? Es ist absolut notwendig, das Log in Debug zu setzen, sonst ist keine Hilfe möglich. Sie können auch das Installationsprotokoll für Abhängigkeiten hinzufügen (häufig in\_update).
 - Sie haben ein Problem bei der Installation von Abhängigkeiten ? Es ist unbedingt erforderlich, das Protokoll ihrer Installation zu speichern (häufig in\_update).
+
+# Assistenz- und Supportanfragen (oder Tickets))
+
+Wenn Sie keine Lösung für Ihr Problem gefunden haben, können Sie das Jeedom-Team um Unterstützung bitten. 
+Diese Anfrage geht durch ein Ticket. 
+
+Der Support ist abhängig von Ihrem Service Pack verfügbar
+- Service Pack Community (kostenlose Version von Jeedom): 2 Tickets / Monat nur für kostenpflichtige Plugins
+- Power und Ultimate Service Pack: 10 Tickets / Monat
+- Service Pack Pro: 100 Tickets / Monat
+
+Es gibt verschiedene Möglichkeiten, eine Anfrage zu öffnen:
+[Dokumentation Supportanfragen oder Tickets](https://doc.jeedom.com/de_DE/premiers-pas/#Les%20demandes%20de%20support%20)
