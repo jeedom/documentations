@@ -1,16 +1,16 @@
 # Plugin Philips Hue
 
-Plugin pour s'integrer à l'écosysteme Philips Hue (peut gerer jusqu'a 2 ponts simultanement).
+Plugin pour s'intégrer à l'écosystème Philips Hue (peut gérer jusqu'a 2 ponts simultanément).
 
 # Configuration du plugin
 
-Après téléchargement du plugin, il vous faudra renseigner l’adresse IP de votre/vos pont(s) hue.
+Après téléchargement du plugin, il vous faudra renseigner l’adresse IP de votre/vos pont(s) Hue.
 
 # Configuration des équipements
 
 > **Note**
 >
-> Vous aurez toujours un équipement "Toutes les lampes" qui correspond en faite au groupe 0 qui existe tout le temps
+> Vous aurez toujours un équipement "Toutes les lampes" qui correspond au groupe 0 qui existe tout le temps.
 
 Vous retrouvez ici toute la configuration de votre équipement :
 
@@ -29,13 +29,13 @@ En-dessous vous retrouvez la liste des commandes :
 -   **Options** : vous permet d’afficher ou de masquer certaines commandes et/ou d’en historiser
 -   **Tester** : permet de tester la commande
 
-# Le groupe 0 (Toute les lampes)
+# Le groupe 0 (Toutes les lampes)
 
-Le groupe 0 est un peu particulier car il ne peut être supprimé ou modifié, il pilote forcement toute les lampes et c’est aussi lui qui porte les scénes.
+Le groupe 0 est un peu particulier car il ne peut être supprimé ou modifié, il pilote forcément toutes les lampes, et c’est aussi lui qui porte les scènes.
 
-En effet vous pouvez faire des "scenes" sur les Philips Hue. Celle-ci doivent absolument être faite à partir de l’application mobile (impossible de les faire dans Jeedom). Et suite à l’ajout d’une scene vous devez absolument synchroniser Jeedom avec le bon (en resauvegardant simple la configuration du plugin)
+En effet vous pouvez faire des "scènes" sur les Philips Hue. Celles-ci doivent absolument être faite à partir de l’application mobile (impossible de les faire dans Jeedom). Et suite à l’ajout d’une scène vous devez absolument synchroniser Jeedom avec le pont (en resauvegardant simple la configuration du plugin)
 
-# Tansition
+# Transition
 
 Commande un peu particulier qui doit être utilisée dans un scénario, elle permet de dire la transistion entre l’état actuel et la prochaine commande doit durée X secondes.
 
@@ -81,6 +81,6 @@ Voici les séquence pour le bouton On par exemple :
 > Il faut :
 > - nous d'écrire l'équipement que vous voulez qu'on ajoute avec photo et possibilités de celui-ci - nous envoyer le log en debug de la synchronisation avec le pont Le tout en nous contactant par une demande de support
 
->**J'ai ajouté l'historisation d'une commande mais ca ne marche pas**
+>**J'ai ajouté l'historisation d'une commande mais ça ne marche pas**
 >
 >Pour des questions de performance il faut redemarrer le demon philips hue pour qu'il prenne en compte ce changement.
