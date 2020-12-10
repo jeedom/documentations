@@ -483,6 +483,12 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zwave/images/836.3.1_he-zw-therm-fl2.jpg" width="60" />|Heltun|Heltun HEZWTHERM-FL2|Chauffage|||
 |<img src="../../es_ES/zwave/images/836.3.3_heltun-switcher-5ch.jpg" width="60" />|Heltun|Heltun Switvher 5 canales|Interrupteur|||
+|<img src="../../es_ES/zwave/images/836.4.10_heltun-HE-HLS01.jpg" width="60" />|Heltun|Interruptor de carga alta|Contactor, termostato||[Documentación](https://drive.google.com/file/d/1Am29EvTZOPLXEh_xq3K-5kcFl_-4VKS3/view)<br/>[Comprar](https://www.domadoo.fr/fr/actionneurs-variateurs/5114-heltun-module-commutateur-forte-charge-16a-z-wave-700.html)|
+|<img src="../../es_ES/zwave/images/836.4.1_heltun-HE-HT01.jpg" width="60" />|Heltun|Termostato de calefacción|Thermostat||[Documentación](https://drive.google.com/file/d/1WUElb_KCbdrdZg-SMSv9YnDyrg_aDNtH/view)<br/>[Comprar](https://www.domadoo.fr/fr/chauffage-clim/5183-heltun-thermostat-z-wave-700-pour-chauffage-electrique.html)|
+|<img src="../../es_ES/zwave/images/836.4.2_heltun-HE-FT01.jpg" width="60" />|Heltun|Termostato Fan Coil|Thermostat||[Documentación](https://drive.google.com/file/d/1a0yey6o1lbBcZTCmXG5zaz4wr4iaToFt/view)<br/>[Comprar](https://www.domadoo.fr/fr/chauffage-clim/5182-heltun-thermostat-z-wave-700-pour-ventilo-convecteur.html)|
+|<img src="../../es_ES/zwave/images/836.4.3_heltun-tps05.jpg" width="60" />|Heltun|Interruptor de panel táctil Quinto|Interrupteur||[Documentación](https://drive.google.com/file/d/1Vv7bCqYxsPWuRoi5jUWCIYMwQkMD0Yuh/view)<br/>[Comprar](https://www.domadoo.fr/fr/interrupteurs/5184-heltun-interrupteur-tactile-z-wave-700-quinto-5-boutons.html)|
+|<img src="../../es_ES/zwave/images/836.4.7_heltun-HE-TPS01.jpg" width="60" />|Heltun|Interruptor de panel táctil Solo|Interrupteur||[Documentación](https://drive.google.com/file/d/1d0Q-FSZy3W0Qem59g_XpIkFB41OT8Erw/view)<br/>[Comprar](https://www.domadoo.fr/fr/interrupteurs/5109-heltun-interrupteur-tactile-z-wave-700-solo-1-bouton.html)|
+|<img src="../../es_ES/zwave/images/836.4.9_heltun-HE-RS01.jpg" width="60" />|Heltun|Interruptor relé Quinto|Contactor, termostato||[Documentación](https://drive.google.com/file/d/1DVLXZMvv2cpf6QF-breB7TwtrOlCOd8z/view)<br/>[Comprar](https://www.domadoo.fr/fr/eclairage/5119-heltun-module-commutateur-quinto-5-canaux-z-wave-700.html)|
 
 # Homeseer
 
@@ -706,6 +712,7 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zwave/images/410.3.10_strips-confort.jpg" width="60" />|Sensative|Tiras de confort|Multicapteur|||
 |<img src="../../es_ES/zwave/images/410.3.3_strips.jpg" width="60" />|Sensative|Strips|Ouverture||[Comprar](http://www.domadoo.fr/fr/peripheriques/3200-sensative-capteur-d-ouverture-extra-fin-strips-z-wave-7330985122972.html)|
+|<img src="../../es_ES/zwave/images/410.4.4_strips-guard.jpg" width="60" />|Sensative|Strip Guard 700|Detector, apertura|||
 
 # Sigma
 
@@ -758,6 +765,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zwave/images/411.1.1_thermostat.jpg" width="60" />|Thermofloor|Termostato Heatit Z-Wave|Thermostat||[Comprar](http://www.domadoo.fr/fr/peripheriques/2731-thermofloor-thermostat-z-wave-heatit-3600w-16a-blanc-7071236011934.html)|
+|<img src="../../es_ES/zwave/images/411.3.13_z-smoke.jpg" width="60" />|Heatit|Batería del detector de humo Z|Humo, movimiento, temperatura||[Comprar](https://www.domadoo.fr/fr/securite/5203-heatit-controls-detecteur-de-fumee-multifonctions-z-wave-z-smoke-sur-batterie-7071236015215.html)|
 |<img src="../../es_ES/zwave/images/411.3.515_z-trm3.jpg" width="60" />|Heatit|Termostato Z-TRM3|Thermostat||[Documentación](https://www.thermo-floor.no/media/multicase/documents/_tfasdokumentasjon/heatit%20controls/heatit%20z-trm3/manual_heatit_z-trm3_fw%204.0%20ver2020-b_eng.pdf)<br/>[Comprar](https://www.domadoo.fr/fr/thermostats/5193-heatit-controls-thermostat-z-wave-pour-plancher-chauffant-electrique-16a-z-trm3-7071236015239.html)|
 |<img src="../../es_ES/zwave/images/411.3.520_Z-Relay.jpg" width="60" />|Heatit|Z-Relay|Contacteur||[Documentación](https://www.heatit.com/wp-content/uploads/2019/12/Manual_Heatit_Z-Relay_ENG.pdf)<br/>[Comprar](https://www.domadoo.fr/fr/chauffage-clim/5200-heatit-controls-module-relais-25a-z-wave-z-relay.html)|
 |<img src="../../es_ES/zwave/images/411.3.522_z-water.jpg" width="60" />|Heatit|Z-Water|Rail-Din||[Documentación](https://www.thermo-floor.no/media/multicase/documents/_tfasdokumentasjon/heatit%20controls/heatit%20z-water/manual_heatit_z-water_analog%20inputs_fw%202.1_ver2019-a_eng.pdf)<br/>[Comprar](https://www.domadoo.fr/fr/thermostats/5199-heatit-controls-controleur-de-chauffage-hydronique-z-wave-10-sorties-z-water-7071236014065.html)|
@@ -895,4 +903,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-12-09 01:08:11
+2020-12-10 01:08:06
