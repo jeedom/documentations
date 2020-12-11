@@ -7,20 +7,20 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/Eurotronic.SPZB0001.png" width="60" />|Eurotronic|Spiritusventil||Ventil, das dazu neigt, Bestellungen nicht mehr anzunehmen (Änderung des Sollwerts), es sei denn, die Batterien werden entfernt und zurückgesetzt. Andererseits werden immer die Temperaturinformationen und die manuelle Sollwertänderung zurückgemeldet||
 
-# Frient von Develco
+# Frient
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/Develco.ZHEMI101.png" width="60" />|Frient von Develco|Stromzähler-Schnittstelle||||
+|<img src="../../de_DE/zigbee/images/Develco.ZHEMI101.png" width="60" />|Frient|Stromzähler-Schnittstelle||||
 |<img src="../../de_DE/zigbee/images/Develco_Products_AS.AQSZB-110.png" width="60" />|Develco|Luftqualitätssensor||||
-|<img src="../../de_DE/zigbee/images/Develco_Products_AS.DIOZB-110.png" width="60" />|Frient von Develco|E / A-Modul||||
+|<img src="../../de_DE/zigbee/images/Develco_Products_AS.DIOZB-110.png" width="60" />|Frient|E / A-Modul||||
 |<img src="../../de_DE/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Develco|Keypad||||
 |<img src="../../de_DE/zigbee/images/Develco_Products_AS.PBTZB-110.png" width="60" />|Develco|Panikknopf||Es scheint ein Problem mit der Firmware zu geben, nur die Deaktivierung des Alarms (drücken Sie die Taste für 5 Sekunden nach Aktivierung des Panikmodus) wird an die ZigBee-Netzwerke gesendet||
 |<img src="../../de_DE/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Develco|Siren||||
-|<img src="../../de_DE/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Frient von Develco|Wallplug||||
-|<img src="../../de_DE/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient von Develco|Wasserleckdetektor||||
-|<img src="../../de_DE/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Frient von Develco|Intelligentes Kabel||||
-|<img src="../../de_DE/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Frient von Develco|Rauchmelder||||
+|<img src="../../de_DE/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Frient|Wallplug||||
+|<img src="../../de_DE/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient|Wasserleckdetektor||||
+|<img src="../../de_DE/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Frient|Intelligentes Kabel||||
+|<img src="../../de_DE/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Frient|Rauchmelder||||
 
 # GR-SMARTHOME
 
@@ -186,6 +186,7 @@
 |<img src="../../de_DE/zigbee/images/Philips.LWA001.png" width="60" />|Philips|Farbton Weiß Ambiente E27||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Farbton Weiß B22||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.LWE002.png" width="60" />|Philips|Farbton weiße Kerze E14||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
+|<img src="../../de_DE/zigbee/images/Philips.LWV001.png" width="60" />|Philips|Farbton Weiß Glühbirne ST64 E27||||
 |<img src="../../de_DE/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../de_DE/zigbee/images/Philips.RWL021.png" width="60" />|Philips|4-Tasten-Fernbedienung||||
 |<img src="../../de_DE/zigbee/images/Philips.SML001.png" width="60" />|Philips|Farbton Innenbewegungsdetektor|Bewegung, Helligkeit, Temperatur|||
@@ -272,4 +273,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2020-12-10 01:32:04
+2020-12-11 01:32:04

@@ -60,6 +60,7 @@
         "Mouvement,Luminosité,Température": "Mouvement,Luminosité,Température",
         "Hue détecteur de mouvement intérieure": "Hue détecteur de mouvement intérieure",
         "Télécommande 4 boutons": "Télécommande 4 boutons",
+        "Hue White Filament Bulb ST64 E27": "Hue White Filament Bulb ST64 E27",
         "Hue White Candle E14": "Hue White Candle E14",
         "Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible": "Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible",
         "Hue White B22": "Hue White B22",
@@ -159,7 +160,7 @@
         "Blanc - Luminosité - On - Off": "Blanc - Luminosité - On - Off",
         "GR-SMARTHOME": "GR-SMARTHOME",
         "GR-SMARTHOME VANNE 1\/4 DE TOUR": "GR-SMARTHOME VANNE 1\/4 DE TOUR",
-        "Frient by Develco": "Frient by Develco",
+        "Frient": "Frient",
         "Smart cable": "Smart cable",
         "Water leak detector": "Water leak detector",
         "Wallplug": "Wallplug",
@@ -179,6 +180,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-12-10 01": "2020-12-10 01"
+        "2020-12-11 01": "2020-12-11 01"
     }
 }

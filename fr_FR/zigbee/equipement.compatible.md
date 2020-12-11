@@ -7,20 +7,20 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/Eurotronic.SPZB0001.png" width="60" />|Eurotronic|Vanne Spirit||Vanne qui a tendance à ne plus accepter d'ordre (changement de consigne) à moins d'enlever les piles et de les remettres. Par contre elle remonte toujours bien les informations de température et changement de consigne manuel||
 
-# Frient by Develco
+# Frient
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zigbee/images/Develco.ZHEMI101.png" width="60" />|Frient by Develco|Electric meter interface||||
+|<img src="../../fr_FR/zigbee/images/Develco.ZHEMI101.png" width="60" />|Frient|Electric meter interface||||
 |<img src="../../fr_FR/zigbee/images/Develco_Products_AS.AQSZB-110.png" width="60" />|Develco|Air Quality Sensor||||
-|<img src="../../fr_FR/zigbee/images/Develco_Products_AS.DIOZB-110.png" width="60" />|Frient by Develco|IO Module||||
+|<img src="../../fr_FR/zigbee/images/Develco_Products_AS.DIOZB-110.png" width="60" />|Frient|IO Module||||
 |<img src="../../fr_FR/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Develco|Keypad||||
 |<img src="../../fr_FR/zigbee/images/Develco_Products_AS.PBTZB-110.png" width="60" />|Develco|Panic button||Il semble y avoir un soucis avec le firmware seul la desactivation de l'alerte (appuie 5s sur le bouton après activation du mode panic) est envoyé sur le réseaux zigbee||
 |<img src="../../fr_FR/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Develco|Siren||||
-|<img src="../../fr_FR/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Frient by Develco|Wallplug||||
-|<img src="../../fr_FR/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient by Develco|Water leak detector||||
-|<img src="../../fr_FR/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Frient by Develco|Smart cable||||
-|<img src="../../fr_FR/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Frient by Develco|Smoke detector||||
+|<img src="../../fr_FR/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Frient|Wallplug||||
+|<img src="../../fr_FR/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient|Water leak detector||||
+|<img src="../../fr_FR/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Frient|Smart cable||||
+|<img src="../../fr_FR/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Frient|Smoke detector||||
 
 # GR-SMARTHOME
 
@@ -186,6 +186,7 @@
 |<img src="../../fr_FR/zigbee/images/Philips.LWA001.png" width="60" />|Philips|Hue White Ambiance E27||Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible||
 |<img src="../../fr_FR/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Hue White B22||Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible||
 |<img src="../../fr_FR/zigbee/images/Philips.LWE002.png" width="60" />|Philips|Hue White Candle E14||Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible||
+|<img src="../../fr_FR/zigbee/images/Philips.LWV001.png" width="60" />|Philips|Hue White Filament Bulb ST64 E27||||
 |<img src="../../fr_FR/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../fr_FR/zigbee/images/Philips.RWL021.png" width="60" />|Philips|Télécommande 4 boutons||||
 |<img src="../../fr_FR/zigbee/images/Philips.SML001.png" width="60" />|Philips|Hue détecteur de mouvement intérieure|Mouvement,Luminosité,Température|||
@@ -272,4 +273,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-12-10 01:32:04
+2020-12-11 01:32:04
