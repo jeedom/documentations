@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 07/12/2020
+
+- Fixed a bug on the color of events in the agenda in V4
+
 # 10/29/2020
 
 - Fixed a bug on annual repetitions and 32bits OS

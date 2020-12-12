@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 07/12/2020
+
+- Ein Fehler in der Farbe der Ereignisse in der Agenda in V4 wurde behoben
+
 # 29.10.2020
 
 - Ein Fehler bei jährlichen Wiederholungen und 32-Bit-Betriebssystemen wurde behoben

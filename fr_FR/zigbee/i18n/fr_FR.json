@@ -44,6 +44,7 @@
         "Sonoff porte": "Sonoff porte",
         "Attention il y a un bug dans le firmware qui le fait remonter comme un module de température et d'humidité il faut donc suite à l'inclusion remettre le bon model et supprimer les commandes de température et d'humidité": "Attention il y a un bug dans le firmware qui le fait remonter comme un module de température et d'humidité il faut donc suite à l'inclusion remettre le bon model et supprimer les commandes de température et d'humidité",
         "Sonoff Basic ZBR3": "Sonoff Basic ZBR3",
+        "Sonoff ZBMINI": "Sonoff ZBMINI",
         "Schneider": "Schneider",
         "Wiser micro module dimmer": "Wiser micro module dimmer",
         "Variateur": "Variateur",
@@ -135,6 +136,7 @@
         "Filamant Bulb": "Filamant Bulb",
         "Heiman": "Heiman",
         "Smoke sensor": "Smoke sensor",
+        "CO Sensor": "CO Sensor",
         "Ecodim": "Ecodim",
         "Led Smart Dimmer": "Led Smart Dimmer",
         "Danfoss": "Danfoss",
@@ -180,6 +182,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-12-11 01": "2020-12-11 01"
+        "2020-12-12 01": "2020-12-12 01"
     }
 }

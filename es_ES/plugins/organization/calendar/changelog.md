@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 12/07/2020
+
+- Se corrigió un error en el color de los eventos en la agenda en V4
+
 # 29/10/2020
 
 - Se corrigió un error en las repeticiones anuales y el sistema operativo de 32 bits
