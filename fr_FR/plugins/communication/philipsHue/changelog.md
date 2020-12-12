@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 11/12/2020
+
+- Correction d'un soucis de surcharge du CPU lors de la désactivation d'un capteur (à noter qu'il faut relancer le demon suite à la mise à jour pour avoir la correction)
+
 # 25/06/2020
 
 - Support multipont (2 pour le moment)
