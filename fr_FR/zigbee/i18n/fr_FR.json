@@ -35,6 +35,8 @@
         "Tryo2sys": "Tryo2sys",
         "PTM 215 ZE": "PTM 215 ZE",
         "Sunricher": "Sunricher",
+        "Sunricher remote dimmer switch": "Sunricher remote dimmer switch",
+        "Sunricher remote color": "Sunricher remote color",
         "Sunricher RGB": "Sunricher RGB",
         "Sunricher motor controller": "Sunricher motor controller",
         "Sonoff": "Sonoff",
@@ -109,6 +111,8 @@
         "PTM 216 Z": "PTM 216 Z",
         "SIN-4-2-01": "SIN-4-2-01",
         "SIN-4-1-01": "SIN-4-1-01",
+        "Lellki": "Lellki",
+        "Multiprise": "Multiprise",
         "Innr": "Innr",
         "INNR E27 Multicolor RGBW + Blanc": "INNR E27 Multicolor RGBW + Blanc",
         "Ikea": "Ikea",
@@ -182,6 +186,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-12-14 01": "2020-12-14 01"
+        "2020-12-15 01": "2020-12-15 01"
     }
 }

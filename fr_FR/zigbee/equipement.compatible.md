@@ -118,6 +118,12 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/Innr.RB285C.png" width="60" />|Innr|INNR E27 Multicolor RGBW + Blanc||||
 
+# Lellki
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/E220-KR4N0Z0-HA.png" width="60" />|Lellki|Multiprise||||
+
 # Nodon
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -223,7 +229,8 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/Sunricher.Motor_Controller.png" width="60" />|Sunricher|Sunricher motor controller||||
 |<img src="../../fr_FR/zigbee/images/Sunricher.RGB-CCT.png" width="60" />|Sunricher|Sunricher RGB||||
-|<img src="../../fr_FR/zigbee/images/Sunricher.ZG2858A.png" width="60" />|Sunricher|Sunricher ||||
+|<img src="../../fr_FR/zigbee/images/Sunricher.ZG2858A.png" width="60" />|Sunricher|Sunricher remote color||||
+|<img src="../../fr_FR/zigbee/images/Sunricher.ZGRC-KEY-013.png" width="60" />|Sunricher|Sunricher remote dimmer switch||||
 
 # Tryo2sys
 
@@ -274,4 +281,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2020-12-14 01:32:04
+2020-12-15 01:32:04
