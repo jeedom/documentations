@@ -46,6 +46,13 @@
 |<img src="../../en_US/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand micro module||||
 |<img src="../../en_US/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand mobile socket Céliane||||
 
+# Adeo
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/adeo.LXEK-1.png" width="60" />|Adeo|Adeo LEXK-1||||
+|<img src="../../en_US/zigbee/images/adeo.LXEK-5.png" width="60" />|Adeo|Sunricher remote color||||
+
 # Alfawise
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -103,6 +110,7 @@
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|Bulb E14 opal 600lm||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_W_opch_400lm.png" width="60" />|Ikea|Bulb E14 W opch 400lm||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_CWS_opal_600lm.png" width="60" />|Ikea|Bulb E27 CWS opal 600lm||||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WW_806lm.png" width="60" />|Ikea|TRADFRI bulb E27 WW 806lm||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WS_400lm.png" width="60" />|Ikea|Bulb GU10 WS 400lm||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WW_400lm.png" width="60" />|Ikea|Bulb GU10 WW 400lm||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_control_outlet.png" width="60" />|Ikea|Ikea TRADFRI connected socket|||[Documentation](https://www.ikea.com/fr/fr/manuals/tradfri-wireless-control-outlet__AA-2106602-1_pub.pdf)<br/>|
@@ -138,7 +146,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/HEIMAN.358e4e3e03c644709905034dae81433e.png" width="60" />|Orvibo|Gas sensor||||
 |<img src="../../en_US/zigbee/images/ORVIBO.6c155b46eb9a4dcbb64fb3dd858aa18e.png" width="60" />|Orvibo|RGB controller||||
-|<img src="../../en_US/zigbee/images/ORVIBO.82c167c95ed746cdbd21d6817f72c593.png" width="60" />|Orvibo|Multi-functional Replay||||
+|<img src="../../en_US/zigbee/images/ORVIBO.82c167c95ed746cdbd21d6817f72c593.png" width="60" />|Orvibo|Multi-functional Relay||As of 12/15/2020, return to non-functional status||
 |<img src="../../en_US/zigbee/images/ORVIBO.e82vcb50ccded44a8a1259b0ba53be5f.png" width="60" />|Orvibo|Sensor connector||||
 |<img src="../../en_US/zigbee/images/fei.34e25a8282064fc1939e5b777d5a805d.png" width="60" />|Orvibo|Emergency button||||
 |<img src="../../en_US/zigbee/images/fei.5efef8f5c636421fa723642ff62a1175.png" width="60" />|Orvibo|Gas sensor||||
@@ -281,4 +289,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2020-12-16 01:32:03
+2020-12-17 01:32:12
