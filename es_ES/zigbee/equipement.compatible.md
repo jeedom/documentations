@@ -105,6 +105,7 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.FYRTUR_roller_blind.png" width="60" />|Ikea|Ikea fyrtur||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.KADRILJ_roller_blind.png" width="60" />|Ikea|Ikea Kadrilj||||
+|<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.SYMFONISK_Sound_Controller.png" width="60" />|Ikea|Controlador de sonido Ikea TRADFRI Symfonisk|Control remoto|||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_10W.png" width="60" />|Ikea|Controlador de 10W||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_30W.png" width="60" />|Ikea|Conductor 30W||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|Bombilla E14 ópalo 600lm||||
@@ -289,4 +290,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2020-12-17 01:32:12
+2020-12-18 01:32:04

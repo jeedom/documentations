@@ -132,6 +132,7 @@
         "Bulb E14 opal 600lm": "Bulb E14 opal 600lm",
         "Driver 30W": "Driver 30W",
         "Driver 10W": "Driver 10W",
+        "Ikea TRADFRI Symfonisk sound controller": "Ikea TRADFRI Symfonisk sound controller",
         "Ikea Kadrilj": "Ikea Kadrilj",
         "Ikea Fyrtur": "Ikea Fyrtur",
         "Icasa": "Icasa",
@@ -190,6 +191,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2020-12-17 01": "2020-12-17 01"
+        "2020-12-18 01": "2020-12-18 01"
     }
 }
