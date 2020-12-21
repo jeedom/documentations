@@ -23,9 +23,9 @@ Vous pouvez tester depuis un scénario / bloc Code si vos plugins ont bien la co
 
   ~~~ php
   {% raw %}
-  /* Auteur des plugins à contrôler */
+  //Author of plugins to check (case sensitive)
   $author = 'Jeedom SAS';
-  /**********************************/
+
   $plugins = repo_market::byFilter(['author' => $author]);
   $pluginsArray = utils::o2a($plugins);
   $countPlugins = 0;
@@ -34,21 +34,19 @@ Vous pouvez tester depuis un scénario / bloc Code si vos plugins ont bien la co
     if ($plugin['author'] == $author) {
       $countPlugins++;
     if ($plugin['hardwareCompatibility']['v4'] != '1') {
-      $countIncompatibles++;
-      $scenario->setLog('Le plugin ' . $plugin['name'] . ' n\'est pas indiqué compatible V4');
+        $countIncompatibles++;
+      $scenario->setLog('Plugin ' . $plugin['name'] . ' does not have v4 compatibility tag.');
     }
     }
   }
   if ($countPlugins > 0) {
-    if($countIncompatibles == 1) {
-      $scenario->setLog($author . ' : 1 plugin potentiellement incompatible Jeedom V4 sur ' . $countPlugins . ' plugin(s) réalisé(s)');
-    } else if ($countIncompatibles > 1) {
-    $scenario->setLog($author . ' : ' . $countIncompatibles . ' plugins potentiellements incompatibles Jeedom V4 sur ' . $countPlugins . ' plugins réalisés');
+    if ($countIncompatibles > 0) {
+      $scenario->setLog($author . ' : ' . $countIncompatibles . ' potentially incompatible Jeedom V4 plugin on ' . $countPlugins . ' checked');
     } else {
-      $scenario->setLog('Les ' . $countPlugins . ' plugins développés par ' . $author . ' sont tous compatibles Jeedom V4. Félicitations !');
+      $scenario->setLog('All ' . $countPlugins . ' plugin developed by ' . $author . ' are Jeedom V4 compatible. Congratulations!');
     }
   } else {
-    $scenario->setLog('Aucun plugin trouvé pour ' . $author);
+    $scenario->setLog('No plugin found for ' . $author);
   }
   {% endraw %}
   ~~~
