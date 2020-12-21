@@ -11,6 +11,45 @@
         "Pour 2020 il est maintenant recommandé de ne plus mettre le nom sous l'image (attention à garder quand meme les memes tailles du modele": "Pour 2020 il est maintenant recommandé de ne plus mettre le nom sous l'image (attention à garder quand meme les memes tailles du modele",
         "Merci d'utiliser ce modèle (bors arrondi, taille, fond coloré, transparence autour etc..) ": "Merci d'utiliser ce modèle (bors arrondi, taille, fond coloré, transparence autour etc..) "
     },
+    "dev\/core4.0.md": {
+        "Évolutions du Core": "Évolutions du Core",
+        "développeurs de plugin": "développeurs de plugin",
+        "Core v4.0": "Core v4.0",
+        "rédaction en cours": "rédaction en cours",
+        "Compatibilité V4 sur le market": "Compatibilité V4 sur le market",
+        "La v3 qui sortira en Novembre 2020 aura un module de migration permettant de passer de la V3 à la V4": "La v3 qui sortira en Novembre 2020 aura un module de migration permettant de passer de la V3 à la V4",
+        "Lors de la phase de migration des v3 vers la v4, les plugins sans compatibilité v4 dans leur info": "Lors de la phase de migration des v3 vers la v4, les plugins sans compatibilité v4 dans leur info",
+        "json alerteront l'utilisateur final avant la mise à jour": "json alerteront l'utilisateur final avant la mise à jour",
+        "Si votre plugin est compatible v4, indiquez le dans le info": "Si votre plugin est compatible v4, indiquez le dans le info",
+        "json de cotre plugin": "json de cotre plugin",
+        "Exemple": "Exemple",
+        "`\"compatibility": "`\"compatibility",
+        "[\"miniplus\",\"smart\",\"rpi\",\"docker\",\"diy\",\"v4\"],`": "[\"miniplus\",\"smart\",\"rpi\",\"docker\",\"diy\",\"v4\"],`",
+        "Vous pouvez tester depuis un scénario \/ bloc Code si vos plugins ont bien la compatibilité renseignée": "Vous pouvez tester depuis un scénario \/ bloc Code si vos plugins ont bien la compatibilité renseignée",
+        "```": "```",
+        "Auteur des plugins à contrôler": "Auteur des plugins à contrôler",
+        "\/": "\/",
+        "foreach ($pluginsArray as $plugin": "foreach ($pluginsArray as $plugin",
+        "if ($plugin['author'] == $author": "if ($plugin['author'] == $author",
+        "if ($plugin['hardwareCompatibility']['v4": "if ($plugin['hardwareCompatibility']['v4",
+        "if ($countPlugins > 0": "if ($countPlugins > 0",
+        "if($countIncompatibles == 1": "if($countIncompatibles == 1",
+        "else if ($countIncompatibles > 1": "else if ($countIncompatibles > 1",
+        "else": "else",
+        "Adaptation des plugins pour le Core v4": "Adaptation des plugins pour le Core v4"
+    },
+    "dev\/core4.1.md": {
+        "Évolutions du Core": "Évolutions du Core",
+        "développeurs de plugin": "développeurs de plugin",
+        "Core v4.1": "Core v4.1",
+        "rédaction en cours": "rédaction en cours"
+    },
+    "dev\/core4.2.md": {
+        "Évolutions du Core": "Évolutions du Core",
+        "développeurs de plugin": "développeurs de plugin",
+        "Core v4.2": "Core v4.2",
+        "rédaction en cours": "rédaction en cours"
+    },
     "dev\/documentation_plugin.md": {
         "Comment faire la documentation d'un plugin": "Comment faire la documentation d'un plugin",
         "Introduction": "Introduction",
@@ -53,13 +92,18 @@
         "par la langue de l'utilisateur pour pointer vers la bonne langue (si votre documentation n'est pas disponible dans la langue de l'utilisateur alors automatiquement, cela renverra vers le Français": "par la langue de l'utilisateur pour pointer vers la bonne langue (si votre documentation n'est pas disponible dans la langue de l'utilisateur alors automatiquement, cela renverra vers le Français"
     },
     "dev\/index.md": {
-        "Sommaire": "Sommaire",
-        "Structure info.json": "Structure info.json",
+        "Documentation pour les développeurs de plugin": "Documentation pour les développeurs de plugin",
+        "Documentation générale": "Documentation générale",
         "Icône du plugin": "Icône du plugin",
+        "Structure info.json": "Structure info.json",
         "Documentation du plugin": "Documentation du plugin",
         "Publication plugin": "Publication plugin",
         "Widget du plugin": "Widget du plugin",
-        "Plugin template": "Plugin template"
+        "Plugin template": "Plugin template",
+        "Évolutions du Core et adaptations des plugins": "Évolutions du Core et adaptations des plugins",
+        "Core v4.2": "Core v4.2",
+        "Core v4.1": "Core v4.1",
+        "Core v4.0": "Core v4.0"
     },
     "dev\/plugin_template.md": {
         "Documentation plugin template": "Documentation plugin template",
