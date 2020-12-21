@@ -1,3 +1,4 @@
 ### Core v4.2 | Desarrolladores de complementos
 
-**-- redacción en curso --**
+
+*Pendiente de alfa 4.2 publicados*
