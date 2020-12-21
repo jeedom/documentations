@@ -6,15 +6,15 @@ Cette icône sera celle affichée pour les utilisateurs, sur le market et depuis
 
 Il faut produire un fichier au format png, de 309 x 348 pixels.
 
-Le nom du fichier est structuré ainsi : <plugin-id>_icon.png
+Le nom du fichier est structuré ainsi : `<plugin-id>_icon.png`
 
-Il doit être enregistré dans le dossier /plugin-info/
+Il doit être enregistré dans le dossier `/plugin-info/`
 
 Ce fichier est obligatoire.
 
-Nous vous remercions par avance de ne pas utiliser le même code couleur que les icones des plugin officiels Jeedom.
+Nous vous remercions par avance de ne pas utiliser le même code couleur que les icônes des plugin officiels Jeedom.
 
-Pour 2020 il est maintenant recommandé de ne plus mettre le nom sous l'image (attention à garder quand meme les memes tailles du modele !)
+Pour 2020 il est maintenant recommandé de ne plus mettre le nom sous l'image (attention à garder quand même les mêmes tailles du modèle !)
 
 Merci d'utiliser ce modèle (bors arrondi, taille, fond coloré, transparence autour etc..) :
 

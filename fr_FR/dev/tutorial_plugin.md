@@ -17,7 +17,7 @@ Pour commencer il faut déterminer un nom et un id (qui ne doit pas exister) :
 
 Télécharger le plugin template pour avoir la [base](https://github.com/jeedom/plugin-template/archive/master.zip)
 
-Dé zipper le fichier . Vous obtiendrez un dossier « plugin-template-master » contenant des dossiers 3rparty , core , desktop…
+Dé zipper le fichier . Vous obtiendrez un dossier « plugin-template-master » contenant des dossiers 3rdparty , core , desktop…
 
 On y va.
 
@@ -25,7 +25,7 @@ Renommer le dossier « plugin-template-master » en « vdm » (l’id) du plugin
 
 1/ Ouvrir le fichier plugin_info/info.json et éditer le.
 
-````
+````json
 {
     "id" : "vdm",
     "name" : "Vie de Merde",
@@ -72,7 +72,7 @@ Et rien d’autre , ne pas changer la ligne ``<?php include_file('core', 'plugin
 
 Et renommer les fonctions comme suit
 
-````
+````php
 function vdm_install() {
 
 }
@@ -107,7 +107,7 @@ On l'active et ensuite plugins/Monitoring/Vie de Merde
 
 J'ouvre le fichier ``desktop/php/desktop.php`` pour corriger.
 
-````
+````html
 {% raw %}
       <div class="cursor eqLogicAction" data-action="add" style="text-align: center; background-color : #ffffff; height : 120px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;" >
         <i class="fa fa-plus-circle" style="font-size : 6em;color:#94ca02;"></i>
@@ -143,7 +143,7 @@ Il faut donc créer une commande de type info pour stocker cette information. El
 
 Pour l’exemple nous allons ajouter une commande qui rafraîchit l’information. Ce sera donc une commande de type action et sous-type other
 
-- Créer un équipement « vdm1 » en cliquant sur le +. Activer le et rendez le visible. Choisissez un objet et l’équipement doit apparaitre sur le dashboard( selon l’objet).
+- Créer un équipement « vdm1 » en cliquant sur le +. Activer le et rendez le visible. Choisissez un objet et l’équipement doit apparaître sur le dashboard( selon l’objet).
 
 A ce moment, il n’y a pas de commandes qui apparaissent dans l’onglet commande s, ni sur le widget.
 
@@ -151,7 +151,7 @@ Ouvrir le fichier core/class/vdm.class.php et chercher la fonction postSave() (L
 
 On crée les 2 commandes
 
-````
+````php
 public function postSave() {
     $info = $this->getCmd(null, 'story');
     if (!is_object($info)) {
@@ -203,7 +203,7 @@ Ouvrir desktop/php/vdm.php pour trouver le code html de ce tableau.
 
 Au moment de l’affichage , c’est le script desktop/js/vdm.js qui est appelé et lance la fonction addCmdToTable.
 
-````
+````js
 {% raw %}
 function addCmdToTable(_cmd) {
     if (!isset(_cmd)) {
@@ -251,7 +251,7 @@ J’édite le code html du tableau dans le fichier desktop.php en ajoutant une c
 
 Puis éditer desktop.js ,trouver
 
-````
+````js
     tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
     tr += '</td>';
     tr += '<td>';
@@ -260,7 +260,7 @@ Puis éditer desktop.js ,trouver
 
 On ajoute les informations souhaitées.
 
-````
+````js
 {% raw %}
     tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
     tr += '</td>';
@@ -295,7 +295,7 @@ Voilà il reste à récupérer une vdm aléatoire et à utiliser les commandes.
 
 Pour récupérer une vdm de manière aléatoire.
 
-````
+````php
 $url = "http://www.viedemerde.fr/aleatoire";
 $data = file_get_contents($url);
 @$dom = new DOMDocument();
@@ -309,7 +309,7 @@ return $divs[0]->nodeValue ;
 
 Ouvrir le fichier core/class/vdm.class.php et pour la class vdm qui hérite des méthodes egLogic, je crée une fonction randomVdm
 
-````
+````php
 public function randomVdm() {
     $url = "http://www.viedemerde.fr/aleatoire";
     $data = file_get_contents($url);
@@ -326,7 +326,7 @@ public function randomVdm() {
 Maintenant on va updater la commande info(story) avec cette information en lançant la commande action(refresh).
 Toujours dans core/class/vdm.class.php pour la class vdmCmd on va utiliser la méthode execute
 
-````
+````php
 public function execute($_options = array()) {
 
 }
@@ -336,7 +336,7 @@ C’est ici qu’on va définir ce qu’il va se passer quand on lance la comman
 
 On vérifie le logicalId de la commande lancée et si « refresh » on lance les actions
 
-````
+````php
 switch ($this->getLogicalId()) {
     case 'refresh': // LogicalId de la commande rafraîchir que l’on a créé dans la méthode Postsave de la classe vdm .
     // code pour rafraîchir ma commande
@@ -346,20 +346,20 @@ switch ($this->getLogicalId()) {
 
 Maintenant il reste à lancer la fonction randomVdm() . On récupère pour cela , l’eqLogic ( l’équipement) de la commande lancer et on lance la fonction
 
-````
+````php
 $eqlogic = $this->getEqLogic(); // Récupération de l’eqlogic
 $info = $eqlogic-> randomVdm() ; //Lance la fonction et stocke le résultat dans la variable $info
 ````
 
 On met à jour la commande « story » avec la variable $info. On va utiliser la méthode checkAndUpdateCmd de la class eqlogic
 
-````
+````php
 $eqlogic->checkAndUpdateCmd('story', $info);
 ````
 
 Ce qui donne au final
 
-````
+````php
 public function execute($_options = array()) {
     $eqlogic = $this->getEqLogic(); //récupère l'éqlogic de la commande $this
     switch ($this->getLogicalId()) {    //vérifie le logicalid de la commande
@@ -371,7 +371,7 @@ public function execute($_options = array()) {
 }
 ````
 
-Maintenant aller dans un équipement créé et lancer la commande Rafraichir. Puis la commande « Histoire » qui doit être à jour.
+Maintenant aller dans un équipement créé et lancer la commande Rafraîchir. Puis la commande « Histoire » qui doit être à jour.
 
 Sur le Dashboard, les informations apparaissent. Cliquez sur l’icône refresh pour changer l’information
 
@@ -400,7 +400,7 @@ Vu le plugin on va effectuer une mise à jour toutes les heures (soyons fous). O
 
 On va donc ouvrir le fichier vdm.class.php et chercher
 
-````
+````php
 /*
  * Fonction exécutée automatiquement toutes les heures par Jeedom
   public static function cronHourly() {
@@ -411,7 +411,7 @@ On va donc ouvrir le fichier vdm.class.php et chercher
 
 Décommenter le code
 
-````
+````php
 public static function cronHourly() {
 
 }
@@ -421,13 +421,13 @@ Notre fonction est opérationnelle
 
 Maintenant il faut récupérer tous les équipements de notre plugin,
 
-````
+````php
 self::byType('vdm') //array contenant tous les équipements du plugin
 ````
 
 et les trier 1 par 1
 
-````
+````php
 foreach (self::byType('vdm') as $vdm) {
 
 }
@@ -435,7 +435,7 @@ foreach (self::byType('vdm') as $vdm) {
 
 Avant d’effectuer quoique ce soit on vérifie que l’équipement est actif
 
-````
+````php
 if ($vdm->getIsEnable() == 1) {
 
 }
@@ -443,13 +443,13 @@ if ($vdm->getIsEnable() == 1) {
 
 Voila maintenant on recherche la commande « refresh » de l’équipement (eqLogic)
 
-````
+````php
 $cmd = $vdm->getCmd(null, 'refresh');
 ````
 
-Si elle n’existe pas on continue la boucle (foreach) sinon on l’éxécute
+Si elle n’existe pas on continue la boucle (foreach) sinon on l’exécute
 
-````
+````php
 if (!is_object($cmd)) {
 continue;
 }
@@ -458,7 +458,7 @@ $cmd->execCmd();
 
 Ce qui donne au final
 
-````
+````php
 public static function cronHourly () {
     foreach (self::byType('vdm') as $vdm) {//parcours tous les équipements du plugin vdm
         if ($vdm->getIsEnable() == 1) {//vérifie que l'équipement est actif
@@ -484,7 +484,7 @@ Pour la création des commandes nous avons utilisé la méthode postSave(). On v
 
 La manière la plus simple vu qu’il n’y a qu’une commande et qu’elle est créé en postSave
 
-````
+````php
     public function postUpdate() {
         $cmd = $this->getCmd(null, 'refresh'); // On recherche la commande refresh de l’équipement
         if (is_object($cmd)) { //elle existe et on lance la commande
@@ -499,7 +499,7 @@ Mais voici une alternative qui peut s’avérer plus utile dans des cas plus com
 
 Dans la fonction postUpdate() , on lance la function cronHourly() avec l'id de l'équipement
 
-````
+````php
 public function postUpdate() {
     self::cronHourly($this->getId());// lance la fonction cronHourly avec l’id de l’eqLogic
 }
@@ -507,7 +507,7 @@ public function postUpdate() {
 
 Mais dans ce cas on change la fonction cronHourly()
 
-````
+````php
 public static function cronHourly($_eqLogic_id = null) {
     if ($_eqLogic_id == null) { // La fonction n’a pas d’argument donc on recherche tous les équipements du plugin
         $eqLogics = self::byType('vdm', true);
@@ -563,7 +563,7 @@ J’applique le template « cmd.info.string.tile.html » à ma commande.
 
 Pour cela j’ouvre le fichier vdm.class.php , fonction postSave() et j’ajoute le template « tile » pour la commande « story » en appliquant la méthode setTemplate()
 
-````
+````php
 $info = $this->getCmd(null, 'story');
 if (!is_object($info)) {
     $info = new vdmCmd();
@@ -585,7 +585,7 @@ On va donc changer la largeur du widget(équipement => eqLogic) en utilisant la 
 
 Pour cela il suffit d’ajouter
 
-````
+````php
 $this->setDisplay("width","800px");
 ````
 
@@ -593,7 +593,7 @@ Oui , mais !! Car il y a un mais. Essayez d’ajouter ça dans la fonction posts
 
 Maintenant que vous avez bien lu vous savez qu’Il faut utiliser la méthode preSave()
 
-````
+````php
 public function preSave() {
     $this->setDisplay("width","800px");
 }
@@ -606,11 +606,11 @@ Enregistrer un équipement et rafraîchissez le dashboard.
 
 > **IMPORTANT**
 >
->C’est un chapitre important et il faut le comprendre avant de passer à la suite.
+> C’est un chapitre important et il faut le comprendre avant de passer à la suite.
 
 Pour le moment, nous avons donc utiliser 3 classes du core de jeedom : EqLogic, cmd , cron . Aller pour info , On en ajoute une 4eme avec la class plugin dans le fichier vdm.php que vous ouvrez et laissez ouvert car on va l’éditer .
 
-````
+````php
 $plugin = plugin::byId('vdm'); // appelle la classe plugin du core
 ````
 
@@ -618,7 +618,7 @@ Il faut comprendre que tout est fait pour nous faciliter la tâche.
 
 Pour un paramètre/une option interne au plugin , on va utiliser une des méthodes de la class eqLogic du core : setConfiguration() en y ajoutant les paramètres que l’on souhaite. Par exemple :
 
-````
+````php
 $this->setConfiguration("type","mon_type"); // si on veut  définir un paramètre type de valeur mon_type. Comme on a défini la largeur du widget via la méthode setDisplay()
 ````
 
@@ -636,7 +636,7 @@ Et remplacer par
 <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/> //Important de laisser la classe eqLogicAttr
 ````
 
-Enregistrer et aller sur un équipement du plugin que vous avez déjà créé en suivant ce TP (Rafraichir si besoin).
+Enregistrer et aller sur un équipement du plugin que vous avez déjà créé en suivant ce TP (Rafraîchir si besoin).
 
 Dans le champs « Paramètre» d’un équipement, taper « aleatoire » et sauvegarder.
 
@@ -683,9 +683,9 @@ Par
 
 Important : Le texte entre accolades correspond au texte qui sera traduit si vous poussez le plugin sur le market
 
-Pour la suite , on va faire évoluer le plugin en choisissant un type de vdm(aleatoire ou epicees ou tops) que l'on souhaite ainsi qu'un cron personnalisé pour chaque équipement.
+Pour la suite , on va faire évoluer le plugin en choisissant un type de vdm (aleatoire ou epicees ou tops) que l'on souhaite ainsi qu'un cron personnalisé pour chaque équipement.
 
-# Utilisation des options/paramétres
+# Utilisation des options/paramètres
 
 Pour aller plus loin et bien comprendre le chapitre précédent, on va laisser à l’utilisateur de choisir un type de vdm (aleatoire ou epicees ou tops)
 
@@ -721,20 +721,19 @@ Qu’on va remplacer par
 {% endraw %}
 ````
 
-Ici le paramètre « type» prendra la valeur du select choisi soit aleatoire ou epicees ou tops.
-
+Ici le paramètre « type» prendra la valeur du select choisi soit aléatoire ou epicees ou tops.
 
 Maintenant on va tenir compte de notre paramètre dans la fonction randomVdm() dans le fichier vdm.class.php
 
 Chercher
 
-````
+````php
 $url = "http://www.viedemerde.fr/aleatoire";
 ````
 
 Et remplacer par
 
-````
+````php
 $type = $this->getConfiguration("type ");
 if($type == "") { //si le paramètre est vide ou n’existe pas
     $type = "aleatoire"; //on prends le type aleatoire

@@ -11,7 +11,7 @@ Là-dessus, rien de spécial, la fonction toHtml doit retourner le widget en htm
 
 L'important est surtout les 1ères lignes :
 
-````
+````php
 $replace = $this->preToHtml($_version);
 if (!is_array($replace)) {
 	return $replace;
@@ -29,7 +29,7 @@ Le système de template de widget dans le code est en fait exactement le même q
 
 Voici un exemple :
 
-````
+````php
 public static function templateWidget(){
 	$return = array('info' => array('string' => array()));
 	$return['info']['string']['state'] = array(
@@ -50,13 +50,13 @@ Ici, on va créer un nouveau widget basé sur le template "tmplmultistate" (vous
 >
 > Chaque template est pour un type et sous-type donnés, il faut donc bien vérifier que le template que vous voulez utiliser existe pour le type et sous-type
 
-Ensuite, vu que c'est un template avec plusieurs états, il faut définir les icônes en fonction de l'état. Ca se fait dans la partie test du tableau.
+Ensuite, vu que c'est un template avec plusieurs états, il faut définir les icônes en fonction de l'état. Ça se fait dans la partie test du tableau.
 
 Exemple : pour le premier test, on dit si la valeur de la commande vaut 2 alors il faudra remplacer le tag #\_state_# (dans le code html du template) par <i class="icon maison-vacuum6"></i>
 
 Un autre exemple basé sur un autre template pourrait être :
 
-````
+````php
 public static function templateWidget(){
 	$return = array('info' => array('string' => array()));
 	$return['info']['binary']['toto'] = array(
@@ -78,7 +78,7 @@ Ici, je crée un widget toto basé sur le template "tmplicon" en type info et so
 
 Ensuite, pour utiliser votre widget :
 
-````
+````php
 $cmd->setTemplate('dashboard','neato::state');
 $cmd->setTemplate('mobile','neato::state');
 ````
