@@ -1,5 +1,3 @@
-# Évolutions du Core | développeurs de plugin
-
-### Core v4.2
+### Core v4.2 | Développeurs de plugin
 
 **-- rédaction en cours --**

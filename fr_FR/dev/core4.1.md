@@ -1,5 +1,5 @@
-# Évolutions du Core | développeurs de plugin
-
-### Core v4.1
+### Core v4.1 | Développeurs de plugin
 
 **-- rédaction en cours --**
+
+- Liste des objets parents
