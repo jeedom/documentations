@@ -1,5 +1,9 @@
 ## Core v4.0 | Développeurs de plugin
 
+### Deprecated
+
+- Font-awesome 4 n'est plus intégré au Core, remplacé par Font-Awesome 5 [migration](https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4#name-changes).
+
 ### Compatibilité V4 sur le market
 
 La v3 qui sortira en Novembre 2020 aura un module de migration permettant de passer de la V3 à la V4.
@@ -81,7 +85,6 @@ Au final les pages du plugin doivent être cohérentes avec les pages du core ob
 > Remarque :
 >
 > La sidebar n’a pas survécu à la v4 ! Pour la remplacer, un menu contextuel est disponible sur les onglets pour les scénarios, objets, interactions, plugins.
-> Font-Awesome 4 n'est plus intégré au Core, remplacé par Font-Awesome 5.
 
 > Mises à jour :
 >

@@ -10,6 +10,7 @@ kramdown:
   input: GFM
   hard_wrap: false
   parse_block_html: true
+  syntax_highlighter: rouge
 highlighter: rouge
 gems:
 - jekyll-paginate
