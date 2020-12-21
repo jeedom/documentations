@@ -106,6 +106,9 @@ body #div_content{
   scrollbar-color: var(--linkHover-color) transparent !important;
   scrollbar-width: thin;
 }
+a {
+  color: var(--al-success-color) !important;
+}
 button {
   cursor: pointer;
 }
