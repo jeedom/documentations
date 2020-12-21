@@ -386,6 +386,9 @@ pre{
   white-space: -o-pre-wrap; /* Opera 7 */
   word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
+pre.highlight {
+   padding: 5px;
+}
 
 .gsc-search-button{
   position:relative !important;
