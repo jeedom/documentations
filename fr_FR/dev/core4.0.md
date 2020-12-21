@@ -1,6 +1,6 @@
-### Core v4.0 | Développeurs de plugin
+## Core v4.0 | Développeurs de plugin
 
-#### Compatibilité V4 sur le market
+### Compatibilité V4 sur le market
 
 La v3 qui sortira en Novembre 2020 aura un module de migration permettant de passer de la V3 à la V4.
 
@@ -28,19 +28,19 @@ Vous pouvez tester depuis un scénario / bloc Code si vos plugins ont bien la co
   foreach ($pluginsArray as $plugin) {
     if ($plugin['author'] == $author) {
       $countPlugins++;
-  	if ($plugin['hardwareCompatibility']['v4'] != '1') {
-        $countIncompatibles++;
-  	  $scenario->setLog('Le plugin ' . $plugin['name'] . ' n\'est pas indiqué compatible V4');
-  	}
+    if ($plugin['hardwareCompatibility']['v4'] != '1') {
+      $countIncompatibles++;
+      $scenario->setLog('Le plugin ' . $plugin['name'] . ' n\'est pas indiqué compatible V4');
+    }
     }
   }
   if ($countPlugins > 0) {
     if($countIncompatibles == 1) {
-    	$scenario->setLog($author . ' : 1 plugin potentiellement incompatible Jeedom V4 sur ' . $countPlugins . ' plugin(s) réalisé(s)');
+      $scenario->setLog($author . ' : 1 plugin potentiellement incompatible Jeedom V4 sur ' . $countPlugins . ' plugin(s) réalisé(s)');
     } else if ($countIncompatibles > 1) {
-  	$scenario->setLog($author . ' : ' . $countIncompatibles . ' plugins potentiellements incompatibles Jeedom V4 sur ' . $countPlugins . ' plugins réalisés');
+    $scenario->setLog($author . ' : ' . $countIncompatibles . ' plugins potentiellements incompatibles Jeedom V4 sur ' . $countPlugins . ' plugins réalisés');
     } else {
-    	$scenario->setLog('Les ' . $countPlugins . ' plugins développés par ' . $author . ' sont tous compatibles Jeedom V4. Félicitations !');
+      $scenario->setLog('Les ' . $countPlugins . ' plugins développés par ' . $author . ' sont tous compatibles Jeedom V4. Félicitations !');
     }
   } else {
     $scenario->setLog('Aucun plugin trouvé pour ' . $author);
@@ -49,18 +49,18 @@ Vous pouvez tester depuis un scénario / bloc Code si vos plugins ont bien la co
 
 </details>
 
-#### Adaptation des plugins pour le Core v4
+### Adaptation des plugins pour le Core v4
 
 - Nettoyer au maximum les inline style (cf [plugin template](https://github.com/jeedom/plugin-template/blob/master/desktop/php/template.php)).
 - span affichage de commande : class `state`
 - Bouton de commande : a class `action`
 - Sur les input-group:
-	- class `roundedLeft` sur le premier élément (a input, button etc)
+  - class `roundedLeft` sur le premier élément (a input, button etc)
     - class `roundedRight` sur le dernier élément (a input, button etc)
 - Sur la div eqLogicThumbnailContainer:
     - Supprimer tous les styles!
     - Sur les divs parents, ajouter une class de couleur:
-    	- couleurs de logo: `logoPrimary` et `logoSecondary`
+      - couleurs de logo: `logoPrimary` et `logoSecondary`
         - vert : `success`
         - bleu: `info`
         - orange: `warning`
@@ -96,7 +96,7 @@ Au final les pages du plugin doivent être cohérentes avec les pages du core ob
 > Sur les pages de scénario, plugins etc, le bouton ‘Supprimer’ est passé à droite ! C’est le plus dangereux donc le plus loin.
 
 
-#### Nettoyeur de fichier
+### Nettoyeur de fichier
 
 La v4 et la nouvelle v3 ont un nettoyage automatique des fichiers non présents sur votre mise à jour de plugin automatique.
 
@@ -110,18 +110,18 @@ Le core efface automatiquement les fichiers de plus de 7 jours qui n’ont pas e
 Si vous souhaitez faire une modification avant le nettoyage vous pouvez utiliser `pre_install.php` (dans plugin_info).
 Voir [plugin template](https://github.com/jeedom/plugin-template/blob/master/plugin_info/pre_install.php)
 
-#### GitHub liaison market
+### GitHub liaison market
 
 Changement de nom github pour les accès à vos repos privés.
 
 Il faut maintenant utiliser jeedom-market au lieu de celui de zoic.
 
-#### La documentation
+### La documentation
 
 Le site de documentation a également changé d’aspect.
 
 Désormais des liens renvoient directement vers vos documentations.
 
-#### La traduction
+### La traduction
 
 Nous sommes en cours de développement d’un nouvel outil de traduction. Nous le testons actuellement en interne et nous reviendrons vers vous prochainement afin de vous proposer d’intégrer vos plugins dedans.

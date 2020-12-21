@@ -169,10 +169,9 @@ var docMenu = [
     pt_PT : "Desenvolva no Jeedom",
     submenu:[
       {link:"/#LANG#/contribute/",fr_FR:"Contribuer",en_US:"Contribute",es_ES:"Contribuir",de_DE:"Bijdragen",pt_PT:"Contribuir"},
-      {link:"/#LANG#/dev/tutorial_plugin",fr_FR:"Présentation",en_US:"Presentation",es_ES:"Présentation",de_DE:"Einführung",pt_PT:""},
+      {link:"/#LANG#/dev/",fr_FR:"Développez pour Jeedom",en_US:"Develop for Jeedom",es_ES:"Desarrollar para Jeedom",de_DE:"Entwickle für Jeedom",pt_PT:""},
       {link:"/#LANG#/core/4.0/api_http",fr_FR:"Api HTTP",en_US:"Api HTTP",es_ES:"Api HTTP",de_DE:"Api HTTP",pt_PT:"Api HTTP"},
       {link:"/#LANG#/core/4.0/jsonrpc_api",fr_FR:"API JsonRPC",en_US:"API JsonRPC",es_ES:"API JsonRPC",de_DE:"API JsonRPC",pt_PT:"API JsonRPC"},
-      {link:"/#LANG#/dev/",fr_FR:"Développez pour Jeedom",en_US:"Develop for Jeedom",es_ES:"Desarrollar para Jeedom",de_DE:"Entwickle für Jeedom",pt_PT:""},
       {link:"/dev/phpdoc/#VERSION#",fr_FR:"PhpDoc",en_US:"PhpDoc",es_ES:"PhpDoc",de_DE:"PhpDoc",pt_PT:"PhpDoc"},
     ]
   },{
