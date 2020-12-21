@@ -1,12 +1,14 @@
-## Dokumentation für Plugin-Entwickler
+## Plugin-Entwicklung
 
 #### Allgemeine Dokumentation
 
+- [Präsentation](/de_DE/dev/tutorial_plugin)
+
 - [Plugin-Symbol](/de_DE/dev/Icone_de_plugin)
 - [Info.json Struktur](/de_DE/dev/structure_info_json)
-- [Plugin-Dokumentation](/de_DE/dev/documentation_plugin)
-- [Plugin-Veröffentlichung](/de_DE/dev/publication_plugin)
-- [Plugin Widget](/de_DE/dev/widget_plugin)
+- [Dokumentation eines Plugins](/de_DE/dev/documentation_plugin)
+- [Plugin veröffentlichen](/de_DE/dev/publication_plugin)
+- [Widget eines Plugins](/de_DE/dev/widget_plugin)
 - [Plugin Vorlage](/de_DE/dev/plugin_template)
 
 

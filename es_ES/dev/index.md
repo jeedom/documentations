@@ -1,12 +1,14 @@
-## Documentación para desarrolladores de complementos
+## Desarrollo de complementos
 
 #### Documentación general
 
+- [Presentación](/es_ES/dev/tutorial_plugin)
+
 - [Icono de complemento](/es_ES/dev/Icone_de_plugin)
 - [Estructura Info.json](/es_ES/dev/structure_info_json)
-- [Documentación del complemento](/es_ES/dev/documentation_plugin)
-- [Publicación de complementos](/es_ES/dev/publication_plugin)
-- [Widget de complemento](/es_ES/dev/widget_plugin)
+- [Documentación de un complemento](/es_ES/dev/documentation_plugin)
+- [Publicar un complemento](/es_ES/dev/publication_plugin)
+- [Widget de un complemento](/es_ES/dev/widget_plugin)
 - [Plantilla de complemento](/es_ES/dev/plugin_template)
 
 
