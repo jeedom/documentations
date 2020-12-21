@@ -508,3 +508,8 @@ pre.highlight {
 details div {
   margin-left: 20px
 }
+
+code {
+  background: var(--sc-form-color);
+  color: var(--scBlocSep);
+}
