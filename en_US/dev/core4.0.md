@@ -1,6 +1,10 @@
-### Core v4.0 | Plugin developers
+## Core v4.0 | Plugin developers
 
-#### V4 compatibility on the market
+### Deprecated
+
+- Font-Awesome 4 is no longer integrated into the Core, replaced by Font-Awesome 5 [Migration](https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4#name-changes).
+
+### V4 compatibility on the market
 
 The v3 which will be released in November 2020 will have a migration module allowing to go from V3 to V4.
 
@@ -28,19 +32,19 @@ You can test from a scenario / Code block if your plugins have the compatibility
   foreach ($ pluginsArray as $ plugin) {
     if ($ plugin ['author'] == $ author) {
       $countPlugins++;
-  	if ($ plugin ['hardwareCompatibility'] ['v4'] != '1') {
-        $countIncompatibles++;
-  	  $scenario->setLog('Le plugin ' . $plugin['name'] . ' n\'est pas indiqué compatible V4');
-  	}
+    if ($ plugin ['hardwareCompatibility'] ['v4'] != '1') {
+      $countIncompatibles++;
+      $scenario->setLog('Le plugin ' . $plugin['name'] . ' n\'est pas indiqué compatible V4');
+    }
     }
   }
   if ($ countPlugins> 0) {
     if ($ countIncompatible == 1) {
-    	$scenario->setLog($author . ' : 1 plugin potentiellement incompatible Jeedom V4 sur ' . $countPlugins . ' plugin(s) réalisé(s)');
+      $scenario->setLog($author . ' : 1 plugin potentiellement incompatible Jeedom V4 sur ' . $countPlugins . ' plugin(s) réalisé(s)');
     } else if ($ countIncompatible> 1) {
-  	$scenario->setLog($author . ' : ' . $countIncompatibles . ' plugins potentiellements incompatibles Jeedom V4 sur ' . $countPlugins . ' plugins réalisés');
+    $scenario->setLog($author . ' : ' . $countIncompatibles . ' plugins potentiellements incompatibles Jeedom V4 sur ' . $countPlugins . ' plugins réalisés');
     } else {
-    	$scenario->setLog('Les ' . $countPlugins . ' plugins développés par ' . $author . ' sont tous compatibles Jeedom V4. Félicitations !');
+      $scenario->setLog('Les ' . $countPlugins . ' plugins développés par ' . $author . ' sont tous compatibles Jeedom V4. Félicitations !');
     }
   } else {
     $scenario->setLog('Aucun plugin trouvé pour ' . $author);
@@ -49,18 +53,18 @@ You can test from a scenario / Code block if your plugins have the compatibility
 
 </details>
 
-#### Adaptation of plugins for Core v4
+### Adaptation of plugins for Core v4
 
 - Clean the inline style as much as possible (cf [Plugin template](https://github.com/jeedom/plugin-template/blob/master/desktop/php/template.php)).
 - span command display : class `state`
 - Control button : a class `action`
 - On the input-group:
-	- class `roundedLeft` on the first element (a input, button etc)
+  - class `roundedLeft` on the first element (a input, button etc)
     - class `roundedRight` on the last element (a input, button etc)
 - On the eqLogicThumbnailContainer div:
     - Remove all styles!
     - On the parent divs, add a color class:
-    	- logo colors: `logoPrimary` and` logoSecondary`
+      - logo colors: `logoPrimary` and` logoSecondary`
         - Green : `success`
         - bleu: `info`
         - orange: `warning`
@@ -81,7 +85,6 @@ In the end, the plugin pages must be consistent with the pages of the core objec
 > Note :
 >
 > The sidebar did not survive v4 ! To replace it, a context menu is available on the tabs for scenarios, objects, interactions, plugins.
-> Font-Awesome 4 is no longer integrated into the Core, replaced by Font-Awesome 5.
 
 > Updates :
 >
@@ -96,7 +99,7 @@ In the end, the plugin pages must be consistent with the pages of the core objec
 > Sur les pages de scénario, plugins etc, le bouton ‘Supprimer' est passé à droite ! It is the most dangerous therefore the farthest.
 
 
-#### File Cleaner
+### File Cleaner
 
 Both v4 and new v3 have automatic cleaning of files not present on your automatic plugin update.
 
@@ -110,18 +113,18 @@ The core automatically deletes files older than 7 days that have not been update
 If you want to make a modification before cleaning you can use `pre_install.php` (in plugin_info).
 View [Plugin template](https://github.com/jeedom/plugin-template/blob/master/plugin_info/pre_install.php)
 
-#### GitHub link market
+### GitHub link market
 
 Change of github name for access to your private rests.
 
 You must now use jeedom-market instead of zoic's.
 
-#### The documentation
+### The documentation
 
 The documentation site has also changed its appearance.
 
 Now links direct to your documentations.
 
-#### The translation
+### The translation
 
 We are in the process of developing a new translation tool. We are currently testing it internally and we will get back to you soon to suggest that you integrate your plugins into it.

@@ -1,6 +1,10 @@
-### Core v4.0 | Desarrolladores de complementos
+## Core v4.0 | Desarrolladores de complementos
 
-#### Compatibilidad V4 en el mercado
+### Deprecated
+
+- Font-Awesome 4 ya no está integrado en el Core, reemplazado por Font-Awesome 5 [Migración](https:/ // /fontawesome.com/ /how-to-use/ /on-the-web/ /setup/ /upgrading-from-version-4#name-changes).
+
+### Compatibilidad V4 en el mercado
 
 La v3 que se lanzará en noviembre de 2020 tendrá un módulo de migración que permitirá pasar de V3 a V4.
 
@@ -28,19 +32,19 @@ Puede probar desde un escenario / bloque de código si sus complementos tienen l
   foreach ($ pluginsArray como $ plugin) {
     if ($ plugin ['autor'] == $ autor) {
       $countPlugins++;
-  	if ($ plugin ['hardwareCompatibility'] ['v4'] != '1') {
-        $countIncompatibles++;
-  	  $scenario->setLog('Le plugin ' . $plugin['name'] . ' n\'est pas indiqué compatible V4');
-  	}
+    if ($ plugin ['hardwareCompatibility'] ['v4'] != '1') {
+      $countIncompatibles++;
+      $scenario->setLog('Le plugin ' . $plugin['name'] . ' n\'est pas indiqué compatible V4');
+    }
     }
   }
   si ($ countPlugins> 0) {
     si ($ countIncompatible == 1) {
-    	$scenario->setLog($author . ' : 1 plugin potentiellement incompatible Jeedom V4 sur ' . $countPlugins . ' plugin(s) réalisé(s)');
+      $scenario->setLog($author . ' : 1 plugin potentiellement incompatible Jeedom V4 sur ' . $countPlugins . ' plugin(s) réalisé(s)');
     } else if ($ countIncompatible> 1) {
-  	$scenario->setLog($author . ' : ' . $countIncompatibles . ' plugins potentiellements incompatibles Jeedom V4 sur ' . $countPlugins . ' plugins réalisés');
+    $scenario->setLog($author . ' : ' . $countIncompatibles . ' plugins potentiellements incompatibles Jeedom V4 sur ' . $countPlugins . ' plugins réalisés');
     } otro {
-    	$scenario->setLog('Les ' . $countPlugins . ' plugins développés par ' . $author . ' sont tous compatibles Jeedom V4. Félicitations !');
+      $scenario->setLog('Les ' . $countPlugins . ' plugins développés par ' . $author . ' sont tous compatibles Jeedom V4. Félicitations !');
     }
   } otro {
     $scenario->setLog('Aucun plugin trouvé pour ' . $author);
@@ -49,18 +53,18 @@ Puede probar desde un escenario / bloque de código si sus complementos tienen l
 
 </ /details>
 
-#### Adaptación de complementos para Core v4
+### Adaptación de complementos para Core v4
 
 - Limpie el estilo en línea tanto como sea posible (cf [Plantilla de complemento](https:/ // /github.com/ /jeedom/ /plugin-template/ /blob/ /master/ /desktop/ /php/ /template.php)).
 - pantalla de comando span : clase `estado`
 - Botón de control : una acción de clase
 - En el grupo de entrada:
-	- class `roundLeft` en el primer elemento (una entrada, un botón, etc)
+  - class `roundLeft` en el primer elemento (una entrada, un botón, etc)
     - class `roundRight` en el último elemento (una entrada, un botón, etc)
 - En el div eqLogicThumbnailContainer:
     - Eliminar todos los estilos!
     - En los divs principales, agregue una clase de color:
-    	- colores del logo: `logoPrimary` y` logoSecondary`
+      - colores del logo: `logoPrimary` y` logoSecondary`
         - Verde : `success`
         - bleu: `info`
         - orange: `warning`
@@ -81,7 +85,6 @@ Al final, las páginas del complemento deben ser coherentes con las páginas de 
 > Observación :
 >
 > La barra lateral no sobrevivió a la v4 ! Para reemplazarlo, un menú contextual está disponible en las pestañas para escenarios, objetos, interacciones, complementos.
-> Font-Awesome 4 ya no está integrado en el Core, reemplazado por Font-Awesome 5.
 
 > Actualizaciones :
 >
@@ -96,7 +99,7 @@ Al final, las páginas del complemento deben ser coherentes con las páginas de 
 > Sur les pages de scénario, plugins etc, le bouton ‘Supprimer' est passé à droite ! Es el más peligroso por lo tanto el más lejano.
 
 
-#### Limpiador de archivos
+### Limpiador de archivos
 
 Tanto la v4 como la nueva v3 tienen limpieza automática de archivos que no están presentes en la actualización automática de su complemento.
 
@@ -110,18 +113,18 @@ El núcleo elimina automáticamente los archivos de más de 7 días que no se ha
 Si desea hacer una modificación antes de limpiar, puede usar `pre_install.php` (en plugin_info).
 Ver [Plantilla de complemento](https:/ // /github.com/ /jeedom/ /plugin-template/ /blob/ /master/ /plugin_info/ /pre_install.php)
 
-#### Mercado de enlaces de GitHub
+### Mercado de enlaces de GitHub
 
 Cambio de nombre de github para acceder a sus silencios privados.
 
 Ahora debes usar jeedom-market en lugar de zoic's.
 
-#### La documentación
+### La documentación
 
 El sitio de documentación también ha cambiado de apariencia.
 
 Ahora enlaces directos a sus documentaciones.
 
-#### La traducción
+### La traducción
 
 Estamos en proceso de desarrollar una nueva herramienta de traducción. Actualmente lo estamos probando internamente y nos comunicaremos con usted pronto para sugerirle que integre sus complementos en él.
