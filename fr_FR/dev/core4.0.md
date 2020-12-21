@@ -16,10 +16,9 @@ Exemple: `"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"],`
 
 Vous pouvez tester depuis un scénario / bloc Code si vos plugins ont bien la compatibilité renseignée:
 
-<details>
-<summary>scénario / bloc Code</summary>
+<details><summary>scénario / bloc Code</summary>
 
-```php
+~~~ php
 /* Auteur des plugins à contrôler */
 $author = 'Jeedom SAS';
 /**********************************/
@@ -47,7 +46,7 @@ if ($countPlugins > 0) {
 } else {
   $scenario->setLog('Aucun plugin trouvé pour ' . $author);
 }
-```
+~~~
 
 </details>
 
