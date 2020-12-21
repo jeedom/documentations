@@ -96,7 +96,7 @@ It's still better when it's automatic. To do this, here are the steps to follow 
 -   Create a file to write the script (its location is free) : ``nano /bin/certletsencryptrenew.sh``
 -   Enter the lines below in the file created previously. Copy / paste works via putty. This script checks the expiration of the certificate and renews it automatically if the expiration date is less than 30 days. You must replace the domain parameter.com by your value :
 ````
-    curl -L -o /usr/local/sbin/le-renew http://do.co/le-renew
+    curl -L -o /usr/local/sbin/le-renew https://raw.githubusercontent.com/frixo3190/le-renew/main/le-renew
     chmod +x /usr/local/sbin/le-renew
     le-renew domaine.com
 ````

@@ -96,7 +96,7 @@ Todavía es mejor cuando es automático. Para hacer esto, estos son los pasos a 
 -   Cree un archivo para escribir el script (su ubicación es gratuita) : ``nano /bin/certletsencryptrenew.sh``
 -   Ingrese las líneas a continuación en el archivo creado previamente. Copiar / pegar funciona a través de masilla. Este script comprueba la caducidad del certificado y lo renueva automáticamente si la fecha de caducidad es inferior a 30 días. Debe reemplazar el parámetro de dominio.com por tu valor :
 ````
-    curl -L -o /usr/local/sbin/le-renew http://do.co/le-renew
+    curl -L -o /usr/local/sbin/le-renew https://raw.githubusercontent.com/frixo3190/le-renew/main/le-renew
     chmod +x /usr/local/sbin/le-renew
     le-renew domaine.com
 ````

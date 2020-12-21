@@ -96,7 +96,7 @@ Es ist immer noch besser, wenn es automatisch ist. Gehen Sie dazu wie folgt vor 
 -   Erstellen Sie eine Datei, um das Skript zu schreiben (der Speicherort ist frei) : ``nano /bin/certletsencryptrenew.sh``
 -   Geben Sie die folgenden Zeilen in die zuvor erstellte Datei ein. Kopieren / Einfügen funktioniert über Kitt. Dieses Skript überprüft den Ablauf des Zertifikats und erneuert es automatisch, wenn das Ablaufdatum weniger als 30 Tage beträgt. Sie müssen den Domänenparameter ersetzen.com nach Ihrem Wert :
 ````
-    curl -L -o /usr/local/sbin/le-renew http://do.co/le-renew
+    curl -L -o /usr/local/sbin/le-renew https://raw.githubusercontent.com/frixo3190/le-renew/main/le-renew
     chmod +x /usr/local/sbin/le-renew
     le-renew domaine.com
 ````
