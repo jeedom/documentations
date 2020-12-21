@@ -1,3 +1,4 @@
 ### Core v4.2 | Plugin-Entwickler
 
-**-- Entwurf in Bearbeitung --**
+
+*Ausstehend für Alpha 4.2 veröffentlicht*
