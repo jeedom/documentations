@@ -1,6 +1,6 @@
-# Dokumentation für Plugin-Entwickler
+## Dokumentation für Plugin-Entwickler
 
-### Allgemeine Dokumentation
+#### Allgemeine Dokumentation
 
 - [Plugin-Symbol](/de_DE/dev/Icone_de_plugin)
 - [Info.json Struktur](/de_DE/dev/structure_info_json)
@@ -10,7 +10,7 @@
 - [Plugin Vorlage](/de_DE/dev/plugin_template)
 
 
-### Kernentwicklungen und Plugin-Anpassungen
+#### Kernentwicklungen und Plugin-Anpassungen
 
 - [Core v4.2](/de_DE/dev/core4.2)
 - [Core v4.1](/de_DE/dev/core4.1)

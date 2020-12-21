@@ -1,5 +1,3 @@
-# Evoluciones centrales | desarrolladores de complementos
-
-### Core v4.2
+### Core v4.2 | Desarrolladores de complementos
 
 **-- redacción en curso --**

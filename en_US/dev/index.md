@@ -1,6 +1,6 @@
-# Documentation for plugin developers
+## Documentation for plugin developers
 
-### General documentation
+#### General documentation
 
 - [Plugin icon](/en_US/dev/Icone_de_plugin)
 - [Info.json structure](/en_US/dev/structure_info_json)
@@ -10,7 +10,7 @@
 - [Plugin template](/en_US/dev/plugin_template)
 
 
-### Core evolutions and plugins adaptations
+#### Core evolutions and plugins adaptations
 
 - [Core v4.2](/en_US/dev/core4.2)
 - [Core v4.1](/en_US/dev/core4.1)

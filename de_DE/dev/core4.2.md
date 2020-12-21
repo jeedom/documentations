@@ -1,5 +1,3 @@
-# Kernentwicklungen | Plugin-Entwickler
-
-### Core v4.2
+### Core v4.2 | Plugin-Entwickler
 
 **-- Entwurf in Bearbeitung --**

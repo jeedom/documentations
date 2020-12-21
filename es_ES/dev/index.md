@@ -1,6 +1,6 @@
-# Documentación para desarrolladores de complementos
+## Documentación para desarrolladores de complementos
 
-### Documentación general
+#### Documentación general
 
 - [Icono de complemento](/es_ES/dev/Icone_de_plugin)
 - [Estructura Info.json](/es_ES/dev/structure_info_json)
@@ -10,7 +10,7 @@
 - [Plantilla de complemento](/es_ES/dev/plugin_template)
 
 
-### Evoluciones principales y adaptaciones de complementos
+#### Evoluciones principales y adaptaciones de complementos
 
 - [Core v4.2](/es_ES/dev/core4.2)
 - [Core v4.1](/es_ES/dev/core4.1)
