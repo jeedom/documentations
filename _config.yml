@@ -4,11 +4,12 @@ baseurl: "/"
 sass:
   sass_dir: css
   style: compressed
-markdown: kramdown
 permalink: /404.html
+markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+  parse_block_html: true
 highlighter: rouge
 gems:
 - jekyll-paginate
