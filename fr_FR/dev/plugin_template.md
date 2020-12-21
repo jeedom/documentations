@@ -324,7 +324,7 @@ D’autres fonctions javascript peuvent être utilisées :
 - ``printEqLogic`` qui prend en paramètre tout l’objet de l’équipement (utile en cas de traitement de données avant de les restituer). Elle est appelée lors de l’affichage des données de l’équipement
 - ``saveEqLogic`` qui prend en paramètre l’objet équipement qui va être sauvegardé en base de données (utile si vous devez faire du traitement avant sauvegarde) Dernière chose, pour les fichiers JS, voici comment les inclure de manière propre sur votre page php :
 
-````
+````php
 <?php include_file('desktop', 'weather', 'js', 'weather'); ?>
 ````
 
@@ -334,7 +334,7 @@ Le premier argument donne le dossier dans lequel le trouver (attention c’est l
 
 Ce dossier contient vos fichiers CSS (il ne devrait pas être trop utilisé) , voici comment les inclure sur votre page :
 
-````
+````php
 <?php include_file('desktop', 'weather', 'css', 'weather'); ?>
 ````
 

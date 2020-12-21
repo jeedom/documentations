@@ -121,13 +121,12 @@ Je remplace ``color:#94ca02;"`` par ``color:#00A9EC;"``
 
 On remarque aussi que les textes ne sont pas alignés donc on rectifie le style de la configuration (propriété top)
 
-````
+````html
 {% raw %}<span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>{% endraw %}
 ````
-
 par
 
-````
+````html
 {% raw %}<span style="font-size : 1.1em;position:relative;top : 23px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Configuration}}</span>{% endraw %}
 ````
 
@@ -245,7 +244,7 @@ Je souhaite ajouter les options Affichage et historiser pour chaque commande.
 
 J’édite le code html du tableau dans le fichier desktop.php en ajoutant une colonne ..
 
-````
+````html
 {% raw %}<th>{{Nom}}</th><th>{{Type}}</th><th>{{Configuration}}</th><th>{{Action}}</th>{% endraw %}
 ````
 
@@ -275,13 +274,13 @@ On ajoute les informations souhaitées.
 
 Je laisse le bouton pour créer une commande mais je souhaite qu’il soit à gauche.
 
-````
+````html
 {% raw %}<a class="btn btn-success btn-sm cmdAction pull-right" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>{% endraw %}
 ````
 
 Je change la class pull-right en pull-left
 
-````
+````html
 {% raw %}<a class="btn btn-success btn-sm cmdAction pull-left" data-action="add" style="margin-top:5px;"><i class="fa fa-plus-circle"></i> {{Commandes}}</a><br/><br/>{% endraw %}
 ````
 
@@ -626,13 +625,13 @@ Pour laisser le choix à l’utilisateur , on retourne sur le fichier desktop.ph
 
 Chercher
 
-````
+````html
 <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="city" placeholder="param1"/>
 ````
 
 Et remplacer par
 
-````
+````html
 <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/> //Important de laisser la classe eqLogicAttr
 ````
 
@@ -647,17 +646,17 @@ Parfait le paramètre est sauvegardé.
 
 C’est simple,non? . C’est pourquoi il ne faut surtout pas toucher à cette ligne de code comme indiqué dans le premier menu « test » . C’est lui qui fait tout le travail
 
-````
+````php
 <?php include_file('core', 'plugin.template', 'js');?>//Chargement du fichier core/js/plugin.template.js (en partant de la racine du site)
 ````
 
 Si vous regardez de plus près le fichier desktop.php il y a
 
-````
+````html
 <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" /> // retourne l’id(unique) de l’eqLogic(équipement) . Qu’on va pouvoir récupérer via $this->getId() ;
 ````
 
-````
+````html
 {% raw %}
 <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement}}"/>// retourne le nom de l’eqLogic(équipement) . Qu’on va pouvoir récupérer via $this->getName() ;
 {% endraw %}
@@ -667,7 +666,7 @@ Etc…
 
 Si vous avez bien assimilé tout ça on va pouvoir passer à la suite. Mais avant on va changer dans le fichier desktop.php
 
-````
+````html
 {% raw %}
 <label class="col-sm-3 control-label">{{Paramètre}}</label>
 {% endraw %}
@@ -675,7 +674,7 @@ Si vous avez bien assimilé tout ça on va pouvoir passer à la suite. Mais avan
 
 Par
 
-````
+````html
 {% raw %}
 <label class="col-sm-3 control-label">{{Type de vdm}}</label>
 {% endraw %}
@@ -693,7 +692,7 @@ On pourrait le laisser taper dans l’input « Type de vdm » : aleatoire ou epi
 
 Si vous avez tout suivi ,vous devriez avoir dans le fichier desktop.php
 
-````
+````html
 {% raw %}
  <div class="form-group">
   <label class="col-sm-3 control-label">{{Type de vdm}}</label>
@@ -706,7 +705,7 @@ Si vous avez tout suivi ,vous devriez avoir dans le fichier desktop.php
 
 Qu’on va remplacer par
 
-````
+````html
 {% raw %}
 <div class="form-group">
     <label class="col-sm-3 control-label" >{{ Type de vdm }}</label>
