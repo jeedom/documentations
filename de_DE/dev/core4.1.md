@@ -1,5 +1,14 @@
 ## Core v4.1 | Plugin-Entwickler
 
+### Suppression
+
+- Die Funktionen `network-> getInterfaceIp (), network-> getInterfaceMac ()` und` network-> getInterfaces () `wurden durch` network-> getInterfacesInfo () `ersetzt.
+
+### Changements
+
+- Die Funktion "Szenario-> getHumanName ()" der PHP-Szenario-Klasse gibt nicht mehr "[Objekt] [Gruppe] [Name]" zurück, sondern "[Gruppe] [Objekt] [Name]".
+- Die Funktion `Szenario-> byString ()` muss nun mit der Struktur `[Gruppe] [Objekt] [Name]` aufgerufen werden.
+
 ### Optionale Änderungen
 
 #### Liste der übergeordneten Objekte

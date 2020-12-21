@@ -1,5 +1,14 @@
 ## Core v4.1 | Desarrolladores de complementos
 
+### Suppression
+
+- Las funciones `network-> getInterfaceIp (), network-> getInterfaceMac ()` y `network-> getInterfaces ()` han sido reemplazadas por `network-> getInterfacesInfo ()`.
+
+### Changements
+
+- La función `escenario-> getHumanName ()` de la clase de escenario php ya no devuelve `[objeto] [grupo] [nombre]` sino `[grupo] [objeto] [nombre]`.
+- La función `escenario-> byString ()` ahora debe llamarse con la estructura `[grupo] [objeto] [nombre]`.
+
 ### Modificaciones opcionales
 
 #### Lista de objetos principales

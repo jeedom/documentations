@@ -112,6 +112,11 @@
     "dev\/core4.1.md": {
         "Développeurs de plugin": "Développeurs de plugin",
         "Core v4": "Core v4",
+        "Suppression": "Suppression",
+        "Les fonctions `network->getInterfaceIp()` `network->getInterfaceMac()` et `network->getInterfaces()` ont été remplacées par `network->getInterfacesInfo()`": "Les fonctions `network->getInterfaceIp()` `network->getInterfaceMac()` et `network->getInterfaces()` ont été remplacées par `network->getInterfacesInfo()`",
+        "Changements": "Changements",
+        "La fonction `scenario->getHumanName()` de la class php scenario ne renvoit plus `[object][group][name]` mais `[group][object][name]`": "La fonction `scenario->getHumanName()` de la class php scenario ne renvoit plus `[object][group][name]` mais `[group][object][name]`",
+        "La fonction `scenario->byString()` doit maintenant être appellée avec la structure `[group][object][name]`": "La fonction `scenario->byString()` doit maintenant être appellée avec la structure `[group][object][name]`",
         "Modifications optionnelles": "Modifications optionnelles",
         "Liste des objets parents": "Liste des objets parents",
         "En v4": "En v4",
