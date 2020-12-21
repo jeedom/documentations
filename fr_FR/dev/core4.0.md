@@ -1,8 +1,5 @@
 ### Core v4.0 | Développeurs de plugin
 
-
-**-- rédaction en cours --**
-
 #### Compatibilité V4 sur le market
 
 La v3 qui sortira en Novembre 2020 aura un module de migration permettant de passer de la V3 à la V4.
@@ -12,11 +9,11 @@ Lors de la phase de migration des v3 vers la v4, les plugins sans compatibilité
 
 Si votre plugin est compatible v4, indiquez le dans le info.json de cotre plugin.
 
-Exemple: `"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"],`
+Exemple **info.json**: `"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"],`
 
 Vous pouvez tester depuis un scénario / bloc Code si vos plugins ont bien la compatibilité renseignée:
 
-<details><summary>scénario / bloc Code</summary>
+<details><summary markdown="span">scénario / bloc Code</summary>
 
 ~~~ php
 /* Auteur des plugins à contrôler */
