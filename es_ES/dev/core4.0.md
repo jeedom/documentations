@@ -2,7 +2,7 @@
 
 ### Deprecated
 
-- Font-Awesome 4 ya no está integrado en el Core, reemplazado por Font-Awesome 5 [Migración](https:/ // /fontawesome.com/ /how-to-use/ /on-the-web/ /setup/ /upgrading-from-version-4#name-changes).
+- Font-Awesome 4 ya no está integrado en el Core, reemplazado por Font-Awesome 5 [Migración](https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4#name-changes).
 
 ### Compatibilidad V4 en el mercado
 
@@ -19,13 +19,13 @@ Puede probar desde un escenario / bloque de código si sus complementos tienen l
 
 <details>
 
-  <summary markdown="span">scénario / / bloc Code</ /summary>
+  <summary markdown="span">scénario / bloc Code</summary>
 
   ~~~ php
   {% raw %}
-  / /* Autor de los complementos a verificar */ /
+  // Autor de los complementos a comprobar (distingue entre mayúsculas y minúsculas)
   $author = 'Jeedom SAS';
-  / /**********************************/ /
+
   $plugins = repo_market::byFilter(['author' => $author]);
   $pluginsArray = utils::o2a($plugins);
   $countPlugins = 0;
@@ -34,30 +34,28 @@ Puede probar desde un escenario / bloque de código si sus complementos tienen l
     if ($ plugin ['autor'] == $ autor) {
       $countPlugins++;
     if ($ plugin ['hardwareCompatibility'] ['v4'] != '1') {
-      $countIncompatibles++;
-      $scenario->setLog('Le plugin ' . $plugin['name'] . ' n\'est pas indiqué compatible V4');
+        $countIncompatibles++;
+      $scenario->setLog('Plugin ' . $plugin['name'] . ' does not have v4 compatibility tag.');
     }
     }
   }
   si ($ countPlugins> 0) {
-    si ($ countIncompatible == 1) {
-      $scenario->setLog($author . ' : 1 plugin potentiellement incompatible Jeedom V4 sur ' . $countPlugins . ' plugin(s) réalisé(s)');
-    } else if ($ countIncompatible> 1) {
-    $scenario->setLog($author . ' : ' . $countIncompatibles . ' plugins potentiellements incompatibles Jeedom V4 sur ' . $countPlugins . ' plugins réalisés');
+    si ($ countIncompatible> 0) {
+      $scenario->setLog($author . ' : ' . $countIncompatibles . ' potentially incompatible Jeedom V4 plugin on ' . $countPlugins . ' checked');
     } otro {
-      $scenario->setLog('Les ' . $countPlugins . ' plugins développés par ' . $author . ' sont tous compatibles Jeedom V4. Félicitations !');
+      $scenario->setLog('All ' . $countPlugins . ' plugin developed by ' . $author . ' are Jeedom V4 compatible. Congratulations!');
     }
   } otro {
-    $scenario->setLog('Aucun plugin trouvé pour ' . $author);
+    $scenario->setLog('No plugin found for ' . $author);
   }
   {% endraw %}
   ~~~
 
-</ /details>
+</details>
 
 ### Adaptación de complementos para Core v4
 
-- Limpie el estilo en línea tanto como sea posible (cf [Plantilla de complemento](https:/ // /github.com/ /jeedom/ /plugin-template/ /blob/ /master/ /desktop/ /php/ /template.php)).
+- Limpie el estilo en línea tanto como sea posible (cf [Plantilla de complemento](https://github.com/jeedom/plugin-template/blob/master/desktop/php/template.php)).
 - pantalla de comando span : clase `estado`
 - Botón de control : una acción de clase
 - En el grupo de entrada:
@@ -113,7 +111,7 @@ El núcleo elimina automáticamente los archivos de más de 7 días que no se ha
 - Los archivos cuyo nombre comienza con "custom" tampoco se ven afectados.
 
 Si desea hacer una modificación antes de limpiar, puede usar `pre_install.php` (en plugin_info).
-Ver [Plantilla de complemento](https:/ // /github.com/ /jeedom/ /plugin-template/ /blob/ /master/ /plugin_info/ /pre_install.php)
+Ver [Plantilla de complemento](https://github.com/jeedom/plugin-template/blob/master/plugin_info/pre_install.php)
 
 ### Mercado de enlaces de GitHub
 

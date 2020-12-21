@@ -2,7 +2,7 @@
 
 ### Deprecated
 
-- Font-Awesome 4 ist nicht mehr in den Core integriert und wird durch Font-Awesome 5 ersetzt [Migration](https:/./.fontawesome.com/.how-to-use/.on-the-web/.setup/.upgrading-from-version-4#name-changes).
+- Font-Awesome 4 ist nicht mehr in den Core integriert und wird durch Font-Awesome 5 ersetzt [Migration](https://fontawesome.com/how-to-use/on-the-web/setup/upgrading-from-version-4#name-changes).
 
 ### V4-Kompatibilität auf dem Markt
 
@@ -19,13 +19,13 @@ Sie können anhand eines Szenario- / Codeblocks testen, ob Ihre Plugins die ange
 
 <details>
 
-  <summary markdown="span">scénario /. bloc Code</.summary>
+  <summary markdown="span">scénario / bloc Code</summary>
 
   ~~~ php
   {% raw %}
-  /.* Autor der zu überprüfenden Plugins */.
+  // Autor der zu überprüfenden Plugins (Groß- und Kleinschreibung beachten)
   $author = 'Jeedom SAS';
-  /.**********************************/.
+
   $plugins = repo_market::byFilter(['author' => $author]);
   $pluginsArray = utils::o2a($plugins);
   $countPlugins = 0;
@@ -34,30 +34,28 @@ Sie können anhand eines Szenario- / Codeblocks testen, ob Ihre Plugins die ange
     if ($ plugin ['author'] == $ author) {
       $countPlugins++;
     if ($ plugin ['hardwareCompatibility'] ['v4'] != '1') {
-      $countIncompatibles++;
-      $scenario->setLog('Le plugin ' . $plugin['name'] . ' n\'est pas indiqué compatible V4');
+        $countIncompatibles++;
+      $scenario->setLog('Plugin ' . $plugin['name'] . ' does not have v4 compatibility tag.');
     }
     }
   }
   if ($ countPlugins> 0) {
-    if ($ countIncompatible == 1) {
-      $scenario->setLog($author . ' : 1 plugin potentiellement incompatible Jeedom V4 sur ' . $countPlugins . ' plugin(s) réalisé(s)');
-    } sonst wenn ($ countIncompatible> 1) {
-    $scenario->setLog($author . ' : ' . $countIncompatibles . ' plugins potentiellements incompatibles Jeedom V4 sur ' . $countPlugins . ' plugins réalisés');
+    if ($ countIncompatible> 0) {
+      $scenario->setLog($author . ' : ' . $countIncompatibles . ' potentially incompatible Jeedom V4 plugin on ' . $countPlugins . ' checked');
     } sonst {
-      $scenario->setLog('Les ' . $countPlugins . ' plugins développés par ' . $author . ' sont tous compatibles Jeedom V4. Félicitations !');
+      $scenario->setLog('All ' . $countPlugins . ' plugin developed by ' . $author . ' are Jeedom V4 compatible. Congratulations!');
     }
   } sonst {
-    $scenario->setLog('Aucun plugin trouvé pour ' . $author);
+    $scenario->setLog('No plugin found for ' . $author);
   }
   {% endraw %}
   ~~~
 
-</.details>
+</details>
 
 ### Anpassung von Plugins für Core v4
 
-- Reinigen Sie den Inline-Stil so weit wie möglich (vgl [Plugin Vorlage](https:/./.github.com/.jeedom/.plugin-template/.blob/.master/.desktop/.php/.template.php)).
+- Reinigen Sie den Inline-Stil so weit wie möglich (vgl [Plugin Vorlage](https://github.com/jeedom/plugin-template/blob/master/desktop/php/template.php)).
 - Anzeige des Bereichsbefehls : Klasse `Zustand`
 - Steuertaste : eine Klasse "Aktion"
 - Auf der Eingabegruppe:
@@ -113,7 +111,7 @@ Der Core löscht automatisch Dateien, die älter als 7 Tage sind und nicht aktua
 - Dateien, deren Name mit "custom" beginnt, sind ebenfalls nicht betroffen.
 
 Wenn Sie vor dem Reinigen eine Änderung vornehmen möchten, können Sie `pre_install verwenden.php` (in plugin_info).
-Sehen [Plugin Vorlage](https:/./.github.com/.jeedom/.plugin-template/.blob/.master/.plugin_info/.pre_install.php)
+Sehen [Plugin Vorlage](https://github.com/jeedom/plugin-template/blob/master/plugin_info/pre_install.php)
 
 ### GitHub Link Markt
 
