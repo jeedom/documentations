@@ -22,6 +22,7 @@ Sie können anhand eines Szenario- / Codeblocks testen, ob Ihre Plugins die ange
   <summary markdown="span">scénario /. bloc Code</.summary>
 
   ~~~ php
+  {% raw %}
   /.* Autor der zu überprüfenden Plugins */.
   $author = 'Jeedom SAS';
   /.**********************************/.
@@ -49,6 +50,7 @@ Sie können anhand eines Szenario- / Codeblocks testen, ob Ihre Plugins die ange
   } sonst {
     $scenario->setLog('Aucun plugin trouvé pour ' . $author);
   }
+  {% endraw %}
   ~~~
 
 </.details>
