@@ -252,10 +252,6 @@ input,
   color: var(--linkHover-color) !important;
 }
 
-#div_main {
-  height: calc(100vh - 55px) !important;
-}
-
 #div_content {
   text-align: justify;
   padding-left : 200px !important;
@@ -393,6 +389,11 @@ pre.highlight {
    padding: 5px;
 }
 
+.gsc-control-cse {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 .gsc-search-button{
   position:relative !important;
   left:-41px !important;
@@ -506,6 +507,19 @@ pre.highlight {
   border-bottom-right-radius : 0px !important;
   border-top-left-radius : 0px !important;
   border-top-right-radius : 0px !important;
+}
+
+td.gsc-input,
+.gsc-input td {
+  padding: 0;
+}
+
+form.gsc-search-box {
+  margin-bottom: -30px !important;
+}
+
+#div_searchBar tr {
+  border: none !important;
 }
 
 details div {
