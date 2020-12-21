@@ -7,37 +7,37 @@ colors Light
   /* keet it as rem even when zero!!*/
   --border-radius: 0rem;
   --opacity: 1;
-  
+
   --url-logo: url('/core/themes/core2019_Light/desktop/logo-jeedom.png');
-  
+
   --dashBkg-url: url("");
   --logo-primary-color: rgb(150, 201, 39);
   --logo-secondary-color: rgb(69, 68, 73);
   --bg-color: 232, 232, 234;
   --bg-modal-color: rgb(237, 238, 238);
   --contrast-color: 30, 30, 30;
-  
+
   --txt-color: rgb(115, 115, 115);
   --link-color: rgb(90, 90, 90);
   --linkHover-color: rgb(140, 140, 148);
   --linkHoverLight-color: rgb(254, 254, 254);
   --placeholder-color: rgb(160, 160, 160);
-  
+
   --sc-form-color: rgba(248, 250, 256, 0.85);
   --sc-formTxt-color: rgb(75, 75, 75);
   --sc-lightTxt-color: rgb(240, 240, 240);
-  
+
   --el-defaultColor: rgb(200, 200, 200);
   --defaultBkg-color: 250, 250, 250;
   --form-bg-color: rgb(224, 226, 226);
   --btnEq-default-color: rgb(220, 220, 220);
   --btn-default-color: rgb(100, 100, 100);
   --panel-bg-color: 240, 241, 242;
-  
+
   --eqTitle-color: rgb(240, 240, 240);
   --objectBkgd-color: rgb(105, 105, 105);
   --objectTxt-color: rgb(235, 235, 235);
-  
+
   --eq-bg-color: 249, 249, 250;
   --cat-security-color: 180, 40, 40;
   --cat-heating-color: 60, 115, 165;
@@ -47,10 +47,10 @@ colors Light
   --cat-energy-color: 58, 165, 72;
   --cat-other-color: 58, 120, 85;
   --cat-scenario-color: 80, 80, 84;
-  
+
   --url-iconsDark: url(../img/ui-icons-white.png);
   --url-iconsLight: url(../img/ui-icons-black.png);
-  
+
   --lb-info-color: rgb(110, 180, 240);
   --lb-yellow-color: rgb(240, 215, 0);
   --lb-yellow-color: rgb(240, 215, 0);
@@ -60,7 +60,7 @@ colors Light
   --al-warning-color: rgb(240, 160, 40);
   --al-danger-color: rgb(190, 0, 0);
   --bt-success-color: rgb(150, 201, 39);
-  
+
   --scBlocIF: rgb(85,110,130);
   --scBlocElse: rgb(70,95,115);
   --scBlocACTION: rgb(155,146,138);
@@ -69,9 +69,9 @@ colors Light
   --scBlocFOR: rgb(172,136,42);
   --scBlocCODE: rgb(180,80,45);
   --scBlocCOM: rgb(70,70,70);
-  
+
   --scBlocSep: rgb(35,35,35);
-  
+
   --shd-color: rgba(0, 0, 0, 0.55);
 }
 
@@ -323,24 +323,28 @@ blockquote {
 }
 
 #div_content h1 {
-  font-size : 42px !important;
-}
-#div_content h2 {
   font-size : 36px !important;
 }
+#div_content h2 {
+  font-size : 30px !important;
+  padding-left: 10px;
+}
 #div_content h3 {
-  font-size : 32px !important;
-  padding-left: 18px;
+  font-size : 26px !important;
+  padding-left: 20px;
 }
 #div_content h4 {
-  font-size : 27px !important;
+  font-size : 24px !important;
   padding-left: 30px;
   font-weight: 300 !important;
 }
 #div_content h5 {
-  font-size : 22px !important;
-  padding-left: 35px;
+  font-size : 20px !important;
+  padding-left: 36px;
   font-weight: 300 !important;
+}
+#div_content h6,h7 {
+  padding-left: 38px;
 }
 #div_content h1,h2,h3,h4,h5 {
   color : var(--logo-primary-color) !important;
@@ -351,10 +355,10 @@ blockquote {
 
 @media only screen and (max-width: 992px) {
   #div_content h1 {
-    font-size: 36px !important;
+    font-size: 32px !important;
   }
   #div_content h2 {
-    font-size: 28px !important;
+    font-size: 24px !important;
   }
   #div_content h3 {
     font-size: 22px !important;
@@ -496,4 +500,8 @@ pre{
   border-bottom-right-radius : 0px !important;
   border-top-left-radius : 0px !important;
   border-top-right-radius : 0px !important;
+}
+
+details div {
+  margin-left: 20px
 }

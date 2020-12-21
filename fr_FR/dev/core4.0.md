@@ -13,43 +13,45 @@ Exemple **info.json**: `"compatibility" : ["miniplus","smart","rpi","docker","di
 
 Vous pouvez tester depuis un scénario / bloc Code si vos plugins ont bien la compatibilité renseignée:
 
-<details><summary markdown="span">scénario / bloc Code</summary>
+<details>
 
-~~~ php
-/* Auteur des plugins à contrôler */
-$author = 'Jeedom SAS';
-/**********************************/
-$plugins = repo_market::byFilter(['author' => $author]);
-$pluginsArray = utils::o2a($plugins);
-$countPlugins = 0;
-$countIncompatibles = 0;
-foreach ($pluginsArray as $plugin) {
-  if ($plugin['author'] == $author) {
-    $countPlugins++;
-	if ($plugin['hardwareCompatibility']['v4'] != '1') {
-      $countIncompatibles++;
-	  $scenario->setLog('Le plugin ' . $plugin['name'] . ' n\'est pas indiqué compatible V4');
-	}
+  <summary markdown="span">scénario / bloc Code</summary>
+
+  ~~~ php
+  /* Auteur des plugins à contrôler */
+  $author = 'Jeedom SAS';
+  /**********************************/
+  $plugins = repo_market::byFilter(['author' => $author]);
+  $pluginsArray = utils::o2a($plugins);
+  $countPlugins = 0;
+  $countIncompatibles = 0;
+  foreach ($pluginsArray as $plugin) {
+    if ($plugin['author'] == $author) {
+      $countPlugins++;
+  	if ($plugin['hardwareCompatibility']['v4'] != '1') {
+        $countIncompatibles++;
+  	  $scenario->setLog('Le plugin ' . $plugin['name'] . ' n\'est pas indiqué compatible V4');
+  	}
+    }
   }
-}
-if ($countPlugins > 0) {
-  if($countIncompatibles == 1) {
-  	$scenario->setLog($author . ' : 1 plugin potentiellement incompatible Jeedom V4 sur ' . $countPlugins . ' plugin(s) réalisé(s)');
-  } else if ($countIncompatibles > 1) {
-	$scenario->setLog($author . ' : ' . $countIncompatibles . ' plugins potentiellements incompatibles Jeedom V4 sur ' . $countPlugins . ' plugins réalisés');
+  if ($countPlugins > 0) {
+    if($countIncompatibles == 1) {
+    	$scenario->setLog($author . ' : 1 plugin potentiellement incompatible Jeedom V4 sur ' . $countPlugins . ' plugin(s) réalisé(s)');
+    } else if ($countIncompatibles > 1) {
+  	$scenario->setLog($author . ' : ' . $countIncompatibles . ' plugins potentiellements incompatibles Jeedom V4 sur ' . $countPlugins . ' plugins réalisés');
+    } else {
+    	$scenario->setLog('Les ' . $countPlugins . ' plugins développés par ' . $author . ' sont tous compatibles Jeedom V4. Félicitations !');
+    }
   } else {
-  	$scenario->setLog('Les ' . $countPlugins . ' plugins développés par ' . $author . ' sont tous compatibles Jeedom V4. Félicitations !');
+    $scenario->setLog('Aucun plugin trouvé pour ' . $author);
   }
-} else {
-  $scenario->setLog('Aucun plugin trouvé pour ' . $author);
-}
-~~~
+  ~~~
 
 </details>
 
 #### Adaptation des plugins pour le Core v4
 
-- Nettoyer au maximum les inline style (cf plugin template).
+- Nettoyer au maximum les inline style (cf [plugin template](https://github.com/jeedom/plugin-template/blob/master/desktop/php/template.php)).
 - span affichage de commande : class `state`
 - Bouton de commande : a class `action`
 - Sur les input-group:
