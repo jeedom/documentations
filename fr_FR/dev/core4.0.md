@@ -22,6 +22,7 @@ Vous pouvez tester depuis un scénario / bloc Code si vos plugins ont bien la co
   <summary markdown="span">scénario / bloc Code</summary>
 
   ~~~ php
+  {% raw %}
   /* Auteur des plugins à contrôler */
   $author = 'Jeedom SAS';
   /**********************************/
@@ -49,6 +50,7 @@ Vous pouvez tester depuis un scénario / bloc Code si vos plugins ont bien la co
   } else {
     $scenario->setLog('Aucun plugin trouvé pour ' . $author);
   }
+  {% endraw %}
   ~~~
 
 </details>
