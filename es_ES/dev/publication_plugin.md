@@ -8,11 +8,11 @@
 
 ## Configuration
 
-Una vez conectado con su cuenta de desarrollador en el mercado, debe : 
+Una vez conectado con su cuenta de desarrollador en el mercado, debe :
 
 - haga clic en el mercado y luego agregue
-- complete la información en su complemento : 
-  - Principal : 
+- complete la información en su complemento :
+  - Principal :
     - Prix
     - Id (el que está en el archivo info.json)
     - Nom
@@ -28,12 +28,12 @@ Una vez conectado con su cuenta de desarrollador en el mercado, debe :
     - tu nombre de usuario github
     - el nombre del repositorio en github
     - marque la casilla del mercado para administrar la traducción de su complemento y documentación (tenga cuidado en este caso de otorgar todos los derechos al usuario zoic21 de github en su repositorio de github)
-    
-   Una vez guardado volviendo a la pestaña github, tendrá 3-4 campos para indicar las ramas : 
-   
+
+   Una vez guardado volviendo a la pestaña github, tendrá 3-4 campos para indicar las ramas :
+
    - beta
    - stable
    - pro (es inútil en el 99% de los casos)
    - stablev3 (próximamente)
-   
+
    La sincronización se realiza automáticamente todos los días a las 12.10 p.m. (tenga en cuenta la cantidad de complementos y las restricciones de llamadas después de que la actualización comience a las 12.10 p.m. pero tome varias diez horas). También puede iniciar una sincronización manual de una rama desde el archivo de complemento

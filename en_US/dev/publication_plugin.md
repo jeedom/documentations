@@ -8,11 +8,11 @@
 
 ## Configuration
 
-Once connected with your dev account on the market you must : 
+Once connected with your dev account on the market you must :
 
 - click on market then add
-- fill in the information on your plugin : 
-  - Main : 
+- fill in the information on your plugin :
+  - Main :
     - Prix
     - Id (the one in the info.json file)
     - Nom
@@ -28,12 +28,12 @@ Once connected with your dev account on the market you must :
     - your github username
     - the name of the repository on github
     - tick the box for the market to manage the translation of your plugin and documentation (be careful in this case to give all rights to the user zoic21 of github on your github repository)
-    
-   Once saved by returning to the github tab you will have 3-4 fields to indicate the branches : 
-   
+
+   Once saved by returning to the github tab you will have 3-4 fields to indicate the branches :
+
    - beta
    - stable
    - pro (is useless in 99% of cases)
    - stablev3 (coming soon)
-   
+
    Synchronization is done either automatically every day at 12.10 p.m. (beware given the number of plugins and call restrictions api the update starts at 12.10 p.m). You can also start a manual synchronization of a branch from the plugin file

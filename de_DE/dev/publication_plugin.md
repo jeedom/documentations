@@ -8,11 +8,11 @@
 
 ## Configuration
 
-Sobald Sie mit Ihrem Dev-Konto auf dem Markt verbunden sind, müssen Sie : 
+Sobald Sie mit Ihrem Dev-Konto auf dem Markt verbunden sind, müssen Sie :
 
 - Klicken Sie auf Markt und fügen Sie hinzu
-- Füllen Sie die Informationen auf Ihrem Plugin aus : 
-  - Allgemein : 
+- Füllen Sie die Informationen auf Ihrem Plugin aus :
+  - Allgemein :
     - Prix
     - ID (die in der Datei info.json)
     - Nom
@@ -28,12 +28,12 @@ Sobald Sie mit Ihrem Dev-Konto auf dem Markt verbunden sind, müssen Sie :
     - Ihr Github-Benutzername
     - Der Name des Repositorys auf Github
     - Aktivieren Sie das Kontrollkästchen für den Markt, um die Übersetzung Ihres Plugins und Ihrer Dokumentation zu verwalten (achten Sie in diesem Fall darauf, dem Benutzer zoic21 von github alle Rechte in Ihrem Github-Repository zu erteilen)
-    
-   Nach dem Speichern durch Zurückkehren zur Registerkarte Github haben Sie 3-4 Felder, um die Zweige anzuzeigen : 
-   
+
+   Nach dem Speichern durch Zurückkehren zur Registerkarte Github haben Sie 3-4 Felder, um die Zweige anzuzeigen :
+
    - beta
    - stable
    - pro (ist in 99% der Fälle nutzlos)
    - Stablev3 (kommt bald)
-   
+
    Die Synchronisierung erfolgt entweder automatisch jeden Tag um 12.10 Uhr (Vorsicht angesichts der Anzahl der Plugins und der Anrufbeschränkungen). Das Update beginnt um 12.10 Uhr, dauert jedoch mehrere zehn Stunden). Sie können auch eine manuelle Synchronisierung eines Zweigs über die Plugin-Datei starten

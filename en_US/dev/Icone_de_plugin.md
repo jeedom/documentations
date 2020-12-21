@@ -6,9 +6,9 @@ This icon will be the one displayed for users, on the market and from the Jeedom
 
 You have to produce a file in png format, of 309 x 348 pixels.
 
-The file name is structured as follows: <plugin-id>_icon.png
+The file name is structured as follows: ``<plugin-id> _icon.png`
 
-It must be saved in the / plugin-info / folder
+It must be saved in the `/ plugin-info /` folder
 
 This file is required.
 
