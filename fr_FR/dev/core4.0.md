@@ -16,8 +16,10 @@ Exemple: `"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"],`
 
 Vous pouvez tester depuis un scénario / bloc Code si vos plugins ont bien la compatibilité renseignée:
 
+<details>
+<summary>Par l'interface de Rhasspy, ou directement en éditant le profile.json sur le Rhasspy</summary>
 
-```php
+````php
 /* Auteur des plugins à contrôler */
 $author = 'Jeedom SAS';
 /**********************************/
@@ -45,8 +47,9 @@ if ($countPlugins > 0) {
 } else {
   $scenario->setLog('Aucun plugin trouvé pour ' . $author);
 }
-```
+````
 
+</details>
 
 #### Adaptation des plugins pour le Core v4
 
