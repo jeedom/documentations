@@ -22,6 +22,7 @@ Puede probar desde un escenario / bloque de código si sus complementos tienen l
   <summary markdown="span">scénario / / bloc Code</ /summary>
 
   ~~~ php
+  {% raw %}
   / /* Autor de los complementos a verificar */ /
   $author = 'Jeedom SAS';
   / /**********************************/ /
@@ -49,6 +50,7 @@ Puede probar desde un escenario / bloque de código si sus complementos tienen l
   } otro {
     $scenario->setLog('Aucun plugin trouvé pour ' . $author);
   }
+  {% endraw %}
   ~~~
 
 </ /details>
