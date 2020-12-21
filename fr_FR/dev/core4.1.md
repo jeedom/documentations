@@ -1,5 +1,14 @@
 ## Core v4.1 | Développeurs de plugin
 
+### Suppression
+
+- Les fonctions `network->getInterfaceIp()` `network->getInterfaceMac()` et `network->getInterfaces()` ont été remplacées par `network->getInterfacesInfo()`.
+
+### Changements
+
+- La fonction `scenario->getHumanName()` de la class php scenario ne renvoit plus `[object][group][name]` mais `[group][object][name]`.
+- La fonction `scenario->byString()` doit maintenant être appellée avec la structure `[group][object][name]`.
+
 ### Modifications optionnelles
 
 #### Liste des objets parents
