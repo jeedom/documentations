@@ -6,7 +6,7 @@
 
 In diesem kurzen Tutorial wird erklärt, wie Sie ein Plugin erstellen. Für das Beispiel erstellen wir ein Plugin, das einen Satz von der viedemerde-Site zurückgibt.de (Das Plugin ist skalierbar).
 
-Es ersetzt nicht die [offizielle Dokumentation](https:/./.jeedom.github.io/.plugin-template/de_DE/)
+Es ersetzt in keiner Weise die offizielle Dokumentation.
 
 # Erstellen Sie die Plugin-Basis
 

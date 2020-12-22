@@ -2,7 +2,7 @@
 
 Ein [Entwicklerkonto](https://blog.jeedom.com/jeedom-partenaire/) ist erforderlich, um auf den Entwicklerbereich zuzugreifen [Gemeinschaft](https://community.jeedom.com/) und in der Lage sein, Plugins auf der zu veröffentlichen [Markt](https://market.jeedom.com).
 
-#### Allgemeine Dokumentation
+### Allgemeine Dokumentation
 
 - [Präsentation](/de_DE/dev/tutorial_plugin)
 
@@ -14,7 +14,7 @@ Ein [Entwicklerkonto](https://blog.jeedom.com/jeedom-partenaire/) ist erforderli
 - [Plugin Vorlage](/de_DE/dev/plugin_template)
 
 
-#### Kernentwicklungen und Plugin-Anpassungen
+### Kernentwicklungen und Plugin-Anpassungen
 
 - [Core v4.2](/de_DE/dev/core4.2)
 - [Core v4.1](/de_DE/dev/core4.1)

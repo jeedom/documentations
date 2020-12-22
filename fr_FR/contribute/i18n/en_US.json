@@ -677,7 +677,7 @@
         " Community*": " Community*"
     },
     "contribute\/index.md": {
-        "Vous voudriez": "You would like",
+        "Comment contribuer au projet Jeedom": "How to contribute to the Jeedom project",
         "Contribuer à la documentation": "Contribute to documentation",
         "Contribuer au développement du Core": "Contribute to the development of the Core"
     }
