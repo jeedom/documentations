@@ -324,17 +324,17 @@ Se pueden usar otras funciones de JavaScript :
 - ``printEqLogic`` que toma el objeto completo del equipo como parámetro (útil en caso de procesamiento de datos antes de restaurarlo). Se llama cuando se muestran los datos del equipo
 - ``saveEqLogic`` que toma como parámetro el objeto del equipo que se guardará en la base de datos (útil si necesita realizar algún procesamiento antes de guardar) Lo último, para los archivos JS, aquí es cómo incluirlos de manera limpia en su página php :
 
-````
+````php
 <?php include_file('desktop', 'weather', 'js', 'weather'); ?>
 ````
 
-El primer argumento le da a la carpeta en la que encontrarlo (la atención es la carpeta principal de la carpeta JS), el segundo el nombre de su javascript, el tercero le dice a Jeedom que es un archivo JS y el último en el que se conecta se encuentra.
+Le premier argument donne le dossier dans lequel le trouver (attention c'est le dossier père du dossier JS), le deuxième le nom de votre javascript, le troisième indique à Jeedom que c'est un fichier Js et le dernier dans quel plugin il se trouve.
 
 ## CSS
 
-Esta carpeta contiene sus archivos CSS (no se debe usar demasiado), aquí le mostramos cómo incluirlos en su página :
+Ce dossier contient vos fichiers CSS (il ne devrait pas être trop utilisé) , voaquí comment les inclure sur votre page :
 
-````
+````php
 <?php include_file('desktop', 'weather', 'css', 'weather'); ?>
 ````
 

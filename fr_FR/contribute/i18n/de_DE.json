@@ -677,8 +677,36 @@
         " Community*": " Gemeinschaft*"
     },
     "contribute\/index.md": {
-        "Comment contribuer au projet Jeedom": "Wie man zum Jeedom-Projekt beiträgt",
+        "Contribuer au développement de Jeedom": "Tragen Sie zur Entwicklung von Jeedom bei",
+        "Les contributions, quelles soient sur le Core ou sur le Documentation, sont toujours bienvenues, et nous faisons le maximum pour les traiter rapidement": "Beiträge, ob im Kern oder in der Dokumentation, sind immer willkommen und wir bemühen uns, sie schnell zu verarbeiten",
+        "Une faute sur la documentation, un passage qui pourrait être plus clair, un bug sur le Core": "Ein Fehler in der Dokumentation, eine Passage, die klarer sein könnte, ein Fehler im Core",
+        "Les contributions sont là pour çà": "Die Beiträge sind dafür da",
+        "Les Pull Request ne sont pas toujours acceptés, mais dans le cas contraire nous essayons d'expliquer pourquoi, afin qu'un prochain PR le soit": "Pull-Anfragen werden nicht immer akzeptiert, aber wenn nicht, versuchen wir zu erklären, warum, so dass eine nächste PR ist",
+        "Jeedom n'est pas sensé tout faire pour tout le monde, certaines choses sont plus propice aux plugins par exemple": "Jeedom soll nicht alles für alle tun, manche Dinge sind zum Beispiel für Plugins förderlicher",
+        "Les effets de bords de modifications à l'apparence simple peuvent aussi être importants": "Die Randeffekte einfach aussehender Modifikationen können ebenfalls wichtig sein",
+        "C'est pourquoi nous pouvons décider de ne pas intégrer certaines demandes, ou de le faire différemment": "Aus diesem Grund können wir entscheiden, bestimmte Anforderungen nicht oder anders zu integrieren",
+        "forum de discussion": "Diskussionsforum",
+        "Avant de développer du code de votre coté, nous conseillons d'en discuter sur le": "Bevor Sie Code selbst entwickeln, empfehlen wir, ihn auf der Website zu diskutieren",
+        "surtout pour de nouvelles fonctionnalités": "speziell für neue Funktionen",
+        "Les autres contributeurs et utilisateurs pourront ainsi mieux vous orienter, si besoin, sur cette orientation, ou même prévenir si d'autres y travaillent déjà": "Die anderen Mitwirkenden und Benutzer können Sie bei Bedarf besser zu dieser Ausrichtung führen oder sogar warnen, wenn andere bereits daran arbeiten",
+        "La documentation de Jeedom est centralisée sur ce site, par plusieurs mécanismes": "Die Jeedom-Dokumentation wird auf dieser Site durch verschiedene Mechanismen zentralisiert",
+        "Comme le Core de Jeedom, la documentation est accessible sur Github et Open-Source": "Wie beim Jeedom Core ist die Dokumentation auf Github und Open Source verfügbar",
         "Contribuer à la documentation": "Beitrag zur Dokumentation",
-        "Contribuer au développement du Core": "Tragen Sie zur Entwicklung des Kerns bei"
+        "Comment contribuer au développement du Core de Jeedom, sa structure, l'organisation des versions": "Wie man zur Entwicklung des Jeedom Core, seiner Struktur und der Organisation von Versionen beiträgt",
+        "Contribuer au développement du Core": "Tragen Sie zur Entwicklung des Kerns bei",
+        " Documentation.": " Dokumentation.",
+        " Documentation?": " Dokumentation?",
+        "Documentation ": "Dokumentation ",
+        " Documentation]": " Dokumentation]",
+        "[Documentation]": "[Dokumentation]",
+        "*Documentation*": "*Dokumentation*",
+        " Documentation*": " Dokumentation*",
+        " Core.": " Ader.",
+        " Core?": " Ader?",
+        "Core ": "Ader ",
+        " Core]": " Ader]",
+        "[Core]": "[Ader]",
+        "*Core*": "*Ader*",
+        " Core*": " Ader*"
     }
 }

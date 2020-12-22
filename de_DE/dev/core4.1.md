@@ -13,7 +13,7 @@
 
 #### Liste der übergeordneten Objekte
 
-In v4.1 Die Anzeige der Auswahl des übergeordneten Objekts eines Geräts wurde überarbeitet und vereinheitlicht. Die Liste ist jetzt geordnet und wird nach dem übergeordneten Element eingerückt.
+In v4.1 Die Anzeige der Auswahl des übergeordneten Objekts eines Geräts wurde überarbeitet und vereinheitlicht. Die Liste wird entsprechend dem übergeordneten Element eingerückt und wie im Menü sortiert **Home → Dashboard**, wie definiert in **Werkzeuge → Objekte**, Übersicht.
 
 Um die gleiche Logik in den Plugins zu haben, geben Sie die Datei plugin / desktop / plugin ein.php :
 

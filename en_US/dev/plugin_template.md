@@ -324,17 +324,17 @@ Other javascript functions can be used :
 - ``printEqLogic`` which takes the entire object of the equipment as a parameter (useful in the event of data processing before restoring it). It is called when the equipment data is displayed
 - ``saveEqLogic`` which takes as a parameter the equipment object which will be saved in the database (useful if you need to do some processing before saving) Last thing, for JS files, here is how to include them in a clean way on your php page :
 
-````
+````php
 <?php include_file('desktop', 'weather', 'js', 'weather'); ?>
 ````
 
-The first argument gives the folder in which to find it (attention is the parent folder of the JS folder), the second the name of your javascript, the third tells Jeedom that it is a JS file and the last one in which plugin it is located.
+Le premier argument donne le dossier dans lequel le trouver (attention c'est le dossier père du dossier JS), le deuxième le nom de votre javascript, le troisième indique à Jeedom que c'est un fichier Js et le dernier dans quel plugin il se trouve.
 
 ## CSS
 
-This folder contains your CSS files (it should not be used too much), here is how to include them on your page :
+Ce dossier contient vos fichiers CSS (il ne devrait pas être trop utilisé) , vohere comment les inclure sur votre page :
 
-````
+````php
 <?php include_file('desktop', 'weather', 'css', 'weather'); ?>
 ````
 
