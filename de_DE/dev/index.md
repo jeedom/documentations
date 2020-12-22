@@ -1,5 +1,7 @@
 ## Plugin-Entwicklung
 
+Ein [Entwicklerkonto](https://blog.jeedom.com/jeedom-partenaire/) ist erforderlich, um auf den Entwicklerbereich zuzugreifen [Gemeinschaft](https://community.jeedom.com/) und in der Lage sein, Plugins auf der zu veröffentlichen [Markt](https://market.jeedom.com).
+
 #### Allgemeine Dokumentation
 
 - [Präsentation](/de_DE/dev/tutorial_plugin)
