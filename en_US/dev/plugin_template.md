@@ -57,28 +57,28 @@ The first commented part contains the license (it's better). The one used here i
 
 Example :
 
-````
+````php
 <?php
-/* This file is part of Jeedom.
+/ * This file is part of Jeedom.
  *
- * Jeedom is free software: you can redistribute it and/or modify
+ * Jeedom is free software: you can redistribute it and / or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
  * Jeedom is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * goal WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
  * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
  */
-require_once dirname(__FILE__) . '/../../../core/php/core.inc.php';
+require_once dirname (__ FILE__). '/../../../core/php/core.inc.php';
 
 function openzwave_install() {
     $cron = cron::byClassAndFunction('zwave', 'pull');
-    if (!is_object($cron)) {
+    yew (!is_object ($ cron)) {
         $cron = new cron();
         $cron->setClass('zwave');
         $cron->setFunction('pull');
@@ -91,7 +91,7 @@ function openzwave_install() {
 
 function openzwave_update() {
     $cron = cron::byClassAndFunction('zwave', 'pull');
-    if (!is_object($cron)) {
+    yew (!is_object ($ cron)) {
         $cron = new cron();
         $cron->setClass('zwave');
         $cron->setFunction('pull');
@@ -105,7 +105,7 @@ function openzwave_update() {
 
 function openzwave_remove() {
     $cron = cron::byClassAndFunction('zwave', 'pull');
-    if (is_object($cron)) {
+    if (is_object ($ cron)) {
         $cron->remove();
     }
 }
@@ -114,29 +114,29 @@ function openzwave_remove() {
 
 ## ``configuration.php``
 
-File for requesting configuration information from the user :
+Fichier permettant de demander des informations de configuration à l'utilisateur :
 
-The file consists of :
+Le fichier est constitué de :
 
-- The license as before
-- The inclusion of the Jeedom core
-- Verification that the user is well connected (I include the 404 file because this file is a view type file)
+- La licence comme précédemment
+- L'inclusion du core de Jeedom
+- La vérification que l'utilisateur est bien connecté (j'inclue le fichier 404 car ce fichier est un fichier de type vue)
 
-Then comes the requested parameter (it can have several), it is a standard Bootstrap syntax for forms, the only particularities to respect are the class (``configKey``) to put on the parameter element as well as the "data-l1key" which indicates the name of the parameter. To recover the value of it elsewhere in the plugin just do : ``config::byKey(NOM_PARAMETRE, PLUGIN_ID)``
+Ensuite vient le paramètre demandé (il peut en avoir plusieurs), c'est une syntaxe standard Bootstrap pour les formulaires, les seules particularités à respecter sont la classe (``configKey``) à mettre sur l'élément de paramètre ainsi que le "data-l1key" qui indique le nom du paramètre. Pour récupérer la valeur de celui-ci ailleurs dans le plugin il suffit de faire : ``config::byKey(NOM_PARAMETRE, PLUGIN_ID)``
 
 Example :
 
-````
+````php
 <?php
-/* This file is part of Jeedom.
+/ * This file is part of Jeedom.
  *
-  * Jeedom is free software: you can redistribute it and/or modify
+  * Jeedom is free software: you can redistribute it and / or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
  * Jeedom is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * goal WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
@@ -144,9 +144,9 @@ Example :
  * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
   */
 
- require_once dirname(__FILE__) . '/../../../core/php/core.inc.php';
-include_file('core', 'authentification', 'php');
-if (!isConnect()) {
+ require_once dirname (__ FILE__). '/../../../core/php/core.inc.php';
+include_file ('core', 'authentication', 'php');
+yew (!isConnect()) {
     include_file('desktop', '404', 'php');
     die();
  }
@@ -183,22 +183,22 @@ This folder contains the view itself. Inside, you must find the plugin configura
 
 All files in this folder must end up ``.php`` and must start with :
 
-````
+````php
 <?php
-if (!isConnect('admin')) {
-    throw new Exception('{{401 - Accès non autorisé}}');
+yew (!isConnect ('admin')) {
+    throw new Exception ('{{401 - Unauthorized access}}');
  }
- sendVarToJS('eqType', 'mail');
+ sendVarToJS ('eqType', 'mail');
  ?>
  ````
 
-Once on this page you will have access in php to all the functions of the core of jeedom (see [here](https://www.jeedom.com/doc/documentation/code/) ) as well as those of all installed modules so yours too.
+Une fois sur cette page vous aurez accès en php à toutes les fonctions du core de jeedom (voir [here](https://www.jeedom.com/doc/documentation/code/) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
 
-All these pages being views, they mainly use HTML syntax. For all that is presented, Jeedom is mainly based on bootstrap so all the [Documentation](http://getbootstrap.com/) is applicable.
+Toutes ces pages étant des vues elles utilisent principalement la syntaxe HTML. Pour tout ce qui est présentation, Jeedom se base principalement sur bootstrap donc toute la [documentation](http://getbootstrap.com/) est applicable.
 
-To simplify the creation of plugins you can include in your page the javascript template script for plugins :
+Pour simplifier la création de plugin vous pouvez inclure dans votre page le script javascript de template pour les plugins :
 
-````
+````php
 <?php include_file('core', 'plugin.template', 'js'); ?>
 ````
 
@@ -208,13 +208,13 @@ In your configuration page an HTML syntax has been implemented to simplify your 
 
 The syntax is quite simple: your element (input, select…) must have the class css eqLogicAttr (or cmdAttr for commands) and an attribute indicating the name of the property :
 
-````
+````html
 <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement mail}}"/>
 ````
 
-There, for example, when loading the jeedom data will put the value of the name of the equipment in the input and when saving it will recover it to put it back in the database. Small tip some properties are actually JSON strings in BDD (this allows you to have a lot of freedom for the plugin), in this case just do :
+Là, par exemple, lors du chargement des données jeedom mettra la valeur du nom de l'équipement dans l'input et lors de la sauvegarde récupérera celle-ci pour la remettre en base de données. Petite astuce certaines propriétés sont en fait des chaînes JSON en BDD (cela permet d'avoir vraiment pas mal de liberté pour le plugin), dans ce cas il suffit de faire :
 
-````
+````html
 <input class="eqLogicAttr form-control" data-l1key='configuration' data-l2key='fromName' />
 ````
 
@@ -228,41 +228,41 @@ All elements having the class eqLogicAttr must be in an element having the class
 
 All JS files must be in the JS folder (easy !!!). It is advisable to name it with the same ID as your plugin (in the configuration part, for the panel you do as you want). This JS file (that of the plugin configuration) must at least contain an addCmdToTable method which takes the command object to add as a parameter. Here is a simple example :
 
-````
-function addCmdToTable(_cmd) {
-    if (!isset(_cmd)) {
+````php
+function addCmdToTable (_cmd) {
+    yew (!isset (_cmd)) {
         var _cmd = {configuration: {}};
      }
-    var tr = '';     tr += '';
-     tr += '<input class="cmdAttr form-control input-sm" data-l1key="id" style="display : none;">';
-    tr += '<input class="cmdAttr form-control input-sm" data-l1key="name">';     tr += '<input class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="recipient">';     tr += '';
-     tr += '<input class="cmdAttr form-control input-sm" data-l1key="type" value="action" style="display : none;">';
-     tr += '<input class="cmdAttr form-control input-sm" data-l1key="subType" value="message" style="display : none;">';
-     if (is_numeric(_cmd.id)) {
-        tr += '<a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i> {{Tester}}</a>';
+    var tr = ''; tr + = '';
+     <html>tr + = ' : none; "> ';
+    tr + = '<input class="cmdAttr form-control input-sm" data-l1key="name"> '; tr + = '<input class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="recipient"> '; tr + = '';
+     <html>tr + = ' : none; "> ';
+     <html>tr + = ' : none; "> ';
+     if (is_numeric (_cmd.id)) {
+        tr + = ' <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i>{{Test}}</a> ';
      }
-     tr += '<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i></td>';
-    tr += '';
+     tr + = '<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i></td> ';
+    tr + = '';
      $('#table_cmd tbody').append(tr);
     $('#table_cmd tbody tr:last').setValues(_cmd, '.cmdAttr');
 }
 ````
 
-You will notice that there is one line per command and that this one has the class css cmd. You can also see the elements that have the class cmdAttr.
+Vous remarquerez qu'il y a une ligne par commande et que celle-ci a bien la classe css cmd. Vous pouvez aussi voir les éléments qui ont la classe cmdAttr.
 
-Several important points :
+Plusieurs points importants :
 
-- this function can be called with an empty object (hence the first 3 lines) when adding a new command
-- the last line initializes all the fields once the line is inserted
+- cette fonction peut être appelée avec un objet vide (d'où les 3 premières lignes) lors de l'ajout d'une nouvelle commande
+- la dernière ligne permet d'initialiser tous les champs une fois la ligne insérée
 
-Last point: a more complete example with command type and subtype :
+Dernier point: un exemple plus complet avec type et sous-type de commande :
 
-````
-function addCmdToTable(_cmd) {
-    if (!isset(_cmd)) {
+````php
+function addCmdToTable (_cmd) {
+    yew (!isset (_cmd)) {
         var _cmd = {};
     }
-     if (!isset(_cmd.configuration)) {
+     yew (!isset (_cmd.configuration)) {
         _cmd.configuration = {};
     }
      var selRequestType = '<select style="width : 90px;" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="requestType">';
@@ -270,42 +270,42 @@ function addCmdToTable(_cmd) {
      selRequestType += '<option value="http">{{Http}}</option>';
      selRequestType += '</select>';
     var tr = '';     tr += '<input class="cmdAttr form-control input-sm" data-l1key="name" style="width : 140px;">';
-    tr += '<input class="cmdAttr form-control input-sm" data-l1key="id"  style="display : none;">';
+    tr += '<input class="cmdAttr form-control input-sm" data-l1key="id"  style="display : none; "> ';
     tr += '' + selRequestType;
     tr += '<div class="requestTypeConfig" data-type="http">';
     tr += '<input type="checkbox" class="cmdAttr" data-l1key="configuration" data-l2key="noSslCheck" />Ne pas vérifier SSL';
     tr += '</div>';
-    tr += '';     tr += '';
+    tr + = '';     tr + = '';
     tr += '<span class="type" type="' + init(_cmd.type) + '">' + jeedom.cmd.availableType() + '</span>';
     tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';
-    tr += '';     tr += '<textarea style="height : 95px;" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="request"></textarea>';
+    tr + = '';     tr += '<textarea style="height : 95px;" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="request"></textarea>';
     tr += '<a class="btn btn-default browseScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-folder-open"></i> {{Parcourir}}</a> ';
     tr += '<a class="btn btn-default editScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-edit"></i> {{Editer}}</a> ';
     tr += '<a class="btn btn-success newScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-file-o"></i> {{Nouveau}}</a> ';
     tr += '<a class="btn btn-danger removeScriptFile cursor input-sm" style="margin-top : 5px;"><i class="fa fa-trash-o"></i> {{Supprimer}}</a> ';
     tr += '<a class="btn btn-warning bt_shareOnMarket cursor input-sm" style="margin-top : 5px;"><i class="fa fa-cloud-upload"></i> {{Partager}}</a> ';
     tr += '</div>';
-    tr += '';     tr += '';
+    tr + = '';     tr + = '';
     tr += '<input class="cmdAttr form-control tooltips input-sm" data-l1key="unite"  style="width : 100px;" placeholder="{{Unité}}" title="{{Unité}}">';
     tr += '<input class="tooltips cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="minValue" placeholder="{{Min}}" title="{{Min}}"> ';
     tr += '<input class="tooltips cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="maxValue" placeholder="{{Max}}" title="{{Max}}">';
-    tr += '';     tr += '';
+    tr + = '';     tr + = '';
     tr += '<span><input type="checkbox" class="cmdAttr" data-l1key="isHistorized" /> {{Historiser}}<br/></span>';
-    tr += '';     tr += '';
-    if (is_numeric(_cmd.id)) {
-    tr += '<a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i> {{Tester}}</a>';
+    tr + = '';     tr + = '';
+    if (is_numeric (_cmd.id)) {
+    tr + = ' <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i>{{Test}}</a> ';
     }
-    tr += '<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i></td>';
-    tr += '';
+    tr + = '<i class="fa fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i></td> ';
+    tr + = '';
     $('#table_cmd tbody').append(tr);
     $('#table_cmd tbody tr:last').setValues(_cmd, '.cmdAttr');
 
-    if (isset(_cmd.configuration.requestType)) {
+    yew (isset (_cmd.configuration.requestType)) {
         $('#table_cmd tbody tr:last .cmdAttr[data-l1key=configuration][data-l2key=requestType]').value(init(_cmd.configuration.requestType));
         $('#table_cmd tbody tr:last .cmdAttr[data-l1key=configuration][data-l2key=requestType]').trigger('change');
     }
 
-     if (isset(_cmd.type)) {
+     yew (isset (_cmd.type)) {
         $('#table_cmd tbody tr:last .cmdAttr[data-l1key=type]').value(init(_cmd.type));
     }
      jeedom.cmd.changeType($('#table_cmd tbody tr:last'), init(_cmd.subType));
@@ -346,32 +346,31 @@ The modal folder allows you to store your php files intended to display modals. 
 
 You can see :
 
+````js
+$('#md_modal').dialog({title: "{{Classe du périphérique}}"}).load('index.php?v=d&plugin=zwave&modal=show.class&id=' + $('.eqLogicAttr[data-l1key=id]').value()).dialog('open')
 ````
-$('#md_modal').dialog({title: "{{Classe du périphérique}}"});
-$('#md_modal').load('index.php?v=d&plugin=zwave&modal=show.class&id=' + $('.eqLogicAttr[data-l1key=id]').value()).dialog('open');
-````
 
-The first line allows you to put a title to your modal
+La première ligne permet de mettre un titre à votre modal
 
-The second line loads your modal and display. The syntax is quite simple : plugin, the id of your plugin, modal, the name of your modal without php and then the parameters you want to pass it
+La deuxième ligne charge votre modal et l'affichage. The syntax is quite simple : plugin, l'ID de votre plugin, modal, le nom de votre modal sans le php et ensuite les paramètres que vous voulez lui passer
 
-## JS API
+## API JS
 
-This is not a folder but in the latest versions of Jeedom it offers the developer a whole javascript api (this avoids writing ajax calls in all directions). I will try to make an article to explain the different features but you can already find the code here.
+Ce n'est pas un dossier mais dans les dernières versions de Jeedom celui-ci offre au développeur toute une api javascript (cela évite d'écrire des appels ajax dans tous les sens). J'essayerai de faire un article pour expliquer les différentes fonctionnalités mais vous pouvez déjà trouver le code here.
 
-So much for the details of the desktop folder. I suspect that it is not the most complete (I will try to complete it according to the different requests received) but I hope that thanks to him you can start making plugins for Jeedom.
+Voilà pour les détails du desktop folder. Je me doute qu'il n'est pas des plus complets (j'essayerai de le compléter en fonction des différentes demandes reçues) mais j'espère que grâce à lui vous pourrez commencer à faire des plugins pour Jeedom.
 
-## Tips and tricks
+## Trucs et astuces
 
-### Assistant cron
+### Assitant cron
 
-````
-$('body').delegate('.helpSelectCron','click',function(){
-  var el = $(this).closest('.schedule').find('.scenarioAttr[data-l1key=schedule]');
+````js
+$('body').delegate('.helpSelectCron','click',function() {
+  var el = $(this).closest('.schedule').find('.scenarioAttr[data-l1key=schedule]')
   jeedom.getCronSelectModal({},function (result) {
-    el.value(result.value);
-  });
-});
+    el.value(result.value)
+  })
+})
 ````
 
 When we click on the assistant button, we get the input to write in then we call the assistant. Once the configuration is finished in the wizard, the result is retrieved then written in the previously selected input
@@ -398,18 +397,18 @@ This is where your translation should be in the form of a json file (best and lo
 
 This folder is for all your ajax files, here is a skeleton of ajax file :
 
-````
+````php
 <?php
 
-/* This file is part of Jeedom.
+/ * This file is part of Jeedom.
  *
- * Jeedom is free software: you can redistribute it and/or modify
+ * Jeedom is free software: you can redistribute it and / or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
  * Jeedom is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * goal WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
@@ -418,47 +417,46 @@ This folder is for all your ajax files, here is a skeleton of ajax file :
  */
 
 try {
-    require_once dirname(__FILE__) . '/../../../../core/php/core.inc.php';
-    include_file('core', 'authentification', 'php');
+    require_once dirname (__ FILE__). '/../../../../core/php/core.inc.php';
+    include_file ('core', 'authentication', 'php');
 
-    if (!isConnect('admin')) {
-        throw new Exception(__('401 - Accès non autorisé', __FILE__));
+    yew (!isConnect ('admin')) {
+        throw new Exception (__ ('401 - Access not allowed', __FILE__));
     }
 
-    if (init('action') == 'votre action') {
-
-        ajax::success($result);
+    if (init ('action') == 'your action') {
+        ajax::success ($ result);
     }
 
-    throw new Exception(__('Aucune methode correspondante à : ', __FILE__) . init('action'));
-    /*     * *********Catch exeption*************** */
-} catch (Exception $e) {
-    ajax::error(displayExeption($e), $e->getCode());
+    throw new Exception (__ ('No method matching : ', __FILE__). init ('action'));
+    /*     * *********Catch exception*************** */
+} catch (Exception $ e) {
+    ajax::error (displayExeption ($ e), $ e-> getCode ());
 }
 ?>
 ````
 
 ## class
 
-Very important file, it is the engine of your plugin. This is where the 2 compulsory classes of your plugin come from :
+Dossier très important, c'est le moteur de votre plugin. C'est là que viennent les 2 classes obligatoires de votre plugin :
 
 - ``plugin\_id``
 - ``plugin\_idCmd``
 
-The first must inherit from the eqLogic class and the second from cmd. Here is a template :
+La première devant hériter de la classe eqLogic et la deuxième de cmd. Vohere un template :
 
-````
+````php
 <?php
 
-/* This file is part of Jeedom.
+/ * This file is part of Jeedom.
  *
- * Jeedom is free software: you can redistribute it and/or modify
+ * Jeedom is free software: you can redistribute it and / or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
  * Jeedom is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * goal WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
@@ -467,9 +465,9 @@ The first must inherit from the eqLogic class and the second from cmd. Here is a
  */
 
 /* * ***************************Includes********************************* */
-require_once dirname(__FILE__) . '/../../../../core/php/core.inc.php';
+require_once dirname (__ FILE__). '/../../../../core/php/core.inc.php';
 
-class plugin_id extends eqLogic {
+class plugin_ID extends eqLogic {
 
     /*     * *************************Attributs****************************** */
 
@@ -506,54 +504,54 @@ For the definition of jeedom classes, I invite you to consult this [SIte](https:
 
 The only mandatory method is the instance method on the cmd execute class, here is an example with the SARAH plugin :
 
-````
-public function execute($_options = array()) {
-      if (!isset($_options['title']) && !isset($_options['message'])) {
-          throw new Exception(__("Le titre ou le message ne peuvent être tous les deux vide", __FILE__));
+````php
+public function execute ($ _ options = array()) {
+      yew (!isset ($ _ options ['title']) && !isset ($ _ options ['message'])) {
+          throw new Exception (__ ("Title or message cannot both be empty", __FILE__));
       }
       $eqLogic = $this->getEqLogic();
       $message = '';
-      if (isset($_options['title'])) {
+      if (isset ($ _ options ['title'])) {
           $message = $_options['title'] . '. ';
       }
       $message .= $_options['message'];
       $http = new com_http($eqLogic->getConfiguration('addrSrvTts') . '/?tts=' . urlencode($message));
-      return $http->exec();
+      return $ http-> exec ();
   }
   ````
 
-Quite simple but complete example, the principle is as follows, if the command is an action or an info (but not in event only and its cache is exceeded) then jeedom calls this method.
+Example assez simple mais complet, le principe est le suivant, si la commande est une action ou une info (mais pas en événement seulement et que son Cache est dépassé) alors jeedom appelle cette méthode.
 
-In our example here it is a command to make SARAH speak, where the plugin retrieves the parameters in \ $\_ options (note that this is an array and its attributes change depending on the subtype of the command : color for a color subtype, slider for a slider subtype, title and message for a message subtype and empty for a other subtype).
+Dans notre exemple here c'est une commande pour faire parler S.A.R.A.H, où le plugin récupère les paramètres dans \$\_options (attention c'est un tableau et ses attributs changent en fonction du sous-type de la commande : color pour un sous-type color, slider pour un sous-type slider, title et message pour un sous-type message et vide pour un sous-type other).
 
-Here for the compulsory part, here is what can be used next (with example) :
+Voila pour la partie obligatoire, voila maintenant ce qui peut être utilisé à coté (avec exemple) :
 
-### toHtml (\ $\_ version = 'dashboard')
+### toHtml(\$\_version = 'dashboard')
 
-Function usable in the control or in the equipment, according to the needs, here is an example for the equipment
+Fonction utilisable dans la commande ou dans l'équipement, en fonction des besoins, vohere un exemple pour l'équipement
 
-````
+````php
 public function toHtml($_version = 'dashboard') {
     $replace = $this->preToHtml($_version);
-    if (!is_array($replace)) {
+    yew (!is_array($replace)) {
         return $replace;
     }
     $version = jeedom::versionAlias($_version);
     $replace['#forecast#'] = '';
-    if ($version != 'mobile' || $this->getConfiguration('fullMobileDisplay', 0) == 1) {
+    yew ($version != 'mobile' || $this->getConfiguration('fullMobileDisplay', 0) == 1) {
         $forcast_template = getTemplate('core', $version, 'forecast', 'weather');
         for ($i = 0; $i < 5; $i++) {
             $replaceDay = array();
             $replaceDay['#day#'] = date_fr(date('l', strtotime('+' . $i . ' days')));
 
-            if ($i == 0) {
+            yew ($i == 0) {
                 $temperature_min = $this->getCmd(null, 'temperature_min');
             } else {
                 $temperature_min = $this->getCmd(null, 'temperature_' . $i . '_min');
             }
             $replaceDay['#low_temperature#'] = is_object($temperature_min) ? $temperature_min->execCmd() : '';
 
-            if ($i == 0) {
+            yew ($i == 0) {
                 $temperature_max = $this->getCmd(null, 'temperature_max');
             } else {
                 $temperature_max = $this->getCmd(null, 'temperature_' . $i . '_max');
@@ -561,7 +559,7 @@ public function toHtml($_version = 'dashboard') {
             $replaceDay['#hight_temperature#'] = is_object($temperature_max) ? $temperature_max->execCmd() : '';
             $replaceDay['#tempid#'] = is_object($temperature_max) ? $temperature_max->getId() : '';
 
-            if ($i == 0) {
+            yew ($i == 0) {
                 $condition = $this->getCmd(null, 'condition');
             } else {
                 $condition = $this->getCmd(null, 'condition_' . $i);
@@ -589,17 +587,17 @@ public function toHtml($_version = 'dashboard') {
     $sunrise = $this->getCmd(null, 'sunrise');
     $replace['#sunrise#'] = is_object($sunrise) ? $sunrise->execCmd() : '';
     $replace['#sunid#'] = is_object($sunrise) ? $sunrise->getId() : '';
-    if (strlen($replace['#sunrise#']) == 3) {
+    yew (strlen($replace['#sunrise#']) == 3) {
         $replace['#sunrise#'] = substr($replace['#sunrise#'], 0, 1) . ':' . substr($replace['#sunrise#'], 1, 2);
-    } else if (strlen($replace['#sunrise#']) == 4) {
+    } else yew (strlen($replace['#sunrise#']) == 4) {
         $replace['#sunrise#'] = substr($replace['#sunrise#'], 0, 2) . ':' . substr($replace['#sunrise#'], 2, 2);
     }
 
     $sunset = $this->getCmd(null, 'sunset');
     $replace['#sunset#'] = is_object($sunset) ? $sunset->execCmd() : '';
-    if (strlen($replace['#sunset#']) == 3) {
+    yew (strlen($replace['#sunset#']) == 3) {
         $replace['#sunset#'] = substr($replace['#sunset#'], 0, 1) . ':' . substr($replace['#sunset#'], 1, 2);
-    } else if (strlen($replace['#sunset#']) == 4) {
+    } else yew (strlen($replace['#sunset#']) == 4) {
         $replace['#sunset#'] = substr($replace['#sunset#'], 0, 2) . ':' . substr($replace['#sunset#'], 2, 2);
     }
 
@@ -612,7 +610,7 @@ public function toHtml($_version = 'dashboard') {
     $condition = $this->getCmd(null, 'condition_now');
     $sunset_time = is_object($sunset) ? $sunset->execCmd() : null;
     $sunrise_time = is_object($sunrise) ? $sunrise->execCmd() : null;
-    if (is_object($condition)) {
+    yew (is_object($condition)) {
         $replace['#icone#'] = self::getIconFromCondition($condition->execCmd(), $sunrise_time, $sunset_time);
         $replace['#condition#'] = $condition->execCmd();
         $replace['#conditionid#'] = $condition->getId();
@@ -622,14 +620,14 @@ public function toHtml($_version = 'dashboard') {
         $replace['#condition#'] = '';
         $replace['#collectDate#'] = '';
     }
-    if ($this->getConfiguration('modeImage', 0) == 1) {
+    yew ($this->getConfiguration('modeImage', 0) == 1) {
         $replace['#visibilityIcon#'] = "none";
         $replace['#visibilityImage#'] = "block";
     } else {
         $replace['#visibilityIcon#'] = "block";
         $replace['#visibilityImage#'] = "none";
     }
-    $html = template_replace($replace, getTemplate('core', $version, 'current', 'weather'));
+    $l'opération à mener = template_replace($replace, getTemplate('core', $version, 'current', 'weather'));
     cache::set('widgetHtml' . $_version . $this->getId(), $html, 0);
     return $html;
 }
@@ -639,39 +637,39 @@ Several interesting things here :
 
 To convert the requested version into dashboard or mobile (mview becomes mobile for example, this allows for example on the views to add the name of the objects)
 
-````
+````php
 $_version = jeedom::versionAlias($_version);
 ````
 
-Retrieving an order template, here the order template : plugins / weather / core / template / \ $\_ version / forecast.html (\ $\_ version worth mobile or dashboard)
+Récupération d'un template de commande, here le template de commande : plugins/weather/core/template/\$\_version/forecast.l'opération à mener (\$\_version valant mobile ou dashboard)
 
-````
+````php
 $forcast_template = getTemplate('core', $_version, 'forecast', 'weather');
 ````
 
 Here replace the previously filled tags in \ $ replace HTML to contain the values
 
-````
+````php
 $html_forecast .= template_replace($replace, $forcast_template);
 ````
 
-This allows you to retrieve the command with the logical\_id : temperature\_min
+Cela permet de récupérer la commande ayant le logical\_ID : temperature\_min
 
-````
+````php
 $this->getCmd(null, 'temperature_min');
 ````
 
 Here it allows to put the value in the tag, only if the order has been retrieved
 
-````
+````php
 $replace['#temperature#'] = is_object($temperature) ? $temperature->execCmd() : '';
 ````
 
-Important passage: this allows you to retrieve the customizations made by the user on the General → Display page and to re-inject them into the template
+Passage important: cela permet de récupérer les personnalisations faites par l'utilisateur sur la page Générale → Affichage et de les réinjecter dans le template
 
-````
+````php
 $parameters = $this->getDisplay('parameters');
-if (is_array($parameters)) {
+yew (is_array($parameters)) {
     foreach ($parameters as $key => $value) {
         $replace['#' . $key . '#'] = $value;
     }
@@ -680,17 +678,17 @@ if (is_array($parameters)) {
 
 Saving the widget in the cache: so that during the next request we provide it faster, we can notice the 0 here which indicates an infinite lifespan, otherwise the duration is in seconds (we will see in the next part how the weather plugin updates its widget).
 
-````
-cache::set('weatherWidget' . $_version . $this->getId(), $html, 0);
+````php
+cache::set ('weatherWidget' . $_version . $this->getId(), $html, 0);
 ````
 
-Finally send html to Jeedom :
+Enfin envoi du l'opération à mener à Jeedom :
 
-````
+````php
 return $html;
 ````
 
-You should also tell Jeedom what your widget allows for personalization. It's a bit complex (and again) but normally flexible and simple to set up.
+You must also tell Jeedom what your widget allows in terms of customization. It's a bit complex (and again) but normally flexible and simple to set up.
 
 It works the same way on your equipment or control, it is a static attribute of the class \ $\_ widgetPossibility which must be a multidimensional array, but it is there that it becomes complicated if a dimension of the array is true or false. It then considers that all possible children are at this value (I will give an example).
 
@@ -711,10 +709,10 @@ When creating or deleting your objects (equipment, order or other) in Jeedom, it
 
 Example, always with the weather plugin for creating orders or updating them after saving (the example is simplified) :
 
-````
+````php
 public function postUpdate() {
       $weatherCmd = $this->getCmd(null, 'temperature');
-      if (!is_object($weatherCmd)) {
+      yew (!is_object ($ weatherCmd)) {
           $weatherCmd = new weatherCmd();
       }
       $weatherCmd->setName(__('Température', __FILE__));
@@ -728,7 +726,7 @@ public function postUpdate() {
       $weatherCmd->save();
 
       $cron = cron::byClassAndFunction('weather', 'updateWeatherData', array('weather_id' => intval($this->getId())));
-      if (!is_object($cron)) {
+      yew (!is_object ($ cron)) {
           $cron = new cron();
           $cron->setClass('weather');
           $cron->setFunction('updateWeatherData');
@@ -739,14 +737,14 @@ public function postUpdate() {
 }
 ````
 
-The start is fairly standard with the creation of a command, the end is more interesting with the implementation of a cron which will call the method ``weather::updateWeatherData`` by passing the id of the equipment to update every 30min by default.
+Le début est assez standard avec la création d'une commande, la fin est plus intéressante avec la mise en place d'un cron qui va appeler la méthode ``weather::updateWeatherData`` en passant l'ID de l'équipement à mettre à jour toute les 30min par défaut.
 
-Here the updateWeatherData method (also simplified) :
+Ici la méthode updateWeatherData (simplifiée aussi) :
 
-````
+````php
 public static function updateWeatherData($_options) {
   $weather = weather::byId($_options['weather_id']);
-  if (is_object($weather)) {
+  yew (is_object($weather)) {
       foreach ($weather->getCmd('info') as $cmd) {
         $weather->checkAndUpdateCmd($cmd,$cmd->execute());
       }
@@ -758,15 +756,15 @@ We see here that during the call we recover the equipment concerned then we exec
 
 Very important part :
 
-````
+````php
 $weather->checkAndUpdateCmd($cmd,$cmd->execute());
 ````
 
-At the time of the function ``checkAndUpdateCmd`` (which allows to signal to Jeedom a new update of the value, with triggering of all the actions which must be made : update of the dashboard, verification of scenarios…),
+Au moment de la fonction ``checkAndUpdateCmd`` (qui permet de signaler à Jeedom une nouvelle mise à jour de la valeur, avec déclenchement de toutes les actions qui doivent être faites : mise à jour du dashboard, vérification des scénarios…​),
 
-For the command class, a little trick to know if you use the basic js template. When sending the Jeedom equipment makes the differential on the orders and will delete those which are in base but not in the new definition of the equipment. This is how to avoid it :
+Pour la classe commande, un petit truc à savoir si vous utilisez le template js de base. Lors de l'envoi de l'équipement Jeedom fait du différentiel sur les commandes et va supprimer celles qui sont en base mais pas dans la nouvelle définition de l'équipement. Voilà comment l'éviter :
 
-````
+````php
 public function dontRemoveCmd() {
   return true;
 }
@@ -777,11 +775,11 @@ To finish here are some tips and tricks :
 - avoid (unless you know what you are doing) overwriting a method of the inherited class (this can cause a lot of problems)
 - To reassemble the battery (in%) of an equipment, do it (Jeedom will take care of the rest and warn the user if necessary) :
 
-````
+````php
 $eqLogic->batteryStatus(56);
 ````
 
-- On orders when adding a value Jeedom applies the instance method ``formatValue($_value)`` which, depending on the subtype, can reshape it (especially for binary values)
-- NEVER do a method in the class inheriting from cmd called : execCmd or event
-- if in the configuration of your order you have entered returnStateTime (in minutes) and returnStateValue, Jeedom will automatically change the value of your order by returnStateValue after X minutes (s)
-- always for the order you can use addHistoryValue to force the setting in history (attention your order must be historical)
+- Sur les commandes au moment de l'ajout d'une valeur Jeedom applique la méthode d'instance ``formatValue($_value)`` qui, en fonction du sous-type, peut la remettre en forme (en particulier pour les valeurs binaires)
+- ne faites JAMAIS une méthode dans la class héritant de cmd s'appelant : execCmd ou event
+- si dans la configuration de votre commande vous avez renseigné returnStateTime (en minute) et returnStateValue, Jeedom changera automatique la valeur de votre commande par returnStateValue au bout de X minute(s)
+- toujours pour la commande vous pouvez utiliser addHistoryValue pour forcer la mise en historique (attention votre commande doit être historisée)

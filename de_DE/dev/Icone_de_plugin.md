@@ -6,9 +6,9 @@ Dieses Symbol wird für Benutzer auf dem Markt und über die Jeedom-Oberfläche 
 
 Sie müssen eine Datei im PNG-Format mit 309 x 348 Pixel erstellen.
 
-Der Dateiname ist wie folgt aufgebaut: <plugin-id>_icon.png
+Der Dateiname ist wie folgt aufgebaut: ``<plugin-id> _icon.png`
 
-Es muss im Ordner / plugin-info / gespeichert werden
+Es muss im Ordner `/ plugin-info /` gespeichert werden
 
 Diese Datei ist erforderlich.
 

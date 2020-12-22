@@ -2,38 +2,37 @@
 
 ## Requisitos previos
 
-- Registrarse como desarrollador, ver [aquí](https://www.jeedom.com/site/fr/dev.html)
-- A la espera de la validación de la cuenta de mercado como desarrollador
-- Tenga su complemento en github (depósito privado o no))
+- Registrarse como desarrollador, ver [aquí](https://www.jeedom.com/site/fr/dev.html).
+- A la espera de la validación de la cuenta de mercado como desarrollador.
+- Tenga su complemento en github (depósito privado o no)).
 
 ## Configuration
 
-Una vez conectado con su cuenta de desarrollador en el mercado, debe : 
+Una vez conectado con su cuenta de desarrollador en el mercado, debe :
 
-- haga clic en el mercado y luego agregue
-- complete la información en su complemento : 
-  - Principal : 
-    - Prix
-    - Id (el que está en el archivo info.json)
-    - Nom
-    - Categoría
-    - Si es privado o no comenzar
+- Haga clic en el mercado y luego agregue
+- Complete la información en su complemento :
+  - Principal :
+    - Precio.
+    - Id (el que está en el archivo info.json).
+    - Nombre.
+    - Categoría.
+    - Ya sea privado o no.
   - Documentación y enlaces
-    - la descripción (bueno, lo importante es que la mayoría de los usuarios no verán la documentación antes de la compra)
-    - Las lenguas
-    - hardware compatible
-    - una nota sobre el uso si es necesario
-  - Github : aquí es donde colocará la información entre el mercado y Github
-    - el token (para poner solo si su complemento está en un depósito privado)
-    - tu nombre de usuario github
-    - el nombre del repositorio en github
-    - marque la casilla del mercado para administrar la traducción de su complemento y documentación (tenga cuidado en este caso de otorgar todos los derechos al usuario zoic21 de github en su repositorio de github)
-    
-   Una vez guardado volviendo a la pestaña github, tendrá 3-4 campos para indicar las ramas : 
-   
-   - beta
-   - stable
-   - pro (es inútil en el 99% de los casos)
-   - stablev3 (próximamente)
-   
-   La sincronización se realiza automáticamente todos los días a las 12.10 p.m. (tenga en cuenta la cantidad de complementos y las restricciones de llamadas después de que la actualización comience a las 12.10 p.m. pero tome varias diez horas). También puede iniciar una sincronización manual de una rama desde el archivo de complemento
+    - Descripción (asegúrese de hacer los puntos importantes, la mayoría de los usuarios no verán la documentación antes de comprar).
+    - Las lenguas.
+    - Hardware compatible
+    - Una nota sobre el uso si es necesario.
+  - Github : aquí es donde colocará la información entre el mercado y Github.
+    - El token (para poner solo si su complemento está en un depósito privado).
+    - Tu nombre de usuario github.
+    - El nombre del repositorio en github.
+    - Marque la casilla para que el mercado gestione la traducción de su complemento y la documentación (tenga cuidado en este caso de otorgar todos los derechos al usuario `jeedom-market` de github en su repositorio de github).
+
+   Una vez guardado, al regresar a la pestaña de github, puede indicar las ramas :
+
+   - Beta
+   - Stable
+   - V3 (solo si tiene una rama diferente para el soporte de Jeedom v3).
+
+   La sincronización se realiza automáticamente todos los días a las 12.10 p.m. (tenga en cuenta la cantidad de complementos y las restricciones de llamadas después de que la actualización comience a las 12.10 p.m. pero tome varias diez horas). También puede iniciar una sincronización manual de una rama desde el archivo del complemento.

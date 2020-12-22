@@ -1,6 +1,8 @@
 ## Plugin development
 
-#### General documentation
+A [developer account](https://blog.jeedom.com/jeedom-partenaire/) is required to access the developers section on [Community](https://community.jeedom.com/) and be able to publish plugins on the [Market](https://market.jeedom.com).
+
+### General documentation
 
 - [Presentation](/en_US/dev/tutorial_plugin)
 
@@ -12,7 +14,7 @@
 - [Plugin template](/en_US/dev/plugin_template)
 
 
-#### Core evolutions and plugins adaptations
+### Core evolutions and plugins adaptations
 
 - [Core v4.2](/en_US/dev/core4.2)
 - [Core v4.1](/en_US/dev/core4.1)

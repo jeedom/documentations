@@ -1,6 +1,8 @@
 ## Desarrollo de complementos
 
-#### Documentación general
+Una [cuenta de desarrollador](https://blog.jeedom.com/jeedom-partenaire/) es necesario para acceder a la sección de desarrolladores en [Comunidad](https://community.jeedom.com/) y poder publicar complementos en el [Mercado](https://market.jeedom.com).
+
+### Documentación general
 
 - [Presentación](/es_ES/dev/tutorial_plugin)
 
@@ -12,7 +14,7 @@
 - [Plantilla de complemento](/es_ES/dev/plugin_template)
 
 
-#### Evoluciones principales y adaptaciones de complementos
+### Evoluciones principales y adaptaciones de complementos
 
 - [Core v4.2](/es_ES/dev/core4.2)
 - [Core v4.1](/es_ES/dev/core4.1)

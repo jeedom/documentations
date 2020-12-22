@@ -162,14 +162,14 @@ var docMenu = [
       {link:"/#LANG#/howtoadvance/",fr_FR:"Tutoriaux avancés",en_US:"Advanced tutorials",es_ES:"Tutoriales avanzados",de_DE:"Erweiterte Tutorials",pt_PT:""}
     ]
   },{
-    fr_FR:'Développer sur Jeedom',
-    en_US : 'Developpe on Jeedom',
-    es_ES : "Desarrollar en Jeedom",
-    de_DE : "Entwickle auf Jeedom",
-    pt_PT : "Desenvolva no Jeedom",
+    fr_FR:'Développeurs',
+    en_US : 'Developers',
+    es_ES : "Desarrolladores",
+    de_DE : "Entwickler",
+    pt_PT : "Desenvolvedores",
     submenu:[
       {link:"/#LANG#/contribute/",fr_FR:"Contribuer",en_US:"Contribute",es_ES:"Contribuir",de_DE:"Bijdragen",pt_PT:"Contribuir"},
-      {link:"/#LANG#/dev/",fr_FR:"Développez pour Jeedom",en_US:"Develop for Jeedom",es_ES:"Desarrollar para Jeedom",de_DE:"Entwickle für Jeedom",pt_PT:""},
+      {link:"/#LANG#/dev/",fr_FR:"Plugins",en_US:"Plugins",es_ES:"Complementos",de_DE:"Plugins",pt_PT:"Plugins"},
       {link:"/#LANG#/core/4.0/api_http",fr_FR:"Api HTTP",en_US:"Api HTTP",es_ES:"Api HTTP",de_DE:"Api HTTP",pt_PT:"Api HTTP"},
       {link:"/#LANG#/core/4.0/jsonrpc_api",fr_FR:"API JsonRPC",en_US:"API JsonRPC",es_ES:"API JsonRPC",de_DE:"API JsonRPC",pt_PT:"API JsonRPC"},
       {link:"/dev/phpdoc/#VERSION#",fr_FR:"PhpDoc",en_US:"PhpDoc",es_ES:"PhpDoc",de_DE:"PhpDoc",pt_PT:"PhpDoc"},
@@ -364,12 +364,12 @@ $(function(){
 });
 
 function setTheme(){
-  if(getCookie('theme') == 'dark'){
+  if (getCookie('theme') == 'dark') {
     $('html').addClass('dark')
-    if($('#sel_theme').val() != 'dark'){
+    if ($('#sel_theme').val() != 'dark') {
       $('#sel_theme').val('dark');
     }
-  }else{
+  } else {
     $('html').removeClass('dark')
   }
 }

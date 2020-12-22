@@ -11,26 +11,26 @@ Entonces, nada especial, la función toHtml debe devolver el widget en html, tie
 
 Lo importante son sobre todo las primeras líneas :
 
-````
+````php
 $replace = $this->preToHtml($_version);
-if (!is_array($replace)) {
-	return $replace;
+tejo (!is_array ($ reemplazar)) {
+	return $ reemplazar;
 }
 ````
 
-La función preToHtml devuelve :
+La fonction preToHtml renvoi :
 
-- una cadena si el widget está almacenado en caché (si está almacenado en caché, significa que no ha habido cambios desde la última generación, por lo que también puede devolverlo inmediatamente)
-- una tabla con los reemplazos principales, tienes la lista [aquí](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
+- une string si le widget est en cache (si il est en cache, c'est qu'il n'y a pas eu de changements depuis la dernière génération donc autant le renvoyer tout de suite)
+- un tableau avec les replaces principaux, vous avez la liste [aquí](https://github.com/jeedom/core/blob/alpha/core/class/eqLogic.class.php#L663)
 
-## El sistema de plantillas
+## Le système de template
 
-El sistema de plantilla de widgets en el código es exactamente el mismo que el de la página Herramientas -> Widget de jeedom.
+Le système de template de widget dans le code est en fait exactement le même que celui sur la page Outils -> Widget de jeedom.
 
-Aquí un ejemplo :
+Voaquí un exemple :
 
-````
-public static function templateWidget(){
+````php
+plantilla de función estática pública(){
 	$return = array('info' => array('string' => array()));
 	$return['info']['string']['state'] = array(
 		'template' => 'tmplmultistate',
@@ -40,7 +40,7 @@ public static function templateWidget(){
 			array('operation' => '#value# > 3 || #value# < 2','state' => '<i class="fa fa-home"></i>')
 		)
 	);
-	return $return;
+	return $ return;
 }
 ````
 
@@ -56,29 +56,29 @@ Ejemplo : para la primera prueba, decimos que si el valor del comando vale 2, en
 
 Otro ejemplo basado en otra plantilla podría ser :
 
-````
-public static function templateWidget(){
+````php
+plantilla de función estática pública(){
 	$return = array('info' => array('string' => array()));
 	$return['info']['binary']['toto'] = array(
-		'template' => 'tmplicon',
-		'replace' => array(
+		'template '=>' tmplicon',
+		'reemplazar '=> matriz(
 			'#_icon_on_#' => '<i class=\'icon_green icon jeedom-porte-ferme\'></i>',
 			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
 			)
 	);
-	return $return;
+	return $ return;
 }
 ````
 
-Aquí, creo un widget toto basado en la plantilla "tmplicon" en tipo de información y subtipo binario. Cuando sea 1, el icono será <i class='icon_green icon jeedom-porte-ferme'></i> y cuando sea 0, será </i>
+Ici, je crée un widget toto basé sur le template "tmplicon" en type info et sous-type binaire. Quand il vaut 1 alors l'icône sera <i class='icon_green icon jeedom-porte-ferme'></i> et quand il vaut 0, ça sera <i class='icon_red icon jeedom-porte-ouverte'></i>
 
->**Consejos**
+>**TIPS**
 >
-> Pequeño consejo, puede en lugar de un icono poner una etiqueta de imagen (preste atención a la ruta)
+> Petite astuce, vous pouvez à la place d'une icône mettre une balise image (attention au chemin)
 
-Luego para usar tu widget :
+Ensuite, pour utiliser votre widget :
 
-````
+````php
 $cmd->setTemplate('dashboard','neato::state');
 $cmd->setTemplate('mobile','neato::state');
 ````

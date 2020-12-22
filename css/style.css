@@ -526,7 +526,8 @@ details div {
   margin-left: 20px
 }
 
-code {
+code,
+div.highlighter-rouge pre.highlight {
   background: var(--sc-form-color);
   color: var(--scBlocSep);
 }
