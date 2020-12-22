@@ -1,5 +1,7 @@
 ## Plugin development
 
+A [developer account](https://blog.jeedom.com/jeedom-partenaire/) is required to access the developers section on [Community](https://community.jeedom.com/) and be able to publish plugins on the [Market](https://market.jeedom.com).
+
 #### General documentation
 
 - [Presentation](/en_US/dev/tutorial_plugin)

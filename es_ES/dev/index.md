@@ -1,5 +1,7 @@
 ## Desarrollo de complementos
 
+Una [cuenta de desarrollador](https://blog.jeedom.com/jeedom-partenaire/) es necesario para acceder a la sección de desarrolladores en [Comunidad](https://community.jeedom.com/) y poder publicar complementos en el [Mercado](https://market.jeedom.com).
+
 #### Documentación general
 
 - [Presentación](/es_ES/dev/tutorial_plugin)
