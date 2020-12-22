@@ -1,5 +1,7 @@
 ## Développement de plugin
 
+Un [compte développeur](https://blog.jeedom.com/jeedom-partenaire/) est nécessaire pour accéder à la section développeurs sur [Community](https://community.jeedom.com/) et pouvoir publier des plugins sur le [Market](https://market.jeedom.com).
+
 #### Documentation générale
 
 - [Présentation](/fr_FR/dev/tutorial_plugin)
