@@ -2,7 +2,7 @@
 
 Un [compte développeur](https://blog.jeedom.com/jeedom-partenaire/) est nécessaire pour accéder à la section développeurs sur [Community](https://community.jeedom.com/) et pouvoir publier des plugins sur le [Market](https://market.jeedom.com).
 
-#### Documentation générale
+### Documentation générale
 
 - [Présentation](/fr_FR/dev/tutorial_plugin)
 
@@ -14,7 +14,7 @@ Un [compte développeur](https://blog.jeedom.com/jeedom-partenaire/) est nécess
 - [Plugin template](/fr_FR/dev/plugin_template)
 
 
-#### Évolutions du Core et adaptations des plugins
+### Évolutions du Core et adaptations des plugins
 
 - [Core v4.2](/fr_FR/dev/core4.2)
 - [Core v4.1](/fr_FR/dev/core4.1)
