@@ -15,7 +15,7 @@
 
 En v4.1 se ha revisado y unificado la visualización de la selección del objeto padre de un dispositivo. La lista se sangra según el padre y se ordena como en el menú **Inicio → Tablero**, como se define en **Herramientas → Objetos**, Resumen.
 
-Para tener la misma lógica en los complementos, complemento / escritorio / archivo de complemento.php :
+Para tener la misma lógica en los complementos, plugin / desktop / php / plugin file.php :
 
 `` ''php
 <select id="sel_object" class="eqLogicAttr form-control" data-l1key="object_id">
