@@ -70,9 +70,10 @@ Récupérer également [Sublime Text portable 64bit](https://www.sublimetext.com
 
 Décompressez les deux archives et placez les dans `C:\Program Files`.
 
-Indiquez à **Sublime Merge** l'éditeur de fichier :
+Indiquez à **Sublime Merge** l'éditeur de fichiers :
 
-![Editeur](images/sbm_settings1.jpg){:height="432px" width="867px"}
+
+{% include lightbox.html src="images/sbm_settings1.jpg" data="settings" title="Editeur de fichiers" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 Puis clonez le repository. Ici, si vous avez les droits sur le repository du Core, clonez le, sinon *forkez* le sur votre compte GitHub et clonez votre *fork*.
 
