@@ -607,7 +607,7 @@
         "En effet, on ne développe pas sur une configuration de production": "In der Tat entwickeln wir keine Produktionskonfiguration",
         "Installation sur Raspberry Pi": "Installation auf Raspberry Pi",
         "Pour l'installation de Jeedom, la doc est là": "Für die Installation von Jeedom ist die Dokumentation vorhanden",
-        "Ensuite, on installa Samba, en SSH": "Dann haben wir Samba in SSH installiert",
+        "Ensuite, on installe Samba, en SSH": "Dann installieren wir Samba in SSH",
         "`sudo apt-get install samba -y`": "`sudo apt-get install samba -y`",
         "On met un mot de passe": "Wir geben ein Passwort ein",
         "`sudo smbpasswd www-data` puis entrez votre": "`sudo smbpasswd www-data` dann geben Sie Ihre",

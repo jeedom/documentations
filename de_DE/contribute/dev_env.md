@@ -9,10 +9,10 @@ Natürlich können wir für die schnelle Bearbeitung einiger Dateien das Plugin 
 ### Principe
 
 - Wir werden einen Test-Pi mit Jeedom und einer Samba-Freigabe einrichten, um vom PC darauf zugreifen zu können.
-- Wir werden dann das Repository mit duplizieren *Erhabene Verschmelzung*
-- Dann einrichten *Erhabener Text* zum Bearbeiten von Code aus dem Repository mit Synchronisation auf dem Test-Pi.
+- Wir werden dann das Repository mit duplizieren **Erhabene Verschmelzung**
+- Dann einrichten **Erhabener Text** zum Bearbeiten von Code aus dem Repository mit Synchronisation auf dem Test-Pi.
 
-*Erhabene Verschmelzung* und *Erhabener Text* sind sicherlich nicht kostenlos (ein niedriger Preis mit 3 Jahren Update), aber sehr leicht, schnell, einfach anpassbar und sehr vollständig, ohne viele Plugins / Pakete zu benötigen. Wenn Sie keine Lizenz erwerben, können Sie diese normal verwenden. Ab und zu wird nur ein kleines Popup mit einem Knopf angezeigt *Stornieren* !
+**Erhabene Verschmelzung** und **Erhabener Text** sind sicherlich nicht kostenlos (ein niedriger Preis mit 3 Jahren Update), aber sehr leicht, schnell, einfach anpassbar und sehr vollständig, ohne viele Plugins / Pakete zu benötigen. Wenn Sie keine Lizenz erwerben, können Sie diese normal verwenden. Ab und zu wird nur ein kleines Popup mit einem Knopf angezeigt *Stornieren* !
 
 Diese Methode ist auch mit anderen Werkzeugen möglich, wie z *Atom* und *GitHub Desktop*.
 
@@ -22,7 +22,7 @@ Das erste, was Sie tun müssen, wenn Sie Kernfunktionen oder ein Plugin entwicke
 
 Für die Installation von Jeedom ist die Dokumentation vorhanden : [Installation auf Raspberry Pi](https:/./.doc.jeedom.com/de_DE/installation/.rpi)
 
-Dann haben wir Samba in SSH installiert :
+Dann installieren wir Samba in SSH :
 
 `sudo apt-get install samba -y`
 

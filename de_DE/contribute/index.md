@@ -10,11 +10,11 @@ Bevor Sie Code selbst entwickeln, empfehlen wir, ihn auf der Website zu diskutie
 
 Die Jeedom-Dokumentation wird auf dieser Site durch verschiedene Mechanismen zentralisiert. Wie beim Jeedom Core ist die Dokumentation auf Github und Open Source verfügbar.
 
-[Beitrag zur Dokumentation](/de_DE/contribute/doc)
+- [Beitrag zur Dokumentation](/de_DE/contribute/doc)
 
 ### Core
 
 Wie man zur Entwicklung des Jeedom Core, seiner Struktur und der Organisation von Versionen beiträgt.
 
-[Tragen Sie zur Entwicklung des Kerns bei](/de_DE/contribute/core)
-[Entwicklungsumgebung](/de_DE/contribute/dev_env)
+- [Tragen Sie zur Entwicklung des Kerns bei](/de_DE/contribute/core)
+- [Entwicklungsumgebung](/de_DE/contribute/dev_env)

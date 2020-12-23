@@ -282,7 +282,7 @@
         "En effet, on ne développe pas sur une configuration de production": "En effet, on ne développe pas sur une configuration de production",
         "Installation sur Raspberry Pi": "Installation sur Raspberry Pi",
         "Pour l'installation de Jeedom, la doc est là": "Pour l'installation de Jeedom, la doc est là",
-        "Ensuite, on installa Samba, en SSH": "Ensuite, on installa Samba, en SSH",
+        "Ensuite, on installe Samba, en SSH": "Ensuite, on installe Samba, en SSH",
         "`sudo apt-get install samba -y`": "`sudo apt-get install samba -y`",
         "On met un mot de passe": "On met un mot de passe",
         "password": "password",

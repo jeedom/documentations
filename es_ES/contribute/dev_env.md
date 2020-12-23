@@ -9,10 +9,10 @@ Ciertamente, para ediciones rápidas de algunos archivos, podemos usar el comple
 ### Principe
 
 - Vamos a configurar un Pi de prueba con Jeedom y un recurso compartido de Samba para acceder a él desde la PC.
-- Luego duplicaremos el repositorio con *Fusión sublime*
-- Entonces configura *Texto sublime* para editar código desde el repositorio con sincronización en el Pi de prueba.
+- Luego duplicaremos el repositorio con **Fusión sublime**
+- Entonces configura **Texto sublime** para editar código desde el repositorio con sincronización en el Pi de prueba.
 
-*Fusión sublime* y *Texto sublime* ciertamente se pagan (un precio bajo con 3 años de actualización), pero son muy livianos, rápidos, fácilmente personalizables y muy completos sin requerir muchos complementos / paquetes. Además, si no obtiene una licencia, puede usarlas normalmente, solo aparecerá una pequeña ventana emergente de vez en cuando con un botón *Cancelar* !
+**Fusión sublime** y **Texto sublime** ciertamente se pagan (un precio bajo con 3 años de actualización), pero son muy livianos, rápidos, fácilmente personalizables y muy completos sin requerir muchos complementos / paquetes. Además, si no obtiene una licencia, puede usarlas normalmente, solo aparecerá una pequeña ventana emergente de vez en cuando con un botón *Cancelar* !
 
 Este método también es posible con otras herramientas, como *Átomo* y *Escritorio de GitHub*.
 

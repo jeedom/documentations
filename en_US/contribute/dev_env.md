@@ -9,10 +9,10 @@ Certainly, for quick edits of a few files, we can use the plugin **JeeXplorer** 
 ### Principe
 
 - We are going to set up a test Pi with Jeedom and a Samba share to access it from the PC.
-- We will then duplicate the repository with *Sublime Merge*
-- Then set up *Sublime Text* for editing code from the repository with synchronization on the test Pi.
+- We will then duplicate the repository with **Sublime Merge**
+- Then set up **Sublime Text** for editing code from the repository with synchronization on the test Pi.
 
-*Sublime Merge* and *Sublime Text* are certainly not free (a low price with 3 years update), but are very light, fast, easily customizable and very complete without requiring lots of plugins / packages. Also if you don't take a license you can use them normally, you will just get a little popup every now and then with a button *Cancel* !
+**Sublime Merge** and **Sublime Text** are certainly not free (a low price with 3 years update), but are very light, fast, easily customizable and very complete without requiring lots of plugins / packages. Also if you don't take a license you can use them normally, you will just get a little popup every now and then with a button *Cancel* !
 
 This method is also possible with other tools, such as *Atom* and *GitHub Desktop*.
 
@@ -22,7 +22,7 @@ The first thing to do if you are developing Core functions or a plugin : Set up 
 
 For the installation of Jeedom, the documentation is there : [Installation on Raspberry Pi](https://doc.jeedom.com/en_US/installation/rpi)
 
-Then, we installed Samba, in SSH :
+Then, we install Samba, in SSH :
 
 `sudo apt-get install samba -y`
 

@@ -10,11 +10,11 @@ Before developing any code on your own, we recommend discussing it on the [discu
 
 Jeedom documentation is centralized on this site, by several mechanisms. Like the Jeedom Core, the documentation is accessible on Github and Open-Source.
 
-[Contribute to documentation](/en_US/contribute/doc)
+- [Contribute to documentation](/en_US/contribute/doc)
 
 ### Core
 
 How to contribute to the development of the Jeedom Core, its structure, the organization of versions.
 
-[Contribute to the development of the Core](/en_US/contribute/core)
-[Development environment](/en_US/contribute/dev_env)
+- [Contribute to the development of the Core](/en_US/contribute/core)
+- [Development environment](/en_US/contribute/dev_env)
