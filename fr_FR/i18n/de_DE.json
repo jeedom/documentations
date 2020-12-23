@@ -42,5 +42,15 @@
         "[OVH]": "[OVH]",
         "*OVH*": "*OVH*",
         " OVH*": " OVH*"
+    },
+    ".\/test.md": {
+        "Page de test": "Testseite",
+        " lightbox.": " Leuchtkasten.",
+        " lightbox?": " Leuchtkasten?",
+        "lightbox ": "Leuchtkasten ",
+        " lightbox]": " Leuchtkasten]",
+        "[lightbox]": "[Leuchtkasten]",
+        "*lightbox*": "*Leuchtkasten*",
+        " lightbox*": " Leuchtkasten*"
     }
 }
