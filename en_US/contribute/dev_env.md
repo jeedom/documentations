@@ -72,7 +72,8 @@ Unzip the two archives and place them in `C:\ Program Files`.
 
 Indicate to **Sublime Merge** file editor :
 
-![Editeur](images/sbm_settings1.jpg){:height="432px" width="867px"}
+
+{% include lightbox.html src="images/sbm_settings1.jpg" data="settings" title="Editeur de fichiers" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 Then clone the repository. Here, if you have rights to the Core repository, clone it, otherwise *fork* it on your GitHub account and clone your *fork*.
 

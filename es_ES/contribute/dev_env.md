@@ -72,7 +72,8 @@ Descomprima los dos archivos y colóquelos en `C:\ Archivos de programa`.
 
 Indicar a **Fusión sublime** editor de archivos :
 
-![Editeur](images/ /sbm_settings1.jpg){:height="432px" width="867px"}
+
+{% include lightbox.html src="images/ /sbm_settings1.jpg" data="settings" title="Editeur de fichiers" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 Luego clona el repositorio. Aquí, si tiene derechos sobre el repositorio Core, clónelo, de lo contrario *tenedor* en tu cuenta de GitHub y clona tu *tenedor*.
 
