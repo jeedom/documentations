@@ -24,8 +24,8 @@ Handy                   | Wenn das Plugin ein spezielles Panel in der Jeedom-Web
 Dokumentation *          | HTML-Link zur Plugin-Dokumentation.                                                                                |
 Link -> Video               | HTML-Link zu einer Videopräsentation.                                                                                 |
 Link -> Forum               | HTML-Link zum Forum zum offiziellen Thema des Plugins.                                                                  |
-Sprachen                | Liste der für das Plugin verfügbaren Sprachen:Französisch, Englisch, Deutsch, Italienisch, Spanisch, Russisch, Indonesisch            |
-Kompatibilität            | Plugin-Kompatibilität: Miniplus, Smart, Docker, RPI, DIY, Mobileapp.                                                   |
+Sprachen                | Liste der für das Plugin verfügbaren Sprachen:fr_FR, en_US, de_DE, it_IT, sp_SP, ru_RU, pt_PT            |
+Kompatibilität            | Plugin-Kompatibilität: Miniplus, Smart, Docker, RPI, DIY, Mobileapp, v4.                                                   |
 hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
 hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
 maxDependancyInstallTime | Maximal zulässige Zeit für die Installation von Abhängigkeiten, ausgedrückt in Minuten.                                            |

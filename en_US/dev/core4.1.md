@@ -13,9 +13,9 @@
 
 #### List of parent objects
 
-In v4.1 the display of the selection of the parent object of a device has been revised and unified. The list is now ordered, and indented according to the parent.
+In v4.1 the display of the selection of the parent object of a device has been revised and unified. The list is indented according to the parent, and ordered as in the menu **Home → Dashboard**, as defined in **Tools → Objects**, Overview.
 
-To have the same logic in the plugins, plugin / desktop / plugin file.php :
+To have the same logic in the plugins, plugin / desktop / php / plugin file.php :
 
 `` ''php
 <select id="sel_object" class="eqLogicAttr form-control" data-l1key="object_id">

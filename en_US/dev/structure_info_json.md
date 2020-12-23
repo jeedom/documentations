@@ -24,8 +24,8 @@ Changelog *              | Html link to Changelog.                              
 Documentation *          | Html link to plugin documentation.                                                                                |
 link -> video               | Html link to a video presentation.                                                                                 |
 link -> forum               | Html link to the forum on the official subject of the plugin.                                                                  |
-languages                | List of languages available for the plugin:french, english, german, italian, spanish, russian, indonesian            |
-compatibility            | Plugin compatibility: miniplus, smart, docker, rpi, diy, mobileapp.                                                   |
+languages                | List of languages available for the plugin:fr_FR, en_US, de_DE, it_IT, sp_SP, ru_RU, pt_PT            |
+compatibility            | Plugin compatibility: miniplus, smart, docker, rpi, diy, mobileapp, v4.                                                   |
 hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
 hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
 maxDependancyInstallTime | Maximum time allowed for the installation of dependencies, expressed in minutes.                                            |

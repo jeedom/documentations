@@ -24,8 +24,8 @@ Cambios *              | Enlace HTML al registro de cambios.                    
 Documentación *          | Enlace HTML a la documentación del complemento.                                                                                |
 enlace -> video               | Enlace HTML a una presentación de video.                                                                                 |
 enlace -> foro               | Enlace HTML al foro sobre el tema oficial del complemento.                                                                  |
-idiomas                | Lista de idiomas disponibles para el complemento:francés, inglés, alemán, italiano, español, ruso, indonesio            |
-compatibilidad            | Compatibilidad de complementos: miniplus, inteligente, acoplador, rpi, bricolaje, mobileapp.                                                   |
+idiomas                | Lista de idiomas disponibles para el complemento:fr_FR, en_US, de_DE, it_IT, sp_SP, ru_RU, pt_PT            |
+compatibilidad            | Compatibilidad de complementos: miniplus, inteligente, ventana acoplable, rpi, bricolaje, mobileapp, v4.                                                   |
 hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
 hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
 maxDependancyInstallTime | Tiempo máximo permitido para la instalación de dependencias, expresado en minutos.                                            |

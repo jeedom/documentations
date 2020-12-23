@@ -324,17 +324,17 @@ Andere Javascript-Funktionen können verwendet werden :
 - ``printEqLogic`` Dabei wird das gesamte Objekt des Geräts als Parameter verwendet (nützlich bei der Datenverarbeitung vor der Wiederherstellung). Es wird aufgerufen, wenn die Gerätedaten angezeigt werden
 - ``saveEqLogic`` Als Parameter wird das Geräteobjekt verwendet, das in der Datenbank gespeichert wird (nützlich, wenn Sie vor dem Speichern eine Verarbeitung durchführen müssen). Als letztes können Sie JS-Dateien auf saubere Weise in Ihre PHP-Seite aufnehmen :
 
-````
+````php
 <?php include_file('desktop', 'weather', 'js', 'weather');; ?>
 ````
 
-Das erste Argument gibt den Ordner an, in dem es gefunden werden soll (Aufmerksamkeit ist der übergeordnete Ordner des JS-Ordners), das zweite den Namen Ihres Javascript, das dritte sagt Jeedom, dass es sich um eine JS-Datei handelt, und das letzte, in dem es sich befindet befindet sich.
+Le premier argument donne le dossier dans lequel le trouver (attention c'est le dossier père du dossier JS), le deuxième le nom de votre javascript, le troisième indique à Jeedom que c'est un fichier Js et le dernier dans quel plugin il se trouve.
 
 ## CSS
 
-Dieser Ordner enthält Ihre CSS-Dateien (er sollte nicht zu häufig verwendet werden). So fügen Sie sie in Ihre Seite ein :
+Ce dossier contient vos fichiers CSS (il ne devrait pas être trop utilisé) , vohier comment les inclure sur votre page :
 
-````
+````php
 <?php include_file('desktop', 'weather', 'css', 'weather');; ?>
 ````
 
