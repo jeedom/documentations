@@ -9,10 +9,10 @@ Certes, pour des éditions rapide de quelques fichiers, on peut utiliser le plug
 ### Principe
 
 - Nous allons mettre en place un Pi de test avec Jeedom et un partage Samba pour y accéder depuis le PC.
-- Nous allons ensuite dupliquer le repository avec *Sublime Merge*
-- Puis mettre en place *Sublime Text* pour l'édition de code du repository avec synchronisation sur le Pi de test.
+- Nous allons ensuite dupliquer le repository avec **Sublime Merge**
+- Puis mettre en place **Sublime Text** pour l'édition de code du repository avec synchronisation sur le Pi de test.
 
-*Sublime Merge* et *Sublime Text* sont certes payant (un prix faible avec 3 ans de maj), mais sont très léger, rapide, facilement customisable et très complet sans nécessiter pleins de plugins/packages. De plus, si vous ne prenez pas de licence, vous pouvez les utiliser normalement, vous aurez juste un petit popup de temps en temps avec un bouton *Cancel* !
+**Sublime Merge** et **Sublime Text** sont certes payant (un prix faible avec 3 ans de maj), mais sont très léger, rapide, facilement customisable et très complet sans nécessiter pleins de plugins/packages. De plus, si vous ne prenez pas de licence, vous pouvez les utiliser normalement, vous aurez juste un petit popup de temps en temps avec un bouton *Cancel* !
 
 Cette méthode est également possible avec d'autres outils, comme *Atom* et *GitHub Desktop*.
 
@@ -22,7 +22,7 @@ La première chose à faire si vous développer des fonctions du Core ou un plug
 
 Pour l'installation de Jeedom, la doc est là : [Installation sur Raspberry Pi](https://doc.jeedom.com/fr_FR/installation/rpi)
 
-Ensuite, on installa Samba, en SSH :
+Ensuite, on installe Samba, en SSH :
 
 `sudo apt-get install samba -y`
 
