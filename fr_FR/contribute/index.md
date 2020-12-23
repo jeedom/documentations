@@ -17,3 +17,4 @@ La documentation de Jeedom est centralisée sur ce site, par plusieurs mécanism
 Comment contribuer au développement du Core de Jeedom, sa structure, l'organisation des versions.
 
 [Contribuer au développement du Core](/fr_FR/contribute/core)
+[Environnement de développement](/fr_FR/contribute/dev_env)
