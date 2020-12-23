@@ -72,14 +72,13 @@ Décompressez les deux archives et placez les dans `C:\Program Files`.
 
 Indiquez à **Sublime Merge** l'éditeur de fichiers :
 
-
 {% include lightbox.html src="images/sbm_settings1.jpg" data="settings" title="Editeur de fichiers" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 Puis clonez le repository. Ici, si vous avez les droits sur le repository du Core, clonez le, sinon *forkez* le sur votre compte GitHub et clonez votre *fork*.
 
 **File / Clone Repository ...**
 
-![Clone Repository](images/sbm_clonerepo.jpg){:height="364px" width="697px"}
+{% include lightbox.html src="images/sbm_clonerepo.jpg" data="settings" title="Clone Repository" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 
 ### Mise en place de l'édition
