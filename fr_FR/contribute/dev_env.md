@@ -83,7 +83,7 @@ Puis dupliquez le repository. Ici, si vous avez les droits sur le repository du 
 
 Dans **Sublime Text**, *Project* / *Edit Project*, définissez le répertoire de votre repository :
 
-```
+```json
 {
   "folders":
   [
@@ -112,7 +112,7 @@ On va donc configurer **Sublime Text** pour que, quand on sauve un fichier, il l
 
 Allez dans le répertoire `C:\Program Files\SublimeText3\Data\Packages\User` et créez un fichier `onSaveCopy.py`. Editez le et, après avoir modifier les bon chemins, enregistrez le code suivant:
 
-```
+```py
 import sublime, sublime_plugin, os
 from shutil import copyfile
 
