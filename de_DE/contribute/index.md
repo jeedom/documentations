@@ -17,3 +17,4 @@ Die Jeedom-Dokumentation wird auf dieser Site durch verschiedene Mechanismen zen
 Wie man zur Entwicklung des Jeedom Core, seiner Struktur und der Organisation von Versionen beiträgt.
 
 [Tragen Sie zur Entwicklung des Kerns bei](/de_DE/contribute/core)
+[Entwicklungsumgebung](/de_DE/contribute/dev_env)
