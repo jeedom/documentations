@@ -17,7 +17,7 @@ En v4.1 se ha revisado y unificado la visualización de la selección del objeto
 
 Para tener la misma lógica en los complementos, plugin / desktop / php / plugin file.php :
 
-`` ''php
+````php
 <select id="sel_object" class="eqLogicAttr form-control" data-l1key="object_id">
   <option value="">{{Aucun}}</option>
   <?php
@@ -28,7 +28,7 @@ Para tener la misma lógica en los complementos, plugin / desktop / php / plugin
   echo $ opciones;
   ?>
 </select>
-`` ''
+````
 
-> Esta modificación es compatible con Core v4.0 y v3.x
+> Cette modification est compatible Core v4.0 et v3.x
 

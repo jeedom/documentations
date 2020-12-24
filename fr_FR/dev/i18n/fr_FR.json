@@ -129,13 +129,9 @@
         "Vue d'ensemble": "Vue d'ensemble",
         "Pour avoir la même logique dans les plugins, fichier plugin\/desktop\/php\/plugin": "Pour avoir la même logique dans les plugins, fichier plugin\/desktop\/php\/plugin",
         "php": "php",
-        "```php": "```php",
         "foreach ((jeeObject": "foreach ((jeeObject",
         "buildTree(null, false)) as $object": "buildTree(null, false)) as $object",
-        "echo $options;": "echo $options;",
-        "```": "```",
-        "Cette modification est compatible Core v4": "Cette modification est compatible Core v4",
-        "0 et v3.x": "0 et v3.x"
+        "echo $options;": "echo $options;"
     },
     "dev\/core4.2.md": {
         "Développeurs de plugin": "Développeurs de plugin",

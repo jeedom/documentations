@@ -17,7 +17,7 @@ In v4.1 Die Anzeige der Auswahl des übergeordneten Objekts eines Geräts wurde 
 
 Um die gleiche Logik in den Plugins zu haben, geben Sie die Datei plugin / desktop / php / plugin ein.php :
 
-`` ''php
+````php
 <select id="sel_object" class="eqLogicAttr form-control" data-l1key="object_id">
   <option value="">{{Aucun}}</option>
   <?php
@@ -28,7 +28,7 @@ Um die gleiche Logik in den Plugins zu haben, geben Sie die Datei plugin / deskt
   echo $ options;
   ?>
 </select>
-`` ''
+````
 
-> Diese Änderung ist mit Core v4 kompatibel.0 und v3.x
+> Cette modification est compatible Core v4.0 et v3.x
 

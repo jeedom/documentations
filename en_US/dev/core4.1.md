@@ -17,7 +17,7 @@ In v4.1 the display of the selection of the parent object of a device has been r
 
 To have the same logic in the plugins, plugin / desktop / php / plugin file.php :
 
-`` ''php
+````php
 <select id="sel_object" class="eqLogicAttr form-control" data-l1key="object_id">
   <option value="">{{Aucun}}</option>
   <?php
@@ -28,7 +28,7 @@ To have the same logic in the plugins, plugin / desktop / php / plugin file.php 
   echo $ options;
   ?>
 </select>
-`` ''
+````
 
-> This modification is Core v4 compatible.0 and v3.x
+> Cette modification est compatible Core v4.0 et v3.x
 

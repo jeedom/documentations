@@ -38,7 +38,7 @@ Edit the samba configuration :
 
 Add :
 
-`` ''
+````text
 wins support = yes
 
 [jeedomRoot]
@@ -49,43 +49,43 @@ force user = www-data
 force group = www-data
 read only = No
 guest ok = Yes
-`` ''
+````
 
-And restart samba:
+Et redémarrez samba:
 
-`sudo / etc / init.d / smbd restart`
+`sudo /etc/init.d/smbd restart`
 
-Under Windows, in a file explorer, enter the IP address of the Pi `\\ 192.168.xx`
+Sous Windows, dans un explorateur de fichier, entrez l'adresse IP du Pi `\\192.168.x.x`
 
-Right click on `jeedomRoot` then` Connect a network drive ... `
+Faites un clic droit sur `jeedomRoot` puis `Connecter un lecteur réseau...`
 
-Under Windows, you now have a `jeedomRoot` Network Disk !
+Sous Windows, vous avez donc maintenant un Disque Réseau `jeedomRoot` !
 
 
-### Setting up the local repository
+### Mise en place du repository local
 
-To duplicate the repository locally and be able to work on it, we will recover [Sublime Merge portable](https://www.sublimemerge.com/download).
+Pour dupliquer le repository en local and pouvoir travailler dessus, nous allons récupérer [Sublime Merge portable](https://www.sublimemerge.com/download).
 
-Also recover [Sublime Text portable 64bit](https://www.sublimetext.com/3).
+Récupérer également [Sublime Text portable 64bit](https://www.sublimetext.com/3).
 
-Unzip the two archives and place them in `C:\ Program Files`.
+Décompressez les deux archives and placez les dans `C:\Program Files`.
 
-Indicate to **Sublime Merge** file editor :
+Indiquez à **Sublime Merge** l'éditeur de fichiers :
 
 {% include lightbox.html src="images/sbm_settings1.jpg" data="settings" title="Editeur de fichiers" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
-Then clone the repository. Here, if you have rights to the Core repository, clone it, otherwise *fork* it on your GitHub account and clone your *fork*.
+Puis clonez le repository. Ici, si vous avez les droits sur le repository du Core, clonez le, sinon *forkez* le sur votre compte GitHub and clonez votre *fork*.
 
 **File / Clone Repository ...**
 
 {% include lightbox.html src="images/sbm_clonerepo.jpg" data="settings" title="Clone Repository" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 
-### Setting up the edition
+### Mise en place de l'édition
 
-IN **Sublime Text**, *Project* / *Edit Project*, define the directory of your repository :
+Dans **Sublime Text**, *Project* / *Edit Project*, définissez le répertoire de votre repository :
 
-`` ''json
+````json
 {
   "folders":
   [
@@ -95,11 +95,11 @@ IN **Sublime Text**, *Project* / *Edit Project*, define the directory of your re
     },
     {
       "name": "___Pi_JeedomAlpha___",
-      "path": "\\\\ 192.168.0.110 \\ jeedomRoot"
+      "path": "\\\\192.168.0.110\\jeedomRoot"
     }
   ]
 }
-`` ''
+````
 
 Here, adding the path of the test Pi is not mandatory, but it is still practical.
 
@@ -113,7 +113,7 @@ We will therefore configure **Sublime Text** so that, when you save a file, it w
 
 Go to the directory `C:\ Program Files \ SublimeText3 \ Data \ Packages \ User` and create an `onSaveCopy.py` file. Edit it and, after modifying the correct paths, save the following code:
 
-`` ''py
+````py
 import sublime, sublime_plugin, bone
 from shutil import copyfile
 
@@ -127,15 +127,15 @@ class EventListener (sublime_plugin.EventListener ):
     if gitHub_repoCore in path:
       rpi_path = fullPath.replace (gitHub_repoCore, rpi_root)
       copyfile (fullPath, rpi_path)
-`` ''
+````
 
-And There you go !
+Et voilà !
 
-Whenever you save a file, if it is part of the local repository, **Sublime Text** will also copy it to the right place on your Pi. Ctrl-S, F5 on the Pi and that's it ! If all is well, stage / commit / push in **Sublime Merge**.
+A chaque fois que vous sauvez un fichier, si celui-ci fait partie du repository local, **Sublime Text** va également le copier au bon endroit sur votre Pi. Ctrl-S, F5 sur le Pi and voilà ! Si tout est bon, stage/commit/push dans **Sublime Merge**.
 
-If you revert any changes, making a *Discard* IN **Sublime Merge**, remember to right-click, *Open in Editor*, and Ctrl-S to put it back on the Pi.
+Si vous annulez des modifications, en faisant un *Discard* dans **Sublime Merge**, pensez à faire un clic-droit, *Open in Editor*, and Ctrl-S pour le remettre sur le Pi.
 
-And of course, be careful when you update the Pi, you will overwrite the Core files that you have modified.
+Et bien sûr, attention quand vous mettez à jour le Pi, vous allez écraser les fichiers du Core que vous avez modifié.
 
 
-You can of course follow the same method to set up your repository and synchronization on your plugins.
+Vous pouvez bien sûr suivre la même méthode pour mettre en place vos repository and synchronisation sur vos plugins.

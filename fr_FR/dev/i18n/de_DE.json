@@ -255,9 +255,6 @@
         "foreach ((jeeObject": "foreach ((jeeObject",
         "buildTree(null, false)) as $object": "buildTree (null, false)) als $ object",
         "echo $options;": "echo $ options;",
-        "```": "`` ''",
-        "Cette modification est compatible Core v4": "Diese Änderung ist mit Core v4 kompatibel",
-        "0 et v3.x": "0 und v3.x",
         " Suppression.": " Unterdrückung.",
         " Suppression?": " Unterdrückung?",
         "Suppression ": "Unterdrückung ",
@@ -278,14 +275,7 @@
         " php]": " php]",
         "[php]": "[php]",
         "*php*": "*php*",
-        " php*": " php*",
-        " ```php.": " `` php.",
-        " ```php?": " `` php?",
-        "```php ": "`` php ",
-        " ```php]": " `` php]",
-        "[```php]": "[`` php]",
-        "*```php*": "*`` php*",
-        " ```php*": " `` php*"
+        " php*": " php*"
     },
     "dev\/core4.2.md": {
         "Développeurs de plugin": "Plugin-Entwickler",

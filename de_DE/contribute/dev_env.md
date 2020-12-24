@@ -20,7 +20,7 @@ Diese Methode ist auch mit anderen Werkzeugen möglich, wie z **Atom** (was eini
 
 Das erste, was Sie tun müssen, wenn Sie Kernfunktionen oder ein Plugin entwickeln : Richten Sie eine Testkonfiguration ein. In der Tat entwickeln wir keine Produktionskonfiguration !
 
-Für die Installation von Jeedom ist die Dokumentation vorhanden : [Installation auf Raspberry Pi](https:/./.doc.jeedom.com/de_DE/installation/.rpi).
+Für die Installation von Jeedom ist die Dokumentation vorhanden : [Installation auf Raspberry Pi](https://doc.jeedom.com/de_DE/installation/rpi).
 
 Achtung, ziehen Sie eine SSD einer SD-Karte vor !
 
@@ -38,7 +38,7 @@ Bearbeiten Sie die Samba-Konfiguration :
 
 Hinzufügen :
 
-`` ''
+````text
 gewinnt Unterstützung = ja
 
 [jeedomRoot]
@@ -49,43 +49,43 @@ Benutzer erzwingen = www-Daten
 Kraftgruppe = www-Daten
 schreibgeschützt = Nein
 Gast ok = Ja
-`` ''
+````
 
-Und starten Sie Samba neu:
+Et redémarrez samba:
 
-`sudo / etc / init.d / smbd Neustart`
+`sudo /etc/init.d/smbd restart`
 
-Geben Sie unter Windows in einem Datei-Explorer die IP-Adresse des Pi `\\ 192.168.xx` ein
+Sous Windows, dans un explorateur de fichier, entrez l'adresse IP du Pi `\\192.168.x.x`
 
-Klicken Sie mit der rechten Maustaste auf "jeedomRoot" und dann auf "Netzlaufwerk verbinden ..."
+Faites un clic droit sur `jeedomRoot` puis `Connecter un lecteur réseau...`
 
-Unter Windows haben Sie jetzt eine `jeedomRoot`-Netzwerkdiskette !
-
-
-### Einrichten des lokalen Repositorys
-
-Um das Repository lokal zu duplizieren und daran arbeiten zu können, werden wir es wiederherstellen [Sublime Merge tragbar](https:/./.www.sublimemerge.com/.download).
-
-Auch erholen [Sublime Text tragbare 64bit](https:/./.www.sublimetext.com/.3).
-
-Entpacken Sie die beiden Archive und platzieren Sie sie in `C:\ Programme`.
-
-Geben Sie an **Erhabene Verschmelzung** Datei-Editor :
-
-{% include lightbox.html src="images/.sbm_settings1.jpg" data="settings" title="Editeur de fichiers" imgstyle="width:450px;display: block;margin: 0 auto;" %}
-
-Klonen Sie dann das Repository. Wenn Sie Rechte am Core-Repository haben, klonen Sie es andernfalls *Gabel* es auf Ihrem GitHub-Konto und klonen Sie Ihre *Gabel*.
-
-**Datei- / Klon-Repository ...**
-
-{% include lightbox.html src="images/.sbm_clonerepo.jpg" data="settings" title="Clone Repository" imgstyle="width:450px;display: block;margin: 0 auto;" %}
+Sous Windows, vous avez donc maintenant un Disque Réseau `jeedomRoot` !
 
 
-### Einrichten der Edition
+### Mise en place du repository local
 
-IN **Erhabener Text**, *Projekt* /. *Projekt bearbeiten*, Definieren Sie das Verzeichnis Ihres Repositorys :
+Pour dupliquer le repository en local und pouvoir travailler dessus, nous allons récupérer [Erhabene Verschmelzung portable](https://www.sublimemerge.com/download).
 
-`` ''json
+Récupérer également [Erhabener Text portable 64bit](https://www.sublimetext.com/3).
+
+Décompressez les deux archives und placez les dans `C:\Program Files`.
+
+Indiquez à **Erhabene Verschmelzung** l'éditeur de fichiers :
+
+{% include lightbox.html src="images/sbm_settings1.jpg" data="settings" title="Editeur de fichiers" imgstyle="width:450px;display: block;margin: 0 auto;" %}
+
+Puis clonez le repository. Ici, si vous avez les droits sur le repository du Core, clonez le, sinon *forkez* le sur votre compte GitHub und clonez votre *fork*.
+
+**File / Clone Repository ...**
+
+{% include lightbox.html src="images/sbm_clonerepo.jpg" data="settings" title="Clone Repository" imgstyle="width:450px;display: block;margin: 0 auto;" %}
+
+
+### Mise en place de l'édition
+
+Dans **Erhabener Text**, *Project* / *Edit Project*, définissez le répertoire de votre repository :
+
+````json
 {
   "folders":
   [
@@ -95,11 +95,11 @@ IN **Erhabener Text**, *Projekt* /. *Projekt bearbeiten*, Definieren Sie das Ver
     },
     {
       "name": "___Pi_JeedomAlpha___",
-      "path": "\\\\ 192.168.0.110 \\ jeedomRoot"
+      "path": "\\\\192.168.0.110\\jeedomRoot"
     }
   ]
 }
-`` ''
+````
 
 Hier ist das Hinzufügen des Pfades des Test-Pi nicht obligatorisch, aber dennoch praktisch.
 
@@ -113,7 +113,7 @@ Wir werden daher konfigurieren **Erhabener Text** Wenn Sie eine Datei speichern,
 
 Gehen Sie in das Verzeichnis `C:\ Programme \ SublimeText3 \ Data \ Packages \ User` und erstellen Sie eine `onSaveCopy.py`-Datei. Bearbeiten Sie es und speichern Sie nach dem Ändern der richtigen Pfade den folgenden Code:
 
-`` ''py
+````py
 Importieren Sie Sublime, Sublime_plugin, Bone
 von Shutil Import Copyfile
 
@@ -127,15 +127,15 @@ Klasse EventListener (sublime_plugin.EventListener ):
     if gitHub_repoCore im Pfad:
       rpi_path = fullPath.ersetzen (gitHub_repoCore, rpi_root)
       copyfile (fullPath, rpi_path)
-`` ''
+````
 
-Und los geht's !
+Et voilà !
 
-Wann immer Sie eine Datei speichern, wenn sie Teil des lokalen Repositorys ist, **Erhabener Text** kopiert es auch an die richtige Stelle auf Ihrem Pi. Strg-S, F5 auf dem Pi und das wars ! Wenn alles in Ordnung ist, inszenieren / festschreiben / einschieben **Erhabene Verschmelzung**.
+A chaque fois que vous sauvez un fichier, si celui-ci fait partie du repository local, **Erhabener Text** va également le copier au bon endroit sur votre Pi. Ctrl-S, F5 sur le Pi und voilà ! Si tout est bon, stage/commit/push dans **Erhabene Verschmelzung**.
 
-Wenn Sie Änderungen rückgängig machen, nehmen Sie a *Verwerfen* IN **Erhabene Verschmelzung**, Denken Sie daran, mit der rechten Maustaste zu klicken, *Im Editor öffnen*, und Strg-S, um es wieder auf den Pi zu setzen.
+Si vous annulez des modifications, en faisant un *Discard* dans **Erhabene Verschmelzung**, pensez à faire un clic-droit, *Open in Editor*, und Ctrl-S pour le remettre sur le Pi.
 
-Und natürlich sollten Sie beim Aktualisieren des Pi vorsichtig sein, da Sie die von Ihnen geänderten Core-Dateien überschreiben.
+Et bien sûr, attention quand vous mettez à jour le Pi, vous allez écraser les fichiers du Core que vous avez modifié.
 
 
-Sie können natürlich dieselbe Methode anwenden, um Ihr Repository und die Synchronisierung auf Ihren Plugins einzurichten.
+Vous pouvez bien sûr suivre la même méthode pour mettre en place vos repository und synchronisation sur vos plugins.
