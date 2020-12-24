@@ -72,14 +72,13 @@ Entpacken Sie die beiden Archive und platzieren Sie sie in `C:\ Programme`.
 
 Geben Sie an **Erhabene Verschmelzung** Datei-Editor :
 
-
 {% include lightbox.html src="images/.sbm_settings1.jpg" data="settings" title="Editeur de fichiers" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 Klonen Sie dann das Repository. Wenn Sie Rechte am Core-Repository haben, klonen Sie es andernfalls *Gabel* es auf Ihrem GitHub-Konto und klonen Sie Ihre *Gabel*.
 
 **Datei- / Klon-Repository ...**
 
-![Clone Repository](images/.sbm_clonerepo.jpg){:height="364px" width="697px"}
+{% include lightbox.html src="images/.sbm_clonerepo.jpg" data="settings" title="Clone Repository" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 
 ### Einrichten der Edition
