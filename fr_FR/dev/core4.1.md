@@ -17,7 +17,7 @@ En v4.1 l'affichage de la sélection de l'objet parent d'un équipement a été 
 
 Pour avoir la même logique dans les plugins, fichier plugin/desktop/php/plugin.php :
 
-```php
+````php
 <select id="sel_object" class="eqLogicAttr form-control" data-l1key="object_id">
   <option value="">{{Aucun}}</option>
   <?php
@@ -28,7 +28,7 @@ Pour avoir la même logique dans les plugins, fichier plugin/desktop/php/plugin.
   echo $options;
   ?>
 </select>
-```
+````
 
 > Cette modification est compatible Core v4.0 et v3.x
 

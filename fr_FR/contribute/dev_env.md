@@ -38,7 +38,7 @@ Configurez un mot de passe pour www-data (le root de Jeedom) :
 
 Ajoutez :
 
-```
+````text
 wins support = yes
 
 [jeedomRoot]
@@ -49,7 +49,7 @@ force user = www-data
 force group = www-data
 read only = No
 guest ok = Yes
-```
+````
 
 Et redémarrez samba:
 
@@ -85,7 +85,7 @@ Puis clonez le repository. Ici, si vous avez les droits sur le repository du Cor
 
 Dans **Sublime Text**, *Project* / *Edit Project*, définissez le répertoire de votre repository :
 
-```json
+````json
 {
   "folders":
   [
@@ -99,7 +99,7 @@ Dans **Sublime Text**, *Project* / *Edit Project*, définissez le répertoire de
     }
   ]
 }
-```
+````
 
 Ici, ajoutez le path du Pi de test n'est pas obligatoire, mais c'est toujours pratique.
 
@@ -113,7 +113,7 @@ On va donc configurer **Sublime Text** pour que, quand on sauve un fichier, il l
 
 Allez dans le répertoire `C:\Program Files\SublimeText3\Data\Packages\User` et créez un fichier `onSaveCopy.py`. Éditez le et, après avoir modifié les bon chemins, enregistrez le code suivant:
 
-```py
+````py
 import sublime, sublime_plugin, os
 from shutil import copyfile
 
@@ -127,7 +127,7 @@ class EventListener( sublime_plugin.EventListener ):
     if gitHub_repoCore in path:
       rpi_path = fullPath.replace(gitHub_repoCore, rpi_root)
       copyfile(fullPath, rpi_path)
-```
+````
 
 Et voilà !
 
