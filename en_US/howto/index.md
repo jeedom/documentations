@@ -9,6 +9,7 @@
 # Equipment
 - [Raspberrypi 3](/en_US/howto/raspberrypi3)
 - [Factory refurbishment of a smart](/en_US/installation/smart)
+- [](/en_US/howto/migrationos.smart)
 
 # Archive
 - [WiFi key on mini](/en_US/howto/mini.clef_wifi)

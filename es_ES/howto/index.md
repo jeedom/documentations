@@ -9,6 +9,7 @@
 # Hardware
 - [Raspberrypi 3](/es_ES/howto/raspberrypi3)
 - [Renovación de fábrica de un smart](/es_ES/installation/smart)
+- [](/es_ES/howto/migrationos.smart)
 
 # Archive
 - [Llave WiFi en mini](/es_ES/howto/mini.clef_wifi)

@@ -9,6 +9,7 @@
 # Hardware
 - [Himbeerpi 3](/de_DE/howto/raspberrypi3)
 - [Fabriksanierung eines smart](/de_DE/installation/smart)
+- [](/de_DE/howto/migrationos.smart)
 
 # Archive
 - [WiFi-Schlüssel auf Mini](/de_DE/howto/mini.clef_wifi)
