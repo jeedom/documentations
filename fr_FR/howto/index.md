@@ -9,6 +9,7 @@
 # Matériel
 - [Raspberrypi 3](/fr_FR/howto/raspberrypi3)
 - [Remise en état d'usine d'une smart](/fr_FR/installation/smart)
+- [Mettre à niveau l'environnement Debian d'une Smart](/fr_FR/howto/migrationos.smart)
 
 # Archive
 - [Clef wifi sur mini](/fr_FR/howto/mini.clef_wifi)
