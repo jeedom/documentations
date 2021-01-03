@@ -30,7 +30,7 @@ Tiene la posibilidad de iniciar el procedimiento de migración de 2 formas :
 
 ### Etapa 1
 
-El primer paso de la migración es preparar y verificar el hardware. Los requisitos previos mencionados anteriormente se recuperan mediante una ventana emergente y se le solicita que inserte una llave USB *(formateado en FAT32)* con más de 8 GB de espacio libre en la caja inteligente.
+El primer paso de la migración es preparar y verificar el hardware.  *(formateado en FAT32)* con más de 8 GB de espacio libre en la caja inteligente.
 
 ![Insérer clé USB](images/migrateos-smart03.png)
 
@@ -46,7 +46,7 @@ Aún así, le recomendamos que se asegure de tener una copia de seguridad recien
 
 ![Sauvegarde de Jeedom](images/migrateos-smart05.png)
 
-La duración de la fase de respaldo dependerá del tamaño de su instalación y de las opciones de respaldo remoto implementadas. Puede acelerar el proceso desactivando el envío de copias de seguridad de Market o Samba de antemano.
+La duración de la fase de respaldo dependerá del tamaño de su instalación y de las opciones de respaldo remoto implementadas. .
 
 ![Copie de la sauvegarde en la memoria USB](images/migrateos-smart06.png)
 
@@ -66,7 +66,7 @@ Con mucho, el paso más importante porque es la migración real del hardware. So
 
 ![Migración de la Smart](images/migrateos-smart09.png)
 
-Este paso dura unos treinta minutos, después de los cuales se reiniciará la caja inteligente. Es probable que este primer reinicio lleve algún tiempo :
+. Es probable que este primer reinicio lleve algún tiempo :
 
 ![Redémarrage de la Smart](images/migrateos-smart10.png)
 
@@ -77,6 +77,10 @@ Al final del proceso de migración, la caja inteligente se encuentra ahora en un
 ![Finalisation migration](images/migrateos-smart11.png)
 
 Felicitaciones, su Smart Box ahora está actualizado y operativo !
+
+>**Importante**
+>
+>.
 
 ## Preguntas frecuentes
 

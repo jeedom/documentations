@@ -30,7 +30,7 @@ Sie haben die Möglichkeit, den Migrationsvorgang auf zwei Arten zu starten :
 
 ### Stufe 1
 
-Der erste Schritt bei der Migration besteht darin, die Hardware vorzubereiten und zu überprüfen. Die zuvor genannten Voraussetzungen werden von einem Popup-Fenster abgerufen und Sie werden aufgefordert, einen USB-Stick einzustecken *(in FAT32 formatiert)* mit mehr als 8 GB freiem Speicherplatz in der Smart Box.
+Der erste Schritt bei der Migration besteht darin, die Hardware vorzubereiten und zu überprüfen.  *(in FAT32 formatiert)* mit mehr als 8 GB freiem Speicherplatz in der Smart Box.
 
 ![Insérer clé USB](images/migrateos-smart03.png)
 
@@ -46,7 +46,7 @@ Wir empfehlen weiterhin, dass Sie sicherstellen, dass ein aktuelles Jeedom-Backu
 
 ![Sauvegarde de Jeedom](images/migrateos-smart05.png)
 
-Die Dauer der Sicherungsphase hängt von der Größe Ihrer Installation und den implementierten Remote-Sicherungsoptionen ab. Sie können den Prozess beschleunigen, indem Sie das Senden von Market- oder Samba-Backups im Voraus deaktivieren.
+Die Dauer der Sicherungsphase hängt von der Größe Ihrer Installation und den implementierten Remote-Sicherungsoptionen ab. .
 
 ![Copie de la sauvegarde auf dem USB-Stick](images/migrateos-smart06.png)
 
@@ -66,7 +66,7 @@ Bei weitem der wichtigste Schritt, da es sich um die eigentliche Migration der H
 
 ![Migration de la Smart](images/migrateos-smart09.png)
 
-Dieser Schritt dauert ungefähr 30 Minuten. Danach wird die Smart Box neu gestartet. Dieser erste Neustart wird wahrscheinlich einige Zeit dauern :
+. Dieser erste Neustart wird wahrscheinlich einige Zeit dauern :
 
 ![Redémarrage de la Smart](images/migrateos-smart10.png)
 
@@ -77,6 +77,10 @@ Am Ende des Migrationsprozesses befindet sich die Smart Box nun in einer aktuell
 ![Finalisation migration](images/migrateos-smart11.png)
 
 Herzlichen Glückwunsch, Ihre Smart Box ist jetzt auf dem neuesten Stand und betriebsbereit !
+
+>**Wichtig**
+>
+>.
 
 ## Häufig gestellte Fragen
 
