@@ -22,10 +22,10 @@ Il faut notamment :
 
 Vous avez la possibilité d'initier la procédure de migration de 2 manières :
 
-- En vous dirigeant vers le menu **Réglages → Système → Restauration Image** :
+- En vous dirigeant vers le menu **Réglages → Système → Restauration Image** :     
 ![Menu Restauration Image](images/migrateos-smart01.png)
 
-- En y étant invité dans le **centre de mise à jour** lorsque cela sera nécessaire :
+- En y étant invité dans le **centre de mise à jour** lorsque cela sera nécessaire :     
 ![Mettre à niveau centre de MAJ](images/migrateos-smart02.png)
 
 ### Étape 1
