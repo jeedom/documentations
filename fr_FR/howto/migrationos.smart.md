@@ -80,7 +80,7 @@ Félicitations votre box Smart est maintenant à jour et opérationnelle !
 
 >**IMPORTANT**
 >
->Veillez a bien retirer la clé USB de la box Smart à la fin de l'opération.
+>Veillez à bien retirer la clé USB de la box Smart à la fin de l'opération.
 
 ## Foire aux questions
 
