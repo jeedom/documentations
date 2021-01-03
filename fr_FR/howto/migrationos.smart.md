@@ -32,11 +32,17 @@ Vous avez la possibilité d'initier la procédure de migration de 2 manières :
 
 La première étape de la migration consiste à préparer et vérifier le matériel. Les prérequis mentionnés précédemment sont rappelés dans une fenêtre pop-up et vous êtes invité à insérer une clé USB *(formatée en FAT32)* disposant de plus de 8Go d'espace libre dans la box Smart.
 
+Une fois la clé USB insérée, vous pouvez cliquer sur la flèche pour lancer le processus :
+
 ![Insérer clé USB](images/migrateos-smart03.png)
 
 Lorsque les prérequis sont validés, nous pouvons passer à l'étape 2 :
 
 ![Clé USB vérifiée](images/migrateos-smart04.png)
+
+>**INFORMATION**
+>
+>Il n'est pas nécessaire de rester devant l'écran durant tout le processus. Celui-ci va se dérouler automatiquement jusqu'à proposer de restaurer une sauvegarde.
 
 ### Étape 2
 
