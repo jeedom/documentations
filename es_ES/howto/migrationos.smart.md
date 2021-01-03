@@ -32,11 +32,17 @@ Tiene la posibilidad de iniciar el procedimiento de migración de 2 formas :
 
 El primer paso de la migración es preparar y verificar el hardware. Los requisitos previos mencionados anteriormente se recuperan en una ventana emergente y se le solicita que inserte una llave USB *(formateado en FAT32)* con más de 8 GB de espacio libre en la caja inteligente.
 
+Una vez que se inserta la memoria USB, puede hacer clic en la flecha para iniciar el proceso :
+
 ![Insérer clé USB](images/migrateos-smart03.png)
 
 Cuando se validan los prerrequisitos, podemos ir al paso 2 :
 
 ![Clé USB vérifiée](images/migrateos-smart04.png)
+
+>**Información**
+>
+>No es necesario que permanezca frente a la pantalla durante todo el proceso. Esto se llevará a cabo automáticamente hasta que ofrezca restaurar una copia de seguridad.
 
 ### Etapa 2
 

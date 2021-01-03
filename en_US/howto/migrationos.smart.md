@@ -32,11 +32,17 @@ You have the possibility to initiate the migration procedure in 2 ways :
 
 The first step in the migration is to prepare and verify the hardware. The previously mentioned prerequisites are recalled in a pop-up window and you are prompted to insert a USB key *(formatted in FAT32)* with more than 8GB of free space in the Smart box.
 
+Once the USB stick is inserted, you can click on the arrow to start the process :
+
 ![Insérer clé USB](images/migrateos-smart03.png)
 
 When the prerequisites are validated, we can go to step 2 :
 
 ![Clé USB vérifiée](images/migrateos-smart04.png)
+
+>**Information**
+>
+>You don't have to stay in front of the screen during the whole process. This will take place automatically until you offer to restore a backup.
 
 ### Step 2
 
