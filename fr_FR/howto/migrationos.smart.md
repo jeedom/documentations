@@ -30,7 +30,7 @@ Vous avez la possibilité d'initier la procédure de migration de 2 manières :
 
 ### Étape 1
 
-La première étape de la migration consiste à préparer et vérifier le matériel. Les prérequis mentionnés précédemment sont rappelés par une fenêtre pop-up et vous êtes invité à insérer une clé USB *(formatée en FAT32)* disposant de plus de 8Go d'espace libre dans la box Smart.
+La première étape de la migration consiste à préparer et vérifier le matériel. Les prérequis mentionnés précédemment sont rappelés dans une fenêtre pop-up et vous êtes invité à insérer une clé USB *(formatée en FAT32)* disposant de plus de 8Go d'espace libre dans la box Smart.
 
 ![Insérer clé USB](images/migrateos-smart03.png)
 
@@ -46,7 +46,7 @@ Nous vous recommandons tout de même de vous assurer d'avoir une sauvegarde réc
 
 ![Sauvegarde de Jeedom](images/migrateos-smart05.png)
 
-La durée de la phase de sauvegarde sera dépendante de la taille de votre installation et des options de sauvegarde déportée mises en place. Vous avez la possibilité d'accélérer le processus en désactivant l'envoi des sauvegardes Market ou Samba au préalable.
+La durée de la phase de sauvegarde sera dépendante de la taille de votre installation et des options de sauvegarde déportée mises en place. Vous avez la possibilité d'accélérer le processus en désactivant l'envoi des sauvegardes Market et/ou Samba au préalable.
 
 ![Copie de la sauvegarde sur la clé USB](images/migrateos-smart06.png)
 
@@ -66,7 +66,7 @@ De loin l'étape la plus importante car il s'agit de la migration effective du m
 
 ![Migration de la Smart](images/migrateos-smart09.png)
 
-Cette étape dure une trentaine de minutes au termes desquelles la box Smart va redémarrer. Ce premier redémarrage est susceptible de durer un certain temps :
+Cette étape dure une trentaine de minutes au terme desquelles la box Smart va redémarrer. Ce premier redémarrage est susceptible de durer un certain temps :
 
 ![Redémarrage de la Smart](images/migrateos-smart10.png)
 
@@ -77,6 +77,10 @@ A l'issue du processus de migration, la box Smart est maintenant sur un environn
 ![Finalisation migration](images/migrateos-smart11.png)
 
 Félicitations votre box Smart est maintenant à jour et opérationnelle !
+
+>**IMPORTANT**
+>
+>Veillez a bien retirer la clé USB de la box Smart à la fin de l'opération.
 
 ## Foire aux questions
 
