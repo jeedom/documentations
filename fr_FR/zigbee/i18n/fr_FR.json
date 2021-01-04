@@ -2,12 +2,12 @@
     "zigbee\/equipement.compatible.md": {
         "iaomi": "iaomi",
         "iaomi Aquara inondation": "iaomi Aquara inondation",
-        "iaomi Aquara switch": "iaomi Aquara switch",
         "iaomi Aquara de mouvement": "iaomi Aquara de mouvement",
         "iaomi Aquara capteur d'ouverture": "iaomi Aquara capteur d'ouverture",
         "iaomi prise": "iaomi prise",
         "Capteur de température\/pression\/humidité": "Capteur de température\/pression\/humidité",
         "ioami Aquara Vibration": "ioami Aquara Vibration",
+        "iaomi Aquara switch": "iaomi Aquara switch",
         "iaomi Aquara switch Aq2": "iaomi Aquara switch Aq2",
         "iaomi Aquara fumée": "iaomi Aquara fumée",
         "iaomi capteur de mouvement": "iaomi capteur de mouvement",
@@ -26,7 +26,9 @@
         "Type": "Type",
         "Remarque": "Remarque",
         "Lien": "Lien",
+        "0 Prise WIFI intelligente 16A Prise EU": "0 Prise WIFI intelligente 16A Prise EU",
         "Tuya": "Tuya",
+        "BlitzWolf BW-SHP13 Zigbee 3": "BlitzWolf BW-SHP13 Zigbee 3",
         "Interrupteur double": "Interrupteur double",
         "Interrupteur simple": "Interrupteur simple",
         "Moes": "Moes",
@@ -97,6 +99,7 @@
         "OSRAM Smart+ Plug": "OSRAM Smart+ Plug",
         "3 Tunable White": "3 Tunable White",
         "OSRAM SMART+ Spot GU5": "OSRAM SMART+ Spot GU5",
+        "Lightify Switch Mini": "Lightify Switch Mini",
         "OSRAM LIGHTIFY Indoor Flex RGBW": "OSRAM LIGHTIFY Indoor Flex RGBW",
         "OSRAM Smart+ Ampoule LED Connectée - Culot E27": "OSRAM Smart+ Ampoule LED Connectée - Culot E27",
         "Orvibo": "Orvibo",
@@ -127,9 +130,12 @@
         "Bulb GU10 WW 400lm": "Bulb GU10 WW 400lm",
         "Bulb GU10 WS 400lm": "Bulb GU10 WS 400lm",
         "TRADFRI bulb E27 WW 806lm": "TRADFRI bulb E27 WW 806lm",
+        "Bulb E27 WS opal 980lm": "Bulb E27 WS opal 980lm",
+        "Bulb E27 WS opal 1000lm": "Bulb E27 WS opal 1000lm",
         "Bulb E27 CWS opal 600lm": "Bulb E27 CWS opal 600lm",
         "Bulb E14 W opch 400lm": "Bulb E14 W opch 400lm",
-        "Bulb E14 opal 600lm": "Bulb E14 opal 600lm",
+        "Bulb E14 WS opal 600lm": "Bulb E14 WS opal 600lm",
+        "Bulb E14 WS 470lm": "Bulb E14 WS 470lm",
         "Driver 30W": "Driver 30W",
         "Driver 10W": "Driver 10W",
         "Ikea TRADFRI Symfonisk sound controller": "Ikea TRADFRI Symfonisk sound controller",
@@ -191,6 +197,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-01-03 01": "2021-01-03 01"
+        "2021-01-04 01": "2021-01-04 01"
     }
 }

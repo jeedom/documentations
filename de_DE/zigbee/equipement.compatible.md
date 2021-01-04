@@ -108,9 +108,12 @@
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.SYMFONISK_Sound_Controller.png" width="60" />|Ikea|Ikea TRADFRI Symfonisk Soundcontroller|Fernbedienung|||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_10W.png" width="60" />|Ikea|10W Treiber||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_30W.png" width="60" />|Ikea|Treiber 30W||||
-|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|Birne E14 Opal 600lm||||
+|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_470lm.png" width="60" />|Ikea|||||
+|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_W_opch_400lm.png" width="60" />|Ikea|Glühlampe E14 W opch 400lm||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_CWS_opal_600lm.png" width="60" />|Ikea|Birne E27 CWS Opal 600lm||||
+|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_1000lm.png" width="60" />|Ikea|||||
+|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_980lm.png" width="60" />|Ikea|||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WW_806lm.png" width="60" />|Ikea|TRADFRI Glühbirne E27 WW 806lm||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WS_400lm.png" width="60" />|Ikea|Birne GU10 WS 400lm||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WW_400lm.png" width="60" />|Ikea|Birne GU10 WW 400lm||||
@@ -161,6 +164,7 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|OSRAM Smart + Connected LED-Lampe - E27-Sockel||||
 |<img src="../../de_DE/zigbee/images/OSRAM.LIGHTIFY_Indoor_Flex_RGBW.png" width="60" />|Osram|OSRAM LIGHTIFY Indoor Flex RGBW||||
+|<img src="../../de_DE/zigbee/images/OSRAM.Lightify_Switch_Mini.png" width="60" />|Osram|||||
 |<img src="../../de_DE/zigbee/images/OSRAM.MR16_TW_OSRAM.png" width="60" />|Osram|OSRAM SMART + Spot GU5.3 Abstimmbares Weiß||||
 |<img src="../../de_DE/zigbee/images/OSRAM.Plug_01.png" width="60" />|Osram|OSRAM Smart + Plug||||
 
@@ -255,6 +259,7 @@
 |<img src="../../de_DE/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Moes Kühlerantrieb||||
 |<img src="../../de_DE/zigbee/images/_TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Einzelschalter||||
 |<img src="../../de_DE/zigbee/images/_TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Doppelschalter||||
+|<img src="../../de_DE/zigbee/images/_TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|.||||
 
 # Xiaomi
 
@@ -284,10 +289,10 @@
 |<img src="../../de_DE/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|Xiaomi genommen||||
 |<img src="../../de_DE/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|Xiaomi Aquara Blendensensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../de_DE/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|Xiaomi Aquara Bewegung|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
-|<img src="../../de_DE/zigbee/images/lumi.sensor_switch.png" width="60" />|Xiaomi|Xiaomi aquara switch||||
+|<img src="../../de_DE/zigbee/images/lumi.sensor_switch.png" width="60" />|Xiaomi|||||
 |<img src="../../de_DE/zigbee/images/lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|Xiaomi Aquara Flut|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
 
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-01-03 01:32:03
+:32:11

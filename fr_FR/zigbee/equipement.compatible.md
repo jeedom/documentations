@@ -108,9 +108,12 @@
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.SYMFONISK_Sound_Controller.png" width="60" />|Ikea|Ikea TRADFRI Symfonisk sound controller|Télécommande|||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_10W.png" width="60" />|Ikea|Driver 10W||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_30W.png" width="60" />|Ikea|Driver 30W||||
-|<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|Bulb E14 opal 600lm||||
+|<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_470lm.png" width="60" />|Ikea|Bulb E14 WS 470lm||||
+|<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|Bulb E14 WS opal 600lm||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_W_opch_400lm.png" width="60" />|Ikea|Bulb E14 W opch 400lm||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_CWS_opal_600lm.png" width="60" />|Ikea|Bulb E27 CWS opal 600lm||||
+|<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_1000lm.png" width="60" />|Ikea|Bulb E27 WS opal 1000lm||||
+|<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_980lm.png" width="60" />|Ikea|Bulb E27 WS opal 980lm||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WW_806lm.png" width="60" />|Ikea|TRADFRI bulb E27 WW 806lm||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WS_400lm.png" width="60" />|Ikea|Bulb GU10 WS 400lm||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WW_400lm.png" width="60" />|Ikea|Bulb GU10 WW 400lm||||
@@ -161,6 +164,7 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|OSRAM Smart+ Ampoule LED Connectée - Culot E27||||
 |<img src="../../fr_FR/zigbee/images/OSRAM.LIGHTIFY_Indoor_Flex_RGBW.png" width="60" />|Osram|OSRAM LIGHTIFY Indoor Flex RGBW||||
+|<img src="../../fr_FR/zigbee/images/OSRAM.Lightify_Switch_Mini.png" width="60" />|Osram|Lightify Switch Mini||||
 |<img src="../../fr_FR/zigbee/images/OSRAM.MR16_TW_OSRAM.png" width="60" />|Osram|OSRAM SMART+ Spot GU5.3 Tunable White||||
 |<img src="../../fr_FR/zigbee/images/OSRAM.Plug_01.png" width="60" />|Osram|OSRAM Smart+ Plug||||
 
@@ -255,6 +259,7 @@
 |<img src="../../fr_FR/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Moes Radiator Actuator||||
 |<img src="../../fr_FR/zigbee/images/_TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Interrupteur simple||||
 |<img src="../../fr_FR/zigbee/images/_TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Interrupteur double||||
+|<img src="../../fr_FR/zigbee/images/_TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 Zigbee 3.0 Prise WIFI intelligente 16A Prise EU||||
 
 # Xiaomi
 
@@ -284,10 +289,10 @@
 |<img src="../../fr_FR/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|Xiaomi prise||||
 |<img src="../../fr_FR/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|Xiaomi Aquara capteur d'ouverture|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../fr_FR/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|Xiaomi Aquara de mouvement|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
-|<img src="../../fr_FR/zigbee/images/lumi.sensor_switch.png" width="60" />|Xiaomi|Xiaomi Aquara switch||||
+|<img src="../../fr_FR/zigbee/images/lumi.sensor_switch.png" width="60" />|Xiaomi|||||
 |<img src="../../fr_FR/zigbee/images/lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|Xiaomi Aquara inondation|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
 
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-01-03 01:32:03
+2021-01-04 01:32:11
