@@ -86,6 +86,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/HEIMAN.COSensor-EM.png" width="60" />|Heiman|CO Sensor||||
 |<img src="../../en_US/zigbee/images/HEIMAN.SmokeSensor-EF-3.0.png" width="60" />|Heiman|Smoke Sensor||||
+|<img src="../../en_US/zigbee/images/HEIMAN.SmokeSensor-EM.png" width="60" />|Heiman|Smoke Sensor||||
 |<img src="../../en_US/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Smoke Sensor||||
 
 # Icasa
@@ -295,4 +296,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-01-05 01:32:04
+2021-01-06 01:32:04
