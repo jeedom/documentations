@@ -19,7 +19,7 @@ El código principal es de código abierto y está disponible [aquí](https://gi
 - **Lanzamiento** : Release Candidate rama de V3. Solo para correcciones de errores.
 - **Maestro** : Rama de la versión estable V3.
 
-Las actualizaciones se realizan en estas ramas dependiendo de la configuración de Jeedom **Configuración → Sistema → Configuración / Actualizaciones / Mercado**.
+Las actualizaciones se realizan en estas ramas de acuerdo con la configuración de Jeedom **Configuración → Sistema → Configuración / Actualizaciones / Mercado**.
 
 RP (*Solicitudes de extracción*) siempre debe hacerse en la rama alfa.
 
@@ -52,7 +52,7 @@ El código se distribuye en diferentes directorios en la raíz de Jeedom (por de
 	- img : Imágenes principales (logotipos, fondos, etc.).
 	- **js** : Archivos de clase js, llamados en particular desde las páginas de Jeedom.
 	- php : Archivos php requeridos por Core (excluyendo clases).
-	- repositorio : Archivos php específicos del mercado, samba, etc.
+	- repositorio : Archivos PHP específicos del mercado, samba, etc.
 	- **Plantilla** : Archivos HTML (*Tablero y móvil*) para mostrar eqLogics (Tile), comandos (Widgets) y escenarios.
 	- **Temas** : Archivos CSS de los tres temas principales (oscuro, claro, heredado), para tablero y dispositivos móviles.
 - datos : Carpeta que incluye datos del usuario (informes, vistas, personalización avanzada css / js, diseño 3D, etc).
@@ -70,7 +70,7 @@ El código se distribuye en diferentes directorios en la raíz de Jeedom (por de
 	- css : Móvil ver archivos CSS específicos.
 	- HTML : Archivos HTML correspondientes a cada página (*hogar, equipo, cronograma, etc.*).
 	- js : Archivos js correspondientes a cada página (*hogar, equipo, cronograma, etc.*).
-	- modal : Archivos HTML correspondientes a modal en Mobile.
+	- modal : Archivos HTML correspondientes a los modales en Mobile.
 - plugins : Carpeta que incluye todos los complementos instalados.
 - Guión : Script de implementación, certificados.
 - Apoyo : Carpeta utilizada en caso de solicitud de soporte.
@@ -126,7 +126,7 @@ Por tanto, el índice.php y las utils.js proporciona la estructura y las funcion
 Luego, el contenido de la página llamada se carga desde el escritorio / php / page.php y desktop / js / page.js.
 Estos archivos de contenido, puramente orientados a la interfaz, pueden acceder a las funciones Core (clases `/ core / class`) directamente en php, o en js gracias a las clases js (` / core / js`) a través de llamadas ajax (`/ core / ajax`).
 
-Las funciones internas del Core están, por tanto, bien separadas, para el funcionamiento interno (back-end), pero son accesibles a través de la interfaz. Asimismo, cada página tiene su propio código php y js. Esto le permite desarrollar y mantener mejor el código, pero también optimizar el rendimiento cargando solo las clases y funciones necesarias.
+Las funciones internas del Core están, por lo tanto, bien separadas, para la operación interna (Back-end), pero son accesibles a través de la interfaz. Asimismo, cada página tiene su propio código php y js. Esto le permite desarrollar y mantener mejor el código, pero también optimizar el rendimiento cargando solo las clases y funciones necesarias.
 
 ### Mobile
 

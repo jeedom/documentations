@@ -19,7 +19,7 @@ Der Kerncode ist Open Source und verfügbar [hier](https://github.com/jeedom/cor
 - **Veröffentlichung** : Geben Sie den Kandidatenzweig von V3 frei. Nur für Bugfixes.
 - **Meister** : Zweig der stabilen Version V3.
 
-Die Aktualisierungen werden in diesen Zweigen abhängig von der Konfiguration von Jeedom vorgenommen **Einstellungen → System → Konfiguration / Updates / Markt**.
+Die Aktualisierungen werden in diesen Zweigen gemäß der Konfiguration von Jeedom vorgenommen **Einstellungen → System → Konfiguration / Updates / Markt**.
 
 PRs (*Anfragen ziehen*) muss immer auf dem Alpha-Zweig erfolgen.
 
@@ -70,7 +70,7 @@ Der Code wird in verschiedenen Verzeichnissen im Stammverzeichnis von Jeedom ver
 	- CSS : Mobile spezifische CSS-Dateien anzeigen.
 	- HTML : HTML-Dateien für jede Seite (*Haus, Ausrüstung, Zeitachse usw.*).
 	- js : Js-Dateien, die jeder Seite entsprechen (*Haus, Ausrüstung, Zeitachse usw.*).
-	- modal : HTML-Dateien, die modal in Mobile entsprechen.
+	- modal : HTML-Dateien, die den Modalitäten in Mobile entsprechen.
 - Plugins : Ordner mit allen installierten Plugins.
 - Skript : Bereitstellungsskript, Zertifikate.
 - Unterstützung : Ordner, der bei Supportanfragen verwendet wird.

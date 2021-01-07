@@ -19,7 +19,7 @@ Core code is Open-Source and available [here](https://github.com/jeedom/core).
 - **Release** : Release Candidate branch of V3. Only for bugfixs.
 - **Master** : Branch of the stable version V3.
 
-The updates are made on these branches depending on the configuration of Jeedom **Settings → System → Configuration / Updates / Market**.
+The updates are made on these branches according to the configuration of Jeedom **Settings → System → Configuration / Updates / Market**.
 
 PRs (*Pull requests*) must always be done on the alpha branch.
 
@@ -52,7 +52,7 @@ The code is distributed in different directories at the root of Jeedom (by defau
 	- img : Core images (logos, backgrounds, etc.).
 	- **js** : Class js files, called in particular from the Jeedom pages.
 	- php : Php files required by Core (excluding classes).
-	- repo : Market specific php files, samba, etc.
+	- repo : PHP files specific to the market, samba, etc.
 	- **Template** : Html files (*Dashboard and Mobile*) for displaying eqLogics (Tile), commands (Widgets) and scenarios.
 	- **Themes** : CSS files of the three Core themes (Dark, Light, Legacy), for Dashboard and Mobile.
 - data : Folder including user data (Reports, Views, Advanced Personalization css / js, 3D Design, etc).
@@ -70,7 +70,7 @@ The code is distributed in different directories at the root of Jeedom (by defau
 	- css : Mobile view specific css files.
 	- l'opération à mener : HTML files corresponding to each page (*home, equipment, timeline, etc.*).
 	- js : Js files corresponding to each page (*home, equipment, timeline, etc.*).
-	- modal : HTML files corresponding to modal in Mobile.
+	- modal : HTML files corresponding to the modals in Mobile.
 - Plugins : Folder including all installed plugins.
 - script : Deployment script, certificates.
 - Support : Folder used in case of support request.
@@ -126,7 +126,7 @@ Thus, the index.php and the utils.js provide the basic structure and functions o
 Then the content of the called page is loaded from desktop / php / page.php and desktop / js / page.js.
 These content files, purely interface oriented, can access Core functions (`/ core / class` classes) directly in php, or in js thanks to js classes (` / core / js`) through ajax calls (`/ core / ajax`).
 
-The internal functions of the Core are thus well separated, for internal operation (Back-end), but are accessible via the interface. Likewise, each page has its own php and js code. This allows you to better develop and maintain the code, but also to optimize performance by loading only the necessary classes and functions.
+The internal functions of the Core are thus well separated, for internal operation (Back-end), but are accessible through the interface. Likewise, each page has its own php and js code. This allows you to better develop and maintain the code, but also to optimize performance by loading only the necessary classes and functions.
 
 ### Mobile
 
