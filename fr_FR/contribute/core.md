@@ -19,11 +19,11 @@ Le code du Core est Open-Source et disponible [ici](https://github.com/jeedom/co
 - **release** : Branche Release Candidate de la V3. Uniquement pour des bugfixs.
 - **master** : Branche de la version stable V3.
 
-Les mises à jour ce font sur ces branches en fonction de la configuration de Jeedom **Réglages → Système → Configuration / Mises à jour/Market**.
+Les mises à jour se font sur ces branches en fonction de la configuration de Jeedom **Réglages → Système → Configuration / Mises à jour/Market**.
 
 Les PRs (*Pull requests*) doivent toujours être fait sur la branche alpha.
 
-De même, afin de participer aux discussions sur [Community](https://community.jeedom.com/), inscrivez vous en tant que développeur : [Jeedom dev](https://www.jeedom.com/fr/dev.html).
+De même, afin de participer aux discussions sur [Community](https://community.jeedom.com/), inscrivez-vous en tant que développeur : [Jeedom dev](https://www.jeedom.com/fr/dev.html).
 
 ## Développement
 
@@ -52,14 +52,14 @@ Le code est réparti dans différents répertoires à la racine de Jeedom (par d
 	- img : Images (logos, fonds, etc.) du Core.
 	- **js** : Fichiers des class js, appelées notamment depuis les pages de Jeedom.
 	- php : Fichiers php nécessaires au Core (hors classes).
-	- repo : Fichiers php propre au market, samba, etc.
+	- repo : Fichiers php propres au market, samba, etc.
 	- **template** : Fichiers html (*Dashboard et Mobile*) pour l'affichage des eqLogics (Tuile), commandes (Widgets) et scenarios.
 	- **themes** : Fichiers CSS des trois thèmes du Core (Dark, Light, Legacy), pour Dashboard et Mobile.
 - data : Dossier comprenant les données utilisateur (Rapports, Vues, css/js de Personnalisation Avancée, Design 3D, etc).
 - **desktop** : Dossier comprenant toutes les pages affichées (l'interface) en desktop et leurs fonctions.
 	- common : Fichiers js/php communs à toutes ou plusieurs pages. Regroupe des fonctions pouvant être appelées depuis plusieurs pages, notamment le *utils.js*, présent sur toutes les pages en Desktop.
-	- css : Fichiers css propre à l'affichage Desktop.
-	- img : Images propre à l'affichage Desktop.
+	- css : Fichiers css propres à l'affichage Desktop.
+	- img : Images propres à l'affichage Desktop.
 	- js : Fichiers js correspondant à chaque page (*administration, dashboard, scenario, etc.*).
 	- modal : Fichiers php des modales, comprenant le code php/html et le code js.
 	- php : Fichiers php correspondant à chaque page (*administration, dashboard, scenario, etc.*).
@@ -67,12 +67,12 @@ Le code est réparti dans différents répertoires à la racine de Jeedom (par d
 - install : Fichiers d'installation de Jeedom.
 - log : Dossier comprenant tous les logs (http.error, update, etc) et ceux des scénarios (sous-dossier scenarioLog, nommés par id).
 - **mobile** : Dossier comprenant toutes les pages affichées (l'interface webapp) en mobile et leurs fonctions.
-	- css : Fichiers css propre à l'affichage Mobile.
+	- css : Fichiers css propres à l'affichage Mobile.
 	- html : Fichiers html correspondant à chaque page (*home, equipment, timeline, etc.*).
 	- js : Fichiers js correspondant à chaque page (*home, equipment, timeline, etc.*).
-	- modal : Fichiers html correspondant aux modale en Mobile.
-- plugins : Dossier comprenant tout les plugins installés.
-- script : Sript de déploiement, certificats.
+	- modal : Fichiers html correspondant aux modales en Mobile.
+- plugins : Dossier comprenant tous les plugins installés.
+- script : Script de déploiement, certificats.
 - support : Dossier utilisé en cas de demande de support.
 - vendor : Dossier comprenant des librairies tierces php.
 
@@ -126,7 +126,7 @@ Ainsi, l'index.php et le utils.js fournissent la structure et les fonctions de b
 Ensuite, le contenu de la page appelée est chargé depuis desktop/php/page.php et desktop/js/page.js.
 Ces fichiers de contenu, purement orientés interface, peuvent accéder aux fonctions du Core (les classes `/core/class`) directement en php, ou en js grâce aux classes js (`/core/js`) en passant par des appels ajax (`/core/ajax`).
 
-Les fonctions internes du Core sont ainsi bien séparées, pour le fonctionnement interne (Back-end), mais sont accessible par l'interface. De même, chaque page possède sont propre code php et js. Ceci permet de mieux faire évoluer et maintenir le code, mais aussi d'optimiser les performances en chargeant uniquement les classes et fonctions nécessaires.
+Les fonctions internes du Core sont ainsi bien séparées, pour le fonctionnement interne (Back-end), mais sont accessibles par l'interface. De même, chaque page possède sont propre code php et js. Ceci permet de mieux faire évoluer et maintenir le code, mais aussi d'optimiser les performances en chargeant uniquement les classes et fonctions nécessaires.
 
 ### Mobile
 
@@ -144,7 +144,7 @@ Le fichier `mobile/js/application.js` contient les fonctions communes à toutes 
 
 Comme pour l'interface Desktop, la page appelée est constituée de deux fichiers :
 - `/mobile/html/home.html` : le code html.
-- `/mobile/js/home.js` : les fonctions js propre à cette page.
+- `/mobile/js/home.js` : les fonctions js propres à cette page.
 
 Une différence notable en Mobile est l'absence de pages php. La génération du code repose donc sur les classes js, qui peuvent toujours appeler les fonctions du Core avec des appels ajax.
 
@@ -179,7 +179,7 @@ Ordre de chargement des CSS en Desktop :
 
 L'interface est une chose, mais bien sûr votre Jeedom est toujours actif, afin de faire tourner les scénarios, les crons, les logs, les historiques etc.
 
-Le Back-end s’appuie sur les mêmes classes php que le Front-end, présentent dans `/core/class/`. Chaque partie de Jeedom possède sa classe php, notamment :
+Le Back-end s’appuie sur les mêmes classes php que le Front-end, présentes dans `/core/class/`. Chaque partie de Jeedom possède sa classe php, notamment :
 
 - jeeObject.class.php : Regroupe les fonctions concernant les objets de Jeedom.
 - eqLogic.class.php : Regroupe les fonctions concernant les équipements de Jeedom.
@@ -187,7 +187,7 @@ Le Back-end s’appuie sur les mêmes classes php que le Front-end, présentent 
 - cron.class.php : Regroupe les fonctions concernant les tâches planifiées de Jeedom.
 - config.class.php : Regroupe les fonctions concernant les paramètres de configuration de Jeedom.
 - scenario.class.php : Regroupe les fonctions concernant les scénarios de Jeedom.
-- DB.class.php : Regroupe toutes les fonctions d'accès à la base données de Jeedom. Tous les accès SQL requis par les autres classes sont gérés par celle-ci.
+- DB.class.php : Regroupe toutes les fonctions d'accès à la base de données de Jeedom. Tous les accès SQL requis par les autres classes sont gérés par celle-ci.
 
 etc.
 
