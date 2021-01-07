@@ -261,6 +261,7 @@
 |<img src="../../fr_FR/zigbee/images/_TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Interrupteur simple||||
 |<img src="../../fr_FR/zigbee/images/_TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Interrupteur double||||
 |<img src="../../fr_FR/zigbee/images/_TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 Zigbee 3.0 Prise WIFI intelligente 16A Prise EU||||
+|<img src="../../fr_FR/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interrupteur 4 boutons||||
 
 # Xiaomi
 
@@ -296,4 +297,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-01-06 01:32:04
+2021-01-07 01:32:05

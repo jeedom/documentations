@@ -261,6 +261,7 @@
 |<img src="../../en_US/zigbee/images/_TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Single switch||||
 |<img src="../../en_US/zigbee/images/_TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Double switch||||
 |<img src="../../en_US/zigbee/images/_TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 Zigbee 3.0 Smart WIFI socket 16A EU plug||||
+|<img src="../../en_US/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 button switch||||
 
 # Xiaomi
 
@@ -296,4 +297,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-01-06 01:32:04
+2021-01-07 01:32:05
