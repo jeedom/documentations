@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+#12/07/2020
+
+- Correção de um bug no equipamento Somfy (ID de 8 em vez de 6)
+
 # 12/03/2020
 
 - Bugs corrigidos no processo de atualização

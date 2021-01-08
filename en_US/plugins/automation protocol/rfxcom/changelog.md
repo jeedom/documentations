@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+#07/12/2020
+
+- Correction of a bug on Somfy equipment (ID of 8 instead of 6)
+
 # 03/12/2020
 
 - Fixed bugs on the update process
