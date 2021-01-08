@@ -104,6 +104,7 @@
 |<img src="../../es_ES/zwave/images/881.3.180_zwa006.smart.boost.timer.switch.jpg" width="60" />|Aeotec|Interruptor de temporizador Smart Boost (ZWA006)|Prise|||
 |<img src="../../es_ES/zwave/images/881.3.1_zwa001_led.bulb6.white.jpg" width="60" />|Aeotec|Bombilla LED 6 Multi-Blanco (ZWA001)|Ampoule|||
 |<img src="../../es_ES/zwave/images/881.3.2_zwa002_led.bulb6.color.jpg" width="60" />|Aeotec|Bombilla LED 6 Multicolor (ZWA002)|Ampoule|||
+|<img src="../../es_ES/zwave/images/881.4.189_zw189.range.extender.7.jpg" width="60" />|Aeotec|Extensor de rango (ZW189)|Repetidor|Módulo sin funcionalidad excepto para transmitir información de red||
 
 # Assa Abloy
 
@@ -903,4 +904,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-01-06 01:08:05
+2021-01-08 01:08:04

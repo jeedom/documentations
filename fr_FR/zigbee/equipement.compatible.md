@@ -51,7 +51,10 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/adeo.LXEK-1.png" width="60" />|Adeo|Adeo LEXK-1||||
-|<img src="../../fr_FR/zigbee/images/adeo.LXEK-5.png" width="60" />|Adeo|Sunricher remote color||||
+|<img src="../../fr_FR/zigbee/images/adeo.LXEK-2.png" width="60" />|Adeo|Adeo LEXK-2||||
+|<img src="../../fr_FR/zigbee/images/adeo.LXEK-4.png" width="60" />|Adeo|Adeo LEXK-4||||
+|<img src="../../fr_FR/zigbee/images/adeo.LXEK-5.png" width="60" />|Adeo|Adeo LEXK-5||||
+|<img src="../../fr_FR/zigbee/images/adeo.LXEK-7.png" width="60" />|Adeo|Adeo LEXK-7||||
 
 # Alfawise
 
@@ -297,4 +300,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-01-07 01:32:05
+2021-01-08 01:32:11

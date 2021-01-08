@@ -104,6 +104,7 @@
 |<img src="../../de_DE/zwave/images/881.3.180_zwa006.smart.boost.timer.switch.jpg" width="60" />|Aeotec|Smart Boost Timer Schalter (ZWA006)|Prise|||
 |<img src="../../de_DE/zwave/images/881.3.1_zwa001_led.bulb6.white.jpg" width="60" />|Aeotec|LED-Lampe 6 Multi-Weiß (ZWA001)|Ampoule|||
 |<img src="../../de_DE/zwave/images/881.3.2_zwa002_led.bulb6.color.jpg" width="60" />|Aeotec|LED-Lampe 6 mehrfarbig (ZWA002)|Ampoule|||
+|<img src="../../de_DE/zwave/images/881.4.189_zw189.range.extender.7.jpg" width="60" />|Aeotec|Range Extender (ZW189)|Repeater|Modul ohne Funktionalität, außer zur Weitergabe von Netzwerkinformationen||
 
 # Assa Abloy
 
@@ -903,4 +904,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-01-06 01:08:05
+2021-01-08 01:08:04
