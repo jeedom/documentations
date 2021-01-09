@@ -278,6 +278,7 @@
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.remote.b186acn01.png" width="60" />|Xiaomi|Xinterruptor simple ioami|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4516-xiaomi-interrupteur-mural-simple-sans-fil-zigbee-aqara-6970504210)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|Xioami doble interruptor|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|Sensor de brillo||||
+|<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_86sw1.png" width="60" />|Xiaomi|Xinterruptor simple ioami|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_86sw2.png" width="60" />|Xiaomi|Xioami doble interruptor|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_cube.png" width="60" />|Xiaomi|Xcubo inteligente iaomi||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_ht.png" width="60" />|Xiaomi|Sensor de temperatura / humedad||||
@@ -300,4 +301,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-01-08 01:32:11
+2021-01-09 01:32:04
