@@ -223,7 +223,7 @@ if(getCookie('lang') != lang){
 }
 
 $('#meta-lang').attr('content',lang)
-var jeedomVersion = '3.3'
+var jeedomVersion = '4.0'
 if(window.location.href.indexOf('3.3') != -1){
   jeedomVersion = '3.3'
 }else if(window.location.href.indexOf('4.0') != -1){
