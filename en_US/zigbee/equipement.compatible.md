@@ -264,6 +264,7 @@
 |<img src="../../en_US/zigbee/images/_TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Single switch||||
 |<img src="../../en_US/zigbee/images/_TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Double switch||||
 |<img src="../../en_US/zigbee/images/_TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 Zigbee 3.0 Smart WIFI socket 16A EU plug||||
+|<img src="../../en_US/zigbee/images/_TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 connected life plug module||||
 |<img src="../../en_US/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 button switch||||
 
 # Xiaomi
@@ -276,6 +277,7 @@
 |<img src="../../en_US/zigbee/images/LUMI.lumi.plug.mmeu01.png" width="60" />|Xiaomi|Xiaomi taken||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|Xiaomi Aqara LLKZMK11LM Intelligent two-way module||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.remote.b186acn01.png" width="60" />|Xiaomi|Xioami simple switch|||[Buy](https://www.domadoo.fr/fr/peripheriques/4516-xiaomi-interrupteur-mural-simple-sans-fil-zigbee-aqara-6970504210)|
+|<img src="../../en_US/zigbee/images/LUMI.lumi.remote.b1acn01.png" width="60" />|Xiaomi|Xioami single switch AQ3||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|Xioami double switch|||[Buy](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|Brightness sensor||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_86sw1.png" width="60" />|Xiaomi|Xioami simple switch|||[Buy](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
@@ -301,4 +303,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-01-11 01:32:04
+2021-01-12 01:32:19
