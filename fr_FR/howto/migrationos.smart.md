@@ -82,14 +82,17 @@ A l'issue du processus de migration, la box Smart est maintenant sur un environn
 
 ![Finalisation migration](images/migrateos-smart11.png)
 
-Félicitations votre box Smart est maintenant à jour et opérationnelle !
-
 >**IMPORTANT**
 >
 >Veillez à bien retirer la clé USB de la box Smart à la fin de l'opération.
 
+>**IMPORTANT**
+>
+>Surtout pensez bien à réinstaller les dépendances pour les plugins qui en utilisent.
+
+Félicitations, votre box Smart est maintenant à jour et opérationnelle !
+
 ## Foire aux questions
 
 >**Le processus de migration se déroule correctement pourtant aucun changement ne semble avoir eu lieu après le redémarrage de la box ?**
->
 >Veuillez renouveler l'opération avec une autre clé USB ou reformater complètement votre clé USB *(en recréant la table de partition avec GParted par exemple)*.
