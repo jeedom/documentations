@@ -82,14 +82,17 @@ At the end of the migration process, the Smart box is now in an up-to-date envir
 
 ![Finalisation migration](images/migrateos-smart11.png)
 
-Congratulations your Smart box is now up to date and operational !
-
 >**Important**
 >
 >Make sure to remove the USB key from the Smart box at the end of the operation.
 
+>**Important**
+>
+>Especially remember to reinstall the dependencies for the plugins that use them.
+
+Congratulations, your Smart box is now up to date and operational !
+
 ## Frequently Asked Questions
 
 >**The migration process takes place correctly, however no change seems to have taken place after restarting the box ?**
->
 >Please repeat the operation with another USB stick or completely reformat your USB stick *(by recreating the partition table with GParted for example)*.

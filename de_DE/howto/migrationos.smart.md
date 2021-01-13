@@ -82,14 +82,17 @@ Am Ende des Migrationsprozesses befindet sich die Smart Box nun in einer aktuell
 
 ![Finalisation migration](images/migrateos-smart11.png)
 
-Herzlichen Glückwunsch, Ihre Smart Box ist jetzt auf dem neuesten Stand und betriebsbereit !
-
 >**Wichtig**
 >
 >Stellen Sie sicher, dass Sie den USB-Stick am Ende des Vorgangs aus der Smart Box entfernen.
 
+>**Wichtig**
+>
+>Denken Sie insbesondere daran, die Abhängigkeiten für die Plugins, die sie verwenden, neu zu installieren.
+
+Herzlichen Glückwunsch, Ihre Smart Box ist jetzt auf dem neuesten Stand und betriebsbereit !
+
 ## Häufig gestellte Fragen
 
 >**Der Migrationsprozess findet korrekt statt, jedoch scheint nach dem Neustart der Box keine Änderung stattgefunden zu haben ?**
->
 >Bitte wiederholen Sie den Vorgang mit einem anderen USB-Stick oder formatieren Sie Ihren USB-Stick vollständig neu *(indem Sie beispielsweise die Partitionstabelle mit GParted neu erstellen)*.

@@ -82,14 +82,17 @@ Al final del proceso de migración, la caja inteligente se encuentra ahora en un
 
 ![Finalisation migration](images/migrateos-smart11.png)
 
-Felicitaciones, su Smart Box ahora está actualizado y operativo !
-
 >**Importante**
 >
 >Asegúrese de quitar la llave USB de la caja inteligente al final de la operación.
 
+>**Importante**
+>
+>Especialmente recuerde reinstalar las dependencias para los complementos que las usan.
+
+Felicitaciones, su Smart Box ahora está actualizado y operativo !
+
 ## Preguntas frecuentes
 
 >**El proceso de migración se lleva a cabo correctamente, sin embargo, no parece que se hayan producido cambios después de reiniciar la caja ?**
->
 >Repita la operación con otra memoria USB o reformatee completamente su memoria USB *(recreando la tabla de particiones con GParted por ejemplo)*.
