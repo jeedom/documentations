@@ -94,7 +94,7 @@ In the end, the plugin pages must be consistent with the pages of the core objec
 >
 > Images displayed in plugin pages must not be loaded from the net, but must be among the local plugin files.
 
-> Be careful :
+> Warning :
 >
 > Sur les pages de scénario, plugins etc, le bouton ‘Supprimer' est passé à droite ! It is the most dangerous therefore the farthest.
 

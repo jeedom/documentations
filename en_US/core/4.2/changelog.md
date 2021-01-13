@@ -1,0 +1,92 @@
+# Changelog Jeedom V4.1
+
+## 4.1.0
+
+- **Synthesis** : New page **Home → Synthesis** offering a global visual summary of the parts, with quick access to summaries.
+- **Research** : Add of a search engine in **Tools → Search**.
+- **Dashboard** : Edit mode now inserting the moved tile.
+- **Dashboard** : Edit mode: the equipment refresh icons are replaced by an icon allowing access to their configuration, thanks to a new simplified modal.
+- **Dashboard** : We can now click on the *time* time actions widgets to open the history window of the linked info command.
+- **Dashboard** : The size of a new equipment&#39;s tile adapts to its content.
+- **Dashboard** : Add (back!) A button to filter the displayed items by category.
+- **Dashboard** : Ctrl Click on an info opens the history window with all the historicized commands of the equipment visible on the tile. Ctrl Click on a legend to display only this one, Alt Click to display them all.
+- **Dashboard** : Redesign of the display of the object tree (arrow to the left of the search).
+- **Dashboard** : Ability to blur background images (Configuration -> Interface).
+- **Tools / Widgets** : Function *Apply on* shows the linked commands checked, unchecking one will apply the default core widget to this command.
+- **Widget** : Adding a core widget *sliderVertical*.
+- **Widget** : Adding a core widget *binarySwitch*.
+- **Update Center** : Updates are checked automatically when opening this page and update check is older than 120mins.
+- **Update Center** : The progress bar is now on the tab *Core and plugins*, and the log open by default on the tab *Information*.
+- **Update Center** : If you open another browser during an update, the progress bar and the log indicate it.
+- **Update Center** : If the update finishes correctly, display of a window asking to reload the page.
+- **Core updates** : Implementation of a system for cleaning up old unused Core files.
+- **Scenario** : Adding a search engine (to the left of the Run button).
+- **Scenario** : Addition of the age function (gives the age of the value of the order).
+- **Scenario** : *stateChanges()* now accept the period *Today* (midnight to now), *yesterday* and *day* (for 1 day).
+- **Scenario** : Functions *statistics (), average (), max (), min (), trend (), duration()* : Bugfix over the period *yesterday*, and accept now *day* (for 1 day).
+- **Scenario** : Possibility to deactivate the automatic quote system (Settings → System → Configuration : Commandes).
+- **Scenario** : Viewing a *Warning* if no trigger is configured.
+- **Scenario** : Bugfix of *select* on block copy / paste.
+- **Scenario** : Copy / paste of block between different scenarios.
+- **Scenario** : The undo / redo functions are now available as buttons (next to the block creation button).
+- **Scenario** :  addition of "Historical export" (exportHistory)
+- **Scenario variables window** : Alphabetical sort at opening.
+- **Scenario variables window** : The scenarios used by the variables are now clickable, with opening of the search on the variable.
+- **Analysis / History** : Ctrl Click on a legend to display only this history, Alt Click to display them all.
+- **Analysis / History** : The options *grouping, type, variation, staircase* are active only with a single displayed curve.
+- **Analysis / History** : We can now use the option *Area* with the option *Steps*.
+- **Analysis / History** : Possibility to compare a history according to the current period.
+- **Analysis / Logs** : New monospace type font for logs.
+- **View** : Possibility to put scenarios.
+- **View** : Edit mode now inserting the moved tile.
+- **View** : Edit mode: the equipment refresh icons are replaced by an icon allowing access to their configuration, thanks to a new simplified modal.
+- **View** : The display order is now independent of that on the Dashboard.
+- **Timeline** : Separation of History and Timeline pages.
+- **Timeline** : Integration of the Timeline in DB for reliability reasons.
+- **Timeline** : Management of multiple timelines.
+- **Timeline** : Complete graphic redesign of the timeline (Desktop / Mobile).
+- **Global Summary** : Summary view, support for summaries from a different object or with an empty root object (Desktop and WebApp).
+- **Tools / Objects** : New tab *Summary by equipment*.
+- **Domotic overview** : Plugin equipments deactivated and their controls no longer have the icons on the right (equipment configuration and advanced configuration).
+- **Domotic overview** : Ability to search on equipment categories.
+- **Domotic overview** : Possibility to move several pieces of equipment from one object to another.
+- **Domotic overview** : Possibility to select all the equipment of an object.
+- **Task engine** : On the tab *Daemon*, disabled plugins no longer appear.
+- **Report** : The use of *chromium* if available.
+- **Report** : Possibility to export timelines.
+- **Configuration** : The tab *Information* is now in the tab *Main*.
+- **Configuration** : The tab *Commands* is now in the tab *Equipments*.
+- **Advanced equipment configuration window** : Dynamic change of table configuration.
+- **Equipments** : New Category *Opening*.
+- **Equipments** : Possibility of inverting cursor type commands (info and action)
+- **Equipments** : Possibility to add class css to a tile (see widget documentation).
+- **About window** : Addition of links to Changelog and FAQ.
+- Widgets / Objects / Scenarios / Interactions / Plugins Pages :
+	- Ctrl Clic / Clic Center on a Widget, Object, Scenarios, Interaction, plugin equipment : Opens in a new tab.
+	- Ctrl Clic / Clic Center also available in their context menus (on the tabs).
+- New ModalDisplay page :
+	- Analysis menu : Ctrl Click / Click Center on *Real time* : Open the window in a new tab, in full screen.
+	- Tools menu : Ctrl Click / Click Center on *Notes*, *Expression tester*, *Variables*, *Research* : Open the window in a new tab, in full screen.
+- Code Block, File Editor, Advanced Customization : Dark theme adaptation.<br/><br/>
+- **WebApp** : Integration of the new Synthesis page.
+- **WebApp** : Scenarios page, a click on the scenario title displays its log.
+- **WebApp** : We can now select / copy part of a log.
+- **WebApp** : On the search in a log, addition of an x button to cancel the search.
+- **WebApp** : Persistence of the theme toggle (8h).
+- **WebApp** : On a design, a click with three fingers returns to the home page.
+- **WebApp** : Display of scenarios by group.
+- **WebApp** : New monospace type font for logs.
+- **WebApp** : Many bug-fix (UI, portrait / landscape iOS, etc.).<br/><br/>
+- **Documentation** : Adaptations in line with v4 and v4.1.
+- **Documentation** : New page *Keyboard / mouse shortcuts* including a summary of all shortcuts in Jeedom. Accessible from the Dashboard doc or the FAQ.
+- **Lib** : Update HighStock v7.1.2 to v8.2.0.
+- **Lib** : Update jQuery v3.4.1 to v3.5.1.
+- **Lib** : Update Font Awesome 5.9.0 to 5.13.1.
+- **API** :  addition of an option to prohibit an api key of a plugin from executing core methods (general)
+- Function **getHumanName()** of the php scenario class no longer returns *[object] [group] [name]* But *[group] [object] [name]*.
+- Securing Ajax requests.
+- Securing API calls.
+- Bug fixes.
+- Numerous desktop / mobile performance optimizations.
+
+[Changelog v4.0](/en_US/core/4.0/changelog)

@@ -94,7 +94,7 @@ Am Ende müssen die Pluginseiten mit den Seiten der Kernobjekte / Szenarien / In
 >
 > Auf Plugin-Seiten angezeigte Bilder dürfen nicht aus dem Internet geladen werden, sondern müssen sich in den lokalen Plugin-Dateien befinden.
 
-> Achtung :
+> Warnung :
 >
 > Sur les pages de scénario, plugins etc, le bouton ‘Supprimer' est passé à droite ! Es ist das gefährlichste und daher das am weitesten entfernte.
 
