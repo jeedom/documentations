@@ -49,7 +49,7 @@ You will find, on the left, the parameters and action buttons. On the right is t
 
 > **Important**
 >
-> Jeedom backups must absolutely fall into a folder only for him !!! It will delete everything that is not a jeedom backup from the folder
+> Jeedom backups must be saved absolutely in a folder only for him ! It will delete everything that is not a jeedom backup from the folder.
 
 
 # What is saved ?

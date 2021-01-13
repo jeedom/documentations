@@ -1,4 +1,4 @@
-# 3D Design
+# 3D-Design
 **Startseite → Design3D**
 
 Auf dieser Seite können Sie eine 3D-Ansicht Ihres Hauses erstellen, die abhängig vom Status der verschiedenen Informationen in Ihrer Hausautomation reagieren kann.

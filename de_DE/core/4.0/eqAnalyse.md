@@ -3,7 +3,7 @@
 
 Auf der Seite Geräteanalyse können Sie viele Informationen zu Geräten zentral anzeigen :
 
-- Den Zustand Ihrer Batterien
+- Der Zustand Ihrer Batterien
 - Module in Alarmbereitschaft
 - Definierte Aktionen
 - Definierte Warnungen
@@ -50,8 +50,8 @@ Auf dieser Registerkarte können Sie die Aktionen anzeigen, die direkt in einem 
 
 Auf dieser Registerkarte können Sie alle definierten Warnungen anzeigen. In einer Tabelle finden Sie die folgenden Informationen, falls vorhanden :
 
-- Kommunikationsverzögerungswarnungen.
-- Spezifische Batterieschwellenwerte, die auf einem Gerät definiert sind.
+- Warnungen zu Kommunikationsverzögerungen.
+- Die spezifischen Batterieschwellenwerte, die auf einem Gerät definiert sind.
 - Die verschiedenen Warn- und Warnbefehle.
 
 ## Registerkarte &quot;Orphan Orders&quot;
@@ -62,10 +62,10 @@ Auf dieser Registerkarte können Sie auf einen Blick sehen, ob Sie verwaiste Bef
 - diejenigen, die zum Auslösen eines Szenarios verwendet werden.
 
 Und an vielen anderen Orten verwendet wie (nicht erschöpfend) :
-- Wechselwirkungen.
+- Interaktionen.
 - Jeedom-Konfigurationen.
-- In vor oder nach der Aktion einer Bestellung.
-- In Aktion auf Auftragsstatus.
+- In Vor- oder Nachbearbeitung einer Bestellung.
+- In Aktion zum Bestellstatus.
 - In einigen Plugins.
 
 > **Spitze**

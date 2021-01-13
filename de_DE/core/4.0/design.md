@@ -36,10 +36,10 @@ Im Menü (Rechtsklick) finden wir folgende Aktionen :
     - **Magnetisieren Sie die Elemente** : Fügt eine Magnetisierung zwischen den Elementen hinzu, um das Aufkleben zu erleichtern.
     - **Magnet auf dem Gitter** : Fügen Sie dem Raster eine Magnetisierung der Elemente hinzu (Aufmerksamkeit : Abhängig vom Zoom des Elements kann diese Funktionalität mehr oder weniger funktionieren).
     - **Hervorheben von Elementen ausblenden** : Hervorheben von Elementen ausblenden.
-- **Design löschen** : Design löschen.
+- **Design löschen** : Design entfernen.
 - **Erstellen Sie ein Design** : Ermöglicht das Hinzufügen eines neuen Designs.
-- **Doppeltes Design** : Dupliziere das aktuelle Design.
-- **Konfigurieren Sie das Design** : Zugriff auf die Designkonfiguration.
+- **Doppeltes Design** : Dupliziert das aktuelle Design.
+- **Konfigurieren Sie das Design** : Zugriff auf die Konfiguration des Designs.
 - **Speichern** : Speichern Sie das Design (beachten Sie, dass bei bestimmten Aktionen auch automatische Sicherungen durchgeführt werden).
 
 > **Wichtig**
@@ -94,7 +94,7 @@ Ermöglicht das Sperren des Elements, sodass es nicht mehr beweglich oder in der
 ### Spezifische Anzeigeeinstellungen
 
 - **Zeit** : Hier können Sie den Anzeigezeitraum auswählen
-- **Bildunterschrift anzeigen** : Legende zeigen.
+- **Bildunterschrift anzeigen** : Zeigt die Legende an.
 - **Browser anzeigen** : Zeigt den Browser an (zweite hellere Grafik unter der ersten).
 - **Periodenauswahl anzeigen** : Zeigt den Periodenwähler oben links an.
 - **Bildlaufleiste anzeigen** : Zeigt die Bildlaufleiste an.
@@ -137,7 +137,7 @@ Hier können Sie die Befehle auswählen, die erfasst werden sollen.
 - **Textfarbe** : Mit dieser Option können Sie die Farbe von Symbolen und Texten ändern (achten Sie darauf, die Standardeinstellung auf Nein zu setzen).
 - **Runden Sie die Winkel ab (vergessen Sie nicht,%, ex 50%, anzugeben)** : Ermöglicht das Abrunden der Winkel. Vergessen Sie nicht, die% anzugeben.
 - **Rand (Aufmerksamkeit CSS-Syntax, z : festes 1px schwarz)** : Ermöglicht das Hinzufügen eines Rahmens. Beachten Sie, dass die Syntax HTML ist.
-- **Schriftgröße (ex 50%, Sie müssen das% -Zeichen setzen)** : Mit dieser Option können Sie die Schriftgröße ändern.
+- **Schriftgröße (ex 50%, Sie müssen das% -Zeichen setzen)** : Ermöglicht das Ändern der Schriftgröße.
 - **Textausrichtung** : Mit dieser Option können Sie die Ausrichtung des Texts auswählen (links / rechts / zentriert)).
 - **Fett** : Fetter Text.
 
@@ -151,7 +151,7 @@ Hier können Sie die Befehle auswählen, die erfasst werden sollen.
 - **Textfarbe** : Hier können Sie eine benutzerdefinierte Hintergrundfarbe auswählen oder die Standardfarbe verwenden.
 - **Gerundet** : Wert in Pixel der Rundung der Winkel der Gerätekachel.
 - **Grenze** : CSS-Definition einer Gerätekachelgrenze. Ex : 1px festes Schwarz.
-- **Opazität** : Deckkraft der Gerätekachel zwischen 0 und 1. Achtung : Es muss eine Hintergrundfarbe definiert werden.
+- **Opazität** : Deckkraft der Gerätekachel zwischen 0 und 1. Aufmerksamkeit : Es muss eine Hintergrundfarbe definiert werden.
 - **Benutzerdefiniertes CSS** : CSS-Regeln für das Gerät.
 - **Wenden Sie benutzerdefiniertes CSS auf an** : CSS-Auswahl, auf die benutzerdefiniertes CSS angewendet werden soll.
 
@@ -164,7 +164,7 @@ Die Liste der auf dem Gerät vorhandenen Befehle ermöglicht es Ihnen, für jede
 
 ### Erweiterte Konfiguration
 
-Zeigt das Fenster zur erweiterten Gerätekonfiguration an (siehe Dokumentation **Übersicht Haus-Automatisierung**).
+Zeigt das Fenster zur erweiterten Gerätekonfiguration an (siehe Dokumentation **Zusammenfassung der Hausautomation**).
 
 ## Commande
 
@@ -172,7 +172,7 @@ Zeigt das Fenster zur erweiterten Gerätekonfiguration an (siehe Dokumentation *
 
 ### Erweiterte Konfiguration
 
-Zeigt das Fenster zur erweiterten Gerätekonfiguration an (siehe Dokumentation **Übersicht Haus-Automatisierung**).
+Zeigt das Fenster zur erweiterten Gerätekonfiguration an (siehe Dokumentation **Zusammenfassung der Hausautomation**).
 
 ## Bild / Kamera
 
@@ -218,7 +218,7 @@ In diesem Modus wird beim Bewegen oder Klicken im Bereich Jeedom das betreffende
 - **Textfarbe** : Mit dieser Option können Sie die Farbe von Symbolen und Texten ändern (achten Sie darauf, die Standardeinstellung auf Nein zu setzen).
 - **Runden Sie die Winkel ab (vergessen Sie nicht,%, ex 50%, anzugeben)** : Ermöglicht das Abrunden der Winkel. Vergessen Sie nicht, die% anzugeben.
 - **Rand (Aufmerksamkeit CSS-Syntax, z : festes 1px schwarz)** : Ermöglicht das Hinzufügen eines Rahmens. Beachten Sie, dass die Syntax HTML ist.
-- **Schriftgröße (ex 50%, Sie müssen das% -Zeichen setzen)** : Mit dieser Option können Sie die Schriftgröße ändern.
+- **Schriftgröße (ex 50%, Sie müssen das% -Zeichen setzen)** : Ermöglicht das Ändern der Schriftgröße.
 - **Fett** : Fetter Text.
 
 ## FAQ

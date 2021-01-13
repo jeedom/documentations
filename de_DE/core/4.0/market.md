@@ -53,18 +53,18 @@ Für die Profis :
 >
 > Es ist möglich, dass der Markt Sie manchmal auffordert, Ihre Installationsschlüssel zurückzusetzen. Dies ist normal. Befolgen Sie einfach die Anforderungen.
 
-- **Meine Jeedoms** : Hier sind alle deine Jeedoms aufgelistet
+- **Meine Jeedoms** : Hier sind alle Ihre Jeedoms aufgelistet
     - **Name** : Der Name, den Sie Ihrem Jeedom geben möchten (finden Sie im Sicherungsnamen, wenn Sie über ein Cloud-Sicherungsabonnement verfügen).
-    - **Zustand** : Ermöglicht es, den Zustand der fraglichen Jeedom zu sehen.
+    - **Zustand** : Sehen wir uns den Zustand des fraglichen Jeedom an.
     - **Lokale / Remote-IP** : IP oder Adresse dieses Jeedom, konfigurieren Sie in Jeedom. Wenn Sie nichts eingeben, ist dies die letzte bekannte IP.
-    - **Dns** : Mit dieser Option können Sie den Namen Ihres DNS anpassen.
+    - **Dns** : Ermöglicht das Anpassen des Namens Ihres DNS.
     - **URLs** : Listen Sie die verschiedenen Jeedom-Zugriffs-URLs auf.
     - **DNS-Server** : Zeigt Ihnen den DNS-Server an, an den Sie angeschlossen sind.
-    - **DNS-Status** : Ermöglicht es, den Status des DNS anzuzeigen.
+    - **DNS-Status** : Hier können Sie den Status des DNS anzeigen.
     - **Erstellungsdatum** : Erstellungsdatum dieses Jeedom auf Ihrem Marktkonto (zur Erinnerung: Dies erfolgt automatisch, wenn Sie es mit dem Markt verknüpfen).
     - **Letztes Update** : Jeedom&#39;s letzte Kommunikation mit dem Markt.
     - **Hardware** : Jeedom Hardware-Name.
-    - **Version** : Die Version von Jeedom installiert.
+    - **Version** : Jeedom Version installiert.
 
 > **Spitze**
 >

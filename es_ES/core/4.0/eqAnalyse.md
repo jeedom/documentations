@@ -7,7 +7,7 @@ La página de Análisis de equipo le permite ver mucha información relacionada 
 - Módulos en alerta
 - Acciones definidas
 - Alertas definidas
-- órdenes huérfanas
+- Órdenes huérfanas
 
 ## Pestaña Baterías
 
@@ -51,7 +51,7 @@ Esta pestaña le permite ver las acciones definidas directamente en un pedido. D
 Esta pestaña le permite ver todas las alertas definidas, encontrará en una tabla la siguiente información si existen :
 
 - Alertas de retraso de comunicación.
-- Umbrales de batería específicos definidos en un dispositivo.
+- Los umbrales de batería específicos definidos en un dispositivo.
 - Las diversas alertas de peligro y comandos de advertencia.
 
 ## Pestaña Orphan Orders
@@ -63,8 +63,8 @@ Esta pestaña le permite ver de un vistazo si ha utilizado comandos huérfanos a
 
 Y se usa en muchos otros lugares como (no exhaustivo) :
 - Interacciones.
-- Configuraciones de libertad.
-- En pre o post acción de una orden.
+- Configuraciones de Jeedom.
+- En pre o post acción de un pedido.
 - En acción sobre el estado del pedido.
 - En algunos complementos.
 

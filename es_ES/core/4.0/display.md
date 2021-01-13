@@ -1,4 +1,4 @@
-# Resumen de domótica
+# Resumen de automatización del hogar
 **Análisis → Resumen de domótica**
 
 Esta página le permite reunir en una sola página los diferentes elementos configurados en su Jeedom. También da acceso a funciones para organizar equipos y controles, a su configuración avanzada y para mostrar las posibilidades de configuración.
@@ -37,7 +37,7 @@ Para cada objeto, junto a su etiqueta, hay dos botones disponibles.
 En cada equipo encontramos :
 
 - Una **casilla de verificación** para seleccionar el equipo (puede seleccionar varios). Si se selecciona al menos un dispositivo, tiene botones de acción que aparecen en la esquina superior izquierda para **remove**, maquillaje **visible**/ /**invisible**,  **bienes**/ /**Inactivo** equipo seleccionado.
-- L'**Identificación** equipo.
+- L'**identificación** equipo.
 - La **tipo** equipo : Identificador del complemento al que pertenece.
 - La **apellido** equipo.
 - **Inactivo** (pequeña cruz) : Significa que el equipo está inactivo (si no está allí, el equipo está activo).
@@ -134,7 +134,7 @@ También puede administrar el tiempo de espera, en minutos, del equipo. Por ejem
 
 > **Punta**
 >
-> Los parámetros globales están en **→ Configuración → Configuración del Sistema : Registros** o **Comodidades**
+> Los parámetros globales están en **→ Configuración → Configuración del Sistema : Troncos** o **Comodidades**
 
 ### Pestaña de comentarios
 
@@ -148,7 +148,7 @@ Primero, en la parte superior derecha, algunos botones disponibles :
 - **Vínculos** : Permite visualizar los enlaces del equipo con objetos, comandos, escenarios, variables, interacciones. en forma gráfica.
 - **Registro** : Muestra los eventos del equipo en cuestión.
 - **Información** : Muestra las propiedades en bruto del equipo.
--  **Aplicar** : Permite que la misma configuración se aplique a varios comandos.
+-  **Aplicar a** : Permite que la misma configuración se aplique a varios comandos.
 - **Guardar** : Guarde las modificaciones realizadas en el equipo.
 
 > **Punta**
@@ -218,7 +218,7 @@ A continuación, encontrará la lista de los diferentes equipos, comandos, escen
 - **Confirmar acción** : Marque esta casilla para que Jeedom solicite confirmación cuando la acción se inicie desde la interfaz de este comando.
 - **Código de acceso** : Permite definir un código que Jeedom preguntará cuando la acción se inicie desde la interfaz de este comando.
 - **Acción antes de la ejecución del comando** : Agregar comandos **antes** cada ejecución de la orden.
-- **Acción después de la ejecución de la orden** : Agregar comandos **después** cada ejecución de la orden.
+- **Acción después de la ejecución del comando** : Agregar comandos **después** cada ejecución de la orden.
 
 ### Pestaña Alertas
 
@@ -226,7 +226,7 @@ Le permite definir un nivel de alerta (**advertencia** o **peligro**) dependiend
 
 > **Nota**
 >
-> En la página **→ Configuración → Configuración del Sistema : Registros**, puede configurar un comando de tipo de mensaje que permitirá que Jeedom le notifique si se alcanza el umbral de advertencia o peligro.
+> En la página **→ Configuración → Configuración del Sistema : Troncos**, puede configurar un comando de tipo de mensaje que permitirá que Jeedom le notifique si se alcanza el umbral de advertencia o peligro.
 
 ### Ver pestaña
 

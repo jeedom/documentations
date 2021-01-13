@@ -7,24 +7,24 @@ On the page you have three buttons :
 
 - Add user.
 - Save.
-- Open access to support.
+- Open support access.
 
 ## Users list
 
 - **Username** : User ID.
 - **Active** : Allows you to deactivate the account without deleting it.
 - **Local** : Allows the connection of the user only if he is on the local network of Jeedom.
-- **Profile** : Allows to choose the user profile :
+- **Profile** : Allows you to choose the user profile :
     - **Administrator** : The user obtains all rights (editing / consultation) on Jeedom.
     - **User** : User can see Dashboard, views, designs, etc. and act on equipment / controls. However, he will not have access to the configuration of the controls / equipment nor to the configuration of Jeedom.
     - **Limited user** : The user only sees the authorized equipment (configurable with the "Rights" button").
-- **API key** : User&#39;s personal API key.
+- **API key** : Personal API key of the user.
 - **Double authentication** : Indicates whether double authentication is active (OK) or not (NOK).
 - **Date of last connection** : Date of last user login. Please note, this is the actual connection date, so if you save your computer, the connection date is not updated each time you return.
 - **Rights** : Modify user rights.
 - **Password** : Allows you to change the user&#39;s password.
-- **Remove** : Delete user.
-- **Regenerate API key** : Regenerates the user&#39;s API key.
+- **Remove** : Remove user.
+- **Regenerate API key** : Regenerate user API key.
 - **Manage rights** : Allows you to manage user rights finely (note that the profile must be in "limited user"").
 
 ## Rights management
@@ -42,7 +42,7 @@ You get a table which allows, for each device and each scenario, to define the r
 
 ## Active session (s))
 
-Displays the browser sessions active on your Jeedom, with user information, its IP and since when. You can log out the user using the button **Log-out**.
+Displays the browser sessions active on your Jeedom, with user information, its IP and since when. You can log out the user using the button **Disconnect**.
 
 ## Registered device (s))
 

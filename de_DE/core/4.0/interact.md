@@ -51,21 +51,21 @@ Wir können auch einen auszuführenden Befehl definieren, wenn beispielsweise di
 Die Konfigurationsseite besteht aus mehreren Registerkarten und Schaltflächen :
 
 - **Sätze** : Zeigt die Anzahl der Sätze der Interaktion an (ein Klick darauf zeigt Sie).
-- **Rekord** : Zeichnet die aktuelle Interaktion auf.
+- **Rekord** : Notieren Sie die aktuelle Interaktion.
 - **Entfernen** : Aktuelle Interaktion löschen.
-- **Duplikat** : Dupliziere die aktuelle Interaktion.
+- **Duplikat** : Dupliziert die aktuelle Interaktion.
 
 ### Registerkarte &quot;Allgemein&quot;
 
 - **Name** : Interaktionsname (kann leer sein, der Name ersetzt den Anforderungstext in der Interaktionsliste).
 - **Gruppe** : Interaktionsgruppe, dies ermöglicht es, sie zu organisieren (kann leer sein, wird daher in der Gruppe "keine" sein").
-- **Aktiva** : Ermöglicht das Aktivieren oder Deaktivieren der Interaktion.
+- **Aktiva** : Aktiviert oder deaktiviert die Interaktion.
 - **Anwendung** : Der generierende Modellsatz (erforderlich).
 - **Synonym** : Ermöglicht das Definieren von Synonymen für die Namen der Befehle.
 - **Antwort** : Die Antwort zu geben.
 - **Warten Sie, bevor Sie antworten (s)** : Fügen Sie eine Verzögerung von X Sekunden hinzu, bevor Sie die Antwort generieren. So können Sie beispielsweise auf die Rückkehr eines Lampenstatus warten, bevor Sie beantwortet werden.
 - **Binäre Konvertierung** : Konvertiert beispielsweise Binärwerte in Öffnen / Schließen (nur für Befehle vom Typ Binärinfo)).
-- **Autorisierte Benutzer** : Beschränkt die Interaktion auf bestimmte Benutzer (Anmeldungen getrennt durch |).
+- **Autorisierte Benutzer** : Beschränkt die Interaktion auf bestimmte Benutzer (Anmeldungen getrennt durch \|).
 
 ### Registerkarte Filter
 
@@ -127,7 +127,7 @@ In Synonymen geben wir daher den Namen des Befehls und die zu verwendenden Synon
 
 ![interact008](./images/interact008.png)
 
-Wir können hier eine etwas neue Syntax für Synonyme sehen. Ein Befehlsname kann mehrere Synonyme haben, hier hat "Ein" das Synonym "Einschalten" und "Einschalten"". Die Syntax lautet daher "*Name der Bestellung*" ***=*** "*Synonym 1*"***,*** "*Synonym 2*" (Wir können so viele Synonyme setzen, wie wir wollen). Um dann Synonyme für einen anderen Befehlsnamen hinzuzufügen, fügen Sie einfach einen vertikalen Balken nach dem letzten Synonym hinzu "*|*" Danach können Sie den Befehl erneut benennen, der Synonyme für den ersten Teil usw. enthält.
+Wir können hier eine etwas neue Syntax für Synonyme sehen. Ein Befehlsname kann mehrere Synonyme haben, hier hat "Ein" das Synonym "Einschalten" und "Einschalten"". Die Syntax lautet daher "*Name der Bestellung*" ***=*** "*Synonym 1*"***,*** "*Synonym 2*" (Wir können so viele Synonyme setzen, wie wir wollen). Um dann Synonyme für einen anderen Befehlsnamen hinzuzufügen, fügen Sie einfach einen vertikalen Balken nach dem letzten Synonym hinzu "*\.|*" Danach können Sie den Befehl erneut benennen, der Synonyme für den ersten Teil usw. enthält.
 
 Es ist schon besser, aber es fehlt immer noch für den Befehl &quot;on&quot; &quot;input&quot; das &quot;l&quot; und für andere das &quot;la&quot; oder &quot;le&quot; oder &quot;a&quot; usw. Wir könnten den Namen des Geräts ändern, um es hinzuzufügen, es wäre eine Lösung, andernfalls könnten wir die Variationen in der Anfrage verwenden. Dies besteht aus der Auflistung einer Reihe möglicher Wörter an einer Stelle im Satz. Jeedom generiert daher Sätze mit diesen Variationen.
 
@@ -161,7 +161,7 @@ Binäre Konvertierungen gelten für Befehle vom Typ Info, deren Subtyp binär is
 
 Wie wir hier sehen können, habe ich für die Anfrage fast die gleiche Struktur beibehalten (es ist freiwillig, sich auf die Einzelheiten zu konzentrieren). Natürlich habe ich die Synonyme angepasst, um etwas Kohärentes zu haben. Für die Antwort ist es jedoch **Imperativ** nur \ setzen#valeur\.# Dies stellt die 0 oder 1 dar, die Jeedom durch die folgende binäre Konvertierung ersetzen wird.
 
-Das Feld **Binäre Konvertierung** muss 2 Antworten enthalten : zuerst die Antwort, wenn der Wert des Befehls 0 wert ist, dann ein vertikaler Balken "|" Trennung und schließlich die Antwort, wenn der Befehl 1 wert ist. Hier sind die Antworten einfach nein und ja, aber wir könnten einen etwas längeren Satz setzen.
+Das Feld **Binäre Konvertierung** muss 2 Antworten enthalten : zuerst die Antwort, wenn der Wert des Befehls 0 ist, dann ein vertikaler Balken "\|" Trennung und schließlich die Antwort, wenn der Befehl 1 wert ist. Hier sind die Antworten einfach nein und ja, aber wir könnten einen etwas längeren Satz setzen.
 
 > **Warnung**
 >
@@ -169,9 +169,9 @@ Das Feld **Binäre Konvertierung** muss 2 Antworten enthalten : zuerst die Antwo
 
 ### Autorisierte Benutzer
 
-Im Feld "Autorisierte Benutzer" können nur bestimmte Personen zur Ausführung des Befehls autorisiert werden. Sie können mehrere Profile erstellen, indem Sie sie durch a trennen "|".
+Im Feld "Autorisierte Benutzer" können Sie nur bestimmte Personen zur Ausführung des Befehls autorisieren. Sie können mehrere Profile erstellen, indem Sie sie durch ein "\" trennen|".
 
-Beispiel : personne1|personne2
+Beispiel : personne1\.|personne2
 
 Wir können uns vorstellen, dass ein Alarm von einem Kind oder einem Nachbarn aktiviert oder deaktiviert werden kann, der in Ihrer Abwesenheit kommen würde, um die Pflanzen zu gießen.
 
@@ -180,7 +180,7 @@ Wir können uns vorstellen, dass ein Alarm von einem Kind oder einem Nachbarn ak
 Es ist möglich zu erstellen [Regexp](https://fr.wikipedia.org/wiki/Expression_rationnelle) Ausschluss: Wenn ein generierter Satz mit diesem regulären Ausdruck übereinstimmt, wird er gelöscht. Das Interesse besteht darin, falsch positive Ergebnisse entfernen zu können, dh einen von Jeedom erzeugten Satz, der etwas aktiviert, das nicht dem entspricht, was wir wollen, oder das eine andere Interaktion stören würde, die einen ähnlichen Satz hätte.
 
 Wir haben 2 Stellen, an denen Sie einen Regexp anwenden können :
-- In der Interaktion auch im Feld "Regexp-Ausschluss"".
+- In der Interaktion selbst im Feld "Regexp-Ausschluss"".
 - Im Menü Administration → Konfiguration → Interaktionen → Feld "Allgemeine Ausschluss-Regexp für Interaktionen"".
 
 Für das Feld &quot;Allgemeiner Ausschluss-Regex für Interaktionen&quot; wird diese Regel auf alle Interaktionen angewendet, die später erstellt oder erneut gespeichert werden. Wenn wir es auf alle vorhandenen Interaktionen anwenden möchten, müssen wir die Interaktionen neu generieren. Im Allgemeinen wird es verwendet, um falsch gebildete Sätze zu löschen, die in den meisten generierten Interaktionen gefunden wurden.
@@ -242,11 +242,11 @@ In diesem Beispiel sehen wir einen einfachen Satz, der eine Antwort mit 3 versch
 
 ![interact017](./images/interact017.png)
 
-Dieses Beispiel zielt speziell auf bestimmte Geräte ab, die eine personalisierte Antwort ermöglichen. Wir könnten uns also vorstellen, die Antwort des Beispiels durch "Nein, es ist niemand im Raum" zu ersetzen *Julie*|Ja, da ist jemand im Raum *Julie*"
+Dieses Beispiel zielt speziell auf bestimmte Geräte ab, die eine personalisierte Antwort ermöglichen. Wir könnten uns also vorstellen, die Antwort des Beispiels durch "Nein, es ist niemand im Raum" zu ersetzen *Julie*\.|Ja, da ist jemand im Raum *Julie*"
 
 #### Evolution
 
-- Die Frage ist also "\#commande\.# \ [in der |in der \] \#objet\.#"
+- Die Frage ist also "\#commande\.# \[in dem \|in der \] \#objet\.#"
 - Die Antwort lautet "Nein, es ist niemand im Raum" oder "Ja, es ist jemand im Raum""
 - Es gibt keinen Befehl, der darauf im Aktionsteil reagiert, da es sich um eine Interaktion mit mehreren Befehlen handelt
 - Durch Hinzufügen eines regulären Ausdrucks können wir die Befehle bereinigen, die wir nicht sehen möchten, sodass wir nur die Sätze in den Befehlen "Präsenz" haben".
@@ -265,7 +265,7 @@ Hier ein allgemeines Beispiel, anhand dessen die Temperatur, Luftfeuchtigkeit un
 
 ![interact019](./images/interact019.png)
 
-- So können wir sehen, dass ein allgemeiner Satz wie &quot;Was ist die Temperatur im Wohnzimmer&quot; oder &quot;Was ist die Helligkeit des Schlafzimmers&quot; in umgewandelt werden kann : "was ist \ [the |l \\ '\] \#commande\.# Objekt "(die Verwendung von \ [word1 | Mit word2 \] können Sie diese oder jene Möglichkeit sagen, um alle möglichen Varianten des Satzes mit word1 oder word2 zu generieren). Beim Generieren generiert Jeedom alle möglichen Kombinationen von Sätzen mit allen vorhandenen Befehlen (abhängig von den Filtern), indem \ ersetzt wird#commande\.# mit dem Namen des Befehls und \#objet\.# durch den Namen des Objekts.
+- So können wir sehen, dass ein allgemeiner Satz wie &quot;Was ist die Temperatur im Wohnzimmer&quot; oder &quot;Was ist die Helligkeit des Schlafzimmers&quot; in umgewandelt werden kann : "was ist der \|l \\ '\] \#commande\.# Objekt "(die Verwendung von \ [word1 \| Mit word2 \] können Sie diese oder jene Möglichkeit sagen, um alle möglichen Varianten des Satzes mit word1 oder word2 zu generieren). Beim Generieren generiert Jeedom alle möglichen Kombinationen von Sätzen mit allen vorhandenen Befehlen (abhängig von den Filtern), indem \ ersetzt wird#commande\.# mit dem Namen des Befehls und \#objet\.# durch den Namen des Objekts.
 - Die Antwort lautet "21 ° C" oder "200 Lux"". Einfach gesagt : \.#valeur\.# \.#unite\.# (Die Einheit ist in der Konfiguration jedes Befehls zu vervollständigen, für den wir einen haben möchten)
 - In diesem Beispiel wird daher ein Satz für alle digitalen Infotypbefehle generiert, die eine Einheit haben, sodass wir Einheiten im rechten Filter deaktivieren können, die auf den Typ beschränkt sind, der uns interessiert.
 
@@ -281,7 +281,7 @@ Wir können auch einen Regexp-Filter hinzufügen, um einige Befehle zu entfernen
 
 Wir können also einen regulären Ausdruck sehen :
 
-**(batterie|latence|pression|vitesse|consommation)**
+**(batterie\.|latence\.|pression\.|vitesse\.|consommation)**
 
 Auf diese Weise können Sie alle Befehle löschen, deren Satz eines dieser Wörter enthält
 

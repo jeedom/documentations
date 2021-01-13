@@ -1,15 +1,118 @@
+# Changelog Jeedom V4.1
 
-Changelog Jeedom V4
-=========
+## 4.1.0
 
-4.0.62
-=====
+### Pré-requis
+
+- Debian 10 Buster
+
+### Nouveautés / Améliorations
+
+- **Synthèse** : Ajout d'une nouvelle page **Accueil → Synthèse** proposant une synthèse visuelle globale des pièces, avec accès rapide aux résumés.
+- **Recherche** : Ajout d'un moteur de recherche dans **Outils → Recherche**.
+- **Dashboard** : Mode Édition maintenant en insertion de la tuile déplacée.
+- **Dashboard** : Mode édition: les icônes refresh des équipements sont remplacées par une icône permettant d'accéder à leur configuration, grâce a une nouvelle modale simplifiée.
+- **Dashboard** : On peut maintenant cliquer sur les *time* des widgets actions time pour ouvrir la fenêtre d'historique de la commande info liée.
+- **Dashboard** : La taille de la tuile d'un nouvel équipement s'adapte à son contenu.
+- **Dashboard** : Ajout (retour !) d'un bouton pour filtrer les éléments affichés par catégorie.
+- **Dashboard** : Ctrl Clic sur une info ouvre la fenêtre d'historique avec toutes les commandes historisées de l'équipement visible sur la tuile. Ctrl Clic sur une légende pour afficher seulement celle-ci, Alt Clic pour les afficher toutes.
+- **Dashboard** : Refonte de l'affichage de l'arbre des objets (flèche à gauche de la recherche).
+- **Dashboard** : Possibilité de flouter les arrières plan des images de fond (Configuration -> Interface).
+- **Outils / Widgets** : La fonction *Appliquer sur* montre les commandes liées cochées, en décocher une appliquera le widget core par défaut sur cette commande.
+- **Widgets** : Ajout d'un widget core *sliderVertical*.
+- **Widgets** : Ajout d'un widget core *binarySwitch*.
+- **Centre de mise à jour** : La vérification des mises à jour se fait automatiquement à l'ouverture de la page si plus ancienne de 120 mins.
+- **Centre de mise à jour** : La barre de progression est maintenant sur l'onglet *Core et plugins*, et le log ouvert par défaut sur l'onglet *Informations*.
+- **Centre de mise à jour** : Si vous ouvrez un autre navigateur pendant une update, la barre de progression et le log le signalent.
+- **Centre de mise à jour** : Si l'update se finit correctement, affichage d'une fenêtre invitant à recharger la page.
+- **Mises à jour du Core** : Mise en place d'un système de nettoyage des anciens fichiers non utilisés du Core.
+- **Scénario** : Ajout d'un moteur de recherche (à gauche du bouton Exécuter).
+- **Scénario** : Ajout de la fonction age (donne l'âge de la valeur de la commande).
+- **Scénario** : *stateChanges()* accepte maintenant la période *today* (de minuit à maintenant), *yesterday* et *day* (pour 1 day).
+- **Scénario** : Fonctions *statistics(), average(), max(), min(), tendance(), duration()* : Bugfix sur la période *yesterday*, et accepte maintenant *day* (pour 1 day).
+- **Scénario** : Possibilité de désactiver le système de quote automatique (Réglages → Système → Configuration : Equipements).
+- **Scénario** : Affichage d'un *warning* si aucun déclencheur n'est configuré.
+- **Scénario** : Bugfix des *select* sur les copier/coller de bloc.
+- **Scénario** : Copier/coller de bloc entre différents scénarios.
+- **Scénario** : Les fonctions undo/redo sont maintenant disponible sous forme de boutons (à coté du bouton de création de bloc).
+- **Scénario** :  ajout de "Export historique" (exportHistory)
+- **Fenêtre des variables de scénarios** : Tri alphabétique à l'ouverture.
+- **Fenêtre des variables de scénarios** : Les scénarios utilisés par les variables sont maintenant clickable, avec ouverture de la recherche sur la variable.
+- **Analyse / Historique** : Ctrl Clic sur une légende pour afficher seulement cet historique, Alt Clic pour les afficher tous.
+- **Analyse / Historique** : Les options *groupement, type, variation, escalier* sont actives seulement avec une seule courbe affichée.
+- **Analyse / Historique** : On peut maintenant utiliser l'option *Aire* avec l'option *Escalier*.
+- **Analyse / Logs** : Nouvelle police de type monospace pour les logs.
+- **Vue** : Possibilité de mettre des scénarios.
+- **Vue** : Mode Édition maintenant en insertion de la tuile déplacée.
+- **Vue** : Mode édition: les icônes refresh des équipements sont remplacées par une icône permettant d'accéder à leur configuration, grâce a une nouvelle modale simplifiée.
+- **Vue** : L'ordre d'affichage est maintenant indépendant de celui sur le Dashboard.
+- **Timeline** : Séparation des pages Historique et Timeline.
+- **Timeline** : Intégration de la Timeline en DB pour des raisons de fiabilité.
+- **Timeline** : Gestion de Timelines multiples.
+- **Timeline** : Refonte graphique complète de la timeline (Desktop / Mobile).
+- **Résumé global** : Affichage par résumé, support des résumés depuis un objet différent ou avec un objet racine vide (Desktop et WebApp).
+- **Outils / Objets** : Nouvel onglet *Résumé par équipements*.
+- **Résumé domotique** : Les équipements de plugins désactivés et leurs commandes n'ont plus les icônes de droite (configuration de l'équipement et configuration avancée).
+- **Résumé domotique** : Possibilité de chercher sur les catégories d'équipements.
+- **Résumé domotique** : Possibilité de déplacer plusieurs équipements d'un objet dans un autre.
+- **Résumé domotique** : Possibilité de sélectionner tous les équipements d'un objet.
+- **Moteur de tâches** : Sur l'onglet *Démon*, les plugins désactivés n’apparaissent plus.
+- **Rapport** : Utilisation de *chromium* si disponible.
+- **Rapport** : Possibilité d'exporter les timelines.
+- **Configuration** : L'onglet *Informations* est maintenant dans l'onglet *Général*.
+- **Configuration** : L'onglet *Commandes* est maintenant dans l'onglet *Equipements*.
+- **Fenêtre de configuration avancée d'équipement** : Changement dynamique de la configuration tableau.
+- **Equipements** : Nouvelle catégorie *Ouvrant*.
+- **Equipements** : Possibilité d'inverser les commande de type curseur (info et action)
+- **Equipements** : Possibilité d'ajouter des class css à une tuile (voir documentation widget).
+- **Fenêtre A propos** : Ajout de raccourcis vers le Changelog et la FAQ.
+- Pages Widgets / Objets / Scénarios / Interactions / Plugins :
+	- Ctrl Clic / Clic Centre sur un Widget, Objet, Scénarios, Interaction, équipement de plugin : Ouvre dans un nouvel onglet.
+	- Ctrl Clic / Clic Centre également disponible dans leurs menus contextuels (sur les onglets).
+- Nouvelle page ModalDisplay :
+	- Menu Analyse : Ctrl Clic / Clic Centre sur *Temps réel* : Ouvre la fenêtre dans un nouvel onglet, en pleine page.
+	- Menu Outils : Ctrl Clic / Clic Centre sur *Notes*, *Testeur expression*, *Variables*, *Recherche* : Ouvre la fenêtre dans un nouvel onglet, en pleine page.
+- Bloc code, Éditeur de fichier, Personnalisation avancée : Adaptation thème Dark.
+- Amélioration de la fenêtre de sélection d'image.
+
+### WebApp
+- Intégration de la nouvelle page Synthèse.
+- Page scénarios, un clic sur le titre du scénario affiche le log de celui-ci.
+- On peut maintenant sélectionner / copier une partie d'un log.
+- Sur la recherche dans un log, ajout d'un bouton x pour annuler la recherche.
+- Persistance de la bascule de thème (8h).
+- Sur un design, un click avec trois doigts permet de revenir à l'accueil.
+- Affichage des scénarios par groupe.
+- Nouvelle police de type monospace pour les logs.
+- Nombreux bug-fix (UI, portrait/landscape iOS, etc.).
+
+### Autres
+- **Documentation** : Adaptations en adéquation avec la v4 et v4.1.
+- **Documentation** : Nouvelle page *Raccourcis clavier / souris* comprenant un récapitulatif de tous les raccourcis dans Jeedom. Accessible depuis la doc du Dashboard ou la FAQ.
+- **Lib** : Update HighStock v7.1.2 vers v8.2.0.
+- **Lib** : Update jQuery v3.4.1 vers v3.5.1.
+- **Lib** : Update Font Awesome 5.9.0 vers 5.13.1.
+- **API** :  ajout d'une option pour interdire une clef api d'un plugin d'executer des methodes core (général)
+- Sécurisation des requêtes Ajax.
+- Sécurisation des appels API.
+- Corrections de bugs.
+- Nombreuses optimisations de performance desktop / mobile.
+
+### Changements
+- La fonction **scenario->getHumanName()** de la class php scenario ne renvoit plus *[object][group][name]* mais *[group][object][name]*.
+- La fonction **scenario->byString()** doit maintenant être appellée avec la structure *[group][object][name]*.
+- Les fonctions **network->getInterfaceIp() network->getInterfaceMac() network->getInterfaces()** ont été remplacées par **network->getInterfacesInfo()**
+
+
+# Changelog Jeedom V4.0
+
+## 4.0.62
 
 - Nouvelle migration buster + kernel pour la smart et la Pro v2
 - Verification version OS lors de mise à jour importantes de Jeedom
 
-4.0.61
-=====
+
+## 4.0.61
 
 - Correction d'un soucis lors de l'application d'un template de scénario
 - Ajout d'une option permettant de désactiver la vérification SSL lors de la communication avec le market (non recommandé mais utile dans certaine configuration réseaux spécifique)
@@ -17,82 +120,69 @@ Changelog Jeedom V4
 - Corrections de bugs
 - Correction de la commande trigger() dans les scénarios pour qu'elle renvoi le nom du declencheur (sans les #) au lieu de la valeur, pour la valeur il faut utilise triggerValue()
 
-4.0.60
-=====
+## 4.0.60
 
 - Supression du nouveau systeme de DNS en eu.jeedom.link suite à un trop grand nombre d'opérateur qui interdisent les flux http2 permanant
 
-4.0.59
-=====
+## 4.0.59
 
 - Correction de bugs sur les widgets time
 - Augmentation du nombre de mauvais mot de passe avant bannissement (évite les soucis avec la webapp lors de la rotation des clefs api)
 
-4.0.57
-=====
+## 4.0.57
 
 - Renforcement de la securité des cookies
 - Utilisation de chromium (si il est installé) pour les rapports
 - Correction d'un soucis de calcul de temps d'état sur les widgets si le fuseau horaire de jeedom n'est pas le meme que celui du navigateur
 - Correction de bugs
 
-4.0.55
-=======
+## 4.0.55
 
 - Le nouveau dns (\*.eu.jeedom.link) devient le DNS primaire (l'ancien DNS marche toujours)
 
-4.0.54
-=====
+## 4.0.54
 
 - Début de la mise à jour vers le nouveau site de documentation
 
-4.0.53
-=====
+## 4.0.53
 
 - Correction de bug.
 
-4.0.52
-=====
+## 4.0.52
 
 - Correction de bug (mise à jour à faire absolument si vous êtes en 4.0.51).
 
-4.0.51
-=====
+## 4.0.51
 
 - Correction de bugs.
 - Optimisation du futur système de DNS.
 
-4.0.49
-=====
+## 4.0.49
 
 - Possibilité de choisir le moteur TTS de jeedom et possibilité d'avoir des plugins qui propose un nouveau moteur TTS.
 - Amélioration du support de la webview dans l'application mobile.
 - Correction de bugs.
 - Mise à jour de la doc.
 
-4.0.47
-=====
+## 4.0.47
 
 - Amélioration du testeur d'expression.
 - Mise à jour du repository sur smart.
 - Correction de bugs.
 
-4.0.44
-=====
+## 4.0.44
 
 - Amélioration des traductions.
 - Correction de bugs.
 - Amélioration de la restauration de backup cloud.
 - La restauration cloud ne rapatrie plus maintenant que le backup en local, laissant le choix de le télécharger ou de le restaurer.
 
-4.0.43
-=====
+## 4.0.43
 
 - Amélioration des traductions.
 - Correction de bugs sur les templates de scénario.
 
-4.0.0
-=====
+## 4.0.0
 - Refonte complète des thèmes (Core 2019 Light / Dark / Legacy).
 - Possibilité de changer de thème automatiquement en fonction de l'heure.
 - En mobile, le thème peut changer en fonction de la luminosité (Nécessite d'activer *generic extra sensor* dans chrome, page chrome://flags).<br/><br/>
@@ -181,4 +271,5 @@ Changelog Jeedom V4
 >**IMPORTANT**
 >
 >Le plugin widget n'est pas compatible avec cette version de Jeedom et ne sera plus supporté (car les fonctionnalités ont été reprise en interne sur le core). Plus d'informations [ici](https://www.Jeedom.com/blog/4368-les-widgets-en-v4).
+
 

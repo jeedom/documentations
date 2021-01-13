@@ -29,8 +29,8 @@ En esta tabla, encontramos :
 - **Clase** : Clase PHP llamada para ejecutar la tarea (puede estar vacía).
 - **Función** : Función PHP llamada en la clase llamada (o no si la clase está vacía).
 - **Programación** : Programación de la tarea en formato CRON.
-- **Tiempo de espera** : Tiempo máximo de ejecución de la tarea. Si la tarea es un demonio, se detendrá y reiniciará automáticamente al final del tiempo de espera.
-- **Último lanzamiento** : Fecha de lanzamiento de la última tarea.
+- **Tiempo de espera** : Máximo tiempo de ejecución de tareas. Si la tarea es un demonio, se detendrá y reiniciará automáticamente al final del tiempo de espera.
+- **Último lanzamiento** : Fecha del último lanzamiento de la tarea.
 - **Última duración** : Último tiempo de ejecución de la tarea (un demonio siempre estará en 0s, no te preocupes porque otras tareas pueden estar en 0s).
 - **Estatus** : Estado actual de la tarea (como recordatorio, una tarea daemon siempre se "ejecuta"").
 

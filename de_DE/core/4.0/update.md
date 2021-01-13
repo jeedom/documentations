@@ -18,14 +18,14 @@ Wenn Sie eine manuelle Überprüfung durchführen möchten, können Sie auf die 
 
 Die Schaltfläche **Speichern** wird verwendet, wenn Sie die Optionen in der folgenden Tabelle ändern, um anzugeben, dass bestimmte Plugins bei Bedarf nicht aktualisiert werden sollen.
 
-## Aktualisieren Sie den Kern
+## Aktualisieren Sie den Core
 
 Die Schaltfläche **Update** Mit dieser Option können Sie den Core, die Plugins oder beides aktualisieren.
 Sobald Sie darauf klicken, erhalten Sie diese verschiedenen Optionen :
 - **Pre-Update** : Ermöglicht das Aktualisieren des Aktualisierungsskripts, bevor die neuen Aktualisierungen angewendet werden. Wird in der Regel auf Anfrage des Supports verwendet.
-- **Vorher speichern** : Sichern Sie Jeedom vor dem Update.
+- **Vorher speichern** : Sichern Sie Jeedom vor dem Update. Die Sicherung wird nur lokal durchgeführt (weder Market noch Samba).
 - **Plugins aktualisieren** : Ermöglicht das Einfügen von Plugins in das Update.
-- **Aktualisieren Sie den Kern** : Ermöglicht es Ihnen, den Jeedom-Kernel (den Kern) in das Update aufzunehmen.
+- **Aktualisieren Sie den Core** : Ermöglicht es Ihnen, den Jeedom-Kernel (den Kern) in das Update aufzunehmen.
 
 - **Erzwungener Modus** : Führen Sie das Update im erzwungenen Modus durch, dh, dass Jeedom auch im Fehlerfall fortfährt und die Sicherung nicht wiederherstellt. (Dieser Modus deaktiviert das Speichern !).
 - **Update zur erneuten Anwendung** : Ermöglicht das erneute Anwenden eines Updates. (NB : Nicht alle Updates können erneut angewendet werden.)

@@ -39,7 +39,7 @@ Davor gibt es oben auf der Seite einige nützliche Funktionen zum Verwalten dies
 - **Identifikation** : Neben dem Wort **General**, Dies ist die Szenariokennung.
 - **Status** : *Verhaftet* oder *In Bearbeitung*, Es zeigt den aktuellen Status des Szenarios an.
 - **Vorheriger / nächster Zustand** : Aktion abbrechen / wiederholen.
-- **Fügen Sie einen Block hinzu** : Ermöglicht das Hinzufügen eines Blocks des gewünschten Typs zum Szenario (siehe unten)).
+- **Block hinzufügen** : Ermöglicht das Hinzufügen eines Blocks des gewünschten Typs zum Szenario (siehe unten)).
 - **Log** : Zeigt die Szenarioprotokolle an.
 - **Duplikat** : Kopieren Sie das Szenario, um ein neues mit einem anderen Namen zu erstellen.
 - **Verbindungen** : Ermöglicht das Anzeigen des Diagramms der Elemente, die sich auf das Szenario beziehen.
@@ -92,7 +92,7 @@ In der Registerkarte **General**, Wir finden die Hauptparameter des Szenarios :
 
 ## Registerkarte &quot;Szenario&quot;
 
-Hier erstellen Sie Ihr Szenario. Nach dem Erstellen des Szenarios ist sein Inhalt leer, sodass er ... nichts tut. Du musst mit anfangen **Fügen Sie einen Block hinzu**, mit dem Knopf rechts. Sobald ein Block erstellt wurde, können Sie einen weiteren hinzufügen **Block** oder a **Aktion**.
+Hier erstellen Sie Ihr Szenario. Nach dem Erstellen des Szenarios ist sein Inhalt leer, sodass er ... nichts tut. Du musst mit anfangen **Block hinzufügen**, mit dem Knopf rechts. Sobald ein Block erstellt wurde, können Sie einen weiteren hinzufügen **Block** oder a **Aktion**.
 
 Um die Blöcke im Szenario einfacher zu gestalten und nicht ständig neu anordnen zu müssen, wird nach dem Feld, in dem sich der Mauszeiger befindet, ein Block hinzugefügt.
 *Wenn Sie beispielsweise zehn Blöcke haben und auf die IF-Bedingung des ersten Blocks klicken, wird der hinzugefügte Block nach dem Block auf derselben Ebene hinzugefügt. Wenn kein Feld aktiv ist, wird es am Ende des Szenarios hinzugefügt.*
@@ -103,7 +103,7 @@ Um die Blöcke im Szenario einfacher zu gestalten und nicht ständig neu anordne
 
 > **Spitze**
 >
-> Mit einer Strg-Umschalttaste Z oder einer Strg-Umschalttaste Y können Sie dies tun'**Abbrechen** oder eine Änderung wiederholen (Aktion hinzufügen, blockieren...).
+> Mit einer Strg-Umschalttaste Z oder einer Strg-Umschalttaste Y können Sie dies tun'**stornieren** oder eine Änderung wiederholen (Aktion hinzufügen, blockieren...).
 
 ## Blöcke
 
@@ -181,8 +181,7 @@ Mit dem Code-Block können Sie PHP-Code ausführen. Es ist daher sehr mächtig, 
 - ``$scenario->getIsActive();`` : Gibt den Status des Szenarios zurück.
 - ``$scenario->setIsActive($active);`` : Ermöglicht das Aktivieren oder Nicht-Aktivieren des Szenarios.
     - ``$active`` : 1 aktiv, 0 nicht aktiv.
-- ``$scenario->setOnGoing($onGoing);`` : Sagen wir, ob das Szenario läuft oder nicht.
-    - ``$onGoing => 1`` : 1 in Bearbeitung, 0 gestoppt.
+- ``$scenario->running();`` : Wird verwendet, um herauszufinden, ob das Szenario ausgeführt wird oder nicht (true / false)).
 - ``$scenario->save();`` : Änderungen speichern.
 - ``$scenario->setData($key, $value);`` : Speichern Sie eine Daten (Variable).
     - ``$key`` : Werteschlüssel (int oder string).
@@ -190,7 +189,7 @@ Mit dem Code-Block können Sie PHP-Code ausführen. Es ist daher sehr mächtig, 
 - ``$scenario->getData($key);`` : Daten abrufen (variabel).
     - ``$key => 1`` : Werteschlüssel (int oder string).
 - ``$scenario->removeData($key);`` : Daten löschen.
-- ``$scenario->setLog($message);`` : Schreiben Sie eine Nachricht in das Szenario-Protokoll.
+- ``$scenario->setLog($message);`` : Schreiben Sie eine Nachricht in das Skriptprotokoll.
 - ``$scenario->persistLog();`` : Erzwingen Sie das Schreiben des Protokolls (andernfalls wird es nur am Ende des Szenarios geschrieben). Seien Sie vorsichtig, dies kann das Szenario etwas verlangsamen.
 
 > **Spitze**
@@ -225,14 +224,14 @@ Zu Blöcken hinzugefügte Aktionen haben mehrere Optionen :
 
 Es gibt bestimmte Auslöser (außer denen, die durch Befehle bereitgestellt werden)) :
 
-- ``#start#`` : Ausgelöst beim (Wieder-) Start von Jeedom.
+- ``#start#`` : Wird beim (erneuten) Start von Jeedom ausgelöst.
 - ``#begin_backup#`` : Ereignis, das zu Beginn einer Sicherung gesendet wurde.
 - ``#end_backup#`` : Ereignis, das am Ende einer Sicherung gesendet wird.
 - ``#begin_update#`` : Ereignis, das zu Beginn eines Updates gesendet wurde.
-- ``#end_update#`` : Ereignis, das am Ende eines Updates gesendet wurde.
+- ``#end_update#`` : Ereignis, das am Ende eines Updates gesendet wird.
 - ``#begin_restore#`` : Ereignis zu Beginn einer Restaurierung gesendet.
-- ``#end_restore#`` : Ereignis am Ende einer Restaurierung gesendet.
-- ``#user_connect#`` : Benutzer Login
+- ``#end_restore#`` : Ereignis gesendet am Ende einer Restaurierung.
+- ``#user_connect#`` : Benutzeranmeldung
 
 Sie können auch ein Szenario auslösen, wenn eine Variable durch Putten aktualisiert wird : #variable(nom_variable)# oder unter Verwendung der beschriebenen HTTP-API [hier](https:/./.doc.jeedom.com/de_DE/core/.4.1/.api_http).
 
@@ -242,7 +241,7 @@ Sie können eines der folgenden Symbole für Vergleiche unter Bedingungen verwen
 
 - ``==`` : Gleich.
 - ``>`` : Streng größer als.
-- ``>=`` : Größer als oder gleich.
+- ``>=`` : Größer oder gleich.
 - ``<`` : Streng weniger als.
 - ``<=`` : Kleiner als oder gleich.
 - ``!=`` : Anders als, ist nicht gleich.
@@ -335,7 +334,7 @@ Für das Gerät stehen verschiedene Funktionen zur Verfügung :
 - ``scenario(scenario)`` : Gibt den Status des Szenarios zurück.
     1 : In Bearbeitung,
     0 : Verhaftet,
-    -1 : Deaktiviert,
+    -1 : Untauglich,
     -2 : Das Szenario existiert nicht,
     -3 : Zustand ist nicht konsistent.
     Um den &quot;menschlichen&quot; Namen des Szenarios zu erhalten, können Sie die entsprechende Schaltfläche rechts neben der Szenariosuche verwenden.
@@ -475,7 +474,16 @@ Zusätzlich zu den Befehlen für die Hausautomation haben Sie Zugriff auf die fo
 - **Programmierten IN / A-Block löschen** (remove_inat) : Ermöglicht das Löschen der Programmierung aller IN- und A-Blöcke des Szenarios.
 - **Ereignis** (event) : Ermöglicht das willkürliche Übertragen eines Werts in einen Befehl vom Typ Information.
 - **Etikett** (tag) : Ermöglicht das Hinzufügen / Ändern eines Tags (das Tag ist nur während der aktuellen Ausführung des Szenarios vorhanden, im Gegensatz zu den Variablen, die das Ende des Szenarios überleben).
-- **Färbung von Dashboard-Symbolen** (setColoredIcon) : Mit dieser Option können Sie die Farbgebung von Symbolen im Dashboard aktivieren oder nicht.
+- **Färbung von Dashboard-Symbolen** (setColoredIcon) : Ermöglicht das Aktivieren oder Nicht-Aktivieren der Farbgebung von Symbolen im Dashboard.
+- **Historischer Export** (exportHistory) : Ermöglicht den Export des Verlaufs einer Bestellung in CSV in Form einer Datei (z. B. per Post)). Sie können mehr als eine Bestellung aufgeben (getrennt durch &&). Die Auswahl des Zeitraums erfolgt im Formular :
+  - "-1 Monat "=> -1 Monat
+  - "-1 Tag Mitternacht "=> -1 Tag um Mitternacht
+  - "jetzt "=> jetzt
+  - "Montag diese Woche Mitternacht "=> Montag dieser Woche um Mitternacht
+  - "letzten Sonntag 23:59 "=> vorheriger Sonntag um 23:59 Uhr
+  - "letzter Tag des Vormonats 23:59 "=> letzter Tag des Vormonats um 23:59 Uhr
+  - "erster Tag im Januar dieses Jahres Mitternacht "=> erster Tag im Januar um Mitternacht
+  - ...
 
 ### Szenariovorlage
 

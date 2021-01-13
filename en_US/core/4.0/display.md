@@ -1,4 +1,4 @@
-# Domotic overview
+# Home Automation Summary
 **Analysis → Home automation summary**
 
 This page allows you to gather on a single page the different elements configured on your Jeedom. It also gives access to functions for organizing equipment and controls, to their advanced configuration and to display configuration possibilities.
@@ -8,12 +8,12 @@ This page allows you to gather on a single page the different elements configure
 On the top of the page, we find :
 - **Number of objects** : Total number of objects configured in our Jeedom, including inactive elements.
 - **Number of equipments** : Same for the equipment.
-- **Number of orders** : Same for orders.
+- **Number of commands** : Same for commands.
 - **Inactive** : Check this box if you want inactive items to be displayed on this page.
-- **Search** : Search for a particular item. It can be the name of a device, an order or the name of the plugin by which the device was created.
+- **Search** : Search for a particular item. It can be the name of a device, a command or the name of the plugin by which the device was created.
 - **CSV export** : Allows you to export all objects, equipment and their commands to a CSV file.
 
-You also have a tab **Historical**, displaying the history of orders, equipment, objects, views, design, 3d design, scenarios and deleted users.
+You also have a tab **Historical**, displaying the history of commands, equipment, objects, views, design, 3d design, scenarios and deleted users.
 
 ## Object frames
 
@@ -37,7 +37,7 @@ For each object, next to its label, two buttons are available.
 On each equipment we find :
 
 - A **check box** to select the equipment (you can select several). If at least one device is selected, you have action buttons that appear in the upper left to **remove**, return **Jeedom**/**Invisible**,  **active**/**Inactive** selected equipment.
-- L'**Id** equipment.
+- L'**ID** equipment.
 - The **Type** equipment : Identifier of the plugin to which it belongs.
 - The **last name** equipment.
 - **Inactive** (small cross) : Means that the equipment is inactive (if it is not there, the equipment is active).
@@ -47,7 +47,7 @@ If the equipment plugin is disabled, the two icons on the right do not appear:
 - **External link** (square with arrow) : Allows to open in a new tab the equipment configuration page.
 - **Advanced configuration** (toothed wheel) : opens the advanced equipment configuration window.
 
-> By clicking on the line containing the name of the equipment, you will display all the commands for this equipment. By clicking on an order, you will access the order configuration window.
+> By clicking on the line containing the name of the equipment, you will display all the commands for this equipment. By clicking on an command, you will access the command configuration window.
 
 ## Advanced equipment configuration
 
@@ -67,7 +67,7 @@ The window of **Advanced equipment configuration** allows to modify it. First, a
 
 The tab **Information** contains general information about the equipment and its controls :
 
-- **Id** : Unique identifier in the Jeedom database.
+- **ID** : Unique identifier in the Jeedom database.
 - **Last name** : Name of equipment.
 - **Logical ID** : Logical identifier of the equipment (can be empty).
 - **Object ID** : Unique identifier of the parent object (can be empty).
@@ -107,7 +107,7 @@ This part allows you to choose between the standard layout of the commands (side
 **Board** :
 - **Number of lines**
 - **Number of columns**
-- **Center in boxes** : Check the box to center the orders in the boxes.
+- **Center in boxes** : Check the box to center commands in cells.
 - **General style of boxes (CSS)** : Allows you to define the general style in CSS code.
 - **Table style (CSS)** : Allows you to define the style of the table only.
 
@@ -140,7 +140,7 @@ You can also manage the timeout, in minutes, of the equipment. For example, 30 t
 
 Allows you to write a comment about the equipment.
 
-## Advanced configuration of an order
+## Advanced configuration of a command
 
 First, at the top right, some buttons available :
 
@@ -148,7 +148,7 @@ First, at the top right, some buttons available :
 - **Connections** : Allows to display the links of the equipment with objects, commands, scenarios, variables, interactions…. in graphic form.
 - **Log** : Displays the events of the equipment in question.
 - **Information** : Displays the raw properties of the equipment.
--  **Apply to** : Allows the same configuration to be applied to several commands.
+-  **To apply to** : Allows the same configuration to be applied to several commands.
 - **Save** : Save the modifications made on the equipment.
 
 > **Tip**
@@ -157,15 +157,15 @@ First, at the top right, some buttons available :
 
 > **NOTE**
 >
-> Depending on the type of order, the information / actions displayed may change.
+> Depending on the type of command, the information / actions displayed may change.
 
 ### Information tab
 
-The tab **Information** contains general information about the order :
+The tab **Information** contains general information about the command :
 
-- **Id** : Unique identifier in the database.
+- **ID** : Unique identifier in the database.
 - **Logical ID** : Logical identifier of the command (can be empty).
-- **Last name** : Name of the order.
+- **Last name** : Name of the command.
 - **Type** : Type of command (action or info).
 - **Subtype** : Command subtype (binary, digital, etc.)).
 - **Direct url** : Provides the URL to access this equipment. (right click, copy the link address) The URL will launch the command for a **Action** and return the information for a **Info**.
@@ -178,7 +178,7 @@ The tab **Information** contains general information about the order :
 
 You also have three other orange buttons underneath :
 
-- **This command replaces the ID** : Allows you to replace an order ID with the order in question. Useful if you have deleted an equipment in Jeedom and you have scenarios that use commands from it.
+- **This command replaces the ID** : Allows you to replace a command ID with the command in question. Useful if you have deleted an equipment in Jeedom and you have scenarios that use commands from it.
 - **This command replaces the command** : Replace command with current command.
 - **Replace this command with the command** : Conversely, replace the command with another command.
 
@@ -190,10 +190,10 @@ Below, you will find the list of the different equipment, commands, scenarios or
 
 ### Configuration tab
 
-#### For an info type order :
+#### For an info type command :
 
 - **Calculation and rounding**
-    - **Algorithm (\#value\# for value)** : Allows you to make an operation on the value of the order before processing by Jeedom, example : ``#value# - 0.2` to subtract 0.2 (offset on a temperature sensor).
+    - **Algorithm (\#value\# for value)** : Allows you to make an operation on the value of the command before processing by Jeedom, example : ``#value# - 0.2` to subtract 0.2 (offset on a temperature sensor).
     - **Rounded (number after decimal point)** : Used to round the value of the command (Example : put 2 to transform 16.643,345 in 16.64).
 - **Generic type** : Allows you to configure the generic type of the command (Jeedom tries to find it by itself in auto mode). This information is used by the mobile application.
 - **Action on value, if** : Lets do some sort of mini scenarios. You can, for example, say that if the value is worth more than 50 for 3 minutes, then you have to do such action. This allows, for example, to turn off a light X minutes after it has turned on.
@@ -210,15 +210,15 @@ Below, you will find the list of the different equipment, commands, scenarios or
 
 - **Other**
     - **Management of the repetition of values** : In automatic if the command goes up 2 times the same value in a row, then Jeedom will not take into account the 2nd ascent (avoids triggering a scenario several times, unless the command is of binary type). You can force the repetition of the value or prohibit it completely.
-    - **Push URL** : Allows to add a URL to call in case of update of the order. You can use the following tags : ``#value#`for the value of the order,`#cmd_name#`for the name of the command,`#cmd_id#`for the unique identifier of the order,`#humanname#`for the full name of the command (ex : ``#[SalThe de bain][Hydrometrie][Humidité]#`),`#eq_name#`for the name of the equipment.
+    - **Push URL** : Allows to add a URL to call in case of update of the command. You can use the following tags : ``#value#`for the value of the command,`#cmd_name#`for the name of the command,`#cmd_id#`for the unique identifier of the command,`#humanname#`for the full name of the command (ex : ``#[SalThe de bain][Hydrometrie][Humidité]#`),`#eq_name#`for the name of the equipment.
 
 #### For an action command :
 
 -  **Generic type** : Allows you to configure the generic type of the command (Jeedom tries to find it by itself in auto mode). This information is used by the mobile application.
 - **Confirm action** : Check this box to have Jeedom request confirmation when the action is launched from the interface of this command.
 - **Access code** : Allows to define a code that Jeedom will ask when the action is launched from the interface of this command.
-- **Action before execution of the command** : Add commands **before** each execution of the order.
-- **Action after execution of the order** : Add commands **after** each execution of the order.
+- **Action before execution of the command** : Add commands **before** each execution of the command.
+- **Action after execution of the command** : Add commands **after** each execution of the command.
 
 ### Alerts tab
 

@@ -1,7 +1,9 @@
 # Historique
 **Analysis → History**
 
-Important part in software : the historization part, a true memory of it. It is possible in Jeedom to log any information type command (binary or digital). This will allow you, for example, to log a temperature, consumption or door opening curve, etc
+Important part in software : the historization part, a true memory of it. It is possible in Jeedom to log any information type command (binary or digital). This will allow you for example to log a temperature curve, consumption, door openings, etc
+
+![Historical](./images/history.gif)
 
 ### Principe
 
@@ -30,17 +32,16 @@ There are several ways to access the history :
 - On mobile while remaining pressed on the widget in question,
 - By putting a graph area in a view (see below).
 
-## History tab
+## Historique
 
-If you display a graph by the history page, you have access to several display options :
+If you display a graph via the history page, you have access to several display options, above the graph :
 
-We find at the top right the display period (here on the last week because, by default I want it to be only one week - see 2 paragraphs above), then come the parameters of the curve (these parameters are kept from one display to another, so you only have to configure them once).
+- **Period** : The display period, including historical data between these two dates. By default, depending on the setting *Display period graphics by default* IN *Settings → System → Configuration / Equipment*.
+- **Group** : Offers several grouping options (Sum per hour, etc.).
+- **Display type** : Display in *Line*, *Area*, or *Bar*. Option saved on the order and used from the Dashboard.
+- **Variation** : Displays the difference in value from the previous point. Option saved on the order and used from the Dashboard.
+- **Staircase** : Displays the curve as a staircase or a continuous display. Option saved on the order and used from the Dashboard.
 
-- **Staircase** : Displays the curve as a staircase or a continuous display.
-- **Variation** : Displays the difference in value from the previous point.
-- **Line** : Displays the graph as lines.
-- **Area** : Displays the graph as an area.
-- **Column**\* : Displays the graph as bars.
 
 > **Tip**
 >
@@ -68,7 +69,7 @@ The history page gives access to some additional options
 
 #### Calculated history
 
-Allows you to display a curve according to a calculation on several commands (you can do almost everything, + - / \* absolute value… see PHP documentation for certain functions).
+Allows to display a curve according to a calculation on several commands (you can do almost anything, + - / \* absolute value ... see PHP documentation for some functions).
 Ex :
 abs(*\ [Garden \] \ [Hygrometry \] \ [Temperature \]* - *\ [Living space \] \ [Hygrometry \] \ [Temperature \]*)
 
@@ -78,51 +79,15 @@ You also have access to a management of calculation formulas which allows you to
 >
 > Just click on the name of the object to unfold it, and bring up the historical commands that can be displayed.
 
-#### Order history
+#### Command history
 
 In front of each data that can be displayed, you will find two icons :
 
 - **Trash can** : Allows you to delete the recorded data; when clicking, Jeedom asks whether to delete the data before a certain date or all the data.
-- **Arrow** : Allows to have a CSV export of historical data.
+- **Arrow** : Enables CSV export of historical data.
 
 ### Inconsistent value removal
 
 Sometimes you may have inconsistent values on the graphs. This is often due to a concern with interpreting the value. It is possible to delete or change the value of the point in question, by clicking on it directly on the graph; in addition, you can adjust the minimum and maximum allowed to avoid future problems.
 
-## Timeline tab
-
-The timeline displays certain events in your home automation in chronological form.
-
-To see them, you must first activate the tracking on the timeline of the desired commands or scenarios, then these events occur.
-
-- **Scenario** : Either directly on the scenario page, or on the scenario summary page to do it in bulk".
-- **Ordered** : Either in the advanced configuration of the command, or in the configuration of the history to do it in "mass".
-
-The timeline *Main* always contains all the events. However, you can filter the timeline by *Folder*. At each place where you activate the timeline, you will have a field to enter the name of a folder, existing or not.
-You can then filter the timeline by this folder by selecting it to the left of the button *Refresh*.
-
-> **NOTE**
->
-> If you no longer use a folder, it will appear in the list as long as events linked to this folder exist. It will disappear from the list by itself.
-
-> **Tip**
->
-> You have access to the scenario summary or history configuration windows directly from the timeline page.
-
-Once you have activated tracking in the timeline of the commands and scenarios you want, you will be able to see them appear on the timeline.
-
-> **IMPORTANT**
->
-> You have to wait for new events after activating the tracking on the timeline before seeing them appear.
-
-### Affichage
-
-The timeline displays a table of recorded events in three columns:
-
-- The date and time of the event,
-- The type of event: An info or action command, or a scenario, with the command plugin for commands.
-- The name of the parent object, the name, and depending on the type, state or trigger.
-
-- A command type event displays an icon on the right to open the command configuration.
-- A scenario type event displays two icons on the right to go to the scenario, or open the scenario log.
 

@@ -14,9 +14,9 @@ Jeedom tiene una versión móvil adecuada para usar en dispositivos móviles y t
 Cuando inicia sesión en Jeedom por primera vez (e incluso después si no los ha cambiado), el nombre de usuario y la contraseña predeterminados son admin / admin. En la primera conexión, se recomienda encarecidamente modificar estos identificadores para mayor seguridad.
 
 ### Ya no puedo conectarme a mi Jeedom
-Desde Jeedom 3.2 ya no es posible conectarse con admin / admin de forma remota por razones obvias de seguridad. Las credenciales de administrador / administrador solo funcionan localmente. Atención, si pasas por el DNS, incluso localmente, necesariamente estás identificado como remoto. Otro punto predeterminado solo ip en 192.168.*.* o 127.0.0.1 son reconocidos como locales. Está configurado en la administración de la parte de seguridad de Jeedom y luego IP "blanco". Si, a pesar de todo, aún no puede conectarse, debe usar el procedimiento de restablecimiento de contraseña, consulte [aquí](https://doc.jeedom.com/es_ES/howto/reset.password).
+Desde Jeedom 3.2 ya no es posible conectarse con admin / admin de forma remota por razones obvias de seguridad. Las credenciales de administrador / administrador solo funcionan localmente. Atención, si pasas por el DNS, incluso localmente, necesariamente estás identificado como remoto. Otro punto predeterminado solo IP en 192.168.*.* o 127.0.0.1 son reconocidos como locales. Está configurado en la administración de la parte de seguridad de Jeedom y luego IP "blanco". Si, a pesar de todo, aún no puede conectarse, debe usar el procedimiento de restablecimiento de contraseña, consulte [aquí](https://doc.jeedom.com/es_ES/howto/reset.password).
 
-### No veo todo mi equipo en el tablero
+### No veo todo mi equipo en el Tablero
 A menudo, esto se debe al hecho de que el equipo está asignado a un objeto que no es el hijo o el objeto mismo del primer objeto seleccionado a la izquierda en el árbol (puede configurarlo en su perfil).
 
 ### La interfaz de Jeedom tiene accesos directos ?
@@ -117,7 +117,7 @@ Nuevamente, esto a menudo se debe a un complemento en beta mientras Jeedom está
 
 ### Ya no tengo acceso a Jeedom, ni a través de la interfaz web ni en la consola a través de SSH
 Este error no se debe a Jeedom, sino a un problema con el sistema.
-Si esto persiste después de una reinstalación, es aconsejable consultar con el servicio postventa por problemas de hardware. Aquí esta el [Documentación](https://jeedom.github.io/documentation/howto/es_ES/recovery_mode_jeedom_smart) para inteligente
+Si esto persiste después de una reinstalación, es aconsejable consultar con el servicio postventa por problemas de hardware. Aquí esta el [Documentación](https://doc.jeedom.com/es_ES/installation/smart) para inteligente
 
 ### Mi escenario ya no se detiene
 Es recomendable mirar los comandos ejecutados por el escenario, a menudo proviene de un comando que no termina.
@@ -130,7 +130,7 @@ Esto se debe a que MySQL se detuvo, no es normal, los casos comunes son :
 
 - Falta de espacio en el sistema de archivos (se puede verificar haciendo el comando "df -h", en SSH)
 - Problema de corrupción de archivo (s), que a menudo ocurre después de un cierre inseguro de Jeedom (falla de energía)
-- Problemas de memoria, el sistema carece de memoria y mata el proceso que más consume (a menudo la base de datos). Esto se puede ver en la administración del sistema operativo y luego en dmesg, debería ver una muerte por "oom". Si este es el caso, reduzca el consumo de libertad desactivando los complementos.
+- Problemas de memoria, el sistema carece de memoria y mata el proceso que más consume (a menudo la base de datos). Esto se puede ver en la administración del sistema operativo y luego en dmesg, debería ver una muerte por "oom". Si este es el caso, reduzca el consumo de Jeedom desactivando los complementos.
 
 Desafortunadamente, no hay mucha solución si es el segundo caso, lo mejor es recuperar una copia de seguridad (disponible en / var / www / html / backup por defecto), reinstalar Jeedom y restaurar la copia de seguridad. También puede ver por qué MySQL no quiere arrancar desde una consola SSH :
 `` `{.bash}
@@ -151,7 +151,7 @@ servicio sudo apache2 reiniciar
 ### No veo algunos complementos del mercado
 Este tipo de caso ocurre si su Jeedom no es compatible con el complemento. En general, una actualización de Jeedom soluciona el problema.
 
-### Tengo un equipo de tiempo de espera pero no lo veo en el tablero
+### Tengo un equipo de tiempo de espera pero no lo veo en el Tablero
 Las alertas se clasifican por prioridad, desde las menos importantes hasta las más importantes : tiempo de espera, advertencia de batería, peligro de batería, alerta de advertencia, alerta de peligro
 
 ### My Jeedom muestra permanentemente &quot;Iniciando&quot; incluso después de 1 hora ?
@@ -205,7 +205,7 @@ Hay que :
 
 ### Tengo este error al instalar dependencias de complementos : "de pip._ principal de importación interna"
 
-Es necesario en la consola del sistema de Jeedom o en ssh hacer 
+Es necesario en la consola del sistema de Jeedom o en ssh hacer
 
 `` ''``
 sudo easy_install pip

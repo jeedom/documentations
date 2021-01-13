@@ -55,16 +55,16 @@ For the pros :
 
 - **My jeedoms** : This is where all your Jeedoms are listed
     - **Last name** : The name you want to give to your Jeedom (can be found in the backup name if you have the cloud backup subscription).
-    - **State** : Allows to see the state of the Jeedom in question.
+    - **State** : Lets see the state of the Jeedom in question.
     - **Local / remote IP** : IP or address of this Jeedom, configure in Jeedom, if you do not put anything it will be the last known IP.
     - **Dns** : Allows you to customize the name of your DNS.
     - **URLs** : List the different Jeedom access URLs.
     - **DNS server** : Tells you the DNS server to which you are attached.
-    - **DNS status** : Allows to see the status of the DNS.
+    - **DNS status** : Allows you to see the status of the DNS.
     - **Creation date** : Date of creation of this Jeedom on your Market account (as a reminder, this is done automatically when you link it to the Market).
     - **Last update** : Jeedom&#39;s last communication with the Market.
     - **Hardware** : Jeedom hardware name.
-    - **Version** : The version of Jeedom installed.
+    - **Version** : Jeedom version installed.
 
 > **Tip**
 >

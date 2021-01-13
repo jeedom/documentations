@@ -1,7 +1,9 @@
 # Historique
 **Analyse → Historique**
 
-Partie importante dans un logiciel : la partie historisation, véritable mémoire de celui-ci. Il est possible dans Jeedom d’historiser n’importe quelle commande de type information (binaire ou numérique). Cela vous permettra donc par exemple d’historiser une courbe de température, de consommation ou les ouvertures d’une porte, etc.​
+Partie importante dans un logiciel : la partie historisation, véritable mémoire de celui-ci. Il est possible dans Jeedom d’historiser n’importe quelle commande de type information (binaire ou numérique). Cela vous permettra donc par exemple d’historiser une courbe de température, de consommation, les ouvertures d’une porte, etc.​
+
+![Historique](./images/history.gif)
 
 ### Principe
 
@@ -30,17 +32,16 @@ Il existe plusieurs moyens d’accéder à l’historique :
 - En mobile en restant appuyé sur le widget en question,
 - En mettant une zone graphe dans une vue (voir plus bas).
 
-## Onglet Historique
+## Historique
 
-Si vous affichez un graphique par la page historique, vous avez accès à plusieurs options d’affichage :
+Si vous affichez un graphique par la page historique, vous avez accès à plusieurs options d’affichage, au dessus du graphique :
 
-On retrouve en haut à droite la période d’affichage (ici sur la dernière semaine car, par défaut je veux que ça soit seulement une semaine - voir 2 paragraphes au-dessus), ensuite viennent les paramètres de la courbe (ces paramètres sont gardés d’un affichage à l’autre ; vous n’avez donc qu’à les configurer une seule fois).
+- **Période** : La période d’affichage, comprenant les données historisées entre ces deux dates. Par défaut, en fonction du paramètre *Période d'affichage des graphiques par défaut* dans *Réglages → Système → Configuration / Equipements*.
+- **Groupement** : Propose plusieurs options de groupement (Somme par heure, etc.).
+- **Type d'affichage** : Affichage en *Ligne*, *Aire*, ou *Barre*. Option sauvegardée sur la commande et utilisée depuis le Dashboard.
+- **Variation** : Affiche la différence de valeur par rapport au point précédent. Option sauvegardée sur la commande et utilisée depuis le Dashboard.
+- **Escalier** : Permet d’afficher la courbe sous la forme d’un escalier ou d’un affichage continu. Option sauvegardée sur la commande et utilisée depuis le Dashboard.
 
-- **Escalier** : Permet d’afficher la courbe sous la forme d’un escalier ou d’un affichage continu.
-- **Variation** : Affiche la différence de valeur par rapport au point précédent.
-- **Ligne** : Affiche le graphique sous forme de lignes.
-- **Aire** : Affiche le graphique sous forme d’une aire.
-- **Colonne**\* : Affiche le graphique sous forme de barres.
 
 > **Tip**
 >
@@ -68,7 +69,7 @@ La page d’historique donne accès à quelques options supplémentaires
 
 #### Historique calculé
 
-Permet d’afficher une courbe en fonction d’un calcul sur plusieurs commande (vous pouvez à peu prêt tout faire, +-/\* valeur absolue…​ voir documentation PHP pour certaines fonctions).
+Permet d’afficher une courbe en fonction d’un calcul sur plusieurs commandes (vous pouvez à peu prêt tout faire, +-/\* valeur absolue…​ voir documentation PHP pour certaines fonctions).
 Ex :
 abs(*\[Jardin\]\[Hygrometrie\]\[Température\]* - *\[Espace de vie\]\[Hygrométrie\]\[Température\]*)
 
@@ -89,40 +90,4 @@ Devant chaque donnée pouvant être affichée, vous retrouvez deux icônes :
 
 Parfois, il se peut que vous ayez des valeurs incohérentes sur les graphiques. Cela est souvent dû à un souci d’interprétation de la valeur. Il est possible de supprimer ou changer la valeur du point en question, en cliquant sur celui-ci directement sur le graphique ; de plus, vous pouvez régler le minimum et le maximum autorisés afin d’éviter des problèmes futurs.
 
-## Onglet Timeline
-
-La timeline affiche certains événements de votre domotique sous forme chronologique.
-
-Pour les voir, il vous faut d’abord activer le suivi sur la timeline des commandes ou scénarios voulus, puis que ces évènements se produisent.
-
-- **Scenario** : Soit directement sur la page de scénario, soit sur la page de résumé des scénarios pour le faire en "masse".
-- **Commande** : Soit dans la configuration avancée de la commande, soit dans la configuration de l’historique pour le faire en "masse".
-
-La timeline *Principal* contient toujours l'ensemble des évènements. Toutefois, vous pouvez filtrer la timeline par *dossier*. A chaque endroit où vous activerez la timeline, vous disposerez d'un champ pour entrer le nom d'un dossier, existant ou non.
-Vous pourrez alors filtrer la timeline par ce dossier en le sélectionnant à gauche du bouton *Rafraichir*.
-
-> **Note**
->
-> Si vous n'utilisez plus un dossier, il apparaitra dans la liste tant que des évènements liés a ce dossier existent. Il disparaitra tout seul de la liste ensuite.
-
-> **Tip**
->
-> Vous avez accès aux fenêtres de résumé des scénarios ou de la configuration de l’historique directement à partir de la page de timeline.
-
-Une fois que vous avez activé le suivi dans la timeline des commandes et scénarios voulus, vous pourrez voir apparaître ceux-ci sur la timeline.
-
-> **Important**
->
-> Il faut attendre de nouveaux événements après avoir activé le suivi sur la timeline avant de les voir apparaître.
-
-### Affichage
-
-La timeline affiche un tableau des évènements enregistrés sur trois colonnes:
-
-- La date et l'heure de l'évènement,
-- Le type d'évènement: Une commande info ou action, ou un scénario, avec pour les commandes le plugin de la commande.
-- Le nom de l'objet parent, le nom, et suivant le type, l'état ou le déclencheur.
-
-- Un évènement de type commande affiche une icône sur la droite pour ouvrir la configuration de la commande.
-- Un évènement de type scénario affiche deux icônes sur la droite pour se rendre sur le scénario, ou ouvrir le log du scénario.
 

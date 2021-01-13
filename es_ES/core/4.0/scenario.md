@@ -15,7 +15,7 @@ Allí encontrará la lista de escenarios de su Jeedom, así como las funcionalid
 
 ## Mis escenarios
 
-En esta sección encontrarás el **lista de escenarios** que creaste. Se clasifican según su **Grupo**, posiblemente definido para cada uno de ellos. Cada escenario se muestra con su **apellido** y su **objeto padre**. La **escenarios atenuados** son los que están deshabilitados.
+En esta sección encontrarás el **lista de escenarios** que creaste. Se clasifican según su **grupo**, posiblemente definido para cada uno de ellos. Cada escenario se muestra con su **apellido** y su **objeto padre**. La **escenarios atenuados** son los que están deshabilitados.
 
 > **Punta**
 >
@@ -39,7 +39,7 @@ Antes de eso, en la parte superior de la página, hay algunas funciones útiles 
 - **Identificación** : Al lado de la palabra **General**, este es el identificador de escenario.
 - **estatus** : *Detenido* o *En curso*, indica el estado actual del escenario.
 - **Estado anterior / siguiente** : Cancelar / rehacer una acción.
-- **Agregar un bloque** : Le permite agregar un bloque del tipo deseado al escenario (ver más abajo).
+- **Agregar bloque** : Le permite agregar un bloque del tipo deseado al escenario (ver más abajo).
 - **Registro** : Muestra los registros del escenario.
 - **Duplicado** : Copie el escenario para crear uno nuevo con otro nombre.
 - **Vínculos** : Le permite ver el gráfico de los elementos relacionados con el escenario.
@@ -92,7 +92,7 @@ En la pestaña **General**, encontramos los principales parámetros del escenari
 
 ## Pestaña Escenario
 
-Aquí es donde construirás tu escenario. Después de crear el escenario, su contenido está vacío, por lo que hará ... nada. Tienes que empezar con **agregar un bloque**, con el botón de la derecha. Una vez que se ha creado un bloque, puede agregar otro **bloque** o un **acción**.
+Aquí es donde construirás tu escenario. Después de crear el escenario, su contenido está vacío, por lo que hará ... nada. Tienes que empezar con **Agregar bloque**, con el botón de la derecha. Una vez que se ha creado un bloque, puede agregar otro **bloque** o un **acción**.
 
 Para mayor comodidad y no tener que reordenar constantemente los bloques en el escenario, se agrega un bloque después del campo en el que se encuentra el cursor del mouse.
 *Por ejemplo, si tiene diez bloques y hace clic en la condición IF del primer bloque, el bloque agregado se agregará después del bloque, en el mismo nivel. Si no hay ningún campo activo, se agregará al final del escenario.*
@@ -103,7 +103,7 @@ Para mayor comodidad y no tener que reordenar constantemente los bloques en el e
 
 > **Punta**
 >
-> Un Ctrl Shift Z o Ctrl Shift Y le permite'**Cancelar** o rehacer una modificación (agregar acción, bloquear...).
+> Un Ctrl Shift Z o Ctrl Shift Y le permite'**anular** o rehacer una modificación (agregar acción, bloquear...).
 
 ## Bloques
 
@@ -181,8 +181,7 @@ El bloque de código le permite ejecutar código php. Por lo tanto, es muy poten
 - ``$scenario->getIsActive();`` : Devuelve el estado del escenario.
 - ``$scenario->setIsActive($active);`` : Le permite activar o no el escenario.
     - ``$active`` : 1 activo, 0 no activo.
-- ``$scenario->setOnGoing($onGoing);`` : Digamos si el escenario se está ejecutando o no.
-    - ``$onGoing => 1`` : 1 en progreso, 0 detenido.
+- ``$scenario->running();`` : Se usa para averiguar si el escenario se está ejecutando o no (verdadero / falso).
 - ``$scenario->save();`` : Guardar cambios.
 - ``$scenario->setData($key, $value);`` : Guardar un dato (variable).
     - ``$key`` : clave de valor (int o string).
@@ -190,7 +189,7 @@ El bloque de código le permite ejecutar código php. Por lo tanto, es muy poten
 - ``$scenario->getData($key);`` : Obtener datos (variable).
     - ``$key => 1`` : clave de valor (int o string).
 - ``$scenario->removeData($key);`` : Eliminar datos.
-- ``$scenario->setLog($message);`` : Escribir un mensaje en el registro del escenario.
+- ``$scenario->setLog($message);`` : Escribe un mensaje en el registro del script.
 - ``$scenario->persistLog();`` : Forzar la escritura del registro (de lo contrario, se escribe solo al final del escenario). Tenga cuidado, esto puede retrasar un poco el escenario.
 
 > **Punta**
@@ -226,12 +225,12 @@ Las acciones agregadas a los bloques tienen varias opciones :
 Hay desencadenantes específicos (distintos de los proporcionados por los comandos) :
 
 - ``#start#`` : Activado al (re) inicio de Jeedom.
-- ``#begin_backup#`` : evento enviado al inicio de una copia de seguridad.
-- ``#end_backup#`` : evento enviado al final de una copia de seguridad.
-- ``#begin_update#`` : evento enviado al inicio de una actualización.
-- ``#end_update#`` : evento enviado al final de una actualización.
-- ``#begin_restore#`` : evento enviado al inicio de una restauración.
-- ``#end_restore#`` : evento enviado al final de una restauración.
+- ``#begin_backup#`` : Evento enviado al inicio de una copia de seguridad.
+- ``#end_backup#`` : Evento enviado al final de una copia de seguridad.
+- ``#begin_update#`` : Evento enviado al inicio de una actualización.
+- ``#end_update#`` : Evento enviado al final de una actualización.
+- ``#begin_restore#`` : Evento enviado al inicio de una restauración.
+- ``#end_restore#`` : Evento enviado al final de una restauración.
 - ``#user_connect#`` : Inicio de sesión de usuario
 
 También puede activar un escenario cuando se actualiza una variable poniendo : #variable(nom_variable)# o usando la API HTTP descrita [aquí](https:/ // /doc.jeedom.com/es_ES/core/ /4.1/ /api_http).
@@ -335,7 +334,7 @@ Hay varias funciones disponibles para el equipo :
 - ``scenario(scenario)`` : Devuelve el estado del escenario.
     1 : En curso,
     0 : Detenido,
-    -1 : Desactivado,
+    -1 : Discapacitado,
     -2 : El escenario no existe,
     -3 : El estado no es consistente.
     Para tener el nombre &quot;humano&quot; del escenario, puede usar el botón dedicado a la derecha de la búsqueda del escenario.
@@ -467,15 +466,24 @@ Además de los comandos de automatización del hogar, tiene acceso a las siguien
     Por el momento, solo los complementos sms, slack, telegram y snips son compatibles, así como la aplicación móvil.
     Atención, esta función está bloqueando. Mientras no haya respuesta o no se alcance el tiempo de espera, el escenario espera.
 - **Stop Jeedom** (jeedom_poweroff) : Pídale a Jeedom que cierre.
-- **Devolver un texto / datos** (vuelta_escenario) : Devuelve un texto o un valor para una interacción por ejemplo.
+- **Devolver un texto / datos** (vuelta_escenario) : Devuelve un texto o un valor para una interacción, por ejemplo.
 - **Icono** (icon) : Permite cambiar el ícono de representación del escenario.
 - **Advertencia** (alert) : Muestra un pequeño mensaje de alerta en todos los navegadores que tienen abierta una página de Jeedom. Además, puedes elegir 4 niveles de alerta.
 - **Pop-up** (popup) : Permite mostrar una ventana emergente que debe validarse absolutamente en todos los navegadores que tienen una página abierta.
 - **Relación** (report) : Le permite exportar una vista en formato (PDF, PNG, JPEG o SVG) y enviarla utilizando un comando de tipo mensaje. Tenga en cuenta que si su acceso a Internet está en HTTPS sin firmar, esta funcionalidad no funcionará. Se requiere HTTP o HTTPS firmado.
-- **Eliminar bloque IN / A programado** (remove_inat) : Eliminar la programación de todos los bloques y un escenario de.
+- **Eliminar bloque IN / A programado** (remove_inat) : Le permite eliminar la programación de todos los bloques IN y A del escenario.
 - **Evento** (event) : Le permite insertar un valor en un comando de tipo de información arbitrariamente.
 - **Etiqueta** (tag) : Le permite agregar / modificar una etiqueta (la etiqueta solo existe durante la ejecución actual del escenario a diferencia de las variables que sobreviven al final del escenario).
-- **Coloración de los iconos del tablero** (setColoredIcon) : le permite activar o no el color de los íconos en el tablero.
+- **Coloración de los iconos del tablero** (setColoredIcon) : permite activar o no la coloración de iconos en el tablero.
+- **Exportación histórica** (exportHistory) : permite exportar el historial en csv de un pedido en forma de archivo (envío por correo por ejemplo). Puede realizar más de un pedido (separados por &&). La selección del período se realiza en el formulario :
+  - "-1 mes "=> -1 mes
+  - "-1 día medianoche "=> -1 día a medianoche
+  - "ahora "=> ahora
+  - "lunes de esta semana medianoche "=> Lunes de esta semana a medianoche
+  - "último domingo 23:59 "=> domingo anterior a las 11:59 p.m
+  - "último día del mes anterior 23:59 "=> último día del mes anterior a las 11:59 p.m
+  - "primer día de enero de este año medianoche "=> primer día de enero a medianoche
+  - ...
 
 ### Plantilla de escenario
 
@@ -492,7 +500,7 @@ A partir de ahí, tienes la posibilidad :
 
 Al hacer clic en una plantilla, puede :
 
-- **Compartir, repartir** : Compartir la plantilla en el mercado.
+- **Compartir, repartir** : Comparta la plantilla en el mercado.
 - **Remove** : Eliminar plantilla.
 - **Descargar** : Obtenga la plantilla como un archivo JSON para enviarla a otro Jeedom, por ejemplo.
 

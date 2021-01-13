@@ -5,7 +5,7 @@ Esta página le permite definir la lista de usuarios autorizados para conectarse
 
 En la página tienes tres botones :
 
-- Añadir un usuario.
+- Agregar usuario.
 - Guardar.
 - Acceso de soporte abierto.
 
@@ -14,17 +14,17 @@ En la página tienes tres botones :
 - **Nombre del usuario** : ID de usuario.
 - **Bienes** : Le permite desactivar la cuenta sin eliminarla.
 - **Local** : Permite la conexión del usuario solo si está en la red local de Jeedom.
-- **Perfil** : Permite elegir el perfil de usuario :
+- **Perfil** : Le permite elegir el perfil de usuario :
     - **Administrador** : El usuario obtiene todos los derechos (edición / consulta) sobre Jeedom.
     - **Usuario** : El usuario puede ver Tablero, vistas, diseños, etc. y actuar sobre equipos / controles. Sin embargo, no tendrá acceso a la configuración de los controles / equipos ni a la configuración de Jeedom.
     - **Usuario limitado** : El usuario solo ve el equipo autorizado (configurable con el botón "Derechos"").
-- **Clave API** : Clave de API personal del usuario.
+- **Clave API** : Clave API personal del usuario.
 - **Doble autenticación** : Indica si la autenticación doble está activa (OK) o no (NOK).
 - **Fecha de la última conexión** : Fecha de inicio de sesión del último usuario. Tenga en cuenta que esta es la fecha de conexión real, por lo que si guarda su computadora, la fecha de conexión no se actualiza cada vez que regresa.
 - **Derechos** : Modificar derechos de usuario.
 - **Contraseña** : Le permite cambiar la contraseña del usuario.
 - **Remove** : Eliminar usuario.
-- **Regenerar clave API** : Regenera la clave API del usuario.
+- **Regenerar clave API** : Regenerar clave de API de usuario.
 - **Administrar derechos** : Le permite administrar con precisión los derechos de los usuarios (tenga en cuenta que el perfil debe estar en "usuario limitado"").
 
 ## Gestión de derechos

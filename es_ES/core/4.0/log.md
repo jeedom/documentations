@@ -13,8 +13,8 @@ Arriba a la derecha 5 botones :
 
 - **Buscar** : Le permite filtrar la visualización del registro actual.
 - **Pausa / Reanudar** : Pausa / reanuda la actualización en tiempo real del registro actual.
-- **Descargar** : Permite descargar el registro actual.
-- **Vaciar** : Permite vaciar el registro actual.
+- **Descargar** : Descargar el registro actual.
+- **Vaciar** : Borrar el registro actual.
 - **Remove** : Eliminar el registro actual. Si Jeedom lo necesita, lo recreará automáticamente.
 - **Eliminar todos los registros** : Eliminar todos los registros presentes.
 

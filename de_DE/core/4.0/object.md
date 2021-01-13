@@ -7,6 +7,8 @@ Alle von Ihnen erstellten Geräte müssen zu einem Objekt gehören und sind dahe
 
 Um der Personalisierung freie Wahl zu lassen, können Sie diese Objekte nach Ihren Wünschen benennen. Normalerweise definieren wir die verschiedenen Teile seines Hauses, wie den Namen der Räume (dies ist auch die empfohlene Konfiguration).
 
+![Objekte](./images/object_intro.gif)
+
 ## Gestion
 
 Sie haben zwei Möglichkeiten :
@@ -41,17 +43,18 @@ Hier sind die verschiedenen Merkmale zum Konfigurieren eines Objekts :
 - **Objektname** : Der Name Ihres Objekts.
 - **Vater** : Gibt das übergeordnete Objekt des aktuellen Objekts an. Dadurch kann eine Hierarchie zwischen den Objekten definiert werden. Zum Beispiel : Das Wohnzimmer ist mit der Wohnung verbunden. Ein Objekt kann nur ein übergeordnetes Objekt haben, aber mehrere Objekte können dasselbe übergeordnete Objekt haben.
 - **Sichtbar** : Aktivieren Sie dieses Kontrollkästchen, um dieses Objekt sichtbar zu machen.
-- **Verstecke dich auf dem Armaturenbrett** : Aktivieren Sie dieses Kontrollkästchen, um das Objekt im Dashboard auszublenden. Es wird weiterhin in der Liste gespeichert, sodass es angezeigt werden kann, jedoch nur explizit.
+- **Im Dashboard ausblenden** : Aktivieren Sie dieses Kontrollkästchen, um das Objekt im Dashboard auszublenden. Es wird weiterhin in der Liste gespeichert, sodass es angezeigt werden kann, jedoch nur explizit.
 - **Zusammenfassung ausblenden'** : Aktivieren Sie dieses Kontrollkästchen, um das Objekt in der Zusammenfassung auszublenden'. Es wird weiterhin in der Liste gespeichert, sodass es angezeigt werden kann, jedoch nur explizit.
 - **Symbol** : Ermöglicht die Auswahl eines Symbols für Ihr Objekt.
 - **Benutzerdefinierte Farben** : Aktiviert die Berücksichtigung der beiden optionalen Farbparameter.
 - **Tag Farbe** : Ermöglicht die Auswahl der Farbe des Objekts und der daran angeschlossenen Ausrüstung.
 - **Tag-Textfarbe** : Hier können Sie die Farbe des Textes des Objekts auswählen. Dieser Text wird über dem **Tag Farbe**. Sie wählen eine Farbe, um den Text lesbar zu machen.
-- **Bild** : Sie haben die Möglichkeit, ein Bild hochzuladen oder zu löschen. Im JPEG-Format ist dieses Bild das Hintergrundbild des Objekts, wenn Sie es im Dashboard anzeigen.
+- **Bild** : Sie haben die Möglichkeit, ein Bild hochzuladen oder zu löschen. Im JPEG-Format ist dieses Bild das Hintergrundbild des Objekts, wenn Sie es im Dashboard anzeigen. Es wird auch für das Vorschaubild des Stücks über die Synthese verwendet.
+- **Nur bei Synthese** : Ermöglicht das Einfügen eines Bildes für die Synthese, ohne dass es als Hintergrundbild verwendet wird.
 
 > **Spitze**
 >
-> Sie können die Anzeigereihenfolge von Objekten im Dashboard ändern. Wählen Sie in der Übersicht Ihr Objekt mit der Maus per Drag &amp; Drop aus, um ihm einen neuen Platz zu geben.
+> Sie können die Anzeigereihenfolge von Objekten im Dashboard ändern. Wählen Sie in der Übersicht (oder in der Zusammenfassung der Hausautomation) Ihr Objekt mit der Maus per Drag & Drop aus, um ihm einen neuen Platz zu geben.
 
 > **Spitze**
 >
@@ -63,7 +66,8 @@ Hier sind die verschiedenen Merkmale zum Konfigurieren eines Objekts :
 
 ## Registerkarte &quot;Zusammenfassung&quot;
 
-Zusammenfassungen sind globale Informationen, die einem Objekt zugewiesen sind und insbesondere im Dashboard neben seinem Namen angezeigt werden.
+Zusammenfassungen sind globale Informationen, die einem Objekt zugewiesen sind und insbesondere im Dashboard (neben dem Namen des Objekts) und in der Zusammenfassung (auf der Miniaturansicht des Objekts) angezeigt werden).
+
 
 ### Schwarzes Brett
 
@@ -80,6 +84,12 @@ Jede Registerkarte stellt eine Art Zusammenfassung dar, die in der Konfiguration
 > **Spitze**
 >
 > Wenn Sie eine Art von Zusammenfassung hinzufügen oder die Methode zur Berechnung des Ergebnisses, der Einheit, des Symbols und des Namens einer Zusammenfassung konfigurieren möchten, müssen Sie zur allgemeinen Konfiguration von Jeedom wechseln : **Einstellungen → System → Konfiguration : Registerkarte &quot;Zusammenfassungen&quot;**.
+
+## Registerkarte "Zusammenfassung" nach Gerät
+
+Auf dieser Seite werden alle Geräte angezeigt, bei denen das Objekt übergeordnet ist. Wenn Sie auf jedes Gerät klicken, wird die Liste der Geräteinfobefehle angezeigt. Rechts können Sie diesen Befehl einer oder mehreren Zusammenfassungen des Objekts zuweisen.
+
+Wenn bereits eine oder mehrere Zusammenfassungen definiert sind, wird der Selektor orange angezeigt, wobei die Arten von Zusammenfassungen rechts aktiviert sind.
 
 ## Übersicht
 

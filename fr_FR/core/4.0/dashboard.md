@@ -3,8 +3,21 @@
 
 <small>[Raccourcis clavier/souris](shortcuts.md)</small>
 
-Le dashboard  est une des pages principales de Jeedom, il affiche un compte-rendu de toute votre domotique.
+Le dashboard est une des pages principales de Jeedom, il affiche un compte-rendu de toute votre domotique.
 Ce compte-rendu (contrairement aux vues et designs) est auto-généré par Jeedom, et comprend l'ensemble des objets visibles et leurs équipements.
+
+![Dashboard](./images/doc-dashboard-legends.png)
+
+- 1 : Menu principal de Jeedom.
+- 2 : Résumé global.
+- 3 : Heure du navigateur, raccourci vers la Timeline.
+- 4 : Bouton pour accéder à la documentation de la page en cours.
+- 5 : Nom de votre Jeedom, raccourci vers la configuration.
+- 6 : Mode édition (Réordonner / redimensionner les tuiles).
+- 7 : Filtre par catégories.
+- 8 : Objet : Icône, nom et résumé, et ses équipements.
+- 9 : Tuile d'un équipement.
+- 10 : Widget d'une commande.
 
 > **Tip**
 >
@@ -29,41 +42,27 @@ De plus, vous pouvez cliquer sur le titre de la tuile (le nom de l'équipement) 
 > Il est possible d’aller directement sur un seul objet de votre domotique, par le menu **Accueil → Dashboard → Nom de l'objet**.
 > Cela permet de n’avoir que les équipements qui vous intéressent, et de charger la page plus rapidement.
 
-- Vous avez en haut à gauche une petite icône pour faire afficher/masquer l’arbre des objets.
-- La deuxième icône à gauche permet d'afficher seulement les informations des résumés des objets.
-- Au milieu, un champ de recherche permet de rechercher un équipement par son nom, sa catégorie, son plugin, un tag, etc.
-- A droite, un bouton permet de passer en mode édition, pour modifier l’ordre des tuiles (cliquer - déposer sur le widget), ou les redimensionner. Vous pouvez également réorganiser l’ordre des commandes dans une tuile,
+- Vous avez en haut à gauche une petite icône pour afficher l’arbre des objets au survol.
+- Un champ de recherche permet de rechercher un équipement par son nom, sa catégorie, son plugin, un tag, etc.
+- L'icône à droite du champ de recherche permet de filtrer les équipements affichés en fonction de leur catégorie. Un clic centre permet de rapidement sélectionner une seule catégorie.
+- Tout à droite, un bouton permet de passer en mode édition, pour modifier l’ordre des tuiles (cliquer - déposer sur le widget), ou les redimensionner. Vous pouvez également réorganiser l’ordre des commandes dans une tuile.
+
 - En cliquant sur un résumé d’objet, vous filtrez pour n’afficher que les équipements ayant pour parent cet objet et qui concernent ce résumé d’objet.
+
 - Un clic sur une commande de type information permet d’afficher l’historique de la commande (si elle est historisée).
-
-> **Tip**
->
-> Il est possible, à partir de votre profil, de configurer Jeedom pour que l’arbre des objets et/ou les scénarios soient visibles par défaut lorsque vous arrivez sur le Dashboard.
-
-> **Tip**
->
-> En mobile, un appui sur une commande de type info permet d’afficher un menu vous proposant soit d’afficher l’historique de la commande, ou de mettre une alerte sur celle-ci pour que Jeedom vous prévienne (une seule fois) dès que la valeur passe un certain seuil.
+- Un Ctrl+Clic sur une commande de type information permet d’afficher l’historique de toutes les commandes (historisées) de cette tuile.
+- Un clic sur l'information *time* d'une commande action permet d’afficher l’historique de la commande (si elle est historisée).
 
 
 ## Mode édition
 
 En mode édition (*le crayon tout en haut à droite*), vous pouvez changer la taille des tuiles et leur disposition sur le Dashboard.
 
-Vous pouvez aussi éditer la disposition interne des commandes sur la tuile :
+les icônes refresh des équipements sont remplacées par une icône permettant d'accéder à leur configuration. Cette icône ouvre une fenêtre d'édition comportant les paramètres d'affichage de l'équipement et de ses commandes.
 
-- Soit les réorganiser par glisser - déposer.
-- Soit en faisant un clic droit sur le widget. Vous accédez alors à :
-    - **Configuration avancée** : permet d’accéder à la configuration avancée de la commande.
-    - **Standard** : disposition par défaut, tout est en automatique avec juste la possibilité de réorganiser l’ordre des commandes.
-    - **Tableau** : permet de mettre les commandes dans un tableau : les colonnes et les lignes s’ajoutent et se suppriment par clic droit, ensuite il suffit de déplacer les commandes dans les cases voulues. Vous pouvez mettre plusieurs commandes par case
-    - **Ajouter colonne** : ajoute une colonne au tableau (accessible uniquement si vous êtes en disposition tableau)
-    - **Ajouter ligne** : ajoute une ligne au tableau (accessible uniquement si vous êtes en disposition tableau)
-    - **Supprimer colonne** : supprime une colonne au tableau (accessible uniquement si vous êtes en disposition tableau)
-    - **Supprimer ligne** : supprime une ligne au tableau (accessible uniquement si vous êtes en disposition tableau)
+![Mode édition](./images/EditDashboardModal.gif)
 
-A droite de chaque objet, une icône permet de :
-
-- Clic : Toutes les tuiles de cet objet adopterons une hauteur égale à la tuile la plus haute.
+Sur chaque objet, à droite de son nom et résumé, deux icônes permettent d'aligner la hauteur de toutes les tuiles de l'objet sur la plus haute ou la moins haute.
 
 ## Barre de menu de Jeedom
 
@@ -72,4 +71,4 @@ A droite de chaque objet, une icône permet de :
 > - Clic sur l’horloge (barre de menu) : Ouvre la Timeline.
 > - Clic sur le nom du Jeedom (barre de menu) : Ouvre Réglages → Système → Configuration.
 > - Clic sur le ? (barre de menu) : Ouvre l’aide sur la page en cours.
-> - Echap sur un champ de recherche : Vide le champ et annule cette recherche .
+> - Echap sur un champ de recherche : Vide le champ et annule cette recherche.

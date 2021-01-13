@@ -55,16 +55,16 @@ Para los profesionales :
 
 - **Mis jeedoms** : Aquí es donde se enumeran todos tus Jeedoms
     - **Apellido** : El nombre que desea darle a su Jeedom (se puede encontrar en el nombre de la copia de seguridad si tiene la suscripción de copia de seguridad en la nube).
-    - **Estado** : Permite ver el estado de la libertad en cuestión.
+    - **Estado** : Veamos el estado de la libertad en cuestión.
     - **IP local / remota** : IP o dirección de este Jeedom, configúrelo en Jeedom, si no pone nada será la última IP conocida.
     - **Dns** : Le permite personalizar el nombre de su DNS.
-    - **URL** : Enumerar las diferentes URL de acceso de Jeedom.
+    - **URL** : Enumere las diferentes URL de acceso de Jeedom.
     - **Servidor DNS** : Le informa el servidor DNS al que está conectado.
-    - **Estado DNS** : Permite ver el estado del DNS.
+    - **Estado DNS** : Le permite ver el estado del DNS.
     - **Fecha de creación** : Fecha de creación de este Jeedom en su cuenta de Market (como recordatorio, esto se hace automáticamente cuando lo vincula al Market).
     - **última actualización** : Última comunicación de Jeedom con el mercado.
     - **Hardware** : Nombre de hardware Jeedom.
-    - **Versión** : La versión de Jeedom instalada.
+    - **Versión** : Versión Jeedom instalada.
 
 > **Punta**
 >

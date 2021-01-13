@@ -16,7 +16,7 @@ Wenn Sie sich zum ersten Mal bei Jeedom anmelden (und auch danach, wenn Sie sie 
 ### Ich kann mich nicht mehr mit meinem Jeedom verbinden
 Seit Jeedom 3.2 Aus offensichtlichen Sicherheitsgründen ist es nicht mehr möglich, eine Remoteverbindung mit admin / admin herzustellen. Admin / Admin-Anmeldeinformationen funktionieren nur lokal. Achtung, wenn Sie den DNS auch lokal durchlaufen, werden Sie notwendigerweise als remote identifiziert. Anderer Standardpunkt nur IP auf 192.168.*.* oder 127.0.0.1 werden als lokal anerkannt. Es wird in der Administration des Jeedom-Sicherheitsteils dann IP "weiß konfiguriert". Wenn Sie trotz allem immer noch keine Verbindung herstellen können, müssen Sie das Verfahren zum Zurücksetzen des Kennworts verwenden (siehe) [hier](https://doc.jeedom.com/de_DE/howto/reset.password).
 
-### Ich sehe nicht alle meine Geräte auf dem Armaturenbrett
+### Ich sehe nicht alle meine Geräte im Dashboard
 Dies liegt häufig daran, dass die Ausrüstung einem Objekt zugeordnet ist, das nicht der Sohn oder das Objekt selbst des ersten links im Baum ausgewählten Objekts ist (Sie können dieses in Ihrem Profil konfigurieren).
 
 ### Die Jeedom-Schnittstelle verfügt über Verknüpfungen ?
@@ -117,7 +117,7 @@ Auch dies ist oft auf ein Plugin in der Beta zurückzuführen, während Jeedom s
 
 ### Ich habe keinen Zugriff mehr auf Jeedom, weder über die Weboberfläche noch über SSH in der Konsole
 Dieser Fehler ist nicht auf Jeedom zurückzuführen, sondern auf ein Problem mit dem System.
-Wenn dies nach einer Neuinstallation weiterhin der Fall ist, sollten Sie sich beim Kundendienst nach Hardwareproblemen erkundigen. Hier ist die [Dokumentation](https://jeedom.github.io/documentation/howto/de_DE/recovery_mode_jeedom_smart) für Smart
+Wenn dies nach einer Neuinstallation weiterhin der Fall ist, sollten Sie sich beim Kundendienst nach Hardwareproblemen erkundigen. Hier ist die [Dokumentation](https://doc.jeedom.com/de_DE/installation/smart) für Smart
 
 ### Mein Szenario hört nicht mehr auf
 Es ist ratsam, sich die vom Szenario ausgeführten Befehle anzusehen. Oft stammt sie von einem Befehl, der nicht endet.
@@ -151,7 +151,7 @@ sudo service apache2 neu starten
 ### Ich sehe keine Plugins vom Markt
 Dies ist der Fall, wenn Ihr Jeedom nicht mit dem Plugin kompatibel ist. Im Allgemeinen wird das Problem durch ein Jeedom-Update behoben.
 
-### Ich habe Timeout-Ausrüstung, sehe sie aber nicht auf dem Armaturenbrett
+### Ich habe Timeout-Ausrüstung, sehe sie aber nicht im Dashboard
 Warnungen werden nach Priorität geordnet, von der am wenigsten wichtigen bis zur wichtigsten : Zeitüberschreitung, Batteriewarnung, Batteriegefahr, Warnmeldung, Gefahrenwarnung
 
 ### Mein Jeedom zeigt auch nach 1 Stunde permanent &quot;Start&quot; an ?
@@ -205,7 +205,7 @@ Du musst :
 
 ### Ich habe diesen Fehler bei der Installation von Plugin-Abhängigkeiten : "von pip._internal import main"
 
-Es ist notwendig in der Systemkonsole von Jeedom oder in ssh zu machen 
+Es ist notwendig in der Systemkonsole von Jeedom oder in ssh zu machen
 
 `` ''``
 sudo easy_install pip

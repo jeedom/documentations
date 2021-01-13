@@ -1,4 +1,4 @@
-# Übersicht Haus-Automatisierung
+# Zusammenfassung der Hausautomation
 **Analyse → Zusammenfassung der Hausautomation**
 
 Auf dieser Seite können Sie die verschiedenen Elemente, die in Ihrem Jeedom konfiguriert sind, auf einer einzigen Seite zusammenfassen. Es bietet auch Zugriff auf Funktionen zum Organisieren von Geräten und Steuerungen, auf deren erweiterte Konfiguration und zum Anzeigen von Konfigurationsmöglichkeiten.
@@ -134,7 +134,7 @@ Sie können das Zeitlimit der Ausrüstung auch in Minuten verwalten. Zum Beispie
 
 > **Spitze**
 >
-> Die globalen Parameter sind in **→ Einstellungen → Systemkonfiguration : Protokolle** oder **Einrichtungen**
+> Die globalen Parameter sind in **→ Einstellungen → Systemkonfiguration : Logs** oder **Einrichtungen**
 
 ### Registerkarte &quot;Kommentar&quot;
 
@@ -148,7 +148,7 @@ Zunächst sind oben rechts einige Schaltflächen verfügbar :
 - **Verbindungen** : Ermöglicht die Anzeige der Verknüpfungen des Geräts mit Objekten, Befehlen, Szenarien, Variablen, Interaktionen…. in grafischer Form.
 - **Log** : Zeigt die Ereignisse des betreffenden Geräts an.
 - **Informationen** : Zeigt die Roheigenschaften des Geräts an.
--  **Übernehmen** : Ermöglicht die Anwendung derselben Konfiguration auf mehrere Befehle.
+-  **Bewerben Sie sich bei** : Ermöglicht die Anwendung derselben Konfiguration auf mehrere Befehle.
 - **Speichern** : Speichern Sie die am Gerät vorgenommenen Änderungen.
 
 > **Spitze**
@@ -218,7 +218,7 @@ Unten finden Sie eine Liste der verschiedenen Geräte, Befehle, Szenarien oder I
 - **Aktion bestätigen** : Aktivieren Sie dieses Kontrollkästchen, um eine Bestätigung der Jeedom-Anforderung zu erhalten, wenn die Aktion über die Schnittstelle dieses Befehls gestartet wird.
 - **Zugangscode** : Ermöglicht das Definieren eines Codes, den Jeedom beim Starten der Aktion über die Schnittstelle dieses Befehls abfragt.
 - **Aktion vor Ausführung des Befehls** : Befehle hinzufügen **vor** jede Ausführung des Auftrags.
-- **Aktion nach Ausführung des Auftrags** : Befehle hinzufügen **nach** jede Ausführung des Auftrags.
+- **Aktion nach Ausführung des Befehls** : Befehle hinzufügen **nach** jede Ausführung des Auftrags.
 
 ### Registerkarte &quot;Warnungen&quot;
 
@@ -226,7 +226,7 @@ Ermöglicht das Definieren einer Alarmstufe (**Warnung** oder **Gefahr**) abhän
 
 > **Notiz**
 >
-> Auf der Seite **→ Einstellungen → Systemkonfiguration : Protokolle**, Sie können einen Nachrichtentypbefehl konfigurieren, mit dem Jeedom Sie benachrichtigen kann, wenn der Warn- oder Gefahrenschwellenwert erreicht ist.
+> Auf der Seite **→ Einstellungen → Systemkonfiguration : Logs**, Sie können einen Nachrichtentypbefehl konfigurieren, mit dem Jeedom Sie benachrichtigen kann, wenn der Warn- oder Gefahrenschwellenwert erreicht ist.
 
 ### Registerkarte &quot;Ansicht&quot;
 

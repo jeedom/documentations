@@ -1,8 +1,8 @@
 # Vues
 **Inicio → Ver**
 
-Las vistas le permiten crear una vista personalizada.
-No es tan potente como los diseños, pero permite en unos minutos tener una pantalla más personalizada.
+Las vistas le permiten crear vistas personalizadas.
+No es tan potente como los diseños, pero permite en pocos minutos tener una pantalla más personalizada que el Tablero, con equipos de diferentes objetos, gráficos o controles.
 
 > **Punta**
 >
@@ -10,66 +10,72 @@ No es tan potente como los diseños, pero permite en unos minutos tener una pant
 
 ## Principe
 
-También podemos poner widgets, gráficos (que pueden estar compuestos de varios datos) o zonas de tabla (que contienen los widgets de comandos).
+También puede colocar mosaicos de equipo, gráficos (que pueden estar compuestos de varios datos) o zonas de tabla (que contienen los widgets de los comandos).
 
-En esta página, hay un botón en la parte superior izquierda para mostrar u ocultar la lista de vistas, así como el botón para agregar una (Jeedom le preguntará su nombre y lo enviará a la página de edición)) :
+En una vista, encontramos :
+
+- Un botón en la parte superior izquierda para mostrar u ocultar la lista de Vistas, así como el botón para agregar uno.
+- El lápiz a la derecha para editar el orden y el tamaño del equipo, de la misma manera que el Tablero.
+- Un botón *Edición completada* permitiendo editar las zonas y elementos de la Vista.
 
 > **Punta**
 >
-> Puede modificar esta opción en su perfil para que la lista de vistas sea visible por defecto.
+> Puede, en su perfil, modificar esta opción para que la lista de Vistas sea visible por defecto.
 
 ## Agregar / Editar una vista
 
-El principio es bastante simple : una vista se compone de zonas (puede poner tantas como desee). Cada zona es de tipo gráfico, de widget o de tabla, dependiendo del tipo en el que puede colocar equipos, controles o widgets gráficos.
+El principio es bastante simple : una vista está compuesta de áreas. Cada zona es de tipo *Gráfico*, *Widget* o *Panel*. Dependiendo de este tipo, puede agregarle gráficos, equipos o comandos.
+
+- A la izquierda de la página encontramos la lista de Vistas, así como un botón de creación.
+- Un botón en la parte superior derecha le permite editar la Vista actual (Configuración).
+- Un botón para agregar una zona. Luego se le preguntará el nombre y el tipo de zona.
+- Un botón *Ver el resultado*, para salir del modo de edición completo y mostrar esta Vista.
+- Un botón que permite guardar esta Vista.
+- Un botón que permite eliminar esta Vista.
 
 > **Punta**
 >
 > Puede mover el orden de las zonas arrastrando y soltando.
 
-- A la izquierda de la página encontramos la lista de vistas y un botón para agregar.
-- Un botón en la parte superior derecha le permite editar la vista actual.
-- En el centro, tiene un botón para cambiar el nombre de una vista, un botón para agregar un área, un botón para ver el resultado, un botón para guardar y un botón para eliminar la vista.
-
-Después de hacer clic en el botón Agregar zona, Jeedom le preguntará su nombre y tipo.
 En cada zona tienes las siguientes opciones generales :
 
-- **Ancho** : Define el ancho del área (solo en modo escritorio).
-- **Editar** : Permite cambiar el nombre de la zona.
-- **Remove** : Permite eliminar la zona.
+- **Ancho** : Define el ancho del área (solo en modo escritorio). 1 para el ancho de 1/12 del navegador, 12 para el ancho total.
+- Un botón que permite agregar un elemento a esta zona, dependiendo del tipo de zona (ver abajo).
+- **Editar** : Le permite cambiar el nombre de la zona.
+- **Remove** : Eliminar la zona.
 
-### Área de tipo de widget
+### Zona de tipo de equipo
 
-Un área de tipo de widget le permite agregar widgets :
+Una zona de tipo de equipo le permite agregar equipo :
 
-- **Agregar widget** : Agregar / editar widgets para mostrar en el área.
-
-> **Punta**
->
-> Puede eliminar un widget directamente haciendo clic en la papelera que se encuentra frente a él.
+- **Agregar dispositivo** : Le permite agregar / modificar equipos para mostrar en el área.
 
 > **Punta**
 >
-> Puede cambiar el orden de los widgets en el área arrastrando y soltando.
+> Puede eliminar un elemento del equipo directamente haciendo clic en el bote de basura a la izquierda.
 
-Una vez que se presiona el botón Agregar widget, aparece una ventana que le pedirá que agregue el widget
+> **Punta**
+>
+> Es posible cambiar el orden de los mosaicos en el área arrastrando y soltando.
+
 
 ### Área de tipo gráfico
 
 Un área de tipo gráfico le permite agregar gráficos a su vista, tiene las siguientes opciones :
 
 - **Período** : Le permite elegir el período de visualización de los gráficos (30 min, 1 día, 1 semana, 1 mes, 1 año o todos).
-- **Agregar curva** : Permite agregar / modificar gráficos.
+- **Agregar curva** : Agregar / editar gráficos.
 
-Cuando presiona el botón &quot;Agregar curva&quot;, Jeedom muestra la lista de comandos históricos y puede elegir los que desea agregar, una vez hecho esto tiene acceso a las siguientes opciones :
+Cuando presionas el botón **Agregar curva**, Jeedom muestra la lista de pedidos históricos y puede elegir el que desea agregar. Una vez hecho esto, tiene acceso a las siguientes opciones :
 
 - **Cubo de basura** : Eliminar comando del gráfico.
 - **Apellido** : Nombre del comando para dibujar.
 - **Color** : Color de la curva.
 - **Tipo** : Tipo de curva.
 - **Grupo** : Permite la agrupación de datos (tipo máximo por día).
-- **Escala** : escala (derecha o izquierda) de la curva.
-- **Escalera** : Muestra la curva escalonada.
-- **Montón** : Apilar la curva con las curvas de otro tipo.
+- **Escala** : Escala (derecha o izquierda) de la curva.
+- **Escalera** : Muestra la curva de la escalera.
+- **Montón** : Apila la curva con las curvas de otro tipo.
 - **Cambio** : Solo dibuja variaciones con el valor anterior.
 
 > **Punta**
@@ -81,7 +87,7 @@ Cuando presiona el botón &quot;Agregar curva&quot;, Jeedom muestra la lista de 
 Aqui tienes los botones :
 
 - **Agregar columna** : Agregar una columna a la tabla.
-- **Agregar línea** : Agregar una fila a la mesa.
+- **Agregar línea** : Agregar una fila a la tabla.
 
 > **Nota**
 >
@@ -89,8 +95,6 @@ Aqui tienes los botones :
 
 Una vez que haya agregado sus filas / columnas, puede agregar información en los cuadros :
 
-- **texto** : solo texto para escribir.
-- **HTML** : cualquier código html (JavaScript posible pero desaconsejado)).
-- **widget de comando** : el botón de la derecha le permite elegir el comando para mostrar (tenga en cuenta que esto muestra el widget del comando).
-
-
+- Un texto.
+- Código HTML (javascript posible pero desaconsejado)).
+- El widget de una orden : El botón de la derecha le permite elegir el comando para mostrar.

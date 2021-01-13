@@ -24,7 +24,7 @@ In the menu (right click), we find the following actions :
     - **Towards a view** : Add a link to a view.
     - **Towards a design** : Add a link to another design.
 - **Add equipment** : Adds equipment.
-- **Add order** : Add an order.
+- **Add command** : Add a command.
 - **Add image / camera** : Allows you to add a picture or a stream from a camera.
 - **Add area** : Allows to add a clickable transparent zone which will be able to execute a series of actions during a click (depending or not on the status of another command).
 - **Add summary** : Adds information from an object or general summary.
@@ -36,10 +36,10 @@ In the menu (right click), we find the following actions :
     - **Magnetize the elements** : Adds magnetization between the elements to make it easier to stick them.
     - **Magnet on the grid** : Add a magnetization of the elements to the grid (attention : depending on the zoom of the element this functionality can more or less work).
     - **Hide item highlighting** : Hide highlighting around items.
-- **Delete design** : Delete design.
-- **Create a design** : Allows to add a new design.
-- **Duplicate design** : Duplicate the current design.
-- **Configure the design** : Access to design configuration.
+- **Delete design** : Remove design.
+- **Create a design** : Allows you to add a new design.
+- **Duplicate design** : Duplicates current design.
+- **Configure the design** : Access to the configuration of the design.
 - **Save** : Save the design (note, there are also automatic backups during certain actions).
 
 > **IMPORTANT**
@@ -58,7 +58,7 @@ Found here :
     - **Access code* : Access code to your design (if empty, no code is required).
     - **Icon** : An icon for it (appears in the design choice menu).
     - **Picture**
-        - **To send** : Allows to add a background image to the design.
+        - **To send** : Allows you to add a background image to the design.
         - **Delete image** : Delete image.
 - **Sizes**
     - **Size (WxH)** : Allows you to set the size in pixels of your design.
@@ -71,7 +71,7 @@ Found here :
 
 ### Common display settings
 
-- **Depth** : Allows to choose the depth level
+- **Depth** : Allows you to choose the depth level
 - **Position X (%)** : Horizontal coordinate of the element.
 - **Position Y (%)** : Vertical coordinate of the element.
 - **Width (px)** : Element width in pixels.
@@ -94,7 +94,7 @@ Allows you to lock the element so that it is no longer movable or resizable.
 ### Specific display settings
 
 - **Period** : Allows you to choose the display period
-- **Show caption** : Show legend.
+- **Show caption** : Displays the legend.
 - **Show browser** : Displays the browser (second lighter graph below the first).
 - **Show period selector** : Displays the period selector at the top left.
 - **Show scroll bar** : Displays the scroll bar.
@@ -135,7 +135,7 @@ Allows you to choose the commands to grapher.
 - **Link** : Link to the design or view in question.
 - **Background color** : Allows you to change the background color or make it transparent, do not forget to change &quot;Default&quot; to NO.
 - **Text color** : Allows you to change the color of icons and texts (be careful to set Default to No).
-- **Round off the angles (don't forget to put%, ex 50%)** : Allows you to round off the angles, don&#39;t forget to put the%.
+- **Round off the angles (don't forget to put%, ex 50%)** : Allows to round the angles, do not forget to put the%.
 - **Border (attention CSS syntax, ex : solid 1px black)** : Allows you to add a border, beware the syntax is HTML.
 - **Font size (ex 50%, you must put the% sign)** : Allows you to change the font size.
 - **Text alignment** : Allows you to choose the alignment of the text (left / right / centered).
@@ -151,7 +151,7 @@ Allows you to choose the commands to grapher.
 - **Text color** : Lets you choose a custom background color, or use the default color.
 - **Rounded** : Value in pixels of the rounding of the angles of the equipment tile.
 - **Border** : CSS definition of an equipment tile border. Ex : 1px solid black.
-- **Opacity** : Opacity of the equipment tile, between 0 and 1. Be careful : a background color must be defined.
+- **Opacity** : Opacity of the equipment tile, between 0 and 1. Warning : a background color must be defined.
 - **Custom CSS** : CSS rules to apply on the equipment.
 - **Apply custom css on** : CSS selector on which to apply custom CSS.
 
@@ -164,7 +164,7 @@ The list of commands present on the equipment allows you, for each command, to:
 
 ### Advanced configuration
 
-Displays the advanced equipment configuration window (see documentation **Domotic overview**).
+Displays the advanced equipment configuration window (see documentation **Home automation summary**).
 
 ## Commande
 
@@ -172,7 +172,7 @@ Displays the advanced equipment configuration window (see documentation **Domoti
 
 ### Advanced configuration
 
-Displays the advanced equipment configuration window (see documentation **Domotic overview**).
+Displays the advanced equipment configuration window (see documentation **Home automation summary**).
 
 ## Picture / Camera
 
@@ -216,7 +216,7 @@ In this mode, when hovering or clicking in the Jeedom area, you will display the
 - **Link** : Allows you to indicate the summary to display (General for the global otherwise indicate the subject).
 - **Background color** : Allows you to change the background color or make it transparent, do not forget to change &quot;Default&quot; to NO.
 - **Text color** : Allows you to change the color of icons and texts (be careful to set Default to No).
-- **Round off the angles (don't forget to put%, ex 50%)** : Allows you to round off the angles, don&#39;t forget to put the%.
+- **Round off the angles (don't forget to put%, ex 50%)** : Allows to round the angles, do not forget to put the%.
 - **Border (attention CSS syntax, ex : solid 1px black)** : Allows you to add a border, beware the syntax is HTML.
 - **Font size (ex 50%, you must put the% sign)** : Allows you to change the font size.
 - **Fat** : Bold text.

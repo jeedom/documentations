@@ -37,9 +37,9 @@ En el menú (clic derecho), encontramos las siguientes acciones :
     - **Imán en la rejilla** : Agregue una magnetización de los elementos a la cuadrícula (atención : dependiendo del zoom del elemento, esta funcionalidad puede funcionar más o menos).
     - **Ocultar elemento resaltado** : Ocultar resaltado alrededor de elementos.
 - **Eliminar diseño** : Eliminar diseño.
-- **Crea un diseño** : Permite agregar un nuevo diseño.
-- **Diseño duplicado** : Duplicar el diseño actual.
-- **Configura el diseño** : Acceso a la configuración de diseño.
+- **Crea un diseño** : Le permite agregar un nuevo diseño.
+- **Diseño duplicado** : Duplica el diseño actual.
+- **Configura el diseño** : Acceso a la configuración del diseño.
 - **Guardar** : Guarde el diseño (nota, también hay copias de seguridad automáticas durante ciertas acciones).
 
 > **Importante**
@@ -53,13 +53,13 @@ Encontrado aquí :
 - **General**
     - **Apellido** : El nombre de su diseño.
     - **Posición** : La posición del diseño en el menú. Le permite ordenar los diseños.
-    - **Fondo transparente** : Hace que el fondo sea transparente. Atención si la casilla está marcada, no se usa el color de fondo.
+    - **Fondo transparente** : Hace el fondo transparente. Atención si la casilla está marcada, no se usa el color de fondo.
     - **Color de fondo** : Diseño de color de fondo.
     - **Código de acceso* : Código de acceso a su diseño (si está vacío, no se requiere código).
     - **Icono** : Un icono para ello (aparece en el menú de opciones de diseño).
     - **Imagen**
-        - **Enviar a** : Permite agregar una imagen de fondo al diseño.
-        - **Eliminar imagen** : Borrar imagen.
+        - **Enviar a** : Le permite agregar una imagen de fondo al diseño.
+        - **Eliminar imagen** : Eliminar imagen.
 - **Tamaños**
     - **Tamaño (WxH)** : Le permite establecer el tamaño en píxeles de su diseño.
 
@@ -71,7 +71,7 @@ Encontrado aquí :
 
 ### Configuraciones de pantalla comunes
 
-- **Profundidad** : Permite elegir el nivel de profundidad
+- **Profundidad** : Le permite elegir el nivel de profundidad
 - **Posición X (%)** : Coordenada horizontal del elemento.
 - **Posición Y (%)** : Coordenada vertical del elemento.
 - **Ancho (px)** : Ancho del elemento en píxeles.
@@ -94,11 +94,11 @@ Le permite bloquear el elemento para que ya no se pueda mover o cambiar de tama�
 ### Configuraciones de pantalla específicas
 
 - **Período** : Le permite elegir el período de visualización
-- **Mostrar subtítulo** : Mostrar leyenda.
+- **Mostrar subtítulo** : Muestra la leyenda.
 - **Mostrar navegador** : Muestra el navegador (segundo gráfico más claro debajo del primero).
 - **Mostrar selector de período** : Muestra el selector de período en la esquina superior izquierda.
 - **Mostrar barra de desplazamiento** : Muestra la barra de desplazamiento.
-- **Fondo transparente** : Hace que el fondo sea transparente.
+- **Fondo transparente** : Hace el fondo transparente.
 - **Frontera** : Le permite agregar un borde, tenga cuidado, la sintaxis es HTML (tenga cuidado, debe usar la sintaxis CSS, por ejemplo : sólido 1px negro).
 
 ### Configuración avanzada
@@ -135,7 +135,7 @@ Le permite elegir los comandos para graficar.
 - **Enlace** : Enlace al diseño o vista en cuestión.
 - **Color de fondo** : Le permite cambiar el color de fondo o hacerlo transparente, no olvide cambiar &quot;Predeterminado&quot; a NO.
 - **Color del texto** : Le permite cambiar el color de los iconos y textos (tenga cuidado de establecer Predeterminado en No).
-- **Redondee los ángulos (no olvide poner%, ex 50%)** : Le permite redondear los ángulos, no olvide poner el%.
+- **Redondee los ángulos (no olvide poner%, ex 50%)** : Permite redondear los ángulos, no olvides poner el%.
 - **Borde (sintaxis CSS de atención, ej : sólido 1px negro)** : Le permite agregar un borde, tenga cuidado con la sintaxis es HTML.
 - **Tamaño de fuente (ex 50%, debe poner el signo%)** : Le permite cambiar el tamaño de fuente.
 - **Alineación de texto** : Le permite elegir la alineación del texto (izquierda / derecha / centrado).
@@ -216,7 +216,7 @@ En este modo, al pasar el mouse por encima o al hacer clic en el área Jeedom, s
 - **Enlace** : Le permite indicar el resumen a mostrar (General para el global, de lo contrario indique el asunto).
 - **Color de fondo** : Le permite cambiar el color de fondo o hacerlo transparente, no olvide cambiar &quot;Predeterminado&quot; a NO.
 - **Color del texto** : Le permite cambiar el color de los iconos y textos (tenga cuidado de establecer Predeterminado en No).
-- **Redondee los ángulos (no olvide poner%, ex 50%)** : Le permite redondear los ángulos, no olvide poner el%.
+- **Redondee los ángulos (no olvide poner%, ex 50%)** : Permite redondear los ángulos, no olvides poner el%.
 - **Borde (sintaxis CSS de atención, ej : sólido 1px negro)** : Le permite agregar un borde, tenga cuidado con la sintaxis es HTML.
 - **Tamaño de fuente (ex 50%, debe poner el signo%)** : Le permite cambiar el tamaño de fuente.
 - **Grasa** : Texto en negrita.

@@ -20,6 +20,12 @@ Nesta guia, encontramos informações gerais sobre o Jeedom :
 - **Key instalação** : Chave de hardware do seu Jeedom no mercado. Se o seu Jeedom não aparecer na lista do seu Jeedom no mercado, é recomendável clicar no botão **Restabelecer**.
 - **Última data conhecida** : Data registrada pela Jeedom, usada após uma reinicialização para sistemas sem bateria PSTN.
 
+Abaixo, vários parâmetros que centralizam as informações que podem ser usadas pelos plug-ins, evitando a necessidade de inseri-los em cada plug-in.
+
+- Informações para contato : Latitude, longitude e altitude da sua casa / site.
+- Morada : Endereço para correspondência da sua casa / site.
+- Vário : Superfície e número de ocupantes da sua casa / local.
+
 ## Guia Interface
 
 Nesta guia, você encontrará os parâmetros de personalização de exibição.
@@ -134,11 +140,33 @@ Nesta guia, você encontrará os parâmetros de personalização de exibição.
 
 Abaixo, você encontrará uma tabela para gerenciar com precisão o nível de log de elementos essenciais do Jeedom, bem como o de plugins.
 
-## Guia Pedidos
+## Guia Resumos
+
+Adicionar resumos de objetos. Essas informações são exibidas no canto superior direito da barra de menus do Jeedom ou ao lado de objetos :
+
+- **Chave** : Chave para o resumo, especialmente para não tocar.
+- **Nome** : Nome do resumo.
+- **Cálculo** : Método de cálculo, pode ser do tipo :
+    - **Soma** : somar os diferentes valores,
+    - **Média** : valores médios,
+    - **Texto** : exibir o valor literalmente (especialmente para aqueles do tipo string).
+- **ícone** : Ícone Resumo.
+- **Unidade** : Unidade de resumo.
+- **Método de contagem** : Se você contar dados binários, terá que colocar esse valor em binário, por exemplo, se contar o número de luzes acesas, mas apenas o valor do dimmer (0 a 100), precisará colocar binários, como o que Jeedom considerou se o valor for maior que 1, a lâmpada estará acesa.
+- **Mostrar se o valor é 0** : Marque esta caixa para exibir o valor, mesmo quando for 0.
+- **Link para um virtual** : Lança a criação de pedidos virtuais que têm como valor aqueles do resumo.
+- **Excluir resumo** : O último botão, na extrema direita, exclui o resumo da linha.
+
+## Guia Equipamento
+
+### Equipements
+
+- **Falha Contagem off equipamentos** : Número de falhas de comunicação com o equipamento antes da desativação do equipamento (uma mensagem avisará se isso acontecer).
+- **Limiares da bateria** : Permite gerenciar os limites de alerta global nas pilhas.
 
 Muitos pedidos podem ser registrados. Assim, em Análise → Histórico, você obtém gráficos representando seu uso. Essa guia permite definir parâmetros globais para o log de comandos.
 
-### Historique
+### Histórico de pedidos
 
 - **Mostrar estatísticas sobre os widgets** : Ver estatísticas sobre widgets. O widget deve ser compatível, como é o caso da maioria. O comando também deve ser do tipo numérico.
 - **Período de cálculo para min, max, média (em horas)** : Período de cálculo estatístico (24h por padrão). Não é possível demorar menos de uma hora.
@@ -161,28 +189,6 @@ Muitos pedidos podem ser registrados. Assim, em Análise → Histórico, você o
 **\#cmd\_id\#** para o identificador exclusivo do pedido,
 **\#humanname\#** para o nome completo do pedido (ex : \#\[Salle de bain\]\[Hydrometrie\]\[Humidité\]\#),
 **\#eq_name\#** para o nome do equipamento
-
-## Guia Resumos
-
-Adicionar resumos de objetos. Essas informações são exibidas no canto superior direito da barra de menus do Jeedom ou ao lado de objetos :
-
-- **Chave** : Chave para o resumo, especialmente para não tocar.
-- **Nome** : Nome do resumo.
-- **Cálculo** : Método de cálculo, pode ser do tipo :
-    - **Soma** : somar os diferentes valores,
-    - **Média** : valores médios,
-    - **Texto** : exibir o valor literalmente (especialmente para aqueles do tipo string).
-- **ícone** : Ícone Resumo.
-- **Unidade** : Unidade de resumo.
-- **Método de contagem** : Se você contar dados binários, terá que colocar esse valor em binário, por exemplo, se contar o número de luzes acesas, mas apenas o valor do dimmer (0 a 100), precisará colocar binários, como o que Jeedom considerou se o valor for maior que 1, a lâmpada estará acesa.
-- **Mostrar se o valor é 0** : Marque esta caixa para exibir o valor, mesmo quando for 0.
-- **Link para um virtual** : Lança a criação de pedidos virtuais que têm como valor aqueles do resumo.
-- **Excluir resumo** : O último botão, na extrema direita, exclui o resumo da linha.
-
-## Guia Equipamento
-
-- **Falha Contagem off equipamentos** : Número de falhas de comunicação com o equipamento antes da desativação do equipamento (uma mensagem avisará se isso acontecer).
-- **Limiares da bateria** : Permite gerenciar os limites de alerta global nas pilhas.
 
 ## Guia Relatórios
 
@@ -215,8 +221,8 @@ Essa guia permite definir parâmetros globais relativos às interações que voc
 
 Aqui você tem três parâmetros :
 
-- **Sensibilidade** : existem 4 níveis de correspondência (a sensibilidade vai de 1 (corresponde exatamente) a 99)
-    -   por 1 palavra : nível de correspondência para interações com uma única palavra.
+- **Sensibilidade** : existem 4 níveis de correspondência (a sensibilidade vai de 1 (corresponde exatamente) a 99) para
+    -   1 palavra : nível de correspondência para interações com uma única palavra.
     -   2 palavras : o nível de correspondência para interações de duas palavras.
     -   3 palavras : o nível de correspondência para interações de três palavras.
     -   mais de 3 palavras : nível de correspondência para interações com mais de três palavras.
@@ -225,7 +231,7 @@ Aqui você tem três parâmetros :
 
 ### Interação automática, contextual e aviso
 
--   O **interações automáticas** permitir que o Jeedom tente entender uma solicitação de interação, mesmo que não haja nenhuma definida. Ele procurará um nome de objeto e / ou equipamento e / ou ordem para tentar responder da melhor forma possível.
+-   O **interações automáticas** permitir que o Jeedom tente entender uma solicitação de interação, mesmo que nenhuma esteja definida. Ele procurará um nome de objeto e / ou equipamento e / ou ordem para tentar responder da melhor forma possível.
 
 -   O **interações contextuais** permitem encadear várias solicitações sem repetir tudo, por exemplo :
     - *Jeedom mantendo o contexto :*
@@ -242,7 +248,7 @@ Aqui você tem três parâmetros :
 
 > **NOTA**
 >
-> Por padrão, o Jeedom responderá pelo mesmo canal que você usou para pedir para notificá-lo. Se não encontrar um, utilizará o comando padrão especificado nesta guia : **Ordem de devolução padrão**.
+> Por padrão, o Jeedom responderá pelo mesmo canal que você usou para pedir para notificá-lo. Se não encontrar um, ele usará o comando padrão especificado nesta guia : **Ordem de devolução padrão**.
 
 Aqui estão as diferentes opções disponíveis :
 
@@ -370,8 +376,8 @@ Permite monitorar e agir no cache Jeedom :
 - **Vazio todos os dados de cache** : Esvazie a tampa completamente.
     Observe que isso pode causar perda de dados !
 - **Limpe o cache do widget** : Limpe o cache dedicado aos widgets.
-- **Desativar cache do widget** : Marque a caixa para desativar os caches do widget.
-- **Tempo de pausa para o longo polling** : Frequência com que o Jeedom verifica se há eventos pendentes para os clientes (interface da web, aplicativo móvel etc.)). Quanto menor o tempo, mais rápida será a atualização da interface, no entanto, ela usa mais recursos e, portanto, pode reduzir a velocidade do Jeedom.
+- **Desativar cache do widget** : Marque a caixa para desativar o cache do widget.
+- **Tempo de pausa para o longo polling** : Frequência com que o Jeedom verifica se há eventos pendentes para os clientes (interface da web, aplicativo móvel etc.)). Quanto menor o tempo, mais rápida será a atualização da interface. Em troca, ela usa mais recursos e, portanto, pode retardar o Jeedom.
 
 ## Guia API
 
@@ -388,6 +394,8 @@ Para cada chave de plug-in de API, bem como para APIs HTTP, JsonRPC e TTS, é po
 - **Localhost** : somente solicitações do sistema no qual o Jeedom está instalado são permitidas,
 - **Ativado** : sem restrições, qualquer sistema com acesso ao seu Jeedom poderá acessar esta API.
 
+Para cada chave de API de plugin você pode proibi-los de métodos básicos (geral) para limitá-los ao seu único método embutido (tenha cuidado com alguns plugins como mobile ou jeelink absolutamente precisam de métodos centrais)
+
 ## Onglet &gt;\_OS/DB
 
 > **IMPORTANTE**
@@ -395,15 +403,18 @@ Para cada chave de plug-in de API, bem como para APIs HTTP, JsonRPC e TTS, é po
 > Essa guia está reservada para especialistas.
 > Se você modificar o Jeedom com uma dessas duas soluções, o suporte poderá se recusar a ajudá-lo.
 
-- **Geral** :
-    - **Verificação geral** : Vamos lançar o teste de consistência Jeedom.
-- **&gt;\_System** :
-    - **Administração** : Fornece acesso a uma interface de administração do sistema. É um tipo de console shell no qual você pode iniciar os comandos mais úteis, em particular para obter informações sobre o sistema.
-    - Restabelecimento de direitos : Permite reaplicar os direitos corretos nos diretórios e arquivos do Jeedom Core.
+### Verificações do sistema
+
+- **Verificação geral** : Vamos lançar o teste de consistência Jeedom.
+- **Restabelecimento de direitos** : Permite reaplicar os direitos corretos nos diretórios e arquivos do Jeedom Core.
+- **Verificando pacotes do sistema** : Permite iniciar uma verificação dos pacotes instalados.
+- **Verificação de banco de dados** : Permite iniciar uma verificação no banco de dados Jeedom e corrigir erros, se necessário.
+- **Limpeza de banco de dados** : Executa uma verificação do banco de dados e limpa todas as entradas não utilizadas.
+
+
+### Ferramentas do sistema
+
 - **Editor de arquivo** : Permite o acesso a vários arquivos do sistema operacional e para editar ou excluir ou criá-los.
-- **Banco de dados** :
-    - **Administração** : Permite acesso ao banco de dados Jeedom. Você pode então iniciar comandos no campo superior.
-    - **Verificação** : Permite iniciar uma verificação no banco de dados Jeedom e corrigir erros, se necessário
-    - **Limpeza** : Inicia uma verificação de banco de dados e limpa todas as entradas não utilizadas.
-    - **Usuário** : Nome de usuário usado por Jeedom no banco de dados,
-    - **Senha** : senha para acessar o banco de dados usado pelo Jeedom.
+- **Administração do sistema** : Fornece acesso a uma interface de administração do sistema. É um tipo de console shell no qual você pode iniciar os comandos mais úteis, em particular para obter informações sobre o sistema.
+- **Banco de dados de administração** : Permite acesso ao banco de dados Jeedom. Você pode então iniciar comandos no campo superior.
+- **Nome de usuário / senha** : Nome de usuário e senha para acessar o banco de dados usado pelo Jeedom.

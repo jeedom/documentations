@@ -2,7 +2,7 @@
 **Configuración → Sistema → Centro de actualizaciones**
 
 
-La **centro de actualizaciones** le permite actualizar toda la funcionalidad de Jeedom, incluido el software principal y sus complementos.
+La **Centro de actualizaciones** le permite actualizar toda la funcionalidad de Jeedom, incluido el software principal y sus complementos.
 Hay otras funciones de administración de extensiones disponibles (eliminar, reinstalar, verificar, etc.).
 
 
@@ -13,7 +13,7 @@ En la parte superior de la página, independientemente de la pestaña, se encuen
 Jeedom se conecta periódicamente al mercado para ver si hay actualizaciones disponibles. La fecha de la última verificación se indica en la parte superior izquierda de la página.
 
 Al abrir la página, si esta verificación tiene más de dos horas, Jeedom rehace automáticamente una verificación.
-También puedes usar el botón **Verifique las actualizaciones** Para hacerlo manualmente.
+También puedes usar el botón **Buscar actualizaciones** Para hacerlo manualmente.
 Si desea realizar una verificación manual, puede presionar el botón "Buscar actualizaciones".
 
 El botón **Guardar** se utilizará cuando cambie las opciones en la tabla a continuación, para especificar que no se actualicen ciertos complementos si es necesario.
@@ -23,7 +23,7 @@ El botón **Guardar** se utilizará cuando cambie las opciones en la tabla a con
 El botón **Poner al día** le permite actualizar el Core, los complementos o ambos.
 Una vez que haces clic en él, obtienes estas diferentes opciones :
 - **Pre-actualización** : Le permite actualizar el script de actualización antes de aplicar las nuevas actualizaciones. Generalmente se usa a pedido del soporte.
-- **Ahorre antes** : Haga una copia de seguridad de Jeedom antes de actualizar.
+- **Ahorre antes** : Haga una copia de seguridad de Jeedom antes de actualizar. La copia de seguridad se realiza solo localmente (ni Market ni Samba).
 - **Actualizar complementos** : Le permite incluir complementos en la actualización.
 - **Actualiza el núcleo** : Le permite incluir el núcleo Jeedom (el núcleo) en la actualización.
 

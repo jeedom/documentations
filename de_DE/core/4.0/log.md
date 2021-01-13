@@ -13,8 +13,8 @@ Oben rechts 5 Tasten :
 
 - **Suche** : Ermöglicht das Filtern der Anzeige des aktuellen Protokolls.
 - **Pause / Resume** : Unterbrechen / Fortsetzen der Echtzeitaktualisierung des aktuellen Protokolls.
-- **Download** : Ermöglicht das Herunterladen des aktuellen Protokolls.
-- **Leer** : Ermöglicht das Leeren des aktuellen Protokolls.
+- **Download** : Laden Sie das aktuelle Protokoll herunter.
+- **Leer** : Löschen Sie das aktuelle Protokoll.
 - **Entfernen** : Löschen Sie das aktuelle Protokoll. Wenn Jeedom es braucht, wird es automatisch neu erstellt.
 - **Löschen Sie alle Protokolle** : Löschen Sie alle vorhandenen Protokolle.
 

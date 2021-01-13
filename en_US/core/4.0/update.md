@@ -1,8 +1,8 @@
-# Update center
+# Update Center
 **Settings → System → Update Center**
 
 
-The **update center** allows you to update all of Jeedom&#39;s functionality, including the core software and its plugins.
+The **Update Center** allows you to update all of Jeedom&#39;s functionality, including the core software and its plugins.
 Other extension management functions are available (delete, reinstall, check, etc.).
 
 
@@ -18,14 +18,14 @@ If you want to perform a manual check, you can press the button "Check for updat
 
 The button **Save** is to be used when you change the options in the table below, to specify not to update certain plugins if necessary.
 
-## Update the core
+## Update the Core
 
 The button **Update** allows you to update the Core, plugins, or both.
 Once you click on it, you get these different options :
 - **Pre-update** : Allows you to update the update script before applying the new updates. Generally used at the request of the support.
-- **Save before** : Back up Jeedom before updating.
+- **Save before** : Back up Jeedom before updating. The backup is performed locally only (neither Market nor Samba).
 - **Update plugins** : Allows you to include plugins in the update.
-- **Update the core** : Allows you to include the Jeedom kernel (the Core) in the update.
+- **Update the Core** : Allows you to include the Jeedom kernel (the Core) in the update.
 
 - **Forced mode** : Perform the update in forced mode, that is to say that, even if there is an error, Jeedom will continue and will not restore the backup. (This mode disables saving !).
 - **Update to reapply** : Allows you to re-apply an update. (NB : Not all updates can be re-applied.)
@@ -47,7 +47,7 @@ The plugins have a badge next to their name, specifying their version, green in 
 - **Status** : OK or NOK.
 - **Last name** : Name and origin of the plugin
 - **Version** : Indicates the precise version of the Core or plugin.
-- **Jeedoms Sources** : Check this box if you do not want this plugin to be updated during the global update (Button **Update**).
+- **Options** : Check this box if you do not want this plugin to be updated during the global update (Button **Update**).
 
 On each line, you can use the following functions:
 

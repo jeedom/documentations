@@ -7,6 +7,8 @@ Tous les équipements que vous créez doivent appartenir à un objet et sont ain
 
 Pour laisser libre choix à la personnalisation, vous pouvez nommer ces objets comme vous le voulez. Usuellement, on y définira les différentes parties de sa maison, comme le nom des pièces (c’est d’ailleurs la configuration recommandée).
 
+![Objets](./images/object_intro.gif)
+
 ## Gestion
 
 Deux options s’offrent à vous :
@@ -47,11 +49,12 @@ Voici donc les différentes caractéristiques pour configurer un objet :
 - **Couleurs personnalisées** : Active la prise en compte des deux paramètres de couleurs optionnels.
 - **Couleur du tag** : Permet de choisir la couleur de l’objet et des équipements qui lui sont rattachés.
 - **Couleur du texte du tag** : Permet de choisir la couleur du texte de l’objet. Ce texte sera par dessus la **couleur du tag**. A vous de choisir une couleur pour rendre le texte lisible.
-- **Image** : Vous avez la possibilité de télécharger une image ou la supprimer. Au format jpeg cette image sera l'image de fond de l'objet quand vous l'afficherez sur le Dashboard.
+- **Image** : Vous avez la possibilité de télécharger une image ou la supprimer. Au format jpeg cette image sera l'image de fond de l'objet quand vous l'afficherez sur le Dashboard. Elle sera aussi utilisée pour la vignette de la pièce sur la Synthèse.
+- **Seulement sur la synthèse** : Permet de mettre une image pour la Synthèse sans qu'elle soit utilisée comme image de fond.
 
 > **Tip**
 >
-> Vous pouvez modifier l’ordre d’affichage des objets dans le Dashboard. Dans la vue d'ensemble, sélectionnez votre objet avec la souris avec un glisser/déposer pour lui donner une nouvelle place.
+> Vous pouvez modifier l’ordre d’affichage des objets dans le Dashboard. Dans la vue d'ensemble (ou par le Résumé Domotique), sélectionnez votre objet avec la souris avec un glisser/déposer pour lui donner une nouvelle place.
 
 > **Tip**
 >
@@ -63,7 +66,8 @@ Voici donc les différentes caractéristiques pour configurer un objet :
 
 ## Onglet Résumé
 
-Les résumés sont des informations globales, affectées à un objet, qui s’affichent notamment sur le Dashboard à côté du nom de ce dernier.
+Les résumés sont des informations globales, affectées à un objet, qui s’affichent notamment sur le Dashboard (à côté du nom de l'objet), et sur la synthèse (sur la vignette de l'objet).
+
 
 ### Tableau d’affichage
 
@@ -80,6 +84,12 @@ Chaque onglet représente un type de résumé défini dans la configuration de J
 > **Tip**
 >
 > Si vous souhaitez ajouter un type de résumé ou pour configurer la méthode de calcul du résultat, l’unité, l’icône et le nom d’un résumé, vous devez aller dans la configuration générale de Jeedom : **Réglages → Système → Configuration : Onglet Résumés**.
+
+## Onglet Résumé par équipement
+
+Cette page affiche tout les équipements ayant l'objet comme parent. Sur chaque équipement, en cliquant dessus, la liste des commandes info de l'équipement est présentée, avec sur la droite le moyen d'attribuer cette commande à un ou plusieurs résumés de l'objet.
+
+Si un ou des résumé(s) sont déjà définis, le sélecteur apparait en orange, avec les types de résumés cochés sur la droite.
 
 ## Vue d’ensemble
 

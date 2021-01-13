@@ -7,6 +7,8 @@ Todo o equipamento que você cria deve pertencer a um objeto e, portanto, é mai
 
 Para dar livre escolha à personalização, você pode nomear esses objetos como desejar. Normalmente, definiremos as diferentes partes de sua casa, como o nome dos quartos (esta também é a configuração recomendada).
 
+![Objetos](./images/object_intro.gif)
+
 ## Gestion
 
 Você tem duas opções :
@@ -47,11 +49,12 @@ Aqui estão as diferentes características para configurar um objeto :
 - **Cores personalizadas** : Ativa a consideração dos dois parâmetros de cores opcionais.
 - **Cor tag** : Permite escolher a cor do objeto e o equipamento a ele conectado.
 - **Texto tag Cor** : Permite escolher a cor do texto do objeto. Este texto estará sobre o **Cor tag**. Você escolhe uma cor para tornar o texto legível.
-- **Imagem** : Você tem a opção de fazer upload de uma imagem ou excluí-la. No formato jpeg, essa imagem será a imagem de plano de fundo do objeto quando você a exibir no Painel.
+- **Imagem** : Você tem a opção de fazer upload de uma imagem ou excluí-la. No formato jpeg, essa imagem será a imagem de plano de fundo do objeto quando você a exibir no Painel. Também será usado para a miniatura da peça no Synthesis.
+- **Somente na síntese** : Permite colocar uma imagem para a síntese sem ser usada como imagem de fundo.
 
 > **Dica**
 >
-> Você pode alterar a ordem de exibição dos objetos no Painel. Na visão geral, selecione seu objeto com o mouse, arrastando e soltando, para dar um novo local.
+> Você pode alterar a ordem de exibição dos objetos no Painel. Na visão geral (ou no Resumo da automação residencial), selecione seu objeto com o mouse, arrastando e soltando, para dar um novo local.
 
 > **Dica**
 >
@@ -63,7 +66,8 @@ Aqui estão as diferentes características para configurar um objeto :
 
 ## Guia Resumo
 
-Resumos são informações globais, atribuídas a um objeto, que são exibidas em particular no Painel ao lado de seu nome.
+Resumos são informações globais, atribuídas a um objeto, que são exibidas em particular no Painel (ao lado do nome do objeto) e no resumo (na miniatura do objeto).
+
 
 ### Quadro de avisos
 
@@ -80,6 +84,12 @@ Cada guia representa um tipo de resumo definido na configuração do Jeedom. Cli
 > **Dica**
 >
 > Se você deseja adicionar um tipo de resumo ou configurar o método de cálculo do resultado, a unidade, o ícone e o nome de um resumo, deve-se acessar a configuração geral do Jeedom : **Configurações → Sistema → Configuração : Guia Resumos**.
+
+## Guia de resumo por dispositivo
+
+Esta página exibe todos os equipamentos tendo o objeto como pai. Em cada dispositivo, clicando sobre ele, é apresentada a lista de comandos de informação do dispositivo, à direita os meios de atribuir este comando a um ou mais resumos do objeto.
+
+Se um ou mais resumos já estiverem definidos, o seletor aparece em laranja, com os tipos de resumos marcados à direita.
 
 ## Visão global
 
