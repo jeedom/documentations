@@ -222,4 +222,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-01-13 01:20:09
+2021-01-14 01:20:03
