@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 13/01/2021
+
+- Correction d'un soucis de remonté du NOX (il faut supprimer l'équipement actuellement et refaire une decouverte pour avoir la correction)
+
 # 11/10/2020
 
 - Correction de bug

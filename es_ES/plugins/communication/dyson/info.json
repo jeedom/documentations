@@ -6,12 +6,12 @@
         "en_US": "Plugin to control Dyson Link equipment (pure link, hot + cool, humidify + cool ...). For the moment the vacuum cleaner is not supported",
         "es_ES": "Complemento para controlar el equipo Dyson Link (enlace puro, hot + cool, humidify + cool ...). Por el momento, la aspiradora no es compatible",
         "de_DE": "Plugin zur Steuerung von Dyson Link-Geräten (Pure Link, Hot + Cool, Befeuchten + Cool ...). Momentan wird der Staubsauger nicht unterstützt",
-        "ru_RU": "",
-        "id_ID": "",
-        "it_IT": "",
-        "ja_JP": "",
+        "ru_RU": "Plugin pour controller les équipements Dyson Link (pure link, hot+cool, humidify+cool...). Pour le moment l'aspirateur n'est pas supporté",
+        "id_ID": "Plugin pour controller les équipements Dyson Link (pure link, hot+cool, humidify+cool...). Pour le moment l'aspirateur n'est pas supporté",
+        "it_IT": "Plugin pour controller les équipements Dyson Link (pure link, hot+cool, humidify+cool...). Pour le moment l'aspirateur n'est pas supporté",
+        "ja_JP": "Plugin pour controller les équipements Dyson Link (pure link, hot+cool, humidify+cool...). Pour le moment l'aspirateur n'est pas supporté",
         "pt_PT": "Plugin para controlar o equipamento Dyson Link (link puro, quente + frio, umidificar + frio ...). No momento, o aspirador não é suportado",
-        "tr": ""
+        "tr": "Plugin pour controller les équipements Dyson Link (pure link, hot+cool, humidify+cool...). Pour le moment l'aspirateur n'est pas supporté"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
