@@ -1,10 +1,10 @@
 **Info.json-Dateidokumentation**
 
-Integriert seit Version 3.0 von Jeedom, der Datei **info.json** ist für das ordnungsgemäße Funktionieren von Plugins und deren ordnungsgemäße Bereitstellung auf dem Jeedom-Markt obligatorisch.
+Integriert seit Version 3.0 von Jeedom, der Datei ``info.json`` ist für das ordnungsgemäße Funktionieren von Plugins und deren ordnungsgemäße Bereitstellung auf dem Jeedom-Markt obligatorisch.
 
-Die Info-Datei.json wird im Ordner / plugin_info / Ihres Plugins gespeichert.
+Die Info-Datei.json wird im Ordner gespeichert ``/plugin_info/`` Ihres Plugins.
 
-Liste der Variablen in der Datei info.json
+Liste der Dateivariablen ``info.json``
 
 Mit * gekennzeichnete Felder sind Pflichtfelder.
 
@@ -12,7 +12,7 @@ Felder                   | Werte                                                
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 Identifikation *                     | Eindeutige Kennung des Plugins auf dem Jeedom Market. Muss mit einem Brief beginnen. Ohne Akzente.                             |
 Name *                   | Name des Plugins.                                                                                                            |
-Beschreibung *            | Beschreibung des Plugins, wie es auf dem Jeedom Market angezeigt wird Mindestens 80 Zeichen. (`<br/>`für den Zeilenumbruch.)                                  |                                                                                     |
+Beschreibung *            | Beschreibung des Plugins, wie es auf dem Jeedom Market mit mindestens 80 Zeichen angezeigt wird. (``<br/>`` für die neue Zeile.). Bitte beachten Sie, dass dies eine Tabelle für die verschiedenen möglichen Sprachen von jeedom ist (siehe Beispiel des Template-Plugins))                                  |                                                                                     |
 Nutzung                    | Zusätzliche Informationen zur Dokumentation zur Verwendung des Plugins.                                                    |
 Lizenz *                | Art der Lizenz.                                                                                                          |
 Autor *                 | Name des Plugin-Autors, der nach der Installation des Plugins in den Plugin-Informationen angezeigt wird.         |
@@ -24,11 +24,12 @@ Handy                   | Wenn das Plugin ein spezielles Panel in der Jeedom-Web
 Dokumentation *          | HTML-Link zur Plugin-Dokumentation.                                                                                |
 Link -> Video               | HTML-Link zu einer Videopräsentation.                                                                                 |
 Link -> Forum               | HTML-Link zum Forum zum offiziellen Thema des Plugins.                                                                  |
-Sprachen                | Liste der für das Plugin verfügbaren Sprachen:fr_FR, en_US, de_DE, it_IT, sp_SP, ru_RU, pt_PT            |
+Sprachen                | Liste der für das Plugin verfügbaren Sprachen: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP`` , ``ru_RU``, ``pt_PT``            |
 Kompatibilität            | Plugin-Kompatibilität: Miniplus, Smart, Docker, RPI, DIY, Mobileapp, v4.                                                   |
 hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
 hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
 maxDependancyInstallTime | Maximal zulässige Zeit für die Installation von Abhängigkeiten, ausgedrückt in Minuten.                                            |
+specialAttributes | Ermöglicht Plugins, zusätzliche Parameter für Objekte oder Benutzer anzufordern (siehe Beispiel der Plugin-Vorlage))                                            |
 Problem                    | URL zum Bugtracker, falls extern (wenn nicht ausgefüllt, erhalten Sie eine E-Mail)
 
 **Beispiel** :
@@ -39,18 +40,18 @@ Problem                    | URL zum Bugtracker, falls extern (wenn nicht ausgef
 
 Jeedom Markt         | Info.json               |
 --------------------- | ----------------------- |
-Kommunikation         | Kommunikation           |
-Komfort               | Wellness                |
-Energie               | Energie                  |
-Wetter                 | Wetter                 |
-Überwachung            | Überwachung              |
-Multimedia            | Multimedia              |
-Natur                | Natur                  |
-Verbundene Objekte      | Gerätekommunikation     |
-Organisation          | Organisation            |
-Hausautomations-Gateway  | Hausautomationsprotokoll|
-Programmierung         | Programmierung             |
-Hausautomationsprotokoll   | Automatisierungsprotokoll     |
-Gesundheit                 | Gesundheit                  |
-Sicherheit              | Sicherheit                |
-Automatismus           | Automatisierung          |
+Kommunikation         | ``communication``           |
+Komfort               | ``wellness``                |
+Energie               | ``energy``                  |
+Wetter                 | ``weather``                 |
+Überwachung            | ``monitoring``              |
+Multimedia            | ``multimedia``              |
+Natur                | ``nature``                  |
+Verbundene Objekte      | ``devicecommunication``     |
+Organisation          | ``organization``            |
+Hausautomations-Gateway  | ``home automation protocol``|
+Programmierung         | ``programming``             |
+Hausautomationsprotokoll   | ``automation protocol``     |
+Gesundheit                 | ``health``                  |
+Sicherheit              | ``security``                |
+Automatismus           | ``automatisation``          |

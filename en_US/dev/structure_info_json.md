@@ -1,10 +1,10 @@
 **Info.json file documentation**
 
-Integrated since version 3.0 from Jeedom, the file **info.json** is mandatory for the proper functioning of plugins, and their proper deployment on the Jeedom Market.
+Integrated since version 3.0 from Jeedom, the file ``info.json`` is mandatory for the proper functioning of plugins, and their proper deployment on the Jeedom Market.
 
-The info file.json is saved in the / plugin_info / folder of your plugin.
+The info file.json is saved in the folder ``/plugin_info/`` of your plugin.
 
-List of variables in the info.json file
+List of file variables ``info.json``
 
 Fields marked with * are mandatory fields.
 
@@ -12,7 +12,7 @@ Fields                   | Values                                               
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 Id *                     | Unique identifier of the plugin on the Jeedom Market. Must start with a letter. Without accents.                             |
 name *                   | Plugin name.                                                                                                            |
-Description *            | Description of the plugin, as it will appear on the Jeedom Market Minimum 80 characters. (`<br/>`for the line break.)                                  |                                                                                     |
+Description *            | Description of the plugin, as it will be displayed on the Jeedom Market Minimum 80 characters. (``<br/>`` for the new line.). Please note this is a table for the different languages of jeedom possible (look at the example of the template plugin)                                  |                                                                                     |
 use                    | Additional information to the documentation on the use of the plugin.                                                    |
 Licence *                | Type of license.                                                                                                          |
 author *                 | Name of the plugin author, as it will be displayed once the plugin is installed, in the plugin information.         |
@@ -24,11 +24,12 @@ Changelog *              | Html link to Changelog.                              
 Documentation *          | Html link to plugin documentation.                                                                                |
 link -> video               | Html link to a video presentation.                                                                                 |
 link -> forum               | Html link to the forum on the official subject of the plugin.                                                                  |
-languages                | List of languages available for the plugin:fr_FR, en_US, de_DE, it_IT, sp_SP, ru_RU, pt_PT            |
+languages                | List of languages available for the plugin: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP`` , ``ru_RU``, ``pt_PT``            |
 compatibility            | Plugin compatibility: miniplus, smart, docker, rpi, diy, mobileapp, v4.                                                   |
 hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
 hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
 maxDependancyInstallTime | Maximum time allowed for the installation of dependencies, expressed in minutes.                                            |
+specialAttributes | Allows plugins to request additional parameters on objects or users (look at the example of the plugin template)                                            |
 issue                    | URL to the bugtracker if external (if not filled then you will receive an email)
 
 **Example** :
@@ -39,18 +40,18 @@ issue                    | URL to the bugtracker if external (if not filled then
 
 Jeedom Market         | Info.JSON               |
 --------------------- | ----------------------- |
-Communication         | Communication           |
-Comfort               | wellness                |
-Energy               | energy                  |
-Weather                 | weather                 |
-Monitoring            | monitoring              |
-Multimedia            | Multimedia              |
-Nature                | Nature                  |
-Connected objects      | devicecommunication     |
-Organization          | organization            |
-Home automation gateway  | home automation protocol|
-Programming         | programming             |
-Home automation protocol   | automation protocol     |
-Health                 | health                  |
-Security              | security                |
-Automatism           | automating          |
+Communication         | ``communication``           |
+Comfort               | ``wellness``                |
+Energy               | ``energy``                  |
+Weather                 | ``weather``                 |
+Monitoring            | ``monitoring``              |
+Multimedia            | ``multimedia``              |
+Nature                | ``nature``                  |
+Connected objects      | ``devicecommunication``     |
+Organization          | ``organization``            |
+Home automation gateway  | ``home automation protocol``|
+Programming         | ``programming``             |
+Home automation protocol   | ``automation protocol``     |
+Health                 | ``health``                  |
+Security              | ``security``                |
+Automatism           | ``automatisation``          |
