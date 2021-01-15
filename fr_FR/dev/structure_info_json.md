@@ -12,7 +12,7 @@ Champs                   | Valeurs                                              
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 id *                     | Identifiant unique du plugin sur le Market Jeedom. Doit debuter par une lettre. Sans accents.                             |
 name *                   | Nom du plugin.                                                                                                            |
-description *            | Description du plugin, tel qu'il s’affichera sur le Market Jeedom Minimum 80 caractères. (`<br/>` pour le retour à la ligne.)                                  |                                                                                     |
+description *            | Description du plugin, tel qu'il s’affichera sur le Market Jeedom Minimum 80 caractères. (`<br/>` pour le retour à la ligne.). Attention c'est un tableau pour les differentes langue de jeedom possible (bien regarde l'exemple du plugin template)                                  |                                                                                     |
 usage                    | Informations complémentaires à la documentation sur l’usage du plugin.                                                    |
 licence *                | Type de licence.                                                                                                          |
 author *                 | Nom de l’auteur du plugin, tel qu’il sera affiché une fois le plugin installé, dans les informations de celui-ci.         |
@@ -29,6 +29,7 @@ compatibility            | Compatibilité du plugin : miniplus, smart, docker, 
 hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
 hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
 maxDependancyInstallTime | Temps maximum imparti pour l’installation des dépendances, exprimé en minutes.                                            |
+specialAttributes | Permet aux plugin de demander des parametre suplémentaire sur des objets ou des utilisateurs (bien regarder l'exemple du plugin template)                                            |
 issue                    | URL vers le bugtracker si externe (si non remplis alors vous receverez un mail)
 
 **Exemple** :
