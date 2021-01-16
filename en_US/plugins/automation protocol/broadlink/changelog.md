@@ -1,4 +1,9 @@
 # Changelog Broadlink
+
+# 23/11/2020
+
+- Management of the dependencies of certain corrupted installations by third parties of cryptography in python 3 (relaunch the dependencies if you are faced with a problem)
+
 # 20/11/2020
 
 - General optimizations

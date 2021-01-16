@@ -1,4 +1,9 @@
 # Changelog Broadlink
+
+# 23/11/2020
+
+- Verwaltung der Abhängigkeiten bestimmter beschädigter Installationen durch Drittanbieter von Kryptografie in Python 3 (Starten Sie die Abhängigkeiten neu, wenn Sie auf ein Problem stoßen)
+
 # 20/11/2020
 
 - Allgemeine Optimierungen
