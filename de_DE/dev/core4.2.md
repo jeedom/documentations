@@ -12,11 +12,6 @@
 - Wird in der PHP-Klasse `cmd`` Szenario`` SzenarioElement`` SzenarioExpression` `SzenarioSubElement` verwendet
 - Wird in Ajax-Szenarien- und Protokollaufrufen verwendet
 
-#### Hilfe zu Dashboard-Widget-Vorlagen
-
-- Übersetzungssystem, das derzeit nicht "Core / Template / Dashboard" und / Mobile scannt :
-- > Scannen Sie "Core / Template / Dashboard" und legen Sie alles in den i18n.json mit dem Pfad "core \ / template \ /widgets.html"
-
 #### Dokumentation zur Anpassung an neue Optionen / Funktionen
 
 ### Optionale Änderungen

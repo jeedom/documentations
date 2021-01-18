@@ -12,11 +12,6 @@
 - Used in php class `cmd`` scenario` `scenarioElement`` scenarioExpression` `scenarioSubElement`
 - Used in ajax `scenario` and` log` calls
 
-#### Help on dashboard widget templates
-
-- Translation system which currently does not scan `core / template / dashboard` and / mobile :
-- > Scan `core / template / dashboard` and put everything in the i18n.json with the path `" core \ / template \ /widgets.html "`
-
 #### Documentation to adapt to new options / functions
 
 ### Optional modifications

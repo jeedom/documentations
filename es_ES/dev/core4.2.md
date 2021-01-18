@@ -12,11 +12,6 @@
 - Usado en la clase php `cmd`` escenario`` escenarioElemento`` escenarioExpresión` `escenarioSubElemento`
 - Utilizado en llamadas ajax `escenario` y` log`
 
-#### Ayuda sobre las plantillas de widgets del tablero
-
-- Sistema de traducción que actualmente no escanea `core / template / dashboard` y / mobile :
-- > Escanee `core / template / dashboard` y coloque todo en el i18n.json con la ruta `" core \ / template \ /widgets.html "`
-
 #### Documentación para adaptarse a nuevas opciones / funciones
 
 ### Modificaciones opcionales
