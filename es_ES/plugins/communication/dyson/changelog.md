@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
 
+# 13/01/2021
+
+- Corrección de un problema con el aumento de NOX (es necesario quitar el equipo actualmente y rehacer un descubrimiento para tener la corrección)
+
 # 10/11/2020
 
 - Corrección de errores

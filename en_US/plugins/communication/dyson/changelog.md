@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
 
+# 01/13/2021
+
+- Correction of a problem with the rise of NOX (it is necessary to remove the equipment currently and redo a discovery to have the correction)
+
 # 10/11/2020
 
 - Bug fix
