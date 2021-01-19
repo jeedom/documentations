@@ -45,6 +45,7 @@
 |<img src="../../en_US/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Legrand contactor||||
 |<img src="../../en_US/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand micro module||||
 |<img src="../../en_US/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand mobile socket Céliane||||
+|<img src="../../en_US/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand roller shutter||||
 
 # Adeo
 
@@ -266,6 +267,7 @@
 |<img src="../../en_US/zigbee/images/_TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 Zigbee 3.0 Smart WIFI socket 16A EU plug||||
 |<img src="../../en_US/zigbee/images/_TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 connected life plug module||||
 |<img src="../../en_US/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 button switch||||
+|<img src="../../en_US/zigbee/images/_TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 light microModule||||
 
 # Xiaomi
 
@@ -273,6 +275,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|Xiaomi single switch without neutral||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|Xioami double switch without neutral||||
+|<img src="../../en_US/zigbee/images/LUMI.lumi.lock.v1.png" width="60" />|Xiaomi|Xiaomi smart lock||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.plug.png" width="60" />|Xiaomi|Xiaomi taken||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.plug.mmeu01.png" width="60" />|Xiaomi|Xiaomi taken||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|Xiaomi Aqara LLKZMK11LM Intelligent two-way module||||
@@ -304,4 +307,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-01-18 01:32:09
+2021-01-19 01:32:17

@@ -45,6 +45,7 @@
 |<img src="../../de_DE/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Legrand Schütz||||
 |<img src="../../de_DE/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand Mikromodul||||
 |<img src="../../de_DE/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand Mobilsteckdose Céliane||||
+|<img src="../../de_DE/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand Rollladen||||
 
 # Adeo
 
@@ -266,6 +267,7 @@
 |<img src="../../de_DE/zigbee/images/_TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 ZigBee 3.0 Smart WIFI-Buchse 16A EU-Stecker||||
 |<img src="../../de_DE/zigbee/images/_TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 angeschlossenes Life-Plug-Modul||||
 |<img src="../../de_DE/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 Tastenschalter||||
+|<img src="../../de_DE/zigbee/images/_TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 leichtes Mikromodul||||
 
 # Xiaomi
 
@@ -273,6 +275,7 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|Xiaomi Einzelschalter ohne Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|XIoami Doppelschalter ohne Neutralleiter||||
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.lock.v1.png" width="60" />|Xiaomi|Xiaomi Smart Lock||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.plug.png" width="60" />|Xiaomi|Xiaomi genommen||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.plug.mmeu01.png" width="60" />|Xiaomi|Xiaomi genommen||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|Xiaomi Aqara LLKZMK11LM Intelligentes Zweiwege-Modul||||
@@ -304,4 +307,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-01-18 01:32:09
+2021-01-19 01:32:17

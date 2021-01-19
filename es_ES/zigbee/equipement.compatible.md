@@ -45,6 +45,7 @@
 |<img src="../../es_ES/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Contactor Legrand||||
 |<img src="../../es_ES/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Micro módulo Legrand||||
 |<img src="../../es_ES/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Toma móvil Legrand Céliane||||
+|<img src="../../es_ES/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Persiana enrollable Legrand||||
 
 # Adeo
 
@@ -266,6 +267,7 @@
 |<img src="../../es_ES/zigbee/images/_TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 Zigbee 3.0 Enchufe inteligente WIFI 16A UE||||
 |<img src="../../es_ES/zigbee/images/_TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Módulo de enchufe de vida conectado Tuya ZigBee 3.0||||
 |<img src="../../es_ES/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interruptor de 4 botones||||
+|<img src="../../es_ES/zigbee/images/_TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MicroMódulo de luz Tuya ZigBee 3.0||||
 
 # Xiaomi
 
@@ -273,6 +275,7 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|Xinterruptor individual iaomi sin neutro||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|Xioami doble interruptor sin neutro||||
+|<img src="../../es_ES/zigbee/images/LUMI.lumi.lock.v1.png" width="60" />|Xiaomi|Xcerradura inteligente iaomi||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.plug.png" width="60" />|Xiaomi|Xiaomi tomado||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.plug.mmeu01.png" width="60" />|Xiaomi|Xiaomi tomado||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|Xiaomi Aqara LLKZMK11LM Módulo inteligente de dos vías||||
@@ -304,4 +307,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-01-18 01:32:09
+2021-01-19 01:32:17

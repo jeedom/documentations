@@ -45,6 +45,7 @@
 |<img src="../../fr_FR/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Legrand contactor||||
 |<img src="../../fr_FR/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand micro module||||
 |<img src="../../fr_FR/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand prise mobile Céliane||||
+|<img src="../../fr_FR/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand volet roulant||||
 
 # Adeo
 
@@ -266,6 +267,7 @@
 |<img src="../../fr_FR/zigbee/images/_TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 Zigbee 3.0 Prise WIFI intelligente 16A Prise EU||||
 |<img src="../../fr_FR/zigbee/images/_TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Module prise de vie connectée Tuya ZigBee 3.0||||
 |<img src="../../fr_FR/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interrupteur 4 boutons||||
+|<img src="../../fr_FR/zigbee/images/_TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MicroModule lumiere Tuya ZigBee 3.0||||
 
 # Xiaomi
 
@@ -273,6 +275,7 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|Xiaomi interrupteur simple sans neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|Xioami interrupteur double sans neutre||||
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.lock.v1.png" width="60" />|Xiaomi|Xiaomi serrure connectée||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.plug.png" width="60" />|Xiaomi|Xiaomi prise||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.plug.mmeu01.png" width="60" />|Xiaomi|Xiaomi prise||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|Xiaomi Aqara LLKZMK11LM Module bidirectionnel Intelligent||||
@@ -304,4 +307,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-01-18 01:32:09
+2021-01-19 01:32:17
