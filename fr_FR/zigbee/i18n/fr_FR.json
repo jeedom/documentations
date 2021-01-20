@@ -6,7 +6,6 @@
         "iaomi Aquara capteur d'ouverture": "iaomi Aquara capteur d'ouverture",
         "iaomi prise": "iaomi prise",
         "Capteur de température\/pression\/humidité": "Capteur de température\/pression\/humidité",
-        "ioami Aquara Vibration": "ioami Aquara Vibration",
         "iaomi Aquara switch": "iaomi Aquara switch",
         "iaomi Aquara switch Aq2": "iaomi Aquara switch Aq2",
         "iaomi Aquara fumée": "iaomi Aquara fumée",
@@ -179,6 +178,8 @@
         "Legrand volet roulant": "Legrand volet roulant",
         "Legrand prise mobile Céliane": "Legrand prise mobile Céliane",
         "Legrand micro module": "Legrand micro module",
+        "Legrand interrupteur double": "Legrand interrupteur double",
+        "Legrand variateur": "Legrand variateur",
         "Legrand contactor": "Legrand contactor",
         "Legrand cable outlet": "Legrand cable outlet",
         "Groupes": "Groupes",
@@ -208,6 +209,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-01-19 01": "2021-01-19 01"
+        "2021-01-20 01": "2021-01-20 01"
     }
 }
