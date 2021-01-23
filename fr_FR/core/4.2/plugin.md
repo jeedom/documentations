@@ -107,8 +107,11 @@ En cliquant sur l'icône d'un plugin, vous ouvrez sa page de configuration.
 
 - Le niveau de logs spécifique au plugin (on retrouve cette même possibilité dans Administation → Configuration sur l’onglet logs, en bas de page).
 - Voir les logs du plugin.
-- Heartbeat : Toute les 5 mins, Jeedom regarde si au moins un équipement du plugin a communiqué dans les X dernières minutes (si vous voulez désactiver la fonctionnalité, il suffit de mettre 0).
-- Redémarrer démon : Si le hertbeat tombe en erreur alors Jeedom va redémarrer le démon.
+- **Heartbeat** : Jeedom contrôle qu'au moins un des équipements du plugin a communiqué dans les X dernières minutes.
+   → Par défaut X est fixé à 5 mn (si le est champ vide)
+   → Forcer le champ à 0 mn pour désactiver le contrôle heartbeat 
+   Si le contrôle heartbeat détecte une erreur, un message est généré.
+- **Redémarrer démon** : Si cette option est cochée; Jeedom redémarre le démon lorsque hertbeat détecte une erreur.
 
 Si le plugin possède des dépendances et/ou un démon, ces zones supplémentaires s’affichent sous les zones citées ci-dessus.
 
