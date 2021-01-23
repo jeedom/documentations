@@ -106,7 +106,7 @@
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="../reports/errors.html">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <i class="icon-list-alt"></i>&#160;Errors <span class="label label-info pull-right">3239</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <i class="icon-list-alt"></i>&#160;Errors <span class="label label-info pull-right">3243</span>
                                 </a>
                             </li>
                             <li>
@@ -136,10 +136,10 @@
                                 <div class="accordion" style="margin-bottom: 0">
         <div class="accordion-group">
             <div class="accordion-heading">
-                                    <a class="accordion-toggle " data-toggle="collapse" data-target="#namespace-502946875"></a>
+                                    <a class="accordion-toggle " data-toggle="collapse" data-target="#namespace-731212298"></a>
                                 <a href="../namespaces/default.html" style="margin-left: 30px; padding-left: 0">\</a>
             </div>
-            <div id="namespace-502946875" class="accordion-body collapse in">
+            <div id="namespace-731212298" class="accordion-body collapse in">
                 <div class="accordion-inner">
 
                     
@@ -235,6 +235,7 @@
                                                                     <a href="../classes/system.html#method_getArch" class="">getArch()</a><br />
                                                                     <a href="../classes/system.html#method_getInstallPackage" class="">getInstallPackage()</a><br />
                                                                     <a href="../classes/system.html#method_checkAndInstall" class="">checkAndInstall()</a><br />
+                                                                    <a href="../classes/system.html#method_installPackageInProgress" class="">installPackageInProgress()</a><br />
                                                                     <a href="../classes/system.html#method_launchScriptPackage" class="">launchScriptPackage()</a><br />
                                                                     <a href="../classes/system.html#method_installPackage" class="">installPackage()</a><br />
                                                                     <a href="../classes/system.html#method_checkInstallationLog" class="">checkInstallationLog()</a><br />
@@ -777,7 +778,7 @@
             <article class="method">
                 <h3 class="public ">checkAndInstall()</h3>
                 <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">checkAndInstall(  <span class="argument">$_packages</span>,   <span class="argument">$_fix = false</span>,   <span class="argument">$_foreground = false</span>) </pre>
+                <pre class="signature" style="margin-right: 54px;">checkAndInstall(  <span class="argument">$_packages</span>,   <span class="argument">$_fix = false</span>,   <span class="argument">$_foreground = false</span>,   <span class="argument">$_plugin = &#039;&#039;</span>) </pre>
                 <p><em></em></p>
                 
 
@@ -796,6 +797,48 @@
                                                     <tr>
                                 <td></td>
                                 <td>$_foreground </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td></td>
+                                <td>$_plugin </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                            <span class="label label-info">static</span>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/system.html"><div class="path-wrapper">\system</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_installPackageInProgress" name="method_installPackageInProgress" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">installPackageInProgress()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">installPackageInProgress(  <span class="argument">$_plugin = &#039;&#039;</span>) </pre>
+                <p><em></em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td></td>
+                                <td>$_plugin </td>
                                 <td></td>
                             </tr>
                                             </table>
@@ -824,10 +867,18 @@
             <article class="method">
                 <h3 class="public ">launchScriptPackage()</h3>
                 <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
-                <pre class="signature" style="margin-right: 54px;">launchScriptPackage() </pre>
+                <pre class="signature" style="margin-right: 54px;">launchScriptPackage(  <span class="argument">$_plugin = &#039;&#039;</span>) </pre>
                 <p><em></em></p>
                 
 
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td></td>
+                                <td>$_plugin </td>
+                                <td></td>
+                            </tr>
+                                            </table>
                 
                 
                 
@@ -967,7 +1018,7 @@
                 <section class="span10 offset1">
                     <hr />
                     Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and authored
-                    on January 22nd, 2021 at 01:39.
+                    on January 23rd, 2021 at 01:39.
                 </section>
             </section>
         </section>
