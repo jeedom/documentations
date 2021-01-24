@@ -106,7 +106,7 @@
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="../reports/errors.html">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <i class="icon-list-alt"></i>&#160;Errors <span class="label label-info pull-right">3243</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <i class="icon-list-alt"></i>&#160;Errors <span class="label label-info pull-right">3245</span>
                                 </a>
                             </li>
                             <li>
@@ -136,10 +136,10 @@
                                 <div class="accordion" style="margin-bottom: 0">
         <div class="accordion-group">
             <div class="accordion-heading">
-                                    <a class="accordion-toggle " data-toggle="collapse" data-target="#namespace-628552730"></a>
+                                    <a class="accordion-toggle " data-toggle="collapse" data-target="#namespace-1704838526"></a>
                                 <a href="../namespaces/default.html" style="margin-left: 30px; padding-left: 0">\</a>
             </div>
-            <div id="namespace-628552730" class="accordion-body collapse in">
+            <div id="namespace-1704838526" class="accordion-body collapse in">
                 <div class="accordion-inner">
 
                     
@@ -249,6 +249,8 @@
                                                                     <a href="../classes/config.html#method_preConfig_info_latitude" class="">preConfig_info_latitude()</a><br />
                                                                     <a href="../classes/config.html#method_preConfig_info_longitude" class="">preConfig_info_longitude()</a><br />
                                                                     <a href="../classes/config.html#method_preConfig_tts_engine" class="">preConfig_tts_engine()</a><br />
+                                                                    <a href="../classes/config.html#method_getHistorizedCmdNum" class="">getHistorizedCmdNum()</a><br />
+                                                                    <a href="../classes/config.html#method_getTimelinedCmdNum" class="">getTimelinedCmdNum()</a><br />
                                                             </section>
                             <section class="span4">
                                                                     <em>No public properties found</em>
@@ -465,7 +467,7 @@
                 <h3 class="public ">save()</h3>
                 <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
                 <pre class="signature" style="margin-right: 54px;">save(string  <span class="argument">$_key</span>,   <span class="argument">$_value</span>, string  <span class="argument">$_plugin = &#039;core&#039;</span>) : boolean</pre>
-                <p><em>Ajoute une clef à la config</em></p>
+                <p><em>Save key to config</em></p>
                 
 
                                     <h4>Parameters</h4>
@@ -514,7 +516,7 @@
                 <h3 class="public ">remove()</h3>
                 <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
                 <pre class="signature" style="margin-right: 54px;">remove(string  <span class="argument">$_key</span>,   <span class="argument">$_plugin = &#039;core&#039;</span>) : boolean</pre>
-                <p><em>Supprime une clef de la config</em></p>
+                <p><em>Delete key from config</em></p>
                 
 
                                     <h4>Parameters</h4>
@@ -559,7 +561,7 @@
                 <h3 class="public ">byKey()</h3>
                 <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
                 <pre class="signature" style="margin-right: 54px;">byKey(string  <span class="argument">$_key</span>,   <span class="argument">$_plugin = &#039;core&#039;</span>,   <span class="argument">$_default = &#039;&#039;</span>,   <span class="argument">$_forceFresh = false</span>) : string</pre>
-                <p><em>Retourne la valeur d&#039;une clef</em></p>
+                <p><em>Get config by key</em></p>
                 
 
                                     <h4>Parameters</h4>
@@ -1393,6 +1395,64 @@
         </aside>
     </div>
 
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getHistorizedCmdNum" name="method_getHistorizedCmdNum" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getHistorizedCmdNum()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getHistorizedCmdNum() </pre>
+                <p><em></em></p>
+                
+
+                
+                
+                
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                            <span class="label label-info">static</span>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/config.html"><div class="path-wrapper">\config</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getTimelinedCmdNum" name="method_getTimelinedCmdNum" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getTimelinedCmdNum()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getTimelinedCmdNum() </pre>
+                <p><em></em></p>
+                
+
+                
+                
+                
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                            <span class="label label-info">static</span>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/config.html"><div class="path-wrapper">\config</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
                                                                     </div>
     </section>
 
@@ -1442,7 +1502,7 @@
                 <section class="span10 offset1">
                     <hr />
                     Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and authored
-                    on January 23rd, 2021 at 01:39.
+                    on January 24th, 2021 at 01:39.
                 </section>
             </section>
         </section>
