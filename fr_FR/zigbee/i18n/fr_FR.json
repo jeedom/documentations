@@ -37,6 +37,8 @@
         "BlitzWolf BW-SHP13 Zigbee 3": "BlitzWolf BW-SHP13 Zigbee 3",
         "Interrupteur double": "Interrupteur double",
         "Interrupteur simple": "Interrupteur simple",
+        "0 2300W 1 entrée": "0 2300W 1 entrée",
+        "BlitzWolf BW-SS7 ZigBee3": "BlitzWolf BW-SS7 ZigBee3",
         "Moes": "Moes",
         "Moes Radiator Actuator": "Moes Radiator Actuator",
         "Température\/humidité": "Température\/humidité",
@@ -47,6 +49,7 @@
         "Sunricher remote color": "Sunricher remote color",
         "Sunricher RGB": "Sunricher RGB",
         "Sunricher motor controller": "Sunricher motor controller",
+        "Sunricher CCT Lighting": "Sunricher CCT Lighting",
         "Sonoff": "Sonoff",
         "Sonoff bouton": "Sonoff bouton",
         "Sonoff Température\/humidité": "Sonoff Température\/humidité",
@@ -212,6 +215,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-01-25 01": "2021-01-25 01"
+        "2021-01-26 01": "2021-01-26 01"
     }
 }
