@@ -67,6 +67,12 @@
 |<img src="../../es_ES/zigbee/images/TUYATEC-deetibst.RH3040.png" width="60" />|Alfawise|Alfawise lleva||||
 |<img src="../../es_ES/zigbee/images/TUYATEC-ip9ganvw.RH3001.png" width="60" />|Alfawise|Alfawise lleva||||
 
+# Awox
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/awox.TLSR82xx.png" width="60" />|Awox|EGLO Crosslink-Z / Awox TLSR82||||
+
 # Danalock
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -274,6 +280,7 @@
 |<img src="../../es_ES/zigbee/images/_TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|BlitzWolf BW-SS7 ZigBee3.0 2300W 1 entrada||||
 |<img src="../../es_ES/zigbee/images/_TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Interruptor único||||
 |<img src="../../es_ES/zigbee/images/_TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Interruptor doble||||
+|<img src="../../es_ES/zigbee/images/_TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|Columpio ASLED||||
 |<img src="../../es_ES/zigbee/images/_TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 Zigbee 3.0 Enchufe inteligente WIFI 16A UE||||
 |<img src="../../es_ES/zigbee/images/_TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Módulo de enchufe de vida conectado Tuya ZigBee 3.0||||
 |<img src="../../es_ES/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interruptor de 4 botones||||
@@ -317,4 +324,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-01-26 01:32:07
+2021-01-27 01:32:11

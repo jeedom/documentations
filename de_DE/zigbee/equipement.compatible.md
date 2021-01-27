@@ -67,6 +67,12 @@
 |<img src="../../de_DE/zigbee/images/TUYATEC-deetibst.RH3040.png" width="60" />|Alfawise|Alfawise trägt||||
 |<img src="../../de_DE/zigbee/images/TUYATEC-ip9ganvw.RH3001.png" width="60" />|Alfawise|Alfawise trägt||||
 
+# Awox
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/awox.TLSR82xx.png" width="60" />|Awox|EGLO Crosslink-Z / Awox TLSR82||||
+
 # Danalock
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -274,6 +280,7 @@
 |<img src="../../de_DE/zigbee/images/_TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|BlitzWolf BW-SS7 ZigBee3.0 2300W 1 Eingang||||
 |<img src="../../de_DE/zigbee/images/_TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Einzelschalter||||
 |<img src="../../de_DE/zigbee/images/_TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Doppelschalter||||
+|<img src="../../de_DE/zigbee/images/_TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|ASLED Swing||||
 |<img src="../../de_DE/zigbee/images/_TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 ZigBee 3.0 Smart WIFI-Buchse 16A EU-Stecker||||
 |<img src="../../de_DE/zigbee/images/_TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 angeschlossenes Life-Plug-Modul||||
 |<img src="../../de_DE/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 Tastenschalter||||
@@ -317,4 +324,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-01-26 01:32:07
+2021-01-27 01:32:11

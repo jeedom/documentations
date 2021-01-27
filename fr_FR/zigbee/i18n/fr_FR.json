@@ -35,6 +35,7 @@
         "Module prise de vie connectée Tuya ZigBee 3.0": "Module prise de vie connectée Tuya ZigBee 3.0",
         "0 Prise WIFI intelligente 16A Prise EU": "0 Prise WIFI intelligente 16A Prise EU",
         "BlitzWolf BW-SHP13 Zigbee 3": "BlitzWolf BW-SHP13 Zigbee 3",
+        "ASLED Swing": "ASLED Swing",
         "Interrupteur double": "Interrupteur double",
         "Interrupteur simple": "Interrupteur simple",
         "0 2300W 1 entrée": "0 2300W 1 entrée",
@@ -171,6 +172,8 @@
         "Danalock": "Danalock",
         "Danalock V3": "Danalock V3",
         "Jeedom ne recommande pas ce module qui semble avoir un bug sur le firmware qui oblige a reinclure le module toute les X heures ou jours": "Jeedom ne recommande pas ce module qui semble avoir un bug sur le firmware qui oblige a reinclure le module toute les X heures ou jours",
+        "Awox": "Awox",
+        "EGLO Crosslink-Z \/ Awox TLSR82": "EGLO Crosslink-Z \/ Awox TLSR82",
         "Alfawise": "Alfawise",
         "Alfawise porte": "Alfawise porte",
         "Alfawise Température\/humidité": "Alfawise Température\/humidité",
@@ -215,6 +218,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-01-26 01": "2021-01-26 01"
+        "2021-01-27 01": "2021-01-27 01"
     }
 }
