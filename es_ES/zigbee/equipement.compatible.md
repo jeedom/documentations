@@ -128,6 +128,7 @@
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_1000lm.png" width="60" />|Ikea|Bombilla E27 WS opal 1000lm||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_980lm.png" width="60" />|Ikea|Bombilla E27 WS opal 980lm||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WW_806lm.png" width="60" />|Ikea|Bombilla TRADFRI E27 WW 806lm||||
+|<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_W_opal_1000lm.png" width="60" />|Ikea|Bombilla E27 W opal 1000lm||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WS_400lm.png" width="60" />|Ikea|Bombilla GU10 WS 400lm||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WW_400lm.png" width="60" />|Ikea|Bombilla GU10 WW 400lm||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_control_outlet.png" width="60" />|Ikea|Enchufe conectado Ikea TRADFRI|||[Documentación](https://www.ikea.com/fr/fr/manuals/tradfri-wireless-control-outlet__AA-2106602-1_pub.pdf)<br/>|
@@ -324,4 +325,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-01-27 01:32:11
+2021-01-28 01:32:04

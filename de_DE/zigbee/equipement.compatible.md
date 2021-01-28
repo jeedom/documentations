@@ -128,6 +128,7 @@
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_1000lm.png" width="60" />|Ikea|Birne E27 WS Opal 1000lm||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_980lm.png" width="60" />|Ikea|Birne E27 WS Opal 980lm||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WW_806lm.png" width="60" />|Ikea|TRADFRI Glühbirne E27 WW 806lm||||
+|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_W_opal_1000lm.png" width="60" />|Ikea|Birne E27 W opal 1000lm||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WS_400lm.png" width="60" />|Ikea|Birne GU10 WS 400lm||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WW_400lm.png" width="60" />|Ikea|Birne GU10 WW 400lm||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_control_outlet.png" width="60" />|Ikea|Ikea TRADFRI angeschlossene Buchse|||[Dokumentation](https://www.ikea.com/fr/fr/manuals/tradfri-wireless-control-outlet__AA-2106602-1_pub.pdf)<br/>|
@@ -324,4 +325,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-01-27 01:32:11
+2021-01-28 01:32:04
