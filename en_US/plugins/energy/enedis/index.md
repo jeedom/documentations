@@ -1,46 +1,94 @@
 # Enedis Linky plugin
 
-Plugin allowing the recovery of consumption of the communicating meter *linky* by querying the customer account *Enedis*. As the data is not made available in real time, the plugin retrieves the electricity consumption data from the day before each day.
+# Description
 
-4 types of consumption data are accessible :
-- the **drawn power** per half hour *(in kW)*.
-> The consumption curve *(or drawn power)* restores the power demanded by all your electrical devices on average over half an hour.
+Plugin allowing the recovery of electricity consumption data from smart meters *(linky for example)* by questioning the [customer account **Enedis**](https://mon-compte.enedis.fr/auth/XUI/#login/&realm=/enedis&forward=true){:target = "\_ blank"}.
+
+>**Important**
+>
+>The plugin was completely rewritten in February 2021 to use **the official Enedis Data-Connect API**. If you used the plugin before, we invite you to create a new equipment or to delete all the controls of a previous equipment.
+
+It is possible to access data from **consumption**, of **production** or to the 2 types of measurement directly in a device.
+
+5 data are reported for each type of measurement :
+- the **hourly consumption** per half hour *(in kW)*.
+>*Otherwise called "consumption curve" or "drawn power", this data returns the power demanded by all your electrical devices on average over half an hour.*
 
 - the **daily consumption** *(in kWh)*.
 - the **monthly consumption** *(in kWh)*.
 - the **annual consumption** *(in kWh)*.
+- the **max power** *(in kVA)*.
 
->**Important**      
->You must have an Enedis customer account. The plugin retrieves information from the game *professionals* [of the Enedis site](https://espace-client-connexion.enedis.fr/auth/XUI/#login/&realm=particuliers&goto=https://espace-client-particuliers.enedis.fr%2Fgroup%2Fespace-particuliers%2Faccueil){:target = "\_ blank"}, you must therefore check that you have access to it with your usual identifiers and that the data is visible there. Otherwise, the plugin will not work.
+>**INFORMATION**  
+>    
+>As the data is not made available in real time, the plugin retrieves the electricity consumption data from the day before each day.
 
 # Configuration
 
 ## Plugin configuration
 
-The plugin **Enedis Linky** does not require any specific configuration and should only be activated after installation.
+The plugin **Enedis Linky** does not require specific configuration and should only be activated after installation.
 
-The data is checked every hour between 4 a.m. and 10 p.m. and updated only if not available in Jeedom.
+As long as the plugin has not retrieved all of the data from the day before, it continues to poll the servers every hour between 5 a.m. and 8 p.m., otherwise calls are suspended until the next day.
+
+In order not to overload the Enedis servers, calls are made at a random minute which can be viewed or modified on the plugin configuration page.
 
 ## Equipment configuration
 
 To access the different equipment **Enedis Linky**, go to the menu **Plugins → Energy → Enedis Linky**.
 
-> **To know**    
-> The button **+ Add** allows you to add a new account **Enedis Linky**.
+>**INFORMATION**
+>    
+>The button **+ Add** allows you to add a new meter / PDL.
 
-On the equipment page, fill in the'**Login** as well as the **Password** of your customer account *Enedis* then click on the button **Save**.
+If you haven't already done so, start by authorizing the sharing of Enedis data with Jeedom by clicking on the button **Link Enedis with Jeedom : I access my Enedis customer area** :      
 
-The plugin will then check the correct connection to the site *Enedis* and retrieve and insert in history :
-- **drawn power** : the 48 values of the day before *(1 value per half hour)*,
-- **daily consumption** : the last 30 days,
-- **monthly consumption** : the last 12 months,
-- **annual consumption** : the last 3 years.
+![Lien espace-client Enedis](./images/link_enedis.png)
+
+You are then redirected to this page on which you must inform **your login details for the Jeedom market** then click on the button **Validate** :      
+
+![Authentification compte Market Jeedom](./images/Auth_Jeedom.png)
+
+Redirection to the Enedis consent page on which it is necessary **check the box** and click on **Validate** :     
+
+![Autorisation Enedis](./images/Auth_Enedis.png)
+
+Once the data sharing is validated, this page is displayed :     
+
+![Succès](./images/Auth_Enedis_success.png)
+
+>**Important**
+>    
+>If you are unable to access any of these pages, disable the browser ad blocker.
+
+Once data sharing has been authorized, all that remains is to enter the identification number of the Delivery Point concerned *(PDL)* and the type of measurement to recover.
+
+When saving the equipment for the first time, the plugin will automatically create the necessary commands and integrate the histories available on the Enedis website up to 3 years back.
+
+>**TRICK**
+>
+>If for one reason or another the plugin was unable to retrieve the histories when creating the orders, it will suffice to delete the orders and then save the equipment to generate the orders and their history again.
+
+>**INFORMATION**
+>
+>Hourly consumption data is retrieved over the last 7 days at most.
 
 # Widget template
 
-The plugin offers the possibility of displaying consumption data in a widget template imitating the appearance of a meter *Linky*. You have the possibility to select or not this template by checking or unchecking the box **Widget template** on the general page of the equipment concerned.
+The plugin offers the possibility of displaying consumption and / or production data in a widget template imitating the appearance of a meter *Linky*. The click on the button "**- | +**" allows to switch from consumption to production for those who have access to 2 types of measures.
 
-The template will be displayed on both desktop and mobile versions.
+![Widget template](./images/enedis_screenshot1.png)
 
->**TRICK**     
+To activate this option, just check the box **Widget template** on the general page of the equipment concerned. Once the box is checked, an option allows you to select the background color of the widget.
+
+>**INFORMATION**
+>     
+>The widget template will be displayed on both desktop and mobile versions.
+
+>**TRICK**
+>     
 >In desktop version, the information displayed on the widget adapts in size when resizing the tile.
+
+# Changelog
+
+[See the changelog](https:\ / \ / doc.jeedom.com \ /#language#\ / plugins \ / energy \ / enedis \ / changelog)

@@ -1,17 +1,27 @@
 # Enedis Linky Plugin
 
-Plugin zur Wiederherstellung des Verbrauchs des kommunizierenden Messgeräts *Linky* durch Abfragen des Kundenkontos *Enedis*. Da die Daten nicht in Echtzeit verfügbar sind, ruft das Plugin die Stromverbrauchsdaten vom Vortag ab.
+# Description
 
-Es stehen 4 Arten von Verbrauchsdaten zur Verfügung :
-- die **gezogene Kraft** pro halbe Stunde *(in kW)*.
-> Die Verbrauchskurve *(oder gezogene Kraft)* stellt die von all Ihren elektrischen Geräten benötigte Leistung im Durchschnitt über eine halbe Stunde wieder her.
+Plugin zur Wiederherstellung von Stromverbrauchsdaten von intelligenten Zählern *(Linky zum Beispiel)* durch die Befragung der [Kundenkonto **Enedis**](https://mon-compte.enedis.fr/auth/XUI/#login/&realm=/enedis&forward=true){:target = "\_ leer"}.
+
+>**Wichtig**
+>
+>Das Plugin wurde im Februar 2021 komplett neu geschrieben **die offizielle Enedis Data-Connect API**. Wenn Sie das Plugin zuvor verwendet haben, laden wir Sie ein, ein neues Gerät zu erstellen oder alle Steuerelemente eines früheren Geräts zu löschen.
+
+Es ist möglich, auf Daten von zuzugreifen **Verbrauch**, von **Produktion** oder zu den 2 Messarten direkt in einem Gerät.
+
+Für jede Messart werden 5 Daten angegeben :
+- die **stündlicher Verbrauch** pro halbe Stunde *(in kW)*.
+>*Diese Daten werden auch als "Verbrauchskurve" oder "Stromaufnahme" bezeichnet und geben die von all Ihren elektrischen Geräten im Durchschnitt über eine halbe Stunde benötigte Leistung zurück.*
 
 - die **Täglicher Verbrauch** *(in kWh)*.
 - die **monatlicher Verbrauch** *(in kWh)*.
 - die **Jahresverbrauch** *(in kWh)*.
+- die **maximale Kraft** *(in kVA)*.
 
->**Wichtig**      
->Sie müssen über ein Enedis-Kundenkonto verfügen. Das Plugin ruft Informationen aus dem Spiel ab *Profis* [der Enedis-Site](https://espace-client-connexion.enedis.fr/auth/XUI/#login/&realm=particuliers&goto=https://espace-client-particuliers.enedis.fr%2Fgroup%2Fespace-particuliers%2Faccueil){:target = "\_ blank"}, müssen Sie daher überprüfen, ob Sie mit Ihren üblichen Kennungen darauf zugreifen können und ob die Daten dort sichtbar sind. Andernfalls funktioniert das Plugin nicht.
+>**INFORMATION**  
+>    
+>Da die Daten nicht in Echtzeit verfügbar sind, ruft das Plugin die Stromverbrauchsdaten vom Vortag ab.
 
 # Configuration
 
@@ -19,28 +29,66 @@ Es stehen 4 Arten von Verbrauchsdaten zur Verfügung :
 
 Das Plugin **Enedis Linky** erfordert keine spezielle Konfiguration und sollte erst nach der Installation aktiviert werden.
 
-Die Daten werden stündlich zwischen 16 und 22 Uhr überprüft und nur aktualisiert, wenn sie in Jeedom nicht verfügbar sind.
+Solange das Plugin nicht alle Daten vom Vortag abgerufen hat, werden die Server weiterhin stündlich zwischen 17.00 und 20.00 Uhr abgefragt. Andernfalls werden Anrufe bis zum nächsten Tag ausgesetzt.
+
+Um die Enedis-Server nicht zu überlasten, werden Anrufe in zufälliger Minute getätigt, die auf der Konfigurationsseite des Plugins angezeigt oder geändert werden können.
 
 ## Gerätekonfiguration
 
 Zugriff auf die verschiedenen Geräte **Enedis Linky**, Gehe zum Menü **Plugins → Energie → Enedis Linky**.
 
-> **Wissen**    
-> Die Schaltfläche **+ Hinzufügen** ermöglicht es Ihnen, ein neues Konto hinzuzufügen **Enedis Linky**.
+>**INFORMATION**
+>    
+>Die Schaltfläche **+ Hinzufügen** Ermöglicht das Hinzufügen eines neuen Messgeräts / einer neuen PDL.
 
-Füllen Sie auf der Ausrüstungsseite das Feld aus'**Login** ebenso wie **Passwort** Ihres Kundenkontos *Enedis* Klicken Sie dann auf die Schaltfläche **Speichern**.
+Wenn Sie dies noch nicht getan haben, autorisieren Sie zunächst die Freigabe von Enedis-Daten mit Jeedom, indem Sie auf die Schaltfläche klicken **Verbinde Enedis mit Jeedom : Ich greife auf meinen Enedis-Kundenbereich zu** :      
 
-Das Plugin überprüft dann die korrekte Verbindung zur Site *Enedis* und abrufen und in den Verlauf einfügen :
-- **gezogene Kraft** : die 48 Werte des Vortages *(1 Wert pro halbe Stunde)*,
-- **Täglicher Verbrauch** : die letzten 30 Tage,
-- **monatlicher Verbrauch** : die letzten 12 Monate,
-- **Jahresverbrauch** : die letzten 3 Jahre.
+![Lien espace-client Enedis](./images/link_enedis.png)
+
+Sie werden dann zu dieser Seite weitergeleitet, auf der Sie informieren müssen **Ihre Anmeldedaten für den Jeedom-Markt** Klicken Sie dann auf die Schaltfläche **Bestätigen** :      
+
+![Authentification compte Market Jeedom](./images/Auth_Jeedom.png)
+
+Weiterleitung zur Enedis-Einwilligungsseite, auf der dies erforderlich ist **Aktivieren Sie das Kontrollkästchen** und klicken Sie auf **Bestätigen** :     
+
+![Autorisation Enedis](./images/Auth_Enedis.png)
+
+Sobald die Datenfreigabe überprüft wurde, wird diese Seite angezeigt :     
+
+![Succès](./images/Auth_Enedis_success.png)
+
+>**Wichtig**
+>    
+>Wenn Sie auf keine dieser Seiten zugreifen können, deaktivieren Sie den Browser-Werbeblocker.
+
+Nachdem die Datenfreigabe autorisiert wurde, müssen Sie lediglich die Identifikationsnummer des betreffenden Lieferpunkts eingeben *(PDL)* und die Art der zu erholenden Messung.
+
+Beim ersten Speichern der Geräte erstellt das Plugin automatisch die erforderlichen Befehle und integriert die auf der Enedis-Website verfügbaren Historien bis zu 3 Jahren.
+
+>**TIPP**
+>
+>Wenn das Plugin aus dem einen oder anderen Grund die Historien beim Erstellen der Bestellungen nicht abrufen konnte, reicht es aus, die Bestellungen zu löschen und dann die Ausrüstung zu speichern, um die Bestellungen und ihre Historie erneut zu generieren.
+
+>**INFORMATION**
+>
+>Die stündlichen Verbrauchsdaten werden höchstens in den letzten 7 Tagen abgerufen.
 
 # Widget-Vorlage
 
-Das Plugin bietet die Möglichkeit, Verbrauchsdaten in einer Widget-Vorlage anzuzeigen, die das Erscheinungsbild eines Zählers imitiert *Linky*. Sie haben die Möglichkeit, diese Vorlage auszuwählen oder nicht, indem Sie das Kontrollkästchen aktivieren oder deaktivieren **Widget-Vorlage** auf der allgemeinen Seite der betreffenden Ausrüstung.
+Das Plugin bietet die Möglichkeit, Verbrauchs- und / oder Produktionsdaten in einer Widget-Vorlage anzuzeigen, die das Erscheinungsbild eines Zählers imitiert *Linky*. Der Klick auf die Schaltfläche "**- | +**" ermöglicht den Wechsel vom Verbrauch zur Produktion für diejenigen, die Zugang zu zwei Arten von Maßnahmen haben.
 
-Die Vorlage wird sowohl auf Desktop- als auch auf Mobilversionen angezeigt.
+![Widget-Vorlage](./images/enedis_screenshot1.png)
 
->**TIPP**     
+Um diese Option zu aktivieren, aktivieren Sie einfach das Kontrollkästchen **Widget-Vorlage** auf der allgemeinen Seite der betreffenden Ausrüstung. Sobald das Kontrollkästchen aktiviert ist, können Sie mit einer Option die Hintergrundfarbe des Widgets auswählen.
+
+>**INFORMATION**
+>     
+>Die Widget-Vorlage wird sowohl auf Desktop- als auch auf Mobilversionen angezeigt.
+
+>**TIPP**
+>     
 >In der Desktop-Version passen sich die im Widget angezeigten Informationen an die Größe an, wenn die Größe der Kachel geändert wird.
+
+# Changelog
+
+[Siehe das Änderungsprotokoll](https:\ / \ / doc.jeedom.com \ /#language#\ / plugins \ / energy \ / enedis \ / changelog)

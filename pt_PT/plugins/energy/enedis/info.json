@@ -2,13 +2,18 @@
     "id": "enedis",
     "name": "Enedis Linky",
     "description": {
-        "fr_FR": "Récupérer les informations du compteur communicant Linky à partir de son compte-client Enedis. Attention il est indispensable d'avoir accès à la partie \"professionnels\" du site Enedis avec vos identifiants habituels (voir la documentation)",
-        "en_US": "Retrieve the information of the Linky smart meter from their Enedis customer account. Please note, it is essential to have access to the \"professional\" part of the Enedis site with your usual identifiers (see the documentation)",
-        "es_ES": "Recupere la información del medidor inteligente Linky de su cuenta de cliente de Enedis. Tenga en cuenta que es fundamental tener acceso a la parte \"profesional\" del sitio de Enedis con sus identificadores habituales (consulte la documentación)",
-        "de_DE": "Rufen Sie die Informationen des Linky Smart Meters von ihrem Enedis-Kundenkonto ab. Bitte beachten Sie, dass Sie unbedingt auf den \"professionellen\" Teil der Enedis-Website mit Ihren üblichen Kennungen zugreifen müssen (siehe Dokumentation)",
-        "pt_PT": "Recupere as informações do medidor inteligente Linky de sua conta de cliente Enedis. Por favor, note que é essencial ter acesso à parte \"profissional\" do site Enedis com seus identificadores usuais (veja a documentação)"
+        "fr_FR": "Récupérez les informations de vos compteurs électriques à partir de votre compte-client Enedis. Tout ce qu'il faut faire est d'autoriser le partage des données avec Jeedom et d'indiquer le numéro d'identification du Point de Livraison (PDL) concerné. <br\/><br\/>Le plugin remonte les mesures horaire, journalière, mensuelle, annuelle ainsi que la puissance max aussi bien en consommation qu'en production. <br\/>NB: Les données les plus récentes reçues par Enedis sont relatives à la veille du jour en cours",
+        "en_US": "Retrieve the information of your electricity meters from your Enedis customer account. All you need to do is authorize the sharing of data with Jeedom and indicate the identification number of the Delivery Point (PDL) concerned.<br\/><br\/> The plugin returns hourly, daily, monthly, annual measurements as well as the maximum power both in consumption and in production.<br\/> NB: The most recent data received by Enedis relate to the day before the current day",
+        "es_ES": "Recupera la información de tus contadores eléctricos de tu cuenta de cliente de Enedis. Todo lo que necesita hacer es autorizar el intercambio de datos con Jeedom e indicar el número de identificación del Punto de Entrega (PDL) en cuestión.<br\/><br\/> El plugin devuelve medidas horarias, diarias, mensuales, anuales así como la potencia máxima tanto en consumo como en producción.<br\/> NB: Los datos más recientes recibidos por Enedis se refieren al día anterior al día actual",
+        "de_DE": "Rufen Sie die Informationen Ihrer Stromzähler von Ihrem Enedis-Kundenkonto ab. Sie müssen lediglich die Weitergabe von Daten an Jeedom genehmigen und die Identifikationsnummer des betreffenden Lieferpunkts (PDL) angeben.<br\/><br\/> Das Plugin gibt stündliche, tägliche, monatliche und jährliche Messungen sowie die maximale Leistung sowohl im Verbrauch als auch in der Produktion zurück.<br\/> NB: Die neuesten Daten, die Enedis erhalten hat, beziehen sich auf den Tag vor dem aktuellen Tag",
+        "pt_PT": "Recupere as informações de seus medidores de eletricidade de sua conta de cliente Enedis. Tudo o que você precisa fazer é autorizar o compartilhamento de dados com a Jeedom e indicar o número de identificação do Ponto de Entrega (PDL) em questão.<br\/><br\/> O plugin retorna medições horárias, diárias, mensais e anuais, bem como a potência máxima tanto no consumo quanto na produção.<br\/> NB: Os dados mais recentes recebidos pela Enedis referem-se ao dia anterior ao dia atual",
+        "ru_RU": "Récupérez les informations de vos compteurs électriques à partir de votre compte-client Enedis. Tout ce qu'il faut faire est d'autoriser le partage des données avec Jeedom et d'indiquer le numéro d'identification du Point de Livraison (PDL) concerné. <br\/><br\/>Le plugin remonte les mesures horaire, journalière, mensuelle, annuelle ainsi que la puissance max aussi bien en consommation qu'en production. <br\/>NB: Les données les plus récentes reçues par Enedis sont relatives à la veille du jour en cours",
+        "id_ID": "Récupérez les informations de vos compteurs électriques à partir de votre compte-client Enedis. Tout ce qu'il faut faire est d'autoriser le partage des données avec Jeedom et d'indiquer le numéro d'identification du Point de Livraison (PDL) concerné. <br\/><br\/>Le plugin remonte les mesures horaire, journalière, mensuelle, annuelle ainsi que la puissance max aussi bien en consommation qu'en production. <br\/>NB: Les données les plus récentes reçues par Enedis sont relatives à la veille du jour en cours",
+        "it_IT": "Récupérez les informations de vos compteurs électriques à partir de votre compte-client Enedis. Tout ce qu'il faut faire est d'autoriser le partage des données avec Jeedom et d'indiquer le numéro d'identification du Point de Livraison (PDL) concerné. <br\/><br\/>Le plugin remonte les mesures horaire, journalière, mensuelle, annuelle ainsi que la puissance max aussi bien en consommation qu'en production. <br\/>NB: Les données les plus récentes reçues par Enedis sont relatives à la veille du jour en cours",
+        "ja_JP": "Récupérez les informations de vos compteurs électriques à partir de votre compte-client Enedis. Tout ce qu'il faut faire est d'autoriser le partage des données avec Jeedom et d'indiquer le numéro d'identification du Point de Livraison (PDL) concerné. <br\/><br\/>Le plugin remonte les mesures horaire, journalière, mensuelle, annuelle ainsi que la puissance max aussi bien en consommation qu'en production. <br\/>NB: Les données les plus récentes reçues par Enedis sont relatives à la veille du jour en cours",
+        "tr": "Récupérez les informations de vos compteurs électriques à partir de votre compte-client Enedis. Tout ce qu'il faut faire est d'autoriser le partage des données avec Jeedom et d'indiquer le numéro d'identification du Point de Livraison (PDL) concerné. <br\/><br\/>Le plugin remonte les mesures horaire, journalière, mensuelle, annuelle ainsi que la puissance max aussi bien en consommation qu'en production. <br\/>NB: Les données les plus récentes reçues par Enedis sont relatives à la veille du jour en cours"
     },
-    "utilization": "Sur la page de l'équipement renseignez l'identifiant ainsi que le mot de passe de votre compte-client Enedis puis cliquez sur le bouton Sauvegarder.",
+    "utilization": "Sur la page de l'équipement, cliquer sur le bouton pour lier Enedis avec Jeedom puis indiquer le numéro de PDL et le type de mesure à récolter (consommation, production ou les deux).",
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "3.3.39",
@@ -23,7 +28,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",

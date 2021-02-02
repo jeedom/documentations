@@ -6,13 +6,21 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
 
+# 02/01/2021
+
+- Complete rewrite of the plugin which now uses the Enedis Data-Connect API
+- Adding the command **Max power / day**
+- Possibility of recovering consumption, production or both measurements at the same time
+- Automatic generation of histories for the last 3 years when creating orders
+- Rewriting of dashboard & mobile widget templates
+- Added the possibility to choose the background color of the widget template *(or transparent)*
+- Documentation rewrite
+
+
 # 09/10/2020
 - Fixed a display bug in mobile view without the widget template.
 
 # 06/09/2020
-- Transition from Beta to Stable.
-
-# 04/09/2020 (BETA)
 - Addition of the template for dashboard version.
 - Addition of the template for mobile version.
 - Optimization of the number of calls to Enedis servers.
