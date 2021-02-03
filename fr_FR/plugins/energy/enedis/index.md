@@ -12,7 +12,7 @@ Il est possible d'accéder aux données de **consommation**, de **production** o
 
 5 données sont remontées pour chaque type de mesure :
 - la **consommation horaire** par demi-heure *(en kW)*.
->*Autrement appelée "courbe de consommation" ou "puissance soutirée", cette donnée restitue la puissance appelée par tous vos appareils électriques en moyenne sur une demi-heure.*
+>*Autrement appelée "courbe de charge", cette donnée restitue la puissance appelée/injectée en moyenne sur une demi-heure.*
 
 - la **consommation journalière** *(en kWh)*.
 - la **consommation mensuelle** *(en kWh)*.
@@ -61,7 +61,7 @@ Une fois le partage des données validé, cette page s'affiche :
 >    
 >Si vous ne parvenez pas à accéder à l’une de ces pages, désactiver le bloqueur de publicité du navigateur.
 
-Une fois le partage des données autorisé, il ne reste plus qu'à renseigner le numéro d'identification du Point de Livraison concerné *(PDL)* et le type de mesure à récupérer.
+Une fois le partage des données autorisé, il ne reste plus qu'à renseigner **le numéro d'identification du Point de Livraison** concerné *(PDL)* et le **type de mesure** à récupérer.
 
 Lors de la 1ère sauvegarde de l'équipement, le plugin va automatiquement créer les commandes nécessaires et intégrer les historiques disponibles sur le site internet Enedis jusqu'à 3 années en arrière.
 
@@ -75,11 +75,11 @@ Lors de la 1ère sauvegarde de l'équipement, le plugin va automatiquement crée
 
 # Template de widget
 
-Le plugin offre la possibilité d'afficher les données de consommation et/ou de production dans un template de widget imitant l'aspect d'un compteur *Linky*. Le clic sur le bouton "**- | +**" permet de basculer de la consommation à la production pour ceux qui ont accès aux 2 types de mesures.
+Le plugin offre la possibilité d'afficher les données de consommation et/ou de production dans un template de widget imitant l'aspect d'un compteur *Linky*. Le clic sur le bouton "**- \| +**" permet de basculer de la consommation à la production pour ceux qui ont accès aux 2 types de mesures.
 
 ![Template de widget](./images/enedis_screenshot1.png)
 
-Pour activer cette option, il suffit de cocher la case **Template de widget** sur la page générale de l'équipement concerné. Une fois la case cochée, une option permet de sélectionner la couleur de fond du widget.
+Pour activer cette option, il suffit de cocher la case **Template de widget** sur la page générale de l'équipement concerné. Une fois la case cochée, une option permet de sélectionner la couleur de fond du widget *(163, 204, 40 par défaut)*.
 
 >**INFORMATION**
 >     
@@ -88,7 +88,3 @@ Pour activer cette option, il suffit de cocher la case **Template de widget** su
 >**ASTUCE**
 >     
 >En version desktop, les informations affichées sur le widget s'adaptent en taille lors du redimensionnement de la tuile.
-
-# Changelog
-
-[Voir le changelog](https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/enedis\/changelog)

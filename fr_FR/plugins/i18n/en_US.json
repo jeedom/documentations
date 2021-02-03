@@ -594,7 +594,7 @@
         "Plugin pour gérer sa consommation énergétique": "Plugin to manage your energy consumption",
         "Les données les plus récentes reçues par Enedis sont relatives à la veille du jour en cours": "The most recent data received by Enedis relate to the day before the current day",
         "Enedis Linky": "Enedis Linky",
-        "Récupérez les informations de vos compteurs électriques à partir de votre compte-client Enedis": "Retrieve the information of your electricity meters from your Enedis customer account",
+        "Récupérez les informations de consommation de vos compteurs électriques communicants à partir de votre compte-client Enedis": "Retrieve the consumption information of your smart electricity meters from your Enedis customer account",
         "Délestage": "Load shedding",
         "Plugin pour gérer le délestage": "Plugin to manage load shedding",
         "Seuls les plugins officiels ont leur documentation ici": "Only official plugins have their documentation here",
