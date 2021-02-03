@@ -30,6 +30,7 @@
         "Remarque": "Remarque",
         "Lien": "Lien",
         "Tuya": "Tuya",
+        "Interrupteur de scène 3 boutons": "Interrupteur de scène 3 boutons",
         "MicroModule lumiere Tuya ZigBee 3.0": "MicroModule lumiere Tuya ZigBee 3.0",
         "Interrupteur 4 boutons": "Interrupteur 4 boutons",
         "Module prise de vie connectée Tuya ZigBee 3.0": "Module prise de vie connectée Tuya ZigBee 3.0",
@@ -230,6 +231,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-02-02 01": "2021-02-02 01"
+        "2021-02-03 01": "2021-02-03 01"
     }
 }

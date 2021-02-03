@@ -306,6 +306,7 @@
 |<img src="../../en_US/zigbee/images/_TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 connected life plug module||||
 |<img src="../../en_US/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 button switch||||
 |<img src="../../en_US/zigbee/images/_TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 light microModule||||
+|<img src="../../en_US/zigbee/images/_TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|3-button scene switch||||
 
 # Xiaomi
 
@@ -345,4 +346,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-02-02 01:32:05
+2021-02-03 01:32:12

@@ -306,6 +306,7 @@
 |<img src="../../de_DE/zigbee/images/_TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 angeschlossenes Life-Plug-Modul||||
 |<img src="../../de_DE/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 Tastenschalter||||
 |<img src="../../de_DE/zigbee/images/_TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 leichtes Mikromodul||||
+|<img src="../../de_DE/zigbee/images/_TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|3-Tasten-Szenenschalter||||
 
 # Xiaomi
 
@@ -345,4 +346,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-02-02 01:32:05
+2021-02-03 01:32:12

@@ -306,6 +306,7 @@
 |<img src="../../fr_FR/zigbee/images/_TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Module prise de vie connectée Tuya ZigBee 3.0||||
 |<img src="../../fr_FR/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interrupteur 4 boutons||||
 |<img src="../../fr_FR/zigbee/images/_TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MicroModule lumiere Tuya ZigBee 3.0||||
+|<img src="../../fr_FR/zigbee/images/_TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Interrupteur de scène 3 boutons||||
 
 # Xiaomi
 
@@ -345,4 +346,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-02-02 01:32:05
+2021-02-03 01:32:12
