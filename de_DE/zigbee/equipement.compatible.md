@@ -151,6 +151,12 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/Innr.RB285C.png" width="60" />|Innr|INNR E27 Multicolor RGBW + Weiß||||
 
+# Konke
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/konke.3AFE14010402000D.png" width="60" />|Konke|Konke Bewegungssensor||||
+
 # Lellki
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -346,4 +352,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-02-03 01:32:12
+2021-02-04 01:32:05
