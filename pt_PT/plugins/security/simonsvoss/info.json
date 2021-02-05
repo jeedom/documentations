@@ -6,7 +6,12 @@
         "en_US": "Plugin for Simons Voss Smart Intego locks",
         "es_ES": "Plugin para las cerraduras Smart Intego de Simons Voss",
         "de_DE": "Plugin für Simons Voss Smart Intego-Sperren",
-        "pt_PT": "Plugin para travas Simons Voss Smart Intego"
+        "pt_PT": "Plugin para travas Simons Voss Smart Intego",
+        "ru_RU": "Plugin pour les serrure Simons Voss Smart Intego",
+        "id_ID": "Plugin pour les serrure Simons Voss Smart Intego",
+        "it_IT": "Plugin pour les serrure Simons Voss Smart Intego",
+        "ja_JP": "Plugin pour les serrure Simons Voss Smart Intego",
+        "tr": "Plugin pour les serrure Simons Voss Smart Intego"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -22,7 +27,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
