@@ -6,7 +6,12 @@
         "en_US": "Plugin allowing the display of IP cameras. The video display of the camera is carried out by successive snapshots (captures) every second. The plugin is compatible with RTSP cameras",
         "es_ES": "Complemento que permite la visualización de cámaras IP. La visualización de vídeo de la cámara se realiza mediante sucesivas instantáneas (capturas) cada segundo. El complemento es compatible con cámaras RTSP",
         "de_DE": "Plugin zur Anzeige von IP-Kameras. Die Videoanzeige der Kamera erfolgt jede Sekunde durch aufeinanderfolgende Schnappschüsse (Aufnahmen). Das Plugin ist mit RTSP-Kameras kompatibel",
-        "pt_PT": "Plugin que permite a exibição de câmeras IP. A exibição do vídeo da câmera é realizada por sucessivos instantâneos (capturas) a cada segundo. O plugin é compatível com câmeras RTSP"
+        "pt_PT": "Plugin que permite a exibição de câmeras IP. A exibição do vídeo da câmera é realizada por sucessivos instantâneos (capturas) a cada segundo. O plugin é compatível com câmeras RTSP",
+        "ru_RU": "Plugin permettant l'affichage des caméras IP. L'affichage vidéo de la caméra s'effectue par snapshots (captures) successives toutes les secondes. Le plugin est compatible avec les cameras RTSP",
+        "id_ID": "Plugin permettant l'affichage des caméras IP. L'affichage vidéo de la caméra s'effectue par snapshots (captures) successives toutes les secondes. Le plugin est compatible avec les cameras RTSP",
+        "it_IT": "Plugin permettant l'affichage des caméras IP. L'affichage vidéo de la caméra s'effectue par snapshots (captures) successives toutes les secondes. Le plugin est compatible avec les cameras RTSP",
+        "ja_JP": "Plugin permettant l'affichage des caméras IP. L'affichage vidéo de la caméra s'effectue par snapshots (captures) successives toutes les secondes. Le plugin est compatible avec les cameras RTSP",
+        "tr": "Plugin permettant l'affichage des caméras IP. L'affichage vidéo de la caméra s'effectue par snapshots (captures) successives toutes les secondes. Le plugin est compatible avec les cameras RTSP"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -23,7 +28,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",

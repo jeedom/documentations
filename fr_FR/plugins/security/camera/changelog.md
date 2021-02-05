@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 04/02/2021
+
+- Correction d'un soucis qui n'arretait pas la recuperation des images meme si il n'y avait plus de caméra d'affiché
+
 # 29/11/2020
 
 - Correction d'un soucis d'affichage d'image sur les designs

@@ -4,6 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 29/11/2020
+
+- Corrigido um problema de exibição de imagem em designs
+
+
 # 24/11/2020
 
 - Nova apresentação da lista de objetos

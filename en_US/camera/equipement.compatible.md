@@ -157,6 +157,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/camera/images/reolink.camera-proxy.jpg" width="60" />|Reolink|Camera Proxy (for argus if proxy server installed)||||
 |<img src="../../en_US/camera/images/reolink.rlc-410-5mp.jpg" width="60" />|Reolink|RLC-410-5MP||||
 
 # Rpi
@@ -222,4 +223,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-02-04 01:20:04
+2021-02-05 01:20:04
