@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 02/04/2021
+
+- Fixed an issue that did not stop retrieving images even if there was no longer a camera displayed
+
 # 11/29/2020
 
 - Fixed an image display issue on designs

@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 04/02/2021
+
+- Se solucionó un problema que no dejaba de recuperar imágenes incluso si ya no se mostraba una cámara
+
 # 29/11/2020
 
 - Se corrigió un problema de visualización de imágenes en diseños

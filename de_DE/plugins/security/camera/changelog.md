@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 02/04/2021
+
+- Es wurde ein Problem behoben, durch das das Abrufen von Bildern nicht gestoppt wurde, auch wenn keine Kamera mehr angezeigt wurde
+
 # 29.11.2020
 
 - Ein Problem mit der Bildanzeige bei Designs wurde behoben

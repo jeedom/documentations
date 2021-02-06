@@ -6,6 +6,7 @@
         "iaomi Aquara de mouvement": "iaomi Aquara de mouvement",
         "iaomi Aquara capteur d'ouverture": "iaomi Aquara capteur d'ouverture",
         "iaomi prise": "iaomi prise",
+        "Capteur de luminosité": "Capteur de luminosité",
         "Capteur de température\/pression\/humidité": "Capteur de température\/pression\/humidité",
         "ioami Aquara Vibration": "ioami Aquara Vibration",
         "iaomi Aquara switch Aq2": "iaomi Aquara switch Aq2",
@@ -16,7 +17,6 @@
         "iaomi smart cube": "iaomi smart cube",
         "ioami interrupteur double": "ioami interrupteur double",
         "ioami interrupteur simple": "ioami interrupteur simple",
-        "Capteur de luminosité": "Capteur de luminosité",
         "Aqara Opple 6 boutons": "Aqara Opple 6 boutons",
         "ioami interrupteur simple AQ3": "ioami interrupteur simple AQ3",
         "iaomi Aqara LLKZMK11LM Module bidirectionnel Intelligent": "iaomi Aqara LLKZMK11LM Module bidirectionnel Intelligent",
@@ -214,9 +214,10 @@
         "GR-SMARTHOME": "GR-SMARTHOME",
         "GR-SMARTHOME VANNE 1\/4 DE TOUR": "GR-SMARTHOME VANNE 1\/4 DE TOUR",
         "Frient": "Frient",
-        "Smart cable": "Smart cable",
-        "Water leak detector": "Water leak detector",
         "Wallplug": "Wallplug",
+        "Smart cable": "Smart cable",
+        "Motion detector": "Motion detector",
+        "Water leak detector": "Water leak detector",
         "Develco": "Develco",
         "Siren": "Siren",
         "Panic button": "Panic button",
@@ -233,6 +234,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-02-05 01": "2021-02-05 01"
+        "2021-02-06 01": "2021-02-06 01"
     }
 }

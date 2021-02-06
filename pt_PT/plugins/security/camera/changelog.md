@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 04/02/2021
+
+- Corrigido um problema que não parava de recuperar imagens, mesmo que não houvesse mais uma câmera exibida
+
 # 29/11/2020
 
 - Corrigido um problema de exibição de imagem em designs
