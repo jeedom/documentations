@@ -43,7 +43,7 @@ Puedes encontrar todas las imágenes de Jeedom [aquí](https://images.jeedom.com
 
 > **Importante**
 >
-> Jeedom solo es compatible con Debian Jessie (no recomendado), Stretch (no recomendado) y Buster (estable). Jeedom no admite ninguna otra versión (Wheezy ...) o distribución (Ubuntu ...).
+> Jeedom solo admite Debian Stretch (no recomendado) y Buster (estable). Cualquier otra versión (Wheezy, Jessie…) o distribución (Ubuntu…) no es compatible con Jeedom.
 
 | Nombre                     | Estado                    | Observaciones                |
 |-------------------------|-------------------------|--------------------------|
