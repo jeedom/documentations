@@ -18,9 +18,9 @@
 
 #### Commandes orphelines
 
-  En v4.2, sur la page **Analyse → Equipements**, onglet Commandes orphelines, la fonction eqLogic `deadCmdGeneric()` renvoit maintenant un lien vers le scénario ou l'équipement concerné.
+En v4.2, sur la page **Analyse → Equipements**, onglet Commandes orphelines, la fonction eqLogic `deadCmdGeneric()` renvoit maintenant un lien vers le scénario ou l'équipement concerné.
 
-  Pour référence, la nouvelle fonction du Core:
+Pour référence, la nouvelle fonction du Core:
 
 <details>
 
@@ -54,26 +54,26 @@
 
 #### Support de l'affichage tableau dans un plugin
 
-  Depuis la version 4.2 du Core, un affichage en mode tableau est proposé sur les pages *Objets* *Scénarios* *Interactions* *Widgets* et *Plugins*.
+Depuis la version 4.2 du Core, un affichage en mode tableau est proposé sur les pages *Objets* *Scénarios* *Interactions* *Widgets* et *Plugins*.
 
-  Cette fonction repose entièrement sur du CSS et ne nécessite pas de modification des éléments du DOM, à part l'ajout du bouton à droite de la recherche pour basculer entre les mode tableau et normal.
+Cette fonction repose entièrement sur du CSS et ne nécessite pas de modification des éléments du DOM, à part l'ajout du bouton à droite de la recherche pour basculer entre les mode tableau et normal.
 
-  Sur la plupart des plugins, le Core pourra gérer cette fonctionnalité. Toutefois, elle n'a pas été intégrée par défaut car plusieurs plugins n'utilisent pas des *displayCard* standard, et le Core ne peux alors pas gérer l'affichage, dépendant du plugin.
+Sur la plupart des plugins, le Core pourra gérer cette fonctionnalité. Toutefois, elle n'a pas été intégrée par défaut car plusieurs plugins n'utilisent pas des *displayCard* standard, et le Core ne peux alors pas gérer l'affichage, dépendant du plugin.
 
-  Ceci doit donc être testé et intégré pour chaque plugin. Plusieurs cas possible :
+Ceci doit donc être testé et intégré pour chaque plugin. Plusieurs cas possible :
 
-    - Vous n'intégrez pas le bouton : Votre plugin ne proposera pas ce mode.
-    - Vous intégrez le bouton, et l'affichage est bien géré : Rien de plus à faire.
-    - Vous intégrez le bouton, mais l'affichage n'est pas bien géré : Inspirez vous du CSS du Core 4.2 pour faire votre propre CSS.
+  - Vous n'intégrez pas le bouton : Votre plugin ne proposera pas ce mode.
+  - Vous intégrez le bouton, et l'affichage est bien géré : Rien de plus à faire.
+  - Vous intégrez le bouton, mais l'affichage n'est pas bien géré : Inspirez vous du CSS du Core 4.2 pour faire votre propre CSS.
 
-  Dans tout les cas, le bouton de bascule du mode tableau est intégré avec la class CSS `hidden` et est donc masqué. Il ne sera donc pas visible sur les Core pré-4.2 ne possédant pas cette option.
+Dans tout les cas, le bouton de bascule du mode tableau est intégré avec la class CSS `hidden` et est donc masqué. Il ne sera donc pas visible sur les Core pré-4.2 ne possédant pas cette option.
 
 
-  ##### Ajouter le bouton à droite du champ recherche :
+##### Ajouter le bouton à droite du champ recherche :
 
-  Ajoutez simplement ce bouton à droite du champ de recherche sur votre page `monplugin/desktop/php/monplugin.php` :
+Ajoutez simplement ce bouton à droite du champ de recherche sur votre page `monplugin/desktop/php/monplugin.php` :
 
-  `<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="1" data-state="0"><i class="fas fa-grip-lines"></i></a>`
+`<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="1" data-state="0"><i class="fas fa-grip-lines"></i></a>`
 
 <details>
 
@@ -94,19 +94,19 @@
 
 </details>
 
-  Testez l'affichage sur un Core v4.2. Si tous va bien, c'est terminé !
+Testez l'affichage sur un Core v4.2. Si tous va bien, c'est terminé !
 
-  ##### Si affichage non standard des eqlogics :
+##### Si affichage non standard des eqlogics :
 
-  Paramètre *data-coreSupport* à 0 :
+Paramètre *data-coreSupport* à 0 :
 
-  `<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="0" data-state="0"><i class="fas fa-grip-lines"></i></a>`
+`<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="0" data-state="0"><i class="fas fa-grip-lines"></i></a>`
 
-  - Gérez votre propre class css, autre que ".displayAsTable". Placez le fichier css dans `monplugin/desktop/css/monplugin.css` puis importez le depuis le desktop/php comme cela :
+- Gérez votre propre class css, autre que ".displayAsTable". Placez le fichier css dans `monplugin/desktop/css/monplugin.css` puis importez le depuis le desktop/php comme cela :
 
-    `include_file('desktop', 'monplugin', 'css', 'monplugin');`
+  `include_file('desktop', 'monplugin', 'css', 'monplugin');`
 
-  - Gérez l'event du bouton :
+- Gérez l'event du bouton :
 
 <details>
 
@@ -136,7 +136,7 @@
 
 </details>
 
-  ##### Pour référence, le js du plugin.template :
+##### Pour référence, le js du plugin.template :
 
 <details>
 
@@ -177,17 +177,17 @@
 
 </details>
 
-  Vous pouvez également vous inspirer des CSS du Core :
+Vous pouvez également vous inspirer des CSS du Core :
 
-  - Fichier `desktop/css/desktop.main.css` section `/* __________________displayAsTable */`
+- Fichier `desktop/css/desktop.main.css` section `/* __________________displayAsTable */`
 
-  #####  Afficher d'autres éléments en mode tableau
+##### Afficher d'autres éléments en mode tableau
 
-  Si vous souhaitez qu'un élément de la *displayCard* apparaisse sur la droite, ajoutez la class CSS `displayTableRight`. Si vous devez y placer plusieurs éléments, placez les tous dans un seul `<span class="displayTableRight"> ... </span>`
+Si vous souhaitez qu'un élément de la *displayCard* apparaisse sur la droite, ajoutez la class CSS `displayTableRight`. Si vous devez y placer plusieurs éléments, placez les tous dans un seul `<span class="displayTableRight"> ... </span>`
 
-  Le mode tableau affichant chaque élément sur une ligne, il y a la place à droite pour ajouter des informations, voir des boutons.
+Le mode tableau affichant chaque élément sur une ligne, il y a la place à droite pour ajouter des informations, voir des boutons.
 
-  Vous pouvez ainsi avoir sur chaque *displayCard* des éléments qui ne seront pas affichés en mode normal, et à droite en mode tableau.
+Vous pouvez ainsi avoir sur chaque *displayCard* des éléments qui ne seront pas affichés en mode normal, et à droite en mode tableau.
 
 <details>
 
@@ -215,9 +215,9 @@
 
 </details>
 
-  Ici (plugin *jeeLog*) les paramètres de cron et log seront masqués en mode normal mais visible sur la droite en mode tableau. Vous pouvez aussi vous inspirez des pages du Core v4.2, notamment celle des scénarios qui affiche le bouton pour ouvrir les logs.
+Ici (plugin *jeeLog*) les paramètres de cron et log seront masqués en mode normal mais visible sur la droite en mode tableau. Vous pouvez aussi vous inspirez des pages du Core v4.2, notamment celle des scénarios qui affiche le bouton pour ouvrir les logs.
 
-  N'oubliez pas la class `hidden` (non présente sur les pages du Core) pour pas que cet élément soit affiché en mode normal sur les Core pré-4.2.
+N'oubliez pas la class `hidden` (non présente sur les pages du Core) pour pas que cet élément soit affiché en mode normal sur les Core pré-4.2.
 
 
 #### Affichage de l'aide d'un Widget
