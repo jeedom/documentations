@@ -525,6 +525,10 @@ form.gsc-search-box {
 details div {
   margin-left: 20px
 }
+details {
+  font-weight: bold;
+  cursor: pointer;
+}
 
 code,
 div.highlighter-rouge pre.highlight {
