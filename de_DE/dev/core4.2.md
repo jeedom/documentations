@@ -18,9 +18,9 @@
 
 #### Verwaiste Befehle
 
-  In v4.2, auf der Seite **Analyse → Ausrüstung**, Auf der Registerkarte "Verwaiste Befehle" gibt die Funktion "deadCmdGeneric ()" von eqLogic jetzt einen Link zum Szenario oder zum betreffenden Gerät zurück.
+In v4.2, auf der Seite **Analyse → Ausrüstung**, Auf der Registerkarte "Verwaiste Befehle" gibt die Funktion "deadCmdGeneric ()" von eqLogic jetzt einen Link zum Szenario oder zum betreffenden Gerät zurück.
 
-  Als Referenz die neue Funktion des Kerns:
+Als Referenz die neue Funktion des Kerns:
 
 <details>
 
@@ -54,26 +54,26 @@
 
 #### Unterstützung für Tabellenanzeigen in einem Plugin
 
-  Ab Version 4.2 des Kerns wird auf den Seiten eine Anzeige im Tabellenmodus vorgeschlagen *Objekte* *Szenarien* *Interaktionen* *Widgets* und *Plugins*.
+Ab Version 4.2 des Kerns wird auf den Seiten eine Anzeige im Tabellenmodus vorgeschlagen *Objekte* *Szenarien* *Interaktionen* *Widgets* und *Plugins*.
 
-  Diese Funktion basiert vollständig auf CSS und erfordert keine Änderung der DOM-Elemente, abgesehen vom Hinzufügen der Schaltfläche rechts neben der Suche, um zwischen Array- und Normalmodus zu wechseln.
+Diese Funktion basiert vollständig auf CSS und erfordert keine Änderung der DOM-Elemente, abgesehen vom Hinzufügen der Schaltfläche rechts neben der Suche, um zwischen Array- und Normalmodus zu wechseln.
 
-  Bei den meisten Plugins kann der Core diese Funktionalität verwalten. Es wurde jedoch standardmäßig nicht integriert, da mehrere Plugins nicht verwendet werden *displayCard* Standard, und der Core kann dann die Anzeige je nach Plugin nicht verwalten.
+Bei den meisten Plugins kann der Core diese Funktionalität verwalten. Es wurde jedoch standardmäßig nicht integriert, da mehrere Plugins nicht verwendet werden *displayCard* Standard, und der Core kann dann die Anzeige je nach Plugin nicht verwalten.
 
-  Dies muss daher für jedes Plugin getestet und integriert werden. Mehrere mögliche Fälle :
+Dies muss daher für jedes Plugin getestet und integriert werden. Mehrere mögliche Fälle :
 
-    - Sie integrieren die Schaltfläche nicht : Ihr Plugin bietet diesen Modus nicht an.
-    - Sie integrieren die Schaltfläche und die Anzeige ist gut verwaltet : Nichts mehr zu tun.
-    - Sie integrieren die Schaltfläche, aber die Anzeige ist nicht gut verwaltet : Lassen Sie sich vom CSS von Core 4 inspirieren.2, um Ihr eigenes CSS zu erstellen.
+  - Sie integrieren die Schaltfläche nicht : Ihr Plugin bietet diesen Modus nicht an.
+  - Sie integrieren die Schaltfläche und die Anzeige ist gut verwaltet : Nichts mehr zu tun.
+  - Sie integrieren die Schaltfläche, aber die Anzeige ist nicht gut verwaltet : Lassen Sie sich vom CSS von Core 4 inspirieren.2, um Ihr eigenes CSS zu erstellen.
 
-  In jedem Fall ist die Umschalttaste für den Tabellenmodus in die CSS-Klasse "hidden" integriert und daher ausgeblendet. Es wird daher auf Pre-4 Core nicht sichtbar sein.2 haben diese Option nicht.
+In jedem Fall ist die Umschalttaste für den Tabellenmodus in die CSS-Klasse "hidden" integriert und daher ausgeblendet. Es wird daher auf Pre-4 Core nicht sichtbar sein.2 haben diese Option nicht.
 
 
-  ##### Fügen Sie die Schaltfläche rechts neben dem Suchfeld hinzu :
+##### Fügen Sie die Schaltfläche rechts neben dem Suchfeld hinzu :
 
-  Fügen Sie einfach diese Schaltfläche rechts neben dem Suchfeld auf Ihrer Seite hinzu: myplugin / desktop / php / myplugin.php :
+Fügen Sie einfach diese Schaltfläche rechts neben dem Suchfeld auf Ihrer Seite hinzu: myplugin / desktop / php / myplugin.php :
 
-  ``<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="1" data-state="0"><i class="fas fa-grip-lines"></i></a> ``
+``<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="1" data-state="0"><i class="fas fa-grip-lines"></i></a> ``
 
 <details>
 
@@ -94,19 +94,19 @@
 
 </details>
 
-  Testen Sie die Anzeige auf einem Core v4.2. Wenn alles in Ordnung ist, ist es vorbei !
+Testen Sie die Anzeige auf einem Core v4.2. Wenn alles in Ordnung ist, ist es vorbei !
 
-  ##### Wenn nicht standardmäßige Anzeige von Eqlogics :
+##### Wenn nicht standardmäßige Anzeige von Eqlogics :
 
-  Rahmen *data-coreSupport* bis 0 :
+Rahmen *data-coreSupport* bis 0 :
 
-  ``<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="0" data-state="0"><i class="fas fa-grip-lines"></i></a> ``
+``<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="0" data-state="0"><i class="fas fa-grip-lines"></i></a> ``
 
-  - Verwalten Sie Ihre eigene CSS-Klasse außer ".displayAsTable"". Platzieren Sie die CSS-Datei in `myplugin / desktop / css / myplugin.css` importiere es dann wie folgt von desktop / php :
+- Verwalten Sie Ihre eigene CSS-Klasse außer ".displayAsTable"". Platzieren Sie die CSS-Datei in `myplugin / desktop / css / myplugin.css` importiere es dann wie folgt von desktop / php :
 
-    `include_file ('desktop', 'myplugin', 'css', 'myplugin');`
+  `include_file ('desktop', 'myplugin', 'css', 'myplugin');`
 
-  - Verwalten Sie das Schaltflächenereignis :
+- Verwalten Sie das Schaltflächenereignis :
 
 <details>
 
@@ -136,7 +136,7 @@
 
 </details>
 
-  ##### Als Referenz dient das Plugin js.Vorlage :
+##### Als Referenz dient das Plugin js.Vorlage :
 
 <details>
 
@@ -177,17 +177,17 @@
 
 </details>
 
-  Sie können sich auch von Core CSS inspirieren lassen :
+Sie können sich auch von Core CSS inspirieren lassen :
 
-  - Desktop / css / desktop.main-Datei.css` section `/* __________________displayAsTable */ ``
+- Desktop / css / desktop.main-Datei.css` section `/* __________________displayAsTable */ ``
 
-  #####  Zeigen Sie andere Elemente in der Tabellenansicht an
+##### Zeigen Sie andere Elemente in der Tabellenansicht an
 
-  Wenn Sie einen Artikel aus dem *displayCard* erscheint rechts, fügen Sie die CSS-Klasse `displayTableRight` hinzu. Wenn Sie dort mehrere Elemente platzieren müssen, fügen Sie sie alle in ein ` <span class="displayTableRight">...</span> ` ein
+Wenn Sie einen Artikel aus dem *displayCard* erscheint rechts, fügen Sie die CSS-Klasse `displayTableRight` hinzu. Wenn Sie dort mehrere Elemente platzieren müssen, fügen Sie sie alle in ein ` <span class="displayTableRight">...</span> ` ein
 
-  Im Tabellenmodus, in dem jedes Element in einer Zeile angezeigt wird, befindet sich rechts die Stelle, an der Informationen hinzugefügt werden können (siehe Schaltflächen).
+Im Tabellenmodus, in dem jedes Element in einer Zeile angezeigt wird, befindet sich rechts die Stelle, an der Informationen hinzugefügt werden können (siehe Schaltflächen).
 
-  Sie können also auf jedem haben *displayCard* Elemente, die im normalen Modus nicht angezeigt werden, und rechts im Tabellenmodus.
+Sie können also auf jedem haben *displayCard* Elemente, die im normalen Modus nicht angezeigt werden, und rechts im Tabellenmodus.
 
 <details>
 
@@ -215,9 +215,9 @@
 
 </details>
 
-  Hier (Plugin *jeeLog*) cron- und log-Parameter werden im normalen Modus ausgeblendet, im Tabellenmodus jedoch rechts angezeigt. Sie können sich auch von den Seiten von Core v4 inspirieren lassen.2, insbesondere das der Szenarien, in denen die Schaltfläche zum Öffnen der Protokolle angezeigt wird.
+Hier (Plugin *jeeLog*) cron- und log-Parameter werden im normalen Modus ausgeblendet, im Tabellenmodus jedoch rechts angezeigt. Sie können sich auch von den Seiten von Core v4 inspirieren lassen.2, insbesondere das der Szenarien, in denen die Schaltfläche zum Öffnen der Protokolle angezeigt wird.
 
-  Vergessen Sie nicht die "versteckte" Klasse (auf Core-Seiten nicht vorhanden), damit dieses Element auf Core vor 4.2 nicht im normalen Modus angezeigt wird.
+Vergessen Sie nicht die "versteckte" Klasse (auf Core-Seiten nicht vorhanden), damit dieses Element auf Core vor 4.2 nicht im normalen Modus angezeigt wird.
 
 
 #### Widget-Hilfe anzeigen

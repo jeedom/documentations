@@ -18,9 +18,9 @@
 
 #### Orphan commands
 
-  In v4.2, on the page **Analysis → Equipment**, Orphan commands tab, the eqLogic `deadCmdGeneric ()` function now returns a link to the scenario or the device concerned.
+In v4.2, on the page **Analysis → Equipment**, Orphan commands tab, the eqLogic `deadCmdGeneric ()` function now returns a link to the scenario or the device concerned.
 
-  For reference, the new function of the Core:
+For reference, the new function of the Core:
 
 <details>
 
@@ -54,26 +54,26 @@
 
 #### Table display support in a plugin
 
-  From version 4.2 of the Core, a display in table mode is proposed on the pages *Objects* *Scenarios* *Interactions* *Widgets* and *Plugins*.
+From version 4.2 of the Core, a display in table mode is proposed on the pages *Objects* *Scenarios* *Interactions* *Widgets* and *Plugins*.
 
-  This function relies entirely on CSS and does not require any modification of the DOM elements, apart from adding the button to the right of the search to switch between table and normal mode.
+This function relies entirely on CSS and does not require any modification of the DOM elements, apart from adding the button to the right of the search to switch between table and normal mode.
 
-  On most plugins, the Core will be able to manage this functionality. However, it has not been integrated by default because several plugins do not use *displayCard* standard, and the Core cannot then manage the display, depending on the plugin.
+On most plugins, the Core will be able to manage this functionality. However, it has not been integrated by default because several plugins do not use *displayCard* standard, and the Core cannot then manage the display, depending on the plugin.
 
-  This must therefore be tested and integrated for each plugin. Several possible cases :
+This must therefore be tested and integrated for each plugin. Several possible cases :
 
-    - You do not integrate the button : Your plugin will not offer this mode.
-    - You integrate the button, and the display is well managed : Nothing more to do.
-    - You integrate the button, but the display is not well managed : Get inspired by the CSS of Core 4.2 to make your own CSS.
+  - You do not integrate the button : Your plugin will not offer this mode.
+  - You integrate the button, and the display is well managed : Nothing more to do.
+  - You integrate the button, but the display is not well managed : Get inspired by the CSS of Core 4.2 to make your own CSS.
 
-  In any case, the table mode toggle button is integrated with the CSS class `hidden` and is therefore hidden. It will therefore not be visible on pre-4 Core.2 do not have this option.
+In any case, the table mode toggle button is integrated with the CSS class `hidden` and is therefore hidden. It will therefore not be visible on pre-4 Core.2 do not have this option.
 
 
-  ##### Add the button to the right of the search field :
+##### Add the button to the right of the search field :
 
-  Just add this button to the right of the search box on your page `myplugin / desktop / php / myplugin.php :
+Just add this button to the right of the search box on your page `myplugin / desktop / php / myplugin.php :
 
-  ``<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="1" data-state="0"><i class="fas fa-grip-lines"></i></a> ``
+``<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="1" data-state="0"><i class="fas fa-grip-lines"></i></a> ``
 
 <details>
 
@@ -94,19 +94,19 @@
 
 </details>
 
-  Test the display on a Core v4.2. If all is well, it's over !
+Test the display on a Core v4.2. If all is well, it's over !
 
-  ##### If non-standard display of eqlogics :
+##### If non-standard display of eqlogics :
 
-  Setting *data-coreSupport* to 0 :
+Setting *data-coreSupport* to 0 :
 
-  ``<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="0" data-state="0"><i class="fas fa-grip-lines"></i></a> ``
+``<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="0" data-state="0"><i class="fas fa-grip-lines"></i></a> ``
 
-  - Manage your own css class, other than ".displayAsTable". Place the css file in `myplugin / desktop / css / myplugin.css` then import it from desktop / php like this :
+- Manage your own css class, other than ".displayAsTable". Place the css file in `myplugin / desktop / css / myplugin.css` then import it from desktop / php like this :
 
-    `include_file ('desktop', 'myplugin', 'css', 'myplugin');`
+  `include_file ('desktop', 'myplugin', 'css', 'myplugin');`
 
-  - Manage the button event :
+- Manage the button event :
 
 <details>
 
@@ -136,7 +136,7 @@
 
 </details>
 
-  ##### For reference, the plugin js.template :
+##### For reference, the plugin js.template :
 
 <details>
 
@@ -177,17 +177,17 @@
 
 </details>
 
-  You can also take inspiration from Core CSS :
+You can also take inspiration from Core CSS :
 
-  - Desktop / css / desktop.main file.css` section `/* __________________displayAsTable */ ``
+- Desktop / css / desktop.main file.css` section `/* __________________displayAsTable */ ``
 
-  #####  Display other elements in table view
+##### Display other elements in table view
 
-  If you want an item from the *displayCard* appears on the right, add the CSS class `displayTableRight`. If you need to place several elements there, put them all in one ` <span class="displayTableRight">...</span> `
+If you want an item from the *displayCard* appears on the right, add the CSS class `displayTableRight`. If you need to place several elements there, put them all in one ` <span class="displayTableRight">...</span> `
 
-  The table mode displaying each element on a line, there is the place on the right to add information, see buttons.
+The table mode displaying each element on a line, there is the place on the right to add information, see buttons.
 
-  You can thus have on each *displayCard* elements that will not be displayed in normal mode, and on the right in table mode.
+You can thus have on each *displayCard* elements that will not be displayed in normal mode, and on the right in table mode.
 
 <details>
 
@@ -215,9 +215,9 @@
 
 </details>
 
-  Here (plugin *jeeLog*) cron and log parameters will be hidden in normal mode but visible on the right in table mode. You can also take inspiration from the pages of Core v4.2, in particular that of the scenarios which displays the button to open the logs.
+Here (plugin *jeeLog*) cron and log parameters will be hidden in normal mode but visible on the right in table mode. You can also take inspiration from the pages of Core v4.2, in particular that of the scenarios which displays the button to open the logs.
 
-  Don't forget the `hidden` class (not present on Core pages) so that this element is not displayed in normal mode on pre-4.2 Core.
+Don't forget the `hidden` class (not present on Core pages) so that this element is not displayed in normal mode on pre-4.2 Core.
 
 
 #### Displaying Widget Help

@@ -18,9 +18,9 @@
 
 #### Comandos huérfanos
 
-  En v4.2, en la página **Análisis → Equipo**, Pestaña de comandos huérfanos, la función eqLogic `deadCmdGeneric ()` ahora devuelve un enlace al escenario o al dispositivo en cuestión.
+En v4.2, en la página **Análisis → Equipo**, Pestaña de comandos huérfanos, la función eqLogic `deadCmdGeneric ()` ahora devuelve un enlace al escenario o al dispositivo en cuestión.
 
-  Como referencia, la nueva función del Core:
+Como referencia, la nueva función del Core:
 
 <details>
 
@@ -54,26 +54,26 @@
 
 #### Soporte de visualización de tabla en un complemento
 
-  Desde la versión 4.2 del Core, se propone una visualización en modo tabla en las páginas *Objetos* *Escenarios* *Interacciones* *Widgets* y *Complementos*.
+Desde la versión 4.2 del Core, se propone una visualización en modo tabla en las páginas *Objetos* *Escenarios* *Interacciones* *Widgets* y *Complementos*.
 
-  Esta función se basa completamente en CSS y no requiere ninguna modificación de los elementos DOM, además de agregar el botón a la derecha de la búsqueda para cambiar entre la tabla y el modo normal.
+Esta función se basa completamente en CSS y no requiere ninguna modificación de los elementos DOM, además de agregar el botón a la derecha de la búsqueda para cambiar entre la tabla y el modo normal.
 
-  En la mayoría de los complementos, el Core podrá administrar esta funcionalidad. Sin embargo, no se ha integrado de forma predeterminada porque varios complementos no utilizan *tarjeta gráfica* estándar, y el Core no puede administrar la pantalla, dependiendo del complemento.
+En la mayoría de los complementos, el Core podrá administrar esta funcionalidad. Sin embargo, no se ha integrado de forma predeterminada porque varios complementos no utilizan *tarjeta gráfica* estándar, y el Core no puede administrar la pantalla, dependiendo del complemento.
 
-  Por lo tanto, esto debe probarse e integrarse para cada complemento. Varios casos posibles :
+Por lo tanto, esto debe probarse e integrarse para cada complemento. Varios casos posibles :
 
-    - No integras el botón : Su complemento no ofrecerá este modo.
-    - Integra el botón y la pantalla está bien administrada : Nada mas que hacer.
-    - Integra el botón, pero la pantalla no está bien gestionada : Inspírate con el CSS de Core 4.2 para hacer tu propio CSS.
+  - No integras el botón : Su complemento no ofrecerá este modo.
+  - Integra el botón y la pantalla está bien administrada : Nada mas que hacer.
+  - Integra el botón, pero la pantalla no está bien gestionada : Inspírate con el CSS de Core 4.2 para hacer tu propio CSS.
 
-  En cualquier caso, el botón de alternancia del modo de tabla está integrado con la clase CSS `hidden` y, por lo tanto, está oculto. Por lo tanto, no será visible en versiones anteriores a 4 Core.2 no tengo esta opción.
+En cualquier caso, el botón de alternancia del modo de tabla está integrado con la clase CSS `hidden` y, por lo tanto, está oculto. Por lo tanto, no será visible en versiones anteriores a 4 Core.2 no tengo esta opción.
 
 
-  ##### Agrega el botón a la derecha del campo de búsqueda :
+##### Agrega el botón a la derecha del campo de búsqueda :
 
-  Simplemente agregue este botón a la derecha del cuadro de búsqueda en su página `myplugin / desktop / php / myplugin.php :
+Simplemente agregue este botón a la derecha del cuadro de búsqueda en su página `myplugin / desktop / php / myplugin.php :
 
-  ''<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="1" data-state="0"><i class="fas fa-grip-lines"></i></a> ''
+''<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="1" data-state="0"><i class="fas fa-grip-lines"></i></a> ''
 
 <details>
 
@@ -94,19 +94,19 @@
 
 </details>
 
-  Pruebe la pantalla en un Core v4.2. Si todo va bien, se acabó !
+Pruebe la pantalla en un Core v4.2. Si todo va bien, se acabó !
 
-  ##### Si la visualización de eqlogics no es estándar :
+##### Si la visualización de eqlogics no es estándar :
 
-  Ajuste *soporte de datos* a 0 :
+Ajuste *soporte de datos* a 0 :
 
-  ''<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="0" data-state="0"><i class="fas fa-grip-lines"></i></a> ''
+''<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="0" data-state="0"><i class="fas fa-grip-lines"></i></a> ''
 
-  - Administre su propia clase css, que no sea ".displayAsTable". Coloque el archivo css en `myplugin / desktop / css / myplugin.css` luego impórtelo desde el escritorio / php como este :
+- Administre su propia clase css, que no sea ".displayAsTable". Coloque el archivo css en `myplugin / desktop / css / myplugin.css` luego impórtelo desde el escritorio / php como este :
 
-    `include_file ('escritorio', 'myplugin', 'css', 'myplugin');`
+  `include_file ('escritorio', 'myplugin', 'css', 'myplugin');`
 
-  - Gestionar el evento del botón :
+- Gestionar el evento del botón :
 
 <details>
 
@@ -136,7 +136,7 @@
 
 </details>
 
-  ##### Como referencia, el complemento js.modelo :
+##### Como referencia, el complemento js.modelo :
 
 <details>
 
@@ -177,17 +177,17 @@
 
 </details>
 
-  También puede inspirarse en Core CSS :
+También puede inspirarse en Core CSS :
 
-  - Archivo Desktop / css / desktop.main.css` sección `/* __________________displayAsTable */ ''
+- Archivo Desktop / css / desktop.main.css` sección `/* __________________displayAsTable */ ''
 
-  #####  Mostrar otros elementos en la vista de tabla
+##### Mostrar otros elementos en la vista de tabla
 
-  Si quieres un elemento del *tarjeta gráfica* aparece a la derecha, agregue la clase CSS `displayTableRight`. Si necesita colocar varios elementos allí, colóquelos todos en uno ` <span class="displayTableRight">...</span> `
+Si quieres un elemento del *tarjeta gráfica* aparece a la derecha, agregue la clase CSS `displayTableRight`. Si necesita colocar varios elementos allí, colóquelos todos en uno ` <span class="displayTableRight">...</span> `
 
-  El modo de tabla que muestra cada elemento en una línea, está el lugar a la derecha para agregar información, ver botones.
+El modo de tabla que muestra cada elemento en una línea, está el lugar a la derecha para agregar información, ver botones.
 
-  Por lo tanto, puede tener en cada *tarjeta gráfica* elementos que no se mostrarán en modo normal y a la derecha en modo tabla.
+Por lo tanto, puede tener en cada *tarjeta gráfica* elementos que no se mostrarán en modo normal y a la derecha en modo tabla.
 
 <details>
 
@@ -215,9 +215,9 @@
 
 </details>
 
-  Aquí (complemento *jeeLog*) Los parámetros cron y log se ocultarán en el modo normal, pero serán visibles a la derecha en el modo de tabla. También puede inspirarse en las páginas de Core v4.2, en particular el de los escenarios que muestra el botón para abrir los registros.
+Aquí (complemento *jeeLog*) Los parámetros cron y log se ocultarán en el modo normal, pero serán visibles a la derecha en el modo de tabla. También puede inspirarse en las páginas de Core v4.2, en particular el de los escenarios que muestra el botón para abrir los registros.
 
-  No olvide la clase `hidden` (no presente en las páginas Core) para que este elemento no se muestre en modo normal en versiones Core anteriores a 4.2.
+No olvide la clase `hidden` (no presente en las páginas Core) para que este elemento no se muestre en modo normal en versiones Core anteriores a 4.2.
 
 
 #### Visualización de la ayuda del widget
