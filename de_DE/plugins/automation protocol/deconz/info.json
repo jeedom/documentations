@@ -6,7 +6,12 @@
         "en_US": "This plugin will allow you to integrate a multitude of ZigBee modules (Ikea, Philips Hue, Xiaomi etc ...) without having to go through their gateway with the Conbee \/ Conbee II key. IMPORTANT: you absolutely need a conbee key to use this plugin. Another point is to read the documentation and compatible modules",
         "es_ES": "Este complemento le permitirá integrar una multitud de módulos ZigBee (Ikea, Philips Hue, Xiaomi, etc.) sin tener que pasar por su puerta de enlace con la tecla Conbee \/ Conbee II. IMPORTANTE: absolutamente necesita una clave de conbee para usar este complemento. Otro punto es leer la documentación y los módulos compatibles",
         "de_DE": "Mit diesem Plugin können Sie eine Vielzahl von ZigBee-Modulen (Ikea, Philips Hue, Xiaomi usw.) integrieren, ohne das Gateway mit dem Conbee \/ Conbee II-Schlüssel durchlaufen zu müssen. WICHTIG: Sie benötigen unbedingt einen Conbee-Schlüssel, um dieses Plugin zu verwenden. Ein weiterer Punkt ist das Lesen der Dokumentation und der kompatiblen Module",
-        "pt_PT": "Este plug-in permitirá que você integre uma infinidade de módulos ZigBee (Ikea, Philips Hue, Xiaomi etc ...) sem precisar passar pelo gateway com a tecla Conbee \/ Conbee II. IMPORTANTE: você precisa absolutamente de uma chave de conexão para usar este plugin. Outro ponto é ler a documentação e os módulos compatíveis"
+        "pt_PT": "Este plug-in permitirá que você integre uma infinidade de módulos ZigBee (Ikea, Philips Hue, Xiaomi etc ...) sem precisar passar pelo gateway com a tecla Conbee \/ Conbee II. IMPORTANTE: você precisa absolutamente de uma chave de conexão para usar este plugin. Outro ponto é ler a documentação e os módulos compatíveis",
+        "ru_RU": "Ce plugin va vous permettre d'intégrer une multitude de modules ZigBee (Ikea, Philips Hue, Xiaomi etc...) sans avoir a passer par leur passerelle avec la clé Conbee\/Conbee II. IMPORTANT : il faut absolument une clef conbee pour utiliser ce plugin. Autre point il faut bien lire la documentation et les modules compatibles",
+        "id_ID": "Ce plugin va vous permettre d'intégrer une multitude de modules ZigBee (Ikea, Philips Hue, Xiaomi etc...) sans avoir a passer par leur passerelle avec la clé Conbee\/Conbee II. IMPORTANT : il faut absolument une clef conbee pour utiliser ce plugin. Autre point il faut bien lire la documentation et les modules compatibles",
+        "it_IT": "Ce plugin va vous permettre d'intégrer une multitude de modules ZigBee (Ikea, Philips Hue, Xiaomi etc...) sans avoir a passer par leur passerelle avec la clé Conbee\/Conbee II. IMPORTANT : il faut absolument une clef conbee pour utiliser ce plugin. Autre point il faut bien lire la documentation et les modules compatibles",
+        "ja_JP": "Ce plugin va vous permettre d'intégrer une multitude de modules ZigBee (Ikea, Philips Hue, Xiaomi etc...) sans avoir a passer par leur passerelle avec la clé Conbee\/Conbee II. IMPORTANT : il faut absolument une clef conbee pour utiliser ce plugin. Autre point il faut bien lire la documentation et les modules compatibles",
+        "tr": "Ce plugin va vous permettre d'intégrer une multitude de modules ZigBee (Ikea, Philips Hue, Xiaomi etc...) sans avoir a passer par leur passerelle avec la clé Conbee\/Conbee II. IMPORTANT : il faut absolument une clef conbee pour utiliser ce plugin. Autre point il faut bien lire la documentation et les modules compatibles"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -21,7 +26,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",

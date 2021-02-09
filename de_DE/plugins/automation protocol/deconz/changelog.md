@@ -4,9 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 24/10/2020
+- Unterdrückung des Sendens von Helligkeit während eines Farbwechsels für RGB-Lampen
 
-- Behebung eines Fehlers beim Umschalten der Thermostate auf Sperren
+# 28.10.2020
+
+- Es wurde eine Meldung hinzugefügt, die angibt, dass die Schlüsselfirmware nicht aktualisiert werden soll, wenn Sie sich auf einer VM oder Freebox Delta befinden und das Risiko besteht, dass der Schlüssel beschädigt wird.
 
 # 23/09/2020
 

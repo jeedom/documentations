@@ -4,9 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 24/10/2020
+- Suppression of the sending of brightness during a color change for RGB bulbs
 
-- Correction of a bug on switching thermostats to lock
+# 10/28/2020
+
+- Added a message indicating not to update the key firmware if you are on VM or Freebox Delta at the risk of breaking the key.
 
 # 23/09/2020
 

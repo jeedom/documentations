@@ -124,7 +124,7 @@ O plug-in executa um backup da rede contida na chave em um arquivo local; você 
 
 # Restauration
 
-Ao restaurar um backup Jeedom, o equipamento é restaurado, mas não está conectado à chave, pode ser necessário reinstalá-la. Para fazer isso, você precisará do backup mencionado acima. Este arquivo será incluído no Phoscon, mas você deve primeiro alterar a extensão do arquivo .dat em .tar.gz
+Ao restaurar um backup Jeedom, o equipamento é restaurado, mas não está conectado à chave, pode ser necessário reinstalá-la. Para fazer isso, você precisará do backup mencionado acima. Ce fichier se trouve dans ``plugins/deconz/data`` et sera à inclure dans dans Phoscon mais il faut au préalable changer l'extension du fichier ``.tar.gz`` Em ``.dat``. 
 
 Então vá para a interface Phoscon. Menu => Gateway => Opção de Backup => Carregar Backup.
 
@@ -134,7 +134,7 @@ Você só precisa fazer uma descoberta da chave da API, salvar e, finalmente, um
 
 ## Conbee II
 
-Você pode fazer isso diretamente do jeedom, se a chave estiver conectada, na configuração do plug-in
+Você pode fazer isso diretamente do jeedom se a chave estiver conectada a ele, a partir da configuração do plugin, mas é mais do que recomendado fazê-lo a partir do Windows, seguindo a documentação oficial do Deconz
 
 ## Conbee
 

@@ -124,7 +124,7 @@ El complemento realiza una copia de seguridad de la red contenida en la clave en
 
 # Restauration
 
-Al restaurar una copia de seguridad de Jeedom, el equipo se restaura pero no se adjunta a la clave, puede que tenga que reinstalar la clave. Para hacer esto, necesitará la copia de seguridad mencionada anteriormente. Este archivo se incluirá en Phoscon pero primero debe cambiar la extensión del archivo .dat en .tar.gz
+Al restaurar una copia de seguridad de Jeedom, el equipo se restaura pero no se adjunta a la clave, puede que tenga que reinstalar la clave. Para hacer esto, necesitará la copia de seguridad mencionada anteriormente. Ce fichier se trouve dans ``plugins/deconz/data`` et sera à inclure dans dans Phoscon mais il faut au préalable changer l'extension du fichier ``.tar.gz`` en ``.dat``. 
 
 Luego vaya a la interfaz de Phoscon. Menú => Puerta de enlace => Opción de copia de seguridad => Cargar copia de seguridad.
 
@@ -134,7 +134,7 @@ Solo tiene que hacer un descubrimiento de clave API, guardar y finalmente una si
 
 ## Conbee II
 
-Puede hacerlo directamente desde jeedom si la clave está conectada, desde la configuración del complemento
+Puede hacerlo directamente desde jeedom si la clave está conectada a él, desde la configuración del complemento, pero es más que recomendable hacerlo desde Windows siguiendo la documentación oficial de Deconz
 
 ## Conbee
 

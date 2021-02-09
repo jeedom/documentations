@@ -124,7 +124,7 @@ Das Plugin führt eine Sicherung des im Schlüssel enthaltenen Netzwerks in eine
 
 # Restauration
 
-Wenn Sie ein Jeedom-Backup wiederherstellen, wird das Gerät wiederhergestellt, aber nicht an den Schlüssel angeschlossen. Möglicherweise müssen Sie den Schlüssel neu installieren. Dazu benötigen Sie das oben erwähnte Backup. Diese Datei wird in Phoscon enthalten sein, Sie müssen jedoch zuerst die Dateierweiterung ändern .dat in .tar.gz
+Wenn Sie ein Jeedom-Backup wiederherstellen, wird das Gerät wiederhergestellt, aber nicht an den Schlüssel angeschlossen. Möglicherweise müssen Sie den Schlüssel neu installieren. Dazu benötigen Sie das oben erwähnte Backup. Ce fichier se trouve dans ``plugins/deconz/data`` et sera à inclure dans dans Phoscon mais il faut au préalable changer l'extension du fichier ``.tar.gz`` In ``.dat``. 
 
 Gehen Sie dann zur Phoscon-Oberfläche. Menü => Gateway => Sicherungsoption => Sicherung laden.
 
@@ -134,7 +134,7 @@ Sie müssen nur eine API-Schlüsselerkennung, Speichern und schließlich eine Sy
 
 ## Conbee II
 
-Sie können dies direkt von jeedom aus tun, wenn der Schlüssel eingesteckt ist, und zwar über die Konfiguration des Plugins
+Sie können dies direkt von jeedom aus tun, wenn der Schlüssel in der Plugin-Konfiguration eingesteckt ist. Es wird jedoch mehr als dringend empfohlen, dies unter Windows zu tun, indem Sie der offiziellen Deconz-Dokumentation folgen
 
 ## Conbee
 

@@ -4,7 +4,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-#07/12/2020
+- Möglichkeit, nur einen bestimmten Pakettyp bei der Verarbeitung von Geräteinformationen zu autorisieren (seltener Fall))
+
+# 01/07/2020
+
+- Fehlerbehebungen und Optimierung (danke @Doubledom)
+
+# 07/12/2020
 
 - Korrektur eines Fehlers an Somfy-Geräten (ID 8 statt 6)
 

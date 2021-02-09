@@ -4,9 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-# 24/10/2020
+- Supressão do envio de brilho durante uma mudança de cor para lâmpadas RGB
 
-- Correção de um bug ao trocar termostatos para travar
+# 28/10/2020
+
+- Adicionada uma mensagem indicando para não atualizar o firmware da chave se você estiver no VM ou Freebox Delta correndo o risco de quebrar a chave.
 
 # 23/09/2020
 

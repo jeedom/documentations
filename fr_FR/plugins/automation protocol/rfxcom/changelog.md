@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 08/02/2021
+
+- Possibilité de n'autoriser que certain type de packet dans le traitement des informations d'un équipements (cas rare)
+- Correction d'un bug sur la conf 0x1A : Somfy RTS Moteur qui pouvait ne pas apparaitre dans certain cas.
+
 # 07/01/2020
 
 - Correction de bugs et optimisation (merci @Doubledom)

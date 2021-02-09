@@ -4,7 +4,13 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-#12/07/2020
+- Possibilidade de autorizar apenas um determinado tipo de pacote no processamento de informações do equipamento (caso raro)
+
+# 01/07/2020
+
+- Correções de bugs e otimização (obrigado @Doubledom)
+
+# 12/07/2020
 
 - Correção de um bug no equipamento Somfy (ID de 8 em vez de 6)
 

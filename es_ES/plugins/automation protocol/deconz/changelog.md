@@ -4,9 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-# 24/10/2020
+- Supresión del envío de brillo durante un cambio de color para bombillas RGB
 
-- Corrección de un error al cambiar los termostatos a bloquear
+# 28/10/2020
+
+- Se agregó un mensaje que indica que no debe actualizar el firmware de la clave si está en VM o Freebox Delta con el riesgo de romper la clave.
 
 # 23/09/2020
 

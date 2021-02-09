@@ -124,7 +124,7 @@ The plugin performs a backup of the network contained in the key in a local file
 
 # Restauration
 
-When restoring a Jeedom backup, the equipment is restored but not attached to the key, you may have to reinstall the key. To do this you will need the backup mentioned above. This file will be included in Phoscon but you must first change the file extension .dat in .tar.gz
+When restoring a Jeedom backup, the equipment is restored but not attached to the key, you may have to reinstall the key. To do this you will need the backup mentioned above. Ce fichier se trouve dans ``plugins/deconz/data`` et sera à inclure dans dans Phoscon mais il faut au préalable changer l'extension du fichier ``.tar.gz`` In ``.dat``. 
 
 Then go to the Phoscon interface. Menu => Gateway => Backup Option => Load Backup.
 
@@ -134,7 +134,7 @@ You just have to do an API key discovery, Save and finally a synchronization fro
 
 ## Conbee II
 
-You can do it directly from jeedom if the key is plugged into it, from the configuration of the plugin
+You can do it directly from jeedom if the key is plugged into it, from the plugin configuration but it is more than strongly recommended to do it from windows by following the official Deconz documentation
 
 ## Conbee
 

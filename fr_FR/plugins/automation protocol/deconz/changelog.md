@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 08/02/2021
+
+- Suppression de l'envoi de luminosité lors d'un changement de couleur pour les ampoule RGB
+- Ajout de ZHACarbonMonoxide, merci @sagitaz
+
 # 28/10/2020
 
 - Ajout d'un message indiquant de ne surtout pas faire la mise à jour du firmware de clef si vous etes sur VM ou Freebox Delta au risque de casser la clef.

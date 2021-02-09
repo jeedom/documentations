@@ -4,7 +4,13 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-#07/12/2020
+- Possibility of authorizing only a certain type of packet in the processing of equipment information (rare case)
+
+# 01/07/2020
+
+- Bug fixes and optimization (thanks @Doubledom)
+
+# 07/12/2020
 
 - Correction of a bug on Somfy equipment (ID of 8 instead of 6)
 

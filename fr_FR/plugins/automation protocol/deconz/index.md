@@ -124,7 +124,7 @@ Le plugin effectue une sauvegarde du réseau contenu dans la clé dans un fichie
 
 # Restauration
 
-Lors d’une restauration d’une sauvegarde Jeedom, les équipements sont restaurées mais pas rattaché à la clé, vous pouvez être amené à devoir réinstallé la clé. Pour ce faire vous aurez besoin de la sauvegarde cité plus haut. Ce fichier sera à inclure dans dans Phoscon mais il faut au préalable changer l’extension du fichier .dat en .tar.gz
+Lors d’une restauration d’une sauvegarde Jeedom, les équipements sont restaurées mais pas rattaché à la clé, vous pouvez être amené à devoir réinstallé la clé. Pour ce faire vous aurez besoin de la sauvegarde cité plus haut. Ce fichier se trouve dans ``plugins/deconz/data`` et sera à inclure dans dans Phoscon mais il faut au préalable changer l’extension du fichier ``.tar.gz`` en ``.dat``. 
 
 Ensuite rendes-vous dans l’interface de Phoscon. Menu => Gateway => Backup Option => Load Backup.
 
