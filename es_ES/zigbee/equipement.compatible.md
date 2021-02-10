@@ -51,6 +51,12 @@
 |<img src="../../es_ES/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Toma móvil Legrand Céliane||||
 |<img src="../../es_ES/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Persiana enrollable Legrand||||
 
+# Signify
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/Signify_Netherlands_B.V..LCA001.png" width="60" />|Signify|Sirene||||
+
 # Adeo
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -364,4 +370,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-02-09 01:32:11
+2021-02-10 01:32:05

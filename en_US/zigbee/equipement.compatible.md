@@ -51,6 +51,12 @@
 |<img src="../../en_US/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand mobile socket Céliane||||
 |<img src="../../en_US/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand roller shutter||||
 
+# Signify
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/Signify_Netherlands_B.V..LCA001.png" width="60" />|Signify|Sirene||||
+
 # Adeo
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -364,4 +370,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-02-09 01:32:11
+2021-02-10 01:32:05

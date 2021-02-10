@@ -51,6 +51,12 @@
 |<img src="../../de_DE/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand Mobilsteckdose Céliane||||
 |<img src="../../de_DE/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand Rollladen||||
 
+# Signify
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/Signify_Netherlands_B.V..LCA001.png" width="60" />|Signify|Sirene||||
+
 # Adeo
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -364,4 +370,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-02-09 01:32:11
+2021-02-10 01:32:05

@@ -51,6 +51,12 @@
 |<img src="../../fr_FR/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand prise mobile Céliane||||
 |<img src="../../fr_FR/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand volet roulant||||
 
+# Signify
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/Signify_Netherlands_B.V..LCA001.png" width="60" />|Signify|Sirene||||
+
 # Adeo
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -364,4 +370,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-02-09 01:32:11
+2021-02-10 01:32:05
