@@ -9,7 +9,7 @@
 - La fonction `scenario->getHumanName()` de la class php scenario ne renvoit plus `[object][group][name]` mais `[group][object][name]`.
 - La fonction `scenario->byString()` doit maintenant être appellée avec la structure `[group][object][name]`.
 - La fonction `ajax::init()` accepte depuis la v4 un tableau "d'action" en paramètre et depuis la v4.1 vérifie si l'action reçue dans le querystring (avec une requête GET) est listée dans ce tableau, si ce n'est pas le cas la requête est bloquée.
-Attention, en V3 l'arguement optionnel était un boolean; donc il est possible de faire un code compatible v4.0 et supérieur mais pas avec la v3.
+Attention, en V3 l'argument optionnel était un boolean; donc il est possible de faire un code compatible v4.0 et supérieur mais pas avec la v3.
 ````php
   /* Fonction permettant l'envoi de l'entête 'Content-Type: application/json'
     En V3 : indiquer l'argument 'true' pour contrôler le token d'accès Jeedom
