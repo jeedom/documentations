@@ -316,6 +316,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/TUYATEC-ydcwf5m2.RH3001.png" width="60" />|Tuya|Sensor de apertura||||
 |<img src="../../es_ES/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Temperatura / humedad||||
 |<img src="../../es_ES/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Actuador de radiador Moes||||
 |<img src="../../es_ES/zigbee/images/_TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|BlitzWolf BW-SS7 ZigBee3.0 2300W 1 entrada||||
@@ -370,4 +371,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-02-10 01:32:05
+2021-02-11 01:32:11
