@@ -12,7 +12,7 @@ It is possible to access data from **consumption**, of **production** or to the 
 
 5 data are reported for each type of measurement :
 - the **hourly consumption** per half hour *(in kW)*.
->*Otherwise called "consumption curve" or "drawn power", this data returns the power demanded by all your electrical devices on average over half an hour.*
+>*Otherwise called "load curve", this data returns the power demanded / injected on average over half an hour.*
 
 - the **daily consumption** *(in kWh)*.
 - the **monthly consumption** *(in kWh)*.
@@ -61,7 +61,7 @@ Once the data sharing is validated, this page is displayed :
 >    
 >If you are unable to access any of these pages, disable the browser ad blocker.
 
-Once data sharing has been authorized, all that remains is to enter the identification number of the Delivery Point concerned *(PDL)* and the type of measurement to recover.
+Once the data sharing has been authorized, all that remains is to inform **the identification number of the Delivery Point** concerned *(PDL)* and the **type of measurement** to get back.
 
 When saving the equipment for the first time, the plugin will automatically create the necessary commands and integrate the histories available on the Enedis website up to 3 years back.
 
@@ -75,11 +75,11 @@ When saving the equipment for the first time, the plugin will automatically crea
 
 # Widget template
 
-The plugin offers the possibility of displaying consumption and / or production data in a widget template imitating the appearance of a meter *Linky*. The click on the button "**- | +**" allows to switch from consumption to production for those who have access to 2 types of measures.
+The plugin offers the possibility of displaying consumption and / or production data in a widget template imitating the appearance of a meter *Linky*. The click on the button "**- \| +**" allows to switch from consumption to production for those who have access to 2 types of measures.
 
 ![Widget template](./images/enedis_screenshot1.png)
 
-To activate this option, just check the box **Widget template** on the general page of the equipment concerned. Once the box is checked, an option allows you to select the background color of the widget.
+To activate this option, just check the box **Widget template** on the general page of the equipment concerned. Once the box is checked, an option allows you to select the background color of the widget *(163, 204, 40 by default)*.
 
 >**INFORMATION**
 >     
@@ -88,7 +88,3 @@ To activate this option, just check the box **Widget template** on the general p
 >**TRICK**
 >     
 >In desktop version, the information displayed on the widget adapts in size when resizing the tile.
-
-# Changelog
-
-[See the changelog](https:\ / \ / doc.jeedom.com \ /#language#\ / plugins \ / energy \ / enedis \ / changelog)

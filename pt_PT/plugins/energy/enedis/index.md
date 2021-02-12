@@ -12,7 +12,7 @@ Plugin que permite a recuperação de dados de consumo de eletricidade de medido
 
 5 dados são relatados para cada tipo de medição :
 - o **consumo por hora** por meia hora *(em kW)*.
->*Também chamado de "curva de consumo" ou "potência extraída", esses dados retornam a potência exigida por todos os seus dispositivos elétricos em média ao longo de meia hora.*
+>*Também chamado de "curva de carga", esse dado retorna a potência exigida / injetada em média ao longo de meia hora.*
 
 - o **consumo diário** *(em kWh)*.
 - o **consumo mensal** *(em kWh)*.
@@ -61,7 +61,7 @@ Depois que o compartilhamento de dados é validado, esta página é exibida :
 >    
 >Se você não conseguir acessar nenhuma dessas páginas, desative o bloqueador de anúncios do navegador.
 
-Uma vez que o compartilhamento de dados tenha sido autorizado, resta inserir o número de identificação do Ponto de Entrega em questão *(PDL)* e o tipo de medição para recuperar.
+Uma vez que o compartilhamento de dados foi autorizado, tudo o que resta é informar **o número de identificação do Ponto de Entrega** preocupado *(PDL)* e a **tipo de medição** para voltar.
 
 Ao salvar o equipamento pela primeira vez, o plugin irá criar automaticamente os comandos necessários e integrar os históricos disponíveis no site da Enedis até 3 anos atrás.
 
@@ -75,11 +75,11 @@ Ao salvar o equipamento pela primeira vez, o plugin irá criar automaticamente o
 
 # Template de widget
 
-O plugin oferece a possibilidade de exibir dados de consumo e / ou produção em um template de widget que imita a aparência de um medidor *Linky*. O clique no botão "**- | +**" permite passar do consumo para a produção para quem tem acesso a 2 tipos de medidas.
+O plugin oferece a possibilidade de exibir dados de consumo e / ou produção em um template de widget que imita a aparência de um medidor *Linky*. O clique no botão "**- \| +**" permite passar do consumo para a produção para quem tem acesso a 2 tipos de medidas.
 
 ![Template de widget](../images/enedis_screenshot1.png)
 
-Para ativar esta opção, basta marcar a caixa **Template de widget** na página geral do equipamento em questão. Uma vez que a caixa é marcada, uma opção permite que você selecione a cor de fundo do widget.
+Para ativar esta opção, basta marcar a caixa **Template de widget** na página geral do equipamento em questão. Uma vez que a caixa é marcada, uma opção permite que você selecione a cor de fundo do widget *(163, 204, 40 por padrão)*.
 
 >**EM FORMAÇÃO**
 >     
@@ -88,7 +88,3 @@ Para ativar esta opção, basta marcar a caixa **Template de widget** na página
 >**DICA**
 >     
 >Na versão desktop, as informações exibidas no widget se adaptam em tamanho ao redimensionar o bloco.
-
-# Changelog
-
-[Veja o changelog](https:\ / \ / doc.jeedom.com \ /#language#\ / plugins \ / energy \ / enedis \ / changelog)

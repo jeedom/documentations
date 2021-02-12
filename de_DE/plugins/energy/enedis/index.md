@@ -12,7 +12,7 @@ Es ist möglich, auf Daten von zuzugreifen **Verbrauch**, von **Produktion** ode
 
 Für jede Messart werden 5 Daten angegeben :
 - die **stündlicher Verbrauch** pro halbe Stunde *(in kW)*.
->*Diese Daten werden auch als "Verbrauchskurve" oder "Stromaufnahme" bezeichnet und geben die von all Ihren elektrischen Geräten im Durchschnitt über eine halbe Stunde benötigte Leistung zurück.*
+>*Andernfalls als "Lastkurve" bezeichnet, geben diese Daten die durchschnittlich über eine halbe Stunde angeforderte / eingespeiste Leistung zurück.*
 
 - die **Täglicher Verbrauch** *(in kWh)*.
 - die **monatlicher Verbrauch** *(in kWh)*.
@@ -61,7 +61,7 @@ Sobald die Datenfreigabe überprüft wurde, wird diese Seite angezeigt :
 >    
 >Wenn Sie auf keine dieser Seiten zugreifen können, deaktivieren Sie den Browser-Werbeblocker.
 
-Nachdem die Datenfreigabe autorisiert wurde, müssen Sie lediglich die Identifikationsnummer des betreffenden Lieferpunkts eingeben *(PDL)* und die Art der zu erholenden Messung.
+Sobald die Datenfreigabe autorisiert wurde, müssen Sie nur noch informieren **die Identifikationsnummer der Lieferstelle** besorgt *(PDL)* und der **Art der Messung** zurück zu bekommen.
 
 Beim ersten Speichern der Geräte erstellt das Plugin automatisch die erforderlichen Befehle und integriert die auf der Enedis-Website verfügbaren Historien bis zu 3 Jahren.
 
@@ -75,11 +75,11 @@ Beim ersten Speichern der Geräte erstellt das Plugin automatisch die erforderli
 
 # Widget-Vorlage
 
-Das Plugin bietet die Möglichkeit, Verbrauchs- und / oder Produktionsdaten in einer Widget-Vorlage anzuzeigen, die das Erscheinungsbild eines Zählers imitiert *Linky*. Der Klick auf die Schaltfläche "**- | +**" ermöglicht den Wechsel vom Verbrauch zur Produktion für diejenigen, die Zugang zu zwei Arten von Maßnahmen haben.
+Das Plugin bietet die Möglichkeit, Verbrauchs- und / oder Produktionsdaten in einer Widget-Vorlage anzuzeigen, die das Erscheinungsbild eines Zählers imitiert *Linky*. Der Klick auf die Schaltfläche "**- \.| +**" ermöglicht den Wechsel vom Verbrauch zur Produktion für diejenigen, die Zugang zu zwei Arten von Maßnahmen haben.
 
 ![Widget-Vorlage](./images/enedis_screenshot1.png)
 
-Um diese Option zu aktivieren, aktivieren Sie einfach das Kontrollkästchen **Widget-Vorlage** auf der allgemeinen Seite der betreffenden Ausrüstung. Sobald das Kontrollkästchen aktiviert ist, können Sie mit einer Option die Hintergrundfarbe des Widgets auswählen.
+Um diese Option zu aktivieren, aktivieren Sie einfach das Kontrollkästchen **Widget-Vorlage** auf der allgemeinen Seite der betreffenden Ausrüstung. Sobald das Kontrollkästchen aktiviert ist, können Sie mit einer Option die Hintergrundfarbe des Widgets auswählen *(Standardmäßig 163, 204, 40)*.
 
 >**INFORMATION**
 >     
@@ -88,7 +88,3 @@ Um diese Option zu aktivieren, aktivieren Sie einfach das Kontrollkästchen **Wi
 >**TIPP**
 >     
 >In der Desktop-Version passen sich die im Widget angezeigten Informationen an die Größe an, wenn die Größe der Kachel geändert wird.
-
-# Changelog
-
-[Siehe das Änderungsprotokoll](https:\ / \ / doc.jeedom.com \ /#language#\ / plugins \ / energy \ / enedis \ / changelog)

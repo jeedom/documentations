@@ -12,7 +12,7 @@ Es posible acceder a datos desde **consumo**, de **producción** oa los 2 tipos 
 
 Se reportan 5 datos para cada tipo de medición :
 - el **consumo por hora** por media hora *(en kW)*.
->*También llamada "curva de consumo" o "potencia extraída", estos datos devuelven la potencia demandada por todos sus dispositivos eléctricos en un promedio de media hora.*
+>*También llamado "curva de carga", estos datos devuelven la potencia demandada / inyectada en promedio durante media hora.*
 
 - el **consumo diario** *(en kWh)*.
 - el **consumo mensual** *(en kWh)*.
@@ -61,7 +61,7 @@ Una vez que se valida el intercambio de datos, se muestra esta página :
 >    
 >Si no puede acceder a ninguna de estas páginas, desactive el bloqueador de anuncios del navegador.
 
-Una vez que se ha autorizado el intercambio de datos, solo queda ingresar el número de identificación del Punto de Entrega correspondiente *(PDL)* y el tipo de medida a recuperar.
+Una vez que se ha autorizado el intercambio de datos, todo lo que queda es informar **el número de identificación del Punto de Entrega** preocupado *(PDL)* y el **tipo de medida** volver.
 
 Al guardar el equipo por primera vez, el complemento creará automáticamente los comandos necesarios e integrará los historiales disponibles en el sitio web de Enedis hasta hace 3 años.
 
@@ -75,11 +75,11 @@ Al guardar el equipo por primera vez, el complemento creará automáticamente lo
 
 # Plantilla de widget
 
-El complemento ofrece la posibilidad de mostrar datos de consumo y / o producción en una plantilla de widget imitando la apariencia de un medidor *Linky*. El clic en el botón "**- | +**" permite pasar del consumo a la producción para quienes tienen acceso a 2 tipos de medidas.
+El complemento ofrece la posibilidad de mostrar datos de consumo y / o producción en una plantilla de widget imitando la apariencia de un medidor *Linky*. El clic en el botón "**- \| +**" permite pasar del consumo a la producción para quienes tienen acceso a 2 tipos de medidas.
 
 ![Plantilla de widget](./images/enedis_screenshot1.png)
 
-Para activar esta opción, simplemente marque la casilla **Plantilla de widget** en la página general del equipo en cuestión. Una vez que la casilla está marcada, una opción le permite seleccionar el color de fondo del widget.
+Para activar esta opción, simplemente marque la casilla **Plantilla de widget** en la página general del equipo en cuestión. Una vez que la casilla está marcada, una opción le permite seleccionar el color de fondo del widget *(163, 204, 40 por defecto)*.
 
 >**INFORMACIÓN**
 >     
@@ -88,7 +88,3 @@ Para activar esta opción, simplemente marque la casilla **Plantilla de widget**
 >**CONSEJO**
 >     
 >En la versión de escritorio, la información que se muestra en el widget se adapta en tamaño al cambiar el tamaño del mosaico.
-
-# Changelog
-
-[Ver el registro de cambios](https:\ / \ / doc.jeedom.com \ /#language#\ / plugins \ / energy \ / enedis \ / changelog)

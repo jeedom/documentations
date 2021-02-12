@@ -1,6 +1,6 @@
 # Changelog Enedis Linky
 
-# Changelog Plugin Enedis Linky
+# Changelog Plugin Linky Enedis
 
 >**Wichtig**
 >

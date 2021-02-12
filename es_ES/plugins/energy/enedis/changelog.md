@@ -1,6 +1,6 @@
 # Registro de cambios Enedis Linky
 
-# Complemento de registro de cambios Enedis Linky
+# Complemento de registro de cambios Linky Enedis
 
 >**Importante**
 >

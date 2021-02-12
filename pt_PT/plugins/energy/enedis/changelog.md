@@ -1,6 +1,6 @@
 # Changelog Enedis Linky
 
-# Plugin de registro de mudanças Enedis Linky
+# Plugin de registro de mudanças Linky Enedis
 
 >**IMPORTANTE**
 >
