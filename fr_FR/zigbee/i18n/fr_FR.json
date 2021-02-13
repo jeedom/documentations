@@ -31,6 +31,8 @@
         "Remarque": "Remarque",
         "Lien": "Lien",
         "Tuya": "Tuya",
+        "Sirene": "Sirene",
+        "Tuya TS0042": "Tuya TS0042",
         "Interrupteur de scène 3 boutons": "Interrupteur de scène 3 boutons",
         "MicroModule lumiere Tuya ZigBee 3.0": "MicroModule lumiere Tuya ZigBee 3.0",
         "Interrupteur 4 boutons": "Interrupteur 4 boutons",
@@ -46,6 +48,7 @@
         "Moes Radiator Actuator": "Moes Radiator Actuator",
         "Température\/humidité": "Température\/humidité",
         "Capteur ouverture": "Capteur ouverture",
+        "Tuya prise + 2 USB": "Tuya prise + 2 USB",
         "Tryo2sys": "Tryo2sys",
         "PTM 215 ZE": "PTM 215 ZE",
         "Sunricher": "Sunricher",
@@ -63,6 +66,8 @@
         "Sonoff Basic ZBR3": "Sonoff Basic ZBR3",
         "Sonoff ZBMINI": "Sonoff ZBMINI",
         "Schneider": "Schneider",
+        "Schneider Electric iTRV": "Schneider Electric iTRV",
+        "Tête thermostatique": "Tête thermostatique",
         "Wiser micro module dimmer": "Wiser micro module dimmer",
         "Variateur": "Variateur",
         "Wiser Exxact dimmer rotary": "Wiser Exxact dimmer rotary",
@@ -176,6 +181,7 @@
         "AC dimmer": "AC dimmer",
         "Filamant Bulb": "Filamant Bulb",
         "Heiman": "Heiman",
+        "Schneider Plug": "Schneider Plug",
         "Smoke sensor": "Smoke sensor",
         "CO Sensor": "CO Sensor",
         "Gledopto": "Gledopto",
@@ -186,7 +192,6 @@
         "OnOff Controller": "OnOff Controller",
         "Danfoss": "Danfoss",
         "Danfoss Ally": "Danfoss Ally",
-        "Tête thermostatique": "Tête thermostatique",
         "Danfoss Icon Floor Controller": "Danfoss Icon Floor Controller",
         "Contrôleur Plancher Chauffant": "Contrôleur Plancher Chauffant",
         "Danalock": "Danalock",
@@ -203,8 +208,6 @@
         "Adeo LEXK-4": "Adeo LEXK-4",
         "Adeo LEXK-2": "Adeo LEXK-2",
         "Adeo LEXK-1": "Adeo LEXK-1",
-        "Signify": "Signify",
-        "Sirene": "Sirene",
         "Legrand": "Legrand",
         "Legrand volet roulant": "Legrand volet roulant",
         "Legrand prise mobile Céliane": "Legrand prise mobile Céliane",
@@ -240,6 +243,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-02-12 01": "2021-02-12 01"
+        "2021-02-13 01": "2021-02-13 01"
     }
 }

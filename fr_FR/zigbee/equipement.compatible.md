@@ -51,12 +51,6 @@
 |<img src="../../fr_FR/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand prise mobile Céliane||||
 |<img src="../../fr_FR/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand volet roulant||||
 
-# Signify
-
-|Image|Marque|Nom|Type|Remarque|Lien|
-|---|---|---|---|---|---|
-|<img src="../../fr_FR/zigbee/images/Signify_Netherlands_B.V..LCA001.png" width="60" />|Signify|Sirene||||
-
 # Adeo
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -120,6 +114,7 @@
 |<img src="../../fr_FR/zigbee/images/HEIMAN.SmokeSensor-EF-3.0.png" width="60" />|Heiman|Smoke sensor||||
 |<img src="../../fr_FR/zigbee/images/HEIMAN.SmokeSensor-EM.png" width="60" />|Heiman|Smoke sensor||||
 |<img src="../../fr_FR/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Smoke sensor||||
+|<img src="../../fr_FR/zigbee/images/Heiman.SmartPlug.png" width="60" />|Heiman|Schneider Plug||||
 
 # Icasa
 
@@ -283,6 +278,7 @@
 |<img src="../../fr_FR/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Wiser Water Leakage Sensor|Fuite|||
 |<img src="../../fr_FR/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Wiser Exxact dimmer rotary|Variateur|||
 |<img src="../../fr_FR/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|Wiser micro module dimmer|Variateur|||
+|<img src="../../fr_FR/zigbee/images/Schneider_Electric.iTRV.png" width="60" />|Schneider|Schneider Electric iTRV|Tête thermostatique|||
 
 # Sonoff
 
@@ -316,8 +312,11 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/3A_Smart_Home_DE.LXN59-1S7LX1.0.png" width="60" />|Tuya|Tuya prise + 2 USB||||
+|<img src="../../fr_FR/zigbee/images/TUYATEC-gqhxixyk.RH3052.png" width="60" />|Tuya|Température/humidité||||
 |<img src="../../fr_FR/zigbee/images/TUYATEC-ydcwf5m2.RH3001.png" width="60" />|Tuya|Capteur ouverture||||
 |<img src="../../fr_FR/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Température/humidité||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interrupteur 4 boutons||||
 |<img src="../../fr_FR/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Moes Radiator Actuator||||
 |<img src="../../fr_FR/zigbee/images/_TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|BlitzWolf BW-SS7 ZigBee3.0 2300W 1 entrée||||
 |<img src="../../fr_FR/zigbee/images/_TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Interrupteur simple||||
@@ -328,6 +327,8 @@
 |<img src="../../fr_FR/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interrupteur 4 boutons||||
 |<img src="../../fr_FR/zigbee/images/_TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MicroModule lumiere Tuya ZigBee 3.0||||
 |<img src="../../fr_FR/zigbee/images/_TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Interrupteur de scène 3 boutons||||
+|<img src="../../fr_FR/zigbee/images/_TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Tuya TS0042|||[Acheter](l)|
+|<img src="../../fr_FR/zigbee/images/_TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Sirene||||
 
 # Xiaomi
 
@@ -371,4 +372,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-02-12 01:32:19
+2021-02-13 01:32:05
