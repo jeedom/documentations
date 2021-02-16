@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 16/11/2020
+
+- New presentation of the list of objects
+- Addition of the tag "V4 compatibility"
+
 # 11/14/2019
 
 - Bugfix
@@ -18,7 +23,7 @@
 
 # 01/16/2019
 
-- Correction of a dependency problem
+- Fixed an issue with dependencies
 
 # 11/23/2018
 
@@ -26,8 +31,8 @@
 
 # 11/09/2018
 
-- Possibility of adding options on the openvpn configuration
-- Ability to execute commands after starting DNS (the tag #interface# allows to have the name of the interface)
+- Possibility to add options on the openvpn configuration
+- Ability to execute commands after starting DNS (the tag #interface# allows to obtain the name of the interface)
 
 # 10/30/2018
 
@@ -43,7 +48,7 @@
 
 # 04/15/2018
 
-- The verification of the VPN status is now done every 5 min instead of 15 min
+- The VPN status check is now done every 5 minutes instead of 15 minutes
 
 # 03/01/2018
 

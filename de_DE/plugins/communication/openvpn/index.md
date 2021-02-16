@@ -1,10 +1,10 @@
 # Openvpn Plugin
 
-Dieses Plugin ermöglicht die Verbindung von Jeedom mit einem openvpn-Server. Es wird auch für den Jeedom-DNS-Dienst verwendet und ist daher obligatorisch, mit dem Sie über das Internet auf Ihr Jeedom zugreifen können
+Dieses Plugin ermöglicht die Verbindung von Jeedom mit einem openvpn-Server. Es wird auch für den Jeedom-DNS-Dienst verwendet und ist daher obligatorisch, mit dem Sie über das Internet auf Ihr Jeedom zugreifen können.
 
 # Plugin Konfiguration
 
-Nach dem Herunterladen des Plugins müssen Sie nur die openvpn-Abhängigkeiten aktivieren und installieren (klicken Sie auf die Schaltfläche Installieren / Aktualisieren)
+Aktivieren und installieren Sie nach dem Herunterladen des Plugins einfach die openvpn-Abhängigkeiten (klicken Sie auf die Schaltfläche **Installiere Update**)
 
 # Gerätekonfiguration
 
@@ -22,7 +22,7 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
 > **Notiz**
 >
-> Für Shell-Befehle, die nach dem Start ausgeführt werden, haben Sie das Tag #interface# für den Schnittstellennamen automatisch ersetzt
+> In Bezug auf Shell-Befehle, die nach dem Start ausgeführt werden, gibt es das Tag `#interface#`Erlauben, den Namen der aktuellen Schnittstelle zu erhalten.
 
 Nachfolgend finden Sie die Liste der Bestellungen :
 
@@ -32,4 +32,4 @@ Nachfolgend finden Sie die Liste der Bestellungen :
 
 > **Notiz**
 >
-> Jeedom überprüft alle 15 Minuten, ob das VPN gestartet oder gestoppt wurde (falls erforderlich), und handelt entsprechend, wenn dies nicht der Fall ist
+> Jeedom überprüft alle 5 Minuten, ob das VPN gestartet oder gestoppt wurde, und handelt entsprechend, wenn dies nicht der Fall ist.

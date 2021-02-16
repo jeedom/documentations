@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 16/11/2020
+
+- Nueva presentación de la lista de objetos
+- Adición de la etiqueta "compatibilidad V4"
+
 # 11/14/2019
 
 - Correcciones de errores
@@ -18,7 +23,7 @@
 
 # 16/01/2019
 
-- Corrección de un problema de dependencia
+- Se solucionó un problema con las dependencias
 
 # 23/11/2018
 
@@ -26,8 +31,8 @@
 
 # 09/11/2018
 
-- Posibilidad de agregar opciones en la configuración openvpn
-- Capacidad para ejecutar comandos después de iniciar DNS (la etiqueta #interface# permite tener el nombre de la interfaz)
+- Posibilidad de agregar opciones en la configuración de openvpn
+- Capacidad para ejecutar comandos después de iniciar DNS (la etiqueta #interface# permite obtener el nombre de la interfaz)
 
 # 10/30/2018
 

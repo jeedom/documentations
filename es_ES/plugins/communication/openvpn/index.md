@@ -1,10 +1,10 @@
 # Complemento Openvpn
 
-Este complemento permite conectar Jeedom a un servidor openvpn. También se usa y, por lo tanto, es obligatorio para el servicio DNS de Jeedom que le permite acceder a su Jeedom desde Internet
+Este complemento permite conectar Jeedom a un servidor openvpn. También se utiliza y, por lo tanto, es obligatorio para el servicio de DNS de Jeedom que le permite acceder a su Jeedom desde Internet.
 
 # Configuración del plugin
 
-Después de descargar el complemento, solo necesita activar e instalar las dependencias de openvpn (haga clic en el botón Instalar / Actualizar)
+Después de descargar el complemento, simplemente active e instale las dependencias de openvpn (haga clic en el botón **Instalar actualización**)
 
 # Configuración del equipo
 
@@ -18,11 +18,11 @@ Aquí encontrarás toda la configuración de tu equipo :
 
 > **Nota**
 >
-> Las otras opciones no se detallarán aquí; para obtener más información, consulte el [documentación de openvpn](https://openvpn.net/index.php/open-source/documentation.html)
+> Las otras opciones no se detallarán aquí; para obtener más información, consulte la [documentación openvpn](https://openvpn.net/index.php/open-source/documentation.html)
 
 > **Nota**
 >
-> Para los comandos de shell ejecutados después del inicio, tiene la etiqueta #interface# para el nombre de la interfaz reemplazado automáticamente
+> Con respecto a los comandos de shell ejecutados después del inicio, existe la etiqueta `#interface#`permitiendo obtener el nombre de la interfaz actual.
 
 A continuación encontrará la lista de pedidos :
 
@@ -32,4 +32,4 @@ A continuación encontrará la lista de pedidos :
 
 > **Nota**
 >
-> Jeedom verificará cada 15 minutos si la VPN se inicia o detiene (si es necesario) y actuará en consecuencia si no es así
+> Jeedom comprobará cada 5 minutos si la VPN está iniciada o detenida y actuará en consecuencia si no lo está.
