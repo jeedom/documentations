@@ -39,6 +39,12 @@
 |<img src="../../fr_FR/zigbee/images/Groupes.Luminosite-On-Off.png" width="60" />|Groupes|Luminosité - On - Off||||
 |<img src="../../fr_FR/zigbee/images/Groupes.On-Off.png" width="60" />|Groupes|On - Off||||
 
+# JunYu
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/JunYu.ZB-RGBCW.png" width="60" />|JunYu|LED RGBW||||
+
 # Legrand
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -315,6 +321,7 @@
 |<img src="../../fr_FR/zigbee/images/3A_Smart_Home_DE.LXN59-1S7LX1.0.png" width="60" />|Tuya|Tuya prise + 2 USB||||
 |<img src="../../fr_FR/zigbee/images/TUYATEC-gqhxixyk.RH3052.png" width="60" />|Tuya|Température/humidité||||
 |<img src="../../fr_FR/zigbee/images/TUYATEC-ydcwf5m2.RH3001.png" width="60" />|Tuya|Capteur ouverture||||
+|<img src="../../fr_FR/zigbee/images/TUYATEC-zn9wyqtr.RH3040.png" width="60" />|Tuya|Détecteur de mouvement||||
 |<img src="../../fr_FR/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Température/humidité||||
 |<img src="../../fr_FR/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interrupteur 4 boutons||||
 |<img src="../../fr_FR/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Moes Radiator Actuator||||
@@ -323,6 +330,7 @@
 |<img src="../../fr_FR/zigbee/images/_TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Interrupteur double||||
 |<img src="../../fr_FR/zigbee/images/_TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|ASLED Swing||||
 |<img src="../../fr_FR/zigbee/images/_TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 Zigbee 3.0 Prise WIFI intelligente 16A Prise EU||||
+|<img src="../../fr_FR/zigbee/images/_TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Multiprise connectée||||
 |<img src="../../fr_FR/zigbee/images/_TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Module prise de vie connectée Tuya ZigBee 3.0||||
 |<img src="../../fr_FR/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interrupteur 4 boutons||||
 |<img src="../../fr_FR/zigbee/images/_TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MicroModule lumiere Tuya ZigBee 3.0||||
@@ -334,6 +342,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_ln2.aq1.png" width="60" />|Xiaomi|Xioami interrupteur double sans neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|Xiaomi interrupteur simple sans neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|Xioami interrupteur double sans neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.light.aqcn02.png" width="60" />|Xiaomi|Ampoule LED Zigbee Aqara||||
@@ -347,6 +356,7 @@
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|Xioami interrupteur double|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.remote.b686opcn01.png" width="60" />|Xiaomi|Aqara Opple 6 boutons||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|Capteur de luminosité||||
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sens.png" width="60" />|Xiaomi|Capteur de température/humidité||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_86sw1.png" width="60" />|Xiaomi|Xioami interrupteur simple|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_86sw2.png" width="60" />|Xiaomi|Xioami interrupteur double|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_cube.png" width="60" />|Xiaomi|Xiaomi smart cube||||
@@ -359,6 +369,7 @@
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_switch.aq2.png" width="60" />|Xiaomi|Xiaomi Aquara switch Aq2||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_switch.png" width="60" />|Xiaomi|Xiaomi Aquara switch||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|Xiaomi Aquara inondation|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.switch.n0agl1.png" width="60" />|Xiaomi|Micro module on/off avec neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|Xioami Aquara Vibration|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|Capteur de température/pression/humidité||||
 |<img src="../../fr_FR/zigbee/images/XIAOMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|Capteur de luminosité||||
@@ -372,4 +383,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-02-15 01:32:18
+2021-02-16 01:32:05

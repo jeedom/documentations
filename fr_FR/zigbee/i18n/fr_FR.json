@@ -9,6 +9,7 @@
         "iaomi prise": "iaomi prise",
         "Capteur de luminosité": "Capteur de luminosité",
         "Capteur de température\/pression\/humidité": "Capteur de température\/pression\/humidité",
+        "Micro module on\/off avec neutre": "Micro module on\/off avec neutre",
         "iaomi Aquara switch Aq2": "iaomi Aquara switch Aq2",
         "iaomi Aquara fumée": "iaomi Aquara fumée",
         "iaomi capteur de mouvement": "iaomi capteur de mouvement",
@@ -37,6 +38,7 @@
         "MicroModule lumiere Tuya ZigBee 3.0": "MicroModule lumiere Tuya ZigBee 3.0",
         "Interrupteur 4 boutons": "Interrupteur 4 boutons",
         "Module prise de vie connectée Tuya ZigBee 3.0": "Module prise de vie connectée Tuya ZigBee 3.0",
+        "Multiprise connectée": "Multiprise connectée",
         "0 Prise WIFI intelligente 16A Prise EU": "0 Prise WIFI intelligente 16A Prise EU",
         "BlitzWolf BW-SHP13 Zigbee 3": "BlitzWolf BW-SHP13 Zigbee 3",
         "ASLED Swing": "ASLED Swing",
@@ -47,6 +49,7 @@
         "Moes": "Moes",
         "Moes Radiator Actuator": "Moes Radiator Actuator",
         "Température\/humidité": "Température\/humidité",
+        "Détecteur de mouvement": "Détecteur de mouvement",
         "Capteur ouverture": "Capteur ouverture",
         "Tuya prise + 2 USB": "Tuya prise + 2 USB",
         "Tryo2sys": "Tryo2sys",
@@ -215,6 +218,8 @@
         "Legrand interrupteur double": "Legrand interrupteur double",
         "Legrand variateur": "Legrand variateur",
         "Legrand contactor": "Legrand contactor",
+        "JunYu": "JunYu",
+        "LED RGBW": "LED RGBW",
         "Groupes": "Groupes",
         "On - Off": "On - Off",
         "Luminosité - On - Off": "Luminosité - On - Off",
@@ -243,6 +248,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-02-15 01": "2021-02-15 01"
+        "2021-02-16 01": "2021-02-16 01"
     }
 }
