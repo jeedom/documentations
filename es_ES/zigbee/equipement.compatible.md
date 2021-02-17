@@ -272,7 +272,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/profalux.moe.png" width="60" />|Profalux|Profalux MOE||||
+|<img src="../../es_ES/zigbee/images/profalux.noe.png" width="60" />|Profalux|Profalux MOE||||
 
 # Schneider
 
@@ -326,6 +326,7 @@
 |<img src="../../es_ES/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interruptor de 4 botones||||
 |<img src="../../es_ES/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Actuador de radiador Moes||||
 |<img src="../../es_ES/zigbee/images/_TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|BlitzWolf BW-SS7 ZigBee3.0 2300W 1 entrada||||
+|<img src="../../es_ES/zigbee/images/_TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Moes cambia la luz||||
 |<img src="../../es_ES/zigbee/images/_TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Interruptor único||||
 |<img src="../../es_ES/zigbee/images/_TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Interruptor doble||||
 |<img src="../../es_ES/zigbee/images/_TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|Columpio ASLED||||
@@ -342,7 +343,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/LUMI.lumi.ctrl_ln2.aq1.png" width="60" />|Xiaomi|Xioami doble interruptor sin neutro||||
+|<img src="../../es_ES/zigbee/images/LUMI.lumi.ctrl_ln2.aq1.png" width="60" />|Xiaomi|Xioami doble interruptor con neutral||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|Xinterruptor individual iaomi sin neutro||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|Xioami doble interruptor sin neutro||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.light.aqcn02.png" width="60" />|Xiaomi|Bombilla LED Zigbee Aqara||||
@@ -383,4 +384,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-02-16 01:32:05
+2021-02-17 01:32:04

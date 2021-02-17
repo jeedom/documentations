@@ -272,7 +272,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/profalux.moe.png" width="60" />|Profalux|Profalux MOE||||
+|<img src="../../en_US/zigbee/images/profalux.noe.png" width="60" />|Profalux|Profalux MOE||||
 
 # Schneider
 
@@ -326,6 +326,7 @@
 |<img src="../../en_US/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 button switch||||
 |<img src="../../en_US/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Moes Radiator Actuator||||
 |<img src="../../en_US/zigbee/images/_TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|BlitzWolf BW-SS7 ZigBee3.0 2300W 1 input||||
+|<img src="../../en_US/zigbee/images/_TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Moes switch light||||
 |<img src="../../en_US/zigbee/images/_TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Single switch||||
 |<img src="../../en_US/zigbee/images/_TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Double switch||||
 |<img src="../../en_US/zigbee/images/_TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|ASLED Swing||||
@@ -342,7 +343,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_ln2.aq1.png" width="60" />|Xiaomi|Xioami double switch without neutral||||
+|<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_ln2.aq1.png" width="60" />|Xiaomi|Xioami double switch with neutral||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|Xiaomi single switch without neutral||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|Xioami double switch without neutral||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.light.aqcn02.png" width="60" />|Xiaomi|Zigbee Aqara LED bulb||||
@@ -383,4 +384,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-02-16 01:32:05
+2021-02-17 01:32:04

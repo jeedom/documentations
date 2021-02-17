@@ -25,6 +25,7 @@
         "Ampoule LED Zigbee Aqara": "Ampoule LED Zigbee Aqara",
         "ioami interrupteur double sans neutre": "ioami interrupteur double sans neutre",
         "iaomi interrupteur simple sans neutre": "iaomi interrupteur simple sans neutre",
+        "ioami interrupteur double avec neutre": "ioami interrupteur double avec neutre",
         "Image": "Image",
         "Marque": "Marque",
         "Nom": "Nom",
@@ -44,6 +45,7 @@
         "ASLED Swing": "ASLED Swing",
         "Interrupteur double": "Interrupteur double",
         "Interrupteur simple": "Interrupteur simple",
+        "Moes switch lumière": "Moes switch lumière",
         "0 2300W 1 entrée": "0 2300W 1 entrée",
         "BlitzWolf BW-SS7 ZigBee3": "BlitzWolf BW-SS7 ZigBee3",
         "Moes": "Moes",
@@ -248,6 +250,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-02-16 01": "2021-02-16 01"
+        "2021-02-17 01": "2021-02-17 01"
     }
 }
