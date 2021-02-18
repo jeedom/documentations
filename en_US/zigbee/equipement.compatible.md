@@ -322,22 +322,22 @@
 |<img src="../../en_US/zigbee/images/TUYATEC-gqhxixyk.RH3052.png" width="60" />|Tuya|Temperature / humidity||||
 |<img src="../../en_US/zigbee/images/TUYATEC-ydcwf5m2.RH3001.png" width="60" />|Tuya|Opening sensor||||
 |<img src="../../en_US/zigbee/images/TUYATEC-zn9wyqtr.RH3040.png" width="60" />|Tuya|Movement detector||||
+|<img src="../../en_US/zigbee/images/TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|BlitzWolf BW-SS7 ZigBee3.0 2300W 1 input||||
+|<img src="../../en_US/zigbee/images/TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Moes switch light||||
+|<img src="../../en_US/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Single switch||||
+|<img src="../../en_US/zigbee/images/TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Double switch||||
 |<img src="../../en_US/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Temperature / humidity||||
+|<img src="../../en_US/zigbee/images/TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|ASLED Swing||||
+|<img src="../../en_US/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Tuya|LoraTap 3-button remote control||||
+|<img src="../../en_US/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 Zigbee 3.0 Smart WIFI socket 16A EU plug||||
+|<img src="../../en_US/zigbee/images/TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Connected power strip||||
+|<img src="../../en_US/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 connected life plug module||||
 |<img src="../../en_US/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 button switch||||
+|<img src="../../en_US/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 light microModule||||
+|<img src="../../en_US/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|3-button scene switch||||
+|<img src="../../en_US/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Tuya TS0042|||[Buy](l)|
 |<img src="../../en_US/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Moes Radiator Actuator||||
-|<img src="../../en_US/zigbee/images/_TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|BlitzWolf BW-SS7 ZigBee3.0 2300W 1 input||||
-|<img src="../../en_US/zigbee/images/_TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Moes switch light||||
-|<img src="../../en_US/zigbee/images/_TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Single switch||||
-|<img src="../../en_US/zigbee/images/_TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Double switch||||
-|<img src="../../en_US/zigbee/images/_TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|ASLED Swing||||
-|<img src="../../en_US/zigbee/images/_TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 Zigbee 3.0 Smart WIFI socket 16A EU plug||||
-|<img src="../../en_US/zigbee/images/_TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Connected power strip||||
-|<img src="../../en_US/zigbee/images/_TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 connected life plug module||||
-|<img src="../../en_US/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 button switch||||
-|<img src="../../en_US/zigbee/images/_TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 light microModule||||
-|<img src="../../en_US/zigbee/images/_TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|3-button scene switch||||
-|<img src="../../en_US/zigbee/images/_TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Tuya TS0042|||[Buy](l)|
-|<img src="../../en_US/zigbee/images/_TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Sirene||||
+|<img src="../../en_US/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Sirene||||
 
 # Xiaomi
 
@@ -384,4 +384,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-02-17 01:32:04
+2021-02-18 01:32:05

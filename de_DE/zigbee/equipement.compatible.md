@@ -322,22 +322,22 @@
 |<img src="../../de_DE/zigbee/images/TUYATEC-gqhxixyk.RH3052.png" width="60" />|Tuya|Temperatur Feuchtigkeit||||
 |<img src="../../de_DE/zigbee/images/TUYATEC-ydcwf5m2.RH3001.png" width="60" />|Tuya|Sensor öffnen||||
 |<img src="../../de_DE/zigbee/images/TUYATEC-zn9wyqtr.RH3040.png" width="60" />|Tuya|Bewegungsmelder||||
+|<img src="../../de_DE/zigbee/images/TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|BlitzWolf BW-SS7 ZigBee3.0 2300W 1 Eingang||||
+|<img src="../../de_DE/zigbee/images/TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Moes schaltet Licht||||
+|<img src="../../de_DE/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Einzelschalter||||
+|<img src="../../de_DE/zigbee/images/TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Doppelschalter||||
 |<img src="../../de_DE/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Temperatur Feuchtigkeit||||
+|<img src="../../de_DE/zigbee/images/TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|ASLED Swing||||
+|<img src="../../de_DE/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Tuya|LoraTap 3-Tasten-Fernbedienung||||
+|<img src="../../de_DE/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 ZigBee 3.0 Smart WIFI-Buchse 16A EU-Stecker||||
+|<img src="../../de_DE/zigbee/images/TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Steckdosenleiste angeschlossen||||
+|<img src="../../de_DE/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 angeschlossenes Life-Plug-Modul||||
 |<img src="../../de_DE/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 Tastenschalter||||
+|<img src="../../de_DE/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 leichtes Mikromodul||||
+|<img src="../../de_DE/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|3-Tasten-Szenenschalter||||
+|<img src="../../de_DE/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Tuya TS0042|||[Kaufen](l)|
 |<img src="../../de_DE/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Moes Kühlerantrieb||||
-|<img src="../../de_DE/zigbee/images/_TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|BlitzWolf BW-SS7 ZigBee3.0 2300W 1 Eingang||||
-|<img src="../../de_DE/zigbee/images/_TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Moes schaltet Licht||||
-|<img src="../../de_DE/zigbee/images/_TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Einzelschalter||||
-|<img src="../../de_DE/zigbee/images/_TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Doppelschalter||||
-|<img src="../../de_DE/zigbee/images/_TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|ASLED Swing||||
-|<img src="../../de_DE/zigbee/images/_TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 ZigBee 3.0 Smart WIFI-Buchse 16A EU-Stecker||||
-|<img src="../../de_DE/zigbee/images/_TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Steckdosenleiste angeschlossen||||
-|<img src="../../de_DE/zigbee/images/_TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 angeschlossenes Life-Plug-Modul||||
-|<img src="../../de_DE/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 Tastenschalter||||
-|<img src="../../de_DE/zigbee/images/_TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 leichtes Mikromodul||||
-|<img src="../../de_DE/zigbee/images/_TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|3-Tasten-Szenenschalter||||
-|<img src="../../de_DE/zigbee/images/_TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Tuya TS0042|||[Kaufen](l)|
-|<img src="../../de_DE/zigbee/images/_TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Sirene||||
+|<img src="../../de_DE/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Sirene||||
 
 # Xiaomi
 
@@ -384,4 +384,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-02-17 01:32:04
+2021-02-18 01:32:05

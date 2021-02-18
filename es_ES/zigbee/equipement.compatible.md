@@ -322,22 +322,22 @@
 |<img src="../../es_ES/zigbee/images/TUYATEC-gqhxixyk.RH3052.png" width="60" />|Tuya|Temperatura / humedad||||
 |<img src="../../es_ES/zigbee/images/TUYATEC-ydcwf5m2.RH3001.png" width="60" />|Tuya|Sensor de apertura||||
 |<img src="../../es_ES/zigbee/images/TUYATEC-zn9wyqtr.RH3040.png" width="60" />|Tuya|Detector de movimiento||||
+|<img src="../../es_ES/zigbee/images/TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|BlitzWolf BW-SS7 ZigBee3.0 2300W 1 entrada||||
+|<img src="../../es_ES/zigbee/images/TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Moes cambia la luz||||
+|<img src="../../es_ES/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Interruptor único||||
+|<img src="../../es_ES/zigbee/images/TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Interruptor doble||||
 |<img src="../../es_ES/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Temperatura / humedad||||
+|<img src="../../es_ES/zigbee/images/TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|Columpio ASLED||||
+|<img src="../../es_ES/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Tuya|Mando a distancia LoraTap de 3 botones||||
+|<img src="../../es_ES/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 Zigbee 3.0 Enchufe inteligente WIFI 16A UE||||
+|<img src="../../es_ES/zigbee/images/TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Regleta de enchufes conectada||||
+|<img src="../../es_ES/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Módulo de enchufe de vida conectado Tuya ZigBee 3.0||||
 |<img src="../../es_ES/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interruptor de 4 botones||||
+|<img src="../../es_ES/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MicroMódulo de luz Tuya ZigBee 3.0||||
+|<img src="../../es_ES/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Interruptor de escena de 3 botones||||
+|<img src="../../es_ES/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Tuya TS0042|||[Comprar](l)|
 |<img src="../../es_ES/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Actuador de radiador Moes||||
-|<img src="../../es_ES/zigbee/images/_TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|BlitzWolf BW-SS7 ZigBee3.0 2300W 1 entrada||||
-|<img src="../../es_ES/zigbee/images/_TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Moes cambia la luz||||
-|<img src="../../es_ES/zigbee/images/_TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Interruptor único||||
-|<img src="../../es_ES/zigbee/images/_TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Interruptor doble||||
-|<img src="../../es_ES/zigbee/images/_TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|Columpio ASLED||||
-|<img src="../../es_ES/zigbee/images/_TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 Zigbee 3.0 Enchufe inteligente WIFI 16A UE||||
-|<img src="../../es_ES/zigbee/images/_TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Regleta de enchufes conectada||||
-|<img src="../../es_ES/zigbee/images/_TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Módulo de enchufe de vida conectado Tuya ZigBee 3.0||||
-|<img src="../../es_ES/zigbee/images/_TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interruptor de 4 botones||||
-|<img src="../../es_ES/zigbee/images/_TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MicroMódulo de luz Tuya ZigBee 3.0||||
-|<img src="../../es_ES/zigbee/images/_TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Interruptor de escena de 3 botones||||
-|<img src="../../es_ES/zigbee/images/_TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Tuya TS0042|||[Comprar](l)|
-|<img src="../../es_ES/zigbee/images/_TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Sirene||||
+|<img src="../../es_ES/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Sirene||||
 
 # Xiaomi
 
@@ -384,4 +384,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-02-17 01:32:04
+2021-02-18 01:32:05

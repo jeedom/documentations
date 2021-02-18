@@ -34,6 +34,8 @@
         "Lien": "Lien",
         "Tuya": "Tuya",
         "Sirene": "Sirene",
+        "Moes": "Moes",
+        "Moes Radiator Actuator": "Moes Radiator Actuator",
         "Tuya TS0042": "Tuya TS0042",
         "Interrupteur de scène 3 boutons": "Interrupteur de scène 3 boutons",
         "MicroModule lumiere Tuya ZigBee 3.0": "MicroModule lumiere Tuya ZigBee 3.0",
@@ -42,15 +44,14 @@
         "Multiprise connectée": "Multiprise connectée",
         "0 Prise WIFI intelligente 16A Prise EU": "0 Prise WIFI intelligente 16A Prise EU",
         "BlitzWolf BW-SHP13 Zigbee 3": "BlitzWolf BW-SHP13 Zigbee 3",
+        "LoraTap télécommande 3 boutons": "LoraTap télécommande 3 boutons",
         "ASLED Swing": "ASLED Swing",
+        "Température\/humidité": "Température\/humidité",
         "Interrupteur double": "Interrupteur double",
         "Interrupteur simple": "Interrupteur simple",
         "Moes switch lumière": "Moes switch lumière",
         "0 2300W 1 entrée": "0 2300W 1 entrée",
         "BlitzWolf BW-SS7 ZigBee3": "BlitzWolf BW-SS7 ZigBee3",
-        "Moes": "Moes",
-        "Moes Radiator Actuator": "Moes Radiator Actuator",
-        "Température\/humidité": "Température\/humidité",
         "Détecteur de mouvement": "Détecteur de mouvement",
         "Capteur ouverture": "Capteur ouverture",
         "Tuya prise + 2 USB": "Tuya prise + 2 USB",
@@ -250,6 +251,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-02-17 01": "2021-02-17 01"
+        "2021-02-18 01": "2021-02-18 01"
     }
 }
