@@ -1,10 +1,15 @@
-# Registro de cambios Enedis Linky
+# Registro de cambios Enedis
 
-# Complemento de registro de cambios Linky Enedis
+# Complemento de registro de cambios Enedis
 
 >**Importante**
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
+
+# 18/02/2021
+
+- Se agregó administración de dependencias para confirmar la presencia de `php-mbstring` ausente en algunas instalaciones
+- Nuevo ícono de complemento más acorde con las prerrogativas de Enedis
 
 # 01/02/2021
 
@@ -15,7 +20,6 @@
 - Reescritura de cuadros de mando y plantillas de widgets móviles
 - Se agregó la posibilidad de elegir el color de fondo de la plantilla del widget *(o transparente)*
 - Reescritura de documentación
-
 
 # 10/09/2020
 - Se corrigió un error de visualización en la vista móvil sin la plantilla de widget.

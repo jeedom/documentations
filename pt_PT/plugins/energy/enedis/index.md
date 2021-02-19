@@ -1,4 +1,4 @@
-# Plug-in Enedis Linky
+# Plugin Enedis
 
 # Description
 
@@ -27,7 +27,9 @@ Plugin que permite a recuperação de dados de consumo de eletricidade de medido
 
 ## Configuração do plugin
 
-O plugin **Enedis Linky** não requer configuração específica e só deve ser ativado após a instalação.
+Como qualquer plugin Jeedom, o plugin **Enedis** deve ser ativado após a instalação.
+
+O plugin requer a presença do pacote Linux `php-mbstring` normalmente presente por padrão, então o status de dependência deve ser **Certo** assim que o plugin for instalado. Caso contrário, clique no botão **Reviver** para instalar o pacote que falta.
 
 Enquanto o plugin não recuperou todos os dados do dia anterior, ele continua a pesquisar os servidores a cada hora entre 5h e 20h, caso contrário, as chamadas serão suspensas até o dia seguinte.
 
@@ -35,7 +37,7 @@ Para não sobrecarregar os servidores Enedis, as chamadas são feitas em um minu
 
 ## Configuração do equipamento
 
-Para acessar os diferentes equipamentos **Enedis Linky**, vá para o menu **Plugins → Energia → Enedis Linky**.
+Para acessar os diferentes equipamentos **Enedis**, vá para o menu **Plugins → Energia → Enedis**.
 
 >**EM FORMAÇÃO**
 >    

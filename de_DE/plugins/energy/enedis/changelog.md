@@ -1,10 +1,15 @@
-# Changelog Enedis Linky
+# Changelog Enedis
 
-# Changelog Plugin Linky Enedis
+# Changelog Plugin Enedis
 
 >**Wichtig**
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
+
+# 18.02.2021
+
+- Abhängigkeitsverwaltung hinzugefügt, um das Vorhandensein von "php-mbstring" zu bestätigen, das bei einigen Installationen nicht vorhanden ist
+- Neues Plugin-Symbol entspricht mehr den Vorrechten von Enedis
 
 # 02/01/2021
 
@@ -15,7 +20,6 @@
 - Umschreiben von Dashboard- und mobilen Widget-Vorlagen
 - Es wurde die Möglichkeit hinzugefügt, die Hintergrundfarbe der Widget-Vorlage auszuwählen *(oder transparent)*
 - Dokumentation neu schreiben
-
 
 # 09/10/2020
 - Ein Anzeigefehler in der mobilen Ansicht ohne die Widget-Vorlage wurde behoben.

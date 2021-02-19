@@ -1,4 +1,4 @@
-# Enedis Linky Plugin
+# Enedis Plugin
 
 # Description
 
@@ -27,7 +27,9 @@ Für jede Messart werden 5 Daten angegeben :
 
 ## Plugin Konfiguration
 
-Das Plugin **Enedis Linky** erfordert keine spezielle Konfiguration und sollte erst nach der Installation aktiviert werden.
+Wie jedes Jeedom-Plugin auch das Plugin **Enedis** muss nach der Installation aktiviert werden.
+
+Das Plugin erfordert das Vorhandensein des Linux-Pakets `php-mbstring`, das normalerweise standardmäßig vorhanden ist, daher muss der Abhängigkeitsstatus sein **In Ordnung** sobald das Plugin installiert ist. Andernfalls klicken Sie auf die Schaltfläche **Beleben** um das fehlende Paket zu installieren.
 
 Solange das Plugin nicht alle Daten vom Vortag abgerufen hat, werden die Server weiterhin stündlich zwischen 17.00 und 20.00 Uhr abgefragt. Andernfalls werden Anrufe bis zum nächsten Tag ausgesetzt.
 
@@ -35,7 +37,7 @@ Um die Enedis-Server nicht zu überlasten, werden Anrufe in zufälliger Minute g
 
 ## Gerätekonfiguration
 
-Zugriff auf die verschiedenen Geräte **Enedis Linky**, Gehe zum Menü **Plugins → Energie → Enedis Linky**.
+Zugriff auf die verschiedenen Geräte **Enedis**, Gehe zum Menü **Plugins → Energie → Enedis**.
 
 >**INFORMATION**
 >    

@@ -1,10 +1,15 @@
-# Changelog Enedis Linky
+# Changelog Enedis
 
-# Plugin de registro de mudanças Linky Enedis
+# Plugin de registro de mudanças Enedis
 
 >**IMPORTANTE**
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
+
+# 18/02/2021
+
+- Adicionado gerenciamento de dependência para confirmar a presença de `php-mbstring` ausente em algumas instalações
+- Novo ícone de plugin mais alinhado com as prerrogativas da Enedis
 
 # 01/02/2021
 
@@ -15,7 +20,6 @@
 - Reescrever os modelos de painel e widget móvel
 - Adicionada a possibilidade de escolher a cor de fundo do template do widget *(ou transparente)*
 - Reescrever documentação
-
 
 # 10/09/2020
 - Corrigido um bug de exibição na visualização móvel sem o modelo de widget.

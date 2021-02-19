@@ -1,4 +1,4 @@
-# Complemento Enedis Linky
+# Complemento de Enedis
 
 # Description
 
@@ -27,7 +27,9 @@ Se reportan 5 datos para cada tipo de medición :
 
 ## Configuración del plugin
 
-El complemento **Enedis Linky** no requiere configuración específica y solo debe activarse después de la instalación.
+Como cualquier complemento de Jeedom, el complemento **Enedis** debe activarse después de la instalación.
+
+El complemento requiere la presencia del paquete de Linux `php-mbstring` normalmente presente de forma predeterminada, por lo que el estado de dependencia debe ser **Bueno** tan pronto como se instale el complemento. De lo contrario, haga clic en el botón **Reanimar** para instalar el paquete que falta.
 
 Siempre que el complemento no haya recuperado todos los datos del día anterior, continúa sondeando los servidores cada hora entre las 5 a.m. y las 8 p.m., de lo contrario, las llamadas se suspenden hasta el día siguiente.
 
@@ -35,7 +37,7 @@ Para no sobrecargar los servidores de Enedis, las llamadas se realizan en un min
 
 ## Configuración del equipo
 
-Para acceder a los diferentes equipos **Enedis Linky**, ir al menú **Complementos → Energía → Enedis Linky**.
+Para acceder a los diferentes equipos **Enedis**, ir al menú **Complementos → Energía → Enedis**.
 
 >**INFORMACIÓN**
 >    

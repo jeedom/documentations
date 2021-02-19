@@ -1,10 +1,15 @@
-# Changelog Enedis Linky
+# Changelog Enedis
 
-# Changelog plugin Linky Enedis
+# Changelog plugin Enedis
 
 >**Important**
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
+
+# 02/18/2021
+
+- Added dependency management to confirm the presence of `php-mbstring` absent on some installations
+- New plugin icon more in line with Enedis prerogatives
 
 # 02/01/2021
 
@@ -15,7 +20,6 @@
 - Rewriting of dashboard & mobile widget templates
 - Added the possibility to choose the background color of the widget template *(or transparent)*
 - Documentation rewrite
-
 
 # 09/10/2020
 - Fixed a display bug in mobile view without the widget template.
