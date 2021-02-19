@@ -43,7 +43,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/JunYu.ZB-RGBCW.png" width="60" />|JunYu|RGBW LED||||
+|<img src="../../en_US/zigbee/images/JunYu.ZB-RGBCW.png" width="60" />|JunYu|RGBW LED||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 
 # Legrand
 
@@ -148,7 +148,7 @@
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_W_opch_400lm.png" width="60" />|Ikea|Bulb E14 W opch 400lm||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_CWS_opal_600lm.png" width="60" />|Ikea|Bulb E27 CWS opal 600lm||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_1000lm.png" width="60" />|Ikea|Bulb E27 WS opal 1000lm||||
-|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_980lm.png" width="60" />|Ikea|Bulb E27 WS opal 980lm||||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_980lm.png" width="60" />|Ikea|Bulb E27 WS opal 980lm||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WW_806lm.png" width="60" />|Ikea|TRADFRI bulb E27 WW 806lm||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_W_opal_1000lm.png" width="60" />|Ikea|Bulb E27 W opal 1000lm||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WS_400lm.png" width="60" />|Ikea|Bulb GU10 WS 400lm||||
@@ -218,7 +218,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|OSRAM Smart + Connected LED Bulb - E27 Base||||
-|<img src="../../en_US/zigbee/images/OSRAM.LIGHTIFY_Indoor_Flex_RGBW.png" width="60" />|Osram|OSRAM LIGHTIFY Indoor Flex RGBW||||
+|<img src="../../en_US/zigbee/images/OSRAM.LIGHTIFY_Indoor_Flex_RGBW.png" width="60" />|Osram|OSRAM LIGHTIFY Indoor Flex RGBW||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/OSRAM.Lightify_Switch_Mini.png" width="60" />|Osram|Lightify Switch Mini||||
 |<img src="../../en_US/zigbee/images/OSRAM.MR16_TW_OSRAM.png" width="60" />|Osram|OSRAM SMART + Spot GU5.3 Tunable White||||
 |<img src="../../en_US/zigbee/images/OSRAM.Plug_01.png" width="60" />|Osram|OSRAM Smart + Plug||||
@@ -231,7 +231,7 @@
 |<img src="../../en_US/zigbee/images/Philips.LCL001.png" width="60" />|Philips|Hue LightStrip Plus||||
 |<img src="../../en_US/zigbee/images/Philips.LCT001.png" width="60" />|Philips|Hue bulb white and color||||
 |<img src="../../en_US/zigbee/images/Philips.LCT002.png" width="60" />|Philips|Hue White and Color BR30 (1st Gen)||||
-|<img src="../../en_US/zigbee/images/Philips.LCT003.png" width="60" />|Philips|Hue White and Color Ambiance Spot GU10||Please note that there is no status feedback for this model, only an order sending is possible||
+|<img src="../../en_US/zigbee/images/Philips.LCT003.png" width="60" />|Philips|Hue White and Color Ambiance Spot GU10||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/Philips.LCT007.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26 (Gen 2)||||
 |<img src="../../en_US/zigbee/images/Philips.LCT010.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26 (Gen 3)||||
 |<img src="../../en_US/zigbee/images/Philips.LCT011.png" width="60" />|Philips|Hue White and Color Ambiance BR30 Richer Colors||||
@@ -244,7 +244,7 @@
 |<img src="../../en_US/zigbee/images/Philips.LLC006.png" width="60" />|Philips|Hue LivingColors Iris Table Lamp Gen3||||
 |<img src="../../en_US/zigbee/images/Philips.LLC007.png" width="60" />|Philips|Hue LivingColors||||
 |<img src="../../en_US/zigbee/images/Philips.LLC010.png" width="60" />|Philips|Hue Iris Table Lamp||||
-|<img src="../../en_US/zigbee/images/Philips.LLC011.png" width="60" />|Philips|Hue Bloom Living Colors Starter Pack||||
+|<img src="../../en_US/zigbee/images/Philips.LLC011.png" width="60" />|Philips|Hue Bloom Living Colors Starter Pack||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/Philips.LLC012.png" width="60" />|Philips|Hue Bloom Table Lamp||||
 |<img src="../../en_US/zigbee/images/Philips.LLC013.png" width="60" />|Philips|Hue LivingColors||||
 |<img src="../../en_US/zigbee/images/Philips.LLC020.png" width="60" />|Philips|Hue Go Portable Light||||
@@ -257,7 +257,8 @@
 |<img src="../../en_US/zigbee/images/Philips.LST002.png" width="60" />|Philips|Hue LightStrip Plus||||
 |<img src="../../en_US/zigbee/images/Philips.LST004.png" width="60" />|Philips|Hue LightStrip Outdoor||||
 |<img src="../../en_US/zigbee/images/Philips.LTW001.png" width="60" />|Philips|Hue white and color||Please note that there is no status feedback for this model, only an order sending is possible||
-|<img src="../../en_US/zigbee/images/Philips.LTW012.png" width="60" />|Philips|LTW012||Please note that there is no status feedback for this model, only an order sending is possible||
+|<img src="../../en_US/zigbee/images/Philips.LTW010.png" width="60" />|Philips|Hue White Ambiance A19 E26 / E27||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
+|<img src="../../en_US/zigbee/images/Philips.LTW012.png" width="60" />|Philips|LTW012||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/Philips.LWA001.png" width="60" />|Philips|Hue White Ambiance E27||Please note that there is no status feedback for this model, only an order sending is possible||
 |<img src="../../en_US/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Hue White B22||Please note that there is no status feedback for this model, only an order sending is possible||
 |<img src="../../en_US/zigbee/images/Philips.LWE002.png" width="60" />|Philips|Hue White Candle E14||Please note that there is no status feedback for this model, only an order sending is possible||
@@ -384,4 +385,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-02-18 01:32:05
+2021-02-19 01:32:04

@@ -97,6 +97,8 @@
         "Hue White B22": "Hue White B22",
         "Hue White Ambiance E27": "Hue White Ambiance E27",
         "LTW012": "LTW012",
+        "Attention le retour d'état pour ce model n'est pas en temps réel (soit suite à une commande soit en demandant explicitement une mise à jour de celui-ci": "Attention le retour d'état pour ce model n'est pas en temps réel (soit suite à une commande soit en demandant explicitement une mise à jour de celui-ci",
+        "Hue White Ambiance A19 E26\/E27": "Hue White Ambiance A19 E26\/E27",
         "Hue White and Color": "Hue White and Color",
         "Hue LightStrip Outdoor": "Hue LightStrip Outdoor",
         "Hue LightStrip Plus": "Hue LightStrip Plus",
@@ -251,6 +253,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-02-18 01": "2021-02-18 01"
+        "2021-02-19 01": "2021-02-19 01"
     }
 }

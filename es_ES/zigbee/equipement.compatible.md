@@ -43,7 +43,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/JunYu.ZB-RGBCW.png" width="60" />|JunYu|LED RGBW||||
+|<img src="../../es_ES/zigbee/images/JunYu.ZB-RGBCW.png" width="60" />|JunYu|LED RGBW||Tenga en cuenta que la información sobre el estado de este modelo no es en tiempo real (ya sea siguiendo un comando o solicitando explícitamente una actualización del mismo)||
 
 # Legrand
 
@@ -148,7 +148,7 @@
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_W_opch_400lm.png" width="60" />|Ikea|Bombilla E14 W opch 400lm||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_CWS_opal_600lm.png" width="60" />|Ikea|Bombilla E27 CWS opal 600lm||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_1000lm.png" width="60" />|Ikea|Bombilla E27 WS opal 1000lm||||
-|<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_980lm.png" width="60" />|Ikea|Bombilla E27 WS opal 980lm||||
+|<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_980lm.png" width="60" />|Ikea|Bombilla E27 WS opal 980lm||Tenga en cuenta que la información sobre el estado de este modelo no es en tiempo real (ya sea siguiendo un comando o solicitando explícitamente una actualización del mismo)||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WW_806lm.png" width="60" />|Ikea|Bombilla TRADFRI E27 WW 806lm||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_W_opal_1000lm.png" width="60" />|Ikea|Bombilla E27 W opal 1000lm||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WS_400lm.png" width="60" />|Ikea|Bombilla GU10 WS 400lm||||
@@ -218,7 +218,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|Bombilla LED OSRAM Smart + Connected - Base E27||||
-|<img src="../../es_ES/zigbee/images/OSRAM.LIGHTIFY_Indoor_Flex_RGBW.png" width="60" />|Osram|OSRAM LIGHTIFY Interior Flex RGBW||||
+|<img src="../../es_ES/zigbee/images/OSRAM.LIGHTIFY_Indoor_Flex_RGBW.png" width="60" />|Osram|OSRAM LIGHTIFY Interior Flex RGBW||Tenga en cuenta que la información sobre el estado de este modelo no es en tiempo real (ya sea siguiendo un comando o solicitando explícitamente una actualización del mismo)||
 |<img src="../../es_ES/zigbee/images/OSRAM.Lightify_Switch_Mini.png" width="60" />|Osram|Lightify Switch Mini||||
 |<img src="../../es_ES/zigbee/images/OSRAM.MR16_TW_OSRAM.png" width="60" />|Osram|OSRAM SMART + Spot GU5.3 blanco sintonizable||||
 |<img src="../../es_ES/zigbee/images/OSRAM.Plug_01.png" width="60" />|Osram|Enchufe OSRAM Smart +||||
@@ -231,7 +231,7 @@
 |<img src="../../es_ES/zigbee/images/Philips.LCL001.png" width="60" />|Philips|Hue LightStrip Plus||||
 |<img src="../../es_ES/zigbee/images/Philips.LCT001.png" width="60" />|Philips|Bulbo de tono blanco y color||||
 |<img src="../../es_ES/zigbee/images/Philips.LCT002.png" width="60" />|Philips|Hue White y Color BR30 (1.a generación)||||
-|<img src="../../es_ES/zigbee/images/Philips.LCT003.png" width="60" />|Philips|Hue White y Color Ambiance Spot GU10||Tenga en cuenta que no hay comentarios de estado para este modelo, solo es posible enviar un pedido||
+|<img src="../../es_ES/zigbee/images/Philips.LCT003.png" width="60" />|Philips|Hue White y Color Ambiance Spot GU10||Tenga en cuenta que la información sobre el estado de este modelo no es en tiempo real (ya sea siguiendo un comando o solicitando explícitamente una actualización del mismo)||
 |<img src="../../es_ES/zigbee/images/Philips.LCT007.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26 (Gen 2)||||
 |<img src="../../es_ES/zigbee/images/Philips.LCT010.png" width="60" />|Philips|Hue White and Color Ambiance A19 E26 (Gen 3)||||
 |<img src="../../es_ES/zigbee/images/Philips.LCT011.png" width="60" />|Philips|Hue White y Color Ambiance BR30 Colores más ricos||||
@@ -244,7 +244,7 @@
 |<img src="../../es_ES/zigbee/images/Philips.LLC006.png" width="60" />|Philips|Hue LivingColors Iris, lámpara de mesa Gen3||||
 |<img src="../../es_ES/zigbee/images/Philips.LLC007.png" width="60" />|Philips|Hue LivingColors||||
 |<img src="../../es_ES/zigbee/images/Philips.LLC010.png" width="60" />|Philips|Lámpara de mesa Hue Iris||||
-|<img src="../../es_ES/zigbee/images/Philips.LLC011.png" width="60" />|Philips|Paquete de inicio Hue Bloom Living Colors||||
+|<img src="../../es_ES/zigbee/images/Philips.LLC011.png" width="60" />|Philips|Paquete de inicio Hue Bloom Living Colors||Tenga en cuenta que la información sobre el estado de este modelo no es en tiempo real (ya sea siguiendo un comando o solicitando explícitamente una actualización del mismo)||
 |<img src="../../es_ES/zigbee/images/Philips.LLC012.png" width="60" />|Philips|Lámpara de mesa Hue Bloom||||
 |<img src="../../es_ES/zigbee/images/Philips.LLC013.png" width="60" />|Philips|Hue LivingColors||||
 |<img src="../../es_ES/zigbee/images/Philips.LLC020.png" width="60" />|Philips|Luz portátil Hue Go||||
@@ -257,7 +257,8 @@
 |<img src="../../es_ES/zigbee/images/Philips.LST002.png" width="60" />|Philips|Hue LightStrip Plus||||
 |<img src="../../es_ES/zigbee/images/Philips.LST004.png" width="60" />|Philips|Hue LightStrip para exteriores||||
 |<img src="../../es_ES/zigbee/images/Philips.LTW001.png" width="60" />|Philips|Hue blanco y color||Tenga en cuenta que no hay comentarios de estado para este modelo, solo es posible enviar un pedido||
-|<img src="../../es_ES/zigbee/images/Philips.LTW012.png" width="60" />|Philips|LTW012||Tenga en cuenta que no hay comentarios de estado para este modelo, solo es posible enviar un pedido||
+|<img src="../../es_ES/zigbee/images/Philips.LTW010.png" width="60" />|Philips|Hue White Ambiance A19 E26 / E27||Tenga en cuenta que la información sobre el estado de este modelo no es en tiempo real (ya sea siguiendo un comando o solicitando explícitamente una actualización del mismo)||
+|<img src="../../es_ES/zigbee/images/Philips.LTW012.png" width="60" />|Philips|LTW012||Tenga en cuenta que la información sobre el estado de este modelo no es en tiempo real (ya sea siguiendo un comando o solicitando explícitamente una actualización del mismo)||
 |<img src="../../es_ES/zigbee/images/Philips.LWA001.png" width="60" />|Philips|Hue White Ambiance E27||Tenga en cuenta que no hay comentarios de estado para este modelo, solo es posible enviar un pedido||
 |<img src="../../es_ES/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Hue blanco B22||Tenga en cuenta que no hay comentarios de estado para este modelo, solo es posible enviar un pedido||
 |<img src="../../es_ES/zigbee/images/Philips.LWE002.png" width="60" />|Philips|Vela Hue White E14||Tenga en cuenta que no hay comentarios de estado para este modelo, solo es posible enviar un pedido||
@@ -384,4 +385,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-02-18 01:32:05
+2021-02-19 01:32:04
