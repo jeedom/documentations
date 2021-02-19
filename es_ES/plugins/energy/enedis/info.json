@@ -1,6 +1,6 @@
 {
     "id": "enedis",
-    "name": "Enedis Linky",
+    "name": "Enedis",
     "description": {
         "fr_FR": "Récupérez les informations de consommation de vos compteurs électriques communicants à partir de votre compte-client Enedis. Tout ce qu'il faut faire est d'autoriser le partage des données avec Jeedom et d'indiquer le numéro d'identification du Point de Livraison (PDL) concerné. <br\/><br\/>Le plugin remonte les mesures horaire, journalière, mensuelle, annuelle ainsi que la puissance max aussi bien en consommation qu'en production. <br\/>NB: Les données les plus récentes reçues par Enedis sont relatives à la veille du jour en cours",
         "en_US": "Retrieve the consumption information of your smart electricity meters from your Enedis customer account. All you need to do is authorize the sharing of data with Jeedom and indicate the identification number of the Delivery Point (PDL) concerned.<br\/><br\/> The plugin returns hourly, daily, monthly, annual measurements as well as the maximum power both in consumption and in production.<br\/> NB: The most recent data received by Enedis relate to the day before the current day",
@@ -18,7 +18,7 @@
     "author": "Jeedom SAS",
     "require": "3.3.39",
     "category": "energy",
-    "hasDependency": false,
+    "hasDependency": true,
     "hasOwnDeamon": false,
     "maxDependancyInstallTime": 0,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/enedis\/changelog",

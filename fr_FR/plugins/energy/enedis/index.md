@@ -1,4 +1,4 @@
-# Plugin Enedis Linky
+# Plugin Enedis
 
 # Description
 
@@ -27,7 +27,9 @@ Il est possible d'accéder aux données de **consommation**, de **production** o
 
 ## Configuration du plugin
 
-Le plugin **Enedis Linky** ne nécessite pas de configuration spécifique et doit seulement être activé après l'installation.
+Comme tout plugin Jeedom, le plugin **Enedis** doit être activé après l'installation.
+
+Le plugin nécessite la présence du paquet Linux `php-mbstring` normalement présent par défaut, le statut des dépendances doit donc être **OK** dès l'installation du plugin. Dans le cas contraire, il faudra cliquer sur le bouton **Relancer** pour installer le paquet manquant.
 
 Tant que le plugin n'a pas récupéré l'intégralité des données de la veille, il continue d'interroger les serveurs toutes les heures entre 5h et 20h, autrement les appels sont suspendus jusqu'au lendemain.
 
@@ -35,7 +37,7 @@ Afin de ne pas surcharger les serveurs Enedis, les appels se font à une minute 
 
 ## Configuration des équipements
 
-Pour accéder aux différents équipements **Enedis Linky**, dirigez-vous vers le menu **Plugins → Energie → Enedis Linky**.
+Pour accéder aux différents équipements **Enedis**, dirigez-vous vers le menu **Plugins → Energie → Enedis**.
 
 >**INFORMATION**
 >    
