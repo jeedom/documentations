@@ -63,6 +63,7 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/adeo.LXEK-1.png" width="60" />|Adeo|Adeo LEXK-1||||
 |<img src="../../fr_FR/zigbee/images/adeo.LXEK-2.png" width="60" />|Adeo|Adeo LEXK-2||||
+|<img src="../../fr_FR/zigbee/images/adeo.LXEK-3.png" width="60" />|Adeo|Adeo LEXK-3||||
 |<img src="../../fr_FR/zigbee/images/adeo.LXEK-4.png" width="60" />|Adeo|Adeo LEXK-4||||
 |<img src="../../fr_FR/zigbee/images/adeo.LXEK-5.png" width="60" />|Adeo|Adeo LEXK-5||||
 |<img src="../../fr_FR/zigbee/images/adeo.LXEK-7.png" width="60" />|Adeo|Adeo LEXK-7||||
@@ -110,6 +111,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/gledopto.GL-B-007Z.png" width="60" />|Gledopto|GL-B-007Z||||
 |<img src="../../fr_FR/zigbee/images/gledopto.GL-C-008S.png" width="60" />|Gledopto|GL-C-008S||||
 
 # Heiman
@@ -344,6 +346,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_ln1.aq1.png" width="60" />|Xiaomi|Xioami interrupteur double avec neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_ln2.aq1.png" width="60" />|Xiaomi|Xioami interrupteur double avec neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|Xiaomi interrupteur simple sans neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|Xioami interrupteur double sans neutre||||
@@ -385,4 +388,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-02-19 01:32:04
+2021-02-20 01:32:11
