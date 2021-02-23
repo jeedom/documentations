@@ -49,7 +49,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|||||
+|<img src="../../fr_FR/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Legrand cable outlet||||
 |<img src="../../fr_FR/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Legrand contactor||||
 |<img src="../../fr_FR/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Legrand variateur||||
 |<img src="../../fr_FR/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand interrupteur double||||
@@ -125,6 +125,7 @@
 |<img src="../../fr_FR/zigbee/images/HEIMAN.SmokeSensor-EM.png" width="60" />|Heiman|Smoke sensor||||
 |<img src="../../fr_FR/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Smoke sensor||||
 |<img src="../../fr_FR/zigbee/images/Heiman.SmartPlug.png" width="60" />|Heiman|Schneider Plug||||
+|<img src="../../fr_FR/zigbee/images/Heiman.WarningDevice.png" width="60" />|Heiman|Sirène||||
 
 # Icasa
 
@@ -330,6 +331,7 @@
 |<img src="../../fr_FR/zigbee/images/TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|BlitzWolf BW-SS7 ZigBee3.0 2300W 1 entrée||||
 |<img src="../../fr_FR/zigbee/images/TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Moes switch lumière||||
 |<img src="../../fr_FR/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Interrupteur simple||||
+|<img src="../../fr_FR/zigbee/images/TYZB01_vkwryfdr.TS0115.png" width="60" />|Tuya|USEELINK - MULTIPRISE CONNECTÉE 4 PRISES + 2 PORTS USB|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html)|
 |<img src="../../fr_FR/zigbee/images/TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Interrupteur double||||
 |<img src="../../fr_FR/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Température/humidité||||
 |<img src="../../fr_FR/zigbee/images/TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|ASLED Swing||||
@@ -379,7 +381,7 @@
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.switch.n0agl1.png" width="60" />|Xiaomi|Micro module on/off avec neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|Xioami Aquara Vibration|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|Capteur de température/pression/humidité||||
-|<img src="../../fr_FR/zigbee/images/XIAOMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|Capteur de luminosité||||
+|<img src="../../fr_FR/zigbee/images/XIAOMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|Capteur de luminosité|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5486-xiaomi-mi-capteur-de-luminosite-zigbee-30-6934177710865.html)|
 |<img src="../../fr_FR/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|Xiaomi prise||||
 |<img src="../../fr_FR/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|Xiaomi Aquara capteur d'ouverture|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../fr_FR/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|Xiaomi Aquara de mouvement|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
@@ -390,4 +392,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-02-23 01:32:04
+2021-02-23 11:43:15

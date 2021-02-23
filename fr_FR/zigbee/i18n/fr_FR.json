@@ -49,6 +49,7 @@
         "ASLED Swing": "ASLED Swing",
         "Température\/humidité": "Température\/humidité",
         "Interrupteur double": "Interrupteur double",
+        "USEELINK - MULTIPRISE CONNECTÉE 4 PRISES + 2 PORTS USB": "USEELINK - MULTIPRISE CONNECTÉE 4 PRISES + 2 PORTS USB",
         "Interrupteur simple": "Interrupteur simple",
         "Moes switch lumière": "Moes switch lumière",
         "0 2300W 1 entrée": "0 2300W 1 entrée",
@@ -190,6 +191,7 @@
         "AC dimmer": "AC dimmer",
         "Filamant Bulb": "Filamant Bulb",
         "Heiman": "Heiman",
+        "Sirène": "Sirène",
         "Schneider Plug": "Schneider Plug",
         "Smoke sensor": "Smoke sensor",
         "CO Sensor": "CO Sensor",
@@ -228,6 +230,7 @@
         "Legrand interrupteur double": "Legrand interrupteur double",
         "Legrand variateur": "Legrand variateur",
         "Legrand contactor": "Legrand contactor",
+        "Legrand cable outlet": "Legrand cable outlet",
         "JunYu": "JunYu",
         "LED RGBW": "LED RGBW",
         "Groupes": "Groupes",
@@ -258,6 +261,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-02-23 01": "2021-02-23 01"
+        "2021-02-23 11": "2021-02-23 11"
     }
 }
