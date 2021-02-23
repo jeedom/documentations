@@ -55,7 +55,9 @@
 |<img src="../../fr_FR/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand interrupteur double||||
 |<img src="../../fr_FR/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand micro module||||
 |<img src="../../fr_FR/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand prise mobile Céliane||||
+|<img src="../../fr_FR/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Legrand commande éclairage sans fil||||
 |<img src="../../fr_FR/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand volet roulant||||
+|<img src="../../fr_FR/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand commande 4 scènes sans fil||||
 
 # Adeo
 
@@ -346,7 +348,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_ln1.aq1.png" width="60" />|Xiaomi|Xioami interrupteur double avec neutre||||
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_ln1.aq1.png" width="60" />|Xiaomi|Xioami interrupteur simple avec neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_ln2.aq1.png" width="60" />|Xiaomi|Xioami interrupteur double avec neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|Xiaomi interrupteur simple sans neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|Xioami interrupteur double sans neutre||||
@@ -388,4 +390,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-02-22 01:32:10
+2021-02-23 01:32:04

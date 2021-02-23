@@ -26,6 +26,7 @@
         "ioami interrupteur double sans neutre": "ioami interrupteur double sans neutre",
         "iaomi interrupteur simple sans neutre": "iaomi interrupteur simple sans neutre",
         "ioami interrupteur double avec neutre": "ioami interrupteur double avec neutre",
+        "ioami interrupteur simple avec neutre": "ioami interrupteur simple avec neutre",
         "Image": "Image",
         "Marque": "Marque",
         "Nom": "Nom",
@@ -219,7 +220,9 @@
         "Adeo LEXK-2": "Adeo LEXK-2",
         "Adeo LEXK-1": "Adeo LEXK-1",
         "Legrand": "Legrand",
+        "Legrand commande 4 scènes sans fil": "Legrand commande 4 scènes sans fil",
         "Legrand volet roulant": "Legrand volet roulant",
+        "Legrand commande éclairage sans fil": "Legrand commande éclairage sans fil",
         "Legrand prise mobile Céliane": "Legrand prise mobile Céliane",
         "Legrand micro module": "Legrand micro module",
         "Legrand interrupteur double": "Legrand interrupteur double",
@@ -255,6 +258,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-02-22 01": "2021-02-22 01"
+        "2021-02-23 01": "2021-02-23 01"
     }
 }

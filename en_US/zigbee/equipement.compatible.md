@@ -55,7 +55,9 @@
 |<img src="../../en_US/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand double switch||||
 |<img src="../../en_US/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand micro module||||
 |<img src="../../en_US/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand mobile socket Céliane||||
+|<img src="../../en_US/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Legrand wireless lighting control||||
 |<img src="../../en_US/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand roller shutter||||
+|<img src="../../en_US/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand controls 4 wireless scenes||||
 
 # Adeo
 
@@ -346,7 +348,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_ln1.aq1.png" width="60" />|Xiaomi|Xioami double switch with neutral||||
+|<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_ln1.aq1.png" width="60" />|Xiaomi|Xioami single switch with neutral||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_ln2.aq1.png" width="60" />|Xiaomi|Xioami double switch with neutral||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|Xiaomi single switch without neutral||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|Xioami double switch without neutral||||
@@ -388,4 +390,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-02-22 01:32:10
+2021-02-23 01:32:04

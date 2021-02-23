@@ -55,7 +55,9 @@
 |<img src="../../de_DE/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand Doppelschalter||||
 |<img src="../../de_DE/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand Mikromodul||||
 |<img src="../../de_DE/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand Mobilsteckdose Céliane||||
+|<img src="../../de_DE/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Legrand drahtlose Lichtsteuerung||||
 |<img src="../../de_DE/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand Rollladen||||
+|<img src="../../de_DE/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand steuert 4 drahtlose Szenen||||
 
 # Adeo
 
@@ -346,7 +348,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/LUMI.lumi.ctrl_ln1.aq1.png" width="60" />|Xiaomi|XIoami Doppelschalter mit Neutralleiter||||
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.ctrl_ln1.aq1.png" width="60" />|Xiaomi|Xioami Einzelschalter mit Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.ctrl_ln2.aq1.png" width="60" />|Xiaomi|XIoami Doppelschalter mit Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|Xiaomi Einzelschalter ohne Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|XIoami Doppelschalter ohne Neutralleiter||||
@@ -388,4 +390,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-02-22 01:32:10
+2021-02-23 01:32:04
