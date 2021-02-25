@@ -49,8 +49,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Legrand Kabelausgang||||
-|<img src="../../de_DE/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Legrand Schütz||||
+|<img src="../../de_DE/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Kabelanschluss angeschlossen||||
+|<img src="../../de_DE/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|DRIVIA angeschlossenes Schütz||||
 |<img src="../../de_DE/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Legrand Variator||||
 |<img src="../../de_DE/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand Doppelschalter||||
 |<img src="../../de_DE/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand Mikromodul||||
@@ -126,10 +126,10 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/HEIMAN.COSensor-EM.png" width="60" />|Heiman|CO-Sensor||||
-|<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-EF-3.0.png" width="60" />|Heiman|Rauchsensor||||
-|<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-EM.png" width="60" />|Heiman|Rauchsensor||||
-|<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Rauchsensor||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.COSensor-EM.png" width="60" />|Heiman|Kohlenmonoxiddetektor||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-EF-3.0.png" width="60" />|Heiman|Rauchmelder||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-EM.png" width="60" />|Heiman|Rauchmelder||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Rauchmelder||||
 |<img src="../../de_DE/zigbee/images/Heiman.SmartPlug.png" width="60" />|Heiman|Schneider Plug||||
 |<img src="../../de_DE/zigbee/images/Heiman.WarningDevice.png" width="60" />|Heiman|Meerjungfrau||||
 
@@ -398,4 +398,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-02-24 01:32:05
+2021-02-25 01:32:05

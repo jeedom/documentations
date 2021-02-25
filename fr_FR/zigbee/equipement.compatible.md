@@ -49,8 +49,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Legrand cable outlet||||
-|<img src="../../fr_FR/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Legrand contactor||||
+|<img src="../../fr_FR/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Sortie de câble connectée||||
+|<img src="../../fr_FR/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Contacteur connecté DRIVIA||||
 |<img src="../../fr_FR/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Legrand variateur||||
 |<img src="../../fr_FR/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand interrupteur double||||
 |<img src="../../fr_FR/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand micro module||||
@@ -126,10 +126,10 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zigbee/images/HEIMAN.COSensor-EM.png" width="60" />|Heiman|CO Sensor||||
-|<img src="../../fr_FR/zigbee/images/HEIMAN.SmokeSensor-EF-3.0.png" width="60" />|Heiman|Smoke sensor||||
-|<img src="../../fr_FR/zigbee/images/HEIMAN.SmokeSensor-EM.png" width="60" />|Heiman|Smoke sensor||||
-|<img src="../../fr_FR/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Smoke sensor||||
+|<img src="../../fr_FR/zigbee/images/HEIMAN.COSensor-EM.png" width="60" />|Heiman|Détecteur de monoxyde de carbone||||
+|<img src="../../fr_FR/zigbee/images/HEIMAN.SmokeSensor-EF-3.0.png" width="60" />|Heiman|Détecteur de fumée||||
+|<img src="../../fr_FR/zigbee/images/HEIMAN.SmokeSensor-EM.png" width="60" />|Heiman|Détecteur de fumée||||
+|<img src="../../fr_FR/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Détecteur de fumée||||
 |<img src="../../fr_FR/zigbee/images/Heiman.SmartPlug.png" width="60" />|Heiman|Schneider Plug||||
 |<img src="../../fr_FR/zigbee/images/Heiman.WarningDevice.png" width="60" />|Heiman|Sirène||||
 
@@ -398,4 +398,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-02-24 01:32:05
+2021-02-25 01:32:05

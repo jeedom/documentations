@@ -194,8 +194,8 @@
         "Heiman": "Heiman",
         "Sirène": "Sirène",
         "Schneider Plug": "Schneider Plug",
-        "Smoke sensor": "Smoke sensor",
-        "CO Sensor": "CO Sensor",
+        "Détecteur de fumée": "Détecteur de fumée",
+        "Détecteur de monoxyde de carbone": "Détecteur de monoxyde de carbone",
         "Gledopto": "Gledopto",
         "GL-C-008S": "GL-C-008S",
         "GL-B-007Z": "GL-B-007Z",
@@ -232,8 +232,8 @@
         "Legrand micro module": "Legrand micro module",
         "Legrand interrupteur double": "Legrand interrupteur double",
         "Legrand variateur": "Legrand variateur",
-        "Legrand contactor": "Legrand contactor",
-        "Legrand cable outlet": "Legrand cable outlet",
+        "Contacteur connecté DRIVIA": "Contacteur connecté DRIVIA",
+        "Sortie de câble connectée": "Sortie de câble connectée",
         "JunYu": "JunYu",
         "LED RGBW": "LED RGBW",
         "Groupes": "Groupes",
@@ -264,6 +264,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-02-24 01": "2021-02-24 01"
+        "2021-02-25 01": "2021-02-25 01"
     }
 }

@@ -49,8 +49,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Salida de cable Legrand||||
-|<img src="../../es_ES/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Contactor Legrand||||
+|<img src="../../es_ES/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Salida de cable conectada||||
+|<img src="../../es_ES/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Contactor conectado DRIVIA||||
 |<img src="../../es_ES/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Variador Legrand||||
 |<img src="../../es_ES/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Interruptor doble Legrand||||
 |<img src="../../es_ES/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Micro módulo Legrand||||
@@ -126,10 +126,10 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/HEIMAN.COSensor-EM.png" width="60" />|Heiman|Sensor de CO||||
-|<img src="../../es_ES/zigbee/images/HEIMAN.SmokeSensor-EF-3.0.png" width="60" />|Heiman|Sensor de humo||||
-|<img src="../../es_ES/zigbee/images/HEIMAN.SmokeSensor-EM.png" width="60" />|Heiman|Sensor de humo||||
-|<img src="../../es_ES/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Sensor de humo||||
+|<img src="../../es_ES/zigbee/images/HEIMAN.COSensor-EM.png" width="60" />|Heiman|Detector de monóxido de carbono||||
+|<img src="../../es_ES/zigbee/images/HEIMAN.SmokeSensor-EF-3.0.png" width="60" />|Heiman|Detector de humo||||
+|<img src="../../es_ES/zigbee/images/HEIMAN.SmokeSensor-EM.png" width="60" />|Heiman|Detector de humo||||
+|<img src="../../es_ES/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Detector de humo||||
 |<img src="../../es_ES/zigbee/images/Heiman.SmartPlug.png" width="60" />|Heiman|Enchufe Schneider||||
 |<img src="../../es_ES/zigbee/images/Heiman.WarningDevice.png" width="60" />|Heiman|Sirena||||
 
@@ -398,4 +398,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-02-24 01:32:05
+25/02/2021 01:32:05
