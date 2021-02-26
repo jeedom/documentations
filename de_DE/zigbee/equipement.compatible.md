@@ -19,10 +19,14 @@
 |<img src="../../de_DE/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Develco|Siren||||
 |<img src="../../de_DE/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Frient|Wallplug||||
 |<img src="../../de_DE/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient|Wasserleckdetektor||||
+|<img src="../../de_DE/zigbee/images/frient_AS.HMSZB-110.png" width="60" />|Frient|Temperator und Feuchtigkeitssensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5407-frient-capteur-de-temperature-et-humidite-intelligent-zigbee-30-5713594002385.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.MOSZB-140.png" width="60" />|Frient|Bewegungsmelder||||
+|<img src="../../de_DE/zigbee/images/frient_AS.MOSZB-141.png" width="60" />|Frient|Bewegungsmelder|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5403-frient-detecteur-de-mouvement-zigbee-30-5713594002835.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Frient|Intelligentes Kabel||||
 |<img src="../../de_DE/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Frient|Rauchmelder||||
 |<img src="../../de_DE/zigbee/images/frient_AS.SPLZB-132.png" width="60" />|Frient|Wallplug||||
+|<img src="../../de_DE/zigbee/images/frient_AS.WISZB-120.png" width="60" />|Frient|Öffnungs- und Temperatursensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5402-frient-detecteur-d-ouverture-de-porte-ou-fenetre-zigbee-30-capteur-de-temperature-5713594002354.html)|
+|<img src="../../de_DE/zigbee/images/frient_AS.WISZB-121.png" width="60" />|Frient|Bewegungsmelder|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5401-frient-detecteur-d-ouverture-de-porte-ou-fenetre-zigbee-30-5713594002545.html)|
 
 # GR-SMARTHOME
 
@@ -142,7 +146,7 @@
 |<img src="../../de_DE/zigbee/images/icasa.ICZB-IW11SW.png" width="60" />|Icasa|Wechselstromschalter||||
 |<img src="../../de_DE/zigbee/images/icasa.ICZB-KPD14S.png" width="60" />|Icasa|Pulse 4S Wandregler||||
 |<img src="../../de_DE/zigbee/images/icasa.ICZB-R12D.png" width="60" />|Icasa|Rotationsdimmer||||
-|<img src="../../de_DE/zigbee/images/icasa.RGB-CCT.png" width="60" />|Icasa|Sunricher RGB||||
+|<img src="../../de_DE/zigbee/images/icasa.RGB-CCT.png" width="60" />|Icasa|Icasa RGB||||
 
 # Ikea
 
@@ -176,6 +180,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/Innr.RB285C.png" width="60" />|Innr|INNR E27 Multicolor RGBW + Weiß||||
+|<img src="../../de_DE/zigbee/images/innr.SP_220.png" width="60" />|Innr|Prise|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5362-innr-prise-connectee-super-slim-zigbee-30-8718781552657.html)|
 
 # Konke
 
@@ -207,7 +212,10 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/NodOn.SIN-4-1-01.png" width="60" />|Nodon|SIN-4-1-01||||
+||Nodon|SIN-4-1-20||||
 |<img src="../../de_DE/zigbee/images/NodOn.SIN-4-2-01.png" width="60" />|Nodon|SIN-4-2-01||||
+||Nodon|SIN-4-2-20||||
+||Nodon|SIN-4-RS-VR||||
 |<img src="../../de_DE/zigbee/images/ptm216z.png" width="60" />|Nodon|PTM 216 Z||||
 
 # Orvibo
@@ -294,8 +302,10 @@
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.2GANGSWITCH2.png" width="60" />|Schneider|Doppelschalter||||
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Klügerer Fenster- / Türsensor|Ouverture||[Dokumentation](https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=MFR1569800.pdf&p_Doc_Ref=MFR1569800)<br/>|
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Klügerer Wasserlecksensor|Fuite|||
+|<img src="../../de_DE/zigbee/images/Schneider_Electric.CCTFR6700.png" width="60" />|Schneider|Aktuator für elektrische Heizung||||
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Wiser Exxact Dimmer rotierend|Variateur|||
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|Klügeres Mikrodimmermodul|Variateur|||
+|<img src="../../de_DE/zigbee/images/Schneider_Electric.Thermostat.png" width="60" />|Schneider|Öffnungssensor und Temperatur|||[Kaufen](https://www.domadoo.fr/fr/thermostats/5496-schneider-electric-thermostat-d-ambiance-connecte-zigbee-30-wiser-3606489710194.html)|
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.iTRV.png" width="60" />|Schneider|Schneider Electric iTRV|Thermostatkopf|||
 
 # Sonoff
@@ -342,7 +352,7 @@
 |<img src="../../de_DE/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Temperatur Feuchtigkeit||||
 |<img src="../../de_DE/zigbee/images/TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|ASLED Swing||||
 |<img src="../../de_DE/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Tuya|LoraTap 3-Tasten-Fernbedienung||||
-|<img src="../../de_DE/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 ZigBee 3.0 Smart WIFI-Buchse 16A EU-Stecker||||
+|<img src="../../de_DE/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 ZigBee 3.0 16A Stecker EU Stecker||||
 |<img src="../../de_DE/zigbee/images/TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Steckdosenleiste angeschlossen||||
 |<img src="../../de_DE/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 angeschlossenes Life-Plug-Modul||||
 |<img src="../../de_DE/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 Tastenschalter||||
@@ -384,6 +394,7 @@
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.sensor_switch.aq2.png" width="60" />|Xiaomi|Xiaomi Aquara Schalter Aq2||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.sensor_switch.png" width="60" />|Xiaomi|Xiaomi aquara switch||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|Xiaomi Aquara Flut|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.l0agl1.png" width="60" />|Xiaomi|AQARA - Mikromodul ein / aus ohne Neutralleiter|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5387-aqara-micromodule-onoff-zigbee-30-1250w-sans-neutre-6970504213302.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.n0agl1.png" width="60" />|Xiaomi|AQARA - Mikromodul ein / aus mit Neutralleiter|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5386-aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-6970504213296.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|XIoami Aquara Vibration|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|Temperatur- / Druck- / Feuchtigkeitssensor||||
@@ -398,4 +409,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-02-25 01:32:05
+2021-02-26 01:32:05
