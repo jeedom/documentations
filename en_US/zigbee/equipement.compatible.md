@@ -12,19 +12,22 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/Develco.ZHEMI101.png" width="60" />|Frient|Electric meter interface||||
-|<img src="../../en_US/zigbee/images/Develco_Products_AS.AQSZB-110.png" width="60" />|Develco|Air Quality Sensor||||
+|<img src="../../en_US/zigbee/images/Develco_Products_AS.AQSZB-110.png" width="60" />|Frient|Air Quality Sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5408-frient-capteur-de-qualite-d-air-zigbee-ha-5713594002392.html)|
 |<img src="../../en_US/zigbee/images/Develco_Products_AS.DIOZB-110.png" width="60" />|Frient|IO Module||||
 |<img src="../../en_US/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Develco|Keypad||||
 |<img src="../../en_US/zigbee/images/Develco_Products_AS.PBTZB-110.png" width="60" />|Develco|Panic Button||There seems to be a problem with the firmware, only the deactivation of the alert (press the button for 5s after activating the panic mode) is sent to the zigbee networks||
 |<img src="../../en_US/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Develco|Siren||||
 |<img src="../../en_US/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Frient|Wallplug||||
-|<img src="../../en_US/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient|Water leak detector||||
+|<img src="../../en_US/zigbee/images/frient_AS.AQSZB-110.png" width="60" />|Frient|Air Quality Sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5408-frient-capteur-de-qualite-d-air-zigbee-ha-5713594002392.html)|
+|<img src="../../en_US/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient|Water leak detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5427-frient-detecteur-d-inondation-zigbee-30-5713594002453.html)|
+|<img src="../../en_US/zigbee/images/frient_AS.HESZB-120.png" width="60" />|Frient|Heat detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5411-frient-detecteur-de-chaleur-intelligent-zigbee-30-din-en-14604-et-din-14676-5713594002446.html)|
 |<img src="../../en_US/zigbee/images/frient_AS.HMSZB-110.png" width="60" />|Frient|Temperator and humidity sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5407-frient-capteur-de-temperature-et-humidite-intelligent-zigbee-30-5713594002385.html)|
-|<img src="../../en_US/zigbee/images/frient_AS.MOSZB-140.png" width="60" />|Frient|Motion detector||||
+|<img src="../../en_US/zigbee/images/frient_AS.MOSZB-140.png" width="60" />|Frient|Motion detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5404-frient-detecteur-de-mouvement-zigbee-30-capteur-de-temperature-et-luminosite-5713594002361.html)|
 |<img src="../../en_US/zigbee/images/frient_AS.MOSZB-141.png" width="60" />|Frient|Movement detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5403-frient-detecteur-de-mouvement-zigbee-30-5713594002835.html)|
-|<img src="../../en_US/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Frient|Smart cable||||
-|<img src="../../en_US/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Frient|Smoke detector||||
-|<img src="../../en_US/zigbee/images/frient_AS.SPLZB-132.png" width="60" />|Frient|Wallplug||||
+|<img src="../../en_US/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Frient|Smart cable|||[Buy](https://www.domadoo.fr/fr/peripheriques/5421-frient-interrupteur-sur-cordon-zigbee-30-5713594002408.html)|
+|<img src="../../en_US/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Frient|Smoke detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5409-frient-detecteur-de-fumee-intelligent-zigbee-30-5713594002330.html)|
+|<img src="../../en_US/zigbee/images/frient_AS.SPLZB-131.png" width="60" />|Frient|Wallplug Schuko|||[Buy](https://www.domadoo.fr/fr/peripheriques/5420-frient-prise-intelligente-mini-avec-mesure-de-consommation-zigbee-ha-version-schuko-5713594002347.html)|
+|<img src="../../en_US/zigbee/images/frient_AS.SPLZB-132.png" width="60" />|Frient|Wallplug|||[Buy](https://www.domadoo.fr/fr/peripheriques/5412-frient-prise-intelligente-mini-avec-mesure-de-consommation-zigbee-ha-version-fr-5713594002514.html)|
 |<img src="../../en_US/zigbee/images/frient_AS.WISZB-120.png" width="60" />|Frient|Opening and temperature sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5402-frient-detecteur-d-ouverture-de-porte-ou-fenetre-zigbee-30-capteur-de-temperature-5713594002354.html)|
 |<img src="../../en_US/zigbee/images/frient_AS.WISZB-121.png" width="60" />|Frient|Movement detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5401-frient-detecteur-d-ouverture-de-porte-ou-fenetre-zigbee-30-5713594002545.html)|
 
@@ -409,4 +412,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-02-26 01:32:05
+2021-02-27 01:32:18

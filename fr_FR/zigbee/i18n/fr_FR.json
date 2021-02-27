@@ -255,17 +255,19 @@
         "Detecteur de mouvement": "Detecteur de mouvement",
         "Capteur d'ouverture et température": "Capteur d'ouverture et température",
         "Wallplug": "Wallplug",
+        "Wallplug Schuko": "Wallplug Schuko",
         "Smart cable": "Smart cable",
         "Motion detector": "Motion detector",
         "Capteur de temptérateur et humidité": "Capteur de temptérateur et humidité",
+        "Detecteur de chaleur": "Detecteur de chaleur",
         "Water leak detector": "Water leak detector",
+        "Air Quality Sensor": "Air Quality Sensor",
         "Develco": "Develco",
         "Siren": "Siren",
         "Panic button": "Panic button",
         "Il semble y avoir un soucis avec le firmware seul la desactivation de l'alerte (appuie 5s sur le bouton après activation du mode panic) est envoyé sur le réseaux zigbee": "Il semble y avoir un soucis avec le firmware seul la desactivation de l'alerte (appuie 5s sur le bouton après activation du mode panic) est envoyé sur le réseaux zigbee",
         "Keypad": "Keypad",
         "IO Module": "IO Module",
-        "Air Quality Sensor": "Air Quality Sensor",
         "Electric meter interface": "Electric meter interface",
         "Par contre elle remonte toujours bien les informations de température et changement de consigne manuel": "Par contre elle remonte toujours bien les informations de température et changement de consigne manuel",
         "Eurotronic": "Eurotronic",
@@ -275,6 +277,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-02-26 01": "2021-02-26 01"
+        "2021-02-27 01": "2021-02-27 01"
     }
 }
