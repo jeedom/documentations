@@ -4,7 +4,16 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 21.09.20
+
+- Hinzufügung neuer Art von Ausrüstung
+- Möglichkeit der Aktivierung der automatischen Drehung des API-Schlüssels
+- Fehlerbehebungen
+
+# 25.09.2020
+
+- Fehler im Feedback zur Alarmaktivierung behoben
+
+# 21.09.2020
 
 - Verbesserte Thermostatunterstützung (kommt nicht vom Thermostat-Plugin)
 - Verbesserung des Konfigurationsfensters für Google Smarthome-Geräte

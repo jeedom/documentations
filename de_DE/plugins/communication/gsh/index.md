@@ -15,7 +15,10 @@ Es kann auf zwei Arten funktionieren :
 
 > **Wichtig**
 >
-> Welchen Modus Sie auch verwenden, Sie MÜSSEN ABSOLUT auf Ihr Jeedom in HTTPS zugreifen können (das Plugin funktioniert nicht in HTTP)
+> Für GOOGLE muss Ihr Jeedom in HTTPS (das Plugin funktioniert nicht in HTTP) mit einem gültigen Zertifikat (daher kein selbstsigniertes Zertifikat) zugänglich sein)
+>
+> Dank der Power- oder Ultimate Service Packs ist Ihr Jeedom über HTTPS zugänglich.
+> Wenn Sie über ein Community Service Pack verfügen, müssen Sie selbst ein SSL-Zertifikat installieren, das von einer Zertifizierungsstelle ausgestellt wurde (z: Lassen Sie uns verschlüsseln, ...).
 
 > **Wichtig**
 >
@@ -241,7 +244,7 @@ Gehen Sie auf Ihrem Jeedom zu Plugin -> Kommunikation -> Google Smarthome und w�
 
 > **Wichtig**
 >
-> Das Plugin basiert auf den generischen Jeedom-Befehlen zur Steuerung Ihrer Hausautomation. Es ist daher sehr wichtig, diese korrekt zu konfigurieren.
+> Das Plugin basiert auf den generischen Jeedom-Befehlen zur Steuerung Ihrer Hausautomation. Es ist daher sehr wichtig, diese korrekt zu konfigurieren.Sie können sehen [hier](https://doc.jeedom.com/de_DE/concept/generic_type) die Dokumentation zum generischen Typ
 
 > **Notiz**
 >
@@ -274,7 +277,7 @@ Die Arten der Ausrüstung sind wichtig, damit Google entsprechend den von Ihnen 
 
 > **Wichtig**
 >
-> Der Thermostat-Typ wird nur durch Geräte unterstützt, die vom Thermostat-Plugin stammen, falls die Verwaltung der Modi möglicherweise nicht funktioniert
+> Der Thermostat-Typ wird nur durch Geräte unterstützt, die vom Thermostat-Plugin stammen. Andernfalls funktioniert die Verwaltung der Modi möglicherweise nicht
 
 ## Szenario
 
@@ -336,11 +339,11 @@ Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 
 >**Ich erhalte die Fehlermeldung "Anscheinend ist Jeedom Smart Home derzeit nicht verfügbar." oder "Entschuldigung, ich kann keine Verbindung zu Jeedom Smart Home herstellen."**
 >
->Versuchen Sie, die Zuordnung der Google Smarthome-App aufzuheben oder erneut aufzuheben. Achten Sie darauf, dass Sie die offizielle Anwendung und keine [TEST] -Anwendung verwenden, wenn Sie zuvor den Standalone-Modus verwendet haben.
+>Versuchen Sie, die Zuordnung der Google Smarthome-App aufzuheben oder erneut aufzuheben. Achten Sie darauf, dass Sie die offizielle Anwendung und keine [TEST] -Anwendung verwenden, wenn Sie zuvor den Standalone-Modus verwendet haben. Wenn das Problem weiterhin besteht, beobachten Sie (insbesondere in einer Szene), dass die Ausführungszeit weniger als 2 Sekunden beträgt (von Google maximal zulässig))
 
 >**Beim Hinzufügen von Geräten habe ich NOK**
 >
->Klicken Sie einfach auf NOK. In einem Fenster wird der generische Typ angezeigt, den Sie auf den Gerätesteuerungen haben müssen, damit er funktioniert
+>Klicken Sie einfach auf NOK. In einem Fenster wird der generische Typ angezeigt, den Sie auf den Gerätesteuerungen haben müssen, damit er funktioniert. Sie können sehen [hier](https://doc.jeedom.com/de_DE/concept/generic_type) die Dokumentation zum generischen Typ
 
 >**Das Ändern der Drehzahl eines Lüfters funktioniert nicht**
 >

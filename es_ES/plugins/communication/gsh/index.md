@@ -15,7 +15,10 @@ Puede funcionar de 2 maneras :
 
 > **Importante**
 >
-> Independientemente del modo que utilice, DEBE ABSOLUTAMENTE tener su Jeedom accesible en HTTPS (el complemento no funciona en HTTP)
+> GOOGLE requiere que su Jeedom sea accesible en HTTPS (el complemento no funciona en HTTP) con un certificado válido (por lo tanto, sin certificado autofirmado)
+>
+> Gracias a los paquetes de servicio Power o Ultimate, se puede acceder a su Jeedom a través de HTTPS.
+> Si tiene un Community Service Pack, debe instalar usted mismo un certificado SSL emitido por una autoridad de certificación (p. Ej: Vamos a cifrar, ...).
 
 > **Importante**
 >
@@ -241,7 +244,7 @@ En su Jeedom, vaya a Complemento -> Comunicación -> Google Smarthome y en la se
 
 > **Importante**
 >
-> El complemento se basa en los tipos genéricos de comandos Jeedom para controlar la automatización de su hogar. Por lo tanto, es muy importante configurarlos correctamente.
+> El complemento se basa en los tipos genéricos de comandos Jeedom para controlar la automatización de su hogar. Por lo tanto, es muy importante configurarlos correctamente.Podéis ver [aquí](https://doc.jeedom.com/es_ES/concept/generic_type) la documentación sobre tipo genérico
 
 > **Nota**
 >
@@ -274,7 +277,7 @@ Los tipos de equipos son importantes, esto le permite a Google reaccionar de acu
 
 > **Importante**
 >
-> El tipo de termostato solo es totalmente compatible a través de un dispositivo proveniente del complemento de termostato, en caso de que la gestión de los modos no funcione
+> El tipo de termostato solo es totalmente compatible a través de equipos que provienen del complemento de termostato; de lo contrario, es posible que la administración de los modos no funcione
 
 ## Escenario
 
@@ -336,11 +339,11 @@ Todo lo que tiene que hacer es asignar el equipo a las habitaciones en la aplica
 
 >**Aparece el error "Aparentemente, Jeedom Smart Home no está disponible en este momento". o "Lo siento, no puedo conectarme a Jeedom Smart Home."**
 >
->Intente desasociar / volver a asociar la aplicación Google smarthome. Tenga cuidado de tomar la aplicación oficial y no una aplicación [TEST] si ha utilizado el modo independiente antes.
+>Intente desasociar / volver a asociar la aplicación Google smarthome. Tenga cuidado de tomar la aplicación oficial y no una aplicación [TEST] si ha utilizado el modo independiente antes. Si el problema persiste, observe (especialmente en una escena) que el tiempo de ejecución sigue siendo inferior a 2 s (máximo permitido por Google)
 
 >**Cuando agrego equipo tengo NOK**
 >
->Simplemente haga clic en NOK, una ventana le indicará el tipo genérico que debe tener en los controles del equipo para que funcione
+>Simplemente haga clic en NOK, una ventana le indicará el tipo genérico que debe tener en los controles del equipo para que funcione. Podéis ver [aquí](https://doc.jeedom.com/es_ES/concept/generic_type) la documentación sobre tipo genérico
 
 >**Cambiar la velocidad de un ventilador no funciona**
 >

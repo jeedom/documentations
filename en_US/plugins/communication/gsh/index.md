@@ -15,7 +15,10 @@ It can work in 2 ways :
 
 > **Important**
 >
-> Whatever mode you use, you MUST ABSOLUTELY have your Jeedom accessible in HTTPS (the plugin does not work in HTTP)
+> GOOGLE requires that your Jeedom be accessible in HTTPS (the plugin does not work in HTTP) with a valid certificate (therefore no self-signed certificate)
+>
+> Thanks to the Power or Ultimate Service Packs, your Jeedom is accessible via HTTPS.
+> If you have a Community Service Pack, you must install yourself an SSL certificate issued by a certification authority (ex: Let's encrypt, ...).
 
 > **Important**
 >
@@ -241,7 +244,7 @@ On your Jeedom, go to Plugin -> Communication -> Google Smarthome and in the equ
 
 > **Important**
 >
-> The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly.
+> The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly.You can see [here](https://doc.jeedom.com/en_US/concept/generic_type) the documentation on generic type
 
 > **NOTE**
 >
@@ -336,11 +339,11 @@ All you have to do is assign the equipment to the rooms in the Google Home app
 
 >**I get the error "Apparently Jeedom Smart Home is unavailable at the moment." or "Sorry I can't connect to Jeedom Smart Home."**
 >
->Try to un-associate / re-associate the Google smarthome app. Be careful to take the official application and not a [TEST] application if you have used standalone mode before.
+>Try to un-associate / re-associate the Google smarthome app. Be careful to take the official application and not a [TEST] application if you have used standalone mode before. If the problem persists watch (especially in a scene) that the execution time remains less than 2s (maximum allowed by Google)
 
 >**When adding equipment I have NOK**
 >
->Just click on the NOK a window will tell you the generic type to have on the equipment controls for it to work
+>Just click on the NOK a window will tell you the generic type to have on the equipment controls for it to work. You can see [here](https://doc.jeedom.com/en_US/concept/generic_type) the documentation on generic type
 
 >**Changing the speed on a fan does not work**
 >

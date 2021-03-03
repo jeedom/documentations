@@ -15,7 +15,10 @@ Il peut fonctionner suivant 2 manières :
 
 > **Important**
 >
-> Quelque soit le mode utiliser il faut ABSOLUMENT que votre Jeedom soit accessible en HTTPS (le plugin ne marche pas en HTTP)
+> GOOGLE impose que votre Jeedom soit accessible en HTTPS (le plugin ne marche pas en HTTP) avec un certificat valide (donc pas de certificat auto-signé)
+>
+> Grâce aux Service Pack Power ou Ultimate, votre Jeedom est accessible en HTTPS.
+> Si vous disposez d'un Service Pack Community, vous devez installer vous même un certificat SSL émis par une autorité de certification (ex: Let's Encrypt, ...).
 
 > **Important**
 >
@@ -241,7 +244,7 @@ Sur votre Jeedom, allez sur Plugin -> Communication -> Google Smarthome et dans 
 
 > **IMPORTANT**
 >
-> Le plugin se base sur les types génériques de Jeedom des commandes pour piloter votre domotique. Il est donc très important de configurer ceux-ci correctement.
+> Le plugin se base sur les types génériques de Jeedom des commandes pour piloter votre domotique. Il est donc très important de configurer ceux-ci correctement.Vous pouvez voir [ici](https://doc.jeedom.com/fr_FR/concept/generic_type) la documentation sur les générique type
 
 > **NOTE**
 >
@@ -274,7 +277,7 @@ Les types d'équipements sont important cela permet à Google de réagir en fonc
 
 > **IMPORTANT**
 >
-> Le type thermostat n'est pleinement supporté qu'à travers un équipement venant du plugin thermostat, dans le cas contrainre la gestion des modes risque de ne pas marcher
+> Le type thermostat n'est pleinement supporté qu'à travers un équipement venant du plugin thermostat, dans le cas contraire la gestion des modes risque de ne pas marcher
 
 ## Scénario
 
@@ -336,11 +339,11 @@ Il ne vous reste plus qu'a faire l'affectation des équipements aux pieces dans 
 
 >**J'ai l'erreur "Apparemment Jeedom Smart Home est indisponible pour le moment." ou "Pardon je ne peux pas établir la connexion avec Jeedom Smart Home."**
 >
->Essayez de dé-associé/ré-associé l'application Google smarthome. Attention à bien prendre l'application officiel et non une application [TEST] si vous avez utilisez le mode standalone avant.
+>Essayez de dé-associé/ré-associé l'application Google smarthome. Attention à bien prendre l'application officiel et non une application [TEST] si vous avez utilisez le mode standalone avant. Si le probleme persiste regarder (en particulier dans une scene) que le temps d'éxecution reste inferieure à 2s (maximum autorisé par Google)
 
 >**Lors de l'ajout des équipement j'ai des NOK**
 >
->Cliquez simplement sur le NOK une fenetre vous dira les generique type a avoir sur les commandes de l'équipement pour que cela marche
+>Cliquez simplement sur le NOK une fenetre vous dira les generique type à avoir sur les commandes de l'équipement pour que cela marche. Vous pouvez voir [ici](https://doc.jeedom.com/fr_FR/concept/generic_type) la documentation sur les générique type
 
 >**Le changement de vitesse sur un ventilateur ne marche pas**
 >

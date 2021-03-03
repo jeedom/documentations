@@ -4,7 +4,16 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-# 21/09/20
+
+- Adição de novo tipo de equipamento
+- Possibilidade de ativar a rotação automática da chave API
+- Correções de bugs
+
+# 25/09/2020
+
+- Bugs corrigidos no feedback de ativação de alarme
+
+# 21/09/2020
 
 - Suporte aprimorado de termostatos (não vindo do plug-in de termostato)
 - Melhoria da janela de configuração para dispositivos Google Smarthome
