@@ -38,12 +38,6 @@
         "Remarque": "Remarque",
         "Lien": "Lien",
         "Tuya": "Tuya",
-        "Multiprise connectée LIDL": "Multiprise connectée LIDL",
-        "LIDL": "LIDL",
-        "Reglette led LIDL": "Reglette led LIDL",
-        "Applique LIDL": "Applique LIDL",
-        "Capteur de mouvement LIDL": "Capteur de mouvement LIDL",
-        "USEELINK - MULTIPRISE CONNECTÉE 4 PRISES + 2 PORTS USB": "USEELINK - MULTIPRISE CONNECTÉE 4 PRISES + 2 PORTS USB",
         "Sirene": "Sirene",
         "Moes": "Moes",
         "Moes Radiator Actuator": "Moes Radiator Actuator",
@@ -59,6 +53,7 @@
         "ASLED Swing": "ASLED Swing",
         "Température\/humidité": "Température\/humidité",
         "Interrupteur double": "Interrupteur double",
+        "USEELINK - MULTIPRISE CONNECTÉE 4 PRISES + 2 PORTS USB": "USEELINK - MULTIPRISE CONNECTÉE 4 PRISES + 2 PORTS USB",
         "Interrupteur simple": "Interrupteur simple",
         "Moes switch lumière": "Moes switch lumière",
         "0 2300W 1 entrée": "0 2300W 1 entrée",
@@ -166,9 +161,12 @@
         "Lidl E14 RGB": "Lidl E14 RGB",
         "LIDL E14 LED LIVARNOLU": "LIDL E14 LED LIVARNOLU",
         "Lidl GU10 RGB Livarnolux": "Lidl GU10 RGB Livarnolux",
+        "Reglette led": "Reglette led",
         "LIDL GU10 LED LIVARNOLU": "LIDL GU10 LED LIVARNOLU",
         "Lidl E27 RGB": "Lidl E27 RGB",
+        "Applique": "Applique",
         "LIDL E27 LED LIVARNOLU": "LIDL E27 LED LIVARNOLU",
+        "Capteur de mouvement": "Capteur de mouvement",
         "Lellki": "Lellki",
         "Multiprise": "Multiprise",
         "Konke": "Konke",
@@ -288,6 +286,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-03-02 01": "2021-03-02 01"
+        "2021-03-03 01": "2021-03-03 01"
     }
 }

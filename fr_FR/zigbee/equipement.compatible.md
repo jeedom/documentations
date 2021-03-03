@@ -171,6 +171,7 @@
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_W_opal_1000lm.png" width="60" />|Ikea|Bulb E27 W opal 1000lm||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WS_400lm.png" width="60" />|Ikea|Bulb GU10 WS 400lm||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_WW_400lm.png" width="60" />|Ikea|Bulb GU10 WW 400lm||||
+|<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_GU10_W_400lm.png" width="60" />|Ikea|Bulb GU10 WW 400lm||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_control_outlet.png" width="60" />|Ikea|Ikea TRADFRI prise connectée|||[Documentation](https://www.ikea.com/fr/fr/manuals/tradfri-wireless-control-outlet__AA-2106602-1_pub.pdf)<br/>|
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_motion_sensor.png" width="60" />|Ikea|Ikea TRADFRI Détecteur de mouvement sans fil blanc|||[Documentation](https://www.ikea.com/fr/fr/manuals/tradfri-wireless-motion-sensor__AA-2145280-2_pub.pdf)<br/>|
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_onoff_switch.png" width="60" />|Ikea|Ikea TRADFRI télécommande 2 boutons|Télécommande||[Documentation](https://www.ikea.com/fr/fr/assembly_instructions/tradfri-wireless-dimmer-white__AA-2175106-3_pub.pdf)<br/>|
@@ -201,14 +202,18 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zigbee/images/_TZ3000_49qchf10.TS0502A.png" width="60" />|Lidl|LIDL E27 LED LIVARNOLUX||||
-|<img src="../../fr_FR/zigbee/images/_TZ3000_dbou1ap4.TS0505A.png" width="60" />|Lidl|Lidl E27 RGB||||
-|<img src="../../fr_FR/zigbee/images/_TZ3000_el5kt5im.TS0502A.png" width="60" />|Lidl|LIDL GU10 LED LIVARNOLUX||||
-|<img src="../../fr_FR/zigbee/images/_TZ3000_kdpxju99.TS0505A.png" width="60" />|Lidl|Lidl GU10 RGB Livarnolux||||
-|<img src="../../fr_FR/zigbee/images/_TZ3000_oborybow.TS0502A.png" width="60" />|Lidl|LIDL E14 LED LIVARNOLUX||||
-|<img src="../../fr_FR/zigbee/images/_TZ3000_odygigth.TS0505A.png" width="60" />|Lidl|Lidl E14 RGB||||
-|<img src="../../fr_FR/zigbee/images/_TZ3000_riwp3k79.TS0505A.png" width="60" />|Lidl|Lidl Ruban LED||||
-|<img src="../../fr_FR/zigbee/images/_TZ3000_wamqdr3f.TS011F.png" width="60" />|Lidl|Prise connectée LIDL Silvercrrest SAPZ 1 A1||||
+|<img src="../../fr_FR/zigbee/images/TZ1800_fcdjzz3s.TY0202.png" width="60" />|Lidl|Capteur de mouvement||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_49qchf10.TS0502A.png" width="60" />|Lidl|LIDL E27 LED LIVARNOLUX||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_5bsf8vaj.TS0505A.png" width="60" />|Lidl|Applique||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_dbou1ap4.TS0505A.png" width="60" />|Lidl|Lidl E27 RGB||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_el5kt5im.TS0502A.png" width="60" />|Lidl|LIDL GU10 LED LIVARNOLUX||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_gek6snaj.TS0505A.png" width="60" />|Lidl|Reglette led||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_kdpxju99.TS0505A.png" width="60" />|Lidl|Lidl GU10 RGB Livarnolux||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_oborybow.TS0502A.png" width="60" />|Lidl|LIDL E14 LED LIVARNOLUX||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_odygigth.TS0505A.png" width="60" />|Lidl|Lidl E14 RGB||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_riwp3k79.TS0505A.png" width="60" />|Lidl|Lidl Ruban LED||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_vzopcetz.TS011F.png" width="60" />|Lidl|Multiprise connectée||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_wamqdr3f.TS011F.png" width="60" />|Lidl|Prise connectée LIDL Silvercrrest SAPZ 1 A1||||
 
 # Nodon
 
@@ -349,6 +354,7 @@
 |<img src="../../fr_FR/zigbee/images/TUYATEC-ydcwf5m2.RH3001.png" width="60" />|Tuya|Capteur ouverture||||
 |<img src="../../fr_FR/zigbee/images/TUYATEC-zn9wyqtr.RH3040.png" width="60" />|Tuya|Détecteur de mouvement||||
 |<img src="../../fr_FR/zigbee/images/TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|BlitzWolf BW-SS7 ZigBee3.0 2300W 1 entrée||||
+|<img src="../../fr_FR/zigbee/images/TYZB01_b1ngbmlm.TS0112.png" width="60" />|Tuya|USEELINK - MULTIPRISE CONNECTÉE 4 PRISES + 2 PORTS USB||||
 |<img src="../../fr_FR/zigbee/images/TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Moes switch lumière||||
 |<img src="../../fr_FR/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Interrupteur simple||||
 |<img src="../../fr_FR/zigbee/images/TYZB01_vkwryfdr.TS0115.png" width="60" />|Tuya|USEELINK - MULTIPRISE CONNECTÉE 4 PRISES + 2 PORTS USB|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html)|
@@ -365,11 +371,6 @@
 |<img src="../../fr_FR/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Tuya TS0042|||[Acheter](l)|
 |<img src="../../fr_FR/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Moes Radiator Actuator||||
 |<img src="../../fr_FR/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Sirene||||
-|<img src="../../fr_FR/zigbee/images/_TYZB01_b1ngbmlm.TS0112.png" width="60" />|Tuya|USEELINK - MULTIPRISE CONNECTÉE 4 PRISES + 2 PORTS USB|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html)|
-|<img src="../../fr_FR/zigbee/images/_TZ1800_fcdjzz3s.TY0202.png" width="60" />|LIDL|Capteur de mouvement LIDL||||
-|<img src="../../fr_FR/zigbee/images/_TZ3000_5bsf8vaj.TS0505A.png" width="60" />|LIDL|Applique LIDL||||
-|<img src="../../fr_FR/zigbee/images/_TZ3000_gek6snaj.TS0505A.png" width="60" />|LIDL|Reglette led LIDL||||
-|<img src="../../fr_FR/zigbee/images/_TZ3000_vzopcetz.TS011F.png" width="60" />|Tuya|Multiprise connectée LIDL||||
 
 # Xiaomi
 
@@ -418,4 +419,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-03-02 01:32:05
+2021-03-03 01:32:05
