@@ -246,6 +246,8 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|OSRAM Smart + Connected LED-Lampe - E27-Sockel||||
 |<img src="../../de_DE/zigbee/images/OSRAM.CLA60_TW_OSRAM.png" width="60" />|Osram|Osram Smart + Tunable weiße E27 Basis||Bitte beachten Sie, dass die Statusrückmeldung für dieses Modell nicht in Echtzeit erfolgt (entweder nach einem Befehl oder indem Sie explizit eine Aktualisierung anfordern)||
+|<img src="../../de_DE/zigbee/images/OSRAM.Classic B40 TW - LIGHTIFY.png" width="60" />|Osram|OSRAM Smart + E14 LED-Lampe||Bitte beachten Sie, dass die Statusrückmeldung für dieses Modell nicht in Echtzeit erfolgt (entweder nach einem Befehl oder indem Sie explizit eine Aktualisierung anfordern)||
+|<img src="../../de_DE/zigbee/images/OSRAM.Gardenpole RGBW-Lightify.png" width="60" />|Osram|LEDVANCE SMART + GARDEN POLE||Bitte beachten Sie, dass die Statusrückmeldung für dieses Modell nicht in Echtzeit erfolgt (entweder nach einem Befehl oder indem Sie explizit eine Aktualisierung anfordern)||
 |<img src="../../de_DE/zigbee/images/OSRAM.LIGHTIFY_Indoor_Flex_RGBW.png" width="60" />|Osram|OSRAM LIGHTIFY Indoor Flex RGBW||Bitte beachten Sie, dass die Statusrückmeldung für dieses Modell nicht in Echtzeit erfolgt (entweder nach einem Befehl oder indem Sie explizit eine Aktualisierung anfordern)||
 |<img src="../../de_DE/zigbee/images/OSRAM.Lightify_Switch_Mini.png" width="60" />|Osram|Lightify Switch Mini||||
 |<img src="../../de_DE/zigbee/images/OSRAM.MR16_TW_OSRAM.png" width="60" />|Osram|OSRAM SMART + Spot GU5.3 Abstimmbares Weiß||||
@@ -334,6 +336,8 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/Sunricher.CCT_Lighting.png" width="60" />|Sunricher|Sunricher CCT-Beleuchtung||||
+|<img src="../../de_DE/zigbee/images/Sunricher.HK-SL-DIM-A.png" width="60" />|Sunricher|Sunricher HK-SL-DIM-A||||
+|<img src="../../de_DE/zigbee/images/Sunricher.HK-SL-RELAY-A.png" width="60" />|Sunricher|Sunricher HK-SL-RELAIS-A||||
 |<img src="../../de_DE/zigbee/images/Sunricher.Motor_Controller.png" width="60" />|Sunricher|Sunricher Motorsteuerung||||
 |<img src="../../de_DE/zigbee/images/Sunricher.RGB-CCT.png" width="60" />|Sunricher|Sunricher RGB||||
 |<img src="../../de_DE/zigbee/images/Sunricher.ZG2858A.png" width="60" />|Sunricher|Sonnenreichere Fernfarbe||||
@@ -419,4 +423,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-03-03 01:32:05
+2021-03-04 01:32:18

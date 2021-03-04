@@ -246,6 +246,8 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|OSRAM Smart+ Ampoule LED Connectée - Culot E27||||
 |<img src="../../fr_FR/zigbee/images/OSRAM.CLA60_TW_OSRAM.png" width="60" />|Osram|Osram Smart+ Tunable white culot E27||Attention le retour d'état pour ce model n'est pas en temps réel (soit suite à une commande soit en demandant explicitement une mise à jour de celui-ci)||
+|<img src="../../fr_FR/zigbee/images/OSRAM.Classic B40 TW - LIGHTIFY.png" width="60" />|Osram|OSRAM Smart+ Ampoule LED E14||Attention le retour d'état pour ce model n'est pas en temps réel (soit suite à une commande soit en demandant explicitement une mise à jour de celui-ci)||
+|<img src="../../fr_FR/zigbee/images/OSRAM.Gardenpole RGBW-Lightify.png" width="60" />|Osram|LEDVANCE SMART+ JARDIN POLE||Attention le retour d'état pour ce model n'est pas en temps réel (soit suite à une commande soit en demandant explicitement une mise à jour de celui-ci)||
 |<img src="../../fr_FR/zigbee/images/OSRAM.LIGHTIFY_Indoor_Flex_RGBW.png" width="60" />|Osram|OSRAM LIGHTIFY Indoor Flex RGBW||Attention le retour d'état pour ce model n'est pas en temps réel (soit suite à une commande soit en demandant explicitement une mise à jour de celui-ci)||
 |<img src="../../fr_FR/zigbee/images/OSRAM.Lightify_Switch_Mini.png" width="60" />|Osram|Lightify Switch Mini||||
 |<img src="../../fr_FR/zigbee/images/OSRAM.MR16_TW_OSRAM.png" width="60" />|Osram|OSRAM SMART+ Spot GU5.3 Tunable White||||
@@ -334,6 +336,8 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/Sunricher.CCT_Lighting.png" width="60" />|Sunricher|Sunricher CCT Lighting||||
+|<img src="../../fr_FR/zigbee/images/Sunricher.HK-SL-DIM-A.png" width="60" />|Sunricher|Sunricher HK-SL-DIM-A||||
+|<img src="../../fr_FR/zigbee/images/Sunricher.HK-SL-RELAY-A.png" width="60" />|Sunricher|Sunricher HK-SL-RELAY-A||||
 |<img src="../../fr_FR/zigbee/images/Sunricher.Motor_Controller.png" width="60" />|Sunricher|Sunricher motor controller||||
 |<img src="../../fr_FR/zigbee/images/Sunricher.RGB-CCT.png" width="60" />|Sunricher|Sunricher RGB||||
 |<img src="../../fr_FR/zigbee/images/Sunricher.ZG2858A.png" width="60" />|Sunricher|Sunricher remote color||||
@@ -419,4 +423,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-03-03 01:32:05
+2021-03-04 01:32:18

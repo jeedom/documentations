@@ -68,6 +68,8 @@
         "Sunricher remote color": "Sunricher remote color",
         "Sunricher RGB": "Sunricher RGB",
         "Sunricher motor controller": "Sunricher motor controller",
+        "Sunricher HK-SL-RELAY-A": "Sunricher HK-SL-RELAY-A",
+        "Sunricher HK-SL-DIM-A": "Sunricher HK-SL-DIM-A",
         "Sunricher CCT Lighting": "Sunricher CCT Lighting",
         "Sonoff": "Sonoff",
         "Sonoff bouton": "Sonoff bouton",
@@ -137,6 +139,8 @@
         "OSRAM SMART+ Spot GU5": "OSRAM SMART+ Spot GU5",
         "Lightify Switch Mini": "Lightify Switch Mini",
         "OSRAM LIGHTIFY Indoor Flex RGBW": "OSRAM LIGHTIFY Indoor Flex RGBW",
+        "LEDVANCE SMART+ JARDIN POLE": "LEDVANCE SMART+ JARDIN POLE",
+        "OSRAM Smart+ Ampoule LED E14": "OSRAM Smart+ Ampoule LED E14",
         "Osram Smart+ Tunable white culot E27": "Osram Smart+ Tunable white culot E27",
         "OSRAM Smart+ Ampoule LED Connectée - Culot E27": "OSRAM Smart+ Ampoule LED Connectée - Culot E27",
         "Orvibo": "Orvibo",
@@ -286,6 +290,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-03-03 01": "2021-03-03 01"
+        "2021-03-04 01": "2021-03-04 01"
     }
 }
