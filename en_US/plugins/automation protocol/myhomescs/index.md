@@ -28,7 +28,7 @@ The "Add equipment" button allows you to add specific MyHomeSCS equipment, gener
 
 When you switch to Expert mode, you have access to other options : Command type, unit, communication type, raw frame.
 
-The type field allows you to choose between an action type command or an info type command, the type of action or info (Action, cursor, message, etc.) and action (ON, OFF, etc.). …). The unit field is used to enter the unit used for the command or for status feedback. The communication field allows you to choose the type of communication (Multicast, Unicast or Broadcast). The LogicalID or raw command field is used to name the info or to fill in the "raw" frame".
+The type field allows you to choose between an action type command or an info type command, the type of action or info (Action, cursor, message, etc.) and the action (ON, OFF, etc.). The unit field is used to enter the unit used for the command or for status feedback. The communication field allows you to choose the type of communication (Multicast, Unicast or Broadcast). The LogicalID or raw command field is used to name the info or to fill in the "raw" frame".
 
 ![myhomescs4](./images/myhomescs4.png)
 
@@ -40,9 +40,9 @@ The general tab allows you to choose the name of the equipment, its destination 
 
 ![myhomescs7](./images/myhomescs7.png)
 
-The Orders tab details all the orders (certain elements are only available in expert mode).
+The Orders tab details all the commands (some elements are only available in expert mode).
 
-These commands are automatically filled if you choose the module type in the "Equipment" field". Useful parameters are Historize, Display (the command), Event (allows to force the request for info on the module).
+These commands are automatically filled if you choose the module type in the "Equipment" field". The useful parameters are Log, Display (the command), Event (used to force the request for information on the module).
 
 ![myhomescs8](./images/myhomescs8.png)
 
@@ -66,13 +66,13 @@ Either the module exists in the drop-down menu : Equipment and there it is enoug
 
 Either the module does not exist (yet) in the plugin and then you will have to create the commands one by one.
 
-Info commands are necessary to retrieve the state of the equipment. Example for light modules, a "button" info is created and allows to know the state of the module button (ON or OFF for example). This info is used in particular to manage widgets or is used to trigger scenarios
+Info commands are necessary to retrieve the state of the equipment. Example for light modules, a "button" info is created and allows to know the status of the module button (ON or OFF for example). This info is used in particular to manage widgets or is used to trigger scenarios
 
 Actions commands allow you to perform actions on the equipment. Depending on the category of equipment, you will have different choices.
 
 Legrand frames are oriented around 3 variables and are in the form (for a frame of the BUS-COMMAND type) \*WHO \*WHAT \* WHERE \#\#
 
-The WHO corresponds to the category (light, automation, etc ...). If in the raw frame you enter \#WHO\\\#, this will be replaced by the equipment category ID.
+The WHO corresponds to the category (light, automation, etc). If in the raw frame you enter \#WHO\\\#, this will be replaced by the equipment category ID.
 
 WHAT corresponds to the action ID. If you enter \#WHAT\\\#, this variable will be replaced by the corresponding code of the chosen command.
 

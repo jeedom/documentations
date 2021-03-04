@@ -28,7 +28,7 @@ El botón "Agregar equipo" le permite agregar equipos específicos de MyHomeSCS,
 
 Cuando cambia al modo experto, tiene acceso a otras opciones : Tipo de comando, unidad, tipo de comunicación, marco sin formato.
 
-El campo de tipo le permite elegir entre un comando de tipo de acción o un comando de tipo de información, el tipo de acción o información (Acción, cursor, mensaje, etc.) y acción (ACTIVAR, DESACTIVAR, etc.). ...). El campo de unidad se usa para ingresar la unidad utilizada para el comando o para la retroalimentación de estado. El campo de comunicación le permite elegir el tipo de comunicación (Multicast, Unicast o Broadcast). El campo de comando LogicalID o raw se usa para nombrar la información o completar el marco "raw"".
+El campo de tipo se usa para elegir entre un comando de tipo de acción o un comando de tipo de información, el tipo de acción o información (Acción, cursor, mensaje, etc.) y la acción (ON, OFF, etc.). El campo de unidad se usa para ingresar la unidad utilizada para el comando o para la retroalimentación de estado. El campo de comunicación le permite elegir el tipo de comunicación (Multicast, Unicast o Broadcast). El campo de comando LogicalID o raw se usa para nombrar la información o completar el marco "raw"".
 
 ![myhomescs4](./images/myhomescs4.png)
 
@@ -40,9 +40,9 @@ La pestaña general le permite elegir el nombre del equipo, su destino en la est
 
 ![myhomescs7](./images/myhomescs7.png)
 
-La pestaña Pedidos detalla todos los pedidos (ciertos elementos solo están disponibles en modo experto).
+La pestaña Pedidos detalla todos los comandos (algunos elementos solo están disponibles en modo experto).
 
-Estos comandos se completan automáticamente si elige el tipo de módulo en el campo "Equipo"". Los parámetros útiles son Historize, Display (el comando), Event (permite forzar la solicitud de información sobre el módulo).
+Estos comandos se completan automáticamente si elige el tipo de módulo en el campo "Equipo"". Los parámetros útiles son Log, Display (el comando), Event (utilizado para forzar la solicitud de información sobre el módulo).
 
 ![myhomescs8](./images/myhomescs8.png)
 
@@ -72,7 +72,7 @@ Los comandos de acciones le permiten realizar acciones en el equipo. Dependiendo
 
 Los marcos de Legrand están orientados alrededor de 3 variables y tienen la forma (para un marco del tipo BUS-COMMAND) \*QUIEN*QUE \* DONDE \#\#
 
-La OMS corresponde a la categoría (luz, automatización, etc.). Si en el marco sin formato ingresas \#WHO\\\#, esto será reemplazado por la ID de categoría de equipo.
+La OMS corresponde a la categoría (luz, automatización, etc.)). Si en el marco sin formato ingresas \#WHO\\\#, esto será reemplazado por la ID de categoría de equipo.
 
 QUÉ corresponde a la ID de acción. Si ingresas \#WHAT\\\#, esta variable será reemplazada por el código correspondiente del comando elegido.
 

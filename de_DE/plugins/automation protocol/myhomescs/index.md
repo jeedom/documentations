@@ -28,7 +28,7 @@ Mit der Schaltfläche "Ausrüstung hinzufügen" können Sie bestimmte MyHomeSCS-
 
 Wenn Sie in den Expertenmodus wechseln, haben Sie Zugriff auf andere Optionen : Befehlstyp, Einheit, Kommunikationstyp, Rohrahmen.
 
-Im Feld Typ können Sie zwischen einem Befehl vom Typ Aktion oder einem Befehl vom Typ Info, dem Typ der Aktion oder Info (Aktion, Cursor, Nachricht usw.) und der Aktion (EIN, AUS usw.) wählen. …). Das Einheitenfeld wird verwendet, um die Einheit einzugeben, die für den Befehl oder für die Statusrückmeldung verwendet wird. Im Kommunikationsfeld können Sie die Art der Kommunikation auswählen (Multicast, Unicast oder Broadcast). Das Befehlsfeld LogicalID oder raw wird verwendet, um die Informationen zu benennen oder den "raw" -Rahmen auszufüllen".
+Im Feld Typ können Sie zwischen einem Befehl vom Typ Aktion oder einem Befehl vom Typ Info, dem Typ der Aktion oder den Informationen (Aktion, Cursor, Nachricht usw.) und der Aktion (EIN, AUS usw.) wählen.). Das Einheitenfeld wird verwendet, um die Einheit einzugeben, die für den Befehl oder für die Statusrückmeldung verwendet wird. Im Kommunikationsfeld können Sie die Art der Kommunikation auswählen (Multicast, Unicast oder Broadcast)). Das Befehlsfeld LogicalID oder raw wird verwendet, um die Informationen zu benennen oder den "raw" -Rahmen auszufüllen".
 
 ![myhomescs4](./images/myhomescs4.png)
 
@@ -40,9 +40,9 @@ Auf der Registerkarte Allgemein können Sie den Namen des Geräts, sein Ziel in 
 
 ![myhomescs7](./images/myhomescs7.png)
 
-Auf der Registerkarte Bestellungen werden alle Bestellungen aufgeführt (bestimmte Elemente sind nur im Expertenmodus verfügbar).
+Auf der Registerkarte Bestellungen werden alle Befehle aufgeführt (einige Elemente sind nur im Expertenmodus verfügbar).
 
-Diese Befehle werden automatisch ausgefüllt, wenn Sie den Modultyp im Feld "Ausrüstung" auswählen". Nützliche Parameter sind Historize, Display (der Befehl), Event (ermöglicht das Erzwingen der Informationsanforderung für das Modul).
+Diese Befehle werden automatisch ausgefüllt, wenn Sie den Modultyp im Feld "Ausrüstung" auswählen". Die nützlichen Parameter sind Log, Display (der Befehl), Event (werden verwendet, um die Anforderung von Informationen über das Modul zu erzwingen).
 
 ![myhomescs8](./images/myhomescs8.png)
 
@@ -66,13 +66,13 @@ Entweder ist das Modul im Dropdown-Menü vorhanden : Ausrüstung und dort reicht
 
 Entweder existiert das Modul (noch) nicht im Plugin und dann müssen Sie die Befehle einzeln erstellen.
 
-Info-Befehle sind erforderlich, um den Status des Geräts abzurufen. Beispiel für Lichtmodule wird eine "Tasten" -Information erstellt, mit der der Status der Modultaste ermittelt werden kann (z. B. EIN oder AUS). Diese Informationen werden insbesondere zum Verwalten von Widgets oder zum Auslösen von Szenarien verwendet
+Info-Befehle sind erforderlich, um den Status des Geräts abzurufen. Beispiel für Lichtmodule wird eine "Tasten" -Information erstellt, mit der der Status der Modultaste (z. B. EIN oder AUS) ermittelt werden kann). Diese Informationen werden insbesondere zum Verwalten von Widgets oder zum Auslösen von Szenarien verwendet
 
 Mit Aktionsbefehlen können Sie Aktionen am Gerät ausführen. Abhängig von der Kategorie der Ausrüstung haben Sie unterschiedliche Möglichkeiten.
 
 Legrand-Frames orientieren sich an 3 Variablen und haben die Form (für einen Frame vom Typ BUS-COMMAND) \*WHO \*WAS \* WO \#\#
 
-Die WHO entspricht der Kategorie (Licht, Automatisierung usw.). Wenn Sie im Rohrahmen \ eingeben#WHO\\\#, Dies wird durch die Gerätekategorie-ID ersetzt.
+Die WHO entspricht der Kategorie (Licht, Automatisierung usw.)). Wenn Sie im Rohrahmen \ eingeben#WHO\\\#, Dies wird durch die Gerätekategorie-ID ersetzt.
 
 WAS entspricht der Aktions-ID. Wenn Sie \ eingeben#WHAT\\\#, Diese Variable wird durch den entsprechenden Code des ausgewählten Befehls ersetzt.
 
@@ -86,7 +86,7 @@ Informationen zu allen Arten von Frames, WHO, WHAT, WHERE-Werten, Kommunikations
 
 Nachdem Sie alle Bestellungen für Ihre Geräte erstellt haben, können Sie eine "Geräte" -Datei im JSON-Format erstellen. Hierfür können Sie sich von vorhandenen Modulen inspirieren lassen.
 
-Dann können Sie es mit der Community teilen (dank der Funktion : Konfiguration senden). Dadurch werden automatische Befehle für die nächsten Benutzer des MyHomeSCS-Plugins hinzugefügt.
+Dann können Sie es mit der Community teilen (dank der Funktion : Senden Sie eine Konfiguration). Dadurch werden automatische Befehle für die nächsten Benutzer des MyHomeSCS-Plugins hinzugefügt.
 
 Danke dir.
 

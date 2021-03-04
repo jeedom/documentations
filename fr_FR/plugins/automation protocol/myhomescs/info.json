@@ -1,7 +1,13 @@
 {
     "id": "myhomescs",
     "name": "MyhomeSCS",
-    "description": "Permet de gérer le protocole MyHome Bus.",
+    "description": {
+        "fr_FR": "Permet de gérer le protocole MyHome Bus.",
+        "en_US": "Used to manage the MyHome Bus protocol",
+        "es_ES": "Se usa para administrar el protocolo MyHome Bus",
+        "de_DE": "Wird zum Verwalten des MyHome Bus-Protokolls verwendet",
+        "pt_PT": "Usado para gerenciar o protocolo de barramento MyHome"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "3.0",
@@ -9,5 +15,21 @@
     "hasOwnDeamon": true,
     "hasDependency": true,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/myhomescs\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/myhomescs\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/myhomescs\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

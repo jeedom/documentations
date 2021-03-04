@@ -1,7 +1,13 @@
 {
     "id": "bestway",
     "name": "Bestway",
-    "description": "Plugin pour piloter les équipements connecté Bestway. Pour le moment seul le SPA Milan a été testé (seul spa connecté de la gamme).",
+    "description": {
+        "fr_FR": "Plugin pour piloter les équipements connecté Bestway. Pour le moment seul le SPA Milan a été testé (seul spa connecté de la gamme).",
+        "en_US": "Plugin to control Bestway connected equipment. For the moment, only the SPA Milan has been tested (the only connected spa in the range)",
+        "es_ES": "Complemento para controlar los equipos conectados Bestway. Por el momento, solo se ha probado el SPA Milán (el único spa conectado de la gama)",
+        "de_DE": "Plugin zur Steuerung von mit Bestway verbundenen Geräten. Im Moment wurde nur das SPA Milan getestet (das einzige angeschlossene Spa im Sortiment)",
+        "pt_PT": "Plug-in para controlar o equipamento conectado Bestway. Por enquanto, apenas o SPA Milan foi testado (o único spa conectado da gama)"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "4.0",
@@ -16,11 +22,9 @@
     "language": [
         "fr_FR",
         "en_US",
+        "es_ES",
         "de_DE",
-        "sp_SP",
-        "ru_RU",
-        "id_ID",
-        "it_IT"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",

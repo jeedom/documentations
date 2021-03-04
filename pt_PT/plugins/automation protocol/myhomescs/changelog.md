@@ -15,7 +15,7 @@
 
 # V1.000 de 21/11/2017 
 
--Modificação do logicID (concatenação de A e PL). Mais PL em pedidos
+-Modificação do ID lógico (concatenação de A e PL). Mais PL em pedidos
 
 # V0.002 de 21/11/2017 
 

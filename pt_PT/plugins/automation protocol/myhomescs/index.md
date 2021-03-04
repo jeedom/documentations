@@ -28,7 +28,7 @@ O botão "Adicionar equipamento" permite adicionar equipamentos específicos do 
 
 Ao alternar para o modo Especialista, você tem acesso a outras opções : Tipo de comando, unidade, tipo de comunicação, quadro bruto.
 
-O campo de tipo permite escolher entre um comando do tipo de ação ou um comando do tipo info, o tipo de ação ou info (Ação, cursor, mensagem, etc.) e ação (ON, OFF, etc.). ...). O campo da unidade é usado para inserir a unidade usada para o comando ou para feedback de status. O campo de comunicação permite escolher o tipo de comunicação (Multicast, Unicast ou Broadcast). O campo LogicalID ou comando bruto é usado para nomear as informações ou para preencher o quadro "bruto"".
+O campo de tipo permite escolher entre um comando de tipo de ação ou um comando de tipo de informação, o tipo de ação ou informação (Ação, cursor, mensagem, etc.) e a ação (LIGADO, DESLIGADO, etc.). O campo da unidade é usado para inserir a unidade usada para o comando ou para feedback de status. O campo de comunicação permite escolher o tipo de comunicação (Multicast, Unicast ou Broadcast). O campo LogicalID ou comando bruto é usado para nomear as informações ou para preencher o quadro "bruto"".
 
 ![myhomescs4](../images/myhomescs4.png)
 
@@ -40,9 +40,9 @@ A guia geral permite escolher o nome do equipamento, seu destino na estrutura em
 
 ![myhomescs7](../images/myhomescs7.png)
 
-A guia Pedidos detalha todos os pedidos (alguns elementos estão disponíveis apenas no modo especialista).
+A guia Pedidos detalha todos os comandos (alguns elementos estão disponíveis apenas no modo especialista).
 
-Esses comandos são preenchidos automaticamente se você escolher o tipo de módulo no campo "Equipamento"". Os parâmetros úteis são Historize, Display (o comando), Event (permite forçar a solicitação de informações sobre o módulo).
+Esses comandos são preenchidos automaticamente se você escolher o tipo de módulo no campo "Equipamento"". Os parâmetros úteis são Log, Display (o comando), Event (usado para forçar a solicitação de informações no módulo).
 
 ![myhomescs8](../images/myhomescs8.png)
 
@@ -66,13 +66,13 @@ O módulo existe no menu suspenso : Equipamento e basta escolher, depois salvar,
 
 O módulo ainda não existe no plug-in e você precisará criar os comandos um por um.
 
-Comandos de informações são necessários para recuperar o estado do equipamento. Exemplo para módulos de luz, uma informação de "botão" é criada e permite conhecer o estado do botão do módulo (ON ou OFF, por exemplo). Esta informação é usada em particular para gerenciar widgets ou para acionar cenários
+Comandos de informações são necessários para recuperar o estado do equipamento. Exemplo para módulos leves, uma informação de "botão" é criada e permite conhecer o status do botão do módulo (ON ou OFF, por exemplo). Esta informação é usada em particular para gerenciar widgets ou para acionar cenários
 
 Os comandos de ações permitem executar ações no equipamento. Dependendo da categoria do equipamento, você terá diferentes opções.
 
 Os quadros Legrand são orientados em torno de três variáveis e estão no formato (para um quadro do tipo BUS-COMMAND) \*QUEM \*O QUE \* ONDE \#\#
 
-A OMS corresponde à categoria (luz, automação, etc ...). Se no quadro bruto você digitar \#WHO\\\#, isso será substituído pelo ID da categoria de equipamento.
+A OMS corresponde à categoria (luz, automação, etc). Se no quadro bruto você digitar \#WHO\\\#, isso será substituído pelo ID da categoria de equipamento.
 
 O QUE corresponde ao ID da ação. Se você digitar \#WHAT\\\#, essa variável será substituída pelo código correspondente do comando escolhido.
 
@@ -86,7 +86,7 @@ Para conhecer todos os tipos de quadros, valor WHO, WHAT, WHERE, tipos de comuni
 
 Depois de criar todos os pedidos para o seu equipamento, é possível criar um arquivo "Equipamento" no formato JSON. Para isso, você pode se inspirar nos módulos existentes.
 
-Então você pode compartilhá-lo com a comunidade (graças à função : Enviar uma configuração). Isso adicionará comandos automáticos para os próximos usuários do plug-in MyHomeSCS.
+Então você pode compartilhá-lo com a comunidade (graças à função : Envie uma configuração). Isso adicionará comandos automáticos para os próximos usuários do plug-in MyHomeSCS.
 
 Graças a você.
 
