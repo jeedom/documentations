@@ -22,7 +22,7 @@ Se puede acceder a la configuración del equipo de Monitoreo desde el menú Comp
 - Frecuencia de actualización : en formato cron (ex \*/ 15 \* \* \* \*)
 - Motor : motor para activar el equipo en cuestión.
 - Configuración de Bash / Shell
-		- Modo : local o remoto (si es local no hay nada más que completar)
+		- Modo : local o remoto (si es local, no hay nada más que llenar)
 		- IP
 		- Nombre de usuario
 		- Contraseña
@@ -118,8 +118,8 @@ El motor SNMP le permite conectarse a máquinas en SNMP y recuperar valores. Deb
 | .1.3.6.1.4.1.2021.11.9.0             | Carga de la CPU                           |
 | .1.3.6.1.4.1.6574.1.2.0              | Temperatura del sistema                         |
 | .1.3.6.1.4.1.6574.2.1.1.5.X          | Estado del disco X (comienza en 0)    |
-| .1.3.6.1.4.1.6574.2.1.1.6.X          | Temperatura del disco X (comienza en 0)                                   |
-| .1.3.6.1.4.1.6574.3.1.1.2.X          | Estado de incursión X (comienza en 0)      |
+| .1.3.6.1.4.1.6574.2.1.1.6.X          | Temperatura de disco X (comienza en 0)                                   |
+| .1.3.6.1.4.1.6574.3.1.1.2.X          | Estado de la incursión X (comienza en 0)      |
 | .1.3.6.1.4.1.6574.6.1.1.3.1          | Número de usuarios conectados en CIFS                                 |
 | .1.3.6.1.4.1.6574.6.1.1.3.2          | Número de usuarios registrados en AFP |
 | .1.3.6.1.4.1.6574.6.1.1.3.3          | Número de usuarios registrados en NFS |
@@ -183,4 +183,4 @@ URL
 
 | Comando                             | Datos                              |
 |--------------------------------------|--------------------------------------|
-| access::\#url\#::\#username\#::\#password\# | Probar el acceso a una URL con *URL* : URL à tester (ex <http://www.google.fr>), *Nombre de usuario*: nombre de usuario (si es necesario),*Contraseña* : contraseña de usuario (puede estar en blanco)       |
+| access::\#url\#::\#username\#::\#password\# | Probar el acceso a una URL con *URL* : URL à tester (ex <http://www.google.fr>), *Nombre de usuario*: nombre de usuario (si es necesario),*Contraseña* : contraseña de usuario (puede estar vacía)       |

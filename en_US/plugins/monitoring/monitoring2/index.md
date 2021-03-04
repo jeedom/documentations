@@ -22,7 +22,7 @@ The configuration of the Monitoring equipment is accessible from the Plugins men
 - Update frequency : in cron format (ex \*/ 15 \* \* \* \*)
 - Engine : motor to activate for the equipment in question.
 - Bash / Shell settings
-		- Fashion : local or remote (if local there is nothing else to fill in)
+		- Fashion : local or remote (if local there is nothing else to fill)
 		- IP
 		- Username
 		- Password
@@ -117,9 +117,9 @@ The SNMP engine allows you to connect to machines in SNMP and retrieve values. B
 | .1.3.6.1.4.1.6574.1.4.1.0            | Fan System                          |
 | .1.3.6.1.4.1.2021.11.9.0             | CPU load                           |
 | .1.3.6.1.4.1.6574.1.2.0              | System Temp                         |
-| .1.3.6.1.4.1.6574.2.1.1.5.X          | Disk X status (starts at 0)    |
-| .1.3.6.1.4.1.6574.2.1.1.6.X          | Disk X temperature (starts at 0)                                   |
-| .1.3.6.1.4.1.6574.3.1.1.2.X          | Raid status X (starts at 0)      |
+| .1.3.6.1.4.1.6574.2.1.1.5.X          | Status of disk X (starts at 0)    |
+| .1.3.6.1.4.1.6574.2.1.1.6.X          | Disk temperature X (starts at 0)                                   |
+| .1.3.6.1.4.1.6574.3.1.1.2.X          | Status of raid X (starts at 0)      |
 | .1.3.6.1.4.1.6574.6.1.1.3.1          | Number of users connected in CIFS                                 |
 | .1.3.6.1.4.1.6574.6.1.1.3.2          | Number of users logged in AFP |
 | .1.3.6.1.4.1.6574.6.1.1.3.3          | Number of users logged in NFS |
@@ -183,4 +183,4 @@ URL
 
 | Command                             | Data                              |
 |--------------------------------------|--------------------------------------|
-| access::\#url\#::\#username\#::\#password\# | Test access to a URL with *URL* : URL à tester (ex <http://www.google.fr>), *Username*: username (if required),*Password* : user password (may be blank)       |
+| access::\#url\#::\#username\#::\#password\# | Test access to a URL with *URL* : URL à tester (ex <http://www.google.fr>), *Username*: username (if necessary),*Password* : user password (can be empty)       |

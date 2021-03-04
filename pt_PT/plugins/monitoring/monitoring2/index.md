@@ -119,7 +119,7 @@ O mecanismo SNMP permite conectar-se a máquinas no SNMP e recuperar valores. Ab
 | .1.3.6.1.4.1.6574.1.2.0              | Temp do sistema                         |
 | .1.3.6.1.4.1.6574.2.1.1.5.X          | Status do disco X (inicia em 0)    |
 | .1.3.6.1.4.1.6574.2.1.1.6.X          | Temperatura do disco X (começa em 0)                                   |
-| .1.3.6.1.4.1.6574.3.1.1.2.X          | Status da incursão X (inicia em 0)      |
+| .1.3.6.1.4.1.6574.3.1.1.2.X          | Status do ataque X (começa em 0)      |
 | .1.3.6.1.4.1.6574.6.1.1.3.1          | Número de usuários conectados no CIFS                                 |
 | .1.3.6.1.4.1.6574.6.1.1.3.2          | Número de usuários logados no AFP |
 | .1.3.6.1.4.1.6574.6.1.1.3.3          | Número de usuários logados no NFS |
@@ -183,4 +183,4 @@ URL
 
 | Ordem                             | Dados                              |
 |--------------------------------------|--------------------------------------|
-| access::\#url\#::\#username\#::\#password\# | Teste o acesso a um URL com *URL * : URL  à tester (ex <http://www.google.fr>), *Nome de usuário*: nome de usuário (se necessário),*Senha* : senha de usuário (pode estar em branco)       |
+| access::\#url\#::\#username\#::\#password\# | Teste o acesso a um URL com *URL * : URL  à tester (ex <http://www.google.fr>), *Nome de usuário*: nome de usuário (se necessário),*Senha* : senha de usuário (pode estar vazia)       |

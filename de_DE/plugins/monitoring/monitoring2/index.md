@@ -19,7 +19,7 @@ Auf die Konfiguration der Überwachungsgeräte kann über das Menü Plugins und 
 - Kategorie
 - Activer
 - Visible
-- Aktualisieren Sie die Häufigkeit : im Cron-Format (ex \*/ 15 \* \.* \.* \*)
+- Aktualisieren Sie die Häufigkeit : im Cron-Format (ex \*/ 15 \* \.* \.* \.*)
 - Motor : Motor für das betreffende Gerät zu aktivieren.
 - Bash / Shell-Einstellungen
 		- Modus : lokal oder remote (wenn lokal, gibt es nichts anderes zu füllen)
@@ -117,9 +117,9 @@ Mit der SNMP-Engine können Sie eine Verbindung zu Computern in SNMP herstellen 
 | .1.3.6.1.4.1.6574.1.4.1.0            | Lüftersystem                          |
 | .1.3.6.1.4.1.2021.11.9.0             | CPU-Auslastung                           |
 | .1.3.6.1.4.1.6574.1.2.0              | Systemtemp                         |
-| .1.3.6.1.4.1.6574.2.1.1.5.X          | Disk X-Status (beginnt bei 0)    |
-| .1.3.6.1.4.1.6574.2.1.1.6.X          | Disk X-Temperatur (beginnt bei 0)                                   |
-| .1.3.6.1.4.1.6574.3.1.1.2.X          | Schlachtzugsstatus X (beginnt bei 0)      |
+| .1.3.6.1.4.1.6574.2.1.1.5.X          | Status von Datenträger X (beginnt bei 0)    |
+| .1.3.6.1.4.1.6574.2.1.1.6.X          | Plattentemperatur X (beginnt bei 0)                                   |
+| .1.3.6.1.4.1.6574.3.1.1.2.X          | Status von Schlachtzug X (beginnt bei 0)      |
 | .1.3.6.1.4.1.6574.6.1.1.3.1          | Anzahl der in CIFS verbundenen Benutzer                                 |
 | .1.3.6.1.4.1.6574.6.1.1.3.2          | Anzahl der bei AFP angemeldeten Benutzer |
 | .1.3.6.1.4.1.6574.6.1.1.3.3          | Anzahl der in NFS angemeldeten Benutzer |
@@ -183,4 +183,4 @@ URL
 
 | Befehl                             | Daten                              |
 |--------------------------------------|--------------------------------------|
-| access::\.#url\.#::\.#username\.#::\.#password\.# | Testen Sie den Zugriff auf eine URL mit *URLs* : URLs à tester (ex <http://www.google.fr>), *Benutzername*: Benutzername (falls erforderlich),*Kennwort* : Benutzerkennwort (kann leer sein)       |
+| access::\.#url\.#::\.#username\.#::\.#password\.# | Testen Sie den Zugriff auf eine URL mit *URLs* : URLs à tester (ex <http://www.google.fr>), *Benutzername*: Benutzername (falls erforderlich)),*Kennwort* : Benutzerkennwort (kann leer sein)       |
