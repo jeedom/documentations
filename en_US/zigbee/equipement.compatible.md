@@ -1,6 +1,19 @@
 # Compatibility of Zigbee modules
 
 
+# Bitron Video
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/Bitron_Home.90201023.png" width="60" />|Bitron Video|Remote control||||
+|<img src="../../en_US/zigbee/images/Bitron_Home.90201028.png" width="60" />|Bitron Video|Smart plug||||
+|<img src="../../en_US/zigbee/images/Bitron_Video.90201021B.png" width="60" />|Bitron Video|Magnetic contact||||
+|<img src="../../en_US/zigbee/images/Bitron_Video.90201026.png" width="60" />|Bitron Video|Smart plug with dimmer||||
+|<img src="../../en_US/zigbee/images/Bitron_Video.AV201016.png" width="60" />|Bitron Video|Wall mount relay with dimmer||||
+|<img src="../../en_US/zigbee/images/Bitron_Video.AV201018.png" width="60" />|Bitron Video|Wall mount relay||||
+|<img src="../../en_US/zigbee/images/Bitron_Video.AV201034.png" width="60" />|Bitron Video|Wall switch||||
+|<img src="../../en_US/zigbee/images/SMaBiT.AV201022B.png" width="60" />|Bitron Video|Outdoor motion sensor||||
+
 # Eurotronic
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -155,6 +168,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.FLOALT_panel_WS_30x30.png" width="60" />|Ikea|FLOALT panel WS 30x30||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.FYRTUR_roller_blind.png" width="60" />|Ikea|Ikea fyrtur||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.KADRILJ_roller_blind.png" width="60" />|Ikea|Ikea Kadrilj||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.SYMFONISK_Sound_Controller.png" width="60" />|Ikea|Ikea TRADFRI Symfonisk sound controller|Remote control|||
@@ -247,7 +261,7 @@
 |<img src="../../en_US/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|OSRAM Smart + Connected LED Bulb - E27 Base||||
 |<img src="../../en_US/zigbee/images/OSRAM.CLA60_TW_OSRAM.png" width="60" />|Osram|Osram Smart + Tunable white E27 base||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/OSRAM.Classic B40 TW - LIGHTIFY.png" width="60" />|Osram|OSRAM Smart + E14 LED bulb||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
-|<img src="../../en_US/zigbee/images/OSRAM.Gardenpole RGBW-Lightify.png" width="60" />|Osram|LEDVANCE SMART + GARDEN POLE||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
+|<img src="../../en_US/zigbee/images/OSRAM.Gardenpole_RGBW-Lightify.png" width="60" />|Osram|LEDVANCE SMART + GARDEN POLE||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/OSRAM.LIGHTIFY_Indoor_Flex_RGBW.png" width="60" />|Osram|OSRAM LIGHTIFY Indoor Flex RGBW||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/OSRAM.Lightify_Switch_Mini.png" width="60" />|Osram|Lightify Switch Mini||||
 |<img src="../../en_US/zigbee/images/OSRAM.MR16_TW_OSRAM.png" width="60" />|Osram|OSRAM SMART + Spot GU5.3 Tunable White||||
@@ -338,6 +352,7 @@
 |<img src="../../en_US/zigbee/images/Sunricher.CCT_Lighting.png" width="60" />|Sunricher|Sunricher CCT Lighting||||
 |<img src="../../en_US/zigbee/images/Sunricher.HK-SL-DIM-A.png" width="60" />|Sunricher|Sunricher HK-SL-DIM-A||||
 |<img src="../../en_US/zigbee/images/Sunricher.HK-SL-RELAY-A.png" width="60" />|Sunricher|Sunricher HK-SL-RELAY-A||||
+|<img src="../../en_US/zigbee/images/Sunricher.HK-ZD-DIM-A.png" width="60" />|Sunricher|Sunricher Dali||||
 |<img src="../../en_US/zigbee/images/Sunricher.Motor_Controller.png" width="60" />|Sunricher|Sunricher motor controller||||
 |<img src="../../en_US/zigbee/images/Sunricher.RGB-CCT.png" width="60" />|Sunricher|Sunricher RGB||||
 |<img src="../../en_US/zigbee/images/Sunricher.ZG2858A.png" width="60" />|Sunricher|Sunricher remote color||||
@@ -423,4 +438,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-03-04 01:32:18
+2021-03-05 01:32:06

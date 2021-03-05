@@ -1,6 +1,19 @@
 # Compatibilidad de los módulos Zigbee
 
 
+# Video de Bitron
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/Bitron_Home.90201023.png" width="60" />|Video de Bitron|Control remoto||||
+|<img src="../../es_ES/zigbee/images/Bitron_Home.90201028.png" width="60" />|Video de Bitron|Enchufe inteligente||||
+|<img src="../../es_ES/zigbee/images/Bitron_Video.90201021B.png" width="60" />|Video de Bitron|Contacto magnetico||||
+|<img src="../../es_ES/zigbee/images/Bitron_Video.90201026.png" width="60" />|Video de Bitron|Enchufe inteligente con atenuador||||
+|<img src="../../es_ES/zigbee/images/Bitron_Video.AV201016.png" width="60" />|Video de Bitron|Relé de montaje en pared con atenuador||||
+|<img src="../../es_ES/zigbee/images/Bitron_Video.AV201018.png" width="60" />|Video de Bitron|Relé de montaje en pared||||
+|<img src="../../es_ES/zigbee/images/Bitron_Video.AV201034.png" width="60" />|Video de Bitron|Interruptor de pared||||
+|<img src="../../es_ES/zigbee/images/SMaBiT.AV201022B.png" width="60" />|Video de Bitron|Sensor de movimiento al aire libre||||
+
 # Eurotronic
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -155,6 +168,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.FLOALT_panel_WS_30x30.png" width="60" />|Ikea|Panel FLOALT WS 30x30||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.FYRTUR_roller_blind.png" width="60" />|Ikea|Ikea fyrtur||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.KADRILJ_roller_blind.png" width="60" />|Ikea|Ikea Kadrilj||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.SYMFONISK_Sound_Controller.png" width="60" />|Ikea|Controlador de sonido Ikea TRADFRI Symfonisk|Control remoto|||
@@ -247,7 +261,7 @@
 |<img src="../../es_ES/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|Bombilla LED OSRAM Smart + Connected - Base E27||||
 |<img src="../../es_ES/zigbee/images/OSRAM.CLA60_TW_OSRAM.png" width="60" />|Osram|Osram Smart + Tunable white E27 peana||Tenga en cuenta que la información sobre el estado de este modelo no es en tiempo real (ya sea siguiendo un comando o solicitando explícitamente una actualización del mismo)||
 |<img src="../../es_ES/zigbee/images/OSRAM.Classic B40 TW - LIGHTIFY.png" width="60" />|Osram|Bombilla LED OSRAM Smart + E14||Tenga en cuenta que la información sobre el estado de este modelo no es en tiempo real (ya sea siguiendo un comando o solicitando explícitamente una actualización del mismo)||
-|<img src="../../es_ES/zigbee/images/OSRAM.Gardenpole RGBW-Lightify.png" width="60" />|Osram|POSTE DE JARDÍN LEDVANCE SMART +||Tenga en cuenta que la información sobre el estado de este modelo no es en tiempo real (ya sea siguiendo un comando o solicitando explícitamente una actualización del mismo)||
+|<img src="../../es_ES/zigbee/images/OSRAM.Gardenpole_RGBW-Lightify.png" width="60" />|Osram|POSTE DE JARDÍN LEDVANCE SMART +||Tenga en cuenta que la información sobre el estado de este modelo no es en tiempo real (ya sea siguiendo un comando o solicitando explícitamente una actualización del mismo)||
 |<img src="../../es_ES/zigbee/images/OSRAM.LIGHTIFY_Indoor_Flex_RGBW.png" width="60" />|Osram|OSRAM LIGHTIFY Interior Flex RGBW||Tenga en cuenta que la información sobre el estado de este modelo no es en tiempo real (ya sea siguiendo un comando o solicitando explícitamente una actualización del mismo)||
 |<img src="../../es_ES/zigbee/images/OSRAM.Lightify_Switch_Mini.png" width="60" />|Osram|Lightify Switch Mini||||
 |<img src="../../es_ES/zigbee/images/OSRAM.MR16_TW_OSRAM.png" width="60" />|Osram|OSRAM SMART + Spot GU5.3 blanco sintonizable||||
@@ -338,6 +352,7 @@
 |<img src="../../es_ES/zigbee/images/Sunricher.CCT_Lighting.png" width="60" />|Sunricher|Iluminación CCT Sunricher||||
 |<img src="../../es_ES/zigbee/images/Sunricher.HK-SL-DIM-A.png" width="60" />|Sunricher|Sunricher HK-SL-DIM-A||||
 |<img src="../../es_ES/zigbee/images/Sunricher.HK-SL-RELAY-A.png" width="60" />|Sunricher|Sunricher HK-SL-RELAY-A||||
+|<img src="../../es_ES/zigbee/images/Sunricher.HK-ZD-DIM-A.png" width="60" />|Sunricher|Sunricher Dali||||
 |<img src="../../es_ES/zigbee/images/Sunricher.Motor_Controller.png" width="60" />|Sunricher|Controlador de motor Sunricher||||
 |<img src="../../es_ES/zigbee/images/Sunricher.RGB-CCT.png" width="60" />|Sunricher|Sunricher RGB||||
 |<img src="../../es_ES/zigbee/images/Sunricher.ZG2858A.png" width="60" />|Sunricher|Color remoto Sunricher||||
@@ -423,4 +438,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-03-04 01:32:18
+2021-03-05 01:32:06

@@ -68,6 +68,7 @@
         "Sunricher remote color": "Sunricher remote color",
         "Sunricher RGB": "Sunricher RGB",
         "Sunricher motor controller": "Sunricher motor controller",
+        "Sunricher Dali": "Sunricher Dali",
         "Sunricher HK-SL-RELAY-A": "Sunricher HK-SL-RELAY-A",
         "Sunricher HK-SL-DIM-A": "Sunricher HK-SL-DIM-A",
         "Sunricher CCT Lighting": "Sunricher CCT Lighting",
@@ -202,6 +203,7 @@
         "Ikea TRADFRI Symfonisk sound controller": "Ikea TRADFRI Symfonisk sound controller",
         "Ikea Kadrilj": "Ikea Kadrilj",
         "Ikea Fyrtur": "Ikea Fyrtur",
+        "FLOALT panel WS 30x30": "FLOALT panel WS 30x30",
         "Icasa": "Icasa",
         "Icasa RGB": "Icasa RGB",
         "Rotary Dimmer": "Rotary Dimmer",
@@ -286,10 +288,19 @@
         "Eurotronic": "Eurotronic",
         "Vanne Spirit": "Vanne Spirit",
         "Vanne qui a tendance à ne plus accepter d'ordre (changement de consigne) à moins d'enlever les piles et de les remettres": "Vanne qui a tendance à ne plus accepter d'ordre (changement de consigne) à moins d'enlever les piles et de les remettres",
+        "Bitron Video": "Bitron Video",
+        "Outdoor motion sensor": "Outdoor motion sensor",
+        "Wall switch": "Wall switch",
+        "Wall mount relay": "Wall mount relay",
+        "Wall mount relay with dimmer": "Wall mount relay with dimmer",
+        "Smart plug with dimmer": "Smart plug with dimmer",
+        "Magnetic contact": "Magnetic contact",
+        "Smart plug": "Smart plug",
+        "Remote control": "Remote control",
         "Compatibilité des modules Zigbee": "Compatibilité des modules Zigbee",
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-03-04 01": "2021-03-04 01"
+        "2021-03-05 01": "2021-03-05 01"
     }
 }
