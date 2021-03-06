@@ -4,6 +4,16 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 02/03/2021
+
+- Adicionar plugin para Kodi Matrix
+
+# 20/11/2020
+
+- Otimizações gerais
+- Nova apresentação da lista de objetos
+- Adição da tag "compatibilidade V4"
+
 # 27/09/2019
 
 - Mudança do addon Kodi para casos de playerid não remontados pelo kodi 

@@ -4,6 +4,16 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 03/02/2021
+
+- Plugin für Kodi Matrix hinzufügen
+
+# 20/11/2020
+
+- Allgemeine Optimierungen
+- Neue Darstellung der Objektliste
+- Hinzufügung des Tags "V4-Kompatibilität"
+
 # 27.09.2019
 
 - Änderung des Kodi-Addons für Spieler-ID-Fälle, die von Kodi nicht wieder zusammengesetzt wurden 
