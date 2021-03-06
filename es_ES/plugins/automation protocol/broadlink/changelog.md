@@ -1,5 +1,9 @@
 # Registro de cambios Broadlink
 
+# 15/01/2021
+
+- Se solucionó un problema con las dependencias de buster
+
 # 23/11/2020
 
 - Gestión de las dependencias de determinadas instalaciones corruptas por parte de terceros de criptografía en python 3 (relanzar las dependencias si se enfrenta a un problema)

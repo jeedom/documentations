@@ -6,7 +6,12 @@
         "en_US": "Plugin adding support for some Broadlink products such as (RM, A1 etccc)",
         "es_ES": "Complemento que agrega soporte para algunos productos Broadlink como (RM, A1, etc.cc)",
         "de_DE": "Plugin, das Unterstützung für einige Broadlink-Produkte wie (RM, A1 usw.) hinzufügt",
-        "pt_PT": "Plugin adicionando suporte para alguns produtos Broadlink, como (RM, A1 etccc)"
+        "pt_PT": "Plugin adicionando suporte para alguns produtos Broadlink, como (RM, A1 etccc)",
+        "ru_RU": "Plugin ajoutant le support de certains produits Broadlink comme (le RM, le A1 etccc)",
+        "id_ID": "Plugin ajoutant le support de certains produits Broadlink comme (le RM, le A1 etccc)",
+        "it_IT": "Plugin ajoutant le support de certains produits Broadlink comme (le RM, le A1 etccc)",
+        "ja_JP": "Plugin ajoutant le support de certains produits Broadlink comme (le RM, le A1 etccc)",
+        "tr": "Plugin ajoutant le support de certains produits Broadlink comme (le RM, le A1 etccc)"
     },
     "licence": "AGPL",
     "author": "Ludovic",
@@ -21,7 +26,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",

@@ -1,5 +1,9 @@
 # Changelog Broadlink
 
+# 15/01/2021
+
+- Corrigido um problema com dependências de buster
+
 # 23/11/2020
 
 - Gestão das dependências de certas instalações corrompidas por terceiros de criptografia em python 3 (reinicie as dependências se você se deparar com um problema)
