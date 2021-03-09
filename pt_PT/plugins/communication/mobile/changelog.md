@@ -4,6 +4,18 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 24/02/2021
+
+- Novo mecanismo de notificação para Android.
+- Adicionando imagens (câmeras, relatórios etc ...) para Android.
+- Suporte para versão 1.4.1 do aplicativo Android.
+- Suporte para emoticons e quebras de linha com a nova versão do Android 1.4.1
+
+# 17/02/2021
+
+- Adicionado id de grupo para notificações Android.
+- Ícones presentes para as partes da apresentação.
+
 # 15/04/2020
 
 - Adição de pedidos para cada celular.
