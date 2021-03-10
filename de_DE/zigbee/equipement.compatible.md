@@ -76,6 +76,7 @@
 |<img src="../../de_DE/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand Mikromodul||Kann nur auf Kanal 11 oder 15 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand Mobilsteckdose Céliane||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Legrand drahtlose Lichtsteuerung||Kann nur auf Kanal 11 gekoppelt werden||
+|<img src="../../de_DE/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|Bticino Rollladen mit Positionierung||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand Rollladen||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand steuert 4 drahtlose Szenen||Kann nur auf Kanal 11 gekoppelt werden||
 
@@ -114,7 +115,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/Danalock.V3-BTZBE.png" width="60" />|Danalock|Danalock V3||Jeedom empfiehlt dieses Modul nicht, da es einen Fehler in der Firmware zu haben scheint, der zwingt, das Modul alle X Stunden oder Tage neu einzuschließen|[Kaufen](https://www.domadoo.fr/fr/controle-acces/4540-danalock-serrure-connectee-bluetooth-et-zigbee-danalock-v3-5712560000493.html)|
+|<img src="../../de_DE/zigbee/images/Danalock.V3-BTZBE.png" width="60" />|Danalock|Danalock V3|||[Kaufen](https://www.domadoo.fr/fr/controle-acces/4540-danalock-serrure-connectee-bluetooth-et-zigbee-danalock-v3-5712560000493.html)|
 
 # Danfoss
 
@@ -133,7 +134,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/EcoDim_B.V.Dimmer-Switch-ZB3.0.png" width="60" />|Ecodim|Led Smart Dimmer|Variateur|||
+|<img src="../../de_DE/zigbee/images/EcoDim_BV.Dimmer-Switch-ZB3.0.png" width="60" />|Ecodim|Led Smart Dimmer|Variateur|||
 
 # Gledopto
 
@@ -141,6 +142,7 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/gledopto.GL-B-007Z.png" width="60" />|Gledopto|GL-B-007Z||||
 |<img src="../../de_DE/zigbee/images/gledopto.GL-C-008S.png" width="60" />|Gledopto|GL-C-008S||||
+|<img src="../../de_DE/zigbee/images/gledopto.GL-G-001ZS.png" width="60" />|Gledopto|GL-G-001ZS||||
 
 # Heiman
 
@@ -388,6 +390,7 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Steckdosenleiste angeschlossen||||
 |<img src="../../de_DE/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 angeschlossenes Life-Plug-Modul||||
 |<img src="../../de_DE/zigbee/images/TZ3000_pmvbt5hh.TS0011.png" width="60" />|Tuya|Tuya Schalter ohne Neutralleiter||||
+|<img src="../../de_DE/zigbee/images/TZ3000_pmz6mjyu.TS011F.png" width="60" />|Tuya|Doppelrelais-Mikromodul||||
 |<img src="../../de_DE/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 Tastenschalter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 leichtes Mikromodul||||
 |<img src="../../de_DE/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|3-Tasten-Szenenschalter||||
@@ -443,4 +446,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-03-09 01:32:11
+2021-03-10 01:32:12

@@ -46,6 +46,7 @@
         "Interrupteur de scène 3 boutons": "Interrupteur de scène 3 boutons",
         "MicroModule lumiere Tuya ZigBee 3.0": "MicroModule lumiere Tuya ZigBee 3.0",
         "Interrupteur 4 boutons": "Interrupteur 4 boutons",
+        "Micro-module double relai": "Micro-module double relai",
         "Tuya Switch sans neutre": "Tuya Switch sans neutre",
         "Module prise de vie connectée Tuya ZigBee 3.0": "Module prise de vie connectée Tuya ZigBee 3.0",
         "Multiprise connectée": "Multiprise connectée",
@@ -221,6 +222,7 @@
         "Détecteur de fumée": "Détecteur de fumée",
         "Détecteur de monoxyde de carbone": "Détecteur de monoxyde de carbone",
         "Gledopto": "Gledopto",
+        "GL-G-001ZS": "GL-G-001ZS",
         "GL-C-008S": "GL-C-008S",
         "GL-B-007Z": "GL-B-007Z",
         "Ecodim": "Ecodim",
@@ -233,7 +235,6 @@
         "Contrôleur Plancher Chauffant": "Contrôleur Plancher Chauffant",
         "Danalock": "Danalock",
         "Danalock V3": "Danalock V3",
-        "Jeedom ne recommande pas ce module qui semble avoir un bug sur le firmware qui oblige a reinclure le module toute les X heures ou jours": "Jeedom ne recommande pas ce module qui semble avoir un bug sur le firmware qui oblige a reinclure le module toute les X heures ou jours",
         "Awox": "Awox",
         "EGLO Crosslink-Z \/ Awox TLSR82": "EGLO Crosslink-Z \/ Awox TLSR82",
         "Alfawise": "Alfawise",
@@ -252,6 +253,7 @@
         "Legrand commande 4 scènes sans fil": "Legrand commande 4 scènes sans fil",
         "Ne peut etre appairé que sur le canal 11": "Ne peut etre appairé que sur le canal 11",
         "Legrand volet roulant": "Legrand volet roulant",
+        "bticino volet roulant avec positionnement": "bticino volet roulant avec positionnement",
         "Legrand commande éclairage sans fil": "Legrand commande éclairage sans fil",
         "Legrand prise mobile Céliane": "Legrand prise mobile Céliane",
         "Legrand micro module": "Legrand micro module",
@@ -305,6 +307,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-03-09 01": "2021-03-09 01"
+        "2021-03-10 01": "2021-03-10 01"
     }
 }
