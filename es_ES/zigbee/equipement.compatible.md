@@ -5,14 +5,14 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/Bitron_Home.90201023.png" width="60" />|Video de Bitron|Control remoto||||
-|<img src="../../es_ES/zigbee/images/Bitron_Home.90201028.png" width="60" />|Video de Bitron|Enchufe inteligente||||
-|<img src="../../es_ES/zigbee/images/Bitron_Video.90201021B.png" width="60" />|Video de Bitron|Contacto magnetico||||
-|<img src="../../es_ES/zigbee/images/Bitron_Video.90201026.png" width="60" />|Video de Bitron|Enchufe inteligente con atenuador||||
-|<img src="../../es_ES/zigbee/images/Bitron_Video.AV201016.png" width="60" />|Video de Bitron|Relé de montaje en pared con atenuador||||
-|<img src="../../es_ES/zigbee/images/Bitron_Video.AV201018.png" width="60" />|Video de Bitron|Relé de montaje en pared||||
-|<img src="../../es_ES/zigbee/images/Bitron_Video.AV201034.png" width="60" />|Video de Bitron|Interruptor de pared||||
-|<img src="../../es_ES/zigbee/images/SMaBiT.AV201022B.png" width="60" />|Video de Bitron|Sensor de movimiento al aire libre||||
+|<img src="../../es_ES/zigbee/images/Bitron_Home.90201023.png" width="60" />|Video de Bitron|SMABIT - Mando a distancia de 4 botones||||
+|<img src="../../es_ES/zigbee/images/Bitron_Home.90201028.png" width="60" />|Video de Bitron|SMABIT - Enchufe inteligente ON / OFF 16A||||
+|<img src="../../es_ES/zigbee/images/Bitron_Video.90201021B.png" width="60" />|Video de Bitron|SMABIT - Detector de apertura + Entrada de sensor cableado||||
+|<img src="../../es_ES/zigbee/images/Bitron_Video.90201026.png" width="60" />|Video de Bitron|SMABIT - Enchufe inteligente con atenuador de 2.5A||||
+|<img src="../../es_ES/zigbee/images/Bitron_Video.AV201016.png" width="60" />|Video de Bitron|SMABIT - Relé de pared con dimmer 2.5A||||
+|<img src="../../es_ES/zigbee/images/Bitron_Video.AV201018.png" width="60" />|Video de Bitron|SMABIT - Interruptor relé de pared 10A||||
+|<img src="../../es_ES/zigbee/images/Bitron_Video.AV201034.png" width="60" />|Video de Bitron|SMABIT - Interruptor de pared con pilas||||
+|<img src="../../es_ES/zigbee/images/SMaBiT.AV201022B.png" width="60" />|Video de Bitron|SMABIT - Detector de movimiento para exteriores||||
 
 # Eurotronic
 
@@ -340,13 +340,13 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/SONOFF.01MINIZB.png" width="60" />|Sonoff|Sonoff ZBMINI||||
-|<img src="../../es_ES/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|Sonoff Basic ZBR3|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
-|<img src="../../es_ES/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|Sonoff viste||Atención, hay un error en el firmware que hace que suba como módulo de temperatura y humedad, por lo tanto, después de la inclusión, es necesario restablecer el modelo correcto y quitar los controles de temperatura y humedad|[Comprar](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
-|<img src="../../es_ES/zigbee/images/eWeLink.DS01.png" width="60" />|Sonoff|Sonoff viste|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.htm)|
-|<img src="../../es_ES/zigbee/images/eWeLink.MS01.png" width="60" />|Sonoff|Movimiento Sonoff|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.html)|
-|<img src="../../es_ES/zigbee/images/eWeLink.TH01.png" width="60" />|Sonoff|Sonoff Temperatura / humedad|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5260-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30.html)|
-|<img src="../../es_ES/zigbee/images/eWeLink.WB01.png" width="60" />|Sonoff|Botón Sonoff|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5259-sonoff-interrupteur-sans-fil-zigbee-30.html)|
+|<img src="../../es_ES/zigbee/images/SONOFF.01MINIZB.png" width="60" />|Sonoff|Interruptor de micromódulo conectado|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5375-sonoff-micromodule-commutateur-connecte-zigbee.html)|
+|<img src="../../es_ES/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|Interruptor de micromódulo 10A|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
+|<img src="../../es_ES/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|Sensor de apertura de puerta / ventana||Atención, hay un error en el firmware que hace que suba como módulo de temperatura y humedad, por lo tanto, después de la inclusión, es necesario restablecer el modelo correcto y quitar los controles de temperatura y humedad|[Comprar](https://www.domadoo.fr/fr/peripheriques/5320-sonoff-capteur-d-ouverture-de-portefenetre-zigbee.html)|
+|<img src="../../es_ES/zigbee/images/eWeLink.DS01.png" width="60" />|Sonoff|Sensor de apertura de puerta / ventana|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5320-sonoff-capteur-d-ouverture-de-portefenetre-zigbee.html)|
+|<img src="../../es_ES/zigbee/images/eWeLink.MS01.png" width="60" />|Sonoff|Detector de movimiento inteligente|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.html)|
+|<img src="../../es_ES/zigbee/images/eWeLink.TH01.png" width="60" />|Sonoff|Sensor de temperatura y humedad|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5260-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30.html)|
+|<img src="../../es_ES/zigbee/images/eWeLink.WB01.png" width="60" />|Sonoff|Interruptor de conexión inalámbrica|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5259-sonoff-interrupteur-sans-fil-zigbee-30.html)|
 
 # Sunricher
 
@@ -384,6 +384,7 @@
 |<img src="../../es_ES/zigbee/images/TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Interruptor doble||||
 |<img src="../../es_ES/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Temperatura / humedad||||
 |<img src="../../es_ES/zigbee/images/TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|Columpio ASLED||||
+|<img src="../../es_ES/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Tuya|Interruptor de tubería conectado para cortina conectada||||
 |<img src="../../es_ES/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Tuya TS0042 - 2||||
 |<img src="../../es_ES/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Tuya|Mando a distancia LoraTap de 3 botones||||
 |<img src="../../es_ES/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 Zigbee 3.0 enchufe de 16 A enchufe de la UE||||
@@ -410,8 +411,8 @@
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.light.aqcn02.png" width="60" />|Xiaomi|AQARA - Bombilla LED conectada|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5257-aqara-ampoule-led-zigbee-aqara-blanc-variable-0192784000144.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.lock.v1.png" width="60" />|Xiaomi|MIJIA - Cerradura conectada||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.plug.png" width="60" />|Xiaomi|Xiaomi tomado||||
-|<img src="../../es_ES/zigbee/images/LUMI.lumi.plug.maeu01.png" width="60" />|Xiaomi|Toma conectada|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5385-aqara-prise-connectee-zigbee-30-smart-plug-6970504210646.html)|
-|<img src="../../es_ES/zigbee/images/LUMI.lumi.plug.mmeu01.png" width="60" />|Xiaomi|Xiaomi tomado||||
+|<img src="../../es_ES/zigbee/images/LUMI.lumi.plug.maeu01.png" width="60" />|Xiaomi|AQARA - Toma de corriente conectada|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5385-aqara-prise-connectee-zigbee-30-smart-plug-6970504210646.html)|
+|<img src="../../es_ES/zigbee/images/LUMI.lumi.plug.mmeu01.png" width="60" />|Xiaomi|MI - Toma conectada ON / OFF + Medida de consumo||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|Xiaomi Aqara LLKZMK11LM Módulo inteligente de dos vías||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.remote.b186acn01.png" width="60" />|Xiaomi|Xinterruptor simple iaomi|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4516-xiaomi-interrupteur-mural-simple-sans-fil-zigbee-aqara-6970504210)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.remote.b1acn01.png" width="60" />|Xiaomi|Xiaomi interruptor único AQ3||||
@@ -435,7 +436,7 @@
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.switch.n0agl1.png" width="60" />|Xiaomi|AQARA - Micromódulo encendido / apagado con neutro|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5386-aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-6970504213296.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|Xiaomi Aquara vibración|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|Sensor de temperatura / presión / humedad||||
-|<img src="../../es_ES/zigbee/images/XIAOMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|Sensor de brillo|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5486-xiaomi-mi-capteur-de-luminosite-zigbee-30-6934177710865.html)|
+|<img src="../../es_ES/zigbee/images/XIAOMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|MI - Sensor de luz|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5486-xiaomi-mi-capteur-de-luminosite-zigbee-30-6934177710865.html)|
 |<img src="../../es_ES/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|Xiaomi tomado||||
 |<img src="../../es_ES/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|Xsensor de apertura iaomi aquara|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../es_ES/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|Xmovimiento iaomi aquara|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
@@ -446,4 +447,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-03-10 01:32:12
+2021-03-11 01:32:05
