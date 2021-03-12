@@ -71,7 +71,6 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Salida de cable conectada||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Contactor conectado DRIVIA||Solo se puede emparejar en el canal 11||
-|<img src="../../es_ES/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Variador Legrand||Solo se puede emparejar en el canal 11, 13 o 15||
 |<img src="../../es_ES/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Interruptor doble Legrand||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Micro módulo Legrand||Solo se puede emparejar en el canal 11 o 15||
 |<img src="../../es_ES/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Toma móvil Legrand Céliane||Solo se puede emparejar en el canal 11||
@@ -79,6 +78,7 @@
 |<img src="../../es_ES/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|persiana enrollable bticino con posicionamiento||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Persiana enrollable Legrand||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand controla 4 escenas inalámbricas||Solo se puede emparejar en el canal 11||
+|<img src="../../es_ES/zigbee/images/Legrand._Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Variador Legrand||Solo se puede emparejar en el canal 11, 13 o 15||
 
 # SZ
 
@@ -134,7 +134,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/EcoDim_BV.Dimmer-Switch-ZB3.0.png" width="60" />|Ecodim|Atenuador inteligente LED|Variateur|||
+|<img src="../../es_ES/zigbee/images/EcoDim_BV.Dimmer-Switch-ZB3.0.png" width="60" />|Ecodim|Regulador de intensidad giratorio|Interruptor, atenuador||[Comprar](https://www.domadoo.fr/fr/eclairage/5369-ecodim-interrupteur-variateur-rotatif-zigbee-30-200w-8719322371263.html)|
 
 # Gledopto
 
@@ -152,7 +152,7 @@
 |<img src="../../es_ES/zigbee/images/HEIMAN.SmokeSensor-EF-3.0.png" width="60" />|Heiman|Detector de humo||||
 |<img src="../../es_ES/zigbee/images/HEIMAN.SmokeSensor-EM.png" width="60" />|Heiman|Detector de humo||||
 |<img src="../../es_ES/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Detector de humo||||
-|<img src="../../es_ES/zigbee/images/Heiman.SmartPlug.png" width="60" />|Heiman|Enchufe Schneider||||
+|<img src="../../es_ES/zigbee/images/Heiman.SmartPlug.png" width="60" />|Schneider|Toma y repetidor conectados Wiser|Zócalo, medidor, potencia, repetidor||[Comprar](https://www.domadoo.fr/fr/eclairage/5499-schneider-electric-prise-connectee-et-repeteur-zigbee-30-wiser-3606489917883.html)|
 |<img src="../../es_ES/zigbee/images/Heiman.WarningDevice.png" width="60" />|Heiman|Sirena||||
 
 # Icasa
@@ -330,11 +330,11 @@
 |<img src="../../es_ES/zigbee/images/Schneider_Electric.2GANGSWITCH2.png" width="60" />|Schneider|Interruptor doble||||
 |<img src="../../es_ES/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Sensor de puerta / ventana más inteligente|Ouverture||[Documentación](https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=MFR1569800.pdf&p_Doc_Ref=MFR1569800)<br/>|
 |<img src="../../es_ES/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Sensor de fugas de agua más inteligente|Fuite|||
-|<img src="../../es_ES/zigbee/images/Schneider_Electric.CCTFR6700.png" width="60" />|Schneider|Actuador de calentador eléctrico||||
+|<img src="../../es_ES/zigbee/images/Schneider_Electric.CCTFR6700.png" width="60" />|Schneider|Actuador de calentador eléctrico más sabio|||[Comprar](https://www.domadoo.fr/fr/chauffage-clim/5498-schneider-electric-actionneur-pour-radiateur-electrique-fil-pilote-zigbee-30-wiser-3606481914705.html)|
 |<img src="../../es_ES/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Regulador giratorio Wiser Exxact|Variateur|||
 |<img src="../../es_ES/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|Módulo micro dimmer más sabio|Variateur|||
-|<img src="../../es_ES/zigbee/images/Schneider_Electric.Thermostat.png" width="60" />|Schneider|Sensor de apertura y temperatura|||[Comprar](https://www.domadoo.fr/fr/thermostats/5496-schneider-electric-thermostat-d-ambiance-connecte-zigbee-30-wiser-3606489710194.html)|
-|<img src="../../es_ES/zigbee/images/Schneider_Electric.iTRV.png" width="60" />|Schneider|Schneider Electric iTRV|Cabezal termostático|||
+|<img src="../../es_ES/zigbee/images/Schneider_Electric.Thermostat.png" width="60" />|Schneider|Termostato de ambiente conectado más sabio|Termostato, Calefacción||[Comprar](https://www.domadoo.fr/fr/thermostats/5496-schneider-electric-thermostat-d-ambiance-connecte-zigbee-30-wiser-3606489710194.html)|
+|<img src="../../es_ES/zigbee/images/Schneider_Electric.iTRV.png" width="60" />|Schneider|Cabezal de válvula termostático conectado más sabio|Cabezal termostático, Calefacción||[Comprar](https://www.domadoo.fr/fr/tetes-thermostatiques/5497-schneider-electric-tete-de-vanne-thermostatique-connectee-zigbee-30-wiser-3606489582821.html)|
 
 # Sonoff
 
@@ -346,21 +346,21 @@
 |<img src="../../es_ES/zigbee/images/eWeLink.DS01.png" width="60" />|Sonoff|Sensor de apertura de puerta / ventana|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5320-sonoff-capteur-d-ouverture-de-portefenetre-zigbee.html)|
 |<img src="../../es_ES/zigbee/images/eWeLink.MS01.png" width="60" />|Sonoff|Detector de movimiento inteligente|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.html)|
 |<img src="../../es_ES/zigbee/images/eWeLink.TH01.png" width="60" />|Sonoff|Sensor de temperatura y humedad|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5260-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30.html)|
-|<img src="../../es_ES/zigbee/images/eWeLink.WB01.png" width="60" />|Sonoff|Interruptor de conexión inalámbrica|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5259-sonoff-interrupteur-sans-fil-zigbee-30.html)|
+|<img src="../../es_ES/zigbee/images/eWeLink.WB01.png" width="60" />|Sonoff|Interruptor de conexión inalámbrica|Interruptor, control remoto||[Comprar](https://www.domadoo.fr/fr/peripheriques/5259-sonoff-interrupteur-sans-fil-zigbee-30.html)|
 
 # Sunricher
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/Sunricher.CCT_Lighting.png" width="60" />|Sunricher|Iluminación CCT Sunricher||||
-|<img src="../../es_ES/zigbee/images/Sunricher.HK-SL-DIM-A.png" width="60" />|Sunricher|Sunricher HK-SL-DIM-A||||
-|<img src="../../es_ES/zigbee/images/Sunricher.HK-SL-RELAY-A.png" width="60" />|Sunricher|Sunricher HK-SL-RELAY-A||||
+|<img src="../../es_ES/zigbee/images/Sunricher.HK-SL-DIM-A.png" width="60" />|Sunricher|Módulo atenuador de 2 hilos|Atenuador, luz, potencia, medición||[Comprar](https://www.domadoo.fr/fr/peripheriques/5244-sunricher-module-variateur-2-fils-zigbee-30.html)|
+|<img src="../../es_ES/zigbee/images/Sunricher.HK-SL-RELAY-A.png" width="60" />|Sunricher|Módulo de encendido / apagado|Contactor, Luz||[Comprar](https://www.domadoo.fr/fr/peripheriques/5242-sunricher-module-onoff-zigbee-30.html)|
 |<img src="../../es_ES/zigbee/images/Sunricher.HK-ZD-DIM-A.png" width="60" />|Sunricher|Sunricher Dali||||
-|<img src="../../es_ES/zigbee/images/Sunricher.Motor_Controller.png" width="60" />|Sunricher|Controlador de motor Sunricher||||
-|<img src="../../es_ES/zigbee/images/Sunricher.RGB-CCT.png" width="60" />|Sunricher|Sunricher RGB||||
+|<img src="../../es_ES/zigbee/images/Sunricher.Motor_Controller.png" width="60" />|Sunricher|Módulo de persiana enrollable|Obturador, Tienda||[Comprar](https://www.domadoo.fr/fr/peripheriques/5245-sunricher-module-volet-roulant-zigbee-30.html)|
+|<img src="../../es_ES/zigbee/images/Sunricher.RGB-CCT.png" width="60" />|Sunricher|Controlador LED 4 en 1 RGBW|Luz, RGBW, Atenuador||[Comprar](https://www.domadoo.fr/fr/peripheriques/5248-sunricher-controleur-led-rgbw-4-en-1-zigbee-30.html)|
 |<img src="../../es_ES/zigbee/images/Sunricher.ZG2855-RGB.png" width="60" />|Sunricher|Sunricher RGB CCT Sun 3 en 1||||
-|<img src="../../es_ES/zigbee/images/Sunricher.ZG2858A.png" width="60" />|Sunricher|Color remoto Sunricher||||
-|<img src="../../es_ES/zigbee/images/Sunricher.ZGRC-KEY-013.png" width="60" />|Sunricher|Regulador de luz remoto Sunricher||||
+|<img src="../../es_ES/zigbee/images/Sunricher.ZG2858A.png" width="60" />|Sunricher|Mando a distancia 3 en 1|Control remoto||[Comprar](https://www.domadoo.fr/fr/peripheriques/5247-sunricher-telecommande-3-en-1-zigbee-30.html)|
+|<img src="../../es_ES/zigbee/images/Sunricher.ZGRC-KEY-013.png" width="60" />|Sunricher|Mando a distancia de 4 zonas|Control remoto||[Comprar](https://www.domadoo.fr/fr/peripheriques/5246-sunricher-telecommande-4-zones-zigbee-30.html)|
 
 # Tryo2sys
 
@@ -388,6 +388,7 @@
 |<img src="../../es_ES/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Tuya TS0042 - 2||||
 |<img src="../../es_ES/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Tuya|Mando a distancia LoraTap de 3 botones||||
 |<img src="../../es_ES/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 Zigbee 3.0 enchufe de 16 A enchufe de la UE||||
+|<img src="../../es_ES/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|Controlador de tira LED TUYA Zigbee Mini||||
 |<img src="../../es_ES/zigbee/images/TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Regleta de enchufes conectada||||
 |<img src="../../es_ES/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Módulo de enchufe de vida conectado Tuya ZigBee 3.0||||
 |<img src="../../es_ES/zigbee/images/TZ3000_pmvbt5hh.TS0011.png" width="60" />|Tuya|Tuya Switch sin neutro||||
@@ -412,29 +413,29 @@
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.lock.v1.png" width="60" />|Xiaomi|MIJIA - Cerradura conectada||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.plug.png" width="60" />|Xiaomi|Xiaomi tomado||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.plug.maeu01.png" width="60" />|Xiaomi|AQARA - Toma de corriente conectada|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5385-aqara-prise-connectee-zigbee-30-smart-plug-6970504210646.html)|
-|<img src="../../es_ES/zigbee/images/LUMI.lumi.plug.mmeu01.png" width="60" />|Xiaomi|MI - Toma conectada ON / OFF + Medida de consumo||||
+|<img src="../../es_ES/zigbee/images/LUMI.lumi.plug.mmeu01.png" width="60" />|Xiaomi|MI - Toma conectada ON / OFF + Medida de consumo|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5305-xiaomi-prise-connectee-zigbee-mi-smart-plug-6934177706493.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|Xiaomi Aqara LLKZMK11LM Módulo inteligente de dos vías||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.remote.b186acn01.png" width="60" />|Xiaomi|Xinterruptor simple iaomi|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4516-xiaomi-interrupteur-mural-simple-sans-fil-zigbee-aqara-6970504210)|
-|<img src="../../es_ES/zigbee/images/LUMI.lumi.remote.b1acn01.png" width="60" />|Xiaomi|Xiaomi interruptor único AQ3||||
+|<img src="../../es_ES/zigbee/images/LUMI.lumi.remote.b1acn01.png" width="60" />|Xiaomi|AQARA - Interruptor inalámbrico inteligente|Control remoto, interruptor||[Comprar](https://www.domadoo.fr/fr/peripheriques/4669-aqara-interrupteur-sans-fil-intelligent-zigbee-192784000052.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|Xinterruptor doble iaomi|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.remote.b686opcn01.png" width="60" />|Xiaomi|Aqara Opple 6 botones||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|Sensor de brillo||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sens.png" width="60" />|Xiaomi|Sensor de temperatura / humedad||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_86sw1.png" width="60" />|Xiaomi|Xinterruptor simple ioami|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_86sw2.png" width="60" />|Xiaomi|Xioami doble interruptor|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
-|<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_cube.png" width="60" />|Xiaomi|Xcubo inteligente iaomi||||
+|<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_cube.png" width="60" />|Xiaomi|AQARA - Controlador inteligente Magic Cube|Mando a distancia, controlador||[Comprar](https://www.domadoo.fr/fr/peripheriques/4668-aqara-controleur-intelligent-magic-cube-zigbee-0192784000045.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_ht.png" width="60" />|Xiaomi|Sensor de temperatura / humedad||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|Xsensor de apertura iaomi aquara|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_magnet.png" width="60" />|Xiaomi|Xapertura del sensor iaomi||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|Xmovimiento iaomi aquara|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_motion.png" width="60" />|Xiaomi|Xsensor de movimiento iaomi||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_smoke.png" width="60" />|Xiaomi|Xiaomi aquara humo||||
-|<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_switch.aq2.png" width="60" />|Xiaomi|Xiaomi Aquara interruptor Aq2||||
+|<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_switch.aq2.png" width="60" />|Xiaomi|AQARA - Interruptor inalámbrico inteligente|Control remoto, interruptor||[Comprar](https://www.domadoo.fr/fr/peripheriques/4669-aqara-interrupteur-sans-fil-intelligent-zigbee-192784000052.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_switch.png" width="60" />|Xiaomi|Xiaomi aquara interruptor||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|Xiaomi aquara inundación|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
-|<img src="../../es_ES/zigbee/images/LUMI.lumi.switch.l0agl1.png" width="60" />|Xiaomi|AQARA - Micromódulo encendido / apagado sin neutro|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5387-aqara-micromodule-onoff-zigbee-30-1250w-sans-neutre-6970504213302.html)|
-|<img src="../../es_ES/zigbee/images/LUMI.lumi.switch.n0agl1.png" width="60" />|Xiaomi|AQARA - Micromódulo encendido / apagado con neutro|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5386-aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-6970504213296.html)|
-|<img src="../../es_ES/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|Xiaomi Aquara vibración|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
+|<img src="../../es_ES/zigbee/images/LUMI.lumi.switch.l0agl1.png" width="60" />|Xiaomi|AQARA - Micromódulo encendido / apagado sin neutro|Contactor, medidor, potencia||[Comprar](https://www.domadoo.fr/fr/peripheriques/5387-aqara-micromodule-onoff-zigbee-30-1250w-sans-neutre-6970504213302.html)|
+|<img src="../../es_ES/zigbee/images/LUMI.lumi.switch.n0agl1.png" width="60" />|Xiaomi|AQARA - Micromódulo encendido / apagado con neutro|Contactor, medidor, potencia||[Comprar](https://www.domadoo.fr/fr/peripheriques/5386-aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-6970504213296.html)|
+|<img src="../../es_ES/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|AQARA - Sensor de vibraciones|Detector, puerta, vibración||[Comprar](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|Sensor de temperatura / presión / humedad||||
 |<img src="../../es_ES/zigbee/images/XIAOMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|MI - Sensor de luz|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5486-xiaomi-mi-capteur-de-luminosite-zigbee-30-6934177710865.html)|
 |<img src="../../es_ES/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|Xiaomi tomado||||
@@ -442,9 +443,9 @@
 |<img src="../../es_ES/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|Xmovimiento iaomi aquara|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
 |<img src="../../es_ES/zigbee/images/lumi.sensor_switch.png" width="60" />|Xiaomi|Xiaomi aquara interruptor||||
 |<img src="../../es_ES/zigbee/images/lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|Xiaomi aquara inundación|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
-|<img src="../../es_ES/zigbee/images/lumi.vibration.aq1.png" width="60" />|Xiaomi|Xiaomi Aquara vibración|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
+|<img src="../../es_ES/zigbee/images/lumi.vibration.aq1.png" width="60" />|Xiaomi|AQARA - Sensor de vibraciones|Detector, puerta, vibración||[Comprar](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
 
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-03-11 01:32:05
+2021-03-12 01:32:19
