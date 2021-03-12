@@ -4,7 +4,14 @@
     "description": {
         "fr_FR": "Plugin ajoutant le support de la gamme Odace SFSP (sans fil sans pile) Schneider à Jeedom. Il permet d'obtenir les informations des interrupteurs (volets\/ scènes \/ simple \/ double). Il permet de contrôler les actionneurs (volet\/dcl). Il permet aussi de pouvoir utiliser les scènes et les groupes.",
         "en_US": "Plugin adding support for the Odace SFSP range (wireless without battery) Schneider to Jeedom. It is used to obtain information from the switches (shutters \/ scenes \/ single \/ double). It is used to control the actuators (shutter \/ dcl). It also allows you to use scenes and groups",
-        "pt_PT": "Plugin adicionando suporte para a gama Odace SFSP (sem fio sem bateria) Schneider para Jeedom. É usado para obter informações dos interruptores (persianas \/ cenas \/ simples \/ duplas). É usado para controlar os atuadores (obturador \/ dcl). Também permite usar cenas e grupos"
+        "pt_PT": "Plugin adicionando suporte para a gama Odace SFSP (sem fio sem bateria) Schneider para Jeedom. É usado para obter informações dos interruptores (persianas \/ cenas \/ simples \/ duplas). É usado para controlar os atuadores (obturador \/ dcl). Também permite usar cenas e grupos",
+        "es_ES": "Plugin ajoutant le support de la gamme Odace SFSP (sans fil sans pile) Schneider à Jeedom. Il permet d'obtenir les informations des interrupteurs (volets\/ scènes \/ simple \/ double). Il permet de contrôler les actionneurs (volet\/dcl). Il permet aussi de pouvoir utiliser les scènes et les groupes",
+        "de_DE": "Plugin ajoutant le support de la gamme Odace SFSP (sans fil sans pile) Schneider à Jeedom. Il permet d'obtenir les informations des interrupteurs (volets\/ scènes \/ simple \/ double). Il permet de contrôler les actionneurs (volet\/dcl). Il permet aussi de pouvoir utiliser les scènes et les groupes",
+        "ru_RU": "Plugin ajoutant le support de la gamme Odace SFSP (sans fil sans pile) Schneider à Jeedom. Il permet d'obtenir les informations des interrupteurs (volets\/ scènes \/ simple \/ double). Il permet de contrôler les actionneurs (volet\/dcl). Il permet aussi de pouvoir utiliser les scènes et les groupes",
+        "id_ID": "Plugin ajoutant le support de la gamme Odace SFSP (sans fil sans pile) Schneider à Jeedom. Il permet d'obtenir les informations des interrupteurs (volets\/ scènes \/ simple \/ double). Il permet de contrôler les actionneurs (volet\/dcl). Il permet aussi de pouvoir utiliser les scènes et les groupes",
+        "it_IT": "Plugin ajoutant le support de la gamme Odace SFSP (sans fil sans pile) Schneider à Jeedom. Il permet d'obtenir les informations des interrupteurs (volets\/ scènes \/ simple \/ double). Il permet de contrôler les actionneurs (volet\/dcl). Il permet aussi de pouvoir utiliser les scènes et les groupes",
+        "ja_JP": "Plugin ajoutant le support de la gamme Odace SFSP (sans fil sans pile) Schneider à Jeedom. Il permet d'obtenir les informations des interrupteurs (volets\/ scènes \/ simple \/ double). Il permet de contrôler les actionneurs (volet\/dcl). Il permet aussi de pouvoir utiliser les scènes et les groupes",
+        "tr": "Plugin ajoutant le support de la gamme Odace SFSP (sans fil sans pile) Schneider à Jeedom. Il permet d'obtenir les informations des interrupteurs (volets\/ scènes \/ simple \/ double). Il permet de contrôler les actionneurs (volet\/dcl). Il permet aussi de pouvoir utiliser les scènes et les groupes"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -17,7 +24,14 @@
     "language": [
         "fr_FR",
         "en_US",
-        "pt_PT"
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
