@@ -218,7 +218,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/TYZB01_bngwdjsr.TS1001.png" width="60" />|Lidl|||||
+|<img src="../../es_ES/zigbee/images/TYZB01_bngwdjsr.TS1001.png" width="60" />|Lidl|Control remoto||||
 |<img src="../../es_ES/zigbee/images/TZ1800_fcdjzz3s.TY0202.png" width="60" />|Lidl|Sensor de movimiento||||
 |<img src="../../es_ES/zigbee/images/TZ3000_49qchf10.TS0502A.png" width="60" />|Lidl|LIDL E27 LED LIVARNOLUX||||
 |<img src="../../es_ES/zigbee/images/TZ3000_5bsf8vaj.TS0505A.png" width="60" />|Lidl|Applique||||
@@ -393,6 +393,7 @@
 |<img src="../../es_ES/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Módulo de enchufe de vida conectado Tuya ZigBee 3.0||||
 |<img src="../../es_ES/zigbee/images/TZ3000_pmvbt5hh.TS0011.png" width="60" />|Tuya|Tuya Switch sin neutro||||
 |<img src="../../es_ES/zigbee/images/TZ3000_pmz6mjyu.TS011F.png" width="60" />|Tuya|Micromódulo de doble relé||||
+|<img src="../../es_ES/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|TUYA Zigbee RGBW RGBWW Tira de led SMD 5050||||
 |<img src="../../es_ES/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interruptor de 4 botones||||
 |<img src="../../es_ES/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MicroMódulo de luz Tuya ZigBee 3.0||||
 |<img src="../../es_ES/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Interruptor de escena de 3 botones||||
@@ -448,4 +449,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-03-12 01:32:19
+2021-03-13 01:32:05

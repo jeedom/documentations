@@ -218,7 +218,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/TYZB01_bngwdjsr.TS1001.png" width="60" />|Lidl|||||
+|<img src="../../en_US/zigbee/images/TYZB01_bngwdjsr.TS1001.png" width="60" />|Lidl|Remote control||||
 |<img src="../../en_US/zigbee/images/TZ1800_fcdjzz3s.TY0202.png" width="60" />|Lidl|Motion sensor||||
 |<img src="../../en_US/zigbee/images/TZ3000_49qchf10.TS0502A.png" width="60" />|Lidl|LIDL E27 LED LIVARNOLUX||||
 |<img src="../../en_US/zigbee/images/TZ3000_5bsf8vaj.TS0505A.png" width="60" />|Lidl|Applique||||
@@ -393,6 +393,7 @@
 |<img src="../../en_US/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 connected life plug module||||
 |<img src="../../en_US/zigbee/images/TZ3000_pmvbt5hh.TS0011.png" width="60" />|Tuya|Tuya Switch without neutral||||
 |<img src="../../en_US/zigbee/images/TZ3000_pmz6mjyu.TS011F.png" width="60" />|Tuya|Double relay micro-module||||
+|<img src="../../en_US/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|TUYA Zigbee RGBW RGBWW Led strip SMD 5050||||
 |<img src="../../en_US/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 button switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 light microModule||||
 |<img src="../../en_US/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|3-button scene switch||||
@@ -448,4 +449,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-03-12 01:32:19
+2021-03-13 01:32:05
