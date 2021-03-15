@@ -245,7 +245,7 @@
         "La fonction `ajax": "Die Ajax-Funktion",
         "init()` accepte depuis la v4 un tableau \"d'action\" en paramètre et depuis la v4": "init () `akzeptiert von v4 ein\" action \"-Array als Parameter und von v4",
         "1 vérifie si l'action reçue dans le querystring (avec une requête GET) est listée dans ce tableau, si ce n'est pas le cas la requête est bloquée": "1 prüft, ob die im Querystring (mit einer GET-Anforderung) empfangene Aktion in dieser Tabelle aufgeführt ist. Ist dies nicht der Fall, wird die Anforderung blockiert",
-        "Attention, en V3 l'arguement optionnel était un boolean; donc il est possible de faire un code compatible v4": "Seien Sie vorsichtig, in V3 war das optionale Argument ein Boolescher Wert. So ist es möglich, einen v4-kompatiblen Code zu erstellen",
+        "Attention, en V3 l'argument optionnel était un boolean; donc il est possible de faire un code compatible v4": "Seien Sie vorsichtig, in V3 war das optionale Argument ein Boolescher Wert. So ist es möglich, einen v4-kompatiblen Code zu erstellen",
         "0 et supérieur mais pas avec la v3": "0 und höher, aber nicht mit v3",
         "\/* Fonction permettant l'envoi de l'entête 'Content-Type": "\/ * Funktion zum Senden des 'Content-Type-Headers",
         "application\/json": "Anwendung \/ json",

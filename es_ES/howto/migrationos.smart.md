@@ -9,7 +9,7 @@ La migración del entorno Debian y el kernel inteligente es un proceso largo y c
 Es necesario en particular :
 
 - poder **permanecer en la página de migración** durante todo el proceso *(tarda alrededor de 1h30)*,
-- preparar una llave USB formateada en **FAT32** y tener **más de 8GB de espacio libre**,
+- preparar [una llave USB formateada en **FAT32**](https://fr.wikihow.com/formater-en-FAT32){:target = "\_ blank"} y teniendo **más de 8GB de espacio libre**,
 - estar en el **misma red local** que la Smart Box y acceder a ella desde su **dirección interna**.
 
 >**Importante**
@@ -84,15 +84,20 @@ Al final del proceso de migración, la caja inteligente se encuentra ahora en un
 
 >**Importante**
 >
->Asegúrese de quitar la llave USB de la caja inteligente al final de la operación.
+>**Asegúrese de quitar la llave USB de la caja inteligente al final de la operación.**
 
->**Importante**
->
->Especialmente recuerde reinstalar las dependencias para los complementos que las usan.
-
-Felicitaciones, su Smart Box ahora está actualizado y operativo !
+Felicidades, **su Smart Box ahora está actualizado y operativo** !
 
 ## Preguntas frecuentes
 
->**El proceso de migración se lleva a cabo correctamente, sin embargo, no parece que se hayan producido cambios después de reiniciar la caja ?**
->Repita la operación con otra memoria USB o reformatee completamente su memoria USB *(recreando la tabla de particiones con GParted por ejemplo)*.
+>**El proceso de migración se lleva a cabo correctamente, sin embargo, no parece que se hayan producido cambios después de reiniciar la caja ?**    
+>Esto significa que la herramienta de migración no reconoce correctamente la llave USB utilizada. Repita la operación con otra llave USB o [reparticionar su llave USB](https://fr.wikihow.com/partitionner-une-cl%C3%A9-USB){:target = "\_ blank"} cuidando **crea solo una partición** *(Partición única)*.
+
+>**Ya no puedo autenticarme en Jeedom después de la migración del entorno.**    
+>Jeedom se ha reinstalado después de la actualización del entorno Debian, siempre que no haya restaurado una copia de seguridad o creado un nuevo usuario, las credenciales predeterminadas son ***admin / admin***.
+
+>**Mi caja ya no es accesible después de la migración del medio ambiente.**    
+>Verifique la presencia y la dirección IP de la caja Jeedom desde la interfaz de su enrutador en caso de que haya cambiado su dirección IP.
+
+>**Algunos complementos ya no funcionan después de la migración.**    
+>Asegúrese de haber reinstalado las dependencias para los complementos que las requieren *(consulte la página de configuración del complemento)*.

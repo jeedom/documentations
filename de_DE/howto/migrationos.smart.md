@@ -9,7 +9,7 @@ Die Migration der Debian-Umgebung und des Smart-Kernels ist ein langer und kompl
 Es ist insbesondere notwendig :
 
 - Leistung **Bleiben Sie auf der Migrationsseite** während des gesamten Prozesses *(es dauert ungefähr 1h30)*,
-- Bereiten Sie einen USB-Stick vor, der formatiert ist **FAT32** und haben **mehr als 8 GB freier Speicherplatz**,
+- vorbereiten [ein USB-Stick formatiert **FAT32**](https://fr.wikihow.com/formater-en-FAT32){:target = "\_ blank"} und haben **mehr als 8 GB freier Speicherplatz**,
 - auf der sein **gleiches lokales Netzwerk** als die Smart-Box und greifen Sie von seiner **interne Adresse**.
 
 >**Wichtig**
@@ -84,15 +84,20 @@ Am Ende des Migrationsprozesses befindet sich die Smart Box nun in einer aktuell
 
 >**Wichtig**
 >
->Stellen Sie sicher, dass Sie den USB-Stick am Ende des Vorgangs aus der Smart Box entfernen.
+>**Stellen Sie sicher, dass Sie den USB-Stick am Ende des Vorgangs aus der Smart Box entfernen.**
 
->**Wichtig**
->
->Denken Sie insbesondere daran, die Abhängigkeiten für die Plugins, die sie verwenden, neu zu installieren.
-
-Herzlichen Glückwunsch, Ihre Smart Box ist jetzt auf dem neuesten Stand und betriebsbereit !
+Herzliche Glückwünsche, **Ihre Smart Box ist jetzt auf dem neuesten Stand und betriebsbereit** !
 
 ## Häufig gestellte Fragen
 
->**Der Migrationsprozess findet korrekt statt, jedoch scheint nach dem Neustart der Box keine Änderung stattgefunden zu haben ?**
->Bitte wiederholen Sie den Vorgang mit einem anderen USB-Stick oder formatieren Sie Ihren USB-Stick vollständig neu *(indem Sie beispielsweise die Partitionstabelle mit GParted neu erstellen)*.
+>**Der Migrationsprozess findet korrekt statt, jedoch scheint nach dem Neustart der Box keine Änderung stattgefunden zu haben ?**    
+>Dies bedeutet, dass der verwendete USB-Stick vom Migrationstool nicht korrekt erkannt wird. Bitte wiederholen Sie den Vorgang mit einem anderen USB-Stick oder [Partitionieren Sie Ihren USB-Stick neu](https://fr.wikihow.com/partitionner-une-cl%C3%A9-USB){:target = "\_ blank"} kümmert sich darum **Erstellen Sie nur eine Partition** *(Einzelne Partition)*.
+
+>**Ich kann mich nach der Migration der Umgebung nicht mehr bei Jeedom authentifizieren.**    
+>Jeedom wurde nach dem Debian-Umgebungsupdate neu installiert. Solange Sie kein Backup wiederhergestellt oder keinen neuen Benutzer erstellt haben, sind die Standardanmeldeinformationen ***admin / admin***.
+
+>**Meine Box ist nach der Migration der Umgebung nicht mehr erreichbar.**    
+>Überprüfen Sie das Vorhandensein und die IP-Adresse der Jeedom-Box über die Schnittstelle Ihres Routers, falls die IP-Adresse geändert wurde.
+
+>**Einige Plugins funktionieren nach der Migration nicht mehr.**    
+>Stellen Sie sicher, dass Sie Abhängigkeiten für Plugins neu installiert haben, für die sie erforderlich sind *(Konsultieren Sie die Plugin-Konfigurationsseite)*.

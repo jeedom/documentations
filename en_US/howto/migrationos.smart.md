@@ -9,7 +9,7 @@ The migration of the Debian environment and the Smart kernel is a long and compl
 It is necessary in particular :
 
 - power **stay on the migration page** during the whole process *(it takes about 1h30)*,
-- prepare a USB key formatted in **FAT32** and having **more than 8GB of free space**,
+- to prepare [a USB key formatted in **FAT32**](https://fr.wikihow.com/formater-en-FAT32){:target = "\_ blank"} and having **more than 8GB of free space**,
 - be on the **same local network** than the Smart box and access it from its **internal address**.
 
 >**Important**
@@ -84,15 +84,20 @@ At the end of the migration process, the Smart box is now in an up-to-date envir
 
 >**Important**
 >
->Make sure to remove the USB key from the Smart box at the end of the operation.
+>**Make sure to remove the USB key from the Smart box at the end of the operation.**
 
->**Important**
->
->Especially remember to reinstall the dependencies for the plugins that use them.
-
-Congratulations, your Smart box is now up to date and operational !
+Congratulations, **your Smart box is now up to date and operational** !
 
 ## Frequently Asked Questions
 
->**The migration process takes place correctly, however no change seems to have taken place after restarting the box ?**
->Please repeat the operation with another USB stick or completely reformat your USB stick *(by recreating the partition table with GParted for example)*.
+>**The migration process takes place correctly, however no change seems to have taken place after restarting the box ?**    
+>This means that the USB key used is not correctly recognized by the migration tool. Please repeat the operation with another USB key or [repartition your USB key](https://fr.wikihow.com/partitionner-une-cl%C3%A9-USB){:target = "\_ blank"} taking care of **create only one partition** *(Single partition)*.
+
+>**I can no longer authenticate on Jeedom following the migration of the environment.**    
+>Jeedom having been reinstalled following the Debian environment update, as long as you have not restored a backup or created a new user, the default credentials are ***admin / admin***.
+
+>**My box is no longer reachable following the migration of the environment.**    
+>Check the presence and the ip address of the Jeedom box from the interface of your router in case it has changed its ip address.
+
+>**Some plugins no longer work following the migration.**    
+>Make sure you have reinstalled dependencies for plugins that require them *(consult the plugin configuration page)*.
