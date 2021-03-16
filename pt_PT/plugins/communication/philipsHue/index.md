@@ -1,54 +1,82 @@
 # Philips Hue plugin
 
-Plug-in para integrar-se ao ecossistema Philips Hue (pode gerenciar até 2 pontes simultaneamente).
+# Description
 
-# Configuração do plugin
+Este plug-in permitirá que você integre seu ecossistema Philips Hue ao Jeedom. O plugin oferece a possibilidade de conduzir até 2 pontes Philips Hue simultaneamente.
 
-Após o download do plug-in, você precisará inserir o endereço IP da (s) sua (s) ponte (s) de matiz.
+# Configuration
 
-# Configuração do equipamento
+## Configuração do plugin
 
-> **NOTA**
+Como qualquer plugin Jeedom, o plugin **Philips Hue** deve ser ativado após a instalação.
+
+Assim que o plug-in for ativado, você precisará inserir o endereço IP no qual sua ponte Philips Hue pode ser acessada.
+
+>**TRUQUE**
 >
-> Você sempre terá o equipamento "Todas as lâmpadas", que realmente corresponde ao grupo 0, que existe o tempo todo
+>Você pode inserir até 2 pontes Philips Hue que serão capazes de se comunicar com a Jeedom simultaneamente.
 
-Aqui você encontra toda a configuração do seu equipamento :
+O plugin **Philips Hue** usa seu próprio daemon para ficar em contato constante com a (s) ponte (s) Philips Hue. Você pode verificar o status na página de configuração do plugin.
 
--   **Nome do equipamento Hue** : nome do seu equipamento Hue,
--   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
--   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias),
--   **Ativar** : torna seu equipamento ativo,
--   **Visivél** : torna seu equipamento visível no painel,
--   **Ponte** : indica a ponte à qual a lâmpada está conectada
--   **Sempre ligado** : diga ao jeedom para nunca marcar a lâmpada como inacessível
+>**EM FORMAÇÃO**
+>    
+>Normalmente não é necessário iniciar o daemon manualmente, ele é gerenciado automaticamente pelo plugin.
 
-Abaixo você encontra a lista de pedidos :
+## Configuração do equipamento
 
--   **Nome** : o nome exibido no painel,
--   **Configuração avançada** : exibe a janela de configuração avançada do comando,
--   **Opções** : permite exibir ou ocultar certos comandos e / ou registrá-los
--   **Teste** : permite testar o comando
+Para acessar os diferentes equipamentos **Philips Hue**, vá para o menu **Plugins → Comunicação → Philips Hue**.
+
+>**EM FORMAÇÃO**
+>    
+>O botão **acrescentar** permite adicionar novos equipamentos Philips Hue.
+
+Ao clicar em um item de equipamento já criado na lista, você é direcionado para sua página de configuração :
+
+- **Nome do equipamento** : nome do seu equipamento Hue.
+- **Objeto pai** : indica o objeto pai ao qual o equipamento pertence.
+- **Categoria** : categorias de equipamentos (pode pertencer a várias categorias).
+- **Ativar** : permite tornar o equipamento ativo.
+- **Visivél** : torna o equipamento visível no painel.
+
+- **Modelo** : insira o modelo do seu equipamento Philips Hue.
+- **Ponte** : indica a ponte em que o equipamento está conectado.
+- **Sempre ligado** : diz a Jeedom para nunca marcar a lâmpada como inacessível.
+
+>**SABER**
+>
+>Sempre haverá um dispositivo chamado "Todas as lâmpadas" que corresponde ao grupo 0 que existe em todos os casos.
+
+Ao clicar na segunda guia, encontramos a lista de pedidos :
+
+- **Nome** : o nome exibido no painel.
+- **Ícone** : permite-lhe atribuir um ícone ao comando.
+- **Opções** : permite que você exiba ou esconda certos comandos e / ou registre seus valores.
+- **Configurações** : permite definir parâmetros opcionais nos comandos info / numéricos.
+- **Configuração avançada** *(roda dentada)* : exibe a janela de configuração avançada do comando.
+- **Teste** : permite testar o comando.
+- **Botão -** : permite que você apague o comando.
+
 
 # Grupo 0 (todas as lâmpadas)
 
-O grupo 0 é um pouco especial porque não pode ser excluído ou modificado, necessariamente aciona todas as lâmpadas e também é ele que carrega as cenas.
+Grupo 0 não pode ser excluído ou modificado. Ele necessariamente controla todas as luzes e também é ele quem carrega as cenas.
 
-Na verdade, você pode fazer "cenas" no Philips Hue. Isso deve ser feito absolutamente a partir do aplicativo móvel (impossível fazê-lo no Jeedom). E após a adição de uma cena, você deve absolutamente sincronizar o Jeedom com a cena correta (simplesmente salvando a configuração do plugin)
+Na verdade, você pode fazer "cenas" com o Philips Hue. Isso deve ser feito absolutamente no aplicativo móvel (impossível de fazer no Jeedom). Depois de adicionar uma cena você deve absolutamente sincronizar Jeedom com a ponte *(simplesmente salvando a configuração do plugin)*.
 
-# Tansition
+# Transition
 
-Comando um pouco específico que deve ser usado em um cenário, permite dizer que a transição entre o estado atual e o próximo comando deve durar X segundos.
+Um pequeno comando peculiar que é projetado para ser usado em um cenário. Permite definir a duração em segundos da transição entre o estado atual e o próximo comando.
 
-Por exemplo, de manhã, você pode simular o nascer do sol em 3 minutos. Portanto, no seu cenário, basta chamar o comando de transição e, no conjunto de parâmetros 180, chamar o comando color para a cor desejada.
+Por exemplo, de manhã você pode querer simular o nascer do sol em 3 minutos. Em seu cenário, você só precisa chamar o comando de transição com ``180`` no parâmetro, em seguida, chame o comando de cor para a cor desejada.
 
 # Animation
 
 As animações são sequências de transição, atualmente existem :
 
--   nascer do sol : para simular um nascer do sol. Pode tomar como parâmetro :
-    -   duração : para definir a duração, por padrão 720s, ex por 5min, você deve colocar : duration=300
--   pôr do sol : para simular um pôr do sol. Pode tomar como parâmetro :
-    -   duração : para definir a duração, por padrão 720s, ex por 5min, você deve colocar : duration=300
+- **nascer do sol** : permite que você simule um nascer do sol. Pode tomar como parâmetro :
+    - **duração** : definir duração, padrão 720s. Por 5 minutos será necessário indicar ``duration=300``.
+- **pôr do sol** : para simular um pôr do sol. Pode tomar como parâmetro :
+    - **duração** : definir duração, padrão 720s. Por 5 minutos será necessário indicar ``duration=300``.
 
 # Botão de controle remoto
 
@@ -61,26 +89,26 @@ Aqui está a lista de códigos para os botões :
 
 O mesmo com XXX0 para a tecla pressionada, XXX1 para a tecla pressionada e XXX2 para a tecla liberada.
 
-Aqui estão as sequências para o botão On, por exemplo :
+Aqui estão as sequências para o botão Ligar, por exemplo :
 
 - Pressão curta : Quando pressionado, vamos para 1000 e, quando liberamos, vamos para 1002
 - Pressão longa : Durante a imprensa, passamos a 1000, durante a imprensa, passamos a 1001, quando liberamos, passamos a 1002
 
 # FAQ
 
-> **Tenho a impressão de que há uma diferença em determinada cor entre o que peço e a cor da lâmpada.**
+> **Tenho a impressão de que existe uma diferença em certas cores entre o que peço e a cor da lâmpada.**
 >
-> Parece que a grade de cores das lâmpadas tem um deslocamento, estamos procurando como corrigir
+> Parece que a grade de cores das lâmpadas tem um deslocamento, estamos procurando como corrigir.
 
 > **Qual é a taxa de atualização ?**
 >
 > O sistema recupera informações a cada 2s.
 
-> **Meu equipamento (lâmpada / interruptor ....) não é reconhecido pelo plug-in, como fazer ?**
+> **Meu equipamento (lâmpada, interruptor, etc ...) não é reconhecido pelo plugin, como fazer ?**
 >
 > Você deve :
-> - escreva-nos o equipamento que você deseja adicionar com a foto e as possibilidades - envie-nos o log de depuração da sincronização com a ponte enquanto nos contata com uma solicitação de suporte
+> - descreva o equipamento que deseja que adicionemos com fotos e suas possibilidades e envie-nos o log de depuração da sincronização com a ponte, ao mesmo tempo em que nos contata com um pedido de suporte
 
 >**Eu adicionei a historização de um pedido, mas não funciona**
 >
->Para problemas de desempenho, você deve reiniciar o daemon philips hue para que ele leve essa mudança em consideração.
+>Para problemas de desempenho, você deve reiniciar o daemon Philips Hue para que ele leve essa alteração em consideração.

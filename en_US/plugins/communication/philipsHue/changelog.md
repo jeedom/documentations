@@ -1,12 +1,27 @@
 # Changelog Philips Hue
 
+# Changelog plugin Philips Hue
+
 >**Important**
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 03/15/2021
+
+- Addition of the Hue White Bulb A67 E27 1600lm
+- Optimizations and bug fixes
+- Modernization of the interface
+- Image optimization
+- Added new hue Dimmer Switch
+- Addition of the smart plug (on / off only no status feedback for the moment)
+
+# 12/11/2020
+
+- Correction of a CPU overload fault when deactivating a sensor (the daemon must be restarted following the update to apply the correction)
+
 # 06/25/2020
 
-- Multi-bridge support (2 at the moment)
+- Support for multiple bridges (2 at the moment)
 
 # 05/11/2020
 
@@ -14,7 +29,7 @@
 
 # 01/02/2020
 
-- Addition of image for generic bulbs
+- Added image for generic bulbs
 
 # 10/10/2019
 
@@ -27,18 +42,18 @@
 
 # 08/01/2019
 
-- Support Feller EDIZIOdue colore
+- Support for Feller EDIZIOdue colore
 - Improved synchronization logs
 
 # 04/24/2019
 
 - Add a button to delete an order
-- Correction of the configuration for the ikea bulbs (attention you must remove them from jeedom and redo a synchronization)
+- Correction of the configurations for the Ikea bulbs (be careful, they must be removed from jeedom and redo a synchronization)
 
 # 04/20/2019
 
-- SML002 support
-- Support for OSRAM SMART socket status feedback (attention requires reinclusion)
+- Support for SML002
+- Support for status feedback from OSRAM SMART sockets (attention requires a new inclusion)
 
 # 01/17/2019
 
@@ -47,23 +62,23 @@
 
 # 01/16/2019
 
-- Addition of color and non-color generic light configuration
-- Niko support 4 buttons
+- Added configuration of generic color and non-color lights
+- Support for Niko 4 buttons
 - Bug fix
 
 # 01/15/2019
 
-- Updating the doc
+- Documentation update
 - Correction of a bug on the state of the buttons when restarting the bridge
 - Adding Hue lightstrip outdoor
 
 # 10/16/2018
 
-- Correction of a bug on the inversion of presence for the motion sensor (for those already created it will be necessary to tick the inversion cache on the line of the Presence command)
+- Correction of a bug on the presence inversion for the motion sensor (for those already created, it will be necessary to check the inversion box on the line of the Presence command)
 
 # 10/12/2018
 
-- Correction of a bug on the status of the pieces (on / off) if there is no color lamp in it
+- Fixed a bug on the status of parts (on / off) if there is no colored lamp in it
 - Addition RB 145
 - Addition LPT003
 
@@ -81,9 +96,9 @@
 
 # 04/14/2018
 
--   Correction of a bug on the time of the sensor values
--   FLOALT panel WS 30x90
--   TRADFRI bulb E14 WS opal 400lm
+- Correction of the time of the sensor values
+- FLOALT panel WS 30x90
+- TRADFRI bulb E14 WS opal 400lm
 -	TRADFRI E27 WS opal 980lm
 -	TRADFRI E27 color 600lm
 
@@ -95,27 +110,27 @@
 
 # 01/21/2018
 
-- 	Switch to the new doc system
--   Addition of model MWB001
--   Adding the ltw010 model
--   Addition of the OSRAM model
--   Addition of the TRADFRI bulb GU10 W 400lm model
+- Switch to the new documentation system
+- Addition of model MWB001
+- Adding the ltw010 model
+- Addition of the OSRAM model
+- Addition of the TRADFRI bulb GU10 W 400lm model
 
 # 11/20/2017
 
--   Addition of model LCT015
+- Addition of model LCT015
 
 # 03/28/2017
 
--   Addition of animation (sunrise and sunset), be careful all
-    lamps are not necessarily compatible
+- Addition of sunrise and sunset animations (be careful all
+    lamps are not necessarily compatible)
 
 # 01/21/2017
 
--   Hue motion support
--   Hue tap support
--   Correction of scenes
--   Color shift correction
--   Adding module images
--   Support for more modules
--   Addition of color temperature management
+- Hue motion support
+- Hue tap support
+- Correction of scenes
+- Color shift correction
+- Adding module images
+- Support for more modules
+- Addition of color temperature management

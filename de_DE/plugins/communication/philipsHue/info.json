@@ -2,15 +2,20 @@
     "id": "philipsHue",
     "name": "Philips Hue",
     "description": {
-        "fr_FR": "Plugin pour s'integrer à l'écosystème Philips Hue (peut gerer jusqu'a 2 ponts simultanement).",
-        "en_US": "Plugin to integrate into the Philips Hue ecosystem (can manage up to 2 bridges simultaneously)",
-        "es_ES": "Complemento para integrarse en el ecosistema Philips Hue (puede gestionar hasta 2 puentes simultáneamente)",
-        "de_DE": "Plugin zur Integration in das Philips Hue-Ökosystem (kann bis zu 2 Bridges gleichzeitig verwalten)",
-        "pt_PT": "Plug-in para integrar-se ao ecossistema Philips Hue (pode gerenciar até 2 pontes simultaneamente)"
+        "fr_FR": "Plugin permettant d'intégrer un écosystème Philips Hue dans Jeedom. Le plugin est capable de gérer jusqu'à 2 ponts simultanément.",
+        "en_US": "Plugin allowing to integrate a Philips Hue ecosystem in Jeedom. The plugin is able to manage up to 2 bridges simultaneously",
+        "es_ES": "Complemento que permite integrar un ecosistema Philips Hue en Jeedom. El complemento puede administrar hasta 2 puentes simultáneamente",
+        "de_DE": "Plugin zur Integration eines Philips Hue-Ökosystems in Jeedom. Das Plugin kann bis zu 2 Bridges gleichzeitig verwalten",
+        "pt_PT": "Plugin que permite integrar um ecossistema Philips Hue no Jeedom. O plugin é capaz de gerenciar até 2 pontes simultaneamente",
+        "ru_RU": "Plugin permettant d'intégrer un écosystème Philips Hue dans Jeedom. Le plugin est capable de gérer jusqu'à 2 ponts simultanément",
+        "id_ID": "Plugin permettant d'intégrer un écosystème Philips Hue dans Jeedom. Le plugin est capable de gérer jusqu'à 2 ponts simultanément",
+        "it_IT": "Plugin permettant d'intégrer un écosystème Philips Hue dans Jeedom. Le plugin est capable de gérer jusqu'à 2 ponts simultanément",
+        "ja_JP": "Plugin permettant d'intégrer un écosystème Philips Hue dans Jeedom. Le plugin est capable de gérer jusqu'à 2 ponts simultanément",
+        "tr": "Plugin permettant d'intégrer un écosystème Philips Hue dans Jeedom. Le plugin est capable de gérer jusqu'à 2 ponts simultanément"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.3.32",
+    "require": "3.3.39",
     "category": "communication",
     "hasOwnDeamon": 1,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/philipsHue\/changelog",
@@ -20,7 +25,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",

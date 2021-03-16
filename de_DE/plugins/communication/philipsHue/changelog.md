@@ -1,12 +1,27 @@
 # Changelog Philips Hue
 
+# Changelog Plugin Philips Hue
+
 >**Wichtig**
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 15.03.2021
+
+- Zugabe der Hue White Bulb A67 E27 1600lm
+- Optimierungen und Fehlerbehebungen
+- Modernisierung der Schnittstelle
+- Bildoptimierung
+- Neuer Farbton-Dimmerschalter hinzugefügt
+- Hinzufügen des Smart Plug (Ein / Aus nur momentan keine Statusrückmeldung)
+
+# 11.12.2020
+
+- Korrektur eines CPU-Überlastungsfehlers beim Deaktivieren eines Sensors (der Dämon muss nach dem Update neu gestartet werden, um die Korrektur anzuwenden)
+
 # 25.06.2020
 
-- Multi-Bridge-Unterstützung (derzeit 2)
+- Unterstützung für mehrere Brücken (derzeit 2)
 
 # 05/11/2020
 
@@ -14,7 +29,7 @@
 
 # 01/02/2020
 
-- Hinzufügen eines Bildes für generische Glühbirnen
+- Bild für generische Glühbirnen hinzugefügt
 
 # 2019.10.10
 
@@ -27,18 +42,18 @@
 
 # 2019.01.08
 
-- Unterstützen Sie Feller EDIZIOdue colore
+- Unterstützung für Feller EDIZIOdue colore
 - Verbesserte Synchronisationsprotokolle
 
 # 24.04.2019
 
 - Fügen Sie eine Schaltfläche hinzu, um eine Bestellung zu löschen
-- Korrektur der Konfiguration für die Ikea-Lampen (Achtung, Sie müssen sie aus dem Jeedom entfernen und eine Synchronisation wiederholen)
+- Korrektur der Konfigurationen für die Ikea-Lampen (Vorsicht, sie müssen aus dem Jeedom entfernt werden und eine Synchronisation wiederholen)
 
 # 20.04.2019
 
-- SML002-Unterstützung
-- Unterstützung für OSRAM SMART Socket Status Feedback (Aufmerksamkeit erfordert erneutes Schließen)
+- Unterstützung für SML002
+- Unterstützung für Statusrückmeldungen von OSRAM SMART-Sockets (Aufmerksamkeit erfordert eine neue Aufnahme)
 
 # 17.01.2019
 
@@ -47,23 +62,23 @@
 
 # 16.01.2019
 
-- Hinzufügen einer generischen Lichtkonfiguration für Farbe und Nichtfarbe
-- Niko unterstützt 4 Tasten
+- Konfiguration von generischen Farb- und Nichtfarblichtern hinzugefügt
+- Unterstützung für Niko 4-Tasten
 - Fehlerbehebung
 
 # 2019.01.15
 
-- Aktualisieren des Dokuments
+- Aktualisierung der Dokumentation
 - Korrektur eines Fehlers im Status der Schaltflächen beim Neustart der Bridge
 - Hinzufügen von Hue Lightstrip im Freien
 
 # 16.10.2008
 
-- Korrektur eines Fehlers bei der Inversion der Präsenz für den Bewegungssensor (für die bereits erstellten muss der Inversionscache in der Zeile des Befehls Präsenz aktiviert werden)
+- Korrektur eines Fehlers bei der Anwesenheitsinversion für den Bewegungssensor (für die bereits erstellten muss das Kontrollkästchen "Inversion" in der Zeile des Befehls "Anwesenheit" aktiviert werden)
 
 # 10/12/2018
 
-- Korrektur eines Fehlers im Status der Teile (ein / aus), wenn keine Farblampe darin ist
+- Es wurde ein Fehler im Status von Teilen (Ein / Aus) behoben, wenn keine farbige Lampe darin war
 - Zusatz RB 145
 - Zusatz LPT003
 
@@ -81,9 +96,9 @@
 
 # 14.04.2008
 
--   Korrektur eines Fehlers zum Zeitpunkt der Sensorwerte
--   FLOALT Panel WS 30x90
--   TRADFRI Birne E14 WS Opal 400lm
+- Korrektur der Zeit der Sensorwerte
+- FLOALT Panel WS 30x90
+- TRADFRI Birne E14 WS Opal 400lm
 -	TRADFRI E27 WS opal 980lm
 -	TRADFRI E27 Farbe 600lm
 
@@ -95,27 +110,27 @@
 
 # 21.01.2008
 
-- 	Wechseln Sie zum neuen Dokumentensystem
--   Hinzufügung des Modells MWB001
--   Hinzufügen des Modells ltw010
--   Hinzufügung des OSRAM-Modells
--   Ergänzung der TRADFRI-Glühlampe GU10 W 400lm
+- Wechseln Sie zum neuen Dokumentationssystem
+- Hinzufügung des Modells MWB001
+- Hinzufügen des Modells ltw010
+- Hinzufügung des OSRAM-Modells
+- Ergänzung der TRADFRI-Glühlampe GU10 W 400lm
 
 # 20.11.2017
 
--   Hinzufügung des Modells LCT015
+- Hinzufügung des Modells LCT015
 
 # 28.03.2017
 
--   Hinzufügen von Animationen (Sonnenaufgang und Sonnenuntergang), seien Sie vorsichtig
-    Lampen sind nicht unbedingt kompatibel
+- Hinzufügen von Sonnenauf- und -untergangsanimationen (Vorsicht)
+    Lampen sind nicht unbedingt kompatibel)
 
 # 21.01.2017
 
--   Farbton Bewegungsunterstützung
--   Unterstützung für Farbtonhähne
--   Korrektur von Szenen
--   Farbverschiebungskorrektur
--   Modulbilder hinzufügen
--   Unterstützung für weitere Module
--   Hinzufügen eines Farbtemperaturmanagements
+- Farbton Bewegungsunterstützung
+- Unterstützung für Farbtonabgriffe
+- Korrektur von Szenen
+- Farbverschiebungskorrektur
+- Modulbilder hinzufügen
+- Unterstützung für weitere Module
+- Hinzufügen eines Farbtemperaturmanagements

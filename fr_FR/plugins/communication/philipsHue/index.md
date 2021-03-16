@@ -1,86 +1,114 @@
 # Plugin Philips Hue
 
-Plugin pour s'integrer à l'écosysteme Philips Hue (peut gerer jusqu'a 2 ponts simultanement).
+# Description
 
-# Configuration du plugin
+Ce plugin va vous permettre d'intégrer votre écosystème Philips Hue dans Jeedom. La plugin offre la possibilité de piloter jusqu'à 2 ponts Philips Hue simultanément.
 
-Après téléchargement du plugin, il vous faudra renseigner l’adresse IP de votre/vos pont(s) hue.
+# Configuration
 
-# Configuration des équipements
+## Configuration du plugin
 
-> **Note**
+Comme tout plugin Jeedom, le plugin **Philips Hue** doit être activé après l'installation.
+
+Une fois le plugin activé, il faudra renseigner l’adresse IP à laquelle votre pont Philips Hue est joignable.
+
+>**ASTUCE**
 >
-> Vous aurez toujours un équipement "Toutes les lampes" qui correspond en faite au groupe 0 qui existe tout le temps
+>Vous pouvez renseigner jusqu'à 2 ponts Philips Hue qui seront en mesure de communiquer avec Jeedom simultanément.
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Le plugin **Philips Hue** utilise son propre démon afin de rester en contact constant avec le(s) pont(s) Philips Hue. Vous pouvez en contrôler le statut sur la page de configuration du plugin.
 
--   **Nom de l’équipement Hue** : nom de votre équipement Hue,
--   **Objet parent** : indique l’objet parent auquel appartient l’équipement,
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à plusieurs catégories),
--   **Activer** : permet de rendre votre équipement actif,
--   **Visible** : rend votre équipement visible sur le dashboard,
--   **Pont** : indique le pont sur lequel la lampe est connecté
--   **Toujours allumé** : indique a jeedom de ne jamais marqué la lampe en non joignable
+>**INFORMATION**
+>    
+>Il n'est normalement pas nécessaire de démarrer le démon manuellement, celui-ci étant automatiquement géré par le plugin.
 
-En-dessous vous retrouvez la liste des commandes :
+## Configuration des équipements
 
--   **Nom** : le nom affiché sur le dashboard,
--   **Configuration avancé** : permet d’afficher la fenetre de configuration avancée de la commande,
--   **Options** : vous permet d’afficher ou de masquer certaines commandes et/ou d’en historiser
--   **Tester** : permet de tester la commande
+Pour accéder aux différents équipements **Philips Hue**, dirigez-vous vers le menu **Plugins → Communication → Philips Hue**.
+
+>**INFORMATION**
+>    
+>Le bouton **+ Ajouter** permet d'ajouter un nouvel équipement Philips Hue.
+
+En cliquant sur un équipement déjà créé dans la liste, vous êtes dirigés vers sa page de configuration :
+
+- **Nom de l’équipement** : nom de votre équipement Hue.
+- **Objet parent** : indique l’objet parent auquel appartient l’équipement.
+- **Catégorie** : les catégories de l’équipement (il peut appartenir à plusieurs catégories).
+- **Activer** : permet de rendre l'équipement actif.
+- **Visible** : rend l'équipement visible sur le dashboard.
+
+- **Modèle** : renseignez le modèle de votre équipement Philips Hue.
+- **Pont** : indique le pont sur lequel l'équipement est connecté.
+- **Toujours allumé** : indique à Jeedom de ne jamais marquer la lampe comme étant non-joignable.
+
+>**A SAVOIR**
+>
+>Il y aura toujours un équipement nommé "Toutes les lampes" qui correspond au groupe 0 qui existe dans tous les cas.
+
+En cliquant sur le second onglet, nous retrouvons la liste des commandes :
+
+- **Nom** : le nom affiché sur le dashboard.
+- **Icône** : permet d'affecter une icône à la commande.
+- **Options** : permet d’afficher ou de masquer certaines commandes et/ou d’en historiser les valeurs.
+- **Paramètres** : permet de définir des paramètres optionnels sur les commandes info/numérique.
+- **Configuration avancée** *(roue crantée)* : permet d’afficher la fenêtre de configuration avancée de la commande.
+- **Tester** : permet de tester la commande.
+- **Bouton -** : permet de supprimer la commande.
+
 
 # Le groupe 0 (Toute les lampes)
 
-Le groupe 0 est un peu particulier car il ne peut être supprimé ou modifié, il pilote forcement toute les lampes et c’est aussi lui qui porte les scénes.
+Le groupe 0 ne peut pas être supprimé ni modifié. Il pilote forcément toutes les lampes et c’est aussi lui qui porte les scènes.
 
-En effet vous pouvez faire des "scenes" sur les Philips Hue. Celle-ci doivent absolument être faite à partir de l’application mobile (impossible de les faire dans Jeedom). Et suite à l’ajout d’une scene vous devez absolument synchroniser Jeedom avec le bon (en resauvegardant simple la configuration du plugin)
+En effet vous pouvez faire des "scènes" avec les Philips Hue. Celles-ci doivent absolument être faites à partir de l’application mobile (impossible de les faire depuis Jeedom). Suite à l’ajout d’une scène vous devez absolument synchroniser Jeedom avec le pont *(simplement en sauvegardant la configuration du plugin)*.
 
-# Tansition
+# Transition
 
-Commande un peu particulier qui doit être utilisée dans un scénario, elle permet de dire la transistion entre l’état actuel et la prochaine commande doit durée X secondes.
+Commande un peu particulière qui est conçue pour être utilisée dans un scénario. Elle permet de définir la durée en secondes de la transition entre l’état actuel et la prochaine commande.
 
-Par exemple le matin vous pouvez vouloir simuler le levé du soleil en 3 minutes. Dans votre scénario vous avez donc juste à appeller la commande transition et en parametre mettre 180, ensuite appeller la commande couleur vers la couleur voulu.
+Par exemple le matin vous pouvez vouloir simuler le lever du soleil en 3 minutes. Dans votre scénario vous avez donc juste à appeler la commande transition avec ``180`` en paramètre puis appeler la commande couleur vers la couleur désirée.
 
 # Animation
 
 Les animations sont des enchainements de transition, actuellement il existe :
 
--   sunrise : pour simuler un levé de soleil. Il peut prendre en parametre :
-    -   duration : pour definir la durée, par defaut 720s, ex pour 5min il faut mettre : duration=300
--   sunset : pour simuler un couché de soleil. Il peut prendre en parametre :
-    -   duration : pour definir la durée, par defaut 720s, ex pour 5min il faut mettre : duration=300
+- **sunrise** : permet de simuler un lever de soleil. Il peut prendre en paramètre :
+    - **duration** : définir la durée, par défaut 720s. Pour 5 minutes il faudra indiquer ``duration=300``.
+- **sunset** : pour simuler un couché de soleil. Il peut prendre en paramètre :
+    - **duration** : définir la durée, par défaut 720s. Pour 5 minutes il faudra indiquer ``duration=300``.
 
 # Bouton télécommande
 
-Voici la liste des code pour les boutons :
+Voici la liste des codes pour les boutons :
 
 - 1002 pour le bouton On
 - 2002 pour le bouton augmenter
 - 3002 pour le bouton réduire
 - 4002 pour le bouton off
 
-La même chose avec XXX0 pour la touche appuyée, XXX1 pour la touche maintenue et XXX2 pour la touche relachée.
+La même chose avec XXX0 pour la touche appuyée, XXX1 pour la touche maintenue et XXX2 pour la touche relâchée.
 
-Voici les séquence pour le bouton On par exemple :
+Voici les séquences pour le bouton On par exemple :
 
 - Appui court : Lors de l'appui on passe sur 1000 et quand on relâche on passe sur 1002
 - Appui Long : Lors de l'appui on passe sur 1000, durant l'appui on passe sur 1001, quand on relâche on passe sur 1002
 
 # FAQ
 
-> **J’ai l’impression qu’il y a un décalage sur certaine couleur entre ce que je demande et la couleur de l’ampoule.**
+> **J’ai l’impression qu’il y a un décalage sur certaines couleurs entre ce que je demande et la couleur de l’ampoule.**
 >
-> Il semble que la grille de couleur des ampoules aient un offset,nous cherchons comment corriger
+> Il semble que la grille de couleur des ampoules ait un offset, nous cherchons comment corriger.
 
 > **Quelle est la fréquence de rafraîchissement ?**
 >
-> Le systeme recupère les informations toutes les 2s.
+> Le système récupère les informations toutes les 2s.
 
-> **Mon équipement (lampe/interrupteur....) n'est pas reconnu par le plugin, comment faire ?**
+> **Mon équipement (lampe, interrupteur, etc...) n'est pas reconnu par le plugin, comment faire ?**
 >
 > Il faut :
-> - nous d'écrire l'équipement que vous voulez qu'on ajoute avec photo et possibilités de celui-ci - nous envoyer le log en debug de la synchronisation avec le pont Le tout en nous contactant par une demande de support
+> - nous décrire l'équipement que vous voulez qu'on ajoute avec photos et les possibilités de celui-ci et nous envoyer le log en debug de la synchronisation avec le pont, le tout en nous contactant par une demande de support
 
 >**J'ai ajouté l'historisation d'une commande mais ca ne marche pas**
 >
->Pour des questions de performance il faut redemarrer le demon philips hue pour qu'il prenne en compte ce changement.
+>Pour des questions de performance, il faut redémarrer le démon Philips Hue pour qu'il prenne en compte ce changement.

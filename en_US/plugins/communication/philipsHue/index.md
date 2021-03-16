@@ -1,54 +1,82 @@
 # Philips Hue plugin
 
-Plugin to integrate into the Philips Hue ecosystem (can manage up to 2 bridges simultaneously).
+# Description
 
-# Plugin configuration
+This plugin will allow you to integrate your Philips Hue ecosystem into Jeedom. The plugin offers the possibility to drive up to 2 Philips Hue bridges simultaneously.
 
-After downloading the plugin, you will need to enter the IP address of your hue bridge (s).
+# Configuration
 
-# Equipment configuration
+## Plugin configuration
 
-> **NOTE**
+Like any Jeedom plugin, the plugin **Philips Hue** must be activated after installation.
+
+Once the plugin is activated, you will need to enter the IP address at which your Philips Hue bridge can be reached.
+
+>**TRICK**
 >
-> You will always have "All lamps" equipment which actually corresponds to group 0 which exists all the time
+>You can enter up to 2 Philips Hue bridges that will be able to communicate with Jeedom simultaneously.
 
-Here you find all the configuration of your equipment :
+The plugin **Philips Hue** uses its own daemon in order to stay in constant contact with the Philips Hue bridge (s). You can check the status on the plugin configuration page.
 
--   **Hue equipment name** : name of your Hue equipment,
--   **Parent object** : indicates the parent object to which the equipment belongs,
--   **Category** : equipment categories (it can belong to several categories),
--   **Activate** : makes your equipment active,
--   **Visible** : makes your equipment visible on the dashboard,
--   **Bridge** : indicates the bridge to which the lamp is connected
--   **Always on** : tell jeedom to never mark the lamp as unreachable
+>**INFORMATION**
+>    
+>It is normally not necessary to start the daemon manually, it is automatically managed by the plugin.
 
-Below you find the list of orders :
+## Equipment configuration
 
--   **Name** : the name displayed on the dashboard,
--   **Advanced configuration** : displays the command's advanced configuration window,
--   **Options** : allows you to display or hide certain commands and / or log them
--   **Test** : Used to test the command
+To access the different equipment **Philips Hue**, go to the menu **Plugins → Communication → Philips Hue**.
+
+>**INFORMATION**
+>    
+>The button **+ Add** allows you to add new Philips Hue equipment.
+
+By clicking on an item of equipment already created in the list, you are directed to its configuration page :
+
+- **Equipment name** : name of your Hue equipment.
+- **Parent object** : indicates the parent object to which the equipment belongs.
+- **Category** : equipment categories (it can belong to several categories).
+- **Activate** : allows to make the equipment active.
+- **Visible** : makes the equipment visible on the dashboard.
+
+- **Model** : enter the model of your Philips Hue equipment.
+- **Bridge** : indicates the bridge on which the equipment is connected.
+- **Always on** : tells Jeedom to never mark the lamp as unreachable.
+
+>**TO KNOW**
+>
+>There will always be a device named "All lamps" which corresponds to group 0 which exists in all cases.
+
+By clicking on the second tab, we find the list of orders :
+
+- **Name** : the name displayed on the dashboard.
+- **Icon** : allows you to assign an icon to the command.
+- **Options** : allows you to display or hide certain commands and / or to log their values.
+- **Settings** : allows to define optional parameters on the info / numeric commands.
+- **Advanced configuration** *(toothed wheel)* : displays the command's advanced configuration window.
+- **Test** : Used to test the command.
+- **Button -** : allows you to delete the command.
+
 
 # Group 0 (All lamps)
 
-Group 0 is a bit special because it cannot be deleted or modified, it necessarily drives all the lamps and it is also it that carries the scenes.
+Group 0 cannot be deleted or modified. He necessarily controls all the lights and it is also he who carries the scenes.
 
-Indeed you can make "scenes" on Philips Hue. These must absolutely be done from the mobile application (impossible to do them in Jeedom). And following the addition of a scene you must absolutely synchronize Jeedom with the correct one (by simply saving the configuration of the plugin)
+Indeed you can make "scenes" with the Philips Hue. These must absolutely be done from the mobile application (impossible to do from Jeedom). After adding a scene you must absolutely synchronize Jeedom with the bridge *(simply by saving the plugin configuration)*.
 
-# Tansition
+# Transition
 
-Command a little particular which must be used in a scenario, it makes it possible to say the transition between the current state and the next command must duration X seconds.
+A little peculiar command that is designed to be used in a scenario. It allows to define the duration in seconds of the transition between the current state and the next command.
 
-For example in the morning you may want to simulate the sunrise in 3 minutes. In your scenario you therefore just have to call the transition command and in parameter set 180, then call the color command towards the desired color.
+For example in the morning you may want to simulate the sunrise in 3 minutes. In your scenario you just have to call the transition command with ``180`` in parameter then call the color command to the desired color.
 
 # Animation
 
 The animations are transition sequences, currently there are :
 
--   sunrise : to simulate a sunrise. It can take as a parameter :
-    -   duration : to define the duration, by default 720s, ex for 5min you have to put : duration=300
--   sunset : to simulate a sunset. It can take as a parameter :
-    -   duration : to define the duration, by default 720s, ex for 5min you have to put : duration=300
+- **sunrise** : allows you to simulate a sunrise. It can take as a parameter :
+    - **duration** : set duration, default 720s. For 5 minutes it will be necessary to indicate ``duration=300``.
+- **sunset** : to simulate a sunset. It can take as a parameter :
+    - **duration** : set duration, default 720s. For 5 minutes it will be necessary to indicate ``duration=300``.
 
 # Remote control button
 
@@ -68,19 +96,19 @@ Here are the sequences for the On button for example :
 
 # FAQ
 
-> **I have the impression that there is a difference in certain color between what I ask and the color of the bulb.**
+> **I have the impression that there is a difference on certain colors between what I ask for and the color of the bulb.**
 >
-> It seems that the color grid of the bulbs has an offset, we are looking for how to correct
+> It looks like the color grid of the bulbs has an offset, we are looking for how to correct.
 
 > **What is the refresh rate ?**
 >
 > The system retrieves information every 2s.
 
-> **My equipment (lamp / switch ....) is not recognized by the plugin, how to do ?**
+> **My equipment (lamp, switch, etc ...) is not recognized by the plugin, how to do ?**
 >
 > It is necessary :
-> - write us the equipment you want to add with photo and possibilities of it - send us the log debug of synchronization with the bridge while contacting us with a support request
+> - describe the equipment you want us to add with photos and its possibilities and send us the debug log of the synchronization with the bridge, all by contacting us with a support request
 
 >**I added the historization of an order but it does not work**
 >
->For performance issues, you must restart the philips hue daemon so that it takes this change into account.
+>For performance issues, you must restart the Philips Hue daemon for it to take this change into account.

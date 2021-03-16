@@ -1,16 +1,27 @@
 # Changelog Philips Hue
 
+# Changelog plugin Philips Hue
+
 >**IMPORTANT**
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 15/03/2021
+
+- Ajout du Hue White Bulb A67 E27 1600lm
+- Optimisations et corrections de bugs
+- Modernisation de l'interface
+- Optimisation des images
+- Ajout du nouveau hue Dimmer Switch
+- Ajout du smart plug (on/off seulement pas de retour d'état pour le moement)
+
 # 11/12/2020
 
-- Correction d'un soucis de surcharge du CPU lors de la désactivation d'un capteur (à noter qu'il faut relancer le demon suite à la mise à jour pour avoir la correction)
+- Correction d'un défaut de surcharge CPU lors de la désactivation d'un capteur (il faut relancer le démon suite à la mise à jour pour appliquer la correction)
 
 # 25/06/2020
 
-- Support multipont (2 pour le moment)
+- Prise en charge de plusieurs ponts (2 pour le moment)
 
 # 11/05/2020
 
@@ -18,7 +29,7 @@
 
 # 02/01/2020
 
-- Ajout d'image pour les ampoules générique
+- Ajout d'image pour les ampoules génériques
 
 # 10/10/2019
 
@@ -31,18 +42,18 @@
 
 # 01/08/2019
 
-- Support Feller EDIZIOdue colore
+- Prise en charge du Feller EDIZIOdue colore
 - Amélioration des logs de synchronisation
 
 # 24/04/2019
 
 - Ajout d'un bouton pour supprimer une commande
-- Correction des configuration pour les ampoules ikea (attention il faut les supprimer de jeedom et refaire une synchronisation)
+- Correction des configurations pour les ampoules Ikea (attention il faut les supprimer de jeedom et refaire une synchronisation)
 
 # 20/04/2019
 
-- Support du SML002
-- Support du retour d'état des prise OSRAM SMART (attention necessite une réinclusion)
+- Prise en charge du SML002
+- Prise en charge du retour d'état des prise OSRAM SMART (attention nécessite une nouvelle inclusion)
 
 # 17/01/2019
 
@@ -51,23 +62,23 @@
 
 # 16/01/2019
 
-- Ajout de configuration de lumière génerique couleur et non couleurs
-- Support de Niko 4 boutons
+- Ajout de configuration de lumières génériques couleurs et non couleurs
+- Prise en charge de Niko 4 boutons
 - Correction de bug
 
 # 15/01/2019
 
-- Mise à jour de la doc
-- Correction d'un bug sur l'état des bouton lors du redemarrage du pont
+- Mise à jour de la documentation
+- Correction d'un bug sur l'état des bouton lors du redémarrage du pont
 - Ajout Hue lightstrip outdoor
 
 # 16/10/2018
 
-- Correction d'un bug sur l'invertion de presence pour le motion sensor (pour ceux déjà créé il faudra cocher la cache d'inversion sur la ligne de la commande Présence)
+- Correction d'un bug sur l'inversion de présence pour le motion sensor (pour ceux déjà créés, il faudra cocher la case d'inversion sur la ligne de la commande Présence)
 
 # 12/10/2018
 
-- Correction d'un bug sur le statut des pieces (allumé/éteinte) si il n'y a pas de lampe de couleur dans celle-ci
+- Correction d'un bug sur le statut des pièces (allumée/éteinte) si il n'y a pas de lampe de couleur dans celle-ci
 - Ajout RB 145
 - Ajout LPT003
 
@@ -85,9 +96,9 @@
 
 # 14/04/2018
 
--   Correction d'un bug sur l'heure des valeurs des capteurs
--   FLOALT panel WS 30x90
--   TRADFRI bulb E14 WS opal 400lm
+- Correction de l'heure des valeurs des capteurs
+- FLOALT panel WS 30x90
+- TRADFRI bulb E14 WS opal 400lm
 -	TRADFRI E27 WS opal 980lm
 -	TRADFRI E27 couleur 600lm
 
@@ -99,27 +110,27 @@
 
 # 21/01/2018
 
-- 	Passage sur le nouveau système de doc
--   Ajout du modèle MWB001
--   Ajout du modèle ltw010
--   Ajout du modèle OSRAM
--   Ajout du modèle TRADFRI bulb GU10 W 400lm
+- Passage sur le nouveau système de documentation
+- Ajout du modèle MWB001
+- Ajout du modèle ltw010
+- Ajout du modèle OSRAM
+- Ajout du modèle TRADFRI bulb GU10 W 400lm
 
 # 20/11/2017
 
--   Ajout du modèle LCT015
+- Ajout du modèle LCT015
 
 # 28/03/2017
 
--   Ajout d’animation (levé et couché de soleil), attention toute les
-    lampes ne sont pas forcement compatible
+- Ajout d’animations lever et coucher de soleil (attention toutes les
+    lampes ne sont pas forcément compatibles)
 
 # 21/01/2017
 
--   Support du hue motion
--   Support du hue tap
--   Correction des scènes
--   Correction du décalage des couleurs
--   Ajout des images des modules
--   Support de plus de modules
--   Ajout de la gestion de la température des couleurs
+- Prise en charge du hue motion
+- Prise en charge du hue tap
+- Correction des scènes
+- Correction du décalage des couleurs
+- Ajout des images des modules
+- Prise en charge de plus de modules
+- Ajout de la gestion de la température des couleurs

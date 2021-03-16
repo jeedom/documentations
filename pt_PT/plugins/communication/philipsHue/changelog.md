@@ -1,12 +1,27 @@
 # Alterações Philips Hue
 
+# Plugin de registro de mudanças Philips Hue
+
 >**IMPORTANTE**
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 15/03/2021
+
+- Adição da lâmpada Hue White A67 E27 1600lm
+- Otimizações e correções de bugs
+- Modernização da interface
+- Otimização de imagem
+- Adicionado um novo switch Dimmer matiz
+- Adição do plugue inteligente (ligado / desligado apenas sem feedback de status no momento)
+
+# 11/12/2020
+
+- Correção de uma falha de sobrecarga da CPU ao desativar um sensor (o daemon deve ser reiniciado após a atualização para aplicar a correção)
+
 # 25/06/2020
 
-- Suporte multi-ponte (2 no momento)
+- Suporte para várias pontes (2 no momento)
 
 # 05/11/2020
 
@@ -14,7 +29,7 @@
 
 # 01/02/2020
 
-- Adição de imagem para lâmpadas genéricas
+- Adicionada imagem para lâmpadas genéricas
 
 # 10/10/2019
 
@@ -27,18 +42,18 @@
 
 # 01/08/2019
 
-- Suporte Feller EDIZIOdue colore
+- Suporte para Feller EDIZIOdue colore
 - Logs de sincronização aprimorados
 
 # 24/04/2019
 
 - Adicione um botão para excluir um pedido
-- Correção da configuração das lâmpadas ikea (atenção, você deve removê-las do jeedom e refazer uma sincronização)
+- Correção das configurações das lâmpadas Ikea (cuidado, elas devem ser retiradas do jeedom e refazer uma sincronização)
 
 # 20/04/2019
 
-- Suporte SML002
-- Suporte para feedback de status do soquete OSRAM SMART (atenção requer reinclusão)
+- Suporte para SML002
+- Suporte para feedback de status de soquetes OSRAM SMART (atenção requer uma nova inclusão)
 
 # 17/01/2019
 
@@ -47,23 +62,23 @@
 
 # 16/01/2019
 
-- Adição de configuração de luz genérica colorida e não colorida
-- Niko suporta 4 botões
+- Adicionada configuração de cores genéricas e luzes não coloridas
+- Suporte para botões Niko 4
 - Bug fix
 
 # 15/01/2019
 
-- Atualizando o documento
+- Atualização de documentação
 - Correção de um bug no estado dos botões ao reiniciar a ponte
 - Adicionando a excursão Hue ao ar livre
 
 # 16/10/2018
 
-- Correção de um erro na inversão de presença do sensor de movimento (para aqueles já criados, será necessário marcar o cache de inversão na linha do comando Presence)
+- Correção de bug na inversão de presença para o sensor de movimento (para os já criados será necessário marcar a caixa de inversão na linha do comando Presença)
 
 # 12/12/2018
 
-- Correção de um bug no status das peças (liga / desliga) se não houver lâmpada colorida
+- Corrigido um bug no status das peças (ligado / desligado) se não houver lâmpada colorida nele
 - Adição RB 145
 - Adição LPT003
 
@@ -81,9 +96,9 @@
 
 # 14/04/2018
 
--   Correção de um erro na hora dos valores do sensor
--   Painel FLOALT WS 30x90
--   Lâmpada TRADFRI E14 WS opala 400lm
+- Correção do tempo dos valores do sensor
+- Painel FLOALT WS 30x90
+- Lâmpada TRADFRI E14 WS opala 400lm
 -	TRADFRI E27 WS opala 980lm
 -	TRADFRI E27 cor 600lm
 
@@ -95,27 +110,27 @@
 
 # 21/01/2018
 
-- 	Mudar para o novo sistema de documentos
--   Adição do modelo MWB001
--   Adicionando o modelo ltw010
--   Adição do modelo OSRAM
--   Adição do modelo da lâmpada TRADFRI GU10 W 400lm
+- Mudar para o novo sistema de documentação
+- Adição do modelo MWB001
+- Adicionando o modelo ltw010
+- Adição do modelo OSRAM
+- Adição do modelo da lâmpada TRADFRI GU10 W 400lm
 
 # 20/11/2017
 
--   Adição do modelo LCT015
+- Adição do modelo LCT015
 
 # 28/03/2017
 
--   Além da animação (nascer e pôr do sol), tenha cuidado com todos
-    lâmpadas não são necessariamente compatíveis
+- Adição de animações de nascer e pôr do sol (tenha cuidado com todos
+    lâmpadas não são necessariamente compatíveis)
 
 # 21/01/2017
 
--   Suporte de movimento de tonalidade
--   Suporte de toque de matiz
--   Correção de cenas
--   Correção de mudança de cor
--   Adicionando imagens de módulo
--   Suporte para mais módulos
--   Adição de gerenciamento de temperatura de cor
+- Suporte de movimento de matiz
+- Suporte para torneira matiz
+- Correção de cenas
+- Correção de mudança de cor
+- Adicionando imagens de módulo
+- Suporte para mais módulos
+- Adição de gerenciamento de temperatura de cor
