@@ -10,27 +10,27 @@ Los campos marcados con * son campos obligatorios.
 
 Campos                   | Valores                                                                                                                   |
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-Identificación *                     | Identificador único del complemento en el mercado de Jeedom. Debe comenzar con una carta. Sin acentos.                             |
-nombre *                   | Nombre del complemento.                                                                                                            |
-Descripción *            | Descripción del complemento, ya que se mostrará en Jeedom Market Mínimo 80 caracteres. (``<br/>`` para la nueva línea.). Tenga en cuenta que esta es una tabla para los diferentes idiomas de jeedom posibles (vea el ejemplo del complemento de plantilla)                                  |                                                                                     |
-uso                    | Información adicional a la documentación sobre el uso del complemento.                                                    |
-Licencia *                | Tipo de licencia.                                                                                                          |
-autor *                 | Nombre del autor del complemento, tal como se mostrará una vez que el complemento esté instalado, en la información del complemento.         |
-exigir *                | Versión mínima de Jeedom.                                                                                                |
-categoría *               | Categoría de clasificación del complemento en el mercado Jeedom. **Es esencial respetar la nomenclatura de la tabla a continuación** |
-visualización                  | si el complemento utiliza un panel dedicado en el escritorio, es el nombre del archivo principal de este panel.                    |
-Móvil                   | Si el complemento utiliza un panel dedicado en la aplicación web Jeedom, este es el nombre del archivo principal para este panel.   |
-Cambios *              | Enlace HTML al registro de cambios.                                                                                              |
-Documentación *          | Enlace HTML a la documentación del complemento.                                                                                |
-enlace -> video               | Enlace HTML a una presentación de video.                                                                                 |
-enlace -> foro               | Enlace HTML al foro sobre el tema oficial del complemento.                                                                  |
-idiomas                | Lista de idiomas disponibles para el complemento: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP`` , ``ru_RU``, ``pt_PT``            |
-compatibilidad            | Compatibilidad de complementos: miniplus, inteligente, ventana acoplable, rpi, bricolaje, mobileapp, v4.                                                   |
-hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
-hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
-maxDependancyInstallTime | Tiempo máximo permitido para la instalación de dependencias, expresado en minutos.                                            |
-specialAttributes | Permite que los complementos soliciten parámetros adicionales en objetos o usuarios (mire el ejemplo de la plantilla de complemento)                                            |
-problema                    | URL al rastreador de errores si es externo (si no está lleno, recibirá un correo electrónico)
+``id`` *                     | Identificador único del complemento en el mercado de Jeedom. Debe comenzar con una carta. Sin acentos.                             |
+``name`` *                   | Nombre del complemento.                                                                                                            |
+``description`` *            | Descripción del complemento, ya que se mostrará en Jeedom Market Mínimo 80 caracteres. (``<br/>`` para la nueva línea.). Tenga en cuenta que esta es una tabla para los diferentes idiomas de jeedom posibles (vea el ejemplo del complemento de plantilla)                                  |                                                                                     |
+``utilization``                    | Información adicional a la documentación sobre el uso del complemento.                                                    |
+``licence`` *                | Tipo de licencia.                                                                                                          |
+``author`` *                 | Nombre del autor del complemento, tal como se mostrará una vez que el complemento esté instalado, en la información del complemento.         |
+``require`` *                | Versión mínima de Jeedom.                                                                                                |
+``category`` *               | Categoría de clasificación del complemento en el mercado Jeedom. **Es esencial respetar la nomenclatura de la tabla a continuación** |
+``display``                  | si el complemento utiliza un panel dedicado en el escritorio, es el nombre del archivo principal de este panel.                    |
+``mobile``                   | Si el complemento utiliza un panel dedicado en la aplicación web Jeedom, este es el nombre del archivo principal para este panel.   |
+``changelog`` *              | Enlace HTML al registro de cambios.                                                                                              |
+``documentation`` *          | Enlace HTML a la documentación del complemento.                                                                                |
+``link`` -> ``video``               | Enlace HTML a una presentación de video.                                                                                 |
+``link`` -> ``forum``               | Enlace HTML al foro sobre el tema oficial del complemento.                                                                  |
+``languages``                | Lista de idiomas disponibles para el complemento: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP`` , ``ru_RU``, ``pt_PT``            |
+``compatibility``            | Compatibilidad de complementos: miniplus, inteligente, ventana acoplable, rpi, bricolaje, mobileapp, v4.                                                   |
+``hasDependency``            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
+``hasOwnDeamon``             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
+``maxDependancyInstallTime`` | Tiempo máximo permitido para la instalación de dependencias, expresado en minutos.                                            |
+``specialAttributes`` | Permite que los complementos soliciten parámetros adicionales en objetos o usuarios (mire el ejemplo de la plantilla de complemento)                                            |
+``issue``                    | URL al rastreador de errores si es externo (si no está lleno, recibirá un correo electrónico)
 
 **Ejemplo** :
 
