@@ -5,50 +5,50 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/Bitron_Home.90201023.png" width="60" />|Video de Bitron|SMABIT - Mando a distancia de 4 botones||||
-|<img src="../../es_ES/zigbee/images/Bitron_Home.90201028.png" width="60" />|Video de Bitron|SMABIT - Enchufe inteligente ON / OFF 16A||||
-|<img src="../../es_ES/zigbee/images/Bitron_Video.90201021B.png" width="60" />|Video de Bitron|SMABIT - Detector de apertura + Entrada de sensor cableado||||
-|<img src="../../es_ES/zigbee/images/Bitron_Video.90201026.png" width="60" />|Video de Bitron|SMABIT - Enchufe inteligente con atenuador de 2.5A||||
-|<img src="../../es_ES/zigbee/images/Bitron_Video.AV201016.png" width="60" />|Video de Bitron|SMABIT - Relé de pared con dimmer 2.5A||||
-|<img src="../../es_ES/zigbee/images/Bitron_Video.AV201018.png" width="60" />|Video de Bitron|SMABIT - Interruptor relé de pared 10A||||
-|<img src="../../es_ES/zigbee/images/Bitron_Video.AV201034.png" width="60" />|Video de Bitron|SMABIT - Interruptor de pared con pilas||||
-|<img src="../../es_ES/zigbee/images/SMaBiT.AV201022B.png" width="60" />|Video de Bitron|SMABIT - Detector de movimiento para exteriores||||
+|<img src="../../es_ES/zigbee/images/Bitron_Home.90201023.png" width="60" />|Video de Bitron|SMABIT - Mando a distancia de 4 botones|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5551-smabit-telecommande-zigbee-4-boutons-8023874395814.html)|
+|<img src="../../es_ES/zigbee/images/Bitron_Home.90201028.png" width="60" />|Video de Bitron|SMABIT - Enchufe inteligente ON / OFF 16A|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5563-smabit-prise-intelligente-zigbee-onoff-16a-8023874395852.html)|
+|<img src="../../es_ES/zigbee/images/Bitron_Video.90201021B.png" width="60" />|Video de Bitron|SMABIT - Detector de apertura + Entrada de sensor cableado|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5546-smabit-detecteur-d-ouverture-zigbee-entree-capteurs-filaires-8023874396651.html)|
+|<img src="../../es_ES/zigbee/images/Bitron_Video.90201026.png" width="60" />|Video de Bitron|SMABIT - Enchufe inteligente con atenuador de 2.5A|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5561-smabit-prise-intelligente-zigbee-variateur-25a-8023874395845.html)|
+|<img src="../../es_ES/zigbee/images/Bitron_Video.AV201016.png" width="60" />|Video de Bitron|SMABIT - Relé de pared con dimmer 2.5A|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5543-smabit-relais-mural-variateur-25a-zigbee-8023874397122.html)|
+|<img src="../../es_ES/zigbee/images/Bitron_Video.AV201018.png" width="60" />|Video de Bitron|SMABIT - Interruptor relé de pared 10A|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5544-smabit-relais-mural-commutateur-10a-zigbee-8023874397139.html)|
+|<img src="../../es_ES/zigbee/images/Bitron_Video.AV201034.png" width="60" />|Video de Bitron|SMABIT - Interruptor de pared con pilas|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5568-smabit-interrupteur-mural-zigbee-avec-piles-8021156061037.html)|
+|<img src="../../es_ES/zigbee/images/SMaBiT.AV201022B.png" width="60" />|Video de Bitron|SMABIT - Detector de movimiento para exteriores|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5550-smabit-detecteur-de-mouvement-exterieur-zigbee-8023874397665.html)|
 
 # Eurotronic
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/Eurotronic.SPZB0001.png" width="60" />|Eurotronic|Válvula de espíritu||Válvula que tiende a no aceptar más órdenes (cambio de setpoint) a menos que se retiren las baterías y se vuelvan a colocar. Por otro lado, siempre retroalimenta la información de temperatura y el cambio manual del punto de ajuste||
+|<img src="../../es_ES/zigbee/images/Eurotronic.SPZB0001.png" width="60" />|Eurotronic|Cabezal termosático||Válvula que tiende a no aceptar más órdenes (cambio de setpoint) a menos que se retiren las baterías y se vuelvan a colocar. Por otro lado, esto siempre retroalimenta la información de temperatura y el cambio manual del punto de ajuste|[Comprar](https://www.domadoo.fr/fr/peripheriques/5188-eurotronic-tete-thermostatique-zigbee-4260012711233.html)|
 
 # Frient
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/Develco.ZHEMI101.png" width="60" />|Frient|Interfaz de medidor eléctrico||||
+|<img src="../../es_ES/zigbee/images/Develco.ZHEMI101.png" width="60" />|Frient|Medidor de consumo de electricidad óptico|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5424-frient-compteur-optique-de-consommation-d-electricite-zigbee-ha-5713594002583.html)|
 |<img src="../../es_ES/zigbee/images/Develco_Products_AS.AQSZB-110.png" width="60" />|Frient|Sensor de calidad del aire|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5408-frient-capteur-de-qualite-d-air-zigbee-ha-5713594002392.html)|
 |<img src="../../es_ES/zigbee/images/Develco_Products_AS.DIOZB-110.png" width="60" />|Frient|Módulo IO||||
-|<img src="../../es_ES/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Develco|Keypad||||
+|<img src="../../es_ES/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Develco|Teclado inteligente||||
 |<img src="../../es_ES/zigbee/images/Develco_Products_AS.PBTZB-110.png" width="60" />|Develco|Botón de pánico||Parece haber un problema con el firmware, solo la desactivación de la alerta (presione el botón durante 5 segundos después de activar el modo de pánico) se envía a las redes zigbee||
-|<img src="../../es_ES/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Develco|Siren||||
-|<img src="../../es_ES/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Frient|Wallplug||||
+|<img src="../../es_ES/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Develco|Sirena inteligente||||
+|<img src="../../es_ES/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Frient|Enchufe inteligente|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5412-frient-prise-intelligente-mini-avec-mesure-de-consommation-zigbee-ha-version-fr-5713594002514.html)|
 |<img src="../../es_ES/zigbee/images/frient_AS.AQSZB-110.png" width="60" />|Frient|Sensor de calidad del aire|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5408-frient-capteur-de-qualite-d-air-zigbee-ha-5713594002392.html)|
-|<img src="../../es_ES/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient|Detector de fugas de agua|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5427-frient-detecteur-d-inondation-zigbee-30-5713594002453.html)|
+|<img src="../../es_ES/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient|Detector de inundaciones inteligente|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5427-frient-detecteur-d-inondation-zigbee-30-5713594002453.html)|
 |<img src="../../es_ES/zigbee/images/frient_AS.HESZB-120.png" width="60" />|Frient|Detector de calor|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5411-frient-detecteur-de-chaleur-intelligent-zigbee-30-din-en-14604-et-din-14676-5713594002446.html)|
 |<img src="../../es_ES/zigbee/images/frient_AS.HMSZB-110.png" width="60" />|Frient|Sensor de temperatura y humedad|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5407-frient-capteur-de-temperature-et-humidite-intelligent-zigbee-30-5713594002385.html)|
-|<img src="../../es_ES/zigbee/images/frient_AS.MOSZB-140.png" width="60" />|Frient|Detector de movimiento|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5404-frient-detecteur-de-mouvement-zigbee-30-capteur-de-temperature-et-luminosite-5713594002361.html)|
+|<img src="../../es_ES/zigbee/images/frient_AS.MOSZB-140.png" width="60" />|Frient|Detector de movimiento y sensor de temperatura y luz|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5404-frient-detecteur-de-mouvement-zigbee-30-capteur-de-temperature-et-luminosite-5713594002361.html)|
 |<img src="../../es_ES/zigbee/images/frient_AS.MOSZB-141.png" width="60" />|Frient|Detector de movimiento|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5403-frient-detecteur-de-mouvement-zigbee-30-5713594002835.html)|
-|<img src="../../es_ES/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Frient|Cable inteligente|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5421-frient-interrupteur-sur-cordon-zigbee-30-5713594002408.html)|
-|<img src="../../es_ES/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Frient|Detector de humo|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5409-frient-detecteur-de-fumee-intelligent-zigbee-30-5713594002330.html)|
-|<img src="../../es_ES/zigbee/images/frient_AS.SPLZB-131.png" width="60" />|Frient|Enchufe de pared Schuko|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5420-frient-prise-intelligente-mini-avec-mesure-de-consommation-zigbee-ha-version-schuko-5713594002347.html)|
-|<img src="../../es_ES/zigbee/images/frient_AS.SPLZB-132.png" width="60" />|Frient|Wallplug|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5412-frient-prise-intelligente-mini-avec-mesure-de-consommation-zigbee-ha-version-fr-5713594002514.html)|
-|<img src="../../es_ES/zigbee/images/frient_AS.WISZB-120.png" width="60" />|Frient|Sensor de apertura y temperatura|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5402-frient-detecteur-d-ouverture-de-porte-ou-fenetre-zigbee-30-capteur-de-temperature-5713594002354.html)|
-|<img src="../../es_ES/zigbee/images/frient_AS.WISZB-121.png" width="60" />|Frient|Detector de movimiento|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5401-frient-detecteur-d-ouverture-de-porte-ou-fenetre-zigbee-30-5713594002545.html)|
+|<img src="../../es_ES/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Frient|Interruptor de cable inteligente|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5421-frient-interrupteur-sur-cordon-zigbee-30-5713594002408.html)|
+|<img src="../../es_ES/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Frient|Detector de humo inteligente DIN EN 14604 Y DIN 14676|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5409-frient-detecteur-de-fumee-intelligent-zigbee-30-5713594002330.html)|
+|<img src="../../es_ES/zigbee/images/frient_AS.SPLZB-131.png" width="60" />|Frient|Enchufe inteligente de formato Schuko|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5420-frient-prise-intelligente-mini-avec-mesure-de-consommation-zigbee-ha-version-schuko-5713594002347.html)|
+|<img src="../../es_ES/zigbee/images/frient_AS.SPLZB-132.png" width="60" />|Frient|Toma inteligente de formato FR|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5412-frient-prise-intelligente-mini-avec-mesure-de-consommation-zigbee-ha-version-fr-5713594002514.html)|
+|<img src="../../es_ES/zigbee/images/frient_AS.WISZB-120.png" width="60" />|Frient|Detector de apertura de puertas o ventanas y sensor de temperatura|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5402-frient-detecteur-d-ouverture-de-porte-ou-fenetre-zigbee-30-capteur-de-temperature-5713594002354.html)|
+|<img src="../../es_ES/zigbee/images/frient_AS.WISZB-121.png" width="60" />|Frient|Detector de movimiento inteligente|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5401-frient-detecteur-d-ouverture-de-porte-ou-fenetre-zigbee-30-5713594002545.html)|
 
 # GR-SMARTHOME
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/TYZB01_rifa0wlb.TS0011.png" width="60" />|GR-SMARTHOME|GR-SMARTHOME VÁLVULA DE 1/4 DE VUELTA|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5264-gr-smarthome-motorisation-zigbee-30-pour-vanne-14-de-tour.html)|
+|<img src="../../es_ES/zigbee/images/TYZB01_rifa0wlb.TS0011.png" width="60" />|GR-SMARTHOME|Motorización para válvula de 1/4 de vuelta|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5264-gr-smarthome-motorisation-zigbee-30-pour-vanne-14-de-tour.html)|
 
 # Groupes
 
@@ -70,6 +70,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Salida de cable conectada||Solo se puede emparejar en el canal 11||
+|<img src="../../es_ES/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Toma conectada Legrand||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Contactor conectado DRIVIA||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Interruptor doble Legrand||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Micro módulo Legrand||Solo se puede emparejar en el canal 11 o 15||
@@ -115,7 +116,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/Danalock.V3-BTZBE.png" width="60" />|Danalock|Danalock V3|||[Comprar](https://www.domadoo.fr/fr/controle-acces/4540-danalock-serrure-connectee-bluetooth-et-zigbee-danalock-v3-5712560000493.html)|
+|<img src="../../es_ES/zigbee/images/Danalock.V3-BTZBE.png" width="60" />|Danalock|Cerradura inteligente V3|||[Comprar](https://www.domadoo.fr/fr/controle-acces/4540-danalock-serrure-connectee-bluetooth-et-zigbee-danalock-v3-5712560000493.html)|
 
 # Danfoss
 
@@ -372,15 +373,15 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/3A_Smart_Home_DE.LXN59-1S7LX1.0.png" width="60" />|Tuya|Toma Tuya + 2 USB||||
-|<img src="../../es_ES/zigbee/images/TUYATEC-gqhxixyk.RH3052.png" width="60" />|Tuya|Temperatura / humedad||||
-|<img src="../../es_ES/zigbee/images/TUYATEC-ydcwf5m2.RH3001.png" width="60" />|Tuya|Sensor de apertura||||
-|<img src="../../es_ES/zigbee/images/TUYATEC-zn9wyqtr.RH3040.png" width="60" />|Tuya|Detector de movimiento||||
-|<img src="../../es_ES/zigbee/images/TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|BlitzWolf BW-SS7 ZigBee3.0 2300W 1 entrada||||
-|<img src="../../es_ES/zigbee/images/TYZB01_b1ngbmlm.TS0112.png" width="60" />|Tuya|USEELINK - MULTIPACK CONECTADO 4 SALIDAS + 2 PUERTOS USB||||
-|<img src="../../es_ES/zigbee/images/TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Moes cambia la luz||||
-|<img src="../../es_ES/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Interruptor único||||
-|<img src="../../es_ES/zigbee/images/TYZB01_vkwryfdr.TS0115.png" width="60" />|Tuya|USEELINK - MULTIPACK CONECTADO 4 SALIDAS + 2 PUERTOS USB|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html)|
+|<img src="../../es_ES/zigbee/images/3A_Smart_Home_DE.LXN59-1S7LX1.0.png" width="60" />|Tuya|Enchufe inteligente + 2 puertos USB||||
+|<img src="../../es_ES/zigbee/images/TUYATEC-gqhxixyk.RH3052.png" width="60" />|Tuya|Sensor de temperatura y humedad||||
+|<img src="../../es_ES/zigbee/images/TUYATEC-ydcwf5m2.RH3001.png" width="60" />|Tuya|Sensor inteligente de apertura de puertas o ventanas||||
+|<img src="../../es_ES/zigbee/images/TUYATEC-zn9wyqtr.RH3040.png" width="60" />|Tuya|Detector de movimiento inteligente||||
+|<img src="../../es_ES/zigbee/images/TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|Interruptor ON / OFF 2300W 1 canal||||
+|<img src="../../es_ES/zigbee/images/TYZB01_b1ngbmlm.TS0112.png" width="60" />|Tuya|Enchufe inteligente de ENCENDIDO / APAGADO y 2 puertos USB||||
+|<img src="../../es_ES/zigbee/images/TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Interruptor inteligente de ENCENDIDO / APAGADO||||
+|<img src="../../es_ES/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Interruptor inteligente de carga única||||
+|<img src="../../es_ES/zigbee/images/TYZB01_vkwryfdr.TS0115.png" width="60" />|Tuya|USEELINK - Regleta conectada 4 enchufes y 2 puertos USB|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html)|
 |<img src="../../es_ES/zigbee/images/TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Interruptor doble||||
 |<img src="../../es_ES/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Temperatura / humedad||||
 |<img src="../../es_ES/zigbee/images/TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|Columpio ASLED||||
@@ -449,4 +450,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-03-16 01:32:13
+2021-03-17 01:32:06
