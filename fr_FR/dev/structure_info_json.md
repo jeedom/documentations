@@ -10,27 +10,27 @@ Les champs marqués d’un * sont des champs obligatoires.
 
 Champs                   | Valeurs                                                                                                                   |
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-id *                     | Identifiant unique du plugin sur le Market Jeedom. Doit debuter par une lettre. Sans accents.                             |
-name *                   | Nom du plugin.                                                                                                            |
-description *            | Description du plugin, tel qu'il s’affichera sur le Market Jeedom Minimum 80 caractères. (``<br/>`` pour le retour à la ligne.). Attention c'est un tableau pour les differentes langue de jeedom possible (bien regarde l'exemple du plugin template)                                  |                                                                                     |
-usage                    | Informations complémentaires à la documentation sur l’usage du plugin.                                                    |
-licence *                | Type de licence.                                                                                                          |
-author *                 | Nom de l’auteur du plugin, tel qu’il sera affiché une fois le plugin installé, dans les informations de celui-ci.         |
-require *                | Version minimum de Jeedom.                                                                                                |
-category *               | Catégorie de classement du plugin sur le Market jeedom. **Respecter impérativement la nomenclature du tableau ci-dessous** |
-display                  | si le plugin utilise un panel dédié sur le desktop, il s’agit du nom du fichier principal de ce panel.                    |
-mobile                   | Si le plugin utilise un panel dédié sur la webApp Jeedom, il s’agit du nom du fichier principal de ce panel.   |
-changelog *              | Lien Html vers le Changelog.                                                                                              |
-documentation *          | Lien Html vers la documentation du plugin.                                                                                |
-link -> video               | Lien Html vers une vidéo de présentation.                                                                                 |
-link -> forum               | Lien Html vers le forum sur le sujet officiel du plugin.                                                                  |
-languages                | Liste des langues disponibles pour le plugin : ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP`` , ``ru_RU``, ``pt_PT``            |
-compatibility            | Compatibilité du plugin : miniplus, smart, docker, rpi, diy, mobileapp, v4.                                                   |
-hasDependency            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
-hasOwnDeamon             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
-maxDependancyInstallTime | Temps maximum imparti pour l’installation des dépendances, exprimé en minutes.                                            |
-specialAttributes | Permet aux plugin de demander des parametre suplémentaire sur des objets ou des utilisateurs (bien regarder l'exemple du plugin template)                                            |
-issue                    | URL vers le bugtracker si externe (si non remplis alors vous receverez un mail)
+``id`` *                     | Identifiant unique du plugin sur le Market Jeedom. Doit debuter par une lettre. Sans accents.                             |
+``name`` *                   | Nom du plugin.                                                                                                            |
+``description`` *            | Description du plugin, tel qu'il s’affichera sur le Market Jeedom Minimum 80 caractères. (``<br/>`` pour le retour à la ligne.). Attention c'est un tableau pour les differentes langue de jeedom possible (bien regarde l'exemple du plugin template)                                  |                                                                                     |
+``utilization``                    | Informations complémentaires à la documentation sur l’usage du plugin.                                                    |
+``licence`` *                | Type de licence.                                                                                                          |
+``author`` *                 | Nom de l’auteur du plugin, tel qu’il sera affiché une fois le plugin installé, dans les informations de celui-ci.         |
+``require`` *                | Version minimum de Jeedom.                                                                                                |
+``category`` *               | Catégorie de classement du plugin sur le Market jeedom. **Respecter impérativement la nomenclature du tableau ci-dessous** |
+``display``                  | si le plugin utilise un panel dédié sur le desktop, il s’agit du nom du fichier principal de ce panel.                    |
+``mobile``                   | Si le plugin utilise un panel dédié sur la webApp Jeedom, il s’agit du nom du fichier principal de ce panel.   |
+``changelog`` *              | Lien Html vers le Changelog.                                                                                              |
+``documentation`` *          | Lien Html vers la documentation du plugin.                                                                                |
+``link`` -> ``video``               | Lien Html vers une vidéo de présentation.                                                                                 |
+``link`` -> ``forum``               | Lien Html vers le forum sur le sujet officiel du plugin.                                                                  |
+``languages``                | Liste des langues disponibles pour le plugin : ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP`` , ``ru_RU``, ``pt_PT``            |
+``compatibility``            | Compatibilité du plugin : miniplus, smart, docker, rpi, diy, mobileapp, v4.                                                   |
+``hasDependency``            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
+``hasOwnDeamon``             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
+``maxDependancyInstallTime`` | Temps maximum imparti pour l’installation des dépendances, exprimé en minutes.                                            |
+``specialAttributes`` | Permet aux plugin de demander des parametre suplémentaire sur des objets ou des utilisateurs (bien regarder l'exemple du plugin template)                                            |
+``issue``                    | URL vers le bugtracker si externe (si non remplis alors vous receverez un mail)
 
 **Exemple** :
 
