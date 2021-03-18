@@ -219,19 +219,19 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/TYZB01_bngwdjsr.TS1001.png" width="60" />|Lidl|Fernbedienung||||
-|<img src="../../de_DE/zigbee/images/TZ1800_fcdjzz3s.TY0202.png" width="60" />|Lidl|Bewegungssensor||||
-|<img src="../../de_DE/zigbee/images/TZ3000_49qchf10.TS0502A.png" width="60" />|Lidl|LIDL E27 LED LIVARNOLUX||||
-|<img src="../../de_DE/zigbee/images/TZ3000_5bsf8vaj.TS0505A.png" width="60" />|Lidl|Applique||||
-|<img src="../../de_DE/zigbee/images/TZ3000_dbou1ap4.TS0505A.png" width="60" />|Lidl|Lidl E27 RGB||||
-|<img src="../../de_DE/zigbee/images/TZ3000_el5kt5im.TS0502A.png" width="60" />|Lidl|LIDL GU10 LED LIVARNOLUX||||
-|<img src="../../de_DE/zigbee/images/TZ3000_gek6snaj.TS0505A.png" width="60" />|Lidl|Led reglette||||
-|<img src="../../de_DE/zigbee/images/TZ3000_kdpxju99.TS0505A.png" width="60" />|Lidl|Lidl GU10 RGB Livarnolux||||
-|<img src="../../de_DE/zigbee/images/TZ3000_oborybow.TS0502A.png" width="60" />|Lidl|LIDL E14 LED LIVARNOLUX||||
-|<img src="../../de_DE/zigbee/images/TZ3000_odygigth.TS0505A.png" width="60" />|Lidl|Lidl E14 RGB||||
-|<img src="../../de_DE/zigbee/images/TZ3000_riwp3k79.TS0505A.png" width="60" />|Lidl|Lidl LED-Streifen||||
-|<img src="../../de_DE/zigbee/images/TZ3000_vzopcetz.TS011F.png" width="60" />|Lidl|Steckdosenleiste angeschlossen||||
-|<img src="../../de_DE/zigbee/images/TZ3000_wamqdr3f.TS011F.png" width="60" />|Lidl|Anschlussbuchse LIDL Silvercrrest SAPZ 1 A1||||
+|<img src="../../de_DE/zigbee/images/TYZB01_bngwdjsr.TS1001.png" width="60" />|Lidl|Intelligente Dimmerfernbedienung||||
+|<img src="../../de_DE/zigbee/images/TZ1800_fcdjzz3s.TY0202.png" width="60" />|Lidl|Intelligenter Bewegungsmelder||||
+|<img src="../../de_DE/zigbee/images/TZ3000_49qchf10.TS0502A.png" width="60" />|Lidl|E27 Smart Glühbirne||||
+|<img src="../../de_DE/zigbee/images/TZ3000_5bsf8vaj.TS0505A.png" width="60" />|Lidl|Angeschlossene LED-Außenwandleuchte||||
+|<img src="../../de_DE/zigbee/images/TZ3000_dbou1ap4.TS0505A.png" width="60" />|Lidl|Angeschlossene Glühlampe E27 RGB||||
+|<img src="../../de_DE/zigbee/images/TZ3000_el5kt5im.TS0502A.png" width="60" />|Lidl|GU10 angeschlossene LED-Lampe||||
+|<img src="../../de_DE/zigbee/images/TZ3000_gek6snaj.TS0505A.png" width="60" />|Lidl|Angeschlossener LED-Streifen||||
+|<img src="../../de_DE/zigbee/images/TZ3000_kdpxju99.TS0505A.png" width="60" />|Lidl|GU10 RGB Smart Glühbirne||||
+|<img src="../../de_DE/zigbee/images/TZ3000_oborybow.TS0502A.png" width="60" />|Lidl|Angeschlossene LED-Lampe E14||||
+|<img src="../../de_DE/zigbee/images/TZ3000_odygigth.TS0505A.png" width="60" />|Lidl|Angeschlossene Glühlampe E14 RGB||||
+|<img src="../../de_DE/zigbee/images/TZ3000_riwp3k79.TS0505A.png" width="60" />|Lidl|Smart LED-Streifen||||
+|<img src="../../de_DE/zigbee/images/TZ3000_vzopcetz.TS011F.png" width="60" />|Lidl|Angeschlossene Steckdosenleiste 4 Buchsen und 2 USB-Anschlüsse||||
+|<img src="../../de_DE/zigbee/images/TZ3000_wamqdr3f.TS011F.png" width="60" />|Lidl|EIN / AUS-Steckdose||||
 
 # Nodon
 
@@ -310,6 +310,7 @@
 |<img src="../../de_DE/zigbee/images/Philips.LWA001.png" width="60" />|Philips|Farbton Weiß Ambiente E27||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Farbton Weiß B22||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.LWE002.png" width="60" />|Philips|Farbton weiße Kerze E14||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
+|<img src="../../de_DE/zigbee/images/Philips.LWU001.png" width="60" />|Philips|Farbton E14 P45||||
 |<img src="../../de_DE/zigbee/images/Philips.LWV001.png" width="60" />|Philips|Farbton Weiß Glühbirne ST64 E27||||
 |<img src="../../de_DE/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../de_DE/zigbee/images/Philips.RWL021.png" width="60" />|Philips|4-Tasten-Fernbedienung||||
@@ -381,27 +382,30 @@
 |<img src="../../de_DE/zigbee/images/TYZB01_b1ngbmlm.TS0112.png" width="60" />|Tuya|Smart ON / OFF-Stecker und 2 USB-Anschlüsse||||
 |<img src="../../de_DE/zigbee/images/TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Intelligenter EIN / AUS-Schalter||||
 |<img src="../../de_DE/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Smart Charge mit einer Ladung||||
+|<img src="../../de_DE/zigbee/images/TYZB01_v8gtiaed.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3 leichtes Mikromodul.0 doppelter Dimmer||||
 |<img src="../../de_DE/zigbee/images/TYZB01_vkwryfdr.TS0115.png" width="60" />|Tuya|USEELINK - Verbundener Streifen 4 Buchsen und 2 USB-Anschlüsse|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html)|
 |<img src="../../de_DE/zigbee/images/TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Doppelschalter||||
-|<img src="../../de_DE/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Temperatur Feuchtigkeit||||
-|<img src="../../de_DE/zigbee/images/TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|ASLED Swing||||
-|<img src="../../de_DE/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Tuya|Angeschlossener Rohrschalter für angeschlossenen Vorhang||||
-|<img src="../../de_DE/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Tuya TS0042 - 2||||
-|<img src="../../de_DE/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Tuya|LoraTap 3-Tasten-Fernbedienung||||
-|<img src="../../de_DE/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 ZigBee 3.0 16A Stecker EU Stecker||||
-|<img src="../../de_DE/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|TUYA ZigBee Mini Led Strip Controller||||
-|<img src="../../de_DE/zigbee/images/TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Steckdosenleiste angeschlossen||||
-|<img src="../../de_DE/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 angeschlossenes Life-Plug-Modul||||
-|<img src="../../de_DE/zigbee/images/TZ3000_pmvbt5hh.TS0011.png" width="60" />|Tuya|Tuya Schalter ohne Neutralleiter||||
-|<img src="../../de_DE/zigbee/images/TZ3000_pmz6mjyu.TS011F.png" width="60" />|Tuya|Doppelrelais-Mikromodul||||
-|<img src="../../de_DE/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|TUYA ZigBee RGBW RGBWW LED-Streifen SMD 5050||||
-|<img src="../../de_DE/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 Tastenschalter||||
-|<img src="../../de_DE/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3.0 leichtes Mikromodul||||
-|<img src="../../de_DE/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|3-Tasten-Szenenschalter||||
-|<img src="../../de_DE/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Tuya TS0042||||
-|<img src="../../de_DE/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Moes Kühlerantrieb||||
-|<img src="../../de_DE/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Sirene||||
-|<img src="../../de_DE/zigbee/images/TZE200_dzuqwsyg.TS0601.png" width="60" />|Tuya|Thermostat||||
+|<img src="../../de_DE/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Temperatur- und Feuchtigkeitssensor mit Display||||
+|<img src="../../de_DE/zigbee/images/TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|LED-Controller||||
+|<img src="../../de_DE/zigbee/images/TZ3000_4js9lo5d.TS0012.png" width="60" />|Tuya|Doppelmikromodul ohne Neutralleiter||||
+|<img src="../../de_DE/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Tuya|Angeschlossener Schalter für angeschlossenen Vorhang||||
+|<img src="../../de_DE/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Intelligenter Doppelschalter||||
+|<img src="../../de_DE/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Tuya|LORATAP - 3-Tasten-Fernbedienung||||
+|<img src="../../de_DE/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BLITZWOLF - EU 16A Smart Plug||||
+|<img src="../../de_DE/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|Mini-RGB-LED-Strip-Controller||||
+|<img src="../../de_DE/zigbee/images/TZ3000_m0vaazab.TS0207.png" width="60" />|Tuya|Reichweitenverstärker||||
+|<img src="../../de_DE/zigbee/images/TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Angeschlossene Steckdosenleiste 4 Buchsen und 2 USB-Anschlüsse||||
+|<img src="../../de_DE/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Dual ON / OFF angeschlossenes Modul||||
+|<img src="../../de_DE/zigbee/images/TZ3000_pmvbt5hh.TS0011.png" width="60" />|Tuya|Einfaches EIN / AUS-Modul ohne Neutralleiter||||
+|<img src="../../de_DE/zigbee/images/TZ3000_pmz6mjyu.TS011F.png" width="60" />|Tuya|MOES - Dual ON / OFF angeschlossenes Modul||||
+|<img src="../../de_DE/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|RGBW LED Strip Controller||||
+|<img src="../../de_DE/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4-Tasten-Smart-Schalter mit Batterien||||
+|<img src="../../de_DE/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MOES - Einzelne EIN / AUS-Module||||
+|<img src="../../de_DE/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Schalter mit 3 Tasten||||
+|<img src="../../de_DE/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Verbundene Schalter 2 Tasten||||
+|<img src="../../de_DE/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|MOES - Intelligenter Thermostatkopf||||
+|<img src="../../de_DE/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Intelligente Sirene mit Temperatur- und Feuchtigkeitssensor||||
+|<img src="../../de_DE/zigbee/images/TZE200_dzuqwsyg.TS0601.png" width="60" />|Tuya|MOES - Intelligenter Thermostat||||
 
 # Xiaomi
 
@@ -450,4 +454,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-03-17 01:32:06
+2021-03-18 01:32:06

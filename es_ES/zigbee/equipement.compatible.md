@@ -219,19 +219,19 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/TYZB01_bngwdjsr.TS1001.png" width="60" />|Lidl|Control remoto||||
-|<img src="../../es_ES/zigbee/images/TZ1800_fcdjzz3s.TY0202.png" width="60" />|Lidl|Sensor de movimiento||||
-|<img src="../../es_ES/zigbee/images/TZ3000_49qchf10.TS0502A.png" width="60" />|Lidl|LIDL E27 LED LIVARNOLUX||||
-|<img src="../../es_ES/zigbee/images/TZ3000_5bsf8vaj.TS0505A.png" width="60" />|Lidl|Applique||||
-|<img src="../../es_ES/zigbee/images/TZ3000_dbou1ap4.TS0505A.png" width="60" />|Lidl|Lidl E27 RGB||||
-|<img src="../../es_ES/zigbee/images/TZ3000_el5kt5im.TS0502A.png" width="60" />|Lidl|LIDL GU10 LED LIVARNOLUX||||
-|<img src="../../es_ES/zigbee/images/TZ3000_gek6snaj.TS0505A.png" width="60" />|Lidl|Regleta led||||
-|<img src="../../es_ES/zigbee/images/TZ3000_kdpxju99.TS0505A.png" width="60" />|Lidl|Lidl GU10 RGB Livarnolux||||
-|<img src="../../es_ES/zigbee/images/TZ3000_oborybow.TS0502A.png" width="60" />|Lidl|LIDL E14 LED LIVARNOLUX||||
-|<img src="../../es_ES/zigbee/images/TZ3000_odygigth.TS0505A.png" width="60" />|Lidl|Lidl E14 RGB||||
-|<img src="../../es_ES/zigbee/images/TZ3000_riwp3k79.TS0505A.png" width="60" />|Lidl|Tira de LED Lidl||||
-|<img src="../../es_ES/zigbee/images/TZ3000_vzopcetz.TS011F.png" width="60" />|Lidl|Regleta de enchufes conectada||||
-|<img src="../../es_ES/zigbee/images/TZ3000_wamqdr3f.TS011F.png" width="60" />|Lidl|Toma conectada LIDL Silvercrrest SAPZ 1 A1||||
+|<img src="../../es_ES/zigbee/images/TYZB01_bngwdjsr.TS1001.png" width="60" />|Lidl|Control remoto inteligente con atenuador||||
+|<img src="../../es_ES/zigbee/images/TZ1800_fcdjzz3s.TY0202.png" width="60" />|Lidl|Detector de movimiento inteligente||||
+|<img src="../../es_ES/zigbee/images/TZ3000_49qchf10.TS0502A.png" width="60" />|Lidl|Bombilla inteligente E27||||
+|<img src="../../es_ES/zigbee/images/TZ3000_5bsf8vaj.TS0505A.png" width="60" />|Lidl|Aplique LED de exterior conectado||||
+|<img src="../../es_ES/zigbee/images/TZ3000_dbou1ap4.TS0505A.png" width="60" />|Lidl|Bombilla conectada E27 RGB||||
+|<img src="../../es_ES/zigbee/images/TZ3000_el5kt5im.TS0502A.png" width="60" />|Lidl|Bombilla LED conectada GU10||||
+|<img src="../../es_ES/zigbee/images/TZ3000_gek6snaj.TS0505A.png" width="60" />|Lidl|Tira de LED conectada||||
+|<img src="../../es_ES/zigbee/images/TZ3000_kdpxju99.TS0505A.png" width="60" />|Lidl|Bombilla inteligente GU10 RGB||||
+|<img src="../../es_ES/zigbee/images/TZ3000_oborybow.TS0502A.png" width="60" />|Lidl|Bombilla LED conectada E14||||
+|<img src="../../es_ES/zigbee/images/TZ3000_odygigth.TS0505A.png" width="60" />|Lidl|Bombilla conectada E14 RGB||||
+|<img src="../../es_ES/zigbee/images/TZ3000_riwp3k79.TS0505A.png" width="60" />|Lidl|Tira de LED inteligente||||
+|<img src="../../es_ES/zigbee/images/TZ3000_vzopcetz.TS011F.png" width="60" />|Lidl|Regleta de enchufes conectada 4 enchufes y 2 puertos USB||||
+|<img src="../../es_ES/zigbee/images/TZ3000_wamqdr3f.TS011F.png" width="60" />|Lidl|Toma conectada ON / OFF||||
 
 # Nodon
 
@@ -310,6 +310,7 @@
 |<img src="../../es_ES/zigbee/images/Philips.LWA001.png" width="60" />|Philips|Hue White Ambiance E27||Tenga en cuenta que no hay comentarios de estado para este modelo, solo es posible enviar un pedido||
 |<img src="../../es_ES/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Hue blanco B22||Tenga en cuenta que no hay comentarios de estado para este modelo, solo es posible enviar un pedido||
 |<img src="../../es_ES/zigbee/images/Philips.LWE002.png" width="60" />|Philips|Vela Hue White E14||Tenga en cuenta que no hay comentarios de estado para este modelo, solo es posible enviar un pedido||
+|<img src="../../es_ES/zigbee/images/Philips.LWU001.png" width="60" />|Philips|Tono E14 P45||||
 |<img src="../../es_ES/zigbee/images/Philips.LWV001.png" width="60" />|Philips|Bombilla de filamento blanco Hue ST64 E27||||
 |<img src="../../es_ES/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
 |<img src="../../es_ES/zigbee/images/Philips.RWL021.png" width="60" />|Philips|Mando a distancia de 4 botones||||
@@ -381,27 +382,30 @@
 |<img src="../../es_ES/zigbee/images/TYZB01_b1ngbmlm.TS0112.png" width="60" />|Tuya|Enchufe inteligente de ENCENDIDO / APAGADO y 2 puertos USB||||
 |<img src="../../es_ES/zigbee/images/TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Interruptor inteligente de ENCENDIDO / APAGADO||||
 |<img src="../../es_ES/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Interruptor inteligente de carga única||||
+|<img src="../../es_ES/zigbee/images/TYZB01_v8gtiaed.TS011F.png" width="60" />|Tuya|MicroMódulo de luz Tuya ZigBee 3.0 doble atenuador||||
 |<img src="../../es_ES/zigbee/images/TYZB01_vkwryfdr.TS0115.png" width="60" />|Tuya|USEELINK - Regleta conectada 4 enchufes y 2 puertos USB|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html)|
 |<img src="../../es_ES/zigbee/images/TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Interruptor doble||||
-|<img src="../../es_ES/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Temperatura / humedad||||
-|<img src="../../es_ES/zigbee/images/TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|Columpio ASLED||||
-|<img src="../../es_ES/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Tuya|Interruptor de tubería conectado para cortina conectada||||
-|<img src="../../es_ES/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Tuya TS0042 - 2||||
-|<img src="../../es_ES/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Tuya|Mando a distancia LoraTap de 3 botones||||
-|<img src="../../es_ES/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BlitzWolf BW-SHP13 Zigbee 3.0 enchufe de 16 A enchufe de la UE||||
-|<img src="../../es_ES/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|Controlador de tira LED TUYA Zigbee Mini||||
-|<img src="../../es_ES/zigbee/images/TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Regleta de enchufes conectada||||
-|<img src="../../es_ES/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Módulo de enchufe de vida conectado Tuya ZigBee 3.0||||
-|<img src="../../es_ES/zigbee/images/TZ3000_pmvbt5hh.TS0011.png" width="60" />|Tuya|Tuya Switch sin neutro||||
-|<img src="../../es_ES/zigbee/images/TZ3000_pmz6mjyu.TS011F.png" width="60" />|Tuya|Micromódulo de doble relé||||
-|<img src="../../es_ES/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|TUYA Zigbee RGBW RGBWW Tira de led SMD 5050||||
-|<img src="../../es_ES/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interruptor de 4 botones||||
-|<img src="../../es_ES/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MicroMódulo de luz Tuya ZigBee 3.0||||
-|<img src="../../es_ES/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Interruptor de escena de 3 botones||||
-|<img src="../../es_ES/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Tuya TS0042||||
-|<img src="../../es_ES/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|Actuador de radiador Moes||||
-|<img src="../../es_ES/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Sirene||||
-|<img src="../../es_ES/zigbee/images/TZE200_dzuqwsyg.TS0601.png" width="60" />|Tuya|Thermostat||||
+|<img src="../../es_ES/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Sensor de temperatura y humedad con display||||
+|<img src="../../es_ES/zigbee/images/TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|Controlador LED||||
+|<img src="../../es_ES/zigbee/images/TZ3000_4js9lo5d.TS0012.png" width="60" />|Tuya|Micromódulo doble sin neutro||||
+|<img src="../../es_ES/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Tuya|Interruptor conectado para cortina conectada||||
+|<img src="../../es_ES/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Interruptor doble inteligente||||
+|<img src="../../es_ES/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Tuya|LORATAP - Mando a distancia de 3 botones||||
+|<img src="../../es_ES/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BLITZWOLF - Enchufe inteligente EU 16A||||
+|<img src="../../es_ES/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|Mini controlador de tira de LED RGB||||
+|<img src="../../es_ES/zigbee/images/TZ3000_m0vaazab.TS0207.png" width="60" />|Tuya|Extensor de alcance||||
+|<img src="../../es_ES/zigbee/images/TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Regleta de enchufes conectada 4 enchufes y 2 puertos USB||||
+|<img src="../../es_ES/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Módulo conectado dual ON / OFF||||
+|<img src="../../es_ES/zigbee/images/TZ3000_pmvbt5hh.TS0011.png" width="60" />|Tuya|Módulo conectado simple ON / OFF sin neutro||||
+|<img src="../../es_ES/zigbee/images/TZ3000_pmz6mjyu.TS011F.png" width="60" />|Tuya|MOES - Módulo conectado dual ON / OFF||||
+|<img src="../../es_ES/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|Controlador de tira de LED RGBW||||
+|<img src="../../es_ES/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interruptor inteligente de 4 botones con baterías||||
+|<img src="../../es_ES/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MOES - Módulo único conectado ON / OFF||||
+|<img src="../../es_ES/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Interruptor conectado de 3 botones||||
+|<img src="../../es_ES/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Interruptor conectado 2 botones||||
+|<img src="../../es_ES/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|MOES - Cabezal termostático inteligente||||
+|<img src="../../es_ES/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Sirena inteligente con sensor de temperatura y humedad||||
+|<img src="../../es_ES/zigbee/images/TZE200_dzuqwsyg.TS0601.png" width="60" />|Tuya|MOES - Termostato inteligente||||
 
 # Xiaomi
 
@@ -450,4 +454,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-03-17 01:32:06
+2021-03-18 01:32:06
