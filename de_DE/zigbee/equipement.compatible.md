@@ -48,7 +48,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/TYZB01_rifa0wlb.TS0011.png" width="60" />|GR-SMARTHOME|Motorisierung für 1/4 Umdrehungsventil|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5264-gr-smarthome-motorisation-zigbee-30-pour-vanne-14-de-tour.html)|
+|<img src="../../de_DE/zigbee/images/TYZB01_rifa0wlb.TS0011.png" width="60" />|GR-SMARTHOME|Motorisierung für 1/4 Umdrehungsventil|Vanne||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5264-gr-smarthome-motorisation-zigbee-30-pour-vanne-14-de-tour.html)|
 
 # Groupes
 
@@ -91,12 +91,12 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/adeo.LXEK-1.png" width="60" />|Adeo|Adeo LEXK-1||||
-|<img src="../../de_DE/zigbee/images/adeo.LXEK-2.png" width="60" />|Adeo|Adeo LEXK-2||||
-|<img src="../../de_DE/zigbee/images/adeo.LXEK-3.png" width="60" />|Adeo|Adeo LEXK-3||||
-|<img src="../../de_DE/zigbee/images/adeo.LXEK-4.png" width="60" />|Adeo|Adeo LEXK-4||||
+|<img src="../../de_DE/zigbee/images/adeo.LXEK-1.png" width="60" />|Adeo|Adeo LXEK-1||||
+|<img src="../../de_DE/zigbee/images/adeo.LXEK-2.png" width="60" />|Adeo|Adeo LXEK-2||||
+|<img src="../../de_DE/zigbee/images/adeo.LXEK-3.png" width="60" />|Adeo|Adeo LXEK-3||||
+|<img src="../../de_DE/zigbee/images/adeo.LXEK-4.png" width="60" />|Adeo|Adeo LXEK-4||||
 |<img src="../../de_DE/zigbee/images/adeo.LXEK-5.png" width="60" />|Adeo|LEXMAN Fernbedienung für intelligente Glühbirnen||||
-|<img src="../../de_DE/zigbee/images/adeo.LXEK-7.png" width="60" />|Adeo|Adeo LEXK-7||||
+|<img src="../../de_DE/zigbee/images/adeo.LXEK-7.png" width="60" />|Adeo|Adeo LXEK-7||||
 
 # Alfawise
 
@@ -130,6 +130,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/eWeLink.SA-003-Zigbee.png" width="60" />|EWeLink|OnOff-Controller||||
+|<img src="../../de_DE/zigbee/images/eWeLink.ZB-CL01.png" width="60" />|EWeLink|5W RGBCW 12V MR16||||
 
 # Ecodim
 
@@ -207,6 +208,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/konke.3AFE140103020000.png" width="60" />|Konke|Konke Temperatur und Luftfeuchtigkeit||||
 |<img src="../../de_DE/zigbee/images/konke.3AFE14010402000D.png" width="60" />|Konke|Konke Bewegungssensor||||
 
 # Lellki
@@ -248,14 +250,14 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/HEIMAN.358e4e3e03c644709905034dae81433e.png" width="60" />|Orvibo|Gassensor||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.358e4e3e03c644709905034dae81433e.png" width="60" />|Orvibo|Gassensor|Sensor, Gas||[Dokumentation](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2475)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5337-orvibo-detecteur-de-gaz-zigbee.html)|
 |<img src="../../de_DE/zigbee/images/ORVIBO.6c155b46eb9a4dcbb64fb3dd858aa18e.png" width="60" />|Orvibo|RGB-Controller||||
-|<img src="../../de_DE/zigbee/images/ORVIBO.82c167c95ed746cdbd21d6817f72c593.png" width="60" />|Orvibo|Multifunktionales Relais||Kehren Sie ab dem 15.12.2020 in den nicht funktionsfähigen Status zurück||
-|<img src="../../de_DE/zigbee/images/ORVIBO.e82vcb50ccded44a8a1259b0ba53be5f.png" width="60" />|Orvibo|Sensoranschluss||||
-|<img src="../../de_DE/zigbee/images/fei.34e25a8282064fc1939e5b777d5a805d.png" width="60" />|Orvibo|Notfall Knopf||||
-|<img src="../../de_DE/zigbee/images/fei.5efef8f5c636421fa723642ff62a1175.png" width="60" />|Orvibo|Gassensor||||
-|<img src="../../de_DE/zigbee/images/fei.898ca74409a740b28d5841661e72268d.png" width="60" />|Orvibo|Temperatur Feuchtigkeit||||
-|<img src="../../de_DE/zigbee/images/fei.b7e305eb329f497384e966fe3fb0ac69.png" width="60" />|Orvibo|Wasserleck||||
+|<img src="../../de_DE/zigbee/images/ORVIBO.82c167c95ed746cdbd21d6817f72c593.png" width="60" />|Orvibo|Multifunktionales Relais|Contacteur|Kehren Sie ab dem 15.12.2020 in den nicht funktionsfähigen Status zurück|[Dokumentation](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2461)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5340-orvibo-module-commutateur-contact-sec-zigbee.html)|
+|<img src="../../de_DE/zigbee/images/ORVIBO.e82vcb50ccded44a8a1259b0ba53be5f.png" width="60" />|Orvibo|Sensoranschluss|Capteur|||
+|<img src="../../de_DE/zigbee/images/fei.34e25a8282064fc1939e5b777d5a805d.png" width="60" />|Orvibo|Notfall Knopf|Taste, Fernbedienung||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5335-orvibo-bouton-d-urgence-sos-zigbee.html)|
+|<img src="../../de_DE/zigbee/images/fei.5efef8f5c636421fa723642ff62a1175.png" width="60" />|Orvibo|Gassensor|Sensor, Gas|||
+|<img src="../../de_DE/zigbee/images/fei.898ca74409a740b28d5841661e72268d.png" width="60" />|Orvibo|Temperatur- / Feuchtigkeitssensor|Sensor, Temperatur, Luftfeuchtigkeit||[Dokumentation](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2455)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5334-orvibo-capteur-de-temperature-et-humidite-zigbee.html)|
+|<img src="../../de_DE/zigbee/images/fei.b7e305eb329f497384e966fe3fb0ac69.png" width="60" />|Orvibo|Wasserleck|Sensor, Leck, Überschwemmung||[Dokumentation](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2458)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5338-orvibo-detecteur-d-inondation-zigbee.html)|
 |<img src="../../de_DE/zigbee/images/fei.c3442b4ac59b4ba1a83119d938f283ab.png" width="60" />|Orvibo|Rauchmelder||||
 
 # Osram
@@ -342,13 +344,13 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/SONOFF.01MINIZB.png" width="60" />|Sonoff|Mikromodulschalter angeschlossen|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5375-sonoff-micromodule-commutateur-connecte-zigbee.html)|
-|<img src="../../de_DE/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|Mikromodulschalter 10A|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
-|<img src="../../de_DE/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|Tür- / Fensteröffnungssensor||Achtung, es gibt einen Fehler in der Firmware, der dazu führt, dass sie als Temperatur- und Feuchtigkeitsmodul aufsteigt. Daher ist es nach der Aufnahme erforderlich, das richtige Modell zurückzusetzen und die Temperatur- und Feuchtigkeitsregler zu entfernen|[Kaufen](https://www.domadoo.fr/fr/peripheriques/5320-sonoff-capteur-d-ouverture-de-portefenetre-zigbee.html)|
-|<img src="../../de_DE/zigbee/images/eWeLink.DS01.png" width="60" />|Sonoff|Tür- / Fensteröffnungssensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5320-sonoff-capteur-d-ouverture-de-portefenetre-zigbee.html)|
-|<img src="../../de_DE/zigbee/images/eWeLink.MS01.png" width="60" />|Sonoff|Intelligenter Bewegungsmelder|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.html)|
-|<img src="../../de_DE/zigbee/images/eWeLink.TH01.png" width="60" />|Sonoff|Temperatur- und Feuchtigkeitssensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5260-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30.html)|
-|<img src="../../de_DE/zigbee/images/eWeLink.WB01.png" width="60" />|Sonoff|Drahtlos verbundener Schalter|Schalter, Fernbedienung||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5259-sonoff-interrupteur-sans-fil-zigbee-30.html)|
+|<img src="../../de_DE/zigbee/images/SONOFF.01MINIZB.png" width="60" />|Sonoff|Mikromodulschalter angeschlossen|Schütz, Licht||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5375-sonoff-micromodule-commutateur-connecte-zigbee.html)|
+|<img src="../../de_DE/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|Mikromodulschalter 10A|Contacteur||[Dokumentation](http://dl.itead.cc/basiczbr3/BASICZBR3-user-manual-V-1-1.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
+|<img src="../../de_DE/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|Tür- / Fensteröffnungssensor|Sensor, Blende|Achtung, es gibt einen Fehler in der Firmware, der dazu führt, dass sie als Temperatur- und Feuchtigkeitsmodul aufsteigt. Daher ist es nach der Aufnahme erforderlich, das richtige Modell zurückzusetzen und die Temperatur- und Feuchtigkeitsregler zu entfernen|[Dokumentation](http://dl.itead.cc/SNZB-04/Instructions/SNZB-04_V1.0_User_manual_20201116.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5320-sonoff-capteur-d-ouverture-de-portefenetre-zigbee.html)|
+|<img src="../../de_DE/zigbee/images/eWeLink.DS01.png" width="60" />|Sonoff|Tür- / Fensteröffnungssensor|Sensor, Blende||[Dokumentation](http://dl.itead.cc/SNZB-04/Instructions/SNZB-04_V1.0_User_manual_20201116.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5320-sonoff-capteur-d-ouverture-de-portefenetre-zigbee.html)|
+|<img src="../../de_DE/zigbee/images/eWeLink.MS01.png" width="60" />|Sonoff|Intelligenter Bewegungsmelder|Sensor, Bewegung||[Dokumentation](http://dl.itead.cc/SNZB-03/Instructions/SNZB-03_V1.0_User_manual_20201116.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.html)|
+|<img src="../../de_DE/zigbee/images/eWeLink.TH01.png" width="60" />|Sonoff|Temperatur- und Feuchtigkeitssensor|Sensor, Luftfeuchtigkeit, Temperatur||[Dokumentation](http://dl.itead.cc/SNZB-02/Instructions/SNZB-02_V1.0_User_manual_20201116.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5260-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30.html)|
+|<img src="../../de_DE/zigbee/images/eWeLink.WB01.png" width="60" />|Sonoff|Drahtlos verbundener Schalter|Schalter, Fernbedienung||[Dokumentation](http://dl.itead.cc/SNZB-01/Instructions/SNZB-01_V1.0_User_manual_20201116.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5259-sonoff-interrupteur-sans-fil-zigbee-30.html)|
 
 # Sunricher
 
@@ -399,6 +401,7 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_pmvbt5hh.TS0011.png" width="60" />|Tuya|Einfaches EIN / AUS-Modul ohne Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_pmz6mjyu.TS011F.png" width="60" />|Tuya|MOES - Dual ON / OFF angeschlossenes Modul||||
 |<img src="../../de_DE/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|RGBW LED Strip Controller||||
+|<img src="../../de_DE/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|QS-ZigBee-D02-TRIAC-2C-LN||||
 |<img src="../../de_DE/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4-Tasten-Smart-Schalter mit Batterien||||
 |<img src="../../de_DE/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MOES - Einzelne EIN / AUS-Module||||
 |<img src="../../de_DE/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Schalter mit 3 Tasten||||
@@ -416,7 +419,7 @@
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|AQARA - Einzelschalter ohne Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|AQARA - Doppelschalter ohne Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.light.aqcn02.png" width="60" />|Xiaomi|AQARA - Angeschlossene LED-Lampe|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5257-aqara-ampoule-led-zigbee-aqara-blanc-variable-0192784000144.html)|
-|<img src="../../de_DE/zigbee/images/LUMI.lumi.lock.v1.png" width="60" />|Xiaomi|MIJIA - Verbundenes Schloss||||
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.lock.v1.png" width="60" />|Xiaomi|MIJIA - Verbundenes Schloss|Serrure|||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.plug.png" width="60" />|Xiaomi|Xiaomi genommen||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.plug.maeu01.png" width="60" />|Xiaomi|AQARA - Angeschlossene Steckdose|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5385-aqara-prise-connectee-zigbee-30-smart-plug-6970504210646.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.plug.mmeu01.png" width="60" />|Xiaomi|MI - ON / OFF-Steckdose + Verbrauchsmessung|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5305-xiaomi-prise-connectee-zigbee-mi-smart-plug-6934177706493.html)|
@@ -426,7 +429,7 @@
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|Xiaomi Doppelschalter|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.remote.b686opcn01.png" width="60" />|Xiaomi|Aqara Opple 6 Tasten||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|Helligkeitssensor||||
-|<img src="../../de_DE/zigbee/images/LUMI.lumi.sens.png" width="60" />|Xiaomi|Temperatur- / Feuchtigkeitssensor||||
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.sens.png" width="60" />|Xiaomi|MIJIA - Temperatur- / Feuchtigkeitssensor||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.sensor_86sw1.png" width="60" />|Xiaomi|Xioami einfacher Schalter|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.sensor_86sw2.png" width="60" />|Xiaomi|XIoami Doppelschalter|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.sensor_cube.png" width="60" />|Xiaomi|AQARA - Intelligente Steuerung von Magic Cube|Fernbedienung, Steuerung||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4668-aqara-controleur-intelligent-magic-cube-zigbee-0192784000045.html)|
@@ -447,11 +450,11 @@
 |<img src="../../de_DE/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|Xiaomi genommen||||
 |<img src="../../de_DE/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|Xiaomi Aquara Blendensensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../de_DE/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|Xiaomi Aquara Bewegung|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
-|<img src="../../de_DE/zigbee/images/lumi.sensor_switch.png" width="60" />|Xiaomi|Xiaomi aquara switch||||
+|<img src="../../de_DE/zigbee/images/lumi.sensor_switch.png" width="60" />|Xiaomi|MIJIA - Smart Wireless Switch|Schalter, Fernbedienung|||
 |<img src="../../de_DE/zigbee/images/lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|Xiaomi Aquara Flut|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
 |<img src="../../de_DE/zigbee/images/lumi.vibration.aq1.png" width="60" />|Xiaomi|AQARA - Vibrationssensor|Detektor, Tür, Vibration||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
 
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-03-18 01:32:06
+2021-03-19 01:32:06
