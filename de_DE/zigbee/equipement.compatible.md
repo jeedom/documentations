@@ -7,6 +7,7 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/Bitron_Home.90201023.png" width="60" />|Bitron Video|SMABIT - 4-Tasten-Fernbedienung|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5551-smabit-telecommande-zigbee-4-boutons-8023874395814.html)|
 |<img src="../../de_DE/zigbee/images/Bitron_Home.90201028.png" width="60" />|Bitron Video|SMABIT - Smart Socket EIN / AUS 16A|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5563-smabit-prise-intelligente-zigbee-onoff-16a-8023874395852.html)|
+|<img src="../../de_DE/zigbee/images/Bitron_Home.90201032.png" width="60" />|Bitron Video|Thermostat||||
 |<img src="../../de_DE/zigbee/images/Bitron_Video.90201021B.png" width="60" />|Bitron Video|SMABIT - Öffnungsdetektor + Verdrahteter Sensoreingang|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5546-smabit-detecteur-d-ouverture-zigbee-entree-capteurs-filaires-8023874396651.html)|
 |<img src="../../de_DE/zigbee/images/Bitron_Video.90201026.png" width="60" />|Bitron Video|SMABIT - 2,5-A-Dimmer-Smart-Buchse|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5561-smabit-prise-intelligente-zigbee-variateur-25a-8023874395845.html)|
 |<img src="../../de_DE/zigbee/images/Bitron_Video.AV201016.png" width="60" />|Bitron Video|SMABIT - 2,5-A-Dimmerwandrelais|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5543-smabit-relais-mural-variateur-25a-zigbee-8023874397122.html)|
@@ -72,6 +73,7 @@
 |<img src="../../de_DE/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Kabelanschluss angeschlossen||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Legrand angeschlossene Steckdose||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|DRIVIA angeschlossenes Schütz||Kann nur auf Kanal 11 gekoppelt werden||
+|<img src="../../de_DE/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Legrand Variator||Kann nur auf Kanal 11, 13 oder 15 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand Doppelschalter||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand Mikromodul||Kann nur auf Kanal 11 oder 15 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand Mobilsteckdose Céliane||Kann nur auf Kanal 11 gekoppelt werden||
@@ -79,7 +81,6 @@
 |<img src="../../de_DE/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|Bticino Rollladen mit Positionierung||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand Rollladen||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand steuert 4 drahtlose Szenen||Kann nur auf Kanal 11 gekoppelt werden||
-|<img src="../../de_DE/zigbee/images/Legrand._Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Legrand Variator||Kann nur auf Kanal 11, 13 oder 15 gekoppelt werden||
 
 # SZ
 
@@ -457,4 +458,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-03-19 01:32:06
+2021-03-20 01:32:12

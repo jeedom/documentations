@@ -7,6 +7,7 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/Bitron_Home.90201023.png" width="60" />|Video de Bitron|SMABIT - Mando a distancia de 4 botones|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5551-smabit-telecommande-zigbee-4-boutons-8023874395814.html)|
 |<img src="../../es_ES/zigbee/images/Bitron_Home.90201028.png" width="60" />|Video de Bitron|SMABIT - Enchufe inteligente ON / OFF 16A|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5563-smabit-prise-intelligente-zigbee-onoff-16a-8023874395852.html)|
+|<img src="../../es_ES/zigbee/images/Bitron_Home.90201032.png" width="60" />|Video de Bitron|Thermostat||||
 |<img src="../../es_ES/zigbee/images/Bitron_Video.90201021B.png" width="60" />|Video de Bitron|SMABIT - Detector de apertura + Entrada de sensor cableado|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5546-smabit-detecteur-d-ouverture-zigbee-entree-capteurs-filaires-8023874396651.html)|
 |<img src="../../es_ES/zigbee/images/Bitron_Video.90201026.png" width="60" />|Video de Bitron|SMABIT - Enchufe inteligente con atenuador de 2.5A|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5561-smabit-prise-intelligente-zigbee-variateur-25a-8023874395845.html)|
 |<img src="../../es_ES/zigbee/images/Bitron_Video.AV201016.png" width="60" />|Video de Bitron|SMABIT - Relé de pared con dimmer 2.5A|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5543-smabit-relais-mural-variateur-25a-zigbee-8023874397122.html)|
@@ -72,6 +73,7 @@
 |<img src="../../es_ES/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Salida de cable conectada||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Toma conectada Legrand||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Contactor conectado DRIVIA||Solo se puede emparejar en el canal 11||
+|<img src="../../es_ES/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Variador Legrand||Solo se puede emparejar en el canal 11, 13 o 15||
 |<img src="../../es_ES/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Interruptor doble Legrand||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Micro módulo Legrand||Solo se puede emparejar en el canal 11 o 15||
 |<img src="../../es_ES/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Toma móvil Legrand Céliane||Solo se puede emparejar en el canal 11||
@@ -79,7 +81,6 @@
 |<img src="../../es_ES/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|persiana enrollable bticino con posicionamiento||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Persiana enrollable Legrand||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand controla 4 escenas inalámbricas||Solo se puede emparejar en el canal 11||
-|<img src="../../es_ES/zigbee/images/Legrand._Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Variador Legrand||Solo se puede emparejar en el canal 11, 13 o 15||
 
 # SZ
 
@@ -457,4 +458,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-03-19 01:32:06
+2021-03-20 01:32:12

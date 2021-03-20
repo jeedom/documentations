@@ -7,6 +7,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/Bitron_Home.90201023.png" width="60" />|Bitron Video|SMABIT - 4-button remote control|||[Buy](https://www.domadoo.fr/fr/peripheriques/5551-smabit-telecommande-zigbee-4-boutons-8023874395814.html)|
 |<img src="../../en_US/zigbee/images/Bitron_Home.90201028.png" width="60" />|Bitron Video|SMABIT - Smart socket ON / OFF 16A|||[Buy](https://www.domadoo.fr/fr/peripheriques/5563-smabit-prise-intelligente-zigbee-onoff-16a-8023874395852.html)|
+|<img src="../../en_US/zigbee/images/Bitron_Home.90201032.png" width="60" />|Bitron Video|Thermostat||||
 |<img src="../../en_US/zigbee/images/Bitron_Video.90201021B.png" width="60" />|Bitron Video|SMABIT - Opening detector + Wired sensor input|||[Buy](https://www.domadoo.fr/fr/peripheriques/5546-smabit-detecteur-d-ouverture-zigbee-entree-capteurs-filaires-8023874396651.html)|
 |<img src="../../en_US/zigbee/images/Bitron_Video.90201026.png" width="60" />|Bitron Video|SMABIT - 2.5A dimmer smart socket|||[Buy](https://www.domadoo.fr/fr/peripheriques/5561-smabit-prise-intelligente-zigbee-variateur-25a-8023874395845.html)|
 |<img src="../../en_US/zigbee/images/Bitron_Video.AV201016.png" width="60" />|Bitron Video|SMABIT - 2.5A dimmer wall relay|||[Buy](https://www.domadoo.fr/fr/peripheriques/5543-smabit-relais-mural-variateur-25a-zigbee-8023874397122.html)|
@@ -72,6 +73,7 @@
 |<img src="../../en_US/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Connected cable outlet||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Legrand connected socket||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|DRIVIA connected contactor||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Legrand variator||Can only be paired on channel 11, 13 or 15||
 |<img src="../../en_US/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand double switch||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand micro module||Can only be paired on channel 11 or 15||
 |<img src="../../en_US/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand mobile socket Céliane||Can only be paired on channel 11||
@@ -79,7 +81,6 @@
 |<img src="../../en_US/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|bticino roller shutter with positioning||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand roller shutter||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand controls 4 wireless scenes||Can only be paired on channel 11||
-|<img src="../../en_US/zigbee/images/Legrand._Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Legrand variator||Can only be paired on channel 11, 13 or 15||
 
 # SZ
 
@@ -457,4 +458,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-03-19 01:32:06
+2021-03-20 01:32:12

@@ -7,6 +7,7 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/Bitron_Home.90201023.png" width="60" />|Bitron Video|SMABIT - Télécommande 4 boutons|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5551-smabit-telecommande-zigbee-4-boutons-8023874395814.html)|
 |<img src="../../fr_FR/zigbee/images/Bitron_Home.90201028.png" width="60" />|Bitron Video|SMABIT - Prise intelligente ON/OFF 16A|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5563-smabit-prise-intelligente-zigbee-onoff-16a-8023874395852.html)|
+|<img src="../../fr_FR/zigbee/images/Bitron_Home.90201032.png" width="60" />|Bitron Video|Thermostat||||
 |<img src="../../fr_FR/zigbee/images/Bitron_Video.90201021B.png" width="60" />|Bitron Video|SMABIT - Détecteur d'ouverture + Entrée capteurs filaires|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5546-smabit-detecteur-d-ouverture-zigbee-entree-capteurs-filaires-8023874396651.html)|
 |<img src="../../fr_FR/zigbee/images/Bitron_Video.90201026.png" width="60" />|Bitron Video|SMABIT - Prise intelligente variateur 2,5A|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5561-smabit-prise-intelligente-zigbee-variateur-25a-8023874395845.html)|
 |<img src="../../fr_FR/zigbee/images/Bitron_Video.AV201016.png" width="60" />|Bitron Video|SMABIT - Relais mural variateur 2,5A|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5543-smabit-relais-mural-variateur-25a-zigbee-8023874397122.html)|
@@ -72,6 +73,7 @@
 |<img src="../../fr_FR/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Sortie de câble connectée||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Legrand prise connectée||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Contacteur connecté DRIVIA||Ne peut etre appairé que sur le canal 11||
+|<img src="../../fr_FR/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Legrand variateur||Ne peut etre appairé que sur le canal 11, 13 ou 15||
 |<img src="../../fr_FR/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand interrupteur double||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand micro module||Ne peut etre appairé que sur le canal 11 ou 15||
 |<img src="../../fr_FR/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand prise mobile Céliane||Ne peut etre appairé que sur le canal 11||
@@ -79,7 +81,6 @@
 |<img src="../../fr_FR/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|bticino volet roulant avec positionnement||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand volet roulant||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand commande 4 scènes sans fil||Ne peut etre appairé que sur le canal 11||
-|<img src="../../fr_FR/zigbee/images/Legrand._Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Legrand variateur||Ne peut etre appairé que sur le canal 11, 13 ou 15||
 
 # SZ
 
@@ -457,4 +458,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-03-19 01:32:06
+2021-03-20 01:32:12
