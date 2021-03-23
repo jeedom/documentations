@@ -7,7 +7,7 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/Bitron_Home.90201023.png" width="60" />|Video de Bitron|SMABIT - Mando a distancia de 4 botones|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5551-smabit-telecommande-zigbee-4-boutons-8023874395814.html)|
 |<img src="../../es_ES/zigbee/images/Bitron_Home.90201028.png" width="60" />|Video de Bitron|SMABIT - Enchufe inteligente ON / OFF 16A|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5563-smabit-prise-intelligente-zigbee-onoff-16a-8023874395852.html)|
-|<img src="../../es_ES/zigbee/images/Bitron_Home.90201032.png" width="60" />|Video de Bitron|Thermostat||||
+|<img src="../../es_ES/zigbee/images/Bitron_Home.90201032.png" width="60" />|Video de Bitron|SMABIT - Termostato inteligente con relé integrado||||
 |<img src="../../es_ES/zigbee/images/Bitron_Video.90201021B.png" width="60" />|Video de Bitron|SMABIT - Detector de apertura + Entrada de sensor cableado|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5546-smabit-detecteur-d-ouverture-zigbee-entree-capteurs-filaires-8023874396651.html)|
 |<img src="../../es_ES/zigbee/images/Bitron_Video.90201026.png" width="60" />|Video de Bitron|SMABIT - Enchufe inteligente con atenuador de 2.5A|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5561-smabit-prise-intelligente-zigbee-variateur-25a-8023874395845.html)|
 |<img src="../../es_ES/zigbee/images/Bitron_Video.AV201016.png" width="60" />|Video de Bitron|SMABIT - Relé de pared con dimmer 2.5A|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5543-smabit-relais-mural-variateur-25a-zigbee-8023874397122.html)|
@@ -73,7 +73,7 @@
 |<img src="../../es_ES/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Salida de cable conectada||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Toma conectada Legrand||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Contactor conectado DRIVIA||Solo se puede emparejar en el canal 11||
-|<img src="../../es_ES/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Variador Legrand||Solo se puede emparejar en el canal 11, 13 o 15||
+|<img src="../../es_ES/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Interruptor cableado conectado con opción de atenuador sin neutro||Solo se puede emparejar en el canal 11, 13 o 15||
 |<img src="../../es_ES/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Interruptor doble Legrand||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Micro módulo Legrand||Solo se puede emparejar en el canal 11 o 15||
 |<img src="../../es_ES/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Toma móvil Legrand Céliane||Solo se puede emparejar en el canal 11||
@@ -144,6 +144,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/gledopto.GL-B-007Z.png" width="60" />|Gledopto|GL-B-007Z||||
+|<img src="../../es_ES/zigbee/images/gledopto.GL-C-006P.png" width="60" />|Gledopto|GL-C-006P / S||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-C-008S.png" width="60" />|Gledopto|GL-C-008S||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-G-001ZS.png" width="60" />|Gledopto|GL-G-001ZS||||
 
@@ -209,7 +210,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/konke.3AFE140103020000.png" width="60" />|Konke|Konke temperatura y humedad||||
+|<img src="../../es_ES/zigbee/images/konke.3AFE140103020000.png" width="60" />|Konke|Sonda de temperatura y humedad||||
 |<img src="../../es_ES/zigbee/images/konke.3AFE14010402000D.png" width="60" />|Konke|Sensor de movimiento Konke||||
 
 # Lellki
@@ -383,7 +384,9 @@
 |<img src="../../es_ES/zigbee/images/TUYATEC-zn9wyqtr.RH3040.png" width="60" />|Tuya|Detector de movimiento inteligente||||
 |<img src="../../es_ES/zigbee/images/TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|Interruptor ON / OFF 2300W 1 canal||||
 |<img src="../../es_ES/zigbee/images/TYZB01_b1ngbmlm.TS0112.png" width="60" />|Tuya|Enchufe inteligente de ENCENDIDO / APAGADO y 2 puertos USB||||
+|<img src="../../es_ES/zigbee/images/TYZB01_dazsid15.TS0302.png" width="60" />|Tuya|Interruptor conectado para persiana enrollable||||
 |<img src="../../es_ES/zigbee/images/TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Interruptor inteligente de ENCENDIDO / APAGADO||||
+|<img src="../../es_ES/zigbee/images/TYZB01_mqel1whf.TS0013.png" width="60" />|Tuya|Interruptor triple||||
 |<img src="../../es_ES/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Interruptor inteligente de carga única||||
 |<img src="../../es_ES/zigbee/images/TYZB01_v8gtiaed.TS011F.png" width="60" />|Tuya|MicroMódulo de luz Tuya ZigBee 3.0 doble atenuador||||
 |<img src="../../es_ES/zigbee/images/TYZB01_vkwryfdr.TS0115.png" width="60" />|Tuya|USEELINK - Regleta conectada 4 enchufes y 2 puertos USB|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html)|
@@ -402,7 +405,7 @@
 |<img src="../../es_ES/zigbee/images/TZ3000_pmvbt5hh.TS0011.png" width="60" />|Tuya|Módulo conectado simple ON / OFF sin neutro||||
 |<img src="../../es_ES/zigbee/images/TZ3000_pmz6mjyu.TS011F.png" width="60" />|Tuya|MOES - Módulo conectado dual ON / OFF||||
 |<img src="../../es_ES/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|Controlador de tira de LED RGBW||||
-|<img src="../../es_ES/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|QS-Zigbee-D02-TRIAC-2C-LN||||
+|<img src="../../es_ES/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|Módulo de persiana enrollable inteligente||||
 |<img src="../../es_ES/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interruptor inteligente de 4 botones con baterías||||
 |<img src="../../es_ES/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MOES - Módulo único conectado ON / OFF||||
 |<img src="../../es_ES/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Interruptor conectado de 3 botones||||
@@ -458,4 +461,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-03-22 01:32:05
+2021-03-23 01:32:12

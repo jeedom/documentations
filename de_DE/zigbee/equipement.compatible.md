@@ -7,7 +7,7 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/Bitron_Home.90201023.png" width="60" />|Bitron Video|SMABIT - 4-Tasten-Fernbedienung|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5551-smabit-telecommande-zigbee-4-boutons-8023874395814.html)|
 |<img src="../../de_DE/zigbee/images/Bitron_Home.90201028.png" width="60" />|Bitron Video|SMABIT - Smart Socket EIN / AUS 16A|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5563-smabit-prise-intelligente-zigbee-onoff-16a-8023874395852.html)|
-|<img src="../../de_DE/zigbee/images/Bitron_Home.90201032.png" width="60" />|Bitron Video|Thermostat||||
+|<img src="../../de_DE/zigbee/images/Bitron_Home.90201032.png" width="60" />|Bitron Video|SMABIT - Smart Thermostat mit integriertem Relais||||
 |<img src="../../de_DE/zigbee/images/Bitron_Video.90201021B.png" width="60" />|Bitron Video|SMABIT - Öffnungsdetektor + Verdrahteter Sensoreingang|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5546-smabit-detecteur-d-ouverture-zigbee-entree-capteurs-filaires-8023874396651.html)|
 |<img src="../../de_DE/zigbee/images/Bitron_Video.90201026.png" width="60" />|Bitron Video|SMABIT - 2,5-A-Dimmer-Smart-Buchse|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5561-smabit-prise-intelligente-zigbee-variateur-25a-8023874395845.html)|
 |<img src="../../de_DE/zigbee/images/Bitron_Video.AV201016.png" width="60" />|Bitron Video|SMABIT - 2,5-A-Dimmerwandrelais|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5543-smabit-relais-mural-variateur-25a-zigbee-8023874397122.html)|
@@ -73,7 +73,7 @@
 |<img src="../../de_DE/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Kabelanschluss angeschlossen||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Legrand angeschlossene Steckdose||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|DRIVIA angeschlossenes Schütz||Kann nur auf Kanal 11 gekoppelt werden||
-|<img src="../../de_DE/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Legrand Variator||Kann nur auf Kanal 11, 13 oder 15 gekoppelt werden||
+|<img src="../../de_DE/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Kabelschalter mit Dimmeroption ohne Neutralleiter verbunden||Kann nur auf Kanal 11, 13 oder 15 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand Doppelschalter||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand Mikromodul||Kann nur auf Kanal 11 oder 15 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand Mobilsteckdose Céliane||Kann nur auf Kanal 11 gekoppelt werden||
@@ -144,6 +144,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/gledopto.GL-B-007Z.png" width="60" />|Gledopto|GL-B-007Z||||
+|<img src="../../de_DE/zigbee/images/gledopto.GL-C-006P.png" width="60" />|Gledopto|GL-C-006P / S||||
 |<img src="../../de_DE/zigbee/images/gledopto.GL-C-008S.png" width="60" />|Gledopto|GL-C-008S||||
 |<img src="../../de_DE/zigbee/images/gledopto.GL-G-001ZS.png" width="60" />|Gledopto|GL-G-001ZS||||
 
@@ -209,7 +210,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/konke.3AFE140103020000.png" width="60" />|Konke|Konke Temperatur und Luftfeuchtigkeit||||
+|<img src="../../de_DE/zigbee/images/konke.3AFE140103020000.png" width="60" />|Konke|Temperatur- und Feuchtigkeitssonde||||
 |<img src="../../de_DE/zigbee/images/konke.3AFE14010402000D.png" width="60" />|Konke|Konke Bewegungssensor||||
 
 # Lellki
@@ -383,7 +384,9 @@
 |<img src="../../de_DE/zigbee/images/TUYATEC-zn9wyqtr.RH3040.png" width="60" />|Tuya|Intelligenter Bewegungsmelder||||
 |<img src="../../de_DE/zigbee/images/TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|EIN / AUS-Schalter 2300W 1 Kanal||||
 |<img src="../../de_DE/zigbee/images/TYZB01_b1ngbmlm.TS0112.png" width="60" />|Tuya|Smart ON / OFF-Stecker und 2 USB-Anschlüsse||||
+|<img src="../../de_DE/zigbee/images/TYZB01_dazsid15.TS0302.png" width="60" />|Tuya|Angeschlossener Schalter für Rollladen||||
 |<img src="../../de_DE/zigbee/images/TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Intelligenter EIN / AUS-Schalter||||
+|<img src="../../de_DE/zigbee/images/TYZB01_mqel1whf.TS0013.png" width="60" />|Tuya|Dreifachschalter||||
 |<img src="../../de_DE/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Smart Charge mit einer Ladung||||
 |<img src="../../de_DE/zigbee/images/TYZB01_v8gtiaed.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3 leichtes Mikromodul.0 doppelter Dimmer||||
 |<img src="../../de_DE/zigbee/images/TYZB01_vkwryfdr.TS0115.png" width="60" />|Tuya|USEELINK - Verbundener Streifen 4 Buchsen und 2 USB-Anschlüsse|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html)|
@@ -402,7 +405,7 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_pmvbt5hh.TS0011.png" width="60" />|Tuya|Einfaches EIN / AUS-Modul ohne Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_pmz6mjyu.TS011F.png" width="60" />|Tuya|MOES - Dual ON / OFF angeschlossenes Modul||||
 |<img src="../../de_DE/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|RGBW LED Strip Controller||||
-|<img src="../../de_DE/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|QS-ZigBee-D02-TRIAC-2C-LN||||
+|<img src="../../de_DE/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|Intelligentes Rollladenmodul||||
 |<img src="../../de_DE/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4-Tasten-Smart-Schalter mit Batterien||||
 |<img src="../../de_DE/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MOES - Einzelne EIN / AUS-Module||||
 |<img src="../../de_DE/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Schalter mit 3 Tasten||||
@@ -458,4 +461,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-03-22 01:32:05
+2021-03-23 01:32:12
