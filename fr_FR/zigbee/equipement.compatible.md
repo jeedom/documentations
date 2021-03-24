@@ -7,7 +7,7 @@
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/Bitron_Home.90201023.png" width="60" />|Bitron Video|SMABIT - Télécommande 4 boutons|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5551-smabit-telecommande-zigbee-4-boutons-8023874395814.html)|
 |<img src="../../fr_FR/zigbee/images/Bitron_Home.90201028.png" width="60" />|Bitron Video|SMABIT - Prise intelligente ON/OFF 16A|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5563-smabit-prise-intelligente-zigbee-onoff-16a-8023874395852.html)|
-|<img src="../../fr_FR/zigbee/images/Bitron_Home.90201032.png" width="60" />|Bitron Video|SMABIT - Thermostat intelligent avec relais intégré||||
+|<img src="../../fr_FR/zigbee/images/Bitron_Home.90201032.png" width="60" />|Bitron Video|SMABIT - Thermostat intelligent avec relais intégré|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5565-smabit-thermostat-intelligent-zigbee-avec-relais-8023874395883.html)|
 |<img src="../../fr_FR/zigbee/images/Bitron_Video.90201021B.png" width="60" />|Bitron Video|SMABIT - Détecteur d'ouverture + Entrée capteurs filaires|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5546-smabit-detecteur-d-ouverture-zigbee-entree-capteurs-filaires-8023874396651.html)|
 |<img src="../../fr_FR/zigbee/images/Bitron_Video.90201026.png" width="60" />|Bitron Video|SMABIT - Prise intelligente variateur 2,5A|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5561-smabit-prise-intelligente-zigbee-variateur-25a-8023874395845.html)|
 |<img src="../../fr_FR/zigbee/images/Bitron_Video.AV201016.png" width="60" />|Bitron Video|SMABIT - Relais mural variateur 2,5A|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5543-smabit-relais-mural-variateur-25a-zigbee-8023874397122.html)|
@@ -92,12 +92,12 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zigbee/images/adeo.LXEK-1.png" width="60" />|Adeo|Adeo LXEK-1||||
-|<img src="../../fr_FR/zigbee/images/adeo.LXEK-2.png" width="60" />|Adeo|Adeo LXEK-2||||
-|<img src="../../fr_FR/zigbee/images/adeo.LXEK-3.png" width="60" />|Adeo|Adeo LXEK-3||||
-|<img src="../../fr_FR/zigbee/images/adeo.LXEK-4.png" width="60" />|Adeo|Adeo LXEK-4||||
-|<img src="../../fr_FR/zigbee/images/adeo.LXEK-5.png" width="60" />|Adeo|LEXMAN Télécommande pour ampoules connectées||||
-|<img src="../../fr_FR/zigbee/images/adeo.LXEK-7.png" width="60" />|Adeo|Adeo LXEK-7||||
+|<img src="../../fr_FR/zigbee/images/adeo.LXEK-1.png" width="60" />|Adeo|LEXMAN ENKI - Ampoule intelligente||||
+|<img src="../../fr_FR/zigbee/images/adeo.LXEK-2.png" width="60" />|Adeo|LEXMAN ENKI - Ampoule intelligente||||
+|<img src="../../fr_FR/zigbee/images/adeo.LXEK-3.png" width="60" />|Adeo|LEXMAN ENKI - Ampoule intelligente||||
+|<img src="../../fr_FR/zigbee/images/adeo.LXEK-4.png" width="60" />|Adeo|LEXMAN ENKI - Ampoule intelligente||||
+|<img src="../../fr_FR/zigbee/images/adeo.LXEK-5.png" width="60" />|Adeo|LEXMAN ENKI - Télécommande pour ampoules connectées RGB||||
+|<img src="../../fr_FR/zigbee/images/adeo.LXEK-7.png" width="60" />|Adeo|LEXMAN ENKI - Ampoule intelligente||||
 
 # Alfawise
 
@@ -131,7 +131,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/eWeLink.SA-003-Zigbee.png" width="60" />|EWeLink|OnOff Controller||||
-|<img src="../../fr_FR/zigbee/images/eWeLink.ZB-CL01.png" width="60" />|EWeLink|5W RGBCW 12V MR16||||
+|<img src="../../fr_FR/zigbee/images/eWeLink.ZB-CL01.png" width="60" />|EWeLink|Ampoule LED intelligente RGBCW MR16||||
 
 # Ecodim
 
@@ -144,7 +144,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/gledopto.GL-B-007Z.png" width="60" />|Gledopto|GL-B-007Z||||
-|<img src="../../fr_FR/zigbee/images/gledopto.GL-C-006P.png" width="60" />|Gledopto|GL-C-006P/S||||
+|<img src="../../fr_FR/zigbee/images/gledopto.GL-C-006P.png" width="60" />|Gledopto|Contrôleur intelligent ruban de LED blanc chaud et froid||||
 |<img src="../../fr_FR/zigbee/images/gledopto.GL-C-008S.png" width="60" />|Gledopto|GL-C-008S||||
 |<img src="../../fr_FR/zigbee/images/gledopto.GL-G-001ZS.png" width="60" />|Gledopto|GL-G-001ZS||||
 
@@ -217,7 +217,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zigbee/images/E220-KR4N0Z0-HA.png" width="60" />|Lellki|Multiprise||||
+|<img src="../../fr_FR/zigbee/images/E220-KR4N0Z0-HA.png" width="60" />|Lellki|Multiprise intelligente||||
 
 # Lidl
 
@@ -242,10 +242,10 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/NodOn.SIN-4-1-01.png" width="60" />|Nodon|SIN-4-1-01||||
-|<img src="../../fr_FR/zigbee/images/NodOn.SIN-4-1-20.png" width="60" />|Nodon|SIN-4-1-20||||
+|<img src="../../fr_FR/zigbee/images/NodOn.SIN-4-1-20.png" width="60" />|Nodon|Commutateur ON/OFF simple charge 16A||||
 |<img src="../../fr_FR/zigbee/images/NodOn.SIN-4-2-01.png" width="60" />|Nodon|SIN-4-2-01||||
-||Nodon|SIN-4-2-20||||
-||Nodon|SIN-4-RS-VR||||
+||Nodon|Module commutateur double charge ON/OFF 2x3A||||
+||Nodon|Module volet roulant||||
 |<img src="../../fr_FR/zigbee/images/ptm216z.png" width="60" />|Nodon|PTM 216 Z||||
 
 # Orvibo
@@ -461,4 +461,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-03-23 01:32:12
+2021-03-24 01:32:14
