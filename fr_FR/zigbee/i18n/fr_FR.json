@@ -46,6 +46,10 @@
         "Type": "Type",
         "Remarque": "Remarque",
         "Lien": "Lien",
+        "Woxx": "Woxx",
+        "Contrôleur d'arrosage": "Contrôleur d'arrosage",
+        "Détecteur de mouvement": "Détecteur de mouvement",
+        "Bulb E14 WS opal 600lm": "Bulb E14 WS opal 600lm",
         "Tuya": "Tuya",
         "MOES - Thermostat intelligent": "MOES - Thermostat intelligent",
         "Sirène intelligente avec capteur de température et humidité": "Sirène intelligente avec capteur de température et humidité",
@@ -233,7 +237,7 @@
         "Bulb E27 WS opal 1000lm": "Bulb E27 WS opal 1000lm",
         "Bulb E27 CWS opal 600lm": "Bulb E27 CWS opal 600lm",
         "Bulb E14 W opch 400lm": "Bulb E14 W opch 400lm",
-        "Bulb E14 WS opal 600lm": "Bulb E14 WS opal 600lm",
+        "Ampoule connectée": "Ampoule connectée",
         "Bulb E14 WS 470lm": "Bulb E14 WS 470lm",
         "Ikea TRADFRI SHORTCUT Button": "Ikea TRADFRI SHORTCUT Button",
         "Driver 30W": "Driver 30W",
@@ -314,7 +318,6 @@
         "Prise intelligente format Schuko": "Prise intelligente format Schuko",
         "Détecteur de fumée intelligent DIN EN 14604 ET DIN 14676": "Détecteur de fumée intelligent DIN EN 14604 ET DIN 14676",
         "Interrupteur sur cordon intelligent": "Interrupteur sur cordon intelligent",
-        "Détecteur de mouvement": "Détecteur de mouvement",
         "Détecteur de mouvement et capteur de température et luminosité": "Détecteur de mouvement et capteur de température et luminosité",
         "Capteur de temptérature et humidité": "Capteur de temptérature et humidité",
         "Détecteur de chaleur": "Détecteur de chaleur",
@@ -346,6 +349,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-03-24 01": "2021-03-24 01"
+        "2021-03-25 01": "2021-03-25 01"
     }
 }

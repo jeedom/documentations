@@ -80,6 +80,7 @@
 |<img src="../../de_DE/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Legrand drahtlose Lichtsteuerung||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|Bticino Rollladen mit Positionierung||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand Rollladen||Kann nur auf Kanal 11 gekoppelt werden||
+|<img src="../../de_DE/zigbee/images/Legrand.Shutters_central_remote_switch.png" width="60" />|Legrand|Legrand Rollladen||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand steuert 4 drahtlose Szenen||Kann nur auf Kanal 11 gekoppelt werden||
 
 # SZ
@@ -182,7 +183,7 @@
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_30W.png" width="60" />|Ikea|Treiber 30W||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_SHORTCUT_Button.png" width="60" />|Ikea|Ikea TRADFRI SHORTCUT-Taste|Fernbedienung|||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_470lm.png" width="60" />|Ikea|Glühlampe E14 WS 470lm||||
-|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|Birne E14 WS Opal 600lm||||
+|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|Glühbirne angeschlossen||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_W_opch_400lm.png" width="60" />|Ikea|Glühlampe E14 W opch 400lm||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_CWS_opal_600lm.png" width="60" />|Ikea|Birne E27 CWS Opal 600lm||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_1000lm.png" width="60" />|Ikea|Birne E27 WS Opal 1000lm||||
@@ -414,6 +415,21 @@
 |<img src="../../de_DE/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Intelligente Sirene mit Temperatur- und Feuchtigkeitssensor||||
 |<img src="../../de_DE/zigbee/images/TZE200_dzuqwsyg.TS0601.png" width="60" />|Tuya|MOES - Intelligenter Thermostat||||
 
+# Woxx
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+||Woxx|Bewegungsmelder||||
+||Woxx|Bewegungsmelder||||
+||Woxx|Bewegungsmelder||||
+||Woxx|Birne E14 WS Opal 600lm||||
+||Woxx|Bewegungsmelder||||
+||Woxx|Bewegungsmelder||||
+||Woxx|Bewegungsmelder||||
+||Woxx|Sprinklersteuerung||||
+||Woxx|||||
+||Woxx|||||
+
 # Xiaomi
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -461,4 +477,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-03-24 01:32:14
+2021-03-25 01:32:05

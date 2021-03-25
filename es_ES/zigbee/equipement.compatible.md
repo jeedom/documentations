@@ -80,6 +80,7 @@
 |<img src="../../es_ES/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Control de iluminación inalámbrico Legrand||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|persiana enrollable bticino con posicionamiento||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Persiana enrollable Legrand||Solo se puede emparejar en el canal 11||
+|<img src="../../es_ES/zigbee/images/Legrand.Shutters_central_remote_switch.png" width="60" />|Legrand|Persiana enrollable Legrand||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand controla 4 escenas inalámbricas||Solo se puede emparejar en el canal 11||
 
 # SZ
@@ -182,7 +183,7 @@
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_30W.png" width="60" />|Ikea|Conductor 30W||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_SHORTCUT_Button.png" width="60" />|Ikea|Botón Ikea TRADFRI SHORTCUT|Control remoto|||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_470lm.png" width="60" />|Ikea|Bombilla E14 WS 470lm||||
-|<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|Bombilla E14 WS opal 600lm||||
+|<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|Bombilla conectada||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_W_opch_400lm.png" width="60" />|Ikea|Bombilla E14 W opch 400lm||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_CWS_opal_600lm.png" width="60" />|Ikea|Bombilla E27 CWS opal 600lm||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_1000lm.png" width="60" />|Ikea|Bombilla E27 WS opal 1000lm||||
@@ -414,6 +415,21 @@
 |<img src="../../es_ES/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Sirena inteligente con sensor de temperatura y humedad||||
 |<img src="../../es_ES/zigbee/images/TZE200_dzuqwsyg.TS0601.png" width="60" />|Tuya|MOES - Termostato inteligente||||
 
+# Woxx
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+||Woxx|Detector de movimiento||||
+||Woxx|Detector de movimiento||||
+||Woxx|Detector de movimiento||||
+||Woxx|Bombilla E14 WS opal 600lm||||
+||Woxx|Detector de movimiento||||
+||Woxx|Detector de movimiento||||
+||Woxx|Detector de movimiento||||
+||Woxx|Controlador de aspersores||||
+||Woxx|||||
+||Woxx|||||
+
 # Xiaomi
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -461,4 +477,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-03-24 01:32:14
+2021-03-25 01:32:05

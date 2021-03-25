@@ -80,6 +80,7 @@
 |<img src="../../fr_FR/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Legrand commande éclairage sans fil||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|bticino volet roulant avec positionnement||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand volet roulant||Ne peut etre appairé que sur le canal 11||
+|<img src="../../fr_FR/zigbee/images/Legrand.Shutters_central_remote_switch.png" width="60" />|Legrand|Legrand volet roulant||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand commande 4 scènes sans fil||Ne peut etre appairé que sur le canal 11||
 
 # SZ
@@ -182,7 +183,7 @@
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_30W.png" width="60" />|Ikea|Driver 30W||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_SHORTCUT_Button.png" width="60" />|Ikea|Ikea TRADFRI SHORTCUT Button|Télécommande|||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_470lm.png" width="60" />|Ikea|Bulb E14 WS 470lm||||
-|<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|Bulb E14 WS opal 600lm||||
+|<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|Ampoule connectée||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_W_opch_400lm.png" width="60" />|Ikea|Bulb E14 W opch 400lm||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_CWS_opal_600lm.png" width="60" />|Ikea|Bulb E27 CWS opal 600lm||||
 |<img src="../../fr_FR/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_1000lm.png" width="60" />|Ikea|Bulb E27 WS opal 1000lm||||
@@ -414,6 +415,21 @@
 |<img src="../../fr_FR/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Sirène intelligente avec capteur de température et humidité||||
 |<img src="../../fr_FR/zigbee/images/TZE200_dzuqwsyg.TS0601.png" width="60" />|Tuya|MOES - Thermostat intelligent||||
 
+# Woxx
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+||Woxx|Détecteur de mouvement||||
+||Woxx|Détecteur de mouvement||||
+||Woxx|Détecteur de mouvement||||
+||Woxx|Bulb E14 WS opal 600lm||||
+||Woxx|Détecteur de mouvement||||
+||Woxx|Détecteur de mouvement||||
+||Woxx|Détecteur de mouvement||||
+||Woxx|Contrôleur d'arrosage||||
+||Woxx|||||
+||Woxx|||||
+
 # Xiaomi
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -461,4 +477,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-03-24 01:32:14
+2021-03-25 01:32:05
