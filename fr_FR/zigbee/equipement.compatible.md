@@ -74,13 +74,13 @@
 |<img src="../../fr_FR/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Legrand prise connectée||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Contacteur connecté DRIVIA||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Interrupteur filaire connecté avec option variateur sans neutre||Ne peut etre appairé que sur le canal 11, 13 ou 15||
-|<img src="../../fr_FR/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand interrupteur double||Ne peut etre appairé que sur le canal 11||
+|<img src="../../fr_FR/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand interrupteur double sans fil||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand micro module||Ne peut etre appairé que sur le canal 11 ou 15||
 |<img src="../../fr_FR/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand prise mobile Céliane||Ne peut etre appairé que sur le canal 11||
-|<img src="../../fr_FR/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Legrand commande éclairage sans fil||Ne peut etre appairé que sur le canal 11||
+|<img src="../../fr_FR/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Legrand interrupteur simple sans fil||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|bticino volet roulant avec positionnement||Ne peut etre appairé que sur le canal 11||
-|<img src="../../fr_FR/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand volet roulant||Ne peut etre appairé que sur le canal 11||
-|<img src="../../fr_FR/zigbee/images/Legrand.Shutters_central_remote_switch.png" width="60" />|Legrand|Legrand volet roulant||Ne peut etre appairé que sur le canal 11||
+|<img src="../../fr_FR/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand volet roulant filaire||Ne peut etre appairé que sur le canal 11||
+|<img src="../../fr_FR/zigbee/images/Legrand.Shutters_central_remote_switch.png" width="60" />|Legrand|Legrand volet roulant sans fil||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand commande 4 scènes sans fil||Ne peut etre appairé que sur le canal 11||
 
 # SZ
@@ -246,6 +246,7 @@
 |<img src="../../fr_FR/zigbee/images/NodOn.SIN-4-1-20.png" width="60" />|Nodon|Commutateur ON/OFF simple charge 16A||||
 |<img src="../../fr_FR/zigbee/images/NodOn.SIN-4-2-01.png" width="60" />|Nodon|SIN-4-2-01||||
 ||Nodon|Module commutateur double charge ON/OFF 2x3A||||
+||Nodon|Module volet roulant||||
 ||Nodon|Module volet roulant||||
 |<img src="../../fr_FR/zigbee/images/ptm216z.png" width="60" />|Nodon|PTM 216 Z||||
 
@@ -415,20 +416,20 @@
 |<img src="../../fr_FR/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Sirène intelligente avec capteur de température et humidité||||
 |<img src="../../fr_FR/zigbee/images/TZE200_dzuqwsyg.TS0601.png" width="60" />|Tuya|MOES - Thermostat intelligent||||
 
-# Woxx
+# Woox
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Woxx|Détecteur de mouvement||||
-||Woxx|Détecteur de mouvement||||
-||Woxx|Détecteur de mouvement||||
-||Woxx|Bulb E14 WS opal 600lm||||
-||Woxx|Détecteur de mouvement||||
-||Woxx|Détecteur de mouvement||||
-||Woxx|Détecteur de mouvement||||
-||Woxx|Contrôleur d'arrosage||||
-||Woxx|||||
-||Woxx|||||
+|<img src="../../fr_FR/zigbee/images/TYZB01_2b8f6cio.TS0202.png" width="60" />|Woox|Détecteur de mouvement intelligent||||
+|<img src="../../fr_FR/zigbee/images/TYZB01_ynsiasng.TS0219.png" width="60" />|Woox|Sirène intelligente avec LED||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_cea5xugq.TS0203.png" width="60" />|Woox|Détecteur d'ouverture de porte ou fenêtre intelligent||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_keabpigv.TS0505A.png" width="60" />|Woox|Ampoule LED E27 connectée - RGB + CCT||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_nwpihrkp.TS0207.png" width="60" />|Woox|Détecteur d'inondation intelligent||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_p6ju8myv.TS0215A.png" width="60" />|Woox|Télécommande 4 boutons SOS/Armer/Désarmer/Maison||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_ssp0maqm.TS0215A.png" width="60" />|Woox|Bouton SOS||||
+|<img src="../../fr_FR/zigbee/images/TZ3210_eymunffl.TS0101.png" width="60" />|Woox|Contrôleur d'arrosage extérieur intelligent ON/OFF ||||
+|<img src="../../fr_FR/zigbee/images/TZE200_aycxwiau.TS0601.png" width="60" />|Woox|Détecteur de fumée intelligent||||
+|<img src="../../fr_FR/zigbee/images/TZE200_wnvhlcgl.TS0601.png" width="60" />|Woox|Tete thermostatique intelligente avec écran||||
 
 # Xiaomi
 
@@ -477,4 +478,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-03-25 01:32:05
+2021-03-26 01:32:12

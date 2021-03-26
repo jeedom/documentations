@@ -74,13 +74,13 @@
 |<img src="../../es_ES/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Toma conectada Legrand||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Contactor conectado DRIVIA||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Interruptor cableado conectado con opción de atenuador sin neutro||Solo se puede emparejar en el canal 11, 13 o 15||
-|<img src="../../es_ES/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Interruptor doble Legrand||Solo se puede emparejar en el canal 11||
+|<img src="../../es_ES/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Interruptor inalámbrico doble Legrand||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Micro módulo Legrand||Solo se puede emparejar en el canal 11 o 15||
 |<img src="../../es_ES/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Toma móvil Legrand Céliane||Solo se puede emparejar en el canal 11||
-|<img src="../../es_ES/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Control de iluminación inalámbrico Legrand||Solo se puede emparejar en el canal 11||
+|<img src="../../es_ES/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Interruptor inalámbrico único Legrand||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|persiana enrollable bticino con posicionamiento||Solo se puede emparejar en el canal 11||
-|<img src="../../es_ES/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Persiana enrollable Legrand||Solo se puede emparejar en el canal 11||
-|<img src="../../es_ES/zigbee/images/Legrand.Shutters_central_remote_switch.png" width="60" />|Legrand|Persiana enrollable Legrand||Solo se puede emparejar en el canal 11||
+|<img src="../../es_ES/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Persiana enrollable con cable Legrand||Solo se puede emparejar en el canal 11||
+|<img src="../../es_ES/zigbee/images/Legrand.Shutters_central_remote_switch.png" width="60" />|Legrand|Persiana enrollable inalámbrica Legrand||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand controla 4 escenas inalámbricas||Solo se puede emparejar en el canal 11||
 
 # SZ
@@ -246,6 +246,7 @@
 |<img src="../../es_ES/zigbee/images/NodOn.SIN-4-1-20.png" width="60" />|Nodon|Interruptor de ENCENDIDO / APAGADO de carga única 16A||||
 |<img src="../../es_ES/zigbee/images/NodOn.SIN-4-2-01.png" width="60" />|Nodon|SIN-4-2-01||||
 ||Nodon|Módulo interruptor de doble carga ON / OFF 2x3A||||
+||Nodon|Módulo de persiana enrollable||||
 ||Nodon|Módulo de persiana enrollable||||
 |<img src="../../es_ES/zigbee/images/ptm216z.png" width="60" />|Nodon|PTM 216 Z||||
 
@@ -415,20 +416,20 @@
 |<img src="../../es_ES/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Sirena inteligente con sensor de temperatura y humedad||||
 |<img src="../../es_ES/zigbee/images/TZE200_dzuqwsyg.TS0601.png" width="60" />|Tuya|MOES - Termostato inteligente||||
 
-# Woxx
+# Woox
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Woxx|Detector de movimiento||||
-||Woxx|Detector de movimiento||||
-||Woxx|Detector de movimiento||||
-||Woxx|Bombilla E14 WS opal 600lm||||
-||Woxx|Detector de movimiento||||
-||Woxx|Detector de movimiento||||
-||Woxx|Detector de movimiento||||
-||Woxx|Controlador de aspersores||||
-||Woxx|||||
-||Woxx|||||
+|<img src="../../es_ES/zigbee/images/TYZB01_2b8f6cio.TS0202.png" width="60" />|Woox|Detector de movimiento inteligente||||
+|<img src="../../es_ES/zigbee/images/TYZB01_ynsiasng.TS0219.png" width="60" />|Woox|Sirena inteligente con LED||||
+|<img src="../../es_ES/zigbee/images/TZ3000_cea5xugq.TS0203.png" width="60" />|Woox|Detector inteligente de apertura de puertas o ventanas||||
+|<img src="../../es_ES/zigbee/images/TZ3000_keabpigv.TS0505A.png" width="60" />|Woox|Bombilla LED E27 conectada - RGB + CCT||||
+|<img src="../../es_ES/zigbee/images/TZ3000_nwpihrkp.TS0207.png" width="60" />|Woox|Detector de inundaciones inteligente||||
+|<img src="../../es_ES/zigbee/images/TZ3000_p6ju8myv.TS0215A.png" width="60" />|Woox|SOS de 4 botones / Armar / Desarmar / Control remoto doméstico||||
+|<img src="../../es_ES/zigbee/images/TZ3000_ssp0maqm.TS0215A.png" width="60" />|Woox|Botón SOS||||
+|<img src="../../es_ES/zigbee/images/TZ3210_eymunffl.TS0101.png" width="60" />|Woox|Controlador inteligente de rociadores para exteriores ON / OFF ||||
+|<img src="../../es_ES/zigbee/images/TZE200_aycxwiau.TS0601.png" width="60" />|Woox|Detector de humo inteligente||||
+|<img src="../../es_ES/zigbee/images/TZE200_wnvhlcgl.TS0601.png" width="60" />|Woox|Cabezal termostático inteligente con pantalla||||
 
 # Xiaomi
 
@@ -477,4 +478,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-03-25 01:32:05
+2021-03-26 01:32:12

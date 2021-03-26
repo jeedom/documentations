@@ -74,13 +74,13 @@
 |<img src="../../de_DE/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Legrand angeschlossene Steckdose||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|DRIVIA angeschlossenes Schütz||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Kabelschalter mit Dimmeroption ohne Neutralleiter verbunden||Kann nur auf Kanal 11, 13 oder 15 gekoppelt werden||
-|<img src="../../de_DE/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand Doppelschalter||Kann nur auf Kanal 11 gekoppelt werden||
+|<img src="../../de_DE/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand doppelter Funkschalter||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand Mikromodul||Kann nur auf Kanal 11 oder 15 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand Mobilsteckdose Céliane||Kann nur auf Kanal 11 gekoppelt werden||
-|<img src="../../de_DE/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Legrand drahtlose Lichtsteuerung||Kann nur auf Kanal 11 gekoppelt werden||
+|<img src="../../de_DE/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Legrand einzelner Funkschalter||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|Bticino Rollladen mit Positionierung||Kann nur auf Kanal 11 gekoppelt werden||
-|<img src="../../de_DE/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand Rollladen||Kann nur auf Kanal 11 gekoppelt werden||
-|<img src="../../de_DE/zigbee/images/Legrand.Shutters_central_remote_switch.png" width="60" />|Legrand|Legrand Rollladen||Kann nur auf Kanal 11 gekoppelt werden||
+|<img src="../../de_DE/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand verdrahteter Rollladen||Kann nur auf Kanal 11 gekoppelt werden||
+|<img src="../../de_DE/zigbee/images/Legrand.Shutters_central_remote_switch.png" width="60" />|Legrand|Legrand kabelloser Rollladen||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand steuert 4 drahtlose Szenen||Kann nur auf Kanal 11 gekoppelt werden||
 
 # SZ
@@ -246,6 +246,7 @@
 |<img src="../../de_DE/zigbee/images/NodOn.SIN-4-1-20.png" width="60" />|Nodon|Einzellade-EIN / AUS-Schalter 16A||||
 |<img src="../../de_DE/zigbee/images/NodOn.SIN-4-2-01.png" width="60" />|Nodon|SIN-4-2-01||||
 ||Nodon|Doppellast-EIN / AUS-Schaltermodul 2x3A||||
+||Nodon|Rollladenmodul||||
 ||Nodon|Rollladenmodul||||
 |<img src="../../de_DE/zigbee/images/ptm216z.png" width="60" />|Nodon|PTM 216 Z||||
 
@@ -415,20 +416,20 @@
 |<img src="../../de_DE/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Intelligente Sirene mit Temperatur- und Feuchtigkeitssensor||||
 |<img src="../../de_DE/zigbee/images/TZE200_dzuqwsyg.TS0601.png" width="60" />|Tuya|MOES - Intelligenter Thermostat||||
 
-# Woxx
+# Woox
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Woxx|Bewegungsmelder||||
-||Woxx|Bewegungsmelder||||
-||Woxx|Bewegungsmelder||||
-||Woxx|Birne E14 WS Opal 600lm||||
-||Woxx|Bewegungsmelder||||
-||Woxx|Bewegungsmelder||||
-||Woxx|Bewegungsmelder||||
-||Woxx|Sprinklersteuerung||||
-||Woxx|||||
-||Woxx|||||
+|<img src="../../de_DE/zigbee/images/TYZB01_2b8f6cio.TS0202.png" width="60" />|Woox|Intelligenter Bewegungsmelder||||
+|<img src="../../de_DE/zigbee/images/TYZB01_ynsiasng.TS0219.png" width="60" />|Woox|Intelligente Sirene mit LED||||
+|<img src="../../de_DE/zigbee/images/TZ3000_cea5xugq.TS0203.png" width="60" />|Woox|Intelligenter Tür- oder Fensteröffnungsdetektor||||
+|<img src="../../de_DE/zigbee/images/TZ3000_keabpigv.TS0505A.png" width="60" />|Woox|Angeschlossene E27 LED-Lampe - RGB + CCT||||
+|<img src="../../de_DE/zigbee/images/TZ3000_nwpihrkp.TS0207.png" width="60" />|Woox|Intelligenter Hochwassermelder||||
+|<img src="../../de_DE/zigbee/images/TZ3000_p6ju8myv.TS0215A.png" width="60" />|Woox|4-Tasten-SOS / Arm / Disarm / Home-Fernbedienung||||
+|<img src="../../de_DE/zigbee/images/TZ3000_ssp0maqm.TS0215A.png" width="60" />|Woox|SOS-Taste||||
+|<img src="../../de_DE/zigbee/images/TZ3210_eymunffl.TS0101.png" width="60" />|Woox|EIN / AUS intelligente Sprinklersteuerung für den Außenbereich ||||
+|<img src="../../de_DE/zigbee/images/TZE200_aycxwiau.TS0601.png" width="60" />|Woox|Intelligenter Rauchmelder||||
+|<img src="../../de_DE/zigbee/images/TZE200_wnvhlcgl.TS0601.png" width="60" />|Woox|Intelligenter Thermostatkopf mit Display||||
 
 # Xiaomi
 
@@ -477,4 +478,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-03-25 01:32:05
+2021-03-26 01:32:12

@@ -74,13 +74,13 @@
 |<img src="../../en_US/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Legrand connected socket||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|DRIVIA connected contactor||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Wired switch connected with dimmer option without neutral||Can only be paired on channel 11, 13 or 15||
-|<img src="../../en_US/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand double switch||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand double wireless switch||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand micro module||Can only be paired on channel 11 or 15||
 |<img src="../../en_US/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand mobile socket Céliane||Can only be paired on channel 11||
-|<img src="../../en_US/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Legrand wireless lighting control||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Legrand single wireless switch||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|bticino roller shutter with positioning||Can only be paired on channel 11||
-|<img src="../../en_US/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand roller shutter||Can only be paired on channel 11||
-|<img src="../../en_US/zigbee/images/Legrand.Shutters_central_remote_switch.png" width="60" />|Legrand|Legrand roller shutter||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand wired roller shutter||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.Shutters_central_remote_switch.png" width="60" />|Legrand|Legrand wireless roller shutter||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand controls 4 wireless scenes||Can only be paired on channel 11||
 
 # SZ
@@ -246,6 +246,7 @@
 |<img src="../../en_US/zigbee/images/NodOn.SIN-4-1-20.png" width="60" />|Nodon|Single load ON / OFF switch 16A||||
 |<img src="../../en_US/zigbee/images/NodOn.SIN-4-2-01.png" width="60" />|Nodon|SIN-4-2-01||||
 ||Nodon|Double load ON / OFF switch module 2x3A||||
+||Nodon|Roller shutter module||||
 ||Nodon|Roller shutter module||||
 |<img src="../../en_US/zigbee/images/ptm216z.png" width="60" />|Nodon|PTM 216 Z||||
 
@@ -415,20 +416,20 @@
 |<img src="../../en_US/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Smart siren with temperature and humidity sensor||||
 |<img src="../../en_US/zigbee/images/TZE200_dzuqwsyg.TS0601.png" width="60" />|Tuya|MOES - Smart thermostat||||
 
-# Woxx
+# Woox
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Woxx|Movement detector||||
-||Woxx|Movement detector||||
-||Woxx|Movement detector||||
-||Woxx|Bulb E14 WS opal 600lm||||
-||Woxx|Movement detector||||
-||Woxx|Movement detector||||
-||Woxx|Movement detector||||
-||Woxx|Sprinkler controller||||
-||Woxx|||||
-||Woxx|||||
+|<img src="../../en_US/zigbee/images/TYZB01_2b8f6cio.TS0202.png" width="60" />|Woox|Intelligent motion detector||||
+|<img src="../../en_US/zigbee/images/TYZB01_ynsiasng.TS0219.png" width="60" />|Woox|Smart siren with LED||||
+|<img src="../../en_US/zigbee/images/TZ3000_cea5xugq.TS0203.png" width="60" />|Woox|Intelligent door or window opening detector||||
+|<img src="../../en_US/zigbee/images/TZ3000_keabpigv.TS0505A.png" width="60" />|Woox|Connected E27 LED bulb - RGB + CCT||||
+|<img src="../../en_US/zigbee/images/TZ3000_nwpihrkp.TS0207.png" width="60" />|Woox|Smart flood detector||||
+|<img src="../../en_US/zigbee/images/TZ3000_p6ju8myv.TS0215A.png" width="60" />|Woox|4-button SOS / Arm / Disarm / Home remote control||||
+|<img src="../../en_US/zigbee/images/TZ3000_ssp0maqm.TS0215A.png" width="60" />|Woox|SOS button||||
+|<img src="../../en_US/zigbee/images/TZ3210_eymunffl.TS0101.png" width="60" />|Woox|ON / OFF intelligent outdoor sprinkler controller ||||
+|<img src="../../en_US/zigbee/images/TZE200_aycxwiau.TS0601.png" width="60" />|Woox|Smart smoke detector||||
+|<img src="../../en_US/zigbee/images/TZE200_wnvhlcgl.TS0601.png" width="60" />|Woox|Intelligent thermostatic head with display||||
 
 # Xiaomi
 
@@ -477,4 +478,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-03-25 01:32:05
+2021-03-26 01:32:12
