@@ -245,9 +245,9 @@
 |<img src="../../en_US/zigbee/images/NodOn.SIN-4-1-01.png" width="60" />|Nodon|SIN-4-1-01||||
 |<img src="../../en_US/zigbee/images/NodOn.SIN-4-1-20.png" width="60" />|Nodon|Single load ON / OFF switch 16A||||
 |<img src="../../en_US/zigbee/images/NodOn.SIN-4-2-01.png" width="60" />|Nodon|SIN-4-2-01||||
-||Nodon|Double load ON / OFF switch module 2x3A||||
-||Nodon|Roller shutter module||||
-||Nodon|Roller shutter module||||
+|<img src="../../en_US/zigbee/images/NodOn.SIN-4-2-20.png" width="60" />|Nodon|Double load ON / OFF switch module 2x3A||||
+|<img src="../../en_US/zigbee/images/NodOn.SIN-4-RS-20.png" width="60" />|Nodon|Roller shutter module||||
+|<img src="../../en_US/zigbee/images/NodOn.SIN-4-RS-VR.png" width="60" />|Nodon|Roller shutter module||||
 |<img src="../../en_US/zigbee/images/ptm216z.png" width="60" />|Nodon|PTM 216 Z||||
 
 # Orvibo
@@ -478,4 +478,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-03-27 01:32:12
+2021-03-28 01:32:13

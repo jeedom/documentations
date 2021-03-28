@@ -245,9 +245,9 @@
 |<img src="../../de_DE/zigbee/images/NodOn.SIN-4-1-01.png" width="60" />|Nodon|SIN-4-1-01||||
 |<img src="../../de_DE/zigbee/images/NodOn.SIN-4-1-20.png" width="60" />|Nodon|Einzellade-EIN / AUS-Schalter 16A||||
 |<img src="../../de_DE/zigbee/images/NodOn.SIN-4-2-01.png" width="60" />|Nodon|SIN-4-2-01||||
-||Nodon|Doppellast-EIN / AUS-Schaltermodul 2x3A||||
-||Nodon|Rollladenmodul||||
-||Nodon|Rollladenmodul||||
+|<img src="../../de_DE/zigbee/images/NodOn.SIN-4-2-20.png" width="60" />|Nodon|Doppellast-EIN / AUS-Schaltermodul 2x3A||||
+|<img src="../../de_DE/zigbee/images/NodOn.SIN-4-RS-20.png" width="60" />|Nodon|Rollladenmodul||||
+|<img src="../../de_DE/zigbee/images/NodOn.SIN-4-RS-VR.png" width="60" />|Nodon|Rollladenmodul||||
 |<img src="../../de_DE/zigbee/images/ptm216z.png" width="60" />|Nodon|PTM 216 Z||||
 
 # Orvibo
@@ -478,4 +478,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-03-27 01:32:12
+2021-03-28 01:32:13

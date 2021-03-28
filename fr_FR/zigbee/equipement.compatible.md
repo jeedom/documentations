@@ -245,9 +245,9 @@
 |<img src="../../fr_FR/zigbee/images/NodOn.SIN-4-1-01.png" width="60" />|Nodon|SIN-4-1-01||||
 |<img src="../../fr_FR/zigbee/images/NodOn.SIN-4-1-20.png" width="60" />|Nodon|Commutateur ON/OFF simple charge 16A||||
 |<img src="../../fr_FR/zigbee/images/NodOn.SIN-4-2-01.png" width="60" />|Nodon|SIN-4-2-01||||
-||Nodon|Module commutateur double charge ON/OFF 2x3A||||
-||Nodon|Module volet roulant||||
-||Nodon|Module volet roulant||||
+|<img src="../../fr_FR/zigbee/images/NodOn.SIN-4-2-20.png" width="60" />|Nodon|Module commutateur double charge ON/OFF 2x3A||||
+|<img src="../../fr_FR/zigbee/images/NodOn.SIN-4-RS-20.png" width="60" />|Nodon|Module volet roulant||||
+|<img src="../../fr_FR/zigbee/images/NodOn.SIN-4-RS-VR.png" width="60" />|Nodon|Module volet roulant||||
 |<img src="../../fr_FR/zigbee/images/ptm216z.png" width="60" />|Nodon|PTM 216 Z||||
 
 # Orvibo
@@ -478,4 +478,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-03-27 01:32:12
+2021-03-28 01:32:13

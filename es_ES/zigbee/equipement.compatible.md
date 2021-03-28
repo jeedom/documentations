@@ -245,9 +245,9 @@
 |<img src="../../es_ES/zigbee/images/NodOn.SIN-4-1-01.png" width="60" />|Nodon|SIN-4-1-01||||
 |<img src="../../es_ES/zigbee/images/NodOn.SIN-4-1-20.png" width="60" />|Nodon|Interruptor de ENCENDIDO / APAGADO de carga única 16A||||
 |<img src="../../es_ES/zigbee/images/NodOn.SIN-4-2-01.png" width="60" />|Nodon|SIN-4-2-01||||
-||Nodon|Módulo interruptor de doble carga ON / OFF 2x3A||||
-||Nodon|Módulo de persiana enrollable||||
-||Nodon|Módulo de persiana enrollable||||
+|<img src="../../es_ES/zigbee/images/NodOn.SIN-4-2-20.png" width="60" />|Nodon|Módulo interruptor de doble carga ON / OFF 2x3A||||
+|<img src="../../es_ES/zigbee/images/NodOn.SIN-4-RS-20.png" width="60" />|Nodon|Módulo de persiana enrollable||||
+|<img src="../../es_ES/zigbee/images/NodOn.SIN-4-RS-VR.png" width="60" />|Nodon|Módulo de persiana enrollable||||
 |<img src="../../es_ES/zigbee/images/ptm216z.png" width="60" />|Nodon|PTM 216 Z||||
 
 # Orvibo
@@ -478,4 +478,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-03-27 01:32:12
+2021-03-28 01:32:13
