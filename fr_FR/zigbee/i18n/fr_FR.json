@@ -291,6 +291,8 @@
         "Adeo": "Adeo",
         "LEXMAN ENKI - Ampoule intelligente": "LEXMAN ENKI - Ampoule intelligente",
         "LEXMAN ENKI - Télécommande pour ampoules connectées RGB": "LEXMAN ENKI - Télécommande pour ampoules connectées RGB",
+        "Ysrai": "Ysrai",
+        "YSRSAI - ZB-CL01": "YSRSAI - ZB-CL01",
         "SZ": "SZ",
         "Zigbee On\/Off contrôleur": "Zigbee On\/Off contrôleur",
         "Legrand": "Legrand",
@@ -356,6 +358,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-03-29 02": "2021-03-29 02"
+        "2021-03-30 02": "2021-03-30 02"
     }
 }

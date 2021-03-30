@@ -89,6 +89,12 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/SZ.Lamp_01.png" width="60" />|SZ|ZigBee On / Off-Controller||||
 
+# Ysrai
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/YSRSAI.ZB-CL01.png" width="60" />|Ysrai|YSRSAI - ZB-CL01||||
+
 # Adeo
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -478,4 +484,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-03-29 02:32:12
+2021-03-30 02:32:12
