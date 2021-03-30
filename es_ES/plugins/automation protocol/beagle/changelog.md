@@ -6,9 +6,13 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-# 
+# 11/03/2021
 
-- 
+- Actualización del script de dependencia tras el cambio de criptografía
+
+# 04/01/2021
+
+- Bugfix envoie de commande si hci différent de 0
 
 # 27/11/2020
 
