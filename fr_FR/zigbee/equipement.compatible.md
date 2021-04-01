@@ -71,17 +71,17 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Sortie de câble connectée||Ne peut etre appairé que sur le canal 11||
-|<img src="../../fr_FR/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Legrand prise connectée||Ne peut etre appairé que sur le canal 11||
+|<img src="../../fr_FR/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Prise connectée||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Contacteur connecté DRIVIA||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Interrupteur filaire connecté avec option variateur sans neutre||Ne peut etre appairé que sur le canal 11, 13 ou 15||
-|<img src="../../fr_FR/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Legrand interrupteur double sans fil||Ne peut etre appairé que sur le canal 11||
-|<img src="../../fr_FR/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Legrand micro module||Ne peut etre appairé que sur le canal 11 ou 15||
-|<img src="../../fr_FR/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Legrand prise mobile Céliane||Ne peut etre appairé que sur le canal 11||
-|<img src="../../fr_FR/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Legrand interrupteur simple sans fil||Ne peut etre appairé que sur le canal 11||
-|<img src="../../fr_FR/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|bticino volet roulant avec positionnement||Ne peut etre appairé que sur le canal 11||
-|<img src="../../fr_FR/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Legrand volet roulant filaire||Ne peut etre appairé que sur le canal 11||
-|<img src="../../fr_FR/zigbee/images/Legrand.Shutters_central_remote_switch.png" width="60" />|Legrand|Legrand volet roulant sans fil||Ne peut etre appairé que sur le canal 11||
-|<img src="../../fr_FR/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Legrand commande 4 scènes sans fil||Ne peut etre appairé que sur le canal 11||
+|<img src="../../fr_FR/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Interrupteur double sans fil||Ne peut etre appairé que sur le canal 11||
+|<img src="../../fr_FR/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Module pour éclairage connecté||Ne peut etre appairé que sur le canal 11 ou 15||
+|<img src="../../fr_FR/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Prise mobile Céliane||Ne peut etre appairé que sur le canal 11||
+|<img src="../../fr_FR/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Interrupteur simple sans fil||Ne peut etre appairé que sur le canal 11||
+|<img src="../../fr_FR/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|BTICINO - Interrupteur filaire pour volet roulant avec positionnement||Ne peut etre appairé que sur le canal 11||
+|<img src="../../fr_FR/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Interrupteur filaire connecté pour volet roulant||Ne peut etre appairé que sur le canal 11||
+|<img src="../../fr_FR/zigbee/images/Legrand.Shutters_central_remote_switch.png" width="60" />|Legrand|Interrupteur sans fil connecté pour volet roulant||Ne peut etre appairé que sur le canal 11||
+|<img src="../../fr_FR/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Interrupteur sans fil pour commande 4 scènes||Ne peut etre appairé que sur le canal 11||
 
 # SZ
 
@@ -322,6 +322,7 @@
 |<img src="../../fr_FR/zigbee/images/Philips.LWA001.png" width="60" />|Philips|Hue White Ambiance E27||Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible||
 |<img src="../../fr_FR/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Hue White B22||Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible||
 |<img src="../../fr_FR/zigbee/images/Philips.LWE002.png" width="60" />|Philips|Hue White Candle E14||Attention il n'y a pas de retour d'état pour ce modele, seulement un envoi d'ordre possible||
+|<img src="../../fr_FR/zigbee/images/Philips.LWG001.png" width="60" />|Philips|Hue White GU10||||
 |<img src="../../fr_FR/zigbee/images/Philips.LWU001.png" width="60" />|Philips|Hue E14 P45||||
 |<img src="../../fr_FR/zigbee/images/Philips.LWV001.png" width="60" />|Philips|Hue White Filament Bulb ST64 E27||||
 |<img src="../../fr_FR/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
@@ -427,13 +428,13 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/TYZB01_2b8f6cio.TS0202.png" width="60" />|Woox|Détecteur de mouvement intelligent||||
-|<img src="../../fr_FR/zigbee/images/TYZB01_ynsiasng.TS0219.png" width="60" />|Woox|Sirène intelligente avec LED||||
+|<img src="../../fr_FR/zigbee/images/TYZB01_ynsiasng.TS0219.png" width="60" />|Woox|Sirène intelligente avec LED|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5682-woox-sirene-interieure-intelligente-zigbee-30-8435606701105.html)|
 |<img src="../../fr_FR/zigbee/images/TZ3000_cea5xugq.TS0203.png" width="60" />|Woox|Détecteur d'ouverture de porte ou fenêtre intelligent||||
-|<img src="../../fr_FR/zigbee/images/TZ3000_keabpigv.TS0505A.png" width="60" />|Woox|Ampoule LED E27 connectée - RGB + CCT||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_keabpigv.TS0505A.png" width="60" />|Woox|Ampoule LED E27 connectée - RGB + CCT|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5680-woox-ampoule-connectee-zigbee-e27-rgb-cct-compatible-amazon-alexa-et-google-assistant-8435606703581.html)|
 |<img src="../../fr_FR/zigbee/images/TZ3000_nwpihrkp.TS0207.png" width="60" />|Woox|Détecteur d'inondation intelligent||||
-|<img src="../../fr_FR/zigbee/images/TZ3000_p6ju8myv.TS0215A.png" width="60" />|Woox|Télécommande 4 boutons SOS/Armer/Désarmer/Maison||||
-|<img src="../../fr_FR/zigbee/images/TZ3000_ssp0maqm.TS0215A.png" width="60" />|Woox|Bouton SOS||||
-|<img src="../../fr_FR/zigbee/images/TZ3210_eymunffl.TS0101.png" width="60" />|Woox|Contrôleur d'arrosage extérieur intelligent ON/OFF ||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_p6ju8myv.TS0215A.png" width="60" />|Woox|Télécommande 4 boutons SOS/Armer/Désarmer/Maison|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5684-woox-telecommande-intelligente-4-boutons-zigbee-30-8435606701136.html)|
+|<img src="../../fr_FR/zigbee/images/TZ3000_ssp0maqm.TS0215A.png" width="60" />|Woox|Bouton SOS|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5683-woox-bouton-d-urgence-sos-zigbee-30-8435606701112.html)|
+|<img src="../../fr_FR/zigbee/images/TZ3210_eymunffl.TS0101.png" width="60" />|Woox|Contrôleur d'arrosage extérieur intelligent ON/OFF |||[Acheter](https://www.domadoo.fr/fr/peripheriques/5685-woox-controleur-d-arrosage-intelligent-onoff-zigbee-30-8435606701198.html)|
 |<img src="../../fr_FR/zigbee/images/TZE200_aycxwiau.TS0601.png" width="60" />|Woox|Détecteur de fumée intelligent||||
 |<img src="../../fr_FR/zigbee/images/TZE200_wnvhlcgl.TS0601.png" width="60" />|Woox|Tete thermostatique intelligente avec écran||||
 
@@ -447,41 +448,41 @@
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|AQARA - Interrupteur double sans neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.light.aqcn02.png" width="60" />|Xiaomi|AQARA - Ampoule LED connectée|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5257-aqara-ampoule-led-zigbee-aqara-blanc-variable-0192784000144.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.lock.v1.png" width="60" />|Xiaomi|MIJIA - Serrure connectée|Serrure|||
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.plug.png" width="60" />|Xiaomi|Xiaomi prise||||
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.plug.png" width="60" />|Xiaomi|MI - Prise intelligente ON/OFF||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.plug.maeu01.png" width="60" />|Xiaomi|AQARA - Prise connectée|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5385-aqara-prise-connectee-zigbee-30-smart-plug-6970504210646.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.plug.mmeu01.png" width="60" />|Xiaomi|MI - Prise connectée ON/OFF + Mesure de consommation|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5305-xiaomi-prise-connectee-zigbee-mi-smart-plug-6934177706493.html)|
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|Xiaomi Aqara LLKZMK11LM Module bidirectionnel Intelligent||||
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.remote.b186acn01.png" width="60" />|Xiaomi|Xiaomi interrupteur simple|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4516-xiaomi-interrupteur-mural-simple-sans-fil-zigbee-aqara-6970504210)|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|AQARA - Module bidirectionnel intelligent||||
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.remote.b186acn01.png" width="60" />|Xiaomi|AQARA - Interrupteur simple sans fil intelligent|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4516-xiaomi-interrupteur-mural-simple-sans-fil-zigbee-aqara-6970504210)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.remote.b1acn01.png" width="60" />|Xiaomi|AQARA - Interrupteur sans fil intelligent|Télécommande,Interrupteur||[Acheter](https://www.domadoo.fr/fr/peripheriques/4669-aqara-interrupteur-sans-fil-intelligent-zigbee-192784000052.html)|
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|Xiaomi interrupteur double|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.remote.b686opcn01.png" width="60" />|Xiaomi|Aqara Opple 6 boutons||||
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|Capteur de luminosité||||
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|AQARA - Interrupteur double sans fil|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.remote.b686opcn01.png" width="60" />|Xiaomi|AQARA - Interrupteur sans fil intelligent 6 boutons OPPLE||||
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|MI - Capteur de luminosité|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5486-xiaomi-mi-capteur-de-luminosite-zigbee-30-6934177710865.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sens.png" width="60" />|Xiaomi|MIJIA - Capteur de température/humidité||||
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_86sw1.png" width="60" />|Xiaomi|Xioami interrupteur simple|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_86sw2.png" width="60" />|Xiaomi|Xioami interrupteur double|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_86sw1.png" width="60" />|Xiaomi|AQARA - Interrupteur simple sans fil intelligent|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4516-aqara-interrupteur-mural-simple-sans-fil-zigbee-6970504210035.html)|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_86sw2.png" width="60" />|Xiaomi|AQARA - Interrupteur double sans fil intelligent|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_cube.png" width="60" />|Xiaomi|AQARA - Contrôleur intelligent Magic Cube|Télécommande,Contrôleur||[Acheter](https://www.domadoo.fr/fr/peripheriques/4668-aqara-controleur-intelligent-magic-cube-zigbee-0192784000045.html)|
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_ht.png" width="60" />|Xiaomi|Capteur de température/humidité||||
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|Xiaomi Aquara capteur d'ouverture|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_magnet.png" width="60" />|Xiaomi|Xiaomi capteur ouverture||||
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|Xiaomi Aquara de mouvement|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_motion.png" width="60" />|Xiaomi|Xiaomi capteur de mouvement||||
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_smoke.png" width="60" />|Xiaomi|Xiaomi Aquara fumée||||
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_ht.png" width="60" />|Xiaomi|AQARA - Capteur de température et humidité intelligent|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4515-aqara-capteur-de-temperature-et-d-humidite-zigbee-6970504212510.html)|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|AQARA - Capteur d'ouverture intelligent|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_magnet.png" width="60" />|Xiaomi|MI - Capteur d'ouverture intelligent||||
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|AQARA - Capteur de mouvement intelligent|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_motion.png" width="60" />|Xiaomi|AQARA - Capteur de mouvement intelligent|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4518-aqara-detecteur-de-mouvement-zigbee-192784000090.html)|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_smoke.png" width="60" />|Xiaomi|MIJIA - Détecteur de fumée intelligent||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_switch.aq2.png" width="60" />|Xiaomi|AQARA - Interrupteur sans fil intelligent|Télécommande,Interrupteur||[Acheter](https://www.domadoo.fr/fr/peripheriques/4669-aqara-interrupteur-sans-fil-intelligent-zigbee-192784000052.html)|
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_switch.png" width="60" />|Xiaomi|Xiaomi Aquara switch||||
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|Xiaomi Aquara inondation|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_switch.png" width="60" />|Xiaomi|MIJIA - Commutateur sans fil intelligent||||
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|AQARA - Détecteur d'inondation intelligent|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.switch.l0agl1.png" width="60" />|Xiaomi|AQARA - Micromodule on/off sans neutre|Contacteur,Compteur,Puissance||[Acheter](https://www.domadoo.fr/fr/peripheriques/5387-aqara-micromodule-onoff-zigbee-30-1250w-sans-neutre-6970504213302.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.switch.n0agl1.png" width="60" />|Xiaomi|AQARA - Micromodule on/off avec neutre|Contacteur,Compteur,Puissance||[Acheter](https://www.domadoo.fr/fr/peripheriques/5386-aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-6970504213296.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|AQARA - Capteur de vibration|Détecteur,Porte,Vibration||[Acheter](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
-|<img src="../../fr_FR/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|Capteur de température/pression/humidité||||
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|AQARA - Capteur de température/pression/humidité|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4515-aqara-capteur-de-temperature-et-d-humidite-zigbee-6970504212510.html)|
 |<img src="../../fr_FR/zigbee/images/XIAOMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|MI - Capteur de luminosité|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5486-xiaomi-mi-capteur-de-luminosite-zigbee-30-6934177710865.html)|
-|<img src="../../fr_FR/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|Xiaomi prise||||
-|<img src="../../fr_FR/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|Xiaomi Aquara capteur d'ouverture|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
-|<img src="../../fr_FR/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|Xiaomi Aquara de mouvement|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
-|<img src="../../fr_FR/zigbee/images/lumi.sensor_switch.png" width="60" />|Xiaomi|MIJIA - Smart Wireless Switch|Interrupteur,Télécommande|||
-|<img src="../../fr_FR/zigbee/images/lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|Xiaomi Aquara inondation|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
+|<img src="../../fr_FR/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|MI - Prise connectée ON/OFF + Mesure de consommation|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5305-xiaomi-prise-connectee-zigbee-mi-smart-plug-6934177706493.html)|
+|<img src="../../fr_FR/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|AQARA - Détecteur d'ouverture intelligent|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
+|<img src="../../fr_FR/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|AQARA - Détecteur de mouvement intelligent|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
+|<img src="../../fr_FR/zigbee/images/lumi.sensor_switch.png" width="60" />|Xiaomi|MIJIA - Interrupteur sans fil intelligent|Interrupteur,Télécommande|||
+|<img src="../../fr_FR/zigbee/images/lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|AQARA - Détecteur d'inondation intelligent|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
 |<img src="../../fr_FR/zigbee/images/lumi.vibration.aq1.png" width="60" />|Xiaomi|AQARA - Capteur de vibration|Détecteur,Porte,Vibration||[Acheter](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
 
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-03-31 02:32:12
+2021-04-01 02:32:05
