@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.3",
+    "require": "3.3.39",
     "installation": "Aucune",
     "category": "communication",
     "version": "0.4",
