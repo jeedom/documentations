@@ -30,7 +30,7 @@
 |<img src="../../en_US/zigbee/images/Develco_Products_AS.DIOZB-110.png" width="60" />|Frient|IO Module||||
 |<img src="../../en_US/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Develco|Smart keyboard||||
 |<img src="../../en_US/zigbee/images/Develco_Products_AS.PBTZB-110.png" width="60" />|Develco|Panic Button||There seems to be a problem with the firmware, only the deactivation of the alert (press the button for 5s after activating the panic mode) is sent to the zigbee networks||
-|<img src="../../en_US/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Develco|Smart siren||||
+|<img src="../../en_US/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Frient|Smart siren||||
 |<img src="../../en_US/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Frient|Smart plug|||[Buy](https://www.domadoo.fr/fr/peripheriques/5412-frient-prise-intelligente-mini-avec-mesure-de-consommation-zigbee-ha-version-fr-5713594002514.html)|
 |<img src="../../en_US/zigbee/images/frient_AS.AQSZB-110.png" width="60" />|Frient|Air quality sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5408-frient-capteur-de-qualite-d-air-zigbee-ha-5713594002392.html)|
 |<img src="../../en_US/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient|Smart flood detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5427-frient-detecteur-d-inondation-zigbee-30-5713594002453.html)|
@@ -120,6 +120,16 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/awox.TLSR82xx.png" width="60" />|Awox|EGLO Crosslink-Z / Awox TLSR82||||
 
+# Casaia
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/CASAIA.CDWS312.png" width="60" />|Casaia|Door detector|Ouverture|||
+|<img src="../../en_US/zigbee/images/CASAIA.CKF205.png" width="60" />|Casaia|4 button remote control|||[Buy](https://www.domadoo.fr/fr/peripheriques/5580-casaia-telecommande-keyfob-4-boutons-zigbee-3770021021205.html)|
+|<img src="../../en_US/zigbee/images/CASAIA.CMS323.png" width="60" />|Casaia|Multi sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5571-casaia-multi-sensor-zigbee-mouvements-vibrations-temperature-humidite-3770021021045.html)|
+|<img src="../../en_US/zigbee/images/CASAIA.CPB206.png" width="60" />|Casaia|SOS button||||
+|<img src="../../en_US/zigbee/images/CASAIA.CTHS317ET.png" width="60" />|Casaia|Temperature sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5572-casaia-sonde-de-temperature-deportee-sur-cable-zigbee-3770021021052.html)|
+
 # Danalock
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -160,9 +170,14 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/HEIMAN.COSensor-EM.png" width="60" />|Heiman|Carbon monoxide detector||||
+|<img src="../../en_US/zigbee/images/HEIMAN.DoorBell-EM.png" width="60" />|Heiman|Sonnette||||
+|<img src="../../en_US/zigbee/images/HEIMAN.RC-EM.png" width="60" />|Heiman|4 button remote control||||
+|<img src="../../en_US/zigbee/images/HEIMAN.SOS-EF-3.0.png" width="60" />|Heiman|SOS button||||
+|<img src="../../en_US/zigbee/images/HEIMAN.SceneSwitch-EM-3.0.png" width="60" />|Heiman|4 button remote control||||
 |<img src="../../en_US/zigbee/images/HEIMAN.SmokeSensor-EF-3.0.png" width="60" />|Heiman|Smoke detector||||
 |<img src="../../en_US/zigbee/images/HEIMAN.SmokeSensor-EM.png" width="60" />|Heiman|Smoke detector||||
 |<img src="../../en_US/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Smoke detector||||
+|<img src="../../en_US/zigbee/images/HEIMAN.WarningDevice-EF-3.0.png" width="60" />|Develco|Smart siren||||
 |<img src="../../en_US/zigbee/images/Heiman.SmartPlug.png" width="60" />|Schneider|Connected socket and repeater Wiser|Socket, Meter, Power, Repeater||[Buy](https://www.domadoo.fr/fr/eclairage/5499-schneider-electric-prise-connectee-et-repeteur-zigbee-30-wiser-3606489917883.html)|
 |<img src="../../en_US/zigbee/images/Heiman.WarningDevice.png" width="60" />|Heiman|Mermaid||||
 
@@ -188,8 +203,9 @@
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_10W.png" width="60" />|Ikea|10W driver||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_30W.png" width="60" />|Ikea|Driver 30W||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_SHORTCUT_Button.png" width="60" />|Ikea|Ikea TRADFRI SHORTCUT Button|Remote control|||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_CWS_opal_600lm.png" width="60" />|Ikea|TRADFRI bulb E14 CWS opal 600lm||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_470lm.png" width="60" />|Ikea|Bulb E14 WS 470lm||||
-|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|Connected bulb||||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|TRADFRI bulb E14 WS opal 600lm||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_W_opch_400lm.png" width="60" />|Ikea|Bulb E14 W opch 400lm||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_CWS_opal_600lm.png" width="60" />|Ikea|Bulb E27 CWS opal 600lm||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_1000lm.png" width="60" />|Ikea|Bulb E27 WS opal 1000lm||||
@@ -243,6 +259,12 @@
 |<img src="../../en_US/zigbee/images/TZ3000_riwp3k79.TS0505A.png" width="60" />|Lidl|Smart LED strip||||
 |<img src="../../en_US/zigbee/images/TZ3000_vzopcetz.TS011F.png" width="60" />|Lidl|Connected power strip 4 sockets and 2 USB ports||||
 |<img src="../../en_US/zigbee/images/TZ3000_wamqdr3f.TS011F.png" width="60" />|Lidl|ON / OFF connected socket||||
+
+# Loratap
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Loratap|LORATAP - 3-button remote control||||
 
 # Nodon
 
@@ -319,6 +341,7 @@
 |<img src="../../en_US/zigbee/images/Philips.LTW001.png" width="60" />|Philips|Hue white and color||Please note that there is no status feedback for this model, only an order sending is possible||
 |<img src="../../en_US/zigbee/images/Philips.LTW010.png" width="60" />|Philips|Hue White Ambiance A19 E26 / E27||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/Philips.LTW012.png" width="60" />|Philips|LTW012||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
+|<img src="../../en_US/zigbee/images/Philips.LTW013.png" width="60" />|Philips|LTW013||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/Philips.LWA001.png" width="60" />|Philips|Hue White Ambiance E27||Please note that there is no status feedback for this model, only an order sending is possible||
 |<img src="../../en_US/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Hue White B22||Please note that there is no status feedback for this model, only an order sending is possible||
 |<img src="../../en_US/zigbee/images/Philips.LWE002.png" width="60" />|Philips|Hue White Candle E14||Please note that there is no status feedback for this model, only an order sending is possible||
@@ -404,8 +427,8 @@
 |<img src="../../en_US/zigbee/images/TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|LED controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_4js9lo5d.TS0012.png" width="60" />|Tuya|Double micromodule without neutral||||
 |<img src="../../en_US/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Tuya|Connected switch for connected curtain||||
+|<img src="../../en_US/zigbee/images/TZ3000_92chsky7.TS110F.png" width="60" />|Tuya|Dimmer 2 voices||||
 |<img src="../../en_US/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Smart double switch||||
-|<img src="../../en_US/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Tuya|LORATAP - 3-button remote control||||
 |<img src="../../en_US/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BLITZWOLF - EU 16A smart plug||||
 |<img src="../../en_US/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|Mini RGB Led Strip Controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_m0vaazab.TS0207.png" width="60" />|Tuya|Range extender||||
@@ -485,4 +508,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-04-01 02:32:05
+2021-04-02 02:32:12

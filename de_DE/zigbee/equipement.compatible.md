@@ -30,7 +30,7 @@
 |<img src="../../de_DE/zigbee/images/Develco_Products_AS.DIOZB-110.png" width="60" />|Frient|E / A-Modul||||
 |<img src="../../de_DE/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Develco|Intelligente Tastatur||||
 |<img src="../../de_DE/zigbee/images/Develco_Products_AS.PBTZB-110.png" width="60" />|Develco|Panikknopf||Es scheint ein Problem mit der Firmware zu geben, nur die Deaktivierung des Alarms (drücken Sie die Taste für 5 Sekunden nach Aktivierung des Panikmodus) wird an die ZigBee-Netzwerke gesendet||
-|<img src="../../de_DE/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Develco|Intelligente Sirene||||
+|<img src="../../de_DE/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Frient|Intelligente Sirene||||
 |<img src="../../de_DE/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Frient|Smart Plug|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5412-frient-prise-intelligente-mini-avec-mesure-de-consommation-zigbee-ha-version-fr-5713594002514.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.AQSZB-110.png" width="60" />|Frient|Luftqualitätssensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5408-frient-capteur-de-qualite-d-air-zigbee-ha-5713594002392.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient|Intelligenter Hochwassermelder|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5427-frient-detecteur-d-inondation-zigbee-30-5713594002453.html)|
@@ -120,6 +120,16 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/awox.TLSR82xx.png" width="60" />|Awox|EGLO Crosslink-Z / Awox TLSR82||||
 
+# Casaia
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/CASAIA.CDWS312.png" width="60" />|Casaia|Türmelder|Ouverture|||
+|<img src="../../de_DE/zigbee/images/CASAIA.CKF205.png" width="60" />|Casaia|4-Tasten-Fernbedienung|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5580-casaia-telecommande-keyfob-4-boutons-zigbee-3770021021205.html)|
+|<img src="../../de_DE/zigbee/images/CASAIA.CMS323.png" width="60" />|Casaia|Multisensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5571-casaia-multi-sensor-zigbee-mouvements-vibrations-temperature-humidite-3770021021045.html)|
+|<img src="../../de_DE/zigbee/images/CASAIA.CPB206.png" width="60" />|Casaia|SOS-Taste||||
+|<img src="../../de_DE/zigbee/images/CASAIA.CTHS317ET.png" width="60" />|Casaia|Temperatursensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5572-casaia-sonde-de-temperature-deportee-sur-cable-zigbee-3770021021052.html)|
+
 # Danalock
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -160,9 +170,14 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/HEIMAN.COSensor-EM.png" width="60" />|Heiman|Kohlenmonoxiddetektor||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.DoorBell-EM.png" width="60" />|Heiman|Sonnette||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.RC-EM.png" width="60" />|Heiman|4-Tasten-Fernbedienung||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.SOS-EF-3.0.png" width="60" />|Heiman|SOS-Taste||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.SceneSwitch-EM-3.0.png" width="60" />|Heiman|4-Tasten-Fernbedienung||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-EF-3.0.png" width="60" />|Heiman|Rauchmelder||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-EM.png" width="60" />|Heiman|Rauchmelder||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Rauchmelder||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.WarningDevice-EF-3.0.png" width="60" />|Develco|Intelligente Sirene||||
 |<img src="../../de_DE/zigbee/images/Heiman.SmartPlug.png" width="60" />|Schneider|Verbundene Buchse und Repeater Wiser|Buchse, Messgerät, Leistung, Repeater||[Kaufen](https://www.domadoo.fr/fr/eclairage/5499-schneider-electric-prise-connectee-et-repeteur-zigbee-30-wiser-3606489917883.html)|
 |<img src="../../de_DE/zigbee/images/Heiman.WarningDevice.png" width="60" />|Heiman|Meerjungfrau||||
 
@@ -188,8 +203,9 @@
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_10W.png" width="60" />|Ikea|10W Treiber||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_30W.png" width="60" />|Ikea|Treiber 30W||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_SHORTCUT_Button.png" width="60" />|Ikea|Ikea TRADFRI SHORTCUT-Taste|Fernbedienung|||
+|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_CWS_opal_600lm.png" width="60" />|Ikea|TRADFRI Birne E14 CWS Opal 600lm||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_470lm.png" width="60" />|Ikea|Glühlampe E14 WS 470lm||||
-|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|Glühbirne angeschlossen||||
+|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_WS_opal_600lm.png" width="60" />|Ikea|TRADFRI Birne E14 WS Opal 600lm||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E14_W_opch_400lm.png" width="60" />|Ikea|Glühlampe E14 W opch 400lm||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_CWS_opal_600lm.png" width="60" />|Ikea|Birne E27 CWS Opal 600lm||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_bulb_E27_WS_opal_1000lm.png" width="60" />|Ikea|Birne E27 WS Opal 1000lm||||
@@ -243,6 +259,12 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_riwp3k79.TS0505A.png" width="60" />|Lidl|Smart LED-Streifen||||
 |<img src="../../de_DE/zigbee/images/TZ3000_vzopcetz.TS011F.png" width="60" />|Lidl|Angeschlossene Steckdosenleiste 4 Buchsen und 2 USB-Anschlüsse||||
 |<img src="../../de_DE/zigbee/images/TZ3000_wamqdr3f.TS011F.png" width="60" />|Lidl|EIN / AUS-Steckdose||||
+
+# Loratap
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Loratap|LORATAP - 3-Tasten-Fernbedienung||||
 
 # Nodon
 
@@ -319,6 +341,7 @@
 |<img src="../../de_DE/zigbee/images/Philips.LTW001.png" width="60" />|Philips|Farbton Weiß und Farbe||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.LTW010.png" width="60" />|Philips|Farbton Weiß Ambiente A19 E26 / E27||Bitte beachten Sie, dass die Statusrückmeldung für dieses Modell nicht in Echtzeit erfolgt (entweder nach einem Befehl oder indem Sie explizit eine Aktualisierung anfordern)||
 |<img src="../../de_DE/zigbee/images/Philips.LTW012.png" width="60" />|Philips|LTW012||Bitte beachten Sie, dass die Statusrückmeldung für dieses Modell nicht in Echtzeit erfolgt (entweder nach einem Befehl oder indem Sie explizit eine Aktualisierung anfordern)||
+|<img src="../../de_DE/zigbee/images/Philips.LTW013.png" width="60" />|Philips|LTW013||Bitte beachten Sie, dass die Statusrückmeldung für dieses Modell nicht in Echtzeit erfolgt (entweder nach einem Befehl oder indem Sie explizit eine Aktualisierung anfordern)||
 |<img src="../../de_DE/zigbee/images/Philips.LWA001.png" width="60" />|Philips|Farbton Weiß Ambiente E27||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Farbton Weiß B22||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.LWE002.png" width="60" />|Philips|Farbton weiße Kerze E14||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
@@ -404,8 +427,8 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|LED-Controller||||
 |<img src="../../de_DE/zigbee/images/TZ3000_4js9lo5d.TS0012.png" width="60" />|Tuya|Doppelmikromodul ohne Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Tuya|Angeschlossener Schalter für angeschlossenen Vorhang||||
+|<img src="../../de_DE/zigbee/images/TZ3000_92chsky7.TS110F.png" width="60" />|Tuya|2 Stimmen dimmen||||
 |<img src="../../de_DE/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Intelligenter Doppelschalter||||
-|<img src="../../de_DE/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Tuya|LORATAP - 3-Tasten-Fernbedienung||||
 |<img src="../../de_DE/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BLITZWOLF - EU 16A Smart Plug||||
 |<img src="../../de_DE/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|Mini-RGB-LED-Strip-Controller||||
 |<img src="../../de_DE/zigbee/images/TZ3000_m0vaazab.TS0207.png" width="60" />|Tuya|Reichweitenverstärker||||
@@ -485,4 +508,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-04-01 02:32:05
+2021-04-02 02:32:12
