@@ -125,6 +125,8 @@
         "Tête thermostatique,Chauffage": "Tête thermostatique,Chauffage",
         "Thermostat d'ambiance connecté Wiser": "Thermostat d'ambiance connecté Wiser",
         "Thermostat,Chauffage": "Thermostat,Chauffage",
+        "Puck shutter 1": "Puck shutter 1",
+        "Volets": "Volets",
         "Wiser micro module dimmer": "Wiser micro module dimmer",
         "Variateur": "Variateur",
         "Wiser Exxact dimmer rotary": "Wiser Exxact dimmer rotary",
@@ -134,7 +136,6 @@
         "Wiser Window\/Door Sensor": "Wiser Window\/Door Sensor",
         "Ouverture": "Ouverture",
         "PlusLink shutter insert": "PlusLink shutter insert",
-        "Volets": "Volets",
         "Profalux": "Profalux",
         "Profalux MOE": "Profalux MOE",
         "Philips": "Philips",
@@ -368,6 +369,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-04-03 02": "2021-04-03 02"
+        "2021-04-04 02": "2021-04-04 02"
     }
 }
