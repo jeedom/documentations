@@ -5,6 +5,12 @@
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
 
+# 05/04/2021 
+
+- Mudando para nodejs 14
+
+# 02/03/2021
+
 - Adição de novo tipo de equipamento
 - Possibilidade de ativar a rotação automática da chave API
 - Correções de bugs

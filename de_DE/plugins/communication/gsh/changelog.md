@@ -5,6 +5,12 @@
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 
+# 04/05/2021 
+
+- Wechseln zu NodeJS 14
+
+# 03/02/2021
+
 - Hinzufügung neuer Art von Ausrüstung
 - Möglichkeit der Aktivierung der automatischen Drehung des API-Schlüssels
 - Fehlerbehebungen
