@@ -10,7 +10,10 @@ After downloading the plugin you must activate it and enter the IP of your gatew
 
 ## Bulb detection
 
-To scan Ikea equipment, just launch (once the dependencies started) the daemon. The bulbs reassembled by the gateway and which are recognized by Jeedom will be automatically created. If a bulb does not come up please put the Debug plugin to relaunch the discovery and provide us with the log so that we can add the missing bulbs. (Remember to specify your bulb and its characteristics in the ticket : is it dimmable, is it variable in white, is it variable in color). The plugin will also bring you the blinds sockets
+To scan Ikea equipment, just start the daemon once the dependencies have been correctly installed.     
+The bulbs raised by the gateway and which are recognized by Jeedom will be automatically integrated.     
+
+If a bulb does not go back, please put the plugin in ``Debug``, to relaunch the discovery and provide us with the log so that we can add the missing bulbs. (Remember to specify the model of your bulb as well as its characteristics in the ticket : is it dimmable, is it variable in white, is it variable in color). The plugin will also bring you the blinds sockets
 
 **Once discovered each bulb will have :**
 
@@ -19,4 +22,4 @@ To scan Ikea equipment, just launch (once the dependencies started) the daemon. 
 
 >**Symfonisk**
 >
->Symfonisk connected speakers are not managed by this plugin but by the Sonos plugin
+>Symfonisk connected speakers are not managed by this plugin but by the Sonos plugin.

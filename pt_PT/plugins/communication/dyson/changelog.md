@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 19/01/2021
+
+- Corrigido um problema devido a uma mudança na nuvem dyson
+
 # 13/01/2021
 
 - Correção de um problema com o aumento de NOX (é necessário retirar o equipamento atualmente e refazer uma descoberta para ter a correção)

@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 23/11/2020
+
+- New presentation of the list of objects
+- Addition of the tag "V4 compatibility"
+
 # 05/23/2020
 
 - Installation of nodejs 12 instead of 8

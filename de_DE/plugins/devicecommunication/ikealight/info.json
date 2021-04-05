@@ -4,9 +4,14 @@
     "description": {
         "fr_FR": "Le plugin IkeaLight permet d’établir un lien avec la passerelle Ikea Tradfri. Vous pourrez contrôler vos lumières et avoir un retour d'état en temps réel.",
         "en_US": "The IkeaLight plugin makes it possible to establish a link with the Ikea Tradfri gateway. You will be able to control your lights and have real-time status feedback",
-        "es_ES": "El complemento IkeaLight permite establecer un enlace con la puerta de enlace Ikea Tradfri. Podrá controlar sus luces y recibir comentarios sobre el estado en tiempo real",
+        "es_ES": "El complemento IkeaLight permite establecer un enlace con la puerta de enlace Ikea Tradfri. Podrá controlar sus luces y tener información de estado en tiempo real",
         "de_DE": "Mit dem IkeaLight-Plugin kann eine Verbindung zum Ikea Tradfri-Gateway hergestellt werden. Sie können Ihre Lichter steuern und erhalten eine Echtzeit-Statusrückmeldung",
-        "pt_PT": "O plug-in IkeaLight possibilita estabelecer um link com o gateway Ikea Tradfri. Você poderá controlar suas luzes e obter feedback de status em tempo real"
+        "pt_PT": "O plugin IkeaLight torna possível estabelecer um link com o gateway Ikea Tradfri. Você será capaz de controlar suas luzes e ter feedback de status em tempo real",
+        "ru_RU": "Le plugin IkeaLight permet d’établir un lien avec la passerelle Ikea Tradfri. Vous pourrez contrôler vos lumières et avoir un retour d'état en temps réel",
+        "id_ID": "Le plugin IkeaLight permet d’établir un lien avec la passerelle Ikea Tradfri. Vous pourrez contrôler vos lumières et avoir un retour d'état en temps réel",
+        "it_IT": "Le plugin IkeaLight permet d’établir un lien avec la passerelle Ikea Tradfri. Vous pourrez contrôler vos lumières et avoir un retour d'état en temps réel",
+        "ja_JP": "Le plugin IkeaLight permet d’établir un lien avec la passerelle Ikea Tradfri. Vous pourrez contrôler vos lumières et avoir un retour d'état en temps réel",
+        "tr": "Le plugin IkeaLight permet d’établir un lien avec la passerelle Ikea Tradfri. Vous pourrez contrôler vos lumières et avoir un retour d'état en temps réel"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -21,7 +26,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",

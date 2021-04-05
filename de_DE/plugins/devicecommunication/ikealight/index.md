@@ -10,7 +10,10 @@ Nach dem Herunterladen des Plugins müssen Sie es aktivieren und die IP Ihres Ga
 
 ## Lampenerkennung
 
-Um Ikea-Geräte zu scannen, starten Sie einfach den Dämon (sobald die Abhängigkeiten gestartet wurden). Die vom Gateway wieder zusammengebauten und von Jeedom erkannten Lampen werden automatisch erstellt. Wenn eine Glühbirne nicht auftaucht, setzen Sie bitte das Debug-Plugin ein, um die Erkennung neu zu starten, und stellen Sie uns das Protokoll zur Verfügung, damit wir die fehlenden Glühbirnen hinzufügen können. (Denken Sie daran, Ihre Glühbirne und ihre Eigenschaften im Ticket anzugeben : Ist es dimmbar, ist es variabel in Weiß, ist es variabel in Farbe?). Das Plugin bringt Ihnen auch die Blinds Sockets
+Um Ikea-Geräte zu scannen, starten Sie einfach den Daemon, sobald die Abhängigkeiten korrekt installiert wurden.     
+Die vom Gateway angehobenen und von Jeedom erkannten Glühbirnen werden automatisch integriert.     
+
+Wenn eine Glühbirne nicht zurückgeht, setzen Sie bitte das Plugin ein ``Debug``, um die Entdeckung neu zu starten und uns das Protokoll zur Verfügung zu stellen, damit wir die fehlenden Glühbirnen hinzufügen können. (Denken Sie daran, das Modell Ihrer Glühbirne sowie deren Eigenschaften im Ticket anzugeben : Ist es dimmbar, ist es variabel in Weiß, ist es variabel in Farbe?). Das Plugin bringt Ihnen auch die Blinds Sockets
 
 **Einmal entdeckt, wird jede Glühbirne haben :**
 
@@ -19,4 +22,4 @@ Um Ikea-Geräte zu scannen, starten Sie einfach den Dämon (sobald die Abhängig
 
 >**Symfonisk**
 >
->Mit Symfonisk verbundene Lautsprecher werden nicht von diesem Plugin, sondern vom Sonos-Plugin verwaltet
+>Mit Symfonisk verbundene Lautsprecher werden nicht von diesem Plugin, sondern vom Sonos-Plugin verwaltet.

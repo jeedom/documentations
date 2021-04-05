@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 19.01.2021
+
+- Ein Problem aufgrund einer Änderung in der Dyson-Cloud wurde behoben
+
 # 13.01.2021
 
 - Korrektur eines Problems mit dem Anstieg von NOX (es ist erforderlich, das Gerät derzeit zu entfernen und eine Entdeckung zu wiederholen, um die Korrektur durchzuführen)
