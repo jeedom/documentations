@@ -60,6 +60,8 @@
         " Changelog*": " Änderungsprotokoll*"
     },
     "plugins\/automation protocol\/index.md": {
+        "bien lire la documentation avant tout achat": "Lesen Sie die Dokumentation vor jedem Kauf sorgfältig durch",
+        "Plugin zigbee pouvant etre utilisé avec les Zigbee": "ZigBee-Plugin, das mit ZigBee verwendet werden kann",
         "Ce plugin va vous permettre d'intégrer un wes de CartElectronics": "Mit diesem Plugin können Sie eine CartElectronics wes integrieren",
         "Ce plugin permet de piloter les modules Wattcubes de Wattlet via le Wattcube Web": "Mit diesem Plugin können Sie die Wattcubes-Module von Wattlet über das Wattcube Web steuern",
         "Permet de piloter les équipements domotiques de type 433Mhz ( Chacon, Oregon, La Crosse, X10, DI-O, Blyss": "Ermöglicht die Steuerung von 433-MHz-Hausautomationsgeräten (Chacon, Oregon, La Crosse, X10, DI-O, Blyss)",
@@ -98,6 +100,14 @@
         "Ce plugin remplacera à terme le premier plugin": "Dieses Plugin wird eventuell das erste Plugin ersetzen",
         "Il sera mis à disposition de tous les possesseurs du premier plugin": "Es wird allen Besitzern des ersten Plugins zur Verfügung gestellt",
         "Cela permettra à chacun de migrer tranquillement": "Dadurch kann jeder ruhig migrieren",
+        "deconz, ezsp (Silicon labs) et en support beta avec Zigate, Texas Instrument": "deconz, ezsp (Silicon Labs) und Beta-Support mit Zigate, Texas Instrument",
+        " Zigbee.": " Zigbee.",
+        " Zigbee?": " Zigbee?",
+        "Zigbee ": "Zigbee ",
+        " Zigbee]": " Zigbee]",
+        "[Zigbee]": "[Zigbee]",
+        "*Zigbee*": "*Zigbee*",
+        " Zigbee*": " Zigbee*",
         " Wes.": " Wes.",
         " Wes?": " Wes?",
         "Wes ": "Wes ",

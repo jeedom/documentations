@@ -18,6 +18,9 @@
         "Changelog": "Changelog"
     },
     "plugins\/automation protocol\/index.md": {
+        "bien lire la documentation avant tout achat": "bien lire la documentation avant tout achat",
+        "Zigbee": "Zigbee",
+        "Plugin zigbee pouvant etre utilisé avec les Zigbee": "Plugin zigbee pouvant etre utilisé avec les Zigbee",
         "Wes": "Wes",
         "Ce plugin va vous permettre d'intégrer un wes de CartElectronics": "Ce plugin va vous permettre d'intégrer un wes de CartElectronics",
         "Wattlet": "Wattlet",
@@ -70,7 +73,8 @@
         "il faut absolument une clef conbee pour utiliser ce plugin": "il faut absolument une clef conbee pour utiliser ce plugin",
         "Ce plugin remplacera à terme le premier plugin": "Ce plugin remplacera à terme le premier plugin",
         "Il sera mis à disposition de tous les possesseurs du premier plugin": "Il sera mis à disposition de tous les possesseurs du premier plugin",
-        "Cela permettra à chacun de migrer tranquillement": "Cela permettra à chacun de migrer tranquillement"
+        "Cela permettra à chacun de migrer tranquillement": "Cela permettra à chacun de migrer tranquillement",
+        "deconz, ezsp (Silicon labs) et en support beta avec Zigate, Texas Instrument": "deconz, ezsp (Silicon labs) et en support beta avec Zigate, Texas Instrument"
     },
     "plugins\/automatisation\/index.md": {
         "ce plugin ne fonctionne pas avec des volets tout ou rien, il faut ABSOLUMENT des volets avec réglages proportionnels (%": "ce plugin ne fonctionne pas avec des volets tout ou rien, il faut ABSOLUMENT des volets avec réglages proportionnels (%",
