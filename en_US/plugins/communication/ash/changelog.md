@@ -4,6 +4,18 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Redesign of the plugin
+- Addition of new type
+
+>**Important**
+>
+>Following the update it is necessary to redo a detection of the equipment from Alexa
+
+
+# 08/11/2020
+
+- Fixed a bug on scenes when renaming an order / equipment / item
+
 # 03/11/2020
 
 - Possibility to choose the thermostat mode (only with a thermostat from the jeedom thermostat plugin and if the modes are called heat, cool, off, auto, eco)

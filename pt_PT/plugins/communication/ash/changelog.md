@@ -4,6 +4,18 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Redesenho do plugin
+- Adição de novo tipo
+
+>**IMPORTANTE**
+>
+>Após a atualização é necessário refazer uma detecção do equipamento do Alexa
+
+
+# 11/08/2020
+
+- Corrigido um bug nas cenas ao renomear um pedido / equipamento / item
+
 # 11/03/2020
 
 - Possibilidade de escolher o modo de termostato (apenas com um termostato do plugin jeedom termostato e se os modos são chamados de calor, resfriamento, desligado, automático, eco)

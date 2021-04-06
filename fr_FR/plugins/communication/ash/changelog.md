@@ -4,6 +4,14 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Refonte du plugin
+- Ajout de nouveau type
+
+>**IMPORTANT**
+>
+>Suite a la mise à jour il faut refaire une detection des équipements depuis Alexa
+
+
 # 08/11/2020
 
 - Correction d'un bug sur les scenes lors du renommage d'une commande/équipement/objet
