@@ -28,7 +28,7 @@ Pour gérer vos différents lots d'exportation, dirigez-vous vers le menu **Plug
 >Le bouton **+ Ajouter** permet de créer un nouveau lot d'exportation.
 
 Vous pouvez donner un nom au lot d'exportation, lui assigner un objet parent *(utile pour identifier la commande d'envoi d'export dans un scénario)* et l'activer ou le désactiver.    
-Cocher la case **Statistiques** permet d'opter pour un export de statistiques *(moyenne, min., max., somme, écart type, nombre de valeurs, dernière valeur)* au lieu de valeurs brutes.
+Cocher la case **Statistiques** permet d'opter pour un export de statistiques *(moyenne, min., max., somme, écart type, variance, nombre de valeurs, dernière valeur)* au lieu de valeurs brutes.
 
 ### Choisir la périodicité de l'export
 
@@ -109,7 +109,7 @@ Renseignez le **Titre** *(facultatif)* ainsi que la **commande Action/Message po
 >
 >Comme pour l'envoi par programmation, il est possible d'utiliser [**des tags de scénario**](https://doc.jeedom.com/fr_FR/core/4.1/scenario#Les%20tags){:target="\_blank"} dans le titre de l'envoi et le fichier sera automatiquement archivé par le plugin si aucune commande d'envoi n'est renseignée.
 
-# Import de données
+# Importer des données
 
 >**IMPORTANT**
 >
@@ -144,9 +144,9 @@ Si un historique existe déjà sur la commande sur la période concernée par l'
 En présence d'historique sur la commande pendant la phase concernée par l'import, l'outil vous demandera comment vous souhaitez gérer ces données.
 
 3 choix sont possibles :
-- Conserver toutes les données déjà présentes en historique,
-- Remplacer uniquement les valeurs en doublon entre le fichier csv et l'historique,
-- Écraser toutes les données en historique sur la période.
+- **Conserver toutes les données** déjà présentes en historique,
+- **Remplacer uniquement les valeurs en doublon** entre le fichier csv et l'historique,
+- **Écraser toutes les données** en historique sur la période.
 
 ## Démarrer l'importation
 

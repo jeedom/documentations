@@ -1,5 +1,3 @@
-# Changelog Data Export
-
 # Changelog plugin Data Export
 
 >**IMPORTANT**
@@ -11,7 +9,7 @@
 - Refonte/Modernisation de l'interface
 - Meilleure gestion de la mémoire autorisant des exports massifs de données
 - Fiabilisation de l'import de données pour passage en stable
-- Ajout de la possibilité d'exporter les statistiques de chaque commande *(moyenne, min., max., somme, écart type, nombre de valeurs, dernière valeur)* au lieu des valeurs brutes
+- Ajout de la possibilité d'exporter les statistiques de chaque commande *(moyenne, min., max., somme, écart type, variance, nombre de valeurs, dernière valeur)* au lieu des valeurs brutes
 - Nouvel onglet **Archivage** permettant de consulter et de gérer les fichiers d'export sauvegardés
 
 # 09/10/2020 (BETA)

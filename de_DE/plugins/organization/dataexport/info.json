@@ -2,7 +2,7 @@
     "id": "dataexport",
     "name": "Data Export",
     "description": {
-        "fr_FR": "Plugin permettant de réaliser des exports d'historique à la demande vers un fichier *.CSV. Il est également possible d'automatiser la réception de fichiers d'export sur le canal de son choix via scénario ou programmation.",
+        "fr_FR": "Plugin permettant d'archiver des exports d'historiques ou de statistiques vers un fichier CSV. Il est possible d'automatiser la réception de fichiers d'export sur le canal de son choix via scénario ou programmation.\n\nLe plugin permet également d'importer des données dans Jeedom depuis un fichier CSV vers une commande de type Info.",
         "en_US": "Plugin allowing to perform history exports on demand to a * .CSV file. It is also possible to automate the reception of export files on the channel of your choice via scenario or programming",
         "pt_PT": "Plugin que permite realizar exportações do histórico para um arquivo * .CSV. Também é possível automatizar a recepção de arquivos de exportação num canal à escolha via cenário ou programação",
         "es_ES": "Plugin permettant de réaliser des exports d'historique à la demande vers un fichier *.CSV. Il est également possible d'automatiser la réception de fichiers d'export sur le canal de son choix via scénario ou programmation",
@@ -13,7 +13,7 @@
         "ja_JP": "Plugin permettant de réaliser des exports d'historique à la demande vers un fichier *.CSV. Il est également possible d'automatiser la réception de fichiers d'export sur le canal de son choix via scénario ou programmation",
         "tr": "Plugin permettant de réaliser des exports d'historique à la demande vers un fichier *.CSV. Il est également possible d'automatiser la réception de fichiers d'export sur le canal de son choix via scénario ou programmation"
     },
-    "utilization": "Ajoutez un lot d'exportation et définissez les commandes à inclure ainsi que la période souhaitée.\n Cochez la case \"Envoi programmé\" pour configurer l'envoi automatique de fichiers d'export ou utilisez la commande \"Envoi Export CSV\" dans un scénario.",
+    "utilization": "Ajoutez un lot d'exportation et définissez les commandes à exporter ainsi que la période souhaitée.\n Cochez la case \"Activer l'envoi programmé\" pour configurer l'envoi automatique de fichiers d'export ou utilisez la commande \"Envoi Export CSV\" depuis un scénario.",
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "3.3.39",
