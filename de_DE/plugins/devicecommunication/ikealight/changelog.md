@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 04/05/2021
+
+- Wechseln zu NodeJS 14
+
 # 23/11/2020
 
 - Neue Darstellung der Objektliste

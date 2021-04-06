@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 04/05/2021
+
+- Wechseln zu NodeJS 14
+
 # 19.01.2021
 
 - Ein Problem aufgrund einer Änderung in der Dyson-Cloud wurde behoben

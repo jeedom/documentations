@@ -121,4 +121,6 @@ Si no hubo ningún error y su antena está bien creada en el complemento, ahora 
 
 # Listado de equipos compatibles
 
+Algunos equipos como el lywsd03 deben agregarse a mihome al menos una vez antes de estar activo
+
 Puedes encontrar [aquí](https://doc.jeedom.com/es_ES/blea/equipement.compatible) la lista de equipos compatibles

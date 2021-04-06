@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
 
+# 05/04/2021
+
+- Cambiando a nodejs 14
+
 # 19/01/2021
 
 - Se solucionó un problema debido a un cambio en la nube de dyson

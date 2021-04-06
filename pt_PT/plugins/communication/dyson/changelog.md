@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 05/04/2021
+
+- Mudando para nodejs 14
+
 # 19/01/2021
 
 - Corrigido um problema devido a uma mudança na nuvem dyson

@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
 
+# 04/05/2021
+
+- Switching to nodejs 14
+
 # 01/19/2021
 
 - Fixed an issue due to a change in the dyson cloud
