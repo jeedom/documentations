@@ -372,6 +372,7 @@
 |<img src="../../es_ES/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Regulador giratorio Wiser Exxact|Variateur|||
 |<img src="../../es_ES/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|Módulo micro dimmer más sabio|Variateur|||
 |<img src="../../es_ES/zigbee/images/Schneider_Electric.PUCKSHUTTER1.png" width="60" />|Schneider|Contraventana Puck 1|Volets||[Documentación](https://download.schneider-electric.com/files?p_enDocType=System+user+guide&p_File_Name=Merten_PL_Wiser_TIs_DE.pdf&p_Doc_Ref=Merten_PL_Wiser_TIs_DE)<br/>|
+|<img src="../../es_ES/zigbee/images/Schneider_Electric.PUCKSWITCH1.png" width="60" />|Schneider|Interruptor de micro módulo más sabio|Interrupteur|||
 |<img src="../../es_ES/zigbee/images/Schneider_Electric.Thermostat.png" width="60" />|Schneider|Termostato de ambiente conectado más sabio|Termostato, Calefacción||[Comprar](https://www.domadoo.fr/fr/thermostats/5496-schneider-electric-thermostat-d-ambiance-connecte-zigbee-30-wiser-3606489710194.html)|
 |<img src="../../es_ES/zigbee/images/Schneider_Electric.iTRV.png" width="60" />|Schneider|Cabezal de válvula termostático conectado más sabio|Cabezal termostático, Calefacción||[Comprar](https://www.domadoo.fr/fr/tetes-thermostatiques/5497-schneider-electric-tete-de-vanne-thermostatique-connectee-zigbee-30-wiser-3606489582821.html)|
 
@@ -510,4 +511,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-04-05 02:32:13
+2021-04-06 02:32:12
