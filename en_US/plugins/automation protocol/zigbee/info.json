@@ -1,44 +1,44 @@
 {
-    "id": "zigbee",
-    "name": "Zigbee",
-    "description": {
-        "fr_FR": "Plugin zigbee pouvant etre utilisé avec les Zigbee  : deconz, ezsp (Silicon labs) et en support beta avec Zigate, Texas Instrument. IMPORTANT : bien lire la documentation avant tout achat",
-        "es_ES": "Complemento de Zigbee que se puede usar con Zigbee: deconz, ezsp (Silicon labs) y en soporte beta con Zigate, Texas Instrument. IMPORTANTE: lea la documentación detenidamente antes de realizar cualquier compra",
-        "de_DE": "ZigBee-Plugin, das mit ZigBee verwendet werden kann: Deconz, EZsp (Silicon Labs) und Beta-Unterstützung mit Zigate, Texas Instrument. WICHTIG: Lesen Sie die Dokumentation vor dem Kauf sorgfältig durch",
-        "pt_PT": "Plugin Zigbee que pode ser usado com Zigbee: deconz, ezsp (Silicon labs) e em suporte beta com Zigate, Texas Instrument. IMPORTANTE: leia a documentação com atenção antes de qualquer compra",
-        "en_US": "Zigbee plugin that can be used with Zigbee: deconz, ezsp (Silicon labs) and in beta support with Zigate, Texas Instrument. IMPORTANT: read the documentation carefully before any purchase",
-        "ru_RU": "Plugin zigbee pouvant etre utilisé avec les Zigbee  : deconz, ezsp (Silicon labs) et en support beta avec Zigate, Texas Instrument. IMPORTANT : bien lire la documentation avant tout achat",
-        "id_ID": "Plugin zigbee pouvant etre utilisé avec les Zigbee  : deconz, ezsp (Silicon labs) et en support beta avec Zigate, Texas Instrument. IMPORTANT : bien lire la documentation avant tout achat",
-        "it_IT": "Plugin zigbee pouvant etre utilisé avec les Zigbee  : deconz, ezsp (Silicon labs) et en support beta avec Zigate, Texas Instrument. IMPORTANT : bien lire la documentation avant tout achat",
-        "ja_JP": "Plugin zigbee pouvant etre utilisé avec les Zigbee  : deconz, ezsp (Silicon labs) et en support beta avec Zigate, Texas Instrument. IMPORTANT : bien lire la documentation avant tout achat",
-        "tr": "Plugin zigbee pouvant etre utilisé avec les Zigbee  : deconz, ezsp (Silicon labs) et en support beta avec Zigate, Texas Instrument. IMPORTANT : bien lire la documentation avant tout achat"
-    },
-    "licence": "AGPL",
-    "author": "Jeedom SAS",
-    "require": "4.0",
-    "category": "automation protocol",
-    "hasDependency": true,
-    "hasOwnDeamon": true,
-    "maxDependancyInstallTime": 0,
-    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/zigbee\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/zigbee\/",
-    "language": [
-        "fr_FR",
-        "en_US",
-        "es_ES",
-        "de_DE",
-        "ru_RU",
-        "id_ID",
-        "it_IT",
-        "ja_JP",
-        "pt_PT",
-        "tr"
-    ],
-    "compatibility": [
-        "rpi",
-        "docker",
-        "diy",
-        "mobile",
-        "v4"
-    ]
+  "id": "zigbee",
+  "name": "Zigbee",
+  "description": {
+    "fr_FR": "Plugin zigbee pouvant etre utilisé avec les Zigbee  : deconz, ezsp (Silicon labs) et en support beta avec Zigate, Texas Instrument. IMPORTANT : bien lire la documentation avant tout achat",
+    "es_ES": "Complemento de Zigbee que se puede usar con Zigbee: deconz, ezsp (Silicon labs) y en soporte beta con Zigate, Texas Instrument. IMPORTANTE: lea la documentación detenidamente antes de realizar cualquier compra",
+    "de_DE": "ZigBee-Plugin, das mit ZigBee verwendet werden kann: Deconz, EZsp (Silicon Labs) und Beta-Unterstützung mit Zigate, Texas Instrument. WICHTIG: Lesen Sie die Dokumentation vor dem Kauf sorgfältig durch",
+    "pt_PT": "Plugin Zigbee que pode ser usado com Zigbee: deconz, ezsp (Silicon labs) e em suporte beta com Zigate, Texas Instrument. IMPORTANTE: leia a documentação com atenção antes de qualquer compra",
+    "en_US": "Zigbee plugin that can be used with Zigbee: deconz, ezsp (Silicon labs) and in beta support with Zigate, Texas Instrument. IMPORTANT: read the documentation carefully before any purchase",
+    "ru_RU": "Plugin zigbee pouvant etre utilisé avec les Zigbee  : deconz, ezsp (Silicon labs) et en support beta avec Zigate, Texas Instrument. IMPORTANT : bien lire la documentation avant tout achat",
+    "id_ID": "Plugin zigbee pouvant etre utilisé avec les Zigbee  : deconz, ezsp (Silicon labs) et en support beta avec Zigate, Texas Instrument. IMPORTANT : bien lire la documentation avant tout achat",
+    "it_IT": "Plugin zigbee pouvant etre utilisé avec les Zigbee  : deconz, ezsp (Silicon labs) et en support beta avec Zigate, Texas Instrument. IMPORTANT : bien lire la documentation avant tout achat",
+    "ja_JP": "Plugin zigbee pouvant etre utilisé avec les Zigbee  : deconz, ezsp (Silicon labs) et en support beta avec Zigate, Texas Instrument. IMPORTANT : bien lire la documentation avant tout achat",
+    "tr": "Plugin zigbee pouvant etre utilisé avec les Zigbee  : deconz, ezsp (Silicon labs) et en support beta avec Zigate, Texas Instrument. IMPORTANT : bien lire la documentation avant tout achat"
+  },
+  "licence": "AGPL",
+  "author": "Jeedom SAS",
+  "require": "4.0",
+  "category": "automation protocol",
+  "hasDependency": true,
+  "hasOwnDeamon": true,
+  "maxDependancyInstallTime": 30,
+  "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/zigbee\/changelog",
+  "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/zigbee\/",
+  "language": [
+    "fr_FR",
+    "en_US",
+    "es_ES",
+    "de_DE",
+    "ru_RU",
+    "id_ID",
+    "it_IT",
+    "ja_JP",
+    "pt_PT",
+    "tr"
+  ],
+  "compatibility": [
+    "rpi",
+    "docker",
+    "diy",
+    "mobile",
+    "v4"
+  ]
 }
