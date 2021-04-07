@@ -1,11 +1,43 @@
 {
     "id": "fitbit",
     "name": "Fitbit",
-    "description": "Plugin pour Fitbit",
+    "description": {
+        "fr_FR": "Plugin pour Fitbit",
+        "en_US": "Plugbit for Fitbit",
+        "es_ES": "Plugbit para Fitbit",
+        "de_DE": "Plugbit für Fitbit",
+        "pt_PT": "Plugin for Fitbit",
+        "ru_RU": "Plugin pour Fitbit",
+        "id_ID": "Plugin pour Fitbit",
+        "it_IT": "Plugin pour Fitbit",
+        "ja_JP": "Plugin pour Fitbit",
+        "tr": "Plugin pour Fitbit"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.3",
     "category": "health",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/health\/fitbit\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/health\/fitbit\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/health\/fitbit\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }
