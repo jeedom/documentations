@@ -71,12 +71,14 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Connected cable outlet||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.Centralized_ventilation_SW.png" width="60" />|Legrand|Micro VMC module||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Connected socket||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|DRIVIA connected contactor||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Wired switch connected with dimmer option without neutral||Can only be paired on channel 11, 13 or 15||
 |<img src="../../en_US/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Wireless double switch||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Module for connected lighting||Can only be paired on channel 11 or 15||
 |<img src="../../en_US/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Céliane mobile socket||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.Remote_fan_controller.png" width="60" />|Legrand|Fan switch||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Single wireless switch||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|BTICINO - Wired switch for roller shutters with positioning||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Wired switch connected for roller shutter||Can only be paired on channel 11||
@@ -511,4 +513,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-04-06 02:32:12
+2021-04-07 02:32:05

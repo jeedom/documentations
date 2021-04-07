@@ -71,12 +71,14 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Salida de cable conectada||Solo se puede emparejar en el canal 11||
+|<img src="../../es_ES/zigbee/images/Legrand.Centralized_ventilation_SW.png" width="60" />|Legrand|Módulo Micro VMC||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Toma conectada||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Contactor conectado DRIVIA||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Interruptor cableado conectado con opción de atenuador sin neutro||Solo se puede emparejar en el canal 11, 13 o 15||
 |<img src="../../es_ES/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Interruptor doble inalámbrico||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Módulo para iluminación conectada||Solo se puede emparejar en el canal 11 o 15||
 |<img src="../../es_ES/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Toma móvil Céliane||Solo se puede emparejar en el canal 11||
+|<img src="../../es_ES/zigbee/images/Legrand.Remote_fan_controller.png" width="60" />|Legrand|Interruptor de ventilador||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Interruptor inalámbrico único||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|BTICINO - Interruptor cableado para persianas enrollables con posicionamiento||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Interruptor cableado conectado para persiana enrollable||Solo se puede emparejar en el canal 11||
@@ -511,4 +513,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-04-06 02:32:12
+2021-04-07 02:32:05

@@ -71,12 +71,14 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Kabelanschluss angeschlossen||Kann nur auf Kanal 11 gekoppelt werden||
+|<img src="../../de_DE/zigbee/images/Legrand.Centralized_ventilation_SW.png" width="60" />|Legrand|Micro VMC-Modul||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Angeschlossene Steckdose||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|DRIVIA angeschlossenes Schütz||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Kabelschalter mit Dimmeroption ohne Neutralleiter verbunden||Kann nur auf Kanal 11, 13 oder 15 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Drahtloser Doppelschalter||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Modul für angeschlossene Beleuchtung||Kann nur auf Kanal 11 oder 15 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Céliane Mobilsteckdose||Kann nur auf Kanal 11 gekoppelt werden||
+|<img src="../../de_DE/zigbee/images/Legrand.Remote_fan_controller.png" width="60" />|Legrand|Lüfterschalter||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Einzelner Funkschalter||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|BTICINO - Kabelschalter für Rollläden mit Positionierung||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Kabelschalter für Rollladen angeschlossen||Kann nur auf Kanal 11 gekoppelt werden||
@@ -511,4 +513,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-04-06 02:32:12
+2021-04-07 02:32:05

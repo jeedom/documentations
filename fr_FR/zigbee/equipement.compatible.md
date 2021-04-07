@@ -71,12 +71,14 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zigbee/images/Legrand.Cable_outlet.png" width="60" />|Legrand|Sortie de câble connectée||Ne peut etre appairé que sur le canal 11||
+|<img src="../../fr_FR/zigbee/images/Legrand.Centralized_ventilation_SW.png" width="60" />|Legrand|Micro module VMC||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Prise connectée||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Contacteur connecté DRIVIA||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Interrupteur filaire connecté avec option variateur sans neutre||Ne peut etre appairé que sur le canal 11, 13 ou 15||
 |<img src="../../fr_FR/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Interrupteur double sans fil||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Module pour éclairage connecté||Ne peut etre appairé que sur le canal 11 ou 15||
 |<img src="../../fr_FR/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Prise mobile Céliane||Ne peut etre appairé que sur le canal 11||
+|<img src="../../fr_FR/zigbee/images/Legrand.Remote_fan_controller.png" width="60" />|Legrand|Interrupteur pour ventilateur||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Interrupteur simple sans fil||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|BTICINO - Interrupteur filaire pour volet roulant avec positionnement||Ne peut etre appairé que sur le canal 11||
 |<img src="../../fr_FR/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Interrupteur filaire connecté pour volet roulant||Ne peut etre appairé que sur le canal 11||
@@ -511,4 +513,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-04-06 02:32:12
+2021-04-07 02:32:05
