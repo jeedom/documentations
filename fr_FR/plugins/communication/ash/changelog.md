@@ -4,6 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 07/04/2021
+
+- Correction d'un bug sur les équipements utilisant le Mode Controller 
+- Correction d'un bug sur l'affichage des équipements NOK
+
+# 06/04/2021
+
 - Refonte du plugin
 - Ajout de nouveau type
 
