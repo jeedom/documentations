@@ -4,6 +4,13 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 07/04/2021
+
+- Corrigido um bug em dispositivos usando o modo de controlador 
+- Corrigido um bug no display do equipamento NOK
+
+# 06/04/2021
+
 - Redesenho do plugin
 - Adição de novo tipo
 

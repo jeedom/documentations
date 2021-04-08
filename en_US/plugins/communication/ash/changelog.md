@@ -4,6 +4,13 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 04/07/2021
+
+- Fixed a bug on devices using Controller Mode 
+- Fixed a bug on the display of NOK equipment
+
+# 04/06/2021
+
 - Redesign of the plugin
 - Addition of new type
 

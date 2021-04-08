@@ -4,6 +4,13 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 07/04/2021
+
+- Se corrigió un error en los dispositivos que usaban el modo controlador 
+- Se corrigió un error en la pantalla del equipo NOK
+
+# 06/04/2021
+
 - Rediseño del complemento
 - Adición de un nuevo tipo
 

@@ -4,6 +4,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 04/07/2021
+
+- Ein Fehler auf Geräten, die den Controller-Modus verwenden, wurde behoben 
+- Ein Fehler in der Anzeige von NOK-Geräten wurde behoben
+
+# 04/06/2021
+
 - Neugestaltung des Plugins
 - Hinzufügung eines neuen Typs
 
