@@ -194,6 +194,12 @@
 |<img src="../../fr_FR/zigbee/images/icasa.ICZB-R12D.png" width="60" />|Icasa|Rotary Dimmer||||
 |<img src="../../fr_FR/zigbee/images/icasa.RGB-CCT.png" width="60" />|Icasa|Icasa RGB||||
 
+# Idinio
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/idinio.Dimmer-Switch-ZB3.0.png" width="60" />|Idinio|Interrupteur variateur sur pied|Interrupteur,Variateur|||
+
 # Ikea
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -513,4 +519,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-04-07 02:32:05
+2021-04-08 02:32:05
