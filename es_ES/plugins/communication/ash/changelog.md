@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 08/04/2021
+
+- Arreglado un error en mi termostato
+
 # 07/04/2021
 
 - Se corrigió un error en los dispositivos que usaban el modo controlador 

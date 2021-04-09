@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 04/08/2021
+
+- Fixed a bug on my thermostat
+
 # 04/07/2021
 
 - Fixed a bug on devices using Controller Mode 

@@ -20,7 +20,7 @@
 
 >**IMPORTANT**
 >
->Suite a la mise à jour il faut refaire une detection des équipements depuis Alexa
+>Suite a la mise à jour il faut refaire une detection des équipements depuis Alexa (pensez bien a verifier la page de configuration des équipements a tranmettrent à Alexa que les types sont bien correcte, il y a des chose à adapter suite à la mise à jour)
 
 
 # 08/11/2020
