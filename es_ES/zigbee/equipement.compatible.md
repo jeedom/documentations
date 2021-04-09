@@ -508,6 +508,7 @@
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.switch.n0agl1.png" width="60" />|Xiaomi|AQARA - Micromódulo encendido / apagado con neutro|Contactor, medidor, potencia||[Comprar](https://www.domadoo.fr/fr/peripheriques/5386-aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-6970504213296.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|AQARA - Sensor de vibraciones|Detector, puerta, vibración||[Comprar](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|AQARA - Sensor de temperatura / presión / humedad|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4515-aqara-capteur-de-temperature-et-d-humidite-zigbee-6970504212510.html)|
+|<img src="../../es_ES/zigbee/images/LUMI.sen_ill.mgl01.png" width="60" />|Xiaomi|AQARA - Sensor de luz||||
 |<img src="../../es_ES/zigbee/images/XIAOMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|MI - Sensor de luz|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5486-xiaomi-mi-capteur-de-luminosite-zigbee-30-6934177710865.html)|
 |<img src="../../es_ES/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|MI - Toma conectada ON / OFF + Medida de consumo|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5305-xiaomi-prise-connectee-zigbee-mi-smart-plug-6934177706493.html)|
 |<img src="../../es_ES/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|AQARA - Detector de apertura inteligente|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
@@ -519,4 +520,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-04-08 02:32:05
+2021-04-09 02:32:05
