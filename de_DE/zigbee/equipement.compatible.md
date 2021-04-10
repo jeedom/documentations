@@ -97,6 +97,12 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/YSRSAI.ZB-CL01.png" width="60" />|Ysrai|YSRSAI - ZB-CL01||||
 
+# Zemismart
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+||Zemismart|Smart Load mit einer Last ohne Neutralleiter||||
+
 # Adeo
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -506,7 +512,7 @@
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|AQARA - Intelligenter Hochwassermelder|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.l0agl1.png" width="60" />|Xiaomi|AQARA - Mikromodul ein / aus ohne Neutralleiter|Schütz, Messgerät, Leistung||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5387-aqara-micromodule-onoff-zigbee-30-1250w-sans-neutre-6970504213302.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.n0agl1.png" width="60" />|Xiaomi|AQARA - Mikromodul ein / aus mit Neutralleiter|Schütz, Messgerät, Leistung||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5386-aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-6970504213296.html)|
-|<img src="../../de_DE/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|AQARA - Vibrationssensor|Detektor, Tür, Vibration||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|AQARA - Temperatur- / Druck- / Feuchtigkeitssensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4515-aqara-capteur-de-temperature-et-d-humidite-zigbee-6970504212510.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.sen_ill.mgl01.png" width="60" />|Xiaomi|AQARA - Lichtsensor||||
 |<img src="../../de_DE/zigbee/images/XIAOMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|MI - Lichtsensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5486-xiaomi-mi-capteur-de-luminosite-zigbee-30-6934177710865.html)|
@@ -520,4 +526,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-04-09 02:32:05
+2021-04-10 02:32:05

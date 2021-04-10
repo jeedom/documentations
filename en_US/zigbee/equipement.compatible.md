@@ -97,6 +97,12 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/YSRSAI.ZB-CL01.png" width="60" />|Ysrai|YSRSAI - ZB-CL01||||
 
+# Zemismart
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+||Zemismart|Single load smart switch without neutral||||
+
 # Adeo
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -506,7 +512,7 @@
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|AQARA - Intelligent flood detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.switch.l0agl1.png" width="60" />|Xiaomi|AQARA - Micromodule on / off without neutral|Contactor, Meter, Power||[Buy](https://www.domadoo.fr/fr/peripheriques/5387-aqara-micromodule-onoff-zigbee-30-1250w-sans-neutre-6970504213302.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.switch.n0agl1.png" width="60" />|Xiaomi|AQARA - Micromodule on / off with neutral|Contactor, Meter, Power||[Buy](https://www.domadoo.fr/fr/peripheriques/5386-aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-6970504213296.html)|
-|<img src="../../en_US/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|AQARA - Vibration sensor|Detector, Door, Vibration||[Buy](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
+|<img src="../../en_US/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|AQARA - Temperature / pressure / humidity sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/4515-aqara-capteur-de-temperature-et-d-humidite-zigbee-6970504212510.html)|
 |<img src="../../en_US/zigbee/images/LUMI.sen_ill.mgl01.png" width="60" />|Xiaomi|AQARA - Light sensor||||
 |<img src="../../en_US/zigbee/images/XIAOMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|MI - Light sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5486-xiaomi-mi-capteur-de-luminosite-zigbee-30-6934177710865.html)|
@@ -520,4 +526,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-04-09 02:32:05
+2021-04-10 02:32:05
