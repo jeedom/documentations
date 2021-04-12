@@ -36,6 +36,8 @@
         "compatible De nombreux modules seront rajoutés rapidement et en continue Nous vous conseillons de migrer avec precaution": "compatible De nombreux modules seront rajoutés rapidement et en continue Nous vous conseillons de migrer avec precaution",
         "MyhomeSCS": "MyhomeSCS",
         "Permet de gérer le protocole MyHome Bus": "Permet de gérer le protocole MyHome Bus",
+        "Lora Payload": "Lora Payload",
+        "Plugin permetant le traduire les Payloads Lora, uniquement destiné au projet de l'équipe Jeedom": "Plugin permetant le traduire les Payloads Lora, uniquement destiné au projet de l'équipe Jeedom",
         "IPX 800 v4": "IPX 800 v4",
         "Plugin pour piloter l'IPX 800": "Plugin pour piloter l'IPX 800",
         "ipx800 V2": "ipx800 V2",
@@ -315,6 +317,15 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
     },
     "plugins\/images\/index.md": {
+        "IMPORTANT": "IMPORTANT",
+        "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
+        "ici": "ici",
+        "Vous pouvez voir": "Vous pouvez voir",
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
+    },
+    "plugins\/lorapayload\/index.md": {
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",

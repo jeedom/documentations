@@ -2,7 +2,7 @@
 # Domotic protocol
 
 
->**Important**
+>**IMPORTANT**
 >Only official plugins have their documentation here. You can consult the documentation of the other plugins directly from the Jeedom Market. Once on the plugin in question, click on documentation.
 >You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automation+protocol) all official plugins in this category
 
@@ -19,6 +19,7 @@
 |<img src="ipx800/ipx800_icon.png" class="pluginLogo" width="100" />|ipx800 V3||[Documentation](ipx800/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=344)<br/>[Changelog](ipx800/changelog.md)|
 |<img src="ipx800v2/ipx800v2_icon.png" class="pluginLogo" width="100" />|ipx800 V2||[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1194)|
 |<img src="ipx800v4/ipx800v4_icon.png" class="pluginLogo" width="100" />|IPX 800 v4|Plugin to control the IPX 800|[Documentation](ipx800v4/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2046)<br/>[Changelog](ipx800v4/changelog.md)|
+|<img src="lorapayload/lorapayload_icon.png" class="pluginLogo" width="100" />|Lora Payload|Plugin allowing the Lora Payloads to be translated, only intended for the Jeedom team project|[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4146)|
 |<img src="myhomescs/myhomescs_icon.png" class="pluginLogo" width="100" />|MyhomeSCS|Allows you to manage the MyHome Bus protocol.|[Documentation](myhomescs/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3107)<br/>[Changelog](myhomescs/changelog.md)|
 |<img src="openenocean/openenocean_icon.png" class="pluginLogo" width="100" />|EnOcean|Plugin ajoutant le support du EnOcean à Jeedom https://jeedom.github.io/documentation/enocean/en_US/equipement.compatible Many modules will be added quickly and continuously We advise you to migrate carefully|[Documentation](openenocean/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2622)<br/>[Changelog](openenocean/changelog.md)|
 |<img src="openzwave/openzwave_icon.png" class="pluginLogo" width="100" />|Z-Wave|Plugin to control ZWave equipment via an openWave compatible ZWave key|[Documentation](openzwave/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=185)<br/>[Changelog](openzwave/changelog.md)|
@@ -26,4 +27,4 @@
 |<img src="rfxcom/rfxcom_icon.png" class="pluginLogo" width="100" />|RFXcom|Plugin to use the RFXcom USB. Allows you to control 433Mhz home automation equipment (Chacon, Oregon, La Crosse, X10, DI-O, Blyss...)|[Documentation](rfxcom/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=52)<br/>[Changelog](rfxcom/changelog.md)|
 |<img src="wattlet/wattlet_icon.png" class="pluginLogo" width="100" />|Wattlet|This plugin allows you to control Wattlet's Wattcubes modules via the Wattcube Web.|[Documentation](wattlet/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2600)<br/>[Changelog](wattlet/changelog.md)|
 |<img src="wes/wes_icon.png" class="pluginLogo" width="100" />|Wes|This plugin will allow you to integrate a CartElectronics wes|[Documentation](wes/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1336)<br/>[Changelog](wes/changelog.md)|
-|<img src="zigbee/zigbee_icon.png" class="pluginLogo" width="100" />|Zigbee|Zigbee plugin that can be used with Zigbee  : deconz, ezsp (Silicon labs) and in beta support with Zigate, Texas Instrument. Important : read the documentation carefully before any purchase|[Documentation](zigbee/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4050)<br/>[Changelog](zigbee/changelog.md)|
+|<img src="zigbee/zigbee_icon.png" class="pluginLogo" width="100" />|Zigbee|Zigbee plugin that can be used with Zigbee  : deconz, ezsp (Silicon labs) and in beta support with Zigate, Texas Instrument. IMPORTANT : read the documentation carefully before any purchase|[Documentation](zigbee/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4050)<br/>[Changelog](zigbee/changelog.md)|

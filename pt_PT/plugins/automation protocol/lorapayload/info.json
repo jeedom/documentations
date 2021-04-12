@@ -1,0 +1,29 @@
+{
+    "id": "lorapayload",
+    "name": "Lora Payload",
+    "description": {
+        "fr_FR": "Plugin permetant le traduire les Payloads Lora, uniquement destiné au projet de l'équipe Jeedom"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3.39",
+    "category": "automation protocol",
+    "hasDependency": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/lorapayload\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/lorapayload\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "v4"
+    ]
+}
