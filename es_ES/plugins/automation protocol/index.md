@@ -2,8 +2,8 @@
 # Protocolo de domótica
 
 
->**IMPORTANTE**
->Solo los complementos oficiales tienen su documentación aquí. Puede consultar la documentación de los otros complementos directamente desde Jeedom Market. Una vez en el complemento en cuestión, haga clic en documentación.
+>**Importante**
+>Solo los complementos oficiales tienen su documentación aquí. Puede consultar la documentación de los otros complementos directamente desde Jeedom Market. Una vez en el complemento en cuestión, haga clic en la documentación.
 >Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automation+protocol) todos los complementos oficiales en esta categoría
 
 
@@ -27,4 +27,4 @@
 |<img src="rfxcom/rfxcom_icon.png" class="pluginLogo" width="100" />|RFXcom|Plugin para usar el RFXcom USB. Le permite controlar equipos de automatización del hogar de 433Mhz (Chacon, Oregon, La Crosse, X10, DI-O, Blyss...)|[Documentación](rfxcom/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=52)<br/>[Cambios](rfxcom/changelog.md)|
 |<img src="wattlet/wattlet_icon.png" class="pluginLogo" width="100" />|Wattlet|Este complemento le permite controlar los módulos Wattcubes de Wattlet a través de la Web de Wattcube.|[Documentación](wattlet/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=2600)<br/>[Cambios](wattlet/changelog.md)|
 |<img src="wes/wes_icon.png" class="pluginLogo" width="100" />|Wes|Este complemento le permitirá integrar un wes de CartElectronics|[Documentación](wes/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1336)<br/>[Cambios](wes/changelog.md)|
-|<img src="zigbee/zigbee_icon.png" class="pluginLogo" width="100" />|Zigbee|Complemento de Zigbee que se puede utilizar con Zigbee  : deconz, ezsp (Silicon labs) y en soporte beta con Zigate, Texas Instrument. IMPORTANTE : Lea la documentación detenidamente antes de realizar cualquier compra|[Documentación](zigbee/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=4050)<br/>[Cambios](zigbee/changelog.md)|
+|<img src="zigbee/zigbee_icon.png" class="pluginLogo" width="100" />|Zigbee|Complemento de Zigbee que se puede utilizar con Zigbee  : deconz, ezsp (Silicon labs) y en soporte beta con Zigate, Texas Instrument. Importante : Lea la documentación detenidamente antes de realizar cualquier compra|[Documentación](zigbee/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=4050)<br/>[Cambios](zigbee/changelog.md)|
