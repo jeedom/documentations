@@ -4,7 +4,7 @@ Plug-in para controlar a rega automática usando a caixa GreenIQ. É possível d
 
 - Carro : a rega da zona é acionada de acordo com a programação GreenIQ 
 - Fora : a rega está desativada 
-- Nós : a rega é desencadeada (duração 3h)
+- Nós : a rega é iniciada (duração 3h)
 
 ![greeniq screenshot1](../images/greeniq_screenshot1.png)
 
@@ -26,7 +26,7 @@ A configuração de cada válvula também é possível e estão disponíveis 3 a
 
 1. Auto : a rega da zona é acionada de acordo com a programação GreenIQ
 2. Desligado : a rega está desativada
-3. Nós : a rega é desencadeada (duração 3h)
+3. Nós : a rega é iniciada (duração 3h)
 
 # Faq 
 

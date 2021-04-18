@@ -1,11 +1,33 @@
 {
     "id": "greeniq",
     "name": "GreenIQ",
-    "description": "Plugin pour commander un arrosage automatique via le module GreenIQ",
+    "description": {
+        "fr_FR": "Plugin pour commander un arrosage automatique via le module GreenIQ",
+        "en_US": "Plugin to control automatic watering via the GreenIQ module",
+        "es_ES": "Complemento para controlar el riego automático a través del módulo GreenIQ",
+        "de_DE": "Plugin zur Steuerung der automatischen Bewässerung über das GreenIQ-Modul",
+        "pt_PT": "Plugin para controlar a rega automática através do módulo GreenIQ"
+    },
     "licence": "AGPL",
     "author": "Thomas Martinez",
     "require": "3.0",
     "category": "nature",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/nature\/greeniq\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/nature\/greeniq\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/nature\/greeniq\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

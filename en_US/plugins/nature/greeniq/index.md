@@ -4,7 +4,7 @@ Plugin to control automatic watering using the GreenIQ box. It is possible to de
 
 - Auto : watering of the zone is triggered according to the GreenIQ programming 
 - Off : watering is disabled 
-- We : watering is triggered (duration 3h)
+- We : watering is started (duration 3h)
 
 ![greeniq screenshot1](./images/greeniq_screenshot1.png)
 
@@ -26,7 +26,7 @@ The configuration of each valve is also possible and 3 actions are available :
 
 1. Auto : watering of the zone is triggered according to the GreenIQ programming
 2. Off : watering is disabled
-3. We : watering is triggered (duration 3h)
+3. We : watering is started (duration 3h)
 
 # FAQ 
 

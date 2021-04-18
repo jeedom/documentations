@@ -4,7 +4,7 @@ Plugin zur Steuerung der automatischen Bewässerung über die GreenIQ-Box. Es is
 
 - Auto : Die Bewässerung der Zone wird gemäß der GreenIQ-Programmierung ausgelöst 
 - Aus : Bewässerung ist deaktiviert 
-- Ein : Bewässerung wird ausgelöst (Dauer 3h)
+- Ein : Bewässerung wird gestartet (Dauer 3h)
 
 ![greeniq screenshot1](./images/greeniq_screenshot1.png)
 
@@ -26,7 +26,7 @@ Die Konfiguration jedes Ventils ist ebenfalls möglich und es stehen 3 Aktionen 
 
 1. Auto : Die Bewässerung der Zone wird gemäß der GreenIQ-Programmierung ausgelöst
 2. Aus : Bewässerung ist deaktiviert
-3. Wir : Bewässerung wird ausgelöst (Dauer 3h)
+3. Wir : Bewässerung wird gestartet (Dauer 3h)
 
 # Faq 
 

@@ -4,7 +4,7 @@ Plugin para controlar el riego automático usando el cuadro GreenIQ. Es posible 
 
 - Auto : El riego de la zona se activa de acuerdo con la programación GreenIQ 
 - Apagado : el riego está deshabilitado 
-- Uno : se activa el riego (duración 3 h)
+- Uno : se inicia el riego (duración 3h)
 
 ![greeniq screenshot1](./images/greeniq_screenshot1.png)
 
@@ -26,7 +26,7 @@ La configuración de cada válvula también es posible y hay 3 acciones disponib
 
 1. Auto : El riego de la zona se activa de acuerdo con la programación GreenIQ
 2. Off : el riego está deshabilitado
-3. Nosotros : se activa el riego (duración 3 h)
+3. Nosotros : se inicia el riego (duración 3h)
 
 # Preguntas frecuentes 
 
