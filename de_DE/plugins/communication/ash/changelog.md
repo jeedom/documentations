@@ -20,7 +20,7 @@
 
 >**Wichtig**
 >
->Nach dem Update muss eine Erkennung der Geräte von Alexa wiederholt werden
+>Nach dem Update müssen Sie eine Geräteerkennung von Alexa wiederholen (denken Sie daran, auf der Konfigurationsseite des an Alexa gesendeten Geräts zu überprüfen, ob die Typen korrekt sind. Nach dem Update müssen einige Anpassungen vorgenommen werden)
 
 
 # 08/11/2020

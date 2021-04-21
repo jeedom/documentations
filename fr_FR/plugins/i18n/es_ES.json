@@ -60,8 +60,8 @@
         " Changelog*": " Cambios*"
     },
     "plugins\/automation protocol\/index.md": {
-        "bien lire la documentation avant tout achat": "Lea la documentación detenidamente antes de realizar cualquier compra",
-        "Plugin zigbee pouvant etre utilisé avec les Zigbee": "Complemento de Zigbee que se puede utilizar con Zigbee",
+        "Il est important de bien lire la documentation du plugin avant tout achat": "Es importante leer detenidamente la documentación del complemento antes de realizar cualquier compra",
+        "Plugin offrant une compatibilité généralisée avec différents types de contrôleurs Zigbee tels que deCONZ et EZSP (Silicon labs), et en support beta": "Complemento que ofrece compatibilidad general con diferentes tipos de controladores Zigbee como deCONZ y EZSP (Silicon labs), y en soporte beta",
         "Ce plugin va vous permettre d'intégrer un wes de CartElectronics": "Este complemento le permitirá integrar un wes de CartElectronics",
         "Ce plugin permet de piloter les modules Wattcubes de Wattlet via le Wattcube Web": "Este complemento le permite controlar los módulos Wattcubes de Wattlet a través de la Web de Wattcube",
         "Permet de piloter les équipements domotiques de type 433Mhz ( Chacon, Oregon, La Crosse, X10, DI-O, Blyss": "Le permite controlar equipos de automatización del hogar de 433Mhz (Chacon, Oregon, La Crosse, X10, DI-O, Blyss",
@@ -102,7 +102,7 @@
         "Ce plugin remplacera à terme le premier plugin": "Este complemento eventualmente reemplazará al primer complemento",
         "Il sera mis à disposition de tous les possesseurs du premier plugin": "Se pondrá a disposición de todos los propietarios del primer complemento",
         "Cela permettra à chacun de migrer tranquillement": "Esto permitirá que todos migren en silencio",
-        "deconz, ezsp (Silicon labs) et en support beta avec Zigate, Texas Instrument": "deconz, ezsp (Silicon labs) y en soporte beta con Zigate, Texas Instrument",
+        "Zigate, XBee et Texas Instruments": "Zigate, XBee y Texas Instruments",
         " Zigbee.": " Zigbee.",
         " Zigbee?": " Zigbee?",
         "Zigbee ": "Zigbee ",

@@ -20,7 +20,7 @@
 
 >**Importante**
 >
->Tras la actualización es necesario rehacer una detección del equipo desde Alexa
+>Luego de la actualización, debes rehacer una detección de equipo de Alexa (recuerda revisar la página de configuración del equipo enviado a Alexa que los tipos son correctos, hay cosas que adaptar después de la actualización)
 
 
 # 08/11/2020

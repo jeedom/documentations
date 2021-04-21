@@ -20,7 +20,7 @@
 
 >**Important**
 >
->Following the update it is necessary to redo a detection of the equipment from Alexa
+>Following the update, you must redo an equipment detection from Alexa (remember to check the configuration page of the equipment sent to Alexa that the types are correct, there are things to adapt following the update)
 
 
 # 08/11/2020
