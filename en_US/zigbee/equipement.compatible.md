@@ -74,16 +74,21 @@
 |<img src="../../en_US/zigbee/images/Legrand.Centralized_ventilation_SW.png" width="60" />|Legrand|Micro VMC module||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Connected socket||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|DRIVIA connected contactor||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.DIN_power_consumption_module.jpg" width="60" />|Legrand|DIN power consumption module||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Wired switch connected with dimmer option without neutral||Can only be paired on channel 11, 13 or 15||
-|<img src="../../en_US/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Wireless double switch||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Wireless dual control||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Module for connected lighting||Can only be paired on channel 11 or 15||
 |<img src="../../en_US/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Céliane mobile socket||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Remote_fan_controller.png" width="60" />|Legrand|Fan switch||Can only be paired on channel 11||
-|<img src="../../en_US/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Single wireless switch||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.Remote_motion_sensor.png" width="60" />|Legrand|Movement detector||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Simple wireless control||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.Remote_switch_wake_up__Sleep.png" width="60" />|Legrand|Toggle command||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.Remote_toggle_switch.png" width="60" />|Legrand|Toggle command||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Shutter_SW_with_level_control.png" width="60" />|Legrand|BTICINO - Wired switch for roller shutters with positioning||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Shutter_switch_with_neutral.png" width="60" />|Legrand|Wired switch connected for roller shutter||Can only be paired on channel 11||
-|<img src="../../en_US/zigbee/images/Legrand.Shutters_central_remote_switch.png" width="60" />|Legrand|Connected wireless switch for roller shutter||Can only be paired on channel 11||
-|<img src="../../en_US/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Wireless switch for 4 scene control||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.Shutters_central_remote_switch.png" width="60" />|Legrand|Wireless control for roller shutter||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.Teleruptor.png" width="60" />|Legrand|Remote switch||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.Wireless_Scenes_Command.png" width="60" />|Legrand|Scene command||Can only be paired on channel 11||
 
 # SZ
 
@@ -96,6 +101,13 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/YSRSAI.ZB-CL01.png" width="60" />|Ysrai|YSRSAI - ZB-CL01||||
+
+# Zemismart
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/TYZB01_mtlhqn48.TS0012.png" width="60" />|Zemismart|Single load smart switch without neutral||||
+|<img src="../../en_US/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Zemismart|Single load smart switch without neutral||||
 
 # Adeo
 
@@ -126,11 +138,11 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/CASAIA.CDWS312.png" width="60" />|Casaia|Door detector|Ouverture|||
+|<img src="../../en_US/zigbee/images/CASAIA.CDWS312.png" width="60" />|Casaia|Smart door detector|Ouverture|||
 |<img src="../../en_US/zigbee/images/CASAIA.CKF205.png" width="60" />|Casaia|4 button remote control|||[Buy](https://www.domadoo.fr/fr/peripheriques/5580-casaia-telecommande-keyfob-4-boutons-zigbee-3770021021205.html)|
-|<img src="../../en_US/zigbee/images/CASAIA.CMS323.png" width="60" />|Casaia|Multi sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5571-casaia-multi-sensor-zigbee-mouvements-vibrations-temperature-humidite-3770021021045.html)|
+|<img src="../../en_US/zigbee/images/CASAIA.CMS323.png" width="60" />|Casaia|Multi-sensor movements / vibrations / temperature / humidity|||[Buy](https://www.domadoo.fr/fr/peripheriques/5571-casaia-multi-sensor-zigbee-mouvements-vibrations-temperature-humidite-3770021021045.html)|
 |<img src="../../en_US/zigbee/images/CASAIA.CPB206.png" width="60" />|Casaia|SOS button||||
-|<img src="../../en_US/zigbee/images/CASAIA.CTHS317ET.png" width="60" />|Casaia|Temperature sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5572-casaia-sonde-de-temperature-deportee-sur-cable-zigbee-3770021021052.html)|
+|<img src="../../en_US/zigbee/images/CASAIA.CTHS317ET.png" width="60" />|Casaia|Remote temperature probe on cable|||[Buy](https://www.domadoo.fr/fr/peripheriques/5572-casaia-sonde-de-temperature-deportee-sur-cable-zigbee-3770021021052.html)|
 
 # Danalock
 
@@ -166,13 +178,14 @@
 |<img src="../../en_US/zigbee/images/gledopto.GL-C-006P.png" width="60" />|Gledopto|Warm and cool white LED strip smart controller||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-C-008S.png" width="60" />|Gledopto|GL-C-008S||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-G-001ZS.png" width="60" />|Gledopto|GL-G-001ZS||||
+|<img src="../../en_US/zigbee/images/gledopto.GL-S-004Z.png" width="60" />|Gledopto|GL-S-004Z||||
 
 # Heiman
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/HEIMAN.COSensor-EM.png" width="60" />|Heiman|Carbon monoxide detector||||
-|<img src="../../en_US/zigbee/images/HEIMAN.DoorBell-EM.png" width="60" />|Heiman|Sonnette||||
+|<img src="../../en_US/zigbee/images/HEIMAN.DoorBell-EM.png" width="60" />|Heiman|Connected doorbell||||
 |<img src="../../en_US/zigbee/images/HEIMAN.RC-EM.png" width="60" />|Heiman|4 button remote control||||
 |<img src="../../en_US/zigbee/images/HEIMAN.SOS-EF-3.0.png" width="60" />|Heiman|SOS button||||
 |<img src="../../en_US/zigbee/images/HEIMAN.SceneSwitch-EM-3.0.png" width="60" />|Heiman|4 button remote control||||
@@ -193,6 +206,12 @@
 |<img src="../../en_US/zigbee/images/icasa.ICZB-KPD14S.png" width="60" />|Icasa|Pulse 4S Wall Controller||||
 |<img src="../../en_US/zigbee/images/icasa.ICZB-R12D.png" width="60" />|Icasa|Rotary Dimmer||||
 |<img src="../../en_US/zigbee/images/icasa.RGB-CCT.png" width="60" />|Icasa|Icasa RGB||||
+
+# Idinio
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/idinio.Dimmer-Switch-ZB3.0.png" width="60" />|Idinio|Dimmer switch on foot|Switch, Dimmer|||
 
 # Ikea
 
@@ -237,6 +256,13 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/konke.3AFE140103020000.png" width="60" />|Konke|Temperature and humidity probe||||
 |<img src="../../en_US/zigbee/images/konke.3AFE14010402000D.png" width="60" />|Konke|Konke Motion sensor||||
+
+# Ledavance
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/LEDAVANCE.Outdoor_FLEX_RGBW_Z3.png" width="60" />|Ledavance|Outdoor FLEX RGBW Z3||||
+|<img src="../../en_US/zigbee/images/LEDAVANCE.Plug_Z3.png" width="60" />|Ledavance|Smart socket + Plug Z3||||
 
 # Lellki
 
@@ -311,8 +337,10 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/Philips.LBW006.png" width="60" />|Philips|Hue White A60 E27||||
 |<img src="../../en_US/zigbee/images/Philips.LCA001.png" width="60" />|Philips|Hue White and Color Ambiance A60 E27||||
 |<img src="../../en_US/zigbee/images/Philips.LCL001.png" width="60" />|Philips|Hue LightStrip Plus||||
+|<img src="../../en_US/zigbee/images/Philips.LCS001.png" width="60" />|Philips|Hue Outdoor Lily XL||||
 |<img src="../../en_US/zigbee/images/Philips.LCT001.png" width="60" />|Philips|Hue bulb white and color||||
 |<img src="../../en_US/zigbee/images/Philips.LCT002.png" width="60" />|Philips|Hue White and Color BR30 (1st Gen)||||
 |<img src="../../en_US/zigbee/images/Philips.LCT003.png" width="60" />|Philips|Hue White and Color Ambiance Spot GU10||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
@@ -343,11 +371,13 @@
 |<img src="../../en_US/zigbee/images/Philips.LTW001.png" width="60" />|Philips|Hue white and color||Please note that there is no status feedback for this model, only an order sending is possible||
 |<img src="../../en_US/zigbee/images/Philips.LTW010.png" width="60" />|Philips|Hue White Ambiance A19 E26 / E27||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/Philips.LTW012.png" width="60" />|Philips|LTW012||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
-|<img src="../../en_US/zigbee/images/Philips.LTW013.png" width="60" />|Philips|LTW013||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
+|<img src="../../en_US/zigbee/images/Philips.LTW013.png" width="60" />|Philips|White GU10 smart bulb||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/Philips.LWA001.png" width="60" />|Philips|Hue White Ambiance E27||Please note that there is no status feedback for this model, only an order sending is possible||
+|<img src="../../en_US/zigbee/images/Philips.LWB004.png" width="60" />|Philips|GU10 Philips HUE||||
 |<img src="../../en_US/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Hue White B22||Please note that there is no status feedback for this model, only an order sending is possible||
 |<img src="../../en_US/zigbee/images/Philips.LWE002.png" width="60" />|Philips|Hue White Candle E14||Please note that there is no status feedback for this model, only an order sending is possible||
 |<img src="../../en_US/zigbee/images/Philips.LWG001.png" width="60" />|Philips|Hue White GU10||||
+|<img src="../../en_US/zigbee/images/Philips.LWG004.png" width="60" />|Philips|GU10 Philips HUE||||
 |<img src="../../en_US/zigbee/images/Philips.LWU001.png" width="60" />|Philips|Hue E14 P45||||
 |<img src="../../en_US/zigbee/images/Philips.LWV001.png" width="60" />|Philips|Hue White Filament Bulb ST64 E27||||
 |<img src="../../en_US/zigbee/images/Philips.ROM001.png" width="60" />|Philips|Variateur||||
@@ -373,8 +403,8 @@
 |<img src="../../en_US/zigbee/images/Schneider_Electric.CCTFR6700.png" width="60" />|Schneider|Wiser electric heater actuator|||[Buy](https://www.domadoo.fr/fr/chauffage-clim/5498-schneider-electric-actionneur-pour-radiateur-electrique-fil-pilote-zigbee-30-wiser-3606481914705.html)|
 |<img src="../../en_US/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Wiser Exxact dimmer rotary|Variateur|||
 |<img src="../../en_US/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|Wiser micro dimmer module|Variateur|||
-|<img src="../../en_US/zigbee/images/Schneider_Electric.PUCKSHUTTER1.png" width="60" />|Schneider|Puck shutter 1|Volets||[Documentation](https://download.schneider-electric.com/files?p_enDocType=System+user+guide&p_File_Name=Merten_PL_Wiser_TIs_DE.pdf&p_Doc_Ref=Merten_PL_Wiser_TIs_DE)<br/>|
-|<img src="../../en_US/zigbee/images/Schneider_Electric.PUCKSWITCH1.png" width="60" />|Schneider|Wiser Micro Module Switch|Interrupteur|||
+|<img src="../../en_US/zigbee/images/Schneider_Electric.PUCKSHUTTER1.png" width="60" />|Schneider|Connected module for roller shutters|Volets||[Documentation](https://download.schneider-electric.com/files?p_enDocType=System+user+guide&p_File_Name=Merten_PL_Wiser_TIs_DE.pdf&p_Doc_Ref=Merten_PL_Wiser_TIs_DE)<br/>|
+|<img src="../../en_US/zigbee/images/Schneider_Electric.PUCKSWITCH1.png" width="60" />|Schneider|Wiser ON / OFF switch module|Interrupteur|||
 |<img src="../../en_US/zigbee/images/Schneider_Electric.Thermostat.png" width="60" />|Schneider|Wiser connected room thermostat|Thermostat, Heating||[Buy](https://www.domadoo.fr/fr/thermostats/5496-schneider-electric-thermostat-d-ambiance-connecte-zigbee-30-wiser-3606489710194.html)|
 |<img src="../../en_US/zigbee/images/Schneider_Electric.iTRV.png" width="60" />|Schneider|Wiser connected thermostatic valve head|Thermostatic head, Heating||[Buy](https://www.domadoo.fr/fr/tetes-thermostatiques/5497-schneider-electric-tete-de-vanne-thermostatique-connectee-zigbee-30-wiser-3606489582821.html)|
 
@@ -423,6 +453,7 @@
 |<img src="../../en_US/zigbee/images/TYZB01_dazsid15.TS0302.png" width="60" />|Tuya|Connected switch for roller shutter||||
 |<img src="../../en_US/zigbee/images/TYZB01_iuepbmp.TS0121.png" width="60" />|Tuya|Smart ON / OFF switch||||
 |<img src="../../en_US/zigbee/images/TYZB01_mqel1whf.TS0013.png" width="60" />|Tuya|Triple switch||||
+|<img src="../../en_US/zigbee/images/TYZB01_phjeraqq.TS0001.png" width="60" />|Tuya|Tuya Zigbee - Switch 16A||||
 |<img src="../../en_US/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Single charge smart switch||||
 |<img src="../../en_US/zigbee/images/TYZB01_v8gtiaed.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3 light microModule.0 double dimmer||||
 |<img src="../../en_US/zigbee/images/TYZB01_vkwryfdr.TS0115.png" width="60" />|Tuya|USEELINK - Connected strip 4 sockets and 2 USB ports|||[Buy](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html)|
@@ -434,12 +465,14 @@
 |<img src="../../en_US/zigbee/images/TZ3000_92chsky7.TS110F.png" width="60" />|Tuya|Dimmer 2 voices||||
 |<img src="../../en_US/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Smart double switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BLITZWOLF - EU 16A smart plug||||
+|<img src="../../en_US/zigbee/images/TZ3000_hktqahrq.TS0001.png" width="60" />|Tuya|Gigier JR-ZDS01||||
 |<img src="../../en_US/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|Mini RGB Led Strip Controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_m0vaazab.TS0207.png" width="60" />|Tuya|Range extender||||
 |<img src="../../en_US/zigbee/images/TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Connected power strip 4 sockets and 2 USB ports||||
 |<img src="../../en_US/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Dual ON / OFF connected module||||
 |<img src="../../en_US/zigbee/images/TZ3000_pmvbt5hh.TS0011.png" width="60" />|Tuya|Simple ON / OFF connected module without neutral||||
 |<img src="../../en_US/zigbee/images/TZ3000_pmz6mjyu.TS011F.png" width="60" />|Tuya|MOES - Dual ON / OFF connected module||||
+|<img src="../../en_US/zigbee/images/TZ3000_rdtixbnu.TS0121.png" width="60" />|Tuya|Single charge smart switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|RGBW LED strip controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|Intelligent roller shutter module||||
 |<img src="../../en_US/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 button smart switch with batteries||||
@@ -480,7 +513,7 @@
 |<img src="../../en_US/zigbee/images/LUMI.lumi.plug.mmeu01.png" width="60" />|Xiaomi|MI - ON / OFF connected socket + Consumption measurement|||[Buy](https://www.domadoo.fr/fr/peripheriques/5305-xiaomi-prise-connectee-zigbee-mi-smart-plug-6934177706493.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.relay.c2acn01.png" width="60" />|Xiaomi|AQARA - Smart bidirectional module||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.remote.b186acn01.png" width="60" />|Xiaomi|AQARA - Smart wireless single switch|||[Buy](https://www.domadoo.fr/fr/peripheriques/4516-xiaomi-interrupteur-mural-simple-sans-fil-zigbee-aqara-6970504210)|
-|<img src="../../en_US/zigbee/images/LUMI.lumi.remote.b1acn01.png" width="60" />|Xiaomi|AQARA - Smart wireless switch|Remote control, Switch||[Buy](https://www.domadoo.fr/fr/peripheriques/4669-aqara-interrupteur-sans-fil-intelligent-zigbee-192784000052.html)|
+|<img src="../../en_US/zigbee/images/LUMI.lumi.remote.b1acn01.png" width="60" />|Xiaomi|AQARA - Smart Wireless Switch (REV1)|Remote control, Switch||[Buy](https://www.domadoo.fr/fr/peripheriques/4669-aqara-interrupteur-sans-fil-intelligent-zigbee-192784000052.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|AQARA - Wireless double switch|||[Buy](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.remote.b286acn02.png" width="60" />|Xiaomi|AQARA - Wireless double switch|||[Buy](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.remote.b686opcn01.png" width="60" />|Xiaomi|AQARA - OPPLE 6-button smart wireless switch||||
@@ -495,13 +528,15 @@
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|AQARA - Intelligent motion sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_motion.png" width="60" />|Xiaomi|AQARA - Intelligent motion sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/4518-aqara-detecteur-de-mouvement-zigbee-192784000090.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_smoke.png" width="60" />|Xiaomi|MIJIA - Smart smoke detector||||
-|<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_switch.aq2.png" width="60" />|Xiaomi|AQARA - Smart wireless switch|Remote control, Switch||[Buy](https://www.domadoo.fr/fr/peripheriques/4669-aqara-interrupteur-sans-fil-intelligent-zigbee-192784000052.html)|
+|<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_switch.aq2.png" width="60" />|Xiaomi|AQARA - Smart Wireless Switch (REV2)|Remote control, Switch||[Buy](https://www.domadoo.fr/fr/peripheriques/4669-aqara-interrupteur-sans-fil-intelligent-zigbee-192784000052.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_switch.png" width="60" />|Xiaomi|MIJIA - Smart wireless switch||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|AQARA - Intelligent flood detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
+|<img src="../../en_US/zigbee/images/LUMI.lumi.switch.b2nacn02.png" width="60" />|Xiaomi|AQARA - Smart wall switch D1||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.switch.l0agl1.png" width="60" />|Xiaomi|AQARA - Micromodule on / off without neutral|Contactor, Meter, Power||[Buy](https://www.domadoo.fr/fr/peripheriques/5387-aqara-micromodule-onoff-zigbee-30-1250w-sans-neutre-6970504213302.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.switch.n0agl1.png" width="60" />|Xiaomi|AQARA - Micromodule on / off with neutral|Contactor, Meter, Power||[Buy](https://www.domadoo.fr/fr/peripheriques/5386-aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-6970504213296.html)|
-|<img src="../../en_US/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|AQARA - Vibration sensor|Detector, Door, Vibration||[Buy](https://www.domadoo.fr/fr/peripheriques/4667-xiaomi-capteur-de-vibration-zigbee-aqara-192784000113.html)|
+|<img src="../../en_US/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|AQARA - Temperature / pressure / humidity sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/4515-aqara-capteur-de-temperature-et-d-humidite-zigbee-6970504212510.html)|
+|<img src="../../en_US/zigbee/images/LUMI.sen_ill.mgl01.png" width="60" />|Xiaomi|AQARA - Light sensor||||
 |<img src="../../en_US/zigbee/images/XIAOMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|MI - Light sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5486-xiaomi-mi-capteur-de-luminosite-zigbee-30-6934177710865.html)|
 |<img src="../../en_US/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|MI - ON / OFF connected socket + Consumption measurement|||[Buy](https://www.domadoo.fr/fr/peripheriques/5305-xiaomi-prise-connectee-zigbee-mi-smart-plug-6934177706493.html)|
 |<img src="../../en_US/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|AQARA - Intelligent opening detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
@@ -513,4 +548,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-04-21 02:32:05
+2021-04-22 02:32:06
