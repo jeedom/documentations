@@ -223,4 +223,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-27 de abril de 2021 02:20:04
+2021-04-28 02:20:03
