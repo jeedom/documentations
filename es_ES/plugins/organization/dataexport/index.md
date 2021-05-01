@@ -28,7 +28,7 @@ Para administrar sus diferentes lotes de exportación, vaya al menú **Complemen
 >El botón **+ Agregar** le permite crear un nuevo lote de exportación.
 
 Puede dar un nombre al lote de exportación, asignarle un objeto principal *(útil para identificar el comando de envío de exportación en un escenario)* y activarlo o desactivarlo.    
-Marcar la casilla **Estadísticas** le permite optar por una exportación de estadísticas *(media, min., max., suma, desviación estándar, número de valores, último valor)* en lugar de valores brutos.
+Marcar la casilla **Estadísticas** le permite optar por una exportación de estadísticas *(media, min., max., suma, desviación estándar, varianza, número de valores, último valor)* en lugar de valores brutos.
 
 ### Elija la periodicidad de la exportación
 
@@ -109,7 +109,7 @@ Complete el **Título** *(facultatif)* así como el **Comando de acción / mensa
 >
 >En cuanto al envío por programación, es posible utilizar [**etiquetas de escenario**](https://doc.jeedom.com/es_ES/core/4.1/scenario#Les%20tags){:target = "\_ blank"} en el título de envío y el archivo será archivado automáticamente por el complemento si no se ingresa ningún comando de envío.
 
-# Importación de datos
+# Datos de importacion
 
 >**IMPORTANTE**
 >
@@ -117,13 +117,13 @@ Complete el **Título** *(facultatif)* así como el **Comando de acción / mensa
 
 Para acceder a la herramienta de importación de valor, vaya a la página general del complemento y luego haga clic en el botón **Importar**.
 
-![Exportación de datos - Importar des données](./images/dataexport_import.png)
+![Exportación de datos - Datos de importacion](./images/dataexport_import.png)
 
 La ventana de importación se utiliza para integrar valores en el historial de una orden de tipo Info desde un archivo `*.csv` siempre que :
 - El archivo contiene una columna denominada Fecha,
 - El archivo contiene una columna denominada Valor,
-- La fecha está en formato internacional *(empezar con el mes o el año)*,
-- El separador de columnas debe ser un punto y coma.
+- El separador de columna es un punto y coma,
+- El formato de fecha se ha introducido correctamente (francés \|international).
 
 ## Enviar datos
 
@@ -144,9 +144,9 @@ Si ya existe un historial en el pedido para el período afectado por la importac
 Si hay un historial en el pedido durante la fase afectada por la importación, la herramienta le preguntará cómo desea administrar estos datos.
 
 3 opciones son posibles :
-- Mantenga todos los datos ya presentes en el historial,
-- Reemplace solo los valores duplicados entre el archivo csv y el historial,
-- Sobrescribir todos los datos históricos durante el período.
+- **Conservar todos los datos** ya presente en la historia,
+- **Reemplazar solo valores duplicados** entre el archivo csv y el historial,
+- **Sobrescribir todos los datos** en la historia durante el período.
 
 ## Iniciar importación
 

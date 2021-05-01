@@ -28,7 +28,7 @@ Para gerenciar seus diferentes lotes de exportação, vá para o menu **Plugins 
 >O botão **acrescentar** permite que você crie um novo lote de exportação.
 
 Você pode dar um nome ao lote de exportação, atribuí-lo a um objeto pai *(útil para identificar o comando export send em um cenário)* e ativar ou desativar.    
-Verifica a caixa **Estatisticas** permite que você opte por uma exportação de estatísticas *(significa, min., max., soma, desvio padrão, número de valores, último valor)* em vez de valores brutos.
+Verifica a caixa **Estatisticas** permite que você opte por uma exportação de estatísticas *(significa, min., max., soma, desvio padrão, variância, número de valores, último valor)* em vez de valores brutos.
 
 ### Escolha a periodicidade da exportação
 
@@ -109,7 +109,7 @@ Preencha o **Título** *(facultatif)* bem como o **Comando de ação / mensagem 
 >
 >Quanto ao envio por programação, é possível utilizar [**tags de cenário**](https://doc.jeedom.com/pt_PT/core/4.1/scenario#Les%20tags){:target = "\_ blank"} no título de envio e o arquivo será arquivado automaticamente pelo plugin se nenhum comando de envio for inserido.
 
-# Importação de dados
+# Importar dados
 
 >**IMPORTANTE**
 >
@@ -117,13 +117,13 @@ Preencha o **Título** *(facultatif)* bem como o **Comando de ação / mensagem 
 
 Para acessar a ferramenta de importação de valor, vá até a página geral do plugin e clique no botão **Importar**.
 
-![Exportação de Dados - Importar des données](../images/dataexport_import.png)
+![Exportação de Dados - Importar dados](../images/dataexport_import.png)
 
 A janela de importação é usada para integrar valores no histórico de um pedido de tipo de informação de um arquivo `*.csv` desde que :
 - O arquivo contém uma coluna chamada Data,
 - O arquivo contém uma coluna chamada Value,
-- A data está em formato internacional *(comece com o mês ou ano)*,
-- O separador de coluna deve ser um ponto e vírgula.
+- O separador de coluna é um ponto e vírgula,
+- O formato da data foi inserido corretamente (francês \|international).
 
 ## Enviar dados
 
@@ -144,9 +144,9 @@ Se já existir um histórico no pedido para o período em questão pela importa�
 Se houver um histórico do pedido durante a fase de importação, a ferramenta perguntará como você deseja gerenciar esses dados.
 
 3 escolhas são possíveis :
-- Mantenha todos os dados já presentes no histórico,
-- Substitua apenas valores duplicados entre o arquivo csv e o histórico,
-- Substituir todos os dados históricos ao longo do período.
+- **Mantenha todos os dados** já presente na história,
+- **Substitua apenas valores duplicados** entre o arquivo csv e o histórico,
+- **Sobrescrever todos os dados** na história ao longo do período.
 
 ## Iniciar importação
 

@@ -28,7 +28,7 @@ Um Ihre verschiedenen Exportstapel zu verwalten, gehen Sie zum Menü **Plugins �
 >Die Schaltfläche **+ Hinzufügen** Mit dieser Option können Sie einen neuen Exportstapel erstellen.
 
 Sie können dem Exportstapel einen Namen geben und ihm ein übergeordnetes Objekt zuweisen *(nützlich, um den Befehl export send in einem Szenario zu identifizieren)* und aktivieren oder deaktivieren Sie es.    
-Aktivieren Sie das Kontrollkästchen **Statistiken** Mit dieser Option können Sie sich für den Export von Statistiken entscheiden *(meine, min., max., Summe, Standardabweichung, Anzahl der Werte, letzter Wert)* anstelle von Rohwerten.
+Aktivieren Sie das Kontrollkästchen **Statistiken** Mit dieser Option können Sie sich für den Export von Statistiken entscheiden *(meine, min., max., Summe, Standardabweichung, Varianz, Anzahl der Werte, letzter Wert)* anstelle von Rohwerten.
 
 ### Wählen Sie die Periodizität des Exports
 
@@ -109,7 +109,7 @@ Füllen Sie die aus **Titel** *(facultatif)* sowie die **Aktion / Nachricht Befe
 >
 >Das Senden per Programmierung ist möglich [**Szenario-Tags**](https://doc.jeedom.com/de_DE/core/4.1/scenario#Les%20tags){:target = "\_ blank"} im Sendetitel und die Datei wird vom Plugin automatisch archiviert, wenn kein Sendebefehl eingegeben wird.
 
-# Datenimport
+# Daten importieren
 
 >**WICHTIG**
 >
@@ -117,13 +117,13 @@ Füllen Sie die aus **Titel** *(facultatif)* sowie die **Aktion / Nachricht Befe
 
 Um auf das Wertimport-Tool zuzugreifen, rufen Sie die allgemeine Seite des Plugins auf und klicken Sie auf die Schaltfläche **Importieren**.
 
-![Datenexport - Importieren des données](./images/dataexport_import.png)
+![Datenexport - Daten importieren](./images/dataexport_import.png)
 
 Das Importfenster wird verwendet, um Werte aus einer Datei in den Verlauf einer Reihenfolge vom Typ "Info" zu integrieren*.csv` vorausgesetzt, dass :
 - Die Datei enthält eine Spalte mit dem Namen Datum,
 - Die Datei enthält eine Spalte mit dem Namen Value,
-- Das Datum ist im internationalen Format *(Beginnen Sie mit dem Monat oder Jahr)*,
-- Das Spaltentrennzeichen muss ein Semikolon sein.
+- Das Spaltentrennzeichen ist ein Semikolon,
+- Das Datumsformat ist korrekt eingegeben (Französisch \|international).
 
 ## Daten senden
 
@@ -144,9 +144,9 @@ Wenn in der Bestellung für den vom Import betroffenen Zeitraum bereits ein Verl
 Wenn während der Phase des Imports ein Verlauf in der Bestellung vorhanden ist, werden Sie vom Tool gefragt, wie Sie diese Daten verwalten möchten.
 
 3 Auswahlmöglichkeiten sind möglich :
-- Behalten Sie alle Daten bei, die bereits in der Historie vorhanden sind,
-- Ersetzen Sie nur doppelte Werte zwischen CSV-Datei und Verlauf,
-- Überschreiben Sie alle historischen Daten im Zeitraum.
+- **Behalten Sie alle Daten** bereits in der Geschichte vorhanden,
+- **Ersetzen Sie nur doppelte Werte** zwischen der CSV-Datei und dem Verlauf,
+- **Überschreiben Sie alle Daten** in der Geschichte im Laufe der Zeit.
 
 ## Import starten
 

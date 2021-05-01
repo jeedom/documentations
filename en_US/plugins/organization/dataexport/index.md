@@ -28,7 +28,7 @@ To manage your different export batches, go to the menu **Plugins → Organizati
 >The button **+ Add** allows you to create a new export batch.
 
 You can give a name to the export batch, assign it a parent object *(useful to identify the export send command in a scenario)* and activate or deactivate it.    
-Check the box **Statistics** allows you to opt for an export of statistics *(mean, min., max., sum, standard deviation, number of values, last value)* instead of raw values.
+Check the box **Statistics** allows you to opt for an export of statistics *(mean, min., max., sum, standard deviation, variance, number of values, last value)* instead of raw values.
 
 ### Choose the periodicity of the export
 
@@ -109,7 +109,7 @@ Fill in the **Title** *(facultatif)* as well as **Action / Message command to se
 >
 >As for sending by programming, it is possible to use [**scenario tags**](https://doc.jeedom.com/en_US/core/4.1/scenario#Les%20tags){:target = "\_ blank"} in the sending title and the file will be automatically archived by the plugin if no sending command is entered.
 
-# Data import
+# Import data
 
 >**IMPORTANT**
 >
@@ -117,13 +117,13 @@ Fill in the **Title** *(facultatif)* as well as **Action / Message command to se
 
 To access the value import tool, go to the general page of the plugin then click on the button **Import**.
 
-![Data Export - Import des données](./images/dataexport_import.png)
+![Data Export - Import data](./images/dataexport_import.png)
 
 The import window is used to integrate values in the history of an Info type order from a file `*.csv` provided that :
 - The file contains a column named Date,
 - The file contains a column named Value,
-- The date is in international format *(start with the month or year)*,
-- Column separator must be a semicolon.
+- The column separator is a semicolon,
+- The date format is correctly entered (French \|international).
 
 ## Send data
 
@@ -144,9 +144,9 @@ If a history already exists on the order for the period concerned by the import,
 If there is a history on the order during the phase concerned by the import, the tool will ask you how you want to manage this data.
 
 3 choices are possible :
-- Keep all data already present in history,
-- Replace only duplicate values between csv file and history,
-- Overwrite all historical data over the period.
+- **Keep all data** already present in history,
+- **Replace only duplicate values** between the csv file and the history,
+- **Overwrite all data** in history over the period.
 
 ## Start import
 

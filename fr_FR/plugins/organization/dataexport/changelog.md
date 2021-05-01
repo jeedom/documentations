@@ -1,8 +1,12 @@
-# Changelog plugin Data Export
+# Changelog Data Export
 
 >**IMPORTANT**
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+
+# 30/04/2021
+
+- Nouvelle option permettant de sélectionner le format des dates du fichier `csv` lors d'une importation de données *(français \| international)*
 
 # 02/04/2021
 

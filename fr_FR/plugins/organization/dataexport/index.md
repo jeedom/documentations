@@ -1,7 +1,5 @@
 # Plugin Data Export
 
-# Description
-
 Plugin permettant de générer et de gérer l'archivage d'exports d'historique des commandes de son choix vers un fichier `*.csv`.
 
 Le plugin offre la possibilité d'exporter les valeurs brutes de chaque commande sur la période sélectionnée ou bien les statistiques de celle-ci : **moyenne, min., max., somme, écart type, nombre de valeurs, dernière valeur**.
@@ -102,7 +100,7 @@ Vous pouvez également réaliser l'envoi du fichier d'export sur le canal de vot
 
 ![Data Export - Envoi via scénario](./images/dataexport_scenarioSend.png)
 
-Pour se faire, il faut sélectionner la commande **Envoi Export CSV** correspondant au lot d'exportation voulu dans un bloc *Action* d'un scénario.
+Il faut alors sélectionner la commande **Envoi Export CSV** correspondant au lot d'exportation voulu dans un bloc *Action* d'un scénario.
 Renseignez le **Titre** *(facultatif)* ainsi que la **commande Action/Message pour envoi de l'export** sur le canal voulu *(facultatif)*.
 
 > **ASTUCE**
@@ -110,6 +108,10 @@ Renseignez le **Titre** *(facultatif)* ainsi que la **commande Action/Message po
 >Comme pour l'envoi par programmation, il est possible d'utiliser [**des tags de scénario**](https://doc.jeedom.com/fr_FR/core/4.1/scenario#Les%20tags){:target="\_blank"} dans le titre de l'envoi et le fichier sera automatiquement archivé par le plugin si aucune commande d'envoi n'est renseignée.
 
 # Importer des données
+
+Si vous désirez intégrer des données dans l'historique d'une commande Jeedom, vous avez la possibilité d'utiliser cet outil. Pour se faire, vous devez envoyer un fichier tableur portant l'extension `csv` **avec séparateurs point-virgule** contenant une colonne des valeurs à intégrer et une colonne des horodatages correspondants.
+
+Attention aux horodatages qui peuvent être interprétés et modifiés en fonction de l'application tableur que vous utilisez. Par exemple, **Excel** a tendance à supprimer les secondes automatiquement et à formater la date au format français par défaut. Dans ce cas, il faudra indiquer un format personnalisé de type `jj/mm/aaaa hh:mm:ss` ou `yyyy-mm-dd hh:mm:ss` pour les cellules contenant un horodatage.
 
 >**IMPORTANT**
 >
@@ -120,18 +122,18 @@ Pour accéder à l'outil d'import de valeurs, dirigez-vous vers la page généra
 ![Data Export - Importer des données](./images/dataexport_import.png)
 
 La fenêtre d'import permet d'intégrer des valeurs en historique d'une commande de type Info à partir d'un fichier `*.csv` à condition que :
-- Le fichier contienne une colonne nommée Date,
-- Le fichier contienne une colonne nommée Valeur,
-- La date soit au format international *(débuter par le mois ou l'année)*,
-- Le séparateur de colonnes doit être un point-virgule.
+- Le fichier contienne **une colonne nommée Date**,
+- Le fichier contienne **une colonne nommée Valeur**,
+- Le séparateur de colonnes soit **un point-virgule**,
+- Le **format des dates** soit correctement renseigné (français \| international).
 
 ## Envoyer les données
 
 Cliquez sur le bouton pour sélectionner un fichier `CSV`. Une fois chargé, le fichier est vérifié et les informations importantes sont affichées à l'écran :
-- Nom et taille du fichier,
-- Nombre de lignes à traiter,
-- Période concernée par l'import,
-- Dates et valeurs à importer.
+- **Nom et taille** du fichier,
+- **Nombre de lignes** à traiter,
+- **Période** concernée par l'import,
+- **Dates et valeurs** à importer.
 
 ## Réceptionner les données
 
