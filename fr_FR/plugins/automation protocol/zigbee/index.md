@@ -3,13 +3,13 @@
 **Le plugin Zigbee pour Jeedom** se base sur l'excellent travail effectué autour de **la librairie open-source Zigpy** pour offrir une **compatibilité généralisée avec les différents matériels Zigbee**. Il permet de communiquer avec les contrôleurs Zigbee suivants :
 
 -	**deCONZ** : Testé et validé par l’équipe Jeedom. *(Il n’est pas nécessaire d'installer l'application deCONZ)*
--	**EZSP (Silicon Labs)** : Testé et validé par l’équipe Jeedom.
+-	**EZSP (Silicon Labs)** : Testé, validé et recommandé par l’équipe Jeedom.
 -	**XBee** : Non testé par l’équipe Jeedom.
--	**Zigate** : Non testé par l’équipe. *(en expérimental dans Zigpy)*
--	**ZNP (Texas Instruments, Z-stack 3.X.X)** : Non testé par l’équipe. *(en expérimental dans Zigpy)*
--	**CC (Texas Instruments, Z-stack 1.2.X)** : Non testé par l’équipe. *(en expérimental dans Zigpy)*
+-	**Zigate** : Non testé par l’équipe. 
+-	**ZNP (Texas Instruments, Z-stack 3.X.X)** : Non testé par l’équipe.
+-	**CC (Texas Instruments, Z-stack 1.2.X)** : Non testé par l’équipe.
 
-De plus, le plugin contient de nombreux outils permettant :
+De plus, le plugin est doté de nombreux outils permettant :
 
 - la prise en charge de **plusieurs contrôleurs à la fois**,
 - la **sauvegarde et la restauration** d'un contrôleur,
@@ -33,7 +33,8 @@ De plus, le plugin contient de nombreux outils permettant :
 >
 >Tout changement de canal nécessitera un redémarrage du démon. Un changement de canal peut également nécessiter la ré-inclusion de certains modules.
 
-### Configuration avancée Zigpy (reservé aux experts !)
+### Configuration avancée Zigpy
+>**Réservé aux experts !**
 
 Il est possible de mettre en place des paramètres spécifiques pour le sous-système Zigbee *(Zigpy)*. Cette partie est strictement réservée aux experts, c'est pourquoi l'équipe Jeedom ne fournit pas la liste des paramètres possibles *(il en existe des centaines dépendants du type de contrôleur)*.
 
@@ -95,7 +96,7 @@ Si votre module est bien inclus mais pas reconnu automatiquement par Jeedom *(pa
 
 Pour solliciter l'ajout d'un nouveau matériel, il est nécessaire de fournir les éléments suivants :
 
-- **le modèle exact** du module avec un lien vers le site d'achat,
+- **le modèle exact** du module avec un lien vers le site d'achat et une image représentative sur fond transparent (`png`),
 - Sur la page de l'équipement, cliquer sur le bouton bleu **Configuration du module** puis onglet **Informations brutes**. Copier le contenu pour le transmettre à l'équipe Jeedom,
 - Mettre le démon en `debug` depuis la page de configuration du plugin et le redémarrer. Effectuer des actions sur l'équipement *(si c'est un capteur de température faire varier la température, si c'est une vanne faire varier la consigne, etc...)* et envoyer le log `zigbee` *(pas `zigbeed`)*.
 
@@ -103,7 +104,8 @@ Pour solliciter l'ajout d'un nouveau matériel, il est nécessaire de fournir le
 >
 >Toute demande incomplète sera refusée sans réponse de la part de l’équipe Jeedom.
 
-### Fonctionnement des commandes pour les experts
+### Fonctionnement des commandes
+>**Réservé aux experts !**
 
 Nous expliquons ci-après le fonctionnement des commandes dans le plugin à l'attention des utilisateurs les plus avancés :
 
@@ -174,7 +176,7 @@ Il n’existe malheureusement pas d’indicateur simple permettant de suivre l�
 2020-02-27 15:51:18 [DEBUG][0x7813:1:0x0019] OTA upgrade progress: 0.0
 ````
 
-# Touchlink
+# Touchlink/Lightlink
 
 **Touchlink** *(ou Lightlink)* est une fonction particulière du Zigbee qui permet au contrôleur d’envoyer des ordres de gestion à un module à condition d'être très proche de celui-ci *(moins de 50 centimètres)*. Cela est utile, par exemple, pour faire une remise à zéro sur des ampoules ne possédant pas de bouton physique.
 
@@ -190,13 +192,25 @@ Comme souvent en Zigbee, les difficultés peuvent intervenir lors du processus d
   - **pour les télécommandes Ikea**, appuyer sur le bouton "reset" *(a côté de la batterie)* pendant 5 à 10 secondes près de l'ampoule alimentée *(il faut parfois éteindre/allumer l'ampoule juste avant sur certains modèles)*.
 - Concernant les **ampoules Philips Hue**, vous pouvez également les inclure sur le pont Hue puis les supprimer de celui-ci.
 
+# Gestion des groupes
+
+Un groupe peut être apparenté à une sorte de télécommande virtuelle permettant au contrôleur d'agir sur plusieurs modules afin de leur faire exécuter les mêmes actions simultanément.
+
+La procédure est simple : créez un nouveau groupe et ajoutez ou supprimez des équipements membres au sein de celui-ci.
+
 # Binding
 
-Le binding permet de lier 2 modules directement entre eux sans que les ordres ne transitent par Jeedom. Le lien se fait d'un cluster vers le même cluster d'un autre module. Il faut toujours faire le lien depuis la commande (type télécommande) vers l'actionneur.
+Le binding permet de lier des modules directement entre eux sans que les ordres ne transitent par le contrôleur. Le lien se fait d'un cluster *(entrée/sortie)* vers le même cluster d'un autre module. Il faut toujours faire le lien depuis la commande (type télécommande) vers l'actionneur.
 
 Vous retrouverez les éléments de gestion du binding, s'il est pris en charge par votre module, dans l'onglet **Information** de la fenêtre de configuration du module.
 
-Certains modules ne sont pas compatibles avec le binding et d'autres *(tels que les modules Ikea)* ne supportent le binding que de la commande vers un groupe, il est donc nécessaire de commencer par faire un groupe dans lequel il faudra mettre l'actionneur.
+![Binding Zigbee](./images/zigbee_binding.png)
+
+Certains modules ne sont pas compatibles avec le binding et d'autres *(tels que les modules Ikea)* ne supportent le binding que de la commande vers un groupe, il est donc nécessaire de commencer par créer un nouveau groupe dans lequel il faudra placer l'actionneur.
+
+>**IMPORTANT**
+>
+>Lors de la mise en place (ou suppression) d'un binding il faut absolument reveillé le module source (télécommande par exemple) pour que celui-ci prenne en compte l'information de binding
 
 # Réseaux Zigbee
 
@@ -208,7 +222,7 @@ Le graphique du réseau permet d'avoir une vision d'ensemble du réseau Zigbee e
 
 >**INFORMATION**
 >
->Le graphique du réseau Zigbee est à titre indicatif et se base sur les voisins que les modules déclarent. Cela ne représente donc pas forcément le routage réel mais un routage possible.
+>Le graphique du réseau Zigbee est à titre indicatif et se base sur les voisins que les modules déclarent. Cela ne représente donc pas forcément le routage réel mais les routes possibles.
 
 ## Optimiser le réseau
 
@@ -217,7 +231,7 @@ Afin d'optimiser la fiabilité de votre réseau Zigbee, **il est plus que recomm
 Autre point important, il se peut, lors de la suppression d’un module routeur, qu’une partie des "end-device" *(modules non routeurs)* soit perdue pendant un temps plus ou moins long *(en dizaine d’heures voire plus)* ou même définitivement et que vous ayez à les ré-inclure.
 Malheureusement cela est dû à la manière dont la fabricant a prévu l'intégration de son matériel au sein d'un réseau Zigbee et ne peut donc pas être corrigé par le plugin qui ne gère pas la partie routage.
 
-Pour finir et même si cela peut paraître évident pour certains, nous rappelons que les passerelles Zigbee en Wifi sont moins fiables que les passerelles USB. L'équipe Jeedom conseille donc l'utilisation d'une passerelle Zigbee en USB.  
+Pour finir et même si cela peut paraître évident pour certains, nous rappelons que les passerelles Zigbee en Wifi ou distantes sont par définition moins fiables que les passerelles USB. L'équipe Jeedom conseille donc l'utilisation d'une passerelle Zigbee en USB.  
 
 # FAQ
 
@@ -225,21 +239,21 @@ Pour finir et même si cela peut paraître évident pour certains, nous rappelon
 >
 >Les valeurs sont normalement vidées après le redémarage du démon zigbee. Il faut attendre que le module communique à nouveau pour que les valeurs soient renseignées.
 
-
 >**J'ai des soucis d'inclusion ou  des erreurs dans les logs de type ``TXStatus.MAC_CHANNEL_ACCESS_FAILURE``**
 >
 >Il faut essayer de supprimer ou de changer la rallonge USB si vous en utilisez une ou d'en installer une si vous n'en utilisez pas.
 
-
 >**J'ai des erreurs ``can not send to device`` ou ``send error`` ou ``Message send failure``**
 >
->C’est en général dû à un souci de routage. le routage est plus ou moins fixe en Zigbee mais non symétrique, un module peut utiliser une route différente pour répondre que celle utilisée pour lui parler. Souvent l’arrêt électrique *(retrait des piles par exemple)* et remise du courant *(ou remise des piles)* suffit à régler le problème.
-
+>C’est en général dû à un souci de routage. le routage est plus ou moins fixe en Zigbee mais non symétrique, un module peut utiliser une route différente pour répondre que celle utilisée pour lui parler. Souvent l’arrêt électrique *(retrait des piles par exemple)* et remise du courant *(ou remise des piles)* suffit à régler le problème. Il peut également être corrigé en :
+>- mettant ou remplaçant la rallonge USB,
+>- utilisant un autre port USB (en particulier les ports USB des Raspberry Pi qui semblent poser des difficultés),
+>- mettant un hub USB alimenté,
+>- déplaçant la clé afin d'éviter les interférences *(le Zigbee est très sensible aux interférences, notamment car il utilise la même fréquence que le wifi)*.
 
 >**J’ai des erreurs bizarres sur des modules sur piles ou des soucis d’inclusion**
 >
 >Nous avons remarqué qu’une bonne partie des problèmes des modules sur batterie sont dûs aux piles ou éventuellement des problèmes de remise à zéro des modules avant inclusion. Même si celles-ci semblent neuves, il est conseillé de tester avec de nouvelles piles pour écarter cette hypothèse.
-
 
 >**J'ai des soucis de mise à jour des valeurs de l'équipement**
 >
