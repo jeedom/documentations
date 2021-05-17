@@ -6,6 +6,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 05/2021
+
+- Implementierung eines automatischen Programmiersystems
+- Möglichkeit der Integration von Historien nach Bedarf
+- Bessere Datenverarbeitung und Integration
+- Neuorganisation von Konfigurationseinstellungen, Dateien und Dokumentation
+
 # 18.02.2021
 
 - Abhängigkeitsverwaltung hinzugefügt, um das Vorhandensein von "php-mbstring" zu bestätigen, das bei einigen Installationen nicht vorhanden ist

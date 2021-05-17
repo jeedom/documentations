@@ -6,6 +6,13 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
 
+# 05/2021
+
+- Implementation of an auto-programming system
+- Possibility of integrating histories on demand
+- Better data processing and integration
+- Reorganization of configuration settings, files and documentation
+
 # 02/18/2021
 
 - Added dependency management to confirm the presence of `php-mbstring` absent on some installations

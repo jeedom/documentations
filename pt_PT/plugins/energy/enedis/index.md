@@ -1,7 +1,5 @@
 # Plugin Enedis
 
-# Description
-
 Plugin que permite a recuperação de dados de consumo de eletricidade de medidores inteligentes *(linky por exemplo)* questionando o [conta de cliente **Enedis**](https://mon-compte.enedis.fr/auth/XUI/#login/&realm=/enedis&forward=true){:target = "\_ em branco"}.
 
 >**IMPORTANTE**
@@ -12,8 +10,6 @@ Plugin que permite a recuperação de dados de consumo de eletricidade de medido
 
 5 dados são relatados para cada tipo de medição :
 - o **consumo por hora** por meia hora *(em kW)*.
->*Também chamado de "curva de carga", esse dado retorna a potência exigida / injetada em média ao longo de meia hora.*
-
 - o **consumo diário** *(em kWh)*.
 - o **consumo mensal** *(em kWh)*.
 - o **consumo anual** *(em kWh)*.
@@ -23,27 +19,19 @@ Plugin que permite a recuperação de dados de consumo de eletricidade de medido
 >    
 >Como os dados não são disponibilizados em tempo real, o plugin recupera os dados de consumo de eletricidade da véspera de cada dia.
 
-# Configuration
+Enquanto o plug-in não recuperou todos os dados do dia anterior, ele continua a pesquisar os servidores Enedis a cada hora entre 7h e 20h, caso contrário, as chamadas serão suspensas até o dia seguinte.
 
-## Configuração do plugin
+# Configuration
 
 Como qualquer plugin Jeedom, o plugin **Enedis** deve ser ativado após a instalação.
 
+## Gerenciamento de dependências
+
 O plugin requer a presença do pacote Linux `php-mbstring` normalmente presente por padrão, então o status de dependência deve ser **Certo** assim que o plugin for instalado. Caso contrário, clique no botão **Reviver** para instalar o pacote que falta.
 
-Enquanto o plugin não recuperou todos os dados do dia anterior, ele continua a pesquisar os servidores a cada hora entre 5h e 20h, caso contrário, as chamadas serão suspensas até o dia seguinte.
+## Configuração do plugin
 
-Para não sobrecarregar os servidores Enedis, as chamadas são feitas em um minuto aleatório que pode ser visualizado ou modificado na página de configuração do plugin.
-
-## Configuração do equipamento
-
-Para acessar os diferentes equipamentos **Enedis**, vá para o menu **Plugins → Energia → Enedis**.
-
->**EM FORMAÇÃO**
->    
->O botão **acrescentar** permite que você adicione um novo medidor / PDL.
-
-Se ainda não o fez, comece por autorizar a partilha de dados Enedis com a Jeedom clicando no botão **Link Enedis com Jeedom : Eu acesso minha área de cliente Enedis** :      
+Se ainda não o fez, comece por autorizar a partilha de dados Enedis com a Jeedom clicando no botão **Autorizar acesso aos servidores Enedis : Eu acesso minha área de cliente Enedis** da página de configuração do plugin :      
 
 ![Lien espace-client Enedis](../images/link_enedis.png)
 
@@ -63,9 +51,17 @@ Depois que o compartilhamento de dados é validado, esta página é exibida :
 >    
 >Se você não conseguir acessar nenhuma dessas páginas, desative o bloqueador de anúncios do navegador.
 
-Uma vez que o compartilhamento de dados foi autorizado, tudo o que resta é informar **o número de identificação do Ponto de Entrega** preocupado *(PDL)* e a **tipo de medição** para voltar.
+## Configuração do equipamento
 
-Ao salvar o equipamento pela primeira vez, o plugin irá criar automaticamente os comandos necessários e integrar os históricos disponíveis no site da Enedis até 3 anos atrás.
+Para acessar os diferentes equipamentos **Enedis**, vá para o menu **Plugins → Energia → Enedis**.
+
+>**EM FORMAÇÃO**
+>    
+>O botão **acrescentar** permite que você adicione um novo medidor / PDL.
+
+Uma vez que o compartilhamento de dados foi autorizado na página de configuração do plugin, tudo que você precisa fazer é entrar **o número de identificação do Ponto de Entrega** preocupado *(PDL)* e a **tipo de medição** para voltar.
+
+Durante o 1º backup de um dispositivo ativo e configurado, o plugin irá criar automaticamente os comandos necessários e integrar os históricos disponíveis no site da Enedis desde 1º de janeiro do corrente ano. Este processo provavelmente levará vários minutos, você pode acompanhar o progresso no menu **Análise → Logs** *(loga ``debug``)*.
 
 >**DICA**
 >
@@ -75,17 +71,31 @@ Ao salvar o equipamento pela primeira vez, o plugin irá criar automaticamente o
 >
 >Os dados de consumo por hora são recuperados nos últimos 7 dias, no máximo.
 
+## Adicionando dados
+
+É possível integrar histórias sob demanda, até 3 anos atrás, diretamente do site da Enedis. Para fazer isso, basta clicar no botão azul **Acréscimos históricos** da guia **Pedidos** de um item de equipamento, na coluna **Açao** da ordem em questão :
+
+![Ajout d'historiques](../images/enedis_addHistory.png)
+
+Em seguida, escolha a data de início e clique em **Certo** para iniciar o processo.
+
+Os dados de dia, mês, ano e potência máxima serão integrados a partir da data escolhida até 1º de janeiro do ano atual. Os dados horários, quando o forem, serão integrados em até 7 dias após a data escolhida.
+
+>**EM FORMAÇÃO**
+>
+>Essas restrições de tempo são definidas pela Enedis.
+
 # Template de widget
+
+>**EM FORMAÇÃO**
+>     
+>O modelo do widget será exibido nas versões desktop e móvel.
 
 O plugin oferece a possibilidade de exibir dados de consumo e / ou produção em um template de widget que imita a aparência de um medidor *Linky*. O clique no botão "**- \| +**" permite passar do consumo para a produção para quem tem acesso a 2 tipos de medidas.
 
 ![Template de widget](../images/enedis_screenshot1.png)
 
 Para ativar esta opção, basta marcar a caixa **Template de widget** na página geral do equipamento em questão. Uma vez que a caixa é marcada, uma opção permite que você selecione a cor de fundo do widget *(163, 204, 40 por padrão)*.
-
->**EM FORMAÇÃO**
->     
->O modelo do widget será exibido nas versões desktop e móvel.
 
 >**DICA**
 >     

@@ -6,6 +6,13 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
 
+# 20/0521
+
+- Implementación de un sistema de autoprogramación
+- Posibilidad de integrar historias bajo demanda
+- Mejor procesamiento e integración de datos
+- Reorganización de los parámetros de configuración, archivos y documentación
+
 # 18/02/2021
 
 - Se agregó administración de dependencias para confirmar la presencia de `php-mbstring` ausente en algunas instalaciones
