@@ -357,6 +357,8 @@
         "De nombreuses autres fonctions sont aussi présentes": "De nombreuses autres fonctions sont aussi présentes",
         "SqueezeBox Control": "SqueezeBox Control",
         "Ce plugin vous permet de contrôler vos Squeezebox": "Ce plugin vous permet de contrôler vos Squeezebox",
+        "Spotify": "Spotify",
+        "Plugin permettant de connecter Jeedom à un ou plusieurs comptes Spotify Connect": "Plugin permettant de connecter Jeedom à un ou plusieurs comptes Spotify Connect",
         "il faut au minimum PHP 7.0": "il faut au minimum PHP 7.0",
         "Sonos controller": "Sonos controller",
         "Plugin de contrôle de Sonos\/Ikea Symfonisk": "Plugin de contrôle de Sonos\/Ikea Symfonisk",

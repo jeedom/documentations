@@ -1,0 +1,41 @@
+{
+    "id": "spotifyconnect",
+    "name": "Spotify",
+    "description": {
+        "fr_FR": "Plugin permettant de connecter Jeedom à un ou plusieurs comptes Spotify Connect.",
+        "en_US": "Plugin for connecting Jeedom to one or more Spotify Connect accounts",
+        "es_ES": "Complemento para conectar Jeedom a una o más cuentas de Spotify Connect",
+        "de_DE": "Plugin zum Verbinden von Jeedom mit einem oder mehreren Spotify Connect-Konten",
+        "ru_RU": "Plugin permettant de connecter Jeedom à un ou plusieurs comptes Spotify Connect",
+        "id_ID": "Plugin permettant de connecter Jeedom à un ou plusieurs comptes Spotify Connect",
+        "it_IT": "Plugin permettant de connecter Jeedom à un ou plusieurs comptes Spotify Connect",
+        "ja_JP": "Plugin permettant de connecter Jeedom à un ou plusieurs comptes Spotify Connect",
+        "pt_PT": "Plugin para conectar o Jeedom a uma ou mais contas do Spotify Connect",
+        "tr": "Plugin permettant de connecter Jeedom à un ou plusieurs comptes Spotify Connect"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.1",
+    "hasOwnDeamon": true,
+    "category": "multimedia",
+    "display": "panel",
+    "mobile": "panel",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/spotifyconnect\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/spotifyconnect\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
+}
