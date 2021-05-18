@@ -167,7 +167,7 @@ Um von OTA-Updates zu profitieren, müssen Sie das entsprechende Kontrollkästch
 
 Aktualisierungen werden bei Verfügbarkeit oder auf Anforderung des Moduls automatisch durchgeführt. Es ist möglich, die Aktualisierung eines Moduls über die Registerkarte zu erzwingen **Aktionen** aus dem Modulkonfigurationsfenster auf der Geräteseite.
 
-Leider gibt es keinen einfachen Indikator, um den Fortschritt des Updates zu verfolgen. Die einzige Lösung besteht darin, auf die "zigbee_X" -Protokolle im Debug zu verweisen und nach dem Begriff "OTA" zu suchen. Sie können diesen Protokolltyp sehen, wenn ein Modul aktualisiert wird :
+Leider gibt es keinen einfachen Indikator, um den Fortschritt des Updates zu verfolgen. Die einzige Lösung besteht darin, beim Debuggen auf die "zigbeed_X" -Protokolle zu verweisen und nach dem Begriff "OTA" zu suchen. Sie können diesen Protokolltyp sehen, wenn ein Modul aktualisiert wird :
 
 ````````
 2020-02-27 15:51:10 [DEBUG][0x7813:1:0x0019] OTA query_next_image handler for 'IKEA of Sweden TRADFRI control outlet': field_control=1, manufacture_id=4476, image_type=4353, current_file_version=536974883, hardware_version=60
@@ -191,6 +191,24 @@ Wie so oft in Zigbee können während des Zurücksetzens oder des Zuordnungsproz
   - **für Philips Hue Fernbedienungen**, Drücken Sie gleichzeitig die EIN- und AUS-Tasten 5 bis 10 Sekunden lang in der Nähe der Glühbirne *(Manchmal muss bei einigen Modellen die Glühbirne kurz zuvor ein- und ausgeschaltet werden)*,
   - **für Ikea-Fernbedienungen**, Drücken Sie die Reset-Taste" *(neben der Batterie)* für 5 bis 10 Sekunden in der Nähe der Glühbirne *(Manchmal muss bei einigen Modellen die Glühbirne kurz zuvor ein- und ausgeschaltet werden)*.
 - Über die **Philips Hue Glühbirnen**, Sie können sie auch in die Hue Bridge aufnehmen und dann daraus entfernen.
+
+# Greenpower
+
+Die Greenpower-Technologie wird vom Plugin unterstützt (Zigpy-Patch, der sie noch nicht nativ unterstützt...).
+
+>**Wichtig**
+>
+>Im Moment funktioniert Greenpower nur mit EZSP-Schlüsseln (Elelabs, popp...). Deconz-Unterstützung wird später kommen 
+
+Hinzufügen eines Greenpower-Moduls 2 Möglichkeiten : 
+
+- Wechseln Sie in den Einschlussmodus und drücken Sie eine Taste am Modul. Bitte beachten Sie, dass dies einem ungesicherten Zusatz entspricht (jeder, der den Rahmen des Moduls abfängt, kann ihn an Ihr Jeedom zurücksenden)
+- Lesen Sie den QR-Code des Moduls und kopieren Sie die Zeichenfolge im Teil "Inbetriebnahme" von Jeedom. Dies entspricht einer sicheren Hinzufügung (dem Verschlüsselungsschlüssel und im QRcode))
+
+
+>**Wichtig**
+>
+>Standardmäßig befinden sich die Schalter auf Kanal 11. Es ist unbedingt erforderlich, dass sich der Schlüssel und der Schalter auf demselben Kanal befinden. Ich lasse Sie die Dokumentation konsultieren, um den Kanal der Schalter zu ändern (ich persönlich finde die Manipulation nicht einfach, der kleinste Fehler zwingt Sie, von vorne zu beginnen, im Allgemeinen dauert es eine gute Stunde)
 
 # Gruppenmanagement
 
@@ -260,3 +278,7 @@ Schließlich und auch wenn es einigen offensichtlich erscheint, erinnern wir Sie
 > 2 Möglichkeiten :
 > - Es ist ein ZLL-Modul *(Siehe die Konfiguration der Jeedom-Ausrüstung, die angibt, ob es sich um ZHA oder ZLL handelt)*. In diesem Fall benötigen Sie unbedingt einen Befehl "Aktualisieren", damit Sie oder Jeedom die Aktualisierung der Werte erzwingen. Wenn dieser Befehl im Gerät nicht vorhanden ist, müssen Sie sich an den Jeedom-Support wenden, damit er in der nächsten stabilen Version hinzugefügt wird. Sobald Sie fertig sind, klicken Sie auf die Schaltfläche **Befehle neu erstellen** ohne Löschung.
 > -	Das Modul befindet sich in ZHA, daher ist es ein Anliegen der Inklusion. In der Registerkarte **Aktion** In der Modulkonfiguration befindet sich eine Schaltfläche **Modul zurücksetzen** Erlauben, Aktionen nach der Aufnahme zu erzwingen. Es muss darauf geachtet werden, dass das Modul wach bleibt, wenn es im Akkubetrieb ist.
+
+>**Mein Modul leert seine Batterien sehr schnell**
+>
+>Überprüfen Sie, ob sich auf Ihrem ZigBee-Schlüssel eine aktuelle Firmware befindet. In 90% der Fälle kommt ein übermäßiger Batterieverbrauch von der Firmware des Schlüssels, bei dem ein Problem auftritt.

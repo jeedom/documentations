@@ -167,7 +167,7 @@ Afin de bénéficier des mises à jour OTA, il faut cocher la case correspondant
 
 Les mises à jour s'effectuent automatiquement en cas de disponibilité ou si le module en fait la demande. Il est possible de forcer la mise à jour d'un module depuis l'onglet **Actions** de la fenêtre de configuration du module sur la page de l'équipement.
 
-Il n’existe malheureusement pas d’indicateur simple permettant de suivre l’avancement de la mise à jour, la seule solution est de se référer aux log `zigbee_X` en debug et de chercher le terme `OTA`. Vous pourrez voir ce type de log lorsqu'un module se met à jour :
+Il n’existe malheureusement pas d’indicateur simple permettant de suivre l’avancement de la mise à jour, la seule solution est de se référer aux log `zigbeed_X` en debug et de chercher le terme `OTA`. Vous pourrez voir ce type de log lorsqu'un module se met à jour :
 
 ````
 2020-02-27 15:51:10 [DEBUG][0x7813:1:0x0019] OTA query_next_image handler for 'IKEA of Sweden TRADFRI control outlet': field_control=1, manufacture_id=4476, image_type=4353, current_file_version=536974883, hardware_version=60
@@ -191,6 +191,24 @@ Comme souvent en Zigbee, les difficultés peuvent intervenir lors du processus d
   - **pour les télécommandes Philips Hue**, appuyer en même temps sur les boutons ON et OFF pendant 5 à 10 secondes près de l'ampoule alimentée *(il faut parfois éteindre/allumer l'ampoule juste avant sur certains modèles)*,
   - **pour les télécommandes Ikea**, appuyer sur le bouton "reset" *(a côté de la batterie)* pendant 5 à 10 secondes près de l'ampoule alimentée *(il faut parfois éteindre/allumer l'ampoule juste avant sur certains modèles)*.
 - Concernant les **ampoules Philips Hue**, vous pouvez également les inclure sur le pont Hue puis les supprimer de celui-ci.
+
+# Greenpower
+
+La technologie Greenpower est supportée par le plugin (patch de zigpy qui ne le supporte pas nativement encore...).
+
+>**IMPORTANT**
+>
+>Pour le moment le Greenpower ne marche qu'avec les clef de type EZSP (Elelabs, popp...). Le support de deconz arrivera plus tard 
+
+Pour ajouter un module Greenpower 2 possibilités : 
+
+- passer en mode inclusion, appuyer sur un bouton du module. Attention cela correspond à un ajout non securisé (n'importe qui qui intercept la trame du module peut la renvoyer à votre Jeedom)
+- lire le QRcode du module et recopier la chaine dans la partie "Commissioning" de Jeedom. Cela correspond à un ajout securisé (la clef de cryptage et dans le QRcode)
+
+
+>**IMPORTANT**
+>
+>Par defaut les interrupteurs sont sur le canal 11. Il faut absolument avoir la clef et l’interrupteur sur le meme canal. Je vous laisse consulter la documentation pour changer le canal des interrupeurs (perso je trouve la manipulation pas simple la moindre erreur oblige a tout recommancer, en général ca me prend une bonne heure…)
 
 # Gestion des groupes
 
@@ -260,3 +278,7 @@ Pour finir et même si cela peut paraître évident pour certains, nous rappelon
 > 2 possibilités :
 > - il s'agit d'un module en ZLL *(voir la configuration de l'équipement Jeedom qui indique si c'est du ZHA ou ZLL)*. Dans ce cas il faut absolument une commande "Rafraîchir" pour que vous ou Jeedom force la mise à jour des valeurs. Si cette commande n'existe pas dans l'équipement, il faut contacter le support Jeedom pour la faire ajouter dans la prochaine version stable. Une fois sortie, il faudra cliquer sur le bouton **Recréer les commandes** sans suppression.
 > -	le module est en ZHA, alors c’est un souci d’inclusion. Dans l’onglet **Action** de la configuration du module, il y a un bouton **Réinitialiser le module** permettant de forcer les actions post-inclusion. Il faut bien veiller à garder le module éveillé s’il est sur batterie.
+
+>**Mon module vide ses batteries très vite**
+>
+>Vérifiez que vous etes bien sur un firmware à jour sur votre clef zigbee. Dans 90% des cas une consommation excessive des piles vient du firmware de la clef qui a un soucis.

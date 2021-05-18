@@ -167,7 +167,7 @@ In order to benefit from OTA updates, you must check the corresponding box on th
 
 Updates are carried out automatically in the event of availability or if the module requests it. It is possible to force the update of a module from the tab **Actions** from the module configuration window on the device page.
 
-Unfortunately, there is no simple indicator to follow the progress of the update, the only solution is to refer to the `zigbee_X` logs in debug and look for the term` OTA`. You will be able to see this type of log when a module updates :
+Unfortunately, there is no simple indicator to follow the progress of the update, the only solution is to refer to the `zigbeed_X` logs in debug and look for the term` OTA`. You will be able to see this type of log when a module updates :
 
 ````````
 2020-02-27 15:51:10 [DEBUG][0x7813:1:0x0019] OTA query_next_image handler for 'IKEA of Sweden TRADFRI control outlet': field_control=1, manufacture_id=4476, image_type=4353, current_file_version=536974883, hardware_version=60
@@ -191,6 +191,24 @@ As often in Zigbee, difficulties can arise during the reset or association proce
   - **for Philips Hue remote controls**, simultaneously press the ON and OFF buttons for 5 to 10 seconds near the powered bulb *(sometimes you have to turn off / turn on the bulb just before on some models)*,
   - **for Ikea remotes**, press the reset button" *(next to the battery)* for 5 to 10 seconds near the powered bulb *(sometimes you have to turn off / turn on the bulb just before on some models)*.
 - About the **Philips Hue bulbs**, you can also include them on Hue Bridge and then remove them from it.
+
+# Greenpower
+
+Greenpower technology is supported by the plugin (zigpy patch which does not support it natively yet...).
+
+>**Important**
+>
+>For the moment, Greenpower only works with EZSP type keys (Elelabs, popp...). Deconz support will come later 
+
+To add a Greenpower module 2 possibilities : 
+
+- switch to inclusion mode, press a button on the module. Please note that this corresponds to an unsecured addition (anyone who intercepts the frame of the module can send it back to your Jeedom)
+- read the module's QRcode and copy the string in the "Commissioning" part of Jeedom. This corresponds to a secure addition (the encryption key and in the QRcode)
+
+
+>**Important**
+>
+>By default the switches are on channel 11. It is absolutely necessary to have the key and the switch on the same channel. I let you consult the documentation to change the channel of the switches (I personally find the handling not easy, the slightest error forces you to start all over again, in general it takes me a good hour)
 
 # Group management
 
@@ -260,3 +278,7 @@ Finally, and even if it may seem obvious to some, we remind you that Zigbee gate
 > 2 possibilities :
 > - it is a ZLL module *(see the configuration of the Jeedom equipment which indicates whether it is ZHA or ZLL)*. In this case you absolutely need a "Refresh" command so that you or Jeedom force the update of the values. If this command does not exist in the equipment, you must contact Jeedom support to have it added in the next stable version. Once out, click on the button **Recreate commands** without deletion.
 > -	the module is in ZHA, so it's a concern of inclusion. In the tab **Action** of the module configuration, there is a button **Reset module** allowing to force post-inclusion actions. Care must be taken to keep the module awake if it is on battery.
+
+>**My module drains its batteries very quickly**
+>
+>Check that you are on an up-to-date firmware on your zigbee key. In 90% of cases, excessive battery consumption comes from the firmware of the key which has a problem.

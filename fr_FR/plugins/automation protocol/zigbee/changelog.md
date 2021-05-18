@@ -4,6 +4,16 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+>**IMPORTANT**
+>
+>Pour connaitre les nouveaux module compatible il faut aller [la](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (c'est trié par date d'ajout/modification)
+
+# 18/05/2021
+
+- Support du GreenPower en beta pour les clefs de type EZSP (Elelabs,Popp...), necessite une relance de l'installation des dépendances
+- Ajout de nouveau module compatible
+- Correction de bug
+
 # 03/05/2021
 
 - Mise à jour de la documentation

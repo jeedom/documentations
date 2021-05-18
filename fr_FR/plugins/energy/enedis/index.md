@@ -63,10 +63,6 @@ Une fois le partage des données autorisé depuis la page de configuration du pl
 
 Lors de la 1ère sauvegarde d'un équipement actif et configuré, le plugin va automatiquement créer les commandes nécessaires et intégrer les historiques disponibles sur le site Enedis depuis le 1er janvier de l'année en cours. Ce processus est susceptible de durer plusieurs minutes, vous pouvez en suivre l'avancée depuis le menu **Analyse → Logs** *(logs en ``debug``)*.
 
->**ASTUCE**
->
->Si pour une raison ou une autre le plugin ne parvenait pas à récupérer les historiques lors de la création des commandes, il suffira de supprimer les commandes puis de sauvegarder l'équipement pour à nouveau générer les commandes et leur historique.
-
 >**INFORMATION**
 >
 >Les données de consommation horaire sont quand à elles récupérées sur les 7 derniers jours au maximum.
