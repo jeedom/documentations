@@ -61,7 +61,7 @@ Allí debe encontrar el repositorio del complemento en cuestión, luego ir a su 
 
 Las traducciones están presentes en los archivos de otros idiomas. El directorio `docs / i18n /` contiene archivos .json por idioma para la traducción de las cadenas de caracteres de la propia interfaz Core.
 
-Estos son generados automáticamente por un sistema de traducción específico de Jeedom. Por lo tanto, no es necesario modificarlo, ya que el sistema lo sobrescribirá. Si quieres mejorar las traducciones puedes informarlo [Comunidad](https://community.jeedom.com/). Si domina uno de los idiomas de Jeedom y desea ir más allá, puede solicitar acceso al sistema de traducción, que le permite corregir todas las traducciones de cada idioma de las diferentes versiones del Core y de los plugins oficiales : [contacta con el equipo del proyecto](mailto:contact@jeedom.com).
+Estos son generados automáticamente por un sistema de traducción específico de Jeedom. Por lo tanto, no es necesario modificarlo, ya que el sistema lo sobrescribirá. Si desea mejorar las traducciones, puede informarlo en [Comunidad](https://community.jeedom.com/). Si domina uno de los idiomas de Jeedom y desea ir más allá, puede solicitar acceso al sistema de traducción, que le permite corregir todas las traducciones de cada idioma de las diferentes versiones del Core y de los complementos oficiales : [contacta con el equipo del proyecto](mailto:contact@jeedom.com).
 
 En el código puede especificar cadenas para traducir así :
 

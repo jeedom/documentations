@@ -17,7 +17,7 @@ You find the images [here](https://images.jeedom.com/rpi/)
 
 > **Important**
 >
->There are 2 types of image, that jeedom-debian-XXXX-rpi-X.X.XX.zip which is in 32bits, it is compatible with all RPI models and the jeedom-debian-XXXX-rpi-64-X.X.XX.zip which is in 64bits, it is (significantly) more efficient but is only compatible with RPI2 / 3/4. To summarize in RPI 1, take the 32bits otherwise take the 64bits (rpi-64)
+>There are 2 images : jeedom-debian-XXXX-rpi-X.X.XX.zip which is in 32bits, it is compatible with Raspberry PI models of generation 2 and 3 and jeedom-debian-XXXX-rpi-64-X.X.XX.zip which is in 64bits, it is compatible only for Raspberry Pi4.
 
 Raspberry Pi imager allows you to directly download the installation image of Raspberry Pi OS, in its most recent version.
 

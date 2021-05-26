@@ -2,7 +2,7 @@
 
 Jeedom kann auf verschiedenen Hardwarekomponenten installiert werden :
 
--   ein Himbeer-Pi 2 oder 3
+-   ein Raspberry Pi 2, 3 oder 4 
 -   Synology NAS
 -   jedes Linux-System basierend auf Debian 9 (Stretch)
 -   Freebox Delta
@@ -14,20 +14,23 @@ Sie können auch eine vorgefertigte Box mit vorinstalliertem Jeedom kaufen, die 
 -   [Jeedom Smart EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
 -   [Jeedom Smart EnOcean und RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-et-interface-rfxcom.html)
 
-Hier ist eine "typische" Konfiguration für den Einstieg in Jeedom in Z-Wave :
+In der DIY-Bearbeitung (Do It Yourself) finden Sie hier eine "typische" Konfiguration, um mit Jeedom in Z-Wave zu beginnen :
 
 1. Himbeer pi 4 :
 
 -   Eine Himbeere + Box 50 €
--   Ein Aeon Gen Schlüssel 5 € 60
--   Eine Micro-SD-Karte 7 €
+-   Ein Aeotec Gen 5 Schlüssel \ ~ 60 €
+-   Eine microSD-Mikrokarte \ ~ 7 €
 -   Ein USB-Netzteil 8 €
 
 Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Kontrolle über deren Installation.
 
 > **Spitze**
 >
-> Es ist möglich, eine Rfxcom-Antenne oder einen enOcean-Schlüssel hinzuzufügen oder zu ändern.
+> - Es ist möglich, eine Rfxcom-Antenne oder einen enOcean-Schlüssel usw. hinzuzufügen oder zu ändern. 
+> - Grundsätzlich benötigen Sie einen USB-Stick pro zusätzlichem Protokoll. Abhängig von ihrer Anzahl und ihrem kumulierten Verbrauch benötigen Sie auf einem Raspberry Pi möglicherweise einen zusätzlichen USB-Hub mit dediziertem Netzteil. 
+> - Für den Z-Wave Aeotec Gen 5-Schlüssel, der kumulativ mit einem Raspberry Pi 4 verwendet wird (frühere Modelle sind nicht betroffen), müssen Sie einen neueren verwenden, wenn Sie einen USB-Hub entfernen möchten. Erhalten Sie Informationen und Zubehör von einem Verkäufer von Hausautomationsgeräten.
+> - Unter RPi 4 wird dringend empfohlen, die microSD-Karte durch eine mSATA USB3-Festplatte zu ersetzen, die mit nativem Start direkt an den USB3-Anschluss angeschlossen ist. MicroSD-Karten haben aufgrund des intensiven Datenaustauschs eine sehr begrenzte Lebensdauer: Nur für kurze Testzeiten reserviert.
 
 > **Spitze**
 >

@@ -61,7 +61,7 @@ There you have to find the repository of the plugin in question, then go to its 
 
 The translations are present in the other language files. The `docs / i18n /` directory contains files .json per language for the translation of the character strings of the Core interface itself.
 
-These are generated automatically by a translation system specific to Jeedom. It is therefore unnecessary to make any changes to it, because it will be overwritten by the system. If you want to improve the translations you can report it on [Community](https://community.jeedom.com/). If you master one of the Jeedom languages and wish to go further, you can request access to the translation system, which allows you to correct all the translations of each language of the different versions of the Core and of the official plugins : [contact the project team](mailto:contact@jeedom.com).
+These are generated automatically by a translation system specific to Jeedom. It is therefore unnecessary to make any changes to it, because it will be overwritten by the system. If you want to improve the translations, you can report it on [Community](https://community.jeedom.com/). If you master one of the Jeedom languages and wish to go further, you can request access to the translation system, which allows you to correct all the translations of each language of the different versions of the Core and of the official plugins : [contact the project team](mailto:contact@jeedom.com).
 
 In the code you can specify strings to translate like this :
 

@@ -2,7 +2,7 @@
 
 Jeedom se puede instalar en diferentes tipos de hardware :
 
--   un Raspberry pi 2 o 3
+-   una Raspberry Pi 2, 3 o 4 
 -   un NAS Synology
 -   cualquier sistema Linux basado en Debian 9 (estiramiento)
 -   Freebox Delta
@@ -14,20 +14,23 @@ También puede comprar una caja preparada con Jeedom preinstalado que también c
 -   [Jeedom Smart EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
 -   [Jeedom Smart EnOcean y RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-et-interface-rfxcom.html)
 
-Aquí hay una configuración "típica" para comenzar con Jeedom en Z-Wave :
+En la edición de bricolaje (hágalo usted mismo), aquí hay una configuración "típica" para comenzar con Jeedom en Z-Wave :
 
 1. Raspberry pi 4 :
 
 -   Un raspberry+caja \~ 50 €
--   Una llave USB Aeon Gen 5 \~ 60 €
--   Una tarjeta micro SD \~ 7 €
+-   Una llave Aeotec Gen 5 \ ~ 60 €
+-   Una tarjeta microSD \ ~ 7 €
 -   Una fuente de alimentación USB \~ 8 €
 
 Un total de 125 € para una caja de automatización del hogar de código abierto con control completo sobre su instalación.
 
 > **Punta**
 >
-> Es posible agregar o cambiar mediante una antena Rfxcom o una clave enOcean.
+> - Es posible agregar o cambiar con una antena Rfxcom, o una tecla enOcean, etc. 
+> - En principio, necesita una llave USB por protocolo adicional. Dependiendo de su número y su consumo acumulado, en una Raspberry Pi es posible que necesite un concentrador USB adicional con su fuente de alimentación dedicada. 
+> - Para la clave Z-Wave Aeotec Gen 5 en uso acumulativo con una Raspberry Pi 4 (modelos anteriores no afectados), debe usar una reciente si desea eliminar un concentrador USB. Obtenga información y obtenga suministros de un vendedor de equipos de automatización del hogar.
+> - En RPi 4, se recomienda encarecidamente reemplazar la tarjeta microSD con un disco duro mSATA USB3, conectado directamente al puerto USB3 con arranque nativo. Las tarjetas microSD tienen una vida útil muy limitada debido al intenso intercambio de datos: solo para ser reservado para períodos cortos de prueba.
 
 > **Punta**
 >

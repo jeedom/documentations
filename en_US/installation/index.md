@@ -2,7 +2,7 @@
 
 Jeedom can be installed on different hardware components :
 
--   a Raspberry pi 2 or 3
+-   a Raspberry Pi 2, 3 or 4 
 -   Synology NAS
 -   any Linux system based on Debian 9 (stretch)
 -   Freebox Delta
@@ -14,20 +14,23 @@ You can also buy a ready-made box with Jeedom preinstalled which also contains a
 -   [Jeedom Smart EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
 -   [Jeedom Smart EnOcean and RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-et-interface-rfxcom.html)
 
-Here is a "typical" configuration to get started with Jeedom in Z-Wave :
+In DIY editing (Do It Yourself), here is a "typical" configuration to get started with Jeedom in Z-Wave :
 
 1. Raspberry pi 4 :
 
 -   A raspberry + box 50 €
--   An Aeon Gen key 5 € 60
--   A micro SD card 7 €
+-   An Aeotec Gen 5 key \ ~ € 60
+-   A microSD micro card \ ~ € 7
 -   A USB power supply € 8
 
 A total of € 125 for an open source home automation box with complete control over its installation.
 
 > **Tip**
 >
-> It is possible to add or change by an Rfxcom antenna, or an enOcean key.
+> - It is possible to add or change with an Rfxcom antenna, or an enOcean key, etc. 
+> - In principle, you need a USB key per additional protocol. Depending on their number and their cumulative consumption, on a Raspberry Pi you may need an additional USB hub with its dedicated power supply. 
+> - For the Z-Wave Aeotec Gen 5 key in cumulative use with a Raspberry Pi 4 (previous models not affected), you must use a recent one if you want to do away with a USB hub. Get information and get supplies from a home automation equipment seller.
+> - On RPi 4, it is strongly recommended to replace the microSD card with an mSATA USB3 hard disk, directly connected to the USB3 port with native boot. MicroSD cards have a very limited lifespan due to intensive data exchange: only to be reserved for short periods of testing.
 
 > **Tip**
 >
