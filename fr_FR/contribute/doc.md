@@ -4,7 +4,7 @@ La documentation de Jeedom est centralisée sur ce site, par plusieurs mécanism
 
 Pour participer à la documentation, vous devez donc avoir un compte [Github](https://github.com/).
 
-Bien sur, vous pouvez toujours faire un message sur le [forum](https://community.jeedom.com/), en mettant le tag documentation-jeedom sur votre message.
+Bien sûr, vous pouvez toujours faire un message sur le [forum](https://community.jeedom.com/), en mettant le tag documentation-jeedom sur votre message.
 
 Celle-ci est différenciée en trois catégories :
 
@@ -59,9 +59,9 @@ Là il faut trouver le repository du plugin en question, puis aller dans son ré
 
 ## Les traductions
 
-Les traductions sont présentent dans les autres dossiers de langues. Le répertoire `docs/i18n/` comprend des fichiers .json par langue pour la traduction des chaînes de caractères de l'interface du Core lui même.
+Les traductions sont présentes dans les autres dossiers de langues. Le répertoire `docs/i18n/` comprend des fichiers .json par langue pour la traduction des chaînes de caractères de l'interface du Core lui-même.
 
-Celles-ci sont générées automatiquement par un système de traduction propre à Jeedom. Il est donc inutile de faire des modifications dessus, car elle seront écrasées par le système. Si vous souhaitez améliorer les traductions vous pouvez le signaler sur [Community](https://community.jeedom.com/). Si vous maîtriser une des langues de Jeedom et souhaitez allez plus loin, vous pouvez demander un accès au système de traduction, qui permet de corriger toutes les traductions de chaque langue des différentes versions du Core et des plugins officiels : [contacter l'équipe du projet](mailto:contact@jeedom.com).
+Celles-ci sont générées automatiquement par un système de traduction propre à Jeedom. Il est donc inutile de faire des modifications dessus, car elle seront écrasées par le système. Si vous souhaitez améliorer les traductions, vous pouvez le signaler sur [Community](https://community.jeedom.com/). Si vous maîtrisez une des langues de Jeedom et souhaitez aller plus loin, vous pouvez demander un accès au système de traduction, qui permet de corriger toutes les traductions de chaque langue des différentes versions du Core et des plugins officiels : [contacter l'équipe du projet](mailto:contact@jeedom.com).
 
 Dans le code vous pouvez spécifier des chaînes à traduire comme cela :
 
