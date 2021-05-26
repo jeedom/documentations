@@ -1,7 +1,7 @@
 {
     "..\/README.md": {
-        "Jeedom repository general de documentación": "Jeedom repository general de documentación",
-        "Puedes consultar the documentación": "Puedes consultar the documentación",
+        "Repositorio jeedom general de documentación": "Repositorio jeedom general de documentación",
+        "Puedes consultar la documentación": "Puedes consultar the documentación",
         "O Beitrag zu einer una mejor documentación, siguiendo estos": "O Beitrag zu einer una mejor documentación, siguiendo estos",
         " documentations.": " documentations.",
         " documentations?": " documentations?",
@@ -10,19 +10,19 @@
         "[documentations]": "[documentations]",
         "*documentations*": "*documentations*",
         " documentations*": " documentations*",
-        " whose.": " whose.",
-        " whose?": " whose?",
-        "whose ": "whose ",
-        " whose]": " whose]",
-        "[whose]": "[whose]",
-        "*whose*": "*whose*",
-        " whose*": " whose*",
-        " indications.": " indications.",
-        " indications?": " indications?",
-        "indications ": "indications ",
-        " indications]": " indications]",
-        "[indications]": "[indications]",
-        "*indications*": "*indications*",
-        " indications*": " indications*"
+        " cuyo.": " cuyo.",
+        " cuyo?": " cuyo?",
+        "cuyo ": "cuyo ",
+        " cuyo]": " cuyo]",
+        "[cuyo]": "[cuyo]",
+        "*cuyo*": "*cuyo*",
+        " cuyo*": " cuyo*",
+        " indicaciones.": " indications.",
+        " indicaciones?": " indications?",
+        "indicaciones ": "indications ",
+        " indicaciones]": " indications]",
+        "[indicaciones]": "[indications]",
+        "*indicaciones*": "*indications*",
+        " indicaciones*": " indications*"
     }
 }
