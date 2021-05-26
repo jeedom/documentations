@@ -2,11 +2,11 @@
 
 ## documentations
 
-### Repositorio general de documentación de Jeedom.
+### General repository for Jeedom documentation.
 
-Puedes consultar la documentación [aquí](https://doc.jeedom.com).
+You can consult the documentation [here](https://doc.jeedom.com).
 
-O contribuir a una mejor documentación, siguiendo estos [indicaciones](https://doc.jeedom.com/en_US/contribute/doc).
+Or contribute to a better documentation, following these [indications](https://doc.jeedom.com/en_US/contribute/doc).
 
 <p align="center">
 <img src="https://doc.jeedom.com/img/img_home.png" width="80%">
