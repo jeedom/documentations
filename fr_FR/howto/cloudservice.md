@@ -29,4 +29,4 @@ Pour eviter tout abus le service est soumis à des quotas en fonction de votre t
 
 
 
-* Le service TTS est un peu particulier le decompte ne se fait que sur les phrase jamais demandé à votre Jeedom. Les phrases sont decoupé en par lot de 160 caracteres. Chaque lot compte pour 1 quota
+\* Le service TTS est un peu particulier le decompte ne se fait que sur les phrase jamais demandé à votre Jeedom. Les phrases sont decoupé en par lot de 160 caracteres. Chaque lot compte pour 1 quota
