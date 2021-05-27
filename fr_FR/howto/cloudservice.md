@@ -22,7 +22,7 @@ Pour eviter tout abus le service est soumis à des quotas en fonction de votre t
 | Spotify     | Pas de limite      |  Pas de limite             |
 | Position du soleil   | 2/10min   |  2/10min                   |
 | EDF Tempo   | 10/24h             |  10/24h                    |
-| Google TTS  | Aucun              |  5/24h*                    |
+| Google TTS  | Aucun              |  5/24h\*                   |
 | Vacance scolaire  | 10/24h       |  10/24h                    |
 | Vigilance   | 10/24h             |  10/24h                    |
 | Weekend     | 10/24h             |  10/24h                    |
