@@ -2,7 +2,13 @@
 
 >**IMPORTANT**
 >
->Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+>Pour rappel, s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement la mise à jour de documentation, de traduction ou de texte.
+
+# 18/05/2021
+
+- Correction d'un défaut de fonctionnement de certaines commandes
+- Révision de l'interface
+- Révision de la documentation
 
 # 20/11/2020
 

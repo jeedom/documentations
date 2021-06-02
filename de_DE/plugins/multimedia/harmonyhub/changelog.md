@@ -2,7 +2,19 @@
 
 >**Wichtig**
 >
->Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, handelt es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text.
+
+# 05/2021
+
+- Korrektur einer Fehlfunktion einiger Steuerungen
+- Schnittstellenüberprüfung
+- Überprüfung der Dokumentation
+
+# 20/11/2020
+
+- Allgemeine Optimierungen
+- Neue Darstellung der Objektliste
+- Hinzufügung des Tags "V4-Kompatibilität"
 
 # 20.09.2019
 

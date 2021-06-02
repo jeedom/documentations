@@ -2,7 +2,19 @@
 
 >**IMPORTANTE**
 >
->Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+>Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto.
+
+# 20/0521
+
+- Correção de mau funcionamento de alguns controles
+- Revisão de interface
+- Revisão de documentação
+
+# 20/11/2020
+
+- Otimizações gerais
+- Nova apresentação da lista de objetos
+- Adição da tag "compatibilidade V4"
 
 # 20/09/2019
 

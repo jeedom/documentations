@@ -2,7 +2,19 @@
 
 >**Important**
 >
->As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+>As a reminder, if there is no information on the update, it is because it only concerns the update of documentation, translation or text.
+
+# 05/2021
+
+- Correction of a malfunction of some controls
+- Interface review
+- Documentation review
+
+# 20/11/2020
+
+- General optimizations
+- New presentation of the list of objects
+- Addition of the tag "V4 compatibility"
 
 # 09-20-2019
 

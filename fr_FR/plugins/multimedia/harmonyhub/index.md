@@ -1,117 +1,60 @@
-Harmony Hub 
-===========
+# Plugin Harmony Hub
 
-Description 
------------
+Ce plugin permet de contrôler et de récupérer tous les dispositifs associés à un ou plusieurs Harmony Hub.
 
-Ce plugin permet de controller et de récupérer tous les dispositifs de
-son Harmony Hub.
+Après avoir récupéré toutes les informations relatives à ces dispositifs, le plugin sera en mesure de créer automatiquement toutes les commandes associées pour un contrôle total depuis Jeedom.
 
+# Configuration
 
-![harmonyhub icon](./images/harmonyhub_icon.png)
+Comme tout plugin Jeedom, le plugin **Harmony Hub** doit être activé après l'installation.
 
+## Configuration du plugin
 
-Ce plugin de récupérer vos activités et vos dispositifs. Et ensuite de
-pouvoir ajouter automatiquement toutes les commandes associées, pour
-pouvoir les controller via scénarios, virtuels, dashboard etc…​.
+Le plugin utilise des dépendances qu'il faudra installer en premier lieu en cliquant sur le bouton **Relancer**.
 
-Configuration 
--------------
+Une fois les dépendances installées, vous pouvez renseigner l'adresse IP sur laquelle est joignable le Harmony Hub.
 
-### Configuration du plugin Harmony Hub : 
+>**ASTUCE**
+>
+>Le plugin est en mesure de dialoguer avec plusieurs hubs en même temps. Pour se faire, il faudra indiquer l'adresse IP de chaque hub séparée par le symbole `|`.
 
-a.  Installation/Création
+Cliquez ensuite sur le bouton **Fichiers de configuration** pour générer *(ou mettre à jour)* le(s) fichier(s) contenant toutes les informations sur les dispositifs associés à chaque hub Harmony.
 
-Afin d’utiliser le plugin, vous devez le télécharger, l’installer et
-l’activer comme tout plugin Jeedom.
+## Configuration des équipements
 
-Suite à cela il vous faudra lancer l’installation des dépendances :
+Pour accéder aux différents équipements, dirigez-vous vers le menu **Plugins → Multimedia → Harmony Hub**.
 
+>**INFORMATION**
+>
+>Le bouton + Ajouter permet d'ajouter un nouvel équipement Harmony Hub.
 
-![dep harmony](./images/dep_harmony.jpg)
+Pour chaque équipement nous retrouvons les paramètres généraux habituels ainsi que 2 menus déroulants permettant, pour l'un, de sélectionner le hub concerné par le dispositif et pour l'autre de choisir le type de dispositif parmis :
 
+- **Activités** : Un équipement regroupant toutes vos activités ainsi que
+    le power off général et une information de l’activité en cours.
 
-Suite à cela il vous faudra lancer la création de votre premier fichier
-de config (à faire pour prendre en compte un éventuel rajout d’activité
-ou dispositif) :
- 
-
-![conf harmony](./images/conf_harmony.jpg)
-
-
-…​
-
-Les équipements 
----------------
-
-### Vos dispositifs/Activités : 
-
-a.  Création
-
-Afin de créer vos premiers équipemments, il faut vous rendre dans le
-menu plugin:
-
-![menu harmony](./images/menu_harmony.jpg)
-
-
-Ensuite cliquez sur le bouton "+" pour rajouter un équipement :
-
-
-![harmonyhub screenshot2](./images/harmonyhub_screenshot2.jpg)
-
- 
-
-Vous arriverez sur cette page :
-
- 
-
-![harmonyhub screenshot3](./images/harmonyhub_screenshot3.jpg)
-
- 
-
-Dans cette page vous pouvez attribuer un objet, activer et/ou rendre
-visible votre équipement.
-
-Le menu déroulant vous permet de choisir parmis :
-
--   Activités : Un équipement regroupant toutes vos activités ainsi que
-    le power off général. Et une info de l’activité en cours.
-
--   Un de vos dispositifs : Un équipement regroupant toutes les
+- **Un de vos dispositifs** : Un équipement regroupant toutes les
     commandes pour un dispositif donné.
 
-Une fois choisit il vous suffit de cliquer sur sauver pour générer
-automatiquement la liste des commandes correspondantes.
+Une fois sélectionné, il suffit de cliquer sur le bouton **Sauvegarder** pour générer automatiquement la liste des commandes correspondantes :    
 
- 
+![harmonyhub screenshot4](./images/harmonyhub_commands.jpg)
 
-![harmonyhub screenshot4](./images/harmonyhub_screenshot4.jpg)
+# Commandes
 
- 
+Les commandes ne sont pas visibles par défaut, elles sont
+cependant toutes disponibles via scénario, virtuels, etc…​
 
-Par défaut, toutes les commandes sont en non affichées. Elles sont
-cependant toutes disponibles via scénario/ virtuel etc…​ Si vous voulez
-en afficher sur votre dashboard, il vous suffit de les réorganiser en
-glisser déposer de cliquer sur afficher. Vous pouvez ensuite en jouant
-avec les retours à la ligne, des widgets spécifiques ou les icones
-proposer vous créer votre simili télécommande.
+Si vous voulez en afficher sur votre dashboard, il suffit de les réorganiser en
+glisser/déposer et de cocher la case **Afficher**. Vous pouvez ensuite, en jouant avec les retours à la ligne, des widgets spécifiques ou les icônes
+proposées, créer une pseduo télécommande :
 
 ![harmonyhub screenshot5](./images/harmonyhub_screenshot5.jpg)
 ![harmonyhub screenshot6](./images/harmonyhub_screenshot6.jpg)
 
+# Information importante
 
-…​
-
-Information importante
-----------------------
-
-Depuis le 19-02-2019 il faut activer une option développeur dans l'application Harmony
+Depuis le 19-02-2019 il faut **activer une option développeur** dans l'application Harmony.
 
 Voir ce lien de Logitech :
-
-
 <https://community.logitech.com/s/question/0D55A00008OsX3CSAV/update-to-accessing-harmony-hubs-local-api-via-xmpp>
-FAQ 
----
-
-Avez vous affiché des commandes.

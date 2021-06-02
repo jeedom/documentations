@@ -2,7 +2,19 @@
 
 >**Importante**
 >
->Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+>A modo de recordatorio, si no hay información sobre la actualización es porque solo se refiere a la actualización de documentación, traducción o texto.
+
+# 20/0521
+
+- Corrección de un mal funcionamiento de algunos controles
+- Revisión de la interfaz
+- Revisión de la documentación
+
+# 20/11/2020
+
+- Optimizaciones generales
+- Nueva presentación de la lista de objetos
+- Adición de la etiqueta "compatibilidad V4"
 
 # 20/09/2019
 

@@ -1,117 +1,60 @@
-Harmony Hub 
-===========
+# Harmony Hub plugin
 
-Description 
------------
+This plugin allows you to control and recover all the devices associated with one or more Harmony Hub.
 
-This plugin allows to control and recover all the devices of
-his Harmony Hub.
+After having retrieved all the information relating to these devices, the plugin will be able to automatically create all the associated commands for full control from Jeedom.
 
+# Configuration
 
-![harmonyhub icon](./images/harmonyhub_icon.png)
+Like any Jeedom plugin, the plugin **Harmony Hub** must be activated after installation.
 
+## Plugin configuration
 
-This plugin to recover your activities and devices. And then from
-be able to automatically add all associated commands to
-to be able to control them via scenarios, virtuals, dashboard etc….
+The plugin uses dependencies that must be installed first by clicking on the button **Revive**.
 
-Setup 
--------------
+Once the dependencies are installed, you can enter the IP address on which the Harmony Hub can be reached.
 
-### Configuration of the Harmony Hub plugin : 
+>**TRICK**
+>
+>The plugin is able to interact with several hubs at the same time. To do so, you must indicate the IP address of each hub separated by the symbol `|``.
 
-at. Installation / Creation
+Then click on the button **Configuration files** to generate *(or update)* the file (s) containing all the information on the devices associated with each Harmony hub.
 
-In order to use the plugin, you need to download, install and
-activate it like any Jeedom plugin.
+## Equipment configuration
 
-After that you will have to start the installation of dependencies :
+To access the different equipment, go to the menu **Plugins → Multimedia → Harmony Hub**.
 
+>**INFORMATION**
+>
+>The + Add button allows you to add a new Harmony Hub device.
 
-![dep harmony](./images/dep_harmony.jpg)
+For each device, we find the usual general parameters as well as 2 drop-down menus allowing, for one, to select the hub concerned by the device and for the other to choose the type of device among :
 
+- **Activities** : Equipment bringing together all your activities as well as
+    general power off and information on current activity.
 
-After that you will have to start creating your first file
-config (to do to take into account a possible addition of activity
-or device) :
- 
-
-![conf harmony](./images/conf_harmony.jpg)
-
-
-…
-
-The equipments 
----------------
-
-### Your devices / Activities : 
-
-at. Creation
-
-In order to create your first equipments, you must go to the
-plugin menu:
-
-![menu harmony](./images/menu_harmony.jpg)
-
-
-Then click on the "+" button to add equipment :
-
-
-![harmonyhub screenshot2](./images/harmonyhub_screenshot2.jpg)
-
- 
-
-You will arrive on this page :
-
- 
-
-![harmonyhub screenshot3](./images/harmonyhub_screenshot3.jpg)
-
- 
-
-In this page you can assign an object, activate and / or return
-visible your equipment.
-
-The drop-down menu allows you to choose from :
-
--   Activities : Equipment bringing together all your activities as well as
-    the general power off. And an info of the current activity.
-
--   One of your devices : Equipment bringing together all
+- **One of your devices** : Equipment bringing together all
     commands for a given device.
 
-Once you have chosen just click on save to generate
-automatically the list of corresponding commands.
+Once selected, just click on the button **Save** to automatically generate the list of corresponding commands :    
 
- 
+![harmonyhub screenshot4](./images/harmonyhub_commands.jpg)
 
-![harmonyhub screenshot4](./images/harmonyhub_screenshot4.jpg)
+# Commandes
 
- 
+The commands are not visible by default, they are
+however all available via scenario, virtual, etc
 
-By default, all orders are not displayed. They are
-however all available via script / virtual etc ... If you want
-display them on your dashboard, you just have to reorganize them into
-drag drop click click display. You can then by playing
-with line breaks, specific widgets or icons
-suggest you create your own remote control.
+If you want to display them on your dashboard, just reorganize them into
+drag & drop and tick the box **Display**. You can then, playing with newlines, specific widgets or icons
+proposed, create a remote control pseduo :
 
 ![harmonyhub screenshot5](./images/harmonyhub_screenshot5.jpg)
 ![harmonyhub screenshot6](./images/harmonyhub_screenshot6.jpg)
 
+# Important information
 
-…
-
-Important information
-----------------------
-
-Since 19-02-2019 you must activate a developer option in the Harmony application
+Since 19-02-2019 it is necessary **activate a developer option** in the Harmony app.
 
 See this Logitech link :
-
-
 <https://community.logitech.com/s/question/0D55A00008OsX3CSAV/update-to-accessing-harmony-hubs-local-api-via-xmpp>
-Faq 
----
-
-Did you display orders.

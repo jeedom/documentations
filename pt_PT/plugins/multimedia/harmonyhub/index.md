@@ -1,117 +1,60 @@
-Harmony Hub 
-===========
+# Plug-in Harmony Hub
 
-Descrição 
------------
+Este plugin permite que você controle e recupere todos os dispositivos associados a um ou mais Harmony Hub.
 
-Este plugin permite controlar e recuperar todos os dispositivos de
-o Harmony Hub.
+Depois de ter recuperado todas as informações relativas a estes dispositivos, o plugin será capaz de criar automaticamente todos os comandos associados para controle total do Jeedom.
 
+# Configuration
 
-![harmonyhub icon](../images/harmonyhub_icon.png)
+Como qualquer plugin Jeedom, o plugin **Harmony Hub** deve ser ativado após a instalação.
 
+## Configuração de plug-in
 
-Este plugin para recuperar suas atividades e dispositivos. E então de
-poder adicionar automaticamente todos os comandos associados ao
-para poder controlá-los através de cenários, virtuais, painel, etc.
+O plugin usa dependências que devem ser instaladas primeiro clicando no botão **Reviver**.
 
-Configuração 
--------------
+Depois que as dependências forem instaladas, você pode inserir o endereço IP no qual o Harmony Hub pode ser acessado.
 
-### Configuração do plugin Harmony Hub : 
+>**TRUQUE**
+>
+>O plugin é capaz de interagir com vários hubs ao mesmo tempo. Para fazer isso, você deve indicar o endereço IP de cada hub separado pelo símbolo `|``.
 
-a. Instalação / Criação
+Em seguida, clique no botão **Arquivos de configuração** para gerar *(ou atualizar)* o (s) arquivo (s) contendo todas as informações sobre os dispositivos associados a cada hub Harmony.
 
-Para usar o plug-in, você precisa baixar, instalar e
-ativá-lo como qualquer plugin Jeedom.
+## Configuração do equipamento
 
-Depois disso, você terá que iniciar a instalação das dependências :
+Para acessar os diversos equipamentos, acesse o menu **Plugins → Multimídia → Harmony Hub**.
 
+>**EM FORMAÇÃO**
+>
+>O botão + Adicionar permite que você adicione um novo dispositivo Harmony Hub.
 
-![dep harmony](../images/dep_harmony.jpg)
+Para cada dispositivo, encontramos os parâmetros gerais usuais, bem como 2 menus suspensos que permitem, por um, selecionar o hub em questão para o dispositivo e para o outro escolher o tipo de dispositivo entre :
 
+- **Actividades** : Equipamento que reúne todas as suas atividades e também
+    desligamento geral e informações sobre a atividade atual.
 
-Depois disso, você terá que começar a criar seu primeiro arquivo
-config (para levar em consideração uma possível adição de atividade
-ou dispositivo) :
- 
-
-![conf harmony](../images/conf_harmony.jpg)
-
-
-…
-
-Os equipamentos 
----------------
-
-### Seus dispositivos / Atividades : 
-
-a. Criação
-
-Para criar seus primeiros equipamentos, você deve ir ao
-menu de plugins:
-
-![menu harmony](../images/menu_harmony.jpg)
-
-
-Depois clique no botão "+" para adicionar equipamento :
-
-
-![harmonyhub screenshot2](../images/harmonyhub_screenshot2.jpg)
-
- 
-
-Você chegará nesta página :
-
- 
-
-![harmonyhub screenshot3](../images/harmonyhub_screenshot3.jpg)
-
- 
-
-Nesta página, você pode atribuir um objeto, ativar e / ou retornar
-visível seu equipamento.
-
-O menu suspenso permite escolher entre :
-
--   Actividades : Equipamento que reúne todas as suas atividades e também
-    o desligamento geral. E uma informação da atividade atual.
-
--   Um dos seus dispositivos : Equipamento que reúne todos
+- **Um dos seus dispositivos** : Equipamento que reúne todos
     comandos para um determinado dispositivo.
 
-Depois de escolher, clique em Salvar para gerar
-automaticamente a lista de comandos correspondentes.
+Uma vez selecionado, basta clicar no botão **Salve ** para gerar automaticamente a lista de comandos correspondentes :    
 
- 
+![harmonyhub screenshot4](../images/harmonyhub_commands.jpg)
 
-![harmonyhub screenshot4](../images/harmonyhub_screenshot4.jpg)
+# Commandes
 
- 
+Os comandos não são visíveis por padrão, eles são
+porém todos disponíveis via cenário, virtual, etc
 
-Por padrão, todos os pedidos não são exibidos. Eles são
-no entanto, todos disponíveis via script / virtual etc ... Se você quiser
-exibi-los em seu painel, basta reorganizá-los em
-arrastar, soltar, clique, exibir. Você pode então jogando
-com quebras de linha, widgets ou ícones específicos
-sugiro que você crie seu próprio controle remoto.
+Se você quiser exibi-los em seu painel, basta reorganizá-los em
+arraste e solte e marque a caixa **Exibição**. Você pode então, brincando com novas linhas, widgets ou ícones específicos
+proposto, crie um controle remoto pseduo :
 
 ![harmonyhub screenshot5](../images/harmonyhub_screenshot5.jpg)
 ![harmonyhub screenshot6](../images/harmonyhub_screenshot6.jpg)
 
+# Informaçao importante
 
-…
-
-Informaçao importante
-----------------------
-
-Desde 19-02-2019, você deve ativar uma opção de desenvolvedor no aplicativo Harmony
+Desde 19-02-2019 é necessário **ativar uma opção de desenvolvedor** no aplicativo Harmony.
 
 Consulte este link da Logitech :
-
-
 <https://community.logitech.com/s/question/0D55A00008OsX3CSAV/update-to-accessing-harmony-hubs-local-api-via-xmpp>
-Faq 
----
-
-Você exibiu pedidos.
