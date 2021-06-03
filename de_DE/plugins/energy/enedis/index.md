@@ -63,10 +63,6 @@ Nachdem die Datenfreigabe auf der Plugin-Konfigurationsseite autorisiert wurde, 
 
 Während der ersten Sicherung eines aktiven und konfigurierten Geräts erstellt das Plugin automatisch die erforderlichen Befehle und integriert die seit dem 1. Januar des laufenden Jahres auf der Enedis-Site verfügbaren Historien. Dieser Vorgang dauert wahrscheinlich einige Minuten. Sie können den Fortschritt über das Menü verfolgen **Analyse → Protokolle** *(meldet sich an ``debug``)*.
 
->**TIPP**
->
->Wenn das Plugin aus dem einen oder anderen Grund die Historien beim Erstellen der Bestellungen nicht abrufen konnte, reicht es aus, die Bestellungen zu löschen und dann die Ausrüstung zu speichern, um die Bestellungen und ihre Historie erneut zu generieren.
-
 >**INFORMATION**
 >
 >Die stündlichen Verbrauchsdaten werden höchstens in den letzten 7 Tagen abgerufen.

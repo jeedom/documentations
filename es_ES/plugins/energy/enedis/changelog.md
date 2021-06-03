@@ -6,7 +6,7 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
 
-# 20/0521
+# 18/05/2021
 
 - Implementación de un sistema de autoprogramación
 - Posibilidad de integrar historias bajo demanda

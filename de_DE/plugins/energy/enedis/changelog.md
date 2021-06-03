@@ -6,7 +6,7 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# 05/2021
+# 18.05.2021
 
 - Implementierung eines automatischen Programmiersystems
 - Möglichkeit der Integration von Historien nach Bedarf

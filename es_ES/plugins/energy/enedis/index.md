@@ -63,10 +63,6 @@ Una vez que se haya autorizado el intercambio de datos desde la página de confi
 
 Durante la primera copia de seguridad de un dispositivo activo y configurado, el complemento creará automáticamente los comandos necesarios e integrará los historiales disponibles en el sitio de Enedis desde el 1 de enero del año en curso. Es probable que este proceso tarde varios minutos, puede seguir el progreso desde el menú **Análisis → Registros** *(inicia sesión ``debug``)*.
 
->**CONSEJO**
->
->Si por un motivo u otro el plugin no pudo recuperar los historiales al crear los pedidos, bastará con borrar los pedidos y luego guardar el equipo para generar los pedidos y su historial nuevamente.
-
 >**INFORMACIÓN**
 >
 >Los datos de consumo por hora se recuperan durante los últimos 7 días como máximo.

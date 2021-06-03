@@ -63,10 +63,6 @@ Once data sharing has been authorized from the plugin configuration page, all yo
 
 During the 1st backup of an active and configured device, the plugin will automatically create the necessary commands and integrate the histories available on the Enedis site since January 1st of the current year. This process is likely to take several minutes, you can follow the progress from the menu **Analysis → Logs** *(logs in ``debug``)*.
 
->**TRICK**
->
->If for one reason or another the plugin was unable to retrieve the histories when creating the orders, it will suffice to delete the orders and then save the equipment to generate the orders and their history again.
-
 >**INFORMATION**
 >
 >Hourly consumption data is retrieved over the last 7 days at most.

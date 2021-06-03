@@ -96,3 +96,9 @@ Pour activer cette option, il suffit de cocher la case **Template de widget** su
 >**ASTUCE**
 >     
 >En version desktop, les informations affichées sur le widget s'adaptent en taille lors du redimensionnement de la tuile.
+
+# FAQ
+
+>**J'ai des erreurs `Error on enedis json return` dans les logs pourtant les données sont visibles sur le site Enedis**
+>
+>Il arrive quelquefois qu'il faille se rendre  directement sur le site Enedis afin de valider les dernières CGU en date pour accéder à nouveau aux données. Il est également parfois nécessaire de remettre en place la liaison Jeedom/Enedis depuis la page de configuration du plugin.

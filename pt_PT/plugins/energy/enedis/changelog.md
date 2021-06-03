@@ -6,7 +6,7 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# 20/0521
+# 18/05/2021
 
 - Implementação de um sistema de autoprogramação
 - Possibilidade de integração de histórias sob demanda

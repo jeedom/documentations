@@ -63,10 +63,6 @@ Uma vez que o compartilhamento de dados foi autorizado na página de configuraç
 
 Durante o 1º backup de um dispositivo ativo e configurado, o plugin irá criar automaticamente os comandos necessários e integrar os históricos disponíveis no site da Enedis desde 1º de janeiro do corrente ano. Este processo provavelmente levará vários minutos, você pode acompanhar o progresso no menu **Análise → Logs** *(loga ``debug``)*.
 
->**DICA**
->
->Se por um motivo ou outro o plugin não conseguiu recuperar os históricos ao criar os pedidos, bastará deletar os pedidos e depois salvar o equipamento para voltar a gerar os pedidos e seu histórico.
-
 >**EM FORMAÇÃO**
 >
 >Os dados de consumo por hora são recuperados nos últimos 7 dias, no máximo.
