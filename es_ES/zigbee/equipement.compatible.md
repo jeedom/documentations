@@ -673,4 +673,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-06-06 02:32:18
+2021-06-07 02:32:05
