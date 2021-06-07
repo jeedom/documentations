@@ -77,6 +77,7 @@ The animations are transition sequences, currently there are :
     - **duration** : set duration, default 720s. For 5 minutes it will be necessary to indicate ``duration=300``.
 - **sunset** : to simulate a sunset. It can take as a parameter :
     - **duration** : set duration, default 720s. For 5 minutes it will be necessary to indicate ``duration=300``.
+- **adaptive_light** : allows you to synchronize the color temperature and brightness with the sun (they also change during the day). Be careful to enter your latitude / longitude in jeedom
 
 # Remote control button
 

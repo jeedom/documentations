@@ -6,8 +6,7 @@
 -	**EZSP (Silicon Labs)** : Testado, validado e recomendado pela equipe Jeedom.
 -	**XBee** : Não testado pela equipe Jeedom.
 -	**Zigate** : Não testado pela equipe. 
--	**ZNP (Texas Instruments, Z-stack 3.X.X)** : Não testado pela equipe.
--	**CC (Texas Instruments, Z-stack 1.2.X)** : Não testado pela equipe.
+-	**ZNP (Texas Instruments)** : Não testado pela equipe.
 
 Além disso, o plugin está equipado com muitas ferramentas que permitem :
 
@@ -99,6 +98,10 @@ Para solicitar a adição de novos equipamentos, é necessário fornecer os segu
 - **o modelo exato** do módulo com um link para o site de compra e uma imagem representativa em um fundo transparente (`png`),
 - Na página de equipamentos, clique no botão azul **Configuração do módulo** então guia **Informação bruta**. Copie o conteúdo para transmiti-lo à equipe Jeedom,
 - Coloque o daemon em `debug` na página de configuração do plugin e reinicie-o. Executar ações no equipamento *(se for um sensor de temperatura, varie a temperatura, se for uma válvula, varie o setpoint, etc...)* e enviar o log `zigbee` *(não `zigbeed`)*.
+
+>**IMPORTANTE**
+>
+>Antes de qualquer solicitação para adicionar um módulo, verifique se o seu plugin está atualizado e se o módulo ainda não está na lista. Às vezes acontece que o reconhecimento automático não funciona (porque o módulo não dá a sua identificação a tempo) e que é necessário indicar manualmente ao Jeedom o tipo de módulo
 
 >**EM FORMAÇÃO**
 >
@@ -282,3 +285,9 @@ Finalmente, e mesmo que pareça óbvio para alguns, lembramos que os gateways Zi
 >**Meu módulo esgota suas baterias muito rapidamente**
 >
 >Verifique se você está com um firmware atualizado em sua chave zigbee. Em 90% dos casos, o consumo excessivo de bateria vem do firmware da chave que apresenta o problema.
+
+>**Não consigo incluir novos módulos**
+>
+>Várias possibilidades para isso : 
+>- Você já tem muitos mods e excedeu o limite do número de mods ao vivo (31 em geral). Você deve colocar outra chave Zigbee (o plugin gerencia até 3) ou tentar adicionar nós de roteador (cuidado, pois não há um padrão claro para nós de roteador, então há incompatibilidades entre os fabricantes...)
+>- Você está sob o comando de Conbee : tente desconectar a chave por 2 minutos, coloque-a de volta e reinicie o daemon, é uma doença conhecida da chave Conbee (mesmo em deconz) ou você precisa de uma reinicialização a frio para a inclusão funcionar

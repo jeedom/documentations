@@ -77,6 +77,7 @@ As animações são sequências de transição, atualmente existem :
     - **duração** : definir duração, padrão 720s. Por 5 minutos será necessário indicar ``duration=300``.
 - **pôr do sol** : para simular um pôr do sol. Pode tomar como parâmetro :
     - **duração** : definir duração, padrão 720s. Por 5 minutos será necessário indicar ``duration=300``.
+- **adaptive_light** : permite-lhe sincronizar a temperatura da cor e o brilho com o sol (também mudam durante o dia). Tenha cuidado ao inserir sua latitude / longitude no jeedom
 
 # Botão de controle remoto
 

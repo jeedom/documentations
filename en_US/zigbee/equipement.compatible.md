@@ -17,12 +17,18 @@
 |<img src="../../en_US/zigbee/images/Bitron_Home.90201023.png" width="60" />|Bitron Video|SMABIT - 4-button remote control|||[Buy](https://www.domadoo.fr/fr/peripheriques/5551-smabit-telecommande-zigbee-4-boutons-8023874395814.html)|
 |<img src="../../en_US/zigbee/images/Bitron_Home.90201028.png" width="60" />|Bitron Video|SMABIT - Smart socket ON / OFF 16A|||[Buy](https://www.domadoo.fr/fr/peripheriques/5563-smabit-prise-intelligente-zigbee-onoff-16a-8023874395852.html)|
 |<img src="../../en_US/zigbee/images/Bitron_Home.90201032.png" width="60" />|Bitron Video|SMABIT - Smart thermostat with integrated relay|||[Buy](https://www.domadoo.fr/fr/peripheriques/5565-smabit-thermostat-intelligent-zigbee-avec-relais-8023874395883.html)|
+|<img src="../../en_US/zigbee/images/Bitron_Home.AV201029A.png" width="60" />|Bitron Video|Mermaid||||
 |<img src="../../en_US/zigbee/images/Bitron_Video.90201021B.png" width="60" />|Bitron Video|SMABIT - Opening detector + Wired sensor input|||[Buy](https://www.domadoo.fr/fr/peripheriques/5546-smabit-detecteur-d-ouverture-zigbee-entree-capteurs-filaires-8023874396651.html)|
+|<img src="../../en_US/zigbee/images/Bitron_Video.90201022.png" width="60" />|Bitron Video|SMABIT - Design motion detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5549-smabit-detecteur-de-mouvement-design-zigbee-8021156061013.html)|
+|<img src="../../en_US/zigbee/images/Bitron_Video.90201024A.png" width="60" />|Bitron Video|SMABIT - Smoke detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5555-smabit-detecteur-de-fumee-optique-zigbee-avec-fonction-sirene-8023874396644.html)|
 |<img src="../../en_US/zigbee/images/Bitron_Video.90201025.png" width="60" />|Bitron Video|SMABIT - Smart socket ON / OFF 16A||||
 |<img src="../../en_US/zigbee/images/Bitron_Video.90201026.png" width="60" />|Bitron Video|SMABIT - 2.5A dimmer smart socket|||[Buy](https://www.domadoo.fr/fr/peripheriques/5561-smabit-prise-intelligente-zigbee-variateur-25a-8023874395845.html)|
+|<img src="../../en_US/zigbee/images/Bitron_Video.AV201014.png" width="60" />|Bitron Video|SMABIT - Curtain motion detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5540-smabit-detecteur-de-mouvement-de-rideau-zigbee-8021156062300.html)|
 |<img src="../../en_US/zigbee/images/Bitron_Video.AV201016.png" width="60" />|Bitron Video|SMABIT - 2.5A dimmer wall relay|||[Buy](https://www.domadoo.fr/fr/peripheriques/5543-smabit-relais-mural-variateur-25a-zigbee-8023874397122.html)|
 |<img src="../../en_US/zigbee/images/Bitron_Video.AV201018.png" width="60" />|Bitron Video|SMABIT - Switch wall relay 10A|||[Buy](https://www.domadoo.fr/fr/peripheriques/5544-smabit-relais-mural-commutateur-10a-zigbee-8023874397139.html)|
+|<img src="../../en_US/zigbee/images/Bitron_Video.AV201021C.png" width="60" />|Bitron Video|SMABIT - Extra flat opening detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5547-smabit-detecteur-d-ouverture-de-porte-ou-fenetre-ultra-plat-zigbee-8023874397658.html)|
 |<img src="../../en_US/zigbee/images/Bitron_Video.AV201034.png" width="60" />|Bitron Video|SMABIT - Wall switch with batteries|||[Buy](https://www.domadoo.fr/fr/peripheriques/5568-smabit-interrupteur-mural-zigbee-avec-piles-8021156061037.html)|
+|<img src="../../en_US/zigbee/images/Bitron_Video.AV201037.png" width="60" />|Bitron Video|SMABIT - Flood detector + siren|||[Buy](https://www.domadoo.fr/fr/peripheriques/5569-smabit-detecteur-de-fuite-d-eau-avec-sirene-zigbee-8021156063291.html)|
 |<img src="../../en_US/zigbee/images/SMaBiT.AV201022B.png" width="60" />|Bitron Video|SMABIT - Outdoor motion detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5550-smabit-detecteur-de-mouvement-exterieur-zigbee-8023874397665.html)|
 
 # Eurotronic
@@ -68,6 +74,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/GreenPower.GreenPowerDevice.png" width="60" />|GreenPower|Generic GreenPower equipment||||
 |<img src="../../en_US/zigbee/images/GreenPower.OnOff_Switch.png" width="60" />|GreenPower|GreenPower On / Off equipment||||
+|<img src="../../en_US/zigbee/images/GreenPower.Window_handle.png" width="60" />|GreenPower|GreenPower equipment window handle||||
 
 # Groupes
 
@@ -142,6 +149,12 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/NIKO_NV.Connected_socket_outlet.png" width="60" />|NIKO NV|Smart plug||||
+
+# Oeeone
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/ZigBeeCCT.CCT_Light.png" width="60" />|Oeeone|Oeeone Smart LED Filament Bulb E27||||
 
 # Paul Neuhaus
 
@@ -249,12 +262,19 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/eWeLink.SA-003-Zigbee.png" width="60" />|EWeLink|OnOff Controller||||
 |<img src="../../en_US/zigbee/images/eWeLink.ZB-CL01.png" width="60" />|EWeLink|RGBCW MR16 Smart LED Bulb||||
+|<img src="../../en_US/zigbee/images/eWeLink.ZB-SW02.png" width="60" />|EWeLink|OnOff Controller||||
 
 # Ecodim
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/EcoDim_BV.Dimmer-Switch-ZB3.0.png" width="60" />|Ecodim|Rotary dimmer switch|Switch, Dimmer||[Buy](https://www.domadoo.fr/fr/eclairage/5369-ecodim-interrupteur-variateur-rotatif-zigbee-30-200w-8719322371263.html)|
+
+# Feller
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/feller.4boutonScene.png" width="60" />|Feller|Friends of boo 4 buttons||||
 
 # Gledopto
 
@@ -282,7 +302,7 @@
 |<img src="../../en_US/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Smoke detector||||
 |<img src="../../en_US/zigbee/images/HEIMAN.WarningDevice-EF-3.0.png" width="60" />|Develco|Smart siren||||
 |<img src="../../en_US/zigbee/images/Heiman.SmartPlug.png" width="60" />|Schneider|Connected socket and repeater Wiser|Socket, Meter, Power, Repeater||[Buy](https://www.domadoo.fr/fr/eclairage/5499-schneider-electric-prise-connectee-et-repeteur-zigbee-30-wiser-3606489917883.html)|
-|<img src="../../en_US/zigbee/images/Heiman.WarningDevice.png" width="60" />|Heiman|Mermaid||||
+|<img src="../../en_US/zigbee/images/Heiman.WarningDevice.png" width="60" />|Heiman|Outdoor siren|||[Buy](https://www.domadoo.fr/fr/peripheriques/5564-smabit-sirene-exterieure-zigbee-104-db-8023874397641.html)|
 
 # Icasa
 
@@ -337,6 +357,8 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/Innr.FL_140_C.png" width="60" />|Innr|INNR FLEXIBLE TAPE INDOOR RGBW|||[Buy](https://www.domadoo.fr/fr/peripheriques/5455-innr-ruban-flexible-indoor-couleur-4m-couleur-et-blanc-variable-2000k-a-6500k-8718781552725.html)|
+|<img src="../../en_US/zigbee/images/Innr.OFL_140_C.png" width="60" />|Innr|INNR Outdoor Flex Light Color||||
+|<img src="../../en_US/zigbee/images/Innr.OSL_130_C.png" width="60" />|Innr|OSL 130 C||||
 |<img src="../../en_US/zigbee/images/Innr.RB_165.png" width="60" />|Innr|INNR RB 165||||
 |<img src="../../en_US/zigbee/images/Innr.RB_250_C.png" width="60" />|Innr|INNR E14 RGBW|||[Buy](https://www.domadoo.fr/fr/peripheriques/5349-innr-ampoule-connectee-type-e14-zigbee-30-multicolor-rgbw-blanc-reglable-2200k-a-6500k-8718781552060.html)|
 |<img src="../../en_US/zigbee/images/Innr.RB_278_T.png" width="60" />|Innr|RB278T||||
@@ -353,14 +375,15 @@
 |<img src="../../en_US/zigbee/images/konke.3AFE140103020000.png" width="60" />|Konke|Temperature and humidity probe||||
 |<img src="../../en_US/zigbee/images/konke.3AFE14010402000D.png" width="60" />|Konke|Konke Motion sensor||||
 
-# Ledavance
+# Ledvance
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/LEDAVANCE.A60_RGBW_Value_II.png" width="60" />|Ledavance|Classic E27 Multicolor||||
-|<img src="../../en_US/zigbee/images/LEDAVANCE.A60_TW_Value_II.png" width="60" />|Ledavance|Classic E27 Tunable white||||
-|<img src="../../en_US/zigbee/images/LEDAVANCE.Outdoor_FLEX_RGBW_Z3.png" width="60" />|Ledavance|Outdoor FLEX RGBW Z3||||
-|<img src="../../en_US/zigbee/images/LEDAVANCE.Plug_Z3.png" width="60" />|Ledavance|Smart socket + Plug Z3||||
+|<img src="../../en_US/zigbee/images/LEDVANCE.A60_RGBW_Value_II.png" width="60" />|Ledvance|Classic E27 Multicolor||||
+|<img src="../../en_US/zigbee/images/LEDVANCE.A60_TW_Value_II.png" width="60" />|Ledvance|Classic E27 Tunable white||||
+|<img src="../../en_US/zigbee/images/LEDVANCE.FLEX_RGBW_Z3.png" width="60" />|Ledvance|FLEX RGBW Z3||||
+|<img src="../../en_US/zigbee/images/LEDVANCE.Outdoor_FLEX_RGBW_Z3.png" width="60" />|Ledvance|Outdoor FLEX RGBW Z3||||
+|<img src="../../en_US/zigbee/images/LEDVANCE.Plug_Z3.png" width="60" />|Ledvance|Smart socket + Plug Z3||||
 
 # Lellki
 
@@ -424,6 +447,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/OSRAM.CLA60_RGBW_OSRAM.png" width="60" />|Osram|OSRAM Smart + Connected LED Bulb - E27 Base||||
 |<img src="../../en_US/zigbee/images/OSRAM.CLA60_TW_OSRAM.png" width="60" />|Osram|Osram Smart + Tunable white E27 base||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
+|<img src="../../en_US/zigbee/images/OSRAM.Ceiling_TW_OSRAM.png" width="60" />|Osram|OSRAM Ceiling TW OSRAM||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/OSRAM.Classic_B40_TW_-_LIGHTIFY.png" width="60" />|Osram|OSRAM Smart + E14 LED bulb||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/OSRAM.Gardenpole_RGBW-Lightify.png" width="60" />|Osram|LEDVANCE SMART + GARDEN POLE||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/OSRAM.LIGHTIFY_Indoor_Flex_RGBW.png" width="60" />|Osram|OSRAM LIGHTIFY Indoor Flex RGBW||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
@@ -463,15 +487,18 @@
 |<img src="../../en_US/zigbee/images/Philips.LLM011.png" width="60" />|Philips|Hue white and color||||
 |<img src="../../en_US/zigbee/images/Philips.LLM012.png" width="60" />|Philips|Hue white and color||||
 |<img src="../../en_US/zigbee/images/Philips.LOM002.png" width="60" />|Philips|Hue Smart plug||||
+|<img src="../../en_US/zigbee/images/Philips.LOM006.png" width="60" />|Philips|Hue Smart plug||||
 |<img src="../../en_US/zigbee/images/Philips.LST001.png" width="60" />|Philips|Hue LightStrip||||
 |<img src="../../en_US/zigbee/images/Philips.LST002.png" width="60" />|Philips|Hue LightStrip Plus||||
 |<img src="../../en_US/zigbee/images/Philips.LST004.png" width="60" />|Philips|Hue LightStrip Outdoor||||
 |<img src="../../en_US/zigbee/images/Philips.LTA001.png" width="60" />|Philips|Hue White E27 with Bluetooth||||
+|<img src="../../en_US/zigbee/images/Philips.LTE002.png" width="60" />|Philips|Hue White Ambiance E14 w / BT||||
 |<img src="../../en_US/zigbee/images/Philips.LTW001.png" width="60" />|Philips|Hue white and color||Please note that there is no status feedback for this model, only an order sending is possible||
 |<img src="../../en_US/zigbee/images/Philips.LTW010.png" width="60" />|Philips|Hue White Ambiance A19 E26 / E27||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/Philips.LTW012.png" width="60" />|Philips|LTW012||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/Philips.LTW013.png" width="60" />|Philips|White GU10 smart bulb||Please note that the status feedback for this model is not in real time (either following a command or by explicitly requesting an update of it)||
 |<img src="../../en_US/zigbee/images/Philips.LWA001.png" width="60" />|Philips|Hue White Ambiance E27||Please note that there is no status feedback for this model, only an order sending is possible||
+|<img src="../../en_US/zigbee/images/Philips.LWA011.png" width="60" />|Philips|Hue White E27||Please note that there is no status feedback for this model, only an order sending is possible||
 |<img src="../../en_US/zigbee/images/Philips.LWB004.png" width="60" />|Philips|E27 Philps Hue 9W 806 lm Dimmable White Bulb||||
 |<img src="../../en_US/zigbee/images/Philips.LWB006.png" width="60" />|Philips|E27 Philps Hue 9W||||
 |<img src="../../en_US/zigbee/images/Philips.LWB010.png" width="60" />|Philips|Hue White B22||Please note that there is no status feedback for this model, only an order sending is possible||
@@ -503,6 +530,8 @@
 |<img src="../../en_US/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Wiser Window / Door Sensor|Ouverture||[Documentation](https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=MFR1569800.pdf&p_Doc_Ref=MFR1569800)<br/>|
 |<img src="../../en_US/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Wiser Water Leakage Sensor|Fuite|||
 |<img src="../../en_US/zigbee/images/Schneider_Electric.CCTFR6700.png" width="60" />|Schneider|Wiser electric heater actuator|||[Buy](https://www.domadoo.fr/fr/chauffage-clim/5498-schneider-electric-actionneur-pour-radiateur-electrique-fil-pilote-zigbee-30-wiser-3606481914705.html)|
+|<img src="../../en_US/zigbee/images/Schneider_Electric.NHPBDIMMER1.png" width="60" />|Schneider|Wiser dimmer|Variateur|||
+|<img src="../../en_US/zigbee/images/Schneider_Electric.NHPBSWITCH1.png" width="60" />|Schneider|ZIGBEE 3 CONNECTED SWITCH.0 WISER ODACE|||[Buy](https://www.domadoo.fr/fr/peripheriques/5719-schneider-electric-interrupteur-connecte-zigbee-30-wiser-odace-blanc-3606481019578.html)|
 |<img src="../../en_US/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Wiser Exxact dimmer rotary|Variateur|||
 |<img src="../../en_US/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|Wiser micro dimmer module|Variateur|||
 |<img src="../../en_US/zigbee/images/Schneider_Electric.PUCKSHUTTER1.png" width="60" />|Schneider|Connected module for roller shutters|Volets||[Documentation](https://download.schneider-electric.com/files?p_enDocType=System+user+guide&p_File_Name=Merten_PL_Wiser_TIs_DE.pdf&p_Doc_Ref=Merten_PL_Wiser_TIs_DE)<br/>|
@@ -549,6 +578,7 @@
 |<img src="../../en_US/zigbee/images/TUYATEC-gqhxixyk.RH3052.png" width="60" />|Tuya|Temperature and humidity sensor||||
 |<img src="../../en_US/zigbee/images/TUYATEC-ydcwf5m2.RH3001.png" width="60" />|Tuya|Intelligent door or window opening sensor||||
 |<img src="../../en_US/zigbee/images/TUYATEC-zn9wyqtr.RH3040.png" width="60" />|Tuya|Intelligent motion detector||||
+|<img src="../../en_US/zigbee/images/TYZB01_3zv6oleo.TS0210.png" width="60" />|Tuya|Vibration sensor||||
 |<img src="../../en_US/zigbee/images/TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|ON / OFF switch 2300W 1 channel||||
 |<img src="../../en_US/zigbee/images/TYZB01_b1ngbmlm.TS0112.png" width="60" />|Tuya|Smart ON / OFF plug and 2 USB ports||||
 |<img src="../../en_US/zigbee/images/TYZB01_dazsid15.TS0302.png" width="60" />|Tuya|Connected switch for roller shutter||||
@@ -569,11 +599,13 @@
 |<img src="../../en_US/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Tuya|Connected switch for connected curtain||||
 |<img src="../../en_US/zigbee/images/TZ3000_92chsky7.TS110F.png" width="60" />|Tuya|Dimmer 2 voices||||
 |<img src="../../en_US/zigbee/images/TZ3000_a7ouggvs.TS0043.png" width="60" />|Tuya|3 button connected switch||||
+|<img src="../../en_US/zigbee/images/TZ3000_abci1hiu.TS0044.png" width="60" />|Tuya|Scene remote 4 buttons||||
 |<img src="../../en_US/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Smart double switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_cphmq0q7.TS011F.png" width="60" />|Tuya|Connected socket|Socket, Meter, Power, Repeater|||
 |<img src="../../en_US/zigbee/images/TZ3000_ebar6ljy.TS0203.png" width="60" />|Tuya|Opening sensor|Ouverture|||
 |<img src="../../en_US/zigbee/images/TZ3000_fvh3pjaz.TS0012.png" width="60" />|Tuya|Double switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BLITZWOLF - EU 16A smart plug||||
+|<img src="../../en_US/zigbee/images/TZ3000_hdlpifbk.TS0004.png" width="60" />|Tuya|Triple switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_hktqahrq.TS0001.png" width="60" />|Tuya|Gigier JR-ZDS01||||
 |<img src="../../en_US/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|Mini RGB Led Strip Controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_m0vaazab.TS0207.png" width="60" />|Tuya|Range extender||||
@@ -584,7 +616,9 @@
 |<img src="../../en_US/zigbee/images/TZ3000_pmz6mjyu.TS011F.png" width="60" />|Tuya|MOES - Dual ON / OFF connected module||||
 |<img src="../../en_US/zigbee/images/TZ3000_qaaysllp.TS0201.png" width="60" />|Tuya|Temperature, humidity and light sensor with display||||
 |<img src="../../en_US/zigbee/images/TZ3000_qdmnmddg.TS0207.png" width="60" />|Tuya|Flood detector|Fuite|||
+|<img src="../../en_US/zigbee/images/TZ3000_qqjaziws.TS0505B.png" width="60" />|Tuya|RGBCCT LED strip controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_rdtixbnu.TS0121.png" width="60" />|Tuya|Single charge smart switch||||
+|<img src="../../en_US/zigbee/images/TZ3000_scvgu6ow.TS011F.png" width="60" />|Tuya|Socket with 2 usb ports||||
 |<img src="../../en_US/zigbee/images/TZ3000_tk3s5tyg.TS0041.png" width="60" />|Tuya|Smart single switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|RGBW LED strip controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|Intelligent roller shutter module||||
@@ -651,6 +685,7 @@
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|AQARA - Intelligent motion sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_motion.png" width="60" />|Xiaomi|AQARA - Intelligent motion sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/4518-aqara-detecteur-de-mouvement-zigbee-192784000090.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_smoke.png" width="60" />|Xiaomi|MIJIA - Smart smoke detector||||
+|<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_swit.png" width="60" />|Xiaomi|AQARA - Smart wireless switch|Remote control, Switch|||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_switch.aq2.png" width="60" />|Xiaomi|AQARA - Smart Wireless Switch (REV2)|Remote control, Switch||[Buy](https://www.domadoo.fr/fr/peripheriques/4669-aqara-interrupteur-sans-fil-intelligent-zigbee-192784000052.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_switch.aq3.png" width="60" />|Xiaomi|AQARA - Smart Wireless Switch (REV3)|Remote control, Switch|||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_switch.png" width="60" />|Xiaomi|MIJIA - Smart wireless switch||||
@@ -673,4 +708,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-06-07 02:32:05
+2021-06-07 14:58:09

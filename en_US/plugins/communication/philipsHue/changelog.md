@@ -6,6 +6,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Adding an adaptive_light animation
+- Fixed a problem with the discovery of scenes on the 2nd Hue bridge
+
 # 03/15/2021
 
 - Addition of the Hue White Bulb A67 E27 1600lm

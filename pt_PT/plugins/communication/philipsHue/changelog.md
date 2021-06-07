@@ -6,6 +6,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Adicionando uma animação adaptive_light
+- Corrigido um problema com a descoberta de cenas na ponte 2ª Hue
+
 # 15/03/2021
 
 - Adição da lâmpada Hue White A67 E27 1600lm

@@ -6,8 +6,7 @@
 -	**EZSP (Silicon Labs)** : Vom Jeedom-Team getestet, validiert und empfohlen.
 -	**XBee** : Nicht vom Jeedom-Team getestet.
 -	**Zigate** : Nicht vom Team getestet. 
--	**ZNP (Texas Instruments, Z-Stapel 3.X.X)** : Nicht vom Team getestet.
--	**CC (Texas Instruments, Z-Stapel 1.2.X)** : Nicht vom Team getestet.
+-	**ZNP (Texas Instruments))** : Nicht vom Team getestet.
 
 Darüber hinaus ist das Plugin mit vielen Tools ausgestattet, die es ermöglichen :
 
@@ -99,6 +98,10 @@ Um die Hinzufügung neuer Geräte anzufordern, müssen die folgenden Elemente an
 - **das genaue Modell** des Moduls mit einem Link zur Kaufseite und einem repräsentativen Bild auf transparentem Hintergrund (`png`)),
 - Klicken Sie auf der Ausrüstungsseite auf die blaue Schaltfläche **Modulkonfiguration** dann tab **Rohdaten**. Kopieren Sie den Inhalt, um ihn an das Jeedom-Team zu übertragen,
 - Setzen Sie den Daemon auf der Plugin-Konfigurationsseite in "Debug" und starten Sie ihn neu. Führen Sie Aktionen am Gerät aus *(Wenn es sich um einen Temperatursensor handelt, ändern Sie die Temperatur, wenn es sich um ein Ventil handelt, ändern Sie den Sollwert usw...)* und senden Sie das ZigBee-Protokoll *(nicht "Zigbeed")*.
+
+>**Wichtig**
+>
+>Überprüfen Sie vor jeder Anforderung zum Hinzufügen eines Moduls, ob Ihr Plugin auf dem neuesten Stand ist und ob das Modul noch nicht in der Liste enthalten ist. Es kommt manchmal vor, dass die automatische Erkennung nicht funktioniert (weil das Modul seine Identifizierung nicht rechtzeitig gibt) und dass es notwendig ist, Jeedom den Modultyp manuell anzuzeigen
 
 >**INFORMATION**
 >
@@ -282,3 +285,9 @@ Schließlich und auch wenn es einigen offensichtlich erscheint, erinnern wir Sie
 >**Mein Modul leert seine Batterien sehr schnell**
 >
 >Überprüfen Sie, ob sich auf Ihrem ZigBee-Schlüssel eine aktuelle Firmware befindet. In 90% der Fälle kommt ein übermäßiger Batterieverbrauch von der Firmware des Schlüssels, bei dem ein Problem auftritt.
+
+>**Ich kann keine neuen Module aufnehmen**
+>
+>Dafür gibt es mehrere Möglichkeiten : 
+>- Du hast bereits viele Mods und hast das Limit der Anzahl der Live-Mods überschritten (31 im Allgemeinen). Sie müssen entweder einen anderen ZigBee-Schlüssel eingeben (das Plugin verwaltet bis zu 3) oder versuchen, Routerknoten hinzuzufügen (achten Sie darauf, dass es keinen klaren Standard für Routerknoten gibt, sodass Inkompatibilitäten zwischen Herstellern bestehen...)
+>- Sie sind unter Conbee : Versuchen Sie, den Schlüssel für 2 Minuten abzuziehen, ihn zurückzusetzen und den Daemon neu zu starten. Es handelt sich um eine bekannte Erkrankung des Conbee-Schlüssels (auch unter Dekonz), oder Sie benötigen einen Kaltstart, damit die Aufnahme funktioniert
