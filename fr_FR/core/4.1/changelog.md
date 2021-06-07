@@ -1,5 +1,10 @@
 # Changelog Jeedom V4.1
 
+## 4.1.23
+
+- Correction de bugs sur l'archivage de l'historique
+- Correction d'un soucis de cache qui pouvait disparaitre lors d'un reboot
+
 ## 4.1.22
 
 - Ajout d'un systeme permettant a Jeedom SAS de communiquer des messages à tous les Jeedoms
