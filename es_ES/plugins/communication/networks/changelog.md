@@ -8,6 +8,7 @@
 
 - Nueva presentación de la lista de objetos
 - Adición de la etiqueta "compatibilidad V4"
+- Actualizar el icono del complemento
 
 # 08/04/2020
 

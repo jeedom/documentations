@@ -8,6 +8,7 @@
 
 - New presentation of the list of objects
 - Addition of the tag "V4 compatibility"
+- Update plugin icon
 
 # 04/08/2020
 

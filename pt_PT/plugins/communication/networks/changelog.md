@@ -8,6 +8,7 @@
 
 - Nova apresentação da lista de objetos
 - Adição da tag "compatibilidade V4"
+- Ícone de atualização do plugin
 
 # 04/08/2020
 
