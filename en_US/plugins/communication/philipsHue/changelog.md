@@ -6,6 +6,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 06/07/2021
+
 - Adding an adaptive_light animation
 - Fixed a problem with the discovery of scenes on the 2nd Hue bridge
 
