@@ -8,6 +8,12 @@
 >
 >Para conocer el nuevo módulo compatible tienes que ir [la](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (está ordenado por fecha de adición / modificación)
 
+# 09/06/2021
+
+- Cambio de la fuente de actualización OTA para Ikea (cambiar a la rama estable)
+- Adición de un nuevo módulo compatible
+- Arreglo del fallo
+
 # 18/05/2021
 
 - Soporte GreenPower en beta para llaves tipo EZSP (Elelabs, Popp ...), requiere reiniciar la instalación de dependencias

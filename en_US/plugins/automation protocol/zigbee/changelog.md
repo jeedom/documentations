@@ -8,6 +8,12 @@
 >
 >To know the new compatible module you have to go [the](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (it is sorted by date added / modified)
 
+# 06/09/2021
+
+- Change of the OTA update source for Ikea (switch to the stable branch)
+- Addition of new compatible module
+- Bug fix
+
 # 05/18/2021
 
 - GreenPower support in beta for EZSP type keys (Elelabs, Popp ...), requires restart of the installation of dependencies
