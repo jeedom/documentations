@@ -120,6 +120,7 @@
 |<img src="../../en_US/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|DRIVIA connected contactor||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.DIN_power_consumption_module.jpg" width="60" />|Legrand|DIN power consumption module||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Wired switch connected with dimmer option without neutral||Can only be paired on channel 11, 13 or 15||
+||Legrand|Switch connected with neutral with dimmer option||Can only be paired on channel 11, 13 or 15||
 |<img src="../../en_US/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Wireless dual control||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.GreenPower_home.png" width="60" />|Legrand|GreenPower Home / Away||||
 |<img src="../../en_US/zigbee/images/Legrand.GreenPower_night.png" width="60" />|Legrand|GreenPower Day / Night||||
@@ -708,4 +709,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-06-09 02:32:06
+2021-06-10 02:32:06

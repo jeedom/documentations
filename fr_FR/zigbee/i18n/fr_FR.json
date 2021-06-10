@@ -414,8 +414,9 @@
         "GreenPower Day\/Night": "GreenPower Day\/Night",
         "GreenPower Home\/Away": "GreenPower Home\/Away",
         "Commande double sans fil": "Commande double sans fil",
-        "Interrupteur filaire connecté avec option variateur sans neutre": "Interrupteur filaire connecté avec option variateur sans neutre",
+        "Interrupteur connecté avec neutre avec option variateur": "Interrupteur connecté avec neutre avec option variateur",
         "Ne peut etre appairé que sur le canal 11, 13 ou 15": "Ne peut etre appairé que sur le canal 11, 13 ou 15",
+        "Interrupteur filaire connecté avec option variateur sans neutre": "Interrupteur filaire connecté avec option variateur sans neutre",
         "DIN power consumption module": "DIN power consumption module",
         "Contacteur connecté DRIVIA": "Contacteur connecté DRIVIA",
         "Micro module VMC": "Micro module VMC",
@@ -482,6 +483,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-06-09 02": "2021-06-09 02"
+        "2021-06-10 02": "2021-06-10 02"
     }
 }

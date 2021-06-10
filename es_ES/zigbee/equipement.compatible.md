@@ -120,6 +120,7 @@
 |<img src="../../es_ES/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|Contactor conectado DRIVIA||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.DIN_power_consumption_module.jpg" width="60" />|Legrand|Módulo de consumo de energía DIN||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Interruptor cableado conectado con opción de atenuador sin neutro||Solo se puede emparejar en el canal 11, 13 o 15||
+||Legrand|Interruptor conectado con neutral con opción de atenuador||Solo se puede emparejar en el canal 11, 13 o 15||
 |<img src="../../es_ES/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Control dual inalámbrico||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.GreenPower_home.png" width="60" />|Legrand|GreenPower En casa / Ausente||||
 |<img src="../../es_ES/zigbee/images/Legrand.GreenPower_night.png" width="60" />|Legrand|GreenPower día / noche||||
@@ -708,4 +709,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-06-09 02:32:06
+2021-06-10 02:32:06

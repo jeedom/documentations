@@ -120,6 +120,7 @@
 |<img src="../../de_DE/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|DRIVIA angeschlossenes Schütz||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.DIN_power_consumption_module.jpg" width="60" />|Legrand|DIN-Stromverbrauchsmodul||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Kabelschalter mit Dimmeroption ohne Neutralleiter verbunden||Kann nur auf Kanal 11, 13 oder 15 gekoppelt werden||
+||Legrand|Schalter mit Neutralleiter mit Dimmeroption verbunden||Kann nur auf Kanal 11, 13 oder 15 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Drahtlose Doppelsteuerung||Kann nur auf Kanal 11 gekoppelt werden||
 |<img src="../../de_DE/zigbee/images/Legrand.GreenPower_home.png" width="60" />|Legrand|GreenPower Heim / Auswärts||||
 |<img src="../../de_DE/zigbee/images/Legrand.GreenPower_night.png" width="60" />|Legrand|GreenPower Tag / Nacht||||
@@ -708,4 +709,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-06-09 02:32:06
+2021-06-10 02:32:06
