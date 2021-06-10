@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 27.11.2020
+
+- Neue Darstellung der Objektliste
+- Hinzufügung des Tags "V4-Kompatibilität"
+
 # 05/11/2020
 
 - Verbesserte Kartenunterstützung
@@ -15,11 +20,11 @@
 
 # 2019.12.30
 
-- Aktualisieren des Dokuments
+- Aktualisierung der Dokumentation
 
 # 17.09.2019
 
-- Aktualisieren des Dokuments
+- Aktualisierung der Dokumentation
 
 # 23.08.2019
 

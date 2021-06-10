@@ -4,6 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 27/11/2020
+
+- Nova apresentação da lista de objetos
+- Adição da tag "compatibilidade V4"
+
 # 05/11/2020
 
 - Suporte aprimorado para cartões
@@ -15,11 +20,11 @@
 
 # 30/12/2019
 
-- Atualizando o documento
+- Atualização da documentação
 
 # 17/09/2019
 
-- Atualizando o documento
+- Atualização da documentação
 
 # 23/08/2019
 
