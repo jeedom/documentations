@@ -1,7 +1,18 @@
 {
     "id": "gestAccess",
     "name": "Gestion d'accès",
-    "description": "Plugin qui permet de gérer le contrôle d'accès d'un bâtiment via la création d'utilisateurs, groupes, plages horaires et lecteurs/actionneurs. ATTENTION : Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack. Ils sont disponibles uniquement sur devis auprès de Jeedom (contact via notre site web).",
+    "description": {
+        "fr_FR": "Plugin qui permet de gérer le contrôle d'accès d'un bâtiment via la création d'utilisateurs, groupes, plages horaires et lecteurs\/actionneurs. ATTENTION : Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack. Ils sont disponibles uniquement sur devis auprès de Jeedom (contact via notre site web).",
+        "en_US": "Plugin that allows you to manage the access control of a building via the creation of users, groups, time slots and readers \/ actuators. CAUTION: PREMIUM plugins are NOT included in ANY Service Pack. They are only available on request from Jeedom (contact via our website)",
+        "es_ES": "Plugin que permite gestionar el control de acceso de un edificio mediante la creación de usuarios, grupos, franjas horarias y lectores \/ actuadores. PRECAUCIÓN: Los complementos PREMIUM NO están incluidos en NINGÚN Service Pack. Solo están disponibles a pedido de Jeedom (contacto a través de nuestro sitio web)",
+        "de_DE": "Plugin, mit dem Sie die Zugriffskontrolle eines Gebäudes über die Erstellung von Benutzern, Gruppen, Zeitfenstern und Lesern \/ Aktoren verwalten können. VORSICHT: PREMIUM-Plugins sind in keinem Service Pack enthalten. Sie sind nur auf Anfrage bei Jeedom erhältlich (Kontakt über unsere Website)",
+        "pt_PT": "Plugin que permite gerenciar o controle de acesso de um edifício através da criação de usuários, grupos, slots de tempo e leitores \/ atuadores. CUIDADO: Plug-ins PREMIUM NÃO estão incluídos em NENHUM Service Pack. Eles só estão disponíveis a pedido da Jeedom (contato através do nosso site)",
+        "ru_RU": "Plugin qui permet de gérer le contrôle d'accès d'un bâtiment via la création d'utilisateurs, groupes, plages horaires et lecteurs\/actionneurs. ATTENTION : Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack. Ils sont disponibles uniquement sur devis auprès de Jeedom (contact via notre site web)",
+        "id_ID": "Plugin qui permet de gérer le contrôle d'accès d'un bâtiment via la création d'utilisateurs, groupes, plages horaires et lecteurs\/actionneurs. ATTENTION : Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack. Ils sont disponibles uniquement sur devis auprès de Jeedom (contact via notre site web)",
+        "it_IT": "Plugin qui permet de gérer le contrôle d'accès d'un bâtiment via la création d'utilisateurs, groupes, plages horaires et lecteurs\/actionneurs. ATTENTION : Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack. Ils sont disponibles uniquement sur devis auprès de Jeedom (contact via notre site web)",
+        "ja_JP": "Plugin qui permet de gérer le contrôle d'accès d'un bâtiment via la création d'utilisateurs, groupes, plages horaires et lecteurs\/actionneurs. ATTENTION : Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack. Ils sont disponibles uniquement sur devis auprès de Jeedom (contact via notre site web)",
+        "tr": "Plugin qui permet de gérer le contrôle d'accès d'un bâtiment via la création d'utilisateurs, groupes, plages horaires et lecteurs\/actionneurs. ATTENTION : Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack. Ils sont disponibles uniquement sur devis auprès de Jeedom (contact via notre site web)"
+    },
     "licence": "AGPL",
     "author": "Jeedom SAS",
     "require": "3.3.39",
@@ -13,7 +24,13 @@
         "fr_FR",
         "en_US",
         "es_ES",
-        "de_DE"
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",

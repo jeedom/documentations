@@ -1,5 +1,7 @@
 # Plug-in de Gerenciamento de Acesso
 
+# Description
+
 Este plug-in é usado para gerenciamento avançado de um sistema de acesso, usando as seguintes funcionalidades :
 
 - Ativação e apresentação do plugin
@@ -9,6 +11,8 @@ Este plug-in é usado para gerenciamento avançado de um sistema de acesso, usan
 - Criação e gerenciamento de horários
 - Pesquisa de histórico
 
+>**Informação**
+>
 >Todas as capturas de tela são tiradas sob um tema, se a aparência do seu Jeedom não for exatamente a mesma, não se preocupe.
 
 ## Ativação e apresentação do plug-in de gerenciamento de acesso
@@ -16,11 +20,13 @@ Este plug-in é usado para gerenciamento avançado de um sistema de acesso, usan
 ### Activation
 Depois de instalar seu plugin, você deve ativá-lo.
 
+>**DICA**
+>
 >Se você usa o KNX, no grupo **Configuração** preencha os campos.
 
 ![activation](../images/activation.jpg)
 
-Depois de ativar o plugin, você deverá vê-lo em  **Plugins** → **Segurança** → **gerenciamento de acesso**. Se não for esse o caso, não hesite em atualizar sua página (Ctrl + F5 ou Cmd + R).
+Depois de ativar o plugin, você deverá vê-lo em  **Plugins** → **Segurança** → **Gerenciamento de acesso**. Se este não for o caso, não hesite em atualizar sua página (``Ctrl+F5`` onde ``Cmd+R``).
 
 ![gestionAcces](../images/path.jpg)
 
@@ -37,10 +43,9 @@ No **Dashboard** está disponível uma história dos últimos 20 eventos.
 
 ![gestionAcces](../images/dashbord.jpg)
 
-## Criação e gerenciamento de portas </a>
+## Criação e gerenciamento de portas
 
-
-#### Criação da porta
+### Criação da porta
 
 **Adicionar** criar uma porta.
 O campo permite definir o nome da porta.
@@ -51,19 +56,22 @@ Na lista *Tipo*, selecionar **Porta / Leitor**.
 
 ![gestionAcces](../images/selEqu.jpg)
 
-#### Configuração da porta
+### Configuração da porta
 
 **Configuração do equipamento** permite configurar a porta.
 
 ![gestionAcces](../images/confReader.jpg)
 
-#### Direitos do equipamento
+### Direitos do equipamento
 
 **Direitos do equipamento** é usado para atribuir intervalos de tempo específicos à porta durante os quais os usuários não precisam de seus crachás para passar.
 
 ![gestionAcces](../images/rightReader.jpg)
 
 **Adicionar direitos** permite selecionar um horário já existente para atribuí-lo à sua porta.
+
+>**IMPORTANTE**
+>
 >Todos os usuários conectados ao fuso horário selecionado poderão passar por essa porta durante os horários definidos nela.
 
 ![gestionAcces](../images/scheduleReader.jpg)
@@ -72,10 +80,9 @@ Na lista *Tipo*, selecionar **Porta / Leitor**.
 
 O botão **-** remove o horário.
 
-## Criação e gerenciamento de usuários </a>
----
+## Criação e gerenciamento de usuários
 
-#### Criação de usuário
+### Criação de usuário
 
 **Adicionar** usado para criar um usuário.
 O campo permite definir o nome do usuário.
@@ -86,9 +93,9 @@ Na lista *Tipo*, indicar **Usuário**.
 
 ![gestionAcces](../images/selUser.jpg)
 
-#### Configuração do usuário
+### Configuração do usuário
 
-**Configurações do usuário** é usado para configurar. 
+**Configurações do usuário** é usado para configurar.
 
 ![gestionAcces](../images/confUser.jpg)
 
@@ -113,34 +120,37 @@ O botão **Enviar** permite transmitir a foto do perfil que você deseja para o 
 
 ![gestionAccess](../images/imgUser.jpg)
 
-O botão **Baixar** carregar foto do usuário. 
+O botão **Baixar** carregar foto do usuário.
 O arquivo será nomeado de acordo com os valores indicados nos campos **Nome de usuário** e **Nome do usuário** (separado por um traço).
 
-#### Configurando grupos para um usuário
+### Configurando grupos para um usuário
 
  **Configuração de grupos** usado para atribuir seu usuário a um grupo.
+
+>**NOTA**
+>
 >Marque uma caixa para selecionar o grupo correspondente.
 
 ![gestionAccess](../images/confGUser.jpg)
 
-#### Direitos do usuário
+### Direitos do usuário
 
 A guia **Direitos do usuário** usado para atribuir direitos específicos ao usuário.
 
 ![gestionAccess](../images/rightUser.jpg)
 
-**Adicionar direitos**, permite selecionar uma porta e um intervalo de tempo que será atribuído ao usuário selecionado. 
-Duas opções estão disponíveis **Recusar** e **Aceitar** para ação.
+**Adicionar direitos**, permite selecionar uma porta e um intervalo de tempo que será atribuído ao usuário selecionado.
+Duas opções estão disponíveis : **Recusar** e **Aceitar** para ação.
 
 ![gestionAccess](../images/addRightUser.jpg)
 
-Os novos direitos atribuídos são visíveis na guia **Direitos do usuário**. O botão **-** remove direitos.
+Os novos direitos atribuídos são visíveis na guia **Direitos do usuário**. O botão menos (**-**) remove direitos.
 
 ![gestionAccess](../images/rightUser0.jpg)
 
 ## Criação e gerenciamento de grupos
 
-#### Criação de um grupo
+### Criação de um grupo
 Use o botão **Adicionar** criar um grupo.
 O campo permite definir o nome do grupo.
 
@@ -165,7 +175,7 @@ Na aba **Direitos do grupo** os novos direitos afetados serão visíveis. O bot�
 
 ## Criação e gerenciamento de horários
 
-#### Criação de um horário
+### Criação de um horário
 Use o botão **Adicionar** para criar um intervalo de tempo.
 O campo permite definir o nome do intervalo de tempo.
 
@@ -175,24 +185,25 @@ Na lista de tipos, selecione **Intervalo de tempo**.
 
 ![gestionAccess](../images/selTimelapse.jpg)
 
-#### Configuração de intervalo de tempo
+### Configuração de intervalo de tempo
 
-A guia **Configuração do intervalo de tempo** permite configurar um novo horário. 
+A guia **Configuração do intervalo de tempo** permite configurar um novo horário.
 
 ![gestionAccess](../images/confTimelapse.jpg)
 
->**Dicas :** 
-> - Para configurar um horário, clique nas caixas que lhe interessam de acordo com o dia e a hora. 
-Uma caixa fica azul quando está ativa.
- Por padrão, as caixas estão ativas todos os dias, das 10:30 às 19:00. 
- Para desativar uma caixa, clique nela com o botão direito. Isso ficará transparente.
+>**Informação**
+>
+> - Para configurar um horário, clique com o botão esquerdo nas caixas de seu interesse de acordo com o dia e a hora.   
+Uma caixa fica azul quando está ativa.    
+>Por padrão, as caixas estão ativas todos os dias, das 10:30 às 19:00.
+>Para desativar uma caixa, clique nela com o botão direito. Isso ficará transparente.
 > - Por padrão, os feriados são considerados, desmarque as caixas azuis na linha **"Feriados"**.
 > - Deslize a barra de rolagem para a direita na parte inferior da tabela para ver mais agendas.
 
 
 ## Pesquisa de histórico
 
-**Etapa importante :** Para acessar esta parte, é importante realizar um ajuste a montante. Vá para **Plugins** → **Gerenciamento de plug-in**, Dans **Meus plugins**, clique em **Gerenciamento de acesso**.
+**Etapa importante** : Para acessar esta parte, é importante realizar um ajuste a montante. Vá para **Plugins** → **Gerenciamento de plug-in**, Dans **Meus plugins**, clique em **Gerenciamento de acesso**.
 
 ![gestionAccess](../images/gestPlug.jpg)
 
@@ -213,10 +224,12 @@ A parte esquerda permite determinar os critérios de pesquisa.
 
  - **Lista de usuários :** Nomes dos usuários pesquisados. Você pode selecionar vários usuários.
  - **Lista de equipamentos :** Nomes dos equipamentos procurados. Você pode selecionar vários dispositivos.
- - **Lista de horários :** Nomes de faixas pesquisados. Você pode selecionar vários horários.
+ - **Lista de horários :** Nomes das faixas pesquisadas. Você pode selecionar vários horários.
  - **Data de início :** Digite uma data e hora de início para sua pesquisa.
  - **Data final** Indique uma data de término e um horário para sua pesquisa.
  - **Lista de grupos** Nomes de grupos procurados. Você pode selecionar vários grupos.
  - **Lista de ações** Selecione o resultado de uma ação, você pode escolher entre : **Todos**, **Recusar** e **Autorização**.
 
+>**IMPORTANTE**
+>
 >Na parte superior da tabela, abaixo de cada título de coluna, os diferentes campos permitem realizar uma segunda pesquisa que classificará os resultados.
