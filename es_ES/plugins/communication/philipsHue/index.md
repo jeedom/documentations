@@ -77,7 +77,7 @@ Las animaciones son secuencias de transición, actualmente hay :
     - **duración** : establecer duración, 720 s por defecto. Durante 5 minutos será necesario indicar ``duration=300``.
 - **puesta de sol** : para simular una puesta de sol. Puede tomar como parámetro :
     - **duración** : establecer duración, 720 s por defecto. Durante 5 minutos será necesario indicar ``duration=300``.
-- **luz_adaptativa** : te permite sincronizar la temperatura de color y el brillo con el sol (también cambian durante el día). Tenga cuidado de ingresar su latitud / longitud en jeedom
+- **iluminación_adaptativa** : te permite sincronizar la temperatura de color y el brillo con el sol (también cambian durante el día). Tenga cuidado de ingresar su latitud / longitud en jeedom
 
 # Botón de control remoto
 

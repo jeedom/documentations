@@ -77,7 +77,7 @@ Die Animationen sind Übergangssequenzen, derzeit gibt es :
     - **Dauer** : Dauer einstellen, Standard 720s. Für 5 Minuten muss angegeben werden ``duration=300``.
 - **Sonnenuntergang** : einen Sonnenuntergang simulieren. Es kann als Parameter verwendet werden :
     - **Dauer** : Dauer einstellen, Standard 720s. Für 5 Minuten muss angegeben werden ``duration=300``.
-- **adaptives_licht** : Mit dieser Option können Sie die Farbtemperatur und -helligkeit mit der Sonne synchronisieren (sie ändern sich auch tagsüber). Achten Sie darauf, Ihren Breiten- / Längengrad in jeedom einzugeben
+- **adaptive_beleuchtung** : Mit dieser Option können Sie die Farbtemperatur und -helligkeit mit der Sonne synchronisieren (sie ändern sich auch tagsüber). Achten Sie darauf, Ihren Breiten- / Längengrad in jeedom einzugeben
 
 # Fernbedienungstaste
 

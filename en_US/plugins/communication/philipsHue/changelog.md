@@ -8,7 +8,7 @@
 
 # 06/07/2021
 
-- Adding an adaptive_light animation
+- Adding an adaptive_lighting animation
 - Fixed a problem with the discovery of scenes on the 2nd Hue bridge
 
 # 03/15/2021

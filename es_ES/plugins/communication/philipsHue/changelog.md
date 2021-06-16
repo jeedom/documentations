@@ -8,7 +8,7 @@
 
 # 07/06/2021
 
-- Agregar una animación adaptive_light
+- Agregar una animación adaptive_lighting
 - Se solucionó un problema con el descubrimiento de escenas en el segundo puente Hue
 
 # 15/03/2021

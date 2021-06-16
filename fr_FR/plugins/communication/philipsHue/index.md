@@ -77,7 +77,7 @@ Les animations sont des enchainements de transition, actuellement il existe :
     - **duration** : définir la durée, par défaut 720s. Pour 5 minutes il faudra indiquer ``duration=300``.
 - **sunset** : pour simuler un couché de soleil. Il peut prendre en paramètre :
     - **duration** : définir la durée, par défaut 720s. Pour 5 minutes il faudra indiquer ``duration=300``.
-- **adaptative_light** : permet de synchroniser la température de couleur et luminosité avec le soleil (elles evoluent aussi au cours de la journée). Attention à bien renseigner dans jeedom votre latitude/longitude
+- **adaptive_lighting** : permet de synchroniser la température de couleur et luminosité avec le soleil (elles evoluent aussi au cours de la journée). Attention à bien renseigner dans jeedom votre latitude/longitude
 
 # Bouton télécommande
 

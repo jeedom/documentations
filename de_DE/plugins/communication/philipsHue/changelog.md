@@ -8,7 +8,7 @@
 
 # 07.06.2021
 
-- Hinzufügen einer adaptiven_Lichtanimation
+- Eine adaptive_lighting-Animation hinzufügen
 - Ein Problem beim Auffinden von Szenen auf der 2. Hue-Brücke wurde behoben
 
 # 15.03.2021
