@@ -1,28 +1,11 @@
 {
     "..\/README.md": {
-        "Repositorio jeedom general de documentación": "Repositorio jeedom general de documentación",
-        "Puedes consultar la documentación": "Puedes consultar the documentación",
-        "O Beitrag zu einer una mejor documentación, siguiendo estos": "O Beitrag zu einer una mejor documentación, siguiendo estos",
         " documentations.": " documentations.",
         " documentations?": " documentations?",
         "documentations ": "documentations ",
         " documentations]": " documentations]",
         "[documentations]": "[documentations]",
         "*documentations*": "*documentations*",
-        " documentations*": " documentations*",
-        " cuyo.": " cuyo.",
-        " cuyo?": " cuyo?",
-        "cuyo ": "cuyo ",
-        " cuyo]": " cuyo]",
-        "[cuyo]": "[cuyo]",
-        "*cuyo*": "*cuyo*",
-        " cuyo*": " cuyo*",
-        " indicaciones.": " indications.",
-        " indicaciones?": " indications?",
-        "indicaciones ": "indications ",
-        " indicaciones]": " indications]",
-        "[indicaciones]": "[indications]",
-        "*indicaciones*": "*indications*",
-        " indicaciones*": " indications*"
+        " documentations*": " documentations*"
     }
 }
