@@ -398,6 +398,7 @@
 |<img src="../../es_ES/zwave/images/271.770.4096_fgr222.roller.shutter.controller.jpg" width="60" />|Fibaro|Persiana enrollable FGR-222|Volets|Nuevo nombre del módulo FGR-221|[Documentación](https://doc.jeedom.com/es_ES/zwave/fibaro.fgr222_-_Volets)<br/>[Comprar](http://www.domadoo.fr/fr/peripheriques/3250-fibaro-micromodule-pour-volet-roulant-z-wave-fgr-222.html)|
 |<img src="../../es_ES/zwave/images/271.771.4096_fgr223.roller.shutter.controller.jpg" width="60" />|Fibaro|Persiana enrollable FGR-223|Volets|Nuevo nombre del módulo FGR-222||
 |<img src="../../es_ES/zwave/images/271.7937.4096_fgwof011.walli.outlet.type.f.jpg" width="60" />|Fibaro|FGWOF-011 Walli Outlet Tipo F|Prise|||
+|<img src="../../es_ES/zwave/images/271.8961.4096_walli.controller.jpg" width="60" />|Fibaro|Controlador Walli|Controlador, control remoto||[Documentación](https://manuals.fibaro.com/walli-controller/)<br/>[Comprar](https://www.domadoo.fr/fr/peripheriques/5534-fibaro-interrupteur-mural-sans-fil-z-wave-700-fibaro-walli-controller-5902701702076.html)|
 
 # Firstalert
 
@@ -904,4 +905,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-06-28 02:08:05
+2021-06-29 02:08:05

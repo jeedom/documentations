@@ -398,6 +398,7 @@
 |<img src="../../de_DE/zwave/images/271.770.4096_fgr222.roller.shutter.controller.jpg" width="60" />|Fibaro|FGR-222 Rollladen|Volets|Neuer Name des FGR-221-Moduls|[Dokumentation](https://doc.jeedom.com/de_DE/zwave/fibaro.fgr222_-_Volets)<br/>[Kaufen](http://www.domadoo.fr/fr/peripheriques/3250-fibaro-micromodule-pour-volet-roulant-z-wave-fgr-222.html)|
 |<img src="../../de_DE/zwave/images/271.771.4096_fgr223.roller.shutter.controller.jpg" width="60" />|Fibaro|FGR-223 Rollladen|Volets|Neuer Name des FGR-222-Moduls||
 |<img src="../../de_DE/zwave/images/271.7937.4096_fgwof011.walli.outlet.type.f.jpg" width="60" />|Fibaro|FGWOF-011 Walli Outlet Typ F|Prise|||
+|<img src="../../de_DE/zwave/images/271.8961.4096_walli.controller.jpg" width="60" />|Fibaro|Walli-Controller|Controller, Fernbedienung||[Dokumentation](https://manuals.fibaro.com/walli-controller/)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5534-fibaro-interrupteur-mural-sans-fil-z-wave-700-fibaro-walli-controller-5902701702076.html)|
 
 # Firstalert
 
@@ -904,4 +905,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-06-28 02:08:05
+2021-06-29 02:08:05
