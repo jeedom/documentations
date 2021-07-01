@@ -265,6 +265,7 @@
 |<img src="../../de_DE/zwave/images/96.16.1_hac01.in-wall.remote.jpg" width="60" />|Everspring|HAC01|Ouverture||[Kaufen](http://www.domadoo.fr/fr/peripheriques/837-everspring-micromodule-emetteur-z-wave-hac01-3700946500110.html)|
 |<img src="../../de_DE/zwave/images/96.17.1_han01.in-wall.remote.jpg" width="60" />|Everspring|HAN01|Micromodule||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2497-everspring-micromodule-commutateur-z-wave-han01-3700946500042.html)|
 |<img src="../../de_DE/zwave/images/96.17.2_han02.in-wall.remote.jpg" width="60" />|Everspring|HAN02|Micromodule|||
+|<img src="../../de_DE/zwave/images/96.18.1_eh403.led.floodlight.pir.png" width="60" />|Everspring|EH403|Bewegung, Licht|||
 |<img src="../../de_DE/zwave/images/96.2.1_hsm02.jpg" width="60" />|Everspring|HSM02|Ouverture||[Kaufen](http://www.domadoo.fr/fr/peripheriques/838-everspring-mini-detecteur-d-ouverture-z-wave-hsm02-3700946500134.html)|
 ||Everspring|SM103|Ouverture||[Kaufen](http://www.domadoo.fr/fr/peripheriques/851-everspring-capteur-d-ouverture-z-wave-sm103-3700946500233.html)|
 |<img src="../../de_DE/zwave/images/96.2.3_sm810.doorwindow.jpg" width="60" />|Everspring|SM810|Ouverture|||
@@ -511,6 +512,12 @@
 |<img src="../../de_DE/zwave/images/89.16.2_sir321.jpg" width="60" />|Horstmann|SIR 321 RF Countdown Timer|Timer||[Dokumentation](https://doc.jeedom.com/de_DE/zwave/secure.sir321_-_Timer)<br/>[Kaufen](http://www.domadoo.fr/fr/peripheriques/3216-secure-minuterie-manuelle-3060120-minutes-z-wave-5015914083563.html)|
 |<img src="../../de_DE/zwave/images/89.3.1_ssr303.jpg" width="60" />|Horstmann|SSR303 ASR-ZW Empfänger|Thermostat|Modul unter der Marke Secure verkauft|[Kaufen](http://www.domadoo.fr/fr/peripheriques/1987-secure-actionneur-de-chaudiere-ssr303-z-wave-5015914250095.html)|
 |<img src="../../de_DE/zwave/images/89.4.1_scsc17.jpg" width="60" />|Horstmann|SCS317, 7 Tage programmierbarer Raumthermostat|Thermostat|Modul unter der Marke Secure verkauft|[Kaufen](http://www.domadoo.fr/fr/peripheriques/2419-secure-thermostat-electronique-programmable-z-wave-scs317-5015914370083.html)|
+
+# Idinio
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zwave/images/1073.514.2_idinio.foot.dimmer.png" width="60" />|Idinio|Idinio Fußdimmer|dimmer|||
 
 # Inovelli
 
@@ -905,4 +912,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-06-30 02:08:11
+2021-07-01 02:08:25
