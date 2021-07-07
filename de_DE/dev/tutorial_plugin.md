@@ -58,11 +58,10 @@ Changelog, documentation, Sprache , Kompatibilität nuls pour le moment. J'y rev
 - Renommer le fichier core/php/template.inc.php en core/php/vdm.inc.php
 - Renommer le fichier desktop/php/template.php en desktop /php/vdm.php et ouvrez le.
 - Remplacer ``$plugin = plugin::byId('template');;`` Par ``$plugin = plugin::byId(‘vdm');;``
-- Remplacer ``{% raw %}{{Ajouter un template}}{% endraw %}`` Par ``{% raw %}{{Ajouter un équipement}}{% endraw %}``
-- Remplacer ``<legend>{{Mes templates}}</legend>`` Par ``{% raw %}<legend>{{Mes équipement}}</legend>{% endraw %}``
-- Remplacer ``{% raw %}{{Name de l'équipement template}}{% endraw %}`` Par ``{% raw %}{{Name de l'équipement }}{% endraw %}``
-- Remplacer ``{% raw %}{{template param 1}}{% endraw %}`` Par ``{% raw %}{{Paramètres}}{% endraw %}``
-- Remplacer ``<?php include_file('desktop', 'template', 'js', 'template');;?>`` Par ``<?php include_file('desktop', vdm, 'js', vdm);;?>``
+- Remplacer ``{% raw %}{{Ajouter}}{% endraw %}`` Par ``{% raw %}{{Ajouter un équipement}}{% endraw %}``
+- Remplacer ``{% raw %}<legend>{{Mes templates}}</legend>{% endraw %}`` Par ``{% raw %}<legend>{{Mes équipements}}</legend>{% endraw %}``
+- Modifier ``{% raw %}{{Aucun équipement Template n'est parametré}}{% endraw %}`` Par ``{% raw %}{{Aucun équipement NomEquipement n'est parametré}}{% endraw %}``
+- Remplacer ``<?php include_file('desktop', 'template', 'js', 'template');;?>`` Par ``<?php include_file('desktop', 'vdm', 'js', 'vdm');;?>``
 
 Et rien d'autre , ne pas changer la ligne ``<?php include_file('core', 'plugin.template', 'js');;?>``
 
