@@ -16,6 +16,37 @@
 
 ### Optional modifications
 
+#### Tile background graphic
+
+V4.2 is used to define, on an eqLogic, an info command whose history will be displayed at the bottom of the tile.
+
+For this your plugin must allow it in plugins / myplugin / core / class / myplugin.class.php:
+
+`` ``php
+class myplugin extends eqLogic {
+    public static $ _widgetPossibility = array ('custom' => true);
+`` ``
+
+If your plugin has a specific template for its equipment, the desktop version of it must be updated with `#divGraphInfo#`for display and a js script
+
+`` ``html
+<div class="eqLogic eqLogic-widgand allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;height: #height#;#style#">
+  <div class="#isVerticalAlign#">
+    <center>
+      #cmd#
+    </center>
+  </div>
+  #divGraphInfo#
+  <script>
+    if ($ ('. eqLogic [data-eqLogic_uid=#uid#] div.eqlogicbackgraph').length && typeof jeedom.eqLogic.drawGraphInfo === "function") {
+      jeedom.eqLogic.drawGraphInfo ($ ('. eqLogic [data-eqLogic_uid=#uid#] div.eqlogicbackgraph '). data (' cmdid'))
+    }
+  </script>
+</div>
+
+`` ``
+
+
 #### Orphan commands
 
 In v4.2, on the page **Analysis → Equipment**, Orphan commands tab, the eqLogic `deadCmdGeneric ()` function now returns a link to the scenario or the device concerned.
