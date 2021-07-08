@@ -2,17 +2,8 @@
 
 ### Deprecated
 
-- Suppression de la lib jwerty pour du vanillaJS (gestion des raccourcis clavier). Conservée en v4.2 pour les plugins susceptibles de l'utiliser, elle serat supprimée en v4.3.
-
-### En cours de test / développement
-
-#### Coloration des logs et traduction
-
-- `\core\configjeedom.config.php` : $JEEDOM_SCLOG_TEXT reprend les valeurs colorées pour la traduction. Vérifiez les retours de log manquant et les incorporer si nécessaire.
-- Utilisé dans les class php `cmd` `scenario` `scenarioElement` `scenarioExpression` `scenarioSubElement`
-- Utilisé dans les appels ajax `scenario` et `log`
-
-#### Documentation à adapter aux nouvelles options / fonctions
+- La méthode `eqLogic::byTypeAndSearhConfiguration()` a été renommée correctement : `eqLogic::byTypeAndSearchConfiguration()`. L'ancienne sera supprimée dans une prochaine version du Core.
+- Suppression de la lib jwerty pour du vanillaJS (gestion des raccourcis clavier). Conservée en v4.2 pour les plugins susceptibles de l'utiliser, elle sera supprimée en v4.3.
 
 ### Modifications optionnelles
 
