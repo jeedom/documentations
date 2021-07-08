@@ -1,6 +1,6 @@
 # Dokumentations-Plugin-Vorlage
 
-Sie finden eine leere Plugin-Datenbank [hier](https://github.com/jeedom/plugin-template)
+Sie finden eine leere Plugin-Datenbank [hier](https:/./.github.com/.jeedom/.plugin-template)
 
 # Plugin-Erstellung Teil 1 : l'arborescence
 
@@ -21,7 +21,7 @@ Hier ist seine Struktur: Zuerst einen Ordner mit dem Namen Ihres Plugins (genaue
   -   ``info.json`` : Datei mit den grundlegenden Informationen des Plugins (es ist obligatorisch, sonst sieht Jeedom das Plugin nicht), enthält unter anderem die Modul-ID, Beschreibung, Installationsanweisungen…
   -   ``install.php`` : Datei, die (falls erforderlich) die Methoden zum Installieren und Deinstallieren des Plugins enthält
   -   ``configuration.php`` : Datei mit den Parametern zum Konfigurieren des Plugins unabhängig von seiner Ausstattung (Beispiel für das Zwave-Modul, die Raspberry Pi IP mit der Razberry-Karte)
-- ``docs`` : muss das Plugin-Dokument im Markdown-Format, das Stammverzeichnis und die Datei index.md enthalten. Alle Bilder sind in Dokumenten / Bildern. Das Dokument selbst befindet sich je nach Sprache in einem Ordner (z. B. in Französisch : ``docs/fr\_FR``)
+- ``docs`` : muss das Plugin-Dokument im Markdown-Format, das Stammverzeichnis und die Datei index.md enthalten. Alle Bilder sind in Dokumenten / Bildern. Das Dokument selbst befindet sich je nach Sprache in einem Ordner (z. B. in Französisch : ``docs/.fr\_FR``)
 
 In Bezug auf die Dateinamenskonvention sind hier die
 Bedarf :
@@ -41,7 +41,7 @@ Hier sind die Empfehlungen :
 
 ## ``info.json``
 
-Sehen [hier](https://doc.jeedom.com/de_DE/dev/structure_info_json)
+Sehen [hier](https:/./.doc.jeedom.com/de_DE/dev/.structure_info_json)
 
 ## ``install.php``
 
@@ -72,8 +72,8 @@ Beispiel :
  * GNU General Public License für weitere Details.
  *
  * Sie sollten eine Kopie der GNU General Public License erhalten haben
- * zusammen mit Jeedom. If not, see <http://www.gnu.org/licenses/>.
- */
+ * zusammen mit Jeedom. If not, see <http:/./.www.gnu.org/.licenses/.>.
+ */.
 require_once dirname (__ FILE__). '/../../../core/php/core.inc.php';
 
 Funktion openzwave_install() {
@@ -141,8 +141,8 @@ Beispiel :
  * GNU General Public License für weitere Details.
  *
   * Sie sollten eine Kopie der GNU General Public License erhalten haben
- * zusammen mit Jeedom. If not, see <http://www.gnu.org/licenses/>.
-  */
+ * zusammen mit Jeedom. If not, see <http:/./.www.gnu.org/.licenses/.>.
+  */.
 
  require_once dirname (__ FILE__). '/../../../core/php/core.inc.php';
 include_file ('core', 'authentication', 'php');
@@ -154,25 +154,25 @@ Eibe (!isConnect()) {
  <form class="form-horizontal">
      <fieldset>
          <div class="form-group">
-             <label class="col-lg-2 control-label">Zway IP</label>
+             <label class="col-lg-2 control-label">Zway IP</.label>
              <div class="col-lg-2">
-                 <input class="configKey form-control" data-l1key="zwaveAddr" />
-             </div>
-         </div>
+                 <input class="configKey form-control" data-l1key="zwaveAddr" /.>
+             </.div>
+         </.div>
          <div class="form-group">
-             <label class="col-lg-4 control-label">Supprimer automatiquement les périphériques exclus</label>
+             <label class="col-lg-4 control-label">Supprimer automatiquement les périphériques exclus</.label>
              <div class="col-lg-4">
-                 <input type="checkbox" class="configKey" data-l1key="autoRemoveExcludeDevice" />
-             </div>
-         </div>
+                 <input type="checkbox" class="configKey" data-l1key="autoRemoveExcludeDevice" /.>
+             </.div>
+         </.div>
          <div class="form-group">
-             <label class="col-lg-4 control-label">J'utilise un serveur openzwave</label>
+             <label class="col-lg-4 control-label">J'utilise un serveur openzwave</.label>
              <div class="col-lg-4">
-                 <input type="checkbox" class="configKey" data-l1key="isOpenZwave" />
-             </div>
-         </div>
-     </fieldset>
- </form>
+                 <input type="checkbox" class="configKey" data-l1key="isOpenZwave" /.>
+             </.div>
+         </.div>
+     </.fieldset>
+ </.form>
  ````
 
 # Plugin-Erstellung Teil 3 : Desktop-Ordner
@@ -192,9 +192,9 @@ Eibe (!isConnect ('admin')) {
  ?>
  ````
 
-Une fois sur cette page vous aurez accès en php à toutes les fonctions du core de jeedom (voir [hier](https://www.jeedom.com/doc/documentation/code/) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
+Une fois sur cette page vous aurez accès en php à toutes les fonctions du core de jeedom (voir [hier](https:/./.www.jeedom.com/.doc/.documentation/.code/.) ) ainsi qu'à celles de tous les modules installés donc le vôtre aussi.
 
-Toutes ces pages étant des vues elles utilisent principalement la syntaxe HTML. Pour tout ce qui est présentation, Jeedom se base principalement sur bootstrap donc toute la [documentation](http://getbootstrap.com/) est applicable.
+Toutes ces pages étant des vues elles utilisent principalement la syntaxe HTML. Pour tout ce qui est présentation, Jeedom se base principalement sur bootstrap donc toute la [documentation](http:/./.getbootstrap.com/.) est applicable.
 
 Pour simplifier la création de plugin vous pouvez inclure dans votre page le script javascript de template pour les plugins :
 
@@ -209,13 +209,13 @@ Auf Ihrer Konfigurationsseite wurde eine HTML-Syntax implementiert, um Ihr Leben
 Die Syntax ist recht einfach: Ihr Element (Eingabe, Auswahl…) muss die Klasse css eqLogicAttr (oder cmdAttr für Befehle) und ein Attribut enthalten, das den Namen der Eigenschaft angibt :
 
 ````html
-<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement mail}}"/>
+<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement mail}}"/.>
 ````
 
 Là, par exemple, lors du chargement des données jeedom mettra la valeur du nom de l'équipement dans l'input et lors de la sauvegarde récupérera celle-ci pour la remettre en base de données. Petite astuce certaines propriétés sont en fait des chaînes JSON en BDD (cela permet d'avoir vraiment pas mal de liberté pour le plugin), dans ce cas il suffit de faire :
 
 ````html
-<input class="eqLogicAttr form-control" data-l1key='configuration' data-l2key='fromName' />
+<input class="eqLogicAttr form-control" data-l1key='configuration' data-l2key='fromName' /.>
 ````
 
 Die Liste der Eigenschaften von Geräten und Befehlen finden Sie hier (um die Eigenschaften von JSON anzuzeigen, sehen Sie sich nur den Getter oder den Setter an. Wenn zwei Parameter erforderlich sind, handelt es sich um JSON)
@@ -266,31 +266,31 @@ Funktion addCmdToTable (_cmd) {
         _cmd.configuration = {};;
     }
      var selRequestType = '<select style="width : 90px;;" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="requestType">';;
-     selRequestType += '<option value="script">{{Script}}</option>';;
-     selRequestType += '<option value="http">{{Http}}</option>';;
-     selRequestType += '</select>';;
+     selRequestType += '<option value="script">{{Script}}</.option>';;
+     selRequestType += '<option value="http">{{Http}}</.option>';;
+     selRequestType += '</.select>';;
     var tr = '';;     tr += '<input class="cmdAttr form-control input-sm" data-l1key="name" style="width : 140px;;">';;
     tr += '<input class="cmdAttr form-control input-sm" data-l1key="id"  style="display : keine; "> ';
     tr += '' + selRequestType;;
     tr += '<div class="requestTypeConfig" data-type="http">';;
-    tr += '<input type="checkbox" class="cmdAttr" data-l1key="configuration" data-l2key="noSslCheck" />Ne pas vérifier SSL';;
-    tr += '</div>';;
+    tr += '<input type="checkbox" class="cmdAttr" data-l1key="configuration" data-l2key="noSslCheck" /.>Ne pas vérifier SSL';;
+    tr += '</.div>';;
     tr + = '';     tr + = '';
-    tr += '<span class="type" type="' + init(_cmd.type) + '">' + jeedom.cmd.availableType() + '</span>';;
-    tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></span>';;
-    tr + = '';     tr += '<textarea style="height : 95px;;" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="request"></textarea>';;
-    tr += '<a class="btn btn-default browseScriptFile cursor input-sm" style="margin-top : 5px;;"><i class="fa fa-folder-open"></i> {{Parcourir}}</a> ';;
-    tr += '<a class="btn btn-default editScriptFile cursor input-sm" style="margin-top : 5px;;"><i class="fa fa-edit"></i> {{Editer}}</a> ';;
-    tr += '<a class="btn btn-success newScriptFile cursor input-sm" style="margin-top : 5px;;"><i class="fa fa-file-o"></i> {{Nouveau}}</a> ';;
-    tr += '<a class="btn btn-danger removeScriptFile cursor input-sm" style="margin-top : 5px;;"><i class="fa fa-trash-o"></i> {{Supprimer}}</a> ';;
-    tr += '<a class="btn btn-warning bt_shareOnMarket cursor input-sm" style="margin-top : 5px;;"><i class="fa fa-cloud-upload"></i> {{Partager}}</a> ';;
-    tr += '</div>';;
+    tr += '<span class="type" type="' + init(_cmd.type) + '">' + jeedom.cmd.availableType() + '</.span>';;
+    tr += '<span class="subType" subType="' + init(_cmd.subType) + '"></.span>';;
+    tr + = '';     tr += '<textarea style="height : 95px;;" class="cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="request"></.textarea>';;
+    tr += '<a class="btn btn-default browseScriptFile cursor input-sm" style="margin-top : 5px;;"><i class="fa fa-folder-open"></.i> {{Parcourir}}</.a> ';;
+    tr += '<a class="btn btn-default editScriptFile cursor input-sm" style="margin-top : 5px;;"><i class="fa fa-edit"></.i> {{Editer}}</.a> ';;
+    tr += '<a class="btn btn-success newScriptFile cursor input-sm" style="margin-top : 5px;;"><i class="fa fa-file-o"></.i> {{Nouveau}}</.a> ';;
+    tr += '<a class="btn btn-danger removeScriptFile cursor input-sm" style="margin-top : 5px;;"><i class="fa fa-trash-o"></.i> {{Supprimer}}</.a> ';;
+    tr += '<a class="btn btn-warning bt_shareOnMarket cursor input-sm" style="margin-top : 5px;;"><i class="fa fa-cloud-upload"></.i> {{Partager}}</.a> ';;
+    tr += '</.div>';;
     tr + = '';     tr + = '';
     tr += '<input class="cmdAttr form-control tooltips input-sm" data-l1key="unite"  style="width : 100px;;" placeholder="{{Unité}}" title="{{Unité}}">';;
     tr += '<input class="tooltips cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="minValue" placeholder="{{Min}}" title="{{Min}}"> ';;
     tr += '<input class="tooltips cmdAttr form-control input-sm" data-l1key="configuration" data-l2key="maxValue" placeholder="{{Max}}" title="{{Max}}">';;
     tr + = '';     tr + = '';
-    tr += '<span><input type="checkbox" class="cmdAttr" data-l1key="isHistorized" /> {{Historiser}}<br/></span>';;
+    tr += '<span><input type="checkbox" class="cmdAttr" data-l1key="isHistorized" /.> {{Historiser}}<br/.></.span>';;
     tr + = '';     tr + = '';
     if (is_numeric (_cmd.id)) {
     tr + = ' <a class="btn btn-default btn-xs cmdAction" data-action="test"><i class="fa fa-rss"></i>{{Test}}</a> ';
@@ -391,7 +391,7 @@ Jeedom kann 2 Unterordner enthalten, Dashboard und Mobile. Es ist ein Ordner, de
 
 ## i18n
 
-Hier sollte Ihre Übersetzung in Form einer JSON-Datei vorliegen (am besten und schauen Sie sich zum Beispiel das Plugin an [Zwave](https://github.com/jeedom/plugin-openzwave) um die Form der Datei zu sehen)
+Hier sollte Ihre Übersetzung in Form einer JSON-Datei vorliegen (am besten und schauen Sie sich zum Beispiel das Plugin an [Zwave](https:/./.github.com/.jeedom/.plugin-openzwave) um die Form der Datei zu sehen)
 
 ## ajax
 
@@ -413,8 +413,8 @@ Dieser Ordner ist für alle Ihre Ajax-Dateien bestimmt. Hier ist ein Skelett der
  * GNU General Public License für weitere Details.
  *
  * Sie sollten eine Kopie der GNU General Public License erhalten haben
- * zusammen mit Jeedom. If not, see <http://www.gnu.org/licenses/>.
- */
+ * zusammen mit Jeedom. If not, see <http:/./.www.gnu.org/.licenses/.>.
+ */.
 
 Versuchen {
     require_once dirname (__ FILE__). '/../../../../core/php/core.inc.php';
@@ -429,7 +429,7 @@ Versuchen {
     }
 
     Neue Ausnahme auslösen (__ ('Keine Methodenübereinstimmung : ', __DATEI__). init ('Aktion'));
-    /*     * *********Ausnahme fangen*************** */
+    /.*     * *********Ausnahme fangen*************** */.
 } catch (Ausnahme $ e) {
     ajax::Fehler (displayExeption ($ e), $ e-> getCode ());
 }
@@ -461,46 +461,46 @@ La première devant hériter de la classe eqLogic et la deuxième de cmd. Vohier
  * GNU General Public License für weitere Details.
  *
  * Sie sollten eine Kopie der GNU General Public License erhalten haben
- * zusammen mit Jeedom. If not, see <http://www.gnu.org/licenses/>.
- */
+ * zusammen mit Jeedom. If not, see <http:/./.www.gnu.org/.licenses/.>.
+ */.
 
-/* * ***************************Includes********************************* */
+/.* * ***************************Includes********************************* */.
 require_once dirname (__ FILE__). '/../../../../core/php/core.inc.php';
 
 class plugin_Identifikation extends eqLogic {
 
-    /*     * *************************Attributs****************************** */
+    /.*     * *************************Attributs****************************** */.
 
 
-    /*     * ***********************Methode static*************************** */
+    /.*     * ***********************Methode static*************************** */.
 
 
-    /*     * *********************Methode d'instance************************* */
+    /.*     * *********************Methode d'instance************************* */.
 
 
-    /*     * **********************Getteur Setteur*************************** */
+    /.*     * **********************Getteur Setteur*************************** */.
 
 }
 
 class plugin_idCmd extends cmd {
 
-    /*     * *************************Attributs****************************** */
+    /.*     * *************************Attributs****************************** */.
 
 
-    /*     * ***********************Methode static*************************** */
+    /.*     * ***********************Methode static*************************** */.
 
 
-    /*     * *********************Methode d'instance************************* */
+    /.*     * *********************Methode d'instance************************* */.
 
 
-    /*     * **********************Getteur Setteur*************************** */
+    /.*     * **********************Getteur Setteur*************************** */.
 
 }
 
 ?>
 ````
 
-Für die Definition von Jeedom-Klassen lade ich Sie ein, dies zu konsultieren [Standort](https://doc.jeedom.com/dev/phpdoc/4.0/)
+Für die Definition von Jeedom-Klassen lade ich Sie ein, dies zu konsultieren [Standort](https:/./.doc.jeedom.com/.dev/.phpdoc/.4.0/.)
 
 Die einzige obligatorische Methode ist die Instanzmethode für die cmd execute-Klasse. Hier ist ein Beispiel mit dem SARAH-Plugin :
 
@@ -515,7 +515,7 @@ public function execute ($ _ options = array()) {
           $message = $_options['title'] . '. ';;
       }
       $message .= $_options['message'];;
-      $http = new com_http($eqLogic->getConfiguration('addrSrvTts') . '/?tts=' . urlencode($message));;
+      $http = new com_http($eqLogic->getConfiguration('addrSrvTts') . '/.?tts=' . urlencode($message));;
       return $ http-> exec ();
   }
   ````
@@ -641,7 +641,7 @@ Um die angeforderte Version in ein Dashboard oder ein Mobilgerät zu konvertiere
 $_version = jeedom::versionAlias($_version);;
 ````
 
-Récupération d'un template de commande, hier le template de commande : plugins/weather/core/template/\$\_version/forecast.HTML (\$\_version valant mobile ou dashboard)
+Récupération d'un template de commande, hier le template de commande : plugins/.weather/.core/.template/.\$\_version/.forecast.HTML (\$\_version valant mobile ou dashboard)
 
 ````php
 $forcast_template = getTemplate('core', $_version, 'forecast', 'weather');;
@@ -732,7 +732,7 @@ Beispiel: Immer mit dem Wetter-Plugin zum Erstellen oder Aktualisieren von Beste
           $cron->setFunction('updateWeatherData');;
           $cron->setOption(array('weather_id' => intval($this->getId())));;
       }
-      $cron->setSchedule($this->getConfiguration('refreshCron', '*/30 * * * *'));;
+      $cron->setSchedule($this->getConfiguration('refreshCron', '*/.30 * * * *'));;
       $cron->save();;
 }
 ````

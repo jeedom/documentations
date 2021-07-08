@@ -38,7 +38,7 @@ Fields                   | Values                                               
 
 **CATEGORY NOMENCLATURE**
 
-Jeedom Market         | info.JSON               |
+Jeedom Market         | Info.JSON               |
 --------------------- | ----------------------- |
 Communication         | ``communication``           |
 Comfort               | ``wellness``                |

@@ -38,7 +38,7 @@ Campos                   | Valores                                              
 
 **CATEGORÍA NOMENCLATURA**
 
-Mercado de la libertad         | info.JSON               |
+Mercado de la libertad         | Información.JSON               |
 --------------------- | ----------------------- |
 Comunicación         | ``communication``           |
 Confort               | ``wellness``                |
