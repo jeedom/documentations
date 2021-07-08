@@ -27,7 +27,7 @@ class myplugin extends eqLogic {
     public static $_widgetPossibility = array('custom' => true);
 ```
 
-Si votre plugin possède un template spécifique pour ses équipements, la version desktop de celui-ci doit être mise à jour avec `#divGraphInfo#` pour l'affichage et un script js
+Si votre plugin possède un template spécifique pour ses équipements, la version desktop de celui-ci doit être mise à jour avec `#divGraphInfo#` pour l'affichage :
 
 ```html
 <div class="eqLogic eqLogic-widget allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;height: #height#;#style#">
@@ -38,9 +38,7 @@ Si votre plugin possède un template spécifique pour ses équipements, la versi
   </div>
   #divGraphInfo#
   <script>
-    if ($('.eqLogic[data-eqLogic_uid=#uid#] div.eqlogicbackgraph').length && typeof jeedom.eqLogic.drawGraphInfo === "function") {
-      jeedom.eqLogic.drawGraphInfo($('.eqLogic[data-eqLogic_uid=#uid#] div.eqlogicbackgraph').data('cmdid'))
-    }
+
   </script>
 </div>
 
