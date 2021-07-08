@@ -27,7 +27,7 @@ clase myplugin extiende eqLogic {
     public static $ _widgetPossibility = array ('personalizado' => verdadero);
 `` ``
 
-Si su complemento tiene una plantilla específica para su equipo, la versión de escritorio debe actualizarse con `#divGraphInfo#`para mostrar y un script js
+Si su complemento tiene una plantilla específica para su equipo, la versión de escritorio debe actualizarse con `#divGraphInfo#`para exhibición :
 
 `` ``html
 <div class="eqLogic eqLogic-widgy allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;height: #height#;#style#">
@@ -38,9 +38,7 @@ Si su complemento tiene una plantilla específica para su equipo, la versión de
   </div>
   #divGraphInfo#
   <script>
-    if ($ ('. eqLogic [data-eqLogic_uid=#uid#] div.eqlogicbackgraph').longitud && tipo de jeedom.eqLogic.drawGraphInfo === "función") {
-      jeedom.eqLogic.drawGraphInfo ($ ('. eqLogic [data-eqLogic_uid=#uid#] div.eqlogicbackgraph '). data (' cmdid'))
-    }
+
   </script>
 </div>
 

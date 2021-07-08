@@ -27,7 +27,7 @@ Klasse myplugin erweitert eqLogic {
     public static $ _widgetPossibility = array ('custom' => true);
 `` ``
 
-Wenn Ihr Plugin eine bestimmte Vorlage für seine Ausrüstung hat, muss die Desktop-Version davon mit ` . aktualisiert werden#divGraphInfo#`für die Anzeige und ein js-Skript
+Wenn Ihr Plugin eine bestimmte Vorlage für seine Ausrüstung hat, muss die Desktop-Version davon mit ` . aktualisiert werden#divGraphInfo#`zur Anzeige :
 
 `` ``html
 <div class="eqLogic eqLogic-widgund allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;;height: #height#;;#style#">
@@ -38,9 +38,7 @@ Wenn Ihr Plugin eine bestimmte Vorlage für seine Ausrüstung hat, muss die Desk
   </div>
   #divGraphInfo#
   <script>
-    if ($ ('. eqLogic [data-eqLogic_uid=#uid#] div.eqlogicbackgraph').Länge && Art von jeedom.eqLogic.drawGraphInfo === "Funktion") {
-      jeedom.eqLogic.drawGraphInfo ($ ('. eqLogic [data-eqLogic_uid=#uid#] div.eqlogicbackgraph '). data (' cmdid'))
-    }
+
   </script>
 </div>
 
