@@ -1,6 +1,6 @@
 > **IMPORTANT**
 >
-> Ce tutorial a été écris par ZygOm4t1k que nous remercions vivement. Vous pouvez retrouver l'original [ici](https://www.jeedom.com/forum/viewtopic.php?f=27&t=37630#p621495)
+> Ce tutorial a été écris par ZygOm4t1k que nous remercions vivement. Vous pouvez retrouver l'original [ici](https://forum.jeedom.com/viewtopic.php?f=27&t=37630#p621495)
 
 Voici un petit TP pour expliquer comment créer un plugin. Pour l’exemple nous allons créer un plugin qui retourne une phrase du site viedemerde.fr .(Le plugin sera évolutif)
 
