@@ -38,7 +38,7 @@ Felder                   | Werte                                                
 
 **KATEGORIE-NOMENKLATUR**
 
-Jeedom Markt         | Info.json               |
+Jeedom Markt         | die Info.json               |
 --------------------- | ----------------------- |
 Kommunikation         | ``communication``           |
 Komfort               | ``wellness``                |
