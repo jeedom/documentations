@@ -2,17 +2,8 @@
 
 ### Deprecated
 
-- Aufhebung der JWERTY-Freiheit für VanillaJS (Verwaltung von Tastaturkürzeln)). Wird in Version 4 beibehalten.2 für Plugins, die es wahrscheinlich verwenden, wird es in Version 4.3 entfernt.
-
-### In Prüfung / Entwicklung
-
-#### Log Färbung und Übersetzung
-
-- `\ core \ configjeedom.config.php : $JEEDOM_SCLOG_TEXT reprend les valeurs colorées pour la traduction. Suchen Sie nach fehlenden Protokollrückgaben und integrieren Sie diese gegebenenfalls.
-- Wird in der PHP-Klasse `cmd`` Szenario`` SzenarioElement`` SzenarioExpression` `SzenarioSubElement` verwendet
-- Wird in Ajax-Szenarien- und Protokollaufrufen verwendet
-
-#### Dokumentation zur Anpassung an neue Optionen / Funktionen
+- Die `eqLogic-Methode::byTypeAndSearhConfiguration () `wurde richtig umbenannt : `eqLogic::byTypeAndSearchConfiguration()`. Der alte wird in einer zukünftigen Version des Core entfernt removed.
+- Aufhebung der JWERTY-Freiheit für VanillaJS (Verwaltung von Tastaturkürzeln)). Wird in Version 4 beibehalten.2 für Plugins, die es wahrscheinlich verwenden, wird es in v4.3 entfernt.
 
 ### Optionale Änderungen
 

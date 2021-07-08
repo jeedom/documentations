@@ -2,17 +2,8 @@
 
 ### Deprecated
 
-- Eliminación de jwerty liberty para vanillaJS (gestión de atajos de teclado). Guardado en v4.2 para los complementos que probablemente lo usen, se eliminará en la v4.3.
-
-### En prueba / desarrollo
-
-#### Colorear y traducir registros
-
-- `\ core \ configjeedom.config.php : $JEEDOM_SCLOG_TEXT reprend les valeurs colorées pour la traduction. Verifique si faltan registros de registros e incorpórelos si es necesario.
-- Usado en la clase php `cmd`` escenario`` escenarioElemento`` escenarioExpresión` `escenarioSubElemento`
-- Utilizado en llamadas ajax `escenario` y` log`
-
-#### Documentación para adaptarse a nuevas opciones / funciones
+- El método `eqLogic::byTypeAndSearhConfiguration () `ha sido renombrado correctamente : `eqLogic::byTypeAndSearchConfiguration()`. El anterior se eliminará en una versión futura del Core.
+- Eliminación de jwerty liberty para vanillaJS (gestión de atajos de teclado). Guardado en v4.2 para los complementos que probablemente lo utilicen, se eliminará en la v4.3.
 
 ### Modificaciones opcionales
 

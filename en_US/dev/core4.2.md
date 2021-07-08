@@ -2,17 +2,8 @@
 
 ### Deprecated
 
+- The `eqLogic method::byTypeAndSearhConfiguration () `has been renamed correctly : `eqLogic::byTypeAndSearchConfiguration()`. The old one will be removed in a future version of the Core.
 - Removal of the jwerty liberty for vanillaJS (management of keyboard shortcuts). Kept in v4.2 for plugins likely to use it, it will be removed in v4.3.
-
-### Under test / development
-
-#### Log coloring and translation
-
-- `\ core \ configjeedom.config.php : $JEEDOM_SCLOG_TEXT reprend les valeurs colorées pour la traduction. Check for missing log returns and incorporate them if necessary.
-- Used in php class `cmd`` scenario` `scenarioElement`` scenarioExpression` `scenarioSubElement`
-- Used in ajax `scenario` and` log` calls
-
-#### Documentation to adapt to new options / functions
 
 ### Optional modifications
 
