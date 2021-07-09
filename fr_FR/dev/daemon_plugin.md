@@ -28,7 +28,17 @@ Structure du répertoire du template:
 
 ![image](images/daemon_struct.png)
 
-### le package jeedom
+### le démon python
+
+Dans le plugin template, le répertoire du démon a été nommé `demond`, et le démon en lui même se nomme `demond.py`.
+Ces noms sont arbitraires, libre à vous de les changer.
+La convention est de prendre l'ID du plugin suivi de la lettre ´d´. Ce qui donne par exemple pour le plugin `blea` le répertoire `./resources/blead/` qui contient entre autre le fichier `blead.py`, ce fichier étant le point de départ du démon.
+
+> **TIP**
+>
+> N'hésitez pas à vous inspirer des plugins officiels avec démon pour comprendre les détails, tel que blea et openzwave.
+
+### le package jeedom pour un démon python
 
 Jeedom fournit avec le plugin template un package python offrant les classes et méthodes de bases utiles pour la gestion du démon et de la communication entre le démon et le code php de votre plugin.
 Elles se trouvent dans le répertoire `/resources/demond/jeedom/jeedom.py` (visible dans la capture ci-dessus).
@@ -63,23 +73,15 @@ A nouveau, vous n'êtes pas obligé d'utiliser ce mécanisme, vous êtes libre d
 Celle-ci assure la communication montante, du démon vers votre code php.
 Vous utilisez essentiellement `send_change_immediate()` au début qui permet donc d'envoyer un payload json à jeedom via une requête http. On verra un exemple plus tard.
 
-### Le démon
+### Squelette du démon python
 
 A présent que l'on connaît l'environnement, on peut regarder la partie qui nous intéresse le plus: le démon et ce qu'on va devoir coder.
-
-Dans le plugin template, le répertoire du démon a été nommé `demond`, et le démon en lui même se nomme `demond.py`.
-Ces noms sont arbitraires, libre à vous de les changer.
-La convention est de prendre l'ID du plugin suivi de la lettre ´d´. Ce qui donne par exemple pour le plugin `blea` le répertoire `./resources/blead/` qui contient entre autre le fichier `blead.py`, ce fichier étant le point de départ du démon.
-
-> **TIP**
->
-> N'hésitez pas à vous inspirer des plugins officiels avec démon pour comprendre les détails, tel que blea et openzwave.
 
 On va donc regarder en détails le squelette d'un démon tel que proposé par Jeedom, ouvrez le fichier `demond.py` et on va commencer par les dernières lignes qui sont en fait le début du programme:
 
 ```json
 _log_level = "error"
-_socket_port = 55009
+_socket_port = 55009 # à modifier
 _socket_host = 'localhost'
 _device = 'auto'
 _pidfile = '/tmp/demond.pid'
@@ -139,7 +141,6 @@ _callback = '' ## l'url de callback pour envoyer les notifications à Jeedom (et
 > **Attention**
 >
 > Il faut bien faire attention en choisissant le port que vous allez utiliser pour votre socket, c'est un point d'amélioration possible sous jeedom, car il n'y a pas de mécanisme en place pour éviter des collisions: donc si un autre plugin utilise le même port que vous cela va évidement poser un problème. Pour l'instant la seule méthode pour faire son choix est de chercher parmi les plugins existant les ports déjà utilisés et de s'aligner entre dev sur le community (il y a déjà des sujets ouverts à ce propos). Par ailleurs il sera important de laisser ceci configurable par l'utilisateur si tel conflit devait se produire, on y reviendra.
-
 
 Ensuite on récupère les arguments reçu en ligne de commande, cette ligne de commande sera générée par votre code php, on y reviendra.
 A vous de supprimer ce qui n'est pas utile (comme l'argument device) ou d'en rajouter d'autres tel qu'un user/pswd si votre démon doit se connecter sur un système distant.
@@ -287,4 +288,139 @@ Nous verrons plus tard l'utilisation de `hasDependency` et `maxDependancyInstall
 
 ### eqLogic class
 
-Dans la class eqLogic de votre plugin il y a quelques méthodes à implémenter pour la bonne gestion du démon
+Dans la class eqLogic de votre plugin il y a quelques méthodes à implémenter pour la bonne gestion du démon.
+
+#### Fonction deamon_info()
+
+La fonction `deamon_info()` sera appellée par le core lors de l'affichage du cadre suivant dans la page de configuration de votre plugin, elle doit obligatoirement exister:
+
+![image](images/daemon_info.png)
+
+Typiquement elle ressemblera à ceci, l'array renvoyé et les clés utilisées dans cet array sont évidement importants.
+Vous pouvez copier/coller le code ci-dessous tel quel et adapter le code pour vérifier la configuration nécessaire à votre plugin.
+
+```php
+    public static function deamon_info() {
+        $return = array();
+        $return['log'] = __CLASS__;
+        $return['state'] = 'nok';
+        $pid_file = jeedom::getTmpFolder(__CLASS__) . '/deamon.pid';
+        if (file_exists($pid_file)) {
+            if (@posix_getsid(trim(file_get_contents($pid_file)))) {
+                $return['state'] = 'ok';
+            } else {
+                shell_exec(system::getCmdSudo() . 'rm -rf ' . $pid_file . ' 2>&1 > /dev/null');
+            }
+        }
+        $return['launchable'] = 'ok';
+        $user = config::byKey('user', __CLASS__); // exemple si votre démon à besoin de la config user,
+        $pswd = config::byKey('password', __CLASS__); // password,
+        $clientId = config::byKey('clientId', __CLASS__); // et clientId
+        if ($user == '') {
+            $return['launchable'] = 'nok';
+            $return['launchable_message'] = __('Le nom d\'utilisateur n\'est pas configuré', __FILE__);
+        } elseif ($pswd == '') {
+            $return['launchable'] = 'nok';
+            $return['launchable_message'] = __('Le mot de passe n\'est pas configuré', __FILE__);
+        } elseif ($clientId == '') {
+            $return['launchable'] = 'nok';
+            $return['launchable_message'] = __('La clé d\'application n\'est pas configurée', __FILE__);
+        }
+        return $return;
+    }
+```
+
+> **Attention**
+>
+> Il n'y a pas de faute de frappe dans l'exemple, la méthode se nomme bien `deamon_info()` et pas `daemon_info`, l'erreur est dans le core.
+
+La clé `state` correspond évidement au statut affiché à l'écran, on peut lire ci-dessus que l'on teste la précense de notre "pid_file" pour savoir si le démon tourne ou pas.
+
+La clé `launchable` correspond à la colonne "Configuration" dans le cadre et on peut donc vérifier si la configuration est complète et correcte pour pouvoir démarrer le démon. `launchable_message` permet d'afficher un message à l'utilisateur en cas de "NOK"
+
+#### Fonction deamon_start()
+
+La fonction `deamon_start()` est comme son nom l'indique la méthode qui sera appelée par le core pour démarrer votre démon.
+Vous pouvez copier/coller le code ci-dessous tel quel et modifier les lignes indiquées.
+
+```php
+    public static function deamon_start() {
+        self::deamon_stop();
+        $deamon_info = self::deamon_info();
+        if ($deamon_info['launchable'] != 'ok') {
+            throw new Exception(__('Veuillez vérifier la configuration', __FILE__));
+        }
+
+        $path = realpath(dirname(__FILE__) . '/../../resources/demond'); // répertoire du démon à modifier
+        $cmd = 'python3 ' . $path . '/demond.py'; // nom du démon à modifier
+        $cmd .= ' --loglevel ' . log::convertLogLevel(log::getLogLevel(__CLASS__));
+        $cmd .= ' --socketport ' . config::byKey('socketport', __CLASS__, '55009'); // port par défaut à modifier
+        $cmd .= ' --callback ' . network::getNetworkAccess('internal', 'proto:127.0.0.1:port:comp') . '/plugins/template/core/php/jeeTemplate.php'; // chemin de la callback url à modifier
+        $cmd .= ' --user "' . trim(str_replace('"', '\"', config::byKey('user', __CLASS__))) . '"'; // on rajoute les paramètres utiles à votre démon, ici user
+        $cmd .= ' --pswd "' . trim(str_replace('"', '\"', config::byKey('password', __CLASS__))) . '"'; // et password
+        $cmd .= ' --apikey ' . jeedom::getApiKey(__CLASS__); // l'apikey pour authentifier les échanges suivants
+        $cmd .= ' --pid ' . jeedom::getTmpFolder(__CLASS__) . '/deamon.pid'; // et on précise le chemin vers le pid file (ne pas modifier)
+        log::add(__CLASS__, 'info', 'Lancement démon');
+        $result = exec($cmd . ' >> ' . log::getPathToLog('template_daemon') . ' 2>&1 &'); // 'template_daemon' est le nom du log pour votre démon, vous devez nommé votre log en commençant par le pluginid pour que le fichier apparaisse dans la page de config
+        $i = 0;
+        while ($i < 20) {
+            $deamon_info = self::deamon_info();
+            if ($deamon_info['state'] == 'ok') {
+                break;
+            }
+            sleep(1);
+            $i++;
+        }
+        if ($i >= 30) {
+            log::add(__CLASS__, 'error', __('Impossible de lancer le démon, vérifiez le log', __FILE__), 'unableStartDeamon');
+            return false;
+        }
+        message::removeAll(__CLASS__, 'unableStartDeamon');
+        return true;
+    }
+```
+
+Ne modifiez que les lignes ayant un commentaire, le reste doit rester inchangé.
+
+Notez que l'on commence par stopper le démon, ceci pour gérer le redémarrage.
+Ensuite on vérifie si le démon peut effectivement être démarré avec la méthode `deamon_info()` et on génère le ligne de commande dans la variable `$cmd` pour démarrer notre démon, ici avec python3
+
+#### Fonction deamon_stop()
+
+Cette méthode sera utilisée pour stopper le démon: on récupère le pid du démon, qui a été écrit dans le "pid_file" et on envoi le kill système au process.
+
+```php
+    public static function deamon_stop() {
+        $pid_file = jeedom::getTmpFolder(__CLASS__) . '/deamon.pid'; // ne pas modifier
+        if (file_exists($pid_file)) {
+            $pid = intval(trim(file_get_contents($pid_file)));
+            system::kill($pid);
+        }
+        system::kill('templated.py'); // nom du démon à modifier
+        sleep(1);
+    }
+```
+
+#### Fonction sendToDaemon()
+
+Cette fonction n'existe pas dans le core et n'est pas standard pour tous les plugins Jeedom, elle n'est pas obligatoire non plus.
+C'est la fonction que j'utilise moi (@Mips) dans chacun de mes plugins ayant un démon, je vous la met ici et vous en faite ce que vous voulez ;-)
+
+Elle reçoit donc en paramètre un tableau de valeur et se charge de l'envoyer au socket du démon qui pourra donc lire ce tableau dans la méthode `read_socket()` que l'on a vue précédemment.
+
+```php
+    public static function sendToDaemon($params) {
+        $deamon_info = self::deamon_info();
+        if ($deamon_info['state'] != 'ok') {
+            throw new Exception("Le démon n'est pas démarré");
+        }
+        $params['apikey'] = jeedom::getApiKey(__CLASS__);
+        $payLoad = json_encode($params);
+        $socket = socket_create(AF_INET, SOCK_STREAM, 0);
+        socket_connect($socket, '127.0.0.1', config::byKey('socketport', __CLASS__, '55009')); //port par défaut de votre plugin à modifier
+        socket_write($socket, $payLoad, strlen($payLoad));
+        socket_close($socket);
+    }
+```
+
+Voila, arrivé ici vous avez un démon en python qui peut-être démarrer et arrêter par jeedom et son statut est visible dans la page de configuration de votre plugin.
