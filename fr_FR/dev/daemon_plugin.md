@@ -36,7 +36,7 @@ La convention est de prendre l'ID du plugin suivi de la lettre ´d´. Ce qui don
 
 > **TIP**
 >
-> N'hésitez pas à vous inspirer des plugins officiels avec démon pour comprendre les détails, tel que blea et openzwave.
+> N'hésitez pas à vous inspirer des plugins officiels avec démon pour comprendre les détails, tel que blea, openzwave ou sms.
 
 ### le package jeedom pour un démon python
 
@@ -79,7 +79,7 @@ A présent que l'on connaît l'environnement, on peut regarder la partie qui nou
 
 On va donc regarder en détails le squelette d'un démon tel que proposé par Jeedom, ouvrez le fichier `demond.py` et on va commencer par les dernières lignes qui sont en fait le début du programme:
 
-```json
+```python
 _log_level = "error"
 _socket_port = 55009 # à modifier
 _socket_host = 'localhost'
@@ -119,6 +119,10 @@ signal.signal(signal.SIGTERM, handler)
 
 try:
     jeedom_utils.write_pid(str(_pidfile))
+    jeedom_com = jeedom_com(apikey = _apikey,url = _callback,cycle=_cycle)
+    if not jeedom_com.test():
+        logging.error('Network communication issues. Please fixe your Jeedom network configuration.')
+        shutdown()
     jeedom_socket = jeedom_socket(port=_socket_port,address=_socket_host)
     listen()
 except Exception as e:
@@ -128,7 +132,7 @@ except Exception as e:
 
 Quelques initialisations de variable:
 
-```json
+```python
 _log_level = "error" # le log level par défaut, au format texte tel qu'il est envoyé par Jeedom
 _socket_port = 55009 # le port que votre démon utilisera par défaut pour ouvrir le socket d'écoute de Jeedom
 _socket_host = 'localhost' # l'interface sur laquelle ouvrir le socket, à priori ne pas changer.
@@ -145,7 +149,7 @@ _callback = '' ## l'url de callback pour envoyer les notifications à Jeedom (et
 Ensuite on récupère les arguments reçu en ligne de commande, cette ligne de commande sera générée par votre code php, on y reviendra.
 A vous de supprimer ce qui n'est pas utile (comme l'argument device) ou d'en rajouter d'autres tel qu'un user/pswd si votre démon doit se connecter sur un système distant.
 
-```json
+```python
 for arg in sys.argv:
     if arg.startswith("--loglevel="):
         temp, _log_level = arg.split("=")
@@ -163,14 +167,14 @@ for arg in sys.argv:
 
 Ensuite il y a quelques lignes de log et ces deux lignes, classique en python, qui enregistre simplement la méthode à appeler dans le cas où ces deux signaux d'interruptions sont reçus, ce qui permettra de stopper le démon:
 
-```json
+```python
 signal.signal(signal.SIGINT, handler)
 signal.signal(signal.SIGTERM, handler)
 ```
 
 et la méthode handler qui est définie un peu plus haut dans le démon:
 
-```json
+```python
 def handler(signum=None, frame=None):
     logging.debug("Signal %i caught, exiting..." % int(signum))
     shutdown()
@@ -178,7 +182,7 @@ def handler(signum=None, frame=None):
 
 qui ne fait que rajouter un log et appeler la méthode `shutdown()` définie juste en dessous:
 
-```json
+```python
 def shutdown():
     logging.debug("Shutdown")
     logging.debug("Removing PID file " + str(_pidfile))
@@ -207,9 +211,13 @@ C'est dans cette méthode que vous devez écrire le code à éxécuter en cas de
 
 Si on retourne sur le démarre du démon, voici la suite:
 
-```json
+```python
 try:
     jeedom_utils.write_pid(str(_pidfile)) # écrit le pidfile que le core de jeedom va surveiller pour déterminer si le démon est démarré
+    jeedom_com = jeedom_com(apikey = _apikey,url = _callback,cycle=_cycle) # création de l'objet jeedom_com
+    if not jeedom_com.test(): #premier test pour vérifier que l'url de callback est correcte
+        logging.error('Network communication issues. Please fixe your Jeedom network configuration.')
+        shutdown()
     jeedom_socket = jeedom_socket(port=_socket_port,address=_socket_host) # on déclare le socket pour recevoir les ordres de jeedom
     listen() # et on écoute
 except Exception as e:
@@ -217,9 +225,9 @@ except Exception as e:
     shutdown()
 ```
 
-La méthode `listent()` définie au début du fichier:
+La méthode `listen()` définie au début du fichier:
 
-```json
+```python
 def listen():
     jeedom_socket.open()
     try:
@@ -234,7 +242,7 @@ Rien à modifier ici, on peut voir que le socket est ouvert et ensuite boucle in
 
 La méthode `read_socket()`
 
-```json
+```python
 def read_socket():
     global JEEDOM_SOCKET_MESSAGE
     if not JEEDOM_SOCKET_MESSAGE.empty():
@@ -253,7 +261,7 @@ La variable `JEEDOM_SOCKET_MESSAGE` est une `queue()` python alimentée par la c
 
 Si la queue n'est pas vide, on charge le json et on vérifie que la clé api reçue avec le message correspond à celle reçue lors du démarrage du démon ensuite on peut lire le message et faire nos actions dans le tr/except:
 
-```json
+```python
         try:
             print 'read'
         except Exception, e:
@@ -286,7 +294,7 @@ Dans le fichier info.json de votre plugin, il faut rajouter la propriété `hasO
 
 Nous verrons plus tard l'utilisation de `hasDependency` et `maxDependancyInstallTime`.
 
-### eqLogic class
+### Gestion du démon dans votre class eqLogic
 
 Dans la class eqLogic de votre plugin il y a quelques méthodes à implémenter pour la bonne gestion du démon.
 
@@ -401,7 +409,16 @@ Cette méthode sera utilisée pour stopper le démon: on récupère le pid du d�
     }
 ```
 
-#### Fonction sendToDaemon()
+Voila, arrivé ici vous avez déclarer le démon dans le info.json et implémenté les 3 méthodes nécessaires pour que le core de Jeedom puisse démarrer et arrêter votre démon ainsi qu'afficher son statut. Les prérequis sont en places.
+
+
+### Communication entre le démon et le code PHP
+
+Il reste à gérer la communication depuis et vers le démon: dans le code python on a déjà vu comme c'était géré, pour rappel la méthode `listen()` qui écoute sur un socket et la méthode `send_change_immediate()` pour envoyer un payload json au code php.
+
+Il faut donc gérer l'équivalent coté PHP.
+
+#### Envoyer un message au démon
 
 Cette fonction n'existe pas dans le core et n'est pas standard pour tous les plugins Jeedom, elle n'est pas obligatoire non plus.
 C'est la fonction que j'utilise moi (@Mips) dans chacun de mes plugins ayant un démon, je vous la met ici et vous en faite ce que vous voulez ;-)
@@ -423,4 +440,99 @@ Elle reçoit donc en paramètre un tableau de valeur et se charge de l'envoyer a
     }
 ```
 
-Voila, arrivé ici vous avez un démon en python qui peut-être démarrer et arrêter par jeedom et son statut est visible dans la page de configuration de votre plugin.
+Ce qui se trouvent dans le tableau `$params` et comment vous exploitez ces données dans votre démon est de votre ressort, cela dépend de ce que fait votre plugin.
+
+Pour rappel, ce tableau sera donc récupérer dans la méthode `read_socket()`, extrait du code:
+```python
+        if message['apikey'] != _apikey:
+            logging.error("Invalid apikey from socket : " + str(message))
+            return
+        try:
+            print 'read'
+        except Exception, e:
+            logging.error('Send command to demon error : '+str(e))
+```
+
+On voit bien la clé "apikey" ajoutée par le code php qui sera lue par le code python dans le tableau "message"
+
+#### Réceptionner un message du démon
+
+Pour cela on doit ajouter un fichier à notre plugin dans le dossier `/core/php/`. Par convention, on va nommer ce fichier `jee[pluginId].php`. C'est le path à utiliser comme url de callback dans la méthode `deamon_start()`
+
+Voici le contenu de base que vous pouvez copier/coller dans ce fichier:
+
+```php
+<?php
+
+try {
+    require_once dirname(__FILE__) . "/../../../../core/php/core.inc.php";
+
+    if (!jeedom::apiAccess(init('apikey'), 'template')) { //remplacer template par l'id de votre plugin
+        echo __('Vous n\'etes pas autorisé à effectuer cette action', __FILE__);
+        die();
+    }
+    if (init('test') != '') {
+        echo 'OK';
+        die();
+    }
+    $result = json_decode(file_get_contents("php://input"), true);
+    if (!is_array($result)) {
+        die();
+    }
+
+    if (isset($result['key1'])) {
+        // do something
+    } elseif (isset($result['key2'])) {
+        // do something else
+    } else {
+        log::add('template', 'error', 'unknown message received from daemon'); //remplacer template par l'id de votre plugin
+    }
+} catch (Exception $e) {
+    log::add('template', 'error', displayException($e)); //remplacer template par l'id de votre plugin
+}
+```
+
+Le code commence par valider que l'apikey est correcte:
+
+```php
+    if (!jeedom::apiAccess(init('apikey'), 'template')) { //remplacer template par l'id de votre plugin
+        echo __('Vous n\'etes pas autorisé à effectuer cette action', __FILE__);
+        die();
+    }
+```
+
+Le premier test sert de méthode de test lors du démarrage du démon (voir appel `jeedom_com.test()` dans le code du démon):
+
+```php
+    if (init('test') != '') {
+        echo 'OK';
+        die();
+    }
+```
+
+et finalement on charge le payload que l'on décode dans le tableau `$result`:
+
+```php
+    $result = json_decode(file_get_contents("php://input"), true);
+    if (!is_array($result)) {
+        die();
+    }
+```
+
+Ensuite c'est à vous de lire le tableau et d'effectuer les actions dans votre plugin en conséquence, exemple:
+
+```php
+    if (isset($result['key1'])) {
+        // do something
+    } elseif (isset($result['key2'])) {
+        // do something else
+    } else {
+        log::add('template', 'error', 'unknown message received from daemon'); //remplacer template par l'id de votre plugin
+    }
+```
+
+Le code python pour envoyer le message ressemblera à ceci:
+
+```python
+jeedom_com.send_change_immediate({'key1' : 'value1', 'key2' : 'value2' })
+```
