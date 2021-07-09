@@ -272,7 +272,7 @@ Donc à la place du `print 'read'` à vous de lire les éléments relevants du m
 
 A partir d'ici vous avez un démon qui peut être exécuté même s'il ne fait encore rien (ça c'est votre travail).
 
-## Adaptation du plugin
+## Adaptation du code php du plugin
 
 Avoir un démon et comprendre sa structure c'est très bien mais il manque quelques éléments clés pour que justement votre plugin (code php) puisse contrôler ce démon et pour que le core soit également informé qu'il existe.
 
@@ -409,8 +409,7 @@ Cette méthode sera utilisée pour stopper le démon: on récupère le pid du d�
     }
 ```
 
-Voila, arrivé ici vous avez déclaré le démon dans le info.json et implémenté les 3 méthodes nécessaires pour que le core de Jeedom puisse démarrer et arrêter votre démon ainsi qu'afficher son statut. Les prérequis sont en places.
-
+Arrivé ici vous avez déclaré le démon dans le info.json et implémenté les 3 méthodes nécessaires pour que le core de Jeedom puisse démarrer et arrêter votre démon ainsi qu'afficher son statut. Les prérequis sont en places.
 
 ### Communication entre le démon et le code PHP
 
@@ -443,6 +442,7 @@ Elle reçoit donc en paramètre un tableau de valeur et se charge de l'envoyer a
 Ce qui se trouvent dans le tableau `$params` et comment vous exploitez ces données dans votre démon est de votre ressort, cela dépend de ce que fait votre plugin.
 
 Pour rappel, ce tableau sera donc récupérer dans la méthode `read_socket()`, extrait du code:
+
 ```python
         if message['apikey'] != _apikey:
             logging.error("Invalid apikey from socket : " + str(message))
@@ -536,3 +536,13 @@ Le code python pour envoyer le message ressemblera à ceci:
 ```python
 jeedom_com.send_change_immediate({'key1' : 'value1', 'key2' : 'value2' })
 ```
+
+Voila, vous avez un démon complètement fonctionnel et vous pouvez communiquer dans les deux sens entre votre démon et votre code php, Le plus dur reste à faire: coder la logique du démon.
+
+## Les dépendances
+
+Lorsque l'on va écrire du code python on va très souvent avoir besoin de librairies externes (et standard) en plus de nos propres class python.
+
+Alors on pourrait éventuellement les fournir avec le plugin dans un sous-répertoire de notre démon et faire les import de là mais ce n'est pas idéal: d'une part cela peut vite de venir compliqué de gérer tout l'arbre de dépendance, cela va augmenter considérablement la taille du plugin et cela va prendre plus de place sur la machine de l'utilisateur si chaque plugin fait de même. Ce n'est pas comme cela que l'on installe les librairies requises.
+
+Et pour gérer cela, encore une fois, tout est prévu dans le core de Jeedom pour nous aider.
