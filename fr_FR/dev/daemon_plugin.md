@@ -144,7 +144,7 @@ _callback = '' ## l'url de callback pour envoyer les notifications à Jeedom (et
 
 > **Attention**
 >
-> Il faut bien faire attention en choisissant le port que vous allez utiliser pour votre socket, c'est un point d'amélioration possible sous jeedom, car il n'y a pas de mécanisme en place pour éviter des collisions: donc si un autre plugin utilise le même port que vous cela va évidement poser un problème. Pour l'instant la seule méthode pour faire son choix est de chercher parmi les plugins existant les ports déjà utilisés et de s'aligner entre dev sur le community (il y a déjà des sujets ouverts à ce propos). Par ailleurs il sera important de laisser ceci configurable par l'utilisateur si tel conflit devait se produire, on y reviendra.
+> Il faut bien faire attention en choisissant le port que vous allez utiliser pour votre socket, c'est un point d'amélioration possible sous jeedom, car il n'y a pas de mécanisme en place pour éviter des collisions: donc si un autre plugin utilise le même port que vous cela va évidement poser un problème. Pour l'instant la seule méthode pour faire son choix est de chercher parmi les plugins existant les ports déjà utilisés et de s'aligner entre dev sur le community (il y a déjà des sujets ouverts à ce propos). Par ailleurs il sera important de laisser ceci configurable par l'utilisateur si tel conflit devait se produire.
 
 Ensuite on récupère les arguments reçu en ligne de commande, cette ligne de commande sera générée par votre code php, on y reviendra.
 A vous de supprimer ce qui n'est pas utile (comme l'argument device) ou d'en rajouter d'autres tel qu'un user/pswd si votre démon doit se connecter sur un système distant.
@@ -172,7 +172,7 @@ signal.signal(signal.SIGINT, handler)
 signal.signal(signal.SIGTERM, handler)
 ```
 
-et la méthode handler qui est définie un peu plus haut dans le démon:
+et la méthode `handler` qui est définie un peu plus haut dans le démon:
 
 ```python
 def handler(signum=None, frame=None):
@@ -209,7 +209,7 @@ C'est dans cette méthode que vous devez écrire le code à éxécuter en cas de
 >
 > vous devez adapter cette méthode et supprimer le code qui n'est pas nécessaire dans votre cas, notamment le try/except sur `jeedom_serial.close()` si vous n'utilisez pas cette class.
 
-Si on retourne sur le démarre du démon, voici la suite:
+Si on retourne sur le démarrage du démon, voici la suite:
 
 ```python
 try:
@@ -259,7 +259,7 @@ def read_socket():
 
 La variable `JEEDOM_SOCKET_MESSAGE` est une `queue()` python alimentée par la class `jeedom_socket()` comme vu précédemment.
 
-Si la queue n'est pas vide, on charge le json et on vérifie que la clé api reçue avec le message correspond à celle reçue lors du démarrage du démon ensuite on peut lire le message et faire nos actions dans le tr/except:
+Si la queue n'est pas vide, on charge le json et on vérifie que la clé api reçue avec le message correspond à celle reçue lors du démarrage du démon ensuite on peut lire le message et faire nos actions dans le try/except:
 
 ```python
         try:
@@ -391,7 +391,7 @@ Vous pouvez copier/coller le code ci-dessous tel quel et modifier les lignes ind
 Ne modifiez que les lignes ayant un commentaire, le reste doit rester inchangé.
 
 Notez que l'on commence par stopper le démon, ceci pour gérer le redémarrage.
-Ensuite on vérifie si le démon peut effectivement être démarré avec la méthode `deamon_info()` et on génère le ligne de commande dans la variable `$cmd` pour démarrer notre démon, ici avec python3
+Ensuite on vérifie si le démon peut effectivement être démarré avec la méthode `deamon_info()` et on génère la ligne de commande dans la variable `$cmd` pour démarrer notre démon, ici avec python3
 
 #### Fonction deamon_stop()
 
@@ -409,12 +409,12 @@ Cette méthode sera utilisée pour stopper le démon: on récupère le pid du d�
     }
 ```
 
-Voila, arrivé ici vous avez déclarer le démon dans le info.json et implémenté les 3 méthodes nécessaires pour que le core de Jeedom puisse démarrer et arrêter votre démon ainsi qu'afficher son statut. Les prérequis sont en places.
+Voila, arrivé ici vous avez déclaré le démon dans le info.json et implémenté les 3 méthodes nécessaires pour que le core de Jeedom puisse démarrer et arrêter votre démon ainsi qu'afficher son statut. Les prérequis sont en places.
 
 
 ### Communication entre le démon et le code PHP
 
-Il reste à gérer la communication depuis et vers le démon: dans le code python on a déjà vu comme c'était géré, pour rappel la méthode `listen()` qui écoute sur un socket et la méthode `send_change_immediate()` pour envoyer un payload json au code php.
+Il reste à gérer la communication depuis et vers le démon: dans le code python on a déjà vu comment c'était géré, pour rappel la méthode `listen()` qui écoute sur un socket et la méthode `send_change_immediate()` pour envoyer un payload json au code php.
 
 Il faut donc gérer l'équivalent coté PHP.
 
@@ -423,7 +423,7 @@ Il faut donc gérer l'équivalent coté PHP.
 Cette fonction n'existe pas dans le core et n'est pas standard pour tous les plugins Jeedom, elle n'est pas obligatoire non plus.
 C'est la fonction que j'utilise moi (@Mips) dans chacun de mes plugins ayant un démon, je vous la met ici et vous en faite ce que vous voulez ;-)
 
-Elle reçoit donc en paramètre un tableau de valeur et se charge de l'envoyer au socket du démon qui pourra donc lire ce tableau dans la méthode `read_socket()` que l'on a vue précédemment.
+Elle reçoit donc en paramètre un tableau de valeur et se charge de l'envoyer au socket du démon qui pourra donc lire ce tableau dans la méthode `read_socket()` que l'on a vu précédemment.
 
 ```php
     public static function sendToDaemon($params) {
@@ -457,7 +457,7 @@ On voit bien la clé "apikey" ajoutée par le code php qui sera lue par le code 
 
 #### Réceptionner un message du démon
 
-Pour cela on doit ajouter un fichier à notre plugin dans le dossier `/core/php/`. Par convention, on va nommer ce fichier `jee[pluginId].php`. C'est le path à utiliser comme url de callback dans la méthode `deamon_start()`
+Pour cela on doit ajouter un fichier à notre plugin dans le dossier `/core/php/` de votre plugin. Par convention, on va nommer ce fichier `jee[pluginId].php`. `/plugins/[pluginId]/core/php/jee[pluginId].php` sera le chemin à utiliser comme url de callback dans la méthode `deamon_start()`
 
 Voici le contenu de base que vous pouvez copier/coller dans ce fichier:
 
