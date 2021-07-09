@@ -442,7 +442,7 @@ Elle reçoit donc en paramètre un tableau de valeur et se charge de l'envoyer a
 
 Ce qui se trouvent dans le tableau `$params` et comment vous exploitez ces données dans votre démon est de votre ressort, cela dépend de ce que fait votre plugin.
 
-Pour rappel, ce tableau sera donc récupérer dans la méthode `read_socket()`, extrait du code:
+Pour rappel, ce tableau sera donc récupéré dans la méthode `read_socket()`, extrait du code:
 
 ```python
         if message['apikey'] != _apikey:
