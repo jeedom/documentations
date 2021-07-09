@@ -10,19 +10,20 @@ Il va arriver que vous ayez besoin de plus que cela, quelques exemples sans êtr
 - utiliser des resources systèmes, par exemple clé usb ou autres matériels (bluetooth...)
 - maintenir une connexion avec un système distant (en réseau local ou sur internet mais pas jeedom)
 - garder des processus actifs en arrière plan ce qui n'est pas le cas du code PHP qui ne "vit" que pendant l'exécution de la requête http
+- faire un traitement en temps réel
 
 Pour cela, la plupart du temps on utilise un "démon".
-A nouveau, tout est déjà prévu dans le core de jeedom pour nous aider à mettre ce démon en place et on va détailler cela ici.
+Pas de panique, tout est déjà prévu dans le core de jeedom pour nous aider à mettre ce démon en place et on va détailler cela ici.
 
 ## Structure des fichiers d'un démon
 
-Le code et/ou l'executable de votre démon doit évidement se trouver dans l'arborescence de votre plugin et doit donc être inclus et livrer dans le package lors de l'installation d'un plugin.
-Il n'y a pas de règle forte sur l'emplacement exact de votre démon, cependant la convention veut que l'on place celui-ci dans le répertoire `/resources` du répertoire de votre plugin.
+Le code et/ou l'executable de votre démon doit évidement se trouver dans l'arborescence de votre plugin et doit donc être inclus et livré dans le package lors de l'installation d'un plugin.
+Il n'y a pas de règle stricte sur l'emplacement exact de votre démon, cependant la convention veut que l'on place celui-ci dans le répertoire `/resources` du répertoire de votre plugin.
 
 Dans le plugin template vous trouverez les bases pour implémenter un démon en python et c'est l'exemple que l'on va utiliser dans cette documentation cependant vous êtes libre de développer votre démon dans le langage de votre choix à condition qu'il puisse être executé sur les [plateformes supportées par Jeedom]( https://doc.jeedom.com/fr_FR/compatibility/).
-La plupart des démons des plugins Jeedom sont en python ou nodeJs mais il en existe aussi en .netCore ou autre.
+La plupart des démons des plugins Jeedom sont en python ou nodeJs mais il en existe aussi en .netCore et certainement d'autres techno.
 
-Vous trouverez également quelques méthodes utiles pour un démon en nodeJs qui sera peut-être détaillé dans une prochaine version de cette documentation. Pour l'instant je vous invite à consulter le community dev pour vous aligner avec les autres développeurs sur tout ce qui concerne NodeJs, principalement sur la version à utiliser.
+Vous trouverez également quelques méthodes utiles pour un démon en nodeJs qui seront peut-être détaillées dans une prochaine version de cette documentation. Pour l'instant je vous invite à consulter le community dev pour vous aligner avec les autres développeurs sur tout ce qui concerne NodeJs, principalement sur la version à utiliser.
 
 Structure du répertoire du template:
 
@@ -42,7 +43,7 @@ La convention est de prendre l'ID du plugin suivi de la lettre ´d´. Ce qui don
 
 Jeedom fournit avec le plugin template un package python offrant les classes et méthodes de bases utiles pour la gestion du démon et de la communication entre le démon et le code php de votre plugin.
 Elles se trouvent dans le répertoire `/resources/demond/jeedom/jeedom.py` (visible dans la capture ci-dessus).
-Pour démarrer vous n'avez pas besoin de connaître les détails d'implémentation de ces class et méthodes donc ici vous aurez juste un résumé de ce qu'elles permettent.
+Pour démarrer vous n'avez pas besoin de connaître les détails d'implémentations de ces classes et méthodes donc ici vous aurez juste un résumé de ce qu'elles permettent.
 
 #### class jeedom_utils()
 
@@ -56,22 +57,22 @@ De nouveau on ne va pas détailler la class, les méthodes parlent d'elles-même
 
 > **Attention**
 >
-> Si votre démon n'aura pas besoin de faire ce type d'action, il faudra penser à ne pas utiliser ni importer cette class car le package python `serial` n'est pas installé par défaut et dans ce cas votre démon ne démarrera pas (problème vu plusieurs fois sur community). On y reviendra dans la gestion des dépendances.
+> Si votre démon n'a pas besoin de faire ce type d'action, il faudra penser à ne pas utiliser ni importer cette classe car le package python `serial` n'est pas installé par défaut et dans ce cas votre démon ne démarrera pas (problème vu plusieurs fois sur community). On y reviendra dans la gestion des dépendances.
 
 #### class jeedom_socket() & jeedom_socket_handler()
 
-Vous n'utilisez pas la class `jeedom_socket_handler()` directement, elle ne sert qu'à `jeedom_socket()`.
+Vous n'utiliserez pas la class `jeedom_socket_handler()` directement, elle ne sert qu'à `jeedom_socket()`.
 Le but de `jeedom_socket()` est d'assurer une communication descendante (de votre code php vers le démon).
-Lorsque votre plugin devra envoyer une instruction à votre démon il pourra le faire via ce socket.
+Lorsque votre plugin devra envoyer une instruction à votre démon il pourra le faire via ce socket, vous verrez un exemple plus tard dans cette documentation.
 
-Donc la class ouvre un socket tcp et écoute. Quand un message est reçu il est mis dans une queue qui sera lu par après par votre démon, on y reviendra.
+Donc la class ouvre un socket tcp et écoute. Quand un message est reçu il est mis dans une queue qui sera lue par après par votre démon, on y reviendra.
 
 A nouveau, vous n'êtes pas obligé d'utiliser ce mécanisme, vous êtes libre de créer autre chose (server http par exemple) mais c'est ce qui est fournit de base par Jeedom, c'est léger et ca fonctionne très bien.
 
 #### class jeedom_com()
 
 Celle-ci assure la communication montante, du démon vers votre code php.
-Vous utilisez essentiellement `send_change_immediate()` au début qui permet donc d'envoyer un payload json à jeedom via une requête http. On verra un exemple plus tard.
+Vous utiliserez essentiellement `send_change_immediate()` au début qui permet donc d'envoyer un payload json à jeedom via une requête http. C'est très simple et efficace, on verra un exemple plus tard.
 
 ### Squelette du démon python
 
@@ -134,17 +135,17 @@ Quelques initialisations de variable:
 
 ```python
 _log_level = "error" # le log level par défaut, au format texte tel qu'il est envoyé par Jeedom
-_socket_port = 55009 # le port que votre démon utilisera par défaut pour ouvrir le socket d'écoute de Jeedom
+_socket_port = 55009 # le port que votre démon utilisera par défaut pour ouvrir le socket d'écoute de Jeedom, à modifier.
 _socket_host = 'localhost' # l'interface sur laquelle ouvrir le socket, à priori ne pas changer.
 _device = 'auto' # ne sert à rien si vous n'utilisez pas un device matériel
-_pidfile = '/tmp/demond.pid' # emplacement par défaut du pidfile, ce fichier est utiliser par Jeedom pour savoir si votre démon est démarrer ou pas
+_pidfile = '/tmp/demond.pid' # emplacement par défaut du pidfile, ce fichier est utiliser par Jeedom pour savoir si votre démon est démarrer ou pas; nom du démon à modifier comme expliqué ci-dessus;
 _apikey = '' # apikey pour authentifier la communication entre Jeedom et votre démon
 _callback = '' ## l'url de callback pour envoyer les notifications à Jeedom (et à votre code php)
 ```
 
 > **Attention**
 >
-> Il faut bien faire attention en choisissant le port que vous allez utiliser pour votre socket, c'est un point d'amélioration possible sous jeedom, car il n'y a pas de mécanisme en place pour éviter des collisions: donc si un autre plugin utilise le même port que vous cela va évidement poser un problème. Pour l'instant la seule méthode pour faire son choix est de chercher parmi les plugins existant les ports déjà utilisés et de s'aligner entre dev sur le community (il y a déjà des sujets ouverts à ce propos). Par ailleurs il sera important de laisser ceci configurable par l'utilisateur si tel conflit devait se produire.
+> Il faut bien faire attention en choisissant le port que vous allez utiliser pour votre socket, c'est un point d'amélioration possible sous jeedom, car il n'y a pas de mécanisme en place pour éviter les collisions: donc si un autre plugin utilise le même port que vous cela va évidement poser un problème. Pour l'instant la seule méthode pour faire son choix est de chercher parmi les plugins existant les ports déjà utilisés et de s'aligner entre dev sur le community (il y a déjà des sujets ouverts à ce propos). Par ailleurs il sera important de laisser ceci configurable par l'utilisateur dans la configuration de votre plugin pour qu'il puisse être modifié si un tel conflit devait se produire.
 
 Ensuite on récupère les arguments reçu en ligne de commande, cette ligne de commande sera générée par votre code php, on y reviendra.
 A vous de supprimer ce qui n'est pas utile (comme l'argument device) ou d'en rajouter d'autres tel qu'un user/pswd si votre démon doit se connecter sur un système distant.
