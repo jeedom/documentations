@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Dans les tutoriels et documentations de base vous avez appris comment coder votre premier plugin avec des actions relativement simples déclenchées par l'utilisateur via une commande action ou par une tâche planifiée par le core (les crons).
+Dans les tutoriels et documentations de bases vous avez appris comment coder votre premier plugin avec des actions relativement simples déclenchées par l'utilisateur via une commande action ou par une tâche planifiée par le core (les crons).
 Le plugin est alors capable de ponctuellement aller chercher de l'information (par exemple via requête http) ou de faire toute sortes d'opérations pour autant que cela puisse être codé en PHP.
 
 Il va arriver que vous ayez besoin de plus que cela, quelques exemples sans être exhaustif:
@@ -17,11 +17,11 @@ Pas de panique, tout est déjà prévu dans le core de jeedom pour nous aider à
 
 ## Structure des fichiers d'un démon
 
-Le code et/ou l'executable de votre démon doit évidement se trouver dans l'arborescence de votre plugin et doit donc être inclus et livré dans le package lors de l'installation d'un plugin.
-Il n'y a pas de règle stricte sur l'emplacement exact de votre démon, cependant la convention veut que l'on place celui-ci dans le répertoire `/resources` du répertoire de votre plugin.
+Le code et/ou l'exécutable de votre démon doit évidement se trouver dans l'arborescence de votre plugin et doit donc être inclus et livré avec l'archive lors de l'installation d'un plugin.
+Il n'y a pas de règle stricte sur l'emplacement exact de votre démon, cependant la convention veut que l'on place celui-ci dans le sous-répertoire `./resources/` du plugin.
 
-Dans le plugin template vous trouverez les bases pour implémenter un démon en python et c'est l'exemple que l'on va utiliser dans cette documentation cependant vous êtes libre de développer votre démon dans le langage de votre choix à condition qu'il puisse être executé sur les [plateformes supportées par Jeedom]( https://doc.jeedom.com/fr_FR/compatibility/).
-La plupart des démons des plugins Jeedom sont en python ou nodeJs mais il en existe aussi en .netCore et certainement d'autres techno.
+Dans le plugin template vous trouverez les bases pour implémenter un démon en python et c'est l'exemple que l'on va utiliser dans cette documentation cependant vous êtes libre de développer votre démon dans le langage de votre choix à condition qu'il puisse être exécuté sur les [plateformes supportées par Jeedom]( https://doc.jeedom.com/fr_FR/compatibility/).
+La plupart des démons des plugins Jeedom sont en python ou nodeJs mais il en existe aussi en .netCore et certainement d'autres technos.
 
 Vous trouverez également quelques méthodes utiles pour un démon en nodeJs qui seront peut-être détaillées dans une prochaine version de cette documentation. Pour l'instant je vous invite à consulter le community dev pour vous aligner avec les autres développeurs sur tout ce qui concerne NodeJs, principalement sur la version à utiliser.
 
@@ -42,18 +42,18 @@ La convention est de prendre l'ID du plugin suivi de la lettre ´d´. Ce qui don
 ### le package jeedom pour un démon python
 
 Jeedom fournit avec le plugin template un package python offrant les classes et méthodes de bases utiles pour la gestion du démon et de la communication entre le démon et le code php de votre plugin.
-Elles se trouvent dans le répertoire `/resources/demond/jeedom/jeedom.py` (visible dans la capture ci-dessus).
+Ces classes se trouvent dans le répertoire `./resources/demond/jeedom/jeedom.py` (visible dans la capture ci-dessus).
 Pour démarrer vous n'avez pas besoin de connaître les détails d'implémentations de ces classes et méthodes donc ici vous aurez juste un résumé de ce qu'elles permettent.
 
 #### class jeedom_utils()
 
-Cette class est un ensemble de méthodes static utiles telle que `convert_log_level` pour convertir le loglevel reçu de jeedom en un log level de la class python `logging` ou `find_tty_usb` pour retourner une liste de device sur le système.
+Cette classe est un ensemble de méthodes statiques utiles telle que `convert_log_level` pour convertir le loglevel reçu de jeedom en un log level de la class python `logging` ou `find_tty_usb` pour retourner une liste de device sur le système.
 On ne va pas toutes les détailler ici, le nom de chacune des méthodes est assez explicite, vous les découvrirez en vous plongeant dans le code.
 
 #### class jeedom_serial()
 
 Cette class encapsule la lecture et l'écriture sur un device.
-De nouveau on ne va pas détailler la class, les méthodes parlent d'elles-mêmes, sachez juste que ca existe si vous en avez besoin.
+De nouveau on ne va pas détailler la classe, les méthodes parlent d'elles-mêmes, sachez juste que ca existe si vous en avez besoin.
 
 > **Attention**
 >
@@ -61,7 +61,7 @@ De nouveau on ne va pas détailler la class, les méthodes parlent d'elles-même
 
 #### class jeedom_socket() & jeedom_socket_handler()
 
-Vous n'utiliserez pas la class `jeedom_socket_handler()` directement, elle ne sert qu'à `jeedom_socket()`.
+Vous n'utiliserez pas la classe `jeedom_socket_handler()` directement, elle ne sert qu'à `jeedom_socket()`.
 Le but de `jeedom_socket()` est d'assurer une communication descendante (de votre code php vers le démon).
 Lorsque votre plugin devra envoyer une instruction à votre démon il pourra le faire via ce socket, vous verrez un exemple plus tard dans cette documentation.
 
@@ -145,7 +145,7 @@ _callback = '' ## l'url de callback pour envoyer les notifications à Jeedom (et
 
 > **Attention**
 >
-> Il faut bien faire attention en choisissant le port que vous allez utiliser pour votre socket, c'est un point d'amélioration possible sous jeedom, car il n'y a pas de mécanisme en place pour éviter les collisions: donc si un autre plugin utilise le même port que vous cela va évidement poser un problème. Pour l'instant la seule méthode pour faire son choix est de chercher parmi les plugins existant les ports déjà utilisés et de s'aligner entre dev sur le community (il y a déjà des sujets ouverts à ce propos). Par ailleurs il sera important de laisser ceci configurable par l'utilisateur dans la configuration de votre plugin pour que le numéro de port puisse être modifié si un tel conflit devait se produire.
+> Il faut bien faire attention en choisissant le port que vous allez utiliser pour votre socket, c'est un point d'amélioration possible sous jeedom, car il n'y a pas de mécanisme en place pour éviter les collisions: donc si un autre plugin utilise le même port que vous cela va évidement poser un problème. Pour l'instant la seule méthode pour faire son choix est de chercher parmi les plugins existant les ports déjà utilisés et de s'aligner entre dev sur community (il y a déjà des sujets ouverts à ce propos). Par ailleurs il est important de laisser ceci configurable par l'utilisateur dans la configuration de votre plugin pour que le numéro de port puisse être modifié si un tel conflit devait se produire.
 
 Ensuite on récupère les arguments reçus en ligne de commande, cette ligne de commande sera générée par votre code php, on y reviendra.
 A vous de supprimer ce qui n'est pas utile (comme l'argument device) ou d'en rajouter d'autres tel qu'un user/pswd si votre démon doit se connecter sur un système distant.
@@ -166,7 +166,7 @@ for arg in sys.argv:
         temp, _device = arg.split("=")
 ```
 
-Ensuite il y a quelques lignes de log et ces deux lignes, classique en python, qui enregistre simplement la méthode à appeler dans le cas où ces deux signaux d'interruptions sont reçus, ce qui permettra de stopper le démon:
+Ensuite il y a quelques lignes de log et ces deux lignes, classique en python, qui enregistrent simplement la méthode à appeler dans le cas où ces deux signaux d'interruptions sont reçus, ce qui permettra de stopper le démon:
 
 ```python
 signal.signal(signal.SIGINT, handler)
@@ -306,7 +306,7 @@ La fonction `deamon_info()` sera appellée par le core lors de l'affichage du ca
 ![image](images/daemon_info.png)
 
 Typiquement elle ressemblera à ceci, l'array renvoyé et les clés utilisées dans cet array sont évidement importants.
-Vous pouvez copier/coller le code ci-dessous tel quel et adapter le code pour vérifier la configuration nécessaire à votre plugin.
+Vous pouvez copier/coller le code ci-dessous tel quel et adapter le code à la fin de la fonction pour vérifier la configuration nécessaire à votre plugin.
 
 ```php
     public static function deamon_info() {
@@ -364,13 +364,13 @@ Vous pouvez copier/coller le code ci-dessous tel quel et modifier les lignes ind
         $cmd = 'python3 ' . $path . '/demond.py'; // nom du démon à modifier
         $cmd .= ' --loglevel ' . log::convertLogLevel(log::getLogLevel(__CLASS__));
         $cmd .= ' --socketport ' . config::byKey('socketport', __CLASS__, '55009'); // port par défaut à modifier
-        $cmd .= ' --callback ' . network::getNetworkAccess('internal', 'proto:127.0.0.1:port:comp') . '/plugins/template/core/php/jeeTemplate.php'; // chemin de la callback url à modifier
+        $cmd .= ' --callback ' . network::getNetworkAccess('internal', 'proto:127.0.0.1:port:comp') . '/plugins/template/core/php/jeeTemplate.php'; // chemin de la callback url à modifier (voir ci-dessous)
         $cmd .= ' --user "' . trim(str_replace('"', '\"', config::byKey('user', __CLASS__))) . '"'; // on rajoute les paramètres utiles à votre démon, ici user
         $cmd .= ' --pswd "' . trim(str_replace('"', '\"', config::byKey('password', __CLASS__))) . '"'; // et password
         $cmd .= ' --apikey ' . jeedom::getApiKey(__CLASS__); // l'apikey pour authentifier les échanges suivants
         $cmd .= ' --pid ' . jeedom::getTmpFolder(__CLASS__) . '/deamon.pid'; // et on précise le chemin vers le pid file (ne pas modifier)
         log::add(__CLASS__, 'info', 'Lancement démon');
-        $result = exec($cmd . ' >> ' . log::getPathToLog('template_daemon') . ' 2>&1 &'); // 'template_daemon' est le nom du log pour votre démon, vous devez nommé votre log en commençant par le pluginid pour que le fichier apparaisse dans la page de config
+        $result = exec($cmd . ' >> ' . log::getPathToLog('template_daemon') . ' 2>&1 &'); // 'template_daemon' est le nom du log pour votre démon, vous devez nommer votre log en commençant par le pluginid pour que le fichier apparaisse dans la page de config
         $i = 0;
         while ($i < 20) {
             $deamon_info = self::deamon_info();
@@ -414,7 +414,7 @@ Arrivé ici vous avez déclaré le démon dans le info.json et implémenté les 
 
 ### Communication entre le démon et le code PHP
 
-Il reste à gérer la communication depuis et vers le démon: dans le code python on a déjà vu comment c'était géré, pour rappel la méthode `listen()` qui écoute sur un socket et la méthode `send_change_immediate()` pour envoyer un payload json au code php.
+Il reste à gérer la communication depuis et vers le démon. Dans le code python on a déjà vu comment c'était géré: pour rappel la méthode `listen()` et `read_socket()` qui écoute sur un socket et la méthode `send_change_immediate()` pour envoyer un payload json au code php.
 
 Il faut donc gérer l'équivalent coté PHP.
 
@@ -442,7 +442,7 @@ Elle reçoit donc en paramètre un tableau de valeur et se charge de l'envoyer a
 
 Ce qui se trouvent dans le tableau `$params` et comment vous exploitez ces données dans votre démon est de votre ressort, cela dépend de ce que fait votre plugin.
 
-Pour rappel, ce tableau sera donc récupéré dans la méthode `read_socket()`, extrait du code:
+Pour rappel, ce tableau sera donc récupéré dans la méthode `read_socket()`; extrait du code python:
 
 ```python
         if message['apikey'] != _apikey:
@@ -458,7 +458,7 @@ On voit bien la clé "apikey" ajoutée par le code php qui sera lue par le code 
 
 #### Réceptionner un message du démon
 
-Pour cela on doit ajouter un fichier à notre plugin dans le dossier `/core/php/`. Par convention, on va nommer ce fichier `jee[pluginId].php`. `/plugins/[pluginId]/core/php/jee[pluginId].php` sera le chemin à utiliser comme url de callback dans la méthode `deamon_start()`
+Pour cela on doit ajouter un fichier à notre plugin dans le dossier `./core/php/`. Par convention, on va nommer ce fichier `jee[pluginId].php`. `/plugins/[pluginId]/core/php/jee[pluginId].php` sera donc le chemin à utiliser comme url de callback dans la méthode `deamon_start()`
 
 Voici le contenu de base que vous pouvez copier/coller dans ce fichier:
 
@@ -468,7 +468,7 @@ Voici le contenu de base que vous pouvez copier/coller dans ce fichier:
 try {
     require_once dirname(__FILE__) . "/../../../../core/php/core.inc.php";
 
-    if (!jeedom::apiAccess(init('apikey'), 'template')) { //remplacer template par l'id de votre plugin
+    if (!jeedom::apiAccess(init('apikey'), 'template')) { //remplacez template par l'id de votre plugin
         echo __('Vous n\'etes pas autorisé à effectuer cette action', __FILE__);
         die();
     }
@@ -486,17 +486,17 @@ try {
     } elseif (isset($result['key2'])) {
         // do something else
     } else {
-        log::add('template', 'error', 'unknown message received from daemon'); //remplacer template par l'id de votre plugin
+        log::add('template', 'error', 'unknown message received from daemon'); //remplacez template par l'id de votre plugin
     }
 } catch (Exception $e) {
-    log::add('template', 'error', displayException($e)); //remplacer template par l'id de votre plugin
+    log::add('template', 'error', displayException($e)); //remplacez template par l'id de votre plugin
 }
 ```
 
 Le code commence par valider que l'apikey est correcte:
 
 ```php
-    if (!jeedom::apiAccess(init('apikey'), 'template')) { //remplacer template par l'id de votre plugin
+    if (!jeedom::apiAccess(init('apikey'), 'template')) { //remplacez template par l'id de votre plugin
         echo __('Vous n\'etes pas autorisé à effectuer cette action', __FILE__);
         die();
     }
@@ -528,7 +528,7 @@ Ensuite c'est à vous de lire le tableau et d'effectuer les actions dans votre p
     } elseif (isset($result['key2'])) {
         // do something else
     } else {
-        log::add('template', 'error', 'unknown message received from daemon'); //remplacer template par l'id de votre plugin
+        log::add('template', 'error', 'unknown message received from daemon'); //remplacez template par l'id de votre plugin
     }
 ```
 
@@ -542,11 +542,11 @@ Voila, vous avez un démon complètement fonctionnel et vous pouvez communiquer 
 
 ## Les dépendances
 
-Lorsque l'on va écrire un démon, on va très souvent avoir besoin de librairies externes (et standard) en plus de nos propres classes.
+Lorsque l'on va écrire un démon, on va très souvent avoir besoin de librairies externes en plus de nos propres classes.
 
-Sous debian typiquement on va utiliser l'outils apt pour installer les paquets nécessaires et pour python on va utiliser pip.
+Sous debian, typiquement, on va utiliser l'outils apt pour installer les paquets nécessaires et pour python, on va utiliser pip.
 
-Et pour gérer cela, encore une fois, tout est prévu dans le core de Jeedom pour nous aider. 3 prérequis qu'on nous allons détailler tout de suite.
+Et pour gérer cela, encore une fois, tout est prévu dans le core de Jeedom pour nous aider. Il y 3 prérequis qu'on nous allons détailler tout de suite.
 
 ### Déclaration dans plugin_info/info.json
 
@@ -583,20 +583,20 @@ Dans votre classe eqLogic vous devez rajouter cette fonction si elle n'existe pa
 
 Cette fonction commence par supprimer le log de l'installation précédente s'il existait et ensuite il va retourner au core la commande script à exécuter et l'emplacement du log.
 
-Notez que le fichier script renvoyé est nommé `install_#stype#.sh`. `#stype#` sera remplacé dynamiquement par le core avec l'outil de gestion des paquets à utiliser en fonction du système sur lequel est installé Jeedom. Donc `#stype#` sera remplacé par `apt` sur un système Debian.
-Cela permet de proposer des scripts d'installation des dépendances pour plusieurs système et donc de supporter autre chose que Debian/apt qui est le strict minimum et le seul que l'on va gérer ici.
+Notez que le fichier script renvoyé est nommé `install_#stype#.sh`. En effet, `#stype#` sera remplacé dynamiquement par le core avec l'outil de gestion des paquets à utiliser en fonction du système sur lequel est installé Jeedom. Donc `#stype#` sera remplacé par `apt` sur un système Debian.
+Cela permet de proposer des scripts d'installation des dépendances pour plusieurs systèmes et donc de supporter autre chose que Debian/apt qui est le strict minimum et le seul que l'on va gérer ici.
 
-Le premier argument: `jeedom::getTmpFolder(__CLASS__) . '/dependency'` est le fichier qui sert au suivi de la progression de l'installation (le pourcentage qui apparaît à l'écran lors de l'installation)
+Le premier argument: `jeedom::getTmpFolder(__CLASS__) . '/dependency'` est le fichier qui sert au suivi de la progression de l'installation (le pourcentage qui apparaît à l'écran lors de l'installation).
 
-C'est tout pour la partie php, à présent il faut créer le script dans `resources/install_apt.sh` et évidemment le contenu du script va dépendre de votre plugin et des paquets que vous voulez installer.
+C'est tout pour la partie php, à présent il faut créer le script dans `./resources/install_apt.sh` et évidemment le contenu du script va dépendre de votre plugin et des paquets que vous voulez installer.
 
 Voici un exemple de script assez simple issu d'un de mes plugins mais vous pouvez en faire de beaucoup plus complet et évolué:
 
 ```bash
-PROGRESS_FILE=/tmp/jeedom/template/dependency #remplacer template par l'ID de votre plugin
+PROGRESS_FILE=/tmp/jeedom/template/dependency #remplacez template par l'ID de votre plugin
 
 if [ ! -z $1 ]; then
-	PROGRESS_FILE=$1
+    PROGRESS_FILE=$1
 fi
 touch ${PROGRESS_FILE}
 echo 0 > ${PROGRESS_FILE}
@@ -632,14 +632,14 @@ rm ${PROGRESS_FILE}
 
 On va détailler quelques lignes:
 
-On commence par définir l'emplacement par défaut du fichier de progression au cas où on n'aurait pas réaliser correctement l'étape précédente...
+On commence par définir l'emplacement par défaut du fichier de progression au cas où on n'aurait pas réalisé correctement l'étape précédente...
 Et on utilise le premier argument reçu comme emplacement parce qu'on a correctement fait l'étape précédente ;-).
 
 ```bash
-PROGRESS_FILE=/tmp/jeedom/template/dependency #remplacer template par l'ID de votre plugin
+PROGRESS_FILE=/tmp/jeedom/template/dependency #remplacez template par l'ID de votre plugin
 
 if [ ! -z $1 ]; then
-	PROGRESS_FILE=$1
+    PROGRESS_FILE=$1
 fi
 ```
 
@@ -647,17 +647,20 @@ Les lignes du type `echo 60 > ${PROGRESS_FILE}` servent évidement à retourner 
 
 Quelques conseils:
 
-- Ne faite pas de `apt-get upgrade`! Vous ne savez pas ce qu'il y a sur la machine et ce n'est pas à vous de mettre tout à jour.
+- Ne faite pas de `apt-get upgrade`! Vous ne savez pas ce qu'il y a sur la machine et ce n'est pas à vous de tout mettre à jour.
 - N'utilisez pas `apt` mais `apt-get`. `apt` est fait pour une utilisation en interactif et cela va générer un warning.
-- Rajoutez le flag `-y` quand nécessaire pour confirmer les prompts sinon le script va stoppé avec une demande du style `Do you want to continue [y/n]` et l'utilisateur sera bloqué.
-- Préférez la syntaxe `python3 -m pip install ...` plutôt que `pip3 install ...` pour installer les paquets python car la deuxième causera des problèmes si `pip3` (ou `pip` si vous utilisez python v2) n'est pas lié à la même version que python3: si par exemple python3 pointe sur la version 3.7 et que pip3 pointe sur la 3.9 ou pire la 2.7; Vous ne savez pas ce qui a été fait sur le système et vous n'êtes pas à l'abris de tel problème sur la machine de l'utilisateur, il y a des centaines de cas répertoriés sur community.
+- Rajoutez le flag `-y` quand nécessaire pour confirmer les prompts sinon le script va stopper avec une demande du style `Do you want to continue [y/n]` et l'utilisateur sera bloqué.
+- Préférez la syntaxe `python3 -m pip install ...` plutôt que `pip3 install ...` pour installer les paquets python car la deuxième causera des problèmes si `pip3` (ou `pip` si vous utilisez python v2) n'est pas lié à la même version que python3: si par exemple python3 pointe sur la version 3.7 et que pip3 pointe sur la 3.9 ou pire la 2.7; Vous ne savez pas ce qui a été fait sur le système et vous n'êtes pas à l'abris de tel problème sur la machine de l'utilisateur, il y a des dizaines de cas répertoriés sur community.
 
-
-![image](images/dependencies_info.png)
+> **Attention**
+>
+> Il est très important d'installer tous les paquets nécessaires et de faire particulièrement attention à ceux qui sont très souvent déjà installés ... mais pas toujours. Il y fréquemment des problèmes avec les paquets `python3-requests`, `python3-pip` et/ou `serial`. Ceux-ci ne sont pas pré-installés sur une debian de base mais très souvent déjà installés par un autre plugin... sauf si votre plugin est le premier et dans ce cas votre démon ne démarrera pas. Cela arrive plus souvent qu'on ne pourrait le croire.
 
 ### Connaître le statut
 
-C'est donc notre fonction php `dependancy_install()` qui sera appelée par le core et qui permettra de lancer notre script `resources/install_apt.sh` lorsque l'utilisateur cliquera sur le bouton "Relancer" ou automatiquement par le core lorsqu'il détectera que les dépendances ne sont soit pas installées, soit pas à jour.
+![image](images/dependencies_info.png)
+
+C'est donc notre fonction php `dependancy_install()` qui sera appelée par le core et qui permettra de lancer notre script `./resources/install_apt.sh` lorsque l'utilisateur cliquera sur le bouton "Relancer" ou automatiquement par le core lorsqu'il détectera que les dépendances ne sont soit pas installées, soit pas à jour.
 
 Mais comment le core connaît-il le statut et comment l'affiche-t-il dans le cadre ci-dessus? Grâce à la fonction `dependancy_info()` que nous devons rajouter dans notre class eqLogic.
 
@@ -671,9 +674,9 @@ Voici un exemple dont vous pouvez reprendre la majorité:
         if (file_exists(jeedom::getTmpFolder(__CLASS__) . '/dependency')) {
             $return['state'] = 'in_progress';
         } else {
-            if (exec(system::getCmdSudo() . system::get('cmd_check') . '-Ec "python3\-requests|python3\-voluptuous|python3\-bs4"') < 3) { // adapter la liste des paquets et le total
+            if (exec(system::getCmdSudo() . system::get('cmd_check') . '-Ec "python3\-requests|python3\-voluptuous|python3\-bs4"') < 3) { // adaptez la liste des paquets et le total
                 $return['state'] = 'nok';
-            } elseif (exec(system::getCmdSudo() . 'pip3 list | grep -Ewc "aiohttp"') < 1) { // adapter la liste des paquets et le total
+            } elseif (exec(system::getCmdSudo() . 'pip3 list | grep -Ewc "aiohttp"') < 1) { // adaptez la liste des paquets et le total
                 $return['state'] = 'nok';
             } else {
                 $return['state'] = 'ok';
@@ -683,8 +686,8 @@ Voici un exemple dont vous pouvez reprendre la majorité:
     }
 ```
 
-Dans cette exemple on test la présence de paquets apt: `system::getCmdSudo() . system::get('cmd_check') . '-Ec "python3\-requests|python3\-voluptuous|python3\-bs4"'`. Ici on veut `python3-requests`, `python3-voluptuous` et `python3-bs4` et donc la commande doit retourner 3 d'où la comparaison: ` < 3`.
+Dans cette exemple on test la présence de paquets apt: `system::getCmdSudo() . system::get('cmd_check') . '-Ec "python3\-requests|python3\-voluptuous|python3\-bs4"'`. Ici on veut `python3-requests`, `python3-voluptuous` et `python3-bs4` et donc la commande doit retourner 3 d'où la comparaison: `< 3`.
 
-Même chose pour les paquets python: `pip3 list | grep -Ewc "aiohttp"'`. La présent de `aiohttp` est validé, un seul paquet donc on compare: `< 1`;
+Même chose pour les paquets python: `pip3 list | grep -Ewc "aiohttp"'`. La présence de `aiohttp` est validé, un seul paquet donc on compare: `< 1`;
 
-Très simple et la liste des paquets et le total sont les seuls éléments que vous devez modifier si vous n'avez que ce type de vérification sinon il faut sera facile de rajouter les autres tests relevants dans votre cas.
+C'est donc très simple: la liste des paquets et le total sont les seuls éléments que vous devez modifier si vous n'avez que ce type de vérification sinon il faut sera facile de rajouter les autres tests relevants dans votre cas.
