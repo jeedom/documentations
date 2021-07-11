@@ -912,4 +912,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-07-10 02:08:24
+2021-07-11 02:08:04
