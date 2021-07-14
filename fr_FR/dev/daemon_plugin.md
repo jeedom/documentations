@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Dans les tutoriels et documentations de bases vous avez appris comment coder votre premier plugin avec des actions relativement simples déclenchées par l'utilisateur via une commande action ou par une tâche planifiée par le core (les crons).
+Dans le [tutoriel](/fr_FR/dev/tutorial_plugin) et la [documentation](/fr_FR/dev/plugin_template) vous avez appris comment coder votre premier plugin avec des actions relativement simples déclenchées par l'utilisateur via une commande action ou par une tâche planifiée par le core (les crons).
 Le plugin est alors capable de ponctuellement aller chercher de l'information (par exemple via requête http) ou de faire toute sortes d'opérations pour autant que cela puisse être codé en PHP.
 
 Il va arriver que vous ayez besoin de plus que cela, quelques exemples sans être exhaustif:
