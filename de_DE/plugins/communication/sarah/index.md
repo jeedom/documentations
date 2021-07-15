@@ -1,6 +1,6 @@
 # Sarah Plugin
 
-Plugin, mit dem Jeedom mit der SARAH-Anwendung kommunizieren kann (Spracherkennung). Machen Sie Sprachansagen und spielen Sie Sounds von Jeedom ab.
+Plugin, mit dem Jeedom mit der SARAH-Anwendung kommunizieren kann (Spracherkennung)). Machen Sie Sprachansagen und spielen Sie Sounds von Jeedom ab.
 
 # Konfiguration 
 
@@ -10,13 +10,13 @@ Das SARAH-Plugin fügt eine Spracherkennung hinzu, um mit Jeedom zu sprechen, ei
 
 Sobald das SARAH-Plugin auf Jeedom from the Market installiert ist, klicken Sie auf **Aktivieren**.
 
-Konfigurieren Sie Sarahs Namen (Standard **Sarah**, aber Sie können zum Beispiel Jarvis oder Jeedom setzen).
+Konfigurieren Sie Sarahs Namen (Standard **Sarah**, Aber Sie können zum Beispiel Jarvis oder Jeedom setzen).
 
 ![sarah1](./images/sarah1.PNG)
 
 Klicken Sie dann auf eine der Schaltflächen, um das Plugin herunterzuladen **Jeedom** Für die Version von SARAH, die Sie verwenden, v3 oder v4.
 
-Stoppen Sie nach dem Herunterladen den SARAH-Server und den Client. Entpacken Sie das Archiv im Ordner **Plugins** SARAH auf dem Client-Computer (nur Windows-kompatibel) :
+Stoppen Sie nach dem Herunterladen den SARAH-Server und den Client. Entpacken Sie das Archiv im Ordner **Plugins** SARAH auf der Client-Workstation (nur Windows-kompatibel) :
 <http://encausse.wordpress.com/s-a-r-a-h/>
 
 Wenn Sie fertig sind, können Sie den SARAH-Client und -Server neu starten..
@@ -66,7 +66,7 @@ Wenn Sie den Aktionsbefehl hinzugefügt haben "**Stellen Sie eine Anfrage**", Si
 -   **Frage** : Die Frage, die Jeedom Ihnen stellen soll.
 -   **Antwort** : Die Auswahl der Antworten, mit denen Sie nach der Frage interagieren möchten. Jede Antwort muss durch ein Semikolon getrennt werden.
 -   **Variable** : Dies ist der Name der Variablen, in der Ihre Antwort aufgezeichnet werden soll, damit Sie eine Bewertung für den Rest des Szenarios vornehmen können.
--   **Verzögerung (Sek.)** : Es ist die Zeit in Sekunden, bevor das Szenario die Auswertung fortsetzt, wenn keine Antwort gegeben wird (Timeout).
+-   **Verzögerung (sek)** : Dies ist die Zeit in Sekunden, bevor das Szenario die Auswertung fortsetzt, wenn keine Antwort erfolgt (Timeout)).
 -   **Befehle** : Wird bestellt "**Sagte**" Ihrer SARAH-Ausrüstung.
 
 # Konfiguration in SARAH. 

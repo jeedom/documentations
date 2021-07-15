@@ -1,6 +1,6 @@
 # Complemento Sarah
 
-Plugin que permite a Jeedom comunicarse con la aplicación SARAH (reconocimiento de voz). Hacer anuncios de voz y reproducir sonidos de Jeedom.
+Complemento que permite a Jeedom comunicarse con la aplicación SARAH (reconocimiento de voz). Hacer anuncios de voz y reproducir sonidos de Jeedom.
 
 # Configuración 
 
@@ -16,7 +16,7 @@ Configurar el nombre de Sarah (predeterminado **Sarah**, pero puedes poner Jarvi
 
 Luego haga clic en uno de los botones para descargar el complemento **Jeedom** para la versión de SARAH que está utilizando, v3 o v4.
 
-Una vez descargado, detenga el servidor SARAH y el cliente Descomprima el archivo en la carpeta **plugins** SARAH en la computadora cliente (solo compatible con Windows) :
+Una vez descargado, detenga el servidor SARAH y el cliente Descomprima el archivo en la carpeta **plugins** SARAH en la estación de trabajo del cliente (solo compatible con Windows) :
 <http://encausse.wordpress.com/s-a-r-a-h/>
 
 Cuando termine, puede reiniciar el cliente y el servidor SARAH..
@@ -27,7 +27,7 @@ Se puede acceder a la configuración del equipo SARAH desde el menú Complemento
 
 ![sarah2](./images/sarah2.PNG)
 
-Así es como se ve la página del complemento SARAH (Aquí, con 1 equipo ya) :
+Así es como se ve la página del complemento SARAH (Aquí, con 1 dispositivo ya) :
 
 ![sarah3](./images/sarah3.PNG)
 
@@ -66,7 +66,7 @@ Cuando haya agregado el comando de acción "**Hacer un pedido**", verá que 5 ca
 -   **Pregunta** : La pregunta que quieres que te haga Jeedom.
 -   **Respuesta** : La elección de las respuestas con las que desea poder interactuar después de la pregunta. Cada respuesta debe estar separada por un punto y coma.
 -   **Variable** : Este será el nombre de la variable en la que desea que se registre su respuesta, de modo que pueda hacer una evaluación para el resto del escenario.
--   **Retraso (seg.)** : Es el tiempo en segundos, antes de que el escenario continúe llevando a cabo la evaluación, si no se da respuesta (Tiempo de espera).
+-   **Retraso (seg)** : Este es el tiempo en segundos, antes de que el escenario continúe realizando la evaluación, si no se da respuesta (Tiempo de espera).
 -   **Comandos** : Será orden "**Dijo**" de su equipo SARAH.
 
 # Configuración en SARAH. 

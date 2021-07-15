@@ -1,6 +1,6 @@
 # Sarah plugin
 
-Plug-in que permite ao Jeedom se comunicar com o aplicativo SARAH (reconhecimento de voz). Faça anúncios de voz e reproduza sons do Jeedom.
+Plugin que permite ao Jeedom se comunicar com o aplicativo SARAH (reconhecimento de voz). Faça anúncios de voz e reproduza sons do Jeedom.
 
 # Configuração 
 
@@ -16,7 +16,7 @@ Configure o nome de Sarah (padrão **Sarah**, mas você pode colocar Jarvis ou J
 
 Em seguida, clique em um dos botões para baixar o plugin **Jeedom** para a versão do SARAH que você está usando, v3 ou v4.
 
-Após o download, pare o servidor e o cliente SARAH Descompacte o arquivo na pasta **Plugins** SARAH no computador cliente (apenas compatível com Windows) :
+Após o download, pare o servidor e o cliente SARAH Descompacte o arquivo na pasta **Plugins** SARAH na estação de trabalho do cliente (apenas compatível com Windows) :
 <http://encausse.wordpress.com/s-a-r-a-h/>
 
 Quando terminar, você pode reiniciar o cliente e o servidor SARAH..
@@ -27,7 +27,7 @@ A configuração do equipamento SARAH pode ser acessada no menu Plugins :
 
 ![sarah2](../images/sarah2.PNG)
 
-É assim que a página do plugin SARAH se parece (aqui, com 1 equipamento já) :
+É assim que a página do plugin SARAH se parece (aqui, com um dispositivo já existente) :
 
 ![sarah3](../images/sarah3.PNG)
 
@@ -66,7 +66,7 @@ Quando você adiciona o comando action "**Aplicar**", você verá 5 campos que p
 -   **Pergunta** : A pergunta que você deseja que o Jeedom faça.
 -   **Réponse** : A escolha das respostas que você deseja interagir após a pergunta. Cada resposta deve ser separada por ponto e vírgula.
 -   **Variável** : Esse será o nome da variável na qual você gostaria que sua resposta fosse registrada, para que você possa fazer uma avaliação para o restante do cenário.
--   **Atraso (s)** : É o tempo em segundos, antes que o cenário continue a realizar a avaliação, se nenhuma resposta for fornecida (Tempo limite).
+-   **Atraso (s)** : Este é o tempo em segundos, antes que o cenário continue a executar a avaliação, se nenhuma resposta for fornecida (Tempo limite).
 -   **Comandos** : Será ordem "**Disse**" do seu equipamento SARAH.
 
 # Configuração no SARAH. 

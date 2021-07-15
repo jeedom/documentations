@@ -16,7 +16,7 @@ Configure Sarah's name (default **Sarah**, but you can put Jarvis or Jeedom for 
 
 Then click on one of the buttons to download the plugin **Jeedom** for the version of SARAH you are using, v3 or v4.
 
-Once downloaded, stop the SARAH Server and Client Unzip the archive in the folder **Plugins** SARAH on the client computer (Windows compatible only) :
+Once downloaded, stop the SARAH Server and Client Unzip the archive in the folder **Plugins** SARAH on the client workstation (Windows compatible only) :
 <http://encausse.wordpress.com/s-a-r-a-h/>
 
 When done, you can restart the SARAH client and server..
@@ -27,7 +27,7 @@ The configuration of SARAH equipment is accessible from the Plugins menu :
 
 ![sarah2](./images/sarah2.PNG)
 
-This is what the SARAH plugin page looks like (Here, with 1 piece of equipment already) :
+This is what the SARAH plugin page looks like (Here, with already 1 device) :
 
 ![sarah3](./images/sarah3.PNG)
 
@@ -66,7 +66,7 @@ When you have added the action command "**Do a request**", you will see 5 fields
 -   **Question** : The question you want Jeedom to ask you.
 -   **Reply** : The choice of answers you want to be able to interact following the question. Each answer must be separated by a semicolon.
 -   **Variable** : This will be the name of the variable in which you would like your answer to be recorded, so that you can make an evaluation for the rest of the scenario.
--   **Delay (sec)** : It is The time in seconds, before the scenario continues to carry out the evaluation, if no response is given (Timeout).
+-   **Delay (sec)** : This is the time in seconds, before the scenario continues to perform the evaluation, if no response is given (Timeout).
 -   **Commands** : Will be order "**Said**" of your SARAH equipment.
 
 # Configuration in SARAH. 

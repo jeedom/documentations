@@ -17,7 +17,7 @@ Configurer le nom de Sarah (par défaut **Sarah**, mais vous pouvez mettre Jarvi
 Ensuite, cliquez sur l’un des boutons afin de télécharger le plugin **Jeedom** pour la version de S.A.R.A.H. que vous utilisez, v3 ou v4.
 
 Une fois téléchargé, arrêtez le Serveur et Client S.A.R.A.H. Décompressez l’archive dans le dossier **plugins** de S.A.R.A.H. sur le poste client (compatible Windows uniquement) :
-<http://encausse.wordpress.com/s-a-r-a-h/>
+<https://blog.encausse.net/sarah/>
 
 Quand c’est fait, vous pouvez redémarrer le client et le serveur S.A.R.A.H..
 

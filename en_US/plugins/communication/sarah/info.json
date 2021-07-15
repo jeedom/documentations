@@ -1,11 +1,33 @@
 {
     "id": "sarah",
     "name": "Sarah",
-    "description": "Plugin pour utiliser Sarah (http:\/\/encausse.wordpress.com\/s-a-r-a-h\/)",
+    "description": {
+        "fr_FR": "Plugin pour utiliser Sarah (http:\/\/encausse.wordpress.com\/s-a-r-a-h\/)",
+        "en_US": "Plugin to use Sarah (http:\/\/encausse.wordpress.com\/sarah\/)",
+        "es_ES": "Complemento para usar Sarah (http:\/\/encausse.wordpress.com\/sarah\/)",
+        "de_DE": "Plugin zur Verwendung von Sarah (http:\/\/encausse.wordpress.com\/sarah\/)",
+        "pt_PT": "Plug-in para usar Sarah (http:\/\/encausse.wordpress.com\/sarah\/)"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.0",
     "category": "communication",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/sarah\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/sarah\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/sarah\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }
