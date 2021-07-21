@@ -42,10 +42,10 @@ Puede probar desde un escenario / bloque de código si sus complementos tienen l
   si ($ countPlugins> 0) {
     si ($ countIncompatible> 0) {
       $scenario->setLog($author . ' : ' . $countIncompatibles . ' potentially incompatible Jeedom V4 plugin on ' . $countPlugins . ' checked');
-    } otro {
+    } demás {
       $scenario->setLog('All ' . $countPlugins . ' plugin developed by ' . $author . ' are Jeedom V4 compatible. Congratulations!');
     }
-  } otro {
+  } demás {
     $scenario->setLog('No plugin found for ' . $author);
   }
   {% endraw %}

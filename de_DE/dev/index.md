@@ -12,7 +12,7 @@ Ein [Entwicklerkonto](https://blog.jeedom.com/jeedom-partenaire/) ist erforderli
 - [Plugin veröffentlichen](/de_DE/dev/publication_plugin)
 - [Widget eines Plugins](/de_DE/dev/widget_plugin)
 - [Plugin Vorlage](/de_DE/dev/plugin_template)
-
+- [Daemon- und Plugin-Abhängigkeiten](/de_DE/dev/daemon_plugin)
 
 ### Kernentwicklungen und Plugin-Anpassungen
 

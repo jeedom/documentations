@@ -12,7 +12,7 @@ A [developer account](https://blog.jeedom.com/jeedom-partenaire/) is required to
 - [Publishing a plugin](/en_US/dev/publication_plugin)
 - [Widget of a plugin](/en_US/dev/widget_plugin)
 - [Plugin template](/en_US/dev/plugin_template)
-
+- [Daemon and plugin dependencies](/en_US/dev/daemon_plugin)
 
 ### Core evolutions and plugins adaptations
 

@@ -8,8 +8,8 @@ Odroid C2               | Estable                  |
 INTELIGENTE                   | Estable                  |                          
 RPI1                    | Estable                  |                          
 RPI2                    | Estable                  |                          
-RPI3                    | Estable                  | Atención si usas un wifi / bluetooth Razberry no funcionará
-RPI4                    | Estable                  | Atención si usas un wifi / bluetooth Razberry no funcionará
+RPI3                    | Estable                  | Tenga cuidado si está usando un Razberry, el wifi / bluetooth no podrá funcionar
+RPI4                    | Estable                  | Tenga cuidado si está usando un Razberry, el wifi / bluetooth no podrá funcionar
 64 bit                 | Estable                  |                          
 32 bit                 | No compatible            |                          
 VMware                  | Estable                  | No hay soporte para VMware, solo para Jeedom.
@@ -29,7 +29,7 @@ Puedes encontrar todas las imágenes de Jeedom [aquí](https://images.jeedom.com
 |----------------|----------------|----------------|----------------|----------------|---------------------|
 | Jeedomboard    | Jeedomboard y Hummingboard | Estable         | root / Mjeedom96 |                | [Jeedomboard](https://doc.jeedom.com/es_ES/installation/mini) |
 | INTELIGENTE          | Jeedom Smart   | Estable           | root / Mjeedom96 |                | [INTELIGENTE](https://doc.jeedom.com/es_ES/installation/smart) |
-| RPI            | RPI1 / 2/3/4     | Beta           | root / Mjeedom96 |  Para rpi es recomendable tomar la versión rpi-64 para RPI 2/3/4 (la imagen es un 20% más eficiente)              | [RPI](https://doc.jeedom.com/es_ES/installation/rpi) |
+| RPI            | RPI1 / 2/3/4     | Beta           | root / Mjeedom96 |  Para RPI, es aconsejable tomar la versión rpi-64 solo para RPI 4              | [RPI](https://doc.jeedom.com/es_ES/installation/rpi) |
 | x86_64         | Cualquier sistema x86_64 (Intel, AMD, VM...)               | Estable           | root / Mjeedom96 |                | [x86_64](https://doc.jeedom.com/es_ES/installation/vm) |
 | Estibador         |                | Beta           | root / Mjeedom96 |                | [Estibador](https://doc.jeedom.com/es_ES/installation/docker) |
 | Caja libre        | Freebox Delta  | Estable         | root / Mjeedom96 | Para instalar directamente desde Freebox               | [Caja libre](https://doc.jeedom.com/es_ES/installation/freeboxdelta) |

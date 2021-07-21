@@ -1,12 +1,10 @@
 # Description
 
-
 Aus jeedom v4.2 Es ist möglich, die Verwaltung der Abhängigkeiten Ihrer Plugins teilweise dem Kern anzuvertrauen. Es ist ziemlich einfach, einfach eine Datei zu erstellen ``packages.json`` im ``plugin_info``.
-
 
 # Exemples
 
-`` ``
+`` ``json
 {
   "apt" : {
     "git" : {},
@@ -39,8 +37,7 @@ Aus jeedom v4.2 Es ist möglich, die Verwaltung der Abhängigkeiten Ihrer Plugin
 }
 `` ``
 
-
-`` ``
+`` ``json
 {
   "apt" : {
     "libav-tools" : {"alternative" : ["ffmpeg"]},
@@ -54,8 +51,7 @@ Aus jeedom v4.2 Es ist möglich, die Verwaltung der Abhängigkeiten Ihrer Plugin
 }
 `` ``
 
-
-`` ``
+`` ``json
 {
   "apt" : {
     "python3" : {},
@@ -81,7 +77,7 @@ Aus jeedom v4.2 Es ist möglich, die Verwaltung der Abhängigkeiten Ihrer Plugin
 }
 `` ``
 
-`` ``
+`` ``json
 {
   "apt" : {
     "nodejs" : {}
@@ -94,13 +90,11 @@ Aus jeedom v4.2 Es ist möglich, die Verwaltung der Abhängigkeiten Ihrer Plugin
 
 Derzeit schafft er : ``apt``, ``nodejs (npm)`` , ``pip2`` und ``pip3``, mit der Möglichkeit, Skripte vor / nach der Installation zu starten und ihn zu bitten, Apache in der Post neu zu starten.
 
-Wenn die Datei vorhanden ist, basiert der Kern NUR auf IT, ignoriert er die Funktionen Dependancy_info und Dependancy_install. Es wird daher nur berechnet, ob aus dieser JSON-Datei etwas installiert werden muss oder nicht.
+Wenn die Datei vorhanden ist, basiert der Kern NUR darauf, er ignoriert die Funktionen `dependancy_info` und `dependancy_install`. Es wird daher nur berechnet, ob Pakete aus dieser JSON-Datei installiert werden müssen oder nicht.
 
 ## Nodejs
 
-Für nodejs ist es etwas Besonderes, jede Anforderung für nodejs oder npm wird überschrieben, um nodejs v12 unabhängig von der Plattform zu installieren. Dann gibt es 2 Möglichkeiten : 
+Für nodejs ist es etwas Besonderes, jede Anforderung für nodejs oder npm wird überschrieben, um nodejs v12 unabhängig von der Plattform zu installieren. Dann gibt es 2 Möglichkeiten :
 
 - In diesem Fall handelt es sich um einen Paketnamen, der global auf dem System installiert ist
-- In diesem Fall ist es ein Pfad, in dem jeedom in das betreffende Verzeichnis gestellt wird. Eine npm-Installation wird gestartet (mit Löschen des Verzeichnisses) ``node_modules``)
-
-
+- es ist ein Pfad in diesem Fall wird jeedom in das betreffende Verzeichnis gelegt wird eine npm-Installation gestartet (mit Löschen des Verzeichnisses) ``node_modules``)

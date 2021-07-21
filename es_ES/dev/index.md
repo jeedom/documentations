@@ -12,7 +12,7 @@ Una [cuenta de desarrollador](https://blog.jeedom.com/jeedom-partenaire/) es nec
 - [Publicar un complemento](/es_ES/dev/publication_plugin)
 - [Widget de un complemento](/es_ES/dev/widget_plugin)
 - [Plantilla de complemento](/es_ES/dev/plugin_template)
-
+- [Dependencias de demonios y complementos](/es_ES/dev/daemon_plugin)
 
 ### Evoluciones principales y adaptaciones de complementos
 

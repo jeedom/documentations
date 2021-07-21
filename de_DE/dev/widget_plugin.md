@@ -40,7 +40,7 @@ Vohier un exemple :
 			array('operation' => '#value# > 3 || #value# < 2','state' => '<i class="fa fa-home"></i>')
 		)
 	);;
-	return $ return;
+	zurück $ zurück;
 }
 ````
 
@@ -66,7 +66,7 @@ Ein anderes Beispiel, das auf einer anderen Vorlage basiert, könnte sein :
 			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
 			)
 	);;
-	return $ return;
+	zurück $ zurück;
 }
 ````
 

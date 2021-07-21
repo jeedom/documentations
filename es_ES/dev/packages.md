@@ -1,12 +1,10 @@
 # Description
 
-
 De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias de sus complementos al núcleo. Es bastante simple, solo crea un archivo ``packages.json`` dentro ``plugin_info``.
-
 
 # Exemples
 
-`` ``
+`` ``json
 {
   "apt" : {
     "git" : {},
@@ -39,8 +37,7 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
 }
 `` ``
 
-
-`` ``
+`` ``json
 {
   "apt" : {
     "libav-tools" : {"alternative" : ["ffmpeg"]},
@@ -54,8 +51,7 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
 }
 `` ``
 
-
-`` ``
+`` ``json
 {
   "apt" : {
     "python3" : {},
@@ -81,7 +77,7 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
 }
 `` ``
 
-`` ``
+`` ``json
 {
   "apt" : {
     "nodejs" : {}
@@ -94,13 +90,11 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
 
 Actualmente maneja : ``apt``, ``nodejs (npm)`` , ``pip2`` y ``pip3``, con la posibilidad de ejecutar scripts previos / posteriores a la instalación y pedirle que reinicie Apache en la publicación.
 
-Si el archivo está presente, el núcleo se basa ÚNICAMENTE EN ÉL, ignora las funciones dependdancy_info y dependdancy_install. Por lo tanto, solo calculará si hay algo para instalar o no de este archivo json.
+Si el archivo está presente, el núcleo se basa SOLAMENTE EN ÉL, ignora las funciones `dependdancy_info` y` dependdancy_install`. Por lo tanto, solo calculará si hay paquetes para instalar o no desde este archivo json.
 
 ## Nodejs
 
-Para nodejs es un poco especial, cualquier solicitud de nodejs o npm se anula para instalar nodejs v12 sea cual sea la plataforma. Entonces hay 2 posibilidades : 
+Para nodejs es un poco especial, cualquier solicitud de nodejs o npm se anula para instalar nodejs v12 sea cual sea la plataforma. Entonces hay 2 posibilidades :
 
 - es un nombre de paquete en este caso está instalado globalmente en el sistema
 - es una ruta en este caso jeedom se coloca en el directorio en cuestión se inicia una instalación npm (con la eliminación del directorio ``node_modules``)
-
-
