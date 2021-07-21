@@ -12,7 +12,7 @@ Un [compte développeur](https://blog.jeedom.com/jeedom-partenaire/) est nécess
 - [Publication d'un plugin](/fr_FR/dev/publication_plugin)
 - [Widget d'un plugin](/fr_FR/dev/widget_plugin)
 - [Plugin template](/fr_FR/dev/plugin_template)
-
+- [Démon et dépendances d'un plugin](/fr_FR/dev/daemon_plugin)
 
 ### Évolutions du Core et adaptations des plugins
 
