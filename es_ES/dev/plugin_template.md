@@ -352,7 +352,7 @@ $('#md_modal').dialog({title: "{{Classe du périphérique}}"}).load('index.php?v
 
 La première ligne permet de mettre un titre à votre modal
 
-La deuxième ligne charge votre modal et l'affichage. La sintaxis es bastante simple : plugin, l'identificación de votre plugin, modal, le nom de votre modal sans le php et ensuite les paramètres que vous voulez lui passer
+La deuxième ligne charge votre modal et l'affichage. La sintaxis es bastante simple : plugin, l'Identificación de votre plugin, modal, le nom de votre modal sans le php et ensuite les paramètres que vous voulez lui passer
 
 ## API JS
 
@@ -416,7 +416,7 @@ Esta carpeta es para todos sus archivos ajax, aquí hay un esqueleto de archivo 
  * junto con Jeedom. If not, see <http:/ // /www.gnu.org/ /licenses/ />.
  */ /
 
-intentar {
+tratar {
     require_once dirname (__ FILE__). '/../../../../core/php/core.inc.php';
     include_file ('núcleo', 'autenticación', 'php');
 
@@ -467,7 +467,7 @@ La première devant hériter de la classe eqLogic et la deuxième de cmd. Voaqu�
 / /* * ***************************Includes********************************* */ /
 require_once dirname (__ FILE__). '/../../../../core/php/core.inc.php';
 
-class plugin_identificación extends eqLogic {
+class plugin_Identificación extends eqLogic {
 
     / /*     * *************************Attributs****************************** */ /
 
@@ -653,7 +653,7 @@ Aquí reemplace las etiquetas rellenadas previamente en \ $ replace HTML para co
 $html_forecast .= template_replace($replace, $forcast_template);
 ````
 
-Cela permet de récupérer la commande ayant le logical\_identificación : temperature\_min
+Cela permet de récupérer la commande ayant le logical\_Identificación : temperature\_min
 
 ````php
 $this->getCmd(null, 'temperature_min');
@@ -737,7 +737,7 @@ función pública postUpdate() {
 }
 ````
 
-Le début est assez standard avec la création d'une commande, la fin est plus intéressante avec la mise en place d'un cron qui va appeler la méthode ``weather::updateWeatherData`` en passant l'identificación de l'équipement à mettre à jour toute les 30min par défaut.
+Le début est assez standard avec la création d'une commande, la fin est plus intéressante avec la mise en place d'un cron qui va appeler la méthode ``weather::updateWeatherData`` en passant l'Identificación de l'équipement à mettre à jour toute les 30min par défaut.
 
 Ici la méthode updateWeatherData (simplifiée aussi) :
 

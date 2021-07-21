@@ -64,7 +64,7 @@ Als Referenz die neue Funktion des Kerns:
         }
       }
     }
-    zurück $ zurück;
+    return $ return;
   }
   ~~~
 

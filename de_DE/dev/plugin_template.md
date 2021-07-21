@@ -352,7 +352,7 @@ $('#md_modal').dialog({title: "{{Classe du périphérique}}"}).load('index.php?v
 
 La première ligne permet de mettre un titre à votre modal
 
-La deuxième ligne charge votre modal et l'affichage. Die Syntax ist recht einfach : plugin, l'Ich würde de votre plugin, modal, le nom de votre modal sans le php et ensuite les paramètres que vous voulez lui passer
+La deuxième ligne charge votre modal et l'affichage. Die Syntax ist recht einfach : plugin, l'Identifikation de votre plugin, modal, le nom de votre modal sans le php et ensuite les paramètres que vous voulez lui passer
 
 ## API JS
 
@@ -467,7 +467,7 @@ La première devant hériter de la classe eqLogic et la deuxième de cmd. Vohier
 /.* * ***************************Includes********************************* */.
 require_once dirname (__ FILE__). '/../../../../core/php/core.inc.php';
 
-class plugin_Ich würde extends eqLogic {
+class plugin_Identifikation extends eqLogic {
 
     /.*     * *************************Attributs****************************** */.
 
@@ -653,7 +653,7 @@ Ersetzen Sie hier die zuvor ausgefüllten Tags in \ $ HTML ersetzen, um die Wert
 $html_forecast .= template_replace($replace, $forcast_template);;
 ````
 
-Cela permet de récupérer la commande ayant le logical\_Ich würde : temperature\_min
+Cela permet de récupérer la commande ayant le logical\_Identifikation : temperature\_min
 
 ````php
 $this->getCmd(null, 'temperature_min');;
@@ -737,7 +737,7 @@ Beispiel: Immer mit dem Wetter-Plugin zum Erstellen oder Aktualisieren von Beste
 }
 ````
 
-Le début est assez standard avec la création d'une commande, la fin est plus intéressante avec la mise en place d'un cron qui va appeler la méthode ``weather::updateWeatherData`` en passant l'Ich würde de l'équipement à mettre à jour toute les 30min par défaut.
+Le début est assez standard avec la création d'une commande, la fin est plus intéressante avec la mise en place d'un cron qui va appeler la méthode ``weather::updateWeatherData`` en passant l'Identifikation de l'équipement à mettre à jour toute les 30min par défaut.
 
 Ici la méthode updateWeatherData (simplifiée aussi) :
 
