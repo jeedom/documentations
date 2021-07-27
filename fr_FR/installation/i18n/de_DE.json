@@ -354,7 +354,7 @@
         "Vous retrouvez les images": "Sie finden die Bilder",
         "Il y 2 images": "Es gibt 2 Bilder",
         "zip qui est en 32bits, elle est compatible avec les modèles de Raspberry PI de génération 2 et 3 et jeedom-debian-XXXX-rpi-64": "Der 32-Bit-Reißverschluss ist kompatibel mit Raspberry PI-Modellen der Generationen 2 und 3 und jeedom-debian-XXXX-rpi-64",
-        "zip qui est en 64bits, elle est compatible uniquement pour les Raspberry Pi4": "zip ist in 64bit, es ist nur für Raspberry Pi4 kompatibel",
+        "zip qui est en 64bits, elle est compatible uniquement pour les Raspberry Pi4 et est en alpha (non recommandé": "zip, das in 64bits ist, ist es nur für Raspberry Pi4 kompatibel und ist in Alpha (nicht empfohlen)",
         "Raspberry Pi imager permet de télécharger directement l'image d'installation de Raspberry Pi OS, dans sa version la plus récente": "Mit dem Raspberry Pi Imager können Sie das Installationsimage von Raspberry Pi OS in der neuesten Version direkt herunterladen",
         "Gravez cette image sur une carte MicroSD avec Raspberry Pi Imager par exemple": "Brennen Sie dieses Bild beispielsweise mit dem Raspberry Pi Imager auf eine MicroSD-Karte",
         "Vous pouvez le télécharger": "Sie können es herunterladen",

@@ -17,7 +17,7 @@ Sie finden die Bilder [hier](https://images.jeedom.com/rpi/)
 
 > **Wichtig**
 >
->Es gibt 2 Bilder : jeedom-debian-XXXX-rpi-X.X.XX.Der 32-Bit-Reißverschluss ist kompatibel mit Raspberry PI-Modellen der Generationen 2 und 3 und jeedom-debian-XXXX-rpi-64-X.X.XX.zip ist in 64bit, es ist nur für Raspberry Pi4 kompatibel.
+>Es gibt 2 Bilder : jeedom-debian-XXXX-rpi-X.X.XX.Der 32-Bit-Reißverschluss ist kompatibel mit Raspberry PI-Modellen der Generationen 2 und 3 und jeedom-debian-XXXX-rpi-64-X.X.XX.zip, das in 64bits ist, ist es nur für Raspberry Pi4 kompatibel und ist in Alpha (nicht empfohlen)).
 
 Mit dem Raspberry Pi Imager können Sie das Installationsimage von Raspberry Pi OS in der neuesten Version direkt herunterladen.
 

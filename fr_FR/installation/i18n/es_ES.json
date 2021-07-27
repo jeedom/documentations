@@ -354,7 +354,7 @@
         "Vous retrouvez les images": "Encuentras las imagenes",
         "Il y 2 images": "Hay 2 imágenes",
         "zip qui est en 32bits, elle est compatible avec les modèles de Raspberry PI de génération 2 et 3 et jeedom-debian-XXXX-rpi-64": "zip que está en 32bits, es compatible con los modelos Raspberry PI de generación 2 y 3 y jeedom-debian-XXXX-rpi-64",
-        "zip qui est en 64bits, elle est compatible uniquement pour les Raspberry Pi4": "zip que está en 64 bits, es compatible solo para Raspberry Pi4",
+        "zip qui est en 64bits, elle est compatible uniquement pour les Raspberry Pi4 et est en alpha (non recommandé": "zip que está en 64 bits, es compatible solo para Raspberry Pi4 y está en alfa (no recomendado",
         "Raspberry Pi imager permet de télécharger directement l'image d'installation de Raspberry Pi OS, dans sa version la plus récente": "Raspberry Pi imager le permite descargar directamente la imagen de instalación del sistema operativo Raspberry Pi, en su versión más reciente",
         "Gravez cette image sur une carte MicroSD avec Raspberry Pi Imager par exemple": "Grabe esta imagen en una tarjeta MicroSD con Raspberry Pi imager por ejemplo",
         "Vous pouvez le télécharger": "Puedes descargarlo",

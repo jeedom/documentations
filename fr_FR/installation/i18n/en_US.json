@@ -354,7 +354,7 @@
         "Vous retrouvez les images": "You find the images",
         "Il y 2 images": "There are 2 images",
         "zip qui est en 32bits, elle est compatible avec les modèles de Raspberry PI de génération 2 et 3 et jeedom-debian-XXXX-rpi-64": "zip which is in 32bits, it is compatible with Raspberry PI models of generation 2 and 3 and jeedom-debian-XXXX-rpi-64",
-        "zip qui est en 64bits, elle est compatible uniquement pour les Raspberry Pi4": "zip which is in 64bits, it is compatible only for Raspberry Pi4",
+        "zip qui est en 64bits, elle est compatible uniquement pour les Raspberry Pi4 et est en alpha (non recommandé": "zip which is in 64bits, it is compatible only for Raspberry Pi4 and is in alpha (not recommended",
         "Raspberry Pi imager permet de télécharger directement l'image d'installation de Raspberry Pi OS, dans sa version la plus récente": "Raspberry Pi imager allows you to directly download the installation image of Raspberry Pi OS, in its most recent version",
         "Gravez cette image sur une carte MicroSD avec Raspberry Pi Imager par exemple": "Burn this image on a MicroSD card with Raspberry Pi imager for example",
         "Vous pouvez le télécharger": "You can download it",
