@@ -1,11 +1,33 @@
 {
     "id": "dyndns",
     "name": "Dyndns",
-    "description": "Plugin pour mettre à jour dynamiquement des DNS",
+    "description": {
+        "fr_FR": "Plugin pour mettre à jour dynamiquement des DNS",
+        "en_US": "Plugin to dynamically update DNS",
+        "es_ES": "Complemento para actualizar dinámicamente DNS",
+        "de_DE": "Plugin zum dynamischen Aktualisieren von DNS",
+        "pt_PT": "Plug-in para atualizar dinamicamente o DNS"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.0",
     "category": "programming",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/dyndns\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/dyndns\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/dyndns\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

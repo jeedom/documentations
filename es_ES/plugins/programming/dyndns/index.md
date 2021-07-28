@@ -1,6 +1,6 @@
 # Complemento DynDNS
 
-Este complemento permite actualizar un servicio DNS dinámico (dyndns, noip, duckdns, ...)
+Este complemento le permite actualizar un servicio DNS dinámico (dyndns, noip, duckdns,)
 
 # Configuración del plugin 
 
@@ -24,14 +24,14 @@ Una vez que haces clic en uno de ellos, obtienes :
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nombre de l'équipement DynDNS** : nombre de su equipo DynDns,
+-   **Nombre del equipo dyndns** : nombre de su equipo DynDns,
 -   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
 -   **Categoría** : categorías de equipos (puede pertenecer a varias categorías),
 -   **Activar** : activa su equipo,
 -   **Visible** : hace que su equipo sea visible en el tablero,
 -   **Servicio** : El nombre del servicio utilizado (dyndns.org, noip.com)
--   **Nombre de host** : Nombre DNS completo para actualizar (por ejemplo, toto.ddns.net)
--   **Nombre d'utilisateur** : nombre de usuario en el servicio en cuestión
+-   **Nombre de host** : nombre completo del DNS para actualizar (por ejemplo, toto.ddns.net)
+-   **Nombre de usuario** : nombre de usuario en el servicio en cuestión
 -   **Contraseña** : contraseña en el servicio en cuestión
 -   **Simbólico** : ficha utilizada para duckdns
 

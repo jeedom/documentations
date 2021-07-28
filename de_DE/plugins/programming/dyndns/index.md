@@ -1,6 +1,6 @@
 # DynDNS-Plugin
 
-Mit diesem Plugin können Sie einen dynamischen DNS-Dienst aktualisieren (Dyndns, Noip, Duckdns,…)
+Mit diesem Plugin können Sie einen dynamischen DNS-Dienst (Dyndns, Noip, Duckdns,)
 
 # Plugin Konfiguration 
 
@@ -14,7 +14,7 @@ Auf die Konfiguration der Dyndns-Geräte kann über das Plugin-Menü zugegriffen
 
 ![dyndns2](./images/dyndns2.PNG)
 
-So sieht die Dyndns-Plugin-Seite aus (hier mit bereits 1 Gerät) :
+So sieht die Dyndns-Plugin-Seite aus (hier mit bereits 1 Gerät)) :
 
 ![dyndns3](./images/dyndns3.PNG)
 
@@ -24,14 +24,14 @@ Sobald Sie auf eine davon klicken, erhalten Sie :
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name de l'équipement DynDNS** : Name Ihres DynDns-Geräts,
+-   **Gerätename dyndns** : Name Ihres DynDns-Geräts,
 -   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
 -   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören),
 -   **Aktivieren** : macht Ihre Ausrüstung aktiv,
 -   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
 -   **Service** : Der Name des verwendeten Dienstes (dyndns.org, noip.com)
--   **Host-Namen** : vollständiger zu aktualisierender DNS-Name (z. B. toto.ddns.net)
--   **Name d'utilisateur** : Benutzername des betreffenden Dienstes
+-   **Host-Namen** : vollständiger Name des zu aktualisierenden DNS (z. B. toto.ddns.net))
+-   **Benutzername** : Benutzername des betreffenden Dienstes
 -   **Passwort** : Passwort für den betreffenden Dienst
 -   **Zeichen** : Token für Enten
 

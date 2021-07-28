@@ -1,6 +1,6 @@
 # DynDNS plugin
 
-This plugin allows you to update a dynamic DNS service (dyndns, noip, duckdns,…)
+This plugin allows you to update a dynamic DNS service (dyndns, noip, duckdns,)
 
 # Plugin configuration 
 
@@ -14,7 +14,7 @@ The configuration of Dyndns equipment is accessible from the plugin menu :
 
 ![dyndns2](./images/dyndns2.PNG)
 
-This is what the Dyndns plugin page looks like (here with 1 device already) :
+This is what the Dyndns plugin page looks like (here with already 1 device) :
 
 ![dyndns3](./images/dyndns3.PNG)
 
@@ -24,14 +24,14 @@ Once you click on one of them, you get :
 
 Here you find all the configuration of your equipment :
 
--   **Name de l'équipement DynDNS** : name of your DynDns equipment,
+-   **Name of Dyndns Equipment** : name of your DynDns equipment,
 -   **Parent object** : indicates the parent object to which the equipment belongs,
 -   **Category** : equipment categories (it can belong to several categories),
 -   **Activate** : makes your equipment active,
 -   **Visible** : makes your equipment visible on the dashboard,
--   **Service** : The name of the service used (dyndns.org, noip.com
--   **Hostname** : full DNS name to update (eg toto.ddns.net)
--   **Name d'utilisateur** : username on the service in question
+-   **Service** : The name of the service used (dyndns.org, noip.com)
+-   **Hostname** : full name of the DNS to update (e.g. toto.ddns.net)
+-   **Username** : username on the service in question
 -   **Password** : password on the service in question
 -   **Token** : token used for duckdns
 
