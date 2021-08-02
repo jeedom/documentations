@@ -5,7 +5,7 @@
 -	**deCONZ** : Testé et validé par l’équipe Jeedom. *(Il n’est pas nécessaire d'installer l'application deCONZ)*
 -	**EZSP (Silicon Labs)** : Testé, validé et recommandé par l’équipe Jeedom.
 -	**XBee** : Non testé par l’équipe Jeedom.
--	**Zigate** : Non testé par l’équipe. 
+-	**Zigate** : Non testé par l’équipe.
 -	**ZNP (Texas Instruments)** : Non testé par l’équipe.
 
 De plus, le plugin est doté de nombreux outils permettant :
@@ -19,6 +19,13 @@ De plus, le plugin est doté de nombreux outils permettant :
 - la prise en charge du **binding**,
 - la prise en charge de **Touchlink**,
 - ou encore d'intégrer ses propres configurations pour les plus aguerris...
+
+>**TRES IMPORTANT**
+>
+> Du à la valse des firmware/hardware coté fabricant et des bugs possible dans leur firmware (sans avoir forcement la possibilité de le mettre à jour depuis Jeedom car la pluspart des fabricant ne les communiques pas) il se peut qu'un module marqué compatible ne le soit que partiellement (un bouton qui marche pas, ou pas de difference entre le bouton haut et pas, pas de remonté de CO2 ou d'un capteur du module...). Nous ne pouvons malheureusement pas vous prévenir à l'avance dans la liste car : 
+>- nous n'avons pas forcement le module en question, beaucoup de module sont ajouter par les retours utilisateurs
+>- d'une semaine à l'autre le module peut avoir changé (nouveau hardware, nouveau firmware ou meme nouveau module qui n'a pas changé de nom)
+>En aucun cas Jeedom ne pourra etre tenu responsable en cas de fonction manquante (ou meme de module ne marchant pas) alors qu'il est indiqué compatible, nous subissons comme vous les changements imposé par le fabricant
 
 # Configuration
 
@@ -201,9 +208,9 @@ La technologie Greenpower est supportée par le plugin (patch de zigpy qui ne le
 
 >**IMPORTANT**
 >
->Pour le moment le Greenpower ne marche qu'avec les clef de type EZSP (Elelabs, popp...). Le support de deconz arrivera plus tard 
+>Pour le moment le Greenpower ne marche qu'avec les clef de type EZSP (Elelabs, popp...). Le support de deconz arrivera plus tard
 
-Pour ajouter un module Greenpower 2 possibilités : 
+Pour ajouter un module Greenpower 2 possibilités :
 
 - passer en mode inclusion, appuyer sur un bouton du module. Attention cela correspond à un ajout non securisé (n'importe qui qui intercept la trame du module peut la renvoyer à votre Jeedom)
 - lire le QRcode du module et recopier la chaine dans la partie "Commissioning" de Jeedom. Cela correspond à un ajout securisé (la clef de cryptage et dans le QRcode)
@@ -254,6 +261,10 @@ Malheureusement cela est dû à la manière dont la fabricant a prévu l'intégr
 
 Pour finir et même si cela peut paraître évident pour certains, nous rappelons que les passerelles Zigbee en Wifi ou distantes sont par définition moins fiables que les passerelles USB. L'équipe Jeedom conseille donc l'utilisation d'une passerelle Zigbee en USB.  
 
+# Changement de la clef Zigbee
+
+Si pour un démon donné (1,2 ou 3) vous changer la clef Zigbee sans restaurer un backup de l'ancienne sur la nouvelle alors il faut supprimeer les données au niveau du demon (bouton "Supprimer les données"). Cela ne supprime pas les équipements de Jeedom ca vide juste la base de données Zigbee du demon. Attention cette opération est irréversible
+
 # FAQ
 
 >**Le LQI ou le RSSI est à N/A**
@@ -288,6 +299,6 @@ Pour finir et même si cela peut paraître évident pour certains, nous rappelon
 
 >**je n'arrive pas à inclure de nouveaux modules**
 >
->Plusieurs possibilités pour cela : 
+>Plusieurs possibilités pour cela :
 >- Vous avez deja beaucoup de module et avez dépassé la limite du nombre de module en direct (31 en général). Il faut soit mettre une autre clef Zigbee (le plugin en géere jusqu'a 3) soit essayé en ajoutant des noeud routeur (attention il n'y a pas de norme clair sur les noeuds routeur il y a donc des incompatibilité entre fabricant...)
 >- Vous etes sous Conbee : essayez de debrancher la clef pendant 2 minutes, de la remettre et relancer le demon, c'est une maladie connu des clef Conbee (meme sous deconz) ou il faut un cold reboot pour que l'inclusion remarche

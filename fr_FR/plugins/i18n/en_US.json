@@ -1477,6 +1477,8 @@
         "Plugin permettant l'affichage des caméras IP. L'affichage vidéo de la caméra s'effectue par snapshots (captures) successives toutes les secondes": "Plugin allowing the display of IP cameras. The video display of the camera is carried out by successive snapshots (captures) every second",
         "Constituez votre alarme facilement (sans programmation), complète et personnalisable": "Build your alarm easily (without programming), complete and customizable",
         "Plugin pour la gestion de la sécurité": "Security management plugin",
+        "Ajax Systeme": "Ajax System",
+        "Plugin servant à se connecter à une alarme Ajax": "Plugin used to connect to an Ajax alarm",
         "Sécurité": "Security",
         "Seuls les plugins officiels ont leur documentation ici": "Only official plugins have their documentation here",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "You can consult the documentation of the other plugins directly from the Jeedom Market",

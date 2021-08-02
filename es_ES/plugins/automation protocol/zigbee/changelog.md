@@ -8,6 +8,16 @@
 >
 >Para conocer el nuevo módulo compatible tienes que ir [la](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (está ordenado por fecha de adición / modificación)
 
+- Adición de un nuevo módulo compatible
+- Adición de un botón para borrar todos los datos de un demonio (ver documentación)
+- Se corrigió un error en la administración de grupos cuando varias llaves zigbee
+
+
+# 01/07/2021
+
+- Adición de un nuevo módulo compatible
+- Optimización de configuraciones existentes sobre la gestión de repeticiones
+
 # 09/06/2021
 
 - Cambio de la fuente de actualización OTA para Ikea (cambiar a la rama estable)

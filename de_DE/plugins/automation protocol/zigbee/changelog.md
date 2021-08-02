@@ -8,6 +8,16 @@
 >
 >Um das neue kompatible Modul zu kennen, müssen Sie gehen [das](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (Es ist nach dem Datum sortiert, an dem es hinzugefügt / geändert wurde)
 
+- Hinzufügung eines neuen kompatiblen Moduls
+- Hinzufügen einer Schaltfläche zum Löschen aller Daten eines Daemons (siehe Dokumentation)
+- Fehler in der Gruppenverwaltung behoben, wenn mehrere Zigbee-Tasten vorhanden waren
+
+
+# 01.07.2021
+
+- Hinzufügung eines neuen kompatiblen Moduls
+- Optimierung bestehender Konfigurationen auf das Management von Wiederholungen
+
 # 09.06.2021
 
 - Änderung der OTA-Update-Quelle für Ikea (Wechsel in den stabilen Zweig)

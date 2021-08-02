@@ -5,7 +5,7 @@
 -	**Deconz** : Probado y validado por el equipo de Jeedom. *(No es necesario instalar la aplicación deCONZ)*
 -	**EZSP (laboratorios de silicio)** : Probado, validado y recomendado por el equipo de Jeedom.
 -	**XBee** : No probado por el equipo de Jeedom.
--	**Zigate** : No probado por el equipo. 
+-	**Zigate** : No probado por el equipo.
 -	**ZNP (Texas Instruments)** : No probado por el equipo.
 
 Además, el complemento está equipado con muchas herramientas que permiten :
@@ -19,6 +19,13 @@ Además, el complemento está equipado con muchas herramientas que permiten :
 - la administración de **Unión**,
 - hacerse cargo de **Touchlink**,
 - o incluso para integrar sus propias configuraciones para los más experimentados...
+
+>**MUY IMPORTANTE**
+>
+> Debido al vals del lado del fabricante del firmware / hardware y posibles bugs en su firmware (sin necesariamente tener la posibilidad de actualizarlo desde Jeedom porque la mayoría de los fabricantes no los comunican) es posible que un módulo marcado como compatible tampoco lo haga solo parcialmente (un botón que no funciona, o no hay diferencia entre el botón arriba y no, no hay aumento de CO2 o un sensor del módulo...). Desafortunadamente, no podemos advertirle con anticipación en la lista porque : 
+>- no necesariamente tenemos el módulo en cuestión, muchos módulos se agregan por comentarios de los usuarios
+>- de una semana a otra el módulo puede haber cambiado (nuevo hardware, nuevo firmware o incluso nuevo módulo que no ha cambiado de nombre)
+>En ningún caso Jeedom se hace responsable en el caso de que falte una función (o incluso un módulo que no funcione) cuando se indique como compatible, como lo hace, estamos sujetos a los cambios impuestos por el fabricante
 
 # Configuration
 
@@ -201,9 +208,9 @@ La tecnología Greenpower es compatible con el complemento (parche zigpy que aú
 
 >**Importante**
 >
->Por el momento, Greenpower solo funciona con llaves tipo EZSP (Elelabs, popp...). El soporte de Deconz llegará más tarde 
+>Por el momento, Greenpower solo funciona con llaves tipo EZSP (Elelabs, popp...). El soporte de Deconz llegará más tarde
 
-Para agregar un módulo Greenpower 2 posibilidades : 
+Para agregar un módulo Greenpower 2 posibilidades :
 
 - cambiar al modo de inclusión, presione un botón en el módulo. Tenga en cuenta que esto corresponde a una adición no segura (cualquiera que intercepte el marco del módulo puede enviarlo de vuelta a su Jeedom)
 - lea el código QR del módulo y copie la cadena en la parte "Puesta en servicio" de Jeedom. Esto corresponde a una adición segura (la clave de cifrado y en el código QR)
@@ -254,6 +261,10 @@ Desafortunadamente, esto se debe a la forma en que el fabricante ha planeado la 
 
 Finalmente, e incluso si puede parecer obvio para algunos, te recordamos que las pasarelas Zigbee en Wifi o remotas son por definición menos confiables que las pasarelas USB. Por lo tanto, el equipo de Jeedom recomienda el uso de una puerta de enlace Zigbee en USB.  
 
+# Cambio de clave Zigbee
+
+Si para un daemon dado (1, 2 o 3) cambia la clave Zigbee sin restaurar una copia de seguridad de la antigua en la nueva, entonces es necesario borrar los datos a nivel del daemon (botón "Eliminar datos"). Esto no elimina el equipo de Jeedom, solo vacía la base de datos Zigbee del demonio. Tenga en cuenta que esta operación es irreversible
+
 # FAQ
 
 >**LQI o RSSI es N / A**
@@ -288,6 +299,6 @@ Finalmente, e incluso si puede parecer obvio para algunos, te recordamos que las
 
 >**No puedo incluir nuevos módulos**
 >
->Varias posibilidades para esto : 
+>Varias posibilidades para esto :
 >- Ya tienes muchos mods y has excedido el límite del número de mods en vivo (31 en general). Debe poner otra clave Zigbee (el complemento administra hasta 3) o intentar agregar nodos de enrutador (tenga cuidado de que no haya un estándar claro en los nodos de enrutador, por lo que hay incompatibilidades entre los fabricantes...)
 >- Estás bajo Conbee : intente desconectar la clave durante 2 minutos, vuelva a colocarla y reinicie el demonio, es una enfermedad conocida de la clave Conbee (incluso bajo deconz) o necesita un reinicio en frío para que la inclusión funcione

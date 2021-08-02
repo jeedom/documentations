@@ -5,7 +5,7 @@
 -	**Deconz** : Tested and validated by the Jeedom team. *(It is not necessary to install the deCONZ application)*
 -	**EZSP (Silicon Labs)** : Tested, validated and recommended by the Jeedom team.
 -	**XBee** : Not tested by the Jeedom team.
--	**Zigate** : Not tested by the team. 
+-	**Zigate** : Not tested by the team.
 -	**ZNP (Texas Instruments)** : Not tested by the team.
 
 In addition, the plugin is equipped with many tools allowing :
@@ -19,6 +19,13 @@ In addition, the plugin is equipped with many tools allowing :
 - the management of **Binding**,
 - taking charge of **Touchlink**,
 - or even to integrate its own configurations for the most seasoned...
+
+>**VERY IMPORTANT**
+>
+> Due to the waltz of firmware / hardware on the manufacturer's side and possible bugs in their firmware (without necessarily having the possibility of updating it from Jeedom because most of the manufacturers do not communicate them) it is possible that a module marked compatible does not either only partially (a button that does not work, or no difference between the up button and not, no CO2 rise or a sensor of the module...). Unfortunately, we cannot warn you in advance in the list because : 
+>- we do not necessarily have the module in question, many modules are added by user feedback
+>- from one week to another the module may have changed (new hardware, new firmware or even new module which has not changed its name)
+>Under no circumstances can Jeedom be held responsible in the event of a missing function (or even a module that does not work) when it is indicated as compatible, as you do, we are subject to the changes imposed by the manufacturer
 
 # Configuration
 
@@ -201,9 +208,9 @@ Greenpower technology is supported by the plugin (zigpy patch which does not sup
 
 >**Important**
 >
->For the moment, Greenpower only works with EZSP type keys (Elelabs, popp...). Deconz support will come later 
+>For the moment, Greenpower only works with EZSP type keys (Elelabs, popp...). Deconz support will come later
 
-To add a Greenpower module 2 possibilities : 
+To add a Greenpower module 2 possibilities :
 
 - switch to inclusion mode, press a button on the module. Please note that this corresponds to an unsecured addition (anyone who intercepts the frame of the module can send it back to your Jeedom)
 - read the module's QRcode and copy the string in the "Commissioning" part of Jeedom. This corresponds to a secure addition (the encryption key and in the QRcode)
@@ -254,6 +261,10 @@ Unfortunately this is due to the way in which the manufacturer has planned the i
 
 Finally, and even if it may seem obvious to some, we remind you that Zigbee gateways in Wifi or remote are by definition less reliable than USB gateways. The Jeedom team therefore recommends the use of a Zigbee gateway in USB.  
 
+# Zigbee key change
+
+If for a given daemon (1, 2 or 3) you change the Zigbee key without restoring a backup of the old one on the new one then it is necessary to delete the data at the level of the daemon (button "Delete data"). This does not delete Jeedom's equipment, it just empties the demon's Zigbee database. Please note this operation is irreversible
+
 # FAQ
 
 >**LQI or RSSI is N / A**
@@ -288,6 +299,6 @@ Finally, and even if it may seem obvious to some, we remind you that Zigbee gate
 
 >**I cannot include new modules**
 >
->Several possibilities for this : 
+>Several possibilities for this :
 >- You already have a lot of mods and have exceeded the limit of the number of live mods (31 in general). You must either put another Zigbee key (the plugin manages up to 3) or try adding router nodes (be careful there is no clear standard on router nodes so there are incompatibilities between manufacturers...)
 >- You are under Conbee : try to unplug the key for 2 minutes, put it back and restart the daemon, it's a known disease of the Conbee key (even under deconz) or you need a cold reboot for the inclusion to work

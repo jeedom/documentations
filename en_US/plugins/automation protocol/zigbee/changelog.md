@@ -8,6 +8,16 @@
 >
 >To know the new compatible module you have to go [the](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (it is sorted by date added / modified)
 
+- Addition of new compatible module
+- Addition of a button to delete all the data of a daemon (see documentation)
+- Fixed a bug on group management when multiple zigbee keys
+
+
+# 07/01/2021
+
+- Addition of new compatible module
+- Optimization of existing configurations on the management of repetitions
+
 # 06/09/2021
 
 - Change of the OTA update source for Ikea (switch to the stable branch)

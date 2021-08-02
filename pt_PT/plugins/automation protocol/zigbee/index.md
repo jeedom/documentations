@@ -5,7 +5,7 @@
 -	**Deconz** : Testado e validado pela equipe Jeedom. *(Não é necessário instalar o aplicativo deCONZ)*
 -	**EZSP (Silicon Labs)** : Testado, validado e recomendado pela equipe Jeedom.
 -	**XBee** : Não testado pela equipe Jeedom.
--	**Zigate** : Não testado pela equipe. 
+-	**Zigate** : Não testado pela equipe.
 -	**ZNP (Texas Instruments)** : Não testado pela equipe.
 
 Além disso, o plugin está equipado com muitas ferramentas que permitem :
@@ -19,6 +19,13 @@ Além disso, o plugin está equipado com muitas ferramentas que permitem :
 - a gestão de **Obrigatório**,
 - tomando conta de **Touchlink**,
 - ou mesmo para integrar suas próprias configurações para os mais experientes...
+
+>**MUITO IMPORTANTE**
+>
+> Devido à valsa do lado do fabricante de firmware / hardware e possíveis bugs em seu firmware (sem necessariamente ter a possibilidade de atualizá-lo a partir do Jeedom porque a maioria dos fabricantes não os comunica) é possível que um módulo marcado como compatível não seja apenas parcialmente (um botão que não funciona, ou nenhuma diferença entre o botão para cima e não, nenhum aumento de CO2 ou um sensor do módulo...). Infelizmente, não podemos avisá-lo com antecedência na lista porque : 
+>- não temos necessariamente o módulo em questão, muitos módulos são adicionados pelo feedback do usuário
+>- de uma semana para outra o módulo pode ter mudado (novo hardware, novo firmware ou mesmo novo módulo que não mudou de nome)
+>Em nenhuma hipótese a Jeedom pode ser responsabilizada no caso de falta de uma função (ou mesmo de um módulo que não funcione) quando ela for indicada como compatível, como você o faz, estamos sujeitos às alterações impostas pelo fabricante
 
 # Configuration
 
@@ -201,9 +208,9 @@ A tecnologia Greenpower é suportada pelo plugin (patch zigpy que ainda não tem
 
 >**IMPORTANTE**
 >
->No momento, Greenpower funciona apenas com chaves do tipo EZSP (Elelabs, popp...). O suporte Deconz virá mais tarde 
+>No momento, Greenpower funciona apenas com chaves do tipo EZSP (Elelabs, popp...). O suporte Deconz virá mais tarde
 
-Para adicionar um módulo Greenpower 2 possibilidades : 
+Para adicionar um módulo Greenpower 2 possibilidades :
 
 - mude para o modo de inclusão, pressione um botão no módulo. Por favor, note que isso corresponde a uma adição não segura (qualquer pessoa que interceptar o quadro do módulo pode enviá-lo de volta para o seu Jeedom)
 - leia o código QR do módulo e copie a string na parte "Comissionamento" do Jeedom. Isso corresponde a uma adição segura (a chave de criptografia e no QRcode)
@@ -254,6 +261,10 @@ Infelizmente, isso se deve à forma como o fabricante planejou a integração de
 
 Finalmente, e mesmo que pareça óbvio para alguns, lembramos que os gateways Zigbee em Wifi ou remoto são, por definição, menos confiáveis do que os gateways USB. A equipe da Jeedom, portanto, recomenda o uso de um gateway Zigbee em USB.  
 
+# Mudança de chave Zigbee
+
+Se para um determinado daemon (1, 2 ou 3) você alterar a chave Zigbee sem restaurar um backup da antiga na nova, então é necessário excluir os dados no nível do daemon (botão "Excluir dados"). Isso não exclui o equipamento de Jeedom, apenas esvazia o banco de dados Zigbee do demônio. Observe que esta operação é irreversível
+
 # FAQ
 
 >**LQI ou RSSI é N / A**
@@ -288,6 +299,6 @@ Finalmente, e mesmo que pareça óbvio para alguns, lembramos que os gateways Zi
 
 >**Não consigo incluir novos módulos**
 >
->Várias possibilidades para isso : 
+>Várias possibilidades para isso :
 >- Você já tem muitos mods e excedeu o limite do número de mods ao vivo (31 em geral). Você deve colocar outra chave Zigbee (o plugin gerencia até 3) ou tentar adicionar nós de roteador (cuidado, pois não há um padrão claro para nós de roteador, então há incompatibilidades entre os fabricantes...)
 >- Você está sob o comando de Conbee : tente desconectar a chave por 2 minutos, coloque-a de volta e reinicie o daemon, é uma doença conhecida da chave Conbee (mesmo em deconz) ou você precisa de uma reinicialização a frio para a inclusão funcionar
