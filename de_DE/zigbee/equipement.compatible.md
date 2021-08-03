@@ -199,7 +199,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||ZB Ajax Online|CCT-Licht||||
+|<img src="../../de_DE/zigbee/images/ZB_Ajax_Online.CCT_Light.png" width="60" />|ZB Ajax Online|CCT-Licht||||
 
 # Zemismart
 
@@ -238,14 +238,14 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/CASAIA.CCB432.png" width="60" />|Casaia|RAIL-DIN 32A RELAIS UND ENERGIEZÄHLER||||
+|<img src="../../de_DE/zigbee/images/CASAIA.CCB432.png" width="60" />|Casaia|Rail-Din 32A Relais und Zigbee Energiezähler|Schütz, Zähler||[Dokumentation](https://casaia.fr/product/relais-rail-din-et-compteur-denergie-zigbee/?attachment_id=2554&download_file=pciir2fcqcjiz)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5578-casaia-relais-rail-din-32a-et-compteur-d-energie-zigbee-3770021021175.html)|
 |<img src="../../de_DE/zigbee/images/CASAIA.CDWS312.png" width="60" />|Casaia|Intelligenter Türdetektor|Ouverture|WICHTIG : enthalten, meldet aber keine Informationen||
 |<img src="../../de_DE/zigbee/images/CASAIA.CKF205.png" width="60" />|Casaia|4-Tasten-Fernbedienung||Nur die Tasten + und Minus - funktionieren|[Kaufen](https://www.domadoo.fr/fr/peripheriques/5580-casaia-telecommande-keyfob-4-boutons-zigbee-3770021021205.html)|
 |<img src="../../de_DE/zigbee/images/CASAIA.CMS323.png" width="60" />|Casaia|Multisensorbewegungen / Vibrationen / Temperatur / Luftfeuchtigkeit|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5571-casaia-multi-sensor-zigbee-mouvements-vibrations-temperature-humidite-3770021021045.html)|
 |<img src="../../de_DE/zigbee/images/CASAIA.CPB206.png" width="60" />|Casaia|SOS-Taste||||
-|<img src="../../de_DE/zigbee/images/CASAIA.CSAC451.png" width="60" />|Casaia|ZUTRITTSKONTROLLMODUL (6-24V DC) - TROCKENKONTAKT UND AUF 2 SEKUNDEN VERZÖGERT||||
-|<img src="../../de_DE/zigbee/images/CASAIA.CSLC601-D.png" width="60" />|Casaia|ZIGBEE TROCKENKONTAKTRELAISMODUL (230V - 10A)||||
-|<img src="../../de_DE/zigbee/images/CASAIA.CSLC631-3.png" width="60" />|Casaia|DREIFACHE RELAISMODUL||||
+|<img src="../../de_DE/zigbee/images/CASAIA.CSAC451.png" width="60" />|Casaia|Zigbee-Zutrittskontrollmodul (6-24V DC) - Trockenkontakt und 2 Sekunden verzögert|Contacteur||[Dokumentation](https://casaia.fr/product/module-de-controle-dacces-zigbee/?attachment_id=2539&download_file=nalg5m9bkxv0a)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5574-casaia-module-de-controle-d-acces-zigbee-6-24v-dc-contact-sec-et-temporise-a-2-secondes-3770021021120.html)|
+|<img src="../../de_DE/zigbee/images/CASAIA.CSLC601-D.png" width="60" />|Casaia|ZIGBEE TROCKENKONTAKTRELAISMODUL (230V - 10A)|Contacteur||[Dokumentation](https://casaia.fr/product/module-relais-contact-sec-zigbee-2/?attachment_id=2531&download_file=sot05ddz1k2wn)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5573-casaia-module-relais-contact-sec-zigbee-230v-10a-3770021021113.html)|
+|<img src="../../de_DE/zigbee/images/CASAIA.CSLC631-3.png" width="60" />|Casaia|Zigbee Dreifach-Relaismodul|Contacteur||[Dokumentation](https://casaia.fr/product/module-triple-relais-zigbee/?attachment_id=2518&download_file=c2digfwrhtylk)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5577-casaia-module-triple-relais-zigbee-3770021021151.html)|
 |<img src="../../de_DE/zigbee/images/CASAIA.CTHS317ET.png" width="60" />|Casaia|Ferntemperaturfühler am Kabel|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5572-casaia-sonde-de-temperature-deportee-sur-cable-zigbee-3770021021052.html)|
 
 # Danalock
@@ -279,6 +279,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/EcoDim.ED-10015.png" width="60" />|Ecodim|DRAHTLOSER WANDSTEUERUNG MIT 8 TASTEN||||
 |<img src="../../de_DE/zigbee/images/EcoDim_BV.Dimmer-Switch-ZB3.0.png" width="60" />|Ecodim|Drehdimmerschalter|Schalter, Dimmer||[Kaufen](https://www.domadoo.fr/fr/eclairage/5369-ecodim-interrupteur-variateur-rotatif-zigbee-30-200w-8719322371263.html)|
 
 # Feller
@@ -296,6 +297,7 @@
 |<img src="../../de_DE/zigbee/images/gledopto.GL-C-008P.png" width="60" />|Gledopto|GL-C-008P||||
 |<img src="../../de_DE/zigbee/images/gledopto.GL-C-008S.png" width="60" />|Gledopto|GL-C-008S||||
 |<img src="../../de_DE/zigbee/images/gledopto.GL-G-001ZS.png" width="60" />|Gledopto|GL-G-001ZS||||
+|<img src="../../de_DE/zigbee/images/gledopto.GL-MC-001.png" width="60" />|Gledopto|Gledopto RGBCCT-Band||||
 |<img src="../../de_DE/zigbee/images/gledopto.GL-S-004Z.png" width="60" />|Gledopto|GL-S-004Z||||
 |<img src="../../de_DE/zigbee/images/gledopto.GL-S-007Z.png" width="60" />|Gledopto|GL-S-007Z||||
 
@@ -312,7 +314,7 @@
 |<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-EF-3.0.png" width="60" />|Heiman|Rauchmelder||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-EM.png" width="60" />|Heiman|Rauchmelder||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Rauchmelder||||
-|<img src="../../de_DE/zigbee/images/HEIMAN.WarningDevice-EF-3.0.png" width="60" />|Develco|Intelligente Sirene||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.WarningDevice-EF-3.0.png" width="60" />|Heiman|Intelligente Sirene||||
 |<img src="../../de_DE/zigbee/images/Heiman.SmartPlug.png" width="60" />|Schneider|Verbundene Buchse und Repeater Wiser|Buchse, Messgerät, Leistung, Repeater||[Kaufen](https://www.domadoo.fr/fr/eclairage/5499-schneider-electric-prise-connectee-et-repeteur-zigbee-30-wiser-3606489917883.html)|
 |<img src="../../de_DE/zigbee/images/Heiman.WarningDevice.png" width="60" />|Heiman|Außensirene|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5564-smabit-sirene-exterieure-zigbee-104-db-8023874397641.html)|
 
@@ -514,6 +516,7 @@
 |<img src="../../de_DE/zigbee/images/Philips.LTW012.png" width="60" />|Philips|LTW012||Bitte beachten Sie, dass die Statusrückmeldung für dieses Modell nicht in Echtzeit erfolgt (entweder nach einem Befehl oder indem Sie explizit eine Aktualisierung anfordern)||
 |<img src="../../de_DE/zigbee/images/Philips.LTW013.png" width="60" />|Philips|Weiße GU10 Smart Glühbirne||Bitte beachten Sie, dass die Statusrückmeldung für dieses Modell nicht in Echtzeit erfolgt (entweder nach einem Befehl oder indem Sie explizit eine Aktualisierung anfordern)||
 |<img src="../../de_DE/zigbee/images/Philips.LWA001.png" width="60" />|Philips|Farbton Weiß Ambiente E27||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
+|<img src="../../de_DE/zigbee/images/Philips.LWA009.png" width="60" />|Philips|Farbton Weiß A67 E27 1600 LM||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.LWA011.png" width="60" />|Philips|Farbton Weiß E27||Bitte beachten Sie, dass es für dieses Modell keine Statusrückmeldung gibt, nur ein Auftragsversand möglich ist||
 |<img src="../../de_DE/zigbee/images/Philips.LWB004.png" width="60" />|Philips|E27 Philps Hue 9W 806 lm Dimmbare weiße Glühbirne||||
 |<img src="../../de_DE/zigbee/images/Philips.LWB006.png" width="60" />|Philips|E27 Philps Hue 9W||||
@@ -540,13 +543,13 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/Schneider Electric.NHPBSHUTTER1.png" width="60" />|Schneider|Zigbee 3 verbundener Rollladenschalter.0 WEISER ODACE|Schalter, Rollläden||[Dokumentation](https://download.schneider-electric.com/files?p_enDocType=Instruction+sheet&p_File_Name=S5x0567W_HW.pdf&p_Doc_Ref=S5x0567W_HW)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5723-schneider-electric-interrupteur-volet-roulant-connecte-zigbee-30-wiser-odace-blanc-3606481019585.html)|
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.1GANGSHUTTER1.png" width="60" />|Schneider|PlusLink Verschlusseinsatz|Volets||[Dokumentation](https://download.schneider-electric.com/files?p_enDocType=System+user+guide&p_File_Name=Merten_PL_Wiser_TIs_DE.pdf&p_Doc_Ref=Merten_PL_Wiser_TIs_DE)<br/>|
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.2GANGSWITCH2.png" width="60" />|Schneider|Doppelschalter||||
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.591011.png" width="60" />|Schneider|Klügerer Fenster- / Türsensor|Ouverture||[Dokumentation](https://download.schneider-electric.com/files?p_enDocType=User+guide&p_File_Name=MFR1569800.pdf&p_Doc_Ref=MFR1569800)<br/>|
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.592011.png" width="60" />|Schneider|Klügerer Wasserlecksensor|Fuite|||
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.CCTFR6700.png" width="60" />|Schneider|Klügerer elektrischer Heizungsaktuator|||[Kaufen](https://www.domadoo.fr/fr/chauffage-clim/5498-schneider-electric-actionneur-pour-radiateur-electrique-fil-pilote-zigbee-30-wiser-3606481914705.html)|
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.NHPBDIMMER1.png" width="60" />|Schneider|Zigbee 3 verbundener Push-Controller.0 WEISER ODACE|Schalter, Dimmer||[Dokumentation](https://download.schneider-electric.com/files?p_enDocType=Instruction+sheet&p_File_Name=S5x0522W_HW.pdf&p_Doc_Ref=S5x0522W_HW)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5716-schneider-electric-interrupteur-sans-fil-sans-pile-pour-eclairage-odace-sfsp-3606481019561.html)|
+|<img src="../../de_DE/zigbee/images/Schneider_Electric.NHPBSHUTTER1.png" width="60" />|Schneider|Zigbee 3 verbundener Rollladenschalter.0 WEISER ODACE|Schalter, Rollläden||[Dokumentation](https://download.schneider-electric.com/files?p_enDocType=Instruction+sheet&p_File_Name=S5x0567W_HW.pdf&p_Doc_Ref=S5x0567W_HW)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5723-schneider-electric-interrupteur-volet-roulant-connecte-zigbee-30-wiser-odace-blanc-3606481019585.html)|
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.NHPBSWITCH1.png" width="60" />|Schneider|ZIGBEE 3 ANGESCHLOSSENER SCHALTER.0 WEISER ODACE|||[Dokumentation](https://download.schneider-electric.com/files?p_enDocType=Instruction+sheet&p_File_Name=S5x0530W_HW.pdf&p_Doc_Ref=S5x0530W_HW)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5719-schneider-electric-interrupteur-connecte-zigbee-30-wiser-odace-blanc-3606481019578.html)|
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.NHROTARYDIMMER1.png" width="60" />|Schneider|Wiser Exxact Dimmer rotierend|Variateur|||
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.PUCKDIMMER1.png" width="60" />|Schneider|Klügeres Mikrodimmermodul|Variateur|||
@@ -573,12 +576,16 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/Sunricher.CCT_Lighting.png" width="60" />|Sunricher|Sunricher CCT-Beleuchtung||||
 |<img src="../../de_DE/zigbee/images/Sunricher.HK-SL-DIM-A.png" width="60" />|Sunricher|2-Draht-Dimmermodul|Dimmer, Licht, Leistung, Messung||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5244-sunricher-module-variateur-2-fils-zigbee-30.html)|
+|<img src="../../de_DE/zigbee/images/Sunricher.HK-SL-RDIM-A.png" width="60" />|Sunricher|Drehdimmerschalter|Dimmer, Licht, Leistung, Messung||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5736-sunricher-interrupteur-variateur-rotatif-500w-zigbee-dimmer.html)|
 |<img src="../../de_DE/zigbee/images/Sunricher.HK-SL-RELAY-A.png" width="60" />|Sunricher|EIN / AUS-Modul|Schütz, Licht||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5242-sunricher-module-onoff-zigbee-30.html)|
 |<img src="../../de_DE/zigbee/images/Sunricher.HK-ZD-DIM-A.png" width="60" />|Sunricher|Sunricher Dali||||
 |<img src="../../de_DE/zigbee/images/Sunricher.Motor_Controller.png" width="60" />|Sunricher|Rollladenmodul|Shutter, Store||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5245-sunricher-module-volet-roulant-zigbee-30.html)|
 |<img src="../../de_DE/zigbee/images/Sunricher.RGB-CCT.png" width="60" />|Sunricher|4 in 1 RGBW LED Controller|Licht, RGBW, Dimmer||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5248-sunricher-controleur-led-rgbw-4-en-1-zigbee-30.html)|
+|<img src="../../de_DE/zigbee/images/Sunricher.ZG2833K4_EU06.png" width="60" />|Sunricher|DRAHTLOSER 4-TASTEN-WANDSTEUERUNG|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5738-sunricher-controleur-mural-sans-fil-4-boutons-2-zones-zigbee.html)|
+|<img src="../../de_DE/zigbee/images/Sunricher.ZG2833K8_EU05.png" width="60" />|Sunricher|DRAHTLOSER WANDSTEUERUNG MIT 8 TASTEN|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5739-sunricher-controleur-mural-sans-fil-8-boutons-4-zones-zigbee.html)|
 |<img src="../../de_DE/zigbee/images/Sunricher.ZG2855-RGB.png" width="60" />|Sunricher|Sunricher RGB CCT Sun 3 in 1||||
 |<img src="../../de_DE/zigbee/images/Sunricher.ZG2858A.png" width="60" />|Sunricher|3 in 1 Fernbedienung|Fernbedienung||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5247-sunricher-telecommande-3-en-1-zigbee-30.html)|
+|<img src="../../de_DE/zigbee/images/Sunricher.ZGRC-KEY-004.png" width="60" />|Sunricher|DRAHTLOSER WANDSTEUERUNG MIT 2 TASTEN|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5737-sunricher-controleur-mural-sans-fil-2-boutons-1-zone-zigbee.html)|
 |<img src="../../de_DE/zigbee/images/Sunricher.ZGRC-KEY-013.png" width="60" />|Sunricher|4-Zonen-Fernbedienung|Fernbedienung||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5246-sunricher-telecommande-4-zones-zigbee-30.html)|
 
 # Tryo2sys
@@ -609,6 +616,7 @@
 |<img src="../../de_DE/zigbee/images/TYZB01_vkwryfdr.TS0115.png" width="60" />|Tuya|USEELINK - Verbundener Streifen 4 Buchsen und 2 USB-Anschlüsse|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html)|
 |<img src="../../de_DE/zigbee/images/TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Doppelschalter||||
 |<img src="../../de_DE/zigbee/images/TYZB01_xfpdrwvc.TS0011.png" width="60" />|Tuya|Smart Charge mit einer Ladung||||
+|<img src="../../de_DE/zigbee/images/TYZB01_xph99wvr.TS0203.png" width="60" />|Tuya|Intelligenter Sensor zum Öffnen von Türen oder Fenstern||||
 |<img src="../../de_DE/zigbee/images/TYZB01_ymcdbl3u.TS0111.png" width="60" />|Tuya|Wasser / Gas-Ventil||||
 |<img src="../../de_DE/zigbee/images/TYZB01_zsl6z0pw.TS0003.png" width="60" />|Tuya|EIN / AUS-Schalter 2300W 2 Kanal||||
 |<img src="../../de_DE/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Temperatur- und Feuchtigkeitssensor mit Display||||
@@ -678,7 +686,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/LUMI.lumi.airmonitor.acn01.png" width="60" />|Xiaomi|AQARA - AQARA - ZIGBEE 3 LUFTQUALITÄTSMONITOR.0 (TEMPERATUR, FEUCHTIGKEIT, TVOC)||Bitte beachten Sie, dass es im Moment keine COVT-Rückgabe für Jeedom gibt (der Hersteller weigert sich, uns die erforderlichen Informationen zur Verfügung zu stellen)|[Kaufen](https://www.domadoo.fr/fr/peripheriques/5751-xiaomi-aqara-moniteur-de-qualite-d-air-zigbee-30-temp-hum-covt-6970504214644.html)|
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.airmonitor.acn01.png" width="60" />|Xiaomi|XIAOMI AQARA - Zigbee 3 Luftqualitätsmonitor.0 (TEMPERATUR, FEUCHTIGKEIT, TVOC)|Temperatur, Luftfeuchtigkeit, Luftqualität|Achtung im Moment gibt es keine COVT-Rückgabe auf Jeedom (der Hersteller weigert sich, uns die notwendigen Informationen zu geben, um es hinzufügen zu können)|[Dokumentation](https://cdn.aqara.com/cdn/website/mainland/static/docs/TVOC-Air-Quality-Monitor_Manual_EN.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5751-xiaomi-aqara-moniteur-de-qualite-d-air-zigbee-30-temp-hum-covt-6970504214644.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.ctrl_ln1.aq1.png" width="60" />|Xiaomi|AQARA - Einzelschalter mit Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.ctrl_ln2.aq1.png" width="60" />|Xiaomi|AQARA - Doppelschalter mit Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|AQARA - Einzelschalter ohne Neutralleiter||||
@@ -695,7 +703,8 @@
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.remote.b1acn01.png" width="60" />|Xiaomi|AQARA - Smart Wireless Switch (REV1)|Fernbedienung, Schalter||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4669-aqara-interrupteur-sans-fil-intelligent-zigbee-192784000052.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.remote.b286acn01.png" width="60" />|Xiaomi|AQARA - Drahtloser Doppelschalter|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.remote.b286acn02.png" width="60" />|Xiaomi|AQARA - Drahtloser Doppelschalter|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4517-xiaomi-interrupteur-mural-double-sans-fil-zigbee-aqara-6970504210042.html)|
-|<img src="../../de_DE/zigbee/images/LUMI.lumi.remote.b28ac1.png" width="60" />|Xiaomi|AQARA - Smart Wireless Single Switch|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5725-xiaomi-aqara-interrupteur-mural-double-sans-fil-h1-zigbee-30-6970504215023.html)|
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.remote.b286opcn01.png" width="60" />|Xiaomi|AQARA - Funkschalter 2||||
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.remote.b28ac1.png" width="60" />|Xiaomi|XIAOMI AQARA - H1 ZigBee 3 Funk-Doppelwandschalter.0|Schalter, Fernbedienung|Auf Jeedom ist nur Pairing möglich. Da der Hersteller keine Bestellungen kommunizieren möchte, kann das Produkt derzeit nicht in Szenarien verwendet werden.|[Dokumentation](https://cdn.aqara.com/cdn/website/mainland/static/docs/Wireless-Remote-Switch-H1_Manual_EN.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5725-xiaomi-aqara-interrupteur-mural-double-sans-fil-h1-zigbee-30-6970504215023.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.remote.b486opcn01.png" width="60" />|Xiaomi|AQARA - Funkschalter 4||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.remote.b686opcn01.png" width="60" />|Xiaomi|AQARA - OPPLE 6-Tasten-Smart-Wireless-Schalter||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|MI - Lichtsensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5486-xiaomi-mi-capteur-de-luminosite-zigbee-30-6934177710865.html)|
@@ -717,8 +726,10 @@
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.b2lacn02.png" width="60" />|Xiaomi|AQARA - Doppelschalter ohne Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.b2nacn02.png" width="60" />|Xiaomi|AQARA - Smart Wandschalter D1||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.l0agl1.png" width="60" />|Xiaomi|AQARA - Mikromodul ein / aus ohne Neutralleiter|Schütz, Messgerät, Leistung||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5387-aqara-micromodule-onoff-zigbee-30-1250w-sans-neutre-6970504213302.html)|
-|<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.l2aeu1.png" width="60" />|Xiaomi|AQARA - INTELLIGENTER DOPPELWANDSCHALTER H1 ZIGBEE 3.0 (OHNE NEUTRALE))||||
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.l1aeu1.png" width="60" />|Xiaomi|XIAOMI AQARA - H1 ZigBee 3 Smart Wandschalter.0 (OHNE NEUTRALE))|Schalter, Licht||[Dokumentation](https://cdn.aqara.com/cdn/website/mainland/static/docs/Smart-Wall-Switch-H1-No-Neutral_Manual_EN.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5726-xiaomi-aqara-interrupteur-mural-intelligent-h1-zigbee-30-sans-neutre-ws-euk01-6970504214774.html)|
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.l2aeu1.png" width="60" />|Xiaomi|XIAOMI AQARA - H1 ZigBee 3 Smart Doppelwandschalter.0 (OHNE NEUTRALE))|Schalter, Licht||[Dokumentation](https://www.aqara.com/userfiles/fileupload/202105/1392376227816738818.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5727-xiaomi-aqara-interrupteur-mural-double-intelligent-h1-zigbee-30-sans-neutre-6970504214781.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.n0agl1.png" width="60" />|Xiaomi|AQARA - Mikromodul ein / aus mit Neutralleiter|Schütz, Messgerät, Leistung||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5386-aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-6970504213296.html)|
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.n2aeu1.png" width="60" />|Xiaomi|XIAOMI AQARA - H1 ZigBee 3 Smart Doppelwandschalter.0 (mit Neutral) + Verbrauchsmessung|||[Dokumentation](https://cdn.aqara.com/cdn/website/mainland/static/docs/Smart-Wall-Switch-H1-With-Neutral_Manual_EN.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5729-xiaomi-aqara-interrupteur-mural-double-intelligent-h1-zigbee-30-avec-neutre-ws-euk04-6970504214804.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|AQARA - Temperatur- / Druck- / Feuchtigkeitssensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4515-aqara-capteur-de-temperature-et-d-humidite-zigbee-6970504212510.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.sen_ill.mgl01.png" width="60" />|Xiaomi|AQARA - Lichtsensor||||
@@ -733,4 +744,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-08-02 02:32:04
+2021-08-03 02:32:19
