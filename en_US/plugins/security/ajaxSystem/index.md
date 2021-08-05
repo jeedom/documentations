@@ -2,6 +2,10 @@
 
 ## Configuration
 
+>**IMPORTANT**
+>
+>To have a real-time feedback, it is ABSOLUTELY necessary that your Jeedom be accessible from the outside (external access URL used)
+
 The configuration of the plugin is very simple and it takes place in 2 steps : 
 
 - setting up the link between your jeedom and your alarm

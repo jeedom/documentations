@@ -2,6 +2,10 @@
 
 ## Configuration
 
+>**WICHTIG**
+>
+>Um ein Echtzeit-Feedback zu erhalten, ist es UNBEDINGT notwendig, dass Ihr Jeedom von außen zugänglich ist (externe Zugriffs-URL verwendet .))
+
 Die Konfiguration des Plugins ist sehr einfach und erfolgt in 2 Schritten : 
 
 - Herstellen der Verbindung zwischen Ihrer Freiheit und Ihrem Alarm

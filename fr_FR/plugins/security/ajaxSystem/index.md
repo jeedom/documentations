@@ -19,6 +19,10 @@ La configuration du plugin est très simple et ce deroule en 2 étapes :
 
 Pour la mise en place du lien entre votre Jeedom et votre alarme Ajax il faut aller dans "Plugin" -> "Gestion de plugin" -> "Ajax Systeme" puis cliquer sur "Se connecter", la vous rentrez vos identifiants Ajax et cliquez sur "Valider".
 
+>**IMPORTANT**
+>
+>Si vous avez un compte pro il ne faut surtout pas l'utiliser la, il faut absolument utiliser un compte utilisateur simple
+
 >**NOTE**
 >
 > Jeedom ne sauvegarde absolument pas vos identifiants Ajax c'est juste une utilisé pour la premiere requete à Ajax et avoir le token d'accès et le refresh token. Le refresh token permet de recuperer un nouveau token d'accès qui à une durée de vie de quelques heures seulement
