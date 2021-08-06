@@ -8,6 +8,11 @@
 >
 >Pour connaitre les nouveaux module compatible il faut aller [la](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (c'est trié par date d'ajout/modification)
 
+# 06/08/2021
+
+- Correction d'un bug sur la gestion des groupes
+
+
 # 02/08/2021
 
 - Ajout de nouveau module compatible
