@@ -6,7 +6,12 @@
         "en_US": "Plugin to dynamically update DNS",
         "es_ES": "Complemento para actualizar dinámicamente DNS",
         "de_DE": "Plugin zum dynamischen Aktualisieren von DNS",
-        "pt_PT": "Plug-in para atualizar dinamicamente o DNS"
+        "pt_PT": "Plug-in para atualizar dinamicamente o DNS",
+        "ru_RU": "Plugin pour mettre à jour dynamiquement des DNS",
+        "id_ID": "Plugin pour mettre à jour dynamiquement des DNS",
+        "it_IT": "Plugin pour mettre à jour dynamiquement des DNS",
+        "ja_JP": "Plugin pour mettre à jour dynamiquement des DNS",
+        "tr": "Plugin pour mettre à jour dynamiquement des DNS"
     },
     "licence": "AGPL",
     "author": "Loïc",
@@ -19,7 +24,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",

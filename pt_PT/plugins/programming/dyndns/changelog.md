@@ -4,6 +4,12 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 27/07/2021
+
+- Corrigido um bug na atualização de equipamentos desativados
+- Suporte Gandi (obrigado @mildis)
+- URL fixo para noipcom (obrigado @Pulpyyyy)
+
 # 13/01/2020
 
 - Melhoria e correção de bug para o jeedom V4

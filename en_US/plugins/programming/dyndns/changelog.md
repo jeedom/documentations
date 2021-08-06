@@ -4,6 +4,12 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 07/27/2021
+
+- Fixed a bug on updating disabled equipment
+- Gandi support (thanks @mildis)
+- Fixed url for noipcom (thanks @Pulpyyyy)
+
 # 01/13/2020
 
 - Improvement and bug fix for jeedom V4

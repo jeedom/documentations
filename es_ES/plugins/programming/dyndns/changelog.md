@@ -4,6 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 27/07/2021
+
+- Se corrigió un error al actualizar el equipo deshabilitado
+- Soporte de Gandi (gracias @mildis)
+- URL fija para noipcom (gracias @Pulpyyyy)
+
 # 01/13/2020
 
 - Mejora y corrección de errores para jeedom V4

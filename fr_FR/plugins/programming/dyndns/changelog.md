@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 05/08/2021
+
+- Correction de l'erreur "429 Too Many Requests"
+
 # 27/07/2021
 
 - Correction d'un bug sur la mise à jour des équipements désactivés
