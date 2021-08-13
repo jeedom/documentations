@@ -61,7 +61,7 @@ Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/blea/equipement.compa
 
 # Caméras
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/camera/equipement.compatible) des caméras compatibles Jeedom
+Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=camera) des caméras compatibles Jeedom
 
 # Edisio
 
@@ -71,19 +71,19 @@ Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/edisio/equipement.com
 
 Contrôleur EnOcean :
 
--   Clef USB EnOcean USB300
--   Clef USB EnOcean USB310 (Recommandé)
+-   [Clef USB EnOcean USB300](https://www.domadoo.fr/fr/interface-domotique/3206-enocean-controleur-usb-enocean-avec-connecteur-sma-3700527400280.html)
+-   [Clef USB EnOcean USB310 (Recommandé)](https://www.domadoo.fr/fr/interface-domotique/2433-enocean-controleur-usb-enocean-3700527400273.html)
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/enocean/equipement.compatible) des modules EnOcean compatibles Jeedom
+Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) des modules EnOcean compatibles Jeedom 
 
 # RFXcom
 
 Contrôleur RFXcom :
 
 -   RFXtrx433 USB
--   RFXtrx433E USB (Recommandé)
+-   [RFXtrx433E USB (Recommandé)](https://www.domadoo.fr/fr/interface-domotique/4659-rfxcom-interface-radio-recepteuremetteur-xl-43392mhz-usb-chacon-somfy-rts-oregon-et-autres.html)
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/rfxcom/equipement.compatible) des modules Rfxcom compatibles Jeedom et [ici](https://doc.jeedom.com/fr_FR/rfxcom/) la documentation pour certains modules
+Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=rfxcom) des modules Rfxcom compatibles Jeedom et [ici](https://doc.jeedom.com/fr_FR/rfxcom/) la documentation pour certains modules
 
 # SMS (GSM)
 
@@ -95,9 +95,11 @@ Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/rfxcom/equipement.com
 
 Contrôleur Zigbee :
 
-- [Phoscon Conbee I/II](http://bit.ly/2n4VyWc)
+- [Phoscon Conbee I/II](https://www.domadoo.fr/fr/interface-domotique/4974-phoscon-passerelle-universelle-zigbee-usb-conbee-ii-4260350821328.html)
+- [Zigate (beta)](https://www.domadoo.fr/fr/interface-domotique/5734-lixee-dongle-usb-zigbee-zigate-v2-compatible-jeedom-eedomus-domoticz-3770014375094.html?search_query=zigate&results=106)
+- [Popp (Elelabs) - Recommandée](https://www.domadoo.fr/fr/interface-domotique/5431-popp-dongle-usb-zigbee-zb-stick-chipset-efr32mg13-4251295701554.html)
 
-Vous trouverez la liste [ici](https://phoscon.de/en/conbee/compatible) des modules Zigbee compatibles Jeedom
+Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) des modules Zigbee compatibles Jeedom
 
 # Zwave
 
@@ -106,6 +108,6 @@ Contrôleur Z-WAVE :
 -   SIGMA DESIGNS Contrôleur Z-Wave Plus USB
 -   Z-WAVE.ME - Mini contrôleur USB Z-Wave Plus UZB1
 -   AEON LABS Contrôleur Z-Wave Aeon Labs Z-Stick S2
--   AEON LABS - Contrôleur USB Z-Wave Plus Z-Stick GEN5 (Recommandé)
+-   [AEON LABS - Contrôleur USB Z-Wave Plus Z-Stick GEN5 (Recommandé)](https://www.domadoo.fr/fr/interface-domotique/2917-aeotec-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html?search_query=sigma&results=4)
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/zwave/equipement.compatible) des modules Z-wave compatibles Jeedom et [ici](https://doc.jeedom.com/fr_FR/zwave/) la documentation pour certains modules
+Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openzwave) des modules Z-wave compatibles Jeedom et [ici](https://doc.jeedom.com/fr_FR/zwave/) la documentation pour certains modules
