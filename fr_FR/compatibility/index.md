@@ -57,7 +57,7 @@ Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/)
 
 # Bluetooth
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/blea/equipement.compatible) des modules Bluetooth compatibles Jeedom
+Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?p=home&plugin=blea) des modules Bluetooth compatibles Jeedom
 
 # Caméras
 
