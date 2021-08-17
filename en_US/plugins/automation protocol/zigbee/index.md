@@ -27,6 +27,10 @@ In addition, the plugin is equipped with many tools allowing :
 >- from one week to another the module may have changed (new hardware, new firmware or even new module which has not changed its name)
 >Under no circumstances can Jeedom be held responsible in the event of a missing function (or even a module that does not work) when it is indicated as compatible, as you do, we are subject to the changes imposed by the manufacturer
 
+# List of compatible modules
+
+You will find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) the list of modules compatible with the Zigbee plugin
+
 # Configuration
 
 ## Plugin configuration
@@ -40,6 +44,7 @@ In addition, the plugin is equipped with many tools allowing :
 >Any change of channel will require a restart of the daemon. A change of channel may also require the re-inclusion of certain modules.
 
 ### Zigpy advanced configuration
+
 >**Reserved for experts !**
 
 It is possible to set up specific parameters for the Zigbee subsystem *(Zigpy)*. This part is strictly reserved for experts, which is why the Jeedom team does not provide the list of possible parameters *(there are hundreds of them depending on the type of controller)*.
@@ -302,3 +307,11 @@ If for a given daemon (1, 2 or 3) you change the Zigbee key without restoring a 
 >Several possibilities for this :
 >- You already have a lot of mods and have exceeded the limit of the number of live mods (31 in general). You must either put another Zigbee key (the plugin manages up to 3) or try adding router nodes (be careful there is no clear standard on router nodes so there are incompatibilities between manufacturers...)
 >- You are under Conbee : try to unplug the key for 2 minutes, put it back and restart the daemon, it's a known disease of the Conbee key (even under deconz) or you need a cold reboot for the inclusion to work
+
+>**I see "No cluster ID" errors in the logs XXXXX"**
+>
+>This is an incomplete inclusion, you have to remove the module from the zigbee networks (using the zigbee networks button => Nodes), reset the module then re-include it, being careful to keep it awake during all the processes of the 'inclusion
+
+>**My motion sensor / opening / switch command always remains at 1**
+>
+>It is common in zigbee mode the module sends the value one during an action (movement, opening, pressing the button) but does not return 0 when it is finished (end of movement for example). You can set up a status return to 0 after 1min (for example) in the configuration of the equipment command tab then on the command line in question.

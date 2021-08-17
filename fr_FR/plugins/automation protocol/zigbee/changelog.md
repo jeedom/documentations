@@ -8,10 +8,15 @@
 >
 >Pour connaitre les nouveaux module compatible il faut aller [la](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (c'est trié par date d'ajout/modification)
 
+# 17/08/2021
+
+- Correction d'un soucis de repporting sur les cluster AnalogInput et AnalogInput
+- Support complet du Xiaomi Aqara TVOC Air Quality Monitor
+- Ajout de nombreux modules
+
 # 06/08/2021
 
 - Correction d'un bug sur la gestion des groupes
-
 
 # 02/08/2021
 

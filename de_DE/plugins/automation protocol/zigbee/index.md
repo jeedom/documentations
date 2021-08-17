@@ -27,6 +27,10 @@ Darüber hinaus ist das Plugin mit vielen Tools ausgestattet, die es ermögliche
 >- von einer Woche zur anderen kann sich das Modul geändert haben (neue Hardware, neue Firmware oder sogar neues Modul, das seinen Namen nicht geändert hat))
 >Jeedom kann unter keinen Umständen für eine fehlende Funktion (oder sogar ein nicht funktionierendes Modul) verantwortlich gemacht werden, wenn diese als kompatibel angegeben ist, wie Sie es tun, wir unterliegen den Änderungen des Herstellers
 
+# Liste kompatibler Module
+
+Du wirst finden [Hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) die Liste der Module, die mit dem Zigbee-Plugin kompatibel sind
+
 # Configuration
 
 ## Plugin Konfiguration
@@ -40,6 +44,7 @@ Darüber hinaus ist das Plugin mit vielen Tools ausgestattet, die es ermögliche
 >Jeder Kanalwechsel erfordert einen Neustart des Dämons. Ein Kanalwechsel kann auch die Wiedereingliederung bestimmter Module erfordern.
 
 ### Erweiterte Zigpy-Konfiguration
+
 >**Für Experten reserviert !**
 
 Es ist möglich, bestimmte Parameter für das ZigBee-Subsystem einzurichten *(Zigpy)*. Dieser Teil ist ausschließlich Experten vorbehalten, weshalb das Jeedom-Team keine Liste möglicher Parameter bereitstellt *(Je nach Controller-Typ gibt es Hunderte davon)*.
@@ -302,3 +307,11 @@ Wenn Sie für einen bestimmten Daemon (1, 2 oder 3) den Zigbee-Schlüssel änder
 >Dafür gibt es mehrere Möglichkeiten :
 >- Du hast bereits viele Mods und hast das Limit der Anzahl der Live-Mods überschritten (31 im Allgemeinen). Sie müssen entweder einen anderen ZigBee-Schlüssel eingeben (das Plugin verwaltet bis zu 3) oder versuchen, Routerknoten hinzuzufügen (achten Sie darauf, dass es keinen klaren Standard für Routerknoten gibt, sodass Inkompatibilitäten zwischen Herstellern bestehen...)
 >- Sie sind unter Conbee : Versuchen Sie, den Schlüssel für 2 Minuten abzuziehen, ihn zurückzusetzen und den Daemon neu zu starten. Es handelt sich um eine bekannte Erkrankung des Conbee-Schlüssels (auch unter Dekonz), oder Sie benötigen einen Kaltstart, damit die Aufnahme funktioniert
+
+>**Ich sehe in den Protokollen den Fehler "Keine Cluster-ID" XXXXX"**
+>
+>Dies ist eine unvollständige Aufnahme, Sie müssen das Modul aus den Zigbee-Netzwerken entfernen (mit der Schaltfläche Zigbee-Netzwerke => Knoten), das Modul zurücksetzen und dann wieder einschließen, wobei darauf zu achten ist, dass es während aller Prozesse der "Einbindung" wach bleibt
+
+>**Mein Bewegungsmelder / Öffnungs- / Schaltbefehl bleibt immer auf 1**
+>
+>Im Zigbee-Modus ist es üblich, dass das Modul während einer Aktion (Bewegung, Öffnen, Drücken der Taste) den Wert Eins sendet, aber keine 0 zurückgibt, wenn sie beendet ist (zum Beispiel Ende der Bewegung)). Sie können eine Statusrückkehr auf 0 nach 1 Minute (zum Beispiel) in der Konfiguration des Gerätebefehlsregisters und dann in der betreffenden Befehlszeile einrichten.

@@ -27,6 +27,10 @@ Además, el complemento está equipado con muchas herramientas que permiten :
 >- de una semana a otra el módulo puede haber cambiado (nuevo hardware, nuevo firmware o incluso nuevo módulo que no ha cambiado de nombre)
 >En ningún caso Jeedom se hace responsable en el caso de que falte una función (o incluso un módulo que no funcione) cuando se indique como compatible, como lo hace, estamos sujetos a los cambios impuestos por el fabricante
 
+# Lista de módulos compatibles
+
+Usted encontrará [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) la lista de módulos compatibles con el complemento Zigbee
+
 # Configuration
 
 ## Configuración del plugin
@@ -40,6 +44,7 @@ Además, el complemento está equipado con muchas herramientas que permiten :
 >Cualquier cambio de canal requerirá un reinicio del demonio. Un cambio de canal también puede requerir la reincorporación de ciertos módulos.
 
 ### Configuración avanzada de Zigpy
+
 >**Reservado para expertos !**
 
 Es posible configurar parámetros específicos para el subsistema Zigbee *(Zigpy)*. Esta parte está estrictamente reservada para expertos, por lo que el equipo de Jeedom no proporciona la lista de posibles parámetros *(hay cientos de ellos dependiendo del tipo de controlador)*.
@@ -302,3 +307,11 @@ Si para un daemon dado (1, 2 o 3) cambia la clave Zigbee sin restaurar una copia
 >Varias posibilidades para esto :
 >- Ya tienes muchos mods y has excedido el límite del número de mods en vivo (31 en general). Debe poner otra clave Zigbee (el complemento administra hasta 3) o intentar agregar nodos de enrutador (tenga cuidado de que no haya un estándar claro en los nodos de enrutador, por lo que hay incompatibilidades entre los fabricantes...)
 >- Estás bajo Conbee : intente desconectar la clave durante 2 minutos, vuelva a colocarla y reinicie el demonio, es una enfermedad conocida de la clave Conbee (incluso bajo deconz) o necesita un reinicio en frío para que la inclusión funcione
+
+>**Veo errores "No hay ID de clúster" en los registros XXXXX"**
+>
+>Esta es una inclusión incompleta, hay que quitar el módulo de las redes zigbee (usando el botón de redes zigbee => Nodos), resetear el módulo y luego volver a incluirlo, teniendo cuidado de mantenerlo despierto durante todos los procesos de la 'inclusión
+
+>**Mi comando de sensor de movimiento / apertura / interruptor siempre permanece en 1**
+>
+>Es común que en el modo zigbee el módulo envíe el valor uno durante una acción (movimiento, apertura, presionar el botón) pero no devuelve 0 cuando finaliza (fin de movimiento por ejemplo). Puede configurar un retorno de estado a 0 después de 1 minuto (por ejemplo) en la configuración de la pestaña de comando del equipo y luego en la línea de comando en cuestión.

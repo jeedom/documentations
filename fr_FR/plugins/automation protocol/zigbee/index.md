@@ -27,6 +27,10 @@ De plus, le plugin est doté de nombreux outils permettant :
 >- d'une semaine à l'autre le module peut avoir changé (nouveau hardware, nouveau firmware ou meme nouveau module qui n'a pas changé de nom)
 >En aucun cas Jeedom ne pourra etre tenu responsable en cas de fonction manquante (ou meme de module ne marchant pas) alors qu'il est indiqué compatible, nous subissons comme vous les changements imposé par le fabricant
 
+# Liste des modules compatible
+
+Vous trouverez [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) la liste des modules compatible avec le plugin Zigbee
+
 # Configuration
 
 ## Configuration du plugin
@@ -40,6 +44,7 @@ De plus, le plugin est doté de nombreux outils permettant :
 >Tout changement de canal nécessitera un redémarrage du démon. Un changement de canal peut également nécessiter la ré-inclusion de certains modules.
 
 ### Configuration avancée Zigpy
+
 >**Réservé aux experts !**
 
 Il est possible de mettre en place des paramètres spécifiques pour le sous-système Zigbee *(Zigpy)*. Cette partie est strictement réservée aux experts, c'est pourquoi l'équipe Jeedom ne fournit pas la liste des paramètres possibles *(il en existe des centaines dépendants du type de contrôleur)*.
@@ -297,8 +302,16 @@ Si pour un démon donné (1,2 ou 3) vous changer la clef Zigbee sans restaurer u
 >
 >Vérifiez que vous etes bien sur un firmware à jour sur votre clef zigbee. Dans 90% des cas une consommation excessive des piles vient du firmware de la clef qui a un soucis.
 
->**je n'arrive pas à inclure de nouveaux modules**
+>**Je n'arrive pas à inclure de nouveaux modules**
 >
 >Plusieurs possibilités pour cela :
 >- Vous avez deja beaucoup de module et avez dépassé la limite du nombre de module en direct (31 en général). Il faut soit mettre une autre clef Zigbee (le plugin en géere jusqu'a 3) soit essayé en ajoutant des noeud routeur (attention il n'y a pas de norme clair sur les noeuds routeur il y a donc des incompatibilité entre fabricant...)
 >- Vous etes sous Conbee : essayez de debrancher la clef pendant 2 minutes, de la remettre et relancer le demon, c'est une maladie connu des clef Conbee (meme sous deconz) ou il faut un cold reboot pour que l'inclusion remarche
+
+>**Je vois dans les logs des erreurs "No cluster ID XXXXX"**
+>
+>Il s'agit d'une inclusion incomplete il faut supprimer le module du réseaux zigbee (par le bouton réseaux zigbee => Noeuds), faire un reset du module puis le reinclure en faisant bien attention de le maintenir eveillé pendant tous les processus de l'inclusion
+
+>**Ma commande de capteur de mouvement/d'ouverture/interrupteur reste toujours à 1**
+>
+>C'est courant en zigbee le module envoi la valeur un lors d'une action (mouvement,ouverture,appui sur le bouton) mais ne renvoi pas 0 quand c'est fini (fin de mouvement par exemple). Vous pouvez mettre en place un retour d'état à 0 après 1min (par exemple) dans la configuration de l'équipement onglet commande puis sur la ligne de la commande en question.
