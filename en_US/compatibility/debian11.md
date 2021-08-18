@@ -1,1 +1,38 @@
+# Debian 11
 
+## Introduction
+
+You will find here a report of our Jeedom tests under Debian 11. As a reminder Debian 11 was officially released in stable on August 15, 2021 and involves many changes in particular : 
+
+- Passage from PHP 7.3 to 7.4
+- Start of python 2 removal
+- Update of many packages
+
+## Core
+
+### 4.1.X
+
+We have not yet detected any impact.
+
+### 4.2.X
+
+There is a problem with the new dependency installation system for the one using pip3 (pip3 no longer exists and is replaced by pip)
+
+## Plugins
+
+We cannot test all the plugins, so we are just putting the feedback of those tested for the moment (this list will be updated as we go through our tests)
+
+- Openvpn (DNS jeedom) => OK
+- Camera => OK
+- Zigbee => OK
+- Openzwave => NOK (problem with installing dependencies)
+- mobile => ok
+- gcast => ok
+- network => ok
+- rfxcom => ok
+- sonos => ok
+
+
+>**IMPORTANT**
+>
+>These tests were done in a virtual environment without any equipment behind, for the moment we have just checked that the dependencies are installed well and that the demons manage to launch
