@@ -49,7 +49,8 @@ Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/)
 |-------------------------|-------------------------|--------------------------|
 | PHP 5.5 ou moins        | Non supporté            |                          |
 | PHP 5.6                 | Fin de support (en 4.1) |                          |
-| PHP 7.X                 | Stable                  |                          |
+| PHP 7.0/7.1/7.2/7.3     | Stable                  |                          |
+| Mysql 7.4               | Beta                    |                          |
 | Mysql 5.5/5.6           | Stable                  |                          |
 | Mysql 5.7               | Stable                  |                          |
 | MariaBD                 | Stable                  |                          |
