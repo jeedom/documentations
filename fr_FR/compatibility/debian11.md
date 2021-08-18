@@ -22,15 +22,34 @@ Il y a un soucis avec le nouveau systeme d'installation des dépendances pour ce
 
 Nous ne pouvons tester tous les plugins, nous mettons donc juste le retour de ceux testé pour le moment (cette liste sera mise à jour au fils de nos tests)
 
-- Openvpn (DNS jeedom) => OK
-- Camera => OK
-- Zigbee => OK
-- Openzwave => NOK (soucis d'installation des dépendances)
-- mobile => ok
-- gcast => ok
-- network => ok
-- rfxcom => ok
-- sonos => ok
+### Compatible
+
+- Openvpn (DNS jeedom)
+- Camera
+- Zigbee
+- mobile
+- gcast
+- network
+- rfxcom
+- sonos
+
+### Incompatible
+
+- Openzwave
+- modbus
+- sms
+- appkorian
+- barcodescanner
+- dali
+- wemo
+- heos
+- lifx
+- smart
+- modbusrtu
+- entrkey
+- bluetooth
+- aruba
+- blescanner
 
 
 >**IMPORTANT**
