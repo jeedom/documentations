@@ -26,3 +26,13 @@ Nous ne pouvons tester tous les plugins, nous mettons donc juste le retour de ce
 - Camera => OK
 - Zigbee => OK
 - Openzwave => NOK (soucis d'installation des dépendances)
+- mobile => ok
+- gcast => ok
+- network => ok
+- rfxcom => ok
+- sonos => ok
+
+
+>**IMPORTANT**
+>
+>Ces tests ont été fait en environement virtuel sans équipements derriere, nous avons pour le moment juste vérifié que les dépendances s'installent bien et que les demons arrivent à se lancer
