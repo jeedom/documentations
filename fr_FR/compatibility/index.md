@@ -35,7 +35,7 @@ Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/)
 | Freebox        | Freebox Delta  | Stable         | root/Mjeedom96 | A installer directement depuis la Freebox               | [Freebox](https://doc.jeedom.com/fr_FR/installation/freeboxdelta) |
 | Synology (Docker)| Nas Synology | Beta          | root/Mjeedom96  |                | [Synology](https://doc.jeedom.com/fr_FR/installation/synology) |
 
-\* Jeedom ne supporte officellement que la distribution Debian. Debian 10 est pleinement supportée, Debian 11 est en cours de test. 
+\* Jeedom ne supporte officellement que la distribution Debian. Debian 10 est pleinement supportée, Debian 11 est en cours de test, voir [ici](https://doc.jeedom.com/fr_FR/compatibility/debian11)
 
 > **Informations**
 >
