@@ -30,10 +30,12 @@ Puedes encontrar todas las imágenes de Jeedom [aquí](https://images.jeedom.com
 | Jeedomboard    | Jeedomboard y Hummingboard | Estable         | root / Mjeedom96 |                | [Jeedomboard](https://doc.jeedom.com/es_ES/installation/mini) |
 | INTELIGENTE          | Jeedom Smart   | Estable           | root / Mjeedom96 |                | [INTELIGENTE](https://doc.jeedom.com/es_ES/installation/smart) |
 | RPI            | RPI1 / 2/3/4     | Beta           | root / Mjeedom96 |  Para RPI, es aconsejable tomar la versión rpi-64 solo para RPI 4              | [RPI](https://doc.jeedom.com/es_ES/installation/rpi) |
-| x86_64         | Cualquier sistema x86_64 (Intel, AMD, VM...)               | Estable           | root / Mjeedom96 |                | [x86_64](https://doc.jeedom.com/es_ES/installation/vm) |
+| x86_64         | Cualquier sistema x86_64 (Intel, AMD, VM...)*               | Estable           | root / Mjeedom96 |                | [x86_64](https://doc.jeedom.com/es_ES/installation/vm) |
 | Estibador         |                | Beta           | root / Mjeedom96 |                | [Estibador](https://doc.jeedom.com/es_ES/installation/docker) |
 | Caja libre        | Freebox Delta  | Estable         | root / Mjeedom96 | Para instalar directamente desde Freebox               | [Caja libre](https://doc.jeedom.com/es_ES/installation/freeboxdelta) |
 | Synology (Docker)| NAS Synology | Beta          | root / Mjeedom96  |                | [Synology](https://doc.jeedom.com/es_ES/installation/synology) |
+
+\* Jeedom oficialmente solo admite la distribución Debian. Debian 10 es totalmente compatible, Debian 11 se está probando, consulte [aquí](https://doc.jeedom.com/es_ES/compatibility/debian11)
 
 > **Información**
 >
@@ -49,7 +51,8 @@ Puedes encontrar todas las imágenes de Jeedom [aquí](https://images.jeedom.com
 |-------------------------|-------------------------|--------------------------|
 | PHP 5.5 o menos        | No compatible            |                          |
 | PHP 5.6                 | Fin del soporte (en 4.1) |                          |
-| PHP 7.X                 | Estable                  |                          |
+| PHP 7.0 / 7.1 / 7.2 / 7.3     | Estable                  |                          |
+| Mysql 7.4               | Beta                    |                          |
 | Mysql 5.5 / 5.6           | Estable                  |                          |
 | Mysql 5.7               | Estable                  |                          |
 | MariaBD                 | Estable                  |                          |
