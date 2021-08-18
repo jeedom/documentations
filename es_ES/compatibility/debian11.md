@@ -16,21 +16,42 @@ Aún no hemos detectado ningún impacto.
 
 ### 4.2.X
 
-Hay un problema con el nuevo sistema de instalación de dependencias para el que usa pip3 (pip3 ya no existe y es reemplazado por pip)
+~~ Hay un problema con el nuevo sistema de instalación de dependencias para el que usa pip3 (pip3 ya no existe y es reemplazado por pip) ~~ => Corregido en alfa
 
 ## Plugins
 
 No podemos probar todos los complementos, por lo que solo estamos poniendo los comentarios de los probados por el momento (esta lista se actualizará a medida que avancemos en nuestras pruebas)
 
-- Openvpn (DNS jeedom) => Aceptar
-- Cámara => Aceptar
-- Zigbee => Aceptar
-- Openzwave => NOK (problema con la instalación de dependencias)
-- móvil => ok
-- gcast => ok
-- red => ok
-- rfxcom => ok
-- sonos => ok
+### Compatible
+
+- Openvpn (DNS jeedom)
+- Camera
+- Zigbee
+- mobile
+- gcast
+- network
+- rfxcom
+- sonos
+
+### Incompatible
+
+Todos los complementos que usan python2 son incompatibles con Debian 11. Por el momento, no tenemos una solución para remediar esto (forzar la instalación de python2 y pip2 rompe pip3 y, por lo tanto, hace que todos los complementos de python3 sean incompatibles)
+
+- Openzwave
+- modbus
+- sms
+- appkorian
+- barcodescanner
+- dali
+- wemo
+- heos
+- lifx
+- smart
+- modbusrtu
+- entrkey
+- bluetooth
+- aruba
+- blescanner
 
 
 >**IMPORTANTE**

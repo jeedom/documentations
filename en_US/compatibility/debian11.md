@@ -16,21 +16,42 @@ We have not yet detected any impact.
 
 ### 4.2.X
 
-There is a problem with the new dependency installation system for the one using pip3 (pip3 no longer exists and is replaced by pip)
+~~ There is a problem with the new dependency installation system for the one using pip3 (pip3 no longer exists and is replaced by pip) ~~ => Fixed in alpha
 
 ## Plugins
 
 We cannot test all the plugins, so we are just putting the feedback of those tested for the moment (this list will be updated as we go through our tests)
 
-- Openvpn (DNS jeedom) => OK
-- Camera => OK
-- Zigbee => OK
-- Openzwave => NOK (problem with installing dependencies)
-- mobile => ok
-- gcast => ok
-- network => ok
-- rfxcom => ok
-- sonos => ok
+### Compatible
+
+- Openvpn (DNS jeedom)
+- Camera
+- Zigbee
+- mobile
+- gcast
+- network
+- rfxcom
+- sonos
+
+### Incompatible
+
+All plugins using python2 are incompatible with Debian 11. For the moment we have no solution to remedy this (forcing the installation of python2 and pip2 breaks pip3 and therefore makes all python3 plugins incompatible)
+
+- Openzwave
+- modbus
+- sms
+- appkorian
+- barcodescanner
+- dali
+- wemo
+- heos
+- lifx
+- smart
+- modbusrtu
+- entrkey
+- bluetooth
+- aruba
+- blescanner
 
 
 >**IMPORTANT**
