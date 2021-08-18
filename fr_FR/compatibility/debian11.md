@@ -16,7 +16,7 @@ Nous n'avons pour le moment detecté aucun impact.
 
 ### 4.2.X
 
-Il y a un soucis avec le nouveau systeme d'installation des dépendances pour celle utilisant pip3 (pip3 n'existe plus et est remplacé par pip)
+~~Il y a un soucis avec le nouveau systeme d'installation des dépendances pour celle utilisant pip3 (pip3 n'existe plus et est remplacé par pip)~~ => Corrigé en alpha
 
 ## Plugins
 
