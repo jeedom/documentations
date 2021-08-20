@@ -19,6 +19,10 @@ Die Konfiguration des Plugins ist sehr einfach und erfolgt in 2 Schritten :
 
 Um die Verbindung zwischen Ihrem Jeedom und Ihrem Ajax-Alarm herzustellen, gehen Sie zu "Plugin" -> "Plugin-Verwaltung" -> "Ajax-System", klicken Sie auf "Verbinden", geben Sie Ihre Ajax-Kennungen ein und klicken Sie auf "Validieren"".
 
+>**WICHTIG**
+>
+>Wenn Sie ein professionelles Konto haben, sollten Sie es hier nicht verwenden, Sie müssen unbedingt ein einfaches Benutzerkonto verwenden
+
 >**HINWEIS**
 >
 > Jeedom speichert Ihre Ajax-Anmeldeinformationen absolut nicht. Es wird nur für die erste Anforderung an Ajax verwendet, um das Zugriffstoken und das Aktualisierungstoken zu erhalten. Das Aktualisierungstoken ermöglicht die Wiederherstellung eines neuen Zugriffstokens mit einer Lebensdauer von nur wenigen Stunden
