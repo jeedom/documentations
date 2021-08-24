@@ -3,6 +3,7 @@
 ### Deprecated
 
 - La méthode `eqLogic::byTypeAndSearhConfiguration()` a été renommée correctement : `eqLogic::byTypeAndSearchConfiguration()`. L'ancienne sera supprimée dans une prochaine version du Core.
+- La méthode js `jeedom.eqLogic.builSelectCmd` a été renommée correctement : `jeedom.eqLogic.buildSelectCmd`. L'ancienne sera supprimée dans une prochaine version du Core. Attention, celle-ci est très utilisée par les plugins, mais la nouvelle fonction ne fonctionnera pas sur un Core pré-4.2, donc pas d'urgence.
 - Suppression de la lib jwerty pour du vanillaJS (gestion des raccourcis clavier). Conservée en v4.2 pour les plugins susceptibles de l'utiliser, elle sera supprimée en v4.3.
 
 ### Modifications optionnelles
