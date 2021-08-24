@@ -8,6 +8,12 @@
 >
 >Um das neue kompatible Modul zu kennen, müssen Sie gehen [das](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (Es ist nach dem Datum sortiert, an dem es hinzugefügt / geändert wurde)
 
+# 23.08.2021
+
+- Löschen der OTA-Update-Datei für Nodon-Module auf deren Wunsch
+- Hinzufügen neuer Module 
+- Ein Problem mit der Konfiguration der Einstellungen für Hue-Lampen wurde behoben
+
 # 17.08.2021
 
 - Korrektur eines Berichtsproblems bei AnalogInput- und AnalogInput-Clustern

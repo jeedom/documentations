@@ -8,6 +8,12 @@
 >
 >Para conhecer o novo módulo compatível você tem que ir [a](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (é classificado pela data de adição / modificação)
 
+# 23/08/2021
+
+- Exclusão do arquivo de atualização OTA para módulos Nodon a seu pedido
+- Adição de novos módulos 
+- Corrigido um problema com a configuração das configurações de lâmpadas Hue
+
 # 17/08/2021
 
 - Correção de um problema de relatório nos clusters AnalogInput e AnalogInput
