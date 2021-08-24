@@ -58,6 +58,7 @@
 |<img src="../../en_US/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient|Smart flood detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5427-frient-detecteur-d-inondation-zigbee-30-5713594002453.html)|
 |<img src="../../en_US/zigbee/images/frient_AS.HESZB-120.png" width="60" />|Frient|Heat detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5411-frient-detecteur-de-chaleur-intelligent-zigbee-30-din-en-14604-et-din-14676-5713594002446.html)|
 |<img src="../../en_US/zigbee/images/frient_AS.HMSZB-110.png" width="60" />|Frient|Temperature and humidity sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5407-frient-capteur-de-temperature-et-humidite-intelligent-zigbee-30-5713594002385.html)|
+|<img src="../../en_US/zigbee/images/frient_AS.KEPZB-110.png" width="60" />|Frient|||||
 |<img src="../../en_US/zigbee/images/frient_AS.MOSZB-140.png" width="60" />|Frient|Motion detector and temperature and light sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5404-frient-detecteur-de-mouvement-zigbee-30-capteur-de-temperature-et-luminosite-5713594002361.html)|
 |<img src="../../en_US/zigbee/images/frient_AS.MOSZB-141.png" width="60" />|Frient|Movement detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5403-frient-detecteur-de-mouvement-zigbee-30-5713594002835.html)|
 |<img src="../../en_US/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Frient|Smart cord switch|||[Buy](https://www.domadoo.fr/fr/peripheriques/5421-frient-interrupteur-sur-cordon-zigbee-30-5713594002408.html)|
@@ -660,6 +661,7 @@
 |<img src="../../en_US/zigbee/images/TZ3000_1dd0d5yi.TS130F.png" width="60" />|Tuya|MOES - Zigbee + RF Roller Shutter Module|Volets|||
 |<img src="../../en_US/zigbee/images/TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|LED controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_4js9lo5d.TS0012.png" width="60" />|Tuya|Double micromodule without neutral||||
+|<img src="../../en_US/zigbee/images/TZ3000_4upl1fcj.TS0041.png" width="60" />|Tuya|1 button connected switch|||[Buy](https://www.domadoo.fr/fr/domotique/5785-moes-interrupteur-intelligent-sans-fil-zigbee-1-bouton.html)|
 |<img src="../../en_US/zigbee/images/TZ3000_4whigl8i.TS0501B.png" width="60" />|Tuya|LED strip controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_5jdvwqv9.TS0502B.png" width="60" />|Tuya|LED controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_5k5vh43t.TS0207.png" width="60" />|Tuya|Repeater||||
@@ -669,6 +671,7 @@
 |<img src="../../en_US/zigbee/images/TZ3000_abci1hiu.TS0044.png" width="60" />|Tuya|Scene remote 4 buttons||||
 |<img src="../../en_US/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Smart double switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_cphmq0q7.TS011F.png" width="60" />|Tuya|Connected socket|Socket, Meter, Power, Repeater|||
+|<img src="../../en_US/zigbee/images/TZ3000_dfgbtub0.TS0041.png" width="60" />|Tuya|Connected switch 2 buttons|||[Buy](https://www.domadoo.fr/fr/domotique/5786-moes-interrupteur-intelligent-sans-fil-zigbee-2-boutons.html)|
 |<img src="../../en_US/zigbee/images/TZ3000_ebar6ljy.TS0203.png" width="60" />|Tuya|Opening sensor|Ouverture|||
 |<img src="../../en_US/zigbee/images/TZ3000_fvh3pjaz.TS0012.png" width="60" />|Tuya|Double switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BLITZWOLF - EU 16A smart plug||||
@@ -690,6 +693,7 @@
 |<img src="../../en_US/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|RGBW LED strip controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|Intelligent roller shutter module||||
 |<img src="../../en_US/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 button smart switch with batteries||||
+|<img src="../../en_US/zigbee/images/TZ3000_w8jwkczz.TS0041.png" width="60" />|Tuya|3 button connected switch|||[Buy](https://www.domadoo.fr/fr/domotique/5787-moes-interrupteur-intelligent-sans-fil-zigbee-3-boutons.html)|
 |<img src="../../en_US/zigbee/images/TZ3000_wyhuocal.TS0013.png" width="60" />|Tuya|Triple switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_x085c3it.TS0207.png" width="60" />|Tuya|Flood detector (2)|Fuite|||
 |<img src="../../en_US/zigbee/images/TZ3000_xabckq1v.TS004F.png" width="60" />|Tuya|4 button smart switch with batteries||||
@@ -783,4 +787,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-08-23 02:32:04
+2021-08-24 02:32:05

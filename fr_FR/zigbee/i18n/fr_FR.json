@@ -127,6 +127,7 @@
         "Répeteur": "Répeteur",
         "Contrôleur de LED": "Contrôleur de LED",
         "Contrôleur strip LED": "Contrôleur strip LED",
+        "Interrupteur connecté 1 boutons": "Interrupteur connecté 1 boutons",
         "Micromodule double sans neutre": "Micromodule double sans neutre",
         "MOES - Module zigbee+RF Volet Roulant": "MOES - Module zigbee+RF Volet Roulant",
         "Volets": "Volets",
@@ -536,6 +537,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-08-23 02": "2021-08-23 02"
+        "2021-08-24 02": "2021-08-24 02"
     }
 }

@@ -58,6 +58,7 @@
 |<img src="../../de_DE/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient|Intelligenter Hochwassermelder|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5427-frient-detecteur-d-inondation-zigbee-30-5713594002453.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.HESZB-120.png" width="60" />|Frient|Wärmemelder|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5411-frient-detecteur-de-chaleur-intelligent-zigbee-30-din-en-14604-et-din-14676-5713594002446.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.HMSZB-110.png" width="60" />|Frient|Temperatur- und Feuchtigkeitssensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5407-frient-capteur-de-temperature-et-humidite-intelligent-zigbee-30-5713594002385.html)|
+|<img src="../../de_DE/zigbee/images/frient_AS.KEPZB-110.png" width="60" />|Frient|||||
 |<img src="../../de_DE/zigbee/images/frient_AS.MOSZB-140.png" width="60" />|Frient|Bewegungsmelder und Temperatur- und Lichtsensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5404-frient-detecteur-de-mouvement-zigbee-30-capteur-de-temperature-et-luminosite-5713594002361.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.MOSZB-141.png" width="60" />|Frient|Bewegungsmelder|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5403-frient-detecteur-de-mouvement-zigbee-30-5713594002835.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Frient|Smart Kabelschalter|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5421-frient-interrupteur-sur-cordon-zigbee-30-5713594002408.html)|
@@ -660,6 +661,7 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_1dd0d5yi.TS130F.png" width="60" />|Tuya|MOES - Zigbee + RF Rollladenmodul|Volets|||
 |<img src="../../de_DE/zigbee/images/TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|LED-Controller||||
 |<img src="../../de_DE/zigbee/images/TZ3000_4js9lo5d.TS0012.png" width="60" />|Tuya|Doppelmikromodul ohne Neutralleiter||||
+|<img src="../../de_DE/zigbee/images/TZ3000_4upl1fcj.TS0041.png" width="60" />|Tuya|1 Taste angeschlossener Schalter|||[Kaufen](https://www.domadoo.fr/fr/domotique/5785-moes-interrupteur-intelligent-sans-fil-zigbee-1-bouton.html)|
 |<img src="../../de_DE/zigbee/images/TZ3000_4whigl8i.TS0501B.png" width="60" />|Tuya|LED-Streifen-Controller||||
 |<img src="../../de_DE/zigbee/images/TZ3000_5jdvwqv9.TS0502B.png" width="60" />|Tuya|LED-Controller||||
 |<img src="../../de_DE/zigbee/images/TZ3000_5k5vh43t.TS0207.png" width="60" />|Tuya|Verstärker||||
@@ -669,6 +671,7 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_abci1hiu.TS0044.png" width="60" />|Tuya|Szenen-Fernbedienung 4 Tasten||||
 |<img src="../../de_DE/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Intelligenter Doppelschalter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_cphmq0q7.TS011F.png" width="60" />|Tuya|Angeschlossene Steckdose|Buchse, Messgerät, Leistung, Repeater|||
+|<img src="../../de_DE/zigbee/images/TZ3000_dfgbtub0.TS0041.png" width="60" />|Tuya|Verbundene Schalter 2 Tasten|||[Kaufen](https://www.domadoo.fr/fr/domotique/5786-moes-interrupteur-intelligent-sans-fil-zigbee-2-boutons.html)|
 |<img src="../../de_DE/zigbee/images/TZ3000_ebar6ljy.TS0203.png" width="60" />|Tuya|Sensor öffnen|Ouverture|||
 |<img src="../../de_DE/zigbee/images/TZ3000_fvh3pjaz.TS0012.png" width="60" />|Tuya|Doppelschalter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BLITZWOLF - EU 16A Smart Plug||||
@@ -690,6 +693,7 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|RGBW LED Strip Controller||||
 |<img src="../../de_DE/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|Intelligentes Rollladenmodul||||
 |<img src="../../de_DE/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4-Tasten-Smart-Schalter mit Batterien||||
+|<img src="../../de_DE/zigbee/images/TZ3000_w8jwkczz.TS0041.png" width="60" />|Tuya|Schalter mit 3 Tasten|||[Kaufen](https://www.domadoo.fr/fr/domotique/5787-moes-interrupteur-intelligent-sans-fil-zigbee-3-boutons.html)|
 |<img src="../../de_DE/zigbee/images/TZ3000_wyhuocal.TS0013.png" width="60" />|Tuya|Dreifachschalter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_x085c3it.TS0207.png" width="60" />|Tuya|Hochwassermelder (2)|Fuite|||
 |<img src="../../de_DE/zigbee/images/TZ3000_xabckq1v.TS004F.png" width="60" />|Tuya|4-Tasten-Smart-Schalter mit Batterien||||
@@ -783,4 +787,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-08-23 02:32:04
+2021-08-24 02:32:05
