@@ -3,6 +3,7 @@
 ### Deprecated
 
 - The `eqLogic method::byTypeAndSearhConfiguration () `has been renamed correctly : `eqLogic::byTypeAndSearchConfiguration()`. The old one will be removed in a future version of the Core.
+- The js `jeedom.eqLogic method.builSelectCmd` has been renamed correctly : `jeedom.eqLogic.buildSelectCmd`. The old one will be removed in a future version of the Core. Be careful, this one is used a lot by plugins, but the new function will not work on a pre-4 Core.2, so no rush.
 - Removal of the jwerty liberty for vanillaJS (management of keyboard shortcuts). Kept in v4.2 for plugins likely to use it, it will be removed in v4.3.
 
 ### Optional modifications

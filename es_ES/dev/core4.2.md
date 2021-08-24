@@ -3,6 +3,7 @@
 ### Deprecated
 
 - El método `eqLogic::byTypeAndSearhConfiguration () `ha sido renombrado correctamente : `eqLogic::byTypeAndSearchConfiguration()`. El anterior se eliminará en una versión futura del Core.
+- El método js `jeedom.eqLogic.builSelectCmd` ha sido renombrado correctamente : `jeedom.eqLogic.buildSelectCmd`. El anterior se eliminará en una versión futura del Core. Tenga cuidado, este es usado mucho por los complementos, pero la nueva función no funcionará en un Core anterior a 4.2, así que no hay prisa.
 - Eliminación de jwerty liberty para vanillaJS (gestión de atajos de teclado). Guardado en v4.2 para los complementos que probablemente lo utilicen, se eliminará en la v4.3.
 
 ### Modificaciones opcionales
