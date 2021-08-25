@@ -50,7 +50,7 @@
 |<img src="../../es_ES/zigbee/images/Develco.ZHEMI101.png" width="60" />|Frient|Medidor de consumo de electricidad óptico|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5424-frient-compteur-optique-de-consommation-d-electricite-zigbee-ha-5713594002583.html)|
 |<img src="../../es_ES/zigbee/images/Develco_Products_AS.AQSZB-110.png" width="60" />|Frient|Sensor de calidad del aire|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5408-frient-capteur-de-qualite-d-air-zigbee-ha-5713594002392.html)|
 |<img src="../../es_ES/zigbee/images/Develco_Products_AS.DIOZB-110.png" width="60" />|Frient|Módulo IO||||
-|<img src="../../es_ES/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Frient|||||
+|<img src="../../es_ES/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Develco|Teclado inteligente||Para el comando Info SOS, el significado es : 2 SOS (pulsación larga del botón), 7 alguien lo ha pasado delante del teclado||
 |<img src="../../es_ES/zigbee/images/Develco_Products_AS.PBTZB-110.png" width="60" />|Develco|Botón de pánico||Parece haber un problema con el firmware, solo la desactivación de la alerta (presione el botón durante 5 segundos después de activar el modo de pánico) se envía a las redes zigbee||
 |<img src="../../es_ES/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Frient|Sirena inteligente||||
 |<img src="../../es_ES/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Frient|Enchufe inteligente|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5412-frient-prise-intelligente-mini-avec-mesure-de-consommation-zigbee-ha-version-fr-5713594002514.html)|
@@ -58,7 +58,7 @@
 |<img src="../../es_ES/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient|Detector de inundaciones inteligente|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5427-frient-detecteur-d-inondation-zigbee-30-5713594002453.html)|
 |<img src="../../es_ES/zigbee/images/frient_AS.HESZB-120.png" width="60" />|Frient|Detector de calor|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5411-frient-detecteur-de-chaleur-intelligent-zigbee-30-din-en-14604-et-din-14676-5713594002446.html)|
 |<img src="../../es_ES/zigbee/images/frient_AS.HMSZB-110.png" width="60" />|Frient|Sensor de temperatura y humedad|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5407-frient-capteur-de-temperature-et-humidite-intelligent-zigbee-30-5713594002385.html)|
-|<img src="../../es_ES/zigbee/images/frient_AS.KEPZB-110.png" width="60" />|Frient|||||
+|<img src="../../es_ES/zigbee/images/frient_AS.KEPZB-110.png" width="60" />|Frient|Teclado inteligente||Para el comando Info SOS, el significado es : 2 SOS (pulsación larga del botón), 7 alguien lo ha pasado delante del teclado||
 |<img src="../../es_ES/zigbee/images/frient_AS.MOSZB-140.png" width="60" />|Frient|Detector de movimiento y sensor de temperatura y luz|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5404-frient-detecteur-de-mouvement-zigbee-30-capteur-de-temperature-et-luminosite-5713594002361.html)|
 |<img src="../../es_ES/zigbee/images/frient_AS.MOSZB-141.png" width="60" />|Frient|Detector de movimiento|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5403-frient-detecteur-de-mouvement-zigbee-30-5713594002835.html)|
 |<img src="../../es_ES/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Frient|Interruptor de cable inteligente|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5421-frient-interrupteur-sur-cordon-zigbee-30-5713594002408.html)|
@@ -787,4 +787,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-08-24 02:32:05
+2021-08-25 02:32:12

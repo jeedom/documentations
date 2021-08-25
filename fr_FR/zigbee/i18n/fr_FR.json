@@ -500,6 +500,9 @@
         "Détecteur de fumée intelligent DIN EN 14604 ET DIN 14676": "Détecteur de fumée intelligent DIN EN 14604 ET DIN 14676",
         "Interrupteur sur cordon intelligent": "Interrupteur sur cordon intelligent",
         "Détecteur de mouvement et capteur de température et luminosité": "Détecteur de mouvement et capteur de température et luminosité",
+        "2 SOS (appui long sur le bouton), 7 quelqu'un a passé la devant le clavier": "2 SOS (appui long sur le bouton), 7 quelqu'un a passé la devant le clavier",
+        "Clavier intelligent": "Clavier intelligent",
+        "Pour la commande Info SOS la signification est": "Pour la commande Info SOS la signification est",
         "Capteur de temptérature et humidité": "Capteur de temptérature et humidité",
         "Détecteur de chaleur": "Détecteur de chaleur",
         "Capteur de qualité d'air": "Capteur de qualité d'air",
@@ -537,6 +540,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-08-24 02": "2021-08-24 02"
+        "2021-08-25 02": "2021-08-25 02"
     }
 }
