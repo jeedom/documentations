@@ -1,3 +1,10 @@
-# Plugin template
+# Bestway plugin
 
-The documentation to use the plugin template is found [here](https://doc.jeedom.com/en_US/dev/plugin_template)
+Plugin allowing to control the Bestway Lazy Spa Milan through Jeedom.
+
+It automatically manages filtration and its duration according to the water temperature
+
+
+## Configuration 
+
+Just put your Bestway credentials

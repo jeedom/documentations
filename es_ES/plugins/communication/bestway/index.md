@@ -1,3 +1,10 @@
-# Plantilla de complemento
+# Complemento Bestway
 
-La documentación para usar la plantilla de complemento se encuentra [aquí](https://doc.jeedom.com/es_ES/dev/plugin_template)
+Complemento que permite controlar Bestway Lazy Spa Milan a través de Jeedom.
+
+Gestiona automáticamente la filtración y su duración según la temperatura del agua
+
+
+## Configuración 
+
+Solo ingrese sus credenciales de Bestway
