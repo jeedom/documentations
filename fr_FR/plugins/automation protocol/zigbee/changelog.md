@@ -8,6 +8,15 @@
 >
 >Pour connaitre les nouveaux module compatible il faut aller [la](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (c'est trié par date d'ajout/modification)
 
+# 27/08/2021
+
+- Correction du soucis avec les firmwares Nodon
+- Correction de l'erreur "\_ext_pan_id" du à une mise à jour du code Zigpy avec les clefs Deconz
+
+>**IMPORTANT**
+>
+>Suite à cette mise à jour il faut ABSOLUMENT mettre à jour les dépendances du plugin meme si il vous dit que tout est OK
+
 # 23/08/2021
 
 - Suppression du fichier de mise à jour OTA des modules Nodon à leur demande
