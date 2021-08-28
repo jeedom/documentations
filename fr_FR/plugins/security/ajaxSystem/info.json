@@ -1,6 +1,6 @@
 {
     "id": "ajaxSystem",
-    "name": "Ajax Systeme",
+    "name": "Ajax Systems",
     "description": {
         "fr_FR": "Plugin servant à se connecter à une alarme Ajax",
         "en_US": "Plugin used to connect to an Ajax alarm",
