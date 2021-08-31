@@ -89,6 +89,7 @@
 |<img src="../../es_ES/zwave/images/134.4.37_dsd37_range.extender.jpg" width="60" />|Aeotec|Extensor de rango (DSD37)|Repetidor|Módulo sin funcionalidad excepto para transmitir información de red|[Comprar](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
 |<img src="../../es_ES/zwave/images/134.4.80_zw080.siren.jpg" width="60" />|Aeotec|Sirena Gen5 (ZW080)|Sirena||[Comprar](http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html)|
 |<img src="../../es_ES/zwave/images/134.514.89_zw089_recessed.door.sensor.jpg" width="60" />|Aeotec|Sensor de puerta empotrado Gen5 (ZW089)|Ouverture||[Comprar](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
+||Aeotec|Sensor de puerta / ventana 7 (ZWA011)|Ouverture|||
 |<img src="../../es_ES/zwave/images/881.2.12_zwa012.door7.pro.jpg" width="60" />|Aeotec|Sensor de puerta / ventana 7 Pro (ZWA012)|Ouverture|||
 |<img src="../../es_ES/zwave/images/881.2.19_zwa019.water7.pro.jpg" width="60" />|Aeotec|Sensor de agua 7 Pro (ZWA019)|Fuite|||
 |<img src="../../es_ES/zwave/images/881.2.21_zwa021.radiator.thermostat.jpg" width="60" />|Aeotec|Termostato del radiador|Thermostat|||
@@ -912,4 +913,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-08-30 02:08:04
+2021-08-31 02:08:05
