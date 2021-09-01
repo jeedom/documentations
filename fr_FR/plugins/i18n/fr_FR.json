@@ -336,8 +336,9 @@
     },
     "plugins\/monitoring\/index.md": {
         "Ventilairsec": "Ventilairsec",
-        "Ubiquiti Unifi protect": "Ubiquiti Unifi protect",
         "Plugin permettant de connecter Jeedom à Unifi Protect": "Plugin permettant de connecter Jeedom à Unifi Protect",
+        "Ubiquiti Unifi protect": "Ubiquiti Unifi protect",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
         "Octoprint": "Octoprint",
         "Plugin pour monitorer vos serveurs d'impression 3D": "Plugin pour monitorer vos serveurs d'impression 3D",
         "Onduleur (NUT": "Onduleur (NUT",

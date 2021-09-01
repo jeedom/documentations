@@ -929,8 +929,9 @@
         " ici*": " here*"
     },
     "plugins\/monitoring\/index.md": {
-        "Ubiquiti Unifi protect": "Ubiquiti Unifi protect",
         "Plugin permettant de connecter Jeedom à Unifi Protect": "Plugin to connect Jeedom to Unifi Protect",
+        "Ubiquiti Unifi protect": "Ubiquiti Unifi protect",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin available only in beta",
         "Plugin pour monitorer vos serveurs d'impression 3D": "Plugin to monitor your 3D print servers",
         "Onduleur (NUT": "Inverter (NUT",
         "Plugin pour récuperer les informations des onduleurs via nut": "Plugin to retrieve information from inverters via nut",
