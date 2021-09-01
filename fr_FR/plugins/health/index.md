@@ -10,4 +10,4 @@
 | | | | |
 |--- | --- | --- | ---|
 |<img src="fitbit/fitbit_icon.png" class="pluginLogo" width="100" />|Fitbit|Plugin pour Fitbit|[Documentation](fitbit/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1018)<br/>[Changelog](fitbit/changelog.md)|
-|<img src="sevenhugs/sevenhugs_icon.png" class="pluginLogo" width="100" />|SevenHugs|Plugin pour SevenHugs|[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2492)<br/>[Changelog](sevenhugs/changelog.md)|
+|<img src="sevenhugs/sevenhugs_icon.png" class="pluginLogo" width="100" />|SevenHugs|Plugin pour SevenHugs|<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2492)<br/>[Changelog](sevenhugs/changelog.md)|
