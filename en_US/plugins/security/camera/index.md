@@ -33,6 +33,10 @@ Here you have the main information of your camera :
 -   **Feed URL** : type camera video stream url ``rtsp://#username#:#password#@#ip#:554/videoMain`` (example for Foscam cameras).
 -   **Model** : allows to choose the camera model. Be careful : if you change it will overwrite your configuration settings.
 
+> **NOTE**
+>
+> You can find [here](https://www.ispyconnect.com/cameras) configuration for a lot of camera and therefore be able to integrate your camera yourself in Jeedom if it is not in the list
+
 ## Image
 
 This part allows you to configure the image quality. Indeed Jeedom decreases the size of the image or the compress before sending it to your browser. This improves the fluidity of the images (because they are lighter). It is also in this part that you can configure the number of frames per second to display. All settings are available in : mobile / desktop and miniature / normal.

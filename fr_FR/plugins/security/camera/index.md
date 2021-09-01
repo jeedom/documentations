@@ -33,6 +33,10 @@ Ici vous avez les informations principales de votre caméra :
 -   **URL du flux** : url du flux video de la caméra de type ``rtsp://#username#:#password#@#ip#:554/videoMain`` (exemple pour les caméras Foscam).
 -   **Modèle** : permet de choisir le modèle de la caméra. Attention : si vous changez cela écrasera vos paramètres de configuration.
 
+> **NOTE**
+>
+> Vous pouvez retrouver [ici](https://www.ispyconnect.com/cameras) des configuration pour pas mal de camera et donc pouvoir integrer votre camera vous meme à Jeedom si elle n'est pas dans la liste
+
 ## Image
 
 Cette partie vous permet de configurer la qualité de l'image. En effet Jeedom diminue la taille de l'image ou la compresse avant de l'envoyer à votre navigateur. Cela permet de gagner en fluidité des images (car elles sont moins lourdes). C'est aussi dans cette partie que vous pouvez configurer le nombre d'images par seconde à afficher. Tous les réglages sont déclinés en : mobile/desktop et miniature/normal.
