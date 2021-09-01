@@ -45,5 +45,7 @@
         "tr"
     ],
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/unifiprotect\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/unifiprotect\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/unifiprotect",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/unifiprotect\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/unifiprotect\/beta"
 }
