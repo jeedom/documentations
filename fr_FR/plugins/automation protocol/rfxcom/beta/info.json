@@ -1,0 +1,46 @@
+{
+    "id": "rfxcom",
+    "name": "RFXcom",
+    "description": {
+        "fr_FR": "Plugin pour utiliser le RFXcom USB. Permet de piloter les équipements domotiques de type 433Mhz ( Chacon, Oregon, La Crosse, X10, DI-O, Blyss...)",
+        "en_US": "Plugin to use the RFXcom USB. Used to control 433Mhz type home automation equipment (Chacon, Oregon, La Crosse, X10, DI-O, Blyss ...)",
+        "es_ES": "Complemento para usar el RFXcom USB. Se utiliza para controlar equipos de automatización del hogar de tipo 433Mhz (Chacon, Oregon, La Crosse, X10, DI-O, Blyss ...)",
+        "de_DE": "Plugin zur Verwendung des RFXcom USB. Zur Steuerung von Hausautomationsgeräten vom Typ 433 MHz (Chacon, Oregon, La Crosse, X10, DI-O, Blyss ...)",
+        "pt_PT": "Plugin para usar o RFXcom USB. Usado para controlar equipamentos de automação residencial do tipo 433Mhz (Chacon, Oregon, La Crosse, X10, DI-O, Blyss ...)",
+        "ru_RU": "Plugin pour utiliser le RFXcom USB. Permet de piloter les équipements domotiques de type 433Mhz ( Chacon, Oregon, La Crosse, X10, DI-O, Blyss...)",
+        "id_ID": "Plugin pour utiliser le RFXcom USB. Permet de piloter les équipements domotiques de type 433Mhz ( Chacon, Oregon, La Crosse, X10, DI-O, Blyss...)",
+        "it_IT": "Plugin pour utiliser le RFXcom USB. Permet de piloter les équipements domotiques de type 433Mhz ( Chacon, Oregon, La Crosse, X10, DI-O, Blyss...)",
+        "ja_JP": "Plugin pour utiliser le RFXcom USB. Permet de piloter les équipements domotiques de type 433Mhz ( Chacon, Oregon, La Crosse, X10, DI-O, Blyss...)",
+        "tr": "Plugin pour utiliser le RFXcom USB. Permet de piloter les équipements domotiques de type 433Mhz ( Chacon, Oregon, La Crosse, X10, DI-O, Blyss...)"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.1",
+    "category": "automation protocol",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/rfxcom\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/rfxcom\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/rfxcom\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/rfxcom\/beta"
+}

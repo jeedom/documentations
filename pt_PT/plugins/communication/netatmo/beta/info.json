@@ -1,0 +1,52 @@
+{
+    "id": "netatmo",
+    "name": "Netatmo",
+    "description": {
+        "fr_FR": "Plugin pour recuperer les équipements Netatmo (Weather,Energie,Securité). En mode standalone (configuration plus complexe) ou à travers le cloud Jeedom (service qui peut  à l'avenir devenir payant) .Attention pour l'instant il n'est pas possible d'avoir le flux des cameras en mode cloud Jeedom.",
+        "en_US": "Plugin to recover Netatmo equipment (Weather, Energy, Security). In standalone mode (more complex configuration) or through the Jeedom cloud (service which may in the future become chargeable). Please note for the moment it is not possible to have the flow of cameras in Jeedom cloud mode",
+        "es_ES": "Complemento para recuperar equipos Netatmo (Clima, Energía, Seguridad). En modo autónomo (configuración más compleja) oa través de la nube Jeedom (servicio que puede ser de pago en el futuro) Tenga en cuenta que por el momento no es posible tener el flujo de cámaras en modo nube Jeedom",
+        "de_DE": "Plugin zur Wiederherstellung von Netatmo-Geräten (Wetter, Energie, Sicherheit). Im Standalone-Modus (komplexere Konfiguration) oder über die Jeedom-Cloud (Dienst, der möglicherweise in Zukunft kostenpflichtig wird). Bitte beachten Sie, dass der Kamerafluss im Jeedom-Cloud-Modus derzeit nicht möglich ist",
+        "ru_RU": "Plugin pour recuperer les équipements Netatmo (Weather,Energie,Securité). En mode standalone (configuration plus complexe) ou à travers le cloud Jeedom (service qui peut  à l'avenir devenir payant) .Attention pour l'instant il n'est pas possible d'avoir le flux des cameras en mode cloud Jeedom",
+        "id_ID": "Plugin pour recuperer les équipements Netatmo (Weather,Energie,Securité). En mode standalone (configuration plus complexe) ou à travers le cloud Jeedom (service qui peut  à l'avenir devenir payant) .Attention pour l'instant il n'est pas possible d'avoir le flux des cameras en mode cloud Jeedom",
+        "it_IT": "Plugin pour recuperer les équipements Netatmo (Weather,Energie,Securité). En mode standalone (configuration plus complexe) ou à travers le cloud Jeedom (service qui peut  à l'avenir devenir payant) .Attention pour l'instant il n'est pas possible d'avoir le flux des cameras en mode cloud Jeedom",
+        "ja_JP": "Plugin pour recuperer les équipements Netatmo (Weather,Energie,Securité). En mode standalone (configuration plus complexe) ou à travers le cloud Jeedom (service qui peut  à l'avenir devenir payant) .Attention pour l'instant il n'est pas possible d'avoir le flux des cameras en mode cloud Jeedom",
+        "pt_PT": "Plugin para recuperar equipamentos Netatmo (Clima, Energia, Segurança). No modo autônomo (configuração mais complexa) ou através da nuvem Jeedom (serviço que pode futuramente ser cobrado). Por favor, note que de momento não é possível ter o fluxo de câmeras no modo nuvem Jeedom",
+        "tr": "Plugin pour recuperer les équipements Netatmo (Weather,Energie,Securité). En mode standalone (configuration plus complexe) ou à travers le cloud Jeedom (service qui peut  à l'avenir devenir payant) .Attention pour l'instant il n'est pas possible d'avoir le flux des cameras en mode cloud Jeedom"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.0",
+    "category": "communication",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/netatmo\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/netatmo\/",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/netatmo\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/netatmo\/beta"
+}

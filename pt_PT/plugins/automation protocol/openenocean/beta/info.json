@@ -1,0 +1,46 @@
+{
+    "id": "openenocean",
+    "name": "EnOcean",
+    "description": {
+        "fr_FR": "Plugin ajoutant le support du EnOcean à Jeedom https:\/\/compatibility.jeedom.com\/index.php?v=d&p=home&search=&plugin=openenocean De nombreux modules seront rajoutés rapidement et en continue Nous vous conseillons de migrer avec precaution",
+        "en_US": "Plugin adding EnOcean support to Jeedom https:\/\/compatibility.jeedom.com\/index.php?v=d&p=home&search=&plugin=openenocean Many modules will be added quickly and continuously We advise you to migrate with caution",
+        "es_ES": "Complemento que agrega soporte de EnOcean a Jeedom https:\/\/compatibility.jeedom.com\/index.php?v=d&p=home&search=&plugin=openenocean Se agregarán muchos módulos de forma rápida y continua Le recomendamos que migre con precaución",
+        "de_DE": "Plugin, das EnOcean-Unterstützung zu Jeedom hinzufügt https:\/\/compatibility.jeedom.com\/index.php?v=d&p=home&search=&plugin=openenocean Viele Module werden schnell und kontinuierlich hinzugefügt Wir empfehlen Ihnen, mit Vorsicht zu migrieren",
+        "pt_PT": "Plugin adicionando suporte EnOcean ao Jeedom https:\/\/compatibility.jeedom.com\/index.php?v=d&p=home&search=&plugin=openenocean Muitos módulos serão adicionados rápida e continuamente. Recomendamos que você migre com cuidado",
+        "ru_RU": "Plugin ajoutant le support du EnOcean à Jeedom https:\/\/compatibility.jeedom.com\/index.php?v=d&p=home&search=&plugin=openenocean De nombreux modules seront rajoutés rapidement et en continue Nous vous conseillons de migrer avec precaution",
+        "id_ID": "Plugin ajoutant le support du EnOcean à Jeedom https:\/\/compatibility.jeedom.com\/index.php?v=d&p=home&search=&plugin=openenocean De nombreux modules seront rajoutés rapidement et en continue Nous vous conseillons de migrer avec precaution",
+        "it_IT": "Plugin ajoutant le support du EnOcean à Jeedom https:\/\/compatibility.jeedom.com\/index.php?v=d&p=home&search=&plugin=openenocean De nombreux modules seront rajoutés rapidement et en continue Nous vous conseillons de migrer avec precaution",
+        "ja_JP": "Plugin ajoutant le support du EnOcean à Jeedom https:\/\/compatibility.jeedom.com\/index.php?v=d&p=home&search=&plugin=openenocean De nombreux modules seront rajoutés rapidement et en continue Nous vous conseillons de migrer avec precaution",
+        "tr": "Plugin ajoutant le support du EnOcean à Jeedom https:\/\/compatibility.jeedom.com\/index.php?v=d&p=home&search=&plugin=openenocean De nombreux modules seront rajoutés rapidement et en continue Nous vous conseillons de migrer avec precaution"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3.39",
+    "category": "automation protocol",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/openenocean\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/openenocean\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/openenocean\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/openenocean\/beta"
+}
