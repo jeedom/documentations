@@ -102,6 +102,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/camera/images/hikvision.DS-2DE2A404IW-DE3.jpg" width="60" />|Hikvision|DS-2DE2A404IW-DE3||||
 |<img src="../../fr_FR/camera/images/hikvision.DS-7216HWI-SH-A.jpg" width="60" />|Hikvision|DS-7216HWI-SH/A||(XXX = 101 pour le channel 1 / XXX = 202 pour le channe 2)||
 |<img src="../../fr_FR/camera/images/hikvision.ds-2cd2132-I.jpg" width="60" />|Hikvision|DS-2CD2132-I, DS-2CD3332-I, DS-2CD2232-I5, DS-2CD2732F-IS||||
 
@@ -157,8 +158,11 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/camera/images/reolink.E1_Pro.png" width="60" />|Reolink|E1 Pro||||
+|<img src="../../fr_FR/camera/images/reolink.E1_Zoom.png" width="60" />|Reolink|E1 Zoom||||
 |<img src="../../fr_FR/camera/images/reolink.camera-proxy.jpg" width="60" />|Reolink|Camera Proxy (pour argus si serveur proxy installé)||||
 |<img src="../../fr_FR/camera/images/reolink.rlc-410-5mp.jpg" width="60" />|Reolink|RLC-410-5MP||||
+|<img src="../../fr_FR/camera/images/reolink.rlc-410w.png" width="60" />|Reolink|RLC-410W||||
 
 # Rpi
 
@@ -179,6 +183,14 @@
 |<img src="../../fr_FR/camera/images/trendnet.tvip310pi.jpg" width="60" />|TrendNet|TV-IP310PI||||
 |<img src="../../fr_FR/camera/images/trendnet.tvip325pi.jpg" width="60" />|TrendNet|TV-IP325PI||||
 |<img src="../../fr_FR/camera/images/trendnet.tvip672wi.jpg" width="60" />|TrendNet|TV-IP672WI||||
+
+# Ubiquiti
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../fr_FR/camera/images/ubiquiti.UVC G3 Flex.png" width="60" />|Ubiquiti|Ubiquiti G3 Flex||||
+|<img src="../../fr_FR/camera/images/ubiquiti.UVC G3 Instant.png" width="60" />|Ubiquiti|Ubiquiti G3 Instant||||
+|<img src="../../fr_FR/camera/images/ubiquiti.UVC G4 Bullet.jpg" width="60" />|Ubiquiti|Ubiquiti G4 Bullet||||
 
 # Vistacam
 
@@ -223,4 +235,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-08-31 02:20:03
+2021-09-01 02:20:03
