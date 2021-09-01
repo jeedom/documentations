@@ -353,7 +353,9 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
         "Market": "Market",
-        "Changelog": "Changelog"
+        "Changelog": "Changelog",
+        "Documentation beta": "Documentation beta",
+        "Changelog beta": "Changelog beta"
     },
     "plugins\/multimedia\/index.md": {
         "De nombreuses autres fonctions sont aussi présentes": "De nombreuses autres fonctions sont aussi présentes",
