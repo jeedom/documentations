@@ -226,7 +226,8 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
         "Market": "Market",
-        "Changelog": "Changelog"
+        "Changelog": "Changelog",
+        "Beta": "Beta"
     },
     "plugins\/energy\/index.md": {
         "Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie": "Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie",
@@ -562,6 +563,7 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
+        "Beta": "Beta",
         "Market": "Market",
         "Changelog": "Changelog",
         "ATTENTION": "ATTENTION",
