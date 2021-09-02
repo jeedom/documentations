@@ -31,7 +31,7 @@ Hier haben Sie die wichtigsten Informationen Ihrer Kamera :
 -   **Hafen** : der Anschluss, an den die Kamera angeschlossen werden soll.
 -   **Protokolle** : das Kommunikationsprotokoll Ihrer Kamera (http oder https).
 -   **Benutzername** : Benutzername, um sich bei der Kamera anzumelden (falls erforderlich)). Bitte beachten Sie, dass das Plugin keine Sonderzeichen unterstützt (Sie müssen sich daher auf Zahlen, Klein- / Großbuchstaben beschränken).
--   **Passwort** : Passwort für die Verbindung zur Kamera (falls erforderlich)).Bitte beachten Sie, dass das Plugin keine Sonderzeichen unterstützt (Sie müssen sich daher auf Zahlen, Klein- / Großbuchstaben beschränken).
+-   **Passwort** : Passwort für die Verbindung zur Kamera (falls erforderlich)).Bitte beachten Sie, dass das Plugin für einige Kameras einen url_encode für den Benutzernamen und das Passwort erfordert, dies jedoch bei anderen zu Problemen führen kann. Wenn Sie ein Problem haben, versuchen Sie es ohne Sonderzeichen (beschränken Sie sich auf Zahlen, Klein-/Großbuchstaben).
 -   **Snapshot-URL** : Kamera-Snapshot-URL. Ändern Sie je nach Kamera. Achten Sie darauf, dass Sie keine Flow-URL unter die Strafe des Absturzes von Jeedom stellen. Sie können die Tags \ hinzufügen#username\# und \#password\#, Diese werden bei Verwendung dieses Befehls automatisch durch den Benutzernamen und das Kennwort ersetzt.
 -   **Feed-URL** : Typ Kamera Video Stream URL ``rtsp://#username#:#password#@#ip#:554/videoMain`` (Beispiel für Foscam-Kameras).
 -   **Modell** : ermöglicht die Auswahl des Kameramodells. Achtung : Wenn Sie dies ändern, werden Ihre Konfigurationseinstellungen überschrieben.
@@ -57,7 +57,6 @@ In diesem Teil können Sie die Bildqualität konfigurieren. In der Tat verringer
 -   **Maximale Dauer einer Aufnahme** : maximale Aufnahmedauer.
 -   **Mach immer ein Video** : zwingt Jeedom, vor der Aufnahme immer Videoaufnahmen zu konvertieren.
 -   **Anzahl der Bilder pro Sekunde des Videos** : Anzahl der Bilder pro Sekunde von Videos.
--   **Bewegungserkennungsschwelle (0-100)** : Bewegungserkennungsschwelle (es wird empfohlen, 2 einzustellen). Je höher der Wert, desto höher die Empfindlichkeit.
 -   **Löschen Sie alle Kameraaufnahmen** : Löschen Sie alle Aufnahmen und Aufzeichnungen von der Kamera.
 
 ## Alimentation

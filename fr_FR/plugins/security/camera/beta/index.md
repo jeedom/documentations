@@ -31,7 +31,7 @@ Ici vous avez les informations principales de votre caméra :
 -   **Port** : le port pour sur lequel joindre la caméra.
 -   **Protocole** : le protocole de communication de votre caméra (http ou https).
 -   **Nom d'utilisateur** : nom d'utilisateur pour se connecter à la caméra (si nécessaire). Attention le plugin ne supporte pas les caractères spéciaux (il faut donc se limiter aux chiffres, lettres minuscule/majuscule).
--   **Mot de passe** : mot de passe pour se connecter à la caméra (si nécessaire).Attention le plugin ne supporte pas les caractères spéciaux (il faut donc se limiter aux chiffres, lettres minuscule/majuscule).
+-   **Mot de passe** : mot de passe pour se connecter à la caméra (si nécessaire).Attention le plugin fait un url_encode pour le nom d'utilisateur et mot de passe obligatoire pour certaine camera mais cela peut poser soucis pour d'autre, si vous avez un soucis essayez sans caractères spéciaux (se limiter aux chiffres, lettres minuscule/majuscule).
 -   **URL de snapshot** : URL de "snapshot" de la caméra. Change en fonction des caméras. Attention à ne pas mettre une url de flux sous peine de planter Jeedom. Vous pouvez ajouter les tags \#username\# et \#password\#, qui seront automatiquement remplacés par le nom d'utilisateur et le mot de passe lors de l'utilisation de cette commande.
 -   **URL du flux** : url du flux video de la caméra de type ``rtsp://#username#:#password#@#ip#:554/videoMain`` (exemple pour les caméras Foscam).
 -   **Modèle** : permet de choisir le modèle de la caméra. Attention : si vous changez cela écrasera vos paramètres de configuration.
@@ -57,7 +57,6 @@ Cette partie vous permet de configurer la qualité de l'image. En effet Jeedom d
 -   **Durée maximum d'un enregistrement** : durée maximum des enregistrements.
 -   **Toujours faire une vidéo** : force Jeedom à toujours transformer les enregistrements en vidéo avant l'enregistrement.
 -   **Nombre d'images par seconde de la vidéo** : nombre d'images par seconde des vidéos.
--   **Seuil de détection mouvement (0-100)** : seuil de détection de mouvement (il est conseillé de mettre 2). Plus la valeur est grande plus la sensibilité augmente.
 -   **Supprimer toutes les captures de la caméra** : supprime toutes les captures et enregistrements de la caméra.
 
 ## Alimentation

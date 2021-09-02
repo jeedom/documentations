@@ -31,7 +31,7 @@ Aqui você tem as principais informações da sua câmera :
 -   **Porta** : a porta à qual conectar a câmera.
 -   **Protocolo** : o protocolo de comunicação da sua câmera (http ou https).
 -   **Nome de Usuário** : nome de usuário para efetuar login na câmera (se necessário). Observe que o plug-in não suporta caracteres especiais (você deve, portanto, limitar-se a números, letras minúsculas / maiúsculas).
--   **Senha** : senha para conectar-se à câmera (se necessário).Observe que o plug-in não suporta caracteres especiais (você deve, portanto, limitar-se a números, letras minúsculas / maiúsculas).
+-   **Senha** : senha para conectar-se à câmera (se necessário).Observe que o plugin cria um url_encode para o nome de usuário e senha necessários para algumas câmeras, mas isso pode causar problemas para outras, se você tiver um problema, tente sem caracteres especiais (limitar-se a números, letras minúsculas / maiúsculas).
 -   **URL do instantâneo** : URL de instantâneo da câmera. Mude dependendo das câmeras. Cuidado para não colocar um URL de fluxo sob pena de travar o Jeedom. Você pode adicionar as tags \#username\# e \#password\#, que será substituído automaticamente pelo nome de usuário e senha ao usar este comando.
 -   **URL do feed** : digite o URL do stream de vídeo da câmera ``rtsp://#username#:#password#@#ip#:554/videoMain`` (exemplo para câmeras Foscam).
 -   **Modelo** : permite escolher o modelo da câmera. Atenção : se você mudar irá sobrescrever suas configurações.
@@ -57,7 +57,6 @@ Esta parte permite configurar a qualidade da imagem. Na verdade, o Jeedom diminu
 -   **Duração máxima de uma gravação** : duração máxima das gravações.
 -   **Sempre faça um vídeo** : força o Jeedom a sempre converter gravações de vídeo antes de gravar.
 -   **Número de quadros por segundo do vídeo** : número de quadros por segundo de vídeos.
--   **Limiar de detecção de movimento (0-100)** : limiar de detecção de movimento (é recomendável definir 2). Quanto maior o valor, maior a sensibilidade.
 -   **Excluir todas as capturas de câmera** : exclua todas as capturas e gravações da câmera.
 
 ## Alimentation

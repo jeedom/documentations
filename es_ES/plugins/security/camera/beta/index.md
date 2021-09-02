@@ -31,7 +31,7 @@ Aquí tienes la información principal de tu cámara :
 -   **Puerto** : el puerto para el que se conecta la cámara.
 -   **Protocolo** : El protocolo de comunicación de su cámara (http o https).
 -   **Nombre de usuario** : nombre de usuario para iniciar sesión en la cámara (si es necesario). Tenga en cuenta que el complemento no admite caracteres especiales (por lo tanto, debe limitarse a números, letras minúsculas / mayúsculas)).
--   **Contraseña** : contraseña para conectarse a la cámara (si es necesario).Tenga en cuenta que el complemento no admite caracteres especiales (por lo tanto, debe limitarse a números, letras minúsculas / mayúsculas)).
+-   **Contraseña** : contraseña para conectarse a la cámara (si es necesario).Tenga en cuenta que el complemento crea un url_encode para el nombre de usuario y la contraseña requeridos para algunas cámaras, pero esto puede causar problemas a otras, si tiene un problema, intente sin caracteres especiales (limítese a números, letras minúsculas / mayúsculas).
 -   **URL de instantánea** : URL de instantánea de cámara. Cambiar según las cámaras. Tenga cuidado de no poner una url de flujo bajo pena de estrellar Jeedom. Puedes agregar las etiquetas \#username\# y \#password\#, que será reemplazado automáticamente por el nombre de usuario y la contraseña al usar este comando.
 -   **URL del feed** : escriba la URL de la secuencia de vídeo de la cámara ``rtsp://#username#:#password#@#ip#:554/videoMain`` (ejemplo para cámaras Foscam).
 -   **Modelo** : permite elegir el modelo de cámara. Atención : si lo cambia, sobrescribirá sus ajustes de configuración.
@@ -57,7 +57,6 @@ Esta parte le permite configurar la calidad de la imagen. De hecho, Jeedom dismi
 -   **Duración máxima de una grabación** : duración máxima de grabaciones.
 -   **Siempre haz un video** : obliga a Jeedom a convertir siempre las grabaciones de video antes de grabar.
 -   **Número de fotogramas por segundo del video** : cantidad de cuadros por segundo de videos.
--   **Umbral de detección de movimiento (0-100)** : umbral de detección de movimiento (es recomendable establecer 2). Cuanto mayor sea el valor, mayor será la sensibilidad.
 -   **Eliminar todas las capturas de cámara** : eliminar todas las capturas y grabaciones de la cámara.
 
 ## Alimentation

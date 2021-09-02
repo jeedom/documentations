@@ -31,7 +31,7 @@ Here you have the main information of your camera :
 -   **Port** : the port for which to attach the camera.
 -   **Protocol** : the communication protocol of your camera (http or https).
 -   **Username** : username to log in to the camera (if required). Please note the plugin does not support special characters (you must therefore limit yourself to numbers, lowercase / uppercase letters).
--   **Password** : password to connect to the camera (if necessary).Please note the plugin does not support special characters (you must therefore limit yourself to numbers, lowercase / uppercase letters).
+-   **Password** : password to connect to the camera (if necessary).Be careful, the plugin makes a url_encode for the username and password required for some cameras but this can cause problems for others, if you have a problem try without special characters (be limited to numbers, lowercase / uppercase letters).
 -   **Snapshot URL** : Camera snapshot URL. Change depending on the cameras. Be careful not to put a flow url under penalty of crashing Jeedom. You can add the tags \#username\# and \#password\#, which will be automatically replaced by the username and password when using this command.
 -   **Feed URL** : type camera video stream url ``rtsp://#username#:#password#@#ip#:554/videoMain`` (example for Foscam cameras).
 -   **Model** : allows to choose the camera model. Be careful : if you change it will overwrite your configuration settings.
@@ -57,7 +57,6 @@ This part allows you to configure the image quality. Indeed Jeedom decreases the
 -   **Maximum duration of a recording** : maximum duration of recordings.
 -   **Always make a video** : forces Jeedom to always convert video recordings before recording.
 -   **Number of frames per second of the video** : number of frames per second of videos.
--   **Motion detection threshold (0-100)** : motion detection threshold (it is advisable to set 2). The higher the value, the higher the sensitivity.
 -   **Delete all camera captures** : delete all captures and recordings from the camera.
 
 ## Alimentation
