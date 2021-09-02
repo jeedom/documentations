@@ -16,7 +16,7 @@ Nous n'avons pour le moment détecté aucun impact.
 
 ### 4.2.X
 
-~~Il y a un soucis avec le nouveau système d'installation des dépendances pour celle utilisant pip3 (pip3 n'existe plus et est remplacé par pip)~~ => Corrigé en alpha.
+~~Il y a un soucis avec le nouveau système d'installation des dépendances pour celle utilisant pip3 (pip3 n'existe plus et est remplacé par pip)~~ => Corrigé
 
 ## Plugins
 
@@ -31,7 +31,37 @@ Nous ne pouvons tester tous les plugins, nous mettons donc juste le retour de ce
 - gcast
 - network
 - rfxcom
-- sonos
+- Agenda
+- Alarme
+- Ajax System
+- Arrosage
+- Bestway
+- Comptage
+- Denon
+- EcoRT2
+- Fitbit (new)
+- Gestion lumières
+- Gestion thermostat
+- Gestion volets
+- Google Smarthome
+- Alexa smarthome
+- IPX800v4
+- Mode
+- Migo Thermostat
+- Monitoring
+- Neato
+- Netatmo
+- Notification Manager
+- Philips hue
+- Simulation Présence
+- Sonos controller
+- Son et TTS
+- Spotify
+- Télégram
+- Ubiquiti Unifi Protect
+- Virtuel
+- Weather
+
 
 ### Incompatible
 
