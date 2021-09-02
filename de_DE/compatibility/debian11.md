@@ -16,7 +16,7 @@ Wir haben noch keine Auswirkungen festgestellt.
 
 ### 4.2.X
 
-~~ Es gibt ein Problem mit dem neuen Abhängigkeits-Installationssystem für das, das pip3 verwendet (pip3 existiert nicht mehr und wird durch pip ersetzt) ~~ => In Alpha behoben.
+~~ Es gibt ein Problem mit dem neuen Abhängigkeits-Installationssystem für das, das pip3 verwendet (pip3 existiert nicht mehr und wird durch pip ersetzt) ~~ => Behoben
 
 ## Plugins
 
@@ -31,7 +31,37 @@ Wir können nicht alle Plugins testen, daher geben wir im Moment nur das Feedbac
 - gcast
 - network
 - rfxcom
-- sonos
+- Agenda
+- Alarme
+- Ajax-System
+- Arrosage
+- Bestway
+- Comptage
+- Denon
+- EcoRT2
+- Fitbit (neu)
+- Lichtmanagement
+- Thermostatverwaltung
+- Rollladenmanagement
+- Google-Smarthome
+- Alexa-Smarthome
+- IPX800v4
+- Mode
+- Migo-Thermostat
+- Monitoring
+- Neato
+- Netatmo
+- Benachrichtigungsmanager
+- Philips Farbton
+- Anwesenheitssimulation
+- Sonos-Controller
+- Ton und TTS
+- Spotify
+- Telegramm
+- Ubiquiti Unifi Protect
+- Virtuel
+- Weather
+
 
 ### Incompatible
 

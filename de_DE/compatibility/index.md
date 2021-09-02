@@ -51,26 +51,32 @@ Sie finden alle Jeedom-Bilder [hier](https://images.jeedom.com/)
 |-------------------------|-------------------------|--------------------------|
 | PHP 5.5 oder weniger        | Wird nicht unterstützt            |                          |
 | PHP 5.6                 | Ende der Unterstützung (in 4.1) |                          |
-| PHP 7.0 / 7.1 / 7.2 / 7.3     | Stabil                  |                          |
+| PHP 7.0 / 7.1 / 7.2 / 7.3 / 7.4 | Stabil                  |                          |
+| PHP 8.0 und höher         | Keine Unterstützung (vorerst .))|                          |
 | MySQL 7.4               | Beta                    |                          |
 | MySQL 5.5 / 5.6           | Stabil                  |                          |
 | MySQL 5.7               | Stabil                  |                          |
 | MariaBD                 | Stabil                  |                          |
 
 
-# Bluetooth
+# Kompatible Geräte
+
+Sie finden hier für die wichtigsten Protokolle die Links zu den kompatiblen Geräten für die anderen wir laden Sie ein, direkt in die Dokumentation des Plugins zu schauen
+
+
+## Bluetooth
 
 Sie finden die Liste [hier](https://compatibility.jeedom.com/index.php?p=home&plugin=blea) Jeedom-kompatible Bluetooth-Module
 
-# Kameras
+## Kameras
 
 Sie finden die Liste [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=camera) Jeedom-kompatible Kameras
 
-# Edisio
+## Edisio
 
 Sie finden die Liste [hier](https://doc.jeedom.com/de_DE/edisio/equipement.compatible) Jeedom kompatible Edisio Module und [hier](https://doc.jeedom.com/de_DE/edisio/) Dokumentation für einige Module
 
-# EnOcean
+## EnOcean
 
 ENOCEAN-Controller :
 
@@ -79,7 +85,7 @@ ENOCEAN-Controller :
 
 Sie finden die Liste [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) Jeedom-kompatible EnOcean-Module 
 
-# RFXcom
+## RFXcom
 
 RFXcom-Controller :
 
@@ -88,13 +94,13 @@ RFXcom-Controller :
 
 Sie finden die Liste [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=rfxcom) Jef-kompatible Rfxcom-Module und [hier](https://doc.jeedom.com/de_DE/rfxcom/) Dokumentation für einige Module
 
-# SMS (GSM)
+## SMS (GSM)
 
 -   HUAWEI E220 (empfohlen)
 -   Alcatel One Touch X220L
 -   HSDPA 7.2MBPS 3G Wireless
 
-# Zigbee
+## Zigbee
 
 ZigBee-Controller :
 
@@ -104,7 +110,7 @@ ZigBee-Controller :
 
 Sie finden die Liste [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) Jeedom-kompatible ZigBee-Module
 
-# Zwave
+## Zwave
 
 Z-Wave-Controller :
 

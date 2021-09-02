@@ -16,7 +16,7 @@ Aún no hemos detectado ningún impacto.
 
 ### 4.2.X
 
-~~ Hay un problema con el nuevo sistema de instalación de dependencias para el que usa pip3 (pip3 ya no existe y es reemplazado por pip) ~~ => Corregido en alfa.
+~~ Hay un problema con el nuevo sistema de instalación de dependencias para el que usa pip3 (pip3 ya no existe y es reemplazado por pip) ~~ => Corregido
 
 ## Plugins
 
@@ -31,7 +31,37 @@ No podemos probar todos los complementos, por lo que solo estamos poniendo los c
 - gcast
 - network
 - rfxcom
-- sonos
+- Agenda
+- Alarme
+- Sistema Ajax
+- Arrosage
+- Bestway
+- Comptage
+- Denon
+- EcoRT2
+- Fitbit (nuevo)
+- Gestión de la luz
+- Gestión de termostato
+- Gestión de persianas
+- Google Smarthome
+- Alexa smarthome
+- IPX800v4
+- Mode
+- Termostato Migo
+- Monitoring
+- Neato
+- Netatmo
+- Administrador de notificaciones
+- Philips tono
+- Simulación de presencia
+- Controlador de Sonos
+- Sonido y TTS
+- Spotify
+- Telegrama
+- Ubiquiti Unifi Protect
+- Virtuel
+- Weather
+
 
 ### Incompatible
 
