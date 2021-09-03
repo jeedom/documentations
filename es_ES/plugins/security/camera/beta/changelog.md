@@ -4,6 +4,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Se agregó un botón para obtener una vista previa de la transmisión de video en la página de configuración de la cámara
+
 # 31/08/2021
 
 - Modificación para permitir la recuperación de una función de otro complemento (se utilizará para un futuro complemento Unifi Protect)

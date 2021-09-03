@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Adicionado um botão para visualizar o stream de vídeo na página de configuração da câmera
+
 # 31/08/2021
 
 - Modificação para permitir a recuperação de uma função de outro plugin (será usado para um futuro plugin Unifi Protect)

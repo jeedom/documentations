@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Added a button to preview the video stream on the camera configuration page
+
 # 08/31/2021
 
 - Modification to allow recovery from a function of another plugin (will be used for a future Unifi Protect plugin)

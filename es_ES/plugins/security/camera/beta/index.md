@@ -34,6 +34,9 @@ Aquí tienes la información principal de tu cámara :
 -   **Contraseña** : contraseña para conectarse a la cámara (si es necesario).Tenga en cuenta que el complemento crea un url_encode para el nombre de usuario y la contraseña requeridos para algunas cámaras, pero esto puede causar problemas a otras, si tiene un problema, intente sin caracteres especiales (limítese a números, letras minúsculas / mayúsculas).
 -   **URL de instantánea** : URL de instantánea de cámara. Cambiar según las cámaras. Tenga cuidado de no poner una url de flujo bajo pena de estrellar Jeedom. Puedes agregar las etiquetas \#username\# y \#password\#, que será reemplazado automáticamente por el nombre de usuario y la contraseña al usar este comando.
 -   **URL del feed** : escriba la URL de la secuencia de vídeo de la cámara ``rtsp://#username#:#password#@#ip#:554/videoMain`` (ejemplo para cámaras Foscam).
+-   **Flujo de flujo RTSP** : Si está en modo de transmisión de video (URL de transmisión completa), puede ver la cámara como una transmisión de video en lugar de cuadro por cuadro. Tenga en cuenta que esta opción consume muchos recursos y hace que la primera imagen esté muy por llegar.
+-   **Avance** : le permite ver si jeedom recupera la transmisión de video (recuerde guardar antes de probar para ver si sus modificaciones funcionan)
+-   **Opción de transmisión de video** : Si está en modo de transmisión de video (URL de transmisión completa), puede pasar parámetros adicionales aquí a ffmpeg y avconv (reservado para expertos)
 -   **Modelo** : permite elegir el modelo de cámara. Atención : si lo cambia, sobrescribirá sus ajustes de configuración.
 
 > **Nota**

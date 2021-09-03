@@ -34,6 +34,9 @@ Aqui você tem as principais informações da sua câmera :
 -   **Senha** : senha para conectar-se à câmera (se necessário).Observe que o plugin cria um url_encode para o nome de usuário e senha necessários para algumas câmeras, mas isso pode causar problemas para outras, se você tiver um problema, tente sem caracteres especiais (limitar-se a números, letras minúsculas / maiúsculas).
 -   **URL do instantâneo** : URL de instantâneo da câmera. Mude dependendo das câmeras. Cuidado para não colocar um URL de fluxo sob pena de travar o Jeedom. Você pode adicionar as tags \#username\# e \#password\#, que será substituído automaticamente pelo nome de usuário e senha ao usar este comando.
 -   **URL do feed** : digite o URL do stream de vídeo da câmera ``rtsp://#username#:#password#@#ip#:554/videoMain`` (exemplo para câmeras Foscam).
+-   **Stream stream RTSP** : se você estiver no modo de stream de vídeo (URL do stream preenchido), você pode ver a câmera como um stream de vídeo em vez de quadro a quadro. Observe que esta opção consome muitos recursos e faz com que a 1ª imagem chegue muito.
+-   **Antevisão** : permite-lhe ver se o jeedom recupera o fluxo de vídeo (lembre-se de guardar antes de testar para ver se as suas modificações funcionam)
+-   **Opção de transmissão de vídeo** : se você estiver no modo de fluxo de vídeo (URL do fluxo preenchido), você pode passar parâmetros adicionais aqui para ffmpeg e avconv (reservado para especialistas)
 -   **Modelo** : permite escolher o modelo da câmera. Atenção : se você mudar irá sobrescrever suas configurações.
 
 > **NOTA**
