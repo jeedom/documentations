@@ -43,5 +43,7 @@
         "v4",
         "smart",
         "atlas"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/zigbee\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/zigbee\/beta"
 }

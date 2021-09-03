@@ -27,10 +27,6 @@ Darüber hinaus ist das Plugin mit vielen Tools ausgestattet, die es ermögliche
 >- von einer Woche zur anderen kann sich das Modul geändert haben (neue Hardware, neue Firmware oder sogar neues Modul, das seinen Namen nicht geändert hat))
 >Jeedom kann unter keinen Umständen für eine fehlende Funktion (oder sogar ein nicht funktionierendes Modul) verantwortlich gemacht werden, wenn diese als kompatibel angegeben ist, wie Sie es tun, wir unterliegen den Änderungen des Herstellers
 
-# Liste kompatibler Module
-
-Du wirst finden [Hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) die Liste der Module, die mit dem Zigbee-Plugin kompatibel sind
-
 # Configuration
 
 ## Plugin Konfiguration
@@ -42,6 +38,10 @@ Du wirst finden [Hier](https://compatibility.jeedom.com/index.php?v=d&p=home&sea
 >**Wichtig**
 >
 >Jeder Kanalwechsel erfordert einen Neustart des Dämons. Ein Kanalwechsel kann auch die Wiedereingliederung bestimmter Module erfordern.
+
+## Compatibilité
+
+Sie finden [Hier](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=zigbee) die Liste der Module, die mit dem Plugin kompatibel sind
 
 ### Erweiterte Zigpy-Konfiguration
 

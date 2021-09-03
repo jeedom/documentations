@@ -27,10 +27,6 @@ De plus, le plugin est doté de nombreux outils permettant :
 >- d'une semaine à l'autre le module peut avoir changé (nouveau hardware, nouveau firmware ou meme nouveau module qui n'a pas changé de nom)
 >En aucun cas Jeedom ne pourra etre tenu responsable en cas de fonction manquante (ou meme de module ne marchant pas) alors qu'il est indiqué compatible, nous subissons comme vous les changements imposé par le fabricant
 
-# Liste des modules compatible
-
-Vous trouverez [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) la liste des modules compatible avec le plugin Zigbee
-
 # Configuration
 
 ## Configuration du plugin
@@ -42,6 +38,10 @@ Vous trouverez [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&searc
 >**IMPORTANT**
 >
 >Tout changement de canal nécessitera un redémarrage du démon. Un changement de canal peut également nécessiter la ré-inclusion de certains modules.
+
+## Compatibilité
+
+Vous pouvez trouver [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=zigbee) la liste des modules compatible avec le plugin
 
 ### Configuration avancée Zigpy
 

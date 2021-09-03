@@ -8,6 +8,7 @@
 >
 >Um das neue kompatible Modul zu kennen, müssen Sie gehen [das](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (Es ist nach dem Datum sortiert, an dem es hinzugefügt / geändert wurde)
 
+# 09.03.2021
 
 - In einigen Fällen ein Problem bei der Gruppenerstellung behoben
 - Feste Gruppenlistenanzeige

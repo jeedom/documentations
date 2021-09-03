@@ -10,7 +10,7 @@ Este plug-in permitirá que você integre seu ecossistema Philips Hue ao Jeedom.
 
 Como qualquer plugin Jeedom, o plugin **Philips Hue** deve ser ativado após a instalação.
 
-Assim que o plug-in for ativado, você precisará inserir o endereço IP no qual sua ponte Philips Hue pode ser acessada.
+Assim que o plug-in for ativado, você precisará inserir o endereço IP no qual sua ponte Philips Hue pode ser acessada. Normalmente, o plugin deve pedir que você pressione o botão ponte durante a primeira sincronização.
 
 >**TRUQUE**
 >

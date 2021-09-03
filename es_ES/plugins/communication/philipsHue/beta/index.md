@@ -10,7 +10,7 @@ Este complemento le permitirá integrar su ecosistema Philips Hue en Jeedom. El 
 
 Como cualquier complemento de Jeedom, el complemento **Philips Hue** debe activarse después de la instalación.
 
-Una vez que se activa el complemento, deberá ingresar la dirección IP en la que se puede acceder a su puente Philips Hue.
+Una vez que se activa el complemento, deberá ingresar la dirección IP en la que se puede acceder a su puente Philips Hue. Normalmente, el complemento debería pedirle que presione el botón de puente durante la primera sincronización.
 
 >**TRUCO**
 >
