@@ -98,6 +98,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/Halemeier_GmbH.HA-ZGMW2-E.png" width="60" />|Halemeier|HA-ZGMW2-E||||
+|<img src="../../de_DE/zigbee/images/Halemeier_GmbH.HA-ZGMW2-S.png" width="60" />|Halemeier|HA-ZGMW2-E||||
 
 # Insta
 
@@ -433,6 +434,7 @@
 |<img src="../../de_DE/zigbee/images/LEDVANCE.A60_RGBW_Value_II.png" width="60" />|Ledvance|Classic E27 Multicolor||||
 |<img src="../../de_DE/zigbee/images/LEDVANCE.A60_TW_Value_II.png" width="60" />|Ledvance|Klassisches E27 Abstimmbares Weiß||||
 |<img src="../../de_DE/zigbee/images/LEDVANCE.FLEX_RGBW_Z3.png" width="60" />|Ledvance|FLEX RGBW Z3||||
+|<img src="../../de_DE/zigbee/images/LEDVANCE.Gardenpole_RGBW_Z3.png" width="60" />|Ledvance|Gartenmast RGBW Z3||||
 |<img src="../../de_DE/zigbee/images/LEDVANCE.Outdoor_FLEX_RGBW_Z3.png" width="60" />|Ledvance|Outdoor FLEX RGBW Z3||||
 |<img src="../../de_DE/zigbee/images/LEDVANCE.Plug_Value.png" width="60" />|Ledvance|LEDVANCE SMART + BT OUTDOOR STECKER EU||||
 |<img src="../../de_DE/zigbee/images/LEDVANCE.Plug_Z3.png" width="60" />|Ledvance|Smart Socket + Stecker Z3||||
@@ -671,8 +673,10 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_abci1hiu.TS0044.png" width="60" />|Tuya|Szenen-Fernbedienung 4 Tasten||||
 |<img src="../../de_DE/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Intelligenter Doppelschalter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_cphmq0q7.TS011F.png" width="60" />|Tuya|Angeschlossene Steckdose|Buchse, Messgerät, Leistung, Repeater|||
-|<img src="../../de_DE/zigbee/images/TZ3000_dfgbtub0.TS0041.png" width="60" />|Tuya|Verbundene Schalter 2 Tasten|||[Kaufen](https://www.domadoo.fr/fr/domotique/5786-moes-interrupteur-intelligent-sans-fil-zigbee-2-boutons.html)|
+|<img src="../../de_DE/zigbee/images/TZ3000_dfgbtub0.TS0042.png" width="60" />|Tuya|Verbundene Schalter 2 Tasten|||[Kaufen](https://www.domadoo.fr/fr/domotique/5786-moes-interrupteur-intelligent-sans-fil-zigbee-2-boutons.html)|
 |<img src="../../de_DE/zigbee/images/TZ3000_ebar6ljy.TS0203.png" width="60" />|Tuya|Sensor öffnen|Ouverture|||
+|<img src="../../de_DE/zigbee/images/TZ3000_excgg5kb.TS0004.png" width="60" />|Tuya|EIN / AUS-Schalter 2300W 1 Kanal||||
+|<img src="../../de_DE/zigbee/images/TZ3000_fccpjz5z.TS130F.png" width="60" />|Tuya|Intelligentes Rollladenmodul (2)||||
 |<img src="../../de_DE/zigbee/images/TZ3000_fvh3pjaz.TS0012.png" width="60" />|Tuya|Doppelschalter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_g5xawfcq.TS0121.png" width="60" />|Tuya|BLITZWOLF - EU 16A Smart Plug||||
 |<img src="../../de_DE/zigbee/images/TZ3000_hdlpifbk.TS0004.png" width="60" />|Tuya|Dreifachschalter||||
@@ -693,7 +697,7 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|RGBW LED Strip Controller||||
 |<img src="../../de_DE/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|Intelligentes Rollladenmodul||||
 |<img src="../../de_DE/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4-Tasten-Smart-Schalter mit Batterien||||
-|<img src="../../de_DE/zigbee/images/TZ3000_w8jwkczz.TS0041.png" width="60" />|Tuya|Schalter mit 3 Tasten|||[Kaufen](https://www.domadoo.fr/fr/domotique/5787-moes-interrupteur-intelligent-sans-fil-zigbee-3-boutons.html)|
+|<img src="../../de_DE/zigbee/images/TZ3000_w8jwkczz.TS0043.png" width="60" />|Tuya|Schalter mit 3 Tasten|||[Kaufen](https://www.domadoo.fr/fr/domotique/5787-moes-interrupteur-intelligent-sans-fil-zigbee-3-boutons.html)|
 |<img src="../../de_DE/zigbee/images/TZ3000_wyhuocal.TS0013.png" width="60" />|Tuya|Dreifachschalter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_x085c3it.TS0207.png" width="60" />|Tuya|Hochwassermelder (2)|Fuite|||
 |<img src="../../de_DE/zigbee/images/TZ3000_xabckq1v.TS004F.png" width="60" />|Tuya|4-Tasten-Smart-Schalter mit Batterien||||
@@ -701,6 +705,7 @@
 |<img src="../../de_DE/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Schalter mit 3 Tasten||||
 |<img src="../../de_DE/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Verbundene Schalter 2 Tasten||||
 |<img src="../../de_DE/zigbee/images/TZE200_aoclfnxz.TS0601.png" width="60" />|Tuya|Intelligenter Thermostat||||
+|<img src="../../de_DE/zigbee/images/TZE200_b6wax7g0.TS0601.png" width="60" />|Moes|MOES - Intelligenter Thermostatkopf (3)||||
 |<img src="../../de_DE/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|MOES - Intelligenter Thermostatkopf||||
 |<img src="../../de_DE/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Intelligente Sirene mit Temperatur- und Feuchtigkeitssensor||||
 |<img src="../../de_DE/zigbee/images/TZE200_dfxkcots.TS0601.png" width="60" />|Tuya|MOES - Intelligenter Thermostat||||
@@ -787,4 +792,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-09-03 02:32:05
+2021-09-04 02:32:18

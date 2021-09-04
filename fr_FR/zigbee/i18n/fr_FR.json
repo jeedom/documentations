@@ -90,6 +90,7 @@
         "MOES - Thermostat intelligent": "MOES - Thermostat intelligent",
         "Sirène intelligente avec capteur de température et humidité": "Sirène intelligente avec capteur de température et humidité",
         "MOES - Tête thermostatique intelligente": "MOES - Tête thermostatique intelligente",
+        "MOES - Tête thermostatique intelligente (3": "MOES - Tête thermostatique intelligente (3",
         "Thermostat intelligent": "Thermostat intelligent",
         "Interrupteur connecté 2 boutons": "Interrupteur connecté 2 boutons",
         "Interrupteur connecté 3 boutons": "Interrupteur connecté 3 boutons",
@@ -116,6 +117,8 @@
         "Gigier JR-ZDS01": "Gigier JR-ZDS01",
         "BLITZWOLF - Prise intelligente EU 16A": "BLITZWOLF - Prise intelligente EU 16A",
         "Interrupteur double": "Interrupteur double",
+        "Module intelligent pour volet roulant (2": "Module intelligent pour volet roulant (2",
+        "Commutateur ON\/OFF 2300W 1 canal": "Commutateur ON\/OFF 2300W 1 canal",
         "Capteur d'ouverture": "Capteur d'ouverture",
         "Ouverture": "Ouverture",
         "Prise connectée": "Prise connectée",
@@ -147,7 +150,6 @@
         "Mini capteur de mouvement": "Mini capteur de mouvement",
         "Interrupteur connecté pour volet roulant": "Interrupteur connecté pour volet roulant",
         "Prise intelligente ON\/OFF et 2 ports USB": "Prise intelligente ON\/OFF et 2 ports USB",
-        "Commutateur ON\/OFF 2300W 1 canal": "Commutateur ON\/OFF 2300W 1 canal",
         "Capteur de vibration": "Capteur de vibration",
         "Capteur de température et humidité": "Capteur de température et humidité",
         "Tryo2sys": "Tryo2sys",
@@ -306,6 +308,7 @@
         "Prise Smart+ Plug Z3": "Prise Smart+ Plug Z3",
         "LEDVANCE SMART+ BT OUTDOOR PLUG EU": "LEDVANCE SMART+ BT OUTDOOR PLUG EU",
         "Outdoor FLEX RGBW Z3": "Outdoor FLEX RGBW Z3",
+        "Gardenpole RGBW Z3": "Gardenpole RGBW Z3",
         "FLEX RGBW Z3": "FLEX RGBW Z3",
         "Classic E27 Tunable white": "Classic E27 Tunable white",
         "Classic E27 Multicolor": "Classic E27 Multicolor",
@@ -540,6 +543,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-09-03 02": "2021-09-03 02"
+        "2021-09-04 02": "2021-09-04 02"
     }
 }
