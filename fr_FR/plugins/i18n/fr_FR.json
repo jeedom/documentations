@@ -17,6 +17,21 @@
         "Market": "Market",
         "Changelog": "Changelog"
     },
+    "plugins\/atlas\/index.md": {
+        "Plugins spécialisé pour la Atlas": "Plugins spécialisé pour la Atlas",
+        "Atlas": "Atlas",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "IMPORTANT": "IMPORTANT",
+        "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
+        "ici": "ici",
+        "Vous pouvez voir": "Vous pouvez voir",
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation beta": "Documentation beta",
+        "Market": "Market",
+        "Changelog beta": "Changelog beta"
+    },
     "plugins\/automation protocol\/index.md": {
         "Il est important de bien lire la documentation du plugin avant tout achat": "Il est important de bien lire la documentation du plugin avant tout achat",
         "Zigbee": "Zigbee",
@@ -578,6 +593,9 @@
         "Cela permet lorsque quelqu'un sonne chez vous d'afficher la caméra de l'entrée sur votre Jeedom": "Cela permet lorsque quelqu'un sonne chez vous d'afficher la caméra de l'entrée sur votre Jeedom",
         "Click link": "Click link",
         "Ce plugin permet la gestion de liens et d'évènements directement sur l'interface Jeedom": "Ce plugin permet la gestion de liens et d'évènements directement sur l'interface Jeedom",
+        "Plugins spécialisé pour la Atlas": "Plugins spécialisé pour la Atlas",
+        "Atlas": "Atlas",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
         "Programmation": "Programmation",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
@@ -586,9 +604,11 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation beta": "Documentation beta",
+        "Market": "Market",
+        "Changelog beta": "Changelog beta",
         "Documentation": "Documentation",
         "Vous pourrez, par exemple, créer une commande qui ouvre une modale (fenêtre de dialogue) avec une vue contenant vos caméras": "Vous pourrez, par exemple, créer une commande qui ouvre une modale (fenêtre de dialogue) avec une vue contenant vos caméras",
-        "Market": "Market",
         "Changelog": "Changelog"
     },
     "plugins\/security\/index.md": {

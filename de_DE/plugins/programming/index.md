@@ -2,13 +2,14 @@
 # Programmation
 
 
->**Wichtig**
->Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation der anderen Plugins direkt im Jeedom Market einsehen. Klicken Sie im betreffenden Plugin auf Dokumentation.
->Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=programming) Alle offiziellen Plugins in dieser Kategorie
+>**WICHTIG**
+>Nur offizielle Plugins haben ihre Dokumentation hier. Sie können die Dokumentation der anderen Plugins direkt aus dem Jeedom Market einsehen. Klicken Sie auf dem betreffenden Plugin auf Dokumentation.
+>Du kannst sehen [Hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=programming) alle offiziellen Plugins in dieser Kategorie
 
 
 | | | | |
 |--- | --- | --- | ---|
+|<img src="atlas/beta/atlas_icon.png" class="pluginLogo" width="100" />|Atlas|ACHTUNG Plugin nur in Beta verfügbar<br/>Spezialisierte Plugins für den Atlas|[Beta-Dokumentation](atlas/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=4195)<br/>[Changelog-Beta](atlas/beta/changelog.md)|
 |<img src="clink/clink_icon.png" class="pluginLogo" width="100" />|Klicken Sie auf den Link|Dieses Plugin ermöglicht die Verwaltung von Links und Ereignissen direkt auf der Jeedom-Oberfläche. Sie können beispielsweise einen Befehl erstellen, der ein Modal (Dialogfenster) mit einer Ansicht öffnet, die Ihre Kameras enthält. Dies ermöglicht es, wenn jemand an Ihrer Tür klingelt, die Eingangskamera auf Ihrem Jeedom anzuzeigen.|[Dokumentation](clink/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1867)<br/>[Änderungsprotokoll](clink/changelog.md)|
 |<img src="dyndns/dyndns_icon.png" class="pluginLogo" width="100" />|Dyndns|Plugin zum dynamischen Aktualisieren von DNS|[Dokumentation](dyndns/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1928)<br/>[Änderungsprotokoll](dyndns/changelog.md)|
 |<img src="htmldisplay/htmldisplay_icon.png" class="pluginLogo" width="100" />|HTML-Anzeige|Plugin zum Einfügen von HTML-Code in ein Geräte-Widget (zum Beispiel zum Erstellen eines eigenen Menüs für Designs).|[Dokumentation](htmldisplay/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3843)<br/>[Änderungsprotokoll](htmldisplay/changelog.md)|

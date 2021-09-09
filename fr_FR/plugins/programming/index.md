@@ -9,6 +9,7 @@
 
 | | | | |
 |--- | --- | --- | ---|
+|<img src="atlas/beta/atlas_icon.png" class="pluginLogo" width="100" />|Atlas|ATTENTION plugin disponible uniquement en beta<br/>Plugins spécialisé pour la Atlas|[Documentation beta](atlas/beta/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4195)<br/>[Changelog beta](atlas/beta/changelog.md)|
 |<img src="clink/clink_icon.png" class="pluginLogo" width="100" />|Click link|Ce plugin permet la gestion de liens et d’évènements directement sur l’interface Jeedom. Vous pourrez, par exemple, créer une commande qui ouvre une modale (fenêtre de dialogue) avec une vue contenant vos caméras. Cela permet lorsque quelqu’un sonne chez vous d’afficher la caméra de l’entrée sur votre Jeedom.|[Documentation](clink/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1867)<br/>[Changelog](clink/changelog.md)|
 |<img src="dyndns/dyndns_icon.png" class="pluginLogo" width="100" />|Dyndns|Plugin pour mettre à jour dynamiquement des DNS|[Documentation](dyndns/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1928)<br/>[Changelog](dyndns/changelog.md)|
 |<img src="htmldisplay/htmldisplay_icon.png" class="pluginLogo" width="100" />|HTML Display|Plugin permettant de mettre du code HTML dans un widget équipement (permet par exemple de faire son propre menu pour les designs).|[Documentation](htmldisplay/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3843)<br/>[Changelog](htmldisplay/changelog.md)|

@@ -1,0 +1,43 @@
+{
+    "id": "atlas",
+    "name": "Atlas",
+    "description": {
+        "fr_FR": "Plugins spécialisé pour la Atlas",
+        "en_US": "Specialized plugins for the Atlas",
+        "es_ES": "Complementos especializados para Atlas",
+        "de_DE": "Spezialisierte Plugins für den Atlas",
+        "ru_RU": "Plugins spécialisé pour la Atlas",
+        "id_ID": "Plugins spécialisé pour la Atlas",
+        "it_IT": "Plugins spécialisé pour la Atlas",
+        "ja_JP": "Plugins spécialisé pour la Atlas",
+        "pt_PT": "Plugins especializados para o Atlas",
+        "tr": "Plugins spécialisé pour la Atlas"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.1",
+    "category": "programming",
+    "hasDependency": true,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/atlas\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/atlas\/",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "smart",
+        "atlas",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/atlas\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/atlas\/beta"
+}
