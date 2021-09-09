@@ -203,6 +203,41 @@
         "Il existe aussi une commande démo ainsi qu'une commande tous (pour agir sur tous les écrans en meme temps) ,ainsi qu'une commande phrase pour splitter une phrase sur les 4 écrans": "Il existe aussi une commande démo ainsi qu'une commande tous (pour agir sur tous les écrans en meme temps) ,ainsi qu'une commande phrase pour splitter une phrase sur les 4 écrans",
         "Avec ce plugin vous pouvez ainsi être notifié par SMS, voire poser une question ou déclencher une action via SMS grâce au moteur d'interactions": "Avec ce plugin vous pouvez ainsi être notifié par SMS, voire poser une question ou déclencher une action via SMS grâce au moteur d'interactions"
     },
+    "plugins\/compatibility-site\/index.md": {
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "IMPORTANT": "IMPORTANT",
+        "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
+        "ici": "ici",
+        "Vous pouvez voir": "Vous pouvez voir",
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Market": "Market"
+    },
+    "plugins\/core v3.3\/index.md": {
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "IMPORTANT": "IMPORTANT",
+        "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
+        "ici": "ici",
+        "Vous pouvez voir": "Vous pouvez voir",
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Market": "Market",
+        "Changelog beta": "Changelog beta"
+    },
+    "plugins\/core v4.2\/index.md": {
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "IMPORTANT": "IMPORTANT",
+        "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
+        "ici": "ici",
+        "Vous pouvez voir": "Vous pouvez voir",
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Market": "Market",
+        "Changelog beta": "Changelog beta"
+    },
     "plugins\/devicecommunication\/index.md": {
         "Nabaztag": "Nabaztag",
         "Plugin pour commander le Nabaztag": "Plugin pour commander le Nabaztag",
@@ -343,6 +378,17 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
+    },
+    "plugins\/market\/index.md": {
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "IMPORTANT": "IMPORTANT",
+        "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
+        "ici": "ici",
+        "Vous pouvez voir": "Vous pouvez voir",
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Market": "Market"
     },
     "plugins\/monitoring\/index.md": {
         "Ventilairsec": "Ventilairsec",
@@ -501,6 +547,17 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
+    },
+    "plugins\/pro\/index.md": {
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "IMPORTANT": "IMPORTANT",
+        "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
+        "ici": "ici",
+        "Vous pouvez voir": "Vous pouvez voir",
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Market": "Market"
     },
     "plugins\/programming\/index.md": {
         "Widget": "Widget",
