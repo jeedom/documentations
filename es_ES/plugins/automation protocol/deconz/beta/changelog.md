@@ -6,6 +6,8 @@
 
 
 - Se agregó ZHAAirQualit, meric @sagitaz
+- Se corrigió un error con la última versión de deconz al devolver actualizaciones de atributos
+- Adición de gestión grupal y vinculante
 
 # 02/08/2021
 

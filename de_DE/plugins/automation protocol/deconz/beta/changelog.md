@@ -6,6 +6,8 @@
 
 
 - ZHAAirQualit hinzugefügt, meric @sagitaz
+- Es wurde ein Fehler mit der neuesten Version von deconz bei der Rückgabe von Attribut-Updates behoben
+- Ergänzung um Gruppen- und Bindungsverwaltung
 
 # 02/08/2021
 

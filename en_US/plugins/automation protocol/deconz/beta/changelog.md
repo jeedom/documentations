@@ -6,6 +6,8 @@
 
 
 - Added ZHAAirQualit, meric @sagitaz
+- Fixed a bug with the latest version of deconz on returning attribute updates
+- Addition of group and binding management
 
 # 02/08/2021
 

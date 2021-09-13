@@ -6,6 +6,8 @@
 
 
 - Adicionado ZHAAirQualit, meric @sagitaz
+- Corrigido um bug com a versão mais recente do deconz ao retornar atualizações de atributos
+- Adição de grupo e gerenciamento de ligação
 
 # 08/02/2021
 
