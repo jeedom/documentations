@@ -1,0 +1,44 @@
+{
+    "id": "bacnet",
+    "name": "BACnet",
+    "description": {
+        "fr_FR": "Plugin permettant de piloter des équipements Bacnet\/IP",
+        "en_US": "Plugin for controlling Bacnet \/ IP equipment",
+        "es_ES": "Complemento para controlar equipos Bacnet \/ IP",
+        "de_DE": "Plugin zur Steuerung von Bacnet \/ IP-Geräten",
+        "ru_RU": "Plugin permettant de piloter des équipements Bacnet\/IP",
+        "id_ID": "Plugin permettant de piloter des équipements Bacnet\/IP",
+        "it_IT": "Plugin permettant de piloter des équipements Bacnet\/IP",
+        "ja_JP": "Plugin permettant de piloter des équipements Bacnet\/IP",
+        "pt_PT": "Plugin para controlar equipamentos Bacnet \/ IP",
+        "tr": "Plugin permettant de piloter des équipements Bacnet\/IP"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.0.62",
+    "category": "automation protocol",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/bacnet\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/bacnet\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "diy",
+        "v4"
+    ]
+}

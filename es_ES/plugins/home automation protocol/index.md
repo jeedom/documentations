@@ -7,3 +7,6 @@
 >Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=home+automation+protocol) todos los complementos oficiales en esta categoría
 
 
+| | | | |
+|--- | --- | --- | ---|
+|<img src="atlas/beta/atlas_icon.png" class="pluginLogo" width="100" />|Atlas|El complemento ATENCIÓN está disponible solo en versión beta<br/>Complementos especializados para Atlas|[Documentación beta](atlas/beta/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=4195)<br/>[Lista de cambios beta](atlas/beta/changelog.md)|

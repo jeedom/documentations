@@ -7,3 +7,6 @@
 >You can see [here](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=home+automation+protocol) all official plugins in this category
 
 
+| | | | |
+|--- | --- | --- | ---|
+|<img src="atlas/beta/atlas_icon.png" class="pluginLogo" width="100" />|Atlas|ATTENTION plugin available only in beta<br/>Specialized plugins for the Atlas|[Beta documentation](atlas/beta/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4195)<br/>[Changelog beta](atlas/beta/changelog.md)|
