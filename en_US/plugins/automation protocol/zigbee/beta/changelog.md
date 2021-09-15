@@ -8,6 +8,16 @@
 >
 >To know the new compatible module you have to go [the](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (it is sorted by date added / modified)
 
+# 09/15/2021
+
+- Fixed a bug on inclusion
+- Improved log levels
+- Addition of new modules
+
+>**Important**
+>
+>It is ABSOLUTELY necessary to launch an installation of dependencies even if it is OK (we are working in jeedom 4.2 has this to be automatically but for the moment you have to launch them by hand)
+
 # 03/09/2021
 
 - Fixed a problem with group creation in some cases

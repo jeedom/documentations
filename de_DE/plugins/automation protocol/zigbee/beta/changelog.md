@@ -8,6 +8,16 @@
 >
 >Um das neue kompatible Modul zu kennen, müssen Sie gehen [das](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (Es ist nach dem Datum sortiert, an dem es hinzugefügt / geändert wurde)
 
+# 15.09.2021
+
+- Fehler bei der Aufnahme behoben
+- Verbesserte Protokollebenen
+- Hinzufügen neuer Module
+
+>**Wichtig**
+>
+>Es ist UNBEDINGT notwendig, eine Installation von Abhängigkeiten zu starten, auch wenn es in Ordnung ist (wir arbeiten in jeedom 4.2 muss dies automatisch sein, aber im Moment müssen Sie sie von Hand starten)
+
 # 09.03.2021
 
 - In einigen Fällen ein Problem bei der Gruppenerstellung behoben
