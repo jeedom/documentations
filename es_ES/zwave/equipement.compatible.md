@@ -91,9 +91,9 @@
 |<img src="../../es_ES/zwave/images/134.514.89_zw089_recessed.door.sensor.jpg" width="60" />|Aeotec|Sensor de puerta empotrado Gen5 (ZW089)|Ouverture||[Comprar](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
 ||Aeotec|Sensor de puerta / ventana 7 (ZWA011)|Ouverture|||
 |<img src="../../es_ES/zwave/images/881.2.12_zwa012.door7.pro.jpg" width="60" />|Aeotec|Sensor de puerta / ventana 7 Pro (ZWA012)|Ouverture|||
-|<img src="../../es_ES/zwave/images/881.2.18_zw024_multi-sensor.gen7.jpg" width="60" />|Aeotec|||||
 |<img src="../../es_ES/zwave/images/881.2.19_zwa019.water7.pro.jpg" width="60" />|Aeotec|Sensor de agua 7 Pro (ZWA019)|Fuite|||
 |<img src="../../es_ES/zwave/images/881.2.21_zwa021.radiator.thermostat.jpg" width="60" />|Aeotec|Termostato del radiador|Thermostat|||
+|<img src="../../es_ES/zwave/images/881.2.24_zw024_multi-sensor.gen7.jpg" width="60" />|Aeotec|MultiSensor Gen7 (ZW024)|Sensor, movimiento, vibración, temperatura, humedad, brillo, UV||[Documentación](https://help.aeotec.com/helpdesk/attachments/6121529483)<br/>|
 |<img src="../../es_ES/zwave/images/881.2.3_zwa003_nanomote.quad.jpg" width="60" />|Aeotec|NanoMote Quad (ZWA003)|Control remoto|||
 |<img src="../../es_ES/zwave/images/881.2.4_zwa004_nanomote.one.jpg" width="60" />|Aeotec|NanoMote One (ZWA004)|Control remoto|||
 |<img src="../../es_ES/zwave/images/881.2.5_zwa005_trisensor.jpg" width="60" />|Aeotec|Trisensor (ZWA005)|Multicapteurs|||
@@ -914,4 +914,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-09-14 02:08:06
+2021-09-15 02:08:07
