@@ -86,12 +86,16 @@
         "Zigbee Motion Sensor": "Zigbee Motion Sensor",
         "Moes": "Moes",
         "MOES - Tête thermostatique intelligente (2": "MOES - Tête thermostatique intelligente (2",
+        "Tuya air quality": "Tuya air quality",
         "Capteur gaz": "Capteur gaz",
         "MOES - Thermostat intelligent": "MOES - Thermostat intelligent",
         "Sirène intelligente avec capteur de température et humidité": "Sirène intelligente avec capteur de température et humidité",
         "MOES - Tête thermostatique intelligente": "MOES - Tête thermostatique intelligente",
         "MOES - Tête thermostatique intelligente (3": "MOES - Tête thermostatique intelligente (3",
         "Thermostat intelligent": "Thermostat intelligent",
+        "Vanne arrosage": "Vanne arrosage",
+        "Il est pour le moment impossible de controller le timer correctement, lors d'une mise à On la vanne reste ouverte 10min puis se coupe": "Il est pour le moment impossible de controller le timer correctement, lors d'une mise à On la vanne reste ouverte 10min puis se coupe",
+        "Tuya air quality CO": "Tuya air quality CO",
         "Interrupteur connecté 2 boutons": "Interrupteur connecté 2 boutons",
         "Interrupteur connecté 3 boutons": "Interrupteur connecté 3 boutons",
         "MOES - Module connecté simple ON\/OFF": "MOES - Module connecté simple ON\/OFF",
@@ -372,9 +376,12 @@
         "Sirène intelligente": "Sirène intelligente",
         "Détecteur de fumée": "Détecteur de fumée",
         "Telecommande 4 boutons": "Telecommande 4 boutons",
+        "Smart Air Quality Monitori": "Smart Air Quality Monitori",
         "Détecteur de gaz": "Détecteur de gaz",
+        "Smart Combustible Gas Sensor": "Smart Combustible Gas Sensor",
         "Sonnette connectée": "Sonnette connectée",
         "Détecteur de monoxyde de carbone": "Détecteur de monoxyde de carbone",
+        "Smart Carbon Monoxide Sensor": "Smart Carbon Monoxide Sensor",
         "Gledopto": "Gledopto",
         "GL-S-007Z": "GL-S-007Z",
         "GL-S-004Z": "GL-S-004Z",
@@ -543,6 +550,6 @@
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-09-15 02": "2021-09-15 02"
+        "2021-09-16 02": "2021-09-16 02"
     }
 }

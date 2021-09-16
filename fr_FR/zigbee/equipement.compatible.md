@@ -339,9 +339,12 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/HEIMAN.COSensor-EF-3.0.png" width="60" />|Heiman|Smart Carbon Monoxide Sensor||||
 |<img src="../../fr_FR/zigbee/images/HEIMAN.COSensor-EM.png" width="60" />|Heiman|Détecteur de monoxyde de carbone||||
 |<img src="../../fr_FR/zigbee/images/HEIMAN.DoorBell-EM.png" width="60" />|Heiman|Sonnette connectée||||
+|<img src="../../fr_FR/zigbee/images/HEIMAN.GASSensor-EF-3.0.png" width="60" />|Heiman|Smart Combustible Gas Sensor||||
 |<img src="../../fr_FR/zigbee/images/HEIMAN.GASSensor-EM.png" width="60" />|Heiman|Détecteur de gaz||||
+|<img src="../../fr_FR/zigbee/images/HEIMAN.HS3AQ-EFA-3.0.png" width="60" />|Heiman|Smart Air Quality Monitori||||
 |<img src="../../fr_FR/zigbee/images/HEIMAN.RC-EM.png" width="60" />|Heiman|Telecommande 4 boutons||||
 |<img src="../../fr_FR/zigbee/images/HEIMAN.SOS-EF-3.0.png" width="60" />|Heiman|Bouton SOS||||
 |<img src="../../fr_FR/zigbee/images/HEIMAN.SceneSwitch-EM-3.0.png" width="60" />|Heiman|Telecommande 4 boutons||||
@@ -704,6 +707,8 @@
 |<img src="../../fr_FR/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MOES - Module connecté simple ON/OFF||||
 |<img src="../../fr_FR/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Interrupteur connecté 3 boutons||||
 |<img src="../../fr_FR/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Interrupteur connecté 2 boutons||||
+|<img src="../../fr_FR/zigbee/images/TZE200_7bztmfm1.TS0601.png" width="60" />|Tuya|Tuya air quality CO||||
+|<img src="../../fr_FR/zigbee/images/TZE200_akjefhj5.TS0601.png" width="60" />|Tuya|Vanne arrosage||Il est pour le moment impossible de controller le timer correctement, lors d'une mise à On la vanne reste ouverte 10min puis se coupe||
 |<img src="../../fr_FR/zigbee/images/TZE200_aoclfnxz.TS0601.png" width="60" />|Tuya|Thermostat intelligent||||
 |<img src="../../fr_FR/zigbee/images/TZE200_b6wax7g0.TS0601.png" width="60" />|Moes|MOES - Tête thermostatique intelligente (3)||||
 |<img src="../../fr_FR/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|MOES - Tête thermostatique intelligente||||
@@ -711,6 +716,7 @@
 |<img src="../../fr_FR/zigbee/images/TZE200_dfxkcots.TS0601.png" width="60" />|Tuya|MOES - Thermostat intelligent||||
 |<img src="../../fr_FR/zigbee/images/TZE200_dzuqwsyg.TS0601.png" width="60" />|Tuya|MOES - Thermostat intelligent||||
 |<img src="../../fr_FR/zigbee/images/TZE200_ggev5fsl.TS0601.png" width="60" />|Tuya|Capteur gaz||||
+|<img src="../../fr_FR/zigbee/images/TZE200_yvx5lh6k.TS0601.png" width="60" />|Tuya|Tuya air quality||||
 |<img src="../../fr_FR/zigbee/images/TZE200_ywdxldoj.TS0601.png" width="60" />|Moes|MOES - Tête thermostatique intelligente (2)||||
 |<img src="../../fr_FR/zigbee/images/tuya.ZM-RT201.png" width="60" />|Tuya|Zigbee Motion Sensor||||
 
@@ -777,6 +783,7 @@
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.switch.l1aeu1.png" width="60" />|Xiaomi|XIAOMI AQARA - Interrupteur mural intelligent H1 ZigBee 3.0 (sans neutre)|Interrupteur,Lumière||[Documentation](https://cdn.aqara.com/cdn/website/mainland/static/docs/Smart-Wall-Switch-H1-No-Neutral_Manual_EN.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/5726-xiaomi-aqara-interrupteur-mural-intelligent-h1-zigbee-30-sans-neutre-ws-euk01-6970504214774.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.switch.l2aeu1.png" width="60" />|Xiaomi|XIAOMI AQARA - Interrupteur mural double intelligent H1 ZigBee 3.0 (sans neutre)|Interrupteur,Lumière||[Documentation](https://www.aqara.com/userfiles/fileupload/202105/1392376227816738818.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/5727-xiaomi-aqara-interrupteur-mural-double-intelligent-h1-zigbee-30-sans-neutre-6970504214781.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.switch.n0agl1.png" width="60" />|Xiaomi|AQARA - Micromodule on/off avec neutre|Contacteur,Compteur,Puissance||[Acheter](https://www.domadoo.fr/fr/peripheriques/5386-aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-6970504213296.html)|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.switch.n1aeu1.png" width="60" />|Xiaomi|||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.switch.n2aeu1.png" width="60" />|Xiaomi|XIAOMI AQARA - Interrupteur mural double intelligent H1 ZigBee 3.0 (avec neutre) +  Mesure de consommation|||[Documentation](https://cdn.aqara.com/cdn/website/mainland/static/docs/Smart-Wall-Switch-H1-With-Neutral_Manual_EN.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/5729-xiaomi-aqara-interrupteur-mural-double-intelligent-h1-zigbee-30-avec-neutre-ws-euk04-6970504214804.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.vibration.aq1.png" width="60" />|Xiaomi|||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|AQARA - Capteur de température/pression/humidité|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4515-aqara-capteur-de-temperature-et-d-humidite-zigbee-6970504212510.html)|
@@ -792,4 +799,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-09-15 02:32:04
+2021-09-16 02:32:04

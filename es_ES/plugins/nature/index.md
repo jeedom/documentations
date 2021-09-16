@@ -9,5 +9,5 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="greeniq/greeniq_icon.png" class="pluginLogo" width="100" />|GreenIQ|Complemento para controlar el riego automático a través del módulo GreenIQ|[Documentación](greeniq/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1717)<br/>[Registro de cambios](greeniq/changelog.md)|
-|<img src="koubachi/koubachi_icon.png" class="pluginLogo" width="100" />|Koubachi|Plugin para sensores de planta koubachi|[Documentación](koubachi/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1012)<br/>[Registro de cambios](koubachi/changelog.md)|
+|<img src="greeniq/greeniq_icon.png" class="pluginLogo" width="100" />|GreenIQ|Complemento para controlar el riego automático a través del módulo GreenIQ|[Documentación](greeniq/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1717)<br/>[Cambios](greeniq/changelog.md)|
+|<img src="koubachi/koubachi_icon.png" class="pluginLogo" width="100" />|Koubachi|Plugin para sensores de planta koubachi|[Documentación](koubachi/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1012)<br/>[Cambios](koubachi/changelog.md)|
