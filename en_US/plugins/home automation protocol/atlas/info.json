@@ -17,14 +17,13 @@
     "author": "Jeedom SAS",
     "require": "4.1",
     "category": "home automation protocol",
-    "hasDependency": true,
+    "hasDependency": false,
     "hasOwnDeamon": false,
     "maxDependancyInstallTime": 0,
-    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/atlas\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/atlas\/",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home%20automation%20protocol\/atlas\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home%20automation%20protocol\/atlas\/",
     "link": {
-        "forum": "Lien vers le forum",
-        "video": "Lien vers une video"
+        "forum": "https:\/\/community.jeedom.com\/c\/materiel-jeedom-hardware\/atlas\/122"
     },
     "language": [
         "fr_FR",
@@ -39,10 +38,9 @@
         "tr"
     ],
     "compatibility": [
-        "smart",
         "atlas",
         "v4"
     ],
-    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/atlas\/beta\/changelog",
-    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/atlas\/beta"
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home%20automation%20protocol\/atlas\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home%20automation%20protocol\/atlas\/beta"
 }

@@ -43,5 +43,7 @@
         "mobile",
         "v4",
         "atlas"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/jeeasy\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/jeeasy\/beta"
 }
