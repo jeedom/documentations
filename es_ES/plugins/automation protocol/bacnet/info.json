@@ -20,8 +20,8 @@
     "hasDependency": true,
     "hasOwnDeamon": true,
     "maxDependancyInstallTime": 0,
-    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/bacnet\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/bacnet\/",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnet\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnet\/",
     "language": [
         "fr_FR",
         "en_US",
