@@ -9,4 +9,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="atlas/beta/atlas_icon.png" class="pluginLogo" width="100" />|Atlas|ATTENTION plugin disponible uniquement en beta<br/>Plugins spécialisé pour la Atlas|[Documentation beta](atlas/beta/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4195)<br/>[Changelog beta](atlas/beta/changelog.md)|
+|<img src="atlas/atlas_icon.png" class="pluginLogo" width="100" />|Atlas|Plugins spécialisé pour la Atlas|[Documentation](atlas/index.md)[Beta](atlas/beta/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4195)<br/>[Changelog](atlas/changelog.md)[Beta](atlas/beta/changelog.md)|

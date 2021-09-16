@@ -1,0 +1,49 @@
+{
+    "id": "jeeasy",
+    "name": "Jeeasy",
+    "description": {
+        "fr_FR": "Plugin permettant de configurer facilement Jeedom",
+        "en_US": "Plugin to easily configure Jeedom",
+        "es_ES": "Complemento para configurar fácilmente Jeedom",
+        "de_DE": "Plugin zur einfachen Konfiguration von Jeedom",
+        "pt_PT": "Plugin para configurar facilmente o Jeedom",
+        "ru_RU": "Plugin permettant de configurer facilement Jeedom",
+        "id_ID": "Plugin permettant de configurer facilement Jeedom",
+        "it_IT": "Plugin permettant de configurer facilement Jeedom",
+        "ja_JP": "Plugin permettant de configurer facilement Jeedom",
+        "tr": "Plugin permettant de configurer facilement Jeedom"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.0",
+    "category": "programming",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/jeeasy\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/jeeasy\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/jeeasy\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/jeeasy\/beta"
+}

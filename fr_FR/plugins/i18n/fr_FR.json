@@ -360,9 +360,8 @@
         "Changelog": "Changelog"
     },
     "plugins\/home automation protocol\/index.md": {
-        "Plugins spécialisé pour la Atlas": "Plugins spécialisé pour la Atlas",
         "Atlas": "Atlas",
-        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "Plugins spécialisé pour la Atlas": "Plugins spécialisé pour la Atlas",
         "Passerelle domotique": "Passerelle domotique",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
@@ -371,9 +370,10 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation beta": "Documentation beta",
+        "Documentation": "Documentation",
+        "Beta": "Beta",
         "Market": "Market",
-        "Changelog beta": "Changelog beta"
+        "Changelog": "Changelog"
     },
     "plugins\/i18n\/index.md": {
         "IMPORTANT": "IMPORTANT",
@@ -617,7 +617,8 @@
         "Changelog beta": "Changelog beta",
         "Documentation": "Documentation",
         "Vous pourrez, par exemple, créer une commande qui ouvre une modale (fenêtre de dialogue) avec une vue contenant vos caméras": "Vous pourrez, par exemple, créer une commande qui ouvre une modale (fenêtre de dialogue) avec une vue contenant vos caméras",
-        "Changelog": "Changelog"
+        "Changelog": "Changelog",
+        "Beta": "Beta"
     },
     "plugins\/security\/index.md": {
         "Simons voss": "Simons voss",
