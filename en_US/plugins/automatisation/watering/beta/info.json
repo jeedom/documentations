@@ -1,0 +1,48 @@
+{
+    "id": "watering",
+    "name": "Arrosage",
+    "description": {
+        "fr_FR": "Plugin arrosage",
+        "en_US": "Watering plugin",
+        "es_ES": "Plugin de riego",
+        "de_DE": "Bewässerungs-Plugin",
+        "ru_RU": "Plugin arrosage",
+        "id_ID": "Plugin arrosage",
+        "it_IT": "Plugin arrosage",
+        "ja_JP": "Plugin arrosage",
+        "pt_PT": "Plugin de rega",
+        "tr": "Plugin arrosage"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.0",
+    "category": "automatisation",
+    "display": "panel",
+    "mobile": "panel",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automatisation\/watering\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automatisation\/watering\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automatisation\/watering\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automatisation\/watering\/beta"
+}

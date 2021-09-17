@@ -97,9 +97,16 @@
         "Zigate, XBee et Texas Instruments": "Zigate, XBee et Texas Instruments"
     },
     "plugins\/automatisation\/index.md": {
+        "Plugin arrosage": "Plugin arrosage",
+        "Arrosage": "Arrosage",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "Permet de gerer les changement de consignes des thermostats": "Permet de gerer les changement de consignes des thermostats",
+        "Gestion thermostat": "Gestion thermostat",
         "ce plugin ne fonctionne pas avec des volets tout ou rien, il faut ABSOLUMENT des volets avec réglages proportionnels (%": "ce plugin ne fonctionne pas avec des volets tout ou rien, il faut ABSOLUMENT des volets avec réglages proportionnels (%",
         "Gestion Volets": "Gestion Volets",
         "Plugin permettant de gérer l'ouverture\/fermeture des volets en fonction du soleil et d'autres conditions": "Plugin permettant de gérer l'ouverture\/fermeture des volets en fonction du soleil et d'autres conditions",
+        "Plugin permettant la gestion des lumières": "Plugin permettant la gestion des lumières",
+        "Gestion Lumières": "Gestion Lumières",
         "Automatisme": "Automatisme",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
@@ -108,8 +115,10 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation": "Documentation",
+        "Documentation beta": "Documentation beta",
         "Market": "Market",
+        "Changelog beta": "Changelog beta",
+        "Documentation": "Documentation",
         "Changelog": "Changelog"
     },
     "plugins\/communication\/index.md": {
@@ -393,6 +402,21 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
     },
+    "plugins\/lightmanager\/index.md": {
+        "Plugin permettant la gestion des lumières": "Plugin permettant la gestion des lumières",
+        "Gestion Lumières": "Gestion Lumières",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "IMPORTANT": "IMPORTANT",
+        "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
+        "ici": "ici",
+        "Vous pouvez voir": "Vous pouvez voir",
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation beta": "Documentation beta",
+        "Market": "Market",
+        "Changelog beta": "Changelog beta"
+    },
     "plugins\/lorapayload\/index.md": {
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
@@ -655,6 +679,21 @@
         "ATTENTION": "ATTENTION",
         "Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack": "Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack"
     },
+    "plugins\/thermostatmanager\/index.md": {
+        "Permet de gerer les changement de consignes des thermostats": "Permet de gerer les changement de consignes des thermostats",
+        "Gestion thermostat": "Gestion thermostat",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "IMPORTANT": "IMPORTANT",
+        "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
+        "ici": "ici",
+        "Vous pouvez voir": "Vous pouvez voir",
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation beta": "Documentation beta",
+        "Market": "Market",
+        "Changelog beta": "Changelog beta"
+    },
     "plugins\/travel\/index.md": {
         "Waze in Time": "Waze in Time",
         "Plugin pour avoir la durée de trajet entre deux points": "Plugin pour avoir la durée de trajet entre deux points",
@@ -668,6 +707,21 @@
         "Documentation": "Documentation",
         "Market": "Market",
         "Changelog": "Changelog"
+    },
+    "plugins\/watering\/index.md": {
+        "Plugin arrosage": "Plugin arrosage",
+        "Arrosage": "Arrosage",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "IMPORTANT": "IMPORTANT",
+        "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
+        "ici": "ici",
+        "Vous pouvez voir": "Vous pouvez voir",
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation beta": "Documentation beta",
+        "Market": "Market",
+        "Changelog beta": "Changelog beta"
     },
     "plugins\/weather\/index.md": {
         "Vous vouliez acheter une station météo, ce plugin vous fera sûrement changer d'avis": "Vous vouliez acheter une station météo, ce plugin vous fera sûrement changer d'avis",
