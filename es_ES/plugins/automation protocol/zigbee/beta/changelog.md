@@ -8,6 +8,10 @@
 >
 >Para conocer el nuevo módulo compatible tienes que ir [la](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (está ordenado por fecha de adición / modificación)
 
+# 19/09/2021
+
+- Arreglo del fallo
+
 # 15/09/2021
 
 - Se corrigió un error en la inclusión
