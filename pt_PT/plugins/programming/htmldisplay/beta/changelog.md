@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 21/09/2021
+
+- Corrigido o problema de exibição com usuários limitados
+
 # 19/11/2020
 
 - Nova apresentação da lista de objetos
