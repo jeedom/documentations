@@ -92,6 +92,7 @@ Outros parâmetros mais específicos também estão acessíveis :
 - **Controle de comunicação** : permite que você selecione o modo de verificação de boa comunicação entre o controlador e o módulo.
 - **Ignorar confirmação de execução** : marque a caixa para ignorar a execução correta do comando. Isso permite que você recupere o controle mais rapidamente, mas não garante que o pedido seja bem colocado.
 - **Permitir fila** : marque a caixa para permitir a fila de pedidos. Isso permite que o comando seja executado novamente caso o pedido não seja levado em consideração pelo módulo.
+- **Auto-atualização (cron)** : permite forçar a atualização de atributos, não é recomendado colocar nada aqui, um valor ruim e você satura todas as suas redes zigbee...
 
 A parte **Em formação** permite a seleção manual do fabricante e do equipamento. Existe também o visual do equipamento assim como dois botões que permitem o **regeneração de ordens** ou acesso a opções **Configuração do módulo**.
 

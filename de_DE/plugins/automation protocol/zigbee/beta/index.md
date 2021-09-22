@@ -92,6 +92,7 @@ Andere spezifischere Parameter sind ebenfalls verfügbar :
 - **Kommunikationssteuerung** : Mit dieser Option können Sie den Modus zur Überprüfung der guten Kommunikation zwischen der Steuerung und dem Modul auswählen.
 - **Ausführungsbestätigung ignorieren** : Aktivieren Sie das Kontrollkästchen, um die korrekte Ausführung des Befehls zu ignorieren. Dies ermöglicht es Ihnen, die Kontrolle schneller wiederzugewinnen, garantiert jedoch nicht, dass die Bestellung gut aufgegeben wurde.
 - **Warteschlangen zulassen** : Aktivieren Sie das Kontrollkästchen, um das Einreihen von Bestellungen zu ermöglichen. Dadurch kann der Befehl erneut ausgeführt werden, falls die Reihenfolge vom Modul nicht berücksichtigt wurde.
+- **Automatische Aktualisierung (cron)** : erlaubt die Aktualisierung von Attributen zu erzwingen, es wird nicht empfohlen, hier etwas einzugeben, ein schlechter Wert und Sie sättigen alle Ihre Zigbee-Netzwerke...
 
 Das Teil **Information** ermöglicht die manuelle Auswahl von Hersteller und Ausrüstung. Es gibt auch die visuelle Darstellung der Ausrüstung sowie zwei Tasten, mit denen die **Regeneration von Aufträgen** oder Zugriff auf Optionen **Modulkonfiguration**.
 

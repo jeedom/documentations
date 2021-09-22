@@ -8,6 +8,9 @@
 >
 >Para conocer el nuevo módulo compatible tienes que ir [la](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (está ordenado por fecha de adición / modificación)
 
+
+- Posibilidad de definir un cron para forzar la actualización de los atributos (tenga cuidado de no poner nada que pueda romper todas sus redes zigbee)
+
 # 19/09/2021
 
 - Arreglo del fallo

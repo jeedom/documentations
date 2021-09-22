@@ -92,6 +92,7 @@ También se pueden acceder a otros parámetros más específicos :
 - **Control de comunicación** : le permite seleccionar el modo de verificación de la buena comunicación entre el controlador y el módulo.
 - **Ignorar la confirmación de ejecución** : marque la casilla para ignorar la ejecución correcta del comando. Esto le permite recuperar el control más rápidamente, pero no garantiza que el pedido esté bien colocado.
 - **Permitir hacer cola** : marque la casilla para permitir la cola de pedidos. Esto permite volver a ejecutar el comando en caso de que el módulo no haya tenido en cuenta la orden.
+- **Actualización automática (cron)** : permite forzar la actualización de atributos, no se recomienda poner nada aquí, un mal valor y satura todas tus redes zigbee...
 
 La parte **Información** permite la selección manual de fabricante y equipo. También existe la visual del equipo así como dos botones que permiten la **regeneración de órdenes** o acceso a opciones **Configuración del módulo**.
 

@@ -8,6 +8,9 @@
 >
 >Um das neue kompatible Modul zu kennen, müssen Sie gehen [das](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (Es ist nach dem Datum sortiert, an dem es hinzugefügt / geändert wurde)
 
+
+- Möglichkeit, einen Cron zu definieren, um die Aktualisierung der Attribute zu erzwingen (achten Sie darauf, dass Sie nichts eingeben, was alle Ihre Zigbee-Netzwerke zerstören kann)
+
 # 19.09.2021
 
 - Fehlerbehebung

@@ -92,6 +92,7 @@ D'autres paramètres plus spécifiques sont également accessibles :
 - **Contrôle de la communication** : permet de sélectionner le mode de vérification de la bonne communication entre le contrôleur et le module.
 - **Ignorer la confirmation d'exécution** : cocher la case pour ignorer la bonne exécution de la commande. Cela permet de reprendre la main plus rapidement mais ne garantit pas que l'ordre soit bien passé.
 - **Autoriser la mise en file d'attente** : cocher la case pour autoriser la mise en file d'attente des commandes. Cela permet de réexécuter la commande au cas où l'ordre n'aurait pas été pris en compte par le module.
+- **Auto-actualisation (cron)** : permet de forcer la mise à jour des attributs, il n'est pas recommandé de faire mettre quoique ce soit ici, une mauvaise valeur et vous saturez tout votre réseaux zigbee...
 
 La partie **Informations** permet la sélection manuelle du fabricant et de l'équipement. On y retrouve également le visuel de l'équipement ainsi que deux boutons permettant la **régénération des commandes** ou l'accès aux options de **configuration du module**.
 

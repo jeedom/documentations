@@ -92,6 +92,7 @@ Other more specific parameters are also accessible :
 - **Communication control** : allows you to select the mode of checking good communication between the controller and the module.
 - **Ignore execution confirmation** : check the box to ignore the correct execution of the command. This allows you to regain control more quickly but does not guarantee that the order is well placed.
 - **Allow queuing** : check the box to allow queuing of orders. This allows the command to be re-executed in the event that the order has not been taken into account by the module.
+- **Auto-refresh (cron)** : allows to force the update of attributes, it is not recommended to put anything here, a bad value and you saturate all your zigbee networks...
 
 The part **Information** allows manual selection of manufacturer and equipment. There is also the visual of the equipment as well as two buttons allowing the **regeneration of orders** or access to options **Module configuration**.
 
