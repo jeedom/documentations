@@ -1,0 +1,46 @@
+{
+    "id": "monitoring2",
+    "name": "Monitoring",
+    "description": {
+        "fr_FR": "Plugin de Monitoring local et distant par SSH",
+        "en_US": "Local and remote monitoring plugin by SSH",
+        "es_ES": "Complemento de monitoreo local y remoto por SSH",
+        "de_DE": "Plugin für lokale und Fernüberwachung per SSH",
+        "pt_PT": "Plug-in de monitoramento local e remoto via SSH",
+        "ru_RU": "Plugin de Monitoring local et distant par SSH",
+        "id_ID": "Plugin de Monitoring local et distant par SSH",
+        "it_IT": "Plugin de Monitoring local et distant par SSH",
+        "ja_JP": "Plugin de Monitoring local et distant par SSH",
+        "tr": "Plugin de Monitoring local et distant par SSH"
+    },
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "category": "monitoring",
+    "hasDependency": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/monitoring2\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/monitoring2\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/monitoring2\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/monitoring2\/beta"
+}
