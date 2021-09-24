@@ -5,6 +5,7 @@
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 
+- Möglichkeit, jede Anfrage von Google basierend auf einer Bedingung zu sperren
 - Möglichkeit, bei der Aufforderung zum Entsperren eines Schlosses keinen Code zu haben
 
 # 04/05/2021 

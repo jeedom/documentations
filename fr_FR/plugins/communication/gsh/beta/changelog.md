@@ -5,6 +5,7 @@
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
 
+- Possibilité d'interdir toute requete de Google en fonction d'une condition
 - Possibilité de ne pas avoir de code lors d'une demande de déverouillage d'une serrure
 
 # 05/04/2021 
