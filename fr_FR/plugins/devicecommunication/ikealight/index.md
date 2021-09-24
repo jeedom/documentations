@@ -8,6 +8,10 @@ Le plugin IkeaLight permet d’établir un lien avec la passerelle Ikea Tradfri.
 
 Après téléchargement du plugin il vous faut l’activer et renseigner l’IP de votre passerelle ainsi que la clé disponible sur l’étiquette de la passerelle (le "Security code").
 
+## Compatibilité
+
+Vous pouvez trouver [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=ikealight) la liste des modules compatible avec le plugin
+
 ## Détection des ampoules
 
 Pour scanner les équipements Ikea, il suffit de démarrer le démon une fois les dépendances correctement installées.     

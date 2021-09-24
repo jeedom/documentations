@@ -8,6 +8,10 @@ The IkeaLight plugin makes it possible to establish a link with the Ikea Tradfri
 
 After downloading the plugin you must activate it and enter the IP of your gateway as well as the key available on the gateway label (the "Security code").
 
+## Compatibilité
+
+You can find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=ikealight) the list of modules compatible with the plugin
+
 ## Bulb detection
 
 To scan Ikea equipment, just start the daemon once the dependencies have been correctly installed.     

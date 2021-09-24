@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 09/24/2021
+
+- Correction of a problem on the installation of dependencies
+
 # 04/05/2021
 
 - Switching to nodejs 14

@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 24/09/2021
+
+- Correction d'un soucis sur l'installation des dépendances
+
 # 05/04/2021
 
 - Passage a nodejs 14

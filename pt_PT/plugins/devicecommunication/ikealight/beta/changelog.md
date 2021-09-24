@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 24/09/2021
+
+- Correção de um problema na instalação de dependências
+
 # 05/04/2021
 
 - Mudando para nodejs 14

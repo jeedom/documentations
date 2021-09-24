@@ -8,6 +8,10 @@ Mit dem IkeaLight-Plugin kann eine Verbindung zum Ikea Tradfri-Gateway hergestel
 
 Nach dem Herunterladen des Plugins müssen Sie es aktivieren und die IP Ihres Gateways sowie den auf dem Gateway-Etikett verfügbaren Schlüssel (den "Sicherheitscode") eingeben").
 
+## Compatibilité
+
+Sie finden [Hier](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=ikealight) die Liste der Module, die mit dem Plugin kompatibel sind
+
 ## Lampenerkennung
 
 Um Ikea-Geräte zu scannen, starten Sie einfach den Daemon, sobald die Abhängigkeiten korrekt installiert wurden.     
