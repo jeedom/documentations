@@ -17,7 +17,7 @@
     "author": "Jeedom SAS",
     "require": "4.1",
     "category": "home automation protocol",
-    "hasDependency": false,
+    "hasDependency": true,
     "hasOwnDeamon": false,
     "maxDependancyInstallTime": 0,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home%20automation%20protocol\/atlas\/changelog",
@@ -30,12 +30,7 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "ru_RU",
-        "id_ID",
-        "it_IT",
-        "ja_JP",
-        "pt_PT",
-        "tr"
+        "pt_PT"
     ],
     "compatibility": [
         "atlas",
