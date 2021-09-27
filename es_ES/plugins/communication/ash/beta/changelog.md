@@ -4,6 +4,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 27/09/2021
+
 - Posibilidad de prohibir cualquier solicitud de Google basada en una condición
 - Adición de nuevos tipos
 - Tipo de bloqueo mejorado"

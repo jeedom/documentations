@@ -305,10 +305,12 @@ Tudo o que você precisa fazer é atribuir o equipamento às salas no aplicativo
 > - você se inscreveu na assinatura dos serviços de voz e ainda é válida (necessário a partir de 01/06/2019). Isso pode ser visto na sua página de perfis de mercado, guia meus serviços
 > - é necessário no plugin -> comunicação -> Google Smarthome selecione o equipamento "transmitir" e defina o tipo e, finalmente, salve
 > - use bem suas credenciais de mercado
+> - se você está no certificado vamos criptografar esqueça de colocar a raiz e o intermediário na cadeia de certificação
+> - nenhum módulo OK (você deve ter um; caso contrário, o Google se recusa a vincular)
+> - se você está em seu próprio domínio e tem dúvidas sobre como resolver um nome de domínio IP, não tenho ideia do porquê. Do lado jeedom, os DNS são os fornecidos por defeito pela OVH (não temos controlo sobre eles de qualquer maneira). Tive até o caso de um utilizador ter DNS na OVH e ainda não conseguir resolver nas nossas máquinas
+> - Problema com o telefone, em algumas marcas o navegador está desatualizado ou não é cromado por padrão e causa problemas para fazer o link
+> - Se você ainda tiver o problema, tente enviar apenas um módulo de tipo leve
 
->**Durante a associação, tenho um erro (mas não em um problema de senha / nome de usuário)**
->
->Se você tiver um erro durante a associação com a Jeedom, provavelmente é porque você não adicionou / transmitiu equipamento antes de fazer a associação. Para corrigir, vá para Plugins -> Comunicação -> Alexa e marque pelo menos um equipamento para transmitir e salvar (verifique se o equipamento está em OK, se estiver em NOK, clique no NOK para ver o porquê ou perguntar sobre tipo genérico em jeedom). Depois refaça a associação
 
 >**Quais são os pedidos possíveis ?**
 >

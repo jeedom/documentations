@@ -305,10 +305,12 @@ Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 > - Sie haben das Abonnement für Sprachdienste abonniert und es ist weiterhin gültig (erforderlich ab dem 01.06.2019)). Dies ist auf Ihrer Marktprofilseite unter Tab meine Dienste zu sehen
 > - Es ist notwendig, im Plugin -> Kommunikation -> Google Smarthome "Sende" -Geräte auszuwählen und den Typ einzustellen und schließlich zu speichern
 > - Verwenden Sie Ihre Marktanmeldeinformationen gut
+> - Wenn Sie sich im Zertifikat befinden, lassen Sie uns verschlüsseln und vergessen, den Stamm und den Vermittler in die Zertifizierungskette aufzunehmen
+> - Kein OK-Modul (Sie müssen eines haben, sonst weigert sich Google, einen Link zu erstellen)
+> - Wenn Sie sich in Ihrer eigenen Domain befinden und Bedenken hinsichtlich der Auflösung eines IP-Domainnamens haben, wissen Sie nicht warum. Auf der Jeedom-Seite sind die DNS diejenigen, die standardmäßig von OVH bereitgestellt werden (wir haben sowieso keine Kontrolle darüber). Ich hatte sogar den Fall, dass ein Benutzer das DNS bei OVH hat und es dennoch nicht auf unseren Computern auflösen kann
+> - Problem mit dem Telefon, bei einigen Marken ist der Browser entweder veraltet oder standardmäßig nicht verchromt, und es treten Probleme beim Herstellen des Links auf
+> - Wenn Sie trotzdem das Problem haben, versuchen Sie, nur ein Lichtmodul zu senden
 
->**Während der Zuordnung habe ich einen Fehler (aber nicht bei einem Problem mit Passwort / Benutzername)**
->
->Wenn Sie während der Zuordnung zu Jeedom einen Fehler haben, liegt dies wahrscheinlich daran, dass Sie vor der Zuordnung keine Geräte hinzugefügt / übertragen haben. Um dies zu korrigieren, gehen Sie zu Plugins -> Kommunikation -> Alexa und aktivieren Sie mindestens ein Gerät zum Senden und Speichern (überprüfen Sie, ob das Gerät in Ordnung ist. Wenn es sich in NOK befindet, klicken Sie auf NOK, um zu sehen, warum oder fragen Sie nach generischer Typ in Jeedom). Wiederholen Sie dann die Zuordnung
 
 >**Was sind die möglichen Bestellungen ?**
 >

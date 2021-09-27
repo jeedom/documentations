@@ -305,10 +305,12 @@ Il ne vous reste plus qu'a faire l'affectation des équipements aux pieces dans 
 > - vous avez bien souscrit à l'abonnement pour les services vocaux et que celui-ci est encore valide (necessaire à partir du 01/06/2019). Cela se voit sur votre page profils du market, onglet mes service
 > - il faut dans plugin -> communication -> Google Smarthome selectionner "transmettre" des équipements et bien mis le type et enfin sauvegarder
 > - bien utiliser vos identifiants market
+> - si vous etes en certificat let’s encrypt oublie de mettre le root et l’intermédiaire dans la chaine de certification
+> - pas de module OK (il en faut obligatoirement un sinon google refuse de faire le lien)
+> - si vous etes sur votre propre domaine des soucis de résolution du nom de domaine un ip, aucune idée du pourquoi. Coté jeedom les DNS sont ceux fournis par défaut par OVH (on a de toute façon pas la main dessus). J’ai même eu le cas d’utilisateur ayant le DNS chez OVH et pourtant impossible de le résoudre sur nos machines…
+> - Probleme avec le téléphone, sur certaine marque le navigateur est soit pas a jour soit pas chrome par defaut et ca pose soucis pour faire le lien
+> - Si vous avez le soucis encore malgrès ca essayer de n’envoyer que un module type lumiere
 
->**Lors de l'association j'ai une erreur (mais pas sur un soucis de mot de passe/nom d'utilisateur)**
->
->Si vous avez une erreur lors de l'association avec Jeedom cela vient surement du faite que vous n'avez pas ajouté/transmis d'équipement avant de faire l'association. Pour corriger aller sur Plugins -> Communication -> Alexa puis coché au moins un équipement à transmettre et faite sauvegarder (vérifié que l'équipement est bien en OK, si il est en NOK cliquer sur le NOK pour voir pourquoi ou renseignez vous sur les générique type dans jeedom). Puis refaite l'association
 
 >**Quelles sont les commandes possibles ?**
 >

@@ -4,6 +4,8 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 27/09/2021
+
 - Possibilité d'interdir toute requete de Google en fonction d'une condition
 - Ajout de nouveaux type
 - Amélioration du type "serrure"

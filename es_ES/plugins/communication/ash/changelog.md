@@ -4,9 +4,17 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Posibilidad de prohibir cualquier solicitud de Google basada en una condición
+- Adición de nuevos tipos
+- Tipo de bloqueo mejorado"
+
+# 21/04/2021
+
+- Se corrigió un error en los modos
+
 # 08/04/2021
 
-- Arreglado un error en mi termostato
+- Se corrigió un error en el termostato
 
 # 07/04/2021
 

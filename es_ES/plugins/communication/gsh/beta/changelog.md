@@ -4,6 +4,7 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 27/09/2021
 
 - Posibilidad de prohibir cualquier solicitud de Google basada en una condición
 - Posibilidad de no tener código al solicitar el desbloqueo de una cerradura

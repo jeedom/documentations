@@ -5,6 +5,9 @@
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
 
+- Possibilidade de banir qualquer solicitação do Google com base em uma condição
+- Possibilidade de não ter código ao solicitar o desbloqueio de uma fechadura
+
 # 05/04/2021 
 
 - Mudando para nodejs 14

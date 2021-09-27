@@ -305,10 +305,12 @@ Todo lo que tiene que hacer es asignar el equipo a las habitaciones en la aplica
 > - se ha suscrito a la suscripción de servicios de voz y aún es válida (necesaria desde el 01/06/2019). Esto se puede ver en su página de perfiles de mercado, pestaña mis servicios
 > - es necesario en el complemento -> comunicación -> Google Smarthome selecciona el equipo "transmitir" y configura el tipo y finalmente guarda
 > - usa bien tus credenciales de mercado
+> - si estás en certificado cifremos olvídate de poner la raíz y el intermediario en la cadena de certificación
+> - ningún módulo OK (debe tener uno, de lo contrario, Google se niega a vincular)
+> - Si está en su propio dominio y tiene inquietudes sobre la resolución de un nombre de dominio IP, no tengo idea de por qué. Por el lado de la libertad, los DNS son los proporcionados por defecto por OVH (de todos modos no tenemos control sobre ellos). Incluso tuve el caso de un usuario que tenía el DNS en OVH y aún no podía resolverlo en nuestras máquinas
+> - Problema con el teléfono, en algunas marcas el navegador está desactualizado o no es Chrome de forma predeterminada y causa problemas para hacer el enlace
+> - Si aún tiene el problema a pesar de esto, intente enviar solo un módulo de tipo ligero
 
->**Durante la asociación tengo un error (pero no un problema de contraseña / nombre de usuario)**
->
->Si tiene un error durante la asociación con Jeedom, probablemente se deba al hecho de que no agregó / transmitió equipo antes de realizar la asociación. Para corregir, vaya a Complementos -> Comunicación -> Alexa, luego marcó al menos un equipo para transmitir y guardó (verifique que el equipo esté en buen estado, si está en NOK, haga clic en NOK para ver por qué o preguntar sobre tipo genérico en libertad). Luego rehaga la asociación
 
 >**¿Cuáles son los posibles pedidos? ?**
 >

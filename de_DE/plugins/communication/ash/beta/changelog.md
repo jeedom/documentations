@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 27.09.2021
+
 - Möglichkeit, jede Anfrage von Google basierend auf einer Bedingung zu sperren
 - Aufnahme neuer Typen
 - Verbesserter Schlosstyp"

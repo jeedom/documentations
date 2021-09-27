@@ -305,10 +305,12 @@ All you have to do is assign the equipment to the rooms in the Google Home app
 > - you have subscribed to the voice services subscription and it is still valid (necessary from 01/06/2019). This can be seen on your market profiles page, tab my services
 > - it is necessary in plugin -> communication -> Google Smarthome select "transmit" equipment and set the type and finally save
 > - use your market credentials well
+> - if you are in certificate let's encrypt forget to put the root and the intermediary in the certification chain
+> - no OK module (you must have one otherwise google refuses to link)
+> - if you are on your own domain having concerns about resolving an ip domain name, no idea why. On the jeedom side, the DNS are those provided by default by OVH (we have no control over it anyway). I even had the case of a user having the DNS at OVH and yet unable to resolve it on our machines
+> - Problem with the phone, on some brand the browser is either outdated or not chrome by default and it causes problems to make the link
+> - If you still have the problem despite this try to send only a light type module
 
->**During the association I have an error (but not on a problem of password / username)**
->
->If you have an error during the association with Jeedom it probably comes from the fact that you did not add / transmit equipment before making the association. To correct go to Plugins -> Communication -> Alexa then ticked at least one piece of equipment to transmit and save (check that the piece of equipment is in OK, if it is in NOK click on the NOK to see why or ask about generic type in jeedom). Then redo the association
 
 >**What are the possible orders ?**
 >

@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 27/09/2021
+
 - Possibilidade de banir qualquer solicitação do Google com base em uma condição
 - Adição de novos tipos
 - Tipo de bloqueio aprimorado"
