@@ -6,7 +6,7 @@
 
 # 27.09.2021
 
-- Möglichkeit, jede Anfrage von Google basierend auf einer Bedingung zu sperren
+- Möglichkeit, jede Anfrage von Alexa basierend auf einer Bedingung zu verbieten
 - Aufnahme neuer Typen
 - Verbesserter Schlosstyp"
 

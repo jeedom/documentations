@@ -6,7 +6,7 @@
 
 # 27/09/2021
 
-- Possibilité d'interdir toute requete de Google en fonction d'une condition
+- Possibilité d'interdir toute requete de Alexa en fonction d'une condition
 - Ajout de nouveaux type
 - Amélioration du type "serrure"
 

@@ -6,7 +6,7 @@
 
 # 27/09/2021
 
-- Possibilidade de banir qualquer solicitação do Google com base em uma condição
+- Possibilidade de proibir qualquer pedido de Alexa com base em uma condição
 - Adição de novos tipos
 - Tipo de bloqueio aprimorado"
 

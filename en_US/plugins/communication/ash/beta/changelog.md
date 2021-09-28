@@ -6,7 +6,7 @@
 
 # 09/27/2021
 
-- Possibility to ban any request from Google based on a condition
+- Possibility to prohibit any request from Alexa based on a condition
 - Addition of new types
 - Improved lock type"
 
