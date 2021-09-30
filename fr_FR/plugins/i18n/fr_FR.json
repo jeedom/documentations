@@ -290,6 +290,21 @@
         "Changelog": "Changelog",
         "Beta": "Beta"
     },
+    "plugins\/docker2\/index.md": {
+        "Plugin docker pour gerer les containers": "Plugin docker pour gerer les containers",
+        "Docker management": "Docker management",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "IMPORTANT": "IMPORTANT",
+        "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
+        "ici": "ici",
+        "Vous pouvez voir": "Vous pouvez voir",
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation beta": "Documentation beta",
+        "Market": "Market",
+        "Changelog beta": "Changelog beta"
+    },
     "plugins\/energy\/index.md": {
         "Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie": "Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie",
         "WiserLink": "WiserLink",
