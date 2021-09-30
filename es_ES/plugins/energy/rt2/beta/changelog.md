@@ -1,0 +1,44 @@
+# Registro de cambios Eco RT2
+
+>**Importante**
+>
+>Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+
+# 23/11/2020
+
+- Nueva presentación de la lista de objetos
+- Adición de la etiqueta "compatibilidad V4"
+
+# 30/03/2020
+
+- Soporte para sondas XTHL
+
+# 09/18/2019
+
+- Optimisations
+
+# 06/13/2019
+
+- Supresión del reinicio del demonio en cada cambio en el equipo (ahora es necesario cuando modifica un equipo para reiniciar el demonio manualmente)
+
+# 20/02/2019
+
+- Soporte para Pilot Wire (tenga en cuenta la última versión de firmware de RT2,2.00.34 B1)
+
+# 17/01/2019
+
+- Corrección de errores
+
+# 14/12/2018
+
+- Corrección de errores
+- Ajuste de la frecuencia de actualización posible (en segundos)
+
+# 06/11/2018
+
+- Adición de gestión de subestaciones
+- Adición de un sistema de respaldo automático todos los días de rt2
+
+# 14/02/2018
+
+- Corrección de la gestión de cables piloto

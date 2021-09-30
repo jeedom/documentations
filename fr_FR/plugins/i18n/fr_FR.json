@@ -335,6 +335,7 @@
         "Le widget permet de voir toutes les infos": "Le widget permet de voir toutes les infos",
         "état, puissance, consommation, courant, voltage et facteur de puissance": "état, puissance, consommation, courant, voltage et facteur de puissance",
         "Les données sont rafraichies toutes les minutes et après une action depuis jeedom": "Les données sont rafraichies toutes les minutes et après une action depuis jeedom",
+        "Beta": "Beta",
         "Il remonte l'ensemble des 5 canaux \/ la téléinfo \/ les 2 modules impulsionnels": "Il remonte l'ensemble des 5 canaux \/ la téléinfo \/ les 2 modules impulsionnels"
     },
     "plugins\/finance\/index.md": {
@@ -365,6 +366,7 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
+        "Beta": "Beta",
         "Market": "Market",
         "Changelog": "Changelog"
     },
@@ -510,6 +512,7 @@
         "Ce plugin permet également l'ajout des enceintes Bluetooth au service PulseAudio de Jeedom et le propose comme une sortie standard": "Ce plugin permet également l'ajout des enceintes Bluetooth au service PulseAudio de Jeedom et le propose comme une sortie standard",
         "Ainsi, via Jeedom et ce plugin PulseAudio vous pouvez exécuter Deezer sur votre PC sous GNU\/Linux (ou Windows avec le client PulseAudio compatible) et faire en sorte que le son soit envoyées aux enceintes bluetooth raccordées à Jeedom ainsi que sur la sortie son (HDMI\/Jack) de Jeedom pour compléter avec un ampli": "Ainsi, via Jeedom et ce plugin PulseAudio vous pouvez exécuter Deezer sur votre PC sous GNU\/Linux (ou Windows avec le client PulseAudio compatible) et faire en sorte que le son soit envoyées aux enceintes bluetooth raccordées à Jeedom ainsi que sur la sortie son (HDMI\/Jack) de Jeedom pour compléter avec un ampli",
         "Ce mode simultané arrivera prochainement avec la possibilité de mettre une latence, évitant le décalage entre les sorties son HDMI\/Jack\/Bluetooth, parfait pour le mode soirée à la fois sur la terrasse avec les enceintes Bluetooth et dans la salle avec l'ampli": "Ce mode simultané arrivera prochainement avec la possibilité de mettre une latence, évitant le décalage entre les sorties son HDMI\/Jack\/Bluetooth, parfait pour le mode soirée à la fois sur la terrasse avec les enceintes Bluetooth et dans la salle avec l'ampli",
+        "Beta": "Beta",
         "ATTENTION": "ATTENTION",
         "Il fait de l'autodecouverte, il attribue vos squeezebox aux bons objets si elles contiennent le nom de l'objet": "Il fait de l'autodecouverte, il attribue vos squeezebox aux bons objets si elles contiennent le nom de l'objet",
         "Il permet aussi une gestion complète multidirectionnelle de la synchro": "Il permet aussi une gestion complète multidirectionnelle de la synchro",
@@ -781,6 +784,7 @@
         "Changelog": "Changelog",
         "Basées sur le protocole WMP, les passerelles \" Intesis Wifi (ASCII) AC Interfaces \" sont des box qui permettent de domotiser des systèmes de climatisation gainables (interface Intesis à connecter en filaire sur le bus du climatisateur) ou à split avec télécommande infrarouge (interface Intesis IR": "Basées sur le protocole WMP, les passerelles \" Intesis Wifi (ASCII) AC Interfaces \" sont des box qui permettent de domotiser des systèmes de climatisation gainables (interface Intesis à connecter en filaire sur le bus du climatisateur) ou à split avec télécommande infrarouge (interface Intesis IR",
         "Il permet de lancer un cycle de nettoyage turbo ou éco, de mettre en pause, de reprendre, de faire un retour base, de connaitre le statut, la présence sur le dock, le niveau de charge, et bien plus encore": "Il permet de lancer un cycle de nettoyage turbo ou éco, de mettre en pause, de reprendre, de faire un retour base, de connaitre le statut, la présence sur le dock, le niveau de charge, et bien plus encore",
+        "Beta": "Beta",
         "Vous réviez d'un aspirateur intégré à votre domotique, c'est réalisable grâce à ce plugin": "Vous réviez d'un aspirateur intégré à votre domotique, c'est réalisable grâce à ce plugin",
         "Le plugin permet de": "Le plugin permet de",
         "Choisir le mode de fonctionnement du thermostat (programme,max,absent,hors gel, off, consigne manuel": "Choisir le mode de fonctionnement du thermostat (programme,max,absent,hors gel, off, consigne manuel",

@@ -1,0 +1,45 @@
+{
+    "id": "neato",
+    "name": "Neato",
+    "description": {
+        "fr_FR": "Plugin pour contrôler votre aspirateur Botvac Connected de chez Neato.<br\/>Il permet de lancer un cycle de nettoyage turbo ou éco, de mettre en pause, de reprendre, de faire un retour base, de connaitre le statut, la présence sur le dock, le niveau de charge, et bien plus encore.....<br\/><br\/>Vous réviez d'un aspirateur intégré à votre domotique, c'est réalisable grâce à ce plugin !",
+        "en_US": "Plugin to control your Botvac Connected vacuum cleaner from Neato.<br\/> It allows you to launch a turbo or eco cleaning cycle, to pause, to resume, to return to base, to know the status, the presence on the dock, the charge level, and much more ... .<br\/><br\/> You dream of a vacuum cleaner integrated into your home automation, it is achievable thanks to this plugin!",
+        "es_ES": "Complemento para controlar su aspiradora Botvac Connected de Neato.<br\/> Te permite lanzar un ciclo de limpieza turbo o eco, pausar, reanudar, volver a la base, conocer el estado, la presencia en el muelle, el nivel de carga, y mucho más ... .<br\/><br\/> Sueñas con una aspiradora integrada en la automatización de tu hogar, ¡se puede lograr gracias a este complemento!",
+        "de_DE": "Plugin zur Steuerung Ihres Botvac Connected Staubsaugers von Neato.<br\/> Sie können einen Turbo- oder Öko-Reinigungszyklus starten, eine Pause einlegen, fortfahren, zur Basis zurückkehren, den Status, die Anwesenheit auf dem Dock, den Ladezustand und vieles mehr kennen ... .<br\/><br\/> Sie träumen von einem Staubsauger, der in Ihre Hausautomation integriert ist. Dank dieses Plugins ist dies möglich!",
+        "pt_PT": "Plugin para controlar o seu aspirador Botvac Connected da Neato.<br\/> Permite iniciar um ciclo de limpeza turbo ou eco, fazer uma pausa, retomar, voltar à base, saber o estado, a presença na doca, o nível de carga e muito mais ... .<br\/><br\/> Você sonha com um aspirador de pó integrado à sua automação residencial, isso é possível graças a este plugin!",
+        "ru_RU": "Plugin pour contrôler votre aspirateur Botvac Connected de chez Neato.<br\/>Il permet de lancer un cycle de nettoyage turbo ou éco, de mettre en pause, de reprendre, de faire un retour base, de connaitre le statut, la présence sur le dock, le niveau de charge, et bien plus encore.....<br\/><br\/>Vous réviez d'un aspirateur intégré à votre domotique, c'est réalisable grâce à ce plugin !",
+        "id_ID": "Plugin pour contrôler votre aspirateur Botvac Connected de chez Neato.<br\/>Il permet de lancer un cycle de nettoyage turbo ou éco, de mettre en pause, de reprendre, de faire un retour base, de connaitre le statut, la présence sur le dock, le niveau de charge, et bien plus encore.....<br\/><br\/>Vous réviez d'un aspirateur intégré à votre domotique, c'est réalisable grâce à ce plugin !",
+        "it_IT": "Plugin pour contrôler votre aspirateur Botvac Connected de chez Neato.<br\/>Il permet de lancer un cycle de nettoyage turbo ou éco, de mettre en pause, de reprendre, de faire un retour base, de connaitre le statut, la présence sur le dock, le niveau de charge, et bien plus encore.....<br\/><br\/>Vous réviez d'un aspirateur intégré à votre domotique, c'est réalisable grâce à ce plugin !",
+        "ja_JP": "Plugin pour contrôler votre aspirateur Botvac Connected de chez Neato.<br\/>Il permet de lancer un cycle de nettoyage turbo ou éco, de mettre en pause, de reprendre, de faire un retour base, de connaitre le statut, la présence sur le dock, le niveau de charge, et bien plus encore.....<br\/><br\/>Vous réviez d'un aspirateur intégré à votre domotique, c'est réalisable grâce à ce plugin !",
+        "tr": "Plugin pour contrôler votre aspirateur Botvac Connected de chez Neato.<br\/>Il permet de lancer un cycle de nettoyage turbo ou éco, de mettre en pause, de reprendre, de faire un retour base, de connaitre le statut, la présence sur le dock, le niveau de charge, et bien plus encore.....<br\/><br\/>Vous réviez d'un aspirateur intégré à votre domotique, c'est réalisable grâce à ce plugin !"
+    },
+    "licence": "AGPL",
+    "author": "Ludovic SARAKHA",
+    "require": "3.3.39",
+    "category": "wellness",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/neato\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/neato\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/neato\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/neato\/beta"
+}
