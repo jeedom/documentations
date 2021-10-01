@@ -6,6 +6,10 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+# 30/09/2021
+
+- Adición de la creación de parte de la llave USB de recuperación para Atlas.
+
 # 16/09/2021
 
 - Adición de Wifi.

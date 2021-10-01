@@ -6,6 +6,10 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+# 09/30/2021
+
+- Addition of part creation of recovery usb key for the Atlas.
+
 # 09/16/2021
 
 - Addition of Wifi.
