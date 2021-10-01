@@ -19,7 +19,7 @@
     "category": "home automation protocol",
     "hasDependency": true,
     "hasOwnDeamon": false,
-    "maxDependancyInstallTime": 0,
+    "maxDependancyInstallTime": 600,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home%20automation%20protocol\/atlas\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home%20automation%20protocol\/atlas\/",
     "link": {
