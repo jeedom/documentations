@@ -799,4 +799,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-10-01 02:32:06
+2021-10-02 02:32:06
