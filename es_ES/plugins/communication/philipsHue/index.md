@@ -22,6 +22,10 @@ El complemento **Philips Hue** utiliza su propio demonio para mantenerse en cont
 >    
 >Normalmente no es necesario iniciar el demonio manualmente, es administrado automáticamente por el complemento.
 
+## Compatibilité
+
+Puedes encontrar [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=philipsHue) la lista de módulos compatibles con el complemento
+
 ## Configuración del equipo
 
 Para acceder a los diferentes equipos **Philips Hue**, ir al menú **Complementos → Comunicación → Philips Hue**.

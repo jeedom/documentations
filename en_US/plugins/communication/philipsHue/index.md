@@ -22,6 +22,10 @@ The plugin **Philips Hue** uses its own daemon in order to stay in constant cont
 >    
 >It is normally not necessary to start the daemon manually, it is automatically managed by the plugin.
 
+## Compatibilité
+
+You can find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=philipsHue) the list of modules compatible with the plugin
+
 ## Equipment configuration
 
 To access the different equipment **Philips Hue**, go to the menu **Plugins → Communication → Philips Hue**.

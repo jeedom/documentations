@@ -10,7 +10,7 @@ Ce plugin va vous permettre d'intégrer votre écosystème Philips Hue dans Jeed
 
 Comme tout plugin Jeedom, le plugin **Philips Hue** doit être activé après l'installation.
 
-Une fois le plugin activé, il faudra renseigner l’adresse IP à laquelle votre pont Philips Hue est joignable.
+Une fois le plugin activé, il faudra renseigner l’adresse IP à laquelle votre pont Philips Hue est joignable. Normalement le plugin devrait vous demander d'appuyer sur le bouton du pont lors de la premiere synchronisation.
 
 >**ASTUCE**
 >
@@ -21,6 +21,10 @@ Le plugin **Philips Hue** utilise son propre démon afin de rester en contact co
 >**INFORMATION**
 >    
 >Il n'est normalement pas nécessaire de démarrer le démon manuellement, celui-ci étant automatiquement géré par le plugin.
+
+## Compatibilité
+
+Vous pouvez trouver [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=philipsHue) la liste des modules compatible avec le plugin
 
 ## Configuration des équipements
 

@@ -6,9 +6,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 16.06.2021
+
+- Adaptive_light zu adaptive_lighting korrigieren
+
 # 07.06.2021
 
-- Eine adaptive_lighting-Animation hinzufügen
+- Eine adaptive_light-Animation hinzufügen
 - Ein Problem beim Auffinden von Szenen auf der 2. Hue-Brücke wurde behoben
 
 # 15.03.2021

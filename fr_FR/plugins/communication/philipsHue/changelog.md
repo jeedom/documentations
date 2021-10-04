@@ -6,9 +6,14 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 04/10/2021
+
+- Ajout de module
+- Correction de bugs
+
 # 16/06/2021
 
-- Correciton de adaptive_light en adaptive_lighting
+- Correction de adaptive_light en adaptive_lighting
 
 # 07/06/2021
 

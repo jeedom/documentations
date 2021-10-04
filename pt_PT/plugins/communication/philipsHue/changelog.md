@@ -6,9 +6,13 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 16/06/2021
+
+- Corrigindo adaptive_light para adaptive_lighting
+
 # 07/06/2021
 
-- Adicionar uma animação adaptive_lighting
+- Adicionando uma animação adaptive_light
 - Corrigido um problema com a descoberta de cenas na ponte 2ª Hue
 
 # 15/03/2021

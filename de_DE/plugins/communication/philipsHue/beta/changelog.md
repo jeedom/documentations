@@ -6,9 +6,14 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 10.04.2021
+
+- Modul hinzufügen
+- Fehlerbehebungen
+
 # 16.06.2021
 
-- Adaptive_light zu adaptive_lighting korrigieren
+- Adaptive_light an adaptive_lighting anpassen
 
 # 07.06.2021
 
