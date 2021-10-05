@@ -6,6 +6,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 10.04.2021
+
+- Sicherheit für die Belange des Anschlusses an das Ethernet, das keine IP benötigt (Änderung in Basis 100M / TX).
+
 # 30.09.2021
 
 - Ergänzung der Teilerstellung eines Wiederherstellungs-USB-Schlüssels für den Atlas.

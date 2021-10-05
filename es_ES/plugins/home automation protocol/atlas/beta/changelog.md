@@ -6,6 +6,10 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+# 10/04/2021
+
+- Seguridad por las inquietudes de conectarse a Ethernet que no toma IP (modificación en base 100M / TX).
+
 # 30/09/2021
 
 - Adición de la creación de parte de la llave USB de recuperación para Atlas.

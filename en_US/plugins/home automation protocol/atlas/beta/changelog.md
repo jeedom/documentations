@@ -6,6 +6,10 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+# 04/10/2021
+
+- Security for the concerns of connecting to the Ethernet which does not take IP (modification in base 100M / TX).
+
 # 09/30/2021
 
 - Addition of part creation of recovery usb key for the Atlas.
