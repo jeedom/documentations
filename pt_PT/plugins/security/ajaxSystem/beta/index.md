@@ -37,7 +37,11 @@ Para configurar o link entre seu Jeedom e seu alarme Ajax, vá para "Plugin" -> 
 
 ### Configuração de relatórios de eventos
 
-No aplicativo Ajax, vá para o hub e, em seguida, nas configurações (pequena engrenagem no canto superior direito), vá para o usuário e adicione o usuário : ajax@jeedom.com 
+No aplicativo Ajax, vá para o hub e, em seguida, nas configurações (pequena engrenagem no canto superior direito), vá para o usuário e adicione o usuário : ajax@jeedom.com
+
+>**NOTA**
+>
+>O convite permanece e sempre ficará pendente, isso é normal
 
 ## Equipamento 
 

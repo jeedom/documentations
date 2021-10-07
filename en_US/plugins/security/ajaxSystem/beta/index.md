@@ -37,7 +37,11 @@ To set up the link between your Jeedom and your Ajax alarm, go to "Plugin" -> "P
 
 ### Configuration of event reporting
 
-From the Ajax application, go to the hub then in settings (small cogwheel at the top right) go to user and add the user : ajax@jeedom.com 
+From the Ajax application, go to the hub then in settings (small cogwheel at the top right) go to user and add the user : ajax@jeedom.com
+
+>**NOTE**
+>
+>The invitation remains and will always remain pending, this is normal
 
 ## Equipment 
 

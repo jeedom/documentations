@@ -37,7 +37,11 @@ Pour la mise en place du lien entre votre Jeedom et votre alarme Ajax il faut al
 
 ### Configuration de la remontée d'evenements
 
-Il faut depuis l'application Ajax aller sur le hub puis dans parametres (petite roue crantée en haut à droite) aller sur utilisateur et la rajouter l'utilisateur : ajax@jeedom.com 
+Il faut depuis l'application Ajax aller sur le hub puis dans parametres (petite roue crantée en haut à droite) aller sur utilisateur et la rajouter l'utilisateur : ajax@jeedom.com
+
+>**NOTE**
+>
+>L'invitation reste et restera toujours en attente c'est normal
 
 ## Equipement 
 

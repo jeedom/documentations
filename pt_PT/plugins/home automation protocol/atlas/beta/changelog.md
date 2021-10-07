@@ -6,6 +6,11 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+# 10/06/2021
+
+- Adicionado Hotspot wi-fi (Beta);
+- correção de bug na segurança ETH.
+
 # 10/04/2021
 
 - Segurança para as preocupações de conexão à Ethernet que não leva IP (modificação na base 100M / TX).

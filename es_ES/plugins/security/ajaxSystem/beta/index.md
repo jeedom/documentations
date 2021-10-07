@@ -37,7 +37,11 @@ Para configurar el enlace entre su Jeedom y su alarma Ajax, vaya a "Complemento"
 
 ### Configuración de informes de eventos
 
-Desde la aplicación Ajax, vaya al concentrador y luego en la configuración (pequeña rueda dentada en la parte superior derecha) vaya al usuario y agregue el usuario : ajax@jeedom.com 
+Desde la aplicación Ajax, vaya al concentrador y luego en la configuración (pequeña rueda dentada en la parte superior derecha) vaya al usuario y agregue el usuario : ajax@jeedom.com
+
+>**NOTA**
+>
+>La invitación permanece y siempre estará pendiente, esto es normal
 
 ## Equipo 
 

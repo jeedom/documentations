@@ -12,4 +12,8 @@ For the moment, the plugin only takes into account access with DHCP.
 > Recovery (BETA)
 
 You must plug a usb key of more than 10GB into the right USB port (Black) at the bottom. once done you can launch the key recovery and follow the instructions.
-Cela permet à votre Atlas de ce lancer sur cette clé USB vous avez du coup accés a votre atlas recovery mode sur http://jeedomatlasrecovery.local. it will be enough to put admin / admin then correctly put your market account. so that your jeedom recovery can restore the internal memory of the box. just follow the instructions.
+Cela permet à votre Atlas de ce lancer sur cette clé USB vous avez du coup accès a votre atlas recovery mode sur http://jeedomatlasrecovery.local. it will be enough to put admin / admin then correctly put your market account. so that your jeedom recovery can restore the internal memory of the box. just follow the instructions.
+
+> Hotspot (BETA)
+
+in the Wifi part of the plugin you can check the Hotspot box which will allow you to create a wifi access point on your Box Atlas. (DNS and IP forwarding (bridge between ethernet and wifi) functional on it).

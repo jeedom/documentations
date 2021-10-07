@@ -37,7 +37,11 @@ Um die Verbindung zwischen Ihrem Jeedom und Ihrem Ajax-Alarm herzustellen, gehen
 
 ### Konfiguration der Ereignisberichterstattung
 
-Gehen Sie in der Ajax-Anwendung zum Hub und dann in den Einstellungen (kleines Zahnrad oben rechts) zum Benutzer und fügen Sie den Benutzer hinzu : ajax@jeedom.com 
+Gehen Sie in der Ajax-Anwendung zum Hub und dann in den Einstellungen (kleines Zahnrad oben rechts) zum Benutzer und fügen Sie den Benutzer hinzu : ajax@jeedom.com
+
+>**HINWEIS**
+>
+>Die Einladung bleibt und bleibt immer ausstehend, das ist normal
 
 ## Ausrüstung 
 
