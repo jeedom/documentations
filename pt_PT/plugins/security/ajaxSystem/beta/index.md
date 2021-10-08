@@ -9,7 +9,7 @@
 A configuração do plugin é muito simples e ocorre em 2 passos : 
 
 - Configurando o link entre seu jeedom e seu alarme
-- adição de um compartilhamento de e-mail para relatar eventos 
+- adição de um compartilhamento de e-mail para relatar eventos  
 
 >**IMPORTANTE**
 >
@@ -29,7 +29,7 @@ Para configurar o link entre seu Jeedom e seu alarme Ajax, vá para "Plugin" -> 
 
 >**NOTA**
 >
-> Jeedom absolutamente não salva suas credenciais Ajax, é apenas uma usada para a primeira solicitação ao Ajax e para ter o token de acesso e o token de atualização. O token de atualização torna possível recuperar um novo token de acesso que tem uma vida útil de apenas algumas horas
+> Jeedom absolutamente não salva suas credenciais Ajax : eles são apenas um usado para a primeira solicitação para Ajax e têm o token de acesso e o token de atualização. O token de atualização torna possível recuperar um novo token de acesso que tem uma vida útil de apenas algumas horas.
 
 >**NOTA**
 >
@@ -45,7 +45,7 @@ No aplicativo Ajax, vá para o hub e, em seguida, nas configurações (pequena e
 
 ## Equipamento 
 
-Uma vez que a configuração está em "Plugin" -> "Gerenciamento de Plugin" -> "Sistema Ajax" você apenas tem que sincronizar, Jeeodm irá criar automaticamente todo o equipamento Ajax vinculado à sua conta Ajax. 
+Uma vez que a configuração está em "Plugin" -> "Gerenciamento de Plugin" -> "Sistema Ajax" você apenas tem que sincronizar, Jeedom irá criar automaticamente todos os equipamentos Ajax vinculados à sua conta Ajax. 
 
 ### Detector de movimento
 
@@ -53,4 +53,4 @@ Pequena especificidade para o detector de movimento, não vai até a detecção 
 
 ### Detector de abertura
 
-Para ele não se preocupe você tem todo o tempo e em tempo real as informações da janela aberta ou não.
+Para ele, não se preocupe, você tem o status em tempo real das informações de janela / porta aberta / fechada.

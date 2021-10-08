@@ -9,7 +9,7 @@
 Die Konfiguration des Plugins ist sehr einfach und erfolgt in 2 Schritten : 
 
 - Herstellen der Verbindung zwischen Ihrer Freiheit und Ihrem Alarm
-- Hinzufügen einer E-Mail-Freigabe zum Melden von Ereignissen 
+- Hinzufügen einer E-Mail-Freigabe zum Melden von Ereignissen  
 
 >**WICHTIG**
 >
@@ -29,7 +29,7 @@ Um die Verbindung zwischen Ihrem Jeedom und Ihrem Ajax-Alarm herzustellen, gehen
 
 >**HINWEIS**
 >
-> Jeedom speichert Ihre Ajax-Anmeldeinformationen absolut nicht. Es wird nur für die erste Anforderung an Ajax verwendet, um das Zugriffstoken und das Aktualisierungstoken zu erhalten. Das Aktualisierungstoken ermöglicht die Wiederherstellung eines neuen Zugriffstokens mit einer Lebensdauer von nur wenigen Stunden
+> Jeedom speichert Ihre Ajax-Anmeldeinformationen absolut nicht : Sie werden nur für die erste Anfrage an Ajax verwendet und haben das Zugriffstoken und das Aktualisierungstoken. Das Aktualisierungstoken ermöglicht die Wiederherstellung eines neuen Zugriffstokens mit einer Lebensdauer von nur wenigen Stunden.
 
 >**HINWEIS**
 >
@@ -45,7 +45,7 @@ Gehen Sie in der Ajax-Anwendung zum Hub und dann in den Einstellungen (kleines Z
 
 ## Ausrüstung 
 
-Sobald die Konfiguration auf "Plugin" -> "Plugin-Verwaltung" -> "Ajax-System" eingestellt ist, müssen Sie nur noch synchronisieren. Jeeodm erstellt automatisch alle Ajax-Geräte, die mit Ihrem Ajax-Konto verknüpft sind. 
+Sobald die Konfiguration auf "Plugin" -> "Plugin-Verwaltung" -> "Ajax-System" steht, müssen Sie nur noch synchronisieren, Jeedom erstellt automatisch alle Ajax-Geräte, die mit Ihrem Ajax-Konto verknüpft sind. 
 
 ### Bewegungsmelder
 
@@ -53,4 +53,4 @@ Kleine Besonderheit beim Bewegungsmelder, es geht nicht um die permanente Bewegu
 
 ### Öffnungsmelder
 
-Für ihn keine Sorge, Sie haben die ganze Zeit und in Echtzeit die Informationen über offenes Fenster oder nicht or.
+Für ihn keine Sorge, Sie haben Echtzeit-Status der Fenster- / Türöffnungs- / Geschlossen-Informationen.

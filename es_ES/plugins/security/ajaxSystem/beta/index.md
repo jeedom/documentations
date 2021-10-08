@@ -6,10 +6,10 @@
 >
 >Para tener una retroalimentación en tiempo real, es ABSOLUTAMENTE necesario que su Jeedom sea accesible desde el exterior (URL de acceso externo utilizada)
 
-La configuración del plugin es muy sencilla y se realiza en 2 pasos : 
+La configuración del complemento es muy simple y se realiza en 2 pasos : 
 
 - configurando el enlace entre tu libertad y tu alarma
-- adición de un correo electrónico para compartir para informar eventos 
+- adición de un correo electrónico para compartir para informar eventos  
 
 >**IMPORTANTE**
 >
@@ -29,7 +29,7 @@ Para configurar el enlace entre su Jeedom y su alarma Ajax, vaya a "Complemento"
 
 >**NOTA**
 >
-> Jeedom absolutamente no guarda sus credenciales de Ajax, es solo una que se usa para la primera solicitud a Ajax y para tener el token de acceso y el token de actualización. El token de actualización permite recuperar un nuevo token de acceso que tiene una vida útil de solo unas pocas horas
+> Jeedom absolutamente no guarda sus credenciales de Ajax : son solo uno que se usa para la primera solicitud a Ajax y tienen el token de acceso y el token de actualización. El token de actualización permite recuperar un nuevo token de acceso que tiene una vida útil de solo unas pocas horas.
 
 >**NOTA**
 >
@@ -45,7 +45,7 @@ Desde la aplicación Ajax, vaya al concentrador y luego en la configuración (pe
 
 ## Equipo 
 
-Una vez que la configuración esté en "Complemento" -> "Administración de complementos" -> "Sistema Ajax", solo tiene que sincronizar, Jeeodm creará automáticamente todo el equipo ajax vinculado a su cuenta Ajax. 
+Una vez que la configuración está en "Complemento" -> "Administración de complementos" -> "Sistema Ajax", solo tiene que sincronizar, Jeedom creará automáticamente todos los equipos Ajax vinculados a su cuenta Ajax. 
 
 ### Detector de movimiento
 
@@ -53,4 +53,4 @@ Pequeña especificidad para el detector de movimiento, no sube a la detección d
 
 ### Detector de apertura
 
-Para él no te preocupes tienes todo el tiempo y en tiempo real la información de ventana abierta o no.
+Para él, no se preocupe, tiene el estado en tiempo real de la información de ventana / puerta abierta / cerrada.
