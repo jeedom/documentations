@@ -1,6 +1,6 @@
 # Complemento Unifi Protect
 
-## Description
+# Description
 
 Complemento para conectar Jeedom a Unifi Protect
 
@@ -8,16 +8,12 @@ Complemento para conectar Jeedom a Unifi Protect
 >
 >No hay una API oficial para Unifi protect, el complemento puede dejar de funcionar durante la noche después de una actualización de Unifi protect. Bajo ninguna circunstancia Jeedom puede ser considerado responsable y / o tener el deber de corregir
 
-## Compatibilité
-
-Puedes encontrar [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=unifiprotect) la lista de módulos compatibles con el complemento
-
-## Configuración del complemento
+# Configuración del complemento
 
 Después de instalar el complemento, solo necesita activarlo. Algunos parámetros deben ingresarse en la configuración del complemento :
 
 -   **Controlador de protección Unifi** : Tienes que poner la ruta a tu controlador Unifi (solo la IP en la mayoría de los casos)
--   **Unifi proteger al usuario** : Indique aquí un nombre de usuario local (el usuario puede ser "Administrador Limeted" con "Solo ver" en Unifi Protect) 
+-   **Unifi proteger al usuario** : Indique aquí un nombre de usuario local (admin) 
 -   **Unifi proteger contraseña** : Ingrese la contraseña del usuario aquí
 -   **Frecuencia de actualización** : Frecuencia de solicitudes de información al controlador (cuanto menor sea, más recursos consumirá en él, tenga cuidado con las de UDM-Pro)
 -   **No recopile eventos** : No recuperas eventos de cámaras (permite consumir menos recursos pero pierdes la detección de movimiento / persona / coche /...)
@@ -27,9 +23,9 @@ Después de instalar el complemento, solo necesita activarlo. Algunos parámetro
 >
 >Si tiene el complemento de la cámara instalado, el complemento Unifi Protect creará automáticamente las cámaras en el complemento de la cámara 
 
-## Retroalimentación de información
+# Retroalimentación de información
 
-### Controleur
+## Controleur
 
 - Etat
 - Uptime
@@ -42,7 +38,7 @@ Después de instalar el complemento, solo necesita activarlo. Algunos parámetro
 - Usando tmpfs
 - Uso del disco
 
-### Cámara 
+## Cámara 
 
 - Conectado
 - Etat
