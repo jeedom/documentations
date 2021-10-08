@@ -799,4 +799,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-10-07 02:32:06
+2021-10-08 02:32:13
