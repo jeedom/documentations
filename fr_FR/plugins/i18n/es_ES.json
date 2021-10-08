@@ -1857,6 +1857,9 @@
         " Beta*": " Beta*"
     },
     "plugins\/security\/index.md": {
+        "Plugin permettant de connecter Jeedom à Unifi Protect": "Complemento para conectar Jeedom a Unifi Protect",
+        "Ubiquiti Unifi protect": "Ubiquiti Unifi proteger",
+        "ATTENTION plugin disponible uniquement en beta": "El complemento ATENCIÓN está disponible solo en versión beta",
         "Simons voss": "Simons voss",
         "Plugin pour les serrure Simons Voss Smart Intego": "Plugin para las cerraduras Smart Intego de Simons Voss",
         "Il permet aussi de configurer le bridge en mode push": "También permite configurar el puente en modo push",
@@ -1881,6 +1884,8 @@
         "Vous pouvez voir": "Podéis ver",
         "tous les plugins officiels de cette catégorie": "todos los complementos oficiales en esta categoría",
         "Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack": "Los complementos PREMIUM NO están incluidos en NINGÚN Service Pack",
+        "Documentation beta": "Documentación beta",
+        "Changelog beta": "Lista de cambios beta",
         " Nuki.": " Nuki.",
         " Nuki?": " Nuki?",
         "Nuki ": "Nuki ",
