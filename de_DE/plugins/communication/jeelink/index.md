@@ -14,7 +14,7 @@ Das Plugin *Jeedom Link* (auch Jeelink genannt) ermöglicht den Aufstieg einer o
 
 > **Spitze**
 >
-> Für ein gutes Verständnis ist es wichtig, die folgenden Begriffe zu verstehen : **Jeedom Source** : Jeedom Server, auf dem die Ausrüstung wieder zusammengebaut werden soll **Jeedom Ziel** **Jeedom Ziel** : Jeedom-Server, der die von der **Jeedom (s) Quelle (n)** Die **Jeedom Ziel** Zentralisieren Sie diese Ausrüstung und die aller Personen **Jeedom (s) Quelle (n)** konfiguriert.**Zuordnung** : Konfiguration durchgeführt am **Jeedom Source** um die Ausrüstung einzuschließen, die auf dem wieder zusammengebaut wird **Jeedom Ziel**
+> Für ein gutes Verständnis ist es wichtig, die folgenden Begriffe zu verstehen : **Jeedom Source** : Jeedom Server, auf dem die Ausrüstung wieder zusammengebaut werden soll **Jeedom Ziel** **Jeedom Ziel** : Jeedom-Server, der die von der) **Jeedom (s) Quelle (n))** Die **Jeedom Ziel** Zentralisieren Sie dieses Gerät und das von allen) **Jeedom (s) Quelle (n))** konfiguriert).**Zuordnung** : Konfiguration durchgeführt am **Jeedom Source** um die Ausrüstung einzuschließen, die auf dem wieder zusammengebaut wird **Jeedom Ziel**
 
 > **Notiz**
 >
@@ -28,7 +28,7 @@ Nach der Installation müssen Sie nur das Plugin aktivieren. Dies erfordert kein
 
 Von **Jeedom Source**, Sobald Sie auf der Plugin-Seite sind (über Plugins-Verwaltung → Kommunikation → Jeedom-Link), müssen Sie nur noch auf "Konfigurieren der Ziel-Jeedoms" klicken".
 
-Ein Fenster wird angezeigt und von dort aus können Sie konfigurieren oder hinzufügen **Jeedom (s) Ziel (e)**.
+Ein Fenster wird angezeigt und von dort aus können Sie konfigurieren oder hinzufügen **Jeedom (s) Ziel (e))**.
 
 Hinzufügen eines **Jeedom Ziel**, gib einfach :
 
@@ -57,11 +57,11 @@ Klicken Sie auf *Ausrüstung hinzufügen* Wählen Sie das Objekt und die Ausrüs
 
 > **Spitze**
 >
-> Achtung : Plugins mit einem bestimmten Widget haben es nicht auf dem **Jeedom Ziel** (Kamera-Plugin, Netzwerk…).
+> Achtung : Plugins mit einem bestimmten Widget haben es nicht auf dem **Jeedom Ziel** (Kamera, Netzwerk-Plugin…).
 
 > **Wichtig**
 >
-> Das Löschen des Gerätes auf der Konfigurationsseite des **Ziel Jeedoms** löscht es nicht automatisch auf dem **Jeedom Source**, Dies ist freiwillig und kein Fehler (es ist Sicherheit).
+> Das Löschen des Gerätes auf der Konfigurationsseite des **Ziel Jeedoms** löscht es nicht automatisch auf dem **Jeedom Source**, Dies ist freiwillig und kein Fehler (es ist eine Sicherheit).
 
 # "Meine Jeelinks" Ausrüstung" 
 
@@ -79,7 +79,7 @@ In der Registerkarte *Befehle*, Sie greifen auf alle Parameter der Gerätesteuer
 
 # Ändern der Jeedom-Quelle eines JeeLink 
 
-Mit den folgenden 3 Parametern können Sie die Jeedom-Quelle ändern, z. B. wenn Sie ein Jeedom ersetzen, ohne die Daten zu verlieren (z. B. Verlauf). Dazu müssen Sie nur die neue Adresse und den neuen API-Schlüssel der Jeedom-Quelle eingeben und die Kennungen der Geräte und Befehle ändern (Sie finden sie in der erweiterten Konfiguration, indem Sie auf das Zahnrad klicken).
+Mit den folgenden 3 Parametern können Sie die Jeedom-Quelle ändern, beispielsweise wenn Sie ein Jeedom ersetzen, ohne Daten zu verlieren (z. B. Verlauf)). Dazu müssen Sie nur die neue Adresse und den neuen API-Schlüssel der Jeedom-Quelle eingeben und die Kennungen der Geräte und Befehle ändern (Sie finden sie in der erweiterten Konfiguration dieser, indem Sie auf das Zahnrad klicken).
 
 -   Jeedom Quelladresse;
 -   Jeedom Source API-Schlüssel;

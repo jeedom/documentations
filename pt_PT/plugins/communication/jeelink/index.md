@@ -14,7 +14,7 @@ O plugin *Link jeedom* (também chamado jeelink) permite a subida de um ou mais 
 
 > **Dica**
 >
-> Para um bom entendimento, é importante entender os seguintes termos : **Fonte Jeedom** : Servidor Jeedom no qual o equipamento a ser remontado no **Jeedom Target** **Jeedom Target** : Servidor Jeedom que receberá o equipamento remontado pelo **Jeedom (s) Origem (s)** O **Jeedom Target** centralizar este equipamento e o de todos **Jeedom (s) Origem (s)** configurado.**Atribuição** : configuração realizada no **Fonte Jeedom** incluir o equipamento que será remontado no **Jeedom Target**
+> Para um bom entendimento, é importante entender os seguintes termos : **Fonte Jeedom** : Servidor Jeedom no qual o equipamento a ser remontado no **Jeedom Target** **Jeedom Target** : Servidor Jeedom que receberá o equipamento remontado pelo) **Jeedom (s) Origem (s))** O **Jeedom Target** centralizar este equipamento e o de todos) **Jeedom (s) Origem (s))** configurado).**Atribuição** : configuração realizada no **Fonte Jeedom** incluir o equipamento que será remontado no **Jeedom Target**
 
 > **NOTA**
 >
@@ -28,14 +28,14 @@ Após a instalação, você só precisa ativar o plugin. Isso não requer nenhum
 
 A partir de **Fonte Jeedom**, uma vez na página do plug-in (acessando Gerenciamento de plug-ins → Comunicação → Link Jeedom), basta clicar em "Configurar os Jeedoms de destino".
 
-Uma janela aparecerá e a partir daí você poderá configurar ou adicionar **Jeedom (s) Alvo (s)**.
+Uma janela aparecerá e a partir daí você poderá configurar ou adicionar **Jeedom (s) Alvo (s))**.
 
 Para adicionar um **Jeedom Target**, apenas dê :
 
 -   O nome de **Jeedom Target**.
 -   O endereço IP ou o nome DNS do **Jeedom Target**.
 -   A chave da API de **Jeedom Target**.
--   Indique se a comunicação é interna ou externa (usada para feedback, de **Fonte Jeedom** para **Jeedom Target**) E salve a configuração.
+-   Indique se a comunicação é interna ou externa (usada para feedback, de **Fonte Jeedom** para **Jeedom Target**). E salve a configuração.
 
 ![jeelink2](../images/jeelink2.png)
 
@@ -57,11 +57,11 @@ Clique em *Adicionar equipamento* Selecione o objeto e o equipamento a serem adi
 
 > **Dica**
 >
-> Atenção : plugins com um widget específico não o terão no **Jeedom Target** (plug-in de câmera, rede ...).
+> Atenção : plugins com um widget específico não o terão no **Jeedom Target** (câmera, plug-in de rede…).
 
 > **IMPORTANTE**
 >
-> A exclusão do equipamento na página de configuração do **Target Jeedoms** não o exclui automaticamente no **Fonte Jeedom**, isso é voluntário e não é um bug (é segurança).
+> A exclusão do equipamento na página de configuração do **Target Jeedoms** não o exclui automaticamente no **Fonte Jeedom**, isso é voluntário e não é um bug (é uma segurança).
 
 # Equipamento "Meus jeelinks"" 
 
@@ -79,7 +79,7 @@ Na aba *Comandos*, você acessa todos os parâmetros dos controles do equipament
 
 # Modificando a fonte Jeedom de um JeeLink 
 
-Os três parâmetros a seguir permitem alterar a fonte do Jeedom, por exemplo, ao substituir um Jeedom sem perder os dados (histórico, por exemplo). Para isso, basta colocar o novo endereço e a chave API do Jeedom Source e alterar os identificadores do equipamento e os comandos (você os encontrará na configuração avançada destes clicando na roda dentada).
+Os três parâmetros a seguir permitem alterar a fonte do Jeedom, por exemplo, ao substituir um Jeedom sem perder dados (histórico, por exemplo,). Para isso, basta colocar o novo endereço e a chave API do Jeedom Source e alterar os identificadores do equipamento e os comandos (você os encontrará na configuração avançada destes clicando na roda dentada).
 
 -   Endereço de origem Jeedom;
 -   Chave da API de origem Jeedom;

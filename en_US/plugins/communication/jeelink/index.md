@@ -14,7 +14,7 @@ The plugin *Jeedom Link* (also called jeelink) allows the ascent of one or more 
 
 > **Tip**
 >
-> For a good understanding, it is important to understand the following few terms : **Jeedom Source** : Jeedom server on which the equipment to be reassembled on the **Jeedom Target** **Jeedom Target** : Jeedom server which will receive the equipment reassembled by the **Jeedom (s) Source (s)** The **Jeedom Target** centralize this equipment and that of everyone (s) **Jeedom (s) Source (s)** configured.**Assignment** : configuration performed on the **Jeedom Source** to include the equipment that will be reassembled on the **Jeedom Target**
+> For a good understanding, it is important to understand the following few terms : **Jeedom Source** : Jeedom server on which the equipment to be reassembled on the **Jeedom Target** **Jeedom Target** : Jeedom server which will receive the equipment reassembled by the) **Jeedom (s) Source (s))** The **Jeedom Target** centralize this equipment and that of all) **Jeedom (s) Source (s))** configured).**Assignment** : configuration performed on the **Jeedom Source** to include the equipment that will be reassembled on the **Jeedom Target**
 
 > **NOTE**
 >
@@ -28,7 +28,7 @@ After installation, you just need to activate the plugin. This does not require 
 
 From the **Jeedom Source**, once on the plugin page (by going to Plugin management → Communication → Jeedom link), you just have to click on "Configure the target Jeedoms".
 
-A window will appear and from there you can configure or add **Jeedom (s) Target (s)**.
+A window will appear and from there you can configure or add **Jeedom (s) Target (s))**.
 
 To add a **Jeedom Target**, just give :
 
@@ -57,11 +57,11 @@ Click on *Add equipment* Select the object and equipment to add :
 
 > **Tip**
 >
-> Be careful : plugins with a specific widget will not have it on the **Jeedom Target** (camera plugin, network…).
+> Be careful : plugins with a specific widget will not have it on the **Jeedom Target** (camera, network plugin…).
 
 > **Important**
 >
-> The deletion of the equipment on the configuration page of the **Target Jeedoms** does not automatically delete it on the **Jeedom Source**, this is voluntary and not a bug (it is security).
+> The deletion of the equipment on the configuration page of the **Target Jeedoms** does not automatically delete it on the **Jeedom Source**, this is voluntary and not a bug (it is a security).
 
 # "My jeelinks" equipment" 
 
@@ -79,7 +79,7 @@ In the tab *Commands*, you access all the parameters of the equipment controls :
 
 # Modifying the Jeedom Source of a JeeLink 
 
-The following 3 parameters allow you to change the Jeedom Source, for example when replacing a Jeedom without losing the data (history for example). For that, you just have to put the new address and API key of the Jeedom Source and to change the identifiers of the equipment and the commands (you will find them in the advanced configuration of these by clicking on the toothed wheel).
+The following 3 parameters allow you to change the Jeedom Source, for example when replacing a Jeedom without losing data (history for example). For that, you just have to put the new address and API key of the Jeedom Source and to change the identifiers of the equipment and the commands (you will find them in the advanced configuration of these by clicking on the toothed wheel).
 
 -   Jeedom Source address;
 -   Jeedom Source API key;

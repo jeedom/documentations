@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 09/10/2021
+
+- Correction pour le suport de Jeedom 4.2
+- Ajout de l'information du nombre de message dans le jeedom cible
+
 # 04/07/2019
 
 - Correction d'un bugs sur la remontée des mises à jour

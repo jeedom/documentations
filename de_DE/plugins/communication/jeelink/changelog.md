@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 09.10.2021
+
+- Korrektur für Jeedom 4.2-Unterstützung
+- Hinzufügen der Nachrichtennummerninformationen zum Ziel-Jeedom
+
 # 2019.04.07
 
 - Behebung eines Fehlers beim Update-Update
@@ -14,7 +19,7 @@
 
 # 14.05.2019
 
-- Verbesserte Auftragsverwaltung mit demselben Namen auf demselben Gerät (Fehler bei der doppelten Eingabe ....)
+- Verbesserte Auftragsverwaltung mit demselben Namen auf demselben Gerät (Fehler bei der doppelten Eingabe....)
 
 # 13.03.2019
 

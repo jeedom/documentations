@@ -4,7 +4,7 @@ Plugin utilizado para vincular 2 Jeedoms
 
 # Principio de funcionamiento 
 
-El complemento *Enlace de libertad* (también llamado enlace de enlace) permite el ascenso de uno o más equipos de un Jeedom a otro.
+El complemento *Enlace de libertad* (también llamado jeelink) permite el ascenso de uno o más equipos de un Jeedom a otro.
 
 ![jeelink1](./images/jeelink1.png)
 
@@ -14,7 +14,7 @@ El complemento *Enlace de libertad* (también llamado enlace de enlace) permite 
 
 > **Punta**
 >
-> Para una buena comprensión, es importante comprender los siguientes términos : **Fuente de la libertad** : Servidor Jeedom en el que se volverá a montar el equipo en el **Jeedom Target** **Jeedom Target** : Servidor Jeedom que recibirá el equipo reensamblado por el **Jeedom (s) Fuente (s)** El **Jeedom Target** Centralizar este equipo y el de todos **Jeedom (s) Fuente (s)** configurado.**Cesión** : configuración realizada en el **Fuente de la libertad** para incluir el equipo que se volverá a montar en el **Jeedom Target**
+> Para una buena comprensión, es importante comprender los siguientes términos : **Fuente de la libertad** : Servidor Jeedom en el que se volverá a montar el equipo en el **Jeedom Target** **Jeedom Target** : Servidor Jeedom que recibirá el equipo reensamblado por el) **Jeedom (s) Fuente (s))** El **Jeedom Target** centralizar este equipo y el de todos) **Jeedom (s) Fuente (s))** configurado).**Cesión** : configuración realizada en el **Fuente de la libertad** para incluir el equipo que se volverá a montar en el **Jeedom Target**
 
 > **Nota**
 >
@@ -28,14 +28,14 @@ Después de la instalación, solo necesita activar el complemento. Esto no requi
 
 A partir de **Fuente de la libertad**, una vez en la página de complementos (yendo a Administración de complementos → Comunicación → Enlace de libertad), solo tiene que hacer clic en "Configurar los Jeedoms de destino".
 
-Aparecerá una ventana y desde allí puede configurar o agregar **Jeedom (s) Target (s)**.
+Aparecerá una ventana y desde allí puede configurar o agregar **Jeedom (s) Target (s))**.
 
 Para agregar un **Jeedom Target**, solo dame :
 
 -   El nombre de **Jeedom Target**.
 -   La dirección IP o el nombre DNS del **Jeedom Target**.
 -   La clave API de **Jeedom Target**.
--   Indique si la comunicación es interna o externa (utilizada para retroalimentación, de **Fuente de la libertad** hacia **Jeedom Target**) Y guarda la configuración.
+-   Indique si la comunicación es interna o externa (utilizada para retroalimentación, de **Fuente de la libertad** hacia **Jeedom Target**). Y guarda la configuración.
 
 ![jeelink2](./images/jeelink2.png)
 
@@ -57,11 +57,11 @@ Haga clic en *Agregar equipo* Seleccione el objeto y el equipo para agregar :
 
 > **Punta**
 >
-> Atención : los complementos con un widget específico no lo tendrán en el **Jeedom Target** (plugin de cámara, red ...).
+> Atención : los complementos con un widget específico no lo tendrán en el **Jeedom Target** (cámara, plugin de red).
 
 > **Importante**
 >
-> La eliminación del equipo en la página de configuración del **Jeedoms objetivo** no lo elimina automáticamente en el **Fuente de la libertad**, esto es voluntario y no es un error (es seguridad).
+> La eliminación del equipo en la página de configuración del **Jeedoms objetivo** no lo elimina automáticamente en el **Fuente de la libertad**, esto es voluntario y no es un error (es una seguridad).
 
 # Equipo "Mis jeelinks"" 
 
@@ -79,7 +79,7 @@ En la pestaña *Comandos*, accede a todos los parámetros de los controles del e
 
 # Modificación de la fuente Jeedom de un JeeLink 
 
-Los siguientes 3 parámetros le permiten cambiar la fuente Jeedom, por ejemplo, al reemplazar un Jeedom sin perder los datos (por ejemplo, el historial). Para eso, solo tiene que poner la nueva dirección y la clave API de Jeedom Source y cambiar los identificadores del equipo y los comandos (los encontrará en la configuración avanzada de estos haciendo clic en la rueda dentada).
+Los siguientes 3 parámetros le permiten cambiar la fuente Jeedom, por ejemplo, al reemplazar un Jeedom sin perder datos (por ejemplo, el historial). Para eso, solo tiene que poner la nueva dirección y la clave API de Jeedom Source y cambiar los identificadores del equipo y los comandos (los encontrará en la configuración avanzada de estos haciendo clic en la rueda dentada).
 
 -   Dirección de la fuente Jeedom;
 -   Clave API de Jeedom Source;
