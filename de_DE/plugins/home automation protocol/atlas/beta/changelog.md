@@ -5,6 +5,9 @@
 >**WICHTIG**
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
+# 08.10.2021
+
+- DHCP auf Wifi-Hotspot.
 
 # 10.06.2021
 

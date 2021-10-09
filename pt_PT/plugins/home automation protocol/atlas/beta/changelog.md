@@ -5,6 +5,9 @@
 >**IMPORTANTE**
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
+# 10/08/2021
+
+- Dhcp em Wifi Hotspot.
 
 # 10/06/2021
 
