@@ -4,6 +4,7 @@
 
 - The `eqLogic method::byTypeAndSearhConfiguration () `has been renamed correctly : `eqLogic::byTypeAndSearchConfiguration()`. The old one will be removed in a future version of the Core.
 - The js `jeedom.eqLogic method.builSelectCmd` has been renamed correctly : `jeedom.eqLogic.buildSelectCmd`. The old one will be removed in a future version of the Core. Be careful, this one is used a lot by plugins, but the new function will not work on a pre-4 Core.2, so no rush.
+These two methods have also been integrated in v4.1 to accelerate their adoption.
 - Removal of the jwerty liberty for vanillaJS (management of keyboard shortcuts). Kept in v4.2 for plugins likely to use it, it will be removed in v4.3.
 
 ### Optional modifications
@@ -334,3 +335,50 @@ Example :
 `` ``
 
 > The texts `Value date`,` Collection date` and all those found in Core widgets do not need to be in json. If you don't have other texts in your widget, then the json is not needed, and these strings will be translated.
+
+
+#### Integration into the Core of Generic Types specific to a plugin
+
+Core v4.2 has a new page allowing you to configure Generic Types more easily. It of course uses the Generic Types defined by the Core, but some plugins define their own Generic Types.
+
+So that these plugins are supported by this new Core page, here is how to integrate them.
+
+When opening this page, the Core checks, for each plugin, if it has a `` pluginGenericTypes () `method. If this is the case, this method is then called, while waiting for the Generic Types of the plugin in order to integrate them. These must respect the definition of Generic Types of the Core, especially if categories already exist (Socket, Light, etc.).
+
+Example, in the file `plugins / myplugin / core / php / myplugin.class.php`:
+
+`` ``php
+class myPlugin extends eqLogic
+{
+    /*     * ***********************Static method*************************** */
+    public static $ _widgetPossibility = array ('custom' => true);
+
+    public static function pluginGenericTypes()
+    {
+        $generics = array(
+            'MONPLUGIN_TOGGLE '=> array (// capitalize without space
+                'name '=> __ (' MyPlugin Toggle ', __ FILE__),
+                'familyid '=>' MyPlugin ', // No space here
+                'family '=> __ (' Plugin MyPlugin ', __ FILE__), // Start with' Plugin ' ...
+                'type '=>' Action',
+                'subtype '=> array (' other')
+            ),
+            'MONPLUGIN_LIGHT_BEAM '=> array(
+                'name '=> __ (' Light Rays (MyPlugin) ', __ FILE__),
+                'familyid '=>' LIGHT ', // Existing type if any
+                'family '=> __ (' Light ', __ FILE__),
+                'type '=>' Info',
+                'subtype '=> array (' binary ',' numeric')
+            )
+        );
+        return $ generics;
+    }
+
+`` ``
+
+Here, the plugin `myPlugin` will 'inject' two Generic Types :
+
+- A Generic Type MONPLUGIN_TOGGLE, of type `MyPlugin`, category that does not exist in the Core.
+- A Generic Type MONPLUGIN_LIGHT_BEAM, in the existing category `Lumière`.
+
+> Reference : The Generic Core Types are defined in the [config file](https://github.com/jeedom/core/blob/alpha/core/config/jeedom.config.php), array $ JEEDOM_INTERNAL_CONFIG, generic_type.

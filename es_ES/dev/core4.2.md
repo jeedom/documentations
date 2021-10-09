@@ -4,6 +4,7 @@
 
 - El método `eqLogic::byTypeAndSearhConfiguration () `ha sido renombrado correctamente : `eqLogic::byTypeAndSearchConfiguration()`. El anterior se eliminará en una versión futura del Core.
 - El método js `jeedom.eqLogic.builSelectCmd` ha sido renombrado correctamente : `jeedom.eqLogic.buildSelectCmd`. El anterior se eliminará en una versión futura del Core. Tenga cuidado, este es usado mucho por los complementos, pero la nueva función no funcionará en un Core anterior a 4.2, así que no hay prisa.
+Estos dos métodos también se han integrado en v4.1 para acelerar su adopción.
 - Eliminación de jwerty liberty para vanillaJS (gestión de atajos de teclado). Guardado en v4.2 para los complementos que probablemente lo utilicen, se eliminará en la v4.3.
 
 ### Modificaciones opcionales
@@ -334,3 +335,50 @@ Ejemplo :
 `` ``
 
 > Los textos `Fecha de valor`,` Fecha de colección` y todos los que se encuentran en los widgets Core no necesitan estar en el json. Si no tiene otros textos en su widget, entonces el json no es necesario y estas cadenas se traducirán.
+
+
+#### Integración en el núcleo de tipos genéricos específicos de un complemento
+
+Core v4.2 tiene una nueva página que le permite configurar tipos genéricos más fácilmente. Por supuesto, utiliza los tipos genéricos definidos por el núcleo, pero algunos complementos definen sus propios tipos genéricos.
+
+Para que estos complementos sean compatibles con esta nueva página principal, aquí se explica cómo integrarlos.
+
+Al abrir esta página, el Core comprueba, para cada complemento, si tiene un método `` pluginGenericTypes () `. Si este es el caso, se llama a este método, mientras se esperan los tipos genéricos del complemento para integrarlos. Estos deben respetar la definición de Tipos Genéricos del Núcleo, especialmente si ya existen categorías (Socket, Light, etc.).
+
+Ejemplo, en el archivo `plugins / myplugin / core / php / myplugin.class.php`:
+
+`` ``php
+class myPlugin extiende eqLogic
+{
+    /*     * ***********************Método estático*************************** */
+    public static $ _widgetPossibility = array ('personalizado' => verdadero);
+
+    complemento de función estática pública()
+    {
+        $generics = array(
+            'MONPLUGIN_TOGGLE '=> matriz (// capitalizar sin espacio
+                'name '=> __ (' MyPlugin Toggle ', __ FILE__),
+                'familyid '=>' MyPlugin ', // No hay espacio aquí
+                'family '=> __ (' Plugin MyPlugin ', __ FILE__), // Empiece con' Plugin ' ...
+                'type '=>' Acción',
+                'subtipo '=> matriz (' otro')
+            ),
+            'MONPLUGIN_LIGHT_BEAM '=> matriz(
+                'name '=> __ (' Light Rays (MyPlugin) ', __ FILE__),
+                'familyid '=>' LIGHT ', // Tipo existente si lo hay
+                'family '=> __ (' Light ', __ FILE__),
+                'type '=>' Información',
+                'subtipo '=> matriz (' binario ',' numérico')
+            )
+        );
+        return $ genéricos;
+    }
+
+`` ``
+
+Aquí, el complemento `myPlugin` 'inyectará' dos tipos genéricos :
+
+- Un tipo genérico MONPLUGIN_TOGGLE, de tipo `MyPlugin`, categoría que no existe en el Core.
+- Un tipo genérico MONPLUGIN_LIGHT_BEAM, en la categoría existente `Lumière`.
+
+> Referencia : Los tipos de núcleos genéricos se definen en el [archivo de configuración](https://github.com/jeedom/core/blob/alpha/core/config/jeedom.config.php), matriz $ JEEDOM_INTERNAL_CONFIG, tipo_genérico.

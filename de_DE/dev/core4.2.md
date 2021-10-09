@@ -4,6 +4,7 @@
 
 - Die `eqLogic-Methode::byTypeAndSearhConfiguration () `wurde richtig umbenannt : `eqLogic::byTypeAndSearchConfiguration()`. Der alte wird in einer zukünftigen Version des Core entfernt removed.
 - Die js-`jeedom.eqLogic-Methode.builSelectCmd` wurde korrekt umbenannt : `jeedom.eqLogic.buildSelectCmd`. Der alte wird in einer zukünftigen Version des Core entfernt removed. Seien Sie vorsichtig, dieser wird häufig von Plugins verwendet, aber die neue Funktion funktioniert nicht auf einem Core vor 4.2, also keine Eile.
+Diese beiden Methoden wurden auch in v4 integriert.1 um ihre Annahme zu beschleunigen.
 - Aufhebung der JWERTY-Freiheit für VanillaJS (Verwaltung von Tastaturkürzeln)). Wird in Version 4 beibehalten.2 für Plugins, die es wahrscheinlich verwenden, wird es in v4.3 entfernt.
 
 ### Optionale Änderungen
@@ -334,3 +335,50 @@ Beispiel :
 `` ``
 
 > Die Texte "Wertdatum", "Erfassungsdatum" und alle in Core-Widgets enthaltenen Texte müssen nicht in json sein. Wenn Sie keine anderen Texte in Ihrem Widget haben, wird der JSON nicht benötigt und diese Zeichenfolgen werden übersetzt.
+
+
+#### Integration in den Kern von generischen Typen, die für ein Plugin spezifisch sind
+
+Core v4.2 hat eine neue Seite, auf der Sie generische Typen einfacher konfigurieren können. Es verwendet natürlich die vom Core definierten generischen Typen, aber einige Plugins definieren ihre eigenen generischen Typen.
+
+Damit diese Plugins von dieser neuen Core-Seite unterstützt werden, erfahren Sie hier, wie Sie sie integrieren.
+
+Beim Öffnen dieser Seite prüft der Core für jedes Plugin, ob es eine ``pluginGenericTypes()``Methode . hat. Ist dies der Fall, wird diese Methode dann aufgerufen, während auf die Generic Types des Plugins gewartet wird, um diese einzubinden. Diese müssen die Definition der generischen Typen des Kerns respektieren, insbesondere wenn bereits Kategorien vorhanden sind (Socket, Light usw.).
+
+Beispiel in der Datei `plugins / myplugin / core / php / myplugin.class.php`:
+
+`` ``php
+Klasse myPlugin erweitert eqLogic
+{
+    /*     * ***********************Statische Methode*************************** */
+    public static $ _widgetPossibility = array ('custom' => true);
+
+    öffentliche statische Funktion pluginGenericTypes()
+    {
+        $generics = array(
+            'MONPLUGIN_TOGGLE '=> Array (// Großschreibung ohne Leerzeichen
+                'name '=> __ (' MyPlugin Toggle ', __ DATEI__),
+                'familyid '=>' MyPlugin ', // Kein Leerzeichen hier
+                'family '=> __ (' Plugin MyPlugin ', __ FILE__), // Start with' Plugin ' ...
+                ''=>' Aktion eingeben',
+                'Untertyp '=> Array (' other')
+            ),
+            'MONPLUGIN_LIGHT_BEAM '=> Array(
+                'name '=> __ ('Lichtstrahlen (MyPlugin)', __ DATEI__),
+                'familyid '=>' LIGHT ', // Vorhandener Typ, falls vorhanden
+                'Familie '=> __ ('Licht', __ DATEI__),
+                ''=>' eingeben Info',
+                'Untertyp '=> Array ('binär','numerisch')
+            )
+        );;
+        geben $ Generika zurück;
+    }
+
+`` ``
+
+Hier wird das Plugin `myPlugin` zwei generische Typen 'injizieren' :
+
+- Ein generischer Typ MONPLUGIN_TOGGLE vom Typ `MyPlugin`, Kategorie, der im Core nicht existiert.
+- Ein generischer Typ MONPLUGIN_LIGHT_BEAM, in der bestehenden Kategorie `Lumière`.
+
+> Referenz : Die generischen Core-Typen sind in der [Konfigurationsdatei](https://github.com/jeedom/core/blob/alpha/core/config/jeedom.config.php), Array $ JEEDOM_INTERNAL_CONFIG, generic_type.
