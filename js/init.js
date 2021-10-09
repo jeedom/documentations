@@ -74,6 +74,7 @@ var docMenu = [
       {link : "/#LANG#/core/#VERSION#/scenario",icon:"fas fa-cogs",fr_FR:"Scénarios",en_US:"Scenarios",es_ES:"Escenarios",de_DE:"Szenario",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/interact",icon:"far fa-comments",fr_FR:"Intéractions",en_US:"Interactions",es_ES:"Interacciones",de_DE:"Interaktionen",pt_PT:""},
       {version : ['4.0','4.1','4.2'],link : "/#LANG#/core/#VERSION#/widgets",icon:"fas fa-camera-retro",fr_FR:"Widgets",en_US:"Widgets",es_ES:"Widgets",de_DE:"Widgets",pt_PT:""},
+      {version : ['4.2'],link : "/#LANG#/core/#VERSION#/types",icon:"fas fa-puzzle-piece",fr_FR:"Types d'équipements",en_US:"Equipment Types",es_ES:"Tipos de equipo",de_DE:"Gerätearten",pt_PT:"Tipos de equipamento"},
       {link : "",icon:"fas fa-sticky-note",fr_FR:"Notes",en_US:"Notes",es_ES:"Notas",de_DE:"Anmerkungen",pt_PT:""},
       {link : "",icon:"fas fa-check",fr_FR:"Testeur d'expression",en_US:"Expression tester",es_ES:"Probador de expresión",de_DE:"Expressionstester",pt_PT:""},
       {link : "",icon:"fas fa-eye",fr_FR:"Variables",en_US:"Variables",es_ES:"Variables",de_DE:"Variables",pt_PT:""},
