@@ -26,11 +26,11 @@ apt-get install docker.io
 
 Installation de l’image :
 
-``docker pull jeedom/jeedom:latest``
+``docker pull jeedom/jeedom:V4-stable``
 
 Puis lancez la :
 
-``sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/db:/var/lib/mysql -p 9080:80 jeedom/jeedom``
+``sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/db:/var/lib/mysql -p 9080:80 jeedom/jeedom:V4-stable``
 
 Avec :
 
