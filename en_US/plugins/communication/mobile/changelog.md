@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 06/21/2021
+
+- New timeout for notifications and referral in the event of a problem with the server.
+
 # 02/24/2021
 
 - New Notification engine for Android.

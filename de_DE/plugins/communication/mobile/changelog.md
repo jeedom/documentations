@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 21.06.2021
+
+- Neues Timeout für Benachrichtigungen und Weiterleitung bei Problemen mit dem Server.
+
 # 24.02.2021
 
 - Neue Benachrichtigungs-Engine für Android.
