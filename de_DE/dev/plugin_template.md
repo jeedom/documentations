@@ -6,22 +6,27 @@ Sie finden eine leere Plugin-Datenbank [hier](https:/./.github.com/.jeedom/.plug
 
 Hier ist seine Struktur: Zuerst einen Ordner mit dem Namen Ihres Plugins (genauer gesagt seiner eindeutigen Kennung), der die folgenden Unterordner enthalten muss :
 
-- ``3rdparty`` : Ordner mit den im Plugin verwendeten externen Bibliotheken (Beispiel für das SMS-Plugin eine Bibliothek für die serielle Kommunikation in PHP)
-- ``core`` : Ordner mit allen internen Betriebsdateien
-  - ``class`` : Ordner mit der Plugin-Klasse
-  - ``php`` : Ordner, der Funktionen enthalten kann, die nicht zu einer Klasse gehören müssen (häufig verwendet, um mehrere Klassen oder Konfigurationsdateien gleichzeitig einzuschließen)
-  - ``config`` : Plugin-Konfigurationsdatei
-  - ``ajax`` : Ordner mit AJA-AufrufzieldateienX
-- ``desktop`` : Ordner mit der "Desktop" -Ansicht des Plugins (im Gegensatz zur "mobilen" Ansicht")
-  -   ``js`` : Ordner mit allen Javascript-Dateien
-  -   ``php`` : Ordner mit allen angezeigten PHP-Dateien
-  -   ``css`` : Es gibt keine hier, aber wenn nötig, gehen alle Plugin-CSS-Dateien hinein
-  -   ``modal`` : Ordner mit dem Modalcode des Plugins
-- ``plugin_info`` : enthält die Dateien, mit denen Jeedom das Plugin qualifizieren, installieren und konfigurieren kann
-  -   ``info.json`` : Datei mit den grundlegenden Informationen des Plugins (es ist obligatorisch, sonst sieht Jeedom das Plugin nicht), enthält unter anderem die Modul-ID, Beschreibung, Installationsanweisungen…
-  -   ``install.php`` : Datei, die (falls erforderlich) die Methoden zum Installieren und Deinstallieren des Plugins enthält
-  -   ``configuration.php`` : Datei mit den Parametern zum Konfigurieren des Plugins unabhängig von seiner Ausstattung (Beispiel für das Zwave-Modul, die Raspberry Pi IP mit der Razberry-Karte)
-- ``docs`` : muss das Plugin-Dokument im Markdown-Format, das Stammverzeichnis und die Datei index.md enthalten. Alle Bilder sind in Dokumenten / Bildern. Das Dokument selbst befindet sich je nach Sprache in einem Ordner (z. B. in Französisch : ``docs/.fr\_FR``)
+- ``3rdparty`` : Ordner mit den im Plugin verwendeten externen Bibliotheken (Beispiel für das SMS-Plugin eine Bibliothek für die serielle Kommunikation in PHP).
+- ``core`` : Ordner mit allen internen Betriebsdateien.
+  - ``class`` : Ordner mit der Plugin-Klasse.
+  - ``php`` : Ordner, der Funktionen enthalten kann, die nicht zu einer Klasse gehören müssen (häufig verwendet, um mehrere Klassen oder Konfigurationsdateien gleichzeitig einzuschließen).
+  - ``config`` : Plugin-Konfigurationsdatei.
+  - ``ajax`` : Ordner mit AJA-AufrufzieldateienX.
+  - ``i18n`` : Ordner mit Dateien .Plugin-Übersetzung json.
+- ``desktop`` : Ordner mit der "Desktop" -Ansicht des Plugins (im Gegensatz zur "mobilen" Ansicht").
+  - ``js`` : Ordner mit allen Javascript-Dateien für die Plugin-Schnittstelle.
+  - ``php`` : Ordner mit allen PHP-Typ-Dateien für die Plugin-Schnittstelle.
+  - ``css`` : Bei Bedarf alle CSS-Dateien des Plugins, ggf. inklusive *Schriftarten*.
+  - ``modal`` : Ordner mit dem Modalcode des Plugins.
+  - ``img`` : Ordner für die Bilder (png, jpg etc), die vom Plugin benötigt werden.
+  - ``template`` : Ordner mit den HTML-Vorlagen für Kacheln, die für die Geräte des Plugins spezifisch sind, im Dashboard und in den Unterordnern für Mobilgeräte.
+- ``plugin_info`` : Enthält die Dateien, mit denen Jeedom das Plugin qualifizieren, installieren und konfigurieren kann.
+  - ``info.json`` : Datei mit grundlegenden Plugin-Informationen .Es ist obligatorisch, sonst wird Jeedom das Plugin nicht sehen. Es enthält unter anderem die Modulkennung, Beschreibung, Installationsanleitung usw
+  - ``install.php`` : Datei, die (falls erforderlich) die Methoden zum Installieren und Deinstallieren des Plugins enthält.
+  - ``configuration.php`` : Datei mit den Parametern zum Konfigurieren des Plugins unabhängig von seiner Ausstattung (Beispiel für das Zwave-Modul, die Raspberry Pi IP mit der Razberry-Karte)
+- ``docs`` : Muss das Plugin-Dokument im Markdown-Format, das Stammverzeichnis und die Datei index.md enthalten. Alle Bilder sind in Dokumenten / Bildern. Das Dokument selbst befindet sich je nach Sprache in einem Ordner (z. B. in Französisch : ``docs/.fr\_FR``)
+- ``ressources`` : Ordner für mögliche Daemons und Abhängigkeiten.
+- ``data`` : Ordner, der für Dateien verwendet wird, die vom Plugin speziell für das Jeedom des Benutzers generiert werden.
 
 In Bezug auf die Dateinamenskonvention sind hier die
 Bedarf :

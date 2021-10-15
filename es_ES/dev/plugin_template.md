@@ -6,22 +6,27 @@ Puedes encontrar una base de datos de complementos vacía [aquí](https:/ // /gi
 
 Aquí esta su estructura: primero una carpeta con el nombre de su complemento (su identificador único más precisamente) que debe contener las siguientes subcarpetas :
 
-- ``3rdparty`` : carpeta que contiene las bibliotecas externas utilizadas en el complemento (ejemplo para el complemento de SMS, una biblioteca para comunicación en serie en php)
-- ``core`` : carpeta que contiene todos los archivos operativos internos
-  - ``class`` : carpeta que contiene la clase de complemento
-  - ``php`` : carpeta que puede contener funciones que no tienen que pertenecer a una clase (a menudo utilizada para permitir la inclusión de múltiples clases o archivos de configuración a la vez)
-  - ``config`` : archivo de configuración del complemento
-  - ``ajax`` : carpeta que contiene archivos de destino de llamadas AJAX
-- ``desktop`` : carpeta que contiene la vista "escritorio" del complemento (en contraste con la vista "móvil"")
-  -   ``js`` : carpeta que contiene todos los archivos javascript
-  -   ``php`` : carpeta que contiene todos los archivos php que se muestran
-  -   ``css`` : no hay ninguno aquí, pero, si es necesario, todos los archivos CSS del complemento entran
-  -   ``modal`` : carpeta que contiene el código modal del complemento
-- ``plugin_info`` : contiene los archivos que permiten a Jeedom calificar el complemento, instalarlo y configurarlo
-  -   ``info.json`` : archivo que contiene la información básica del complemento (es obligatorio, de lo contrario, Jeedom no verá el complemento), contiene entre otras cosas el identificador del módulo, la descripción, las instrucciones de instalación
-  -   ``install.php`` : archivo que contiene (si es necesario) los métodos para instalar y desinstalar el complemento
-  -   ``configuration.php`` : archivo que contiene los parámetros para configurar el complemento independientemente de su equipo (ejemplo para el módulo Zwave, la Raspberry Pi ip con la tarjeta Razberry)
-- ``docs`` : debe contener el documento del complemento en formato markdown, la raíz y el archivo index.md. Todas las imágenes están en documentos / imágenes. El documento en sí está en una carpeta dependiendo del idioma (ej. En francés : ``docs/ /fr\_FR``)
+- ``3rdparty`` : Carpeta que contiene las bibliotecas externas utilizadas en el complemento (ejemplo para el complemento de SMS, una biblioteca para comunicación en serie en php).
+- ``core`` : Carpeta que contiene todos los archivos operativos internos.
+  - ``class`` : Carpeta que contiene la clase de complemento.
+  - ``php`` : Carpeta que puede contener funciones que no tienen que pertenecer a una clase (a menudo utilizada para permitir la inclusión de múltiples clases o archivos de configuración a la vez).
+  - ``config`` : Archivo de configuración del complemento.
+  - ``ajax`` : Carpeta que contiene archivos de destino de llamadas AJAX.
+  - ``i18n`` : Carpeta que contiene archivos .plugin traducción json.
+- ``desktop`` : Carpeta que contiene la vista "escritorio" del complemento (en contraste con la vista "móvil"").
+  - ``js`` : Carpeta que contiene todos los archivos de tipo javascript para la interfaz del complemento.
+  - ``php`` : Carpeta que contiene todos los archivos de tipo php para la interfaz del complemento.
+  - ``css`` : Si es necesario, todos los archivos css del complemento, posiblemente incluidos *fuentes*.
+  - ``modal`` : Carpeta que contiene el código modal del complemento.
+  - ``img`` : Carpeta para las imágenes (png, jpg, etc.) que necesita el complemento.
+  - ``template`` : Carpeta que contiene las plantillas html para mosaicos específicos del equipo del complemento, en el tablero y las subcarpetas móviles.
+- ``plugin_info`` : Contiene los archivos que permiten a Jeedom calificar el complemento, instalarlo y configurarlo.
+  - ``info.json`` : Archivo que contiene información básica sobre el complemento .Es obligatorio, de lo contrario, Jeedom no verá el complemento. Contiene, entre otras cosas, el identificador del módulo, descripción, instrucciones de instalación, etc
+  - ``install.php`` : Archivo que contiene (si es necesario) los métodos para instalar y desinstalar el complemento.
+  - ``configuration.php`` : Archivo que contiene los parámetros para configurar el complemento independientemente de su equipo (ejemplo para el módulo Zwave, la Raspberry Pi ip con la tarjeta Razberry)
+- ``docs`` : Debe contener el documento del complemento en formato markdown, la raíz y el archivo index.md. Todas las imágenes están en documentos / imágenes. El documento en sí está en una carpeta dependiendo del idioma (ej. En francés : ``docs/ /fr\_FR``)
+- ``ressources`` : Carpeta para posibles demonios y dependencias.
+- ``data`` : Carpeta utilizada para archivos generados por el complemento específico para Jeedom del usuario.
 
 En cuanto a la convención de nomenclatura de archivos, aquí están los
 requisitos :
