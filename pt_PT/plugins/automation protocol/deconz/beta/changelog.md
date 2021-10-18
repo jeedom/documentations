@@ -4,7 +4,7 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-
+- Possibilidade de desinstalar o Deconz, obrigado @Benjamin 
 - Adicionado ZHAAirQualit, meric @sagitaz
 - Corrigido um bug com a versão mais recente do deconz ao retornar atualizações de atributos
 - Adição de grupo e gerenciamento de ligação
