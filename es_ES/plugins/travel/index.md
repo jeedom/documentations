@@ -6,4 +6,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="wazeintime/wazeintime_icon.png" class="pluginLogo" width="100" />|Waze in Time|Complemento para tener el tiempo de viaje entre dos puntos|[Documentación](wazeintime/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1820)<br/>[Cambios](wazeintime/changelog.md)|
+|<img src="wazeintime/wazeintime_icon.png" class="pluginLogo" width="100" />|Waze in Time|Complemento para tener el tiempo de viaje entre dos puntos|[Documentación](wazeintime/index.md)[Beta](wazeintime/beta/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1820)<br/>[Cambios](wazeintime/changelog.md)[Beta](wazeintime/beta/changelog.md)|
