@@ -2,9 +2,9 @@
 
 ## Découverte des résumés
 
-Jeedom propose un moyen très simple et clair d'afficher la situation de différents composants de votre habitat, afin de voir tout de suite combien de lumières sont allumées, de volets ouvert, l'état de l'alarme, la température, etc.
+Jeedom propose un moyen très simple et clair d'afficher la situation de différents composants de votre habitat, afin de voir tout de suite combien de lumières sont allumées, de volets ouverts, l'état de l'alarme, la température, etc.
 
-Les résumés sont affichés sous forme de petites icônes dans la barre de Jeedom en haut, et sur chaque objet. Au clic, ils permettent de voir directement les équipements compris dans le résumé sur lequel vous avez cliqué.
+Les résumés sont affichés sous forme de petites icônes dans la barre de Jeedom en haut, et sur chaque objet (Dashboard et Syntèse). Au clic, ils permettent de voir directement les équipements compris dans le résumé sur lequel vous avez cliqué pour le agir dessus si nécessaire.
 
 Il faut distinguer deux types de résumés :
 
@@ -47,12 +47,12 @@ Parcourons ce qu'on va définir ici:
 - **Si nul** : Afficher le résumé même quand sa valeur est 0.
 - **Ignorer si** : Ignorer une commande pour ce résumé si celle-ci n'a pas d'update depuis x minutes.
 - **Lier à un virtuel** : Lance la création d'un équipement virtuel avec des commandes correspondantes aux valeurs du résumé.
-- **Supprimer le résumé** : Le dernier bouton, tout à droite, permet de supprimer le résumé de la ligne.
+- **Supprimer le résumé** : Le dernier bouton, tout à droite, permet de supprimer le résumé.
 
 
 Par exemple ici :
 
-- Si nous regardons l'animation, le 3èm résumé, correspondant à **Mouvement** indique en rouge qu'il y a *1* mouvement. Sur l'aperçu ci dessus, nous voyons que c'est l’icône du cercle vert, sans chiffre. En effet, si vous regardez sa ligne, l’icône verte est configurée comme **Icône si nul** et la valeur n'est pas affichée car **Masquer le nombre si nul** est coché. De la même façon, sur l'aperçu, le résumé *Porte* est en vert, sans nombre, alors que le résumé *Lumière* est en jaune, avec le nombre de lumières allumées.
+- Si nous regardons l'animation en début de page, le 3èm résumé, correspondant à **Mouvement** indique en rouge qu'il y a *1* mouvement. Sur l'aperçu ci dessus, nous voyons que c'est l’icône du cercle vert, sans chiffre. En effet, si vous regardez sa ligne, l’icône verte est configurée comme **Icône si nul** et la valeur n'est pas affichée car **Masquer le nombre si nul** est coché. De la même façon, le résumé *Porte* est en vert, sans nombre, alors que le résumé *Lumière* est en jaune, avec le nombre de lumières allumées.
 
 > Tip
 >
@@ -73,7 +73,7 @@ Ici, nous avons deux parties :
 
 Les colonnes du tableau présentent chaque type de résumé disponible en configuration comme vue plus haut. Pour chaque résumé, trois options :
 
-- **Remonter dans le résumé global** : C'est ici que vous choisissez, pour chaque résumé, si celui de cet objet doit être pris en compte dans le résumé global. Par exemple, ici, le résumé *Volet* du Salon est coché, donc il remonte dans le résumé global. Donc, si on regarde dans le résumé global, dans les 6 volets ouverts affichés, il y a ceux du Salon ! Inversement, si on regarde le résumé *TempExt* (16.1°C dans le résumé global), il est décoché, car je ne souhaite remonter que la température de l'objet Jardin dans le résumé global.
+- **Remonter dans le résumé global** : C'est ici que vous choisissez, pour chaque résumé, si celui de cet objet doit être pris en compte dans le résumé global. Par exemple, ici, le résumé *Volet* du Salon est coché, donc il remonte dans le résumé global. Si on regarde dans le résumé global, dans les 6 volets ouverts affichés, il y a ceux du Salon ! Inversement, si on regarde le résumé *TempExt* (16.1°C dans le résumé global), il est décoché, car je ne souhaite remonter que la température de l'objet Jardin dans le résumé global.
 - **Masquer en desktop** : Pour ne pas afficher ce résumé à côté du nom de l’objet sur le Dashboard.
 - **Masquer en mobile** : Pour ne pas afficher ce résumé à côté du nom de l’objet en mobile.
 
@@ -124,7 +124,7 @@ Par exemple :
 
 - Un déclencheur `#[None][Global Summary][Mouvement]# > 0` qui déclenchera un scénario dès qu'un mouvement est détecté dans le logement.
 - Une expression IF `#[Salon][Summary][Lumière]# > 0 ` qui testera si une lumière est allumée dans le Salon.
-- Une action `#[Salon][Summary][Volet Shutter Button Slider]#` avec valeur 0 qui fermera tous les volets.
+- Une action `#[Salon][Summary][Volet Shutter Button Slider]#` avec valeur 0 qui fermera tous les volets du Salon.
 
 ### Actions sur résumés
 
@@ -135,4 +135,4 @@ Par exemple, si vous avez créer les Virtuels de résumé pour le résumé *Lumi
 ![Virtuel résumé](images/summary-virtual-actions.jpg)
 
 
-Nous l'avons, les résumés représentent un vaste sujet, qu'il n'est pas toujours très simple appréhender au début de la vie d'un Jeedomien, mais qu'il est bon de connaître !
+Nous l'avons vu, les résumés représentent un vaste sujet, qu'il n'est pas toujours très simple d'appréhender au début de la vie d'un Jeedomien, mais qu'il est bon de connaître !
