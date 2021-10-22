@@ -63,7 +63,7 @@ Les commandes action sont généralement liées à des commandes info. Ici, notr
 
 Ces deux types de commandes sont rattachées sous la forme d'un équipement. L'équipement possède donc des commandes info et/ou action, et c'est cet équipement qui aura pour parent un Objet, vous permettant de l'afficher où vous le souhaitez.
 
-Chaque commande possede une proprieté Génerique Type qui permet à Jeeodm de comprendre ce quelle fait.Vous pouvez voir [ici](https://doc.jeedom.com/fr_FR/concept/generic_type) la documentation sur les générique type
+Chaque commande peux également posséder ce qu'on appelle un type générique, permettant à Jeedom et à certains plugins de connaitre le type de commande (Etat d'une prise, bouton d'une lumière, etc). [**Outils → Types d'équipement**](/fr_FR/core/4.2/types).
 
 ### Équipement
 
