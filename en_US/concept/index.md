@@ -48,18 +48,18 @@ To interact with our home automation, you need commands ! These are of two types
 >
 > Rest assured, commands are normally created automatically ! These explanations are for a better understanding.
 
-- The Commands *Info* :
+- The Commands *info* :
 These commands store information from sensors. For example, the temperature of a probe, a movement of a presence sensor, etc.
 These commands can be logged in order to keep this information over time in the form of a curve : [History](/en_US/core/4.1/history)
 
 These commands can also be used to trigger [Scenarios](/en_US/core/4.1/scenario) in order to automate actions based on the information sent by your sensors. For example, a motion sensor detects a presence, which will trigger a scenario that will turn on the light.
 
-- The Commands *Action* :
+- The Commands *action* :
 These commands allow you to control your actuators. For example, commands ````on```` and ````off```` of a controlled outlet will allow you to turn it on and off.
 
 Action commands are usually linked to info commands. Here our take has two actions ````on```` and ````off````, usually related to information **State**.
 
-![Commands](images/concept-commands.jpg)
+![Orders](images/concept-commands.jpg)
 
 These two types of commands are attached in the form of equipment. The equipment therefore has info and / or action commands, and it is this equipment that will have an Object as parent, allowing you to display it where you want.
 
@@ -76,11 +76,11 @@ In terms of display, each command is displayed using a Widget. The Core offers t
 
 These commands are grouped in a tile corresponding to your equipment. And this tile will be displayed on the Dashboard in the Object you have chosen.
 
-![Commands](images/concept-equipment.jpg)
+![Orders](images/concept-equipment.jpg)
 
 Whatever your device, it will therefore be created in the form of a device, from a [Plugin](/en_US/core/4.1/plugin).
 
-This device will have its own commands *Info* or *Action*. These commands will be displayed as Widgets forming the equipment tile, in its parent object.
+This device will have its own commands *info* or *action*. These commands will be displayed as Widgets forming the equipment tile, in its parent object.
 
 You will then see that each Object, Equipment, Command has many options, in terms of functionality or display. But everything in its time, by now you should have understood the basic concepts of Jeedom, and thus be able to start organizing your home automation knowing where to look.
 
