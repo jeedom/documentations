@@ -78,6 +78,7 @@ var docMenu = [
       {link : "",icon:"fas fa-sticky-note",fr_FR:"Notes",en_US:"Notes",es_ES:"Notas",de_DE:"Anmerkungen",pt_PT:""},
       {link : "",icon:"fas fa-check",fr_FR:"Testeur d'expression",en_US:"Expression tester",es_ES:"Probador de expresión",de_DE:"Expressionstester",pt_PT:""},
       {link : "",icon:"fas fa-eye",fr_FR:"Variables",en_US:"Variables",es_ES:"Variables",de_DE:"Variables",pt_PT:""},
+      {version : ['4.0','4.1','4.2'],link : "/#LANG#/concept/summary",icon:"fas fa-table",fr_FR:"Résumés",en_US:"Summaries",es_ES:"resúmenes",de_DE:"Zusammenfassunge",pt_PT:"resumos"},
       {link : "/#LANG#/core/#VERSION#/plugin",icon:"fas fa-tags",fr_FR:"Plugins",en_US:"Plugins",es_ES:"Plugins",de_DE:"Plugins",pt_PT:"Plugins"},
       {version : ['4.1','4.2'],link : "/#LANG#/core/#VERSION#/search",icon:"fas fa-search",fr_FR:"Recherche",en_US:"Search",es_ES:"Search",de_DE:"Search",pt_PT:""},
       {link:"/#LANG#/mobile/index",icon:"fas fa-mobile",fr_FR:"Version mobile",en_US:"Mobile version",es_ES:"Versión móvil",de_DE:"Mobile Version",pt_PT:""},
