@@ -2,9 +2,9 @@
 
 ## Entdeckung von Zusammenfassungen
 
-Jeedom bietet eine sehr einfache und übersichtliche Möglichkeit, die Situation verschiedener Komponenten Ihres Hauses anzuzeigen, sodass Sie sofort sehen können, wie viele Lichter an sind, Rollläden geöffnet, der Alarmzustand, die Temperatur usw.
+Jeedom bietet eine sehr einfache und übersichtliche Möglichkeit, die Situation verschiedener Komponenten Ihres Hauses anzuzeigen, sodass Sie sofort sehen können, wie viele Lichter an sind, welche Rollläden geöffnet sind, den Alarmstatus, die Temperatur usw.
 
-Die Zusammenfassungen werden als kleine Symbole in der Jeedom-Leiste oben und auf jedem Objekt angezeigt. Bei einem Klick können Sie die Ausrüstung direkt sehen, die in der Zusammenfassung enthalten ist, auf die Sie geklickt haben.
+Die Zusammenfassungen werden in Form kleiner Icons in der Jeedom-Leiste oben und auf jedem Objekt (Dashboard und Syntèse). Beim Anklicken können Sie direkt die in der Zusammenfassung enthaltene Ausrüstung sehen, auf die Sie geklickt haben, um gegebenenfalls darauf zu reagieren.
 
 Wir müssen zwei Arten von Zusammenfassungen unterscheiden :
 
@@ -27,7 +27,7 @@ Bevor die Konfiguration eines Objekts angezeigt wird, um eine Zusammenfassung ko
 
 Gehe zu **Einstellungen → System → Konfiguration** dann auf der Registerkarte **Zusammenfassungen**.
 
-![Zusammenfassungen konfigurieren](images/summary-admin.jpg)
+{% include lightbox.html src="images/summary-admin.jpg" data="settings" title="Zusammenfassungen konfigurieren" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Hier haben Sie die Liste aller Zusammenfassungen, die Sie für jedes Objekt konfigurieren können. Hier können wir die Zusammenfassungen konfigurieren *Gegenwart* (wenn man genau hinschaut, sieht man in der Gesamtzusammenfassung, dass eine Person zu Hause ist), *Alarm*, *Bewegung*, *Heizung* etc. Et bien sûr, vous pouvez supprimer et ajouter des types de résumé ici, afin de les avoir à disposition ensuite sur les objets.
 
@@ -47,12 +47,12 @@ Lass uns durchgehen, was wir hier definieren werden:
 - **Wenn nein** : Zusammenfassung anzeigen, auch wenn der Wert 0 ist.
 - **Ignorieren, wenn** : Eine Bestellung für diese Zusammenfassung ignorieren, wenn sie x Minuten lang nicht aktualisiert wurde.
 - **Link zu einem virtuellen** : Startet die Erstellung eines virtuellen Geräts mit Befehlen, die den Werten der Zusammenfassung entsprechen.
-- **Zusammenfassung löschen** : Mit der letzten Schaltfläche ganz rechts können Sie die Zusammenfassung der Zeile löschen.
+- **Zusammenfassung löschen** : Mit der letzten Schaltfläche ganz rechts können Sie die Zusammenfassung löschen.
 
 
 Zum Beispiel hier :
 
-- Wenn wir uns die Animation ansehen, die 3. Zusammenfassung, die entspricht **Bewegung** zeigt in rot an, dass es gibt *1* Bewegung. In der obigen Vorschau sehen wir, dass es sich um das Symbol des grünen Kreises ohne Nummer handelt. In der Tat, wenn Sie sich die Zeile ansehen, ist das grüne Symbol konfiguriert als **Wenn null-Symbol** und der Wert wird nicht angezeigt, weil **Zahl ausblenden, wenn Null** wird geprüft. Ebenso in der Vorschau die Zusammenfassung *Tür* ist grün, ohne Zahl, während die Zusammenfassung *Hell* ist gelb, mit der Anzahl der Lichter an.
+- Wenn wir uns die Animation am Anfang der Seite ansehen, die 3. Zusammenfassung, entsprechend **Bewegung** zeigt in rot an, dass es gibt *1* Bewegung. In der obigen Vorschau sehen wir, dass es sich um das Symbol des grünen Kreises ohne Nummer handelt. In der Tat, wenn Sie sich die Zeile ansehen, ist das grüne Symbol konfiguriert als **Wenn null-Symbol** und der Wert wird nicht angezeigt, weil **Zahl ausblenden, wenn Null** wird geprüft. Ebenso die Zusammenfassung *Tür* ist grün, ohne Zahl, während die Zusammenfassung *Hell* ist gelb, mit der Anzahl der Lichter an.
 
 > Tip
 >
@@ -65,7 +65,7 @@ Sobald die Liste der Zusammenfassungen in der Jeedom-Konfiguration verfügbar is
 
 In **Werkzeuge → Objekte**, hier auf dem Objekt Salon :
 
-![Zusammenfassungen konfigurieren](images/summary-object-1.jpg)
+{% include lightbox.html src="images/summary-object-1.jpg" data="settings" title="Abstrakt objet" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Hier haben wir zwei Teile :
 
@@ -73,7 +73,7 @@ Hier haben wir zwei Teile :
 
 Die Spalten der Tabelle zeigen jede Art von Zusammenfassung, die in der Konfiguration verfügbar ist, wie oben gezeigt. Für jede Zusammenfassung gibt es drei Optionen :
 
-- **In der globalen Zusammenfassung nach oben gehen** : Hier wählen Sie für jede Zusammenfassung aus, ob die dieses Objekts in der Gesamtzusammenfassung berücksichtigt werden soll. Hier zum Beispiel die Zusammenfassung *Verschluss* du Salon ist markiert, also taucht es in der globalen Zusammenfassung auf. Wenn wir uns also die Gesamtübersicht ansehen, gibt es in den 6 angezeigten geöffneten Fenstern die der Show ! Umgekehrt, wenn wir uns die Zusammenfassung ansehen *TempExt* (16,1 °C in der globalen Zusammenfassung), ist es deaktiviert, da ich nur die Temperatur des Garden-Objekts in der globalen Zusammenfassung zurückgeben möchte.
+- **In der globalen Zusammenfassung nach oben gehen** : Hier wählen Sie für jede Zusammenfassung aus, ob die dieses Objekts in der Gesamtzusammenfassung berücksichtigt werden soll. Hier zum Beispiel die Zusammenfassung *Verschluss* du Salon ist markiert, also taucht es in der globalen Zusammenfassung auf. Wenn wir uns die Gesamtübersicht ansehen, sind in den 6 angezeigten geöffneten Fenstern die der Show ! Umgekehrt, wenn wir uns die Zusammenfassung ansehen *TempExt* (16,1 °C in der globalen Zusammenfassung), ist es deaktiviert, da ich nur die Temperatur des Garden-Objekts in der globalen Zusammenfassung zurückgeben möchte.
 - **Auf dem Desktop ausblenden** : Um diese Zusammenfassung nicht neben dem Namen des Objekts auf dem Dashboard anzuzeigen.
 - **Auf dem Handy ausblenden** : Um diese Zusammenfassung nicht neben dem Namen des Objekts in Mobile anzuzeigen.
 
@@ -109,7 +109,7 @@ Für jedes Objekt mit Befehlen in der Zusammenfassung *Hell*, Sie haben jetzt ei
 
 Indem Sie die virtuelle Show öffnen und auf die Registerkarte gehen **Aufträge**, hier ist was wir finden :
 
-![Virtuel résumé](images/summary-virtual.jpg)
+{% include lightbox.html src="images/summary-virtual.jpg" data="settings" title="Virtuel résumé" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 - Eine Bestellung **Die Info** *Hell* : Dies hat Informationen über die Anzahl der eingeschalteten Lichter. In der Show, da wir auf der Virtual der Zusammenfassung der Show sind.
 - Eine Bestellung **Handlung** *Lichttaste auf Licht* : Durch Auslösen dieser Aktion schalten wir alle Zusammenfassungsbefehle ein **Hell**, hier vom Salonobjekt.
@@ -124,15 +124,15 @@ Zum Beispiel :
 
 - Ein Schalter#[None][Global Summary][Bewegung]# > 0`, das ein Szenario auslöst, sobald eine Bewegung in der Unterkunft erkannt wird.
 - Ein IF-Ausdruck#[Salon][Summary][Hell]# > 0 `der testet, ob ein Licht im Wohnzimmer an ist.
-- Eine Aktion `#[Salon][Summary][Verschluss Shutter Button Slider]#`mit dem Wert 0, der alle Rollläden schließt.
+- Eine Aktion `#[Salon][Summary][Verschluss Shutter Button Slider]#`mit dem Wert 0, der alle Fensterläden der Show schließt.
 
 ### Aktionen für Zusammenfassungen
 
-Wie bereits erwähnt, haben Summary Virtuals nicht nur die *die Info* Zusammenfassungen, aber auch *Handlung* verfügbar auf den verschiedenen konfigurierten Geräten in der Zusammenfassung. Diese Aktionen sind natürlich im Szenario zugänglich, aber auch über die Benutzeroberfläche, von den Zusammenfassungssymbolen hier und da !
+Wie bereits erwähnt, haben Summary Virtuals nicht nur die *Die Info* Zusammenfassungen, aber auch *Handlung* verfügbar auf den verschiedenen konfigurierten Geräten in der Zusammenfassung. Diese Aktionen sind natürlich im Szenario zugänglich, aber auch über die Benutzeroberfläche, von den Zusammenfassungssymbolen hier und da !
 
 Wenn Sie beispielsweise die virtuellen Zusammenfassungen für die Zusammenfassung erstellt haben *Hell*, Sie können Strg + Klicken Sie auf das Symbol dieser Zusammenfassung. Es erscheint dann ein Popup mit den verschiedenen Aktionen, mit dem Sie beispielsweise alle Lichter im Haus auf einmal ausschalten können !
 
-![Virtuel résumé](images/summary-virtual-actions.jpg)
+{% include lightbox.html src="images/summary-virtual-actions.jpg" data="settings" title="Aktionen für Zusammenfassungen" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 
-Wir haben es, die Zusammenfassungen stellen ein riesiges Thema dar, das zu Beginn des Lebens eines Jeedomiers nicht immer ganz einfach zu erfassen, aber gut zu wissen ist !
+Wie wir gesehen haben, stellen die Zusammenfassungen ein weites Thema dar, das zu Beginn des Lebens eines Jeedomianers nicht immer ganz einfach zu erfassen, aber gut zu wissen ist !

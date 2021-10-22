@@ -34,7 +34,7 @@ Estos objetos pueden representar partes de la casa (sala de estar, dormitorio, t
 
 > Tips
 >
-> Dentro **Configuración → Preferencias**, puede definir a qué objeto desea llegar en el Tablero. [Preferencias](/es_ES/core/4.1/profils)
+> DENTRO **Configuración → Preferencias**, puede definir a qué objeto desea llegar en el Tablero. [Preferencias](/es_ES/core/4.1/profils)
 
 ![Salpicadero](images/concept-dashboard.jpg)
 
@@ -48,18 +48,18 @@ Para interactuar con nuestra automatización del hogar, necesita comandos ! Esto
 >
 > Tenga la seguridad de que los pedidos normalmente se crean automáticamente ! Estas explicaciones son para una mejor comprensión.
 
-- Las órdenes *info* :
+- Las órdenes *Información* :
 Estos comandos almacenan información de los sensores. Por ejemplo, la temperatura de una sonda, el movimiento de un sensor de presencia, etc.
 Estos comandos se pueden registrar para mantener esta información a lo largo del tiempo en forma de curva : [Historial](/es_ES/core/4.1/history)
 
 Estos comandos también se pueden usar para activar [Escenarios](/es_ES/core/4.1/scenario) para automatizar acciones basadas en la información enviada por sus sensores. Por ejemplo, un sensor de movimiento detecta una presencia, lo que desencadenará un escenario que encenderá la luz.
 
-- Las órdenes *acción* :
+- Las órdenes *Acción* :
 Estos comandos le permiten controlar sus actuadores. Por ejemplo, comandos ````on```` y ````off```` de un tomacorriente controlado le permitirá encenderlo y apagarlo.
 
 Los comandos de acción generalmente están vinculados a comandos de información. Aquí nuestra toma tiene dos acciones ````on```` y ````off````, generalmente relacionado con la información **Estado**.
 
-![Pedidos](images/concept-commands.jpg)
+![Comandos](images/concept-commands.jpg)
 
 Estos dos tipos de comandos se adjuntan en forma de equipo. Por lo tanto, el equipo tiene comandos de información y / o acción, y es este equipo el que tendrá un Objeto como padre, lo que le permitirá mostrarlo donde desee.
 
@@ -76,11 +76,11 @@ En términos de visualización, cada pedido se muestra mediante un widget. The C
 
 Estos comandos están agrupados en un mosaico correspondiente a su equipo. Y este mosaico se mostrará en el Tablero en el Objeto que haya elegido.
 
-![Pedidos](images/concept-equipment.jpg)
+![Comandos](images/concept-equipment.jpg)
 
 Cualquiera que sea su dispositivo, se creará en forma de dispositivo, a partir de un [Plugin](/es_ES/core/4.1/plugin).
 
-Este dispositivo tendrá sus propios comandos *info* o *acción*. Estos comandos se mostrarán como widgets que forman el mosaico del equipo, en su objeto principal.
+Este dispositivo tendrá sus propios comandos *Información* o *Acción*. Estos comandos se mostrarán como widgets que forman el mosaico del equipo, en su objeto principal.
 
 Luego verá que cada Objeto, Equipo, Orden tiene muchas opciones, en términos de funcionalidad o visualización. Pero todo a su tiempo, a estas alturas ya debería haber entendido los conceptos básicos de Jeedom, y así poder comenzar a organizar su automatización del hogar sabiendo dónde buscar.
 
@@ -112,7 +112,7 @@ El `#` indica un comando, luego encontramos `[el nombre de su objeto padre]`, lu
 
 - Guarde y su script estará listo !
 
-Aquí solo hemos tocado las posibilidades de los escenarios. Puedes agregar condiciones (bloquear *Si/Entonces/Sino*), acciones de retraso (bloqueo *Dentro*), programarlos (bloquear *A las*), e incluso usar directamente el código php (bloque *CODIGO*).
+Aquí solo hemos tocado las posibilidades de los escenarios. Puedes agregar condiciones (bloquear *Si/Entonces/Sino*), acciones de retraso (bloqueo *DENTRO*), programarlos (bloquear *A las*), e incluso usar directamente el código php (bloque *CODIGO*).
 
 Aquí usamos el modo de disparo *Provocado*, con un pedido. Pero también puedes usar (y combinar) el modo *Programado* ejecutar un escenario cada mañana o cada hora, etc.
 

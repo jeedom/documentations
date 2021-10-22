@@ -2,9 +2,9 @@
 
 ## Descubrimiento de resúmenes
 
-Jeedom ofrece una forma muy sencilla y clara de visualizar la situación de los diferentes componentes de tu hogar, para que puedas ver inmediatamente cuántas luces están encendidas, persianas abiertas, el estado de la alarma, la temperatura, etc.
+Jeedom ofrece una forma muy sencilla y clara de visualizar la situación de los diferentes componentes de tu hogar, para que puedas ver inmediatamente cuántas luces están encendidas, qué persianas están abiertas, el estado de la alarma, la temperatura, etc.
 
-Los resúmenes se muestran como pequeños iconos en la barra de Jeedom en la parte superior y en cada objeto. Al hacer clic, le permiten ver directamente el equipo incluido en el resumen en el que hizo clic.
+Los resúmenes se muestran en forma de pequeños iconos en la barra Jeedom en la parte superior, y en cada objeto (Dashboard y Syntèse). Al hacer clic, le permiten ver directamente el equipo incluido en el resumen en el que hizo clic para actuar sobre él si es necesario.
 
 Debemos distinguir dos tipos de resúmenes :
 
@@ -27,7 +27,7 @@ Antes de ver la configuración en un objeto, para poder configurar un resumen, d
 
 Ir a **Configuración → Sistema → Configuración** luego en la pestaña **Resúmenes**.
 
-![Configurar resúmenes](images/summary-admin.jpg)
+{% include lightbox.html src="images/summary-admin.jpg" data="settings" title="Configurar resúmenes" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Aquí tienes la lista de todos los resúmenes que podrás configurar en cada objeto. Aquí podemos configurar los resúmenes *Presencia* (si miras de cerca, ves en el resumen general que hay una persona en casa), *Alerta*, *Movimiento*, *Calefacción* etc. Et bien sûr, vous pouvez supprimer et ajouter des types de résumé ici, afin de les avoir à disposition ensuite sur les objets.
 
@@ -47,12 +47,12 @@ Repasemos lo que definiremos aquí:
 - **Si no** : Mostrar resumen incluso cuando su valor sea 0.
 - **Ignorar si** : Ignore un pedido para este resumen si no se ha actualizado durante x minutos.
 - **Enlace a un virtual** : Inicia la creación de un dispositivo virtual con comandos correspondientes a los valores del resumen.
-- **Eliminar resumen** : El último botón, en el extremo derecho, le permite eliminar el resumen de la fila.
+- **Eliminar resumen** : El último botón, en el extremo derecho, le permite eliminar el resumen.
 
 
 Por ejemplo aquí :
 
-- Si miramos la animación, el tercer resumen, correspondiente a **Movimiento** indica en rojo que hay *1* movimiento. En la vista previa de arriba, vemos que es el icono del círculo verde, sin número. De hecho, si miras su línea, el icono verde está configurado como **Si el icono es nulo** y el valor no se muestra porque **Ocultar número si es cero** está chequeado. Asimismo, en la vista previa, el resumen *Puerta* está en verde, sin número, mientras que el resumen *Luz* es amarillo, con el número de luces encendidas.
+- Si miramos la animación al principio de la página, el 3er resumen, correspondiente a **Movimiento** indica en rojo que hay *1* movimiento. En la vista previa de arriba, vemos que es el icono del círculo verde, sin número. De hecho, si miras su línea, el icono verde está configurado como **Si el icono es nulo** y el valor no se muestra porque **Ocultar número si es cero** está chequeado. Asimismo, el resumen *Puerta* está en verde, sin número, mientras que el resumen *Luz* es amarillo, con el número de luces encendidas.
 
 > Tip
 >
@@ -65,7 +65,7 @@ Una vez que la lista de resúmenes está disponible en la configuración de Jeed
 
 Dentro **Herramientas → Objetos**, aquí en el objeto Salon :
 
-![Configurar resúmenes](images/summary-object-1.jpg)
+{% include lightbox.html src="images/summary-object-1.jpg" data="settings" title="Abstracto objet" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Aquí tenemos dos partes :
 
@@ -73,7 +73,7 @@ Aquí tenemos dos partes :
 
 Las columnas de la tabla presentan cada tipo de resumen disponible en la configuración como se ve arriba. Para cada resumen, tres opciones :
 
-- **Subir en el resumen global** : Aquí es donde se elige, para cada resumen, si el de este objeto debe tenerse en cuenta en el resumen general. Por ejemplo, aquí, el resumen *Obturador* du Salon está marcado, por lo que sube en el resumen global. Entonces, si miramos en el resumen general, en los 6 paneles abiertos que se muestran, están los del Show ! Por el contrario, si miramos el resumen *TempExt* (16,1 ° C en el resumen global), no está marcado, porque solo quiero devolver la temperatura del objeto Jardín en el resumen global.
+- **Subir en el resumen global** : Aquí es donde se elige, para cada resumen, si el de este objeto debe tenerse en cuenta en el resumen general. Por ejemplo, aquí, el resumen *Obturador* du Salon está marcado, por lo que sube en el resumen global. Si miramos en el resumen general, en los 6 paneles abiertos que se muestran, están los del Show ! Por el contrario, si miramos el resumen *TempExt* (16,1 ° C en el resumen global), no está marcado, porque solo quiero devolver la temperatura del objeto Jardín en el resumen global.
 - **Ocultar en el escritorio** : Para no mostrar este resumen junto al nombre del objeto en el Tablero.
 - **Ocultar en el móvil** : Para no mostrar este resumen junto al nombre del objeto en el móvil.
 
@@ -109,7 +109,7 @@ Para cada objeto con comandos en el resumen *Luz*, ahora tiene un nuevo nombre v
 
 Abriendo el Show Virtual y yendo a la pestaña **Pedidos**, esto es lo que encontramos :
 
-![Virtuel résumé](images/summary-virtual.jpg)
+{% include lightbox.html src="images/summary-virtual.jpg" data="settings" title="Virtuel résumé" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 - Un pedido **Información** *Luz* : Esto tiene información sobre el número de luces encendidas. En el Show, ya que estamos en el Virtual del resumen del Show.
 - Un pedido **Acción** *Botón de luz encendida* : Al activar esta acción, activaremos todos los comandos de resumen **Luz**, aquí del objeto Salon.
@@ -124,15 +124,15 @@ Por ejemplo :
 
 - Un gatillo#[None][Global Summary][Movimiento]# > 0` que activará un escenario tan pronto como se detecte movimiento en el alojamiento.
 - Una expresión IF#[Salon][Summary][Luz]# > 0 `que probará si hay una luz encendida en la sala de estar.
-- Una acción '#[Salon][Summary][Obturador Shutter Button Slider]#`con valor 0 que cerrará todas las persianas.
+- Una acción '#[Salon][Summary][Obturador Shutter Button Slider]#`con valor 0 que cerrará todas las persianas del Show.
 
 ### Acciones sobre resúmenes
 
-Como se vio anteriormente, Summary Virtuals no solo tiene la *info* resúmenes, sino también *acción* disponible en los distintos dispositivos configurados en resumen. Estas acciones son, por supuesto, accesibles en el escenario, pero también a través de la interfaz, desde los iconos de resumen aquí y allá !
+Como se vio anteriormente, Summary Virtuals no solo tiene la *Información* resúmenes, sino también *Acción* disponible en los distintos dispositivos configurados en resumen. Estas acciones son, por supuesto, accesibles en el escenario, pero también a través de la interfaz, desde los iconos de resumen aquí y allá !
 
 Por ejemplo, si ha creado los virtuales de resumen para el resumen *Luz*, puede hacer Ctrl + clic en el icono de este resumen. A continuación, aparecerá una ventana emergente con las diferentes acciones, lo que le permitirá, por ejemplo, apagar todas las luces de la casa a la vez !
 
-![Virtuel résumé](images/summary-virtual-actions.jpg)
+{% include lightbox.html src="images/summary-virtual-actions.jpg" data="settings" title="Acciones sobre resúmenes" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 
-Lo tenemos, los resúmenes representan un tema vasto, que no siempre es muy fácil de comprender al comienzo de la vida de un jeedomiano, pero que es bueno conocer !
+Como hemos visto, los resúmenes representan un tema vasto, que no siempre es muy fácil de comprender al comienzo de la vida de un jeedomiano, pero que es bueno conocer !

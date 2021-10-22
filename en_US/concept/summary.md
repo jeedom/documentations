@@ -2,9 +2,9 @@
 
 ## Discovery of summaries
 
-Jeedom offers a very simple and clear way to display the situation of different components of your home, so you can immediately see how many lights are on, shutters open, the state of the alarm, the temperature, etc.
+Jeedom offers a very simple and clear way to display the situation of different components of your home, so you can immediately see how many lights are on, which shutters are open, the alarm status, the temperature, etc.
 
-The summaries are displayed as small icons in the Jeedom bar at the top, and on each object. On click, they allow you to directly see the equipment included in the summary you clicked on.
+The summaries are displayed in the form of small icons in the Jeedom bar at the top, and on each object (Dashboard and Syntèse). On click, they allow you to directly see the equipment included in the summary on which you clicked to act on it if necessary.
 
 We must distinguish two types of summaries :
 
@@ -27,7 +27,7 @@ Before seeing the configuration on an object, to be able to configure a summary,
 
 Go to **Settings → System → Configuration** then on the tab **Summaries**.
 
-![Configuring summaries](images/summary-admin.jpg)
+{% include lightbox.html src="images/summary-admin.jpg" data="settings" title="Configuring summaries" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Here you have the list of all the summaries that you will be able to configure on each object. Here we can configure the summaries *Presence* (if you look closely, you see in the overall summary that there is a person at home), *Alert*, *Movement*, *Heating* etc. Et bien sûr, vous pouvez supprimer et ajouter des types de résumé ici, afin de les avoir à disposition ensuite sur les objets.
 
@@ -47,12 +47,12 @@ Let's go through what we will define here:
 - **If no** : Show summary even when its value is 0.
 - **Ignore if** : Ignore an order for this summary if it has not been updated for x minutes.
 - **Link to a virtual** : Starts the creation of a virtual device with commands corresponding to the values of the summary.
-- **Delete summary** : The last button, on the far right, allows you to delete the summary of the row.
+- **Delete summary** : The last button, on the far right, allows you to delete the summary.
 
 
 For example here :
 
-- If we look at the animation, the 3rd summary, corresponding to **Movement** indicates in red that there is *1* movement. On the preview above, we see that it is the icon of the green circle, without number. Indeed, if you look at its line, the green icon is configured as **If null icon** and the value is not displayed because **Hide number if zero** is checked. Likewise, on the preview, the summary *Door* is in green, without a number, while the summary *Light* is yellow, with the number of lights on.
+- If we look at the animation at the beginning of the page, the 3rd summary, corresponding to **Movement** indicates in red that there is *1* movement. On the preview above, we see that it is the icon of the green circle, without number. Indeed, if you look at its line, the green icon is configured as **If null icon** and the value is not displayed because **Hide number if zero** is checked. Likewise, the summary *Door* is in green, without a number, while the summary *Light* is yellow, with the number of lights on.
 
 > Tip
 >
@@ -65,7 +65,7 @@ Once the list of summaries is available in Jeedom configuration, we can therefor
 
 In **Tools → Objects**, here on the object Salon :
 
-![Configuring summaries](images/summary-object-1.jpg)
+{% include lightbox.html src="images/summary-object-1.jpg" data="settings" title="Abstract objet" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 Here we have two parts :
 
@@ -73,7 +73,7 @@ Here we have two parts :
 
 The columns of the table present each type of summary available in configuration as seen above. For each summary, three options :
 
-- **Go up in the global summary** : This is where you choose, for each summary, whether that of this object should be taken into account in the overall summary. For example, here, the summary *Shutter* du Salon is checked, so it goes up in the global summary. So, if we look in the overall summary, in the 6 open panes displayed, there are those of the Show ! Conversely, if we look at the summary *TempExt* (16.1 ° C in the global summary), it is unchecked, because I only want to return the temperature of the Garden object in the global summary.
+- **Go up in the global summary** : This is where you choose, for each summary, whether that of this object should be taken into account in the overall summary. For example, here, the summary *Shutter* du Salon is checked, so it goes up in the global summary. If we look in the overall summary, in the 6 open panes displayed, there are those of the Show ! Conversely, if we look at the summary *TempExt* (16.1 ° C in the global summary), it is unchecked, because I only want to return the temperature of the Garden object in the global summary.
 - **Hide in desktop** : To not display this summary next to the name of the object on the Dashboard.
 - **Hide on mobile** : To not display this summary next to the name of the object in mobile.
 
@@ -109,7 +109,7 @@ For each object with commands in the summary *Light*, you now have a new Virtual
 
 By opening the Virtual Show and going to the tab **Orders**, here is what we find :
 
-![Virtuel résumé](images/summary-virtual.jpg)
+{% include lightbox.html src="images/summary-virtual.jpg" data="settings" title="Virtuel résumé" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 - An order **Info** *Light* : This has information on the number of lights on. In the Show, since we are on the Virtual of the summary of the Show.
 - An order **Action** *Light Button On Light* : By triggering this action, we will turn on all the summary commands **Light**, here of the Salon object.
@@ -124,15 +124,15 @@ For example :
 
 - A trigger#[None][Global Summary][Movement]# > 0` which will trigger a scenario as soon as movement is detected in the accommodation.
 - An IF expression#[Salon][Summary][Light]# > 0 `which will test if a light is on in the Living room.
-- An action `#[Salon][Summary][Shutter Shutter Button Slider]#`with value 0 which will close all shutters.
+- An action `#[Salon][Summary][Shutter Shutter Button Slider]#`with value 0 which will close all the shutters of the Show.
 
 ### Actions on summaries
 
-As seen previously, Summary Virtuals not only have the *info* summaries, but also *action* available on the various devices configured in summary. These actions are of course accessible in the scenario, but also through the interface, from the summary icons here and there !
+As seen previously, Summary Virtuals not only have the *Info* summaries, but also *Action* available on the various devices configured in summary. These actions are of course accessible in the scenario, but also through the interface, from the summary icons here and there !
 
 For example, if you have created the Summary virtuals for the summary *Light*, you can do a Ctrl + Click on the icon of this summary. A popup will then appear with the different actions, allowing you for example to turn off all the lights in the house at once !
 
-![Virtuel résumé](images/summary-virtual-actions.jpg)
+{% include lightbox.html src="images/summary-virtual-actions.jpg" data="settings" title="Actions on summaries" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 
-We have it, the summaries represent a vast subject, which it is not always very easy to grasp at the beginning of the life of a Jeedomian, but which it is good to know !
+As we have seen, the summaries represent a vast subject, which it is not always very easy to understand at the beginning of a Jeedomian's life, but which it is good to know !
