@@ -517,6 +517,24 @@ td.gsc-input,
 form.gsc-search-box {
   margin-bottom: -30px !important;
 }
+td.gsc-input {
+  padding: 0 !important;
+}
+form.gsc-search-box {
+  padding-bottom: 15px;
+}
+table.gsc-search-box td.gsc-input {
+  padding-right: 0 !important;
+}
+td.gsib_a {
+  padding: 0 !important;
+}
+td.gsc-search-button {
+  left: 45px !important;
+  padding: 0;
+}
+
+
 
 #div_searchBar tr {
   border: none !important;
