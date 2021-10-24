@@ -39,7 +39,7 @@ En esta sección encontrará todas las configuraciones de libertad. Es decir, el
 Esta sección es una de las más importantes y le permite establecer el punto inicial y final :
 
 -   Estas informaciones deben ser las latitudes y longitudes de las posiciones
--   Se pueden encontrar utilizando el sitio provisto haciendo clic en el enlace de la página (solo ingrese una dirección y haga clic en obtener coordenadas GPS)
+-   Se pueden encontrar utilizando el sitio proporcionado haciendo clic en el enlace de la página (solo ingrese una dirección y haga clic en obtener coordenadas GPS)
 
 ### Panel de control
 
@@ -62,7 +62,7 @@ Todos estos comandos están disponibles a través de escenarios y a través del 
 ![wazeintime screenshot1](./images/wazeintime_screenshot1.jpg)
 
 -   El botón en la parte superior derecha actualiza la información.
--   Toda la información es visible (para viajes, si el viaje es largo, se puede truncar pero la versión completa es visible dejando el mouse sobre ella)
+-   Toda la información es visible (para viajes, si el viaje es largo, se puede truncar pero la versión completa es visible dejando el mouse sobre ella))
 
 ## ¿Cómo se actualizan las noticias?
 

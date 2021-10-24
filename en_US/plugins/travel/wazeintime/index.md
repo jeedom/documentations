@@ -39,7 +39,7 @@ In this section you will find all jeedom configurations. Namely the name of your
 This section is one of the most important and allows you to set the starting and ending point :
 
 -   These infos must be the latitudes and longitudes of the positions
--   They can be found using the site provided by clicking on the link on the page (just enter an address and click on get GPS coordinates)
+-   They can be found using the site provided by clicking on the page link (just enter an address and click on get GPS coordinates)
 
 ### Commands
 
@@ -62,7 +62,7 @@ All these commands are available via scenarios and via the dashboard
 ![wazeintime screenshot1](./images/wazeintime_screenshot1.jpg)
 
 -   The button at the top right refreshes the info.
--   All the info is visible (for journeys, if the journey is long, it can be truncated but the full version is visible by leaving the mouse over it)
+-   All information is visible (for trips, if the trip is long, it can be truncated but the full version is visible by leaving the mouse on it)
 
 ## How are the news refreshed
 

@@ -39,7 +39,7 @@ In diesem Abschnitt finden Sie alle Jeedom-Konfigurationen. Nämlich den Namen I
 Dieser Abschnitt ist einer der wichtigsten und ermöglicht es Ihnen, den Start- und Endpunkt festzulegen :
 
 -   Diese Informationen müssen die Breiten- und Längengrade der Positionen sein
--   Sie können über die bereitgestellte Website gefunden werden, indem Sie auf den Link auf der Seite klicken (geben Sie einfach eine Adresse ein und klicken Sie auf GPS-Koordinaten abrufen)
+-   Sie können über die Website gefunden werden, indem Sie auf den Seitenlink klicken (geben Sie einfach eine Adresse ein und klicken Sie auf GPS-Koordinaten abrufen)
 
 ### Bedienfeld
 
@@ -62,7 +62,7 @@ Alle diese Befehle sind über Szenarien und über das Dashboard verfügbar
 ![wazeintime screenshot1](./images/wazeintime_screenshot1.jpg)
 
 -   Die Schaltfläche oben rechts aktualisiert die Informationen.
--   Alle Informationen sind sichtbar (bei Reisen kann die Reise, wenn sie lang ist, abgeschnitten werden, aber die Vollversion wird angezeigt, indem Sie die Maus darüber halten.)
+-   Alle Informationen sind sichtbar (bei Reisen kann die Reise, wenn sie lang ist, abgeschnitten werden, aber die Vollversion wird angezeigt, indem Sie die Maus darauf lassen)
 
 ## Wie werden die Nachrichten aktualisiert?
 

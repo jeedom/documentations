@@ -62,7 +62,7 @@ Todos esses comandos estão disponíveis através de cenários e através do pai
 ![wazeintime screenshot1](../images/wazeintime_screenshot1.jpg)
 
 -   O botão no canto superior direito atualiza as informações.
--   Todas as informações são visíveis (para viagens, se a jornada for longa, ela pode ser truncada, mas a versão completa é visível deixando o mouse sobre ela)
+-   Toda a informação é visível (para viagens, se a viagem for longa, pode ser truncada, mas a versão completa é visível deixando o mouse nela)
 
 ## Como as notícias são atualizadas
 

@@ -1,11 +1,45 @@
 {
     "id": "wazeintime",
     "name": "Waze in Time",
-    "description": "Plugin pour avoir la durée de trajet entre deux points",
+    "description": {
+        "fr_FR": "Plugin pour avoir la durée de trajet entre deux points",
+        "en_US": "Plugin to have the journey time between two points",
+        "es_ES": "Complemento para tener el tiempo de viaje entre dos puntos",
+        "de_DE": "Plugin für die Reisezeit zwischen zwei Punkten",
+        "pt_PT": "Plugin para ter o tempo de viagem entre dois pontos",
+        "ru_RU": "Plugin pour avoir la durée de trajet entre deux points",
+        "id_ID": "Plugin pour avoir la durée de trajet entre deux points",
+        "it_IT": "Plugin pour avoir la durée de trajet entre deux points",
+        "ja_JP": "Plugin pour avoir la durée de trajet entre deux points",
+        "tr": "Plugin pour avoir la durée de trajet entre deux points"
+    },
     "licence": "AGPL",
     "author": "Ludovic SARAKHA",
     "require": "2.3",
     "category": "travel",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/travel\/wazeintime\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/travel\/wazeintime\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/travel\/wazeintime\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/travel\/wazeintime\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/travel\/wazeintime\/beta"
 }

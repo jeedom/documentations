@@ -1,0 +1,45 @@
+{
+    "id": "calendar",
+    "name": "Agenda",
+    "description": {
+        "fr_FR": "Plugin pour créer un calendrier",
+        "en_US": "Plugin to create a calendar",
+        "es_ES": "Complemento para crear un calendario",
+        "de_DE": "Plugin zum Erstellen eines Kalenders",
+        "pt_PT": "Plug-in para criar um calendário",
+        "ru_RU": "Plugin pour créer un calendrier",
+        "id_ID": "Plugin pour créer un calendrier",
+        "it_IT": "Plugin pour créer un calendrier",
+        "ja_JP": "Plugin pour créer un calendrier",
+        "tr": "Plugin pour créer un calendrier"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3",
+    "category": "organization",
+    "mobile": "event",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/calendar\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/calendar\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/calendar\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/calendar\/beta"
+}
