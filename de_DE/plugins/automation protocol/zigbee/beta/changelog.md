@@ -8,8 +8,16 @@
 >
 >Um das neue kompatible Modul zu kennen, müssen Sie gehen [das](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (Es ist nach dem Datum sortiert, an dem es hinzugefügt / geändert wurde)
 
+>**Wichtig**
+>
+>Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
 
+# 25.10.2021
+
+- Neue Konfiguration hinzufügen
 - Möglichkeit, einen Cron zu definieren, um die Aktualisierung der Attribute zu erzwingen (achten Sie darauf, dass Sie nichts eingeben, was alle Ihre Zigbee-Netzwerke zerstören kann)
+- Fehlerbehebung
+- Hinzufügen der Anzahl der Nachbarn auf der Zigbee-Kartenseite beim Schweben
 
 # 19.09.2021
 

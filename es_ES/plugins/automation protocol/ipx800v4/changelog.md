@@ -4,6 +4,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Compatibilidad con PulseUP y pulseDOWN para la gestión de la hoja BSO
+
 # 07/06/2020
 
 - Corrección de un error al leer el valor de la extensión 0-10v

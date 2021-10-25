@@ -1,12 +1,46 @@
 {
     "id": "ipx800v4",
     "name": "IPX 800 v4",
-    "description": "Plugin pour piloter l'IPX 800",
+    "description": {
+        "fr_FR": "Plugin pour piloter l'IPX 800",
+        "en_US": "Plugin to control the IPX 800",
+        "es_ES": "Complemento para controlar el IPX 800",
+        "de_DE": "Plugin zur Steuerung des IPX 800",
+        "pt_PT": "Plugin para controlar o IPX 800",
+        "ru_RU": "Plugin pour piloter l'IPX 800",
+        "id_ID": "Plugin pour piloter l'IPX 800",
+        "it_IT": "Plugin pour piloter l'IPX 800",
+        "ja_JP": "Plugin pour piloter l'IPX 800",
+        "tr": "Plugin pour piloter l'IPX 800"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.3.31",
     "category": "automation protocol",
     "hasOwnDeamon": true,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ipx800v4\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ipx800v4\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ipx800v4\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ipx800v4\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ipx800v4\/beta"
 }

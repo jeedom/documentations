@@ -4,6 +4,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 25.10.2021
+
+- Vorlage hinzufügen
 - PulseUP- und pulsDOWN-Unterstützung für das BSO-Blade-Management
 
 # 07/06/2020

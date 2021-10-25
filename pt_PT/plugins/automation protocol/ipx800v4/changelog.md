@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Suporte para PulseUP e pulseDOWN para gerenciamento de lâmina BSO
+
 # 07/06/2020
 
 - Correção de um erro na leitura do valor da extensão 0-10v

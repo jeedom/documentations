@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- PulseUP and pulseDOWN support for BSO blade management
+
 # 07/06/2020
 
 - Correction of a bug on reading the value of the 0-10v extension

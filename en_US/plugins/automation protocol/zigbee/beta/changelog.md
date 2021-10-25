@@ -8,8 +8,16 @@
 >
 >To know the new compatible module you have to go [the](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (it is sorted by date added / modified)
 
+>**Important**
+>
+>To take advantage of the latest module integration, don't hesitate to update the dependencies
 
+# 25/10/2021
+
+- Adding new configuration
 - Possibility to define a cron to force the update of the attributes (be careful not to put anything it can break all your zigbee networks)
+- Bug fix
+- Addition of the number of neighbors on the zigbee chart page when hovering
 
 # 09/19/2021
 
