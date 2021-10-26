@@ -23,8 +23,8 @@ php /var/www/html/core/php/jeecli.php user password [username] [password]
 ````
 
 Avec : 
--  [username] : le nom de l'utilisateur
-- [password] : le nouveau mot de passe, attention il ne faut pas d'espace et une longueur de minimum 8 caracteres
+- ``[username]`` : le nom de l'utilisateur
+- ``[password]`` : le nouveau mot de passe, attention il ne faut pas d'espace et une longueur de minimum 8 caracteres
 
 # > 3.3.50
 
