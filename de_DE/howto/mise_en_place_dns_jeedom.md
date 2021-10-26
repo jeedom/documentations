@@ -34,7 +34,7 @@ Jeedom startet das DNS und gibt Ihnen Ihre Zugangs-URL zu Ihrem Jeedom
 
 > **Wichtig**
 >
-> Sie können diese URL ändern, indem Sie auf die Seite mit Ihren Marktprofilen und dann auf die Registerkarte "Meine Dienste" klicken und unter "Einfacher Fernzugriff" auf Konfiguration klicken. Im DNS-Feld können Sie sie anpassen. Nach der Registrierung müssen Sie DNS in Jeedom neu starten (System -> Anpassung -> Konfiguration, dann die Registerkarte Netzwerke und im Abschnitt "DNS (Proxy) Market" neu starten")
+> Sie können diese URL ändern, indem Sie auf die Seite mit Ihren Marktprofilen und dann auf die Registerkarte "Meine Dienste" klicken und unter "Einfacher Fernzugriff" auf Konfiguration klicken. Im DNS-Feld können Sie sie anpassen. Nach der Registrierung müssen Sie DNS in Jeedom neu starten (System -> Anpassung -> Konfiguration, dann die Registerkarte Netzwerke und im Abschnitt "DNS (Proxy) Market" neu starten"). Es ist ratsam, diese Manipulation mit lokalem Zugriff auf Ihre Box durchzuführen.
 
 Hier ist Ihr Jeedom von außen in https zugänglich
 

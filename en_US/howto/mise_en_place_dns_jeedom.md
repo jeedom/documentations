@@ -34,7 +34,7 @@ Jeedom will start the DNS and give you your access url to your Jeedom
 
 > **IMPORTANT**
 >
-> You can change this url by going to your market profiles page, then my services tabs and clicking on configuration in "Easy remote access", in the DNS field you can customize it. After registration, you have to restart DNS in Jeedom (System -> adjustment -> configuration then the Networks tab and restart in the "DNS (proxy) Market" section")
+> You can change this url by going to your market profiles page, then my services tabs and clicking on configuration in "Easy remote access", in the DNS field you can customize it. After registration, you have to restart DNS in Jeedom (System -> adjustment -> configuration then the Networks tab and restart in the "DNS (proxy) Market" section"). It is advisable to do this manipulation with local access to your box.
 
 Here is your Jeedom is accessible from the outside in https
 

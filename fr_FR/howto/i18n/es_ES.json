@@ -630,6 +630,7 @@
         "Jeedom va démarrer le DNS et vous donner votre url d'accès à votre Jeedom": "Jeedom iniciará el DNS y le dará su URL de acceso a su Jeedom",
         "Vous pouvez changer cette url en allant sur votre page profils du market puis onglets mes services et cliquer sur configuration dans \"Accès à distance facilité\", la dans le champs DNS vous pouvez le personaliser": "Puede cambiar esta URL yendo a la página de perfiles de su mercado, luego a mis pestañas de servicios y haga clic en configuración en \"Acceso remoto fácil\", en el campo DNS puede personalizarla",
         "Après enregistrement il faut dans Jeedom redemarrer le DNS (Systeme -> réglage -> configuration puis onglet Réseaux et redémarrer dans la partie \"DNS (proxy) Market": "Después del registro, debe reiniciar DNS en Jeedom (Sistema -> ajuste -> configuración, luego la pestaña Redes y reiniciar en la sección \"Mercado DNS (proxy)\"",
+        "Il est conseillé de faire cette manipulation avec un accès local à votre box": "Es recomendable hacer esta manipulación con acceso local a su caja",
         "Voilà votre Jeedom est accessible de l'exterieure en https": "Aquí está su Jeedom accesible desde el exterior en https",
         "Y a-t-il besoin d'ouvrir des ports sur ma box": "¿Hay necesidad de abrir puertos en mi caja?",
         "Non il n'y a pas besoin d'ouvrir de port de votre box internet vers votre Jeedom": "No, no hay necesidad de abrir un puerto desde su caja de internet a su Jeedom",

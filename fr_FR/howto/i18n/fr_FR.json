@@ -364,6 +364,7 @@
         "Jeedom va démarrer le DNS et vous donner votre url d'accès à votre Jeedom": "Jeedom va démarrer le DNS et vous donner votre url d'accès à votre Jeedom",
         "Vous pouvez changer cette url en allant sur votre page profils du market puis onglets mes services et cliquer sur configuration dans \"Accès à distance facilité\", la dans le champs DNS vous pouvez le personaliser": "Vous pouvez changer cette url en allant sur votre page profils du market puis onglets mes services et cliquer sur configuration dans \"Accès à distance facilité\", la dans le champs DNS vous pouvez le personaliser",
         "Après enregistrement il faut dans Jeedom redemarrer le DNS (Systeme -> réglage -> configuration puis onglet Réseaux et redémarrer dans la partie \"DNS (proxy) Market": "Après enregistrement il faut dans Jeedom redemarrer le DNS (Systeme -> réglage -> configuration puis onglet Réseaux et redémarrer dans la partie \"DNS (proxy) Market",
+        "Il est conseillé de faire cette manipulation avec un accès local à votre box": "Il est conseillé de faire cette manipulation avec un accès local à votre box",
         "Voilà votre Jeedom est accessible de l'exterieure en https": "Voilà votre Jeedom est accessible de l'exterieure en https",
         "FAQ": "FAQ",
         "Y a-t-il besoin d'ouvrir des ports sur ma box": "Y a-t-il besoin d'ouvrir des ports sur ma box",

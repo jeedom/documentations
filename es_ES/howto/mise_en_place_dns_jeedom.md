@@ -34,7 +34,7 @@ Jeedom iniciará el DNS y le dará su URL de acceso a su Jeedom
 
 > **Importante**
 >
-> Puede cambiar esta URL yendo a la página de perfiles de su mercado, luego a mis pestañas de servicios y haga clic en configuración en "Acceso remoto fácil", en el campo DNS puede personalizarla. Después del registro, debe reiniciar DNS en Jeedom (Sistema -> ajuste -> configuración, luego la pestaña Redes y reiniciar en la sección "Mercado DNS (proxy)"")
+> Puede cambiar esta URL yendo a la página de perfiles de su mercado, luego a mis pestañas de servicios y haga clic en configuración en "Acceso remoto fácil", en el campo DNS puede personalizarla. Después del registro, debe reiniciar DNS en Jeedom (Sistema -> ajuste -> configuración, luego la pestaña Redes y reiniciar en la sección "Mercado DNS (proxy)""). Es recomendable hacer esta manipulación con acceso local a su caja.
 
 Aquí está su Jeedom accesible desde el exterior en https
 

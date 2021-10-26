@@ -630,6 +630,7 @@
         "Jeedom va démarrer le DNS et vous donner votre url d'accès à votre Jeedom": "Jeedom will start the DNS and give you your access url to your Jeedom",
         "Vous pouvez changer cette url en allant sur votre page profils du market puis onglets mes services et cliquer sur configuration dans \"Accès à distance facilité\", la dans le champs DNS vous pouvez le personaliser": "You can change this url by going to your market profiles page, then my services tabs and clicking on configuration in \"Easy remote access\", in the DNS field you can customize it",
         "Après enregistrement il faut dans Jeedom redemarrer le DNS (Systeme -> réglage -> configuration puis onglet Réseaux et redémarrer dans la partie \"DNS (proxy) Market": "After registration, you have to restart DNS in Jeedom (System -> adjustment -> configuration then the Networks tab and restart in the \"DNS (proxy) Market\" section",
+        "Il est conseillé de faire cette manipulation avec un accès local à votre box": "It is advisable to do this manipulation with local access to your box",
         "Voilà votre Jeedom est accessible de l'exterieure en https": "Here is your Jeedom is accessible from the outside in https",
         "Y a-t-il besoin d'ouvrir des ports sur ma box": "Is there a need to open ports on my box",
         "Non il n'y a pas besoin d'ouvrir de port de votre box internet vers votre Jeedom": "No there is no need to open a port from your internet box to your Jeedom",
