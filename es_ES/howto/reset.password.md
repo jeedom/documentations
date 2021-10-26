@@ -1,5 +1,31 @@
 # Procedimiento en caso de pérdida de la contraseña para conectarse a Jeedom
 
+# > 4.2
+
+Lo primero que debe hacer es conectarse en SSH a Jeedom (con un software tipo kitty o masilla).
+
+>**Recordatorios**
+>
+>De forma predeterminada, los identificadores de conexión SSH en jeedom (smart, mini y mini +) son :
+>- Nombre de usuario : jeedom, contraseña Mjeedom96
+>- Nombre de usuario : root, contraseña Mjeedom96
+
+Entonces solo tienes que escribir :
+
+````
+php /var/www/html/core/php/jeecli.php user list
+````
+
+Una vez que haya localizado el nombre del usuario cuya contraseña desea cambiar, haga : 
+
+````
+php /var/www/html/core/php/jeecli.php user password [username] [password]
+````
+
+Con : 
+- ``[username]`` : nombre de usuario
+- ``[password]`` : la nueva contraseña, tenga cuidado de no necesitar espacios y una longitud mínima de 8 caracteres
+
 # > 3.3.50
 
 Lo primero que debe hacer es conectarse en SSH a Jeedom (con un software tipo kitty o masilla).
