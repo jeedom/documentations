@@ -34,7 +34,7 @@ Jeedom va démarrer le DNS et vous donner votre url d'accès à votre Jeedom
 
 > **IMPORTANT**
 >
-> Vous pouvez changer cette url en allant sur votre page profils du market puis onglets mes services et cliquer sur configuration dans "Accès à distance facilité", la dans le champs DNS vous pouvez le personaliser. Après enregistrement il faut dans Jeedom redemarrer le DNS (Systeme -> réglage -> configuration puis onglet Réseaux et redémarrer dans la partie "DNS (proxy) Market")
+> Vous pouvez changer cette url en allant sur votre page profils du market puis onglets mes services et cliquer sur configuration dans "Accès à distance facilité", la dans le champs DNS vous pouvez le personaliser. Après enregistrement il faut dans Jeedom redemarrer le DNS (Systeme -> réglage -> configuration puis onglet Réseaux et redémarrer dans la partie "DNS (proxy) Market"). Il est conseillé de faire cette manipulation avec un accès local à votre box.
 
 Voilà votre Jeedom est accessible de l'exterieure en https
 
