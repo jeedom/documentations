@@ -62,11 +62,11 @@ Es ist beispielsweise möglich, eine SMS zu senden, um vor dem Beginn und dem En
 
 Die folgenden Parameter können eingestellt werden:
 
--   Netzwerkspannung in Volt (standardmäßig 220 V)
--   Verzögerung vor Reaktivierung in Minuten (standardmäßig 5 Minuten) : Verzögerung, vor der das Gerät nicht reaktiviert wird (um ein zu wiederholtes Ein- und Ausschalten zu vermeiden)
--   Mindestzeit zwischen den Ablesungen in s (standardmäßig 10 s) : Zeitaufwand zwischen 2 Aussagen
+-   Netzwerkspannung in Volt (standardmäßig 220V))
+-   Zeit vor der Reaktivierung in Minuten (standardmäßig 5 Minuten)) : Zeit, vor der das Gerät nicht reaktiviert wird (um ein zu wiederholtes Ein- und Ausschalten zu vermeiden)
+-   Mindestzeit zwischen den Messwerten in s (standardmäßig 10 Sekunden)) : Zeitaufwand zwischen 2 Aussagen
 
-![Konfiguration avancée](./images/configuration_avancee.png)
+![Erweiterte Konfiguration](./images/configuration_avancee.png)
 
 # Faq 
 

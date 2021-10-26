@@ -45,7 +45,7 @@ Aquí están los parámetros para configurar en el complemento :
 
 -   Tipo de desprendimiento de carga : inteligente, jerárquico o cascadocíclico
 -   Tipo de contador : Potencia instantánea o amperaje instantáneo
--   Contador : seleccione aquí el comando que devuelve la potencia o el amperaje (en este caso será necesario configurar el voltaje de la red)
+-   Contador : seleccione aquí el comando que devuelve la potencia o el amperaje (en este caso será necesario configurar el voltaje de red)
 -   Umbral en vatios : Umbral desde el cual se activará la eliminación
 
 ![configuration générale](./images/configuration_generale.png)
@@ -63,10 +63,10 @@ Es posible, por ejemplo, enviar un sms para advertir el comienzo y el final del 
 Se pueden configurar los siguientes parámetros:
 
 -   Voltaje de red en voltios (220 V por defecto)
--   Retraso antes de la reactivación en minutos (5 minutos por defecto) : retraso antes de que el equipo no se reactive (para evitar el encendido / apagado excesivamente repetitivo)
+-   Tiempo antes de la reactivación en minutos (5 minutos por defecto) : tiempo antes de que el equipo no se reactive (para evitar el encendido / apagado excesivamente repetitivo)
 -   Tiempo mínimo entre lecturas en s (10 s por defecto) : tiempo requerido entre 2 declaraciones
 
-![Configuración avancée](./images/configuration_avancee.png)
+![Configuración avanzada](./images/configuration_avancee.png)
 
 # Preguntas frecuentes 
 

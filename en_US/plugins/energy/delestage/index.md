@@ -63,10 +63,10 @@ It is, for example, possible to send an sms to warn of the beginning and the end
 The following parameters can be set:
 
 -   Network voltage in Volts (220V by default)
--   Delay before reactivation in mins (5 mins by default) : delay before which the equipment will not reactivate (in order to avoid overly repetitive on / off)
+-   Time before reactivation in mins (5 mins by default) : time before which the equipment will not reactivate (to avoid overly repetitive on / off)
 -   Minimum time between readings in s (10s by default) : time required between 2 statements
 
-![Setup avancée](./images/configuration_avancee.png)
+![Advanced configuration](./images/configuration_avancee.png)
 
 # FAQ 
 

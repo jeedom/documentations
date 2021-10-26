@@ -1,0 +1,50 @@
+{
+    "id": "dataservice",
+    "name": "DataService",
+    "description": {
+        "fr_FR": "Plugin pour la récupération de diverse données (ejp, vacance, saint du jour...) et l'envoi de diverse données (sms, mail) ainsi que le partage communautaire de données (température, humidité...)",
+        "en_US": "Plugin for the recovery of various data (ejp, vacancy, saint of the day ...) and the sending of various data (sms, mail) as well as the community sharing of data (temperature, humidity ...)",
+        "es_ES": "Complemento para la recuperación de varios datos (ejp, vacante, santo del día ...) y el envío de varios datos (sms, correo) así como el intercambio de datos en la comunidad (temperatura, humedad ...)",
+        "de_DE": "Plugin zur Wiederherstellung verschiedener Daten (EJP, Vakanz, Heiliger des Tages ...) und zum Versenden verschiedener Daten (SMS, Mail) sowie zum Community-Austausch von Daten (Temperatur, Luftfeuchtigkeit ...)",
+        "pt_PT": "Plugin para a recuperação de vários dados (ejp, vaga, santo do dia ...) e o envio de vários dados (sms, mail) bem como a partilha de dados pela comunidade (temperatura, humidade ...)",
+        "ru_RU": "Plugin pour la récupération de diverse données (ejp, vacance, saint du jour...) et l'envoi de diverse données (sms, mail) ainsi que le partage communautaire de données (température, humidité...)",
+        "id_ID": "Plugin pour la récupération de diverse données (ejp, vacance, saint du jour...) et l'envoi de diverse données (sms, mail) ainsi que le partage communautaire de données (température, humidité...)",
+        "it_IT": "Plugin pour la récupération de diverse données (ejp, vacance, saint du jour...) et l'envoi de diverse données (sms, mail) ainsi que le partage communautaire de données (température, humidité...)",
+        "ja_JP": "Plugin pour la récupération de diverse données (ejp, vacance, saint du jour...) et l'envoi de diverse données (sms, mail) ainsi que le partage communautaire de données (température, humidité...)",
+        "tr": "Plugin pour la récupération de diverse données (ejp, vacance, saint du jour...) et l'envoi de diverse données (sms, mail) ainsi que le partage communautaire de données (température, humidité...)"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3",
+    "category": "programming",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "hasTtsEngine": true,
+    "display": "panel",
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/dataservice\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/dataservice\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/dataservice\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/dataservice\/beta"
+}

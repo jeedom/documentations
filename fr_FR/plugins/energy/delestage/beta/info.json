@@ -1,0 +1,50 @@
+{
+    "id": "delestage",
+    "name": "Délestage",
+    "description": {
+        "fr_FR": "Plugin pour gérer le délestage. 3 modes de fonctionnement possibles : <br>- Intelligent <br>- Hiérarchique <br>- Cascadocyclique",
+        "en_US": "Plugin to manage load shedding. 3 possible operating modes: <br> - Clever <br> - Hierarchical <br> - Cascadocyclic",
+        "es_ES": "Complemento para gestionar el desprendimiento de carga. 3 modos de funcionamiento posibles: <br> - inteligente <br> - Jerárquico <br> - Cascadocíclico",
+        "de_DE": "Plugin zur Verwaltung des Lastabwurfs. 3 mögliche Betriebsarten: <br> - Klug <br> - Hierarchisch <br> - Kaskadozyklisch",
+        "pt_PT": "Plugin para gerenciar o derramamento de carga. 3 modos de operação possíveis: <br> - Inteligente <br> - Hierárquico <br> - Cascadocíclico",
+        "ru_RU": "Plugin pour gérer le délestage. 3 modes de fonctionnement possibles : <br>- Intelligent <br>- Hiérarchique <br>- Cascadocyclique",
+        "id_ID": "Plugin pour gérer le délestage. 3 modes de fonctionnement possibles : <br>- Intelligent <br>- Hiérarchique <br>- Cascadocyclique",
+        "it_IT": "Plugin pour gérer le délestage. 3 modes de fonctionnement possibles : <br>- Intelligent <br>- Hiérarchique <br>- Cascadocyclique",
+        "ja_JP": "Plugin pour gérer le délestage. 3 modes de fonctionnement possibles : <br>- Intelligent <br>- Hiérarchique <br>- Cascadocyclique",
+        "tr": "Plugin pour gérer le délestage. 3 modes de fonctionnement possibles : <br>- Intelligent <br>- Hiérarchique <br>- Cascadocyclique"
+    },
+    "icon": "fa loisir-beach4",
+    "licence": "AGPL",
+    "author": "Jeedom",
+    "require": "2.3",
+    "installation": "Aucune",
+    "hasDependency": 0,
+    "hasOwnDeamon": 0,
+    "category": "energy",
+    "version": "1",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/delestage\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/delestage\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/delestage\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/delestage\/beta"
+}
