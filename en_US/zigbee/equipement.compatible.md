@@ -830,4 +830,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-10-26 02:32:10
+2021-10-27 02:32:09
