@@ -3,7 +3,7 @@
 - [Huawei GSM mode réseaux](/fr_FR/howtoadvance/gsm.huawei_mode_carte_reseau)
 - [Huawei GSM mode modem](/fr_FR/howtoadvance/gsm.huawei_mode_modem)
 - [Mariadb/Mysql truc et astuce](/fr_FR/howtoadvance/mysql.trucs_et_astuces)
-- [Github](/fr_FR/howto/tuto.github)
+- [Github](/fr_FR/howtoadvance/tuto.github)
 
 ## Debian
 
