@@ -45,5 +45,6 @@ Es ist möglich, Jeedom über MQTT zu steuern, hier sind die Themen (die Beispie
     - Botschaft : `{Titel : "Hallo "Nachricht : "Hallo, wie geht es dir ?" }``
     - Farbe : `{Farbe : "#96c927 "}`
     - Auflistung : `{wählen : 1} `
+    - Befehl vom Typ Info : Sie können den Wert entweder direkt übergeben oder in json `{value : "Kuckuck", Datum/Uhrzeit : "2021-12-12 10:30:00 "}`, `Datum/Uhrzeit` ist optional
 - `jeedom / cmd / get /#cmd_id#`` : den Wert des Befehls anfordern `#cmd_id#`zu jeedom, dies wird zurückkehren` jeedom / cmd / value /#cmd_id#`mit dem Befehlswert in der Nachricht
 - `jeedom / cmd / event /#cmd_id#`` : Ereignis auf Befehl#cmd_id#`mit dem Wert

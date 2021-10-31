@@ -45,5 +45,6 @@ Es posible conducir Jeedom a través de MQTT, aquí están los temas (los ejempl
     - mensaje : `{título : "hola "mensaje : "Hola, todo bien ?" }''
     - color : `{color : "#96c927 "}`
     - listado : `{seleccionar : 1} `
+    - comando de tipo de información : puede pasar el valor directamente o en json do `{valor : "cuco ", fecha y hora : "12/12/2021 10:30:00 "}`, `datetime` es opcional
 - `jeedom / cmd / get /#cmd_id#'' : solicitar el valor del comando `#cmd_id#`to jeedom, esto devolverá` jeedom / cmd / value /#cmd_id#`con el valor de comando en el mensaje
 - `jeedom / cmd / event /#cmd_id#'' : evento en el comando#cmd_id#`con el valor
