@@ -3,7 +3,7 @@
 - [Modo de red GSM de Huawei](/es_ES/howtoadvance/gsm.huawei_mode_carte_reseau)
 - [Modo de módem GSM de Huawei](/es_ES/howtoadvance/gsm.huawei_mode_modem)
 - [Mariadb / Mysql punta y punta](/es_ES/howtoadvance/mysql.trucs_et_astuces)
-- [Github](/es_ES/howto/tuto.github)
+- [Github](/es_ES/howtoadvance/tuto.github)
 
 ## Debian
 
