@@ -4,7 +4,7 @@
 
 C'est un service Jeedom SAS payant qui vous permet d'envoyer des SMS et de passer des appels (avec message lu par un robot) depuis votre Jeedom.
 
-Un exemple simple est : en cas de déclenchement de l'alarme alors je recois un appels avec une vois qui indique par exemple la zone ou l'alarme est déclencher. On peut faire de meme avec un SMS.
+Un exemple simple est : en cas de déclenchement de l'alarme alors je recois un appels avec une voix qui indique par exemple la zone ou l'alarme est déclencher. On peut faire de meme avec un SMS.
 
 > **IMPORTANT**
 >
