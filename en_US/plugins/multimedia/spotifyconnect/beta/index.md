@@ -53,6 +53,8 @@ Equipments **Spotify Connect** do not have specific parameters except for equipm
 
 For this equipment, it will therefore be necessary to enter their IP address after making sure to have correctly entered the cookies expected in the configuration of the plugin (see paragraph **Special case of Chromecast**).
 
+For the playlist playback command you must put the name of one of your optional playlists the only possible one is to put "random" for random playback
+
 >**IMPORTANT**
 >
 >Chromecast equipment must be on the same local network as Jeedom.

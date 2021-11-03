@@ -53,6 +53,8 @@ Les équipements **Spotify Connect** ne possèdent pas de paramètres spécifiqu
 
 Pour ces équipements, il faudra donc renseigner leur adresse IP après s'être assuré d'avoir bien renseigné les cookies attendus dans la configuration du plugin (voir le paragraphe **Cas particulier des Chromecast**).
 
+Pour la commande de lecture de playlist vous devez mettre le nom d'une de vos playlists en option la seul possible est de mettre "random" pour une lecture aléatoire
+
 >**IMPORTANT**
 >
 >L'équipement Chromecast doit impérativement être sur le même réseau local que Jeedom.

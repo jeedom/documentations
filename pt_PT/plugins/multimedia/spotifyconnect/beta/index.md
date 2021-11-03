@@ -53,6 +53,8 @@ Equipamentos **Spotify Connect** não tem parâmetros específicos, exceto para 
 
 Para este equipamento será portanto necessário inserir o seu endereço IP depois de se certificar de que inseriu corretamente os cookies esperados na configuração do plugin (ver parágrafo **Caso especial de Chromecast**).
 
+Para o comando de reprodução da lista de reprodução vocêdeve colocar o nome de uma das suas listas de reprodução opcionais o único possívelécolocar "aleatório" para a reprodução aleatória
+
 >**IMPORTANTE**
 >
 >O equipamento Chromecast deve estar na mesma rede local que o Jeedom.

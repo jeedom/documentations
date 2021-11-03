@@ -53,6 +53,8 @@ Ausrüstungen **Spotify Connect** haben keine spezifischen Parameter außer für
 
 Für dieses Gerät muss daher die IP-Adresse eingegeben werden, nachdem sichergestellt wurde, dass die in der Konfiguration des Plugins erwarteten Cookies korrekt eingegeben wurden (siehe Abschnitt) **Sonderfall von Chromecast**).
 
+Für den Playlist-Wiedergabebefehl müssen Sie den Namen einer Ihrer optionalen Playlists eingeben. Die einzige Möglichkeit besteht darin, "zufällig" für die zufällige Wiedergabe einzustellen
+
 >**WICHTIG**
 >
 >Chromecast-Geräte müssen sich im selben lokalen Netzwerk wie Jeedom befinden.
