@@ -4,7 +4,7 @@
 
 Es handelt sich um einen kostenpflichtigen Jeedom SAS-Dienst, mit dem Sie von Ihrem Jeedom aus SMS senden und Anrufe (mit von einem Roboter gelesenen Nachrichten) tätigen können.
 
-Ein einfaches Beispiel ist : Im Falle einer Alarmauslösung erhalte ich einen Anruf mit einer Stimme, die beispielsweise die Zone angibt, in der der Alarm ausgelöst wird. Wir können das gleiche mit einer SMS machen.
+Ein einfaches Beispiel ist : bei Auslösung des Alarms erhalte ich einen Anruf mit einer Stimme, die zum Beispiel die Zone anzeigt, in der der Alarm ausgelöst wird. Wir können das gleiche mit einer SMS machen.
 
 > **Wichtig**
 >

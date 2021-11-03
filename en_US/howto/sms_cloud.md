@@ -4,7 +4,7 @@
 
 It is a paid Jeedom SAS service which allows you to send SMS and make calls (with message read by a robot) from your Jeedom.
 
-A simple example is : in case of alarm triggering then I receive a call with a voice which indicates for example the zone where the alarm is triggered. We can do the same with an SMS.
+A simple example is : in case of triggering of the alarm then I receive a call with a voice which indicates for example the zone where the alarm is triggered. We can do the same with an SMS.
 
 > **IMPORTANT**
 >

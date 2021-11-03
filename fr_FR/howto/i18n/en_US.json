@@ -1227,7 +1227,7 @@
         "SMS\/Appels cloud": "SMS \/ Cloud calls",
         "C'est un service Jeedom SAS payant qui vous permet d'envoyer des SMS et de passer des appels (avec message lu par un robot) depuis votre Jeedom": "It is a paid Jeedom SAS service which allows you to send SMS and make calls (with message read by a robot) from your Jeedom",
         "Un exemple simple est": "A simple example is",
-        "en cas de déclenchement de l'alarme alors je recois un appels avec une vois qui indique par exemple la zone ou l'alarme est déclencher": "in case of alarm triggering then I receive a call with a voice which indicates for example the zone where the alarm is triggered",
+        "en cas de déclenchement de l'alarme alors je recois un appels avec une voix qui indique par exemple la zone ou l'alarme est déclencher": "in case of triggering of the alarm then I receive a call with a voice which indicates for example the zone where the alarm is triggered",
         "On peut faire de meme avec un SMS": "We can do the same with an SMS",
         "Ce service passe par internet, si vous n'avez plus internet alors il n'est plus fonctionnel": "This service goes by internet, if you no longer have internet then it is no longer functional",
         "Comment l'utiliser": "How to use it",

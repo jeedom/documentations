@@ -1227,7 +1227,7 @@
         "SMS\/Appels cloud": "SMS \/ llamadas en la nube",
         "C'est un service Jeedom SAS payant qui vous permet d'envoyer des SMS et de passer des appels (avec message lu par un robot) depuis votre Jeedom": "Es un servicio pago de Jeedom SAS que le permite enviar SMS y hacer llamadas (con un mensaje leído por un robot) desde su Jeedom",
         "Un exemple simple est": "Un ejemplo simple es",
-        "en cas de déclenchement de l'alarme alors je recois un appels avec une vois qui indique par exemple la zone ou l'alarme est déclencher": "en caso de activación de alarma, recibo una llamada con una voz que indica, por ejemplo, la zona donde se activa la alarma",
+        "en cas de déclenchement de l'alarme alors je recois un appels avec une voix qui indique par exemple la zone ou l'alarme est déclencher": "en caso de activación de la alarma, recibo una llamada con una voz que indica, por ejemplo, la zona donde se activa la alarma",
         "On peut faire de meme avec un SMS": "Podemos hacer lo mismo con un SMS",
         "Ce service passe par internet, si vous n'avez plus internet alors il n'est plus fonctionnel": "Este servicio funciona por Internet, si ya no tiene Internet, ya no es funcional",
         "Comment l'utiliser": "Cómo utilizarlo",

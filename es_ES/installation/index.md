@@ -4,15 +4,16 @@ Jeedom se puede instalar en diferentes tipos de hardware :
 
 -   una Raspberry Pi 2, 3 o 4 
 -   un NAS Synology
--   cualquier sistema Linux basado en Debian 9 (estiramiento)
+-   cualquier sistema Linux basado en Debian 10 (Buster)
 -   Freebox Delta
 
 También puede comprar una caja preparada con Jeedom preinstalado que también contiene un paquete de servicio (más soporte y servicios) y complementos ofrecidos :
 
--   [Jeedom Smart Z-Wave +](https://www.domadoo.fr/fr/box-domotique/3959-jeedom-controleur-domotique-jeedom-smart-z-wave.html)
--   [Jeedom Smart Z-Wave + y RFXCOM](https://www.domadoo.fr/fr/box-domotique/4043-jeedom-controleur-domotique-jeedom-smart-z-wave-et-interface-rfxcom.html)
--   [Jeedom Smart EnOcean](https://www.domadoo.fr/fr/box-domotique/4041-jeedom-controleur-domotique-jeedom-smart-enocean.html)
--   [Jeedom Smart EnOcean y RFXCOM](https://www.domadoo.fr/fr/box-domotique/4044-jeedom-controleur-domotique-jeedom-smart-enocean-et-interface-rfxcom.html)
+- [Jeedom Atlas Z-Wave +](https://www.domadoo.fr/fr/box-domotique/5847-jeedom-controleur-domotique-jeedom-atlas-z-wave.html)
+- [Jeedom Atlas Zigbee](https://www.domadoo.fr/fr/box-domotique/5878-jeedom-controleur-domotique-jeedom-atlas-zigbee.html)
+- [Jeedom Atlas EnOcean](https://www.domadoo.fr/fr/box-domotique/5877-jeedom-controleur-domotique-jeedom-atlas-enocean.html)
+
+{% include lightbox.html src="images/Jeedom-Atlas-infographic-2.jpg" data="Atlas" title="Jeedom Atlas" imgstyle="width:auto;display: block;margin: 0 auto;" %}
 
 En la edición de bricolaje (hágalo usted mismo), aquí hay una configuración "típica" para comenzar con Jeedom en Z-Wave :
 
