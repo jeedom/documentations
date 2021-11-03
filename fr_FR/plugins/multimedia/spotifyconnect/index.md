@@ -53,6 +53,10 @@ Les équipements **Spotify Connect** ne possèdent pas de paramètres spécifiqu
 
 Pour ces équipements, il faudra donc renseigner leur adresse IP après s'être assuré d'avoir bien renseigné les cookies attendus dans la configuration du plugin (voir le paragraphe **Cas particulier des Chromecast**).
 
+Les équipements disposent de deux commandes pour jouer des playlistes : "jouer playlist" et "jouer URI"
+- Jouer Playlist donne la possibilité de faire jouer a l'équipement une playliste de sa bibliotèque personnelle. La commande se compose en deux éléments : le titre de la plaliste voulue (y placer le nom exacte sans guillement) et option (seul random est pris en compte pour jouer les morceaux de façon aléatoire).
+- Jouer Playliste URI permet de faire jouer a l'équipement une playliste, un artiste ou un morceau disponible sur Spotify grace a son URI (un code unique lié a cet élément). Pour le trouver il faut sur l'interface web de spotify faire un clique droit sur l'élément voulu (piste, artiste, playliste...), séléctionner "partager", maintenir ctrl (windows) ou Alt (MAC) puis "copier URI Spotify". Coller la ligne obtenue dans la case URI de la commande.
+
 >**IMPORTANT**
 >
 >L'équipement Chromecast doit impérativement être sur le même réseau local que Jeedom.
