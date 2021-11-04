@@ -53,6 +53,8 @@ Los equipos **Spotify Connect** no tienen parámetros específicos excepto para 
 
 Para este equipo, por lo tanto, será necesario ingresar su dirección IP después de asegurarse de haber ingresado correctamente las cookies esperadas en la configuración del complemento (ver párrafo **Caso especial de Chromecast**).
 
+Para el comando de reproducción de la lista de reproducción, debe poner el nombre de una de sus listas de reproducción opcionales. Lo único posible es poner "aleatorio" para la reproducción aleatoria
+
 >**IMPORTANTE**
 >
 >El equipo Chromecast debe estar en la misma red local que Jeedom.

@@ -54,3 +54,29 @@ Kleine Besonderheit beim Bewegungsmelder, es geht nicht um die permanente Bewegu
 ### Öffnungsmelder
 
 Für ihn keine Sorge, Sie haben Echtzeit-Status der Fenster- / Türöffnungs- / Geschlossen-Informationen.
+
+## SIA
+
+Es ist auch möglich, den Ajax-Alarm über das SIA-Protokoll mit Jeedom zu verbinden, was den Vorteil hat, dass es lokal ist (keine Cloud), aber nur Informationen empfangen kann (keine Alarmsteuerung möglich)).
+
+>**WICHTIG**
+>
+> Wenn Sie in Python sind <3.8 (Debian 10), oder wenn Sie den `ImportError . erhalten: kann den Namen 'CommunicationsProtocol' von 'pysiaalarm' nicht importieren gehen Sie zu "Einstellungen" -> "System" -> "Konfiguration" dann "OS / DB" Registerkarte dann in "System Tools" klicken Sie auf "Öffnen" vor "System Verwaltung". Und mach den Befehl `sudo pip3 install pysiaalarm == 3.0.0b9`
+
+## Konfigurieren des AIS
+
+Die Konfiguration des SIA ist recht einfach, unter "Plugin" -> "Plugin Management" -> "Ajax Systems" haben Sie : 
+- den SIA-Daemon tragen
+- das SIA-Konto
+- der SIA-Verschlüsselungsschlüssel
+
+Sie müssen dann zur Ajax Systeme-Anwendung (von Ihrem Telefon aus) gehen, zu "Geräte" gehen, dann auf den Hub klicken, zu seiner Konfiguration gehen (Zahnrad oben rechts), zu "Überwachungszentrum" gehen und die Informationen eingeben : 
+
+- Hafen (der in Jeedom)
+- SIA-Konto (das gleiche in Jeedom)
+- Verschlüsselungsschlüssel (idem)
+- ip : setze die lokale IP von Jeedom
+
+Sie können auch die Häufigkeit der Servicetests von 1 Minute auf 24 Stunden ändern (um die Belastung Ihres Jeedom zu reduzieren).
+
+Wenn alles in Ordnung ist, sollten Sie normalerweise sehen, dass sich die "Zentrale" in "Verbunden" ändert"

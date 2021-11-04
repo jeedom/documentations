@@ -54,3 +54,29 @@ Pequena especificidade para o detector de movimento, não vai até a detecção 
 ### Detector de abertura
 
 Para ele, não se preocupe, você tem o status em tempo real das informações de janela / porta aberta / fechada.
+
+## SIA
+
+Também é possível conectar o alarme Ajax ao Jeedom pelo protocolo SIA, que tem a vantagem de ser local (sem nuvem), mas que só pode receber informações (não é possível controlar o alarme).
+
+>**IMPORTANTE**
+>
+> Se você estiver em python <3.8 (Debian 10), ou se você obtiver o `ImportError: não é possível importar o nome 'CommunicationsProtocol' de 'pysiaalarm', você deve ir em "Configurações" -> "Sistema" -> "Configuração" e depois na guia "OS / DB" e em "Ferramentas do sistema" clicar em "Abrir" na frente de "Sistema Administração". E faça o comando `sudo pip3 install pysiaalarm == 3.0.0b9`
+
+## Configurando o AIS
+
+A configuração do SIA é bastante simples, em "Plugin" -> "Gerenciamento de Plugins" -> "Sistemas Ajax", você terá : 
+- usando o daemon SIA
+- a conta SIA
+- a chave de criptografia SIA
+
+Você deve então ir para o aplicativo Ajax Systeme (do seu telefone), vá para "Dispositivos" e clique no hub, vá para sua configuração (roda dentada no canto superior direito), vá para "Centro de monitoramento" e preencha as informações : 
+
+- porto (aquele em Jeedom)
+- Conta SIA (mesmo em Jeedom)
+- chave de criptografia (idem)
+- ip : coloque o ip local do Jeedom
+
+Você também pode alterar a frequência de teste de serviço de 1min a 24h (para reduzir a carga em seu Jeedom).
+
+Normalmente, se tudo estiver bem, você deve ver a mudança de "Estação Central" para "Conectado"
