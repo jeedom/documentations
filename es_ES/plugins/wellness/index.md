@@ -9,6 +9,7 @@
 
 | | | | |
 |--- | --- | --- | ---|
+|<img src="airzone/airzone_icon.png" class="pluginLogo" width="100" />|Airzone Web|Complemento para la integración en el sistema Jeedom of AirzoneWeb|[Documentación](airzone/index.md)[Beta](airzone/beta/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=4216)<br/>[Cambios](airzone/changelog.md)[Beta](airzone/beta/changelog.md)|
 |<img src="alfawiseumist/alfawiseumist_icon.png" class="pluginLogo" width="100" />|Nebulizador Alfawise|Complemento para controlar los nebulizadores Alfawise|[Documentación](alfawiseumist/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3296)<br/>[Cambios](alfawiseumist/changelog.md)|
 |<img src="greenmomit/greenmomit_icon.png" class="pluginLogo" width="100" />|Momit verde|Plugin para termostatos Greenmomit|[Documentación](greenmomit/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1081)<br/>[Cambios](greenmomit/changelog.md)|
 |<img src="ikettle/ikettle_icon.png" class="pluginLogo" width="100" />|Ikettle|Complemento para administrar Ikettle e Ikettle 2 hervidores más inteligentes|[Documentación](ikettle/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3297)<br/>[Cambios](ikettle/changelog.md)|

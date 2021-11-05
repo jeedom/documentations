@@ -1,0 +1,50 @@
+{
+    "id": "airzone",
+    "name": "Airzone Web",
+    "description": {
+        "fr_FR": "Plugin pour l'integration dans Jeedom de système AirzoneWeb",
+        "en_US": "Plugin for the integration in Jeedom of AirzoneWeb system",
+        "es_ES": "Complemento para la integración en el sistema Jeedom of AirzoneWeb",
+        "de_DE": "Plugin für die Integration in Jeedom des AirzoneWeb-Systems",
+        "ru_RU": "Plugin pour l'integration dans Jeedom de système AirzoneWeb",
+        "id_ID": "Plugin pour l'integration dans Jeedom de système AirzoneWeb",
+        "it_IT": "Plugin pour l'integration dans Jeedom de système AirzoneWeb",
+        "ja_JP": "Plugin pour l'integration dans Jeedom de système AirzoneWeb",
+        "pt_PT": "Plugin para integração no sistema Jeedom do AirzoneWeb",
+        "tr": "Plugin pour l'integration dans Jeedom de système AirzoneWeb"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.1.22",
+    "category": "wellness",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/airzone\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/airzone\/",
+    "link": {
+        "forum": "Lien vers le forum"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "atlas",
+        "diy",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/airzone\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/airzone\/beta"
+}

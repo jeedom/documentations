@@ -1,0 +1,35 @@
+{
+	"id" : "airzone",
+	"name" : "Airzone Web",
+	"description" : {
+		"fr_FR": "Plugin pour l'integration dans Jeedom de système AirzoneWeb"
+	},
+	"licence" : "AGPL",
+	"author" : "Jeedom SAS",
+	"require" : "4.1.22",
+	"category" : "wellness",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/airzone\/changelog",
+	"documentation" : "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/airzone\/",
+	"link" : {
+		"forum":"Lien vers le forum"
+	},
+	"language": [
+		"fr_FR",
+		"en_US",
+		"es_ES"
+
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"atlas",
+		"diy",
+		"v4"
+	],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/airzone\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/airzone\/beta"
+}

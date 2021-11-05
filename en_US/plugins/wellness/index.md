@@ -9,6 +9,7 @@
 
 | | | | |
 |--- | --- | --- | ---|
+|<img src="airzone/airzone_icon.png" class="pluginLogo" width="100" />|Airzone Web|Plugin for the integration in Jeedom of AirzoneWeb system|[Documentation](airzone/index.md)[Beta](airzone/beta/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4216)<br/>[Changelog](airzone/changelog.md)[Beta](airzone/beta/changelog.md)|
 |<img src="alfawiseumist/alfawiseumist_icon.png" class="pluginLogo" width="100" />|Alfawise fogger|Plugin to control Alfawise foggers|[Documentation](alfawiseumist/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3296)<br/>[Changelog](alfawiseumist/changelog.md)|
 |<img src="greenmomit/greenmomit_icon.png" class="pluginLogo" width="100" />|Green Momit|Plugin for Greenmomit thermostats|[Documentation](greenmomit/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1081)<br/>[Changelog](greenmomit/changelog.md)|
 |<img src="ikettle/ikettle_icon.png" class="pluginLogo" width="100" />|Ikettle|Plugin to manage Ikettle and Ikettle 2 smarter kettles|[Documentation](ikettle/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3297)<br/>[Changelog](ikettle/changelog.md)|
