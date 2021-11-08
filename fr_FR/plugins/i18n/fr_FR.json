@@ -419,6 +419,23 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
     },
+    "plugins\/ipx800v5\/index.md": {
+        "Si vous pouvez partez plutot sur un ipx800v4 bien plus simple": "Si vous pouvez partez plutot sur un ipx800v4 bien plus simple",
+        "IPX800 v5": "IPX800 v5",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "IMPORTANT": "IMPORTANT",
+        "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
+        "ici": "ici",
+        "Vous pouvez voir": "Vous pouvez voir",
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation beta": "Documentation beta",
+        "Plugin pour l'ipx800v5": "Plugin pour l'ipx800v5",
+        "Attention du à la complexité de l'api mise à disposition par le fabricant ce plugin n'est pas recommandé pour les débuts": "Attention du à la complexité de l'api mise à disposition par le fabricant ce plugin n'est pas recommandé pour les débuts",
+        "Market": "Market",
+        "Changelog beta": "Changelog beta"
+    },
     "plugins\/lightmanager\/index.md": {
         "Plugin permettant la gestion des lumières": "Plugin permettant la gestion des lumières",
         "Gestion Lumières": "Gestion Lumières",

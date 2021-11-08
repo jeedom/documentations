@@ -1,0 +1,44 @@
+{
+    "id": "ipx800v5",
+    "name": "IPX800 v5",
+    "description": {
+        "fr_FR": "Plugin pour l'ipx800v5.Attention du à la complexité de l'api mise à disposition par le fabricant ce plugin n'est pas recommandé pour les débuts. Si vous pouvez partez plutot sur un ipx800v4 bien plus simple.",
+        "en_US": "Plugin for ipx800v5.Beware of the complexity of the API provided by the manufacturer, this plugin is not recommended for beginners. If you can go on a much simpler ipx800v4 instead",
+        "es_ES": "Complemento para ipx800v5 Tenga cuidado con la complejidad de la API proporcionada por el fabricante, este complemento no se recomienda para principiantes. Si puede optar por un ipx800v4 mucho más simple",
+        "de_DE": "Plugin für ipx800v5.Beachten Sie die Komplexität der vom Hersteller bereitgestellten API, dieses Plugin wird für Anfänger nicht empfohlen. Wenn Sie stattdessen auf ein viel einfacheres ipx800v4 gehen können",
+        "ru_RU": "Plugin pour l'ipx800v5.Attention du à la complexité de l'api mise à disposition par le fabricant ce plugin n'est pas recommandé pour les débuts. Si vous pouvez partez plutot sur un ipx800v4 bien plus simple",
+        "id_ID": "Plugin pour l'ipx800v5.Attention du à la complexité de l'api mise à disposition par le fabricant ce plugin n'est pas recommandé pour les débuts. Si vous pouvez partez plutot sur un ipx800v4 bien plus simple",
+        "it_IT": "Plugin pour l'ipx800v5.Attention du à la complexité de l'api mise à disposition par le fabricant ce plugin n'est pas recommandé pour les débuts. Si vous pouvez partez plutot sur un ipx800v4 bien plus simple",
+        "ja_JP": "Plugin pour l'ipx800v5.Attention du à la complexité de l'api mise à disposition par le fabricant ce plugin n'est pas recommandé pour les débuts. Si vous pouvez partez plutot sur un ipx800v4 bien plus simple",
+        "pt_PT": "Plug-in para ipx800v5. Cuidado com a complexidade da API fornecida pelo fabricante, este plug-in não é recomendado para iniciantes. Se você puder ir em um ipx800v4 muito mais simples",
+        "tr": "Plugin pour l'ipx800v5.Attention du à la complexité de l'api mise à disposition par le fabricant ce plugin n'est pas recommandé pour les débuts. Si vous pouvez partez plutot sur un ipx800v4 bien plus simple"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2",
+    "category": "automation protocol",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ipx800v5\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ipx800v5\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ipx800v5\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ipx800v5\/beta",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ]
+}
