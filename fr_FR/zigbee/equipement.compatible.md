@@ -299,6 +299,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/DANFOSS.RV001.png" width="60" />|Danfoss|Danfoss Ally|Tête thermostatique||[Documentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 |<img src="../../fr_FR/zigbee/images/Danfoss.0x0200.png" width="60" />|Danfoss|Danfoss Icon Floor Controller|Contrôleur Plancher Chauffant|||
 |<img src="../../fr_FR/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Danfoss Ally|Tête thermostatique||[Documentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 
@@ -486,6 +487,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Loratap|Module volet roulant||||
 |<img src="../../fr_FR/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Loratap|LORATAP - Télécommande 3 boutons||||
 
 # Nodon
@@ -594,7 +596,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../fr_FR/zigbee/images/D5X84YU.eT093WRO.png" width="60" />|Popp|Vanne|Tête thermostatique|||
+|<img src="../../fr_FR/zigbee/images/D5X84YU.eT093WRO.png" width="60" />|Danfoss|Danfoss Ally|Tête thermostatique||[Documentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Acheter](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 
 # Profalux
 
@@ -830,4 +832,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2021-11-07 01:32:17
+2021-11-08 01:32:15

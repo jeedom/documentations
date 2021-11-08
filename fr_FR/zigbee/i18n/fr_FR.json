@@ -218,8 +218,8 @@
         "Profalux": "Profalux",
         "Profalux MOE": "Profalux MOE",
         "Profalux MOT-C1Z06C": "Profalux MOT-C1Z06C",
-        "Popp": "Popp",
-        "Vanne": "Vanne",
+        "Danfoss": "Danfoss",
+        "Danfoss Ally": "Danfoss Ally",
         "Philips": "Philips",
         "Télécommande 4 boutons": "Télécommande 4 boutons",
         "Hue Module interrupteur Mural": "Hue Module interrupteur Mural",
@@ -412,8 +412,6 @@
         "Ampoule LED intelligente RGBCW MR16": "Ampoule LED intelligente RGBCW MR16",
         "Dresden elektronik": "Dresden elektronik",
         "FLS-PP lp wireless ballast": "FLS-PP lp wireless ballast",
-        "Danfoss": "Danfoss",
-        "Danfoss Ally": "Danfoss Ally",
         "Danfoss Icon Floor Controller": "Danfoss Icon Floor Controller",
         "Contrôleur Plancher Chauffant": "Contrôleur Plancher Chauffant",
         "Danalock": "Danalock",
@@ -519,6 +517,7 @@
         "Equipement générique GreenPower": "Equipement générique GreenPower",
         "GR-SMARTHOME": "GR-SMARTHOME",
         "Motorisation pour vanne 1\/4 de tour": "Motorisation pour vanne 1\/4 de tour",
+        "Vanne": "Vanne",
         "Frient": "Frient",
         "Smart button": "Smart button",
         "Détecteur d'ouverture de porte ou fenêtre et capteur de température": "Détecteur d'ouverture de porte ou fenêtre et capteur de température",
@@ -566,7 +565,8 @@
         "Compatibilité des modules Zigbee": "Compatibilité des modules Zigbee",
         "Acheter": "Acheter",
         "Documentation": "Documentation",
+        "Popp": "Popp",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-11-07 01": "2021-11-07 01"
+        "2021-11-08 01": "2021-11-08 01"
     }
 }

@@ -299,6 +299,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/DANFOSS.RV001.png" width="60" />|Danfoss|Danfoss Ally|Thermostatic head||[Documentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 |<img src="../../en_US/zigbee/images/Danfoss.0x0200.png" width="60" />|Danfoss|Danfoss Icon Floor Controller|Heated Floor Controller|||
 |<img src="../../en_US/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Danfoss Ally|Thermostatic head||[Documentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 
@@ -486,6 +487,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Loratap|Roller shutter module||||
 |<img src="../../en_US/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Loratap|LORATAP - 3-button remote control||||
 
 # Nodon
@@ -594,7 +596,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/D5X84YU.eT093WRO.png" width="60" />|Popp|Vanne|Thermostatic head|||
+|<img src="../../en_US/zigbee/images/D5X84YU.eT093WRO.png" width="60" />|Danfoss|Danfoss Ally|Thermostatic head||[Documentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 
 # Profalux
 
@@ -830,4 +832,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-11-07 01:32:17
+2021-11-08 01:32:15

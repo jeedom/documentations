@@ -299,6 +299,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/DANFOSS.RV001.png" width="60" />|Danfoss|Danfoss Verbündeter|Thermostatkopf||[Dokumentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 |<img src="../../de_DE/zigbee/images/Danfoss.0x0200.png" width="60" />|Danfoss|Danfoss Icon Floor Controller|Beheizter Bodenregler|||
 |<img src="../../de_DE/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Danfoss Verbündeter|Thermostatkopf||[Dokumentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 
@@ -486,6 +487,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Loratap|Rollladenmodul||||
 |<img src="../../de_DE/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Loratap|LORATAP - 3-Tasten-Fernbedienung||||
 
 # Nodon
@@ -594,7 +596,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/D5X84YU.eT093WRO.png" width="60" />|Popp|Vanne|Thermostatkopf|||
+|<img src="../../de_DE/zigbee/images/D5X84YU.eT093WRO.png" width="60" />|Danfoss|Danfoss Verbündeter|Thermostatkopf||[Dokumentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 
 # Profalux
 
@@ -830,4 +832,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-11-07 01:32:17
+2021-11-08 01:32:15

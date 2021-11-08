@@ -299,6 +299,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/DANFOSS.RV001.png" width="60" />|Danfoss|Aliado de Danfoss|Cabezal termostático||[Documentación](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Comprar](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 |<img src="../../es_ES/zigbee/images/Danfoss.0x0200.png" width="60" />|Danfoss|Controlador de piso Icon de Danfoss|Controlador de piso calefactado|||
 |<img src="../../es_ES/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Aliado de Danfoss|Cabezal termostático||[Documentación](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Comprar](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 
@@ -486,6 +487,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Loratap|Módulo de persiana enrollable||||
 |<img src="../../es_ES/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Loratap|LORATAP - Mando a distancia de 3 botones||||
 
 # Nodon
@@ -594,7 +596,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/D5X84YU.eT093WRO.png" width="60" />|Popp|Vanne|Cabezal termostático|||
+|<img src="../../es_ES/zigbee/images/D5X84YU.eT093WRO.png" width="60" />|Danfoss|Aliado de Danfoss|Cabezal termostático||[Documentación](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Comprar](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 
 # Profalux
 
@@ -830,4 +832,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-11-07 01:32:17
+2021-11-08 01:32:15
