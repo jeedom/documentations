@@ -10,7 +10,12 @@
 
 >**IMPORTANTE**
 >
->Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
+>Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar o 
+
+# 11/07/2021
+
+- Adição de novos equipamentos
+- Correção de um bug nos módulos de persianas enroláveis Tuya
 
 # 25/10/2021
 

@@ -10,7 +10,12 @@
 
 >**IMPORTANT**
 >
->Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
+>Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les 
+
+# 07/11/2021
+
+- Ajout de nouveaux équipements
+- Correction d'un bug sur les modules volet roulant Tuya
 
 # 25/10/2021
 

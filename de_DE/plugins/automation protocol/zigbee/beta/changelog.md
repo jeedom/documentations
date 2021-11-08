@@ -10,7 +10,12 @@
 
 >**Wichtig**
 >
->Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
+>Um von der neuesten Modulintegration zu profitieren, zögern Sie nicht, die 
+
+# 07.11.2021
+
+- Hinzufügen neuer Geräte
+- Fehler bei Tuya Rollladenmodulen behoben
 
 # 25.10.2021
 

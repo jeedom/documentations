@@ -10,7 +10,12 @@
 
 >**Important**
 >
->To take advantage of the latest module integration, don't hesitate to update the dependencies
+>To take advantage of the latest module integration, do not hesitate to update the 
+
+# 07/11/2021
+
+- Addition of new equipment
+- Fixed a bug on Tuya roller shutter modules
 
 # 25/10/2021
 
