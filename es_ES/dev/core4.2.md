@@ -1,15 +1,25 @@
 ## Core v4.2 | Desarrolladores de complementos
 
+
+### Obsolete
+
+- Método de clase `cmd` : `setEventOnly`
+
 ### Deprecated
 
 Estas modificaciones todavía son compatibles con la v4.2 y cambiará a **Obsoleto** en una versión futura.
 
 - El método `eqLogic::byTypeAndSearhConfiguration () `ha sido renombrado correctamente : `eqLogic::byTypeAndSearchConfiguration()`.
 - El método js `jeedom.eqLogic.builSelectCmd` ha sido renombrado correctamente : `jeedom.eqLogic.buildSelectCmd`.
+
 *Estos dos métodos también se han integrado en v4.1 para acelerar su adopción.*
 
 - Eliminación de jwerty liberty para vanillaJS (gestión de atajos de teclado).
 - Uso de cambios de "showAlert" : `$ ('# div_alert').showAlert ({`se convierte` en $ .fn.showAlert ({`. Sin cambio para la llamada de un modal. No es compatible con Core pre 4.2.
+
+- Método php `displayExeption` : `displayException` (utils.inc)
+- Método php `convertDayEnToFr` : `convertDayFromEn` (utils.inc)
+
 
 ### Modificaciones opcionales
 

@@ -141,8 +141,10 @@
         "jeedom.theme": "jeedom.theme",
         "Développeurs de plugin": "Développeurs de plugin",
         "Core v4": "Core v4",
-        "Deprecated": "Deprecated",
         "Obsolete": "Obsolete",
+        "Méthode de class `cmd`": "Méthode de class `cmd`",
+        "`setEventOnly`": "`setEventOnly`",
+        "Deprecated": "Deprecated",
         "Ces modifications sont toujours supportées en v4": "Ces modifications sont toujours supportées en v4",
         "2 et passeront en": "2 et passeront en",
         "dans une prochaine version": "dans une prochaine version",
@@ -161,6 +163,10 @@
         "showAlert({` devient `$.fn.showAlert({`": "showAlert({` devient `$.fn.showAlert({`",
         "Pas de changement pour l'appel depuis une modale": "Pas de changement pour l'appel depuis une modale",
         "Non supporté sur Core pré 4.2": "Non supporté sur Core pré 4.2",
+        "Méthode php `displayExeption`": "Méthode php `displayExeption`",
+        "`displayException` (utils.inc": "`displayException` (utils.inc",
+        "Méthode php `convertDayEnToFr`": "Méthode php `convertDayEnToFr`",
+        "`convertDayFromEn` (utils.inc": "`convertDayFromEn` (utils.inc",
         "Modifications optionnelles": "Modifications optionnelles",
         "Graphique de fond des tuiles": "Graphique de fond des tuiles",
         "La v4": "La v4",
@@ -366,6 +372,15 @@
         "Référence": "Référence",
         "Les Types Génériques du Core sont définis dans le": "Les Types Génériques du Core sont définis dans le",
         "array $JEEDOM_INTERNAL_CONFIG, generic_type": "array $JEEDOM_INTERNAL_CONFIG, generic_type"
+    },
+    "dev\/core4.3.md": {
+        "Développeurs de plugin": "Développeurs de plugin",
+        "Core v4": "Core v4",
+        "Dude": "Dude",
+        "Not even in alpha yet": "Not even in alpha yet",
+        "Obsolete": "Obsolete",
+        "Deprecated": "Deprecated",
+        "Modifications optionnelles": "Modifications optionnelles"
     },
     "dev\/daemon_plugin.md": {
         "`pip3 list": "`pip3 list",
@@ -844,6 +859,7 @@
         "Plugin template": "Plugin template",
         "Démon et dépendances d'un plugin": "Démon et dépendances d'un plugin",
         "Évolutions du Core et adaptations des plugins": "Évolutions du Core et adaptations des plugins",
+        "Core v4.3": "Core v4.3",
         "Core v4.2": "Core v4.2",
         "Core v4.1": "Core v4.1",
         "Core v4.0": "Core v4.0"

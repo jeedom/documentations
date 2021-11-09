@@ -16,6 +16,7 @@ Ein [Entwicklerkonto](https://blog.jeedom.com/jeedom-partenaire/) ist erforderli
 
 ### Kernentwicklungen und Plugin-Anpassungen
 
+- [Core v4.3](/de_DE/dev/core4.3)
 - [Core v4.2](/de_DE/dev/core4.2)
 - [Core v4.1](/de_DE/dev/core4.1)
 - [Core v4.0](/de_DE/dev/core4.0)

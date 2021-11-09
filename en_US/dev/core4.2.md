@@ -1,15 +1,25 @@
 ## Core v4.2 | Plugin developers
 
+
+### Obsolete
+
+- Class `cmd` method : `setEventOnly`
+
 ### Deprecated
 
 These modifications are still supported in v4.2 and will switch to **Obsolete** in a future version.
 
 - The `eqLogic method::byTypeAndSearhConfiguration () `has been renamed correctly : `eqLogic::byTypeAndSearchConfiguration()`.
 - The js `jeedom.eqLogic method.builSelectCmd` has been renamed correctly : `jeedom.eqLogic.buildSelectCmd`.
+
 *These two methods have also been integrated in v4.1 to accelerate their adoption.*
 
 - Removal of the jwerty liberty for vanillaJS (management of keyboard shortcuts).
 - Usage of `showAlert` changes : `$ ('# div_alert').showAlert ({`becomes` $ .fn.showAlert ({`. No change for the call from a modal. Not supported on Core pre 4.2.
+
+- Php `displayExeption` method : `displayException` (utils.inc)
+- Php method `convertDayEnToFr` : `convertDayFromEn` (utils.inc)
+
 
 ### Optional modifications
 

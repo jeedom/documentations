@@ -16,6 +16,7 @@ A [developer account](https://blog.jeedom.com/jeedom-partenaire/) is required to
 
 ### Core evolutions and plugins adaptations
 
+- [Core v4.3](/en_US/dev/core4.3)
 - [Core v4.2](/en_US/dev/core4.2)
 - [Core v4.1](/en_US/dev/core4.1)
 - [Core v4.0](/en_US/dev/core4.0)
