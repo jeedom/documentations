@@ -2,10 +2,14 @@
 
 ### Deprecated
 
-- La méthode `eqLogic::byTypeAndSearhConfiguration()` a été renommée correctement : `eqLogic::byTypeAndSearchConfiguration()`. L'ancienne sera supprimée dans une prochaine version du Core.
-- La méthode js `jeedom.eqLogic.builSelectCmd` a été renommée correctement : `jeedom.eqLogic.buildSelectCmd`. L'ancienne sera supprimée dans une prochaine version du Core. Attention, celle-ci est très utilisée par les plugins, mais la nouvelle fonction ne fonctionnera pas sur un Core pré-4.2, donc pas d'urgence.
-Ces deux méthodes ont églament été intégrées en v4.1 pour accélérer leur adoption.
-- Suppression de la lib jwerty pour du vanillaJS (gestion des raccourcis clavier). Conservée en v4.2 pour les plugins susceptibles de l'utiliser, elle sera supprimée en v4.3.
+Ces modifications sont toujours supportées en v4.2 et passeront en **Obsolete** dans une prochaine version.
+
+- La méthode `eqLogic::byTypeAndSearhConfiguration()` a été renommée correctement : `eqLogic::byTypeAndSearchConfiguration()`.
+- La méthode js `jeedom.eqLogic.builSelectCmd` a été renommée correctement : `jeedom.eqLogic.buildSelectCmd`.
+*Ces deux méthodes ont églament été intégrées en v4.1 pour accélérer leur adoption.*
+
+- Suppression de la lib jwerty pour du vanillaJS (gestion des raccourcis clavier).
+- L'usage de `showAlert` change : `$('#div_alert').showAlert({` devient `$.fn.showAlert({`. Pas de changement pour l'appel depuis une modale. Non supporté sur Core pré 4.2.
 
 ### Modifications optionnelles
 
@@ -281,7 +285,7 @@ Tous les Widgets de type curseur utilisent depuis la v4.2 une nouvelle lib [noUi
 
 Si vos plugins / widgets tiers utilisent des curseurs, il est préférable de migrer vers cette nouvelle lib.
 
-> Attention : Les Core pré-4.2 n'ont pas la lib nouislider !
+> Attention : Les Core pré-4.2 n'ont pas la lib **nouislider** !
 
 Vous pouvez tester l'existence de la lib comme cela :
 
