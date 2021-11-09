@@ -21,7 +21,7 @@ Diese Modifikationen werden in v4 noch unterstützt.2 und wechselt zu **Obsolet*
 - PHP-Methode `convertDayEnToFr` : `convertDayFromEn` (utils.inc)
 
 
-### Optionale Modifikationen
+### Optionale Änderungen
 
 #### Kachelhintergrundgrafik
 
