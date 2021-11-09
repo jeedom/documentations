@@ -2,10 +2,14 @@
 
 ### Deprecated
 
-- The `eqLogic method::byTypeAndSearhConfiguration () `has been renamed correctly : `eqLogic::byTypeAndSearchConfiguration()`. The old one will be removed in a future version of the Core.
-- The js `jeedom.eqLogic method.builSelectCmd` has been renamed correctly : `jeedom.eqLogic.buildSelectCmd`. The old one will be removed in a future version of the Core. Be careful, this one is used a lot by plugins, but the new function will not work on a pre-4 Core.2, so no rush.
-These two methods have also been integrated in v4.1 to accelerate their adoption.
-- Removal of the jwerty liberty for vanillaJS (management of keyboard shortcuts). Kept in v4.2 for plugins likely to use it, it will be removed in v4.3.
+These modifications are still supported in v4.2 and will switch to **Obsolete** in a future version.
+
+- The `eqLogic method::byTypeAndSearhConfiguration () `has been renamed correctly : `eqLogic::byTypeAndSearchConfiguration()`.
+- The js `jeedom.eqLogic method.builSelectCmd` has been renamed correctly : `jeedom.eqLogic.buildSelectCmd`.
+*These two methods have also been integrated in v4.1 to accelerate their adoption.*
+
+- Removal of the jwerty liberty for vanillaJS (management of keyboard shortcuts).
+- Usage of `showAlert` changes : `$ ('# div_alert').showAlert ({`becomes` $ .fn.showAlert ({`. No change for the call from a modal. Not supported on Core pre 4.2.
 
 ### Optional modifications
 
@@ -281,7 +285,7 @@ All cursor type Widgets use since v4.2 a new lib [noUiSlider](https://refreshles
 
 If your third party plugins / widgets use sliders, it is better to migrate to this new lib.
 
-> Warning : The pre-4 Core.2 do not have the lib nouislider !
+> Warning : The pre-4 Core.2 do not have the lib **noUiSlider** !
 
 You can test the existence of the lib like this :
 

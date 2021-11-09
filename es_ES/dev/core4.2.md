@@ -2,10 +2,14 @@
 
 ### Deprecated
 
-- El método `eqLogic::byTypeAndSearhConfiguration () `ha sido renombrado correctamente : `eqLogic::byTypeAndSearchConfiguration()`. El anterior se eliminará en una versión futura del Core.
-- El método js `jeedom.eqLogic.builSelectCmd` ha sido renombrado correctamente : `jeedom.eqLogic.buildSelectCmd`. El anterior se eliminará en una versión futura del Core. Tenga cuidado, este es usado mucho por los complementos, pero la nueva función no funcionará en un Core anterior a 4.2, así que no hay prisa.
-Estos dos métodos también se han integrado en v4.1 para acelerar su adopción.
-- Eliminación de jwerty liberty para vanillaJS (gestión de atajos de teclado). Guardado en v4.2 para los complementos que probablemente lo utilicen, se eliminará en la v4.3.
+Estas modificaciones todavía son compatibles con la v4.2 y cambiará a **Obsoleto** en una versión futura.
+
+- El método `eqLogic::byTypeAndSearhConfiguration () `ha sido renombrado correctamente : `eqLogic::byTypeAndSearchConfiguration()`.
+- El método js `jeedom.eqLogic.builSelectCmd` ha sido renombrado correctamente : `jeedom.eqLogic.buildSelectCmd`.
+*Estos dos métodos también se han integrado en v4.1 para acelerar su adopción.*
+
+- Eliminación de jwerty liberty para vanillaJS (gestión de atajos de teclado).
+- Uso de cambios de "showAlert" : `$ ('# div_alert').showAlert ({`se convierte` en $ .fn.showAlert ({`. Sin cambio para la llamada de un modal. No es compatible con Core pre 4.2.
 
 ### Modificaciones opcionales
 
@@ -281,7 +285,7 @@ Todos los widgets de tipo de cursor se utilizan desde v4.2 una nueva biblioteca 
 
 Si sus complementos / widgets de terceros usan controles deslizantes, es mejor migrar a esta nueva biblioteca.
 
-> Atención : El núcleo pre-4.2 no tengo la lib nouislider !
+> Atención : El núcleo pre-4.2 no tengo la lib **noUiSlider** !
 
 Puede probar la existencia de la biblioteca de esta manera :
 

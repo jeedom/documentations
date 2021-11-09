@@ -2,10 +2,14 @@
 
 ### Deprecated
 
-- Die `eqLogic-Methode::byTypeAndSearhConfiguration () `wurde richtig umbenannt : `eqLogic::byTypeAndSearchConfiguration()`. Der alte wird in einer zukünftigen Version des Core entfernt removed.
-- Die js-`jeedom.eqLogic-Methode.builSelectCmd` wurde korrekt umbenannt : `jeedom.eqLogic.buildSelectCmd`. Der alte wird in einer zukünftigen Version des Core entfernt removed. Seien Sie vorsichtig, dieser wird häufig von Plugins verwendet, aber die neue Funktion funktioniert nicht auf einem Core vor 4.2, also keine Eile.
-Diese beiden Methoden wurden auch in v4 integriert.1 um ihre Annahme zu beschleunigen.
-- Aufhebung der JWERTY-Freiheit für VanillaJS (Verwaltung von Tastaturkürzeln)). Wird in Version 4 beibehalten.2 für Plugins, die es wahrscheinlich verwenden, wird es in v4.3 entfernt.
+Diese Modifikationen werden in v4 noch unterstützt.2 und wechselt zu **Obsolet** in einer zukünftigen Version.
+
+- Die `eqLogic-Methode::byTypeAndSearhConfiguration () `wurde richtig umbenannt : `eqLogic::byTypeAndSearchConfiguration()`.
+- Die js-`jeedom.eqLogic-Methode.builSelectCmd` wurde korrekt umbenannt : `jeedom.eqLogic.buildSelectCmd`.
+*Diese beiden Methoden wurden auch in v4 integriert.1 um ihre Annahme zu beschleunigen.*
+
+- Aufhebung der JWERTY-Freiheit für VanillaJS (Verwaltung von Tastaturkürzeln)).
+- Verwendung von `showAlert` ändert sich : `$ ('# div_alert').showAlert ({`wird` $ .fn.showAlert ({`. Keine Änderung für den Anruf von einem Modal. Nicht unterstützt auf Core vor 4.2.
 
 ### Optionale Änderungen
 
@@ -281,7 +285,7 @@ Alle Cursortyp-Widgets werden seit Version 4 verwendet.2 eine neue lib [noUiSlid
 
 Wenn Ihre Plugins / Widgets von Drittanbietern Schieberegler verwenden, ist es besser, auf diese neue Bibliothek zu migrieren.
 
-> Warnung : Der Pre-4 Core.2 habe nicht den lib nouislider !
+> Warnung : Der Pre-4 Core.2 habe nicht die lib **noUiSlider** !
 
 Sie können die Existenz der Bibliothek so testen :
 
