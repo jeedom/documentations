@@ -1,99 +1,106 @@
 # Kalender-Plugin
 
-Plugin zum Erstellen einer Agenda und Auslösen von Aktionen (Befehl oder Szenario)).
+Das Plugin **Agenda** ermöglicht es Ihnen, Kalender zu verwalten und Aktionen zu Beginn und / oder Ende eines Ereignisses auszulösen.
 
-# Plugin Konfiguration
+# Configuration
 
-Die Konfiguration ist sehr einfach. Nach dem Herunterladen des Plugins müssen Sie es nur noch aktivieren und fertig.
+## Plugin Konfiguration
 
-# Gerätekonfiguration
+Dieses Plugin erfordert keine spezielle Konfiguration und muss nach der Installation einfach aktiviert werden.
 
-Auf die Konfiguration der Agenda-Geräte kann über das Plugins-Menü und dann über Organisation zugegriffen werden.
+## Gerätekonfiguration
 
-Sobald Sie darauf sind, finden Sie die Liste Ihrer Agenda.
+Die Ausrüstung ist über das Menü zugänglich **Plugins → Organisation → Agenda**.
 
-Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
+Auf dieser Seite finden Sie die Liste Ihrer Agendas. Klicken Sie auf eine Agenda, um auf die Konfiguration der entsprechenden Geräte zuzugreifen :
 
--   **Name der Ausrüstung** : Name Ihres Kalenders.
+-   **Name der Agenda** : Name Ihres Kalenders.
 -   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört.
--   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören).
--   **Aktivieren** : macht Ihre Ausrüstung aktiv.
--   **Sichtbar** : macht es auf dem Dashboard sichtbar.
--   **Widget, Anzahl der Tage** : Legt die Anzahl der Ereignistage fest, die im Widget angezeigt werden sollen.
--   **Maximale Anzahl von Ereignissen** : Definiert die maximale Anzahl von Ereignissen, die im Dashboard angezeigt werden sollen.
--   **Status- und Aktivierungs- / Deaktivierungsbefehle nicht anzeigen** : Mit dieser Option können Sie den Status des Kalenders sowie die Befehle zum Aktivieren oder Nichtaktivieren des Kalenders ausblenden.
--   **Liste der Kalenderereignisse** : Anzeige unter der Liste aller Kalenderereignisse (durch Klicken darauf können Sie das Ereignis direkt bearbeiten).
--   **Ereignis hinzufügen** : Fügen Sie dem Kalender ein Ereignis hinzu.
--   **Agenda** : Anzeige einer Agenda-Ansicht mit allen Ereignissen, in die Sie sich bewegen können. Wählen Sie diese nach Woche oder Tag aus, verschieben Sie Ereignisse (Drag & Drop) und ein Klick auf ein Ereignis öffnet das Bearbeitungsfenster.
+-   **Kategorie** : Ausstattungskategorien *(kann mehreren Kategorien angehören)*.
+-   **Aktivieren** : ermöglicht es, das Gerät aktiv zu machen.
+-   **Sichtbar** : ermöglicht es, die Ausrüstung auf dem Armaturenbrett sichtbar zu machen.
 
-# Ereignis bearbeiten
+-   **Widget - Anzahl der Tage** : Legen Sie die maximale Anzahl von Tagen fest, die auf dem Widget angezeigt werden sollen.
+-   **Widget - Anzahl der Ereignisse** : Legen Sie die maximale Anzahl von Ereignissen fest, die auf dem Widget angezeigt werden sollen.
 
-Der wichtigste Teil des Plugins ist, dass Sie hier Ihre Veranstaltung konfigurieren können.
+-   **Liste der Kalenderereignisse** : zeigt die Liste aller Kalenderereignisse an *(ein Klick auf den Namen ermöglicht es Ihnen, das Ereignis zu bearbeiten)*.
 
-## Ereignis
+Die Registerkarte **Agenda** ermöglicht die Anzeige einer Agenda-Typ-Ansicht mit allen Ereignissen. Sie können sich im Kalender bewegen, ihn nach Tag, Woche oder Monat anzeigen lassen und sogar Ereignisse per Drag & Drop verschieben. Ein Klick auf ein Ereignis öffnet das Bearbeitungsfenster für das betreffende Ereignis.
 
-Hier finden Sie :
+# Veranstaltungen
+
+## Erstellung einer Veranstaltung
+
+Um eine neue Veranstaltung zu erstellen, klicken Sie auf die Schaltfläche **Ereignis hinzufügen** von der Konfigurationsseite der Agenda, an die die Veranstaltung angehängt werden muss, oder auf der Schaltfläche **Duplikat** aus dem Konfigurationsfenster einer Veranstaltung, die zur gleichen Agenda gehört.
+
+## Ereigniskonfiguration
+
+Im Fenster zur Ereigniserstellung / -konfiguration können Sie die für jedes Ereignis spezifischen Parameter, Aktionen und Wiederholungen definieren. Auf der ersten Registerkarte finden Sie :
 
 -   **Name der Veranstaltung** : Name Ihrer Veranstaltung.
--   **Symbol** : Mit dieser Option können Sie ein Symbol vor dem Namen Ihres Geräts einfügen (dazu müssen Sie auf "Symbol auswählen" klicken").
--   **Farbe** : Mit dieser Option können Sie die Farbe Ihrer Veranstaltung auswählen (mit einem Häkchen können Sie sie auch transparent machen).
--   **Textfarbe** : Mit dieser Option können Sie die Farbe Ihres Veranstaltungstextes auswählen.
--   **Nicht im Dashboard anzeigen** : erlaubt, dieses Ereignis nicht im Widget anzuzeigen.
+-   **Auf Widget ausblenden** : erlaubt, dieses Ereignis nicht im Widget anzuzeigen.
+-   **Symbol** : ermöglicht das Hinzufügen eines Symbols vor dem Namen des Ereignisses *(Klicken Sie auf den Button "Wählen Sie ein Symbol")*.
+-   **Hintergrundfarbe** : ermöglicht es Ihnen, die Hintergrundfarbe des Ereignisses auszuwählen *(Aktivieren Sie das Kontrollkästchen für einen transparenten Hintergrund)*.
+-   **Textfarbe** : ermöglicht Ihnen, die Farbe des Ereignistextes zu wählen.
 
-## Aktion starten
+Oben rechts im Ereignisbearbeitungsfenster befinden sich 3 Schaltflächen:
+- **Duplikat** : ermöglicht es Ihnen, das Ereignis zu duplizieren, um ein neues zu erstellen *(Denken Sie daran, das so generierte neue Ereignis zu speichern)*.
+- **Speichern** : ermöglicht Ihnen, das Ereignis zu speichern.
+- **Löschen** : ermöglicht es Ihnen, das gesamte Ereignis oder nur ein Ereignis zu löschen.
 
-Ermöglicht die Auswahl der Aktion (en), die beim Starten des Ereignisses ausgeführt werden sollen.
+## Aktionen starten / beenden
 
-Um eine Aktion hinzuzufügen, klicken Sie einfach auf die Schaltfläche + am Ende der Zeile. Sie haben dann eine Schaltfläche, mit der Sie nach einer Bestellung suchen können, sobald diese gefunden wurde. Sie haben die Wahl zwischen Optionen, falls vorhanden. Sie können so viel Aktion hinzufügen, wie Sie möchten.
+In dieser Registerkarte können Sie die Aktionen definieren, die zu Beginn und / oder am Ende des Ereignisses ausgeführt werden sollen. Um eine Aktion hinzuzufügen, klicken Sie einfach auf die Schaltfläche **+ Aktion starten / beenden**, Sie können so viele Aktionen hinzufügen, wie Sie möchten.
 
-> **Spitze**
+![Ajouter des actions](../images/calendar_addActions.png)
+
+Die Aktionen können Standardbefehle von Jeedom sein oder [szenariospezifische Befehle](https://doc.jeedom.com/de_DE/core/4.1/scenario#Les%20commandes%20sp%C3%A9cifiques).
+
+>**TRICK**
 >
-> Es ist möglich, die Reihenfolge der Aktionen durch Halten / Ziehen zu ändern
+>Es ist möglich, die Reihenfolge der Aktionen durch Ziehen und Ablegen zu ändern.
 
+## Programmierung von Veranstaltungen
 
-> **Spitze**
->
->Es ist möglich, die gleichen Aktionen wie in den Szenarien auszuführen (siehe [hier](https://jeedom.github.io/core/de_DE/scenario))
-
-## Aktion beenden
-
-Wie die Startaktion, diesmal jedoch die Aktion (en), die am Ende des Ereignisses ausgeführt werden sollen.
-
-## Programmation
-
-Hier befindet sich das gesamte Zeitmanagement Ihrer Veranstaltung :
+In dieser Registerkarte finden Sie die gesamte Zeitverwaltung Ihrer Veranstaltung :
 
 -   **Anfang** : Startdatum des Ereignisses.
--   **Ende** : Ereignisenddatum.
--   **Den ganzen Tag** : ermöglicht es, das Ereignis über den ganzen Tag zu definieren.
--   **In einen anderen Kalender aufnehmen** : Ermöglicht es Ihnen, ein anderes Ereignis in Ihr aktuelles Ereignis aufzunehmen. Wenn Sie beispielsweise ein Ereignis A jeden Montag wiederholen lassen und dieses Ereignis A in Ihr aktuelles Ereignis aufnehmen, wird dieses Ereignis automatisch jeden Montag wiederholt.
--   **Einschließen** : Ermöglicht das Erzwingen eines Auftrittsdatums. Sie können mehrere setzen, indem Sie sie durch (Kommas) trennen. Sie können auch einen Bereich mit definieren : (zwei Punkte).
--   **Wiederholt** : Mit dieser Option können Sie sagen, dass Ihr Ereignis wiederholt wird (wenn dieses Kontrollkästchen nicht aktiviert ist, stehen Ihnen die folgenden Optionen nicht zur Verfügung).
--   **Wiederholungsmodus** : ermöglicht die Angabe des Wiederholungsmodus, entweder einfach : jeden Tag, alle X Tage ... oder jeden 1., 2. ... wiederholen, um beispielsweise jeden 3. Montag im Monat ein Ereignis zu wiederholen (die folgenden Optionen können je nach Auswahl unterschiedlich sein).
--   **Wiederholen Sie alle** : Mit \ [nur Einzelwiederholungsmodus \] können Sie festlegen, wie oft das Ereignis wiederholt werden soll (z. B. alle 3 Tage oder alle 2 Monate).
--   **Die** : Mit \ [Wiederholungsmodus der erste, der zweite… nur \] können Sie beispielsweise jeden 2. Montag im Monat eine Wiederholung auswählen.
--   **Nur die** : Mit dieser Option können Sie die Wiederholung auf bestimmte Wochentage beschränken.
--   **Einschränkung** : erlaubt es, die Veranstaltung nur an Feiertagen einzuschränken oder Feiertage auszuschließen.
+-   **Ende** : Ereignisenddatum *(Mit dem Symbol am Ende der Zeile können Sie das Ereignis für den ganzen Tag definieren)*.
+
+-   **Nach Datum einschließen** : ermöglicht es Ihnen, ein Datum des Auftretens hinzuzufügen. Sie können mehrere definieren, indem Sie sie durch trennen ``, (virgules)`` *(exemple: JJJJ-MM-TT, JJJJ-MM-TT)*. Es ist auch möglich, einen Datumsbereich mit zu definieren ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
+-   **Nach Kalender aufnehmen** : ermöglicht es Ihnen, Ereignisse gemäß denen einer anderen Agenda oder eines anderen Ereignisses aufzunehmen. Sie haben zum Beispiel eine Veranstaltung ``A``, jeden Montag wiederholt, den du in dein aktuelles Event einbeziehst : dann wird dein aktuelles Event auch jeden Montag wiederholt.
+-   **Ausschließen nach Datum** : gleich wie **Nach Datum einschließen** aber um Vorkommnisse zu ignorieren.
+-   **Nach Kalender ausschließen** : ermöglicht es Ihnen, diese Veranstaltung gemäß einer anderen Agenda oder Veranstaltung auszuschließen *(um zu vermeiden, dass zum Beispiel 2 widersprüchliche Ereignisse zusammen gefunden werden)*.
+
+>**INFORMATION**
+>
+>Die Optionen **Ausschließen nach Datum** und **Nach Kalender ausschließen** sind nur zugänglich, wenn Ereigniswiederholung aktiviert ist.
+
+## Wiederholung von Ereignissen
+
+Durch die Wiederholung können Sie das Auftreten Ihrer Ereignisse genau nach Ihren Wünschen konfigurieren :
+
+-   **Aktivieren** : Aktivieren Sie das Kontrollkästchen, um die Wiederholung zu aktivieren und die entsprechenden Optionen anzuzeigen.
+-   **Wiederholungsmodus - Einzelwiederholung** :
+    -   **Wiederholen Sie alle** : ermöglicht Ihnen, die Wiederholungsfrequenz des Ereignisses zu definieren *(alle 3 Tage, alle 2 Monate usw)*.
+    -   **Nur die** : Mit dieser Option können Sie die Wiederholung auf bestimmte Wochentage beschränken.
+-   **Wiederholungsmodus - Erweiterte Wiederholung** :
+    -   **Die** : ermöglicht Ihnen zum Beispiel jeden 2. Montag im Monat eine Wiederholung zu wählen...
+-   **Einschränkung** : erlaubt den Ausschluss von Feiertagen oder die Beschränkung der Veranstaltung auf Feiertage / gerade Wochen / nur ungerade Wochen.
 -   **Bis zu** : gibt das Enddatum des Auftretens des Ereignisses an.
--   **Durch einen anderen Kalender ausschließen** : Mit dieser Option können Sie dieses Ereignis gemäß einer anderen Agenda ausschließen (um beispielsweise zu vermeiden, dass zwei widersprüchliche Ereignisse zusammen gefunden werden).
--   **Ausschließen** : wie "Einschließen", diesmal jedoch, um Daten auszuschließen.
 
-> **Notiz**
+>**INFORMATION**
 >
-> Feiertage sind französisch und nur französisch, dies funktioniert nicht für andere Länder
+>Feiertage betreffen nur Frankreich.
 
-> **Notiz**
+# Tagebuch, Bestellungen und Szenario
+
+Ein Tagebuch hat mehrere Befehle :
+
+-   **In Bearbeitung** : gibt die Liste der aktuellen Ereignisse durch Kommas getrennt. Um es in einem Szenario zu verwenden, verwenden Sie am einfachsten den Operator *"contient"* (``matches``) Woher *"beinhaltet nicht"* (``not matches``) *(Beispiel : ``[Appartement][test][In Bearbeitung] matches "/Anniv/"`` ist wahr, wenn in der Liste der aktuellen Ereignisse "Anniv")*.
+- **Fügen Sie ein Datum hinzu** : ermöglicht aus einem Szenario ein Datum zu einem Ereignis hinzuzufügen. Sie können mehrere Daten hinzufügen, indem Sie sie durch Kommas trennen *(Seien Sie vorsichtig, wenn Sie den Namen des Ereignisses ändern, er muss im Szenario geändert werden)*.
+- **Entfernen Sie ein Datum** : ermöglicht es, aus einem Szenario ein Datum aus einem Ereignis zu entfernen. Sie können mehrere Datumsangaben entfernen, indem Sie sie durch Kommas trennen *(Seien Sie vorsichtig, wenn Sie den Namen des Ereignisses ändern, er muss im Szenario geändert werden)*.
+
+>**INFORMATION**
 >
-> Oben rechts haben Sie 3 Schaltflächen, eine zum Löschen, eine zum Speichern und eine zum Duplizieren. Wenn Sie auf das letztere klicken, zeigt jeedom das Ereignis an, das sich aus der Duplizierung ergibt, so dass Sie beispielsweise den Namen ändern können.Vergessen Sie also nicht, nach einem Klick auf die Schaltfläche "Duplizieren" zu speichern
-
-## Tagebuch, Bestellungen und Szenario
-
-Eine Agenda hat Kontrollen :
-
--   **In Bearbeitung** : gibt eine Liste von aktuellen Ereignissen an, die durch Kommas getrennt sind, um sie im einfachsten Szenario zu verwenden und um den Operator zu verwenden, der beispielsweise enthält (Übereinstimmungen) oder nicht enthält (keine Übereinstimmungen) *\ [Wohnung \] \ [Test \] \ [In Bearbeitung \]* entspricht "/ Anniv /", ist wahr, wenn in der Liste der aktuellen Ereignisse ein "Anniv"
-- **Fügen Sie ein Datum hinzu** : Ermöglicht es einem Szenario, einem Ereignis ein Datum hinzuzufügen (seien Sie vorsichtig, wenn Sie den Namen des Ereignisses ändern, müssen Sie es auch im Szenario korrigieren). Sie können mehrere Ereignisse getrennt durch setzen ,
-- **Entfernen Sie ein Datum** : Ermöglicht es einem Szenario, ein Datum von einem Ereignis auszuschließen (seien Sie vorsichtig, wenn Sie den Namen des Ereignisses ändern, müssen Sie ihn auch im Szenario korrigieren). Sie können mehrere Ereignisse getrennt durch setzen ,
-
-> **Notiz**
->
-> Es ist möglich, den Befehl "In Bearbeitung" als Auslöser in einem Szenario zu verwenden. Jede Aktualisierung der Informationen löst die Ausführung des Szenarios aus. Es ist jedoch vorzuziehen, diesen Befehl in einem programmierten Szenario mit einem Test des Werts zu verwenden.
+>Es ist möglich, den Befehl "In Bearbeitung" als Szenario-Trigger zu verwenden. Jede Informationsaktualisierung löst die Ausführung des Szenarios aus, daher ist es vorzuziehen, diesen Befehl in einem Szenario zu verwenden, das mit einem Test auf den Wert programmiert ist.

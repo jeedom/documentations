@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 11/08/2021
+
+- Possibilidade de incluir / excluir datas de acordo com todos os eventos de um diário 
+
 # 21/10/2021
 
 - Acréscimo do layout do equipamento em modo mesa

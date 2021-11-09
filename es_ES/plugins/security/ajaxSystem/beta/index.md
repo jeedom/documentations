@@ -80,3 +80,7 @@ Luego debe ir a la aplicación Ajax Systeme (desde su teléfono), ir a "Disposit
 También puede cambiar la frecuencia de la prueba de servicio de 1 minuto a 24 horas (para reducir la carga en su Jeedom).
 
 Normalmente, si todo está bien, debería ver el cambio de "Estación central" a "Conectado"
+
+>**IMPORTANTE**
+>
+> Algunos comandos solo funcionan si el SIA está configurado

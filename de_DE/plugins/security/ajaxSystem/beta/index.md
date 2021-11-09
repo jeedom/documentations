@@ -80,3 +80,7 @@ Sie müssen dann zur Ajax Systeme-Anwendung (von Ihrem Telefon aus) gehen, zu "G
 Sie können auch die Häufigkeit der Servicetests von 1 Minute auf 24 Stunden ändern (um die Belastung Ihres Jeedom zu reduzieren).
 
 Wenn alles in Ordnung ist, sollten Sie normalerweise sehen, dass sich die "Zentrale" in "Verbunden" ändert"
+
+>**WICHTIG**
+>
+> Einige Befehle funktionieren nur, wenn der SIA konfiguriert ist

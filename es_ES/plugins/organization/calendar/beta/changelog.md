@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 08/11/2021
+
+- Posibilidad de incluir / excluir fechas según todos los eventos de un diario 
+
 # 21/10/2021
 
 - Adición del diseño de equipos en modo mesa

@@ -80,3 +80,7 @@ Il faut ensuite aller sur l'application Ajax Systeme (depuis votre téléphone),
 Vous pouvez changer aussi la fréquence de test du service de 1min à 24h (pour reduire la charge sur votre Jeedom).
 
 Normalement si tout est bon vous devriez voir le "Centre de télésurveillance" passer à "Connecté"
+
+>**IMPORTANT**
+>
+> Certaine commande ne marche que si le SIA est configuré

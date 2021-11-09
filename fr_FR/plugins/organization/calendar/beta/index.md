@@ -1,99 +1,106 @@
 # Plugin Agenda
 
-Plugin permettant de créer un agenda et de déclencher des actions (commande ou scénario).
+Le plugin **Agenda** permet de gérer des agendas et de déclencher des actions en début et/ou fin d'évènement.
 
-# Configuration du plugin
+# Configuration
 
-La configuration est très simple, après téléchargement du plugin, il vous suffit de l’activer et c’est tout.
+## Configuration du plugin
 
-# Configuration des équipements
+Ce plugin ne nécessite pas de configuration particulière et doit simplement être activé après l'installation.
 
-La configuration des équipements Agenda est accessible à partir du menu Plugins puis Organisation.
+## Configuration des équipements
 
-Une fois dessus vous retrouvez alors la liste de vos Agenda.
+Les équipements sont accessibles à partir du menu **Plugins → Organisation → Agenda**.
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Sur cette page vous retrouvez la liste de vos Agendas. Cliquez sur un agenda pour accéder à la configuration de l'équipement correspondant :
 
--   **Nom de l’équipement** : nom de votre agenda.
+-   **Nom de l'agenda** : nom de votre agenda.
 -   **Objet parent** : indique l’objet parent auquel appartient l’équipement.
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à plusieurs catégories).
--   **Activer** : permet de rendre votre équipement actif.
--   **Visible** : le rend visible sur le dashboard.
--   **Widget, nombre de jours** : définit le nombre de jours d’événements à afficher sur le widget.
--   **Nombre d’événements maximum** : défini le nombre maximum d’événements à afficher sur le dashboard.
--   **Ne pas afficher le statut et les commandes d’activation/désactivation** : permet de masquer le statut de l’agenda ainsi que les commandes d’activation ou non de celui-ci.
--   **Liste des événements de l’agenda** : affichage en dessous de la liste de tous les événements de l’agenda (un clic dessus permet d’éditer l’événement directement).
--   **Ajouter événement** : permet d’ajouter un événement à l’agenda.
--   **Agenda** : Affichage d’une vue type agenda avec tous les événements vous pouvez vous déplacer dedans, choisir de l’afficher par semaine ou jour, déplacer des événements (glisser/déposer) et un clic sur un événement vous ouvrira sa fenêtre d’édition.
+-   **Catégorie** : les catégories de l’équipement *(peut appartenir à plusieurs catégories)*.
+-   **Activer** : permet de rendre l'équipement actif.
+-   **Visible** : permet de rendre l'équipement visible sur le dashboard.
 
-# Edition d’un événement
+-   **Widget - Nombre de jours** : défini le nombre de jours maximum à afficher sur le widget.
+-   **Widget - Nombre d’évènements** : défini le nombre d’évènements maximum à afficher sur le widget.
 
-Partie la plus importante du plugin, c’est ici que vous allez pouvoir configurer votre événement.
+-   **Liste des évènements de l’agenda** : affiche la liste de tous les évènements de l’agenda *(un clic sur le nom permet d’éditer l’évènement)*.
 
-## Evènement
+L'onglet **Agenda** permet d'afficher une vue type agenda incluant tous les évènements. Vous pouvez vous déplacer dans l'agenda, choisir de l’afficher par jour, semaine ou mois et même déplacer des évènements par glisser/déposer. Un clic sur un évènement ouvre la fenêtre d’édition de l'évènement concerné.
 
-Ici vous retrouvez :
+# Evènements
 
--   **Nom de l’événement** : Nom de votre événement.
--   **Icône** : permet d’ajouter une icône devant le nom de votre équipement (pour ce faire il faut cliquer sur "Choisir une icône").
--   **Couleur** : permet de choisir la couleur de votre événement (une coche vous permet aussi de le rendre transparent).
--   **Couleur du texte** : permet de choisir la couleur du texte de votre événement.
--   **Ne pas afficher dans le dashboard** : permet de ne pas afficher cet événement sur le widget.
+## Création d'un évènement
 
-## Action de début
+Pour créer un nouvel évènement, cliquez sur le bouton **Ajouter évènement** depuis la page de configuration de l'agenda auquel l'évènement doit être rattaché ou sur le bouton **Dupliquer** depuis la fenêtre de configuration d'un évènement appartenant au même agenda.
 
-Permet de choisir la ou les actions à faire lors du lancement de l’événement.
+## Configuration des évènements
 
-Pour ajouter une action il suffit de cliquer sur le bouton + au bout de la ligne puis vous allez avoir un bouton pour chercher une commande une fois celle-ci trouvée vous aurez le choix des options si elle en a. Vous pouvez ajouter autant d’action que vous le voulez.
+La fenêtre de création/configuration des évènements permet de définir les paramètres, les actions et la récurrence propres à chaque évènement. Sur le premier onglet, vous retrouvez :
 
-> **Tip**
+-   **Nom de l’événement** : nom de votre événement.
+-   **Masquer sur le widget** : permet de ne pas afficher cet évènement sur le widget.
+-   **Icône** : permet d’ajouter une icône devant le nom de l'évènement *(cliquer sur le bouton "Choisir une icône")*.
+-   **Couleur de fond** : permet de choisir la couleur de fond de l'événement *(cocher la case pour un fond transparent)*.
+-   **Couleur du texte** : permet de choisir la couleur du texte l'événement.
+
+En haut à droite de la fenêtre d'édition des évènement se trouve 3 boutons:
+- **Dupliquer** : permet de dupliquer l'évènement pour en créer un nouveau *(pensez à sauvegarder le nouvel évènement ainsi généré)*.
+- **Enregistrer** : permet de sauvegarder l'évènement.
+- **Supprimer** : permet de supprimer l'évènement tout entier ou simplement une occurence.
+
+## Actions de début/fin
+
+Dans cet onglet, vous allez pouvoir définir les actions à effectuer au début et/ou à la fin de l’évènement. Pour ajouter une action, il suffit de cliquer sur le bouton **+ Action de début/fin**, vous pouvez ajouter autant d'actions que vous le souhaitez.
+
+![Ajouter des actions](../images/calendar_addActions.png)
+
+Les actions peuvent être des commandes Jeedom standards ou bien [des commandes spécifiques de scénario](https://doc.jeedom.com/fr_FR/core/4.1/scenario#Les%20commandes%20sp%C3%A9cifiques).
+
+>**ASTUCE**
 >
-> Il est possible de modifier l’ordre des actions en maintenant/glissant celle-ci
+>Il est possible de modifier l’ordre des actions en glisser/déposer.
 
+## Programmation des évènements
 
-> **Tip**
+C’est au sein de cet onglet que se trouve toute la gestion temporelle de votre évènement :
+
+-   **Début** : date de début de l'évènement.
+-   **Fin** : date de fin de l'évènement *(l'icône en bout de ligne permet de définir évènement sur toute la journée)*.
+
+-   **Inclure par date** : permet d'ajouter une date d’occurence. Vous pouvez en définir plusieurs en les séparant par des ``, (virgules)`` *(exemple: AAAA-MM-JJ,AAAA-MM-JJ)*. Il est également possible de définir une plage de dates avec ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
+-   **Inclure par agenda** : permet d’inclure des occurences en fonction de celles d'un autre agenda ou d'un autre évènement. Par exemple, vous avez un événement ``A``, répété tous les lundis, que vous incluez dans votre évènement courant : alors votre évènement courant sera également répété tous les lundis.
+-   **Exclure par date** : idem que **Inclure par date** mais pour ignorer des occurences.
+-   **Exclure par agenda** : permet de mettre en exclusion cet événement en fonction d’un autre agenda ou évènement *(pour éviter que 2 événements contradictoires se retrouvent ensembles par exemple)*.
+
+>**INFORMATION**
 >
->Il est possible de faire les memes action que dans les scénarios (voir [ici](https://jeedom.github.io/core/fr_FR/scenario))
+>Les options **Exclure par date** et **Exclure par agenda** ne sont accessibles que si la répétition de l'évènement est activée.
 
-## Action de fin
+## Répétition des évènements
 
-Idem à l’action de début mais cette fois ci c’est la ou les action(s) à effectuer à la fin de l’événement.
+La répétition va vous permettre de paramétrer les occurences de vos évènements exactement comme vous le désirez :
 
-## Programmation
-
-C’est ici que se trouve toute la gestion temporelle de votre événement :
-
--   **Début** : Date de début de l’événement.
--   **Fin** : Date de fin de l’événement.
--   **Toute la journée** : permet de définir l’événement sur toute la journée.
--   **Inclure par un autre agenda** : Permet d’inclure un autre événement dans votre événement courant. Par exemple, si vous avez un événement A répété tous les lundis, et que vous incluez cet événement A dans votre événement courant, alors celui-ci sera automatiquement répété tous les lundis.
--   **Inclure** : permet de forcer une date d’occurence, vous pouvez en mettre plusieurs en les séparant par des , (virgules), vous pouvez aussi définir une plage avec des : (deux points).
--   **Répété** : permet de dire que votre événement est répété (si cette case n’est pas cochée vous n’aurez pas les options qui suivent).
--   **Mode de répétition** : permet de spécifier le mode de répétition, soit simple : tous les jours, tous les X jours…​ ou répétition tous les 1er, 2ème…​ pour répéter un événement tous les 3ème lundis du mois par exemple (les options qui suivent peuvent être différentes en fonction de ce choix).
--   **Répéter tous les** : \[mode répétition simple seulement\] permet de définir la fréquence de répétition de l’événement (ex tous les 3 jours ou tous les 2 mois…​).
--   **Le** : \[mode répétition le premier, le deuxième…​ seulement\] permet de choisir une répetition tous les 2ème lundis du mois par exemple.
--   **Uniquement les** : permet de restreindre la répétition à certains jours de la semaine.
--   **Restriction** : permet de restreindre l’événement seulement les jours fériés ou d’exclure les jours fériés.
+-   **Activer** : cocher la case pour activer la répétition et afficher les options correspondantes.
+-   **Mode de répétition - Répétition simple** :
+    -   **Répéter tous les** : permet de définir la fréquence de répétition de l’évènement *(tous les 3 jours, tous les 2 mois, etc…​)*.
+    -   **Uniquement les** : permet de restreindre la répétition à certains jours de la semaine.
+-   **Mode de répétition - Répétition avancée** :
+    -   **Le** : permet de choisir une répétition tous les 2ème lundis du mois par exemple...
+-   **Restriction** : permet d’exclure les jours fériés ou de restreindre l’événement aux jours fériés / semaines paires / semaines impaires uniquement.
 -   **Jusqu’à** : donne la date de fin d’occurence de l’événement.
--   **Exclure par un autre agenda** : permet de mettre en exclusion cet événement en fonction d’un autre agenda (pour éviter par exemple que 2 événements contradictoires se retrouvent ensemble).
--   **Exclure** : idem que "Inclure" mais cette fois pour exclure des dates.
 
-> **Note**
+>**INFORMATION**
 >
-> Les jours feriés sont ceux Francais et uniquement les Francais cela ne marche donc pas pour les autres pays
+>Les jours fériés concernent uniquement la France.
 
-> **Note**
+# Agenda, commandes et scénario
+
+Un agenda possède plusieurs commandes :
+
+-   **En cours** : donne la liste des évènements en cours séparés par des virgules. Pour l’utiliser dans un scénario, le plus simple est d’utiliser l’opérateur *"contient"* (``matches``) ou *"ne contient pas"* (``not matches``) *(exemple : ``[Appartement][test][En cours] matches "/Anniv/"`` sera vrai si dans la liste des évènements en cours il y a "Anniv")*.
+- **Ajouter une date** : permet, depuis un scénario, d'ajouter une date à un évènement. Vous pouvez ajouter plusieurs dates en les séparant par des virgules *(attention si vous changez le nom de l'évènement il faudra le modifier dans le scénario)*.
+- **Retirer une date** : permet, depuis un scénario, de retirer une date à un évènement. Vous pouvez retirer plusieurs dates en les séparant par des virgules *(attention si vous changez le nom de l'évènement il faudra le modifier dans le scénario)*.
+
+>**INFORMATION**
 >
-> En haut à droite vous avez 3 boutons, un pour supprimer, un pour sauvegarder et un pour dupliquer. Lors du clic sur ce dernier jeedom vous affiche l’evenement resultant de la duplication pour que vous puissiez changer le nom par exemple.Il ne faut donc pas oublier de sauvegarder suite à un clic sur le bouton dupliquer
-
-## Agenda, commandes et scénario
-
-Un agenda possède les commandes :
-
--   **En cours** : donne la liste des événements en cours séparés par des virgules, pour l’utiliser dans un scénario le plus simple et d’utiliser l’opérateur contient ( matches ) ou ne contient pas ( not matches ), par exemple *\[Appartement\]\[test\]\[En cours\]* matches "/Anniv/", sera vrai si dans la liste des événements en cours il y a un "Anniv"
-- **Ajouter une date** : permet depuis un scénario d'ajouter une date à un évenement (attention si vous changez le nom de l'évenement il vous faudra le corriger dans le scénario aussi). Vous pouvez mettre plusieurs évenement séparé par des ,
-- **Retirer une date** : permet depuis un scénario d'exclure une date à un évenement (attention si vous changez le nom de l'évenement il vous faudra le corriger dans le scénario aussi). Vous pouvez mettre plusieurs évenement séparé par des ,
-
-> **Note**
->
-> Il est possible d’utiliser la commande "En cours" comme déclencheur dans un scénario, chaque mise à jour de l’information déclenchera l’éxecution du scénario. Cependant, Il estréférable d’utiliser cette commande dans un scénario programmé avec un test sur la valeur.
+>Il est possible d’utiliser la commande "En cours" comme déclencheur de scénario. Chaque mise à jour de l’information déclenchera l’exécution du scénario, il est donc préférable d’utiliser cette commande dans un scénario programmé avec un test sur la valeur.

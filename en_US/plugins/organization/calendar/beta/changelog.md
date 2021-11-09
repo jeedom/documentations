@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 08/11/2021
+
+- Possibility to include / exclude dates according to all the events of a diary 
+
 # 10/21/2021
 
 - Addition of the layout of equipment in table mode

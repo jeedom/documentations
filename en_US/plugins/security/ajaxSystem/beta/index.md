@@ -80,3 +80,7 @@ You must then go to the Ajax Systeme application (from your phone), go to "Devic
 You can also change the service test frequency from 1min to 24h (to reduce the load on your Jeedom).
 
 Normally if all is well you should see the "Central Station" change to "Connected"
+
+>**IMPORTANT**
+>
+> Some command only works if the SIA is configured

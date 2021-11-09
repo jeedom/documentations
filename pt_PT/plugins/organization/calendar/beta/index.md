@@ -1,99 +1,106 @@
 # Plug-in do calendário
 
-Plugin que permite criar uma agenda e acionar ações (comando ou cenário).
+O plugin **Agenda** permite que você gerencie calendários e acione ações no início e / ou no final de um evento.
 
-# Configuração do plugin
+# Configuration
 
-A configuração é muito simples, depois de baixar o plugin, você só precisa ativá-lo e pronto.
+## Configuração do plugin
 
-# Configuração do equipamento
+Este plugin não requer nenhuma configuração especial e deve simplesmente ser ativado após a instalação.
 
-A configuração do equipamento da Agenda pode ser acessada no menu Plugins e depois em Organization.
+## Configuração do equipamento
 
-Uma vez, você encontrará a lista da sua Agenda.
+O equipamento é acessível a partir do menu **Plugins → Organização → Agenda**.
 
-Aqui você encontra toda a configuração do seu equipamento :
+Nesta página você encontrará a lista de suas agendas. Clique em uma agenda para acessar a configuração do equipamento correspondente :
 
--   **Nome de equipamentos** : nome do seu calendário.
+-   **Nome da agenda** : nome do seu calendário.
 -   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence.
--   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias).
--   **Ativar** : torna seu equipamento ativo.
--   **Visivél** : torna visível no painel.
--   **Widget, número de dias** : define o número de dias do evento a serem exibidos no widget.
--   **Número máximo de eventos** : define o número máximo de eventos a serem exibidos no painel.
--   **Não exibir comandos de status e ativação / desativação** : permite ocultar o status do calendário, bem como os comandos para ativá-lo ou não.
--   **Lista de eventos do calendário** : abaixo da lista de todos os eventos do calendário (clicar nele permite editar o evento diretamente).
--   **Adicionar evento** : adicionar um evento ao calendário.
--   **Agenda** : Exibição de uma visualização do tipo agenda com todos os eventos que você pode mover, escolha exibi-la por semana ou dia, mova eventos (arraste e solte) e um clique em um evento abrirá sua janela de edição.
+-   **Categoria** : categorias de equipamentos *(pode pertencer a várias categorias)*.
+-   **Ativar** : permite tornar o equipamento ativo.
+-   **Visivél** : permite tornar o equipamento visível no painel.
 
-# Editando um evento
+-   **Widget - Número de dias** : definir o número máximo de dias para exibir no widget.
+-   **Widget - Número de eventos** : definir o número máximo de eventos a serem exibidos no widget.
 
-A parte mais importante do plug-in, é aqui que você poderá configurar seu evento.
+-   **Lista de eventos do calendário** : exibe a lista de todos os eventos da agenda *(um clique no nome permite que você edite o evento)*.
 
-## Evento
+A guia **Agenda** permite que você exiba uma visão do tipo de agenda incluindo todos os eventos. Você pode mover o calendário, escolher exibi-lo por dia, semana ou mês e até mover eventos arrastando e soltando. Clicar em um evento abre a janela de edição para o evento em questão.
 
-Aqui você encontra :
+# Eventos
+
+## Criação de um evento
+
+Para criar um novo evento, clique no botão **Adicionar evento** na página de configuração da agenda à qual o evento deve ser anexado ou no botão **Duplicado** da janela de configuração de um evento pertencente à mesma agenda.
+
+## Configuração do evento
+
+A janela de criação / configuração de eventos permite que você defina os parâmetros, ações e recorrência específicos para cada evento. Na primeira guia, você encontra :
 
 -   **Nome do evento** : Nome do seu evento.
--   **ícone** : permite adicionar um ícone na frente do nome do seu equipamento (para fazer isso, você deve clicar em "Escolha um ícone").
--   **Cor** : permite que você escolha a cor do seu evento (uma marca de seleção também permite torná-lo transparente).
--   **Cor do texto** : permite que você escolha a cor do texto do seu evento.
--   **Não aparecer no painel** : permite não exibir este evento no widget.
+-   **Esconder no Widget** : permite não exibir este evento no widget.
+-   **ícone** : permite que você adicione um ícone na frente do nome do evento *(clique no botão "Escolha um ícone")*.
+-   **Cor de fundo** : permite que você escolha a cor de fundo do evento *(marque a caixa para um fundo transparente)*.
+-   **Cor do texto** : permite-lhe escolher a cor do texto do evento.
 
-## Iniciar ação
+No canto superior direito da janela de edição de eventos existem 3 botões:
+- **Duplicado** : permite que você duplique o evento para criar um novo *(lembre-se de salvar o novo evento assim gerado)*.
+- **Salve ** : permite que você salve o evento.
+- **Deletar** : permite que você apague todo o evento ou apenas uma ocorrência.
 
-Permite que você escolha as ações a serem executadas ao iniciar o evento.
+## Iniciar / terminar ações
 
-Para adicionar uma ação, basta clicar no botão + no final da linha, e você terá um botão para procurar um pedido, uma vez encontrado, você terá a opção de opções, se houver algum. Você pode adicionar quantas ações quiser.
+Nesta aba, você poderá definir as ações a serem realizadas no início e / ou no final do evento. Para adicionar uma ação, basta clicar no botão **+ Iniciar / terminar ação**, você pode adicionar quantas ações quiser.
 
-> **Dica**
+![Ajouter des actions](../images/calendar_addActions.png)
+
+As ações podem ser comandos Jeedom padrão ou [comandos específicos do cenário](https://doc.jeedom.com/pt_PT/core/4.1/scenario#Les%20commandes%20sp%C3%A9cifiques).
+
+>**TRUQUE**
 >
-> É possível modificar a ordem das ações mantendo / arrastando-o
+>É possível alterar a ordem das ações arrastando e soltando.
 
+## Programação de eventos
 
-> **Dica**
->
->É possível executar as mesmas ações que nos cenários (consulte [aqui](https://jeedom.github.io/core/pt_PT/scenario))
-
-## Ação final
-
-Igual à ação inicial, mas desta vez é a (s) ação (ões) a executar no final do evento.
-
-## Programmation
-
-É aqui que todo o gerenciamento de tempo do seu evento está localizado :
+É nesta aba que você encontra toda a gestão de tempo do seu evento :
 
 -   **Começo** : Data de início do evento.
--   **Final** : Data de término do evento.
--   **O dia inteiro** : permite definir o evento durante todo o dia.
--   **Incluir por outro calendário** : Permite incluir outro evento no seu evento atual. Por exemplo, se você tiver um evento A repetido toda segunda-feira e incluir esse evento A no evento atual, esse evento será repetido automaticamente toda segunda-feira.
--   **Incluir** : permite forçar uma data de ocorrência, você pode colocar vários separando-os com, (vírgulas), também pode definir um intervalo com : (dois pontos).
--   **Repetida** : permite que você diga que seu evento é repetido (se essa caixa não estiver marcada, você não terá as seguintes opções).
--   **Modo de repetição** : permite especificar o modo de repetição, simples : todos os dias, todos os X dias ... ou repita a cada 1º, 2º ... para repetir um evento a cada 3ª segunda-feira do mês, por exemplo (as seguintes opções podem ser diferentes dependendo dessa opção).
--   **Repita cada** : \ [apenas modo de repetição única \] permite definir com que frequência o evento será repetido (por exemplo, a cada 3 dias ou a cada 2 meses).
--   **O** : \ [modo de repetição o primeiro, o segundo ... somente \] permite que você escolha uma repetição a cada 2ª segunda-feira do mês, por exemplo.
--   **Somente o** : permite restringir a repetição a determinados dias da semana.
--   **Restrição** : permite restringir o evento apenas em feriados ou excluir feriados.
+-   **Final** : Data de término do evento *(o ícone no final da linha permite definir o evento para todo o dia)*.
+
+-   **Incluir por data** : permite que você adicione uma data de ocorrência. Você pode definir vários separando-os por ``, (virgules)`` *(exemple: AAAA-MM-DD, AAAA-MM-DD)*. Também é possível definir um intervalo de datas com ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
+-   **Incluir por calendário** : permite incluir ocorrências de acordo com as de outra agenda ou de outro evento. Por exemplo, você tem um evento ``A``, repetido toda segunda-feira, o que você inclui em seu evento atual : então o seu evento atual também será repetido todas as segundas-feiras.
+-   **Excluir por data** : igual a **Incluir por data** mas para ignorar as ocorrências.
+-   **Excluir por calendário** : permite que você exclua este evento de acordo com outra agenda ou evento *(para evitar que 2 eventos contraditórios sejam encontrados juntos, por exemplo)*.
+
+>**EM FORMAÇÃO**
+>
+>As opções **Excluir por data** e **Excluir por calendário** só estão acessíveis se a repetição do evento estiver ativada.
+
+## Repetição de eventos
+
+A repetição irá permitir-lhe configurar as ocorrências dos seus eventos exactamente como deseja :
+
+-   **Ativar** : marque a caixa para ativar a repetição e exibir as opções correspondentes.
+-   **Modo de Repetição - Repetição Única** :
+    -   **Repita cada** : permite que você defina a frequência de repetição do evento *(a cada 3 dias, a cada 2 meses, etc)*.
+    -   **Somente o** : permite restringir a repetição a determinados dias da semana.
+-   **Modo de Repetição - Repetição Avançada** :
+    -   **O** : permite que você escolha uma repetição toda segunda segunda-feira do mês, por exemplo...
+-   **Restrição** : permite excluir feriados ou restringir o evento apenas a feriados / semanas pares / semanas ímpares.
 -   **Até** : fornece a data final da ocorrência do evento.
--   **Excluir por outro calendário** : permite excluir este evento de acordo com outra agenda (por exemplo, para evitar que dois eventos contraditórios sejam encontrados juntos).
--   **Excluir** : igual a "Incluir", mas desta vez para excluir datas.
 
-> **NOTA**
+>**EM FORMAÇÃO**
 >
-> Os feriados são franceses e somente o francês não funciona em outros países
+>Feriados públicos só dizem respeito à França.
 
-> **NOTA**
+# Diário, pedidos e cenário
+
+Um diário tem vários comandos :
+
+-   **Contínuo** : dá a lista de eventos atuais separados por vírgulas. Para usá-lo em um cenário, a maneira mais fácil é usar o operador *"contient"* (``matches``) Onde *"não contém"* (``not matches``) *(exemplo : ``[Appartement][test][Contínuo] matches "/Anniv/"`` será verdadeiro se na lista de eventos atuais houver "Aniv")*.
+- **Adicionar uma data** : permite, a partir de um cenário, adicionar uma data a um evento. Você pode adicionar várias datas, separando-as com vírgulas *(tenha cuidado se você mudar o nome do evento, ele terá que ser mudado no cenário)*.
+- **Remover uma data** : permite, a partir de um cenário, remover uma data de um evento. Você pode remover várias datas, separando-as com vírgulas *(tenha cuidado se você mudar o nome do evento, ele terá que ser mudado no cenário)*.
+
+>**EM FORMAÇÃO**
 >
-> No canto superior direito, você tem 3 botões, um para excluir, um para salvar e outro para duplicar. Ao clicar no último, o jeedom exibe o evento resultante da duplicação, para que você possa alterar o nome, por exemplo.Portanto, não se esqueça de salvar seguindo um clique no botão duplicado
-
-## Diário, pedidos e cenário
-
-Uma agenda tem controles :
-
--   **Contínuo** : fornece uma lista dos eventos atuais separados por vírgulas, para usá-lo no cenário mais simples e para usar o operador contém (correspondências) ou não (não corresponde), por exemplo *\ [Apartamento \] \ [teste \] \ [Em andamento \]* corresponde a "/ Anniv /", será verdadeiro se na lista de eventos atuais houver uma "Anniv"
-- **Adicionar uma data** : permite a partir de um cenário adicionar uma data a um evento (tenha cuidado se você alterar o nome do evento, também será necessário corrigi-lo no cenário). Você pode colocar vários eventos separados por ,
-- **Remover uma data** : permite que um cenário exclua uma data de um evento (tenha cuidado se você alterar o nome do evento, também será necessário corrigi-lo no cenário). Você pode colocar vários eventos separados por ,
-
-> **NOTA**
->
-> É possível usar o comando "Em andamento" como um gatilho em um cenário, cada atualização das informações acionará a execução do cenário. No entanto, é preferível usar este comando em um cenário programado com um teste no valor.
+>É possível usar o comando "Em andamento" como um gatilho de cenário. Cada atualização de informação irá disparar a execução do cenário, por isso é preferível usar este comando em um cenário programado com um teste no valor.
