@@ -16,6 +16,7 @@ Un [compte développeur](https://blog.jeedom.com/jeedom-partenaire/) est nécess
 
 ### Évolutions du Core et adaptations des plugins
 
+- [Core v4.3](/fr_FR/dev/core4.3)
 - [Core v4.2](/fr_FR/dev/core4.2)
 - [Core v4.1](/fr_FR/dev/core4.1)
 - [Core v4.0](/fr_FR/dev/core4.0)
