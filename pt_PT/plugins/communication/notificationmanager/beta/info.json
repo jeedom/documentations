@@ -1,0 +1,45 @@
+{
+    "id": "notificationmanager",
+    "name": "Notification Manager",
+    "description": {
+        "fr_FR": "Ce plugin permet de gérer les notifications (reprise en cas d'erreur, génération de texte, etc...).",
+        "en_US": "This plugin is used to manage notifications (recovery in case of error, generation of text, etc.)",
+        "es_ES": "Este plugin se utiliza para gestionar notificaciones (recuperación en caso de error, generación de texto, etc.)",
+        "de_DE": "Dieses Plugin wird zum Verwalten von Benachrichtigungen verwendet (Wiederherstellung im Fehlerfall, Generierung von Text usw.)",
+        "pt_PT": "Este plugin é usado para gerenciar notificações (recuperação em caso de erro, geração de texto, etc.)",
+        "ru_RU": "Ce plugin permet de gérer les notifications (reprise en cas d'erreur, génération de texte, etc...)",
+        "id_ID": "Ce plugin permet de gérer les notifications (reprise en cas d'erreur, génération de texte, etc...)",
+        "it_IT": "Ce plugin permet de gérer les notifications (reprise en cas d'erreur, génération de texte, etc...)",
+        "ja_JP": "Ce plugin permet de gérer les notifications (reprise en cas d'erreur, génération de texte, etc...)",
+        "tr": "Ce plugin permet de gérer les notifications (reprise en cas d'erreur, génération de texte, etc...)"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3.39",
+    "category": "communication",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/notificationmanager\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/notificationmanager\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/notificationmanager\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/notificationmanager\/beta"
+}
