@@ -14,16 +14,19 @@ The equipment is accessible from the menu **Plugins → Organization → Agenda*
 
 On this page you will find the list of your Agendas. Click on an agenda to access the configuration of the corresponding equipment :
 
--   **Agenda name** : name of your calendar.
--   **Parent object** : indicates the parent object to which the equipment belongs.
--   **Category** : equipment categories *(can belong to several categories)*.
--   **Activate** : allows to make the equipment active.
--   **Visible** : allows to make the equipment visible on the dashboard.
+- **Agenda name** : name of your calendar.
+- **Parent object** : indicates the parent object to which the equipment belongs.
+- **Category** : equipment categories *(can belong to several categories)*.
+- **Activate** : allows to make the equipment active.
+- **Visible** : allows to make the equipment visible on the dashboard.
 
--   **Widget - Number of days** : set the maximum number of days to display on the widget.
--   **Widget - Number of events** : set the maximum number of events to display on the widget.
 
--   **List of calendar events** : displays the list of all calendar events *(a click on the name allows you to edit the event)*.
+- **Widget** :
+    - **Number of days** : set the maximum number of days to display on the widget.
+    - **Number of events** : set the maximum number of events to display on the widget.
+
+
+- **List of calendar events** : displays the list of all calendar events *(a click on the name allows you to edit the event)*.
 
 The tab **Agenda** allows you to display an agenda type view including all events. You can move around the calendar, choose to display it by day, week or month and even move events by drag and drop. Clicking on an event opens the editing window for the event concerned.
 
@@ -44,9 +47,10 @@ The event creation / configuration window allows you to define the parameters, a
 -   **Text color** : allows you to choose the color of the event text.
 
 At the top right of the event editing window are 3 buttons:
+
 - **Duplicate** : allows you to duplicate the event to create a new one *(remember to save the new event thus generated)*.
 - **Save** : allows you to save the event.
-- **To delete** : allows you to delete the entire event or just an occurrence.
+- **To delete** : allows you to delete the entire event or only one occurrence.
 
 ## Start / end actions
 
@@ -64,13 +68,13 @@ The actions can be standard Jeedom commands or [scenario specific commands](http
 
 It is in this tab that you can find all the time management of your event :
 
--   **Start** : Event start date.
--   **End** : Event end date *(the icon at the end of the line allows you to define the event for the whole day)*.
-
--   **Include by date** : allows you to add a date of occurrence. You can define several by separating them by ``, (virgules)`` *(exemple: YYYY-MM-DD, YYYY-MM-DD)*. It is also possible to define a date range with ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
--   **Include by calendar** : allows you to include occurrences according to those of another agenda or of another event. For example, you have an event ``A``, repeated every Monday, which you include in your current event : then your current event will also be repeated every Monday.
--   **Exclude by date** : same as **Include by date** but to ignore occurrences.
--   **Exclude by calendar** : allows you to exclude this event according to another agenda or event *(to avoid that 2 contradictory events are found together for example)*.
+- **Dates** :
+    - **Start** : Event start date.
+    - **End** : Event end date *(the icon at the end of the line is used to define the event over the whole day)*.
+- **Include by date** : allows you to add a date of occurrence. You can define several by separating them by ``, (virgules)`` *(exemple: YYYY-MM-DD, YYYY-MM-DD)*. It is also possible to define a date range with ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
+- **Include by calendar** : allows you to include occurrences according to those of another agenda or of another event. For example, you have an event ``A``, repeated every Monday, which you include in your current event : then your current event will also be repeated every Monday.
+- **Exclude by date** : same as **Include by date** but to ignore occurrences.
+- **Exclude by calendar** : allows you to exclude this event according to another agenda or event *(to avoid that 2 contradictory events are found together for example)*.
 
 >**INFORMATION**
 >
@@ -80,24 +84,24 @@ It is in this tab that you can find all the time management of your event :
 
 The repetition will allow you to configure the occurrences of your events exactly as you wish :
 
--   **Activate** : check the box to activate the repetition and display the corresponding options.
--   **Repeat Mode - Single Repeat** :
-    -   **Repeat every** : allows you to define the repetition frequency of the event *(every 3 days, every 2 months, etc)*.
-    -   **Only the** : allows you to restrict repetition to certain days of the week.
--   **Repeat Mode - Advanced Repeat** :
-    -   **The** : allows you to choose a repetition every 2nd Monday of the month for example...
--   **Restriction** : allows to exclude public holidays or to restrict the event to public holidays / even weeks / odd weeks only.
--   **Until** : gives the end date of occurrence of the event.
+- **Activate** : check the box to activate the repetition and display the corresponding options.
+- **Mode - Single repeat** :
+    - **Repeat every** : allows you to define the repetition frequency of the event *(every 3 days, every 2 months, etc)*.
+    - **Only the** : allows you to restrict repetition to certain days of the week.
+- **Mode - Advanced repeat** :
+    - **Frequency** : allows you to choose a repetition every 2nd Monday of the month for example...
+- **Restriction** : allows to exclude public holidays or to restrict the event to public holidays / even weeks / odd weeks only.
+- **Until** : last date of occurrence of the event.
 
 >**INFORMATION**
 >
->Public holidays only concern France.
+>Public holidays only concern metropolitan France.
 
 # Diary, orders and scenario
 
 A diary has several commands :
 
--   **Running** : gives the list of current events separated by commas. To use it in a scenario, the easiest way is to use the operator *"contient"* (``matches``) Where *"does not contain"* (``not matches``) *(example : ``[Appartement][test][Running] matches "/Anniv/"`` will be true if in the list of current events there is "Anniv")*.
+- **Running** : gives the list of current events separated by commas. To use it in a scenario, the easiest way is to use the operator *"contient"* (``matches``) Where *"does not contain"* (``not matches``) *(example : ``[Appartement][test][Running] matches "/Anniv/"`` will be true if in the list of current events there is "Anniv")*.
 - **Add a date** : allows, from a scenario, to add a date to an event. You can add multiple dates by separating them with commas *(be careful if you change the name of the event, it will have to be changed in the scenario)*.
 - **Remove a date** : allows, from a scenario, to remove a date from an event. You can remove multiple dates by separating them with commas *(be careful if you change the name of the event, it will have to be changed in the scenario)*.
 

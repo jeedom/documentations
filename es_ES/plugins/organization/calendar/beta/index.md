@@ -14,16 +14,19 @@ El equipo es accesible desde el menú **Complementos → Organización → Agend
 
 En esta página encontrará la lista de sus agendas. Haga clic en una agenda para acceder a la configuración del equipo correspondiente :
 
--   **Nombre de la agenda** : nombre de tu calendario.
--   **Objeto padre** : indica el objeto padre al que pertenece el equipo.
--   **Categoría** : categorías de equipos *(puede pertenecer a varias categorías)*.
--   **Activar** : permite activar el equipo.
--   **Visible** : permite hacer visible el equipo en el salpicadero.
+- **Nombre de la agenda** : nombre de tu calendario.
+- **Objeto padre** : indica el objeto padre al que pertenece el equipo.
+- **Categoría** : categorías de equipos *(puede pertenecer a varias categorías)*.
+- **Activar** : permite activar el equipo.
+- **Visible** : permite hacer visible el equipo en el salpicadero.
 
--   **Widget: número de días** : establecer el número máximo de días que se mostrarán en el widget.
--   **Widget: número de eventos** : establecer el número máximo de eventos que se mostrarán en el widget.
 
--   **Lista de eventos del calendario** : muestra la lista de todos los eventos del calendario *(un clic en el nombre le permite editar el evento)*.
+- **Widget** :
+    - **Número de días** : establecer el número máximo de días que se mostrarán en el widget.
+    - **Numero de eventos** : establecer el número máximo de eventos que se mostrarán en el widget.
+
+
+- **Lista de eventos del calendario** : muestra la lista de todos los eventos del calendario *(un clic en el nombre le permite editar el evento)*.
 
 La tabla **Calendario** le permite mostrar una vista de tipo de agenda que incluye todos los eventos. Puede moverse por el calendario, elegir mostrarlo por día, semana o mes e incluso mover eventos arrastrando y soltando. Al hacer clic en un evento, se abre la ventana de edición del evento en cuestión.
 
@@ -44,6 +47,7 @@ La ventana de creación / configuración de eventos le permite definir los pará
 -   **Color del texto** : te permite elegir el color del texto del evento.
 
 En la parte superior derecha de la ventana de edición de eventos hay 3 botones:
+
 - **Duplicar** : te permite duplicar el evento para crear uno nuevo *(recuerde guardar el nuevo evento así generado)*.
 - **Ahorrar** : te permite guardar el evento.
 - **Borrar** : le permite eliminar todo el evento o solo una ocurrencia.
@@ -64,13 +68,13 @@ Las acciones pueden ser comandos estándar de Jeedom o [comandos específicos de
 
 Es en esta pestaña donde puedes encontrar toda la gestión del tiempo de tu evento :
 
--   **Inicio** : Fecha de inicio del evento.
--   **Final** : Fecha de finalización del evento *(el icono al final de la línea le permite definir el evento para todo el día)*.
-
--   **Incluir por fecha** : le permite agregar una fecha de ocurrencia. Puede definir varios separándolos por ``, (virgules)`` *(exemple: AAAA-MM-DD, AAAA-MM-DD)*. También es posible definir un rango de fechas con ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
--   **Incluir por calendario** : permite incluir ocurrencias de acuerdo con las de otra agenda o de otro evento. Por ejemplo, tienes un evento ``A``, repetido todos los lunes, que incluye en su evento actual : entonces su evento actual también se repetirá todos los lunes.
--   **Excluir por fecha** : igual que **Incluir por fecha** pero para ignorar ocurrencias.
--   **Excluir por calendario** : le permite excluir este evento de acuerdo con otra agenda o evento *(para evitar que 2 eventos contradictorios se encuentren juntos por ejemplo)*.
+- **Fechas** :
+    - **Inicio** : Fecha de inicio del evento.
+    - **Final** : Fecha de finalización del evento *(el icono al final de la línea se utiliza para definir el evento durante todo el día)*.
+- **Incluir por fecha** : le permite agregar una fecha de ocurrencia. Puede definir varios separándolos por ``, (virgules)`` *(exemple: AAAA-MM-DD, AAAA-MM-DD)*. También es posible definir un rango de fechas con ``: (deux points)`` *(exemple: AAAA-MM-JJ:AAAA-MM-JJ)*.
+- **Incluir por calendario** : permite incluir ocurrencias de acuerdo con las de otra agenda o de otro evento. Por ejemplo, tienes un evento ``A``, repetido todos los lunes, que incluye en su evento actual : entonces su evento actual también se repetirá todos los lunes.
+- **Excluir por fecha** : igual que **Incluir por fecha** pero para ignorar ocurrencias.
+- **Excluir por calendario** : le permite excluir este evento de acuerdo con otra agenda o evento *(para evitar que 2 eventos contradictorios se encuentren juntos por ejemplo)*.
 
 >**INFORMACIÓN**
 >
@@ -80,24 +84,24 @@ Es en esta pestaña donde puedes encontrar toda la gestión del tiempo de tu eve
 
 La repetición le permitirá configurar las ocurrencias de sus eventos exactamente como lo desee :
 
--   **Activar** : marque la casilla para activar la repetición y mostrar las opciones correspondientes.
--   **Modo de repetición: repetición única** :
-    -   **Repite cada** : le permite definir la frecuencia de repetición del evento *(cada 3 días, cada 2 meses, etc)*.
-    -   **Solo el** : le permite restringir la repetición a ciertos días de la semana.
--   **Modo de repetición: repetición avanzada** :
-    -   **El** : le permite elegir una repetición cada segundo lunes del mes, por ejemplo...
--   **Restricción** : permite excluir días festivos o restringir el evento a días festivos / semanas pares / semanas impares solamente.
--   **Hasta** : da la fecha final de ocurrencia del evento.
+- **Activar** : marque la casilla para activar la repetición y mostrar las opciones correspondientes.
+- **Modo - Repetición única** :
+    - **Repite cada** : le permite definir la frecuencia de repetición del evento *(cada 3 días, cada 2 meses, etc)*.
+    - **Solo el** : le permite restringir la repetición a ciertos días de la semana.
+- **Modo: repetición avanzada** :
+    - **Frecuencia** : le permite elegir una repetición cada segundo lunes del mes, por ejemplo...
+- **Restricción** : permite excluir días festivos o restringir el evento a días festivos / semanas pares / semanas impares solamente.
+- **Hasta** : última fecha de ocurrencia del evento.
 
 >**INFORMACIÓN**
 >
->Los días festivos solo conciernen a Francia.
+>Los días festivos solo conciernen a la Francia metropolitana.
 
 # Diario, pedidos y escenario
 
 Un diario tiene varios comandos :
 
--   **En curso** : da la lista de eventos actuales separados por comas. Para usarlo en un escenario, la forma más fácil es usar el operador *"contient"* (``matches``) Dónde *"no contiene"* (``not matches``) *(ejemplo : ``[Appartement][test][En curso] matches "/Anniv/"`` será verdadero si en la lista de eventos actuales hay "Anniv")*.
+- **En curso** : da la lista de eventos actuales separados por comas. Para usarlo en un escenario, la forma más fácil es usar el operador *"contient"* (``matches``) Dónde *"no contiene"* (``not matches``) *(ejemplo : ``[Appartement][test][En curso] matches "/Anniv/"`` será verdadero si en la lista de eventos actuales hay "Anniv")*.
 - **Agregar una fecha** : permite, desde un escenario, agregar una fecha a un evento. Puede agregar varias fechas separándolas con comas *(tenga cuidado si cambia el nombre del evento, tendrá que cambiarse en el escenario)*.
 - **Eliminar una fecha** : permite, de un escenario, eliminar una fecha de un evento. Puede eliminar varias fechas separándolas con comas *(tenga cuidado si cambia el nombre del evento, tendrá que cambiarse en el escenario)*.
 
