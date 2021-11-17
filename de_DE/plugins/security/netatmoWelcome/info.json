@@ -1,11 +1,45 @@
 {
     "id": "netatmoWelcome",
     "name": "Netatmo Security",
-    "description": "Plugin pour Netatmo Security. Attention pour afficher le flux vidéo il faut le plugin caméra",
+    "description": {
+        "fr_FR": "Plugin pour Netatmo Security. Attention pour afficher le flux vidéo il faut le plugin caméra",
+        "en_US": "Plugin for Netatmo Security. Attention to display the video stream you need the camera plugin",
+        "es_ES": "Complemento para Netatmo Security. Atención para mostrar la transmisión de video, necesita el complemento de la cámara",
+        "de_DE": "Plugin für Netatmo Security. Achtung, um den Videostream anzuzeigen, benötigen Sie das Kamera-Plugin",
+        "pt_PT": "Plugin para Netatmo Security. Atenção para exibir o fluxo de vídeo, você precisa do plug-in da câmera",
+        "ru_RU": "Plugin pour Netatmo Security. Attention pour afficher le flux vidéo il faut le plugin caméra",
+        "id_ID": "Plugin pour Netatmo Security. Attention pour afficher le flux vidéo il faut le plugin caméra",
+        "it_IT": "Plugin pour Netatmo Security. Attention pour afficher le flux vidéo il faut le plugin caméra",
+        "ja_JP": "Plugin pour Netatmo Security. Attention pour afficher le flux vidéo il faut le plugin caméra",
+        "tr": "Plugin pour Netatmo Security. Attention pour afficher le flux vidéo il faut le plugin caméra"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.3",
     "category": "security",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/netatmoWelcome\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/netatmoWelcome\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/netatmoWelcome\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/netatmoWelcome\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/netatmoWelcome\/beta"
 }

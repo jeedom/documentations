@@ -4,6 +4,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Posibilidad de deshabilitar la actualización automática de la ip de la cámara en el complemento de la cámara
+
 # 29/06/2020
 
 - Posibilidad de controlar la iluminación de la cámara Presencia

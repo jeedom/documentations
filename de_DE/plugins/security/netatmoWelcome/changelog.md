@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Möglichkeit, die automatische Aktualisierung der Kamera-IP im Kamera-Plugin zu deaktivieren
+
 # 29.06.2020
 
 - Möglichkeit zur Steuerung der Beleuchtung der Kamera Präsenz

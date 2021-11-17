@@ -4,7 +4,9 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-- POssibilité de désactiver la mise à jour automatique des ip des cameras dans le plugin camera
+# 16/11/2021
+
+- Possibilité de désactiver la mise à jour automatique des ip des cameras dans le plugin camera
 
 # 29/06/2020
 
