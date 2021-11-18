@@ -10,5 +10,10 @@
 
 - Beta version of the plugin
 
+# 11/17/2021
+
+- Modification Min Value Setpoint
+- Add Order Info Air Demand
+
 
 

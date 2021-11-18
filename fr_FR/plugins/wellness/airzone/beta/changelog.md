@@ -10,5 +10,10 @@
 
 - Version beta du plugin
 
+# 17/11/2021
+
+- Modification Valeur Min Consigne
+- Ajout CommandeInfo Air Demand
+
 
 

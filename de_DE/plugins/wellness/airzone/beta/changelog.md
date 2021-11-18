@@ -10,5 +10,10 @@
 
 - Beta-Version des Plugins
 
+# 17.11.2021
+
+- Änderung Min-Wert-Sollwert
+- Bestellinfo hinzufügen Luftbedarf
+
 
 

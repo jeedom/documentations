@@ -10,5 +10,10 @@
 
 - Versão beta do plugin
 
+# 17/11/2021
+
+- Ponto de ajuste do valor mínimo de modificação
+- Adicionar Informações do Pedido Demanda Aérea
+
 
 

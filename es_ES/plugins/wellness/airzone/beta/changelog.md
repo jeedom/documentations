@@ -10,5 +10,10 @@
 
 - Versión beta del complemento
 
+# 17/11/2021
+
+- Punto de ajuste del valor mínimo de modificación
+- Agregar información de pedido Air Demand
+
 
 
