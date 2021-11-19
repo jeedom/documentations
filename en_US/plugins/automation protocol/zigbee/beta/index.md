@@ -8,6 +8,10 @@
 -	**Zigate** : Not tested by the team.
 -	**ZNP (Texas Instruments)** : Not tested by the team.
 
+>**Important**
+>
+> First of all you have to update the firmware of your key (especially for EZSP, popp key in particular) otherwise the daemon cannot work. For the Popp key the update is directly managed from the plugin for the other type of key it is necessary to refer to the manufacturer's documentation.
+
 In addition, the plugin is equipped with many tools allowing :
 
 - taking charge of **several controllers at the same time**,

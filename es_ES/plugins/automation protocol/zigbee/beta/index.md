@@ -8,6 +8,10 @@
 -	**Zigate** : No probado por el equipo.
 -	**ZNP (Texas Instruments)** : No probado por el equipo.
 
+>**Importante**
+>
+> En primer lugar, debe actualizar el firmware de su clave (especialmente para EZSP, clave popp en particular) de lo contrario, el demonio no puede funcionar. Para la clave Popp la actualización se gestiona directamente desde el complemento para el otro tipo de clave es necesario consultar la documentación del fabricante.
+
 Además, el complemento está equipado con muchas herramientas que permiten :
 
 - hacerse cargo de **varios controladores al mismo tiempo**,

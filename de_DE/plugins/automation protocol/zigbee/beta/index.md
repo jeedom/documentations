@@ -8,6 +8,10 @@
 -	**Zigate** : Nicht vom Team getestet.
 -	**ZNP (Texas Instruments))** : Nicht vom Team getestet.
 
+>**Wichtig**
+>
+> Zuerst müssen Sie die Firmware Ihres Schlüssels aktualisieren (insbesondere für EZSP, insbesondere Popp-Schlüssel), sonst kann der Daemon nicht funktionieren. Für den Popp-Schlüssel wird das Update direkt aus dem Plugin verwaltet, für den anderen Schlüsseltyp ist es notwendig, die Herstellerdokumentation zu konsultieren.
+
 Darüber hinaus ist das Plugin mit vielen Tools ausgestattet, die es ermöglichen :
 
 - die Verantwortung übernehmen **mehrere Controller gleichzeitig**,

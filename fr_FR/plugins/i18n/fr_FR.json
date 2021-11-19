@@ -130,6 +130,9 @@
         "Changelog": "Changelog"
     },
     "plugins\/communication\/index.md": {
+        "Plugin permettant de gérer la connexion à un serveur wireguard": "Plugin permettant de gérer la connexion à un serveur wireguard",
+        "Wireguard": "Wireguard",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
         "Wifipower": "Wifipower",
         "Plugin pour la gestion des équipements wifipower": "Plugin pour la gestion des équipements wifipower",
         "Wifip": "Wifip",
@@ -156,7 +159,6 @@
         "Plugin permettant la gestion réseau des équipements": "Plugin permettant la gestion réseau des équipements",
         "Attention pour l'instant il n'est pas possible d'avoir le flux des cameras en mode cloud Jeedom": "Attention pour l'instant il n'est pas possible d'avoir le flux des cameras en mode cloud Jeedom",
         "Netatmo": "Netatmo",
-        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
         "Aucune donnée (domotique ou personnelle) n'est stockée ou conservée sur nos serveurs": "Aucune donnée (domotique ou personnelle) n'est stockée ou conservée sur nos serveurs",
         "App Mobile": "App Mobile",
         "L'application officielle Jeedom permet le pilotage de votre système domotique Jeedom, que ce soit en Wifi local, ou sur le réseau 3G\/4G de votre opérateur": "L'application officielle Jeedom permet le pilotage de votre système domotique Jeedom, que ce soit en Wifi local, ou sur le réseau 3G\/4G de votre opérateur",

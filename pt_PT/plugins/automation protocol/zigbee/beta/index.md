@@ -8,6 +8,10 @@
 -	**Zigate** : Não testado pela equipe.
 -	**ZNP (Texas Instruments)** : Não testado pela equipe.
 
+>**IMPORTANTE**
+>
+> Em primeiro lugar, você deve atualizar o firmware de sua chave (especialmente para EZSP, chave popp em particular), caso contrário, o daemon não funcionará. Para a chave Popp a atualização é gerenciada diretamente do plugin para o outro tipo de chave é necessário consultar a documentação do fabricante.
+
 Além disso, o plugin está equipado com muitas ferramentas que permitem :
 
 - tomando conta de **vários controladores ao mesmo tempo**,
