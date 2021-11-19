@@ -40,5 +40,7 @@
         "rpi",
         "diy",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/simonsvoss\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/simonsvoss\/beta"
 }
