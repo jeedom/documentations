@@ -68,6 +68,8 @@
         "Autre point il faut bien lire la documentation et les modules compatibles": "Autre point il faut bien lire la documentation et les modules compatibles",
         "Deconz": "Deconz",
         "Ce plugin va vous permettre d'intégrer une multitude de modules ZigBee (Ikea, Philips Hue, Xiaomi etc...) sans avoir a passer par leur passerelle avec la clé Conbee\/Conbee II. IMPORTANT": "Ce plugin va vous permettre d'intégrer une multitude de modules ZigBee (Ikea, Philips Hue, Xiaomi etc...) sans avoir a passer par leur passerelle avec la clé Conbee\/Conbee II. IMPORTANT",
+        "Dali": "Dali",
+        "Ce plugin permet la gestion du protocole Dali, compatible uniquement avec la gateway HASSEB DaliMaster v2": "Ce plugin permet la gestion du protocole Dali, compatible uniquement avec la gateway HASSEB DaliMaster v2",
         "Broadlink": "Broadlink",
         "Plugin ajoutant le support de certains produits Broadlink comme (le RM, le A1 etccc": "Plugin ajoutant le support de certains produits Broadlink comme (le RM, le A1 etccc",
         "Aussi compatible avec les boutons ticatag (avec gestion des multiples appuis température et action pour le faire sonner) Compatible Mi flora, Mi scale , awox smartplug, playbulb, miband1 et 1s": "Aussi compatible avec les boutons ticatag (avec gestion des multiples appuis température et action pour le faire sonner) Compatible Mi flora, Mi scale , awox smartplug, playbulb, miband1 et 1s",

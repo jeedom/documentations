@@ -1,0 +1,41 @@
+{
+    "id": "dali",
+    "name": "Dali",
+    "description": {
+        "fr_FR": "Ce plugin permet la gestion du protocole Dali, compatible uniquement avec la gateway HASSEB DaliMaster v2",
+        "en_US": "This plugin allows management of the Dali protocol, compatible only with the HASSEB DaliMaster v2 gateway",
+        "es_ES": "Este complemento permite la gestión del protocolo Dali, compatible solo con la puerta de enlace HASSEB DaliMaster v2",
+        "de_DE": "Dieses Plugin ermöglicht die Verwaltung des Dali-Protokolls, das nur mit dem HASSEB DaliMaster v2-Gateway kompatibel ist",
+        "ru_RU": "Ce plugin permet la gestion du protocole Dali, compatible uniquement avec la gateway HASSEB DaliMaster v2",
+        "id_ID": "Ce plugin permet la gestion du protocole Dali, compatible uniquement avec la gateway HASSEB DaliMaster v2",
+        "it_IT": "Ce plugin permet la gestion du protocole Dali, compatible uniquement avec la gateway HASSEB DaliMaster v2",
+        "ja_JP": "Ce plugin permet la gestion du protocole Dali, compatible uniquement avec la gateway HASSEB DaliMaster v2",
+        "pt_PT": "Este plugin permite o gerenciamento do protocolo Dali, compatível apenas com o gateway HASSEB DaliMaster v2",
+        "tr": "Ce plugin permet la gestion du protocole Dali, compatible uniquement avec la gateway HASSEB DaliMaster v2"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3.39",
+    "category": "automation protocol",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/dali\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/dali\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/dali\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/dali\/beta"
+}
