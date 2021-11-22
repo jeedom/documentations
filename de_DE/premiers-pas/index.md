@@ -74,7 +74,7 @@ Unabhängig davon, welche Methode verwendet wird, gelangen Sie auf die Anmeldese
 Wir werden hier sehen, wie Sie Ihr Jeedom mit Ihrem Marktkonto verknüpfen können.
 
 -   Sobald Sie mit Ihrer Freiheit verbunden sind, müssen Sie zu gehen **Einstellungen → System → Konfiguration**
--   Klicken Sie auf die Registerkarte **Updates**
+-   Klicken Sie auf die Registerkarte **Updates / Markt**
 -   Klicken Sie unten auf die Registerkarte **Markt**
 -   Aktivieren Sie das Kontrollkästchen **Aktivieren**
 -   Remplissez l'adresse : `https://market.jeedom.com`

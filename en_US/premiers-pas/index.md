@@ -74,7 +74,7 @@ Whichever method is used, you will then arrive on the Login page. By default the
 We will see here how to link your Jeedom to your Market account.
 
 -   Once connected to your jeedom, you must go to **Settings → System → Configuration**
--   Click on the tab **Updates**
+-   Click on the tab **Updates / Market**
 -   Below, click on the tab **Market**
 -   Check the box **Activate**
 -   Remplissez l'adresse : `https://market.jeedom.com`
