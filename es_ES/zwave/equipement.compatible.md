@@ -914,4 +914,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-21-11-2021 01:08:15
+2021-11-22 01:08:10
