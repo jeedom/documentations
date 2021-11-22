@@ -18,6 +18,7 @@
     "require": "3.3.39",
     "display": "panel",
     "category": "security",
+    "eventjs": 1,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/gestAccess\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/gestAccess\/",
     "language": [
@@ -40,5 +41,7 @@
         "diy",
         "mobile",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/gestAccess\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/gestAccess\/beta"
 }
