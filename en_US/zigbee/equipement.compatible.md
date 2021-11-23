@@ -210,6 +210,12 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/Samotech.SM309.png" width="60" />|Samotech|SAMOTEK SM309||||
 
+# Sinope Technologies
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+||Ouellet|Ouellet OTH3600-GA-ZB|Thermostatic head|||
+
 # Terncy
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -421,6 +427,12 @@
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_remote_control.png" width="60" />|Ikea|5 button remote control|Remote control||[Documentation](https://www.ikea.com/fr/fr/manuals/tradfri-remote-control__AA-2144014-1_pub.pdf)<br/>|
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_signal_repeater.png" width="60" />|Ikea|Ikea repeateur||||
 |<img src="../../en_US/zigbee/images/KE.TRADFRI_openclose_remote.png" width="60" />|Ikea|2 button blind remote control||||
+
+# Iluminize
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/iluminize.511.201.png" width="60" />|Iluminize|Zigbee 3.0 high voltage, Dimmer actuator||||
 
 # Innr
 
@@ -705,6 +717,7 @@
 |<img src="../../en_US/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Smart double switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_cphmq0q7.TS011F.png" width="60" />|Tuya|Connected socket|Socket, Meter, Power, Repeater|||
 |<img src="../../en_US/zigbee/images/TZ3000_cymsnfvf.TS011F.png" width="60" />|Tuya|Connected socket + USB|Prise||[Buy](https://www.domadoo.fr/fr/prises-connectees/5840-moes-prise-connectee-zigbee-30-2-ports-usb-pilotables-version-schuko.html)|
+|<img src="../../en_US/zigbee/images/TZ3000_dbpmpco1.TS130F.png" width="60" />|Tuya|Connected switch for connected curtain||||
 |<img src="../../en_US/zigbee/images/TZ3000_dfgbtub0.TS0042.png" width="60" />|Tuya|Connected switch 2 buttons|||[Buy](https://www.domadoo.fr/fr/domotique/5786-moes-interrupteur-intelligent-sans-fil-zigbee-2-boutons.html)|
 |<img src="../../en_US/zigbee/images/TZ3000_ebar6ljy.TS0203.png" width="60" />|Tuya|Opening sensor|Ouverture|||
 |<img src="../../en_US/zigbee/images/TZ3000_excgg5kb.TS0004.png" width="60" />|Tuya|ON / OFF switch 2300W 1 channel||||
@@ -832,4 +845,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-11-22 01:32:07
+2021-11-23 01:32:16

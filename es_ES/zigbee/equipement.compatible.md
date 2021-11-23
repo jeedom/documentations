@@ -210,6 +210,12 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/Samotech.SM309.png" width="60" />|Samotech|SAMOTEK SM309||||
 
+# Tecnologías Sinope
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+||Ouellet|Ouellet OTH3600-GA-ZB|Cabezal termostático|||
+
 # Terncy
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -421,6 +427,12 @@
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_remote_control.png" width="60" />|Ikea|Control remoto de 5 botones|Control remoto||[Documentación](https://www.ikea.com/fr/fr/manuals/tradfri-remote-control__AA-2144014-1_pub.pdf)<br/>|
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRI_signal_repeater.png" width="60" />|Ikea|Repetidor de Ikea||||
 |<img src="../../es_ES/zigbee/images/KE.TRADFRI_openclose_remote.png" width="60" />|Ikea|Mando a distancia para persianas de 2 botones||||
+
+# Iluminize
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/iluminize.511.201.png" width="60" />|Iluminize|Zigbee 3.0 de alto voltaje, actuador atenuador||||
 
 # Innr
 
@@ -705,6 +717,7 @@
 |<img src="../../es_ES/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Interruptor doble inteligente||||
 |<img src="../../es_ES/zigbee/images/TZ3000_cphmq0q7.TS011F.png" width="60" />|Tuya|Toma conectada|Zócalo, medidor, potencia, repetidor|||
 |<img src="../../es_ES/zigbee/images/TZ3000_cymsnfvf.TS011F.png" width="60" />|Tuya|Toma conectada + USB|Prise||[Comprar](https://www.domadoo.fr/fr/prises-connectees/5840-moes-prise-connectee-zigbee-30-2-ports-usb-pilotables-version-schuko.html)|
+|<img src="../../es_ES/zigbee/images/TZ3000_dbpmpco1.TS130F.png" width="60" />|Tuya|Interruptor conectado para cortina conectada||||
 |<img src="../../es_ES/zigbee/images/TZ3000_dfgbtub0.TS0042.png" width="60" />|Tuya|Interruptor conectado 2 botones|||[Comprar](https://www.domadoo.fr/fr/domotique/5786-moes-interrupteur-intelligent-sans-fil-zigbee-2-boutons.html)|
 |<img src="../../es_ES/zigbee/images/TZ3000_ebar6ljy.TS0203.png" width="60" />|Tuya|Sensor de apertura|Ouverture|||
 |<img src="../../es_ES/zigbee/images/TZ3000_excgg5kb.TS0004.png" width="60" />|Tuya|Interruptor ON / OFF 2300W 1 canal||||
@@ -832,4 +845,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-11-22 01:32:07
+2021-11-23 01:32:16

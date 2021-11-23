@@ -210,6 +210,12 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/Samotech.SM309.png" width="60" />|Samotech|SAMOTEK SM309||||
 
+# Sinope-Technologien
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+||Ouellet|Ouellet OTH3600-GA-ZB|Thermostatkopf|||
+
 # Terncy
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -421,6 +427,12 @@
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_remote_control.png" width="60" />|Ikea|5-Tasten-Fernbedienung|Fernbedienung||[Dokumentation](https://www.ikea.com/fr/fr/manuals/tradfri-remote-control__AA-2144014-1_pub.pdf)<br/>|
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_signal_repeater.png" width="60" />|Ikea|Ikea repeateur||||
 |<img src="../../de_DE/zigbee/images/KE.TRADFRI_openclose_remote.png" width="60" />|Ikea|2-Tasten-Blindfernbedienung||||
+
+# Iluminize
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/iluminize.511.201.png" width="60" />|Iluminize|ZigBee 3.0 Hochspannung, Dimmaktor||||
 
 # Innr
 
@@ -705,6 +717,7 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Intelligenter Doppelschalter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_cphmq0q7.TS011F.png" width="60" />|Tuya|Angeschlossene Steckdose|Buchse, Messgerät, Leistung, Repeater|||
 |<img src="../../de_DE/zigbee/images/TZ3000_cymsnfvf.TS011F.png" width="60" />|Tuya|Angeschlossene Buchse + USB|Prise||[Kaufen](https://www.domadoo.fr/fr/prises-connectees/5840-moes-prise-connectee-zigbee-30-2-ports-usb-pilotables-version-schuko.html)|
+|<img src="../../de_DE/zigbee/images/TZ3000_dbpmpco1.TS130F.png" width="60" />|Tuya|Angeschlossener Schalter für angeschlossenen Vorhang||||
 |<img src="../../de_DE/zigbee/images/TZ3000_dfgbtub0.TS0042.png" width="60" />|Tuya|Verbundene Schalter 2 Tasten|||[Kaufen](https://www.domadoo.fr/fr/domotique/5786-moes-interrupteur-intelligent-sans-fil-zigbee-2-boutons.html)|
 |<img src="../../de_DE/zigbee/images/TZ3000_ebar6ljy.TS0203.png" width="60" />|Tuya|Sensor öffnen|Ouverture|||
 |<img src="../../de_DE/zigbee/images/TZ3000_excgg5kb.TS0004.png" width="60" />|Tuya|EIN / AUS-Schalter 2300W 1 Kanal||||
@@ -832,4 +845,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-11-22 01:32:07
+2021-11-23 01:32:16

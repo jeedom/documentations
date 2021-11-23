@@ -172,6 +172,7 @@ Aqui você pode usar todos os comandos bash ou comandos pré-criados pelo plugin
 |--------------------------------------|--------------------------------------|
 | cpufreq                              | Freqüência da CPU                        |
 | cputemp                              | Temperatura da CPU                      |
+| utilização do CPU                             | Uso da CPU em%                 |
 | memuse                               | % de memória usada                 |
 | trocar                                 | % de swap usado                    |
 | loadavg15                            | Cobrar mais de 15 minutos                     |
