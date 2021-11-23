@@ -1,0 +1,50 @@
+{
+    "id": "inter2N",
+    "name": "inter2N",
+    "description": {
+        "fr_FR": "Plugin pour gérer les interphones inter2N",
+        "en_US": "Plugin to manage inter2N intercoms",
+        "es_ES": "Complemento para gestionar los intercomunicadores inter2N",
+        "de_DE": "Plugin zur Verwaltung von Inter2N-Gegensprechanlagen",
+        "ru_RU": "Plugin pour gérer les interphones inter2N",
+        "id_ID": "Plugin pour gérer les interphones inter2N",
+        "it_IT": "Plugin pour gérer les interphones inter2N",
+        "ja_JP": "Plugin pour gérer les interphones inter2N",
+        "pt_PT": "Plugin para gerenciar interfones inter2N",
+        "tr": "Plugin pour gérer les interphones inter2N"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.1.22",
+    "category": "communication",
+    "hasDependency": false,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/inter2N\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/inter2N\/",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "diy",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/inter2N\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/inter2N\/beta"
+}

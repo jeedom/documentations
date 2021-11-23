@@ -10,7 +10,14 @@
 
 >**Important**
 >
->To take advantage of the latest module integration, do not hesitate to update the 
+>To take advantage of the latest module integration, don't hesitate to update the dependencies
+
+# 22/11/2021
+
+- Optimization of the loading speed of the plugin pages
+- Addition of new equipment
+- Update dependencies automatically when updating the plugin
+
 
 # 07/11/2021
 

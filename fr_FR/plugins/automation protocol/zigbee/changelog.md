@@ -10,7 +10,14 @@
 
 >**IMPORTANT**
 >
->Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les 
+>Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
+
+# 22/11/2021
+
+- Optimisation de la vitesse de chargement des pages du plugin
+- Ajout de nouveaux équipements
+- Mise à jour des dépencances automatiquement lors de la mise à jour du plugin
+
 
 # 07/11/2021
 

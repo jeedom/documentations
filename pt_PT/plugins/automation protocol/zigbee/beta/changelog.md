@@ -10,7 +10,14 @@
 
 >**IMPORTANTE**
 >
->Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar o 
+>Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
+
+# 22/11/2021
+
+- Otimização da velocidade de carregamento das páginas do plugin
+- Adição de novos equipamentos
+- Atualize as dependências automaticamente ao atualizar o plugin
+
 
 # 11/07/2021
 

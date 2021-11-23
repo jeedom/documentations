@@ -10,7 +10,14 @@
 
 >**Importante**
 >
->Para aprovechar la última integración del módulo, no dude en actualizar el 
+>Para aprovechar la última integración del módulo, no dude en actualizar las dependencias
+
+# 22/11/2021
+
+- Optimización de la velocidad de carga de las páginas de complementos
+- Adición de nuevos equipos
+- Actualice las dependencias automáticamente al actualizar el complemento
+
 
 # 11/07/2021
 

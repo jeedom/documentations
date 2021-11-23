@@ -10,7 +10,14 @@
 
 >**Wichtig**
 >
->Um von der neuesten Modulintegration zu profitieren, zögern Sie nicht, die 
+>Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
+
+# 22.11.2021
+
+- Optimierung der Ladegeschwindigkeit der Plugin-Seiten
+- Hinzufügen neuer Geräte
+- Aktualisieren Sie Abhängigkeiten automatisch beim Aktualisieren des Plugins
+
 
 # 07.11.2021
 

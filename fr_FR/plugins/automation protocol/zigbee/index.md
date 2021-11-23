@@ -8,6 +8,10 @@
 -	**Zigate** : Non testé par l’équipe.
 -	**ZNP (Texas Instruments)** : Non testé par l’équipe.
 
+>**IMPORTANT**
+>
+> Avant toute chose il faut mettre à jour le firmware de votre clef (surtout pour EZSP, clef popp en particulier) sinon le demon ne peut fonctionner. Pour les clef Popp la mise à jour est directement gérer depuis de le plugin pour les autres type de clef il faut vous reporter à la documentation du fabricant.
+
 De plus, le plugin est doté de nombreux outils permettant :
 
 - la prise en charge de **plusieurs contrôleurs à la fois**,
