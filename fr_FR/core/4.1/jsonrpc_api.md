@@ -5,7 +5,7 @@ Tout d’abord voici les spécifications (JSON RPC 2.0) :
 
 L’accès à l’API se fait par l’url : *URL\_JEEDOM*/core/api/jeeApi.php
 
-Voici un example de configuration Json utilisable par un agent HTTP:
+Voici un example de configuration d'un objet Json utilisable dans le corps d'une requête faite par un agent HTTP:
 ``` json
 {
     "jsonrpc": "2.0",
