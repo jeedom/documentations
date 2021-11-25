@@ -5,6 +5,20 @@ First here are the specifications (JSON RPC 2.0) :
 
 Access to the API is via the url : *URL\_JEEDOM*/core/api/jeeApi.php
 
+Here's an example of a Json object configuration usable in the request body made by an HTTP agent:
+``` json
+{
+    "jsonrpc": "2.0",
+    "id": "007",
+
+    "method": "event::changes",
+    "params": {
+        "apikey": "{{apikey}}",
+        "datetime": "0"
+    }
+}
+```
+
 Divers
 ======
 
@@ -31,7 +45,7 @@ config::byKey
 
 Returns a configuration value.
 
-Settings :
+Json parameters:
 
 -   string key : configuration value key to return
 
@@ -44,7 +58,7 @@ config::save
 
 Saves a configuration value
 
-Settings :
+Json parameters:
 
 -   string value : value to record
 
@@ -60,7 +74,7 @@ event::changes
 
 Returns the list of changes since the datetime passed in parameter (must be in microseconds). You will also have in the response the current datetime of Jeedom (to be reused for the following query)
 
-Settings :
+Json parameters:
 
 -   int datetime
 
@@ -72,7 +86,7 @@ plugin::listPlugin
 
 Returns the list of all plugins
 
-Settings :
+Json parameters:
 
 -   int activateOnly = 0 (only returns the list of activated plugins)
 
@@ -96,7 +110,7 @@ jeeObject::fullById
 
 Returns an object with all its equipment and for each equipment all its commands as well as their states (for commands of type info)
 
-Settings :
+Json parameters:
 
 -   int id
 
@@ -105,7 +119,7 @@ jeeObject::byId
 
 Returns the specified object
 
-Settings:
+Json parameters:
 
 -   int id
 
@@ -119,7 +133,7 @@ jeeObject::save
 
 Returns the specified object
 
-Settings:
+Json parameters:
 
 -   int id (empty if it is a creation)
 
@@ -143,7 +157,7 @@ summary::global
 
 Return the global summary for the key passed in parameter
 
-Settings:
+Json parameters:
 
 -   string key : (optional), key of the desired summary, if empty then Jeedom returns the summary for all the keys
 
@@ -152,7 +166,7 @@ summary::byId
 
 Returns the summary for the object id
 
-Settings:
+Json parameters:
 
 -   int id : object id
 
@@ -171,7 +185,7 @@ eqLogic::fullById
 
 Returns a device and its commands as well as their states (for info type commands)
 
-Settings:
+Json parameters:
 
 -   int id
 
@@ -180,7 +194,7 @@ eqLogic::byId
 
 Returns the specified equipment
 
-Settings:
+Json parameters:
 
 -   int id
 
@@ -189,7 +203,7 @@ eqLogic::byType
 
 Returns all equipment belonging to the specified type (plugin)
 
-Settings:
+Json parameters:
 
 -   string type
 
@@ -198,7 +212,7 @@ eqLogic::byObjectId
 
 Returns all equipment belonging to the specified object
 
-Settings:
+Json parameters:
 
 -   int object\_id
 
@@ -212,7 +226,7 @@ array (….)), &#39;eqType2&#39; ⇒array (&#39;id&#39;⇒…,&#39; cmds&#39; �
 array (&#39;id&#39;⇒…,&#39; cmds &#39;⇒ array (….)), id2 ⇒ array (&#39; id&#39;⇒…, &#39;cmds&#39; ⇒
 array(…​.))..)
 
-Settings:
+Json parameters:
 
 -   string \ [\] eqType = table of the types of equipment required
 
@@ -223,7 +237,7 @@ eqLogic::save
 
 Returns the registered / created equipment
 
-Settings:
+Json parameters:
 
 -   int id (empty if it is a creation)
 
@@ -260,7 +274,7 @@ cmd::byId
 
 Returns the specified command
 
-Settings:
+Json parameters:
 
 -   int id
 
@@ -269,7 +283,7 @@ cmd::byEqLogicId
 
 Returns all commands belonging to the specified equipment
 
-Settings:
+Json parameters:
 
 -   int eqLogic\_id
 
@@ -278,7 +292,7 @@ cmd::execCmd
 
 Execute the specified command
 
-Settings:
+Json parameters:
 
 -   int id : command id or id array if you want to execute multiple commands at once
 
@@ -289,7 +303,7 @@ cmd::getStatistique
 
 Returns the statistics on the order (only works on info and historical orders)
 
-Settings:
+Json parameters:
 
 -   int id
 
@@ -302,7 +316,7 @@ cmd::getTendance
 
 Returns the trend on the order (only works on info and historical orders)
 
-Settings:
+Json parameters:
 
 -   int id
 
@@ -315,7 +329,7 @@ cmd::getHistory
 
 Returns the order history (only works on info and historical orders)
 
-Settings:
+Json parameters:
 
 -   int id
 
@@ -328,7 +342,7 @@ cmd::save
 
 Returns the specified object
 
-Settings:
+Json parameters:
 
 -   int id (empty if it is a creation)
 
@@ -369,7 +383,7 @@ cmd::event
 
 Allows you to send a value to a command
 
-Settings:
+Json parameters:
 
 -   int id
 
@@ -390,7 +404,7 @@ scenario::byId
 
 Returns the specified scenario
 
-Settings:
+Json parameters:
 
 -   int id
 
@@ -399,7 +413,7 @@ scenario::export
 
 Returns the export of the scenario as well as the *human name* from the script
 
-Settings:
+Json parameters:
 
 -   int id
 
@@ -408,7 +422,7 @@ scenario::import
 
 Allows you to import a scenario.
 
-Settings:
+Json parameters:
 
 -   int id : id of the scenario in which to import (empty if creation)
 
@@ -421,7 +435,7 @@ scenario::changeState
 
 Changes the state of the specified scenario.
 
-Settings:
+Json parameters:
 
 -   int id
 
@@ -435,7 +449,7 @@ log::get
 
 Allows you to retrieve a log
 
-Settings:
+Json parameters:
 
 -   string log : name of the log to retrieve
 
@@ -448,7 +462,7 @@ log::add
 
 Allows to write in a log
 
-Settings:
+Json parameters:
 
 -   string log : name of the log to retrieve
 
@@ -464,7 +478,7 @@ log::list
 
 Get the Jeedom logs list
 
-Settings:
+Json parameters:
 
 -   string filter : (optional) filter on the name of the logs to retrieve
 
@@ -473,7 +487,7 @@ log::empty
 
 Empty a log
 
-Settings:
+Json parameters:
 
 -   string log : name of the log to empty
 
@@ -482,7 +496,7 @@ log::remove
 
 Allows you to delete a log
 
-Settings:
+Json parameters:
 
 -   string log : log name to delete
 
@@ -494,7 +508,7 @@ datastore::byTypeLinkIdKey
 
 Get the value of a variable stored in the datastore
 
-Settings:
+Json parameters:
 
 -   string type : type of stored value (for scenarios it is scenario)
 
@@ -507,7 +521,7 @@ datastore::save
 
 Stores the value of a variable in the datastore
 
-Settings:
+Json parameters:
 
 -   string type : type of stored value (for scenarios
     it's scenario)
@@ -532,7 +546,7 @@ message::add
 
 Allows to write in a log
 
-Settings:
+Json parameters:
 
 -   string type : log type (debug, info, warning, error)
 
@@ -555,7 +569,7 @@ interact::tryToReply
 
 Try to match a request with an interaction, execute the action and respond accordingly
 
-Settings:
+Json parameters:
 
 -   query (request phrase)
 
@@ -608,7 +622,7 @@ plugin::install
 
 Installation / Update of a given plugin
 
-Settings:
+Json parameters:
 
 -   int plugin\_id (optional) : plugin id
 -   string logicalId (optional) : plugin name (logical name)
@@ -618,7 +632,7 @@ plugin::remove
 
 Deletion of a given plugin
 
-Settings:
+Json parameters:
 
 -   int plugin\_id (optional) : plugin id
 -   string logicalId (optional) : plugin name (logical name)
@@ -628,7 +642,7 @@ plugin::dependancyInfo
 
 Returns information on the plugin dependency status
 
-Settings:
+Json parameters:
 
 -   int plugin\_id (optional) : plugin id
 -   string logicalId (optional) : plugin name (logical name)
@@ -638,7 +652,7 @@ plugin::dependancyInstall
 
 Force installation of plugin dependencies
 
-Settings:
+Json parameters:
 
 -   int plugin\_id (optional) : plugin id
 -   string logicalId (optional) : plugin name (logical name)
@@ -648,7 +662,7 @@ plugin::deamonInfo
 
 Returns information about the status of the plugin daemon
 
-Settings:
+Json parameters:
 
 -   int plugin\_id (optional) : plugin id
 -   string logicalId (optional) : plugin name (logical name)
@@ -658,7 +672,7 @@ plugin::deamonStart
 
 Force the demon to start
 
-Settings:
+Json parameters:
 
 -   int plugin\_id (optional) : plugin id
 -   string logicalId (optional) : plugin name (logical name)
@@ -668,7 +682,7 @@ plugin::deamonStop
 
 Force demon stop
 
-Settings:
+Json parameters:
 
 -   int plugin\_id (optional) : plugin id
 -   string logicalId (optional) : plugin name (logical name)
@@ -678,7 +692,7 @@ plugin::deamonChangeAutoMode
 
 Change the management mode of the daemon
 
-Settings:
+Json parameters:
 
 -   int plugin\_id (optional) : plugin id
 -   string logicalId (optional) : plugin name (logical name)
@@ -705,7 +719,7 @@ Allows you to update Jeedom and all plugins
 update::doUpdate
 --------------
 
-Settings:
+Json parameters:
 
 -   int plugin\_id (optional) : plugin id
 -   string logicalId (optional) : plugin name (logical name)
@@ -744,7 +758,7 @@ timeline::byFolder
 
 Returns all the elements of the requested folder
 
-Settings:
+Json parameters:
 
 -   string folder : folder name
 
