@@ -5,7 +5,7 @@ First here are the specifications (JSON RPC 2.0) :
 
 Access to the API is via the url : *URL\_JEEDOM*/core/api/jeeApi.php
 
-Here's an example of a Json object configuration usable in the body of an HTTP agent:
+Here's an example of a Json object configuration usable in the request body made by an HTTP agent:
 ``` json
 {
     "jsonrpc": "2.0",
