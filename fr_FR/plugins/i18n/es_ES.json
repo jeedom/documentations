@@ -354,7 +354,7 @@
         " Changelog*": " Cambios*"
     },
     "plugins\/communication\/index.md": {
-        "Plugin permettant de gérer la connexion à un serveur wireguard": "Complemento para administrar la conexión a un servidor wireguard",
+        "Plugin permettant de gérer la connexion à un serveur Wireguard": "Complemento para administrar la conexión a un servidor wireguard",
         "ATTENTION plugin disponible uniquement en beta": "El complemento ATENCIÓN está disponible solo en versión beta",
         "Plugin pour la gestion des équipements wifipower": "Complemento de gestión de equipos Wifipower",
         "Plugin permettant de gérer le wifi de votre box ainsi que fixer l'ip": "Plugin para gestionar el wifi de tu caja así como arreglar la IP",

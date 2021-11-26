@@ -132,7 +132,7 @@
         "Changelog": "Changelog"
     },
     "plugins\/communication\/index.md": {
-        "Plugin permettant de gérer la connexion à un serveur wireguard": "Plugin permettant de gérer la connexion à un serveur wireguard",
+        "Plugin permettant de gérer la connexion à un serveur Wireguard": "Plugin permettant de gérer la connexion à un serveur Wireguard",
         "Wireguard": "Wireguard",
         "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
         "Wifipower": "Wifipower",

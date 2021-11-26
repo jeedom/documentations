@@ -2,7 +2,7 @@
     "id": "wireguard",
     "name": "Wireguard",
     "description": {
-        "fr_FR": "Plugin permettant de gérer la connexion à un serveur wireguard.",
+        "fr_FR": "Plugin permettant de gérer la connexion à un serveur Wireguard.",
         "en_US": "Plugin to manage the connection to a wireguard server",
         "es_ES": "Complemento para administrar la conexión a un servidor wireguard",
         "de_DE": "Plugin zur Verwaltung der Verbindung zu einem Wireguard-Server",
@@ -25,20 +25,14 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "ru_RU",
-        "id_ID",
-        "it_IT",
-        "ja_JP",
-        "pt_PT",
-        "tr"
+        "pt_PT"
     ],
     "compatibility": [
-        "Jeedomboard",
-        "Smart",
-        "RPI\/RPI2",
-        "Docker",
-        "DIY",
-        "v4"
+        "rpi",
+        "docker",
+        "diy",
+        "v4",
+        "atlas"
     ],
     "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/wireguard\/beta\/changelog",
     "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/wireguard\/beta"

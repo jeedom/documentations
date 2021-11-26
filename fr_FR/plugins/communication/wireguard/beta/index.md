@@ -1,35 +1,66 @@
-# Plugin Openvpn
+# Plugin Wireguard
 
-Ce plugin permet de connecter Jeedom à un serveur openvpn. Il est aussi utilisé et donc obligatoire pour le service DNS Jeedom qui vous permet d’accèder à votre Jeedom depuis internet.
+Ce plugin permet de connecter Jeedom à un serveur Wireguard.
 
-# Configuration du plugin
+Il peut également être utilisé par le service de DNS Jeedom en remplacement du **plugin Openvpn** pour accéder à votre Jeedom depuis internet.
 
-Après téléchargement du plugin, il suffit d’activer et d’installer les dépendances openvpn (cliquer sur le bouton **Installer/Mettre à jour**)
+# Configuration
 
-# Configuration des équipements
+## Configuration du plugin
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Une fois le plugin téléchargé et activé, il faut s'assurer que les dépendances sont correctement installées sur la page de configuration générale.
 
--   **Nom de l’équipement Openvpn** : nom de votre équipement Openvpn,
--   **Objet parent** : indique l’objet parent auquel appartient l’équipement,
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à plusieurs catégories),
--   **Activer** : permet de rendre votre équipement actif,
--   **Visible** : rend votre équipement visible sur le dashboard,
+## Configuration des clients
 
-> **Note**
+Les clients Wireguard sont accessibles à partir du menu **Plugins → Communication → Wireguard**.
+
+Cliquez sur un équipement pour accéder à sa page de configuration :
+
+- **Nom du client Wireguard** : nom de votre équipement Wireguard.
+- **Objet parent** : indique l’objet parent auquel appartient l’équipement.
+- **Catégorie** : les catégories de l’équipement *(peut appartenir à plusieurs catégories)*.
+- **Activer** : permet de rendre l’équipement actif.
+- **Visible** : permet de rendre l’équipement visible sur le dashboard.
+
+Si vous utilisez uniquement le **plugin Wireguard** pour la connexion au DNS Jeedom, il suffit de se rendre dans la configuration générale Jeedom (**Réglages → Système → Configuration**), onglet **Réseaux**. Sélectionnez **Wireguard** dans le menu déroulant de la partie **Gestion DNS Market** puis **Démarrer/Redémarrer** la connexion VPN.
+
+>**INFORMATION**
 >
-> Les autres options ne seront pas détaillées ici, pour avoir de plus amples informations veuillez vous référer à la [documentation openvpn](https://openvpn.net/index.php/open-source/documentation.html)
+>Concernant l'accès au DNS Jeedom, vous n'avez rien de plus à faire à votre niveau. Le plugin va automatiquement se charger de créer l'équipement, générer la configuration du tunnel VPN puis démarrer le service.
 
-> **Note**
+Si vous souhaitez configurer l'accès à un serveur Wireguard personnel, voici la liste des paramètres du client disponibles dans le plugin :
+
+- **[Interface]** :
+    - **Adresse** (`Address`) : adresse de l'interface client Wireguard.
+    - **Clé privée** (`PrivateKey`) : clé privée du client Wireguard.
+    - **Post-Up** (`PostUp`) : commandes à exécuter au démarrage de l'interface client Wireguard *(facultatif)*.
+    - **Post-Down** (`PostDown`) : commandes à exécuter à l'arrêt de l'interface client Wireguard *(facultatif)*.
+
+>**ASTUCE**
 >
-> Concernant les commandes shell executées après le démarrage, il existe le tag `#interface#` permettant d'obtenir le nom de l'interface en cours.
+>Vous pouvez utiliser le tag ``#interface#`` dans les champs **Post-Up** et **Post-Down** pour récupérer le nom de l'interface utilisée par le client Wireguard.
 
-En dessous vous retrouvez la liste des commandes :
+- **[Peer]** :
+    - **Clé publique** (`PublicKey`) : clé publique du serveur Wireguard.
+    - **Point terminal** (`Endpoint`) : adresse IP publique du serveur : port d'écoute *(ip:port)*.
+    - **IPs autorisées** (`AllowedIPs`) : liste des adresses IP autorisées.
+    - **Clé pré-partagée** (`PresharedKey`) : clé pré-partagée *(facultatif)*.
+    - **Maintenir la connexion** (`PersistentKeepalive`) : délai de vérification de la liaison en secondes *(facultatif)*.
 
--   **Nom** : le nom affiché sur le dashboard,
--   **Afficher** : permet d’afficher la donnée sur le dashboard,
--   **Tester** : permet de tester la commande
-
-> **Note**
+>**IMPORTANT**
 >
-> Jeedom va vérifier toutes les 5 minutes si le VPN est bien démarré ou arreté et agir en conséquence si ce n’est pas le cas.
+>Seul le support relatif à l'accès au DNS Jeedom est assuré par l'équipe.
+
+# Commandes
+
+En cliquant sur l'onglet **Commandes**, vous retrouvez la liste des commandes du client Wireguard :
+
+- **Actif** : état de l'interface client Wireguard.
+- **IP** : adresse IP de l'interface client Wireguard.
+- **Démarré** : état de la connexion au serveur Wireguard.
+- **Démarrer** : permet de démarrer l'interface client Wireguard.
+- **Arrêter** : permet d'arrêter l'interface client Wireguard.
+
+>**INFORMATION**
+>
+>Jeedom va vérifier toutes les 5 minutes si le VPN est bien démarré ou arrêté et agir en conséquence si ce n’est pas le cas.
