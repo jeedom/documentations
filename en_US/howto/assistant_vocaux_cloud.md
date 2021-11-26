@@ -21,3 +21,7 @@ Then once the subscription is subscribed it is necessary to configure by followi
 >
 > Thanks to the Power or Ultimate Service Packs, your Jeedom is accessible via HTTPS.
 > If you have a Community Service Pack, you must install yourself an SSL certificate issued by a certification authority (ex: Let's encrypt, ...).
+
+> **Important**
+>
+>Attetion due to a constraint from our service provider (OVH) the service only works in ipv4 so it is not ipv6 compatible

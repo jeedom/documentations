@@ -16,7 +16,8 @@
         "Google et AMAZON imposent que votre Jeedom soit accessible en HTTPS (le plugin ne marche pas en HTTP) avec un certificat valide (donc pas de certificat auto-signé": "Google et AMAZON imposent que votre Jeedom soit accessible en HTTPS (le plugin ne marche pas en HTTP) avec un certificat valide (donc pas de certificat auto-signé",
         "Grâce aux Service Pack Power ou Ultimate, votre Jeedom est accessible en HTTPS": "Grâce aux Service Pack Power ou Ultimate, votre Jeedom est accessible en HTTPS",
         "Si vous disposez d'un Service Pack Community, vous devez installer vous même un certificat SSL émis par une autorité de certification (ex": "Si vous disposez d'un Service Pack Community, vous devez installer vous même un certificat SSL émis par une autorité de certification (ex",
-        "Let's Encrypt": "Let's Encrypt"
+        "Let's Encrypt": "Let's Encrypt",
+        "Attetion du a une contrainte de notre prestataire (OVH) le service ne marche que en ipv4 il n'est donc pas compatible ipv6": "Attetion du a une contrainte de notre prestataire (OVH) le service ne marche que en ipv4 il n'est donc pas compatible ipv6"
     },
     "howto\/backup_cloud.md": {
         "Sauvegarde cloud": "Sauvegarde cloud",

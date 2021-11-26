@@ -14,6 +14,7 @@
         "Grâce aux Service Pack Power ou Ultimate, votre Jeedom est accessible en HTTPS": "Thanks to the Power or Ultimate Service Packs, your Jeedom is accessible via HTTPS",
         "Si vous disposez d'un Service Pack Community, vous devez installer vous même un certificat SSL émis par une autorité de certification (ex": "If you have a Community Service Pack, you must install yourself an SSL certificate issued by a certification authority (ex",
         "Let's Encrypt": "Let's encrypt",
+        "Attetion du a une contrainte de notre prestataire (OVH) le service ne marche que en ipv4 il n'est donc pas compatible ipv6": "Attetion due to a constraint from our service provider (OVH) the service only works in ipv4 so it is not ipv6 compatible",
         " Description.": " Description.",
         " Description?": " Description?",
         "Description ": "Description ",

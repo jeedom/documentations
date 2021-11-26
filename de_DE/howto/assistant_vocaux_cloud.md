@@ -21,3 +21,7 @@ Sobald das Abonnement abonniert ist, muss die Konfiguration anhand der Dokumenta
 >
 > Dank der Power- oder Ultimate Service Packs ist Ihr Jeedom über HTTPS zugänglich.
 > Wenn Sie über ein Community Service Pack verfügen, müssen Sie selbst ein SSL-Zertifikat installieren, das von einer Zertifizierungsstelle ausgestellt wurde (z: Lassen Sie uns verschlüsseln, ...).
+
+> **Wichtig**
+>
+>Achtung aufgrund einer Einschränkung unseres Service Providers (OVH) funktioniert der Service nur in IPv4 und ist daher nicht IPv6 kompatibel
