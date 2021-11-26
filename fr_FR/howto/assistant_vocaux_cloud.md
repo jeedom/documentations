@@ -21,3 +21,7 @@ Ensuite une fois l'abonnement souscrit il faut faire la configuration en suivant
 >
 > Grâce aux Service Pack Power ou Ultimate, votre Jeedom est accessible en HTTPS.
 > Si vous disposez d'un Service Pack Community, vous devez installer vous même un certificat SSL émis par une autorité de certification (ex: Let's Encrypt, ...).
+
+> **Important**
+>
+>Attetion du a une contrainte de notre prestataire (OVH) le service ne marche que en ipv4 il n'est donc pas compatible ipv6
