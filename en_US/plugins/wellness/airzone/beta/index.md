@@ -48,6 +48,7 @@ Choose a zone for an equipment
 
 Remember to Activate and make Visible your equipment, and assign it a parent to find it on your dashboard.
 
+IMPORTANT : If you have an area that contains special characters, this can cause a SystemOut of Range error. 
 
 # Dashboard
 

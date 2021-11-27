@@ -48,6 +48,7 @@ Escolha uma zona para um equipamento
 
 Lembre-se de ativar e tornar visível seu equipamento e atribuir a ele um pai para encontrá-lo em seu painel.
 
+IMPORTANTE : Se você tiver uma área que contenha caracteres especiais, isso pode causar um erro de SystemOut of Range. 
 
 # Dashboard
 

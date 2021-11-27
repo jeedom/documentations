@@ -48,6 +48,7 @@ Wählen Sie eine Zone für eine Ausrüstung
 
 Denken Sie daran, Ihre Ausrüstung zu aktivieren und sichtbar zu machen, und weisen Sie ihr einen Elternteil zu, um sie auf Ihrem Dashboard zu finden.
 
+WICHTIG : Wenn Sie einen Bereich haben, der Sonderzeichen enthält, kann dies einen SystemOut of Range-Fehler verursachen. 
 
 # Dashboard
 

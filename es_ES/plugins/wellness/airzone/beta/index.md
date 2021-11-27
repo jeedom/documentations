@@ -48,6 +48,7 @@ Elija una zona para un equipo
 
 Recuerde Activar y hacer Visible su equipo, y asígnele un padre para encontrarlo en su tablero.
 
+IMPORTANTE : Si tiene un área que contiene caracteres especiales, esto puede causar un error SystemOut of Range. 
 
 # Dashboard
 
