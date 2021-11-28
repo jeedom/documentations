@@ -106,7 +106,7 @@
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="../reports/errors.html">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <i class="icon-list-alt"></i>&#160;Errors <span class="label label-info pull-right">3277</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <i class="icon-list-alt"></i>&#160;Errors <span class="label label-info pull-right">3278</span>
                                 </a>
                             </li>
                             <li>
@@ -136,10 +136,10 @@
                                 <div class="accordion" style="margin-bottom: 0">
         <div class="accordion-group">
             <div class="accordion-heading">
-                                    <a class="accordion-toggle " data-toggle="collapse" data-target="#namespace-1867523392"></a>
+                                    <a class="accordion-toggle " data-toggle="collapse" data-target="#namespace-1394247458"></a>
                                 <a href="../namespaces/default.html" style="margin-left: 30px; padding-left: 0">\</a>
             </div>
-            <div id="namespace-1867523392" class="accordion-body collapse in">
+            <div id="namespace-1394247458" class="accordion-body collapse in">
                 <div class="accordion-inner">
 
                     
@@ -551,8 +551,7 @@
                 <h3 class="public ">add()</h3>
                 <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
                 <pre class="signature" style="margin-right: 54px;">add(  <span class="argument">$_log</span>, string  <span class="argument">$_type</span>, string  <span class="argument">$_message</span>,   <span class="argument">$_logicalId = &#039;&#039;</span>) </pre>
-                <p><em>Ajoute un message dans les log et fait en sorte qu&#039;il n&#039;y
-ai jamais plus de 1000 lignes</em></p>
+                <p><em>Add message and keep it less than 1000 lines</em></p>
                 
 
                                     <h4>Parameters</h4>
@@ -565,12 +564,12 @@ ai jamais plus de 1000 lignes</em></p>
                                                     <tr>
                                 <td>string</td>
                                 <td>$_type </td>
-                                <td><p>type du message à mettre dans les log</p></td>
+                                <td><p>message type (info, debug, warning, danger)</p></td>
                             </tr>
                                                     <tr>
                                 <td>string</td>
                                 <td>$_message </td>
-                                <td><p>message à mettre dans les logs</p></td>
+                                <td><p>message added into log</p></td>
                             </tr>
                                                     <tr>
                                 <td></td>
@@ -715,7 +714,7 @@ ai jamais plus de 1000 lignes</em></p>
                 <h3 class="public ">authorizeClearLog()</h3>
                 <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
                 <pre class="signature" style="margin-right: 54px;">authorizeClearLog(  <span class="argument">$_log</span>,   <span class="argument">$_subPath = &#039;&#039;</span>) </pre>
-                <p><em>Autorisation de vide le fichier de log</em></p>
+                <p><em>Check authorisation to emptying log file</em></p>
                 
 
                                     <h4>Parameters</h4>
@@ -757,7 +756,7 @@ ai jamais plus de 1000 lignes</em></p>
                 <h3 class="public ">clear()</h3>
                 <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
                 <pre class="signature" style="margin-right: 54px;">clear(  <span class="argument">$_log</span>) </pre>
-                <p><em>Vide le fichier de log</em></p>
+                <p><em>Empty log file</em></p>
                 
 
                                     <h4>Parameters</h4>
@@ -823,7 +822,7 @@ ai jamais plus de 1000 lignes</em></p>
                 <h3 class="public ">remove()</h3>
                 <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
                 <pre class="signature" style="margin-right: 54px;">remove(  <span class="argument">$_log</span>) </pre>
-                <p><em>Vide le fichier de log</em></p>
+                <p><em>Delete log file</em></p>
                 
 
                                     <h4>Parameters</h4>
@@ -973,7 +972,7 @@ ai jamais plus de 1000 lignes</em></p>
                 <h3 class="public ">define_error_reporting()</h3>
                 <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
                 <pre class="signature" style="margin-right: 54px;">define_error_reporting(integer  <span class="argument">$log_level</span>) </pre>
-                <p><em>Fixe le niveau de rapport d&#039;erreurs PHP</em></p>
+                <p><em>Set php error level</em></p>
                 
 
                                     <h4>Parameters</h4>
@@ -1104,7 +1103,7 @@ ai jamais plus de 1000 lignes</em></p>
                 <section class="span10 offset1">
                     <hr />
                     Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and authored
-                    on November 27th, 2021 at 01:39.
+                    on November 28th, 2021 at 01:39.
                 </section>
             </section>
         </section>
