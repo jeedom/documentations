@@ -32,7 +32,7 @@ La première chose à faire est de se connecter en SSH à Jeedom (avec un logici
 
 >**Rappels**
 >
->Par défaut les identifiants de connexion SSH sur jeedom (smart,mini et mini+) sont soit :
+>Par défaut les identifiants de connexion SSH sur jeedom (Atlas,Smart,Mini et Mini+) sont soit :
 >- Nom d'utilisateur : jeedom, mot de passe Mjeedom96
 >- Nom d'utilisateur : root, mot de passe Mjeedom96
 
