@@ -568,6 +568,7 @@
         "le nom de l'utilisateur": "le nom de l'utilisateur",
         "le nouveau mot de passe, attention il ne faut pas d'espace et une longueur de minimum 8 caracteres": "le nouveau mot de passe, attention il ne faut pas d'espace et une longueur de minimum 8 caracteres",
         "3.3.50": "3.3.50",
+        "Par défaut les identifiants de connexion SSH sur jeedom (Atlas,Smart,Mini et Mini+) sont soit": "Par défaut les identifiants de connexion SSH sur jeedom (Atlas,Smart,Mini et Mini+) sont soit",
         "Le système va vous demander le nom d'utilisateur pour lequel vous avez perdu le mot de passe (vous avez la liste de tous les utilisateurs au cas ou), une fois tapé (attention au majusucule\/minuscule) appuyez sur la touche entrée": "Le système va vous demander le nom d'utilisateur pour lequel vous avez perdu le mot de passe (vous avez la liste de tous les utilisateurs au cas ou), une fois tapé (attention au majusucule\/minuscule) appuyez sur la touche entrée",
         "Et vous aurez votre nouveau mot de passe": "Et vous aurez votre nouveau mot de passe",
         "Exemple": "Exemple",

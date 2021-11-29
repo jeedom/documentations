@@ -986,6 +986,7 @@
         "le nom de l'utilisateur": "user name",
         "le nouveau mot de passe, attention il ne faut pas d'espace et une longueur de minimum 8 caracteres": "the new password, be careful you don't need spaces and a minimum length of 8 characters",
         "3.3.50": "3.3.50",
+        "Par défaut les identifiants de connexion SSH sur jeedom (Atlas,Smart,Mini et Mini+) sont soit": "By default, the SSH login credentials on jeedom (Atlas, Smart, Mini and Mini +) are either",
         "Le système va vous demander le nom d'utilisateur pour lequel vous avez perdu le mot de passe (vous avez la liste de tous les utilisateurs au cas ou), une fois tapé (attention au majusucule\/minuscule) appuyez sur la touche entrée": "The system will ask you for the username for which you have lost the password (you have the list of all users in case), once typed (attention to the capital letter \/ lowercase) press the enter key",
         "Et vous aurez votre nouveau mot de passe": "And you will have your new password",
         "Nous allons voir ici comment changer le mot de passe Jeedom directement en modifiant celui-ci dans la base de données, dans le cas où vous l'auriez oublié": "We will see here how to change the Jeedom password directly by modifying it in the database, in case you have forgotten it",

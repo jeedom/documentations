@@ -32,7 +32,7 @@ Das erste, was Sie tun müssen, ist, in SSH eine Verbindung zu Jeedom herzustell
 
 >**Erinnerungen**
 >
->Standardmäßig sind die SSH-Verbindungskennungen bei jeedom (smart, mini und mini +) entweder :
+>Standardmäßig sind die SSH-Anmeldedaten auf jeedom (Atlas, Smart, Mini und Mini +) entweder :
 >- Benutzername : jeedom, Passwort Mjeedom96
 >- Benutzername : root, Passwort Mjeedom96
 

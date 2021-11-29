@@ -32,7 +32,7 @@ The first thing to do is to connect in SSH to Jeedom (with a software type kitty
 
 >**Reminders**
 >
->By default, the SSH connection identifiers on jeedom (smart, mini and mini +) are either :
+>By default, the SSH login credentials on jeedom (Atlas, Smart, Mini and Mini +) are either :
 >- Username : jeedom, password Mjeedom96
 >- Username : root, password Mjeedom96
 

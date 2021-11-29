@@ -32,7 +32,7 @@ Lo primero que debe hacer es conectarse en SSH a Jeedom (con un software tipo ki
 
 >**Recordatorios**
 >
->De forma predeterminada, los identificadores de conexión SSH en jeedom (smart, mini y mini +) son :
+>De forma predeterminada, las credenciales de inicio de sesión SSH en jeedom (Atlas, Smart, Mini y Mini +) son :
 >- Nombre de usuario : jeedom, contraseña Mjeedom96
 >- Nombre de usuario : root, contraseña Mjeedom96
 
