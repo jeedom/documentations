@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 29.11.2021
+
 - Möglichkeit Deconz zu deinstallieren, danke @Benjamin 
 - ZHAAirQualit hinzugefügt, meric @sagitaz
 - Es wurde ein Fehler mit der neuesten Version von deconz bei der Rückgabe von Attribut-Updates behoben

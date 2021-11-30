@@ -4,7 +4,15 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Möglichkeit Deconz zu deinstallieren, danke @Benjamin 
+- ZHAAirQualit hinzugefügt, meric @sagitaz
+- Es wurde ein Fehler mit der neuesten Version von deconz bei der Rückgabe von Attribut-Updates behoben
+- Ergänzung um Gruppen- und Bindungsverwaltung
+
+# 02/08/2021
+
 - Unterdrückung des Sendens von Helligkeit während eines Farbwechsels für RGB-Lampen
+- ZHACarbonMonoxid hinzugefügt, danke @sagitaz
 
 # 28.10.2020
 

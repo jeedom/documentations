@@ -4,7 +4,15 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Posibilidad de desinstalar Deconz, gracias @Benjamin 
+- Se agregó ZHAAirQualit, meric @sagitaz
+- Se corrigió un error con la última versión de deconz al devolver actualizaciones de atributos
+- Adición de gestión grupal y vinculante
+
+# 02/08/2021
+
 - Supresión del envío de brillo durante un cambio de color para bombillas RGB
+- Se agregó ZHACarbonMonoxide, gracias @sagitaz
 
 # 28/10/2020
 

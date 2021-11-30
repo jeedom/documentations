@@ -4,6 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 29/11/2021
+
+- Possibilité de desinstaller Deconz, merci @Benjamin 
+- Ajout ZHAAirQualit, meric @sagitaz
+- Correction d'un bug avec les dernieres version de deconz sur le renvoi des mises à jour des attributs
+- Ajout de la gestion des groupes et du binding
+
 # 08/02/2021
 
 - Suppression de l'envoi de luminosité lors d'un changement de couleur pour les ampoule RGB
