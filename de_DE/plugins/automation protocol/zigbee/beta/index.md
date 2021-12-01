@@ -312,6 +312,7 @@ Wenn Sie für einen bestimmten Daemon (1, 2 oder 3) den Zigbee-Schlüssel änder
 >Dafür gibt es mehrere Möglichkeiten :
 >- Du hast bereits viele Mods und hast das Limit der Anzahl der Live-Mods überschritten (31 im Allgemeinen). Sie müssen entweder einen anderen ZigBee-Schlüssel eingeben (das Plugin verwaltet bis zu 3) oder versuchen, Routerknoten hinzuzufügen (achten Sie darauf, dass es keinen klaren Standard für Routerknoten gibt, sodass Inkompatibilitäten zwischen Herstellern bestehen...)
 >- Sie sind unter Conbee : Versuchen Sie, den Schlüssel für 2 Minuten abzuziehen, ihn zurückzusetzen und den Daemon neu zu starten. Es handelt sich um eine bekannte Erkrankung des Conbee-Schlüssels (auch unter Dekonz), oder Sie benötigen einen Kaltstart, damit die Aufnahme funktioniert
+>- Sie haben eine SSD an USB3 angeschlossen, versuchen Sie, sie an einen USB2-Port anzuschließen
 
 >**Ich sehe in den Protokollen den Fehler "Keine Cluster-ID" XXXXX"**
 >
@@ -320,3 +321,4 @@ Wenn Sie für einen bestimmten Daemon (1, 2 oder 3) den Zigbee-Schlüssel änder
 >**Mein Bewegungsmelder / Öffnungs- / Schaltbefehl bleibt immer auf 1**
 >
 >Im Zigbee-Modus ist es üblich, dass das Modul während einer Aktion (Bewegung, Öffnen, Drücken der Taste) den Wert Eins sendet, aber keine 0 zurückgibt, wenn sie beendet ist (zum Beispiel Ende der Bewegung)). Sie können eine Statusrückkehr auf 0 nach 1 Minute (zum Beispiel) in der Konfiguration des Gerätebefehlsregisters und dann in der betreffenden Befehlszeile einrichten.
+

@@ -312,6 +312,7 @@ Se para um determinado daemon (1, 2 ou 3) você alterar a chave Zigbee sem resta
 >Várias possibilidades para isso :
 >- Você já tem muitos mods e excedeu o limite do número de mods ao vivo (31 em geral). Você deve colocar outra chave Zigbee (o plugin gerencia até 3) ou tentar adicionar nós de roteador (cuidado, pois não há um padrão claro para nós de roteador, então há incompatibilidades entre os fabricantes...)
 >- Você está sob o comando de Conbee : tente desconectar a chave por 2 minutos, coloque-a de volta e reinicie o daemon, é uma doença conhecida da chave Conbee (mesmo em deconz) ou você precisa de uma reinicialização a frio para a inclusão funcionar
+>- Você tem um SSD conectado a USB3, tente conectá-lo a uma porta USB2
 
 >**Vejo erros "Sem ID de cluster" nos registros XXXXX"**
 >
@@ -320,3 +321,4 @@ Se para um determinado daemon (1, 2 ou 3) você alterar a chave Zigbee sem resta
 >**Meu sensor de movimento / abertura / comando de interruptor sempre permanece em 1**
 >
 >É comum no modo zigbee o módulo enviar o valor um durante uma ação (movimento, abrir, pressionar o botão) mas não retornar 0 quando terminar (fim do movimento por exemplo). Você pode configurar um retorno de status para 0 após 1min (por exemplo) na configuração da guia de comando do equipamento e, em seguida, na linha de comando em questão.
+

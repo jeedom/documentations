@@ -312,6 +312,7 @@ Si para un daemon dado (1, 2 o 3) cambia la clave Zigbee sin restaurar una copia
 >Varias posibilidades para esto :
 >- Ya tienes muchos mods y has excedido el límite del número de mods en vivo (31 en general). Debe poner otra clave Zigbee (el complemento administra hasta 3) o intentar agregar nodos de enrutador (tenga cuidado de que no haya un estándar claro en los nodos de enrutador, por lo que hay incompatibilidades entre los fabricantes...)
 >- Estás bajo Conbee : intente desconectar la clave durante 2 minutos, vuelva a colocarla y reinicie el demonio, es una enfermedad conocida de la clave Conbee (incluso bajo deconz) o necesita un reinicio en frío para que la inclusión funcione
+>- Tiene un SSD conectado a USB3, intente conectarlo a un puerto USB2
 
 >**Veo errores "No hay ID de clúster" en los registros XXXXX"**
 >
@@ -320,3 +321,4 @@ Si para un daemon dado (1, 2 o 3) cambia la clave Zigbee sin restaurar una copia
 >**Mi comando de sensor de movimiento / apertura / interruptor siempre permanece en 1**
 >
 >Es común que en el modo zigbee el módulo envíe el valor uno durante una acción (movimiento, apertura, presionar el botón) pero no devuelve 0 cuando finaliza (fin de movimiento por ejemplo). Puede configurar un retorno de estado a 0 después de 1 minuto (por ejemplo) en la configuración de la pestaña de comando del equipo y luego en la línea de comando en cuestión.
+

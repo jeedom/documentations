@@ -1,0 +1,42 @@
+{
+    "id": "aruba",
+    "name": "Aruba",
+    "description": {
+        "fr_FR": ""
+    },
+    "utilization": "",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4",
+    "category": "communication",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 0,
+    "changelog": "",
+    "documentation": "",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
+}

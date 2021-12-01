@@ -312,6 +312,7 @@ If for a given daemon (1, 2 or 3) you change the Zigbee key without restoring a 
 >Several possibilities for this :
 >- You already have a lot of mods and have exceeded the limit of the number of live mods (31 in general). You must either put another Zigbee key (the plugin manages up to 3) or try adding router nodes (be careful there is no clear standard on router nodes so there are incompatibilities between manufacturers...)
 >- You are under Conbee : try to unplug the key for 2 minutes, put it back and restart the daemon, it's a known disease of the Conbee key (even under deconz) or you need a cold reboot for the inclusion to work
+>- You have an SSD plugged into USB3, try plugging it into a USB2 port
 
 >**I see "No cluster ID" errors in the logs XXXXX"**
 >
@@ -320,3 +321,4 @@ If for a given daemon (1, 2 or 3) you change the Zigbee key without restoring a 
 >**My motion sensor / opening / switch command always remains at 1**
 >
 >It is common in zigbee mode the module sends the value one during an action (movement, opening, pressing the button) but does not return 0 when it is finished (end of movement for example). You can set up a status return to 0 after 1min (for example) in the configuration of the equipment command tab then on the command line in question.
+

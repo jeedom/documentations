@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 11/29/2021
+
 - Possibility to uninstall Deconz, thank you @Benjamin 
 - Added ZHAAirQualit, meric @sagitaz
 - Fixed a bug with the latest version of deconz on returning attribute updates
