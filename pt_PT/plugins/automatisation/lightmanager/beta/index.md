@@ -28,7 +28,7 @@ Você coloca seu sensor de luz e a soleira para acender a luz. É possível colo
 
 >**NOTA**
 >
->Você também pode pedir ao plugin para recuperar o valor mínimo do brilho dos últimos X minutos
+>Você também pode pedir ao plugin para recuperar o valor mínimo de brilho nos últimos X minutos, tenha cuidado, neste caso é absolutamente necessário que o controle de brilho seja registrado.
 
 ### Temporisation
 

@@ -28,7 +28,7 @@ You put your light sensor and the threshold to turn on the light. It is possible
 
 >**NOTE**
 >
->You can also ask the plugin to recover the minimum value of the brightness over the last X minutes instead
+>You can also ask the plugin to retrieve the minimum value of the brightness over the last X minutes, be careful in this case it is absolutely necessary that the brightness control is logged.
 
 ### Temporisation
 

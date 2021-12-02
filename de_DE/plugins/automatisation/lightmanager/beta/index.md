@@ -28,7 +28,7 @@ Sie setzen Ihren Lichtsensor und die Schwelle, um das Licht einzuschalten. Es is
 
 >**HINWEIS**
 >
->Sie können das Plugin auch bitten, stattdessen den Mindestwert der Helligkeit über die letzten X Minuten wiederherzustellen
+>Sie können das Plugin auch bitten, den minimalen Wert der Helligkeit über die letzten X Minuten abzurufen, in diesem Fall ist es unbedingt erforderlich, dass die Helligkeitssteuerung protokolliert wird.
 
 ### Temporisation
 

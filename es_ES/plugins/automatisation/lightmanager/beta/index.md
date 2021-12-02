@@ -28,7 +28,7 @@ Pones tu sensor de luz y el umbral para encender la luz. Es posible poner varios
 
 >**NOTA**
 >
->En su lugar, también puede pedirle al complemento que recupere el valor mínimo del brillo durante los últimos X minutos
+>También puedes pedirle al plugin que recupere el valor mínimo de brillo de los últimos X minutos, ten cuidado en este caso es absolutamente necesario que el control de brillo esté registrado.
 
 ### Temporisation
 

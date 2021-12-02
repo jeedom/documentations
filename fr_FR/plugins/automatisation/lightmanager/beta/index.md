@@ -28,7 +28,7 @@ Vous mettez votre capteur de luminosité ainsi que le seuil pour allumer la lumi
 
 >**NOTE**
 >
->Vous pouvez aussi demander au plugin de plutot recuperer la valeur minimum de la luminosité sur les X dernieres minutes
+>Vous pouvez aussi demander au plugin de plutot recuperer la valeur minimum de la luminosité sur les X dernieres minutes, attention dans ce cas la il faut absolument que la commande de luminosité soit historisée.
 
 ### Temporisation
 
