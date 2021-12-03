@@ -4,7 +4,11 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
+# 02/12/2021
+
 - Se agregaron comandos de encendido / apagado para relés
+- Adición de un demonio SIA para la recuperación local de cierta información (lea la documentación para la configuración)
+- Adición de equipo compatible
 
 # 19/08/2021
 

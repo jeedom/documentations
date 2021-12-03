@@ -4,6 +4,18 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 08/11/2021
+
+- Posibilidad de incluir / excluir fechas según todos los eventos de un diario 
+
+# 21/10/2021
+
+- Adición del diseño de equipos en modo mesa
+
+# 12/11/2020
+
+- Actualización de la biblioteca de visualización del calendario *(corregir un error de visualización en el modo semana)*
+
 # 12/07/2020
 
 - Se corrigió un error en el color de los eventos en la agenda en V4
@@ -69,7 +81,7 @@
 
 # 16/10/2018
 
-- Corrección de interfaz menor
+- Corrección menor de interfaz
 - Adición de orden para la inclusión / exclusión de fecha de los escenarios
 
 # 15/10/2018
@@ -87,8 +99,8 @@
 
 # 02/03/2018
 
-- Al reactivar la agenda si está en un evento, se inician las acciones de inicio
+- Si hay un evento en curso cuando se reactiva la agenda, se lanzan las acciones de inicio
 
 # 27/02/2018
 
--	Eliminación de comandos de activación / desactivación (para desactivar una agenda en un escenario, ahora debe usar la función de desactivación del equipo)
+-	Eliminación de comandos de activación / desactivación *(para desactivar una agenda de un escenario, ahora debes usar la función de desactivación de equipos)*

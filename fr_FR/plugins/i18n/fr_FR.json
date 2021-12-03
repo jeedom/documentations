@@ -611,7 +611,7 @@
         "Data Export": "Data Export",
         "Plugin permettant d'archiver des exports d'historiques ou de statistiques vers un fichier CSV": "Plugin permettant d'archiver des exports d'historiques ou de statistiques vers un fichier CSV",
         "Agenda": "Agenda",
-        "Plugin pour créer un calendrier": "Plugin pour créer un calendrier",
+        "Plugin permettant de gérer des calendriers et d'effectuer des actions automatiquement au début et\/ou à la fin d'un évènement": "Plugin permettant de gérer des calendriers et d'effectuer des actions automatiquement au début et\/ou à la fin d'un évènement",
         "Avec une expression régulière on peut, par exemple, extraire une température d'un évènement": "Avec une expression régulière on peut, par exemple, extraire une température d'un évènement",
         "Agenda Caldav": "Agenda Caldav",
         "Auteur du plugin": "Auteur du plugin",

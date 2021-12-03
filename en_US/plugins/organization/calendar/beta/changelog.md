@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 12/02/2021
+
+- Bugfix
+- Preparation for Jeedom 4.2
+
 # 08/11/2021
 
 - Possibility to include / exclude dates according to all the events of a diary 

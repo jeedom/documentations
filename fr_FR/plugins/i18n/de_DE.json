@@ -1663,7 +1663,7 @@
         "Le plugin permet également d'importer des données dans Jeedom depuis un fichier CSV vers une commande de type Info": "Mit dem Plugin können Sie auch Daten aus einer CSV-Datei in ein Info-Steuerelement in Jeedom importieren",
         "Data Export": "Datenexport",
         "Plugin permettant d'archiver des exports d'historiques ou de statistiques vers un fichier CSV": "Plugin zum Archivieren von historischen oder statistischen Exporten in eine CSV-Datei",
-        "Plugin pour créer un calendrier": "Plugin zum Erstellen eines Kalenders",
+        "Plugin permettant de gérer des calendriers et d'effectuer des actions automatiquement au début et\/ou à la fin d'un évènement": "Plugin zum Verwalten von Kalendern und zum automatischen Ausführen von Aktionen zu Beginn und \/ oder Ende einer Veranstaltung",
         "Avec une expression régulière on peut, par exemple, extraire une température d'un évènement": "Mit einem regulären Ausdruck können wir beispielsweise eine Temperatur aus einem Ereignis extrahieren",
         "Agenda Caldav": "Caldav Agenda",
         "Auteur du plugin": "Plugin Autor",

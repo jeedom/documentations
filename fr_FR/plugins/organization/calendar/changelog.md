@@ -4,17 +4,30 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 02/12/2021
+
+- Correction de bugs
+- Preparation pour Jeedom 4.2
+
+# 08/11/2021
+
+- Possibilité d'inclure/exclure des dates en fonction de l'ensemble des évènements d'un agenda 
+
+# 21/10/2021
+
+- Ajout de la disposition des équipements en mode tableau
+
 # 11/12/2020
 
-- Mise à jour de la librairie d'affichage de l'agenda (corrige un bug d'affichage en mode semaine)
+- Mise à jour de la librairie d'affichage de l'agenda *(corrige un bug d'affichage en mode semaine)*
 
 # 07/12/2020
 
-- Correction d'un bug sur la couleur des evenements dans l'agenda en V4
+- Correction d'un bug sur la couleur des événements dans l'agenda en V4
 
 # 29/10/2020
 
-- Correction d'un bug sur les repetition annuelle et les OS 32bits
+- Correction d'un bug sur les répétitions annuelles et les OS 32bits
 
 # 20/03/2020
 
@@ -55,7 +68,7 @@
 
 # 18/03/2019
 
-- Lors de la supression d'un évènement les actions de fin ne sont plus éxecutées
+- Lors de la supression d'un évènement les actions de fin ne sont plus exécutées
 - Amélioration de l'interface
 - Correction de bugs
 
@@ -69,11 +82,11 @@
 
 # 12/10/2018
 
-- Ajout d'une reprogrammation de tous évènements tous les jours à 00h00
+- Ajout d'une reprogrammation de tous événements tous les jours à 00h00
 
 # 16/10/2018
 
-- Correction mineur de l'interface
+- Correction mineure de l'interface
 - Ajout de commande pour l'inclusion/exclusion de date depuis les scénarios
 
 # 15/10/2018
@@ -87,12 +100,12 @@
 # 26/03/2018
 
 - Correction d'un bug sur les images de la page de configuration
-- Correction d'un bug lors du calcul de la recurrence des événements si aucune borne n'est definie.
+- Correction d'un bug lors du calcul de la récurrence des événements si aucune borne n'est définie.
 
 # 02/03/2018
 
-- Lors de la réactivation de l'agenda si on est dans un evenement les actions de début sont lancée
+- Si un événement est en cours lors de la réactivation de l'agenda, les actions de début sont lancées
 
 # 27/02/2018
 
--	Suppression des commandes d'activations/désactivations (pour désactiver un agenda dans un scénario il faut maintenant utiliser la fonction de désactivation d'équipment)
+-	Suppression des commandes d'activation/désactivation *(pour désactiver un agenda depuis un scénario il faut maintenant utiliser la fonction de désactivation d'équipement)*

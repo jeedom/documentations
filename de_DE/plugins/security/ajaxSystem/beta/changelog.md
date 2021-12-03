@@ -4,7 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 12.02.2021
+
 - Ein/Aus-Befehle für Relais hinzugefügt
+- Hinzufügen eines SIA-Daemons zur lokalen Wiederherstellung bestimmter Informationen (lesen Sie die Dokumentation zur Konfiguration)
+- Hinzufügen kompatibler Geräte
 
 # 19.08.2021
 

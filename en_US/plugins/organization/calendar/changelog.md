@@ -4,6 +4,18 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 08/11/2021
+
+- Possibility to include / exclude dates according to all the events of a diary 
+
+# 10/21/2021
+
+- Addition of the layout of equipment in table mode
+
+# 12/11/2020
+
+- Update of the calendar display library *(fix a display bug in week mode)*
+
 # 07/12/2020
 
 - Fixed a bug on the color of events in the agenda in V4
@@ -69,7 +81,7 @@
 
 # 10/16/2018
 
-- Minor interface correction
+- Minor interface fix
 - Addition of order for the inclusion / exclusion of date from the scenarios
 
 # 10/15/2018
@@ -87,8 +99,8 @@
 
 # 03/02/2018
 
-- When reactivating the agenda if you are in an event, the start actions are launched
+- If an event is in progress when the agenda is reactivated, the start actions are launched
 
 # 02/27/2018
 
--	Removal of activation / deactivation commands (to deactivate an agenda in a scenario you must now use the equipment deactivation function)
+-	Removal of activation / deactivation commands *(to deactivate an agenda from a scenario, you must now use the equipment deactivation function)*

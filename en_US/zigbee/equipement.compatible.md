@@ -214,7 +214,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Ouellet|Ouellet OTH3600-GA-ZB|Thermostatic head|||
+|<img src="../../en_US/zigbee/images/Sinope_Technologies.OTH3600-GA-ZB.png" width="60" />|Ouellet|Ouellet OTH3600-GA-ZB|Thermostatic head|||
 
 # Terncy
 
@@ -308,6 +308,7 @@
 |<img src="../../en_US/zigbee/images/DANFOSS.RV001.png" width="60" />|Danfoss|Danfoss Ally|Thermostatic head||[Documentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 |<img src="../../en_US/zigbee/images/Danfoss.0x0200.png" width="60" />|Danfoss|Danfoss Icon Floor Controller|Heated Floor Controller|||
 |<img src="../../en_US/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Danfoss Ally|Thermostatic head||[Documentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
+|<img src="../../en_US/zigbee/images/TZ3000_mxzo5rhf.TS0201.png" width="60" />|Danfoss|Temperature and humidity probe|||[Buy](https://www.domadoo.fr/fr/peripheriques/5930-danfoss-sonde-de-temperature-et-d-humidite-zigbee-30-5715162289013.html)|
 
 # Dresden elektronik
 
@@ -501,6 +502,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Loratap|Roller shutter module||||
 |<img src="../../en_US/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Loratap|LORATAP - 3-button remote control||||
+|<img src="../../en_US/zigbee/images/TZ3000_ufhtxr59.TS0044.png" width="60" />|Loratap|LORATAP - 4-button remote control||||
 
 # Nodon
 
@@ -741,6 +743,7 @@
 |<img src="../../en_US/zigbee/images/TZ3000_rrjr1q0u.TS0043.png" width="60" />|Tuya|Smart triple switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_scvgu6ow.TS011F.png" width="60" />|Tuya|Socket with 2 usb ports||||
 |<img src="../../en_US/zigbee/images/TZ3000_tk3s5tyg.TS0041.png" width="60" />|Tuya|Smart single switch||||
+|<img src="../../en_US/zigbee/images/TZ3000_txpirhfq.TS0011.png" width="60" />|Tuya|SMART - Single ON / OFF connected module||||
 |<img src="../../en_US/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|RGBW LED strip controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|Intelligent roller shutter module||||
 |<img src="../../en_US/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 button smart switch with batteries||||
@@ -793,6 +796,7 @@
 |<img src="../../en_US/zigbee/images/LUMI.lumi.curtain.png" width="60" />|Xiaomi|Curtain motor||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.light.aqcn02.png" width="60" />|Xiaomi|AQARA - Connected LED bulb|||[Buy](https://www.domadoo.fr/fr/peripheriques/5257-aqara-ampoule-led-zigbee-aqara-blanc-variable-0192784000144.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.lock.v1.png" width="60" />|Xiaomi|MIJIA - Connected lock|Serrure|||
+|<img src="../../en_US/zigbee/images/LUMI.lumi.magnet.acn001.png" width="60" />|Xiaomi|AQARA - Intelligent opening detector (3)|||[Buy](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.plug.png" width="60" />|Xiaomi|MI - Smart plug ON / OFF||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.plug.maeu01.png" width="60" />|Xiaomi|AQARA - Connected socket|||[Buy](https://www.domadoo.fr/fr/peripheriques/5385-aqara-prise-connectee-zigbee-30-smart-plug-6970504210646.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.plug.mmeu01.png" width="60" />|Xiaomi|MI - ON / OFF connected socket + Consumption measurement|||[Buy](https://www.domadoo.fr/fr/peripheriques/5305-xiaomi-prise-connectee-zigbee-mi-smart-plug-6934177706493.html)|
@@ -845,4 +849,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-12-02 01:32:19
+2021-12-03 01:32:09

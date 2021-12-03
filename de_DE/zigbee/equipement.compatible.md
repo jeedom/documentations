@@ -214,7 +214,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Ouellet|Ouellet OTH3600-GA-ZB|Thermostatkopf|||
+|<img src="../../de_DE/zigbee/images/Sinope_Technologies.OTH3600-GA-ZB.png" width="60" />|Ouellet|Ouellet OTH3600-GA-ZB|Thermostatkopf|||
 
 # Terncy
 
@@ -308,6 +308,7 @@
 |<img src="../../de_DE/zigbee/images/DANFOSS.RV001.png" width="60" />|Danfoss|Danfoss Verbündeter|Thermostatkopf||[Dokumentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 |<img src="../../de_DE/zigbee/images/Danfoss.0x0200.png" width="60" />|Danfoss|Danfoss Icon Floor Controller|Beheizter Bodenregler|||
 |<img src="../../de_DE/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Danfoss Verbündeter|Thermostatkopf||[Dokumentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
+|<img src="../../de_DE/zigbee/images/TZ3000_mxzo5rhf.TS0201.png" width="60" />|Danfoss|Temperatur- und Feuchtigkeitssonde|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5930-danfoss-sonde-de-temperature-et-d-humidite-zigbee-30-5715162289013.html)|
 
 # Dresden elektronik
 
@@ -501,6 +502,7 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Loratap|Rollladenmodul||||
 |<img src="../../de_DE/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Loratap|LORATAP - 3-Tasten-Fernbedienung||||
+|<img src="../../de_DE/zigbee/images/TZ3000_ufhtxr59.TS0044.png" width="60" />|Loratap|LORATAP - 4-Tasten-Fernbedienung||||
 
 # Nodon
 
@@ -741,6 +743,7 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_rrjr1q0u.TS0043.png" width="60" />|Tuya|Intelligenter Dreifachschalter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_scvgu6ow.TS011F.png" width="60" />|Tuya|Steckdose mit 2 USB-Anschlüssen||||
 |<img src="../../de_DE/zigbee/images/TZ3000_tk3s5tyg.TS0041.png" width="60" />|Tuya|Intelligenter Einzelschalter||||
+|<img src="../../de_DE/zigbee/images/TZ3000_txpirhfq.TS0011.png" width="60" />|Tuya|SMART - Einfaches ON / OFF verbundenes Modul||||
 |<img src="../../de_DE/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|RGBW LED Strip Controller||||
 |<img src="../../de_DE/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|Intelligentes Rollladenmodul||||
 |<img src="../../de_DE/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4-Tasten-Smart-Schalter mit Batterien||||
@@ -793,6 +796,7 @@
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.curtain.png" width="60" />|Xiaomi|Vorhangmotor||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.light.aqcn02.png" width="60" />|Xiaomi|AQARA - Angeschlossene LED-Lampe|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5257-aqara-ampoule-led-zigbee-aqara-blanc-variable-0192784000144.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.lock.v1.png" width="60" />|Xiaomi|MIJIA - Verbundenes Schloss|Serrure|||
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.magnet.acn001.png" width="60" />|Xiaomi|AQARA - Intelligenter Öffnungsmelder (3)|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.plug.png" width="60" />|Xiaomi|MI - Smart Plug EIN / AUS||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.plug.maeu01.png" width="60" />|Xiaomi|AQARA - Angeschlossene Steckdose|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5385-aqara-prise-connectee-zigbee-30-smart-plug-6970504210646.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.plug.mmeu01.png" width="60" />|Xiaomi|MI - ON / OFF-Steckdose + Verbrauchsmessung|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5305-xiaomi-prise-connectee-zigbee-mi-smart-plug-6934177706493.html)|
@@ -845,4 +849,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-12-02 01:32:19
+2021-12-03 01:32:09

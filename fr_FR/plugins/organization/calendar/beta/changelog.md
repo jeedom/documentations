@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 02/12/2021
+
+- Correction de bugs
+- Preparation pour Jeedom 4.2
+
 # 08/11/2021
 
 - Possibilité d'inclure/exclure des dates en fonction de l'ensemble des évènements d'un agenda 

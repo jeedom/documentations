@@ -1,8 +1,14 @@
-# Changelog Ajax Systeme
+# Changelog Ajax Systems
 
 >**IMPORTANT**
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+
+# 02/12/2021
+
+- Ajout des commandes on/off pour les relais
+- Ajout d'un démon SIA pour la recuperation local de certaine informations (bien lire la documentation pour la configuration)
+- Ajout d'équipements compatibles
 
 # 19/08/2021
 

@@ -4,6 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 02/12/2021
+
+- Correções de bugs
+- Preparação para Jeedom 4.2
+
 # 11/08/2021
 
 - Possibilidade de incluir / excluir datas de acordo com todos os eventos de um diário 

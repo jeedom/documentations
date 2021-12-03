@@ -4,7 +4,11 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
+# 02/12/2021
+
 - Adicionados comandos liga / desliga para relés
+- Adição de um daemon SIA para a recuperação local de certas informações (leia a documentação para a configuração)
+- Adição de equipamento compatível
 
 # 19/08/2021
 

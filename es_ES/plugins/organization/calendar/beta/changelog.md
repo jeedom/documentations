@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 02/12/2021
+
+- Correcciones de errores
+- Preparación para Jeedom 4.2
+
 # 08/11/2021
 
 - Posibilidad de incluir / excluir fechas según todos los eventos de un diario 

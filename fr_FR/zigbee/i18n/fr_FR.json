@@ -49,6 +49,7 @@
         "AQARA - Module bidirectionnel intelligent": "AQARA - Module bidirectionnel intelligent",
         "AQARA - Prise connectée": "AQARA - Prise connectée",
         "MI - Prise intelligente ON\/OFF": "MI - Prise intelligente ON\/OFF",
+        "AQARA - Détecteur d'ouverture intelligent (3": "AQARA - Détecteur d'ouverture intelligent (3",
         "MIJIA - Serrure connectée": "MIJIA - Serrure connectée",
         "Serrure": "Serrure",
         "AQARA - Ampoule LED connectée": "AQARA - Ampoule LED connectée",
@@ -107,6 +108,7 @@
         "Interrupteur triple": "Interrupteur triple",
         "Module intelligent pour volet roulant": "Module intelligent pour volet roulant",
         "Contrôleur ruban de LED RGBW": "Contrôleur ruban de LED RGBW",
+        "SMART - Module connecté simple ON\/OFF": "SMART - Module connecté simple ON\/OFF",
         "Interrupteur simple intelligent": "Interrupteur simple intelligent",
         "Prise avec 2 ports usb": "Prise avec 2 ports usb",
         "Interrupteur triple intelligent": "Interrupteur triple intelligent",
@@ -304,6 +306,7 @@
         "Commutateur ON\/OFF simple charge 16A": "Commutateur ON\/OFF simple charge 16A",
         "SIN-4-1-01": "SIN-4-1-01",
         "Loratap": "Loratap",
+        "LORATAP - Télécommande 4 boutons": "LORATAP - Télécommande 4 boutons",
         "LORATAP - Télécommande 3 boutons": "LORATAP - Télécommande 3 boutons",
         "Lidl": "Lidl",
         "Controleur d'irrigation": "Controleur d'irrigation",
@@ -572,6 +575,6 @@
         "Documentation": "Documentation",
         "Popp": "Popp",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-12-02 01": "2021-12-02 01"
+        "2021-12-03 01": "2021-12-03 01"
     }
 }

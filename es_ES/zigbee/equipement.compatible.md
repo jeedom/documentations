@@ -214,7 +214,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-||Ouellet|Ouellet OTH3600-GA-ZB|Cabezal termostático|||
+|<img src="../../es_ES/zigbee/images/Sinope_Technologies.OTH3600-GA-ZB.png" width="60" />|Ouellet|Ouellet OTH3600-GA-ZB|Cabezal termostático|||
 
 # Terncy
 
@@ -308,6 +308,7 @@
 |<img src="../../es_ES/zigbee/images/DANFOSS.RV001.png" width="60" />|Danfoss|Aliado de Danfoss|Cabezal termostático||[Documentación](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Comprar](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 |<img src="../../es_ES/zigbee/images/Danfoss.0x0200.png" width="60" />|Danfoss|Controlador de piso Icon de Danfoss|Controlador de piso calefactado|||
 |<img src="../../es_ES/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Aliado de Danfoss|Cabezal termostático||[Documentación](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Comprar](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
+|<img src="../../es_ES/zigbee/images/TZ3000_mxzo5rhf.TS0201.png" width="60" />|Danfoss|Sonda de temperatura y humedad|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5930-danfoss-sonde-de-temperature-et-d-humidite-zigbee-30-5715162289013.html)|
 
 # Dresde elektronik
 
@@ -501,6 +502,7 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Loratap|Módulo de persiana enrollable||||
 |<img src="../../es_ES/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Loratap|LORATAP - Mando a distancia de 3 botones||||
+|<img src="../../es_ES/zigbee/images/TZ3000_ufhtxr59.TS0044.png" width="60" />|Loratap|LORATAP - Mando a distancia de 4 botones||||
 
 # Nodon
 
@@ -741,6 +743,7 @@
 |<img src="../../es_ES/zigbee/images/TZ3000_rrjr1q0u.TS0043.png" width="60" />|Tuya|Interruptor triple inteligente||||
 |<img src="../../es_ES/zigbee/images/TZ3000_scvgu6ow.TS011F.png" width="60" />|Tuya|Toma con 2 puertos usb||||
 |<img src="../../es_ES/zigbee/images/TZ3000_tk3s5tyg.TS0041.png" width="60" />|Tuya|Interruptor único inteligente||||
+|<img src="../../es_ES/zigbee/images/TZ3000_txpirhfq.TS0011.png" width="60" />|Tuya|SMART - Módulo conectado simple ON / OFF||||
 |<img src="../../es_ES/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|Controlador de tira de LED RGBW||||
 |<img src="../../es_ES/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|Módulo de persiana enrollable inteligente||||
 |<img src="../../es_ES/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|Interruptor inteligente de 4 botones con baterías||||
@@ -793,6 +796,7 @@
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.curtain.png" width="60" />|Xiaomi|Motor de cortina||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.light.aqcn02.png" width="60" />|Xiaomi|AQARA - Bombilla LED conectada|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5257-aqara-ampoule-led-zigbee-aqara-blanc-variable-0192784000144.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.lock.v1.png" width="60" />|Xiaomi|MIJIA - Cerradura conectada|Serrure|||
+|<img src="../../es_ES/zigbee/images/LUMI.lumi.magnet.acn001.png" width="60" />|Xiaomi|AQARA - Detector de apertura inteligente (3)|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.plug.png" width="60" />|Xiaomi|MI - Enchufe inteligente ENCENDIDO / APAGADO||||
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.plug.maeu01.png" width="60" />|Xiaomi|AQARA - Toma de corriente conectada|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5385-aqara-prise-connectee-zigbee-30-smart-plug-6970504210646.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.plug.mmeu01.png" width="60" />|Xiaomi|MI - Toma conectada ON / OFF + Medida de consumo|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5305-xiaomi-prise-connectee-zigbee-mi-smart-plug-6934177706493.html)|
@@ -845,4 +849,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-12-02 01:32:19
+2021-12-03 01:32:09

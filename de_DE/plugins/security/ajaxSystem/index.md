@@ -15,6 +15,10 @@ Die Konfiguration des Plugins ist sehr einfach und erfolgt in 2 Schritten :
 >
 >Ein wichtiger Punkt Ajax löst keinen globalen Alarm aus, wenn ein Alarm ausgelöst wird, sondern erhöht den Status des Melders, der den Alarm ausgelöst hat (Ereignisbefehl)
 
+## Compatibilité
+
+Sie finden [Hier](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=ajaxSystem) die Liste der Module, die mit dem Plugin kompatibel sind
+
 ### Link-Konfiguration 
 
 Um die Verbindung zwischen Ihrem Jeedom und Ihrem Ajax-Alarm herzustellen, gehen Sie zu "Plugin" -> "Plugin-Verwaltung" -> "Ajax-System", klicken Sie auf "Verbinden", geben Sie Ihre Ajax-Kennungen ein und klicken Sie auf "Validieren"".

@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 02/12/2021
+
+- Correção de bug se RT2 for reiniciado
+
 # 23/11/2020
 
 - Nova apresentação da lista de objetos

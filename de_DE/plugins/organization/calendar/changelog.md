@@ -4,13 +4,25 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 08.11.2021
+
+- Möglichkeit, Daten gemäß allen Ereignissen eines Tagebuchs ein- / auszuschließen 
+
+# 21.10.2021
+
+- Ergänzung des Gerätelayouts im Tischmodus
+
+# 11.12.2020
+
+- Aktualisierung der Kalenderanzeigebibliothek *(einen Anzeigefehler im Wochenmodus beheben)*
+
 # 07/12/2020
 
 - Ein Fehler in der Farbe der Ereignisse in der Agenda in V4 wurde behoben
 
 # 29.10.2020
 
-- Ein Fehler bei jährlichen Wiederholungen und 32-Bit-Betriebssystemen wurde behoben
+- Fehler bei jährlichen Wiederholungen und 32-Bit-Betriebssystem behoben
 
 # 20.03.2020
 
@@ -87,8 +99,8 @@
 
 # 03/02/2018
 
-- Wenn Sie die Agenda reaktivieren, wenn Sie sich in einem Ereignis befinden, werden die Startaktionen gestartet
+- Wenn beim Reaktivieren der Agenda eine Veranstaltung im Gange ist, werden die Startaktionen gestartet
 
 # 27.02.2008
 
--	Entfernen von Aktivierungs- / Deaktivierungsbefehlen (um eine Agenda in einem Szenario zu deaktivieren, müssen Sie jetzt die Deaktivierungsfunktion des Geräts verwenden)
+-	Entfernen von Aktivierungs-/Deaktivierungsbefehlen *(Um eine Agenda aus einem Szenario zu deaktivieren, müssen Sie jetzt die Funktion zur Gerätedeaktivierung verwenden)*
