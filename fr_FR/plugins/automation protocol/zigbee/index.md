@@ -312,6 +312,7 @@ Si pour un démon donné (1,2 ou 3) vous changer la clef Zigbee sans restaurer u
 >Plusieurs possibilités pour cela :
 >- Vous avez deja beaucoup de module et avez dépassé la limite du nombre de module en direct (31 en général). Il faut soit mettre une autre clef Zigbee (le plugin en géere jusqu'a 3) soit essayé en ajoutant des noeud routeur (attention il n'y a pas de norme clair sur les noeuds routeur il y a donc des incompatibilité entre fabricant...)
 >- Vous etes sous Conbee : essayez de debrancher la clef pendant 2 minutes, de la remettre et relancer le demon, c'est une maladie connu des clef Conbee (meme sous deconz) ou il faut un cold reboot pour que l'inclusion remarche
+>- Vous avez un SSD branché en USB3, essayez de le brancher sur un port USB2
 
 >**Je vois dans les logs des erreurs "No cluster ID XXXXX"**
 >
@@ -320,3 +321,4 @@ Si pour un démon donné (1,2 ou 3) vous changer la clef Zigbee sans restaurer u
 >**Ma commande de capteur de mouvement/d'ouverture/interrupteur reste toujours à 1**
 >
 >C'est courant en zigbee le module envoi la valeur un lors d'une action (mouvement,ouverture,appui sur le bouton) mais ne renvoi pas 0 quand c'est fini (fin de mouvement par exemple). Vous pouvez mettre en place un retour d'état à 0 après 1min (par exemple) dans la configuration de l'équipement onglet commande puis sur la ligne de la commande en question.
+

@@ -12,6 +12,11 @@
 >
 >Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
 
+# 02/12/2021
+
+- Ajout de nouveaux équipements
+- Correction d'un soucis sur la "Configuration des rapports" des modules
+
 # 22/11/2021
 
 - Optimisation de la vitesse de chargement des pages du plugin

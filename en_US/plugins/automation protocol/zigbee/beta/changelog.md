@@ -12,6 +12,11 @@
 >
 >To take advantage of the latest module integration, don't hesitate to update the dependencies
 
+# 12/02/2021
+
+- Addition of new equipment
+- Correction of a problem on the "Report configuration" of the modules
+
 # 22/11/2021
 
 - Optimization of the loading speed of the plugin pages

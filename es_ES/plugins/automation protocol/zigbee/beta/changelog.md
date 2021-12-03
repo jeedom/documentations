@@ -12,6 +12,11 @@
 >
 >Para aprovechar la última integración del módulo, no dude en actualizar las dependencias
 
+# 02/12/2021
+
+- Adición de nuevos equipos
+- Corrección de un problema en la "Configuración del informe" de los módulos
+
 # 22/11/2021
 
 - Optimización de la velocidad de carga de las páginas de complementos

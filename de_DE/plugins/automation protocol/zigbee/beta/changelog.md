@@ -12,6 +12,11 @@
 >
 >Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
 
+# 12.02.2021
+
+- Hinzufügen neuer Geräte
+- Behebung eines Problems bei der "Berichtkonfiguration" der Module
+
 # 22.11.2021
 
 - Optimierung der Ladegeschwindigkeit der Plugin-Seiten

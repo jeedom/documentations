@@ -12,6 +12,11 @@
 >
 >Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
 
+# 02/12/2021
+
+- Adição de novos equipamentos
+- Correção de um problema no "Relatório de configuração" dos módulos
+
 # 22/11/2021
 
 - Otimização da velocidade de carregamento das páginas do plugin
