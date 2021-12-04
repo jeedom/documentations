@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+
+- Ergänzung der TI API (Tele-Info)
+- Hinzufügen der Status-API
+
 # 12.02.2021
 
 - Bugfix wenn rt2 neu gestartet wird

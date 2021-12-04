@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+
+- Ajout de l'api TI (télé-info)
+- Ajout de l'api status
+
 # 02/12/2021
 
 - Correction de bug si le rt2 est redémarré

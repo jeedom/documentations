@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+
+- Adição da API TI (tele-info)
+- Adição da API de status
+
 # 02/12/2021
 
 - Correção de bug se RT2 for reiniciado

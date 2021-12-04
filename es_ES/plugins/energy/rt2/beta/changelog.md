@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+
+- Adición de la API de TI (tele-info)
+- Adición de la API de estado
+
 # 02/12/2021
 
 - Corrección de errores si se reinicia rt2

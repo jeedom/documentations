@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+
+- Addition of the TI API (tele-info)
+- Addition of the status API
+
 # 12/02/2021
 
 - Bug fix if rt2 is restarted
