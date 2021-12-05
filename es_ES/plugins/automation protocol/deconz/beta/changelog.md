@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 12/04/2021
+
+- Soporte de nuevos tipos
+
 # 29/11/2021
 
 - Posibilidad de desinstalar Deconz, gracias @Benjamin 
