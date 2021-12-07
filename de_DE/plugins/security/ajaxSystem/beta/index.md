@@ -57,6 +57,10 @@ Für ihn keine Sorge, Sie haben Echtzeit-Status der Fenster- / Türöffnungs- / 
 
 ## SIA
 
+>**WICHTIG**
+>
+> Diese Funktion ist derzeit nicht mit RPIs kompatibel
+
 Es ist auch möglich, den Ajax-Alarm über das SIA-Protokoll mit Jeedom zu verbinden, was den Vorteil hat, dass es lokal ist (keine Cloud), aber nur Informationen empfangen kann (keine Alarmsteuerung möglich)).
 
 >**WICHTIG**

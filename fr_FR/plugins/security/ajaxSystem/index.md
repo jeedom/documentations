@@ -57,6 +57,10 @@ Pour lui pas de soucis, vous avez l'état en temps réel de l'information de fen
 
 ## SIA
 
+>**IMPORTANT**
+>
+> Cette fonctionalitée n'est pour le moment pas compatible avec les RPI
+
 Il est possible aussi de relier l'alarme Ajax à Jeedom par le protocole SIA, qui a l'avantage d'etre local (pas de cloud) mais qui ne peut que recevoir des informations (pas de pilotage de l'alarme possible).
 
 >**IMPORTANT**

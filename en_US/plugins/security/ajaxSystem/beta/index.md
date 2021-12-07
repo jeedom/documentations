@@ -57,6 +57,10 @@ For him no worries, you have real-time status of window / door open / closed inf
 
 ## SIA
 
+>**IMPORTANT**
+>
+> This feature is currently not compatible with RPIs
+
 It is also possible to connect the Ajax alarm to Jeedom by the SIA protocol, which has the advantage of being local (no cloud) but which can only receive information (no alarm control possible).
 
 >**IMPORTANT**

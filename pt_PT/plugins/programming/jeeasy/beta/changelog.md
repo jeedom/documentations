@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+#06/12/2021
+
+- Adicionada escolha de idioma.
+
 #30/09/2021
 
 - Adicionar Atlas de Recuperação.

@@ -57,6 +57,10 @@ Para ele, não se preocupe, você tem o status em tempo real das informações d
 
 ## SIA
 
+>**IMPORTANTE**
+>
+> Este recurso atualmente não é compatível com RPIs
+
 Também é possível conectar o alarme Ajax ao Jeedom pelo protocolo SIA, que tem a vantagem de ser local (sem nuvem), mas que só pode receber informações (não é possível controlar o alarme).
 
 >**IMPORTANTE**
