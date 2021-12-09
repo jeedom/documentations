@@ -4,6 +4,8 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
+- Gestión del color de los módulos para mostrar la imagen correcta (es necesario rehacer una sincronización)
+
 # 02/12/2021
 
 - Se agregaron comandos de encendido / apagado para relés

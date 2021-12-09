@@ -4,6 +4,12 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 12/08/2021
+
+- Addition of an option to configure the subscriptions to be activated when calculating routes (see documentation)
+- Added option to use any command from any plugin as start or end position
+- Fixed extracting trip info due to a Waze API change
+
 # 10/18/2021
 
 - Improved configuration pages for v4:

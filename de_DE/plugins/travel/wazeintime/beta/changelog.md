@@ -4,6 +4,12 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 12.08.2021
+
+- Option zur Konfiguration der zu aktivierenden Abonnements bei der Routenberechnung hinzugefügt (siehe Dokumentation)
+- Option hinzugefügt, um jeden Befehl von jedem Plugin als Start- oder Endposition zu verwenden
+- Das Extrahieren von Reiseinformationen aufgrund einer Waze-API-Änderung behoben
+
 # 18.10.2021
 
 - Verbesserte Konfigurationsseiten für v4:

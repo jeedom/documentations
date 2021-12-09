@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Farbmanagement der Module, um das richtige Bild anzuzeigen (eine Synchronisierung muss erneut durchgeführt werden)
+
 # 12.02.2021
 
 - Ein/Aus-Befehle für Relais hinzugefügt

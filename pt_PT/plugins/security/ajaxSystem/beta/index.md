@@ -15,6 +15,10 @@ A configuração do plugin é muito simples e ocorre em 2 passos :
 >
 >Um ponto importante Ajax não emite um alerta global quando um alarme é acionado, mas levanta o status no detector que acionou o alarme (comando de eventos)
 
+>**IMPORTANTE**
+>
+>O daemon é usado apenas para a parte SIA. Se você desativá-lo, ainda terá informações voltando da nuvem. Você pode, portanto, desativá-lo se você não usar a parte SIA
+
 ## Compatibilité
 
 Você pode encontrar [aqui](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=ajaxSystem) a lista de módulos compatíveis com o plugin
@@ -87,4 +91,4 @@ Normalmente, se tudo estiver bem, você deve ver a mudança de "Estação Centra
 
 >**IMPORTANTE**
 >
-> Algum comando só funciona se o SIA estiver configurado
+> Certas informações só são retornadas se o AIS estiver configurado

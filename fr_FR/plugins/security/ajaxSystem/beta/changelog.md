@@ -4,6 +4,8 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Gestion de la couleur des modules pour afficher la bonne image (necessite de refaire une synchronisation)
+
 # 02/12/2021
 
 - Ajout des commandes on/off pour les relais

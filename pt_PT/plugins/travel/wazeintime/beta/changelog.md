@@ -4,6 +4,12 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 12/08/2021
+
+- Acréscimo de uma opção para configurar as assinaturas a serem ativadas no cálculo das rotas (ver documentação)
+- Adicionada opção para usar qualquer comando de qualquer plugin como posição inicial ou final
+- Foi corrigida a extração de informações de viagem devido a uma alteração da API do Waze
+
 # 18/10/2021
 
 - Páginas de configuração aprimoradas para v4:

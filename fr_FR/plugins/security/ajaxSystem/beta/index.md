@@ -15,6 +15,10 @@ La configuration du plugin est très simple et se deroule en 2 étapes :
 >
 >Un point important Ajax ne remonte pas d'alerte globale lors d'un déclenchement d'alarme mais remonte le statut sur le détecteur qui a déclenché l'alarme (commande événements)
 
+>**IMPORTANT**
+>
+>Le démon sert uniquement pour la partie SIA. Si vous le désactivez vous aurez toujours les remontées d'information par le cloud. Vous pouvez donc le desactiver si vous ne vous servez pas de la partie SIA
+
 ## Compatibilité
 
 Vous pouvez trouver [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=ajaxSystem) la liste des modules compatible avec le plugin
@@ -87,4 +91,4 @@ Normalement si tout est bon vous devriez voir le "Centre de télésurveillance" 
 
 >**IMPORTANT**
 >
-> Certaine commande ne marche que si le SIA est configuré
+> Certaine information ne remontent que si le SIA est configuré

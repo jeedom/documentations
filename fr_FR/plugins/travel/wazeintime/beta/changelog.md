@@ -4,6 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 08/12/2021
+
+- Ajout d'une option pour configurer les abonnements à activer lors du calcul des itinéraires (voir documentation)
+- Ajout d'une option pour utiliser n'importe quelle commande de n'importe quel plugin comme position de départ ou d'arrivée
+- Correction de l'extraction des infos de trajet dû à un changement d'api de Waze
+
 # 18/10/2021
 
 - Amélioration des pages de configuration pour la v4:

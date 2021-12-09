@@ -4,6 +4,8 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
+- Gerenciamento de cores dos módulos para exibir a imagem correta (é necessário refazer uma sincronização)
+
 # 02/12/2021
 
 - Adicionados comandos liga / desliga para relés

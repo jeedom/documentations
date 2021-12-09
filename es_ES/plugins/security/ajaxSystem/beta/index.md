@@ -15,6 +15,10 @@ La configuración del complemento es muy simple y se realiza en 2 pasos :
 >
 >Un punto importante Ajax no genera una alerta global cuando se activa una alarma, pero sí eleva el estado del detector que activó la alarma (comando de eventos)
 
+>**IMPORTANTE**
+>
+>El demonio solo se usa para la parte SIA. Si lo desactiva, seguirá teniendo información procedente de la nube. Por lo tanto, puede desactivarlo si no utiliza la parte SIA
+
 ## Compatibilité
 
 Puedes encontrar [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=ajaxSystem) la lista de módulos compatibles con el complemento
@@ -87,4 +91,4 @@ Normalmente, si todo está bien, debería ver el cambio de "Estación central" a
 
 >**IMPORTANTE**
 >
-> Algunos comandos solo funcionan si el SIA está configurado
+> Cierta información solo se devuelve si el AIS está configurado
