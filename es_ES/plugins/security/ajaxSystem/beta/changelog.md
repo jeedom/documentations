@@ -5,6 +5,9 @@
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
 - Gestión del color de los módulos para mostrar la imagen correcta (es necesario rehacer una sincronización)
+- Corrección de un problema en las entradas externas de DoorProtect (es necesario retirar el equipo y resincronizar)
+- Se solucionó un problema con el demonio SIA
+- Actualización de documentación
 
 # 02/12/2021
 

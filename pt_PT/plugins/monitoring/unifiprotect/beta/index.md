@@ -1,6 +1,6 @@
 # Plug-in Unifi Protect
 
-# Description
+## Description
 
 Plugin para conectar o Jeedom ao Unifi Protect
 
@@ -8,12 +8,16 @@ Plugin para conectar o Jeedom ao Unifi Protect
 >
 >Não há API oficial para Unifi proteger, o plugin pode, portanto, parar de funcionar durante a noite após uma atualização do Unifi proteger. Sob nenhuma circunstância a Jeedom pode ser responsabilizada e / ou ter o dever de corrigir
 
-# Configuração de plug-in
+## Compatibilité
+
+Você pode encontrar [aqui](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=unifiprotect) a lista de módulos compatíveis com o plugin
+
+## Configuração de plug-in
 
 Depois de instalar o plugin, você só precisa ativá-lo. Alguns parâmetros devem ser inseridos na configuração do plugin :
 
 -   **Controlador de proteção Unifi** : Você tem que colocar o caminho para o seu controlador Unifi (apenas o IP na maioria dos casos)
--   **Unifi proteger usuário** : Indique aqui um nome de usuário local (admin) 
+-   **Unifi proteger usuário** : Indique aqui um nome de usuário local (o usuário pode ser "Administrador limitado" com "Somente visualização" no Unifi Protect) 
 -   **Senha de proteção Unifi** : Digite a senha do usuário aqui
 -   **Taxa de atualização** : Frequência de solicitações de informações para o controlador (quanto menor for, mais recursos ele consumirá nele, cuidado com aqueles no UDM-Pro)
 -   **Não colete eventos** : Não recupera eventos das câmeras (permite consumir menos recursos, mas você perde a detecção de movimento / pessoa / carro /...)
@@ -23,9 +27,9 @@ Depois de instalar o plugin, você só precisa ativá-lo. Alguns parâmetros dev
 >
 >Se você tiver o plugin de câmera instalado, o plugin Unifi Protect criará automaticamente as câmeras no plugin de câmera 
 
-# Feedback de informação
+## Feedback de informação
 
-## Controleur
+### Controleur
 
 - Etat
 - Uptime
@@ -38,7 +42,7 @@ Depois de instalar o plugin, você só precisa ativá-lo. Alguns parâmetros dev
 - Usando tmpfs
 - Uso de disco
 
-## Câmera 
+### Câmera 
 
 - Conectado
 - Etat

@@ -1327,6 +1327,7 @@
         " Market*": " Markt*"
     },
     "plugins\/monitoring\/index.md": {
+        "Plugin permettant de connecter Jeedom à Unifi Protect": "Plugin zum Verbinden von Jeedom mit Unifi Protect",
         "Ubiquiti Unifi protect": "Ubiquiti Unifi-Schutz",
         "ATTENTION plugin disponible uniquement en beta": "ACHTUNG Plugin nur in Beta verfügbar",
         "Plugin pour monitorer vos serveurs d'impression 3D": "Plugin zur Überwachung Ihrer 3D-Druckserver",

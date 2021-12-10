@@ -5,6 +5,9 @@
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 - Farbmanagement der Module, um das richtige Bild anzuzeigen (eine Synchronisierung muss erneut durchgeführt werden)
+- Behebung eines Problems an den externen Eingängen von DoorProtect (ein Ausbau des Gerätes und Neusynchronisation ist notwendig)
+- Problem mit dem SIA-Daemon behoben
+- Dokumentations-Update
 
 # 12.02.2021
 

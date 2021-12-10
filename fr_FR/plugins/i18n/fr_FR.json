@@ -488,6 +488,7 @@
     },
     "plugins\/monitoring\/index.md": {
         "Ventilairsec": "Ventilairsec",
+        "Plugin permettant de connecter Jeedom à Unifi Protect": "Plugin permettant de connecter Jeedom à Unifi Protect",
         "Ubiquiti Unifi protect": "Ubiquiti Unifi protect",
         "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
         "Octoprint": "Octoprint",

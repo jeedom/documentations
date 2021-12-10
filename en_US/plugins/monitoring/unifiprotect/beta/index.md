@@ -1,6 +1,6 @@
 # Unifi Protect plugin
 
-# Description
+## Description
 
 Plugin to connect Jeedom to Unifi Protect
 
@@ -8,12 +8,16 @@ Plugin to connect Jeedom to Unifi Protect
 >
 >There is no official API for Unifi protect the plugin can therefore stop working overnight following an update of Unifi protect. Under no circumstances can Jeedom be held responsible and / or have the duty to correct
 
-# Plugin configuration
+## Compatibilité
+
+You can find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=unifiprotect) the list of modules compatible with the plugin
+
+## Plugin configuration
 
 After installing the plugin, you just need to activate it. Some parameters must be entered in the plugin configuration :
 
 -   **Unifi protect controller** : You have to put the path to your Unifi controller (just the IP in most cases)
--   **Unifi protect user** : Indicate here a local user name (admin) 
+-   **Unifi protect user** : Indicate here a local user name (the user can be "Limeted Admin" with "View only" on Unifi Protect) 
 -   **Unifi protect password** : Enter the user's password here
 -   **Refresh rate** : Frequency of information requests to the controller (the lower it is, the more resources it will consume on it, beware of those on UDM-Pro)
 -   **Do not collect events** : Do not recover the events from the cameras (allows to consume less resources but you lose the detection of movement / person / car /...)
@@ -23,9 +27,9 @@ After installing the plugin, you just need to activate it. Some parameters must 
 >
 >If you have the camera plugin installed the Unifi Protect plugin will automatically create the cameras in the camera plugin 
 
-# Information feedback
+## Information feedback
 
-## Controleur
+### Controleur
 
 - Etat
 - Uptime
@@ -38,7 +42,7 @@ After installing the plugin, you just need to activate it. Some parameters must 
 - Using tmpfs
 - Disk usage
 
-## Camera 
+### Camera 
 
 - Connected
 - Etat
