@@ -1978,7 +1978,7 @@
         " Beta*": " Beta*"
     },
     "plugins\/security\/index.md": {
-        "Plugin permettant de connecter Jeedom à Unifi Protect": "Plugin allowing to connect Jeedom to Unifi Protect",
+        "Plugin permettant de connecter Jeedom à Unifi Protect": "Plugin to connect Jeedom to Unifi Protect",
         "Ubiquiti Unifi protect": "Ubiquiti Unifi protect",
         "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin available only in beta",
         "Simons voss": "Simons voss",
