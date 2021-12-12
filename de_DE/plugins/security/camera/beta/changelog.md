@@ -6,6 +6,11 @@
 
 - Schaltfläche zur Vorschau des Videostreams auf der Kamerakonfigurationsseite hinzugefügt
 
+# 12.11.2021
+
+- Unterstützung für neue Kameras
+- Schaltfläche hinzugefügt, um eine Vorschau der Kamera auf der Konfigurationsseite anzuzeigen
+
 # 31.08.2021
 
 - Änderung, um die Wiederherstellung von einer Funktion eines anderen Plugins zu ermöglichen (wird für ein zukünftiges Unifi Protect-Plugin verwendet)

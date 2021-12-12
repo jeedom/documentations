@@ -6,6 +6,11 @@
 
 - Se agregó un botón para obtener una vista previa de la transmisión de video en la página de configuración de la cámara
 
+# 11/12/2021
+
+- Soporte para nuevas cámaras
+- Se agregó un botón para ver una vista previa de la cámara en la página de configuración
+
 # 31/08/2021
 
 - Modificación para permitir la recuperación de una función de otro complemento (se utilizará para un futuro complemento Unifi Protect)

@@ -34,6 +34,9 @@ Ici vous avez les informations principales de votre caméra :
 -   **Mot de passe** : mot de passe pour se connecter à la caméra (si nécessaire).Attention le plugin fait un url_encode pour le nom d'utilisateur et mot de passe obligatoire pour certaine camera mais cela peut poser soucis pour d'autre, si vous avez un soucis essayez sans caractères spéciaux (se limiter aux chiffres, lettres minuscule/majuscule).
 -   **URL de snapshot** : URL de "snapshot" de la caméra. Change en fonction des caméras. Attention à ne pas mettre une url de flux sous peine de planter Jeedom. Vous pouvez ajouter les tags \#username\# et \#password\#, qui seront automatiquement remplacés par le nom d'utilisateur et le mot de passe lors de l'utilisation de cette commande.
 -   **URL du flux** : url du flux video de la caméra de type ``rtsp://#username#:#password#@#ip#:554/videoMain`` (exemple pour les caméras Foscam).
+-   **Stream du flux RTSP** : si vous etês en mode flux video (URL du flux remplis) alors vous pouvez voir la camera sous forme de flux video au lieu d'image par image. Attention cette option est très consommatrice de ressources et rend la 1er image très à arriver.
+-   **Previsualiser** : permet de voir si jeedom recupere bien le flux video (pensez bien a sauvegarder avant de test pour voir si vos modifications marchent)
+-   **Option flux video** : si vous etês en mode flux video (URL du flux remplis) alors vous pouvez passer des parametres suplementaire ici à ffmpeg et avconv (reservé aux experts)
 -   **Modèle** : permet de choisir le modèle de la caméra. Attention : si vous changez cela écrasera vos paramètres de configuration.
 
 > **NOTE**

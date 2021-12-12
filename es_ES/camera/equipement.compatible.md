@@ -188,9 +188,13 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/camera/images/ubiquiti.Cúpula UVC G3.png" width="60" />|Ubiquiti|Cúpula UVC G3||||
 |<img src="../../es_ES/camera/images/ubiquiti.UVC G3 Flex.png" width="60" />|Ubiquiti|Ubiquiti G3 Flex||||
 |<img src="../../es_ES/camera/images/ubiquiti.UVC G3 Instant.png" width="60" />|Ubiquiti|Ubiquiti G3 Instant||||
+|<img src="../../es_ES/camera/images/ubiquiti.UVC G3 Pro.png" width="60" />|Ubiquiti|Ubiquiti G3 Pro||||
 |<img src="../../es_ES/camera/images/ubiquiti.UVC G4 Bullet.jpg" width="60" />|Ubiquiti|Bullet Ubiquiti G4||||
+|<img src="../../es_ES/camera/images/ubiquiti.UVC G4 Doorbell.png" width="60" />|Ubiquiti|Bullet Ubiquiti G4||||
+|<img src="../../es_ES/camera/images/ubiquiti.UVC G4 Pro.png" width="60" />|Ubiquiti|Ubiquiti G4 Pro||||
 
 # Vistacam
 
@@ -235,4 +239,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2021-12-11 01:20:03
+12/12/2021 01:20:05

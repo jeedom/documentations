@@ -4,6 +4,8 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+# 12/11/2021
+
 - Color management of the modules to display the correct image (need to redo a synchronization)
 - Correction of a problem on the external inputs of DoorProtect (a removal of the equipment and resynchronization is necessary)
 - Fixed a problem with the SIA daemon

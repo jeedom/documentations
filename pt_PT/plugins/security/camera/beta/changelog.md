@@ -6,6 +6,11 @@
 
 - Adicionado um botão para visualizar o stream de vídeo na página de configuração da câmera
 
+# 11/12/2021
+
+- Suporte para novas câmeras
+- Adicionado um botão para ver uma prévia da câmera na página de configuração
+
 # 31/08/2021
 
 - Modificação para permitir a recuperação de uma função de outro plugin (será usado para um futuro plugin Unifi Protect)

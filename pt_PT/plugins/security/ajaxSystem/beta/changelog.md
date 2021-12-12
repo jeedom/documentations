@@ -4,6 +4,8 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
+# 11/12/2021
+
 - Gerenciamento de cores dos módulos para exibir a imagem correta (é necessário refazer uma sincronização)
 - Correção de um problema nas entradas externas do DoorProtect (é necessária a remoção do equipamento e a ressincronização)
 - Corrigido um problema com o daemon SIA

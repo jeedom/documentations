@@ -4,6 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Ajout d'un bouton pour previsualiser le flux video sur la page de configuration de la camera
+
+# 11/12/2021
+
+- Support de nouvelles caméras
+- Ajout d'un bouton pour voir une prévisualisation de la camera sur la page de configuration
+
 # 31/08/2021
 
 - Modification pour autoriser la recuperation depuis une fonction d'un autre plugin (sera utilisé pour un futur plugin Unifi Protect)

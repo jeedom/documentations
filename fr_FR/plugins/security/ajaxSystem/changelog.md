@@ -4,6 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 11/12/2021
+
+- Gestion de la couleur des modules pour afficher la bonne image (necessite de refaire une synchronisation)
+- Correction d'un soucis sur les entrées externe des DoorProtect (une supression des équipements et resynchronisation est necessaire)
+- Correction d'un soucis sur le démon SIA
+- Mise à jour de la documentation
+
 # 02/12/2021
 
 - Ajout des commandes on/off pour les relais
