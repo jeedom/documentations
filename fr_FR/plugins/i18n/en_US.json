@@ -1654,7 +1654,7 @@
         " Changelog*": " Changelog*"
     },
     "plugins\/organization\/index.md": {
-        "Plugin pour gerer different mode de sa maison\/son appartement": "Plugin to manage different mode of your house \/ apartment",
+        "Plugin permettant de créer et gérer différents modes (maison\/appartement, alarme, présences, etc...) et d'effectuer des actions automatiquement lors de l'entrée et\/ou la sortie d'un mode": "Plugin allowing to create and manage different modes (house \/ apartment, alarm, presence, etc ...) and to perform actions automatically when entering and \/ or exiting a mode",
         "Plugin permettant à Jeedom de gérer la géolocalisation (Uniquement pour Android via l'application Tasker": "Plugin allowing Jeedom to manage geolocation (Only for Android via the Tasker application",
         "La démarche est expliquée dans la documentation": "The process is explained in the documentation",
         "Google agenda": "Google calendar",

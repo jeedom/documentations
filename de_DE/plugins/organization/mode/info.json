@@ -1,11 +1,46 @@
 {
     "id": "mode",
     "name": "Mode",
-    "description": "Plugin pour gerer different mode de sa maison\/son appartement",
+    "description": {
+        "fr_FR": "Plugin permettant de créer et gérer différents modes (maison\/appartement, alarme, présences, etc...) et d'effectuer des actions automatiquement lors de l'entrée et\/ou la sortie d'un mode.",
+        "en_US": "Plugin allowing to create and manage different modes (house \/ apartment, alarm, presence, etc ...) and to perform actions automatically when entering and \/ or exiting a mode",
+        "es_ES": "Plugin que permite crear y gestionar diferentes modos (casa \/ apartamento, alarma, presencia, etc ...) y realizar acciones de forma automática al entrar y \/ o salir de un modo",
+        "de_DE": "Plugin zum Erstellen und Verwalten verschiedener Modi (Haus \/ Wohnung, Alarm, Anwesenheit usw.) und zum automatischen Ausführen von Aktionen beim Betreten und \/ oder Verlassen eines Modus",
+        "pt_PT": "Plugin que permite criar e gerenciar diferentes modos (casa \/ apartamento, alarme, presença, etc ...) e realizar ações automaticamente ao entrar e \/ ou sair de um modo",
+        "ru_RU": "Plugin permettant de créer et gérer différents modes (maison\/appartement, alarme, présences, etc...) et d'effectuer des actions automatiquement lors de l'entrée et\/ou la sortie d'un mode",
+        "id_ID": "Plugin permettant de créer et gérer différents modes (maison\/appartement, alarme, présences, etc...) et d'effectuer des actions automatiquement lors de l'entrée et\/ou la sortie d'un mode",
+        "it_IT": "Plugin permettant de créer et gérer différents modes (maison\/appartement, alarme, présences, etc...) et d'effectuer des actions automatiquement lors de l'entrée et\/ou la sortie d'un mode",
+        "ja_JP": "Plugin permettant de créer et gérer différents modes (maison\/appartement, alarme, présences, etc...) et d'effectuer des actions automatiquement lors de l'entrée et\/ou la sortie d'un mode",
+        "tr": "Plugin permettant de créer et gérer différents modes (maison\/appartement, alarme, présences, etc...) et d'effectuer des actions automatiquement lors de l'entrée et\/ou la sortie d'un mode"
+    },
+    "utilization": "Créez un nouvel équipement dans Plugins → Organisation → Mode puis ajoutez les modes souhaités avant de définir les actions d'entrée et\/ou de sortie de chaque mode.",
     "licence": "AGPL",
     "author": "Loïc",
-    "require": "3.0",
+    "require": "3.3.39",
     "category": "organization",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/mode\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/mode\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/mode\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/mode\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/mode\/beta"
 }

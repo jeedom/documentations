@@ -599,7 +599,7 @@
     },
     "plugins\/organization\/index.md": {
         "Mode": "Mode",
-        "Plugin pour gerer different mode de sa maison\/son appartement": "Plugin pour gerer different mode de sa maison\/son appartement",
+        "Plugin permettant de créer et gérer différents modes (maison\/appartement, alarme, présences, etc...) et d'effectuer des actions automatiquement lors de l'entrée et\/ou la sortie d'un mode": "Plugin permettant de créer et gérer différents modes (maison\/appartement, alarme, présences, etc...) et d'effectuer des actions automatiquement lors de l'entrée et\/ou la sortie d'un mode",
         "Geoloc": "Geoloc",
         "Plugin permettant à Jeedom de gérer la géolocalisation (Uniquement pour Android via l'application Tasker": "Plugin permettant à Jeedom de gérer la géolocalisation (Uniquement pour Android via l'application Tasker",
         "La démarche est expliquée dans la documentation": "La démarche est expliquée dans la documentation",
