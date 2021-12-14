@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 13/12/2021
+
+- Modo sin conexión para QrCode (creación de QrCode sin Internet.).
+- Compatibilidad 4.2 Jeedom Core
+
 # 11/10/2021
 
 - Adición del complemento Zigbee en complementos compatibles.

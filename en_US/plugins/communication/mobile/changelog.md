@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 10/11/2021
+
+- Addition of the Zigbee plugin in compatible plugins.
+
 # 06/21/2021
 
 - New timeout for notifications and referral in the event of a problem with the server.

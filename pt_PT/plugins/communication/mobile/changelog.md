@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 11/10/2021
+
+- Adição do plug-in Zigbee em plug-ins compatíveis.
+
 # 21/06/2021
 
 - Novo tempo limite para notificações e encaminhamento em caso de problema com o servidor.

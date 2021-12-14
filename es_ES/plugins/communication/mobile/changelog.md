@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 11/10/2021
+
+- Adición del complemento Zigbee en complementos compatibles.
+
 # 21/06/2021
 
 - Nuevo tiempo de espera para notificaciones y referencias en caso de un problema con el servidor.

@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 11.10.2021
+
+- Hinzufügen des Zigbee-Plugins in kompatible Plugins.
+
 # 21.06.2021
 
 - Neues Timeout für Benachrichtigungen und Weiterleitung bei Problemen mit dem Server.

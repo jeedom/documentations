@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 13/12/2021
+
+- Mode offline pour le QrCode (creation du QrCode sans internet.).
+- Compatibilité 4.2 Jeedom Core
+
 # 11/10/2021
 
 - Ajout du plugin Zigbee dans les plugins compatible.
