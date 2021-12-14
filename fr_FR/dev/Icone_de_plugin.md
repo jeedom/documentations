@@ -12,10 +12,11 @@ Il doit être enregistré dans le dossier `/plugin-info/`
 
 Ce fichier est obligatoire.
 
-Nous vous remercions par avance de ne pas utiliser le même code couleur que les icônes des plugin officiels Jeedom.
+Nous vous remercions par avance de ne pas utiliser le même code couleur que les icônes des plugins officiels Jeedom.
 
-Pour 2020 il est maintenant recommandé de ne plus mettre le nom sous l'image (attention à garder quand même les mêmes tailles du modèle !)
+Depuis 2020, il est recommandé de ne plus mettre le nom sous l'image (attention à garder quand même les mêmes tailles du modèle !)
 
-Merci d'utiliser ce modèle (bors arrondi, taille, fond coloré, transparence autour etc..) :
+Merci d'utiliser ce modèle (bords arrondi, taille, fond coloré, transparence autour etc..) :
 
 ![modele-icone](images/plugin-Jeedom-px.jpg)
+![modele-icon](images/template_icon.png)
