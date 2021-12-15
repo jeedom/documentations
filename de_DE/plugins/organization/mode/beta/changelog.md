@@ -1,5 +1,7 @@
 # Änderungsprotokollmodus
 
+# 12.12.2021
+
 - Schaltfläche hinzugefügt, um zum nächsten Modus zu gelangen
 
 # 28.06.2021

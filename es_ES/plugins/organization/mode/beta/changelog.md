@@ -1,5 +1,7 @@
 # Modo de registro de cambios
 
+# 12/12/2021
+
 - Se agregó un botón para ir al siguiente modo
 
 # 28/06/2021

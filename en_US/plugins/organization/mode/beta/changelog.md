@@ -1,5 +1,7 @@
 # Changelog Mode
 
+# 12/12/2021
+
 - Added a button to go to the next mode
 
 # 06/28/2021
