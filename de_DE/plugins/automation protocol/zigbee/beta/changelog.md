@@ -12,6 +12,8 @@
 >
 >Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
 
+- Ein Problem beim Anfordern einer Aktualisierung von mehr als 7 Attributwerten wurde behoben, danke @kaktusatomik
+
 # 12.02.2021
 
 - Hinzufügen neuer Geräte

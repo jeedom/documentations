@@ -12,6 +12,8 @@
 >
 >Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
 
+- Corrigido um problema ao solicitar uma atualização de mais de 7 valores de atributo, obrigado @kaktusatomik
+
 # 02/12/2021
 
 - Adição de novos equipamentos
