@@ -13,6 +13,7 @@
 >Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
 
 - Correction d'un soucis lors de la demande de rafraichissement de plus de 7 valeurs d'attributs, merci @kaktusatomik
+- Ajout de nouveaux équipements (merci @cstan77)
 
 # 02/12/2021
 

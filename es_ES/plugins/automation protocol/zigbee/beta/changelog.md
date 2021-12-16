@@ -13,6 +13,7 @@
 >Para aprovechar la última integración del módulo, no dude en actualizar las dependencias
 
 - Se solucionó un problema al solicitar una actualización de más de 7 valores de atributo, gracias @kaktusatomik
+- Equipo nuevo agregado (gracias @ cstan77)
 
 # 02/12/2021
 

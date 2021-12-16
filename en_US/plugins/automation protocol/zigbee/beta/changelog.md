@@ -13,6 +13,7 @@
 >To take advantage of the latest module integration, don't hesitate to update the dependencies
 
 - Fixed an issue when requesting a refresh of more than 7 attribute values, thanks @kaktusatomik
+- Added new equipment (thanks @ cstan77)
 
 # 12/02/2021
 
