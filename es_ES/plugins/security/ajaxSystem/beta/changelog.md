@@ -4,6 +4,8 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
+- Corrección de la gestión del color del equipo
+
 # 11/12/2021
 
 - Gestión del color de los módulos para mostrar la imagen correcta (es necesario rehacer una sincronización)

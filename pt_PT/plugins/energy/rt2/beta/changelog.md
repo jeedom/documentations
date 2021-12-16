@@ -4,7 +4,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 15/12/2021
 
+- Correção de bug em Index_TORE (obrigado @Math)
 - Adição da API TI (tele-info)
 - Adição da API de status
 

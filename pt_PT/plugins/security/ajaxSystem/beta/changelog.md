@@ -4,6 +4,8 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
+- Correção do gerenciamento de cores do equipamento
+
 # 11/12/2021
 
 - Gerenciamento de cores dos módulos para exibir a imagem correta (é necessário refazer uma sincronização)

@@ -226,7 +226,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/Titan_Products_Ltd.TPZRCO2HT-Z3L.png" width="60" />|Titan Products Ltd|TPZ-Net Wireless CO2-, Temperatur- und Feuchtigkeitssensoren|Temperatur, Luftfeuchtigkeit, Luftqualität|||
+|<img src="../../de_DE/zigbee/images/Titan_Products_Ltd.TPZRCO2HT-Z3L.png" width="60" />|Titan Products Ltd|TPZ-Net Wireless CO2-, Temperatur- und Feuchtigkeitssensoren|Temperatur, Luftfeuchtigkeit, Luftqualität, CO2|||
 
 # Vertrauen International
 
@@ -254,6 +254,13 @@
 |<img src="../../de_DE/zigbee/images/TYZB01_mtlhqn48.TS0012.png" width="60" />|Zemismart|Smart Load mit einer Last ohne Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Zemismart|Smart Load mit einer Last ohne Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/TZE200_xuzcvlku.TS0601.png" width="60" />|Zemismart|Store|Volets|||
+
+# Acova
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/acova.alcantara2 d1.00p1.01z1.00.png" width="60" />|Acova|ACOVA Alcantara2|Chauffage||[Dokumentation](https://acova.fr/sites/default/files/PIM/documents/Notice_utilisation_Alcantara_2.pdf)<br/>[Kaufen](https://www.leroymerlin.fr/produits/chauffage-plomberie/chauffage-electrique/radiateur-electrique/radiateur-a-inertie/radiateur-electrique-connecte-a-inertie-fluide-1000w-acova-alcantara2-horizontal-82646764.html)|
+|<img src="../../de_DE/zigbee/images/acova.percale2 d1.00p1.01z1.00.png" width="60" />|Acova|ACOVA Perkal2|Chauffage||[Dokumentation](https://acova.fr/radiateur-electrique/percale-2-connecte-156865)<br/>[Kaufen](https://www.leroymerlin.fr/produits/chauffage-plomberie/chauffage-electrique/radiateur-electrique/radiateur-a-inertie/radiateur-electrique-connecte-a-inertie-fluide-1000w-acova-percale2-horizontal-82646753.html)|
 
 # Adeo
 
@@ -320,6 +327,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/eWeLight.ZB-CL01.png" width="60" />|eWeLight|RGBCW MR16 Smart LED-Lampe||||
 |<img src="../../de_DE/zigbee/images/eWeLink.SA-003-Zigbee.png" width="60" />|EWeLink|OnOff-Controller||||
 |<img src="../../de_DE/zigbee/images/eWeLink.ZB-CL01.png" width="60" />|EWeLink|RGBCW MR16 Smart LED-Lampe||||
 |<img src="../../de_DE/zigbee/images/eWeLink.ZB-SW02.png" width="60" />|EWeLink|OnOff-Controller||||
@@ -373,6 +381,8 @@
 |<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-EF-3.0.png" width="60" />|Heiman|Rauchmelder||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-EM.png" width="60" />|Heiman|Rauchmelder||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Rauchmelder||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.TempDimmerSw-EM-3.0.png" width="60" />|Heiman|5-Tasten-Fernbedienung||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.TemperLight.png" width="60" />|Heiman|||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.WarningDevice-EF-3.0.png" width="60" />|Heiman|Intelligente Sirene||||
 |<img src="../../de_DE/zigbee/images/Heiman.SmartPlug.png" width="60" />|Schneider|Verbundene Buchse und Repeater Wiser|Buchse, Messgerät, Leistung, Repeater||[Kaufen](https://www.domadoo.fr/fr/eclairage/5499-schneider-electric-prise-connectee-et-repeteur-zigbee-30-wiser-3606489917883.html)|
 |<img src="../../de_DE/zigbee/images/Heiman.WarningDevice.png" width="60" />|Heiman|Außensirene|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5564-smabit-sirene-exterieure-zigbee-104-db-8023874397641.html)|
@@ -717,6 +727,7 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_a7ouggvs.TS0043.png" width="60" />|Tuya|Schalter mit 3 Tasten||||
 |<img src="../../de_DE/zigbee/images/TZ3000_abci1hiu.TS0044.png" width="60" />|Tuya|Szenen-Fernbedienung 4 Tasten||||
 |<img src="../../de_DE/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Intelligenter Doppelschalter||||
+|<img src="../../de_DE/zigbee/images/TZ3000_air9m6af.TS011F.png" width="60" />|Tuya|Steckdosenleiste 16A 4000W 4AC + 2USB|Steckdose, Verbrauch, Leistung, Repeater||[Kaufen](https://fr.aliexpress.com/item/1005001408157771.html)|
 |<img src="../../de_DE/zigbee/images/TZ3000_cphmq0q7.TS011F.png" width="60" />|Tuya|Angeschlossene Steckdose|Buchse, Messgerät, Leistung, Repeater|||
 |<img src="../../de_DE/zigbee/images/TZ3000_cymsnfvf.TS011F.png" width="60" />|Tuya|Angeschlossene Buchse + USB|Prise||[Kaufen](https://www.domadoo.fr/fr/prises-connectees/5840-moes-prise-connectee-zigbee-30-2-ports-usb-pilotables-version-schuko.html)|
 |<img src="../../de_DE/zigbee/images/TZ3000_dbpmpco1.TS130F.png" width="60" />|Tuya|Angeschlossener Schalter für angeschlossenen Vorhang||||
@@ -729,8 +740,10 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_hdlpifbk.TS0004.png" width="60" />|Tuya|Dreifachschalter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_hktqahrq.TS0001.png" width="60" />|Tuya|Gigier JR-ZDS01||||
 |<img src="../../de_DE/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|Mini-RGB-LED-Strip-Controller||||
+|<img src="../../de_DE/zigbee/images/TZ3000_ji4araar.TS0011.png" width="60" />|Tuya|Schaltmodul EIN / AUS 10A|Steckdose, Verbrauch, Leistung, Repeater||[Kaufen](https://fr.aliexpress.com/item/1005003438720832.html)|
 |<img src="../../de_DE/zigbee/images/TZ3000_m0vaazab.TS0207.png" width="60" />|Tuya|Reichweitenverstärker||||
 |<img src="../../de_DE/zigbee/images/TZ3000_m9af2l6g.TS000F.png" width="60" />|Tuya|Zigbee 3 Mikromodul.0 SKTE||||
+|<img src="../../de_DE/zigbee/images/TZ3000_nfnmi125.TS011F.png" width="60" />|Tuya|Einfach ON / OFF verbundener Stecker|Steckdose, Repeater||[Kaufen](https://fr.aliexpress.com/item/1005002761118194.html)|
 |<img src="../../de_DE/zigbee/images/TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Angeschlossene Steckdosenleiste 4 Buchsen und 2 USB-Anschlüsse||||
 |<img src="../../de_DE/zigbee/images/TZ3000_o4cjetlm.TS0001.png" width="60" />|Tuya|Tuya Zigbee - Ventilsteuerung||||
 |<img src="../../de_DE/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Dual ON / OFF angeschlossenes Modul||||
@@ -747,10 +760,12 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|RGBW LED Strip Controller||||
 |<img src="../../de_DE/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|Intelligentes Rollladenmodul||||
 |<img src="../../de_DE/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4-Tasten-Smart-Schalter mit Batterien||||
+|<img src="../../de_DE/zigbee/images/TZ3000_w0qqde0g.TS011F.png" width="60" />|Tuya|Einfach verbundener Stecker ON / OFF 16A|Steckdose, Verbrauch, Leistung, Repeater||[Kaufen](https://fr.aliexpress.com/item/1005003444957152.html)|
 |<img src="../../de_DE/zigbee/images/TZ3000_w8jwkczz.TS0043.png" width="60" />|Tuya|Schalter mit 3 Tasten|||[Kaufen](https://www.domadoo.fr/fr/domotique/5787-moes-interrupteur-intelligent-sans-fil-zigbee-3-boutons.html)|
 |<img src="../../de_DE/zigbee/images/TZ3000_wyhuocal.TS0013.png" width="60" />|Tuya|Dreifachschalter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_x085c3it.TS0207.png" width="60" />|Tuya|Hochwassermelder (2)|Fuite|||
 |<img src="../../de_DE/zigbee/images/TZ3000_xabckq1v.TS004F.png" width="60" />|Tuya|4-Tasten-Smart-Schalter mit Batterien||||
+|<img src="../../de_DE/zigbee/images/TZ3000_xxgrunjb.TS130F.png" width="60" />|Doowifi|ZIGBEE ROLLLADENSTEUERUNG DWF-0205ZB-PN-2|Volets|||
 |<img src="../../de_DE/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MOES - Einzelne EIN / AUS-Module||||
 |<img src="../../de_DE/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Schalter mit 3 Tasten||||
 |<img src="../../de_DE/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Verbundene Schalter 2 Tasten||||
@@ -849,4 +864,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-12-15 01:32:14
+2021-12-16 01:32:20

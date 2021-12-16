@@ -4,7 +4,9 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 15/12/2021
 
+- Correction de bug sur les Index_TORE (merci @Math)
 - Ajout de l'api TI (télé-info)
 - Ajout de l'api status
 

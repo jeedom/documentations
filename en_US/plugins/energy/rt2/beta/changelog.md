@@ -4,7 +4,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 12/15/2021
 
+- Bug correction on Index_TORE (thanks @Math)
 - Addition of the TI API (tele-info)
 - Addition of the status API
 

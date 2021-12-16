@@ -4,6 +4,8 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+- Correction of the color management of the equipment
+
 # 12/11/2021
 
 - Color management of the modules to display the correct image (need to redo a synchronization)
