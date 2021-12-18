@@ -4,6 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 08/12/2021
+
+- Adición de una opción para configurar las suscripciones para que se activen al calcular las rutas (ver documentación)
+- Opción agregada para usar cualquier comando de cualquier complemento como posición inicial o final
+- Se corrigió la extracción de información de viaje debido a un cambio de API de Waze
+
 # 18/10/2021
 
 - Páginas de configuración mejoradas para v4:

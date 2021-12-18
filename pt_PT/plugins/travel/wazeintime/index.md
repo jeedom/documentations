@@ -1,69 +1,75 @@
-# Plug-in do Waze in Time 
+# Plug-in do Waze in Time
 
 Este plugin permite que você tenha as informações da viagem (tráfego levado em consideração) via Waze. Esse plug-in pode não funcionar mais se o Waze não aceitar mais que interrogemos seu site
 
 ![wazeintime screenshot1](../images/wazeintime_screenshot1.jpg)
 
-# Configuração 
+# Configuration
 
-## Configuração do plugin: 
+## Configuração do plugin
 
 Para usar o plug-in, você deve fazer o download, instalar e ativá-lo como qualquer plug-in Jeedom.
 
-Depois disso, você terá que criar sua (s) viagem (s) :
-
-Vá para o menu plugins / organização, você encontrará o plugin Waze Duration :
+Depois disso, você terá que criar sua (s) viagem (s). Vá para o menu de plug-ins / organização, você encontrará o plug-in Waze in Time lá :
 
 ![configuration1](../images/configuration1.jpg)
 
-Você chegará à página que listará seu equipamento (você pode ter várias rotas) e que permitirá que você crie alguns
+A seguir chegará à página que listará o seu equipamento (pode ter vários percursos) e que lhe permitirá criá-lo clicando no botão "Adicionar"":
 
-![wazeintime screenshot2](../images/wazeintime_screenshot2.jpg)
-
-Clique no botão Adicionar viagem ou no botão + :
-
-![config2](../images/config2.jpg)
+![wazeintime screenshot2](../images/eqlogic_list.png)
 
 Você chegará à página de configuração da sua viagem:
 
-![wazeintime screenshot3](../images/wazeintime_screenshot3.jpg)
+![wazeintime screenshot3](../images/eqlogic_config.png)
 
 Nesta página você encontrará três seções :
 
-### Geral
+### Configurações Gerais
 
-Nesta seção, você encontrará todas as configurações do jeedom. Ou seja, o nome do seu equipamento, o objeto ao qual você deseja associá-lo, a categoria, se você deseja que o equipamento esteja ativo ou não e, finalmente, se você deseja que ele fique visível no painel.
+Nesta seção, você encontrará todas as configurações do jeedom. A saber, o nome do seu equipamento, o objeto ao qual deseja associá-lo, a categoria, se deseja que o equipamento esteja ativo ou não e se deseja que ele fique visível no painel.
 
-### Configuration
+Finalmente, você deve configurar, se desejar, a atualização automática. Se você não configurar nada, as informações da viagem não serão atualizadas automaticamente.
 
-Esta seção é uma das mais importantes e permite definir o ponto inicial e final :
+### Parâmetros de viagem
 
--   Essas informações devem ser as latitudes e longitudes das posições
--   Eles podem ser encontrados usando o site fornecido clicando no link da página (basta digitar um endereço e clicar em obter coordenadas GPS)
+Esta seção é uma das mais importantes e permite definir o ponto inicial e final.
+
+- Essas informações devem ser as latitudes e longitudes das posições
+- Eles podem ser encontrados usando o site fornecido clicando no link da página (basta digitar um endereço e clicar em obter coordenadas GPS)
+
+É possível fornecê-los por vários meios:
+
+- manualmente, você deve codificar diretamente a latitude e longitude
+- através de um comando info de outro plugin Jeedom, você deve então selecionar o comando que deve retornar a informação no formato 'latitude, longitude'
+- através da configuração do Jeedom (veja o menu de configuração do Jeedom)
+- selecionando diretamente um comando do plugin geoloc ou geoloc_ios se estes plugins existirem (esta opção não deve mais ser usada para novos equipamentos, prefira a opção de seleção de comando explicada acima)
+
+Também é possível selecionar as assinaturas que devem ser ativadas no cálculo da viagem. Você deve colocar uma lista de valores separados por uma vírgula ou _ * _ para ativar tudo.
+
+### Configurações do visor
+
+Esta configuração simplesmente permite ocultar as viagens selecionadas no widget do painel, elas ainda serão atualizadas quando o equipamento for atualizado.
 
 ### Painel de controle
 
-![config3](../images/config3.jpg)
+![config3](../images/cmd_list.png)
 
--   1 duração : duração da viagem 1
--   Duração dois : tempo de viagem com a rota alternativa
--   Caminho 1 : Caminho 1
--   Rota 2 : Rota alternativa
--   Duração 1 retorno : tempo de retorno com viagem 1
--   Duração 2 back : hora de retorno com a rota alternativa
--   Viagem de regresso 1 : Viagem de regresso 1
--   Viagem de regresso 2 : Viagem de retorno alternativa
--   Legal : Atualizar informações
+- Duração 1, 2 e 3: duração a percorrer com a rota 1, 2 e 3
+- Rota 1, 2 e 3: nome da rota 1, 2 e 3 (fornecido pelo Waze)
+- Duração do retorno 1, 2 e 3 : duração do retorno com rota 1, 2 e 3
+- Viagem de retorno 1, 2 e 3 : nome da viagem de volta 1, 2 e 3 (fornecido pelo Waze)
+- Legal : Atualizar informações
 
 Todos esses comandos estão disponíveis através de cenários e através do painel
 
-## O widget
+# O widget
 
 ![wazeintime screenshot1](../images/wazeintime_screenshot1.jpg)
 
--   O botão no canto superior direito atualiza as informações.
--   Toda a informação é visível (para viagens, se a viagem for longa, pode ser truncada, mas a versão completa é visível deixando o mouse nela)
+- O botão no canto superior direito atualiza as informações.
+- Toda a informação é visível (para viagens, se a viagem for longa, pode ser truncada, mas a versão completa é visível deixando o mouse nela)
 
-## Como as notícias são atualizadas
+# Como as rotas são atualizadas?
 
-As informações são atualizadas uma vez a cada 30 minutos. Você pode atualizá-los sob demanda via cenário com o comando refresh ou via traço com setas duplas
+A informação é atualizada de acordo com a configuração de atualização automática do equipamento. Se nada for configurado, as viagens nunca serão atualizadas automaticamente.
+Você pode atualizá-los sob demanda por meio do cenário com o comando de atualização ou por meio do painel com as setas duplas.
