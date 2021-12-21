@@ -12,6 +12,9 @@
 >
 >Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
 
+# 20/12/2021
+
+- Correction d'un bug lors de la relance du démon lorsque les sous démons sont configurés mais désactivé
 - Correction d'un soucis lors de la demande de rafraichissement de plus de 7 valeurs d'attributs, merci @kaktusatomik
 - Ajout de nouveaux équipements (merci @cstan77)
 

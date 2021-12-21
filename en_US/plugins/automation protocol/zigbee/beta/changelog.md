@@ -12,6 +12,9 @@
 >
 >To take advantage of the latest module integration, don't hesitate to update the dependencies
 
+# 12/20/2021
+
+- Fixed a bug when restarting the daemon when the sub daemons are configured but disabled
 - Fixed an issue when requesting a refresh of more than 7 attribute values, thanks @kaktusatomik
 - Added new equipment (thanks @ cstan77)
 

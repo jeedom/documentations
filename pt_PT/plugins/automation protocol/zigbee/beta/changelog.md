@@ -12,6 +12,9 @@
 >
 >Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
 
+# 20/12/2021
+
+- Corrigido um bug ao reiniciar o daemon quando os sub daemons estão configurados, mas desabilitados
 - Corrigido um problema ao solicitar uma atualização de mais de 7 valores de atributo, obrigado @kaktusatomik
 - Adicionado novo equipamento (obrigado @ cstan77)
 
