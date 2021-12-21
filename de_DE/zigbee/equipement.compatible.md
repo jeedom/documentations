@@ -413,6 +413,7 @@
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.FYRTUR_roller_blind.png" width="60" />|Ikea|Fyrtur - Rollo||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.KADRILJ_roller_blind.png" width="60" />|Ikea|Kadrilj - Rollo||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.Remote_Control_N2.png" width="60" />|Ikea|STYRBAR-Fernbedienung|Fernbedienung|||
+|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.STARKVIND_Air_purifier.png" width="60" />|Ikea|IKEA Starkvind Luftreiniger||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.SYMFONISK_Sound_Controller.png" width="60" />|Ikea|Symfonisk Sound Controller|Fernbedienung|||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_10W.png" width="60" />|Ikea|10W Treiber||||
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_Driver_30W.png" width="60" />|Ikea|Treiber 30W||||
@@ -437,6 +438,7 @@
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_onoff_switch.png" width="60" />|Ikea|2-Tasten-Fernbedienung|Fernbedienung||[Dokumentation](https://www.ikea.com/fr/fr/assembly_instructions/tradfri-wireless-dimmer-white__AA-2175106-3_pub.pdf)<br/>|
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_remote_control.png" width="60" />|Ikea|5-Tasten-Fernbedienung|Fernbedienung||[Dokumentation](https://www.ikea.com/fr/fr/manuals/tradfri-remote-control__AA-2144014-1_pub.pdf)<br/>|
 |<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRI_signal_repeater.png" width="60" />|Ikea|Ikea repeateur||||
+|<img src="../../de_DE/zigbee/images/IKEA_of_Sweden.TRADFRIbulbE27WSglobeopal1055lm.png" width="60" />|Ikea|Glühbirne E27 1055lm||||
 |<img src="../../de_DE/zigbee/images/KE.TRADFRI_openclose_remote.png" width="60" />|Ikea|2-Tasten-Blindfernbedienung||||
 
 # Iluminize
@@ -646,7 +648,7 @@
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.PUCKSHUTTER1.png" width="60" />|Schneider|Angeschlossenes Modul für Rollläden|Volets||[Dokumentation](https://download.schneider-electric.com/files?p_enDocType=Instruction+sheet&p_File_Name=CCT5xx5-xxx2_2W_HW.pdf&p_Doc_Ref=CCT5xx5-xxx2_2W_HW)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5724-schneider-electric-micromodule-volet-roulant-connecte-zigbee-30-wiser-3606481048189.html)|
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.PUCKSWITCH1.png" width="60" />|Schneider|Klügeres EIN / AUS-Schaltermodul|Interrupteur|||
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.PUCKSWITCH1A.png" width="60" />|Schneider|Wiser 2. Auflage EIN / AUS-Schaltermodul|Interrupteur|||
-|<img src="../../de_DE/zigbee/images/Schneider_Electric.Thermostat.png" width="60" />|Schneider|Klüger angeschlossener Raumthermostat|Thermostat, Heizung||[Kaufen](https://www.domadoo.fr/fr/thermostats/5496-schneider-electric-thermostat-d-ambiance-connecte-zigbee-30-wiser-3606489710194.html)|
+|<img src="../../de_DE/zigbee/images/Schneider_Electric.Thermostat.png" width="60" />|Schneider|Klüger angeschlossener Raumthermostat|Thermostat, Heizung|Modul nicht empfohlen, scheint sehr kompliziert in der Bedienung zu sein und erfordert das gesamte Schneider-Ökosystem|[Kaufen](https://www.domadoo.fr/fr/thermostats/5496-schneider-electric-thermostat-d-ambiance-connecte-zigbee-30-wiser-3606489710194.html)|
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.iTRV.png" width="60" />|Schneider|Klüger angeschlossener Thermostatventilkopf|Thermostatkopf, Heizung||[Kaufen](https://www.domadoo.fr/fr/tetes-thermostatiques/5497-schneider-electric-tete-de-vanne-thermostatique-connectee-zigbee-30-wiser-3606489582821.html)|
 
 # Sonoff
@@ -864,4 +866,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-12-20 01:32:09
+2021-12-21 01:32:15

@@ -63,7 +63,7 @@ Para ele, não se preocupe, você tem o status em tempo real das informações d
 
 >**IMPORTANTE**
 >
-> Este recurso atualmente não é compatível com RPIs
+> Este recurso atualmente não é compatível com RPIs e não parece funcionar corretamente com o Debian 11 (que atualmente não é oficialmente compatível com o jeedom porque muitos plug-ins não o suportam)
 
 Também é possível conectar o alarme Ajax ao Jeedom pelo protocolo SIA, que tem a vantagem de ser local (sem nuvem), mas que só pode receber informações (não é possível controlar o alarme).
 

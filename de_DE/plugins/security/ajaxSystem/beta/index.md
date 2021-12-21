@@ -63,7 +63,7 @@ Für ihn keine Sorge, Sie haben Echtzeit-Status der Fenster- / Türöffnungs- / 
 
 >**WICHTIG**
 >
-> Diese Funktion ist derzeit nicht mit RPIs kompatibel
+> Diese Funktion ist derzeit nicht mit RPIs kompatibel und scheint mit Debian 11 (das derzeit nicht offiziell mit jeedom kompatibel ist, weil zu viele Plugins es nicht unterstützen) nicht richtig zu funktionieren)
 
 Es ist auch möglich, den Ajax-Alarm über das SIA-Protokoll mit Jeedom zu verbinden, was den Vorteil hat, dass es lokal ist (keine Cloud), aber nur Informationen empfangen kann (keine Alarmsteuerung möglich)).
 

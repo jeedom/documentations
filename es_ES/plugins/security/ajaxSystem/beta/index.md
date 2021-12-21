@@ -63,7 +63,7 @@ Para él, no se preocupe, tiene el estado en tiempo real de la información de v
 
 >**IMPORTANTE**
 >
-> Actualmente, esta función no es compatible con los RPI
+> Actualmente, esta función no es compatible con los RPI y no parece funcionar correctamente con Debian 11 (que actualmente no es oficialmente compatible con jeedom porque hay demasiados complementos que no la admiten)
 
 También es posible conectar la alarma Ajax a Jeedom mediante el protocolo SIA, que tiene la ventaja de ser local (sin nube) pero que solo puede recibir información (no es posible el control de alarmas).
 
