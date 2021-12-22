@@ -866,4 +866,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2021-12-21 01:32:15
+2021-12-22 01:32:06
