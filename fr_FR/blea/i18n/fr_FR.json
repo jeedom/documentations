@@ -146,7 +146,9 @@
         "Bluetooth valve drip": "Bluetooth valve drip",
         "Huami": "Huami",
         "Amazfit GTR": "Amazfit GTR",
-        "Compatibilité des équipements Bluetooth": "Compatibilité des équipements Bluetooth",
+        "Compatibilit": "Compatibilit",
+        "des": "des",
+        "quipements Bluetooth": "quipements Bluetooth",
         "Amazfit": "Amazfit",
         "Awoxmesh": "Awoxmesh",
         "Beagle": "Beagle",
@@ -172,6 +174,6 @@
         "Ropot": "Ropot",
         "iaomiht": "iaomiht",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-12-23 01": "2021-12-23 01"
+        "2021-12-24 01": "2021-12-24 01"
     }
 }

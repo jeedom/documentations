@@ -1324,11 +1324,13 @@
         "Key Fob (DSA22": "Key Fob (DSA22",
         "Remplacé dans les boutiques par le keyfob Gen5": "Remplacé dans les boutiques par le keyfob Gen5",
         "Z-Stick Lite (DSA07203": "Z-Stick Lite (DSA07203",
-        "Compatibilité des équipements Zwave": "Compatibilité des équipements Zwave",
+        "Compatibilit": "Compatibilit",
+        "des": "des",
+        "quipements Zwave": "quipements Zwave",
         "Acheter": "Acheter",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2021-12-23 01": "2021-12-23 01"
+        "2021-12-24 01": "2021-12-24 01"
     },
     "zwave\/everspring.AD147-6_-_Miniplug_Dimmer.md": {
         "Everspring Miniplug Dimmer - AD147-6": "Everspring Miniplug Dimmer - AD147-6",

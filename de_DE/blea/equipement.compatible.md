@@ -1,4 +1,4 @@
-# Kompatibilität mit Bluetooth-Geräten
+# Kompatibilität? von ?Bluetooth-Ausrüstung
 
 
 # Amazfit
@@ -297,4 +297,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2021-12-23 01:21:03
+2021-12-24 01:21:02
