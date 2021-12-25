@@ -1,0 +1,47 @@
+{
+    "id": "energy2",
+    "name": "Comptage",
+    "description": {
+        "fr_FR": "Plugin pour le comptage de l’énergie (gaz, électricité et eau). Permet de faire un calcul estimatif du DPE.",
+        "en_US": "Plugin for energy metering (gas, electricity and water). Allows an estimated calculation of the DPE",
+        "es_ES": "Plugin para medición de energía (gas, electricidad y agua). Permite un cálculo estimado del DPE",
+        "de_DE": "Plugin zur Energiemessung (Gas, Strom und Wasser). Ermöglicht eine geschätzte Berechnung der DPE",
+        "pt_PT": "Plugin para medição de energia (gás, eletricidade e água). Permite um cálculo estimado do DPE",
+        "ru_RU": "Plugin pour le comptage de l’énergie (gaz, électricité et eau). Permet de faire un calcul estimatif du DPE",
+        "id_ID": "Plugin pour le comptage de l’énergie (gaz, électricité et eau). Permet de faire un calcul estimatif du DPE",
+        "it_IT": "Plugin pour le comptage de l’énergie (gaz, électricité et eau). Permet de faire un calcul estimatif du DPE",
+        "ja_JP": "Plugin pour le comptage de l’énergie (gaz, électricité et eau). Permet de faire un calcul estimatif du DPE",
+        "tr": "Plugin pour le comptage de l’énergie (gaz, électricité et eau). Permet de faire un calcul estimatif du DPE"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3.39",
+    "category": "energy",
+    "display": "panel",
+    "mobile": "panel",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy2\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy2\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy2\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy2\/beta"
+}
