@@ -50,3 +50,7 @@ Le support est accessible en fonction de votre Service Pack
 Il est possible d'ouvrir une demande de plusieurs façons:
 [Documentation Les demandes de support ou tickets](https://doc.jeedom.com/fr_FR/premiers-pas/#Les%20demandes%20de%20support%20\(ou%20tickets\))
 
+>**IMPORTANT**
+>
+>Attention on voit beaucoup d'utilisateur avec des boite mail "mailinblack", qui lors du 1er échange demande à l'expetideur de valider un lien pour prouver que c'est bien un humain. Ce systeme n'est pas compatible avec notre systeme de ticketing, donc meme si on vous répond vous ne receverez jamais la réponse dans votre boite mail car celle-ci nous bloque. Merci donc sur votre page profils du market de mettre une addresse mail n'utilisant pas ce systeme sans ca vous ne receverez jamais notre réponse.
+
