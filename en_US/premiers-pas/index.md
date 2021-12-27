@@ -200,3 +200,7 @@ The different service packs are :
 - Pro : 100 tickets / month
 
 You can find the detail of the service packs [here](https://www.jeedom.com/site/fr/soft.html#obtenir)
+
+>**IMPORTANT**
+>
+>Attention we see a lot of users with "mailinblack" mailboxes, who during the 1st exchange ask the sender to validate a link to prove that it is indeed a human. This system is not compatible with our ticketing system, so even if we answer you, you will never receive the answer in your mailbox because it blocks us. So thank you on your market profiles page to put an email address not using this system otherwise you will never receive our response.

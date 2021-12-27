@@ -133,6 +133,9 @@
         "10 tickets\/mois": "10 tickets \/ month",
         "100 tickets\/mois": "100 tickets \/ month",
         "Vous pouvez retrouver le détail des services packs": "You can find the detail of the service packs",
+        "Attention on voit beaucoup d'utilisateur avec des boite mail \"mailinblack\", qui lors du 1er échange demande à l'expetideur de valider un lien pour prouver que c'est bien un humain": "Attention we see a lot of users with \"mailinblack\" mailboxes, who during the 1st exchange ask the sender to validate a link to prove that it is indeed a human",
+        "Ce systeme n'est pas compatible avec notre systeme de ticketing, donc meme si on vous répond vous ne receverez jamais la réponse dans votre boite mail car celle-ci nous bloque": "This system is not compatible with our ticketing system, so even if we answer you, you will never receive the answer in your mailbox because it blocks us",
+        "Merci donc sur votre page profils du market de mettre une addresse mail n'utilisant pas ce systeme sans ca vous ne receverez jamais notre réponse": "So thank you on your market profiles page to put an email address not using this system otherwise you will never receive our response",
         " ici.": " here.",
         " ici?": " here?",
         "ici ": "here ",
@@ -223,6 +226,13 @@
         " Pro ]": " Pro]",
         "[Pro ]": "[Pro]",
         "*Pro *": "*Pro*",
-        " Pro *": " Pro*"
+        " Pro *": " Pro*",
+        " IMPORTANT.": " IMPORTANT.",
+        " IMPORTANT?": " IMPORTANT?",
+        "IMPORTANT ": "IMPORTANT ",
+        " IMPORTANT]": " IMPORTANT]",
+        "[IMPORTANT]": "[IMPORTANT]",
+        "*IMPORTANT*": "*IMPORTANT*",
+        " IMPORTANT*": " IMPORTANT*"
     }
 }

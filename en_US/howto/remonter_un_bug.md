@@ -50,3 +50,7 @@ Support is available depending on your Service Pack
 It is possible to open a request in several ways:
 [Documentation Support requests or tickets](https://doc.jeedom.com/en_US/premiers-pas/#Les%20demandes%20de%20support%20\(ou%20tickets\))
 
+>**IMPORTANT**
+>
+>Attention we see a lot of users with "mailinblack" mailboxes, who during the 1st exchange ask the sender to validate a link to prove that it is indeed a human. This system is not compatible with our ticketing system, so even if we answer you, you will never receive the answer in your mailbox because it blocks us. So thank you on your market profiles page to put an email address not using this system otherwise you will never receive our response.
+

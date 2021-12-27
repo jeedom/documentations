@@ -50,3 +50,7 @@ El soporte está disponible según su Service Pack
 Es posible abrir una solicitud de varias formas:
 [Solicitudes o tickets de soporte de documentación](https://doc.jeedom.com/es_ES/premiers-pas/#Les%20demandes%20de%20support%20\(ou%20tickets\))
 
+>**Importante**
+>
+>Atención, vemos a muchos usuarios con buzones de correo "mailinblack", que durante el 1er intercambio le piden al remitente que valide un enlace para demostrar que efectivamente es un humano. Este sistema no es compatible con nuestro sistema de ticketing, por lo que aunque te respondamos, nunca recibirás la respuesta en tu buzón porque nos bloquea. Así que gracias en su página de perfiles de mercado por poner una dirección de correo electrónico que no usa este sistema, de lo contrario nunca recibirá nuestra respuesta.
+

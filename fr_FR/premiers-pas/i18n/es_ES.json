@@ -133,6 +133,9 @@
         "10 tickets\/mois": "10 entradas \/ mes",
         "100 tickets\/mois": "100 entradas \/ mes",
         "Vous pouvez retrouver le détail des services packs": "Puede encontrar el detalle de los paquetes de servicio",
+        "Attention on voit beaucoup d'utilisateur avec des boite mail \"mailinblack\", qui lors du 1er échange demande à l'expetideur de valider un lien pour prouver que c'est bien un humain": "Atención, vemos a muchos usuarios con buzones de correo \"mailinblack\", que durante el 1er intercambio le piden al remitente que valide un enlace para demostrar que efectivamente es un humano",
+        "Ce systeme n'est pas compatible avec notre systeme de ticketing, donc meme si on vous répond vous ne receverez jamais la réponse dans votre boite mail car celle-ci nous bloque": "Este sistema no es compatible con nuestro sistema de ticketing, por lo que aunque te respondamos, nunca recibirás la respuesta en tu buzón porque nos bloquea",
+        "Merci donc sur votre page profils du market de mettre une addresse mail n'utilisant pas ce systeme sans ca vous ne receverez jamais notre réponse": "Así que gracias en su página de perfiles de mercado por poner una dirección de correo electrónico que no usa este sistema, de lo contrario nunca recibirá nuestra respuesta",
         " ici.": " aquí.",
         " ici?": " aquí?",
         "ici ": "aquí ",
@@ -223,6 +226,13 @@
         " Pro ]": " Pro]",
         "[Pro ]": "[Pro]",
         "*Pro *": "*Pro*",
-        " Pro *": " Pro*"
+        " Pro *": " Pro*",
+        " IMPORTANT.": " Importante.",
+        " IMPORTANT?": " Importante?",
+        "IMPORTANT ": "Importante ",
+        " IMPORTANT]": " Importante]",
+        "[IMPORTANT]": "[Importante]",
+        "*IMPORTANT*": "*Importante*",
+        " IMPORTANT*": " Importante*"
     }
 }

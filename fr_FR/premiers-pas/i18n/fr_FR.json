@@ -145,6 +145,10 @@
         "10 tickets\/mois": "10 tickets\/mois",
         "Pro ": "Pro ",
         "100 tickets\/mois": "100 tickets\/mois",
-        "Vous pouvez retrouver le détail des services packs": "Vous pouvez retrouver le détail des services packs"
+        "Vous pouvez retrouver le détail des services packs": "Vous pouvez retrouver le détail des services packs",
+        "IMPORTANT": "IMPORTANT",
+        "Attention on voit beaucoup d'utilisateur avec des boite mail \"mailinblack\", qui lors du 1er échange demande à l'expetideur de valider un lien pour prouver que c'est bien un humain": "Attention on voit beaucoup d'utilisateur avec des boite mail \"mailinblack\", qui lors du 1er échange demande à l'expetideur de valider un lien pour prouver que c'est bien un humain",
+        "Ce systeme n'est pas compatible avec notre systeme de ticketing, donc meme si on vous répond vous ne receverez jamais la réponse dans votre boite mail car celle-ci nous bloque": "Ce systeme n'est pas compatible avec notre systeme de ticketing, donc meme si on vous répond vous ne receverez jamais la réponse dans votre boite mail car celle-ci nous bloque",
+        "Merci donc sur votre page profils du market de mettre une addresse mail n'utilisant pas ce systeme sans ca vous ne receverez jamais notre réponse": "Merci donc sur votre page profils du market de mettre une addresse mail n'utilisant pas ce systeme sans ca vous ne receverez jamais notre réponse"
     }
 }

@@ -200,3 +200,7 @@ Los diferentes paquetes de servicio son :
 - Pro : 100 entradas / mes
 
 Puede encontrar el detalle de los paquetes de servicio [aquí](https://www.jeedom.com/site/fr/soft.html#obtenir)
+
+>**Importante**
+>
+>Atención, vemos a muchos usuarios con buzones de correo "mailinblack", que durante el 1er intercambio le piden al remitente que valide un enlace para demostrar que efectivamente es un humano. Este sistema no es compatible con nuestro sistema de ticketing, por lo que aunque te respondamos, nunca recibirás la respuesta en tu buzón porque nos bloquea. Así que gracias en su página de perfiles de mercado por poner una dirección de correo electrónico que no usa este sistema, de lo contrario nunca recibirá nuestra respuesta.
