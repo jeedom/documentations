@@ -466,6 +466,21 @@
         "Market": "Market",
         "Changelog beta": "Changelog beta"
     },
+    "plugins\/jeelocker\/index.md": {
+        "Jeelocker est un plugin dedié à la gestion d'acces de casier": "Jeelocker est un plugin dedié à la gestion d'acces de casier",
+        "jeelocker": "jeelocker",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "IMPORTANT": "IMPORTANT",
+        "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
+        "ici": "ici",
+        "Vous pouvez voir": "Vous pouvez voir",
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation beta": "Documentation beta",
+        "Market": "Market",
+        "Changelog beta": "Changelog beta"
+    },
     "plugins\/lightmanager\/index.md": {
         "Plugin permettant la gestion des lumières": "Plugin permettant la gestion des lumières",
         "Gestion Lumières": "Gestion Lumières",
@@ -744,6 +759,8 @@
         "Attention pour afficher le flux vidéo il faut le plugin caméra": "Attention pour afficher le flux vidéo il faut le plugin caméra",
         "Netatmo Security": "Netatmo Security",
         "Plugin pour Netatmo Security": "Plugin pour Netatmo Security",
+        "Jeelocker est un plugin dedié à la gestion d'acces de casier": "Jeelocker est un plugin dedié à la gestion d'acces de casier",
+        "jeelocker": "jeelocker",
         "Ils sont disponibles uniquement sur devis auprès de Jeedom (contact via notre site web": "Ils sont disponibles uniquement sur devis auprès de Jeedom (contact via notre site web",
         "Gestion d'accès": "Gestion d'accès",
         "Plugin qui permet de gérer le contrôle d'accès d'un bâtiment via la création d'utilisateurs, groupes, plages horaires et lecteurs\/actionneurs": "Plugin qui permet de gérer le contrôle d'accès d'un bâtiment via la création d'utilisateurs, groupes, plages horaires et lecteurs\/actionneurs",
@@ -763,14 +780,14 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation beta": "Documentation beta",
+        "Market": "Market",
+        "Changelog beta": "Changelog beta",
         "Documentation": "Documentation",
         "Beta": "Beta",
-        "Market": "Market",
         "Changelog": "Changelog",
         "ATTENTION": "ATTENTION",
-        "Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack": "Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack",
-        "Documentation beta": "Documentation beta",
-        "Changelog beta": "Changelog beta"
+        "Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack": "Les plugins PREMIUM ne sont inclus dans AUCUN Service Pack"
     },
     "plugins\/thermostatmanager\/index.md": {
         "Permet de gerer les changement de consignes des thermostats": "Permet de gerer les changement de consignes des thermostats",
