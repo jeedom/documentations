@@ -28,6 +28,10 @@ Par default vous êtes prévenu par un mail sur votre mail configuré dans votre
 >
 > Vous pouvez trouver votre chatid a partir de jeedom en allant dans l'équipement telegram puis configuration avancé de la commande du destinataire voulu puis le bouton information et la dans le champs configuration vous avez le chatid
 
+> **IMPORTANT**
+>
+> Attention on voit beaucoup d'utilisateur avec des boite mail "mailinblack", qui lors du 1er échange demande à l'expetideur de valider un lien pour prouver que c'est bien un humain. Ce systeme n'est pas compatible avec le systeme d'envoi de mail du service monitoring. Merci donc sur votre page profils du market de mettre une addresse mail n'utilisant pas ce systeme sans ca vous ne receverez jamais d'alerte du système.
+
 ## Comment l'activer
 
 La procedure est assez simple, il faut : 
@@ -39,7 +43,7 @@ Après avoir ajouté du crédit monitoring cloud, il faut soit attendre quelques
 
 >**IMPORTANT**
 >
-> Une fois le service activé celui-ci surveille tous les Jeedom relié à votre compte
+> Une fois le service activé celui-ci surveille tous les Jeedom relié à votre compte. Il est cependant possible a partir de Jeedom 4.2 de désactiver la monitoring depuis la configuration de celui-ci (onglet Market/mise à jour)
 
 >**IMPORTANT**
 >
