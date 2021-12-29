@@ -28,6 +28,10 @@ By default you are notified by an email on your email configured in your profile
 >
 > You can find your chatid from jeedom by going to the telegram equipment then advanced configuration of the desired recipient's command then the information button and in the configuration field you have the chatid
 
+> **IMPORTANT**
+>
+> Attention we see a lot of users with "mailinblack" mailboxes, who during the 1st exchange ask the sender to validate a link to prove that it is indeed a human. This system is not compatible with the mailing system of the monitoring service. So thank you on your market profiles page to put an email address not using this system otherwise you will never receive an alert from the system.
+
 ## How to activate it
 
 The procedure is quite simple, you have to : 
@@ -39,7 +43,7 @@ After adding cloud monitoring credit, you must either wait a few hours (around 2
 
 >**IMPORTANT**
 >
-> Once the service is activated, it monitors all Jeedom connected to your account
+> Once the service is activated, it monitors all Jeedom connected to your account. It is however possible from Jeedom 4.2 to deactivate monitoring from its configuration (Market / update tab))
 
 >**IMPORTANT**
 >

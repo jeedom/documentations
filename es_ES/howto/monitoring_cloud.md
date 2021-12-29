@@ -28,6 +28,10 @@ De manera predeterminada, se le notifica por un correo electrónico en su correo
 >
 > Puede encontrar su chatid desde jeedom yendo al equipo de telegramas, luego a la configuración avanzada del comando del destinatario deseado, luego al botón de información y en el campo de configuración tiene el chatid
 
+> **Importante**
+>
+> Atención, vemos a muchos usuarios con buzones de correo "mailinblack", que durante el 1er intercambio le piden al remitente que valide un enlace para demostrar que efectivamente es un humano. Este sistema no es compatible con el sistema de correo del servicio de seguimiento. Así que gracias en su página de perfiles de mercado por poner una dirección de correo electrónico que no usa este sistema, de lo contrario, nunca recibirá una alerta del sistema.
+
 ## Cómo activarlo
 
 El procedimiento es bastante simple, tienes que : 
@@ -39,7 +43,7 @@ Después de agregar crédito de monitoreo en la nube, debe esperar unas horas (a
 
 >**Importante**
 >
-> Una vez que se activa el servicio, monitorea todos los Jeedom conectados a su cuenta
+> Una vez que se activa el servicio, monitorea todos los Jeedom conectados a su cuenta. Sin embargo, es posible de Jeedom 4.2 para desactivar la monitorización desde su configuración (Market / pestaña actualización))
 
 >**Importante**
 >
