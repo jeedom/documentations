@@ -12,6 +12,9 @@
 >
 >Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
 
+
+- Recuperação de bateria aprimorada
+
 # 20/12/2021
 
 - Corrigido um bug ao reiniciar o daemon quando os sub daemons estão configurados, mas desabilitados

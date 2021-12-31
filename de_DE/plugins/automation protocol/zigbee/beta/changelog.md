@@ -12,6 +12,9 @@
 >
 >Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
 
+
+- Verbesserte Batteriewiederherstellung
+
 # 20.12.2021
 
 - Fehler beim Neustart des Daemons behoben, wenn die Unter-Daemons konfiguriert, aber deaktiviert sind

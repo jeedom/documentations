@@ -12,6 +12,9 @@
 >
 >Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
 
+
+- Amélioration de la recuperation des batteries
+
 # 20/12/2021
 
 - Correction d'un bug lors de la relance du démon lorsque les sous démons sont configurés mais désactivé

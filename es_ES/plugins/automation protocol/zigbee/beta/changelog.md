@@ -12,6 +12,9 @@
 >
 >Para aprovechar la última integración del módulo, no dude en actualizar las dependencias
 
+
+- Recuperación de batería mejorada
+
 # 20/12/2021
 
 - Se corrigió un error al reiniciar el demonio cuando los sub demonios están configurados pero deshabilitados

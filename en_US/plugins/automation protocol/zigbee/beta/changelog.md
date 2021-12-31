@@ -12,6 +12,9 @@
 >
 >To take advantage of the latest module integration, don't hesitate to update the dependencies
 
+
+- Improved battery recovery
+
 # 12/20/2021
 
 - Fixed a bug when restarting the daemon when the sub daemons are configured but disabled
