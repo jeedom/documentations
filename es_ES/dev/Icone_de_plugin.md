@@ -12,10 +12,11 @@ Debe guardarse en la carpeta `/ plugin-info /`
 
 Este archivo es obligatorio.
 
-Gracias de antemano por no usar el mismo código de color que los íconos de los complementos oficiales de Jeedom.
+Le agradecemos de antemano por no utilizar el mismo código de color que los iconos de los complementos oficiales de Jeedom.
 
-Para 2020 ahora se recomienda no poner más el nombre debajo de la imagen (tenga cuidado de mantener el mismo tamaño del modelo de todos modos !)
+Desde 2020, se recomienda no poner más el nombre debajo de la imagen (tenga cuidado de mantener los mismos tamaños del modelo !)
 
-Utilice esta plantilla (bordes redondeados, tamaño, fondo de color, transparencia alrededor, etc.):
+Utilice este modelo (bordes redondeados, tamaño, fondo de color, transparencia alrededor, etc.):
 
 ![modele-icone](images/plugin-Jeedom-px.jpg)
+![modele-icon](images/template_icon.png)

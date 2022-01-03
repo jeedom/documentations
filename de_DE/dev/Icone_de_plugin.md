@@ -12,10 +12,11 @@ Es muss im Ordner `/ plugin-info /` gespeichert werden
 
 Diese Datei ist erforderlich.
 
-Vielen Dank im Voraus, dass Sie nicht denselben Farbcode wie die Symbole der offiziellen Jeedom-Plugins verwenden.
+Wir danken Ihnen im Voraus, dass Sie nicht den gleichen Farbcode wie die Symbole der offiziellen Jeedom-Plugins verwenden.
 
-Für 2020 wird jetzt empfohlen, den Namen nicht mehr unter das Bild zu setzen (achten Sie trotzdem darauf, die Größe des Modells beizubehalten !)
+Seit 2020 wird empfohlen, den Namen nicht mehr unter das Bild zu setzen (achten Sie auf die gleichen Größen des Modells !)
 
-Bitte verwenden Sie diese Vorlage (abgerundete Bohrungen, Größe, farbiger Hintergrund, Transparenz usw.):
+Bitte verwenden Sie dieses Modell (abgerundete Kanten, Größe, farbiger Hintergrund, Transparenz rundum etc.):
 
 ![modele-icone](images/plugin-Jeedom-px.jpg)
+![modele-icon](images/template_icon.png)
