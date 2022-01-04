@@ -1,4 +1,4 @@
-# Kompatibilität? Zigbee-Module
+# Kompatibilität von Zigbee-Modulen
 
 
 # 3A Smart Home DE
@@ -866,4 +866,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2022-01-03 01:32:20
+2022-01-04 01:32:07

@@ -1,4 +1,4 @@
-# Compatibilidad? cámaras?ras
+# Compatibilidad de la cámara
 
 
 # Alcatel
@@ -239,4 +239,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2022-01-03 01:20:03
+2022-01-04 01:20:03

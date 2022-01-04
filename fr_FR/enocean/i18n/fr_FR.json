@@ -176,9 +176,7 @@
         "Capteur de température alu": "Capteur de température alu",
         "Capteur de température black": "Capteur de température black",
         "Capteur de température blanc": "Capteur de température blanc",
-        "Compatibilit": "Compatibilit",
-        "des": "des",
-        "quipements EnOcean": "quipements EnOcean",
+        "Compatibilité des équipements EnOcean": "Compatibilité des équipements EnOcean",
         "A5-02": "A5-02",
         "Acheter": "Acheter",
         "A5-06": "A5-06",
@@ -207,6 +205,6 @@
         "Recepteur": "Recepteur",
         "Si le module est en mouvement un appuie sur la direction le stoppera": "Si le module est en mouvement un appuie sur la direction le stoppera",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2022-01-03 01": "2022-01-03 01"
+        "2022-01-04 01": "2022-01-04 01"
     }
 }

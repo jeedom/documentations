@@ -1,4 +1,4 @@
-# Compatibilit? des ?quipements EnOcean
+# Compatibilité des équipements EnOcean
 
 
 # A5-02
@@ -268,4 +268,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2022-01-03 01:17:02
+2022-01-04 01:17:09

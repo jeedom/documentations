@@ -1,4 +1,4 @@
-# Compatibilidad? Módulos Zigbee
+# Compatibilidad de los módulos Zigbee
 
 
 # Casa inteligente 3A DE
@@ -866,4 +866,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2022-01-03 01:32:20
+2022-01-04 01:32:07
