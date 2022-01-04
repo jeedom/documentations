@@ -44,7 +44,7 @@ Si desea configurar el acceso a un servidor Wireguard personal, aquí está la l
     - **Llave pública** (`PublicKey`) : Clave pública del servidor Wireguard.
     - **Punto final** (`Endpoint`) : dirección IP pública del servidor : puerto de escucha *(ip:port)*.
     - **IP autorizadas** (`AllowedIPs`) : lista de direcciones IP autorizadas.
-    - **Clave previamente compartida** (`PresharedKey`) : clave precompartida *(facultatif)*.
+    - **Clave previamente compartida** (`PresharedKey`) : Clave previamente compartida *(facultatif)*.
     - **Mantener la conexión** (`PersistentKeepalive`) : Retraso de verificación de enlace en segundos *(facultatif)*.
 
 >**IMPORTANTE**
@@ -56,7 +56,7 @@ Si desea configurar el acceso a un servidor Wireguard personal, aquí está la l
 Haciendo clic en la pestaña **Pedidos**, encontrará la lista de pedidos de clientes de Wireguard :
 
 - **Activo** : Estado de la interfaz del cliente Wireguard.
-- **IP** : Dirección IP de la interfaz de cliente Wireguard.
+- **Ip** : Dirección IP de la interfaz de cliente Wireguard.
 - **Empezado** : Estado de conexión del servidor Wireguard.
 - **Comenzar** : inicia la interfaz del cliente Wireguard.
 - **Parar** : permite detener la interfaz del cliente Wireguard.

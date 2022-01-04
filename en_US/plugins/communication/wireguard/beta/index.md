@@ -44,7 +44,7 @@ If you want to configure access to a personal Wireguard server, here is the list
     - **Public key** (`PublicKey`) : Wireguard server public key.
     - **End point** (`Endpoint`) : public IP address of the server : listening port *(ip:port)*.
     - **Authorized IPs** (`AllowedIPs`) : list of authorized IP addresses.
-    - **Pre-shared key** (`PresharedKey`) : pre-shared key *(facultatif)*.
+    - **Pre-shared key** (`PresharedKey`) : Pre-shared key *(facultatif)*.
     - **Keep the connection** (`PersistentKeepalive`) : link check delay in seconds *(facultatif)*.
 
 >**IMPORTANT**
@@ -56,7 +56,7 @@ If you want to configure access to a personal Wireguard server, here is the list
 By clicking on the tab **Orders**, you will find the list of Wireguard customer orders :
 
 - **Active** : Wireguard client interface state.
-- **IP** : Wireguard client interface IP address.
+- **Ip** : Wireguard client interface IP address.
 - **Started** : Wireguard server connection status.
 - **To start up** : starts the Wireguard client interface.
 - **Stop** : allows to stop the Wireguard client interface.

@@ -56,7 +56,7 @@ Wenn Sie den Zugriff auf einen persönlichen Wireguard-Server konfigurieren möc
 Durch Klicken auf die Registerkarte **Aufträge**, finden Sie die Liste der Wireguard-Kundenbestellungen :
 
 - **Aktiv** : Wireguard-Client-Schnittstellenstatus.
-- **IP** : IP-Adresse der Wireguard-Client-Schnittstelle.
+- **Ip** : IP-Adresse der Wireguard-Client-Schnittstelle.
 - **Gestartet** : Verbindungsstatus des Wireguard-Servers.
 - **Zum Starten** : startet die Wireguard-Client-Oberfläche.
 - **Halt** : ermöglicht das Stoppen der Wireguard-Client-Schnittstelle.

@@ -56,7 +56,7 @@ Se você deseja configurar o acesso a um servidor Wireguard pessoal, aqui está 
 Ao clicar na guia **Pedidos**, você encontrará a lista de pedidos de clientes Wireguard :
 
 - **Ativo** : Estado da interface do cliente Wireguard.
-- **IP** : Endereço IP da interface do cliente Wireguard.
+- **Ip** : Endereço IP da interface do cliente Wireguard.
 - **Iniciado** : Status de conexão do servidor Wireguard.
 - **Para iniciar** : inicia a interface do cliente Wireguard.
 - **Pare** : permite parar a interface do cliente Wireguard.
