@@ -6,6 +6,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 01/04/2022
+
+- Correcciones de errores
+
 # 10/04/2021
 
 - Añadiendo módulo

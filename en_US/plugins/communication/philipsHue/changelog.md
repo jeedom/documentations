@@ -6,9 +6,14 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 04/10/2021
+
+- Adding module
+- Bugfix
+
 # 06/16/2021
 
-- Correcting adaptive_light to adaptive_lighting
+- Fix adaptive_light to adaptive_lighting
 
 # 06/07/2021
 
