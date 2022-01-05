@@ -4,7 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 04/01/2022
+
+- Optimisation de l'installation des dépendances
 - Correction de la gestion des couleurs de l'équipements
+- Ajout du Dual Curtain Outdoor
+- Ajout Wall Switch
 
 # 11/12/2021
 

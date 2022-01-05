@@ -1,10 +1,23 @@
 # Registro de cambios de sistemas Ajax
 
-# Registro de cambios del sistema Ajax
-
 >**IMPORTANTE**
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
+
+- Corrección de la gestión del color del equipo
+
+# 11/12/2021
+
+- Gestión del color de los módulos para mostrar la imagen correcta (es necesario rehacer una sincronización)
+- Corrección de un problema en las entradas externas de DoorProtect (es necesario retirar el equipo y resincronizar)
+- Se solucionó un problema con el demonio SIA
+- Actualización de documentación
+
+# 02/12/2021
+
+- Se agregaron comandos de encendido / apagado para relés
+- Adición de un demonio SIA para la recuperación local de cierta información (lea la documentación para la configuración)
+- Adición de equipo compatible
 
 # 19/08/2021
 

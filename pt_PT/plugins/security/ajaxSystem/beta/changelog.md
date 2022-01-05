@@ -4,7 +4,12 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
+# 01/04/2022
+
+- Otimização da instalação de dependências
 - Correção do gerenciamento de cores do equipamento
+- Adição da Cortina Dupla Exterior
+- Adicionar interruptor de parede
 
 # 11/12/2021
 

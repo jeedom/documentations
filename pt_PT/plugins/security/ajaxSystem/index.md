@@ -9,11 +9,15 @@
 A configuração do plugin é muito simples e ocorre em 2 passos : 
 
 - Configurando o link entre seu jeedom e seu alarme
-- adição de um compartilhamento de e-mail para relatar eventos 
+- adição de um compartilhamento de e-mail para relatar eventos  
 
 >**IMPORTANTE**
 >
 >Um ponto importante Ajax não emite um alerta global quando um alarme é acionado, mas levanta o status no detector que acionou o alarme (comando de eventos)
+
+>**IMPORTANTE**
+>
+>O daemon é usado apenas para a parte SIA. Se você desativá-lo, ainda terá informações voltando da nuvem. Você pode, portanto, desativá-lo se você não usar a parte SIA
 
 ## Compatibilité
 
@@ -29,7 +33,7 @@ Para configurar o link entre seu Jeedom e seu alarme Ajax, vá para "Plugin" -> 
 
 >**NOTA**
 >
-> Jeedom absolutamente não salva suas credenciais Ajax, é apenas uma usada para a primeira solicitação ao Ajax e para ter o token de acesso e o token de atualização. O token de atualização torna possível recuperar um novo token de acesso que tem uma vida útil de apenas algumas horas
+> Jeedom absolutamente não salva suas credenciais Ajax : eles são apenas um usado para a primeira solicitação para Ajax e têm o token de acesso e o token de atualização. O token de atualização torna possível recuperar um novo token de acesso que tem uma vida útil de apenas algumas horas.
 
 >**NOTA**
 >
@@ -37,11 +41,15 @@ Para configurar o link entre seu Jeedom e seu alarme Ajax, vá para "Plugin" -> 
 
 ### Configuração de relatórios de eventos
 
-No aplicativo Ajax, vá para o hub e, em seguida, nas configurações (pequena engrenagem no canto superior direito), vá para o usuário e adicione o usuário : ajax@jeedom.com 
+No aplicativo Ajax, vá para o hub e, em seguida, nas configurações (pequena engrenagem no canto superior direito), vá para o usuário e adicione o usuário : ajax@jeedom.com
+
+>**NOTA**
+>
+>O convite permanece e sempre ficará pendente, isso é normal
 
 ## Equipamento 
 
-Uma vez que a configuração está em "Plugin" -> "Gerenciamento de Plugin" -> "Sistema Ajax" você apenas tem que sincronizar, Jeeodm irá criar automaticamente todo o equipamento Ajax vinculado à sua conta Ajax. 
+Uma vez que a configuração está em "Plugin" -> "Gerenciamento de Plugin" -> "Sistema Ajax" você apenas tem que sincronizar, Jeedom irá criar automaticamente todos os equipamentos Ajax vinculados à sua conta Ajax. 
 
 ### Detector de movimento
 
@@ -49,4 +57,38 @@ Pequena especificidade para o detector de movimento, não vai até a detecção 
 
 ### Detector de abertura
 
-Para ele não se preocupe você tem todo o tempo e em tempo real as informações da janela aberta ou não.
+Para ele, não se preocupe, você tem o status em tempo real das informações de janela / porta aberta / fechada.
+
+## SIA
+
+>**IMPORTANTE**
+>
+> Este recurso atualmente não é compatível com RPIs e não parece funcionar corretamente com o Debian 11 (que atualmente não é oficialmente compatível com o jeedom porque muitos plug-ins não o suportam)
+
+Também é possível conectar o alarme Ajax ao Jeedom pelo protocolo SIA, que tem a vantagem de ser local (sem nuvem), mas que só pode receber informações (não é possível controlar o alarme).
+
+>**IMPORTANTE**
+>
+> Se você estiver em python <3.8 (Debian 10), ou se você obtiver o `ImportError: não é possível importar o nome 'CommunicationsProtocol' de 'pysiaalarm', você deve ir em "Configurações" -> "Sistema" -> "Configuração" e depois na guia "OS / DB" e em "Ferramentas do sistema" clicar em "Abrir" na frente de "Sistema Administração". E faça o comando `sudo pip3 install pysiaalarm == 3.0.0b9`
+
+## Configurando o AIS
+
+A configuração do SIA é bastante simples, em "Plugin" -> "Gerenciamento de Plugins" -> "Sistemas Ajax", você terá : 
+- usando o daemon SIA
+- a conta SIA
+- a chave de criptografia SIA
+
+Você deve então ir para o aplicativo Ajax Systeme (do seu telefone), vá para "Dispositivos" e clique no hub, vá para sua configuração (roda dentada no canto superior direito), vá para "Centro de monitoramento" e preencha as informações : 
+
+- porto (aquele em Jeedom)
+- Conta SIA (mesmo em Jeedom)
+- chave de criptografia (idem)
+- ip : coloque o ip local do Jeedom
+
+Você também pode alterar a frequência de teste de serviço de 1min a 24h (para reduzir a carga em seu Jeedom).
+
+Normalmente, se tudo estiver bem, você deve ver a mudança de "Estação Central" para "Conectado"
+
+>**IMPORTANTE**
+>
+> Certas informações só são retornadas se o AIS estiver configurado

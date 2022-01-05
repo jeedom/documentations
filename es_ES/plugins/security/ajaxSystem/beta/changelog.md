@@ -4,7 +4,12 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
+# 01/04/2022
+
+- Optimización de la instalación de dependencias
 - Corrección de la gestión del color del equipo
+- Adición de la cortina doble para exteriores
+- Agregar interruptor de pared
 
 # 11/12/2021
 

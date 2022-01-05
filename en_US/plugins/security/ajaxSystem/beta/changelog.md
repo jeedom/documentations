@@ -4,7 +4,12 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+# 01/04/2022
+
+- Optimization of the installation of dependencies
 - Correction of the color management of the equipment
+- Addition of the Dual Curtain Outdoor
+- Add Wall Switch
 
 # 12/11/2021
 
