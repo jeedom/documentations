@@ -1,7 +1,18 @@
 {
     "id": "energy",
     "name": "Energie",
-    "description": "Plugin pour gérer sa consommation énergétique",
+    "description": {
+        "fr_FR": "Plugin pour gérer sa consommation énergétique",
+        "en_US": "Plugin to manage your energy consumption",
+        "es_ES": "Complemento para administrar su consumo de energía",
+        "de_DE": "Plugin zur Verwaltung Ihres Energieverbrauchs",
+        "pt_PT": "Plugin para gerenciar seu consumo de energia",
+        "ru_RU": "Plugin pour gérer sa consommation énergétique",
+        "id_ID": "Plugin pour gérer sa consommation énergétique",
+        "it_IT": "Plugin pour gérer sa consommation énergétique",
+        "ja_JP": "Plugin pour gérer sa consommation énergétique",
+        "tr": "Plugin pour gérer sa consommation énergétique"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.0",
@@ -9,5 +20,26 @@
     "display": "panel",
     "mobile": "panel",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

@@ -4,7 +4,12 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 01.04.2022
+
+- Optimierung der Installation von Abhängigkeiten
 - Korrektur des Farbmanagements der Geräte
+- Ergänzung des Dual Curtain Outdoor
+- Wandschalter hinzufügen
 
 # 12.11.2021
 
