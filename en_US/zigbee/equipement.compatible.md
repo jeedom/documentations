@@ -133,7 +133,7 @@
 |<img src="../../en_US/zigbee/images/Legrand.Centralized_ventilation_SW.png" width="60" />|Legrand|Micro VMC module||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Connected_outlet.png" width="60" />|Legrand|Connected socket||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Contactor.png" width="60" />|Legrand|DRIVIA connected contactor||Can only be paired on channel 11||
-|<img src="../../en_US/zigbee/images/Legrand.DIN_power_consumption_module.jpg" width="60" />|Legrand|DIN power consumption module||Can only be paired on channel 11||
+|<img src="../../en_US/zigbee/images/Legrand.DIN_power_consumption_module.png" width="60" />|Legrand|DIN power consumption module||Can only be paired on channel 11||
 |<img src="../../en_US/zigbee/images/Legrand.Dimmer_switch_w_o_neutral.png" width="60" />|Legrand|Wired switch connected with dimmer option without neutral||Can only be paired on channel 11, 13 or 15||
 |<img src="../../en_US/zigbee/images/Legrand.Dimmer_switch_with_neutral.png" width="60" />|Legrand|Switch connected with neutral with dimmer option||Can only be paired on channel 11, 13 or 15||
 |<img src="../../en_US/zigbee/images/Legrand.Double_gangs_remote_switch.png" width="60" />|Legrand|Wireless dual control||Can only be paired on channel 11||
@@ -183,8 +183,10 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/Neuhaus_Lighting_Group.NLG-CCT_light.png" width="60" />|Paul Neuhaus|Q-Orbit||||
+|<img src="../../en_US/zigbee/images/Neuhaus_Lighting_Group.NLG-RGB-TW_light.png" width="60" />|Paul Neuhaus|Q-SKYLINE||||
 |<img src="../../en_US/zigbee/images/Neuhaus_Lighting_Group.NLG-RGBW_light.png" width="60" />|Paul Neuhaus|Q-Miran||||
 |<img src="../../en_US/zigbee/images/Neuhaus_Lighting_Group.NLG-remote.png" width="60" />|Paul Neuhaus|NLG-remote||||
+|<img src="../../en_US/zigbee/images/Neuhaus_Lighting_Group.Neuhaus_remote.png" width="60" />|Paul Neuhaus|Neuhaus remote||||
 
 # Philio
 
@@ -312,7 +314,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/DANFOSS.RV001.png" width="60" />|Danfoss|Danfoss Ally|Thermostatic head||[Documentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
+|<img src="../../en_US/zigbee/images/DANFOSS.RV001.png" width="60" />|Danfoss|Danfoss Ally (2)|Thermostatic head||[Documentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 |<img src="../../en_US/zigbee/images/Danfoss.0x0200.png" width="60" />|Danfoss|Danfoss Icon Floor Controller|Heated Floor Controller|||
 |<img src="../../en_US/zigbee/images/Danfoss.eTRV0100.png" width="60" />|Danfoss|Danfoss Ally|Thermostatic head||[Documentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
 |<img src="../../en_US/zigbee/images/TZ3000_mxzo5rhf.TS0201.png" width="60" />|Danfoss|Temperature and humidity probe|||[Buy](https://www.domadoo.fr/fr/peripheriques/5930-danfoss-sonde-de-temperature-et-d-humidite-zigbee-30-5715162289013.html)|
@@ -330,6 +332,7 @@
 |<img src="../../en_US/zigbee/images/eWeLight.ZB-CL01.png" width="60" />|eWeLight|RGBCW MR16 Smart LED Bulb||||
 |<img src="../../en_US/zigbee/images/eWeLink.SA-003-Zigbee.png" width="60" />|EWeLink|OnOff Controller||||
 |<img src="../../en_US/zigbee/images/eWeLink.ZB-CL01.png" width="60" />|EWeLink|RGBCW MR16 Smart LED Bulb||||
+|<img src="../../en_US/zigbee/images/eWeLink.ZB-SW01.png" width="60" />|EWeLink|1 Channel ZigBee Smart Relay Switch||||
 |<img src="../../en_US/zigbee/images/eWeLink.ZB-SW02.png" width="60" />|EWeLink|OnOff Controller||||
 
 # Ecodim
@@ -356,6 +359,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/gledopto.GL-B-007Z.png" width="60" />|Gledopto|GL-B-007Z||||
+|<img src="../../en_US/zigbee/images/gledopto.GL-B-008Z.png" width="60" />|Gledopto|GL-B-008Z||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-C-006P.png" width="60" />|Gledopto|Warm and cool white LED strip smart controller||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-C-008P.png" width="60" />|Gledopto|GL-C-008P||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-C-008S.png" width="60" />|Gledopto|GL-C-008S||||
@@ -371,6 +375,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/HEIMAN.COSensor-EF-3.0.png" width="60" />|Heiman|Smart Carbon Monoxide Sensor||||
 |<img src="../../en_US/zigbee/images/HEIMAN.COSensor-EM.png" width="60" />|Heiman|Carbon monoxide detector||||
+|<img src="../../en_US/zigbee/images/HEIMAN.ColorDimmerSw-EM-3.0.png" width="60" />|Heiman|5-button color remote control||||
 |<img src="../../en_US/zigbee/images/HEIMAN.DoorBell-EM.png" width="60" />|Heiman|Connected doorbell||||
 |<img src="../../en_US/zigbee/images/HEIMAN.GASSensor-EF-3.0.png" width="60" />|Heiman|Smart Combustible Gas Sensor||||
 |<img src="../../en_US/zigbee/images/HEIMAN.GASSensor-EM.png" width="60" />|Heiman|Gas detector||||
@@ -408,9 +413,10 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/IKEA_of_Sweden-copy.FLOALT_panel_WS_30x90.png" width="60" />|Ikea|FLOALT panel WS 30x90||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.FLOALT_panel_WS_30x30.png" width="60" />|Ikea|FLOALT panel WS 30x30||||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.FLOALT_panel_WS_30x90.png" width="60" />|Ikea|FLOALT panel WS 30x90||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.FYRTUR_roller_blind.png" width="60" />|Ikea|Fyrtur - roller blind||||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.GUNNARP_panel_round.png" width="60" />|Ikea|GUNNARP panel round||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.KADRILJ_roller_blind.png" width="60" />|Ikea|Kadrilj - roller blind||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.Remote_Control_N2.png" width="60" />|Ikea|STYRBAR remote control|Remote control|||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.STARKVIND_Air_purifier.png" width="60" />|Ikea|IKEA Starkvind air purifier||||
@@ -556,6 +562,12 @@
 |<img src="../../en_US/zigbee/images/OSRAM.MR16_TW_OSRAM.png" width="60" />|Osram|OSRAM SMART + Spot GU5.3 Tunable White||||
 |<img src="../../en_US/zigbee/images/OSRAM.Plug_01.png" width="60" />|Osram|OSRAM Smart + Plug||||
 
+# Owon
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/OWON.THS317-ET.png" width="60" />|Owon|Remote temperature probe on cable|||[Buy](https://www.domadoo.fr/fr/peripheriques/5998-owon-sonde-de-temperature-deportee-sur-cable-zigbee.html)|
+
 # Philips
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -622,7 +634,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/D5X84YU.eT093WRO.png" width="60" />|Danfoss|Danfoss Ally|Thermostatic head||[Documentation](https://assets.danfoss.com/documents/DOC353849556547/DOC353849556547.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5156-danfoss-tete-electronique-ally-zigbee-30-5702425245008.html)|
+|<img src="../../en_US/zigbee/images/D5X84YU.eT093WRO.png" width="60" />|Popp|Popp valve|Thermostatic head|||
 
 # Profalux
 
@@ -718,9 +730,11 @@
 |<img src="../../en_US/zigbee/images/TZ2000_a476raq2.TS0201.png" width="60" />|Tuya|Temperature and humidity sensor with display||||
 |<img src="../../en_US/zigbee/images/TZ3000_1dd0d5yi.TS130F.png" width="60" />|Tuya|MOES - Zigbee + RF Roller Shutter Module|Volets|||
 |<img src="../../en_US/zigbee/images/TZ3000_40zcsvfv.TS0502A.png" width="60" />|Tuya|LED controller||||
+|<img src="../../en_US/zigbee/images/TZ3000_4fsgukof.TS0215A.png" width="60" />|Tuya|SOS remote control||||
 |<img src="../../en_US/zigbee/images/TZ3000_4js9lo5d.TS0012.png" width="60" />|Tuya|Double micromodule without neutral||||
 |<img src="../../en_US/zigbee/images/TZ3000_4upl1fcj.TS0041.png" width="60" />|Tuya|1 button connected switch|||[Buy](https://www.domadoo.fr/fr/domotique/5785-moes-interrupteur-intelligent-sans-fil-zigbee-1-bouton.html)|
 |<img src="../../en_US/zigbee/images/TZ3000_4whigl8i.TS0501B.png" width="60" />|Tuya|LED strip controller||||
+|<img src="../../en_US/zigbee/images/TZ3000_5f43h46b.TS011F.png" width="60" />|Tuya|QONTROLS 16A socket with consumption measurement||||
 |<img src="../../en_US/zigbee/images/TZ3000_5jdvwqv9.TS0502B.png" width="60" />|Tuya|LED controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_5k5vh43t.TS0207.png" width="60" />|Tuya|Repeater||||
 |<img src="../../en_US/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Tuya|Connected switch for connected curtain||||
@@ -743,9 +757,11 @@
 |<img src="../../en_US/zigbee/images/TZ3000_hktqahrq.TS0001.png" width="60" />|Tuya|Gigier JR-ZDS01||||
 |<img src="../../en_US/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|Mini RGB Led Strip Controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_ji4araar.TS0011.png" width="60" />|Tuya|Switch module ON / OFF 10A|Socket, Consumption, Power, Repeater||[Buy](https://fr.aliexpress.com/item/1005003438720832.html)|
+|<img src="../../en_US/zigbee/images/TZ3000_l13erpv4.TS130F.png" width="60" />|Tuya|Roller shutter switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_m0vaazab.TS0207.png" width="60" />|Tuya|Range extender||||
 |<img src="../../en_US/zigbee/images/TZ3000_m9af2l6g.TS000F.png" width="60" />|Tuya|Zigbee 3 micromodule.0 SKTE||||
 |<img src="../../en_US/zigbee/images/TZ3000_nfnmi125.TS011F.png" width="60" />|Tuya|Simple ON / OFF connected plug|Socket, Repeater||[Buy](https://fr.aliexpress.com/item/1005002761118194.html)|
+|<img src="../../en_US/zigbee/images/TZ3000_npzfdcof.TS0001.png" width="60" />|Tuya|Mini SMART - Single connected module ON / OFF 16A|||[Buy](https://fr.aliexpress.com/item/1005003167278697.html)|
 |<img src="../../en_US/zigbee/images/TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Connected power strip 4 sockets and 2 USB ports||||
 |<img src="../../en_US/zigbee/images/TZ3000_o4cjetlm.TS0001.png" width="60" />|Tuya|Tuya Zigbee - Valve controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Dual ON / OFF connected module||||
@@ -866,4 +882,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2022-01-06 01:32:08
+2022-01-07 01:32:15
