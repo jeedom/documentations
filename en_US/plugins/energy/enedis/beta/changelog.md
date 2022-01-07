@@ -7,6 +7,7 @@
 # 01/05/2022
 
 - Fixed a bug on data collection on January 1st
+- Addition of an indicator on the widget to know if the data is up to date *(green = OK, red = KO, orange = some data KO)*
 
 # 06/03/2021
 

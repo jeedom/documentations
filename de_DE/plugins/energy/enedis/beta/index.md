@@ -19,7 +19,7 @@ Für jede Messart werden 5 Daten angegeben :
 >    
 >Da die Daten nicht in Echtzeit verfügbar sind, ruft das Plugin die Stromverbrauchsdaten vom Vortag ab.
 
-Solange das Plugin nicht alle Daten vom Vortag abgerufen hat, pollt es weiterhin alle 30 Minuten zwischen 6 und 20 Uhr die Enedis-Server, ansonsten werden die Anrufe bis zum nächsten Tag ausgesetzt.
+Solange das Plugin nicht alle Daten vom Vortag abgerufen hat, pollt es weiterhin alle 30 Minuten zwischen 7 und 20 Uhr die Enedis-Server, ansonsten werden die Anrufe bis zum nächsten Tag ausgesetzt.
 
 # Configuration
 
@@ -87,7 +87,7 @@ Die Daten für Tag, Monat, Jahr und maximale Leistung werden ab dem gewählten D
 >     
 >Die Widget-Vorlage wird sowohl auf Desktop- als auch auf Mobilversionen angezeigt.
 
-Das Plugin bietet die Möglichkeit, Verbrauchs- und / oder Produktionsdaten in einer Widget-Vorlage anzuzeigen, die das Erscheinungsbild eines Zählers imitiert *Linky*. Der Klick auf die Schaltfläche "**- \.| +**" ermöglicht den Wechsel vom Verbrauch zur Produktion für diejenigen, die Zugang zu zwei Arten von Maßnahmen haben.
+Das Plugin bietet die Möglichkeit, Verbrauchs- und / oder Produktionsdaten in einer Widget-Vorlage anzuzeigen, die das Erscheinungsbild eines Zählers imitiert *Linky*. Der Klick auf die Schaltfläche "**- \.| +**" ermöglicht den Wechsel vom Verbrauch zur Produktion für diejenigen, die Zugang zu zwei Arten von Maßnahmen haben. Ein Indikator informiert Sie auch darüber, ob die Daten aktuell sind oder nicht *(grün = alle Daten sind aktuell, orange = einige Daten sind nicht aktuell, rot = keine Daten sind aktuell)*.
 
 ![Widget-Vorlage](../images/enedis_screenshot1.png)
 

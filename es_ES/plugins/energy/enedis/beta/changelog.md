@@ -7,6 +7,7 @@
 # 05/01/2022
 
 - Se corrigió un error en la recopilación de datos el 1 de enero
+- Adición de un indicador en el widget para saber si los datos están actualizados *(verde = OK, rojo = KO, naranja = algunos datos KO)*
 
 # 03/06/2021
 

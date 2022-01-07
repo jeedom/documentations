@@ -19,7 +19,7 @@ Plugin que permite a recuperação de dados de consumo de eletricidade de medido
 >    
 >Como os dados não são disponibilizados em tempo real, o plugin recupera os dados de consumo de eletricidade da véspera de cada dia.
 
-Enquanto o plug-in não recuperou todos os dados do dia anterior, ele continua a pesquisar os servidores Enedis a cada 30 minutos entre 6h e 20h, caso contrário, as chamadas serão suspensas até o dia seguinte.
+Enquanto o plug-in não recuperou todos os dados do dia anterior, ele continua a pesquisar os servidores Enedis a cada 30 minutos entre 7h e 20h, caso contrário, as chamadas serão suspensas até o dia seguinte.
 
 # Configuration
 
@@ -87,7 +87,7 @@ Os dados de dia, mês, ano e potência máxima serão integrados a partir da dat
 >     
 >O modelo do widget será exibido nas versões desktop e móvel.
 
-O plugin oferece a possibilidade de exibir dados de consumo e / ou produção em um template de widget que imita a aparência de um medidor *Linky*. O clique no botão "**- \| +**" permite passar do consumo para a produção para quem tem acesso a 2 tipos de medidas.
+O plugin oferece a possibilidade de exibir dados de consumo e / ou produção em um template de widget que imita a aparência de um medidor *Linky*. O clique no botão "**- \| +**" permite passar do consumo para a produção para quem tem acesso a 2 tipos de medidas. Um indicador também permite que você saiba se os dados estão atualizados ou não *(verde = todos os dados estão atualizados, laranja = alguns dados não estão atualizados, vermelho = nenhum dado está atualizado)*.
 
 ![Template de widget](../images/enedis_screenshot1.png)
 

@@ -19,7 +19,7 @@ Il est possible d'accéder aux données de **consommation**, de **production** o
 >    
 >Les données n'étant pas mises à disposition en temps réel, le plugin récupère chaque jour les données de consommation électrique de la veille.
 
-Tant que le plugin n'a pas récupéré l'intégralité des données de la veille, il continue d'interroger les serveurs Enedis toutes les 30 minutes entre 6h et 20h, autrement les appels sont suspendus jusqu'au lendemain.
+Tant que le plugin n'a pas récupéré l'intégralité des données de la veille, il continue d'interroger les serveurs Enedis toutes les 30 minutes entre 7h et 20h, autrement les appels sont suspendus jusqu'au lendemain.
 
 # Configuration
 
@@ -87,7 +87,7 @@ Les données jour, mois, année et puissance max seront intégrées de la date c
 >     
 >Le template de widget sera affiché aussi bien sur les versions desktop que mobile.
 
-Le plugin offre la possibilité d'afficher les données de consommation et/ou de production dans un template de widget imitant l'aspect d'un compteur *Linky*. Le clic sur le bouton "**- \| +**" permet de basculer de la consommation à la production pour ceux qui ont accès aux 2 types de mesures.
+Le plugin offre la possibilité d'afficher les données de consommation et/ou de production dans un template de widget imitant l'aspect d'un compteur *Linky*. Le clic sur le bouton "**- \| +**" permet de basculer de la consommation à la production pour ceux qui ont accès aux 2 types de mesures. Un voyant permet également de savoir si les données sont à jour ou non *(vert = toutes les données sont à jour, orange = certaines données ne sont pas à jour, rouge = aucune donnée n'est à jour)*.
 
 ![Template de widget](../images/enedis_screenshot1.png)
 

@@ -19,7 +19,7 @@ Se reportan 5 datos para cada tipo de medición :
 >    
 >Como los datos no están disponibles en tiempo real, el complemento recupera los datos de consumo de electricidad del día anterior a cada día.
 
-Mientras el complemento no haya recuperado todos los datos del día anterior, continúa sondeando los servidores de Enedis cada 30 minutos entre las 6 a.m. y las 8 p.m., de lo contrario, las llamadas se suspenden hasta el día siguiente.
+Mientras el complemento no haya recuperado todos los datos del día anterior, continúa sondeando los servidores de Enedis cada 30 minutos entre las 7 a.m. y las 8 p.m., de lo contrario, las llamadas se suspenden hasta el día siguiente.
 
 # Configuration
 
@@ -87,7 +87,7 @@ Los datos de día, mes, año y potencia máxima se integrarán desde la fecha el
 >     
 >La plantilla del widget se mostrará en las versiones de escritorio y móvil.
 
-El complemento ofrece la posibilidad de mostrar datos de consumo y / o producción en una plantilla de widget imitando la apariencia de un medidor *Linky*. El clic en el botón "**- \| +**" permite pasar del consumo a la producción para quienes tienen acceso a 2 tipos de medidas.
+El complemento ofrece la posibilidad de mostrar datos de consumo y / o producción en una plantilla de widget imitando la apariencia de un medidor *Linky*. El clic en el botón "**- \| +**" permite pasar del consumo a la producción para quienes tienen acceso a 2 tipos de medidas. Un indicador también le permite saber si los datos están actualizados o no *(verde = todos los datos están actualizados, naranja = algunos datos no están actualizados, rojo = no hay datos actualizados)*.
 
 ![Plantilla de widget](../images/enedis_screenshot1.png)
 

@@ -19,7 +19,7 @@ It is possible to access data from **consumption**, of **production** or to the 
 >    
 >As the data is not made available in real time, the plugin retrieves the electricity consumption data from the day before each day.
 
-As long as the plugin has not retrieved all of the data from the day before, it continues to poll the Enedis servers every 30 minutes between 6 a.m. and 8 p.m., otherwise calls are suspended until the next day.
+As long as the plugin has not retrieved all of the data from the day before, it continues to poll the Enedis servers every 30 minutes between 7 a.m. and 8 p.m., otherwise calls are suspended until the next day.
 
 # Configuration
 
@@ -87,7 +87,7 @@ The day, month, year and maximum power data will be integrated from the date cho
 >     
 >The widget template will be displayed on both desktop and mobile versions.
 
-The plugin offers the possibility of displaying consumption and / or production data in a widget template imitating the appearance of a meter *Linky*. The click on the button "**- \| +**" allows to switch from consumption to production for those who have access to 2 types of measures.
+The plugin offers the possibility of displaying consumption and / or production data in a widget template imitating the appearance of a meter *Linky*. The click on the button "**- \| +**" allows to switch from consumption to production for those who have access to 2 types of measures. An indicator also lets you know if the data is up to date or not *(green = all data is up to date, orange = some data is not up to date, red = no data is up to date)*.
 
 ![Widget template](../images/enedis_screenshot1.png)
 

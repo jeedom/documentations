@@ -7,6 +7,7 @@
 # 01.05.2022
 
 - Fehler bei der Datenerfassung am 1. Januar behoben
+- Hinzufügen eines Indikators auf dem Widget, um zu wissen, ob die Daten auf dem neuesten Stand sind *(grün = OK, rot = KO, orange = einige Daten KO)*
 
 # 06.03.2021
 

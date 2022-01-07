@@ -24,7 +24,7 @@
     "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/enedis\/beta\/changelog",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/enedis\/changelog",
     "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/enedis\/beta",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/enedis\/",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/enedis",
     "language": [
         "fr_FR",
         "en_US",

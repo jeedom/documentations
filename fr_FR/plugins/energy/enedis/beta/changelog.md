@@ -7,6 +7,7 @@
 # 05/01/2022
 
 - Correction d'un bug sur la collecte des données le 1er janvier
+- Ajout d'un voyant sur le widget pour savoir si les données sont à jour *(vert = OK, rouge = KO, orange = certaines données KO)*
 
 # 03/06/2021
 
