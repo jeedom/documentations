@@ -8,6 +8,58 @@
 >
 >To know the new compatible module you have to go [the](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (it is sorted by date added / modified)
 
+>**Important**
+>
+>To take advantage of the latest module integration, don't hesitate to update the dependencies
+
+
+- Improved battery recovery
+
+# 12/20/2021
+
+- Fixed a bug when restarting the daemon when the sub daemons are configured but disabled
+- Fixed an issue when requesting a refresh of more than 7 attribute values, thanks @kaktusatomik
+- Added new equipment (thanks @ cstan77)
+
+# 12/02/2021
+
+- Addition of new equipment
+- Correction of a problem on the "Report configuration" of the modules
+
+# 22/11/2021
+
+- Optimization of the loading speed of the plugin pages
+- Addition of new equipment
+- Update dependencies automatically when updating the plugin
+
+
+# 07/11/2021
+
+- Addition of new equipment
+- Fixed a bug on Tuya roller shutter modules
+
+# 25/10/2021
+
+- Adding new configuration
+- Possibility to define a cron to force the update of the attributes (be careful not to put anything it can break all your zigbee networks)
+- Bug fix
+- Addition of the number of neighbors on the zigbee chart page when hovering
+
+# 09/19/2021
+
+- Bugfix
+
+# 09/15/2021
+
+- Fixed a bug on inclusion
+- Improved log levels
+- Addition of new modules
+
+>**Important**
+>
+>It is ABSOLUTELY necessary to launch an installation of dependencies even if it is OK (we are working in jeedom 4.2 has this to be automatically but for the moment you have to launch them by hand)
+
+# 03/09/2021
 
 - Fixed a problem with group creation in some cases
 - Fixed group list display

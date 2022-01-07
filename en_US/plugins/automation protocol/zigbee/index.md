@@ -8,6 +8,10 @@
 -	**Zigate** : Not tested by the team.
 -	**ZNP (Texas Instruments)** : Not tested by the team.
 
+>**Important**
+>
+> First of all you have to update the firmware of your key (especially for EZSP, popp key in particular) otherwise the daemon cannot work. For the Popp key the update is directly managed from the plugin for the other type of key it is necessary to refer to the manufacturer's documentation.
+
 In addition, the plugin is equipped with many tools allowing :
 
 - taking charge of **several controllers at the same time**,
@@ -92,6 +96,7 @@ Other more specific parameters are also accessible :
 - **Communication control** : allows you to select the mode of checking good communication between the controller and the module.
 - **Ignore execution confirmation** : check the box to ignore the correct execution of the command. This allows you to regain control more quickly but does not guarantee that the order is well placed.
 - **Allow queuing** : check the box to allow queuing of orders. This allows the command to be re-executed in the event that the order has not been taken into account by the module.
+- **Auto-refresh (cron)** : allows to force the update of attributes, it is not recommended to put anything here, a bad value and you saturate all your zigbee networks...
 
 The part **Information** allows manual selection of manufacturer and equipment. There is also the visual of the equipment as well as two buttons allowing the **regeneration of orders** or access to options **Module configuration**.
 
@@ -307,6 +312,7 @@ If for a given daemon (1, 2 or 3) you change the Zigbee key without restoring a 
 >Several possibilities for this :
 >- You already have a lot of mods and have exceeded the limit of the number of live mods (31 in general). You must either put another Zigbee key (the plugin manages up to 3) or try adding router nodes (be careful there is no clear standard on router nodes so there are incompatibilities between manufacturers...)
 >- You are under Conbee : try to unplug the key for 2 minutes, put it back and restart the daemon, it's a known disease of the Conbee key (even under deconz) or you need a cold reboot for the inclusion to work
+>- You have an SSD plugged into USB3, try plugging it into a USB2 port
 
 >**I see "No cluster ID" errors in the logs XXXXX"**
 >
@@ -315,3 +321,4 @@ If for a given daemon (1, 2 or 3) you change the Zigbee key without restoring a 
 >**My motion sensor / opening / switch command always remains at 1**
 >
 >It is common in zigbee mode the module sends the value one during an action (movement, opening, pressing the button) but does not return 0 when it is finished (end of movement for example). You can set up a status return to 0 after 1min (for example) in the configuration of the equipment command tab then on the command line in question.
+

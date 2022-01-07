@@ -8,6 +8,10 @@
 -	**Zigate** : Nicht vom Team getestet.
 -	**ZNP (Texas Instruments))** : Nicht vom Team getestet.
 
+>**Wichtig**
+>
+> Zuerst müssen Sie die Firmware Ihres Schlüssels aktualisieren (insbesondere für EZSP, insbesondere Popp-Schlüssel), sonst kann der Daemon nicht funktionieren. Für den Popp-Schlüssel wird das Update direkt aus dem Plugin verwaltet, für den anderen Schlüsseltyp ist es notwendig, die Herstellerdokumentation zu konsultieren.
+
 Darüber hinaus ist das Plugin mit vielen Tools ausgestattet, die es ermöglichen :
 
 - die Verantwortung übernehmen **mehrere Controller gleichzeitig**,
@@ -92,6 +96,7 @@ Andere spezifischere Parameter sind ebenfalls verfügbar :
 - **Kommunikationssteuerung** : Mit dieser Option können Sie den Modus zur Überprüfung der guten Kommunikation zwischen der Steuerung und dem Modul auswählen.
 - **Ausführungsbestätigung ignorieren** : Aktivieren Sie das Kontrollkästchen, um die korrekte Ausführung des Befehls zu ignorieren. Dies ermöglicht es Ihnen, die Kontrolle schneller wiederzugewinnen, garantiert jedoch nicht, dass die Bestellung gut aufgegeben wurde.
 - **Warteschlangen zulassen** : Aktivieren Sie das Kontrollkästchen, um das Einreihen von Bestellungen zu ermöglichen. Dadurch kann der Befehl erneut ausgeführt werden, falls die Reihenfolge vom Modul nicht berücksichtigt wurde.
+- **Automatische Aktualisierung (cron)** : erlaubt die Aktualisierung von Attributen zu erzwingen, es wird nicht empfohlen, hier etwas einzugeben, ein schlechter Wert und Sie sättigen alle Ihre Zigbee-Netzwerke...
 
 Das Teil **Information** ermöglicht die manuelle Auswahl von Hersteller und Ausrüstung. Es gibt auch die visuelle Darstellung der Ausrüstung sowie zwei Tasten, mit denen die **Regeneration von Aufträgen** oder Zugriff auf Optionen **Modulkonfiguration**.
 
@@ -307,6 +312,7 @@ Wenn Sie für einen bestimmten Daemon (1, 2 oder 3) den Zigbee-Schlüssel änder
 >Dafür gibt es mehrere Möglichkeiten :
 >- Du hast bereits viele Mods und hast das Limit der Anzahl der Live-Mods überschritten (31 im Allgemeinen). Sie müssen entweder einen anderen ZigBee-Schlüssel eingeben (das Plugin verwaltet bis zu 3) oder versuchen, Routerknoten hinzuzufügen (achten Sie darauf, dass es keinen klaren Standard für Routerknoten gibt, sodass Inkompatibilitäten zwischen Herstellern bestehen...)
 >- Sie sind unter Conbee : Versuchen Sie, den Schlüssel für 2 Minuten abzuziehen, ihn zurückzusetzen und den Daemon neu zu starten. Es handelt sich um eine bekannte Erkrankung des Conbee-Schlüssels (auch unter Dekonz), oder Sie benötigen einen Kaltstart, damit die Aufnahme funktioniert
+>- Sie haben eine SSD an USB3 angeschlossen, versuchen Sie, sie an einen USB2-Port anzuschließen
 
 >**Ich sehe in den Protokollen den Fehler "Keine Cluster-ID" XXXXX"**
 >
@@ -315,3 +321,4 @@ Wenn Sie für einen bestimmten Daemon (1, 2 oder 3) den Zigbee-Schlüssel änder
 >**Mein Bewegungsmelder / Öffnungs- / Schaltbefehl bleibt immer auf 1**
 >
 >Im Zigbee-Modus ist es üblich, dass das Modul während einer Aktion (Bewegung, Öffnen, Drücken der Taste) den Wert Eins sendet, aber keine 0 zurückgibt, wenn sie beendet ist (zum Beispiel Ende der Bewegung)). Sie können eine Statusrückkehr auf 0 nach 1 Minute (zum Beispiel) in der Konfiguration des Gerätebefehlsregisters und dann in der betreffenden Befehlszeile einrichten.
+

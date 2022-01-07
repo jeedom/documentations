@@ -8,6 +8,58 @@
 >
 >Para conhecer o novo módulo compatível você tem que ir [a](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (é classificado pela data de adição / modificação)
 
+>**IMPORTANTE**
+>
+>Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
+
+
+- Recuperação de bateria aprimorada
+
+# 20/12/2021
+
+- Corrigido um bug ao reiniciar o daemon quando os sub daemons estão configurados, mas desabilitados
+- Corrigido um problema ao solicitar uma atualização de mais de 7 valores de atributo, obrigado @kaktusatomik
+- Adicionado novo equipamento (obrigado @ cstan77)
+
+# 02/12/2021
+
+- Adição de novos equipamentos
+- Correção de um problema no "Relatório de configuração" dos módulos
+
+# 22/11/2021
+
+- Otimização da velocidade de carregamento das páginas do plugin
+- Adição de novos equipamentos
+- Atualize as dependências automaticamente ao atualizar o plugin
+
+
+# 11/07/2021
+
+- Adição de novos equipamentos
+- Correção de um bug nos módulos de persianas enroláveis Tuya
+
+# 25/10/2021
+
+- Adicionando nova configuração
+- Possibilidade de definir um cron para forçar a atualização dos atributos (tenha cuidado para não colocar nada pois pode quebrar todas as suas redes zigbee)
+- Correção de bug
+- Adição do número de vizinhos na página do gráfico zigbee ao pairar
+
+# 19/09/2021
+
+- Bugfix
+
+# 15/09/2021
+
+- Corrigido um bug na inclusão
+- Níveis de registro aprimorados
+- Adição de novos módulos
+
+>**IMPORTANTE**
+>
+>É ABSOLUTAMENTE necessário lançar uma instalação de dependências mesmo que esteja OK (estamos trabalhando no jeedom 4.2 tem que ser automaticamente, mas no momento você tem que iniciá-los manualmente)
+
+# 09/03/2021
 
 - Corrigido um problema com a criação de grupos em alguns casos
 - Exibição de lista de grupo fixa

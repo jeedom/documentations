@@ -8,6 +8,10 @@
 -	**Zigate** : Não testado pela equipe.
 -	**ZNP (Texas Instruments)** : Não testado pela equipe.
 
+>**IMPORTANTE**
+>
+> Em primeiro lugar, você deve atualizar o firmware de sua chave (especialmente para EZSP, chave popp em particular), caso contrário, o daemon não funcionará. Para a chave Popp a atualização é gerenciada diretamente do plugin para o outro tipo de chave é necessário consultar a documentação do fabricante.
+
 Além disso, o plugin está equipado com muitas ferramentas que permitem :
 
 - tomando conta de **vários controladores ao mesmo tempo**,
@@ -92,6 +96,7 @@ Outros parâmetros mais específicos também estão acessíveis :
 - **Controle de comunicação** : permite que você selecione o modo de verificação de boa comunicação entre o controlador e o módulo.
 - **Ignorar confirmação de execução** : marque a caixa para ignorar a execução correta do comando. Isso permite que você recupere o controle mais rapidamente, mas não garante que o pedido seja bem colocado.
 - **Permitir fila** : marque a caixa para permitir a fila de pedidos. Isso permite que o comando seja executado novamente caso o pedido não seja levado em consideração pelo módulo.
+- **Auto-atualização (cron)** : permite forçar a atualização de atributos, não é recomendado colocar nada aqui, um valor ruim e você satura todas as suas redes zigbee...
 
 A parte **Em formação** permite a seleção manual do fabricante e do equipamento. Existe também o visual do equipamento assim como dois botões que permitem o **regeneração de ordens** ou acesso a opções **Configuração do módulo**.
 
@@ -307,6 +312,7 @@ Se para um determinado daemon (1, 2 ou 3) você alterar a chave Zigbee sem resta
 >Várias possibilidades para isso :
 >- Você já tem muitos mods e excedeu o limite do número de mods ao vivo (31 em geral). Você deve colocar outra chave Zigbee (o plugin gerencia até 3) ou tentar adicionar nós de roteador (cuidado, pois não há um padrão claro para nós de roteador, então há incompatibilidades entre os fabricantes...)
 >- Você está sob o comando de Conbee : tente desconectar a chave por 2 minutos, coloque-a de volta e reinicie o daemon, é uma doença conhecida da chave Conbee (mesmo em deconz) ou você precisa de uma reinicialização a frio para a inclusão funcionar
+>- Você tem um SSD conectado a USB3, tente conectá-lo a uma porta USB2
 
 >**Vejo erros "Sem ID de cluster" nos registros XXXXX"**
 >
@@ -315,3 +321,4 @@ Se para um determinado daemon (1, 2 ou 3) você alterar a chave Zigbee sem resta
 >**Meu sensor de movimento / abertura / comando de interruptor sempre permanece em 1**
 >
 >É comum no modo zigbee o módulo enviar o valor um durante uma ação (movimento, abrir, pressionar o botão) mas não retornar 0 quando terminar (fim do movimento por exemplo). Você pode configurar um retorno de status para 0 após 1min (por exemplo) na configuração da guia de comando do equipamento e, em seguida, na linha de comando em questão.
+

@@ -12,7 +12,9 @@
 >
 >To take advantage of the latest module integration, don't hesitate to update the dependencies
 
+# 01/06/2021
 
+- Fixed a bug on the list of modules that can be bound
 - Improved battery recovery
 
 # 12/20/2021

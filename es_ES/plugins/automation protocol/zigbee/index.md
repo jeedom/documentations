@@ -8,6 +8,10 @@
 -	**Zigate** : No probado por el equipo.
 -	**ZNP (Texas Instruments)** : No probado por el equipo.
 
+>**Importante**
+>
+> En primer lugar, debe actualizar el firmware de su clave (especialmente para EZSP, clave popp en particular) de lo contrario, el demonio no puede funcionar. Para la clave Popp la actualización se gestiona directamente desde el complemento para el otro tipo de clave es necesario consultar la documentación del fabricante.
+
 Además, el complemento está equipado con muchas herramientas que permiten :
 
 - hacerse cargo de **varios controladores al mismo tiempo**,
@@ -92,6 +96,7 @@ También se pueden acceder a otros parámetros más específicos :
 - **Control de comunicación** : le permite seleccionar el modo de verificación de la buena comunicación entre el controlador y el módulo.
 - **Ignorar la confirmación de ejecución** : marque la casilla para ignorar la ejecución correcta del comando. Esto le permite recuperar el control más rápidamente, pero no garantiza que el pedido esté bien colocado.
 - **Permitir hacer cola** : marque la casilla para permitir la cola de pedidos. Esto permite volver a ejecutar el comando en caso de que el módulo no haya tenido en cuenta la orden.
+- **Actualización automática (cron)** : permite forzar la actualización de atributos, no se recomienda poner nada aquí, un mal valor y satura todas tus redes zigbee...
 
 La parte **Información** permite la selección manual de fabricante y equipo. También existe la visual del equipo así como dos botones que permiten la **regeneración de órdenes** o acceso a opciones **Configuración del módulo**.
 
@@ -307,6 +312,7 @@ Si para un daemon dado (1, 2 o 3) cambia la clave Zigbee sin restaurar una copia
 >Varias posibilidades para esto :
 >- Ya tienes muchos mods y has excedido el límite del número de mods en vivo (31 en general). Debe poner otra clave Zigbee (el complemento administra hasta 3) o intentar agregar nodos de enrutador (tenga cuidado de que no haya un estándar claro en los nodos de enrutador, por lo que hay incompatibilidades entre los fabricantes...)
 >- Estás bajo Conbee : intente desconectar la clave durante 2 minutos, vuelva a colocarla y reinicie el demonio, es una enfermedad conocida de la clave Conbee (incluso bajo deconz) o necesita un reinicio en frío para que la inclusión funcione
+>- Tiene un SSD conectado a USB3, intente conectarlo a un puerto USB2
 
 >**Veo errores "No hay ID de clúster" en los registros XXXXX"**
 >
@@ -315,3 +321,4 @@ Si para un daemon dado (1, 2 o 3) cambia la clave Zigbee sin restaurar una copia
 >**Mi comando de sensor de movimiento / apertura / interruptor siempre permanece en 1**
 >
 >Es común que en el modo zigbee el módulo envíe el valor uno durante una acción (movimiento, apertura, presionar el botón) pero no devuelve 0 cuando finaliza (fin de movimiento por ejemplo). Puede configurar un retorno de estado a 0 después de 1 minuto (por ejemplo) en la configuración de la pestaña de comando del equipo y luego en la línea de comando en cuestión.
+
