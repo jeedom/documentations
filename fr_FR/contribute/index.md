@@ -4,7 +4,7 @@ Les contributions, quelles soient sur le Core ou sur le Documentation, sont touj
 
 Les Pull Request ne sont pas toujours acceptés, mais dans le cas contraire nous essayons d'expliquer pourquoi, afin qu'un prochain PR le soit. Jeedom n'est pas sensé tout faire pour tout le monde, certaines choses sont plus propice aux plugins par exemple. Les effets de bords de modifications à l'apparence simple peuvent aussi être importants. C'est pourquoi nous pouvons décider de ne pas intégrer certaines demandes, ou de le faire différemment.
 
-Avant de développer du code de votre coté, nous conseillons d'en discuter sur le [forum de discussion](https://community.jeedom.com/), surtout pour de nouvelles fonctionnalités. Les autres contributeurs et utilisateurs pourront ainsi mieux vous orienter, si besoin, sur cette orientation, ou même prévenir si d'autres y travaillent déjà.
+Avant de développer du code de votre coté, nous conseillons d'en discuter sur [Community](https://community.jeedom.com/), surtout pour de nouvelles fonctionnalités. Les autres contributeurs et utilisateurs pourront ainsi mieux vous orienter, si besoin, sur cette orientation, ou même prévenir si d'autres y travaillent déjà.
 
 ### Documentation
 

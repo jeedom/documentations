@@ -164,6 +164,15 @@ var docMenu = [
       {link:"/#LANG#/howtoadvance/",fr_FR:"Tutoriaux avancés",en_US:"Advanced tutorials",es_ES:"Tutoriales avanzados",de_DE:"Erweiterte Tutorials",pt_PT:""}
     ]
   },{
+    divider : true
+  },{
+    fr_FR : "Beta / Alpha",
+    en_US : "Beta / Alpha",
+    es_ES : "Beta / Alpha",
+    de_DE : "Beta / Alpha",
+    pt_PT : "Beta / Alpha",
+    link : "/#LANG#/beta/"
+  },{
     fr_FR:'Développeurs',
     en_US : 'Developers',
     es_ES : "Desarrolladores",
