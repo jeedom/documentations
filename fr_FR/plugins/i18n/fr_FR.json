@@ -144,6 +144,7 @@
         "Market": "Market",
         "Changelog beta": "Changelog beta",
         "Documentation": "Documentation",
+        "Beta": "Beta",
         "Changelog": "Changelog"
     },
     "plugins\/communication\/index.md": {
