@@ -4,7 +4,7 @@ Beiträge, ob im Kern oder in der Dokumentation, sind immer willkommen und wir b
 
 Pull-Anfragen werden nicht immer akzeptiert, aber wenn nicht, versuchen wir zu erklären, warum, so dass eine nächste PR ist. Jeedom soll nicht alles für alle tun, manche Dinge sind zum Beispiel für Plugins förderlicher. Die Randeffekte einfach aussehender Modifikationen können ebenfalls wichtig sein. Aus diesem Grund können wir entscheiden, bestimmte Anforderungen nicht oder anders zu integrieren.
 
-Bevor Sie Code selbst entwickeln, empfehlen wir, ihn auf der Website zu diskutieren [Diskussionsforum](https://community.jeedom.com/), speziell für neue Funktionen. Die anderen Mitwirkenden und Benutzer können Sie bei Bedarf besser zu dieser Ausrichtung führen oder sogar warnen, wenn andere bereits daran arbeiten.
+Bevor Sie selbst Code entwickeln, empfehlen wir, ihn auf . zu besprechen [Gemeinschaft](https://community.jeedom.com/), speziell für neue Funktionen. Die anderen Mitwirkenden und Benutzer können Sie bei Bedarf besser zu dieser Ausrichtung führen oder sogar warnen, wenn andere bereits daran arbeiten.
 
 ### Documentation
 
