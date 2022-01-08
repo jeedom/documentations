@@ -1584,6 +1584,7 @@
         "MH-S314 Four-load": "MH-S314 Vierlast",
         "MH-S311 Simple": "MH-S311 Einfach",
         "Equivalent au MH-S411": "Entspricht MH-S411",
+        "Z-Din 616": "Z-Din 616",
         "Dimmable LED Light Bulb (LB60Z-1": "Dimmbare LED-Glühbirne (LB60Z-1",
         "Electronic Deadbolt Smartcode": "Elektronischer Riegel-Smartcode",
         "PIR celing sensor": "PIR-Sensor",
@@ -1860,7 +1861,7 @@
         "Z-Stick Lite (DSA07203": "Z-Stick Lite (DSA07203",
         "Compatibilité des équipements Zwave": "Kompatibilität mit Zwave-Geräten",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind",
-        "2022-01-07 01": "2022-01-07 01",
+        "2022-01-08 01": "2022-01-08 01",
         " Zwaveme.": " Zwaveme.",
         " Zwaveme?": " Zwaveme?",
         "Zwaveme ": "Zwaveme ",
@@ -3008,7 +3009,14 @@
         " Documentation]": " Dokumentation]",
         "[Documentation]": "[Dokumentation]",
         "*Documentation*": "*Dokumentation*",
-        " Documentation*": " Dokumentation*"
+        " Documentation*": " Dokumentation*",
+        " Logicsoft.": " Logicsoft.",
+        " Logicsoft?": " Logicsoft?",
+        "Logicsoft ": "Logicsoft ",
+        " Logicsoft]": " Logicsoft]",
+        "[Logicsoft]": "[Logicsoft]",
+        "*Logicsoft*": "*Logicsoft*",
+        " Logicsoft*": " Logicsoft*"
     },
     "zwave\/everspring.AD147-6_-_Miniplug_Dimmer.md": {
         "Everspring Miniplug Dimmer - AD147-6": "Everspring Miniplug Dimmer - AD147-6",

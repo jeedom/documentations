@@ -351,6 +351,7 @@
 |<img src="../../en_US/zwave/images/271.256.265_fgd211.universal.dimmer.500w.jpg" width="60" />|Fibaro|FGD-211 Dimmer|Micromodule|This module is replaced in stores by the FGD-212|[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgd211_-_Dimmer)<br/>[Buy](http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html)|
 |<img src="../../en_US/zwave/images/271.256.4106_fgd211.universal.dimmer.500w.jpg" width="60" />|Fibaro|FGD-211 Dimmer|Micromodule|This module is replaced in stores by the FGD-212|[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgd211_-_Dimmer)<br/>[Buy](http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html)|
 |<img src="../../en_US/zwave/images/271.258.4096_fgd212.dimmer.jpg" width="60" />|Fibaro|FGD-212 Dimmer 2|Micromodule|Replaces FGD-211|[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgd212_-_Dimmer2)<br/>[Buy](http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html)|
+|<img src="../../en_US/zwave/images/271.258.4097_fgd212.dimmer.jpg" width="60" />|Fibaro|FGD-212 Dimmer 2|Micromodule|Replaces FGD-211|[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgd212_-_Dimmer2)<br/>[Buy](http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html)|
 |<img src="../../en_US/zwave/images/271.258.8192_fgd212.dimmer.jpg" width="60" />|Fibaro|FGD-212 Dimmer 2|Micromodule|Replaces FGD-211|[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgd212_-_Dimmer2)<br/>[Buy](http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html)|
 |<img src="../../en_US/zwave/images/271.2816.12289_fgfs101.flood.sensor.jpg" width="60" />|Fibaro|FGFS-101 Flood Sensor|Fuite||[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgfs101_-_FloodSensors)<br/>[Buy](http://www.domadoo.fr/fr/peripheriques/2365-fibaro-detecteur-d-inondation-z-wave-fgfs-101-5902020528142.html)|
 |<img src="../../en_US/zwave/images/271.2816.40448_fgfs101.flood.sensor.jpg" width="60" />|Fibaro|FGFS-101 Flood Sensor|Fuite||[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgfs101_-_FloodSensors)<br/>[Buy](http://www.domadoo.fr/fr/peripheriques/2365-fibaro-detecteur-d-inondation-z-wave-fgfs-101-5902020528142.html)|
@@ -546,6 +547,12 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zwave/images/335.18260.12344_lb60z1.jpg" width="60" />|Linear|Dimmable LED Light Bulb (LB60Z-1)|Ampoule|||
+
+# Logicsoft
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zwave/images/564.3.274_Z-Din.616.png" width="60" />|Heatit|Z-Din 616|Rail-Din||[Documentation](https://media.heatit.com/1756)<br/>[Buy](https://www.domadoo.fr/fr/chauffage-clim/5201-heatit-controls-module-6-relais-contact-sec-rail-din-z-wave-z-din-616-7071236014324.html)|
 
 # Mco
 
@@ -914,4 +921,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2022-01-07 01:08:11
+2022-01-08 01:08:08
