@@ -68,8 +68,8 @@ En version **Stable**, le changelog reprend chaque version mineure (4.1.26 -> 4.
  
 Community [beta-testeurs](https://community.jeedom.com/c/salon-des-beta-testeurs/6)
 
-[Doc contribuer](/#LANG#/contribute/)
+[Doc contribuer](/fr_FR/contribute/)
 
-[Doc Développeurs](/#LANG#/dev/)
+[Doc Développeurs](/fr_FR/dev/)
 
 [Github](https://github.com/jeedom/core)
