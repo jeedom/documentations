@@ -23,8 +23,8 @@ Jeedom's Core es de código abierto. Cualquiera puede decidir cambiar su Jeedom 
 
 El Núcleo tiene tres ramas principales en [Github](https://github.com/jeedom/core):
 
--  **alfa** : Rama de la versión V4 alpha. Destinado principalmente a desarrolladores para la siguiente versión de Jeedom.
--  **beta** : Rama de la versión V4 beta. Destinado principalmente a probadores beta, para probar antes de cambiar a estable.
+-  **Alfa** : Rama de la versión V4 alpha. Destinado principalmente a desarrolladores para la siguiente versión de Jeedom.
+-  **Beta** : Rama de la versión V4 beta. Destinado principalmente a probadores beta, para probar antes de cambiar a estable.
 -  **V4-estable** : Rama estable de V4.
 
 > **Atención**
@@ -68,8 +68,8 @@ En versión **Estable**, el registro de cambios se hace cargo de cada versión m
  
 Comunidad [probadores beta](https://community.jeedom.com/c/salon-des-beta-testeurs/6)
 
-[Contribución del documento](/#LANG#/contribute/)
+[Doc contribuir](/es_ES/contribute/)
 
-[Documento del desarrollador](/#LANG#/dev/)
+[Desarrolladores de documentos](/es_ES/dev/)
 
 [Github](https://github.com/jeedom/core)

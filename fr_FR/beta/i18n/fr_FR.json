@@ -108,9 +108,7 @@
         "le changelog tiendra alors compte de chaque future version mineure": "le changelog tiendra alors compte de chaque future version mineure",
         "Ressouces": "Ressouces",
         "Accès Community": "Accès Community",
-        "[Doc contribuer](\/": "[Doc contribuer](\/",
-        "\/contribute\/": "\/contribute\/",
-        "[Doc Développeurs](\/": "[Doc Développeurs](\/",
-        "\/dev\/": "\/dev\/"
+        "Doc contribuer": "Doc contribuer",
+        "Doc Développeurs": "Doc Développeurs"
     }
 }

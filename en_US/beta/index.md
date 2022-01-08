@@ -23,8 +23,8 @@ Jeedom's Core is Open-Source. Anyone can decide to switch their Jeedom from a St
 
 The Core has three main branches on [Github](https://github.com/jeedom/core):
 
--  **alpha** : Branch of version V4 alpha. Mainly intended for developers for the following version of Jeedom.
--  **beta** : Branch of version V4 beta. Mainly intended for beta testers, to test before switching to Stable.
+-  **Alpha** : Branch of version V4 alpha. Mainly intended for developers for the following version of Jeedom.
+-  **Beta** : Branch of version V4 beta. Mainly intended for beta testers, to test before switching to Stable.
 -  **V4-stable** : Stable branch of V4.
 
 > **Warning**
@@ -68,8 +68,8 @@ In version **Stable**, the changelog takes over each minor version (4.1.26 -> 4.
  
 Community [beta testers](https://community.jeedom.com/c/salon-des-beta-testeurs/6)
 
-[Doc contribute](/#LANG#/contribute/)
+[Doc contribute](/en_US/contribute/)
 
-[Developer Doc](/#LANG#/dev/)
+[Doc Developers](/en_US/dev/)
 
 [Github](https://github.com/jeedom/core)

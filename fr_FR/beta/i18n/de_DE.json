@@ -90,8 +90,8 @@
         "Lors du passage en": "Beim Wechsel zu",
         "le changelog tiendra alors compte de chaque future version mineure": "das Changelog berücksichtigt dann jede zukünftige Nebenversion",
         "Accès Community": "Community-Zugang",
-        "[Doc contribuer](\/": "[Doc-Beitrag](\/",
-        "[Doc Développeurs](\/": "[Entwicklerdokumentation](\/",
+        "Doc contribuer": "Doc-Beitrag",
+        "Doc Développeurs": "Doc-Entwickler",
         " Beta.": " Beta.",
         " Beta?": " Beta?",
         "Beta ": "Beta ",
@@ -217,20 +217,6 @@
         " Ressouces]": " Ressourcen]",
         "[Ressouces]": "[Ressourcen]",
         "*Ressouces*": "*Ressourcen*",
-        " Ressouces*": " Ressourcen*",
-        " \/contribute\/.": " \/ dazu beitragen \/.",
-        " \/contribute\/?": " \/ dazu beitragen \/?",
-        "\/contribute\/ ": "\/ dazu beitragen \/ ",
-        " \/contribute\/]": " \/ dazu beitragen \/]",
-        "[\/contribute\/]": "[\/ dazu beitragen \/]",
-        "*\/contribute\/*": "*\/ dazu beitragen \/*",
-        " \/contribute\/*": " \/ dazu beitragen \/*",
-        " \/dev\/.": " \/ dev \/.",
-        " \/dev\/?": " \/ dev \/?",
-        "\/dev\/ ": "\/ dev \/ ",
-        " \/dev\/]": " \/ dev \/]",
-        "[\/dev\/]": "[\/ dev \/]",
-        "*\/dev\/*": "*\/ dev \/*",
-        " \/dev\/*": " \/ dev \/*"
+        " Ressouces*": " Ressourcen*"
     }
 }

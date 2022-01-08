@@ -68,8 +68,8 @@ In Version **Stabil**, das Changelog übernimmt jede Nebenversion (4.1.26 -> 4.1
  
 Gemeinschaft [Betatester](https://community.jeedom.com/c/salon-des-beta-testeurs/6)
 
-[Doc-Beitrag](/#LANG#/contribute/)
+[Doc-Beitrag](/de_DE/contribute/)
 
-[Entwicklerdokumentation](/#LANG#/dev/)
+[Doc-Entwickler](/de_DE/dev/)
 
 [Github](https://github.com/jeedom/core)
