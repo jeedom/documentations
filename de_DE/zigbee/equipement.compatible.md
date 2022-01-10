@@ -796,6 +796,7 @@
 |<img src="../../de_DE/zigbee/images/TZE200_dfxkcots.TS0601.png" width="60" />|Tuya|MOES - Intelligenter Thermostat||||
 |<img src="../../de_DE/zigbee/images/TZE200_dzuqwsyg.TS0601.png" width="60" />|Tuya|MOES - Intelligenter Thermostat||||
 |<img src="../../de_DE/zigbee/images/TZE200_ggev5fsl.TS0601.png" width="60" />|Tuya|Gassensor||||
+|<img src="../../de_DE/zigbee/images/TZE200_la2c2uo9.TS0601.png" width="60" />|Tuya|MOES - Einzeldimmermodul||||
 |<img src="../../de_DE/zigbee/images/TZE200_nueqqe6k.TS0601.png" width="60" />|Tuya|Intelligente motorisierte Kettenrolle|Volets|||
 |<img src="../../de_DE/zigbee/images/TZE200_yvx5lh6k.TS0601.png" width="60" />|Tuya|Tuya-Luftqualität||||
 |<img src="../../de_DE/zigbee/images/TZE200_ywdxldoj.TS0601.png" width="60" />|Moes|MOES - Intelligenter Thermostatkopf (2)||||
@@ -882,4 +883,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2022-01-09 01:32:21
+2022-01-10 01:32:07

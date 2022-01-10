@@ -796,6 +796,7 @@
 |<img src="../../es_ES/zigbee/images/TZE200_dfxkcots.TS0601.png" width="60" />|Tuya|MOES - Termostato inteligente||||
 |<img src="../../es_ES/zigbee/images/TZE200_dzuqwsyg.TS0601.png" width="60" />|Tuya|MOES - Termostato inteligente||||
 |<img src="../../es_ES/zigbee/images/TZE200_ggev5fsl.TS0601.png" width="60" />|Tuya|Sensor de gas||||
+|<img src="../../es_ES/zigbee/images/TZE200_la2c2uo9.TS0601.png" width="60" />|Tuya|MOES - Módulo regulador simple||||
 |<img src="../../es_ES/zigbee/images/TZE200_nueqqe6k.TS0601.png" width="60" />|Tuya|Rodillo de cadena motorizado inteligente|Volets|||
 |<img src="../../es_ES/zigbee/images/TZE200_yvx5lh6k.TS0601.png" width="60" />|Tuya|Calidad del aire Tuya||||
 |<img src="../../es_ES/zigbee/images/TZE200_ywdxldoj.TS0601.png" width="60" />|Moes|MOES - Cabezal termostático inteligente (2)||||
@@ -882,4 +883,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2022-01-09 01:32:21
+2022-01-10 01:32:07
