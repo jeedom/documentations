@@ -12,7 +12,9 @@
 >
 >Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
 
+# 01.06.2021
 
+- Fehler in der Liste der Module behoben, die gebunden werden können
 - Verbesserte Batteriewiederherstellung
 
 # 20.12.2021
