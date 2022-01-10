@@ -12,7 +12,7 @@
 >
 >Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
 
-# 06/01/2021
+# 06/01/2022
 
 - Correction d'un bugs sur la liste des module pouvant etre bindé
 - Amélioration de la recuperation des batteries

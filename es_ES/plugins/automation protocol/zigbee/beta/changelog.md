@@ -12,7 +12,7 @@
 >
 >Para aprovechar la última integración del módulo, no dude en actualizar las dependencias
 
-# 01/06/2021
+# 01/06/2022
 
 - Se corrigió un error en la lista de módulos que se pueden vincular
 - Recuperación de batería mejorada
