@@ -460,6 +460,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zwave/images/520.256.10_hkzw-so05.jpg" width="60" />|Hank|Enchufe inteligente (HKZW-SO05)|Prise|||
+|<img src="../../es_ES/zwave/images/520.256.25_hkzw-so08.jpg" width="60" />|Hank|Enchufe inteligente (HKZW-SO08)|Prise|||
 |<img src="../../es_ES/zwave/images/520.256.4_hkwx-rgb01.jpg" width="60" />|Hank|Bulb|Ampoule|Ficha Sistema, modifique Canales de color con el valor 31 para tener proporciones de color consistentes||
 |<img src="../../es_ES/zwave/images/520.257.5_hkzw-so01.jpg" width="60" />|Hank|Enchufe inteligente (HKZW-SO01)|Prise|||
 |<img src="../../es_ES/zwave/images/520.512.11_scene-controller-4.jpg" width="60" />|Hank|Controlador de escena 4|Controlador portátil|||
@@ -921,4 +922,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2022-01-10 01:08:11
+2022-01-11 01:08:09

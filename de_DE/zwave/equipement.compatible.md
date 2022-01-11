@@ -460,6 +460,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zwave/images/520.256.10_hkzw-so05.jpg" width="60" />|Hank|Smart Plug (HKZW-SO05)|Prise|||
+|<img src="../../de_DE/zwave/images/520.256.25_hkzw-so08.jpg" width="60" />|Hank|Intelligenter Stecker (HKZW-SO08)|Prise|||
 |<img src="../../de_DE/zwave/images/520.256.4_hkwx-rgb01.jpg" width="60" />|Hank|Bulb|Ampoule|Ändern Sie auf der Registerkarte "System" die Farbkanäle mit dem Wert 31, um konsistente Farbverhältnisse zu erhalten||
 |<img src="../../de_DE/zwave/images/520.257.5_hkzw-so01.jpg" width="60" />|Hank|Smart Plug (HKZW-SO01)|Prise|||
 |<img src="../../de_DE/zwave/images/520.512.11_scene-controller-4.jpg" width="60" />|Hank|Szenensteuerung 4|Tragbarer Controller|||
@@ -921,4 +922,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2022-01-10 01:08:11
+2022-01-11 01:08:09

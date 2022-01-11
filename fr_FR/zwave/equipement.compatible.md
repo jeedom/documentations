@@ -460,6 +460,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../fr_FR/zwave/images/520.256.10_hkzw-so05.jpg" width="60" />|Hank|Smart Plug (HKZW-SO05)|Prise|||
+|<img src="../../fr_FR/zwave/images/520.256.25_hkzw-so08.jpg" width="60" />|Hank|Smart Plug (HKZW-SO08)|Prise|||
 |<img src="../../fr_FR/zwave/images/520.256.4_hkwx-rgb01.jpg" width="60" />|Hank|Bulb|Ampoule|Onglet Système, modifier Color Channels avec la valeur 31 pour avoir des rapports de couleurs cohérents||
 |<img src="../../fr_FR/zwave/images/520.257.5_hkzw-so01.jpg" width="60" />|Hank|Smart Plug (HKZW-SO01)|Prise|||
 |<img src="../../fr_FR/zwave/images/520.512.11_scene-controller-4.jpg" width="60" />|Hank|Scene Controller 4|Contrôleur portable|||
@@ -921,4 +922,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2022-01-10 01:08:11
+2022-01-11 01:08:09
