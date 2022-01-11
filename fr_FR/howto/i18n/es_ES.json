@@ -260,6 +260,13 @@
         "*Quota*": "*Cuota*",
         " Quota*": " Cuota*"
     },
+    "howto\/faq_atlas.md": {
+        "FAQ Jeedom Atlas": "Preguntas frecuentes sobre Jeedom Atlas",
+        "Lors d'un test de connexion au market j'ai": "Durante una prueba de conexión con el mercado,",
+        "Could not resolv": "No se pudo resolver",
+        "Essayez de redemarrer la box Atlas": "Intenta reiniciar la caja Atlas",
+        "C'est un soucis lors de la negociation DHCP qui ne récupere pas bien les DNS, un redemarrage de la box corrige le soucis (qui n'arrive en générale que une fois": "Este es un problema durante la negociación de DHCP que no recupera bien el DNS, reiniciando la caja se corrige el problema (que generalmente solo ocurre una vez"
+    },
     "howto\/index.md": {
         "Passer jeedom ou un plugin en beta": "Go Jeedom o plugin en beta",
         "Remettre à zéro son mon de passe Jeedom en cas de perte": "Restablezca su contraseña de Jeedom en caso de pérdida",

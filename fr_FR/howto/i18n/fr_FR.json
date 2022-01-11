@@ -80,6 +80,13 @@
         "Les phrases sont decoupé en par lot de 160 caracteres": "Les phrases sont decoupé en par lot de 160 caracteres",
         "Chaque lot compte pour 1 quota": "Chaque lot compte pour 1 quota"
     },
+    "howto\/faq_atlas.md": {
+        "FAQ Jeedom Atlas": "FAQ Jeedom Atlas",
+        "Lors d'un test de connexion au market j'ai": "Lors d'un test de connexion au market j'ai",
+        "Could not resolv": "Could not resolv",
+        "Essayez de redemarrer la box Atlas": "Essayez de redemarrer la box Atlas",
+        "C'est un soucis lors de la negociation DHCP qui ne récupere pas bien les DNS, un redemarrage de la box corrige le soucis (qui n'arrive en générale que une fois": "C'est un soucis lors de la negociation DHCP qui ne récupere pas bien les DNS, un redemarrage de la box corrige le soucis (qui n'arrive en générale que une fois"
+    },
     "howto\/index.md": {
         "Jeedom": "Jeedom",
         "Passer jeedom ou un plugin en beta": "Passer jeedom ou un plugin en beta",
