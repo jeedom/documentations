@@ -12,6 +12,10 @@
 >
 >Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
 
+# 10/01/2022
+
+- Correção de um bug na ligação direta entre 2 módulos
+
 # 06/01/2022
 
 - Corrigido um bug na lista de módulos que podem ser vinculados
