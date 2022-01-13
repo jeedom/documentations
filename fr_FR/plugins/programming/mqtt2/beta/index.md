@@ -47,4 +47,4 @@ Il est possible de piloter Jeedom à travers MQTT, voici les topics (les exemple
     - liste : `{select : 1 }`
     - commande de type info : vous pouvez soit passer la valeur directement soit en json faire `{value : "coucou", datetime : "2021-12-12 10:30:00" }`, `datetime` est optionnel
 - `jeedom/cmd/get/#cmd_id#` : demande de la valeur de la commande `#cmd_id#` à jeedom, celui-ci vous renverra `jeedom/cmd/value/#cmd_id#` avec en message la valeur de la commande
-- `jeedom/cmd/event/#cmd_id#` : évenement sur la commande `#cmd_id#` avec en message la valeur
+- `jeedom/cmd/event/#cmd_id#` : évenement sur la commande `#cmd_id#` avec en message un json contenant differente information dont la valeur de la commande

@@ -47,4 +47,4 @@ It is possible to drive Jeedom through MQTT, here are the topics (the examples a
     - listing : `{select : 1} `
     - info type command : you can either pass the value directly or in json do `{value : "cuckoo ", datetime : "2021-12-12 10:30:00 "}`, `datetime` is optional
 - `jeedom / cmd / get /#cmd_id#`` : request the value of the command `#cmd_id#`to jeedom, this will return` jeedom / cmd / value /#cmd_id#`with the command value in message
-- `jeedom / cmd / event /#cmd_id#`` : event on the command#cmd_id#`with the value
+- `jeedom / cmd / event /#cmd_id#`` : event on the command#cmd_id#`with a json message containing different information including the value of the command

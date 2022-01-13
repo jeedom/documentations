@@ -47,4 +47,4 @@ Você pode especificar usuários / senha para conexão :
     - lista : `{selecionar : 1} `
     - comando de tipo de informação : você pode passar o valor diretamente ou em json do `{value : "cuco ", datetime : "2021-12-12 10:30:00 "}`, `datetime` é opcional
 - `jeedom / cmd / get /#cmd_id#`` : solicite o valor do comando `#cmd_id#`para jeedom, isso retornará` jeedom / cmd / valor /#cmd_id#`com o valor do comando na mensagem
-- `jeedom / cmd / event /#cmd_id#`` : evento no comando#cmd_id#`com o valor
+- `jeedom / cmd / event /#cmd_id#`` : evento no comando#cmd_id#`com uma mensagem json contendo informações diferentes, incluindo o valor do comando
