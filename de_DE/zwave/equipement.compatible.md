@@ -922,4 +922,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2022-01-13 01:08:11
+2022-01-14 01:08:12
