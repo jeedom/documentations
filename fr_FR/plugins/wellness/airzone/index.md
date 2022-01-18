@@ -48,6 +48,7 @@ Choisir une zone pour un équipement
 
 Penser a Activer et rendre Visible votre équipement, et lui attribuer un parent pour le retrouver sur votre dashboard.
 
+IMPORTANT : Si vous avez une zone qui comporte des caractères speciaux, cela peut provoquer une erreur de type SystemOut of Range. 
 
 # Dashboard
 

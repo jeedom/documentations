@@ -1,3 +1,5 @@
+# Changelog Airzone Web
+
 # Changelog plugin template
 
 >**IMPORTANT**
@@ -7,6 +9,11 @@
 # 08/08/2021
 
 - Version beta du plugin
+
+# 17/11/2021
+
+- Modification Valeur Min Consigne
+- Ajout CommandeInfo Air Demand
 
 
 

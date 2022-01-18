@@ -1,76 +1,78 @@
-# Plugin Airzone
+# Complemento Airzone
 
 
-# Descripción:
+# Description
 
-Plugin para gestionar sus sistemas Airzone
+Complemento para administrar sus sistemas AirzoneWeb
 
 
-# Requisitos:
+# Prerrequisitos
 
  - Jeedom v4.1.22
- - Debe conocer la dirección IP de su servidor AirzoneWeb
+ - Descubra la dirección IP de su AirzoneWeb Server
 
 
-# Instalación
+# Installation
 
-Después de descargar el plugin, primero debe activarlo, como cualquier otro plugin de Jeedom.
+Después de descargar el complemento, primero debe activarlo, como cualquier complemento de Jeedom.
 
 
-# Configuración:
+# Configuration
 
-Vaya al menú Plugins/Gestión de plugins
+Vaya al menú de administración de Complementos / Complementos
 
 ![config](./images/airzoneConfig.png)
 
-Haga clic en el plugin, y configúrelo indicando la dirección IP de su AirzoneWebServer, así como el puerto (por defecto, los sistemas Airzone usan el puerto 3000)
+Haga clic en su complemento y configúrelo con la dirección IP de su AirzoneWebServer y el puerto (de forma predeterminada, los sistemas Airzone tienen un puerto configurado en 3000)
+El número de sistemas se detecta automáticamente cuando se agrega un nuevo equipo.
+
+Elija el Cron deseado para la actualización de los valores : 1 min, 5, 10, 15, 30, cada hora o diariamente.
+
+Al hacer clic en el botón Agregar DriverName, puede modificar el nombre del controlador en su sistema Airzone.
+
+Sauvegardez
 
 
 # Agregar equipo
 
-Vaya al menú Plugins/Confort/AirzoneJeedom
+Vaya al menú Complementos / Confort / AirzoneJeedom
 
 
-Haga clic en Añadir.
+Haga clic en Agregar.
 
 ![config](./images/airzoneEquip.png)
 
-Las zonas disponibles en su sistema aparecerán en el menú desplegable. Elija una zona para el equipo que está creando.
-
-Es posible configurar la temperatura en Fahrenheit si tiene un sistema americano.
-
-El menú de visualización de la temperatura se utiliza para elegir la unidad de temperatura que se muestra en el tablero.
-
-Recuerde que debe activar y hacer visible su equipo, y asignarle un objeto padre para encontrarlo en el tablero.
+Las zonas disponibles en su sistema estarán disponibles en el menú desplegable.
+Elija una zona para un equipo
 
 
-# Tablero
+Recuerde Activar y hacer Visible su equipo, y asígnele un padre para encontrarlo en su tablero.
+
+IMPORTANTE : Si tiene un área que contiene caracteres especiales, esto puede causar un error SystemOut of Range. 
+
+# Dashboard
 
 
-Una vez que haya creado sus distintos equipos Airzone, éstos aparecerán en el tablero.
+Después de crear su equipo, los encontrará en el tablero.
 
-Los iconos correspondientes al modo cambian en función del modo seleccionado: Frío, Calor, Ventilación.
+Los iconos de modo cambian según el modo seleccionado: Frío, Caliente, Ventilación, Seco y Parada.
 
-Los iconos de información relativos a la consigna y la temperatura cambian en función de las horquillas de valores: -20°C, entre 20 y 25°C, más de 25°C.
+Para beneficiarse de los iconos de colores, recuerde ir a la configuración de su Jeedom (Configuración / Sistema / Configuración / Interfaz) y marque "Iconos de widget de colores"
 
-Las opciones disponibles en los modos o velocidades de los ventiladores, se detectan automáticamente en función de las posibilidades de su sistema.
+Solo las zonas maestras tienen el menú desplegable para cambiar el modo en las zonas asociadas configuradas en su sistema
 
+Los iconos de información de punto de ajuste y temperatura cambian de acuerdo con las ventanas de valores : -20 ° C, entre 20 y 25 ° C, más de 25 ° C (y el equivalente si la zona está configurada en Fahrenheit)
 
-
-Ejemplo de equipo típico :
-
-![config](./images/airzonedash1.png)
+Las opciones disponibles en los modos o las velocidades del ventilador se detectan de acuerdo con las posibilidades de su sistema.
 
 
 
-Ejemplo de equipo de una zona maestra (“master zone”); aparece un comando adicional para activar el mismo modo en todos los equipos del sistema
+Equipo típico :
+
+![config](./images/airzoneNoMaster.png)
 
 
-![config](./images/airzonedashmaster.png)
+Equipo de una zona maestra; vemos un comando adicional para activar el mismo modo en todas las zonas asociadas del sistema
 
 
-
-
-
-
-
+![config](./images/airzoneMaster.png)
