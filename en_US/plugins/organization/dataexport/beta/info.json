@@ -1,0 +1,49 @@
+{
+    "id": "dataexport",
+    "name": "Data Export",
+    "description": {
+        "fr_FR": "Plugin permettant d'archiver des exports d'historiques ou de statistiques vers un fichier CSV. Il est possible d'automatiser la réception de fichiers d'export sur le canal de son choix via scénario ou programmation.\n\nLe plugin permet également d'importer des données dans Jeedom depuis un fichier CSV vers une commande de type Info.",
+        "en_US": "Plugin allowing to archive historical or statistics exports to a CSV file. It is possible to automate the reception of export files on the channel of your choice via scenario or programming. The plugin also allows you to import data into Jeedom from a CSV file to an Info type command",
+        "pt_PT": "Plugin que permite arquivar exportações históricas ou estatísticas em um arquivo CSV. É possível automatizar a recepção de arquivos de exportação no canal de sua escolha via cenário ou programação. O plugin também permite que você importe dados para o Jeedom de um arquivo CSV para um comando do tipo Info",
+        "es_ES": "Complemento que permite archivar exportaciones históricas o estadísticas a un archivo CSV. Es posible automatizar la recepción de archivos de exportación en el canal de su elección a través de escenario o programación. El complemento también le permite importar datos a Jeedom desde un archivo CSV a un comando de tipo Info",
+        "de_DE": "Plugin zum Archivieren von historischen oder statistischen Exporten in eine CSV-Datei. Es ist möglich, den Empfang von Exportdateien auf dem Kanal Ihrer Wahl über ein Szenario oder eine Programmierung zu automatisieren. Mit dem Plugin können Sie auch Daten aus einer CSV-Datei in einen Befehl vom Typ Info in Jeedom importieren",
+        "ru_RU": "Plugin permettant d'archiver des exports d'historiques ou de statistiques vers un fichier CSV. Il est possible d'automatiser la réception de fichiers d'export sur le canal de son choix via scénario ou programmation.\n\nLe plugin permet également d'importer des données dans Jeedom depuis un fichier CSV vers une commande de type Info",
+        "id_ID": "Plugin permettant d'archiver des exports d'historiques ou de statistiques vers un fichier CSV. Il est possible d'automatiser la réception de fichiers d'export sur le canal de son choix via scénario ou programmation.\n\nLe plugin permet également d'importer des données dans Jeedom depuis un fichier CSV vers une commande de type Info",
+        "it_IT": "Plugin permettant d'archiver des exports d'historiques ou de statistiques vers un fichier CSV. Il est possible d'automatiser la réception de fichiers d'export sur le canal de son choix via scénario ou programmation.\n\nLe plugin permet également d'importer des données dans Jeedom depuis un fichier CSV vers une commande de type Info",
+        "ja_JP": "Plugin permettant d'archiver des exports d'historiques ou de statistiques vers un fichier CSV. Il est possible d'automatiser la réception de fichiers d'export sur le canal de son choix via scénario ou programmation.\n\nLe plugin permet également d'importer des données dans Jeedom depuis un fichier CSV vers une commande de type Info",
+        "tr": "Plugin permettant d'archiver des exports d'historiques ou de statistiques vers un fichier CSV. Il est possible d'automatiser la réception de fichiers d'export sur le canal de son choix via scénario ou programmation.\n\nLe plugin permet également d'importer des données dans Jeedom depuis un fichier CSV vers une commande de type Info"
+    },
+    "utilization": "Ajoutez un lot d'exportation et définissez les commandes à exporter ainsi que la période souhaitée.\n Cochez la case \"Activer l'envoi programmé\" pour configurer l'envoi automatique de fichiers d'export ou utilisez la commande \"Envoi Export CSV\" depuis un scénario.",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3.39",
+    "category": "organization",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/dataexport\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/dataexport\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "atlas",
+        "rpi",
+        "docker",
+        "diy",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/dataexport\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/dataexport\/beta"
+}
