@@ -3,7 +3,8 @@
 
 ### Obsolete
 
-- Class `cmd` method : `setEventOnly`
+- `initCheckBox()` method (utils.js).
+- Class `cmd` method : `setEventOnly()`.
 
 ### Deprecated
 
