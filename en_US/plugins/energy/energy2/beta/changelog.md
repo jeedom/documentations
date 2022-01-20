@@ -5,6 +5,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+
+- Addition of consumption and estimated cost if the end date is in the future
+- Slight redesign of the interface
+
 # 23/11/2020
 
 - New presentation of the list of objects
@@ -14,7 +18,6 @@
 
 - Delete command to add commands
 - Improved management of disabled equipment
-
 
 # 05/16/2019
 

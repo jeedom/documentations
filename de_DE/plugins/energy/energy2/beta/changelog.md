@@ -5,6 +5,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+
+- Addition von Verbrauch und geschätzten Kosten, wenn das Enddatum in der Zukunft liegt
+- Leichte Neugestaltung der Benutzeroberfläche
+
 # 23/11/2020
 
 - Neue Darstellung der Objektliste
@@ -14,7 +18,6 @@
 
 - Befehl löschen, um Befehle hinzuzufügen
 - Verbessertes Management behinderter Geräte
-
 
 # 16.05.2019
 

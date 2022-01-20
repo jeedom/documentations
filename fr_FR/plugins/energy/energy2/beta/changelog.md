@@ -5,6 +5,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+
+- Ajout de la consommation et cout previsionnel si la date de fin est dans le futur
+- Legere refonte de l'interface
+
 # 23/11/2020
 
 - Nouvelle présentation de la liste des objets
@@ -14,7 +18,6 @@
 
 - Supression de la commande pour ajouter des commandes
 - Amélioration de la gestion des équipements désactivés
-
 
 # 16/05/2019
 

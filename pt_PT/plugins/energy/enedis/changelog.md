@@ -1,10 +1,17 @@
 # Changelog Enedis
 
-# Plugin de registro de mudanças Enedis
-
 >**IMPORTANTE**
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
+
+# 05/01/2022
+
+- Corrigido um bug na coleta de dados em 1º de janeiro
+- Adição de um indicador no widget para saber se os dados estão atualizados *(verde = OK, vermelho = KO, laranja = alguns dados KO)*
+
+# 03/06/2021
+
+- Correção para evitar que a programação automática seja interrompida em casos raros
 
 # 18/05/2021
 
@@ -29,18 +36,23 @@
 - Reescrever documentação
 
 # 10/09/2020
+
 - Corrigido um bug de exibição na visualização móvel sem o modelo de widget.
 
 # 09/06/2020
+
 - Adição do modelo para a versão do painel.
 - Adição do modelo para versão móvel.
 - Otimização do número de chamadas para servidores Enedis.
 
 # 21/08/2020
+
 - Recuperação de informações em um minuto aleatório para não sobrecarregar os servidores Enedis.
 
 # 17/08/2020
+
 - Mudando para estável.
 
 # 12/08/2020
+
 - Provisão do plugin na versão beta.

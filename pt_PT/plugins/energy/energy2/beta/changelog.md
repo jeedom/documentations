@@ -5,6 +5,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+
+- Adição de consumo e custo estimado se a data final estiver no futuro
+- Ligeira reformulação da interface
+
 # 23/11/2020
 
 - Nova apresentação da lista de objetos
@@ -14,7 +18,6 @@
 
 - Comando Excluir para adicionar comandos
 - Gerenciamento aprimorado de equipamentos com deficiência
-
 
 # 16/05/2019
 
