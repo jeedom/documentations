@@ -1,98 +1,118 @@
 # Fashion Plugin
 
-Plugin to manage different modes of an apartment / house / room, but also atmospheres.
+The plug-in **Fashion** will allow you to create modes to easily manage different features *(housing, alarm, presence, etc...)* and perform actions automatically when switching between modes.
 
-## Plugin configuration
+# Configuration
 
-After downloading the plugin, you just need to activate it, there is no configuration at this level.
+This plugin does not require any special configuration and simply needs to be activated after installation.
 
 ## Equipment configuration
 
-The configuration of the mode equipment is accessible from the plugin menu then organization :
+To access the various equipment **Fashion**, you have to go to the menu **Plugins → Organization → Fashion**.
 
-Here you find all the configuration of your equipment :
-
-- **Mode equipment name** : name of your equipment Mode,
-- **Parent object** : indicates the parent object to which the equipment belongs,
-- **Activate** : makes your equipment active,
-- **Visible** : makes your equipment visible on the dashboard,
-- **Category** : equipment categories (it can belong to several categories).
-- **Add mode** : button to add a new mode
-
-Below you will find the list of modes, by clicking on it you will be able to choose the actions to be performed when entering and / or exiting this mode.
-
->**Important**
+>**INFORMATION**
 >
->Be careful when renaming a mode, it is essential to review the scenarios / equipment that used the old name to switch them to the new one.
+>The + Add button allows you to add a new equipment **Fashion**.
 
-## Equipment creation
+Click on a device **Fashion** to access its management page. The first tab gives access to the equipment configuration options :
 
-- Click on *Add*
-- Give a name
-- Select l'*Parent object*
-- Activate the
-- Select tab *Modes* to add the modes (see [the examples](#exemples))
+- **Equipment name** : Mode equipment name.
+- **Parent object** : Indicates the parent object to which the equipment belongs.
+- **Category** : Allows you to choose the category of the equipment.
+- **Options** :
+    - **Activate** : Allows you to make the equipment active.
+    - **Visible** : Makes equipment visible.
 
-## Exemples
+- **Lock command** : Checkbox to show lock command on widget.
 
-### Shutter Mode
+The second tab will allow us to define the different modes of the equipment as well as the associated actions if necessary :
 
-Example of a device without input or output action on the modes. Equipment of this type can be useful as a trigger for a scenario or to condition actions in a scenario.
+- **Add mode** : Click the button to create a new mode in the equipment.
 
-![Mode volet](../images/mode_volet.png)
+Below, you find the list of existing modes :
 
-### Presence mode
+![Modes](../images/mode_screenshot1.png)
 
-Example of a device with actions defined when changing mode.
+Click on the line of a mode to deploy its configuration and access the management of entry/exit actions. The execution of these actions can be conditioned by the mode from which one arrives *(previous mode)* for entry actions or by the mode you are going to *(next mode)* for exit actions (see [the examples](#Exemples)).
 
-In this equipment, we will create 3 modes from the tab *Modes* equipment:
+>**INFORMATION**
+>
+>Click on the name of the mode to change it. Attention, in case of modification of the name of a mode, it will be necessary to review all the scenarios/equipment which referred to it under its old name.
 
-- Present
-- Absent
-- Vacances
+# Commandes
 
-![Mode présence](../images/mode_presence_mode.png)
+The list of orders can be consulted by clicking on the button **Advanced Setup** of a piece of equipment **Fashion**. Each mode created in a device will generate the corresponding action command in addition to the existing commands :
 
-When switching to the mode *Present*, we want the alarm to be deactivated and the heating to switch to comfort mode (2 input actions).
+- **Locking** :
+    - **Lock/Unlock** : Allows you to lock the thermostat to prevent any mode change.
+    - **Unlock** : Unlocks the thermostat.
+>The box **Lock command** must be checked for this command to be displayed on the widget.
 
-![Mode présence action entrée](../images/mode_presence_entree.png)
+- **Fashion** : Current Mode.
+- **Previous mode** : Previous mode *(command not visible by default)*.
+- **Back to previous mode** : Allows you to return to the previously active mode.
+- **Go to next mode** : Allows you to go to the next mode in the list.
 
-When exiting the mode *Present* to switch to mode *Absent* or *Vacation*, we want the alarm to activate (1 output action).
+# Exemples
 
-![Mode présence action sortie](../images/mode_presence_sortie.png)
+## Pane Modes
 
-For modes *Absent* and *Vacation*, we are just going to create on each of these modes 1 input action to manage the heating (Eco for the *Absent*, Frost protection for the mode *Vacation*).
+Example of equipment without entry or exit actions on the modes. Equipment of this type can be useful as a trigger for a scenario or to condition actions in a scenario :
 
-![Mode absent vacances](../images/mode_presence_absent_vacances.png)
+![Fashion volet](../images/mode_volet.png)
 
-#### Fonctionnement
+## Presence Modes
 
-- When we go out of mode *Present* in fashion *Absent*, the alarm is activated (action to exit *Present*) and the heating switches to eco (mode entry action *Absent*).  
-- When we go out of mode *Present* in fashion *Vacation*, the alarm is activated (action to exit *Present*) and the heating switches to frost protection (entry action of the *Vacation*).
-- When we go out of mode *Absent* in fashion *Present*, the alarm is deactivated (entry action of the *Present*) and the heating switches to comfort (entry of mode *Present*).
-- When we go out of mode *Absent* in fashion *Vacation*, the heating goes into frost protection (entry action of the *Vacation*).
-- When we go out of mode *Vacation* in fashion *Present*, the alarm is deactivated (entry action of the *Present*) and the heating switches to comfort (entry of mode *Present*).
-- When we go out of mode *Vacation* in fashion *Absent*, the heating switches to eco (entry action of the *Absent*).
+Example of equipment with actions defined when changing modes. In this equipment we will create 3 modes from the tab **Modes** equipment :
 
-### Presence mode twice
+- **Present**
+- **Absent**
+- **Vacation**
 
-We modify the previous example slightly to illustrate the filtering on actions.
+![Fashion présence](../images/mode_presence_mode.png)
+
+When switching to the mode **Present**, we want the alarm to be deactivated and the heating to switch to *Comfort (2 input actions)* :
+
+![Fashion présence action entrée](../images/mode_presence_entree.png)
+
+When exiting the mode **Present** to switch to mode **Absent** or **Vacation**, we want the alarm to activate *(1 exit action)* :
+
+![Fashion présence action sortie](../images/mode_presence_sortie.png)
+
+About the modes **Absent** and **Vacation**, we will just create on each 1 input action to manage the heating, *Eco-friendly* for fashion **Absent** and *Frost protection* for fashion **Vacation** :
+
+![Fashion absent vacances](../images/mode_presence_absent_vacances.png)
+
+### Operation Presence
+
+- When we go out of mode **Present** in fashion **Absent**, the alarm is activated (action to exit **Present**) and the heating switches to *Eco-friendly* (mode entry action **Absent**).  
+- When we go out of mode **Present** in fashion **Vacation**, the alarm is activated (action to exit **Present**) and the heating switches to *Frost protection* (mode entry action **Vacation**).
+- When we go out of mode **Absent** in fashion **Present**, the alarm is deactivated (entry action of the **Present**) and the heating switches to *Comfort* (mode entry action **Present**).
+- When we go out of mode **Absent** in fashion **Vacation**, heating switches to *Frost protection* (mode entry action **Vacation**).
+- When we go out of mode **Vacation** in fashion **Present**, the alarm is deactivated (entry action of the **Present**) and the heating switches to *Comfort* (mode entry action **Present**).
+- When we go out of mode **Vacation** in fashion **Absent**, heating switches to *Eco-friendly* (mode entry action **Absent**).
+
+## Modes Presence bis
+
+We modify the previous example slightly to illustrate the filtering on actions :
 
 ![Filtre](../images/mode_presence_filtre.png)
 
-To do this, the alarm will no longer be activated when exiting the mode *Present* but on the entry of modes *Absent* and *Vacation*. After modification we get that :
+To do this, the alarm will no longer be activated when exiting the mode **Present** but on the entry of modes **Absent** and **Vacation**. After modification we get the following result :
 
 ![Present](../images/mode_presence_bis_present.png)
 ![Absent](../images/mode_presence_bis_absent.png)
 ![Vacation](../images/mode_presence_bis_vacances.png)
 
-Note : on the modes *Absent* and *Vacation*, the alarm is only activated if you come from the mode *Present*. If we go from *Absent* at *Vacation* (and vice versa), the alarm is already activated, so there is no need to redo the action.
+>**INFORMATION**
+>
+>on the modes **Absent** and **Vacation**, the alarm is only activated if you come from the mode **Present**. If we go from **Absent** at **Vacation** *(Or vice versa)*, the alarm is already activated, so there is no need to redo the action.
 
-#### Operation bis
+### Operation Presence bis
 
-- When we go out of mode *Present* in fashion *Absent*, the alarm is activated (mode entry action *Absent*) and the heating switches to eco (mode entry action *Absent*).  
-- When we go out of mode *Present* in fashion *Vacation*, the alarm is activated (mode entry action *Vacation*) and the heating switches to frost protection (entry action of the *Vacation*).
-- When we go out of mode *Absent* in fashion *Present*, the alarm is deactivated (entry action of the *Present*) and the heating switches to comfort (entry of mode *Present*).
-- When we go out of mode *Absent* in fashion *Vacation*, the heating goes into frost protection (entry action of the *Vacation*). The alarm is not activated.
-- When we go out of mode *Vacation* in fashion *Present*, the alarm is deactivated (entry action of the *Present*) and the heating switches to comfort (entry of mode *Present*).
-- When we go out of mode *Vacation* in fashion *Absent*, the heating switches to eco (entry action of the *Absent*).  The alarm is not activated.
+- When we go out of mode **Present** in fashion **Absent**, the alarm is activated (mode entry action **Absent**) and the heating switches to *Eco-friendly* (mode entry action **Absent**).  
+- When we go out of mode **Present** in fashion **Vacation**, the alarm is activated (mode entry action **Vacation**) and the heating switches to *Frost protection* (mode entry action **Vacation**).
+- When we go out of mode **Absent** in fashion **Present**, the alarm is deactivated (entry action of the **Present**) and the heating switches to *Comfort* (mode entry action **Present**).
+- When we go out of mode **Absent** in fashion **Vacation**, heating switches to *Frost protection* (mode entry action **Vacation**). The alarm is not activated.
+- When we go out of mode **Vacation** in fashion **Present**, the alarm is deactivated (entry action of the **Present**) and the heating switches to *Comfort* (mode entry action **Present**).
+- When we go out of mode **Vacation** in fashion **Absent**, heating switches to *Eco-friendly* (mode entry action **Absent**). The alarm is not activated.

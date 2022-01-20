@@ -35,6 +35,7 @@
     "compatibility": [
         "miniplus",
         "smart",
+        "atlas",
         "rpi",
         "docker",
         "diy",

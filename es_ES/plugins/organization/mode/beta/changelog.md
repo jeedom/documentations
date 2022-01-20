@@ -1,5 +1,13 @@
 # Modo de registro de cambios
 
+>**IMPORTANTE**
+>
+>Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
+
+# 19/01/2022
+
+- Optimizaciones V4.2
+
 # 12/12/2021
 
 - Se agregó un botón para ir al siguiente modo

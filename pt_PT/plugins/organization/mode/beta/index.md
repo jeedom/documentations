@@ -1,98 +1,118 @@
 # Plugin de moda
 
-Plugin para gerenciar diferentes modos de um apartamento / casa / quarto, mas também atmosferas.
+O plug-in **Moda** permitirá que você crie modos para gerenciar facilmente diferentes recursos *(habitação, alarme, presença, etc...)* e execute ações automaticamente ao alternar entre os modos.
 
-## Configuração do plugin
+# Configuration
 
-Depois de baixar o plugin, você só precisa ativá-lo, não há configuração neste nível.
+Este plugin não requer nenhuma configuração especial e simplesmente precisa ser ativado após a instalação.
 
 ## Configuração do equipamento
 
-A configuração do equipamento de modo é acessível no menu do plug-in e depois na organização :
+Para acessar os diversos equipamentos **Moda**, você tem que ir ao menu **Plugins → Organização → Moda**.
 
-Aqui você encontra toda a configuração do seu equipamento :
-
-- **Nome do equipamento Modo** : nome do seu equipamento Mode,
-- **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
-- **Ativar** : torna seu equipamento ativo,
-- **Visivél** : torna seu equipamento visível no painel,
-- **Categoria** : categorias de equipamentos (pode pertencer a várias categorias).
-- **Adicionar modo** : para adicionar um novo modo
-
-Abaixo você encontrará a lista de modos, clicando sobre ela você poderá escolher as ações a serem realizadas ao entrar e / ou sair deste modo.
-
->**IMPORTANTE**
+>**EM FORMAÇÃO**
 >
->Tenha cuidado ao renomear um modo, é essencial revisar os cenários / equipamentos que usavam o nome antigo para trocá-los para o novo.
+>O botão + Adicionar permite adicionar um novo equipamento **Moda**.
 
-## Criação de equipamentos
+Clique em um dispositivo **Moda** para acessar sua página de gerenciamento. A primeira aba dá acesso às opções de configuração do equipamento :
 
-- Clique em *Adicionar*
-- Dê um nome
-- Selecione l'*Objeto pai*
-- Ative o
-- Selecione a guia *Modos* para adicionar os modos (ver [os exemplos](#exemples))
+- **Nome do equipamento** : Nome do equipamento Modo.
+- **Objeto pai** : Indica o objeto pai ao qual o equipamento pertence.
+- **Categoria** : Permite escolher a categoria do equipamento.
+- **Opções** :
+    - **Ativar** : Permite ativar o equipamento.
+    - **Visivél** : Torna o equipamento visível.
 
-## Exemples
+- **Comando de bloqueio** : Caixa de seleção para mostrar o comando de bloqueio no widget.
 
-### Modo Obturador
+A segunda guia nos permitirá definir os diferentes modos do equipamento, bem como as ações associadas, se necessário :
 
-Exemplo de um dispositivo sem ação de entrada ou saída nos modos. Equipamentos deste tipo podem ser úteis como um gatilho para um cenário ou para condicionar ações em um cenário.
+- **Adicionar modo** : Clique no botão para criar um novo modo no equipamento.
 
-![Mode volet](../images/mode_volet.png)
+Abaixo, você encontra a lista de modos existentes :
 
-### Modo de presença
+![Modos](../images/mode_screenshot1.png)
 
-Exemplo de um dispositivo com ações definidas ao mudar de modo.
+Clique na linha de um modo para implantar sua configuração e acessar o gerenciamento das ações de entrada/saída. A execução dessas ações pode ser condicionada pelo modo de chegada *(modo anterior)* para ações de entrada ou pelo modo que você vai *(próximo modo)* para ações de saída (consulte [os exemplos](#Exemples)).
 
-Neste equipamento, iremos criar 3 modos a partir da aba *Modos* equipamento:
+>**EM FORMAÇÃO**
+>
+>Clique no nome do modo para alterá-lo. Atenção, em caso de modificação do nome de um modo, será necessário rever todos os cenários/equipamentos que se referiam a ele com seu nome antigo.
 
-- Presente
-- Absent
-- Vacances
+# Commandes
 
-![Mode présence](../images/mode_presence_mode.png)
+A lista de pedidos pode ser consultada clicando no botão **Configuração avançada** de um equipamento **Moda**. Cada modo criado em um dispositivo irá gerar o comando de ação correspondente além dos comandos existentes :
 
-Ao mudar para o modo *Presente*, queremos que o alarme seja desativado e o aquecimento mude para o modo de conforto (2 ações de entrada).
+- **Bloqueio** :
+    - **Bloquear desbloquear** : Permite bloquear o termostato para evitar qualquer mudança de modo.
+    - **Desbloquear** : Desbloqueia o termostato.
+>A Caixa **Comando de bloqueio** deve ser verificado para que este comando seja exibido no widget.
 
-![Mode présence action entrée](../images/mode_presence_entree.png)
+- **Moda** : Modo atual.
+- **Modo anterior** : Modo anterior *(comando não visível por padrão)*.
+- **Voltar ao modo anterior** : Permite retornar ao modo ativo anteriormente.
+- **Ir para o próximo modo** : Permite que você vá para o próximo modo na lista.
 
-Ao sair do modo *Presente* para mudar para o modo *Ausente* ou *Férias*, queremos que o alarme seja ativado (1 ação de saída).
+# Exemples
 
-![Mode présence action sortie](../images/mode_presence_sortie.png)
+## Modos de painel
 
-Para modos *Ausente* e *Férias*, vamos apenas criar em cada um desses modos 1 ação de entrada para gerenciar o aquecimento (Eco para o *Ausente*, Proteção contra gelo para o modo *Férias*).
+Exemplo de equipamento sem ações de entrada ou saída nos modos. Equipamentos deste tipo podem ser úteis como um gatilho para um cenário ou para condicionar ações em um cenário :
 
-![Mode absent vacances](../images/mode_presence_absent_vacances.png)
+![Moda volet](../images/mode_volet.png)
 
-#### Fonctionnement
+## Modos de presença
 
-- Quando saímos do modo *Presente* na moda *Ausente*, o alarme está ativado (ação para sair *Presente*) e o aquecimento muda para eco (modo de ação de entrada *Ausente*).  
-- Quando saímos do modo *Presente* na moda *Férias*, o alarme está ativado (ação para sair *Presente*) e o aquecimento muda para proteção contra congelamento (ação de entrada do *Férias*).
-- Quando saímos do modo *Ausente* na moda *Presente*, o alarme é desativado (ação de entrada do *Presente*) e o aquecimento muda para conforto (entrada do modo *Presente*).
-- Quando saímos do modo *Ausente* na moda *Férias*, o aquecimento vai para a proteção contra congelamento (ação de entrada do *Férias*).
-- Quando saímos do modo *Férias* na moda *Presente*, o alarme é desativado (ação de entrada do *Presente*) e o aquecimento muda para conforto (entrada do modo *Presente*).
-- Quando saímos do modo *Férias* na moda *Ausente*, o aquecimento muda para eco (ação de entrada do *Ausente*).
+Exemplo de equipamento com ações definidas ao mudar de modo. Neste equipamento vamos criar 3 modos na aba **Modos** equipamento :
 
-### Modo de presença duas vezes
+- **Presente**
+- **Ausente**
+- **Férias**
 
-Modificamos ligeiramente o exemplo anterior para ilustrar a filtragem de ações.
+![Moda présence](../images/mode_presence_mode.png)
+
+Ao mudar para o modo **Presente**, queremos que o alarme seja desativado e o aquecimento mude para *Conforto (2 ações de entrada)* :
+
+![Moda présence action entrée](../images/mode_presence_entree.png)
+
+Ao sair do modo **Presente** para mudar para o modo **Ausente** ou **Férias**, queremos que o alarme seja ativado *(1 ação de saída)* :
+
+![Moda présence action sortie](../images/mode_presence_sortie.png)
+
+Sobre os modos **Ausente** e **Férias**, vamos apenas criar em cada 1 ação de entrada para gerenciar o aquecimento, *Ecologicamente correto* para moda **Ausente** e *Proteção contra geada* para moda **Férias** :
+
+![Moda absent vacances](../images/mode_presence_absent_vacances.png)
+
+### Presença de Operação
+
+- Quando saímos do modo **Presente** na moda **Ausente**, o alarme está ativado (ação para sair **Presente**) e o aquecimento muda para *Ecologicamente correto* (ação de entrada de modo **Ausente**).  
+- Quando saímos do modo **Presente** na moda **Férias**, o alarme está ativado (ação para sair **Presente**) e o aquecimento muda para *Proteção contra geada* (ação de entrada de modo **Férias**).
+- Quando saímos do modo **Ausente** na moda **Presente**, o alarme é desativado (ação de entrada do **Presente**) e o aquecimento muda para *Conforto* (ação de entrada de modo **Presente**).
+- Quando saímos do modo **Ausente** na moda **Férias**, interruptores de aquecimento para *Proteção contra geada* (ação de entrada de modo **Férias**).
+- Quando saímos do modo **Férias** na moda **Presente**, o alarme é desativado (ação de entrada do **Presente**) e o aquecimento muda para *Conforto* (ação de entrada de modo **Presente**).
+- Quando saímos do modo **Férias** na moda **Ausente**, interruptores de aquecimento para *Ecologicamente correto* (ação de entrada de modo **Ausente**).
+
+## Modos Presença bis
+
+Modificamos ligeiramente o exemplo anterior para ilustrar a filtragem de ações :
 
 ![Filtre](../images/mode_presence_filtre.png)
 
-Para fazer isso, o alarme não será mais ativado ao sair do modo *Presente* mas na entrada de modos *Ausente* e *Férias*. Após a modificação, obtemos isso :
+Para fazer isso, o alarme não será mais ativado ao sair do modo **Presente** mas na entrada de modos **Ausente** e **Férias**. Após a modificação obtemos o seguinte resultado :
 
 ![Presente](../images/mode_presence_bis_present.png)
 ![Ausente](../images/mode_presence_bis_absent.png)
 ![Férias](../images/mode_presence_bis_vacances.png)
 
-Observação : nos modos *Ausente* e *Férias*, o alarme só é ativado se você sair do modo *Presente*. Se formos de *Ausente* no *Férias* (e vice-versa), o alarme já está acionado, portanto não há necessidade de refazer a ação.
+>**EM FORMAÇÃO**
+>
+>nos modos **Ausente** e **Férias**, o alarme só é ativado se você sair do modo **Presente**. Se formos de **Ausente** no **Férias** *(Ou vice-versa)*, o alarme já está ativado, então não há necessidade de refazer a ação.
 
-#### Operação bis
+### Operação Presença bis
 
-- Quando saímos do modo *Presente* na moda *Ausente*, o alarme está ativado (modo de ação de entrada *Ausente*) e o aquecimento muda para eco (modo de ação de entrada *Ausente*).  
-- Quando saímos do modo *Presente* na moda *Férias*, o alarme está ativado (modo de ação de entrada *Férias*) e o aquecimento muda para proteção contra congelamento (ação de entrada do *Férias*).
-- Quando saímos do modo *Ausente* na moda *Presente*, o alarme é desativado (ação de entrada do *Presente*) e o aquecimento muda para conforto (entrada do modo *Presente*).
-- Quando saímos do modo *Ausente* na moda *Férias*, o aquecimento vai para a proteção contra congelamento (ação de entrada do *Férias*). O alarme não está ativado.
-- Quando saímos do modo *Férias* na moda *Presente*, o alarme é desativado (ação de entrada do *Presente*) e o aquecimento muda para conforto (entrada do modo *Presente*).
-- Quando saímos do modo *Férias* na moda *Ausente*, o aquecimento muda para eco (ação de entrada do *Ausente*).  O alarme não está ativado.
+- Quando saímos do modo **Presente** na moda **Ausente**, o alarme está ativado (modo de ação de entrada **Ausente**) e o aquecimento muda para *Ecologicamente correto* (ação de entrada de modo **Ausente**).  
+- Quando saímos do modo **Presente** na moda **Férias**, o alarme está ativado (modo de ação de entrada **Férias**) e o aquecimento muda para *Proteção contra geada* (ação de entrada de modo **Férias**).
+- Quando saímos do modo **Ausente** na moda **Presente**, o alarme é desativado (ação de entrada do **Presente**) e o aquecimento muda para *Conforto* (ação de entrada de modo **Presente**).
+- Quando saímos do modo **Ausente** na moda **Férias**, interruptores de aquecimento para *Proteção contra geada* (ação de entrada de modo **Férias**). O alarme não está ativado.
+- Quando saímos do modo **Férias** na moda **Presente**, o alarme é desativado (ação de entrada do **Presente**) e o aquecimento muda para *Conforto* (ação de entrada de modo **Presente**).
+- Quando saímos do modo **Férias** na moda **Ausente**, interruptores de aquecimento para *Ecologicamente correto* (ação de entrada de modo **Ausente**). O alarme não está ativado.
