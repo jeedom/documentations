@@ -12,6 +12,11 @@
 >
 >Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
 
+# 21/01/2022
+
+- Correction de bugs
+- Support de nouveau module
+
 # 10/01/2022
 
 - Correction d'un bug sur le binding direct entre 2 modules

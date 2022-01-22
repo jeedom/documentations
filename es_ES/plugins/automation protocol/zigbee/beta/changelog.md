@@ -12,6 +12,11 @@
 >
 >Para aprovechar la última integración del módulo, no dude en actualizar las dependencias
 
+# 21/01/2022
+
+- Arreglo del fallo
+- Nuevo módulo de soporte
+
 # 01/10/2022
 
 - Corrección de un error en el enlace directo entre 2 módulos

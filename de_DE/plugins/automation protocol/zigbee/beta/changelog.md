@@ -12,6 +12,11 @@
 >
 >Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
 
+# 21.01.2022
+
+- Fehlerbehebung
+- Neue Modulunterstützung
+
 # 10.01.2022
 
 - Korrektur eines Fehlers bei der direkten Bindung zwischen 2 Modulen

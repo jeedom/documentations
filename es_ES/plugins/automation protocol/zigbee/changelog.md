@@ -12,6 +12,10 @@
 >
 >Para aprovechar la última integración del módulo, no dude en actualizar las dependencias
 
+# 01/10/2022
+
+- Corrección de un error en el enlace directo entre 2 módulos
+
 # 01/06/2022
 
 - Se corrigió un error en la lista de módulos que se pueden vincular

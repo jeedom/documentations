@@ -12,6 +12,11 @@
 >
 >Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
 
+# 21/01/2022
+
+- Bugfix
+- Suporte ao novo módulo
+
 # 10/01/2022
 
 - Correção de um bug na ligação direta entre 2 módulos
