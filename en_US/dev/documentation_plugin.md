@@ -50,6 +50,6 @@ Now you need to put the links of your documentation in the info file.json of you
 - Add ``#language#/`` for the link to the documentation, this gives us our example ``https://jeedom.github.io/plugin-template/#language#/``
 - Add ``#language#/changelog`` for the link to your change, so this looks at our example ``https://jeedom.github.io/plugin-template/#language#/changelog``
 
-> **Note**
+> **NOTE**
 >
 > As you can see, when the user asks to see your doc, Jeedom or the market will automatically replace #language# by the user's language to point to the correct language (if your documentation is not available in the user's language then automatically, this will refer to French)

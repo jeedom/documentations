@@ -384,7 +384,7 @@ When we click on the assistant button, we get the input to write in then we call
 
 By far the most important folder of your plugin, it can include 4 subfolders.
 
-Note : all along this part the id of your plugin will be referenced by : plugin\_id
+NOTE : all along this part the id of your plugin will be referenced by : plugin\_id
 
 ## PHP
 
