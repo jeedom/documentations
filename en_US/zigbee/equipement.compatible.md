@@ -268,6 +268,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/ADEO.LDSENK02F.png" width="60" />|Adeo|LEXMAN ENKI - 16A connected socket|||[Buy](https://www.leroymerlin.fr/produits/electricite-domotique/domotique-et-objets-connectes/domotique/solutions-de-commande/prise-connectee-16a-3680w-repeteur-lexman-82428895.html)|
 |<img src="../../en_US/zigbee/images/adeo.LDSENK10.png" width="60" />|Adeo|Movement detector|Mouvement|||
 |<img src="../../en_US/zigbee/images/adeo.LXEK-1.png" width="60" />|Adeo|LEXMAN ENKI - Smart bulb||||
 |<img src="../../en_US/zigbee/images/adeo.LXEK-2.png" width="60" />|Adeo|LEXMAN ENKI - Smart bulb||||
@@ -329,7 +330,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/eWeLight.ZB-CL01.png" width="60" />|eWeLight|RGBCW MR16 Smart LED Bulb||||
+|<img src="../../en_US/zigbee/images/eWeLight.ZB-CL01.png" width="60" />|eWeLight|Smart RGBCW LED Controller MR16||||
 |<img src="../../en_US/zigbee/images/eWeLink.SA-003-Zigbee.png" width="60" />|EWeLink|OnOff Controller||||
 |<img src="../../en_US/zigbee/images/eWeLink.ZB-CL01.png" width="60" />|EWeLink|RGBCW MR16 Smart LED Bulb||||
 |<img src="../../en_US/zigbee/images/eWeLink.ZB-SW01.png" width="60" />|EWeLink|1 Channel ZigBee Smart Relay Switch||||
@@ -361,6 +362,7 @@
 |<img src="../../en_US/zigbee/images/gledopto.GL-B-007Z.png" width="60" />|Gledopto|GL-B-007Z||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-B-008Z.png" width="60" />|Gledopto|GL-B-008Z||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-C-006P.png" width="60" />|Gledopto|Warm and cool white LED strip smart controller||||
+|<img src="../../en_US/zigbee/images/gledopto.GL-C-007.png" width="60" />|Gledopto|GL-C-007||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-C-008P.png" width="60" />|Gledopto|GL-C-008P||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-C-008S.png" width="60" />|Gledopto|GL-C-008S||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-G-001ZS.png" width="60" />|Gledopto|GL-G-001ZS||||
@@ -376,6 +378,7 @@
 |<img src="../../en_US/zigbee/images/HEIMAN.COSensor-EF-3.0.png" width="60" />|Heiman|Smart Carbon Monoxide Sensor||||
 |<img src="../../en_US/zigbee/images/HEIMAN.COSensor-EM.png" width="60" />|Heiman|Carbon monoxide detector||||
 |<img src="../../en_US/zigbee/images/HEIMAN.ColorDimmerSw-EM-3.0.png" width="60" />|Heiman|5-button color remote control||||
+|<img src="../../en_US/zigbee/images/HEIMAN.ColorLight.png" width="60" />|Heiman|||||
 |<img src="../../en_US/zigbee/images/HEIMAN.DoorBell-EM.png" width="60" />|Heiman|Connected doorbell||||
 |<img src="../../en_US/zigbee/images/HEIMAN.GASSensor-EF-3.0.png" width="60" />|Heiman|Smart Combustible Gas Sensor||||
 |<img src="../../en_US/zigbee/images/HEIMAN.GASSensor-EM.png" width="60" />|Heiman|Gas detector||||
@@ -495,6 +498,12 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/E220-KR4N0Z0-HA.png" width="60" />|Lellki|Smart power strip||||
 
+# Lexman
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/adeo.LDSENK02F.png" width="60" />|Lexman|LEXMAN ENKI - 16A connected socket|||[Buy](https://www.leroymerlin.fr/produits/electricite-domotique/domotique-et-objets-connectes/domotique/solutions-de-commande/prise-connectee-16a-3680w-repeteur-lexman-82428895.html)|
+
 # Lidl
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -566,6 +575,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/OWON.CB432-32.png" width="60" />|Owon|Rail-Din 32A relay and Zigbee energy meter|Contactor, Counter||[Documentation](https://www.owon-smart.com/uploads/Quick-Start-Guide-CB432-Din-Rail-Relay1.pdf)<br/>|
 |<img src="../../en_US/zigbee/images/OWON.THS317-ET.png" width="60" />|Owon|Remote temperature probe on cable|||[Buy](https://www.domadoo.fr/fr/peripheriques/5998-owon-sonde-de-temperature-deportee-sur-cable-zigbee.html)|
 
 # Philips
@@ -708,6 +718,7 @@
 |<img src="../../en_US/zigbee/images/TUYATEC-ydcwf5m2.RH3001.png" width="60" />|Tuya|Intelligent door or window opening sensor||||
 |<img src="../../en_US/zigbee/images/TUYATEC-zn9wyqtr.RH3040.png" width="60" />|Tuya|Intelligent motion detector||||
 |<img src="../../en_US/zigbee/images/TYZB01_3zv6oleo.TS0210.png" width="60" />|Tuya|Vibration sensor||||
+|<img src="../../en_US/zigbee/images/TYZB01_4mdqxxnn.TS0222.png" width="60" />|Tuya|TUYA - Light sensor|||[Buy](https://fr.aliexpress.com/item/1005002117427752.html?spm=a2g0s.9042311.0.0.22206c37vgJYy8)|
 |<img src="../../en_US/zigbee/images/TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|ON / OFF switch 2300W 1 channel||||
 |<img src="../../en_US/zigbee/images/TYZB01_b1ngbmlm.TS0112.png" width="60" />|Tuya|Smart ON / OFF plug and 2 USB ports||||
 |<img src="../../en_US/zigbee/images/TYZB01_dazsid15.TS0302.png" width="60" />|Tuya|Connected switch for roller shutter||||
@@ -733,6 +744,7 @@
 |<img src="../../en_US/zigbee/images/TZ3000_4fsgukof.TS0215A.png" width="60" />|Tuya|SOS remote control||||
 |<img src="../../en_US/zigbee/images/TZ3000_4js9lo5d.TS0012.png" width="60" />|Tuya|Double micromodule without neutral||||
 |<img src="../../en_US/zigbee/images/TZ3000_4upl1fcj.TS0041.png" width="60" />|Tuya|1 button connected switch|||[Buy](https://www.domadoo.fr/fr/domotique/5785-moes-interrupteur-intelligent-sans-fil-zigbee-1-bouton.html)|
+|<img src="../../en_US/zigbee/images/TZ3000_4uuaja4a.TS130F.png" width="60" />|Tuya|Smart module for roller shutter (3)||||
 |<img src="../../en_US/zigbee/images/TZ3000_4whigl8i.TS0501B.png" width="60" />|Tuya|LED strip controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_5f43h46b.TS011F.png" width="60" />|Tuya|QONTROLS 16A socket with consumption measurement||||
 |<img src="../../en_US/zigbee/images/TZ3000_5jdvwqv9.TS0502B.png" width="60" />|Tuya|LED controller||||
@@ -744,10 +756,13 @@
 |<img src="../../en_US/zigbee/images/TZ3000_abci1hiu.TS0044.png" width="60" />|Tuya|Scene remote 4 buttons||||
 |<img src="../../en_US/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Smart double switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_air9m6af.TS011F.png" width="60" />|Tuya|Power Strip 16A 4000W 4AC + 2USB|Socket, Consumption, Power, Repeater||[Buy](https://fr.aliexpress.com/item/1005001408157771.html)|
+|<img src="../../en_US/zigbee/images/TZ3000_bvrlqyj7.TS0002.png" width="60" />|Tuya|Tuya Zigbee - 2 Way Switch||||
+|<img src="../../en_US/zigbee/images/TZ3000_cfnprab5.TS011F.png" width="60" />|Tuya|Power strip connected 4 sockets and 2 USB ports (2)||||
 |<img src="../../en_US/zigbee/images/TZ3000_cphmq0q7.TS011F.png" width="60" />|Tuya|Connected socket|Socket, Meter, Power, Repeater|||
 |<img src="../../en_US/zigbee/images/TZ3000_cymsnfvf.TS011F.png" width="60" />|Tuya|Connected socket + USB|Prise||[Buy](https://www.domadoo.fr/fr/prises-connectees/5840-moes-prise-connectee-zigbee-30-2-ports-usb-pilotables-version-schuko.html)|
 |<img src="../../en_US/zigbee/images/TZ3000_dbpmpco1.TS130F.png" width="60" />|Tuya|Connected switch for connected curtain||||
 |<img src="../../en_US/zigbee/images/TZ3000_dfgbtub0.TS0042.png" width="60" />|Tuya|Connected switch 2 buttons|||[Buy](https://www.domadoo.fr/fr/domotique/5786-moes-interrupteur-intelligent-sans-fil-zigbee-2-boutons.html)|
+|<img src="../../en_US/zigbee/images/TZ3000_dowj6gyi.TS0201.png" width="60" />|Tuya|Temperature, humidity||||
 |<img src="../../en_US/zigbee/images/TZ3000_ebar6ljy.TS0203.png" width="60" />|Tuya|Opening sensor|Ouverture|||
 |<img src="../../en_US/zigbee/images/TZ3000_excgg5kb.TS0004.png" width="60" />|Tuya|ON / OFF switch 2300W 1 channel||||
 |<img src="../../en_US/zigbee/images/TZ3000_fccpjz5z.TS130F.png" width="60" />|Tuya|Intelligent roller shutter module (2)||||
@@ -758,12 +773,14 @@
 |<img src="../../en_US/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|Mini RGB Led Strip Controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_ji4araar.TS0011.png" width="60" />|Tuya|Switch module ON / OFF 10A|Socket, Consumption, Power, Repeater||[Buy](https://fr.aliexpress.com/item/1005003438720832.html)|
 |<img src="../../en_US/zigbee/images/TZ3000_l13erpv4.TS130F.png" width="60" />|Tuya|Roller shutter switch||||
+|<img src="../../en_US/zigbee/images/TZ3000_ltt60asa.TS0004.png" width="60" />|Tuya|Tuya Zigbee - 4 Way Switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_m0vaazab.TS0207.png" width="60" />|Tuya|Range extender||||
 |<img src="../../en_US/zigbee/images/TZ3000_m9af2l6g.TS000F.png" width="60" />|Tuya|Zigbee 3 micromodule.0 SKTE||||
 |<img src="../../en_US/zigbee/images/TZ3000_nfnmi125.TS011F.png" width="60" />|Tuya|Simple ON / OFF connected plug|Socket, Repeater||[Buy](https://fr.aliexpress.com/item/1005002761118194.html)|
 |<img src="../../en_US/zigbee/images/TZ3000_npzfdcof.TS0001.png" width="60" />|Tuya|Mini SMART - Single connected module ON / OFF 16A|||[Buy](https://fr.aliexpress.com/item/1005003167278697.html)|
 |<img src="../../en_US/zigbee/images/TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Connected power strip 4 sockets and 2 USB ports||||
 |<img src="../../en_US/zigbee/images/TZ3000_o4cjetlm.TS0001.png" width="60" />|Tuya|Tuya Zigbee - Valve controller||||
+|<img src="../../en_US/zigbee/images/TZ3000_odzoiovu.TS0003.png" width="60" />|Tuya|Tuya Zigbee - 3 Way Switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Dual ON / OFF connected module||||
 |<img src="../../en_US/zigbee/images/TZ3000_pmvbt5hh.TS0011.png" width="60" />|Tuya|Simple ON / OFF connected module without neutral||||
 |<img src="../../en_US/zigbee/images/TZ3000_pmz6mjyu.TS011F.png" width="60" />|Tuya|MOES - Dual ON / OFF connected module||||
@@ -774,6 +791,7 @@
 |<img src="../../en_US/zigbee/images/TZ3000_rrjr1q0u.TS0043.png" width="60" />|Tuya|Smart triple switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_scvgu6ow.TS011F.png" width="60" />|Tuya|Socket with 2 usb ports||||
 |<img src="../../en_US/zigbee/images/TZ3000_tk3s5tyg.TS0041.png" width="60" />|Tuya|Smart single switch||||
+|<img src="../../en_US/zigbee/images/TZ3000_tqlv4ug4.TS0001.png" width="60" />|Tuya|Tuya Zigbee - 1 Way Switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_txpirhfq.TS0011.png" width="60" />|Tuya|SMART - Single ON / OFF connected module||||
 |<img src="../../en_US/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|RGBW LED strip controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|Intelligent roller shutter module||||
@@ -785,6 +803,7 @@
 |<img src="../../en_US/zigbee/images/TZ3000_xabckq1v.TS004F.png" width="60" />|Tuya|4 button smart switch with batteries||||
 |<img src="../../en_US/zigbee/images/TZ3000_xxgrunjb.TS130F.png" width="60" />|Doowifi|ZIGBEE SHUTTER CONTROL DWF-0205ZB-PN-2|Volets|||
 |<img src="../../en_US/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MOES - Single ON / OFF connected module||||
+|<img src="../../en_US/zigbee/images/TZ3210_remypqqm.TS0505B.png" width="60" />|Tuya|Led bulb 3.0, RGB+WW+CW E27||||
 |<img src="../../en_US/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|3 button connected switch||||
 |<img src="../../en_US/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Connected switch 2 buttons||||
 |<img src="../../en_US/zigbee/images/TZE200_7bztmfm1.TS0601.png" width="60" />|Tuya|Tuya air quality CO||||
@@ -883,4 +902,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2022-01-21 01:32:07
+2022-01-22 01:32:09

@@ -268,6 +268,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/ADEO.LDSENK02F.png" width="60" />|Adeo|LEXMAN ENKI - Toma conectada 16A|||[Comprar](https://www.leroymerlin.fr/produits/electricite-domotique/domotique-et-objets-connectes/domotique/solutions-de-commande/prise-connectee-16a-3680w-repeteur-lexman-82428895.html)|
 |<img src="../../es_ES/zigbee/images/adeo.LDSENK10.png" width="60" />|Adeo|Detector de movimiento|Mouvement|||
 |<img src="../../es_ES/zigbee/images/adeo.LXEK-1.png" width="60" />|Adeo|LEXMAN ENKI - Bombilla inteligente||||
 |<img src="../../es_ES/zigbee/images/adeo.LXEK-2.png" width="60" />|Adeo|LEXMAN ENKI - Bombilla inteligente||||
@@ -329,7 +330,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/eWeLight.ZB-CL01.png" width="60" />|eWeLight|Bombilla LED inteligente RGBCW MR16||||
+|<img src="../../es_ES/zigbee/images/eWeLight.ZB-CL01.png" width="60" />|eWeLight|Controlador LED inteligente RGBCW MR16||||
 |<img src="../../es_ES/zigbee/images/eWeLink.SA-003-Zigbee.png" width="60" />|EWeLink|Controlador OnOff||||
 |<img src="../../es_ES/zigbee/images/eWeLink.ZB-CL01.png" width="60" />|EWeLink|Bombilla LED inteligente RGBCW MR16||||
 |<img src="../../es_ES/zigbee/images/eWeLink.ZB-SW01.png" width="60" />|EWeLink|Interruptor de relé inteligente ZigBee de 1 canal||||
@@ -361,6 +362,7 @@
 |<img src="../../es_ES/zigbee/images/gledopto.GL-B-007Z.png" width="60" />|Gledopto|GL-B-007Z||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-B-008Z.png" width="60" />|Gledopto|GL-B-008Z||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-C-006P.png" width="60" />|Gledopto|Controlador inteligente de tira de LED blanco cálido y frío||||
+|<img src="../../es_ES/zigbee/images/gledopto.GL-C-007.png" width="60" />|Gledopto|GL-C-007||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-C-008P.png" width="60" />|Gledopto|GL-C-008P||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-C-008S.png" width="60" />|Gledopto|GL-C-008S||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-G-001ZS.png" width="60" />|Gledopto|GL-G-001ZS||||
@@ -376,6 +378,7 @@
 |<img src="../../es_ES/zigbee/images/HEIMAN.COSensor-EF-3.0.png" width="60" />|Heiman|Sensor inteligente de monóxido de carbono||||
 |<img src="../../es_ES/zigbee/images/HEIMAN.COSensor-EM.png" width="60" />|Heiman|Detector de monóxido de carbono||||
 |<img src="../../es_ES/zigbee/images/HEIMAN.ColorDimmerSw-EM-3.0.png" width="60" />|Heiman|Mando a distancia a color de 5 botones||||
+|<img src="../../es_ES/zigbee/images/HEIMAN.ColorLight.png" width="60" />|Heiman|||||
 |<img src="../../es_ES/zigbee/images/HEIMAN.DoorBell-EM.png" width="60" />|Heiman|Timbre conectado||||
 |<img src="../../es_ES/zigbee/images/HEIMAN.GASSensor-EF-3.0.png" width="60" />|Heiman|Sensor inteligente de gas combustible||||
 |<img src="../../es_ES/zigbee/images/HEIMAN.GASSensor-EM.png" width="60" />|Heiman|Detector de gas||||
@@ -495,6 +498,12 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/E220-KR4N0Z0-HA.png" width="60" />|Lellki|Regleta de alimentación inteligente||||
 
+# Lexman
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/adeo.LDSENK02F.png" width="60" />|Lexman|LEXMAN ENKI - Toma conectada 16A|||[Comprar](https://www.leroymerlin.fr/produits/electricite-domotique/domotique-et-objets-connectes/domotique/solutions-de-commande/prise-connectee-16a-3680w-repeteur-lexman-82428895.html)|
+
 # Lidl
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -566,6 +575,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/OWON.CB432-32.png" width="60" />|Owon|Relé Rail-Din 32A y contador de energía Zigbee|Contactor, contador||[Documentación](https://www.owon-smart.com/uploads/Quick-Start-Guide-CB432-Din-Rail-Relay1.pdf)<br/>|
 |<img src="../../es_ES/zigbee/images/OWON.THS317-ET.png" width="60" />|Owon|Sonda de temperatura remota en cable|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5998-owon-sonde-de-temperature-deportee-sur-cable-zigbee.html)|
 
 # Philips
@@ -708,6 +718,7 @@
 |<img src="../../es_ES/zigbee/images/TUYATEC-ydcwf5m2.RH3001.png" width="60" />|Tuya|Sensor inteligente de apertura de puertas o ventanas||||
 |<img src="../../es_ES/zigbee/images/TUYATEC-zn9wyqtr.RH3040.png" width="60" />|Tuya|Detector de movimiento inteligente||||
 |<img src="../../es_ES/zigbee/images/TYZB01_3zv6oleo.TS0210.png" width="60" />|Tuya|Sensor de vibración||||
+|<img src="../../es_ES/zigbee/images/TYZB01_4mdqxxnn.TS0222.png" width="60" />|Tuya|TUYA - Sensor de luz|||[Comprar](https://fr.aliexpress.com/item/1005002117427752.html?spm=a2g0s.9042311.0.0.22206c37vgJYy8)|
 |<img src="../../es_ES/zigbee/images/TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|Interruptor ON / OFF 2300W 1 canal||||
 |<img src="../../es_ES/zigbee/images/TYZB01_b1ngbmlm.TS0112.png" width="60" />|Tuya|Enchufe inteligente de ENCENDIDO / APAGADO y 2 puertos USB||||
 |<img src="../../es_ES/zigbee/images/TYZB01_dazsid15.TS0302.png" width="60" />|Tuya|Interruptor conectado para persiana enrollable||||
@@ -733,6 +744,7 @@
 |<img src="../../es_ES/zigbee/images/TZ3000_4fsgukof.TS0215A.png" width="60" />|Tuya|Mando a distancia SOS||||
 |<img src="../../es_ES/zigbee/images/TZ3000_4js9lo5d.TS0012.png" width="60" />|Tuya|Micromódulo doble sin neutro||||
 |<img src="../../es_ES/zigbee/images/TZ3000_4upl1fcj.TS0041.png" width="60" />|Tuya|Interruptor de 1 botón conectado|||[Comprar](https://www.domadoo.fr/fr/domotique/5785-moes-interrupteur-intelligent-sans-fil-zigbee-1-bouton.html)|
+|<img src="../../es_ES/zigbee/images/TZ3000_4uuaja4a.TS130F.png" width="60" />|Tuya|Módulo inteligente para persiana enrollable (3)||||
 |<img src="../../es_ES/zigbee/images/TZ3000_4whigl8i.TS0501B.png" width="60" />|Tuya|Controlador de tira de LED||||
 |<img src="../../es_ES/zigbee/images/TZ3000_5f43h46b.TS011F.png" width="60" />|Tuya|Toma QONTROLS 16A con medición de consumos||||
 |<img src="../../es_ES/zigbee/images/TZ3000_5jdvwqv9.TS0502B.png" width="60" />|Tuya|Controlador LED||||
@@ -744,10 +756,13 @@
 |<img src="../../es_ES/zigbee/images/TZ3000_abci1hiu.TS0044.png" width="60" />|Tuya|Control remoto de escena 4 botones||||
 |<img src="../../es_ES/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Interruptor doble inteligente||||
 |<img src="../../es_ES/zigbee/images/TZ3000_air9m6af.TS011F.png" width="60" />|Tuya|Regleta de alimentación 16A 4000W 4AC + 2USB|Toma, Consumo, Potencia, Repetidor||[Comprar](https://fr.aliexpress.com/item/1005001408157771.html)|
+|<img src="../../es_ES/zigbee/images/TZ3000_bvrlqyj7.TS0002.png" width="60" />|Tuya|Tuya Zigbee - Interruptor de 2 vías||||
+|<img src="../../es_ES/zigbee/images/TZ3000_cfnprab5.TS011F.png" width="60" />|Tuya|Regleta conectada 4 enchufes y 2 puertos USB (2)||||
 |<img src="../../es_ES/zigbee/images/TZ3000_cphmq0q7.TS011F.png" width="60" />|Tuya|Toma conectada|Zócalo, medidor, potencia, repetidor|||
 |<img src="../../es_ES/zigbee/images/TZ3000_cymsnfvf.TS011F.png" width="60" />|Tuya|Toma conectada + USB|Prise||[Comprar](https://www.domadoo.fr/fr/prises-connectees/5840-moes-prise-connectee-zigbee-30-2-ports-usb-pilotables-version-schuko.html)|
 |<img src="../../es_ES/zigbee/images/TZ3000_dbpmpco1.TS130F.png" width="60" />|Tuya|Interruptor conectado para cortina conectada||||
 |<img src="../../es_ES/zigbee/images/TZ3000_dfgbtub0.TS0042.png" width="60" />|Tuya|Interruptor conectado 2 botones|||[Comprar](https://www.domadoo.fr/fr/domotique/5786-moes-interrupteur-intelligent-sans-fil-zigbee-2-boutons.html)|
+|<img src="../../es_ES/zigbee/images/TZ3000_dowj6gyi.TS0201.png" width="60" />|Tuya|Temperatura, humedad||||
 |<img src="../../es_ES/zigbee/images/TZ3000_ebar6ljy.TS0203.png" width="60" />|Tuya|Sensor de apertura|Ouverture|||
 |<img src="../../es_ES/zigbee/images/TZ3000_excgg5kb.TS0004.png" width="60" />|Tuya|Interruptor ON / OFF 2300W 1 canal||||
 |<img src="../../es_ES/zigbee/images/TZ3000_fccpjz5z.TS130F.png" width="60" />|Tuya|Módulo de persiana enrollable inteligente (2)||||
@@ -758,12 +773,14 @@
 |<img src="../../es_ES/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|Mini controlador de tira de LED RGB||||
 |<img src="../../es_ES/zigbee/images/TZ3000_ji4araar.TS0011.png" width="60" />|Tuya|Interruptor de módulo ON / OFF 10A|Toma, Consumo, Potencia, Repetidor||[Comprar](https://fr.aliexpress.com/item/1005003438720832.html)|
 |<img src="../../es_ES/zigbee/images/TZ3000_l13erpv4.TS130F.png" width="60" />|Tuya|Interruptor de persiana enrollable||||
+|<img src="../../es_ES/zigbee/images/TZ3000_ltt60asa.TS0004.png" width="60" />|Tuya|Tuya Zigbee - Interruptor de 4 vías||||
 |<img src="../../es_ES/zigbee/images/TZ3000_m0vaazab.TS0207.png" width="60" />|Tuya|Extensor de alcance||||
 |<img src="../../es_ES/zigbee/images/TZ3000_m9af2l6g.TS000F.png" width="60" />|Tuya|Micromódulo Zigbee 3.0 SKTE||||
 |<img src="../../es_ES/zigbee/images/TZ3000_nfnmi125.TS011F.png" width="60" />|Tuya|Enchufe conectado simple ON / OFF|Zócalo, repetidor||[Comprar](https://fr.aliexpress.com/item/1005002761118194.html)|
 |<img src="../../es_ES/zigbee/images/TZ3000_npzfdcof.TS0001.png" width="60" />|Tuya|Mini SMART - Módulo único conectado ENCENDIDO / APAGADO 16A|||[Comprar](https://fr.aliexpress.com/item/1005003167278697.html)|
 |<img src="../../es_ES/zigbee/images/TZ3000_o005nuxx.TS011F.png" width="60" />|Tuya|Regleta de enchufes conectada 4 enchufes y 2 puertos USB||||
 |<img src="../../es_ES/zigbee/images/TZ3000_o4cjetlm.TS0001.png" width="60" />|Tuya|Tuya Zigbee - Controlador de válvula||||
+|<img src="../../es_ES/zigbee/images/TZ3000_odzoiovu.TS0003.png" width="60" />|Tuya|Tuya Zigbee - Interruptor de 3 vías||||
 |<img src="../../es_ES/zigbee/images/TZ3000_oiymh3qu.TS011F.png" width="60" />|Tuya|Módulo conectado dual ON / OFF||||
 |<img src="../../es_ES/zigbee/images/TZ3000_pmvbt5hh.TS0011.png" width="60" />|Tuya|Módulo conectado simple ON / OFF sin neutro||||
 |<img src="../../es_ES/zigbee/images/TZ3000_pmz6mjyu.TS011F.png" width="60" />|Tuya|MOES - Módulo conectado dual ON / OFF||||
@@ -774,6 +791,7 @@
 |<img src="../../es_ES/zigbee/images/TZ3000_rrjr1q0u.TS0043.png" width="60" />|Tuya|Interruptor triple inteligente||||
 |<img src="../../es_ES/zigbee/images/TZ3000_scvgu6ow.TS011F.png" width="60" />|Tuya|Toma con 2 puertos usb||||
 |<img src="../../es_ES/zigbee/images/TZ3000_tk3s5tyg.TS0041.png" width="60" />|Tuya|Interruptor único inteligente||||
+|<img src="../../es_ES/zigbee/images/TZ3000_tqlv4ug4.TS0001.png" width="60" />|Tuya|Tuya Zigbee - Interruptor de 1 vía||||
 |<img src="../../es_ES/zigbee/images/TZ3000_txpirhfq.TS0011.png" width="60" />|Tuya|SMART - Módulo conectado simple ON / OFF||||
 |<img src="../../es_ES/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|Controlador de tira de LED RGBW||||
 |<img src="../../es_ES/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|Módulo de persiana enrollable inteligente||||
@@ -785,6 +803,7 @@
 |<img src="../../es_ES/zigbee/images/TZ3000_xabckq1v.TS004F.png" width="60" />|Tuya|Interruptor inteligente de 4 botones con baterías||||
 |<img src="../../es_ES/zigbee/images/TZ3000_xxgrunjb.TS130F.png" width="60" />|Doowifi|CONTROL DE PERSIANAS ZIGBEE DWF-0205ZB-PN-2|Volets|||
 |<img src="../../es_ES/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MOES - Módulo único conectado ON / OFF||||
+|<img src="../../es_ES/zigbee/images/TZ3210_remypqqm.TS0505B.png" width="60" />|Tuya|Bombilla led 3.0, RGB+WW+CW E27||||
 |<img src="../../es_ES/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Interruptor conectado de 3 botones||||
 |<img src="../../es_ES/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Interruptor conectado 2 botones||||
 |<img src="../../es_ES/zigbee/images/TZE200_7bztmfm1.TS0601.png" width="60" />|Tuya|Calidad del aire Tuya CO||||
@@ -883,4 +902,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2022-01-21 01:32:07
+2022-01-22 01:32:09
