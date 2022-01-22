@@ -4,7 +4,9 @@
 
 - S’être inscrit en tant que dev, voir [ici](https://www.jeedom.com/site/fr/dev.html).
 - Avoir attendu la validation du compte market comme développeur.
+- Vérifier sur Community que vous avez accès à "Salon des développeurs".
 - Avoir mis votre plugin sur github (dépôt privé ou non).
+- Présentez votre plugin dans le "Salon des développeurs" et "Présentation plugin"
 
 ## Configuration
 
@@ -29,10 +31,15 @@ Une fois connecté avec votre compte dev sur le market il faut :
     - Le nom du dépôt sur github.
     - Cocher la case pour que le market gère la traduction de votre plugin et de la documentation (attention dans ce cas à bien donner tous les droits à l'utilisateur `jeedom-market` de github sur votre dépot github).
 
-   Une fois sauvegardé, en retournant dans l'onglet github, vous pourrez indiquer les branches :
+   Une fois sauvegardé, en retournant dans l'onglet github, vous pourrez indiquer les branches de votre github qui correspondent aux versions du market :
 
-   - Beta
-   - Stable
+   - Beta  (par exemple: beta)
+   - Stable  (par exemple: master)
    - V3 (seulement si vous avez une branche différente pour le support de Jeedom v3).
 
    La synchronisation se fait soit automatiquement tous les jours à 12h10 (attention vu le nombre de plugin et les restrictions d'appels api la mise à jour commence à 12h10 mais prendre plusieurs dizaine d'heure). Vous pouvez aussi lancer une synchronisation manuelle d'une branche à partir de la fiche plugin.
+   
+   
+   > **Note**
+   > Vous avez un compte market avec un nom différent de community et vous désirez publier sous le nom de community.
+   > Allez sur votre compte market dans "Mon profil".  Dans la zone "Pour les développeurs", vous pouvez indiquer dans le champ auteur votre nom de community. 
