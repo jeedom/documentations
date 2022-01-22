@@ -4,7 +4,9 @@
 
 - Registrarse como desarrollador, ver [aquí](https://www.jeedom.com/site/fr/dev.html).
 - A la espera de la validación de la cuenta de mercado como desarrollador.
+- Compruebe en la Comunidad que tiene acceso a "Developers' Lounge".
 - Tenga su complemento en github (depósito privado o no)).
+- Presente su complemento en "Mostrar desarrolladores" y "Presentación de complementos"
 
 ## Configuration
 
@@ -29,10 +31,15 @@ Una vez conectado con su cuenta de desarrollador en el mercado, debe :
     - El nombre del repositorio en github.
     - Marque la casilla para que el mercado gestione la traducción de su complemento y la documentación (tenga cuidado en este caso de otorgar todos los derechos al usuario `jeedom-market` de github en su repositorio de github).
 
-   Una vez guardado, al regresar a la pestaña de github, puede indicar las ramas :
+   Una vez guardado, volviendo a la pestaña de github, puedes indicar las sucursales de tu github que corresponden a las versiones del mercado :
 
-   - Beta
-   - Stable
+   - Beta (ej: beta)
+   - Estable (ej: master)
    - V3 (solo si tiene una rama diferente para el soporte de Jeedom v3).
 
    La sincronización se realiza automáticamente todos los días a las 12.10 p.m. (tenga en cuenta la cantidad de complementos y las restricciones de llamadas después de que la actualización comience a las 12.10 p.m. pero tome varias diez horas). También puede iniciar una sincronización manual de una rama desde el archivo del complemento.
+   
+   
+   > **Nota**
+   > Tienes una cuenta de mercado con un nombre diferente a comunidad y quieres publicar con el nombre de comunidad.
+   > Ve a tu cuenta de mercado en "Mi perfil".  En el área "Para desarrolladores", puede indicar en el campo de autor el nombre de su comunidad. 
