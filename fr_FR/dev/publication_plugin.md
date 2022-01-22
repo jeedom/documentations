@@ -31,7 +31,7 @@ Une fois connecté avec votre compte dev sur le market il faut :
     - Le nom du dépôt sur github.
     - Cocher la case pour que le market gère la traduction de votre plugin et de la documentation (attention dans ce cas à bien donner tous les droits à l'utilisateur `jeedom-market` de github sur votre dépot github).
 
-   Une fois sauvegardé, en retournant dans l'onglet github, vous pourrez indiquer les branches de votre github qui correspondent au version du market :
+   Une fois sauvegardé, en retournant dans l'onglet github, vous pourrez indiquer les branches de votre github qui correspondent aux versions du market :
 
    - Beta  (par exemple: beta)
    - Stable  (par exemple: master)
