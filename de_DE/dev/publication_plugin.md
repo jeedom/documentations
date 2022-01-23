@@ -8,6 +8,38 @@
 - Haben Sie Ihr Plugin auf Github (private Einzahlung oder nicht).
 - Präsentieren Sie Ihr Plugin in der "Entwicklershow" und "Präsentation des Plugins""
 
+## Plug-in-Präsentation
+
+Warum präsentieren Sie Ihr Plugin !
+
+Um zu vermeiden, in Ihrer Ecke zu arbeiten und zu sehen, wie ein anderer Entwickler am Ende dasselbe herausbringt.  
+Für Hilfe bei der Gestaltung.  
+Damit das Jeedom-Team während eines ToStable wissen kann, wofür Ihr Plugin ist und wie es codiert ist.  
+Um Ihre Ideen und Kommentare zu teilen :wink:  
+
+Wir bitten Sie nicht um eine Abhandlung über Ihre Plugins, sondern nur um Informationen :
+
+- Name und ID > Z-Wave (openzwave) // Sie können dies in Ihren Thementitel einfügen.
+- was dein Plugin macht
+- Art der verwendeten Sprachen
+- Benutzt er einen Dämon ? spezifische Abhängigkeiten ? Kronen ?
+- Hat es ein dediziertes Panel ?
+- Bezahlt || kostenlos ? (wenn du schon eine idee hast)
+- GitHub-Link oder andere Repository-Site (falls gewünscht)
+- Link zur Dokumentation
+Von dort wird Ihrem Plugin von einem Moderator ein Tag zugewiesen
+
+Sie haben auch mehrere Tags zur Verfügung, damit das Jeedom-Team Sie leichter warnen kann :
+
+Dämon (wenn du einen Dämon hast)  
+dependency_intall (wenn Sie Abhängigkeitsinstallationen haben)  
+nodejs oder python (Sprache, die in Ihrem Daemon verwendet wird)  
+cron (wenn Sie die Cron-Engine von Jeedom verwenden)  
+jsonrpc (wenn Sie die jsonrpc-API von Jeedom verwenden)  
+Idee, Beta, Stable, Private (je nachdem, wie Ihr Plugin ist)  
+kostenlos, bezahlt  
+Panel-Dash, Panel-Mob (wenn Sie ein Panel in Ihrem Plugin haben)  
+
 ## Configuration
 
 Sobald Sie mit Ihrem Dev-Konto auf dem Markt verbunden sind, müssen Sie :

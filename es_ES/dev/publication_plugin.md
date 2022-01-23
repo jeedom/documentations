@@ -8,6 +8,38 @@
 - Tenga su complemento en github (depósito privado o no)).
 - Presente su complemento en "Mostrar desarrolladores" y "Presentación de complementos"
 
+## Presentación de complementos
+
+Por qué presentar su complemento !
+
+Para evitar trabajar en tu rincón y ver a otro desarrollador salir con lo mismo al final.  
+Para obtener ayuda con el diseño de este.  
+Para permitir que el equipo de Jeedom durante un ToStable sepa para qué sirve su complemento y cómo está codificado.  
+Para compartir sus ideas y comentarios :wink:  
+
+No le pedimos una disertación sobre sus complementos, sino solo información :
+
+- Nombre e identificación> Z-Wave (openzwave) // puede poner esto en el título de su tema.
+- lo que hace tu complemento
+- tipo de lenguajes utilizados
+- ¿Usa un demonio? ? dependencias específicas ? crones ?
+- ¿Tiene un panel dedicado? ?
+- Pagado || gratis ? (si ya tienes una idea)
+- Enlace de GitHub u otro sitio de repositorio (si lo desea))
+- Enlace a la documentación
+A partir de ahí, un moderador asignará una etiqueta a su complemento
+
+También tienes varias etiquetas a tu disposición, para que el equipo de Jeedom te avise más fácilmente :
+
+demonio (si tienes un demonio)  
+dependency_intall (si tiene instalaciones de dependencia)  
+nodejs o python (lenguaje utilizado en su daemon)  
+cron (si usa el motor cron de Jeedom)  
+jsonrpc (si usa la API jsonrpc de Jeedom)  
+idea, beta, estable, privado (dependiendo de cómo sea su complemento)  
+gratis, pagado  
+panel-dash, panel-mob (si tiene un panel en su complemento)  
+
 ## Configuration
 
 Una vez conectado con su cuenta de desarrollador en el mercado, debe :
