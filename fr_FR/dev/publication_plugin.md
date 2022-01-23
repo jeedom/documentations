@@ -8,6 +8,38 @@
 - Avoir mis votre plugin sur github (dépôt privé ou non).
 - Présentez votre plugin dans le "Salon des développeurs" et "Présentation plugin"
 
+## Présentation plugin
+
+Pourquoi présenter son plugin !
+
+Pour éviter de travailler dans son coin et de voir à la fin un autre dev sortir la même chose.  
+Pour obtenir de l’aide sur la conception de celui-ci.  
+Pour permettre à l’équipe Jeedom lors d’un ToStable de connaître à quoi sert votre Plugin et comment il est codé.  
+Pour partager vos idées et vos remarques :wink:  
+
+Nous ne vous demandons pas une dissertation sur vos plugins mais juste des infos :
+
+- Nom et id > Z-Wave (openzwave) // vous pouvez mettre cela en titre de votre sujet.
+- ce que fait votre plugin
+- type de langages utilisés
+- Utilise-t-il un démon ? des dépendances particulières ? des crons ?
+- Possède-t-il un panel dédié ?
+- Payant || gratuit ? (si vous avez déjà une idée)
+- Lien GitHub ou autre site de dépôt (si vous le souhaitez)
+- Lien vers la documentation
+De là un tag sera attribué par un modérateur à votre Plugin
+
+Vous avez aussi plusieurs tag a votre disposition, pour l’équipe Jeedom puisse vous avertir plus facilement :
+
+demon (si vous avez un démon)  
+dependance_intall (si vous avez des installation de dépendance)  
+nodejs ou python (language utilisé dans votre démon)  
+cron (si vous utiliser le moteur cron de Jeedom)  
+jsonrpc (si vous utiliser l’api jsonrpc de Jeedom)  
+idée, beta, stable, prive (selon ou en est votre plugin)  
+gratuit, payant  
+panel-dash, panel-mob (si vous avez un panel dans votre plugin)  
+
 ## Configuration
 
 Une fois connecté avec votre compte dev sur le market il faut :
