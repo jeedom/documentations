@@ -855,7 +855,10 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../de_DE/zwave/images/1109.4.1_ora.zrx.shutter.jpg" width="60" />|Widom|Widom Ora Zrx|Volets|||
+|<img src="../../de_DE/zwave/images/1109.4.2_open.zrx.shutter.jpg" width="60" />|Widom|Öffnen Sie Zrx|Volets|||
 |<img src="../../de_DE/zwave/images/329.18.260_ubs.switch.jpg" width="60" />|Widom|USB Einmalladung|Micromodule|||
+|<img src="../../de_DE/zwave/images/329.4.2_ora.zrx.shutter.jpg" width="60" />|Widom|Widom Ora Zrx|Volets|||
 |<img src="../../de_DE/zwave/images/329.4628.1284_wds.double.switch.jpg" width="60" />|Widom|WDS Doppelte Ladung|Micromodule||[Kaufen](http://www.domadoo.fr/fr/peripheriques/3694-widom-micromodule-commutateur-double-z-wave-8059265060047.html)|
 |<img src="../../de_DE/zwave/images/329.4628.1792_smart.plug.jpg" width="60" />|Widom|WPMS Smart Plug|Prise|||
 |<img src="../../de_DE/zwave/images/329.4628.2048_smart.roller.shutter.jpg" width="60" />|Widom|WPMS Smart Rollladen|Volets|||
@@ -922,4 +925,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-20.01.2022 01:08:12
+2022-01-23 01:08:13

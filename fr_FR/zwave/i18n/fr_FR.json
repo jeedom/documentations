@@ -771,7 +771,9 @@
         "WPMS Smart Roller Shutter": "WPMS Smart Roller Shutter",
         "WPMS Smart Plug": "WPMS Smart Plug",
         "WDS Double charge": "WDS Double charge",
+        "Widom Ora Zrx": "Widom Ora Zrx",
         "USB Single charge": "USB Single charge",
+        "Open Zrx": "Open Zrx",
         "Wenzhou": "Wenzhou",
         "TZ74 Double charge": "TZ74 Double charge",
         "TZ57": "TZ57",
@@ -1331,7 +1333,7 @@
         "Documentation": "Documentation",
         "Logicsoft": "Logicsoft",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2022-01-20 01": "2022-01-20 01"
+        "2022-01-23 01": "2022-01-23 01"
     },
     "zwave\/everspring.AD147-6_-_Miniplug_Dimmer.md": {
         "Everspring Miniplug Dimmer - AD147-6": "Everspring Miniplug Dimmer - AD147-6",
