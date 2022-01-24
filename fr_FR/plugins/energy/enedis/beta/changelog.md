@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 24/01/2022
+
+- Suppression de la commande "Production Puissance Max"
+
 # 05/01/2022
 
 - Correction d'un bug sur la collecte des données le 1er janvier

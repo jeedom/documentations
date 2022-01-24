@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 24/01/2022
+
+- Remoção do comando "Produção máxima de energia""
+
 # 05/01/2022
 
 - Corrigido um bug na coleta de dados em 1º de janeiro

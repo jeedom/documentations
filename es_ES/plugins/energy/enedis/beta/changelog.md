@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
 
+# 24/01/2022
+
+- Eliminación del comando "Máxima producción de energía""
+
 # 05/01/2022
 
 - Se corrigió un error en la recopilación de datos el 1 de enero
