@@ -852,7 +852,8 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
         "Market": "Market",
-        "Changelog": "Changelog"
+        "Changelog": "Changelog",
+        "Beta": "Beta"
     },
     "plugins\/wellness\/index.md": {
         "Thinking Cleaner": "Thinking Cleaner",

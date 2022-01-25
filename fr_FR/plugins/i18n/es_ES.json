@@ -2340,7 +2340,14 @@
         " Changelog]": " Cambios]",
         "[Changelog]": "[Cambios]",
         "*Changelog*": "*Cambios*",
-        " Changelog*": " Cambios*"
+        " Changelog*": " Cambios*",
+        " Beta.": " Beta.",
+        " Beta?": " Beta?",
+        "Beta ": "Beta ",
+        " Beta]": " Beta]",
+        "[Beta]": "[Beta]",
+        "*Beta*": "*Beta*",
+        " Beta*": " Beta*"
     },
     "plugins\/wellness\/index.md": {
         "Thinking Cleaner": "Thinking Cleaner",
