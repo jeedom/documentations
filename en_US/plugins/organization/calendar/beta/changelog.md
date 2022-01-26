@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 01/25/2022
+
+- Fixed a bug that could shift repeated events with a start or end date between 2 a.m. and 3 a.m
+- V4.2 optimizations
+
 # 12/02/2021
 
 - Bugfix
@@ -11,7 +16,7 @@
 
 # 08/11/2021
 
-- Possibility to include / exclude dates according to all the events of a diary 
+- Possibility to include / exclude dates according to all the events of a diary
 
 # 10/21/2021
 

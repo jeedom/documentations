@@ -14,17 +14,16 @@ O equipamento é acessível a partir do menu **Plugins → Organização → Age
 
 Nesta página você encontrará a lista de suas agendas. Clique em uma agenda para acessar a configuração do equipamento correspondente :
 
-- **Nome da agenda** : nome do seu calendário.
-- **Objeto pai** : indica o objeto pai ao qual o equipamento pertence.
-- **Categoria** : categorias de equipamentos *(pode pertencer a várias categorias)*.
-- **Ativar** : permite tornar o equipamento ativo.
-- **Visivél** : permite tornar o equipamento visível no painel.
-
+- **Nome do calendário** : Calendário do nome do equipamento.
+- **Objeto pai** : Indica o objeto pai ao qual o equipamento pertence.
+- **Categoria** : Permite escolher a categoria do equipamento.
+- **Opções** :
+    - **Ativar** : Permite tornar o equipamento ativo.
+    - **Visivél** : Torna o equipamento visível.
 
 - **Ferramenta** :
     - **Número de dias** : definir o número máximo de dias para exibir no widget.
     - **Número de eventos** : definir o número máximo de eventos a serem exibidos no widget.
-
 
 - **Lista de eventos do calendário** : exibe a lista de todos os eventos da agenda *(um clique no nome permite que você edite o evento)*.
 

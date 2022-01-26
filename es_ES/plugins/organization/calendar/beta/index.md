@@ -14,17 +14,16 @@ El equipo es accesible desde el menú **Complementos → Organización → Agend
 
 En esta página encontrará la lista de sus agendas. Haga clic en una agenda para acceder a la configuración del equipo correspondiente :
 
-- **Nombre de la agenda** : nombre de tu calendario.
-- **Objeto padre** : indica el objeto padre al que pertenece el equipo.
-- **Categoría** : categorías de equipos *(puede pertenecer a varias categorías)*.
-- **Activar** : permite activar el equipo.
-- **Visible** : permite hacer visible el equipo en el salpicadero.
-
+- **Nombre del calendario** : Calendario de nombres de equipos.
+- **Objeto padre** : Indica el objeto padre al que pertenece el equipo.
+- **Categoría** : Permite elegir la categoría del equipo.
+- **Opciones** :
+    - **Activar** : Permite activar el equipo.
+    - **Visible** : Hace que el equipo sea visible.
 
 - **Widget** :
     - **Número de días** : establecer el número máximo de días que se mostrarán en el widget.
     - **Numero de eventos** : establecer el número máximo de eventos que se mostrarán en el widget.
-
 
 - **Lista de eventos del calendario** : muestra la lista de todos los eventos del calendario *(un clic en el nombre le permite editar el evento)*.
 

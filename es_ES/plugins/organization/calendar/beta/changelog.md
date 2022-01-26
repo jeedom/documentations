@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 25/01/2022
+
+- Se corrigió un error que podía cambiar los eventos repetidos con una fecha de inicio o finalización entre las 2 a. m. y las 3 a. m
+- Optimizaciones V4.2
+
 # 02/12/2021
 
 - Correcciones de errores
@@ -11,7 +16,7 @@
 
 # 08/11/2021
 
-- Posibilidad de incluir / excluir fechas según todos los eventos de un diario 
+- Posibilidad de incluir / excluir fechas según todos los eventos de un diario
 
 # 21/10/2021
 

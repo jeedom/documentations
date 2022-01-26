@@ -14,17 +14,16 @@ Die Ausrüstung ist über das Menü zugänglich **Plugins → Organisation → A
 
 Auf dieser Seite finden Sie die Liste Ihrer Agendas. Klicken Sie auf eine Agenda, um auf die Konfiguration der entsprechenden Geräte zuzugreifen :
 
-- **Name der Agenda** : Name Ihres Kalenders.
+- **Kalendername** : Gerätenamen-Kalender.
 - **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört.
-- **Kategorie** : Ausstattungskategorien *(kann mehreren Kategorien angehören)*.
-- **Aktivieren** : ermöglicht es, das Gerät aktiv zu machen.
-- **Sichtbar** : ermöglicht es, die Ausrüstung auf dem Armaturenbrett sichtbar zu machen.
-
+- **Kategorie** : Ermöglicht die Auswahl der Gerätekategorie.
+- **Optionen** :
+    - **Aktivieren** : Ermöglicht es, das Gerät aktiv zu machen.
+    - **Sichtbar** : Macht Ausrüstung sichtbar.
 
 - **Widget** :
     - **Anzahl der Tage** : Legen Sie die maximale Anzahl von Tagen fest, die auf dem Widget angezeigt werden sollen.
     - **Anzahl der Veranstaltungen** : Legen Sie die maximale Anzahl von Ereignissen fest, die auf dem Widget angezeigt werden sollen.
-
 
 - **Liste der Kalenderereignisse** : zeigt die Liste aller Kalenderereignisse an *(ein Klick auf den Namen ermöglicht es Ihnen, das Ereignis zu bearbeiten)*.
 

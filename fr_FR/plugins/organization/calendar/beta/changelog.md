@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 25/01/2022
+
+- Correction d'un bug pouvant décaler les évènements répétés avec une date de début ou de fin entre 2h et 3h du matin
+- Optimisations V4.2
+
 # 02/12/2021
 
 - Correction de bugs
@@ -11,7 +16,7 @@
 
 # 08/11/2021
 
-- Possibilité d'inclure/exclure des dates en fonction de l'ensemble des évènements d'un agenda 
+- Possibilité d'inclure/exclure des dates en fonction de l'ensemble des évènements d'un agenda
 
 # 21/10/2021
 

@@ -14,17 +14,16 @@ Les équipements sont accessibles à partir du menu **Plugins → Organisation �
 
 Sur cette page vous retrouvez la liste de vos Agendas. Cliquez sur un agenda pour accéder à la configuration de l'équipement correspondant :
 
-- **Nom de l'agenda** : nom de votre agenda.
-- **Objet parent** : indique l’objet parent auquel appartient l’équipement.
-- **Catégorie** : les catégories de l’équipement *(peut appartenir à plusieurs catégories)*.
-- **Activer** : permet de rendre l'équipement actif.
-- **Visible** : permet de rendre l'équipement visible sur le dashboard.
-
+- **Nom de agenda** : Nom de l'équipement Agenda.
+- **Objet parent** : Indique l’objet parent auquel appartient l’équipement.
+- **Catégorie** : Permet de choisir la catégorie de l'équipement.
+- **Options** :
+    - **Activer** : Permet de rendre l'équipement actif.
+    - **Visible** : Rend l'équipement visible.
 
 - **Widget** :
     - **Nombre de jours** : défini le nombre de jours maximum à afficher sur le widget.
     - **Nombre d’évènements** : défini le nombre d’évènements maximum à afficher sur le widget.
-
 
 - **Liste des évènements de l’agenda** : affiche la liste de tous les évènements de l’agenda *(un clic sur le nom permet d’éditer l’évènement)*.
 

@@ -4,6 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 25/01/2022
+
+- Corrigido um bug que poderia mudar eventos repetidos com uma data de início ou término entre 2h e 3h
+- Otimizações da V4.2
+
 # 02/12/2021
 
 - Correções de bugs
@@ -11,7 +16,7 @@
 
 # 11/08/2021
 
-- Possibilidade de incluir / excluir datas de acordo com todos os eventos de um diário 
+- Possibilidade de incluir / excluir datas de acordo com todos os eventos de um diário
 
 # 21/10/2021
 

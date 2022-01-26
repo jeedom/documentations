@@ -14,17 +14,16 @@ The equipment is accessible from the menu **Plugins → Organization → Agenda*
 
 On this page you will find the list of your Agendas. Click on an agenda to access the configuration of the corresponding equipment :
 
-- **Agenda name** : name of your calendar.
-- **Parent object** : indicates the parent object to which the equipment belongs.
-- **Category** : equipment categories *(can belong to several categories)*.
-- **Activate** : allows to make the equipment active.
-- **Visible** : allows to make the equipment visible on the dashboard.
-
+- **Calendar name** : Equipment Name Calendar.
+- **Parent object** : Indicates the parent object to which the equipment belongs.
+- **Category** : Allows you to choose the category of the equipment.
+- **Options** :
+    - **Activate** : Allows to make the equipment active.
+    - **Visible** : Makes equipment visible.
 
 - **Widget** :
     - **Number of days** : set the maximum number of days to display on the widget.
     - **Number of events** : set the maximum number of events to display on the widget.
-
 
 - **List of calendar events** : displays the list of all calendar events *(a click on the name allows you to edit the event)*.
 

@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 25.01.2022
+
+- Es wurde ein Fehler behoben, der wiederholte Ereignisse mit einem Start- oder Enddatum zwischen 2 und 3 Uhr morgens verschieben konnte
+- V4.2-Optimierungen
+
 # 12.02.2021
 
 - Fehlerbehebungen
@@ -11,7 +16,7 @@
 
 # 08.11.2021
 
-- Möglichkeit, Daten gemäß allen Ereignissen eines Tagebuchs ein- / auszuschließen 
+- Möglichkeit, Daten gemäß allen Ereignissen eines Tagebuchs ein- / auszuschließen
 
 # 21.10.2021
 
