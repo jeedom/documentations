@@ -12,6 +12,9 @@
 >
 >To take advantage of the latest module integration, don't hesitate to update the dependencies
 
+- Implementation of an automatic order generation system if no configuration exists (as far as possible)
+- Possibility of having the current json configuration of the module (will allow you to integrate the modules more quickly)
+
 # 01/21/2022
 
 - Bugfix
