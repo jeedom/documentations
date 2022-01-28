@@ -322,3 +322,6 @@ If for a given daemon (1, 2 or 3) you change the Zigbee key without restoring a 
 >
 >It is common in zigbee mode the module sends the value one during an action (movement, opening, pressing the button) but does not return 0 when it is finished (end of movement for example). You can set up a status return to 0 after 1min (for example) in the configuration of the equipment command tab then on the command line in question.
 
+>**I don't have as many commands as buttons on my remote**
+>
+>On my remote control I have for example 2 buttons but in the list of Jeedom commands I only have 1 command !!! It's normal the command in jeedom takes a different value depending on the physical button pressed. The easiest way to see it is to go to "Advanced configuration" (top right) then "Logs" (top right too) and press the buttons on the remote control to see the different values of the commands.

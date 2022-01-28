@@ -322,3 +322,6 @@ Wenn Sie für einen bestimmten Daemon (1, 2 oder 3) den Zigbee-Schlüssel änder
 >
 >Im Zigbee-Modus ist es üblich, dass das Modul während einer Aktion (Bewegung, Öffnen, Drücken der Taste) den Wert Eins sendet, aber keine 0 zurückgibt, wenn sie beendet ist (zum Beispiel Ende der Bewegung)). Sie können eine Statusrückkehr auf 0 nach 1 Minute (zum Beispiel) in der Konfiguration des Gerätebefehlsregisters und dann in der betreffenden Befehlszeile einrichten.
 
+>**Ich habe nicht so viele Befehle wie Tasten auf meiner Fernbedienung**
+>
+>Auf meiner Fernbedienung habe ich zum Beispiel 2 Tasten, aber in der Liste der Jeedom-Befehle habe ich nur 1 Befehl !!! Es ist normal, dass der Befehl in Jeedom je nach gedrückter physischer Taste einen anderen Wert annimmt. Am einfachsten ist es, zu „Erweiterte Konfiguration“ (oben rechts) und dann zu „Protokolle“ (auch oben rechts) zu gehen und die Tasten auf der Fernbedienung zu drücken, um die verschiedenen Werte der Befehle anzuzeigen.

@@ -322,3 +322,6 @@ Si pour un démon donné (1,2 ou 3) vous changer la clef Zigbee sans restaurer u
 >
 >C'est courant en zigbee le module envoi la valeur un lors d'une action (mouvement,ouverture,appui sur le bouton) mais ne renvoi pas 0 quand c'est fini (fin de mouvement par exemple). Vous pouvez mettre en place un retour d'état à 0 après 1min (par exemple) dans la configuration de l'équipement onglet commande puis sur la ligne de la commande en question.
 
+>**J'ai pas autant de commande que de bouton sur ma télécommande**
+>
+>Sur ma télécommande j'ai par exemple 2 boutons mais dans la liste des commandes Jeedom j'ai que 1 commande !!! C'est normal la commande dans jeedom prends une valeur differente en fonction du bouton physique appuyé. Le plus simple pour le voir et d'aller dans "Configuration avancée" (en haut a droite) puis "Logs" (en haut a droite aussi) et d'appuyer sur les boutons de la télécommandes pour voir les differentes valeurs des commandes.

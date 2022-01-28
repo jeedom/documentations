@@ -322,3 +322,6 @@ Se para um determinado daemon (1, 2 ou 3) você alterar a chave Zigbee sem resta
 >
 >É comum no modo zigbee o módulo enviar o valor um durante uma ação (movimento, abrir, pressionar o botão) mas não retornar 0 quando terminar (fim do movimento por exemplo). Você pode configurar um retorno de status para 0 após 1min (por exemplo) na configuração da guia de comando do equipamento e, em seguida, na linha de comando em questão.
 
+>**Não tenho tantos comandos quanto botões no meu controle remoto**
+>
+>No meu controlo remoto tenho por exemplo 2 botões mas na lista de comandos Jeedom só tenho 1 comando !!! É normal que o comando em jeedom tenha um valor diferente dependendo do botão físico pressionado. A maneira mais fácil de ver é ir em "Configuração avançada" (canto superior direito) depois em "Logs" (canto superior direito também) e pressionar os botões no controle remoto para ver os diferentes valores dos comandos.

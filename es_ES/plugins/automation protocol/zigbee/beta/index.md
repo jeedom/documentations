@@ -322,3 +322,6 @@ Si para un daemon dado (1, 2 o 3) cambia la clave Zigbee sin restaurar una copia
 >
 >Es común que en el modo zigbee el módulo envíe el valor uno durante una acción (movimiento, apertura, presionar el botón) pero no devuelve 0 cuando finaliza (fin de movimiento por ejemplo). Puede configurar un retorno de estado a 0 después de 1 minuto (por ejemplo) en la configuración de la pestaña de comando del equipo y luego en la línea de comando en cuestión.
 
+>**No tengo tantos comandos como botones en mi control remoto**
+>
+>En mi control remoto tengo por ejemplo 2 botones pero en la lista de comandos de Jeedom solo tengo 1 comando !!! Es normal que el comando en jeedom tome un valor diferente dependiendo del botón físico presionado. La forma más fácil de verlo es ir a "Configuración avanzada" (arriba a la derecha) luego a "Registros" (arriba a la derecha también) y presionar los botones en el control remoto para ver los diferentes valores de los comandos.

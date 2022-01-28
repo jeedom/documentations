@@ -13,7 +13,7 @@ Avant de débuter, assurons-nous d'utiliser les mêmes termes :
 
 >**INFORMATION**
 >
->Pour une meilleure lecture et compréhension de cete documentation, Les captures d’écran sur fond blanc correspondent au **Jeedom source** et celles avec un fond noir au **Jeedom cible**.
+>Pour une meilleure lecture et compréhension de cette documentation, Les captures d’écran sur fond blanc correspondent au **Jeedom source** et celles avec un fond noir au **Jeedom cible**.
 
 # Configuration
 
