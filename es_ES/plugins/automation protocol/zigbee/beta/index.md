@@ -2,7 +2,7 @@
 
 **El complemento Zigbee para Jeedom** se basa en el excelente trabajo realizado en torno a **la biblioteca Zigpy de código abierto** para ofrecer un **compatibilidad general con diferentes hardware Zigbee**. Permite la comunicación con los siguientes controladores Zigbee :
 
--	**Deconz** : Probado y validado por el equipo de Jeedom. *(No es necesario instalar la aplicación deCONZ)*
+-	**deCONZ (clave Conbee/Conbee 2/Raspbee/Raspbee 2)** : Probado y validado por el equipo de Jeedom. *(No es necesario instalar la aplicación deCONZ)*
 -	**EZSP (laboratorios de silicio)** : Probado, validado y recomendado por el equipo de Jeedom.
 -	**XBee** : No probado por el equipo de Jeedom.
 -	**Zigate** : No probado por el equipo.
@@ -86,6 +86,8 @@ Una vez incluido, se supone que Jeedom reconoce automáticamente el módulo y cr
 >**Importante**
 >
 >Debido a un error en algún firmware *(Ikea, Sonoff, etc)*, a veces es necesario elegir el tipo de módulo directamente de la lista **Dispositivos** luego guarde para que los pedidos se creen correctamente.
+
+En las acciones (arriba a la derecha) puedes activar **Comandos de autodescubrimiento de información**, una vez activado, jeedom creará automáticamente un pedido para cualquier información reportada por el módulo durante 3 minutos. Permite, por ejemplo, en un control remoto que Jeedom aún no reconoce, crear automáticamente los comandos de información correspondientes a la presión de los botones (que se realizarán durante los 3 minutos, por lo tanto)
 
 Como de costumbre, puede darle un nombre a su equipo, ingresar una categoría o un objeto principal y activarlo o hacerlo visible.
 

@@ -2,7 +2,7 @@
 
 **The Zigbee plugin for Jeedom** builds on the excellent work done around **the open-source Zigpy library** to offer a **general compatibility with different Zigbee hardware**. It allows communication with the following Zigbee controllers :
 
--	**Deconz** : Tested and validated by the Jeedom team. *(It is not necessary to install the deCONZ application)*
+-	**deCONZ (Conbee key/Conbee 2/Raspbee/Raspbee 2)** : Tested and validated by the Jeedom team. *(It is not necessary to install the deCONZ application)*
 -	**EZSP (Silicon Labs)** : Tested, validated and recommended by the Jeedom team.
 -	**XBee** : Not tested by the Jeedom team.
 -	**Zigate** : Not tested by the team.
@@ -86,6 +86,8 @@ Once included, Jeedom is supposed to automatically recognize the module and crea
 >**Important**
 >
 >Due to a bug in some firmware *(Ikea, Sonoff, etc)*, it is sometimes necessary to choose the type of module directly from the list **Equipment** then save so that the orders are created correctly.
+
+On the actions (top right) you can activate **Auto-discovery of information commands**, once activated jeedom will automatically create an order for any information reported by the module for 3min. It allows for example on a remote control which is not yet recognized by Jeedom to automatically create the information commands corresponding to the pressing of the buttons (to be done during the 3min therefore)
 
 As usual, you can give your equipment a name, enter a category or a parent object and activate or make it visible.
 

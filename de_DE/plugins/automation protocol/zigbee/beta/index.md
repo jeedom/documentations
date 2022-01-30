@@ -2,7 +2,7 @@
 
 **Das ZigBee-Plugin für Jeedom** baut auf der hervorragenden Arbeit auf **die Open-Source-Zigpy-Bibliothek** ein anbieten **Allgemeine Kompatibilität mit verschiedenen ZigBee-Hardware**. Es ermöglicht die Kommunikation mit den folgenden ZigBee-Controllern :
 
--	**Deconz** : Vom Jeedom-Team getestet und validiert. *(Es ist nicht erforderlich, die deCONZ-Anwendung zu installieren)*
+-	**deCONZ (Conbee-Schlüssel/Conbee 2/Raspbee/Raspbee 2)** : Vom Jeedom-Team getestet und validiert. *(Es ist nicht erforderlich, die deCONZ-Anwendung zu installieren)*
 -	**EZSP (Silicon Labs)** : Vom Jeedom-Team getestet, validiert und empfohlen.
 -	**XBee** : Nicht vom Jeedom-Team getestet.
 -	**Zigate** : Nicht vom Team getestet.
@@ -86,6 +86,8 @@ Nach der Aufnahme soll Jeedom das Modul automatisch erkennen und die entsprechen
 >**Wichtig**
 >
 >Aufgrund eines Fehlers in einer Firmware *(Ikea, Sonoff, etc)*, Manchmal muss der Modultyp direkt aus der Liste ausgewählt werden **Gerät** Speichern Sie dann, damit die Bestellungen korrekt erstellt werden.
+
+Auf den Aktionen (oben rechts) können Sie aktivieren **Automatische Erkennung von Informationsbefehlen**, Nach der Aktivierung erstellt Jeedom automatisch eine Bestellung für alle Informationen, die vom Modul für 3 Minuten gemeldet werden. Es ermöglicht zum Beispiel auf einer Fernbedienung, die noch nicht von Jeedom erkannt wird, automatisch die Informationsbefehle zu erstellen, die dem Drücken der Tasten entsprechen (muss also während der 3 Minuten ausgeführt werden)
 
 Wie gewohnt können Sie Ihrem Gerät einen Namen geben, eine Kategorie oder ein übergeordnetes Objekt eingeben und es aktivieren oder sichtbar machen.
 

@@ -13,6 +13,7 @@
 >Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
 
 - Implementierung einer automatischen Auftragsgenerierung falls keine Konfiguration vorhanden ist (soweit möglich)
+- Implementierung eines automatischen Erkennungssystems für Informationstypaufträge
 - Möglichkeit, die aktuelle json-Konfiguration des Moduls zu haben (ermöglicht Ihnen, die Module schneller zu integrieren)
 
 # 21.01.2022
