@@ -1,96 +1,101 @@
-# Jeelink Plugin 
+# Jeedom Link-Plugin
 
-Plugin zum Verknüpfen von 2 Jeedoms
-
-# Funktionsprinzip 
-
-Das Plugin *Jeedom Link* (auch Jeelink genannt) ermöglicht den Aufstieg einer oder mehrerer Geräte von einem Jeedom zum anderen.
+Das Plugin **Jeedom Link** *(auch Jeelink genannt)* ermöglicht das Hochladen von Geräten von einer oder mehreren „Quell“-Jeedom-Installationen zu einem (oder mehreren) „Ziel“-Jeedom".
 
 ![jeelink1](./images/jeelink1.png)
 
-> **Wichtig**
+Das Plugin muss auf jedem Jeedom installiert werden, egal ob Quelle oder Ziel.
+
+Bevor wir beginnen, stellen wir sicher, dass wir die gleichen Begriffe verwenden :
+- **Jeedom Source** : Jeedom Server, auf dem die Ausrüstung wieder zusammengebaut werden soll **Jeedom Ziel**.
+- **Jeedom Ziel** : Jeedom-Server, der die von einem oder mehreren bereitgestellten Geräte empfängt und zentralisiert **Jeedoms-Quellen**.
+- **Zuordnung** : Konfiguration auf der Ebene der vorgenommen **Jeedom Source** um die Ausrüstung auszuwählen, die in die hochgeladen werden soll **Jeedom Ziel**.
+
+>**INFORMATION**
 >
-> Das Plugin muss auf allen Jeedoms, Source und Target installiert sein.
+>Zum besseren Lesen und Verständnis dieser Dokumentation entsprechen die Screenshots auf weißem Hintergrund der **Jeedom Source** und solche mit schwarzem Hintergrund **Jeedom Ziel**.
 
-> **Spitze**
+# Configuration
+
+## Plugin Konfiguration
+
+Dieses Plugin erfordert keine spezielle Konfiguration und muss nach der Installation einfach aktiviert werden.
+
+>**Wichtig**
 >
-> Für ein gutes Verständnis ist es wichtig, die folgenden Begriffe zu verstehen : **Jeedom Source** : Jeedom Server, auf dem die Ausrüstung wieder zusammengebaut werden soll **Jeedom Ziel** **Jeedom Ziel** : Jeedom-Server, der die von der) **Jeedom (s) Quelle (n))** Die **Jeedom Ziel** Zentralisieren Sie dieses Gerät und das von allen) **Jeedom (s) Quelle (n))** konfiguriert).**Zuordnung** : Konfiguration durchgeführt am **Jeedom Source** um die Ausrüstung einzuschließen, die auf dem wieder zusammengebaut wird **Jeedom Ziel**
+>Die Netzwerkkonfigurationen aller Jeedoms *(Quellenziel)* MUSS in Ordnung sein, sonst funktioniert das Plugin nicht.
 
-> **Notiz**
->
-> Zum besseren Lesen und Verstehen dieses Tutorials : Die Screenshots auf schwarzem Hintergrund entsprechen dem **Jeedom Ziel**.Die Screenshots auf weißem Hintergrund entsprechen **Jeedom Source**.\.
+## Target Jeedom-Konfiguration
 
-# Plugin Konfiguration 
+Der erste Schritt besteht darin, a zu definieren **Jeedom Ziel** seit **Jeedom Source** *(derjenige, der die Ausrüstung hält, die wieder zusammengebaut werden soll)*.
 
-Nach der Installation müssen Sie nur das Plugin aktivieren. Dies erfordert keine spezielle Konfiguration.
+Gehen Sie dazu in das Menü **Plugins → Kommunikation → Jeedom Link** Klicken Sie dann auf die grüne Schaltfläche **Ziel Jeedoms**.
 
-# Konfiguration der Ziel-Jeedome 
+Es öffnet sich ein Fenster, in dem Sie hinzufügen oder ändern können **Jeedom (s) Ziel (e))**. Hinzufügen eines **Jeedom Ziel**, einfach ausfüllen :
 
-Von **Jeedom Source**, Sobald Sie auf der Plugin-Seite sind (über Plugins-Verwaltung → Kommunikation → Jeedom-Link), müssen Sie nur noch auf "Konfigurieren der Ziel-Jeedoms" klicken".
-
-Ein Fenster wird angezeigt und von dort aus können Sie konfigurieren oder hinzufügen **Jeedom (s) Ziel (e))**.
-
-Hinzufügen eines **Jeedom Ziel**, gib einfach :
-
--   Der Name von **Jeedom Ziel**.
--   Die IP-Adresse oder der DNS-Name des **Jeedom Ziel**.
--   Der API-Schlüssel von **Jeedom Ziel**.
--   Geben Sie an, ob die Kommunikation intern oder extern ist (wird für Feedback verwendet, von **Jeedom Source** in Richtung **Jeedom Ziel**). Und speichern Sie die Konfiguration.
+- Der Name von **Jeedom Ziel**.
+- Die IP-Adresse oder der DNS-Name, an den die **Jeedom Ziel** kann erreicht werden.
+- Der **API-Schlüssel des Jeedom Link-Plugins** die **Jeedom Ziel**.
+- Der Zugriffsmodus, intern oder extern (verwendet für Feedback von der **Jeedom Source** in Richtung **Jeedom Ziel**).
 
 ![jeelink2](./images/jeelink2.png)
 
-> **Wichtig**
+>**TRICK**
 >
-> Du musst **ABSOLUT** dass die Netzwerkkonfigurationen aller Jeedoms (Quelle und Ziel) in Ordnung sind, sonst funktioniert das Plugin nicht.
+>Sie finden die **Jeedom-Link-API-Schlüssel**, anlagenspezifisch im Menü **Einstellungen → System → Konfiguration → SPS**.
 
-# Ausrüstungszuordnung 
+### Ausrüstungszuordnung
 
-Nach der Konfiguration der **Jeedom Ziel** Auf deine **Jeedom Source**, Sie müssen zur Registerkarte gehen *Zuordnung* um die Ausrüstung anzugeben, an die übertragen werden soll **Jeedom Ziel**. Alle Gerätebestellungen werden automatisch auf dem erstellt und konfiguriert **Jeedom Ziel**.
-
-In der Registerkarte *Zuordnung*, Fügen Sie die Ausrüstung hinzu, zu der Sie zurückkehren möchten **Jeedom Ziel**.
+Nach der Konfiguration der **Jeedom Ziel** auf der **Jeedom Source**, Sie müssen zur Registerkarte gehen **Zuordnung** um die zu übertragenden Geräte auszuwählen **Jeedom Ziel**. Alle Befehle für jedes Gerät werden automatisch auf dem erstellt und konfiguriert **Jeedom Ziel**.
 
 ![jeelink3](./images/jeelink3.png)
 
-Klicken Sie auf *Ausrüstung hinzufügen* Wählen Sie das Objekt und die Ausrüstung aus, die hinzugefügt werden sollen :
+Fügen Sie die Ausrüstung hinzu, die Sie hochladen möchten **Jeedom Ziel** anklicken **Ausrüstung hinzufügen** Wählen Sie dann das Objekt und die Ausrüstung aus :
 
 ![jeelink5](./images/jeelink5.png)
 
-> **Spitze**
+>**INFORMATION**
 >
-> Achtung : Plugins mit einem bestimmten Widget haben es nicht auf dem **Jeedom Ziel** (Kamera, Netzwerk-Plugin…).
+>Plugins, die ein bestimmtes Widget verwenden, finden es nicht auf der **Jeedom Ziel** *(Plugin Kamera, Netzwerke, etc…​)*.
 
-> **Wichtig**
+>**Wichtig**
 >
-> Das Löschen des Gerätes auf der Konfigurationsseite des **Ziel Jeedoms** löscht es nicht automatisch auf dem **Jeedom Source**, Dies ist freiwillig und kein Fehler (es ist eine Sicherheit).
+>Als Sicherheitsmaßnahme das Löschen eines Geräts, das a zugewiesen ist **Jeedom Ziel** seit einem **Jeedom Source** löschen Sie es nicht auf der **Jeedom Ziel**.
 
-# "Meine Jeelinks" Ausrüstung" 
+Es bleibt nur zu **Zu schützen** für die herzustellende Verbindung und das ausgewählte Gerät, das von der übertragen werden soll **Jeedom Source** zu **Jeedom Ziel**.
 
-Nach dem Aktualisieren der Seite *Meine Jeelinks* die **Jeedom Ziel**, Sie sollten die automatische Erstellung der Ausrüstung sehen :
+## Gerätekonfiguration
+
+Kommen wir nun zum Menü **Plugins → Kommunikation → Jeedom Link** die **Jeedom Ziel** um die automatische Erstellung der zuvor ausgewählten Ausrüstung zu sehen :
 
 ![jeelink4](./images/jeelink4.png)
 
-Wie bei allen Jeedom-Geräten können Sie das Gerät, seine Steuerelemente usw. aktivieren / deaktivieren und anzeigen oder nicht oder die Kategorie ändern. Aber auch
+Wie bei jedem Jeedom-Gerät greifen Sie auf die Konfigurationsseite zu, indem Sie darauf klicken :
 
 ![jeelink6](./images/jeelink6.png)
 
-In der Registerkarte *Befehle*, Sie greifen auf alle Parameter der Gerätesteuerung zu :
+In der Registerkarte **Befehle**, Sie greifen auf alle Parameter der Gerätesteuerung zu :
 
 ![jeelink7](./images/jeelink7.png)
 
-# Ändern der Jeedom-Quelle eines JeeLink 
-
-Mit den folgenden 3 Parametern können Sie die Jeedom-Quelle ändern, beispielsweise wenn Sie ein Jeedom ersetzen, ohne Daten zu verlieren (z. B. Verlauf)). Dazu müssen Sie nur die neue Adresse und den neuen API-Schlüssel der Jeedom-Quelle eingeben und die Kennungen der Geräte und Befehle ändern (Sie finden sie in der erweiterten Konfiguration dieser, indem Sie auf das Zahnrad klicken).
-
--   Jeedom Quelladresse;
--   Jeedom Source API-Schlüssel;
--   Quellausrüstung und Bestell-IDs.
-
-# Migration im alten Slave-Modus
-
-Ein Tutorial ist verfügbar, [hier](https://jeedom.github.io/documentation/howto/de_DE/jeelink.migration.html) Festlegen der Vorgehensweise zum Migrieren eines Jeedom Slave in den neuen Jeedom Link-Betriebsmodus.
-
-# Faq 
-
->**Beim Löschen von Geräten auf dem Quell-Jeedom werden diese nicht aus dem Ziel-Jeedom gelöscht**
+>**Wichtig**
 >
->Dies ist normalerweise die Quell- / Zielsynchronisation, die nur zum Erstellen und niemals zum Löschen führt
+>Bezüglich der betroffenen Geräte auf a **Jeedom Source**, Löschen eines Betriebsmittels auf a **Jeedom Ziel** löschen Sie es nicht auf der **Jeedom Source**.
+
+### Ändern der Jeedom-Quelle
+
+Die folgenden 3 Parameter werden verwendet, um a zu ersetzen **Jeedom Source** ohne Datenverlust *(Geschichte zum Beispiel)* :
+
+-   **Quelle Jeedom-Adresse**
+-   **Jeedom Link-Quell-API-Schlüssel**
+-   **Quellgeräte-ID** und **Quell-ID** einige Befehle.
+
+Geben Sie dazu einfach die neue Adresse und den neuen Jeedom-Link-API-Schlüssel der Quelle Jeedom ein und ändern Sie die Kennungen der Geräte und Befehle.
+
+# FAQ
+
+>**Ich habe Fehler :** "Sie sind nicht berechtigt, diese Aktion auszuführen"
+>
+>Stellen Sie sicher, dass **Jeedom Link-API-Schlüssel** gut informiert sein :
+>- Der **Jeedom-Link-API-Schlüssel** die **Jeedom Source** auf jedem Jeelink-Gerät der **Jeedom Ziel**.
+>- Der **Jeedom-Link-API-Schlüssel** die **Jeedom Ziel** auf der Konfigurationsseite **Ziel Jeedoms** die **Jeedom Source**.

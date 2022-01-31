@@ -4,14 +4,23 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 26/01/2022
+
+- Otimizações V4.2 (obrigado @JAG)
+- Revisão da documentação
+
 # 10/09/2021
 
 - Correção para suporte Jeedom 4.2
+>**EM FORMAÇÃO**
+>
+>Após esta atualização, será necessário preencher o **chave de API do Jeedom Link de destino** nos Jeedoms de origem e reconfigure o equipamento Jeelink de destino com o **Chave da API de origem do Jeedom Link** *(ver documentos)*.
+
 - Adição da informação do número da mensagem no jeedom de destino
 
 # 07/04/2019
 
-- Correção de um bug na atualização de atualização
+- Corrigido um bug no upload de atualizações
 
 # 03/03/2019
 
@@ -19,15 +28,15 @@
 
 # 14/05/2019
 
-- Gerenciamento aprimorado de pedidos com o mesmo nome no mesmo equipamento (erro de entrada duplicada....)
+- Melhor gerenciamento de pedidos com o mesmo nome no mesmo equipamento *(Erro de entrada duplicada...)*
 
 # 13/03/2019
 
-- Adição do tipo de equipamento real (pode ser usado pelo aplicativo móvel)
+- Adicionado tipo de equipamento real *(pode ser usado pelo aplicativo móvel)*
 
 # 30/07/2018
 
-- Adicionando uma chave de API dedicada (deve ser usada no Jeedom 3.3)
+- Adicionando uma chave de API dedicada *(deve ser usado no Jeedom 3.3)*
 
 # 07/05/2018
 

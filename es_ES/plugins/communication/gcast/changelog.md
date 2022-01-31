@@ -4,9 +4,22 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Revisión importante del complemento 
+- Cambiar de Python a PHP (más rápido)
 
+>**Importante**
+>
+>Atención, ciertos comandos se eliminan y otros se agregan, luego de la actualización es ABSOLUTAMENTE necesario verificar sus escenarios y otros que usan comandos del complemento
 
-Gracias @Caelion por todas las siguientes mejoras : 
+# 09/06/2021
+
+- Se solucionó un problema con la repetición de comandos
+
+# 18/10/2020
+
+- Se corrigió un error en las dependencias
+
+Gracias @Caelion por todas las siguientes mejoras :
 
 - creación de una función de estado : que dice si hay una llamada en curso con Jeedom (TTS)
 - agregar un comando de actualización

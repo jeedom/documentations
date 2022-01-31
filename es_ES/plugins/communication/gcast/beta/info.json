@@ -14,8 +14,8 @@
         "tr": "Plugin permettant de faire parler un device CAST. Il permet aussi de régler le volume. En usage combiné avec un Google home il permet de faire le pont avec les interactions et d'avoir un retour vocal, il permet aussi d'utiliser la fonction ask"
     },
     "licence": "AGPL",
-    "author": "Ludovic SARAKHA",
-    "require": "3.0",
+    "author": "Jeedom SAS",
+    "require": "4.2",
     "category": "communication",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/gcast\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/gcast\/",

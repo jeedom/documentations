@@ -4,9 +4,22 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Grande revisão do plugin 
+- Mudar de Python para PHP (mais rápido)
 
+>**IMPORTANTE**
+>
+>Atenção certos comandos são deletados e outros são adicionados, seguindo a atualização é ABSOLUTAMENTE necessário verificar seus cenários e outros que utilizam comandos do plugin
 
-Obrigado @Caelion por todas as seguintes melhorias : 
+# 09/06/2021
+
+- Corrigido um problema com a repetição de comandos
+
+# 18/10/2020
+
+- Corrigido um bug nas dependências
+
+Obrigado @Caelion por todas as seguintes melhorias :
 
 - criação de uma função de status : que indica se uma chamada está em andamento com o Jeedom (TTS)
 - adicionando um comando de atualização

@@ -4,9 +4,22 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Grundlegende Überarbeitung des Plugins 
+- Wechsel von Python zu PHP (schneller)
 
+>**Wichtig**
+>
+>Achtung, bestimmte Befehle werden gelöscht und andere hinzugefügt. Nach dem Update ist es ABSOLUT erforderlich, Ihre Szenarien zu überprüfen und andere, die Befehle aus dem Plugin verwenden
 
-Vielen Dank an @Caelion für alle folgenden Verbesserungen : 
+# 09.06.2021
+
+- Ein Problem mit der Wiederholung von Befehlen wurde behoben
+
+# 18.10.2020
+
+- Ein Fehler bei Abhängigkeiten wurde behoben
+
+Vielen Dank an @Caelion für alle folgenden Verbesserungen :
 
 - Erstellung einer Statusfunktion : das heißt, wenn ein Anruf mit Jeedom (TTS) läuft)
 - Hinzufügen eines Aktualisierungsbefehls

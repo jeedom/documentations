@@ -1,96 +1,101 @@
-# Jeelink plugin 
+# Jeedom Link plugin
 
-Plugin used to link 2 Jeedoms
-
-# Principle of operation 
-
-The plugin *Jeedom Link* (also called jeelink) allows the ascent of one or more equipment (s) from one Jeedom to another.
+The plugin **Jeedom Link** *(also called Jeelink)* allows equipment to be uploaded from one or more "source" Jeedom installations to one (or more) "target" Jeedom".
 
 ![jeelink1](./images/jeelink1.png)
 
-> **Important**
+The plugin must be installed on each Jeedom, whether source or target.
+
+Before we start, let's make sure we use the same terms :
+- **Jeedom Source** : Jeedom server on which the equipment to be reassembled on the **Jeedom Target**.
+- **Jeedom Target** : Jeedom server which will receive and centralize the equipment brought up by one or more **Jeedoms sources**.
+- **Assignment** : configuration made at the level of the **Jeedom Source** to select the equipment to be uploaded to the **Jeedom Target**.
+
+>**INFORMATION**
 >
-> The plugin must be installed on all Jeedoms, Source and Target.
+>For a better reading and understanding of this documentation, the screenshots on a white background correspond to the **Jeedom Source** and those with a black background **Jeedom Target**.
 
-> **Tip**
+# Configuration
+
+## Plugin configuration
+
+This plugin does not require any special configuration and simply needs to be activated after installation.
+
+>**Important**
 >
-> For a good understanding, it is important to understand the following few terms : **Jeedom Source** : Jeedom server on which the equipment to be reassembled on the **Jeedom Target** **Jeedom Target** : Jeedom server which will receive the equipment reassembled by the) **Jeedom (s) Source (s))** The **Jeedom Target** centralize this equipment and that of all) **Jeedom (s) Source (s))** configured).**Assignment** : configuration performed on the **Jeedom Source** to include the equipment that will be reassembled on the **Jeedom Target**
+>The network configurations of all Jeedoms *(source & target)* MUST be OK otherwise the plugin will not work.
 
-> **NOTE**
->
-> For a better reading and understanding of this tutorial : The screenshots on a black background correspond to the **Jeedom Target**.The screenshots on a white background correspond to **Jeedom Source**.\
+## Target Jeedom configuration
 
-# Plugin configuration 
+The first step will be to define a **Jeedom Target** since **Jeedom Source** *(the one who holds the equipment to be reassembled)*.
 
-After installation, you just need to activate the plugin. This does not require any specific configuration.
+To do so, go to the menu **Plugins → Communication → Jeedom Link** then click the green button **Target Jeedoms**.
 
-# Configuration of target jeedoms 
+A window will open from which you can add or modify **Jeedom (s) Target (s))**. To add a **Jeedom Target**, just fill in :
 
-From the **Jeedom Source**, once on the plugin page (by going to Plugin management → Communication → Jeedom link), you just have to click on "Configure the target Jeedoms".
-
-A window will appear and from there you can configure or add **Jeedom (s) Target (s))**.
-
-To add a **Jeedom Target**, just give :
-
--   The name of **Jeedom Target**.
--   The IP address or DNS name of the **Jeedom Target**.
--   The API key of **Jeedom Target**.
--   Indicate whether the communication is internal or external (used for feedback, from **Jeedom Source** to the **Jeedom Target**). And save the configuration.
+- The name of **Jeedom Target**.
+- The IP address or DNS name to which the **Jeedom Target** can be reached.
+- The **Jeedom Link plugin API key** from **Jeedom Target**.
+- The access mode, internal or external (used for feedback from the **Jeedom Source** to the **Jeedom Target**).
 
 ![jeelink2](./images/jeelink2.png)
 
-> **Important**
+>**TRICK**
 >
-> It is necessary **ABSOLUTELY** the network configurations of all Jeedoms (Source and Target) are OK otherwise the plugin will not work.
+>You will find the **Jeedom Link API Key**, specific to each installation, in the menu **Settings → System → Configuration → PLC**.
 
-# Equipment allocation 
+### Equipment allocation
 
-After performing the configuration of the **Jeedom Target** On your **Jeedom Source**, you have to go to the tab *Assignment* to specify the equipment to be transmitted to **Jeedom Target**. All equipment orders will be automatically created and configured on the **Jeedom Target**.
-
-In the tab *Assignment*, add the equipment you want to go back to the **Jeedom Target**.
+After performing the configuration of the **Jeedom Target** on the **Jeedom Source**, you have to go to the tab **Assignment** to select the devices to be transmitted to the **Jeedom Target**. All commands for each piece of equipment will be automatically created and configured on the **Jeedom Target**.
 
 ![jeelink3](./images/jeelink3.png)
 
-Click on *Add equipment* Select the object and equipment to add :
+Add the equipment you want to upload to the **Jeedom Target** clicking on **Add equipment** then select the object and the equipment :
 
 ![jeelink5](./images/jeelink5.png)
 
-> **Tip**
+>**INFORMATION**
 >
-> Be careful : plugins with a specific widget will not have it on the **Jeedom Target** (camera, network plugin…).
+>Plugins using a specific widget will not find it on the **Jeedom Target** *(Plugin Camera, Networks, etc…​)*.
 
-> **Important**
+>**Important**
 >
-> The deletion of the equipment on the configuration page of the **Target Jeedoms** does not automatically delete it on the **Jeedom Source**, this is voluntary and not a bug (it is a security).
+>As a security measure, deleting a device assigned to a **Jeedom Target** since a **Jeedom Source** don't delete it on the **Jeedom Target**.
 
-# "My jeelinks" equipment" 
+It only remains to **To safeguard** for the link to be made and the selected equipment to be transmitted from the **Jeedom Source** to **Jeedom Target**.
 
-After refreshing the page *My jeelinks* from **Jeedom Target**, you should see the automatic creation of the equipment :
+## Equipment configuration
+
+Now let's head to the menu **Plugins → Communication → Jeedom Link** from **Jeedom Target** to see the automatic creation of the previously selected equipment :
 
 ![jeelink4](./images/jeelink4.png)
 
-Like all Jeedom equipment, you can activate / deactivate and display or not the equipment, its controls,… or change the category. But also
+Like any Jeedom equipment, you access its configuration page by clicking on it :
 
 ![jeelink6](./images/jeelink6.png)
 
-In the tab *Commands*, you access all the parameters of the equipment controls :
+In the tab **Commands**, you access all the parameters of the equipment controls :
 
 ![jeelink7](./images/jeelink7.png)
 
-# Modifying the Jeedom Source of a JeeLink 
-
-The following 3 parameters allow you to change the Jeedom Source, for example when replacing a Jeedom without losing data (history for example). For that, you just have to put the new address and API key of the Jeedom Source and to change the identifiers of the equipment and the commands (you will find them in the advanced configuration of these by clicking on the toothed wheel).
-
--   Jeedom Source address;
--   Jeedom Source API key;
--   Source equipment and order IDs.
-
-# Old Slave Mode Migration
-
-A tutorial is available, [here](https://jeedom.github.io/documentation/howto/en_US/jeelink.migration.html) specifying the procedure to follow to migrate a Jeedom Slave to the new Jeedom Link operating mode.
-
-# FAQ 
-
->**When deleting equipment on the source jeedom these are not deleted from the target jeedom**
+>**Important**
 >
->This is normally the source / target synchronization only creates creation, never deletion
+>As for the equipment affected on a **Jeedom Source**, deleting a piece of equipment on a **Jeedom Target** don't delete it on the **Jeedom Source**.
+
+### Modifying Jeedom source
+
+The following 3 parameters are used to replace a **Jeedom Source** without data loss *(history for example)* :
+
+-   **Source Jeedom address**
+-   **Jeedom Link source API key**
+-   **Source Device ID** and **Source ID** some orders.
+
+To do this, simply enter the new address and the new Jeedom Link API key of the source Jeedom and change the identifiers of the equipment and commands.
+
+# FAQ
+
+>**I have errors :** `You are not authorized to perform this action`
+>
+>Make sure the **Jeedom Link API keys** be well informed :
+>- The **Jeedom Link API Key** from **Jeedom Source** on each Jeelink equipment of the **Jeedom Target**.
+>- The **Jeedom Link API Key** from **Jeedom Target** on the configuration page **Target Jeedoms** from **Jeedom Source**.

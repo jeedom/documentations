@@ -11,6 +11,10 @@
 >
 >Attention certaine commande sont supprimer et d'autre sont ajoutée, suite à la mise à jour il faut ABSOLUMENT verifier vos scenarios et autre qui utilise des commandes du plugin
 
+# 30/01/2022
+
+- Support 4.2
+
 # 09/06/2021
 
 - Correction d'un soucis sur la repetition des commandes

@@ -4,9 +4,22 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Major overhaul of the plugin 
+- Switching from python to PHP (faster)
 
+>**Important**
+>
+>Attention certain commands are deleted and others are added, following the update it is ABSOLUTELY necessary to check your scenarios and other which uses commands from the plugin
 
-Thank you @Caelion for all of the following improvements : 
+# 06/09/2021
+
+- Fixed an issue with repetition of commands
+
+# 10/18/2020
+
+- Fixed a bug on dependencies
+
+Thank you @Caelion for all of the following improvements :
 
 - creation of a status function : that says if a call is in progress with Jeedom (TTS)
 - adding a refresh command

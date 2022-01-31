@@ -427,7 +427,7 @@
         "Ce plugin permet d'envoyer des e-mails depuis Jeedom": "Mit diesem Plugin können Sie E-Mails von Jeedom senden",
         "Plugin permettant d'afficher des notifications sur LaMetric Time": "Plugin zum Anzeigen von Benachrichtigungen zur LaMetric Time",
         "Jeedom Link": "Jeedom Link",
-        "Plugin permettant de lier plusieurs Jeedom": "Plugin zum Verknüpfen mehrerer Jeedom",
+        "Ce plugin va vous permettre de lier plusieurs installations Jeedom afin de remonter les équipements d'un ou plusieurs \"Jeedoms sources\" vers un ou plusieurs \"Jeedoms cibles": "Mit diesem Plugin können Sie mehrere Jeedom-Installationen verknüpfen, um die Ausrüstung von einem oder mehreren \"Quell-Jeedoms\" auf einen oder mehrere \"Ziel-Jeedoms\" zu übertragen",
         "Plugin permettant de gérer un ou plusieurs Jarvis": "Plugin zum Verwalten eines oder mehrerer Jarvis",
         "Plugin pour gérer les interphones inter2N": "Plugin zur Verwaltung von Inter2N-Gegensprechanlagen",
         "inter2N": "inter2N",
