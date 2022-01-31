@@ -29,7 +29,7 @@ Defines certain interface behaviors
 
 - **2-step authentication** : allows to configure authentication in 2 steps (as a reminder, it is a code changing every X seconds which is displayed on a mobile application, type *google authentificator*). Note that double authentication will only be requested for external connections. For local connections, the code will therefore not be requested.
 
-  **IMPORTANT** if during the configuration of the double authentication you have an error, it is necessary to check that Jeedom (see on the health page) and your phone are well at the same time (1 min of difference is enough for it not to work).
+  **Important** if during the configuration of the double authentication you have an error, it is necessary to check that Jeedom (see on the health page) and your phone are well at the same time (1 min of difference is enough for it not to work).
 
 - **Password** : Allows you to change your password (do not forget to retype it below).
 
@@ -39,7 +39,7 @@ Defines certain interface behaviors
 
 Here you have the list of your currently connected sessions, their ID, their IP as well as the date of last communication. By clicking on &quot;Disconnect&quot; this will disconnect the user. Be careful if it is on a registered device, this will also delete the registration.
 
-### Registred devices
+### Registered devices
 
 Here you find the list of all registered devices (which connect without authentication) to your Jeedom as well as the date of last use.
 Here you can delete the registration of a device. Attention it does not disconnect it but will just prevent its automatic reconnection.

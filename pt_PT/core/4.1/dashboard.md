@@ -6,10 +6,10 @@
 O painel é uma das páginas principais do Jeedom, ele exibe um relatório de toda a sua automação residencial.
 Este relatório (diferente das visualizações e designs) é gerado automaticamente pela Jeedom e inclui todos os objetos visíveis e seus equipamentos.
 
-![Painel de instrumentos](../images/doc-dashboard-legends.png)
+{% include lightbox.html src="images/doc-dashboard-legends.png" data="Dashboard" title="Dashboard" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 - 1 : Menu principal do Jeedom.
-- 2 : Resumo Global.
+- 2 : Resumo Global [Documentação abstrata.](/pt_PT/concept/summary).
 - 3 : Hora do navegador, atalho para a Linha do tempo.
 - 4 : Botão para acessar a documentação da página atual.
 - 5 : Nome do seu Jeedom, atalho para configuração.
@@ -70,5 +70,5 @@ Em cada objeto, à direita de seu nome e resumo, dois ícones permitem que você
 >
 > - Clique no relógio (barra de menus) : Abra a linha do tempo.
 > - Clique no nome do Jeedom (barra de menus) : Abre Configurações → Sistema → Configuração.
-> - Clique em ? (Barra de menus) : Abre a ajuda na página atual.
+> - Clique em ? (Barra de menus) : Abrir ajuda na página atual.
 > - Escape em um campo de pesquisa : Limpe o campo e cancele esta pesquisa.

@@ -1,9 +1,9 @@
 # Objets
 **Herramientas → Objetos**
 
-La **Objetos** le permite definir la estructura de árbol de su domótica.
+Los **Objetos** le permite definir la estructura de árbol de su domótica.
 
-Todo el equipo que cree debe pertenecer a un objeto y, por lo tanto, es más fácil de identificar. Luego decimos que el objeto es el **pariente** equipo.
+Todo el equipo que cree debe pertenecer a un objeto y, por lo tanto, es más fácil de identificar. Luego decimos que el objeto es el **padre** equipo.
 
 Para dar libre elección a la personalización, puede nombrar estos objetos como desee. Por lo general, definiremos las diferentes partes de su casa, como el nombre de las habitaciones (esta también es la configuración recomendada).
 
@@ -15,11 +15,24 @@ Tienes dos opciones :
 - **Añadir** : Crea un nuevo objeto.
 - **Resumen** : Muestra la lista de objetos creados y su configuración.
 
+## Resumen
+
+La descripción general le permite ver todos los objetos en Jeedom, así como su configuración :
+
+- **CARNÉ DE IDENTIDAD** : ID de objeto.
+- **Objeto** : Nombre del objeto.
+- **Padre** : Nombre del objeto padre.
+- **Visible** : Visibilidad del objeto.
+- **Máscara** : Indica si el objeto está oculto en el Tablero.
+- **Resumen definido** : Indica el número de pedidos por resumen. Lo que está en azul se tiene en cuenta en el resumen global.
+- **Resumen de panel oculto** : Indica resúmenes ocultos en el Tablero.
+- **Resumen móvil oculto** : Mostrar resúmenes ocultos en dispositivos móviles.
+
 ## Mis objetos
 
 Una vez que haya creado un objeto, aparecerá en esta parte.
 
-> **Punta**
+> **Propina**
 >
 > Puede abrir un objeto haciendo :
 > - Haga clic en uno de ellos.
@@ -40,66 +53,38 @@ Al hacer clic en un objeto, accede a su página de configuración. Independiente
 
 Aquí están las diferentes características para configurar un objeto :
 
+#### Configuraciones :
+
 - **Nombre del objeto** : El nombre de tu objeto.
-- **Padre** : Indica el padre del objeto actual, esto permite definir una jerarquía entre los objetos. Por ejemplo : El salón está relacionado con el apartamento. Un objeto puede tener solo un padre pero varios objetos pueden tener el mismo padre.
+- **Objeto padre** : Indica el padre del objeto actual, esto permite definir una jerarquía entre los objetos. Por ejemplo : El salón está relacionado con el apartamento. Un objeto puede tener solo un padre pero varios objetos pueden tener el mismo padre.
 - **Visible** : Marque esta casilla para hacer visible este objeto.
 - **Ocultar en el tablero** : Marque esta casilla para ocultar el objeto en el Tablero. Todavía se mantiene en la lista, lo que permite que se muestre, pero solo explícitamente.
-- **Ocultar en resumen'** : Marque esta casilla para ocultar el objeto en el resumen'. Todavía se mantiene en la lista, lo que permite que se muestre, pero solo explícitamente.
+- **Ocultar en resumen** : Marque esta casilla para ocultar el objeto en el resumen'. Todavía se mantiene en la lista, lo que permite que se muestre, pero solo explícitamente.
+- **Acción de síntesis** : Aquí puede indicar una vista o un diseño al que ir cuando haga clic en el objeto del Resumen. *Defecto : Tablero*.
+
+#### Monitor :
+
 - **Icono** : Le permite elegir un icono para su objeto.
-- **Colores personalizados** : Activa la consideración de los dos parámetros de color opcionales.
+- **Colores personalizados** : Activa el tener en cuenta los dos parámetros de color personalizados a continuación.
 - **Etiqueta de color** : Le permite elegir el color del objeto y el equipo adjunto.
 - **Color del texto de la etiqueta** : Le permite elegir el color del texto del objeto. Este texto estará sobre el **Etiqueta de color**. Eliges un color para que el texto sea legible.
+- **Solo en síntesis** : Le permite poner una imagen para la síntesis sin que se utilice como imagen de fondo, especialmente en la página *Tablero* de este objeto.
 - **Imagen** : Tienes la opción de cargar una imagen o eliminarla. En formato jpeg, esta imagen será la imagen de fondo del objeto cuando lo muestre en el Tablero. También se usará para la miniatura de la pieza en la Síntesis.
-- **Solo en síntesis** : Permite poner una imagen para la Síntesis sin que se use como imagen de fondo.
 
-> **Punta**
+> **Propina**
 >
 > Puede cambiar el orden de visualización de los objetos en el Tablero. En la descripción general (o en el Resumen de automatización del hogar), seleccione su objeto con el mouse arrastrando y soltando para darle un nuevo lugar.
 
-> **Punta**
+> **Propina**
 >
 > Puede ver un gráfico que representa todos los elementos de Jeedom unidos a este objeto haciendo clic en el botón **Vínculos**, arriba a la derecha.
 
-> **Punta**
+> **Propina**
 >
 > Cuando se crea un dispositivo y no se ha definido ningún padre, tendrá como padre : **No**.
 
-## Pestaña Resumen
+## Pestañas de resumen
 
-Los resúmenes son información global, asignada a un objeto, que se muestra en particular en el Panel de control (junto al nombre del objeto) y en el resumen (en la miniatura del objeto).
+[Ver documentación de resúmenes.](/es_ES/concept/summary)
 
 
-### Tablero de anuncios
-
-Las columnas representan los resúmenes asignados al objeto actual. Se te proponen tres líneas :
-
-- **Subir en el resumen global** : Marque la casilla si desea que el resumen se muestre en la barra de menú de Jeedom.
-- **Ocultar en el escritorio** : Marque la casilla si no desea que el resumen aparezca junto al nombre del objeto en el Tablero.
-- **Ocultar en el móvil** : Marque la casilla si no desea que aparezca el resumen cuando lo vea desde un dispositivo móvil.
-
-### Commandes
-
-Cada pestaña representa un tipo de resumen definido en la configuración de Jeedom. Haga clic en **Agregar un pedido** para que se tenga en cuenta en el resumen. Tiene la opción de seleccionar el comando de cualquier equipo Jeedom, incluso si no tiene este objeto como padre.
-
-> **Punta**
->
-> Si desea agregar un tipo de resumen o configurar el método de cálculo del resultado, la unidad, el icono y el nombre de un resumen, debe ir a la configuración general de Jeedom : **Preferencias → Sistema → Configuración : Pestaña Resúmenes**.
-
-## Pestaña Resumen por dispositivo
-
-Esta página muestra todo el equipo que tiene el objeto como padre. En cada dispositivo, al hacer clic en él, se presenta la lista de comandos de información del dispositivo, con a la derecha los medios para asignar este comando a uno o más resúmenes del objeto.
-
-Si uno o más resúmenes ya están definidos, el selector aparece en naranja, con los tipos de resúmenes marcados a la derecha.
-
-## Resumen
-
-La descripción general le permite ver todos los objetos en Jeedom, así como su configuración :
-
-- **Identificación** : ID de objeto.
-- **Objeto** : Nombre del objeto.
-- **Padre** : Nombre del objeto padre.
-- **Visible** : Visibilidad del objeto.
-- **Enmascarado** : Indica si el objeto está oculto en el Tablero.
-- **Resumen definido** : Indica el número de pedidos por resumen. Lo que está en azul se tiene en cuenta en el resumen global.
-- **Resumen de panel oculto** : Indica resúmenes ocultos en el Tablero.
-- **Resumen móvil oculto** : Mostrar resúmenes ocultos en dispositivos móviles.

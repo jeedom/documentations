@@ -15,6 +15,19 @@ You have two options :
 - **Add** : Create a new object.
 - **Overview** : Displays the list of objects created and their configuration.
 
+## Overview
+
+The overview allows you to view all the objects in Jeedom, as well as their configuration :
+
+- **ID** : Object ID.
+- **Object** : Object name.
+- **Dad** : Name of parent object.
+- **Visible** : Object visibility.
+- **Mask** : Indicates if the object is hidden on the Dashboard.
+- **Summary Defined** : Indicates the number of commands per summary. What is in blue is taken into account in the global summary.
+- **Hidden Dashboard Summary** : Indicates hidden summaries on the Dashboard.
+- **Hidden Mobile Summary** : Show hidden summaries on mobile.
+
 ## My objects
 
 Once you have created an object, it will appear in this part.
@@ -40,17 +53,23 @@ By clicking on an object, you access its configuration page. Whatever changes yo
 
 Here are the different characteristics to configure an object :
 
+#### Settings :
+
 - **Object name** : The name of your object.
-- **Dad** : Indicates the parent of the current object, this makes it possible to define a hierarchy between the objects. For example : The living room is related to the apartment. An object can have only one parent but several objects can have the same parent.
-- **Jeedom** : Check this box to make this object visible.
+- **Parent object** : Indicates the parent of the current object, this makes it possible to define a hierarchy between the objects. For example : The living room is related to the apartment. An object can have only one parent but several objects can have the same parent.
+- **Visible** : Check this box to make this object visible.
 - **Hide on the Dashboard** : Check this box to hide the object on the Dashboard. It is still kept in the list, which allows it to be displayed, but only explicitly.
-- **Hide on summary'** : Check this box to hide the object on the summary'. It is still kept in the list, which allows it to be displayed, but only explicitly.
+- **Hide on summary** : Check this box to hide the object on the summary'. It is still kept in the list, which allows it to be displayed, but only explicitly.
+- **Action from synthesis** : Here you can indicate a view or a design to go to when you click on the object from the Summary. *Default : Dashboard*.
+
+#### Display :
+
 - **Icon** : Allows you to choose an icon for your object.
-- **Custom colors** : Activates the consideration of the two optional color parameters.
+- **Custom colors** : Activates the taking into account of the two custom color parameters below.
 - **Tag color** : Allows you to choose the color of the object and the equipment attached to it.
 - **Tag text color** : Allows you to choose the color of the text of the object. This text will be over the **Tag color**. You choose a color to make the text readable.
+- **Only on synthesis** : Allows you to put an image for the Synthesis without it being used as a background image, especially on the page *Dashboard* of this object.
 - **Picture** : You have the option to upload an image or delete it. In jpeg format this image will be the background image of the object when you display it on the Dashboard. It will also be used for the thumbnail of the piece on the Synthesis.
-- **Only on synthesis** : Allows to put an image for the Synthesis without it being used as background image.
 
 > **Tip**
 >
@@ -64,42 +83,8 @@ Here are the different characteristics to configure an object :
 >
 > When a device is created and no parent has been defined, it will have as parent : **No**.
 
-## Summary tab
+## Summary tabs
 
-Summaries are global information, assigned to an object, which is displayed in particular on the Dashboard (next to the name of the object), and on the summary (on the object's thumbnail).
+[See abstracts documentation.](/en_US/concept/summary)
 
 
-### Bulletin board
-
-The columns represent the summaries assigned to the current object. Three lines are proposed to you :
-
-- **Go up in the global summary** : Check the box if you want the summary to be displayed in the Jeedom menu bar.
-- **Hide on desktop** : Check the box if you do not want the summary to appear next to the object name on the Dashboard.
-- **Hide on mobile** : Check the box if you do not want the summary to appear when you view it from a mobile.
-
-### Commandes
-
-Each tab represents a type of summary defined in the configuration of Jeedom. Click on **Add a command** so that it is taken into account in the summary. You have the choice to select the command of any Jeedom equipment, even if it does not have this object as parent.
-
-> **Tip**
->
-> If you want to add a type of summary or to configure the calculation method of the result, the unit, the icon and the name of a summary, you must go to the general configuration of Jeedom : **Settings → System → Configuration : Summaries tab**.
-
-## Summary tab by device
-
-This page displays all the equipment having the object as parent. On each device, by clicking on it, the list of device info commands is presented, with on the right the means of assigning this command to one or more summaries of the object.
-
-If one or more summary (s) are already defined, the selector appears in orange, with the types of summaries checked on the right.
-
-## Overview
-
-The overview allows you to view all the objects in Jeedom, as well as their configuration :
-
-- **Id** : Object ID.
-- **Object** : Object name.
-- **Dad** : Name of parent object.
-- **Jeedom** : Object visibility.
-- **Mask** : Indicates if the object is hidden on the Dashboard.
-- **Summary Defined** : Indicates the number of commands per summary. What is in blue is taken into account in the global summary.
-- **Hidden Dashboard Summary** : Indicates hidden summaries on the Dashboard.
-- **Hidden Mobile Summary** : Show hidden summaries on mobile.

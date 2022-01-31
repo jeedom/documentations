@@ -1,5 +1,5 @@
 # FAQ
-**Configurações → Versão : Faq**
+**Configurações → Versão : Perguntas frequentes**
 
 ### Jeedom requer uma assinatura ?
 Não, o Jeedom é totalmente utilizável sem a necessidade de qualquer assinatura. No entanto, existem serviços oferecidos para backups ou chamadas / SMS, mas que são realmente opcionais.
@@ -42,13 +42,13 @@ Eles estão na pasta / var / www / html / backup
 
 ### Podemos colocar o Jeedom em https ?
 Sim : Você tem um pacote de força ou mais, nesse caso, você
-basta usar o [DNS Jeedom](https://jeedom.github.io/documentation/howto/pt_PT/mise_en_place_dns_jeedom). Com um DNS e você sabe como configurar um certificado válido, nesse caso, é uma instalação padrão de um certificado.
+basta usar o [Jeedom DNS](https://jeedom.github.io/documentation/howto/pt_PT/mise_en_place_dns_jeedom). Com um DNS e você sabe como configurar um certificado válido, nesse caso, é uma instalação padrão de um certificado.
 
 ### Como se conectar no SSH ?
-Aqui está um [Documentação](https://www.alsacreations.com/tuto/lire/612-Premiere-connexion-SSH.html), "Windows : Putty". O "hostname" sendo o ip do seu Jeedom, os identificadores sendo :
+Aqui está um [documentação](https://www.alsacreations.com/tuto/lire/612-Premiere-connexion-SSH.html), "Windows : Putty". O "hostname" sendo o ip do seu Jeedom, os identificadores sendo :
 
-- Nome de usuário : "root ", senha : "Mjeedom96"
-- Nome de usuário : "jeedom ", senha : "Mjeedom96"
+- Nome do usuário : "root ", senha : "Mjeedom96"
+- Nome do usuário : "jeedom ", senha : "Mjeedom96"
 - Ou o que você coloca na instalação se estiver em DIY
 
 Observe que quando você escreve a senha, não verá nada escrito na tela, isso é normal.
@@ -99,7 +99,7 @@ Você também pode consultar o log /var/www/html/log/http.error. Muitas vezes, i
 Estes devem ser redefinidos :
 
 `` `{.bash}
-bdd_password = $ (cat / dev / urandom | tr -cd 'a-f0-9' | cabeça -c 15)
+bdd_password = $ (cat / dev / urandom | tr-cd 'a-f0-9' | cabeça -c 15)
 echo "DROP USER 'jeedom' @ 'localhost'" | mysql -uroot -p
 echo "CREATE USER 'jeedom' @ 'localhost' IDENTIFICADO POR '$ {bdd_password}';" | mysql -uroot -p
 eco "CONCEDE TODOS OS PRIVILÉGIOS NO jeedom.* TO 'jeedom' @ 'localhost';" | mysql -uroot -p
@@ -117,7 +117,7 @@ Novamente, isso geralmente ocorre devido a um plug-in na versão beta, enquanto 
 
 ### Não tenho mais acesso ao Jeedom, nem pela interface da web nem no console via SSH
 Este erro não se deve ao Jeedom, mas a um problema com o sistema.
-Se isso persistir após a reinstalação, é recomendável verificar com o serviço pós-venda se há problemas de hardware. Aqui está o [Documentação](https://doc.jeedom.com/pt_PT/installation/smart) para Smart
+Se isso persistir após a reinstalação, é recomendável verificar com o serviço pós-venda se há problemas de hardware. Aqui está o [documentação](https://doc.jeedom.com/pt_PT/installation/smart) para Smart
 
 ### Meu cenário não para mais
 É aconselhável olhar para os comandos executados pelo cenário, geralmente vem de um comando que não termina.
@@ -213,3 +213,13 @@ sudo easy_install3 pip
 `` ''``
 
 Em seguida, reinicie as dependências
+
+
+### Dos 4.2, não consigo mais exibir iframe
+
+Core 4.2 aumenta muito a segurança da Jeedom. Se você realmente (conscientemente) precisa reverter para uma versão insegura do seu Jeedom :
+Vamos para **Configurações -> Sistema -> Configuração** então em **OS / DB**, inicie o console de administração do sistema e clique em **Apache não seguro**. Recomenda-se reiniciar o Jeedom após esta mudança.
+
+### Dos 4.2, alguns plug-ins não funcionam mais e no console do navegador (tecla F12), tenho 403 erros
+
+Isso se deve à segurança do Apache, que exige que os desenvolvedores de plug-ins coloquem os arquivos certos nos diretórios certos para limitar a superfície de ataque do Jeedom. Esta segurança é feita no arquivo .htaccess (sobrescrito cada vez que o núcleo é atualizado). Você pode fazer um arquivo .htaccess_custom com suas próprias regras que se existirem serão usadas no lugar do arquivo .htaccess do Core.

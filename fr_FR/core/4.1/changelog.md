@@ -1,3 +1,89 @@
+# Changelog Jeedom V4.2
+
+## 4.2.0
+
+### 4.2 : Pré-requis
+
+- Debian 10 Buster
+- Php 7.3
+
+### 4.2 : Nouveautés / Améliorations
+
+- **Synthèse** : Possibilité de paramétrage des objets pour aller vers un *design* ou une *vue* depuis la synthèse.
+- **Dashboard** : La fenêtre de configuration d'un équipement (mode édition) permet maintenant de configurer les widgets mobile et les types génériques.
+- **Widgets** : Internationalisation des Widgets tiers (code utilisateur). voir [Doc dev](https://doc.jeedom.com/fr_FR/dev/core4.2).
+- **Analyse / Historique** : Possibilité de comparer un historique sur une période donnée.
+- **Analyse / Historique** : Affichage des axes multiples en Y. Option pour que chaque axe ait sa propre échelle, groupés par unité ou pas.
+- **Analyse / Historique** : Possibilité de masquer les axes Y. Menu contextuel sur les légendes avec affichage seul, masquage d'axe, changement de couleur de courbe.
+- **Analyse / Historique** : Les calculs d'historiques enregistrés sont maintenant affichés au dessus de la liste des commandes, de la même façon que celles-ci.
+- **Analyse / Equipements** : Les commandes orphelines affichent maintenant leur nom et date de suppression si encore dans l'historique de suppression, ainsi qu'un lien vers le scénario ou l'équipement concerné.
+- **Analyse / Logs** : Numérotation des lignes des logs. Possibilité d'afficher le log brut.
+- **Logs** : Coloration des logs en fonction de certains événements. Possibilité d'afficher le log brut.
+- **Résumés** : Possibilité de définir une icône différente quand le résumé est nul (aucun volets ouvert, aucune lumière allumée, etc).
+- **Résumés** : Possibilité de ne jamais afficher le numéro à droite de l'icône, ou seulement s'il est positif.
+- **Résumés** : Le changement de paramètre de résumé en configuration et sur les objets est maintenant visible, sans attendre un changement de valeur du résumé.
+- **Résumés** : Il est maintenant possible de configurer des [actions sur les résumés](/fr_FR/concept/summary#Actions sur résumés) (ctrl + clic sur un résumé) grâce aux virtuels.
+- **Rapport** : Prévisualisation des fichiers PDF.
+- **Types d'équipement** : [Nouvelle page](/fr_FR/core/4.2/types) **Outils → Types d'équipement** permettant d'attribuer des types génériques aux équipements et commandes, avec support des types dédiés aux plugins installés (voir [Doc dev](https://doc.jeedom.com/fr_FR/dev/core4.2)).
+- **Sélection d'illustrations** : Nouvelle fenêtre globale pour le choix des illustrations *(icônes, images, fonds)*.
+- **Affichage en tableau** : Ajout d'un bouton à droite de la recherche sur les pages *Objets* *Scénarios* *Interactions* *Widgets* et *Plugins* pour basculer en mode tableau. Celui-ci est conservé par un cookie ou dans **Réglages → Système → Configuration / Interface, Options**. Les plugins peuvent faire appel à cette nouvelle fonction du Core. voir [Doc dev](https://doc.jeedom.com/fr_FR/dev/core4.2).
+- **Configuration Equipement** : Possibilité de paramétrer une courbe d'historique en fond de tuile d'un équipement.
+- **Commande** : Possibilité de faire un calcul sur une commande action de type slider avant exécution de la commande.
+- **Plugins / Gestion** : Affichage de la catégorie du plugin, et d'un lien pour ouvrir directement la page de celui-ci sans passer par le menu Plugins.
+- **Scénario** : Fonction de repli de code (*code folding*) dans les *Blocs Code*. Raccourcis Ctrl+Y et Ctrl+I.
+- **Scénario** : Bugfix des copier / coller et undo / redo (réécriture complète).
+- **Scénario** : Ajout des fonctions de calcul ``averageTemporal(commande,période)`` & ``averageTemporalBetween(commande,start,end)`` permettant d'obtenir la moyenne pondérée par la durée sur la période.
+- **Scénario** : Ajout du support des Types Génériques dans les scénarios.
+	- Déclencheur : `#genericType(LIGHT_STATE,#[Salon]#)# > 0`
+	- IF `genericType(LIGHT_STATE,#[Salon]#) > 0`
+	- Action `genericType`
+- **Objets** : Les plugins peuvent maintenant demander des paramètres spécifique propres aux objets.
+- **Utilisateurs** : Les plugins peuvent maintenant demander des paramètres spécifique propres aux utilisateurs.
+- **Utilisateurs** : Possibilité de gérer les profils des différents utilisateurs Jeedom depuis la page de gestion des utilisateurs.
+- **Utilisateurs** : Possibilité de masquer des objets/vue/design/design 3d pour les utilisateurs limités.
+- **Centre de Mises à jour** : Le centre de mises à jour affiche désormais la date de dernière mise à jour.
+- **Ajout de l'utilisateur exécutant une action** : Ajout dans les options d’exécution de la commande de l'id et du nom d'utilisateur lançant l'action (visible dans le log event par exemple)
+- **Documentation et changelog plugin beta** : Gestion de la documentation et du changelog pour les plugins en beta. Attention, en beta le changelog n'est pas daté.
+- **General** : Intégration du plugin JeeXplorer dans le Core. Utilisé maintenant pour les Widget Code, et la personnalisation avancée.
+- **Configuration** : Nouvelle option en configuration / interface pour ne pas colorer le bandeau de titre des équipements.
+- **Configuration** : Possibilité de paramétrer des fonds d'écran sur les pages Dashboard, Analyse, Outils et leur opacité en fonction du thème.
+- **Configuration**: Ajout DNS Jeedom basé sur Wireguard au lieu d'Openvpn (Administration / réseaux). Plus rapide, et plus stable, mais encore en test. Attention ce n'est pour le moment pas compatible Jeedom Smart.
+- **Configuration** : Réglages OSDB: Ajout d'un outil d'édition en masse d'équipements, commandes, objets, scénarios.
+- **Configuration** : Réglages OSDB: Ajout d'un constructeur dynamique de requête SQL.
+- **Configuration**: Possibilité de désactiver le monitoring cloud (Administration / Mises à jour/Market).
+- **jeeCLI** : Ajout de ``jeeCli.php`` dans le dossier core/php de Jeedom pour gérer certaines fonctions en ligne de commande.
+- *Grosses améliorations de l'interface en terme de performances / réactivité. jeedomUtils{}, jeedomUI{}, menu principal réecrit en css pur, suppression d'initRowWorflow(), simplication du code, corrections css pour les petits écrans, etc.*
+
+### 4.2 : Widgets Core
+
+- Les paramètres de Widgets pour la version Mobile sont maintenant accessible depuis la fenêtre de configuration de l'équipement en mode Édition du Dashboard.
+- Les paramètres optionnels disponibles sur les widgets sont maintenant affichés pour chaque widget, que ce soit dans la configuration de la commande ou depuis le mode Édition du Dashboard.
+- De nombreux Widgets Core acceptent maintenant des paramètres optionnels de couleur. (slider horizontal et vertical, jauge, compass, rain, shutter, templates slider, etc.).
+- Les Widgets Core avec affichage d'un *time* supportent maintenant un paramètre optionnel **time : date** pour afficher une date relative (Hier à 16h48, Lundi dernier à 14h00, etc).
+- Les Widgets de type curseur (action) acceptent maintenant un paramètre optionnel *step* pour définir le pas de changement au curseur.
+- Le Widget **action.slider.value** est maintenant disponible en desktop, avec un paramètre optionnel *noslider*, ce qui en fait un *input* simple.
+- Le Widget **info.numeric.default** (*Gauge*) a été refait en pur css, et intégré en mobile. Ils sont donc maintenant identiques en desktop et mobile.
+
+### 4.2 : Backup cloud
+
+Nous avons ajouté une confirmation du mot de passe de backup cloud pour prévenir les erreurs de saisie (pour rappel l'utilisateur est le seul à connaître ce mot de passe, en cas d'oubli, Jeedom ne peut ni le récupérer ni accéder aux backup cloud de l'utilisateur).
+
+>**IMPORTANT**
+>
+> Suite à la mise à jour, il faudra obligatoirement aller dans Réglages → Système → Configuration onglet Mise à jour/Market et entrer la confirmation de mot de passe de backup cloud pour que celui-ci puisse se faire.
+
+### 4.2 : Sécurité
+
+- Afin d'augmenter significativement la sécurité de la solution Jeedom, le système d'accès aux fichiers a changé. Avant certains fichiers étaient interdits depuis certains emplacements. A partir de la v4.2, les fichiers sont explicitement autorisés par type et par emplacement.
+- Changement au niveau de l'api, auparavant "tolérante" si vous arriviez avec la clef du Core en indiquant plugin XXXXX. Ce n'est plus le cas, vous devez arriver avec la clef correspondante au plugin.
+- En api http vous pouviez indiquer un nom de plugin en type, ce n'est plus possible. Le type correspondant au type de la demande (scenario, eqLogic, cmd, etc.) doit correspondre au plugin. Par exemple pour le plugin virtuel vous aviez ``type=virtual`` dans l'url il faut maintenant remplacer par ``plugin=virtual&type=event``.
+- Renforcement des sessions : Passage en sha256 avec 64 caractères en mode strict.
+
+L'équipe Jeedom a bien conscience que ces changements peuvent avoir un impact et être gênant pour vous mais nous ne pouvons transiger sur la sécurité.
+Les plugins doivent respecter les recommandations sur l'arborescence des dossiers et fichiers : [Doc](https://doc.jeedom.com/fr_FR/dev/plugin_template).
+
+[Blog: Introduction Jeedom 4.2 : la sécurité](https://blog.jeedom.com/6165-introduction-jeedom-4-2-la-securite/)
+
 # Changelog Jeedom V4.1
 
 ## 4.1.28
@@ -6,19 +92,15 @@
 
 ## 4.1.27
 
-- Correction d'une faille de sécurité merci @Maxime Rinaudo et @Antoine Cervoise de **Synacktiv** ([www.synacktiv.com](https://www.synacktiv.com/))
-
->**IMPORTANT**
->
->Cette mise à jour est plus que recommandée, nous vous invitons à la faire au plus vite
+- Correction d'une faille de sécurité merci @Maxime Rinaudo et @Antoine Cervoise de Synacktiv (www.synacktiv.com)
 
 ## 4.1.26
 
-- Correction d'un souci d'installation de dépendance apt sur Smart du au changement de certificat chez let's encrypt
+- Correction d'un soucis d'installation de dépendance apt sur Smart dû au changement de certificat chez let's encrypt.
 
 ## 4.1.25
 
-- Correction d'un souci d'installation de dépendances apt
+- Correction d'un soucis d'installation de dépendance apt.
 
 ## 4.1.24
 
@@ -65,11 +147,11 @@
 
 ## 4.1.0
 
-### Pré-requis
+### 4.1 : Pré-requis
 
 - Debian 10 Buster
 
-### Nouveautés / Améliorations
+### 4.1 : Nouveautés / Améliorations
 
 - **Synthèse** : Ajout d'une nouvelle page **Accueil → Synthèse** proposant une synthèse visuelle globale des pièces, avec accès rapide aux résumés.
 - **Recherche** : Ajout d'un moteur de recherche dans **Outils → Recherche**.
@@ -138,7 +220,7 @@
 - Bloc code, Éditeur de fichier, Personnalisation avancée : Adaptation thème Dark.
 - Amélioration de la fenêtre de sélection d'image.
 
-### WebApp
+### 4.1 : WebApp
 - Intégration de la nouvelle page Synthèse.
 - Page scénarios, un clic sur le titre du scénario affiche le log de celui-ci.
 - On peut maintenant sélectionner / copier une partie d'un log.
@@ -149,7 +231,7 @@
 - Nouvelle police de type monospace pour les logs.
 - Nombreux bug-fix (UI, portrait/landscape iOS, etc.).
 
-### Autres
+### 4.1 : Autres
 - **Documentation** : Adaptations en adéquation avec la v4 et v4.1.
 - **Documentation** : Nouvelle page *Raccourcis clavier / souris* comprenant un récapitulatif de tous les raccourcis dans Jeedom. Accessible depuis la doc du Dashboard ou la FAQ.
 - **Lib** : Update HighStock v7.1.2 vers v8.2.0.
@@ -161,7 +243,7 @@
 - Corrections de bugs.
 - Nombreuses optimisations de performance desktop / mobile.
 
-### Changements
+### 4.1 : Changements
 - La fonction **scenario->getHumanName()** de la class php scenario ne renvoit plus *[object][group][name]* mais *[group][object][name]*.
 - La fonction **scenario->byString()** doit maintenant être appellée avec la structure *[group][object][name]*.
 - Les fonctions **network->getInterfaceIp() network->getInterfaceMac() network->getInterfaces()** ont été remplacées par **network->getInterfacesInfo()**
@@ -247,11 +329,11 @@
 
 ## 4.0.0
 
-### Pré-requis
+### 4.0 : Pré-requis
 
 - Debian 9 Stretch
 
-### Nouveautés / Améliorations
+### 4.0 : Nouveautés / Améliorations
 
 - Refonte complète des thèmes (Core 2019 Light / Dark / Legacy).
 - Possibilité de changer de thème automatiquement en fonction de l'heure.
@@ -328,7 +410,7 @@
 - Design : Le déplacement et le redimensionnement des composants sur les *Design* tient compte de leur taille, avec ou sans aimantation.<br/><br/>
 - Ajout d'un système de configuration en masse (utilisé sur la page Equipement pour configurer l'Alertes Communications sur ceux-ci)
 
-### Autres
+### 4.0 : Autres
 
 - **Lib** : Update jquery 3.4.1
 - **Lib** : Update CodeMiror 5.46.0
@@ -338,7 +420,7 @@
 - Nombreuses corrections de bugs.
 - Corrections de sécurité.
 
-### Changements
+### 4.0 : Changements
 
 - Suppression de Font Awesome 4 pour ne conserver que Font Awesome 5.
 - Le plugin widget n'est pas compatible avec cette version de Jeedom et ne sera plus supporté (car les fonctionnalités ont été reprise en interne sur le core). Plus d'informations [ici](https://www.Jeedom.com/blog/4368-les-widgets-en-v4).

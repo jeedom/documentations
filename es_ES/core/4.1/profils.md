@@ -39,7 +39,7 @@ Define ciertos comportamientos de interfaz
 
 Aquí tiene la lista de sus sesiones conectadas actualmente, su ID, su IP, así como la fecha de la última comunicación. Al hacer clic en &quot;Desconectar&quot; esto desconectará al usuario. Tenga cuidado si está en un dispositivo registrado, esto también eliminará el registro.
 
-### Periféricos registrados
+### Dispositivos registrados
 
 Aquí encontrará la lista de todos los dispositivos registrados (que se conectan sin autenticación) a su Jeedom, así como la fecha del último uso.
 Aquí puede eliminar el registro de un dispositivo. Atención, no lo desconecta, solo impedirá su reconexión automática.

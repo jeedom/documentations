@@ -12,7 +12,6 @@ Auf dieser Registerkarte finden Sie allgemeine Informationen zu Jeedom :
 - **Name deines Jeedom** : Identifizieren Sie Ihre Freiheit, besonders auf dem Markt. Es kann in Szenarien oder zur Identifizierung eines Backups wiederverwendet werden.
 - **Sprache** : Sprache, die in Ihrem Jeedom verwendet wird.
 - **Systeme** : Art der Hardware, auf der das System installiert ist, auf dem Ihr Jeedom ausgeführt wird.
-- **Übersetzungen generieren** : Generieren Sie Übersetzungen, Vorsicht, dies kann Ihr System verlangsamen. Option besonders nützlich für Entwickler.
 - **Datum und Uhrzeit** : Wählen Sie Ihre Zeitzone. Sie können auf klicken **Zeit-Synchronisation erzwingen** um die oben rechts angezeigte falsche Zeit wiederherzustellen.
 - **Zeitserver optional** : Gibt an, welcher Zeitserver verwendet werden soll, wenn Sie auf klicken **Zeit-Synchronisation erzwingen** (Experten vorbehalten sein).
 - **Die Überprüfung der Zeit ignorieren** : weist Jeedom an, nicht zu überprüfen, ob die Zeit zwischen sich und dem System, auf dem es ausgeführt wird, konsistent ist. Dies kann beispielsweise nützlich sein, wenn Sie Jeedom nicht mit dem Internet verbinden und das verwendete Gerät keine PSTN-Batterie enthält.
@@ -34,21 +33,39 @@ Auf dieser Registerkarte finden Sie die Parameter für die Anpassung der Anzeige
 
 - **Heller und dunkler Desktop** : Hier können Sie ein helles und ein dunkles Thema für den Desktop auswählen.
 - **Helles und dunkles Handy** : Gleich wie oben für die Mobile-Version.
-- **Klares Thema von / bis** : Hier können Sie einen Zeitraum definieren, in dem das zuvor ausgewählte klare Thema verwendet wird. Aktivieren Sie jedoch die Option **Thema basierend auf der Zeit umschalten**.
-- **Helligkeitssensor**   : Nur mobile Schnittstelle, muss aktiviert werden *generischer zusätzlicher Sensor* in Chrom, Chromseite://flags.
-- **Hintergrundbilder ausblenden** : Ermöglicht das Ausblenden der Hintergrundbilder in den Szenarien, Objekten, Interaktionsseiten usw.
+- **Klares Thema von / bis** : Ermöglicht Ihnen, ein Zeitfenster zu definieren, in dem das zuvor ausgewählte Lichtthema verwendet wird. Aktivieren Sie jedoch die Option **Thema basierend auf der Zeit umschalten**.
+- **Helligkeitssensor**   : Nur mobile Schnittstelle, muss aktiviert werden *generischer zusätzlicher Sensor* in Chrom, Chrom Seite://flags.
 
 ### Tuiles
 
-- **Fliesen nicht horizontal** : Beschränkt die Breite der Kacheln alle x Pixel.
-- **Fliesen Nicht vertikal** : Beschränkt die Höhe der Kacheln alle x Pixel.
-- **Randfliesen** : Vertikaler und horizontaler Abstand zwischen Kacheln in Pixel.
+- **Nicht horizontal** : Beschränkt die Breite der Kacheln alle x Pixel.
+- **Nicht vertikal** : Beschränkt die Höhe der Kacheln alle x Pixel.
+- **Spanne** : Vertikaler und horizontaler Abstand zwischen Kacheln in Pixel.
+- **Vertikale Zentrierung von Fliesen** : Zentriert den Inhalt der Kacheln vertikal.
+- **Bunte Widget-Symbole** : Einfärben von Widget-Symbolen basierend auf ihrem Status. Veränderbar durch Szenario, *setColoredIcon* ('Symbolfärbung').
+- **Farbige Kategorien** : Einfärbung des Titels der Kacheln nach Kategorie.
+
+### Hintergrundbilder
+
+- **Hintergrundbilder anzeigen** : Zeigen Sie die Hintergrundbilder an, die auf den Seiten mit Szenarien, Objekten, Interaktionen usw. gefunden wurden.
+- **Unschärfe der Objekthintergründe** : Ermöglicht das automatische Verwischen der Hintergrundbilder von Objekten / Räumen.
+- **Dashboard-Bild** : Hintergrundbild für die Dashboard-Seiten (Abhängig von den Optionen des Objekts).
+- **Bildanalyse** : Hintergrundbild für die Seiten des Analysemenüs.
+- **Bildtools** : Hintergrundbild für die Seiten des Tools-Menüs.
+- **Deckkraft-Themenlicht** : Deckkraft von Hintergrundbildern im Lichtthema. Passen Sie die Helligkeit der Hintergrundbilder für eine bessere Lesbarkeit an.
+- **Deckkraft des dunklen Themas** : Deckkraft von Hintergrundbildern im dunklen Thema.  Passen Sie die Helligkeit der Hintergrundbilder für eine bessere Lesbarkeit an.
+
+### Options
+
+- **Tabellenanzeige** : Zeigt im Tabellenmodus die Seiten des Tools-Menüs und die unterstützten Plugins an.
+- **Position der Benachrichtigungen** : Position auf der Seite des Erscheinens von Benachrichtigungen.
+- **Dauer der Benachrichtigungen** : Dauer der Benachrichtigungsanzeige in Sekunden. 0, um sie nicht automatisch auszublenden.
 
 ### Personnalisation
 
-- **Aktivieren** : Aktivieren Sie die Verwendung der folgenden Optionen.
+- **Aktivieren Sie** : Aktivieren Sie die Verwendung der folgenden Optionen.
 - **Transparenz** : Zeigt Dashboard-Kacheln und einige Inhalte transparent an. 1 : völlig undurchsichtig, 0 : total transparent.
-- **Runde** : Zeigt Schnittstellenelemente mit abgerundeten Winkeln an. 0 : keine Rundung, 1 : maximale Rundung.
+- **Runden** : Zeigt Schnittstellenelemente mit abgerundeten Winkeln an. 0 : keine Rundung, 1 : maximale Rundung.
 - **Schatten deaktivieren** : Deaktiviert Schatten von Kacheln im Dashboard, in Menüs und bestimmten Oberflächenelementen.
 
 
@@ -65,7 +82,7 @@ Es ist unbedingt erforderlich, diesen wichtigen Teil von Jeedom korrekt zu konfi
 
 - **Interner Zugriff** : Informationen zum Beitritt zu Jeedom von Geräten im selben Netzwerk wie Jeedom (LAN))
     - **OK / NOK** : Gibt an, ob die interne Netzwerkkonfiguration korrekt ist.
-    - **Protokolle** : das zu verwendende Protokoll, oft HTTP.
+    - **Protokoll** : das zu verwendende Protokoll, oft HTTP.
     - **URL oder IP-Adresse** : Jeedom IP eingeben.
     - **Hafen** : der Port der Jeedom-Weboberfläche, in der Regel 80.
         Bitte beachten Sie, dass durch Ändern des Ports hier nicht der tatsächliche Jeedom-Port geändert wird, der gleich bleibt.
@@ -73,7 +90,7 @@ Es ist unbedingt erforderlich, diesen wichtigen Teil von Jeedom korrekt zu konfi
 
 - **Externer Zugriff** : Informationen, um Jeedom von außerhalb des lokalen Netzwerks zu erreichen. Nur auszufüllen, wenn Sie Jeedom DNS nicht verwenden.
     - **OK / NOK** : Gibt an, ob die externe Netzwerkkonfiguration korrekt ist.
-    - **Protokolle** : Protokoll für den Zugang im Freien.
+    - **Protokoll** : Protokoll für den Zugang im Freien.
     - **URL oder IP-Adresse** : Externe IP, falls behoben. Andernfalls geben Sie die URL an, die auf die externe IP-Adresse Ihres Netzwerks verweist.
     - **Ergänzen** : das Fragment einer zusätzlichen URL (Beispiel : / jeedom), um auf Jeedom zuzugreifen.
 
@@ -81,14 +98,14 @@ Es ist unbedingt erforderlich, diesen wichtigen Teil von Jeedom korrekt zu konfi
     - Aktivieren Sie das Kontrollkästchen Proxy aktivieren.
     - **Proxy-Adresse** : Geben Sie die Proxy-Adresse ein,
     - **Proxy-Port** : Geben Sie den Proxy-Port ein,
-    - **Login** : Geben Sie den Proxy-Login ein,
+    - **Anmeldung** : Geben Sie den Proxy-Login ein,
     - **Passwort** : Geben Sie das Passwort ein.
 
-> **Spitze**
+> **Trinkgeld**
 >
 > Wenn Sie sich in HTTPS befinden, ist der Port 443 (Standard) und in HTTP ist der Port 80 (Standard)). Um HTTPS von außen nutzen zu können, ist jetzt ein Letsencrypt-Plugin auf dem Markt erhältlich.
 
-> **Spitze**
+> **Trinkgeld**
 >
 > Um herauszufinden, ob Sie einen Wert im Feld festlegen müssen **Ergänzen**, Schauen Sie, wenn Sie sich in Ihrem Internetbrowser bei Jeedom anmelden, ob Sie / Jeedom (oder was auch immer) nach der IP hinzufügen müssen.
 
@@ -97,7 +114,7 @@ Es ist unbedingt erforderlich, diesen wichtigen Teil von Jeedom korrekt zu konfi
 - **Proxy-Markt** : Ermöglicht den Fernzugriff auf Ihr Jeedom, ohne dass ein DNS oder eine feste IP erforderlich ist oder die Ports Ihrer Internetbox geöffnet werden müssen.
     - **Verwenden von Jeedom DNS** : Aktiviert Jeedom DNS (beachten Sie, dass hierfür mindestens ein Service Pack erforderlich ist).
     - **DNS Status** : DNS-HTTP-Status.
-    - **Verwaltung** : Ermöglicht das Stoppen und Neustarten des Jeedom-DNS-Dienstes.
+    - **Management** : Ermöglicht das Stoppen und Neustarten des Jeedom-DNS-Dienstes.
 
 > **Wichtig**
 >
@@ -120,16 +137,16 @@ Es ist unbedingt erforderlich, diesen wichtigen Teil von Jeedom korrekt zu konfi
 
 ### Alertes
 
-- **Fügen Sie jedem Timeout eine Nachricht hinzu** : Fügen Sie eine Nachricht im Nachrichtencenter hinzu, wenn ein Gerät hineinfällt **Zeitüberschreitung**.
-- **Timeout-Reihenfolge** : Befehl eingeben **Nachricht** zu verwenden, wenn sich ein Gerät in befindet **Zeitüberschreitung**.
+- **Fügen Sie jedem Timeout eine Nachricht hinzu** : Fügen Sie eine Nachricht im Nachrichtencenter hinzu, wenn ein Gerät hineinfällt **Auszeit**.
+- **Timeout-Reihenfolge** : Befehl eingeben **Botschaft** zu verwenden, wenn sich ein Gerät in befindet **Auszeit**.
 - **Fügen Sie jeder Batterie in Warnung eine Nachricht hinzu** : Fügen Sie im Nachrichtencenter eine Nachricht hinzu, wenn der Akkuladestand eines Geräts eingelegt ist **Warnung**.
-- **Batteriebefehl in Warnung** : Befehl eingeben **Nachricht** zu verwenden, wenn sich das Gerät auf Batteriestand befindet **Warnung**.
-- **Fügen Sie jeder gefährdeten Batterie eine Nachricht hinzu** : Fügen Sie im Nachrichtencenter eine Nachricht hinzu, wenn der Akkuladestand eines Geräts eingelegt ist **Gefahr**.
-- **Befehl zur Batterie in Gefahr** : Befehl eingeben **Nachricht** zu verwenden, wenn sich das Gerät auf Batteriestand befindet **Gefahr**.
+- **Batteriebefehl in Warnung** : Befehl eingeben **Botschaft** zu verwenden, wenn sich das Gerät auf Batteriestand befindet **Warnung**.
+- **Fügen Sie jeder gefährdeten Batterie eine Nachricht hinzu** : Fügen Sie im Nachrichtencenter eine Nachricht hinzu, wenn der Akkuladestand eines Geräts eingelegt ist **Achtung**.
+- **Befehl zur Batterie in Gefahr** : Befehl eingeben **Botschaft** zu verwenden, wenn sich das Gerät auf Batteriestand befindet **Achtung**.
 - **Fügen Sie jeder Warnung eine Nachricht hinzu** : Fügen Sie eine Nachricht im Nachrichtencenter hinzu, wenn eine Bestellung alarmiert wird **Warnung**.
-- **Befehl zur Warnung** : Befehl eingeben **Nachricht** zu verwenden, wenn eine Bestellung in Alarmbereitschaft geht **Warnung**.
-- **Fügen Sie jeder Gefahr eine Nachricht hinzu** : Fügen Sie eine Nachricht im Nachrichtencenter hinzu, wenn eine Bestellung alarmiert wird **Gefahr**.
-- **Befehl zur Gefahr** : Befehl eingeben **Nachricht** zu verwenden, wenn eine Bestellung in Alarmbereitschaft geht **Gefahr**.
+- **Befehl zur Warnung** : Befehl eingeben **Botschaft** zu verwenden, wenn eine Bestellung in Alarmbereitschaft geht **Warnung**.
+- **Fügen Sie jeder Gefahr eine Nachricht hinzu** : Fügen Sie eine Nachricht im Nachrichtencenter hinzu, wenn eine Bestellung alarmiert wird **Achtung**.
+- **Befehl zur Gefahr** : Befehl eingeben **Botschaft** zu verwenden, wenn eine Bestellung in Alarmbereitschaft geht **Achtung**.
 
 ### Logs
 
@@ -142,20 +159,7 @@ Im Folgenden finden Sie eine Tabelle zur Feinverwaltung der Protokollstufe der w
 
 ## Registerkarte &quot;Zusammenfassungen&quot;
 
-Objektzusammenfassungen hinzufügen. Diese Informationen werden oben rechts in der Jeedom-Menüleiste oder neben Objekten angezeigt :
-
-- **Schlüssel** : Schlüssel zur Zusammenfassung, vor allem nicht zu berühren.
-- **Name** : Abstrakter Name.
-- **Berechnung** : Berechnungsmethode, kann vom Typ sein :
-    - **Summe** : summiere die verschiedenen Werte,
-    - **Durchschnitt** : Durchschnittswerte,
-    - **Text** : Zeigen Sie den Wert wörtlich an (insbesondere für diejenigen vom Typ string).
-- **Symbol** : Zusammenfassungssymbol.
-- **Unit** : Zusammenfassungseinheit.
-- **Zählverfahren** : Wenn Sie Binärdaten zählen, müssen Sie diesen Wert in Binärdaten setzen. Wenn Sie beispielsweise die Anzahl der leuchtenden Lampen zählen, aber nur den Wert des Dimmers (0 bis 100) haben, müssen Sie Binärdaten eingeben, so wie Jeedom dies berücksichtigt hat Wenn der Wert größer als 1 ist, leuchtet die Lampe.
-- **Zeigen Sie an, ob der Wert 0 ist** : Aktivieren Sie dieses Kontrollkästchen, um den Wert anzuzeigen, auch wenn er 0 ist.
-- **Link zu einem virtuellen** : Startet die Erstellung virtueller Aufträge, deren Wert denen der Zusammenfassung entspricht.
-- **Zusammenfassung löschen** : Die letzte Schaltfläche ganz rechts löscht die Zusammenfassung aus der Zeile.
+[Siehe Abstracts-Dokumentation.](/de_DE/concept/summary)
 
 ## Registerkarte Ausrüstung
 
@@ -177,10 +181,10 @@ Viele Bestellungen können protokolliert werden. So erhalten Sie unter Analyse �
 - **Schwellenwert Berechnung Trend nach oben** : Gleiches gilt für den Aufstieg.
 - **Standard Anzeigezeitraum der Grafiken** : Zeitraum, der standardmäßig verwendet wird, wenn Sie den Verlauf einer Bestellung anzeigen möchten. Je kürzer der Zeitraum, desto schneller zeigt Jeedom das angeforderte Diagramm an.
 
-> **Notiz**
+> **Hinweis**
 >
 > Der erste Parameter **Zeige Statistiken über Widgets** ist möglich, aber standardmäßig deaktiviert, da dadurch die Anzeigezeit des Dashboards erheblich verlängert wird. Wenn Sie diese Option aktivieren, stützt sich Jeedom standardmäßig auf Daten der letzten 24 Stunden, um diese Statistiken zu berechnen.
-> Die Trendberechnungsmethode basiert auf der Berechnung der kleinsten Quadrate (siehe [hier](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s) für das Detail).
+> Die Trendberechnungsmethode basiert auf der Berechnung der kleinsten Quadrate (siehe [Hier](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s) für das Detail).
 
 ### Push
 
@@ -207,15 +211,15 @@ Linkgrafiken konfigurieren. Über diese Links können Sie in Form eines Diagramm
 - **Tiefe für Befehle** : Gleiches gilt für Bestellungen.
 - **Tiefe für Variablen** : Gleiches gilt für Variablen.
 - **Parameter Prerender** : Ermöglicht es Ihnen, auf das Layout des Diagramms zu reagieren.
-- **Parameter machen** : Idem.
+- **Parameter machen** : Gleich.
 
 ## Registerkarte &quot;Interaktionen&quot;
 
 Auf dieser Registerkarte können Sie globale Parameter für die Interaktionen festlegen, die Sie unter Extras → Interaktionen finden.
 
-> **Spitze**
+> **Trinkgeld**
 >
-> Um das Interaktionsprotokoll zu aktivieren, gehen Sie zur Registerkarte Einstellungen → System → Konfiguration : Protokolle, dann überprüfen **Debuggen** in der unteren Liste. Achtung : Die Protokolle sind dann sehr ausführlich !
+> Um das Interaktionsprotokoll zu aktivieren, gehen Sie zur Registerkarte Einstellungen → System → Konfiguration : Protokolle, dann überprüfen **Debuggen** in der unteren Liste. Warnung : Die Protokolle sind dann sehr ausführlich !
 
 ### Allgemein
 
@@ -231,9 +235,9 @@ Hier haben Sie drei Parameter :
 
 ### Automatische Interaktion, kontextuelle & Warnung
 
--   Die **automatische Interaktionen** Erlaube Jeedom, zu versuchen, eine Interaktionsanforderung zu verstehen, auch wenn keine definiert ist. Er wird dann nach einem Objektnamen und / oder einer Ausrüstung suchen und / oder versuchen, so gut wie möglich zu reagieren.
+-   Das **automatische Interaktionen** Erlaube Jeedom, zu versuchen, eine Interaktionsanforderung zu verstehen, auch wenn keine definiert ist. Er wird dann nach einem Objektnamen und / oder einer Ausrüstung suchen und / oder versuchen, so gut wie möglich zu reagieren.
 
--   Die **kontextuelle Interaktionen** Sie können beispielsweise mehrere Anforderungen verketten, ohne alles zu wiederholen :
+-   Das **kontextuelle Interaktionen** Sie können beispielsweise mehrere Anforderungen verketten, ohne alles zu wiederholen :
     - *Jeedom hält den Kontext :*
         - *Sie* : Wie viel ist er im Raum ?
         - *Jeedom* : Temperatur 25.2 ° C.
@@ -244,9 +248,9 @@ Hier haben Sie drei Parameter :
         - *Jeedom* : Temperatur 23.6 ° C, Temperatur 27.2 ° C.
 -   Typ Interaktionen **Lassen Sie uns wissen** Erlauben Sie Jeedom, Sie zu warnen, wenn eine Bestellung einen bestimmten Wert überschreitet / fällt oder wert ist.
     - *Sie* : Benachrichtigen Sie mich, wenn die Wohnzimmertemperatur 25 ° C überschreitet ?
-    - *Jeedom* : OK (*Sobald die Wohnzimmertemperatur 25 ° C überschreitet, wird Jeedom es Ihnen einmal mitteilen*)
+    - *Jeedom* : In Ordnung (*Sobald die Wohnzimmertemperatur 25 ° C überschreitet, wird Jeedom es Ihnen einmal mitteilen*)
 
-> **Notiz**
+> **Hinweis**
 >
 > Standardmäßig antwortet Jeedom Ihnen auf demselben Kanal wie dem, den Sie verwendet haben, um Sie zu benachrichtigen. Wenn es keinen findet, wird der auf dieser Registerkarte angegebene Standardbefehl verwendet : **Standardretouren**.
 
@@ -264,7 +268,7 @@ Hier sind die verschiedenen Optionen verfügbar :
 - **Synonym für Bestellungen** : Liste der Synonyme für Befehle.
 - **Synonym für Zusammenfassungen** : Liste der Synonyme für Zusammenfassungen.
 - **Maximale Schieberegler Synonym** : Synonym für die maximale Platzierung eines Schiebereglerbefehls (ex öffnet sich, um den Schlafzimmerverschluss zu öffnen ⇒ Schlafzimmerverschluss bei 100%).
-- **Mindestschieberegler Synonym** : Synonym für das Minimieren eines Schiebereglerbefehls (ex schließt, um den Schlafzimmerverschluss zu schließen ⇒ Schlafzimmerverschluss bei 0%).
+- **Mindestschieberegler Synonym** : Synonym für das Setzen eines Schiebereglerbefehls auf ein Minimum (z. B. Schließen der Kammerklappe schließen ⇒ Kammerklappe bei 0%).
 
 ## Registerkarte &quot;Sicherheit&quot;
 
@@ -272,7 +276,7 @@ Hier sind die verschiedenen Optionen verfügbar :
 
 - **LDAP-Authentifizierung aktivieren** : Aktivieren Sie die Authentifizierung über ein AD (LDAP)).
 - **Host** : Server, der die AD hostet.
-- **Domain** : Domain Ihrer AD.
+- **Feld** : Domain Ihrer AD.
 - **Basis-DN** : DN Basis Ihrer AD.
 - **Benutzername** : Benutzername für Jeedom, um sich bei AD anzumelden.
 - **Passwort** : Passwort für Jeedom, um eine Verbindung zu AD herzustellen.
@@ -319,12 +323,12 @@ Kaution verwendet, um Jeedom mit Github zu verbinden.
 
 #### Market
 
-Einzahlung, die verwendet wird, um Jeedom mit dem Markt zu verbinden. Es wird dringend empfohlen, diese Einzahlung zu verwenden. Achtung : Jede Anfrage nach Unterstützung kann abgelehnt werden, wenn Sie eine andere Anzahlung als diese verwenden.
+Einzahlung, die verwendet wird, um Jeedom mit dem Markt zu verbinden. Es wird dringend empfohlen, diese Einzahlung zu verwenden. Warnung : Jede Anfrage nach Unterstützung kann abgelehnt werden, wenn Sie eine andere Anzahlung als diese verwenden.
 
 - **Adresse** : Adresse du Markt.(https://www.Jeedom.com/market).
 - **Benutzername** : Ihr Benutzername auf dem Markt.
 - **Passwort** : Ihr Marktpasswort.
-- **[Backup Cloud] Name** : Name Ihres Cloud-Backups (die Aufmerksamkeit muss für jedes Jeedom eindeutig sein, wenn das Risiko besteht, dass es zwischen ihnen abstürzt).
+- **[Backup Cloud] Name** : Name Ihres Cloud-Backups (Achtung muss für jeden Jeedom eindeutig sein, da die Gefahr besteht, dass sie ineinander stürzen).
 - **[Backup Cloud] Passwort** : Cloud-Backup-Passwort. WICHTIG Sie dürfen es nicht verlieren, es gibt keine Möglichkeit, es wiederherzustellen. Ohne sie können Sie Ihre Freiheit nicht mehr wiederherstellen.
 - **[Backup Cloud] Häufigkeit der vollständigen Sicherung** : Häufigkeit der vollständigen Cloud-Sicherung. Eine vollständige Sicherung ist länger als eine inkrementelle (die nur die Unterschiede sendet). Es wird empfohlen, 1 pro Monat zu tun.
 
@@ -334,16 +338,16 @@ Einzahlung, die es ermöglicht, automatisch ein Backup von Jeedom auf einer Samb
 
 - **\ [Backup \] IP** : Samba Server IP.
 - **\ [Backup \] Benutzer** : Benutzername für die Verbindung (anonyme Verbindungen sind nicht möglich). Der Benutzer muss über Lese- UND Schreibrechte für das Zielverzeichnis verfügen.
-- **\ [Backup \] Passwort** : Benutzerpasswort.
+- **\ [Backup \] Passwort** : Benutzerpasswort (bitte beachten Sie, dass Sonderzeichen nicht zulässig sind).
 - **\ [Backup \] Freigabe** : Pfad zum Teilen (achten Sie darauf, auf der Freigabeebene anzuhalten).
 - **\ [Backup \] Pfad** : Pfad in der Freigabe (relativ zu setzen), muss dieser vorhanden sein.
 
-> **Notiz**
+> **Hinweis**
 >
 > Wenn der Pfad zu Ihrem Samba-Sicherungsordner lautet :
 > \\\\ 192.168.0.1 \\ Backups \\ Hausautomation \\ Jeedom Dann IP = 192.168.0.1, Sharing = //192.168.0.1 / Backups, Path = Home Automation / Jeedom
 
-> **Notiz**
+> **Hinweis**
 >
 > Wenn Sie die Samba-Freigabe wie oben beschrieben validieren, wird im Abschnitt Einstellungen → System → Sicherungen von Jeedom eine neue Form der Sicherung angezeigt. Durch Aktivieren sendet Jeedom es beim nächsten Backup automatisch. Ein Test ist durch manuelle Sicherung möglich.
 
@@ -383,18 +387,18 @@ Ermöglicht die Überwachung und Bearbeitung des Jeedom-Cache :
 
 Hier finden Sie die Liste der verschiedenen API-Schlüssel, die in Ihrem Jeedom verfügbar sind. Core verfügt über zwei API-Schlüssel :
 
--   ein General : Vermeiden Sie es so oft wie möglich,
--   und eine andere für Profis : wird für das Flottenmanagement verwendet. Es kann leer sein.
--   Dann finden Sie einen API-Schlüssel pro Plugin, der ihn benötigt.
+- ein General : Vermeiden Sie es so oft wie möglich,
+- und eine andere für Profis : wird für das Flottenmanagement verwendet. Es kann leer sein.
+- Dann finden Sie einen API-Schlüssel pro Plugin, der ihn benötigt.
 
 Für jeden API-Plugin-Schlüssel sowie für HTTP-, JsonRPC- und TTS-APIs können Sie deren Umfang definieren :
 
 - **Untauglich** : API-Schlüssel kann nicht verwendet werden,
-- **White IP** : Es ist nur eine Liste von IPs autorisiert (siehe Einstellungen → System → Konfiguration : Netzwerke),
+- **White IP** : Es ist nur eine Liste von IPs autorisiert (siehe Einstellungen → System → Konfiguration : Sicherheit),
 - **Localhost** : Es sind nur Anforderungen von dem System zulässig, auf dem Jeedom installiert ist,
-- **Aktiv** : Ohne Einschränkungen kann jedes System mit Zugriff auf Ihr Jeedom auf diese API zugreifen.
+- **Aktiviert** : Ohne Einschränkungen kann jedes System mit Zugriff auf Ihr Jeedom auf diese API zugreifen.
 
-Für jeden Plugin-API-Schlüssel können Sie die Verwendung von Kernmethoden (allgemein) verbieten, um sie auf ihre einzige eingebettete Methode zu beschränken (seien Sie vorsichtig, einige Plugins wie Mobile oder Jeelink benötigen unbedingt Kernmethoden)
+Für jeden Plugin-API-Schlüssel können Sie Kernmethoden (allgemein) verbieten, um sie auf ihre einzige eingebettete Methode zu beschränken (achten Sie darauf, dass einige Plugins wie Mobile oder Jeelink unbedingt Kernmethoden benötigen)
 
 ## Onglet &gt;;\._OS/DB
 
@@ -405,8 +409,8 @@ Für jeden Plugin-API-Schlüssel können Sie die Verwendung von Kernmethoden (al
 
 ### Systemprüfungen
 
-- **Allgemeine Überprüfung** : Starten wir den Jeedom-Konsistenztest.
-- **Wiedereinsetzung von Rechten** : Ermöglicht es Ihnen, die korrekten Rechte auf die Jeedom Core-Verzeichnisse und -Dateien erneut anzuwenden.
+- **Allgemeine Überprüfung** : Ermöglicht die Durchführung eines Jeedom-Konsistenztests.
+- **Wiedereinsetzung von Rechten** : Ermöglicht es Ihnen, die richtigen Rechte erneut auf die Verzeichnisse und Dateien des Jeedom Core anzuwenden.
 - **Systempakete prüfen** : Ermöglicht das Starten einer Überprüfung der installierten Pakete.
 - **Datenbanküberprüfung** : Ermöglicht das Starten einer Überprüfung in der Jeedom-Datenbank und das Korrigieren von Fehlern, falls erforderlich.
 - **Datenbankbereinigung** : Führt eine Datenbankprüfung durch und bereinigt alle nicht verwendeten Einträge.
@@ -416,5 +420,6 @@ Für jeden Plugin-API-Schlüssel können Sie die Verwendung von Kernmethoden (al
 
 - **Datei-Editor** : Ermöglicht den Zugriff auf verschiedene Betriebssystemdateien und deren Bearbeitung, Löschung oder Erstellung.
 - **Systemverwaltung** : Bietet Zugriff auf eine Systemverwaltungsschnittstelle. Es ist eine Art Shell-Konsole, in der Sie die nützlichsten Befehle starten können, insbesondere um Informationen über das System zu erhalten.
+- **Masseneditor** : Massenbearbeitungswerkzeug für Ausrüstung, Befehle, Objekte, Szenarien.
 - **Datenbankverwaltung** : Ermöglicht den Zugriff auf die Jeedom-Datenbank. Sie können dann Befehle im oberen Feld starten.
 - **Benutzername / Passwort** : Benutzername und Passwort für den Zugriff auf die von Jeedom verwendete Datenbank.

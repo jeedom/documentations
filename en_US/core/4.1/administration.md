@@ -12,7 +12,6 @@ In this tab we find general information about Jeedom :
 - **Name of your Jeedom** : Identify your Jeedom, especially in the Market. It can be reused in scenarios or to identify a backup.
 - **Language** : Language used in your Jeedom.
 - **System** : Type of hardware on which the system where your Jeedom runs is installed.
-- **Generate translations** : Generate translations, beware, this can slow down your system. Option especially useful for developers.
 - **Date and time** : Choose your time zone. You can click on **Force Time Synchronization** to restore the wrong time displayed at the top right.
 - **Optional Time Server** : Indicates which time server should be used if you click on **Force Time Synchronization** (to be reserved for experts).
 - **Ignore time checking** : tells Jeedom not to check if the time is consistent between itself and the system it is running on. May be useful for example, if you do not connect Jeedom to the Internet and it does not have a PSTN battery on the equipment used.
@@ -24,7 +23,7 @@ Below, several parameters that centralize information that can be used by plugin
 
 - Contact information : Latitude, Longitude and Altitude of your home / site.
 - Address : Mailing address of your home / site.
-- Miscellaneous : Surface and number of occupants of your home / site.
+- Various : Surface and number of occupants of your home / site.
 
 ## Interface tab
 
@@ -34,15 +33,33 @@ In this tab you will find the display customization parameters.
 
 - **Light and dark desktop** : Lets you choose a light and dark theme for the Desktop.
 - **Light and dark mobile** : same as above for the Mobile version.
-- **Clear theme from / to** : Allows you to define a time period during which the previously chosen clear theme will be used. However, check the option **Toggle theme based on time**.
+- **Clear theme from / to** : Allows you to define a time slot during which the light theme chosen previously will be used. However, check the option **Toggle theme based on time**.
 - **Brightness sensor**   : Mobile interface only, requires activating *generic extra sensor* in chrome, chrome page://flags.
-- **Hide background images** : Allows you to hide the background images found in the scenarios, objects, interactions pages, etc.
 
 ### Tuiles
 
-- **Tiles Not horizontal** : Constrains the width of the tiles every x pixels.
-- **Tiles Not vertical** : Constrains the height of the tiles every x pixels.
-- **Margin tiles** : Vertical and horizontal space between tiles, in pixels.
+- **Not horizontal** : Constrains the width of the tiles every x pixels.
+- **Not vertical** : Constrains the height of the tiles every x pixels.
+- **Margin** : Vertical and horizontal space between tiles, in pixels.
+- **Vertical centering of tiles** : Vertically centers the content of the tiles.
+- **Colorful widget icons** : Coloring widget icons based on their state. Modifiable by scenario, *setColoredIcon* ('Icon coloring').
+- **Colored categories** : Colorization of the title of the tiles according to the category.
+
+### Background images
+
+- **Show background images** : Display the background images found in the scenarios, objects, interactions, etc. pages.
+- **Blur of object backgrounds** : Allows to automatically blur the background images of objects / rooms.
+- **Dashboard Image** : Background image for the Dashboard pages (Depending on the options of the object).
+- **Image Analysis** : Background image for the pages of the Analysis menu.
+- **Image Tools** : Background image for the pages of the Tools menu.
+- **Opacity Theme Light** : Opacity of background images in Light theme. Adjust according to the brightness of the background images for better readability.
+- **Dark theme opacity** : Opacity of background images in Dark theme.  Adjust according to the brightness of the background images for better readability.
+
+### Options
+
+- **Table display** : Displays in table mode the pages of the tools menu and the supported plugins.
+- **Position of notifications** : Position on the page of the appearance of notifications.
+- **Duration of notifications** : Duration of notification display in seconds. 0 so as not to automatically hide them.
 
 ### Personnalisation
 
@@ -67,7 +84,7 @@ It is absolutely necessary to correctly configure this important part of Jeedom 
     - **OK / NOK** : indicates if the internal network configuration is correct.
     - **Protocol** : the protocol to use, often HTTP.
     - **URL or IP address** : Jeedom IP to enter.
-    - **Port** : the port of the Jeedom web interface, generally 80.
+    - **Harbor** : the port of the Jeedom web interface, generally 80.
         Please note changing the port here does not change the actual Jeedom port which will remain the same.
     - **Complement** : the fragment of additional URL (example : / jeedom) to access Jeedom.
 
@@ -120,16 +137,16 @@ It is absolutely necessary to correctly configure this important part of Jeedom 
 
 ### Alertes
 
-- **Add a message to each Timeout** : Add a message in the message center if a device falls in **Timeout**.
-- **Timeout command** : Type command **Message** to be used if an equipment is in **Timeout**.
-- **Add a message to each Battery in Warning** : Add a message in the message center if a device has its battery level in **Warning**.
-- **Battery command in Warning** : Type command **Message** to be used if equipment at its battery level **Warning**.
-- **Add a message to each Battery in Danger** : Add a message in the message center if a device has its battery level in **Danger**.
-- **Command on Battery in Danger** : Type command **Message** to be used if equipment at its battery level **Danger**.
-- **Add a message to each Warning** : Add a message in the message center if a command goes on alert **Warning**.
-- **Command on Warning** : Type command **Message** to use if a command goes on alert **Warning**.
-- **Add a message to each Danger** : Add a message in the message center if a command goes on alert **Danger**.
-- **Command on Danger** : Type command **Message** to use if a command goes on alert **Danger**.
+- **Add a message to each Timeout** : Add a message in the message center if a device falls in **timeout**.
+- **Timeout command** : Type command **message** to be used if an equipment is in **timeout**.
+- **Add a message to each Battery in Warning** : Add a message in the message center if a device has its battery level in **warning**.
+- **Battery command in Warning** : Type command **message** to be used if equipment at its battery level **warning**.
+- **Add a message to each Battery in Danger** : Add a message in the message center if a device has its battery level in **danger**.
+- **Command on Battery in Danger** : Type command **message** to be used if equipment at its battery level **danger**.
+- **Add a message to each Warning** : Add a message in the message center if a command goes on alert **warning**.
+- **Command on Warning** : Type command **message** to use if a command goes on alert **warning**.
+- **Add a message to each Danger** : Add a message in the message center if a command goes on alert **danger**.
+- **Command on Danger** : Type command **message** to use if a command goes on alert **danger**.
 
 ### Logs
 
@@ -142,20 +159,7 @@ Below you will find a table for finely managing the log level of essential eleme
 
 ## Summaries tab
 
-Add object summaries. This information is displayed at the top right of the Jeedom menu bar, or next to objects :
-
-- **Key** : Key to the summary, especially not to touch.
-- **Name** : Abstract name.
-- **Calculation** : Calculation method, can be of type :
-    - **Sum** : sum the different values,
-    - **Average** : averages values,
-    - **Text** : display the value verbatim (especially for those of type string).
-- **Icon** : Summary icon.
-- **Unit** : Summary unit.
-- **Counting method** : If you count a binary data then you have to put this value in binary, example if you count the number of lights on but you just have the value of the dimmer (0 to 100), then you have to put binary, like that Jeedom considered that if the value is greater than 1, then the lamp is on.
-- **Show if value is 0** : Check this box to display the value, even when it is 0.
-- **Link to a virtual** : Launches the creation of virtual command having for value those of the summary.
-- **Delete summary** : The last button, on the far right, deletes the summary from the line.
+[See abstracts documentation.](/en_US/concept/summary)
 
 ## Equipment tab
 
@@ -177,7 +181,7 @@ Many command can be logged. Thus, in Analysis → History, you get graphs repres
 - **Upper trend calculation threshold** : Same thing for the rise.
 - **Display period graphics by default** : Period which is used by default when you want to display the history of a command. The shorter the period, the faster Jeedom will display the requested graph.
 
-> **NOTE**
+> **Note**
 >
 > The first parameter **Display widget statistics** is possible but disabled by default because it significantly extends the display time of the dashboard. If you activate this option, by default, Jeedom relies on data from the past 24 hours to calculate these statistics.
 > The trend calculation method is based on the least squares calculation (see [here](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s) for the detail).
@@ -215,13 +219,13 @@ This tab allows you to set global parameters concerning the interactions that yo
 
 > **Tip**
 >
-> To activate the interaction log, go to the Settings → System → Configuration tab : Logs, then check **Debug** in the bottom list. Be careful : the logs will then be very verbose !
+> To activate the interaction log, go to the Settings → System → Configuration tab : Logs, then check **Debug** in the bottom list. Warning : the logs will then be very verbose !
 
 ### Main
 
 Here you have three parameters :
 
-- **Sensibility** : there are 4 levels of correspondence (The sensitivity goes from 1 (corresponds exactly) to 99) for
+- **Sensitivity** : there are 4 levels of correspondence (The sensitivity goes from 1 (corresponds exactly) to 99) for
     -   1 word : match level for single word interactions.
     -   2 words : the match level for two-word interactions.
     -   3 words : the match level for three-word interactions.
@@ -244,9 +248,9 @@ Here you have three parameters :
         - *Jeedom* : Temperature 23.6 ° C, Temperature 27.2 ° C
 -   Type interactions **Warn me** allow to ask Jeedom to warn you if a command exceeds / falls or is worth a certain value.
     - *You* : Notify me if the living room temperature exceeds 25 ° C ?
-    - *Jeedom* : Ok (*As soon as the living room temperature exceeds 25 ° C, Jeedom will tell you, once*)
+    - *Jeedom* : Okay (*As soon as the living room temperature exceeds 25 ° C, Jeedom will tell you, once*)
 
-> **NOTE**
+> **Note**
 >
 > By default Jeedom will answer you by the same channel as the one you used to ask it to notify you. If it does not find one, it will then use the default command specified in this tab : **Default return command**.
 
@@ -264,7 +268,7 @@ Here are the different options available :
 - **Synonym for commands** : List of synonyms for commands.
 - **Synonym for summaries** : List of synonyms for summaries.
 - **Synonym maximum slider command** : Synonym for placing a slider type command to the maximum (ex opens to opens the bedroom shutter ⇒ bedroom shutter at 100%).
-- **Synonym minimum slider command** : Synonym for putting a slider type command to the minimum (ex closes to close the bedroom shutter ⇒ bedroom shutter at 0%).
+- **Synonym minimum slider command** : Synonym for setting a slider type command to a minimum (e.g. close to close the chamber shutter ⇒ chamber shutter at 0%).
 
 ## Security tab
 
@@ -272,7 +276,7 @@ Here are the different options available :
 
 - **Enable LDAP authentication** : enable authentication through an AD (LDAP).
 - **Host** : server hosting the AD.
-- **Domain** : domain of your AD.
+- **Field** : domain of your AD.
 - **DN base** : DN base of your AD.
 - **Username** : username for Jeedom to log into AD.
 - **Password** : password for Jeedom to connect to AD.
@@ -319,31 +323,31 @@ Deposit used to connect Jeedom to Github.
 
 #### Market
 
-Deposit used to connect Jeedom to the market, it is strongly advised to use this deposit. Be careful : any request for support may be refused if you use a deposit other than this one.
+Deposit used to connect Jeedom to the market, it is strongly advised to use this deposit. Warning : any request for support may be refused if you use a deposit other than this one.
 
 - **Address** : Address du Market.(https://www.Jeedom.com/market).
 - **Username** : Your Username on the Market.
 - **Password** : Your Market password.
-- **[Backup cloud] Name** : Name of your cloud backup (attention must be unique for each Jeedom at risk of it crashing between them).
+- **[Backup cloud] Name** : Name of your cloud backup (attention must be unique for each Jeedom under risk of them crashing into each other).
 - **[Backup cloud] Password** : Cloud backup password. IMPORTANT you must not lose it, there is no way to recover it. Without it you will no longer be able to restore your Jeedom.
 - **[Backup cloud] Frequency full backup** : Frequency of full cloud backup. A full backup is longer than an incremental one (which only sends the differences). It is recommended to do 1 per month.
 
 #### Samba
 
-Deposit allowing to automatically send a backup of Jeedom on a Samba share (ex : NAS Synology).
+Deposit allowing to automatically send a backup of Jeedom on a Samba share (ex : Synology NAS).
 
 - **\ [Backup \] IP** : Samba server IP.
 - **\ [Backup \] User** : Username for connection (anonymous connections are not possible). The user must have read AND write rights on the destination directory.
-- **\ [Backup \] Password** : User password.
+- **\ [Backup \] Password** : User password (please note that special characters are not allowed).
 - **\ [Backup \] Sharing** : Path to sharing (be careful to stop at the sharing level).
 - **\ [Backup \] Path** : Path in the sharing (to put in relative), this must exist.
 
-> **NOTE**
+> **Note**
 >
 > If the path to your samba backup folder is :
 > \\\\ 192.168.0.1 \\ Backups \\ Home automation \\ Jeedom Then IP = 192.168.0.1, Sharing = //192.168.0.1 / Backups, Path = Home automation / Jeedom
 
-> **NOTE**
+> **Note**
 >
 > When validating the Samba share, as described above, a new form of backup appears in the Settings → System → Backups section of Jeedom. By activating it, Jeedom will send it automatically during the next backup. A test is possible by performing a manual backup.
 
@@ -383,18 +387,18 @@ Allows monitoring and acting on the Jeedom cache :
 
 Here you find the list of the different API keys available in your Jeedom. Core has two API keys :
 
--   a general : as much as possible, avoid using it,
--   and another for professionals : used for fleet management. It can be empty.
--   Then you will find one API key per plugin that needs it.
+- a general : as much as possible, avoid using it,
+- and another for professionals : used for fleet management. It can be empty.
+- Then you will find one API key per plugin that needs it.
 
 For each API plugin key, as well as for HTTP, JsonRPC and TTS APIs, you can define their scope :
 
 - **Disabled** : API key cannot be used,
-- **Whitelist** : only a list of IPs is authorized (see Settings → System → Configuration : Networks),
+- **Whitelist** : only a list of IPs is authorized (see Settings → System → Configuration : Security),
 - **Localhost** : only requests from the system on which Jeedom is installed are allowed,
 - **Enabled** : no restrictions, any system with access to your Jeedom will be able to access this API.
 
-For each plugin API key you can prohibit them from core methods (general) to limit them to their only embedded method (be careful some plugin like mobile or jeelink absolutely need core methods)
+For each plugin API key you can prohibit them from core methods (general) to limit them to their only embedded method (be careful some plugins like mobile or jeelink absolutely need core methods)
 
 ## Onglet &gt;\_OS/DB
 
@@ -405,8 +409,8 @@ For each plugin API key you can prohibit them from core methods (general) to lim
 
 ### System Checks
 
-- **General verification** : Lets launch Jeedom consistency test.
-- **Reinstatement of rights** : Enables you to reapply the correct rights to the Jeedom Core directories and files.
+- **General verification** : Allows you to run a Jeedom consistency test.
+- **Reinstatement of rights** : Allows you to re-apply the right rights to the directories and files of the Jeedom Core.
 - **Checking system packages** : Allows you to launch a verification of installed packages.
 - **Database verification** : Allows to launch a verification on the Jeedom database and to correct errors if necessary.
 - **Database cleanup** : Runs a database check and cleans up any unused entries.
@@ -416,5 +420,6 @@ For each plugin API key you can prohibit them from core methods (general) to lim
 
 - **File Editor** : Allows access to various operating system files and to edit or delete or create them.
 - **System Administration** : Provides access to a system administration interface. It is a kind of shell console in which you can launch the most useful commands, in particular to obtain information on the system.
+- **Mass editor** : Mass editing tool for equipment, commands, objects, scenarios.
 - **Database Administration** : Allows access to the Jeedom database. You can then launch commands in the top field.
 - **Username / Password** : Username and password to access the database used by Jeedom.

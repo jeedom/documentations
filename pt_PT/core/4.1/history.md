@@ -1,55 +1,67 @@
 # Historique
 **Análise → História**
 
-Parte importante no software : a parte da historização, uma lembrança verdadeira. É possível no Jeedom registrar qualquer comando do tipo de informação (binário ou digital). Isso permitirá que você, por exemplo, registre uma curva de temperatura, consumo, aberturas de portas, etc
+Parte importante no software : a parte da historização, uma lembrança verdadeira. É possível no Jeedom registrar qualquer comando do tipo de informação (binário ou digital). Isso permitirá, por exemplo, registrar uma curva de temperatura, consumo, aberturas de uma porta, etc.
 
 ![Histórico](./images/history.gif)
 
-### Principe
-
-Aqui é descrito o princípio de historicização de Jeedom. Você só precisa entender isso se estiver com problemas de histórico ou quiser alterar as configurações de histórico. As configurações padrão são boas na maioria dos casos.
+### Princípio de historização
 
 ### Archivage
 
-O arquivamento de dados permite que o Jeedom reduza a quantidade de dados armazenados na memória. Isso permite não usar muito espaço e não diminui a velocidade do sistema. De fato, se você mantiver todas as medidas, isso fará com que mais pontos sejam exibidos e, portanto, poderá aumentar consideravelmente os tempos para renderizar um gráfico. Se houver muitos pontos, pode até causar uma falha na exibição do gráfico.
+O arquivamento de dados permite que a Jeedom reduza a quantidade de dados mantidos na memória. Isso permite não usar muito espaço e não diminui a velocidade do sistema. De fato, se você mantiver todas as medidas, isso fará com que mais pontos sejam exibidos e, portanto, poderá aumentar consideravelmente os tempos para renderizar um gráfico. Se houver muitos pontos, pode até causar uma falha na exibição do gráfico.
 
 O arquivamento é uma tarefa que começa à noite e compacta os dados recuperados durante o dia. Por padrão, o Jeedom recupera todos os dados antigos de 2 horas e faz pacotes de 1 hora (uma média, um mínimo ou um máximo, dependendo das configurações). Portanto, aqui temos dois parâmetros, um para o tamanho do pacote e outro para saber quando fazê-lo (por padrão, são pacotes de 1 hora com dados com mais de 2 horas)).
 
 > **Dica**
 >
-> Se você seguiu bem, deve ter alta precisão nas últimas 2 horas. No entanto, quando me conecto às 17h, tenho uma precisão nas últimas 17 horas. Porque ? De fato, para evitar consumir recursos desnecessariamente, a tarefa de arquivamento ocorre apenas uma vez por dia, à noite.
+> Se você seguiu bem, deve ter alta precisão nas últimas 2 horas. No entanto, quando me conecto às 17h, tenho uma precisão nas últimas 17 horas. Por quê ? De fato, para evitar consumir recursos desnecessariamente, a tarefa de arquivamento ocorre apenas uma vez por dia, à noite.
 
-> **IMPORTANTE**
+> **Importante**
 >
-> Obviamente, esse princípio de arquivamento se aplica apenas a comandos do tipo digital; nos comandos do tipo binário, o Jeedom mantém apenas as datas de mudança de estado.
+> Obviamente, esse princípio de arquivamento se aplica apenas a pedidos digitais. Em pedidos de tipo binário, Jeedom mantém apenas as datas de mudança de estado.
 
 ### Visualizando um Gráfico
 
 Existem várias maneiras de acessar o histórico :
 
 - Clicando no comando desejado em um widget,
-- Ao acessar a página de histórico, que permite sobrepor diferentes curvas e combinar estilos (área, curva, barra),
+- Acessando a página de histórico que permite sobrepor diferentes curvas e combinar estilos (área, curva, barra),
 - No celular, enquanto permanece pressionado no widget em questão,
-- Colocando uma área gráfica em uma visualização (veja abaixo).
+- Colocando uma área de gráfico em uma visualização (veja abaixo),
+- Inserindo um gráfico em um Design.
+
+Do Core v4.2, também é possível exibir uma curva na parte inferior do ladrilho de um dispositivo.
 
 ## Historique
 
 Se você exibir um gráfico na página de histórico, terá acesso a várias opções de exibição, acima do gráfico :
 
-- **Período** : O período de exibição, incluindo dados históricos entre essas duas datas. Por padrão, dependendo da configuração *Gráficos padrão de exibição Período* Dans *Configurações → Sistema → Configuração / Equipamento*.
+- **Período** : O período de exibição, incluindo dados históricos entre essas duas datas. Por padrão, dependendo da configuração *Gráficos padrão de exibição Período* dentro *Configurações → Sistema → Configuração / Equipamento*.
 - **Grupo** : Oferece várias opções de agrupamento (soma por hora etc.).).
-- **Tipo de exibição** : Exibir em *Linha*, *área*, onde *Bar*. Opção salva no pedido e usada no Painel.
-- **Mudança** : Exibe a diferença de valor do ponto anterior. Opção salva no pedido e usada no Painel.
-- **Escada** : Exibe a curva como uma escada ou uma exibição contínua. Opção salva no pedido e usada no Painel.
-
+- **Tipo de exibição** : Exibir em *Linha*, *Área*, ou *Fechado*. Opção salva no pedido e usada no Painel.
+- **Variação** : Exibe a diferença de valor do ponto anterior. Opção salva no pedido e usada no Painel.
+- **Escadaria** : Exibe a curva como uma escada ou uma exibição contínua. Opção salva no pedido e usada no Painel.
+- **Comparar** : Compare a curva entre diferentes períodos.
 
 > **Dica**
 >
-> Se você exibir várias curvas ao mesmo tempo:
-> - Clique em uma legenda abaixo do gráfico para exibir / ocultar esta curva.
-> - Ctrl Clique em uma legenda para exibir apenas esta.
-> - Alt Clique em uma legenda permite exibir todos eles.
+> Para evitar qualquer erro de manuseio, essas opções salvas nos comandos só ficam ativas quando uma única curva é exibida.
+> 
+Na parte superior onde as curvas são exibidas, também existem várias opções :
 
+À esquerda:
+
+- **Ampliação** : Uma área de atalho que permite ajustar o zoom horizontal para a duração desejada, se os dados forem carregados.
+
+A direita:
+
+- **Eixos verticais visíveis** : Permite-lhe ocultar ou mostrar todos os eixos verticais.
+- **Escala do eixo vertical** : Permite ativar ou não a escala de cada eixo vertical independentemente dos demais.
+- **Agrupamento de eixos verticais por unidades** : Permite agrupar a escala das curvas e eixos verticais de acordo com sua unidade. Todas as curvas com a mesma unidade terão a mesma escala.
+- **Opacidade das curvas sob o mouse** : Permite-lhe desactivar o realce da curva quando é apresentado um valor no cursor do rato. Por exemplo, quando duas curvas não têm seus valores ao mesmo tempo.
+
+Sob as curvas, você também pode usar o menu contextual em cada legenda para isolar uma curva, exibir / ocultar seu eixo, alterar sua cor, ...
 
 ### Gráfico em vistas e desenhos
 
@@ -58,10 +70,10 @@ Você também pode exibir os gráficos nas visualizações (veremos aqui as opç
 Depois que os dados são ativados, você pode escolher :
 - **Cor** : A cor da curva.
 - **Tipo** : O tipo de gráfico (área, linha ou coluna).
-- **Escala** : Como você pode colocar várias curvas (dados) no mesmo gráfico, é possível distinguir as escalas (direita ou esquerda)).
-- **Escada** : Exibe a curva como uma escada ou uma exibição contínua.
+- **Escada** : Como você pode colocar várias curvas (dados) no mesmo gráfico, é possível distinguir as escalas (direita ou esquerda)).
+- **Escadaria** : Exibe a curva como uma escada ou uma exibição contínua.
 - **Pilha** : Empilhe os valores das curvas (veja abaixo o resultado).
-- **Mudança** : Exibe a diferença de valor do ponto anterior.
+- **Variação** : Exibe a diferença de valor do ponto anterior.
 
 ### Opção na página do histórico
 
@@ -69,15 +81,15 @@ A página de histórico fornece acesso a algumas opções adicionais
 
 #### História calculado
 
-Permite exibir uma curva de acordo com um cálculo em vários comandos (você pode fazer praticamente qualquer coisa, + - / \* valor absoluto ... consulte a documentação do PHP para algumas funções).
-Ex :
-abs(*\ [Jardim \] \ [Higrometria \] \ [Temperatura \]* - *\ [Espaço vital]] [Higrometria \] \ [Temperatura \]*)
+Permite exibir uma curva de acordo com um cálculo em vários comandos (você pode fazer praticamente qualquer coisa, + - / \* valor absoluto ... consulte a documentação do PHP para algumas funções). Por exemplo :
 
-Você também tem acesso a um gerenciamento de fórmulas de cálculo que permite salvá-las para facilitar a exibição novamente.
+``abs(*\ [Jardim \] \ [Higrometria \] \ [Temperatura \]* - *\ [Espaço vital]] [Higrometria \] \ [Temperatura \]*)``
+
+Você também tem acesso a um gerenciamento de fórmulas de cálculo que permite salvá-las para reapresentá-las mais facilmente.
 
 > **Dica**
 >
-> Basta clicar no nome do objeto para desdobrar e exibir os comandos históricos que podem ser exibidos.
+> Depois de salvar os cálculos, eles estão disponíveis à esquerda em **Meus cálculos**.
 
 #### Histórico de pedidos
 

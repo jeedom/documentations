@@ -12,7 +12,6 @@ Dans cet onglet on retrouve des informations générales sur Jeedom :
 - **Nom de votre Jeedom** : Permet d’identifier votre Jeedom, notamment dans le Market. Il peut être réutilisé dans les scénarios ou permettre d’identifier une sauvegarde.
 - **Langue** : Langue utilisée dans votre Jeedom.
 - **Système** : Type de matériel sur lequel est installé le système où votre Jeedom tourne.
-- **Générer les traductions** : Permet de générer les traductions, attention, cela peut ralentir votre système. Option surtout utile pour les développeurs.
 - **Date et heure** : Choix de votre fuseau horaire. Vous pouvez cliquer sur **Forcer la synchronisation de l’heure** pour rétablir une mauvaise heure affichée en haut à droite.
 - **Serveur de temps optionnel** : Indique quel serveur de temps doit être utilisé si vous cliquez sur **Forcer la synchronisation de l’heure** (à réserver aux experts).
 - **Ignorer la vérification de l’heure** : indique à Jeedom de ne pas vérifier si l’heure est cohérente entre lui-même et le système sur lequel il tourne. Peut être utile par exemple, si vous ne connectez pas Jeedom à Internet et qu’il n’a pas de pile RTC sur le matériel utilisé.
@@ -34,15 +33,33 @@ Vous trouverez dans cet onglet les paramètres de personnalisation de l'affichag
 
 - **Desktop clair et sombre** : Vous permet de choisir un thème clair et un sombre pour le Desktop.
 - **Mobile clair et sombre** : idem que précédemment pour la version Mobile.
-- **Thème clair de / à** : Vous permet de définir une plage horaire durant laquelle le thème clair choisit précédemment sera utilisé. Il faut cependant cocher l'option **Bascule du thème en fonction de l'heure**.
-- **Capteur de luminosité**   : Uniquement en interface mobile, nécessite d'activer *generic extra sensor* dans chrome, page chrome://flags.
-- **Masquer les images de fonds** : Permet de masquer les images de fonds que l'on trouve dans les pages scénarios, objets, interactions, etc.
+- **Thème clair de / à** : Vous permet de définir une plage horaire durant laquelle le thème clair choisi précédemment sera utilisé. Il faut cependant cocher l'option **Bascule du thème en fonction de l'heure**.
+- **Capteur de luminosité**   : Uniquement en interface mobile, nécessite d'activer *generic extra sensor* dans Chrome, page chrome://flags.
 
 ### Tuiles
 
-- **Tuiles Pas horizontal** : Contraint la largeur des tuiles tous les x pixels.
-- **Tuiles Pas vertical** : Contraint la hauteur des tuiles tous les x pixels.
-- **Tuiles Marge** : Espace vertical et horizontal entre les tuiles, en pixels.
+- **Pas horizontal** : Contraint la largeur des tuiles tous les x pixels.
+- **Pas vertical** : Contraint la hauteur des tuiles tous les x pixels.
+- **Marge** : Espace vertical et horizontal entre les tuiles, en pixels.
+- **Centrage vertical des tuiles** : Centre verticalement le contenu des tuiles.
+- **Icônes widgets colorées** : Coloration des icônes de widgets en fonction de leur état. Modifiable par scénario, *setColoredIcon* ('Coloration des icônes').
+- **Catégories colorées** : Colorisation du titre des tuiles en fonction de la catégorie.
+
+### Images de fond
+
+- **Afficher les images de fonds** : Afficher les images de fonds que l'on trouve dans les pages scénarios, objets, interactions, etc.
+- **Flou des fonds des objets** : Permet de flouter automatiquement les images de fonds des objets / Pièces.
+- **Image Dashboard** : Image de fond pour les pages du Dashboard (En fonction des options de l'objet).
+- **Image Analyse** : Image de fond pour les pages du menu Analyse.
+- **Image Outils** : Image de fond pour les pages du menu Outils.
+- **Opacité thème Light** : Opacité des images de fond en thème Light. Ajuster en fonction de la luminosité des images de fond pour une meilleure lisibilité.
+- **Opacité thème Dark** : Opacité des images de fond en thème Dark.  Ajuster en fonction de la luminosité des images de fond pour une meilleure lisibilité.
+
+### Options
+
+- **Affichage tableau** : Affiche en mode tableau les pages du menu outils et les plugins supportés.
+- **Position des notifications** : Position sur la page de l'apparition des notifications.
+- **Durée des notifications** : Durée de l'affichage des notifications en seconde. 0 pour ne pas les masquer automatiquement.
 
 ### Personnalisation
 
@@ -77,7 +94,7 @@ Il faut absolument configurer correctement cette partie importante de Jeedom sin
     - **Adresse URL ou IP** : IP externe, si elle est fixe. Sinon, donnez l’URL pointant sur l’adresse IP externe de votre réseau.
     - **Complément** : le fragment d’URL complémentaire (exemple : /Jeedom) pour accéder à Jeedom.
 
-- **Proxy pour market** : activation du proxy.
+- **Proxy pour Market** : activation du proxy.
     - Cocher la case activer le proxy.
     - **Adresse Proxy** : Renseigner l'adresse du proxy,
     - **Port du Proxy** : Renseigner le port du proxy,
@@ -93,8 +110,8 @@ Il faut absolument configurer correctement cette partie importante de Jeedom sin
 > Pour savoir si vous avez besoin de définir une valeur dans le champ **complément**, regardez, quand vous vous connectez à Jeedom dans votre navigateur Internet, si vous devez ajouter /Jeedom (ou autre chose) après l’IP.
 
 - **Gestion avancée** : Cette partie peut ne pas apparaître, en fonction de la compatibilité avec votre matériel.
-    Vous y trouverez la liste de vos interfaces réseaux. Vous pourrez indiquer à Jeedom de ne pas monitorer le réseau en cliquant sur **désactiver la gestion du réseau par Jeedom** (à cocher si Jeedom n’est connecté à aucun réseau). Vous pouvez aussi y préciser la plage d'ip locale sous la forme 192.168.1.* (à n'utiliser que dans des installations de type docker).
-- **Proxy market** : permet un accès distant à votre Jeedom sans avoir besoin d’un DNS, d’une IP fixe ou d’ouvrir les ports de votre box Internet.
+    Vous y trouverez la liste de vos interfaces réseaux. Vous pourrez indiquer à Jeedom de ne pas monitorer le réseau en cliquant sur **désactiver la gestion du réseau par Jeedom** (à cocher si Jeedom n’est connecté à aucun réseau). Vous pouvez aussi y préciser la plage d'ip locale sous la forme 192.168.1.* (à n'utiliser que dans des installations de type Docker).
+- **Proxy Market** : permet un accès distant à votre Jeedom sans avoir besoin d’un DNS, d’une IP fixe ou d’ouvrir les ports de votre box Internet.
     - **Utiliser les DNS Jeedom** : active les DNS Jeedom (attention cela nécessite au moins un service pack).
     - **Statut DNS** : statut du DNS HTTP.
     - **Gestion** : permet d’arrêter et relancer le service DNS Jeedom.
@@ -123,9 +140,9 @@ Il faut absolument configurer correctement cette partie importante de Jeedom sin
 - **Ajouter un message à chaque Timeout** : Ajoute un message dans le centre de message si un équipement tombe en **timeout**.
 - **Commande sur Timeout** : Commande de type **message** à utiliser si un équipement est en **timeout**.
 - **Ajouter un message à chaque Batterie en Warning** : Ajoute un message dans le centre de messages si un équipement a son niveau de batterie en **warning**.
-- **Commande sur Batterie en Warning** : Commande de type **message** à utiliser si un équipement à son niveau de batterie en **warning**.
-- **Ajouter un message à chaque Batterie en Danger** : Ajoute un message dans le centre de messages si un équipement à son niveau de batterie en **danger**.
-- **Commande sur Batterie en Danger** : Commande de type **message** à utiliser si un équipement à son niveau de batterie en **danger**.
+- **Commande sur Batterie en Warning** : Commande de type **message** à utiliser si un équipement a son niveau de batterie en **warning**.
+- **Ajouter un message à chaque Batterie en Danger** : Ajoute un message dans le centre de messages si un équipement a son niveau de batterie en **danger**.
+- **Commande sur Batterie en Danger** : Commande de type **message** à utiliser si un équipement a son niveau de batterie en **danger**.
 - **Ajouter un message à chaque Warning** : Ajoute un message dans le centre de messages si une commande passe en alerte **warning**.
 - **Commande sur Warning** : Commande de type **message** à utiliser si une commande passe en alerte **warning**.
 - **Ajouter un message à chaque Danger** : Ajoute un message dans le centre de messages si une commande passe en alerte **danger**.
@@ -142,20 +159,7 @@ En dessous vous retrouvez un tableau permettant de gérer finement le niveau de 
 
 ## Onglet Résumés
 
-Permet d’ajouter des résumés d’objets. Cette information est affichée tout en haut, à droite, dans la barre de menu Jeedom, ou à côté des objets :
-
-- **Clef** : Clé du résumé, à ne surtout pas toucher.
-- **Nom** : Nom du résumé.
-- **Calcul** : Méthode de calcul, peut être de type :
-    - **Somme** : fait la somme des différentes valeurs,
-    - **Moyenne** : fait la moyenne des valeurs,
-    - **Texte** : affiche textuellement la valeur (surtout pour celles de type chaine de caractères).
-- **Icone** : Icône du résumé.
-- **Unité** : Unité du résumé.
-- **Méthode de comptage** : Si vous comptez une donnée binaire alors il faut mettre cette valeur à binaire, exemple si vous comptez le nombre de lampes allumées mais que vous avez juste la valeur du variateur (0 à 100), alors il faut mettre binaire, comme cela Jeedom considéra que si la valeur est supérieure à 1, alors la lampe est allumée.
-- **Afficher si valeur égale 0** : Cochez cette case pour afficher la valeur, même quand elle vaut 0.
-- **Lier à un virtuel** : Lance la création de commandes virtuelles ayant pour valeur celles du résumé.
-- **Supprimer le résumé** : Le dernier bouton, tout à droite, permet de supprimer le résumé de la ligne.
+[Voir documentation sur les résumés.](/fr_FR/concept/summary)
 
 ## Onglet Equipements
 
@@ -264,7 +268,7 @@ Voici donc les différentes options disponibles :
 - **Synonyme pour les commandes** : Liste des synonymes pour les commandes.
 - **Synonyme pour les résumés** : Liste des synonymes pour les résumés.
 - **Synonyme commande slider maximum** : Synonyme pour mettre une commande de type slider au maximum (ex ouvre pour ouvre le volet de la chambre ⇒ volet chambre à 100%).
-- **Synonyme commande slider minimum** : Synonyme pour mettre une commande de type slider au minimu (ex ferme pour fermer le volet de la chambre ⇒ volet chambre à 0%).
+- **Synonyme commande slider minimum** : Synonyme pour mettre une commande de type slider au minimum (ex ferme pour fermer le volet de la chambre ⇒ volet chambre à 0%).
 
 ## Onglet Sécurité
 
@@ -298,7 +302,7 @@ La liste des IP bannies se trouve au bas de cette page. Vous y trouverez l’IP,
 
 - **Source de mise à jour** : Choisissez la source de mise à jour du core de Jeedom.
 - **Version du core** : Version du core à récupérer.
-- **Vérifier automatiquement s’il y a des mises à jour** : Indique si il faut chercher automatiquement s'il y a de nouvelles mises à jour (attention pour éviter de surcharger le market, l’heure de vérification peut changer).
+- **Vérifier automatiquement s’il y a des mises à jour** : Indique si il faut chercher automatiquement s'il y a de nouvelles mises à jour (attention pour éviter de surcharger le Market, l’heure de vérification peut changer).
 
 ### Les dépôts
 
@@ -313,18 +317,18 @@ Dépôt servant à activer l’envoi de plugins par des fichiers.
 Dépôt servant à relier Jeedom à Github.
 
 - **Token** : Token pour l’accès au dépôt privé.
-- **Utilisateur ou organisation du dépôt pour le core Jeedom** : Nom de l’utilisateur ou de l’organisation sur github pour le core.
+- **Utilisateur ou organisation du dépôt pour le core Jeedom** : Nom de l’utilisateur ou de l’organisation sur Github pour le core.
 - **Nom du dépôt pour le core Jeedom** : Nom du dépôt pour le core.
 - **Branche pour le core Jeedom** : Branche du dépôt pour le core.
 
 #### Market
 
-Dépôt servant à relier Jeedom au market, il est vivement conseillé d’utiliser ce dépôt. Attention : toute demande de support pourra être refusée si vous utilisez un autre dépôt que celui-ci.
+Dépôt servant à relier Jeedom au Market, il est vivement conseillé d’utiliser ce dépôt. Attention : toute demande de support pourra être refusée si vous utilisez un autre dépôt que celui-ci.
 
 - **Adresse** : Adresse du Market.(https://www.Jeedom.com/market).
 - **Nom d’utilisateur** : Votre nom d’utilisateur sur le Market.
 - **Mot de passe** : Votre mot de passe du Market.
-- **[Backup cloud] Nom** : Nom de votre backup cloud (attention doit etre unique pour chaque Jeedom sous risque qu'il s'écrase entre eux).
+- **[Backup cloud] Nom** : Nom de votre backup cloud (attention doit être unique pour chaque Jeedom sous risque qu'ils s'écrasent entre eux).
 - **[Backup cloud] Mot de passe** : Mot de passe du backup cloud. IMPORTANT vous ne devez surtout pas le perdre, il n'y a aucun moyen de le récupérer. Sans celui-ci vous ne pourrez plus restaurer votre Jeedom.
 - **[Backup cloud] Fréquence backup full** : Fréquence du backup cloud full. Un backup full est plus long qu'un incrémental (qui n'envoie que les différences). Il est recommandé d'en faire 1 par mois.
 
@@ -334,7 +338,7 @@ Dépôt permettant d’envoyer automatiquement une sauvegarde de Jeedom sur un p
 
 - **\[Backup\] IP** : IP du serveur Samba.
 - **\[Backup\] Utilisateur** : Nom d’utilisateur pour la connexion (les connexions anonymes ne sont pas possibles). Il faut forcément que l’utilisateur ait les droits en lecture ET en écriture sur le répertoire de destination.
-- **\[Backup\] Mot de passe** : Mot de passe de l’utilisateur.
+- **\[Backup\] Mot de passe** : Mot de passe de l’utilisateur (attention les caractères spéciaux ne sont pas autorisés).
 - **\[Backup\] Partage** : Chemin du partage (attention à bien s’arrêter au niveau du partage).
 - **\[Backup\] Chemin** : Chemin dans le partage (à mettre en relatif), celui-ci doit exister.
 
@@ -353,10 +357,10 @@ Dépôt permettant d’envoyer automatiquement une sauvegarde de Jeedom sur un p
 
 > **Important**
 >
-> Le protocole Samba comporte plusieurs versions, la v1 est compromise niveau sécurité et sur certains NAS vous pouvez obliger le client à utiliser la v2 ou la v3 pour se connecter. Donc si vous avez une erreur *protocol negotiation failed: NT_STATUS_INVAID_NETWORK_RESPONSE* il y a de forte chance que coté NAS la restriction soit en place. Vous devez alors modifier sur l'OS de votre Jeedom le fichier /etc/samba/smb.conf et y ajouter ces deux lignes :
+> Le protocole Samba comporte plusieurs versions, la v1 est compromise niveau sécurité et sur certains NAS vous pouvez obliger le client à utiliser la v2 ou la v3 pour se connecter. Donc si vous avez une erreur *protocol negotiation failed: NT_STATUS_INVAID_NETWORK_RESPONSE* il y a de forte chance que côté NAS la restriction soit en place. Vous devez alors modifier sur l'OS de votre Jeedom le fichier /etc/samba/smb.conf et y ajouter ces deux lignes :
 > client max protocol = SMB3
 > client min protocol = SMB2
-> Le smbclient coté Jeedom utilisera alors v2 où v3 et en mettant SMB3 aux 2 uniquement SMB3. A vous donc d'adapter en fonction des restrictions côté NAS ou autre serveur Samba
+> Le smbclient côté Jeedom utilisera alors v2 ou v3 et en mettant SMB3 aux 2 uniquement SMB3. A vous donc d'adapter en fonction des restrictions côté NAS ou autre serveur Samba
 
 > **Important**
 >
@@ -383,18 +387,18 @@ Permet de surveiller et d’agir sur le cache de Jeedom :
 
 Vous trouvez ici la liste des différentes clés API disponibles dans votre Jeedom. De base, le core a deux clés API :
 
--   une générale : autant que possible, il faut éviter de l’utiliser,
--   et une autre pour les professionnels : utilisée pour la gestion de parc. Elle peut être vide.
--   Puis, vous trouverez une clé API par plugin en ayant besoin.
+- une générale : autant que possible, il faut éviter de l’utiliser,
+- et une autre pour les professionnels : utilisée pour la gestion de parc. Elle peut être vide.
+- Puis, vous trouverez une clé API par plugin en ayant besoin.
 
 Pour chaque clé API de plugin, ainsi que pour les APIs HTTP, JsonRPC et TTS, vous pouvez définir leur portée :
 
 - **Désactivée** : la clé API ne peut être utilisée,
-- **IP blanche** : seule une liste d’IPs est autorisée (voir Réglages→Système→Configuration : Réseaux),
+- **IP blanche** : seule une liste d’IPs est autorisée (voir Réglages→Système→Configuration : Sécurité),
 - **Localhost** : seules les requêtes venant du système sur lequel est installé Jeedom sont autorisées,
 - **Activé** : aucune restriction, n’importe quel système ayant accès à votre Jeedom pourra accéder à cette API.
 
-Pour chaque clé API de plugin vous pouvez leur interdire les méthodes core (général) pour les limiter à leur seule methode embarqué (attention certain plugin comme mobile ou jeelink ont absolument besoin des methodes core)
+Pour chaque clé API de plugin vous pouvez leur interdire les méthodes core (général) pour les limiter à leur seule méthode embarquée (attention certains plugins comme mobile ou jeelink ont absolument besoin des méthodes core)
 
 ## Onglet &gt;\_OS/DB
 
@@ -405,8 +409,8 @@ Pour chaque clé API de plugin vous pouvez leur interdire les méthodes core (g�
 
 ### Vérifications Système
 
-- **Vérification générale** : Permet de lancer de test de consistence de Jeedom.
-- **Rétablissement des droits** : Permet de réappliquer les bons droits sur les répertoires et fichiers du Core de Jeedom.
+- **Vérification générale** : Permet de lancer de test de consistance de Jeedom.
+- **Rétablissement des droits** : Permet de ré-appliquer les bons droits sur les répertoires et fichiers du Core de Jeedom.
 - **Vérification des packages système** : Permet de lancer une vérification des packages installés.
 - **Vérification de la base de données** : Permet de lancer une vérification sur la base de données de Jeedom et de corriger si nécessaire les erreurs.
 - **Nettoyage de la base de données** : Lance une vérification de la base de données et nettoie d'éventuelles entrées non utilisées.
@@ -416,5 +420,6 @@ Pour chaque clé API de plugin vous pouvez leur interdire les méthodes core (g�
 
 - **Editeur de fichiers** : Permet d'accéder aux différents fichiers du système d'exploitation et de les éditer ou supprimer ou d'en créer.
 - **Administration Système** : Permet d’accéder à une interface d’administration système. C’est une sorte de console shell dans laquelle vous pouvez lancer les commandes les plus utiles, notamment pour obtenir des informations sur le système.
+- **Editeur en masse** : Outil d'édition en masse d'équipements, commandes, objets, scénarios.
 - **Administration Base de données** : Permet d’accéder à la base de données de Jeedom. Vous pouvez alors lancer des commandes dans le champ du haut.
 - **Utilisateur / Mot de passe** : Nom de l’utilisateur et mot de passe d’accès à la base de données utilisé par Jeedom.

@@ -6,13 +6,13 @@ Esta página le permite definir la lista de usuarios autorizados para conectarse
 En la página tienes tres botones :
 
 - Agregar usuario.
-- Guardar.
+- Salvar.
 - Acceso de soporte abierto.
 
 ## Lista de usuarios
 
 - **Nombre del usuario** : ID de usuario.
-- **Bienes** : Le permite desactivar la cuenta sin eliminarla.
+- **Activo** : Le permite desactivar la cuenta sin eliminarla.
 - **Local** : Permite la conexión del usuario solo si está en la red local de Jeedom.
 - **Perfil** : Le permite elegir el perfil de usuario :
     - **Administrador** : El usuario obtiene todos los derechos (edición / consulta) sobre Jeedom.
@@ -23,7 +23,7 @@ En la página tienes tres botones :
 - **Fecha de la última conexión** : Fecha de inicio de sesión del último usuario. Tenga en cuenta que esta es la fecha de conexión real, por lo que si guarda su computadora, la fecha de conexión no se actualiza cada vez que regresa.
 - **Derechos** : Modificar derechos de usuario.
 - **Contraseña** : Le permite cambiar la contraseña del usuario.
-- **Remove** : Eliminar usuario.
+- **Eliminar** : Eliminar usuario.
 - **Regenerar clave API** : Regenerar clave de API de usuario.
 - **Administrar derechos** : Le permite administrar con precisión los derechos de los usuarios (tenga en cuenta que el perfil debe estar en "usuario limitado"").
 
@@ -46,7 +46,7 @@ Muestra las sesiones del navegador activas en su Jeedom, con información del us
 
 ## Dispositivo (s) registrado (s))
 
-Enumere los periféricos (computadoras, móviles, etc.) que han registrado su autenticación en su Jeedom.
+Enumere los dispositivos (ordenadores, móviles, etc.) que han registrado su autenticación en su Jeedom.
 Puede ver qué usuario, su IP, cuándo y eliminar el registro para este dispositivo.
 
 > **Nota**

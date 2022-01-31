@@ -24,7 +24,7 @@ This widget is a bit special because it is a multi-command widget, i.e. it assem
 
 - **scale** *(échelle)* : Allows you to change the size of the widget, by filling in the parameter **scale** to `0.5`, the widget will be 2 times smaller.
 
->**Important**      
+>**IMPORTANT**      
 >It is ABSOLUTELY necessary that the generic types are indicated; `Temperature` on the temperature control and` Humidity` on the humidity control (this is configured in the advanced configuration of the control, configuration tab).
 
 >**NOTE**      
@@ -44,7 +44,7 @@ Widget for action / cursor control with button "**+**" and a button "**-**" allo
 
 ##### Optional parameter (s))
 
-- **Step** *(pas)* : Allows you to set the value change step *(0.5 by default)*.
+- **step** *(pas)* : Allows you to set the value change step *(0.5 by default)*.
 
 ### Rain
 
@@ -62,7 +62,7 @@ Widget for displaying water levels.
 
 Regarding widgets for switches *(on / off, turn on / off, open / close, etc...)*, it may be considered more visually pleasing to display only an icon reflecting the status of the device to be controlled.
 
-This possibility can be used both with the default widgets and with custom widgets.
+This possibility can be used both with default widgets and with custom widgets.
 
 To do so, it is necessary to take into account 2 prerequisites :
 
@@ -86,18 +86,18 @@ To do so, it is necessary to take into account 2 prerequisites :
     'fermer':'off',
     'activer':'on',
     'desactiver':'off',
-    'Deactivate':'off',
+    'deactivate':'off',
     'lock':'on',
     'unlock':'off',
     'marche':'on',
     'arret':'off',
-    'Stop':'off',
+    'stop':'off',
     'stop':'off',
     'go':'on'
 `` ''
 
->**TRICK**      
->As long as the standardized name remains readable, it is possible to adapt the naming, for example *open_volet* or *shutter_close*, *step_2* and *stop_2*, Etc..
+>**Trick**      
+>As long as the standardized name remains readable, it is possible to adapt the naming, for example *open_volet* or *shutter_close*, *step_2* and *stop_2*, etc.
 
 ## Custom widgets
 
@@ -110,7 +110,7 @@ There are two types of custom widgets :
 
 ### Gestion
 
-![Widget](./images/widgets.png)
+![Widgets](./images/widgets.png)
 
 You have four options :
 - **Add** : Allows you to add a widget *Core*.
@@ -122,16 +122,16 @@ You have four options :
 
 In this part you will find all the widgets that you have created classified by type.
 
-![Mes Widget](./images/widgets1.png)
+![Mes Widgets](./images/widgets1.png)
 
-> **TRICK**      
+> **Trick**      
 > You can open a widget by doing :
 > - `Click` on one of them.
 > - `Ctrl + Click` or` Click + Center` to open it in a new browser tab.
 
 The search engine allows you to filter the display of widgets according to different criteria (name, type, subtype, etc...). The `Esc` key cancels the search.
 
-![Recherche Widget](./images/widgets2.png)
+![Recherche Widgets](./images/widgets2.png)
 
 To the right of the search field, three buttons that can be found in several places in Jeedom:
 
@@ -149,32 +149,32 @@ Then :
 - You choose whether it applies to an order of type **Action** or **Info**.
 - Depending on the previous choice, you will have to **choose the subtype** of the order.
 - Finally **the template** among those which will be available according to the previous choices.
-- Once the template is chosen, Jeedom displays the configuration possibilities of it below.
+- Once the template has been chosen, Jeedom displays the configuration options for it below.
 
 ### The templates
 
 #### Definition of a template
 
-To put it simply, it's code (HTML / JS), integrated into the Core, some parts of which are configurable by the user via the graphical interface of the menu **Widget**. From the same database and taking into account the elements that you will enter in the template, the Core will generate unique widgets corresponding to the display you want to obtain.
+To put it simply, it's code (HTML / JS), integrated into the Core, some parts of which are configurable by the user via the graphical interface of the menu **Widgets**. From the same database and taking into account the elements that you will enter in the template, the Core will generate unique widgets corresponding to the display you want to obtain.
 
 Depending on the type of widget, you can generally customize the icons, put the images of your choice and / or embed HTML code.
 
 There are two types of template :
 
 - The "**simple**" : as an icon / image for the "**We**" and an icon / image for the "**Off**".
-- The "**multistate**" : This makes it possible to define, for example, an image if the command has the value "**XX**" and another so greater than "**YY**" or if less than "**ZZ**". Also works for text values, an image if the value is "**toto**", another if "**plop**" And so on...
+- The "**multistates**" : This allows you to define, for example, an image if the command has the value "**XX**" and another so greater than "**YY**" or if less than "**ZZ**". Also works for text values, an image if the value is "**foo**", another if "**plop**" And so on...
 
 #### Remplacement
 
-This is called a simple template, here you just have to say that the "**We**" matches such icon / image *(using the choose button)*, The "**Off**" to such other icon / image, etc...      
+This is called a simple template, here you just have to say that the "**We**" matches such icon / image *(using the choose button)*, the "**Off**" to such other icon / image, etc...      
 
 The box **Time widget**, if available, displays the duration since the last change of state under the widget.
 
 For templates using images, you can configure the width of the widget in pixels depending on the support (**Desktop width** & **Movable width**). Different images can also be selected according to the active theme of Jeedom *(light or dark)*.
 
->**TRICK**     
+>**Trick**     
 >For advanced users, it is possible to put tags in the replacement values and to specify their value in the advanced configuration of the command.    
->If, for example, in **Desktop width** you put as value `#largeur_desktop#`` (**be careful to put the** ``#`` **autour**) puis dans la configuratiWe avancée d'une commande, ongland affichage → "**Paramètres optionnels widget**" vous ajoutez The paramètre ``largeur_desktop`` (**sans les** ``#`) and give it the value "**90**", this custom widget on this command will be 90 pixels wide. This allows you to adapt the size of the widget to each order without having to make a specific widget each time.
+>If, for example, in **Desktop width** you put as value `#largeur_desktop#`` (**be careful to put the** ``#`` **autour**) puis dans la configuratiwe avancée d'une commande, ongland affichage → "**Paramètres optionnels widget**" vous ajoutez the paramètre ``largeur_desktop`` (**sans les** ``#`) and give it the value "**90**", this custom widget on this command will be 90 pixels wide. This allows you to adapt the size of the widget to each order without having to make a specific widget each time.
 
 #### Test
 

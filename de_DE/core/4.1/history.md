@@ -1,55 +1,67 @@
 # Historique
 **Analyse → Geschichte**
 
-Wichtiger Teil in der Software : der Historisierungsteil, eine wahre Erinnerung daran. In Jeedom ist es möglich, jeden Informationstypbefehl (binär oder digital) zu protokollieren). Auf diese Weise können Sie beispielsweise eine Temperaturkurve, einen Verbrauch, Türöffnungen usw. protokollieren
+Wichtiger Teil in der Software : der Historisierungsteil, eine wahre Erinnerung daran. In Jeedom ist es möglich, jeden Informationstypbefehl (binär oder digital) zu protokollieren). So können Sie beispielsweise einen Temperaturverlauf, Verbräuche, Türöffnungen etc. protokollieren.
 
 ![Historisch](./images/history.gif)
 
-### Principe
-
-Hier wird das Prinzip der Historisierung von Jeedom beschrieben. Sie müssen dies nur verstehen, wenn Sie Probleme mit der Historisierung haben oder die Historisierungseinstellungen ändern möchten. Die Standardeinstellungen sind in den meisten Fällen in Ordnung.
+### Prinzip der Historisierung
 
 ### Archivage
 
-Durch die Datenarchivierung kann Jeedom die im Speicher gespeicherte Datenmenge reduzieren. Dies ermöglicht es, nicht zu viel Platz zu beanspruchen und das System nicht zu verlangsamen. Wenn Sie alle Messungen beibehalten, werden umso mehr Punkte angezeigt, und daher kann die Zeit zum Rendern eines Diagramms erheblich verlängert werden. Wenn zu viele Punkte vorhanden sind, kann dies sogar zum Absturz der Diagrammanzeige führen.
+Die Datenarchivierung ermöglicht es Jeedom, die im Speicher gehaltene Datenmenge zu reduzieren. Dies ermöglicht es, nicht zu viel Platz zu beanspruchen und das System nicht zu verlangsamen. Wenn Sie alle Messungen beibehalten, werden umso mehr Punkte angezeigt, und daher kann die Zeit zum Rendern eines Diagramms erheblich verlängert werden. Wenn zu viele Punkte vorhanden sind, kann dies sogar zum Absturz der Diagrammanzeige führen.
 
 Die Archivierung beginnt nachts und komprimiert die tagsüber wiederhergestellten Daten. Standardmäßig ruft Jeedom alle älteren Daten von 2 Stunden ab und erstellt 1-Stunden-Pakete daraus (entweder ein Durchschnitt, ein Minimum oder ein Maximum, abhängig von den Einstellungen). Hier haben wir also zwei Parameter, einen für die Paketgröße und einen anderen, um zu wissen, wann dies zu tun ist (standardmäßig sind dies 1-Stunden-Pakete mit Daten, die älter als 2 Stunden sind).
 
-> **Spitze**
+> **Trinkgeld**
 >
 > Wenn Sie gut gefolgt sind, sollten Sie nur in den letzten 2 Stunden eine hohe Präzision haben. Wenn ich mich jedoch um 17 Uhr verbinde, habe ich eine Präzision für die letzten 17 Stunden. Warum ? Um unnötigen Ressourcenverbrauch zu vermeiden, findet die Archivierungsaufgabe nur einmal am Tag abends statt.
 
 > **Wichtig**
 >
-> Dieses Archivierungsprinzip gilt natürlich nur für digitale Befehle. Bei Befehlen vom Typ Binär behält Jeedom nur die Daten der Zustandsänderung bei.
+> Dieses Archivierungsprinzip gilt natürlich nur für digitale Bestellungen. Bei binären Bestellungen speichert Jeedom nur die Daten der Zustandsänderung.
 
 ### Anzeigen eines Diagramms
 
 Es gibt verschiedene Möglichkeiten, auf den Verlauf zuzugreifen :
 
 - Durch Klicken auf den gewünschten Befehl in einem Widget,
-- Gehen Sie zur Verlaufsseite, auf der Sie verschiedene Kurven überlagern und Stile (Fläche, Kurve, Balken) kombinieren können),
+- Auf der Verlaufsseite können Sie verschiedene Kurven überlagern und Stile kombinieren (Fläche, Kurve, Balken)),
 - Auf dem Handy, während Sie auf dem betreffenden Widget gedrückt bleiben,
-- Indem Sie einen Grafikbereich in eine Ansicht einfügen (siehe unten)).
+- Durch Einfügen eines Diagrammbereichs in eine Ansicht (siehe unten),
+- Durch Einfügen eines Graphen in ein Design.
+
+Ab Core v4.2 ist es auch möglich, eine Kurve am unteren Rand der Kachel eines Geräts anzuzeigen.
 
 ## Historique
 
 Wenn Sie ein Diagramm über die Verlaufsseite anzeigen, haben Sie über dem Diagramm Zugriff auf mehrere Anzeigeoptionen :
 
-- **Zeit** : Der Anzeigezeitraum einschließlich historischer Daten zwischen diesen beiden Daten. Standardmäßig abhängig von der Einstellung *Standard Anzeigezeitraum der Grafiken* IN *Einstellungen → System → Konfiguration / Ausstattung*.
+- **Zeit** : Der Anzeigezeitraum einschließlich historischer Daten zwischen diesen beiden Daten. Standardmäßig abhängig von der Einstellung *Standard Anzeigezeitraum der Grafiken* im *Einstellungen → System → Konfiguration / Ausstattung*.
 - **Gruppe** : Bietet verschiedene Gruppierungsoptionen (Summe pro Stunde usw.).).
-- **Anzeigetyp** : Anzeige in *Linie*, *Bereich*, oder *Balken*. Option in der Bestellung gespeichert und über das Dashboard verwendet.
-- **Veränderung** : Zeigt die Wertdifferenz zum vorherigen Punkt an. Option in der Bestellung gespeichert und über das Dashboard verwendet.
+- **Anzeigetyp** : Anzeige in *Linie*, *Bereich*, oder *Abgesperrt*. Option in der Bestellung gespeichert und über das Dashboard verwendet.
+- **Variation** : Zeigt die Wertdifferenz zum vorherigen Punkt an. Option in der Bestellung gespeichert und über das Dashboard verwendet.
 - **Treppe** : Zeigt die Kurve als Treppe oder kontinuierliche Anzeige an. Option in der Bestellung gespeichert und über das Dashboard verwendet.
+- **Vergleichen Sie** : Vergleichen Sie die Kurve zwischen verschiedenen Perioden.
 
-
-> **Spitze**
+> **Trinkgeld**
 >
-> Wenn Sie mehrere Kurven gleichzeitig anzeigen:
-> - Klicken Sie auf eine Legende unter dem Diagramm, um diese Kurve anzuzeigen / auszublenden.
-> - Strg Klicken Sie auf eine Legende, um nur diese anzuzeigen.
-> - Alt Klicken Sie auf eine Legende, um alle anzuzeigen.
+> Um Handhabungsfehler zu vermeiden, sind diese in den Befehlen gespeicherten Optionen nur aktiv, wenn eine einzelne Kurve angezeigt wird.
+> 
+Im oberen Teil, wo die Kurven angezeigt werden, gibt es auch mehrere Optionen :
 
+Auf der Linken:
+
+- **Zoomen** : Ein Shortcut-Bereich, mit dem Sie den horizontalen Zoom auf die gewünschte Dauer einstellen können, wenn die Daten geladen sind.
+
+Auf der rechten Seite:
+
+- **Sichtbare vertikale Achsen** : Ermöglicht das Ausblenden oder Anzeigen aller vertikalen Achsen.
+- **Skalierung der vertikalen Achse** : Ermöglicht Ihnen, die Skalierung jeder vertikalen Achse unabhängig von den anderen zu aktivieren oder nicht.
+- **Gruppierung der vertikalen Achsen nach Einheiten** : Ermöglicht die Gruppierung der Skalierung von Kurven und vertikalen Achsen nach ihrer Einheit. Alle Kurven mit der gleichen Einheit haben den gleichen Maßstab.
+- **Deckkraft der Kurven unter der Maus** : Hiermit können Sie die Hervorhebung der Kurve deaktivieren, wenn ein Wert am Mauszeiger angezeigt wird. Zum Beispiel, wenn zwei Kurven nicht gleichzeitig ihre Werte haben.
+
+Unter den Kurven können Sie auch das Kontextmenü jeder Legende verwenden, um eine Kurve zu isolieren, ihre Achse anzuzeigen / auszublenden, ihre Farbe zu ändern, ...
 
 ### Grafik zu Ansichten und Designs
 
@@ -57,11 +69,11 @@ Sie können die Diagramme auch in den Ansichten anzeigen (wir sehen hier die Kon
 
 Sobald eine Daten aktiviert sind, können Sie auswählen :
 - **Farbe** : Die Farbe der Kurve.
-- **Typ** : Der Diagrammtyp (Bereich, Linie oder Spalte)).
-- **Maßstab** : Da Sie mehrere Kurven (Daten) in ein Diagramm einfügen können, können Sie die Skalen (rechts oder links) unterscheiden).
+- **Art** : Der Diagrammtyp (Bereich, Linie oder Spalte)).
+- **Leiter** : Da Sie mehrere Kurven (Daten) in ein Diagramm einfügen können, können Sie die Skalen (rechts oder links) unterscheiden).
 - **Treppe** : Zeigt die Kurve als Treppe oder kontinuierliche Anzeige an.
 - **Stapel** : Stapeln Sie die Werte der Kurven (siehe unten für das Ergebnis).
-- **Veränderung** : Zeigt die Wertdifferenz zum vorherigen Punkt an.
+- **Variation** : Zeigt die Wertdifferenz zum vorherigen Punkt an.
 
 ### Option auf der Verlaufsseite
 
@@ -69,15 +81,15 @@ Auf der Verlaufsseite können Sie auf einige zusätzliche Optionen zugreifen
 
 #### Berechnete Geschichte
 
-Ermöglicht die Anzeige einer Kurve gemäß einer Berechnung mit mehreren Befehlen (Sie können so ziemlich alles tun, + - / \* absoluter Wert ... einige Funktionen finden Sie in der PHP-Dokumentation).
-Ex :
-abs(*\ [Garten \] \ [Hygrometrie \] \ [Temperatur \]* - *\ [Wohnraum \] \ [Hygrometrie \] \ [Temperatur \]*)
+Ermöglicht die Anzeige einer Kurve gemäß einer Berechnung mit mehreren Befehlen (Sie können so ziemlich alles tun, + - / \* absoluter Wert ... siehe PHP-Dokumentation für einige Funktionen). Beispielsweise :
 
-Sie haben auch Zugriff auf eine Verwaltung von Berechnungsformeln, mit der Sie diese zur einfacheren erneuten Anzeige speichern können.
+``abs(*\ [Garten \] \ [Hygrometrie \] \ [Temperatur \]* - *\ [Wohnraum \] \ [Hygrometrie \] \ [Temperatur \]*)``
 
-> **Spitze**
+Sie haben auch Zugriff auf eine Verwaltung von Berechnungsformeln, die es Ihnen ermöglicht, diese zu speichern, um sie einfacher wieder anzuzeigen.
+
+> **Trinkgeld**
 >
-> Klicken Sie einfach auf den Namen des Objekts, um es zu entfalten, und rufen Sie die historischen Befehle auf, die angezeigt werden können.
+> Wenn Sie Berechnungen gespeichert haben, stehen diese links in . zur Verfügung **Meine Berechnungen**.
 
 #### Bestellhistorie
 

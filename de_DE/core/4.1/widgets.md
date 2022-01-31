@@ -4,7 +4,7 @@ Ein Widget ist die grafische Darstellung einer Bestellung. Jedes Widget ist spez
 
 ## Standard-Widgets
 
-Bevor wir uns mit der Anpassung von Widgets befassen, wollen wir uns mit den Möglichkeiten befassen, die einige Widgets bieten, die standardmäßig im Core Jeedom vorhanden sind.
+Bevor wir uns die Anpassung von Widgets ansehen, wollen wir uns die Möglichkeiten ansehen, die bestimmte Widgets bieten, die standardmäßig im Core Jeedom vorhanden sind.
 
 ### Équipements
 
@@ -22,12 +22,12 @@ Dieses Widget ist etwas Besonderes, da es sich um ein Widget mit mehreren Befehl
 
 ##### Optionale Parameter)
 
-- **Skala** *(échelle)* : Ermöglicht das Ändern der Größe des Widgets durch Ausfüllen des Parameters **Skala** auf `0.5`, das Widget wird 2 mal kleiner sein.
+- **Rahmen** *(échelle)* : Ermöglicht das Ändern der Größe des Widgets durch Ausfüllen des Parameters **Rahmen** auf `0.5`, das Widget wird 2 mal kleiner sein.
 
 >**WICHTIG**      
 >Es ist ABSOLUT notwendig, dass die generischen Typen angegeben werden; `Temperatur` auf der Temperaturregelung und` Luftfeuchtigkeit` auf der Feuchtigkeitsregelung (dies wird in der erweiterten Konfiguration der Steuerung auf der Registerkarte Konfiguration konfiguriert).
 
->**Notiz**      
+>**HINWEIS**      
 > Achtung bei einem Entwurf Es ist wichtig, einen Befehl nicht alleine mit diesem Widget zu platzieren. Es funktioniert nicht, da es sich um ein Widget handelt, das den Wert mehrerer Befehle verwendet. Es ist unbedingt erforderlich, das vollständige Widget zu platzieren
 
 ### Multiline
@@ -36,7 +36,7 @@ Dieses Widget wird verwendet, um den Inhalt eines info / other-Befehls in mehrer
 
 ##### Optionale Parameter)
 
-- **maxHeight** *(maximale Höhe)* : Ermöglicht das Festlegen der maximalen Höhe des Widgets (eines Aufzugs) *(scrollbar)* wird auf der Seite angezeigt, wenn der Text überschreitet).
+- **maximale Höhe** *(maximale Höhe)* : Ermöglicht das Festlegen der maximalen Höhe des Widgets (eines Aufzugs) *(scrollbar)* wird auf der Seite angezeigt, wenn der Text überschreitet).
 
 ### Schieberegler
 
@@ -54,8 +54,8 @@ Widget zur Anzeige des Wasserstandes.
 
 ##### Optionale Parameter)
 
-- **Skala** *(échelle)* : Ermöglicht das Ändern der Größe des Widgets durch Ausfüllen des Parameters **Skala** auf `0.5`, das Widget wird 2 mal kleiner sein.
-- **anzeigen Radius** : Auf "1" setzen, um die Minimal- und Maximalwerte des Befehls anzuzeigen.
+- **Rahmen** *(échelle)* : Ermöglicht das Ändern der Größe des Widgets durch Ausfüllen des Parameters **Rahmen** auf `0.5`, das Widget wird 2 mal kleiner sein.
+- **showRange** : Auf "1" setzen, um die Minimal- und Maximalwerte des Befehls anzuzeigen.
 - **animieren** : Deaktivieren Sie die Animation des Widgets mit dem Wert "0".
 
 ### EIN / AUS-Symbol Umschalten
@@ -66,12 +66,12 @@ Diese Möglichkeit kann sowohl mit Standard-Widgets als auch mit benutzerdefinie
 
 Dazu müssen 2 Voraussetzungen berücksichtigt werden :
 
-- Die **2 Aktions- / Fehlerbefehle** muss mit einer Bestellung verknüpft sein **info / binär** Hier wird der aktuelle Status des Geräts gespeichert.
+- Das **2 Aktions- / Fehlerbefehle** muss mit einer Bestellung verknüpft sein **info / binär** Hier wird der aktuelle Status des Geräts gespeichert.
 
 >**Beispiel**      
 >![ToggleLink-Widget](./images/widgets5.png)
 
->**Ratschlag**     
+>**Rat**     
 >Deaktivieren Sie *"Afficher"* des Befehls info / binary, der nicht angezeigt werden muss.
 
 - Damit der Jeedom Core erkennen kann, welcher Befehl welcher Aktion entspricht, muss die folgende Benennung beachtet werden **2 Aktions- / Fehlerbefehle** :
@@ -86,18 +86,18 @@ Dazu müssen 2 Voraussetzungen berücksichtigt werden :
     'fermer':'off',
     'activer':'on',
     'desactiver':'off',
-    'Deactivate':'off',
+    'deaktivieren':'off',
     'lock':'on',
     'unlock':'off',
     'marche':'on',
     'arret':'off',
-    'Anschlag':'off',
+    'halt':'off',
     'stop':'off',
     'go':'on'
 `` ''
 
->**TIPP**      
->Solange der standardisierte Name lesbar bleibt, kann beispielsweise die Benennung angepasst werden *open_volet* oder *shutter_close*, *Schritt 2* und *stop_2*, Usw..
+>**Trick**      
+>Solange der standardisierte Name lesbar bleibt, kann beispielsweise die Benennung angepasst werden *open_volet* oder *shutter_close*, *Schritt 2* und *stop_2*, usw.
 
 ## Benutzerdefinierte Widgets
 
@@ -114,8 +114,8 @@ Es gibt zwei Arten von benutzerdefinierten Widgets :
 
 Sie haben vier Möglichkeiten :
 - **Hinzufügen** : Ermöglicht das Hinzufügen eines Widgets *Ader*.
-- **Import** : Ermöglicht das Importieren eines Widgets als zuvor exportierte JSON-Datei.
-- **CODE** : Rufen Sie die Widget-Bearbeitungsseite auf *Dritte*.
+- **Importieren** : Ermöglicht das Importieren eines Widgets als zuvor exportierte JSON-Datei.
+- **Codiert** : Rufen Sie die Widget-Bearbeitungsseite auf *Dritte*.
 - **Ersatz** : Öffnet ein Fenster, in dem Sie ein Widget auf allen Geräten, die es verwenden, durch ein anderes ersetzen können.
 
 ### Meine Widgets
@@ -124,7 +124,7 @@ In diesem Teil finden Sie alle Widgets, die Sie erstellt haben, nach Typ klassif
 
 ![Mes Widgets](./images/widgets1.png)
 
-> **TIPP**      
+> **Trick**      
 > Sie können ein Widget öffnen, indem Sie dies tun :
 > - Klicken Sie auf einen von ihnen.
 > - `Strg + Klick` oder` Klick + Mitte`, um es in einem neuen Browser-Tab zu öffnen.
@@ -146,7 +146,7 @@ Sobald Sie sich auf der Konfigurationsseite eines Widgets befinden, können Sie 
 Einmal auf der Seite **Extras → Widgets** Sie müssen auf die Schaltfläche klicken "**Hinzufügen**" und geben Sie Ihrem neuen Widget einen Namen.
 
 Dann :
-- Sie wählen, ob es für eine Typreihenfolge gilt **Aktionen** oder **Info**.
+- Sie wählen, ob es für eine Typreihenfolge gilt **Aktion** oder **Die Info**.
 - Abhängig von der vorherigen Auswahl müssen Sie **Wählen Sie den Subtyp** der Bestellung.
 - Schließlich **Die Vorlage** unter denen, die gemäß den vorherigen Auswahlmöglichkeiten verfügbar sein werden.
 - Sobald die Vorlage ausgewählt wurde, zeigt Jeedom die Konfigurationsoptionen dafür unten an.
@@ -155,30 +155,30 @@ Dann :
 
 #### Definition einer Vorlage
 
-Einfach ausgedrückt handelt es sich um Code (HTML / JS), der in den Core integriert ist und dessen Teile vom Benutzer über die grafische Oberfläche des Menüs konfiguriert werden können **Widgets**. Aus derselben Datenbank und unter Berücksichtigung der Elemente, die Sie in die Vorlage eingeben, generiert der Core eindeutige Widgets, die der Anzeige entsprechen, die Sie erhalten möchten.
+Einfach ausgedrückt handelt es sich um Code (HTML / JS), der in den Core integriert ist und von dem einige Teile vom Benutzer über die grafische Oberfläche des Menüs konfiguriert werden können **Widgets**. Aus derselben Datenbank und unter Berücksichtigung der Elemente, die Sie in die Vorlage eingeben, generiert der Core eindeutige Widgets, die der Anzeige entsprechen, die Sie erhalten möchten.
 
 Abhängig von der Art des Widgets können Sie die Symbole im Allgemeinen anpassen, die Bilder Ihrer Wahl einfügen und / oder HTML-Code einbetten.
 
 Es gibt zwei Arten von Vorlagen :
 
-- Die "**einfach**" : als Symbol / Bild für die "**Ein**" und ein Symbol / Bild für die "**Aus**".
-- Die "**multistate**" : Dies ermöglicht es beispielsweise, ein Bild zu definieren, wenn der Befehl den Wert hat "**XX**" und ein anderer so größer als "**YY**" oder wenn weniger als "**ZZ**". Funktioniert auch für Textwerte, ein Bild, wenn der Wert ist "**toto**", ein anderer wenn "**plumpsen**" Und so weiter...
+- Das "**einfach**" : als Symbol / Bild für die "**Wir**" und ein Symbol / Bild für die "**Aus**".
+- Das "**Multistates**" : Dies ermöglicht es beispielsweise, ein Bild zu definieren, wenn der Befehl den Wert hat "**XX**" und ein anderer so größer als "**YY**" oder wenn weniger als "**ZZ**". Funktioniert auch für Textwerte, ein Bild, wenn der Wert ist "**foo**", ein anderer wenn "**plumpsen**" Und so weiter...
 
 #### Remplacement
 
-Dies nennt man eine einfache Vorlage, hier muss man nur sagen, dass die "**Ein**" passt zu einem solchen Symbol / Bild *(mit der Auswahltaste)*, Die "**Aus**" zu solchen anderen Symbolen / Bildern usw...      
+Dies nennt man eine einfache Vorlage, hier muss man nur sagen, dass die "**Wir**" passt zu einem solchen Symbol / Bild *(mit der Auswahltaste)*, das "**Aus**" zu solchen anderen Symbolen / Bildern usw...      
 
 Die Kiste **Zeit-Widget**, Wenn verfügbar, wird die Dauer seit der letzten Statusänderung unter dem Widget angezeigt.
 
 Bei Vorlagen mit Bildern können Sie die Breite des Widgets je nach Unterstützung in Pixel konfigurieren (**Desktop-Breite** & **Bewegliche Breite**). Je nach aktivem Thema Jeedom können auch verschiedene Bilder ausgewählt werden *(hell oder dunkel)*.
 
->**TIPP**     
+>**Trick**     
 >Für fortgeschrittene Benutzer ist es möglich, Tags in die Ersatzwerte einzufügen und ihren Wert in der erweiterten Konfiguration des Befehls anzugeben.    
->Wenn zum Beispiel in **Desktop-Breite** Sie setzen als Wert `#largeur_desktop#`` (**Achten Sie darauf, die** ``#`` **autour**) puis dans la configuratiEin avancée d'une commande, onglund affichage → "**Paramètres optionnels widget**" vous ajoutez Die paramètre ``largeur_desktop`` (**sans les** ``#`) und gib ihm den Wert "**90**", Dieses benutzerdefinierte Widget für diesen Befehl ist 90 Pixel breit. Auf diese Weise können Sie die Größe des Widgets an jede Bestellung anpassen, ohne jedes Mal ein bestimmtes Widget erstellen zu müssen.
+>Wenn zum Beispiel in **Desktop-Breite** Sie setzen als Wert `#largeur_desktop#`` (**Achten Sie darauf, die** ``#`` **autour**) puis dans la configuratiwir avancée d'une commande, onglund affichage → "**Paramètres optionnels widget**" vous ajoutez das paramètre ``largeur_desktop`` (**sans les** ``#`) und gib ihm den Wert "**90**", Dieses benutzerdefinierte Widget für diesen Befehl ist 90 Pixel breit. Auf diese Weise können Sie die Größe des Widgets an jede Bestellung anpassen, ohne jedes Mal ein bestimmtes Widget erstellen zu müssen.
 
 #### Test
 
-Dies wird als mehrstufige Vorlagen bezeichnet *(mehrere Staaten)*. Anstatt ein Bild für die "**Ein** und / oder für die "**Aus** Wie im vorherigen Fall weisen Sie ein Symbol entsprechend der Validierung einer Bedingung zu *(test)*. Wenn dies zutrifft, zeigt das Widget das betreffende Symbol / Bild an.
+Dies wird als mehrstufige Vorlagen bezeichnet *(mehrere Staaten)*. Anstatt ein Bild für die "**Wir** und / oder für die "**Aus** Wie im vorherigen Fall weisen Sie ein Symbol entsprechend der Validierung einer Bedingung zu *(test)*. Wenn dies zutrifft, zeigt das Widget das betreffende Symbol / Bild an.
 
 Nach wie vor können je nach dem in Jeedom aktiven Thema und der Box unterschiedliche Bilder ausgewählt werden **Zeit-Widget** Zeigt die Dauer seit der letzten Zustandsänderung an.
 
@@ -188,13 +188,13 @@ Die Tests sind in der Form : ``#value# == 1`, `#value#`wird automatisch durch de
 - ``#value# >= 1 && #value# <= 5``
 - ``#value# == 'toto'``
 
->**Notiz**     
+>**HINWEIS**     
 >Es ist wichtig, die Apostrophe zu zeigen (**'**) um den Text herum zu vergleichen, ob der Wert Text ist *(info / andere)*.
 
->**Notiz**     
+>**HINWEIS**     
 >Für fortgeschrittene Benutzer ist es auch möglich, Javascript-Funktionen wie `zu verwenden#value#.match ("^ plop") `, hier testen wir, ob der Text mit` plop` beginnt.
 
->**Notiz**     
+>**HINWEIS**     
 >Sie können den Wert des Befehls im Widget anzeigen, indem Sie `angeben#value#`im HTML-Code des Tests. Um das Gerät anzuzeigen, fügen Sie `hinzu#unite#``.
 
 ## Code-Widget
@@ -213,7 +213,7 @@ Im Codemodus haben Sie Zugriff auf verschiedene Tags für Bestellungen. Hier ist
 - **#uid#** : eindeutige Kennung für diese Generation des Widgets (wenn es mehrmals den gleichen Befehl gibt, bei Entwürfen:  Nur diese Kennung ist wirklich eindeutig)
 - **#valueDate#** : Datum des Bestellwertes
 - **#collectDate#** : Datum der Auftragserfassung
-- **#alertLevel#** : Alarmstufe (siehe [hier](https://github.com/Jeedom/core/blob/alpha/core/config/Jeedom.config.php#L67) für die Liste)
+- **#alertLevel#** : Alarmstufe (siehe [Hier](https://github.com/Jeedom/core/blob/alpha/core/config/Jeedom.config.php#L67) für die Liste)
 - **#hide_history#** : ob der Verlauf (max, min, Durchschnitt, Trend) ausgeblendet werden soll oder nicht. Wie für die #hide_name# Es ist leer oder versteckt und kann daher direkt in einer Klasse verwendet werden. WICHTIG Wenn dieses Tag nicht in Ihrem Widget gefunden wird, dann die Tags #minHistoryValue#, #averageHistoryValue#, #maxHistoryValue# und #tendance# wird nicht durch Jeedom ersetzt.
 - **#minHistoryValue#** : Mindestwert über den Zeitraum (Zeitraum, den der Benutzer in der Jeedom-Konfiguration definiert hat)
 - **#averageHistoryValue#** : Durchschnittswert über den Zeitraum (Zeitraum, der vom Benutzer in der Jeedom-Konfiguration definiert wurde)
@@ -257,4 +257,4 @@ Jeedom.cmd.update ['#id#']({display_value:'#state#',valueDate:'#valueDate#',coll
 
 ### Exemples
 
- Sie werden finden [hier](https://github.com/Jeedom/core/tree/V4-stable/core/template) Beispiele für Widgets (in Dashboard- und mobilen Ordnern)
+ Sie werden finden [Hier](https://github.com/Jeedom/core/tree/V4-stable/core/template) Beispiele für Widgets (in Dashboard- und mobilen Ordnern)

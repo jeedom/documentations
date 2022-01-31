@@ -39,7 +39,7 @@ Definiert bestimmte Schnittstellenverhalten
 
 Hier haben Sie die Liste Ihrer aktuell verbundenen Sitzungen, ihre ID, ihre IP sowie das Datum der letzten Kommunikation. Durch Klicken auf &quot;Trennen&quot; wird der Benutzer getrennt. Seien Sie vorsichtig, wenn es sich auf einem registrierten Gerät befindet. Dadurch wird auch die Registrierung gelöscht.
 
-### Registrierte Peripheriegeräte
+### Registrierte Geräte
 
 Hier finden Sie die Liste aller registrierten Geräte (die ohne Authentifizierung eine Verbindung herstellen) zu Ihrem Jeedom sowie das Datum der letzten Verwendung.
 Hier können Sie die Registrierung eines Geräts löschen. Achtung, es trennt es nicht, sondern verhindert nur die automatische Wiederverbindung.

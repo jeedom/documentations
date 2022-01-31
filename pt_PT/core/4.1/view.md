@@ -4,6 +4,8 @@
 As visualizações permitem criar visualizações personalizadas.
 Não é tão poderoso quanto os designs, mas permite em poucos minutos uma exibição mais personalizada que o Dashboard, com equipamentos de diferentes objetos, gráficos ou controles.
 
+{% include lightbox.html src="images/doc-view_01.jpg" data="View" title="View" imgstyle="width:450px;display: block;margin: 0 auto;" %}
+
 > **Dica**
 >
 > Você pode escolher a visualização padrão no seu perfil ao clicar no menu de visualização.
@@ -24,7 +26,7 @@ Em uma visualização, encontramos :
 
 ## Adicionando / Editando uma visualização
 
-O princípio é bastante simples : uma vista é composta de áreas. Cada zona é do tipo *Gráfico*, *Widget* onde *Mesa*. Dependendo desse tipo, você pode adicionar gráficos, equipamentos ou comandos a ele.
+O princípio é bastante simples : uma vista é composta de áreas. Cada zona é do tipo *gráfico*, *ferramenta* ou *borda*. Dependendo desse tipo, você pode adicionar gráficos, equipamentos ou comandos a ele.
 
 - À esquerda da página, encontramos a lista de visualizações e um botão de criação.
 - Um botão no canto superior direito permite editar a Visualização Atual (Configuração).
@@ -39,10 +41,10 @@ O princípio é bastante simples : uma vista é composta de áreas. Cada zona é
 
 Em cada zona, você tem as seguintes opções gerais :
 
-- **Largeur** : Define a largura da área (somente no modo área de trabalho). 1 para a largura de 1/12 do navegador, 12 para a largura total.
+- **Largura** : Define a largura da área (somente no modo área de trabalho). 1 para a largura de 1/12 do navegador, 12 para a largura total.
 - Um botão que permite adicionar um elemento a esta zona, dependendo do tipo de zona (veja abaixo).
 - **Editar** : Permite alterar o nome da zona.
-- **Remover** : Excluir a zona.
+- **Retirar** : Excluir a zona.
 
 ### Zona de tipo de equipamento
 
@@ -69,14 +71,16 @@ Uma área do tipo gráfico permite adicionar gráficos à sua visualização, e 
 Quando você pressiona o botão **Adicionar curva**, O Jeedom exibe a lista de comandos históricos e você pode escolher o que deseja adicionar. Depois de concluído, você terá acesso às seguintes opções :
 
 - **Lixeira** : Remover comando do gráfico.
-- **Nome** : Nome do comando para desenhar.
+- **Último nome** : Nome do comando para desenhar.
 - **Cor** : Cor da curva.
 - **Tipo** : Tipo de curva.
 - **Grupo** : Permite agrupar dados (tipo máximo por dia).
-- **Escala** : Escala (direita ou esquerda) da curva.
-- **Escada** : Exibe a curva da escada.
+- **Escada** : Escala (direita ou esquerda) da curva.
+- **Escadaria** : Exibe a curva da escada.
 - **Pilha** : Empilha a curva com as outras curvas de tipo.
-- **Mudança** : Desenhar apenas variações com o valor anterior.
+- **Variação** : Desenhar apenas variações com o valor anterior.
+
+{% include lightbox.html src="images/doc-view_02.jpg" data="View" title="Pie Graph" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
 > **Dica**
 >
@@ -89,7 +93,7 @@ Aqui você tem os botões :
 - **Adicionar coluna** : Adicione uma coluna à tabela.
 - **Adicionar linha** : Adicione uma linha à tabela.
 
-> **NOTA**
+> **Nota**
 >
 > É possível reorganizar as linhas arrastando e soltando, mas não as colunas.
 

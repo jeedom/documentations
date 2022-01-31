@@ -4,6 +4,8 @@
 Views allow you to create custom views.
 It is not as powerful as the designs but it allows in a few minutes to have a more personalized display than the Dashboard, with equipment of different objects, graphics, or controls.
 
+{% include lightbox.html src="images/doc-view_01.jpg" data="View" title="View" imgstyle="width:450px;display: block;margin: 0 auto;" %}
+
 > **Tip**
 >
 > You can choose the default view in your profile when clicking on the view menu.
@@ -24,7 +26,7 @@ On a View, we find :
 
 ## Adding / Editing a view
 
-The principle is quite simple : a View is made up of areas. Each zone is of type *Graphic*, *Widget* or *Table*. Depending on this type, you can add graphics, equipment, or commands to it.
+The principle is quite simple : a View is made up of areas. Each zone is of type *graphic*, *widget* or *board*. Depending on this type, you can add graphics, equipment, or commands to it.
 
 - On the left of the page we find the list of Views as well as a creation button.
 - A button at the top right allows you to edit the Current View (Configuration).
@@ -78,6 +80,8 @@ When you press the button **Add curve**, Jeedom displays the list of historical 
 - **Stack** : Stacks the curve with the other type curves.
 - **Variation** : Only draw variations with the previous value.
 
+{% include lightbox.html src="images/doc-view_02.jpg" data="View" title="Pie Graph" imgstyle="width:450px;display: block;margin: 0 auto;" %}
+
 > **Tip**
 >
 > You can change the order of the graphics in the area by dragging and dropping.
@@ -89,7 +93,7 @@ Here you have the buttons :
 - **Add column** : Add a column to the table.
 - **Add line** : Add a row to the table.
 
-> **NOTE**
+> **Note**
 >
 > It is possible to reorganize the rows by dragging and dropping but not the columns.
 
