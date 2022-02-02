@@ -2,7 +2,7 @@
 
 **El complemento Zigbee para Jeedom** se basa en el excelente trabajo realizado en torno a **la biblioteca Zigpy de código abierto** para ofrecer un **compatibilidad general con diferentes hardware Zigbee**. Permite la comunicación con los siguientes controladores Zigbee :
 
--	**Deconz** : Probado y validado por el equipo de Jeedom. *(No es necesario instalar la aplicación deCONZ)*
+-	**deCONZ (clave Conbee/Conbee 2/Raspbee/Raspbee 2)** : Probado y validado por el equipo de Jeedom. *(No es necesario instalar la aplicación deCONZ)*
 -	**EZSP (laboratorios de silicio)** : Probado, validado y recomendado por el equipo de Jeedom.
 -	**XBee** : No probado por el equipo de Jeedom.
 -	**Zigate** : No probado por el equipo.
@@ -86,6 +86,8 @@ Una vez incluido, se supone que Jeedom reconoce automáticamente el módulo y cr
 >**Importante**
 >
 >Debido a un error en algún firmware *(Ikea, Sonoff, etc)*, a veces es necesario elegir el tipo de módulo directamente de la lista **Dispositivos** luego guarde para que los pedidos se creen correctamente.
+
+En las acciones (arriba a la derecha) puedes activar **Comandos de autodescubrimiento de información**, una vez activado, jeedom creará automáticamente un pedido para cualquier información reportada por el módulo durante 3 minutos. Permite, por ejemplo, en un control remoto que Jeedom aún no reconoce, crear automáticamente los comandos de información correspondientes a la presión de los botones (que se realizarán durante los 3 minutos, por lo tanto)
 
 Como de costumbre, puede darle un nombre a su equipo, ingresar una categoría o un objeto principal y activarlo o hacerlo visible.
 
@@ -322,3 +324,6 @@ Si para un daemon dado (1, 2 o 3) cambia la clave Zigbee sin restaurar una copia
 >
 >Es común que en el modo zigbee el módulo envíe el valor uno durante una acción (movimiento, apertura, presionar el botón) pero no devuelve 0 cuando finaliza (fin de movimiento por ejemplo). Puede configurar un retorno de estado a 0 después de 1 minuto (por ejemplo) en la configuración de la pestaña de comando del equipo y luego en la línea de comando en cuestión.
 
+>**No tengo tantos comandos como botones en mi control remoto**
+>
+>En mi control remoto tengo por ejemplo 2 botones pero en la lista de comandos de Jeedom solo tengo 1 comando !!! Es normal que el comando en jeedom tome un valor diferente dependiendo del botón físico presionado. La forma más fácil de verlo es ir a "Configuración avanzada" (arriba a la derecha) luego a "Registros" (arriba a la derecha también) y presionar los botones en el control remoto para ver los diferentes valores de los comandos.

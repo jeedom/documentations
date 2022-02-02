@@ -2,7 +2,7 @@
 
 **Le plugin Zigbee pour Jeedom** se base sur l'excellent travail effectué autour de **la librairie open-source Zigpy** pour offrir une **compatibilité généralisée avec les différents matériels Zigbee**. Il permet de communiquer avec les contrôleurs Zigbee suivants :
 
--	**deCONZ** : Testé et validé par l’équipe Jeedom. *(Il n’est pas nécessaire d'installer l'application deCONZ)*
+-	**deCONZ (clef Conbee/Conbee 2/Raspbee/Raspbee 2)** : Testé et validé par l’équipe Jeedom. *(Il n’est pas nécessaire d'installer l'application deCONZ)*
 -	**EZSP (Silicon Labs)** : Testé, validé et recommandé par l’équipe Jeedom.
 -	**XBee** : Non testé par l’équipe Jeedom.
 -	**Zigate** : Non testé par l’équipe.
@@ -86,6 +86,8 @@ Une fois inclus, Jeedom est censé reconnaitre automatiquement le module et cré
 >**IMPORTANT**
 >
 >A cause d'un bug dans certains firmwares *(Ikea, Sonoff, etc…)*, il est parfois nécessaire de choisir le type de module directement dans la liste **Equipement** puis de sauvegarder pour que les commandes soient créées correctement.
+
+Sur les actions (en haut à droite) vous pouvez activer **Auto decouverte des commandes d'information**, une fois activé jeedom va automatiquement creer une commande pour toute information remontée par le module pendant 3min. Ca permet par exemple sur une télécommande qui n'est pas encore reconnu par Jeedom de creer automatiquement les commandes informations correspondant à l'appui sur les boutons (a faire pendant les 3min donc)
 
 Comme à l'habitude, vous pouvez donner un nom à votre équipement, lui renseigner une catégorie ou un objet parent et l'activer ou le rendre visible.
 
@@ -322,3 +324,6 @@ Si pour un démon donné (1,2 ou 3) vous changer la clef Zigbee sans restaurer u
 >
 >C'est courant en zigbee le module envoi la valeur un lors d'une action (mouvement,ouverture,appui sur le bouton) mais ne renvoi pas 0 quand c'est fini (fin de mouvement par exemple). Vous pouvez mettre en place un retour d'état à 0 après 1min (par exemple) dans la configuration de l'équipement onglet commande puis sur la ligne de la commande en question.
 
+>**J'ai pas autant de commande que de bouton sur ma télécommande**
+>
+>Sur ma télécommande j'ai par exemple 2 boutons mais dans la liste des commandes Jeedom j'ai que 1 commande !!! C'est normal la commande dans jeedom prends une valeur differente en fonction du bouton physique appuyé. Le plus simple pour le voir et d'aller dans "Configuration avancée" (en haut a droite) puis "Logs" (en haut a droite aussi) et d'appuyer sur les boutons de la télécommandes pour voir les differentes valeurs des commandes.

@@ -11,6 +11,10 @@
 >
 >Attention certaine commande sont supprimer et d'autre sont ajoutée, suite à la mise à jour il faut ABSOLUMENT verifier vos scenarios et autre qui utilise des commandes du plugin
 
+# 01/02/2022
+
+- Correction d'un bug sur le TTS
+
 # 30/01/2022
 
 - Support 4.2

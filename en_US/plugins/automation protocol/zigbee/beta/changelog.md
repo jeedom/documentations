@@ -12,6 +12,10 @@
 >
 >To take advantage of the latest module integration, don't hesitate to update the dependencies
 
+
+# 02/01/2022
+
+- Fixed a problem with managing ezsp firmware versions
 - Implementation of an automatic order generation system if no configuration exists (as far as possible)
 - Implementation of an automatic discovery system for information type orders
 - Possibility of having the current json configuration of the module (will allow you to integrate the modules more quickly)

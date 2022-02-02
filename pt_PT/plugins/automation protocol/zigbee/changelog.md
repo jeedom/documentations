@@ -12,6 +12,15 @@
 >
 >Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
 
+- Implementação de um sistema de geração automática de comandos caso não exista configuração (na medida do possível)
+- Implementação de um sistema de descoberta automática de pedidos do tipo informação
+- Possibilidade de ter a configuração json atual do módulo (permitirá integrar os módulos mais rapidamente)
+
+# 21/01/2022
+
+- Bugfix
+- Suporte ao novo módulo
+
 # 10/01/2022
 
 - Correção de um bug na ligação direta entre 2 módulos

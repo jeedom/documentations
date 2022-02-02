@@ -12,6 +12,10 @@
 >
 >Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
 
+
+# 01/02/2022
+
+- Corrigido um problema com o gerenciamento de versões de firmware ezsp
 - Implementação de um sistema de geração automática de comandos caso não exista configuração (na medida do possível)
 - Implementação de um sistema de descoberta automática de pedidos do tipo informação
 - Possibilidade de ter a configuração json atual do módulo (permitirá integrar os módulos mais rapidamente)
