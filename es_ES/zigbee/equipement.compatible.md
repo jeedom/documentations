@@ -65,6 +65,7 @@
 |<img src="../../es_ES/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Frient|Detector de humo inteligente DIN EN 14604 Y DIN 14676|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5409-frient-detecteur-de-fumee-intelligent-zigbee-30-5713594002330.html)|
 |<img src="../../es_ES/zigbee/images/frient_AS.SPLZB-131.png" width="60" />|Frient|Enchufe inteligente de formato Schuko|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5420-frient-prise-intelligente-mini-avec-mesure-de-consommation-zigbee-ha-version-schuko-5713594002347.html)|
 |<img src="../../es_ES/zigbee/images/frient_AS.SPLZB-132.png" width="60" />|Frient|Toma inteligente de formato FR|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5412-frient-prise-intelligente-mini-avec-mesure-de-consommation-zigbee-ha-version-fr-5713594002514.html)|
+|<img src="../../es_ES/zigbee/images/frient_AS.SURZB-110.png" width="60" />|Frient|Sirena inteligente||||
 |<img src="../../es_ES/zigbee/images/frient_AS.WISZB-120.png" width="60" />|Frient|Detector de apertura de puertas o ventanas y sensor de temperatura|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5402-frient-detecteur-d-ouverture-de-porte-ou-fenetre-zigbee-30-capteur-de-temperature-5713594002354.html)|
 |<img src="../../es_ES/zigbee/images/frient_AS.WISZB-121.png" width="60" />|Frient|Detector de movimiento inteligente|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5401-frient-detecteur-d-ouverture-de-porte-ou-fenetre-zigbee-30-5713594002545.html)|
 |<img src="../../es_ES/zigbee/images/frient_AS.button.png" width="60" />|Frient|Botón inteligente||||
@@ -460,6 +461,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/Innr.AE_260.png" width="60" />|Innr|INR AE 260||||
 |<img src="../../es_ES/zigbee/images/Innr.FL_140_C.png" width="60" />|Innr|CINTA INNR FLEXIBLE INTERIOR RGBW|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5455-innr-ruban-flexible-indoor-couleur-4m-couleur-et-blanc-variable-2000k-a-6500k-8718781552725.html)|
 |<img src="../../es_ES/zigbee/images/Innr.OFL_140_C.png" width="60" />|Innr|INNR Outdoor Flex Color de luz||||
 |<img src="../../es_ES/zigbee/images/Innr.OSL_130_C.png" width="60" />|Innr|OSL 130 C||||
@@ -576,6 +578,8 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/OWON.CB432-32.png" width="60" />|Owon|Relé Rail-Din 32A y contador de energía Zigbee|Contactor, contador||[Documentación](https://www.owon-smart.com/uploads/Quick-Start-Guide-CB432-Din-Rail-Relay1.pdf)<br/>|
+|<img src="../../es_ES/zigbee/images/OWON.PCT504.png" width="60" />|Owon|TERMOSTATO FAN COIL ZIGBEE (100V-240V)|Thermostat||[Documentación](https://www.owon-smart.com/uploads/Quick-Start-Guide-%E2%80%93-PCT504-ZigBee-Fan-coil-Thermostat.pdf)<br/>[Comprar](https://www.domadoo.fr/fr/peripheriques/6056-owon-thermostat-de-ventilo-convecteur-zigbee-100v-240v.html)|
+|<img src="../../es_ES/zigbee/images/OWON.PIR323-PTH.png" width="60" />|Owon|Sensor múltiple (movimiento/temperatura/humedad))|||[Documentación](https://www.owon-smart.com/uploads/Quick-Start-Guide-PIR323-ZigBee-Multi-Sensor.pdf)<br/>|
 |<img src="../../es_ES/zigbee/images/OWON.THS317-ET.png" width="60" />|Owon|Sonda de temperatura remota en cable|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5998-owon-sonde-de-temperature-deportee-sur-cable-zigbee.html)|
 
 # Philips
@@ -809,7 +813,8 @@
 |<img src="../../es_ES/zigbee/images/TZE200_7bztmfm1.TS0601.png" width="60" />|Tuya|Calidad del aire Tuya CO||||
 |<img src="../../es_ES/zigbee/images/TZE200_akjefhj5.TS0601.png" width="60" />|Tuya|Válvula de riego||Por el momento, es imposible controlar el temporizador correctamente, cuando está configurado en Encendido, la válvula permanece abierta durante 10 minutos y luego se apaga||
 |<img src="../../es_ES/zigbee/images/TZE200_aoclfnxz.TS0601.png" width="60" />|Tuya|Termostato inteligente||||
-|<img src="../../es_ES/zigbee/images/TZE200_b6wax7g0.TS0601.png" width="60" />|Moes|MOES - Cabezal termostático inteligente (3)||||
+|<img src="../../es_ES/zigbee/images/TZE200_b6wax7g0.TS0601.png" width="60" />|Moes|MOES - Cabezal termostático inteligente (3)|||[Comprar](https://www.domadoo.fr/fr/tetes-thermostatiques/5783-moes-tete-thermostatique-intelligente-zigbee-30-blanc.html)|
+|<img src="../../es_ES/zigbee/images/TZE200_c88teujp.TS0601.png" width="60" />|Tuya|Termostato inteligente||||
 |<img src="../../es_ES/zigbee/images/TZE200_ckud7u2l.TS0601.png" width="60" />|Moes|MOES - Cabezal termostático inteligente||||
 |<img src="../../es_ES/zigbee/images/TZE200_d0yu2xgi.TS0601.png" width="60" />|Tuya|Sirena inteligente con sensor de temperatura y humedad||||
 |<img src="../../es_ES/zigbee/images/TZE200_dfxkcots.TS0601.png" width="60" />|Tuya|MOES - Termostato inteligente||||
@@ -902,4 +907,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2022-02-01 01:32:12
+2022-02-02 01:32:15

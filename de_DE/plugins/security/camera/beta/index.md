@@ -134,7 +134,7 @@ Standardmäßig geben Sie einfach die gewünschte Anzahl von Aufnahmen in das Fe
 
 Wenn Sie eine Kamera mit Bewegungserkennung haben und diese an Jeedom senden möchten, ist dies die URL, die Sie auf Ihre Kamera setzen müssen :
 
-``http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#&type=camera&id=#ID#&value=#value#``
+``https://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY_CAMERA#&plugin=camera&type=event&id=#CMD_ID#&value=#VALUE#``
 
 Natürlich vor dem Erstellen eines Info-Befehls auf Ihrer Kamera
 

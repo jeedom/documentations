@@ -2,9 +2,11 @@
 
 >**Wichtig**
 >
->Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
+>Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-- Schaltfläche zur Vorschau des Videostreams auf der Kamerakonfigurationsseite hinzugefügt
+# 31.01.2022
+
+- API-Aufruf aktualisieren
 
 # 12.11.2021
 

@@ -134,7 +134,7 @@ Por padrão, basta colocar o número de capturas que você deseja no campo "núm
 
 Se você possui uma câmera com detecção de movimento e deseja transmiti-la ao Jeedom, este é o URL para colocar na sua câmera :
 
-``http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#&type=camera&id=#ID#&value=#value#``
+``https://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY_CAMERA#&plugin=camera&type=event&id=#CMD_ID#&value=#VALUE#``
 
 Obviamente, antes de criar um comando de tipo de informação na sua câmera
 

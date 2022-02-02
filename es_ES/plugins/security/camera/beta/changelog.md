@@ -2,9 +2,11 @@
 
 >**Importante**
 >
->Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+>Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-- Se agregó un botón para obtener una vista previa de la transmisión de video en la página de configuración de la cámara
+# 31/01/2022
+
+- Actualizar llamada API
 
 # 11/12/2021
 

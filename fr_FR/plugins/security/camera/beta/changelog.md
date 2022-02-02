@@ -2,9 +2,11 @@
 
 >**IMPORTANT**
 >
->Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+>S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-- Ajout d'un bouton pour previsualiser le flux video sur la page de configuration de la camera
+# 31/01/2022
+
+- Mise à jour l'appel API
 
 # 11/12/2021
 

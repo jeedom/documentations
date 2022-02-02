@@ -95,8 +95,8 @@
         "MOES - Thermostat intelligent": "MOES - Thermostat intelligent",
         "Sirène intelligente avec capteur de température et humidité": "Sirène intelligente avec capteur de température et humidité",
         "MOES - Tête thermostatique intelligente": "MOES - Tête thermostatique intelligente",
-        "MOES - Tête thermostatique intelligente (3": "MOES - Tête thermostatique intelligente (3",
         "Thermostat intelligent": "Thermostat intelligent",
+        "MOES - Tête thermostatique intelligente (3": "MOES - Tête thermostatique intelligente (3",
         "Vanne arrosage": "Vanne arrosage",
         "Il est pour le moment impossible de controller le timer correctement, lors d'une mise à On la vanne reste ouverte 10min puis se coupe": "Il est pour le moment impossible de controller le timer correctement, lors d'une mise à On la vanne reste ouverte 10min puis se coupe",
         "Tuya air quality CO": "Tuya air quality CO",
@@ -300,6 +300,9 @@
         "Philips Hue White and Color ambiance APPEAR": "Philips Hue White and Color ambiance APPEAR",
         "Owon": "Owon",
         "Sonde de température déportée sur câble": "Sonde de température déportée sur câble",
+        "Multi-Sensor (Mouvement\/Temperature\/Humidite": "Multi-Sensor (Mouvement\/Temperature\/Humidite",
+        "THERMOSTAT POUR VENTILO-CONVECTEUR ZIGBEE (100V-240V": "THERMOSTAT POUR VENTILO-CONVECTEUR ZIGBEE (100V-240V",
+        "Thermostat": "Thermostat",
         "Relais Rail-Din 32A et compteur d'énergie Zigbee": "Relais Rail-Din 32A et compteur d'énergie Zigbee",
         "Contacteur,Compteur": "Contacteur,Compteur",
         "Osram": "Osram",
@@ -376,6 +379,7 @@
         "OSL 130 C": "OSL 130 C",
         "INNR Outdoor Flex Light Colour": "INNR Outdoor Flex Light Colour",
         "INNR RUBAN FLEXIBLE INDOOR RGBW": "INNR RUBAN FLEXIBLE INDOOR RGBW",
+        "INNR AE 260": "INNR AE 260",
         "0 haute tension, Actionneur de variateur": "0 haute tension, Actionneur de variateur",
         "Iluminize": "Iluminize",
         "Zigbee 3": "Zigbee 3",
@@ -621,6 +625,6 @@
         "Sinope Technologies": "Sinope Technologies",
         "Documentation": "Documentation",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2022-02-01 01": "2022-02-01 01"
+        "2022-02-02 01": "2022-02-02 01"
     }
 }

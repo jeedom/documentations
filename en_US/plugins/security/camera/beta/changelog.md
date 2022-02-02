@@ -2,9 +2,11 @@
 
 >**Important**
 >
->As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+>If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-- Added a button to preview the video stream on the camera configuration page
+# 01/31/2022
+
+- Update API call
 
 # 12/11/2021
 

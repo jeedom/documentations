@@ -2,9 +2,11 @@
 
 >**IMPORTANTE**
 >
->Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+>Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-- Adicionado um botão para visualizar o stream de vídeo na página de configuração da câmera
+# 31/01/2022
+
+- Atualizar chamada de API
 
 # 11/12/2021
 
