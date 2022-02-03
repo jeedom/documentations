@@ -4,6 +4,14 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 16/12/2021
+
+- Correções de bugs
+
+# 12/04/2021
+
+- Suporte de novos tipos
+
 # 29/11/2021
 
 - Possibilidade de desinstalar o Deconz, obrigado @Benjamin 

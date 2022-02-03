@@ -4,6 +4,14 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 12/16/2021
+
+- Bugfix
+
+# 04/12/2021
+
+- Support of new types
+
 # 11/29/2021
 
 - Possibility to uninstall Deconz, thank you @Benjamin 
