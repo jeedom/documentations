@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 02/02/2022
+
+- Corrigido o bug de instalação de dependência com Jeedom 4.2
+
 # 24/09/2021
 
 - Correção de um problema na instalação de dependências

@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 02/02/2022
+
+- Fixed dependency installation bug with Jeedom 4.2
+
 # 09/24/2021
 
 - Correction of a problem on the installation of dependencies

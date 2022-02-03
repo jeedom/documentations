@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 02/02/2022
+
+- Se corrigió el error de instalación de dependencia con Jeedom 4.2
+
 # 24/09/2021
 
 - Corrección de un problema en la instalación de dependencias
