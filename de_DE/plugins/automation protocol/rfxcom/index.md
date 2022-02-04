@@ -102,10 +102,9 @@ Oben auf Ihrer Gerätekonfigurationsseite befinden sich 3 Schaltflächen, mit de
 
 Das Hinzufügen von RFXcom-Geräten ist sehr einfach. Sie müssen nur in den Einschlussmodus wechseln und warten, bis das Gerät eine Nachricht sendet. In diesem Fall teilt Jeedom Ihnen mit, dass neue Geräte enthalten sind, und erstellt diese automatisch.
 
-# Liste kompatibler Module
+## Compatibilité
 
-Sie finden die nicht vollständige Liste der kompatiblen Module
-[hier](https://doc.jeedom.com/de_DE/rfxcom/equipement.compatible)
+Sie finden [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=rfxcom) die Liste der Module, die mit dem Plugin kompatibel sind
 
 # Fügen Sie eine Steckdose hinzu
 
@@ -130,7 +129,7 @@ Pour ajouter un nouveau périphérique, se rendre dans le menu Plugins &gt; Prot
 
 Klicken Sie auf die Schaltfläche + Hinzufügen und geben Sie Ihrem Gerät einen Namen. Ex : « Veranda-Verschluss ».
 
-Se rendre sur le nouveau Périphérique créé et dans le menu déroulant Equipement, choisir « RTS Store Somfy – Défaut », en profiter pour lui définir un objet parent et une catégorie si vous le souhaitez et cliquer sur Enregistrer.
+Se rendre sur le nouveau Périphérique créé et dans le menu déroulant Equipement, choisir « 0x1A : somfy RTS Velux » pour un Velux ou « 0x1A : somfy RTS Moteur » pour tout les autres types d'actionneur RTS , en profiter pour lui définir un objet parent et une catégorie si vous le souhaitez et cliquer sur Enregistrer.
 
 Die Befehle zum Verwalten des Rollladens werden automatisch generiert. Es bleibt nur, den Verschluss mit diesem Jeedom-Gerät zu koppeln. Drücken Sie dazu die Pairing-Taste auf der Fernbedienung des Verschlusses, den Sie steuern möchten, 2 bis 3 Sekunden lang, bis der Verschluss eine leichte Rückfahrt macht.
 

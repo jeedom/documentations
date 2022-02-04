@@ -12,6 +12,9 @@
 >
 >Para aprovechar la última integración del módulo, no dude en actualizar las dependencias
 
+# 02/03/2022
+
+- Intento de corregir el error "no se puede importar el nombre 'colecciones_abc' de 'seis'".se mueve'", requiere jeedom 4.2 y relanzando la instalación de dependencias
 
 # 02/01/2022
 

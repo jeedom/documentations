@@ -4,7 +4,13 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+
+- Corrección de errores en módulos de tipo 0x71 (gracias @Doubledom)
+
+# 02/08/2021
+
 - Posibilidad de autorizar solo un cierto tipo de paquete en el procesamiento de información del equipo (caso raro)
+- Corrección de un error en conf 0x1A : Motor Somfy RTS que puede no aparecer en determinados casos.
 
 # 01/07/2020
 

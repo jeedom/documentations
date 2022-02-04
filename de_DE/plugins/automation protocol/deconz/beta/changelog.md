@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+
+# 02.03.2022
+
+- Versuchen Sie, den Fehler „Name ‚collections_abc‘ aus ‚sechs‘ kann nicht importiert werden‘ zu beheben.bewegt'", erfordert jeedom 4.2 und Neustart der Installation von Abhängigkeiten
+
 # 16.12.2021
 
 - Fehlerbehebungen

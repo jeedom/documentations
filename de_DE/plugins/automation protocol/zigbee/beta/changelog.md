@@ -12,6 +12,9 @@
 >
 >Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
 
+# 02.03.2022
+
+- Versuchen Sie, den Fehler „Name ‚collections_abc‘ aus ‚sechs‘ kann nicht importiert werden‘ zu beheben.bewegt'", erfordert jeedom 4.2 und Neustart der Installation von Abhängigkeiten
 
 # 01.02.2022
 

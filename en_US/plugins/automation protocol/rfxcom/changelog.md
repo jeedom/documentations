@@ -4,7 +4,13 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+
+- Bug fix on 0x71 type modules (thanks @Doubledom)
+
+# 02/08/2021
+
 - Possibility of authorizing only a certain type of packet in the processing of equipment information (rare case)
+- Correction of a bug on conf 0x1A : Somfy RTS Motor which may not appear in certain cases.
 
 # 01/07/2020
 

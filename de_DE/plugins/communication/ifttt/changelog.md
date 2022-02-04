@@ -8,6 +8,7 @@
 
 - Neue Darstellung der Objektliste
 - Hinzufügung des Tags "V4-Kompatibilität"
+- Plugin-Symbol aktualisieren
 
 # 2019.08.28
 

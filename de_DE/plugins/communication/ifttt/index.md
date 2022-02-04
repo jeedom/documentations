@@ -71,7 +71,7 @@ Dieser Schlüssel ist in das Feld zu kopieren **Schlüssel** Ihrer Ausrüstung u
 
 # Erstellung Ihres ersten "Applets"
 
-Nichts könnte einfacher sein, klicken Sie in IFTTT auf **Meine Applets** dann weiter **Neues Applet** :
+Nichts könnte einfacher sein, klicken Sie in IFTTT auf **Meine Applets** Dann weiter **Neues Applet** :
 
 ![ifttt12](./images/ifttt12.png)
 

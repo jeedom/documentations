@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+
+# 02/03/2022
+
+- Attempt to fix "cannot import name 'collections_abc' from 'six" error.moves'", requires jeedom 4.2 and relaunching the installation of dependencies
+
 # 12/16/2021
 
 - Bugfix

@@ -4,7 +4,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+
+- Fehlerbehebung bei Modulen vom Typ 0x71 (danke @Doubledom)
+
+# 02/08/2021
+
 - Möglichkeit, nur einen bestimmten Pakettyp bei der Verarbeitung von Geräteinformationen zu autorisieren (seltener Fall))
+- Korrektur eines Fehlers auf conf 0x1A : Somfy RTS Motor, der in bestimmten Fällen möglicherweise nicht angezeigt wird.
 
 # 01/07/2020
 

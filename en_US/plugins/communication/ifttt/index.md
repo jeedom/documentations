@@ -71,7 +71,7 @@ This key is to be copied into the field **Key** of your equipment under Jeedom :
 
 # Creation of your first "Applet"
 
-Nothing could be simpler, in IFTTT click on **My applets** then on **New applet** :
+Nothing could be simpler, in IFTTT click on **My applets** Then on **New applet** :
 
 ![ifttt12](./images/ifttt12.png)
 
@@ -157,7 +157,7 @@ Choose your trigger (here I will take when entering a zone) :
 
 ![ifttt28](./images/ifttt28.png)
 
-Mark your zone then do **Create Trigger** :
+Mark your zone then do **Create trigger** :
 
 ![ifttt29](./images/ifttt29.png)
 
@@ -198,7 +198,7 @@ This is what it gives :
 
 Remember to put method on Get, then click on **Create Action**.
 
-Give your applet a title then click on **Create action**. And there you go, as soon as you enter the area, Jeedom will be warned.
+Give your applet a title then click on **Create Action**. And there you go, as soon as you enter the area, Jeedom will be warned.
 
 > **Important**
 >

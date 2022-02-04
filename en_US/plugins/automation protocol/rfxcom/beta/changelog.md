@@ -5,6 +5,9 @@
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
 
+# 02/03/2022
+
+- Fixed issue installing dependencies under jeedom 4.2
 - Bug fix on 0x71 type modules (thanks @Doubledom)
 
 # 02/08/2021

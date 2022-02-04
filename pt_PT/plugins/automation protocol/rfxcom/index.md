@@ -102,10 +102,9 @@ Na parte superior da página de configuração do equipamento, você tem 3 botõ
 
 Adicionar equipamento RFXcom é muito simples, basta entrar no modo de inclusão e aguardar o envio do equipamento, quando for o caso, a Jeedom informará que incluiu novo equipamento e o criará. automaticamente.
 
-# Lista de módulos compatíveis
+## Compatibilité
 
-Você encontrará a lista não exaustiva de módulos compatíveis
-[aqui](https://doc.jeedom.com/pt_PT/rfxcom/equipement.compatible)
+Você pode encontrar [aqui](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=rfxcom) a lista de módulos compatíveis com o plugin
 
 # Adicionar uma tomada
 
@@ -130,7 +129,7 @@ Pour ajouter un nouveau périphérique, se rendre dans le menu Plugins &gt; Prot
 
 Clique no botão + Adicionar e dê um nome ao seu dispositivo. Ex : « Veneziana ».
 
-Se rendre sur le nouveau Périphérique créé et dans le menu déroulant Equipement, choisir « RTS Store Somfy – Défaut », en profiter pour lui définir un objet parent et une catégorie si vous le souhaitez et cliquer sur Enregistrer.
+Se rendre sur le nouveau Périphérique créé et dans le menu déroulant Equipement, choisir « 0x1A : somfy RTS Velux » pour un Velux ou « 0x1A : somfy RTS Moteur » pour tout les autres types d'actionneur RTS , en profiter pour lui définir un objet parent et une catégorie si vous le souhaitez et cliquer sur Enregistrer.
 
 Os comandos úteis para gerenciar a persiana são gerados automaticamente. Resta apenas emparelhar o obturador com este dispositivo Jeedom. Para fazer isso, pressione o botão de emparelhamento no controle remoto do obturador que você deseja controlar por 2 a 3 segundos, até que o obturador faça um pequeno retorno.
 

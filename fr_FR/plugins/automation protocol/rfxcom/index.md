@@ -102,10 +102,9 @@ En haut de votre page de configuration pour l’équipement, vous avez 3 boutons
 
 L’ajout d’un équipement RFXcom est très simple, il faut juste passer en mode inclusion et attendre que l’équipement envoi un message, quand ca sera le cas Jeedom vous indiquera qu’il a inclus un nouvel équipement et créera celui-ci automatiquement.
 
-# Liste des modules compatibles
+## Compatibilité
 
-Vous trouverez la liste non exhaustive des modules compatibles
-[ici](https://doc.jeedom.com/fr_FR/rfxcom/equipement.compatible)
+Vous pouvez trouver [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=rfxcom) la liste des modules compatible avec le plugin
 
 # Ajouter une prise
 
@@ -130,7 +129,7 @@ Pour ajouter un nouveau périphérique, se rendre dans le menu Plugins &gt; Prot
 
 Cliquez sur le bouton +Ajouter et donnez un nom à votre périphérique. Ex : « Volet Véranda ».
 
-Se rendre sur le nouveau Périphérique créé et dans le menu déroulant Equipement, choisir « RTS Store Somfy – Défaut », en profiter pour lui définir un objet parent et une catégorie si vous le souhaitez et cliquer sur Enregistrer.
+Se rendre sur le nouveau Périphérique créé et dans le menu déroulant Equipement, choisir « 0x1A : somfy RTS Velux » pour un Velux ou « 0x1A : somfy RTS Moteur » pour tout les autres types d'actionneur RTS , en profiter pour lui définir un objet parent et une catégorie si vous le souhaitez et cliquer sur Enregistrer.
 
 Les commandes utiles pour gérer le volet roulant sont automatiquement générées. Il ne reste plus qu’à appairer le volet avec ce périphérique Jeedom. Pour cela, appuyez sur le bouton d’appairage de la télécommande du volet que vous souhaitez commander pendant 2 à 3 secondes, jusqu’à ce que le volet fasse un léger aller/retour.
 

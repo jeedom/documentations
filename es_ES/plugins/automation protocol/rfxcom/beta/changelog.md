@@ -5,6 +5,9 @@
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
 
+# 02/03/2022
+
+- Se solucionó el problema de instalación de dependencias en jeedom 4.2
 - Corrección de errores en módulos de tipo 0x71 (gracias @Doubledom)
 
 # 02/08/2021

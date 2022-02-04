@@ -102,10 +102,9 @@ At the top of your equipment configuration page, you have 3 buttons that allow y
 
 Adding RFXcom equipment is very simple, you just have to go into inclusion mode and wait for the equipment to send a message, when this is the case Jeedom will tell you that it has included new equipment and will create it automatically.
 
-# List of compatible modules
+## Compatibilité
 
-You will find the non-exhaustive list of compatible modules
-[here](https://doc.jeedom.com/en_US/rfxcom/equipement.compatible)
+You can find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=rfxcom) the list of modules compatible with the plugin
 
 # Add an outlet
 
@@ -130,7 +129,7 @@ Pour ajouter un nouveau périphérique, se rendre dans le menu Plugins &gt; Prot
 
 Click the + Add button and give a name to your device. Ex : « Veranda shutter ».
 
-Se rendre sur le nouveau Périphérique créé et dans le menu déroulant Equipement, choisir « RTS Store Somfy – Défaut », en profiter pour lui définir un objet parent et une catégorie si vous le souhaitez et cliquer sur Enregistrer.
+Se rendre sur le nouveau Périphérique créé et dans le menu déroulant Equipement, choisir « 0x1A : somfy RTS Velux » pour un Velux ou « 0x1A : somfy RTS Moteur » pour tout les autres types d'actionneur RTS , en profiter pour lui définir un objet parent et une catégorie si vous le souhaitez et cliquer sur Enregistrer.
 
 The commands useful for managing the roller shutter are automatically generated. It only remains to pair the shutter with this Jeedom device. To do this, press the pairing button on the remote control of the shutter you wish to control for 2 to 3 seconds, until the shutter makes a slight return trip.
 
