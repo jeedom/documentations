@@ -5,6 +5,9 @@
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 
+# 02.03.2022
+
+- Problem beim Installieren von Abhängigkeiten unter Jeedom 4.2 behoben
 - Fehlerbehebung bei Modulen vom Typ 0x71 (danke @Doubledom)
 
 # 02/08/2021

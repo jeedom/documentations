@@ -5,6 +5,9 @@
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
 
+# 02/03/2022
+
+- Corrigido problema ao instalar dependências no jeedom 4.2
 - Correção de bug em módulos do tipo 0x71 (obrigado @Doubledom)
 
 # 08/02/2021
