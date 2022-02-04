@@ -12,6 +12,9 @@
 >
 >Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
 
+# 02/03/2022
+
+- Tente corrigir o erro "não é possível importar o nome 'collections_abc' de 'six".move'", requer jeedom 4.2 e relançando a instalação de dependências
 
 # 01/02/2022
 
