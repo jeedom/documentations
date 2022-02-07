@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 02.07.2022
+
+- Problem beim Installieren von Abhängigkeiten unter Jeedom 4.2 behoben
+
 
 # 02.03.2022
 
