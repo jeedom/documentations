@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 07/02/2022
+
+- Actualización para Jeedom 4.2
+
 # 25/10/2021
 
 - Agregar una plantilla

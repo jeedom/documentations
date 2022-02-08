@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 02/07/2022
+
+- Update for Jeedom 4.2
+
 # 25/10/2021
 
 - Adding a template

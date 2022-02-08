@@ -4,6 +4,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 25/10/2021
+
+- Adding a template
 - PulseUP and pulseDOWN support for BSO blade management
 
 # 07/06/2020

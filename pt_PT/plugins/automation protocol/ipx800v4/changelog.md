@@ -4,6 +4,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 25/10/2021
+
+- Adicionando um modelo
 - Suporte para PulseUP e pulseDOWN para gerenciamento de lâmina BSO
 
 # 07/06/2020

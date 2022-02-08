@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 02/07/2022
+
+- Atualização para Jeedom 4.2
+
 # 25/10/2021
 
 - Adicionando um modelo
