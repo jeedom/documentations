@@ -234,7 +234,7 @@ if(getCookie('lang') != lang){
 }
 
 $('#meta-lang').attr('content',lang)
-var jeedomVersion = '4.1'
+var jeedomVersion = '4.2'
 if(window.location.href.indexOf('3.3') != -1){
   jeedomVersion = '3.3'
 }else if(window.location.href.indexOf('4.0') != -1){
@@ -243,6 +243,8 @@ if(window.location.href.indexOf('3.3') != -1){
   jeedomVersion = '4.1'
 }else if(window.location.href.indexOf('4.2') != -1){
   jeedomVersion = '4.2'
+}else if(window.location.href.indexOf('4.3') != -1){
+  jeedomVersion = '4.3'
 }else if(getCookie('jeedomVersion') != ''){
   jeedomVersion = getCookie('jeedomVersion');
 }
