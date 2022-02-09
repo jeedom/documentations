@@ -10,3 +10,6 @@
 - Hinzufügen eines Paginierungssystems zur Auftragserstellung
 
 
+# 08.02.2022
+
+- Ändern von LogicalId und Select All Buttons für Info- und Writes-Befehle.

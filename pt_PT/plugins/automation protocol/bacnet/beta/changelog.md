@@ -10,3 +10,6 @@
 - Adição de sistema de paginação para criação de pedidos
 
 
+# 02/08/2022
+
+- Alterando LogicalId e Select All Buttons para comandos Info e Writes.

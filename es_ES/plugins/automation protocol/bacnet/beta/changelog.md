@@ -10,3 +10,6 @@
 - Incorporación del sistema de paginación a la creación de pedidos
 
 
+# 08/02/2022
+
+- Cambio de LogicalId y Seleccionar todos los botones para los comandos Info y Writes.
