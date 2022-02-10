@@ -129,7 +129,7 @@ By default, just put the number of captures you want in the "number of captures 
 
 If you have a camera that has motion detection and you want to transmit it to Jeedom this is the url to put on your camera :
 
-``http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#&type=camera&id=#ID#&value=#value#``
+``http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#&plugin=camera&type=event&id=#ID#&value=#value#``
 
 Obviously, before creating an info type command on your camera
 
