@@ -10,3 +10,6 @@
 - Ajout système de pagination à la création des commandes
 
 
+# 08/02/2022
+
+- Changement LogicalId et Boutons Tout Sélectionner pour les commandes Info et Ecritures.

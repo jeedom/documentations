@@ -38,7 +38,9 @@
         "miniplus",
         "smart",
         "rpi",
-        "diy",
+        "atlas",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnet\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation%20protocol\/bacnet\/beta"
 }

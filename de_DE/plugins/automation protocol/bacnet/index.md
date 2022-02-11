@@ -26,6 +26,9 @@ Rien n'est à modifier dans le champ « Port socket interne » de la section « 
 ![socket](./images/BacnetSocket.png)
 
 
+Auf derselben Registerkarte müssen Sie den Cron-Wert zum Aktualisieren Ihrer Ausrüstung auswählen.
+
+
 
 
 # So deklarieren Sie ein neues Bacnet-Gerät in Jeedom

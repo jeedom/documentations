@@ -10,3 +10,6 @@
 - Addition of pagination system to order creation
 
 
+# 02/08/2022
+
+- Changing LogicalId and Select All Buttons for Info and Writes commands.

@@ -26,6 +26,9 @@ Rien n'est à modifier dans le champ « Port socket interne » de la section « 
 ![socket](./images/BacnetSocket.png)
 
 
+En esta misma pestaña, debes elegir el valor Cron para actualizar tu equipo.
+
+
 
 
 # Cómo declarar un nuevo dispositivo Bacnet en Jeedom
