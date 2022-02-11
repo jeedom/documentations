@@ -4,6 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 10/02/2022
+
+- Se solucionó un problema con la clave api no visible
+
 # 31/01/2022
 
 - Actualizar llamada API

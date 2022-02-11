@@ -13,6 +13,9 @@ Después de instalar el complemento, solo necesita activarlo. Algunos parámetro
 -   **El complemento de la cámara debe reaccionar a las interacciones** : palabras clave / frases a las que reaccionará el complemento a través de las interacciones de Jeedom.
 -   **Panel** : le permite mostrar el panel (Menú de inicio → Cámara) y tener una vista de todas sus cámaras (ver más abajo). No olvide activar el panel en la configuración del complemento para acceder a él más tarde.
 
+## Compatibilité
+
+Puedes encontrar [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=camera) la lista de módulos compatibles con el complemento
 
 # Configuración del equipo
 
@@ -28,9 +31,12 @@ Aquí tienes la información principal de tu cámara :
 -   **Puerto** : el puerto para el que se conecta la cámara.
 -   **Protocolo** : El protocolo de comunicación de su cámara (http o https).
 -   **Nombre de usuario** : nombre de usuario para iniciar sesión en la cámara (si es necesario). Tenga en cuenta que el complemento no admite caracteres especiales (por lo tanto, debe limitarse a números, letras minúsculas / mayúsculas)).
--   **Contraseña** : contraseña para conectarse a la cámara (si es necesario).Tenga en cuenta que el complemento no admite caracteres especiales (por lo tanto, debe limitarse a números, letras minúsculas / mayúsculas)).
+-   **Contraseña** : contraseña para conectarse a la cámara (si es necesario).Tenga en cuenta que el complemento crea un url_encode para el nombre de usuario y la contraseña requeridos para algunas cámaras, pero esto puede causar problemas a otras, si tiene un problema, intente sin caracteres especiales (limítese a números, letras minúsculas / mayúsculas).
 -   **URL de instantánea** : URL de instantánea de cámara. Cambiar según las cámaras. Tenga cuidado de no poner una url de flujo bajo pena de estrellar Jeedom. Puedes agregar las etiquetas \#username\# y \#password\#, que será reemplazado automáticamente por el nombre de usuario y la contraseña al usar este comando.
 -   **URL del feed** : escriba la URL de la secuencia de vídeo de la cámara ``rtsp://#username#:#password#@#ip#:554/videoMain`` (ejemplo para cámaras Foscam).
+-   **Flujo de flujo RTSP** : Si está en modo de transmisión de video (URL de transmisión completa), puede ver la cámara como una transmisión de video en lugar de cuadro por cuadro. Tenga en cuenta que esta opción consume muchos recursos y hace que la primera imagen esté muy por llegar.
+-   **Avance** : le permite ver si jeedom recupera la transmisión de video (recuerde guardar antes de probar para ver si sus modificaciones funcionan)
+-   **Opción de transmisión de video** : Si está en modo de transmisión de video (URL de transmisión completa), puede pasar parámetros adicionales aquí a ffmpeg y avconv (reservado para expertos)
 -   **Modelo** : permite elegir el modelo de cámara. Atención : si lo cambia, sobrescribirá sus ajustes de configuración.
 
 > **Nota**
@@ -54,7 +60,6 @@ Esta parte le permite configurar la calidad de la imagen. De hecho, Jeedom dismi
 -   **Duración máxima de una grabación** : duración máxima de grabaciones.
 -   **Siempre haz un video** : obliga a Jeedom a convertir siempre las grabaciones de video antes de grabar.
 -   **Número de fotogramas por segundo del video** : cantidad de cuadros por segundo de videos.
--   **Umbral de detección de movimiento (0-100)** : umbral de detección de movimiento (es recomendable establecer 2). Cuanto mayor sea el valor, mayor será la sensibilidad.
 -   **Eliminar todas las capturas de cámara** : eliminar todas las capturas y grabaciones de la cámara.
 
 ## Alimentation
@@ -129,7 +134,7 @@ De forma predeterminada, simplemente coloque la cantidad de capturas que desea e
 
 Si tiene una cámara que tiene detección de movimiento y desea transmitirla a Jeedom, esta es la url para poner en su cámara :
 
-``http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#&type=camera&id=#ID#&value=#value#``
+``https://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY_CAMERA#&plugin=camera&type=event&id=#CMD_ID#&value=#VALUE#``
 
 Obviamente, antes de crear un comando de tipo de información en su cámara
 

@@ -2,7 +2,21 @@
 
 >**Important**
 >
->As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+>If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
+
+# 01/31/2022
+
+- Update API call
+
+# 12/11/2021
+
+- Support for new cameras
+- Added a button to see a preview of the camera on the configuration page
+
+# 08/31/2021
+
+- Modification to allow recovery from a function of another plugin (will be used for a future Unifi Protect plugin)
+- Addition of the Ubiquiti G4 bullet camera (please note that the camera must activate anonymous connection)
 
 # 02/04/2021
 

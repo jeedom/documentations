@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.3.39",
+    "require": "4.2",
     "category": "security",
     "display": "panel",
     "mobile": "panel",
@@ -38,10 +38,13 @@
     "compatibility": [
         "miniplus",
         "smart",
+        "atlas",
         "rpi",
         "docker",
         "diy",
         "mobile",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/camera\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/camera\/beta"
 }

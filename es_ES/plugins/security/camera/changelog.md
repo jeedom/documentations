@@ -2,7 +2,21 @@
 
 >**Importante**
 >
->Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+>Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
+
+# 31/01/2022
+
+- Actualizar llamada API
+
+# 11/12/2021
+
+- Soporte para nuevas cámaras
+- Se agregó un botón para ver una vista previa de la cámara en la página de configuración
+
+# 31/08/2021
+
+- Modificación para permitir la recuperación de una función de otro complemento (se utilizará para un futuro complemento Unifi Protect)
+- Adición de la cámara bullet Ubiquiti G4 (tenga en cuenta que la cámara debe activar la conexión anónima)
 
 # 04/02/2021
 

@@ -13,6 +13,9 @@ Nach der Installation des Plugins müssen Sie es nur noch aktivieren. Einige Par
 -   **Das Kamera-Plugin muss auf Interaktionen reagieren** : Schlüsselwörter / Phrasen, auf die das Plugin über Jeedom-Interaktionen reagiert.
 -   **Platte** : Mit dieser Option können Sie das Bedienfeld anzeigen (Startmenü → Kamera) und alle Ihre Kameras anzeigen (siehe unten)). Vergessen Sie nicht, das Panel in der Konfiguration des Plugins zu aktivieren, um später darauf zugreifen zu können.
 
+## Compatibilité
+
+Sie finden [Hier](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=camera) die Liste der Module, die mit dem Plugin kompatibel sind
 
 # Gerätekonfiguration
 
@@ -28,9 +31,12 @@ Hier haben Sie die wichtigsten Informationen Ihrer Kamera :
 -   **Hafen** : der Anschluss, an den die Kamera angeschlossen werden soll.
 -   **Protokolle** : das Kommunikationsprotokoll Ihrer Kamera (http oder https).
 -   **Benutzername** : Benutzername, um sich bei der Kamera anzumelden (falls erforderlich)). Bitte beachten Sie, dass das Plugin keine Sonderzeichen unterstützt (Sie müssen sich daher auf Zahlen, Klein- / Großbuchstaben beschränken).
--   **Passwort** : Passwort für die Verbindung zur Kamera (falls erforderlich)).Bitte beachten Sie, dass das Plugin keine Sonderzeichen unterstützt (Sie müssen sich daher auf Zahlen, Klein- / Großbuchstaben beschränken).
+-   **Passwort** : Passwort für die Verbindung zur Kamera (falls erforderlich)).Bitte beachten Sie, dass das Plugin für einige Kameras einen url_encode für den Benutzernamen und das Passwort erfordert, dies jedoch bei anderen zu Problemen führen kann. Wenn Sie ein Problem haben, versuchen Sie es ohne Sonderzeichen (beschränken Sie sich auf Zahlen, Klein-/Großbuchstaben).
 -   **Snapshot-URL** : Kamera-Snapshot-URL. Ändern Sie je nach Kamera. Achten Sie darauf, dass Sie keine Flow-URL unter die Strafe des Absturzes von Jeedom stellen. Sie können die Tags \ hinzufügen#username\# und \#password\#, Diese werden bei Verwendung dieses Befehls automatisch durch den Benutzernamen und das Kennwort ersetzt.
 -   **Feed-URL** : Typ Kamera Video Stream URL ``rtsp://#username#:#password#@#ip#:554/videoMain`` (Beispiel für Foscam-Kameras).
+-   **RTSP-Stream-Stream** : Wenn Sie sich im Videostream-Modus befinden (Stream-URL ausgefüllt), können Sie die Kamera als Videostream anstelle von Frame für Frame sehen. Bitte beachten Sie, dass diese Option viele Ressourcen verbraucht und das erste Bild sehr schnell ankommt.
+-   **Vorschau** : ermöglicht Ihnen zu sehen, ob jeedom den Videostream wiederherstellt (denken Sie daran, vor dem Testen zu speichern, um zu sehen, ob Ihre Änderungen funktionieren)
+-   **Videostream-Option** : Wenn Sie sich im Video-Stream-Modus befinden (Stream-URL ausgefüllt), können Sie hier zusätzliche Parameter an ffmpeg und avconv übergeben (für Experten reserviert))
 -   **Modell** : ermöglicht die Auswahl des Kameramodells. Achtung : Wenn Sie dies ändern, werden Ihre Konfigurationseinstellungen überschrieben.
 
 > **Notiz**
@@ -54,7 +60,6 @@ In diesem Teil können Sie die Bildqualität konfigurieren. In der Tat verringer
 -   **Maximale Dauer einer Aufnahme** : maximale Aufnahmedauer.
 -   **Mach immer ein Video** : zwingt Jeedom, vor der Aufnahme immer Videoaufnahmen zu konvertieren.
 -   **Anzahl der Bilder pro Sekunde des Videos** : Anzahl der Bilder pro Sekunde von Videos.
--   **Bewegungserkennungsschwelle (0-100)** : Bewegungserkennungsschwelle (es wird empfohlen, 2 einzustellen). Je höher der Wert, desto höher die Empfindlichkeit.
 -   **Löschen Sie alle Kameraaufnahmen** : Löschen Sie alle Aufnahmen und Aufzeichnungen von der Kamera.
 
 ## Alimentation
@@ -129,7 +134,7 @@ Standardmäßig geben Sie einfach die gewünschte Anzahl von Aufnahmen in das Fe
 
 Wenn Sie eine Kamera mit Bewegungserkennung haben und diese an Jeedom senden möchten, ist dies die URL, die Sie auf Ihre Kamera setzen müssen :
 
-``http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#&type=camera&id=#ID#&value=#value#``
+``https://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY_CAMERA#&plugin=camera&type=event&id=#CMD_ID#&value=#VALUE#``
 
 Natürlich vor dem Erstellen eines Info-Befehls auf Ihrer Kamera
 
