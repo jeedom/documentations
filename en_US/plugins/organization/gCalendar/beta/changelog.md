@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 02/11/2022
+
+- Fix for Jeedom 4.2
+
 # 16/11/2020
 
 - New presentation of the list of objects

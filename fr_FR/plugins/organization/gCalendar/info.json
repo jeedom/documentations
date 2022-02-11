@@ -6,7 +6,12 @@
         "en_US": "Plugin to retrieve events from Google Calendar. He is able to interpret the titles of the events as interaction. IMPORTANT: this plugin requires you to have a dev account with Google (anyone can have one, it's free and has no impact). The process is explained in the documentation",
         "es_ES": "Complemento para recuperar eventos de Google Calendar. Puede interpretar los títulos de los eventos como interacción. IMPORTANTE: este complemento requiere que tengas una cuenta de desarrollador con Google (cualquiera puede tener una, es gratis y no tiene ningún impacto). El proceso se explica en la documentación",
         "de_DE": "Plugin zum Abrufen von Ereignissen aus Google Kalender. Er kann die Titel der Ereignisse als Interaktion interpretieren. WICHTIG: Für dieses Plugin müssen Sie ein Entwicklerkonto bei Google haben (jeder kann eines haben, es ist kostenlos und hat keine Auswirkungen). Der Vorgang wird in der Dokumentation erläutert",
-        "pt_PT": "Plugin para recuperar eventos do Google Calendar. Ele é capaz de interpretar os títulos dos eventos como interação. IMPORTANTE: este plugin requer que você tenha uma conta dev no Google (qualquer um pode ter uma, é grátis e não tem impacto). O processo é explicado na documentação"
+        "pt_PT": "Plugin para recuperar eventos do Google Calendar. Ele é capaz de interpretar os títulos dos eventos como interação. IMPORTANTE: este plugin requer que você tenha uma conta dev no Google (qualquer um pode ter uma, é grátis e não tem impacto). O processo é explicado na documentação",
+        "ru_RU": "Plugin permettant de récupérer les évènements de Google Agenda. Il est capable d’interpréter les titres des évènements comme interaction. IMPORTANT : ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact). La démarche est expliquée dans la documentation",
+        "id_ID": "Plugin permettant de récupérer les évènements de Google Agenda. Il est capable d’interpréter les titres des évènements comme interaction. IMPORTANT : ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact). La démarche est expliquée dans la documentation",
+        "it_IT": "Plugin permettant de récupérer les évènements de Google Agenda. Il est capable d’interpréter les titres des évènements comme interaction. IMPORTANT : ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact). La démarche est expliquée dans la documentation",
+        "ja_JP": "Plugin permettant de récupérer les évènements de Google Agenda. Il est capable d’interpréter les titres des évènements comme interaction. IMPORTANT : ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact). La démarche est expliquée dans la documentation",
+        "tr": "Plugin permettant de récupérer les évènements de Google Agenda. Il est capable d’interpréter les titres des évènements comme interaction. IMPORTANT : ce plugin nécessite d'avoir un compte dev chez Google (tout le monde peut en avoir c'est gratuit et sans impact). La démarche est expliquée dans la documentation"
     },
     "licence": "AGPL",
     "require": "3.0",
@@ -19,7 +24,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
