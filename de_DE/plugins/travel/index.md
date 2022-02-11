@@ -1,7 +1,7 @@
 
->**Wichtig**
->Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation der anderen Plugins direkt im Jeedom Market einsehen. Klicken Sie im betreffenden Plugin auf Dokumentation.
->Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=travel) Alle offiziellen Plugins in dieser Kategorie
+>**WICHTIG**
+>Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation anderer Plugins direkt im Jeedom Market einsehen. Klicken Sie bei dem betreffenden Plugin auf Dokumentation.
+>Du kannst sehen [Hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=travel) alle offiziellen Plugins in dieser Kategorie
 
 
 | | | | |
