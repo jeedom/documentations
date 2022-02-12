@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+
+- Ability to configure SSH port
 - Added a tool to browse the snmp tree
 
 # 07/06/2018

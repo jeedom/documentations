@@ -4,6 +4,8 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+
+- Possibilité de configurer le port SSH
 - Ajout d'un outils pour parcourir l'arbre snmp
 
 # 06/07/2018
