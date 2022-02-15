@@ -6,6 +6,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Se agregó un botón para activar el enlace táctil del puente hue
+
 # 01/04/2022
 
 - Correcciones de errores

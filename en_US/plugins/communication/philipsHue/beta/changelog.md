@@ -6,6 +6,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Added a button to activate the hue bridge touchlink
+
 # 04/1/2022
 
 - Bugfix

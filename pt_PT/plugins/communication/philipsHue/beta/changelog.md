@@ -6,6 +6,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Adicionado um botão para ativar o touchlink da ponte de matiz
+
 # 01/04/2022
 
 - Correções de bugs

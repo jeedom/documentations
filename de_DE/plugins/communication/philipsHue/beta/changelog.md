@@ -6,6 +6,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Eine Schaltfläche zum Aktivieren des Hue-Bridge-Touchlinks wurde hinzugefügt
+
 # 01.04.2022
 
 - Fehlerbehebungen

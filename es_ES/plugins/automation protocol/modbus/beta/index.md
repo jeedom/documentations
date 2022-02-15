@@ -26,6 +26,9 @@ Rien n'est à modifier dans le champ « Port socket interne » de la section « 
 
 En esta misma pestaña, deberás elegir el valor de descanso entre actualizar tu equipo (por defecto 5 seg)
 
+También puede optar por poner un Reintento para volver a ejecutar la solicitud en un comando/equipo que tendría un error (por defecto, Falso))
+También puede elegir el número de intentos y la demora entre estos intentos.
+
 
 
 
@@ -48,20 +51,21 @@ Detalles del parámetro :
 
 CONTROLES DE REPRODUCCIÓN :
 
-Para entradas de bobinas :  
-  - Agrega un ModbusTCP de E/S nuevo y nombra el comando. Elija un comando de tipo de información, en tipo binario o numérico.
-  - Elija la función de código apropiada : en este caso, elija Fc1 leer Bobinas
+Para bobinas y entradas discretas :  
+  - Agrega un nuevo comando Modbus y nombra el comando. Elija un comando de tipo de información, en tipo binario o numérico.
+  - Elija el código de función correspondiente : FC01 o FC02
   - Entonces es necesario elegir el registro inicial así como el número de bytes a leer (el número de registros)
-  Cuando guarde, el comando creado se eliminará, para crear tantos comandos Coils como el número de bytes especificado.
+  Cuando guarde, el comando creado se eliminará, para crear tantos comandos como el número de bytes especificado.
   Ex: Si elige un registro de inicio de 1 y un número de bytes de 4, los comandos se crearán : LeerBobina_1, LeerBobina_2, LeerBobina_3, LeerBobina_4
-  - Por supuesto, puede cambiar el nombre de las ReadCoils a su gusto.
+  - Por supuesto, puede cambiar el nombre de ReadCoils/Discretes a su gusto.
 
 
 
-  Para registros de existencias :
-  - Agrega un ModbusTCP de E/S nuevo y nombra el comando. Elige un comando de tipo de información, en Tipo numérico.
-  - Elige el formato correspondiente : Flotante o Largo/Entero
-  - El registro inicial así como el número de bytes : para flotantes, el número máximo de registros codificados es de 4 registros (64 bits)
+  Para registros de existencias y registros de entradas:
+  - Agrega un nuevo comando Modbus y nombra el comando. Elige un comando de tipo de información, en Tipo numérico.
+  - Elige el formato correspondiente : Flotante, Largo/Entero o Bits
+  - Elija el código de función correspondiente : FC04 o FC03
+  - El registro inicial así como el número de bytes : para flotantes, el número máximo de registros codificados es de 4 registros.
 
 
 
@@ -92,28 +96,26 @@ IMPORTANTE :
   Para tipos flotantes, escriba el valor como se indica arriba, con un .
 
 
+  - Escritura multibobina : en la configuración del comando, debe ingresar el registro de inicio
+  Por defecto, el código de función es fc15. Por favor, deje esta configuración por defecto.
 
-    - Escritura multibobina : en la configuración del comando, debe ingresar el registro de inicio
-   Por defecto, el código de función es fc15. Por favor, deje esta configuración por defecto.
-
-   Para cambiar los valores en los registros, use esta sintaxis:
-    -  Ex : 01110111 Entonces esto enviará desde el registro de inicio configurado los valores True(1) o False(0) a los registros
-
+  Para cambiar los valores en los registros, use esta sintaxis:
+  -  Ex : 01110111 Entonces esto enviará desde el registro de inicio configurado los valores True(1) o False(0) a los registros
 
 
 
-    - Bit de escritura : en la configuración del comando se debe ingresar el registro de inicio, así como el orden de los bytes y palabra.
-    Por defecto, el código de función es fc03, porque este comando le dará el valor del registro establecido en binario al comando info "infobitbinary".
 
-    Por favor, deje esta configuración por defecto.
+  - Bit de escritura : en la configuración del comando se debe ingresar el registro de inicio, así como el orden de los bytes y palabra.
+  Por defecto, el código de función es fc03, porque este comando le dará el valor del registro establecido en binario al comando info "infobitbinary".
 
-    En el comando info "infobitbinary", tendrá el valor binario del registro de parámetros en el comando Write Bit.
-    Para cambiar el bit en el registro
+  Por favor, deje esta configuración por defecto.
 
-    - valuetoend&PositionBit :   Ex:  1&4 Enviamos el valor 1 al bit de la posición 4 empezando por la derecha
-    En el comando de información "infobitbinary", verá el valor 10000101, que corresponde al valor binario del registro de parámetros.
-    Al escribir 1 y 6, ahora tendrá el valor : 10100101 en el registro configurado.
+  En el comando info "infobitbinary", tendrá el valor binario del registro de parámetros en el comando Write Bit.
+  Para cambiar el bit en el registro
 
+  - valuetoend&PositionBit :   Ex:  1&4 Enviamos el valor 1 al bit de la posición 4 empezando por la derecha
+  En el comando de información "infobitbinary", verá el valor 10000101, que corresponde al valor binario del registro de parámetros.
+  Al escribir 1 y 6, ahora tendrá el valor : 10100101 en el registro configurado.
 
 
 
@@ -123,19 +125,19 @@ IMPORTANTE :
 
 Para escribir en una bobina :
 
-  Ejemplo para registro 1 On:
-  - Agrega un ModbusTCP de E/S nuevo y nombra el comando. Elige un comando de tipo Acción, en Tipo predeterminado.
-  - Elija Fc5 Escribir bobina simple
-  - Registro de salida : 1
-  - Número de bytes : 1
-  - Poner 1 en valor para enviar
+Ejemplo para registro 1 On:
+- Agrega un nuevo comando Modbus y nombra el comando. Elige un comando de tipo Acción, en Tipo predeterminado.
+- Elija Fc5 Escribir bobina simple
+- Registro de salida : 1
+- Número de bytes : 1
+- Poner 1 en valor para enviar
 
-  Ejemplo de registro 1 Off:
-  - Agrega un ModbusTCP de E/S nuevo y nombra el comando. Elige un comando de tipo Acción, en Tipo predeterminado.
-  - Elija Fc5 Escribir bobina simple
-  - Registro de salida : 1
-  - Número de bytes : 1
-  - Poner 0 en valor para enviar
+Ejemplo de registro 1 Off:
+- Agrega un nuevo comando Modbus y nombra el comando. Elige un comando de tipo Acción, en Tipo predeterminado.
+- Elija Fc5 Escribir bobina simple
+- Registro de salida : 1
+- Número de bytes : 1
+- Poner 0 en valor para enviar
 
 
 Al actuar sobre estos comandos de acción en su tablero, enviará Verdadero o Falso a sus Coils.
@@ -145,8 +147,9 @@ Al actuar sobre estos comandos de acción en su tablero, enviará Verdadero o Fa
 
 Para escribir en un registro de retención :
 
- - Agrega un ModbusTCP de E/S nuevo y nombra el comando. Elige un comando de tipo Acción, en Tipo de control deslizante.
- - Elija Fc5 Escribir registro único
- - Elija el formato para enviar al registro (esto cambiará el tipo de control deslizante en su tablero, dependiendo de si es flotante o largo/entero))
- - Elija el paso del control deslizante (para decimales, escriba con un .   ex: 0.2)
- - Elija también un valor mínimo y máximo para este control deslizante
+- Agrega un nuevo comando Modbus y nombra el comando. Elige un comando de tipo Acción, en Tipo de control deslizante.
+- Elija Fc5 Escribir registro único
+- Elige el número de registros : 1, 2 o 4
+- Elija el formato para enviar al registro (esto cambiará el tipo de control deslizante en su tablero, dependiendo de si es flotante o largo/entero))
+- Elija el paso del control deslizante (para decimales, escriba con un .   ex: 0.2)
+- Elija también un valor mínimo y máximo para este control deslizante

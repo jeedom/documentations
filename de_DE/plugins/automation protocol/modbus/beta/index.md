@@ -26,6 +26,9 @@ Rien n'est à modifier dans le champ « Port socket interne » de la section « 
 
 Auf derselben Registerkarte müssen Sie den Ruhewert zwischen dem Aktualisieren Ihrer Ausrüstung auswählen (standardmäßig 5 Sek)
 
+Sie können auch einen Wiederholungsversuch setzen, um die Anforderung für einen Befehl/eine Ausrüstung erneut auszuführen, die fehlerhaft wäre (standardmäßig False)
+Sie können auch die Anzahl der Versuche und die Verzögerung zwischen diesen Versuchen auswählen.
+
 
 
 
@@ -48,20 +51,21 @@ Parameterdetails :
 
 WIEDERGABESTEUERUNG :
 
-Für Spuleneingänge :  
-  - Sie fügen ein neues E/A-ModbusTCP hinzu und benennen den Befehl. Sie wählen einen Befehl vom Typ Info unter Binary oder Numeric type aus.
-  - Wählen Sie die entsprechende Codefunktion : Wählen Sie in diesem Fall Fc1 read Coils
+Für Spulen und diskrete Eingänge :  
+  - Sie fügen einen neuen Modbus-Befehl hinzu und benennen den Befehl. Sie wählen einen Befehl vom Typ Info unter Binary oder Numeric type aus.
+  - Wählen Sie den entsprechenden Funktionscode : FC01 oder FC02
   - Es ist dann notwendig, das Startregister sowie die Anzahl der zu lesenden Bytes (Anzahl der Register)
-  Beim Speichern wird der erstellte Befehl gelöscht, um so viele Coils-Befehle wie die angegebene Anzahl von Bytes zu erstellen.
+  Beim Speichern wird der erstellte Befehl gelöscht, um so viele Befehle wie die angegebene Anzahl von Bytes zu erstellen.
   Ex: Wenn Sie ein Startregister von 1 und eine Anzahl von Bytes von 4 wählen, werden die Befehle erstellt : ReadCoil_1, ReadCoil_2, ReadCoil_3, ReadCoil_4
-  - Sie können die ReadCoils natürlich nach Ihren Wünschen umbenennen.
+  - Sie können die ReadCoils/Discretes dann natürlich nach Ihren Wünschen umbenennen.
 
 
 
-  Für Bestandsregister :
-  - Sie fügen ein neues E/A-ModbusTCP hinzu und benennen den Befehl. Sie wählen einen Befehl vom Typ Info unter Numerischer Typ.
-  - Wählen Sie das entsprechende Format aus : Float oder Long/Integer
-  - Das Startregister sowie die Anzahl der Bytes : Für Gleitkommazahlen beträgt die maximale Anzahl codierter Register 4 Register (64 Bit)
+  Für Halteregister und Eingangsregister:
+  - Sie fügen einen neuen Modbus-Befehl hinzu und benennen den Befehl. Sie wählen einen Befehl vom Typ Info unter Numerischer Typ.
+  - Wählen Sie das entsprechende Format aus : Float , Long/Integer oder Bits
+  - Wählen Sie den entsprechenden Funktionscode : FC04 oder FC03
+  - Das Startregister sowie die Anzahl der Bytes : Für Gleitkommazahlen beträgt die maximale Anzahl codierter Register 4 Register.
 
 
 
@@ -92,28 +96,26 @@ WICHTIG :
   Schreiben Sie für Float-Typen den Wert wie oben mit a .
 
 
+  - Multicoil-Schreiben : In der Konfiguration des Befehls müssen Sie das Startregister eingeben
+  Standardmäßig ist der Funktionscode fc15. Bitte belassen Sie diese Konfiguration als Standard.
 
-    - Multicoil-Schreiben : In der Konfiguration des Befehls müssen Sie das Startregister eingeben
-   Standardmäßig ist der Funktionscode fc15. Bitte belassen Sie diese Konfiguration als Standard.
-
-   Verwenden Sie diese Syntax, um die Werte in den Registern zu ändern:
-    -  Ex : 01110111 Damit werden vom konfigurierten Startregister die Werte True(1) oder False(0) an die Register gesendet
-
+  Verwenden Sie diese Syntax, um die Werte in den Registern zu ändern:
+  -  Ex : 01110111 Damit werden vom konfigurierten Startregister die Werte True(1) oder False(0) an die Register gesendet
 
 
 
-    - Bit schreiben : In der Konfiguration des Befehls müssen Sie das Startregister sowie die Reihenfolge der Bytes und des Wortes eingeben.
-    Standardmäßig ist der Funktionscode fc03, da dieser Befehl den Wert des Registersatzes binär an die Befehlsinfo "infobitbinary".
 
-    Bitte belassen Sie diese Konfiguration als Standard.
+  - Bit schreiben : In der Konfiguration des Befehls müssen Sie das Startregister sowie die Reihenfolge der Bytes und des Wortes eingeben.
+  Standardmäßig ist der Funktionscode fc03, da dieser Befehl den Wert des Registersatzes binär an die Befehlsinfo "infobitbinary".
 
-    Beim Befehl info "infobitbinary" haben Sie den Binärwert des Parameterregisters beim Befehl Write Bit.
-    Um das Bit im Register zu ändern
+  Bitte belassen Sie diese Konfiguration als Standard.
 
-    - valuetosend&PositionBit :   Ex:  1&4 Wir senden den Wert 1 an das Bit der Position 4 von rechts beginnend
-    Auf dem Info-Befehl „infobitbinary“ sehen Sie den Wert 10000101, was dem binären Wert des Parameterregisters entspricht.
-    Indem Sie 1&6 schreiben, haben Sie jetzt den Wert : 10100101 auf dem konfigurierten Register.
+  Beim Befehl info "infobitbinary" haben Sie den Binärwert des Parameterregisters beim Befehl Write Bit.
+  Um das Bit im Register zu ändern
 
+  - valuetosend&PositionBit :   Ex:  1&4 Wir senden den Wert 1 an das Bit der Position 4 von rechts beginnend
+  Auf dem Info-Befehl „infobitbinary“ sehen Sie den Wert 10000101, was dem binären Wert des Parameterregisters entspricht.
+  Indem Sie 1&6 schreiben, haben Sie jetzt den Wert : 10100101 auf dem konfigurierten Register.
 
 
 
@@ -123,19 +125,19 @@ WICHTIG :
 
 Auf einer Spule schreiben :
 
-  Beispiel für Register 1 Ein:
-  - Sie fügen ein neues E/A-ModbusTCP hinzu und benennen den Befehl. Sie wählen einen Aktionstypbefehl unter Standardtyp aus.
-  - Wählen Sie Fc5 Write Single Coil
-  - Abgangsregister : 1
-  - Anzahl Bytes : 1
-  - Geben Sie 1 in den zu sendenden Wert ein
+Beispiel für Register 1 Ein:
+- Sie fügen einen neuen Modbus-Befehl hinzu und benennen den Befehl. Sie wählen einen Aktionstypbefehl unter Standardtyp aus.
+- Wählen Sie Fc5 Write Single Coil
+- Abgangsregister : 1
+- Anzahl Bytes : 1
+- Geben Sie 1 in den zu sendenden Wert ein
 
-  Beispiel für Register 1 Aus:
-  - Sie fügen ein neues E/A-ModbusTCP hinzu und benennen den Befehl. Sie wählen einen Aktionstypbefehl unter Standardtyp aus.
-  - Wählen Sie Fc5 Write Single Coil
-  - Abgangsregister : 1
-  - Anzahl Bytes : 1
-  - Geben Sie 0 in den zu sendenden Wert ein
+Beispiel für Register 1 Aus:
+- Sie fügen einen neuen Modbus-Befehl hinzu und benennen den Befehl. Sie wählen einen Aktionstypbefehl unter Standardtyp aus.
+- Wählen Sie Fc5 Write Single Coil
+- Abgangsregister : 1
+- Anzahl Bytes : 1
+- Geben Sie 0 in den zu sendenden Wert ein
 
 
 Indem Sie auf diese Aktionsbefehle auf Ihrem Dashboard reagieren, senden Sie daher True oder False an Ihre Coils.
@@ -145,8 +147,9 @@ Indem Sie auf diese Aktionsbefehle auf Ihrem Dashboard reagieren, senden Sie dah
 
 In ein Halteregister schreiben :
 
- - Sie fügen ein neues E/A-ModbusTCP hinzu und benennen den Befehl. Sie wählen einen Aktionstypbefehl unter Schiebereglertyp aus.
- - Wählen Sie Fc5 Write Single Register
- - Wählen Sie das Format, das an die Registrierung gesendet werden soll (dies ändert den Schiebereglertyp auf Ihrem Dashboard, je nachdem, ob es Float oder Long/Integer ist)
- - Wählen Sie den Schritt des Schiebereglers (für Dezimalzahlen schreiben Sie mit a .   ex: 0.2)
- - Wählen Sie auch einen Min- und Max-Wert für diesen Schieberegler
+- Sie fügen einen neuen Modbus-Befehl hinzu und benennen den Befehl. Sie wählen einen Aktionstypbefehl unter Schiebereglertyp aus.
+- Wählen Sie Fc5 Write Single Register
+- Wählen Sie die Anzahl der Register : 1, 2 oder 4
+- Wählen Sie das Format, das an die Registrierung gesendet werden soll (dies ändert den Schiebereglertyp auf Ihrem Dashboard, je nachdem, ob es Float oder Long/Integer ist)
+- Wählen Sie den Schritt des Schiebereglers (für Dezimalzahlen schreiben Sie mit a .   ex: 0.2)
+- Wählen Sie auch einen Min- und Max-Wert für diesen Schieberegler
