@@ -144,6 +144,7 @@
 |<img src="../../es_ES/zigbee/images/Legrand.GreenPower_shutter.png" width="60" />|Legrand|Obturador eléctrico GreenPower||||
 |<img src="../../es_ES/zigbee/images/Legrand.Micromodule_switch.png" width="60" />|Legrand|Módulo para iluminación conectada||Solo se puede emparejar en el canal 11 o 15||
 |<img src="../../es_ES/zigbee/images/Legrand.Mobile_outlet.png" width="60" />|Legrand|Toma móvil Céliane||Solo se puede emparejar en el canal 11||
+|<img src="../../es_ES/zigbee/images/Legrand.NLIS_-_Double_light_switch.png" width="60" />|Legrand|Interruptor doble conectado con neutro||Solo se puede emparejar en el canal 11 o 15||
 |<img src="../../es_ES/zigbee/images/Legrand.Remote_fan_controller.png" width="60" />|Legrand|Interruptor de ventilador||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Remote_motion_sensor.png" width="60" />|Legrand|Detector de movimiento||Solo se puede emparejar en el canal 11||
 |<img src="../../es_ES/zigbee/images/Legrand.Remote_switch.png" width="60" />|Legrand|Control inalámbrico simple||Solo se puede emparejar en el canal 11||
@@ -379,7 +380,7 @@
 |<img src="../../es_ES/zigbee/images/HEIMAN.COSensor-EF-3.0.png" width="60" />|Heiman|Sensor inteligente de monóxido de carbono||||
 |<img src="../../es_ES/zigbee/images/HEIMAN.COSensor-EM.png" width="60" />|Heiman|Detector de monóxido de carbono||||
 |<img src="../../es_ES/zigbee/images/HEIMAN.ColorDimmerSw-EM-3.0.png" width="60" />|Heiman|Mando a distancia a color de 5 botones||||
-|<img src="../../es_ES/zigbee/images/HEIMAN.ColorLight.png" width="60" />|Heiman|||||
+|<img src="../../es_ES/zigbee/images/HEIMAN.ColorLight.png" width="60" />|Heiman|ColorLight E27||||
 |<img src="../../es_ES/zigbee/images/HEIMAN.DoorBell-EM.png" width="60" />|Heiman|Timbre conectado||||
 |<img src="../../es_ES/zigbee/images/HEIMAN.GASSensor-EF-3.0.png" width="60" />|Heiman|Sensor inteligente de gas combustible||||
 |<img src="../../es_ES/zigbee/images/HEIMAN.GASSensor-EM.png" width="60" />|Heiman|Detector de gas||||
@@ -473,6 +474,7 @@
 |<img src="../../es_ES/zigbee/images/Innr.RF_263.png" width="60" />|Innr|INNR RF 263||||
 |<img src="../../es_ES/zigbee/images/Innr.RS_230_C.png" width="60" />|Innr|INNR GU10 RGBW||||
 |<img src="../../es_ES/zigbee/images/Innr.SP_120.png" width="60" />|Innr|INNR TOMADO||||
+|<img src="../../es_ES/zigbee/images/innr.RC_210.png" width="60" />|Innr|Botón inteligente INNR||||
 |<img src="../../es_ES/zigbee/images/innr.SP_220.png" width="60" />|Innr|Prise|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5362-innr-prise-connectee-super-slim-zigbee-30-8718781552657.html)|
 
 # Konke
@@ -537,12 +539,12 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/zigbee/images/NodOn.SIN-4-1-01.png" width="60" />|Nodon|SIN-4-1-01||||
 |<img src="../../es_ES/zigbee/images/NodOn.SIN-4-1-20.png" width="60" />|Nodon|Interruptor de ENCENDIDO / APAGADO de carga única 16A||||
-|<img src="../../es_ES/zigbee/images/NodOn.SIN-4-2-01.png" width="60" />|Nodon|SIN-4-2-01||||
+|<img src="../../es_ES/zigbee/images/NodOn.SIN-4-1-20_PRO.png" width="60" />|Nodon|Interruptor de encendido/apagado de carga única 16A PRO||||
 |<img src="../../es_ES/zigbee/images/NodOn.SIN-4-2-20.png" width="60" />|Nodon|Módulo interruptor de doble carga ON / OFF 2x3A||||
+|<img src="../../es_ES/zigbee/images/NodOn.SIN-4-2-20_PRO.png" width="60" />|Nodon|Módulo interruptor ON/OFF doble carga 2x3A PRO||||
 |<img src="../../es_ES/zigbee/images/NodOn.SIN-4-RS-20.png" width="60" />|Nodon|Módulo de persiana enrollable||||
-|<img src="../../es_ES/zigbee/images/NodOn.SIN-4-RS-VR.png" width="60" />|Nodon|Módulo de persiana enrollable||||
+|<img src="../../es_ES/zigbee/images/NodOn.SIN-4-RS-20_PRO.png" width="60" />|Nodon|Módulo de persiana enrollable PRO||||
 |<img src="../../es_ES/zigbee/images/ptm216z.png" width="60" />|Nodon|PTM 216 Z||||
 
 # Orvibo
@@ -711,6 +713,7 @@
 |<img src="../../es_ES/zigbee/images/Sunricher.ZG2833K8_EU05.png" width="60" />|Sunricher|CONTROLADOR DE PARED INALÁMBRICO DE 8 BOTONES|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5739-sunricher-controleur-mural-sans-fil-8-boutons-4-zones-zigbee.html)|
 |<img src="../../es_ES/zigbee/images/Sunricher.ZG2855-RGB.png" width="60" />|Sunricher|Sunricher RGB CCT Sun 3 en 1||||
 |<img src="../../es_ES/zigbee/images/Sunricher.ZG2858A.png" width="60" />|Sunricher|Mando a distancia 3 en 1|Control remoto||[Comprar](https://www.domadoo.fr/fr/peripheriques/5247-sunricher-telecommande-3-en-1-zigbee-30.html)|
+|<img src="../../es_ES/zigbee/images/Sunricher.ZG9092.png" width="60" />|Sunricher|Termostato Sunricher||||
 |<img src="../../es_ES/zigbee/images/Sunricher.ZGRC-KEY-004.png" width="60" />|Sunricher|CONTROLADOR DE PARED INALÁMBRICO DE 2 BOTONES|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5737-sunricher-controleur-mural-sans-fil-2-boutons-1-zone-zigbee.html)|
 |<img src="../../es_ES/zigbee/images/Sunricher.ZGRC-KEY-013.png" width="60" />|Sunricher|Mando a distancia de 4 zonas|Control remoto||[Comprar](https://www.domadoo.fr/fr/peripheriques/5246-sunricher-telecommande-4-zones-zigbee-30.html)|
 
@@ -913,4 +916,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2022-02-16 01:32:08
+2022-02-17 01:32:09
