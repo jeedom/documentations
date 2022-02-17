@@ -12,6 +12,11 @@
 >
 >Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
 
+# 16/02/2022
+
+- Support de nouveau module
+- Mise à jour de la doc pour l'erreur "base timeout"
+
 # 03/02/2022
 
 - Tentative de correction de l'erreur "cannot import name 'collections_abc' from 'six.moves'", necessite jeedom 4.2 et la relance de l'installation des dépendances

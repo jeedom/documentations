@@ -327,3 +327,14 @@ If for a given daemon (1, 2 or 3) you change the Zigbee key without restoring a 
 >**I don't have as many commands as buttons on my remote**
 >
 >On my remote control I have for example 2 buttons but in the list of Jeedom commands I only have 1 command !!! It's normal the command in jeedom takes a different value depending on the physical button pressed. The easiest way to see it is to go to "Advanced configuration" (top right) then "Logs" (top right too) and press the buttons on the remote control to see the different values of the commands.
+
+>**I have a standard error "base.timeout" when starting the daemon on an EZSP type key**
+>
+>It is possible that the key is blocked in bootloader mode, to get out of it you can do the following lines (one by one) in the Jeedom system console : 
+>````````
+wgand https://github.com/Elelabs/elelabs-zigbee-ezsp-utility/archive/master.zip -O /tmp/elelabs.zip
+cd /tmp;unzip -o elelabs.zip
+cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py flash -p /dev/ttyS2 -f /tmp/elelabs-zigbee-ezsp-utility-master/data/EFR32MG13/ELE_MG13_zb_ncp_115200_610_211112.gbl
+cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py probe -p /dev/ttyS2
+rm -rf /tmp/elelabs-zigbee-ezsp-utility-master
+````````

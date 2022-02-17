@@ -327,3 +327,14 @@ Wenn Sie für einen bestimmten Daemon (1, 2 oder 3) den Zigbee-Schlüssel änder
 >**Ich habe nicht so viele Befehle wie Tasten auf meiner Fernbedienung**
 >
 >Auf meiner Fernbedienung habe ich zum Beispiel 2 Tasten, aber in der Liste der Jeedom-Befehle habe ich nur 1 Befehl !!! Es ist normal, dass der Befehl in Jeedom je nach gedrückter physischer Taste einen anderen Wert annimmt. Am einfachsten ist es, zu „Erweiterte Konfiguration“ (oben rechts) und dann zu „Protokolle“ (auch oben rechts) zu gehen und die Tasten auf der Fernbedienung zu drücken, um die verschiedenen Werte der Befehle anzuzeigen.
+
+>**Ich habe einen Standardfehler "base.timeout", wenn der Daemon auf einem Schlüssel vom Typ EZSP gestartet wird**
+>
+>Es ist möglich, dass der Schlüssel im Bootloader-Modus blockiert ist. Um ihn zu lösen, können Sie die folgenden Zeilen (nacheinander) in der Jeedom-Systemkonsole ausführen : 
+>````````
+wgund https://github.com/Elelabs/elelabs-zigbee-ezsp-utility/archive/master.zip -O /tmp/elelabs.zip
+cd /tmp;unzip -o elelabs.zip
+cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py flash -p /dev/ttyS2 -f /tmp/elelabs-zigbee-ezsp-utility-master/data/EFR32MG13/ELE_MG13_zb_ncp_115200_610_211112.gbl
+cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py-Sonde -p /dev/ttyS2
+rm -rf /tmp/elelabs-zigbee-ezsp-utility-master
+````````

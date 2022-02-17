@@ -12,6 +12,11 @@
 >
 >To take advantage of the latest module integration, don't hesitate to update the dependencies
 
+# 02/16/2022
+
+- New module support
+- Update of the doc for the "base timeout" error"
+
 # 02/03/2022
 
 - Attempt to fix "cannot import name 'collections_abc' from 'six" error.moves'", requires jeedom 4.2 and relaunching the installation of dependencies

@@ -327,3 +327,14 @@ Se para um determinado daemon (1, 2 ou 3) você alterar a chave Zigbee sem resta
 >**Não tenho tantos comandos quanto botões no meu controle remoto**
 >
 >No meu controlo remoto tenho por exemplo 2 botões mas na lista de comandos Jeedom só tenho 1 comando !!! É normal que o comando em jeedom tenha um valor diferente dependendo do botão físico pressionado. A maneira mais fácil de ver é ir em "Configuração avançada" (canto superior direito) depois em "Logs" (canto superior direito também) e pressionar os botões no controle remoto para ver os diferentes valores dos comandos.
+
+>**Eu tenho um erro padrão "base.timeout" ao iniciar o daemon em uma chave do tipo EZSP**
+>
+>É possível que a chave esteja bloqueada no modo bootloader, para sair dela você pode fazer as seguintes linhas (uma por uma) no console do sistema Jeedom : 
+>````````
+wge https://github.com/Elelabs/elelabs-zigbee-ezsp-utility/archive/master.zip -O /tmp/elelabs.zip
+cd /tmp;unzip -o elelabs.zip
+cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py flash -p /dev/ttyS2 -f /tmp/elelabs-zigbee-ezsp-utility-master/data/EFR32MG13/ELE_MG13_zb_ncp_115200_610_211112.gbl
+cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py sonda -p /dev/ttyS2
+rm -rf /tmp/elelabs-zigbee-ezsp-utility-master
+````````

@@ -327,3 +327,14 @@ Si para un daemon dado (1, 2 o 3) cambia la clave Zigbee sin restaurar una copia
 >**No tengo tantos comandos como botones en mi control remoto**
 >
 >En mi control remoto tengo por ejemplo 2 botones pero en la lista de comandos de Jeedom solo tengo 1 comando !!! Es normal que el comando en jeedom tome un valor diferente dependiendo del botón físico presionado. La forma más fácil de verlo es ir a "Configuración avanzada" (arriba a la derecha) luego a "Registros" (arriba a la derecha también) y presionar los botones en el control remoto para ver los diferentes valores de los comandos.
+
+>**Tengo un error estándar "base.timeout" al iniciar el daemon en una tecla de tipo EZSP**
+>
+>Es posible que la clave esté bloqueada en el modo de cargador de arranque, para salir de ella puede hacer las siguientes líneas (una por una) en la consola del sistema Jeedom : 
+>''''''''
+wgy https://github.com/Elelabs/elelabs-zigbee-ezsp-utility/archive/master.zip -O /tmp/elelabs.zip
+cd /tmp;descomprimir -o elelabs.zip
+cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py flash -p /dev/ttyS2 -f /tmp/elelabs-zigbee-ezsp-utility-master/data/EFR32MG13/ELE_MG13_zb_ncp_115200_610_211112.gbl
+cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.sonda py -p /dev/ttyS2
+rm -rf /tmp/elelabs-zigbee-ezsp-utilidad-maestro
+''''''''
