@@ -4,7 +4,7 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 02/11/2022
+# 02/16/2022
 
 - Fix for Jeedom 4.2
 

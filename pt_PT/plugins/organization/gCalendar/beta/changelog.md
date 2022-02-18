@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 18/02/2022
+
+- Link válido por 1 ano 
+
 # 16/02/2022
 
 - Correção para Jeedom 4.2
