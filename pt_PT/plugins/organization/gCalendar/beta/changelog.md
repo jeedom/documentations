@@ -4,9 +4,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-# 18/02/2022
+# 21/02/2022
 
-- Link válido por 1 ano 
+- Correção de bug
 
 # 16/02/2022
 

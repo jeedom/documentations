@@ -4,9 +4,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 18.02.2022
+# 21.02.2022
 
-- Link gültig für 1 Jahr 
+- Bug-Fix
 
 # 16.02.2022
 
