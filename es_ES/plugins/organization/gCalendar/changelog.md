@@ -4,9 +4,9 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-# 18/02/2022
+# 21/02/2022
 
-- Enlace válido por 1 año 
+- Arreglo del fallo
 
 # 16/02/2022
 

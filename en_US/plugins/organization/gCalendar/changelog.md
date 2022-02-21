@@ -4,9 +4,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 02/18/2022
+# 02/21/2022
 
-- Link valid for 1 year 
+- Bug fix
 
 # 02/16/2022
 
