@@ -4,6 +4,10 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
+# 21/02/2021
+
+- Error solucionado con el protocolo SIA
+
 # 01/05/2021
 
 - Se solucionó un problema para Socket

@@ -4,6 +4,10 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
+# 01/05/2021
+
+- Se solucionó un problema para Socket
+
 # 01/04/2022
 
 - Optimización de la instalación de dependencias

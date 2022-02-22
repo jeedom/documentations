@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 01.05.2021
+
+- Behebung eines Problems für Socket
+
 # 01.04.2022
 
 - Optimierung der Installation von Abhängigkeiten
