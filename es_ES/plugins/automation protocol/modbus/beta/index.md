@@ -119,7 +119,17 @@ IMPORTANTE :
 
 
 
+IMPORTANTE :
 
+
+Algunos PLC no tienen la función fc06
+Puede crear un comando de acción, en Tipo de mensaje, y elegir fc16
+En el tablero, debe usar esta sintaxis :
+registro de salida ! value & nbregisters separados por un |
+
+Ex: 7!122.5 y 2|10!22 y 2
+
+Escribiremos del registro 7, el valor 122.5 en 2 registros y también del registro 10, el valor 22, en 2 registros
 
 
 
@@ -148,8 +158,7 @@ Al actuar sobre estos comandos de acción en su tablero, enviará Verdadero o Fa
 Para escribir en un registro de retención :
 
 - Agrega un nuevo comando Modbus y nombra el comando. Elige un comando de tipo Acción, en Tipo de control deslizante.
-- Elija Fc5 Escribir registro único
-- Elige el número de registros : 1, 2 o 4
-- Elija el formato para enviar al registro (esto cambiará el tipo de control deslizante en su tablero, dependiendo de si es flotante o largo/entero))
+- También elija un valor mínimo y máximo para este control deslizante (recuerde tomar un valor mínimo para enviar un valor negativo)
+- Elija BC6 Escribir registro único
+- Elige el número de registros : 1
 - Elija el paso del control deslizante (para decimales, escriba con un .   ex: 0.2)
-- Elija también un valor mínimo y máximo para este control deslizante

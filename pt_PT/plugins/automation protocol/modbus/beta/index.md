@@ -119,7 +119,17 @@ IMPORTANTE :
 
 
 
+IMPORTANTE :
 
+
+Alguns CPs não possuem a função fc06
+Você pode criar um comando de ação, em tipo de mensagem, e escolher fc16
+No painel, você deve usar esta sintaxe :
+registro de partida ! value & nregisters separados por um |
+
+Ex: 7!122,5&2|10!22&2
+
+Vamos escrever do registrador 7, o valor 122.5 em 2 registradores e também do registrador 10, o valor 22, em 2 registradores
 
 
 
@@ -148,8 +158,7 @@ Ao agir sobre esses comandos de ação em seu painel, você enviará True ou Fal
 Para gravar em um registro de retenção :
 
 - Você adiciona um Novo Comando Modbus e nomeia o comando. Você escolhe um comando de tipo de ação, em tipo de controle deslizante.
-- Escolha Fc5 Write Single Register
-- Escolha o número de registros : 1, 2 ou 4
-- Escolha o formato para enviar para o registro (isso irá alterar o tipo de controle deslizante em seu painel, dependendo se for flutuante ou longo/inteiro)
+- Escolha também um valor Min e Max para esta barra (lembre-se de tomar um valor mínimo para enviar um valor negativo)
+- Escolha Bc6 Write Single Register
+- Escolha o número de registros : 1
 - Escolha o passo do controle deslizante (para decimais, escreva com um .   ex: 0.2)
-- Escolha também um valor mínimo e máximo para este controle deslizante

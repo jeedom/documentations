@@ -119,7 +119,17 @@ IMPORTANT :
 
 
 
+IMPORTANT :
 
+
+Certains automates n'ont pas la fonction fc06
+Vous pouvez créér une commande Action, sous type Message, et choisir fc16
+Dans le dashboard, il faut utiliser cette syntaxe :
+registre de depart ! valeur & nbregistres séparé par un |
+
+Ex: 7!122.5&2|10!22&2
+
+On va ecrire à partir du registre 7, la valeur 122.5 sur 2 registres et egalement a partir du registre 10, la valeur 22, sur 2 registres
 
 
 
@@ -148,8 +158,7 @@ En agissant sur ces commandes action sur votre dashboard, vous enverrez donc Tru
 Pour écrire sur un Holding Register :
 
 - Vous ajouter une Nouvelle Commande Modbus, et vous nommez la commande. Vous choisissez une commande de type Action, sous type Slider.
-- Choisir Fc5 Write Single Register
-- Choisir le nombre de registre : 1, 2 ou 4
-- Choisir le format à envoyer au registre (cela modifiera le type de slider sur votre dashboard, suivant qu'il soit float ou long/integer)
+- Choisir aussi une valeur Min et Max pour ce slider (pensez a prendre une valeur min pour envoyer valeur negative)
+- Choisir Fc6 Write Single Register
+- Choisir le nombre de registre : 1
 - Choisir le pas du slider (pour les décimales, écrire avec un .   ex: 0.2)
-- Choisir aussi une valeur Min et Max pour ce slider

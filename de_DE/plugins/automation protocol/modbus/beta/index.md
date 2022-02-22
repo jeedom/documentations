@@ -119,7 +119,17 @@ WICHTIG :
 
 
 
+WICHTIG :
 
+
+Einige SPS haben die Funktion fc06 nicht
+Sie können unter Nachrichtentyp einen Aktionsbefehl erstellen und fc16 auswählen
+Im Dashboard müssen Sie diese Syntax verwenden :
+Abgangsregister ! Wert & nbRegister durch a getrennt |
+
+Ex: 7!122.5&2|10!22&2
+
+Wir schreiben aus Register 7 den Wert 122.5 auf 2 Register und auch von Register 10, der Wert 22, auf 2 Register
 
 
 
@@ -148,8 +158,7 @@ Indem Sie auf diese Aktionsbefehle auf Ihrem Dashboard reagieren, senden Sie dah
 In ein Halteregister schreiben :
 
 - Sie fügen einen neuen Modbus-Befehl hinzu und benennen den Befehl. Sie wählen einen Aktionstypbefehl unter Schiebereglertyp aus.
-- Wählen Sie Fc5 Write Single Register
-- Wählen Sie die Anzahl der Register : 1, 2 oder 4
-- Wählen Sie das Format, das an die Registrierung gesendet werden soll (dies ändert den Schiebereglertyp auf Ihrem Dashboard, je nachdem, ob es Float oder Long/Integer ist)
+- Wählen Sie auch einen Min- und Max-Wert für diesen Schieberegler (denken Sie daran, einen Min-Wert zu verwenden, um einen negativen Wert zu senden)
+- Wählen Sie Bc6 Write Single Register
+- Wählen Sie die Anzahl der Register : 1
 - Wählen Sie den Schritt des Schiebereglers (für Dezimalzahlen schreiben Sie mit a .   ex: 0.2)
-- Wählen Sie auch einen Min- und Max-Wert für diesen Schieberegler

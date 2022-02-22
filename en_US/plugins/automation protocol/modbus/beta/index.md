@@ -119,7 +119,17 @@ IMPORTANT :
 
 
 
+IMPORTANT :
 
+
+Some PLCs do not have the fc06 function
+You can create an Action command, under Message type, and choose fc16
+In the dashboard, you must use this syntax :
+departure register ! value & nbregisters separated by a |
+
+Ex: 7!122.5&2|10!22&2
+
+We will write from register 7, the value 122.5 on 2 registers and also from register 10, the value 22, on 2 registers
 
 
 
@@ -148,8 +158,7 @@ By acting on these action commands on your dashboard, you will therefore send Tr
 To Write to a Holding Register :
 
 - You add a New Modbus Command, and you name the command. You choose an Action type command, under Slider type.
-- Choose Fc5 Write Single Register
-- Choose the number of registers : 1, 2 or 4
-- Choose the format to send to the registry (this will change the type of slider on your dashboard, depending on whether it is float or long/integer)
+- Also choose a Min and Max value for this slider (remember to take a min value to send a negative value)
+- Choose Bc6 Write Single Register
+- Choose the number of registers : 1
 - Choose the step of the slider (for decimals, write with a .   ex: 0.2)
-- Also choose a Min and Max value for this slider
