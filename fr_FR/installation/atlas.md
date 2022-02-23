@@ -43,7 +43,7 @@ CAS 2 : VOUS N'AVEZ ACCES A VOTRE BOX ATLAS
 
 - Téléchargez le Recovery depuis votre profil sur le market : Profil / Mes Services et cliquer sur Telecharger USB Recovery Atlas
 
-![profilrecovery](../images/profilrecovery.png)
+![profilrecovery](https://github.com/jeedom/documentations/blob/master/fr_FR/installation/images/profilrecovery.png)
 
 
 - Téléchargez le logiciel[Balena etcher](https://www.balena.io/etcher/)
@@ -51,7 +51,7 @@ CAS 2 : VOUS N'AVEZ ACCES A VOTRE BOX ATLAS
 
 - Dans le logiciel, choississez votre image téléchargée, puis votre clé usb 
 
-![balenaetcher](../images/balenaetcher.png)
+![balenaetcher](https://github.com/jeedom/documentations/blob/master/fr_FR/installation/images/balenaetcher.png)
 
 
 - Une fois la clé prête, la mettre dans le port USB 2 inferieur (port USB noir), puis allumer votre box Atlas
