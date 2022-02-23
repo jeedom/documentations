@@ -17,6 +17,8 @@ Once the plugin is installed, you need to enter your Netatmo connection informat
 
 Pour intégrer votre Welcome, vous devez posséder un client\_id et unclient\_secret généré sur le site <http://dev.netatmo.com>.
 
+Pour créer un compte > https://auth.netatmo.com/fr-fr/access/signup?next_url=https%3A%2F%2Fdev.netatmo.com%2Fbusiness-showcase
+
 Once on click on start :
 
 ![netatmoWelcome10](../images/netatmoWelcome10.png)

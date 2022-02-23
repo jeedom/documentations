@@ -1,7 +1,18 @@
 {
     "id": "domogeek",
     "name": "DomoGeek",
-    "description": "Plugin pour récuperer les informations du site DomoGeek. Le plugin permet de récupérer de nombreuses infos : <br>- Jour férié <br>- Week-End <br>- Vacances scolaires <br>- Durée du jour (soleil) <br>- Heure de levé du soleil <br>- Heure du zenith - Heure du couché du soleil <br>- Couleur EDF Tempo <br>- Couleur EDF Tempo de demain - Vigilance Météo France Inondation <br>- Vigilance Météo France Météo <br>- Vigilance Météo France Type de perturbation <br>- EDF EJT <br>- Adresse IP <br>- Saison <br>- Saint du jour <br>- Saint du lendemain",
+    "description": {
+        "fr_FR": "Plugin pour récuperer les informations du site DomoGeek. Le plugin permet de récupérer de nombreuses infos : <br>- Jour férié <br>- Week-End <br>- Vacances scolaires <br>- Durée du jour (soleil) <br>- Heure de levé du soleil <br>- Heure du zenith - Heure du couché du soleil <br>- Couleur EDF Tempo <br>- Couleur EDF Tempo de demain - Vigilance Météo France Inondation <br>- Vigilance Météo France Météo <br>- Vigilance Météo France Type de perturbation <br>- EDF EJT <br>- Adresse IP <br>- Saison <br>- Saint du jour <br>- Saint du lendemain",
+        "en_US": "Plugin to retrieve information from the DomoGeek site. The plugin allows you to retrieve a lot of information: <br> - Public holiday <br> - Weekend <br> - School vacation <br> - Day length (sun) <br> - Sunrise time <br> - Zenith time - Sunset time <br> - EDF Tempo color <br> - EDF Tempo color of tomorrow - Vigilance Météo France Inondation <br> - Vigilance Météo France Météo <br> - Vigilance Météo France Type of disturbance <br> - EDF WCY <br> - IP adress <br> - season <br> - Saint of the day <br> - Saint of the next day",
+        "es_ES": "Complemento para recuperar información del sitio DomoGeek. El complemento le permite recuperar mucha información: <br> - Día feriado <br> - Fin de semana <br> - Vacaciones escolares <br> - Duración del día (sol) <br> - hora del amanecer <br> - Hora Zenith - Hora del atardecer <br> - EDF Tempo color <br> - EDF Tempo color del mañana - Vigilance Météo France Inondation <br> - Vigilance Météo France Météo <br> - Vigilancia Météo France Tipo de perturbación <br> - EDF WCY <br> - Dirección IP <br> - temporada <br> - Santo del día <br> - Santo del día siguiente",
+        "de_DE": "Plugin zum Abrufen von Informationen von der DomoGeek-Site. Mit dem Plugin können Sie viele Informationen abrufen: <br> - Gesetzlicher Feiertag <br> - Wochenende <br> - Schulferien <br> - Tageslänge (Sonne) <br> - Sonnenaufgangszeit <br> - Zenitzeit - Sonnenuntergangszeit <br> - EDF Tempo Farbe <br> - EDF Tempo Farbe von morgen - Vigilance Météo France Inondation <br> - Wachsamkeit Météo France Météo <br> - Vigilance Météo France Art der Störung <br> - EDF WCY <br> - IP Adresse <br> - Jahreszeit <br> - Heiliger des Tages <br> - Heiliger des nächsten Tages",
+        "pt_PT": "Plug-in para recuperar informações do site DomoGeek. O plug-in permite recuperar muitas informações: <br> - Feriado <br> - Final de semana <br> - Férias escolares <br> - Duração do dia (sol) <br> - Hora do nascer do sol <br> - Hora Zenith - Hora do pôr do sol <br> - Cor EDF Tempo <br> - EDF Tempo cor de amanhã - Vigilance Météo France Inondation <br> - Vigilância Météo França Météo <br> - Vigilância Météo França Tipo de perturbação <br> - EDF CJT <br> - Endereço de IP <br> - estação <br> - Santo do dia <br> - Santo do dia seguinte",
+        "ru_RU": "Plugin pour récuperer les informations du site DomoGeek. Le plugin permet de récupérer de nombreuses infos : <br>- Jour férié <br>- Week-End <br>- Vacances scolaires <br>- Durée du jour (soleil) <br>- Heure de levé du soleil <br>- Heure du zenith - Heure du couché du soleil <br>- Couleur EDF Tempo <br>- Couleur EDF Tempo de demain - Vigilance Météo France Inondation <br>- Vigilance Météo France Météo <br>- Vigilance Météo France Type de perturbation <br>- EDF EJT <br>- Adresse IP <br>- Saison <br>- Saint du jour <br>- Saint du lendemain",
+        "id_ID": "Plugin pour récuperer les informations du site DomoGeek. Le plugin permet de récupérer de nombreuses infos : <br>- Jour férié <br>- Week-End <br>- Vacances scolaires <br>- Durée du jour (soleil) <br>- Heure de levé du soleil <br>- Heure du zenith - Heure du couché du soleil <br>- Couleur EDF Tempo <br>- Couleur EDF Tempo de demain - Vigilance Météo France Inondation <br>- Vigilance Météo France Météo <br>- Vigilance Météo France Type de perturbation <br>- EDF EJT <br>- Adresse IP <br>- Saison <br>- Saint du jour <br>- Saint du lendemain",
+        "it_IT": "Plugin pour récuperer les informations du site DomoGeek. Le plugin permet de récupérer de nombreuses infos : <br>- Jour férié <br>- Week-End <br>- Vacances scolaires <br>- Durée du jour (soleil) <br>- Heure de levé du soleil <br>- Heure du zenith - Heure du couché du soleil <br>- Couleur EDF Tempo <br>- Couleur EDF Tempo de demain - Vigilance Météo France Inondation <br>- Vigilance Météo France Météo <br>- Vigilance Météo France Type de perturbation <br>- EDF EJT <br>- Adresse IP <br>- Saison <br>- Saint du jour <br>- Saint du lendemain",
+        "ja_JP": "Plugin pour récuperer les informations du site DomoGeek. Le plugin permet de récupérer de nombreuses infos : <br>- Jour férié <br>- Week-End <br>- Vacances scolaires <br>- Durée du jour (soleil) <br>- Heure de levé du soleil <br>- Heure du zenith - Heure du couché du soleil <br>- Couleur EDF Tempo <br>- Couleur EDF Tempo de demain - Vigilance Météo France Inondation <br>- Vigilance Météo France Météo <br>- Vigilance Météo France Type de perturbation <br>- EDF EJT <br>- Adresse IP <br>- Saison <br>- Saint du jour <br>- Saint du lendemain",
+        "tr": "Plugin pour récuperer les informations du site DomoGeek. Le plugin permet de récupérer de nombreuses infos : <br>- Jour férié <br>- Week-End <br>- Vacances scolaires <br>- Durée du jour (soleil) <br>- Heure de levé du soleil <br>- Heure du zenith - Heure du couché du soleil <br>- Couleur EDF Tempo <br>- Couleur EDF Tempo de demain - Vigilance Météo France Inondation <br>- Vigilance Météo France Météo <br>- Vigilance Météo France Type de perturbation <br>- EDF EJT <br>- Adresse IP <br>- Saison <br>- Saint du jour <br>- Saint du lendemain"
+    },
     "licence": "AGPL",
     "author": "Jeedom",
     "require": "2.3",
@@ -11,5 +22,28 @@
     "category": "organization",
     "version": "1",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/domogeek\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/domogeek\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/domogeek\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/domogeek\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/domogeek\/beta"
 }
