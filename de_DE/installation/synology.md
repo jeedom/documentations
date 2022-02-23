@@ -56,7 +56,7 @@ Fügen Sie dann auf "Volume" die folgenden 2 Volumes hinzu :
 
 Aktivieren Sie "Container mit erhöhten Berechtigungen ausführen" und überprüfen Sie alles.
 
-> **WICHTIG**
+> **Wichtig**
 >
 > Für bestimmte Plugins ist eine Netzwerksendung erforderlich (Xioami-Plugin-Typ). Dazu müssen Sie ABSOLUT im Host-Modus zum Netzwerk wechseln (nur während der Erstellung möglich) und den Standard-Listening-Port des Webservers ändern ( Geben Sie 9080 für den Webserver ein)
 

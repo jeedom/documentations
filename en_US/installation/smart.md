@@ -13,13 +13,13 @@ It allows :
 
 Pour rappel la gestion des sauvegardes/restauration est disponible dans Jeedom dans le menu « roues crantées » en haut à droite, puis « Sauvegardes ».
 
-Jeedom offers a service with automatic backup subscription on Jeedom private cloud, so you don't have to worry about anything. (Sur le Market, dans votre compte, menu à gauche « Backup Cloud »).
+Jeedom offers a service with automatic backup subscription on private cloud Jeedom, so you don't have to worry about anything. (Sur le Market, dans votre compte, menu à gauche « Backup Cloud »).
 
-## Operation of recovery mode
+## How recovery mode works
 
 Necessary material : a USB key (minimum 8GB).
 
->**Note**
+>**NOTE**
 >
 >Remember to set aside (locally) a Jeedom configuration backup
 
@@ -35,6 +35,6 @@ Necessary material : a USB key (minimum 8GB).
 
 > **Important**
 >
-> Warning ! Un Recovery Mode remet quoi qu'il arrive votre Smart en configuration « usine » neuve. If you have a backup of your Jeedom configuration, just restore it afterward.
+> Be careful ! Un Recovery Mode remet quoi qu'il arrive votre Smart en configuration « usine » neuve. If you have a backup of your Jeedom configuration, you only need to restore it afterwards.
 
 This Recovery Mode is only compatible with Jeedom Smart.

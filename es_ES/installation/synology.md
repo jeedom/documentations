@@ -56,7 +56,7 @@ Luego, en "Volumen", agregue los siguientes 2 volúmenes :
 
 Marque "Ejecutar el contenedor con privilegios elevados" y luego valide todo.
 
-> **IMPORTANTE**
+> **Importante**
 >
 > Cierto complemento necesita tener transmisión de red (tipo de complemento Xioami), para esto DEBE cambiar ABSOLUTAMENTE a la red en modo host (solo posible durante la creación), cambie el puerto de escucha predeterminado del servidor web ( escriba 9080 para el servidor web)
 

@@ -87,7 +87,7 @@ CASO 2 : NO TIENES ACCESO A TU CAJA ATLAS
 
 
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Atención ! Un Recovery Mode remet quoi qu'il arrive votre Atlas en configuration « usine » neuve. Si tiene una copia de seguridad de su configuración de Jeedom, simplemente restáurela después.
 > 

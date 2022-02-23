@@ -87,7 +87,7 @@ CASE 2 : YOU DO NOT HAVE ACCESS TO YOUR ATLAS BOX
 
 
 
-> **Important**
+> **IMPORTANT**
 >
 > Warning ! Un Recovery Mode remet quoi qu'il arrive votre Atlas en configuration « usine » neuve. If you have a backup of your Jeedom configuration, just restore it afterward.
 > 

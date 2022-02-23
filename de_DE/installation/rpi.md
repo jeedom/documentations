@@ -15,7 +15,7 @@ Hier finden Sie die Dokumentation zur Installation von Jeedom auf einem Himbeer-
 
 Sie finden die Bilder [hier](https://images.jeedom.com/rpi/)
 
-> **WICHTIG**
+> **Wichtig**
 >
 >Es gibt 2 Bilder : jeedom-debian-XXXX-rpi-X.X.XX.Der 32-Bit-Reißverschluss ist kompatibel mit Raspberry PI-Modellen der Generationen 2 und 3 und jeedom-debian-XXXX-rpi-64-X.X.XX.zip, das in 64bits ist, ist es nur für Raspberry Pi4 kompatibel und ist in Alpha (nicht empfohlen)).
 

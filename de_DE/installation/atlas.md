@@ -87,7 +87,7 @@ FALL 2 : SIE HABEN KEINEN ZUGRIFF AUF IHRE ATLAS-BOX
 
 
 
-> **Wichtig**
+> **WICHTIG**
 >
 > Warnung ! Un Recovery Mode remet quoi qu'il arrive votre Atlas en configuration « usine » neuve. Wenn Sie ein Backup Ihrer Jeedom-Konfiguration haben, stellen Sie es danach einfach wieder her.
 > 
