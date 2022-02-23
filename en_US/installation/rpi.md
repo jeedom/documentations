@@ -15,7 +15,7 @@ You will find here the documentation to install Jeedom on a raspberry PI **with 
 
 You find the images [here](https://images.jeedom.com/rpi/)
 
-> **Important**
+> **IMPORTANT**
 >
 >There are 2 images : jeedom-debian-XXXX-rpi-X.X.XX.zip which is in 32bits, it is compatible with Raspberry PI models of generation 2 and 3 and jeedom-debian-XXXX-rpi-64-X.X.XX.zip which is in 64bits, it is compatible only for Raspberry Pi4 and is in alpha (not recommended).
 
@@ -53,7 +53,7 @@ Raspberry Pi imager allows you to directly download the installation image of Ra
 
 [here](https://www.raspberrypi.org/downloads/)
 
-> **NOTE**
+> **Note**
 >
 > If you use Etcher to burn your image, the decompression step is useless (Zip format recognized directly in the selection of the image file).
 
@@ -104,17 +104,17 @@ Log in with credentials **pi / raspberry**
 
 **The sudo password is also raspberry**
 
-> **NOTE**
+> **Note**
 >
 > Depending on your internet speed, the installation can take 45 to 90 minutes. You must not interrupt the process before the end. Otherwise, you will have to repeat the entire procedure.
 
 Then just go to IP\_MACHINE\_JEEDOM
 
-> **NOTE**
+> **Note**
 >
 > The default credentials are admin / admin
 
-> **NOTE**
+> **Note**
 >
 > The following arguments can be used : -w = webserver folder -z = installation dependencies z-wave -m = desired mysql root password
 

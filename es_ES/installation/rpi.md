@@ -15,7 +15,7 @@ Encontrará aquí la documentación para instalar Jeedom en una PI de frambuesa 
 
 Encuentras las imagenes [aquí](https://images.jeedom.com/rpi/)
 
-> **Importante**
+> **IMPORTANTE**
 >
 >Hay 2 imágenes : jeedom-debian-XXXX-rpi-X.X.XX.zip que está en 32bits, es compatible con los modelos Raspberry PI de generación 2 y 3 y jeedom-debian-XXXX-rpi-64-X.X.XX.zip que está en 64 bits, es compatible solo para Raspberry Pi4 y está en alfa (no recomendado).
 

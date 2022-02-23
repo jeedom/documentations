@@ -56,7 +56,7 @@ Then on "Volume" add the following 2 volumes :
 
 Check "Run the container using elevated privileges" then validate everything.
 
-> **Important**
+> **IMPORTANT**
 >
 > Certain plugin you need to have network broadcast (Xioami plugin type), for this you must ABSOLUTELY switch to network in host mode (only possible during creation), change the default listening port of the web server ( type 9080 for the web server)
 
