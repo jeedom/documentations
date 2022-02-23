@@ -1,0 +1,46 @@
+{
+    "id": "docker2",
+    "name": "Docker management",
+    "description": {
+        "fr_FR": "Plugin docker pour gerer les containers",
+        "en_US": "Docker plugin to manage containers",
+        "es_ES": "Complemento de Docker para administrar contenedores",
+        "de_DE": "Docker-Plugin zum Verwalten von Containern",
+        "ru_RU": "Plugin docker pour gerer les containers",
+        "id_ID": "Plugin docker pour gerer les containers",
+        "it_IT": "Plugin docker pour gerer les containers",
+        "ja_JP": "Plugin docker pour gerer les containers",
+        "pt_PT": "Plug-in Docker para gerenciar contêineres",
+        "tr": "Plugin docker pour gerer les containers"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2",
+    "category": "programming",
+    "hasDependency": true,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/docker2\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/docker2\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "rpi",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/docker2\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/docker2\/beta"
+}
