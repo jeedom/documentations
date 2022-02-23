@@ -28,22 +28,22 @@ IMPORTANT : Suivant si vous avez encore accès ou non à votre box, la procedure
 
 
 Matériel necessaire : une clé USB (minimum 16Go).
-
+***
 
 
 
 
 CAS 1 : VOUS AVEZ ACCES A VOTRE BOX ATLAS
-***
+
 
 Rendez vous dans le plugin Atlas (Passerelle Domotique/Plugin Atlas), et cliquez sur Recovery, et suivez la procédure.
 
-
+***
 
 
 
 CAS 2 : VOUS N'AVEZ ACCES A VOTRE BOX ATLAS
-***
+
 
 
 - Téléchargez le Recovery depuis votre profil sur le market : Profil / Mes Services et cliquer sur Telecharger USB Recovery Atlas
