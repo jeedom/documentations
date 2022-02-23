@@ -52,7 +52,7 @@ CAS 2 : VOUS N'AVEZ ACCES A VOTRE BOX ATLAS
 
 
 
-- Téléchargez le logiciel[Balena etcher](https://www.balena.io/etcher/)
+- Téléchargez le logiciel [Balena etcher](https://www.balena.io/etcher/)
 
 
 
