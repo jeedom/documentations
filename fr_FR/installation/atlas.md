@@ -31,6 +31,8 @@ Matériel necessaire : une clé USB (minimum 16Go).
 
 
 
+
+
 CAS 1 : VOUS AVEZ ACCES A VOTRE BOX ATLAS
 
 
@@ -38,7 +40,10 @@ Rendez vous dans le plugin Atlas (Passerelle Domotique/Plugin Atlas), et cliquez
 
 
 
+
+
 CAS 2 : VOUS N'AVEZ ACCES A VOTRE BOX ATLAS
+
 
 
 - Téléchargez le Recovery depuis votre profil sur le market : Profil / Mes Services et cliquer sur Telecharger USB Recovery Atlas
@@ -46,7 +51,9 @@ CAS 2 : VOUS N'AVEZ ACCES A VOTRE BOX ATLAS
 ![profilrecovery](https://github.com/jeedom/documentations/blob/master/fr_FR/installation/images/profilrecovery.png)
 
 
+
 - Téléchargez le logiciel[Balena etcher](https://www.balena.io/etcher/)
+
 
 
 - Dans le logiciel, choississez votre image téléchargée, puis votre clé usb 
@@ -54,21 +61,35 @@ CAS 2 : VOUS N'AVEZ ACCES A VOTRE BOX ATLAS
 ![balenaetcher](https://github.com/jeedom/documentations/blob/master/fr_FR/installation/images/balenaetcher.png)
 
 
+
 - Une fois la clé prête, la mettre dans le port USB 2 inferieur (port USB noir), puis allumer votre box Atlas
+
+
 
 - Attendre 5 à 10 minutes environ
 
+
+
 - Puis rendez vous sur http://jeedomatlasrecovery.local/
+
+
 
 - Mettre les identifiants et mot de passe :  admin/admin, puis changer le mot de passe, IMPORTANT : mettre un compte market.
 
+
+
 - Une fois cela fait, Jeeasy se lance et vous présente la procédure de recovery
 
+
+
 - Suivre la procédure
+
+
 
 
 > **Important**
 >
 > Attention ! Un Recovery Mode remet quoi qu’il arrive votre Atlas en configuration « usine » neuve. Si vous avez une sauvegarde de votre configuration Jeedom il suffit après de la restaurer.
+> 
 
 Ce Recovery Mode n’est compatible qu’avec la Jeedom Atlas
