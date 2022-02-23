@@ -1,7 +1,7 @@
 # Restauration en mode usine d'une Jeedom Atlas
 
 ## Présentation
-***
+
 La Jeedom Atlas est équipée d’un disque Emmc, garantissant une meilleur fiabilité qu'une carte SD, mais ce disque n’est pas directement accessible.
 
 Le Recovery Mode USB englobe à la fois le système, l’OS, et aussi l’application Jeedom.
@@ -16,7 +16,7 @@ Pour rappel la gestion des sauvegardes/restauration est disponible dans Jeedom d
 Jeedom propose un service avec abonnement de sauvegarde automatique sur cloud privé Jeedom, pour ne plus vous soucier de rien. (Sur le Market, dans votre compte, menu à gauche « Backup Cloud »).
 
 ## Fonctionnement du recovery mode
-***
+
 >**Note**
 >
 >Pensez à mettre de côté (en local) une sauvegarde de configuration Jeedom
