@@ -172,12 +172,3 @@ sudo GCFFlasher_internal -d 0 -f deCONZ_Rpi_0x26300500.bin.GCF
 >Esto probablemente se deba a un problema con las zonas horarias (la descontaminación es muy exigente arriba)). Hay que :
 >- marque en "Deconz Networks" que la zona horaria y la hora son correctas, si no puede configurarlo en deconz o marque la casilla "Zonas horarias" en la puerta de enlace en la configuración del complemento deconz (si hace este último método debe espere 1 hora antes de que la corrección sea efectiva)
 >- compruebe la zona horaria de su sistema operativo (especialmente en el rpi) que debe ser absolutamente bueno
-
->**Recibo el error "concurrent.futures._base.TimeoutError"**
->
->Hay que : 
->- compruebe que el firmware de la llave esté actualizado (6.10 o más)
->- desconecte la llave durante 5 minutos y vuelva a enchufarla 
->- si sigue el problema prueba a ponerlo en otro puerto
->- prueba con un concentrador USB alimentado
->Si el problema persiste, debe realizar una solicitud de servicio en la clave

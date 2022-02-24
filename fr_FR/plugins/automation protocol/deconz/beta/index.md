@@ -172,12 +172,3 @@ sudo GCFFlasher_internal -d 0 -f deCONZ_Rpi_0x26300500.bin.GCF
 >Cela vient surement d'un soucis sur les fuseaux horaires (deconz est très pointilleux la dessus). Il faut :
 >- vérifier dans "Réseaux deconz" que la timezone et l'heure sont correcte si non vous pouvez soit le configurer dans deconz soit cocher la case "Fuseaux horaire" sur la gateway dans la configuration du plugin deconz (si vous faite cette derniere méthode il faut attendre 1h avant que la correction soit effective)
 >- vérifier le fuseau horaire de votre OS (en particulier sur les rpi) qui doit absolument etre bon
-
->**J'ai l'erreur "concurrent.futures._base.TimeoutError"**
->
->Il faut : 
->- vérifier que le firmware de la clef est bien a jour (6.10 minimum)
->- débrancher la clef 5 min et la rebrancher 
->- si toujours le soucis essayer de la mettre sur un autre port
->- tester avec un hub USB alimenté
->Si le soucis persiste il faut alors faire une demande SAV sur la clef

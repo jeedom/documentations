@@ -172,12 +172,3 @@ sudo GCFFlasher_internal -d 0 -f deCONZ_Rpi_0x26300500.bin.GCF
 >Dies ist wahrscheinlich auf ein Problem mit Zeitzonen zurückzuführen (deconz ist oben sehr wählerisch). Du musst :
 >- Überprüfen Sie in "Deconz Networks", ob die Zeitzone und die Zeit korrekt sind. Wenn nicht, können Sie sie entweder in deconz konfigurieren oder das Kontrollkästchen "Zeitzonen" auf dem Gateway in der Konfiguration des deconz-Plugins aktivieren (wenn Sie diese letzte Methode ausführen, müssen Sie dies tun Warten Sie 1 Stunde, bevor die Korrektur wirksam wird)
 >- Überprüfen Sie die Zeitzone Ihres Betriebssystems (insbesondere auf dem RPI), die unbedingt gut sein muss
-
->**Ich erhalte den Fehler "concurrent.futures._base.TimeoutError"**
->
->Du musst : 
->- Überprüfen Sie, ob die Firmware des Schlüssels aktuell ist (6.10 oder mehr)
->- Schlüssel 5 min abziehen und wieder einstecken 
->- Wenn das Problem weiterhin besteht, versuchen Sie, es auf einen anderen Port zu legen
->- Test mit einem aktiven USB-Hub
->Wenn das Problem weiterhin besteht, müssen Sie eine Serviceanfrage für den Schlüssel stellen

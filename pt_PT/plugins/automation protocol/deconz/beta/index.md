@@ -172,12 +172,3 @@ sudo GCFFlasher_internal -d 0 -f deCONZ_Rpi_0x26300500.bin.GCF
 >Provavelmente, isso se deve a um problema com fusos horários (o deconz é muito exigente acima). Você deve :
 >- verifique em "Deconz Networks" se o fuso horário e a hora estão corretos, caso contrário, você pode configurá-lo em deconz ou marque a caixa "Fusos horários" no gateway na configuração do plug-in deconz (se você fizer esse último método, deverá aguarde 1 hora antes que a correção seja efetivada)
 >- verifique o fuso horário do seu sistema operacional (especialmente no rpi) que deve ser absolutamente bom
-
->**Recebo o erro "concurrent.futures._base.TimeoutError"**
->
->Você deve : 
->- verifique se o firmware da chave está atualizado (6.10 ou mais)
->- desconecte a chave por 5 minutos e conecte-a novamente 
->- se ainda o problema tentar colocá-lo em outra porta
->- teste com um hub USB alimentado
->Se o problema persistir, você deve fazer uma solicitação de serviço na chave
