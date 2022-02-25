@@ -1,3 +1,5 @@
+
+
 # Contribute to the development of the Core
 
 You want to contribute to the development of the Jeedom Core ?
@@ -127,6 +129,95 @@ Then the content of the called page is loaded from desktop / php / page.php and 
 These content files, purely interface oriented, can access Core functions (`/ core / class` classes) directly in php, or in js thanks to js classes (` / core / js`) through ajax calls (`/ core / ajax`).
 
 The internal functions of the Core are thus well separated, for internal operation (Back-end), but are accessible through the interface. Likewise, each page has its own php and js code. This allows you to better develop and maintain the code, but also to optimize performance by loading only the necessary classes and functions.
+
+#### Core v4.2
+Since Core v4.2, all js functions from `desktop/common/js/utils file.js` are isolated in a namespace `jeedomUtils{}`.
+For example, the function previously in the root window `loadPage()` becomes `jeedomUtils.loadPage()`.
+
+For reasons of backward compatibility for plugins, old functions are still declared and will be deprecated in a later version. [See the list here](https://github.com/jeedom/core/blob/alpha/desktop/common/js/utils.js#L1423).
+
+#### Core v4.3
+Continuing from version 4.2, the desktop front-end pages have been isolated to avoid referencing variables and functions in the root window. This secures possible collision of declaration, facilitates the reading and understanding of the code, as well as its debugging.
+
+The `core/js/jeedom.class file.js` declares two new namespaces :
+##### jeeFrontEnd[}
+
+Some global variables are now in this namespace :
+
+```js
+jeeFrontEnd = {
+  __description: 'Global object where each Core page register its own functions and variable in its sub-object name.',
+  jeedom_firstUse: '',
+  language: '',
+  userProfils: {},
+  planEditOption: {state: false, snap: false, grid: false, gridSize: false, highlight: true},
+  //loadPage history:
+  PREVIOUS_PAGE: null,
+  PREVIOUS_LOCATION: null,
+  NO_POPSTAT: false,
+  modifyWithoutSave: false,
+  //@index.php
+  serverDatetime: null,
+  clientServerDiffDatetime: null,
+  serverDatetime: null,
+  serverTZoffsetMin: null,
+}
+```
+
+Typical example for desktop/js/corepage.js :
+
+```js
+"strict use"
+
+if (!jeeFrontEnd.corepage) {
+	jeeFrontEnd.corepage = {
+		myVar: 'oneVar',
+		init: function() {
+			window.jeeP = this //root shortcut
+		},
+		postInit: function() {
+			//Do stuff once page loaded
+		},
+		myFunction: function(_var) {
+			var myFuncContextVar = this.myVar + ' -> ' + _var
+			console.log(myFuncContextVar)
+		}
+	}
+}
+
+jeeFrontEnd.corepage.init()
+
+$(function() {
+  jeeFrontEnd.corepage.postInit()
+})
+
+$('#myButton').on('click', function() {
+	jeeP.myFunction('test')
+})
+```
+
+> The namespace of the page will therefore not be recreated on return to this same page. Moreover, the variable `jeeP` allows to use `jeeFrontEnd.corepage` with a short syntax, it corresponds to a page-specific `self`.
+
+##### jeephp2js[}
+
+Used to pass variables from a php script to the js front-end. For example:
+
+```php
+sendVarToJS([
+  'jeephp2js.myjsvar1' => init('type', ''),
+  'jeephp2js.myjsvar2' => config::byKey('enableCustomCss')
+]);
+```
+
+Puis
+
+```js
+$(function() {
+  if (jeephp2js.myjsvar1 == '1') { ... }
+})
+```
+
+> The jeephp2js{} namespace is emptied on page change to avoid any unexpected residual variable.
 
 ### Mobile
 

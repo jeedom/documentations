@@ -1,3 +1,5 @@
+
+
 # Contribuir al desarrollo del núcleo
 
 Quieres contribuir al desarrollo del Jeedom Core ?
@@ -127,6 +129,95 @@ Luego, el contenido de la página llamada se carga desde el escritorio / php / p
 Estos archivos de contenido, puramente orientados a la interfaz, pueden acceder a las funciones Core (clases `/ core / class`) directamente en php, o en js gracias a las clases js (` / core / js`) a través de llamadas ajax (`/ core / ajax`).
 
 Las funciones internas del Core están, por lo tanto, bien separadas, para la operación interna (Back-end), pero son accesibles a través de la interfaz. Asimismo, cada página tiene su propio código php y js. Esto le permite desarrollar y mantener mejor el código, pero también optimizar el rendimiento cargando solo las clases y funciones necesarias.
+
+#### Núcleo v4.2
+Desde Core v4.2, todas las funciones js del archivo `desktop/common/js/utils.js` están aislados en un espacio de nombres `jeedomUtils{}`.
+Por ejemplo, la función anterior en la ventana raíz `loadPage()` se convierte en `jeedomUtils.loadPage()`.
+
+Por razones de compatibilidad con versiones anteriores de complementos, las funciones antiguas aún se declaran y quedarán obsoletas en una versión posterior. [Ver la lista aquí](https://github.com/jeedom/core/blob/alpha/desktop/common/js/utils.js#L1423).
+
+#### Núcleo v4.3
+Continuando desde la versión 4.2, las páginas frontales del escritorio se han aislado para evitar hacer referencia a variables y funciones en la ventana raíz. Esto asegura posibles colisiones de declaración, facilita la lectura y comprensión del código, así como su depuración.
+
+El archivo `core/js/jeedom.class.js` declara dos nuevos espacios de nombres :
+##### jeeFrontEnd[}
+
+Algunas variables globales ahora están en este espacio de nombres :
+
+```js
+jeeFrontEnd = {
+  __description: 'Objeto global donde cada página principal registra sus propias funciones y variables en su nombre de subobjeto.',
+  jeedom_firstUso: '',
+  language: '',
+  userProfils: {},
+  planEditOption: {state: falso, chasquido: falso, cuadrícula: falso, tamaño de cuadrícula: falso, resaltar: true},
+  //cargar el historial de la página:
+  PAGINA ANTERIOR: null,
+  UBICACIÓN_ANTERIOR: null,
+  NO_POPSTAT: false,
+  modifyWithoutSave: false,
+  //@index.php
+  serverDatetime: null,
+  clientServerDiffDatetime: null,
+  serverDatetime: null,
+  serverTZoffsetMin: null,
+}
+```
+
+Ejemplo típico para desktop/js/corepage.js :
+
+```js
+"uso estricto"
+
+si (!jeeFrontEnd.corepage) {
+	jeeFrontEnd.corepage = {
+		myVar: 'oneVar',
+		init: function() {
+			window.jeeP = este // acceso directo a la raíz
+		},
+		postInit: function() {
+			//Hacer cosas una vez cargada la página
+		},
+		myFunction: función(_var) {
+			var myFuncContextVar = esto.miVar + ' -> ' + _var
+			console.log(myFuncContextVar)
+		}
+	}
+}
+
+jeeFrontEnd.corepage.init()
+
+$(function() {
+  jeeFrontEnd.corepage.postInit()
+})
+
+$('#myButton').on('click', function() {
+	jeeP.myFunction('prueba')
+})
+```
+
+> Por lo tanto, el espacio de nombres de la página no se volverá a crear al volver a esta misma página. Además, la variable `jeeP` permite usar `jeeFrontEnd.corepage` con una sintaxis corta, corresponde a un `self` específico de la página.
+
+##### jeephp2js[}
+
+Se usa para pasar variables de un script php al front-end js. Por ejemplo:
+
+```php
+enviarVarToJS([
+  'jeephp2js.myjsvar1' => init('tipo', ''),
+  'jeephp2js.myjsvar2' => configuración::byKey('habilitar CustomCss')
+]);
+```
+
+Puis
+
+```js
+$(function() {
+  si (jeephp2js.mijsvar1 == '1') { ... }
+})
+```
+
+> El espacio de nombres jeephp2js{} se vacía en el cambio de página para evitar cualquier variable residual inesperada.
 
 ### Mobile
 

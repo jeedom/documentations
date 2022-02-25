@@ -1,3 +1,5 @@
+
+
 # Tragen Sie zur Entwicklung des Kerns bei
 
 Sie möchten zur Entwicklung des Jeedom Core beitragen ?
@@ -127,6 +129,95 @@ Dann wird der Inhalt der aufgerufenen Seite von desktop / php / page geladen.PHP
 Diese rein schnittstellenorientierten Inhaltsdateien können direkt in PHP oder dank js-Klassen (`/ core / js`) über Ajax-Aufrufe auf Core-Funktionen (` / core / class`-Klassen) zugreifen (`/ core / ajax`).
 
 Die internen Funktionen des Core sind somit für den internen Betrieb (Back-End) gut getrennt, aber über die Schnittstelle zugänglich. Ebenso hat jede Seite ihren eigenen PHP- und JS-Code. Dies ermöglicht eine bessere Entwicklung und Pflege des Codes, aber auch eine Optimierung der Leistung, indem nur die erforderlichen Klassen und Funktionen geladen werden.
+
+#### Kern v4.2
+Seit Core v4.2, alle js-Funktionen aus der Datei „desktop/common/js/utils.js` sind in einem Namespace `jeedomUtils{}` isoliert.
+Beispielsweise wird die Funktion „loadPage()“ zuvor im Stammfenster zu „jeedomUtils.loadPage()“.
+
+Aus Gründen der Abwärtskompatibilität für Plugins werden alte Funktionen noch deklariert und werden in einer späteren Version veraltet sein. [Siehe die Liste hier](https://github.com/jeedom/core/blob/alpha/desktop/common/js/utils.js#L1423).
+
+#### Kern v4.3
+Fortsetzung von Version 4.2 wurden die Desktop-Frontend-Seiten isoliert, um zu vermeiden, dass Variablen und Funktionen im Root-Fenster referenziert werden. Dies sichert mögliche Deklarationskollisionen ab, erleichtert das Lesen und Verstehen des Codes sowie dessen Debugging.
+
+Die Datei `core/js/jeedom.class.js` deklariert zwei neue Namespaces :
+##### jeeFrontEnd[}
+
+Einige globale Variablen befinden sich jetzt in diesem Namensraum :
+
+```js
+jeeFrontEnd = {
+  __description: 'Globales Objekt, bei dem jede Kernseite ihre eigenen Funktionen und Variablen in ihrem Unterobjektnamen registriert.',
+  jeedom_firstUse: '',
+  language: '',
+  userProfils: {},
+  planEditOption: {state: falsch, schnappen: falsch, Gitter: falsch, GridSize: falsch, hervorheben: true},
+  //Seitenverlauf laden:
+  VORHERIGE SEITE: null,
+  PREVIOUS_LOCATION: null,
+  NO_POPSTAT: false,
+  modifyWithoutSave: false,
+  //@index.php
+  serverDatetime: null,
+  clientServerDiffDatetime: null,
+  serverDatetime: null,
+  serverTZoffsetMin: null,
+}
+```
+
+Typisches Beispiel für desktop/js/corepage.js :
+
+```js
+"strenge Verwendung"
+
+wenn (!jeeFrontEnd.corepage) {
+	jeeFrontEnd.corepage = {
+		myVar: 'oneVar',
+		init: function() {
+			window.jeeP = diese //root-Verknüpfung
+		},
+		postInit: function() {
+			// Dinge tun, sobald die Seite geladen ist
+		},
+		myFunction: funktion(_var) {
+			var myFuncContextVar = dies.meineVar + ' -> ' + _var
+			console.log(myFuncContextVar)
+		}
+	}
+}
+
+jeeFrontEnd.corepage.init()
+
+$(function() {
+  jeeFrontEnd.corepage.postInit()
+})
+
+$('#myButton').on('click', function() {
+	jeeP.myFunction('test')
+})
+```
+
+> Der Namensraum der Seite wird daher bei der Rückkehr zu derselben Seite nicht neu erstellt. Außerdem ermöglicht die Variable „jeeP“ die Verwendung von „jeeFrontEnd“.corepage` mit einer kurzen Syntax entspricht es einem seitenspezifischen `self`.
+
+##### jeephp2js[}
+
+Wird verwendet, um Variablen von einem PHP-Skript an das js-Frontend zu übergeben. Zum Beispiel:
+
+```php
+sendVarToJS([
+  'jeephp2js.myjsvar1' => init('typ', ''),
+  'jeephp2js.myjsvar2' => Konfig::byKey('enableCustomCss')
+]);
+```
+
+Puis
+
+```js
+$(function() {
+  wenn (jeephp2js.myjsvar1 == '1') { ... }
+})
+```
+
+> Der Namensraum jeephp2js{} wird beim Seitenwechsel geleert, um unerwartete Restvariablen zu vermeiden.
 
 ### Mobile
 
