@@ -28,7 +28,6 @@ IMPORTANT : Suivant si vous avez encore accès ou non à votre box, la procedure
 
 
 Matériel necessaire : une clé USB (minimum 16Go).
-***
 
 
 
