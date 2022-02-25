@@ -48,7 +48,7 @@ CAS 2 : VOUS N'AVEZ ACCES A VOTRE BOX ATLAS
 
 - Téléchargez le Recovery depuis votre profil sur le market : Profil / Mes Services et cliquer sur Telecharger USB Recovery Atlas
 
-![profilrecovery](https://github.com/jeedom/documentations/blob/master/fr_FR/installation/images/profilrecovery.png)
+![profilrecovery](images/profilrecovery.png)
 
 
 
@@ -58,7 +58,7 @@ CAS 2 : VOUS N'AVEZ ACCES A VOTRE BOX ATLAS
 
 - Dans le logiciel, choississez votre image téléchargée, puis votre clé usb 
 
-![balenaetcher](https://github.com/jeedom/documentations/blob/master/fr_FR/installation/images/balenaetcher.png)
+![balenaetcher](images/balenaetcher.png)
 
 
 
