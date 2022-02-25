@@ -28,7 +28,6 @@ IMPORTANTE : Dependiendo de si sigues teniendo o no acceso a tu caja, el procedi
 
 
 Material necesario : una llave USB (mínimo 16 GB).
-***
 
 
 
@@ -48,7 +47,7 @@ CASO 2 : NO TIENES ACCESO A TU CAJA ATLAS
 
 - Descarga el Recovery desde tu perfil en el mercado : Perfil/Mis servicios y haga clic en Descargar USB Recovery Atlas
 
-![profilrecovery](https://github.com/jeedom/documentations/blob/master/es_ES/installation/images/profilrecovery.png)
+![profilrecovery](images/profilrecovery.png)
 
 
 
@@ -58,7 +57,7 @@ CASO 2 : NO TIENES ACCESO A TU CAJA ATLAS
 
 - En el software, elija su imagen descargada, luego su llave USB 
 
-![balenaetcher](https://github.com/jeedom/documentations/blob/master/es_ES/installation/images/balenaetcher.png)
+![balenaetcher](images/balenaetcher.png)
 
 
 

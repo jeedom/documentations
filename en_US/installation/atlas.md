@@ -28,7 +28,6 @@ IMPORTANT : Depending on whether or not you still have access to your box, the p
 
 
 Necessary material : a USB key (minimum 16 GB).
-***
 
 
 
@@ -48,7 +47,7 @@ CASE 2 : YOU DO NOT HAVE ACCESS TO YOUR ATLAS BOX
 
 - Download the Recovery from your profile on the market : Profile / My Services and click on Download USB Recovery Atlas
 
-![profilrecovery](https://github.com/jeedom/documentations/blob/master/en_US/installation/images/profilrecovery.png)
+![profilrecovery](images/profilrecovery.png)
 
 
 
@@ -58,7 +57,7 @@ CASE 2 : YOU DO NOT HAVE ACCESS TO YOUR ATLAS BOX
 
 - In the software, choose your downloaded image, then your usb key 
 
-![balenaetcher](https://github.com/jeedom/documentations/blob/master/en_US/installation/images/balenaetcher.png)
+![balenaetcher](images/balenaetcher.png)
 
 
 

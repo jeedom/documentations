@@ -8,6 +8,7 @@
 
 # Equipment
 - [Raspberrypi 3](/en_US/howto/raspberrypi3)
+- [Factory refurbishment of an atlas](/en_US/installation/atlas)
 - [Factory refurbishment of a smart](/en_US/installation/smart)
 - [Upgrade the Debian environment of a Smart](/en_US/howto/migrationos.smart)
 

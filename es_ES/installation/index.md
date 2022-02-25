@@ -45,6 +45,7 @@ Un total de 125 € para una caja de automatización del hogar de código abiert
 
 Quiero instalar Jeedom :
 
+- Sobre una [atlas](https://doc.jeedom.com/es_ES/installation/atlas)
 - Sobre una [INTELIGENTE](https://doc.jeedom.com/es_ES/installation/smart)
 - Sobre una [mini +](https://doc.jeedom.com/es_ES/installation/mini)
 - Sobre un [Raspberry Pi](https://doc.jeedom.com/es_ES/installation/rpi)

@@ -8,6 +8,7 @@
 
 # Hardware
 - [Himbeerpi 3](/de_DE/howto/raspberrypi3)
+- [Werkssanierung eines Atlasses](/de_DE/installation/atlas)
 - [Fabriksanierung eines smart](/de_DE/installation/smart)
 - [Aktualisieren Sie die Debian-Umgebung eines Smart](/de_DE/howto/migrationos.smart)
 

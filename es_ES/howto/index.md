@@ -8,6 +8,7 @@
 
 # Hardware
 - [Raspberrypi 3](/es_ES/howto/raspberrypi3)
+- [Reacondicionamiento de fábrica de un atlas](/es_ES/installation/atlas)
 - [Renovación de fábrica de un smart](/es_ES/installation/smart)
 - [Actualice el entorno Debian de un Smart](/es_ES/howto/migrationos.smart)
 

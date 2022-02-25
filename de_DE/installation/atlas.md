@@ -28,7 +28,6 @@ WICHTIG : Je nachdem, ob Sie noch Zugriff auf Ihre Box haben oder nicht, ist die
 
 
 Notwendiges Material : einen USB-Stick (mindestens 16 GB).
-***
 
 
 
@@ -48,7 +47,7 @@ FALL 2 : SIE HABEN KEINEN ZUGRIFF AUF IHRE ATLAS-BOX
 
 - Laden Sie die Wiederherstellung von Ihrem Profil auf dem Markt herunter : Profil / Meine Dienste und klicken Sie auf USB-Wiederherstellungsatlas herunterladen
 
-![profilrecovery](https://github.com/jeedom/documentations/blob/master/de_DE/installation/images/profilrecovery.png)
+![profilrecovery](images/profilrecovery.png)
 
 
 
@@ -58,7 +57,7 @@ FALL 2 : SIE HABEN KEINEN ZUGRIFF AUF IHRE ATLAS-BOX
 
 - Wählen Sie in der Software Ihr heruntergeladenes Bild und dann Ihren USB-Stick aus 
 
-![balenaetcher](https://github.com/jeedom/documentations/blob/master/de_DE/installation/images/balenaetcher.png)
+![balenaetcher](images/balenaetcher.png)
 
 
 

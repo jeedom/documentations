@@ -45,6 +45,7 @@ A total of € 125 for an open source home automation box with complete control 
 
 I want to install Jeedom :
 
+- On a [atlas](https://doc.jeedom.com/en_US/installation/atlas)
 - On a [SMART](https://doc.jeedom.com/en_US/installation/smart)
 - On a [mini +](https://doc.jeedom.com/en_US/installation/mini)
 - On a [Raspberry Pi](https://doc.jeedom.com/en_US/installation/rpi)
