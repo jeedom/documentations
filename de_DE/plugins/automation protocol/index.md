@@ -2,9 +2,9 @@
 # Hausautomationsprotokoll
 
 
->**Wichtig**
->Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation der anderen Plugins direkt im Jeedom Market einsehen. Klicken Sie im betreffenden Plugin auf Dokumentation.
->Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automation+protocol) Alle offiziellen Plugins in dieser Kategorie
+>**WICHTIG**
+>Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation anderer Plugins direkt im Jeedom Market einsehen. Klicken Sie bei dem betreffenden Plugin auf Dokumentation.
+>Du kannst sehen [Hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automation+protocol) alle offiziellen Plugins in dieser Kategorie
 
 
 | | | | |
@@ -21,9 +21,9 @@
 |<img src="ipx800/ipx800_icon.png" class="pluginLogo" width="100" />|ipx800 V3||[Dokumentation](ipx800/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=344)<br/>[Änderungsprotokoll](ipx800/changelog.md)|
 |<img src="ipx800v2/ipx800v2_icon.png" class="pluginLogo" width="100" />|ipx800 V2||<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1194)|
 |<img src="ipx800v4/ipx800v4_icon.png" class="pluginLogo" width="100" />|IPX 800 v4|Plugin zur Steuerung des IPX 800|[Dokumentation](ipx800v4/index.md)[Beta](ipx800v4/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2046)<br/>[Änderungsprotokoll](ipx800v4/changelog.md)[Beta](ipx800v4/beta/changelog.md)|
-|<img src="ipx800v5/beta/ipx800v5_icon.png" class="pluginLogo" width="100" />|IPX800 v5|ACHTUNG Plugin nur in Beta verfügbar<br/>Plugin für ipx800v5.Beachten Sie die Komplexität der vom Hersteller bereitgestellten API, dieses Plugin wird für Anfänger nicht empfohlen. Wenn Sie stattdessen eine viel einfachere ipx800v4 verwenden können. Bitte beachte, dass das Plugin zahlt, wenn es in den Stall geht|[Beta-Dokumentation](ipx800v5/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=4218)<br/>[Changelog-Beta](ipx800v5/beta/changelog.md)|
+|<img src="ipx800v5/beta/ipx800v5_icon.png" class="pluginLogo" width="100" />|IPX800 v5|ACHTUNG Plugin nur in Beta verfügbar<br/>Plugin für ipx800v5.Beachten Sie die Komplexität der vom Hersteller bereitgestellten API, dieses Plugin wird für Anfänger nicht empfohlen. Wenn Sie stattdessen eine viel einfachere ipx800v4 verwenden können. Bitte beachte, dass das Plugin zahlt, wenn es in den Stall geht|[Beta-Dokumentation](ipx800v5/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=4218)<br/>[Änderungsprotokoll Beta](ipx800v5/beta/changelog.md)|
 |<img src="lorapayload/lorapayload_icon.png" class="pluginLogo" width="100" />|Lora Nutzlast|Plugin, mit dem die Lora-Nutzdaten übersetzt werden können, nur für das Jeedom-Teamprojekt vorgesehen|[Beta](lorapayload/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=4146)[Beta](lorapayload/beta/changelog.md)|
-|<img src="modbus/beta/modbus_icon.png" class="pluginLogo" width="100" />|Modbus|ACHTUNG Plugin nur in Beta verfügbar<br/>Modbus-Plugin|[Beta-Dokumentation](modbus/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=4267)<br/>[Changelog-Beta](modbus/beta/changelog.md)|
+|<img src="modbus/beta/modbus_icon.png" class="pluginLogo" width="100" />|Modbus|ACHTUNG Plugin nur in Beta verfügbar<br/>Modbus-Plugin|[Beta-Dokumentation](modbus/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=4267)<br/>[Änderungsprotokoll Beta](modbus/beta/changelog.md)|
 |<img src="myhomescs/myhomescs_icon.png" class="pluginLogo" width="100" />|MyhomeSCS|Ermöglicht die Verwaltung des MyHome Bus-Protokolls.|[Dokumentation](myhomescs/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3107)<br/>[Änderungsprotokoll](myhomescs/changelog.md)|
 |<img src="openenocean/openenocean_icon.png" class="pluginLogo" width="100" />|EnOcean|Plugin ajoutant le support du EnOcean à Jeedom https://jeedom.github.io/documentation/enocean/de_DE/equipement.kompatibel Viele Module werden schnell und kontinuierlich hinzugefügt. Wir empfehlen Ihnen, sorgfältig zu migrieren|[Dokumentation](openenocean/index.md)[Beta](openenocean/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2622)<br/>[Änderungsprotokoll](openenocean/changelog.md)[Beta](openenocean/beta/changelog.md)|
 |<img src="openzwave/openzwave_icon.png" class="pluginLogo" width="100" />|Z-Wave|Plugin zur Steuerung von ZWave-Geräten über einen openWave-kompatiblen ZWave-Schlüssel|[Dokumentation](openzwave/index.md)[Beta](openzwave/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=185)<br/>[Änderungsprotokoll](openzwave/changelog.md)[Beta](openzwave/beta/changelog.md)|

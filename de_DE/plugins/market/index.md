@@ -1,6 +1,6 @@
 
 >**WICHTIG**
->Nur offizielle Plugins haben ihre Dokumentation hier. Sie können die Dokumentation der anderen Plugins direkt aus dem Jeedom Market einsehen. Klicken Sie auf dem betreffenden Plugin auf Dokumentation.
+>Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation anderer Plugins direkt im Jeedom Market einsehen. Klicken Sie bei dem betreffenden Plugin auf Dokumentation.
 >Du kannst sehen [Hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=market) alle offiziellen Plugins in dieser Kategorie
 
 
