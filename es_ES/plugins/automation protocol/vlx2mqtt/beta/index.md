@@ -39,7 +39,7 @@ Al final del procedimiento, los estatutos del estibador **Velux MQTT** debe most
 
 Para acceder a los distintos equipos Velux, vaya al menú **Complementos → Protocolo domótico → Velux MQTT**.
 
-El botón **Sincronizar** le permite crear automáticamente el equipo correspondiente a los tragaluces enumerados en la interfaz KLF 200 en Jeedom.
+El botón **Sincronizar** crea automáticamente el equipo correspondiente a los tragaluces enumerados en la interfaz KLF 200 en Jeedom.
 
 # Commandes
 

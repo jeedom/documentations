@@ -39,7 +39,7 @@ No final do procedimento, os estatutos do estivador **Velux MQTT** deve ser exib
 
 Para aceder aos vários equipamentos Velux, aceda ao menu **Plugins → Protocolo de automação residencial → Velux MQTT**.
 
-O botão **Para sincronizar** permite criar automaticamente o equipamento correspondente às clarabóias listadas na interface KLF 200 no Jeedom.
+O botão **Para sincronizar** cria automaticamente o equipamento correspondente às clarabóias listadas na interface KLF 200 no Jeedom.
 
 # Commandes
 

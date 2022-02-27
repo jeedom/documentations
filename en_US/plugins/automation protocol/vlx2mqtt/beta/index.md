@@ -39,7 +39,7 @@ At the end of the procedure, the statutes of the docker **Velux MQTT** must be d
 
 To access the various Velux equipment, go to the menu **Plugins → Home automation protocol → Velux MQTT**.
 
-The button **To sychronize** allows you to automatically create the equipment corresponding to the skylights listed on the KLF 200 interface in Jeedom.
+The button **To sychronize** automatically creates the equipment corresponding to the skylights listed on the KLF 200 interface in Jeedom.
 
 # Commandes
 

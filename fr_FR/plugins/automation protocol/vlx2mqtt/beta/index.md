@@ -1,8 +1,8 @@
 # Plugin Velux MQTT
 
-Le plugin **Velux MQTT** va vous permettre de piloter vos veluxs dans Jeedom par l'intermédiaire de l'interface VELUX KLF 200 et d'en contrôler la position, la montée ou la descente, et l'arrêt.
+Le plugin **Velux MQTT** va vous permettre de piloter vos velux dans Jeedom par l'intermédiaire de l'interface VELUX KLF 200 et d'en contrôler la position, la montée ou la descente, et l'arrêt.
 
-Les veluxs doivent prélablement être appairés à l'interface VELUX KLF 200 et celle-ci doit être connectée en éthernet sur le même réseau local que Jeedom *([voir la documentation du KLF 200](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2287){:target="\_blank"})*.
+Les velux doivent prélablement être appairés à l'interface VELUX KLF 200 et celle-ci doit être connectée en éthernet sur le même réseau local que Jeedom *([voir la documentation du KLF 200](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2287){:target="\_blank"})*.
 
 # Configuration
 
@@ -18,7 +18,7 @@ Le plugin **Velux MQTT** s'appuie sur les plugins officiels **Docker Management*
 
 ## MQTT Manager
 
-Un broker MQTT doit être configuré et actif dans le plugin **MQTT Manager** afin de transmettre et récupérer les positions des veluxs. Référez-vous à la documentation du plugin pour utiliser un broker existant ou pour en créer un en local dans Jeedom.
+Un broker MQTT doit être configuré et actif dans le plugin **MQTT Manager** afin de transmettre et récupérer les positions des velux. Référez-vous à la documentation du plugin pour utiliser un broker existant ou pour en créer un en local dans Jeedom.
 
 Dès que le démon du plugin **MQTT Manager** sera actif, le plugin **Velux MQTT** sera en mesure de récupérer automatiquement les informations de connexion au broker MQTT.
 
@@ -39,7 +39,7 @@ A l'issue de la procédure, les statuts du docker **Velux MQTT** doivent être a
 
 Pour accéder aux différents équipements Velux, dirigez-vous vers le menu **Plugins → Protocole domotique → Velux MQTT**.
 
-Le bouton **Synchroniser** permet de créer automatiquement les équipements correspondant aux veluxs recensés sur l'interface KLF 200 dans Jeedom.
+Le bouton **Synchroniser** permet de créer automatiquement les équipements correspondant aux velux recensés sur l'interface KLF 200 dans Jeedom.
 
 # Commandes
 

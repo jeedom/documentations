@@ -39,7 +39,7 @@ Am Ende des Verfahrens stehen die Statuten des Hafenarbeiters **Velux-MQTT** mü
 
 Um auf die verschiedenen Velux-Geräte zuzugreifen, gehen Sie zum Menü **Plugins → Heimautomatisierungsprotokoll → Velux MQTT**.
 
-Die Taste **Zu synchronisieren** ermöglicht es Ihnen, automatisch die Ausrüstung zu erstellen, die den Oberlichtern entspricht, die auf der KLF 200-Schnittstelle in Jeedom aufgelistet sind.
+Die Taste **Zu synchronisieren** erstellt automatisch die Ausrüstung, die den Oberlichtern entspricht, die auf der KLF 200-Schnittstelle in Jeedom aufgelistet sind.
 
 # Commandes
 
