@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+
+# 27.02.2022
+
+- Komplettes Plugin-Rewrite
+
 # 21.02.2022
 
 - Bug-Fix

@@ -2,46 +2,20 @@
 
 O plugin **Calendário do Google** permite que você recupere eventos de seus calendários do Google. Também pode desencadear uma interação durante um evento.
 
-> **IMPORTANTE**
->
-> O Google agora impõe uma reconexão a cada 7 dias por motivos de segurança.
 
 # Configuration
 
 ## Crie um dispositivo do Google Agenda
 
-No lado do Jeedom, você precisa criar um dispositivo do Google Agenda e recuperar o URL de redirecionamento.
-
-> **IMPORTANTE**
->
-> O url para acesso externo ao seu Jeedom deve estar absolutamente em https, o Google não permite conexões não criptografadas.
-
-## Crie uma conta de desenvolvedor do Google
-
-Você precisa criar uma conta de desenvolvedor com o Google para acessar a API. Façam, [Siga este link](https://console.developers.google.com/apis/credentials), Crie um novo projeto se necessário e clique em "**+ Criar identificadores**" e selecione "**ID do cliente Oauth**".     
- Então escolha "**Aplicativo da web**" no menu suspenso, em seguida, adicione o'"*URL de retorno*" fornecido na página de equipamentos Jeedom em "**URIs de redirecionamento permitidos**".
-
-> **IMPORTANTE**
->
->Ao inserir "URIs de redirecionamento autorizados", você deve prestar atenção :
-> - autorizou o domínio antes [aqui](https://console.developers.google.com/apis/credentials/consent). O Google sinalizará normalmente
-> - pressione a tecla Enter após copiar / colar o URL de redirecionamento do jeedom para a página de configuração do Google (*pressionar o botão Salvar diretamente após a cópia / colar sem pressionar a tecla Enter não funciona!*)     
-
-Recolher o'**Identificação do Cliente**' e o **código secreto do cliente** (você precisará inseri-los no equipamento lateral Jeedom)
-
-Você deve então adicionar a API do Google Agenda acessando [aqui](https://console.developers.google.com/apis/dashboard). Clique em "**+ Ativar APIs e serviços**" em seguida, pesquise "API do Google Agenda" e adicione o.
-
-> **Saber**
->
->O procedimento acima pode mudar com o tempo. Recomendamos que você siga as instruções fornecidas no site.
+Do lado Jeedom, você precisa criar equipamentos do Google Agenda.
 
 ## Vincule a conta do Google ao jeedom
 
-Copie **ID do cliente** e a **Chave secreta** Jeedom ao lado e clique no botão "**Vincular**". Não se esqueça de guardar o equipamento.
+Uma vez que o equipamento tenha sido criado, você deve clicar no botão "Link" e indicar seus identificadores de mercado e os do Google
 
 >**IMPORTANTE**
 >
->Atenção para vincular as duas contas (Google e Jeedom), é absolutamente necessário conectar-se ao Jeedom por seu URL externo (você pode vê-lo nas redes de peças Jeedom do centro de configuração)
+>Para o momento o Google ainda não validou o acesso do Jeedom SAS ao Google Calendar, então há um alerta (que é assustador) "O Google não validou este aplicativo", você deve clicar em "Configurações avançadas" e depois em "Acessar Jeedom.com (não seguro)", depois "Continuar"
 
 # Commandes
 

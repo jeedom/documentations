@@ -2,46 +2,20 @@
 
 Das Plugin **Google Kalender** Mit dieser Option können Sie Ereignisse aus Ihren Google-Kalendern abrufen. Es kann auch eine Interaktion während eines Ereignisses auslösen.
 
-> **Wichtig**
->
-> Google erzwingt jetzt aus Sicherheitsgründen alle 7 Tage eine erneute Verbindung.
 
 # Configuration
 
 ## Erstellen Sie ein Google Kalender-Gerät
 
-Auf der Jeedom-Seite müssen Sie ein Google Kalender-Gerät erstellen und die Weiterleitungs-URL abrufen.
-
-> **Wichtig**
->
-> Die URL für den externen Zugriff auf Ihr Jeedom muss unbedingt in https angegeben sein. Google erlaubt keine unverschlüsselten Verbindungen.
-
-## Erstellen Sie ein Google Developer-Konto
-
-Sie müssen ein Entwicklerkonto bei Google erstellen, um auf die API zugreifen zu können. Machen, [folgen Sie diesem Link](https://console.developers.google.com/apis/credentials), Erstellen Sie bei Bedarf ein neues Projekt und klicken Sie dann auf "**+ Bezeichner erstellen**" und auswählen "**Oauth Client ID**".     
- Dann wähle "**Internetanwendung**" Fügen Sie dann im Dropdown-Menü die hinzu'"*URL zurückgeben*" angegeben auf der Jeedom-Ausrüstungsseite in "**Zulässige Umleitungs-URIs**".
-
-> **Wichtig**
->
->Wenn Sie "Autorisierte Umleitungs-URIs" eingeben, müssen Sie darauf achten :
-> - habe die Domain schon einmal autorisiert [hier](https://console.developers.google.com/apis/credentials/consent). Google wird Sie normal signalisieren
-> - Drücken Sie die Eingabetaste, nachdem Sie die Umleitungs-URL von jeedom auf die Google-Konfigurationsseite kopiert / eingefügt haben (*Das Drücken der Speichern-Taste direkt nach dem Kopieren / Kragen ohne Drücken der Eingabetaste funktioniert nicht!*)     
-
-Sammle die'**Kundennummer**' und die **Geheimcode des Kunden** (Sie müssen sie in die Jeedom-Seitenausrüstung eingeben)
-
-Anschließend müssen Sie die Google Kalender-API hinzufügen, indem Sie fortfahren [hier](https://console.developers.google.com/apis/dashboard). Klicken Sie auf "**+ Aktivieren Sie APIs und Dienste**" Suchen Sie dann nach "Google Kalender API" und fügen Sie die hinzu.
-
-> **Wissen**
->
->Das obige Verfahren kann sich im Laufe der Zeit ändern. Wir empfehlen Ihnen, die Anweisungen auf der Website zu befolgen.
+Auf der Jeedom-Seite müssen Sie Google Kalender-Geräte erstellen.
 
 ## Verknüpfen Sie das Google-Konto mit jeedom
 
-Kopiere es **Kunden-ID** und das **Geheimschlüssel** Jeedom Seite dann klicken Sie auf die Schaltfläche "**Binden**". Vergessen Sie nicht, die Ausrüstung aufzubewahren.
+Sobald das Gerät erstellt wurde, müssen Sie auf die Schaltfläche "Link" klicken und dann Ihre Marktkennungen und dann die von Google angeben
 
 >**Wichtig**
 >
->Um die beiden Konten (Google und Jeedom) zu verknüpfen, ist es ABSOLUT erforderlich, über die externe URL mit Jeedom verbunden zu sein (Sie können dies im Jeedom-Teilnetzwerk des Konfigurationszentrums sehen)
+>Im Moment hat Google den Zugriff von Jeedom SAS auf Google Kalender noch nicht validiert, daher gibt es eine Warnung (was beängstigend ist) „Google hat diese Anwendung nicht validiert“, Sie müssen auf „Erweiterte Einstellungen“ und dann auf „Zugriff auf Jeedom“ klicken.de (nicht sicher)", dann "Fortfahren"
 
 # Commandes
 
