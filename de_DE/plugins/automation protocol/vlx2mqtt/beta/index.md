@@ -55,3 +55,4 @@ Jedes Gerät **Velux-MQTT** hat diese Befehle :
 - **Offen** : Befehl zum Öffnen des Dachfensters.
 - **Stoppen** : Befehl zum Stoppen des Oberlichts.
 - **Nah dran** : Befehl zum Schließen des Dachfensters.
+- **Aktualisierung** : Senden Sie eine Stoppnachricht an das Oberlicht, um die Aktualisierung der Position zu erzwingen.

@@ -55,3 +55,4 @@ Cada equipamento **Velux MQTT** tem esses comandos :
 - **Abrir** : Comando de abertura da clarabóia.
 - **Pare** : Comando de parada da clarabóia.
 - **Fechar** : Comando de fechamento da claraboia.
+- **Atualizar** : Envie uma mensagem de parada para a clarabóia para forçar a atualização da posição.

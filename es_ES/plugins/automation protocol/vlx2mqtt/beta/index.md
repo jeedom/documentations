@@ -55,3 +55,4 @@ Cada equipo **Velux MQTT** tiene estos comandos :
 - **Abrir** : Mando apertura lucernario.
 - **Detener** : Comando de parada de claraboya.
 - **Cerrar** : Comando de cierre de claraboya.
+- **Actualizar** : Envía un mensaje de stop a la claraboya para forzar el refresco de la posición.

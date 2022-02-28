@@ -55,3 +55,4 @@ Each equipment **Velux MQTT** has these commands :
 - **Open** : Skylight opening command.
 - **Stop** : Skylight stop command.
 - **Close** : Skylight closing command.
+- **Refresh** : Send a stop message to the skylight to force the refresh of the position.

@@ -55,3 +55,4 @@ Chaque équipement **Velux MQTT** dispose de ces commandes :
 - **Ouvrir** : Commande d'ouverture du velux.
 - **Stop** : Commande d'arrêt du velux.
 - **Fermer** : Commande de fermeture du velux.
+- **Rafraichir** : Envoie un message d'arrêt au velux pour forcer le rafraichissement de la position.
