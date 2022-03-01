@@ -1,8 +1,8 @@
 # Plugin Velux MQTT
 
-O plug-in **Velux MQTT** irá permitir-lhe controlar as suas clarabóias em Jeedom através da interface VELUX KLF 200 e controlar a sua posição, subindo ou descendo e parando.
+O plug-in **Velux MQTT** permite-lhe controlar as suas clarabóias e/ou as suas persianas "io-homecontrol" no Jeedom através da interface VELUX KLF 200 e controlar a sua posição, subindo ou descendo e parando.
 
-As clarabóias devem primeiro ser emparelhadas com a interface VELUX KLF 200 e devem ser conectadas em ethernet na mesma rede local que Jeedom *([veja a documentação do KLF 200](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2287){:target="\_blank"})*.
+As aberturas devem primeiro ser emparelhadas com a interface VELUX KLF 200 e devem ser conectadas em ethernet na mesma rede local que Jeedom *([veja a documentação do KLF200](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2287){:target="\_blank"})*.
 
 # Configuration
 
@@ -18,7 +18,7 @@ O plug-in **Velux MQTT** depende de plugins oficiais **Gerenciamento do Docker**
 
 ## Gerente MQTT
 
-Um broker MQTT deve estar configurado e ativo no plugin **Gerente MQTT** para transmitir e recuperar as posições das clarabóias. Consulte a documentação do plugin para usar um corretor existente ou para criar um localmente no Jeedom.
+Um broker MQTT deve estar configurado e ativo no plugin **Gerente MQTT** para transmitir e recuperar as posições dos flaps. Consulte a documentação do plugin para usar um corretor existente ou para criar um localmente no Jeedom.
 
 Assim que o plugin daemon **Gerente MQTT** estará ativo, o plugin **Velux MQTT** poderá recuperar automaticamente as informações de conexão do agente MQTT.
 
@@ -37,22 +37,22 @@ No final do procedimento, os estatutos do estivador **Velux MQTT** deve ser exib
 
 # Equipements
 
-Para aceder aos vários equipamentos Velux, aceda ao menu **Plugins → Protocolo de automação residencial → Velux MQTT**.
+Para acessar os diversos equipamentos **Velux MQTT**, vá para o cardápio **Plugins → Protocolo de automação residencial → Velux MQTT**.
 
-O botão **Para sincronizar** cria automaticamente o equipamento correspondente às clarabóias listadas na interface KLF 200 no Jeedom.
+O botão **Para sincronizar** cria automaticamente o equipamento correspondente às aberturas listadas na interface KLF 200 no Jeedom.
 
 # Commandes
 
 Cada equipamento **Velux MQTT** tem esses comandos :
 
-- **Estado** : posição atual da clarabóia.
+- **Estado** : posição atual do flap.
 
 >**TRUQUE**
 >
 >Por padrão, a interface KLF 200 fornece uma porcentagem de fechamento *(100% = fechado)* que o plugin transforma em porcentagem aberta. Se você quiser retornar à operação padrão, basta desmarcar a caixa **Reverter** da ordem **Estado**.
 
-- **Posição** : Controle de posicionamento da clarabóia.
-- **Abrir** : Comando de abertura da clarabóia.
-- **Pare** : Comando de parada da clarabóia.
-- **Fechar** : Comando de fechamento da claraboia.
-- **Atualizar** : Envie uma mensagem de parada para a clarabóia para forçar a atualização da posição.
+- **Posição** : Controle de posicionamento do obturador.
+- **Abrir** : Comando de abertura do obturador.
+- **Pare** : Comando de parada do obturador.
+- **Fechar** : Comando de fechamento do obturador.
+- **Atualizar** : Envia uma mensagem de parada ao obturador para forçar a atualização da posição.

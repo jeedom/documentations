@@ -193,7 +193,7 @@
         "Ce plugin remplacera à terme le premier plugin": "Dieses Plugin wird eventuell das erste Plugin ersetzen",
         "Il sera mis à disposition de tous les possesseurs du premier plugin": "Es wird allen Besitzern des ersten Plugins zur Verfügung gestellt",
         "Cela permettra à chacun de migrer tranquillement": "Dadurch kann jeder ruhig migrieren",
-        "Ce plugin permet le pilotage des velux compatibles à travers l'interface VELUX KLF 200": "Dieses Plugin ermöglicht die Steuerung kompatibler Oberlichter über die VELUX KLF 200-Schnittstelle",
+        "Ce plugin permet le pilotage des velux et des ouvrants \"io-homecontrol\" compatibles avec l'interface VELUX KLF 200 (volets roulants Somfy par exemple": "Dieses Plugin ermöglicht die Steuerung von Dachfenstern und „io-homecontrol“-Öffnungen, die mit der VELUX KLF 200-Schnittstelle kompatibel sind (z. B. Somfy-Rollläden)",
         "Zigate, XBee et Texas Instruments": "Zigate, XBee und Texas Instruments",
         " Zigbee.": " Zigbee.",
         " Zigbee?": " Zigbee?",

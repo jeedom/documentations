@@ -1,8 +1,8 @@
 # Velux MQTT plugin
 
-The plug-in **Velux MQTT** will allow you to control your skylights in Jeedom via the VELUX KLF 200 interface and to control their position, raising or lowering, and stopping.
+The plug-in **Velux MQTT** will allow you to control your skylights and/or your "io-homecontrol" shutters in Jeedom via the VELUX KLF 200 interface and to control their position, raising or lowering, and stopping.
 
-The skylights must first be paired with the VELUX KLF 200 interface and it must be connected in ethernet on the same local network as Jeedom *([see KLF 200 documentation](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2287){:target="\_blank"})*.
+The openings must first be paired with the VELUX KLF 200 interface and it must be connected in ethernet on the same local network as Jeedom *([see KLF200 documentation](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2287){:target="\_blank"})*.
 
 # Configuration
 
@@ -18,7 +18,7 @@ The plug-in **Velux MQTT** relies on official plugins **Docker Management** and 
 
 ## MQTT Manager
 
-An MQTT broker must be configured and active in the plugin **MQTT Manager** in order to transmit and retrieve the positions of the skylights. Refer to the plugin documentation to use an existing broker or to create one locally in Jeedom.
+An MQTT broker must be configured and active in the plugin **MQTT Manager** in order to transmit and retrieve the positions of the flaps. Refer to the plugin documentation to use an existing broker or to create one locally in Jeedom.
 
 As soon as the plugin daemon **MQTT Manager** will be active, the plugin **Velux MQTT** will be able to automatically retrieve MQTT broker connection information.
 
@@ -37,22 +37,22 @@ At the end of the procedure, the statutes of the docker **Velux MQTT** must be d
 
 # Equipements
 
-To access the various Velux equipment, go to the menu **Plugins → Home automation protocol → Velux MQTT**.
+To access the various equipment **Velux MQTT**, head to the menu **Plugins → Home automation protocol → Velux MQTT**.
 
-The button **To sychronize** automatically creates the equipment corresponding to the skylights listed on the KLF 200 interface in Jeedom.
+The button **To sychronize** automatically creates the equipment corresponding to the openings listed on the KLF 200 interface in Jeedom.
 
 # Commandes
 
 Each equipment **Velux MQTT** has these commands :
 
-- **State** : current position of the skylight.
+- **State** : current flap position.
 
 >**TRICK**
 >
 >By default, the KLF 200 interface provides a closing percentage *(100% = closed)* that the plugin transforms into open percentage. If you want to return to default operation, just uncheck the box **Reverse** of the order **State**.
 
-- **Position** : Skylight positioning control.
-- **Open** : Skylight opening command.
-- **Stop** : Skylight stop command.
-- **Close** : Skylight closing command.
-- **Refresh** : Send a stop message to the skylight to force the refresh of the position.
+- **Position** : Shutter positioning control.
+- **Open** : Shutter opening command.
+- **Stop** : Shutter stop command.
+- **Close** : Shutter close command.
+- **Refresh** : Sends a stop message to the shutter to force the refresh of the position.

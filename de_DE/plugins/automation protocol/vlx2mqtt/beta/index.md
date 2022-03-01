@@ -1,8 +1,8 @@
 # Velux MQTT-Plugin
 
-Das Plugin **Velux-MQTT** ermöglicht es Ihnen, Ihre Oberlichter in Jeedom über die VELUX KLF 200-Schnittstelle zu steuern und deren Position, Anheben oder Absenken und Stoppen zu steuern.
+Das Plugin **Velux-MQTT** ermöglicht es Ihnen, Ihre Oberlichter und/oder Ihre „io-homecontrol“-Rollläden in Jeedom über die VELUX KLF 200-Schnittstelle zu steuern und deren Position, Anheben oder Absenken und Stoppen zu steuern.
 
-Die Oberlichter müssen zuerst mit der VELUX KLF 200 Schnittstelle gekoppelt werden und sie muss über Ethernet mit demselben lokalen Netzwerk wie Jeedom verbunden sein *([siehe KLF 200 Dokumentation](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2287){:target="\_blank"})*.
+Die Öffnungen müssen zuerst mit der VELUX KLF 200-Schnittstelle gekoppelt werden und sie muss über Ethernet mit demselben lokalen Netzwerk wie Jeedom verbunden sein *([siehe KLF200-Dokumentation](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2287){:target="\_blank"})*.
 
 # Configuration
 
@@ -18,7 +18,7 @@ Das Plugin **Velux-MQTT** setzt auf offizielle Plugins **Docker-Verwaltung** und
 
 ## MQTT-Manager
 
-Im Plugin muss ein MQTT-Broker konfiguriert und aktiv sein **MQTT-Manager** um die Positionen der Oberlichter zu übertragen und abzurufen. Lesen Sie die Plugin-Dokumentation, um einen vorhandenen Broker zu verwenden oder einen lokal in Jeedom zu erstellen.
+Im Plugin muss ein MQTT-Broker konfiguriert und aktiv sein **MQTT-Manager** um die Positionen der Klappen zu übertragen und abzurufen. Lesen Sie die Plugin-Dokumentation, um einen vorhandenen Broker zu verwenden oder einen lokal in Jeedom zu erstellen.
 
 Sobald der Plugin-Daemon **MQTT-Manager** aktiv sein, das Plugin **Velux-MQTT** in der Lage sein, MQTT-Broker-Verbindungsinformationen automatisch abzurufen.
 
@@ -37,22 +37,22 @@ Am Ende des Verfahrens stehen die Statuten des Hafenarbeiters **Velux-MQTT** mü
 
 # Equipements
 
-Um auf die verschiedenen Velux-Geräte zuzugreifen, gehen Sie zum Menü **Plugins → Heimautomatisierungsprotokoll → Velux MQTT**.
+Um auf die verschiedenen Geräte zuzugreifen **Velux-MQTT**, gehe zum Menü **Plugins → Heimautomatisierungsprotokoll → Velux MQTT**.
 
-Die Taste **Zu synchronisieren** erstellt automatisch die Ausrüstung, die den Oberlichtern entspricht, die auf der KLF 200-Schnittstelle in Jeedom aufgelistet sind.
+Die Taste **Zu synchronisieren** erstellt automatisch die Ausrüstung, die den Öffnungen entspricht, die auf der KLF 200-Schnittstelle in Jeedom aufgelistet sind.
 
 # Commandes
 
 Jedes Gerät **Velux-MQTT** hat diese Befehle :
 
-- **Zustand** : aktuelle Position des Dachfensters.
+- **Zustand** : aktuelle Klappenstellung.
 
 >**TRICK**
 >
 >Standardmäßig stellt die KLF 200-Schnittstelle einen Abschlussprozentsatz bereit *(100 % = geschlossen)* dass sich das Plugin in einen offenen Prozentsatz umwandelt. Wenn Sie zum Standardbetrieb zurückkehren möchten, deaktivieren Sie einfach das Kontrollkästchen **Umkehren** der Bestellung **Zustand**.
 
-- **Position** : Steuerung der Oberlichtpositionierung.
-- **Offen** : Befehl zum Öffnen des Dachfensters.
-- **Stoppen** : Befehl zum Stoppen des Oberlichts.
-- **Nah dran** : Befehl zum Schließen des Dachfensters.
-- **Aktualisierung** : Senden Sie eine Stoppnachricht an das Oberlicht, um die Aktualisierung der Position zu erzwingen.
+- **Position** : Steuerung der Rollladenpositionierung.
+- **Offen** : Befehl zum Öffnen des Verschlusses.
+- **Stoppen** : Shutter-Stopp-Befehl.
+- **Nah dran** : Befehl zum Schließen des Verschlusses.
+- **Aktualisierung** : Sendet eine Stoppnachricht an den Verschluss, um die Aktualisierung der Position zu erzwingen.
