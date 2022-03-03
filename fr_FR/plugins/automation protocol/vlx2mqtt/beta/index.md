@@ -18,7 +18,7 @@ Le plugin **Velux MQTT** s'appuie sur les plugins officiels **Docker Management*
 
 ## MQTT Manager
 
-Un broker MQTT doit être configuré et actif dans le plugin **MQTT Manager** afin de transmettre et récupérer les positions des volets. Référez-vous à la documentation du plugin pour utiliser un broker existant ou pour en créer un en local dans Jeedom.
+Un broker MQTT doit être configuré et actif dans le plugin **MQTT Manager** afin de transmettre et récupérer les positions des volets. Référez-vous à [la documentation du plugin](https://doc.jeedom.com/fr_FR/plugins/programming/mqtt2/beta/){:target="\_blank"} pour utiliser un broker existant ou pour en créer un en local dans Jeedom.
 
 Dès que le démon du plugin **MQTT Manager** sera actif, le plugin **Velux MQTT** sera en mesure de récupérer automatiquement les informations de connexion au broker MQTT.
 

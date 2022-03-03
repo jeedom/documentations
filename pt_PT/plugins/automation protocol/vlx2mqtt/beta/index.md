@@ -18,7 +18,7 @@ O plug-in **Velux MQTT** depende de plugins oficiais **Gerenciamento do Docker**
 
 ## Gerente MQTT
 
-Um broker MQTT deve estar configurado e ativo no plugin **Gerente MQTT** para transmitir e recuperar as posições dos flaps. Consulte a documentação do plugin para usar um corretor existente ou para criar um localmente no Jeedom.
+Um broker MQTT deve estar configurado e ativo no plugin **Gerente MQTT** para transmitir e recuperar as posições dos flaps. Referir-se [documentação do plugin](https://doc.jeedom.com/pt_PT/plugins/programming/mqtt2/beta/){:target="\_blank"} para usar um corretor existente ou para criar um localmente no Jeedom.
 
 Assim que o plugin daemon **Gerente MQTT** estará ativo, o plugin **Velux MQTT** poderá recuperar automaticamente as informações de conexão do agente MQTT.
 

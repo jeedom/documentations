@@ -18,7 +18,7 @@ Das Plugin **Velux-MQTT** setzt auf offizielle Plugins **Docker-Verwaltung** und
 
 ## MQTT-Manager
 
-Im Plugin muss ein MQTT-Broker konfiguriert und aktiv sein **MQTT-Manager** um die Positionen der Klappen zu übertragen und abzurufen. Lesen Sie die Plugin-Dokumentation, um einen vorhandenen Broker zu verwenden oder einen lokal in Jeedom zu erstellen.
+Im Plugin muss ein MQTT-Broker konfiguriert und aktiv sein **MQTT-Manager** um die Positionen der Klappen zu übertragen und abzurufen. Beziehen auf [Plugin-Dokumentation](https://doc.jeedom.com/de_DE/plugins/programming/mqtt2/beta/){:target="\_blank"}, um einen vorhandenen Broker zu verwenden oder einen lokal in Jeedom zu erstellen.
 
 Sobald der Plugin-Daemon **MQTT-Manager** aktiv sein, das Plugin **Velux-MQTT** in der Lage sein, MQTT-Broker-Verbindungsinformationen automatisch abzurufen.
 

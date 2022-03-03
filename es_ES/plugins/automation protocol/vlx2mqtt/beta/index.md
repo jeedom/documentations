@@ -18,7 +18,7 @@ El complemento **Velux MQTT** se basa en complementos oficiales **Gestión de Do
 
 ## Administrador de MQTT
 
-Un corredor MQTT debe estar configurado y activo en el complemento **Administrador de MQTT** para transmitir y recuperar las posiciones de los flaps. Consulte la documentación del complemento para usar un corredor existente o para crear uno localmente en Jeedom.
+Un corredor MQTT debe estar configurado y activo en el complemento **Administrador de MQTT** para transmitir y recuperar las posiciones de los flaps. Referirse a [documentación del complemento](https://doc.jeedom.com/es_ES/plugins/programming/mqtt2/beta/){:target="\_blank"} para usar un corredor existente o para crear uno localmente en Jeedom.
 
 Tan pronto como el demonio del complemento **Administrador de MQTT** estará activo, el plugin **Velux MQTT** podrá recuperar automáticamente la información de conexión del intermediario MQTT.
 
