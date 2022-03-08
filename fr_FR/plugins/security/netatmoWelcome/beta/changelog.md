@@ -4,6 +4,9 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+
+- Correction d'un warning lors des backups
+
 # 16/11/2021
 
 - Possibilité de désactiver la mise à jour automatique des ip des cameras dans le plugin camera

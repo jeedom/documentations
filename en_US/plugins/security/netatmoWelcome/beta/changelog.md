@@ -4,6 +4,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+
+- Correction of a warning during backups
+
 # 11/16/2021
 
 - Possibility to disable the automatic update of camera ip in the camera plugin

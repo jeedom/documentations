@@ -4,6 +4,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+
+- Korrektur einer Warnung während Backups
+
 # 16.11.2021
 
 - Möglichkeit, die automatische Aktualisierung der Kamera-IP im Kamera-Plugin zu deaktivieren

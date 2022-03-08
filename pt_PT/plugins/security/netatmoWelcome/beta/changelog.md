@@ -4,6 +4,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+
+- Correção de um aviso durante os backups
+
 # 16/11/2021
 
 - Possibilidade de desativar a atualização automática do ip da câmera no plugin da câmera

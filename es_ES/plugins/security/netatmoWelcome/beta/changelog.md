@@ -4,6 +4,9 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+
+- Corrección de una advertencia durante las copias de seguridad
+
 # 16/11/2021
 
 - Posibilidad de deshabilitar la actualización automática de la ip de la cámara en el complemento de la cámara
