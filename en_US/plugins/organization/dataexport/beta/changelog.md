@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
 
+# 03/09/2022
+
+- Fixed a bug on the current day's exports which included those of the previous day in date selection
+- Taking seconds into account and increasing the maximum file size to 50MB for imports
+
 # 01/18/2022
 
 - V4.2 optimizations

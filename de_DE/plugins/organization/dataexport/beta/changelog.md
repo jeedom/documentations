@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 09.03.2022
+
+- Es wurde ein Fehler bei den Exporten des aktuellen Tages behoben, der die des Vortages in die Datumsauswahl einbezog
+- Berücksichtigung von Sekunden und Erhöhung der maximalen Dateigröße auf 50 MB für Importe
+
 # 18.01.2022
 
 - V4.2-Optimierungen
