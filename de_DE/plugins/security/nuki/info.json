@@ -6,7 +6,12 @@
         "en_US": "This plugin is used to control Nuki connected locks using the bridge. It also allows to configure the bridge in push mode",
         "es_ES": "Este complemento se usa para controlar las cerraduras conectadas de Nuki usando el puente. También permite configurar el puente en modo push",
         "de_DE": "Dieses Plugin wird verwendet, um mit Nuki verbundene Schlösser über die Brücke zu steuern. Sie können die Bridge auch im Push-Modus konfigurieren",
-        "pt_PT": "Este plug-in é usado para controlar bloqueios conectados ao Nuki usando a ponte. Também permite configurar a ponte no modo push"
+        "pt_PT": "Este plug-in é usado para controlar bloqueios conectados ao Nuki usando a ponte. Também permite configurar a ponte no modo push",
+        "ru_RU": "Ce plugin permet de piloter les serrures connectées Nuki à l'aide du bridge. Il permet aussi de configurer le bridge en mode push",
+        "id_ID": "Ce plugin permet de piloter les serrures connectées Nuki à l'aide du bridge. Il permet aussi de configurer le bridge en mode push",
+        "it_IT": "Ce plugin permet de piloter les serrures connectées Nuki à l'aide du bridge. Il permet aussi de configurer le bridge en mode push",
+        "ja_JP": "Ce plugin permet de piloter les serrures connectées Nuki à l'aide du bridge. Il permet aussi de configurer le bridge en mode push",
+        "tr": "Ce plugin permet de piloter les serrures connectées Nuki à l'aide du bridge. Il permet aussi de configurer le bridge en mode push"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -19,7 +24,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
@@ -29,5 +39,7 @@
         "diy",
         "mobile",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/nuki\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/nuki\/beta"
 }
