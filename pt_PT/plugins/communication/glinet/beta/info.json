@@ -1,0 +1,47 @@
+{
+    "id": "glinet",
+    "name": "GL-iNet",
+    "description": {
+        "fr_FR": "Plugin de gestion des GliNet (sms, connexion)",
+        "en_US": "GliNet management plugin (sms, connection)",
+        "es_ES": "Complemento de administración GliNet (sms, conexión)",
+        "de_DE": "GliNet-Verwaltungs-Plugin (SMS, Verbindung)",
+        "ru_RU": "Plugin de gestion des GliNet (sms, connexion)",
+        "id_ID": "Plugin de gestion des GliNet (sms, connexion)",
+        "it_IT": "Plugin de gestion des GliNet (sms, connexion)",
+        "ja_JP": "Plugin de gestion des GliNet (sms, connexion)",
+        "pt_PT": "Plugin de gerenciamento GliNet (sms, conexão)",
+        "tr": "Plugin de gestion des GliNet (sms, connexion)"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS et Hernandez Junior",
+    "require": "4.0",
+    "category": "communication",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/glinet\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/glinet\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/glinet\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/glinet\/beta"
+}
