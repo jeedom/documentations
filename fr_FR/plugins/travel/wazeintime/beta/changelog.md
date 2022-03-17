@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 17/03/2022
+
+- Compatibilité jeedom v4.2
+
 # 08/12/2021
 
 - Ajout d'une option pour configurer les abonnements à activer lors du calcul des itinéraires (voir documentation)

@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 03/17/2022
+
+- Jeedom v4.2 compatibility
+
 # 12/08/2021
 
 - Addition of an option to configure the subscriptions to be activated when calculating routes (see documentation)
