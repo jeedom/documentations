@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 17.03.2022
+
+- Jeedom v4.2-Kompatibilität
+
 # 12.08.2021
 
 - Option zur Konfiguration der zu aktivierenden Abonnements bei der Routenberechnung hinzugefügt (siehe Dokumentation)

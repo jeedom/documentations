@@ -1,0 +1,46 @@
+{
+    "id": "kodi",
+    "name": "Kodi",
+    "description": {
+        "fr_FR": "Plugin pour envoyer et recevoir des commandes à\/depuis Kodi",
+        "en_US": "Plugin to send and receive orders to \/ from Kodi",
+        "es_ES": "Complemento para enviar y recibir pedidos a \/ desde Kodi",
+        "de_DE": "Plugin zum Senden und Empfangen von Bestellungen an \/ von Kodi",
+        "pt_PT": "Plug-in para enviar e receber comandos de \/ para o Kodi",
+        "ru_RU": "Plugin pour envoyer et recevoir des commandes à\/depuis Kodi",
+        "id_ID": "Plugin pour envoyer et recevoir des commandes à\/depuis Kodi",
+        "it_IT": "Plugin pour envoyer et recevoir des commandes à\/depuis Kodi",
+        "ja_JP": "Plugin pour envoyer et recevoir des commandes à\/depuis Kodi",
+        "tr": "Plugin pour envoyer et recevoir des commandes à\/depuis Kodi"
+    },
+    "licence": "AGPL",
+    "author": "Ludovic SARAKHA",
+    "require": "3.1",
+    "category": "multimedia",
+    "hasDependency": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/kodi\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/kodi\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/kodi\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/kodi\/beta"
+}

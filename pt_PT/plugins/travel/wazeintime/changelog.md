@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 17/03/2022
+
+- Compatibilidade com Jeedom v4.2
+
 # 12/08/2021
 
 - Acréscimo de uma opção para configurar as assinaturas a serem ativadas no cálculo das rotas (ver documentação)

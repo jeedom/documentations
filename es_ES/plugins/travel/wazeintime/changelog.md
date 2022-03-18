@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 17/03/2022
+
+- Jeedom v4.2 compatibilidad
+
 # 08/12/2021
 
 - Adición de una opción para configurar las suscripciones para que se activen al calcular las rutas (ver documentación)

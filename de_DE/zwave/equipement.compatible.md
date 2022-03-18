@@ -891,6 +891,12 @@
 |<img src="../../de_DE/zwave/images/305.8194.517_zp3102.eu.pir.motion.sensor.jpg" width="60" />|Zipato|ZP3102|Multicapteurs||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2605-zipato-detecteur-de-mouvement-et-capteur-de-temperature-z-wave-3858890730272.html)|
 |<img src="../../de_DE/zwave/images/305.8223.7968_zd2301.multisensor.4in1.jpg" width="60" />|Zipato|ZD2301 Multisensor 4in1|Ouverture|Wird auch unter der Marke Vision verkauft.|[Kaufen](http://www.domadoo.fr/fr/peripheriques/3823-zipato-detecteur-z-wave-plus-4-en-1-3858890732153.html)|
 
+# Zooz
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zwave/images/634.8225.8449_zooz_ZSE40.png" width="60" />|Zooz|4-in-1-Sensor|Bewegung, Helligkeit, Temperatur, Luftfeuchtigkeit||[Dokumentation](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-zse40-700-manual-online.pdf?v=1633541564)<br/>|
+
 # Zwaveme
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -925,4 +931,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-17.03.2022 01:08:05
+18.03.2022 01:08:11
