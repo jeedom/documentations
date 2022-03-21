@@ -27,7 +27,6 @@
         "rpi",
         "docker",
         "diy",
-        "mobile",
         "v4"
     ],
     "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ecodevice\/beta\/changelog",

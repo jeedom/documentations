@@ -1,0 +1,46 @@
+{
+    "id": "karotz",
+    "name": "Karotz",
+    "description": {
+        "fr_FR": "Plugin pour commander le Karotz",
+        "en_US": "Plugin to order the Karotz",
+        "es_ES": "Plugin para ordenar el Karotz",
+        "de_DE": "Plugin um den Karotz zu bestellen",
+        "pt_PT": "Plug-in para encomendar o Karotz",
+        "ru_RU": "Plugin pour commander le Karotz",
+        "id_ID": "Plugin pour commander le Karotz",
+        "it_IT": "Plugin pour commander le Karotz",
+        "ja_JP": "Plugin pour commander le Karotz",
+        "tr": "Plugin pour commander le Karotz"
+    },
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "installation": "Aucun prérequis sauf pour la gestion du contrôle du volume. Il faut installer 3 fichiers sur le karotz. Ces fichiers sont conservés dans le répertoire resources. Une installation automatique des ces fichiers est possible pour tous les karotz actifs.",
+    "category": "devicecommunication",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/devicecommunication\/karotz\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/devicecommunication\/karotz\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/devicecommunication\/karotz\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/devicecommunication\/karotz\/beta"
+}
