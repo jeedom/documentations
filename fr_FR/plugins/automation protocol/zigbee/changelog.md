@@ -12,6 +12,12 @@
 >
 >Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
 
+# 22/03/2022
+
+- Support de nouveau module
+- Mise à jour de la documentation
+- Correction de bug
+
 # 16/02/2022
 
 - Support de nouveau module
