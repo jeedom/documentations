@@ -20,7 +20,7 @@ Ein Z-Wave-Controller (Fernbedienung, Dongle…) ist erforderlich, um diesen Det
 
 ## Fonctions
 
--   Detektor öffnen
+-   Öffnungsmelder
 -   Taste zum Ein- / Ausschließen des Detektors
 -   Erkennung schwacher Batterie
 -   Manipulationsschutz

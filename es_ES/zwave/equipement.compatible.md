@@ -895,6 +895,11 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zwave/images/634.28672.40970_zooz_zen17.png" width="60" />|Zooz|Relé universal|Relais||[Documentación](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-700-series-z-wave-plus-universal-relay-zen17-ver1.0-manual.pdf)<br/>|
+|<img src="../../es_ES/zwave/images/634.28672.57345_zooz_zse41.png" width="60" />|Zooz|XS Abrir Cerrar Sensor|Detector de apertura||[Documentación](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-zse41-manual-online.pdf?v=1628275237)<br/>|
+|<img src="../../es_ES/zwave/images/634.28672.57346_zooz_zse42.png" width="60" />|Zooz|XS Sensor de fugas de agua|Fuite||[Documentación](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-xs-water-leak-sensor-zse42-user-manual.pdf?v=1628820692)<br/>|
+|<img src="../../es_ES/zwave/images/634.28672.57347_zooz_zse43.png" width="60" />|Zooz|XS Sensor de choque de inclinación|Choque, Inclinación||[Documentación](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-700-series-tilt-shock-xs-sensor-zse43-manual.pdf?v=1640009785)<br/>|
+|<img src="../../es_ES/zwave/images/634.28672.57348_zooz_zse44.png" width="60" />|Zooz|XS Sensor de temperatura y humedad|Temperatura, humedad||[Documentación](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-z-wave-plus-700-series-temperature-humidity-xs-sensor-zse44-manual.pdf)<br/>|
 |<img src="../../es_ES/zwave/images/634.8225.8449_zooz_ZSE40.png" width="60" />|Zooz|Sensor 4 en 1|Movimiento, Brillo, Temperatura, Humedad||[Documentación](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-zse40-700-manual-online.pdf?v=1633541564)<br/>|
 
 # Zwaveme
@@ -931,4 +936,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2022-03-22 01:08:08
+2022-03-23 01:08:07

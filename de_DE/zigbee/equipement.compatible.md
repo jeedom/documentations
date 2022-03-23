@@ -23,7 +23,7 @@
 |<img src="../../de_DE/zigbee/images/Bitron_Home.90201023.png" width="60" />|Bitron Video|SMABIT - 4-Tasten-Fernbedienung|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5551-smabit-telecommande-zigbee-4-boutons-8023874395814.html)|
 |<img src="../../de_DE/zigbee/images/Bitron_Home.90201028.png" width="60" />|Bitron Video|SMABIT - Smart Socket EIN / AUS 16A|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5563-smabit-prise-intelligente-zigbee-onoff-16a-8023874395852.html)|
 |<img src="../../de_DE/zigbee/images/Bitron_Home.90201032.png" width="60" />|Bitron Video|SMABIT - Smart Thermostat mit integriertem Relais|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5565-smabit-thermostat-intelligent-zigbee-avec-relais-8023874395883.html)|
-|<img src="../../de_DE/zigbee/images/Bitron_Home.AV201029A.png" width="60" />|Bitron Video|Meerjungfrau||||
+|<img src="../../de_DE/zigbee/images/Bitron_Home.AV201029A.png" width="60" />|Bitron Video|SMABIT - Zigbee Außensirene 104 dB|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5564-smabit-sirene-exterieure-zigbee-104-db-8023874397641.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/Bitron_Video.90201021B.png" width="60" />|Bitron Video|SMABIT - Öffnungsdetektor + Verdrahteter Sensoreingang|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5546-smabit-detecteur-d-ouverture-zigbee-entree-capteurs-filaires-8023874396651.html)|
 |<img src="../../de_DE/zigbee/images/Bitron_Video.90201022.png" width="60" />|Bitron Video|SMABIT - Design-Bewegungsmelder|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5549-smabit-detecteur-de-mouvement-design-zigbee-8021156061013.html)|
 |<img src="../../de_DE/zigbee/images/Bitron_Video.90201024A.png" width="60" />|Bitron Video|SMABIT - Rauchmelder|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5555-smabit-detecteur-de-fumee-optique-zigbee-avec-fonction-sirene-8023874396644.html)|
@@ -50,25 +50,25 @@
 |<img src="../../de_DE/zigbee/images/Develco.ZHEMI101.png" width="60" />|Frient|Optischer Stromverbrauchsmesser|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5424-frient-compteur-optique-de-consommation-d-electricite-zigbee-ha-5713594002583.html)|
 |<img src="../../de_DE/zigbee/images/Develco_Products_AS.AQSZB-110.png" width="60" />|Frient|Luftqualitätssensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5408-frient-capteur-de-qualite-d-air-zigbee-ha-5713594002392.html)|
 |<img src="../../de_DE/zigbee/images/Develco_Products_AS.DIOZB-110.png" width="60" />|Frient|E / A-Modul||||
-|<img src="../../de_DE/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Develco|Intelligente Tastatur||Für den Info SOS-Befehl ist die Bedeutung : 2 SOS (langer Druck auf die Taste), 7 jemand hat sie vor der Tastatur passiert||
-|<img src="../../de_DE/zigbee/images/Develco_Products_AS.PBTZB-110.png" width="60" />|Develco|Panikknopf||Es scheint ein Problem mit der Firmware zu geben, nur die Deaktivierung des Alarms (drücken Sie die Taste für 5 Sekunden nach Aktivierung des Panikmodus) wird an die ZigBee-Netzwerke gesendet||
-|<img src="../../de_DE/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Frient|Intelligente Sirene||||
+|<img src="../../de_DE/zigbee/images/Develco_Products_AS.KEPZB-110.png" width="60" />|Develco|Intelligente Tastatur||Für den Info SOS-Befehl ist die Bedeutung : 2 SOS (langer Druck auf die Taste), 7 jemand hat sie vor der Tastatur passiert|[Kaufen](https://www.domadoo.fr/fr/peripheriques/5537-frient-clavier-a-codes-intelligent-zigbee-30-lecteur-rfid-5713594002415.html?domid=4&id_campaign=9)|
+|<img src="../../de_DE/zigbee/images/Develco_Products_AS.PBTZB-110.png" width="60" />|Develco|Panikknopf||Es scheint ein Problem mit der Firmware zu geben, nur die Deaktivierung des Alarms (drücken Sie die Taste für 5 Sekunden nach Aktivierung des Panikmodus) wird an die ZigBee-Netzwerke gesendet|[Kaufen](https://www.domadoo.fr/fr/peripheriques/5808-frient-bouton-intelligent-zigbee-30.html?domid=4&id_campaign=9)|
+|<img src="../../de_DE/zigbee/images/Develco_Products_AS.SIRZB-110.png" width="60" />|Frient|Intelligente Sirene|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5538-frient-sirene-intelligente-zigbee-30-5713594002422.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/Develco_Products_AS.SPLZB-132.png" width="60" />|Frient|Smart Plug|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5412-frient-prise-intelligente-mini-avec-mesure-de-consommation-zigbee-ha-version-fr-5713594002514.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.AQSZB-110.png" width="60" />|Frient|Luftqualitätssensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5408-frient-capteur-de-qualite-d-air-zigbee-ha-5713594002392.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.FLSZB-110.png" width="60" />|Frient|Intelligenter Hochwassermelder|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5427-frient-detecteur-d-inondation-zigbee-30-5713594002453.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.HESZB-120.png" width="60" />|Frient|Wärmemelder|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5411-frient-detecteur-de-chaleur-intelligent-zigbee-30-din-en-14604-et-din-14676-5713594002446.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.HMSZB-110.png" width="60" />|Frient|Temperatur- und Feuchtigkeitssensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5407-frient-capteur-de-temperature-et-humidite-intelligent-zigbee-30-5713594002385.html)|
-|<img src="../../de_DE/zigbee/images/frient_AS.KEPZB-110.png" width="60" />|Frient|Intelligente Tastatur||Für den Info SOS-Befehl ist die Bedeutung : 2 SOS (langer Druck auf die Taste), 7 jemand hat sie vor der Tastatur passiert||
+|<img src="../../de_DE/zigbee/images/frient_AS.KEPZB-110.png" width="60" />|Frient|Intelligente Tastatur||Für den Info SOS-Befehl ist die Bedeutung : 2 SOS (langer Druck auf die Taste), 7 jemand hat sie vor der Tastatur passiert|[Kaufen](https://www.domadoo.fr/fr/peripheriques/5537-frient-clavier-a-codes-intelligent-zigbee-30-lecteur-rfid-5713594002415.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/frient_AS.MOSZB-140.png" width="60" />|Frient|Bewegungsmelder und Temperatur- und Lichtsensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5404-frient-detecteur-de-mouvement-zigbee-30-capteur-de-temperature-et-luminosite-5713594002361.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.MOSZB-141.png" width="60" />|Frient|Bewegungsmelder|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5403-frient-detecteur-de-mouvement-zigbee-30-5713594002835.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Frient|Smart Kabelschalter|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5421-frient-interrupteur-sur-cordon-zigbee-30-5713594002408.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Frient|Intelligenter Rauchmelder DIN EN 14604 UND DIN 14676|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5409-frient-detecteur-de-fumee-intelligent-zigbee-30-5713594002330.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.SPLZB-131.png" width="60" />|Frient|Smart Plug im Schuko-Format|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5420-frient-prise-intelligente-mini-avec-mesure-de-consommation-zigbee-ha-version-schuko-5713594002347.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.SPLZB-132.png" width="60" />|Frient|Smart Socket im FR-Format|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5412-frient-prise-intelligente-mini-avec-mesure-de-consommation-zigbee-ha-version-fr-5713594002514.html)|
-|<img src="../../de_DE/zigbee/images/frient_AS.SURZB-110.png" width="60" />|Frient|Intelligente Sirene||||
+|<img src="../../de_DE/zigbee/images/frient_AS.SURZB-110.png" width="60" />|Frient|Intelligente Sirene|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5538-frient-sirene-intelligente-zigbee-30-5713594002422.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/frient_AS.WISZB-120.png" width="60" />|Frient|Tür- oder Fensteröffnungsdetektor und Temperatursensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5402-frient-detecteur-d-ouverture-de-porte-ou-fenetre-zigbee-30-capteur-de-temperature-5713594002354.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.WISZB-121.png" width="60" />|Frient|Intelligenter Bewegungsmelder|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5401-frient-detecteur-d-ouverture-de-porte-ou-fenetre-zigbee-30-5713594002545.html)|
-|<img src="../../de_DE/zigbee/images/frient_AS.button.png" width="60" />|Frient|Smart-Taste||||
+|<img src="../../de_DE/zigbee/images/frient_AS.button.png" width="60" />|Frient|Smart-Taste|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5808-frient-bouton-intelligent-zigbee-30.html?domid=4&id_campaign=9)|
 
 # GR-SMARTHOME
 
@@ -76,6 +76,13 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/TYZB01_rifa0wlb.TS0011.png" width="60" />|GR-SMARTHOME|Motorisierung für 1/4 Umdrehungsventil|Vanne||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5264-gr-smarthome-motorisation-zigbee-30-pour-vanne-14-de-tour.html)|
 |<img src="../../de_DE/zigbee/images/TZ3000_m8gy8jy1.TS0001.png" width="60" />|GR-SMARTHOME|Motorisierung für 1/4 Umdrehungsventil|Vanne||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5264-gr-smarthome-motorisation-zigbee-30-pour-vanne-14-de-tour.html)|
+
+# Gewiss
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/gewiss.motion.png" width="60" />|Gewiss|Bewegungsmelder und Temperatur- und Lichtsensor||||
+|<img src="../../de_DE/zigbee/images/gewiss.smoke.png" width="60" />|Gewiss|Rauchmelder||||
 
 # GreenPower
 
@@ -160,7 +167,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/LiXee.ZLinky_TIC.png" width="60" />|LiXee|TIC||||
+|<img src="../../de_DE/zigbee/images/LiXee.ZLinky_TIC.png" width="60" />|LiXee|TIC|||[Kaufen](https://www.domadoo.fr/fr/box-domotique/5914-lixee-module-tic-vers-zigbee-30-pour-compteur-linky-3770014375148.html?domid=4&id_campaign=9)|
 
 # MLI
 
@@ -377,25 +384,25 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../de_DE/zigbee/images/HEIMAN.COSensor-EF-3.0.png" width="60" />|Heiman|Smarter Kohlenmonoxidsensor||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.COSensor-EF-3.0.png" width="60" />|Heiman|Smarter Kohlenmonoxidsensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5884-heiman-capteur-co-monoxyde-de-carbone-zigbee-30.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/HEIMAN.COSensor-EM.png" width="60" />|Heiman|Kohlenmonoxiddetektor||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.ColorDimmerSw-EM-3.0.png" width="60" />|Heiman|5-Tasten-Farbfernbedienung||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.ColorLight.png" width="60" />|Heiman|ColorLight E27||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.DoorBell-EM.png" width="60" />|Heiman|Verbundene Türklingel||||
-|<img src="../../de_DE/zigbee/images/HEIMAN.GASSensor-EF-3.0.png" width="60" />|Heiman|Intelligenter Sensor für brennbare Gase||||
-|<img src="../../de_DE/zigbee/images/HEIMAN.GASSensor-EM.png" width="60" />|Heiman|Gasmelder||||
-|<img src="../../de_DE/zigbee/images/HEIMAN.HS3AQ-EFA-3.0.png" width="60" />|Heiman|Intelligente Überwachung der Luftqualität||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.GASSensor-EF-3.0.png" width="60" />|Heiman|Intelligenter Sensor für brennbare Gase|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5883-heiman-capteur-de-gaz-combustible-intelligent-zigbee-30.html?domid=4&id_campaign=9)|
+|<img src="../../de_DE/zigbee/images/HEIMAN.GASSensor-EM.png" width="60" />|Heiman|Gasmelder|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5883-heiman-capteur-de-gaz-combustible-intelligent-zigbee-30.html?domid=4&id_campaign=9)|
+|<img src="../../de_DE/zigbee/images/HEIMAN.HS3AQ-EFA-3.0.png" width="60" />|Heiman|Zigbee 3.0 Luftqualitätssensor||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.RC-EM.png" width="60" />|Heiman|4-Tasten-Fernbedienung||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.SOS-EF-3.0.png" width="60" />|Heiman|SOS-Taste||||
-|<img src="../../de_DE/zigbee/images/HEIMAN.SceneSwitch-EM-3.0.png" width="60" />|Heiman|4-Tasten-Fernbedienung||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.SceneSwitch-EM-3.0.png" width="60" />|Heiman|4-Tasten-Fernbedienung|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5715-heiman-telecommande-de-scenes-zigbee.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-EF-3.0.png" width="60" />|Heiman|Rauchmelder||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-EM.png" width="60" />|Heiman|Rauchmelder||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.SmokeSensor-N-3.0.png" width="60" />|Heiman|Rauchmelder||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.TempDimmerSw-EM-3.0.png" width="60" />|Heiman|5-Tasten-Fernbedienung||||
 |<img src="../../de_DE/zigbee/images/HEIMAN.TemperLight.png" width="60" />|Heiman|||||
-|<img src="../../de_DE/zigbee/images/HEIMAN.WarningDevice-EF-3.0.png" width="60" />|Heiman|Intelligente Sirene||||
+|<img src="../../de_DE/zigbee/images/HEIMAN.WarningDevice-EF-3.0.png" width="60" />|Heiman|Intelligente Sirene|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5714-heiman-sirene-interieure-intelligente-zigbee-30.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/Heiman.SmartPlug.png" width="60" />|Schneider|Verbundene Buchse und Repeater Wiser|Buchse, Messgerät, Leistung, Repeater||[Kaufen](https://www.domadoo.fr/fr/eclairage/5499-schneider-electric-prise-connectee-et-repeteur-zigbee-30-wiser-3606489917883.html)|
-|<img src="../../de_DE/zigbee/images/Heiman.WarningDevice.png" width="60" />|Heiman|Außensirene|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5564-smabit-sirene-exterieure-zigbee-104-db-8023874397641.html)|
+|<img src="../../de_DE/zigbee/images/Heiman.WarningDevice.png" width="60" />|Heiman|Zigbee 3.0 Innensirene|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5714-heiman-sirene-interieure-intelligente-zigbee-30.html?domid=4&id_campaign=9)|
 
 # Icasa
 
@@ -474,7 +481,7 @@
 |<img src="../../de_DE/zigbee/images/Innr.RF_263.png" width="60" />|Innr|INNR RF 263||||
 |<img src="../../de_DE/zigbee/images/Innr.RS_230_C.png" width="60" />|Innr|INNR GU10 RGBW||||
 |<img src="../../de_DE/zigbee/images/Innr.SP_120.png" width="60" />|Innr|INNR GENOMMEN||||
-|<img src="../../de_DE/zigbee/images/innr.RC_210.png" width="60" />|Innr|INNR-Smart-Taste||||
+|<img src="../../de_DE/zigbee/images/innr.RC_210.png" width="60" />|Innr|INNR-Smart-Taste|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/6055-innr-bouton-intelligent-sans-fil-zigbee-1-touche-smart-button-8718781553364.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/innr.SP_220.png" width="60" />|Innr|Prise|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5362-innr-prise-connectee-super-slim-zigbee-30-8718781552657.html)|
 
 # Konke
@@ -531,20 +538,27 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+||Loratap|LORATAP - ZIGBEE 3 WIRELESS BÜHNENWANDSCHALTER.TASTE 0 - 1|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/6031-loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-1-bouton.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Loratap|Rollladenmodul||||
+||Loratap|ZIGBEE 3 WIRELESS SCENE WANDSCHALTER.0 - 4 TASTEN|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/6040-loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-4-boutons.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/TZ3000_bi6lpsew.TS0043.png" width="60" />|Loratap|LORATAP - 3-Tasten-Fernbedienung||||
-|<img src="../../de_DE/zigbee/images/TZ3000_ufhtxr59.TS0044.png" width="60" />|Loratap|LORATAP - 4-Tasten-Fernbedienung||||
+||Loratap|LORATAP - 4-Tasten-Fernbedienung|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/6015-loratap-telecommande-zigbee-30-4-boutons.html?domid=4&id_campaign=9)|
+||Loratap|LORATAP - ZIGBEE 3 WIRELESS BÜHNENWANDSCHALTER.TASTE 0 - 1|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/6038-loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-2-boutons.html?domid=4&id_campaign=9)|
+||Loratap|LORATAP - 2-Tasten-Fernbedienung|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/6014-loratap-telecommande-zigbee-30-2-boutons.html?domid=4&id_campaign=9)|
+|<img src="../../de_DE/zigbee/images/TZ3000_ufhtxr59.TS0044.png" width="60" />|Loratap|LORATAP - 4-Tasten-Fernbedienung|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/6015-loratap-telecommande-zigbee-30-4-boutons.html?domid=4&id_campaign=9)|
+||Loratap|LORATAP - 1-Tasten-Fernbedienung|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/6013-loratap-telecommande-zigbee-30-1-bouton.html?domid=4&id_campaign=9)|
+||Loratap|LORATAP - ZIGBEE 3 WIRELESS BÜHNENWANDSCHALTER.0 - 3 TASTEN|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/6039-loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-3-boutons.html?domid=4&id_campaign=9)|
 
 # Nodon
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/NodOn.SIN-4-1-20.png" width="60" />|Nodon|Einzellade-EIN / AUS-Schalter 16A||||
-|<img src="../../de_DE/zigbee/images/NodOn.SIN-4-1-20_PRO.png" width="60" />|Nodon|16A PRO Einzellast-EIN/AUS-Schalter||||
+|<img src="../../de_DE/zigbee/images/NodOn.SIN-4-1-20_PRO.png" width="60" />|Nodon|16A PRO Einzellast-EIN/AUS-Schalter|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5585-nodon-pro-module-multifonction-zigbee-3700313925256.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/NodOn.SIN-4-2-20.png" width="60" />|Nodon|Doppellast-EIN / AUS-Schaltermodul 2x3A||||
-|<img src="../../de_DE/zigbee/images/NodOn.SIN-4-2-20_PRO.png" width="60" />|Nodon|Doppellast EIN/AUS-Schaltmodul 2x3A PRO||||
+|<img src="../../de_DE/zigbee/images/NodOn.SIN-4-2-20_PRO.png" width="60" />|Nodon|Doppellast EIN/AUS-Schaltmodul 2x3A PRO|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5586-nodon-pro-module-eclairage-onoff-zigbee-3700313925317.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/NodOn.SIN-4-RS-20.png" width="60" />|Nodon|Rollladenmodul||||
-|<img src="../../de_DE/zigbee/images/NodOn.SIN-4-RS-20_PRO.png" width="60" />|Nodon|Rollladenmodul PRO||||
+|<img src="../../de_DE/zigbee/images/NodOn.SIN-4-RS-20_PRO.png" width="60" />|Nodon|Rollladenmodul PRO|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5587-nodon-pro-module-volet-roulant-zigbee-3700313925287.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/ptm216z.png" width="60" />|Nodon|PTM 216 Z||||
 
 # Orvibo
@@ -581,7 +595,8 @@
 |---|---|---|---|---|---|
 |<img src="../../de_DE/zigbee/images/OWON.CB432-32.png" width="60" />|Owon|Rail-Din 32A Relais und Zigbee Energiezähler|Schütz, Zähler||[Dokumentation](https://www.owon-smart.com/uploads/Quick-Start-Guide-CB432-Din-Rail-Relay1.pdf)<br/>|
 |<img src="../../de_DE/zigbee/images/OWON.PCT504.png" width="60" />|Owon|ZIGBEE FAN COIL THERMOSTAT (100V-240V)|Thermostat||[Dokumentation](https://www.owon-smart.com/uploads/Quick-Start-Guide-%E2%80%93-PCT504-ZigBee-Fan-coil-Thermostat.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/6056-owon-thermostat-de-ventilo-convecteur-zigbee-100v-240v.html)|
-|<img src="../../de_DE/zigbee/images/OWON.PIR323-PTH.png" width="60" />|Owon|Multi-Sensor (Bewegung/Temperatur/Feuchtigkeit)|||[Dokumentation](https://www.owon-smart.com/uploads/Quick-Start-Guide-PIR323-ZigBee-Multi-Sensor.pdf)<br/>|
+|<img src="../../de_DE/zigbee/images/OWON.PIR313.png" width="60" />|Owon|Multi-Sensor (Bewegung/Temperatur/Feuchtigkeit/Helligkeit)|||[Dokumentation](https://www.owon-smart.com/uploads/Quick-Start-Guide-PIR313-Multisensor-V0.4.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/6010-owon-capteur-de-mouvement-temperature-et-humidite-zigbee.html?domid=4&id_campaign=9)|
+|<img src="../../de_DE/zigbee/images/OWON.PIR323-PTH.png" width="60" />|Owon|Multi-Sensor (Bewegung/Temperatur/Feuchtigkeit)|||[Dokumentation](https://www.owon-smart.com/uploads/Quick-Start-Guide-PIR323-ZigBee-Multi-Sensor.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/6009-owon-capteur-de-mouvement-temperature-et-humidite-zigbee.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/OWON.THS317-ET.png" width="60" />|Owon|Ferntemperaturfühler am Kabel|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5998-owon-sonde-de-temperature-deportee-sur-cable-zigbee.html)|
 
 # Philips
@@ -685,10 +700,17 @@
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.Thermostat.png" width="60" />|Schneider|Klüger angeschlossener Raumthermostat|Thermostat, Heizung|Modul nicht empfohlen, scheint sehr kompliziert in der Bedienung zu sein und erfordert das gesamte Schneider-Ökosystem|[Kaufen](https://www.domadoo.fr/fr/thermostats/5496-schneider-electric-thermostat-d-ambiance-connecte-zigbee-30-wiser-3606489710194.html)|
 |<img src="../../de_DE/zigbee/images/Schneider_Electric.iTRV.png" width="60" />|Schneider|Klüger angeschlossener Thermostatventilkopf|Thermostatkopf, Heizung||[Kaufen](https://www.domadoo.fr/fr/tetes-thermostatiques/5497-schneider-electric-tete-de-vanne-thermostatique-connectee-zigbee-30-wiser-3606489582821.html)|
 
+# Smabit
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/SMaBiT.AV201022B.png" width="60" />|Smabit|SMABIT - Bewegungsmelder für den Außenbereich|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5550-smabit-detecteur-de-mouvement-exterieur-zigbee-8023874397665.html)|
+
 # Sonoff
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/S31LiteZB-US.png" width="60" />|Sonoff|SMART-STECKER 16A UNS|Prise|||
 |<img src="../../de_DE/zigbee/images/SONOFF.01MINIZB.png" width="60" />|Sonoff|Mikromodulschalter angeschlossen|Schütz, Licht||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5375-sonoff-micromodule-commutateur-connecte-zigbee.html)|
 |<img src="../../de_DE/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|Mikromodulschalter 10A|Contacteur||[Dokumentation](http://dl.itead.cc/basiczbr3/BASICZBR3-user-manual-V-1-1.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
 |<img src="../../de_DE/zigbee/images/SONOFF.S26R2ZB.png" width="60" />|Sonoff|16A INTELLIGENTE BUCHSE|Prise||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5880-sonoff-prise-intelligente-16a-zigbee-30-version-fr.html)|
@@ -761,7 +783,7 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_4whigl8i.TS0501B.png" width="60" />|Tuya|LED-Streifen-Controller||||
 |<img src="../../de_DE/zigbee/images/TZ3000_5f43h46b.TS011F.png" width="60" />|Tuya|QONTROLS 16A Steckdose mit Verbrauchsmessung||||
 |<img src="../../de_DE/zigbee/images/TZ3000_5jdvwqv9.TS0502B.png" width="60" />|Tuya|LED-Controller||||
-|<img src="../../de_DE/zigbee/images/TZ3000_5k5vh43t.TS0207.png" width="60" />|Tuya|Verstärker||||
+|<img src="../../de_DE/zigbee/images/TZ3000_5k5vh43t.TS0207.png" width="60" />|Tuya|Verstärker|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5984-loratap-repeteur-de-signal-zigbee-30.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/TZ3000_8kzqqzu4.TS130F.png" width="60" />|Tuya|Angeschlossener Schalter für angeschlossenen Vorhang||||
 |<img src="../../de_DE/zigbee/images/TZ3000_8nkb7mof.TS0121.png" width="60" />|Tuya|Angeschlossene Steckdose|Buchse, Messgerät, Leistung, Repeater|||
 |<img src="../../de_DE/zigbee/images/TZ3000_92chsky7.TS110F.png" width="60" />|Tuya|2 Stimmen dimmen||||
@@ -770,7 +792,7 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|Intelligenter Doppelschalter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_air9m6af.TS011F.png" width="60" />|Tuya|Steckdosenleiste 16A 4000W 4AC + 2USB|Steckdose, Verbrauch, Leistung, Repeater||[Kaufen](https://fr.aliexpress.com/item/1005001408157771.html)|
 |<img src="../../de_DE/zigbee/images/TZ3000_bvrlqyj7.TS0002.png" width="60" />|Tuya|Tuya Zigbee - 2-Wege-Schalter||||
-|<img src="../../de_DE/zigbee/images/TZ3000_cfnprab5.TS011F.png" width="60" />|Tuya|Steckdosenleiste angeschlossen 4 Steckdosen und 2 USB Ports (2)||||
+|<img src="../../de_DE/zigbee/images/TZ3000_cfnprab5.TS011F.png" width="60" />|Tuya|Steckdosenleiste angeschlossen 4 Steckdosen und 2 USB Ports (2)|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/TZ3000_cphmq0q7.TS011F.png" width="60" />|Tuya|Angeschlossene Steckdose|Buchse, Messgerät, Leistung, Repeater|||
 |<img src="../../de_DE/zigbee/images/TZ3000_cymsnfvf.TS011F.png" width="60" />|Tuya|Angeschlossene Buchse + USB|Prise||[Kaufen](https://www.domadoo.fr/fr/prises-connectees/5840-moes-prise-connectee-zigbee-30-2-ports-usb-pilotables-version-schuko.html)|
 |<img src="../../de_DE/zigbee/images/TZ3000_dbpmpco1.TS130F.png" width="60" />|Tuya|Angeschlossener Schalter für angeschlossenen Vorhang||||
@@ -820,7 +842,7 @@
 |<img src="../../de_DE/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Schalter mit 3 Tasten||||
 |<img src="../../de_DE/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Verbundene Schalter 2 Tasten||||
 |<img src="../../de_DE/zigbee/images/TZE200_7bztmfm1.TS0601.png" width="60" />|Tuya|Tuya Luftqualität CO||||
-|<img src="../../de_DE/zigbee/images/TZE200_akjefhj5.TS0601.png" width="60" />|Tuya|Bewässerungsventil||Im Moment ist es nicht möglich, den Timer richtig zu steuern, wenn er auf On gestellt ist, bleibt das Ventil 10 Minuten lang geöffnet und schaltet sich dann ab||
+|<img src="../../de_DE/zigbee/images/TZE200_akjefhj5.TS0601.png" width="60" />|Tuya|Bewässerungsventil||Im Moment ist es nicht möglich, den Timer richtig zu steuern, wenn er auf On gestellt ist, bleibt das Ventil 10 Minuten lang geöffnet und schaltet sich dann ab|[Kaufen](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/TZE200_aoclfnxz.TS0601.png" width="60" />|Tuya|Intelligenter Thermostat||||
 |<img src="../../de_DE/zigbee/images/TZE200_b6wax7g0.TS0601.png" width="60" />|Moes|MOES - Intelligenter Thermostatkopf (3)|||[Kaufen](https://www.domadoo.fr/fr/tetes-thermostatiques/5783-moes-tete-thermostatique-intelligente-zigbee-30-blanc.html)|
 |<img src="../../de_DE/zigbee/images/TZE200_c88teujp.TS0601.png" width="60" />|Tuya|Intelligenter Thermostat||||
@@ -854,6 +876,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/LUMI.RTCGQ01LM.png" width="60" />|Xiaomi|XIaomi Mijia RTCGQ01LM|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-aqara-detecteur-de-mouvement-zigbee-rtcgq11lm-192784000090.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.airmonitor.acn01.png" width="60" />|Xiaomi|XIAOMI AQARA - Zigbee 3 Luftqualitätsmonitor.0 (TEMPERATUR, FEUCHTIGKEIT, TVOC)|Temperatur, Luftfeuchtigkeit, Luftqualität||[Dokumentation](https://cdn.aqara.com/cdn/website/mainland/static/docs/TVOC-Air-Quality-Monitor_Manual_EN.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5751-xiaomi-aqara-moniteur-de-qualite-d-air-zigbee-30-temp-hum-covt-6970504214644.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.ctrl_ln1.aq1.png" width="60" />|Xiaomi|AQARA - Einzelschalter mit Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.ctrl_ln2.aq1.png" width="60" />|Xiaomi|AQARA - Doppelschalter mit Neutralleiter||||
@@ -899,6 +922,7 @@
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.l0agl1.png" width="60" />|Xiaomi|AQARA - Mikromodul ein / aus ohne Neutralleiter|Schütz, Messgerät, Leistung||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5387-aqara-micromodule-onoff-zigbee-30-1250w-sans-neutre-6970504213302.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.l1aeu1.png" width="60" />|Xiaomi|XIAOMI AQARA - H1 ZigBee 3 Smart Wandschalter.0 (OHNE NEUTRALE))|Schalter, Licht||[Dokumentation](https://cdn.aqara.com/cdn/website/mainland/static/docs/Smart-Wall-Switch-H1-No-Neutral_Manual_EN.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5726-xiaomi-aqara-interrupteur-mural-intelligent-h1-zigbee-30-sans-neutre-ws-euk01-6970504214774.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.l2aeu1.png" width="60" />|Xiaomi|XIAOMI AQARA - H1 ZigBee 3 Smart Doppelwandschalter.0 (OHNE NEUTRALE))|Schalter, Licht||[Dokumentation](https://www.aqara.com/userfiles/fileupload/202105/1392376227816738818.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5727-xiaomi-aqara-interrupteur-mural-double-intelligent-h1-zigbee-30-sans-neutre-6970504214781.html)|
+|<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.l3acn3.png" width="60" />|Xiaomi|AQARA - Dreifachschalter mit Neutralleiter||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.n0agl1.png" width="60" />|Xiaomi|AQARA - Mikromodul ein / aus mit Neutralleiter|Schütz, Messgerät, Leistung||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5386-aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-6970504213296.html)|
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.n1aeu1.png" width="60" />|Xiaomi|||||
 |<img src="../../de_DE/zigbee/images/LUMI.lumi.switch.n2aeu1.png" width="60" />|Xiaomi|XIAOMI AQARA - H1 ZigBee 3 Smart Doppelwandschalter.0 (mit Neutral) + Verbrauchsmessung|||[Dokumentation](https://cdn.aqara.com/cdn/website/mainland/static/docs/Smart-Wall-Switch-H1-With-Neutral_Manual_EN.pdf)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5729-xiaomi-aqara-interrupteur-mural-double-intelligent-h1-zigbee-30-avec-neutre-ws-euk04-6970504214804.html)|
@@ -916,4 +940,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2022-03-22 01:32:08
+2022-03-23 01:32:07
