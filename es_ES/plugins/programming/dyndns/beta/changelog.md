@@ -4,6 +4,7 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Soporte infomaniak.com
 - Compatibilidad con IPv6 (gracias @henribi)
 
 # 05/08/2021

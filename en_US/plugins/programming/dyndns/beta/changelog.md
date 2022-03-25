@@ -4,6 +4,7 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Infomaniak.com support
 - IPv6 support (thanks @henribi)
 
 # 08/05/2021

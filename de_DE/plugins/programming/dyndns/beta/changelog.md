@@ -4,6 +4,7 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Infomaniak.com-Unterstützung
 - IPv6-Unterstützung (danke @henribi)
 
 # 08.05.2021

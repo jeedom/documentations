@@ -4,6 +4,7 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Suporte Infomaniak.com
 - Suporte IPv6 (obrigado @henribi)
 
 # 05/08/2021
