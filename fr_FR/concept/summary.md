@@ -49,6 +49,9 @@ Parcourons ce qu'on va définir ici:
 - **Lier à un virtuel** : Lance la création d'un équipement virtuel avec des commandes correspondantes aux valeurs du résumé.
 - **Supprimer le résumé** : Le dernier bouton, tout à droite, permet de supprimer le résumé.
 
+>**NOTE**
+>
+>Pour supprimer une icône il suffit de double cliquer sur celle-ci
 
 Par exemple ici :
 
