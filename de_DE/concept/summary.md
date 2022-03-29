@@ -49,6 +49,9 @@ Lass uns durchgehen, was wir hier definieren werden:
 - **Link zu einem virtuellen** : Startet die Erstellung eines virtuellen Geräts mit Befehlen, die den Werten der Zusammenfassung entsprechen.
 - **Zusammenfassung löschen** : Mit der letzten Schaltfläche ganz rechts können Sie die Zusammenfassung löschen.
 
+>**HINWEIS**
+>
+>Um ein Symbol zu entfernen, doppelklicken Sie einfach darauf
 
 Zum Beispiel hier :
 

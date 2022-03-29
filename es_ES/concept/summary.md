@@ -49,6 +49,9 @@ Repasemos lo que definiremos aquí:
 - **Enlace a un virtual** : Inicia la creación de un dispositivo virtual con comandos correspondientes a los valores del resumen.
 - **Eliminar resumen** : El último botón, en el extremo derecho, le permite eliminar el resumen.
 
+>**NOTA**
+>
+>Para eliminar un icono, simplemente haga doble clic en él
 
 Por ejemplo aquí :
 

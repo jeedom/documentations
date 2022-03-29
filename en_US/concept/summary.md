@@ -49,6 +49,9 @@ Let's go through what we will define here:
 - **Link to a virtual** : Starts the creation of a virtual device with commands corresponding to the values of the summary.
 - **Delete summary** : The last button, on the far right, allows you to delete the summary.
 
+>**NOTE**
+>
+>To remove an icon, just double click on it
 
 For example here :
 
