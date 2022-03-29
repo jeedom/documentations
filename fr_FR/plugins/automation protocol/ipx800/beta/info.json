@@ -1,0 +1,34 @@
+{
+    "id": "ipx800",
+    "name": "ipx800 V3",
+    "licence": "AGPL",
+    "author": "Jeedom Legacy",
+    "require": "3.0",
+    "category": "automation protocol",
+    "installation": "Nécessite firmware 3.05.42 minimum",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ipx800\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ipx800\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ipx800\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ipx800\/beta"
+}
