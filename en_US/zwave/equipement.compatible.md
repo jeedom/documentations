@@ -70,7 +70,7 @@
 |<img src="../../en_US/zwave/images/134.3.139_zw139.nano.switch.jpg" width="60" />|Aeotec|Nano Switch (ZW139)|Micromodule|||
 |<img src="../../en_US/zwave/images/134.3.13_dsc13103.micro.smart.energy.illuminator.jpg" width="60" />|Aeotec|Micro Smart Energy Illuminator (DSC13103)|Micromodule||[Buy](http://www.domadoo.fr/fr/peripheriques/287-aeon-labs-micromodule-variateur-et-compteur-d-energie-g2-1220000011120.html)|
 |<img src="../../en_US/zwave/images/134.3.140_zw140.dual.nano.switch.jpg" width="60" />|Aeotec|Dual Nano Switch (ZW140)|Micromodule|||
-|<img src="../../en_US/zwave/images/134.3.141_zw141_nano.shutter.jpg" width="60" />|Aeotec|ZW141 Roller shutter|Volets|||
+|<img src="../../en_US/zwave/images/134.3.141_zw141_nano.shutter.jpg" width="60" />|Aeotec|Nano Shutter ZW141|Volets||[Documentation](https://help.aeotec.com/support/solutions/articles/6000198854-nano-shutter-user-guide-)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/4622-aeotec-micromodule-volet-roulant-z-wave-nano-shutter-122000001603.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zwave/images/134.3.14_dsc14104_blind.control.switch.jpg" width="60" />|Aeotec|Micro Motor Controller (DSC14104)|Volets||[Buy](http://www.domadoo.fr/fr/peripheriques/284-aeon-labs-micromodule-z-wave-pour-volet-roulant-1220000010864.html)|
 |<img src="../../en_US/zwave/images/134.3.17_dsc17103_micro.double.switch_g2.jpg" width="60" />|Aeotec|Micro Double Smart Switch (DSC17103)|Micromodule|Virtually no longer sold|[Buy](http://www.domadoo.fr/fr/peripheriques/285-aeon-labs-micromodule-commutateur-double-et-compteur-d-energie-1220000010949.html)|
 |<img src="../../en_US/zwave/images/134.3.18_dsc18103_micro.switch.2nd.edition.jpg" width="60" />|Aeotec|Micro Smart Switch 2nd Edition (DSC18103)|Micromodule||[Buy](http://www.domadoo.fr/fr/peripheriques/286-aeon-labs-micromodule-commutateur-et-compteur-d-energie-g2-1220000011014.html)|
@@ -89,24 +89,24 @@
 |<img src="../../en_US/zwave/images/134.4.37_dsd37_range.extender.jpg" width="60" />|Aeotec|Range Extender (DSD37)|Repeater|Module without functionality except for relaying network information|[Buy](http://www.domadoo.fr/fr/peripheriques/2342-aeon-labs-repeteur-de-signal-z-wave-1220000012660.html)|
 |<img src="../../en_US/zwave/images/134.4.80_zw080.siren.jpg" width="60" />|Aeotec|Siren Gen5 (ZW080)|Mermaid||[Buy](http://www.domadoo.fr/fr/peripheriques/2592-aeon-labs-sirene-z-wave-plus-sur-prise-electrique-gen5-1220000012592.html)|
 |<img src="../../en_US/zwave/images/134.514.89_zw089_recessed.door.sensor.jpg" width="60" />|Aeotec|Recessed Door Sensor Gen5 (ZW089)|Ouverture||[Buy](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
-||Aeotec|Door / Window Sensor 7 (ZWA011)|Ouverture|||
-|<img src="../../en_US/zwave/images/881.2.12_zwa012.door7.pro.jpg" width="60" />|Aeotec|Door / Window Sensor 7 Pro (ZWA012)|Ouverture|||
-|<img src="../../en_US/zwave/images/881.2.19_zwa019.water7.pro.jpg" width="60" />|Aeotec|Water Sensor 7 Pro (ZWA019)|Fuite|||
+||Aeotec|Door / Window Sensor 7 (ZWA011)|Ouverture||[Documentation](https://help.aeotec.com/support/solutions/articles/6000230382-door-window-sensor-7-basic-user-guide-zwa011-)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5775-aeotec-capteur-d-ouverture-portefenetre-z-wave-700-doorwindow-sensor-7-1220000016668.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zwave/images/881.2.12_zwa012.door7.pro.jpg" width="60" />|Aeotec|Door / Window Sensor 7 Pro (ZWA012)|Ouverture||[Documentation](https://help.aeotec.com/support/solutions/articles/6000230465-door-window-sensor-7-pro-user-guide-zwa012-)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5514-aeotec-capteur-d-ouverture-portefenetre-z-wave-700-doorwindow-sensor-7-pro-1220000016682.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zwave/images/881.2.19_zwa019.water7.pro.jpg" width="60" />|Aeotec|Water Sensor 7 Pro (ZWA019)|Fuite||[Documentation](https://help.aeotec.com/support/solutions/articles/6000235950-water-sensor-7-pro-user-guide-zwa019-)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5773-aeotec-capteur-d-inondation-z-wave-700-water-sensor-7-pro-1220000016729.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zwave/images/881.2.21_zwa021.radiator.thermostat.jpg" width="60" />|Aeotec|Radiator Thermostat|Thermostat|||
-|<img src="../../en_US/zwave/images/881.2.24_zw024_multi-sensor.gen7.jpg" width="60" />|Aeotec|MultiSensor Gen7 (ZW024)|Sensor, Motion, Vibration, Temperature, Humidity, Brightness, UV||[Documentation](https://help.aeotec.com/helpdesk/attachments/6121529483)<br/>|
+|<img src="../../en_US/zwave/images/881.2.24_zw024_multi-sensor.gen7.jpg" width="60" />|Aeotec|MultiSensor Gen7 (ZW024)|Sensor, Motion, Vibration, Temperature, Humidity, Brightness, UV||[Documentation](https://help.aeotec.com/helpdesk/attachments/6121529483)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5825-aeotec-detecteur-multifonctions-6-en-1-multisensor-7-z-wave-700-1220000016873.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zwave/images/881.2.3_zwa003_nanomote.quad.jpg" width="60" />|Aeotec|NanoMote Quad (ZWA003)|Remote control|||
 |<img src="../../en_US/zwave/images/881.2.4_zwa004_nanomote.one.jpg" width="60" />|Aeotec|NanoMote One (ZWA004)|Remote control|||
 |<img src="../../en_US/zwave/images/881.2.5_zwa005_trisensor.jpg" width="60" />|Aeotec|Trisensor (ZWA005)|Multicapteurs|||
 |<img src="../../en_US/zwave/images/881.2.7_zwa008.door7.jpg" width="60" />|Aeotec|Door / Window Sensor 7 (ZWA008)|Ouverture|||
 |<img src="../../en_US/zwave/images/881.2.9_zwa009_aerq.jpg" width="60" />|Aeotec|aerQ Temperature & Humidity (ZWA009)|Multicapteurs|||
-|<img src="../../en_US/zwave/images/881.3.141_zw141_nano.shutter.jpg" width="60" />|Aeotec|ZW141 Roller shutter|Volets|||
+|<img src="../../en_US/zwave/images/881.3.141_zw141_nano.shutter.jpg" width="60" />|Aeotec|Nano Shutter ZW141|Volets||[Documentation](https://help.aeotec.com/support/solutions/articles/6000198854-nano-shutter-user-guide-)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/4622-aeotec-micromodule-volet-roulant-z-wave-nano-shutter-122000001603.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zwave/images/881.3.162_zw162_doorbell6.jpg" width="60" />|Aeotec|Doorbell 6 (ZW162)|Mermaid|||
-|<img src="../../en_US/zwave/images/881.3.164_zw164_siren 6.jpg" width="60" />|Aeotec|Siren 6 (ZW164)|Mermaid|||
+|<img src="../../en_US/zwave/images/881.3.164_zw164_siren 6.jpg" width="60" />|Aeotec|Siren 6 (ZW164)|Mermaid||[Documentation](https://help.aeotec.com/support/solutions/articles/6000202227-siren-6-user-guide-)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/4778-aeotec-sirene-interieure-z-wave-siren-6-1220000016224.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zwave/images/881.3.175_zw175_switch.jpg" width="60" />|Aeotec|Smart Switch 7 (ZW175)|Prise|||
 |<img src="../../en_US/zwave/images/881.3.180_zwa006.smart.boost.timer.switch.jpg" width="60" />|Aeotec|Smart Boost Timer Switch (ZWA006)|Prise|||
 |<img src="../../en_US/zwave/images/881.3.1_zwa001_led.bulb6.white.jpg" width="60" />|Aeotec|LED Bulb 6 Multi-White (ZWA001)|Ampoule|||
 |<img src="../../en_US/zwave/images/881.3.2_zwa002_led.bulb6.color.jpg" width="60" />|Aeotec|LED Bulb 6 Multi-Color (ZWA002)|Ampoule|||
-|<img src="../../en_US/zwave/images/881.4.189_zw189.range.extender.7.jpg" width="60" />|Aeotec|Range Extender (ZW189)|Repeater|Module without functionality except for relaying network information||
+|<img src="../../en_US/zwave/images/881.4.189_zw189.range.extender.7.jpg" width="60" />|Aeotec|Range Extender (ZW189)|Repeater|Module without functionality except for relaying network information|[Documentation](https://help.aeotec.com/support/solutions/articles/6000226827-range-extender-7-user-guide-)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5179-aeotec-repeteur-de-signal-z-wave-700-range-extender-7-1220000016583.html?domid=4&id_campaign=9)|
 
 # Assa abloy
 
@@ -351,7 +351,7 @@
 |<img src="../../en_US/zwave/images/271.256.265_fgd211.universal.dimmer.500w.jpg" width="60" />|Fibaro|FGD-211 Dimmer|Micromodule|This module is replaced in stores by the FGD-212|[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgd211_-_Dimmer)<br/>[Buy](http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html)|
 |<img src="../../en_US/zwave/images/271.256.4106_fgd211.universal.dimmer.500w.jpg" width="60" />|Fibaro|FGD-211 Dimmer|Micromodule|This module is replaced in stores by the FGD-212|[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgd211_-_Dimmer)<br/>[Buy](http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html)|
 |<img src="../../en_US/zwave/images/271.258.4096_fgd212.dimmer.jpg" width="60" />|Fibaro|FGD-212 Dimmer 2|Micromodule|Replaces FGD-211|[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgd212_-_Dimmer2)<br/>[Buy](http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html)|
-|<img src="../../en_US/zwave/images/271.258.4097_fgd212.dimmer.jpg" width="60" />|Fibaro|FGD-212 Dimmer 2|Micromodule|Replaces FGD-211|[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgd212_-_Dimmer2)<br/>[Buy](http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html)|
+|<img src="../../en_US/zwave/images/271.258.4097_fgd212.dimmer.jpg" width="60" />|Fibaro|FGD-212 Dimmer 2|Micromodule, Drive|Replaces FGD-211|[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgd212_-_Dimmer2)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212-5902020528524.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zwave/images/271.258.8192_fgd212.dimmer.jpg" width="60" />|Fibaro|FGD-212 Dimmer 2|Micromodule|Replaces FGD-211|[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgd212_-_Dimmer2)<br/>[Buy](http://www.domadoo.fr/fr/peripheriques/2965-fibaro-micromodule-variateur-z-wave-fgd-212.html)|
 |<img src="../../en_US/zwave/images/271.2816.12289_fgfs101.flood.sensor.jpg" width="60" />|Fibaro|FGFS-101 Flood Sensor|Fuite||[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgfs101_-_FloodSensors)<br/>[Buy](http://www.domadoo.fr/fr/peripheriques/2365-fibaro-detecteur-d-inondation-z-wave-fgfs-101-5902020528142.html)|
 |<img src="../../en_US/zwave/images/271.2816.40448_fgfs101.flood.sensor.jpg" width="60" />|Fibaro|FGFS-101 Flood Sensor|Fuite||[Documentation](https://doc.jeedom.com/en_US/zwave/fibaro.fgfs101_-_FloodSensors)<br/>[Buy](http://www.domadoo.fr/fr/peripheriques/2365-fibaro-detecteur-d-inondation-z-wave-fgfs-101-5902020528142.html)|
@@ -371,7 +371,7 @@
 |<img src="../../en_US/zwave/images/271.4609.4096_fgcd001.co.sensor.jpg" width="60" />|Fibaro|FGCD-001 CO Sensor|Smoke|||
 |<img src="../../en_US/zwave/images/271.4609.4097_fgcd001.co.sensor.jpg" width="60" />|Fibaro|FGCD-001 CO Sensor|Smoke|||
 |<img src="../../en_US/zwave/images/271.4865.4096_fgt001.heat.controller.jpg" width="60" />|Fibaro|FGT-001 HEAT CONTROLLER|Thermostat|||
-|<img src="../../en_US/zwave/images/271.4865.4097_fgt001.heat.controller.jpg" width="60" />|Fibaro|FGT-001 HEAT CONTROLLER|Thermostat|||
+|<img src="../../en_US/zwave/images/271.4865.4097_fgt001.heat.controller.jpg" width="60" />|Fibaro|FGT-001 HEAT CONTROLLER|Thermostat||[Documentation](https://manuals.fibaro.com/heat-controller/)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/4279-fibaro-tete-thermostatique-z-wave-fibaro-heat-controller-5902701701062.html?domid=4&id_campaign=9)|
 ||Fibaro|FGS-221 Double load|Micromodule|This module is replaced in stores by the FGS-222|[Buy](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
 ||Fibaro|FGS-221 Double load|Micromodule|This module is replaced in stores by the FGS-222|[Buy](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
 ||Fibaro|FGS-221 Double load|Micromodule|This module is replaced in stores by the FGS-222|[Buy](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
@@ -387,7 +387,7 @@
 ||Fibaro|FGS-221 Double load|Micromodule|This module is replaced in stores by the FGS-222|[Buy](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
 ||Fibaro|FGS-222 Double charge|Micromodule|Replaces the FGS-221|[Buy](http://www.domadoo.fr/fr/peripheriques/2863-fibaro-micromodule-commutateur-double-z-wave-fgs-222-5902020528289.html)|
 |<img src="../../en_US/zwave/images/271.515.4096_fgs223.double.switch.jpg" width="60" />|Fibaro|FGS-223 Double load|Micromodule|Manual refresh is required on instance 1 (Switch S2) for power recovery and S2 status. Scene notifications are not sent back, they require CC Central Scene support.|[Buy](http://www.domadoo.fr/fr/peripheriques/3728-fibaro-micromodule-commutateur-double-z-wave-fgs-223-5902020528661.html)|
-|<img src="../../en_US/zwave/images/271.516.4096_fgs224.double.switch.jpg" width="60" />|Fibaro|FGS-224 Double charge|Micromodule|||
+|<img src="../../en_US/zwave/images/271.516.4096_fgs224.double.switch.jpg" width="60" />|Fibaro|FGS-224 Double charge|Micromodule, Contactor||[Documentation](https://manuals.fibaro.com/smart-module/)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5189-fibaro-micromodule-commutateur-libre-de-potentiel-double-z-wave-fibaro-smart-module-fgs-224-5902701702090.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zwave/images/271.6145.4096_fgwpg111.uk.wall.plug.jpg" width="60" />|Fibaro|FGWPGE UK Wall Plug Gen5|Prise|||
 |<img src="../../en_US/zwave/images/271.6657.4096_fgwdseu221.walli.switch.jpg" width="60" />|Fibaro|Walli Switch FGWDSEU-221|Micromodule|||
 |<img src="../../en_US/zwave/images/271.6913.4096_fgwdseu221.walli.switch.jpg" width="60" />|Fibaro|Walli Switch FGWDSEU-221|Micromodule|||
@@ -895,12 +895,12 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zwave/images/634.28672.40970_zooz_zen17.png" width="60" />|Zooz|Universal Relay|Relais||[Documentation](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-700-series-z-wave-plus-universal-relay-zen17-ver1.0-manual.pdf)<br/>|
-|<img src="../../en_US/zwave/images/634.28672.57345_zooz_zse41.png" width="60" />|Zooz|XS Open Close Sensor|Opening detector||[Documentation](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-zse41-manual-online.pdf?v=1628275237)<br/>|
-|<img src="../../en_US/zwave/images/634.28672.57346_zooz_zse42.png" width="60" />|Zooz|XS Water Leak Sensor|Fuite||[Documentation](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-xs-water-leak-sensor-zse42-user-manual.pdf?v=1628820692)<br/>|
-|<img src="../../en_US/zwave/images/634.28672.57347_zooz_zse43.png" width="60" />|Zooz|XS Tilt Shock Sensor|Shock,Tilt||[Documentation](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-700-series-tilt-shock-xs-sensor-zse43-manual.pdf?v=1640009785)<br/>|
-|<img src="../../en_US/zwave/images/634.28672.57348_zooz_zse44.png" width="60" />|Zooz|XS Temperature Humidity Sensor|Temperature, Humidity||[Documentation](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-z-wave-plus-700-series-temperature-humidity-xs-sensor-zse44-manual.pdf)<br/>|
-|<img src="../../en_US/zwave/images/634.8225.8449_zooz_ZSE40.png" width="60" />|Zooz|4-in-1 Sensor|Movement, Brightness, Temperature, Humidity||[Documentation](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-zse40-700-manual-online.pdf?v=1633541564)<br/>|
+|<img src="../../en_US/zwave/images/634.28672.40970_zooz_zen17.png" width="60" />|Zooz|Universal Relay|Relais||[Documentation](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-700-series-z-wave-plus-universal-relay-zen17-ver1.0-manual.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/6149-zooz-module-relais-universel-avec-2-sorties-contact-sec-z-wave-700-zen17-853478006179.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zwave/images/634.28672.57345_zooz_zse41.png" width="60" />|Zooz|XS Open Close Sensor|Opening detector||[Documentation](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-zse41-manual-online.pdf?v=1628275237)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/6151-zooz-capteur-d-ouverture-portefenetre-z-wave-700-zse41-853478006414.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zwave/images/634.28672.57346_zooz_zse42.png" width="60" />|Zooz|XS Water Leak Sensor|Fuite||[Documentation](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-xs-water-leak-sensor-zse42-user-manual.pdf?v=1628820692)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/6152-zooz-capteur-de-fuite-d-eau-z-wave-700-zse42-853478006421.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zwave/images/634.28672.57347_zooz_zse43.png" width="60" />|Zooz|XS Tilt Shock Sensor|Shock,Tilt||[Documentation](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-700-series-tilt-shock-xs-sensor-zse43-manual.pdf?v=1640009785)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/6153-zooz-capteur-de-chocinclinaison-z-wave-700-zse43-853478006438.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zwave/images/634.28672.57348_zooz_zse44.png" width="60" />|Zooz|XS Temperature Humidity Sensor|Temperature, Humidity||[Documentation](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-z-wave-plus-700-series-temperature-humidity-xs-sensor-zse44-manual.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/6154-zooz-capteur-de-temperature-et-d-humidite-z-wave-700-zse44-853478006445.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zwave/images/634.8225.8449_zooz_ZSE40.png" width="60" />|Zooz|4-in-1 Sensor|Movement, Brightness, Temperature, Humidity||[Documentation](https://cdn.shopify.com/s/files/1/0218/7704/files/zooz-zse40-700-manual-online.pdf?v=1633541564)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/6150-zooz-capteur-4-en-1-z-wave-700-mouvement-luminosite-temperature-et-humidite-zse40-853478006407.html?domid=4&id_campaign=9)|
 
 # Zwaveme
 
@@ -936,4 +936,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2022-03-28 02:08:05
+2022-03-29 02:08:09
