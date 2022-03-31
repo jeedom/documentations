@@ -12,6 +12,10 @@
 >
 >Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
 
+# 31/03/2022
+
+- Correction d'un soucis empechant le démon de démarrer du à la nouvelle version de zigpy
+
 # 22/03/2022
 
 - Support de nouveau module

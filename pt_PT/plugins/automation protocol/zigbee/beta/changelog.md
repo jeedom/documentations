@@ -12,6 +12,10 @@
 >
 >Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
 
+# 31/03/2022
+
+- Corrigido um problema que impedia o daemon de iniciar devido à nova versão do zigpy
+
 # 22/03/2022
 
 - Suporte ao novo módulo
