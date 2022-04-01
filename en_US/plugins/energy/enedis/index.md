@@ -19,7 +19,7 @@ It is possible to access data from **consumption**, of **production** or to the 
 >    
 >As the data is not made available in real time, the plugin retrieves the electricity consumption data from the day before each day.
 
-As long as the plugin has not retrieved all of the data from the day before, it continues to poll the Enedis servers every hour between 7 a.m. and 8 p.m., otherwise calls are suspended until the next day.
+As long as the plugin has not retrieved all of the data from the day before, it continues to poll the Enedis servers every 30 minutes between 7 a.m. and 8 p.m., otherwise calls are suspended until the next day.
 
 # Configuration
 
@@ -87,7 +87,7 @@ The day, month, year and maximum power data will be integrated from the date cho
 >     
 >The widget template will be displayed on both desktop and mobile versions.
 
-The plugin offers the possibility of displaying consumption and / or production data in a widget template imitating the appearance of a meter *Linky*. The click on the button "**- \| +**" allows to switch from consumption to production for those who have access to 2 types of measures.
+The plugin offers the possibility of displaying consumption and / or production data in a widget template imitating the appearance of a meter *Linky*. The click on the button "**- \| +**" allows to switch from consumption to production for those who have access to 2 types of measures. An indicator also lets you know if the data is up to date or not *(green = all data is up to date, orange = some data is not up to date, red = no data is up to date)*.
 
 ![Widget template](./images/enedis_screenshot1.png)
 
@@ -96,3 +96,13 @@ To activate this option, just check the box **Widget template** on the general p
 >**TRICK**
 >     
 >In desktop version, the information displayed on the widget adapts in size when resizing the tile.
+
+# FAQ
+
+>**I have `Error on enedis json return` errors in the logs yet the data is visible on the Enedis site**
+>
+>It sometimes happens that you have to go directly to the Enedis site in order to validate the latest T & Cs to access the data again. It is also sometimes necessary to replace the Jeedom / Enedis link from the plugin configuration page.
+
+>**I don't have Day / Month / Year data for December 31, 2021**
+>
+>To recover this data just click on the button **Historical additions** of the order **Consumption Day** and select the date of January 1, 2021 as the departure date.  

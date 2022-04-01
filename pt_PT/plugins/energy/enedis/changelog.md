@@ -2,7 +2,11 @@
 
 >**IMPORTANTE**
 >
->Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
+>Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
+
+# 24/01/2022
+
+- Remoção do comando "Produção máxima de energia""
 
 # 05/01/2022
 

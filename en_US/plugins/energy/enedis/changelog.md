@@ -1,10 +1,21 @@
 # Changelog Enedis
 
-# Changelog plugin Enedis
-
 >**Important**
 >
->As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
+>If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
+
+# 01/24/2022
+
+- Removal of the "Maximum Power Production" command"
+
+# 01/05/2022
+
+- Fixed a bug on data collection on January 1st
+- Addition of an indicator on the widget to know if the data is up to date *(green = OK, red = KO, orange = some data KO)*
+
+# 06/03/2021
+
+- Correction to prevent auto-programming from being stopped in rare cases
 
 # 05/18/2021
 
@@ -29,18 +40,23 @@
 - Documentation rewrite
 
 # 09/10/2020
+
 - Fixed a display bug in mobile view without the widget template.
 
 # 06/09/2020
+
 - Addition of the template for dashboard version.
 - Addition of the template for mobile version.
 - Optimization of the number of calls to Enedis servers.
 
 # 08/21/2020
+
 - Retrieval of information at a random minute so as not to overload the Enedis servers.
 
 # 08/17/2020
+
 - Switching to stable.
 
 # 08/12/2020
+
 - Provision of the plugin in beta version.
