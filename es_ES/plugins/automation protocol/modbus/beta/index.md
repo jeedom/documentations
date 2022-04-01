@@ -124,6 +124,7 @@ IMPORTANTE :
 
 Algunos PLC no tienen la función fc06
 Puede crear un comando de acción, en Tipo de mensaje, y elegir fc16
+Compruebe el registro Fc16 no rastreado
 En el tablero, debe usar esta sintaxis :
 registro de salida ! value & nbregisters separados por un |
 

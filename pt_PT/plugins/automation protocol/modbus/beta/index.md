@@ -124,6 +124,7 @@ IMPORTANTE :
 
 Alguns CPs não possuem a função fc06
 Você pode criar um comando de ação, em tipo de mensagem, e escolher fc16
+Verifique o registro Fc16 não rastreado
 No painel, você deve usar esta sintaxe :
 registro de partida ! value & nregisters separados por um |
 

@@ -124,6 +124,7 @@ IMPORTANT :
 
 Certains automates n'ont pas la fonction fc06
 Vous pouvez créér une commande Action, sous type Message, et choisir fc16
+Cocher Fc16 Registre non suivis
 Dans le dashboard, il faut utiliser cette syntaxe :
 registre de depart ! valeur & nbregistres séparé par un |
 

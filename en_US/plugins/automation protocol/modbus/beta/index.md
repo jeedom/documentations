@@ -124,6 +124,7 @@ IMPORTANT :
 
 Some PLCs do not have the fc06 function
 You can create an Action command, under Message type, and choose fc16
+Check Fc16 Register Not Tracked
 In the dashboard, you must use this syntax :
 departure register ! value & nbregisters separated by a |
 

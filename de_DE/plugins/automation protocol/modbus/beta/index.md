@@ -124,6 +124,7 @@ WICHTIG :
 
 Einige SPS haben die Funktion fc06 nicht
 Sie können unter Nachrichtentyp einen Aktionsbefehl erstellen und fc16 auswählen
+Überprüfen Sie das Fc16-Register nicht verfolgt
 Im Dashboard müssen Sie diese Syntax verwenden :
 Abgangsregister ! Wert & nbRegister durch a getrennt |
 
