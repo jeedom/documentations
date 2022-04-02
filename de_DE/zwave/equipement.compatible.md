@@ -40,7 +40,7 @@
 |<img src="../../de_DE/zwave/images/134.258.120_zw120_door.window.sensor.gen5.jpg" width="60" />|Aeotec|Tür- / Fenstersensor Gen5 (ZW120)|Ouverture|||
 |<img src="../../de_DE/zwave/images/134.258.122_zw122_water.sensor6.jpg" width="60" />|Aeotec|Wassersensor 6 (ZW122)|Fuite|||
 |<img src="../../de_DE/zwave/images/134.258.129_zw129_wallmote.duo.jpg" width="60" />|Aeotec|WallMote Duo (ZW129)|Fernbedienung|Teilweise kompatibel: Funktioniert nur in direkter Verbindung ||
-|<img src="../../de_DE/zwave/images/134.258.130_zw130_wallmote.quad.jpg" width="60" />|Aeotec|WallMote Quad (ZW130)|Fernbedienung|Teilweise kompatibel: Funktioniert nur in direkter Verbindung ||
+|<img src="../../de_DE/zwave/images/134.258.130_zw130_wallmote.quad.jpg" width="60" />|Aeotec|WallMote Quad (ZW130)|Fernbedienung|Teilweise kompatibel: Funktioniert nur in direkter Verbindung |[Kaufen](https://www.domadoo.fr/fr/peripheriques/3859-aeotec-interrupteur-sans-fil-wallmote-4-boutons-z-wave-1220000014503.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zwave/images/134.258.89_zw089_recessed.door.sensor.jpg" width="60" />|Aeotec|Einbautürsensor Gen5 (ZW089)|Ouverture||[Kaufen](http://www.domadoo.fr/fr/peripheriques/2680-aeon-labs-capteur-d-ouverture-de-porte-a-encastrer-z-wave-plus-gen5-1220000012721.html)|
 ||Aeotec|Hausenergiezähler Gen5 (ZW095)|Consommation|||
 ||Aeotec|Hausenergiezähler Gen5 (ZW095)|Consommation|||
@@ -936,4 +936,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-01.04.2022 02:08:15
+02.04.2022 02:08:14
