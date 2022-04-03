@@ -945,4 +945,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-02.04.2022 02:32:07
+2022-04-03 02:32:14
