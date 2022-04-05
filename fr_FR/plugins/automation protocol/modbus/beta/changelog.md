@@ -11,3 +11,8 @@
 # 14/02/2022
 
 - Fonction Fc16 pour automates sans Fc6
+
+# 04/04/2022
+
+- Fix pour unitID
+- Nouveau champ par commande pour Operation de calculValueOffset

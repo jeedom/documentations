@@ -48,6 +48,18 @@ Parameterdetails :
 
 
 
+BERECHNUNGSVORGANG AUF BESTELLUNGEN :
+
+- Auf jeder Bestellung befindet sich ein Vorgangsfeld: Dadurch können Sie eine Berechnungsoperation für den nach der Konvertierung in JEEDOM_SOCKET_MESSAGE zurückgegebenen Wert ausführen
+
+Es funktioniert mit den Operatoren /, *, +
+
+Exemple:  Wenn Sie die Zeile /10 eingeben, wird der vom Befehl zurückgegebene Wert genau durch 10 geteilt
+
+IMPORTANT: Setzen Sie kein Leerzeichen zwischen den Operator und den Koeffizienten
+
+
+
 
 WIEDERGABESTEUERUNG :
 

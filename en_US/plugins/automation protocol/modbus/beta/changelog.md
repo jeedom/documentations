@@ -11,3 +11,8 @@
 # 02/14/2022
 
 - Fc16 function for PLCs without Fc6
+
+# 04/04/2022
+
+- Fix for unitID
+- New field per command for Calculation OperationValueOffset
