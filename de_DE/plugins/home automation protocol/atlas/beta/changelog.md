@@ -5,6 +5,11 @@
 >**WICHTIG**
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
+
+# 13.04.2022
+
+- Rechtschreibung und Übersetzungen
+
 # 08.10.2021
 
 - DHCP auf Wifi-Hotspot.
@@ -12,15 +17,15 @@
 # 10.06.2021
 
 - WLAN-Hotspot (Beta) hinzugefügt;
-- Bugfix zur ETH-Sicherheit.
+- Fehler in der ETH-Sicherheit behoben.
 
 # 10.04.2021
 
-- Sicherheit für die Belange des Anschlusses an das Ethernet, das keine IP benötigt (Änderung in Basis 100M / TX).
+- Sicherheit für Bedenken im Zusammenhang mit Ethernet, das kein IP akzeptiert (Modifikation in Basis 100M/TX).
 
 # 30.09.2021
 
-- Ergänzung der Teilerstellung eines Wiederherstellungs-USB-Schlüssels für den Atlas.
+- Erstellung eines Wiederherstellungs-USB-Schlüssels hinzugefügt.
 
 # 16.09.2021
 
