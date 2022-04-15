@@ -10,7 +10,7 @@
 
 - Ortografia e traduções
 
-# 10/08/2021
+# 13/04/2021
 
 - Dhcp em Wifi Hotspot.
 

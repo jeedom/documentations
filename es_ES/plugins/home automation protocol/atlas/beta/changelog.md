@@ -10,7 +10,7 @@
 
 - Ortografía y traducciones
 
-# 10/08/2021
+# 13/04/2021
 
 - DHCP en punto de acceso Wifi.
 
