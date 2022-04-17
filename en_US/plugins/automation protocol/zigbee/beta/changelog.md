@@ -12,6 +12,9 @@
 >
 >To take advantage of the latest module integration, don't hesitate to update the dependencies
 
+- Bug fix
+- New module support 
+
 # 03/31/2022
 
 - Fixed an issue preventing the daemon from starting due to the new version of zigpy

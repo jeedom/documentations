@@ -12,6 +12,9 @@
 >
 >Para aprovechar la última integración del módulo, no dude en actualizar las dependencias
 
+- Arreglo del fallo
+- Nuevo módulo de soporte 
+
 # 31/03/2022
 
 - Se solucionó un problema que impedía que el demonio se iniciara debido a la nueva versión de zigpy

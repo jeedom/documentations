@@ -12,6 +12,9 @@
 >
 >Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
 
+- Fehlerbehebung
+- Neue Modulunterstützung 
+
 # 31.03.2022
 
 - Es wurde ein Problem behoben, das den Start des Daemons aufgrund der neuen Version von zigpy verhinderte
