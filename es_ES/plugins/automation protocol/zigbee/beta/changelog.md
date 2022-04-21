@@ -14,6 +14,8 @@
 
 - Arreglo del fallo
 - Nuevo módulo de soporte 
+- Se corrigió un error al agregar un módulo a un grupo
+- Se agregó la zona horaria de envío al enviar el tiempo a los módulos
 
 # 31/03/2022
 

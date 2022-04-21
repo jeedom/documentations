@@ -14,6 +14,8 @@
 
 - Correction de bug
 - Support de nouveau module 
+- Correction d'un bug sur l'ajout d'un module à un groupe
+- Ajout de l'envoi de la timezone lors de l'envoi de l'heure aux modules
 
 # 31/03/2022
 

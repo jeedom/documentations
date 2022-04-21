@@ -14,6 +14,8 @@
 
 - Fehlerbehebung
 - Neue Modulunterstützung 
+- Fehler beim Hinzufügen eines Moduls zu einer Gruppe behoben
+- Sendezeitzone hinzugefügt, wenn Zeit an Module gesendet wird
 
 # 31.03.2022
 

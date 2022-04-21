@@ -14,6 +14,8 @@
 
 - Correção de bug
 - Suporte ao novo módulo 
+- Corrigido um bug ao adicionar um módulo a um grupo
+- Adicionado fuso horário de envio ao enviar tempo para módulos
 
 # 31/03/2022
 
