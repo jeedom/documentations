@@ -2,10 +2,26 @@
 
 >**IMPORTANTE**
 >
->Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+>Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas da atualização de documentação, tradução ou texto.
 
+# 01/07/2022
 
-- Possibilidade de colocar etiquetas para as diferentes condições (opcional, mas permite executar um cenário após um posicionamento do obturador, por exemplo)
+- Reescrever registros e otimizar código
+- Modernização da interface
+- Atualização de documentação
+
+# 14/01/2021
+
+- Otimização de código
+
+# 24/11/2020
+
+- Nova apresentação da lista de objetos
+- Adição da tag "compatibilidade V4"
+
+# 28/07/2020
+
+- Possibilidade de colocar rótulos para as diferentes condições *(opcional, mas permite a execução de um cenário após o posicionamento do obturador, por exemplo)*
 
 # 05/11/2020
 
@@ -22,10 +38,10 @@
 # 26/08/2019
 
 - Correções de bugs
-- Atualizando o documento
-- Exibição de caixa de seleção fixa
+- Atualização de documentação
+- Exibição fixa de caixas de seleção
 
 # 12/08/2019
 
 - Correções de bugs
-- Atualizando o documento
+- Atualização de documentação

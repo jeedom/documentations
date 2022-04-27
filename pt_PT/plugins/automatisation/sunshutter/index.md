@@ -1,98 +1,132 @@
 # Plug-in de Gerenciamento de Obturador
 
-Este plugin permite que você gerencie mais facilmente a posição de suas persianas de acordo com a posição do sol. Este plugin é completamente sem nuvens
+O plugin **Gestão de persianas** irá permitir-lhe gerir facilmente o posicionamento automático das suas persianas de acordo com a elevação e azimute do sol e / ou outras condições à sua escolha. Todos os cálculos são realizados diretamente pelo plugin, sem a necessidade de conexão com a internet.
 
-Você pode encontrar [aqui](https://www.jeedom.com/blog/?p=4310) um artigo mostrando um exemplo de configuração do plug-in
+Bem entendido, este plugin é capaz de substituir todos os cenários relativos à abertura, fechamento ou posicionamento de suas venezianas. Você pode encontrar um exemplo de uso lendo [este artigo de blog escrito por Loïc](https://www.jeedom.com/blog/?p=4310){:target = "\_ em branco"}.
 
-# Configuração de plugins
-
-Nada de especial aqui apenas para instalar e ativar o plugin
-
-## Como funciona ?
-
-O plug-in ajustará a posição das persianas em relação às posições do sol (azimute e altitude), dependendo da condição.
-
-# Configuração das persianas
-
-A configuração é dividida em várias guias.
-
-## Equipement
-
-Você encontrará na primeira aba toda a configuração do seu equipamento :
-
-- Nome de equipamentos : nome do seu equipamento de simulação,
-- Objeto pai : indica o objeto pai ao qual o equipamento pertence,
-- Ativar : torna seu equipamento ativo,
-- Visivél : torna seu equipamento visível no painel.
-
-
-## Configuration
-
-### Configuration
-
-- Verificação : frequência de verificação das condições e posição dos flaps
-- Recuperar o controle : proíbe que o sistema de gerenciamento de obturador mude de posição se tiver sido movido manualmente. Exemplo: o sistema fecha o obturador, você o abre e não toca mais até que o comando "Reiniciar gerenciamento" seja acionado ou se o tempo de recuperação tiver passado
-- Latitude : a latitude do seu obturador / casa
-- Longitude : a longitude do seu obturador / casa
-- Altitude : a altura do seu obturador / casa
-- Estado do obturador : comando indicando a posição atual do retalho
-- Posição do obturador : controle para posicionar a aba
-- Atualizar posição do obturador (opcional) : comando para atualizar a posição do obturador
-- Tempo máximo para uma viagem : tempo para fazer um movimento completo (de cima para baixo ou de baixo para cima), em segundos
-
-## Condition
-
-- Condição para ação : se essa condição não for verdadeira, o plug-in não modificará a posição do obturador
-- A alteração de modo cancela suspensões pendentes : se marcada, uma mudança de modo do obturador retorna ao gerenciamento automático
-- Ações imediatas são sistemáticas e prioritárias : se marcado, ações imediatas são executadas, mesmo que suspensas e sem levar em conta a ordem das condições
-
-A tabela de condições permite especificar condições de posicionamento específicas, que são mantidas na tabela de posição da aba :
-- Posição : se a condição for verdadeira, a posição dos retalhos
-- Modo : a condição só funciona se o obturador estiver neste modo (você pode colocar vários ,). Se este campo não for preenchido, a condição será testada independentemente do modo
 >**IMPORTANTE**
 >
->Estamos falando do modo do obturador aqui. NÃO É NADA A VER COM o plugin do modo
-- Ação imediata : age imediatamente assim que a condição for verdadeira (portanto, não espere pela verificação cron)
-- Suspender : se a condição for verdadeira, suspende o gerenciamento automático do obturador
-- Condição : sua condição
-- COMMENTAIRE : campos livres para comentários
+>O plugin **Gestão de persianas** só funciona com equipamentos que tenham **um comando de ação / cursor** permitindo a **posicionar o obturador em uma certa porcentagem de abertura / fechamento**. Se o seu obturador só funciona ao abrir / fechar, o plugin não será utilizável.
 
-## Positionnement
+# Configuration
 
-- % de abertura : a% quando o obturador está aberto
-- % de fechamento : a% quando o obturador é fechado
-- Ação padrão : a ação padrão se nenhuma condição e posição forem válidas
+O plugin **Gestão de persianas** só precisa ser habilitado após a instalação e não requer configuração adicional.
 
-É aqui que você poderá gerenciar o posicionamento do obturador de acordo com a posição do sol.
+## Configuração das persianas
 
-- Azimute : ângulo de posição do sol
-- Elevação : ângulo de altura do sol
-- Posição : posição do obturador para tirar se o sol estiver nos limites de azimute e elevação
-- Condição : condição adicional a satisfazer para que o obturador tome esta posição (pode estar vazio)
-- COMMENTAIRE : campos livres para comentários
+Para acessar os diversos equipamentos da **Gestão de persianas**, você tem que ir ao menu **Plugins → Automação → Gerenciamento de persianas**.
+
+>**EM FORMAÇÃO**
+>    
+>O botão **acrescentar** permite que você adicione um novo obturador para automatizar.
+
+Toda a configuração de automação para cada componente é realizada a partir da primeira aba do equipamento :
+
+- **Nome do componente** : Nome de equipamentos.
+- **Objeto pai** : Indica o objeto pai ao qual o equipamento pertence.
+- **Categoria** : Permite que você escolha a categoria do equipamento.
+- **Opções** :
+    - **Ativar** : Usado para tornar o equipamento ativo.
+    - **Visivél** : Tornar o equipamento visível.
+
+Abaixo, poderemos configurar o próprio mecanismo de gerenciamento automático :
+
+- **Condição para verificação** : Condição a ser cumprida para que o gerenciamento automático seja ativado, se esta condição não for verdadeira o plugin não irá modificar a posição do painel *(vazio por padrão = sempre ativo)*.
+- **Frequência de verificação** : Frequência de verificação de exceções e condições de posicionamento.
+- **Recuperar o controle** : Autorizar ou não o sistema de gerenciamento automático a modificar a posição da veneziana caso tenha sido operada manualmente.
+>*Exemplo : o sistema fecha o obturador e você abre manualmente alguns minutos depois, então o gerenciamento automático só será feito se **Recuperar o controle** está em "**Sim**" ou que o tempo de recuperação já passou ou que o pedido **Assumir a gestão** é acionado.*
+
+- **Retomar na mudança de modo** : Marque a caixa para retomar o gerenciamento automático no caso de uma mudança de modo.
+- **Ação imediata prioritária** : Marque a caixa para que as exceções de ação imediata sejam executadas independentemente de outras condições, mesmo se suspensas.
+
+>**IMPORTANTE**
+>
+>Os "modos" mencionados aqui estão relacionados aos modos definidos na guia **Comandos** de cada equipamento de plugin **Gestão de persianas** e não se referem a nenhum modo de plugin **Modo**.
+
+Posteriormente será necessário indicar as coordenadas do edifício para poder calcular a posição do sol :
+
+- **Use a configuração geral** : Marque a caixa para usar os detalhes de contato inseridos na configuração geral do Jeedom.
+
+ou
+
+- **Latitude** : A latitude do edifício ou veneziana.
+- **Longitude** : A longitude do edifício ou veneziana.
+- **Altitude** : A altitude do edifício ou veneziana.
+
+Por fim, resta preencher as informações relativas ao controle da veneziana :
+
+- **Porcentagens de fechamento / abertura** : Indique a porcentagem mínima de fechamento *(geralmente 0)* e abertura máxima *(geralmente 99 ou 100)*.
+- **Duração de uma viagem** : Tempo máximo em segundos para realizar um movimento completo de abertura ou fechamento.
+- **Comando de status** : Preencha o comando info / numérico indicando a posição atual do obturador.
+- **Controle de posicionamento** : Preencha o comando de ação / cursor usado para posicionar o obturador.
+- **Comando de atualização** : Preencha o comando de ação para atualizar a posição do obturador *(facultatif)*.
+- **Ação padrão** : Ação que será executada por padrão se nenhuma exceção ou posição for válida.
+
+![Configuração](../images/sunshutter_eqLogicConfig.png)
+
+# Exceptions
+
+Esta página permitirá que você defina regras específicas que serão uma exceção às condições relativas à posição do sol na página seguinte. As regras são verificadas uma após a outra, o mecanismo de gerenciamento automático para na primeira regra válida e coloca a veneziana na posição indicada.
+
+- **Condição** : A condição a ser cumprida para que a regra seja válida *(facultatif)*.
+- **Modo** : Se inserida, a condição só será válida se o obturador estiver atualmente no modo especificado. É possível especificar vários modos, separando-os com vírgulas *(facultatif)*.
+- **Exceção imediata** : Marque a caixa para que a regra seja executada imediatamente assim que a condição for válida.
+- **Suspender** : Marque a caixa para suspender o gerenciamento automático enquanto a regra for válida.
+- **Posição** : A posição desejada em porcentagem se a regra for válida *(vazio = nenhuma ação)*.
+- **Etiqueta** : Rótulo associado à validação da regra de exceção *(facultatif)*.
+
+![Exceções](../images/sunshutter_exceptions.png)
+
+# Positionnement
+
+É nesta guia que você poderá gerenciar o posicionamento do obturador automaticamente de acordo com a posição do sol.
+
+- **Condição** : Condição, complementar à posição, a ser cumprida para que o posicionamento da veneziana seja validado *(facultatif)*.
+- **Azimute** : Preencha os limites de azimute do sol em graus entre os quais a condição será válida.
+- **Elevação** : Preencha os limites de elevação do sol em graus entre os quais a condição será válida.
+- **Posição** : A posição desejada em porcentagem se as condições de posicionamento (e adicionais, se aplicável) forem válidas.
+- **Etiqueta** : Rótulo associado à validação da condição de posicionamento *(facultatif)*.
+
+![Conditions](../images/sunshutter_conditions.png)
 
 >**DICA**
 >
->Pequena dica do site [suncalc.org](https://www.suncalc.org) que permite, assim que o seu endereço digitado, ver a posição do sol (e, portanto, os ângulos de azimute e elevação) de acordo com as horas do dia (basta arrastar o pequeno sol no topo)
+>O site [suncalc.org](https://www.suncalc.org){:target = "\_ blank"} permite, uma vez inserido o seu endereço, visualizar a posição do sol e os ângulos de azimute e elevação de acordo com as horas do dia *(apenas arraste o pequeno sol para cima)*.
 
-## Planning
+# Programmation
 
-Aqui você pode ver os planos de posicionamento da persiana feitos no planejamento da Agenda
+Esta guia só aparece se o plugin **Agenda** está instalado no seu Jeedom. Ele lista a programação do plugin **Agenda** agindo no gerenciamento automático deste componente para, por exemplo, planejar uma suspensão e uma retomada manual durante as horas de cochilo da criança.
 
-## Commandes
+# Commandes
 
-- Azimute do sol : ângulo atual do azimute do sol
-- Nascer do sol : ângulo de elevação atual do sol
-- Executar ação : força a posição do obturador a ser calculada em função da posição do sol e das condições e aplica o resultado a ele, qualquer que seja o estado de gerenciamento (pausado ou não)
-- Última posição : última posição solicitada do obturador pelo plugin
-- Status de gerenciamento : status de gerenciamento (suspenso ou não)
-- Resumo : forçar o retorno ao modo de gerenciamento automático (observe que este comando deve ser iniciado para retornar ao gerenciamento automático se você tiver alterado a posição do obturador manualmente e marcado a caixa "Não recuperar o controle"")
-- Suspender : suspende o posicionamento automático do obturador
-- Legal : atualize os valores dos comandos "Sun azimuth" e "Sun elevation""
-- Modo : modo de obturador atual
+Esta última aba dá acesso à lista de comandos e permite definir / deletar modos de gerenciamento automático da veneziana :
 
-Você pode adicionar comandos "mode", o nome do comando será o nome do modo.
+- **Azimute do sol** : Ângulo de azimute atual do sol.
+- **Nascer do sol** : ângulo de elevação atual do sol.
+- **Legal** : Forçar atualização de pedidos **Azimute do sol** e **Nascer do sol**.
+>É claro que é possível usar os valores dos comandos **Sol de azimute** e **Nascer do sol** em outro lugar em Jeedom.
+
+- **Status de gerenciamento** : Estado atual de gerenciamento automático em binário *(0 = suspenso / 1 = ativo)*.
+- **Forçar ação** : Force o cálculo da posição do obturador de acordo com a posição do sol e as exceções e aplique o posicionamento independentemente do estado do gerenciamento automático *(suspenso ou não)*.
+- **Última posição** : última posição solicitada do obturador pelo plugin.
+- **Etiqueta** : Rótulo correspondente a uma exceção ou condição de posicionamento válida.
+- **Suspender** : Suspende o gerenciamento do obturador automático.
+- **Suspender (etiqueta)** : Status atual da suspensão do gerenciamento automático do obturador *(Nenhum / Manual / Auto)*.
+- **Resumo** : Forçar o reinício do gerenciamento automático.
+>Este é o comando que deve ser executado para voltar ao gerenciamento automático se você tiver alterado a posição da sua veneziana manualmente e configurada **Recuperar o controle** no "**Não**".
+
+- **Modo** : Modo de obturador atual.
+
+O botão azul **Adicionar um modo** permite- lhe adicionar um novo comando de acção cujo nome corresponderá ao novo modo actual a partir do momento em que for executado.
+
+>**DICA**
+>
+>Você pode, por exemplo, definir um modo **Dia** e um modo **Noite** e ajustar a abertura e fechamento do seu obturador de acordo com estes 2 modos.
+
+# Santé
+
+O plugin **Gestão de persianas** tem uma janela **Saúde**, na página de equipamentos gerais, que permite visualizar rapidamente as configurações de cada gerenciamento automático.
 
 # Panel
 
-O plug-in possui um painel de gerenciamento móvel e de área de trabalho para ativá-lo, basta acessar Plugins -> Gerenciamento de plug-ins, clicar no plug-in de gerenciamento de painel e no canto inferior direito de marcar as caixas para exibir o painel computador e celular
+O plugin também possui um painel de gerenciamento disponível na versão desktop e móvel. Para ativá-lo, basta ir para **Plugins → Gerenciamento de Plugins**, clique no plugin **Gestão de persianas** e marque as caixas para exibir os painéis no canto inferior direito.

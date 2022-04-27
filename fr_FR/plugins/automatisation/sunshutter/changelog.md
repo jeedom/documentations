@@ -2,7 +2,17 @@
 
 >**IMPORTANT**
 >
->Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+>Pour rappel, s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+
+# 07/01/2022
+
+- Réécriture des logs et optimisation du code
+- Modernisation de l'interface
+- Mise à jour de la documentation
+
+# 14/01/2021
+
+- Optimisation du code
 
 # 24/11/2020
 
@@ -11,7 +21,7 @@
 
 # 28/07/2020
 
-- Possibilité de mettre des labels pour les différentes conditions (faculatif mais permet d'executer un scénario suite à un positionnement du volet par exemple)
+- Possibilité de mettre des labels pour les différentes conditions *(faculatif mais permet d'executer un scénario suite à un positionnement du volet par exemple)*
 
 # 11/05/2020
 
@@ -28,10 +38,10 @@
 # 26/08/2019
 
 - Correction de bugs
-- Mise à jour de la doc
-- Correction de l'affichage des checkbox
+- Mise à jour de la documentation
+- Correction de l'affichage des cases à cocher
 
 # 12/08/2019
 
 - Correction de bugs
-- Mise à jour de la doc
+- Mise à jour de la documentation

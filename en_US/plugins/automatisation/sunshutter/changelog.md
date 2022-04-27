@@ -2,10 +2,26 @@
 
 >**Important**
 >
->As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
+>As a reminder, if there is no information on the update, it is because it concerns only the updating of documentation, translation or text.
 
+# 01/07/2022
 
-- Possibility to put labels for the different conditions (optional but allows to execute a scenario following a positioning of the shutter for example)
+- Rewriting logs and optimizing code
+- Modernization of the interface
+- Documentation update
+
+# 01/14/2021
+
+- Code optimization
+
+# 24/11/2020
+
+- New presentation of the list of objects
+- Addition of the tag "V4 compatibility"
+
+# 07/28/2020
+
+- Possibility to put labels for the different conditions *(optional but allows to execute a scenario following positioning of the shutter for example)*
 
 # 05/11/2020
 
@@ -22,10 +38,10 @@
 # 08/26/2019
 
 - Bugfix
-- Updating the doc
-- Fixed checkbox display
+- Documentation update
+- Fixed display of checkboxes
 
 # 08/12/2019
 
 - Bugfix
-- Updating the doc
+- Documentation update

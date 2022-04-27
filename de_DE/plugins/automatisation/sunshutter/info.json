@@ -2,11 +2,16 @@
     "id": "sunshutter",
     "name": "Gestion Volets",
     "description": {
-        "fr_FR": "Plugin permettant de gérer l'ouverture\/fermeture des volets en fonction du soleil et d'autres conditions. IMPORTANT : ce plugin ne fonctionne pas avec des volets tout ou rien, il faut ABSOLUMENT des volets avec réglages proportionnels (%).",
-        "en_US": "Plugin to manage the opening \/ closing of shutters depending on the sun and other conditions. IMPORTANT this plugin does not work with all or nothing shutters it is ABSOLUTELY necessary shutters with proportional adjustment (%)",
-        "es_ES": "Complemento para gestionar la apertura \/ cierre de persianas en función del sol y otras condiciones. IMPORTANTE: este complemento no funciona con todos o nada de los obturadores, es ABSOLUTAMENTE necesario obturadores con ajuste proporcional (%)",
-        "de_DE": "Plugin zum Verwalten des Öffnens \/ Schließens von Rollläden in Abhängigkeit von der Sonne und anderen Bedingungen. WICHTIG Dieses Plugin funktioniert nicht mit allen oder nichts Rollläden. Es sind ABSOLUT notwendige Rollläden mit proportionaler Einstellung (%)",
-        "pt_PT": "Plugin para gerenciar a abertura \/ fechamento de persianas, dependendo do sol e de outras condições. IMPORTANTE, este plugin não funciona com persianas com tudo ou nada; é absolutamente necessário persianas com ajuste proporcional (%)"
+        "fr_FR": "Ce plugin va vous permettre de gérer facilement le positionnement automatique de vos volets en fonction du soleil et\/ou d'autres conditions. IMPORTANT : ce plugin ne fonctionne qu'avec des équipements possédant une commande action\/curseur permettant de positionner le volet à un certain pourcentage d'ouverture\/fermeture.",
+        "en_US": "This plugin will allow you to easily manage the automatic positioning of your shutters according to the sun and \/ or other conditions. IMPORTANT: this plugin only works with equipment having an action \/ cursor control allowing the shutter to be positioned at a certain opening \/ closing percentage",
+        "es_ES": "Este complemento le permitirá administrar fácilmente el posicionamiento automático de sus persianas según el sol y \/ u otras condiciones. IMPORTANTE: este complemento solo funciona con equipos que tienen un control de acción \/ cursor que permite colocar la persiana en un cierto porcentaje de apertura \/ cierre",
+        "de_DE": "Mit diesem Plugin können Sie die automatische Positionierung Ihrer Rollläden entsprechend der Sonne und \/ oder anderen Bedingungen einfach verwalten. WICHTIG: Dieses Plugin funktioniert nur mit Geräten mit einer Aktions-\/Cursorsteuerung, die es ermöglicht, den Rollladen bei einem bestimmten Öffnungs- \/ Schließprozentsatz zu positionieren",
+        "pt_PT": "Este plugin permite-lhe gerir facilmente o posicionamento automático das suas persianas de acordo com o sol e \/ ou outras condições. IMPORTANTE: este plugin só funciona com equipamentos que possuam um controle de ação \/ cursor permitindo que a veneziana seja posicionada em uma determinada porcentagem de abertura \/ fechamento",
+        "ru_RU": "Ce plugin va vous permettre de gérer facilement le positionnement automatique de vos volets en fonction du soleil et\/ou d'autres conditions. IMPORTANT : ce plugin ne fonctionne qu'avec des équipements possédant une commande action\/curseur permettant de positionner le volet à un certain pourcentage d'ouverture\/fermeture",
+        "id_ID": "Ce plugin va vous permettre de gérer facilement le positionnement automatique de vos volets en fonction du soleil et\/ou d'autres conditions. IMPORTANT : ce plugin ne fonctionne qu'avec des équipements possédant une commande action\/curseur permettant de positionner le volet à un certain pourcentage d'ouverture\/fermeture",
+        "it_IT": "Ce plugin va vous permettre de gérer facilement le positionnement automatique de vos volets en fonction du soleil et\/ou d'autres conditions. IMPORTANT : ce plugin ne fonctionne qu'avec des équipements possédant une commande action\/curseur permettant de positionner le volet à un certain pourcentage d'ouverture\/fermeture",
+        "ja_JP": "Ce plugin va vous permettre de gérer facilement le positionnement automatique de vos volets en fonction du soleil et\/ou d'autres conditions. IMPORTANT : ce plugin ne fonctionne qu'avec des équipements possédant une commande action\/curseur permettant de positionner le volet à un certain pourcentage d'ouverture\/fermeture",
+        "tr": "Ce plugin va vous permettre de gérer facilement le positionnement automatique de vos volets en fonction du soleil et\/ou d'autres conditions. IMPORTANT : ce plugin ne fonctionne qu'avec des équipements possédant une commande action\/curseur permettant de positionner le volet à un certain pourcentage d'ouverture\/fermeture"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -16,16 +21,24 @@
     "hasDependency": false,
     "hasOwnDeamon": false,
     "maxDependancyInstallTime": 0,
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automatisation\/sunshutter\/beta\/changelog",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automatisation\/sunshutter\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automatisation\/sunshutter\/beta",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automatisation\/sunshutter\/",
     "language": [
         "fr_FR",
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
+        "atlas",
         "miniplus",
         "smart",
         "rpi",

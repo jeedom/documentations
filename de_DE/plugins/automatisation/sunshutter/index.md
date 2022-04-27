@@ -1,98 +1,132 @@
 # Shutter Management Plugin
 
-Mit diesem Plugin können Sie die Position Ihrer Fensterläden einfacher entsprechend der Sonnenposition verwalten. Dieses Plugin ist komplett wolkenlos
+Das Plugin **Verwaltung von Rollläden** ermöglicht es Ihnen, die automatische Positionierung Ihrer Rollläden entsprechend der Höhe und dem Azimut der Sonne und / oder anderen Bedingungen Ihrer Wahl zu verwalten. Alle Berechnungen werden direkt vom Plugin durchgeführt, ohne dass eine Internetverbindung erforderlich ist.
 
-Sie können finden [hier](https://www.jeedom.com/blog/?p=4310) Ein Artikel mit einer Beispielkonfiguration des Plugins
+Gut verstanden, kann dieses Plugin alle Szenarien zum Öffnen, Schließen oder Positionieren Ihrer Rollläden ersetzen. Ein Anwendungsbeispiel finden Sie unter [dieser Blogartikel von Loïc](https://www.jeedom.com/blog/?p=4310){:Ziel = "\_ leer"}.
 
-# Plugins Konfiguration
-
-Hier gibt es nichts Besonderes, nur um das Plugin zu installieren und zu aktivieren
-
-## Wie es funktioniert ?
-
-Das Plugin passt die Position Ihrer Fensterläden relativ zu den Sonnenpositionen (Azimut und Höhe) je nach Zustand an.
-
-# Konfiguration der Rollläden
-
-Die Konfiguration ist in mehrere Registerkarten unterteilt.
-
-## Equipement
-
-Auf der ersten Registerkarte finden Sie die gesamte Konfiguration Ihrer Geräte :
-
-- Name der Ausrüstung : Name Ihrer Simulationsausrüstung,
-- Übergeordnetes Objekt : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
-- Aktivieren : macht Ihre Ausrüstung aktiv,
-- Sichtbar : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar.
-
-
-## Configuration
-
-### Configuration
-
-- Überprüfung : Häufigkeit der Überprüfung der Bedingungen und Position der Klappen
-- Gewinnen Sie die Kontrolle zurück : verhindert, dass das Verschlussmanagementsystem seine Position ändert, wenn es manuell bewegt wurde. Beispiel: Das System schließt den Verschluss. Wenn Sie ihn öffnen, wird er nicht mehr berührt, bis der Befehl "Verwaltung fortsetzen" ausgelöst wird oder wenn die Wiederherstellungszeit abgelaufen ist
-- Breite : der Breitengrad Ihres Verschlusses / Hauses
-- Länge : die Länge Ihres Verschlusses / Hauses
-- Höhe : die Höhe Ihres Verschlusses / Hauses
-- Verschlusszustand : Befehl zur Anzeige der aktuellen Position der Klappe
-- Verschlussposition : Steuerung zum Positionieren der Klappe
-- Verschlussposition aktualisieren (optional) : Befehl zum Aktualisieren der Position des Verschlusses
-- Maximale Zeit für eine Reise : Zeit für eine vollständige Bewegung (von oben nach unten oder von unten nach oben) in Sekunden
-
-## Condition
-
-- Handlungsbedingung : Wenn diese Bedingung nicht erfüllt ist, ändert das Plugin die Position des Verschlusses nicht
-- Der Moduswechsel bricht ausstehende Suspensionen ab : Wenn diese Option aktiviert ist, wird der Verschluss durch eine Änderung des Modus wieder automatisch verwaltet
-- Sofortmaßnahmen sind systematisch und vorrangig : Wenn diese Option aktiviert ist, werden sofortige Aktionen ausgeführt, auch wenn sie ausgesetzt sind und die Reihenfolge der Bedingungen nicht berücksichtigt wird
-
-In der Bedingungstabelle können Sie bestimmte Positionierungsbedingungen angeben, die die Klappenpositionstabelle erfassen :
-- Position : Wenn die Bedingung erfüllt ist, die Position der Klappen
-- Modus : Die Bedingung funktioniert nur, wenn sich der Verschluss in diesem Modus befindet (Sie können mehrere durch trennen ,). Wenn dieses Feld nicht ausgefüllt ist, wird die Bedingung unabhängig vom Modus getestet
 >**Wichtig**
 >
->Wir sprechen hier über den Verschlussmodus. Mit dem Modus-Plugin ist nichts zu sehen
-- Sofortige Aktion : Wirkt sofort, sobald die Bedingung erfüllt ist (warten Sie also nicht auf die Überprüfung)
-- Anhalten : Wenn die Bedingung erfüllt ist, wird die automatische Verwaltung des Verschlusses unterbrochen
-- Zustand : Ihr Zustand
-- Kommentar : freie Felder für Kommentare
+>Das Plugin **Verwaltung von Rollläden** funktioniert nur mit Geräten, die **ein Aktions-/Cursor-Befehl** erlauben **Positionieren Sie den Rollladen auf einen bestimmten Öffnungs- / Schließprozentsatz**. Wenn Ihr Rollladen nur beim Öffnen / Schließen funktioniert, ist das Plugin nicht verwendbar.
 
-## Positionnement
+# Configuration
 
-- % Öffnung : die%, wenn der Verschluss geöffnet ist
-- % schließen : die%, wenn der Verschluss geschlossen ist
-- Standardaktion : Die Standardaktion, wenn keine Bedingung und Position gültig ist
+Das Plugin **Verwaltung von Rollläden** muss nach der Installation nur aktiviert werden und erfordert keine weitere Konfiguration.
 
-Hier können Sie die Positionierung des Verschlusses entsprechend der Sonnenposition steuern.
+## Konfiguration der Rollläden
 
-- Azimut : Sonnenstandwinkel
-- Höhe : Höhenwinkel der Sonne
-- Position : Position des Verschlusses, wenn die Sonne im Azimut und in den Höhengrenzen steht
-- Zustand : Zusätzliche Bedingung, die erfüllt sein muss, damit der Verschluss diese Position einnimmt (kann leer sein)
-- Kommentar : freie Felder für Kommentare
+Um auf die verschiedenen Geräte von . zuzugreifen **Verwaltung von Rollläden**, du musst ins menü gehen **Plugins → Automatisierung → Rollladenverwaltung**.
+
+>**INFORMATION**
+>    
+>Die Taste **+ Hinzufügen** ermöglicht es Ihnen, einen neuen Verschluss hinzuzufügen, um ihn zu automatisieren.
+
+Die gesamte Automatisierungskonfiguration für jede Komponente wird von der ersten Registerkarte des Geräts aus durchgeführt :
+
+- **Komponentenname** : Name der Ausrüstung.
+- **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört.
+- **Kategorie** : Ermöglicht die Auswahl der Gerätekategorie.
+- **Optionen** :
+    - **Aktivieren** : Wird verwendet, um die Ausrüstung zu aktivieren.
+    - **Sichtbar** : Ausrüstung sichtbar machen.
+
+Im Folgenden können wir die automatische Management-Engine selbst konfigurieren :
+
+- **Bedingung für die Verifizierung** : Voraussetzung für die Aktivierung der automatischen Verwaltung. Wenn diese Bedingung nicht zutrifft, ändert das Plugin die Position des Fensters nicht *(standardmäßig leer = immer aktiv)*.
+- **Häufigkeit der Überprüfung** : Häufigkeit der Prüfung von Ausnahmen und Positionierungsbedingungen.
+- **Gewinnen Sie die Kontrolle zurück** : Autorisieren Sie das automatische Managementsystem, die Position des Rollladens zu ändern, wenn er manuell bedient wurde.
+>*Beispiel : das System schließt den Rollladen, dann öffnen Sie ihn einige Minuten später manuell, dann wird die automatische Verwaltung nur durchgeführt, wenn **Gewinnen Sie die Kontrolle zurück** ist um "**Ja**" oder dass die Erholungszeit abgelaufen ist oder dass die Bestellung **Geschäftsführung übernehmen** wird ausgelöst.*
+
+- **Fortsetzen bei Moduswechsel** : Aktivieren Sie das Kontrollkästchen, um die automatische Verwaltung bei einer Änderung des Modus fortzusetzen.
+- **Sofortiges Handeln mit Priorität** : Aktivieren Sie das Kontrollkästchen, damit sofortige Aktionsausnahmen unabhängig von anderen Bedingungen ausgeführt werden, auch wenn sie ausgesetzt sind.
+
+>**Wichtig**
+>
+>Die hier erwähnten "Modi" beziehen sich auf die auf der Registerkarte definierten Modi **Befehle** von jedem Plugin-Equipment **Rollladenmanagement** und beziehen sich in keiner Weise auf Plugin-Modi **Modus**.
+
+Anschließend müssen die Koordinaten des Gebäudes angegeben werden, um den Sonnenstand berechnen zu können :
+
+- **Allgemeine Konfiguration verwenden** : Aktivieren Sie das Kontrollkästchen, um die in der allgemeinen Konfiguration von Jeedom . eingegebenen Kontaktdaten zu verwenden.
+
+ou
+
+- **Breite** : Der Breitengrad des Gebäudes oder Fensterladens.
+- **Länge** : Der Längengrad des Gebäudes oder Fensterladens.
+- **Höhe** : Die Höhe des Gebäudes oder Fensterladens.
+
+Schließlich müssen nur noch die Informationen zur Steuerung des Verschlusses eingegeben werden :
+
+- **Abschluss- / Eröffnungsprozentsätze** : Geben Sie den Mindestprozentsatz der Schließung an *(normalerweise 0)* und maximale Öffnung *(normalerweise 99 oder 100)*.
+- **Dauer einer Reise** : Maximale Zeit in Sekunden, um eine vollständige Öffnungs- oder Schließbewegung auszuführen.
+- **Statusbefehl** : Geben Sie die Info / den numerischen Befehl ein, der die aktuelle Position des Rollladens angibt.
+- **Positioniersteuerung** : Geben Sie den Aktions-/Cursorbefehl ein, der verwendet wird, um den Rollladen zu positionieren.
+- **Befehl aktualisieren** : Füllen Sie den Aktionsbefehl aus, um die Position des Rollladens zu aktualisieren *(facultatif)*.
+- **Standardaktion** : Aktion, die standardmäßig ausgeführt wird, wenn keine Ausnahme oder Position gültig ist.
+
+![Konfiguration](./images/sunshutter_eqLogicConfig.png)
+
+# Exceptions
+
+Auf dieser Registerkarte können Sie spezifische Regeln definieren, die von den Bedingungen in Bezug auf den Sonnenstand in der folgenden Registerkarte abweichen. Die Regeln werden nacheinander überprüft, die automatische Management-Engine stoppt bei der ersten gültigen Regel und bringt den Rollladen in die angegebene Position.
+
+- **Zustand** : Die Bedingung, die erfüllt sein muss, damit die Regel gültig ist *(facultatif)*.
+- **Modus** : Bei Eingabe ist die Bedingung nur gültig, wenn sich der Rollladen derzeit im angegebenen Modus befindet. Es ist möglich, mehrere Modi anzugeben, indem Sie sie durch Kommas trennen *(facultatif)*.
+- **Sofortige Ausnahme** : Aktivieren Sie das Kontrollkästchen, damit die Regel sofort ausgeführt wird, sobald die Bedingung gültig ist.
+- **Anhalten** : Aktivieren Sie das Kontrollkästchen, um die automatische Verwaltung auszusetzen, solange die Regel gültig ist.
+- **Position** : Die gewünschte Position in Prozent, wenn die Regel gültig ist *(leer = keine Aktion)*.
+- **Etikett** : Label, das mit der Validierung der Ausnahmeregel verknüpft ist *(facultatif)*.
+
+![Ausnahmen](./images/sunshutter_exceptions.png)
+
+# Positionnement
+
+Auf dieser Registerkarte können Sie die Positionierung des Rollladens automatisch entsprechend dem Sonnenstand verwalten.
+
+- **Zustand** : Zu der Position komplementäre Bedingung, die erfüllt sein muss, damit die Positionierung des Rollladens validiert wird *(facultatif)*.
+- **Azimut** : Geben Sie die Azimutgrenzen der Sonne in Grad ein, zwischen denen die Bedingung gültig ist.
+- **Höhe** : Geben Sie die Sonnenhöhengrenzen in Grad ein, zwischen denen die Bedingung gültig ist.
+- **Position** : Die gewünschte Position in Prozent, wenn die Positionierungsbedingungen (und ggf. zusätzliche) gültig sind.
+- **Etikett** : Label verbunden mit der Validierung der Positionierungsbedingung *(facultatif)*.
+
+![Conditions](./images/sunshutter_conditions.png)
 
 >**TIPP**
 >
->Kleiner Tipp die Seite [suncalc.org](https://www.suncalc.org) Sobald Ihre Adresse eingegeben wurde, können Sie den Sonnenstand (und damit den Azimut- und Elevationswinkel) entsprechend den Stunden des Tages anzeigen (ziehen Sie einfach die kleine Sonne nach oben)
+>Der Standort [suncalc.org](https://www.suncalc.org){:target = "\_ blank"} ermöglicht, nach Eingabe Ihrer Adresse, die Position der Sonne und die Azimut- und Elevationswinkel entsprechend den Tagesstunden zu visualisieren *(zieh einfach die kleine sonne hoch)*.
 
-## Planning
+# Programmation
 
-Hier sehen Sie die Positionierungspläne des Verschlusses, die in der Agenda-Planung erstellt wurden
+Diese Registerkarte erscheint nur, wenn das Plugin **Agenda** ist auf Ihrem Jeedom installiert. Es listet die Programmierung des Plugins auf **Agenda** auf die automatische Verwaltung dieser Komponente einwirken, um beispielsweise eine Unterbrechung und eine manuelle Wiederaufnahme während der Mittagsschlafzeiten eines Kindes zu planen.
 
-## Commandes
+# Commandes
 
-- Sonnenazimut : aktueller Azimutwinkel der Sonne
-- Sonnenaufgang : aktueller Elevationswinkel der Sonne
-- Aktion ausführen : Erzwingt die Berechnung der Verschlussposition entsprechend dem Sonnenstand und den Bedingungen und wendet das Ergebnis unabhängig vom Verwaltungszustand (angehalten oder nicht) darauf an)
-- Letzte Position : Letzte vom Plugin vom Verschluss angeforderte Position
-- Managementstatus : Managementstatus (ausgesetzt oder nicht)
-- Zusammenfassung : Erzwingen Sie die Rückkehr in den automatischen Verwaltungsmodus (Beachten Sie, dass dieser Befehl gestartet werden muss, um zur automatischen Verwaltung zurückzukehren, wenn Sie die Position Ihres Verschlusses manuell geändert und das Kontrollkästchen "Keine Kontrolle wiedererlangen" aktiviert haben")
-- Anhalten : Unterbricht die automatische Verschlusspositionierung
-- Aktualisieren : Aktualisieren Sie die Werte der Befehle "Sonnenazimut" und "Sonnenhöhe""
-- Modus : aktueller Verschlussmodus
+Diese letzte Registerkarte ermöglicht den Zugriff auf die Liste der Befehle und ermöglicht das Definieren / Löschen von Modi für die automatische Verwaltung des Rollladens :
 
-Sie können "Modus" -Befehle hinzufügen. Der Befehlsname ist der Modusname.
+- **Sonnenazimut** : Aktueller Azimutwinkel der Sonne.
+- **Sonnenaufgang** : Aktueller Elevationswinkel der Sonne.
+- **Aktualisieren** : Aktualisierung von Bestellungen erzwingen **Sonnenazimut** und **Sonnenaufgang**.
+>Es ist natürlich möglich, die Werte der Befehle zu verwenden **Azimut Sonne** und **Sonnenaufgang** anderswo in Jeedom.
+
+- **Managementstatus** : Aktueller Stand der automatischen Verwaltung in Binär *(0 = gesperrt / 1 = aktiv)*.
+- **Aktion erzwingen** : Erzwingen Sie die Berechnung der Rollladenposition gemäß dem Sonnenstand und den Ausnahmen und wenden Sie die Positionierung unabhängig vom Status der automatischen Steuerung an *(suspendiert oder nicht)*.
+- **Letzte Position** : Letzte vom Plugin vom Verschluss angeforderte Position.
+- **Etikett** : Label, das einer Ausnahme oder einer gültigen Positionierungsbedingung entspricht.
+- **Anhalten** : Unterbricht die automatische Rollladenverwaltung.
+- **Aussetzen (Label)** : Aktueller Stand der automatischen Rollladenmanagement Aussetzung *(Keine / Manuell / Auto)*.
+- **Zusammenfassung** : Neustart der automatischen Verwaltung erzwingen.
+>Dies ist der Befehl, der ausgeführt werden muss, um zur automatischen Steuerung zurückzukehren, wenn Sie die Position Ihres Rollladens manuell geändert und konfiguriert haben **Gewinnen Sie die Kontrolle zurück** beim "**Nein**".
+
+- **Modus** : Aktueller Verschlussmodus.
+
+Der blaue Knopf **Einen Modus hinzufügen** ermöglicht es Ihnen, einen neuen Aktionsbefehl hinzuzufügen, dessen Name dem neuen aktuellen Modus ab dem Moment entspricht, in dem er ausgeführt wird.
+
+>**TIPP**
+>
+>Sie können beispielsweise einen Modus definieren **Tag** und ein Modus **Nacht** und passen Sie das Öffnen und Schließen Ihres Verschlusses gemäß diesen 2 Modi an.
+
+# Santé
+
+Das Plugin **Verwaltung von Rollläden** hat ein fenster **Die Gesundheit**, auf der Seite „Allgemeine Ausrüstung“, auf der Sie die Konfigurationen der einzelnen automatischen Verwaltungen auf einen Blick sehen können.
 
 # Panel
 
-Das Plugin verfügt über ein Desktop- und ein mobiles Verwaltungsfeld, um es zu aktivieren. Gehen Sie einfach zu Plugins -> Plugin-Verwaltung, klicken Sie auf das Fensterverwaltungs-Plugin und aktivieren Sie ganz rechts unten die Kontrollkästchen, um das Feld anzuzeigen Desktop und Mobile
+Das Plugin verfügt auch über ein Management-Panel, das sowohl in der Desktop- als auch in der mobilen Version verfügbar ist. Um es zu aktivieren, gehen Sie einfach zu **Plugins → Plugin-Verwaltung**, klicke auf das Plugin **Rollladenmanagement** und aktivieren Sie die Kontrollkästchen, um die Panels unten rechts anzuzeigen.
