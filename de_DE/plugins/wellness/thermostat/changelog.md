@@ -4,6 +4,17 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 21.10.2021
+
+- Ergänzung der Präsentation der Thermostatausrüstung im Tabellenmodus
+- Positive Hysterese jetzt auch im Kühlbetrieb möglich
+
+# 14.12.2020
+
+- Modernisierung der Schnittstelle
+- Hinzufügen einer Option, bei der nur die positive Hysterese zum Erhitzen verwendet werden kann
+- Es wurde die Möglichkeit hinzugefügt, einen Befehl Ihrer Wahl im Thermostat-Widget anzuzeigen
+- Aktualisierung der Dokumentation
 
 # 11/11/2020
 
@@ -22,7 +33,7 @@
 
 # 21.12.2019
 
-- Hinzufügung einer Option für die Heißzyklusschwelle, um die Berücksichtigung der Trägheit zu ermöglichen
+- Hinzufügen einer Option für die Heißzyklusschwelle, damit die Trägheit berücksichtigt werden kann
 
 # 17.12.2019
 
@@ -32,11 +43,11 @@
 # 16.12.2019
 
 - Fehlerkorrektur im Thermostat-Aus-Modus
-- Hinzufügen einer Option zum Begrenzen der Dauer eines zweiten Zyklus auf 100% der Zeit (berücksichtigt die Tatsache, dass die Heizkörper bereits heiß sind)
+- Hinzufügen einer Option zur Begrenzung der Dauer eines zweiten Zyklus auf 100% der Zeit (berücksichtigt die Tatsache, dass die Heizkörper bereits heiß sind)
 
 # 2019.03.11
 
-- Korrektur eines Fehlers in den Orphan-Befehlen
+- Ein Fehler bei verwaisten Bestellungen wurde behoben
 
 # 23.10.2019
 
@@ -69,7 +80,7 @@
 
 # 29.04.2019
 
-- Hinzufügen einer Option "Begrenzt unaufhörliche Ein- / Ausschaltzyklen (Pellet, Gas, Heizöl) und PID". Vielen Dank, dass Sie @Pierrick
+- Hinzufügung einer Option "Begrenzt Ein / Aus-Zyklen (Pellet, Gas, Heizöl) und PID". Vielen Dank, dass Sie @Pierrick
 
 # 03/11/2019
 
@@ -79,7 +90,7 @@
 
 # 01/04/2019
 
-- Behebung eines Fehlers beim Smart Start, wenn der Kalender nach der Planung deaktiviert wird
+- Ein Fehler beim Smartstart wurde behoben, wenn die Agenda nach der Planung deaktiviert wurde
 
 # 28.12.2008
 
@@ -109,4 +120,4 @@
 
 # 29.01.2008
 
-- Fehlerkorrektur beim Öffnen / Schließen von Fenstern
+- Fehlerbehebung beim Öffnen / Schließen von Fenstern

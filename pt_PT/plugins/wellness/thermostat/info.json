@@ -6,7 +6,12 @@
         "en_US": "This very powerful and very complete plugin will allow you to finely manage the temperature of your home whether it is to heat or cool it. The plugin learns by itself over time the best way to save energy while maintaining optimal comfort in your home",
         "es_ES": "Este complemento muy potente y muy completo le permitirá administrar finamente la temperatura de su hogar, ya sea para calentarla o enfriarla. El complemento aprende por sí solo con el tiempo la mejor manera de ahorrar energía mientras mantiene una comodidad óptima en su hogar",
         "de_DE": "Mit diesem sehr leistungsstarken und sehr vollständigen Plugin können Sie die Temperatur Ihres Hauses genau regeln, unabhängig davon, ob Sie es heizen oder kühlen möchten. Das Plugin lernt im Laufe der Zeit von selbst, wie Sie am besten Energie sparen und gleichzeitig den optimalen Komfort in Ihrem Zuhause gewährleisten können",
-        "pt_PT": "Este plugin muito poderoso e muito completo permitirá que você gerencie com precisão a temperatura da sua casa, seja para aquecer ou esfriar. Com o tempo, o plug-in aprende a melhor maneira de economizar energia, mantendo o conforto ideal em sua casa"
+        "pt_PT": "Este plugin muito poderoso e muito completo permitirá que você gerencie com precisão a temperatura da sua casa, seja para aquecer ou esfriar. Com o tempo, o plug-in aprende a melhor maneira de economizar energia, mantendo o conforto ideal em sua casa",
+        "ru_RU": "Ce plugin très puissant et très complet vous permettra de gérer finement la température de votre logement que ce soit pour réchauffer ou refroidir celui-ci. Le plugin apprend de lui même avec le temps le meilleur moyen d'économiser de l'énergie tout en maintenant un confort optimal dans votre logement",
+        "id_ID": "Ce plugin très puissant et très complet vous permettra de gérer finement la température de votre logement que ce soit pour réchauffer ou refroidir celui-ci. Le plugin apprend de lui même avec le temps le meilleur moyen d'économiser de l'énergie tout en maintenant un confort optimal dans votre logement",
+        "it_IT": "Ce plugin très puissant et très complet vous permettra de gérer finement la température de votre logement que ce soit pour réchauffer ou refroidir celui-ci. Le plugin apprend de lui même avec le temps le meilleur moyen d'économiser de l'énergie tout en maintenant un confort optimal dans votre logement",
+        "ja_JP": "Ce plugin très puissant et très complet vous permettra de gérer finement la température de votre logement que ce soit pour réchauffer ou refroidir celui-ci. Le plugin apprend de lui même avec le temps le meilleur moyen d'économiser de l'énergie tout en maintenant un confort optimal dans votre logement",
+        "tr": "Ce plugin très puissant et très complet vous permettra de gérer finement la température de votre logement que ce soit pour réchauffer ou refroidir celui-ci. Le plugin apprend de lui même avec le temps le meilleur moyen d'économiser de l'énergie tout en maintenant un confort optimal dans votre logement"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -21,7 +26,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
@@ -31,5 +41,7 @@
         "diy",
         "mobile",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/thermostat\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/thermostat\/beta"
 }

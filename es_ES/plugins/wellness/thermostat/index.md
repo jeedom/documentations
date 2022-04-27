@@ -1,5 +1,7 @@
 # Plugin de termostato
 
+# Description
+
 Este complemento le permite crear y administrar termostatos para controlar el calentamiento de su hogar. Funciona en 2 modos, tu eliges :
 
 -   el modo **histéresis** corresponde a encender y apagar la calefacción en función de la temperatura interior, en relación con un umbral correspondiente al punto de ajuste. La histéresis permite evitar cambios muy frecuentes cuando la temperatura está alrededor del punto de ajuste.
@@ -17,7 +19,7 @@ Entre sus características están :
 -   un sistema regulatorio que aprende a optimizar la regulación,
 -   la posibilidad de manejar las puertas para desconectar el termostato,
 -   gestión de fallas de equipos, sensores de temperatura y calentadores,
--   programación completa con el complemento de agenda, en particular con la posibilidad de anticipar el cambio del punto de ajuste para que la temperatura se alcance a la hora programada (inicio inteligente)
+-   programación completa con el plugin diario, en particular la posibilidad de anticipar el cambio de setpoint para que la temperatura se alcance a la hora programada (Smartstart)
 
 Primero, le mostraremos la implementación, luego detallaremos las diferentes configuraciones de la configuración del termostato y finalmente, a través de algunos casos de uso, cómo podemos enriquecerlo en combinación con otros complementos o utilizando escenarios.
 
@@ -31,13 +33,13 @@ El termostato Jeedom es muy potente pero para uso tradicional, su implementació
 
 Luego hay diferentes pestañas :
 
--   La configuración del modo define temperaturas predeterminadas. Por ejemplo, modo confort a 20 ° C, eco a 18 ° C. También puede haber días, noches, vacaciones, ausencias ... comienza a ver aquí las posibilidades de personalización del complemento.
+-   La configuración del modo define temperaturas predeterminadas. Por ejemplo, modo confort a 20 ° C, eco a 18 ° C. También puede haber día, noche, vacaciones, ausencias, etc ... aquí empiezas a ver las posibilidades de personalización del plugin.
 -   Para refinar el modo de funcionamiento del termostato, también podrá configurar aberturas que interrumpirán temporalmente la regulación (por ejemplo, una ventana abierta puede detener el calentamiento). La definición de esta interrupción se realiza aquí simplemente.
 -   La gestión de los modos de falla para sensores de temperatura o para calefacción permite definir acciones a ejecutar para un modo degradado.
 -   La pestaña Configuración avanzada le permite ajustar los parámetros de regulación de calefacción.
 -   Si, además, tiene el complemento Agenda, los cambios en el modo de programación son posibles directamente desde la pestaña de programación.
 
-Su termostato ahora está operativo y al usar escenarios o combinarlo con otros complementos (agenda, virtual, presencia, ...), se integrará perfectamente en su instalación de automatización del hogar. Esto es lo que tenemos en el tablero :
+Su termostato ahora está operativo y al usar escenarios o combinarlo con otros complementos (agenda, virtual, presencia, ...), se integrará perfectamente en su instalación de automatización del hogar. Esto es lo que obtenemos de forma predeterminada en el panel :
 
 ![Aspect sur le Dashboard](./images/thermostat.png)
 
@@ -45,7 +47,7 @@ El bloqueo en el widget le permite bloquear el termostato en un punto de ajuste 
 
 ## La creación de un termostato en detalle
 
-Para crear un nuevo termostato, vaya a la página de configuración desplazándose hacia abajo en el menú Complementos / Bienestar y seleccione Termostato. Haga clic en el botón *Añadir* ubicado en la parte superior izquierda e ingrese el nombre deseado para su termostato.
+Para crear un nuevo termostato, vaya a la página de configuración abriendo el menú **Complementos → Confort** y seleccione **Termostato**. Haga clic en el botón **Añadir** ubicado en la parte superior izquierda e ingrese el nombre deseado para su termostato.
 
 ![Configuración générale](./images/thermostat_config_générale.png)
 
@@ -57,19 +59,23 @@ Primero, informaremos los parámetros generales del termostato. Se encuentran en
 
 En esta imagen, se destaca el motor de operación del termostato. Hay 2 algoritmos posibles para la regulación de la temperatura.
 
-Cuando selecciona el modo de histéresis, el calentamiento comienza cuando la temperatura es inferior al punto de ajuste menos la histéresis y se apaga tan pronto como la temperatura excede el punto de ajuste más la histéresis.
+Cuando seleccionas el modo **Histéresis**, su calefacción se pone en marcha tan pronto como la temperatura es inferior al punto de ajuste menos la histéresis y se apaga tan pronto como la temperatura supera el punto de ajuste más la histéresis.
 
 ![Principe du mode histéresis](./images/PrincipeHysteresis.png)
 
 Por ejemplo, si la histéresis se establece en 1 ° C y el valor establecido es 19 ° C, el calentamiento se activa cuando la temperatura cae por debajo de 18 ° C y se detiene tan pronto como llega a 20 ° C.
 
-Los parámetros a suministrar son la histéresis en ° C y el comando que permite recuperar la medición de temperatura. La histéresis se ajustará de acuerdo con la precisión del sensor, por ejemplo, para una sonda precisa a 0.5 ° C, una histéresis de 0.2 ° C es un buen compromiso.
+Los parámetros a suministrar son el valor de histéresis en ° C y el comando que permite recuperar la medida de temperatura. La histéresis se ajustará de acuerdo con la precisión del sensor, por ejemplo, para una sonda precisa a 0.5 ° C, una histéresis de 0.2 ° C es un buen compromiso.
 
-> **Punta**
+Es posible tener en cuenta solo la histéresis positiva marcando la casilla **Histéresis positiva**. En el modo "Calefacción", el termostato se encenderá tan pronto como la temperatura interior sea inferior al punto de ajuste o, en el modo "Aire acondicionado", cuando la temperatura interior sea superior al punto de ajuste.
+
+![Histéresis](./images/thermostat1.png)
+
+> **INFORMACIÓN**
 >
-> El parámetro de histéresis se encuentra en la pestaña *Avanzada*.
+> Los parámetros relacionados con la histéresis se pueden encontrar en la pestaña **Por adelantado**.
 
-En el caso del modo de tiempo, el control de calefacción o aire acondicionado se define en un ciclo predefinido y la duración de la ejecución del control es una función de la diferencia entre el punto de ajuste y la temperatura medida por el sensor. El algoritmo también calculará el tiempo de calentamiento (o enfriamiento) durante un ciclo de acuerdo con la inercia y el aislamiento de la habitación.
+En el caso del modo **Temporal**, el comando de calefacción o aire acondicionado se define en un ciclo predefinido y el tiempo de ejecución del comando depende de la diferencia entre el punto de ajuste y la temperatura medida por el sensor. El algoritmo también calculará el tiempo de calentamiento (o enfriamiento) durante un ciclo de acuerdo con la inercia y el aislamiento de la habitación.
 
 ![Principe du mode temporal](./images/PrincipeTemporel.png)
 
@@ -77,23 +83,25 @@ Finalmente, cuanto más largo sea el tiempo del ciclo, más lenta será la regul
 
 Este tipo de regulación está más optimizada, mejora la comodidad y permite ahorros sustanciales de energía.
 
-## La configuración
+## La configuración general
 
-Además del motor de operación del termostato, puede decidir si el termostato se usa en calefacción, aire acondicionado o ambos. Luego indicas su rango de uso : las temperaturas mínimas y máximas definirán los posibles valores de consigna accesibles en el widget.
+Además del modo de funcionamiento del termostato, puede decidir si el termostato se utiliza en modo calefacción, refrigeración o en ambos. Luego indicas su rango de uso : los puntos de ajuste mínimo y máximo definirán los posibles valores de punto de ajuste accesibles en el widget.
 
 ![Configuración du fonctionnement](./images/configFonctionnement.png)
 
-Luego, especifique los comandos que miden la temperatura y controlan la calefacción o el aire acondicionado. Tenga en cuenta que el motor del tiempo necesita saber la temperatura exterior. Si no tiene un sensor exterior, el plugin meteorológico puede proporcionarlo.
+Luego, debes especificar los comandos que te permiten medir las temperaturas. Tenga en cuenta que el modo de hora absolutamente necesita conocer la temperatura exterior. Si no tiene un sensor exterior, puede proporcionarlo el complemento "Clima"".
 
 ![Sélection des sondes](./images/selectionsondes.png)
 
-> **Punta**
+> **CONSEJO**
 >
-> Los campos 'Límite inferior de temperatura' y 'Límite superior de temperatura' definen el rango de operación del termostato fuera del cual se dispara una falla de calefacción. Vea el párrafo sobre acciones predeterminadas a continuación.
+> Los campos `` Temperatura mínima '' y `` Temperatura máxima '' definen el rango de funcionamiento del termostato fuera del cual se activa una falla del sensor *(Vea el párrafo sobre acciones predeterminadas a continuación*).
 
-También tienes un campo para indicar el consumo por día en kWh de tu calefacción (si lo tienes de lo contrario no importa). Esto permite que el complemento del termostato le dé una indicación del rendimiento de su calefacción (solo hace el cálculo de acuerdo con el consumo / grado de día unificado)
+También es posible indicar el consumo por día en kWh de su calefacción *(facultatif)* que mostrará una indicación del rendimiento de su calefacción haciendo el cálculo **consumo / DJU** *(grado-día unificado)*. También puede mostrar cualquier comando de su elección en el termostato ingresándolo en el campo **Pedido personal**.
 
-Para el control del radiador o aire acondicionado, se describe en la pestaña *Acciones*. Aquí podemos definir varias acciones, lo que le da a nuestro termostato la capacidad de controlar diferentes equipos (caso de operación de zona, por ejemplo, o control de otro termostato))
+## Las acciones
+
+Todo lo relacionado con los controles del radiador o del aire acondicionado se describe en la pestaña **Acciones**. Allí se pueden definir varias acciones, lo que le da a nuestro termostato la posibilidad de controlar diferentes equipos (caso de funcionamiento por zona por ejemplo o control de otro termostato)
 
 ![Acciones sur les appareils](./images/actionssurappareil.png)
 
@@ -101,9 +109,9 @@ Las acciones son aquellas que permiten calentar, enfriar (aire acondicionado), d
 
 ## Las modas : el punto de partida para la automatización
 
-Los modos (definidos en la pestaña *Modos*) son pautas predeterminadas del termostato que se adaptan a su estilo de vida. Por ejemplo, el modo **Noche** o **Eco** dale la temperatura que quieras cuando todos estén dormidos. El modo **Día** o **Confort** determina el comportamiento del termostato para tener una temperatura agradable cuando estás presente en casa. Aquí no hay nada congelado. Puede definir tantos modos como desee usarlos a través de escenarios (Volveremos a esto más adelante)).
+Los modos (definidos en la pestaña **Modos**) son pautas predeterminadas del termostato que se adaptan a su estilo de vida. Por ejemplo, el modo *Noche* o *Eco* dale la temperatura que quieras cuando todos estén dormidos. El modo *Día* o *Confort* determina el comportamiento del termostato para tener una temperatura agradable cuando estás presente en casa. Aquí no hay nada congelado. Puede definir tantos modos como desee usarlos a través de escenarios (Volveremos a esto más adelante)).
 
-En la imagen de abajo, el modo **Confort** tiene un punto de ajuste de 19 ° C y para el modo **Eco**, el termostato se ajusta a 17 ° C. El modo **Vacaciones** programa el termostato a 15 ° C en caso de ausencia prolongada. No es visible en el tablero, ya que es un escenario que programa todo el equipo en *Vacaciones* y así posicionar el termostato en este modo.
+En la imagen de abajo, el modo *Confort* tiene un punto de ajuste de 19 ° C y para el modo *Eco*, el termostato se ajusta a 17 ° C. El modo *Vacaciones* programa el termostato a 15 ° C en caso de ausencia prolongada. No es visible en el tablero, ya que es un escenario que programa todo el equipo en *Vacaciones* y así posicionar el termostato en este modo.
 
 ![Définition des modes](./images/Definitionmodes.png)
 
@@ -125,20 +133,18 @@ Imagine que desea detener temporalmente su calefacción o aire acondicionado, po
 
 ![Configuración des ouvertures](./images/configouvertures.png)
 
+Puede definir el envío de una alerta si una de las puertas ingresadas en esta página permanece abierta por más de `XX` minutos.
+
 Para configurar la operación cuando se abre la ventana :
 
 -   seleccione la información del sensor de apertura en el campo `Apertura`
--   ajuste el tiempo antes de que el termostato se apague después de abrir en `Apagar si está abierto más de (min) :``
--   ajuste el tiempo después de cerrar la ventana permitiendo que el termostato se reinicie en `Encender si está cerrado desde (min) :``
+-   ajuste el tiempo antes de que el termostato se apague después de abrir en `Apagar si está abierto más de (min.) :``
+-   ajuste el tiempo después de cerrar la ventana permitiendo que el termostato se reinicie en `Encender si está cerrado desde (min.) :``
 -   Haga clic en el botón *Guardar* para registrar la inclusión de aperturas
 
-> **Punta**
+> **CONSEJO**
 >
 > Es posible definir varias aberturas, esto es necesario cuando el termostato controla un área compuesta por varias habitaciones.
-
-> **Punta**
->
-> Es posible establecer una alerta si la apertura dura más de xx minutos.
 
 ## Predecir un modo degradado gracias a la gestión de fallos
 
@@ -146,11 +152,11 @@ Las fallas pueden provenir de los sensores de temperatura o del control de calef
 
 ### Falla de la sonda de temperatura
 
-Si las sondas utilizadas por el termostato no devuelven ninguna **cambiar** temperatura, por ejemplo, si las baterías están gastadas, entonces el termostato inicia acciones de falla. Cuando ocurre la falla, es posible poner el dispositivo en un modo operativo predeterminado, por ejemplo, forzando el orden de un radiador de cable piloto. Más simplemente enviando un mensaje de texto o una notificación le permite ser advertido e intervenir manualmente.
+Si los sensores utilizados por el termostato no devuelven un cambio de temperatura, por ejemplo, en el caso de desgaste de la batería, el termostato inicia acciones de falla. Cuando ocurre la falla, es posible poner el dispositivo en un modo de operación predeterminado, por ejemplo forzando el orden de un radiador de alambre piloto. Más simplemente enviando un mensaje de texto o una notificación le permite ser advertido e intervenir manualmente.
 
-> **Punta**
+> **Importante**
 >
-> El parámetro que permite al termostato decidir sobre una falla de la sonda se encuentra en la pestaña *Avanzada*. Este es el `tiempo máximo entre 2 lecturas de temperatura`.
+> El parámetro que permite al termostato decidir sobre una falla de la sonda se encuentra en la pestaña *Por adelantado*. Este es el `tiempo máximo entre 2 cambios de temperatura`.
 
 ![Défaillance des sondes](./images/defaillancesonde.png)
 
@@ -160,17 +166,15 @@ Para definir una acción de falla :
 -   Haga clic en el botón *Agregar una acción de falla*
 -   seleccione una acción y complete los campos asociados
 
-Puede ingresar varias acciones, que se ejecutarán en secuencia y, en el caso de acciones más complejas, invoque un escenario (escriba `escenario` sin acento en el campo de acción y luego haga clic en otro lugar para poder ingresar el nombre del escenario).
+Puede ingresar varias acciones, que se ejecutarán en secuencia y en el caso de acciones más complejas, invocar un escenario *(escriba "escenario" sin acento en el campo de acción y luego haga clic en otro lugar para poder ingresar el nombre del escenario)*.
 
 ### Falla de calefacción / aire acondicionado
 
 El buen funcionamiento de la calefacción o del aire acondicionado está condicionado por un buen seguimiento de las instrucciones. Por lo tanto, si la temperatura se desvía del rango operativo del termostato, inicia acciones de falla de calefacción / aire acondicionado. Este análisis se lleva a cabo durante varios ciclos.
 
-> **Punta**
+> **Importante**
 >
-> El parámetro que permite al termostato decidir sobre una falla de la sonda se encuentra en la pestaña *Avanzada*. Estos son el 'Margen de falla en caliente' para calefacción y el 'Margen de falla en frío' para aire acondicionado.
-
-En esta imagen, la acción de falla envía la orden de cambiar al modo ECO del radiador por el cable piloto, luego envía un mensaje por el plugin pushbullet.
+> El parámetro que permite al termostato decidir sobre una falla de la sonda se encuentra en la pestaña *Por adelantado*. Estos son el 'Margen de falla en caliente' para calefacción y el 'Margen de falla en frío' para aire acondicionado.
 
 ![Défaillance du chauffage](./images/defaillancechauffage.png)
 
@@ -180,14 +184,13 @@ Para definir una acción de falla :
 -   Haga clic en el botón *Agregar una acción de falla*
 -   seleccione una acción y complete los campos asociados
 
-Puede ingresar varias acciones, que se ejecutarán en secuencia y, en el caso de acciones más complejas, invoque un escenario (escriba `escenario` sin acento en el campo de acción y luego haga clic en otro lugar para poder ingresar el nombre del escenario).
+Puede ingresar varias acciones, que se ejecutarán en secuencia y en el caso de acciones más complejas, invocar un escenario *(escriba "escenario" sin acento en el campo de acción y luego haga clic en otro lugar para poder ingresar el nombre del escenario)*.
 
 ## Gestione casos especiales con la configuración avanzada del termostato
 
 Esta pestaña contiene todos los parámetros para ajustar el termostato en modo horario. En la mayoría de los casos, no es necesario modificar estos valores, ya que el autoaprendizaje calculará automáticamente los coeficientes. Sin embargo, incluso si el termostato puede adaptarse a la mayoría de los casos, es posible ajustar los coeficientes para una configuración optimizada para su instalación.
 
-![Configuración Avanzada du
-termostato](./ images / configurationavancee.png)
+![Configuración avancée du thermostat](./images/configurationavancee.png)
 
 Los coeficientes son los siguientes :
 
@@ -205,9 +208,9 @@ Los coeficientes son los siguientes :
 - **Limita los ciclos de encendido / apagado incesante (pellet, gas, fuel oil) y PID** : Esta opción le permite regular con diferentes niveles de calefacción. El retorno de energía del siguiente ciclo debería dar el nuevo punto de ajuste del nivel de calefacción al calentador. Los ciclos terminan al 100%, por lo tanto, tenga un tiempo de ciclo corto.
 - **Punto de ajuste Delta: temperatura exterior para dirección frío / calor** : el termostato elige la dirección (calefacción o aire acondicionado) de acuerdo con el punto de ajuste y la temperatura exterior (por razones de ahorro, se supone que la temperatura interior tiende hacia la temperatura exterior). Con estos parámetros puedes cambiar el umbral. Ex : si desea 25 y está 22 afuera por defecto, el termostato entrará en modo de calefacción (solo entrar en este modo para el cálculo no significa que se calentará), al configurar el delta caliente en 4 ya no se calentará porque 25-22 = 3 y 3 <4, por lo tanto, entrará en modo de enfriamiento (si la temperatura interior está por encima del punto de ajuste)
 
-> **Punta**
+> **A saber**
 >
-> El aprendizaje siempre está activo. Pero la fase de inicialización puede ser relativamente larga (alrededor de 3 días). Durante esta fase, es necesario tener períodos suficientemente largos durante los cuales el punto de ajuste no cambia.
+> El autoaprendizaje sigue activo. Sin embargo, la fase de inicialización puede ser relativamente larga *(cuenta unos 3 días)*. Durante esta fase, es necesario tener períodos suficientemente largos durante los cuales el punto de ajuste no cambia.
 
 ## Controles del termostato
 
@@ -330,14 +333,14 @@ En el menú `Inicio`, está el submenú` Termostato`. La ventana que aparece cua
 >
 >Verifique que su termostato no esté bloqueado
 
->**En modo historial, mi termostato nunca cambia de estado**
+>**En el modo de histéresis, mi termostato nunca cambia de estado**
 >
 >Es que las sondas de temperatura no aumentan automáticamente su valor, es recomendable configurar un "Cron de control"
 
->**Las curvas del termostato (especialmente el punto de ajuste) no parecen ser correctas**
+>**Las curvas del termostato (en particular el punto de ajuste) no parecen ser correctas**
 >
->Mire el lado suavizado del historial de pedidos en cuestión. De hecho, para ganar eficiencia, Jeedom promedia los valores durante 5 minutos y luego durante la hora.
+>Mire el lado suavizado del historial de pedidos en cuestión. De hecho, para ganar en eficiencia, Jeedom promedia los valores durante 5 minutos y luego durante una hora.
 
 >**La pestaña de modo / acción está vacía y cuando hago clic en los botones Agregar no hace nada**
 >
->Intente deshabilitar Adblock (o cualquier otro bloqueador de anuncios), por alguna razón desconocida estos bloquean el JavaScript de la página sin motivo.
+>Intente deshabilitar Adblock (o cualquier otro bloqueador de anuncios), por alguna razón desconocida, estos bloquean el javaScript de la página sin ningún motivo.

@@ -4,6 +4,17 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 21/10/2021
+
+- Adición de la presentación de equipos termostatos en modo mesa
+- La histéresis positiva ahora también es posible en el modo de refrigeración
+
+# 14/12/2020
+
+- Modernización de la interfaz
+- Adición de una opción que permite usar solo la histéresis positiva para calentar
+- Se agregó la capacidad de mostrar un comando de su elección en el widget del termostato
+- Actualización de la documentación
 
 # 11/11/2020
 
@@ -22,7 +33,7 @@
 
 # 21/12/2019
 
-- Adición de opción para el umbral del ciclo caliente para permitir tener en cuenta la inercia
+- Adición de una opción para el umbral de ciclo caliente para permitir que se tenga en cuenta la inercia
 
 # 17/12/2019
 
@@ -32,11 +43,11 @@
 # 16/12/2019
 
 - Corrección de errores en modo apagado del termostato
-- La adición de una opción para limitar la duración de un segundo ciclo al 100% del tiempo (permite tener en cuenta el hecho de que los radiadores ya están calientes)
+- Adición de una opción para limitar la duración de un segundo ciclo al 100% del tiempo (permite tener en cuenta que los radiadores ya están calientes)
 
 # 03/11/2019
 
-- Corrección de un error en los comandos huérfanos
+- Se corrigió un error en las órdenes huérfanas
 
 # 23/10/2019
 
@@ -57,7 +68,7 @@
 # 15/08/2019
 
 - Actualizando el documento
-- Soporte para php 7.3
+- Soporte para PHP 7.3
 
 # 07/02/2019
 
@@ -69,7 +80,7 @@
 
 # 29/04/2019
 
-- Adición de una opción "Limita los ciclos de encendido / apagado incesante (pellet, gas, fuel oil) y PID". Gracias @Pierrick
+- Adición de una opción "Limita los ciclos de encendido / apagado (pellet, gas, fuel oil) y PID". Gracias @Pierrick
 
 # 11/03/2019
 
@@ -79,7 +90,7 @@
 
 # 01/04/2019
 
-- Corrección de un error en el inicio inteligente si el calendario se desactiva después de la planificación
+- Se corrigió un error en Smartstart si la agenda se desactivaba después de la programación
 
 # 28/12/2018
 
@@ -109,4 +120,4 @@
 
 # 29/01/2018
 
-- Corrección de errores en aperturas / cierres de ventanas
+- Corrección de errores en las aberturas / cierres de ventanas

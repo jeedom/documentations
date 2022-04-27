@@ -1,5 +1,15 @@
 # Changelog Mode
 
+>**IMPORTANT**
+>
+>As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
+
+# 01/19/2022
+
+- V4.2 optimizations
+
+# 12/12/2021
+
 - Added a button to go to the next mode
 
 # 06/28/2021

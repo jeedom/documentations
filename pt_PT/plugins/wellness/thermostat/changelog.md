@@ -4,6 +4,17 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 21/10/2021
+
+- Acréscimo da apresentação dos equipamentos termostatos em modo mesa
+- Histerese positiva agora também é possível no modo de resfriamento
+
+# 14/12/2020
+
+- Modernização da interface
+- Adição de uma opção que permite usar apenas a histerese positiva para aquecimento
+- Adicionada a capacidade de exibir um comando de sua escolha no widget do termostato
+- Atualização da documentação
 
 # 11/11/2020
 
@@ -22,7 +33,7 @@
 
 # 21/12/2019
 
-- Adição de opção para o limiar do ciclo quente, a fim de permitir levar em consideração a inércia
+- Adição de uma opção para o limite de ciclo quente para permitir que a inércia seja levada em consideração
 
 # 17/12/2019
 
@@ -32,11 +43,11 @@
 # 16/12/2019
 
 - Correção de bug no modo termostato desligado
-- Adição de uma opção para limitar a duração de um segundo ciclo a 100% do tempo (permite levar em consideração o fato de que os radiadores já estão quentes)
+- Acréscimo de uma opção para limitar a duração de um segundo ciclo a 100% do tempo (permite levar em consideração o fato de que os radiadores já estão quentes)
 
 # 03/03/2019
 
-- Correção de um bug nos comandos órfãos
+- Corrigido um bug em pedidos órfãos
 
 # 23/10/2019
 
@@ -57,7 +68,7 @@
 # 15/08/2019
 
 - Atualizando o documento
-- Suporte para php 7.3
+- Suporte para PHP 7.3
 
 # 02/02/2019
 
@@ -69,7 +80,7 @@
 
 # 29/04/2019
 
-- Adição de uma opção "Limita ciclos liga / desliga incessantes (pellet, gás, óleo combustível) e PID". Obrigado @Pierrick
+- Adição de uma opção "Limita os ciclos liga / desliga (pellet, gás, óleo combustível) e PID". Obrigado @Pierrick
 
 # 11/03/2019
 
@@ -79,7 +90,7 @@
 
 # 01/04/2019
 
-- Correção de um bug no início inteligente se o calendário for desativado após o planejamento
+- Corrigido um bug no Smartstart se a agenda fosse desativada após o agendamento
 
 # 28/12/2018
 
@@ -109,4 +120,4 @@
 
 # 29/01/2018
 
-- Correção de bugs em aberturas / fechamentos de janelas
+- Correção de bug em aberturas / fechamentos de janelas

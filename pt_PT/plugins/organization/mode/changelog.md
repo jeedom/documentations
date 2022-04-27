@@ -1,5 +1,15 @@
 # Modo de Registro de Alterações
 
+>**IMPORTANTE**
+>
+>Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
+
+# 19/01/2022
+
+- Otimizações da V4.2
+
+# 12/12/2021
+
 - Adicionado um botão para ir para o próximo modo
 
 # 28/06/2021

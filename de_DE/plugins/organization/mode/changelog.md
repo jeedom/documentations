@@ -1,5 +1,15 @@
 # Änderungsprotokollmodus
 
+>**WICHTIG**
+>
+>Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
+
+# 19.01.2022
+
+- V4.2-Optimierungen
+
+# 12.12.2021
+
 - Schaltfläche hinzugefügt, um zum nächsten Modus zu gelangen
 
 # 28.06.2021

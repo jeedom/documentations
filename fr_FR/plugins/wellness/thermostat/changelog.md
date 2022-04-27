@@ -4,6 +4,17 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 21/10/2021
+
+- Ajout de la présentation des équipements thermostats en mode tableau
+- L'hystérésis positive est désormais également possible en mode climatisation
+
+# 14/12/2020
+
+- Modernisation de l'interface
+- Ajout d'une option permettant de n'utiliser que l'hystérésis positive pour la chauffe
+- Ajout de la possibilité d'afficher une commande de son choix sur le widget du thermostat
+- Mise à jour de la documentation
 
 # 11/11/2020
 
@@ -14,7 +25,7 @@
 
 # 01/06/2020
 
-- Ajout de paramètre de delta consigne - température exterieure pour le calcul de la direction chaud/froid
+- Ajout de paramètre de delta consigne - température extérieure pour le calcul de la direction chaud/froid
 
 # 07/04/2020
 
@@ -22,21 +33,21 @@
 
 # 21/12/2019
 
-- Ajout d'option pour le seuil de cycle chaud afin de permetre la prise en compte de l'inertie
+- Ajout d'une option pour le seuil de cycle chaud afin de permettre la prise en compte de l'inertie
 
 # 17/12/2019
 
 - Correction d'un souci d'affichage
-- Ajout d'une option "Seuil de cycle ou le chauffage est considéré comme chaud"
+- Ajout d'une option "Seuil de cycle où le chauffage est considéré comme chaud"
 
 # 16/12/2019
 
 - Correction de bug sur le mode off du thermostat
-- Ajout d'une option pour limiter la durée d'un second cycle à 100% du temps (permet de prendre en compte le faite que les radiateurs sont déjà chaud)
+- Ajout d'une option pour limiter la durée d'un second cycle à 100% du temps (permet de prendre en compte le fait que les radiateurs sont déjà chauds)
 
 # 03/11/2019
 
-- Correction d'un bug sur les commandes orpheline
+- Correction d'un bug sur les commandes orphelines
 
 # 23/10/2019
 
@@ -57,7 +68,7 @@
 # 15/08/2019
 
 - Mise à jour de la doc
-- Support de php 7.3
+- Prise en charge de php 7.3
 
 # 02/07/2019
 
@@ -69,7 +80,7 @@
 
 # 29/04/2019
 
-- Ajout d'une option "Limite les cycles marche/arrêt incessants (pellet, gaz, fioul) et PID". Merci @Pierrick
+- Ajout d'une option "Limite les cycles marche/arrêt (pellet, gaz, fioul) et PID". Merci @Pierrick
 
 # 11/03/2019
 
@@ -79,7 +90,7 @@
 
 # 04/01/2019
 
-- Correction d'un bug sur le smart start si l'agenda est désactivé après la planification
+- Correction d'un bug sur le Smartstart si l'agenda est désactivé après la planification
 
 # 28/12/2018
 
@@ -97,7 +108,7 @@
 
 # 01/07/2018
 
-- Correction d'un bug sur la suspension du thermostat lors de l'ouverture d'une fenetre
+- Correction d'un bug sur la suspension du thermostat lors de l'ouverture d'une fenêtre
 
 # 06/06/2018
 
@@ -109,4 +120,4 @@
 
 # 29/01/2018
 
-- Correction de bug sur les ouvertures/fermetures de fênetres
+- Correction de bug sur les ouvertures/fermetures de fenêtre

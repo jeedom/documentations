@@ -4,6 +4,17 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 10/21/2021
+
+- Addition of the presentation of thermostats equipment in table mode
+- Positive hysteresis is now also possible in cooling mode
+
+# 12/14/2020
+
+- Modernization of the interface
+- Addition of an option allowing to use only the positive hysteresis for heating
+- Added the ability to display a command of your choice on the thermostat widget
+- Documentation update
 
 # 11/11/2020
 
@@ -22,7 +33,7 @@
 
 # 12/21/2019
 
-- Addition of option for the hot cycle threshold in order to allow the taking into account of the inertia
+- Addition of an option for the hot cycle threshold to allow the inertia to be taken into account
 
 # 12/17/2019
 
@@ -36,7 +47,7 @@
 
 # 11/03/2019
 
-- Correction of a bug on the orphan commands
+- Fixed a bug on orphaned orders
 
 # 10/23/2019
 
@@ -57,7 +68,7 @@
 # 08/15/2019
 
 - Updating the doc
-- Support for php 7.3
+- Support for PHP 7.3
 
 # 07/02/2019
 
@@ -69,7 +80,7 @@
 
 # 04/29/2019
 
-- Addition of an option "Limits incessant on / off cycles (pellet, gas, fuel oil) and PID". Thank you @Pierrick
+- Addition of an option "Limits on / off cycles (pellet, gas, fuel oil) and PID". Thank you @Pierrick
 
 # 03/11/2019
 
@@ -79,7 +90,7 @@
 
 # 01/04/2019
 
-- Correction of a bug on the smart start if the calendar is deactivated after planning
+- Fixed a bug on the Smartstart if the agenda is deactivated after scheduling
 
 # 12/28/2018
 
@@ -109,4 +120,4 @@
 
 # 01/29/2018
 
-- Bug correction on window openings / closings
+- Bug fix on window openings / closings

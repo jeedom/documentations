@@ -1,5 +1,7 @@
 # Plugin de termostato
 
+# Description
+
 Este plugin permite que você crie e gerencie termostatos para controlar o aquecimento da sua casa. Opera em 2 modos, sua escolha :
 
 -   o modo **histerese** corresponde a ligar e desligar o aquecimento em função da temperatura interior, em relação a um limiar correspondente ao ponto de ajuste. A histerese permite evitar comutações muito frequentes quando a temperatura está próxima do ponto definido.
@@ -17,7 +19,7 @@ Entre suas características estão :
 -   um sistema regulatório que aprende a otimizar a regulamentação,
 -   a possibilidade de gerenciar as portas para desengatar o termostato,
 -   gerenciamento de falhas de equipamentos, sensores de temperatura e aquecedores,
--   programação completa com o plug-in de agenda, com a possibilidade de antecipar a alteração do ponto de ajuste para que a temperatura seja atingida no horário programado (início inteligente)
+-   programação completa com o plugin diário, com em particular a possibilidade de antecipar a alteração do setpoint para que a temperatura seja atingida na hora programada (Smartstart)
 
 Primeiro, mostraremos a implementação, depois detalharemos as diferentes configurações da configuração do termostato e, finalmente, através de alguns casos de uso, como podemos enriquecê-la em combinação com outros plugins ou usando cenários.
 
@@ -31,13 +33,13 @@ O termostato Jeedom é muito poderoso, mas para uso tradicional, sua implementa�
 
 Depois, existem guias diferentes :
 
--   A configuração do modo define temperaturas pré-determinadas. Por exemplo, modo conforto a 20 ° C, eco a 18 ° C. Também pode haver dia, noite, férias, ausência, ... você começa a ver aqui as possibilidades de personalização do plugin.
+-   A configuração do modo define temperaturas pré-determinadas. Por exemplo, modo conforto a 20 ° C, eco a 18 ° C. Pode haver dia, noite, férias, ausência, etc ... aqui você começa a ver as possibilidades de customização do plugin.
 -   Para refinar o modo de operação do termostato, você também poderá configurar aberturas que interromperão temporariamente o regulamento (por exemplo, uma janela aberta pode interromper o aquecimento). A definição dessa interrupção é feita aqui simplesmente.
 -   O gerenciamento de modos de falha para sensores de temperatura ou para aquecimento permite definir ações a serem executadas para um modo degradado.
 -   A guia Configuração avançada permite ajustar os parâmetros de regulação do aquecimento.
 -   Se, além disso, você tiver o plug-in Agenda, as alterações no modo de programação serão possíveis diretamente na guia de programação.
 
-Agora o seu termostato está operacional e, usando cenários ou combinando-o com outros plugins (agenda, virtual, presença, ...), ele se misturará suavemente à sua instalação de automação residencial. É isso que temos no painel :
+Agora o seu termostato está operacional e, usando cenários ou combinando-o com outros plugins (agenda, virtual, presença, ...), ele se misturará suavemente à sua instalação de automação residencial. Isso é o que obtemos por padrão no Painel :
 
 ![Aspect sur le Dashboard](./images/thermostat.png)
 
@@ -45,7 +47,7 @@ A trava no widget permite bloquear o termostato em um determinado ponto de ajust
 
 ## A criação de um termostato em detalhes
 
-Para criar um novo termostato, vá para a página de configuração rolando o menu Plugins / Bem-estar e selecione Termostato. Clique no botão *Adicionar* localizado no canto superior esquerdo e digite o nome desejado para o seu termostato.
+Para criar um novo termostato, vá para a página de configuração puxando para baixo o menu **Plugins → Conforto** e selecione **Termostato**. Clique no botão **Adicionar** localizado no canto superior esquerdo e digite o nome desejado para o seu termostato.
 
 ![Configuração générale](./images/thermostat_config_générale.png)
 
@@ -57,19 +59,23 @@ Primeiro, informaremos os parâmetros gerais do termostato. Eles são encontrado
 
 Destacado nesta imagem está o motor de operação do termostato. Existem 2 algoritmos possíveis para regulação da temperatura.
 
-Quando você seleciona o modo Histerese, o aquecimento inicia assim que a temperatura é menor que o ponto de ajuste menos a histerese e desliga assim que a temperatura excede o ponto de ajuste mais a histerese.
+Quando você seleciona o modo **Histerese**, o seu aquecimento arranca assim que a temperatura é inferior ao setpoint menos a histerese e desliga-se assim que a temperatura excede o setpoint mais a histerese.
 
 ![Principe du mode histerese](./images/PrincipeHysteresis.png)
 
 Por exemplo, se a histerese for definida em 1 ° C e o valor definido for 19 ° C, o aquecimento será ativado quando a temperatura cair abaixo de 18 ° C e parar assim que atingir 20 ° C.
 
-Os parâmetros a serem fornecidos são a histerese em ° C e o comando que permite recuperar a medição de temperatura. A histerese será ajustada de acordo com a precisão do sensor, por exemplo, para uma sonda precisa em 0.5 ° C, uma histerese de 0.2 ° C é um bom compromisso.
+Os parâmetros a serem fornecidos são o valor da histerese em ° C e o comando que permite a recuperação da medição da temperatura. A histerese será ajustada de acordo com a precisão do sensor, por exemplo, para uma sonda precisa em 0.5 ° C, uma histerese de 0.2 ° C é um bom compromisso.
 
-> **Dica**
+É possível levar em consideração apenas a histerese positiva marcando a caixa **Histerese positiva**. No modo "Aquecimento", o termostato liga-se assim que a temperatura interior for inferior ao setpoint ou, no modo "Ar condicionado", assim que a temperatura interior for superior ao setpoint.
+
+![Histerese](./images/thermostat1.png)
+
+> **EM FORMAÇÃO**
 >
-> O parâmetro de histerese é encontrado na guia *progresso*.
+> Os parâmetros relacionados à histerese podem ser encontrados na aba **Adiantamento**.
 
-No caso do modo de tempo, o controle de aquecimento ou resfriamento é definido em um ciclo predefinido e a duração da execução do controle é uma função da diferença entre o ponto de ajuste e a temperatura medida pelo sensor. O algoritmo também calculará o tempo de aquecimento (ou resfriamento) ao longo de um ciclo, de acordo com a inércia e o isolamento da sala.
+No caso do modo **Temporal**, o comando de aquecimento ou ar condicionado é definido em um ciclo pré-definido e o tempo de execução do comando depende da diferença entre o setpoint e a temperatura medida pelo sensor. O algoritmo também calculará o tempo de aquecimento (ou resfriamento) ao longo de um ciclo, de acordo com a inércia e o isolamento da sala.
 
 ![Principe du mode temporal](./images/PrincipeTemporel.png)
 
@@ -77,23 +83,25 @@ Por fim, quanto maior o tempo de ciclo, mais lenta a regulação. Por outro lado
 
 Esse tipo de regulação é mais otimizado, melhora o conforto e permite uma economia substancial de energia.
 
-## A configuração
+## A configuração geral
 
-Além do motor de operação do termostato, você pode decidir se o termostato é usado em aquecimento, ar condicionado ou ambos. Então você indica seu alcance de uso : as temperaturas mínimas e máximas definirão os possíveis valores de setpoint acessíveis no widget.
+Além do modo de operação do termostato, você pode decidir se o termostato é usado em aquecimento, refrigeração ou ambos os modos. Então você indica seu alcance de uso : os pontos de ajuste mínimo e máximo irão definir os possíveis valores de ponto de ajuste acessíveis no widget.
 
 ![Configuração du fonctionnement](./images/configFonctionnement.png)
 
-Em seguida, especifique os comandos que medem a temperatura e controlam o aquecimento ou o ar condicionado. Observe que o motor do tempo precisa conhecer a temperatura externa. Se você não possui um sensor externo, isso pode ser fornecido pelo plugin do clima.
+Então, você deve especificar os comandos que permitem medir as temperaturas. Observe que o modo Temporal absolutamente precisa saber a temperatura externa. Se você não tiver um sensor externo, ele pode ser fornecido pelo plugin "Previsão do tempo"".
 
 ![Sélection des sondes](./images/selectionsondes.png)
 
-> **Dica**
+> **DICA**
 >
-> Os campos "Limite inferior de temperatura" e "Limite superior de temperatura" definem a faixa de operação do termostato fora do qual uma falha de aquecimento é acionada. Veja o parágrafo sobre ações padrão abaixo.
+> Os campos `` Temperatura mínima '' e `` Temperatura máxima '' definem a faixa de operação do termostato fora da qual uma falha de sensor é acionada *(Veja o parágrafo sobre ações padrão abaixo*).
 
-Você também tem um campo para indicar o consumo por dia em kWh do seu aquecimento (se você tiver caso contrário não importa). Isto permite que o plugin do termostato lhe dê uma indicação do desempenho do seu aquecimento (ele apenas faz o cálculo de acordo com o consumo / grau de dia unificado)
+Também é possível indicar o consumo por dia em kWh do seu aquecimento *(facultatif)* que exibirá uma indicação do desempenho do seu aquecimento ao fazer o cálculo **consumo / DJU** *(grau-dia unificado)*. Você também pode exibir qualquer comando de sua escolha no termostato inserindo-o no campo **Ordem pessoal**.
 
-Para o controle do radiador ou do ar condicionado, é descrito na guia *Estoque*. Aqui podemos definir várias ações, o que dá ao nosso termostato a capacidade de controlar diferentes equipamentos (caso de operação de zona, por exemplo, ou controle de outro termostato)
+## Acções
+
+Tudo relacionado aos controles do radiador ou ar condicionado é descrito na guia **Estoque**. Várias ações podem ser definidas lá, o que dá ao nosso termostato a possibilidade de controlar diferentes equipamentos (caso de operação por zona por exemplo ou controle de outro termostato)
 
 ![Estoque sur les appareils](./images/actionssurappareil.png)
 
@@ -101,9 +109,9 @@ Ações são aquelas que permitem aquecimento, resfriamento (ar condicionado), p
 
 ## Modas : o ponto de partida para automação
 
-Os modos (definidos na guia *Modos*) são diretrizes de termostato predeterminadas que se adaptam ao seu estilo de vida. Por exemplo, o modo **Noite** onde **Eco** dê a temperatura que você quer quando todo mundo estiver dormindo. O modo **Dia** onde **Conforto** determina o comportamento do termostato para ter uma temperatura confortável quando você estiver presente em casa. Nada está congelado aqui. Você pode definir quantos modos quiser usá-los em cenários (voltaremos a isso mais tarde).
+Os modos (definidos na guia **Modos**) são diretrizes de termostato predeterminadas que se adaptam ao seu estilo de vida. Por exemplo, o modo *Noite* onde *Eco* dê a temperatura que você quer quando todo mundo estiver dormindo. O modo *Dia* onde *Conforto* determina o comportamento do termostato para ter uma temperatura confortável quando você estiver presente em casa. Nada está congelado aqui. Você pode definir quantos modos quiser usá-los em cenários (voltaremos a isso mais tarde).
 
-Na imagem abaixo, o modo **Conforto** tem um ponto de ajuste de 19 ° C e para o modo **Eco**, o termostato está ajustado em 17 ° C. O modo **Férias** programa o termostato a 15 ° C em caso de ausência prolongada. Não é visível no painel, porque é um cenário que programa todos os equipamentos em *Férias* e, assim, posicione o termostato neste modo.
+Na imagem abaixo, o modo *Conforto* tem um ponto de ajuste de 19 ° C e para o modo *Eco*, o termostato está ajustado em 17 ° C. O modo *Férias* programa o termostato a 15 ° C em caso de ausência prolongada. Não é visível no painel, porque é um cenário que programa todos os equipamentos em *Férias* e, assim, posicione o termostato neste modo.
 
 ![Définition des modes](./images/Definitionmodes.png)
 
@@ -125,20 +133,18 @@ Imagine que deseja interromper temporariamente o aquecimento ou o ar-condicionad
 
 ![Configuração des ouvertures](./images/configouvertures.png)
 
+Você pode definir o envio de um alerta se uma das portas inseridas nesta página permanecer aberta por mais de `XX` minutos.
+
 Para configurar a operação quando a janela é aberta :
 
--   selecione as informações do sensor de abertura no campo `Opening`
--   ajuste o tempo antes de o termostato desligar após abrir na seção `Desligue se abrir mais de (min) :``
--   ajuste o tempo após fechar a janela, permitindo que o termostato seja reiniciado no `Ligar, se estiver fechado desde (min) :``
+-   selecione as informações do sensor de abertura no campo `Abrindo`
+-   ajuste o tempo antes de o termostato desligar após abrir na seção `Desligue se abrir mais de (min.) :``
+-   ajuste o tempo após fechar a janela, permitindo que o termostato seja reiniciado no `Ligar, se estiver fechado desde (min.) :``
 -   Clique no botão *Salvar* registrar a inclusão de aberturas
 
-> **Dica**
+> **DICA**
 >
 > É possível definir várias aberturas, isso é necessário quando o termostato controla uma área composta por várias salas.
-
-> **Dica**
->
-> É possível definir um alerta se a abertura durar mais de xx minutos.
 
 ## Preveja um modo degradado graças ao gerenciamento de falhas
 
@@ -146,11 +152,11 @@ As falhas podem advir dos sensores de temperatura ou do controle de aquecimento.
 
 ### Falha na sonda de temperatura
 
-Se as sondas usadas pelo termostato não retornarem nenhuma **mudar** temperatura, por exemplo, se as baterias estiverem gastas, o termostato inicia ações de falha. Quando a falha ocorre, é possível colocar o dispositivo em um modo de operação predeterminado, por exemplo, forçando a ordem de um radiador de fio piloto. Mais simplesmente, o envio de uma mensagem por sms ou uma notificação permite ser avisado e intervir manualmente.
+Se os sensores usados pelo termostato não retornam uma mudança de temperatura, por exemplo, no caso de desgaste da bateria, o termostato inicia ações de falha. Quando a falha ocorre, é possível colocar o dispositivo em um modo de operação predeterminado, por exemplo, forçando a ordem de um radiador de fio piloto. Mais simplesmente, o envio de uma mensagem por sms ou uma notificação permite ser avisado e intervir manualmente.
 
-> **Dica**
+> **IMPORTANTE**
 >
-> O parâmetro que permite ao termostato decidir sobre uma falha na sonda está localizado na guia *Progresso*. Este é o `tempo máximo entre 2 leituras de temperatura`.
+> O parâmetro que permite ao termostato decidir sobre uma falha na sonda está localizado na guia *Adiantamento*. Este é o `tempo máximo entre 2 mudanças de temperatura`.
 
 ![Défaillance des sondes](./images/defaillancesonde.png)
 
@@ -160,17 +166,15 @@ Para definir uma ação de falha :
 -   Clique no botão *Adicionar uma ação de falha*
 -   selecione uma ação e preencha os campos associados
 
-Você pode inserir várias ações, que serão executadas em sequência e, no caso de ações mais complexas, chamar um cenário (digite `cenário` sem acento no campo de ação e clique em outro lugar para poder inserir o nome do cenário).
+Você pode inserir várias ações, que serão executadas em sequência e, no caso de ações mais complexas, chamar um cenário *(digite `cenário` sem acento no campo de ação e clique em outro lugar para poder inserir o nome do cenário)*.
 
 ### Falha no aquecimento / ar condicionado
 
 O bom funcionamento do aquecimento ou do ar condicionado é condicionado por um bom acompanhamento das instruções. Assim, se a temperatura se desvia da faixa de operação do termostato, inicia ações de falha de aquecimento / ar condicionado. Esta análise é realizada ao longo de vários ciclos.
 
-> **Dica**
+> **IMPORTANTE**
 >
-> O parâmetro que permite ao termostato decidir sobre uma falha na sonda está localizado na guia *Progresso*. Estas são as margens de falha a quente para aquecimento e a margem de falha a frio para o ar condicionado.
-
-Nesta imagem, a ação de falha envia a ordem para alternar para o modo ECO do radiador pelo fio piloto e, em seguida, envia uma mensagem pelo plug-in pushbullet.
+> O parâmetro que permite ao termostato decidir sobre uma falha na sonda está localizado na guia *Adiantamento*. Estas são as margens de falha a quente para aquecimento e a margem de falha a frio para o ar condicionado.
 
 ![Défaillance du chauffage](./images/defaillancechauffage.png)
 
@@ -180,14 +184,13 @@ Para definir uma ação de falha :
 -   Clique no botão *Adicionar uma ação de falha*
 -   selecione uma ação e preencha os campos associados
 
-Você pode inserir várias ações, que serão executadas em sequência e, no caso de ações mais complexas, chamar um cenário (digite `cenário` sem acento no campo de ação e clique em outro lugar para poder inserir o nome do cenário).
+Você pode inserir várias ações, que serão executadas em sequência e, no caso de ações mais complexas, chamar um cenário *(digite `cenário` sem acento no campo de ação e clique em outro lugar para poder inserir o nome do cenário)*.
 
 ## Gerenciar casos especiais com a configuração avançada do termostato
 
 Esta guia contém todos os parâmetros para ajustar o termostato no modo de tempo. Na maioria dos casos, não é necessário modificar esses valores, pois o auto-aprendizado calculará automaticamente os coeficientes. No entanto, mesmo que o termostato possa se adaptar à maioria dos casos, é possível ajustar os coeficientes para uma configuração otimizada para sua instalação.
 
-![Configuração progresso du
-termostato](./ images / configurationavancee.png)
+![Configuração avancée du thermostat](./images/configurationavancee.png)
 
 Os coeficientes são os seguintes :
 
@@ -205,9 +208,9 @@ Os coeficientes são os seguintes :
 - **Limita ciclos liga / desliga incessantes (pellet, gás, óleo combustível) e PID** : Esta opção permite regular com diferentes níveis de aquecimento. O retorno da energia do próximo ciclo deve atribuir o novo ponto de ajuste do nível de aquecimento ao aquecedor. Os ciclos terminam em 100%, portanto, tenha um tempo de ciclo curto.
 - **Ponto de ajuste Delta - temperatura externa para direção quente / fria** : o termostato escolhe a direção (aquecimento ou ar condicionado) de acordo com o ponto de ajuste e a temperatura externa (por razões de economia, pressupõe-se que a temperatura interna incline para a temperatura externa). Com esses parâmetros, você pode alterar o limite. Ex : se você deseja 25 e está 22 fora, por padrão, o termostato entra no modo de aquecimento (basta colocar neste modo para o cálculo, não significa que ele irá aquecer), configurando o delta quente para 4 não aquecerá mais porque 25-22 = 3 e 3 <4, portanto, entrará no modo de resfriamento (se a temperatura interna estiver acima do ponto de ajuste)
 
-> **Dica**
+> **Saber**
 >
-> A aprendizagem está sempre ativa. Mas a fase de inicialização pode ser relativamente longa (cerca de 3 dias). Durante esta fase, é necessário ter períodos suficientemente longos durante os quais o ponto de ajuste não muda.
+> A autoaprendizagem ainda está ativa. No entanto, a fase de inicialização pode ser relativamente longa *(conte cerca de 3 dias)*. Durante esta fase, é necessário ter períodos suficientemente longos durante os quais o ponto de ajuste não muda.
 
 ## Controles do termostato
 
@@ -330,14 +333,14 @@ No menu `Home`, existe o submenu` Thermostat`. A janela que aparece quando você
 >
 >Verifique se o seu termostato não está bloqueado
 
->**No modo histórico, meu termostato nunca muda de estado**
+>**No modo de histerese, meu termostato nunca muda de estado**
 >
 >Como as sondas de temperatura não aumentam automaticamente seu valor, é aconselhável configurar um "Cron de controle"
 
->**As curvas do termostato (especialmente o ponto de ajuste) não parecem corretas**
+>**As curvas do termostato (em particular o setpoint) não parecem estar corretas**
 >
->Veja o lado de suavização do histórico de pedidos em questão. De fato, para obter eficiência, Jeedom calcula a média dos valores acima de 5 minutos e depois de uma hora.
+>Veja o lado de suavização do histórico de pedidos em questão. De fato, para ganhar em eficiência, a Jeedom calcula a média dos valores ao longo de 5 minutos e depois ao longo da hora.
 
 >**A guia modo / ação está vazia e, quando clico nos botões de adição, não faz nada**
 >
->Tente desativar o Adblock (ou qualquer outro bloqueador de anúncios), por algum motivo desconhecido, eles bloqueiam o JavaScript da página sem motivo.
+>Tente desabilitar o Adblock (ou qualquer outro bloqueador de anúncios), por alguma razão desconhecida eles bloqueiam o javaScript da página sem motivo.
