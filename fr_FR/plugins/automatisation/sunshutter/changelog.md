@@ -4,6 +4,10 @@
 >
 >Pour rappel, s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 02/05/2022
+
+- Correction de bug (merci @florentde)
+
 # 07/01/2022
 
 - Réécriture des logs et optimisation du code

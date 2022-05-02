@@ -48,18 +48,6 @@ Details des parametres :
 
 
 
-OPERATION DE CALCUL SUR COMMANDES :
-
-- Un champ Operation se trouve sur chaque commande: cela permet de faire une operation de calcul sur la valeur retournée apres conversion sur JEEDOM_SOCKET_MESSAGE
-
-Cela fonctionne avec les opérateurs /, *, +
-
-Exemple:  Si vous entrez la ligne   /10    , alors la valeur renvoyée par la commande sera bien divisé par 10
-
-IMPORTANT: Ne pas mettre d'espace entre l'opérateur et le coefficient
-
-
-
 
 COMMANDES DE LECTURE :
 

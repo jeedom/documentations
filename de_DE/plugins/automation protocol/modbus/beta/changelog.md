@@ -12,7 +12,11 @@
 
 - Fc16-Funktion für SPS ohne Fc6
 
-# 04.04.2022
+# 20.03.2022
 
-- Fix für unitID
-- Neues Feld pro Befehl für Calculation OperationValueOffset
+- Funktion Fc16 Register nicht befolgt
+
+
+# 02.05.2022
+
+- Export- und Importfunktion von Bestellungen nach Equipment

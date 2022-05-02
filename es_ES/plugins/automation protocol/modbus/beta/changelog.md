@@ -12,7 +12,11 @@
 
 - Función Fc16 para autómatas sin Fc6
 
-# 04/04/2022
+# 20/03/2022
 
-- Arreglo para unitID
-- Nuevo campo por comando para Cálculo OperationValueOffset
+- Función Fc16 Registro no seguido
+
+
+# 05/02/2022
+
+- Función de Exportación e Importación de pedidos por Equipo

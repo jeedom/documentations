@@ -4,6 +4,10 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas da atualização de documentação, tradução ou texto.
 
+# 02/05/2022
+
+- Correção de bug (obrigado @florentde)
+
 # 01/07/2022
 
 - Reescrever registros e otimizar código

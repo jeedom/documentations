@@ -48,18 +48,6 @@ Detalhes do parâmetro :
 
 
 
-OPERAÇÃO DE CÁLCULO EM ENCOMENDAS :
-
-- Um campo de operação está em cada pedido: isso permite que você execute uma operação de cálculo no valor retornado após a conversão em JEEDOM_SOCKET_MESSAGE
-
-Funciona com os operadores /, *, +
-
-Exemple:  Se você inserir a linha /10, o valor retornado pelo comando será bem dividido por 10
-
-IMPORTANT: Não coloque um espaço entre o operador e o coeficiente
-
-
-
 
 CONTROLES DE REPRODUÇÃO :
 

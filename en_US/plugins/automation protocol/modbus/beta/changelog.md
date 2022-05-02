@@ -12,7 +12,11 @@
 
 - Fc16 function for PLCs without Fc6
 
-# 04/04/2022
+# 03/20/2022
 
-- Fix for unitID
-- New field per command for Calculation OperationValueOffset
+- Function Fc16 Register not followed
+
+
+# 02/05/2022
+
+- Export and Import function of orders by Equipment

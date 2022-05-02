@@ -48,18 +48,6 @@ Parameter details :
 
 
 
-CALCULATION OPERATION ON ORDERS :
-
-- An Operation field is on each order: this makes it possible to perform a calculation operation on the value returned after conversion to JEEDOM_SOCKET_MESSAGE
-
-It works with /, *, + operators
-
-Exemple:  If you enter the /10 line, then the value returned by the command will be well divided by 10
-
-IMPORTANT: Do not put a space between the operator and the coefficient
-
-
-
 
 PLAYBACK CONTROLS :
 
