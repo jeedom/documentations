@@ -338,3 +338,7 @@ cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py flas
 cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py probe -p /dev/ttyS2
 rm -rf /tmp/elelabs-zigbee-ezsp-utility-master
 ````
+
+>**Je n'arrive pas a installer les dépendances**
+>
+>Cela peut venir d'un soucis avec la version de pip3, pour corriger il faut aller dans la configuration de Jeedom, onglet OS/DB puis lancer la console OS et faire : `sudo pip3 install --upgrade pip` puis relancer l'installation des dépendances. Si ca ne marche pas vous pouvez essayer de faire `sudo apt remove -y python3-openssl;sudo pip3 install --upgrade pip` et relancer l'installation des dépendances.
