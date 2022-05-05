@@ -1,0 +1,43 @@
+{
+    "id": "zwavejs",
+    "name": "Z-Wave JS",
+    "description": {
+        "fr_FR": "Plugin pour contrôler les équipements ZWave",
+        "en_US": "Plugin to control ZWave equipment",
+        "es_ES": "Plugin para controlar equipos ZWave",
+        "de_DE": "Plugin zur Steuerung von ZWave-Geräten",
+        "ru_RU": "Plugin pour contrôler les équipements ZWave",
+        "id_ID": "Plugin pour contrôler les équipements ZWave",
+        "it_IT": "Plugin pour contrôler les équipements ZWave",
+        "ja_JP": "Plugin pour contrôler les équipements ZWave",
+        "pt_PT": "Plugin para controlar equipamentos ZWave",
+        "tr": "Plugin pour contrôler les équipements ZWave"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2.11",
+    "category": "automation protocol",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 45,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/zwavejs\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/zwavejs\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "Jeedomboard",
+        "Smart",
+        "RPI\/RPI2",
+        "Docker",
+        "DIY",
+        "v4",
+        "atlas"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/zwavejs\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/zwavejs\/beta"
+}

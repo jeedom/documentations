@@ -970,5 +970,20 @@
         "Documentation beta": "Documentation beta",
         "Market": "Market",
         "Changelog beta": "Changelog beta"
+    },
+    "plugins\/zwavejs\/index.md": {
+        "Plugin pour contrôler les équipements ZWave": "Plugin pour contrôler les équipements ZWave",
+        "Z-Wave JS": "Z-Wave JS",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "IMPORTANT": "IMPORTANT",
+        "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
+        "ici": "ici",
+        "Vous pouvez voir": "Vous pouvez voir",
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation beta": "Documentation beta",
+        "Market": "Market",
+        "Changelog beta": "Changelog beta"
     }
 }
