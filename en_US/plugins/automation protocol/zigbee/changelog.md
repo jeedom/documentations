@@ -12,6 +12,11 @@
 >
 >To take advantage of the latest module integration, don't hesitate to update the dependencies
 
+- Bug fix
+- New module support 
+- Fixed a bug on adding a module to a group
+- Added sending timezone when sending time to modules
+
 # 03/31/2022
 
 - Fixed an issue preventing the daemon from starting due to the new version of zigpy

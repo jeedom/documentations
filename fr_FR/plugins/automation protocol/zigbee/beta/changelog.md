@@ -12,10 +12,13 @@
 >
 >Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
 
+# 05/05/2022
+
 - Correction de bug
 - Support de nouveau module 
 - Correction d'un bug sur l'ajout d'un module à un groupe
 - Ajout de l'envoi de la timezone lors de l'envoi de l'heure aux modules
+- Corrections de bug sur l'installation des dépendances
 
 # 31/03/2022
 

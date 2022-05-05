@@ -12,10 +12,13 @@
 >
 >To take advantage of the latest module integration, don't hesitate to update the dependencies
 
+# 05/05/2022
+
 - Bug fix
 - New module support 
 - Fixed a bug on adding a module to a group
 - Added sending timezone when sending time to modules
+- Bug fixes on dependencies installation
 
 # 03/31/2022
 

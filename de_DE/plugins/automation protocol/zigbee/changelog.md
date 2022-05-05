@@ -12,6 +12,11 @@
 >
 >Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
 
+- Fehlerbehebung
+- Neue Modulunterstützung 
+- Fehler beim Hinzufügen eines Moduls zu einer Gruppe behoben
+- Sendezeitzone hinzugefügt, wenn Zeit an Module gesendet wird
+
 # 31.03.2022
 
 - Es wurde ein Problem behoben, das den Start des Daemons aufgrund der neuen Version von zigpy verhinderte

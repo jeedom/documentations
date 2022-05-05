@@ -12,10 +12,13 @@
 >
 >Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
 
+# 05/05/2022
+
 - Correção de bug
 - Suporte ao novo módulo 
 - Corrigido um bug ao adicionar um módulo a um grupo
 - Adicionado fuso horário de envio ao enviar tempo para módulos
+- Correções de bugs na instalação de dependências
 
 # 31/03/2022
 

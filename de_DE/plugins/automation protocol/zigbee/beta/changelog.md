@@ -12,10 +12,13 @@
 >
 >Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
 
+# 05.05.2022
+
 - Fehlerbehebung
 - Neue Modulunterstützung 
 - Fehler beim Hinzufügen eines Moduls zu einer Gruppe behoben
 - Sendezeitzone hinzugefügt, wenn Zeit an Module gesendet wird
+- Fehlerbehebungen bei der Installation von Abhängigkeiten
 
 # 31.03.2022
 
