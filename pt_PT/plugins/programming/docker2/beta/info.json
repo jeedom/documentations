@@ -39,7 +39,8 @@
         "diy",
         "mobile",
         "v4",
-        "atlas"
+        "atlas",
+        "smart"
     ],
     "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/docker2\/beta\/changelog",
     "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/docker2\/beta"
