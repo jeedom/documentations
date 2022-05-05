@@ -1,5 +1,11 @@
 # Changelog Jeedom V4.2
 
+## 4.2.15
+
+- Bugfix UI : Scénario : Ajout de l'action *genericType* dans la modale de sélection.
+- Bugfix Core : Correction du décalage sur les historiques calculés.
+- Bugfix : Installation des dépendances du plugin zigbee
+
 ## 4.2.14
 
 - Bugfix UI : Recherche supprimée en activant l'option log brut.
@@ -7,7 +13,7 @@
 - Bugfix UI : Widget cmd.action.slider.value
 
 - Bugfix Core : Taille des images de fond en rapport avec la taille du design.
-- Bugfix Core : correction d'un soucis sur les clefs api toujours en désactivées
+- Bugfix Core : Correction d'un soucis sur les clefs api toujours en désactivées.
 
 ## 4.2.13
 
