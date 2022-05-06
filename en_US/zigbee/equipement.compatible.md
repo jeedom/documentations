@@ -76,7 +76,9 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/TYZB01_rifa0wlb.TS0011.png" width="60" />|GR-SMARTHOME|Motorization for 1/4 turn valve|Vanne||[Buy](https://www.domadoo.fr/fr/peripheriques/5264-gr-smarthome-motorisation-zigbee-30-pour-vanne-14-de-tour.html)|
+|<img src="../../en_US/zigbee/images/TZ3000_iedbgyxt.TS0001.png" width="60" />|GR-SMARTHOME|GR-SMARTHOME - ZIGBEE 3 MOTORIZATION.0 FOR 1/4 TURN VALVE|||[Documentation](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2823)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5264-gr-smarthome-motorisation-zigbee-30-pour-vanne-14-de-tour.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/TZ3000_m8gy8jy1.TS0001.png" width="60" />|GR-SMARTHOME|Motorization for 1/4 turn valve|Vanne||[Buy](https://www.domadoo.fr/fr/peripheriques/5264-gr-smarthome-motorisation-zigbee-30-pour-vanne-14-de-tour.html)|
+|<img src="../../en_US/zigbee/images/TZ3000_z8wel7lz.TS0001.png" width="60" />|GR-SMARTHOME|GR-SMARTHOME - ZIGBEE 3 MOTORIZATION.0 FOR 1/4 TURN VALVE|||[Documentation](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2823)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5264-gr-smarthome-motorisation-zigbee-30-pour-vanne-14-de-tour.html?domid=4&id_campaign=9)|
 
 # Gewiss
 
@@ -286,6 +288,7 @@
 |<img src="../../en_US/zigbee/images/adeo.LXEK-4.png" width="60" />|Adeo|LEXMAN ENKI - Smart bulb||||
 |<img src="../../en_US/zigbee/images/adeo.LXEK-5.png" width="60" />|Adeo|LEXMAN ENKI - Remote control for connected RGB bulbs||||
 |<img src="../../en_US/zigbee/images/adeo.LXEK-7.png" width="60" />|Adeo|LEXMAN ENKI - Smart bulb||||
+|<img src="../../en_US/zigbee/images/adeo.ZBEK-3.png" width="60" />|Adeo|LEXMAN ENKI E14 40W - Smart bulb||||
 
 # Alfawise
 
@@ -314,6 +317,18 @@
 |<img src="../../en_US/zigbee/images/CASAIA.CSLC601-D.png" width="60" />|Casaia|ZIGBEE DRY CONTACT RELAY MODULE (230V - 10A)|Contacteur||[Documentation](https://casaia.fr/product/module-relais-contact-sec-zigbee-2/?attachment_id=2531&download_file=sot05ddz1k2wn)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5573-casaia-module-relais-contact-sec-zigbee-230v-10a-3770021021113.html)|
 |<img src="../../en_US/zigbee/images/CASAIA.CSLC631-3.png" width="60" />|Casaia|Zigbee triple relay module|Contacteur||[Documentation](https://casaia.fr/product/module-triple-relais-zigbee/?attachment_id=2518&download_file=c2digfwrhtylk)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5577-casaia-module-triple-relais-zigbee-3770021021151.html)|
 |<img src="../../en_US/zigbee/images/CASAIA.CTHS317ET.png" width="60" />|Casaia|Remote temperature probe on cable|||[Buy](https://www.domadoo.fr/fr/peripheriques/5572-casaia-sonde-de-temperature-deportee-sur-cable-zigbee-3770021021052.html)|
+
+# ClimaxTechnology
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/ACGS_00.00.03.05TC.png" width="60" />|ClimaxTechnology|Glass Break Detector|Capteur||[Documentation](https://www.climax.com.tw/new/downloads/ACGS-23ZBS_Product_News_20210701.pdf)<br/>|
+|<img src="../../en_US/zigbee/images/LMHT-HT_00.00.03.12TC .png" width="60" />|ClimaxTechnology|Temperature, humidity, brightness sensor|Sensor, Humidity, Temperature, Brightness||[Documentation](https://www.climax.com.tw/new/downloads/LMHT-1ZBS_Product_News_20121-0512.pdf)<br/>|
+|<img src="../../en_US/zigbee/images/PB23_00.00.03.09TC.png" width="60" />|ClimaxTechnology|Panic Button|||[Documentation](https://www.climax.com.tw/new/downloads/PB-23ZBS_Product%20News%2020190702.pdf)<br/>|
+|<img src="../../en_US/zigbee/images/PCM_00.00.03.09TC.png" width="60" />|ClimaxTechnology|Energy Meter|Sensor, Consumption||[Documentation](https://www.climax.com.tw/new/downloads/EMD-1ZBS_Product_News_2021_0423.pdf)<br/>|
+|<img src="../../en_US/zigbee/images/RS_00.00.03.04TC.png" width="60" />|ClimaxTechnology|Temperature and humidity sensor|Sensor, Humidity, Temperature||[Documentation](https://www.climax.com.tw/new/downloads/RS-23R2-ZBS_Product%20News_20200603.pdf)<br/>|
+|<img src="../../en_US/zigbee/images/TSO-OTA_00.00.03.09TC.png" width="60" />|ClimaxTechnology|Temperature sensor|Sensor, Humidity, Temperature||[Documentation](https://www.climax.com.tw/new/downloads/TSO-9-EL-ZBS_Product%20News_20201111.pdf)<br/>|
+|<img src="../../en_US/zigbee/images/XE11P_00.00.03.03T.png" width="60" />|ClimaxTechnology|Input / Output Switch|Sensor, Humidity, Temperature||[Documentation](https://www.climax.com.tw/new/downloads/XE-11_Product%20News_20210503.pdf)<br/>|
 
 # Danalock
 
@@ -375,6 +390,7 @@
 |<img src="../../en_US/zigbee/images/gledopto.GL-C-007.png" width="60" />|Gledopto|GL-C-007||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-C-008P.png" width="60" />|Gledopto|GL-C-008P||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-C-008S.png" width="60" />|Gledopto|GL-C-008S||||
+|<img src="../../en_US/zigbee/images/gledopto.GL-FL-006P.png" width="60" />|Gledopto|GL-FL-006P||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-G-001ZS.png" width="60" />|Gledopto|GL-G-001ZS||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-MC-001.png" width="60" />|Gledopto|Gledopto RGBCCT tape||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-MC-001P.png" width="60" />|Gledopto|Gledopto RGBCCT tape||||
@@ -460,6 +476,7 @@
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_remote_control.png" width="60" />|Ikea|5 button remote control|Remote control||[Documentation](https://www.ikea.com/fr/fr/manuals/tradfri-remote-control__AA-2144014-1_pub.pdf)<br/>|
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRI_signal_repeater.png" width="60" />|Ikea|Ikea repeateur||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRIbulbE27WSglobeopal1055lm.png" width="60" />|Ikea|Bulb E27 1055lm||||
+|<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRIbulbE27WWclear250lm.png" width="60" />|Ikea|TRADFRI bulb E27 WW clear 250lm||||
 |<img src="../../en_US/zigbee/images/IKEA_of_Sweden.TRADFRIbulbGU10WS345lm.png" width="60" />|Ikea|Bulb GU10 WS 350lm||||
 |<img src="../../en_US/zigbee/images/KE.TRADFRI_openclose_remote.png" width="60" />|Ikea|2 button blind remote control||||
 
@@ -473,19 +490,19 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/Innr.AE_260.png" width="60" />|Innr|INNR AE 260||||
-|<img src="../../en_US/zigbee/images/Innr.FL_140_C.png" width="60" />|Innr|INNR FLEXIBLE TAPE INDOOR RGBW|||[Buy](https://www.domadoo.fr/fr/peripheriques/5455-innr-ruban-flexible-indoor-couleur-4m-couleur-et-blanc-variable-2000k-a-6500k-8718781552725.html?domid=4&id_campaign=9)|
-|<img src="../../en_US/zigbee/images/Innr.OFL_140_C.png" width="60" />|Innr|INNR Outdoor Flex Light Color|||[Buy](https://www.domadoo.fr/fr/eclairage/5482-innr-ruban-flexible-outdoor-couleur-4m-zigbee-lightlink-8718781552527.html?domid=4&id_campaign=9)|
-|<img src="../../en_US/zigbee/images/Innr.OSL_130_C.png" width="60" />|Innr|OSL 130 C|||[Buy](https://www.domadoo.fr/fr/peripheriques/5793-innr-spot-led-connecte-pour-jardin-couleur-et-blanc-zigbee-8718781552541.html?domid=4&id_campaign=9)|
-|<img src="../../en_US/zigbee/images/Innr.RB_165.png" width="60" />|Innr|INNR RB 165||||
-|<img src="../../en_US/zigbee/images/Innr.RB_250_C.png" width="60" />|Innr|INNR E14 RGBW|||[Buy](https://www.domadoo.fr/fr/peripheriques/5349-innr-ampoule-connectee-type-e14-zigbee-30-multicolor-rgbw-blanc-reglable-2200k-a-6500k-8718781552060.html)|
-|<img src="../../en_US/zigbee/images/Innr.RB_265.png" width="60" />|Innr|Innr RB 265||||
-|<img src="../../en_US/zigbee/images/Innr.RB_278_T.png" width="60" />|Innr|RB278T|||[Buy](https://www.domadoo.fr/fr/peripheriques/5353-innr-ampoule-connectee-type-e27-zigbee-30-pack-de-2-ampoules-blanc-reglable-2200k-a-5000k-8718781552312.html?domid=4&id_campaign=9)|
-|<img src="../../en_US/zigbee/images/Innr.RB_285_C.png" width="60" />|Innr|INNR E27 Multicolor RGBW + White|||[Buy](https://www.domadoo.fr/fr/peripheriques/5355-innr-ampoule-connectee-type-e27-zigbee-30-multicolor-rgbw-blanc-reglable-2200k-a-6500k-8718781552206.html?domid=4&id_campaign=9)|
-|<img src="../../en_US/zigbee/images/Innr.RF_263.png" width="60" />|Innr|INNR RF 263|||[Buy](https://www.domadoo.fr/fr/peripheriques/5361-innr-ampoule-connectee-type-e27-zigbee-30-pack-de-2-ampoules-vintage-filament-2200-k-8718781552022.html?domid=4&id_campaign=9)|
-|<img src="../../en_US/zigbee/images/Innr.RS_230_C.png" width="60" />|Innr|INNR GU10 RGBW|||[Buy](https://www.domadoo.fr/fr/peripheriques/5451-innr-ampoule-connectee-type-gu10-zigbee-30-multicolor-rgbw-blanc-reglable-1800-a-6500k-8718781552039.html?domid=4&id_campaign=9)|
-|<img src="../../en_US/zigbee/images/Innr.SP_120.png" width="60" />|Innr|INNR TAKEN||||
+|<img src="../../en_US/zigbee/images/innr.AE_260.png" width="60" />|Innr|INNR AE 260||||
+|<img src="../../en_US/zigbee/images/innr.FL_140_C.png" width="60" />|Innr|INNR FLEXIBLE TAPE INDOOR RGBW|||[Buy](https://www.domadoo.fr/fr/peripheriques/5455-innr-ruban-flexible-indoor-couleur-4m-couleur-et-blanc-variable-2000k-a-6500k-8718781552725.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zigbee/images/innr.OFL_140_C.png" width="60" />|Innr|INNR Outdoor Flex Light Color|||[Buy](https://www.domadoo.fr/fr/eclairage/5482-innr-ruban-flexible-outdoor-couleur-4m-zigbee-lightlink-8718781552527.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zigbee/images/innr.OSL_130_C.png" width="60" />|Innr|OSL 130 C|||[Buy](https://www.domadoo.fr/fr/peripheriques/5793-innr-spot-led-connecte-pour-jardin-couleur-et-blanc-zigbee-8718781552541.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zigbee/images/innr.RB_165.png" width="60" />|Innr|INNR RB 165||||
+|<img src="../../en_US/zigbee/images/innr.RB_250_C.png" width="60" />|Innr|INNR E14 RGBW|||[Buy](https://www.domadoo.fr/fr/peripheriques/5349-innr-ampoule-connectee-type-e14-zigbee-30-multicolor-rgbw-blanc-reglable-2200k-a-6500k-8718781552060.html)|
+|<img src="../../en_US/zigbee/images/innr.RB_265.png" width="60" />|Innr|Innr RB 265||||
+|<img src="../../en_US/zigbee/images/innr.RB_278_T.png" width="60" />|Innr|RB278T|||[Buy](https://www.domadoo.fr/fr/peripheriques/5353-innr-ampoule-connectee-type-e27-zigbee-30-pack-de-2-ampoules-blanc-reglable-2200k-a-5000k-8718781552312.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zigbee/images/innr.RB_285_C.png" width="60" />|Innr|INNR E27 Multicolor RGBW + White|||[Buy](https://www.domadoo.fr/fr/peripheriques/5355-innr-ampoule-connectee-type-e27-zigbee-30-multicolor-rgbw-blanc-reglable-2200k-a-6500k-8718781552206.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/innr.RC_210.png" width="60" />|Innr|INNR smart button|||[Buy](https://www.domadoo.fr/fr/peripheriques/6055-innr-bouton-intelligent-sans-fil-zigbee-1-touche-smart-button-8718781553364.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zigbee/images/innr.RF_263.png" width="60" />|Innr|INNR RF 263|||[Buy](https://www.domadoo.fr/fr/peripheriques/5361-innr-ampoule-connectee-type-e27-zigbee-30-pack-de-2-ampoules-vintage-filament-2200-k-8718781552022.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zigbee/images/innr.RS_230_C.png" width="60" />|Innr|INNR GU10 RGBW|||[Buy](https://www.domadoo.fr/fr/peripheriques/5451-innr-ampoule-connectee-type-gu10-zigbee-30-multicolor-rgbw-blanc-reglable-1800-a-6500k-8718781552039.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zigbee/images/innr.SP_120.png" width="60" />|Innr|INNR TAKEN||||
 |<img src="../../en_US/zigbee/images/innr.SP_220.png" width="60" />|Innr|Prise|||[Buy](https://www.domadoo.fr/fr/peripheriques/5362-innr-prise-connectee-super-slim-zigbee-30-8718781552657.html)|
 
 # Konke
@@ -564,6 +581,12 @@
 |<img src="../../en_US/zigbee/images/NodOn.SIN-4-RS-20.png" width="60" />|Nodon|Roller shutter module|||[Buy](https://www.domadoo.fr/fr/peripheriques/5690-nodon-module-volet-roulant-zigbee-3700313925201.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/NodOn.SIN-4-RS-20_PRO.png" width="60" />|Nodon|PRO roller shutter module|||[Buy](https://www.domadoo.fr/fr/peripheriques/5587-nodon-pro-module-volet-roulant-zigbee-3700313925287.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/ptm216z.png" width="60" />|NodOn|Philips Hue compatible Zigbee wall switch|Interrupteur||[Buy](https://www.domadoo.fr/fr/peripheriques/5922-nodon-interrupteur-mural-zigbee-compatible-philips-hue-3700313924723.html?domid=4&id_campaign=9)|
+
+# Nous
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/TZ3000_ksw8qtmt.TS011F.png" width="60" />|Nous|US - ZIGBEE 3 SMART SOCKET.0 + CONSUMPTION MEASUREMENT|||[Documentation](https://nous.technology/product/a1z-1/fr.html)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/6165-nous-prise-intelligente-zigbee-30-mesure-de-consommation-5907772033517.html?domid=4&id_campaign=9)|
 
 # Orvibo
 
@@ -825,6 +848,7 @@
 |<img src="../../en_US/zigbee/images/TZ3000_pmvbt5hh.TS0011.png" width="60" />|Tuya|Simple ON / OFF connected module without neutral||||
 |<img src="../../en_US/zigbee/images/TZ3000_pmz6mjyu.TS011F.png" width="60" />|Tuya|MOES - Dual ON / OFF connected module||||
 |<img src="../../en_US/zigbee/images/TZ3000_qaaysllp.TS0201.png" width="60" />|Tuya|Temperature, humidity and light sensor with display||||
+|<img src="../../en_US/zigbee/images/TZ3000_qd7hej8u.TS0505B.png" width="60" />|Tuya|Livarno Lux E27||||
 |<img src="../../en_US/zigbee/images/TZ3000_qdmnmddg.TS0207.png" width="60" />|Tuya|Flood detector|Fuite|||
 |<img src="../../en_US/zigbee/images/TZ3000_qqjaziws.TS0505B.png" width="60" />|Tuya|RGBCCT LED strip controller||||
 |<img src="../../en_US/zigbee/images/TZ3000_rdtixbnu.TS0121.png" width="60" />|Tuya|Single charge smart switch||||
@@ -847,6 +871,7 @@
 |<img src="../../en_US/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|3 button connected switch||||
 |<img src="../../en_US/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Connected switch 2 buttons||||
 |<img src="../../en_US/zigbee/images/TZE200_7bztmfm1.TS0601.png" width="60" />|Tuya|Tuya air quality CO||||
+|<img src="../../en_US/zigbee/images/TZE200_81isopgh.TS0601.png" width="60" />|Tuya|Watering valve||For the moment, it is impossible to control the timer correctly, when it is set to On the valve remains open for 10min then shuts off|[Buy](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/TZE200_akjefhj5.TS0601.png" width="60" />|Tuya|Watering valve||For the moment, it is impossible to control the timer correctly, when it is set to On the valve remains open for 10min then shuts off|[Buy](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/TZE200_aoclfnxz.TS0601.png" width="60" />|Tuya|Smart thermostat||||
 |<img src="../../en_US/zigbee/images/TZE200_b6wax7g0.TS0601.png" width="60" />|Moes|MOES - Intelligent thermostatic head (3)|||[Buy](https://www.domadoo.fr/fr/tetes-thermostatiques/5783-moes-tete-thermostatique-intelligente-zigbee-30-blanc.html)|
@@ -945,4 +970,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2022-05-05 02:32:12
+2022-05-06 02:32:14
