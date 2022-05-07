@@ -1,84 +1,85 @@
 # Docker-Management-Plugin
 
-## Description
+# Description
 
-Mit diesem Plugin können Sie Docker direkt von Jeedom aus installieren und verwalten
-
->**WICHTIG**
->
->Dieses Plugin soll keine dedizierte Software vom Typ Portainer ersetzen, es ist nur dazu da, grundlegende Befehle zu starten und Docker (auf einfache Weise) zu verwalten
+Dieses Plugin ermöglicht es, Docker-Container direkt aus Jeedom zu installieren, zu verwalten und zu erstellen.
 
 >**WICHTIG**
 >
->Aufgrund der Voraussetzungen für die Installation von Docker ist es nicht mit jeder Hardware kompatibel (einschließlich der Smart). Damit es funktioniert, benötigen Sie unbedingt eine x86-64-, rpi-(3 oder 4)-Plattform oder eine Atlas-Box
+>Dieses Plugin soll keine dedizierte Software wie Portainer ersetzen, es dient nur dazu, einfache Befehle auszuführen und Docker zu verwalten, während es einfach bleibt.
 
-## Configuration
+# Configuration
 
-Nachdem die Abhängigkeiten installiert wurden, müssen Sie "Docker 1" lokal aktivieren (im Moment ist es möglich, dass wir die Verbindung auf einem Remote-Docker hinzufügen). Sie können den Cron auch für die Aktualisierungshäufigkeit konfigurieren. Wir empfehlen Ihnen, zu setzen "*/ 5 * * * *"
+Sobald die Abhängigkeiten installiert sind, müssen Sie „Docker 1“ lokal aktivieren (im Moment ist es möglich, die Verbindung zu einem entfernten Docker hinzuzufügen). Sie können den Cron auch für die Aktualisierungshäufigkeit konfigurieren. Wir empfehlen Ihnen, zu setzen ``*/5 * * * *``.
 
-## Equipement
+# Equipements
 
-Wenn Sie bereits Docker auf Jeedom haben, können Sie auf die Schaltfläche zum Synchronisieren klicken, die die vorhandenen Docker abruft und die entsprechende Jeedom-Ausrüstung erstellt.
+Wenn Sie bereits Docker auf Jeedom haben, können Sie auf die Schaltfläche "Synchronisieren" klicken, um die vorhandenen Docker abzurufen und die entsprechende Jeedom-Ausrüstung zu erstellen.
 
-Sie können auch einen neuen Docker von Jeedom erstellen, dafür müssen Sie nur Jeedom-Ausrüstung erstellen.
+Sie können auch von Jeedom aus neue Docker erstellen. Erstellen Sie dazu einfach Jeedom-Ausrüstung.
 
-### Allgemeine Einstellungen
+## Allgemeine Einstellungen
 
-- Ausrüstungsname : Name Ihrer Ausrüstung in Jeedom
-- Übergeordnetes Objekt : Übergeordnetes Objekt der Ausrüstung
-- Kategorie : Gerätekategorie
-- Aktivieren Sie : das Gerät aktivieren oder nicht
-- Sichtbar : macht die Ausrüstung auf dem Armaturenbrett sichtbar
-- Docker-Host : Docker, der die Ausrüstung betreibt (im Moment ist nur der lokale verfügbar))
-- Containername : Containername im Docker. Es ist sehr wichtig, dass es mit dem Docker Compose oder Docker Run identisch ist, wenn Sie die Erstellung über Jeedom durchführen. Andernfalls kann der One-if Ihre Ausrüstung nicht an den Docker anhängen, den er erstellt
-- Rette die Reittiere : sagt Jeedom, ob er die gemounteten Docker-Dateien speichern soll. Achten Sie darauf, es nicht auf allen Dockern zu aktivieren, insbesondere wenn sie groß sind
-- Erstellungsmodus : Erstellungsmodus Dies kann entweder manuell oder "Jeedom Docker run" (Erstellung mit einem von Jeedom erstellten Docker-Run-Befehl), "Jeedom Docker Composer" (Erstellung mit einem von Jeedom erstellten Docker-Composer) sein)
-- Erstellungsreihenfolge : erscheint nur, wenn Sie sich in "Jeedom Docker run" befinden, der Befehl, den Sie geben müssen, ist alles, was nach "docker run .""
-- Docker komponiert : erscheint nur, wenn Sie sich in "Jeedom Docker Composer" befinden, müssen Sie Ihren komponierten Docker hier ablegen
+- **Ausrüstungsname** : Name Ihrer Ausrüstung in Jeedom
+- **Übergeordnetes Objekt** : Übergeordnetes Objekt der Ausrüstung
+- **Kategorie** : Gerätekategorie
+- **Aktivieren Sie** : das Gerät aktivieren oder nicht
+- **Sichtbar** : macht die Ausrüstung auf dem Armaturenbrett sichtbar
+- **Docker-Host** : Docker, der die Ausrüstung betreibt *(Im Moment ist nur das Zimmer verfügbar)*
+- **Containername** : Wenn Sie die Erstellung über Jeedom durchlaufen, ist es wichtig, dass der Name des Containers derselbe ist wie der in ``docker compose`` Woher ``docker run`` Andernfalls kann der Docker-Container nicht an die Jeedom-Ausrüstung angeschlossen werden.
+- **Rette die Reittiere** : teilt Jeedom mit, ob es die bereitgestellten Ordner des Docker-Containers speichern soll. Achten Sie darauf, die Option nicht bei allen Dockern zu aktivieren, insbesondere wenn diese groß sind.
+- **Erstellungsmodus** : Kann beides sein ``Manuel``, ist ``Jeedom Docker run`` *(Erstellung mit einem Docker-Run-Befehl von Jeedom)*, ist ``Jeedom docker composer`` *(Erstellung mit einem Docker-Composer von Jeedom)*.
+- **Erstellungsreihenfolge** : erscheint nur, wenn Sie sich im Modus befinden ``Jeedom Docker run``. Der Befehl zum Ausfüllen betrifft alles danach ``docker run``.
+- **Docker komponiert** : erscheint nur, wenn Sie sich im Modus befinden ``Jeedom Docker komponiertr``. Sie müssen hier den Inhalt Ihrer angeben ``Docker komponiert``.
 
-### Action
+## Action
 
-- Speichern Sie den Docker : Starten Sie ein Docker-Backup, seien Sie vorsichtig, Jeedom behält nur das letzte Backup (ein Backup wird automatisch gleichzeitig mit dem Jeedom-Backup erstellt .))
-- Docker wiederherstellen : ermöglicht es Ihnen, das letzte Docker-Backup wiederherzustellen
-- Backup herunterladen : ermöglicht es Ihnen, das letzte Docker-Backup herunterzuladen
-- Backup senden : ermöglicht es Ihnen, ein Docker-Backup zurückzugeben (z. B. von einem Jeedom-Backup in Plugins / Dockers / Daten / Backup wiederherstellen)
-- Docker-Logs : Docker-Logs anzeigen
+- **Speichern Sie den Docker** : Führen Sie ein Backup von Docker aus. Achtung Jeedom behält nur das letzte Backup *(gleichzeitig mit dem Jeedom-Backup wird automatisch ein Backup durchgeführt)*
+- **Docker wiederherstellen** : ermöglicht es Ihnen, das letzte Docker-Backup wiederherzustellen
+- **Backup herunterladen** : ermöglicht es Ihnen, das letzte Docker-Backup herunterzuladen
+- **Backup senden** : ermöglicht es Ihnen, ein Backup von Docker * zu senden (wiederhergestellt von einem Jeedom-Backup in ``plugins/dockers/data/backup`` zum Beispiel)*
+- **Docker-Logs** : Docker-Protokolle anzeigen
 
-### Informations
+## Informations
 
-Zeigt verschiedene Informationen zu Ihrem Docker an : 
+Zeigt verschiedene Informationen zum Docker-Container an :
 
 - ID
 - Commande
 - Erstellungsdatum
 - Taille
-- Dem Host zugeordnete Ports
+- Host-zugeordnete Ports
 - Netzwerke
 - Montage
 - Image
 
-## Commande
+## Commandes
 
-Hier haben Sie die folgenden Befehle : 
+Hier haben Sie Zugriff auf die folgenden Befehle :
 
-- Zum Starten
-- Arreter
-- Neustarten
-- Recreer (nur verfügbar, wenn die Kreation von Jeedom . erstellt wurde))
-- Supprimer
-- Zentralprozessor : Docker-CPU-Auslastung
-- Speicher : Docker-Speichernutzung
-- E/A-Eingang : eingehende Festplattennutzung
-- E/A-Ausgang : ausgehende Festplattennutzung
-- Netzwerke in : eingehende Netzwerknutzung
-- Netzwerke aus : ausgehende Netzwerknutzung
-- Status : Docker-Zustand
+- **Zum Starten**
+- **Halt**
+- **Neustarten**
+- **Neu erstellen** *(nur wenn die Schöpfung von Jeedom gemacht wurde)*
+- **Löschen**
+- **Zentralprozessor** : CPU-Last
+- **Speicher** : Speicher laden
+- **E/A-Eingang** : Festplatte schreiben
+- **E/A-Ausgang** : Disk lesen
+- **Netzwerke in** : Netzwerknutzung bei eingehender Verbindung
+- **Netzwerke aus** : ausgehende Netzwerknutzung
+- **Status** : Docker-Zustand
 
 
-## Assistant
+# Assistant
 
-Sie haben auch die Möglichkeit, nach der Erstellung eines Geräts einen Assistenten (oben rechts) anzurufen, der eine Art von Docker enthält (die Liste wird mit der Zeit wachsen) und Ihnen nur wenige Fragen stellen, um Ihren Docker in die Route einzufügen
+Sie haben die Möglichkeit, nach dem Anlegen eines Equipments, a anzurufen **Assistent** *(obere rechte Taste)* mit der Sie anhand einiger Fragen einen bestimmten Docker-Container generieren können. Die Liste wird im Laufe der Zeit erweitert, steht aber bereits für die Erstellung der folgenden Container zur Verfügung :
 
-## Code
+- **AdGuard-Startseite**
+- **Geknotet**
+- **Kammerwächter**
+- **Drahtschutz** *(wg-easy)*
 
-Auf der Hauptseite des Plugins haben Sie auch einen Code-Button, der Sie direkt zu einem Jeedom-Verzeichnis führt. Hier raten wir Ihnen, die Konfigurationsdateien Ihres Dockers abzulegen (falls erforderlich).
+# Code
+
+Auf der allgemeinen Seite des Plugins, das alle Docker-Geräte gruppiert, haben Sie Zugriff auf eine Schaltfläche **Codiert** die Sie direkt in ein Jeedom-Verzeichnis führt, das bereitgestellt wird, um bei Bedarf die Konfigurationsdateien Ihres Dockers zu erhalten.

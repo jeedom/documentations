@@ -1,84 +1,85 @@
 # Plugin Docker Management
 
-## Description
+# Description
 
-Ce plugin permet d'installer et de gerer docker directement depuis Jeedom
-
->**IMPORTANT**
->
->Ce plugin n'a pas vocation a remplacer un logiciel dédié type Portainer, il est juste la pour lancer des commandes bascique et gerer (de maniere basic) Docker
+Ce plugin permet d'installer et de gérer et de créer des conteneurs Docker directement depuis Jeedom.
 
 >**IMPORTANT**
 >
->De pars les pré-requis pour installer Docker il n'est pas compatible avec tous les hardware (dont la Smart). Pour qu'il marche il faut absolument une plateforme x86-64, rpi (3 ou 4) ou une box Atlas
+>Ce plugin n'a pas vocation à remplacer un logiciel dédié type Portainer, il est juste fait pour exécuter des commandes simples et gérer Docker en restant basique.
 
-## Configuration
+# Configuration
 
-Une fois les dépendances installé il faut activer "Docker 1" en local (pour le moment il est possible qu'on rajoute la connexion sur un docker distant). Vous pouvez aussi configurer le cron pour la fréquence de mise à jour, nous vous conseillons de mettre "*/5 * * * *"
+Une fois les dépendances installées, il faut activer "Docker 1" en local (pour le moment il est possible qu'on rajoute la connexion sur un docker distant). Vous pouvez aussi configurer le cron pour la fréquence de mise à jour, nous vous conseillons de mettre ``*/5 * * * *``.
 
-## Equipement
+# Equipements
 
-Si vous avez deja des Docker sur Jeedom vous pouvez cliquer sur le bouton synchroniser qui recupere les dockers existant et créer les équipements Jeedom qui correspondent.
+Si vous avez déjà des Dockers sur Jeedom, vous pouvez cliquer sur le bouton "Synchroniser" pour récupérer les dockers existants et créer les équipements Jeedom correspondant.
 
-Vous pouvez aussi depuis Jeedom creer de nouveau de docker, pour cela il vous faut simplement creer un équipement Jeedom.
+Vous pouvez aussi, depuis Jeedom, créer de nouveau Dockers. Pour cela il suffit de créer un équipement Jeedom.
 
-### Parametres généraux
+## Paramêtres généraux
 
-- Nom de l'équipement : Nom de votre équipement dans Jeedom
-- Objet parent : Objet parent de l'équipement
-- Catégorie : categorie de l'équipement
-- Activer : activer ou non l'équipement
-- Visible : rend l'équipement visible sur le dashboard
-- Docker host : docker qui execute l'équipement (seul le local est disponible pour le moment)
-- Nom du conteneur : nom du conteneur dans docker. Il est trés important que ca soit le meme que celui du docker compose ou docker run si vous passer par la création à travers Jeedom. Sinon celui si ne pourra pas rattacher votre équipement au docker qu'il crée
-- Sauvegarder les mount : indique a Jeedom si il doit sauvegarder les dossiers monté du docker. Attention a ne pas l'activer sur tous les dockers en particulier si la taille de ceux-ci est importante
-- Mode de création : mode de création cela peut etre soit manuel, soit "Jeedom Docker run" (création a l'aide d'une commande docker run fait par Jeedom), "Jeedom docker composer" (création à l'aide d'un docker composer fait par Jeedom)
-- Commande de création : n'apparait que si vous etes en "Jeedom Docker run", la commande a donner est tous ce qu'il y a après "docker run"
-- Docker compose : n'apparait que si vous etes en "Jeedom Docker composer", il faut mettre ici votre Docker compose
+- **Nom de l'équipement** : Nom de votre équipement dans Jeedom
+- **Objet parent** : Objet parent de l'équipement
+- **Catégorie** : categorie de l'équipement
+- **Activer** : activer ou non l'équipement
+- **Visible** : rend l'équipement visible sur le dashboard
+- **Docker host** : docker qui execute l'équipement *(seul le local est disponible pour le moment)*
+- **Nom du conteneur** : si vous passez par la création via Jeedom, il est important que le nom du conteneur soit le même que celui mentionné dans ``docker compose`` ou ``docker run`` sinon le conteneur Docker ne pourra pas être rattaché à l'équipmement Jeedom.
+- **Sauvegarder les mount** : indique a Jeedom s'il doit sauvegarder les dossiers montés du conteneur Docker. Attention de ne pas activer l'option sur tous les Dockers, en particulier si la taille de ceux-ci est importante.
+- **Mode de création** : peut être soit ``Manuel``, soit ``Jeedom Docker run`` *(création a l'aide d'une commande docker run fait par Jeedom)*, soit ``Jeedom docker composer`` *(création à l'aide d'un docker composer fait par Jeedom)*.
+- **Commande de création** : n'apparait que si vous êtes en mode ``Jeedom Docker run``. La commande à renseigner concerne tout ce qu'il y a après ``docker run``.
+- **Docker compose** : n'apparait que si vous êtes en mode ``Jeedom Docker composer``. il faut indiquer ici le contenu de votre ``Docker compose``.
 
-### Action
+## Action
 
-- Sauvegarder le docker : lance une sauvegarde du Docker, attention Jeedom ne garde que la derniere sauvegarde (une sauvegarde est faite automatiquement en meme temps que la sauvegarde Jeedom)
-- Restaurer le docker : permet de restaurer la derniere sauvegarde du Docker
-- Télécharger sauvegarde : permet de télécharger la derniere sauvegarde du Docker
-- Envoyer sauvegarde : permet de renvoyer une sauvegarde du Docker (récuperer depuis une sauvegarde Jeedom dans plugins/dockers/data/backup par exemple)
-- Logs docker : afficher les logs du Docker
+- **Sauvegarder le docker** : lance une sauvegarde du Docker. Attention Jeedom ne conserve que la derniere sauvegarde *(une sauvegarde est effectuée automatiquement en même temps que la sauvegarde Jeedom)*
+- **Restaurer le docker** : permet de restaurer la dernière sauvegarde du Docker
+- **Télécharger sauvegarde** : permet de télécharger la dernière sauvegarde du Docker
+- **Envoyer sauvegarde** : permet d'envoyer une sauvegarde du Docker *(récupérée depuis une sauvegarde Jeedom dans ``plugins/dockers/data/backup`` par exemple)*
+- **Logs docker** : affiche les logs du Docker
 
-### Informations
+## Informations
 
-Affiche divers information sur votre docker : 
+Affiche diverses informations sur le conteneur Docker :
 
 - ID
 - Commande
 - Date de création
 - Taille
-- Ports mappé sur le host
+- Ports mappés sur le host
 - Réseaux
 - Montage
 - Image
 
-## Commande
+## Commandes
 
-Vous avez ici les commandes suivantes : 
+Vous avez ici accès aux commandes suivantes :
 
-- Démarrer
-- Arreter
-- Redémarrer
-- Recreer (disponible uniquement si la création a été faite par Jeedom)
-- Supprimer
-- CPU : utilisation CPU du Docker
-- Mémoire : utilisation mémoire du Docker
-- IO in : utilisation disque entrante
-- IO out : utilisation disque sortante
-- Réseaux in : utilisation réseaux entrante
-- Réseaux out : utilisation réseaux sortante
-- Statut : état du docker
+- **Démarrer**
+- **Arrêter**
+- **Redémarrer**
+- **Recréer** *(uniquement si la création a été faite par Jeedom)*
+- **Supprimer**
+- **CPU** : charge CPU
+- **Mémoire** : charge mémoire
+- **IO in** : écriture disque
+- **IO out** : lecture disque
+- **Réseaux in** : utilisation réseau en connexion entrante
+- **Réseaux out** : utilisation réseau en connexion sortante
+- **Statut** : état du docker
 
 
-## Assistant
+# Assistant
 
-Vous avez aussi la possibilité suite à la création d'un équipement d'appeller un assistant (en haut a droite) qui vous contient quelque Docker type (la liste s'étoffera au cours du temps) et vous posera seulement quelques questions pour mettre en route votre Docker
+Vous avez la possibilité, suite à la création d'un équipement, d'appeler un **Assistant** *(bouton en haut à droite)* qui vous permettra, à travers quelques questions, de générer un conteneur Docker spécifique. La liste s'étoffera au cours du temps mais sont d'ores et déjà disponibles la création des conteneurs suivants :
 
-## Code
+- **AdGuard Home**
+- **Nodered**
+- **Vaultwarden**
+- **Wireguard** *(wg-easy)*
 
-Sur la page principal du plugin vous avez aussi un bouton code qui vous emenera directmeent dans un repertoire Jeedom, c'est ici que nous vous conseillons de mettre les fichiers de configuration de vos Dockers (si necessaire).
+# Code
+
+Sur la page générale du plugin regroupant tous les équipements Docker, vous avez accès un bouton **Code** qui vous amènera directement dans un répertoire Jeedom prévus pour recevoire les fichiers de configuration de vos Dockers si cela était nécessaire.
