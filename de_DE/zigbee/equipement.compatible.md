@@ -970,4 +970,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2022-05-09 02:32:11
+2022-05-10 02:32:08
