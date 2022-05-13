@@ -1,0 +1,49 @@
+{
+    "id": "envoy",
+    "name": "Enphase Envoy",
+    "description": {
+        "fr_FR": "Plugin pour remonter les informations photovoltaïques des passerelles Envoy",
+        "en_US": "Plugin to collect photovoltaic information from Envoy gateways",
+        "es_ES": "Complemento para recopilar información fotovoltaica de las puertas de enlace de Envoy",
+        "de_DE": "Plugin zum Sammeln von Photovoltaik-Informationen von Envoy-Gateways",
+        "pt_PT": "Plug-in para coletar informações fotovoltaicas dos gateways Envoy",
+        "ru_RU": "Plugin pour remonter les informations photovoltaïques des passerelles Envoy",
+        "id_ID": "Plugin pour remonter les informations photovoltaïques des passerelles Envoy",
+        "it_IT": "Plugin pour remonter les informations photovoltaïques des passerelles Envoy",
+        "ja_JP": "Plugin pour remonter les informations photovoltaïques des passerelles Envoy",
+        "tr": "Plugin pour remonter les informations photovoltaïques des passerelles Envoy"
+    },
+    "icon": "fa fa-mobile",
+    "licence": "AGPL",
+    "author": "Jeedom",
+    "require": "2.3",
+    "installation": "Aucune",
+    "hasDependency": 0,
+    "hasOwnDeamon": 0,
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/envoy\/",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/envoy\/changelog",
+    "category": "energy",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/envoy\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/envoy\/beta"
+}
