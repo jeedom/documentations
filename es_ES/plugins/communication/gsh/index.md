@@ -350,3 +350,7 @@ Todo lo que tiene que hacer es asignar el equipo a las habitaciones en la aplica
 >**Cambiar la velocidad de un ventilador no funciona**
 >
 >Después del análisis, Google no envía un pedido durante una acción sobre velocidad. Por lo tanto, debemos esperar a que Google corrija
+
+>**Tengo un mensaje que me dice que Google no puede contactar a Jeedom Smarthome pero el comando se ejecuta bien de todos modos**
+>
+>Intente desmarcar "Habilitar ejecución local", cortando el demonio y reiniciando una sincronización entre Google Home y Jeedom smarthome.

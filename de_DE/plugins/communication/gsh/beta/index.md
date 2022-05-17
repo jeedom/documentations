@@ -350,7 +350,3 @@ Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 >**Das Ändern der Drehzahl eines Lüfters funktioniert nicht**
 >
 >Nach der Analyse sendet Google während einer Aktion zur Geschwindigkeit keine Bestellung. Wir müssen daher warten, bis Google korrigiert
-
->**Ich habe eine Nachricht, die mir sagt, dass Google Jeedom Smarthome nicht kontaktieren kann, aber der Befehl wird trotzdem gut ausgeführt**
->
->Deaktivieren Sie "Lokale Ausführung aktivieren", beenden Sie den Dämon und starten Sie eine Synchronisierung zwischen Google Home und Jeedom Smarthome neu.

@@ -350,7 +350,3 @@ Tudo o que você precisa fazer é atribuir o equipamento às salas no aplicativo
 >**Alterar a velocidade de um ventilador não funciona**
 >
 >Após a análise, o Google não envia um pedido durante uma ação em velocidade. Portanto, devemos esperar que o Google corrija
-
->**Eu tenho uma mensagem me dizendo que o Google não pode entrar em contato com Jeedom Smarthome, mas o comando é executado bem de qualquer maneira**
->
->Tente desmarcar "Ativar execução local", cortando o demônio e reiniciando uma sincronização entre o Google Home e o Jeedom smarthome.

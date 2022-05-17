@@ -350,3 +350,7 @@ All you have to do is assign the equipment to the rooms in the Google Home app
 >**Changing the speed on a fan does not work**
 >
 >After analysis Google does not send an order during an action on speed. We must therefore wait for Google to correct
+
+>**I have a message telling me that Google cannot contact Jeedom Smarthome but the command is executed well anyway**
+>
+>Try unchecking "Enable local execution", cutting the demon and restarting a synchronization between Google Home and Jeedom smarthome.

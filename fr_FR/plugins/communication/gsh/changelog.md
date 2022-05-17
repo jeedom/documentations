@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 17/05/2022
+
+- Mise à jour de la doc
+
 # 12/05/2022
 
 - Meilleur gestion des graphique de lien lorsqu'un équipement/commande/scénario est utilisé dans Google Smarthome

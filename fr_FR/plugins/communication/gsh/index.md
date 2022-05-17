@@ -350,7 +350,3 @@ Il ne vous reste plus qu'a faire l'affectation des équipements aux pieces dans 
 >**Le changement de vitesse sur un ventilateur ne marche pas**
 >
 >Après analyse Google n'envoi pas d'ordre lors d'une action sur la vitesse. Il faut donc attendre que Google corrige
-
->**J'ai un message me disant que Google n'arrive pas à contacter Jeedom Smarthome mais la commande s'éxecute bien quand meme**
->
->Essayez de decocher "Activer l'éxecution local", de couper le demon et de relancer une synchronisation entre Google Home et Jeedom smarthome.

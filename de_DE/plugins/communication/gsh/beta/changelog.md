@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 17.05.2022
+
+- Aktualisieren des Dokuments
+
 # 12.05.2022
 
 - Bessere Verwaltung von Verknüpfungsdiagrammen, wenn ein Gerät/Befehl/Szenario in Google Smarthome verwendet wird

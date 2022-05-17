@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 05/17/2022
+
+- Updating the doc
+
 # 05/12/2022
 
 - Better management of link graphs when an equipment/command/scenario is used in Google Smarthome
