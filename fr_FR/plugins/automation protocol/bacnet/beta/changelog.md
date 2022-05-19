@@ -13,3 +13,9 @@
 # 08/02/2022
 
 - Changement LogicalId et Boutons Tout Sélectionner pour les commandes Info et Ecritures.
+
+
+# 18/05/2022
+
+- Choix des Devices à scanner lors d'un ajout d'un nouvel équipement
+- Optimisation durée du scan

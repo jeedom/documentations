@@ -13,3 +13,9 @@
 # 02/08/2022
 
 - Alterando LogicalId e Select All Buttons para comandos Info e Writes.
+
+
+# 18/05/2022
+
+- Escolha de dispositivos a serem verificados ao adicionar novos equipamentos
+- Otimização do tempo de digitalização
