@@ -1,0 +1,36 @@
+{
+    "id": "publiemeteo",
+    "name": "Publie Meteo",
+    "licence": "AGPL",
+    "author": "Jeedom Legacy",
+    "require": "3.3.24",
+    "category": "weather",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/publiemeteo\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/publiemeteo\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/publiemeteo\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/publiemeteo\/beta"
+}
