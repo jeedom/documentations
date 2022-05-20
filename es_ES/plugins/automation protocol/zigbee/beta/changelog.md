@@ -12,6 +12,10 @@
 >
 >Para aprovechar la última integración del módulo, no dude en actualizar las dependencias
 
+# 20/05/2022
+
+- Corrigiendo el error :  AttributeError: módulo 'específicos' no tiene atributo 'init'
+
 # 05/05/2022
 
 - Arreglo del fallo

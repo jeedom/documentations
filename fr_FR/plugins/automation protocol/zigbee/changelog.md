@@ -12,6 +12,10 @@
 >
 >Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
 
+# 20/05/2022
+
+- Correction de l'erreur :  AttributeError: module 'specifics' has no attribute 'init'
+
 # 05/05/2022
 
 - Correction de bug

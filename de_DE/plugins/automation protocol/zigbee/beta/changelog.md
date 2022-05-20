@@ -12,6 +12,10 @@
 >
 >Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
 
+# 20.05.2022
+
+- Korrigieren des Fehlers :  AttributeError: Modul 'specifics' hat kein Attribut 'init'
+
 # 05.05.2022
 
 - Fehlerbehebung
