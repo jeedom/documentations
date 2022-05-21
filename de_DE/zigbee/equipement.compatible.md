@@ -62,6 +62,7 @@
 |<img src="../../de_DE/zigbee/images/frient_AS.KEPZB-110.png" width="60" />|Frient|Intelligente Tastatur||Für den Info SOS-Befehl ist die Bedeutung : 2 SOS (langer Druck auf die Taste), 7 jemand hat sie vor der Tastatur passiert|[Kaufen](https://www.domadoo.fr/fr/peripheriques/5537-frient-clavier-a-codes-intelligent-zigbee-30-lecteur-rfid-5713594002415.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/frient_AS.MOSZB-140.png" width="60" />|Frient|Bewegungsmelder und Temperatur- und Lichtsensor|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5404-frient-detecteur-de-mouvement-zigbee-30-capteur-de-temperature-et-luminosite-5713594002361.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.MOSZB-141.png" width="60" />|Frient|Bewegungsmelder|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5403-frient-detecteur-de-mouvement-zigbee-30-5713594002835.html)|
+|<img src="../../de_DE/zigbee/images/frient_AS.SIRZB-110.png" width="60" />|Frient|FREUND - ZIGBEE 3.0 SMART SIREN|||[Dokumentation](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2700)<br/>[Kaufen](https://www.domadoo.fr/fr/peripheriques/5538-frient-sirene-intelligente-zigbee-30-5713594002422.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/frient_AS.SMRZB-143.png" width="60" />|Frient|Smart Kabelschalter|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5421-frient-interrupteur-sur-cordon-zigbee-30-5713594002408.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.SMSZB-120.png" width="60" />|Frient|Intelligenter Rauchmelder DIN EN 14604 UND DIN 14676|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5409-frient-detecteur-de-fumee-intelligent-zigbee-30-5713594002330.html)|
 |<img src="../../de_DE/zigbee/images/frient_AS.SPLZB-131.png" width="60" />|Frient|Smart Plug im Schuko-Format|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5420-frient-prise-intelligente-mini-avec-mesure-de-consommation-zigbee-ha-version-schuko-5713594002347.html)|
@@ -493,6 +494,7 @@
 |<img src="../../de_DE/zigbee/images/innr.AE_260.png" width="60" />|Innr|INNR AE 260||||
 |<img src="../../de_DE/zigbee/images/innr.FL_140_C.png" width="60" />|Innr|INNR FLEXIBLE TAPE INNEN RGBW|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5455-innr-ruban-flexible-indoor-couleur-4m-couleur-et-blanc-variable-2000k-a-6500k-8718781552725.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/innr.OFL_140_C.png" width="60" />|Innr|INNR Outdoor Flex Lichtfarbe|||[Kaufen](https://www.domadoo.fr/fr/eclairage/5482-innr-ruban-flexible-outdoor-couleur-4m-zigbee-lightlink-8718781552527.html?domid=4&id_campaign=9)|
+|<img src="../../de_DE/zigbee/images/innr.OPL_130_C.png" width="60" />|Innr|INNR – ZIGBEE CONNECTED LED ZYLINDER SPOT FÜR DEN GARTEN – 3ER PACK|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5795-innr-spot-cylindre-led-connecte-zigbee-pour-jardin-pack-de-3-8718781552770.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/innr.OSL_130_C.png" width="60" />|Innr|OSL 130 C|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5793-innr-spot-led-connecte-pour-jardin-couleur-et-blanc-zigbee-8718781552541.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/innr.RB_165.png" width="60" />|Innr|INNR RB 165||||
 |<img src="../../de_DE/zigbee/images/innr.RB_250_C.png" width="60" />|Innr|INNR E14 RGBW|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5349-innr-ampoule-connectee-type-e14-zigbee-30-multicolor-rgbw-blanc-reglable-2200k-a-6500k-8718781552060.html)|
@@ -970,4 +972,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-20.05.2022 02:32:09
+2022-05-21 02:32:07
