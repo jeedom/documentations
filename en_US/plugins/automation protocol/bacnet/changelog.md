@@ -13,3 +13,9 @@
 # 02/08/2022
 
 - Changing LogicalId and Select All Buttons for Info and Writes commands.
+
+
+# 05/18/2022
+
+- Choice of Devices to scan when adding new equipment
+- Scan time optimization

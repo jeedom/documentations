@@ -13,3 +13,9 @@
 # 08/02/2022
 
 - Cambio de LogicalId y Seleccionar todos los botones para los comandos Info y Writes.
+
+
+# 18/05/2022
+
+- Elección de dispositivos para escanear al agregar nuevos equipos
+- Optimización del tiempo de escaneo
