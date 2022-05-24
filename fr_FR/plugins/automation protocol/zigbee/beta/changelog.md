@@ -12,6 +12,8 @@
 >
 >Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
 
+- Ajout d'une option pour exclure automatiquement les péripherique supprimés
+
 # 20/05/2022
 
 - Correction de l'erreur :  AttributeError: module 'specifics' has no attribute 'init'

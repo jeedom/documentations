@@ -12,6 +12,8 @@
 >
 >Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
 
+- Adicionada opção para excluir automaticamente dispositivos excluídos
+
 # 20/05/2022
 
 - Corrigindo o erro :  AttributeError: módulo 'specifics' não tem atributo 'init'

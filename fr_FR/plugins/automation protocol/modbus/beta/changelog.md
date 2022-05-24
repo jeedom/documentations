@@ -16,7 +16,6 @@
 
 - Fonction Fc16 Registre non suivis
 
-
 # 02/05/2022
 
-- Fonction Exportation et Important de commandes par Equipement
+- Fonction Exportation d'un fichier Json et Importation de commandes par Equipement 

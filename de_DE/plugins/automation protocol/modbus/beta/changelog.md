@@ -16,7 +16,6 @@
 
 - Funktion Fc16 Register nicht befolgt
 
-
 # 02.05.2022
 
-- Export- und Importfunktion von Bestellungen nach Equipment
+- Funktion Exportieren einer Json-Datei und Importieren von Bestellungen nach Equipment 

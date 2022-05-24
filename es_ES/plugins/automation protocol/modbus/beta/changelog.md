@@ -16,7 +16,6 @@
 
 - Función Fc16 Registro no seguido
 
-
 # 05/02/2022
 
-- Función de Exportación e Importación de pedidos por Equipo
+- Función Exportación de un archivo Json e Importación de pedidos por Equipo 

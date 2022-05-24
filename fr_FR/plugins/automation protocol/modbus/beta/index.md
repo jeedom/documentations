@@ -49,6 +49,50 @@ Details des parametres :
 
 
 
+IMPORTANT :
+
+Etant donné le temps passé à devoir configurer parfois certains équipements, il est possible d'exporter les commandes d'un équipement deja créé, pour le télécharger en local en .json.
+
+Vous pourrez donc l'importer soit sur une autre box facilement sur un nouvel équipement du même type (juste à changer ce qui differe au niveau de sa connexion)
+
+
+Sur la page d'un équipement, en bas à droite, vous avez cet encart : 
+
+![dependances](../images/exportFunction.png)
+
+
+On clique sur Liste des commandes à exporter; une fenetre s'ouvre avec les commandes existantes sur cet équipement:
+
+![dependances](../images/choiceCmds.png)
+
+Vous pouvez tout les sélectionner si besoin grace au bouton en haut de la fenetre. 
+Quand les commandes sont choisies, cliquez sur Valider.
+
+
+
+Vous verrez désormais les commandes choisies et pretes a etre exporter dans cet encart :
+
+![dependances](../images/exportCmds.png)
+
+Il vous suffit de cliquez sur Telecharger Config des commandes qui vient d'apparaitre.
+
+
+
+Pour importer les commandes sur un équipement : cliquez en haut a droit d l'equipement sur le bouton Import Json :
+
+![dependances](../images/importFunction.png)
+
+
+
+
+
+
+
+
+
+
+
+
 COMMANDES DE LECTURE :
 
 Pour les entrées Coils et Discretes Inputs :  

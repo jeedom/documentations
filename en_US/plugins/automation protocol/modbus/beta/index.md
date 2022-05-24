@@ -49,6 +49,50 @@ Parameter details :
 
 
 
+IMPORTANT :
+
+Given the time spent having to sometimes configure certain equipment, it is possible to export the commands of an equipment already created, to download it locally in .json.
+
+You can therefore import it either on another box easily on a new equipment of the same type (just to change what differs in terms of its connection)
+
+
+On the equipment page, at the bottom right, you have this insert : 
+
+![dependances](../images/exportFunction.png)
+
+
+Click on List of orders to export; a window opens with the existing commands on this equipment:
+
+![dependances](../images/choiceCmds.png)
+
+You can select them all if necessary using the button at the top of the window. 
+When the commands are chosen, click on Validate.
+
+
+
+You will now see the orders chosen and ready to be exported in this insert :
+
+![dependances](../images/exportCmds.png)
+
+You just have to click on Download Config of the orders which has just appeared.
+
+
+
+To import commands to equipment : click at the top right of the equipment on the Import Json button :
+
+![dependances](../images/importFunction.png)
+
+
+
+
+
+
+
+
+
+
+
+
 PLAYBACK CONTROLS :
 
 For Coils and Discrete Inputs :  

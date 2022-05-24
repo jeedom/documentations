@@ -16,7 +16,6 @@
 
 - Function Fc16 Register not followed
 
-
 # 02/05/2022
 
-- Export and Import function of orders by Equipment
+- Function Exporting a Json file and Importing orders by Equipment 

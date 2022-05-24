@@ -12,6 +12,8 @@
 >
 >To take advantage of the latest module integration, don't hesitate to update the dependencies
 
+- Added option to automatically exclude deleted devices
+
 # 05/20/2022
 
 - Correcting the error :  AttributeError: module 'specifics' has no attribute 'init'

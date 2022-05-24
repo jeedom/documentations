@@ -12,6 +12,8 @@
 >
 >Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
 
+- Option hinzugefügt, um gelöschte Geräte automatisch auszuschließen
+
 # 20.05.2022
 
 - Korrigieren des Fehlers :  AttributeError: Modul 'specifics' hat kein Attribut 'init'

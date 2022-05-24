@@ -12,6 +12,8 @@
 >
 >Para aprovechar la última integración del módulo, no dude en actualizar las dependencias
 
+- Opción agregada para excluir automáticamente dispositivos eliminados
+
 # 20/05/2022
 
 - Corrigiendo el error :  AttributeError: módulo 'específicos' no tiene atributo 'init'
