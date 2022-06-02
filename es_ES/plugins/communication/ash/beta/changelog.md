@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 06/02/2022
+
+- Optimización del proceso de rotación de claves api
+
 # 27/09/2021
 
 - Posibilidad de prohibir cualquier solicitud de Alexa en función de una condición

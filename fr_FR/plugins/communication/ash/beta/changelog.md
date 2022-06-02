@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 02/06/2022
+
+- Optimisation du processus de rotation de la clef api
+
 # 27/09/2021
 
 - Possibilité d'interdir toute requete de Alexa en fonction d'une condition
