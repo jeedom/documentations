@@ -7,6 +7,7 @@
 # 18/03/2022
 
 - Compatibilidade com Jeedom v4.2
+- Esta atualização requer Jeedom 4.2 para trabalhar.
 
 # 02/03/2021
 
