@@ -1,0 +1,49 @@
+{
+    "id": "heliumhotspot",
+    "name": "Helium Hotspot",
+    "description": {
+        "fr_FR": "Plugin permettant de récupérer les infos des hotspots Helium",
+        "en_US": "Plugin to retrieve information from Helium hotspots",
+        "es_ES": "Complemento para recuperar información de los puntos de acceso de Helium",
+        "de_DE": "Plugin zum Abrufen von Informationen von Helium-Hotspots",
+        "ru_RU": "Plugin permettant de récupérer les infos des hotspots Helium",
+        "id_ID": "Plugin permettant de récupérer les infos des hotspots Helium",
+        "it_IT": "Plugin permettant de récupérer les infos des hotspots Helium",
+        "ja_JP": "Plugin permettant de récupérer les infos des hotspots Helium",
+        "pt_PT": "Plugin para recuperar informações de hotspots de hélio",
+        "tr": "Plugin permettant de récupérer les infos des hotspots Helium"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3.39",
+    "category": "communication",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/heliumhotspot\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/heliumhotspot\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/heliumhotspot\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/heliumhotspot\/beta",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ]
+}

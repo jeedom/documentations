@@ -201,6 +201,8 @@
         "Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes": "Ainsi un événement Jeedom peut devenir un point d'entrée pour une recette IFTT et déclencher des événements de toutes sortes",
         "IFTTT": "IFTTT",
         "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT": "Grâce à ce plugin, vous pouvez bénéficier des innombrables recettes disponibles sur IFTT",
+        "Helium Hotspot": "Helium Hotspot",
+        "Plugin permettant de récupérer les infos des hotspots Helium": "Plugin permettant de récupérer les infos des hotspots Helium",
         "Google Smarthome": "Google Smarthome",
         "Plugin pour piloter Jeedom avec un Google Home": "Plugin pour piloter Jeedom avec un Google Home",
         "GL-iNet": "GL-iNet",
@@ -436,6 +438,21 @@
         "Beta": "Beta",
         "Market": "Market",
         "Changelog": "Changelog"
+    },
+    "plugins\/heliumhotspot\/index.md": {
+        "Plugin permettant de récupérer les infos des hotspots Helium": "Plugin permettant de récupérer les infos des hotspots Helium",
+        "Helium Hotspot": "Helium Hotspot",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "IMPORTANT": "IMPORTANT",
+        "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
+        "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
+        "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
+        "ici": "ici",
+        "Vous pouvez voir": "Vous pouvez voir",
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation beta": "Documentation beta",
+        "Market": "Market",
+        "Changelog beta": "Changelog beta"
     },
     "plugins\/home automation protocol\/index.md": {
         "Atlas": "Atlas",
