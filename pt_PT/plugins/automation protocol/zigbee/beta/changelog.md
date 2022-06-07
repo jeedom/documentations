@@ -13,6 +13,8 @@
 >Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
 
 - Adicionada opção para excluir automaticamente dispositivos excluídos
+- Corrigido um bug ao forçar uma atualização OTA
+- Suporte para novos módulos
 
 # 20/05/2022
 

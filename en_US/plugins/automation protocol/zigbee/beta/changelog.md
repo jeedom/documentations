@@ -13,6 +13,8 @@
 >To take advantage of the latest module integration, don't hesitate to update the dependencies
 
 - Added option to automatically exclude deleted devices
+- Fixed a bug when forcing an OTA update
+- Support for new modules
 
 # 05/20/2022
 

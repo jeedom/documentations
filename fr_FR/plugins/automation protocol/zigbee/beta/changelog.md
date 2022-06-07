@@ -13,6 +13,8 @@
 >Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
 
 - Ajout d'une option pour exclure automatiquement les péripherique supprimés
+- Correction d'un bug lors de l'envoi forcé d'une mise à jour OTA
+- Support de nouveaux modules
 
 # 20/05/2022
 
