@@ -19,3 +19,8 @@
 
 - Auswahl der zu scannenden Geräte beim Hinzufügen neuer Geräte
 - Optimierung der Scanzeit
+
+
+# 08.06.2022
+
+- Wahl der Subnetzmaske in der Plugin-Konfiguration

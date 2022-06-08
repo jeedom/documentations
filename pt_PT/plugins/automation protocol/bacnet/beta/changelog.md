@@ -19,3 +19,8 @@
 
 - Escolha de dispositivos a serem verificados ao adicionar novos equipamentos
 - Otimização do tempo de digitalização
+
+
+# 08/06/2022
+
+- Máscara de sub-rede de escolha na configuração do plug-in

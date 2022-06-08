@@ -19,3 +19,8 @@
 
 - Elección de dispositivos para escanear al agregar nuevos equipos
 - Optimización del tiempo de escaneo
+
+
+# 08/06/2022
+
+- Opción de máscara de subred en la configuración del complemento

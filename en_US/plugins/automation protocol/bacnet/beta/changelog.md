@@ -19,3 +19,8 @@
 
 - Choice of Devices to scan when adding new equipment
 - Scan time optimization
+
+
+# 06/08/2022
+
+- Choice Subnet Mask in Plugin Configuration

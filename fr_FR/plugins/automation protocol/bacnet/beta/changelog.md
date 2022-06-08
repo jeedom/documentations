@@ -19,3 +19,8 @@
 
 - Choix des Devices à scanner lors d'un ajout d'un nouvel équipement
 - Optimisation durée du scan
+
+
+# 08/06/2022
+
+- Choix Masque de sous réseau dans Configuration du plugin
