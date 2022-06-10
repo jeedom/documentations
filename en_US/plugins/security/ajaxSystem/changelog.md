@@ -4,6 +4,10 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+# 02/21/2021
+
+- Fixed bug with SIA protocol
+
 # 01/05/2021
 
 - Fixed an issue for Socket

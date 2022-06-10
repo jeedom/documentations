@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 09.06.2022
+
+- Entfernen der automatischen stündlichen Aktualisierung von Informationen, um die Anzahl der Aufrufe an Ajax zu begrenzen und eine Quotenüberschreitung zu verhindern
+
 # 21.02.2021
 
 - Fehler mit SIA-Protokoll behoben

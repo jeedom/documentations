@@ -4,6 +4,10 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+# 06/09/2022
+
+- Removal of the automatic refresh of information every hour to limit the number of calls to Ajax and prevent quota overrun
+
 # 02/21/2021
 
 - Fixed bug with SIA protocol
