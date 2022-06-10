@@ -22,6 +22,10 @@ Die andere auf dieser Seite verfügbare Option ist : **Ausgeschlossene Geräte a
 
 Sie können auch den Status von Abhängigkeiten überprüfen und neu starten. Bei Problemen mit dem Plugin werden die Abhängigkeiten immer neu gestartet, auch wenn im Zweifelsfall OK.
 
+## Compatibilité
+
+Sie finden [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=openenocean) die Liste der Module, die mit dem Plugin kompatibel sind
+
 # Das Plugin
 
 Gehen Sie zum Menü Plugins / Protokoll, um das Plugin zu finden.
@@ -63,4 +67,4 @@ Für einige Module ist es möglich, eine Schaltfläche zum Konfigurieren zu habe
 
 # Kompatibilitätsliste
 
-Sie werden finden [hier](https://doc.jeedom.com/de_DE/enocean/equipement.compatible) eine Kompatibilitätsliste der Module mit ihrem Einschlussverfahren, wenn sie spezifisch sind.
+Sie werden finden [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) eine Kompatibilitätsliste der Module mit ihrem Einschlussverfahren, wenn sie spezifisch sind.

@@ -22,6 +22,10 @@ L’autre option disponible sur cette page est : **Supprimerautomatiquement les 
 
 Vous pouvez aussi vérifier l’état des dépendances et les relancer. En cas de soucis avec le plugin toujours relancer les dépendances même si OK dans le doute.
 
+## Compatibilité
+
+Vous pouvez trouver [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=openenocean) la liste des modules compatible avec le plugin
+
 # Le plugin
 
 Rendez vous dans le menu plugins/protocole pour retrouver le plugin.
@@ -63,4 +67,4 @@ Pour certains modules il est possible d’avoir un bouton configurer, en cliquan
 
 # Liste de compatibilité
 
-Vous trouverez [ici](https://doc.jeedom.com/fr_FR/enocean/equipement.compatible) une liste de compatibilité de modules avec leur procédure d’inclusion si elles sont spécifiques.
+Vous trouverez [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) une liste de compatibilité de modules avec leur procédure d’inclusion si elles sont spécifiques.

@@ -22,6 +22,10 @@ The other option available on this page is : **Automatically delete excluded dev
 
 You can also check the status of dependencies and relaunch them. In case of problems with the plugin always relaunch the dependencies even if OK when in doubt.
 
+## Compatibilité
+
+You can find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=openenocean) the list of modules compatible with the plugin
+
 # The plugin
 
 Go to the plugins / protocol menu to find the plugin.
@@ -63,4 +67,4 @@ For some modules it is possible to have a configure button, by clicking on it yo
 
 # Compatibility list
 
-You will find [here](https://doc.jeedom.com/en_US/enocean/equipement.compatible) a compatibility list of modules with their inclusion procedure if they are specific.
+You will find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) a compatibility list of modules with their inclusion procedure if they are specific.

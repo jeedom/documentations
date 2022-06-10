@@ -22,6 +22,10 @@ La otra opción disponible en esta página es : **Eliminar automáticamente los 
 
 También puede verificar el estado de las dependencias y reiniciarlas. En caso de problemas con el complemento, siempre reinicie las dependencias, incluso si está en caso de duda.
 
+## Compatibilité
+
+Puedes encontrar [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=openenocean) la lista de módulos compatibles con el complemento
+
 # El complemento
 
 Vaya al menú de complementos / protocolos para encontrar el complemento.
@@ -63,4 +67,4 @@ Para algunos módulos es posible tener un botón de configuración, al hacer cli
 
 # Lista de compatibilidad
 
-Encontraras [aquí](https://doc.jeedom.com/es_ES/enocean/equipement.compatible) una lista de compatibilidad de módulos con su procedimiento de inclusión si son específicos.
+Encontraras [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) una lista de compatibilidad de módulos con su procedimiento de inclusión si son específicos.

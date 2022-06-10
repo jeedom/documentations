@@ -22,6 +22,10 @@ A outra opção disponível nesta página é : **Excluir automaticamente disposi
 
 Você também pode verificar o status das dependências e reiniciá-las. Em caso de problemas com o plug-in, reinicie sempre as dependências, mesmo se estiver bem em caso de dúvida.
 
+## Compatibilité
+
+Você pode encontrar [aqui](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=openenocean) a lista de módulos compatíveis com o plugin
+
 # O plugin
 
 Vá para o menu plugins / protocolo para encontrar o plugin.
@@ -63,4 +67,4 @@ Para alguns módulos, é possível ter um botão de configuração, clicando nel
 
 # Lista de compatibilidade
 
-Você encontrará [aqui](https://doc.jeedom.com/pt_PT/enocean/equipement.compatible) uma lista de compatibilidade de módulos com seu procedimento de inclusão, se eles forem específicos.
+Você encontrará [aqui](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) uma lista de compatibilidade de módulos com seu procedimento de inclusão, se eles forem específicos.

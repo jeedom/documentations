@@ -4,6 +4,14 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 20/11/2020
+
+- Improvement of the MAS Ventilairsec profile
+- General optimizations
+- Addition of many profiles
+- New presentation of the list of objects
+- Addition of the tag "V4 compatibility"
+
 # 04/02/2020
 
 Improvement of the MAS Ventilairsec profile

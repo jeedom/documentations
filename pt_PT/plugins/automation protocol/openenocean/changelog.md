@@ -4,6 +4,14 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 20/11/2020
+
+- Melhoria do perfil do MAS Ventilairsec
+- Otimizações gerais
+- Adição de muitos perfis
+- Nova apresentação da lista de objetos
+- Adição da tag "compatibilidade V4"
+
 # 04/02/2020
 
 Melhoria do perfil do MAS Ventilairsec
