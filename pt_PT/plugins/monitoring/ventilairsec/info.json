@@ -27,5 +27,7 @@
         "v4"
     ],
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/ventilairsec\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/ventilairsec\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/ventilairsec\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/ventilairsec\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/ventilairsec\/beta"
 }
