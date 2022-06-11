@@ -17,9 +17,16 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 ||A5-04|||||
-|<img src="../../es_ES/enocean/images/a5-04-01.jpg" width="60" />|Trio2sys|Sonda de radio de humedad y temperatura para montaje en interiores|Temperatura|||
-|<img src="../../es_ES/enocean/images/a5-04-01.jpg" width="60" />|Nexelec|Insafe + Pilot Sonda de humedad y temperatura|Temperatura|||
+||Nodon|Sensor de temperatura y humedad Enocean Blanco|Temperatura, Humedad|||
+|<img src="../../es_ES/enocean/images/a5-04-01.jpg" width="60" />|Trio2sys|Sonda de radio de humedad y temperatura para montaje en interiores|Temperatura, Humedad|||
+|<img src="../../es_ES/enocean/images/a5-04-01.jpg" width="60" />|Nexelec|Insafe + Pilot Sonda de humedad y temperatura|Temperatura, Humedad|||
 |<img src="../../es_ES/enocean/images/a5-04-02.jpg" width="60" />|Eltako|Sonda de radio de humedad y temperatura para montaje en exteriores - FAFT60|Temperatura||[Comprar](http://www.domadoo.fr/fr/peripheriques/1931-eltako-sonde-radio-humidite-et-temperature-montage-exterieur-faft60-4010312310120.html)|
+
+# A5-05
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+||A5-05|||||
 
 # A5-06
 
@@ -43,12 +50,13 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 ||A5-09|||||
-|<img src="../../es_ES/enocean/images/a5-09-04.jpg" width="60" />|Nanosense|Sensor de calidad del aire CO2 E4000|Capteur|||
-|<img src="../../es_ES/enocean/images/a5-09-04.jpg" width="60" />|PressacSensing|Sensor de humedad de temperatura de CO2|Capteur|||
-|<img src="../../es_ES/enocean/images/a5-09-04.jpg" width="60" />|Nexelec|Temperatura de humedad de la sonda Insafe + Carbon Co2|Capteur|||
-|<img src="../../es_ES/enocean/images/a5-09-05.jpg" width="60" />|Nanosense|Sensor de calidad del aire E4000|Capteur|||
-||Nanosense|Sonda de partículas finas P4000|Capteur|||
-|<img src="../../es_ES/enocean/images/a5-09-0c.jpg" width="60" />|Nanosense|Sensor de calidad del aire E4000NG|Capteur|||
+|<img src="../../es_ES/enocean/images/a5-09-04.jpg" width="60" />|Nanosense|Sensor de calidad del aire CO2 E4000|CO2, calidad del aire|||
+|<img src="../../es_ES/enocean/images/a5-09-04.jpg" width="60" />|PressacSensing|Sensor de humedad de temperatura de CO2|CO2, Temperatura, Humedad|||
+|<img src="../../es_ES/enocean/images/a5-09-04.jpg" width="60" />|Thermokon|Sensor de temperatura y humedad de Co2|CO2, Temperatura, Humedad|||
+|<img src="../../es_ES/enocean/images/a5-09-04.jpg" width="60" />|Nexelec|Temperatura de humedad de la sonda Insafe + Carbon Co2|CO2, Temperatura, Humedad|||
+|<img src="../../es_ES/enocean/images/a5-09-05.jpg" width="60" />|Nanosense|Sensor de calidad del aire E4000|Calidad del aire|||
+||Nanosense|Sonda de partículas finas P4000|Partículas finas|||
+|<img src="../../es_ES/enocean/images/a5-09-0c.jpg" width="60" />|Nanosense|Sensor de calidad del aire E4000NG|Calidad del aire|||
 
 # A5-10
 
@@ -116,6 +124,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/enocean/images/d2-01-00.jpg" width="60" />|Trio2sys|Indicador de consumo modular|Consommation|Asegúrese de que el enchufe se desconecte después de la inclusión. De lo contrario, proceda a una exclusión antes||
 |<img src="../../es_ES/enocean/images/d2-01-01.jpg" width="60" />|Avidsen|Módulo de caldera|Contacteur|Asegúrese de que el enchufe se desconecte después de la inclusión. De lo contrario, proceda a una exclusión antes||
 |<img src="../../es_ES/enocean/images/d2-01-08.jpg" width="60" />|Flextron|Zócalo intermedio ALADIN Pro|Prise|Asegúrese de que el enchufe se desconecte después de la inclusión. De lo contrario, proceda a una exclusión antes||
 |<img src="../../es_ES/enocean/images/d2-01-09.jpg" width="60" />|UbiWizz|EnOcean Smart Plug|Prise|Asegúrese de que el enchufe se desconecte después de la inclusión. De lo contrario, proceda a una exclusión antes|[Comprar](http://www.domadoo.fr/fr/peripheriques/2667-ubiwizz-smart-plug-enocean-schuko.html)|
@@ -139,7 +148,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../es_ES/enocean/images/d2-04-08.jpg" width="60" />|Nanosense|E4000-NG|Capteur|||
+|<img src="../../es_ES/enocean/images/d2-04-08.jpg" width="60" />|Nanosense|E4000-NG|Sensor de CO2|||
 
 # D2-05
 
@@ -159,7 +168,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/enocean/images/d2-14-30.jpg" width="60" />|Nexelec|Insafe|Humo|||
-|<img src="../../es_ES/enocean/images/d2-14-41.jpg" width="60" />|Enocean|STM550|Multicapteurs|||
+|<img src="../../es_ES/enocean/images/d2-14-41.jpg" width="60" />|Enocean|STM550|Temperatura, Humedad, Brillo, Aceleración|||
 
 # D2-15
 
@@ -268,4 +277,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2022-06-10 02:17:08
+2022-06-11 02:17:19
