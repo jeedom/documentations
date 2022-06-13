@@ -10,13 +10,13 @@ Meu perfil
 ==========
 
 É aqui que você poderá ajustar diferentes parâmetros do seu
-Perfil :
+ :
 
--   **Perfil**
+-   ****
 
-    -   **Entrar** : Seu login no Market, não pode ser alterado
+    -   **** : Seu login no Market, não pode ser alterado
 
-    -   **Nome** : Seu nome (esta informação é útil apenas para
+    -   **** : Seu nome (esta informação é útil apenas para
         Torne os emails mais divertidos)
 
     -   **Primeiro nome** : Seu primeiro nome (esta informação é útil apenas
@@ -24,9 +24,9 @@ Perfil :
 
     -   **Nome de usuário no fórum** : Seu nome de usuário no fórum
 
-    -   **E-mail** : Seu e-mail
+    -   **** : Seu e-mail
 
-    -   **Idioma** : Seu idioma
+    -   **** : Seu idioma
 
     -   **Senha e Confirmar senha** : deixa
         mude sua senha
@@ -48,20 +48,20 @@ Para os profissionais :
 -   **Destinatário das solicitações de suporte** : saber quem receberá o
     e-mails de suporte (cliente final, instalador ou ambos)
 
-    -   **Termos e Condições**
+    -   ****
 
--   **Usuário** : condições gerais de uso (preste atenção às
+-   **** : condições gerais de uso (preste atenção às
     leia-os bem, porque eles envolvem você)
 
--   **Desenvolvedor** : condições gerais de uso para
+-   **** : condições gerais de uso para
     desenvolvedores
 
-    -   **Ingressos**
+    -   ****
 
 -   **Número de bilhetes** : Número de ingressos para o mês atual
     bem como o seu limite
 
--   **Suporte** : para enviar uma solicitação de suporte (acessível
+-   **** : para enviar uma solicitação de suporte (acessível
     também pelo ponto de exclamação no canto superior direito do mercado ou
     no seu Jeedom)
 
@@ -73,16 +73,16 @@ Para os profissionais :
     -   **Resumo** Aqui você encontrará um resumo das suas diferentes
         direitos e serviços
 
-> **Dica**
+> ****
 >
 > Não esqueça de salvar
 
 Minhas jeedoms 
 ===========
 
--   **Nível**
+-   ****
 
-    -   **Jeedom** : Seu nível de service pack
+    -   **** : Seu nível de service pack
 
     -   **Digite um número de service pack** : vamos entrar no seu
         número do service pack (pode ser encontrado no e-mail enviado por
@@ -94,7 +94,7 @@ Minhas jeedoms
         das instalações Jeedom atualmente vinculadas à sua conta também
         que o limite permitido
 
-> **Dica**
+> ****
 >
 > Às vezes, o mercado pode solicitar que você redefina
 > suas chaves de instalação, é normal, basta seguir o que
@@ -102,19 +102,19 @@ Minhas jeedoms
 
 -   **Minhas jeedoms** : É aqui que todos os seus Jeedoms estão listados
 
-    -   **Nome** : o nome que você deseja dar ao seu Jeedom (
+    -   **** : o nome que você deseja dar ao seu Jeedom (
         encontrado no nome do backup, se você tiver a assinatura de
         Backup em nuvem)
 
-    -   **Estado** : Vamos ver o estado do Jeedom em questão
+    -   **** : Vamos ver o estado do Jeedom em questão
 
     -   **IP local / remoto** : IP ou endereço deste Jeedom,
         configurar no Jeedom, se você não colocar nada, ele estará lá
         último IP conhecido
 
-    -   **DNS** : Permite que você personalize o nome do seu DNS
+    -   **** : Permite que você personalize o nome do seu DNS
 
-    -   **URL ** : Listar os diferentes URLs de acesso Jeedom.
+    -   **** : Listar os diferentes URLs de acesso Jeedom.
 
     -   **Servidor DNS** : informa se o servidor DNS ao qual você está
         estão anexados
@@ -128,11 +128,11 @@ Minhas jeedoms
     -   **Última atualização** : A última comunicação de Jeedom com
         o mercado
 
-    -   **Hardware** : Nome do hardware Jeedom
+    -   **** : Nome do hardware Jeedom
 
-    -   **Versão** : Versão Jeedom instalada
+    -   **** : Versão Jeedom instalada
 
-> **Dica**
+> ****
 >
 > Não esqueça de salvar
 
@@ -156,7 +156,7 @@ Minhas compras / promoções / doações
 Aqui você encontra todas as suas compras e pode solicitar a devolução do
 e-mail da fatura ou recibo
 
-> **IMPORTANTE**
+> ****
 >
 > Se você comprar um plugin oficial, receberá uma fatura. Em
 > no entanto, para um plug-in de terceiros, é um recibo, para a fatura é necessário

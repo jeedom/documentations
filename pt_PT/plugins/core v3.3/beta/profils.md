@@ -11,7 +11,7 @@ Temas
 
 O painel de temas permite ajustar os parâmetros da interface :
 
--   **Área de Trabalho** : tema a ser usado no modo área de trabalho, tenha cuidado apenas com o
+-   **** : tema a ser usado no modo área de trabalho, tenha cuidado apenas com o
     O tema padrão é oficialmente suportado pelo Jeedom
 
 -   **Cor móvel** : permite escolher a cor da interface
@@ -35,7 +35,7 @@ O painel de temas permite ajustar os parâmetros da interface :
 -   **Opacidade por widgets para celular** : permite dar opacidade
     (entre 0 e 1) widgets móveis
 
-Interface 
+ 
 ---------
 
 Permite definir certos comportamentos de interface :
@@ -61,12 +61,12 @@ Permite definir certos comportamentos de interface :
     -   **Tela cheia** : exibição padrão em tela cheia quando
         a chegada dos desenhos
         
--   **Painel de instrumentos**
+-   ****
 
     -   **Desdobrar os objectos de painel** : permite tornar visível por
         padronize o menu de objetos (à esquerda) no painel
 
--   **Vista**
+-   ****
 
     -   **Desdobrar o painel de vista** : permite tornar visível por
         menu de visualizações padrão (esquerda) nas visualizações
@@ -77,7 +77,7 @@ Segurança
 -   **Autenticação em duas etapas** : permite configurar
     Autenticação em duas etapas (como lembrete, esse é um código alterado
     exibido a cada X segundos em um aplicativo móvel, digite
-    google authentificator). Observe que a autenticação dupla só será solicitada para conexões externas. Para conexões locais, o código não será solicitado.
+    ). Observe que a autenticação dupla só será solicitada para conexões externas. Para conexões locais, o código não será solicitado.
 
 -   **Senha** : permite que você altere sua senha (não
     esqueça de redigitá-lo abaixo)
@@ -99,7 +99,7 @@ usado pela última vez. Aqui você pode excluir a gravação de um
 periférico. Atenção, ele não desconecta, mas apenas impede
 sua reconexão automática.
 
-Notificações 
+ 
 -------------
 
 -   **Comando de notificação do usuário** : Comando padrão para

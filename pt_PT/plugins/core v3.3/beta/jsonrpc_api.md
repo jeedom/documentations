@@ -2,7 +2,7 @@ Aqui está a documentação sobre métodos de API. Primeiro aqui é
 as especificações (JSON RPC 2.0) :
 <http://www.jsonrpc.org/specification>
 
-O acesso à API é via URL : *URL\_JEEDOM*/core/api/jeeApi.php
+O acesso à API é via URL : **
 
 Divers
 ======
@@ -65,7 +65,7 @@ Data / hora atual do Jeedom (a ser reutilizado para a próxima consulta)
 
 Configurações :
 
--   int datetime
+-   
 
 API de plug-in JSON
 ===============
@@ -106,7 +106,7 @@ comandos do tipo de informação)
 
 Configurações :
 
--   int id
+-   
 
 object::byId
 ------------
@@ -115,7 +115,7 @@ Retorna o objeto especificado
 
 Configurações:
 
--   int id
+-   
 
 object::fullById
 ----------------
@@ -165,12 +165,12 @@ Retorna o resumo para o ID do objeto
 
 Configurações:
 
--   int id : Object ID
+-    : Object ID
 
 -   chave de cadeia : (opcional), chave do resumo desejado, se vazio, então Jeedom
     envia o resumo de todas as chaves
 
-API JSON EqLogic
+
 ================
 
 eqLogic::all
@@ -186,7 +186,7 @@ Retorna o equipamento e seus comandos, bem como seus estados
 
 Configurações:
 
--   int id
+-   
 
 eqLogic::byId
 -------------
@@ -195,7 +195,7 @@ Retorna o equipamento especificado
 
 Configurações:
 
--   int id
+-   
 
 eqLogic::byType
 ---------------
@@ -213,14 +213,14 @@ Retorna todos os equipamentos pertencentes ao objeto especificado
 
 Configurações:
 
--   int object\_id
+-   
 
 eqLogic::byTypeAndId
 --------------------
 
 Retorna uma tabela de equipamentos de acordo com os parâmetros. O retorno
 será da matriz de formulários ('eqType1' ⇒ matriz ('id'⇒…,' cmds '⇒
-matriz (….)), 'eqType2' ⇒ matriz ('id'⇒…,' cmds '⇒ matriz (….))….,id1 ⇒
+matriz (….)), 'eqType2' ⇒ matriz ('id'⇒…,' cmds '⇒ matriz (….))….,
 array ('id'⇒…,' cmds '⇒ array (….)), id2 ⇒ array (' id'⇒…, 'cmds' ⇒
 array(…​.))..)
 
@@ -259,7 +259,7 @@ Configurações:
 
 -   categoria de matriz
 
-API JSON Cmd
+
 ============
 
 cmd::all
@@ -274,7 +274,7 @@ Retorna o comando especificado
 
 Configurações:
 
--   int id
+-   
 
 cmd::byEqLogicId
 ----------------
@@ -283,7 +283,7 @@ Retorna todos os pedidos pertencentes ao equipamento especificado
 
 Configurações:
 
--   int eqLogic\_id
+-   
 
 cmd::execCmd
 ------------
@@ -292,7 +292,7 @@ Execute o comando especificado
 
 Configurações:
 
--   int id : id de um comando ou matriz de id se você deseja executar
+-    : id de um comando ou matriz de id se você deseja executar
     pedidos múltiplos de uma só vez
 
 -   \ [options \] Lista de opções de comando (depende do tipo e
@@ -306,11 +306,11 @@ informações e comandos históricos)
 
 Configurações:
 
--   int id
+-   
 
--   string startTime : data de início do cálculo das estatísticas
+-    : data de início do cálculo das estatísticas
 
--   string endTime : data final do cálculo das estatísticas
+-    : data final do cálculo das estatísticas
 
 cmd::getTendance
 ----------------
@@ -320,11 +320,11 @@ informações e tipo histórico)
 
 Configurações:
 
--   int id
+-   
 
--   string startTime : data de início do cálculo de tendência
+-    : data de início do cálculo de tendência
 
--   string endTime : data de término do cálculo de tendência
+-    : data de término do cálculo de tendência
 
 cmd::getHistory
 ---------------
@@ -334,11 +334,11 @@ informações e tipo histórico)
 
 Configurações:
 
--   int id
+-   
 
--   string startTime : data de início do histórico
+-    : data de início do histórico
 
--   string endTime : data final do histórico
+-    : data final do histórico
 
 cmd::save
 ---------
@@ -359,11 +359,11 @@ Configurações:
 
 -   tipo de string
 
--   string subType
+-   
 
--   int eqLogic\_id
+-   
 
--   int isHistorized = 0
+-   
 
 -   unidade de cordas = ''
 
@@ -373,11 +373,11 @@ Configurações:
 
 -   exibição de matriz
 
--   array html
+-   
 
 -   valor int = nulo
 
--   int isVisible = 1
+-   
 
 -   alerta de matriz
 
@@ -388,7 +388,7 @@ Permite que você envie um valor para um pedido
 
 Configurações:
 
--   int id
+-   
 
 -   valor da string : valeur
 
@@ -409,7 +409,7 @@ Retorna o cenário especificado
 
 Configurações:
 
--   int id
+-   
 
 scenario::export
 ----------------
@@ -418,7 +418,7 @@ Retorna a exportação do cenário, bem como o nome humano do cenário
 
 Configurações:
 
--   int id
+-   
 
 scenario::import
 ----------------
@@ -427,9 +427,9 @@ Permite importar um cenário.
 
 Configurações:
 
--   int id : ID do cenário no qual importar (vazio se a criação)
+-    : ID do cenário no qual importar (vazio se a criação)
 
--   string humanName : nome humano do cenário (vazio se a criação)
+-    : nome humano do cenário (vazio se a criação)
 
 -   importação de matriz : cenário (do campo cenário de exportação::export)
 
@@ -440,7 +440,7 @@ Altera o estado do cenário especificado.
 
 Configurações:
 
--   int id
+-   
 
 -   estado da string: \ [executar, parar, ativar, desativar \]
 
@@ -458,7 +458,7 @@ Configurações:
 
 -   início da corda : número da linha na qual começar a ler
 
--   string nbLine : número de linhas para recuperar
+-    : número de linhas para recuperar
 
 log::list
 ---------
@@ -500,7 +500,7 @@ Configurações:
 -   tipo de string : tipo de valor armazenado (para cenários
     é cenário)
 
--   id linkId : -1 para global (valor para cenários padrão,
+-    : -1 para global (valor para cenários padrão,
     ou o ID do cenário)
 
 -   chave de cadeia : nome do valor
@@ -515,7 +515,7 @@ Configurações:
 -   tipo de string : tipo de valor armazenado (para cenários
     é cenário)
 
--   id linkId : -1 para global (valor para cenários padrão,
+-    : -1 para global (valor para cenários padrão,
     ou o ID do cenário)
 
 -   chave de cadeia : nome do valor
@@ -548,7 +548,7 @@ Configurações:
 
 -   consulta (frase de solicitação)
 
--   int reply\_cmd = NULL : ID do comando a ser usado para responder,
+-    : ID do comando a ser usado para responder,
     se não especificar, o Jeedom envia a resposta no json
 
 interactQuery::all
@@ -722,7 +722,7 @@ o que simplifica o uso da API.
 Recuperando a lista de objetos :
 
 `` `{.php}
-$jsonrpc = new jsonrpcClient('#URL_JEEDOM#/core/api/jeeApi.php', #API_KEY#);
+$jsonrpc = new jsonrpcClient('#URL_JEEDOM#', #API_KEY#);
 if ($ jsonrpc-> sendRequest ('objeto::tudo ', matriz())){
     print_r ($ jsonrpc-> getResult ());
 }else{
@@ -733,7 +733,7 @@ if ($ jsonrpc-> sendRequest ('objeto::tudo ', matriz())){
 Execução de uma ordem (com a opção de um título e uma mensagem)
 
 `` `{.php}
-$jsonrpc = new jsonrpcClient('#URL_JEEDOM#/core/api/jeeApi.php', #API_KEY#);
+$jsonrpc = new jsonrpcClient('#URL_JEEDOM#', #API_KEY#);
 if ($ jsonrpc-> sendRequest ('cmd::execCmd ', array (' id' => #cmd_id#, 'options '=> array (' title '=>' Cuckoo ',' message '=>' Funciona')))){
     eco 'OK';
 }else{

@@ -2,7 +2,7 @@ Aquí hay documentación sobre métodos API. Primero aquí está
 las especificaciones (JSON RPC 2.0) :
 <http://www.jsonrpc.org/specification>
 
-El acceso a la API es a través de la url : *URL\_JEEDOM*/core/api/jeeApi.php
+El acceso a la API es a través de la url : **
 
 Divers
 ======
@@ -65,7 +65,7 @@ La fecha y hora actual de Jeedom (se reutilizará para la próxima consulta)
 
 Configuraciones :
 
--   int datetime
+-   
 
 API de complementos JSON
 ===============
@@ -106,7 +106,7 @@ comandos de tipo de información)
 
 Configuraciones :
 
--   int id
+-   
 
 object::byId
 ------------
@@ -115,7 +115,7 @@ Devuelve el objeto especificado
 
 Configuraciones:
 
--   int id
+-   
 
 object::fullById
 ----------------
@@ -135,7 +135,7 @@ Configuraciones:
 
 -   nombre de cadena
 
--   int father\_id = null
+-   
 
 -   int isVisible = 0
 
@@ -165,12 +165,12 @@ Devuelve el resumen de la identificación del objeto
 
 Configuraciones:
 
--   int id : ID de objeto
+-    : ID de objeto
 
 -   clave de cuerda : (opcional), clave del resumen deseado, si está vacío, entonces Jeedom
     te envía el resumen de todas las claves
 
-API JSON EqLogic
+
 ================
 
 eqLogic::all
@@ -186,7 +186,7 @@ Devuelve el equipo y sus comandos, así como sus estados
 
 Configuraciones:
 
--   int id
+-   
 
 eqLogic::byId
 -------------
@@ -195,7 +195,7 @@ Devuelve el equipo especificado
 
 Configuraciones:
 
--   int id
+-   
 
 eqLogic::byType
 ---------------
@@ -220,7 +220,7 @@ eqLogic::byTypeAndId
 
 Devuelve una tabla de equipos según los parámetros. El regreso
 será de la matriz de forma (&#39;eqType1&#39; ⇒array (&#39;id&#39;⇒ ...,&#39; cmds &#39;⇒
-array (....)), &#39;eqType2&#39; ⇒array (&#39;id&#39;⇒ ...,&#39; cmds &#39;⇒ array (....)).,id1 ⇒
+array (....)), &#39;eqType2&#39; ⇒array (&#39;id&#39;⇒ ...,&#39; cmds &#39;⇒ array (....)).,
 array (&#39;id&#39;⇒ ...,&#39; cmds &#39;⇒ array (....)), id2 ⇒ array (&#39; id&#39;⇒ ..., &#39;cmds&#39; ⇒
 array(…​.))..)
 
@@ -274,7 +274,7 @@ Devuelve el comando especificado
 
 Configuraciones:
 
--   int id
+-   
 
 cmd::byEqLogicId
 ----------------
@@ -283,7 +283,7 @@ Devuelve todos los pedidos que pertenecen al equipo especificado
 
 Configuraciones:
 
--   int eqLogic\_id
+-   
 
 cmd::execCmd
 ------------
@@ -292,7 +292,7 @@ Ejecuta el comando especificado
 
 Configuraciones:
 
--   int id : ID de un comando o matriz de ID si desea ejecutar
+-    : ID de un comando o matriz de ID si desea ejecutar
     múltiples pedidos a la vez
 
 -   \ [opciones \] Lista de opciones de comando (depende del tipo y
@@ -306,11 +306,11 @@ información y comandos históricos)
 
 Configuraciones:
 
--   int id
+-   
 
--   string startTime : fecha de inicio del cálculo de estadísticas
+-    : fecha de inicio del cálculo de estadísticas
 
--   string endTime : fecha de finalización del cálculo de estadísticas
+-    : fecha de finalización del cálculo de estadísticas
 
 cmd::getTendance
 ----------------
@@ -320,11 +320,11 @@ información y tipo histórico)
 
 Configuraciones:
 
--   int id
+-   
 
--   string startTime : fecha de inicio del cálculo de tendencia
+-    : fecha de inicio del cálculo de tendencia
 
--   string endTime : fecha de finalización del cálculo de tendencia
+-    : fecha de finalización del cálculo de tendencia
 
 cmd::getHistory
 ---------------
@@ -334,11 +334,11 @@ información y tipo histórico)
 
 Configuraciones:
 
--   int id
+-   
 
--   string startTime : fecha de inicio de la historia
+-    : fecha de inicio de la historia
 
--   string endTime : fecha de finalización de la historia
+-    : fecha de finalización de la historia
 
 cmd::save
 ---------
@@ -361,9 +361,9 @@ Configuraciones:
 
 -   subtipo de cadena
 
--   int eqLogic\_id
+-   
 
--   int isHistorized = 0
+-   
 
 -   unidad de cuerda = ''
 
@@ -377,7 +377,7 @@ Configuraciones:
 
 -   valor int = nulo
 
--   int isVisible = 1
+-   
 
 -   alerta de matriz
 
@@ -388,7 +388,7 @@ Le permite enviar un valor a un pedido
 
 Configuraciones:
 
--   int id
+-   
 
 -   valor de cadena : valeur
 
@@ -409,7 +409,7 @@ Devuelve el escenario especificado
 
 Configuraciones:
 
--   int id
+-   
 
 scenario::export
 ----------------
@@ -418,7 +418,7 @@ Devuelve la exportación del escenario, así como el nombre humano del escenario
 
 Configuraciones:
 
--   int id
+-   
 
 scenario::import
 ----------------
@@ -427,9 +427,9 @@ Le permite importar un escenario.
 
 Configuraciones:
 
--   int id : ID del escenario en el que importar (vacío si la creación)
+-    : ID del escenario en el que importar (vacío si la creación)
 
--   string humanName : nombre humano del escenario (vacío si creación)
+-    : nombre humano del escenario (vacío si creación)
 
 -   importación de matriz : escenario (del campo escenario de exportación::export)
 
@@ -440,7 +440,7 @@ Cambia el estado del escenario especificado.
 
 Configuraciones:
 
--   int id
+-   
 
 -   estado de cadena: \ [Ejecutar, detener, habilitar, deshabilitar \]
 
@@ -458,7 +458,7 @@ Configuraciones:
 
 -   inicio de cadena : número de línea en el que comenzar a leer
 
--   string nbLine : cantidad de líneas para recuperar
+-    : cantidad de líneas para recuperar
 
 log::list
 ---------
@@ -500,7 +500,7 @@ Configuraciones:
 -   tipo de cadena : tipo de valor almacenado (para escenarios
     es escenario)
 
--   id linkId : -1 para global (valor para escenarios predeterminados,
+-    : -1 para global (valor para escenarios predeterminados,
     o el id del escenario)
 
 -   clave de cuerda : nombre del valor
@@ -515,7 +515,7 @@ Configuraciones:
 -   tipo de cadena : tipo de valor almacenado (para escenarios
     es escenario)
 
--   id linkId : -1 para global (valor para escenarios predeterminados,
+-    : -1 para global (valor para escenarios predeterminados,
     o el id del escenario)
 
 -   clave de cuerda : nombre del valor
@@ -548,7 +548,7 @@ Configuraciones:
 
 -   consulta (frase de solicitud)
 
--   int reply\_cmd = NULL : ID de comando para usar para responder,
+-    : ID de comando para usar para responder,
     si no especifica, entonces Jeedom le envía la respuesta en el json
 
 interactQuery::all
@@ -722,7 +722,7 @@ lo que simplifica el uso de la API.
 Recuperando la lista de objetos :
 
 `` `{.php}
-$jsonrpc = new jsonrpcClient('#URL_JEEDOM#/core/api/jeeApi.php', #API_KEY#);
+$jsonrpc = new jsonrpcClient('#URL_JEEDOM#', #API_KEY#);
 if ($ jsonrpc-&gt; sendRequest (objeto&#39;::todo ', matriz())){
     print_r ($ jsonrpc-&gt; getResult ());
 }else{
@@ -733,7 +733,7 @@ if ($ jsonrpc-&gt; sendRequest (objeto&#39;::todo ', matriz())){
 Ejecución de una orden (con la opción de un título y un mensaje)
 
 `` `{.php}
-$jsonrpc = new jsonrpcClient('#URL_JEEDOM#/core/api/jeeApi.php', #API_KEY#);
+$jsonrpc = new jsonrpcClient('#URL_JEEDOM#', #API_KEY#);
 if ($ jsonrpc-&gt; sendRequest ( &#39;cmd::execCmd ', array (' id' => #cmd_id#, 'opciones '=> array (' title '=>' Cuckoo ',' message '=>' Funciona')))){
     echo &#39;OK&#39;;
 }else{
