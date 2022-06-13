@@ -1,129 +1,129 @@
 # Concept
 
-Aquí están los principales conceptos básicos de Jeedom. Esta documentación sigue siendo voluntariamente simple para ayudarlo a tomar el control de su domótica.
+Aquí están los principales conceptos básicos de Jeedom. Esta documentación se mantiene simple deliberadamente para ayudarlo a tomar el control de la automatización de su hogar.
 
-Las posibilidades de Jeedom son casi infinitas, ya que puedes crear muchas cosas con unos pocos php, python u otros scripts, pero ese no es el tema aquí.
+Las posibilidades de Jeedom son casi infinitas, ya que puedes crear muchas cosas con algunos php, python u otros scripts, pero ese no es el tema aquí.
 
 > Tip
 >
-> Los enlaces a continuación apuntan a Core v4.1. Una vez en la página de documentación (manual de usuario o configuración) puede cambiar la versión en el menú en la parte superior izquierda para cambiar a la versión correspondiente al núcleo que desee.
+> Los enlaces a continuación apuntan al Core v4.1. Una vez en la página de documentación (Manual de usuario o configuración) puedes cambiar de versión en el menú de arriba a la izquierda para cambiar a la versión correspondiente al Core que quieras.
 
 ## Affichage
 
-Jeedom permite interconectar una gran cantidad de periféricos, ya sea que estén basados en los protocolos Z-Wave, Enocean, Zigbee, etc., en API gracias a complementos, o directamente en forma de scripts. Puedes mirar en el [Mercado](https://market.jeedom.com/) para obtener una descripción general de los dispositivos compatibles.
+Jeedom permite interconectar una gran cantidad de dispositivos, ya sea que se basen en los protocolos Z-Wave, Enocean, Zigbee, etc., en API gracias a complementos o directamente en forma de scripts. Puedes mirar en el [Mercado](https://market.jeedom.com/) para obtener una descripción general de los dispositivos compatibles.
 
-Puede ver estos dispositivos de varias maneras :
+Puede mostrar estos dispositivos de varias maneras :
 
-- Sobre [Salpicadero](/es_ES/core/4.1/dashboard)
+- Sobre [Tablero](/es_ES/core/4.1/dashboard)
 - En la [Síntesis](/es_ES/core/4.1/overview) (v4.1)
-- Sobre una [Vista](/es_ES/core/4.1/view)
+- Sobre una [Visto](/es_ES/core/4.1/view)
 - Sobre un [Diseño](/es_ES/core/4.1/design)
 - Sobre un [Diseño 3D](/es_ES/core/4.1/design3d)
 
 ![Synthese](images/concept-synthese.jpg)
 
-Estos se pueden ver en un navegador en una computadora de escritorio o en un teléfono inteligente con la aplicación web o aplicación móvil : [Versión móvil](/es_ES/mobile/index)
+Estos se pueden ver en un navegador en una computadora de escritorio o en un teléfono inteligente con la WebApp o la aplicación móvil : [Version móvil](/es_ES/mobile/index)
 
 ## Los objetos
 
 Para organizar sus dispositivos, puede crear [Objetos](/es_ES/core/4.1/object).
 
-Estos objetos pueden representar partes de la casa (sala de estar, dormitorio, taller)). Cada objeto puede tener un objeto padre. Esta jerarquía se usará para mostrar en el Panel de control. Por ejemplo, puedes tener un objeto **Casa**, entonces objetos **Sala de estar** **Habitación** niños objeto **Casa**. Una vez en el Tablero, el objeto **Casa** también mostrará, a continuación, sus objetos secundarios.
+Estos objetos pueden representar habitaciones de la casa (Sala de estar, Dormitorio, Taller). Cada objeto puede tener un objeto principal. Esta jerarquía se utilizará para su visualización en el Tablero. Por ejemplo, puede tener un objeto **Casa**, luego objetos **Sala de estar** **Habitación** objeto niños **Casa**. Una vez en el Dashboard, el objeto **Casa** también mostrará, a continuación, sus objetos secundarios.
 
 ![Objet](images/concept-objet.jpg)
 
 > Tips
 >
-> DENTRO **Configuración → Preferencias**, puede definir a qué objeto desea llegar en el Tablero. [Preferencias](/es_ES/core/4.1/profils)
+> Dentro **Ajustes → Preferencias**, puedes definir a qué objeto quieres llegar en el Dashboard. [Preferencias](/es_ES/core/4.1/profils)
 
-![Salpicadero](images/concept-dashboard.jpg)
+![Tablero](images/concept-dashboard.jpg)
 
-## Equipamiento y sus controles
+## Equipo y sus controles
 
 ### Commandes
 
-Para interactuar con nuestra automatización del hogar, necesita comandos ! Estos son de dos tipos :
+Para interactuar con nuestra domótica, necesitas comandos ! Estos son de dos tipos :
 
 > Note
 >
 > Tenga la seguridad de que los pedidos normalmente se crean automáticamente ! Estas explicaciones son para una mejor comprensión.
 
-- Las órdenes *Información* :
+- Las órdenes *información* :
 Estos comandos almacenan información de los sensores. Por ejemplo, la temperatura de una sonda, el movimiento de un sensor de presencia, etc.
-Estos comandos se pueden registrar para mantener esta información a lo largo del tiempo en forma de curva : [Historial](/es_ES/core/4.1/history)
+Estos comandos se pueden registrar para mantener esta información a lo largo del tiempo en forma de curva : [Histórico](/es_ES/core/4.1/history)
 
-Estos comandos también se pueden usar para activar [Escenarios](/es_ES/core/4.1/scenario) para automatizar acciones basadas en la información enviada por sus sensores. Por ejemplo, un sensor de movimiento detecta una presencia, lo que desencadenará un escenario que encenderá la luz.
+Estos comandos también se pueden utilizar para activar [escenarios](/es_ES/core/4.1/scenario) para automatizar acciones basadas en la información reportada por sus sensores. Por ejemplo, un sensor de movimiento detecta una presencia, lo que activará un escenario que encenderá la luz.
 
-- Las órdenes *Acción* :
-Estos comandos le permiten controlar sus actuadores. Por ejemplo, comandos ````on```` y ````off```` de un tomacorriente controlado le permitirá encenderlo y apagarlo.
+- Las órdenes *Valores* :
+Estos comandos le permiten controlar sus actuadores. Por ejemplo, los comandos ``on`` y ``off`` una salida controlada le permitirá encenderlo y apagarlo.
 
-Los comandos de acción generalmente están vinculados a comandos de información. Aquí nuestra toma tiene dos acciones ````on```` y ````off````, generalmente relacionado con la información **Estado**.
+Los comandos de acción generalmente están vinculados a los comandos de información. Aquí, nuestro agarre tiene dos acciones ``on`` y ``off``, generalmente relacionado con la información **Estado**.
 
-![Comandos](images/concept-commands.jpg)
+![Pedidos](images/concept-commands.jpg)
 
-Estos dos tipos de comandos se adjuntan en forma de equipo. Por lo tanto, el equipo tiene comandos de información y / o acción, y es este equipo el que tendrá un Objeto como padre, lo que le permitirá mostrarlo donde desee.
+Estos dos tipos de mandos se adjuntan en forma de equipos. Por lo tanto, el equipo tiene comandos de información y/o acción, y es este equipo el que tendrá un Objeto como padre, lo que le permitirá mostrarlo donde desee.
 
-Cada comando también puede tener lo que se llama un tipo genérico, permitiendo a Jeedom y algunos complementos conocer el tipo de comando (Estado de un enchufe, botón de una luz, etc). [**Herramientas → Tipos de equipos**](/es_ES/core/4.2/types).
+Cada comando también puede tener lo que se llama un tipo genérico, lo que permite que Jeedom y ciertos complementos sepan el tipo de comando (estado de un enchufe, botón de una luz, etc). [**Herramientas → Tipos de equipos**](/es_ES/core/4.2/types).
 
 ### Équipement
 
-- Physiquement: Tengo un enchufe con un botón de encendido / apagado y un led de estado, en la sala de estar.
-- En Jeedom: Tengo equipo con dos acciones de encendido y apagado y una información de estado, en el objeto Salon.
+- Physiquement: Tengo un enchufe con botón de encendido/apagado y led de estado, en el salón.
+- En Jeedom: Tengo un equipo con dos acciones de encendido y apagado y una información de estado, en el objeto Salón.
 
-Estos equipos son creados por complementos. Por ejemplo, el complemento Z-Wave le permitirá incluir su enchufe Z-Waze, que creará equipos con sus controles, que puede nombrar y vincular a un Objeto.
+Estos equipos son creados por complementos. Por ejemplo, el complemento Z-Wave le permitirá incluir su enchufe Z-Waze, que creará un equipo con sus controles, que puede nombrar y vincular a un Objeto.
 
-En términos de visualización, cada pedido se muestra mediante un widget. The Core ofrece los widgets principales, así como una herramienta para crearlos (V4) : [Reproductores](/es_ES/core/4.1/widgets).
+En términos de visualización, cada pedido se muestra mediante un Widget. El Core ofrece los principales Widgets, así como una herramienta para crearlos (V4) : [Widgets](/es_ES/core/4.1/widgets).
 
-Estos comandos están agrupados en un mosaico correspondiente a su equipo. Y este mosaico se mostrará en el Tablero en el Objeto que haya elegido.
+Estos comandos se agrupan en un mosaico correspondiente a su equipo. Y, por lo tanto, este mosaico se mostrará en el Tablero en el Objeto que haya elegido.
 
-![Comandos](images/concept-equipment.jpg)
+![Pedidos](images/concept-equipment.jpg)
 
-Cualquiera que sea su dispositivo, se creará en forma de dispositivo, a partir de un [Plugin](/es_ES/core/4.1/plugin).
+Cualquiera que sea su periférico, por lo tanto, se creará en forma de equipo, a partir de un [Enchufar](/es_ES/core/4.1/plugin).
 
-Este dispositivo tendrá sus propios comandos *Información* o *Acción*. Estos comandos se mostrarán como widgets que forman el mosaico del equipo, en su objeto principal.
+Este dispositivo tendrá sus propios comandos *información* Dónde *Valores*. Estos comandos se mostrarán como widgets que forman el mosaico del equipo, en su objeto principal.
 
-Luego verá que cada Objeto, Equipo, Orden tiene muchas opciones, en términos de funcionalidad o visualización. Pero todo a su tiempo, a estas alturas ya debería haber entendido los conceptos básicos de Jeedom, y así poder comenzar a organizar su automatización del hogar sabiendo dónde buscar.
+Luego verá que cada Objeto, Equipo, Comando tiene muchas opciones, en términos de funcionalidad o visualización. Pero todo en su momento, ahora deberías haber entendido los conceptos básicos de Jeedom, y así poder empezar a organizar tu domótica sabiendo dónde buscar.
 
-## Mi primer escenario
+## Mi primer guion
 
-La ventaja de la automatización del hogar, más allá del control centralizado y remoto de nuestros periféricos, reside sobre todo en la automatización. El objetivo no es pasar horas frente a su Tablero o Diseño, sino que, por el contrario, su alojamiento se adapta a sus hábitos y lo hace olvidar. No más persianas para abrir y cerrar todos los días, no más luces para encender y apagar, estar avisado cuando tirar la basura a la calle, cuando hay correo en el buzón, la calefacción que se adapta según el estaciones y condiciones climáticas. Las posibilidades son infinitas y dependen del estilo de vida. Los escenarios están ahí para eso !
+El interés de la domótica, más allá del control centralizado y remoto de nuestros periféricos, radica sobre todo en la automatización. El objetivo no es pasar horas frente a tu Dashboard o su Diseño, sino todo lo contrario que tu hogar se adapte a tus hábitos y quede en el olvido. No más persianas que abrir y cerrar todos los días, no más luces que encender y apagar, ser avisado de cuándo tirar la basura a la calle, cuándo hay correo en el buzón, calefacción que se adapta según las estaciones y las condiciones climáticas. Las posibilidades son infinitas y dependen del estilo de vida de cada uno. Los escenarios están para eso !
 
-Un escenario es una serie de acciones definidas que se ejecutarán en determinados momentos del día. La ejecución puede ser programada (todos los lunes a una hora determinada) o causada por un evento. Como se vio anteriormente, este evento puede ser, por ejemplo, nuestro comando de información *Presencia* un detector de movimiento, después de una detección.
+Un escenario es una secuencia de acciones definidas que se ejecutarán en determinados momentos del día. La ejecución puede ser programada (todos los lunes a esa hora), o provocada por un evento. Como se vio anteriormente, este evento puede ser, por ejemplo, nuestro comando de información *Presencia* de un detector de movimiento, después de una detección.
 
-El objetivo aquí no es ser exhaustivo, sino descubrir los escenarios a través de ejemplos simples. los [documentación del manual de usuario](/es_ES/core/4.1/scenario) es mucho más completo.
+El objetivo aquí no es ser exhaustivo sino descubrir los escenarios a través de ejemplos simples. los [documentación del manual de usuario](/es_ES/core/4.1/scenario) es mucho mas completo.
 
 
-### Detección de luz en movimiento.
+### Encendido de la luz en detección de movimiento.
 
-Supongamos que tenemos una luz controlada y un detector de movimiento en la habitación.
+Digamos que tenemos una luz controlada y un detector de movimiento en la habitación.
 
 ![1stScenario](images/1stScenario.gif)
 
-- Ir a **Herramientas → Escenarios**
-- Haga clic en *Añadir* entonces dale un nombre.
-- Derecha, en la seccion *Liberación*, compruebe que el modo está en *Provocado* luego haga clic en *+ Disparador*.
-- Usando el botón *Elija una orden* a la derecha del campo *Evento*, seleccione el objeto, luego el equipo y su orden.
+- Entrar en **Herramientas → Escenarios**
+- Haga clic en *Para agregar* entonces dale un nombre.
+- A la derecha, en la parte *Activación*, compruebe que el modo está en *Provocado* luego haga clic *+ Disparador*.
+- Usando el botón *elige un pedido* a la derecha del campo *Evento*, seleccione el objeto, luego el equipo y su comando.
 
-El *Disparador* es lo que desencadenará la ejecución de este escenario. Aquí, queremos activarlo cuando nuestro detector detecta una presencia, por lo que utilizaremos el comando `#[Habitación][Détecteur Habitación][Présence]# == 1`.
+La *Generar* es lo que desencadenará la ejecución de este escenario. Aquí, queremos activarlo cuando nuestro detector detecte una presencia, por lo que usaremos el comando `#[Habitación][Détecteur Habitación][Présence]# == 1`.
 
-El `#` indica un comando, luego encontramos `[el nombre de su objeto padre]`, luego `[el nombre del dispositivo]`, y finalmente `[el nombre del comando]`. Aquí, agregamos `== 1` porque queremos que el escenario se active solo al detectar una presencia. Sin embargo, en un detector de presencia, esta detección vuelve a 0 unos segundos después. Por lo tanto, este cambio a 0 no activará nuestro escenario nuevamente.
+El `#` indica un comando, luego encontramos `[el nombre de su objeto principal]`, luego `[el nombre del equipo]` y finalmente `[el nombre del comando]`. Aquí, agregamos ` == 1` porque queremos que el escenario se active solo en la detección de una presencia. Sin embargo, en un detector de presencia, esta detección vuelve a 0 unos segundos después. Este cambio a 0, por lo tanto, no volverá a activar nuestro escenario.
 
-- Click en la pestaña *Escenario* entonces el botón en la parte superior *Agregar bloque*. Elige un bloque *Acción* entonces en este, *Agregar* Una *Acción*. Esta acción será nuestro comando de cambio de luz. De acuerdo con el mismo principio : ``#[Habitación][Lumière Habitación][On]#``.
+- Haga clic en la pestaña *Guion* luego el botón en la parte superior *Agregar bloque*. Elige un bloque *Valores* entonces en este, *Agregar* a *Valores*. Esta acción será nuestra luz al mando. Según el mismo principio : `#[Habitación][Lumière Habitación][On]#`.
 
-- Guarde y su script estará listo !
+- Guarde y su escenario estará listo !
 
-Aquí solo hemos tocado las posibilidades de los escenarios. Puedes agregar condiciones (bloquear *Si/Entonces/Sino*), acciones de retraso (bloqueo *DENTRO*), programarlos (bloquear *A las*), e incluso usar directamente el código php (bloque *CODIGO*).
+Solo hemos arañado la superficie aquí de las posibilidades de los escenarios. Puede agregar condiciones (bloquear *Si/Entonces/Si no*), retrasar acciones (bloquear *Dentro*), programarlos (bloquear *POSEE*), e incluso usar código php directamente (bloquear *Codificado*).
 
-Aquí usamos el modo de disparo *Provocado*, con un pedido. Pero también puedes usar (y combinar) el modo *Programado* ejecutar un escenario cada mañana o cada hora, etc.
+Aquí hemos utilizado el modo disparador *provocado*, con una orden. Pero también puedes usar (y combinar) el modo *programa* para ejecutar un escenario cada mañana, o cada hora, etc.
 
 
-### Programa del día.
+### Programación del día.
 
 Un tema recurrente para principiantes en Jeedom, la programación de eventos diarios como :
 
-- Encienda la cafetera a las 7 a.m. de lunes a viernes.
+- Encender la cafetera a las 7 a. m. los días de semana.
 - Abre las persianas al amanecer.
-- Cierra las persianas al atardecer, si no estoy allí.
+- Cierra las persianas al atardecer, si no estoy.
 
-Para este tipo de escenario, aquí hay una muy buena introducción : [Programa del día](https://kiboost.github.io/jeedom_docs/jeedomV4Tips/Tutos/ProgDuJour/es_ES/)
+Para este tipo de escenario, aquí hay una muy buena introducción : [Programación del día](https://kiboost.github.io/jeedom_docs/jeedomV4Tips/Tutos/ProgDuJour/es_ES/)
 

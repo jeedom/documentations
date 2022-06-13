@@ -1,21 +1,21 @@
 
-# Sicherheit
+# 
 
 
->**Wichtig**
->Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation der anderen Plugins direkt im Jeedom Market einsehen. Klicken Sie im betreffenden Plugin auf Dokumentation.
->Sie können sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=security) Alle offiziellen Plugins in dieser Kategorie
+>****
+>. . .
+> [](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=security) 
 
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="Jeelocker/beta/Jeelocker_icon.png" class="pluginLogo" width="100" />|jeelocker|ACHTUNG Plugin nur in Beta verfügbar<br/>Jeelocker ist ein Plugin für die Schließfachzugriffsverwaltung|[Beta-Dokumentation](Jeelocker/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=4237)<br/>[Changelog-Beta](Jeelocker/beta/changelog.md)|
-|<img src="ajaxSystem/ajaxSystem_icon.png" class="pluginLogo" width="100" />|Ajax-Systeme|Plugin zum Verbinden mit einem Ajax-Alarm|[Dokumentation](ajaxSystem/index.md)[Beta](ajaxSystem/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=4150)<br/>[Änderungsprotokoll](ajaxSystem/changelog.md)[Beta](ajaxSystem/beta/changelog.md)|
-|<img src="alarm/alarm_icon.png" class="pluginLogo" width="100" />|Alarme|Sicherheitsmanagement-Plugin. Erstellen Sie Ihren Alarm einfach (ohne Programmierung), vollständig und anpassbar.|[Dokumentation](alarm/index.md)[Beta](alarm/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=26)<br/>[Änderungsprotokoll](alarm/changelog.md)[Beta](alarm/beta/changelog.md)|
-|<img src="camera/camera_icon.png" class="pluginLogo" width="100" />|Kamera|Plugin zur Anzeige von IP-Kameras. Die Videoanzeige der Kamera erfolgt jede Sekunde durch aufeinanderfolgende Schnappschüsse (Aufnahmen). Das Plugin ist mit RTSP-Kameras kompatibel.|[Dokumentation](camera/index.md)[Beta](camera/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=70)<br/>[Änderungsprotokoll](camera/changelog.md)[Beta](camera/beta/changelog.md)|
-|<img src="gestAccess/gestAccess_icon.png" class="pluginLogo" width="100" />|Zugriffsverwaltung|Plugin, mit dem Sie die Zugriffskontrolle eines Gebäudes über die Erstellung von Benutzern, Gruppen, Zeitfenstern und Lesern / Aktoren verwalten können. Achtung : PREMIUM-Plugins sind in keinem Service Pack enthalten. Sie sind nur auf Anfrage bei Jeedom erhältlich (Kontakt über unsere Website).|[Dokumentation](gestAccess/index.md)[Beta](gestAccess/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3686)<br/>[Änderungsprotokoll](gestAccess/changelog.md)[Beta](gestAccess/beta/changelog.md)|
-|<img src="jeelocker/beta/jeelocker_icon.png" class="pluginLogo" width="100" />|jeelocker|ACHTUNG Plugin nur in Beta verfügbar<br/>Jeelocker ist ein Plugin für die Schließfachzugriffsverwaltung|[Beta-Dokumentation](jeelocker/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=4238)<br/>[Changelog-Beta](jeelocker/beta/changelog.md)|
-|<img src="netatmoWelcome/netatmoWelcome_icon.png" class="pluginLogo" width="100" />|Netatmo Sicherheit|Plugin für Netatmo Security. Achtung, um den Videostream anzuzeigen, benötigen Sie das Kamera-Plugin|[Dokumentation](netatmoWelcome/index.md)[Beta](netatmoWelcome/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1967)<br/>[Änderungsprotokoll](netatmoWelcome/changelog.md)[Beta](netatmoWelcome/beta/changelog.md)|
-|<img src="nuki/nuki_icon.png" class="pluginLogo" width="100" />|Nuki|Mit diesem Plugin können Sie Nuki-verbundene Schlösser über die Brücke steuern. Außerdem kann die Bridge im Push-Modus konfiguriert werden|[Dokumentation](nuki/index.md)[Beta](nuki/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2819)<br/>[Änderungsprotokoll](nuki/changelog.md)[Beta](nuki/beta/changelog.md)|
-|<img src="simonsvoss/simonsvoss_icon.png" class="pluginLogo" width="100" />|Simons Voss|Plugin für Simons Voss Smart Intego-Sperren|[Dokumentation](simonsvoss/index.md)[Beta](simonsvoss/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3906)|
-|<img src="unifiprotect/beta/unifiprotect_icon.png" class="pluginLogo" width="100" />|Ubiquiti Unifi-Schutz|ACHTUNG Plugin nur in Beta verfügbar<br/>Plugin zum Verbinden von Jeedom mit Unifi Protect|[Beta-Dokumentation](unifiprotect/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=4188)<br/>[Changelog-Beta](unifiprotect/beta/changelog.md)|
+|<img src="Jeelocker/beta/Jeelocker_icon.png" class="pluginLogo" width="100" />|jeelocker|<br/>|[](Jeelocker/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=4237)<br/>[](Jeelocker/beta/changelog.md)|
+|<img src="ajaxSystem/ajaxSystem_icon.png" class="pluginLogo" width="100" />|||[](ajaxSystem/index.md)[](ajaxSystem/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=4150)<br/>[](ajaxSystem/changelog.md)[](ajaxSystem/beta/changelog.md)|
+|<img src="alarm/alarm_icon.png" class="pluginLogo" width="100" />|Alarme|. .|[](alarm/index.md)[](alarm/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=26)<br/>[](alarm/changelog.md)[](alarm/beta/changelog.md)|
+|<img src="camera/camera_icon.png" class="pluginLogo" width="100" />||. .|[](camera/index.md)[](camera/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=70)<br/>[](camera/changelog.md)[](camera/beta/changelog.md)|
+|<img src="gestAccess/gestAccess_icon.png" class="pluginLogo" width="100" />||.  : . ).|[](gestAccess/index.md)[](gestAccess/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=3686)<br/>[](gestAccess/changelog.md)[](gestAccess/beta/changelog.md)|
+|<img src="jeelocker/beta/jeelocker_icon.png" class="pluginLogo" width="100" />|jeelocker|<br/>|[](jeelocker/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=4238)<br/>[](jeelocker/beta/changelog.md)|
+|<img src="netatmoWelcome/netatmoWelcome_icon.png" class="pluginLogo" width="100" />||. |[](netatmoWelcome/index.md)[](netatmoWelcome/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=1967)<br/>[](netatmoWelcome/changelog.md)[](netatmoWelcome/beta/changelog.md)|
+|<img src="nuki/nuki_icon.png" class="pluginLogo" width="100" />|Nuki|. |[](nuki/index.md)[](nuki/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=2819)<br/>[](nuki/changelog.md)[](nuki/beta/changelog.md)|
+|<img src="simonsvoss/simonsvoss_icon.png" class="pluginLogo" width="100" />|||[](simonsvoss/index.md)[](simonsvoss/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=3906)|
+|<img src="unifiprotect/beta/unifiprotect_icon.png" class="pluginLogo" width="100" />||<br/>|[](unifiprotect/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=4188)<br/>[](unifiprotect/beta/changelog.md)|

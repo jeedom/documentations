@@ -1,28 +1,28 @@
 ## Entorno de desarrollo
 
-Veremos aquí cómo configurar un entorno de desarrollo eficiente entre un Pi de prueba y una PC con Windows para editar el código y mantener el repositorio de GitHub.
+Veremos aquí cómo configurar un entorno de desarrollo eficiente entre una Pi de prueba y una PC con Windows para la edición de código y el mantenimiento del repositorio de GitHub.
 
-Esta página se refiere a Jeedom Core, pero este método se puede utilizar para el desarrollo de complementos.
+Esta página se refiere a Jeedom Core, pero este método se puede usar para el desarrollo de complementos.
 
-Ciertamente, para ediciones rápidas de algunos archivos, podemos usar el complemento **JeeXplorer** directamente en Jeedom. Pero es rápidamente tedioso, y luego debe informar todos los cambios al repositorio local o directamente a GitHub. Este no es el mas practico.
+Por supuesto, para ediciones rápidas de algunos archivos, puede usar el complemento **jeeexplorador** directamente en Jeedom. Pero es rápidamente tedioso y luego tienes que transferir todos los cambios al repositorio local o directamente a GitHub. No es lo mas practico.
 
 ### Principe
 
-- Configure un Pi de prueba con Jeedom y un recurso compartido de Samba para acceder a él desde la PC.
-- Duplique el repositorio localmente con **Fusión sublime**.
-- Poner en marcha **Texto sublime** para editar código desde el repositorio con sincronización en el Pi de prueba.
+- Configure un Pi de prueba con Jeedom y un recurso compartido de Samba para acceder desde la PC.
+- Duplicar el repositorio localmente con **Fusión sublime**.
+- Poner en marcha **Texto sublime** para la edición de código de repositorio con sincronización en la prueba Pi.
 
-**Fusión sublime** y **Texto sublime** ciertamente se pagan (un precio bajo con 3 años de actualización), pero son muy livianos, rápidos, fácilmente personalizables y muy completos sin requerir muchos complementos / paquetes. Además, si no obtiene una licencia, puede usarlas normalmente, solo aparecerá una pequeña ventana emergente de vez en cuando con un botón *Cancelar* !
+**Fusión sublime** y **Texto sublime** ciertamente están pagando (un precio bajo con 3 años de actualización), pero son muy ligeros, rápidos, fácilmente personalizables y muy completos sin requerir muchos complementos/paquetes. Además, si no toma una licencia, puede usarlas normalmente, solo tendrá una pequeña ventana emergente de vez en cuando con un botón *Cancelar* !
 
-Este método también es posible con otras herramientas, como **Átomo** (que requerirá algunos paquetes) y **Escritorio de GitHub**.
+Este método también es posible con otras herramientas, como **Átomo** (que requerirá algunos paquetes) y **Escritorio GitHub**.
 
-### Prueba / desarrollo de pi
+### Prueba/Desarrollo Pi
 
-Lo primero que debe hacer si está desarrollando funciones básicas o un complemento : Establecer una configuración de prueba. De hecho, no desarrollamos en una configuración de producción !
+Lo primero que debe hacer si está desarrollando funciones principales o un complemento : Establecer una configuración de prueba. De hecho, no desarrollamos en una configuración de producción !
 
-Para la instalación de Jeedom, la documentación está ahí : [Instalación en Raspberry Pi](https://doc.jeedom.com/es_ES/installation/rpi).
+Para la instalación de Jeedom, el documento está allí : [Instalación en Raspberry Pi](https://doc.jeedom.com/es_ES/installation/rpi).
 
-Advertencia, prefiera un SSD a una tarjeta SD !
+Atención, prefiera un SSD a una tarjeta SD !
 
 Una vez que Jeedom esté instalado, instale Samba, en SSH :
 
@@ -30,25 +30,25 @@ Una vez que Jeedom esté instalado, instale Samba, en SSH :
 
 Configure una contraseña para www-data (la raíz de Jeedom) :
 
-`sudo smbpasswd www-data` luego ingrese su *Contraseña*.
+`sudo smbpasswd www-data` luego ingrese su *clave*.
 
-Edita la configuración de samba :
+Editar configuración de samba :
 
-`sudo nano / etc / samba / smb.conf`
+`sudo nano /etc/samba/smb.conf`
 
 Agregar :
 
 ````text
 gana apoyo = sí
 
-[jeedomRoot]
-ruta = / var / www / html
+[JeedomRoot]
+ruta = /var/www/html
 navegable = sí
 escribible = sí
-forzar usuario = www-data
-grupo de fuerza = www-data
-solo lectura = No
-invitado ok = Sí
+forzar usuario=www-datos
+forcegroup = www-datos
+solo lectura = no
+invitado ok = si
 ````
 
 Et redémarrez samba:
@@ -91,7 +91,7 @@ Dans **Texto sublime**, *Project* / *Edit Project*, définissez le répertoire d
   [
     {
       "name": "__GitHub Jeedom Core__",
-      "path": "W:\\_ GitHub-Repos _ \\ JeedomCore"
+      "path": "W:\\_GitHub-Repos_\\JeedomCore"
     },
     {
       "name": "___Pi_JeedomAlpha___",
@@ -101,32 +101,32 @@ Dans **Texto sublime**, *Project* / *Edit Project*, définissez le répertoire d
 }
 ````
 
-Aquí, agregar la ruta de la prueba Pi no es obligatorio, pero sigue siendo práctico.
+Aquí agregar la ruta de la prueba Pi no es obligatorio, pero siempre es conveniente.
 
-Entonces puedes ahora, en **Texto sublime**, editar directamente los archivos del repositorio local. Los cambios en estos archivos aparecerán en **Fusión sublime**, donde puede confirmar todo o parte de cada archivo, o revertir los cambios si eso no funciona.
+Así que ahora puedes, en **Texto sublime**, edite directamente los archivos del repositorio local. Los cambios a estos archivos aparecerán en **Fusión sublime**, donde puede confirmar todo o parte de cada archivo, o revertir los cambios si eso no funciona.
 
-Ahora, queda probar estos cambios de código en la prueba Jeedom.
+Ahora queda probar estos cambios de código en la prueba Jeedom.
 
-Para eso, por supuesto, puede copiar los archivos modificados a su Pi usando el recurso compartido de samba en su PC. O no ! Cuando edita diez archivos en diferentes lugares, rápidamente se volverá doloroso !
+Para eso, por supuesto, puede copiar los archivos modificados a su Pi usando el recurso compartido de samba en su PC. O no ! Cuando modifica una docena de archivos en diferentes lugares, rápidamente se volverá doloroso !
 
-Por lo tanto configuraremos **Texto sublime** para que, cuando guarde un archivo, lo copie directamente al Pi !
+Por lo tanto, configuraremos **Texto sublime** para que cuando guardes un archivo, lo copie directamente a la Pi !
 
-Vaya al directorio `C:\ Archivos de programa \ SublimeText3 \ Data \ Packages \ User` y cree un archivo `onSaveCopy.py`. Edítelo y, después de modificar las rutas correctas, guarde el siguiente código:
+Ir al directorio `C:\Program Files\SublimeText3\Data\Packages\User` y cree un archivo `onSaveCopy.py`. Edítelo y, después de modificar las rutas correctas, guarde el siguiente código:
 
 ````py
-importar sublime, sublime_plugin, hueso
-desde shutil import copyfile
+importar sublime, sublime_plugin, sistema operativo
+desde el archivo de copia de importación shutil
 
-gitHub_repoCore = "W:\\_ GitHub-Repos _ \\ JeedomCore"
-rpi_root = "\\\\ 192.168.0.110 \\ jeedomRoot"
+gitHub_repoCore = "W:\\_GitHub-Repos_\\JeedomCore"
+rpi_root = "\\\\192.168.0.110\\JeedomRoot"
 
-clase EventListener (sublime_plugin.EventListener ):
-  def on_post_save_async (self, view):
+clase EventListener(sublime_plugin.Detector de eventos ):
+  def on_post_save_async(self, ver):
     fullPath = view.file_name()
-    ruta, baseName = os.path.split (ruta completa)
+    ruta, baseName = os.path.split(fullPath)
     si gitHub_repoCore en la ruta:
-      rpi_path = fullPath.reemplazar (gitHub_repoCore, rpi_root)
-      copyfile (ruta completa, ruta_rpi)
+      rpi_path = ruta completa.reemplazar (gitHub_repoCore, rpi_root)
+      copyfile(ruta_completa, ruta_rpi)
 ````
 
 Et voilà !

@@ -1,4 +1,4 @@
-# Edisio EMS 200
+# Edisio EMS200
 
 **Das Modul**
 
@@ -6,97 +6,97 @@
 
 ## Zusammenfassung
 
-In einem Korridor, dem Wohnzimmer, der Garage Ihres Hauses zum Beispiel, erkennt der Bewegungssensor eine Präsenz, die Zustandsänderung erfolgt augenblicklich.
+Zum Beispiel in einem Flur, Wohnzimmer oder der Garage Ihres Hauses platziert, erkennt der Bewegungssensor eine Anwesenheit, die Zustandsänderung erfolgt augenblicklich.
 
-Dank seines weiten Betrachtungswinkels und seiner Reichweite ist es möglich, einen großen Umfang zu sichern. Die integrierte LED-Anzeige signalisiert jede Zustandsänderung.
+Dank seines weiten Sichtwinkels und seiner Reichweite ermöglicht es die Sicherung eines großen Umkreises. Eingebaute LED-Anzeige signalisiert alle Statusänderungen.
 
 ## Fonctions
 
 -   Erkennt Bewegungen auch bei völliger Dunkelheit
--   Ultrakompakt
+-   Hochkompakt
 -   Signal wird sofort nach Erkennung übertragen
--   Selbstschutz gegen Anheben
+-   Ausziehbarer Selbstschutz
 -   Benutzerfreundlichkeit und Installation
--   Wandmontage durch Schrauben oder doppelseitig
+-   Wandmontage durch Schrauben oder beidseitig
 -   Informationen zum Batteriestand
 
-## Technische Daten
+## Technische Eigenschaften
 
--   Modultyp : Edisio Sender
--   Versorgung : 3VDC (Lithiumbatterie ER14250)
--   Frequenz : 868,3 MHz
--   Betriebstemperatur : 0 ° C + 45 ° C
--   Reichweite im freien Feld : 100M
+-   Mod-Typ : Edisio-Sender
+-   Einspeisung : 3VDC (Lithiumbatterie ER14250)
+-   Frequenz : 868,3MHz
+-   Betriebstemperatur : 0 °C +45 °C
+-   Reichweite in offenen Feldern : 100M
 -   Erfassungsbereich : 6M
--   Abmessungen : 25x79x19mm
--   Schutzart : IP20
--   Verwendung : Drinnen
+-   Maße : 25 x 79 x 19 mm
+-   Stärke des Schutzes : IP20
+-   Verwenden : Drinnen
 
 ## Moduldaten
 
--   Machen Sie : Edisio Smart Home
--   Name : EMS-200
+-   Markieren : Edisio Smart Home
+-   Nachname : EMS-200
 
-## Allgemeine Konfiguration
+## Allgemeine Einrichtung
 
-Informationen zum Konfigurieren des Edisio-Plugins und zum Zuordnen eines Moduls zu Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/edisio/).
+Informationen zum Konfigurieren des Edisio-Plug-ins und zum Zuordnen eines Moduls zu Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/edisio/).
 
 > **Wichtig**
 >
-> Vergessen Sie nicht, die Option in der Plugin-Konfiguration zu aktivieren, damit Jeedom Ihre Sendermodule automatisch erstellt.
+> Damit Jeedom Ihre Sendermodule automatisch erstellt, vergessen Sie nicht, die Option in der Plugin-Konfiguration zu aktivieren.
 
-> **Spitze**
+> **Tipp**
 >
-> Die Platzierung wird in einer Höhe von 150 cm und nahe der gewünschten Filztemperatur empfohlen.
+> Die Platzierung wird in einer Höhe von 150 cm und in der Nähe der gewünschten gefühlten Temperatur empfohlen.
 
-### "E" -Taste"
+### "E"-Taste"
 
-Sie finden die Schaltfläche "E", die die Zuordnungstaste des Temperatursensors ist.
+Sie finden die Taste „E“, die die Taste zum Koppeln des Temperatursensors ist.
 
 ![ems200.bouton e](images/ems200/ems200.bouton-e.jpg)
 
 ### Erkennung
 
-Der Sensor erkennt die geringste Bewegung innerhalb eines Radius von ca. 6 m
+Der Sensor erkennt die kleinste Bewegung in einem Umkreis von ca. 6m
 
 ![ems200.detection](images/ems200/ems200.detection.jpg)
 
 ### Timer-Einstellung
 
-Standardmäßig ist der Timer deaktiviert. Dieser Parameter wird verwendet, um die Verzögerung zu konfigurieren :
+Standardmäßig ist der Timer deaktiviert. Mit diesem Parameter wird die Verzögerung konfiguriert :
 
 ![ems200.minuterie](images/ems200/ems200.minuterie.jpg)
 
 ## Assoziation des Sensors mit Jeedom
 
-Die Zuordnung des Bewegungssensors ist kinderleicht. Drücken Sie einfach die Taste "E" unter dem Sensor. Dies wird von Jeedom automatisch erkannt. Gehen Sie einfach zum Edisio-Plugin. Sie können es in ein Objekt einfügen, ihm einen Namen geben und es speichern.
+Die Zuordnung des Bewegungssensors ist kinderleicht. Drücken Sie einfach die Taste „E“, die sich unter dem Sensor befindet. Dies wird von Jeedom automatisch erkannt. Alles, was Sie tun müssen, ist zum Edisio-Plugin zu gehen. Sie können es dann in einem Objekt platzieren, ihm einen Namen geben und speichern.
 
-Sobald Ihre Ausrüstung gekoppelt ist, sollten Sie diese erhalten :
+Sobald Ihre Ausrüstung verbunden ist, sollten Sie dies erhalten :
 
 ![ems200.general](images/ems200/ems200.general.jpg)
 
-> **Spitze**
+> **Tipp**
 >
-> Denken Sie daran, Ihre Ausrüstung in einem Objekt zu platzieren, damit das Widget im Dashboard angezeigt wird.
+> Denken Sie daran, Ihre Ausrüstung in einem Objekt zu platzieren, damit das Widget auf dem Dashboard angezeigt wird.
 
 ### Commandes
 
 Sobald Ihre Ausrüstung erstellt ist, sollten Sie die mit dem Modul verknüpften Befehle erhalten :
 
-![Befehle](images/ems200/ems200.commande.jpg)
+![Aufträge](images/ems200/ems200.commande.jpg)
 
 Hier ist die Liste der Befehle :
 
--   Präsenz : Dies ist der Befehl, der angibt, ob eine Anwesenheit erkannt wird
+-   Gegenwart : Dies ist der Befehl, der anzeigt, ob eine Anwesenheit erkannt wird
 -   Batterie : Zeigt den Batteriestatus an
 
 ### Informations
 
-Sobald Ihre Ausrüstung mit Jeedom verknüpft ist, stehen verschiedene Informationen zur Verfügung :
+Sobald Ihre Ausrüstung mit Jeedom verknüpft ist, sind verschiedene Informationen verfügbar :
 
-![Befehle](images/ems200/ems200.informations.jpg)
+![Aufträge](images/ems200/ems200.informations.jpg)
 
 -   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
--   Kommunikation : Zeigt die letzte zwischen Jeedom und dem Modul aufgezeichnete Kommunikation an
+-   Kommunikation : Zeigt die letzte aufgezeichnete Kommunikation zwischen Jeedom und dem Modul an
 -   Batterie : Zeigt den Batteriestatus der Batteriemodule an
--   STATUS : Gibt den Status des Moduls zurück
+-   Status : Gibt den Status des Moduls zurück

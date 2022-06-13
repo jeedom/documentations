@@ -1,20 +1,20 @@
-# Verwaltung von Plugin-Widgets
+# Plugin-Widgets verwalten
 
-Es gibt verschiedene Möglichkeiten, benutzerdefinierte Widgets für Plugins zu erstellen :
+Es gibt mehrere Möglichkeiten, benutzerdefinierte Widgets für Plugins zu erstellen :
 
 - die erste mit der toHtml-Funktion (Instanzmethode), die von der eqLogic-Klasse erbt
-- vom Vorlagensystem (nur v4)
+- durch das Vorlagensystem (nur v4)
 
 ## ToHtml-Funktion
 
-Daraufhin muss die Funktion toHtml, nichts Besonderes, das Widget in HTML zurückgeben, Sie haben ein Beispiel [die](https://github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
+Nichts Besonderes, die toHtml-Funktion muss das Widget in HTML zurückgeben, Sie haben ein Beispiel [das](https://github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
 
-Das Wichtigste ist vor allem die 1. Zeile :
+Wichtig sind vor allem die 1. Zeilen :
 
 ````php
-$replace = $this->preToHtml($_version);;
-Eibe (!is_array ($ replace)) {
-	return $ replace;
+$replace = $this->preToHtml($_version);
+wenn (!is_array($ersetzen)) {
+	return $replace;
 }
 ````
 
@@ -31,7 +31,7 @@ Vohier un exemple :
 
 ````php
 öffentliche statische Funktion templateWidget(){
-	$return = array('info' => array('string' => array()));;
+	$return = array('info' => array('string' => array()));
 	$return['info']['string']['state'] = array(
 		'template' => 'tmplmultistate',
 		'test' => array(
@@ -39,38 +39,38 @@ Vohier un exemple :
 			array('operation' => '#value# == 3','state' => '<i class="fa fa-pause"></i>'),
 			array('operation' => '#value# > 3 || #value# < 2','state' => '<i class="fa fa-home"></i>')
 		)
-	);;
-	return $ return;
+	);
+	Rückgabe $Rückgabe;
 }
 ````
 
-Hier erstellen wir ein neues Widget basierend auf der Vorlage "tmplmultistate" (Sie haben die Liste der Vorlagen [hier](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) Es sind diejenigen mit tmpl im Namen), für einen Befehl vom Typ info und unter Zeichenfolgentyp.
+Hier erstellen wir ein neues Widget basierend auf der Vorlage „tmplmultistate“ (Sie haben die Liste der Vorlagen [hier](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) es sind diejenigen mit tmpl in ihrem Namen), für einen Info-Typ-Befehl und unter String-Typ.
 
-> **Wichtig**
+> **WICHTIG**
 >
-> Jede Vorlage ist für einen bestimmten Typ und Subtyp bestimmt. Sie müssen daher überprüfen, ob die Vorlage, die Sie verwenden möchten, für den Typ und den Subtyp vorhanden ist
+> Jede Vorlage ist für einen bestimmten Typ und Untertyp, daher müssen Sie überprüfen, ob die Vorlage, die Sie verwenden möchten, für den Typ und Untertyp existiert
 
-Da es sich dann um eine Vorlage mit mehreren Status handelt, müssen Sie die Symbole entsprechend dem Status definieren. Dies erfolgt im Testteil der Tabelle.
+Da es sich um eine Vorlage mit mehreren Zuständen handelt, müssen Sie die Symbole dann entsprechend dem Zustand definieren. Dies geschieht im Testteil der Tabelle.
 
-Beispiel : Für den ersten Test sagen wir, wenn der Wert des Befehls 2 wert ist, muss das Tag ersetzt werden #\_state_# (im HTML-Code der Vorlage) von </i>
+Beispiel : Für den ersten Test sagen wir, wenn der Wert des Befehls 2 ist, muss das Tag ersetzt werden #\_state_# (im HTML-Code der Vorlage) von </i>
 
-Ein anderes Beispiel, das auf einer anderen Vorlage basiert, könnte sein :
+Ein weiteres Beispiel, das auf einer anderen Vorlage basiert, könnte sein :
 
 ````php
 öffentliche statische Funktion templateWidget(){
-	$return = array('info' => array('string' => array()));;
+	$return = array('info' => array('string' => array()));
 	$return['info']['binary']['toto'] = array(
-		'template '=>' tmplicon',
-		'Ersetzen Sie '=> Array(
+		'template' => 'tmplicon',
+		'ersetzen' => Array(
 			'#_icon_on_#' => '<i class=\'icon_green icon jeedom-porte-ferme\'></i>',
 			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
 			)
-	);;
-	return $ return;
+	);
+	Rückgabe $Rückgabe;
 }
 ````
 
-Ici, je crée un widget toto basé sur le template "tmplicon" en type info et sous-type binaire. Quand il vaut 1 alors l'icône sera <i class='icon_green icon jeedom-porte-ferme'></i> et quand il vaut 0, ça sera <i class='icon_red icon jeedom-porte-ouverte'></i>
+Ici, je crée un widget alles basé sur le template "tmplicon" en type info et sous-type binaire. Quand il vaut 1 alors l'icône sera <i class='icon_green icon jeedom-porte-ferme'></i> et quand il vaut 0, ça sera <i class='icon_red icon jeedom-porte-ouverte'></i>
 
 >**TIPS**
 >
@@ -79,10 +79,10 @@ Ici, je crée un widget toto basé sur le template "tmplicon" en type info et so
 Ensuite, pour utiliser votre widget :
 
 ````php
-$cmd->setTemplate('dashboard','neato::state');;
-$cmd->setTemplate('mobile','neato::state');;
+$cmd->setTemplate('dashboard','neato::state');
+$cmd->setTemplate('mobile','neato::state');
 ````
 
-Es ist wie bei einem normalen Widget, mit Ausnahme des Namens des Widgets in der Form id_plugin::name_widget. Für das zweite Beispiel ist es id_plugin::toto
+Es ist wie bei einem normalen Widget, mit Ausnahme des Namens des Widgets, der die Form id_plugin hat::Widget Name. Für das zweite Beispiel wird es id_plugin sein::toto
 
 

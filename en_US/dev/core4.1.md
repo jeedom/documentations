@@ -1,19 +1,19 @@
-## Core v4.1 | Plugin developers
+## Core v4.1 | Plugin Developers
 
 ### Suppression
 
-- The functions `network-> getInterfaceIp (), network-> getInterfaceMac ()` and `network-> getInterfaces ()` have been replaced by `network-> getInterfacesInfo ()`.
+- The `network->getInterfaceIp()` `network->getInterfaceMac()` and `network->getInterfaces()` functions have been replaced by `network->getInterfacesInfo()`.
 
 ### Changements
 
-- The `scenario-> getHumanName ()` function of the php scenario class no longer returns `[object] [group] [name]` but `[group] [object] [name]`.
-- The `scenario-> byString ()` function must now be called with the structure `[group] [object] [name]`.
-- The ajax function::init () `accepts from v4 an" action "array as a parameter and from v4.1 checks if the action received in the querystring (with a GET request) is listed in this table, if this is not the case the request is blocked.
-Be careful, in V3 the optional argument was a boolean; so it is possible to make a v4 compatible code.0 and above but not with v3.
+- The `scenario->getHumanName()` function of the php scenario class no longer returns `[object][group][name]` but `[group][object][name]`.
+- The `scenario->byString()` function should now be called with the `[group][object][name]` structure.
+- The `ajax function::init()` accepts since v4 an "action" array as parameter and since v4.1 checks if the action received in the querystring (with a GET request) is listed in this array, if not the request is blocked.
+Attention, in V3 the optional argument was a boolean; so it is possible to make a v4 compatible code.0 and higher but not with v3.
 ````php
-  / * Function allowing the sending of the 'Content-Type header: application / json'
-    In V3 : indicate the argument 'true' to control the Jeedom access token
-    In v4 : authorize the execution of an 'action' method in GET by indicating the name (s) of the action (s) in an array as an argument
+  /* Function to send the 'Content-Type header: app/json'
+    In V3 : indicate the 'true' argument to control the Jeedom access token
+    In V4 : authorize the execution of an 'action' method in GET by indicating the name(s) of the action(s) in an array as argument
   */  
     ajax::init();
 ````

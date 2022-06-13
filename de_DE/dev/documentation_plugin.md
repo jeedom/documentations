@@ -1,55 +1,55 @@
-# So erstellen Sie die Dokumentation eines Plugins
+# So dokumentieren Sie ein Plugin
 
 ## Introduction
 
-In dieser Dokumentation erfahren Sie, wie Sie die Dokumentation Ihres Plugins erstellen.
+Wir werden in dieser Dokumentation sehen, wie Sie Ihr Plugin dokumentieren.
 
 ## Principe
 
-Das Prinzip ist sehr einfach. Die Plugin-Dokumentation muss ein einfacher Weblink sein, der in Ihrer Info-Datei angegeben wird.json (siehe Details [hier](https://doc.jeedom.com/de_DE/dev/structure_info_json) ) im Dokumentationsfeld.
+Das Prinzip ist sehr einfach, die Dokumentation des Plugins muss als einfacher Weblink in Ihrer Infodatei angegeben werden.json (siehe detail [hier](https://doc.jeedom.com/de_DE/dev/structure_info_json) ) im Dokumentationsbereich.
 
-Beachten Sie, dass Sie auch ein Änderungsprotokollfeld haben, das genauso funktionieren muss wie das Dokumentationsfeld.
+Beachten Sie, dass Sie auch ein Changelog-Feld haben, das genauso funktionieren muss wie das Dokumentationsfeld.
 
-## Wie es geht ?
+## Wie macht man ?
 
-Wie oben gezeigt, müssen Sie nur in der Info-Datei angeben.json den http (s) Link zu Ihrer Dokumentation, so dass Sie frei auf der Präsentation, dem Host oder sogar dem Modus sind :
+Wie oben gesehen, müssen Sie nur in der Info-Datei angeben.json den http(s)-Link zu Ihrer Dokumentation, damit sind Sie frei in Bezug auf die Präsentation, den Host oder sogar den Modus :
 
 - ein Blog
 - ein einfacher Webserver
-- Github (einzige Methode, die wir hier sehen werden)
+- github (einzige Methode, die wir hier sehen werden)
 
 ## Github
 
-Der einfachste Weg für Ihre Dokumentation ist die Verwendung des Github-Seitensystems, das den Vorteil hat, dass es sehr einfach zu bedienen ist.
+Der einfachste Weg für Ihre Dokumentation ist die Verwendung des github-Seitensystems, das den Vorteil hat, dass es sehr einfach zu bedienen ist.
 
 ### Dokumentationssprache
 
-Github unterstützt Asciidoc und Markedown (md) für Seiten, wir werden nur den Markdown hier sehen.
+Github unterstützt asciidoc und markdown (md) für Seiten, hier sehen wir nur markdown.
 
-Wir werden Ihnen nicht die vollständige Markdown-Syntax beschreiben, andere Websites machen dies bereits sehr gut, einschließlich [dieser hier](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+Wir werden Ihnen nicht die vollständige Markdown-Syntax beschreiben, andere Websites machen dies bereits sehr gut, einschließlich [Dieses hier](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ### Emplacement
 
-Wir empfehlen Ihnen, in Ihrem Plugin (auf github gehostet) einen Ordner zu erstellen und die Dateien und Verzeichnisse aus dem Ordner / docs in die Plugin-Vorlage zu kopieren (siehe [hier](https://doc.jeedom.com/de_DE/dev/plugin_template) )
+Wir empfehlen Ihnen, in Ihrem Plugin (gehostet auf github) einen Ordner zu erstellen und die Dateien und Verzeichnisse aus dem Ordner /docs in das Template-Plugin zu kopieren (siehe [hier](https://doc.jeedom.com/de_DE/dev/plugin_template) )
 
-Sobald Sie fertig sind, haben Sie im Ordner / docs einen fr_FR-Ordner (der einzige, der geändert werden muss). In diesem Ordner empfehlen wir Ihnen, 2 Dateien zu erstellen :
+Sobald dies erledigt ist, haben Sie im Ordner /docs einen Ordner fr_FR (der einzige, der geändert werden muss). In diesem Ordner empfehlen wir Ihnen, 2 Dateien zu erstellen :
 
-- ``changelog.md`` => dein Changelog
-- ``index.md`` => Ihre Dokumentation
+- ``changelog.md`` => Ihr Änderungsprotokoll
+- ``index.md`` => Ihre Dokumente
 
-### Hochladen
+### Online
 
-Das Hochladen ist ziemlich einfach. Gehen Sie einfach zu Ihrem Github-Repository, dann zu "Einstellungen" und im Teil "GitHub-Seiten", um den Ordner "Ordner" Hauptzweig / Dokumente "zu aktivieren (wie in der Beschriftung angegeben) Die Dateien im Ordner / docs des Hauptzweigs Ihres Plugins sind online).
+Es online zu stellen ist ganz einfach, gehen Sie einfach zu Ihrem Github-Repository, dann zu "Einstellungen" und aktivieren Sie im Abschnitt "GitHub-Seiten" dasjenige auf "master branch /docs folder" (wie der Wortlaut schon sagt, nur Dateien im /docs-Ordner von Der Master-Branch deines Plugins wird online sein).
 
 ![doc-github](images/tutoDoc.png)
 
-Github stellt Ihnen dann einen Typlink zur Verfügung ``https://jeedom.github.io/plugin-template/`` (Nach einigen Minuten sollten Sie Ihr Dokumentationslayout korrekt anzeigen).
+Github stellt Ihnen dann einen Link wie zur Verfügung ``https://jeedom.github.io/plugin-template/`` (Nach ein paar Minuten sollten Sie Ihre Dokumentation korrekt formatiert sehen, indem Sie sie durchgehen).
 
-Jetzt müssen Sie die Links Ihrer Dokumentation in die Info-Datei einfügen.json deines Plugins dafür ist es notwendig :
+Jetzt müssen Sie die Links Ihrer Dokumentation in die Infodatei einfügen.json deines Plugins dafür benötigst du :
 
-- Hinzufügen ``#language#/`` Für den Link zur Dokumentation geben wir hier unser Beispiel ``https://jeedom.github.io/plugin-template/#language#/``
-- Hinzufügen ``#language#/changelog`` Für den Link zu Ihrer Änderung sehen Sie sich also unser Beispiel an ``https://jeedom.github.io/plugin-template/#language#/changelog``
+- hinzufügen ``#language#/`` für den Link zur Dokumentation, so gibt dies in unserem Beispiel an ``https://jeedom.github.io/plugin-template/#language#/``
+- hinzufügen ``#language#/changelog`` für den Link zu Ihrer Änderung, so gibt dies an unserem Beispiel ``https://jeedom.github.io/plugin-template/#language#/changelog``
 
 > **Notiz**
 >
-> Wie Sie sehen können, wird Jeedom oder der Markt automatisch ersetzt, wenn der Benutzer nach Ihrem Dokument fragt #language# durch die Sprache des Benutzers, um auf die richtige Sprache zu verweisen (wenn Ihre Dokumentation nicht in der Sprache des Benutzers verfügbar ist, bezieht sich dies automatisch auf Französisch)
+> Sie werden verstehen, wenn der Benutzer nach Ihrem Dokument fragt, wird Jeedom oder der Markt automatisch ersetzt #language# durch die Sprache des Benutzers, um auf die richtige Sprache zu verweisen (wenn Ihre Dokumentation nicht in der Sprache des Benutzers verfügbar ist, wird sie automatisch auf Französisch zurückgesetzt)

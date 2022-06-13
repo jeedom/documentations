@@ -1,108 +1,108 @@
-# Edisio EOS 200
+# Edisio EOS200
 
 **Das Modul**
 
 ![eos200.module](images/eos200/eos200.module.jpg)
 
-**Das Jeedom Visual**
+**Das Jeedom-Visual**
 
 ![eos200.vue defaut](images/eos200/eos200.vue-defaut.jpg)
 
 ## Zusammenfassung
 
-Dieser kompakte und diskrete Sensor befindet sich an einer Tür, einem Fenster, einem Garagentor, einer Schublade und allen Öffnungen und ermöglicht es Ihnen, den Öffnungs- oder Schließzustand des letzteren zu erkennen.
+Dieser kompakte und diskrete Sensor wird an einer Tür, einem Fenster, einem Garagentor, einer Schublade oder allen Öffnungen angebracht und ermöglicht es Ihnen, den Öffnungs- oder Schließstatus der letzteren zu ermitteln.
 
-Je nach Status steuert der Sensor das Ein- und Ausschalten Ihrer Lichter, das Schließen oder Öffnen der Rollläden oder sogar das Auslösen eines Alarms über ein Szenario.
+Je nach Zustand steuert der Sensor das Ein- oder Ausschalten Ihrer Beleuchtung, das Schließen oder Öffnen der Rollläden oder sogar das Auslösen eines Alarms über ein Szenario.
 
-Das Signal wird nur gesendet, wenn der Sensor von seinem Magnetelement getrennt ist. Die integrierte LED-Anzeige signalisiert Statusänderungen. Niedriger Batteriestand durch 3 akustische "Pieptöne" am Empfänger
+Das Signal wird nur bis zur Trennung des Sensors von seinem Magnetelement gesendet. Integrierte LED-Anzeige signalisiert Statusänderungen. Niedriger Batteriestand wird durch 3 hörbare "Pieps" am Empfänger signalisiert
 
 ## Fonctions
 
--   Drahtloser Magnetsensor mit Batterien
--   Erkennt Öffnungen / Verschlüsse
--   Ultrakompakt
+-   Batteriebetriebener drahtloser Magnetsensor
+-   Erkennt Öffnungen/Schließungen
+-   Hochkompakt
 -   Einfache und kostenlose Installation
--   Signal wird sofort beim Öffnen / Schließen übertragen
--   Selbstschutz gegen Anheben
+-   Unverzögert übertragenes Signal während einer Öffnung/Schließung
+-   Ausziehbarer Selbstschutz
 -   Informationen zum Batteriestand
--   Wandmontage mit Schrauben oder doppelseitigem Klebeband
+-   Wandmontage durch Schrauben oder doppelseitiges Klebeband
 
-## Technische Daten
+## Technische Eigenschaften
 
--   Modultyp : Edisio Sender
--   Versorgung : 3VDC (Lithiumbatterie ER14250)
--   Frequenz : 868,3 MHz
--   Betriebstemperatur : 0 ° C + 45 ° C
--   Reichweite im freien Feld : 100M
--   Abmessungen : 25x79x19mm
--   Schutzart : IP20
--   Verwendung : Drinnen
+-   Mod-Typ : Edisio-Sender
+-   Einspeisung : 3VDC (Lithiumbatterie ER14250)
+-   Frequenz : 868,3MHz
+-   Betriebstemperatur : 0 °C +45 °C
+-   Reichweite in offenen Feldern : 100M
+-   Maße : 25 x 79 x 19 mm
+-   Stärke des Schutzes : IP20
+-   Verwenden : Drinnen
 
 ## Moduldaten
 
--   Machen Sie : Edisio Smart Home
--   Name : EOS-200
+-   Markieren : Edisio Smart Home
+-   Nachname : EOS-200
 
-## Allgemeine Konfiguration
+## Allgemeine Einrichtung
 
-Informationen zum Konfigurieren des Edisio-Plugins und zum Zuordnen eines Moduls zu Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/edisio/).
+Informationen zum Konfigurieren des Edisio-Plug-ins und zum Zuordnen eines Moduls zu Jeedom finden Sie hier [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/edisio/).
 
 > **Wichtig**
 >
-> Vergessen Sie nicht, die Option in der Plugin-Konfiguration zu aktivieren, damit Jeedom Ihre Sendermodule automatisch erstellt.
+> Damit Jeedom Ihre Sendermodule automatisch erstellt, vergessen Sie nicht, die Option in der Plugin-Konfiguration zu aktivieren.
 
-### "E" -Taste"
+### "E"-Taste"
 
-Unter der Schaltfläche "E" befindet sich die Zuordnungstaste des Temperatursensors.
+Unten finden Sie die Taste „E“, die die Zuordnungstaste des Temperatursensors ist.
 
 ![eos200.bouton e](images/eos200/eos200.bouton-e.jpg)
 
 ### Configuration
 
-Standardmäßig ist der Sensor in NO (normalerweise offen) konfiguriert)
+Standardmäßig ist der Sensor auf NO (Normally Open) konfiguriert)
 
 ![eos200.nf no](images/eos200/eos200.nf-no.jpg)
 
 > **Notiz**
 >
-> Sie müssen daher Ihren Sensor konfigurieren, wenn Sie ein Widget mit geschlossener Tür haben möchten.
+> Sie müssen daher Ihren Sensor konfigurieren, wenn Sie ein Widget mit geschlossener Tür haben möchten, wenn es geschlossen ist.
 
 ![eos200.mode](images/eos200/eos200.mode.jpg)
 
 ## Assoziation des Sensors mit Jeedom
 
-Das Koppeln des Bewegungssensors ist einfach. Drücken Sie einfach die Taste "E" unter dem Sensor. Dies wird von Jeedom automatisch erkannt. Gehen Sie einfach zum Edisio-Plugin. Sie können es in ein Objekt einfügen, ihm einen Namen geben und es speichern.
+Das Koppeln des Bewegungssensors ist kinderleicht. Drücken Sie einfach die Taste „E“, die sich unter dem Sensor befindet. Dies wird von Jeedom automatisch erkannt. Alles, was Sie tun müssen, ist zum Edisio-Plugin zu gehen. Sie können es dann in einem Objekt platzieren, ihm einen Namen geben und speichern.
 
-Sobald Ihre Ausrüstung gekoppelt ist, sollten Sie diese erhalten :
+Sobald Ihre Ausrüstung verbunden ist, sollten Sie dies erhalten :
 
 ![eos200.general](images/eos200/eos200.general.jpg)
 
-> **Spitze**
+> **Tipp**
 >
-> Denken Sie daran, Ihre Ausrüstung in einem Objekt zu platzieren, damit das Widget im Dashboard angezeigt wird.
+> Denken Sie daran, Ihre Ausrüstung in einem Objekt zu platzieren, damit das Widget auf dem Dashboard angezeigt wird.
 
-### Befehle 
+### Aufträge 
 
 Sobald Ihre Ausrüstung erstellt ist, sollten Sie die mit dem Modul verknüpften Befehle erhalten :
 
-![Befehle](images/eos200/eos200.commandes.jpg)
+![Aufträge](images/eos200/eos200.commandes.jpg)
 
 Hier ist die Liste der Befehle :
 
--   Tür : Dies ist der Befehl, der angibt, ob die Tür geöffnet oder geschlossen ist
+-   Tor : Dies ist der Befehl, der anzeigt, ob die Tür geöffnet oder geschlossen ist
 -   Batterie : Zeigt den Batteriestatus an
 
 ### Informations
 
-Sobald Ihre Ausrüstung mit Jeedom verknüpft ist, stehen verschiedene Informationen zur Verfügung :
+Sobald Ihre Ausrüstung mit Jeedom verknüpft ist, sind verschiedene Informationen verfügbar :
 
-![Befehle](images/eos200/eos200.informations.jpg)
+![Aufträge](images/eos200/eos200.informations.jpg)
 
 -   Schaffung : Gibt das Datum an, an dem das Gerät erstellt wurde
--   Kommunikation : Zeigt die letzte zwischen Jeedom und dem Modul aufgezeichnete Kommunikation an
+-   Kommunikation : Zeigt die letzte aufgezeichnete Kommunikation zwischen Jeedom und dem Modul an
 -   Batterie : Zeigt den Batteriestatus der Batteriemodule an
--   STATUS : Gibt den Status des Moduls zurück
+-   Status : Gibt den Status des Moduls zurück
 
-## Alternative visuelle
+## Alternative Optik
 
 ![eos200.vue alternative](images/eos200/eos200.vue-alternative.jpg)

@@ -1,4 +1,4 @@
-## Core v4.3 | Plugin-Entwickler
+## Kern v4.3 | Plugin-Entwickler
 
 ### Obsolete
 
@@ -8,6 +8,6 @@
 
 -
 
-### Optionale Modifikationen
+### Optionale Änderungen
 
 -

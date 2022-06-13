@@ -5,7 +5,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/camera/images/alcatel.portiervideo.png" width="60" />|Alcatel|IP_Linkcom / video door entry unit||||
+|<img src="../../en_US/camera/images/alcatel.portiervideo.png" width="60" />|Alcatel|IP_Linkcom/video door entry||||
 
 # Android
 
@@ -32,7 +32,7 @@
 |<img src="../../en_US/camera/images/d-link.dcs-5300g.png" width="60" />|D-Link|DCS-5300G||||
 |<img src="../../en_US/camera/images/d-link.dcs-932l.png" width="60" />|D-Link|DCS 932l||||
 |<img src="../../en_US/camera/images/d-link.dcs-no-ptz.png" width="60" />|D-Link|DCS||||
-|<img src="../../en_US/camera/images/d-link.dcs-ptz.png" width="60" />|D-Link|DCS PTZ||||
+|<img src="../../en_US/camera/images/d-link.dcs-ptz.png" width="60" />|D-Link|DCS-PTZ||||
 |<img src="../../en_US/camera/images/d-link.dsc-5020l.png" width="60" />|D-Link|DSC-5020L && DCS-935L||||
 |<img src="../../en_US/camera/images/d-link.eyeOnbabyMonitor.png" width="60" />|D-Link|EyeOn baby Monitor||||
 
@@ -70,19 +70,19 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/camera/images/foscam.C2.png" width="60" />|Foscam|C1 / C2||||
-|<img src="../../en_US/camera/images/foscam.C2M.png" width="60" />|Foscam|C2M|||[Buy](https://www.domadoo.fr/fr/cameras/4975-foscam-camera-ip-wifi-interieure-2mp-6954836069547.html)|
-|<img src="../../en_US/camera/images/foscam.D2.png" width="60" />|Foscam|D2P / D2EP||||
-|<img src="../../en_US/camera/images/foscam.FI9800.png" width="60" />|Foscam|FI980xP / FI980xEP||||
-|<img src="../../en_US/camera/images/foscam.FI9828.png" width="60" />|Foscam|FI9828W / FI9828P / FI9828P V2 / FI9805E||||
-|<img src="../../en_US/camera/images/foscam.FI9853.png" width="60" />|Foscam|FI9853P / FI9853EP||||
-|<img src="../../en_US/camera/images/foscam.FI9900.png" width="60" />|Foscam|FI9900EP / FI9900P / FI9901EP / FI9901P||||
-|<img src="../../en_US/camera/images/foscam.FI9902.png" width="60" />|Foscam|FI9902P / FI9902EP|||[Buy](https://www.domadoo.fr/fr/cameras/4977-foscam-camera-ip-wifi-exterieur-2mp-6954836013533.html)|
+|<img src="../../en_US/camera/images/foscam.C2.png" width="60" />|Foscam|C1/C2||||
+|<img src="../../en_US/camera/images/foscam.C2M.png" width="60" />|Foscam|C2M|||[To buy](https://www.domadoo.fr/fr/cameras/4975-foscam-camera-ip-wifi-interieure-2mp-6954836069547.html)|
+|<img src="../../en_US/camera/images/foscam.D2.png" width="60" />|Foscam|D2P/D2EP||||
+|<img src="../../en_US/camera/images/foscam.FI9800.png" width="60" />|Foscam|FI980xP/FI980xEP||||
+|<img src="../../en_US/camera/images/foscam.FI9828.png" width="60" />|Foscam|FI9828W/FI9828P/FI9828P V2/FI9805E||||
+|<img src="../../en_US/camera/images/foscam.FI9853.png" width="60" />|Foscam|FI9853P/FI9853EP||||
+|<img src="../../en_US/camera/images/foscam.FI9900.png" width="60" />|Foscam|FI9900EP/FI9900P/FI9901EP/FI9901P||||
+|<img src="../../en_US/camera/images/foscam.FI9902.png" width="60" />|Foscam|FI9902P/FI9902EP|||[To buy](https://www.domadoo.fr/fr/cameras/4977-foscam-camera-ip-wifi-exterieur-2mp-6954836013533.html)|
 |<img src="../../en_US/camera/images/foscam.FI9926P.png" width="60" />|Foscam|FI9926P||||
-|<img src="../../en_US/camera/images/foscam.FI9928P.png" width="60" />|Foscam|FI9928P|||[Buy](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
-|<img src="../../en_US/camera/images/foscam.G4.png" width="60" />|Foscam|G4P / G4EP||||
-|<img src="../../en_US/camera/images/foscam.R2.png" width="60" />|Foscam|R2P / R2EP||||
-|<img src="../../en_US/camera/images/foscam.R2M.png" width="60" />|Foscam|R2MP / R2MEP|||[Buy](https://www.domadoo.fr/fr/cameras/4976-foscam-camera-ip-wifi-interieure-motorisee-2mp-6954836001486.html)|
+|<img src="../../en_US/camera/images/foscam.FI9928P.png" width="60" />|Foscam|FI9928P|||[To buy](https://www.domadoo.fr/fr/cameras/4978-foscam-camera-ip-wifi-exterieur-motorisee-2mp-6954836003299.html)|
+|<img src="../../en_US/camera/images/foscam.G4.png" width="60" />|Foscam|G4P/G4EP||||
+|<img src="../../en_US/camera/images/foscam.R2.png" width="60" />|Foscam|R2P/R2EP||||
+|<img src="../../en_US/camera/images/foscam.R2M.png" width="60" />|Foscam|R2MP/R2MEP|||[To buy](https://www.domadoo.fr/fr/cameras/4976-foscam-camera-ip-wifi-interieure-motorisee-2mp-6954836001486.html)|
 
 # Freebox
 
@@ -103,7 +103,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/camera/images/hikvision.DS-2DE2A404IW-DE3.png" width="60" />|Hikvision|DS-2DE2A404IW-DE3||||
-|<img src="../../en_US/camera/images/hikvision.DS-7216HWI-SH-A.png" width="60" />|Hikvision|DS-7216HWI-SH / A||(XXX = 101 for channel 1 / XXX = 202 for channel 2)||
+|<img src="../../en_US/camera/images/hikvision.DS-7216HWI-SH-A.png" width="60" />|Hikvision|DS-7216HWI-SH/A||(XXX = 101 for channel 1 / XXX = 202 for channel 2)||
 |<img src="../../en_US/camera/images/hikvision.ds-2cd2132-I.png" width="60" />|Hikvision|DS-2CD2132-I, DS-2CD3332-I, DS-2CD2232-I5, DS-2CD2732F-IS||||
 
 # Ios
@@ -113,7 +113,7 @@
 |<img src="../../en_US/camera/images/ios.ip-camera.png" width="60" />|ios|IP Camera||||
 |<img src="../../en_US/camera/images/ios.karakuri.camera.png" width="60" />|ios|Karakuri Camera - Auto Shutter & WEB Monitoring||||
 |<img src="../../en_US/camera/images/ios.livereporter.png" width="60" />|ios|Live Reporter||||
-|<img src="../../en_US/camera/images/ios.periscopehd.png" width="60" />|ios|HD periscope||||
+|<img src="../../en_US/camera/images/ios.periscopehd.png" width="60" />|ios|HD Periscope||||
 
 # Karotz
 
@@ -126,7 +126,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/camera/images/konx.portier.png" width="60" />|Konx|Video doorman||||
+|<img src="../../en_US/camera/images/konx.portier.png" width="60" />|Konx|Video door entry||||
 
 # Mustcam
 
@@ -138,8 +138,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/camera/images/presence.png" width="60" />|Netatmo|Presence||Absolutely requires the Netatmo Security plugin (paid)|[Buy](https://www.domadoo.fr/fr/objets-communicants/3855-netatmo-camera-exterieure-de-securite-presence-3700730501866.html)|
-|<img src="../../en_US/camera/images/welcome.png" width="60" />|Netatmo|Welcome||Absolutely requires the Netatmo Security plugin (paid)|[Buy](https://www.domadoo.fr/fr/objets-communicants/3064-netatmo-camera-a-reconnaissance-faciale-welcome-3700730500623.html)|
+|<img src="../../en_US/camera/images/presence.png" width="60" />|Netatmo|Presence||Absolutely requires the Netatmo Security plugin (paid)|[To buy](https://www.domadoo.fr/fr/objets-communicants/3855-netatmo-camera-exterieure-de-securite-presence-3700730501866.html)|
+|<img src="../../en_US/camera/images/welcome.png" width="60" />|Netatmo|Welcome||Absolutely requires the Netatmo Security plugin (paid)|[To buy](https://www.domadoo.fr/fr/objets-communicants/3064-netatmo-camera-a-reconnaissance-faciale-welcome-3700730500623.html)|
 
 # Onvif
 
@@ -200,7 +200,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/camera/images/vistacam.700.png" width="60" />|Vistacam|Vera 700 / Secomm / Homelive||||
+|<img src="../../en_US/camera/images/vistacam.700.png" width="60" />|Vistacam|Vera 700/Secomm/Homelive||||
 |<img src="../../en_US/camera/images/vistacam.sd.png" width="60" />|Vistacam|Vera SD||||
 
 # Vivotek
@@ -222,7 +222,7 @@
 |<img src="../../en_US/camera/images/wanscam.hw0049.png" width="60" />|Wanscam|HW0049||||
 |<img src="../../en_US/camera/images/wanscam.hw00XX.png" width="60" />|Wanscam|HW00XX||||
 |<img src="../../en_US/camera/images/wanscam.jw0008.png" width="60" />|Wanscam|Motorized||||
-|<img src="../../en_US/camera/images/wanscam.q3.png" width="60" />|Wanscam|q3 (s)||||
+|<img src="../../en_US/camera/images/wanscam.q3.png" width="60" />|Wanscam|q3(s)||||
 
 # Ycam
 
@@ -237,6 +237,6 @@
 |<img src="../../en_US/camera/images/zavio.f3115.png" width="60" />|Zavio|F3115||||
 
 
-This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
+This list is based on user feedback, so the Jeedom team cannot guarantee that all modules in this list are 100% functional
 
 2022-06-13 02:20:08

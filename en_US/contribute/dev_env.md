@@ -1,28 +1,28 @@
 ## Development environment
 
-We will see here how to set up an efficient development environment between a test Pi and a Windows PC for editing the code and maintaining the GitHub repository.
+We will see here how to set up an efficient development environment between a test Pi and a Windows PC for code editing and maintenance of the GitHub repository.
 
-This page concerns the Jeedom Core but this method can be used for plugin development.
+This page concerns Jeedom Core but this method can be used for plugin development.
 
-Certainly, for quick edits of a few files, we can use the plugin **JeeXplorer** directly on Jeedom. But it is quickly tedious, and you then have to report all the changes to the local repository or directly to GitHub. This is not the most practical.
+Of course, for quick edits of a few files, you can use the plugin **jeeXplorer** directly on Jeedom. But it's quickly tedious, and then you have to transfer all the changes to the local repository or directly to GitHub. It's not the most practical.
 
 ### Principe
 
 - Set up a test Pi with Jeedom and a Samba share to access it from the PC.
 - Duplicate the repository locally with **Sublime Merge**.
-- Implement **Sublime Text** for editing code from the repository with synchronization on the test Pi.
+- Implement **Sublime Text** for repository code editing with synchronization on the test Pi.
 
-**Sublime Merge** and **Sublime Text** are certainly paid (a low price with 3 years of update), but are very light, fast, easily customizable and very complete without requiring lots of plugins / packages. Also if you don't take a license you can use them normally, you will just get a little popup every now and then with a button *Cancel* !
+**Sublime Merge** and **Sublime Text** are certainly paying (a low price with 3 years of update), but are very light, fast, easily customizable and very complete without requiring lots of plugins / packages. Also, if you don't take a license, you can use them normally, you'll just have a little popup from time to time with a button *Cancel* !
 
-This method is also possible with other tools, such as **Atom** (which will require some packages) and **GitHub Desktop**.
+This method is also possible with other tools, like **Atom** (which will require some packages) and **GitHub Desktop**.
 
-### Pi test / development
+### Test/Development Pi
 
-The first thing to do if you are developing Core functions or a plugin : Set up a test configuration. Indeed, we do not develop on a production configuration !
+The first thing to do if you are developing Core functions or a plugin : Set up a test setup. Indeed, we do not develop on a production configuration !
 
-For the installation of Jeedom, the documentation is there : [Installation on Raspberry Pi](https://doc.jeedom.com/en_US/installation/rpi).
+For the installation of Jeedom, the doc is there : [Installation on Raspberry Pi](https://doc.jeedom.com/en_US/installation/rpi).
 
-Warning, prefer an SSD to an SD card !
+Attention, prefer an SSD to an SD card !
 
 Once Jeedom is installed, install Samba, in SSH :
 
@@ -30,23 +30,23 @@ Once Jeedom is installed, install Samba, in SSH :
 
 Configure a password for www-data (the root of Jeedom) :
 
-`sudo smbpasswd www-data` then enter your *Password*.
+`sudo smbpasswd www-data` then enter your *password*.
 
-Edit the samba configuration :
+Edit samba configuration :
 
-`sudo nano / etc / samba / smb.conf`
+`sudo nano /etc/samba/smb.conf`
 
 Add :
 
 ````text
-wins support = yes
+wins support=yes
 
 [jeedomRoot]
-path = / var / www / html
+path = /var/www/html
 browsable = yes
-writable = yes
-force user = www-data
-force group = www-data
+writeable=yes
+force user=www-data
+forcegroup = www-data
 read only = No
 guest ok = Yes
 ````
@@ -91,7 +91,7 @@ Dans **Sublime Text**, *Project* / *Edit Project*, définissez le répertoire de
   [
     {
       "name": "__GitHub Jeedom Core__",
-      "path": "W:\\_ GitHub-Repos _ \\ JeedomCore"
+      "path": "W:\\_GitHub-Repos_\\JeedomCore"
     },
     {
       "name": "___Pi_JeedomAlpha___",
@@ -101,32 +101,32 @@ Dans **Sublime Text**, *Project* / *Edit Project*, définissez le répertoire de
 }
 ````
 
-Here, adding the path of the test Pi is not mandatory, but it is still practical.
+Here adding the path of the test Pi is not mandatory, but it is always convenient.
 
-So you can now, in **Sublime Text**, directly edit the files of the local repository. Changes to these files will appear in **Sublime Merge**, where you can commit all or part of each file, or roll back the changes if that doesn't work.
+So you can now, in **Sublime Text**, directly edit local repository files. Changes to these files will appear in **Sublime Merge**, where you can commit all or part of each file, or roll back the changes if that doesn't work.
 
-Now, it remains to test these code changes on the test Jeedom.
+Now it remains to test these code changes on the test Jeedom.
 
-For that, you can of course copy the modified files to your Pi using the samba share on your PC. Or not ! When you edit ten files in different places, it will quickly become painful !
+For that, you can of course copy the modified files to your Pi using the samba share on your PC. Or not ! When you modify a dozen files in different places, it will quickly become painful !
 
-We will therefore configure **Sublime Text** so that, when you save a file, it will copy it directly to the Pi !
+We will therefore configure **Sublime Text** so that when you save a file, it copies it directly to the Pi !
 
-Go to the directory `C:\ Program Files \ SublimeText3 \ Data \ Packages \ User` and create an `onSaveCopy.py` file. Edit it and, after modifying the correct paths, save the following code:
+Go to the `C directory:\Program Files\SublimeText3\Data\Packages\User` and create a file `onSaveCopy.py`. Edit it and, after modifying the correct paths, save the following code:
 
 ````py
-import sublime, sublime_plugin, bone
+import sublime, sublime_plugin, os
 from shutil import copyfile
 
-gitHub_repoCore = "W:\\_ GitHub-Repos _ \\ JeedomCore"
-rpi_root = "\\\\ 192.168.0.110 \\ jeedomRoot"
+gitHub_repoCore = "W:\\_GitHub-Repos_\\JeedomCore"
+rpi_root = "\\\\192.168.0.110\\jeedomRoot"
 
-class EventListener (sublime_plugin.EventListener ):
-  def on_post_save_async (self, view):
+class EventListener(sublime_plugin.Event listener ):
+  def on_post_save_async(self, view):
     fullPath = view.file_name()
-    path, baseName = os.path.split (fullPath)
+    path, baseName = os.path.split(fullPath)
     if gitHub_repoCore in path:
-      rpi_path = fullPath.replace (gitHub_repoCore, rpi_root)
-      copyfile (fullPath, rpi_path)
+      rpi_path = fullPath.replace(gitHub_repoCore, rpi_root)
+      copyfile(fullPath, rpi_path)
 ````
 
 Et voilà !

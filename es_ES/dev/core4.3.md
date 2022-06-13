@@ -1,4 +1,4 @@
-## Core v4.3 | Desarrolladores de complementos
+## Núcleo v4.3 | Desarrolladores de complementos
 
 ### Obsolete
 
@@ -8,6 +8,6 @@
 
 -
 
-### Modificaciones opcionales
+### Cambios opcionales
 
 -

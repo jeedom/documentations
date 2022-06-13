@@ -1,20 +1,20 @@
-# Gestión de widgets de complementos
+# Administrar widgets de complementos
 
-Hay varias posibilidades para crear widgets personalizados para complementos :
+Hay varias posibilidades para hacer widgets personalizados para complementos :
 
 - el primero con la función toHtml (método de instancia) que hereda de la clase eqLogic
 - por el sistema de plantillas (solo v4)
 
-## Función ToHtml
+## A la función HTML
 
-Entonces, nada especial, la función toHtml debe devolver el widget en html, tienes un ejemplo [el](https://github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
+Sobre eso, nada especial, la función toHtml debe devolver el widget en html, tienes un ejemplo [la](https://github.com/jeedom/plugin-weather/blob/beta/core/class/weather.class.php#L647)
 
-Lo importante son sobre todo las primeras líneas :
+Lo importante es sobre todo las 1ras lineas :
 
 ````php
 $replace = $this->preToHtml($_version);
-tejo (!is_array ($ reemplazar)) {
-	return $ reemplazar;
+si (!is_array($reemplazar)) {
+	devolver $reemplazar;
 }
 ````
 
@@ -30,7 +30,7 @@ Le système de template de widget dans le code est en fait exactement le même q
 Voaquí un exemple :
 
 ````php
-plantilla de función estática pública(){
+widget de plantilla de función estática pública(){
 	$return = array('info' => array('string' => array()));
 	$return['info']['string']['state'] = array(
 		'template' => 'tmplmultistate',
@@ -40,33 +40,33 @@ plantilla de función estática pública(){
 			array('operation' => '#value# > 3 || #value# < 2','state' => '<i class="fa fa-home"></i>')
 		)
 	);
-	return $ return;
+	devolver $retorno;
 }
 ````
 
-Aquí, crearemos un nuevo widget basado en la plantilla "tmplmultistate" (tienes la lista de plantillas [aquí](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) son aquellos con tmpl en su nombre), para un comando de tipo de información y debajo de tipo de cadena.
+Aquí crearemos un nuevo widget basado en la plantilla "tmplmultistate" (tienes la lista de plantillas [aquí](https://github.com/jeedom/core/tree/alpha/core/template/dashboard) son aquellos con tmpl en su nombre), para un comando de tipo info y bajo tipo de cadena.
 
-> **Importante**
+> **IMPORTANTE**
 >
-> Cada plantilla es para un tipo y subtipo determinados, por lo que debe verificar que la plantilla que desea usar exista para el tipo y subtipo
+> Cada plantilla es para un tipo y subtipo determinado, por lo que debe comprobar que la plantilla que desea utilizar existe para el tipo y subtipo
 
-Luego, como es una plantilla con varios estados, hay que definir los iconos según el estado. Se realiza en la parte de prueba de la tabla.
+Luego, como es una plantilla con varios estados, hay que definir los iconos según el estado. Esto se hace en la parte de prueba de la tabla.
 
-Ejemplo : para la primera prueba, decimos que si el valor del comando vale 2, entonces será necesario reemplazar la etiqueta #\_state_# (en el código html de la plantilla) por </i>
+Ejemplo : para la primera prueba, decimos que si el valor del comando es 2, entonces la etiqueta deberá ser reemplazada #\_state_# (en el código html de la plantilla) por </i>
 
 Otro ejemplo basado en otra plantilla podría ser :
 
 ````php
-plantilla de función estática pública(){
+widget de plantilla de función estática pública(){
 	$return = array('info' => array('string' => array()));
 	$return['info']['binary']['toto'] = array(
-		'template '=>' tmplicon',
-		'reemplazar '=> matriz(
+		'template' => 'tmplicon',
+		'reemplazar' => matriz(
 			'#_icon_on_#' => '<i class=\'icon_green icon jeedom-porte-ferme\'></i>',
 			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
 			)
 	);
-	return $ return;
+	devolver $retorno;
 }
 ````
 
@@ -83,6 +83,6 @@ $cmd->setTemplate('dashboard','neato::state');
 $cmd->setTemplate('mobile','neato::state');
 ````
 
-Es como un widget normal, excepto por el nombre del widget que tiene el formato id_plugin::nombre_widget. Para el segundo ejemplo, será id_plugin::toto
+Es como un widget normal excepto por el nombre del widget que tiene la forma id_plugin::nombre del widget. Para el segundo ejemplo, será id_plugin::toto
 
 
