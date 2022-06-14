@@ -65,9 +65,9 @@ o equipamento diferente. O segundo apresenta os cenários.
 Você obtém uma tabela que permite, para cada equipamento e cada
 cenário, defina direitos do usuário :
 
--   **Nenhum** : o usuário não vê o equipamento / cenário
+-   **** : o usuário não vê o equipamento / cenário
 
--   **Visualização** : o usuário vê o equipamento / cenário, mas não vê
+-   **** : o usuário vê o equipamento / cenário, mas não vê
     não pode agir sobre isso
 
 -   **Visualização e execução** : o usuário vê

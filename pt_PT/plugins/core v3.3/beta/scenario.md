@@ -12,7 +12,7 @@ Para acessá-lo, nada mais simples, basta acessar Ferramentas ->
 Cenários. Você encontrará a lista de cenários para o seu Jeedom também
 apenas funciona para gerenciá-los melhor :
 
--   **Adicionar** : Crie um cenário. O procedimento é descrito
+-   **** : Crie um cenário. O procedimento é descrito
     no próximo capítulo.
 
 -   **Desativar cenários** : Desativa todos os cenários.
@@ -23,9 +23,9 @@ apenas funciona para gerenciá-los melhor :
     esta página.
 
 -   **Visão global** : Permite que você tenha uma visão geral de todos
-    os cenários. Você pode alterar os valores **de ativos**,
-    **visível**, **Multi lançamento**, **Sincronicamente**, **Registro** et
-    **Linha do tempo** (esses parâmetros são descritos no capítulo a seguir).
+    os cenários. Você pode alterar os valores ****,
+    ****, **Multi lançamento**, **Sincronicamente**, **** et
+    **** (esses parâmetros são descritos no capítulo a seguir).
     Você também pode acessar os logs para cada cenário e
     comece individualmente.
 
@@ -36,32 +36,32 @@ Meus scripts
 -------------
 
 Nesta seção, você encontrará o **lista de cenários** que você
-criaram. Eles são classificados de acordo com **grupos** que você tem
-definido para cada um deles. Cada cenário é exibido com seus **nome**
-e o dele **Objeto pai**. O **cenários esmaecidos** são aqueles que são
+criaram. Eles são classificados de acordo com **** que você tem
+definido para cada um deles. Cada cenário é exibido com seus ****
+e o dele **Objeto pai**.  **cenários esmaecidos** são aqueles que são
 desabilitado.
 
 Como em muitas páginas Jeedom, coloque o mouse à esquerda de
 a tela exibe um menu de acesso rápido (de
 seu perfil, você sempre pode deixá-lo visível). Você pode
-então **olhe para** seu cenário, mas também em **adicionar** um por isso
+ **** seu cenário, mas também em **** um por isso
 menu.
 
 Editando um Cenário
 =====================
 
-Depois de clicar em **Adicionar**, você deve escolher o nome do seu
+Depois de clicar em ****, você deve escolher o nome do seu
 cenário e você será redirecionado para sua página de configurações gerais.
 No topo, existem algumas funções úteis para gerenciar nosso cenário
 :
 
--   **EU IRIA** : Ao lado da palavra **Geral**, este é o identificador de cenário.
+-   **** : Ao lado da palavra **Geral**, este é o identificador de cenário.
 
--   **status** : Estado atual do seu cenário.
+-   **** : Estado atual do seu cenário.
 
--   **variáveis** : Ver variáveis.
+-   **** : Ver variáveis.
 
--   **Expressão** : Exibe o testador de expressão.
+-   **** : Exibe o testador de expressão.
 
 -   **Realizar** : Permite iniciar o cenário manualmente (lembre-se
     sem salvar de antemão !). Os gatilhos não são, portanto,
@@ -69,19 +69,19 @@ No topo, existem algumas funções úteis para gerenciar nosso cenário
 
 -   **Deletar** : Excluir cenário.
 
--   **Para salvaguardar** : Salve as alterações feitas.
+-   **** : Salve as alterações feitas.
 
--   **Modelo** : Permite acessar e aplicar modelos
+-   **** : Permite acessar e aplicar modelos
     para o script do mercado. (explicado na parte inferior da página).
 
--   **Exportar** : Obter uma versão em texto do script.
+-   **** : Obter uma versão em texto do script.
 
--   **Registro** : Exibe os logs do cenário.
+-   **** : Exibe os logs do cenário.
 
--   **Duplicado** : Copie o cenário para criar um
+-   **** : Copie o cenário para criar um
     novo com outro nome.
 
--   **Conexões** : Permite visualizar o gráfico dos elementos vinculados
+-   **** : Permite visualizar o gráfico dos elementos vinculados
     com o script.
 
 Guia Geral
@@ -94,12 +94,12 @@ nosso cenário :
 
 -   **Display Name** : O nome usado para sua exibição.
 
--   **Banda** : Permite organizar os cenários, classificando-os em
+-   **** : Permite organizar os cenários, classificando-os em
     grupos.
 
 -   **De ativos** : Ativar o cenário.
 
--   **Visível** : Usado para tornar o cenário visível.
+-   **** : Usado para tornar o cenário visível.
 
 -   **Objeto pai** : Atribuição a um objeto pai.
 
@@ -108,12 +108,12 @@ nosso cenário :
 
 -   **Multi lançamento** : Marque esta caixa se desejar
     cenário pode ser iniciado várias vezes ao mesmo tempo.
->**IMPORTANTE**
+>****
 >
 >O multi-lançamento funciona a partir do segundo, ou seja, se você tiver 2 lançamentos no mesmo segundo sem a caixa marcada, ainda haverá 2 lançamentos do cenário (quando não deve). Da mesma forma, durante vários lançamentos no mesmo segundo, é possível que alguns lançamentos percam as tags. Conclusão: você DEVE ABSOLUTAMENTE evitar vários lançamentos nos mesmos segundos.
 -   **Sincronicamente** : Inicie o cenário no segmento atual em vez de um segmento dedicado. Aumenta a velocidade de lançamento do cenário, mas pode tornar o sistema instável.
 
--   **Registro** : O tipo de log desejado para o cenário.
+-   **** : O tipo de log desejado para o cenário.
 
 -   **Siga na Timeline** : Acompanha o cenário
     na linha do tempo.
@@ -127,14 +127,14 @@ nosso cenário :
 
 > **Dica**
 >
-> Atenção : você pode ter no máximo 28
+>  : você pode ter no máximo 28
 > gatilhos / programação para um cenário.
 
 Guia Cenário
 ---------------
 
 É aqui que você criará seu cenário. Nós temos que começar
-por **Adicionar bloco**, com o botão à direita. Uma vez um bloco
+ **Adicionar bloco**, com o botão à direita. Uma vez um bloco
 criado, você pode adicionar outro **quadra** ou um **estoque**.
 
 > **Dica**
@@ -199,7 +199,7 @@ selecione um item para testar :
     Jeedom abre uma janela para perguntar qual teste você deseja
     executar nele. Se você escolher **Não ponha nada**,
     Jeedom adicionará o pedido sem comparação. Você também pode
-    Escolher **e** Onde **Onde** antes da **Próximo** para encadear testes
+    Escolher **** Onde **Onde** antes da **Próximo** para encadear testes
     em equipamentos diferentes.
 
 -   **Pesquisa cenário** : Permite procurar um cenário
@@ -239,7 +239,7 @@ Controles (sensores e atuadores):
     -   cor : $option = array('color' => 'couleur en hexadécimal');
     -   controle deslizante : $option = array('slider' => 'valeur voulue de 0 à 100');
 
-Registro :
+ :
 -   log::add ('nome do arquivo', 'nível', 'mensagem');
   -   nome do arquivo : Nome do arquivo de log.
   -   nível : [depuração], [informações], [erro], [evento].
@@ -656,10 +656,10 @@ E exemplos práticos :
 | randomColor(40,60)                 | Retorna uma cor aleatória próxima ao verde.   
 | trigger(#[Salle de bain][Hydrometrie][Humidité]#)   | 1 se isso é bom \#\[Salle de bain\]\[Hydrometrie\]\[Humidité\]\# quem iniciou o cenário caso contrário 0  |
 | triggerValue(#[Salle de bain][Hydrometrie][Humidité]#) | 80 se a hidrometria de \#\[Salle de bain\]\[Hydrometrie\]\[Humidité\]\# é 80%.                         |
-| round(#[Salle de bain][Hydrometrie][Humidité]# / 10) | Retorna 9 se a porcentagem de umidade e 85                     |
+| round(#[Salle de bain][Hydrometrie][Humidité]# ) | Retorna 9 se a porcentagem de umidade e 85                     |
 | odd(3)                             | Retorna 1                            |
 | median(15,25,20)                   | Retorna 20                           |
-| time_op(#time#, -90)               | se forem 16h50, retorne : 1 650 - 1 130 = 1520                          |
+| (#time#, -90)               | se forem 16h50, retorne : 1 650 - 1 130 = 1520                          |
 | formatTime(1650)                   | Retorna 16:50                        |
 | floor(130/60)                      | Retorna 2 (minutos se 130s ou horas se 130m)                      |
 
@@ -784,7 +784,7 @@ as ordens de correspondência se aplicam.
 Adição da função php
 ====================
 
-> **IMPORTANTE**
+> ****
 >
 > A adição da função PHP é reservada para usuários avançados. O menor erro pode travar o seu Jeedom
 
@@ -796,6 +796,6 @@ Vá para a pasta de dados, php e clique no arquivo user.function.class.php.
 
 É nesta classe que você deve adicionar suas funções, você encontrará um exemplo de função básica.
 
-> **IMPORTANTE**
+> ****
 >
 > Se você tiver um problema, sempre poderá voltar ao arquivo original e copiar o conteúdo de user.function.class.sample.php em user.function.class.php

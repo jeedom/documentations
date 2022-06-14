@@ -51,7 +51,7 @@ Außerdem können Sie auf den Titel der Kachel (den Namen des Geräts) klicken, 
 
 - Ein Klick auf eine Bestellung vom Informationstyp zeigt den Verlauf der Bestellung an (sofern er historisch ist).
 - Ein Strg + Klicken auf einen Befehl vom Typ Information zeigt den Verlauf aller Befehle (historisch) für diese Kachel an.
-- Ein Klick auf die Informationen *Zeit* eines Aktionsbefehls zeigt den Verlauf des Befehls an (falls er historisiert ist).
+- Ein Klick auf die Informationen ** eines Aktionsbefehls zeigt den Verlauf des Befehls an (falls er historisiert ist).
 
 
 ## Bearbeitungsmodus

@@ -120,7 +120,7 @@ E usado em muitos outros lugares como (não exaustivo) :
 > **Dica**
 >
 > A tabela fornece uma visão muito textual dos comandos
-> órfãos. Seu objetivo é poder identificar rapidamente todos os
+> . Seu objetivo é poder identificar rapidamente todos os
 > Comandos "órfãos" em todos os plugins Jeedom e. É
 > algumas áreas podem não ser analisadas, a tabela será
 > ser cada vez mais exaustivo ao longo do tempo.

@@ -10,11 +10,11 @@ Meu perfil
 ==========
 
 É aqui que você poderá ajustar diferentes parâmetros do seu
-perfil :
+ :
 
--   **Perfil**
+-   ****
 
-    -   **Conecte-se** : Seu login no Market, não pode ser alterado
+    -   **** : Seu login no Market, não pode ser alterado
 
     -   **Sobrenome** : Seu nome (esta informação é útil apenas para
         Torne os emails mais divertidos)
@@ -24,9 +24,9 @@ perfil :
 
     -   **Nome de usuário no fórum** : Seu nome de usuário no fórum
 
-    -   **E-mail** : Seu e-mail
+    -   **** : Seu e-mail
 
-    -   **Linguagem** : Seu idioma
+    -   **** : Seu idioma
 
     -   **Senha e Confirmar senha** : deixa
         mude sua senha
@@ -48,20 +48,20 @@ Para os profissionais :
 -   **Destinatário das solicitações de suporte** : saber quem receberá o
     e-mails de suporte (cliente final, instalador ou ambos)
 
-    -   **PARA% S**
+    -   ****
 
 -   **Do utilizador** : condições gerais de uso (preste atenção às
     leia-os bem, porque eles envolvem você)
 
--   **Desenvolvedor** : condições gerais de uso para
+-   **** : condições gerais de uso para
     desenvolvedores
 
-    -   **Bilhetes**
+    -   ****
 
 -   **Número de bilhetes** : Número de ingressos para o mês atual
     bem como o seu limite
 
--   **Apoiar** : para enviar uma solicitação de suporte (acessível
+-   **** : para enviar uma solicitação de suporte (acessível
     também pelo ponto de exclamação no canto superior direito do mercado ou
     no seu Jeedom)
 
@@ -80,9 +80,9 @@ Para os profissionais :
 Minhas jeedoms 
 ===========
 
--   **Nível**
+-   ****
 
-    -   **Jeedom** : Seu nível de service pack
+    -   **** : Seu nível de service pack
 
     -   **Digite um número de service pack** : vamos entrar no seu
         número do service pack (pode ser encontrado no e-mail enviado por
@@ -106,15 +106,15 @@ Minhas jeedoms
         encontrado no nome do backup, se você tiver a assinatura de
         Backup em nuvem)
 
-    -   **Estado** : Vamos ver o estado do Jeedom em questão
+    -   **** : Vamos ver o estado do Jeedom em questão
 
     -   **IP local / remoto** : IP ou endereço deste Jeedom,
         configurar no Jeedom, se você não colocar nada, ele estará lá
         último IP conhecido
 
-    -   **DNS** : Permite que você personalize o nome do seu DNS
+    -   **** : Permite que você personalize o nome do seu DNS
 
-    -   **URLs** : Listar os diferentes URLs de acesso Jeedom.
+    -   **** : Listar os diferentes URLs de acesso Jeedom.
 
     -   **Servidor DNS** : informa se o servidor DNS ao qual você está
         estão anexados
@@ -128,7 +128,7 @@ Minhas jeedoms
     -   **Última atualização** : A última comunicação de Jeedom com
         o mercado
 
-    -   **Hardware** : Nome do hardware Jeedom
+    -   **** : Nome do hardware Jeedom
 
     -   **Versão** : Versão Jeedom instalada
 

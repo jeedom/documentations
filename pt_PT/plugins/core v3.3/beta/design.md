@@ -17,9 +17,9 @@ sua imaginação.
 No menu (clique com o botão direito do mouse), encontramos o
 seguintes ações :
 
--   **Desenhos** : Exibe a lista de seus projetos e os acessa
+-   **** : Exibe a lista de seus projetos e os acessa
 
--   **Editando** : Mudar para o modo de edição
+-   **** : Mudar para o modo de edição
 
 -   **Tela cheia** : Permite usar a página da web inteira, que
     irá remover o menu Jeedom da parte superior
@@ -52,15 +52,15 @@ seguintes ações :
 -   **Adicionar resumo** : Adiciona informações de um resumo de objeto ou
     Geral
 
--   **Exibição**
+-   ****
 
-    -   **Nenhum** : Não exibe nenhuma grade
+    -   **** : Não exibe nenhuma grade
 
-    -   **10x10** : Exibe uma grade 10 por 10
+    -   **** : Exibe uma grade 10 por 10
 
-    -   **15x15** : Exibe uma grade de 15 por 15
+    -   **** : Exibe uma grade de 15 por 15
 
-    -   **20x20** : Exibe uma grade de 20 por 20
+    -   **** : Exibe uma grade de 20 por 20
 
     -   **Magnetizar os elementos** : Adicione uma magnetização entre
         elementos para facilitar a aderência
@@ -80,13 +80,13 @@ seguintes ações :
 
 -   **Cenografia** : Acesso à configuração do design
 
--   **Para salvaguardar** : permite salvar o design (atenção, existem
+-   **** : permite salvar o design (atenção, existem
     também backups automáticos durante determinadas ações)
 
 > **Importante**
 >
 > A configuração dos elementos de design é feita clicando em
-> esses.
+> .
 
 Configuração do projeto 
 =======================
@@ -109,13 +109,13 @@ Encontrado aqui :
     -   **ícone** : Um ícone para ele (aparece no menu
         escolha do design)
 
-    -   **Imagem**
+    -   ****
 
-        -   **Mandar** : Permite adicionar uma imagem de plano de fundo ao design
+        -   **** : Permite adicionar uma imagem de plano de fundo ao design
 
         -   **Excluir imagem** : Excluir imagem
 
--   **Tamanhos**
+-   ****
 
     -   **Tamanho (LxA))** : Permite corrigir o tamanho do seu design
         (moldura cinza no modo de edição)
@@ -135,7 +135,7 @@ Configuração geral de elementos
 Configuração de exibição 
 ---------------------
 
--   **Profundidade** : Permite escolher o nível de profundidade
+-   **** : Permite escolher o nível de profundidade
 
 -   **Posição X (%)** :
 
@@ -150,18 +150,18 @@ Deletar
 
 Remover item
 
-Duplicado 
+ 
 ---------
 
 Permite duplicar o elemento
 
-Trancar 
+ 
 -----------
 
 Bloqueia o elemento para que ele não seja mais móvel ou
 redimensionnable.
 
-Gráfico 
+ 
 =========
 
 Configurações de exibição 
@@ -181,7 +181,7 @@ Configurações de exibição
 
 -   **Fundo transparente** : Torna o plano de fundo transparente
 
--   **Fronteira** : adicione uma borda, cuidado com a sintaxe
+-   **** : adicione uma borda, cuidado com a sintaxe
     HTML (tenha cuidado, você deve usar a sintaxe CSS, por exemplo :
     sólido 1px preto)
 
@@ -193,7 +193,7 @@ Permite escolher os comandos para grapher
 Texto / html 
 =========
 
--   **Ícone** : Ícone a ser exibido na frente
+-   **** : Ícone a ser exibido na frente
 
 -   **Cor de fundo** : permite alterar a cor do plano de fundo ou
     coloque transparente, não esqueça de passar "Default" em NO
@@ -204,7 +204,7 @@ Texto / html
 -   **Arredonde os ângulos** : permite arredondar os ângulos (não
     esqueça de colocar%, ex 50%)
 
--   **Fronteira** : adicione uma borda, cuidado com a sintaxe
+-   **** : adicione uma borda, cuidado com a sintaxe
     HTML (use a sintaxe CSS, por exemplo : solid
     1px preto)
 
@@ -214,9 +214,9 @@ Texto / html
 -   **Alinhamento de texto** : permite escolher o alinhamento do
     texto (esquerda / direita / centralizado))
 
--   **Audacioso** : texto em negrito
+-   **** : texto em negrito
 
--   **Texto** : Texto em código HTML que estará no elemento
+-   **** : Texto em código HTML que estará no elemento
 
 > **Importante**
 >
@@ -233,7 +233,7 @@ Configurações de exibição
 
 Nenhuma configuração de exibição específica
 
-Link 
+ 
 ====
 
 Configurações de exibição 
@@ -241,7 +241,7 @@ Configurações de exibição
 
 -   **Sobrenome** : Nome do link (texto exibido)
 
--   **Link** : Link para o design ou exibição em questão
+-   **** : Link para o design ou exibição em questão
 
 -   **Cor de fundo** : permite alterar a cor do plano de fundo ou
     coloque transparente, não esqueça de passar "Default" em NO
@@ -261,9 +261,9 @@ Configurações de exibição
 -   **Alinhamento de texto** : permite escolher o alinhamento do
     texto (esquerda / direita / centralizado))
 
--   **Audacioso** : texto em negrito
+-   **** : texto em negrito
 
-Equipamento 
+ 
 ==========
 
 Configurações de exibição 
@@ -277,7 +277,7 @@ Configuração avançada
 Exibe a janela de configuração avançada do equipamento (consulte
 documentação de resumo da automação residencial ("display"))
 
-Encomendado 
+ 
 ========
 
 Configurações de exibição 
@@ -297,15 +297,15 @@ Imagem / Câmera
 Configurações de exibição 
 ---------------------
 
--   **Mostrar** : define o que você deseja exibir, imagem estática ou
+-   **** : define o que você deseja exibir, imagem estática ou
     transmitir a partir de uma câmera
 
--   **Imagem** : permite enviar a imagem em questão (se você tiver
+-   **** : permite enviar a imagem em questão (se você tiver
     escolha uma imagem)
 
 -   **Câmera** : Câmera a ser exibida (se você escolher a câmera)
 
-Área 
+ 
 ====
 
 Configurações de exibição 
@@ -339,20 +339,20 @@ para o Off
 Nesse modo, ao passar o mouse ou clicar na área Jeedom, você
 exibir o widget em questão
 
--   **Equipamento** : Widget a ser exibido ao passar o mouse ou clicar em
+-   **** : Widget a ser exibido ao passar o mouse ou clicar em
 
 -   **Mostrar no viaduto** : Se marcado, exibe o widget em foco
 
 -   **Vista em um clique** : se marcado, o widget será exibido em
     clic
 
--   **Posição** : permite escolher o local em que o
+-   **** : permite escolher o local em que o
     widget (canto inferior direito padrão)
 
 Resumo 
 ======
 
--   **Link** : Usado para indicar o resumo a ser exibido (Geral para o
+-   **** : Usado para indicar o resumo a ser exibido (Geral para o
     global, caso contrário, indique o objeto)
 
 -   **Cor de fundo** : permite alterar a cor do plano de fundo ou
@@ -370,10 +370,10 @@ Resumo
 -   **Tamanho da fonte (ex 50%, você deve colocar o sinal de%)** :
     Permite alterar o tamanho da fonte
 
--   **Audacioso** : texto em negrito
+-   **** : texto em negrito
 
 
-Perguntas frequentes 
+ 
 ======
 
 >**Não consigo mais editar meu design**

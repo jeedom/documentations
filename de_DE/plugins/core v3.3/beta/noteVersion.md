@@ -1,4 +1,4 @@
-3.1.6 
+ 
 =====
 
 Bitte beachten Sie, dass dieses Update einen Fehler im Update-Skript aufweist.

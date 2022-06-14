@@ -8,17 +8,17 @@ Esta página permite criar uma visualização em 3D da sua casa que pode reagir 
 
 # Importando o modelo 3D
 
-> **IMPORTANTE**
+> ****
 >
 > Você não pode criar seu modelo 3D diretamente no Jeedom, isso deve ser feito usando software de terceiros. Nous recommandons le très bon SweetHome3d (http://www.sweethome3d.com/fr/).
 
 Depois que seu modelo 3D for criado, ele deverá ser exportado no formato OBJ. Se você usa o SweetHome3d, isso é feito no menu "Visualização em 3D" e, em seguida, "Exportar para o formato OBJ". Em seguida, pegue todos os arquivos gerados e coloque-os em um arquivo zip (pode haver muitos arquivos devido às texturas).
 
-> **IMPORTANTE**
+> ****
 >
 > Os arquivos devem estar na raiz do zip e não em uma subpasta
 
-> **AVISO**
+> ****
 >
 > Um modelo 3D é bastante impressionante (isso pode representar várias centenas de MB). Quanto maior, maior o tempo de renderização no Jeedom.
 
@@ -35,11 +35,11 @@ Você pode nessa tela :
 
 Clique no botão "enviar" no nível "Modelo 3D" e selecione seu arquivo zip
 
-> **AVISO**
+> ****
 >
 > Jeedom autoriza a importação de um arquivo de 150mo no máximo !
 
-> **AVISO**
+> ****
 >
 > Você deve ter um arquivo zip
 
@@ -50,7 +50,7 @@ Clique no botão "enviar" no nível "Modelo 3D" e selecione seu arquivo zip
 
 # Configuração de elementos
 
-> **IMPORTANTE**
+> ****
 >
 > A configuração só pode ser feita no modo de edição
 
@@ -63,11 +63,11 @@ Para configurar um elemento no design 3D, clique duas vezes no elemento que voc�
 ## Luz
 
 - Status : O controle do status da luz pode ser binário (0 ou 1), digital (0 a 100%) ou colorido
-- Poderoso : potência da lâmpada (observe que isso pode não refletir a realidade))
+-  : potência da lâmpada (observe que isso pode não refletir a realidade))
 
 ## Texte
 
-- Texto : texto a ser exibido (você pode colocar comandos lá, o texto será atualizado automaticamente com a alteração))
+-  : texto a ser exibido (você pode colocar comandos lá, o texto será atualizado automaticamente com a alteração))
 - Tamanho do texto
 - Cor do texto
 - Transparência texto : de 0 (invisível) a 1 (visível)
@@ -81,25 +81,25 @@ Para configurar um elemento no design 3D, clique duas vezes no elemento que voc�
 
 ### Porta / janela
 
-- Estado : Status da porta / janela, 1 fechado e 0 aberto
+-  : Status da porta / janela, 1 fechado e 0 aberto
 - Rotation
-	- Permitir : ativa a rotação da porta / janela ao abrir
-	- Abertura : o melhor é testar para que ele corresponda à sua porta / janela
+	-  : ativa a rotação da porta / janela ao abrir
+	-  : o melhor é testar para que ele corresponda à sua porta / janela
 - Translation
-	- Permitir : ativa a tradução ao abrir (porta deslizante / janela))
-	- Significado : direção na qual a porta / janela deve se mover (você tem para cima / baixo / direita / esquerda)
+	-  : ativa a tradução ao abrir (porta deslizante / janela))
+	-  : direção na qual a porta / janela deve se mover (você tem para cima / baixo / direita / esquerda)
 	- Repetir : por padrão, a porta / janela se move uma vez sua dimensão na direção especificada, mas você pode aumentar esse valor
 - Ocultar quando a porta / janela está aberta
-	- Permitir : Oculta o elemento se a Porta / Janela estiver aberta
+	-  : Oculta o elemento se a Porta / Janela estiver aberta
 - Couleur
 	- Cor aberta : se marcado, o elemento assumirá esta cor se a porta / janela estiver aberta
 	- Cor fechada : se marcado, o elemento assumirá esta cor se a porta / janela estiver fechada
 
 ### Volet
 
-- Estado : status do obturador, 0 aberto outro valor fechado
+-  : status do obturador, 0 aberto outro valor fechado
 - Ocultar quando o obturador estiver aberto
-	- Permitir : ocultar o elemento se o obturador estiver aberto
+	-  : ocultar o elemento se o obturador estiver aberto
 - Couleur
 	- Cor fechada : se marcado, o elemento assumirá esta cor se o obturador estiver fechado
 

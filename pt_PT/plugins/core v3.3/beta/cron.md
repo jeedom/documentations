@@ -20,9 +20,9 @@ No canto superior direito, você tem :
 
 -   **Legal** : um botão para atualizar a tabela de tarefas
 
--   **Adicionar** : um botão para adicionar um trabalho cron
+-   **** : um botão para adicionar um trabalho cron
 
--   **Registrar** : um botão para salvar suas alterações.
+-   **** : um botão para salvar suas alterações.
 
 Abaixo você tem a tabela de todas as tarefas existentes
 (tenha cuidado, algumas tarefas podem iniciar subtarefas, por isso é
@@ -38,25 +38,25 @@ página). Nesta tabela, encontramos :
 -   **De ativos** : indica se a tarefa está ativa (pode ser iniciada
     por Jeedom) ou não
 
--   **PID** : Indica o ID do processo atual
+-   **** : Indica o ID do processo atual
 
 -   **Demônio** : se esta caixa for "sim", a tarefa deve sempre
     estar em progresso. Em seguida, você encontra a frequência do demônio, é
     aconselhado a nunca tocar nesse valor e, especialmente, nunca
     diminua
 
--   **Único** : se for "sim", a tarefa será iniciada uma vez
+-   **** : se for "sim", a tarefa será iniciada uma vez
     então excluirá
 
--   **Classe** : Classe PHP chamada para executar a tarefa (pode
+-   **** : Classe PHP chamada para executar a tarefa (pode
     estar vazio)
 
--   **Função** : Função PHP chamada na classe chamada (ou não
+-   **** : Função PHP chamada na classe chamada (ou não
     se a turma estiver vazia)
 
--   **Programação** : programando a tarefa no formato CRON
+-   **** : programando a tarefa no formato CRON
 
--   **Tempo esgotado** : Tempo máximo de execução da tarefa. Se o
+-   **** : Tempo máximo de execução da tarefa. Se o
     Se a tarefa for um demônio, ela será automaticamente interrompida e
     reiniciado no final do tempo limite
 
@@ -69,7 +69,7 @@ página). Nesta tabela, encontramos :
 -   **Status** : status atual da tarefa (como lembrete, uma tarefa daemon
     ainda está em "run")
 
--   **Eliminação** : Excluir tarefa
+-   **** : Excluir tarefa
 
 
 # Listener

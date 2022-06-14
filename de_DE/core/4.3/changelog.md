@@ -126,8 +126,8 @@
 - **Szenario** : Bugfix kopieren / einfügen und rückgängig machen / wiederholen (vollständiges Umschreiben)).
 - **Szenario** : Berechnungsfunktionen hinzufügen ````averageTemporal(commande,période)````  ````averageTemporalBetween(commande,start,end)```` Damit kann der nach der Duration über den Zeitraum gewichtete Durchschnitt ermittelt werden.
 - **Szenario** : Unterstützung für generische Typen in Szenarien hinzugefügt.
-	- Abzug : ``#genericType(LIGHT_STATE,#]#)# > 
-	- IF `genericType (LIGHT_STATE .),#]#) > 
+	- Abzug : ``#genericType(LIGHT_STATE,#[Wohnzimmer]#)# > 
+	- IF `genericType (LIGHT_STATE .),#[Wohnzimmer]#) > 
 	- `GenericType`-Aktion
 - **** : Plugins können jetzt bestimmte objektspezifische Parameter anfordern.
 - **** : Plugins können jetzt bestimmte benutzerspezifische Parameter anfordern.

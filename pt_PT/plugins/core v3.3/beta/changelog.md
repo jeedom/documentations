@@ -2,70 +2,70 @@
 Changelog
 =========
 
-3.3.56
+
 ======
 
 - Corrigido um problema de perda de cache durante uma reinicialização
 
-3.3.55
+
 ======
 - esticar ferramentas de migração para smart disponíveis.
 
-3.3.54
+
 ======
 
 - Adicionar um assistente de migração V4
 - Correção de bugs em backups em nuvem
 - Gerenciamento de criptografia de dados de banco de dados
 
->**IMPORTANTE**
+>****
 >
 >Durante a atualização, você pode obter um erro semelhante a "Erro fatal do PHP: Erro não detectado: Chamada para utils de método indefinido::decrypt () "não importa, você só precisa reiniciar a atualização.
 
-3.3.53
+
 ======
 
 - Corrigido um problema com os logs de arquivamento se o modo de suavização fosse para sempre
 
-3.3.52
+
 ======
 
 - Remoção do novo sistema DNS em eu.jeedom.link seguindo muitos operadores que proíbem fluxos http2 permanentes
 
-3.3.51
+
 ======
 
 - Corrigido um problema ao calcular o horário do estado nos widgets se o fuso horário do Jeedom não fosse o mesmo do navegador
 - Aumento do número de senhas ruins antes do banimento (evita problemas com o aplicativo da web ao girar chaves da API)
 
-3.3.50
+
 =====
 
 - Correção de um problema ao parar a versão beta do DNS
 - Melhoria do cálculo de acesso interno / externo (remoção da porta, se for padrão para o protocolo)
 
-3.3.49
+
 =====
 
 - Início da atualização para o novo site de documentação
 
-3.3.48
+
 =====
 
 - Correção de bug (atualização a ser absolutamente feita se você estiver no 3.3.47)
 
-3.3.47
+
 =====
 
 - Correções de bugs
 - Otimização do futuro sistema DNS
 
-3.3.45
+
 =====
 
 - Correção de bug no aplicativo da web
 
-3.3.44
+
 =====
 
 - Rotação automática da chave API de usuários administrativos a cada 3 meses. Posso desativá-lo (mas não é recomendado) no gerenciamento de usuários. Observe que esta atualização lança uma rotação de chaves de API para usuários administradores.
@@ -74,7 +74,7 @@ Changelog
 - Migração para o novo sistema de backup em nuvem (o sistema antigo permanecerá ativo por 1 semana e, se necessário, você poderá solicitar o fornecimento de backups antigos para suporte, ignorando esse período, o sistema antigo será excluído)
 - Migração para o novo sistema de monitoramento (o sistema antigo permanecerá ativo por 1 semana, após o qual será excluído)
 
-3.3.39
+
 =====
 
 - Nome da variável alterado $ key para $ key2 no evento de classe
@@ -83,35 +83,35 @@ Changelog
 - Melhor consideração dos widgets de plug-ins
 - Otimização do cálculo de integridade no swap
 
->**IMPORTANTE**
+>****
 >
 >Esta atualização corrige um problema que pode impedir a gravação de qualquer histórico a partir de 1 de janeiro de 2020. É mais do que altamente recomendado
 
-3.3.38
+
 =====
 
 - Adição de compatibilidade global do DNS Jeedom com uma conexão à Internet 4G. (Importante se você usa o DNS Jeedom é que você tem uma conexão 4G, você deve verificar na configuração do DNS Jeedom a caixa correspondente).
 - Correções ortográficas.
 - Correção de segurança
 
-3.3.37
+
 =====
 
 - Correções de bugs
 
-3.3.36
+
 =====
 
 - Adição de arredondamento no número de dias desde a última troca de bateria
 - Correções de bugs
 
-3.3.35
+
 =====
 
 - Correções de bugs
 - Possibilidade de instalar plugins diretamente do mercado
 
-3.3.34
+
 =====
 
 - Corrigido um erro que poderia impedir o status da bateria de voltar
@@ -119,24 +119,24 @@ Changelog
 - O status "timeout" (não comunicação) do equipamento agora tem prioridade sobre o status "aviso" ou "perigo""
 - Correção de bug em backups na nuvem
 
-3.3.33
+
 =====
 
 - Correções de bugs
 
-3.3.32
+
 =====
 
 - Correções de bugs
 - Suporte móvel para sliders em designs
-- INTELIGENTE : otimização do gerenciamento de swap
+-  : otimização do gerenciamento de swap
 
-3.3.31
+
 =====
 
 - Correções de bugs
 
-3.3.30
+
 =====
 
 - Correção de um bug na exibição de sessões do usuário
@@ -147,7 +147,7 @@ Changelog
 - Correção de um bug na página "Análise de equipamento", a data de atualização da bateria agora está correta 
 - Melhoria da ação remove_inat nos cenários
 
-3.3.29
+
 =====
 
 - Correção do desaparecimento da data da última verificação de atualização
@@ -155,13 +155,13 @@ Changelog
 - Correção de um erro no cálculo do uso das variáveis se elas estiverem no formato : variável (toto, mavaleur)
 
 
-3.3.28
+
 =====
 
 - Corrigido um erro infinito na roda na página de atualizações
 - Várias correções e otimizações
 
-3.3.27
+
 =====
 
 - Correção de um erro na tradução dos dias em francês
@@ -169,14 +169,14 @@ Changelog
 - Correções de bugs
 - Desativando ações em pedidos ao editar designs, visualizações ou painéis
 
-3.3.26
+
 =====
 
 - Correções de bugs
 - Correção de um bug no multi-lançamento do cenário
 - Correção de um erro nos alertas sobre o valor dos pedidos
 
-3.3.25
+
 =====
 
 - Correções de bugs
@@ -184,7 +184,7 @@ Changelog
 - Adição de classes para suporte a cores no plugin mode
 
 
-3.3.24
+
 =====
 
 -   Correção de um bug na exibição do número de atualizações
@@ -195,14 +195,14 @@ Changelog
 -	Adição de botão na administração para redefinir os direitos e iniciar uma verificação Jeedom (direita, cron, banco de dados...)
 -	Remoção de opções avançadas de visibilidade para equipamentos no painel / visualização / design / dispositivos móveis. Agora, se você deseja ver ou não o equipamento no painel / dispositivo móvel, marque ou não a caixa de visibilidade geral. Para vistas e design, basta colocar ou não o equipamento nele
 
-3.3.22
+
 =====
 
 - Correções de bugs
 - Substituição de comando aprimorada (em visualizações : plan e plan3d)
 - Corrigido um bug que poderia impedir a abertura de certos equipamentos de plug-ins (alarme ou tipo virtual))
 
-3.3.21
+
 =====
 
 - Corrigido um erro em que a exibição da hora podia exceder 24h
@@ -217,28 +217,28 @@ Changelog
 - Melhoria do sistema de verificação de sintaxe cron
 
 
-3.3.20
+
 =====
 
 - Correção de um bug nos cenários ou eles podem permanecer bloqueados em "em andamento" enquanto estão desativados
 - Corrigido um problema ao iniciar um cenário não planejado
 - Correção de bug de fuso horário
 
-3.3.19
+
 =====
 - Correções de bugs (especialmente durante a atualização)
 
 
-3.3.18
+
 =====
 - Correções de bugs
 
-3.3.17
+
 =====
 
 - Correção de um erro nos backups do samba
 
-3.3.16
+
 =====
 
 -   Capacidade de excluir uma variável.
@@ -277,34 +277,34 @@ Changelog
 -   Adição de gerenciamento de daemon no mecanismo de tarefas
 -   Adição da função color_gradient nos cenários
 
-3.2.16
+
 =====
 
 - Corrigido um erro ao instalar a dependência de alguns plugins no Smart
 
-3.2.15
+
 =====
 
 - Correção de um erro ao salvar o equipamento
 
-3.2.14
+
 =====
 
 - Preparação para evitar um erro ao mudar para 3.3.X
 - Corrigido um problema ao solicitar suporte para plug-ins de terceiros
 
-3.2.12
+
 =====
 
 - Correções de bugs
 - Optimisations
 
-3.2.11
+
 =====
 
 - Correções de bugs.
 
-3.2.10
+
 =====
 
 - Correções de bugs.
@@ -314,7 +314,7 @@ Changelog
 - Otimização do cálculo do gráfico de links e uso de variáveis.
 - Melhoria da janela de detalhes da tarefa cron, que agora exibe o cenário, bem como a ação que será executada para as tarefas em doin (obrigado @kiboost).
 
-3.2.9
+
 =====
 
 - Correções de bugs
@@ -323,7 +323,7 @@ Changelog
 - Adição de um alerta se um plug-in bloquear crons
 - Correção de um bug no sistema de monitoramento em nuvem se a versão do agente for menor que 3.X.X
 
-3.2.8
+
 =====
 
 - Correções de bugs
@@ -332,7 +332,7 @@ Changelog
 - Adição de um indicador na página de integridade, indicando o número de processos mortos por falta de memória (no geral, indica que o jeedom está muito carregado)
 - Editor de arquivo aprimorado
 
-3.2.7
+
 =====
 
 - Correções de bugs
@@ -348,13 +348,13 @@ Changelog
 - Padronização dos nomes de certas ordens nos cenários
 - Otimização de desempenho
 
-3.2.5
+
 =====
 
 - Correções de bugs
 - Reativação de interações (inativa por causa da atualização)
 
-3.2.4
+
 =====
 
 - Correções de bugs
@@ -376,11 +376,11 @@ Changelog
 
 -   Os usuários agora podem adicionar sua própria função php para cenários. Consulte a documentação dos cenários para implementação
 
--   JEED-417 : adição de uma função time_diff nos cenários
+-    : adição de uma função time_diff nos cenários
 
 -   Adição de um atraso configurável antes da resposta nas interações (permite aguardar o retorno do status, por exemplo)
 
--   JEED-365 : Remoção do "comando de informações do usuário" a ser substituído por ações na mensagem. Permite iniciar vários comandos diferentes, iniciar um cenário ... Atenção, se você tivesse um "comando de informações do usuário", ele deverá ser reconfigurado.
+-    : Remoção do "comando de informações do usuário" a ser substituído por ações na mensagem. Permite iniciar vários comandos diferentes, iniciar um cenário ... Atenção, se você tivesse um "comando de informações do usuário", ele deverá ser reconfigurado.
 
 -   Adicione uma opção para abrir facilmente um acesso ao suporte (na página do usuário e ao abrir um ticket)
 
@@ -402,10 +402,10 @@ Changelog
 
 -   Correções ortográficas (graças a dab0u por seu enorme trabalho)
 
--   JEED-290 : Não podemos mais nos conectar com identificadores por
+-    : Não podemos mais nos conectar com identificadores por
     padrão (admin / admin) remotamente, somente a rede local está autorizada
 
--   JEED-186 : Agora podemos escolher a cor de fundo no
+-    : Agora podemos escolher a cor de fundo no
     designs
 
 -   Para o bloco A, possibilidade de definir uma hora entre as 12h01 e as 12h59
@@ -415,13 +415,13 @@ Changelog
     página de perfil do usuário e página de gerenciamento
     utilisateurs
 
--   JEED-284 : conexão permanente agora depende de uma chave
+-    : conexão permanente agora depende de uma chave
     único usuário e dispositivo (em vez de usuário)
 
--   JEED-283 : adicionando um modo *resgate* para jeedom adicionando & rescue = 1
+-    : adicionando um modo ** para jeedom adicionando & rescue = 1
     na url
 
--   JEED-8 : adição do nome do cenário no título da página durante o
+-    : adição do nome do cenário no título da página durante o
     a edição
 
 -   Otimização de mudanças organizacionais (tamanho dos widgets,
@@ -429,30 +429,30 @@ Changelog
     e as vistas. Atenção agora as modificações não são
     salvo somente ao sair do modo de edição.
 
--   JEED-18 : Adicionando logs ao abrir um ticket para suportar
+-    : Adicionando logs ao abrir um ticket para suportar
 
--   JEED-181 : adição de um comando de nome nos cenários para ter
+-    : adição de um comando de nome nos cenários para ter
     o nome do pedido ou equipamento ou objeto
 
--   JEED-15 : Adicione bateria e alerta no aplicativo da web
+-    : Adicione bateria e alerta no aplicativo da web
 
 -   Corrigido o erro ao mover objetos de design no Firefox
 
--   JEED-19 : Durante uma atualização, agora é possível
+-    : Durante uma atualização, agora é possível
     atualize o script de atualização antes de atualizar
 
--   JEED-125 : link adicionado para redefinir a documentação
+-    : link adicionado para redefinir a documentação
     senha
 
--   JEED-2 : Gerenciamento de tempo aprimorado durante uma reinicialização
+-    : Gerenciamento de tempo aprimorado durante uma reinicialização
 
--   JEED-77 : Adição de gerenciamento de variáveis na API http
+-    : Adição de gerenciamento de variáveis na API http
 
--   JEED-78 : adição da função de tag para cenários. Tenha cuidado lá
+-    : adição da função de tag para cenários. Tenha cuidado lá
     nos cenários que usam as tags passam de \#montag\#
     marcar (montag)
 
--   JEED-124 : Corrigir o gerenciamento de tempos limite do cenário
+-    : Corrigir o gerenciamento de tempos limite do cenário
 
 -   Correções de bugs
 
@@ -466,7 +466,7 @@ Changelog
 
 -   Capacidade de tornar as palavras obrigatórias em uma interação
 
-3.1.7
+
 =====
 
 -   Correções de bugs (especialmente em logs e
@@ -601,12 +601,12 @@ Changelog
 -   Adição de um cão de guarda independente da Jeedom para verificar o status de
     MySql e Apache
 
-3.0.11
+
 ======
 
 -   Correção de bugs nas solicitações de tempo limite "ask"
 
-3.0.10
+
 ======
 
 -   Correção de bug na interface para configurar interações
@@ -803,7 +803,7 @@ Changelog
 
 -   O Jeedom sabe como gerenciar várias interações vinculadas (contextualmente)
     em um. Eles devem ser separados por uma palavra-chave (por padrão e).
-    Exemplo : "Quanto custa no quarto e na sala de estar? "Ou
+     : "Quanto custa no quarto e na sala de estar? "Ou
     "Ligue a luz da cozinha e do quarto."
 
 -   O status dos cenários na página de edição agora está definido como
@@ -848,13 +848,13 @@ Changelog
 -   Otimização do carregamento de cenários e páginas usando
     ações com opção (tipo de configuração do plug-in ou modo de alarme)
 
-2.4.6
+
 =====
 
 -   Melhoria da gestão da repetição dos valores de
     commandes
 
-2.4.5
+
 =====
 
 -   Correções de bugs
@@ -980,7 +980,7 @@ Changelog
     / tmp é muito pequeno (cuidado, a correção entra em vigor em
     atualização n + 1)
 
--   Adicionando uma tag *jeedom\_name* nos cenários (dê o nome
+-   Adicionando uma tag ** nos cenários (dê o nome
     jeedom)
 
 -   Correções de bugs
@@ -1159,7 +1159,7 @@ Changelog
 
 -   Atualizar todas as bibliotecas
 
--   Interação : adição de um sistema de análise (permite
+-    : adição de um sistema de análise (permite
     remover interações com erros de sintaxe de tipo grande «
     o quarto »)
 
@@ -1177,7 +1177,7 @@ Changelog
 -   Capacidade de desativar um bloco em um cenário
 
 -   Adição para desenvolvedores de um sistema de ajuda de dicas de ferramentas. Você deve
-    sur un label mettre la classe « help » e mettre un attribut
+    sur un label mettre la classe « help »  mettre un attribut
     ajuda de dados com a mensagem de ajuda desejada. Isso permite que o Jeedom
     adicione automaticamente um ícone no final do seu marcador « ? » et
     ao passar o mouse para exibir o texto de ajuda
@@ -1256,7 +1256,7 @@ Changelog
 
 -   Atualizar todas as bibliotecas
 
--   Interação : adição de um sistema de análise (permite
+-    : adição de um sistema de análise (permite
     remover interações com erros de sintaxe de tipo grande «
     o quarto »)
 
@@ -1274,7 +1274,7 @@ Changelog
 -   Capacidade de desativar um bloco em um cenário
 
 -   Adição para desenvolvedores de um sistema de ajuda de dicas de ferramentas. Você deve
-    sur un label mettre la classe « help » e mettre un attribut
+    sur un label mettre la classe « help »  mettre un attribut
     ajuda de dados com a mensagem de ajuda desejada. Isso permite que o Jeedom
     adicione automaticamente um ícone no final do seu marcador « ? » et
     ao passar o mouse para exibir o texto de ajuda

@@ -1,5 +1,5 @@
 O submenu Gerenciamento de plug-ins permite manipular plug-ins, exceto
-saber : baixar, atualizar e ativá-los, etc
+ : baixar, atualizar e ativá-los, etc
 
 Gerenciamento de plug-in 
 ===================
@@ -27,7 +27,7 @@ encontre o nome do plug-in e, entre parênteses, seu nome no Jeedom
 
 No canto superior direito, alguns botões :
 
--   **Documentação** : Permite acesso direto à página de
+-   **** : Permite acesso direto à página de
     documentação do plugin
 
 -   **Registro de alterações** : Vamos ver o log de alterações do plugin, se existir
@@ -51,7 +51,7 @@ Abaixo à esquerda, há uma área de status com :
 -   **Versão Jeedom** : Versão mínima do Jeedom necessária
     para a operação do plugin
 
--   **Licença** : Indica a licença do plug-in que geralmente será
+-   **** : Indica a licença do plug-in que geralmente será
     AGPL
 
 À direita, encontramos a zona de registro e vigilância que permite definir 
@@ -61,7 +61,7 @@ Administração → Configuração na guia Logs, na parte inferior da página)
 
 -   veja os logs do plugin
 
--   Batimento cardiaco : a cada 5 minutos, o Jeedom verifica se pelo menos um dispositivo de plug-in se comunicou nos últimos X minutos (se você deseja desativar a funcionalidade, basta colocar 0)
+-    : a cada 5 minutos, o Jeedom verifica se pelo menos um dispositivo de plug-in se comunicou nos últimos X minutos (se você deseja desativar a funcionalidade, basta colocar 0)
 
 -   Reiniciar demônio : se o batimento cardíaco der errado, o Jeedom reiniciará o daemon
 
@@ -74,7 +74,7 @@ Dependências :
 
 -   **Status** : dirá se as dependências estão OK ou KO
 
--   **Instalação** : instalará ou reinstalará
+-   **** : instalará ou reinstalará
     dependências (se você não fizer isso manualmente e elas forem
     KO, Jeedom vai cuidar de si mesmo depois de um tempo)
 
@@ -87,7 +87,7 @@ Demônio :
 
 -   **Status** : dirá se o demônio está OK ou KO
 
--   **Configuração** : ficará bem se todos os critérios para o demônio
+-   **** : ficará bem se todos os critérios para o demônio
     voltas são cumpridas ou causam bloqueio
 
 -   **(Reiniciar** : Permite iniciar ou reiniciar o demônio
@@ -112,19 +112,19 @@ Demônio :
 Abaixo, há uma área de funcionalidade. Isso permite que você veja
 se o plug-in usar uma das principais funções do Jeedom, como :
 
--   **Interagir** : Interações específicas
+-   **** : Interações específicas
 
--   **Cron** : Um cron por minuto
+-   **** : Um cron por minuto
 
--   **Cron5** : Um cron a cada 5 minutos
+-   **** : Um cron a cada 5 minutos
 
--   **Cron15** : Um cron a cada 15 minutos
+-   **** : Um cron a cada 15 minutos
 
--   **Cron30** : Um cron a cada 30 minutos
+-   **** : Um cron a cada 30 minutos
 
--   **CronHourly** : Um cron a cada hora
+-   **** : Um cron a cada hora
 
--   **CronDaily** : Um cron diário
+-   **** : Um cron diário
 
 > **Dica**
 >
@@ -163,7 +163,7 @@ No topo da janela você tem filtros :
 -   **Menu suspenso Categoria** : apenas exibe
     certas categorias de plugins
 
--   **Pesquisar** : permite procurar um plug-in (em nome ou
+-   **** : permite procurar um plug-in (em nome ou
     descrição disso)
 
 -   **Nome de Usuário** : exibe o nome de usuário usado para o

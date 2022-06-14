@@ -21,7 +21,7 @@ module as well as the date on which the battery level information
 has been updated. You can also see if a specific threshold has been
 workbench for the particular module (represented by a hand)
 
-> **Tip**
+> ****
 >
 > The alert / warning thresholds on the battery levels are
 > globally configurable in the Jeedom configuration
@@ -45,7 +45,7 @@ Other types of alerts may be found here.
 Each alert will be represented by the color of the tile (the level
 alert) and a logo at the top left (the type of alert)
 
-> **Tip**
+> ****
 >
 > Here will be displayed all the modules in alert even those configured in
 > "Not visible". It is however interesting to note that if the module
@@ -76,7 +76,7 @@ and synthesizes several things :
     an action command and allowing to execute one or more others
     actions before or after the action in question)
 
-> **Tip**
+> ****
 >
 > The table allows you to see very textually the actions
 > defined. Other types of defined actions may be added.
@@ -117,10 +117,10 @@ And used in many other places like (not exhaustive) :
 
 -   in some plugins
 
-> **Tip**
+> ****
 >
 > The table provides a very textual view of the commands
-> orphans. Its purpose is to be able to quickly identify all the
+> . Its purpose is to be able to quickly identify all the
 > &quot;orphan&quot; commands through all Jeedom and plugins. It is
 > some areas may not be analyzed, the table will be
 > be more and more exhaustive over time.

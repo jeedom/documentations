@@ -55,10 +55,10 @@ seu nome e tipo.
 
 Em cada zona, você tem as seguintes opções gerais :
 
--   **Comprimento** : define a largura da área (no modo
+-   **** : define a largura da área (no modo
     somente desktop)
 
--   **Editar** : Permite alterar o nome da zona
+-   **** : Permite alterar o nome da zona
 
 -   **Deletar** : Excluir a zona
 
@@ -98,25 +98,25 @@ Quando você pressiona o botão "Adicionar curva", o Jeedom exibe a lista
 comandos históricos e você pode escolher aquele (s) a adicionar, um
 Depois de concluído, você terá acesso às seguintes opções :
 
--   **Cesto de lixo** : Remover comando do gráfico
+-   **** : Remover comando do gráfico
 
 -   **Sobrenome** : nome do comando representado graficamente
 
--   **Cor** : Cor da curva
+-   **** : Cor da curva
 
--   **Gentil** : Tipo de curva
+-   **** : Tipo de curva
 
--   **Grupo** : permite agrupar dados (tipo máximo
+-   **** : permite agrupar dados (tipo máximo
     por dia)
 
--   **Escada** : Escala (direita ou esquerda) da curva
+-   **** : Escala (direita ou esquerda) da curva
 
--   **Escadas** : Exibe a curva da escada
+-   **** : Exibe a curva da escada
 
--   **Pilha** : Empilha a curva com as outras curvas de tipo
+-   **** : Empilha a curva com as outras curvas de tipo
     empiler
 
--   **Variação** : representar graficamente apenas variações com valor
+-   **** : representar graficamente apenas variações com valor
     anterior
 
 > **Dica**
@@ -141,9 +141,9 @@ Aqui você tem os botões :
 Depois de adicionar suas linhas / colunas, você pode adicionar
 informações nas caixas :
 
--   **texto** : apenas texto para escrever
+-   **** : apenas texto para escrever
 
--   **html** : qualquer código html (é possível javascript, mas
+-   **** : qualquer código html (é possível javascript, mas
     fortemente desencorajado)
 
 -   **widget de comando** : o botão à direita permite escolher
