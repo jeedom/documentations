@@ -9,7 +9,7 @@ plugins. Depois de clicar nele, encontramos a lista de
 plugins em ordem alfabética e um link para o mercado. Plugins
 desativados estão acinzentados.
 
-> **Dica**
+> ****
 >
 > Como em muitos lugares em Jeedom, coloque o mouse na extremidade esquerda
 > abre um menu de acesso rápido (você pode
@@ -20,7 +20,7 @@ Ao clicar em um plug-in, você acessa sua configuração. Lá em cima você
 encontre o nome do plug-in e, entre parênteses, seu nome no Jeedom
 (ID) e, finalmente, o tipo de versão instalada (estável, beta).
 
-> **Importante**
+> ****
 >
 > Ao baixar um plug-in, ele é desativado por padrão.
 > Então você tem que ativá-lo sozinho.
@@ -30,23 +30,23 @@ No canto superior direito, alguns botões :
 -   **** : Permite acesso direto à página de
     documentação do plugin
 
--   **Registro de alterações** : Vamos ver o log de alterações do plugin, se existir
+-   **** : Vamos ver o log de alterações do plugin, se existir
 
 -   **Enviar para o mercado** : permite enviar o plugin no Market
     (disponível apenas se você é o autor)
 
 -   **Detalhes** : Permite encontrar a página do plug-in no mercado
 
--   **Deletar** : Remova o plugin do seu Jeedom. Tenha cuidado, isso
+-   **** : Remova o plugin do seu Jeedom. Tenha cuidado, isso
     também remove permanentemente todos os equipamentos deste plugin
 
 Abaixo à esquerda, há uma área de status com :
 
--   **Status** : Permite ver o status do plug-in (ativo / inativo))
+-   **** : Permite ver o status do plug-in (ativo / inativo))
 
--   **Versão** : A versão do plug-in instalado
+-   **** : A versão do plug-in instalado
 
--   **Ações** : Permite ativar ou desativar o plug-in
+-   **** : Permite ativar ou desativar o plug-in
 
 -   **Versão Jeedom** : Versão mínima do Jeedom necessária
     para a operação do plugin
@@ -70,9 +70,9 @@ adicionais são exibidos nas áreas mencionadas acima.
 
 Dependências :
 
--   **Sobrenome** : Geralmente será local
+-   **** : Geralmente será local
 
--   **Status** : dirá se as dependências estão OK ou KO
+-   **** : dirá se as dependências estão OK ou KO
 
 -   **** : instalará ou reinstalará
     dependências (se você não fizer isso manualmente e elas forem
@@ -83,9 +83,9 @@ Dependências :
 
 Demônio :
 
--   **Sobrenome** : Geralmente será local
+-   **** : Geralmente será local
 
--   **Status** : dirá se o demônio está OK ou KO
+-   **** : dirá se o demônio está OK ou KO
 
 -   **** : ficará bem se todos os critérios para o demônio
     voltas são cumpridas ou causam bloqueio
@@ -102,7 +102,7 @@ Demônio :
 
 -   **último lançamento** : Data do último lançamento do daemon
 
-> **Dica**
+> ****
 >
 > Alguns plugins possuem uma parte de configuração. Se sim,
 > aparecerá sob as dependências e zonas daemon descritas acima.
@@ -126,7 +126,7 @@ se o plug-in usar uma das principais funções do Jeedom, como :
 
 -   **** : Um cron diário
 
-> **Dica**
+> ****
 >
 > Se o plug-in usa uma dessas funções, você pode especificamente
 > proibi-lo de fazer isso desmarcando a caixa "ativar" que será
@@ -143,7 +143,7 @@ Para instalar um novo plugin, basta clicar no botão
 "Market "(e que o Jeedom está conectado à Internet). Após um curto período de
 carregando você receberá a página.
 
-> **Dica**
+> ****
 >
 > Você deve ter inserido as informações da sua conta do Market em
 > administração (Configuração → Atualizações → guia Mercado) para
@@ -169,7 +169,7 @@ No topo da janela você tem filtros :
 -   **Nome de Usuário** : exibe o nome de usuário usado para o
     conexão com o mercado e o status da conexão
 
-> **Dica**
+> ****
 >
 > A cruz pequena redefine o filtro em questão
 
@@ -191,7 +191,7 @@ informações sobre o plug-in, incluindo :
     -   **Instalar pro** : permite instalar a versão pro (muito
         pouco usado)
 
-    -   **Deletar** : se o plug-in estiver instalado atualmente, esse
+    -   **** : se o plug-in estiver instalado atualmente, esse
         para excluí-lo
 
 Abaixo, você encontrará a descrição do plugin, a compatibilidade
@@ -204,20 +204,20 @@ histórico de alterações, um botão "Documentação" que retorna
 para a documentação do plugin. Então você tem o idioma disponível
 e as várias informações na data da última versão estável.
 
-> **Importante**
+> ****
 >
 > Não é realmente recomendável colocar um plugin beta em um
 > Jeedom não beta, muitos problemas operacionais podem
 > resultado.
 
-> **Importante**
+> ****
 >
 > Alguns plugins são cobrados; nesse caso, a folha de plugins será
 > vai oferecer para comprá-lo. Feito isso, aguarde um
 > dez minutos (tempo de validação do pagamento), depois retorne
 > na folha de plug-ins para instalá-lo normalmente.
 
-> **Dica**
+> ****
 >
 > Você também pode adicionar um plugin ao Jeedom a partir de um arquivo ou
 > de um repositório do Github. Isso requer, na configuração de

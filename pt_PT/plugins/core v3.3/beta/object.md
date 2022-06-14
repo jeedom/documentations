@@ -65,19 +65,19 @@ Aqui estão as diferentes características para configurar um objeto :
     estarão lado a lado no painel. Se você colocar 3 a 4
     objetos que se seguem, eles também estarão lado a lado.
 
-> **Dica**
+> ****
 >
 > Você pode alterar a ordem de exibição dos objetos no Painel.
 > No menu, à esquerda da sua página, use as setas verticais
 > arraste e solte para dar a eles um novo lugar.
 
-> **Dica**
+> ****
 >
 > Você pode ver um gráfico representando todos os elementos do Jeedom
 > anexado a este objeto clicando no botão ****, em às
 > .
 
-> **Dica**
+> ****
 >
 > Quando um dispositivo é criado e nenhum pai foi definido, ele
 > terá como pai : **** .
@@ -111,7 +111,7 @@ levado em consideração no resumo. Você tem a opção de selecionar o
 encomendar qualquer equipamento Jeedom, mesmo que não seja para
 pai deste objeto.
 
-> **Dica**
+> ****
 >
 > Se você deseja adicionar um tipo de resumo ou configurar o
 > método de cálculo do resultado, a unidade, o ícone e o nome de um resumo,

@@ -4,11 +4,11 @@ minutos para ter uma exibição mais personalizada.
 
 As visualizações são acessíveis no menu Página inicial → Exibir :
 
-> **Dica**
+> ****
 >
 > É possível ir diretamente a uma vista graças ao submenu.
 
-> **Dica**
+> ****
 >
 > Você pode escolher a visualização padrão no seu perfil ao clicar em
 > no menu de visualizações.
@@ -24,7 +24,7 @@ Nesta página, existe um botão no canto superior esquerdo para mostrar ou
 ocultar a lista de visualizações e o botão para adicionar uma
 (Jeedom solicitará seu nome e enviará para a página de edição) :
 
-> **Dica**
+> ****
 >
 > Você pode modificar esta opção no seu perfil para que a lista
 > visualizações a serem visíveis por padrão.
@@ -39,7 +39,7 @@ coloque o quanto quiser). Cada zona é do tipo gráfico, widget
 ou tabela, dependendo do tipo em que você pode colocar widgets
 equipamento, controle ou gráficos nele.
 
-> **Dica**
+> ****
 >
 > Você pode mover a ordem das zonas arrastando e soltando.
 
@@ -60,7 +60,7 @@ Em cada zona, você tem as seguintes opções gerais :
 
 -   **** : Permite alterar o nome da zona
 
--   **Deletar** : Excluir a zona
+-   **** : Excluir a zona
 
 Área do tipo de widget 
 -------------------
@@ -70,12 +70,12 @@ Uma área de tipo de widget permite adicionar widgets :
 -   **Adicionar Widget** : adicionar / editar widgets para
     exibir na área
 
-> **Dica**
+> ****
 >
 > Você pode excluir um widget diretamente clicando no
 > lata de lixo na frente deste.
 
-> **Dica**
+> ****
 >
 > É possível alterar a ordem dos widgets na área,
 > arraste e solte.
@@ -100,7 +100,7 @@ Depois de concluído, você terá acesso às seguintes opções :
 
 -   **** : Remover comando do gráfico
 
--   **Sobrenome** : nome do comando representado graficamente
+-   **** : nome do comando representado graficamente
 
 -   **** : Cor da curva
 
@@ -119,7 +119,7 @@ Depois de concluído, você terá acesso às seguintes opções :
 -   **** : representar graficamente apenas variações com valor
     anterior
 
-> **Dica**
+> ****
 >
 > É possível alterar a ordem dos gráficos na área,
 > arraste e solte.
@@ -133,7 +133,7 @@ Aqui você tem os botões :
 
 -   **Adicionar linha** : Adicione uma linha à tabela
 
-> **Observação**
+> ****
 >
 > É possível reorganizar as linhas arrastando e soltando, mas não
 > as colunas

@@ -16,7 +16,7 @@ Meu perfil
 
     -   **** : Seu login no Market, não pode ser alterado
 
-    -   **Sobrenome** : Seu nome (esta informação é útil apenas para
+    -   **** : Seu nome (esta informação é útil apenas para
         Torne os emails mais divertidos)
 
     -   **Primeiro nome** : Seu primeiro nome (esta informação é útil apenas
@@ -50,7 +50,7 @@ Para os profissionais :
 
     -   ****
 
--   **Do utilizador** : condições gerais de uso (preste atenção às
+-   **** : condições gerais de uso (preste atenção às
     leia-os bem, porque eles envolvem você)
 
 -   **** : condições gerais de uso para
@@ -73,7 +73,7 @@ Para os profissionais :
     -   **Resumo** Aqui você encontrará um resumo das suas diferentes
         direitos e serviços
 
-> **Dica**
+> ****
 >
 > Não esqueça de salvar
 
@@ -94,7 +94,7 @@ Minhas jeedoms
         das instalações Jeedom atualmente vinculadas à sua conta também
         que o limite permitido
 
-> **Dica**
+> ****
 >
 > Às vezes, o mercado pode solicitar que você redefina
 > suas chaves de instalação, é normal, basta seguir o que
@@ -102,7 +102,7 @@ Minhas jeedoms
 
 -   **Minhas jeedoms** : É aqui que todos os seus Jeedoms estão listados
 
-    -   **Sobrenome** : o nome que você deseja dar ao seu Jeedom (
+    -   **** : o nome que você deseja dar ao seu Jeedom (
         encontrado no nome do backup, se você tiver a assinatura de
         Backup em nuvem)
 
@@ -130,9 +130,9 @@ Minhas jeedoms
 
     -   **** : Nome do hardware Jeedom
 
-    -   **Versão** : Versão Jeedom instalada
+    -   **** : Versão Jeedom instalada
 
-> **Dica**
+> ****
 >
 > Não esqueça de salvar
 
@@ -156,7 +156,7 @@ Minhas compras / promoções / doações
 Aqui você encontra todas as suas compras e pode solicitar a devolução do
 e-mail da fatura ou recibo
 
-> **Importante**
+> ****
 >
 > Se você comprar um plugin oficial, receberá uma fatura. Em
 > no entanto, para um plug-in de terceiros, é um recibo, para a fatura é necessário

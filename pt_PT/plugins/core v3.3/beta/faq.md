@@ -86,7 +86,7 @@ No ssh do :
 `` `{.bash}
  -
 chmod -R 775 / var / www / html
-chown -R www-data:www-data / var / www / html
+:www-data / var / www / html
 `` ''
 
 Onde estão os backups de Jeedom ? 
@@ -103,7 +103,7 @@ No ssh do :
  -
 
 chmod -R 775 / var / www / html
-chown -R www-data:www-data / var / www / html
+:www-data / var / www / html
 `` ''
 
 O Symbian é compatível com Webapp ? 

@@ -2,7 +2,7 @@ Informa todas as tarefas de aplicativos Jeedom executadas no
 garçom. Este menu deve ser usado conscientemente ou no
 solicitar suporte técnico.
 
-> **Importante**
+> ****
 >
 > Em caso de manuseio incorreto nesta página, qualquer solicitação de
 > suporte pode ser negado você.
@@ -29,13 +29,13 @@ Abaixo você tem a tabela de todas as tarefas existentes
 É altamente recomendável nunca modificar informações sobre este
 página). Nesta tabela, encontramos :
 
--   **\#** : ID da tarefa, pode ser útil para vincular um
+-   **#** : ID da tarefa, pode ser útil para vincular um
     processo em execução e o que realmente faz
 
--   **Ações** : um botão para iniciar ou parar a tarefa em função
+-   **** : um botão para iniciar ou parar a tarefa em função
     seu status e um botão para visualizar o cron em detalhes (conforme armazenado no banco de dados)
 
--   **De ativos** : indica se a tarefa está ativa (pode ser iniciada
+-   **** : indica se a tarefa está ativa (pode ser iniciada
     por Jeedom) ou não
 
 -   **** : Indica o ID do processo atual
@@ -66,7 +66,7 @@ página). Nesta tabela, encontramos :
     demon sempre estará no zero, então não se preocupe com outras tarefas
     pode estar em 0s)
 
--   **Status** : status atual da tarefa (como lembrete, uma tarefa daemon
+-   **** : status atual da tarefa (como lembrete, uma tarefa daemon
     ainda está em "run")
 
 -   **** : Excluir tarefa

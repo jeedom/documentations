@@ -32,7 +32,7 @@ aqui 2 parâmetros, um para o tamanho do pacote e outro para saber
 quando fazê-lo (por padrão, são pacotes
 1 hora com dados com mais de 2 horas de antiguidade).
 
-> **Dica**
+> ****
 >
 > Se você seguiu bem, deve ter uma alta precisão no
 > Apenas nas últimas 2 horas. No entanto, quando eu entro às 17h,
@@ -40,7 +40,7 @@ quando fazê-lo (por padrão, são pacotes
 > para evitar consumir recursos desnecessariamente, a tarefa que torna
 > o arquivamento ocorre apenas uma vez por dia, à noite.
 
-> **Importante**
+> ****
 >
 > Obviamente, esse princípio de arquivamento se aplica apenas a pedidos de
 > tipo digital; nos comandos do tipo binário, o Jeedom não mantém
@@ -79,7 +79,7 @@ do que configurá-los uma vez).
 
 -   **** : Exibe o gráfico como uma área.
 
--   ****\* : Exibe o gráfico como barras.
+-   ***** : Exibe o gráfico como barras.
 
 Gráfico em vistas e desenhos 
 =====================================
@@ -118,14 +118,14 @@ História calculado
 
 Usado para exibir uma curva com base em um cálculo em vários
 comando (você pode praticamente fazer tudo, + - / \* valor absoluto ... veja
-Documentação do PHP para determinadas funções). Ex :
+Documentação do PHP para determinadas funções).  :
 abs(*\ [Jardim \] \ [Higrometria \] \ [Temperatura \]* - *\ [Espaço de
 vida \] \ [Higrometria \] \ [Temperatura \]*)
 
 Você também tem acesso a um gerenciamento de fórmulas de cálculo que permite
 salve-os para facilitar a visualização
 
-> **Dica**
+> ****
 >
 > Basta clicar no nome do objeto para desdobrar;
 > aparecem os comandos históricos que podem ser representados graficamente.
@@ -166,7 +166,7 @@ comandos ou cenários desejados :
 -   **** : na configuração avançada do comando,
     seja na configuração da história para fazê-lo em "massa"
 
-> **Dica**
+> ****
 >
 > Você tem acesso às janelas de resumo dos cenários ou do
 > configuração do histórico diretamente da página
@@ -175,7 +175,7 @@ comandos ou cenários desejados :
 Depois de ativar o rastreamento na linha do tempo do pedido e
 cenários desejados, você pode vê-los aparecer na linha do tempo.
 
-> **Importante**
+> ****
 >
 > Você precisa aguardar novos eventos após ativar o rastreamento
 > na linha do tempo antes de vê-los aparecer.

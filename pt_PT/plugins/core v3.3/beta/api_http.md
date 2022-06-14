@@ -8,14 +8,14 @@ Duas APIs estão disponíveis : um piloto orientado ao desenvolvedor
 Essa API é muito facilmente usada por solicitações HTTP simples via
 URL.
 
-> **Observação**
+> ****
 >
 > Para toda esta documentação, \#IP\_JEEDOM\# corresponde ao seu URL
 > acesso ao Jeedom. Isso é (a menos que você esteja conectado à sua rede
 > local) do endereço da Internet usado para acessar o Jeedom
 > do lado de fora.
 
-> **Observação**
+> ****
 >
 > Para toda esta documentação, \#API\_KEY\# corresponde à sua chave
 > API, específica para sua instalação. Para encontrá-lo, você tem que ir para
@@ -33,7 +33,7 @@ Aqui está o URL =
     maneira de encontrá-lo : em "Ferramentas" → "Cenários", clique em
     "Visão global".
 
--   **estoque** : corresponde à ação que você deseja aplicar. O
+-   **** : corresponde à ação que você deseja aplicar. O
     pedidos disponíveis são : "iniciar "," parar "," desativar "e
     "ativar "para iniciar, parar, desativar ou
     ativar o cenário.
@@ -58,17 +58,17 @@ avançado (o ícone "engrenagem") e você verá um URL que contém
 já tudo o que você precisa, dependendo do tipo e subtipo do
 commande.
 
-> **Observação**
+> ****
 >
 > É possível para o campo \#ID\# fazer vários pedidos
 > de repente. Para fazer isso, você deve passar uma matriz em json (ex
 > % 5B12,58,23% 5D, observe que \ [e \] devem ser codificados; portanto,% 5B
 > e% 5D). O retorno de Jeedom será um json
 
-> **Observação**
+> ****
 >
 > Os parâmetros devem ser codificados para o URL, você pode usar
-> uma ferramenta, [aqui](https://meyerweb.com/eric/tools/dencoder/)
+> uma ferramenta, [](https://meyerweb.com/eric/tools/dencoder/)
 
  
 ===========
@@ -98,9 +98,9 @@ Aqui está o URL =
 
 -   **** : categoria de mensagem para adicionar ao centro de mensagens
 
--   **mensagem** : mensagem em questão, tenha cuidado ao pensar em codificação
+-   **** : mensagem em questão, tenha cuidado ao pensar em codificação
     a mensagem (o espaço se torna% 20, =% 3D…). Você pode usar um
-    outil, [aqui](https://meyerweb.com/eric/tools/dencoder/)
+    outil, [](https://meyerweb.com/eric/tools/dencoder/)
 
  
 =====

@@ -104,7 +104,7 @@ diferente porque não é possível salvar as inclusões.
 Eles estão diretamente incluídos no controlador, então você precisa
 mantenha o mesmo controlador para encontrar seus módulos Zwave.
 
-> **Observação**
+> ****
 >
 > O sistema no qual o Jeedom está instalado não é copiado. Se
 > você modificou os parâmetros deste sistema (em particular via SSH),
@@ -121,7 +121,7 @@ backups. Para se inscrever basta ir à sua página
 pode, nesta página, recuperar um backup ou comprar um
 assinatura (por 1, 3, 6 ou 12 meses).
 
-> **Dica**
+> ****
 >
 > Você pode personalizar o nome dos arquivos de backup em
 > da guia **Minhas jeedoms**, evitando no entanto os personagens

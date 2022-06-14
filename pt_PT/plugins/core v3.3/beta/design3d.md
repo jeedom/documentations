@@ -2,7 +2,7 @@ Esta página permite criar uma visualização em 3D da sua casa que pode reagir 
 
 É acessível por Início → Painel
 
-> **Dica**
+> ****
 >
 > É possível ir diretamente para um design 3D graças ao submenu.
 
@@ -43,7 +43,7 @@ Clique no botão "enviar" no nível "Modelo 3D" e selecione seu arquivo zip
 >
 > Você deve ter um arquivo zip
 
-> **Dica**
+> ****
 >
 > Depois que o arquivo for importado (pode ser bastante longo, dependendo do tamanho do arquivo), você precisará atualizar a página para ver o resultado (F5)
 
@@ -62,7 +62,7 @@ Para configurar um elemento no design 3D, clique duas vezes no elemento que voc�
 
 ## Luz
 
-- Status : O controle do status da luz pode ser binário (0 ou 1), digital (0 a 100%) ou colorido
+-  : O controle do status da luz pode ser binário (0 ou 1), digital (0 a 100%) ou colorido
 -  : potência da lâmpada (observe que isso pode não refletir a realidade))
 
 ## Texte
@@ -107,6 +107,6 @@ Para configurar um elemento no design 3D, clique duas vezes no elemento que voc�
 
 Permite atribuir a cor escolhida ao elemento se a condição for válida. Você pode colocar quantas cores / condições desejar.
 
-> **Dica**
+> ****
 >
 > As condições são avaliadas em ordem; a primeira, verdadeira, será adotada; as seguintes, portanto, não serão avaliadas

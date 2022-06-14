@@ -20,12 +20,12 @@ permitindo a escolha do registro para assistir, no canto superior direito você 
 
 -   **** : Limpe o log atual,
 
--   **Deletar** : excluir o log atual, se o Jeedom tiver algum
+-   **** : excluir o log atual, se o Jeedom tiver algum
     precisa dele irá recriá-lo automaticamente,
 
 -   **Excluir todos os logs** : Excluir todos os logs presentes.
 
-> **Dica**
+> ****
 >
 > Observe que o log http.erro não pode ser excluído. É essencial
 > ! se você excluí-lo (na linha de comando, por exemplo), ele não

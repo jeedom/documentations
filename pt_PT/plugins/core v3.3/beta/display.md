@@ -1,4 +1,4 @@
-Descrição 
+ 
 ===========
 
 Esta página permite reunir em uma única página os diferentes
@@ -12,7 +12,7 @@ Esta página é acessível por **Ferramentas → Resumo da automação residenci
 O topo da página 
 ------------------
 
-No topo da página, encontramos : \* **Número de objetos** : Nombre
+No topo da página, encontramos : * **Número de objetos** : Nombre
 total de objetos configurados em nosso Jeedom, contando os elementos
 inativo. \* **Número de equipamentos** : O mesmo vale para o equipamento. \*
 **Número de pedidos** : O mesmo vale para pedidos. \* **** :
@@ -40,12 +40,12 @@ estão disponíveis. Da esquerda para a direita :
 -   o último permite exibir ou ocultar a lista de equipamentos
     atribuído a ele.
 
-> **Dica**
+> ****
 >
 > A cor de fundo dos quadros de objetos depende da cor escolhida em
 > configuração de objeto.
 
-> **Dica**
+> ****
 >
 > Ao clicar / soltar no equipamento, você pode alterar sua
 > encomendar ou mesmo atribuí-los a outro objeto. É da ordem
@@ -56,15 +56,15 @@ Os equipamentos
 
 Em cada equipamento encontramos :
 
--   UMA **caixa de seleção** para selecionar o equipamento (você pode
+-    **caixa de seleção** para selecionar o equipamento (você pode
     selecione vários). Se pelo menos um dispositivo estiver selecionado
     você tem botões de ação que aparecem no canto superior esquerdo
      ****,  ********,
     ******** equipamento selecionado.
 
--   A **** equipamento.
+-    **** equipamento.
 
--   A **** equipamento : Identificador do plug-in ao qual
+-    **** equipamento : Identificador do plug-in ao qual
     pertence.
 
 -   **** (pequena cruz) : Significa que o equipamento está inativo
@@ -92,7 +92,7 @@ roda dentada isso abrirá sua janela de configuração.
 Configuração avançada de equipamentos 
 =====================================
 
-> **Dica**
+> ****
 >
 > É possível acessar (se o plugin o suportar) diretamente para
 > nesta janela da página de configuração do equipamento em
@@ -109,22 +109,22 @@ modificar. Primeiro, no canto superior direito, alguns botões
 
 -   **** : exibe os eventos do equipamento em questão.
 
--   **Em formação** : exibe as propriedades brutas do equipamento.
+-   **** : exibe as propriedades brutas do equipamento.
 
 -   **** : Salve as modificações feitas
     no equipamento.
 
--   **Deletar** : Remova o equipamento.
+-   **** : Remova o equipamento.
 
 Guia Informações 
 -------------------
 
- **Em formação** contém as informações gerais de
+ **** contém as informações gerais de
 o equipamento e seus controles :
 
 -   **** : Identificador exclusivo no banco de dados Jeedom.
 
--   **Sobrenome** : Nome de equipamentos.
+-   **** : Nome de equipamentos.
 
 -   **ID lógico** : Identificador de equipamento lógico (pode
     estar vazio).
@@ -202,7 +202,7 @@ novo. Para equipamentos, apenas o valor **** é para o
 momento utilizado, permite inserir código CSS no equipamento em
 question.
 
-> **Dica**
+> ****
 >
 > Não se esqueça de salvar após qualquer modificação.
 
@@ -237,7 +237,7 @@ Abaixo para cada caixa, o **Configuração detalhada** permite que você
     caixa (cuidado, este substitui e substitui o CSS geral
     caixas).
 
-> **Dica**
+> ****
 >
 > Em uma caixa na tabela, se você quiser colocar 2 comandos, um em
 > abaixo do outro, não se esqueça de adicionar um retorno ao
@@ -265,10 +265,10 @@ Você também pode gerenciar o tempo limite, em minutos, do equipamento. Por
 Por exemplo, 30 informa a jeedom que se o equipamento não tiver se comunicado
 por 30 minutos, então você deve colocá-lo em alerta.
 
-> **Dica**
+> ****
 >
 > Os parâmetros globais estão em **Administração → Configuração → Logs**
-> (Onde ****)
+> ( ****)
 
 Guia de comentários 
 ------------------
@@ -289,7 +289,7 @@ Primeiro, no canto superior direito, alguns botões disponíveis :
 
 -   **** : Exibe os eventos do equipamento em questão.
 
--   **Em formação** : Exibe as propriedades brutas do equipamento.
+-   **** : Exibe as propriedades brutas do equipamento.
 
 -   Aplicar a \* : Aplique a mesma configuração em
     pedidos múltiplos.
@@ -297,12 +297,12 @@ Primeiro, no canto superior direito, alguns botões disponíveis :
 -   **** : Salve as alterações feitas em
     o equipamento
 
-> **Dica**
+> ****
 >
 > Em um gráfico, um clique duplo em um elemento leva você ao seu
 > .
 
-> **Observação**
+> ****
 >
 > Dependendo do tipo de pedido, as informações / ações exibidas
 > pode mudar.
@@ -310,7 +310,7 @@ Primeiro, no canto superior direito, alguns botões disponíveis :
 Guia Informações 
 -------------------
 
- **Em formação** contém informações gerais sobre o
+ **** contém informações gerais sobre o
  :
 
 -   **** : Identificador exclusivo no banco de dados.
@@ -318,7 +318,7 @@ Guia Informações
 -   **ID lógico** : Identificador lógico do comando (pode
     estar vazio).
 
--   **Sobrenome** : Nome do comando.
+-   **** : Nome do comando.
 
 -   **** : Tipo de comando (ação ou informação).
 
@@ -326,7 +326,7 @@ Guia Informações
 
 -   **URL direta** : Fornece o URL para acessar este equipamento. (clique
     (copie o endereço do link) A URL iniciará o comando para um
-    **estoque** e retorne as informações para um ****.
+    **** e retorne as informações para um ****.
 
 -   **** : Unidade de controle.
 
@@ -357,7 +357,7 @@ Você também tem três outros botões laranja embaixo :
 -   **Substituir esse comando pelo comando** : O reverso substitui
     a ordem por outra ordem.
 
-> **Observação**
+> ****
 >
 > Esse tipo de ação substitui comandos em todo o Jeedom
 > (cenário, interação, comando, equipamento.)
@@ -374,7 +374,7 @@ Guia Configuração
 
 -   **Cálculo e arredondamento**
 
-    -   **Fórmula de cálculo (\#value\# por valor)** : Deixa
+    -   **Fórmula de cálculo (\#value# por valor)** : Deixa
         faça uma operação sobre o valor do pedido antes
         Tratamento Jeedom, exemplo : ``#value# - 0.2` para entrincheirar
         0,2 (deslocamento em um sensor de temperatura).
@@ -401,7 +401,7 @@ Guia Configuração
     -   **Suavização moda** : Modo de **** '****
         permite escolher como arquivar os dados. Por padrão,
         é um ****. Também é possível escolher o
-        ****,  ****, Onde ****. **** deixa
+        ****,  ****,  ****. **** deixa
         diga ao Jeedom que ele não deve arquivar neste
         ordem (durante o primeiro período de 5 minutos e com o
         tarefa de arquivamento). Essa opção é perigosa porque o Jeedom
@@ -439,7 +439,7 @@ Guia Configuração
          : ``#value#`para o valor do pedido '#cmd_name#``
         para o nome do comando, `#cmd_id#`para o identificador exclusivo
         do comando, `#humanname#`para o nome completo do comando
-        (ex : ``#[Sal de bain][Hydrometrie][Humidité]#`),`#eq_name#`para o nome do equipamento
+        ( : ``#[Sal de bain][Hydrometrie][Humidité]#`),`#eq_name#`para o nome do equipamento
 
 ### Para um comando de ação : 
 
@@ -455,19 +455,19 @@ Guia Configuração
     quando a ação é iniciada a partir da interface deste comando.
 
 -   **Ação antes de executar o comando** : Permite adicionar
-    ordens **** cada execução da ordem.
+     **** cada execução da ordem.
 
 -   **Ação após a execução da ordem** : Permite adicionar
-    ordens **depois** cada execução da ordem.
+     **depois** cada execução da ordem.
 
 Guia Alertas 
 --------------
 
-Permite definir um nível de alerta (**** Onde ****) en
+Permite definir um nível de alerta (****  ****) en
 dependendo de certas condições. Por exemplo, se `valor> 8` para 30
 minutos, então o equipamento pode ficar em alerta ****.
 
-> **Observação**
+> ****
 >
 > Na página **Administração → Configuração → Logs**, Você pode
 > configure um comando de tipo de mensagem que permitirá que o Jeedom o obtenha
@@ -493,7 +493,7 @@ mobile.
     além do nome do comando.
 
 -   **Envoltório forçado antes Widget** :  **antes
-    ** Onde **após o widget** para adicionar uma quebra de linha
+    **  **após o widget** para adicionar uma quebra de linha
     antes ou depois do widget (para forçar, por exemplo, uma exibição em
     coluna de comandos de equipamentos diferentes em vez de linhas
     Por padrão)
@@ -502,7 +502,7 @@ Abaixo, encontramos parâmetros opcionais de exibição que
 pode mudar para o widget. Esses parâmetros dependem do widget em questão,
 então você tem que olhar para o cartão dele no mercado para conhecê-los.
 
-> **Dica**
+> ****
 >
 > Não se esqueça de salvar após qualquer modificação.
 
@@ -511,7 +511,7 @@ Guia Código
 
 Permite modificar o código do widget apenas para o comando atual.
 
-> **Observação**
+> ****
 >
 > Se você deseja modificar o código, não esqueça de marcar a caixa
 > **Ativar personalização do widget**

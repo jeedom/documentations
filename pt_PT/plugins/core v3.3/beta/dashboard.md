@@ -4,7 +4,7 @@ auto-gerado por Jeedom.
 
 É acessível clicando em **Página inicial → Painel**
 
-> **Dica**
+> ****
 >
 > É possível ir diretamente para um objeto em sua automação residencial.
 > Isso permite que você tenha apenas o equipamento que lhe interessa e
@@ -32,13 +32,13 @@ auto-gerado por Jeedom.
 -   Um clique em um comando de tipo de informação é exibido
     o histórico de pedidos (se for histórico)
 
-> **Dica**
+> ****
 >
 > É possível, a partir do seu perfil, configurar o Jeedom para
 > a árvore de objetos e / ou os cenários são visíveis por padrão
 > quando você entra no painel
 
-> **Dica**
+> ****
 >
 > No celular, pressionar longamente um comando de tipo de informação permite
 > exibir um menu oferecendo para exibir o histórico do

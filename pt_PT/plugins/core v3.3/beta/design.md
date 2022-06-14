@@ -4,11 +4,11 @@ sua imaginação.
 
 É acessível por Início → Design
 
-> **Dica**
+> ****
 >
 > É possível ir diretamente a um design graças ao submenu.
 
-> **Importante**
+> ****
 >
 > Todas as ações são feitas clicando com o botão direito nesta página, atenção
 > fazê-lo bem no design. Durante a criação, é necessário, portanto,
@@ -83,7 +83,7 @@ seguintes ações :
 -   **** : permite salvar o design (atenção, existem
     também backups automáticos durante determinadas ações)
 
-> **Importante**
+> ****
 >
 > A configuração dos elementos de design é feita clicando em
 > .
@@ -95,7 +95,7 @@ Encontrado aqui :
 
 -   **Geral**
 
-    -   **Sobrenome** : O nome do seu design
+    -   **** : O nome do seu design
 
     -   **Fundo transparente** : Torna o plano de fundo transparente. Tenha cuidado se o
         caixa estiver marcada, a cor do plano de fundo não será usada
@@ -103,7 +103,7 @@ Encontrado aqui :
     -   **Cor de fundo** : cor de fundo do design (branco
         Por padrão)
 
-    -   **Codificado** : Código de acesso ao seu design (se vazio, nenhum código
+    -   **** : Código de acesso ao seu design (se vazio, nenhum código
         não é perguntado)
 
     -   **ícone** : Um ícone para ele (aparece no menu
@@ -123,11 +123,11 @@ Encontrado aqui :
 Configuração geral de elementos 
 ===================================
 
-> **Observação**
+> ****
 >
 > Dependendo do tipo de item, as opções podem mudar.
 
-> **Observação**
+> ****
 >
 > O item selecionado é destacado em vermelho (em vez de verde
 > por todos os outros).
@@ -145,7 +145,7 @@ Configuração de exibição
 
 -   **Altura (px)** :
 
-Deletar 
+ 
 ---------
 
 Remover item
@@ -218,7 +218,7 @@ Texto / html
 
 -   **** : Texto em código HTML que estará no elemento
 
-> **Importante**
+> ****
 >
 > Se você colocar código HTML (especialmente Javascript), tenha cuidado
 > para verificá-lo antes, porque você pode, se houver um erro nele
@@ -239,7 +239,7 @@ Nenhuma configuração de exibição específica
 Configurações de exibição 
 ---------------------
 
--   **Sobrenome** : Nome do link (texto exibido)
+-   **** : Nome do link (texto exibido)
 
 -   **** : Link para o design ou exibição em questão
 
@@ -324,7 +324,7 @@ na área
 ### Macro binário 
 
 Nesse modo, o Jeedom executará as ações Ativar ou Desativar em
-dependendo do status do pedido que você der. Ex : se a ordem
+dependendo do status do pedido que você der.  : se a ordem
 vale 0, o Jeedom executará a (s) ação (ões); caso contrário, executará
 as ações desativadas
 
