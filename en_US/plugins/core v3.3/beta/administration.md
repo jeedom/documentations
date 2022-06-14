@@ -1,7 +1,7 @@
 This is where most of the configuration parameters are located.
 Although many, they are pre-configured by default.
 
-The page is accessible by ****.
+The page is accessible by **Admin → Setup**.
 
 General 
 =======
@@ -20,7 +20,7 @@ In this tab we find general information about Jeedom :
     Jeedom on the market, it is advisable to click on the button
     **Reset**.
 
--   **** : Language used in your Jeedom.
+-   **Language** : Language used in your Jeedom.
 
 -   **Generate translations** : Generate translations,
     be careful, this can slow down your system. Most useful option
@@ -35,7 +35,7 @@ In this tab we find general information about Jeedom :
 
 -   **Optional time server** : Indicates which time server should
     be used if you click **Force synchronization of
-    **. (to be reserved for experts)
+    time**. (to be reserved for experts)
 
 -   **Skip time check** : tells Jeedom not to
     check if the time is consistent between itself and the system on
@@ -43,7 +43,7 @@ In this tab we find general information about Jeedom :
     no Jeedom to the Internet and that it has no PSTN battery on the
     equipment used.
 
- 
+APIs 
 ===
 
 Here is the list of the different API keys available in
@@ -64,23 +64,23 @@ TTS, you can define their scope :
 -   **White IP** : only a list of IPs is authorized (see
     Administration → Configuration → Networks),
 
--   **** : only requests from the system on which is
+-   **Localhost** : only requests from the system on which is
     installed Jeedom are allowed,
 
--   **** : no restrictions, any system with access
+-   **Enabled** : no restrictions, any system with access
     your Jeedom will be able to access this API.
 
-&gt\_OS / DB 
+&gt;\_OS / DB 
 ===========
 
 Two parts reserved for experts are present in this tab.
 
-> ****
+> **Important**
 >
->  : If you modify Jeedom with one of these two solutions,
+> WARNING : If you modify Jeedom with one of these two solutions,
 > support may refuse to help you.
 
--   **&gt\_System** : Allows access to an interface
+-   **&gt;\_System** : Allows access to an interface
     system administration. It&#39;s a kind of shell console in
     which you can run the most useful commands, including
     to get information about the system.
@@ -89,7 +89,7 @@ Two parts reserved for experts are present in this tab.
     from Jeedom. You can then launch commands in the field
     from the top. Two parameters are displayed below for information :
 
-    -   **** : Username used by Jeedom in
+    -   **User** : Username used by Jeedom in
         the database,
 
     -   **Password** : database access password
@@ -98,7 +98,7 @@ Two parts reserved for experts are present in this tab.
 Security 
 ========
 
- 
+LDAP 
 ----
 
 -   **Enable LDAP authentication** : enable authentication to
@@ -106,7 +106,7 @@ Security
 
 -   **Host** : server hosting the AD
 
--   **** : domain of your AD
+-   **Domain** : domain of your AD
 
 -   **DN base** : DN base of your AD
 
@@ -117,7 +117,7 @@ Security
 
 -   **User search fields** : search fields of
     user login. Usually uid for LDAP, samaccountname for
-    
+    Windows AD
 
 -   **Filter (optional)** : filter on the AD (for managing
     groups for example)
@@ -125,7 +125,7 @@ Security
 -   **Allow REMOTE\_USER** : Activate REMOTE\_USER (used in SSO
     For example)
 
- 
+Login 
 ---------
 
 -   **Number of failures tolerated** : sets the number of attempts
@@ -155,7 +155,7 @@ is possible to access Jeedom in two different ways : L'**access
 interne** (from the same local network as Jeedom) and l'**access
 externe** (from another network, especially from the Internet).
 
-> ****
+> **Important**
 >
 > This part is just there to explain to Jeedom its environment :
 > changing the port or IP in this tab will not change the
@@ -165,7 +165,7 @@ externe** (from another network, especially from the Internet).
 > etc / apache2 / sites-available / default\_ssl (for HTTPS).However, in
 > If your Jeedom is mishandled, the Jeedom team will not
 > may be held responsible and may refuse any request for
-> .
+> support.
 
 -   **Internal access** : information for joining Jeedom from a
     same network equipment as Jeedom (LAN)
@@ -173,11 +173,11 @@ externe** (from another network, especially from the Internet).
     -   **OK / NOK** : indicates whether the internal network configuration is
         correcte
 
-    -   **** : the protocol to use, often HTTP
+    -   **Protocol** : the protocol to use, often HTTP
 
     -   **URL or IP address** : Jeedom IP to enter
 
-    -   **** : the port of the Jeedom web interface, generally 80.
+    -   **Port** : the port of the Jeedom web interface, generally 80.
         Please note changing the port here does not change the actual port of
         Jeedom which will remain the same
 
@@ -191,7 +191,7 @@ externe** (from another network, especially from the Internet).
     -   **OK / NOK** : indicates whether the external network configuration is
         correcte
 
-    -   **** : protocol used for outdoor access
+    -   **Protocol** : protocol used for outdoor access
 
     -   **URL or IP address** : External IP, if it is fixed. If not,
         give the URL pointing to the external IP address of your network.
@@ -199,13 +199,13 @@ externe** (from another network, especially from the Internet).
     -   **Complement** : the fragment of additional URL (example
         : / jeedom) to access Jeedom.
 
-> ****
+> **Tip**
 >
 > If you are in HTTPS the port is 443 (by default) and in HTTP the
 > port is 80 (default). To use HTTPS from outside,
 > a letsencrypt plugin is now available on the market.
 
-> ****
+> **Tip**
 >
 > To find out if you need to set a value in the field
 > **Complement**, look, when you log into Jeedom in
@@ -219,7 +219,7 @@ externe** (from another network, especially from the Internet).
     network management by Jeedom** (check if Jeedom is not connected to
     no network). You can also specify the local ip range in the form 192.168.1.* (to be used only in docker type installations)
 
--   **** : allows remote access to your Jeedom without having
+-   **Proxy market** : allows remote access to your Jeedom without having
     need a DNS, a fixed IP or to open the ports of your box
     Internet
 
@@ -228,15 +228,15 @@ externe** (from another network, especially from the Internet).
 
     -   **DNS status** : DNS HTTP status
 
-    -   **** : allows to stop and restart the DNS service
+    -   **Management** : allows to stop and restart the DNS service
 
-> ****
+> **Important**
 >
 > If you can&#39;t get Jeedom DNS to work, check the
 > configuration of the firewall and parental filter of your Internet box
 > (on livebox you need for example the firewall in medium).
 
- 
+Colors 
 ========
 
 The colorization of widgets is performed according to the category to
@@ -260,11 +260,11 @@ widgets globally (this will be the default. It is
 then possible to modify this value widget by widget). Not to
 put no transparency, leave 1.0 .
 
-> ****
+> **Tip**
 >
 > Do not forget to save after any modification.
 
- 
+Orders 
 =========
 
 Many orders can be logged. So in
@@ -272,7 +272,7 @@ Analysis → History, you get graphs representing their
 use. This tab allows you to set global parameters for
 order history.
 
- 
+Historical 
 ----------
 
 -   **View widget statistics** : Displays
@@ -312,7 +312,7 @@ order history.
     of an order. The shorter the period, the faster Jeedom will be
     to display the requested graph.
 
-> ****
+> **Note**
 >
 > The first parameter **View widget statistics** est
 > possible but disabled by default because it significantly lengthens the
@@ -320,25 +320,25 @@ order history.
 > default, Jeedom relies on data from the past 24 hours to
 > calculate these statistics. The trend calculation method is based
 > on least squares calculation (see
-> [](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s)
+> [here](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s)
 > for the detail).
 
- 
+Push 
 ----
 
 **Global push URL** : allows to add a URL to call in case of
 order update. You can use the following tags :
-**#value#** for the order value, **#cmd_name#** for the
-command name, **#cmd_id#** for the unique identifier of the
-commande, **#humanname#** for the full name of the order (ex :
-#[Salle de bain][Hydrometrie][Humidité]#), ``#eq_name#`for the name of the equipment
+**\#value\#** for the order value, **\#cmd\_name\#** for the
+command name, **\#cmd\_id\#** for the unique identifier of the
+commande, **\#humanname\#** for the full name of the order (ex :
+\#\[Salle de bain\]\[Hydrometrie\]\[Humidité\]\#), ``#eq_name#`for the name of the equipment
 
- 
+Hidden 
 =====
 
 Allows monitoring and acting on the Jeedom cache :
 
--   **** : Number of objects currently cached
+-   **Statistics** : Number of objects currently cached
 
 -   **Clean the cover** : Force the deletion of objects that are not
     more useful. Jeedom does this automatically every night.
@@ -352,24 +352,24 @@ Allows monitoring and acting on the Jeedom cache :
     the interface will update quickly, in return this
     uses more resources and can therefore slow Jeedom.
 
- 
+Interactions 
 ============
 
 This tab allows you to set global parameters concerning
 interactions which you will find in Tools → Interactions.
 
-> ****
+> **Tip**
 >
 > To activate the interaction log, go to the tab
-> Administration → Configuration → Logs, then tick **** in the list
-> bottom.  : the logs will then be very verbose !
+> Administration → Configuration → Logs, then tick **Debug** in the list
+> bottom. Attention : the logs will then be very verbose !
 
 General 
 -------
 
 Here you have three parameters :
 
--   **** : there are 4 levels of correspondence (Sensitivity
+-   **Sensitivity** : there are 4 levels of correspondence (Sensitivity
     ranges from 1 (exactly matches) to 99)
 
     -   for 1 word : the level of correspondence for interactions at
@@ -394,51 +394,51 @@ Here you have three parameters :
     define a regexp which, if it corresponds to an interaction,
     will automatically delete this sentence from the generation (reserved
     to experts). For more information see the explanations in the
-     **Regexp exclusion** documentation on
+    chapter **Regexp exclusion** documentation on
     the interactions.
 
 Automatic interaction, contextual &amp; warning 
 -----------------------------------------------------
 
--    **automatic interactions** allow Jeedom to attempt to
+-   The **automatic interactions** allow Jeedom to attempt to
     understand an interaction request even if there is none
     of defined. He will then look for an object and / or equipment name
     and / or order to try to respond as best as possible.
 
--    **contextual interactions** allow you to chain
+-   The **contextual interactions** allow you to chain
     multiple requests without repeating everything, for example :
 
     -   *Jeedom keeping the context :*
 
-        -   ** : How much is he in the room ?
+        -   *You* : How much is he in the room ?
 
-        -   ** : Temperature 25.2 ° C
+        -   *Jeedom* : Temperature 25.2 ° C
 
-        -   ** : and in the living room ?
+        -   *You* : and in the living room ?
 
-        -   ** : Temperature 27.2 ° C
+        -   *Jeedom* : Temperature 27.2 ° C
 
     -   *Ask two questions in one :*
 
-        -   ** : What is it like in the bedroom and in the living room ?
+        -   *You* : What is it like in the bedroom and in the living room ?
 
-        -   ** : Temperature 23.6 ° C, Temperature 27.2 ° C
+        -   *Jeedom* : Temperature 23.6 ° C, Temperature 27.2 ° C
 
 -   Type interactions **Warn me** let&#39;s ask
     Jeedom to notify you if an order exceeds / descends or is worth a
     certain value.
 
-    -   ** : Notify me if the living room temperature exceeds 25 ° C ?
+    -   *You* : Notify me if the living room temperature exceeds 25 ° C ?
 
-    -   ** : OK (* As soon as the living room temperature exceeds 25 ° C,
+    -   *Jeedom* : OK (* As soon as the living room temperature exceeds 25 ° C,
         Jeedom will tell you, only once*)
 
-> ****
+> **Note**
 >
 > By default Jeedom will answer you by the same channel as the one you
 > used to ask him to notify you. If he doesn&#39;t find one
 > not, it will then use the default command specified in this
->  : **Default return command**.
+> tab : **Default return command**.
 
 Here are the different options available :
 
@@ -451,7 +451,7 @@ Here are the different options available :
 -   **Priority contextual response if the sentence begins with** : Si
     the sentence begins with the word you enter here, Jeedom will
     then prioritize a contextual response (you can put
-    several words separated by **** ).
+    several words separated by **;** ).
 
 -   **Cut an interaction in half if it contains** : Same thing for
     the breakdown of an interaction containing several questions. You
@@ -463,14 +463,14 @@ Here are the different options available :
 -   **&quot;Tell me&quot; response if the sentence starts with** : If the
     sentence starts with this word (s) then Jeedom will try to make a
     type interaction **Warn me** (you can put multiple
-    words separated by **** ).
+    words separated by **;** ).
 
 -   **Default return command** : Default return command
     for a type interaction **Warn me** (used, in particular,
     if you have programmed the alert via the mobile interface)
 
 -   **Synonym for objects** : List of synonyms for objects
-    ( : rdc|ground floor|basement|low; sdb|Bathroom).
+    (ex : rdc|ground floor|basement|low; sdb|Bathroom).
 
 -   **Synonym for equipment** : Synonyms list for
     equipment.
@@ -488,19 +488,19 @@ Here are the different options available :
     slider type command at minimum (ex closes to close the shutter
     the room ⇒ room component at 0%).
 
- 
+Colors 
 --------
 
 This part allows you to define the colors that Jeedom will associate with
 words red / blue / black… To add a color :
 
--   Click on the button ****, to the right,
+-   Click on the button **+**, to the right,
 
 -   Give your color a name,
 
 -   Choose the associated color by clicking on the box on the right.
 
- 
+Reports 
 ========
 
 Configure the generation and management of reports
@@ -514,7 +514,7 @@ Configure the generation and management of reports
     a little space so be careful not to put too much
     conservation).
 
- 
+Connections 
 =====
 
 Configure link graphics. These links allow you to
@@ -537,31 +537,31 @@ equipment, objects, etc.
 -   **Parameter of prerender** : Lets act on the layout
     of the graph.
 
--   **Render parameter** : .
+-   **Render parameter** : Same.
 
 Summaries 
 =======
 
 Add object summaries. This information is displayed
 at the very top, on the right, in the Jeedom menu bar, or next to the
- :
+objects :
 
--   **** : Key to the summary, especially not to touch.
+-   **Key** : Key to the summary, especially not to touch.
 
--   **** : Abstract name.
+-   **Last name** : Abstract name.
 
--   **** : Calculation method, can be of type :
+-   **Calculation** : Calculation method, can be of type :
 
-    -   **** : sum the different values,
+    -   **Sum** : sum the different values,
 
-    -   **** : averages values,
+    -   **Mean** : averages values,
 
-    -   **** : display the value verbatim (especially for those
+    -   **Text** : display the value verbatim (especially for those
         of string type).
 
--   **** : Summary icon.
+-   **Icon** : Summary icon.
 
--   **** : Summary unit.
+-   **Unity** : Summary unit.
 
 -   **Counting method** : If you count binary data then
     you have to set this value to binary, example if you count the
@@ -579,10 +579,10 @@ at the very top, on the right, in the Jeedom menu bar, or next to the
 -   **Delete summary** : The last button, on the far right, allows
     to delete the summary from the line.
 
- 
+Logs 
 ====
 
- 
+Timeline 
 --------
 
 -   **Maximum number of events** : Sets the maximum number to
@@ -591,7 +591,7 @@ at the very top, on the right, in the Jeedom menu bar, or next to the
 -   **Delete all events** : Empty the timeline of
     all his recorded events.
 
- 
+Posts 
 --------
 
 -   **Add a message to each error in the logs** : if a plugin
@@ -603,42 +603,42 @@ at the very top, on the right, in the Jeedom menu bar, or next to the
         - #message# : message in question
         - #plugin# : plugin that triggered the message
 
- 
+Alerts 
 -------
 
 -   **Add a message to each Timeout** : Add a message in the
-    message center if equipment falls in ****.
+    message center if equipment falls in **timeout**.
 
--   **Timeout order** : Type command **** use
-    if an equipment is in ****.
+-   **Timeout order** : Type command **message** use
+    if an equipment is in **timeout**.
 
 -   **Add a message to each Battery in Warning** : Add a
     message in the message center if a device has its level of
-    battery in ****.
+    battery in **warning**.
 
--   **Battery command in Warning** : Type command ****
-    to be used if equipment at its battery level ****.
+-   **Battery command in Warning** : Type command **message**
+    to be used if equipment at its battery level **warning**.
 
 -   **Add a message to each Battery in Danger** : Add a
     message in the message center if a device has its level of
-    battery in ****.
+    battery in **danger**.
 
--   **Command on Battery in Danger** : Type command **** at
-    use if equipment at its battery level ****.
+-   **Command on Battery in Danger** : Type command **message** at
+    use if equipment at its battery level **danger**.
 
 -   **Add a message to each Warning** : Add a message in the
-    message center if an order goes on alert ****.
+    message center if an order goes on alert **warning**.
 
--   **Command on Warning** : Type command **** use
-    if an order goes on alert ****.
+-   **Command on Warning** : Type command **message** use
+    if an order goes on alert **warning**.
 
 -   **Add a message to each Danger** : Add a message in the
-    message center if an order goes on alert ****.
+    message center if an order goes on alert **danger**.
 
--   **Command on Danger** : Type command **** to use if
-    an order goes on alert ****.
+-   **Command on Danger** : Type command **message** to use if
+    an order goes on alert **danger**.
 
- 
+Log 
 ---
 
 -   **Log engine** : Allows you to change the log engine for, for
@@ -661,7 +661,7 @@ Below you will find a table for finely managing the
 log level of the essential elements of Jeedom as well as that of
 plugins.
 
- 
+Equipment 
 ===========
 
 -   **Number of failures before deactivation of the equipment** : Nombre
@@ -692,17 +692,17 @@ Deposits
 
 The depots are storage (and service) spaces to be able to
 move backups, recover plugins, recover core
-.
+Jeedom, etc.
 
-###  
+### File 
 
 Deposit used to activate the sending of plugins by files.
 
-###  
+### Github 
 
 Deposit used to connect Jeedom to Github.
 
--   **** : Token for access to private deposit.
+-   **Token** : Token for access to private deposit.
 
 -   **Jeedom core repository user or organization** : Nom
     the user or the organization on github for the core.
@@ -711,13 +711,13 @@ Deposit used to connect Jeedom to Github.
 
 -   **Jeedom core industry** : Core repository branch.
 
-###  
+### Market 
 
 Deposit used to connect Jeedom to the market, it is highly recommended
-to use this repository.  : any support request may be
+to use this repository. Attention : any support request may be
 refused if you use a different deposit than this one.
 
--   **** : Market address.
+-   **Address** : Market address.
 
 -   **Username** : Your Username on the Market.
 
@@ -729,10 +729,10 @@ refused if you use a different deposit than this one.
 
 -   **[Backup cloud] Frequency full backup** : Frequency of full cloud backup. A full backup is longer than an incremental one (which only sends the differences). It is recommended to do 1 per month
 
-###  
+### Samba 
 
 Deposit to automatically send a Jeedom backup to
-a Samba share (ex : ).
+a Samba share (ex : NAS Synology).
 
 -   **\ [Backup \] IP** : Samba server IP.
 
@@ -749,13 +749,13 @@ a Samba share (ex : ).
 -   **\ [Backup \] Path** : Path in sharing (to set
     relative), it must exist.
 
-> ****
+> **Note**
 >
 > If the path to your samba backup folder is :
 > \\\\ 192.168.0.1 \\ Backups \\ Home automation \\ Jeedom Then IP = 192.168.0.1
 > , Sharing = //192.168.0.1 / Backups, Path = Home automation / Jeedom
 
-> ****
+> **Note**
 >
 > When validating the Samba share, as described above,
 > a new form of backup appears in the section
@@ -763,12 +763,12 @@ a Samba share (ex : ).
 > when it is automatically sent at the next backup. A test is
 > possible by performing a manual backup.
 
-> ****
+> **Important**
 >
 > You may need to install the smbclient package for the
 > deposit works.
 
-> ****
+> **Important**
 >
 > The Samba protocol has several versions, the v1 is compromised level 
 > security and on some NAS you can force the client to use v2
@@ -776,19 +776,19 @@ a Samba share (ex : ).
 > failed: NT_STATUS_INVAID_NETWORK_RESPONSE there is a good chance that listed NAS
 > the restriction be in place. You must then modify on the OS of your Jeedom
 > the / etc / samba / smb file.conf and add these two lines to it :
-> 
-> 
+> client max protocol = SMB3
+> client min protocol = SMB2
 > The Jeedom side smbclient will then use v2 where v3 and by putting SMB3 in both only
-> . So it&#39;s up to you to adapt according to restrictions on the NAS or other Samba server
+> SMB3. So it&#39;s up to you to adapt according to restrictions on the NAS or other Samba server
 
-> ****
+> **Important**
 >
 > Jeedom should be the only one to write to this folder and it should be empty
 > by default (i.e. before configuring and sending the
 > first backup, the folder must not contain any file or
 > dossier).
 
-###  
+### URLs 
 
 -   **Jeedom core URL**
 

@@ -1,14 +1,14 @@
 # 
 
-**The module**
+****
 
 ![module](images/fibaro.fgms001zw5/module.jpg)
 
- **The Jeedom visual**
+ ****
 
 ![vuedefaut1](images/fibaro.fgms001zw5/vuedefaut1.jpg)
 
-## Summary
+## 
 
 . . .
 
@@ -25,40 +25,40 @@
 -   
 -   
 -   
--   Button to include/exclude the detector
 -   
--   Very small, reduced dimensions
+-   
+-   
 -   
 
-## Technical characteristics
+## 
 
--   Mod type : 
--   Feed : 
+-    : 
+-    : 
 -    : 2,4m
 -    : -
 -    : 0,5°C
 -    : X
--   Frequency : 868.42Mhz
--   Transmission distance : 
+-    : 
+-    : 
 -   Dimensions: 
--   Operating temperature : 
--   Certificates : 
+-    : 
+-    : 
 
-## Module data
+## 
 
--   Mark : 
--   Last name : ]
--   Manufacturer ID : 271
--   Type Product : 2048
--   Product ID : 4097
+-    : 
+-    : ]
+-    : 271
+-    : 2048
+-    : 4097
 
 ## Configuration
 
-To configure the OpenZwave plugin and know how to include Jeedom refer to this [documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
+ [](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-> **Important**
+> ****
 >
-> To put this module in inclusion mode, you must press the inclusion button 3 times, in accordance with its paper documentation.
+> .
 
 ![inclusion](images/fibaro.fgms001zw5/inclusion.jpg)
 
@@ -68,30 +68,30 @@ To configure the OpenZwave plugin and know how to include Jeedom refer to this [
 
 ### Commandes
 
-. Once the module is recognized, the commands associated with the module will be available.
+. .
 
-![Orders](images/fibaro.fgms001zw5/commandes.jpg)
+![](images/fibaro.fgms001zw5/commandes.jpg)
 
-Here is the list of commands :
+ :
 
--   Presence : this is the command that will report a presence detection
--   Temperature : this is the command that allows you to raise the temperature
--   Brightness : this is the command that allows you to increase the brightness
 -    : 
--   Sabotage : )
--   Battery : this is the battery command
+-    : 
+-    : 
+-    : 
+-    : )
+-    : 
 
-### Module Setup
+### 
 
-> **Important**
+> ****
 >
-> During a first inclusion always wake up the module right after the inclusion.
+> .
 
-Then if you want to configure the module according to your installation, you have to go through the "Configuration" button of the Jeedom OpenZwave plugin.
+.
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![ plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the settings tab)
+)
 
 ![Config1](images/fibaro.fgms001zw5/config1.jpg)
 
@@ -101,9 +101,9 @@ You will arrive on this page (after clicking on the settings tab)
 
 ![Config3](images/fibaro.fgms001zw5/config4.jpg)
 
-Parameter details :
+ :
 
--   Wakeup : )
+-    : )
 -   1: 
 -   2: 
 -   3: 
@@ -136,7 +136,7 @@ Parameter details :
 
 ![Groupe](images/fibaro.fgms001zw5/groupe.jpg)
 
-> **Tip**
+> ****
 >
 > .
 
@@ -148,11 +148,11 @@ Parameter details :
 -   4 : . .
 -   5 : . .
 
-## Good to know
+## 
 
-### Specificities
+### 
 
-> **Tip**
+> ****
 >
 > . .
 
@@ -162,7 +162,7 @@ Parameter details :
 
 ## Wakeup
 
-To wake up this module there is only one way to proceed :
+ :
 
 -   ). )
 
@@ -174,8 +174,8 @@ To wake up this module there is only one way to proceed :
 
 .
 
-## Important note
+## 
 
-> **Important**
+> ****
 >
-> You have to wake up the module : after its inclusion, after a change of configuration, after a change of wakeup, after a change of association groups
+>  : 

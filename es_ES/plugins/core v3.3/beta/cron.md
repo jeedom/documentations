@@ -2,7 +2,7 @@ Informa de todas las tareas de la aplicación Jeedom que se ejecutan en
 servidor. Este menú se debe utilizar a sabiendas o en el
 solicitar soporte técnico.
 
-> ****
+> **Importante**
 >
 > En caso de mal manejo en esta página, cualquier solicitud de
 > el apoyo puede ser denegado.
@@ -20,43 +20,43 @@ En la parte superior derecha, tienes :
 
 -   **Fresco** : un botón para actualizar la tabla de tareas
 
--   **** : un botón para agregar un trabajo cron
+-   **Para agregar** : un botón para agregar un trabajo cron
 
--   **** : un botón para guardar sus cambios.
+-   **Para registrarse** : un botón para guardar sus cambios.
 
 A continuación tiene la tabla de todas las tareas existentes
 (tenga cuidado, algunas tareas pueden iniciar subtareas, por lo que es
 Se recomienda encarecidamente nunca modificar la información sobre este
 página). En esta tabla, encontramos :
 
--   **#** : ID de tarea, puede ser útil para vincular un
+-   **\#** : ID de tarea, puede ser útil para vincular un
     proceso que se está ejecutando y lo que realmente hace
 
--   **** : un botón para iniciar o detener la tarea en función
+-   **Valores** : un botón para iniciar o detener la tarea en función
     su estado y un botón para ver el cron en detalle (como está almacenado en la base de datos)
 
--   **** : indica si la tarea está activa (se puede iniciar
+-   **Activo** : indica si la tarea está activa (se puede iniciar
     por Jeedom) o no
 
--   **** : indica la ID del proceso actual
+-   **PID** : indica la ID del proceso actual
 
 -   **Demonio** : si este cuadro es &quot;sí&quot;, la tarea siempre debe
     estar en curso. Luego, encuentras la frecuencia del demonio, es
     aconseja nunca tocar este valor y especialmente nunca
     disminuirlo
 
--   **** : si es &quot;sí&quot;, la tarea se iniciará una vez
+-   **Unico** : si es &quot;sí&quot;, la tarea se iniciará una vez
     luego borrará
 
--   **** : Clase PHP llamada para ejecutar la tarea (puede
+-   **Clase** : Clase PHP llamada para ejecutar la tarea (puede
     estar vacío)
 
--   **** : Función PHP llamada en la clase llamada (o no
+-   **Función** : Función PHP llamada en la clase llamada (o no
     si la clase esta vacia)
 
--   **** : programar la tarea en formato CRON
+-   **Programación** : programar la tarea en formato CRON
 
--   **** : tiempo máximo de ejecución de la tarea. 
+-   **Se acabó el tiempo** : tiempo máximo de ejecución de la tarea. Si la
     la tarea es un demonio, entonces se detendrá automáticamente y
     reiniciado al final del tiempo de espera
 
@@ -66,10 +66,10 @@ página). En esta tabla, encontramos :
     demonio siempre estará a 0s, así que no te preocupes por otras tareas
     puede estar a 0s)
 
--   **** : estado actual de la tarea (como recordatorio, una tarea de demonio
+-   **Estado** : estado actual de la tarea (como recordatorio, una tarea de demonio
     todavía está en "correr")
 
--   **** : eliminar tarea
+-   **Supresión** : eliminar tarea
 
 
 # Listener

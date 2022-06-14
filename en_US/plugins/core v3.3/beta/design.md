@@ -4,11 +4,11 @@ your imagination.
 
 It is accessible by Home → Design
 
-> ****
+> **Tip**
 >
 > It is possible to go directly to a design thanks to the submenu.
 
-> ****
+> **Important**
 >
 > All actions are done by right click on this page, attention
 > to do it well in design. During creation, it is therefore necessary to
@@ -17,9 +17,9 @@ It is accessible by Home → Design
 In the menu (right click therefore), we find the
 following actions :
 
--   **** : Displays the list of your designs and access them
+-   **Designs** : Displays the list of your designs and access them
 
--   **** : Switch to edit mode
+-   **Editing** : Switch to edit mode
 
 -   **Full screen** : Allows you to use the entire web page, which
     will remove Jeedom menu from the top
@@ -52,15 +52,15 @@ following actions :
 -   **Add summary** : Adds information from an object summary or
     general
 
--   ****
+-   **Display**
 
-    -   **** : Does not display any grid
+    -   **None** : Does not display any grid
 
-    -   **** : Displays a 10 by 10 grid
+    -   **10x10** : Displays a 10 by 10 grid
 
-    -   **** : Displays a grid of 15 by 15
+    -   **15x15** : Displays a grid of 15 by 15
 
-    -   **** : Displays a 20 by 20 grid
+    -   **20x20** : Displays a 20 by 20 grid
 
     -   **Magnetize the elements** : Add a magnetization between
         elements to make it easier to stick them
@@ -80,13 +80,13 @@ following actions :
 
 -   **Configure the design** : access to design configuration
 
--   **** : allows to save the design (attention, there are
+-   **To safeguard** : allows to save the design (attention, there are
     also automatic backups during certain actions)
 
-> ****
+> **Important**
 >
 > The configuration of the design elements is done by clicking on
-> .
+> these.
 
 Design configuration 
 =======================
@@ -95,7 +95,7 @@ Found here :
 
 -   **General**
 
-    -   **** : The name of your design
+    -   **Last name** : The name of your design
 
     -   **Transparent background** : makes the background transparent. Be careful if the
         box is checked, the background color is not used
@@ -103,19 +103,19 @@ Found here :
     -   **Background color** : design background color (white
         By default)
 
-    -   **** : Access code to your design (if empty, no code
+    -   **Coded** : Access code to your design (if empty, no code
         is not asked)
 
     -   **Icon** : An icon for it (appears in the menu
         choice of design)
 
-    -   ****
+    -   **Image**
 
-        -   **** : allows to add a background image to the design
+        -   **Send** : allows to add a background image to the design
 
         -   **Delete image** : delete image
 
--   ****
+-   **Sizes**
 
     -   **Size (WxH)** : Allows you to fix the size of your design
         (gray frame in edit mode)
@@ -123,11 +123,11 @@ Found here :
 General configuration of elements 
 ===================================
 
-> ****
+> **Note**
 >
 > Depending on the type of item, options may change.
 
-> ****
+> **Note**
 >
 > The selected item is highlighted in red (instead of green
 > for all the others).
@@ -135,33 +135,33 @@ General configuration of elements
 Display setting 
 ---------------------
 
--   **** : allows to choose the depth level
+-   **Depth** : allows to choose the depth level
 
--   **)** :
+-   **X-Position (%)** :
 
--   **)** :
+-   **Y-Position (%)** :
 
 -   **Width (px)** :
 
 -   **Height (px)** :
 
- 
+To delete 
 ---------
 
 Remove item
 
- 
+Duplicate 
 ---------
 
 Allows you to duplicate the element
 
- 
+Lock 
 -----------
 
 Locks the element so that it is no longer movable or
 redimensionnable.
 
- 
+Chart 
 =========
 
 Display settings 
@@ -181,9 +181,9 @@ Display settings
 
 -   **Transparent background** : makes the background transparent
 
--   **** : add a border, beware the syntax is
+-   **Border** : add a border, beware the syntax is
     HTML (be careful, you must use CSS syntax, for example :
-    )
+    solid 1px black)
 
 Advanced configuration 
 ---------------------
@@ -193,7 +193,7 @@ Allows you to choose the commands to grapher
 Text / html 
 =========
 
--   **** : Icon to display in front
+-   **Icon** : Icon to display in front
 
 -   **Background color** : allows you to change the background color or
     put transparent, do not forget to pass &quot;Default&quot; on NO
@@ -204,9 +204,9 @@ Text / html
 -   **Smooth it out** : allows you to round off the angles (do not
     forget to put%, ex 50%)
 
--   **** : add a border, beware the syntax is
+-   **Border** : add a border, beware the syntax is
     HTML (use CSS syntax, for example : solid
-    )
+    1px black)
 
 -   **Font size** : allows you to change the font size
     (ex 50%, you must put the% sign)
@@ -214,11 +214,11 @@ Text / html
 -   **Text alignment** : allows you to choose the alignment of the
     text (left / right / centered)
 
--   **** : bold text
+-   **Bold** : bold text
 
--   **** : Text in HTML code that will be in the element
+-   **Text** : Text in HTML code that will be in the element
 
-> ****
+> **Important**
 >
 > If you put HTML code (especially Javascript), be careful
 > to check it before because you can if there is an error in it
@@ -233,15 +233,15 @@ Display settings
 
 No specific display settings
 
- 
+Link 
 ====
 
 Display settings 
 ---------------------
 
--   **** : Name of the link (displayed text)
+-   **Last name** : Name of the link (displayed text)
 
--   **** : Link to the design or view in question
+-   **Link** : Link to the design or view in question
 
 -   **Background color** : allows you to change the background color or
     put transparent, do not forget to pass &quot;Default&quot; on NO
@@ -252,7 +252,7 @@ Display settings
 -   **Round off the angles (don't forget to put%, ex 50%)** :
     allows you to round off the angles, don&#39;t forget to put the%
 
--   **Border (attention CSS syntax, ex : )** : permet
+-   **Border (attention CSS syntax, ex : solid 1px black)** : permet
     add a border, beware the syntax is HTML
 
 -   **Font size (ex 50%, you must put the% sign)** :
@@ -261,9 +261,9 @@ Display settings
 -   **Text alignment** : allows you to choose the alignment of the
     text (left / right / centered)
 
--   **** : bold text
+-   **Bold** : bold text
 
- 
+Equipment 
 ==========
 
 Display settings 
@@ -277,7 +277,7 @@ Advanced configuration
 Displays the advanced equipment configuration window (see
 home automation summary documentation ("display"))
 
- 
+Ordered 
 ========
 
 Display settings 
@@ -297,15 +297,15 @@ Picture / Camera
 Display settings 
 ---------------------
 
--   **** : defines what you want to display, still image or
+-   **To display** : defines what you want to display, still image or
     stream from a camera
 
--   **** : allows you to send the image in question (if you have
+-   **Image** : allows you to send the image in question (if you have
     choose an image)
 
 -   **Camera** : Camera to display (if you chose camera)
 
- 
+Area 
 ====
 
 Display settings 
@@ -324,7 +324,7 @@ on the area
 ### Binary macro 
 
 In this mode, Jeedom will execute the On or Off action (s) in
-depending on the status of the order you give.  : if the order
+depending on the status of the order you give. Ex : if the order
 is worth 0 then Jeedom will execute the action (s) On otherwise it will execute
 the action (s) Off
 
@@ -339,20 +339,20 @@ for the Off
 In this mode, when hovering or clicking in the Jeedom area, you
 display the widget in question
 
--   **** : widget to display when hovering or clicking
+-   **Equipment** : widget to display when hovering or clicking
 
 -   **Show on flyover** : if checked, displays the widget on hover
 
 -   **View on one click** : if checked, then the widget is displayed at
     clic
 
--   **** : allows you to choose the location where the
+-   **Position** : allows you to choose the location where the
     widget (default bottom right)
 
 Summary 
 ======
 
--   **** : Used to indicate the summary to be displayed (General for the
+-   **Link** : Used to indicate the summary to be displayed (General for the
     global otherwise indicate the object)
 
 -   **Background color** : allows you to change the background color or
@@ -364,16 +364,16 @@ Summary
 -   **Round off the angles (don't forget to put%, ex 50%)** :
     allows you to round off the angles, don&#39;t forget to put the%
 
--   **Border (attention CSS syntax, ex : )** : permet
+-   **Border (attention CSS syntax, ex : solid 1px black)** : permet
     add a border, beware the syntax is HTML
 
 -   **Font size (ex 50%, you must put the% sign)** :
     allows you to change the font size
 
--   **** : bold text
+-   **Bold** : bold text
 
 
- 
+FAQs 
 ======
 
 >**I can no longer edit my design**

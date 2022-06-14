@@ -2,7 +2,7 @@ Hier finden Sie eine Dokumentation zu API-Methoden. Zuerst ist hier
 die Spezifikationen (JSON RPC 2.0) :
 <http://www.jsonrpc.org/specification>
 
-Der Zugriff auf die API erfolgt über die URL : **
+Der Zugriff auf die API erfolgt über die URL : *URL\_JEEDOM*/core/api/jeeApi.php
 
 Divers
 ======
@@ -65,7 +65,7 @@ Jeedom's aktuelle Datumszeit (wird für die nächste Abfrage wiederverwendet)
 
 Einstellungen :
 
--   
+-   int datetime
 
 JSON Plugin API
 ===============
@@ -106,7 +106,7 @@ Info-Typ-Befehle)
 
 Einstellungen :
 
--   
+-   int-ID
 
 object::byId
 ------------
@@ -115,7 +115,7 @@ Gibt das angegebene Objekt zurück
 
 Einstellungen:
 
--   
+-   int-ID
 
 object::fullById
 ----------------
@@ -165,7 +165,7 @@ Gibt die Zusammenfassung für die Objekt-ID zurück
 
 Einstellungen:
 
--    : Objekt-ID
+-   int-ID : Objekt-ID
 
 -   String-Schlüssel : (optional), Schlüssel der gewünschten Zusammenfassung, wenn leer, dann Jeedom
     sendet Ihnen die Zusammenfassung aller Schlüssel
@@ -186,7 +186,7 @@ Gibt Geräte und ihre Befehle sowie deren Status zurück
 
 Einstellungen:
 
--   
+-   int-ID
 
 eqLogic::byId
 -------------
@@ -195,7 +195,7 @@ Gibt das angegebene Gerät zurück
 
 Einstellungen:
 
--   
+-   int-ID
 
 eqLogic::byType
 ---------------
@@ -213,14 +213,14 @@ Gibt alle Geräte zurück, die zum angegebenen Objekt gehören
 
 Einstellungen:
 
--   
+-   int Objekt\_id
 
 eqLogic::byTypeAndId
 --------------------
 
 Gibt eine Gerätetabelle gemäß den Parametern zurück. Die Rückkehr
 wird vom Formulararray sein (&#39;eqType1&#39; ⇒array (&#39;id&#39;⇒…,&#39; cmds &#39;⇒
-Array (….)), &#39;eqType2&#39; ⇒array (&#39;id&#39;⇒…,&#39; cmds &#39;⇒ Array (….))….,
+Array (….)), &#39;eqType2&#39; ⇒array (&#39;id&#39;⇒…,&#39; cmds &#39;⇒ Array (….))….,id1 ⇒
 Array (&#39;id&#39;⇒…,&#39; cmds &#39;⇒ Array (….)), id2 ⇒ Array (&#39; id&#39;⇒…, &#39;cmds&#39; ⇒
 array(…​.))..)
 
@@ -274,7 +274,7 @@ Gibt den angegebenen Befehl zurück
 
 Einstellungen:
 
--   
+-   int-ID
 
 cmd::byEqLogicId
 ----------------
@@ -283,7 +283,7 @@ Gibt alle Bestellungen zurück, die zum angegebenen Gerät gehören
 
 Einstellungen:
 
--   
+-   int eqLogic\_id
 
 cmd::execCmd
 ------------
@@ -292,7 +292,7 @@ Führen Sie den angegebenen Befehl aus
 
 Einstellungen:
 
--    : ID eines Befehls oder ID-Arrays, wenn Sie ausführen möchten
+-   int-ID : ID eines Befehls oder ID-Arrays, wenn Sie ausführen möchten
     mehrere Bestellungen gleichzeitig
 
 -   \ [Optionen \] Liste der Befehlsoptionen (abhängig von Typ und
@@ -306,7 +306,7 @@ Infos und historische Befehle)
 
 Einstellungen:
 
--   
+-   int-ID
 
 -   Zeichenfolge startTime : Startdatum der Statistikberechnung
 
@@ -320,7 +320,7 @@ Info und historischer Typ)
 
 Einstellungen:
 
--   
+-   int-ID
 
 -   Zeichenfolge startTime : Startdatum der Trendberechnung
 
@@ -334,7 +334,7 @@ Info und historischer Typ)
 
 Einstellungen:
 
--   
+-   int-ID
 
 -   Zeichenfolge startTime : Startdatum der Geschichte
 
@@ -361,9 +361,9 @@ Einstellungen:
 
 -   String-Subtyp
 
--   
+-   int eqLogic\_id
 
--   
+-   int isHistorized = 0
 
 -   String-Einheit = ''
 
@@ -375,9 +375,9 @@ Einstellungen:
 
 -   Array HTML
 
--   
+-   intvalue=null
 
--   
+-   int isVisible = 1
 
 -   Array-Alarm
 
@@ -388,7 +388,7 @@ Ermöglicht das Senden eines Werts an eine Bestellung
 
 Einstellungen:
 
--   
+-   int-ID
 
 -   Zeichenfolgenwert : valeur
 
@@ -409,7 +409,7 @@ Gibt das angegebene Szenario zurück
 
 Einstellungen:
 
--   
+-   int-ID
 
 scenario::export
 ----------------
@@ -418,7 +418,7 @@ Gibt den Export des Szenarios sowie den menschlichen Namen des Szenarios zurück
 
 Einstellungen:
 
--   
+-   int-ID
 
 scenario::import
 ----------------
@@ -427,7 +427,7 @@ Ermöglicht das Importieren eines Szenarios.
 
 Einstellungen:
 
--    : ID des zu importierenden Szenarios (leer bei Erstellung)
+-   int-ID : ID des zu importierenden Szenarios (leer bei Erstellung)
 
 -   Zeichenfolge humanName : menschlicher Name des Szenarios (leer bei Erstellung)
 
@@ -440,7 +440,7 @@ scenario::changeState
 
 Einstellungen:
 
--   
+-   int-ID
 
 -   Zeichenfolgenstatus: \ [Run, Stop, aktivieren, deaktivieren \]
 
@@ -500,7 +500,7 @@ Einstellungen:
 -   Zeichenfolgentyp : Art des gespeicherten Werts (für Szenarien
     Es ist ein Szenario)
 
--    : -1 für global (Wert für Standardszenarien,
+-   id linkId : -1 für global (Wert für Standardszenarien,
     oder die Szenario-ID)
 
 -   String-Schlüssel : Wertname
@@ -515,7 +515,7 @@ Einstellungen:
 -   Zeichenfolgentyp : Art des gespeicherten Werts (für Szenarien
     Es ist ein Szenario)
 
--    : -1 für global (Wert für Standardszenarien,
+-   id linkId : -1 für global (Wert für Standardszenarien,
     oder die Szenario-ID)
 
 -   String-Schlüssel : Wertname
@@ -548,7 +548,7 @@ Einstellungen:
 
 -   Abfrage (Anforderungsphrase)
 
--    : Befehls-ID, die zum Antworten verwendet werden soll,
+-   int Antwort\_cmd = NULL : Befehls-ID, die zum Antworten verwendet werden soll,
     Wenn nicht angegeben, sendet Jeedom Ihnen die Antwort im JSON
 
 interactQuery::all
@@ -722,7 +722,7 @@ Dies vereinfacht die Verwendung der API.
 Abrufen der Objektliste :
 
 `` `{.php}
-$jsonrpc = new jsonrpcClient('#URL_JEEDOM#', #API_KEY#);
+$jsonrpc = new jsonrpcClient('#URL_JEEDOM#/core/api/jeeApi.php', #API_KEY#);
 if ($ jsonrpc-&gt; sendrequest ( ‚Objekt::all ', Array())){
     print_r ($ jsonrpc-&gt; getResult ());
 }else{
@@ -733,7 +733,7 @@ if ($ jsonrpc-&gt; sendrequest ( ‚Objekt::all ', Array())){
 Ausführung eines Auftrags (mit der Option eines Titels und einer Nachricht)
 
 `` `{.php}
-$jsonrpc = new jsonrpcClient('#URL_JEEDOM#', #API_KEY#);
+$jsonrpc = new jsonrpcClient('#URL_JEEDOM#/core/api/jeeApi.php', #API_KEY#);
 if ($ jsonrpc-&gt; sendrequest ( ‚cmd::execCmd ', array (' id' => #cmd_id#, 'options '=> array (' title '=>' Cuckoo ',' message '=>' Es funktioniert')))){
     Echo &#39;OK&#39;;
 }else{

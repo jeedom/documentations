@@ -1,7 +1,7 @@
 Jeedom tiene la posibilidad de ser salvado y restaurado desde o desde
 de diferentes lugares.
 
- 
+Configuración 
 =============
 
 Accesible desde **Administración → Copias de seguridad**, esta página permite
@@ -11,10 +11,10 @@ Encontrará, a la izquierda, los parámetros y botones de acción. En la
 correcto, este es el estado en tiempo real de la acción actual (copia de seguridad
 o restauración), si ha lanzado uno.
 
-**** 
+**Copias de seguridad** 
 ---------------
 
--   **** : Le permite iniciar una copia de seguridad manualmente y
+-   **Copias de seguridad** : Le permite iniciar una copia de seguridad manualmente y
     inmediatamente (útil si desea hacer un cambio crítico.
     Esto te permitirá volver). También tienes un
     para iniciar una copia de seguridad sin enviar el archivo al
@@ -87,7 +87,7 @@ o restauración), si ha lanzado uno.
 -   **Restaurar copia de seguridad** : Comienza a restaurar la copia de seguridad
     samba seleccionada arriba.
 
-> ****
+> **IMPORTANTE**
 >
 > Las copias de seguridad de Jeedom deben caer absolutamente en una carpeta solo para él !!! Eliminará todo lo que no sea una copia de seguridad de la carpeta
 
@@ -104,7 +104,7 @@ diferente porque no es posible guardar las inclusiones.
 Estos se incluyen directamente en el controlador, por lo que debe
 mantener el mismo controlador para encontrar sus módulos Zwave.
 
-> ****
+> **Nota**
 >
 > El sistema en el que está instalado Jeedom no está respaldado. si
 > ha modificado los parámetros de este sistema (en particular a través de SSH),
@@ -117,21 +117,21 @@ El respaldo en la nube le permite a Jeedom enviar sus respaldos
 directamente en el mercado. Esto le permite restaurarlos fácilmente
 y asegúrate de no perderlos. El mercado guarda los últimos 6
 copias de seguridad. Para suscribirte solo ve a tu página
-**** en el mercado, luego en la pestaña **mis copias de seguridad**. Vous
+**perfil** en el mercado, luego en la pestaña **mis copias de seguridad**. Vous
 puede, desde esta página, recuperar una copia de seguridad o comprar un
 suscripción (por 1, 3, 6 o 12 meses).
 
-> ****
+> **Consejo**
 >
 > Puede personalizar el nombre de los archivos de respaldo desde
 > de la pestaña **Mis jeedoms**, evitando sin embargo los personajes
-> .
+> exótico.
 
 Frecuencia de respaldos automáticos 
 ======================================
 
 Jeedom realiza una copia de seguridad automática todos los días al mismo tiempo
 hora. Es posible modificar esto, desde el &quot;Motor
-tareas &quot;(la tarea se llama ****), pero no lo es
+tareas &quot;(la tarea se llama **Copia de seguridad de Jeedom**), pero no lo es
 recomendadas. De hecho, se calcula en relación con la carga de la
 Market.

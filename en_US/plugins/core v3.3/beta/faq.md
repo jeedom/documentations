@@ -64,16 +64,16 @@ recommended to modify these identifiers for more security.
 Can we put Jeedom in https ? 
 ================================
 
- : Either you have a power pack or more, in this case you
-just use the [](https://doc.jeedom.com/en_US/howto/mise_en_place_dns_jeedom). Either with a DNS and you know how to set up a valid certificate, in this case it is a standard installation of a certificate.
+Yes : Either you have a power pack or more, in this case you
+just use the [Jeedom-DNS](https://doc.jeedom.com/en_US/howto/mise_en_place_dns_jeedom). Either with a DNS and you know how to set up a valid certificate, in this case it is a standard installation of a certificate.
 
 How to connect in SSH ?
 =============================
 
-Here's one [](https://www.alsacreations.com/tuto/lire/612-Premiere-connexion-SSH.html), "Windows : Putty". The &quot;hostname&quot; being the ip of your Jeedom, the identifiers being :
+Here's one [documentation](https://www.alsacreations.com/tuto/lire/612-Premiere-connexion-SSH.html), "Windows : Putty". The &quot;hostname&quot; being the ip of your Jeedom, the identifiers being :
 
--  : "root ", password : "Mjeedom96"
--  : "jeedom ", password : "Mjeedom96"
+- Username : "root ", password : "Mjeedom96"
+- Username : "jeedom ", password : "Mjeedom96"
 - Or what you put in the installation if you are in DIY
 
 Note that when you write the password you will not see anything written on the screen it&#39;s normal.
@@ -84,9 +84,9 @@ How to reset rights ?
 In SSH do :
 
 `` `{.bash}
- -
+sudo su -
 chmod -R 775 / var / www / html
-:www-data / var / www / html
+chown -R www-data:www-data / var / www / html
 `` ''
 
 Where are Jeedom&#39;s backups ? 
@@ -100,10 +100,10 @@ How to update Jeedom in SSH ?
 In SSH do :
 
 `` `{.bash}
- -
-
+sudo su -
+php /var/www/html/install/update.php
 chmod -R 775 / var / www / html
-:www-data / var / www / html
+chown -R www-data:www-data / var / www / html
 `` ''
 
 Is the Webapp compatible Symbian ? 
@@ -133,7 +133,7 @@ I have a blank page
 =====================
 
 You have to connect in SSH to Jeedom and launch the script
- :
+self-diagnosis :
 
 `` `{.bash}
 sudo chmod + x / var / www / html / health.sh; sudo /var/www/html/health.sh
@@ -151,14 +151,14 @@ I have a BDD identifier problem
 These must be reset :
 
 `` `{.bash}
-bdd_password = $ (cat / dev / urandom | tr -cd &#39;a-f0-9' | )
-echo "DROP USER &#39;jeedom&#39; @ &#39;localhost'" | 
-echo "CREATE USER &#39;jeedom&#39; @ &#39;localhost&#39; IDENTIFIED BY &#39;$ {bdd_password}&#39;;" | 
-echo &quot;GRANT ALL PRIVILEGES ON jeedom.* TO &#39;jeedom&#39; @ &#39;localhost&#39;;" | 
+bdd_password = $ (cat / dev / urandom | tr -cd &#39;a-f0-9' | head -c 15)
+echo "DROP USER &#39;jeedom&#39; @ &#39;localhost'" | mysql -uroot -p
+echo "CREATE USER &#39;jeedom&#39; @ &#39;localhost&#39; IDENTIFIED BY &#39;$ {bdd_password}&#39;;" | mysql -uroot -p
+echo &quot;GRANT ALL PRIVILEGES ON jeedom.* TO &#39;jeedom&#39; @ &#39;localhost&#39;;" | mysql -uroot -p
 cd / usr / share / nginx / www / jeedom
 sudo cp core / config / common.config.sample.php core / config / common.config.php
 sudo sed -i -e "s /#PASSWORD#/ $ {bdd_password} / g "core / config / common.config.php
-:www-data core / config / common.config.php
+sudo chown www-data:www-data core / config / common.config.php
 `` ''
 
 I have \ {\ {… \} \} everywhere 
@@ -179,7 +179,7 @@ I no longer have access to Jeedom, neither through the web interface nor in cons
 
 This error is not due to Jeedom, but to a problem with the system.
 If it persists following a reinstallation, it is advisable to
-see with the after-sales service for a hardware concern. Here is [](https://doc.jeedom.com/en_US/installation/smart) for Smart
+see with the after-sales service for a hardware concern. Here is [documentation](https://doc.jeedom.com/en_US/installation/smart) for Smart
 
 My scenario does not stop any more 
 =================================
@@ -191,7 +191,7 @@ I have instabilities or errors 504
 ========================================
 
 Check if your file system is not corrupt, in SSH the
-command is : " | " .
+command is : "sudo dmesg | grep error" .
 
 I don&#39;t see all my equipment on the dashboard 
 ====================================================
@@ -221,22 +221,22 @@ to restore the backup. You can also see why MySQL is not
 not want to boot from an SSH console :
 
 `` `{.bash}
- -
+sudo su -
 mysql stop service
-
+mysqld --verbose
 `` ''
 
-Or consult the log : 
+Or consult the log : /var/log/mysql/error.log
 
 The Shutdown / Restart buttons do not work 
 ===================================================
 
 On a DIY installation it&#39;s normal. In SSH, you have to order
 visudo and at the end of the file you have to add : www-data ALL = (ALL)
-NOPASSWD: .
+NOPASSWD: ALL.
 
 `` `{.bash}
-
+sudo service apache2 restart
 `` ''
 
 I don&#39;t see some plugins from the Market 
@@ -256,7 +256,7 @@ My Jeedom permanently displays &quot;Starting up&quot; even after 1 hour ?
 If you are in DIY and under Debian 9 or more, check that there has not been an update of Apache and therefore the return of privateTmp (visible by doing `ls / tmp` and see if there is a private \* Apache folder). If it is the case it is necessary to do :
 
 `` '' 
-
+mkdir /etc/systemd/system/apache2.service.d
 echo &quot;[Service]&quot;&gt; /etc/systemd/system/apache2.service.d/privatetmp.conf
 echo &quot;PrivateTmp = no&quot; &gt;&gt; /etc/systemd/system/apache2.service.d/privatetmp.conf
 `` '' 
@@ -291,7 +291,7 @@ It is a fairly serious error, the simplest is to make
 mkdir -p / root / tmp /
 cd / root / tmp
 wget https://github.com/jeedom/core/archive/master.zip
-
+unzip master.zip
 cp -R / root / tmp / core-master / * / var / www / html
 rm -rf / root / tmp / core-master
 `` ''

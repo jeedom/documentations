@@ -138,52 +138,52 @@
 |<img src="../../en_US/enocean/images/d2-01-12.jpg" width="60" />|Nodon||Micromodule|. |[](http://www.domadoo.fr/fr/peripheriques/3341-nodon-micromodule-commutateur-double-enocean-3700313920374.html)|
 |<img src="../../en_US/enocean/images/d2-01-12.jpg" width="60" />|Avidsen||Micromodule|. ||
 
-# 
+# D2-03
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/enocean/images/d2-03-0a.jpg" width="60" />|Nodon||Bouton|||
 
-# 
+# D2-04
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/enocean/images/d2-04-08.jpg" width="60" />|Nanosense|||||
 
-# 
+# D2-05
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/enocean/images/d2-05-00.jpg" width="60" />|Nodon||Micromodule|. ||
 |<img src="../../en_US/enocean/images/d2-05-00.jpg" width="60" />|Avidsen||Micromodule|. ||
 
-# 
+# D2-06
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/enocean/images/d2-06-01.jpg" width="60" />|Soda|||. |[](http://www.domadoo.fr/fr/peripheriques/2.html)|
 
-# 
+# D2-14
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/enocean/images/d2-14-30.jpg" width="60" />|Nexelec|Insafe||||
 |<img src="../../en_US/enocean/images/d2-14-41.jpg" width="60" />|Enocean|STM550||||
 
-# 
+# D2-15
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/enocean/images/d2-15-00.jpg" width="60" />|EasyFit|EPAC||||
 
-# 
+# D2-32
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/enocean/images/d2-32-00.jpg" width="60" />|PressacSensing||Courant|||
 |<img src="../../en_US/enocean/images/d2-32-02.jpg" width="60" />|PressacSensing||Courant|||
 
-# 
+# D5-00
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -203,25 +203,25 @@
 |---|---|---|---|---|---|
 |||||||
 |||||||
-|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|||. ). .|[](http://www.domadoo.fr/fr/peripheriques/2624-nodon-soft-remote-enocean-tech-blue-3700313920053.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|||. ). .|[](http://www.domadoo.fr/fr/peripheriques/2625-nodon-soft-remote-enocean-cozy-grey-3700313920060.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|||. ). .|[](http://www.domadoo.fr/fr/peripheriques/2898-nodon-soft-remote-enocean-lagoon-3700313920312.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|||. ). .|[](http://www.domadoo.fr/fr/peripheriques/2900-nodon-soft-remote-enocean-softberry-3700313920305.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|||. ). .|[](http://www.domadoo.fr/fr/peripheriques/2899-nodon-soft-remote-enocean-wasabi-3700313920299.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|||. ). .|[](http://www.domadoo.fr/fr/peripheriques/2648-ubiwizz-telecommande-ubi-remote-blanc-3553740015966.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon||Interrupteur|. ). .|[](http://www.domadoo.fr/fr/peripheriques/2995-nodon-interrupteur-mural-z-wave-plus-cozi-white-3700313920268.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon||Interrupteur|. ). .|[](http://www.domadoo.fr/fr/peripheriques/2628-nodon-interrupteur-mural-enocean-cozi-grey-3700313920084.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|||. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). .|[](http://www.domadoo.fr/fr/peripheriques/2624-nodon-soft-remote-enocean-tech-blue-3700313920053.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|||. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). .|[](http://www.domadoo.fr/fr/peripheriques/2625-nodon-soft-remote-enocean-cozy-grey-3700313920060.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|||. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). .|[](http://www.domadoo.fr/fr/peripheriques/2898-nodon-soft-remote-enocean-lagoon-3700313920312.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|||. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). .|[](http://www.domadoo.fr/fr/peripheriques/2900-nodon-soft-remote-enocean-softberry-3700313920305.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|||. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). .|[](http://www.domadoo.fr/fr/peripheriques/2899-nodon-soft-remote-enocean-wasabi-3700313920299.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon|||. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). .|[](http://www.domadoo.fr/fr/peripheriques/2648-ubiwizz-telecommande-ubi-remote-blanc-3553740015966.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon||Interrupteur|. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). .|[](http://www.domadoo.fr/fr/peripheriques/2995-nodon-interrupteur-mural-z-wave-plus-cozi-white-3700313920268.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Nodon||Interrupteur|. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). .|[](http://www.domadoo.fr/fr/peripheriques/2628-nodon-interrupteur-mural-enocean-cozi-grey-3700313920084.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.jpg" width="60" />|Eltako||Infrarouge|)|[](http://www.domadoo.fr/fr/peripheriques/3263-eltako-convertisseur-infrarougeenocean-avec-port-usb-4010312311158.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.mode_on_off.jpg" width="60" />||||||
 |<img src="../../en_US/enocean/images/f6-02-02.open.jpg" width="60" />|Eltako||Ouverture||[](http://www.domadoo.fr/fr/peripheriques/3125-eltako-contact-de-portefenetre-blanc-4010312315231.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|||. ). .|[](http://www.domadoo.fr/fr/peripheriques/2624-nodon-soft-remote-enocean-tech-blue-3700313920053.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|||. ). .|[](http://www.domadoo.fr/fr/peripheriques/2625-nodon-soft-remote-enocean-cozy-grey-3700313920060.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|||. ). .|[](http://www.domadoo.fr/fr/peripheriques/2898-nodon-soft-remote-enocean-lagoon-3700313920312.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|||. ). .|[](http://www.domadoo.fr/fr/peripheriques/2900-nodon-soft-remote-enocean-softberry-3700313920305.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|||. ). .|[](http://www.domadoo.fr/fr/peripheriques/2899-nodon-soft-remote-enocean-wasabi-3700313920299.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|||. ). .|[](http://www.domadoo.fr/fr/peripheriques/2648-ubiwizz-telecommande-ubi-remote-blanc-3553740015966.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon||Interrupteur|. ). .|[](http://www.domadoo.fr/fr/peripheriques/2995-nodon-interrupteur-mural-z-wave-plus-cozi-white-3700313920268.html)|
-|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon||Interrupteur|. ). .|[](http://www.domadoo.fr/fr/peripheriques/2628-nodon-interrupteur-mural-enocean-cozi-grey-3700313920084.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|||. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). .|[](http://www.domadoo.fr/fr/peripheriques/2624-nodon-soft-remote-enocean-tech-blue-3700313920053.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|||. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). .|[](http://www.domadoo.fr/fr/peripheriques/2625-nodon-soft-remote-enocean-cozy-grey-3700313920060.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|||. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). .|[](http://www.domadoo.fr/fr/peripheriques/2898-nodon-soft-remote-enocean-lagoon-3700313920312.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|||. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). .|[](http://www.domadoo.fr/fr/peripheriques/2900-nodon-soft-remote-enocean-softberry-3700313920305.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|||. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). .|[](http://www.domadoo.fr/fr/peripheriques/2899-nodon-soft-remote-enocean-wasabi-3700313920299.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon|||. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). .|[](http://www.domadoo.fr/fr/peripheriques/2648-ubiwizz-telecommande-ubi-remote-blanc-3553740015966.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon||Interrupteur|. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). .|[](http://www.domadoo.fr/fr/peripheriques/2995-nodon-interrupteur-mural-z-wave-plus-cozi-white-3700313920268.html)|
+|<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Nodon||Interrupteur|. Two operating modes possible in Jeedom (on / off on two buttons or toggle on 4 buttons). .|[](http://www.domadoo.fr/fr/peripheriques/2628-nodon-interrupteur-mural-enocean-cozi-grey-3700313920084.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.poussoir.jpg" width="60" />|Eltako||Infrarouge|)|[](http://www.domadoo.fr/fr/peripheriques/3263-eltako-convertisseur-infrarougeenocean-avec-port-usb-4010312311158.html)|
 |<img src="../../en_US/enocean/images/f6-02-02.smoke.jpg" width="60" />|Eltako||||[](http://www.domadoo.fr/fr/peripheriques/2835-eltako-detecteur-de-fumee-optique-enocean-4010312312308.html)|
 
@@ -232,19 +232,19 @@
 |<img src="../../en_US/enocean/images/f6-03-01.impulsion.jpg" width="60" />|Eltako||Impulsion|||
 |||||||
 
-# 
+# F6-04
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/enocean/images/f6-04-01.jpg" width="60" />|Nodon||Interrupteur||[](http://www.domadoo.fr/fr/peripheriques/3066-nodon-interrupteur-a-carte-enocean-3700313920329.html)|
 
-# 
+# F6-05
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/enocean/images/f6-05-01.jpg" width="60" />|Eltako||Fuite||[](http://www.domadoo.fr/fr/peripheriques/3132-eltako-detecteur-d-inondation-enocean-4010312316061.html)|
 
-# 
+# F6-10
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
@@ -272,9 +272,9 @@
 |<img src="../../en_US/enocean/images/recepteur_retour_etat_1_canal.jpg" width="60" />|Eltako||Micromodule||[](http://www.domadoo.fr/fr/peripheriques/3126-eltako-actionneur-enocean-minuterie-d-escalier-4010312300206.html)|
 |<img src="../../en_US/enocean/images/recepteur_retour_etat_1_canal.jpg" width="60" />|Eltako||Micromodule||[](http://www.domadoo.fr/fr/peripheriques/3099-eltako-actionneur-enocean-commande-de-lumiere-4010312312032.html)|
 |<img src="../../en_US/enocean/images/recepteur_retour_etat_1_canal.jpg" width="60" />|Eltako||Prise|||
-|<img src="../../en_US/enocean/images/recepteur_volet.jpg" width="60" />|Eltako||Micromodule|. . |[](http://www.domadoo.fr/fr/peripheriques/1935-eltako-actionneur-radio-commande-de-stores-et-rideaux-a-rouleaux-4010312300213.html)|
+|<img src="../../en_US/enocean/images/recepteur_volet.jpg" width="60" />|Eltako||Micromodule|. If the module is moving, pressing the direction will stop it. |[](http://www.domadoo.fr/fr/peripheriques/1935-eltako-actionneur-radio-commande-de-stores-et-rideaux-a-rouleaux-4010312300213.html)|
 
 
+This list is based on user feedback, so the Jeedom team cannot guarantee that all modules on this list are 100% functional
 
-
-:17:08
+2022-06-14 02:17:08

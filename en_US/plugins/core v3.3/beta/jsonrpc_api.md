@@ -2,7 +2,7 @@ Here is documentation on API methods. First here is
 the specifications (JSON RPC 2.0) :
 <http://www.jsonrpc.org/specification>
 
-Access to the API is via the url : **
+Access to the API is via the url : *URL\_JEEDOM*/core/api/jeeApi.php
 
 Divers
 ======
@@ -32,11 +32,11 @@ Returns a configuration value.
 
 Settings :
 
--    : configuration value key to return
+-   string key : configuration value key to return
 
--    : (optional), configuration value plugin
+-   string plugin : (optional), configuration value plugin
 
--    : (optional), value to return if the key does not exist
+-   string default : (optional), value to return if the key does not exist
     pas
 
 config::save
@@ -46,11 +46,11 @@ Saves a configuration value
 
 Settings :
 
--    : value to record
+-   string value : value to record
 
--    : configuration value key to save
+-   string key : configuration value key to save
 
--    : (optional), configuration value plugin to
+-   string plugin : (optional), configuration value plugin to
     enregistrer
 
 JSON Event API
@@ -65,7 +65,7 @@ Jeedom's current datetime (to be reused for the next query)
 
 Settings :
 
--   
+-   int datetime
 
 JSON Plugin API
 ===============
@@ -106,7 +106,7 @@ info type commands)
 
 Settings :
 
--   
+-   int id
 
 object::byId
 ------------
@@ -115,7 +115,7 @@ Returns the specified object
 
 Settings:
 
--   
+-   int id
 
 object::fullById
 ----------------
@@ -135,7 +135,7 @@ Settings:
 
 -   string name
 
--   
+-   int father\_id = null
 
 -   int isVisible = 0
 
@@ -155,7 +155,7 @@ Return the global summary for the key passed in parameter
 
 Settings:
 
--    : (optional), key of the desired summary, if empty then Jeedom
+-   string key : (optional), key of the desired summary, if empty then Jeedom
     sends you the summary for all the keys
 
 summary::byId
@@ -165,9 +165,9 @@ Returns the summary for the object id
 
 Settings:
 
--    : object id
+-   int id : object id
 
--    : (optional), key of the desired summary, if empty then Jeedom
+-   string key : (optional), key of the desired summary, if empty then Jeedom
     sends you the summary for all the keys
 
 JSON EqLogic API
@@ -186,7 +186,7 @@ Returns equipment and its commands as well as their states
 
 Settings:
 
--   
+-   int id
 
 eqLogic::byId
 -------------
@@ -195,7 +195,7 @@ Returns the specified equipment
 
 Settings:
 
--   
+-   int id
 
 eqLogic::byType
 ---------------
@@ -204,7 +204,7 @@ Returns all equipment belonging to the specified type (plugin)
 
 Settings:
 
--   
+-   thong type
 
 eqLogic::byObjectId
 -------------------
@@ -213,14 +213,14 @@ Returns all equipment belonging to the specified object
 
 Settings:
 
--   
+-   int object\_id
 
 eqLogic::byTypeAndId
 --------------------
 
 Returns an equipment table according to the parameters. The return
 will be of the form array (&#39;eqType1&#39; ⇒array (&#39;id&#39;⇒…,&#39; cmds&#39; ⇒
-array (….)), &#39;eqType2&#39; ⇒array (&#39;id&#39;⇒…,&#39; cmds&#39; ⇒ array (….))….,
+array (….)), &#39;eqType2&#39; ⇒array (&#39;id&#39;⇒…,&#39; cmds&#39; ⇒ array (….))….,id1 ⇒
 array (&#39;id&#39;⇒…,&#39; cmds &#39;⇒ array (….)), id2 ⇒ array (&#39; id&#39;⇒…, &#39;cmds&#39; ⇒
 array(…​.))..)
 
@@ -274,7 +274,7 @@ Returns the specified command
 
 Settings:
 
--   
+-   int id
 
 cmd::byEqLogicId
 ----------------
@@ -283,7 +283,7 @@ Returns all orders belonging to the specified equipment
 
 Settings:
 
--   
+-   int eqLogic\_id
 
 cmd::execCmd
 ------------
@@ -292,7 +292,7 @@ Execute the specified command
 
 Settings:
 
--    : id of a command or id array if you want to execute
+-   int id : id of a command or id array if you want to execute
     multiple orders at once
 
 -   \ [options \] List of command options (depends on type and
@@ -306,11 +306,11 @@ info and historical commands)
 
 Settings:
 
--   
+-   int id
 
--    : start date of statistics calculation
+-   string startTime : start date of statistics calculation
 
--    : end date of statistics calculation
+-   string endTime : end date of statistics calculation
 
 cmd::getTendance
 ----------------
@@ -320,11 +320,11 @@ info and historical type)
 
 Settings:
 
--   
+-   int id
 
--    : trend calculation start date
+-   string startTime : trend calculation start date
 
--    : trend calculation end date
+-   string endTime : trend calculation end date
 
 cmd::getHistory
 ---------------
@@ -334,11 +334,11 @@ info and historical type)
 
 Settings:
 
--   
+-   int id
 
--    : history start date
+-   string startTime : history start date
 
--    : history end date
+-   string endTime : history end date
 
 cmd::save
 ---------
@@ -355,31 +355,31 @@ Settings:
 
 -   string eqType
 
--   
+-   thong order
 
--   
+-   thong type
 
--   
+-   string subType
 
--   
+-   int eqLogic\_id
 
--   
+-   int isHistorized = 0
 
 -   string unit = ''
 
--   
+-   array config
 
--   
+-   array template
 
--   
+-   array display
 
--   
+-   array html
 
--   
+-   intvalue=null
 
--   
+-   int isVisible = 1
 
--   
+-   array-alert
 
 cmd::event
 -------------------
@@ -388,11 +388,11 @@ Allows you to send a value to an order
 
 Settings:
 
--   
+-   int id
 
--    : valeur
+-   string value : valeur
 
--    : (optional) datetime value
+-   string datetime : (optional) datetime value
 
 JSON Scenario API
 =================
@@ -409,7 +409,7 @@ Returns the specified scenario
 
 Settings:
 
--   
+-   int id
 
 scenario::export
 ----------------
@@ -418,7 +418,7 @@ Returns the export of the scenario as well as the human name of the scenario
 
 Settings:
 
--   
+-   int id
 
 scenario::import
 ----------------
@@ -427,11 +427,11 @@ Allows you to import a scenario.
 
 Settings:
 
--    : id of the scenario in which to import (empty if creation)
+-   int id : id of the scenario in which to import (empty if creation)
 
--    : human name of the scenario (empty if creation)
+-   string humanName : human name of the scenario (empty if creation)
 
--    : scenario (from the export scenario field::export)
+-   array import : scenario (from the export scenario field::export)
 
 scenario::changeState
 ---------------------
@@ -440,7 +440,7 @@ Changes the state of the specified scenario.
 
 Settings:
 
--   
+-   int id
 
 -   string state: \ [Run, stop, enable, disable \]
 
@@ -454,11 +454,11 @@ Allows you to recover a log
 
 Settings:
 
--    : name of the log to recover
+-   string log : name of the log to recover
 
--    : line number on which to start reading
+-   string start : line number on which to start reading
 
--    : number of lines to recover
+-   string nbLine : number of lines to recover
 
 log::list
 ---------
@@ -476,7 +476,7 @@ Empty a log
 
 Settings:
 
--    : name of the log to empty
+-   string log : name of the log to empty
 
 log::remove
 -----------
@@ -485,7 +485,7 @@ Allows you to delete a log
 
 Settings:
 
--    : log name to delete
+-   string log : log name to delete
 
 JSON datastore API (variable)
 =============================
@@ -497,13 +497,13 @@ Get the value of a variable stored in the datastore
 
 Settings:
 
--    : type of stored value (for scenarios
+-   thong type : type of stored value (for scenarios
     it's scenario)
 
--    : -1 for global (value for default scenarios,
+-   id linkId : -1 for global (value for default scenarios,
     or the scenario id)
 
--    : value name
+-   string key : value name
 
 datastore::save
 ---------------
@@ -512,13 +512,13 @@ Stores the value of a variable in the datastore
 
 Settings:
 
--    : type of stored value (for scenarios
+-   thong type : type of stored value (for scenarios
     it's scenario)
 
--    : -1 for global (value for default scenarios,
+-   id linkId : -1 for global (value for default scenarios,
     or the scenario id)
 
--    : value name
+-   string key : value name
 
 -   mixed value : value to record
 
@@ -548,7 +548,7 @@ Settings:
 
 -   query (request phrase)
 
--    : Command ID to use to respond,
+-   int reply\_cmd = NULL : Command ID to use to respond,
     if not specify then Jeedom sends you the answer in the json
 
 interactQuery::all
@@ -599,7 +599,7 @@ Installation / Update of a given plugin
 
 Settings:
 
--    : plugin name (logical name)
+-   string plugin\_id : plugin name (logical name)
 
 plugin::remove
 --------------
@@ -608,7 +608,7 @@ Deletion of a given plugin
 
 Settings:
 
--    : plugin name (logical name)
+-   string plugin\_id : plugin name (logical name)
 
 plugin::dependancyInfo
 ----------------------
@@ -617,7 +617,7 @@ Returns information on the status of plugin dependencies
 
 Settings:
 
--    : plugin name (logical name)
+-   string plugin\_id : plugin name (logical name)
 
 plugin::dependancyInstall
 -------------------------
@@ -626,7 +626,7 @@ Force installation of plugin dependencies
 
 Settings:
 
--    : plugin name (logical name)
+-   string plugin\_id : plugin name (logical name)
 
 plugin::deamonInfo
 ------------------
@@ -635,7 +635,7 @@ Returns information about the status of the plugin daemon
 
 Settings:
 
--    : plugin name (logical name)
+-   string plugin\_id : plugin name (logical name)
 
 plugin::deamonStart
 -------------------
@@ -644,7 +644,7 @@ Force the demon to start
 
 Settings:
 
--    : plugin name (logical name)
+-   string plugin\_id : plugin name (logical name)
 
 plugin::deamonStop
 ------------------
@@ -653,7 +653,7 @@ Force demon stop
 
 Settings:
 
--    : plugin name (logical name)
+-   string plugin\_id : plugin name (logical name)
 
 plugin::deamonChangeAutoMode
 ----------------------------
@@ -662,9 +662,9 @@ Change the management mode of the daemon
 
 Settings:
 
--    : plugin name (logical name)
+-   string plugin\_id : plugin name (logical name)
 
--    : 1 for automatic, 0 for manual
+-   int mode : 1 for automatic, 0 for manual
 
 JSON update API
 ===============
@@ -722,7 +722,7 @@ which simplifies the use of the API.
 Retrieving the list of objects :
 
 `` `{.php}
-$jsonrpc = new jsonrpcClient('#URL_JEEDOM#', #API_KEY#);
+$jsonrpc = new jsonrpcClient('#URL_JEEDOM#/core/api/jeeApi.php', #API_KEY#);
 if ($ jsonrpc-&gt; sendRequest ( &#39;object::all ', array())){
     print_r ($ jsonrpc-&gt; getResult ());
 }else{
@@ -733,7 +733,7 @@ if ($ jsonrpc-&gt; sendRequest ( &#39;object::all ', array())){
 Execution of an order (with the option of a title and a message)
 
 `` `{.php}
-$jsonrpc = new jsonrpcClient('#URL_JEEDOM#', #API_KEY#);
+$jsonrpc = new jsonrpcClient('#URL_JEEDOM#/core/api/jeeApi.php', #API_KEY#);
 if ($ jsonrpc-&gt; sendRequest ( &#39;cmd::execCmd ', array (' id' => #cmd_id#, 'options '=> array (' title '=>' Cuckoo ',' message '=>' It works')))){
     echo &#39;OK&#39;;
 }else{
