@@ -1,14 +1,14 @@
 # 
 
--   ****
+-   **The module**
 
 ![module](images/fibaro.fgd212/module.jpg)
 
--   ****
+-   **The Jeedom visual**
 
 ![vuedefaut1](images/fibaro.fgd212/vuedefaut1.jpg)
 
- 
+Summary 
 ------
 
 
@@ -37,11 +37,11 @@ Fonctions
 
 -   
 
--   
+-   Installs behind an existing switch
 
 -   
 
--   )
+-   Use in 2-wire mode (neutral not necessary)
 
 -   
 
@@ -71,18 +71,18 @@ Fonctions
 
 -   
 
--   
+-   Small, discreet and aesthetic
 
--   
+-   Ease of use and installation
 
-
+Technical characteristics
 ---------------------------
 
--    : 
+-   Mod type : Z-Wave Receiver
 
--    : 
+-   Feed : 
 
--    : 
+-   Consumption : 
 
 -    : 
 
@@ -94,42 +94,42 @@ Fonctions
 
 -   ) : 
 
--    : 
+-   Frequency : 868.42Mhz
 
 -    : 1mW
 
--    : 
+-   Transmission distance : 
 
--    : 42..
+-   Dimensions : 42..
 
--    : 
+-   Operating temperature : 
 
 -    : 105°C
 
 -    : 
     1999/5/EC
 
-
+Module data
 -----------------
 
--    : 
+-   Mark : 
 
--    : 
+-   Last name : 
 
--    : 271
+-   Manufacturer ID : 271
 
--    : 258
+-   Type Product : 258
 
--    : 4096
+-   Product ID : 4096
 
 Configuration
 -------------
 
 
 
-[](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
+[documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Important**
 >
 > 
 > . 
@@ -138,13 +138,13 @@ Configuration
 
 ![inclusion](images/fibaro.fgd212/inclusion.jpg)
 
-> ****
+> **Tip**
 >
 > 
 > 
 > .
 
- :
+Once included you should get this :
 
 ![Plugin Zwave](images/fibaro.fgd212/information.jpg)
 
@@ -153,21 +153,21 @@ Configuration
 
 disponibles.
 
-![](images/fibaro.fgd212/commandes.jpg)
+![Orders](images/fibaro.fgd212/commandes.jpg)
 
- :
+Here is the list of commands :
 
--    : 
+-   Intensity : 
     
 
--    : 
+-   We : This is the command that turns on the light
 
--    : 
+-   Off : This is the command that turns off the light
 
--    : 
+-   State : 
     
 
--    : 
+-   Consumption : 
     
 
 -    : 
@@ -176,13 +176,13 @@ disponibles.
 
 icone
 
-### 
+### Module Setup
 
 
 
 .
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 
 )
@@ -197,7 +197,7 @@ icone
 
 ![Config3](images/fibaro.fgd212/config5.jpg)
 
- :
+Parameter details :
 
 
 
@@ -208,10 +208,10 @@ indispensable.
 
 ![Groupe](images/fibaro.fgd212/groupe.jpg)
 
-
+Good to know
 ------------
 
-### 
+### Specificities
 
 > ****
 >
