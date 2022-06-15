@@ -19,7 +19,7 @@ Su uso es muy simple, selecciona si quieres ver :
 
 Luego selecciona el nombre del informe en cuestión y verá todas las fechas de los informes en la memoria
 
-> ****
+> **Importante**
 >
 > La eliminación automática se realiza de forma predeterminada para informes de más de 30 días (puede configurar este período en la configuración de Jeedom)
 
@@ -29,8 +29,8 @@ También puede eliminar todas las copias de seguridad de un informe determinado
 
 # FAQ
 
-> **Si tienes un error de Detalles : cutycapt: error al cargar bibliotecas compartidas: .so: no se puede abrir el archivo de objeto compartido: No existe tal archivo o directorio**
+> **Si tienes un error de Detalles : cutycapt: error al cargar bibliotecas compartidas: libEGL.so: no se puede abrir el archivo de objeto compartido: No existe tal archivo o directorio**
 >
 > Es necesario en ssh o en Administración -&gt; Configuración -&gt; OS / DB -&gt; Sistema -&gt; Administración para hacer :
->.
->.
+>sudo ln -s /usr/lib/aarch64-linux-gnu/libGLESv2.so.2 /usr/lib/aarch64-linux-gnu/libGLESv2.so
+>sudo ln -s /usr/lib/aarch64-linux-gnu/libEGL.so.1 /usr/lib/aarch64-linux-gnu/libEGL.so

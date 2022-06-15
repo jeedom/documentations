@@ -1,19 +1,19 @@
 
-# Sicherheit
+# 
 
 
->**WICHTIG**
->Nur Contributor-Plugins haben ihre Dokumentation hier. Sie können die Dokumentationen der offiziellen Plugins direkt im Jeedom Market einsehen. Klicken Sie bei dem betreffenden Plugin auf Dokumentation.
->Du kannst sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=security) alle offiziellen Plugins in dieser Kategorie
+>****
+>. . .
+> [](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=security) 
 
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="Diagral_eOne/Diagral_eOne_icon.png" class="pluginLogo" width="100" />|Diagramm eOne|Plugin zur Verwaltung von Diagral eOne-Alarmen|[Dokumentation](https://mguyard.github.io/Jeedom-Diagral_eOne/de_DE/)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3820)<br/>[Änderungsprotokoll](https://mguyard.github.io/Jeedom-Diagral_eOne/de_DE/changelog)|
-|<img src="QRacces/QRacces_icon.png" class="pluginLogo" width="100" />|Zugang per QR-Code|Verwalten Sie den Zugang zu Ihrem Zuhause per QR-Code.|[Dokumentation](http://mika-nt28.github.io/Documentations/QRacces/fr_FR)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3758)<br/>[Änderungsprotokoll](https://mika-nt28.github.io/Documentations/QRacces/de_DE/changelog)|
-|<img src="facerecognition/facerecognition_icon.png" class="pluginLogo" width="100" />|Gesichtserkennung|Dieses Plugin ermöglicht OpenCv, um Ihr Gesicht zu erkennen und Sie zu erkennen.Achtung, egal was Sie mit diesem Plugin autorisiert haben, denn es ist ziemlich einfach, das System zu täuschen (Zwillinge, Fotos)|[Dokumentation](http://mika-nt28.github.io/Documentations/facerecognition/de_DE/)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3863)<br/>[Änderungsprotokoll](https://mika-nt28.github.io/Documentations/facerecognition/de_DE/changelog)|
-|<img src="openalpr/openalpr_icon.png" class="pluginLogo" width="100" />|OpenALPR|Permanentes Plugin zur Nummernschilderkennung mit unseren Kameras|[Dokumentation](https://mika-nt28.github.io/Documentations/openalpr/fr_FR)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1613)<br/>[Änderungsprotokoll](https://mika-nt28.github.io/Documentations/openalpr/de_DE/changelog)|
-|<img src="seniorcarealertbt/seniorcarealertbt_icon.png" class="pluginLogo" width="100" />|Seniorenbetreuung - Alarmtaste|Plugin zur Unterstützung älterer Menschen - Verwaltung von Warntasten|[Dokumentation](https://agp42.github.io/seniorcarealertbt/de_DE/)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3948)<br/>[Änderungsprotokoll](https://agp42.github.io/seniorcarealertbt/de_DE/changelog)|
-|<img src="seniorcarecomfortsecurity/seniorcarecomfortsecurity_icon.png" class="pluginLogo" width="100" />|Seniorenpflege - Komfort und Sicherheit|Plugin für Seniorenhilfe - Management von Wohnkomfort und Sicherheit|[Dokumentation](https://agp42.github.io/seniorcarecomfortsecurity/de_DE/)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3972)<br/>[Änderungsprotokoll](https://agp42.github.io/seniorcarecomfortsecurity/de_DE/changelog)|
-|<img src="seniorcareinactivity/seniorcareinactivity_icon.png" class="pluginLogo" width="100" />|Seniorenpflege - Inaktivitätserkennung|Seniorenunterstützungs-Plugin - Inaktivitätserkennungsfunktion|[Dokumentation](https://agp42.github.io/seniorcareinactivity/de_DE/)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3947)<br/>[Änderungsprotokoll](https://agp42.github.io/seniorcareinactivity/de_DE/changelog)|
-|<img src="verisure/verisure_icon.png" class="pluginLogo" width="100" />|Verisure-Alarm|Verisure-Plugin für Jeedom|[Dokumentation](https://xav-74.github.io/verisure/de_DE/)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3997)<br/>[Änderungsprotokoll](https://xav-74.github.io/verisure/de_DE/changelog)|
+|<img src="Diagral_eOne/Diagral_eOne_icon.png" class="pluginLogo" width="100" />|||[](https://mguyard.github.io/Jeedom-Diagral_eOne/de_DE/)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=3820)<br/>[](https://mguyard.github.io/Jeedom-Diagral_eOne/de_DE/changelog)|
+|<img src="QRacces/QRacces_icon.png" class="pluginLogo" width="100" />||.|[](http://mika-nt28.github.io/Documentations/QRacces/fr_FR)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=3758)<br/>[](https://mika-nt28.github.io/Documentations/QRacces/de_DE/changelog)|
+|<img src="facerecognition/facerecognition_icon.png" class="pluginLogo" width="100" />||.)|[](http://mika-nt28.github.io/Documentations/facerecognition/de_DE/)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=3863)<br/>[](https://mika-nt28.github.io/Documentations/facerecognition/de_DE/changelog)|
+|<img src="openalpr/openalpr_icon.png" class="pluginLogo" width="100" />|OpenALPR||[](https://mika-nt28.github.io/Documentations/openalpr/fr_FR)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=1613)<br/>[](https://mika-nt28.github.io/Documentations/openalpr/de_DE/changelog)|
+|<img src="seniorcarealertbt/seniorcarealertbt_icon.png" class="pluginLogo" width="100" />|||[](https://agp42.github.io/seniorcarealertbt/de_DE/)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=3948)<br/>[](https://agp42.github.io/seniorcarealertbt/de_DE/changelog)|
+|<img src="seniorcarecomfortsecurity/seniorcarecomfortsecurity_icon.png" class="pluginLogo" width="100" />|||[](https://agp42.github.io/seniorcarecomfortsecurity/de_DE/)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=3972)<br/>[](https://agp42.github.io/seniorcarecomfortsecurity/de_DE/changelog)|
+|<img src="seniorcareinactivity/seniorcareinactivity_icon.png" class="pluginLogo" width="100" />|||[](https://agp42.github.io/seniorcareinactivity/de_DE/)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=3947)<br/>[](https://agp42.github.io/seniorcareinactivity/de_DE/changelog)|
+|<img src="verisure/verisure_icon.png" class="pluginLogo" width="100" />|||[](https://xav-74.github.io/verisure/de_DE/)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=3997)<br/>[](https://xav-74.github.io/verisure/de_DE/changelog)|
