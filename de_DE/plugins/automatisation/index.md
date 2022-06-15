@@ -2,14 +2,14 @@
 # Automatisme
 
 
->****
->. . .
-> [](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automatisation) 
+>**WICHTIG**
+>Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation anderer Plugins direkt im Jeedom Market einsehen. Klicken Sie bei dem betreffenden Plugin auf Dokumentation.
+>Du kannst sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automatisation) alle offiziellen Plugins in dieser Kategorie
 
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="lightmanager/beta/lightmanager_icon.png" class="pluginLogo" width="100" />||<br/>|[](lightmanager/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=4199)<br/>[](lightmanager/beta/changelog.md)|
-|<img src="sunshutter/sunshutter_icon.png" class="pluginLogo" width="100" />||.  : .|[](sunshutter/index.md)[](sunshutter/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)<br/>[](sunshutter/changelog.md)[](sunshutter/beta/changelog.md)|
-|<img src="thermostatmanager/beta/thermostatmanager_icon.png" class="pluginLogo" width="100" />||<br/>|[](thermostatmanager/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=4200)<br/>[](thermostatmanager/beta/changelog.md)|
-|<img src="watering/beta/watering_icon.png" class="pluginLogo" width="100" />|Arrosage|<br/>|[](watering/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=4198)<br/>[](watering/beta/changelog.md)|
+|<img src="lightmanager/beta/lightmanager_icon.png" class="pluginLogo" width="100" />||ACHTUNG Plugin nur in Beta verfügbar<br/>|[Beta-Dokumentation](lightmanager/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=4199)<br/>[Änderungsprotokoll Beta](lightmanager/beta/changelog.md)|
+|<img src="sunshutter/sunshutter_icon.png" class="pluginLogo" width="100" />||. WICHTIG : .|[Dokumentation](sunshutter/index.md)[Beta](sunshutter/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)<br/>[Änderungsprotokoll](sunshutter/changelog.md)[Beta](sunshutter/beta/changelog.md)|
+|<img src="thermostatmanager/beta/thermostatmanager_icon.png" class="pluginLogo" width="100" />|Thermostatverwaltung|ACHTUNG Plugin nur in Beta verfügbar<br/>Ermöglicht Ihnen, Änderungen der Thermostatsollwerte zu verwalten|[Beta-Dokumentation](thermostatmanager/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=4200)<br/>[Änderungsprotokoll Beta](thermostatmanager/beta/changelog.md)|
+|<img src="watering/beta/watering_icon.png" class="pluginLogo" width="100" />|Arrosage|ACHTUNG Plugin nur in Beta verfügbar<br/>Bewässerungs-Plugin|[Beta-Dokumentation](watering/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=4198)<br/>[Änderungsprotokoll Beta](watering/beta/changelog.md)|
