@@ -1,10 +1,10 @@
 # Changelog Shutter Management
 
->**Important**
+>****
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the updating of documentation, translation or text.
 
-# 02/05/2022
+# 
 
 - Bug fix (thanks @florentde)
 
@@ -18,7 +18,7 @@
 
 - Code optimization
 
-# 24/11/2020
+# 
 
 - New presentation of the list of objects
 - Addition of the tag "V4 compatibility"
