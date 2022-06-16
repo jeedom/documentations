@@ -180,7 +180,7 @@ information about the plugin, including :
 -   If it is official / recommended or if it is obsolete (you really need to
     avoid installing obsolete plugins)
 
--    :
+-   4 shares :
 
     -   **Install stable** : allows to install the plugin in its
         stable version
