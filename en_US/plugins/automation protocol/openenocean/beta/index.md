@@ -6,17 +6,17 @@ This plugin is a plugin allowing Enocean compatibility
 
 ## Plugin configuration
 
-> **Tip**
+> ****
 >
 > In order to use the plugin, you must download, install and activate it like any Jeedom plugin.
 
-> **Important**
+> ****
 >
 > The most important thing here is to select your USB Controller (you can choose Auto it will work for the Enocean USB300 key). For any other model it is better to choose it from the list :
 
--   USB300 : EnOcean\_GmbH EnOean\_USB\_300\_DB
--   USB310 : FTDI FT232R\_USB\_UART
--   Jeedom Smart : ttyS1
+-    : 
+-    : 
+-    : ttyS1
 
 The other option available on this page is : **Automatically delete excluded devices**. This removes Jeedom equipment when it is excluded.
 
@@ -24,7 +24,7 @@ You can also check the status of dependencies and relaunch them. In case of prob
 
 ## Compatibilité
 
-You can find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=openenocean) the list of modules compatible with the plugin
+You can find [](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=openenocean) the list of modules compatible with the plugin
 
 # The plugin
 
@@ -61,10 +61,10 @@ On the right side you will find :
 
 For some modules it is possible to have a configure button, by clicking on it you will arrive on a page allowing to configure it
 
-> **Important**
+> ****
 >
-> Here you just have to choose all the options and click on apply. (Be careful : there all the parameters are sent, so validate the whole)
+> Here you just have to choose all the options and click on apply. ( : there all the parameters are sent, so validate the whole)
 
 # Compatibility list
 
-You will find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) a compatibility list of modules with their inclusion procedure if they are specific.
+You will find [](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) a compatibility list of modules with their inclusion procedure if they are specific.

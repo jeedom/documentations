@@ -6,17 +6,17 @@ Este plugin é um plugin que permite compatibilidade com Enocean
 
 ## Configuração do plugin
 
-> **Dica**
+> ****
 >
 > Para usar o plug-in, você deve fazer o download, instalar e ativá-lo como qualquer plug-in Jeedom.
 
-> **IMPORTANTE**
+> ****
 >
 > A coisa mais importante aqui é selecionar o seu controlador USB (você pode escolher Auto, ele funcionará para a chave Enocean USB300). Para qualquer outro modelo, é melhor escolhê-lo da lista :
 
--   USB300 : EnOcean\_GmbH EnOean\_USB\_300\_DB
--   USB310 : FTDI FT232R\_USB\_UART
--   Jeedom Smart : ttyS1
+-    : 
+-    : 
+-    : ttyS1
 
 A outra opção disponível nesta página é : **Excluir automaticamente dispositivos excluídos**. Isso remove o equipamento Jeedom quando é excluído.
 
@@ -24,7 +24,7 @@ Você também pode verificar o status das dependências e reiniciá-las. Em caso
 
 ## Compatibilité
 
-Você pode encontrar [aqui](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=openenocean) a lista de módulos compatíveis com o plugin
+Você pode encontrar [](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=openenocean) a lista de módulos compatíveis com o plugin
 
 # O plugin
 
@@ -61,10 +61,10 @@ No lado direito, você encontrará :
 
 Para alguns módulos, é possível ter um botão de configuração, clicando nele, você chegará a uma página que permite configurá-lo
 
-> **IMPORTANTE**
+> ****
 >
-> Aqui você só precisa escolher todas as opções e clicar em aplicar. (Atenção : lá todos os parâmetros são enviados, então valide todo)
+> Aqui você só precisa escolher todas as opções e clicar em aplicar. ( : lá todos os parâmetros são enviados, então valide todo)
 
 # Lista de compatibilidade
 
-Você encontrará [aqui](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) uma lista de compatibilidade de módulos com seu procedimento de inclusão, se eles forem específicos.
+Você encontrará [](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) uma lista de compatibilidade de módulos com seu procedimento de inclusão, se eles forem específicos.

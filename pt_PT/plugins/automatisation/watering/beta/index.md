@@ -1,6 +1,6 @@
 # Rega)
 
->**IMPORTANTE**
+>****
 >
 >Este plugin não é "amigável", é complexo de aprender e levará muito tempo para obter um resultado satisfatório
 
@@ -13,9 +13,9 @@ O princípio do plugin é o seguinte, a necessidade de regar depende de :
 - a temperatura que ele fez
 - a chuva caiu
 
-Chegamos a uma fórmula de porcentagem de rega : (C1 * Sunshine + C2 * Temperatura - C3 * Chuva) + C4. Este é o lado não amigável do plugin porque ele não consegue encontrar os coeficientes para você, então você tem que ir lá aos poucos.
+Chegamos a uma fórmula de porcentagem de rega : ( * Sunshine + C2 * Temperatura - C3 * Chuva) + C4. Este é o lado não amigável do plugin porque ele não consegue encontrar os coeficientes para você, então você tem que ir lá aos poucos.
 
-Você pode ver [aqui](https://blog.jeedom.com/5529-gestion-de-larrosage/) um exemplo de uso do plugin.
+Você pode ver [](https://blog.jeedom.com/5529-gestion-de-larrosage/) um exemplo de uso do plugin.
 
 ## Configuration
 

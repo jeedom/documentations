@@ -1,6 +1,6 @@
 # Bewässerung)
 
->**WICHTIG**
+>****
 >
 >Dieses Plugin ist nicht "benutzerfreundlich", es ist komplex zu erlernen und wird lange brauchen, um ein zufriedenstellendes Ergebnis zu erzielen
 
@@ -13,9 +13,9 @@ Das Prinzip des Plugins ist wie folgt, der Bewässerungsbedarf hängt davon ab :
 - die Temperatur, die er gemacht hat
 - der Regen ist gefallen
 
-Wir kommen zu einer Bewässerungsprozentsatzformel : (C1 * Sonnenschein + C2 * Temperatur - C3 * Regen) + C4. Dies ist die nicht benutzerfreundliche Seite des Plugins, da es die Koeffizienten nicht für Sie finden kann, also müssen Sie nach und nach dorthin gehen.
+Wir kommen zu einer Bewässerungsprozentsatzformel : ( * Sonnenschein + C2 * Temperatur - C3 * Regen) + C4. Dies ist die nicht benutzerfreundliche Seite des Plugins, da es die Koeffizienten nicht für Sie finden kann, also müssen Sie nach und nach dorthin gehen.
 
-Du kannst sehen [Hier](https://blog.jeedom.com/5529-gestion-de-larrosage/) ein Beispiel für die Verwendung des Plugins.
+Du kannst sehen [](https://blog.jeedom.com/5529-gestion-de-larrosage/) ein Beispiel für die Verwendung des Plugins.
 
 ## Configuration
 

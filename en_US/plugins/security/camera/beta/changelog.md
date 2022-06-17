@@ -1,6 +1,6 @@
 # Changelog Camera
 
->**Important**
+>****
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
@@ -31,7 +31,7 @@
 - Fixed an image display issue on designs
 
 
-# 24/11/2020
+# 
 
 - New presentation of the list of objects
 - Addition of the tag "V4 compatibility"
@@ -40,7 +40,7 @@
 
 - Addition of Foscam FI9926P camera
 
-# 07/07/2020
+# 
 
 - Correction of a problem on the default port of the stream url for Foscam cameras thanks @nebz
 - Addition of the Reolink RLC-410-5MP camera thanks @Dorsad
@@ -81,7 +81,7 @@
 
 - Optimization of the cleaning function of camera capture files
 
-# 10/10/2019
+# 
 
 - Correction of a bug on the taking of video under debian 10
 
@@ -108,7 +108,7 @@
 - Improved rtsp support
 - Bugfix
 
-# 06/06/2019
+# 
 
 - Correction of a problem if there are &amp; in the url of stream rtsp
 - Improved security on the video stream
@@ -129,7 +129,7 @@
 - Addition of the Wanscam q3 camera (s)
 - Mode selection automatically based on capture url and video stream (RTSP)
 - Bugfix
-- Added replacement for #username# and #password# in orders
+- Added replacement for #username#  #password# in orders
 - Correction of a dependency problem
 
 # 06/01/2018

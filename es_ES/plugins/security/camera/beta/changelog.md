@@ -1,52 +1,52 @@
 # Changelog Camera
 
->**Importante**
+>****
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# 10/02/2022
+# 
 
 - Se solucionó un problema con la clave api no visible
 
-# 31/01/2022
+# 
 
 - Actualizar llamada API
 
-# 11/12/2021
+# 
 
 - Soporte para nuevas cámaras
 - Se agregó un botón para ver una vista previa de la cámara en la página de configuración
 
-# 31/08/2021
+# 
 
 - Modificación para permitir la recuperación de una función de otro complemento (se utilizará para un futuro complemento Unifi Protect)
 - Adición de la cámara bullet Ubiquiti G4 (tenga en cuenta que la cámara debe activar la conexión anónima)
 
-# 04/02/2021
+# 
 
 - Se solucionó un problema que no dejaba de recuperar imágenes incluso si ya no se mostraba una cámara
 
-# 29/11/2020
+# 
 
 - Se corrigió un problema de visualización de imágenes en diseños
 
 
-# 24/11/2020
+# 
 
 - Nueva presentación de la lista de objetos
 - Adición de la etiqueta "compatibilidad V4"
 
-# 30/08/2020
+# 
 
 - Adición de la cámara Foscam FI9926P
 
-# 07/07/2020
+# 
 
 - Corrección de un problema en el puerto predeterminado de la URL de transmisión para cámaras Foscam gracias @nebz
 - Adición de la cámara Reolink RLC-410-5MP gracias @Dorsad
 - Añadir RocketCam (Freebox) gracias @JAG
 
-# 26/06/2020
+# 
 
 - Agregar cámara Dahua
 - Adición de cámara Foscam
@@ -54,11 +54,11 @@
 - Añadiendo panasonic wc np502 gracias @Flobul
 - Agregar cámara IOS gracias @Flobul
 
-# 16/06/2020
+# 
 
 - Corrección del problema de abrir el historial en modo flujo
 
-# 14/06/2020
+# 
 
 - Mejora del sistema para limpiar archivos de transmisión de video (tenga en cuenta que la función todavía está en beta, es posible que nuestra configuración sea un poco demasiado agresiva)
 - Corrección de un error en la recuperación de información de movimiento de cámaras foscam HD
@@ -81,7 +81,7 @@
 
 - Optimización de la función de limpieza de archivos de captura de cámara
 
-# 10/10/2019
+# 
 
 - Corrección de un error en la toma de video en Debian 10
 
@@ -108,18 +108,18 @@
 - Soporte mejorado de rtsp
 - Correcciones de errores
 
-# 06/06/2019
+# 
 
 - Se corrigió un problema si hay &amp; en el flujo url rtsp
 - Seguridad mejorada en la transmisión de video
 - Se solucionó un problema si había espacios en la url de transmisión de video
 
-# 21/01/2019
+# 
 
 - Actualizando el documento
 - Corrección de un error en el panel
 
-# 17/01/2019
+# 
 
 - Actualizando el documento
 - Se solucionó un problema con la configuración de Wanscam q3 (s)
@@ -129,16 +129,16 @@
 - Adición de la cámara Wanscam q3 (s)
 - Selección de modo automáticamente basada en url de captura y transmisión de video (RTSP)
 - Correcciones de errores
-- Reemplazo agregado para #username# y #password# en pedidos
+- Reemplazo agregado para #username#  #password# en pedidos
 - Corrección de un problema de dependencia
 
-# 01/06/2018
+# 
 
 - Rediseño del panel, ahora elegimos el número de cámaras por línea en la configuración del complemento, su tamaño se calcula automáticamente
 - Mejora de widgets móviles
 - Compatibilidad con transmisiones de video RTSP / MJPEG ... Tenga en cuenta que se ha realizado una conversión. Esto solo se debe usar si no tiene otra opción, debe privilegiar las instantáneas (más rápido y menos carga en Jeedom)
 
-# 03/04/2018
+# 
 
 - Actualización de la documentación
 

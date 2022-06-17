@@ -1,6 +1,6 @@
 # Watering)
 
->**IMPORTANT**
+>****
 >
 >This plugin is not "user friendly", it is complex to learn and will take a long time to achieve a satisfactory result
 
@@ -13,9 +13,9 @@ The principle of the plugin is as follows, the need for watering depends on :
 - the temperature he did
 - the rain it fell
 
-We arrive at a watering percentage formula : (C1 * Sunshine + C2 * Temperature - C3 * Rain) + C4. This is the not user friendly side of the plugin because it cannot find the coefficients for you, so you have to go there little by little.
+We arrive at a watering percentage formula : ( * Sunshine + C2 * Temperature - C3 * Rain) + C4. This is the not user friendly side of the plugin because it cannot find the coefficients for you, so you have to go there little by little.
 
-You can see [here](https://blog.jeedom.com/5529-gestion-de-larrosage/) an example of using the plugin.
+You can see [](https://blog.jeedom.com/5529-gestion-de-larrosage/) an example of using the plugin.
 
 ## Configuration
 

@@ -6,17 +6,17 @@ Este complemento es un complemento que permite la compatibilidad con Enocean
 
 ## Configuración del plugin
 
-> **Punta**
+> ****
 >
 > Para usar el complemento, debe descargarlo, instalarlo y activarlo como cualquier complemento de Jeedom.
 
-> **Importante**
+> ****
 >
 > Lo más importante aquí es seleccionar su controlador USB (puede elegir Auto, funcionará para la llave Enocean USB300). Para cualquier otro modelo, es mejor elegirlo de la lista :
 
--   USB300 : EnOcean\_GmbH EnOean\_USB\_300\_DB
--   USB310 : FTDI FT232R\_USB\_UART
--   Jeedom Smart : ttyS1
+-    : 
+-    : 
+-    : ttyS1
 
 La otra opción disponible en esta página es : **Eliminar automáticamente los dispositivos excluidos**. Esto elimina el equipo Jeedom cuando se excluye.
 
@@ -24,7 +24,7 @@ También puede verificar el estado de las dependencias y reiniciarlas. En caso d
 
 ## Compatibilité
 
-Puedes encontrar [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=openenocean) la lista de módulos compatibles con el complemento
+Puedes encontrar [](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=openenocean) la lista de módulos compatibles con el complemento
 
 # El complemento
 
@@ -61,10 +61,10 @@ En el lado derecho encontrarás :
 
 Para algunos módulos es posible tener un botón de configuración, al hacer clic en él, llegará a una página que le permite configurarlo
 
-> **Importante**
+> ****
 >
-> Aquí solo tienes que elegir todas las opciones y hacer clic en aplicar. (Atención : allí se envían todos los parámetros, así que valide todo)
+> Aquí solo tienes que elegir todas las opciones y hacer clic en aplicar. ( : allí se envían todos los parámetros, así que valide todo)
 
 # Lista de compatibilidad
 
-Encontraras [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) una lista de compatibilidad de módulos con su procedimiento de inclusión si son específicos.
+Encontraras [](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) una lista de compatibilidad de módulos con su procedimiento de inclusión si son específicos.

@@ -1,6 +1,6 @@
 # Regando)
 
->**IMPORTANTE**
+>****
 >
 >Este complemento no es "fácil de usar", es complejo de aprender y llevará mucho tiempo lograr un resultado satisfactorio
 
@@ -13,9 +13,9 @@ El principio del complemento es el siguiente, la necesidad de riego depende de :
 - la temperatura que hizo
 - la lluvia cayó
 
-Llegamos a una fórmula de porcentaje de riego : (C1 * Sol + C2 * Temperatura - C3 * Lluvia) + C4. Este es el lado no fácil de usar del complemento porque no puede encontrar los coeficientes por usted, por lo que debe ir allí poco a poco.
+Llegamos a una fórmula de porcentaje de riego : ( * Sol + C2 * Temperatura - C3 * Lluvia) + C4. Este es el lado no fácil de usar del complemento porque no puede encontrar los coeficientes por usted, por lo que debe ir allí poco a poco.
 
-Podéis ver [aquí](https://blog.jeedom.com/5529-gestion-de-larrosage/) un ejemplo de uso del complemento.
+Podéis ver [](https://blog.jeedom.com/5529-gestion-de-larrosage/) un ejemplo de uso del complemento.
 
 ## Configuration
 
