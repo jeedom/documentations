@@ -1,10 +1,10 @@
 # Description
 
-De jeedom v4.2 es posible confiar en parte la gestión de las dependencias de sus complementos al núcleo. Es bastante simple solo crea un archivo ``packages.json`` dentro ``plugin_info``.
+..  ``packages.json``  ``plugin_info``.
 
 # Exemples
 
-```json
+json
 {
   "apt" : {
     "git" : {},
@@ -32,34 +32,34 @@ De jeedom v4.2 es posible confiar en parte la gestión de las dependencias de su
     "tornado" : {}
   },
   "post-install" : {
-    "script" : "plugins/openzwave/resources/post-install.sh"
+    "script" : ""
   }
 }
-```
 
-```json
+
+json
 {
   "apt" : {
-    "libav-tools" : {"alternative" : ["ffmpeg"]},
-    "ffmpeg" : {"alternative" : ["libav-herramientas"]},
+    "libav-tools" : {"alternative" : "]},
+    "ffmpeg" : {"alternative" : "]},
     "python-pil" : {},
     "php-gd" : {}
   },
   "post-install" : {
-    "reiniciar_apache" : true
+    "" : true
   }
 }
-```
 
-```json
+
+json
 {
   "apt" : {
     "python3" : {},
-    "python3-pip" : {},
-    "python3-pyudev" : {},
-    "python3-solicitudes" : {},
-    "python3-setuptools" : {},
-    "python3-dev" : {}
+    "" : {},
+    "" : {},
+    "" : {},
+    "" : {},
+    "" : {}
   },
   "pip3" : {
     "wheel" : {},
@@ -75,26 +75,26 @@ De jeedom v4.2 es posible confiar en parte la gestión de las dependencias de su
     "bellows" : {"reinstall" : true}
   }
 }
-```
 
-```json
+
+json
 {
   "apt" : {
     "nodejs" : {}
   },
   "npm" : {
-    "complementos/dyson/recursos/dysond"  : {}
+    ""  : {}
   }
 }
-```
 
-Actualmente maneja : ``apt``, ``nodos (npm)`` , ``pip2`` y ``pip3``, con la posibilidad de iniciar scripts previos/posteriores a la instalación y pedirle que reinicie apache en la publicación.
 
-Si el archivo está presente, el core se basa SOLO EN ÉSTE, ignora las funciones `dependancy_info` y `dependancy_install`. Por lo tanto, solo calculará si hay paquetes para instalar o no desde este archivo json.
+ : ``apt``, `` (npm)`` , ``pip2``  ``pip3``, .
+
+. .
 
 ## Nodejs
 
-Para nodejs es un poco especial, cualquier solicitud de nodejs o npm se anula para instalar nodejs v12 independientemente de la plataforma. Entonces hay 2 posibilidades :
+.  :
 
-- es un nombre de paquete en este caso se instala globalmente en el sistema
-- es una ruta en este caso jeedom se coloca en el directorio en cuestión se inicia una instalación npm (con eliminación del directorio ``node_modules``)
+- 
+-  ``node_modules``)
