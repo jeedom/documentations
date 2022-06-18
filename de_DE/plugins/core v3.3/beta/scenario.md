@@ -182,7 +182,7 @@ Jeder dieser Blöcke hat seine Optionen für eine bessere Handhabung :
 
 #### Wenn / Dann / Sonst blockiert, Loop, In und A
 
-> ****
+> **Notiz**
 >
 > Auf Si / Then / Sonst-Blöcken befinden sich Kreispfeile
 > links neben dem Bedingungsfeld aktivieren oder nicht aktivieren

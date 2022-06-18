@@ -63,7 +63,7 @@
 
 ![eos200.nf no](images/eos200/eos200.nf-no.jpg)
 
-> **Notiz**
+> ****
 >
 > .
 

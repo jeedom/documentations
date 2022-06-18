@@ -104,7 +104,7 @@ anders, weil es nicht möglich ist, die Einschlüsse zu speichern.
 Diese sind direkt im Controller enthalten, also müssen Sie
 Behalten Sie den gleichen Controller bei, um die Zwave-Module zu finden.
 
-> ****
+> **Notiz**
 >
 > Das System, auf dem Jeedom installiert ist, wird nicht gesichert. wenn
 > Sie haben die Parameter dieses Systems geändert (insbesondere über SSH),

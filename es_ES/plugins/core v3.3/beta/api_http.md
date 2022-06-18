@@ -8,14 +8,14 @@ Hay dos API disponibles : un piloto orientado al desarrollador
 Esta API se usa muy fácilmente mediante solicitudes HTTP simples a través de
 URL.
 
-> ****
+> **Nota**
 >
 > Para toda esta documentación, \#IP\_JEEDOM\# coincide con tu url
 > acceso a Jeedom. Esto es (a menos que esté conectado a su red
 > local) de la dirección de Internet que utiliza para acceder a Jeedom
 > desde afuera.
 
-> ****
+> **Nota**
 >
 > Para toda esta documentación, \#API\_KEY\# coincide con tu llave
 > API, específica para su instalación. Para encontrarlo, tienes que ir a
@@ -58,14 +58,14 @@ avanzado (el icono de &quot;engranaje&quot;) y allí verá una URL que contiene
 ya todo lo que necesita dependiendo del tipo y subtipo de
 commande.
 
-> ****
+> **Nota**
 >
 > Es posible para el campo \#ID\# para hacer múltiples pedidos
 > de una vez. Para hacer esto, debe pasar una matriz en json (ex
 > % 5B12,58,23% 5D, tenga en cuenta que \ [y \] deben estar codificados, de ahí que% 5B
 > y% 5D). El regreso de Jeedom será un json
 
-> ****
+> **Nota**
 >
 > Los parámetros deben estar codificados para url, puede usar
 > un utensilio, [](https://meyerweb.com/eric/tools/dencoder/)

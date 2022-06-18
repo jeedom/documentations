@@ -302,7 +302,7 @@ Primero, en la parte superior derecha, algunos botones disponibles :
 > En un gráfico, un doble clic en un elemento lo lleva a su
 > .
 
-> ****
+> **Nota**
 >
 > Dependiendo del tipo de orden, la información / acciones mostradas
 > puede cambiar.
@@ -357,7 +357,7 @@ También tienes otros tres botones naranjas debajo :
 -   **Reemplace este comando con el comando** : El reverso reemplaza
     el orden por otro orden.
 
-> ****
+> **Nota**
 >
 > Este tipo de acción reemplaza los comandos en todo Jeedom
 > (escenario, interacción, comando, equipamiento.)
@@ -467,7 +467,7 @@ Le permite definir un nivel de alerta (****  ****) en
 dependiendo de ciertas condiciones. Por ejemplo, si `valor&gt; 8` para 30
 minutos, entonces el equipo puede ponerse en alerta ****.
 
-> ****
+> **Nota**
 >
 > En la página **Administración → Configuración → Registros**, usted puede
 > configurar un comando de tipo de mensaje que permitirá que Jeedom lo atrape
@@ -511,7 +511,7 @@ Pestaña Código
 
 Le permite modificar el código del widget solo para el comando actual.
 
-> ****
+> **Nota**
 >
 > Si desea modificar el código, no olvide marcar la casilla
 > **Habilitar la personalización del widget**

@@ -133,7 +133,7 @@ Hier haben Sie die Schaltflächen :
 
 -   **Zeile hinzufügen** : Fügen Sie der Tabelle eine Zeile hinzu
 
-> ****
+> **Notiz**
 >
 > Es ist möglich, die Linien durch Ziehen und Ablegen neu zu organisieren, jedoch nicht
 > die Spalten
@@ -141,9 +141,9 @@ Hier haben Sie die Schaltflächen :
 Sobald Sie Ihre Zeilen / Spalten hinzugefügt haben, können Sie hinzufügen
 Informationen in den Feldern :
 
--   **** : Nur Text zum Schreiben
+-   **Text** : Nur Text zum Schreiben
 
--   **** : jeder HTML-Code (Javascript möglich aber
+-   **html** : jeder HTML-Code (Javascript möglich aber
     dringend abgeraten)
 
 -   **Befehls-Widget** : Über die Schaltfläche rechts können Sie auswählen

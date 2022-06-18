@@ -133,7 +133,7 @@ oder bestimmte Parameter übergeben.
  
 ========
 
-> ****
+> **Notiz**
 >
 > Die Screenshots können im Hinblick auf Entwicklungen unterschiedlich sein.
 
@@ -542,7 +542,7 @@ Wir können also einen regulären Ausdruck sehen :
 Auf diese Weise können Sie alle Bestellungen löschen, für die eine dieser Bestellungen vorliegt
 Wörter in ihrem Satz
 
-> ****
+> **Notiz**
 >
 > Der reguläre Ausdruck hier ist eine vereinfachte Version zur einfachen Verwendung.
 > Wir können also entweder traditionelle Ausdrücke verwenden oder
@@ -568,7 +568,7 @@ die Antwort, um sicherzustellen, dass Jeedom die Anfrage richtig verstanden hat.
 \* Aktion : Wir setzen eine Aktion auf die Lampe, die wir fahren und einfahren möchten
 den Wert, den wir unserem Tag übergeben **.
 
-> ****
+> **Notiz**
 >
 > Sie können jedes Tag verwenden, außer denjenigen, die bereits von verwendet werden
 > Jeedom, es können zum Beispiel mehrere fahren
@@ -658,7 +658,7 @@ Tags verwenden \#time\.# (wenn eine bestimmte Zeit definiert ist) oder
 
 ![interact23](./images/interact23.JPG)
 
-> ****
+> **Notiz**
 >
 > Sie werden in der Antwort das Tag \ bemerken#value\.# dieser enthält
 > im Falle einer geplanten Interaktion die Programmierzeit

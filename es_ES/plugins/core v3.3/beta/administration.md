@@ -312,7 +312,7 @@ historial de pedidos.
     de una orden. Cuanto más corto sea el período, más rápido será Jeedom
     para mostrar el gráfico solicitado.
 
-> ****
+> **Nota**
 >
 > El primer parámetro **Ver estadísticas de widgets** est
 > posible pero deshabilitado por defecto porque alarga significativamente el
@@ -433,7 +433,7 @@ Interacción automática, contextual y advertencia
     -   ** : OK (* Tan pronto como la temperatura de la sala supere los 25 ° C,
         Jeedom te dirá, solo una vez*)
 
-> ****
+> **Nota**
 >
 > Por defecto, Jeedom te responderá por el mismo canal que el que tú
 > solía pedirle que te notificara. Si no encuentra uno
@@ -749,13 +749,13 @@ una parte de Samba (ex : Sinología NAS).
 -   **\ [Copia de seguridad \] Ruta** : Ruta en compartir (para establecer
     relativo), debe existir.
 
-> ****
+> **Nota**
 >
 > Si la ruta a su carpeta de copia de seguridad samba es :
 > \\\\ 192.168.0.1 \\ Copias de seguridad \\ Automatización del hogar \\ Jeedom Entonces IP = 192.168.0.1
 > , Compartir = //192.168.0.1 / Copias de seguridad, Ruta = Domótica / Jeedom
 
-> ****
+> **Nota**
 >
 > Al validar el recurso compartido Samba, como se describió anteriormente,
 > aparece una nueva forma de respaldo en la sección

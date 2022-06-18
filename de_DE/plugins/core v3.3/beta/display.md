@@ -302,7 +302,7 @@ Zunächst sind oben rechts einige Schaltflächen verfügbar :
 > In einem Diagramm bringt Sie ein Doppelklick auf ein Element zu seinem
 > .
 
-> ****
+> **Notiz**
 >
 > Abhängig von der Art der Bestellung werden die Informationen / Aktionen angezeigt
 > kann sich ändern.
@@ -357,7 +357,7 @@ Sie haben auch drei andere orangefarbene Knöpfe darunter :
 -   **Ersetzen Sie diesen Befehl durch den Befehl** : Das Gegenteil ersetzt
     die Bestellung durch eine andere Bestellung.
 
-> ****
+> **Notiz**
 >
 > Diese Art von Aktion ersetzt Befehle in ganz Jeedom
 > (Szenario, Interaktion, Befehl, Ausrüstung….)
@@ -467,7 +467,7 @@ Ermöglicht das Definieren einer Alarmstufe (****  ****) en
 abhängig von bestimmten Bedingungen. Zum Beispiel, wenn &quot;Wert&gt; 8&quot; für 30
 Minuten dann kann das Gerät in Alarmbereitschaft gehen ****.
 
-> ****
+> **Notiz**
 >
 > Auf der Seite **Administration → Konfiguration → Protokolle**, du kannst
 > Konfigurieren Sie einen Befehl vom Typ Nachricht, mit dem Jeedom Sie abrufen kann
@@ -511,7 +511,7 @@ Registerkarte Code
 
 Ermöglicht das Ändern des Widget-Codes nur für den aktuellen Befehl.
 
-> ****
+> **Notiz**
 >
 > Wenn Sie den Code ändern möchten, vergessen Sie nicht, das Kontrollkästchen zu aktivieren
 > **Aktivieren Sie die Widget-Anpassung**

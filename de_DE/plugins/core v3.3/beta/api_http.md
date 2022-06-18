@@ -8,14 +8,14 @@ JSON-RPC 2.0 und eine andere über URL und HTTP-Anfrage.
 Diese API wird sehr einfach von einfachen HTTP-Anfragen über verwendet
 URL.
 
-> ****
+> **Notiz**
 >
 > Für die gesamte Dokumentation gilt \#IP\_JEEDOM\# passt zu deiner URL
 > Zugang zu Jeedom. Dies ist (es sei denn, Sie sind mit Ihrem Netzwerk verbunden
 > lokal) der Internetadresse, mit der Sie auf Jeedom zugreifen
 > von außen.
 
-> ****
+> **Notiz**
 >
 > Für die gesamte Dokumentation gilt \#API\_KEY\# passt zu Ihrem Schlüssel
 > API, spezifisch für Ihre Installation. Um es zu finden, müssen Sie zu gehen
@@ -58,14 +58,14 @@ Erweitert (das &quot;Zahnrad&quot; -Symbol) und dort sehen Sie eine URL, die ent
 schon alles was du brauchst je nach typ und subtyp des
 commande.
 
-> ****
+> **Notiz**
 >
 > Es ist möglich für das Feld \#ID\# mehrere Bestellungen aufgeben
 > plötzlich. Dazu müssen Sie ein Array in json übergeben (z
 > % 5B12,58,23% 5D, beachten Sie, dass \ [und \] codiert werden müssen, daher% 5B
 > und% 5D). Jeedoms Rückkehr wird ein Json sein
 
-> ****
+> **Notiz**
 >
 > Parameter müssen für die URL codiert sein, die Sie verwenden können
 > ein Werkzeug, [](https://meyerweb.com/eric/tools/dencoder/)
