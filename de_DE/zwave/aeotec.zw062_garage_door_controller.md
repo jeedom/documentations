@@ -3,7 +3,7 @@
 
 
 
--   ****
+-   **Das Modul**
 
 
 
@@ -11,7 +11,7 @@
 
 
 
--   ****
+-   **Das Jeedom-Visual**
 
 
 
@@ -19,7 +19,7 @@
 
 
 
- 
+Zusammenfassung 
 ------
 
 
@@ -35,7 +35,7 @@
 
 
 
- 
+Funktionen 
 ---------
 
 
@@ -72,14 +72,14 @@
 
 
 
- 
+Technische Eigenschaften 
 ---------------------------
 
 
 
--    : 
+-   Mod-Typ : 
 
--    :  :  : Pile
+-   Einspeisung :  :  : Pile
     
 
 -    : 1W
@@ -90,47 +90,47 @@
 
 -    : 
 
--    : 
+-   Frequenz : 868,42 MHz
 
--    : 
+-   Übertragungsdistanz : 
 
--    : -
+-   Betriebstemperatur : -
 
--    : 
+-   Betriebsfeuchtigkeit : 
 
 -   Certifications: 
 
 
 
- 
+Moduldaten 
 -----------------
 
 
 
--    : Aeotec
+-   Markieren : Aeotec
 
--    : )
+-   Nachname : )
 
--    : 134
+-   Hersteller-ID : 134
 
--    : 3
+-   Geben Sie Produkt ein : 3
 
--    : 62
+-   Produkt ID : 62
 
 
 
- 
+Aufbau 
 -------------
 
 
 
 
 
-[](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
+[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
 
 
-> ****
+> **Wichtig**
 >
 > 
 > .
@@ -141,7 +141,7 @@
 
 
 
- :
+Einmal enthalten, sollten Sie dies erhalten :
 
 
 
@@ -149,7 +149,7 @@
 
 
 
-###  
+### Aufträge 
 
 
 
@@ -158,11 +158,11 @@ disponibles.
 
 
 
-![](images/aeotec.garagedoorcontroller/commandes.jpg)
+![Aufträge](images/aeotec.garagedoorcontroller/commandes.jpg)
 
 
 
- :
+Hier ist die Liste der Befehle :
 
 
 
@@ -172,13 +172,13 @@ disponibles.
 
 -    : .
 
--    : .
+-   Temperatur : .
 
--    : .
+-   Sabotage : .
 
 
 
-###  
+### Modulkonfiguration 
 
 
 
@@ -188,7 +188,7 @@ disponibles.
 
 
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Aufbau plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 
 
@@ -203,7 +203,7 @@ disponibles.
 
 
 
- :
+Parameterdetails :
 
 
 
@@ -219,11 +219,11 @@ disponibles.
 
 
 
-###  
+### Gruppen 
 
 
 
-. 
+Dieses Modul hat zwei Assoziationsgruppen. 
 indispensable.
 
 
@@ -232,12 +232,12 @@ indispensable.
 
 
 
- 
+Gut zu wissen 
 ------------
 
 
 
-###  
+### Besonderheiten 
 
 :
 

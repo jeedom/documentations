@@ -1,14 +1,14 @@
 # 
 
-****
+**Das Modul**
 
 ![module](images/greenwave.powernode/module.jpg)
 
-****
+**Das Jeedom-Visual**
 
 ![vuedefaut1](images/greenwave.powernode/vuedefaut1.jpg)
 
-## 
+## Zusammenfassung
 
 . . .
 
@@ -24,15 +24,15 @@
 
 -   
 -   
--   
+-   EIN/AUS-Funktion
 -   .
 -   
 -   
 -   
 
-## 
+## Technische Eigenschaften
 
--    : 
+-   Einspeisung : 
 -    : 10A
 -    : )
 -    : 
@@ -41,95 +41,95 @@
 -    : )
 -    : 
 -    : 30m
--    : 
--    : -
+-   Betriebstemperatur : 
+-   Lagertemperatur : -
 -    : 
 -   ) : IP20
 
-## 
+## Moduldaten
 
--    : GreenWave
--    : ]
--    : 153
--    : 3
--    : 4
+-   Markieren : GreenWave
+-   Nachname : ]
+-   Hersteller-ID : 153
+-   Geben Sie Produkt ein : 3
+-   Produkt ID : 4
 
 ## Configuration
 
- [](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
+Um das OpenZwave-Plugin zu konfigurieren und zu wissen, wie man Jeedom einbindet, beziehen Sie sich auf diese [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Wichtig**
 >
 > .
 
 ![inclusion](images/greenwave.powernode/inclusion.jpg)
 
- :
+Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/greenwave.powernode/information.jpg)
 
 ### Commandes
 
+Sobald das Modul erkannt wird, sind die dem Modul zugeordneten Befehle verfügbar.
+
+![Aufträge](images/greenwave.powernode/commandes.jpg)
+
+![Aufträge](images/greenwave.powernode/commandes2.jpg)
+
+![Aufträge](images/greenwave.powernode/commandes3.jpg)
+
+![Aufträge](images/greenwave.powernode/commandes4.jpg)
+
+![Aufträge](images/greenwave.powernode/commandes5.jpg)
+
+Hier ist die Liste der Befehle :
+
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+
 .
 
-![](images/greenwave.powernode/commandes.jpg)
+### Modulkonfiguration
 
-![](images/greenwave.powernode/commandes2.jpg)
+Sie können das Modul entsprechend Ihrer Installation konfigurieren. Dazu müssen Sie über die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom gehen.
 
-![](images/greenwave.powernode/commandes3.jpg)
+![Aufbau plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-![](images/greenwave.powernode/commandes4.jpg)
-
-![](images/greenwave.powernode/commandes5.jpg)
-
- :
-
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
-
-.
-
-### 
-
-. .
-
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
 
 ![Config1](images/greenwave.powernode/config1.jpg)
 
 .
 
- :
+Parameterdetails :
 
 -   1 :  : )
 -   2 : )
@@ -140,7 +140,7 @@
 
 ![Groupe](images/greenwave.powernode/groupe.jpg)
 
-## 
+## Gut zu wissen
 
 ### 
 
