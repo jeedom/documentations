@@ -1,14 +1,14 @@
 # "
 
-**Das Modul**
+****
 
 ![module](images/fibaro.fgrm222/module.jpg)
 
-**Das Jeedom-Visual**
+****
 
 ![vuedefaut1](images/fibaro.fgrm222/vuedefaut1.jpg)
 
-## Zusammenfassung
+## 
 
 . .
 
@@ -24,82 +24,82 @@
 
 -   
 -   
--   Wird hinter einem vorhandenen Switch installiert
 -   
 -   
 -   
 -   
 -   
--   Klein, diskret und ästhetisch
--   Benutzerfreundlichkeit und Installation
+-   
+-   
+-   
 
-## Technische Eigenschaften
+## 
 
--   Mod-Typ : Z-Wave-Empfänger
--   Einspeisung : 
+-    : 
+-    : 
 -    : &lt; 0,8W
 -    : 
 -    : 1000W
--   Frequenz : 868,42 MHz
+-    : 
 -    : 1mW
--   Übertragungsdistanz : 
+-    : 
 -   Dimensions: 
--   Betriebstemperatur : 
+-    : 
 -    : 105°C
 -    : )
 
-## Moduldaten
+## 
 
--   Markieren : 
--   Nachname : 
--   Hersteller-ID : 271
--   Geben Sie Produkt ein : 769
--   Produkt ID : 4097
+-    : 
+-    : 
+-    : 271
+-    : 769
+-    : 4097
 
 ## Configuration
 
-Um das OpenZwave-Plugin zu konfigurieren und zu wissen, wie man Jeedom einbindet, beziehen Sie sich auf diese [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
+ [](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
-> **Wichtig**
+> ****
 >
-> Um dieses Modul in den Inklusionsmodus zu versetzen, müssen Sie die Inklusionstaste gemäß der Papierdokumentation dreimal drücken.
+> .
 
 ![inclusion](images/fibaro.fgrm222/inclusion.jpg)
 
-Einmal enthalten, sollten Sie dies erhalten :
+ :
 
 ![Plugin Zwave](images/fibaro.fgrm222/information.jpg)
 
 ### Commandes
 
-Sobald das Modul erkannt wird, sind die dem Modul zugeordneten Befehle verfügbar.
+.
 
-![Aufträge](images/fibaro.fgrm222/commandes.jpg)
+![](images/fibaro.fgrm222/commandes.jpg)
 
-![Aufträge](images/fibaro.fgrm222/commandes2.jpg)
+![](images/fibaro.fgrm222/commandes2.jpg)
 
-Hier ist die Liste der Befehle :
+ :
 
--   Bundesland : 
 -    : 
 -    : 
 -    : 
 -    : 
 -    : 
--   Verbrauch : 
+-    : 
+-    : 
 -    : 
 -    : )
 -    : )
 -    : )
 -    : 
 
-### Modulkonfiguration
+### 
 
-Wenn Sie das Modul dann gemäß Ihrer Installation konfigurieren möchten, müssen Sie über die Schaltfläche "Konfiguration" des Jeedom OpenZwave-Plugins gehen.
+.
 
-![Aufbau plugin Zwave](images/plugin/bouton_configuration.jpg)
+![ plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+)
 
 ![Config1](images/fibaro.fgrm222/config1.jpg)
 
@@ -109,7 +109,7 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen ge
 
 ![Config4](images/fibaro.fgrm222/config4.jpg)
 
-Parameterdetails :
+ :
 
 -   1: )
 -   2: 
@@ -135,7 +135,7 @@ Parameterdetails :
 
 ![Groupe](images/fibaro.fgrm222/groupe.jpg)
 
-## Gut zu wissen
+## 
 
 ### Reset
 
@@ -145,7 +145,7 @@ Parameterdetails :
 
 ### Important
 
-> **Wichtig**
+> ****
 >
 > ").
 

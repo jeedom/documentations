@@ -1,4 +1,4 @@
-## .3 | 
+## Núcleo v4.3 | Desarrolladores de complementos
 
 ### Obsolete
 
@@ -8,6 +8,6 @@
 
 -
 
-### 
+### Cambios opcionales
 
 -

@@ -75,7 +75,7 @@
 
 ![dip switch](images/emv.400/dip_switch.jpg)
 
-> ****
+> **Nota**
 >
 > .
 
@@ -83,7 +83,7 @@
 
 ![bouton r](images/emv.400/bouton_r.jpg)
 
-> ****
+> **Nota**
 >
 > .
 
@@ -91,7 +91,7 @@
 
 :
 
-> ****
+> **Nota**
 >
 > .
 
@@ -101,7 +101,7 @@
 
 .
 
-> ****
+> **Nota**
 >
 > "
 
@@ -135,7 +135,7 @@
 
 ![crea equip](images/emv.400/crea_equip.jpg)
 
-> ****
+> **Nota**
 >
 > .
 
@@ -177,7 +177,7 @@ roulant" :
 
 .
 
-> ****
+> **Nota**
 >
 > 
 
@@ -194,7 +194,7 @@ roulant" :
     -   .
     -   .
 
-> ****
+> **Nota**
 >
 > .
 
@@ -220,7 +220,7 @@ roulant" :
         -   .
         -   .
 
-> ****
+> **Nota**
 >
 > 
 
