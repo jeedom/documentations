@@ -123,11 +123,11 @@ Encontrado aquí :
 Configuración general de elementos 
 ===================================
 
-> **Nota**
+> ****
 >
 > Dependiendo del tipo de elemento, las opciones pueden cambiar.
 
-> **Nota**
+> ****
 >
 > El elemento seleccionado se resalta en rojo (en lugar de verde
 > para todos los demás).

@@ -312,7 +312,7 @@ Bestellhistorie.
     einer Bestellung. Je kürzer der Zeitraum, desto schneller wird Jeedom
     um das angeforderte Diagramm anzuzeigen.
 
-> **Notiz**
+> ****
 >
 > Der erste Parameter **Widget-Statistiken anzeigen** est
 > möglich, aber standardmäßig deaktiviert, da dies die
@@ -433,7 +433,7 @@ Automatische Interaktion, Kontext &amp; Warnung
     -   ** : OK (* Sobald die Wohnzimmertemperatur 25 ° C überschreitet,
         Jeedom wird es dir nur einmal sagen*)
 
-> **Notiz**
+> ****
 >
 > Standardmäßig antwortet Jeedom Ihnen auf demselben Kanal wie Sie
 > pflegte ihn zu bitten, Sie zu benachrichtigen. Wenn er keinen findet
@@ -749,13 +749,13 @@ eine Samba-Aktie (z : NAS-Synologie).
 -   **\ [Backup \] Pfad** : Pfad beim Teilen (festlegen
     relativ) muss es existieren.
 
-> **Notiz**
+> ****
 >
 > Wenn der Pfad zu Ihrem Samba-Sicherungsordner lautet :
 > \\\\ 192.168.0.1 \\ Backups \\ Hausautomation \\ Jeedom Dann IP = 192.168.0.1
 > , Teilen = //192.168.0.1 / Backups, Path = Home Automation / Jeedom
 
-> **Notiz**
+> ****
 >
 > Bei der Validierung der Samba-Freigabe wie oben beschrieben,
 > In diesem Abschnitt wird eine neue Form der Sicherung angezeigt

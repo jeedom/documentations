@@ -123,11 +123,11 @@ Hier gefunden :
 Allgemeine Konfiguration der Elemente 
 ===================================
 
-> **Notiz**
+> ****
 >
 > Je nach Art des Elements können sich die Optionen ändern.
 
-> **Notiz**
+> ****
 >
 > Das ausgewählte Element wird rot (anstelle von grün) hervorgehoben
 > für alle anderen).
