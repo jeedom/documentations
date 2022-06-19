@@ -4,7 +4,7 @@ autogenerado por Jeedom.
 
 Se puede acceder haciendo clic en **Inicio → Tablero**
 
-> ****
+> **Consejo**
 >
 > Es posible ir directamente a un objeto en su domótica.
 > Esto le permite tener solo el equipo que le interesa y
@@ -32,13 +32,13 @@ Se puede acceder haciendo clic en **Inicio → Tablero**
 -   Se muestra un clic en un comando de tipo de información
     el historial de pedidos (si es histórico)
 
-> ****
+> **Consejo**
 >
 > Es posible, desde su perfil, configurar Jeedom para
 > el árbol de objetos y / o los escenarios son visibles por defecto
 > cuando te subes al tablero
 
-> ****
+> **Consejo**
 >
 > En dispositivos móviles, una pulsación larga en un comando de tipo de información permite
 > mostrar un menú que ofrezca mostrar el historial de

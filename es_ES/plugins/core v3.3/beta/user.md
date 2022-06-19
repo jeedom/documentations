@@ -11,7 +11,7 @@ Abajo tienes una mesa :
 
 -   **Nombre del usuario** : ID de usuario
 
--   **** : permite desactivar la cuenta
+-   **Activo** : permite desactivar la cuenta
 
 -   **Solo local** : autorizar inicio de sesión de usuario
     solo si está en la red local de Jeedom
@@ -42,7 +42,7 @@ Abajo tienes una mesa :
 -   **Cambiar contraseña** : permite cambiar la contraseña de
     l'utilisateur
 
--   **** : eliminar usuario
+-   **Borrar** : eliminar usuario
 
 -   **Regenerar clave API** : regenera la clave API del usuario
 
@@ -57,7 +57,7 @@ Al hacer clic en &quot;Administrar derechos&quot; aparece una ventana que le per
 administrar con precisión los derechos de los usuarios. La primera pestaña muestra
 los diferentes equipos. El segundo presenta los escenarios.
 
-> ****
+> **Importante**
 >
 > El perfil debe ser limitado, de lo contrario no se aplicarán restricciones aquí
 > se tendrá en cuenta

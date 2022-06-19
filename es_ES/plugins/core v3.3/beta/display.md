@@ -12,7 +12,7 @@ Esta página es accesible por **Herramientas → Resumen de domótica**.
 La parte superior de la página 
 ------------------
 
-En la parte superior de la página, encontramos : * **Numero de objetos** : Nombre
+En la parte superior de la página, encontramos : \* **Numero de objetos** : Nombre
 total de objetos configurados en nuestro Jeedom, contando los elementos
 Inactivo. \* **Numero de equipos** : Lo mismo para el equipo. \*
 **Numero de ordenes** : Lo mismo para los pedidos. \* **** :
@@ -40,12 +40,12 @@ están disponibles. De izquierda a derecha :
 -   el último le permite mostrar u ocultar la lista de equipos
     atribuido a él.
 
-> ****
+> **Consejo**
 >
 > El color de fondo de los marcos de los objetos depende del color elegido en
 > configuración de objeto.
 
-> ****
+> **Consejo**
 >
 > Al hacer clic / soltar en el equipo, puede cambiar su
 > ordenar o incluso asignarlos a otro objeto. Es de orden
@@ -92,7 +92,7 @@ rueda con muesca esto abrirá su ventana de configuración.
 Configuración avanzada de equipos 
 =====================================
 
-> ****
+> **Consejo**
 >
 > Es posible acceder (si el complemento lo admite) directamente a
 > esta ventana desde la página de configuración del equipo en
@@ -111,10 +111,10 @@ Editar. Primero, arriba a la derecha, algunos botones
 
 -   **** : muestra las propiedades en bruto del equipo.
 
--   **** : Guarda las modificaciones realizadas
+-   **Para registrarse** : Guarda las modificaciones realizadas
     en equipo.
 
--   **** : Retirar equipo.
+-   **Borrar** : Retirar equipo.
 
 Pestaña de información 
 -------------------
@@ -124,7 +124,7 @@ el equipo y sus controles :
 
 -   **** : Identificador único en la base de datos Jeedom.
 
--   **** : Nombre del equipo.
+-   **Apellido** : Nombre del equipo.
 
 -   **ID lógica** : Identificador de equipo lógico (puede
     estar vacío).
@@ -140,7 +140,7 @@ el equipo y sus controles :
 -   **** : Marque la casilla para hacer visible el equipo (sin
     olvida guardar).
 
--   **** : Identificador del complemento por el cual fue creado.
+-   **Tipo** : Identificador del complemento por el cual fue creado.
 
 -   **Intento fallido** : Número de intentos de comunicación
     consecutiva con equipo fallido.
@@ -197,12 +197,12 @@ diseño tan bien como móvil.
 
 A continuación, encontramos parámetros de visualización opcionales que
 puede aplicarse al equipo. Estos parámetros están compuestos de un nombre y
-vale la pena. Solo haz clic en **** aplicar uno
+vale la pena. Solo haz clic en **Para agregar** aplicar uno
 de nuevo. Para equipos, solo el valor **** es para el
 momento utilizado, permite insertar código CSS en el equipo en
 question.
 
-> ****
+> **Consejo**
 >
 > No olvide guardar después de cualquier modificación.
 
@@ -237,7 +237,7 @@ A continuación para cada cuadro, el **configuración detallada** te permite
     cuadro (cuidado, esto sobrescribe y reemplaza el CSS general
     cajas).
 
-> ****
+> **Consejo**
 >
 > En un cuadro en la tabla, si desea poner 2 comandos uno en
 > debajo del otro, no olvide agregar un retorno al
@@ -265,7 +265,7 @@ También puede administrar el tiempo de espera, en minutos, del equipo. por
 Por ejemplo, 30 le dice a Jeedom que si el equipo no se ha comunicado
 durante 30 minutos, luego debes ponerlo en alerta.
 
-> ****
+> **Consejo**
 >
 > Los parámetros globales están en **Administración → Configuración → Registros**
 > ( ****)
@@ -281,7 +281,7 @@ Configuración avanzada de un pedido
 
 Primero, en la parte superior derecha, algunos botones disponibles :
 
--   **** : Se usa para probar el comando.
+-   **Prueba** : Se usa para probar el comando.
 
 -   **** : Muestra los enlaces del equipo con el
     objetos, comandos, escenarios, variables, interacciones ... bajo
@@ -294,15 +294,15 @@ Primero, en la parte superior derecha, algunos botones disponibles :
 -   Aplicar a \* : Aplicar la misma configuración en
     pedidos múltiples.
 
--   **** : Guardar los cambios realizados en
+-   **Para registrarse** : Guardar los cambios realizados en
     equipo
 
-> ****
+> **Consejo**
 >
 > En un gráfico, un doble clic en un elemento lo lleva a su
 > .
 
-> ****
+> **Nota**
 >
 > Dependiendo del tipo de orden, la información / acciones mostradas
 > puede cambiar.
@@ -318,15 +318,15 @@ Pestaña de información
 -   **ID lógica** : Identificador lógico del comando (puede
     estar vacío).
 
--   **** : Nombre de la orden.
+-   **Apellido** : Nombre de la orden.
 
--   **** : Tipo de comando (acción o información).
+-   **Tipo** : Tipo de comando (acción o información).
 
 -   **** : Subtipo de comando (binario, digital, etc.)).
 
 -   **URL directa** : Proporciona la URL para acceder a este equipo. (haga clic
     derecha, copie la dirección del enlace) La URL iniciará el comando para un
-    **** y devolver la información para un ****.
+    **** y devolver la información para un **información**.
 
 -   **** : Unidad de control.
 
@@ -357,7 +357,7 @@ También tienes otros tres botones naranjas debajo :
 -   **Reemplace este comando con el comando** : El reverso reemplaza
     el orden por otro orden.
 
-> ****
+> **Nota**
 >
 > Este tipo de acción reemplaza los comandos en todo Jeedom
 > (escenario, interacción, comando, equipamiento.)
@@ -374,7 +374,7 @@ Pestaña de configuración
 
 -   **Cálculo y redondeo**
 
-    -   **Fórmula de cálculo (\#value# por valor)** : Permite
+    -   **Fórmula de cálculo (\#value\# por valor)** : Permite
         realizar una operación sobre el valor del pedido antes
         Tratamiento de Jeedom, ejemplo : ``#value# - 0.2` para afianzar
         0.2 (compensación en un sensor de temperatura).
@@ -467,7 +467,7 @@ Le permite definir un nivel de alerta (****  ****) en
 dependiendo de ciertas condiciones. Por ejemplo, si `valor&gt; 8` para 30
 minutos, entonces el equipo puede ponerse en alerta ****.
 
-> ****
+> **Nota**
 >
 > En la página **Administración → Configuración → Registros**, usted puede
 > configurar un comando de tipo de mensaje que permitirá que Jeedom lo atrape
@@ -502,7 +502,7 @@ A continuación, encontramos parámetros de visualización opcionales que
 puede cambiar a widget. Estos parámetros dependen del widget en cuestión,
 así que tienes que mirar su tarjeta en el mercado para conocerlos.
 
-> ****
+> **Consejo**
 >
 > No olvide guardar después de cualquier modificación.
 
@@ -511,7 +511,7 @@ Pestaña Código
 
 Le permite modificar el código del widget solo para el comando actual.
 
-> ****
+> **Nota**
 >
 > Si desea modificar el código, no olvide marcar la casilla
 > **Habilitar la personalización del widget**

@@ -2,7 +2,7 @@ Aquí hay documentación sobre métodos API. Primero aquí está
 las especificaciones (JSON RPC 2.0) :
 <http://www.jsonrpc.org/specification>
 
-El acceso a la API es a través de la url : **
+El acceso a la API es a través de la url : *URL\_JEEDOM*/core/api/jeeApi.php
 
 Divers
 ======
@@ -722,7 +722,7 @@ lo que simplifica el uso de la API.
 Recuperando la lista de objetos :
 
 `` `{.php}
-$jsonrpc = new jsonrpcClient('#URL_JEEDOM#', #API_KEY#);
+$jsonrpc = new jsonrpcClient('#URL_JEEDOM#/core/api/jeeApi.php', #API_KEY#);
 if ($ jsonrpc-&gt; sendRequest (objeto&#39;::todo ', matriz())){
     print_r ($ jsonrpc-&gt; getResult ());
 }else{
@@ -733,7 +733,7 @@ if ($ jsonrpc-&gt; sendRequest (objeto&#39;::todo ', matriz())){
 Ejecución de una orden (con la opción de un título y un mensaje)
 
 `` `{.php}
-$jsonrpc = new jsonrpcClient('#URL_JEEDOM#', #API_KEY#);
+$jsonrpc = new jsonrpcClient('#URL_JEEDOM#/core/api/jeeApi.php', #API_KEY#);
 if ($ jsonrpc-&gt; sendRequest ( &#39;cmd::execCmd ', array (' id' => #cmd_id#, 'opciones '=> array (' title '=>' Cuckoo ',' message '=>' Funciona')))){
     echo &#39;OK&#39;;
 }else{
