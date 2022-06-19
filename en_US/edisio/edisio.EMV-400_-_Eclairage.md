@@ -75,7 +75,7 @@
 
 ![dip switch](images/emv.400/dip_switch.jpg)
 
-> ****
+> **Note**
 >
 > .
 
@@ -83,7 +83,7 @@
 
 ![bouton r](images/emv.400/bouton_r.jpg)
 
-> ****
+> **Note**
 >
 > .
 
@@ -91,7 +91,7 @@
 
  :
 
-> ****
+> **Note**
 >
 > .
 
@@ -136,7 +136,7 @@
 
 ![crea equip](images/emv.400/crea_equip.jpg)
 
-> ****
+> **Note**
 >
 > .
 
@@ -177,7 +177,7 @@
 
 .
 
-> ****
+> **Note**
 >
 > 
 
@@ -215,7 +215,7 @@
         -   .
         -   .
 
-> ****
+> **Note**
 >
 > 
 

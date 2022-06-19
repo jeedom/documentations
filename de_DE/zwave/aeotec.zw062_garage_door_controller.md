@@ -3,7 +3,7 @@
 
 
 
--   **Das Modul**
+-   ****
 
 
 
@@ -11,7 +11,7 @@
 
 
 
--   **Das Jeedom-Visual**
+-   ****
 
 
 
@@ -19,7 +19,7 @@
 
 
 
-Zusammenfassung 
+ 
 ------
 
 
@@ -35,7 +35,7 @@ Zusammenfassung
 
 
 
-Funktionen 
+ 
 ---------
 
 
@@ -72,17 +72,17 @@ Funktionen
 
 
 
-Technische Eigenschaften 
+ 
 ---------------------------
 
 
 
--   Mod-Typ : 
+-    : 
 
--   Einspeisung :  :  : Pile
+-    :  :  : Pile
     
 
--   Standby-Verbrauch : 1W
+-    : 1W
 
 -    : 2W
 
@@ -90,47 +90,47 @@ Technische Eigenschaften
 
 -    : 
 
--   Frequenz : 868,42 MHz
+-    : 
 
--   Übertragungsdistanz : 
+-    : 
 
--   Betriebstemperatur : -
+-    : -
 
--   Betriebsfeuchtigkeit : 
+-    : 
 
 -   Certifications: 
 
 
 
-Moduldaten 
+ 
 -----------------
 
 
 
--   Markieren : Aeotec
+-    : Aeotec
 
--   Nachname : )
+-    : )
 
--   Hersteller-ID : 134
+-    : 134
 
--   Geben Sie Produkt ein : 3
+-    : 3
 
--   Produkt ID : 62
+-    : 62
 
 
 
-Aufbau 
+ 
 -------------
 
 
 
-Um das OpenZwave-Plugin zu konfigurieren und zu wissen, wie man Jeedom einfügt
-Inklusion beziehen sich darauf
-[Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
+
+
+[](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
 
 
-> **Wichtig**
+> ****
 >
 > 
 > .
@@ -141,7 +141,7 @@ Inklusion beziehen sich darauf
 
 
 
-Einmal enthalten, sollten Sie dies erhalten :
+ :
 
 
 
@@ -149,7 +149,7 @@ Einmal enthalten, sollten Sie dies erhalten :
 
 
 
-### Aufträge 
+###  
 
 
 
@@ -158,11 +158,11 @@ disponibles.
 
 
 
-![Aufträge](images/aeotec.garagedoorcontroller/commandes.jpg)
+![](images/aeotec.garagedoorcontroller/commandes.jpg)
 
 
 
-Hier ist die Liste der Befehle :
+ :
 
 
 
@@ -172,13 +172,13 @@ Hier ist die Liste der Befehle :
 
 -    : .
 
--   Temperatur : .
+-    : .
 
--   Sabotage : .
+-    : .
 
 
 
-### Modulkonfiguration 
+###  
 
 
 
@@ -188,11 +188,11 @@ Hier ist die Liste der Befehle :
 
 
 
-![Aufbau plugin Zwave](images/plugin/bouton_configuration.jpg)
+![ plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
+
 )
 
 
@@ -203,7 +203,7 @@ Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte geklickt haben
 
 
 
-Parameterdetails :
+ :
 
 
 
@@ -219,11 +219,11 @@ Parameterdetails :
 
 
 
-### Gruppen 
+###  
 
 
 
-Dieses Modul hat zwei Assoziationsgruppen. 
+. 
 indispensable.
 
 
@@ -232,12 +232,12 @@ indispensable.
 
 
 
-Gut zu wissen 
+ 
 ------------
 
 
 
-### Besonderheiten 
+###  
 
 :
 
@@ -273,7 +273,7 @@ Gut zu wissen
 
 
 
-Häufig gestellte Fragen. 
+. 
 ------
 
 
