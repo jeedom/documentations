@@ -72,7 +72,7 @@ que configurarlos una vez).
 -   **** : muestra la curva como un
     escalera o pantalla continua.
 
--   **** : muestra la diferencia en valor de
+-   **Variación** : muestra la diferencia en valor de
     punto anterior.
 
 -   **** : muestra el gráfico como líneas.
@@ -105,7 +105,7 @@ Una vez que se activan los datos, puede elegir :
 -   **** : permite apilar los valores de las curvas (ver en
     a continuación para el resultado).
 
--   **** : muestra la diferencia en valor de
+-   **Variación** : muestra la diferencia en valor de
     punto anterior.
 
 Opción en la página del historial 

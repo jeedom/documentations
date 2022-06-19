@@ -99,6 +99,6 @@ Les télécommandes “Smile” ont un canal, elles sont idéales pour la table 
 
 .
 
-> **Note**
+> ****
 >
 > .

@@ -182,7 +182,7 @@ Cada uno de estos bloques tiene sus opciones para manejarlos mejor :
 
 #### Si / Entonces / De lo contrario bloquea, Bucle, In y A
 
-> ****
+> **Nota**
 >
 > En bloques Si / Entonces / De lo contrario, flechas circulares ubicadas
 > a la izquierda del campo de condición permite activar o no el

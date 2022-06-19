@@ -4,7 +4,7 @@ usarlo) estado de salud por complemento.
 
 La página es accesible por Análisis → Salud
 
-> ****
+> **Nota**
 >
 > Haga clic en el icono a la derecha para acceder al punto de referencia de su
 > .
@@ -28,11 +28,11 @@ encuentra los iconos :
 
 -   Estado general del complemento
 
-> ****
+> **Nota**
 >
 > Los iconos pueden variar según el complemento
 
-> ****
+> **Nota**
 >
 > Generalmente cuando la línea es verde, todo está bien
 > y cuando está rojo, hay un problema.

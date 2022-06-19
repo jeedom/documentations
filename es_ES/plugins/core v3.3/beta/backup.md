@@ -104,7 +104,7 @@ diferente porque no es posible guardar las inclusiones.
 Estos se incluyen directamente en el controlador, por lo que debe
 mantener el mismo controlador para encontrar sus módulos Zwave.
 
-> ****
+> **Nota**
 >
 > El sistema en el que está instalado Jeedom no está respaldado. si
 > ha modificado los parámetros de este sistema (en particular a través de SSH),

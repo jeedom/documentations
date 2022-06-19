@@ -133,7 +133,7 @@ o pasar parámetros particulares.
  
 ========
 
-> ****
+> **Nota**
 >
 > Las capturas de pantalla pueden ser diferentes en vista de los desarrollos.
 
@@ -542,7 +542,7 @@ Entonces podemos ver una expresión regular :
 Esto le permite eliminar todos los pedidos que tengan uno de estos
 palabras en su oración
 
-> ****
+> **Nota**
 >
 > La expresión regular aquí es una versión simplificada para un uso fácil.
 > Entonces podemos usar expresiones tradicionales o
@@ -568,7 +568,7 @@ la respuesta para asegurarse de que Jeedom entendió la solicitud correctamente.
 \* Acción : ponemos una acción sobre la lámpara que queremos conducir y en
 el valor le pasamos nuestra etiqueta **.
 
-> ****
+> **Nota**
 >
 > Puede usar cualquier etiqueta excepto las que ya usa
 > Jeedom, puede haber varios para conducir, por ejemplo
@@ -658,7 +658,7 @@ usar etiquetas \#time# (si se define un tiempo específico) o
 
 ![interact23](./images/interact23.JPG)
 
-> ****
+> **Nota**
 >
 > Notará en la respuesta la etiqueta \#value# este contiene
 > en el caso de una interacción programada, el tiempo de programación

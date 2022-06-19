@@ -116,7 +116,7 @@ Una vez hecho esto, tiene acceso a las siguientes opciones :
 -   **** : apilar la curva con las curvas de otro tipo
     empiler
 
--   **** : grafica solo variaciones con valor
+-   **Variación** : grafica solo variaciones con valor
     anterior
 
 > ****
@@ -133,7 +133,7 @@ Aqui tienes los botones :
 
 -   **Agregar línea** : agregar una fila a la mesa
 
-> ****
+> **Nota**
 >
 > Es posible reorganizar las líneas arrastrando y soltando, pero no
 > las columnas
@@ -141,9 +141,9 @@ Aqui tienes los botones :
 Una vez que haya agregado sus filas / columnas, puede agregar
 información en las cajas :
 
--   **** : solo texto para escribir
+-   **texto** : solo texto para escribir
 
--   **** : cualquier código html (javascript posible pero
+-   **html** : cualquier código html (javascript posible pero
     fuertemente desanimado)
 
 -   **widget de comando** : el botón de la derecha te permite elegir
