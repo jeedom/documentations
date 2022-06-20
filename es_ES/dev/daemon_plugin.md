@@ -1,26 +1,26 @@
-# 
+# Demonios y Adicciones
 
 ## Introduction
 
- [](/es_ES/dev/tutorial_plugin)  [](/es_ES/dev/plugin_template) ).
-.
+En el [tutorial](/es_ES/dev/tutorial_plugin) y la [documentación](/es_ES/dev/plugin_template) aprendió a codificar su primer complemento con acciones relativamente simples activadas por el usuario a través de un comando de acción o por una tarea programada por el núcleo (los crones).
+Luego, el complemento puede obtener información puntualmente (por ejemplo, a través de una solicitud http) o realizar todo tipo de operaciones, siempre que se pueda codificar en PHP.
 
-:
+Pasará que necesitas más que eso, algunos ejemplos sin ser exhaustivos:
 
-- ...)
-- )
-- 
-- 
+- usar recursos del sistema, por ejemplo, llave USB u otro hardware (bluetooth...)
+- mantener una conexión con un sistema remoto (en la red local o en Internet, pero no en jeedom))
+- mantener los procesos activos en segundo plano, lo que no ocurre con el código PHP que "vive" solo durante la ejecución de la solicitud http
+- hacer procesamiento en tiempo real
 
-".
-.
+Para esto, la mayoría de las veces usamos un "demonio".
+No entren en pánico, ya está todo planeado en el núcleo de jeedom para ayudarnos a poner en su lugar a este demonio y lo detallaremos aquí.
 
-## 
+## Estructura de archivos de un demonio
 
-.
-..
+El código y/o el ejecutable de su daemon obviamente debe estar en la estructura de árbol de su complemento y, por lo tanto, debe incluirse y entregarse con el archivo durante la instalación de un complemento.
+No existe una regla estricta y rápida sobre la ubicación exacta de su daemon, sin embargo, la convención es colocarlo en `./resources/ del complemento.
 
- [](/es_ES/compatibility/).
+ [plataformas compatibles con Jeedom](/es_ES/compatibility/).
  ..
 
 . .
@@ -55,7 +55,7 @@
 .
 .
 
-> ****
+> **Atención**
 >
 > ). .
 
@@ -80,7 +80,7 @@
 
 .:
 
-python
+```python
 "
 
 '
@@ -129,11 +129,11 @@ try:
 :
      : '))
     shutdown()
-
+```
 
 :
 
-python
+```python
 
 .
 .
@@ -141,16 +141,16 @@ python
 ' # emplacement par défaut du pidfile, ce fichier est utiliser par Jeedom pour savoir si votre démon est démarrer ou pas; nom du démon à modifier comme expliqué ci-dessus;
 
  = '' ## )
+```
 
-
-> ****
+> **Atención**
 >
 > : . ). .
 
 .
 .
 
-python
+```python
 :
     ="):
         ("=")
@@ -164,26 +164,26 @@ python
         ("=")
     ="):
         ("=")
-
+```
 
 :
 
-python
+```python
 )
 )
-
+```
 
 :
 
-python
+```python
 ):
     ))
     shutdown()
-
+```
 
 :
 
-python
+```python
 ():
     ")
     ))
@@ -202,17 +202,17 @@ python
     ")
     ()
     )
-
+```
 
 .
 
-> ****
+> **Atención**
 >
 > ..
 
 :
 
-python
+```python
 try:
     
     
@@ -224,11 +224,11 @@ try:
 :
      : '))
     shutdown()
-
+```
 
 :
 
-python
+```python
 ():
     ()
     try:
@@ -237,13 +237,13 @@ python
             ()
     :
         shutdown()
+```
 
 
 
 
 
-
-python
+```python
 ():
     
     ():
@@ -256,18 +256,18 @@ python
             '
         :
              : '))
-
+```
 
 .
 
 :
 
-python
+```python
         try:
             '
         :
              : '))
-
+```
 
 .
 
@@ -281,7 +281,7 @@ python
 
 .:
 
-json
+```json
 {
     "id" : "pluginID",
     "name" : "pluginName",
@@ -291,7 +291,7 @@ json
     "maxDependancyInstallTime" : 10,
     ...
 }
-
+```
 
 .
 
@@ -308,7 +308,7 @@ json
 .
 .
 
-php
+```php
     () {
         $ = array();
         $return['log'] = __CLASS__;
@@ -317,7 +317,7 @@ php
         )) {
             )))) {
                 $return['state'] = 'ok';
-            }  {
+            } más {
                 ::getCmdSudo() . ' ' . $pid_file . ' 
             }
         }
@@ -335,11 +335,11 @@ php
             $return['launchable'] = 'nok';
             $return['launchable_message'] = __('La clé d\'application n\'est pas configurée', __FILE__);
         }
-        
+        devolver $retorno;
     }
+```
 
-
-> ****
+> **Atención**
 >
 > .
 
@@ -352,7 +352,7 @@ php
 .
 .
 
-php
+```php
     () {
         self::
         $deamon_info = self::deamon_info();
@@ -387,7 +387,7 @@ php
         message::
         
     }
-
+```
 
 .
 
@@ -398,7 +398,7 @@ php
 
 : .
 
-php
+```php
     () {
         $pid_file = jeedom::) . '/deamon.pid'; // ne pas modifier
         )) {
@@ -408,7 +408,7 @@ php
         system::
         sleep(1);
     }
-
+```
 
 .. .
 
@@ -425,7 +425,7 @@ php
 
 .
 
-php
+```php
     ) {
         $deamon_info = self::deamon_info();
         '] != 'ok') {
@@ -438,13 +438,13 @@ php
         
         
     }
-
+```
 
 .
 
 :
 
-python
+```python
         '] != _apikey:
              : " ))
             return
@@ -452,7 +452,7 @@ python
             '
         :
              : '))
-
+```
 
 "
 
@@ -462,13 +462,13 @@ python
 
 :
 
-php
+```php
 <?php
 
  {
     
 
-     (!jeedom::
+    si (!jeedom::
         
         die();
     }
@@ -477,7 +477,7 @@ php
         die();
     }
     $result = json_decode(file_get_contents("php://input"), true);
-     (!)) {
+    si (!)) {
         die();
     }
 
@@ -485,58 +485,58 @@ php
         
     } '])) {
         
-    }  {
+    } más {
         log::
     }
 } ) {
     log::
 }
-
+```
 
 :
 
-php
-     (!jeedom::
+```php
+    si (!jeedom::
         
         die();
     }
-
+```
 
 .):
 
-php
+```php
     ') != '') {
         
         die();
     }
-
+```
 
 :
 
-php
+```php
     $result = json_decode(file_get_contents("php://input"), true);
-     (!)) {
+    si (!)) {
         die();
     }
-
+```
 
 :
 
-php
+```php
     '])) {
         
     } '])) {
         
-    }  {
+    } más {
         log::
     }
-
+```
 
 :
 
-python
+```python
 ' : '' : 'value2' })
-
+```
 
 : .
 
@@ -552,7 +552,7 @@ python
 
 :
 
-json
+```json
 {
     "id" : "pluginID",
     "name" : "pluginName",
@@ -562,7 +562,7 @@ json
     "maxDependancyInstallTime" : 10,
     ...
 }
-
+```
 
 . . .
 
@@ -574,12 +574,12 @@ json
 
 . 
 
-php
+```php
     () {
         log::
         #stype#. ' . jeedom::) . '::
     }
-
+```
 
 .
 
@@ -592,7 +592,7 @@ php
 
 :
 
-bash
+```bash
 
 
  ! -
@@ -628,20 +628,20 @@ fi
  "*            *"
  "***************************"
 }
-
+```
 
 :
 
 ...
 -).
 
-bash
+```bash
 
 
  ! -
     
 fi
-
+```
 
 : ).
 
@@ -652,7 +652,7 @@ fi
 - .
 - : ....
 
-> ****
+> **Atención**
 >
 > . . . .
 
@@ -666,28 +666,28 @@ fi
 
 :
 
-php
+```php
     () {
         $ = array();
         $return['log'] = log::getPathToLog(__CLASS__ . '_update');
         $return['progress_file'] = jeedom::) . '/dependency';
         ::) . '/dependency')) {
             $return['state'] = 'in_progress';
-        }  {
-            ::getCmdSudo() . system::') . '-||
+        } más {
+            ::getCmdSudo() . system::') . '-Ec "python3\-solicitudes|python3\-voluptuosa|python3\-bs4"') < 3) { // adapta la lista de paquetes y el total
                 $return['state'] = 'nok';
-            } ::getCmdSudo() . ' | 
+            } ::getCmdSudo() . 'lista pip3 | grep -Ewc "aiohttp"') < 1) { // adapta la lista de paquetes y el total
                 $return['state'] = 'nok';
-            }  {
+            } más {
                 $return['state'] = 'ok';
             }
         }
-        
+        devolver $retorno;
     }
+```
 
+: `system::getCmdSudo() . system::') . '-Ec "python3\-solicitudes|python3\-voluptuosa|python3\-bs4"'`. : .
 
-: `system::getCmdSudo() . system::') . '-||. : .
-
-:  | . : 
+: `lista de pip3 | grep -Ewc "aiohttp"'`. : 
 
 : .
