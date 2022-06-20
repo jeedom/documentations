@@ -4,11 +4,11 @@ tu imaginación.
 
 Es accesible por Inicio → Diseño
 
-> **Consejo**
+> ****
 >
 > Es posible ir directamente a un diseño gracias al submenú.
 
-> **Importante**
+> ****
 >
 > Todas las acciones se realizan haciendo clic derecho en esta página, atención
 > hacerlo bien en diseño. Durante la creación, por lo tanto, es necesario
@@ -83,7 +83,7 @@ siguientes acciones :
 -   **** : permite guardar el diseño (atención, hay
     También copias de seguridad automáticas durante ciertas acciones)
 
-> **Importante**
+> ****
 >
 > La configuración de los elementos de diseño se realiza haciendo clic en
 > .
@@ -95,7 +95,7 @@ Encontrado aquí :
 
 -   **General**
 
-    -   **Apellido** : El nombre de su diseño
+    -   **** : El nombre de su diseño
 
     -   **Fondo transparente** : hace que el fondo sea transparente. Tenga cuidado si el
         la casilla está marcada, no se utiliza el color de fondo
@@ -123,11 +123,11 @@ Encontrado aquí :
 Configuración general de elementos 
 ===================================
 
-> **Nota**
+> ****
 >
 > Dependiendo del tipo de elemento, las opciones pueden cambiar.
 
-> **Nota**
+> ****
 >
 > El elemento seleccionado se resalta en rojo (en lugar de verde
 > para todos los demás).
@@ -145,12 +145,12 @@ Ajuste de la pantalla
 
 -   **Altura (px)** :
 
-Borrar 
+ 
 ---------
 
 Eliminar elemento
 
-Duplicar 
+ 
 ---------
 
 Le permite duplicar el elemento
@@ -218,7 +218,7 @@ Text / html
 
 -   **** : Texto en código HTML que estará en el elemento
 
-> **Importante**
+> ****
 >
 > Si coloca código HTML (especialmente Javascript), tenga cuidado
 > para comprobarlo antes porque puedes hacerlo si hay un error
@@ -239,7 +239,7 @@ No hay configuraciones de visualización específicas
 Configuraciones de pantalla 
 ---------------------
 
--   **Apellido** : Nombre del enlace (texto mostrado)
+-   **** : Nombre del enlace (texto mostrado)
 
 -   **** : Enlace al diseño o vista en cuestión
 
@@ -277,7 +277,7 @@ Configuración avanzada
 Muestra la ventana de configuración avanzada del equipo (ver
 documentación resumida de domótica ("pantalla"))
 
-Ordenado 
+ 
 ========
 
 Configuraciones de pantalla 
@@ -324,7 +324,7 @@ en la zona
 ### Macro binaria 
 
 En este modo, Jeedom ejecutará las acciones de encendido o apagado en
-dependiendo del estado del pedido que da. Ex : si el pedido
+dependiendo del estado del pedido que da.  : si el pedido
 vale 0, entonces Jeedom ejecutará la (s) acción (es). De lo contrario, se ejecutará
 la (s) acción (es) Off
 

@@ -16,7 +16,7 @@ Aquí es donde podrá ajustar diferentes parámetros de su
 
     -   **** : Su inicio de sesión en el mercado, no se puede cambiar
 
-    -   **Apellido** : Su nombre (esta información solo es útil para
+    -   **** : Su nombre (esta información solo es útil para
         hacer que los correos electrónicos sean más divertidos)
 
     -   **Primer nombre** : Su nombre (esta información solo es útil
@@ -73,7 +73,7 @@ Para los profesionales :
     -   **Resumen** Aquí encontrarás un resumen de tus diferentes
         derechos y servicios
 
-> **Consejo**
+> ****
 >
 > No olvides guardar
 
@@ -82,7 +82,7 @@ Mis jeedoms
 
 -   ****
 
-    -   **Jeedom** : su nivel de paquete de servicio
+    -   **** : su nivel de paquete de servicio
 
     -   **Ingrese un número de paquete de servicio** : ingresemos su
         número de paquete de servicio (se puede encontrar en el correo electrónico enviado por
@@ -94,7 +94,7 @@ Mis jeedoms
         de las instalaciones de Jeedom actualmente vinculadas a su cuenta también
         que el límite permitido
 
-> **Consejo**
+> ****
 >
 > A veces el mercado puede pedirle que reinicie
 > sus claves de instalación, es normal, solo siga lo que
@@ -102,7 +102,7 @@ Mis jeedoms
 
 -   **Mis jeedoms** : Aquí es donde se enumeran todos tus Jeedoms
 
-    -   **Apellido** : el nombre que quieres darle a tu Jeedom (
+    -   **** : el nombre que quieres darle a tu Jeedom (
         encontrado en el nombre de la copia de seguridad si tiene la suscripción de
         Copia de seguridad en la nube)
 
@@ -132,7 +132,7 @@ Mis jeedoms
 
     -   **** : la versión de Jeedom instalada
 
-> **Consejo**
+> ****
 >
 > No olvides guardar
 
@@ -156,7 +156,7 @@ Mis compras / promociones / donaciones
 Aquí encontrará todas sus compras y puede solicitar la devolución del
 factura o recibo por correo electrónico
 
-> **Importante**
+> ****
 >
 > Si compra un complemento oficial, recibirá una factura. en
 > sin embargo, para un complemento de terceros es un recibo, para la factura es necesario

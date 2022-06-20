@@ -803,7 +803,7 @@ Changelog
 
 -   Jeedom sabe cómo gestionar varias interacciones vinculadas (contextualmente)
     en uno. Deben estar separados por una palabra clave (por defecto y).
-    Ejemplo : "¿Cuánto cuesta en el dormitorio y en la sala de estar? "O
+     : "¿Cuánto cuesta en el dormitorio y en la sala de estar? "O
     "Enciende la luz de la cocina y del dormitorio."
 
 -   El estado de los escenarios en la página de edición ahora se establece en
@@ -1177,7 +1177,7 @@ Changelog
 -   Posibilidad de desactivar un bloque en un escenario
 
 -   Adición para desarrolladores de un sistema de ayuda de información sobre herramientas. Hay que
-    sur un label mettre la classe « help » y mettre un attribut
+    sur un label mettre la classe « help »  mettre un attribut
     ayuda de datos con el mensaje de ayuda deseado. Esto permite a Jeedom
     agregue automáticamente un icono al final de su etiqueta « ? » et
     al pasar el ratón para mostrar el texto de ayuda
@@ -1274,7 +1274,7 @@ Changelog
 -   Posibilidad de desactivar un bloque en un escenario
 
 -   Adición para desarrolladores de un sistema de ayuda de información sobre herramientas. Hay que
-    sur un label mettre la classe « help » y mettre un attribut
+    sur un label mettre la classe « help »  mettre un attribut
     ayuda de datos con el mensaje de ayuda deseado. Esto permite a Jeedom
     agregue automáticamente un icono al final de su etiqueta « ? » et
     al pasar el ratón para mostrar el texto de ayuda

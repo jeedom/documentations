@@ -9,7 +9,7 @@ Para acceder, vaya a Administración → Registros :
 
 La página de registros es bastante simple, en la parte superior izquierda hay una lista desplegable
 permitiendo la elección del registro para ver, en la parte superior derecha tienes 5
-botones :
+ :
 
 -   **** : permite filtrar el cartel de registro
 
@@ -20,12 +20,12 @@ botones :
 
 -   **** : permite vaciar el registro actual,
 
--   **Borrar** : eliminar el registro actual, si Jeedom tiene alguna
+-   **** : eliminar el registro actual, si Jeedom tiene alguna
     necesitarlo lo recreará automáticamente,
 
 -   **Eliminar todos los registros** : eliminar todos los registros presentes.
 
-> **Consejo**
+> ****
 >
 > Tenga en cuenta que el registro http.el error no se puede eliminar. Es esencial
 > ! si lo elimina (en la línea de comando, por ejemplo) no lo hará

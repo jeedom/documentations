@@ -75,7 +75,7 @@ TTS, puedes definir su alcance :
 
 Dos partes reservadas para expertos están presentes en esta pestaña.
 
-> **Importante**
+> ****
 >
 >  : Si modifica Jeedom con una de estas dos soluciones,
 > el apoyo puede negarse a ayudarlo.
@@ -155,7 +155,7 @@ Es posible acceder a Jeedom de dos maneras diferentes : L'**acceso
 interne** (de la misma red local que Jeedom) y l'**acceso
 externe** (de otra red, especialmente de Internet).
 
-> **Importante**
+> ****
 >
 > Esta parte está ahí para explicarle a Jeedom su entorno :
 > cambiar el puerto o la IP en esta pestaña no cambiará el
@@ -199,13 +199,13 @@ externe** (de otra red, especialmente de Internet).
     -   **Complementar** : el fragmento de URL adicional (ejemplo
         : / jeedom) para acceder a Jeedom.
 
-> **Consejo**
+> ****
 >
 > Si está en HTTPS, el puerto es 443 (por defecto) y en HTTP el
 > el puerto es 80 (predeterminado). Para usar HTTPS desde afuera,
 > un complemento de letsencrypt ya está disponible en el mercado.
 
-> **Consejo**
+> ****
 >
 > Para saber si necesita establecer un valor en el campo
 > **Complementar**, mira, cuando inicias sesión en Jeedom en
@@ -230,7 +230,7 @@ externe** (de otra red, especialmente de Internet).
 
     -   **** : permite detener y reiniciar el servicio DNS
 
-> **Importante**
+> ****
 >
 > Si no puede hacer que funcione Jeedom DNS, consulte el
 > configuración del cortafuegos y filtro parental de su caja de Internet
@@ -260,7 +260,7 @@ widgets a nivel mundial (este será el valor predeterminado. El es
 entonces es posible modificar este valor widget por widget). Para no
 no ponga transparencia, deje 1.0 .
 
-> **Consejo**
+> ****
 >
 > No olvide guardar después de cualquier modificación.
 
@@ -312,7 +312,7 @@ historial de pedidos.
     de una orden. Cuanto más corto sea el período, más rápido será Jeedom
     para mostrar el gráfico solicitado.
 
-> **Nota**
+> ****
 >
 > El primer parámetro **Ver estadísticas de widgets** est
 > posible pero deshabilitado por defecto porque alarga significativamente el
@@ -328,10 +328,10 @@ historial de pedidos.
 
 **URL de inserción global** : permite agregar una URL para llamar en caso de
 orden de actualización. Puedes usar las siguientes etiquetas :
-**\#value\#** por el valor del pedido, **\#cmd\_name\#** para el
-nombre del comando, **\#cmd\_id\#** para el identificador único de la
-commande, **\#humanname\#** para el nombre completo de la orden (ej :
-\#\[Salle de bain\]\[Hydrometrie\]\[Humidité\]\#), ``#eq_name#`para el nombre del equipo
+**#value#** por el valor del pedido, **#cmd_name#** para el
+nombre del comando, **#cmd_id#** para el identificador único de la
+commande, **#humanname#** para el nombre completo de la orden (ej :
+#[Salle de bain][Hydrometrie][Humidité]#), ``#eq_name#`para el nombre del equipo
 
  
 =====
@@ -352,13 +352,13 @@ Permite monitorear y actuar en el caché Jeedom :
     la interfaz se actualizará rápidamente, a cambio esto
     usa más recursos y, por lo tanto, puede ralentizar a Jeedom.
 
-Interacciones 
+ 
 ============
 
 Esta pestaña le permite establecer parámetros globales relacionados con
 interacciones que encontrarás en Herramientas → Interacciones.
 
-> **Consejo**
+> ****
 >
 > Para activar el registro de interacción, vaya a la pestaña
 > Administración → Configuración → Registros, luego marque **** en la lista
@@ -412,17 +412,17 @@ Interacción automática, contextual y advertencia
 
         -   ** : Cuanto esta el en el cuarto ?
 
-        -   *Jeedom* : Temperatura 25.2 ° C
+        -   ** : Temperatura 25.2 ° C
 
         -   ** : y en la sala de estar ?
 
-        -   *Jeedom* : Temperatura 27.2 ° C
+        -   ** : Temperatura 27.2 ° C
 
     -   *Haz dos preguntas en una :*
 
         -   ** : ¿Cómo es en el dormitorio y en la sala de estar? ?
 
-        -   *Jeedom* : Temperatura 23.6 ° C, temperatura 27.2 ° C
+        -   ** : Temperatura 23.6 ° C, temperatura 27.2 ° C
 
 -   Interacciones de tipo **Avísame** preguntemos
     Jeedom para notificarle si un pedido excede / desciende o vale la pena
@@ -430,10 +430,10 @@ Interacción automática, contextual y advertencia
 
     -   ** : Notificarme si la temperatura de la sala supera los 25 ° C ?
 
-    -   *Jeedom* : OK (* Tan pronto como la temperatura de la sala supere los 25 ° C,
+    -   ** : OK (* Tan pronto como la temperatura de la sala supere los 25 ° C,
         Jeedom te dirá, solo una vez*)
 
-> **Nota**
+> ****
 >
 > Por defecto, Jeedom te responderá por el mismo canal que el que tú
 > solía pedirle que te notificara. Si no encuentra uno
@@ -548,7 +548,7 @@ en la parte superior derecha, en la barra de menú de Jeedom, o al lado de
 
 -   **** : Clave para el resumen, especialmente para no tocar.
 
--   **Apellido** : Nombre abstracto.
+-   **** : Nombre abstracto.
 
 -   **** : Método de cálculo, puede ser de tipo :
 
@@ -582,7 +582,7 @@ en la parte superior derecha, en la barra de menú de Jeedom, o al lado de
  
 ====
 
-Línea de tiempo 
+ 
 --------
 
 -   **Numero maximo de eventos** : Establece el número máximo en
@@ -749,13 +749,13 @@ una parte de Samba (ex : Sinología NAS).
 -   **\ [Copia de seguridad \] Ruta** : Ruta en compartir (para establecer
     relativo), debe existir.
 
-> **Nota**
+> ****
 >
 > Si la ruta a su carpeta de copia de seguridad samba es :
 > \\\\ 192.168.0.1 \\ Copias de seguridad \\ Automatización del hogar \\ Jeedom Entonces IP = 192.168.0.1
 > , Compartir = //192.168.0.1 / Copias de seguridad, Ruta = Domótica / Jeedom
 
-> **Nota**
+> ****
 >
 > Al validar el recurso compartido Samba, como se describió anteriormente,
 > aparece una nueva forma de respaldo en la sección
@@ -763,12 +763,12 @@ una parte de Samba (ex : Sinología NAS).
 > cuando se envía automáticamente en la próxima copia de seguridad. Una prueba es
 > posible realizando una copia de seguridad manual.
 
-> **Importante**
+> ****
 >
 > Es posible que deba instalar el paquete smbclient para
 > obras de depósito.
 
-> **Importante**
+> ****
 >
 > El protocolo Samba tiene varias versiones, el v1 está comprometido a nivel 
 > seguridad y en algunos NAS puede obligar al cliente a usar v2
@@ -781,7 +781,7 @@ una parte de Samba (ex : Sinología NAS).
 > El smbclient del lado de Jeedom usará v2 donde v3 y al poner SMB3 solo en ambos
 > . Entonces, depende de usted adaptarse según las restricciones en el NAS u otro servidor Samba
 
-> **Importante**
+> ****
 >
 > Jeedom debería ser el único en escribir en esta carpeta y debería estar vacío
 > de forma predeterminada (es decir, antes de configurar y enviar el

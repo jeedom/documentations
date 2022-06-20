@@ -12,7 +12,7 @@ Para acceder, nada más simple, solo ve a Herramientas ->
 Escenarios. Encontrará allí la lista de escenarios para su Jeedom también
 solo funciones para gestionarlos mejor :
 
--   **Para agregar** : Crea un escenario. Se describe el procedimiento
+-   **** : Crea un escenario. Se describe el procedimiento
     en el siguiente capitulo.
 
 -   **Deshabilitar escenarios** : Deshabilita todos los escenarios.
@@ -25,7 +25,7 @@ solo funciones para gestionarlos mejor :
 -   **Resumen** : Le permite tener una visión general de todos
     los escenarios. Puedes cambiar los valores ****,
     ****, **lanzamiento múltiple**, **modo síncrono**, **** et
-    **Línea de tiempo** (estos parámetros se describen en el siguiente capítulo).
+    **** (estos parámetros se describen en el siguiente capítulo).
     También puede acceder a los registros para cada escenario y
     comenzar individualmente.
 
@@ -50,7 +50,7 @@ menu.
 Editar un escenario
 =====================
 
-Después de hacer clic en **Para agregar**, debes elegir el nombre de tu
+Después de hacer clic en ****, debes elegir el nombre de tu
 escenario y se le redirige a su página de configuración general.
 En la parte superior, hay algunas funciones útiles para administrar nuestro escenario
 :
@@ -67,7 +67,7 @@ En la parte superior, hay algunas funciones útiles para administrar nuestro esc
     sin guardar de antemano !). Los desencadenantes por lo tanto no son
     no tomado en cuenta.
 
--   **Borrar** : Eliminar escenario.
+-   **** : Eliminar escenario.
 
 -   **** : Guardar los cambios realizados.
 
@@ -78,7 +78,7 @@ En la parte superior, hay algunas funciones útiles para administrar nuestro esc
 
 -   **** : Muestra los registros del escenario.
 
--   **Duplicar** : Copie el escenario para crear uno
+-   **** : Copie el escenario para crear uno
     nuevo con otro nombre.
 
 -   **** : Le permite ver el gráfico de los elementos vinculados
@@ -94,10 +94,10 @@ nuestro escenario :
 
 -   **Nombre para mostrar** : El nombre utilizado para su visualización.
 
--   **Banda** : Le permite organizar los escenarios, clasificándolos en
+-   **** : Le permite organizar los escenarios, clasificándolos en
     grupos.
 
--   **Activo** : Activa el escenario.
+-   **** : Activa el escenario.
 
 -   **** : Se usa para hacer visible el escenario.
 
@@ -125,7 +125,7 @@ nuestro escenario :
     ambos al mismo tiempo. Luego tendrá la opción de indicar el (s))
     disparador (es) (tenga cuidado, hay un límite para el número de disparadores posibles por escenario de 15) y la programación (s)).
 
-> **Consejo**
+> ****
 >
 >  : puedes tener un máximo de 28
 > disparadores / programación para un escenario.
@@ -134,10 +134,10 @@ Pestaña Escenario
 ---------------
 
 Aquí es donde construirás tu escenario. Tenemos que empezar
-por **agregar un bloque**, con el botón de la derecha. Una vez un bloque
+ **agregar un bloque**, con el botón de la derecha. Una vez un bloque
 creado, puedes agregar otro **** o un ****.
 
-> **Consejo**
+> ****
 >
 > En condiciones y acciones, es mejor favorecer comillas simples (') en lugar de dobles (")
 
@@ -148,7 +148,7 @@ Aquí están los diferentes tipos de bloques disponibles :
 -   **If / Then / O** : Le permite realizar acciones
     bajo condiciones).
 
--   **Valores** : Le permite lanzar acciones simples sin
+-   **** : Le permite lanzar acciones simples sin
     sin condiciones.
 
 -   **** : Le permite realizar acciones repetidamente
@@ -161,7 +161,7 @@ Aquí están los diferentes tipos de bloques disponibles :
     Entonces es un bloque sin bloqueo.
 
 -   **** : Permite decirle a Jeedom que inicie las acciones del bloque en un
-    tiempo dado (en la forma hhmm). Este bloque no es bloqueante. Ex :
+    tiempo dado (en la forma hhmm). Este bloque no es bloqueante.  :
     0030 para 00:30, o 0146 para 1h46 y 1050 para 10h50.
 
 -   **** : Le permite escribir directamente en código PHP (solicitud
@@ -182,7 +182,7 @@ Cada uno de estos bloques tiene sus opciones para manejarlos mejor :
 
 #### Si / Entonces / De lo contrario bloquea, Bucle, In y A
 
-> **Nota**
+> ****
 >
 > En bloques Si / Entonces / De lo contrario, flechas circulares ubicadas
 > a la izquierda del campo de condición permite activar o no el
@@ -199,7 +199,7 @@ seleccione un elemento para probar :
     Jeedom abre una ventana para preguntarte qué prueba quieres
     actuar en ello. Si eliges **No poner nada**,
     Jeedom agregará el pedido sin comparación. Usted puede también
-     **y**  ****  **** para encadenar pruebas
+     ****  ****  **** para encadenar pruebas
     en diferentes equipos.
 
 -   **Buscar un escenario** : Permite buscar un escenario
@@ -207,7 +207,7 @@ seleccione un elemento para probar :
 
 -   **Busca equipo** : Lo mismo para el equipo.
 
-> **Consejo**
+> ****
 >
 > Hay una lista de etiquetas que permiten el acceso a las variables
 > del guión u otro, o por hora, fecha, un
@@ -218,19 +218,19 @@ Una vez que se complete la condición, debe usar el botón
 "agregar ", izquierda, para agregar un nuevo **** o un
 **** en el bloque actual.
 
-> **Consejo**
+> ****
 >
 > NO DEBE utilizar [] en pruebas de condición, solo son posibles paréntesis ()
 
 #### Código de bloque
 
-> **Importante**
+> ****
 >
 > Tenga en cuenta que las etiquetas no están disponibles en un bloque de código.
 
 Controles (sensores y actuadores):
 -   cmd::byString ($ cadena); : Devuelve el objeto de comando correspondiente.
-  -   $string : Enlace al pedido deseado : #[objet][][commande]# ( : #[Appartement][Alarme][Activo]#)
+  -   $string : Enlace al pedido deseado : #[objet][][commande]# ( : #[Appartement][Alarme][]#)
 -   cmd::BYID ($ id); : Devuelve el objeto de comando correspondiente.
   -   $id : ID de pedido
 -   $cmd->execCmd($options = null); : Ejecute el comando y devuelva el resultado.
@@ -283,7 +283,7 @@ Las acciones agregadas a los bloques tienen varias opciones. En el orden :
 
 -   Un botón para buscar un comando de acción.
 
-> **Consejo**
+> ****
 >
 > Dependiendo del comando seleccionado, podemos ver diferentes
 > campos adicionales mostrados.
@@ -326,9 +326,9 @@ comparaciones en condiciones :
 
 -   == : igual a,
 
--   \> : estrictamente mayor que,
+-   > : estrictamente mayor que,
 
--   \>= : mayor o igual que,
+-   >= : mayor o igual que,
 
 -   < : estrictamente menor que,
 
@@ -347,9 +347,9 @@ Puedes combinar cualquier comparación con operadores
 
 -   &amp;&amp; / ET / y / AND / y : et,
 
--   \|| / OR / o / OR / o : ou,
+-   || / OR / o / OR / o : ou,
 
--   \|^/XOR/xor : o exclusivo.
+-   |^/XOR/xor : o exclusivo.
 
 Etiquetas
 --------
@@ -357,7 +357,7 @@ Etiquetas
 Una etiqueta se reemplaza durante la ejecución del escenario por su valor. Vosotras
 puede usar las siguientes etiquetas :
 
-> **Consejo**
+> ****
 >
 > Para mostrar los ceros a la izquierda, use el
 > Función de fecha (). Ver
@@ -412,7 +412,7 @@ desencadenado por una interacción :
 -   #profil# : perfil del usuario que inició el escenario
     (puede estar vacío).
 
-> **Importante**
+> ****
 >
 > Cuando un escenario se desencadena por una interacción, es
 > necesariamente se ejecuta en modo rápido.
@@ -536,7 +536,7 @@ Hay varias funciones disponibles para el equipo :
 
 -   nombre (tipo, comando) : Se usa para recuperar el nombre del comando,
     equipo u objeto. El tipo vale cmd, eqLogic o
-    objeto.
+    .
 
 -   lastCommunication (equipo, [formato]) : Devuelve la fecha de la última comunicación
     para el equipo dado como parámetro, el segundo parámetro opcional
@@ -571,13 +571,13 @@ estas diferentes funciones :
 |--------------------------------------|--------------------------------------|
 | promedio (captura, período)             | Devuelve el promedio de 0 y 1 (puede  |
 |                                      | ser influenciado por las encuestas)      |
-| averageBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,:00::00:00) | Devuelve el pedido promedio entre el 1 de enero de 2015 y el 15 de enero de 2015                         |
+| averageBetween(#[Salle de bain][Hydrometrie][Humidité]#,:00::00:00) | Devuelve el pedido promedio entre el 1 de enero de 2015 y el 15 de enero de 2015                         |
 | min (captura, período)                 | Devuelve 0 : el tapón se apagó durante el período              |
-| minBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,:00::00:00) | Devuelve el pedido mínimo entre el 1 de enero de 2015 y el 15 de enero de 2015                         |
+| minBetween(#[Salle de bain][Hydrometrie][Humidité]#,:00::00:00) | Devuelve el pedido mínimo entre el 1 de enero de 2015 y el 15 de enero de 2015                         |
 | max (captura, período)                 | Devuelve 1 : el enchufe estaba bien iluminado en el período              |
-| maxBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,:00::00:00) | Devuelve el máximo del pedido entre el 1 de enero de 2015 y el 15 de enero de 2015                         |
+| maxBetween(#[Salle de bain][Hydrometrie][Humidité]#,:00::00:00) | Devuelve el máximo del pedido entre el 1 de enero de 2015 y el 15 de enero de 2015                         |
 | duración (tomado, 1, período)          | Devuelve 60 : el enchufe estuvo encendido (a 1) durante 60 minutos en el período                              |
-| durationBetween(\#[Salon][Prise][Etat]\#,0, el lunes pasado, ahora)   | Devuelve la duración en minutos durante la cual el socket estuvo apagado desde el lunes pasado.                |
+| durationBetween(#[Salon][Prise][Etat]#,0, el lunes pasado, ahora)   | Devuelve la duración en minutos durante la cual el socket estuvo apagado desde el lunes pasado.                |
 | estadísticas (captura, conteo, período)    | Devuelve 8 : hubo 8 escaladas en el período               |
 | tendencia (enchufe, período 0.1)        | Devuelve -1 : tendencia a la baja    |
 | stateDuration (tomado)               | Devuelve 600 : el enchufe ha estado en su estado actual durante 600 segundos (10 minutos)                             |
@@ -588,15 +588,15 @@ estas diferentes funciones :
 | StateChanges (tomado, período)        | Devuelve 3 : el enchufe cambió de estado 3 veces durante el período            |
 | stateChanges (take, 0, punto)      | Devuelve 2 : el zócalo se ha apagado (yendo a 0) dos veces durante el período                              |
 | cambios de estado (toma, 1, período)      | Devuelve 1 : el enchufe se enciende (cambie a 1) una vez durante el período                              |
-| lastBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,Ayer hoy) | Devuelve la última temperatura registrada ayer.                    |
+| lastBetween(#[Salle de bain][Hydrometrie][Humidité]#,Ayer hoy) | Devuelve la última temperatura registrada ayer.                    |
 | variable (plop, 10)                  | Devuelve el valor de la variable plop o 10 si está vacía o no existe                         |
-| scenario(\#[Salle de bain][Lumière][Auto]\#) | Devuelve 1 en progreso, 0 si se detiene y -1 si está desactivado, -2 si el escenario no existe y -3 si el estado no es consistente                         |
-| lastScenarioExecution(\#[Salle de bain][Lumière][Auto]\#)   | Devuelve 300 si el escenario se inició por última vez hace 5 minutos                                  |
-| collectDate(\#[Salle de bain][Hydrometrie][Humidité]\#)     | Devoluciones 2015-01-01 17:45:12          |
-| valueDate(\#[Salle de bain][Hydrometrie][Humidité]\#) | Devoluciones 2015-01-01 17:50:12          |
-| eqEnable(\#[Aucun][Basilique]\#)       | Devuelve -2 si no se encuentra el equipo, 1 si el equipo está activo y 0 si está inactivo          |
+| scenario(#[Salle de bain][Lumière][Auto]#) | Devuelve 1 en progreso, 0 si se detiene y -1 si está desactivado, -2 si el escenario no existe y -3 si el estado no es consistente                         |
+| lastScenarioExecution(#[Salle de bain][Lumière][Auto]#)   | Devuelve 300 si el escenario se inició por última vez hace 5 minutos                                  |
+| collectDate(#[Salle de bain][Hydrometrie][Humidité]#)     | Devoluciones 2015-01-01 17:45:12          |
+| valueDate(#[Salle de bain][Hydrometrie][Humidité]#) | Devoluciones 2015-01-01 17:50:12          |
+| eqEnable(#[Aucun][Basilique]#)       | Devuelve -2 si no se encuentra el equipo, 1 si el equipo está activo y 0 si está inactivo          |
 | etiqueta (montag, toto)                   | Devuelve el valor de "montag" si existe, de lo contrario devuelve el valor "toto"                               |
-| nombre (eqLogic, \#[Salle de bain][Hydrometrie][Humidité]\#)     | Hidrometría de devoluciones                  |
+| nombre (eqLogic, \#[Salle de bain][Hydrometrie][Humidité]#)     | Hidrometría de devoluciones                  |
 
 Funciones matematicas
 ---------------------------
@@ -654,8 +654,8 @@ Y ejemplos prácticos :
 |--------------------------------------|--------------------------------------|
 | randText (lo hace #[salon][oeil][température]#; La temperatura es #[salon][oeil][température]#; Actualmente tenemos #[salon][oeil][température]#) | la función devolverá uno de estos textos al azar en cada ejecución.                           |
 | randomColor(40,60)                 | Devuelve un color aleatorio cercano al verde.   
-| trigger(#[Salle de bain][Hydrometrie][Humidité]#)   | 1 si eso es bueno \#\[Salle de bain\]\[Hydrometrie\]\[Humidité\]\# quien inició el escenario de lo contrario 0  |
-| triggerValue(#[Salle de bain][Hydrometrie][Humidité]#) | 80 si la hidrometría de \#\[Salle de bain\]\[Hydrometrie\]\[Humidité\]\# es 80%.                         |
+| trigger(#[Salle de bain][Hydrometrie][Humidité]#)   | 1 si eso es bueno \#[Salle de bain][Hydrometrie][Humidité]# quien inició el escenario de lo contrario 0  |
+| triggerValue(#[Salle de bain][Hydrometrie][Humidité]#) | 80 si la hidrometría de \#[Salle de bain][Hydrometrie][Humidité]# es 80%.                         |
 | round(#[Salle de bain][Hydrometrie][Humidité]# ) | Devuelve 9 si el porcentaje de humedad y 85                     |
 | odd(3)                             | Devuelve 1                            |
 | median(15,25,20)                   | Devuelve 20                           |
@@ -767,7 +767,7 @@ En la cima puedes :
 
 -   **** : compartir la plantilla en el mercado,
 
--   **Borrar** : eliminar plantilla,
+-   **** : eliminar plantilla,
 
 -   **Descargar** : recuperar la plantilla como un archivo JSON
     para enviarlo de vuelta a otro Jeedom por ejemplo.

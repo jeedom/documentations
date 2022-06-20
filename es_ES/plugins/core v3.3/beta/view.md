@@ -4,11 +4,11 @@ minutos para tener una pantalla más personalizada.
 
 Se puede acceder a las vistas desde el menú Inicio → Ver :
 
-> **Consejo**
+> ****
 >
 > Es posible ir directamente a una vista gracias al submenú.
 
-> **Consejo**
+> ****
 >
 > Puede elegir la vista predeterminada en su perfil al hacer clic
 > en el menú de vistas.
@@ -24,7 +24,7 @@ En esta página, hay un botón en la parte superior izquierda para mostrar o
 ocultar la lista de vistas y el botón para agregar uno
 (Jeedom le preguntará su nombre y lo enviará a la página de edición) :
 
-> **Consejo**
+> ****
 >
 > Puede modificar esta opción en su perfil para que la lista
 > las vistas serán visibles por defecto.
@@ -39,7 +39,7 @@ pon todo lo que quieras). Cada zona es de tipo gráfico, widget
 o tabla, dependiendo del tipo que pueda poner widgets
 de equipo, control o gráficos en él.
 
-> **Consejo**
+> ****
 >
 > Puede mover el orden de las zonas arrastrando y soltando.
 
@@ -60,7 +60,7 @@ En cada zona tienes las siguientes opciones generales :
 
 -   **** : permite cambiar el nombre de la zona
 
--   **Borrar** : permite eliminar la zona
+-   **** : permite eliminar la zona
 
 Área de tipo de widget 
 -------------------
@@ -70,12 +70,12 @@ Un área de tipo de widget le permite agregar widgets :
 -   **Agregar widget** : agregar / editar widgets a
     mostrar en el área
 
-> **Consejo**
+> ****
 >
 > Puede eliminar un widget directamente haciendo clic en el
 > bote de basura en frente de este.
 
-> **Consejo**
+> ****
 >
 > Es posible cambiar el orden de los widgets en el área por
 > arrastrar / soltar.
@@ -98,28 +98,28 @@ Cuando presiona el botón &quot;Agregar curva&quot;, Jeedom muestra la lista
 comandos históricos y puede elegir los que desea agregar, un
 Una vez hecho esto, tiene acceso a las siguientes opciones :
 
--   **Bote de basura** : eliminar comando del gráfico
+-   **** : eliminar comando del gráfico
 
--   **Apellido** : nombre del comando graficado
+-   **** : nombre del comando graficado
 
--   **Color** : color de la curva
+-   **** : color de la curva
 
--   **Tipo** : tipo de curva
+-   **** : tipo de curva
 
 -   **** : permite la agrupación de datos (tipo máximo
     por día)
 
--   **Escalera** : escala (derecha o izquierda) de la curva
+-   **** : escala (derecha o izquierda) de la curva
 
--   **Escalera** : muestra la curva escalonada
+-   **** : muestra la curva escalonada
 
--   **Pila** : apilar la curva con las curvas de otro tipo
+-   **** : apilar la curva con las curvas de otro tipo
     empiler
 
--   **Variación** : grafica solo variaciones con valor
+-   **** : grafica solo variaciones con valor
     anterior
 
-> **Consejo**
+> ****
 >
 > Es posible cambiar el orden de los gráficos en el área por
 > arrastrar / soltar.
@@ -133,7 +133,7 @@ Aqui tienes los botones :
 
 -   **Agregar línea** : agregar una fila a la mesa
 
-> **Nota**
+> ****
 >
 > Es posible reorganizar las líneas arrastrando y soltando, pero no
 > las columnas

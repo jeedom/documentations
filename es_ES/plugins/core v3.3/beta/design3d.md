@@ -2,7 +2,7 @@ Esta página le permite crear una vista 3D de su hogar que puede reaccionar depe
 
 Es accesible por Inicio → Panel de control
 
-> **Consejo**
+> ****
 >
 > Es posible ir directamente a un diseño 3D gracias al submenú.
 
@@ -43,7 +43,7 @@ Haga clic en el botón &quot;enviar&quot; en el nivel &quot;Modelo 3D&quot; y se
 >
 > Debes tener un archivo zip
 
-> **Consejo**
+> ****
 >
 > Una vez que se haya importado el archivo (puede ser bastante largo dependiendo del tamaño del archivo), debe actualizar la página para ver el resultado (F5)
 
@@ -107,6 +107,6 @@ Para configurar un elemento en el diseño 3D, haga doble clic en el elemento que
 
 Permite dar el color elegido al elemento si la condición es válida. Puedes poner tantos colores / condiciones como quieras.
 
-> **Consejo**
+> ****
 >
 > Las condiciones se evalúan en orden, se tomará la primera que sea verdadera, por lo tanto, las siguientes no se evaluarán

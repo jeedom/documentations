@@ -14,7 +14,7 @@ Configuración recomendada).
 
 Tienes dos opciones :
 
--   **Para agregar** : Crea un nuevo objeto.
+-   **** : Crea un nuevo objeto.
 
 -   **Resumen** : Muestra la lista de objetos creados
     así como su configuración.
@@ -65,19 +65,19 @@ Aquí están las diferentes características para configurar un objeto :
     estará lado a lado en el tablero. Si pones `3` a cuatro
     objetos que se siguen, también estarán uno al lado del otro.
 
-> **Consejo**
+> ****
 >
 > Puede cambiar el orden de visualización de los objetos en el tablero.
 > En el menú, a la izquierda de su página, use las flechas verticales
 > arrastrar y soltar para darles un nuevo lugar.
 
-> **Consejo**
+> ****
 >
 > Puedes ver un gráfico que representa todos los elementos de Jeedom
 > adjunto a este objeto haciendo clic en el botón ****, arriba en
 > .
 
-> **Consejo**
+> ****
 >
 > Cuando se crea un dispositivo y no se ha definido ningún padre,
 > tendrá como padre : **** .
@@ -111,7 +111,7 @@ tomado en cuenta en el resumen. Tiene la opción de seleccionar el
 ordene cualquier equipo Jeedom, incluso si no es para
 padre este objeto.
 
-> **Consejo**
+> ****
 >
 > Si desea agregar un tipo de resumen o configurar el
 > Método de cálculo del resultado, la unidad, el icono y el nombre de un resumen,
