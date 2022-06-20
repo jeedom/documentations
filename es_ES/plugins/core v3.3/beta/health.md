@@ -7,7 +7,7 @@ La página es accesible por Análisis → Salud
 > **Nota**
 >
 > Haga clic en el icono a la derecha para acceder al punto de referencia de su
-> Jeedom.
+> .
 
 La página de salud de Jeedom se presenta en forma de tabla. El 1er
 La columna le da una descripción de lo que Jeedom comprueba y de qué estado

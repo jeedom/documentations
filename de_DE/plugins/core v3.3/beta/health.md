@@ -7,7 +7,7 @@ Die Seite ist über Analyse → Gesundheit zugänglich
 > **Notiz**
 >
 > Klicken Sie auf das Symbol rechts, um auf den Benchmark Ihres zuzugreifen
-> Jeedom.
+> .
 
 Die Gesundheitsseite von Jeedom wird in Form einer Tabelle dargestellt. Der 1
 In der Spalte finden Sie eine Beschreibung dessen, was Jeedom überprüft und wessen Status

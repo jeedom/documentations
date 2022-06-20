@@ -32,7 +32,7 @@
 ``specialAttributes`` | )                                            |
 ``issue``                    | )
 
-**Ejemplo**:
+****:
 
 [](https://github.com/jeedom/plugin-template/blob/master/plugin_info/info.json)
 
