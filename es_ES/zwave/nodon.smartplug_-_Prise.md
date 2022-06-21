@@ -1,14 +1,14 @@
 # 
 
-**El módulo**
+****
 
 ![module](images/nodon.smartplug/module.jpg)
 
-**La imagen de Jeedom**
+****
 
 ![vuedefaut1](images/nodon.smartplug/vuedefaut1.jpg)
 
-## Resumen
+## 
 
 . . . . .
 
@@ -20,10 +20,10 @@
 -   
 -   : 16A
 
-## Características técnicas
+## 
 
--   Alimento : 
--   Máximo poder :  : &lt;1W
+-    : 
+-    :  : &lt;1W
 -    :  : 2000m
 -    : 868.
 -   : 
@@ -31,56 +31,56 @@
 -   
 -   
 
-## Datos del módulo
+## 
 
--   Marca : Nodon
--   Apellido : Smartplug
--   Identificación del fabricante : 357
--   Tipo Producto : 1
--   Identificación de producto : 1
+-    : Nodon
+-    : Smartplug
+-    : 357
+-    : 1
+-    : 1
 
 ## Configuration
 
-Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte este [documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+ [](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-> **Importante**
+> ****
 >
 > .
 
 ![inclusion](images/nodon.smartplug/inclusion.jpg)
 
-Una vez incluido, debe obtener esto :
+ :
 
 ![Plugin Zwave](images/nodon.smartplug/information.jpg)
 
 ### Commandes
 
-Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
+.
 
-![Pedidos](images/nodon.smartplug/commandes.jpg)
+![](images/nodon.smartplug/commandes.jpg)
 
-Aquí está la lista de comandos :
+ :
 
--   Estado : )
--   Nosotros : 
--   Apagado : 
--   Estado : )
+-    : )
+-    : 
+-    : 
+-    : )
 
-Tenga en cuenta que en el tablero, la información de Estado, ENCENDIDO/APAGADO se encuentra en el mismo icono.
+.
 
-### Configuración del módulo
+### 
 
-Puede configurar el módulo de acuerdo a su instalación. .
+. .
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![ plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña de configuración)
+)
 
 ![Config1](images/nodon.smartplug/config1.jpg)
 
 ![Config1](images/nodon.smartplug/config2.jpg)
 
-Detalles del parámetro :
+ :
 
 -   1 : 
 -   2 : ). ). .
@@ -103,13 +103,13 @@ Detalles del parámetro :
 -   .
 -   
 
-> **Importante**
+> ****
 >
 > 
 
-## Bueno saber
+## 
 
-### Especificidades
+### 
 
 -   . . .
 

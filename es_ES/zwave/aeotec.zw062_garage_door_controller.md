@@ -3,7 +3,7 @@
 
 
 
--   **El módulo**
+-   ****
 
 
 
@@ -11,7 +11,7 @@
 
 
 
--   **La imagen de Jeedom**
+-   ****
 
 
 
@@ -19,7 +19,7 @@
 
 
 
-Resumen 
+ 
 ------
 
 
@@ -35,7 +35,7 @@ Resumen
 
 
 
-Funciones 
+ 
 ---------
 
 
@@ -72,14 +72,14 @@ Funciones
 
 
 
-Características técnicas 
+ 
 ---------------------------
 
 
 
--   Tipo de mod : 
+-    : 
 
--   Alimento :  :  : Pile
+-    :  :  : Pile
     
 
 -    : 1W
@@ -90,47 +90,47 @@ Características técnicas
 
 -    : 
 
--   Frecuencia : 868.42Mhz
+-    : 
 
--   Distancia de transmisión : 
+-    : 
 
--   Temperatura de funcionamiento : -
+-    : -
 
--   Humedad de funcionamiento : 
+-    : 
 
 -   Certifications: 
 
 
 
-Datos del módulo 
+ 
 -----------------
 
 
 
--   Marca : Aeotec
+-    : Aeotec
 
--   Apellido : )
+-    : )
 
--   Identificación del fabricante : 134
+-    : 134
 
--   Tipo Producto : 3
+-    : 3
 
--   Identificación de producto : 62
+-    : 62
 
 
 
-Configuración 
+ 
 -------------
 
 
 
 
 
-[documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+[](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
 
 
-> **Importante**
+> ****
 >
 > 
 > .
@@ -141,7 +141,7 @@ Configuración
 
 
 
-Una vez incluido, debe obtener esto :
+ :
 
 
 
@@ -149,7 +149,7 @@ Una vez incluido, debe obtener esto :
 
 
 
-### Pedidos 
+###  
 
 
 
@@ -158,11 +158,11 @@ disponibles.
 
 
 
-![Pedidos](images/aeotec.garagedoorcontroller/commandes.jpg)
+![](images/aeotec.garagedoorcontroller/commandes.jpg)
 
 
 
-Aquí está la lista de comandos :
+ :
 
 
 
@@ -172,13 +172,13 @@ Aquí está la lista de comandos :
 
 -    : .
 
--   La temperatura : .
+-    : .
 
--   Sabotaje : .
+-    : .
 
 
 
-### Configuración del módulo 
+###  
 
 
 
@@ -188,7 +188,7 @@ Aquí está la lista de comandos :
 
 
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![ plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 
 
@@ -203,7 +203,7 @@ Aquí está la lista de comandos :
 
 
 
-Detalles del parámetro :
+ :
 
 
 
@@ -219,11 +219,11 @@ Detalles del parámetro :
 
 
 
-### Grupos 
+###  
 
 
 
-Este módulo tiene dos grupos de asociación. 
+. 
 indispensable.
 
 
@@ -232,12 +232,12 @@ indispensable.
 
 
 
-Bueno saber 
+ 
 ------------
 
 
 
-### Especificidades 
+###  
 
 :
 
