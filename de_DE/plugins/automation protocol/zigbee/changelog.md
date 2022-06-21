@@ -1,16 +1,24 @@
-# Changelog Zigbee
+# 
 
->**Wichtig**
+>****
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
->**Wichtig**
+>****
 >
->Um das neue kompatible Modul zu kennen, müssen Sie gehen [das](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (Es ist nach dem Datum sortiert, an dem es hinzugefügt / geändert wurde)
+>Um das neue kompatible Modul zu kennen, müssen Sie gehen [](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (Es ist nach dem Datum sortiert, an dem es hinzugefügt / geändert wurde)
 
->**Wichtig**
+>****
 >
 >Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
+
+- Option hinzugefügt, um gelöschte Geräte automatisch auszuschließen
+- Fehler beim Erzwingen eines OTA-Updates behoben
+- Unterstützung für neue Module
+
+# 20.05.2022
+
+- Korrigieren des Fehlers :  AttributeError: Modul 'specifics' hat kein Attribut 'init'
 
 # 05.05.2022
 
@@ -100,7 +108,7 @@
 - Verbesserte Protokollebenen
 - Hinzufügen neuer Module
 
->**Wichtig**
+>****
 >
 >Es ist UNBEDINGT notwendig, eine Installation von Abhängigkeiten zu starten, auch wenn es in Ordnung ist (wir arbeiten in jeedom 4.2 muss dies automatisch sein, aber im Moment müssen Sie sie von Hand starten)
 
@@ -114,7 +122,7 @@
 - Problem mit Nodon-Firmware behoben
 - Korrektur des Fehlers "\_ext_pan_id" aufgrund eines Updates des Zigpy-Codes mit den Deconz-Schlüsseln
 
->**Wichtig**
+>****
 >
 >Nach diesem Update ist es UNBEDINGT notwendig, die Abhängigkeiten des Plugins zu aktualisieren, auch wenn es Ihnen sagt, dass alles in Ordnung ist
 

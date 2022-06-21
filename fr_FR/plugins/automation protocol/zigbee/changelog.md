@@ -12,6 +12,13 @@
 >
 >Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
 
+# 20/06/2022
+
+- Ajout d'une option pour exclure automatiquement les péripherique supprimés
+- Correction d'un bug lors de l'envoi forcé d'une mise à jour OTA
+- Support de nouveaux modules
+- correction d'un soucis avec zigpy 0.47.0 (retour a la version 0.46.0)
+
 # 20/05/2022
 
 - Correction de l'erreur :  AttributeError: module 'specifics' has no attribute 'init'
