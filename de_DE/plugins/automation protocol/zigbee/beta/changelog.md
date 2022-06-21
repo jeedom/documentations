@@ -12,9 +12,12 @@
 >
 >Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
 
+# 
+
 - Option hinzugefügt, um gelöschte Geräte automatisch auszuschließen
 - Fehler beim Erzwingen eines OTA-Updates behoben
 - Unterstützung für neue Module
+- .)
 
 # 20.05.2022
 

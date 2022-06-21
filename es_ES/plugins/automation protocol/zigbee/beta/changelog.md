@@ -12,9 +12,12 @@
 >
 >Para aprovechar la última integración del módulo, no dude en actualizar las dependencias
 
+# 
+
 - Opción agregada para excluir automáticamente dispositivos eliminados
 - Se corrigió un error al forzar una actualización OTA
 - Soporte para nuevos módulos
+- .)
 
 # 
 

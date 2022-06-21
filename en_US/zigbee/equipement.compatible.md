@@ -218,6 +218,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/Samjin.button.png" width="60" />|Samjin|Bouton||||
+|<img src="../../en_US/zigbee/images/Samjin.motion.png" width="60" />|Samjin|Motion||||
 
 # Samotech
 
@@ -268,6 +269,7 @@
 |<img src="../../en_US/zigbee/images/FeeBit_RGBW.FB56-ZCW20FB1.2.png" width="60" />|Zemismart|.||||
 |<img src="../../en_US/zigbee/images/TYZB01_mtlhqn48.TS0012.png" width="60" />|Zemismart|||||
 |<img src="../../en_US/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Zemismart|||||
+|<img src="../../en_US/zigbee/images/TZE200_iossyxra.TS0601.png" width="60" />|Zemismart|||||
 |<img src="../../en_US/zigbee/images/TZE200_xuzcvlku.TS0601.png" width="60" />|Zemismart|Store|Volets|||
 
 # Acova
@@ -368,6 +370,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/EcoDim.ED-10015.png" width="60" />|Ecodim|||||
 |<img src="../../en_US/zigbee/images/EcoDim_BV.Dimmer-Switch-ZB3.0.png" width="60" />|Ecodim||||[](https://www.domadoo.fr/fr/eclairage/5369-ecodim-interrupteur-variateur-rotatif-zigbee-30-200w-8719322371263.html)|
+|<img src="../../en_US/zigbee/images/EcoDim_BV.EcoDim-Zigbee_3.0.png" width="60" />|Ecodim|.|||[](https://www.domadoo.fr/fr/eclairage/5372-ecodim-module-variateur-intelligent-zigbee-30-250w-eco-dim10-8719322371775.html?domid=4&id_campaign=9)|
 
 # Evology
 
@@ -385,6 +388,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/gledopto..png" width="60" />|Gledopto|||||
 |<img src="../../en_US/zigbee/images/gledopto..png" width="60" />|Gledopto|||||
 |<img src="../../en_US/zigbee/images/gledopto..png" width="60" />|Gledopto|||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-C-006P.png" width="60" />|Gledopto|||||
@@ -409,7 +413,7 @@
 |<img src="../../en_US/zigbee/images/HEIMAN.DoorBell-EM.png" width="60" />|Heiman|||||
 |<img src="../../en_US/zigbee/images/HEIMAN.GASSensor-EF-3.0.png" width="60" />|Heiman||||[](https://www.domadoo.fr/fr/peripheriques/5883-heiman-capteur-de-gaz-combustible-intelligent-zigbee-30.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/HEIMAN.GASSensor-EM.png" width="60" />|Heiman||||[](https://www.domadoo.fr/fr/peripheriques/5883-heiman-capteur-de-gaz-combustible-intelligent-zigbee-30.html?domid=4&id_campaign=9)|
-|<img src="../../en_US/zigbee/images/HEIMAN.HS3AQ-EFA-3.0.png" width="60" />|Heiman|||||
+|<img src="../../en_US/zigbee/images/HEIMAN.HS3AQ-EFA-3.0.png" width="60" />|Heiman||||[](https://www.domadoo.fr/fr/peripheriques/5882-heiman-capteur-de-qualite-d-air-co2-temperature-humidite-zigbee-30-alarme-visuelle-et-sonore.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/HEIMAN.RC-EM.png" width="60" />|Heiman||||[](https://www.domadoo.fr/fr/peripheriques/5721-heiman-telecommande-porte-cles-de-scenes-zigbee.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/HEIMAN.SOS-EF-3.0.png" width="60" />|Heiman|||||
 |<img src="../../en_US/zigbee/images/HEIMAN.SceneSwitch-EM-3.0.png" width="60" />|Heiman||||[](https://www.domadoo.fr/fr/peripheriques/5715-heiman-telecommande-de-scenes-zigbee.html?domid=4&id_campaign=9)|
@@ -633,6 +637,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/Philips.1743630P7.png" width="60" />|Philips|||||
 |<img src="../../en_US/zigbee/images/Philips.1746330P7.png" width="60" />|Philips|||||
 |<img src="../../en_US/zigbee/images/Philips.LBW006.png" width="60" />|Philips|||||
 |<img src="../../en_US/zigbee/images/Philips.LCA001.png" width="60" />|Philips|||||
@@ -687,6 +692,8 @@
 |<img src="../../en_US/zigbee/images/Philips.RWL021.png" width="60" />|Philips|||||
 |<img src="../../en_US/zigbee/images/Philips.SML001.png" width="60" />|Philips|||||
 |<img src="../../en_US/zigbee/images/Philips.SML002.png" width="60" />|Philips|||||
+|<img src="../../en_US/zigbee/images/Philips.SML003.png" width="60" />|Philips|||||
+|<img src="../../en_US/zigbee/images/Philips.SML004.png" width="60" />|Philips|||||
 |<img src="../../en_US/zigbee/images/Philips.huego.png" width="60" />|Philips|||||
 |<img src="../../en_US/zigbee/images/Signify_Netherlands_B.V..RDM001.png" width="60" />|Philips|||||
 |<img src="../../en_US/zigbee/images/Signify_Netherlands_B.V..RWL022.png" width="60" />|Philips|||||
@@ -744,6 +751,7 @@
 |<img src="../../en_US/zigbee/images/SONOFF.01MINIZB.png" width="60" />|Sonoff||||[](https://www.domadoo.fr/fr/peripheriques/5375-sonoff-micromodule-commutateur-connecte-zigbee.html)|
 |<img src="../../en_US/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff||Contacteur||[](http://dl.itead.cc/basiczbr3/BASICZBR3-user-manual-V-1-1.pdf)<br/>[](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
 |<img src="../../en_US/zigbee/images/SONOFF.S26R2ZB.png" width="60" />|Sonoff||Prise||[](https://www.domadoo.fr/fr/peripheriques/5880-sonoff-prise-intelligente-16a-zigbee-30-version-fr.html)|
+|<img src="../../en_US/zigbee/images/SONOFF.ZBMINI-L.png" width="60" />|Sonoff|||||
 |<img src="../../en_US/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff||||[](http://dl.itead.cc/SNZB-04/Instructions/SNZB-04_V1.0_User_manual_20201116.pdf)<br/>[](https://www.domadoo.fr/fr/peripheriques/5320-sonoff-capteur-d-ouverture-de-portefenetre-zigbee.html)|
 |<img src="../../en_US/zigbee/images/eWeLink.DS01.png" width="60" />|Sonoff||||[](http://dl.itead.cc/SNZB-04/Instructions/SNZB-04_V1.0_User_manual_20201116.pdf)<br/>[](https://www.domadoo.fr/fr/peripheriques/5320-sonoff-capteur-d-ouverture-de-portefenetre-zigbee.html)|
 |<img src="../../en_US/zigbee/images/eWeLink.MS01.png" width="60" />|Sonoff||||[](http://dl.itead.cc/SNZB-03/Instructions/SNZB-03_V1.0_User_manual_20201116.pdf)<br/>[](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.html)|
@@ -760,6 +768,8 @@
 |<img src="../../en_US/zigbee/images/Sunricher.HK-SL-RELAY-A.png" width="60" />|Sunricher||||[](https://www.domadoo.fr/fr/peripheriques/5242-sunricher-module-onoff-zigbee-30.html)|
 |<img src="../../en_US/zigbee/images/Sunricher.HK-ZD-DIM-A.png" width="60" />|Sunricher|||||
 |<img src="../../en_US/zigbee/images/Sunricher.Motor_Controller.png" width="60" />|Sunricher||||[](https://www.domadoo.fr/fr/peripheriques/5245-sunricher-module-volet-roulant-zigbee-30.html)|
+|<img src="../../en_US/zigbee/images/Sunricher.ONOFF(2CH).png" width="60" />|Sunricher||||[](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2820)<br/>[](https://www.domadoo.fr/fr/peripheriques/6163-sunricher-module-onoff-2-sorties-avec-mesure-de-consommation-zigbee-30.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zigbee/images/Sunricher.ONOFF_-M.png" width="60" />|Sunricher||||[](https://www.domadoo.fr/fr/peripheriques/6162-sunricher-module-onoff-16a-avec-mesure-de-consommation-zigbee-30.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/Sunricher.RGB-CCT.png" width="60" />|Sunricher||||[](https://www.domadoo.fr/fr/peripheriques/5248-sunricher-controleur-led-rgbw-4-en-1-zigbee-30.html)|
 |<img src="../../en_US/zigbee/images/Sunricher.ZG2833K4_EU06.png" width="60" />|Sunricher||||[](https://www.domadoo.fr/fr/peripheriques/5738-sunricher-controleur-mural-sans-fil-4-boutons-2-zones-zigbee.html)|
 |<img src="../../en_US/zigbee/images/Sunricher.ZG2833K8_EU05.png" width="60" />|Sunricher||||[](https://www.domadoo.fr/fr/peripheriques/5739-sunricher-controleur-mural-sans-fil-8-boutons-4-zones-zigbee.html)|
@@ -821,6 +831,7 @@
 |<img src="../../en_US/zigbee/images/TZ3000_abci1hiu.TS0044.png" width="60" />|Tuya|||||
 |<img src="../../en_US/zigbee/images/TZ3000_adkvzooy.TS0042.png" width="60" />|Tuya|||||
 |<img src="../../en_US/zigbee/images/TZ3000_air9m6af.TS011F.png" width="60" />|Tuya||||[](https://fr.aliexpress.com/item/1005001408157771.html)|
+|<img src="../../en_US/zigbee/images/TZ3000_bguser20.TS0201.png" width="60" />|Tuya|||||
 |<img src="../../en_US/zigbee/images/TZ3000_bvrlqyj7.TS0002.png" width="60" />|Tuya|||||
 |<img src="../../en_US/zigbee/images/TZ3000_cfnprab5.TS011F.png" width="60" />|Tuya|)|||[](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/TZ3000_cphmq0q7.TS011F.png" width="60" />|Tuya|||||
@@ -860,6 +871,7 @@
 |<img src="../../en_US/zigbee/images/TZ3000_tqlv4ug4.TS0001.png" width="60" />|Tuya|||||
 |<img src="../../en_US/zigbee/images/TZ3000_txpirhfq.TS0011.png" width="60" />|Tuya|||||
 |<img src="../../en_US/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|||||
+|<img src="../../en_US/zigbee/images/TZ3000_upgcbody.TS0207.png" width="60" />|Tuya|)|Fuite|||
 |<img src="../../en_US/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|||||
 |<img src="../../en_US/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|||||
 |<img src="../../en_US/zigbee/images/TZ3000_w0qqde0g.TS011F.png" width="60" />|Tuya||||[](https://fr.aliexpress.com/item/1005003444957152.html)|
@@ -883,6 +895,7 @@
 |<img src="../../en_US/zigbee/images/TZE200_dfxkcots.TS0601.png" width="60" />|Tuya|||||
 |<img src="../../en_US/zigbee/images/TZE200_dzuqwsyg.TS0601.png" width="60" />|Tuya|||||
 |<img src="../../en_US/zigbee/images/TZE200_ggev5fsl.TS0601.png" width="60" />|Tuya|||||
+|<img src="../../en_US/zigbee/images/TZE200_hue3yfsn.TS0601.png" width="60" />|Tuya|||||
 |<img src="../../en_US/zigbee/images/TZE200_la2c2uo9.TS0601.png" width="60" />|Tuya|||||
 |<img src="../../en_US/zigbee/images/TZE200_nueqqe6k.TS0601.png" width="60" />|Tuya||Volets|||
 |<img src="../../en_US/zigbee/images/TZE200_yvx5lh6k.TS0601.png" width="60" />|Tuya|||||
@@ -972,4 +985,4 @@
 
 
 
-:32:12
+:32:15
