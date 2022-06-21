@@ -2,7 +2,7 @@
 
 ## 
 
--  [here](https://www.jeedom.com/site/fr/dev.html).
+-  [](https://www.jeedom.com/site/fr/dev.html).
 - .
 - ".
 - ).
@@ -49,7 +49,7 @@
   -  :
     - .
     - ).
-    - Last name.
+    - .
     - .
     - .
   - 
@@ -57,7 +57,7 @@
     - .
     - 
     - .
-  - Github : .
+  -  : .
     - ).
     - .
     - .
@@ -72,6 +72,6 @@
    ). .
    
    
-   > **Note**
+   > ****
    > .
    > ".  . 
