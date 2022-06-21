@@ -2,29 +2,29 @@
 
 ## 4.2.19
 
-- Ajout de la gestion des version pour les packages python (permet de corriger le soucis avec le plugin zigbee)
+- Ajout de la gestion des versions pour les packages Python (permet de corriger le soucis avec le plugin Zigbee).
 
 ## 4.2.18
 
-- Mise à jour de nodejs
+- Mise à jour de NodeJS
 
 ## 4.2.17
 
 - Bugfix Core : Accès utilisateur limité aux designs et vues.
 - Bugfix UI : Affichage des blocs A sous Chrome.
-- Bugfix : lien vers la documentation lorsque le plugin est en beta
+- Bugfix : lien vers la documentation lorsque le plugin est en beta.
 
 ## 4.2.16
 
 - Bugfix Core : Scénario : Fusion des éléments collés dans certains cas.
 - Bugfix Core : Création d'archive avec l'éditeur de fichiers.
-- Bugfix : augmentation du délai pour le contact du service de monitoring (permet d'alléger la charge sur les serveurs cloud).
+- Bugfix : Augmentation du délai pour le contact du service de monitoring (permet d'alléger la charge sur les serveurs cloud).
 
 ## 4.2.15
 
 - Bugfix UI : Scénario : Ajout de l'action *genericType* dans la modale de sélection.
 - Bugfix Core : Correction du décalage sur les historiques calculés.
-- Bugfix : Installation des dépendances du plugin zigbee.
+- Bugfix : Installation des dépendances du plugin Zigbee.
 
 ## 4.2.14
 
@@ -37,9 +37,9 @@
 
 ## 4.2.13
 
-- Amélioration : Création des clef api par defaut en inactif (si la demande de création ne vient pas du plugin).
-- Amélioration : Ajout de la taille des sauvegardes sur la page de gestion des sauvegardes
-- Bugfix Core : Correction d'un soucis de taille de backup avec le plugin Atlas
+- Amélioration : Création des clefs API par défaut en inactif (si la demande de création ne vient pas du plugin).
+- Amélioration : Ajout de la taille des sauvegardes sur la page de gestion des sauvegardes.
+- Bugfix Core : Correction d'un soucis de taille de backup avec le plugin Atlas.
 - Bugfix UI : Option *Masquer en desktop* des résumés.
 - Bugfix UI : Historiques: Respect des échelles lors du zoom.
 
@@ -47,7 +47,7 @@
 
 - Bugfix UI : Affichage du dossier d'une action sur la Timeline.
 
-- Bugfix Core : Affichage de la clé API de chaque plugin en page de configuration.
+- Bugfix Core : Affichage de la clef API de chaque plugin en page de configuration.
 - Bugfix Core : Ajout option *Heure* sur un graphique en Design.
 - Bugfix Core : Courbe de tuile avec valeur négative.
 - Bugfix Core : Erreur 403 au reboot.
@@ -59,7 +59,7 @@
 - Bugfix UI : Position sur le résumé domotique des objets nouvellement crées.
 - Bugfix UI : Soucis d'affichage des Design 3D.
 
-- Bugfix Core : Nouvelles propriétés de résumés non définie.
+- Bugfix Core : Nouvelles propriétés de résumés non définies.
 - Bugfix Core : Update de valeur au clic sur le range des widgets *Slider*.
 - Bugfix Core : Edition de fichier vide (0b).
 - Bugfix Core : Soucis de détection de l'IP réelle du client à travers les DNS Jeedom. Un redémarrage de la box est recommandé suite à la mise à jour pour que cela s'active.
@@ -109,7 +109,7 @@
 - **Analyse / Historique** : Affichage des axes multiples en Y. Option pour que chaque axe ait sa propre échelle, groupés par unité ou pas.
 - **Analyse / Historique** : Possibilité de masquer les axes Y. Menu contextuel sur les légendes avec affichage seul, masquage d'axe, changement de couleur de courbe.
 - **Analyse / Historique** : Les calculs d'historiques enregistrés sont maintenant affichés au dessus de la liste des commandes, de la même façon que celles-ci.
-- **Analyse / Equipements** : Les commandes orphelines affichent maintenant leur nom et date de suppression si encore dans l'historique de suppression, ainsi qu'un lien vers le scénario ou l'équipement concerné.
+- **Analyse / Equipements** : Les commandes orphelines affichent maintenant leurs nom et date de suppression si encore dans l'historique de suppression, ainsi qu'un lien vers le scénario ou l'équipement concerné.
 - **Analyse / Logs** : Numérotation des lignes des logs. Possibilité d'afficher le log brut.
 - **Logs** : Coloration des logs en fonction de certains événements. Possibilité d'afficher le log brut.
 - **Résumés** : Possibilité de définir une icône différente quand le résumé est nul (aucun volets ouvert, aucune lumière allumée, etc).
