@@ -1,14 +1,14 @@
 # 
 
-****
+**El módulo**
 
 ![module](images/greenwave.powernode/module.jpg)
 
-****
+**La imagen de Jeedom**
 
 ![vuedefaut1](images/greenwave.powernode/vuedefaut1.jpg)
 
-## 
+## Resumen
 
 . . .
 
@@ -24,112 +24,112 @@
 
 -   
 -   
--   
+-   Función de encendido/apagado
 -   .
 -   
 -   
 -   
 
-## 
+## Características técnicas
 
--    : 
+-   Alimento : 
 -    : 10A
 -    : )
--    : 
+-   Consumo en espera : 
 -    : 
 -    : 
 -    : )
 -    : 
 -    : 30m
--    : 
--    : -
+-   Temperatura de funcionamiento : 
+-   Temperatura de almacenamiento : -
 -    : 
 -   ) : IP20
 
-## 
+## Datos del módulo
 
--    : GreenWave
--    : ]
--    : 153
--    : 3
--    : 4
+-   Marca : GreenWave
+-   Apellido : ]
+-   Identificación del fabricante : 153
+-   Tipo Producto : 3
+-   Identificación de producto : 4
 
 ## Configuration
 
- [](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte este [documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Importante**
 >
 > .
 
 ![inclusion](images/greenwave.powernode/inclusion.jpg)
 
- :
+Una vez incluido, debe obtener esto :
 
 ![Plugin Zwave](images/greenwave.powernode/information.jpg)
 
 ### Commandes
 
+Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
+
+![Pedidos](images/greenwave.powernode/commandes.jpg)
+
+![Pedidos](images/greenwave.powernode/commandes2.jpg)
+
+![Pedidos](images/greenwave.powernode/commandes3.jpg)
+
+![Pedidos](images/greenwave.powernode/commandes4.jpg)
+
+![Pedidos](images/greenwave.powernode/commandes5.jpg)
+
+Aquí está la lista de comandos :
+
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+
 .
 
-![](images/greenwave.powernode/commandes.jpg)
+### Configuración del módulo
 
-![](images/greenwave.powernode/commandes2.jpg)
+Puede configurar el módulo de acuerdo a su instalación. Para hacer esto, debe pasar por el botón "Configuración" del complemento OpenZwave de Jeedom.
 
-![](images/greenwave.powernode/commandes3.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-![](images/greenwave.powernode/commandes4.jpg)
-
-![](images/greenwave.powernode/commandes5.jpg)
-
- :
-
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
-
-.
-
-### 
-
-. .
-
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-)
+Llegará a esta página (después de hacer clic en la pestaña Configuración)
 
 ![Config1](images/greenwave.powernode/config1.jpg)
 
 .
 
- :
+Detalles del parámetro :
 
 -   1 :  : )
 -   2 : )
@@ -140,7 +140,7 @@
 
 ![Groupe](images/greenwave.powernode/groupe.jpg)
 
-## 
+## Bueno saber
 
 ### 
 
@@ -165,4 +165,4 @@
 
 ## Wakeup
 
-.
+No hay noción de despertar en este módulo.

@@ -3,7 +3,7 @@
 
 
 
--   ****
+-   **El módulo**
 
 
 
@@ -11,7 +11,7 @@
 
 
 
--   ****
+-   **La imagen de Jeedom**
 
 
 
@@ -19,7 +19,7 @@
 
 
 
- 
+Resumen 
 ------
 
 
@@ -35,7 +35,7 @@
 
 
 
- 
+Funciones 
 ---------
 
 
@@ -72,17 +72,17 @@
 
 
 
- 
+Características técnicas 
 ---------------------------
 
 
 
--    : 
+-   Tipo de mod : 
 
--    :  :  : Pile
+-   Alimento :  :  : Pile
     
 
--    : 1W
+-   Consumo en espera : 1W
 
 -    : 2W
 
@@ -90,47 +90,47 @@
 
 -    : 
 
--    : 
+-   Frecuencia : 868.42Mhz
 
--    : 
+-   Distancia de transmisión : 
 
--    : -
+-   Temperatura de funcionamiento : -
 
--    : 
+-   Humedad de funcionamiento : 
 
 -   Certifications: 
 
 
 
- 
+Datos del módulo 
 -----------------
 
 
 
--    : Aeotec
+-   Marca : Aeotec
 
--    : )
+-   Apellido : )
 
--    : 134
+-   Identificación del fabricante : 134
 
--    : 3
+-   Tipo Producto : 3
 
--    : 62
+-   Identificación de producto : 62
 
 
 
- 
+Configuración 
 -------------
 
 
 
 
 
-[](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+[documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
 
 
-> ****
+> **Importante**
 >
 > 
 > .
@@ -141,7 +141,7 @@
 
 
 
- :
+Una vez incluido, debe obtener esto :
 
 
 
@@ -149,7 +149,7 @@
 
 
 
-###  
+### Pedidos 
 
 
 
@@ -158,11 +158,11 @@ disponibles.
 
 
 
-![](images/aeotec.garagedoorcontroller/commandes.jpg)
+![Pedidos](images/aeotec.garagedoorcontroller/commandes.jpg)
 
 
 
- :
+Aquí está la lista de comandos :
 
 
 
@@ -172,13 +172,13 @@ disponibles.
 
 -    : .
 
--    : .
+-   La temperatura : .
 
--    : .
+-   Sabotaje : .
 
 
 
-###  
+### Configuración del módulo 
 
 
 
@@ -188,7 +188,7 @@ disponibles.
 
 
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 
 
@@ -203,7 +203,7 @@ disponibles.
 
 
 
- :
+Detalles del parámetro :
 
 
 
@@ -219,11 +219,11 @@ disponibles.
 
 
 
-###  
+### Grupos 
 
 
 
-. 
+Este módulo tiene dos grupos de asociación. 
 indispensable.
 
 
@@ -232,12 +232,12 @@ indispensable.
 
 
 
- 
+Bueno saber 
 ------------
 
 
 
-###  
+### Especificidades 
 
 :
 
