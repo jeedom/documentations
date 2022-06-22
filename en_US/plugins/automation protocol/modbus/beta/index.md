@@ -35,7 +35,7 @@ You can also choose the number of attempts and the delay between these attempts.
 # Use of the plug-in
 
 
-IMPORTANT :
+ :
 
 To use the plugin, you need to know the parameters of your inputs / outputs of your modbus peripherals (data format, bit order, etc...)
 
@@ -43,13 +43,13 @@ For commands, there are parameters to select :
 
 Parameter details :
 - Negative value : for LONG/INT type formats, you must specify whether the write/read value will be negative
-- Offset : this is whether or not the offset is taken into account in the register numbers on certain Modbus devices
+-  : this is whether or not the offset is taken into account in the register numbers on certain Modbus devices
 - Choose the slider pitch : This is to choose the step of the slider in the case of an Action/Slider type command if you want to send non-integer values.
 
 
 
 
-IMPORTANT :
+ :
 
 Given the time spent having to sometimes configure certain equipment, it is possible to export the commands of an equipment already created, to download it locally in .json.
 
@@ -100,7 +100,7 @@ For Coils and Discrete Inputs :
   - Choose the corresponding function code : FC01 or FC02
   - It is then necessary to choose the starting register as well as the number of bytes to read (the number of registers)
   When you save, the command created will be deleted, to create as many commands as the specified number of bytes.
-  Ex: If you choose a start register of 1 and a number of bytes of 4, the commands will be created : ReadCoil_1, ReadCoil_2, ReadCoil_3, ReadCoil_4
+  Ex: If you choose a start register of 1 and a number of bytes of 4, the commands will be created : 
   - You can of course then rename the ReadCoils/Discretes to your liking.
 
 
@@ -118,7 +118,7 @@ WRITE COMMANDS:
  On your equipment, by default there will be 3 Action/message type commands created; MultiRegister Write, Bit Write and Multicoil Write
 
 
-IMPORTANT :
+ :
 
 
  Their principle of operation:
@@ -134,7 +134,7 @@ IMPORTANT :
   By default, the functionCode is FC16. Please leave this configuration as default.
 
   To change the values on the registers, use this syntax:
-  - valuetosend&nbofregister, separated by | :   Ex:  120&1|214.5&4 We send the integer 120 to a register, starting from the starting register configured,
+  - valuetosend&nbofregister, separated by | :   Ex:  |214.5&4 We send the integer 120 to a register, starting from the starting register configured,
   then 214.5 in float on 4 registers following the previous one.
 
   For float types, write the value as above, with a .
@@ -144,7 +144,7 @@ IMPORTANT :
   By default, the functionCode is fc15. Please leave this configuration as default.
 
   To change the values on the registers, use this syntax:
-  -  Ex : 01110111 So this will send from the configured starting register the values True(1) or False(0) to the registers
+  -   : 01110111 So this will send from the configured starting register the values True(1) or False(0) to the registers
 
 
 
@@ -163,7 +163,7 @@ IMPORTANT :
 
 
 
-IMPORTANT :
+ :
 
 
 Some PLCs do not have the fc06 function
@@ -172,7 +172,7 @@ Check Fc16 Register Not Tracked
 In the dashboard, you must use this syntax :
 departure register ! value & nbregisters separated by a |
 
-Ex: 7!122.5&2|10!22&2
+Ex: 7!|10!
 
 We will write from register 7, the value 122.5 on 2 registers and also from register 10, the value 22, on 2 registers
 

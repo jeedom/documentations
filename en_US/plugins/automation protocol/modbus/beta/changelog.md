@@ -1,6 +1,6 @@
 # ModBus changelog
 
->**IMPORTANT**
+>****
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
@@ -16,6 +16,6 @@
 
 - Function Fc16 Register not followed
 
-# 02/05/2022
+# 
 
 - Function Exporting a Json file and Importing orders by Equipment 

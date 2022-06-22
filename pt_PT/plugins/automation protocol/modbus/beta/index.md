@@ -35,7 +35,7 @@ Você também pode escolher o número de tentativas e o atraso entre essas tenta
 # Uso do plug-in
 
 
-IMPORTANTE :
+ :
 
 Para usar o plugin, você precisa conhecer os parâmetros de suas entradas/saídas de seus periféricos modbus (formato de dados, ordem de bits, etc...)
 
@@ -43,13 +43,13 @@ Para comandos, existem parâmetros para selecionar :
 
 Detalhes do parâmetro :
 - Valor negativo : para formatos do tipo LONG/INT, você deve especificar se o valor de gravação/leitura será negativo
-- Desvio : isto é, se o deslocamento é ou não considerado nos números de registro em determinados dispositivos Modbus
+-  : isto é, se o deslocamento é ou não considerado nos números de registro em determinados dispositivos Modbus
 - Escolha o tom do controle deslizante : Isto serve para escolher o passo do cursor no caso de um comando do tipo Action/Slider se quiser enviar valores não inteiros.
 
 
 
 
-IMPORTANTE :
+ :
 
 Dado o tempo gasto para por vezes configurar determinados equipamentos, é possível exportar os comandos de um equipamento já criado, para baixá-lo localmente em .json.
 
@@ -97,18 +97,18 @@ CONTROLES DE REPRODUÇÃO :
 
 Para bobinas e entradas discretas :  
   - Você adiciona um Novo Comando Modbus e nomeia o comando. Você escolhe um comando de tipo de informação, em tipo binário ou numérico.
-  - Escolha o código de função correspondente : FC01 ou FC02
+  - Escolha o código de função correspondente : 
   - É então necessário escolher o registrador inicial bem como o número de bytes a serem lidos (o número de registradores)
   Ao salvar, o comando criado será excluído, para criar tantos comandos quanto o número especificado de bytes.
-  Ex: Se você escolher um registro inicial de 1 e um número de bytes de 4, os comandos serão criados : ReadCoil_1, ReadCoil_2, ReadCoil_3, ReadCoil_4
+  Ex: Se você escolher um registro inicial de 1 e um número de bytes de 4, os comandos serão criados : 
   - Você pode, é claro, renomear os ReadCoils/Discretes ao seu gosto.
 
 
 
   Para Registros de Participações e Registros de Entradas:
   - Você adiciona um Novo Comando Modbus e nomeia o comando. Você escolhe um comando de tipo de informação, em tipo numérico.
-  - Escolha o formato correspondente : Float , Long/Integer ou Bits
-  - Escolha o código de função correspondente : FC04 ou FC03
+  - Escolha o formato correspondente : 
+  - Escolha o código de função correspondente : 
   - O registrador inicial, bem como o número de bytes : para floats, o número máximo de registros codificados é de 4 registros.
 
 
@@ -118,7 +118,7 @@ COMANDOS DE ESCREVA:
  No seu equipamento, por padrão, serão criados 3 comandos do tipo Ação/mensagem; Gravação MultiRegister, Gravação de Bit e Gravação Multicoil
 
 
-IMPORTANTE :
+ :
 
 
  Seu princípio de funcionamento:
@@ -134,7 +134,7 @@ IMPORTANTE :
   Por padrão, o functionCode é FC16. Por favor, deixe esta configuração como padrão.
 
   Para alterar os valores nos registros, use esta sintaxe:
-  - valuetoend&nbofregister, separados por | :   Ex:  120&1|214.5&4 Enviamos o inteiro 120 para um registrador, a partir do registrador inicial configurado,
+  - valuetoend&nbofregister, separados por | :   Ex:  |214.5&4 Enviamos o inteiro 120 para um registrador, a partir do registrador inicial configurado,
   então 214.5 em float em 4 registros seguindo o anterior.
 
   Para tipos float, escreva o valor como acima, com um .
@@ -144,7 +144,7 @@ IMPORTANTE :
   Por padrão, o functionCode é fc15. Por favor, deixe esta configuração como padrão.
 
   Para alterar os valores nos registros, use esta sintaxe:
-  -  Ex : 01110111 Então isso vai enviar do registrador inicial configurado os valores True(1) ou False(0) para os registradores
+  -   : 01110111 Então isso vai enviar do registrador inicial configurado os valores True(1) ou False(0) para os registradores
 
 
 
@@ -163,7 +163,7 @@ IMPORTANTE :
 
 
 
-IMPORTANTE :
+ :
 
 
 Alguns CPs não possuem a função fc06
@@ -172,7 +172,7 @@ Verifique o registro Fc16 não rastreado
 No painel, você deve usar esta sintaxe :
 registro de partida ! value & nregisters separados por um |
 
-Ex: 7!122,5&2|10!22&2
+Ex: 7!122,5&2|10!
 
 Vamos escrever do registrador 7, o valor 122.5 em 2 registradores e também do registrador 10, o valor 22, em 2 registradores
 
