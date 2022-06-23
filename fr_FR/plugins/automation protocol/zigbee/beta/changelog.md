@@ -12,6 +12,9 @@
 >
 >Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
 
+>**IMPORTANT**
+>
+>Pour ceux n'ayant pas de soucis avec le demon il ne faut SURTOUT pas mettre à jour ca peut tout casser
 
 # 23/06/2022
 
