@@ -12,6 +12,11 @@
 >
 >Para aprovechar la última integración del módulo, no dude en actualizar las dependencias
 
+
+# 
+
+- 
+
 # 
 
 - Opción agregada para excluir automáticamente dispositivos eliminados

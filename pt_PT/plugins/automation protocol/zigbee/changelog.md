@@ -12,6 +12,11 @@
 >
 >Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
 
+
+# 
+
+- 
+
 # 
 
 - Adicionada opção para excluir automaticamente dispositivos excluídos

@@ -25,6 +25,7 @@
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/zigbee\/",
     "language": [
         "fr_FR",
+        "en_US",
         "es_ES",
         "pt_PT"
     ],

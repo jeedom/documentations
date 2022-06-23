@@ -12,6 +12,11 @@
 >
 >Pour profiter des dernieres integration de module n'hesitez pas a mettre à jour les dépendances
 
+
+# 23/06/2022
+
+- Tentative de correction des soucis avec le démon
+
 # 20/06/2022
 
 - Ajout d'une option pour exclure automatiquement les péripherique supprimés
