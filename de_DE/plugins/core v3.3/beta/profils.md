@@ -11,7 +11,7 @@ Themen
 
 Im Themenbereich können Sie die Schnittstellenparameter anpassen :
 
--   **** : Thema im Desktop-Modus zu verwenden, seien Sie vorsichtig nur die
+-   **Schreibtisch** : Thema im Desktop-Modus zu verwenden, seien Sie vorsichtig nur die
     Das Standardthema wird offiziell von Jeedom unterstützt
 
 -   **Farbe mobil** : ermöglicht die Auswahl der Schnittstellenfarbe
@@ -35,7 +35,7 @@ Im Themenbereich können Sie die Schnittstellenparameter anpassen :
 -   **Deckkraft durch mobile Widgets** : erlaubt, Deckkraft zu geben
     (zwischen 0 und 1) mobile Widgets
 
- 
+Schnittstelle 
 ---------
 
 Ermöglicht das Definieren bestimmter Schnittstellenverhalten :
@@ -61,12 +61,12 @@ Ermöglicht das Definieren bestimmter Schnittstellenverhalten :
     -   **Vollbild** : Standardanzeige im Vollbildmodus, wenn
         die Ankunft auf den Entwürfen
         
--   ****
+-   **Armaturenbrett**
 
     -   **Klappen Sie das Objektfenster auf** : ermöglicht sichtbar zu machen durch
         Standardmäßig das Objektmenü (links) im Dashboard
 
--   ****
+-   **Gesehen**
 
     -   **Klappen Sie das Ansichtsfenster auf** : ermöglicht sichtbar zu machen durch
         Standardansichtsmenü (links) für Ansichten
@@ -99,7 +99,7 @@ zuletzt verwendet. Hier können Sie die Aufnahme von a löschen
 Gerät. Achtung, es trennt es nicht, sondern verhindert es nur
 seine automatische Wiederverbindung.
 
- 
+Benachrichtigungen 
 -------------
 
 -   **Benutzerbenachrichtigungsbefehl** : Standardbefehl für

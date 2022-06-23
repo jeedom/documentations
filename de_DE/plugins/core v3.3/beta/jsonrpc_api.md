@@ -2,7 +2,7 @@ Hier finden Sie eine Dokumentation zu API-Methoden. Zuerst ist hier
 die Spezifikationen (JSON RPC 2.0) :
 <http://www.jsonrpc.org/specification>
 
-Der Zugriff auf die API erfolgt über die URL : **
+Der Zugriff auf die API erfolgt über die URL : *URL\_JEEDOM*/core/api/jeeApi.php
 
 Divers
 ======
@@ -65,7 +65,7 @@ Jeedom's aktuelle Datumszeit (wird für die nächste Abfrage wiederverwendet)
 
 Einstellungen :
 
--   
+-   int datetime
 
 JSON Plugin API
 ===============
@@ -220,7 +220,7 @@ eqLogic::byTypeAndId
 
 Gibt eine Gerätetabelle gemäß den Parametern zurück. Die Rückkehr
 wird vom Formulararray sein (&#39;eqType1&#39; ⇒array (&#39;id&#39;⇒…,&#39; cmds &#39;⇒
-Array (….)), &#39;eqType2&#39; ⇒array (&#39;id&#39;⇒…,&#39; cmds &#39;⇒ Array (….))….,
+Array (….)), &#39;eqType2&#39; ⇒array (&#39;id&#39;⇒…,&#39; cmds &#39;⇒ Array (….))….,id1 ⇒
 Array (&#39;id&#39;⇒…,&#39; cmds &#39;⇒ Array (….)), id2 ⇒ Array (&#39; id&#39;⇒…, &#39;cmds&#39; ⇒
 array(…​.))..)
 
@@ -283,7 +283,7 @@ Gibt alle Bestellungen zurück, die zum angegebenen Gerät gehören
 
 Einstellungen:
 
--   
+-   int eqLogic\_id
 
 cmd::execCmd
 ------------
@@ -361,9 +361,9 @@ Einstellungen:
 
 -   String-Subtyp
 
--   
+-   int eqLogic\_id
 
--   
+-   int isHistorized = 0
 
 -   String-Einheit = ''
 
@@ -377,7 +377,7 @@ Einstellungen:
 
 -   intvalue=null
 
--   
+-   int isVisible = 1
 
 -   Array-Alarm
 
@@ -500,7 +500,7 @@ Einstellungen:
 -   Zeichenfolgentyp : Art des gespeicherten Werts (für Szenarien
     Es ist ein Szenario)
 
--    : -1 für global (Wert für Standardszenarien,
+-   id linkId : -1 für global (Wert für Standardszenarien,
     oder die Szenario-ID)
 
 -   String-Schlüssel : Wertname
@@ -515,7 +515,7 @@ Einstellungen:
 -   Zeichenfolgentyp : Art des gespeicherten Werts (für Szenarien
     Es ist ein Szenario)
 
--    : -1 für global (Wert für Standardszenarien,
+-   id linkId : -1 für global (Wert für Standardszenarien,
     oder die Szenario-ID)
 
 -   String-Schlüssel : Wertname
@@ -722,7 +722,7 @@ Dies vereinfacht die Verwendung der API.
 Abrufen der Objektliste :
 
 `` `{.php}
-$jsonrpc = new jsonrpcClient('#URL_JEEDOM#', #API_KEY#);
+$jsonrpc = new jsonrpcClient('#URL_JEEDOM#/core/api/jeeApi.php', #API_KEY#);
 if ($ jsonrpc-&gt; sendrequest ( ‚Objekt::all ', Array())){
     print_r ($ jsonrpc-&gt; getResult ());
 }else{
@@ -733,7 +733,7 @@ if ($ jsonrpc-&gt; sendrequest ( ‚Objekt::all ', Array())){
 Ausführung eines Auftrags (mit der Option eines Titels und einer Nachricht)
 
 `` `{.php}
-$jsonrpc = new jsonrpcClient('#URL_JEEDOM#', #API_KEY#);
+$jsonrpc = new jsonrpcClient('#URL_JEEDOM#/core/api/jeeApi.php', #API_KEY#);
 if ($ jsonrpc-&gt; sendrequest ( ‚cmd::execCmd ', array (' id' => #cmd_id#, 'options '=> array (' title '=>' Cuckoo ',' message '=>' Es funktioniert')))){
     Echo &#39;OK&#39;;
 }else{

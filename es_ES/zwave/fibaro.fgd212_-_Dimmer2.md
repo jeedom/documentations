@@ -1,14 +1,14 @@
 # 
 
--   **El módulo**
+-   ****
 
 ![module](images/fibaro.fgd212/module.jpg)
 
--   **La imagen de Jeedom**
+-   ****
 
 ![vuedefaut1](images/fibaro.fgd212/vuedefaut1.jpg)
 
-Resumen 
+ 
 ------
 
 
@@ -37,11 +37,11 @@ Fonctions
 
 -   
 
--   Se instala detrás de un interruptor existente
+-   
 
--   ON/OFF y función de atenuación
+-   
 
--   Uso en modo de 2 hilos (neutro no necesario))
+-   )
 
 -   
 
@@ -71,22 +71,22 @@ Fonctions
 
 -   
 
--   Pequeño, discreto y estético
+-   
 
--   Facilidad de uso e instalación
+-   
 
-Características técnicas
+
 ---------------------------
 
--   Tipo de mod : Receptor de onda Z
+-    : 
 
--   Alimento : 
+-    : 
 
--   Consumo : 
+-    : 
 
--   Alambrado : 
+-    : 
 
--   Carga maxima : 
+-    : 
     ()
 
 -   ) : ,
@@ -94,42 +94,42 @@ Características técnicas
 
 -   ) : 
 
--   Frecuencia : 868.42Mhz
+-    : 
 
--   Intensidad de señal : 1mW
+-    : 1mW
 
--   Distancia de transmisión : 50m campo abierto, 30m bajo techo
+-    : 
 
--   Dimensiones : 42..
+-    : 42..
 
--   Temperatura de funcionamiento : 
+-    : 
 
--   Temperatura límite : 105°C
+-    : 105°C
 
--   Estándares : 
+-    : 
     1999/5/EC
 
-Datos del módulo
+
 -----------------
 
--   Marca : Grupo fibar
+-    : 
 
--   Apellido : 
+-    : 
 
--   Identificación del fabricante : 271
+-    : 271
 
--   Tipo Producto : 258
+-    : 258
 
--   Identificación de producto : 4096
+-    : 4096
 
 Configuration
 -------------
 
 
 
-[documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+[](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-> **Importante**
+> ****
 >
 > 
 > . 
@@ -138,13 +138,13 @@ Configuration
 
 ![inclusion](images/fibaro.fgd212/inclusion.jpg)
 
-> **Consejo**
+> ****
 >
 > 
 > 
 > .
 
-Una vez incluido, debe obtener esto :
+ :
 
 ![Plugin Zwave](images/fibaro.fgd212/information.jpg)
 
@@ -153,36 +153,36 @@ Una vez incluido, debe obtener esto :
 
 disponibles.
 
-![Pedidos](images/fibaro.fgd212/commandes.jpg)
+![](images/fibaro.fgd212/commandes.jpg)
 
-Aquí está la lista de comandos :
+ :
 
--   Intensidad : 
+-    : 
     
 
--   Nosotros : Este es el comando que enciende la luz
+-    : 
 
--   Apagado : Este es el comando que apaga la luz
+-    : 
 
--   Estado : 
+-    : 
     
 
--   Consumo : 
+-    : 
     
 
--   Potencia : 
+-    : 
     
 
 
 icone
 
-### Configuración del módulo
+### 
 
 
 
 .
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![ plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 
 )
@@ -197,7 +197,7 @@ icone
 
 ![Config3](images/fibaro.fgd212/config5.jpg)
 
-Detalles del parámetro :
+ :
 
 
 
@@ -208,12 +208,12 @@ indispensable.
 
 ![Groupe](images/fibaro.fgd212/groupe.jpg)
 
-Bueno saber
+
 ------------
 
-### Especificidades
+### 
 
-> **Fianza**
+> ****
 >
 > 
 > . 
@@ -223,16 +223,16 @@ Bueno saber
 
 ()
 
-### Visuales alternativos
+### 
 
 ![vuewidget](images/fibaro.fgd212/vuewidget.jpg)
 
 Wakeup
 ------
 
-No hay concepto de despertar en este módulo.
+.
 
-Preguntas frecuentes.
+.
 ------
 
 
