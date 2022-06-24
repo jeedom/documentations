@@ -1,4 +1,4 @@
-# 
+# Plug-in Zigbee
 
 **O plugin Zigbee para Jeedom** baseia-se no excelente trabalho feito em torno **a biblioteca Zigpy de código aberto** para oferecer um **compatibilidade geral com diferentes hardwares Zigbee**. Ele permite a comunicação com os seguintes controladores Zigbee :
 

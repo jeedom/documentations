@@ -1,4 +1,4 @@
-# 
+# Zigbee changelog
 
 >****
 >
@@ -14,18 +14,18 @@
 
 >****
 >
->
+>For those who don't have any problems with the demon, you MUST NOT update, it can break everything
 
-# 
+# 06/23/2022
 
-- 
+- Attempt to fix problems with the daemon
 
-# 
+# 06/20/2022
 
 - Added option to automatically exclude deleted devices
 - Fixed a bug when forcing an OTA update
 - Support for new modules
-- .)
+- fixed a problem with zigpy 0.47.0 (back to version 0.46.0)
 
 # 05/20/2022
 

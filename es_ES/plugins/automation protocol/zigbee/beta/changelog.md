@@ -1,4 +1,4 @@
-# 
+# Registro de cambios de Zigbee
 
 >****
 >
@@ -14,18 +14,18 @@
 
 >****
 >
->
+>Para los que no tengan problemas con el demonio, NO DEBEN actualizar, puede estropearlo todo
 
 # 
 
-- 
+- Intento de solucionar problemas con el daemon
 
 # 
 
 - Opción agregada para excluir automáticamente dispositivos eliminados
 - Se corrigió un error al forzar una actualización OTA
 - Soporte para nuevos módulos
-- .)
+- solucionado un problema con zigpy 0.47.0 (volver a la versión 0.46.0)
 
 # 
 
@@ -85,7 +85,7 @@
 - Se solucionó un problema al solicitar una actualización de más de 7 valores de atributo, gracias @kaktusatomik
 - Equipo nuevo agregado (gracias @ cstan77)
 
-# 
+# 12/02/2021
 
 - Adición de nuevos equipos
 - Corrección de un problema en la "Configuración del informe" de los módulos
@@ -153,14 +153,14 @@
 
 - Se corrigió un error en la administración de grupos
 
-# 
+# 08/02/2021
 
 - Adición de un nuevo módulo compatible
 - Adición de un botón para borrar todos los datos de un demonio (ver documentación)
 - Se corrigió un error en la administración de grupos cuando varias llaves zigbee
 
 
-# 
+# 07/01/2021
 
 - Adición de un nuevo módulo compatible
 - Optimización de configuraciones existentes sobre la gestión de repeticiones
@@ -200,7 +200,7 @@
 
 - Se corrigió un problema en el botón para forzar la actualización OTA de ciertos módulos
 
-# 
+# 04/06/2021
 
 - Cambiando a estable
 

@@ -1,4 +1,4 @@
-# 
+# Zigbee-Änderungsprotokoll
 
 >****
 >
@@ -14,18 +14,18 @@
 
 >****
 >
->
+>Wer keine Probleme mit dem Dämon hat, darf NICHT updaten, er kann alles kaputt machen
 
-# 
+# 23.06.2022
 
-- 
+- Versuchen Sie, Probleme mit dem Daemon zu beheben
 
-# 
+# 20.06.2022
 
 - Option hinzugefügt, um gelöschte Geräte automatisch auszuschließen
 - Fehler beim Erzwingen eines OTA-Updates behoben
 - Unterstützung für neue Module
-- .)
+- ein Problem mit zigpy 0.47 behoben.0 (zurück zu Version 0.46.0)
 
 # 20.05.2022
 

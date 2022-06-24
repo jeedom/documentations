@@ -133,7 +133,7 @@ We explain below how the commands work in the plugin for the most advanced users
 
 - ````attributes::ENDPOINT::CLUSTER_TYPE::CLUSTER::ATTRIBUT::VALUE```` allows you to write the value of an attribute *(be careful not all attributes can be changed)*  :
   - ````ENDPOINT```` : endpoint number,
-  - ````CLUSTER_TYPE```` : cluster type *(| OUT)*,
+  - ````CLUSTER_TYPE```` : cluster type *(IN\| OUT)*,
   - ````CLUSTER```` : cluster number,
   - ````ATTRIBUT```` : attribute number,
   - ````VALUE```` : value to write.

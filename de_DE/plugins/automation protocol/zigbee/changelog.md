@@ -1,31 +1,31 @@
-# 
+# Zigbee-Änderungsprotokoll
 
->****
+>**WICHTIG**
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
->****
+>**WICHTIG**
 >
->Um das neue kompatible Modul zu kennen, müssen Sie gehen [](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (Es ist nach dem Datum sortiert, an dem es hinzugefügt / geändert wurde)
+>Um das neue kompatible Modul zu kennen, müssen Sie gehen [das](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (Es ist nach dem Datum sortiert, an dem es hinzugefügt / geändert wurde)
 
->****
+>**WICHTIG**
 >
 >Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
 
->****
+>**WICHTIG**
 >
->
+>Wer keine Probleme mit dem Dämon hat, darf NICHT updaten, er kann alles kaputt machen
 
-# 
+# 23.06.2022
 
-- 
+- Versuchen Sie, Probleme mit dem Daemon zu beheben
 
-# 
+# 20.06.2022
 
 - Option hinzugefügt, um gelöschte Geräte automatisch auszuschließen
 - Fehler beim Erzwingen eines OTA-Updates behoben
 - Unterstützung für neue Module
-- .)
+- ein Problem mit zigpy 0.47 behoben.0 (zurück zu Version 0.46.0)
 
 # 20.05.2022
 
@@ -119,7 +119,7 @@
 - Verbesserte Protokollebenen
 - Hinzufügen neuer Module
 
->****
+>**WICHTIG**
 >
 >Es ist UNBEDINGT notwendig, eine Installation von Abhängigkeiten zu starten, auch wenn es in Ordnung ist (wir arbeiten in jeedom 4.2 muss dies automatisch sein, aber im Moment müssen Sie sie von Hand starten)
 
@@ -133,7 +133,7 @@
 - Problem mit Nodon-Firmware behoben
 - Korrektur des Fehlers "\_ext_pan_id" aufgrund eines Updates des Zigpy-Codes mit den Deconz-Schlüsseln
 
->****
+>**WICHTIG**
 >
 >Nach diesem Update ist es UNBEDINGT notwendig, die Abhängigkeiten des Plugins zu aktualisieren, auch wenn es Ihnen sagt, dass alles in Ordnung ist
 

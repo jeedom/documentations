@@ -1,4 +1,4 @@
-# 
+# Registro de alterações do Zigbee
 
 >****
 >
@@ -14,18 +14,18 @@
 
 >****
 >
->
+>Para quem não tem problemas com o demônio, NÃO DEVE atualizar, pode quebrar tudo
 
 # 
 
-- 
+- Tente corrigir problemas com o daemon
 
 # 
 
 - Adicionada opção para excluir automaticamente dispositivos excluídos
 - Corrigido um bug ao forçar uma atualização OTA
 - Suporte para novos módulos
-- .)
+- corrigiu um problema com zigpy 0.47.0 (de volta à versão 0.46.0)
 
 # 
 
@@ -74,7 +74,7 @@
 
 - Correção de um bug na ligação direta entre 2 módulos
 
-# 
+# 01/06/2022
 
 - Corrigido um bug na lista de módulos que podem ser vinculados
 - Recuperação de bateria aprimorada
@@ -85,7 +85,7 @@
 - Corrigido um problema ao solicitar uma atualização de mais de 7 valores de atributo, obrigado @kaktusatomik
 - Adicionado novo equipamento (obrigado @ cstan77)
 
-# 
+# 12/02/2021
 
 - Adição de novos equipamentos
 - Correção de um problema no "Relatório de configuração" dos módulos
@@ -149,7 +149,7 @@
 - Suporte completo para monitor de qualidade do ar Xiaomi Aqara TVOC
 - Adição de muitos módulos
 
-# 
+# 08/06/2021
 
 - Corrigido um bug no gerenciamento de grupo
 
@@ -196,11 +196,11 @@
 - Reformulação da documentação
 - Bugfix
 
-# 
+# 04/07/2021
 
 - Corrigido um problema no botão para forçar a atualização OTA de certos módulos
 
-# 
+# 04/06/2021
 
 - Mudando para estável
 
