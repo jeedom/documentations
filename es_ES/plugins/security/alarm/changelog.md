@@ -1,7 +1,10 @@
+# Alarma de registro de cambios
+
 >**Importante**
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Se solucionó un problema con la opción "zonas separadas" al cambiar de modo
 
 # 22/01/2020
 
@@ -62,11 +65,11 @@
 
 -   Si durante la activación un sensor está en alerta y no tiene retraso
     de activación, entonces la alarma se activa ignorando este sensor
-    (a menos que vuelva a descansar)
+    (a menos que regrese a descansar)
 
 -   Además de la acción de activación global (ya no se filtra por zona, se
     se recomienda usar esto en lugar de las acciones de
-    zona de activación)
+    disparador de zona)
 
 -   Optimización de código
 

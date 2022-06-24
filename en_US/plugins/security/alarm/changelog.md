@@ -1,7 +1,10 @@
+# Changelog Alarm
+
 >**Important**
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Fixed a problem with the "separate zones" option when changing mode
 
 # 22/01/2020
 
@@ -62,11 +65,11 @@
 
 -   If during activation a sensor is on alert and has no delay
     of activation then the alarm is armed nevertheless by ignoring this sensor
-    (unless he comes back to no alert state)
+    (unless he comes back to rest)
 
 -   Addition of global trigger action (no longer filtered by zone, it
     is recommended to use this rather than the actions of
-    zone triggering)
+    zone trigger)
 
 -   Code optimization
 

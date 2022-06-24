@@ -29,10 +29,10 @@ Sobald ein Alarm hinzugefügt wurde, erhalten Sie :
 -   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
 -   **Immer aktiv** : zeigt an, dass der Alarm permanent aktiv ist (z. B. für einen Branderkennungsalarm),
 -   **Sichtbare Waffen** : Ermöglicht es, den Alarmaktivierungsbefehl im Widget sichtbar zu machen oder nicht,
--   **Sofort sichtbarer Status** : ermöglicht es Ihnen, den sofortigen Status des Alarms sichtbar zu machen (Erklärung siehe unten),
+-   **Sofort sichtbarer Status** : Mit dieser Option können Sie den sofortigen Status des Alarms sichtbar machen (Erläuterungen siehe unten)),
 -   **Alarmstatus und -status protokollieren** : Ermöglicht das Protokollieren oder Nicht-Protokollieren des Status und des Status des Alarms.
 -   **Separate Zonen** : macht die Zonen in Bezug auf Warnungen unabhängig. Normalerweise ignoriert das Plugin die anderen Zonen, wenn eine Zone in Alarmbereitschaft ist. Durch Trennen der Zonen werden die Aktionen für die anderen Zonen wiederholt, die in Alarmbereitschaft eintreten würden
--   **Automatischer Reset** : Bei Auslösung wird der vollständige Alarm erneut aktiviert, um nachfolgende Auslöser zu verhindern (in normalen Zeiten wird er erst wieder aktiviert, wenn ein Szenario / eine menschliche Aktion dazu durchgeführt wurde)
+-   **Automatischer Reset** : Beim Auslösen wird der vollständige Alarm erneut aktiviert, um nachfolgende Auslöser zu verhindern (in normalen Zeiten wird er erst dann wieder aktiviert, wenn ein Szenario / eine menschliche Aktion dazu durchgeführt wurde)
 -   **Ergreifen Sie keine sofortigen Maßnahmen, wenn der Sensor keine Verzögerung aufweist** : Weist den Alarm an, keine sofortigen Maßnahmen zu ergreifen, wenn der Sensor keine Auslöseverzögerung hat. Der Alarm führt daher nur die Aktionen aus
 
 > **Spitze**
@@ -41,23 +41,23 @@ Sobald ein Alarm hinzugefügt wurde, erhalten Sie :
 
 ## Zones
 
-Hauptteil des Alarms. Hier konfigurieren Sie die verschiedenen Zonen und die Aktionen (sofort und verzögert nach Zone, beachten Sie, dass es auch möglich ist, sie global zu konfigurieren), die im Falle einer Auslösung ausgeführt werden sollen. Ein Bereich kann entweder volumetrisch (zum Beispiel für den Tag) oder um den Umfang (für die Nacht) oder auch Bereiche des Hauses (Garage, Schlafzimmer, Nebengebäude usw.) sein.
+Hauptteil des Alarms. Hier konfigurieren Sie die verschiedenen Zonen und die Aktionen (sofort und verzögert nach Zone, beachten Sie, dass es auch möglich ist, sie global zu konfigurieren), die im Falle einer Auslösung ausgeführt werden sollen. Ein Bereich kann entweder volumetrisch (zum Beispiel für den Tag) oder perimeter (für die Nacht) oder auch Bereiche des Hauses (Garage, Schlafzimmer, Nebengebäude…) sein.).
 
 Über eine Schaltfläche oben rechts können Sie so viele hinzufügen, wie Sie möchten.
 
 > **Spitze**
 >
-> Sie können den Namen der Zone bearbeiten, indem Sie auf den Namen der Zone klicken (vor der Bezeichnung "Name der Zone").
+> Sie können den Namen des Bereichs bearbeiten, indem Sie auf den Namen des Bereichs klicken (gegenüber der Bezeichnung "Bereichsname")").
 
 Ein Bereich besteht aus verschiedenen Elementen : - auslösen, - sofortige Aktion, - Aktion.
 
 ## Auslöser
 
-Ein Trigger ist ein binärer Befehl, der bei Einstellung auf 1 den Alarm auslöst. Es ist möglich, den Auslöser umzukehren, so dass es der Zustand 0 des Sensors ist, der den Alarm auslöst, indem "Rückwärts" auf JA gesetzt wird. Nachdem Sie Ihren Auslöser ausgewählt haben, können Sie eine Aktivierungsverzögerung in Minuten festlegen (ein Absenken unter die Minute ist nicht möglich). Diese Verzögerung ermöglicht es beispielsweise, wenn Sie den Alarm aktivieren, bevor Sie das Haus verlassen, den Alarm eine Minute lang nicht auszulösen (Zeit, um Sie herauszulassen). In anderen Fällen bleiben einige Bewegungsmelder für eine bestimmte Zeit im ausgelösten Modus (Wert 1), auch wenn keine Erkennung erfolgt, z. B. 4 Minuten. Daher ist es sinnvoll, die Aktivierung dieser Sensoren um 4 oder 5 zu verzögern min, damit der Alarm nicht sofort nach der Aktivierung ausgelöst wird. Dann haben Sie die Auslöseverzögerung, im Gegensatz zu der Aktivierungsverzögerung, die nur einmal auftritt, wenn der Alarm aktiviert wird, wird sie nach jedem Auslöser eines Sensors eingerichtet. Die Kinematik ist wie folgt, wenn der Sensor ausgelöst wird (Türöffnung, Anwesenheitserkennung). Wenn die Aktivierungszeiten abgelaufen sind, löst der Alarm die sofortigen Aktionen aus, wartet jedoch, bis die Aktivierungszeit abgelaufen ist Aktionen auslösen. Schließlich haben Sie die "Rückwärts" -Taste, mit der Sie den Auslösezustand des Sensors umkehren können (0 statt 1).
+Ein Trigger ist ein binärer Befehl, der bei Einstellung auf 1 den Alarm auslöst. Es ist möglich, den Auslöser umzukehren, so dass es der Zustand 0 des Sensors ist, der den Alarm auslöst, indem "Rückwärts" auf JA gesetzt wird. Nachdem Sie Ihren Auslöser ausgewählt haben, können Sie eine Aktivierungsverzögerung in Minuten festlegen (es ist nicht möglich, unter die Minute abzusinken). Diese Verzögerung ermöglicht es beispielsweise, wenn Sie den Alarm aktivieren, bevor Sie Ihr Zuhause verlassen, den Alarm eine Minute lang nicht auszulösen (die Zeit, um Sie ausgehen zu lassen). In anderen Fällen bleiben einige Bewegungsmelder für eine bestimmte Zeit im ausgelösten Modus (Wert 1), auch wenn keine Erkennung erfolgt, z. B. 4 Minuten. Daher ist es sinnvoll, die Aktivierung dieser Sensoren um 4 oder 5 zu verzögern min, damit der Alarm nicht sofort nach der Aktivierung ausgelöst wird. Dann haben Sie die Auslöseverzögerung, im Gegensatz zu der Aktivierungsverzögerung, die nur einmal auftritt, wenn der Alarm aktiviert wird, wird sie nach jedem Auslöser eines Sensors eingerichtet. Die Kinematik ist wie folgt, wenn der Sensor ausgelöst wird (Türöffnung, Anwesenheitserkennung). Wenn die Aktivierungszeiten abgelaufen sind, löst der Alarm die sofortigen Aktionen aus, wartet jedoch, bis die Auslösezeit abgelaufen ist, bevor er ausgelöst wird die Taten. Schließlich haben Sie die Schaltfläche "Umkehren", mit der Sie den Auslösezustand des Sensors umkehren können (0 statt 1)).
 
 Sie haben auch einen Parameter **Pflegt** Hier können Sie eine Trigger-Haltezeit festlegen, bevor Sie den Alarm auslösen. Wenn Sie beispielsweise einen Rauchmelder haben, der manchmal Fehlalarme auslöst, können Sie eine Verzögerung von 2 Sekunden angeben. Wenn der Alarm ausgelöst wird, wartet Jeedom 2 Sekunden und überprüft, ob der Rauchmelder immer noch in Alarmbereitschaft ist, wenn dies nicht der Fall ist, löst er den Alarm nicht aus.  
 
-Kleines Beispiel zu verstehen : beim ersten Auslöser (*\ [Salon \] \ [Auge \] \ [Präsenz \]*) hier habe ich eine Aktivierungszeit von 5 Minuten und eine Auslösezeit von 1 Minute. Das heißt, wenn ich den Alarm aktiviere, kann in den ersten 5 Minuten aufgrund dieses Sensors kein Alarm ausgelöst werden. Wenn nach dieser Verzögerung von 5 Minuten eine Bewegung vom Sensor erkannt wird, wartet der Alarm 1 Minute (die Zeit, in der ich den Alarm deaktivieren kann), bevor die Aktionen ausgelöst werden. Wenn ich sofortige Aktionen gehabt hätte, wären diese sofort ausgelöst worden, ohne auf das Ende des Aktivierungszeitraums zu warten. Die nicht sofortigen Aktionen hätten nach (1 Minute nach den sofortigen Aktionen) stattgefunden.
+Kleines Beispiel zu verstehen : beim ersten Auslöser (*\ [Salon \] \ [Auge \] \ [Präsenz \]*) Ich habe hier eine Aktivierungszeit von 5 Minuten und eine Auslösezeit von 1 Minute. Das heißt, wenn ich den Alarm aktiviere, kann in den ersten 5 Minuten aufgrund dieses Sensors kein Alarm ausgelöst werden. Wenn nach dieser Verzögerung von 5 Minuten eine Bewegung vom Sensor erkannt wird, wartet der Alarm 1 Minute (die Zeit, in der ich den Alarm deaktivieren kann), bevor die Aktionen ausgelöst werden. Wenn ich sofortige Aktionen gehabt hätte, wären diese sofort ausgelöst worden, ohne auf das Ende des Aktivierungszeitraums zu warten. Die nicht sofortigen Aktionen hätten danach (1 Minute nach den sofortigen Aktionen) stattgefunden).
 
 ### Sofortige Aktion
 
@@ -73,11 +73,11 @@ Die Modi sind recht einfach zu konfigurieren, Sie müssen nur die aktiven Zonen 
 
 > **Spitze**
 >
-> Sie können den Modus umbenennen, indem Sie auf seinen Namen klicken (gegenüber der Bezeichnung "Modusname"). Achtung beim Umbenennen eines Modus ist es unbedingt erforderlich, die Szenarien / Geräte zu überprüfen, die den alten Namen verwenden, um sie an den neuen weiterzugeben
+> Sie können den Modus umbenennen, indem Sie auf seinen Namen klicken (gegenüber der Bezeichnung "Modusname")"). Achtung beim Umbenennen eines Modus ist es unbedingt erforderlich, die Szenarien / Geräte zu überprüfen, die den alten Namen verwenden, um sie an den neuen weiterzugeben
 
 > **Notiz**
 >
-> Wenn Sie einen Modus umbenennen, müssen Sie im Alarm-Widget erneut auf den betreffenden Modus klicken, um eine vollständige Berücksichtigung zu erhalten (andernfalls bleibt Jeedom im alten Modus)
+> Wenn Sie einen Modus umbenennen, müssen Sie auf das Alarm-Widget des betreffenden Modus klicken, um eine vollständige Überlegung zu erhalten (andernfalls bleibt Jeedom im alten Modus)
 
 > **Wichtig**
 >
@@ -87,7 +87,7 @@ Die Modi sind recht einfach zu konfigurieren, Sie müssen nur die aktiven Zonen 
 
 Dieser Teil definiert die Aktionen, die nach einer Aktivierung des Alarms ausgeführt werden sollen. Auch hier finden Sie den unmittelbaren Begriff, der die Aktionen darstellt, die unmittelbar nach dem Aktivieren des Alarms ausgeführt werden sollen, und anschließend die Aktivierungsaktionen, die nach den Auslösezeiten ausgeführt werden.
 
-Im Beispiel zünde ich hier beispielsweise eine rote Lampe an, um anzuzeigen, dass die Scharfschaltung berücksichtigt wurde, und schalte sie aus, sobald die Scharfschaltung abgeschlossen ist (da normalerweise niemand mehr in der Scharfschaltung ist Umfang des Alarms, sonst wird er ausgelöst).
+Im Beispiel schalte ich hier zum Beispiel eine rote Lampe ein, um zu signalisieren, dass die Scharfschaltung berücksichtigt wurde, und schalte sie aus, sobald die Scharfschaltung abgeschlossen ist (da normalerweise niemand in der Scharfschaltung ist Umfang des Alarms, sonst wird er ausgelöst).
 
 > **Wichtig**
 >
@@ -123,11 +123,11 @@ In diesem Teil können Sie die Aktionen definieren, die ausgeführt werden solle
 
 >**So setzen Sie einen permanenten Alarm zurück ?**
 >
->Klicken Sie einfach auf einen der Alarmmodi (auch den aktiven).
+>Klicken Sie einfach auf einen der Alarmmodi (auch den aktiven)).
 
 >**Können wir die Verzögerungen in Sekunden setzen? ?**
 >
->Es ist möglich für die "Trigger Delay" (Sie müssen Dezimalzahlen eingeben, z : 0.5 für 30 Sekunden), jedoch nicht für die "Aktivierungsverzögerung" (für diesen Parameter keine Dezimalstellen verwenden).
+>Es ist möglich für die "Trigger Delay" (Sie müssen Dezimalzahlen eingeben, z : 0.5 für 30 Sekunden), jedoch nicht für die "Aktivierungsverzögerung" (verwenden Sie für diesen Parameter keine Dezimalstellen).
 
 >**Ich verstehe nicht, dass mein Alarm nichts bewirkt**
 >

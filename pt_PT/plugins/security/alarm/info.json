@@ -1,11 +1,45 @@
 {
     "id": "alarm",
     "name": "Alarme",
-    "description": "Plugin pour la gestion de la sécurité. Constituez votre alarme facilement (sans programmation), complète et personnalisable.",
+    "description": {
+        "fr_FR": "Plugin pour la gestion de la sécurité. Constituez votre alarme facilement (sans programmation), complète et personnalisable.",
+        "en_US": "Plugin for security management. Constitute your alarm easily (without programming), complete and customizable",
+        "es_ES": "Complemento para la gestión de seguridad. Constituya su alarma fácilmente (sin programación), completa y personalizable",
+        "de_DE": "Plugin für das Sicherheitsmanagement. Erstellen Sie Ihren Alarm einfach (ohne Programmierung), vollständig und anpassbar",
+        "pt_PT": "Plugin para gerenciamento de segurança. Constitua seu alarme com facilidade (sem programação), completo e personalizável",
+        "ru_RU": "Plugin pour la gestion de la sécurité. Constituez votre alarme facilement (sans programmation), complète et personnalisable",
+        "id_ID": "Plugin pour la gestion de la sécurité. Constituez votre alarme facilement (sans programmation), complète et personnalisable",
+        "it_IT": "Plugin pour la gestion de la sécurité. Constituez votre alarme facilement (sans programmation), complète et personnalisable",
+        "ja_JP": "Plugin pour la gestion de la sécurité. Constituez votre alarme facilement (sans programmation), complète et personnalisable",
+        "tr": "Plugin pour la gestion de la sécurité. Constituez votre alarme facilement (sans programmation), complète et personnalisable"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.0",
     "category": "security",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/alarm\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/alarm\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/alarm\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/alarm\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/alarm\/beta"
 }
