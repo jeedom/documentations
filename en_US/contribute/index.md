@@ -4,7 +4,7 @@
 
 . . . .
 
- [](https://community.jeedom.com/), . .
+ [Community](https://community.jeedom.com/), . .
 
 ### Documentation
 
@@ -16,5 +16,5 @@
 
 .
 
-- [](/en_US/contribute/core)
+- [Contribute to Core development](/en_US/contribute/core)
 - [](/en_US/contribute/dev_env)

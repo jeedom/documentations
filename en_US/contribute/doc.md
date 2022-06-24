@@ -2,7 +2,7 @@
 
 . .
 
- [](https://github.com/).
+ [Github](https://github.com/).
 
  [](https://community.jeedom.com/), .
 
@@ -26,7 +26,7 @@
 -  -> https://github.com/jeedom/documentations/blob/master/en_US/concept/index.md
 -  -> https://github.com/jeedom/documentations/blob/master/en_US/contribute/doc.md
 
- (**) .
+ (*Pull requests*) .
 
 . ).
 
@@ -42,7 +42,7 @@
 - 
 - 
 
- (**)  ..
+ (*Pull requests*)  ..
 
 
 ## 
@@ -61,7 +61,7 @@
 
 .  ..
 
-. .  [](https://community.jeedom.com/).  : [](mailto:contact@jeedom.com).
+. .  [Community](https://community.jeedom.com/).  : [contact the project team](mailto:contact@jeedom.com).
 
  :
 

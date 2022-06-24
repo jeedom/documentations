@@ -1,7 +1,7 @@
- **** le permite definir la estructura de árbol de su domótica.
+Los **objetos** le permite definir la estructura de árbol de su domótica.
 Todo el equipo que cree debe pertenecer a un objeto y
 será más fácilmente identificable. Luego decimos que el objeto
-es el **** equipo. La gestión de objetos es accesible
+es el **pariente** equipo. La gestión de objetos es accesible
 del menú **Herramientas → Objetos**.
 
 Para dar libre elección a la personalización, puede nombrar estos
@@ -9,12 +9,12 @@ objetos como quieras. Por lo general, definiremos los diferentes
 partes de su casa, como los nombres de las habitaciones (esto es
 Configuración recomendada).
 
- 
+Administración 
 =======
 
 Tienes dos opciones :
 
--   **** : Crea un nuevo objeto.
+-   **Para agregar** : Crea un nuevo objeto.
 
 -   **Resumen** : Muestra la lista de objetos creados
     así como su configuración.
@@ -40,7 +40,7 @@ Aquí están las diferentes características para configurar un objeto :
     ser padre del apartamento. Un objeto solo puede tener un padre
     pero varios objetos pueden tener el mismo padre.
 
--   **** : Marque esta casilla para hacer visible este objeto.
+-   **Visible** : Marque esta casilla para hacer visible este objeto.
 
 -   **Esconderse en el tablero** : Marque esta casilla para ocultar
     el objeto en el tablero. Todavía se mantiene en el
@@ -65,22 +65,22 @@ Aquí están las diferentes características para configurar un objeto :
     estará lado a lado en el tablero. Si pones `3` a cuatro
     objetos que se siguen, también estarán uno al lado del otro.
 
-> ****
+> **Consejo**
 >
 > Puede cambiar el orden de visualización de los objetos en el tablero.
 > En el menú, a la izquierda de su página, use las flechas verticales
 > arrastrar y soltar para darles un nuevo lugar.
 
-> ****
+> **Consejo**
 >
 > Puedes ver un gráfico que representa todos los elementos de Jeedom
-> adjunto a este objeto haciendo clic en el botón ****, arriba en
-> .
+> adjunto a este objeto haciendo clic en el botón **Vínculos**, arriba en
+> derecha.
 
-> ****
+> **Consejo**
 >
 > Cuando se crea un dispositivo y no se ha definido ningún padre,
-> tendrá como padre : **** .
+> tendrá como padre : **Ninguna** .
 
 Pestaña Resumen 
 -------------
@@ -103,7 +103,7 @@ te proponen líneas :
 -   **Ocultar en el móvil** : Marque la casilla si no quiere
     el resumen se muestra cuando lo ve desde un dispositivo móvil.
 
-###  
+### Pedidos 
 
 Cada pestaña representa un tipo de resumen definido en la configuración
 por Jeedom. Haga clic en **Agregar un pedido** para que sea
@@ -111,7 +111,7 @@ tomado en cuenta en el resumen. Tiene la opción de seleccionar el
 ordene cualquier equipo Jeedom, incluso si no es para
 padre este objeto.
 
-> ****
+> **Consejo**
 >
 > Si desea agregar un tipo de resumen o configurar el
 > Método de cálculo del resultado, la unidad, el icono y el nombre de un resumen,
@@ -124,15 +124,15 @@ Resumen
 La vista general le permite ver todos los objetos en
 Jeedom, así como su configuración :
 
--   **** : ID de objeto.
+-   **IDENTIFICACIÓN** : ID de objeto.
 
--   **** : Nombre del objeto.
+-   **Objeto** : Nombre del objeto.
 
 -   **Padre** : Nombre del objeto padre.
 
--   **** : Visibilidad del objeto.
+-   **Visible** : Visibilidad del objeto.
 
--   **** : Indica si el objeto está oculto en el tablero.
+-   **Mascarilla** : Indica si el objeto está oculto en el tablero.
 
 -   **Resumen definido** : Indica el número de pedidos por resumen. este
     que está en azul se tiene en cuenta en el resumen global.
