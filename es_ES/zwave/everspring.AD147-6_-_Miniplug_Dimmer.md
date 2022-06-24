@@ -1,110 +1,110 @@
-# 
+# Atenuador con minienchufe Everspring - AD147-6
 
- ****
+ **El módulo**
 
 ![module](images/everspring.AD147-6/module.jpg)
 
- ****
+ **La imagen de Jeedom**
 
 ![vuedefaut1](images/everspring.AD147-6/vuedefaut1.jpg)
 
-## 
+## Resumen
 
-. . .
+El Mini Dimmer Plug está diseñado para controlar el encendido y apagado de luces y equipos eléctricos en tu hogar. También permite una función de dimmer que solo es compatible con bombillas. Con un voltaje de 220 - 240 V, este Dimmer Socket puede soportar una carga de 6 W a 250 W.
 
-. .
+El Dimmer Mini Plug es un dispositivo habilitado para Z-Wave™ que está diseñado para funcionar con todas las redes habilitadas para Z-Wave™. Puede ser controlado por un control remoto, software de PC o cualquier controlador Z-Wave en su red.
 
 ## Fonctions
 
--   
--   
--   
--   
--   
--   
--   
--   
+-   Controlar una lámpara de forma remota
+-   Módulo de enchufe que se integra directamente entre una toma eléctrica y la carga a controlar
+-   Función ON/OFF y Dimmer para controlar lámparas
+-   Control de carga local mediante botón integrado
+-   Tecnología Z-Wave Plus
+-   Dimensiones reducidas para pasar casi desapercibido
+-   LED de estado en el botón integrado
+-   Función de repetidor Z-Wave
 
-## 
+## Características técnicas
 
--    : 
--    : 
--    : 
--    :  :  : ) : 6W
--    : 
--    : 
--   Affichage: 
--    : ) :  : 52mm
+-   Tipo de mod : Receptor de onda Z
+-   Alimento : 230V, 50Hz
+-   Consumo : 0.6W
+-   Máximo poder : Carga resistente : 250W, bombilla incandescente : 250W, Bombilla Led (no regulable)) : 6W
+-   Frecuencia : 868.42Mhz
+-   Alcance : hasta 70 m en exterior, hasta 30 m en interior
+-   Affichage: LED en el botón
+-   Dimensiones : Longitud (incluido el enchufe) : 74 mm de diámetro : 52mm
 
-## 
+## Datos del módulo
 
--    : Everspring
--    : 
--    : 96
--    : 3
--    : 3
+-   Marca : Everspring
+-   Apellido : Minienchufe de atenuador
+-   Identificación del fabricante : 96
+-   Tipo Producto : 3
+-   Identificación de producto : 3
 
 ## Configuration
 
- [](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte este [documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Importante**
 >
-> . 
+> Para poner este módulo en modo de inclusión, debe presionar su botón 3 veces, de acuerdo con su documentación en papel. Es importante señalar que este módulo entra directamente en inclusión cuando no pertenece a ninguna red y está alimentado
 
 ![inclusion](images/everspring.AD147-6/inclusion.jpg)
 
- :
+Una vez incluido, debe obtener esto :
 
 ![Plugin Zwave](images/everspring.AD147-6/information.jpg)
 
 ### Commandes
 
-.
+Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
-![](images/everspring.AD147-6/commandes.jpg)
+![Pedidos](images/everspring.AD147-6/commandes.jpg)
 
- :
+Aquí está la lista de comandos :
 
--    : 
--    : 
--    : 
--    : 
+-   Intensidad : Este es el control para ajustar la intensidad de la retención
+-   Nosotros : Este es el comando que le permite encender el zócalo
+-   Apagado : Este es el comando que le permite apagar el zócalo
+-   Estado : Este es el comando que permite conocer el estado del socket
 
-.
+Tenga en cuenta que en el tablero, la información de Estado, ENCENDIDO/APAGADO e Intensidad se encuentra en el mismo icono.
 
-### 
+### Configuración del módulo
 
-. .
+Puede configurar el módulo de acuerdo a su instalación. Para hacer esto, debe pasar por el botón "Configuración" del complemento OpenZwave de Jeedom.
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-)
+Llegará a esta página (después de hacer clic en la pestaña Configuración)
 
 ![Config1](images/everspring.AD147-6/config1.jpg)
 
- :
+Detalles del parámetro :
 
--   1 : .
--   2 : )
--   3 : .
--   4 : 
+-   1 : Este parámetro deﬁne el valor de estado del comando, no es recomendable cambiar este valor.
+-   2 : Este parámetro define el retraso para enviar el cambio de estado al grupo 1 (valor entre 3 y 25 segundos)
+-   3 : Este parámetro se utiliza para definir si el enchufe volverá a su estado (ENCENDIDO o APAGADO) después de una recuperación de energía.
+-   4 : Este parámetro se utiliza para definir si el enchufe funcionará en modo de atenuación o en modo de encendido/apagado
 
 ### Groupes
 
-.
+Este módulo tiene 2 grupos de asociación.
 ![Groupe](images/everspring.AD147-6/groupe.jpg)
 
-> ****
+> **Importante**
 >
-> 
+> Al menos Jeedom debería terminar en el grupo 1
 
-## 
+## Bueno saber
 
-### 
+### Especificidades
 
--   .
+-   La retroalimentación de estado no se puede configurar en menos de 3 segundos.
 
 ## Wakeup
 
-.
+No hay noción de despertar en este módulo.
