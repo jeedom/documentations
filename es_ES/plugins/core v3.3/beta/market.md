@@ -10,13 +10,13 @@ Mi perfil
 ==========
 
 Aquí es donde podrá ajustar diferentes parámetros de su
-perfil :
+ :
 
--   **Perfil**
+-   ****
 
-    -   **Acceso** : Su inicio de sesión en el mercado, no se puede cambiar
+    -   **** : Su inicio de sesión en el mercado, no se puede cambiar
 
-    -   **Apellido** : Su nombre (esta información solo es útil para
+    -   **** : Su nombre (esta información solo es útil para
         hacer que los correos electrónicos sean más divertidos)
 
     -   **Primer nombre** : Su nombre (esta información solo es útil
@@ -24,9 +24,9 @@ perfil :
 
     -   **Nombre de usuario en el foro** : Tu nombre de usuario en el foro
 
-    -   **Correo electrónico** : Su correo
+    -   **** : Su correo
 
-    -   **Lengua** : Tu idioma
+    -   **** : Tu idioma
 
     -   **Contraseña &amp;&amp; Confirmar contraseña** : permite
         cambia tu contraseña
@@ -48,20 +48,20 @@ Para los profesionales :
 -   **Soporte de solicitudes de destinatario** : saber quién recibirá el
     correos electrónicos de soporte (cliente final, instalador o ambos)
 
-    -   **TOS**
+    -   ****
 
--   **Usuario** : condiciones generales de uso (preste atención a
+-   **** : condiciones generales de uso (preste atención a
     léelos bien porque te involucran)
 
--   **Desarrollador** : condiciones generales de uso para
+-   **** : condiciones generales de uso para
     desarrolladores
 
-    -   **Entradas**
+    -   ****
 
 -   **Numero de entradas** : Número de boletos para el mes actual
     así como tu límite
 
--   **Apoyo** : botón para enviar una solicitud de soporte (accesible
+-   **** : botón para enviar una solicitud de soporte (accesible
     también por el signo de exclamación en la esquina superior derecha del mercado o
     en tu Jeedom)
 
@@ -73,16 +73,16 @@ Para los profesionales :
     -   **Resumen** Aquí encontrarás un resumen de tus diferentes
         derechos y servicios
 
-> **Consejo**
+> ****
 >
 > No olvides guardar
 
 Mis jeedoms 
 ===========
 
--   **Nivel**
+-   ****
 
-    -   **Jeedom** : su nivel de paquete de servicio
+    -   **** : su nivel de paquete de servicio
 
     -   **Ingrese un número de paquete de servicio** : ingresemos su
         número de paquete de servicio (se puede encontrar en el correo electrónico enviado por
@@ -94,7 +94,7 @@ Mis jeedoms
         de las instalaciones de Jeedom actualmente vinculadas a su cuenta también
         que el límite permitido
 
-> **Consejo**
+> ****
 >
 > A veces el mercado puede pedirle que reinicie
 > sus claves de instalación, es normal, solo siga lo que
@@ -102,19 +102,19 @@ Mis jeedoms
 
 -   **Mis jeedoms** : Aquí es donde se enumeran todos tus Jeedoms
 
-    -   **Apellido** : el nombre que quieres darle a tu Jeedom (
+    -   **** : el nombre que quieres darle a tu Jeedom (
         encontrado en el nombre de la copia de seguridad si tiene la suscripción de
         Copia de seguridad en la nube)
 
-    -   **Estado** : permite ver el estado de la libertad en cuestión
+    -   **** : permite ver el estado de la libertad en cuestión
 
     -   **IP local / remota** : IP o dirección de este Jeedom,
         configurar en Jeedom, si no pones nada estará allí
         última IP conocida
 
-    -   **DNS** : le permite personalizar el nombre de su DNS
+    -   **** : le permite personalizar el nombre de su DNS
 
-    -   **URL** : enumerar las diferentes URL de acceso de Jeedom.
+    -   **** : enumerar las diferentes URL de acceso de Jeedom.
 
     -   **Servidor DNS** : le dice si el servidor DNS al que
         están adjuntos
@@ -128,11 +128,11 @@ Mis jeedoms
     -   **última actualización** : La última comunicación de Jeedom con
         el mercado
 
-    -   **Hardware** : Nombre de hardware Jeedom
+    -   **** : Nombre de hardware Jeedom
 
-    -   **Versión** : la versión de Jeedom instalada
+    -   **** : la versión de Jeedom instalada
 
-> **Consejo**
+> ****
 >
 > No olvides guardar
 
@@ -156,7 +156,7 @@ Mis compras / promociones / donaciones
 Aquí encontrará todas sus compras y puede solicitar la devolución del
 factura o recibo por correo electrónico
 
-> **Importante**
+> ****
 >
 > Si compra un complemento oficial, recibirá una factura. en
 > sin embargo, para un complemento de terceros es un recibo, para la factura es necesario
