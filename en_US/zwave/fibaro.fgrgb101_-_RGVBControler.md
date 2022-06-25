@@ -1,14 +1,14 @@
 # 
 
--   **The module**
+-   ****
 
 ![module](images/fibaro.fgrgb101/module.jpg)
 
--   **The Jeedom visual**
+-   ****
 
 ![Visuel jeedom](images/fibaro.fgrgb101/Visuel_jeedom.png)
 
-## Summary
+## 
 
 .
 
@@ -25,15 +25,15 @@
 ## Fonctions
 
 -   )
--   Installs behind an existing switch
+-   
 -   
 -   
 -   
 -   
 
-## Technical characteristics
+## 
 
--   Feed : 
+-    : 
 -    :
 -   ),
 -   . 
@@ -41,48 +41,48 @@
 -   ),
 -   )
 -    : 
--   Consumption : 0,3W
--   Radio protocol : )
+-    : 0,3W
+-    : )
 -    : 1mW
--   Operating temperature : 
 -    : 
--   Dimensions : 
+-    : 
+-    : 
 -    : 
 -   .
 
-## Module data
+## 
 
--   Mark : 
--   Last name : 
--   Manufacturer ID : 271
--   Type Product : 2304
--   Product ID : 4096
+-    : 
+-    : 
+-    : 271
+-    : 2304
+-    : 4096
 
 ## Configuration
 
-To configure the OpenZwave plugin and know how to include Jeedom refer to this [documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
+ [](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-> **Important**
+> ****
 >
 > .
 
 ![vue bp inclusion](images/fibaro.fgrgb101/vue_bp_inclusion.png)
 
-Once included you should get this :
+ :
 
 ![Plugin Zwave](images/fibaro.fgrgb101/configuration.png)
 
 ### Commandes
 
-Once the module is recognized, the commands associated with the module will be available.
+.
 
-![Orders](images/fibaro.fgrgb101/commande_1.png)
+![](images/fibaro.fgrgb101/commande_1.png)
 
-![Orders](images/fibaro.fgrgb101/commande_2.png)
+![](images/fibaro.fgrgb101/commande_2.png)
 
-Here is the list of commands :
+ :
 
--   Color : 
+-    : 
 -    : 
 -    : 
 -    : )
@@ -90,23 +90,23 @@ Here is the list of commands :
 -    : 
 -    : . ()
 -    : . ()
--   We : 
--   Off : 
--   Intensity : 
+-    : 
+-    : 
+-    : 
 
-Note that on the dashboard all the information is found on the same icon
 
-### Module configuration
 
-You can configure the module according to your installation. To do this, you must go through the "Configuration" button of the OpenZwave plugin from Jeedom.
+### 
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+. .
 
-You will arrive on this page (after clicking on the Settings tab)
+![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+
+)
 
 ![Config1](images/fibaro.fgrgb101/parametres.png)
 
-Parameter details :
+ :
 
 .
 
@@ -116,9 +116,9 @@ Parameter details :
 
 ![Groupe](images/fibaro.fgrgb101/groupes.png)
 
-## Good to know
+## 
 
-### Specificities
+### 
 
 .
 

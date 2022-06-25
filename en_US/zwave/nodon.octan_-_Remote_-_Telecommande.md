@@ -1,14 +1,14 @@
 # 
 
-**The module**
+****
 
 ![module](images/nodon.octan/module.jpg)
 
-**The Jeedom visual**
+****
 
 ![vuedefaut1](images/nodon.octan/vuedefaut1.jpg)
 
-## Summary
+## 
 
 )
 
@@ -22,46 +22,46 @@
 -   
 -   
 
-## Technical characteristics
+## 
 
--   Feed : 
+-    : 
 -   
 -   )
 -   
 -    :  : 2000m
 -    : 868..: 
--   Dimensions : **15mm
+-    : **15mm
 -   
 
-## Module data
+## 
 
--   Mark : Nodon
--   Last name : 
--   Manufacturer ID : 357
--   Type Product : 2
--   Product ID : 1
+-    : Nodon
+-    : 
+-    : 357
+-    : 2
+-    : 1
 
 ## Configuration
 
-To configure the OpenZwave plugin and know how to include Jeedom refer to this [documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
+ [](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-> **Important**
+> ****
 >
 > .
 
 ![inclusion](images/nodon.octan/inclusion.jpg)
 
-Once included you should get this :
+ :
 
 ![Plugin Zwave](images/nodon.octan/information.jpg)
 
 ### Commandes
 
-Once the module is recognized, the commands associated with the module will be available.
+.
 
-![Orders](images/nodon.octan/commandes.jpg)
+![](images/nodon.octan/commandes.jpg)
 
-Here is the list of commands :
+ :
 
 -    : 
 
@@ -77,21 +77,21 @@ Here is the list of commands :
 | **4**          | 40             | 42             | 41             | 43             |
 
 
-### Module configuration
+### 
 
-> **Important**
+> ****
 >
-> During a first inclusion always wake up the module right after the inclusion.
+> .
 
 .
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![ plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the settings tab)
+)
 
 ![Config1](images/nodon.octan/config1.jpg)
 
-Parameter details :
+ :
 
 -    : )
 -   3 : )
@@ -110,13 +110,13 @@ Parameter details :
 -   
 -   
 
-> **Important**
+> ****
 >
-> At least Jeedom should end up in group 1
+> 
 
-## Good to know
+## 
 
-### Specificities
+### 
 
 -   . .
 
@@ -124,8 +124,8 @@ Parameter details :
 
 
 
-## Important note
+## 
 
-> **Important**
+> ****
 >
-> You have to wake up the module : after its inclusion, after a change of configuration, after a change of wakeup, after a change of association groups
+>  : 

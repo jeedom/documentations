@@ -1,14 +1,14 @@
 # 
 
-**The module**
+****
 
 ![module](images/aeotec.minimote/module.jpg)
 
-**The Jeedom visual**
+****
 
 ![vuedefaut1](images/aeotec.minimote/vuedefaut1.jpg)
 
-## Summary
+## 
 
 . . .
 
@@ -22,46 +22,46 @@
 -   
 -   
 
-## Technical characteristics
+## 
 
--   Mod type : Z-Wave Controller
--   Color : Blanc
--   Feed : 
+-    : 
+-    : Blanc
+-    : 
 -   Affichage: 
--   Frequency : 868,42MHz
--   Scope : 
--   Dimensions : 0..
--   Operating temperature : -
+-    : 868,42MHz
+-    : 
+-    : 0..
+-    : -
 
-## Module data
+## 
  
--   Mark : Aeotec
--   Last name : Minimote
--   Manufacturer ID : 134
--   Type Product : 1
--   Product ID : 3
+-    : Aeotec
+-    : Minimote
+-    : 134
+-    : 1
+-    : 3
 
 ## Configuration
 
-To configure the OpenZwave plugin and know how to include Jeedom refer to this [documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
+ [](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-> **Important**
+> ****
 >
 > .
 
 ![inclusion](images/aeotec.minimote/inclusion.jpg)
 
-Once included you should get this :
+ :
 
 ![Plugin Zwave](images/aeotec.minimote/information.jpg)
 
 ### Commandes
 
-Once the module is recognized, the commands associated with the module will be available.
+.
 
-![Orders](images/aeotec.minimote/commandes.jpg)
+![](images/aeotec.minimote/commandes.jpg)
 
-Here is the list of commands :
+ :
 
 -    : 
   - 1 : 
@@ -73,21 +73,21 @@ Here is the list of commands :
   - 7 : 
   - 8 : 
 
-### Module configuration
+### 
 
-> **Important**
+> ****
 >
-> During a first inclusion always wake up the module right after the inclusion.
+> .
 
 .
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![ plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-You will arrive on this page (after clicking on the settings tab)
+)
  
 ![Config1](images/aeotec.minimote/config1.jpg)
 
-Parameter details :
+ :
 
 -   241: )
 -   242: )
@@ -115,6 +115,6 @@ Parameter details :
 
 .
 
-## Important note
+## 
 
-You have to wake up the module : after its inclusion, after a change of configuration, after a change of wakeup, after a change of association groups
+ : 

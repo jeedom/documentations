@@ -3,7 +3,7 @@
 
 
 
--   **The module**
+-   ****
 
 
 
@@ -11,7 +11,7 @@
 
 
 
--   **The Jeedom visual**
+-   ****
 
 
 
@@ -19,7 +19,7 @@
 
 
 
-Summary 
+ 
 ------
 
 
@@ -35,7 +35,7 @@ Summary
 
 
 
-Functions 
+ 
 ---------
 
 
@@ -72,14 +72,14 @@ Functions
 
 
 
-Technical characteristics 
+ 
 ---------------------------
 
 
 
--   Mod type : 
+-    : 
 
--   Feed :  :  : Pile
+-    :  :  : Pile
     
 
 -    : 1W
@@ -90,11 +90,11 @@ Technical characteristics
 
 -    : 
 
--   Frequency : 868.42Mhz
+-    : 
 
 -    : 
 
--   Operating temperature : -
+-    : -
 
 -    : 
 
@@ -102,35 +102,35 @@ Technical characteristics
 
 
 
-Module data 
+ 
 -----------------
 
 
 
--   Mark : Aeotec
+-    : Aeotec
 
--   Last name : )
+-    : )
 
--   Manufacturer ID : 134
+-    : 134
 
--   Type Product : 3
+-    : 3
 
--   Product ID : 62
+-    : 62
 
 
 
-Configuration 
+ 
 -------------
 
 
 
 
 
-[documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
+[](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
 
 
-> **Important**
+> ****
 >
 > 
 > .
@@ -141,7 +141,7 @@ Configuration
 
 
 
-Once included you should get this :
+ :
 
 
 
@@ -149,7 +149,7 @@ Once included you should get this :
 
 
 
-### Orders 
+###  
 
 
 
@@ -158,11 +158,11 @@ disponibles.
 
 
 
-![Orders](images/aeotec.garagedoorcontroller/commandes.jpg)
+![](images/aeotec.garagedoorcontroller/commandes.jpg)
 
 
 
-Here is the list of commands :
+ :
 
 
 
@@ -172,13 +172,13 @@ Here is the list of commands :
 
 -    : .
 
--   Temperature : .
+-    : .
 
--   Sabotage : .
+-    : .
 
 
 
-### Module configuration 
+###  
 
 
 
@@ -188,7 +188,7 @@ Here is the list of commands :
 
 
 
-![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
+![ plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 
 
@@ -203,7 +203,7 @@ Here is the list of commands :
 
 
 
-Parameter details :
+ :
 
 
 
@@ -219,11 +219,11 @@ Parameter details :
 
 
 
-### Groups 
+###  
 
 
 
-This module has two association groups. 
+. 
 indispensable.
 
 
@@ -232,12 +232,12 @@ indispensable.
 
 
 
-Good to know 
+ 
 ------------
 
 
 
-### Specificities 
+###  
 
 :
 
