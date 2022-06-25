@@ -1,14 +1,14 @@
 # 
 
-****
+**The module**
 
 ![module](images/aeotec.keyfob/module.jpg)
 
-****
+**The Jeedom visual**
 
 ![vuedefaut1](images/aeotec.keyfob/vuedefaut1.jpg)
 
-## 
+## Summary
 
 
 
@@ -26,41 +26,41 @@
 -   
 -   
 
-## 
+## Technical characteristics
 
+-   Mod type : 
+-   Feed : 
 -    : 
--    : 
--    : 
--   : 868.
+-   Frequency: 868.42MHz
 -    : 
 -    : -
--    : )
+-   Dimensions : )
 
-## 
+## Module data
 
--    : Aeotec
--    : 
--    : 134
--    : 1
--    : 22
+-   Mark : Aeotec
+-   Last name : 
+-   Manufacturer ID : 134
+-   Type Product : 1
+-   Product ID : 22
 
 # Configuration
 
- [](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
-> ****
+To configure the OpenZwave plugin and know how to include Jeedom refer to this [documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
+> **Important**
 >
 > .
 >![](images/aeotec.keyfob/inclusion.jpg)
-> :
+>Once included you should get this :
 ![Plugin Zwave](images/aeotec.keyfob/information.jpg)
 
 ### Commandes
 
 .
 
-![](images/aeotec.keyfob/commandes.jpg)
+![Orders](images/aeotec.keyfob/commandes.jpg)
 
- :
+Here is the list of commands :
 
 -    : 
   - 1 : 
@@ -72,20 +72,20 @@
   - 7 : 
   - 8 : 
 
-### 
-> ****
+### Module configuration
+> **Important**
 >
 > 
 > .
 
 .
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-)
+You will arrive on this page (after clicking on the Settings tab)
 ![Config1](images/aeotec.keyfob/config1.jpg)
 
- :
+Parameter details :
 -   250: )
 
 .
@@ -95,9 +95,9 @@
 
 ![Groupe](images/aeotec.keyfob/groupe.jpg)
 
-## 
+## Good to know
 
-### 
+### Specificities
 
  :
 
@@ -118,6 +118,6 @@
 .
 .
 
-# 
+# Important note
 
- : 
+You have to wake up the module : after its inclusion, after a change of configuration, after a change of wakeup, after a change of association groups

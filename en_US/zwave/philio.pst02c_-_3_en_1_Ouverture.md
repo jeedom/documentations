@@ -1,14 +1,14 @@
 # 
 
-****
+**The module**
 
 ![module](images/philio.pst02c/module.jpg)
 
-****
+**The Jeedom visual**
 
 ![vuedefaut1](images/philio.pst02c/vuedefaut1.jpg)
 
-## 
+## Summary
 
  : .  : . .
 
@@ -31,70 +31,70 @@
 -   
 -   
 
-## 
+## Technical characteristics
 
--    : 
--    : 
--    : )
--    : 868.
+-   Mod type : 
+-   Feed : 
+-   Battery life : )
+-   Frequency : 868.42MHz
 -    : 
 -    : -
 -    : 
--    :
+-   Dimensions :
   -    : 
   -    : 
 -    : 52g
--    : -
+-   Operating temperature : -
 -    : 
 -    : 
 -    : 
 
-## 
+## Module data
 
--    : 
--    : 
--    : 316
--    : 2
--    : 14
+-   Mark : 
+-   Last name : 
+-   Manufacturer ID : 316
+-   Type Product : 2
+-   Product ID : 14
 
 ## Configuration
 
- [](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
+To configure the OpenZwave plugin and know how to include Jeedom refer to this [documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Important**
 >
 > .
 
 ![inclusion](images/philio.pst02c/inclusion.jpg)
 
- :
+Once included you should get this :
 
 ![Plugin Zwave](images/philio.pst02c/information.jpg)
 
 ### Commandes
 
-.
+Once the module is recognized, the commands associated with the module will be available.
 
-![](images/philio.pst02c/commandes.jpg)
+![Orders](images/philio.pst02c/commandes.jpg)
 
- :
+Here is the list of commands :
 
 -    : 
+-   Temperature : 
 -    : 
--    : 
--    : 
+-   Battery : this is the battery command
 
-### 
+### Module configuration
 
-> ****
+> **Important**
 >
-> .
+> During a first inclusion always wake up the module right after the inclusion.
 
 .
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-)
+You will arrive on this page (after clicking on the settings tab)
 
 ![Config1](images/philio.pst02c/config1.jpg)
 
@@ -102,7 +102,7 @@
 
 ![Config3](images/philio.pst02c/config3.jpg)
 
- :
+Parameter details :
 
 -   2: 
 -   4: 
@@ -130,8 +130,8 @@
 
 -   
 
-## 
+## Important note
 
-> ****
+> **Important**
 >
->  : 
+> You have to wake up the module : after its inclusion, after a change of configuration, after a change of wakeup, after a change of association groups

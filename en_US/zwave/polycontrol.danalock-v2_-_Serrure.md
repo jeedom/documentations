@@ -1,14 +1,14 @@
 # 
 
-****
+**The module**
 
 ![module](images/polycontrol.danalock/module.jpg)
 
-****
+**The Jeedom visual**
 
 ![vuedefaut1](images/polycontrol.danalock/vuedefaut1.jpg)
 
-## 
+## Summary
 
 ** !**
 
@@ -58,28 +58,28 @@
 -   
 -   ).
 
-## 
+## Technical characteristics
 
--    : 
+-   Feed : 
 -    : V2
 -    : 
 -    : 
--    : )
+-   Dimensions : )
 -    : 363g
 
-## 
+## Module data
 
--    : Poly-Control
--    : 
--    : 010e
--    : 1
--    : 1
+-   Mark : Poly-Control
+-   Last name : 
+-   Manufacturer ID : 010e
+-   Type Product : 1
+-   Product ID : 1
 
 ## Configuration
 
- [](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
+To configure the OpenZwave plugin and know how to include Jeedom refer to this [documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Important**
 >
 > ..
 
@@ -91,7 +91,7 @@
 
 ![inclusion securise jeedom 2](images/polycontrol.danalock/inclusion-securise-jeedom-2.jpg)
 
-> ****
+> **Important**
 >
 > . .
 
@@ -103,24 +103,24 @@
 
 ".
 
- :
+Once included you should get this :
 
 ![Plugin Zwave](images/polycontrol.danalock/information.jpg)
 
 ### Commandes
 
-.
+Once the module is recognized, the commands associated with the module will be available.
 
-![](images/polycontrol.danalock/commandes.jpg)
+![Orders](images/polycontrol.danalock/commandes.jpg)
 
- :
+Here is the list of commands :
 
 -    : )
 -    : 
 -    : 
--    : 
+-   Battery : this is the battery command
 
-### 
+### Module configuration
 
 > ****
 >
@@ -128,13 +128,13 @@
 
 .
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-)
+You will arrive on this page (after clicking on the settings tab)
 
 ![Config1](images/polycontrol.danalock/bouton_configuration.jpg)
 
- :
+Parameter details :
 
 -   1 :  : 
 -   2 : 
@@ -155,15 +155,15 @@
 
 ![Groupe](images/polycontrol.danalock/groupe.jpg)
 
-## 
+## Good to know
 
-### 
+### Specificities
 
-> ****
+> **Tip**
 >
 > . . .
 
-> ****
+> **Tip**
 >
 > .
 

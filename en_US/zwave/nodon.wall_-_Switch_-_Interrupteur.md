@@ -1,14 +1,14 @@
 # 
 
-****
+**The module**
 
 ![module](images/nodon.wallswitch/module.jpg)
 
-****
+**The Jeedom visual**
 
 ![vuedefaut1](images/nodon.wallswitch/vuedefaut1.jpg)
 
-## 
+## Summary
 
 .
 
@@ -22,16 +22,16 @@
 -   
 -   
 
-## 
+## Technical characteristics
 
--    : 
+-   Feed : 
 -   
 -   )
 -    : 
 -    : 2000m
 -    : 868.
 -    : 
--    : **15mm
+-   Dimensions : **15mm
 -   
 -   :::::2013
 -   
@@ -39,25 +39,25 @@
 -   
 -   :2010
 
-## 
+## Module data
 
--    : Nodon
--    : 
--    : 357
--    : 2
--    : 3
+-   Mark : Nodon
+-   Last name : 
+-   Manufacturer ID : 357
+-   Type Product : 2
+-   Product ID : 3
 
 ## Configuration
 
- [](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
+To configure the OpenZwave plugin and know how to include Jeedom refer to this [documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Important**
 >
 > .
 
 ![inclusion](images/nodon.wallswitch/inclusion.jpg)
 
- :
+Once included you should get this :
 
 ![Plugin Zwave](images/nodon.wallswitch/information.jpg)
 
@@ -65,9 +65,9 @@
 
 .
 
-![](images/nodon.wallswitch/commandes.jpg)
+![Orders](images/nodon.wallswitch/commandes.jpg)
 
- :
+Here is the list of commands :
 
 -    : 
 
@@ -83,20 +83,20 @@
 | **4**          | 40             | 42             | 41             | 43             |
 
 
-### 
+### Module configuration
 
-> ****
+> **Important**
 >
-> .
+> During a first inclusion always wake up the module right after the inclusion.
 
 .
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-)
+You will arrive on this page (after clicking on the settings tab)
 ![Config1](images/nodon.wallswitch/config1.jpg)
 
- :
+Parameter details :
 
 -    : )
 -   3 : )
@@ -115,13 +115,13 @@
 -   
 -   
 
-> ****
+> **Important**
 >
-> 
+> At least Jeedom should end up in group 1
 
-## 
+## Good to know
 
-### 
+### Specificities
 
 -   . . .
 
@@ -129,8 +129,8 @@
 
 
 
-## 
+## Important note
 
-> ****
+> **Important**
 >
->  : 
+> You have to wake up the module : after its inclusion, after a change of configuration, after a change of wakeup, after a change of association groups

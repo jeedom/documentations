@@ -1,14 +1,14 @@
 # 
 
-****
+**The module**
 
 ![module](images/aeotec.keyfob-gen5/module.jpg)
 
-****
+**The Jeedom visual**
 
 ![vuedefaut1](images/aeotec.keyfob-gen5/vuedefaut1.jpg)
 
-## 
+## Summary
 
 .
 
@@ -33,45 +33,45 @@
 -   
 -   
 
-## 
+## Technical characteristics
 
+-   Mod type : 
+-   Feed : 
 -    : 
--    : 
--    : 
--   : 868.
+-   Frequency: 868.42MHz
 -    : 
 -    : -
--    : )
+-   Dimensions : )
 
-## 
+## Module data
 
--    : Aeotec
--    : 
--    : 134
--    : 1
--    : 88
+-   Mark : Aeotec
+-   Last name : 
+-   Manufacturer ID : 134
+-   Type Product : 1
+-   Product ID : 88
 
 ## Configuration
 
- [](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
+To configure the OpenZwave plugin and know how to include Jeedom refer to this [documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Important**
 >
 > .
 
 ![inclusion](images/aeotec.keyfob-gen5/inclusion.jpg)
 
- :
+Once included you should get this :
 
 ![Plugin Zwave](images/aeotec.keyfob-gen5/information.jpg)
 
 ### Commandes
 
-.
+Once the module is recognized, the commands associated with the module will be available.
 
-![](images/aeotec.keyfob-gen5/commandes.jpg)
+![Orders](images/aeotec.keyfob-gen5/commandes.jpg)
 
- :
+Here is the list of commands :
 
 -    : 
   - 1 : 
@@ -83,21 +83,21 @@
   - 7 : 
   - 8 : 
 
-### 
+### Module configuration
 
-> ****
+> **Important**
 >
-> .
+> During a first inclusion always wake up the module right after the inclusion.
 
 .
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-)
+You will arrive on this page (after clicking on the Settings tab)
 
 ![Config1](images/aeotec.keyfob-gen5/config1.jpg)
 
- :
+Parameter details :
 
 -   250: )
 -   255 : 
@@ -108,9 +108,9 @@
 
 ![Groupe](images/aeotec.keyfob-gen5/groupe.jpg)
 
-##  
+##  Good to know
 
-### 
+### Specificities
 
  :
 
@@ -132,6 +132,6 @@
 
 .
 
-## 
+## Important note
 
- : 
+You have to wake up the module : after its inclusion, after a change of configuration, after a change of wakeup, after a change of association groups
