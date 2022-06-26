@@ -3,7 +3,7 @@
 
 
 
--   ****
+-   **The module**
 
 
 
@@ -11,7 +11,7 @@
 
 
 
--   ****
+-   **The Jeedom visual**
 
 
 
@@ -19,7 +19,7 @@
 
 
 
- 
+Summary 
 ------
 
 
@@ -35,7 +35,7 @@
 
 
 
- 
+Functions 
 ---------
 
 
@@ -72,17 +72,17 @@
 
 
 
- 
+Technical characteristics 
 ---------------------------
 
 
 
--    : 
+-   Mod type : 
 
--    :  :  : Pile
+-   Feed :  :  : Pile
     
 
--    : 1W
+-   Standby consumption : 1W
 
 -    : 2W
 
@@ -90,47 +90,47 @@
 
 -    : 
 
--    : 
+-   Frequency : 868.42Mhz
 
--    : 
+-   Transmission distance : 
 
--    : -
+-   Operating temperature : -
 
--    : 
+-   Operating humidity : 
 
 -   Certifications: 
 
 
 
- 
+Module data 
 -----------------
 
 
 
--    : Aeotec
+-   Mark : Aeotec
 
--    : )
+-   Last name : )
 
--    : 134
+-   Manufacturer ID : 134
 
--    : 3
+-   Type Product : 3
 
--    : 62
+-   Product ID : 62
 
 
 
- 
+Configuration 
 -------------
 
 
 
 
 
-[](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
+[documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
 
 
-> ****
+> **Important**
 >
 > 
 > .
@@ -141,7 +141,7 @@
 
 
 
- :
+Once included you should get this :
 
 
 
@@ -149,7 +149,7 @@
 
 
 
-###  
+### Orders 
 
 
 
@@ -158,11 +158,11 @@ disponibles.
 
 
 
-![](images/aeotec.garagedoorcontroller/commandes.jpg)
+![Orders](images/aeotec.garagedoorcontroller/commandes.jpg)
 
 
 
- :
+Here is the list of commands :
 
 
 
@@ -172,13 +172,13 @@ disponibles.
 
 -    : .
 
--    : .
+-   Temperature : .
 
--    : .
+-   Sabotage : .
 
 
 
-###  
+### Module Setup 
 
 
 
@@ -188,7 +188,7 @@ disponibles.
 
 
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 
 
@@ -203,7 +203,7 @@ disponibles.
 
 
 
- :
+Parameter details :
 
 
 
@@ -219,11 +219,11 @@ disponibles.
 
 
 
-###  
+### Groups 
 
 
 
-. 
+This module has two association groups. 
 indispensable.
 
 
@@ -232,12 +232,12 @@ indispensable.
 
 
 
- 
+Good to know 
 ------------
 
 
 
-###  
+### Specificities 
 
 :
 
@@ -273,7 +273,7 @@ indispensable.
 
 
 
-. 
+FAQs. 
 ------
 
 

@@ -179,7 +179,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zwave/images/264.2.13_dchz120.3in1.sensor.jpg" width="60" />|Dlink|DCH-Z120||||
+|<img src="../../en_US/zwave/images/264.2.13_dchz120.3in1.sensor.jpg" width="60" />|Dlink|DCH-Z120|Presence|||
 |<img src="../../en_US/zwave/images/264.2.14_dchz110.doorsensor.jpg" width="60" />|Dlink|DCH-Z110|Ouverture||[](https://doc.jeedom.com/en_US/zwave/dlink.dchz110_-_3en1_Ouverture)<br/>[](http://www.domadoo.fr/fr/peripheriques/3692-d-link-capteur-de-portefenetre-z-wave-3-en-1-790069409844.html)|
 |<img src="../../en_US/zwave/images/264.4.10_dchz510.siren.jpg" width="60" />|Dlink|DCH-Z510|||[](http://www.domadoo.fr/fr/peripheriques/3696-d-link-sirene-z-wave-6-sons-110-db--790069410758.html)|
 
@@ -509,11 +509,11 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zwave/images/89.1.3_hrt4_srt321.jpg" width="60" />|Horstmann||Thermostat||[](http://www.domadoo.fr/fr/peripheriques/1982-secure-thermostat-srt321-avec-ecran-lcd-z-wave-5015914250071.html)|
-|<img src="../../en_US/zwave/images/89.1.4_srt323.jpg" width="60" />|Horstmann||Thermostat||[](https://doc.jeedom.com/en_US/zwave/secure.srt323_-_Thermostat)<br/>[](http://www.domadoo.fr/fr/peripheriques/3218-secure-thermostat-srt323-avec-ecran-lcd-et-relai-integre-5015914250569.html)|
-|<img src="../../en_US/zwave/images/89.13.2_ses302.jpg" width="60" />|Horstmann||||[](https://doc.jeedom.com/en_US/zwave/secure.ses302_-_Temperature)<br/>[](http://www.domadoo.fr/fr/peripheriques/3211-secure-sonde-de-temperature-sur-piles-z-wave-5015914840081.html)|
-|<img src="../../en_US/zwave/images/89.13.3_ses303.jpg" width="60" />|Horstmann||Multicapteurs||[](https://doc.jeedom.com/en_US/zwave/secure.ses303_-_Temperature_Humidite)<br/>[](http://www.domadoo.fr/fr/peripheriques/3227-secure-sonde-de-temperature-et-d-humidite-sur-piles-z-wave-5015914840098.html)|
-|<img src="../../en_US/zwave/images/89.16.1_sir321.jpg" width="60" />|Horstmann||Timer||[](https://doc.jeedom.com/en_US/zwave/secure.sir321_-_Timer)<br/>[](http://www.domadoo.fr/fr/peripheriques/3216-secure-minuterie-manuelle-3060120-minutes-z-wave-5015914083563.html)|
-|<img src="../../en_US/zwave/images/89.16.2_sir321.jpg" width="60" />|Horstmann||Timer||[](https://doc.jeedom.com/en_US/zwave/secure.sir321_-_Timer)<br/>[](http://www.domadoo.fr/fr/peripheriques/3216-secure-minuterie-manuelle-3060120-minutes-z-wave-5015914083563.html)|
+|<img src="../../en_US/zwave/images/89.1.4_srt323.jpg" width="60" />|Horstmann|SRT 323 Electronic Room Thermostat and Temperature|Thermostat||[](https://doc.jeedom.com/en_US/zwave/secure.srt323_-_Thermostat)<br/>[](http://www.domadoo.fr/fr/peripheriques/3218-secure-thermostat-srt323-avec-ecran-lcd-et-relai-integre-5015914250569.html)|
+|<img src="../../en_US/zwave/images/89.13.2_ses302.jpg" width="60" />|Horstmann|SES 302 Temperature Sensor|Temperature||[](https://doc.jeedom.com/en_US/zwave/secure.ses302_-_Temperature)<br/>[](http://www.domadoo.fr/fr/peripheriques/3211-secure-sonde-de-temperature-sur-piles-z-wave-5015914840081.html)|
+|<img src="../../en_US/zwave/images/89.13.3_ses303.jpg" width="60" />|Horstmann|SES 303 Temperature and Humidity Sensor|Multicapteurs||[](https://doc.jeedom.com/en_US/zwave/secure.ses303_-_Temperature_Humidite)<br/>[](http://www.domadoo.fr/fr/peripheriques/3227-secure-sonde-de-temperature-et-d-humidite-sur-piles-z-wave-5015914840098.html)|
+|<img src="../../en_US/zwave/images/89.16.1_sir321.jpg" width="60" />|Horstmann|SIR 321 RF Countdown Timer|Timer||[](https://doc.jeedom.com/en_US/zwave/secure.sir321_-_Timer)<br/>[](http://www.domadoo.fr/fr/peripheriques/3216-secure-minuterie-manuelle-3060120-minutes-z-wave-5015914083563.html)|
+|<img src="../../en_US/zwave/images/89.16.2_sir321.jpg" width="60" />|Horstmann|SIR 321 RF Countdown Timer|Timer||[](https://doc.jeedom.com/en_US/zwave/secure.sir321_-_Timer)<br/>[](http://www.domadoo.fr/fr/peripheriques/3216-secure-minuterie-manuelle-3060120-minutes-z-wave-5015914083563.html)|
 |<img src="../../en_US/zwave/images/89.3.1_ssr303.jpg" width="60" />|Horstmann||Thermostat||[](http://www.domadoo.fr/fr/peripheriques/1987-secure-actionneur-de-chaudiere-ssr303-z-wave-5015914250095.html)|
 |<img src="../../en_US/zwave/images/89.4.1_scsc17.jpg" width="60" />|Horstmann||Thermostat||[](http://www.domadoo.fr/fr/peripheriques/2419-secure-thermostat-electronique-programmable-z-wave-scs317-5015914370083.html)|
 
@@ -535,7 +535,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../en_US/zwave/images/532.2.1_im20.door.window.sensor.jpg" width="60" />|Kaipule||Ouverture||[](http://www.domadoo.fr/fr/peripheriques/3871-kaipule-detecteur-d-ouverture-portefenetre-z-wave.html)|
-|<img src="../../en_US/zwave/images/532.3.2_pir.celing.sensor.jpg" width="60" />|Kaipule|||||
+|<img src="../../en_US/zwave/images/532.3.2_pir.celing.sensor.jpg" width="60" />|Kaipule||Presence|||
 
 # Kwikset
 
@@ -565,7 +565,7 @@
 |<img src="../../en_US/zwave/images/351.12609.20738_mco.home.mh-s314.four.load.gen5.jpg" width="60" />|Mco||Interrupteur|||
 |<img src="../../en_US/zwave/images/351.12609.4866_mco.home.mh-s314.four.load.gen5.jpg" width="60" />|Mco||Interrupteur|||
 |<img src="../../en_US/zwave/images/351.16642.513_mco.home.mh-s411.simple.jpg" width="60" />|Mco||Interrupteur||[](http://www.domadoo.fr/fr/peripheriques/2888-mcohome-interrupteur-tactile-en-verre-z-wave-1-charge-blanc-2015032300123.html)|
-|<img src="../../en_US/zwave/images/351.16642.514_mco.home.mh-s412.double.jpg" width="60" />|Mco||Interrupteur||[](https://doc.jeedom.com/en_US/zwave/mco.MH-S412_Double_-_Interrupteur)<br/>[](http://www.domadoo.fr/fr/peripheriques/2889-mcohome-interrupteur-tactile-en-verre-z-wave-2-charges-blanc.html)|
+|<img src="../../en_US/zwave/images/351.16642.514_mco.home.mh-s412.double.jpg" width="60" />|Mco|MH-S412 Dual|Interrupteur||[](https://doc.jeedom.com/en_US/zwave/mco.MH-S412_Double_-_Interrupteur)<br/>[](http://www.domadoo.fr/fr/peripheriques/2889-mcohome-interrupteur-tactile-en-verre-z-wave-2-charges-blanc.html)|
 |<img src="../../en_US/zwave/images/351.16657.4866_mco.home.mh-s411.simple.jpg" width="60" />|Mco||Interrupteur||[](http://www.domadoo.fr/fr/peripheriques/2888-mcohome-interrupteur-tactile-en-verre-z-wave-1-charge-blanc-2015032300123.html)|
 |<img src="../../en_US/zwave/images/351.16673.4866_mco.home.mh-s312.double.jpg" width="60" />|Mco||Interrupteur||[](http://www.domadoo.fr/fr/peripheriques/2889-mcohome-interrupteur-tactile-en-verre-z-wave-2-charges-blanc.html)|
 |<img src="../../en_US/zwave/images/351.1793.20738_mco.home.mh7h.thermostat.jpg" width="60" />|Mco||Thermostat|||
@@ -640,7 +640,7 @@
 |<img src="../../en_US/zwave/images/316.5.49.Smart.Dimmer.E27.jpg" width="60" />|Philio||Douille|||
 |<img src="../../en_US/zwave/images/316.5.49_Smart.Dimmer.E27.jpg" width="60" />|Philio||Douille|||
 |<img src="../../en_US/zwave/images/316.6.26_phpab01.micromodule.energy.meter.jpg" width="60" />|Philio|)|Consommation||[](http://www.domadoo.fr/fr/peripheriques/3576-zipato-micromodule-compteur-d-energie-z-wave-3858890732689.html)|
-|<img src="../../en_US/zwave/images/316.9.34_psr04.smart.color.button.jpg" width="60" />|Philio||Interrupteur||[](https://doc.jeedom.com/en_US/zwave/philio.psr04_-_Smart_Color_Button)<br/>[](http://www.domadoo.fr/fr/peripheriques/3207-philio-interrupteurtelecommande-mural-z-wave-4713698571542.html)|
+|<img src="../../en_US/zwave/images/316.9.34_psr04.smart.color.button.jpg" width="60" />|Philio|PSR04 Smart Color Button|Interrupteur||[](https://doc.jeedom.com/en_US/zwave/philio.psr04_-_Smart_Color_Button)<br/>[](http://www.domadoo.fr/fr/peripheriques/3207-philio-interrupteurtelecommande-mural-z-wave-4713698571542.html)|
 
 # Polycontrol
 
@@ -648,7 +648,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zwave/images/270.1.1_polylock.jpg" width="60" />|Polycontrol|Polylock|Serrure||[](https://doc.jeedom.com/en_US/zwave/polycontrol.polylock_-_Serrure)<br/>[](http://www.domadoo.fr/fr/peripheriques/1752-poly-control-serrure-motorisee-poly-lock-z-wave.html)|
 |<img src="../../en_US/zwave/images/270.3.2_danalock.jpg" width="60" />|Polycontrol|Danalock|Serrure|||
-|<img src="../../en_US/zwave/images/270.8.2_danalock.v2.jpg" width="60" />|Polycontrol||Serrure||[](https://doc.jeedom.com/en_US/zwave/polycontrol.danalock-v2_-_Serrure)<br/>[](http://www.domadoo.fr/fr/peripheriques/3175-danalock-serrure-connectee-bluetooth-et-z-wave-modele-circulaire-5712560000264.html)|
+|<img src="../../en_US/zwave/images/270.8.2_danalock.v2.jpg" width="60" />|Polycontrol|Danalock V2 BTZE|Serrure||[](https://doc.jeedom.com/en_US/zwave/polycontrol.danalock-v2_-_Serrure)<br/>[](http://www.domadoo.fr/fr/peripheriques/3175-danalock-serrure-connectee-bluetooth-et-z-wave-modele-circulaire-5712560000264.html)|
 |<img src="../../en_US/zwave/images/270.9.1_danalock.v3.jpg" width="60" />|Polycontrol||Serrure||[](http://www.domadoo.fr/fr/peripheriques/4197-danalock-serrure-connectee-bluetooth-et-z-wave-danalock-v3-5712560000462.html)|
 
 # Popp
@@ -936,4 +936,4 @@
 
 
 
-:08:04
+:08:09
