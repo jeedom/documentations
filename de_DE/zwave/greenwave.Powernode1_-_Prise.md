@@ -1,14 +1,14 @@
 # 
 
-**Das Modul**
+****
 
 ![module](images/greenwave.Powernode1/module.jpg)
 
-**Das Jeedom-Visual**
+****
 
 ![vuedefaut1](images/greenwave.Powernode1/vuedefaut1.jpg)
 
-## Zusammenfassung
+## 
 
 .
 
@@ -24,8 +24,8 @@
 
 ## Fonctions
 
--   Steuern Sie eine Lampe oder ein Gerät aus der Ferne
--   Plug-Modul zur direkten Integration zwischen einer Steckdose und der zu steuernden Last
+-   
+-   
 -   
 -   
 -   
@@ -33,73 +33,73 @@
 -   
 -   
 
-## Technische Eigenschaften
+## 
 
--   Einspeisung : 
+-    : 
 -    : 10A
 -    : )
--   Standby-Verbrauch : 
+-    : 
 -    : 
 -    : 
 -    : )
 -    : 
 -    : 30m
--   Betriebstemperatur : 
+-    : 
 -    : -
 -    : 
 -   ) : IP20
 
-## Moduldaten
+## 
 
--   Markieren : GreenWave
--   Nachname : ]
--   Hersteller-ID : 153
--   Geben Sie Produkt ein : 2
--   Produkt ID : 2
+-    : GreenWave
+-    : ]
+-    : 153
+-    : 2
+-    : 2
 
 ## Configuration
 
-Um das OpenZwave-Plugin zu konfigurieren und zu wissen, wie man Jeedom einbindet, beziehen Sie sich auf diese [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
+ [](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
-> **Wichtig**
+> ****
 >
 > .
 
 ![inclusion](images/greenwave.Powernode1/inclusion.jpg)
 
-Einmal enthalten, sollten Sie dies erhalten :
+ :
 
 ![Plugin Zwave](images/greenwave.Powernode1/information.jpg)
 
 ### Commandes
 
-Sobald das Modul erkannt wird, sind die dem Modul zugeordneten Befehle verfügbar.
+.
 
-![Aufträge](images/greenwave.Powernode1/commandes.jpg)
+![](images/greenwave.Powernode1/commandes.jpg)
 
-Hier ist die Liste der Befehle :
+ :
 
--   Bundesland : 
--   Wir : Dies ist der Befehl, mit dem Sie die Steckdose einschalten können
--   Aus : Dies ist der Befehl, mit dem Sie die Steckdose ausschalten können
--   Mächtig : 
+-    : 
+-    : 
+-    : 
+-    : 
 -    : 
 
 .
 
-### Modul-Setup
+### 
 
-Sie können das Modul entsprechend Ihrer Installation konfigurieren. Dazu müssen Sie über die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom gehen.
+. .
 
-![Aufbau plugin Zwave](images/plugin/bouton_configuration.jpg)
+![ plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
+)
 
 ![Config1](images/greenwave.Powernode1/config1.jpg)
 
 .
 
-Parameterdetails :
+ :
 
 -   1 :  : )
 -   2 : )
@@ -110,7 +110,7 @@ Parameterdetails :
 
 ![Groupe](images/greenwave.Powernode1/groupe.jpg)
 
-## Gut zu wissen
+## 
 
 .
 
@@ -120,8 +120,8 @@ Parameterdetails :
 
 . .
 
-### Besonderheiten
+### 
 
 ## Wakeup
 
-Keine Vorstellung von Aufwachen bei diesem Modul.
+.

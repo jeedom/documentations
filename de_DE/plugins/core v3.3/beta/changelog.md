@@ -2,70 +2,70 @@
 Changelog
 =========
 
-
+3.3.56
 ======
 
 - Problem mit Cache-Verlust während eines Neustarts behoben
 
-
+3.3.55
 ======
 - Stretch-Migrationstools für Smart verfügbar.
 
-
+3.3.54
 ======
 
 - Hinzufügen eines V4-Migrationsassistenten
 - Behebung von Fehlern bei Cloud-Backups
 - Verwaltung der Datenbankdatenverschlüsselung
 
->****
+>**WICHTIG**
 >
 >Während des Updates wird möglicherweise ein Fehler angezeigt, der "PHP Fatal error" ähnelt: Nicht erfasster Fehler: Aufruf undefinierter Methoden-Utils::decrypt () "Es spielt keine Rolle, Sie müssen nur das Update neu starten.
 
-
+3.3.53
 ======
 
 - Es wurde ein Problem mit der Archivierung von Protokollen behoben, wenn der Glättungsmodus für immer war
 
-
+3.3.52
 ======
 
 - Entfernung des neuen DNS-Systems in eu.jeedom.Link folgt zu vielen Betreibern, die permanente http2-Flows verbieten
 
-
+3.3.51
 ======
 
 - Es wurde ein Problem bei der Berechnung der Statuszeit für Widgets behoben, wenn die Jeedom-Zeitzone nicht mit der des Browsers übereinstimmt
 - Erhöhen Sie die Anzahl der fehlerhaften Kennwörter vor dem Verbannen (vermeidet Probleme mit der Webanwendung beim Drehen von API-Schlüsseln)
 
-
+3.3.50
 =====
 
 - Behebung eines Problems beim Stoppen der DNS-Beta
 - Verbesserung der internen / externen Zugriffsberechnung (Entfernen des Ports, wenn dies für das Protokoll Standard ist)
 
-
+3.3.49
 =====
 
 - Start des Updates für die neue Dokumentationssite
 
-
+3.3.48
 =====
 
 - Fehlerkorrektur (Aktualisierung muss unbedingt durchgeführt werden, wenn Sie sich in 3.3.47 befinden)
 
-
+3.3.47
 =====
 
 - Fehlerbehebungen
 - Optimierung des zukünftigen DNS-Systems
 
-
+3.3.45
 =====
 
 - Fehlerbehebung in der Webanwendung
 
-
+3.3.44
 =====
 
 - Automatische Rotation des API-Schlüssels von Administratoren alle 3 Monate. Ich kann es in der Benutzerverwaltung deaktivieren (es wird jedoch nicht empfohlen). Bitte beachten Sie, dass dieses Update eine Rotation der API-Schlüssel für Administratoren startet.
@@ -74,7 +74,7 @@ Changelog
 - Migration auf das neue Cloud-Backup-System (das alte System bleibt 1 Woche lang aktiv, und Sie können bei Bedarf die Bereitstellung alter Backups zur Unterstützung anfordern. In diesem Zeitraum wird das alte System gelöscht)
 - Migration auf das neue Überwachungssystem (das alte System bleibt 1 Woche lang aktiv, danach wird es gelöscht)
 
-
+3.3.39
 =====
 
 - Der Variablenname $ key wurde im Klassenereignis in $ key2 geändert
@@ -83,35 +83,35 @@ Changelog
 - Bessere Berücksichtigung von Plugin-Widgets
 - Optimierung der Gesundheitsberechnung für den Swap
 
->****
+>**WICHTIG**
 >
 >Dieses Update behebt ein Problem, das möglicherweise eine Aufzeichnung des Verlaufs ab dem 1. Januar 2020 verhindert. Es wird mehr als empfohlen
 
-
+3.3.38
 =====
 
 - Hinzufügung der globalen Kompatibilität von Jeedom DNS mit einer 4G-Internetverbindung. (Wichtig, wenn Sie den Jeedom DNS verwenden, ist, dass Sie eine 4g-Verbindung haben. Überprüfen Sie in der Konfiguration des Jeedom DNS das entsprechende Feld).
 - Rechtschreibkorrekturen.
 - Sicherheitsupdate
 
-
+3.3.37
 =====
 
 - Fehlerbehebungen
 
-
+3.3.36
 =====
 
 - Hinzufügen einer Rundung an der Anzahl der Tage seit dem letzten Batteriewechsel
 - Fehlerbehebungen
 
-
+3.3.35
 =====
 
 - Fehlerbehebungen
 - Möglichkeit, Plugins direkt vom Markt zu installieren
 
-
+3.3.34
 =====
 
 - Es wurde ein Fehler behoben, der verhindern konnte, dass der Batteriestatus wieder hergestellt wurde
@@ -119,24 +119,24 @@ Changelog
 - Der Status "Timeout" (keine Kommunikation) des Geräts hat jetzt Vorrang vor dem Status "Warnung" oder "Gefahr""
 - Fehlerbehebung bei Cloud-Backups
 
-
+3.3.33
 =====
 
 - Fehlerbehebungen
 
-
+3.3.32
 =====
 
 - Fehlerbehebungen
 - Mobile Unterstützung für Schieberegler bei Designs
--  : Optimierung des Swap-Managements
+- CLEVER : Optimierung des Swap-Managements
 
-
+3.3.31
 =====
 
 - Fehlerbehebungen
 
-
+3.3.30
 =====
 
 - Korrektur eines Fehlers in der Anzeige von Benutzersitzungen
@@ -147,7 +147,7 @@ Changelog
 - Korrektur eines Fehlers auf der Seite &quot;Geräteanalyse&quot;, das Datum der Batterieaktualisierung ist jetzt korrekt 
 - Verbesserung der Aktion remove_inat in Szenarien
 
-
+3.3.29
 =====
 
 - Korrektur des Verschwindens des Datums der letzten Aktualisierungsprüfung
@@ -155,13 +155,13 @@ Changelog
 - Korrektur eines Fehlers bei der Berechnung der Verwendung der Variablen, wenn diese im Formular vorliegen : Variable (toto, mavaleur)
 
 
-
+3.3.28
 =====
 
 - Ein Fehler mit unendlichen Rädern auf der Aktualisierungsseite wurde behoben
 - Verschiedene Korrekturen und Optimierungen
 
-
+3.3.27
 =====
 
 - Korrektur eines Fehlers bei der Übersetzung der Tage ins Französische
@@ -169,14 +169,14 @@ Changelog
 - Fehlerbehebungen
 - Deaktivieren von Aktionen für Aufträge beim Bearbeiten von Designs, Ansichten oder Dashboards
 
-
+3.3.26
 =====
 
 - Fehlerbehebungen
 - Korrektur eines Fehlers beim Multi-Launch des Szenarios
 - Korrektur eines Fehlers in den Warnungen zum Wert der Bestellungen
 
-
+3.3.25
 =====
 
 - Fehlerbehebungen
@@ -184,7 +184,7 @@ Changelog
 - Hinzufügen von Klassen für Farbunterstützungen im Modus-Plugin
 
 
-
+3.3.24
 =====
 
 -   Korrektur eines Fehlers in der Anzeige der Anzahl der Updates
@@ -195,14 +195,14 @@ Changelog
 -	Hinzufügen einer Schaltfläche in der Verwaltung zum Zurücksetzen der Rechte und Starten einer Jeedom-Überprüfung (rechts, cron, Datenbank)...)
 -	Entfernen erweiterter Sichtbarkeitsoptionen für Geräte auf Dashboard / Ansicht / Design / Handy. Wenn Sie nun die Geräte auf dem Dashboard / Handy sehen möchten oder nicht, aktivieren Sie einfach das Kontrollkästchen für die allgemeine Sichtbarkeit. Für Ansichten und Design einfach die Ausrüstung darauf setzen oder nicht
 
-
+3.3.22
 =====
 
 - Fehlerbehebungen
 - Verbesserte Befehlsersetzung (in Ansichten : plan und plan3d)
 - Es wurde ein Fehler behoben, der das Öffnen bestimmter Plugin-Geräte (Alarm oder virtueller Typ) verhindern konnte)
 
-
+3.3.21
 =====
 
 - Es wurde ein Fehler behoben, durch den die Zeitanzeige 24 Stunden überschreiten konnte
@@ -217,28 +217,28 @@ Changelog
 - Verbesserung des Cron-Syntaxprüfungssystems
 
 
-
+3.3.20
 =====
 
 - Korrektur eines Fehlers in den Szenarien oder sie könnten bei &quot;in Bearbeitung&quot; blockiert bleiben, während sie deaktiviert sind
 - Es wurde ein Problem beim Starten eines ungeplanten Szenarios behoben
 - Zeitzonen-Fehlerbehebung
 
-
+3.3.19
 =====
 - Fehlerbehebungen (insbesondere während des Updates)
 
 
-
+3.3.18
 =====
 - Fehlerbehebungen
 
-
+3.3.17
 =====
 
 - Korrektur eines Fehlers bei Samba-Backups
 
-
+3.3.16
 =====
 
 -   Möglichkeit zum Löschen einer Variablen.
@@ -277,34 +277,34 @@ Changelog
 -   Hinzufügen der Daemon-Verwaltung in der Task-Engine
 -   Hinzufügen der Funktion color_gradient in den Szenarien
 
-
+3.2.16
 =====
 
 - Ein Fehler beim Installieren der Abhängigkeit einiger Plugins von Smart wurde behoben
 
-
+3.2.15
 =====
 
 - Behebung eines Fehlers beim Speichern von Geräten
 
-
+3.2.14
 =====
 
 - Vorbereitung zur Vermeidung eines Fehlers beim Umschalten auf 3.3.X
 - Es wurde ein Problem behoben, durch das Support für Plugins von Drittanbietern angefordert wurde
 
-
+3.2.12
 =====
 
 - Fehlerbehebungen
 - Optimisations
 
-
+3.2.11
 =====
 
 - Fehlerbehebungen.
 
-
+3.2.10
 =====
 
 - Fehlerbehebungen.
@@ -314,7 +314,7 @@ Changelog
 - Optimierung der Linkgraphenberechnung und Verwendung von Variablen.
 - Verbesserung des Cron-Task-Detailfensters, in dem nun das Szenario sowie die Aktion angezeigt werden, die für die Aufgaben in doin ausgeführt wird (danke @kiboost).
 
-
+3.2.9
 =====
 
 - Fehlerbehebungen
@@ -323,7 +323,7 @@ Changelog
 - Hinzufügen einer Warnung, wenn ein Plugin Cron blockiert
 - Behebung eines Fehlers im Cloud-Überwachungssystem, wenn die Agentenversion kleiner als 3 ist.X.X
 
-
+3.2.8
 =====
 
 - Fehlerbehebungen
@@ -332,7 +332,7 @@ Changelog
 - Hinzufügen eines Indikators auf der Gesundheitsseite, der die Anzahl der Prozesse angibt, die aufgrund von Speichermangel abgebrochen wurden (insgesamt zeigt dies an, dass die Freiheit zu geladen ist)
 - Verbesserter Datei-Editor
 
-
+3.2.7
 =====
 
 - Fehlerbehebungen
@@ -340,7 +340,7 @@ Changelog
 - Möglichkeit, die Tags unter den Bedingungen der Blöcke "A" und "IN" zu verwenden"
 - Fehler in Marktkategorien für Widgets / Skripte / Szenarien behoben...
 
-
+3.2.6
 =====
 
 - Fehlerbehebungen
@@ -348,13 +348,13 @@ Changelog
 - Standardisierung der Namen bestimmter Aufträge in den Szenarien
 - Leistungsoptimierung
 
-
+3.2.5
 =====
 
 - Fehlerbehebungen
 - Reaktivierung von Interaktionen (inaktiv wegen des Updates)
 
-
+3.2.4
 =====
 
 - Fehlerbehebungen
@@ -362,25 +362,25 @@ Changelog
 - Korrektur eines Berechnungsfehlers bei time_diff
 - Vorbereitung für das zukünftige Warnsystem
 
-
+3.2.3
 =====
 
 -   Bugfix für Min / Max-Funktionen....
 -   Verbesserter Export von Grafiken und Anzeige im Tabellenmodus
 
-
+3.2.2
 =====
 
--   Entfernen des alten Widget-Update-Systems (seit Version 3.0 veraltet). Achtung Wenn Ihr Widget das neue System nicht verwendet, besteht die Gefahr einer Fehlfunktion (in diesem Fall eine Duplizierung)). Beispiel Widget [](https://github.com/jeedom/core/tree/beta/core/template/dashboard)
+-   Entfernen des alten Widget-Update-Systems (seit Version 3.0 veraltet). Achtung Wenn Ihr Widget das neue System nicht verwendet, besteht die Gefahr einer Fehlfunktion (in diesem Fall eine Duplizierung)). Beispiel Widget [hier](https://github.com/jeedom/core/tree/beta/core/template/dashboard)
 -   Möglichkeit, die Grafiken in Tabellenform anzuzeigen oder in csv oder xls zu exportieren
 
 -   Benutzer können jetzt ihre eigene PHP-Funktion für Szenarien hinzufügen. Siehe Dokumentation der Szenarien für die Implementierung
 
--    : Hinzufügen einer time_diff-Funktion in den Szenarien
+-   JEED-417 : Hinzufügen einer time_diff-Funktion in den Szenarien
 
 -   Hinzufügen einer konfigurierbaren Verzögerung vor der Reaktion auf Interaktionen (ermöglicht beispielsweise das Warten auf die Rückkehr des Status)
 
--    : Entfernen des &quot;Benutzerinformationsbefehls&quot;, der durch Aktionen in der Nachricht ersetzt werden soll. Ermöglicht das Starten mehrerer verschiedener Befehle, um ein Szenario zu starten ... Achtung, wenn Sie einen "Benutzerinformationsbefehl" hatten, muss dieser neu konfiguriert werden.
+-   JEED-365 : Entfernen des &quot;Benutzerinformationsbefehls&quot;, der durch Aktionen in der Nachricht ersetzt werden soll. Ermöglicht das Starten mehrerer verschiedener Befehle, um ein Szenario zu starten ... Achtung, wenn Sie einen "Benutzerinformationsbefehl" hatten, muss dieser neu konfiguriert werden.
 
 -   Fügen Sie eine Option hinzu, um auf einfache Weise einen Zugriff für den Support zu öffnen (auf der Benutzerseite und beim Öffnen eines Tickets))
 
@@ -402,10 +402,10 @@ Changelog
 
 -   Rechtschreibkorrekturen (danke an dab0u für seine enorme Arbeit)
 
--    : Wir können uns nicht mehr mit Bezeichnern verbinden
+-   JEED-290 : Wir können uns nicht mehr mit Bezeichnern verbinden
     Standardmäßig (admin / admin) remote ist nur das lokale Netzwerk autorisiert
 
--    : Wir können jetzt die Hintergrundfarbe in der auswählen
+-   JEED-186 : Wir können jetzt die Hintergrundfarbe in der auswählen
     designs
 
 -   Für Block A besteht die Möglichkeit, eine Stunde zwischen 12:01 Uhr und 12:59 Uhr einzustellen
@@ -415,13 +415,13 @@ Changelog
     Benutzerprofilseite und Verwaltungsseite
     utilisateurs
 
--    : Die dauerhafte Verbindung hängt jetzt von einem Schlüssel ab
+-   JEED-284 : Die dauerhafte Verbindung hängt jetzt von einem Schlüssel ab
     Einzelbenutzer und Gerät (statt Benutzer)
 
--    : Hinzufügen eines Modus ** zur Freiheit durch Hinzufügen & Rettung = 1
+-   JEED-283 : Hinzufügen eines Modus *Rettung* zur Freiheit durch Hinzufügen & Rettung = 1
     in der URL
 
--    : Hinzufügen des Namens des Szenarios zum Titel der Seite während
+-   JEED-8 : Hinzufügen des Namens des Szenarios zum Titel der Seite während
     Ausgabe
 
 -   Optimierung organisatorischer Änderungen (Größe der Widgets,
@@ -429,30 +429,30 @@ Changelog
     und die Ansichten. Achtung jetzt sind die Modifikationen nicht
     Wird nur beim Verlassen des Bearbeitungsmodus gespeichert.
 
--    : Hinzufügen von Protokollen beim Öffnen eines Tickets zur Unterstützung
+-   JEED-18 : Hinzufügen von Protokollen beim Öffnen eines Tickets zur Unterstützung
 
--    : Hinzufügen eines Namensbefehls in den Szenarien zu haben
+-   JEED-181 : Hinzufügen eines Namensbefehls in den Szenarien zu haben
     den Namen der Bestellung oder Ausrüstung oder des Objekts
 
--    : Batterie hinzufügen und Alarm auf Webapp
+-   JEED-15 : Batterie hinzufügen und Alarm auf Webapp
 
 -   Fehler beim Verschieben von Designobjekten in Firefox behoben
 
--    : Während eines Updates ist es nun möglich
+-   JEED-19 : Während eines Updates ist es nun möglich
     Aktualisieren Sie das Aktualisierungsskript vor dem Aktualisieren
 
--    : Link zum Zurücksetzen der Dokumentation hinzugefügt
+-   JEED-125 : Link zum Zurücksetzen der Dokumentation hinzugefügt
     Passwort
 
--    : Verbessertes Zeitmanagement während eines Neustarts
+-   JEED-2 : Verbessertes Zeitmanagement während eines Neustarts
 
--    : Hinzufügen der Variablenverwaltung in der http-API
+-   JEED-77 : Hinzufügen der Variablenverwaltung in der http-API
 
--    : Hinzufügen der Tag-Funktion für Szenarien. Sei dort vorsichtig
+-   JEED-78 : Hinzufügen der Tag-Funktion für Szenarien. Sei dort vorsichtig
     muss in den Szenarien mit den Tags von \ übergeben werden#montag\#
     zu markieren (montag)
 
--    : Korrigieren Sie die Verwaltung von Szenario-Timeouts
+-   JEED-124 : Korrigieren Sie die Verwaltung von Szenario-Timeouts
 
 -   Fehlerbehebungen
 
@@ -466,7 +466,7 @@ Changelog
 
 -   Fähigkeit, Wörter in einer Interaktion verbindlich zu machen
 
-
+3.1.7
 =====
 
 -   Fehlerbehebungen (insbesondere bei Protokollen und
@@ -474,7 +474,7 @@ Changelog
 
 -   Verbesserung des Update-Systems mit einer Seite mit Notizen
     Version (die Sie vor jedem Update selbst überprüfen sollten
-     !!!!)
+    Tag !!!!)
 
 -   Korrektur eines Fehlers, der die Protokolle während der Wiederherstellung wiederherstellte
 
@@ -601,12 +601,12 @@ Changelog
 -   Hinzufügung eines unabhängigen Jeedom-Wachhundes zur Überprüfung des Status von
     MySQL und Apache
 
-
+3.0.11
 ======
 
 -   Fehler bei Timeout-Anfragen &quot;fragen&quot; behoben
 
-
+3.0.10
 ======
 
 -   Fehlerkorrektur auf der Schnittstelle zum Konfigurieren von Interaktionen
@@ -803,7 +803,7 @@ Changelog
 
 -   Jeedom weiß, wie mehrere verknüpfte Interaktionen (kontextbezogen) verwaltet werden)
     in einem. Sie müssen durch ein Schlüsselwort getrennt werden (standardmäßig und).
-     : "Wie viel kostet es im Schlafzimmer und im Wohnzimmer? "Oder
+    Beispiel : "Wie viel kostet es im Schlafzimmer und im Wohnzimmer? "Oder
     "Schalten Sie das Licht in Küche und Schlafzimmer ein."
 
 -   Der Status der Szenarien auf der Bearbeitungsseite wird jetzt auf gesetzt
@@ -848,13 +848,13 @@ Changelog
 -   Optimierung des Ladens von Szenarien und Seiten mit
     Aktionen mit Option (Konfigurationstyp des Alarm-Plugins oder Modus)
 
-
+2.4.6
 =====
 
 -   Verbesserung des Managements der Wiederholung der Werte von
     commandes
 
-
+2.4.5
 =====
 
 -   Fehlerbehebungen
@@ -980,7 +980,7 @@ Changelog
     / tmp ist zu klein (Vorsicht, die Korrektur wird bei wirksam
     Update n + 1)
 
--   Tag hinzufügen ** in den Szenarien (geben Sie den Namen
+-   Tag hinzufügen *jeedom\_name* in den Szenarien (geben Sie den Namen
     Jeedom)
 
 -   Fehlerbehebungen
@@ -1081,8 +1081,8 @@ Changelog
 
 -   Optimierung der Aktualisierung von Befehls- und Geräte-Widgets
 
--   Tag hinzufügen **, **, *start\_update*,
-    **, **, ** in den Szenarien
+-   Tag hinzufügen *begin\_backup*, *end\_backup*, *start\_update*,
+    *end\_update*, *begin\_restore*, *end\_restore* in den Szenarien
 
 2.2
 ---
@@ -1159,7 +1159,7 @@ Changelog
 
 -   Aktualisieren Sie alle Bibliotheken
 
--    : Hinzufügen eines Parsing-Systems (ermöglicht
+-   Interaktion : Hinzufügen eines Parsing-Systems (ermöglicht
     Entfernen Sie Interaktionen mit großen Syntaxfehlern «
     das Schlafzimmer »)
 
@@ -1177,7 +1177,7 @@ Changelog
 -   Möglichkeit, einen Block in einem Szenario zu deaktivieren
 
 -   Ergänzung für Entwickler eines Tooltips-Hilfesystems. Du musst
-    sur un label mettre la classe « help »  mettre un attribut
+    sur un label mettre la classe « help » und mettre un attribut
     Datenhilfe mit der gewünschten Hilfemeldung. Dies ermöglicht Jeedom
     Fügen Sie automatisch ein Symbol am Ende Ihres Etiketts hinzu « ? » et
     auf Hover, um den Hilfetext anzuzeigen
@@ -1256,7 +1256,7 @@ Changelog
 
 -   Aktualisieren Sie alle Bibliotheken
 
--    : Hinzufügen eines Parsing-Systems (ermöglicht
+-   Interaktion : Hinzufügen eines Parsing-Systems (ermöglicht
     Entfernen Sie Interaktionen mit großen Syntaxfehlern «
     das Schlafzimmer »)
 
@@ -1274,7 +1274,7 @@ Changelog
 -   Möglichkeit, einen Block in einem Szenario zu deaktivieren
 
 -   Ergänzung für Entwickler eines Tooltips-Hilfesystems. Du musst
-    sur un label mettre la classe « help »  mettre un attribut
+    sur un label mettre la classe « help » und mettre un attribut
     Datenhilfe mit der gewünschten Hilfemeldung. Dies ermöglicht Jeedom
     Fügen Sie automatisch ein Symbol am Ende Ihres Etiketts hinzu « ? » et
     auf Hover, um den Hilfetext anzuzeigen
