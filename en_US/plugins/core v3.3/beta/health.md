@@ -4,10 +4,10 @@ use it) state of health by plugin.
 
 The page is accessible by Analysis → Health
 
-> **Note**
+> ****
 >
 > Click on the icon on the right to access the benchmark of your
-> Jeedom.
+> .
 
 Jeedom&#39;s health page is presented in the form of a table. The 1st
 column gives you a description of what Jeedom checks and whose status
@@ -28,11 +28,11 @@ find the icons :
 
 -   Overall state of the plugin
 
-> **Note**
+> ****
 >
 > Icons may vary depending on plugin
 
-> **Note**
+> ****
 >
 > Generally when the line is green, everything is fine
 > and when it’s red, there’s a problem.

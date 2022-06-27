@@ -16,6 +16,10 @@
 >
 >For those who don't have any problems with the demon, you MUST NOT update, it can break everything
 
+# 
+
+- Attempt to fix problems with the daemon
+
 # 06/23/2022
 
 - Attempt to fix problems with the daemon

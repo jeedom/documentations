@@ -66,11 +66,11 @@ Der Motor wird in den folgenden Tabellen angezeigt :
 -  **Szenarien** mit dieser Zeichenfolge.
 	Suchen Sie in Ausdrücken, Kommentaren und Codeblöcken.
 -  **** mit dieser Zeichenfolge.
-	Suche in Feldern **.
+	Suche in Feldern *Anfrage*.
 -  **** mit dieser Zeichenfolge.
-	Suche in Feldern **, **, **, **, **.
+	Suche in Feldern **, *logische ID*, **, **, **.
 -  **** mit dieser Zeichenfolge.
-	Suche in Feldern **, **, **, *generischer_typ*, .
+	Suche in Feldern **, *logische ID*, **, *generischer_typ*, .
 -  **** mit dieser Zeichenfolge.
 	Notizen Textsuche.
 

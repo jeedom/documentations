@@ -22,6 +22,10 @@
 
 # 
 
+- Tente corrigir problemas com o daemon
+
+# 
+
 - Adicionada opção para excluir automaticamente dispositivos excluídos
 - Corrigido um bug ao forçar uma atualização OTA
 - Suporte para novos módulos

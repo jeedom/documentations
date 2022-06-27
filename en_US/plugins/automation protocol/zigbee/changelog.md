@@ -1,18 +1,18 @@
 # Zigbee changelog
 
->**IMPORTANT**
+>****
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
 
->**IMPORTANT**
+>****
 >
->To know the new compatible module you have to go [the](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (it is sorted by date added / modified)
+>To know the new compatible module you have to go [](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (it is sorted by date added / modified)
 
->**IMPORTANT**
+>****
 >
 >To take advantage of the latest module integration, don't hesitate to update the dependencies
 
->**IMPORTANT**
+>****
 >
 >For those who don't have any problems with the demon, you MUST NOT update, it can break everything
 
@@ -29,9 +29,9 @@
 
 # 05/20/2022
 
-- Correcting the error :  AttributeError: module 'specifics' has no attribute 'init'
+- Correcting the error :  AttributeError: '
 
-# 05/05/2022
+# 
 
 - Bug fix
 - New module support 
@@ -90,19 +90,19 @@
 - Addition of new equipment
 - Correction of a problem on the "Report configuration" of the modules
 
-# 22/11/2021
+# 
 
 - Optimization of the loading speed of the plugin pages
 - Addition of new equipment
 - Update dependencies automatically when updating the plugin
 
 
-# 07/11/2021
+# 
 
 - Addition of new equipment
 - Fixed a bug on Tuya roller shutter modules
 
-# 25/10/2021
+# 
 
 - Adding new configuration
 - Possibility to define a cron to force the update of the attributes (be careful not to put anything it can break all your zigbee networks)
@@ -119,11 +119,11 @@
 - Improved log levels
 - Addition of new modules
 
->**IMPORTANT**
+>****
 >
 >It is ABSOLUTELY necessary to launch an installation of dependencies even if it is OK (we are working in jeedom 4.2 has this to be automatically but for the moment you have to launch them by hand)
 
-# 03/09/2021
+# 
 
 - Fixed a problem with group creation in some cases
 - Fixed group list display
@@ -133,7 +133,7 @@
 - Fixed issue with Nodon firmware
 - Correction of the "\_ext_pan_id" error due to an update of the Zigpy code with the Deconz keys
 
->**IMPORTANT**
+>****
 >
 >Following this update it is ABSOLUTELY necessary to update the dependencies of the plugin even if it tells you that everything is OK
 
