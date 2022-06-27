@@ -1,14 +1,14 @@
 # 
 
-****
+**Das Modul**
 
 ![module](images/nodon.octan/module.jpg)
 
-****
+**Das Jeedom-Visual**
 
 ![vuedefaut1](images/nodon.octan/vuedefaut1.jpg)
 
-## 
+## Zusammenfassung
 
 )
 
@@ -22,51 +22,51 @@
 -   
 -   
 
-## 
+## Technische Eigenschaften
 
--    : 
+-   Einspeisung : 
 -   
 -   )
 -   
 -    :  : 2000m
 -    : 868..: 
--    : **15mm
+-   Maße : **15mm
 -   
 
-## 
+## Moduldaten
 
--    : Nodon
--    : 
--    : 357
--    : 2
--    : 1
+-   Markieren : Nodon
+-   Nachname : 
+-   Hersteller-ID : 357
+-   Geben Sie Produkt ein : 2
+-   Produkt ID : 1
 
 ## Configuration
 
- [](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
+Um das OpenZwave-Plugin zu konfigurieren und zu wissen, wie man Jeedom einbindet, beziehen Sie sich auf diese [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Wichtig**
 >
 > .
 
 ![inclusion](images/nodon.octan/inclusion.jpg)
 
- :
+Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/nodon.octan/information.jpg)
 
 ### Commandes
 
-.
+Sobald das Modul erkannt wird, sind die dem Modul zugeordneten Befehle verfügbar.
 
-![](images/nodon.octan/commandes.jpg)
+![Aufträge](images/nodon.octan/commandes.jpg)
 
- :
+Hier ist die Liste der Befehle :
 
--    : 
+-   Tasten : Dies ist der Befehl, der die gedrückte Taste hebt
 
 
-|         |           |      |     |    |
+| Tasten        |           |      |     |    |
 
 | **1**          | 10             | 12             | 11             | 13             |
 
@@ -77,21 +77,21 @@
 | **4**          | 40             | 42             | 41             | 43             |
 
 
-### 
+### Modul-Setup
 
-> ****
+> **Wichtig**
 >
-> .
+> Bei einer erstmaligen Aufnahme wecken Sie das Modul immer direkt nach der Aufnahme auf.
 
-.
+Wenn Sie das Modul dann gemäß Ihrer Installation konfigurieren möchten, müssen Sie über die Schaltfläche "Konfiguration" des Jeedom OpenZwave-Plugins gehen.
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Aufbau plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
 
 ![Config1](images/nodon.octan/config1.jpg)
 
- :
+Parameterdetails :
 
 -    : )
 -   3 : )
@@ -110,13 +110,13 @@
 -   
 -   
 
-> ****
+> **Wichtig**
 >
-> 
+> Zumindest sollte Jeedom in Gruppe 1 landen
 
-## 
+## Gut zu wissen
 
-### 
+### Besonderheiten
 
 -   . .
 
@@ -124,8 +124,8 @@
 
 
 
-## 
+## Wichtiger Hinweis
 
-> ****
+> **Wichtig**
 >
->  : 
+> Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung der Konfiguration, nach einer Änderung des Aufweckens, nach einer Änderung der Assoziationsgruppen

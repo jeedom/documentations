@@ -1,14 +1,14 @@
 # 
 
-****
+**Das Modul**
 
 ![module](images/fibaro.fgms001/module.jpg)
 
-****
+**Das Jeedom-Visual**
 
 ![vuedefaut1](images/fibaro.fgms001/vuedefaut1.jpg)
 
-## 
+## Zusammenfassung
 
 . . .
 
@@ -25,72 +25,72 @@
 -   
 -   
 -   
--   
+-   Schaltfläche zum Einschließen/Ausschließen des Detektors
 -   
 -   
 -   
 
-## 
+## Technische Eigenschaften
 
--    : 
--    : 
+-   Mod-Typ : Z-Wave-Sender
+-   Einspeisung : 
 -    : 2,4m
 -    : -
--    : 0,5°C
+-   Meßgenauigkeit : 0,5°C
 -    : X
--    : 
--    : 
+-   Frequenz : 868,42 MHz
+-   Übertragungsdistanz : 50m Freifeld, 30m drinnen
 -   Dimensions: 
--    : 
--    : 
+-   Betriebstemperatur : 0-40 °C
+-   Zertifikate : 
 
-## 
+## Moduldaten
 
--    : 
--    : ]
--    : 271
--    : 2048
--    : 4097
+-   Markieren : Fibar-Gruppe
+-   Nachname : Fibaro FGMS-001 \[Bewegungssensor\]
+-   Hersteller-ID : 271
+-   Geben Sie Produkt ein : 2048
+-   Produkt ID : 4097
 
 ## Configuration
 
- [](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
+Um das OpenZwave-Plugin zu konfigurieren und zu wissen, wie man Jeedom einbindet, beziehen Sie sich auf diese [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Wichtig**
 >
-> .
+> Um dieses Modul in den Inklusionsmodus zu versetzen, müssen Sie die Inklusionstaste gemäß der Papierdokumentation dreimal drücken.
 
 ![inclusion](images/fibaro.fgms001/inclusion.jpg)
 
- :
+Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/fibaro.fgms001/information.jpg)
 
 ### Commandes
 
-.
+Sobald das Modul erkannt wird, sind die dem Modul zugeordneten Befehle verfügbar.
 
-![](images/fibaro.fgms001/commandes.jpg)
+![Aufträge](images/fibaro.fgms001/commandes.jpg)
 
- :
+Hier ist die Liste der Befehle :
 
--    : 
--    : 
--    : 
--    : )
--    : 
+-   Gegenwart : 
+-   Temperatur : Dies ist der Befehl, mit dem Sie die Temperatur erhöhen können
+-   Helligkeit : Dies ist der Befehl, mit dem Sie die Helligkeit erhöhen können
+-   Sabotage : )
+-   Batterie : Dies ist der Batteriebefehl
 
-### 
+### Modul-Setup
 
-> ****
+> **Wichtig**
 >
-> .
+> Bei einer erstmaligen Aufnahme wecken Sie das Modul immer direkt nach der Aufnahme auf.
 
-.
+Wenn Sie das Modul dann gemäß Ihrer Installation konfigurieren möchten, müssen Sie über die Schaltfläche "Konfiguration" des Jeedom OpenZwave-Plugins gehen.
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Aufbau plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
 
 ![Config1](images/fibaro.fgms001/config1.jpg)
 
@@ -100,9 +100,9 @@
 
 ![Config3](images/fibaro.fgms001/config4.jpg)
 
- :
+Parameterdetails :
 
--    : )
+-   Wach auf : )
 -   1: 
 -   2: 
 -   3: 
@@ -133,38 +133,38 @@
 
 ### Groupes
 
-.
+Dieses Modul hat drei Assoziationsgruppen, nur die dritte ist wesentlich.
 
 ![Groupe](images/fibaro.fgms001/groupe.jpg)
 
-## 
+## Gut zu wissen
 
-### 
+### Besonderheiten
 
-> ****
+> **Tipp**
 >
 > . .
 
-### 
+### Alternative Optik
 
 ![vuewidget](images/fibaro.fgms001/vuewidget.jpg)
 
 ## Wakeup
 
- :
+Um dieses Modul aufzuwecken, gibt es nur eine Vorgehensweise :
 
 -   ). )
 
-## .
+## Häufig gestellte Fragen.
 
-.
+Dieses Modul wird durch dreimaliges Drücken seiner Include-Taste aktiviert.
 
 . .
 
-.
+Dieses Modul ist ein batteriebetriebenes Modul, die neue Konfiguration wird beim nächsten Wakeup berücksichtigt.
 
-## 
+## Wichtiger Hinweis
 
-> ****
+> **Wichtig**
 >
->  : 
+> Sie müssen das Modul aufwecken : nach seiner Aufnahme, nach einer Änderung der Konfiguration, nach einer Änderung des Aufweckens, nach einer Änderung der Assoziationsgruppen

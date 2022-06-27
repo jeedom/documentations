@@ -1,14 +1,14 @@
 # 
 
-****
+**Das Modul**
 
 ![module](images/nodon.smartplug/module.jpg)
 
-****
+**Das Jeedom-Visual**
 
 ![vuedefaut1](images/nodon.smartplug/vuedefaut1.jpg)
 
-## 
+## Zusammenfassung
 
 . . . . .
 
@@ -20,10 +20,10 @@
 -   
 -   : 16A
 
-## 
+## Technische Eigenschaften
 
--    : 
--    :  : &lt;1W
+-   Einspeisung : 
+-   Maximale Kraft :  : &lt;1W
 -    :  : 2000m
 -    : 868.
 -   : 
@@ -31,56 +31,56 @@
 -   
 -   
 
-## 
+## Moduldaten
 
--    : Nodon
--    : Smartplug
--    : 357
--    : 1
--    : 1
+-   Markieren : Nodon
+-   Nachname : Smartplug
+-   Hersteller-ID : 357
+-   Geben Sie Produkt ein : 1
+-   Produkt ID : 1
 
 ## Configuration
 
- [](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
+Um das OpenZwave-Plugin zu konfigurieren und zu wissen, wie man Jeedom einbindet, beziehen Sie sich auf diese [Dokumentation](https://doc.jeedom.com/de_DE/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Wichtig**
 >
 > .
 
 ![inclusion](images/nodon.smartplug/inclusion.jpg)
 
- :
+Einmal enthalten, sollten Sie dies erhalten :
 
 ![Plugin Zwave](images/nodon.smartplug/information.jpg)
 
 ### Commandes
 
+Sobald das Modul erkannt wird, sind die dem Modul zugeordneten Befehle verfügbar.
+
+![Aufträge](images/nodon.smartplug/commandes.jpg)
+
+Hier ist die Liste der Befehle :
+
+-   Bundesland : )
+-   Wir : Dies ist der Befehl, mit dem Sie die Steckdose einschalten können
+-   Aus : Dies ist der Befehl, mit dem Sie die Steckdose ausschalten können
+-    : )
+
 .
 
-![](images/nodon.smartplug/commandes.jpg)
+### Modul-Setup
 
- :
+Sie können das Modul entsprechend Ihrer Installation konfigurieren. .
 
--    : )
--    : 
--    : 
--    : )
+![Aufbau plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-.
-
-### 
-
-. .
-
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-)
+Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Einstellungen geklickt haben)
 
 ![Config1](images/nodon.smartplug/config1.jpg)
 
 ![Config1](images/nodon.smartplug/config2.jpg)
 
- :
+Parameterdetails :
 
 -   1 : 
 -   2 : ). ). .
@@ -103,16 +103,16 @@
 -   .
 -   
 
-> ****
+> **Wichtig**
 >
 > 
 
-## 
+## Gut zu wissen
 
-### 
+### Besonderheiten
 
 -   . . .
 
 ## Wakeup
 
-.
+Keine Vorstellung von Aufwachen bei diesem Modul.
