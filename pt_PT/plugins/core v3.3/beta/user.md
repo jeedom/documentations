@@ -11,16 +11,16 @@ Abaixo você tem uma tabela :
 
 -   **Nome de Usuário** : ID do usuário
 
--   **** : permite desativar a conta
+-   **De ativos** : permite desativar a conta
 
 -   **Apenas local** : autorizar login do usuário
     somente se estiver na rede local Jeedom
 
--   **** : Permite escolher o perfil do usuário :
+-   **Perfis** : Permite escolher o perfil do usuário :
 
-    -   **** : obtém todos os direitos sobre Jeedom
+    -   **Administrador** : obtém todos os direitos sobre Jeedom
 
-    -   **** : pode ver o painel, visualizações,
+    -   **Do utilizador** : pode ver o painel, visualizações,
         desenhos, etc. e atuar em equipamentos / controles. No entanto,
         ele não terá acesso à configuração de controles / equipamentos
         nem para a configuração do Jeedom.
@@ -42,7 +42,7 @@ Abaixo você tem uma tabela :
 -   **Alterar senha** : permite alterar a senha de
     l'utilisateur
 
--   **** : Remover usuário
+-   **Deletar** : Remover usuário
 
 -   **Regenerar chave de API** : Regenerar chave de API do usuário
 
@@ -57,7 +57,7 @@ Ao clicar em "Gerenciar direitos", uma janela é exibida, permitindo que você
 gerenciar com precisão os direitos do usuário. A primeira guia exibe
 o equipamento diferente. O segundo apresenta os cenários.
 
-> ****
+> **Importante**
 >
 > O perfil deve ser limitado, caso contrário, nenhuma restrição será colocada aqui
 > será levado em consideração
@@ -65,9 +65,9 @@ o equipamento diferente. O segundo apresenta os cenários.
 Você obtém uma tabela que permite, para cada equipamento e cada
 cenário, defina direitos do usuário :
 
--   **** : o usuário não vê o equipamento / cenário
+-   **Nenhum** : o usuário não vê o equipamento / cenário
 
--   **** : o usuário vê o equipamento / cenário, mas não vê
+-   **Visualização** : o usuário vê o equipamento / cenário, mas não vê
     não pode agir sobre isso
 
 -   **Visualização e execução** : o usuário vê

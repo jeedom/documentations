@@ -4,7 +4,7 @@ qual comando do tipo de informação (binário ou digital). Que você
 permitirá, por exemplo, histórico de uma curva de temperatura,
 aberturas de consumo ou porta
 
- 
+Princípio 
 ========
 
 Aqui é descrito o princípio de historicização de Jeedom. Não é
@@ -13,7 +13,7 @@ ou deseja alterar as configurações de
 historização. As configurações padrão são adequadas para a maioria
 cas.
 
- 
+Arquivamento 
 ---------
 
 O arquivamento de dados permite que o Jeedom reduza a quantidade de dados
@@ -32,15 +32,15 @@ aqui 2 parâmetros, um para o tamanho do pacote e outro para saber
 quando fazê-lo (por padrão, são pacotes
 1 hora com dados com mais de 2 horas de antiguidade).
 
-> ****
+> **Dica**
 >
 > Se você seguiu bem, deve ter uma alta precisão no
 > Apenas nas últimas 2 horas. No entanto, quando eu entro às 17h,
-> Eu tenho um esclarecimento nas últimas 17 horas.  ? De fato,
+> Eu tenho um esclarecimento nas últimas 17 horas. Por que ? De fato,
 > para evitar consumir recursos desnecessariamente, a tarefa que torna
 > o arquivamento ocorre apenas uma vez por dia, à noite.
 
-> ****
+> **Importante**
 >
 > Obviamente, esse princípio de arquivamento se aplica apenas a pedidos de
 > tipo digital; nos comandos do tipo binário, o Jeedom não mantém
@@ -69,17 +69,17 @@ semana porque, por padrão, quero que seja apenas uma semana - veja
 (esses parâmetros são mantidos de uma exibição para outra; então você não
 do que configurá-los uma vez).
 
--   **** : exibe a curva como um
+-   **Escadas** : exibe a curva como um
     escada ou exibição contínua.
 
--   **** : exibe a diferença no valor de
+-   **Variação** : exibe a diferença no valor de
     ponto anterior.
 
--   **** : Exibe o gráfico como linhas.
+-   **Linha** : Exibe o gráfico como linhas.
 
--   **** : Exibe o gráfico como uma área.
+-   **Área** : Exibe o gráfico como uma área.
 
--   ***** : Exibe o gráfico como barras.
+-   **Coluna**\* : Exibe o gráfico como barras.
 
 Gráfico em vistas e desenhos 
 =====================================
@@ -91,21 +91,21 @@ as opções :
 
 Depois que os dados são ativados, você pode escolher :
 
--   **** : A cor da curva.
+-   **Cor** : A cor da curva.
 
--   **** : O tipo de gráfico (área, linha ou coluna).
+-   **Gentil** : O tipo de gráfico (área, linha ou coluna).
 
--   **** : já que você pode colocar várias curvas (dados)
+-   **Escada** : já que você pode colocar várias curvas (dados)
     no mesmo gráfico, é possível distinguir as escalas
     (direita ou esquerda).
 
--   **** : exibe a curva como um
+-   **Escadas** : exibe a curva como um
     escada ou exibição contínua
 
--   **** : permite empilhar os valores das curvas (veja em
+-   **Pilha** : permite empilhar os valores das curvas (veja em
     abaixo para o resultado).
 
--   **** : exibe a diferença no valor de
+-   **Variação** : exibe a diferença no valor de
     ponto anterior.
 
 Opção na página do histórico 
@@ -118,14 +118,14 @@ História calculado
 
 Usado para exibir uma curva com base em um cálculo em vários
 comando (você pode praticamente fazer tudo, + - / \* valor absoluto ... veja
-Documentação do PHP para determinadas funções).  :
+Documentação do PHP para determinadas funções). Ex :
 abs(*\ [Jardim \] \ [Higrometria \] \ [Temperatura \]* - *\ [Espaço de
 vida \] \ [Higrometria \] \ [Temperatura \]*)
 
 Você também tem acesso a um gerenciamento de fórmulas de cálculo que permite
 salve-os para facilitar a visualização
 
-> ****
+> **Dica**
 >
 > Basta clicar no nome do objeto para desdobrar;
 > aparecem os comandos históricos que podem ser representados graficamente.
@@ -135,7 +135,7 @@ Histórico de pedidos
 
 Na frente de cada dado que pode ser representado graficamente, você encontrará dois ícones :
 
--   **** : permite excluir os dados gravados; quando
+-   **Cesto de lixo** : permite excluir os dados gravados; quando
     clique, Jeedom pergunta se é necessário excluir os dados antes de um
     determinada data ou todos os dados.
 
@@ -151,7 +151,7 @@ pergunta, clicando diretamente no gráfico; de
 Além disso, você pode definir o mínimo e o máximo permitido para
 evitar problemas futuros.
 
- 
+Linha do tempo 
 ========
 
 A linha do tempo exibe certos eventos em sua automação residencial no formato
@@ -160,22 +160,22 @@ chronologique.
 Para vê-los, você deve primeiro ativar o rastreamento na linha do tempo de
 comandos ou cenários desejados :
 
--   **** : diretamente na página do cenário ou no
+-   **Roteiro** : diretamente na página do cenário ou no
     página de resumo do cenário para fazê-lo em "massa"
 
--   **** : na configuração avançada do comando,
+-   **Encomendado** : na configuração avançada do comando,
     seja na configuração da história para fazê-lo em "massa"
 
-> ****
+> **Dica**
 >
 > Você tem acesso às janelas de resumo dos cenários ou do
 > configuração do histórico diretamente da página
-> .
+> Linha do tempo.
 
 Depois de ativar o rastreamento na linha do tempo do pedido e
 cenários desejados, você pode vê-los aparecer na linha do tempo.
 
-> ****
+> **Importante**
 >
 > Você precisa aguardar novos eventos após ativar o rastreamento
 > na linha do tempo antes de vê-los aparecer.

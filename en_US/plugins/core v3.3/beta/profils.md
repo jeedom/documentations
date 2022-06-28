@@ -11,7 +11,7 @@ Themes
 
 The themes panel allows you to adjust interface parameters :
 
--   **** : theme to use in desktop mode, be careful only the
+-   **Desktop** : theme to use in desktop mode, be careful only the
     default theme is officially supported by Jeedom
 
 -   **Color mobile** : allows to choose the interface color
@@ -35,7 +35,7 @@ The themes panel allows you to adjust interface parameters :
 -   **Opacity by Mobile widgets** : allows to give opacity
     (between 0 and 1) mobile widgets
 
- 
+Interface 
 ---------
 
 Allows you to define certain interface behaviors :
@@ -61,12 +61,12 @@ Allows you to define certain interface behaviors :
     -   **Full screen** : default display in full screen when
         the arrival on the designs
         
--   ****
+-   **Dashboard**
 
     -   **Unfold the objects panel** : allows to make visible by
         default the objects menu (on the left) on the dashboard
 
--   ****
+-   **Seen**
 
     -   **Unfold the view panel** : allows to make visible by
         default views menu (left) on views
@@ -99,7 +99,7 @@ last use. Here you can delete the recording of a
 peripheral. Attention it does not disconnect it but will just prevent
 its automatic reconnection.
 
- 
+Notifications 
 -------------
 
 -   **User notification command** : Default command for
