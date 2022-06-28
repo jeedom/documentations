@@ -4,11 +4,11 @@ minutes to have a more personalized display.
 
 The views are accessible from the Home → View menu :
 
-> **Tip**
+> ****
 >
 > It is possible to go directly to a view thanks to the submenu.
 
-> **Tip**
+> ****
 >
 > You can choose the default view in your profile when clicking
 > on the views menu.
@@ -24,7 +24,7 @@ On this page, there is a button at the top left to show or
 hide the list of views and the button to add one
 (Jeedom will ask for its name and send you to the edit page) :
 
-> **Tip**
+> ****
 >
 > You can modify this option in your profile so that the list
 > views to be visible by default.
@@ -39,7 +39,7 @@ put as much as you want). Each zone is of graphic type, widget
 or table, depending on the type you can put widgets
 of equipment, control or graphics in it.
 
-> **Tip**
+> ****
 >
 > You can move the order of the zones by dragging and dropping.
 
@@ -55,12 +55,12 @@ his name and type.
 
 On each zone you have the following general options :
 
--   **Lenght** : defines the width of the area (in mode
+-   **** : defines the width of the area (in mode
     desktop only)
 
--   **Edit** : allows to change the name of the zone
+-   **** : allows to change the name of the zone
 
--   **To delete** : allows to delete the zone
+-   **** : allows to delete the zone
 
 Widget type area 
 -------------------
@@ -70,12 +70,12 @@ A widget type area allows you to add widgets :
 -   **Add widget** : add / edit widgets to
     display in the area
 
-> **Tip**
+> ****
 >
 > You can delete a widget directly by clicking on the
 > trash can in front of this one.
 
-> **Tip**
+> ****
 >
 > It is possible to change the order of widgets in the area by
 > drag / drop.
@@ -98,28 +98,28 @@ When you press the button &quot;Add curve&quot; Jeedom displays the list
 historical commands and you can choose the one (s) to add, a
 Once done you have access to the following options :
 
--   **Trash can** : remove command from chart
+-   **** : remove command from chart
 
--   **Last name** : command name graphed
+-   **** : command name graphed
 
--   **Color** : color of the curve
+-   **** : color of the curve
 
--   **Kind** : curve type
+-   **** : curve type
 
--   **Group** : allows grouping of data (maximum type
+-   **** : allows grouping of data (maximum type
     per day)
 
--   **Ladder** : scale (right or left) of the curve
+-   **** : scale (right or left) of the curve
 
--   **Stairs** : displays the stepped curve
+-   **** : displays the stepped curve
 
--   **Stack** : stack the curve with the other type curves
+-   **** : stack the curve with the other type curves
     empiler
 
--   **Variation** : graph only variations with value
+-   **** : graph only variations with value
     previous
 
-> **Tip**
+> ****
 >
 > It is possible to change the order of the graphics in the area by
 > drag / drop.
@@ -133,7 +133,7 @@ Here you have the buttons :
 
 -   **Add line** : add a row to the table
 
-> **Note**
+> ****
 >
 > It is possible to re-organize the lines by dragging and dropping but not
 > the columns
@@ -141,9 +141,9 @@ Here you have the buttons :
 Once you have added your rows / columns you can add
 information in the boxes :
 
--   **text** : just text to write
+-   **** : just text to write
 
--   **html** : any html code (javascript possible but
+-   **** : any html code (javascript possible but
     strongly discouraged)
 
 -   **command widget** : the button on the right allows you to choose
