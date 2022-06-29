@@ -3,34 +3,34 @@ de comandos de texto ou voz.
 
 Esses pedidos podem ser obtidos por :
 
--   SMS : envie um SMS para iniciar comandos (ação) ou peça a um
+-    : envie um SMS para iniciar comandos (ação) ou peça a um
     pergunta (informações).
 
--   Gato : Telegrama, Slack, etc.
+-    : Telegrama, Slack, etc.
 
--   Vocal : dite uma frase com Siri, Google Now, SARAH etc. Para
+-    : dite uma frase com Siri, Google Now, SARAH etc. Para
     iniciar comandos (ação) ou fazer uma pergunta (informações).
 
--   HTTP : inicie uma URL HTTP contendo o texto (ex. Tasker, Slack)
+-    : inicie uma URL HTTP contendo o texto (ex. )
     Para iniciar comandos (ação) ou fazer uma pergunta (informações).
 
 O interesse das interações reside na integração simplificada em
 outros sistemas como smartphone, tablet, outra caixa de automação residencial, etc.
 
 Para acessar a página de interação, vá para Ferramentas →
-Interações :
+ :
 
 No topo da página, existem 3 botões :
 
--   **Adicionar** : o que permite criar novas interações.
+-   **** : o que permite criar novas interações.
 
 -   **Regenerar** : que recriará todas as interações (talvez
     très long &gt; 5mn).
 
--   **Teste** : que abre uma caixa de diálogo para escrever e
+-   **** : que abre uma caixa de diálogo para escrever e
     testar uma sentença.
 
-> **Dica**
+> ****
 >
 > Se você tem uma interação que gera as frases para as luzes
 > por exemplo, e você adiciona um novo módulo de comando de
@@ -38,7 +38,7 @@ No topo da página, existem 3 botões :
 > vá para a interação em questão e salve-a novamente para
 > crie as frases para este novo módulo.
 
-Princípio 
+ 
 ========
 
 O princípio da criação é bastante simples : vamos definir uma frase
@@ -54,35 +54,35 @@ a interação não está vinculada a uma ação, mas a informações ou se
 deseja realizar uma ação específica após esta (também é
 possível executar um cenário, controlar vários comandos…).
 
-Configuração 
+ 
 =============
 
 A página de configuração consiste em várias guias e
-botões :
+ :
 
--   **Frases** : Exibe o número de frases na interação (um clique
+-   **** : Exibe o número de frases na interação (um clique
     acima mostra para você)
 
--   **Registrar** : registra a interação atual
+-   **** : registra a interação atual
 
--   **Deletar** : excluir interação atual
+-   **** : excluir interação atual
 
--   **Duplicado** : duplicar a interação atual
+-   **** : duplicar a interação atual
 
 Geral 
 =======
 
--   **Sobrenome** : nome da interação (pode estar vazio, o nome substitui o
+-   **** : nome da interação (pode estar vazio, o nome substitui o
     solicitar texto na lista de interação).
 
--   **Banda** : grupo de interação, ajuda a organizá-los
+-   **** : grupo de interação, ajuda a organizá-los
     (pode estar vazio, então estará no grupo "none").
 
--   **De ativos** : permite ativar ou desativar a interação.
+-   **** : permite ativar ou desativar a interação.
 
--   **Solicitar** : A sentença do modelo de geração (obrigatório).
+-   **** : A sentença do modelo de geração (obrigatório).
 
--   **Sinônimo** : permite definir sinônimos em nomes
+-   **** : permite definir sinônimos em nomes
     pedidos.
 
 -   **Responda** : a resposta para fornecer.
@@ -96,7 +96,7 @@ Geral
 -   **Usuários autorizados** : limita a interação a certos
     usuários (logins separados por |).
 
-Filtros 
+ 
 =======
 
 -   **Limite para digitar comandos** : permite usar apenas o
@@ -124,16 +124,16 @@ Filtros
     único equipamento / módulo (o Jeedom cria automaticamente a lista em
     dos equipamentos / módulos que você possui).
 
-Ações 
+ 
 ======
 
 Use se você deseja direcionar um ou mais comandos específicos
 ou passar parâmetros específicos.
 
-Exemplos 
+ 
 ========
 
-> **Observação**
+> ****
 >
 > As capturas de tela podem ser diferentes em vista dos desenvolvimentos.
 
@@ -166,7 +166,7 @@ uma única frase imagine ações combinadas entre vários comandos e
 vários cenários (também podemos ativar cenários no jogo
 ação de interações).
 
-> **Dica**
+> ****
 >
 > Para adicionar um cenário, crie uma nova ação, escreva "cenário"
 > sem sotaque, pressione a tecla Tab do teclado para
@@ -181,7 +181,7 @@ frases para um grupo inteiro de comandos.
 
 Vamos retomar o que foi feito acima, excluir as ações que
 nós adicionamos e, em vez da frase fixa, em "Solicitação",
-vamos usar as tags **\#commande\#** e **\#equipement\#**.
+vamos usar as tags **#commande#**  **#equipement#**.
 Jeedom substituirá essas tags pelo nome dos comandos e pelo nome de
 equipamento (podemos ver a importância de ter nomes de
 controle / equipamento consistente).
@@ -221,7 +221,7 @@ pode ter vários sinônimos, aqui "on" tem como sinônimo
 ***=*** "*sinônimo 1*"***,*** "*sinônimo 2*" (podemos colocar o máximo
 sinônimo que queremos). Em seguida, adicione sinônimos para outro
 nome do comando, basta adicionar após o último sinônimo uma barra
-vertical "*|*" após o qual você pode novamente nomear o
+ "*|*" após o qual você pode novamente nomear o
 comando que terá sinônimos como para a primeira parte, etc.
 
 Já está melhor, mas ainda falta o comando de entrada "on" ""
@@ -266,7 +266,7 @@ capacidade de personalizar o retorno com base na ordem executada.
 
 Para fazer isso, usaremos novamente a tag Jeedom. Para o nosso
 luzes, podemos usar uma frase como : Eu acendi bem
-\#equipement\# (veja a captura de tela abaixo).
+#equipement# (veja a captura de tela abaixo).
 
 ![interact011](../images/interact011.png)
 
@@ -290,7 +290,7 @@ Como você pode ver aqui, eu mantive quase a mesma estrutura
 demanda (é voluntário se concentrar em
 específicos). Obviamente, eu adaptei os sinônimos para ter
 coisa coerente. No entanto, para a resposta, é **imperativo** de
-colocar apenas \#valeur\# que representa o 0 ou 1 que o Jeedom vai
+colocar apenas \#valeur# que representa o 0 ou 1 que o Jeedom vai
 substitua pela seguinte conversão binária.
 
 O campo **Conversão binária** deve conter 2 respostas : primeiro o
@@ -299,7 +299,7 @@ separação e, finalmente, a resposta se o comando vale 1. Aqui o
 as respostas são simplesmente não e sim, mas poderíamos colocar uma frase
 um pouco mais.
 
-> **Aviso**
+> ****
 >
 > Tags não funcionam em conversões binárias.
 
@@ -310,7 +310,7 @@ O campo "Usuários autorizados" permite autorizar apenas determinadas
 pessoas para executar o comando, você pode colocar vários perfis
 separando-os com um "|".
 
-Exemplo : personne1|personne2
+ : personne1|personne2
 
 Pode-se imaginar que um alarme pode ser ativado ou desativado por um
 criança ou vizinho que viria a regar as plantas na sua ausência.
@@ -319,7 +319,7 @@ Exclusão regexp
 ------------------
 
 É possível criar
-[Regexp](https://fr.wikipedia.org/wiki/Expression_rationnelle)
+[](https://fr.wikipedia.org/wiki/Expression_rationnelle)
 exclusão, se uma frase gerada corresponder a este Regexp, será
 excluído. O ponto é ser capaz de remover falsos positivos,
 para dizer uma frase gerada por Jeedom que ativa algo que não
@@ -388,8 +388,8 @@ já é muito complicado de entender. Levei um tempo para entender
 a operação. Como um exemplo um pouco mais complexo, uma regexp para
 verificar um URL :
 
-/\^(https?:\\ / \\ /)?(\ [\\ da-z \\ .- \] +) \\. (\ [az \\. \] {2,6}) (\ [\\ / \\ w
-\\ .- \] \*)\*\\ /?\ $ /
+/^(https?:\\ / \\ /)?(\ [\\ da-z \\ .- \] +) \\. (\ [az \\. \] {2,6}) (\ [\\ / \\ w
+\\ .- \] \*)*\\ /?\ $ /
 
 Depois de escrever isso, você entende as expressões
 regular.
@@ -455,11 +455,11 @@ Existe alguém na sala ?
 Este exemplo visa especificamente equipamentos específicos que permitem
 ter uma resposta personalizada. Então poderíamos imaginar substituir
 o exemplo responde com "não, não há ninguém na sala
-*Júlia*|sim tem alguém na sala *Júlia*"
+**|sim tem alguém na sala **"
 
-### Evolução 
+###  
 
--   Então a pergunta é "\#commande\# \ [no |no \] \#objet\#"
+-   Então a pergunta é "\#commande# \ [no |no \] \#objet#"
 
 -   A resposta será "não, não há ninguém na sala" ou "sim, existe
     alguém na sala"
@@ -498,23 +498,23 @@ a umidade, o brilho das diferentes salas (objeto no sentido Jeedom).
 
 -   Assim, podemos ver que uma frase genérica genérica "Qual é o
     temperatura da sala de estar "ou" quão brilhante é o quarto"
-    pode ser convertido para : "o que é \ |l \\ '\] \#commande\# objet"
+    pode ser convertido para : "o que é \ |l \\ '\] \#commande# objet"
     (o uso de \ [word1 | mot2 \] digamos essa possibilidade
     ou este para gerar todas as variações possíveis da frase
     com word1 ou word2). Ao gerar o Jeedom irá gerar tudo
     combinações possíveis de frases com todos os comandos
-    existente (dependendo dos filtros) substituindo \#commande\# par
-    o nome do comando e \#objet\# pelo nome do objeto.
+    existente (dependendo dos filtros) substituindo \#commande# par
+    o nome do comando e \#objet# pelo nome do objeto.
 
 -   A resposta será "21 ° C" ou "200 lux". Basta colocar :
-    \#valeur\# \#unite\# (a unidade deve ser concluída na configuração
+    #valeur# #unite# (a unidade deve ser concluída na configuração
     de cada ordem para a qual queremos ter uma)
 
 -   Este exemplo, portanto, gera uma sentença para todos os comandos de
     digite informações digitais que possuem uma unidade, para que possamos desmarcar
     unidades no filtro certo limitadas ao tipo que nos interessa.
 
-### Evolução 
+###  
 
 Podemos, portanto, adicionar sinônimos ao nome do comando para que
 coisa mais natural, adicione um regexp para filtrar os comandos que
@@ -542,7 +542,7 @@ Então podemos ver uma regexp :
 Isso permite excluir todos os pedidos que possuem um destes
 palavras em sua frase
 
-> **Observação**
+> ****
 >
 > O regexp aqui é uma versão simplificada para fácil utilização.
 > Portanto, podemos usar expressões tradicionais ou
@@ -559,16 +559,16 @@ dimmer em uma lâmpada com interações :
 
 ![interact022](../images/interact022.png)
 
-Como podemos ver, existe aqui no pedido a tag **\#consigne\#** (on
+Como podemos ver, existe aqui no pedido a tag **#consigne#** (on
 pode colocar o que você deseja), que está incluído na ordem do
 dimmer para aplicar o valor desejado. Para fazer isso, temos 3 partes
 : \* Solicitação : em que criamos uma tag que representará o valor
 que será enviado para a interação. \* Resposta : reutilizamos a tag para
 a resposta para garantir que Jeedom entendeu a solicitação corretamente.
 \* Ação : nós colocamos uma ação na lâmpada que queremos dirigir e
-o valor que passamos nossa tag *ordem*.
+o valor que passamos nossa tag **.
 
-> **Observação**
+> ****
 >
 > Você pode usar qualquer tag, exceto aquelas já usadas pelo
 > Jeedom, pode haver vários para dirigir, por exemplo
@@ -576,7 +576,7 @@ o valor que passamos nossa tag *ordem*.
 > cenários iniciados pela interação (no entanto, o cenário
 > em "Executar em primeiro plano"").
 
-### Evolução 
+###  
 
 Podemos querer controlar todos os comandos de tipo de cursor com um
 interação única. Com o exemplo abaixo, poderemos solicitar
@@ -587,7 +587,7 @@ conjunto de frases para controlá-los.
 
 Nesta interação, não temos comando na parte de ação, nós
 deixe o Jeedom gerar a partir de tags a lista de frases. Nós podemos
-veja a tag **\#slider\#**. É imperativo usar essa tag para
+veja a tag **#slider#**. É imperativo usar essa tag para
 instruções em uma interação de múltiplos comandos, pode não ser
 a última palavra da frase. Também podemos ver no exemplo que
 pode usar na resposta uma tag que não faz parte do
@@ -599,7 +599,7 @@ Resultado da interação :
 
 ![interact034](../images/interact034.png)
 
-Podemos ver que a tag **\#equipement\#** que não é usado
+Podemos ver que a tag **#equipement#** que não é usado
 na solicitação está bem concluída na resposta.
 
 Controlar a cor de uma faixa de LED 
@@ -651,15 +651,15 @@ Programando uma ação com interações
 ------------------------------------------------
 
 As interações fazem muitas coisas em particular.
-Você pode programar uma ação dinamicamente. Exemplo : "Coloque o
+Você pode programar uma ação dinamicamente.  : "Coloque o
 aquecimento às 22h às 14h50". Nada poderia ser mais simples, apenas
-usar tags \#time\# (se um horário específico estiver definido) ou
-\#duration\# (no tempo X, por exemplo, em 1 hora) :
+usar tags \#time# (se um horário específico estiver definido) ou
+#duration# (no tempo X, por exemplo, em 1 hora) :
 
 ![interact23](../images/interact23.JPG)
 
-> **Observação**
+> ****
 >
-> Você notará na resposta a tag \#value\# este contém
+> Você notará na resposta a tag \#value# este contém
 > no caso de uma interação agendada, o tempo de programação
 > effective
