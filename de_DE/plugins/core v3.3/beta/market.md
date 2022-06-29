@@ -10,13 +10,13 @@ Mein Profil
 ==========
 
 Hier können Sie verschiedene Parameter Ihres Geräts anpassen
- :
+Profil :
 
--   ****
+-   **Profil**
 
-    -   **** : Ihr Login auf dem Markt kann nicht geändert werden
+    -   **Anmeldung** : Ihr Login auf dem Markt kann nicht geändert werden
 
-    -   **** : Ihr Name (diese Informationen sind nur nützlich für
+    -   **Nachname** : Ihr Name (diese Informationen sind nur nützlich für
         E-Mails machen mehr Spaß)
 
     -   **Vorname** : Ihr Vorname (diese Informationen sind nur nützlich
@@ -24,9 +24,9 @@ Hier können Sie verschiedene Parameter Ihres Geräts anpassen
 
     -   **Benutzername im Forum** : Dein Benutzername im Forum
 
-    -   **** : Deine Mail
+    -   **Email** : Deine Mail
 
-    -   **** : Deine Sprache
+    -   **Sprache** : Deine Sprache
 
     -   **Passwort &amp;&amp; Passwort bestätigen** : lass uns
         Ändern Sie Ihr Passwort
@@ -48,20 +48,20 @@ Für die Profis :
 -   **Supportanfragen Empfänger** : wissen, wer die erhalten wird
     Support-E-Mails (Endkunde, Installer oder beides)
 
-    -   ****
+    -   **AGB**
 
--   **** : Allgemeine Nutzungsbedingungen (beachten Sie
+-   **Benutzer** : Allgemeine Nutzungsbedingungen (beachten Sie
     Lies sie gut, weil sie dich engagieren)
 
--   **** : Allgemeine Nutzungsbedingungen für
+-   **Entwickler** : Allgemeine Nutzungsbedingungen für
     Entwickler
 
-    -   ****
+    -   **Eintrittskarten**
 
 -   **Anzahl der Tickets** : Anzahl der Tickets für den aktuellen Monat
     sowie Ihr Limit
 
--   **** : Schaltfläche zum Senden einer Supportanfrage (zugänglich
+-   **Die Unterstützung** : Schaltfläche zum Senden einer Supportanfrage (zugänglich
     auch durch das Ausrufezeichen oben rechts auf dem Markt oder
     auf deinem Jeedom)
 
@@ -73,16 +73,16 @@ Für die Profis :
     -   **Zusammenfassung** Hier finden Sie eine Zusammenfassung Ihrer verschiedenen
         Rechte und Dienstleistungen
 
-> ****
+> **Tipp**
 >
 > Vergiss nicht zu sparen
 
 Meine Jeedoms 
 ===========
 
--   ****
+-   **Eben**
 
-    -   **** : Ihr Service Pack
+    -   **Jeedom** : Ihr Service Pack
 
     -   **Geben Sie eine Service Pack-Nummer ein** : Lassen Sie uns Ihre eingeben
         Service Pack-Nummer (diese finden Sie in der E-Mail von
@@ -94,7 +94,7 @@ Meine Jeedoms
         of Jeedom-Installationen, die derzeit ebenfalls mit Ihrem Konto verknüpft sind
         dass die Grenze erlaubt
 
-> ****
+> **Tipp**
 >
 > Manchmal werden Sie vom Markt zum Zurücksetzen aufgefordert
 > Ihre Installationsschlüssel, es ist normal, folgen Sie einfach was es ist
@@ -102,19 +102,19 @@ Meine Jeedoms
 
 -   **Meine Jeedoms** : Hier sind alle deine Jeedoms aufgelistet
 
-    -   **** : den Namen, den du deinem Jeedom geben willst (
+    -   **Nachname** : den Namen, den du deinem Jeedom geben willst (
         im Namen der Sicherung gefunden, wenn Sie das Abonnement von haben
         Cloud-Backup)
 
-    -   **** : ermöglicht es, den Zustand der fraglichen Jeedom zu sehen
+    -   **Bundesland** : ermöglicht es, den Zustand der fraglichen Jeedom zu sehen
 
     -   **Lokale / Remote-IP** : IP oder Adresse dieses Jeedom,
         Konfigurieren Sie in Jeedom, wenn Sie nichts setzen, wird es dort sein
         letzte bekannte IP
 
-    -   **** : Mit dieser Option können Sie den Namen Ihres DNS anpassen
+    -   **DNS** : Mit dieser Option können Sie den Namen Ihres DNS anpassen
 
-    -   **** : Listen Sie die verschiedenen Jeedom-Zugriffs-URLs auf.
+    -   **URLs** : Listen Sie die verschiedenen Jeedom-Zugriffs-URLs auf.
 
     -   **DNS-Server** : sagt Ihnen, ob der DNS-Server, zu dem Sie
         sind beigefügt
@@ -128,11 +128,11 @@ Meine Jeedoms
     -   **Letztes Update** : Jeedom&#39;s letzte Kommunikation mit
         der Markt
 
-    -   **** : Jeedom Hardware-Name
+    -   **Hardware** : Jeedom Hardware-Name
 
-    -   **** : die Version von Jeedom installiert
+    -   **Ausführung** : die Version von Jeedom installiert
 
-> ****
+> **Tipp**
 >
 > Vergiss nicht zu sparen
 
@@ -156,7 +156,7 @@ Meine Einkäufe / Aktionen / Spenden
 Hier finden Sie alle Ihre Einkäufe und können die Rückgabe der
 Rechnung oder Quittungs-E-Mail
 
-> ****
+> **Wichtig**
 >
 > Wenn Sie ein offizielles Plugin kaufen, erhalten Sie eine Rechnung. in
 > Für ein Plugin eines Drittanbieters ist es jedoch eine Quittung, für die Rechnung ist es erforderlich

@@ -21,7 +21,9 @@
 ``display``                  | .                    |
 ``mobile``                   | .   |
 ``changelog`` *              | .                                                                                              |
-``documentation`` *          | .                                                                                |
+``documentation`` *          | .
+``changelog_beta`` *              | .|
+``documentation_beta`` *          | .
 ``link`` -> ``video``               | .                                                                                 |
 ``link`` -> ``forum``               | .                                                                  |
 ``languages``                | :``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``,``sp_SP`` ,``ru_RU``,``pt_PT``            |
