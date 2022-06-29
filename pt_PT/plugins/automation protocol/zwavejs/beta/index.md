@@ -1,4 +1,4 @@
-# Plugin Z-Wave JS
+# 
 
 # Configuration
 
