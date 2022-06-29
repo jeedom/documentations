@@ -21,7 +21,9 @@ Champs                   | Valeurs                                              
 ``display``                  | si le plugin utilise un panel dédié sur le desktop, il s’agit du nom du fichier principal de ce panel.                    |
 ``mobile``                   | Si le plugin utilise un panel dédié sur la webApp Jeedom, il s’agit du nom du fichier principal de ce panel.   |
 ``changelog`` *              | Lien Html vers le Changelog.                                                                                              |
-``documentation`` *          | Lien Html vers la documentation du plugin.                                                                                |
+``documentation`` *          | Lien Html vers la documentation du plugin.
+``changelog_beta`` *              | Lien Html vers le Changelog Beta.|
+``documentation_beta`` *          | Lien Html vers la documentation beta du plugin.
 ``link`` -> ``video``               | Lien Html vers une vidéo de présentation.                                                                                 |
 ``link`` -> ``forum``               | Lien Html vers le forum sur le sujet officiel du plugin.                                                                  |
 ``languages``                | Liste des langues disponibles pour le plugin : ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP`` , ``ru_RU``, ``pt_PT``            |
