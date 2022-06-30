@@ -1,6 +1,6 @@
 # Registro de cambios Deconz
 
->**Importante**
+>****
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
@@ -9,7 +9,7 @@
 
 - Intento de corregir el error "no se puede importar el nombre 'colecciones_abc' de 'seis'".se mueve'", requiere jeedom 4.2 y relanzando la instalación de dependencias
 
-# 16/12/2021
+# 
 
 - Correcciones de errores
 
@@ -17,7 +17,7 @@
 
 - Soporte de nuevos tipos
 
-# 29/11/2021
+# 
 
 - Posibilidad de desinstalar Deconz, gracias @Benjamin 
 - Se agregó ZHAAirQualit, meric @sagitaz
@@ -29,16 +29,16 @@
 - Supresión del envío de brillo durante un cambio de color para bombillas RGB
 - Se agregó ZHACarbonMonoxide, gracias @sagitaz
 
-# 28/10/2020
+# 
 
 - Se agregó un mensaje que indica que no debe actualizar el firmware de la clave si está en VM o Freebox Delta con el riesgo de romper la clave.
 
-# 23/09/2020
+# 
 
 - Soporte de válvula ally de Danfoss (se requiere deconz 2.05.79)
 - Cambio del método de instalación para RPI y x86_64 (paso por los repositorios deconz)
 
-# 01/07/2020
+# 
 
 - Lanzamiento mejorado de deCONZ
 
@@ -46,11 +46,11 @@
 
 - Tipo agregado ZGPSwitch (botón amigo del tono)
 
-# 25/05/2020
+# 
 
 - Corrección de una inquietud sobre el tipo genérico de luces de color (es aconsejable corregir el tipo genérico para el comando del tipo de acción de color; de lo contrario, esto puede causar problemas en Alexa o Google home, luz que se apaga durante la solicitud ON)
 
-# 12/05/2020
+# 
 
 - Adición de un reinicio automático de la conexión a deconz en caso de pérdida
 
@@ -86,7 +86,7 @@
 - Actualización del documento (adición de la desactivación de la serie en RPI; de lo contrario, el demonio es inestable)
 - Mejora de soporte de válvula
 
-# 03/11/2019
+# 
 
 - Soporte de instalación en RPI1
 
@@ -110,7 +110,7 @@
 - Correcciones de errores
 - Actualizando el documento
 
-# 09/09/2019
+# 
 
 - Corrección de un error en el nivel de registro de deconz en la instalación local
 - Actualización de la versión local de deconz a 2.5.69 (tenga cuidado de tenerlo en la configuración del complemento reinicie la instalación de Deconz y luego reinicie el demonio)

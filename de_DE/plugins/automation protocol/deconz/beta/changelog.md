@@ -1,6 +1,6 @@
-# Changelog Deconz
+# 
 
->**Wichtig**
+>****
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
@@ -33,7 +33,7 @@
 
 - Es wurde eine Meldung hinzugefügt, die angibt, dass die Schlüsselfirmware nicht aktualisiert werden soll, wenn Sie sich auf einer VM oder Freebox Delta befinden und das Risiko besteht, dass der Schlüssel beschädigt wird.
 
-# 23/09/2020
+# 
 
 - Danfoss Ally Ventilhalterung (Dekonz 2.05.79 erforderlich)
 - Änderung der Installationsmethode für RPI und x86_64 (Durchgang durch die Dekonz-Repositorys)
