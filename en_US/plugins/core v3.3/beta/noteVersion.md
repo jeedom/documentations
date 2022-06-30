@@ -1,4 +1,4 @@
- 
+3.1.6 
 =====
 
 Please note this update has a bug in the update script.
