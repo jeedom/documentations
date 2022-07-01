@@ -2,70 +2,70 @@
 Changelog
 =========
 
-
+3.3.56
 ======
 
 - Fixed a cache loss issue during a reboot
 
-
+3.3.55
 ======
 - stretch migration tools for smart available.
 
-
+3.3.54
 ======
 
 - Adding a V4 migration wizard
 - Correction of bugs on cloud backups
 - Database data encryption management
 
->****
+>**IMPORTANT**
 >
->During the update you may get an error resembling "PHP Fatal error: : ::decrypt () "it does not matter, you just have to restart the update.
+>During the update you may get an error resembling "PHP Fatal error: Uncaught Error: Call to undefined method utils::decrypt () "it does not matter, you just have to restart the update.
 
-
+3.3.53
 ======
 
 - Fixed an issue with archiving logs if the smoothing mode was forever
 
-
+3.3.52
 ======
 
 - Removal of the new DNS system in eu.jeedom.link following too many operators who prohibit permanent http2 flows
 
-
+3.3.51
 ======
 
 - Fixed a problem with calculating state time on widgets if the Jeedom time zone is not the same as that of the browser
 - Increase in the number of bad passwords before banishment (avoids problems with the webapp when rotating API keys)
 
-
+3.3.50
 =====
 
 - Correction of a problem with stopping the DNS beta
 - Improvement of internal / external access calculation (removal of the port if it is standard for the protocol)
 
-
+3.3.49
 =====
 
 - Start of the update to the new documentation site
 
-
+3.3.48
 =====
 
 - Bug correction (update to be absolutely done if you are in 3.3.47)
 
-
+3.3.47
 =====
 
 - Bugfix
 - Optimization of the future DNS system
 
-
+3.3.45
 =====
 
 - Bug fix on the webapp
 
-
+3.3.44
 =====
 
 - Automatic rotation of the API key of admin users every 3 months. I can deactivate it (but it is not recommended) in the user management. Please note this update launches a rotation of API keys for admins users.
@@ -74,7 +74,7 @@ Changelog
 - Migration to the new cloud backup system (the old system will remain active for 1 week and you can, if necessary, request the provision of old backups to support, bypassing this period the old system will be deleted)
 - Migration to the new monitoring system (the old system will remain active for 1 week, after which it will be deleted)
 
-
+3.3.39
 =====
 
 - Changed variable name $ key to $ key2 in class event
@@ -83,35 +83,35 @@ Changelog
 - Better consideration of plugin widgets
 - Optimization of the health calculation on the swap
 
->****
+>**IMPORTANT**
 >
 >This update fixes an issue that may prevent any history recording as of January 1, 2020, it is more than highly recommended
 
-
+3.3.38
 =====
 
 - Addition of global compatibility of Jeedom DNS with a 4G internet connection. (Important if you use the Jeedom DNS is that you have a 4g connection you must check in the configuration of the Jeedom dns the corresponding box).
 - Spelling corrections.
 - Security fix
 
-
+3.3.37
 =====
 
 - Bugfix
 
-
+3.3.36
 =====
 
 - Addition of rounding on the number of days since the last battery change
 - Bugfix
 
-
+3.3.35
 =====
 
 - Bugfix
 - Possibility to install plugins directly from the market
 
-
+3.3.34
 =====
 
 - Fixed a bug that could prevent the battery status from going back up
@@ -119,24 +119,24 @@ Changelog
 - The "timeout" status (non communication) of the equipment now has priority over the "warning" or "danger" status"
 - Bug fix on cloud backups
 
-
+3.3.33
 =====
 
 - Bugfix
 
-
+3.3.32
 =====
 
 - Bugfix
 - Mobile support for sliders on designs
--  : optimization of swap management
+- SMART : optimization of swap management
 
-
+3.3.31
 =====
 
 - Bugfix
 
-
+3.3.30
 =====
 
 - Correction of a bug on the display of user sessions
@@ -147,7 +147,7 @@ Changelog
 - Correction of a bug on the &quot;Equipment analysis&quot; page, the battery update date is now correct 
 - Improvement of the remove_inat action in scenarios
 
-
+3.3.29
 =====
 
 - Correction of the disappearance of the date of the last update check
@@ -155,13 +155,13 @@ Changelog
 - Correction of a bug on the calculation of the use of the variables if they are in the form : variable (toto, mavaleur)
 
 
-
+3.3.28
 =====
 
 - Fixed an infinite wheel bug on the updates page
 - Various corrections and optimizations
 
-
+3.3.27
 =====
 
 - Correction of a bug on the translation of the days in French
@@ -169,14 +169,14 @@ Changelog
 - Bugfix
 - Disabling actions on orders when editing designs, views or dashboards
 
-
+3.3.26
 =====
 
 - Bugfix
 - Correction of a bug on the multi-launch of scenario
 - Correction of a bug on the alerts on the value of the orders
 
-
+3.3.25
 =====
 
 - Bugfix
@@ -184,7 +184,7 @@ Changelog
 - Addition of classes for color supports in the mode plugin
 
 
-
+3.3.24
 =====
 
 -   Correction of a bug on the display of the number of updates
@@ -195,14 +195,14 @@ Changelog
 -	Addition of button on the administration to reset the rights and launch a Jeedom verification (right, cron, database...)
 -	Removal of advanced visibility choices for equipment on dashboard / view / design / mobile. Now if you want to see or not the equipment on dashboard / mobile just check or not the general visibility box. For views and design just put or not the equipment on it
 
-
+3.3.22
 =====
 
 - Bug fixes
 - Improved command replacement (in views : plan and plan3d)
 - Fixed a bug that could prevent opening certain plugin equipment (alarm or virtual type))
 
-
+3.3.21
 =====
 
 - Fixed a bug where the time display could exceed 24h
@@ -217,28 +217,28 @@ Changelog
 - Improvement of the cron syntax checking system
 
 
-
+3.3.20
 =====
 
 - Correction of a bug on the scenarios or they could remain blocked at &quot;in progress&quot; while they are deactivated
 - Fixed an issue with launching an unplanned scenario
 - Time zone bug fix
 
-
+3.3.19
 =====
 - Bug fixes (especially during the update)
 
 
-
+3.3.18
 =====
 - Bugfix
 
-
+3.3.17
 =====
 
 - Correction of an error on samba backups
 
-
+3.3.16
 =====
 
 -   Ability to delete a variable.
@@ -277,34 +277,34 @@ Changelog
 -   Addition of daemon management on the task engine
 -   Addition of the color_gradient function in the scenarios
 
-
+3.2.16
 =====
 
 - Fixed a bug when installing dependency of some plugins on Smart
 
-
+3.2.15
 =====
 
 - Correction of a bug when saving equipment
 
-
+3.2.14
 =====
 
 - Preparation to avoid an error when switching to 3.3.X
 - Fixed an issue when requesting support for third-party plugins
 
-
+3.2.12
 =====
 
 - Bugfix
 - Optimisations
 
-
+3.2.11
 =====
 
 - Bugfix.
 
-
+3.2.10
 =====
 
 - Bugfix.
@@ -314,7 +314,7 @@ Changelog
 - Optimization of the link graph calculation and the use of variables.
 - Improvement of the cron task details window which now displays the scenario as well as the action that will be done for the tasks in doin (thanks @kiboost).
 
-
+3.2.9
 =====
 
 - Bugfix
@@ -323,7 +323,7 @@ Changelog
 - Addition of an alert if a plugin blocks crons
 - Correction of a bug in the cloud monitoring system if the agent version is less than 3.X.X
 
-
+3.2.8
 =====
 
 - Bugfix
@@ -332,7 +332,7 @@ Changelog
 - Addition of an indicator on the health page giving the number of processes killed by lack of memory (overall indicates that the jeedom is too loaded)
 - Improved file editor
 
-
+3.2.7
 =====
 
 - Bugfix
@@ -340,7 +340,7 @@ Changelog
 - Ability to use tags in the conditions of the "A" and "IN blocks"
 - Fixed bug of Market categories for widgets / scripts / scenarios...
 
-
+3.2.6
 =====
 
 - Bugfix
@@ -348,13 +348,13 @@ Changelog
 - Standardization of the names of certain orders in the scenarios
 - Performance optimization
 
-
+3.2.5
 =====
 
 - Bugfix
 - Reactivation of interactions (inactive because of the update)
 
-
+3.2.4
 =====
 
 - Bugfix
@@ -362,25 +362,25 @@ Changelog
 - Correction of a calculation error on time_diff
 - Preparation for the future alerting system
 
-
+3.2.3
 =====
 
 -   Bugfix on min / max functions....
 -   Improved export of graphics and display in table mode
 
-
+3.2.2
 =====
 
--   Removal of the old widget update system (deprecated since version 3.0). Attention if your widget does not use the new system there is a risk of malfunction (duplication of it in this case). Example widget [](https://github.com/jeedom/core/tree/beta/core/template/dashboard)
+-   Removal of the old widget update system (deprecated since version 3.0). Attention if your widget does not use the new system there is a risk of malfunction (duplication of it in this case). Example widget [here](https://github.com/jeedom/core/tree/beta/core/template/dashboard)
 -   Possibility to display the graphs in table form or to export these in csv or xls
 
 -   Users can now add their own php function for scenarios. See documentation of scenarios for implementation
 
--    : addition of a time_diff function in the scenarios
+-   JEED-417 : addition of a time_diff function in the scenarios
 
 -   Addition of a configurable delay before response on interactions (allows to wait for the return of status to take place for example)
 
--    : Removal of &quot;User information command&quot; to be replaced by actions on message. Allows you to launch several different commands, to launch a scenario ... Attention if you had a "User information command", it must be reconfigured.
+-   JEED-365 : Removal of &quot;User information command&quot; to be replaced by actions on message. Allows you to launch several different commands, to launch a scenario ... Attention if you had a "User information command", it must be reconfigured.
 
 -   Add an option to easily open an access for the support (on the user page and when opening a ticket)
 
@@ -402,10 +402,10 @@ Changelog
 
 -   Spelling corrections (thanks to dab0u for his enormous work)
 
--    : We can no longer connect with identifiers by
+-   JEED-290 : We can no longer connect with identifiers by
     default (admin / admin) remotely, only the local network is authorized
 
--    : We can now choose the background color in the
+-   JEED-186 : We can now choose the background color in the
     designs
 
 -   For block A, possibility of setting an hour between 12:01 a.m. and 12:59 a.m
@@ -415,13 +415,13 @@ Changelog
     user profile page and management page
     utilisateurs
 
--    : permanent connection now depends on a key
+-   JEED-284 : permanent connection now depends on a key
     single user and device (rather than user)
 
--    : adding a mode ** to jeedom by adding & rescue = 1
+-   JEED-283 : adding a mode *rescue* to jeedom by adding & rescue = 1
     in the url
 
--    : addition of the name of the scenario on the title of the page during
+-   JEED-8 : addition of the name of the scenario on the title of the page during
     edition
 
 -   Optimization of organizational changes (size of widgets,
@@ -429,30 +429,30 @@ Changelog
     and the views. Attention now the modifications are not
     saved only when exiting edit mode.
 
--    : Adding logs when opening a ticket to support
+-   JEED-18 : Adding logs when opening a ticket to support
 
--    : addition of a name command in the scenarios to have
+-   JEED-181 : addition of a name command in the scenarios to have
     the name of the order or equipment or object
 
--    : Add battery and alert on webapp
+-   JEED-15 : Add battery and alert on webapp
 
 -   Fixed bug when moving design objects in Firefox
 
--    : During an update it is now possible to
+-   JEED-19 : During an update it is now possible to
     update the update script before updating
 
--    : added link to reset documentation
+-   JEED-125 : added link to reset documentation
     password
 
--    : Improved time management during a restart
+-   JEED-2 : Improved time management during a restart
 
--    : Addition of variable management in the http API
+-   JEED-77 : Addition of variable management in the http API
 
--    : addition of the tag function for scenarios. Be careful there
+-   JEED-78 : addition of the tag function for scenarios. Be careful there
     must in the scenarios using the tags pass from \#montag\#
     to tag (montag)
 
--    : Correct the management of scenario timeouts
+-   JEED-124 : Correct the management of scenario timeouts
 
 -   Bugfix
 
@@ -466,7 +466,7 @@ Changelog
 
 -   Ability to make words mandatory in an interaction
 
-
+3.1.7
 =====
 
 -   Bug fixes (especially on logs and
@@ -474,7 +474,7 @@ Changelog
 
 -   Improvement of the update system with a page of notes
     version (which you should check yourself before each update
-     !!!!)
+    day !!!!)
 
 -   Correction of a bug which recovered the logs during restores
 
@@ -601,12 +601,12 @@ Changelog
 -   Addition of a Jeedom independent watchdog to check the status of
     MySql and Apache
 
-
+3.0.11
 ======
 
 -   Fixed bugs on &quot;ask&quot; timeout requests
 
-
+3.0.10
 ======
 
 -   Bug correction on the interface for configuring interactions
@@ -803,7 +803,7 @@ Changelog
 
 -   Jeedom knows how to manage several linked interactions (contextually)
     in one. They must be separated by a keyword (by default and).
-     : "How much is it in the bedroom and in the living room? "Or
+    Example : "How much is it in the bedroom and in the living room? "Or
     "Turn on the kitchen and bedroom light."
 
 -   The status of the scenarios on the edit page is now set to
@@ -848,13 +848,13 @@ Changelog
 -   Optimization of the loading of scenarios and pages using
     actions with option (configuration type of alarm plugin or mode)
 
-
+2.4.6
 =====
 
 -   Improvement of the management of the repetition of the values of
     commandes
 
-
+2.4.5
 =====
 
 -   Bugfix
@@ -980,7 +980,7 @@ Changelog
     / tmp is too small (be careful the correction takes effect at
     update n + 1)
 
--   Adding a tag ** in the scenarios (give the name
+-   Adding a tag *jeedom\_name* in the scenarios (give the name
     jeedom)
 
 -   Bugfix
@@ -1081,8 +1081,8 @@ Changelog
 
 -   Optimization of the update of command and equipment widgets
 
--   Adding a tag **, **, **,
-    **, **, ** in the scenarios
+-   Adding a tag *begin\_backup*, *end\_backup*, *begin\_update*,
+    *end\_update*, *begin\_restore*, *end\_restore* in the scenarios
 
 2.2
 ---
@@ -1159,7 +1159,7 @@ Changelog
 
 -   Update all libs
 
--    : addition of a parsing system (allows
+-   Interaction : addition of a parsing system (allows
     remove interactions with large type syntax errors «
     the bedroom »)
 
@@ -1177,7 +1177,7 @@ Changelog
 -   Ability to deactivate a block in a scenario
 
 -   Addition for developers of a tooltips help system. It is necessary
-    sur un label mettre la classe « help »  mettre un attribut
+    sur un label mettre la classe « help » and mettre un attribut
     data-help with the desired help message. This allows Jeedom
     automatically add an icon at the end of your label « ? » et
     on hover to display the help text
@@ -1256,7 +1256,7 @@ Changelog
 
 -   Update all libs
 
--    : addition of a parsing system (allows
+-   Interaction : addition of a parsing system (allows
     remove interactions with large type syntax errors «
     the bedroom »)
 
@@ -1274,7 +1274,7 @@ Changelog
 -   Ability to deactivate a block in a scenario
 
 -   Addition for developers of a tooltips help system. It is necessary
-    sur un label mettre la classe « help »  mettre un attribut
+    sur un label mettre la classe « help » and mettre un attribut
     data-help with the desired help message. This allows Jeedom
     automatically add an icon at the end of your label « ? » et
     on hover to display the help text

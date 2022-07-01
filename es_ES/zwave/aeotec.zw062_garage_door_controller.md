@@ -1,9 +1,9 @@
-Controlador de puerta de garaje Aeotec 
+ 
 ====================================
 
 
 
--   **El módulo**
+-   ****
 
 
 
@@ -11,7 +11,7 @@ Controlador de puerta de garaje Aeotec
 
 
 
--   **La imagen de Jeedom**
+-   ****
 
 
 
@@ -19,118 +19,118 @@ Controlador de puerta de garaje Aeotec
 
 
 
-Resumen 
+ 
 ------
 
 
 
-Se conecta fácilmente al motor existente de su puerta, controlador
-El sensor de puerta de garaje lo mejora con un conjunto de sensores de seguridad y
-la seguridad. El controlador de puerta de garaje hace más que simplemente
-controlar la puerta de su garaje, también le permite comprobar
-su estado. Ya sea operado por motor o manualmente, el detector
-inteligente que viene con el controlador de puerta de garaje sabe si la puerta
-está abierto o cerrado, y puede avisarle cuando lo que está sucediendo no
-no debe.
+
+
+. 
+
+. 
+
+
+.
 
 
 
-Funciones 
+ 
 ---------
 
 
 
--   Controle y supervise la puerta de su garaje de forma remota.
+-   .
 
--   Módulo que simplemente se instala en el motor de tu
-    puerta actual.
+-   
+    .
 
--   Control de puerta local mediante botón integrado.
+-   .
 
--   Envía alertas de apertura/cierre al controlador Z-Wave.
+-   .
 
--   Alertas audibles y visuales de apertura/cierre.
+-   .
 
--   Volumen de sonido de alarma ajustable (105 dB máx)
+-   )
 
--   Puerto USB para cargar tus propios sonidos MP3.
+-   .
 
--   LED de estado integrado en el botón.
+-   .
 
--   Parte de la línea Gen5 de Aeon Labs.
+-   .
 
--   Seguridad de la comunicación por radio mediante encriptación AES-128.
+-   .
 
--   Integra el chip de la serie Z-Wave 500.
+-   .
 
--   Comunicación un 250 % más rápida en comparación con los periféricos
-    Onda Z estándar.
+-   
+    .
 
--   Repetidor de mensajes Z-Wave.
+-   .
 
--   Optimización de antena, alcance 300 metros.
+-   .
 
 
 
-Características técnicas 
+ 
 ---------------------------
 
 
 
--   Tipo de mod : Receptor y transmisor Z-Wave+ serie 500
+-    : 
 
--   Alimento : Solenoide : 5 VDC (adaptador suministrado) Sensor : Pile
-    Litio 3V 800mA CR2
+-    :  :  : Pile
+    
 
--   Consumo en espera : 1W
+-    : 1W
 
--   Consumo de alarma : 2W
+-    : 2W
 
--   Maximo volumen : 105dB
+-    : 
 
--   Formatos de audio compatibles : mp3 y WMV a la frecuencia de 320Kbps
+-    : 
 
--   Frecuencia : 868.42Mhz
+-    : 
 
--   Distancia de transmisión : 300m en campo abierto
+-    : 
 
--   Temperatura de funcionamiento : -20°C a 50°C
+-    : -
 
--   Humedad de funcionamiento : 80%
+-    : 
 
 -   Certifications: 
 
 
 
-Datos del módulo 
+ 
 -----------------
 
 
 
--   Marca : Aeotec
+-    : Aeotec
 
--   Apellido : )
+-    : )
 
--   Identificación del fabricante : 134
+-    : 134
 
--   Tipo Producto : 3
+-    : 3
 
--   Identificación de producto : 62
+-    : 62
 
 
 
-Configuración 
+ 
 -------------
 
 
 
 
 
-[documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+[](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
 
 
-> **Importante**
+> ****
 >
 > 
 > .
@@ -141,7 +141,7 @@ Configuración
 
 
 
-Una vez incluido, debe obtener esto :
+ :
 
 
 
@@ -149,7 +149,7 @@ Una vez incluido, debe obtener esto :
 
 
 
-### Pedidos 
+###  
 
 
 
@@ -158,11 +158,11 @@ disponibles.
 
 
 
-![Pedidos](images/aeotec.garagedoorcontroller/commandes.jpg)
+![](images/aeotec.garagedoorcontroller/commandes.jpg)
 
 
 
-Aquí está la lista de comandos :
+ :
 
 
 
@@ -178,7 +178,7 @@ Aquí está la lista de comandos :
 
 
 
-### Configuración del módulo 
+###  
 
 
 
@@ -188,7 +188,7 @@ Aquí está la lista de comandos :
 
 
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![ plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 
 
@@ -203,7 +203,7 @@ Aquí está la lista de comandos :
 
 
 
-Detalles del parámetro :
+ :
 
 
 
@@ -219,7 +219,7 @@ Detalles del parámetro :
 
 
 
-### Grupos 
+###  
 
 
 
@@ -232,12 +232,12 @@ indispensable.
 
 
 
-Bueno saber 
+ 
 ------------
 
 
 
-### Especificidades 
+###  
 
 :
 
@@ -273,7 +273,7 @@ Bueno saber
 
 
 
-Preguntas frecuentes. 
+. 
 ------
 
 

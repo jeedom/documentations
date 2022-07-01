@@ -1,14 +1,14 @@
 # 
 
--   **El módulo**
+-   ****
 
 ![module](images/fibaro.fgd212/module.jpg)
 
--   **La imagen de Jeedom**
+-   ****
 
 ![vuedefaut1](images/fibaro.fgd212/vuedefaut1.jpg)
 
-Resumen 
+ 
 ------
 
 
@@ -43,7 +43,7 @@ Fonctions
 
 -   )
 
--   Integra el chip de la serie Z-Wave 500
+-   
 
 -   
     standard
@@ -73,14 +73,14 @@ Fonctions
 
 -   
 
--   Facilidad de uso e instalación
+-   
 
-Características técnicas
+
 ---------------------------
 
--   Tipo de mod : 
+-    : 
 
--   Alimento : 
+-    : 
 
 -    : 
 
@@ -94,42 +94,42 @@ Características técnicas
 
 -   ) : 
 
--   Frecuencia : 868.42Mhz
+-    : 
 
 -    : 1mW
 
--   Distancia de transmisión : 
+-    : 
 
--   Dimensiones : 42..
+-    : 42..
 
--   Temperatura de funcionamiento : 
+-    : 
 
 -    : 105°C
 
 -    : 
     1999/5/EC
 
-Datos del módulo
+
 -----------------
 
--   Marca : 
+-    : 
 
--   Apellido : 
+-    : 
 
--   Identificación del fabricante : 271
+-    : 271
 
--   Tipo Producto : 258
+-    : 258
 
--   Identificación de producto : 4096
+-    : 4096
 
 Configuration
 -------------
 
 
 
-[documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+[](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-> **Importante**
+> ****
 >
 > 
 > . 
@@ -144,7 +144,7 @@ Configuration
 > 
 > .
 
-Una vez incluido, debe obtener esto :
+ :
 
 ![Plugin Zwave](images/fibaro.fgd212/information.jpg)
 
@@ -153,9 +153,9 @@ Una vez incluido, debe obtener esto :
 
 disponibles.
 
-![Pedidos](images/fibaro.fgd212/commandes.jpg)
+![](images/fibaro.fgd212/commandes.jpg)
 
-Aquí está la lista de comandos :
+ :
 
 -    : 
     
@@ -176,13 +176,13 @@ Aquí está la lista de comandos :
 
 icone
 
-### Configuración del módulo
+### 
 
 
 
 .
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![ plugin Zwave](images/plugin/bouton_configuration.jpg)
 
 
 )
@@ -197,7 +197,7 @@ icone
 
 ![Config3](images/fibaro.fgd212/config5.jpg)
 
-Detalles del parámetro :
+ :
 
 
 
@@ -208,10 +208,10 @@ indispensable.
 
 ![Groupe](images/fibaro.fgd212/groupe.jpg)
 
-Bueno saber
+
 ------------
 
-### Especificidades
+### 
 
 > ****
 >
@@ -232,7 +232,7 @@ Wakeup
 
 .
 
-Preguntas frecuentes.
+.
 ------
 
 

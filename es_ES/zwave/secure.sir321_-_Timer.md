@@ -1,6 +1,6 @@
 # "
 
-**El módulo**
+****
 
 ![module](images/secure.sir321/module.jpg)
 
@@ -8,7 +8,7 @@
 
 ![vuedefaut1](images/secure.sir321/vuedefaut1.jpg)
 
-## Resumen
+## 
 
 . ).
 
@@ -32,51 +32,51 @@
 -   Alimentation: 
 -   
 -    : IP30
--   Temperatura de funcionamiento: 
+-   : 
 
-## Datos del módulo
+## 
 
--   Marca : Horstmann
--   Apellido : 
--   Identificación del fabricante : 89
--   Tipo Producto : )
+-    : Horstmann
+-    : 
+-    : 89
+-    : )
 
 ## Configuration
 
-Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte este [documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
-> **Importante**
+ [](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+> ****
 >
 > .
 
 ![inclusion](images/secure.sir321/inclusion.jpg)
 
-Una vez incluido, debe obtener esto :
+ :
 
 ![Plugin Zwave](images/secure.sir321/information.jpg)
 
 ### Commandes
 
-Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
+.
 
-![Pedidos](images/secure.sir321/commandes.jpg)
+![](images/secure.sir321/commandes.jpg)
 
-Aquí está la lista de comandos :
+ :
 
 -    : 
 -    : 
 -    : 
 
-### Configuración del módulo
+### 
 
 .
 
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![ plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña de configuración)
+)
 
 ![Config1](images/secure.sir321/config1.jpg)
 
-Detalles del parámetro :
+ :
 
 -   1: )
 -   2: 

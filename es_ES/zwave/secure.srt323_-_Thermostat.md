@@ -1,6 +1,6 @@
 # "
 
-**El módulo**
+****
 
 ![module](images/secure.srt323/module.jpg)
 
@@ -8,7 +8,7 @@
 
 ![vuedefaut1](images/secure.srt323/vuedefaut1.jpg)
 
-## Resumen
+## 
 
 . . . .
 
@@ -30,53 +30,53 @@
 -   
 -   
 
-## Características técnicas
+## 
 
--   Tipo de mod : Controlador Z-Wave
+-    : 
 -   
 -   Relai: 
 -   : 
--   Alimento : )
+-    : )
 -    : 
--   Frecuencia : 868.42Mhz
--   Alcance : 
+-    : 
+-    : 
 -    : IP30
--   Temperatura de funcionamiento : 
--   Dimensiones : 
+-    : 
+-    : 
 
-## Datos del módulo
+## 
 
--   Marca : Horstmann
--   Apellido : 
--   Identificación del fabricante : 89
--   Tipo Producto : 1
--   Identificación de producto : 4
+-    : Horstmann
+-    : 
+-    : 89
+-    : 1
+-    : 4
 
 ## Configuration
 
-Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte este [documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+ [](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-> **Importante**
+> ****
 >
 > .
 
 ![inclusion](images/secure.srt323/inclusion.jpg)
 
-> **Importante**
+> ****
 >
-> . Durante una primera inclusión, siempre despierte el módulo justo después de la inclusión. . . . .
+> . . . . . .
 
-Una vez incluido, debe obtener esto :
+ :
 
 ![Plugin Zwave](images/secure.srt323/information.jpg)
 
 ### Commandes
 
-Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
+.
 
-![Pedidos](images/secure.srt323/commandes.jpg)
+![](images/secure.srt323/commandes.jpg)
 
-Aquí está la lista de comandos :
+ :
 
 -    : 
 -    : 
@@ -84,16 +84,16 @@ Aquí está la lista de comandos :
 -    : 
 -    : 
 
-### Configuración del módulo
+### 
 
 . .
-![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
+![ plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña de configuración)
+)
 
 ![Config1](images/secure.srt323/config1.jpg)
 
-Detalles del parámetro :
+ :
 
 -   1: 
 -   2: 
@@ -104,11 +104,11 @@ Detalles del parámetro :
 
 ![Groupe](images/secure.srt323/groupe.jpg)
 
-## Bueno saber
+## 
 
-### Especificidades
+### 
 
-> **Importante**
+> ****
 >
 > . . . . 
 
@@ -117,8 +117,8 @@ Detalles del parámetro :
 
 .
 
-## Nota IMPORTANTE
+## 
 
-> **Importante**
+> ****
 >
-> Tienes que despertar el módulo : tras su inclusión, tras un cambio de configuración, tras un cambio de wakeup, tras un cambio de grupos de asociación
+>  : 
