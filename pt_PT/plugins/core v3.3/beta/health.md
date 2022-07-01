@@ -4,10 +4,10 @@ use it) estado de saúde por plugin.
 
 A página é acessível em Análise → Saúde
 
-> **Observação**
+> ****
 >
 > Clique no ícone à direita para acessar a referência do seu
-> Jeedom.
+> .
 
 A página de saúde de Jeedom é apresentada na forma de uma tabela. O primeiro
 A coluna fornece uma descrição do que o Jeedom verifica e cujo status
@@ -28,11 +28,11 @@ encontre os ícones :
 
 -   Estado geral do plug-in
 
-> **Observação**
+> ****
 >
 > Os ícones podem variar dependendo do plugin
 
-> **Observação**
+> ****
 >
 > Geralmente quando a linha está verde, está tudo bem
 > e quando está vermelho, há um problema.

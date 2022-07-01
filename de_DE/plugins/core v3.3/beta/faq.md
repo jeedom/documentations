@@ -64,16 +64,16 @@ Es wird empfohlen, diese Kennungen für mehr Sicherheit zu ändern.
 Können wir Jeedom in https setzen? ? 
 ================================
 
-Ja : Entweder Sie haben ein Netzteil oder mehr, in diesem Fall Sie
+ : Entweder Sie haben ein Netzteil oder mehr, in diesem Fall Sie
 benutze einfach die [Jeedom-DNS](https://doc.jeedom.com/de_DE/howto/mise_en_place_dns_jeedom). Entweder mit einem DNS und Sie wissen, wie man ein gültiges Zertifikat einrichtet. In diesem Fall handelt es sich um eine Standardinstallation eines Zertifikats.
 
 So verbinden Sie sich in SSH ?
 =============================
 
-Hier ist ein [Dokumentation](https://www.alsacreations.com/tuto/lire/612-Premiere-connexion-SSH.html), "Windows : Putty". Der &quot;Hostname&quot; ist die IP Ihres Jeedom, die Bezeichner sind :
+Hier ist ein [](https://www.alsacreations.com/tuto/lire/612-Premiere-connexion-SSH.html), "Windows : Putty". Der &quot;Hostname&quot; ist die IP Ihres Jeedom, die Bezeichner sind :
 
-- Nutzername : "root ", Passwort : "Mjeedom96"
-- Nutzername : "jeedom ", Passwort : "Mjeedom96"
+-  : "root ", Passwort : "Mjeedom96"
+-  : "jeedom ", Passwort : "Mjeedom96"
 - Oder was Sie in die Installation einfügen, wenn Sie in DIY sind
 
 Beachten Sie, dass beim Schreiben des Passworts nichts auf dem Bildschirm angezeigt wird. Dies ist normal.
@@ -84,7 +84,7 @@ So setzen Sie Rechte zurück ?
 In SSH tun :
 
 `` `{.bash}
-sudo su -
+ -
 chmod -R 775 / var / www / html
 chown -R www-Daten:www-data / var / www / html
 `` ''
@@ -100,8 +100,8 @@ So aktualisieren Sie Jeedom in SSH ?
 In SSH tun :
 
 `` `{.bash}
-sudo su -
-php /var/www/html/install/update.php
+ -
+
 chmod -R 775 / var / www / html
 chown -R www-Daten:www-data / var / www / html
 `` ''
@@ -133,7 +133,7 @@ Ich habe eine leere Seite
 =====================
 
 Sie müssen in SSH eine Verbindung zu Jeedom herstellen und das Skript starten
-Selbstdiagnose :
+ :
 
 `` `{.bash}
 sudo chmod + x / var / www / html / health.sh; sudo /var/www/html/health.sh
@@ -152,9 +152,9 @@ Diese müssen zurückgesetzt werden :
 
 `` `{.bash}
 bdd_password = $ (cat / dev / urandom | tr-cd &#39;a-f0-9' | Kopf -c 15)
-echo "DROP USER &#39;jeedom&#39; @ &#39;localhost'" | mysql -uroot -p
-echo "CREATE USER &#39;jeedom&#39; @ &#39;localhost&#39; IDENTIFIED BY &#39;$ {bdd_password}&#39;;" | mysql -uroot -p
-echo &quot;GEWÄHRLEISTUNG ALLER PRIVILEGIEN FÜR jeedom.* TO &#39;jeedom&#39; @ &#39;localhost&#39;;" | mysql -uroot -p
+echo "DROP USER &#39;jeedom&#39; @ &#39;localhost'" | 
+echo "CREATE USER &#39;jeedom&#39; @ &#39;localhost&#39; IDENTIFIED BY &#39;$ {bdd_password}&#39;;" | 
+echo &quot;GEWÄHRLEISTUNG ALLER PRIVILEGIEN FÜR jeedom.* TO &#39;jeedom&#39; @ &#39;localhost&#39;;" | 
 cd / usr / share / nginx / www / jeedom
 sudo cp core / config / common.config.sample.PHP Core / Config / Common.config.php
 sudo sed -i -e "s /#PASSWORD#/ $ {bdd_password} / g "core / config / common.config.php
@@ -179,7 +179,7 @@ Ich habe keinen Zugriff mehr auf Jeedom, weder über die Weboberfläche noch üb
 
 Dieser Fehler ist nicht auf Jeedom zurückzuführen, sondern auf ein Problem mit dem System.
 Wenn es nach einer Neuinstallation weiterhin besteht, ist es ratsam,
-Informationen zum Hardware-Problem erhalten Sie beim Kundendienst. Hier ist die [Dokumentation](https://doc.jeedom.com/de_DE/installation/smart) für Smart
+Informationen zum Hardware-Problem erhalten Sie beim Kundendienst. Hier ist die [](https://doc.jeedom.com/de_DE/installation/smart) für Smart
 
 Mein Szenario hört nicht mehr auf 
 =================================
@@ -191,7 +191,7 @@ Ich habe Instabilitäten oder Fehler 504
 ========================================
 
 Überprüfen Sie, ob Ihr Dateisystem nicht beschädigt ist
-Befehl ist : "sudo dmesg | grep Fehler" .
+Befehl ist : " | grep Fehler" .
 
 Ich sehe nicht alle meine Geräte auf dem Armaturenbrett 
 ====================================================
@@ -221,19 +221,19 @@ um das Backup wiederherzustellen. Sie können auch sehen, warum MySQL nicht ist
 Ich möchte nicht von einer SSH-Konsole booten :
 
 `` `{.bash}
-sudo su -
+ -
 MySQL Stop Service
-mysqld --verbose
+
 `` ''
 
-Oder konsultieren Sie das Protokoll : /var/log/mysql/error.log
+Oder konsultieren Sie das Protokoll : 
 
 Die Schaltflächen Herunterfahren / Neustart funktionieren nicht 
 ===================================================
 
 Bei einer DIY-Installation ist das normal. In SSH müssen Sie bestellen
 visudo und am Ende der Datei müssen Sie hinzufügen : www-data ALL = (ALL)
-NOPASSWD: ALLE.
+NOPASSWD: .
 
 `` `{.bash}
 sudo service apache2 neu starten
@@ -256,7 +256,7 @@ Mein Jeedom zeigt auch nach 1 Stunde permanent &quot;Start&quot; an ?
 Wenn Sie in DIY und unter Debian 9 oder höher sind, überprüfen Sie, ob es kein Update von Apache und damit die Rückgabe von privateTmp gegeben hat (sichtbar durch Ausführen von `ls / tmp`) und prüfen Sie, ob dies der Fall ist ein privater \* Apache-Ordner). Wenn das der Fall ist, müssen Sie tun :
 
 `` '' 
-mkdir /etc/systemd/system/apache2.service.d
+
 echo &quot;[Service]&quot;&gt; /etc/systemd/system/apache2.service.d/privatetmp.conf
 echo &quot;PrivateTmp = no&quot; &gt;&gt; /etc/systemd/system/apache2.service.d/privatetmp.conf
 `` '' 
