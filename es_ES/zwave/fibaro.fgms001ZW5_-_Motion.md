@@ -1,14 +1,14 @@
 # 
 
-****
+**El módulo**
 
 ![module](images/fibaro.fgms001zw5/module.jpg)
 
- ****
+ **La imagen de Jeedom**
 
 ![vuedefaut1](images/fibaro.fgms001zw5/vuedefaut1.jpg)
 
-## 
+## Resumen
 
 . . .
 
@@ -30,33 +30,33 @@
 -   
 -   
 
-## 
+## Características técnicas
 
--    : 
--    : 
+-   Tipo de mod : 
+-   Alimento : 
 -    : 2,4m
 -    : -
 -    : 0,5°C
 -    : X
--    : 
--    : 
+-   Frecuencia : 868.42Mhz
+-   Distancia de transmisión : 
 -   Dimensions: 
--    : 
--    : 
+-   Temperatura de funcionamiento : 
+-   Certificados : 
 
-## 
+## Datos del módulo
 
--    : 
--    : ]
--    : 271
--    : 2048
--    : 4097
+-   Marca : 
+-   Apellido : ]
+-   Identificación del fabricante : 271
+-   Tipo Producto : 2048
+-   Identificación de producto : 4097
 
 ## Configuration
 
- [](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte este [documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Importante**
 >
 > .
 
@@ -68,11 +68,11 @@
 
 ### Commandes
 
-. .
+. Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
-![](images/fibaro.fgms001zw5/commandes.jpg)
+![Pedidos](images/fibaro.fgms001zw5/commandes.jpg)
 
- :
+Aquí está la lista de comandos :
 
 -    : 
 -    : 
@@ -81,17 +81,17 @@
 -    : )
 -    : 
 
-### 
+### Configuración del módulo
 
-> ****
+> **Importante**
 >
-> .
+> Durante una primera inclusión, siempre despierte el módulo justo después de la inclusión.
 
-.
+Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento Jeedom OpenZwave.
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-)
+Llegará a esta página (después de hacer clic en la pestaña de configuración)
 
 ![Config1](images/fibaro.fgms001zw5/config1.jpg)
 
@@ -101,9 +101,9 @@
 
 ![Config3](images/fibaro.fgms001zw5/config4.jpg)
 
- :
+Detalles del parámetro :
 
--    : )
+-   Despierta : )
 -   1: 
 -   2: 
 -   3: 
@@ -148,9 +148,9 @@
 -   4 : . .
 -   5 : . .
 
-## 
+## Bueno saber
 
-### 
+### Especificidades
 
 > ****
 >
@@ -162,11 +162,11 @@
 
 ## Wakeup
 
- :
+Para activar este módulo solo hay una forma de proceder :
 
 -   ). )
 
-## .
+## Preguntas frecuentes.
 
 .
 
@@ -174,8 +174,8 @@
 
 .
 
-## 
+## Nota IMPORTANTE
 
-> ****
+> **Importante**
 >
->  : 
+> Tienes que despertar el módulo : tras su inclusión, tras un cambio de configuración, tras un cambio de wakeup, tras un cambio de grupos de asociación

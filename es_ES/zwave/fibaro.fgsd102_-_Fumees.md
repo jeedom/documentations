@@ -1,6 +1,6 @@
 # "
 
-****
+**El módulo**
 
 ![module](images/fibaro.fgsd102/module.jpg)
 
@@ -8,7 +8,7 @@
 
 ![vuedefaut1](images/fibaro.fgsd102/vuedefaut1.jpg)
 
-## 
+## Resumen
 
 . . .
 
@@ -30,52 +30,52 @@
 -   
 -   
 
-## 
+## Características técnicas
 
+-   Tipo de mod : Transmisor de onda Z
+-   Alimento : 
 -    : 
--    : 
--    : 
--    : 
--    : 
--    : )
--    : 
--    : 
+-   Frecuencia : 
+-   Distancia de transmisión : 
+-   Dimensiones : )
+-   Temperatura de funcionamiento : 
+-   Humedad de funcionamiento : 
 -    : -
 -    : 
 -   : 
 -    : )
 -    : 
--    : :2005
+-   Certificados : :2005
 
-## 
+## Datos del módulo
 
--    : 
--    : 
--    : 271
--    : 3074
--    : 4098
+-   Marca : 
+-   Apellido : 
+-   Identificación del fabricante : 271
+-   Tipo Producto : 3074
+-   Identificación de producto : 4098
 
 ## Configuration
 
- [](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte este [documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Importante**
 >
 > .
 
 ![inclusion](images/fibaro.fgsd102/inclusion.jpg)
 
- :
+Una vez incluido, debe obtener esto :
 
 ![Plugin Zwave](images/fibaro.fgsd102/information.jpg)
 
 ### Commandes
 
-.
+Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
-![](images/fibaro.fgsd102/commandes.jpg)
+![Pedidos](images/fibaro.fgsd102/commandes.jpg)
 
- :
+Aquí está la lista de comandos :
 
 -    : )
 -    : 
@@ -84,25 +84,25 @@
 -    : )
 -    : 
 
-### 
+### Configuración del módulo
 
-> ****
+> **Importante**
 >
-> .
+> Durante una primera inclusión, siempre despierte el módulo justo después de la inclusión.
 
 . .
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-)
+Llegará a esta página (después de hacer clic en la pestaña Configuración)
 
 ![Config1](images/fibaro.fgsd102/config1.jpg)
 
 ![Config2](images/fibaro.fgsd102/config2.jpg)
 
- :
+Detalles del parámetro :
 
--    : )
+-   Despierta : )
 -   1: 
 -   2:  : toutes)
 -   3: 
@@ -123,16 +123,16 @@
 
 ![Groupe](images/fibaro.fgsd102/groupe.jpg)
 
-## 
+## Bueno saber
 
-### 
+### Especificidades
 
 ## Wakeup
 
 
 
-## 
+## Nota IMPORTANTE
 
-> ****
+> **Importante**
 >
->  : 
+> Tienes que despertar el módulo : tras su inclusión, tras un cambio de configuración, tras un cambio de wakeup, tras un cambio de grupos de asociación

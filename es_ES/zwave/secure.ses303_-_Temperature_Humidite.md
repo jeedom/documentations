@@ -1,6 +1,6 @@
 # "
 
-****
+**El módulo**
 
 ![module](images/secure.ses303/module.jpg)
 
@@ -8,7 +8,7 @@
 
 ![vuedefaut1](images/secure.ses303/vuedefaut1.jpg)
 
-## 
+## Resumen
 
 . . :
 
@@ -27,46 +27,46 @@
 -   
 -   
 
-## 
+## Características técnicas
 
 -   Type: 
 -   : .
 -   
--    : 
+-   Frecuencia : 868.42Mhz
 -   Alimentation: )
--    : 
+-   Alcance : 
 -    : IP30
--    : 
+-   Dimensiones : 
 
-## 
+## Datos del módulo
 
--    : Horstmann
--    : 
--    : 89
--    : 13
--    : 3
+-   Marca : Horstmann
+-   Apellido : 
+-   Identificación del fabricante : 89
+-   Tipo Producto : 13
+-   Identificación de producto : 3
 
 ## Configuration
 
- [](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte este [documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Importante**
 >
 > .
 
 ![inclusion](images/secure.ses303/inclusion.jpg)
 
- :
+Una vez incluido, debe obtener esto :
 
 ![Plugin Zwave](images/secure.ses303/information.jpg)
 
 ### Commandes
 
-.
+Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
-![](images/secure.ses303/commandes.jpg)
+![Pedidos](images/secure.ses303/commandes.jpg)
 
- :
+Aquí está la lista de comandos :
 
 -    : 
 -    : 
@@ -74,21 +74,21 @@
 
 
 
-### 
+### Configuración del módulo
 
-> ****
+> **Importante**
 >
-> .
+> Durante una primera inclusión, siempre despierte el módulo justo después de la inclusión.
 
 . .
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-)
+Llegará a esta página (después de hacer clic en la pestaña de configuración)
 
 ![Config1](images/secure.ses303/config1.jpg)
 
- :
+Detalles del parámetro :
 
 -   1: )
 -   2: )
@@ -107,9 +107,9 @@
 
 
 
-
+Nota IMPORTANTE
 ---------------
 
-> ****
+> **Importante**
 >
->  : 
+> Tienes que despertar el módulo : 

@@ -1,9 +1,9 @@
 
->****
->. . .
-> [](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=Jeelocker) 
+>**WICHTIG**
+>Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation anderer Plugins direkt im Jeedom Market einsehen. Klicken Sie bei dem betreffenden Plugin auf Dokumentation.
+>Du kannst sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=Jeelocker) alle offiziellen Plugins in dieser Kategorie
 
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="./beta/._icon.png" class="pluginLogo" width="100" />|Jeelocker|<br/>|[](./beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=4237)<br/>[](./beta/changelog.md)|
+|<img src="./beta/._icon.png" class="pluginLogo" width="100" />|Jeelocker|ACHTUNG Plugin nur in Beta verfügbar<br/>Jeelocker ist ein Plugin für die Verwaltung des Zugangs zu Schließfächern|[Beta-Dokumentation](./beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=4237)<br/>[Änderungsprotokoll Beta](./beta/changelog.md)|
