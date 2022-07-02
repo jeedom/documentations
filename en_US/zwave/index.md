@@ -2,7 +2,7 @@
 
 .
 
- [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openzwave)  [here](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/) .
+ [](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openzwave)  [](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/) .
 
 - [](aeotec.keyfob_-_Telecommande.md)
 - [](aeotec.keyfob_Gen5_-_Telecommande.md)
@@ -11,7 +11,7 @@
 - [](aeotec.zw062_garage_door_controller.md)
 - [](dlink.dchz110_-_3en1_Ouverture.md)
 - [](duwi.05436_-_Volets.md)
-- [Everspring](everspring.AD147-6_-_Miniplug_Dimmer.md)
+- [](everspring.AD147-6_-_Miniplug_Dimmer.md)
 - [](smart_Home_by_Everspring.AD146-0_-_In_Wall_Dimmer.md)
 - [](smart_Home_by_Everspring.AN179-0_-_In_Wall_On-Off.md)
 - [](fibaro.fgd211_-_Dimmer.md)

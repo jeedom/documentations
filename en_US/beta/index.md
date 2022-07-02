@@ -60,16 +60,16 @@
 
  ****, #VERSION#.
 
- ****, ..).  ****  **** .. ...  ****, .
+ ****, ..).  ****  **** .0 and therefore does not necessarily correspond to the current minor version. For example, when developing v4.2, the changelog is only rated 4.2.0 while a beta can be in 4.2.7. When passing through ****, the changelog will then take into account each future minor version.
 
 ### Ressouces
 
- [](https://blog.jeedom.com/jeedom-partenaire-beta-testeur/)
+ [Community Access](https://blog.jeedom.com/jeedom-partenaire-beta-testeur/)
  
  [](https://community.jeedom.com/c/salon-des-beta-testeurs/6)
 
-[](/en_US/contribute/)
+[Doc contribute](/en_US/contribute/)
 
-[](/en_US/dev/)
+[Doc Developers](/en_US/dev/)
 
 [](https://github.com/jeedom/core)

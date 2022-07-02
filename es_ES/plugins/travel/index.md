@@ -1,9 +1,9 @@
 
->**IMPORTANTE**
->Solo los complementos oficiales tienen su documentación aquí. Puede consultar la documentación de otros complementos directamente desde Jeedom Market. Una vez en el complemento en cuestión, haga clic en documentación.
->Usted puede ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=travel) todos los complementos oficiales en esta categoría
+>****
+>. . .
+> [](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=travel) 
 
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="wazeintime/wazeintime_icon.png" class="pluginLogo" width="100" />|Waze en el tiempo|Complemento para obtener el tiempo de viaje entre dos puntos|[Documentación](wazeintime/index.md)[Beta](wazeintime/beta/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1820)<br/>[Registro de cambios](wazeintime/changelog.md)[Beta](wazeintime/beta/changelog.md)|
+|<img src="wazeintime/wazeintime_icon.png" class="pluginLogo" width="100" />|||[](wazeintime/index.md)[](wazeintime/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=1820)<br/>[](wazeintime/changelog.md)[](wazeintime/beta/changelog.md)|

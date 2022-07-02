@@ -1,4 +1,4 @@
-# Android Autovoice
+# 
 
 . ).
 
@@ -6,7 +6,7 @@
 
 ## 
 
- [](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=fr) und [](https://play.google.com/store/apps/details?id=com.joaomgcd.autovoice&hl=fr). .
+ [](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=fr)  [](https://play.google.com/store/apps/details?id=com.joaomgcd.autovoice&hl=fr). .
 
  : . . 
 
@@ -45,7 +45,7 @@
 
 ![android.autovoice6](images/android.autovoice6.png)
 
- : **** und ****.
+ : ****  ****.
 
 ![android.autovoice7](images/android.autovoice7.png)
 
@@ -76,10 +76,10 @@
 
 . . . ".
 
-> **Tipp**
+> ****
 >
 > . .
 
-> **Tipp**
+> ****
 >
 > ).
