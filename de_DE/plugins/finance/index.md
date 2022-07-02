@@ -1,9 +1,9 @@
 
->****
->. . .
-> [](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=finance) 
+>**WICHTIG**
+>Nur offizielle Plugins haben hier ihre Dokumentation. Sie können die Dokumentation anderer Plugins direkt im Jeedom Market einsehen. Klicken Sie bei dem betreffenden Plugin auf Dokumentation.
+>Du kannst sehen [hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=finance) alle offiziellen Plugins in dieser Kategorie
 
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="porkfolio/porkfolio_icon.png" class="pluginLogo" width="100" />|Porkfolio||[](porkfolio/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=1503)<br/>[](porkfolio/changelog.md)|
+|<img src="porkfolio/porkfolio_icon.png" class="pluginLogo" width="100" />|Porkfolio|Plugin zum Senden und Empfangen von Informationen von Ihrem Pokfolio|[Dokumentation](porkfolio/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1503)<br/>[Änderungsprotokoll](porkfolio/changelog.md)|

@@ -27,15 +27,15 @@ wget https://raw.githubusercontent.com/jeedom/core/master/install/bashrc -O /roo
 
 # 
 
- ``/etc/ssh/sshd_config``  :
+Sie müssen die Datei bearbeiten ``/etc/ssh/sshd_config`` und ändern :
 
 ``PermitRootLogin without-password``
 
- :
+Durch :
 
 ``PermitRootLogin yes``
 
-> ****
+> **Wichtig**
 >
 >  ! .
 
@@ -49,7 +49,7 @@ wget https://raw.githubusercontent.com/jeedom/core/master/install/bashrc -O /roo
 
 ``mkdir /mnt/mon_partage``
 
-> ****
+> **Notiz**
 >
 > 
 
@@ -57,7 +57,7 @@ wget https://raw.githubusercontent.com/jeedom/core/master/install/bashrc -O /roo
 
     
 
-> ****
+> **Notiz**
 >
 > 
 
@@ -72,7 +72,7 @@ wget https://raw.githubusercontent.com/jeedom/core/master/install/bashrc -O /roo
 
 .
 
-> ****
+> **Tipp**
 >
 > . .
 
@@ -104,11 +104,11 @@ MariaDB [mysql]> exit;
 Bye
 ````
 
-> ****
+> **Tipp**
 >
 > ". .
 
-> ****
+> **Tipp**
 >
 >  : 
 
@@ -174,7 +174,7 @@ apt -y remove `aptitude -F %p search '~o' | grep -E -v ^lib`
 apt -y remove `aptitude -F %p search '~o'`----
 ````
 
- :  :
+Notiz :  :
 
 ````
 a2enmod php7.0

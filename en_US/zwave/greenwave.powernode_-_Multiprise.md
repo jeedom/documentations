@@ -1,14 +1,14 @@
 # 
 
-****
+**The module**
 
 ![module](images/greenwave.powernode/module.jpg)
 
-****
+**The Jeedom visual**
 
 ![vuedefaut1](images/greenwave.powernode/vuedefaut1.jpg)
 
-## 
+## Summary
 
 . . .
 
@@ -30,106 +30,106 @@
 -   
 -   
 
-## 
+## Technical characteristics
 
--    : 
+-   Feed : 
 -    : 10A
 -    : )
--    : 
+-   Standby consumption : 
 -    : 
 -    : 
 -    : )
 -    : 
 -    : 30m
--    : 
+-   Operating temperature : 
 -    : -
 -    : 
 -   ) : IP20
 
-## 
+## Module data
 
--    : GreenWave
--    : ]
--    : 153
--    : 3
--    : 4
+-   Mark : GreenWave
+-   Last name : ]
+-   Manufacturer ID : 153
+-   Type Product : 3
+-   Product ID : 4
 
 ## Configuration
 
- [](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
+To configure the OpenZwave plugin and know how to include Jeedom refer to this [documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Important**
 >
 > .
 
 ![inclusion](images/greenwave.powernode/inclusion.jpg)
 
- :
+Once included you should get this :
 
 ![Plugin Zwave](images/greenwave.powernode/information.jpg)
 
 ### Commandes
 
+Once the module is recognized, the commands associated with the module will be available.
+
+![Orders](images/greenwave.powernode/commandes.jpg)
+
+![Orders](images/greenwave.powernode/commandes2.jpg)
+
+![Orders](images/greenwave.powernode/commandes3.jpg)
+
+![Orders](images/greenwave.powernode/commandes4.jpg)
+
+![Orders](images/greenwave.powernode/commandes5.jpg)
+
+Here is the list of commands :
+
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+-    : 
+
 .
 
-![](images/greenwave.powernode/commandes.jpg)
+### Module Setup
 
-![](images/greenwave.powernode/commandes2.jpg)
+You can configure the module according to your installation. To do this, you must go through the "Configuration" button of the OpenZwave plugin from Jeedom.
 
-![](images/greenwave.powernode/commandes3.jpg)
+![Configuration plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-![](images/greenwave.powernode/commandes4.jpg)
-
-![](images/greenwave.powernode/commandes5.jpg)
-
- :
-
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
--    : 
-
-.
-
-### 
-
-. .
-
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
-
-)
+You will arrive on this page (after clicking on the Settings tab)
 
 ![Config1](images/greenwave.powernode/config1.jpg)
 
 .
 
- :
+Parameter details :
 
 -   1 :  : )
 -   2 : )
@@ -140,7 +140,7 @@
 
 ![Groupe](images/greenwave.powernode/groupe.jpg)
 
-## 
+## Good to know
 
 ### 
 
@@ -161,8 +161,8 @@
 
 ![Config3](images/greenwave.powernode/config3.jpg)
 
-. (). .
+You can reset your consumption counter by clicking on this button available in the System tab. (). .
 
 ## Wakeup
 
-.
+No concept of wakeup on this module.

@@ -4,7 +4,7 @@
 
 # 
 
-) [](https://www.debian.org/CD/netinst) ( [](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) .
+) [hier](https://www.debian.org/CD/netinst) ( [hier](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) .
 
 # 
 
@@ -12,11 +12,11 @@
 
 .
 
- [](http://rufus.akeo.ie/downloads/rufus-2.9.exe),  :
+ [das](http://rufus.akeo.ie/downloads/rufus-2.9.exe),  :
 
 ![debian.installation](images/debian.installation.PNG)
 
-> ****
+> **Notiz**
 >
 > 
 
@@ -24,7 +24,7 @@
 
 ## 
 
- [](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.creer_une_vm.html) .
+ [hier](https://doc.jeedom.com/de_DE/howto/doc-howto-vmware.creer_une_vm.html) .
 
 # Installation
 

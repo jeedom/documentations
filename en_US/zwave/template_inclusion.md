@@ -16,6 +16,6 @@ Après avoir cliqué sur « Mode inclusion », un message apparait pour vous rap
 
 ![inclusion4](images/plugin/inclusion4.jpg)
 
-> ****
+> **Tip**
 >
 > . Pour effectuer l'exclusion rien de bien compliqué, il suffit de cliquer sur « Mode exclusion » et d'exclure le module, un message apparaitra vous confirmant l'exclusion du module.
