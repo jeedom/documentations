@@ -221,7 +221,7 @@ Os plugins devem respeitar as recomendações sobre a estrutura em árvore de pa
 
 - Correção de bug na exclusão de zona em uma visualização.
 - Correção de erro de js que pode aparecer em navegadores antigos.
-- .html se o comando não estiver visível.
+- Correção de bugs cmd.info.numeric.default.html se o comando não estiver visível.
 - Página de login de correção de bug.
 
 ## 
