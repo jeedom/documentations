@@ -12,7 +12,7 @@
 -  [ ****](https://fr.wikihow.com/formater-en-FAT32){: ****,
 -  ****  ****.
 
->****
+>**IMPORTANTE**
 >
 > **** .
 
@@ -82,7 +82,7 @@
 
 ![Finalisation migration](images/migrateos-smart11.png)
 
->****
+>**IMPORTANTE**
 >
 >**.**
 

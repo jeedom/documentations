@@ -1,12 +1,12 @@
-# 
+# Karotz use another voice engine
 
-# 
+# Connect in telnet
 
+You must first connect in telnet (port 23) on openkarotz, the identifier being kartoz
 
+# Added voice engine
 
-# 
-
- ``/www/cgi-bin/``  ``tts.inc``, ) :
+Go to ``/www/cgi-bin/`` and edit the file ``tts.inc``, add a function (example for Jeedom) :
 
 ````
 function jeedomTTS {
@@ -28,11 +28,11 @@ function jeedomTTS {
 }
 ````
 
- :
+Then edit the tts file and add :
 
 ``MP3_ID=$(jeedomTTS $TTS $VOICE $NO_CACHE $RAW_VOICE);;``
 
- ``case $TTS_ENGINE in``  :
+In the ``case $TTS_ENGINE in`` to get :
 
 ````
 case $TTS_ENGINE in
@@ -45,6 +45,6 @@ esac
 
 # Utilisation
 
-) :
+You just have to call the url giving the machine number (here 3) :
 
 ``http://192.168.0.62/cgi-bin/tts?text=coucou%20ca%20va&nocache=0&engine=3``

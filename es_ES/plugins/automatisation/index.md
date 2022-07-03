@@ -2,14 +2,14 @@
 # Automatisme
 
 
->****
->. . .
-> [](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automatisation) 
+>**IMPORTANTE**
+>Solo los complementos oficiales tienen su documentación aquí. Puede consultar la documentación de otros complementos directamente desde Jeedom Market. Una vez en el complemento en cuestión, haga clic en documentación.
+>Usted puede ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=automatisation) todos los complementos oficiales en esta categoría
 
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="lightmanager/beta/lightmanager_icon.png" class="pluginLogo" width="100" />||<br/>|[](lightmanager/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=4199)<br/>[](lightmanager/beta/changelog.md)|
-|<img src="sunshutter/sunshutter_icon.png" class="pluginLogo" width="100" />||.  : .|[](sunshutter/index.md)[](sunshutter/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)<br/>[](sunshutter/changelog.md)[](sunshutter/beta/changelog.md)|
-|<img src="thermostatmanager/beta/thermostatmanager_icon.png" class="pluginLogo" width="100" />||<br/>|[](thermostatmanager/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=4200)<br/>[](thermostatmanager/beta/changelog.md)|
-|<img src="watering/beta/watering_icon.png" class="pluginLogo" width="100" />|Arrosage|<br/>|[](watering/beta/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=4198)<br/>[](watering/beta/changelog.md)|
+|<img src="lightmanager/beta/lightmanager_icon.png" class="pluginLogo" width="100" />|Gestión de luces|ATENCIÓN complemento disponible solo en versión beta<br/>Complemento que permite la gestión de luces|[Documentación beta](lightmanager/beta/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=4199)<br/>[Registro de cambios beta](lightmanager/beta/changelog.md)|
+|<img src="sunshutter/sunshutter_icon.png" class="pluginLogo" width="100" />|Persianas de gestión|Este complemento le permitirá administrar fácilmente el posicionamiento automático de sus persianas según el sol y/u otras condiciones. IMPORTANTE : este complemento solo funciona con equipos que tienen un comando de acción/cursor que permite posicionar la persiana en un cierto porcentaje de apertura/cierre.|[Documentación](sunshutter/index.md)[Beta](sunshutter/beta/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3793)<br/>[Registro de cambios](sunshutter/changelog.md)[Beta](sunshutter/beta/changelog.md)|
+|<img src="thermostatmanager/beta/thermostatmanager_icon.png" class="pluginLogo" width="100" />|Gestión del termostato|ATENCIÓN complemento disponible solo en versión beta<br/>Le permite administrar los cambios en los puntos de ajuste del termostato|[Documentación beta](thermostatmanager/beta/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=4200)<br/>[Registro de cambios beta](thermostatmanager/beta/changelog.md)|
+|<img src="watering/beta/watering_icon.png" class="pluginLogo" width="100" />|Arrosage|ATENCIÓN complemento disponible solo en versión beta<br/>Complemento de riego|[Documentación beta](watering/beta/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=4198)<br/>[Registro de cambios beta](watering/beta/changelog.md)|

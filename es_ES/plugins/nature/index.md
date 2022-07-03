@@ -2,12 +2,12 @@
 # Nature
 
 
->****
->. . .
-> [](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=nature) 
+>**IMPORTANTE**
+>Solo los complementos oficiales tienen su documentación aquí. Puede consultar la documentación de otros complementos directamente desde Jeedom Market. Una vez en el complemento en cuestión, haga clic en documentación.
+>Usted puede ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=nature) todos los complementos oficiales en esta categoría
 
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="greeniq/greeniq_icon.png" class="pluginLogo" width="100" />|GreenIQ||[](greeniq/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=1717)<br/>[](greeniq/changelog.md)|
-|<img src="koubachi/koubachi_icon.png" class="pluginLogo" width="100" />|Koubachi||[](koubachi/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=1012)<br/>[](koubachi/changelog.md)|
+|<img src="greeniq/greeniq_icon.png" class="pluginLogo" width="100" />|GreenIQ|Complemento para controlar el riego automático a través del módulo GreenIQ|[Documentación](greeniq/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1717)<br/>[Registro de cambios](greeniq/changelog.md)|
+|<img src="koubachi/koubachi_icon.png" class="pluginLogo" width="100" />|Koubachi|Complemento para sensores de plantas kubachi|[Documentación](koubachi/index.md)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=1012)<br/>[Registro de cambios](koubachi/changelog.md)|
