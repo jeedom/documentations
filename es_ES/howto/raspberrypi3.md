@@ -32,7 +32,7 @@ puis
 >
 > .
 
-> **Consejo**
+> ****
 >
 > . [](https://doc.jeedom.com/es_ES/installation/index.html)
 

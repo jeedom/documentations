@@ -27,7 +27,7 @@
 
 .
 
-### Descarga de copia de seguridad
+### 
 
 . . .
 
@@ -52,14 +52,14 @@
 -  :    
 ![migration modal up](images/migrate-version07.png)
 
->**IMPORTANTE**
+>****
 >
 > ``Debian Stretch 9.X`` *(``Debian 8.X Jessie`` )*. .
 
 -  :    
 ![migration modal down](images/migrate-version08.png)
 
-> **IMPORTANTE**    
+> ****    
 >
 >. .
 
@@ -77,7 +77,7 @@
 
 .
 
-> **IMPORTANTE**    
+> ****    
 >
 >. .
 
