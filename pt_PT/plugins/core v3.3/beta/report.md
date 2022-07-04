@@ -19,7 +19,7 @@ Seu uso é muito simples, você seleciona se deseja ver :
 
 Depois, você seleciona o nome do relatório em questão e verá todas as datas dos relatórios na memória
 
-> ****
+> **Importante**
 >
 > A exclusão automática é feita por padrão para relatórios com mais de 30 dias (você pode configurar esse período na configuração do Jeedom)
 
@@ -29,8 +29,8 @@ Você também pode excluir todos os backups de um determinado relatório
 
 # FAQ
 
-> **Se você tiver um erro de detalhes : cutycapt: erro ao carregar bibliotecas compartilhadas: .so: não é possível abrir o arquivo de objeto compartilhado: Esse arquivo ou diretório não existe**
+> **Se você tiver um erro de detalhes : cutycapt: erro ao carregar bibliotecas compartilhadas: libEGL.so: não é possível abrir o arquivo de objeto compartilhado: Esse arquivo ou diretório não existe**
 >
 > É necessário no ssh ou em Administração -> Configuração -> OS / DB -> Sistema -> Administração para executar :
->.
->.
+>sudo ln -s /usr/lib/aarch64-linux-gnu/libGLESv2.so.2 /usr/lib/aarch64-linux-gnu/libGLESv2.so
+>sudo ln -s /usr/lib/aarch64-linux-gnu/libEGL.so.1 /usr/lib/aarch64-linux-gnu/libEGL.so

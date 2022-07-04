@@ -1,27 +1,27 @@
-# Asistentes de voz en la nube
+# 
 
 ## Description
 
-Este servicio le permite conectar su Jeedom con asistentes de voz de Google y Amazon.
+.
 
-Se puede usar con 
-- Complemento de flujo de diálogo, [documentación](https://doc.jeedom.com/es_ES/plugins/communication/dialogflow)
-- o el complemento Google Smarthome, [documentación](https://doc.jeedom.com/es_ES/plugins/communication/gsh)
-- o el complemento de Alexa, [documentación](https://doc.jeedom.com/es_ES/plugins/communication/ash)
+ 
+- , [](https://doc.jeedom.com/es_ES/plugins/communication/dialogflow)
+- , [](https://doc.jeedom.com/es_ES/plugins/communication/gsh)
+- , [](https://doc.jeedom.com/es_ES/plugins/communication/ash)
 
-Este servicio es de pago y se puede suscribir en Jeedom Market, en la página [Mis servicios](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
+ [](https://www.jeedom.com/market/index.php?v=d&p=profils#services)
 
-Encontrará en la documentación respectiva de los complementos sus diferencias.
+.
 
-Luego, una vez que se suscribió la suscripción, debe configurarla siguiendo la documentación del complemento
 
-> **Importante**
+
+> ****
 >
-> Google y AMAZON requieren que su Jeedom sea accesible en HTTPS (el complemento no funciona en HTTP) con un certificado válido (por lo tanto, no hay un certificado autofirmado))
+> )
 >
-> Gracias a los paquetes de servicio Power o Ultimate, se puede acceder a su Jeedom en HTTPS.
-> Si tiene un Community Service Pack, debe instalar usted mismo un certificado SSL emitido por una autoridad de certificación (por ejemplo,: Vamos a cifrar, ...).
+> .
+> : , ...).
 
-> **Importante**
+> ****
 >
->Atención debido a una restricción de nuestro proveedor de servicios (OVH) el servicio solo funciona en ipv4 por lo que no es compatible con ipv6
+>

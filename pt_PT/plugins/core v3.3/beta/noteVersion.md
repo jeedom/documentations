@@ -1,4 +1,4 @@
- 
+3.1.6 
 =====
 
 Observe que esta atualização possui um bug no script de atualização.
