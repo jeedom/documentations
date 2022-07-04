@@ -1,7 +1,7 @@
-O **objetos** permitem definir a estrutura em árvore da sua automação residencial.
+ **** permitem definir a estrutura em árvore da sua automação residencial.
 Todo o equipamento que você cria deve pertencer a um objeto e
 será mais facilmente identificável. Dizemos então que o objeto
-é o **relativo** equipamento. O gerenciamento de objetos está acessível
+é o **** equipamento. O gerenciamento de objetos está acessível
 do menu **Ferramentas → Objetos**.
 
 Para dar livre escolha à personalização, você pode nomear esses
@@ -9,12 +9,12 @@ objetos como você deseja. Geralmente, definiremos os diferentes
 partes de sua casa, como os nomes dos quartos (isto é
 Configuração recomendada).
 
-Gestão 
+ 
 =======
 
 Você tem duas opções :
 
--   **Adicionar** : Crie um novo objeto.
+-   **** : Crie um novo objeto.
 
 -   **Visão global** : Exibe a lista de objetos criados
     bem como sua configuração.
@@ -40,7 +40,7 @@ Aqui estão as diferentes características para configurar um objeto :
     ser pai do apartamento. Um objeto pode ter apenas um pai
     mas vários objetos podem ter o mesmo pai.
 
--   **Visível** : Marque esta caixa para tornar este objeto visível.
+-   **** : Marque esta caixa para tornar este objeto visível.
 
 -   **Esconder o painel de instrumentos** : Marque esta caixa para ocultar
     o objeto no painel. Ainda é mantido no
@@ -65,22 +65,22 @@ Aqui estão as diferentes características para configurar um objeto :
     estarão lado a lado no painel. Se você colocar 3 a 4
     objetos que se seguem, eles também estarão lado a lado.
 
-> **Dica**
+> ****
 >
 > Você pode alterar a ordem de exibição dos objetos no Painel.
 > No menu, à esquerda da sua página, use as setas verticais
 > arraste e solte para dar a eles um novo lugar.
 
-> **Dica**
+> ****
 >
 > Você pode ver um gráfico representando todos os elementos do Jeedom
-> anexado a este objeto clicando no botão **Conexões**, em às
-> certo.
+> anexado a este objeto clicando no botão ****, em às
+> .
 
-> **Dica**
+> ****
 >
 > Quando um dispositivo é criado e nenhum pai foi definido, ele
-> terá como pai : **Nenhum** .
+> terá como pai : **** .
 
 Guia Resumo 
 -------------
@@ -103,7 +103,7 @@ linhas são propostas para você :
 -   **Esconder móvel** : Marque a caixa se você não quiser
     o resumo é exibido quando você o exibe de um celular.
 
-### Pedidos 
+###  
 
 Cada guia representa um tipo de resumo definido na configuração
 por Jeedom. Clique em **Adicionar comando** para que seja
@@ -111,7 +111,7 @@ levado em consideração no resumo. Você tem a opção de selecionar o
 encomendar qualquer equipamento Jeedom, mesmo que não seja para
 pai deste objeto.
 
-> **Dica**
+> ****
 >
 > Se você deseja adicionar um tipo de resumo ou configurar o
 > método de cálculo do resultado, a unidade, o ícone e o nome de um resumo,
@@ -124,15 +124,15 @@ Visão global
 A visão geral permite visualizar todos os objetos em
 Jeedom, bem como sua configuração :
 
--   **EU IRIA** : Object ID.
+-   **** : Object ID.
 
--   **Objeto** : Nome do objeto.
+-   **** : Nome do objeto.
 
 -   **Pai** : Nome do objeto pai.
 
--   **Visível** : Visibilidade do objeto.
+-   **** : Visibilidade do objeto.
 
--   **Mascarar** : Indica se o objeto está oculto no painel.
+-   **** : Indica se o objeto está oculto no painel.
 
 -   **Resumo definido** : Indica o número de pedidos por resumo. Isto
     que está em azul é levado em consideração no resumo global.

@@ -3,34 +3,34 @@ from text or voice commands.
 
 These orders can be obtained by :
 
--   SMS : send an SMS to launch commands (action) or ask a
+-    : send an SMS to launch commands (action) or ask a
     question (information).
 
--   Cat : Telegram, Slack, etc.
+-    : .
 
--   Vocal : dictate a phrase with Siri, Google Now, SARAH, etc. For
+-    : dictate a phrase with Siri, Google Now, SARAH, etc. For
     launch commands (action) or ask a question (info).
 
--   HTTP : launch an HTTP URL containing the text (ex. Tasker, Slack)
+-    : launch an HTTP URL containing the text (ex. )
     To launch commands (action) or ask a question (info).
 
 The interest of interactions lies in the simplified integration in
 other systems like smartphone, tablet, other home automation box, etc.
 
 To access the interaction page, go to Tools →
-Interactions :
+ :
 
 At the top of the page, there are 3 buttons :
 
--   **To add** : which allows to create new interactions.
+-   **** : which allows to create new interactions.
 
 -   **Regenerate** : which will recreate all the interactions (maybe
     très long &gt; 5mn).
 
--   **Test** : which opens a dialog for writing and
+-   **** : which opens a dialog for writing and
     test a sentence.
 
-> **Tip**
+> ****
 >
 > If you have an interaction that generates the sentences for the lights
 > for example and you add a new command module of
@@ -38,7 +38,7 @@ At the top of the page, there are 3 buttons :
 > go to the interaction in question and save it again for
 > create the sentences for this new module.
 
-Principle 
+ 
 ========
 
 The principle of creation is quite simple : we will define a sentence
@@ -54,35 +54,35 @@ the interaction is not linked to an action but to information or if we
 wish to carry out a specific action after it (it is also
 possible to execute a scenario, to control several commands…).
 
-Configuration 
+ 
 =============
 
 The configuration page consists of several tabs and
-buttons :
+ :
 
--   **Sentences** : Displays the number of sentences in the interaction (one click
+-   **** : Displays the number of sentences in the interaction (one click
     above shows them to you)
 
--   **To register** : records the current interaction
+-   **** : records the current interaction
 
--   **To delete** : delete current interaction
+-   **** : delete current interaction
 
--   **Duplicate** : duplicate the current interaction
+-   **** : duplicate the current interaction
 
 General 
 =======
 
--   **Last name** : name of the interaction (can be empty, the name replaces the
+-   **** : name of the interaction (can be empty, the name replaces the
     request text in the interaction list).
 
--   **Band** : interaction group, it helps organize them
+-   **** : interaction group, it helps organize them
     (can be empty, so will be in the group "none").
 
--   **Asset** : allows to activate or deactivate the interaction.
+-   **** : allows to activate or deactivate the interaction.
 
--   **Request** : The generating model sentence (required).
+-   **** : The generating model sentence (required).
 
--   **Synonymous** : allows to define synonyms on names
+-   **** : allows to define synonyms on names
     some orders.
 
 -   **Reply** : the answer to provide.
@@ -96,7 +96,7 @@ General
 -   **Authorized users** : limits interaction to certain
     users (logins separated by |).
 
-Filters 
+ 
 =======
 
 -   **Limit to type commands** : allows to use only the
@@ -124,16 +124,16 @@ Filters
     single equipment / module (Jeedom automatically creates the list at
     from the equipment / modules you have).
 
-Stock 
+ 
 ======
 
 Use if you want to target one or more specific commands
 or pass particular parameters.
 
-Examples 
+ 
 ========
 
-> **Note**
+> ****
 >
 > The screenshots may be different in view of developments.
 
@@ -166,7 +166,7 @@ single sentence imagine combined actions between various commands and
 various scenarios (we can also trigger scenarios in the game
 action of interactions).
 
-> **Tip**
+> ****
 >
 > To add a scenario, create a new action, write "scenario"
 > without an accent, press the tab key on your keyboard to
@@ -181,7 +181,7 @@ sentences for a whole group of commands.
 
 We will resume what was done above, delete the actions that
 we had added, and instead of the fixed sentence, in "Request",
-we will use the tags **\#commande\#** and **\#equipement\#**.
+we will use the tags **#commande#**  **#equipement#**.
 Jeedom will replace these tags with the name of the commands and the name of
 equipment (we can see the importance of having names of
 consistent control / equipment).
@@ -221,7 +221,7 @@ can have several synonyms, here &quot;on&quot; has as synonym
 ***=*** "*synonym 1*"***,*** "*synonym 2*" (we can put as many
 synonym that we want). Then, to add synonyms for another
 command name, just add after the last synonym a bar
-vertical "*|*" after which you can again name the
+ "*|*" after which you can again name the
 command which will have synonyms like for the first part, etc.
 
 It&#39;s already better, but it is still missing for the "on" "input command"
@@ -266,7 +266,7 @@ ability to customize return based on order executed.
 
 To do this, we will again use the Jeedom Tag. For our
 lights, we can use a phrase like : I lit well
-\#equipement\# (see screenshot below).
+#equipement# (see screenshot below).
 
 ![interact011](./images/interact011.png)
 
@@ -290,7 +290,7 @@ As you can see here, I have kept almost the same structure
 for demand (it&#39;s voluntary to focus on
 specificities). Of course, I adapted the synonyms to have some
 coherent thing. However, for the answer, it is **imperative** de
-put only \#valeur\# which represents the 0 or 1 that Jeedom is going
+put only \#valeur# which represents the 0 or 1 that Jeedom is going
 replace with the following binary conversion.
 
 Field **Binary conversion** must contain 2 answers : first the
@@ -299,7 +299,7 @@ separation and finally the response if the command is worth 1. Here the
 answers are simply no and yes but we could put a sentence
 a little bit longer.
 
-> **Warning**
+> ****
 >
 > Tags do not work in binary conversions.
 
@@ -310,7 +310,7 @@ The &quot;Authorized users&quot; field allows you to authorize only certain
 people to execute the command you can put multiple profiles
 separating them with a "|".
 
-Example : personne1|personne2
+ : personne1|personne2
 
 One can imagine that an alarm can be activated or deactivated by a
 child or a neighbor who would come to water the plants in your absence.
@@ -319,7 +319,7 @@ Regexp exclusion
 ------------------
 
 It is possible to create
-[Regexp](https://fr.wikipedia.org/wiki/Expression_rationnelle)
+[](https://fr.wikipedia.org/wiki/Expression_rationnelle)
 of exclusion, if a generated sentence corresponds to this Regexp it will be
 deleted. The point is to be able to remove false positives,
 to say a sentence generated by Jeedom which activates something which does not
@@ -388,8 +388,8 @@ already very complicated to understand. It took me a while to grasp it
 the operation. As a slightly more complex example, a regexp for
 verify a URL :
 
-/\^(https?:\\ / \\ /)?(\ [\\ da-z \\ .- \] +) \\. (\ [az \\. \] {2,6}) (\ [\\ / \\ w
-\\ .- \] \*)\*\\ /?\ $ /
+/^(https?:\\ / \\ /)?(\ [\\ da-z \\ .- \] +) \\. (\ [az \\. \] {2,6}) (\ [\\ / \\ w
+\\ .- \] \*)*\\ /?\ $ /
 
 Once you can write this, you understand the expressions
 regular.
@@ -455,11 +455,11 @@ Is there anyone in the room ?
 This example specifically targets specific equipment which allows
 to have a personalized response. So we could imagine replacing
 the example answer with &quot;no there is no one in the room
-*Julie*|yes there is someone in the room *Julie*"
+**|yes there is someone in the room **"
 
-### Evolution 
+###  
 
--   So the question is "\#commande\# \[in the |in the\] \#objet\#"
+-   So the question is "\#commande# \[in the |in the\] \#objet#"
 
 -   The answer will be &quot;no there is no one in the room&quot; or &quot;yes there is
     someone in the room"
@@ -498,23 +498,23 @@ the humidity, the brightness of the different rooms (object in the Jeedom sense)
 
 -   So we can see that a generic generic sentence &quot;What is the
     living room temperature "or" How bright is the bedroom"
-    can be converted to : "what is the |l \\ '\] \#commande\# objet"
+    can be converted to : "what is the |l \\ '\] \#commande# objet"
     (the use of \ [word1 | mot2 \] lets say this possibility
     or this one to generate all possible variations of the sentence
     with word1 or word2). When generating Jeedom will generate all
     possible combinations of sentences with all commands
-    existing (depending on filters) by replacing \#commande\# par
-    the name of the command and \#objet\# by the name of the object.
+    existing (depending on filters) by replacing \#commande# par
+    the name of the command and \#objet# by the name of the object.
 
 -   The answer will be "21 ° C" or "200 lux". Just put :
-    \#valeur\# \#unite\# (the unit is to be completed in the configuration
+    #valeur# #unite# (the unit is to be completed in the configuration
     of each order for which we want to have one)
 
 -   This example therefore generates a sentence for all the commands of
     type digital info that have a unit, so we can uncheck
     units in the right filter limited to the type that interests us.
 
-### Evolution 
+###  
 
 We can therefore add synonyms to the command name to have some
 more natural thing, add a regexp to filter the commands that
@@ -542,7 +542,7 @@ So we can see a regexp :
 This allows you to delete all orders that have one of these
 words in their sentence
 
-> **Note**
+> ****
 >
 > The regexp here is a simplified version for easy use.
 > So we can either use traditional expressions or
@@ -559,16 +559,16 @@ dimmer on a lamp with interactions :
 
 ![interact022](./images/interact022.png)
 
-As we can see, there is here in the request the tag **\#consigne\#** (on
+As we can see, there is here in the request the tag **#consigne#** (on
 can put what you want) which is included in the order of the
 dimmer to apply the desired value. To do this, we have 3 parts
 : \* Request : in which we create a tag that will represent the value
 which will be sent to the interaction. \* Reply : we reuse the tag for
 the answer to make sure Jeedom understood the request correctly.
 \* Stock : we put an action on the lamp that we want to drive and in
-the value we pass our tag *order*.
+the value we pass our tag **.
 
-> **Note**
+> ****
 >
 > You can use any tag except those already used by
 > Jeedom, there can be several to drive for example
@@ -576,7 +576,7 @@ the value we pass our tag *order*.
 > scenarios launched by the interaction (however, the scenario
 > either in "Run in foreground").
 
-### Evolution 
+###  
 
 We may want to control all cursor type commands with a
 single interaction. With the example below, we will be able to order
@@ -587,7 +587,7 @@ set of sentences to control them.
 
 In this interaction, we have no command in the action part, we
 let Jeedom generate from tags the list of sentences. We can
-see the tag **\#slider\#**. It is imperative to use this tag for
+see the tag **#slider#**. It is imperative to use this tag for
 instructions in a multiple command interaction it may not be
 the last word of the sentence. We can also see in the example that we
 can use in the response a tag which is not part of the
@@ -599,7 +599,7 @@ Result of the interaction :
 
 ![interact034](./images/interact034.png)
 
-We can see that the tag **\#equipement\#** which is not used
+We can see that the tag **#equipement#** which is not used
 in the request is well completed in the response.
 
 Control the color of an LED strip 
@@ -651,15 +651,15 @@ Programming an action with interactions
 ------------------------------------------------
 
 Interactions do a lot of things in particular.
-You can program an action dynamically. Example : "Put it on
+You can program an action dynamically.  : "Put it on
 heating at 10 p.m. for 2:50 p.m". Nothing could be simpler, just
-to use tags \#time\# (if a specific time is defined) or
-\#duration\# (for in X time, example in 1 hour) :
+to use tags \#time# (if a specific time is defined) or
+#duration# (for in X time, example in 1 hour) :
 
 ![interact23](./images/interact23.JPG)
 
-> **Note**
+> ****
 >
-> You will notice in the response the tag \#value\# this one contains
+> You will notice in the response the tag \#value# this one contains
 > in the case of a scheduled interaction, the programming time
 > effective

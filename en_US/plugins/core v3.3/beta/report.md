@@ -19,7 +19,7 @@ Its use is very simple you select if you want to see :
 
 Then you select the name of the report in question then you will see all the dates of the reports in memory
 
-> **Important**
+> ****
 >
 > Automatic deletion is done by default for reports longer than 30 days (you can configure this period in the configuration of Jeedom)
 
@@ -29,8 +29,8 @@ You can also delete all backups of a given report
 
 # FAQ
 
-> **If you have a Details error : cutycapt: error while loading shared libraries: libEGL.so: cannot open shared object file: No such file or directory**
+> **If you have a Details error : cutycapt: : .so: : **
 >
 > It is necessary in ssh or in Administration -&gt; Configuration -&gt; OS / DB -&gt; System -&gt; Administration to do :
->sudo ln -s /usr/lib/aarch64-linux-gnu/libGLESv2.so.2 /usr/lib/aarch64-linux-gnu/libGLESv2.so
->sudo ln -s /usr/lib/aarch64-linux-gnu/libEGL.so.1 /usr/lib/aarch64-linux-gnu/libEGL.so
+>.
+>.
