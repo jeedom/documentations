@@ -52,7 +52,7 @@
 
 ## 
 
- [](https://www.debian.org/CD/http-ftp/), 
+ [](https://www.debian.org/CD/http-ftp/), indem Sie CD -> AMD64 auswählen
 
 ## 
 
@@ -79,30 +79,30 @@
 
 ![VirtualBox3](images/VirtualBox3.PNG)
 
--   
+-   Klicken Sie auf OK \*Klicken Sie auf Start
 
-## 
+## Debian 9 installieren
 
-
+Es ist klassisch
 
 ![VirtualBox4](images/VirtualBox4.PNG)
 
--   
--   . . . .
--    :
+-   Wählen Sie Grafische Installation
+-   Installieren Sie das Debian vorzugsweise ohne grafische Oberfläche, weil es nutzlos ist. Benutzername spielt keine Rolle. In den meisten Bildschirmen müssen Sie lediglich die Standardauswahl bestätigen. Sie können Felder leer lassen, es blockiert nicht.
+-   Zur Softwareauswahl :
 ![VirtualBox5](images/VirtualBox5.PNG)
--   .
+-   Für Grub, keine Sorge, der Bootsektor ist der der VM, nicht der Ihres PCs. Keine Gefahr etwas kaputt zu machen.
 
-## 
+## Jeedom installieren
 
--   
--   
--   
+-   Starten Sie Ihre VM
+-   Identifizieren Sie sich mit dem bei der Installation gewählten Benutzer und Passwort
+-   Wurzel werden
 
 ``su -``
 
--   
--   
+-   Geben Sie das während der Installation festgelegte Root-Passwort ein
+-   Holen Sie sich das Jeedom-Skript, machen Sie es ausführbar und starten Sie es
 
 ````
 wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
@@ -110,20 +110,20 @@ chmod +x install.sh
 ./install.sh
 ````
 
--   
+-   und lass es sein
 
-## 
+## Start von jeedom
 
--   
+-   Um die IP-LAN-Adresse der VM zu kennen
 
 ````
 ip -s -c -h a
 ````
 
-.XX . .
+Ihre IP-Adresse, geben Sie 192.168.0.XX erscheint rot. Geben Sie es einfach in Ihren Browser ein.
 
-> ****
+> **Warnung**
 >
-> .
+> Wenn dies nicht funktioniert, haben Sie Ihre Netzwerkkarte in Network Bridge nicht wie eingangs angegeben konfiguriert.
 
  [](https://doc.jeedom.com/de_DE/premiers-pas/index)

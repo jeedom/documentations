@@ -16,7 +16,7 @@
 
 ![install synology 3](images/install_synology_3.PNG)
 
-> ****
+> **Importante**
 >
 > .
 
@@ -56,10 +56,10 @@
 
 .
 
-> ****
+> **IMPORTANTE**
 >
 > )
 
 :9080
 
- [](https://doc.jeedom.com/es_ES/premiers-pas/index)
+Entonces puedes seguir la documentación [Primer paso con Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index)

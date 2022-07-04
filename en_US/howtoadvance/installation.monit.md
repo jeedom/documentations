@@ -1,20 +1,20 @@
-# 
+# Installation monit
 
-. .
+Monit is a service monitoring service. It is responsible for verifying that a service is still started.
 
-.
+For this, he is told the evaluation criteria and the actions to be taken.
 
-# 
+# Installing Monit
 
- :
+Here are the commands to run to install monit :
 
 ``sudo apt-get -y monit``
 
-# 
+# Examples of conf
 
-.
+Here are configuration examples for Monit with Jeedom.
 
-## 
+## Apache Monitoring
 
 ````
 # Apache (test sur port 80)
@@ -24,7 +24,7 @@ check process apache2 with pidfile /var/run/apache2/apache2.pid
        if failed port 80 for 2 cycles then restart
 ````
 
-## )
+## Nginx monitoring (including Php-fpm)
 
 ````
 # Php-fpm
@@ -42,7 +42,7 @@ check process nginx with pidfile /var/run/nginx.pid
       if failed port 80 for 2 cycles then restart
 ````
 
-## 
+## MySQL monitoring
 
 ````
 # MySQL (connexion)
@@ -54,7 +54,7 @@ check process mysqld with pidfile /var/run/mysqld/mysqld.pid
        then alert
 ````
 
-## 
+## APCupsd Monitoring
 
 ````
 # apcups (si vous disposez d'un onduleur avec ce service, sinon supprimer/adapter)

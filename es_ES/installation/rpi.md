@@ -5,17 +5,17 @@
 - ) : 
 -  : 
 
-> ****
+> **Importante**
 >
 > .
 
-# 
+# Instalación automática
 
 ## 
 
- [](https://images.jeedom.com/rpi/)
+ [aquí](https://images.jeedom.com/rpi/)
 
-> ****
+> **IMPORTANTE**
 >
 > : jeedom-debian-XXXX-rpi-X.X.XX.-X.X.XX.).
 
@@ -23,13 +23,13 @@
 
 ## 
 
- [](https://www.raspberrypi.org/downloads/)
+ [aquí](https://www.raspberrypi.org/downloads/)
 
 ## 
 
 .
 
-> ****
+> **Importante**
 >
 > . .
 
@@ -39,27 +39,27 @@ Il vous suffit ensuite, de votre navigateur, de saisir : http://IP_RPI/ (en remp
 >
 >  :  
 
- [](https://doc.jeedom.com/es_ES/premiers-pas/index)
+Entonces puedes seguir la documentación [Primer paso con Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index)
 
-# 
+# Instalación de la línea de comandos
 
 ## "
 
-[](https://downloads.raspberrypi.org/raspbian_lite_latest)
+[aquí](https://downloads.raspberrypi.org/raspbian_lite_latest)
 
 .
 
 ## 
 
-[](https://www.raspberrypi.org/downloads/)
+[aquí](https://www.raspberrypi.org/downloads/)
 
-> ****
+> **Nota**
 >
 > ).
 
 ## 
 
-> ****
+> **Advertencia**
 >
 > . .
 
@@ -67,7 +67,7 @@ Il vous suffit ensuite, de votre navigateur, de saisir : http://IP_RPI/ (en remp
 
  : " ****
 
-> ****
+> **Importante**
 >
 > 
 
@@ -84,7 +84,7 @@ Il vous suffit ensuite, de votre navigateur, de saisir : http://IP_RPI/ (en remp
  :
 
 -   
--   " [](http://angryip.org/download/#windows)
+-   " [aquí](http://angryip.org/download/#windows)
 
 
 
@@ -94,7 +94,7 @@ Il vous suffit ensuite, de votre navigateur, de saisir : http://IP_RPI/ (en remp
 
  ****
 
-> ****
+> **Importante**
 >
 > . . ( : )
 
@@ -104,19 +104,19 @@ Il vous suffit ensuite, de votre navigateur, de saisir : http://IP_RPI/ (en remp
 
 ****
 
-> ****
+> **Nota**
 >
 > . . .
 
 
 
-> ****
+> **Nota**
 >
-> 
+> Las credenciales predeterminadas son admin/admin
 
-> ****
+> **Nota**
 >
->  : -
+> Se pueden usar los siguientes argumentos : -w = carpeta del servidor web -z = instalar las dependencias de z-wave -m = contraseña raíz de mysql deseada
 
 ````
 ./install.sh -w /var/www/html -z
@@ -140,4 +140,4 @@ gpu_freq=250
 
 
 
- [](https://doc.jeedom.com/es_ES/premiers-pas/index)
+Entonces puedes seguir la documentación [Primer paso con Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index)
