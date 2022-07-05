@@ -2,7 +2,7 @@
 
 .
 
-> ****
+> **Tipp**
 >
 > .
 
@@ -36,7 +36,7 @@
 
 ![restore filezilla02](images/restore-filezilla02.jpg)
 
-## 
+## Backup-Download
 
 .
 

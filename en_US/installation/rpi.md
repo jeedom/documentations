@@ -59,7 +59,7 @@ Il vous suffit ensuite, de votre navigateur, de saisir : http://IP_RPI/ (en remp
 
 ## 
 
-> ****
+> **Warning**
 >
 > . .
 
