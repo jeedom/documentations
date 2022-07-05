@@ -6,7 +6,7 @@
 
  : . .
 
-> **WICHTIG**
+> ****
 >
 > 
 
@@ -15,4 +15,4 @@
  : 
 
 -   : )
--  [hier](https://jeedom.github.io/plugin-phonemarket/de_DE/)
+-  [](https://jeedom.github.io/plugin-phonemarket/de_DE/)

@@ -1,4 +1,4 @@
-## Core v4.3 | Plugin Developers
+## .3 | 
 
 ### Obsolete
 
@@ -8,6 +8,6 @@
 
 -
 
-### Optional changes
+### 
 
 -

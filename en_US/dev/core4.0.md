@@ -1,4 +1,4 @@
-## Core v4.0 | Plugin Developers
+## .0 | 
 
 ### Deprecated
 
@@ -13,7 +13,7 @@
 
 ..
 
-Example ****: `"compatibility" : 
+ ****: `"compatibility" : 
 
 :
 
@@ -42,10 +42,10 @@ Example ****: `"compatibility" :
   ) {
     ) {
       $scenario->setLog($author . ' : ' . $countIncompatibles . ' potentially incompatible Jeedom V4 plugin on ' . $countPlugins . ' checked');
-    } else {
+    }  {
       $scenario->setLog('All ' . $countPlugins . ' plugin developed by ' . $author . ' are Jeedom V4 compatible. Congratulations!');
     }
-  } else {
+  }  {
     $scenario->setLog('No plugin found for ' . $author);
   }
   {% endraw %}
@@ -74,7 +74,7 @@ Example ****: `"compatibility" :
     -  : 
     -  : 
     -  : 
-- .php : ::::all()
+- . : ::::all()
 
 - .
 
@@ -94,7 +94,7 @@ Example ****: `"compatibility" :
 >
 > .
 
-> Attention :
+>  :
 >
 > Sur les pages de scénario, plugins etc, le bouton ‘Supprimer' est passé à droite ! .
 
@@ -111,7 +111,7 @@ Example ****: `"compatibility" :
 - .
 
 .).
-See [](https://github.com/jeedom/plugin-template/blob/master/plugin_info/pre_install.php)
+ [](https://github.com/jeedom/plugin-template/blob/master/plugin_info/pre_install.php)
 
 ### 
 
