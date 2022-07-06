@@ -126,6 +126,8 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
     },
     "plugins_contributor\/home automation protocol\/index.md": {
+        "Yokis passerelle": "Yokis passerelle",
+        "Plugin pour commander les modules Yokis en local": "Plugin pour commander les modules Yokis en local",
         "Passerelle domotique": "Passerelle domotique",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -133,7 +135,11 @@
         "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
-        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation": "Documentation",
+        "Beta": "Beta",
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/monitoring\/index.md": {
         "JeeLog": "JeeLog",

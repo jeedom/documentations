@@ -1,0 +1,16 @@
+{
+	"id" : "Yokis",
+	"name" : "Yokis passerelle",
+	"description" : "Plugin pour commander les modules Yokis en local",
+	"licence" : "AGPL",
+	"author" : "Nathan Wailly",
+	"require" : "4.2",
+	"hasDependency" : true,
+	"category" : "home automation protocol",
+	"changelog" : "https:\/\/nwailly.github.io\/Yokis_DOCS\/docs\/fr_FR\/changelog",
+	"documentation" : "https:\/\/nwailly.github.io\/Yokis_DOCS\/docs\/fr_FR\/Index",
+	"changelog_beta" : "https:\/\/nwailly.github.io\/Yokis_DOCS\/docs\/fr_FR\/changelogbeta",
+	"documentation_beta" : "https:\/\/nwailly.github.io\/Yokis_DOCS\/docs\/fr_FR\/Indexbeta",
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy"]	
+}
