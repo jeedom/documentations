@@ -20,7 +20,7 @@ Nesta guia, encontramos informações gerais sobre o Jeedom :
     Jeedom no mercado, é aconselhável clicar no botão
     **Restabelecer**.
 
--   **** : Idioma usado no seu Jeedom.
+-   **Idioma** : Idioma usado no seu Jeedom.
 
 -   **Gerar traduções** : Gerar traduções,
     tenha cuidado, isso pode tornar seu sistema mais lento. Opção mais útil
@@ -35,7 +35,7 @@ Nesta guia, encontramos informações gerais sobre o Jeedom :
 
 -   **Servidor de tempo opcional** : Indica qual servidor de horário deve
     ser usado se você clicar **Forçar sincronização de
-    **. (ser reservado para especialistas)
+    a hora**. (ser reservado para especialistas)
 
 -   **Ignorar verificar o tempo** : diz a Jeedom para não
     verifique se o tempo é consistente entre si e o sistema em
@@ -43,7 +43,7 @@ Nesta guia, encontramos informações gerais sobre o Jeedom :
     sem Jeedom para a Internet e que não possui bateria PSTN no
     material usado.
 
- 
+API 
 ===
 
 Aqui está a lista das diferentes chaves de API disponíveis em
@@ -64,32 +64,32 @@ TTS, você pode definir seu escopo :
 -   **Branco IP** : apenas uma lista de IPs é autorizada (consulte
     Administração → Configuração → Redes),
 
--   **** : somente solicitações do sistema no qual está
+-   **Localhost** : somente solicitações do sistema no qual está
     Jeedom instalado são permitidos,
 
--   **** : sem restrições, qualquer sistema com acesso
+-   **Ativado** : sem restrições, qualquer sistema com acesso
     seu Jeedom poderá acessar esta API.
 
-&gt\_OS / DB 
+&gt;\_OS / DB 
 ===========
 
 Duas partes reservadas para especialistas estão presentes nesta guia.
 
-> ****
+> **IMPORTANTE**
 >
->  : Se você modificar o Jeedom com uma dessas duas soluções,
+> Atenção : Se você modificar o Jeedom com uma dessas duas soluções,
 > o suporte pode se recusar a ajudá-lo.
 
--   **&gt\_System** : Permite o acesso a uma interface
+-   **&gt;\_System** : Permite o acesso a uma interface
     administração do sistema. É um tipo de console shell em
     onde você pode executar os comandos mais úteis, incluindo
     para obter informações sobre o sistema.
 
 -   **Banco de dados** : Permite acesso ao banco de dados
-    por Jeedom. Você pode iniciar comandos no campo
+    de Jeedom. Você pode iniciar comandos no campo
     de cima. Dois parâmetros são exibidos abaixo para obter informações :
 
-    -   **** : Nome de usuário usado por Jeedom em
+    -   **Usuário** : Nome de usuário usado por Jeedom em
         o banco de dados,
 
     -   **Senha** : senha de acesso ao banco de dados
@@ -98,7 +98,7 @@ Duas partes reservadas para especialistas estão presentes nesta guia.
 Segurança 
 ========
 
- 
+LDAP 
 ----
 
 -   **Habilitar a autenticação LDAP** : habilitar a autenticação para
@@ -106,7 +106,7 @@ Segurança
 
 -   **Anfitrião** : servidor que hospeda o AD
 
--   **** : domínio do seu anúncio
+-   **Domínio** : domínio do seu anúncio
 
 -   **DN base** : Base DN do seu AD
 
@@ -117,7 +117,7 @@ Segurança
 
 -   **Usuário pesquisar Campos** : campos de pesquisa de
     login do usuário. Geralmente uid para LDAP, samaccountname para
-    
+    Windows AD
 
 -   **Filtro (opcional)** : filtro no AD (para gerenciar
     grupos por exemplo)
@@ -125,7 +125,7 @@ Segurança
 -   **Permitir REMOTE\_USER** : Ative REMOTE\_USER (usado no SSO
     Por exemplo)
 
- 
+Logar 
 ---------
 
 -   **Número de falhas tolerada** : define o número de tentativas
@@ -155,7 +155,7 @@ Jeedom, caso contrário, muitos plugins podem não funcionar. Ele
 interne** (da mesma rede local que Jeedom) e l'**acesso
 externe** (de outra rede, especialmente da Internet).
 
-> ****
+> **IMPORTANTE**
 >
 > Esta parte existe apenas para explicar à Jeedom seu ambiente :
 > alterar a porta ou o IP nesta guia não altera o
@@ -165,7 +165,7 @@ externe** (de outra rede, especialmente da Internet).
 > etc / apache2 / sites-available / default\_ssl (para HTTPS).No entanto, em
 > Se o seu Jeedom for maltratado, a equipe do Jeedom não
 > responsabilizado e pode recusar qualquer pedido de
-> .
+> Suporte.
 
 -   **Acesso interno** : informações para ingressar no Jeedom de um
     mesmo equipamento de rede que o Jeedom (LAN)
@@ -173,11 +173,11 @@ externe** (de outra rede, especialmente da Internet).
     -   **OK / NOK** : indica se a configuração de rede interna é
         correcte
 
-    -   **** : o protocolo a ser usado, geralmente HTTP
+    -   **Protocolo** : o protocolo a ser usado, geralmente HTTP
 
     -   **URL ou endereço IP** : IP Jeedom para entrar
 
-    -   **** : a porta da interface da web Jeedom, geralmente 80.
+    -   **Porta** : a porta da interface da web Jeedom, geralmente 80.
         Observe que alterar a porta aqui não altera a porta real do
         Jeedom que permanecerá o mesmo
 
@@ -191,7 +191,7 @@ externe** (de outra rede, especialmente da Internet).
     -   **OK / NOK** : indica se a configuração de rede externa é
         correcte
 
-    -   **** : protocolo usado para acesso ao ar livre
+    -   **Protocolo** : protocolo usado para acesso ao ar livre
 
     -   **URL ou endereço IP** : IP externo, se for fixo. Caso contrário,
         forneça o URL apontando para o endereço IP externo da sua rede.
@@ -199,13 +199,13 @@ externe** (de outra rede, especialmente da Internet).
     -   **Complemento** : o fragmento de URL adicional (exemplo
         : / Jeedom) para acessar o Jeedom.
 
-> ****
+> **Dica**
 >
 > Se você estiver em HTTPS, a porta é 443 (por padrão) e em HTTP o
 > porta é 80 (padrão). Para usar HTTPS de fora,
 > um plugin letsencrypt já está disponível no mercado.
 
-> ****
+> **Dica**
 >
 > Para descobrir se você precisa definir um valor no campo
 > **Complemento**, olha, quando você entra no Jeedom em
@@ -228,15 +228,15 @@ externe** (de outra rede, especialmente da Internet).
 
     -   **Status de DNS** : Status HTTP DNS
 
-    -   **** : permite parar e reiniciar o serviço DNS
+    -   **Gestão** : permite parar e reiniciar o serviço DNS
 
-> ****
+> **IMPORTANTE**
 >
 > Se você não conseguir que o DNS Jeedom funcione, verifique o
 > configuração do firewall e filtro dos pais da sua caixa da Internet
 > (no livebox você precisa, por exemplo, do firewall em médio).
 
- 
+Cores 
 ========
 
 A coloração dos widgets é realizada de acordo com a categoria a
@@ -260,11 +260,11 @@ widgets globalmente (esse será o padrão. Ele é
 então é possível modificar esse widget de valor por widget). Para não
 não coloque transparência, deixe 1.0 .
 
-> ****
+> **Dica**
 >
 > Não se esqueça de salvar após qualquer modificação.
 
- 
+Comandos 
 =========
 
 Muitos pedidos podem ser registrados. Então em
@@ -272,7 +272,7 @@ Análise → Histórico, você obtém gráficos representando suas
 use. Essa guia permite definir parâmetros globais para
 histórico de pedidos.
 
- 
+Histórico 
 ----------
 
 -   **Mostrar estatísticas sobre os widgets** : Permite exibir
@@ -312,7 +312,7 @@ histórico de pedidos.
     de um pedido. Quanto menor o período, mais rápido o Jeedom será
     para exibir o gráfico solicitado.
 
-> ****
+> **NOTA**
 >
 > O primeiro parâmetro **Mostrar estatísticas sobre os widgets** est
 > possível, mas desativado por padrão porque aumenta significativamente a
@@ -320,25 +320,25 @@ histórico de pedidos.
 > Por padrão, o Jeedom conta com dados das últimas 24 horas para
 > calcular essas estatísticas. O método de cálculo de tendências é baseado
 > no cálculo dos mínimos quadrados (ver
-> [](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s)
+> [aqui](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s)
 > para o detalhe).
 
- 
+Empurrão 
 ----
 
 **URL esforço global** : permite adicionar um URL para chamar em caso de
 atualização do pedido. Você pode usar as seguintes tags :
-**#value#** para o valor do pedido, **#cmd_name#** para o
-nome do comando, **#cmd_id#** para o identificador exclusivo do
-commande, **#humanname#** para o nome completo do pedido (ex :
-#[Salle de bain][Hydrometrie][Humidité]#), ``#eq_name#`para o nome do equipamento
+**\#value\#** para o valor do pedido, **\#cmd\_name\#** para o
+nome do comando, **\#cmd\_id\#** para o identificador exclusivo do
+commande, **\#humanname\#** para o nome completo do pedido (ex :
+\#\[Salle de bain\]\[Hydrometrie\]\[Humidité\]\#), ``#eq_name#`para o nome do equipamento
 
- 
+Cobertura 
 =====
 
 Permite monitorar e agir no cache Jeedom :
 
--   **** : Número de objetos atualmente armazenados em cache
+-   **Estatística** : Número de objetos atualmente armazenados em cache
 
 -   **Cache de limpo** : Forçar a exclusão de objetos que não são
     mais útil. Jeedom faz isso automaticamente todas as noites.
@@ -352,24 +352,24 @@ Permite monitorar e agir no cache Jeedom :
     a interface será atualizada rapidamente, em troca disso
     usa mais recursos e, portanto, pode retardar o Jeedom.
 
- 
+Interações 
 ============
 
 Essa guia permite definir parâmetros globais relativos a
 interações que você encontrará em Ferramentas → Interações.
 
-> ****
+> **Dica**
 >
 > Para ativar o log de interação, vá para a guia
-> Administração → Configuração → Logs e marque **** na lista
-> de baixo.  : os logs serão muito detalhados !
+> Administração → Configuração → Logs e marque **Depurar** na lista
+> de baixo. Atenção : os logs serão muito detalhados !
 
 Geral 
 -------
 
 Aqui você tem três parâmetros :
 
--   **** : existem 4 níveis de correspondência (sensibilidade
+-   **Sensibilidade** : existem 4 níveis de correspondência (sensibilidade
     varia de 1 (corresponde exatamente) a 99)
 
     -   por 1 palavra : o nível de correspondência para interações em
@@ -394,51 +394,51 @@ Aqui você tem três parâmetros :
     definir uma regexp que, se corresponder a uma interação,
     excluirá automaticamente esta frase da geração (reservada
     para especialistas). Para mais informações, consulte as explicações no
-     **Exclusão regexp** documentação sobre
+    capítulo **Exclusão regexp** documentação sobre
     interações.
 
 Interação automática, contextual e aviso 
 -----------------------------------------------------
 
--    **interações automáticas** permitir que o Jeedom tente
+-   O **interações automáticas** permitir que o Jeedom tente
     entender uma solicitação de interação mesmo se não houver
     de definido. Ele procurará um objeto e / ou nome do equipamento
     e / ou para tentar responder da melhor maneira possível.
 
--    **interações contextuais** permitir que você encadeie
+-   O **interações contextuais** permitir que você encadeie
     várias solicitações sem repetir tudo, por exemplo :
 
     -   *Jeedom mantendo o contexto :*
 
-        -   ** : Quanto ele está na sala ?
+        -   *Você* : Quanto ele está na sala ?
 
-        -   ** : Temperatura 25.2 ° C
+        -   *Jeedom* : Temperatura 25.2 ° C
 
-        -   ** : e na sala de estar ?
+        -   *Você* : e na sala de estar ?
 
-        -   ** : Temperatura 27.2 ° C
+        -   *Jeedom* : Temperatura 27.2 ° C
 
     -   *Faça duas perguntas em uma :*
 
-        -   ** : Como é no quarto e na sala de estar ?
+        -   *Você* : Como é no quarto e na sala de estar ?
 
-        -   ** : Temperatura 23.6 ° C, Temperatura 27.2 ° C
+        -   *Jeedom* : Temperatura 23.6 ° C, Temperatura 27.2 ° C
 
 -   Interações de tipo **Avise-me** vamos perguntar
     Jeedom para notificá-lo se um pedido exceder / descer ou vale um
     certo valor.
 
-    -   ** : Notifique-me se a temperatura da sala exceder 25 ° C ?
+    -   *Você* : Notifique-me se a temperatura da sala exceder 25 ° C ?
 
-    -   ** : OK (* Assim que a temperatura da sala exceda 25 ° C,
+    -   *Jeedom* : OK (* Assim que a temperatura da sala exceda 25 ° C,
         Jeedom lhe dirá, apenas uma vez*)
 
-> ****
+> **NOTA**
 >
 > Por padrão, o Jeedom responderá pelo mesmo canal que você
 > costumava pedir-lhe para notificá-lo. Se ele não encontrar um
 > não, ele usará o comando padrão especificado neste
->  : **Ordem de devolução padrão**.
+> separador : **Ordem de devolução padrão**.
 
 Aqui estão as diferentes opções disponíveis :
 
@@ -451,7 +451,7 @@ Aqui estão as diferentes opções disponíveis :
 -   **Prioridade resposta contextual se a sentença começa** : Si
     a frase começa com a palavra que você digita aqui, Jeedom
     priorize uma resposta contextual (você pode colocar
-    várias palavras separadas por **** ).
+    várias palavras separadas por **;** ).
 
 -   **Cortar uma interacção 2 se contiver** : A mesma coisa para
     o detalhamento de uma interação contendo várias perguntas. Você
@@ -463,14 +463,14 @@ Aqui estão as diferentes opções disponíveis :
 -   **Resposta "Diga-me" se a frase começar com** : Se o
     Se a frase começar com essa (s) palavra (s), o Jeedom tentará fazer uma
     tipo de interação **Avise-me** (você pode colocar vários
-    palavras separadas por **** ).
+    palavras separadas por **;** ).
 
 -   **Ordem de devolução padrão** : Ordem de devolução padrão
     para uma interação de tipo **Avise-me** (usado, em particular,
     se você programou o alerta pela interface móvel)
 
 -   **Sinônimo de objetos** : Lista de sinônimos para objetos
-    ( : rdc|térreo|subterrâneo|banheiro baixo|Casa de banho).
+    (ex : rdc|térreo|subterrâneo|banheiro baixo|Casa de banho).
 
 -   **Sinônimo de equipamento** : Lista de sinônimos para
     Os equipamentos.
@@ -488,19 +488,19 @@ Aqui estão as diferentes opções disponíveis :
     comando do tipo slider no mínimo (ex fecha para fechar o obturador
     o quarto ⇒ componente do quarto a 0%).
 
- 
+Cores 
 --------
 
 Esta parte permite definir as cores às quais o Jeedom associará
 palavras vermelho / azul / preto… Para adicionar uma cor :
 
--   Clique no botão ****, certo,
+-   Clique no botão **+**, certo,
 
 -   Dê um nome à sua cor,
 
 -   Escolha a cor associada clicando na caixa à direita.
 
- 
+Relações 
 ========
 
 Configurar a geração e gerenciamento de relatórios
@@ -514,7 +514,7 @@ Configurar a geração e gerenciamento de relatórios
     um pouco de espaço, então tome cuidado para não colocar muito
     conservação).
 
- 
+Conexões 
 =====
 
 Configurar gráficos de link. Esses links permitem que você
@@ -537,31 +537,31 @@ equipamentos, objetos, etc.
 -   **Prerender parâmetro** : Vamos agir no layout
     do gráfico.
 
--   **Parâmetro renderizar** : .
+-   **Parâmetro renderizar** : Same.
 
 Sumários 
 =======
 
 Adicionar resumos de objetos. Esta informação é exibida
 no topo, à direita, na barra de menus do Jeedom ou ao lado do
- :
+Objetos :
 
--   **** : Chave para o resumo, especialmente para não tocar.
+-   **Chave** : Chave para o resumo, especialmente para não tocar.
 
--   **** : Nome do resumo.
+-   **Nome** : Nome do resumo.
 
--   **** : Método de cálculo, pode ser do tipo :
+-   **Cálculo** : Método de cálculo, pode ser do tipo :
 
-    -   **** : somar os diferentes valores,
+    -   **Soma** : somar os diferentes valores,
 
-    -   **** : valores médios,
+    -   **Média** : valores médios,
 
-    -   **** : exibir o valor literalmente (especialmente para aqueles
+    -   **Texto** : exibir o valor literalmente (especialmente para aqueles
         do tipo string).
 
--   **** : Ícone Resumo.
+-   **ícone** : Ícone Resumo.
 
--   **** : Unidade de resumo.
+-   **Unidade** : Unidade de resumo.
 
 -   **Método de contagem** : Se você contar dados binários,
     você deve definir esse valor como binário, por exemplo, se contar o
@@ -579,10 +579,10 @@ no topo, à direita, na barra de menus do Jeedom ou ao lado do
 -   **Excluir resumo** : O último botão, na extrema direita, permite
     para excluir o resumo da linha.
 
- 
+Toras 
 ====
 
- 
+Cronograma 
 --------
 
 -   **O número máximo de eventos** : Define o número máximo para
@@ -591,7 +591,7 @@ no topo, à direita, na barra de menus do Jeedom ou ao lado do
 -   **Excluir todos os eventos** : Esvazie a linha do tempo de
     todos os seus eventos gravados.
 
- 
+Mensagens 
 --------
 
 -   **Adicione uma mensagem para cada erro nos logs** : se um plugin
@@ -603,42 +603,42 @@ no topo, à direita, na barra de menus do Jeedom ou ao lado do
         - #message# : mensagem em questão
         - #plugin# : plugin que acionou a mensagem
 
- 
+Notificações 
 -------
 
 -   **Adicione uma mensagem a cada tempo limite** : Adicione uma mensagem no
-    centro de mensagens se o equipamento cair ****.
+    centro de mensagens se o equipamento cair **Tempo limite**.
 
--   **Ordem de tempo limite** : Comando de tipo **** usar
-    se houver um equipamento ****.
+-   **Ordem de tempo limite** : Comando de tipo **Mensagem** usar
+    se houver um equipamento **Tempo limite**.
 
 -   **Adicione uma mensagem a cada bateria em Aviso** : Adicione um
     mensagem no centro de mensagens se um dispositivo tiver seu nível de
-    bateria em ****.
+    bateria em **Aviso**.
 
--   **Comando da bateria em Aviso** : Comando de tipo ****
-    a ser usado se o equipamento estiver com a bateria ****.
+-   **Comando da bateria em Aviso** : Comando de tipo **Mensagem**
+    a ser usado se o equipamento estiver com a bateria **Aviso**.
 
 -   **Adicione uma mensagem a cada bateria em perigo** : Adicione um
     mensagem no centro de mensagens se um dispositivo tiver seu nível de
-    bateria em ****.
+    bateria em **Perigo**.
 
--   **Comando na bateria em perigo** : Comando de tipo **** no
-    use se o equipamento estiver no nível da bateria ****.
+-   **Comando na bateria em perigo** : Comando de tipo **Mensagem** à
+    use se o equipamento estiver no nível da bateria **Perigo**.
 
 -   **Adicione uma mensagem a cada aviso** : Adicione uma mensagem no
-    centro de mensagens se um pedido entrar em alerta ****.
+    centro de mensagens se um pedido entrar em alerta **Aviso**.
 
--   **Comando no aviso** : Comando de tipo **** usar
-    se um pedido entrar em alerta ****.
+-   **Comando no aviso** : Comando de tipo **Mensagem** usar
+    se um pedido entrar em alerta **Aviso**.
 
 -   **Adicione uma mensagem a cada Perigo** : Adicione uma mensagem no
-    centro de mensagens se um pedido entrar em alerta ****.
+    centro de mensagens se um pedido entrar em alerta **Perigo**.
 
--   **Comando sobre Perigo** : Comando de tipo **** usar se
-    um pedido entra em alerta ****.
+-   **Comando sobre Perigo** : Comando de tipo **Mensagem** usar se
+    um pedido entra em alerta **Perigo**.
 
- 
+Log 
 ---
 
 -   **Log Motor** : Permite alterar o mecanismo de log para, por
@@ -661,7 +661,7 @@ Abaixo, você encontrará uma tabela para gerenciar com precisão o
 nível de log dos elementos essenciais do Jeedom, bem como do
 plugins.
 
- 
+Instalações 
 ===========
 
 -   **Falha Contagem off equipamentos** : Nombre
@@ -692,17 +692,17 @@ Depósitos
 
 Os depósitos são espaços de armazenamento (e serviço) para poder
 mover backups, recuperar plugins, recuperar núcleo
-.
+Jeedom, etc.
 
-###  
+### Ficheiro 
 
 Depósito usado para ativar o envio de plugins por arquivos.
 
-###  
+### Github 
 
 Depósito usado para conectar o Jeedom ao Github.
 
--   **** : Token para acesso ao depósito privado.
+-   **Token** : Token para acesso ao depósito privado.
 
 -   **Usuário ou organização do repositório principal da Jeedom** : Nom
     o usuário ou a organização no github para o núcleo.
@@ -711,13 +711,13 @@ Depósito usado para conectar o Jeedom ao Github.
 
 -   **Indústria do núcleo Jeedom** : Ramificação do repositório principal.
 
-###  
+### Mercado 
 
 Depósito usado para conectar o Jeedom ao mercado, é altamente recomendado
-usar este repositório.  : qualquer solicitação de suporte pode ser
+usar este repositório. Atenção : qualquer solicitação de suporte pode ser
 recusado se você usar um depósito diferente deste.
 
--   **** : Endereço do mercado.
+-   **Morada** : Endereço do mercado.
 
 -   **Nome de Usuário** : Seu nome de usuário no mercado.
 
@@ -729,10 +729,10 @@ recusado se você usar um depósito diferente deste.
 
 -   **[Nuvem de backup] Backup completo de frequência** : Frequência de backup completo na nuvem. Um backup completo é maior que um incremental (que envia apenas as diferenças). Recomenda-se fazer 1 por mês
 
-###  
+### Samba 
 
 Depósito para enviar automaticamente um backup Jeedom para
-uma participação do Samba (ex : ).
+uma participação do Samba (ex : NAS Synology).
 
 -   **\ [Backup \] IP** : IP do servidor Samba.
 
@@ -749,13 +749,13 @@ uma participação do Samba (ex : ).
 -   **Caminho \ [Backup \]** : Caminho no compartilhamento (para definir
     relativo), deve existir.
 
-> ****
+> **NOTA**
 >
 > Se o caminho para a pasta de backup do samba for :
 > \\\\ 192.168.0.1 \\ Backups \\ Domótica \\ Jeedom Then IP = 192.168.0.1
 > , Partilha = //192.168.0.1 / Backups, Caminho = Domótica / Jeedom
 
-> ****
+> **NOTA**
 >
 > Ao validar o compartilhamento Samba, conforme descrito acima,
 > uma nova forma de backup aparece na seção
@@ -763,12 +763,12 @@ uma participação do Samba (ex : ).
 > quando é enviado automaticamente no próximo backup. Um teste é
 > possível executando um backup manual.
 
-> ****
+> **IMPORTANTE**
 >
 > Pode ser necessário instalar o pacote smbclient para o diretório
 > obras de depósito.
 
-> ****
+> **IMPORTANTE**
 >
 > O protocolo Samba possui várias versões, o v1 está comprometido 
 > segurança e em alguns NAS, você pode forçar o cliente a usar a v2
@@ -779,16 +779,16 @@ uma participação do Samba (ex : ).
 > protocolo máximo do cliente = SMB3
 > protocolo min de cliente = SMB2
 > O smbclient do lado do Jeedom usará v2 em que v3 e colocando SMB3 nos dois
-> . Cabe a você adaptar de acordo com as restrições no servidor NAS ou outro servidor Samba
+> SMB3. Cabe a você adaptar de acordo com as restrições no servidor NAS ou outro servidor Samba
 
-> ****
+> **IMPORTANTE**
 >
 > Jeedom deve ser o único a gravar nesta pasta e deve estar vazio
 > por padrão (ou seja, antes de configurar e enviar o
 > primeiro backup, a pasta não deve conter nenhum arquivo ou
 > dossier).
 
-###  
+### URL  
 
 -   **URL principal do Jeedom**
 

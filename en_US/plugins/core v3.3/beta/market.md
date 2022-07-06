@@ -10,13 +10,13 @@ My profile
 ==========
 
 This is where you will be able to adjust different parameters of your
- :
+profile :
 
--   ****
+-   **Profile**
 
-    -   **** : Your login on the market, it cannot be changed
+    -   **Login** : Your login on the market, it cannot be changed
 
-    -   **** : Your name (this information is only useful for
+    -   **Last name** : Your name (this information is only useful for
         make emails more fun)
 
     -   **First name** : Your first name (this information is only useful
@@ -24,9 +24,9 @@ This is where you will be able to adjust different parameters of your
 
     -   **Username on the forum** : Your username on the forum
 
-    -   **** : Your mail
+    -   **E-mail** : Your mail
 
-    -   **** : Your language
+    -   **Language** : Your language
 
     -   **Password &amp;&amp; Confirm password** : allows
         change your password
@@ -48,20 +48,20 @@ For the pros :
 -   **Support requests recipient** : know who will receive the
     support emails (end customer, installer or both)
 
-    -   ****
+    -   **TOS**
 
--   **** : general conditions of use (pay attention to
+-   **User** : general conditions of use (pay attention to
     read them well because they engage you)
 
--   **** : general conditions of use for
+-   **Developer** : general conditions of use for
     developers
 
-    -   ****
+    -   **Tickets**
 
 -   **Number of tickets** : Number of tickets for the current month
     as well as your limit
 
--   **** : button to send a support request (accessible
+-   **Support** : button to send a support request (accessible
     also by the exclamation mark at the top right on the market or
     on your Jeedom)
 
@@ -73,16 +73,16 @@ For the pros :
     -   **Summary** Here you will find a summary of your different
         rights and services
 
-> ****
+> **Tip**
 >
 > Don&#39;t forget to save
 
 My jeedoms 
 ===========
 
--   ****
+-   **Level**
 
-    -   **** : your level of service pack
+    -   **Jeedom** : your level of service pack
 
     -   **Enter a service pack number** : lets enter your
         service pack number (it can be found in the email sent by
@@ -94,7 +94,7 @@ My jeedoms
         of Jeedom installations currently linked to your account as well
         that the limit allowed
 
-> ****
+> **Tip**
 >
 > Sometimes the market may ask you to reset
 > your installation keys, it&#39;s normal, just follow what it
@@ -102,19 +102,19 @@ My jeedoms
 
 -   **My jeedoms** : this is where all your Jeedoms are listed
 
-    -   **** : the name you want to give to your Jeedom (
+    -   **Last name** : the name you want to give to your Jeedom (
         found in the name of the backup if you have the subscription of
         Cloud backup)
 
-    -   **** : allows to see the state of the Jeedom in question
+    -   **State** : allows to see the state of the Jeedom in question
 
     -   **Local / remote IP** : IP or address of this Jeedom,
         configure in Jeedom, if you don&#39;t put anything it will be there
         last known IP
 
-    -   **** : allows you to customize the name of your DNS
+    -   **Dns** : allows you to customize the name of your DNS
 
-    -   **** : list the different Jeedom access URLs.
+    -   **URLs** : list the different Jeedom access URLs.
 
     -   **DNS server** : tells you if the DNS server to which you
         are attached
@@ -128,11 +128,11 @@ My jeedoms
     -   **Last update** : Jeedom&#39;s last communication with
         the market
 
-    -   **** : Jeedom hardware name
+    -   **Hardware** : Jeedom hardware name
 
-    -   **** : the version of Jeedom installed
+    -   **Version** : the version of Jeedom installed
 
-> ****
+> **Tip**
 >
 > Don&#39;t forget to save
 
@@ -156,7 +156,7 @@ My purchases / promotions / donations
 Here you find all your purchases and you can request the return of the
 invoice or receipt email
 
-> ****
+> **IMPORTANT**
 >
 > If you buy an official plugin you will receive an invoice. In
 > however for a third party plugin it is a receipt, for the invoice it is necessary

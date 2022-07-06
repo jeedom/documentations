@@ -3,34 +3,34 @@ von Text- oder Sprachbefehlen.
 
 Diese Bestellungen erhalten Sie von :
 
--    : Senden Sie eine SMS, um Befehle (Aktion) zu starten, oder fragen Sie a
+-   SMS : Senden Sie eine SMS, um Befehle (Aktion) zu starten, oder fragen Sie a
     Frage (Info).
 
--    : Telegramm, Slack usw.
+-   Katze : Telegramm, Slack usw.
 
--    : diktieren Sie eine Phrase mit Siri, Google Now, SARAH usw. für
+-   Vokal : diktieren Sie eine Phrase mit Siri, Google Now, SARAH usw. für
     Befehle starten (Aktion) oder eine Frage stellen (Info).
 
--    : Starten Sie eine HTTP-URL, die den Text enthält (z. )
+-   Http : Starten Sie eine HTTP-URL, die den Text enthält (z. Tasker, Slack)
     Befehle starten (Aktion) oder eine Frage stellen (Info).
 
 Das Interesse an Interaktionen liegt in der vereinfachten Integration in
 andere Systeme wie Smartphone, Tablet, andere Hausautomationsbox usw.
 
 Um auf die Interaktionsseite zuzugreifen, gehen Sie zu Extras →
- :
+Wechselwirkungen :
 
 Am oberen Rand der Seite befinden sich 3 Schaltflächen :
 
--   **** : Dadurch können neue Interaktionen erstellt werden.
+-   **Hinzufügen** : Dadurch können neue Interaktionen erstellt werden.
 
 -   **Regenerat** : Dadurch werden alle Interaktionen wiederhergestellt (möglicherweise
     très long &gt; 5mn).
 
--   **** : das öffnet einen Dialog zum Schreiben und
+-   **Test** : das öffnet einen Dialog zum Schreiben und
     teste einen Satz.
 
-> ****
+> **Spitze**
 >
 > Wenn Sie eine Interaktion haben, die die Sätze für die Lichter generiert
 > Zum Beispiel und Sie fügen ein neues Befehlsmodul von hinzu
@@ -38,7 +38,7 @@ Am oberen Rand der Seite befinden sich 3 Schaltflächen :
 > Gehen Sie zu der betreffenden Interaktion und speichern Sie sie erneut für
 > Erstellen Sie die Sätze für dieses neue Modul.
 
- 
+Prinzip 
 ========
 
 Das Prinzip der Schöpfung ist recht einfach : Wir werden einen Satz definieren
@@ -54,35 +54,35 @@ Die Interaktion ist nicht an eine Handlung gebunden, sondern an Informationen od
 möchte danach eine bestimmte Aktion ausführen (es ist auch
 möglich, ein Szenario auszuführen, mehrere Befehle zu steuern).
 
- 
+Konfiguration 
 =============
 
 Die Konfigurationsseite besteht aus mehreren Registerkarten und
- :
+Tasten :
 
--   **** : Zeigt die Anzahl der Sätze in der Interaktion an (ein Klick
+-   **Sätze** : Zeigt die Anzahl der Sätze in der Interaktion an (ein Klick
     oben zeigt sie dir)
 
--   **** : zeichnet die aktuelle Interaktion auf
+-   **Rekord** : zeichnet die aktuelle Interaktion auf
 
--   **** : aktuelle Interaktion löschen
+-   **Entfernen** : aktuelle Interaktion löschen
 
--   **** : Dupliziere die aktuelle Interaktion
+-   **Duplikat** : Dupliziere die aktuelle Interaktion
 
 General 
 =======
 
--   **** : Name der Interaktion (kann leer sein, der Name ersetzt den
+-   **Name** : Name der Interaktion (kann leer sein, der Name ersetzt den
     Anforderungstext in der Interaktionsliste).
 
--   **** : Interaktionsgruppe, es hilft, sie zu organisieren
+-   **Gruppe** : Interaktionsgruppe, es hilft, sie zu organisieren
     (kann leer sein, wird also in der Gruppe "keine" sein").
 
--   **** : ermöglicht das Aktivieren oder Deaktivieren der Interaktion.
+-   **Aktiva** : ermöglicht das Aktivieren oder Deaktivieren der Interaktion.
 
--   **** : Der generierende Modellsatz (erforderlich).
+-   **Anwendung** : Der generierende Modellsatz (erforderlich).
 
--   **** : ermöglicht das Definieren von Synonymen für Namen
+-   **Synonym** : ermöglicht das Definieren von Synonymen für Namen
     Bestellungen.
 
 -   **Antwort** : die Antwort zu geben.
@@ -96,7 +96,7 @@ General
 -   **Autorisierte Benutzer** : begrenzt die Interaktion auf bestimmte
     Benutzer (Anmeldungen getrennt durch |).
 
- 
+Filter 
 =======
 
 -   **Beschränken Sie sich auf die Eingabe von Befehlen** : erlaubt nur die zu verwenden
@@ -124,16 +124,16 @@ General
     Einzelausrüstung / Modul (Jeedom erstellt die Liste automatisch unter
     von den Geräten / Modulen, die Sie haben).
 
- 
+Aktion 
 ======
 
 Verwenden Sie diese Option, wenn Sie einen oder mehrere bestimmte Befehle als Ziel festlegen möchten
 oder bestimmte Parameter übergeben.
 
- 
+Beispiele 
 ========
 
-> ****
+> **Notiz**
 >
 > Die Screenshots können im Hinblick auf Entwicklungen unterschiedlich sein.
 
@@ -166,7 +166,7 @@ einzelner Satz stellen sich kombinierte Aktionen zwischen verschiedenen Befehlen
 verschiedene Szenarien (wir können auch Szenarien im Spiel auslösen
 Aktion von Interaktionen).
 
-> ****
+> **Spitze**
 >
 > Um ein Szenario hinzuzufügen, erstellen Sie eine neue Aktion und schreiben Sie "Szenario""
 > Drücken Sie ohne Akzent die Tabulatortaste auf Ihrer Tastatur, um
@@ -181,7 +181,7 @@ Sätze für eine ganze Gruppe von Befehlen.
 
 Wir werden das oben Gesagte fortsetzen und die Aktionen löschen, die
 wir hatten und anstelle des festen Satzes in "Anfrage",
-Wir werden die Tags verwenden **\.#commande\.#**  **\.#equipement\.#**.
+Wir werden die Tags verwenden **\.#commande\.#** und **\.#equipement\.#**.
 Jeedom ersetzt diese Tags durch den Namen der Befehle und den Namen von
 Ausrüstung (wir können sehen, wie wichtig es ist, Namen von zu haben
 konsequente Kontrolle / Ausrüstung).
@@ -221,7 +221,7 @@ kann mehrere Synonyme haben, hier hat &quot;on&quot; als Synonym
 ***=*** "*Synonym 1*"***,*** "*Synonym 2*" (wir können so viele setzen
 Synonym, das wir wollen). Fügen Sie dann Synonyme für ein anderes hinzu
 Befehlsname, fügen Sie einfach nach dem letzten Synonym einen Balken hinzu
- "*|*" Danach können Sie die erneut benennen
+vertikal "*|*" Danach können Sie die erneut benennen
 Befehl, der Synonyme wie für den ersten Teil usw. hat.
 
 Es ist bereits besser, aber es fehlt immer noch für den Eingabebefehl "Ein""
@@ -299,7 +299,7 @@ Trennung und schließlich die Antwort, wenn der Befehl 1 wert ist. Hier die
 Antworten sind einfach nein und ja, aber wir könnten einen Satz setzen
 etwas länger.
 
-> ****
+> **Warnung**
 >
 > Tags funktionieren nicht in binären Konvertierungen.
 
@@ -310,7 +310,7 @@ Im Feld &quot;Autorisierte Benutzer&quot; können Sie nur bestimmte autorisieren
 Personen, um den Befehl auszuführen, können Sie mehrere Profile setzen
 trenne sie mit a "|".
 
- : personne1|personne2
+Beispiel : personne1|personne2
 
 Man kann sich vorstellen, dass ein Alarm durch a aktiviert oder deaktiviert werden kann
 Kind oder ein Nachbar, der in Ihrer Abwesenheit kommen würde, um die Pflanzen zu gießen.
@@ -319,7 +319,7 @@ Regexp-Ausschluss
 ------------------
 
 Es ist möglich zu erstellen
-[](https://fr.wikipedia.org/wiki/Expression_rationnelle)
+[Regexp](https://fr.wikipedia.org/wiki/Expression_rationnelle)
 Ausschluss, wenn ein generierter Satz diesem Regexp entspricht, wird es sein
 gelöscht. Es geht darum, Fehlalarme entfernen zu können
 einen von Jeedom erzeugten Satz zu sagen, der etwas aktiviert, was nicht
@@ -455,9 +455,9 @@ Ist jemand im Raum? ?
 Dieses Beispiel zielt speziell auf bestimmte Geräte ab, die dies zulassen
 eine personalisierte Antwort zu haben. Wir könnten uns also vorstellen, zu ersetzen
 Die Beispielantwort lautet &quot;Nein, es ist niemand im Raum
-**|Ja, da ist jemand im Raum **"
+*Julie*|Ja, da ist jemand im Raum *Julie*"
 
-###  
+### Evolution 
 
 -   Die Frage ist also "\#commande\.# \ [in der |in der \] \#objet\.#"
 
@@ -514,7 +514,7 @@ die Luftfeuchtigkeit, die Helligkeit der verschiedenen Räume (Objekt im Sinne v
     Geben Sie digitale Informationen mit einer Einheit ein, damit wir das Kontrollkästchen deaktivieren können
     Einheiten im richtigen Filter sind auf den Typ beschränkt, der uns interessiert.
 
-###  
+### Evolution 
 
 Wir können daher dem Befehlsnamen Synonyme hinzufügen, um einige zu haben
 natürlicher, fügen Sie einen regulären Ausdruck hinzu, um die Befehle zu filtern, die
@@ -542,7 +542,7 @@ Wir können also einen regulären Ausdruck sehen :
 Auf diese Weise können Sie alle Bestellungen löschen, für die eine dieser Bestellungen vorliegt
 Wörter in ihrem Satz
 
-> ****
+> **Notiz**
 >
 > Der reguläre Ausdruck hier ist eine vereinfachte Version zur einfachen Verwendung.
 > Wir können also entweder traditionelle Ausdrücke verwenden oder
@@ -566,9 +566,9 @@ Dimmer, um den gewünschten Wert anzuwenden. Dazu haben wir 3 Teile
 welches an die Interaktion gesendet wird. \* Antwort : Wir verwenden das Tag für
 die Antwort, um sicherzustellen, dass Jeedom die Anfrage richtig verstanden hat.
 \* Aktion : Wir setzen eine Aktion auf die Lampe, die wir fahren und einfahren möchten
-den Wert, den wir unserem Tag übergeben **.
+den Wert, den wir unserem Tag übergeben *Anleitung*.
 
-> ****
+> **Notiz**
 >
 > Sie können jedes Tag verwenden, außer denjenigen, die bereits von verwendet werden
 > Jeedom, es können zum Beispiel mehrere fahren
@@ -576,7 +576,7 @@ den Wert, den wir unserem Tag übergeben **.
 > Szenarien, die durch die Interaktion gestartet wurden (jedoch das Szenario
 > entweder in "Im Vordergrund ausführen").
 
-###  
+### Evolution 
 
 Möglicherweise möchten wir alle Cursortypbefehle mit a steuern
 einzelne Interaktion. Mit dem folgenden Beispiel können wir bestellen
@@ -651,14 +651,14 @@ Programmieren einer Aktion mit Interaktionen
 ------------------------------------------------
 
 Interaktionen machen insbesondere viele Dinge.
-Sie können eine Aktion dynamisch programmieren.  : "Setzen Sie die
+Sie können eine Aktion dynamisch programmieren. Beispiel : "Setzen Sie die
 Erhitzen um 22 Uhr für 14:50 Uhr". Einfacher geht es nicht
 Tags verwenden \#time\.# (wenn eine bestimmte Zeit definiert ist) oder
 \.#duration\.# (für in X-Zeit, Beispiel in 1 Stunde) :
 
 ![interact23](./images/interact23.JPG)
 
-> ****
+> **Notiz**
 >
 > Sie werden in der Antwort das Tag \ bemerken#value\.# dieser enthält
 > im Falle einer geplanten Interaktion die Programmierzeit

@@ -11,16 +11,16 @@ Unten haben Sie eine Tabelle :
 
 -   **Benutzername** : Benutzer-ID
 
--   **** : ermöglicht das Deaktivieren des Kontos
+-   **Aktiva** : ermöglicht das Deaktivieren des Kontos
 
 -   **Nur lokal** : Benutzeranmeldung autorisieren
     Nur wenn es sich im lokalen Jeedom-Netzwerk befindet
 
--   **** : ermöglicht die Auswahl des Benutzerprofils :
+-   **Profile** : ermöglicht die Auswahl des Benutzerprofils :
 
-    -   **** : bekommt alle Rechte an Jeedom
+    -   **Verwalter** : bekommt alle Rechte an Jeedom
 
-    -   **** : kann das Dashboard sehen, Ansichten,
+    -   **Benutzer** : kann das Dashboard sehen, Ansichten,
         Design usw. und auf Geräte / Kontrollen einwirken. Allerdings,
         Er hat keinen Zugriff auf die Konfiguration der Steuerungen / Geräte
         noch auf die Konfiguration von Jeedom.
@@ -42,7 +42,7 @@ Unten haben Sie eine Tabelle :
 -   **Passwort ändern** : ermöglicht das Ändern des Passworts von
     l'utilisateur
 
--   **** : Benutzer löschen
+-   **Entfernen** : Benutzer löschen
 
 -   **API-Schlüssel neu generieren** : regeneriert den API-Schlüssel des Benutzers
 
@@ -57,7 +57,7 @@ Wenn Sie auf &quot;Rechte verwalten&quot; klicken, wird ein Fenster angezeigt, i
 Benutzerrechte fein verwalten. Die erste Registerkarte wird angezeigt
 die verschiedenen Geräte. Der zweite zeigt die Szenarien.
 
-> ****
+> **Wichtig**
 >
 > Das Profil muss eingeschränkt werden, sonst werden hier keine Einschränkungen gesetzt
 > wird berücksichtigt
@@ -65,9 +65,9 @@ die verschiedenen Geräte. Der zweite zeigt die Szenarien.
 Sie erhalten eine Tabelle, die für jede Ausrüstung und jede erlaubt
 Szenario definieren Benutzerrechte :
 
--   **** : Der Benutzer sieht die Ausrüstung / das Szenario nicht
+-   **Keine** : Der Benutzer sieht die Ausrüstung / das Szenario nicht
 
--   **** : Der Benutzer sieht die Ausrüstung / das Szenario, jedoch nicht
+-   **Visualisierung** : Der Benutzer sieht die Ausrüstung / das Szenario, jedoch nicht
     kann nicht darauf reagieren
 
 -   **Visualisierung und Ausführung** : der Benutzer sieht

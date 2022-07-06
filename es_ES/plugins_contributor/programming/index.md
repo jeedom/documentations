@@ -9,4 +9,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="jeexplorer/jeexplorer_icon.png" class="pluginLogo" width="100" />|JeeXplorer|Jeedom Explorer / Editor de archivos|[Documentación](https://kiboost.github.io/jeedom_docs/plugins/jeexplorer/es_ES/)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3690)<br/>[Cambios](https://kiboost.github.io/jeedom_docs/plugins/jeexplorer/es_ES/changelog.html)|
+|<img src="jeexplorer/jeexplorer_icon.png" class="pluginLogo" width="100" />|JeeXplorer|Jeedom Explorer / Editor de archivos|<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3690)|

@@ -4,11 +4,11 @@ Ihre Fantasie.
 
 Es ist über Home → Design zugänglich
 
-> ****
+> **Spitze**
 >
 > Dank des Untermenüs ist es möglich, direkt zu einem Entwurf zu gelangen.
 
-> ****
+> **Wichtig**
 >
 > Alle Aktionen werden ausgeführt, indem Sie mit der rechten Maustaste auf diese Seite klicken
 > um es gut im Design zu machen. Während der Erstellung ist es daher notwendig,
@@ -17,9 +17,9 @@ Es ist über Home → Design zugänglich
 Im Menü (Rechtsklick also) finden wir die
 folgende Aktionen :
 
--   **** : Zeigt die Liste Ihrer Designs an und greift darauf zu
+-   **Design** : Zeigt die Liste Ihrer Designs an und greift darauf zu
 
--   **** : Wechseln Sie in den Bearbeitungsmodus
+-   **Ausgabe** : Wechseln Sie in den Bearbeitungsmodus
 
 -   **Vollbild** : Ermöglicht die Verwendung der gesamten Webseite
     entfernt das Jeedom-Menü von oben
@@ -52,15 +52,15 @@ folgende Aktionen :
 -   **Zusammenfassung hinzufügen** : Fügt Informationen aus einer Objektzusammenfassung hinzu oder
     General
 
--   ****
+-   **Anzeigen**
 
-    -   **** : Zeigt kein Raster an
+    -   **Keine** : Zeigt kein Raster an
 
-    -   **** : Zeigt ein 10 x 10-Raster an
+    -   **10x10** : Zeigt ein 10 x 10-Raster an
 
-    -   **** : Zeigt ein Raster von 15 mal 15 an
+    -   **15x15** : Zeigt ein Raster von 15 mal 15 an
 
-    -   **** : Zeigt ein 20 x 20-Raster an
+    -   **20x20** : Zeigt ein 20 x 20-Raster an
 
     -   **Magnetisieren Sie die Elemente** : Fügen Sie eine Magnetisierung zwischen hinzu
         Elemente, um das Aufkleben zu erleichtern
@@ -80,13 +80,13 @@ folgende Aktionen :
 
 -   **Konfigurieren Sie das Design** : Zugriff auf die Designkonfiguration
 
--   **** : ermöglicht das Speichern des Designs (Aufmerksamkeit gibt es
+-   **Speichern** : ermöglicht das Speichern des Designs (Aufmerksamkeit gibt es
     auch automatische Sicherungen während bestimmter Aktionen)
 
-> ****
+> **Wichtig**
 >
 > Die Konfiguration der Gestaltungselemente erfolgt durch Klicken auf
-> .
+> diese.
 
 Designkonfiguration 
 =======================
@@ -95,7 +95,7 @@ Hier gefunden :
 
 -   **General**
 
-    -   **** : Der Name Ihres Designs
+    -   **Name** : Der Name Ihres Designs
 
     -   **Transparenter Hintergrund** : macht den Hintergrund transparent. Seien Sie vorsichtig, wenn die
         Wenn das Kontrollkästchen aktiviert ist, wird die Hintergrundfarbe nicht verwendet
@@ -103,19 +103,19 @@ Hier gefunden :
     -   **Hintergrundfarbe** : Design Hintergrundfarbe (weiß
         Standard)
 
-    -   **** : Zugriffscode für Ihr Design (falls leer, kein Code
+    -   **CODE** : Zugriffscode für Ihr Design (falls leer, kein Code
         wird nicht gefragt)
 
     -   **Symbol** : Ein Symbol dafür (erscheint im Menü
         Wahl des Designs)
 
-    -   ****
+    -   **Bild**
 
-        -   **** : Ermöglicht das Hinzufügen eines Hintergrundbilds zum Design
+        -   **Send** : Ermöglicht das Hinzufügen eines Hintergrundbilds zum Design
 
         -   **Bild löschen** : Bild löschen
 
--   ****
+-   **Größen**
 
     -   **Größe (BxH)** : Ermöglicht das Festlegen der Größe Ihres Designs
         (grauer Rahmen im Bearbeitungsmodus)
@@ -123,11 +123,11 @@ Hier gefunden :
 Allgemeine Konfiguration der Elemente 
 ===================================
 
-> ****
+> **Notiz**
 >
 > Je nach Art des Elements können sich die Optionen ändern.
 
-> ****
+> **Notiz**
 >
 > Das ausgewählte Element wird rot (anstelle von grün) hervorgehoben
 > für alle anderen).
@@ -135,33 +135,33 @@ Allgemeine Konfiguration der Elemente
 Anzeigeeinstellung 
 ---------------------
 
--   **** : ermöglicht die Auswahl der Tiefenstufe
+-   **Tiefe** : ermöglicht die Auswahl der Tiefenstufe
 
--   **X-Position (%)** :
+-   **Position X (%)** :
 
--   **Y-Position (%)** :
+-   **Position Y (%)** :
 
 -   **Breite (px)** :
 
 -   **Höhe (px)** :
 
- 
+Entfernen 
 ---------
 
 Gegenstand entfernen
 
- 
+Duplikat 
 ---------
 
 Ermöglicht das Duplizieren des Elements
 
- 
+Schloss 
 -----------
 
 Sperrt das Element so, dass es nicht mehr beweglich ist oder
 redimensionnable.
 
- 
+Grafik 
 =========
 
 Anzeigeeinstellungen 
@@ -181,7 +181,7 @@ Anzeigeeinstellungen
 
 -   **Transparenter Hintergrund** : macht den Hintergrund transparent
 
--   **** : Fügen Sie einen Rahmen hinzu, achten Sie auf die Syntax
+-   **Grenze** : Fügen Sie einen Rahmen hinzu, achten Sie auf die Syntax
     HTML (Vorsicht, Sie müssen beispielsweise die CSS-Syntax verwenden :
     festes 1px schwarz)
 
@@ -193,7 +193,7 @@ Hier können Sie die Befehle auswählen, die erfasst werden sollen
 Text / html 
 =========
 
--   **** : Symbol, das vorne angezeigt werden soll
+-   **Symbol** : Symbol, das vorne angezeigt werden soll
 
 -   **Hintergrundfarbe** : ermöglicht es Ihnen, die Hintergrundfarbe oder zu ändern
     transparent machen, vergessen Sie nicht, &quot;Standard&quot; auf NEIN zu übergeben
@@ -204,7 +204,7 @@ Text / html
 -   **Rund um die Winkel** : ermöglicht es Ihnen, die Winkel abzurunden (nicht
     Vergiss%, ex 50% zu setzen)
 
--   **** : Fügen Sie einen Rahmen hinzu, achten Sie auf die Syntax
+-   **Grenze** : Fügen Sie einen Rahmen hinzu, achten Sie auf die Syntax
     HTML (verwenden Sie beispielsweise die CSS-Syntax : solid
     1px schwarz)
 
@@ -214,11 +214,11 @@ Text / html
 -   **Textausrichtung** : Hier können Sie die Ausrichtung der auswählen
     Text (links / rechts / zentriert)
 
--   **** : fetter Text
+-   **Fett** : fetter Text
 
--   **** : Text im HTML-Code, der sich im Element befindet
+-   **Text** : Text im HTML-Code, der sich im Element befindet
 
-> ****
+> **Wichtig**
 >
 > Seien Sie vorsichtig, wenn Sie HTML-Code (insbesondere Javascript) eingeben
 > um es vorher zu überprüfen, weil Sie können, wenn es einen Fehler darin gibt
@@ -233,15 +233,15 @@ Anzeigeeinstellungen
 
 Keine spezifischen Anzeigeeinstellungen
 
- 
+Link 
 ====
 
 Anzeigeeinstellungen 
 ---------------------
 
--   **** : Name des Links (angezeigter Text)
+-   **Name** : Name des Links (angezeigter Text)
 
--   **** : Link zum betreffenden Design oder zur betreffenden Ansicht
+-   **Link** : Link zum betreffenden Design oder zur betreffenden Ansicht
 
 -   **Hintergrundfarbe** : ermöglicht es Ihnen, die Hintergrundfarbe oder zu ändern
     transparent machen, vergessen Sie nicht, &quot;Standard&quot; auf NEIN zu übergeben
@@ -261,9 +261,9 @@ Anzeigeeinstellungen
 -   **Textausrichtung** : Hier können Sie die Ausrichtung der auswählen
     Text (links / rechts / zentriert)
 
--   **** : fetter Text
+-   **Fett** : fetter Text
 
- 
+Ausrüstung 
 ==========
 
 Anzeigeeinstellungen 
@@ -277,7 +277,7 @@ Erweiterte Konfiguration
 Zeigt das Fenster zur erweiterten Gerätekonfiguration an (siehe
 Zusammenfassung der Hausautomationsdokumentation ("Anzeige""))
 
- 
+Bestellen 
 ========
 
 Anzeigeeinstellungen 
@@ -297,15 +297,15 @@ Bild / Kamera
 Anzeigeeinstellungen 
 ---------------------
 
--   **** : definiert, was Sie anzeigen möchten, Standbild oder
+-   **Anzeige** : definiert, was Sie anzeigen möchten, Standbild oder
     Stream von einer Kamera
 
--   **** : ermöglicht es Ihnen, das betreffende Bild zu senden (falls vorhanden)
+-   **Bild** : ermöglicht es Ihnen, das betreffende Bild zu senden (falls vorhanden)
     Wähle ein Bild)
 
 -   **Kamera** : Zu zeigende Kamera (wenn Sie Kamera gewählt haben)
 
- 
+Bereich 
 ====
 
 Anzeigeeinstellungen 
@@ -324,7 +324,7 @@ auf dem Gebiet
 ### Binäres Makro 
 
 In diesem Modus führt Jeedom die Ein- oder Ausschaltaktion (en) in aus
-abhängig vom Status der Bestellung, die Sie geben.  : wenn die Bestellung
+abhängig vom Status der Bestellung, die Sie geben. Ex : wenn die Bestellung
 ist 0 wert, dann führt Jeedom die Aktion (en) aus. Andernfalls wird sie ausgeführt
 die Aktion (en) Aus
 
@@ -339,20 +339,20 @@ für das Aus
 Wenn Sie in diesem Modus im Bereich Jeedom schweben oder klicken, werden Sie
 Zeigen Sie das betreffende Widget an
 
--   **** : Widget, das beim Bewegen oder Klicken angezeigt wird
+-   **Ausrüstung** : Widget, das beim Bewegen oder Klicken angezeigt wird
 
 -   **Show auf Überführung** : Wenn diese Option aktiviert ist, wird das Widget beim Hover angezeigt
 
 -   **Ansicht mit einem Klick** : Wenn diese Option aktiviert ist, wird das Widget unter angezeigt
     clic
 
--   **** : Hier können Sie den Ort auswählen, an dem die
+-   **Position** : Hier können Sie den Ort auswählen, an dem die
     Widget (Standard unten rechts)
 
 Zusammenfassung 
 ======
 
--   **** : Wird verwendet, um die anzuzeigende Zusammenfassung anzugeben (Allgemein für die
+-   **Link** : Wird verwendet, um die anzuzeigende Zusammenfassung anzugeben (Allgemein für die
     global sonst das Objekt angeben)
 
 -   **Hintergrundfarbe** : ermöglicht es Ihnen, die Hintergrundfarbe oder zu ändern
@@ -370,10 +370,10 @@ Zusammenfassung
 -   **Schriftgröße (ex 50%, Sie müssen das% -Zeichen setzen)** :
     Mit dieser Option können Sie die Schriftgröße ändern
 
--   **** : fetter Text
+-   **Fett** : fetter Text
 
 
- 
+Faq 
 ======
 
 >**Ich kann mein Design nicht mehr bearbeiten**

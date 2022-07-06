@@ -9,5 +9,5 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="eesmart/eesmart_icon.png" class="pluginLogo" width="100" />|eeSmart|Complemento para recuperar los datos que el módulo ERL D2L de eeemart envía al servidor de tracking.consopy.|[Documentación](https://caelion.github.io/jeedom-plugins-documentation/eeSmart/es_ES/)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3933)<br/>[Cambios](https://caelion.github.io/jeedom-plugins-documentation/eeSmart/es_ES/changelog)|
-|<img src="suiviCO2/suiviCO2_icon.png" class="pluginLogo" width="100" />|Monitoreo de CO2|Complemento para monitorear las emisiones de CO2 vinculadas a su electricidad, gas, combustible u otro consumo|[Documentación](https://agp42.github.io/suiviCO2/fr_FR)<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3929)<br/>[Cambios](https://agp42.github.io/suiviCO2/es_ES/changelog)|
+|<img src="eesmart/eesmart_icon.png" class="pluginLogo" width="100" />|eeSmart|Complemento para recuperar los datos que el módulo ERL D2L de eeemart envía al servidor de tracking.consopy.|<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3933)|
+|<img src="suiviCO2/suiviCO2_icon.png" class="pluginLogo" width="100" />|Monitoreo de CO2|Complemento para monitorear las emisiones de CO2 vinculadas a su electricidad, gas, combustible u otro consumo|<br/>[Mercado](https://market.jeedom.com/index.php?v=d&p=market_display&id=3929)|

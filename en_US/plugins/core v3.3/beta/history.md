@@ -4,7 +4,7 @@ which information type command (binary or digital). This will
 will therefore allow for example to historicize a temperature curve,
 consumption or door openings…
 
- 
+Principle 
 ========
 
 Here is described the principle of historicization of Jeedom. It is not
@@ -13,7 +13,7 @@ or want to change the settings for
 historicization. The default settings are suitable for most
 cas.
 
- 
+Archiving 
 ---------
 
 Data archiving allows Jeedom to reduce the amount of data
@@ -32,15 +32,15 @@ here 2 parameters, one for packet size and another for knowing
 when to do it (by default, these are packages
 1 hour with data that has more than 2 hours of seniority).
 
-> ****
+> **Tip**
 >
 > If you have followed well you should have a high precision on the
 > Last 2 hours only. Yet when I log in at 5 p.m,
-> I have a clarification on the last 17 hours.  ? In fact,
+> I have a clarification on the last 17 hours. Why ? In fact,
 > to avoid consuming resources unnecessarily, the task that makes
 > archiving takes place only once a day, in the evening.
 
-> ****
+> **IMPORTANT**
 >
 > Of course, this archiving principle only applies to orders from
 > digital type; on binary type commands, Jeedom does not keep
@@ -69,17 +69,17 @@ week because by default I want it to be only one week - see
 (these parameters are kept from one display to another; so you don't
 than configure them once).
 
--   **** : displays the curve as a
+-   **Staircase** : displays the curve as a
     staircase or continuous display.
 
--   **** : displays the difference in value from
+-   **Variation** : displays the difference in value from
     previous point.
 
--   **** : displays the graph as lines.
+-   **Line** : displays the graph as lines.
 
--   **** : displays the graph as an area.
+-   **Area** : displays the graph as an area.
 
--   ***** : displays the graph as bars.
+-   **Column**\* : displays the graph as bars.
 
 Graphic on views and designs 
 =====================================
@@ -91,21 +91,21 @@ the options :
 
 Once a data is activated, you can choose :
 
--   **** : the color of the curve.
+-   **Color** : the color of the curve.
 
--   **** : The type of graph (area, line or column).
+-   **Type** : The type of graph (area, line or column).
 
--   **** : since you can put several curves (data)
+-   **Ladder** : since you can put several curves (data)
     on the same graph, it is possible to distinguish the scales
     (right or left).
 
--   **** : displays the curve as a
+-   **Staircase** : displays the curve as a
     staircase or continuous display
 
--   **** : allows to stack the values of the curves (see in
+-   **Stack** : allows to stack the values of the curves (see in
     below for the result).
 
--   **** : displays the difference in value from
+-   **Variation** : displays the difference in value from
     previous point.
 
 Option on the history page 
@@ -118,14 +118,14 @@ Calculated history
 
 Used to display a curve based on a calculation on several
 command (you can pretty much do everything, + - / \* absolute value… see
-PHP documentation for certain functions).  :
+PHP documentation for certain functions). Ex :
 abs(*\ [Garden \] \ [Hygrometry \] \ [Temperature \]* - *\ [Space of
 life \] \ [Hygrometry \] \ [Temperature \]*)
 
 You also have access to a management of calculation formulas which allows you
 save them for easier viewing
 
-> ****
+> **Tip**
 >
 > Just click on the name of the object to unfold it;
 > appear the historical commands which can be graphed.
@@ -135,7 +135,7 @@ Order history
 
 In front of each data that can be graphed, you will find two icons :
 
--   **** : allows to delete the recorded data; then
+-   **Trash can** : allows to delete the recorded data; then
     of the click, Jeedom asks if it is necessary to delete the data before a
     certain date or all data.
 
@@ -151,7 +151,7 @@ question, by clicking on it directly on the graph; of
 more, you can set the minimum and maximum allowed so
 avoid future problems.
 
- 
+Timeline 
 ========
 
 The timeline displays certain events in your home automation in the form
@@ -160,22 +160,22 @@ chronologique.
 To see them, you must first activate the tracking on the timeline of
 desired commands or scenarios :
 
--   **** : either directly on the scenario page, or on the
+-   **Scenario** : either directly on the scenario page, or on the
     scenario summary page to do it in "mass"
 
--   **** : either in the advanced configuration of the command,
+-   **Ordered** : either in the advanced configuration of the command,
     either in the configuration of the history to do it in "mass"
 
-> ****
+> **Tip**
 >
 > You have access to the summary windows of the scenarios or of the
 > configuration of the history directly from the page
-> .
+> timeline.
 
 Once you&#39;ve enabled tracking in the order timeline and
 desired scenarios, you can see them appear on the timeline.
 
-> ****
+> **IMPORTANT**
 >
 > You have to wait for new events after activating tracking
 > on the timeline before seeing them appear.

@@ -1,4 +1,4 @@
- 
+Viewing 
 =========
 
 The Logs menu allows you to follow what is happening on your home automation. In the
@@ -9,23 +9,23 @@ To access it, go to Administration → Logs :
 
 The Logs page is quite simple, at the top left a drop-down list
 allowing the choice of the log to watch, at the top right you have 5
- :
+buttons :
 
--   **** : allows to filter the log poster
+-   **Search** : allows to filter the log poster
 
 -   **Pause / Resume** : allows you to pause / resume the setting
     real time log update
 
 -   **Download** : allows to download the current log,
 
--   **** : allows to empty the current log,
+-   **Empty** : allows to empty the current log,
 
--   **** : delete the current log, if Jeedom has any
+-   **Remove** : delete the current log, if Jeedom has any
     need it will recreate it automatically,
 
 -   **Delete all logs** : delete all logs present.
 
-> ****
+> **Tip**
 >
 > Note that the http log.error cannot be deleted. It is essential
 > ! if you delete it (on the command line for example) it will not

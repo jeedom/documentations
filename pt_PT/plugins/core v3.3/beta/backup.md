@@ -1,7 +1,7 @@
 Jeedom tem a possibilidade de ser salvo e restaurado de ou de
 de diferentes locais.
 
- 
+Configuração 
 =============
 
 Acessível a partir de **Administração → Backups**, esta página permite que o
@@ -11,10 +11,10 @@ Você encontrará, à esquerda, os parâmetros e botões de ação. No
 certo, esse é o status em tempo real da ação atual (backup
 ou restauração), se você lançou um.
 
-**** 
+**Backups** 
 ---------------
 
--   **** : Permite iniciar um backup manualmente e
+-   **Backups** : Permite iniciar um backup manualmente e
     imediatamente (útil se você quiser fazer uma alteração crítica.
     Isso permitirá que você volte). Você também tem um
     para iniciar um backup sem enviar o arquivo para o
@@ -87,7 +87,7 @@ ou restauração), se você lançou um.
 -   **Restaurar backup** : Inicia a restauração do backup
     samba selecionado acima.
 
-> ****
+> **IMPORTANTE**
 >
 > Os backups de Jeedom devem absolutamente cair em uma pasta apenas para ele !!! Ele excluirá tudo o que não for um backup jeedom da pasta
 
@@ -104,7 +104,7 @@ diferente porque não é possível salvar as inclusões.
 Eles estão diretamente incluídos no controlador, então você precisa
 mantenha o mesmo controlador para encontrar seus módulos Zwave.
 
-> ****
+> **NOTA**
 >
 > O sistema no qual o Jeedom está instalado não é copiado. Se
 > você modificou os parâmetros deste sistema (em particular via SSH),
@@ -117,15 +117,15 @@ O backup na nuvem permite que o Jeedom envie seus backups
 diretamente no mercado. Isso permite que você os restaure facilmente
 e certifique-se de não perdê-los. O mercado mantém os últimos 6
 backups. Para se inscrever basta ir à sua página
-**** no mercado e depois na guia **meus backups**. Vous
+**Perfil** no mercado e depois na guia **meus backups**. Vous
 pode, nesta página, recuperar um backup ou comprar um
 assinatura (por 1, 3, 6 ou 12 meses).
 
-> ****
+> **Dica**
 >
 > Você pode personalizar o nome dos arquivos de backup em
 > da guia **Minhas jeedoms**, evitando no entanto os personagens
-> .
+> exótico.
 
 Frequência de backups automáticos 
 ======================================

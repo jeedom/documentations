@@ -1,7 +1,7 @@
 Jeedom hat die Möglichkeit, von oder von gerettet und wiederhergestellt zu werden
 von verschiedenen Orten.
 
- 
+Konfiguration 
 =============
 
 Zugänglich von **Administration → Backups**, Diese Seite ermöglicht die
@@ -11,10 +11,10 @@ Links finden Sie die Parameter und Aktionsschaltflächen. Auf dem
 Richtig, dies ist der Echtzeitstatus der aktuellen Aktion (Sicherung)
 oder Wiederherstellung), wenn Sie eine gestartet haben.
 
-**** 
+**Sicherungen** 
 ---------------
 
--   **** : Ermöglicht das manuelle Starten einer Sicherung und
+-   **Sicherungen** : Ermöglicht das manuelle Starten einer Sicherung und
     sofort (nützlich, wenn Sie eine kritische Änderung vornehmen möchten.
     Auf diese Weise können Sie zurückkehren). Sie haben auch eine
     Schaltfläche, um eine Sicherung zu starten, ohne das Archiv an das zu senden
@@ -87,7 +87,7 @@ oder Wiederherstellung), wenn Sie eine gestartet haben.
 -   **Backup wiederherstellen** : Startet die Wiederherstellung der Sicherung
     Samba oben ausgewählt.
 
-> ****
+> **Wichtig**
 >
 > Jeedom-Backups dürfen nur für ihn in einen Ordner fallen !!! Es wird alles, was kein Jeedom-Backup ist, aus dem Ordner gelöscht
 
@@ -104,7 +104,7 @@ anders, weil es nicht möglich ist, die Einschlüsse zu speichern.
 Diese sind direkt im Controller enthalten, also müssen Sie
 Behalten Sie den gleichen Controller bei, um die Zwave-Module zu finden.
 
-> ****
+> **Notiz**
 >
 > Das System, auf dem Jeedom installiert ist, wird nicht gesichert. wenn
 > Sie haben die Parameter dieses Systems geändert (insbesondere über SSH),
@@ -117,15 +117,15 @@ Mit Cloud-Backups kann Jeedom Ihre Backups senden
 direkt auf dem Markt. Auf diese Weise können Sie sie einfach wiederherstellen
 und seien Sie sicher, sie nicht zu verlieren. Der Markt behält die letzten 6
 Backups. Um sich anzumelden, gehen Sie einfach auf Ihre Seite
-**** auf dem Markt, dann in der Registerkarte **meine Backups**. Vous
+**Profil** auf dem Markt, dann in der Registerkarte **meine Backups**. Vous
 kann auf dieser Seite ein Backup abrufen oder ein kaufen
 Abonnement (für 1, 3, 6 oder 12 Monate).
 
-> ****
+> **Spitze**
 >
 > Sie können den Namen der Sicherungsdateien von anpassen
 > der Registerkarte **Meine Jeedoms**, Vermeiden Sie jedoch die Zeichen
-> .
+> exotisch.
 
 Häufigkeit der automatischen Sicherungen 
 ======================================
