@@ -4,62 +4,62 @@
 
 ![module](images/greenwave.Powernode1/module.jpg)
 
-**La imagen de Jeedom**
+**El visual de Jeedom**
 
 ![vuedefaut1](images/greenwave.Powernode1/vuedefaut1.jpg)
 
 ## Resumen
 
-El módulo de enchufe GreenWave PowerNode es un dispositivo inteligente que se conecta a uno de sus electrodomésticos y dispositivos electrónicos para permitirle monitorear y controlar el consumo de energía de forma remota a través de un navegador web o un teléfono inteligente.
+El módulo de enchufe PowerNode de GreenWave es un dispositivo inteligente que se conecta a uno de sus electrodomésticos y dispositivos electrónicos para permitirle monitorear y controlar el consumo de energía de forma remota a través de un navegador web o teléfono inteligente.
 
-Usando la tecnología Z-Wave, el enchufe controlado por PowerNode es compatible con la mayoría de las cajas de domótica del mercado, como Fibaro Home Center 2, eedomus o Zipabox.
+Con la tecnología Z-Wave, el zócalo controlado por PowerNode es compatible con la mayoría de las cajas de automatización del hogar en el mercado, como Fibaro Home Center 2, eedomus o Zipabox.
 
-El módulo de enchufe PowerNode recopila datos sobre el consumo de energía del dispositivo conectado y los transmite a la caja domótica. Esta salida controlada también le permite encender o apagar el dispositivo de forma remota a través de un navegador web o un teléfono inteligente o establecer un horario para encender o apagar automáticamente su dispositivo en momentos predefinidos.
+El módulo de socket PowerNode recopila datos sobre el consumo de energía del dispositivo conectado y los transmite a la caja de automatización del hogar. Esta salida controlada también le permite activar o desactivar el dispositivo de forma remota a través de un navegador web o teléfono inteligente o definir un calendario para activar o desactivar automáticamente su dispositivo a horas preestablecidas.
 
-Una pequeña rueda en el costado del zócalo le permite elegir un color que representará la habitación a la que está asignado. Por ejemplo "azul para el dormitorio ". Este truco te permitirá diferenciar tus diferentes enchufes y regletas PowerNode. También puede ajustar esta rueda en un candado. Esta función permite bloquear el enchufe para evitar que se apague por accidente, pero el control desde la caja domótica ya no será posible.
+Una pequeña rueda en el costado del zócalo le permite elegir un color que representará la habitación a la que está asignado. Por ejemplo "azul para el dormitorio ". Este consejo le permitirá diferenciar sus diferentes enchufes PowerNode y múltiples enchufes. También puede configurar este dial en un candado. Esta función le permite bloquear el enchufe para evitar apagarlo accidentalmente, pero el control desde el boxeo de automatización del hogar ya no será posible.
 
-El tomacorriente controlado por PowerNode también tiene un indicador de estado de luz que brinda información diferente según su color : enchufes encendidos o apagados, rango de radio limitado, modo de inclusión y exclusión.
+El zócalo controlado por PowerNode también tiene un indicador de estado de luz que brinda información diferente dependiendo de su color : enchufes activados o desactivados, alcance de radio limitado, modo de inclusión y exclusión.
 
-El módulo de enchufe PowerNode está equipado con protección contra sobrecorriente para proteger el dispositivo conectado. El enchufe PowerNode se desactivará en caso de mal funcionamiento del dispositivo defectuoso o cortocircuito. El fusible interno ubicado en el zócalo proporciona protección adicional.
+El módulo de enchufe PowerNode está equipado con protección contra sobrecorriente para proteger el dispositivo conectado. El enchufe PowerNode se desactivará en caso de un dispositivo defectuoso o un cortocircuito. El fusible interno ubicado en el zócalo brinda protección adicional.
 
 ## Fonctions
 
--   Controlar una lámpara o un dispositivo de forma remota
--   Módulo de enchufe que se integra directamente entre una toma eléctrica y la carga a controlar
--   Permite monitorizar el consumo del dispositivo conectado
--   Función de encendido/apagado
--   Posibilidad de asignarle un número y un color para diferenciar los distintos PowerNodes de una misma instalación
--   Botón de encendido/apagado directamente en el enchufe
--   Protección contra la sobretensión
--   Indicador de estado brillante
+-   Controlar una lámpara o dispositivo de forma remota
+-   Módulo de enchufe que se integra directamente entre una toma de corriente y la carga a controlar
+-   Permite el monitoreo del consumo del dispositivo conectado
+-   Función ON / OFF
+-   Posibilidad de asignarle un número y un color para diferenciar los diferentes PowerNodes de la misma instalación
+-   Botón de encendido / apagado directamente en el zócalo
+-   Protección contra sobrecorriente
+-   Indicador de estado de luz
 
 ## Características técnicas
 
--   Alimento : 250V\~CA, 50Hz
+-   Suministro : 250 V CA, 50 Hz
 -   Corriente de carga máxima : 10A
--   Potencia máxima de carga : 2400W (@240V)
--   Consumo en espera : 0.4W
--   Precisión de la medición : ±0.1W
--   Protección contra la sobretensión : Fusible interno 10A
--   Tipo de enchufe : DIN49440 / CEE 7/7 (Schuko)
--   Onda Z de radiofrecuencia : 868,42 MHz
+-   Máxima potencia de carga : 2400W (@ 240V)
+-   Consumo en espera : 0.4 W
+-   Precisión de medición : ± 0.1W
+-   Protección contra sobrecorriente : Fusible interno 10A
+-   Tipo de enchufe : DIN49440 / EEC 7/7 (Schuko)
+-   Radio Frecuencia Z-Wave : 868.42MHz
 -   Rango máximo de onda Z : 30m
--   Temperatura de funcionamiento : 0°C a +25°C
--   Temperatura de almacenamiento : -20°C a +60°C
+-   Temperatura de funcionamiento : 0 ° C a + 25 ° C
+-   Temperatura de almacenamiento : -20 ° C a + 60 ° C
 -   Humedad máxima : 5% a 90%
 -   Clase IP (tolerancia a la humedad) : IP20
 
 ## Datos del módulo
 
--   Marca : GreenWave
--   Apellido : GreenWave\[1 x enchufe\]
--   Identificación del fabricante : 153
--   Tipo Producto : 2
--   Identificación de producto : 2
+-   Hacer : GreenWave
+-   Nombre : GreenWave \ [1 x enchufe \]
+-   ID del fabricante : 153
+-   Tipo de producto : 2
+-   ID del producto : 2
 
 ## Configuration
 
-Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte este [documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
 > **Importante**
 >
@@ -67,7 +67,7 @@ Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte 
 
 ![inclusion](images/greenwave.Powernode1/inclusion.jpg)
 
-Una vez incluido, debe obtener esto :
+Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/greenwave.Powernode1/information.jpg)
 
@@ -75,21 +75,21 @@ Una vez incluido, debe obtener esto :
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
-![Pedidos](images/greenwave.Powernode1/commandes.jpg)
+![Comandos](images/greenwave.Powernode1/commandes.jpg)
 
 Aquí está la lista de comandos :
 
--   Estado : Este es el comando que le permite saber el estado del socket
--   Nosotros : Este es el comando que le permite encender el zócalo
--   Apagado : Este es el comando que le permite apagar el zócalo
--   Potencia : Este es el comando que devuelve la potencia instantánea consumida
--   Consumo : Es el mando que devuelve el consumo total
+-   Estado : Es el comando que permite conocer el estado del socket
+-   Uno : Este es el comando que enciende la salida
+-   Apagado : Es el comando que hace posible extinguir la captura
+-   Potencia : Es el control que saca a relucir la potencia instantánea consumida
+-   El consumo : Es el orden que informa el consumo total
 
-Tenga en cuenta que en el tablero de instrumentos los comandos ON/OFF/ESTADO están agrupados en un solo botón.
+Tenga en cuenta que en el tablero los comandos ON / OFF / STATUS se agrupan en un solo botón.
 
-### Configuración del módulo
+### Configuracion del modulo
 
-Puede configurar el módulo de acuerdo a su instalación. Para hacer esto, debe pasar por el botón "Configuración" del complemento OpenZwave de Jeedom.
+Puede configurar el módulo de acuerdo con su instalación. Para hacer esto, vaya al botón "Configuración" del complemento OpenZwave de Jeedom.
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
@@ -101,27 +101,27 @@ Como puede ver, no hay mucha configuración para este módulo.
 
 Detalles del parámetro :
 
--   1 : Retraso antes de que el botón parpadee : número mínimo de segundos entre dos comunicaciones (si se supera este tiempo, el botón del enchufe parpadeará))
+-   1 : Retraso antes de que el botón parpadee : número mínimo de segundos entre dos comunicaciones (si se excede este tiempo, el botón del socket parpadeará))
 -   2 : Color de rueda seleccionado (detectado automáticamente)
 
 ### Groupes
 
-Este módulo tiene cuatro grupos de asociación, solo el 3er grupo es esencial.
+Este módulo tiene cuatro grupos de asociación, solo el tercer grupo es esencial.
 
 ![Groupe](images/greenwave.Powernode1/groupe.jpg)
 
 ## Bueno saber
 
-A diferencia de su hermano mayor multi-socket, este socket no requiere sondeo para aumentar el consumo.
+A diferencia de su socket múltiple hermana mayor, este socket no requiere sondeo para aumentar el consumo.
 
 ### Reset
 
 ![Config2](images/greenwave.Powernode1/config2.jpg)
 
-Puede restablecer su contador de consumo haciendo clic en este botón disponible en la pestaña Sistema. Tienes que elegir PressButton.
+Puede restablecer su medidor de consumo haciendo clic en este botón disponible en la pestaña Sistema. Elija PressButton.
 
-### Especificidades
+### Específicos
 
 ## Wakeup
 
-No hay concepto de despertar en este módulo.
+No hay noción de activación en este módulo.

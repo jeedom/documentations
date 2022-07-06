@@ -1,10 +1,10 @@
 # Z-wave module documentation
 
-You will find here the documentation that we have deemed useful to do on certain Z-wave modules.
+You will find here the documentation that we deemed useful to do on some Z-wave module.
 
 As a reminder, you can find the list of compatible equipment [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openzwave) and [here](https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/) plugin documentation.
 
-- [Aotec Key fob](aeotec.keyfob_-_Telecommande.md)
+- [Aotec Keyfob](aeotec.keyfob_-_Telecommande.md)
 - [Aotec Keyfob Gen 5](aeotec.keyfob_Gen5_-_Telecommande.md)
 - [Aotec minimote](aeotec.minimote_-_Telecommande.md)
 - [Aotec pannic button](aeotec.panic_button_-_Telecommande.md)
@@ -25,14 +25,14 @@ As a reminder, you can find the list of compatible equipment [here](https://comp
 - [Fibaro fgrm222](fibaro.fgrm222_-_Volets.md)
 - [Fibaro fgsd102](fibaro.fgsd102_-_Fumees.md)
 - [Fibaro fgwpe101](fibaro.fgwpe101_-_Wall_Plug.md)
-- [Greenwave Powernode Socket](greenwave.Powernode1_-_Prise.md)
-- [Greenwave Powernode Multi-socket](greenwave.powernode_-_Multiprise.md)
+- [Greenwave Powernode Plug](greenwave.Powernode1_-_Prise.md)
+- [Greenwave Powernode Multi-plug](greenwave.powernode_-_Multiprise.md)
 - [MCO Double Switch](mco.MH-S412_Double_-_Interrupteur.md)
 - [Nodon Soft Remote](nodon.Soft_-_Remote_-_Telecommande.md)
 - [Nodon Octan Remote](nodon.octan_-_Remote_-_Telecommande.md)
 - [Nodon Smartplug](nodon.smartplug_-_Prise.md)
 - [Nodon Wall Switch](nodon.wall_-_Switch_-_Interrupteur.md)
-- [Philio psp01](philio.psp01_-_Multicapteurs.md)
+- [Philio PSP01](philio.psp01_-_Multicapteurs.md)
 - [Philio psr04](philio.psr04_-_Smart_Color_Button.md)
 - [Philio pst02a](philio.pst02a_-_4_en_1.md)
 - [Philio pst02](philio.pst02c_-_3_en_1_Ouverture.md)
@@ -42,5 +42,5 @@ As a reminder, you can find the list of compatible equipment [here](https://comp
 - [Secure ses303](secure.ses303_-_Temperature_Humidite.md)
 - [Secure sir321](secure.sir321_-_Timer.md)
 - [Secure srt323](secure.srt323_-_Thermostat.md)
-- [Swiid Switch Cord](swiid.inter_-_Interrupteur_Cordon.md)
+- [Swiid SwitchCordon](swiid.inter_-_Interrupteur_Cordon.md)
 - [Zipato minikeypad](zipato.minikeypad_-_Clavier_Rfid.md)

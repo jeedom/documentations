@@ -4,65 +4,65 @@
 
 ![module](images/philio.psr04/module.jpg)
 
-**La imagen de Jeedom**
+**El visual de Jeedom**
 
 ![vuedefaut1](images/philio.psr04/vuedefaut1.jpg)
 
 ## Resumen
 
-Este interruptor de diseño exclusivo ofrece varias funciones. Puedes usarlo para encender, apagar o regular la iluminación, ajustar la posición de tus persianas, programar la temperatura del termostato o usarlo como temporizador.
+Este interruptor de diseño único ofrece varias funciones. Puede usarlo para encender, apagar o atenuar las luces, ajustar la posición de sus persianas, ajustar la temperatura del termostato o usarlo como temporizador.
 
-Una vez incluido en su red Z-Wave, el conmutador Philio PSR04 deberá vincularse con los dispositivos que desea controlar. Solo puede funcionar por asociación directa con periféricos y no puede iniciar escenas creadas en su controlador domótico Z-Wave.
+Una vez incluido en su red Z-Wave, el conmutador PSR04 de Philio debe estar asociado con los dispositivos que desea controlar. Solo puede funcionar por asociación directa con periféricos, y no puede iniciar escenas creadas en su controlador de automatización del hogar Z-Wave.
 
-Utilizado como dimmer, tiene el mismo comportamiento que un dimmer tradicional. Gire la perilla hacia la derecha para aumentar la luz y hacia la izquierda para disminuirla.
+Utilizado como un atenuador, tiene el mismo comportamiento que un atenuador tradicional. Gire la perilla hacia la derecha para aumentar la luz y hacia la izquierda para disminuirla.
 
-Además, puedes mover y posicionar fácilmente este interruptor en el lugar que elijas gracias a su soporte magnético. Su diseño impermeable permite instalarlo en un lugar con mucha humedad como un baño.
+Además, puede mover y colocar fácilmente este interruptor en la ubicación que elija gracias a su soporte magnético. Su diseño resistente al agua permite su instalación en un lugar con alta humedad, como un baño.
 
-Utiliza el último chip de la serie Z-Wave 500, lo que proporciona un aumento del 50 % en el alcance de la radio y una velocidad de comunicación un 250 % más rápida en comparación con los productos Z-Wave anteriores, así como un menor consumo de energía, lo que permite una mayor autonomía.
+Utiliza el último chip de la serie Z-Wave 500, que ofrece un aumento del 50% en el alcance de la radio y una velocidad de comunicación 250% más rápida en comparación con los productos Z-Wave anteriores, así como un menor consumo de energía. permitiendo una mayor autonomía.
 
 ## Fonctions
 
--   Interruptor multifunción
--   Tecnología Z-Wave+
--   Función ON/OFF y regulación (iluminación o persianas))
--   Función de temporizador integrada
+-   Interruptor multifuncional
+-   Tecnología Z-Wave +
+-   Función de encendido / apagado y atenuación (iluminación o persianas)
+-   Función de temporizador integrado
 -   Etanche
 -   Se adapta a cualquier estilo de decoración
 -   Batería recargable
 -   Muy bajo consumo de energía
--   Batería de larga duración (6 meses por carga))
+-   Batería de larga duración (6 meses por carga)
 -   Soporte magnético
--   Indicadores LED RGBW
+-   LED de indicación RGBW
 -   Fácil de instalar
 
 ## Características técnicas
 
--   Alimento : Batería de polímero de litio 3.Duración de la batería de 7 V, 220 mA : 6 meses por 2h de carga
+-   Suministro : Batería de polímero de litio 3.7V, 220mA v Duración de la batería : 6 meses por 2 horas de carga
 -   Consumo en espera : 18µA
 -   Consumo en funcionamiento : 45mA
 -   Frecuencia : 868.42 MHz
--   Distancia de transmisión : 100m al aire libre, 40m en el interior
--   Dimensiones : Apoyo : 71,16 x 10,94 mm (diámetro x espesor) Botón : 59,99 x 14,89 mm (diámetro x grosor) Soporte + Botón : 71,16 x 17,22 mm (diámetro x espesor) Certificaciones : 
+-   Distancia de transmisión : 100m en exteriores, 40m en interiores
+-   Dimensiones : Apoyo : Botón 71,16 x 10,94 mm (diámetro x grosor) : 59.99 x 14.89 mm (diámetro x grosor) Soporte + botón : Certificaciones de 71.16 x 17.22 mm (grosor diametrex) : EN 301 489-1, EN 301 489-3 EN 300 220-1, EN 300 220-2 EN62479, EN60950 FCC Parte 15 B, FCC Parte 15 C
 
 ## Datos del módulo
 
--   Marca : Philio
--   Apellido : Botón de color inteligente PSR04
--   Identificación del fabricante : 316
--   Tipo Producto : 9
--   Identificación de producto : 34
+-   Hacer : Philio
+-   Nombre : Botón de color inteligente PSR04
+-   ID del fabricante : 316
+-   Tipo de producto : 9
+-   ID del producto : 34
 
 ## Configuration
 
-Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte este [documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
 > **Importante**
 >
-> .
+> Para poner este módulo en modo de inclusión, colóquelo en la posición baja (inclusión) y presione el botón, de acuerdo con su documentación en papel.
 
 ![inclusion](images/philio.psr04/inclusion.jpg)
 
-Una vez incluido, debe obtener esto :
+Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/philio.psr04/information.jpg)
 
@@ -70,59 +70,59 @@ Una vez incluido, debe obtener esto :
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
-![Pedidos](images/philio.psr04/commandes.jpg)
+![Comandos](images/philio.psr04/commandes.jpg)
 
 Aquí está la lista de comandos :
 
--   Estado : 
--   Batería : 
+-   Estado : es el comando que elevará la posición del botón de 0 a 100%
+-   Batería : es el comando que informa el estado de la batería del módulo
 
-### Configuración del módulo
+### Configuracion del modulo
 
 > **Importante**
 >
-> Durante una primera inclusión, siempre despierte el módulo justo después de la inclusión.
+> Durante una primera inclusión, siempre active el módulo justo después de la inclusión.
 
-Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento Jeedom OpenZwave.
+Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento OpenZwave de Jeedom.
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña de configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/philio.psr04/config1.jpg)
 
 Detalles del parámetro :
 
--   1: )
--   2 : )
--   10 : 
--   25 : 
--   26 : )
+-   1: define el límite más bajo (posición completamente a la izquierda)
+-   2 : define el terminal más alto (posición completamente a la derecha)
+-   10 : intervalo de tiempo de ascenso de la batería
+-   25 : permite definir si el módulo envía su posición automáticamente después de la rotación (1s de retraso) o si es necesario presionar el botón para validar el envío
+-   26 : activa el envío de la escena o no al presionar el botón central (parámetro no tomado en cuenta en Jeedom)
 
 ### Groupes
 
-Este módulo tiene dos grupos de asociación, el primero es el único esencial. 
+Este módulo tiene dos grupos de asociación, el primero es el único esencial. El segundo permite subir la posición a Jeedom
 
 ![Groupe](images/philio.psr04/groupe.jpg)
 
 ## Bueno saber
 
-### Especificidades
+### Específicos
 
 Para usar este módulo como control remoto, proceda de la siguiente manera :
 
--   
+-   Agregue el controlador en el grupo 2
 
-. )
+De hecho, este tipo de módulo no está hecho para interactuar directamente con una caja, sino directamente con otros módulos. Sin embargo, al agregar Jeedom al grupo 2, esto le permite recibir la posición del botón y, por lo tanto, usarlo para controlar un escenario (por ejemplo, ajustar un volumen)
 
 ## Wakeup
 
-Para activar este módulo solo hay una forma de proceder :
+Para activar este módulo, solo hay una forma :
 
--   
+-   coloque el módulo en la posición baja y presione el botón
 
-## Nota IMPORTANTE
+## Nota importante
 
 > **Importante**
 >
-> Tienes que despertar el módulo : tras su inclusión, tras un cambio de configuración, tras un cambio de wakeup, tras un cambio de grupos de asociación
+> Tienes que despertar el módulo : después de su inclusión, después de un cambio en la configuración, después de un cambio en la activación, después de un cambio en los grupos de asociación

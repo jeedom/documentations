@@ -1,57 +1,57 @@
-# Mando a distancia Nodon - Mando a distancia suave
+# Control remoto Nodon - Control remoto suave
 
 **El módulo**
 
 ![module](images/nodon.softremote/module.jpg)
 
-**La imagen de Jeedom**
+**El visual de Jeedom**
 
 ![vuedefaut1](images/nodon.softremote/vuedefaut1.png)
 
 ## Resumen
 
-El NodOn® Soft Remote puede controlar directamente cualquier dispositivo compatible con Z-Wave® o Z-Wave Plus®, como el NodOn® Smart Plug.
+El Soft Remote NodOn® puede controlar directamente cualquier dispositivo compatible con Z-Wave® o Z-Wave Plus®, como el enchufe inteligente NodOn®.
 
-También puede activar escenas a través de una unidad de automatización del hogar compatible.
+También puede activar escenas a través de un centro de automatización del hogar compatible.
 
 ## Fonctions
 
--   Controla cualquier dispositivo habilitado para Z-Wave
+-   Controla cualquier dispositivo compatible con Z-Wave
 -   Resistente a golpes y salpicaduras
--   Se puede colocar en cualquier lugar gracias a su imán integrado
+-   Se adhiere a todas partes gracias a su imán integrado
 -   6 colores disponibles
 
 ## Características técnicas
 
--   Alimento : Pila CR2032 – Autonomía 1,5 - 2 años
+-   Suministro : Batería CR2032 - Autonomía 1,5 - 2 años
 -   4 botones
--   Imán integrado para fijación a superficies metálicas
+-   Imán integrado para fijación a superficie metálica
 -   Resistente a golpes y salpicaduras
--   Temperatura de funcionamiento : 0°C a 40°C - Altitud : 2000m
--   Protocolo inalámbrico Z-Wave® : 868.4MHz – Serie 500 – Compatible Z-Wave Plus® SDK 06.51.06
--   Alcance : 40m interior / 80m exterior
--   Dimensiones 56\*56\*20mm
--   2 años de garantía
+-   Temperatura de funcionamiento : 0 ° C a 40 ° C - Altitud : 2000m
+-   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con Z-Wave Plus® SDK 06.51.06
+-   Alcance : 40m en interiores / 80m en exteriores
+-   Dimensiones 56 \*56 \*20mm
+-   2 años de garantia
 
 ## Datos del módulo
 
--   Marca : Nodon
--   Apellido : Control remoto suave CRC-3-6-0x
--   Identificación del fabricante : 357
--   Tipo Producto : 2
--   Identificación de producto : 2
+-   Hacer : Nodon
+-   Nombre : CRC-3-6-0x Control remoto suave
+-   ID del fabricante : 357
+-   Tipo de producto : 2
+-   ID del producto : 2
 
 ## Configuration
 
-Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte este [documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
 > **Importante**
 >
-> Para poner este módulo en modo de inclusión, debe presionar los dos botones (+ y 0 completo) hasta que la luz se vuelva rosa y luego presione el botón +, de acuerdo con su documentación en papel.
+> Para poner este módulo en modo de inclusión, presione los dos botones (+ y 0 completos) hasta que la luz se vuelva rosa, luego presione el botón +, de acuerdo con su documentación en papel.
 
 ![inclusion](images/nodon.softremote/inclusion.jpg)
 
-Una vez incluido, debe obtener esto :
+Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/nodon.softremote/information.png)
 
@@ -59,46 +59,46 @@ Una vez incluido, debe obtener esto :
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
-![Pedidos](images/nodon.softremote/commandes.png)
+![Comandos](images/nodon.softremote/commandes.png)
 
 Aquí está la lista de comandos :
 
--   Botones : este es el comando que levantara el boton presionado
+-   Botones : es el comando que empujará el botón hacia arriba
 
-+----------------+----------------+--------------- -++----------------+----------------+
-| Botones        | Apoyo          | Pulsación larga     | Liberar    | Soporte doble   |
-+================+================+=============== =+================+================+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
+| Botones        | Apoyo          | Pulsación larga     | Relajamiento    | Doble soporte   |
++ ================ + ================ + ================ = + ================ + ================= +
 | **1 (0         | 10             | 12             | 11             | 13             |
 | plein)**       |                |                |                |                |
-+----------------+----------------+--------------- -++----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **2 (+)**      | 20             | 22             | 21             | 23             |
-+----------------+----------------+--------------- -++----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **3 (0 vacío)** | 30             | 32             | 31             | 33             |
-+----------------+----------------+--------------- -++----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **4 (-)**      | 40             | 42             | 41             | 43             |
-+----------------+----------------+--------------- -++----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
--   Batería : este es el comando que sube el nivel de la bateria
+-   Batería : es el comando que eleva el nivel de las baterías
 
-### Configuración del módulo
+### Configuracion del modulo
 
 > **Importante**
 >
-> Durante una primera inclusión, siempre despierte el módulo justo después de la inclusión.
+> Durante una primera inclusión, siempre active el módulo justo después de la inclusión.
 
-Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento Jeedom OpenZwave.
+Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento OpenZwave de Jeedom.
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña de configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/nodon.softremote/config1.png)
 
 Detalles del parámetro :
 
--   1-2 : Le permite elegir el perfil de los botones en caso de uso central (inútil para usar en Jeedom)
--   3 : Parámetro importante para decir si el interruptor debe funcionar en el modo Escena o Escena central (Absolutamente poner Escena)
--   4-7 : Elegir el modo de funcionamiento de los botones (en caso de asociaciones de grupos)
+-   1-2 : Le permite elegir el perfil de los botones cuando se usa centralmente (inútil para usar en Jeedom)
+-   3 : Parámetro importante para decir si el interruptor debe funcionar en el modo Escena o Escena central (Configuración de escena absolutamente)
+-   4-7 : Elija el modo de funcionamiento del botón (en caso de asociaciones de grupo)
 -   8 : Le permite elegir el modo de funcionamiento del LED
 
 ### Groupes
@@ -107,7 +107,7 @@ Este módulo tiene 7 grupos de asociación.
 
 ![Groupe](images/nodon.softremote/groupe.png)
 
--   Grupo 1 – Línea de vida : Este grupo generalmente se usa para reportar información del Smart Plug al controlador de red principal.
+-   Grupo 1 - Línea de vida : Este grupo se usa generalmente para informar información del Smart Plug al controlador de red principal.
 -   Grupo 2 a 5: los dispositivos de estos grupos se controlan mediante el botón correspondiente según el perfil MONO
 -   Grupo 6 a 7: los dispositivos de estos grupos se controlan mediante los botones correspondientes según el perfil DUO
 
@@ -117,16 +117,16 @@ Este módulo tiene 7 grupos de asociación.
 
 ## Bueno saber
 
-### Especificidades
+### Específicos
 
--   Este módulo puede ser temperamental cuando se incluye. No dude en despertarlo una o dos veces después de la inclusión. Bueno, revisa el grupo de la asociación.
+-   Este módulo puede ser complicado en la inclusión. No dudes en despertarlo 1 o 2 veces después de la inclusión. Bueno revisa el grupo de asociación.
 
 ## Wakeup
 
-Para activar este módulo, simplemente presione uno de los botones
+Para activar este módulo, solo presione uno de los botones
 
-## Nota IMPORTANTE
+## Nota importante
 
 > **Importante**
 >
-> Tienes que despertar el módulo : tras su inclusión, tras un cambio de configuración, tras un cambio de wakeup, tras un cambio de grupos de asociación
+> Tienes que despertar el módulo : después de su inclusión, después de un cambio en la configuración, después de un cambio en la activación, después de un cambio en los grupos de asociación

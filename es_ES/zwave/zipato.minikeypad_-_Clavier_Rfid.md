@@ -1,64 +1,64 @@
-# 
+# Zipato miniKeypad RFID
 
 **El módulo**
 
 ![module](images/zipato.minikeypad/module.jpg)
 
-**La imagen de Jeedom**
+**El visual de Jeedom**
 
 ![vuedefaut1](images/zipato.minikeypad/vuedefaut1.jpg)
 
 ## Resumen
 
- !
+Controle su sistema de seguridad con este mini teclado de pared Zipato !
 
-. . . . .
+Con este teclado RFID compatible con Z-Wave, podrá activar o desactivar fácilmente su sistema de alarma. Las teclas "Inicio" y "Ausente" le permiten armar / desarmar el sistema de seguridad y / o ejecutar escenarios de automatización del hogar rápidamente. Además de usar el teclado numérico, también puede pasar una placa RFID frente al teclado para armar / desarmar el sistema. El teclado transmite a su controlador de automatización del hogar el identificador de la insignia que ha sido reconocida. Por lo tanto, puede crear fácilmente escenarios de acuerdo con la persona que usó su insignia.
 
 ## Fonctions
 
--   
--   
--   
--   
--   
--   Protección contra manipulación
--   
--   
+-   Código y teclado RFID
+-   Admite la tecnología Z-Wave
+-   Arme / desarme su sistema de seguridad
+-   Control de acceso mediante la lectura de credenciales RFID
+-   Control de acceso por teclado numérico
+-   Protección contra manipulaciones
+-   Indicador LED para confirmar cada acción
+-   Zumbador integrado para la indicación audible de alarma de armado / desarmado, por ejemplo
 
 ## Características técnicas
 
--   Tipo : 
--   Alimento : 
+-   Tipo : Esclavo Z-Wave
+-   Suministro : 2 pilas AA 1.5V
 -   Frecuencia : 868.42 MHz
--    : 
--    : 
--    : 
--   Temperatura de almacenamiento : -
--    : 
--   Temperatura de funcionamiento : 
--    : 
--   Dimensiones : 
--   Certificados :  :  : 
+-   Rango de radio : 30m en campo abierto
+-   Protocolo RFID : ISO15693, ISO18000-3, Tag-it ™, RFID
+-   Zumbador : 60dBa a 10 cm de distancia
+-   Temperatura de almacenamiento : -5 ° C a + 65 ° C
+-   Humedad para almacenamiento : 10% a 70%
+-   Temperatura de funcionamiento : 10 ° C a 40 ° C
+-   Humedad de funcionamiento : 30% a 80%
+-   Dimensiones : 62 x 62 x 20 mm
+-   Certificaciones : Seguridad : UL EMC : FCC, CE RoHS
 
 ## Datos del módulo
 
--   Marca : Zipato
--   Apellido : 
--   Identificación del fabricante : 151
--   Tipo Producto : 24881
--   Identificación de producto : 17665
+-   Hacer : Zipato
+-   Nombre : Mini teclado Zipato RFID
+-   ID del fabricante : 151
+-   Tipo de producto : 24881
+-   ID del producto : 17665
 
 ## Configuration
 
-Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte este [documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
 > **Importante**
 >
-> .
+> Para poner este módulo en modo de inclusión, solo presione la pestaña de metal durante dos segundos (el LED rojo en el panel frontal debe parpadear dos veces) y suelte la pestaña para que tenga lugar la inclusión.
 
 ![inclusion](images/zipato.minikeypad//inclusion.jpg)
 
-Una vez incluido, debe obtener esto :
+Una vez incluido, deberías obtener esto :
 
 ![information](images/zipato.minikeypad/information.jpg)
 
@@ -70,18 +70,18 @@ Una vez que se reconoce el módulo, los comandos asociados con el módulo estar�
 
 Aquí está la lista de comandos :
 
--    : )
--   Sabotaje : este es el comando de sabotaje (se activa en caso de rotura)
--    : 
--   Batería : este es el comando de la bateria
+-   Acción : es el comando que subirá a casa / fuera (5 para fuera 6 para casa)
+-   Sabotaje : Este es el comando de sabotaje (se activa en caso de desgarro)
+-   CODIGO : muestra la insignia o el código del teclado cuando el código ingresado no está en una de las memorias
+-   Batería : es el comando de la batería
 
-### Configuración del módulo
+### Configuracion del modulo
 
 > **Importante**
 >
-> Durante una primera inclusión, siempre despierte el módulo justo después de la inclusión.
+> Durante una primera inclusión, siempre active el módulo justo después de la inclusión.
 
-.
+Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento Jeedom OpenZwave.
 
 ![bouton configuration](images/plugin/bouton_configuration.jpg)
 
@@ -91,11 +91,11 @@ Llegará a esta página (después de hacer clic en la pestaña Configuración)
 
 Detalles del parámetro :
 
--   1: )
--   2: )
--   3:  : 
--   4: )
--   5:  : )
+-   1: permite restablecer la configuración predeterminada (no recomendado)
+-   2: período de cancelación (no se debe cambiar)
+-   3: volver por pitido : permite activar o no una serie de 8 pitidos después del reconocimiento de una insignia / código
+-   4: cantidad de pitidos por segundo (no cambiar no tiene efecto)
+-   5: modo de operación : modo normal o siempre despierto (no recomendado porque consume mucha batería)
 
 ### Groupes
 
@@ -105,22 +105,22 @@ Este módulo tiene dos grupos de asociación.
 
 > **Importante**
 >
-> Para un funcionamiento óptimo de su módulo. .
+> Para un funcionamiento óptimo de su módulo. Jeedom debe estar asociado al menos con el grupo 1.
 
-### 
+### Insignias / códigos
 
-.
+En la página del equipo hay una pestaña Asistente.
 
 ![bouton assistant](images/plugin/bouton_assistant.jpg)
 
-. .
+Esto le permite agregar códigos. Verás una mesa allí.
 
 ![config2](images/zipato.minikeypad/config2.jpg)
 
--   
--   
--   Para eliminar un código, simplemente haga clic en el botón rojo.
--   Es imposible guardar el mismo código/credencial en dos memorias diferentes
+-   Esta tabla le permite ver los recuerdos ocupados en su teclado
+-   Para registrar un nuevo código, haga clic en el botón verde en la memoria deseada y siga los pasos
+-   Para eliminar un código simplemente haga clic en el botón rojo.
+-   Es imposible guardar el mismo código / insignia en dos memorias diferentes
 -   Es imposible (por razones de seguridad) leer el valor de un código registrado
 
 > **Importante**
@@ -131,26 +131,26 @@ Este módulo tiene dos grupos de asociación.
 
 ![exemple](images/zipato.minikeypad/exemple.jpg)
 
-El activador es el comando de evento, de hecho, se actualiza solo cuando se presenta un código/distintivo válido. Si el valor es 6 (casa) se desactiva la alarma (por ejemplo), o se enciende la regleta, se enciende la luz según la luminosidad, se envía una notificación para indicar que alguien ha vuelto, se lanza un resumen voz para hacer un reporte del tiempo por ejemplo. En caso contrario (necesariamente 5) activamos la alarma, cortamos la regleta, enviamos una notificación para indicar que la casa está vacía.
+El disparador es el comando de evento, de hecho, solo se actualiza cuando se ha presentado un código / insignia válido. Si el valor es 6 (inicio) desactivamos la alarma (por ejemplo), o encendemos la regleta, encendemos la luz según el brillo, enviamos una notificación para indicar que alguien ha regresado, lanzamos una síntesis voz para hacer un informe meteorológico, por ejemplo. De lo contrario (necesariamente 5) activamos la alarma, cortamos la regleta de alimentación, enviamos una notificación para indicar que la casa está vacía.
 
 ## Bueno saber
 
-### Especificidades
+### Específicos
 
-El teclado lee códigos/distintivos de dos formas :
+El teclado lee códigos / insignias de dos maneras :
 
--   cuando presiona inicio/fuera durante los primeros 1-2 segundos si comienza a escribir un código, leerá ese código
--   si no se hace nada en los primeros 1-2 segundos, pasa al modo de lectura de tarjeta RFID (luz roja encendida)). En este momento puede leer una placa, no antes.
+-   cuando presiona home / away durante los primeros 1 a 2 segundos si comienza a escribir un código, leerá ese código
+-   Si no se hace nada dentro de los primeros 1 a 2 segundos, entra en modo de lectura de identificación RFID (luz roja encendida). En ese momento puede leer una placa, no antes.
 
 ## Wakeup
 
-Para activar este módulo hay dos formas de proceder :
+Para activar este módulo, hay dos formas de proceder :
 
 -   presione el botón de manipulación y luego suéltelo después de 1 a 2 segundos
--   presione Inicio, un número aleatorio y Entrar
+-   presione Inicio, un número aleatorio e Ingrese
 
-## Nota IMPORTANTE
+## Nota importante
 
 > **Importante**
 >
-> Tienes que despertar el módulo : tras su inclusión, tras un cambio de configuración, tras un cambio de wake up, tras un cambio de grupos de asociación
+> Tienes que despertar el módulo : después de su inclusión, después de un cambio en la configuración, después de un cambio en el despertar, después de un cambio en los grupos de asociación

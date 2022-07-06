@@ -1,22 +1,22 @@
 # Präsentation
 
-Jeedom ist eine kostenlose Open-Source-Software, die auf jedem Linux-System installiert werden kann. Es ist Kernel-basiert mit mehreren Funktionen : Szenarioverwaltung, Text- und Toninteraktion mit dem Hausautomationssystem, Anzeige von Protokollen und Generierung von Kurven und Grafiken, Verknüpfung aller Geräte und angeschlossenen Objekte, Anpassung der Benutzeroberfläche ... Die klare und intuitive Oberfläche ermöglicht Ihnen die Einrichtung einer vollständigen Lösung ohne Entwicklungskenntnisse.
+Jeedom ist eine kostenlose Open-Source-Software, die auf jedem Linux-System installiert werden kann. Es basiert auf einem Kernel mit mehreren Funktionen : Szenariomanagement, Text- und Toninteraktion mit der Installation der Hausautomation, Visualisierung von Historien und Generierung von Kurven und Grafiken, Verknüpfung aller Geräte und verbundenen Objekte, Anpassung der Benutzeroberfläche ... Die übersichtliche Benutzeroberfläche und Mit intuitiv können Sie eine Komplettlösung ohne Entwicklungskenntnisse einrichten.
 
-Jeedom benötigt für den Betrieb keinen Zugriff auf externe Server. Ihre gesamte Installation wird lokal verwaltet und Sie sind daher die einzigen, die darauf Zugriff haben, um absolute Vertraulichkeit zu gewährleisten.
+Jeedom benötigt für den Betrieb keinen Zugriff auf externe Server. Ihre gesamte Installation wird lokal verwaltet und Sie sind daher die einzigen, die Zugriff darauf haben, um vollständige Vertraulichkeit zu gewährleisten.
 
-Dank seiner Flexibilität und zahlreichen Anpassungsparametern kann jeder Benutzer seine eigene Jeedom-Heimautomatisierung erstellen. Mit Widgets, Ansichten und Designs haben Sie die völlige Freiheit, sich Ihre eigene Benutzeroberfläche vorzustellen, wenn Sie dies wünschen.
+Dank seiner Flexibilität und zahlreichen Anpassungsparametern kann jeder Benutzer seine eigene Jeedom-Hausautomation erstellen. Mit Widgets, Ansichten und Designs können Sie sich auf Wunsch Ihre eigene Benutzeroberfläche vorstellen.
 
-Jeedom ermöglicht viele Möglichkeiten, einschließlich :
+Jeedom bietet viele Möglichkeiten einschließlich :
 
-- Verwalten Sie die Sicherheit von Gütern und Personen,
-- Automatisieren Sie die Heizung für mehr Komfort und Energieeinsparungen,
-- Visualisieren und verwalten Sie den Energieverbrauch, um Ausgaben zu antizipieren und den Verbrauch zu reduzieren,
+- Verwalten Sie die Sicherheit von Waren und Personen,
+- Automatisieren Sie die Heizung für besseren Komfort und Energieeinsparungen,
+- Visualisieren und verwalten Sie den Energieverbrauch, um Ausgaben zu antizipieren und den Verbrauch zu senken,
 - Kommunizieren Sie per Sprache, SMS, E-Mail oder mobilen Anwendungen,
-- Verwalten Sie alle Automatisierungen des Hauses, Rollläden, Tore, Lichter usw.,
-- Verwalten Sie Audio- und Video-Multimediageräte und verbundene Objekte.
+- Verwalten Sie alle Automatisierungen im Haus, Fensterläden, Tore, Lichter usw.,
+- Verwalten Sie Audio- und Video-Multimedia-Geräte sowie verbundene Objekte.
 
 
-Jeedom basiert auf dem Core (dem Kernel), der die Struktur und die zentralen Funktionen einbettet.
+Jeedom basiert auf dem Kern und bettet die Struktur und die zentralen Funktionen ein.
 
 Anders [Plugins](https://market.jeedom.com) kann dann neue Funktionen vorschlagen.
 
@@ -24,7 +24,7 @@ Der Kern umfasst unter anderem :
 
 ## Dashboard / Zusammenfassung
 
-*Geräte, einschließlich Aktoren oder Sensoren, werden nach Objekten organisiert. Objekte können beispielsweise physische Teile darstellen*.
+*Geräte, einschließlich Aktuatoren oder Sensoren, sind nach Objekten organisiert. Objekte können beispielsweise physische Teile darstellen*.
 
 [Synthese](/de_DE/core/4.1/overview)
 
@@ -37,55 +37,55 @@ Der Kern umfasst unter anderem :
 
 ## Historiques
 
-*Alle Informationen können protokolliert werden (Temperaturkurven, Verbrauch, Türöffnungen usw.) und in Analyse → Verlauf oder über die Dashboard-Kacheln zugänglich sein.*
+*Alle Informationen können historisiert werden (Temperaturkurven, Verbrauch, Türöffnungen usw.) und können unter Analyse → Verlauf oder über die Dashboard-Kacheln abgerufen werden.*
 
-[Historisch](/de_DE/core/4.1/history)
+[Chronik](/de_DE/core/4.1/history)
 
 [Zeitleiste](/de_DE/core/4.1/timeline)
 
-![Page Historisch](images/doc-presentation-historique.jpg)
+![Page Chronik](images/doc-presentation-historique.jpg)
 
 ## Szenarien
 
-*Szenarien ermöglichen es Ihnen, Ihre Ausrüstung ganz oder teilweise zu automatisieren. Sie sind mit verschiedenen Blöcken aufgebaut. Bedingte Blöcke (If, Then, Else), Aktionen, Programmierung (IN x Minuten oder At hhmm), Schleifen, Kommentare oder PHP-Code. Alle Blöcke sind ineinander verschachtelbar und bieten endlose Möglichkeiten.*
+*Mithilfe von Szenarien können Sie Ihre Geräte ganz oder teilweise automatisieren. Sie sind mit verschiedenen Blöcken gebaut. Bedingte Blöcke (If, Then, Else), Aktionen, Programmierung (IN x Minuten oder A hhmm), Schleife, Kommentar oder PHP-Code. Alle Blöcke sind ineinander verschachtelbar und bieten endlose Möglichkeiten.*
 
-[Mein erstes Drehbuch](/de_DE/concept/#tocAnchor-4)
+[Mein erstes Szenario](/de_DE/concept/#tocAnchor-4)
 
 ![Page Scénario](images/doc-presentation-scenario.jpg)
 
-## Erstellung von Widgets
+## Widget-Erstellung
 
-*Jeedom bietet eine Engine zur Erstellung von Widgets für die Gerätesteuerung. So können Sie zusätzlich zu den Basis-Widgets Ihre eigenen Widgets erstellen. Für fortgeschrittene Benutzer ist die Erstellung von Widgets auch direkt aus dem Code möglich.*
+*Jeedom bietet eine Widget-Erstellungs-Engine für Ausrüstungsbestellungen. Auf diese Weise können Sie zusätzlich zu den grundlegenden Widgets Ihre eigenen Widgets erstellen. Widgets können für fortgeschrittene Benutzer auch direkt aus Code erstellt werden.*
 
 ![Widgets](images/doc-presentation-widgets.jpg)
 
 ## Interactions
 
-*Das Interaktionssystem in Jeedom ermöglicht es Ihnen, Aktionen über Text- oder Sprachbefehle auszuführen.*
+*Mit dem Interaktionssystem in Jeedom können Sie Aktionen über Text- oder Sprachbefehle ausführen.*
 
 ![Page Interaction](images/doc-presentation-interaction.jpg)
 
-## Update-Center
+## Update Center
 
-*Das Update-Center ermöglicht es Ihnen, alle Funktionen von Jeedom zu aktualisieren, einschließlich der Basissoftware (Core) und ihrer Plugins. Weitere Erweiterungsverwaltungsfunktionen sind verfügbar (Entfernen, Neuinstallieren, Überprüfen usw.).).*
+*Mit dem Update Center können Sie alle Funktionen von Jeedom aktualisieren, einschließlich der Kernsoftware und ihrer Plugins. Andere Erweiterungsverwaltungsfunktionen sind verfügbar (Löschen, Neuinstallieren, Überprüfen usw.).).*
 
 ![Page Sauvegarde](images/doc-presentation-update.jpg)
 
 
 # Market
 
-Um diesen Kern herum befinden sich gepfropfte Plugins, die aller Art sein können :
+Um diesen Kern herum befinden sich Plugins, die aller Art sein können :
 
--   Heimautomatisierungsprotokoll (Z-Wave, RFXcom, EnOcean usw.)),
+-   Hausautomationsprotokoll (Z-Wave, RFXcom, EnOcean…),
 -   IP-Protokoll (KNX, xPL…),
--   Kommunizierendes Objekt (Nest, Netatmo usw.)),
--   Hohes Niveau (Alarm, Thermostat usw.)),
+-   Kommunikationsobjekt (Nest, Netatmo…),
+-   Hoher Pegel (Alarm, Thermostat),
 -   Organisation (Kalender, Google Kalender),
--   Entwicklung (Scripting).
+-   Entwicklung (Skript).
 
-Diese Plugins können aus dem Market installiert werden und erweitern die Möglichkeiten von Jeedom.
+Diese Plugins können vom Markt installiert werden und ermöglichen es Ihnen, die Möglichkeiten von Jeedom zu erweitern.
 
 ![Page Markt](images/doc-presentation-market.jpg)
 
-Jeedom ermöglicht es jedem Plugin, auf normalisierter Basis mit einem anderen zu chatten. Dies ermöglicht beispielsweise die Verwendung des Thermostat- oder Alarm-Plugins mit jedem Hausautomatisierungsprotokoll oder sogar einem IP-Plugin oder Kommunikationsobjekt
+Jeedom ermöglicht es jedem Plugin, standardisiert mit einem anderen zu chatten. Dies ermöglicht es beispielsweise, Thermostat- oder Alarm-Plugins mit einem beliebigen Hausautomationsprotokoll oder sogar einem IP-Plugin oder Kommunikationsobjekt zu verwenden
 

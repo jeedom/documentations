@@ -4,58 +4,58 @@
 
 ![module](images/aeotec.panicbutton/module.jpg)
 
-**La imagen de Jeedom**
+**El visual de Jeedom**
 
 ![vuedefaut1](images/aeotec.panicbutton/vuedefaut1.jpg)
 
 ## Resumen
 
-Este mando a distancia de llavero con un diseño moderno y agradable dispone de un botón para controlar todo tipo de dispositivos Z-Wave como lámparas, persianas, etc.
+Este control remoto con un diseño moderno y agradable tiene un botón para controlar todo tipo de dispositivos Z-Wave, como lámparas, persianas, etc.
 
 Con sus dimensiones muy pequeñas, puede guardarlo fácilmente en su bolsillo. Fácil de usar y elegante, está equipado con un anillo para sujetarlo a las llaves, lo que lo hace disponible al salir de la casa o al regresar a su hogar.
 
-El botón permite controlar dos dispositivos o escenas gracias a la gestión de pulsaciones cortas y largas. Este control remoto se puede usar como controlador principal y secundario.
+El botón le permite controlar dos dispositivos o escenas gracias a la gestión de pulsaciones cortas y largas. Este control remoto se puede usar como controlador primario o secundario.
 
-Este control remoto también se puede usar como botón de emergencia o pánico. En caso de angustia o cuando su titular se enfrente a otra situación de emergencia, basta con que presione el botón y se emitirá una señal Z-Wave. En este caso, este dispositivo también se puede utilizar como medallón alrededor del cuello.
+Este control remoto también se puede usar como botón de emergencia o pánico. En caso de angustia o cuando su titular se enfrenta a otra situación de emergencia, es suficiente que presione el botón y se emitirá una señal de Z-Wave. En este caso, este dispositivo también se puede usar como un medallón alrededor del cuello.
 
 ## Fonctions
 
--   Control remoto de llavero
--   Controlador principal o secundario
--   Diseño ultracompacto y ultra
+-   Control remoto llavero
+-   Controlador primario o secundario
+-   Diseño ultra compacto y ultra
 -   1 botón configurable
--   Gestiona hasta 2 dispositivos/escenas
--   Se puede utilizar como botón de emergencia/pánico
--   Usar alrededor del cuello como medallón de emergencia
+-   Gestiona hasta 2 dispositivos / escenas
+-   Se puede usar como botón de emergencia / pánico
+-   Úselo alrededor del cuello como medallón de emergencia
 
 ## Características técnicas
 
--   Tipo de mod : Transmisor de onda Z
--   Alimento : 1 batería de litio CR2450 3V
--   Duración de la batería : 2 a 3 meses para 10 a 20 usos por día
+-   Tipo de módulo : Transmisor de onda Z
+-   Suministro : 1 batería de litio 3V CR2450
+-   Duración de la batería : 2 a 3 meses por 10 a 20 usos por día
 -   Frecuencia: 868.42 MHz
 -   Distancia de transmisión : 30m en interiores
 -   Dimensiones : 55 x 30 x 11 mm (largo x ancho x alto))
 
 ## Datos del módulo
 
--   Marca : Aeotec
--   Apellido : Botón de pánico
--   Identificación del fabricante : 134
--   Tipo Producto : 1
--   Identificación de producto : 38
+-   Hacer : Aeotec
+-   Nombre : Botón de pánico
+-   ID del fabricante : 134
+-   Tipo de producto : 1
+-   ID del producto : 38
 
 ## Configuration
 
-Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte este [documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
 > **Importante**
 >
-> Para poner este módulo en modo de inclusión, presione el botón APRENDER, de acuerdo con su documentación en papel.
+> Para poner este módulo en modo de inclusión, presione el botón APRENDIZAJE, de acuerdo con su documentación en papel.
 
 ![inclusion](images/aeotec.panicbutton/inclusion.jpg)
 
-Una vez incluido, debe obtener esto :
+Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/aeotec.panicbutton/information.jpg)
 
@@ -63,21 +63,21 @@ Una vez incluido, debe obtener esto :
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
-![Pedidos](images/aeotec.panicbutton/commandes.jpg)
+![Comandos](images/aeotec.panicbutton/commandes.jpg)
 
 Aquí está la lista de comandos :
 
--   Botones : este es el comando que levantara el boton presionado
-  - 1 : Botón de pulsación corta
-  - 2 : Botón de pulsación larga
+-   Botones : es el comando que empujará el botón hacia arriba
+  - 1 : Presione brevemente el botón
+  - 2 : Mantenga presionado el botón
 
-### Configuración del módulo
+### Configuracion del modulo
 
 > **Importante**
 >
-> Durante una primera inclusión, siempre despierte el módulo justo después de la inclusión.
+> Durante una primera inclusión, siempre active el módulo justo después de la inclusión.
 
-Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento Jeedom OpenZwave.
+Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento OpenZwave de Jeedom.
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
@@ -87,8 +87,8 @@ Llegará a esta página (después de hacer clic en la pestaña Configuración)
 
 Detalles del parámetro :
 
--   250: modo de funcionamiento del control remoto (absolutamente poner Escena para usarlo como control remoto)
--   255 : permite restablecer de fábrica el llavero
+-   250: modo de funcionamiento del control remoto (ponga absolutamente a Scene para usarlo como control remoto)
+-   255 : permite que el llavero se restablezca de fábrica
 
 ### Groupes
 
@@ -98,29 +98,29 @@ Este módulo tiene un solo grupo de asociación. Es indispensable.
 
 ## Bueno saber
 
-### Especificidades
+### Específicos
 
 Para usar este módulo como control remoto, proceda de la siguiente manera :
 
--   1 : Incluir control remoto
--   2 : Despertar control remoto
--   3 : Cambia el parámetro 250 a verdadero (hazlo bien aunque ya parezca verdadero))
--   4 : Activa el mando a distancia y comprueba que se ha tenido en cuenta el cambio
--   5 : Cambie el modo de funcionamiento del control remoto manteniendo presionados los dos botones en la parte posterior durante 3 segundos.
+-   1 : Incluye control remoto
+-   2 : Despierta el control remoto
+-   3 : Cambie el parámetro 250 a verdadero (hágalo bien incluso si ya aparece en verdadero)
+-   4 : Active el control remoto y asegúrese de que el cambio se haya tenido en cuenta
+-   5 : Cambie el modo de funcionamiento del control remoto presionando y manteniendo presionados los dos botones en la parte posterior durante 3 segundos.
 
 ##Wakeup
 
-Para activar este módulo solo hay una forma de proceder :
+Para activar este módulo, solo hay una forma :
 
--   mantenga presionado el botón LEARN durante 3 segundos
+-   mantenga presionado el botón APRENDIZAJE durante 3 segundos
 
-## Preguntas frecuentes.
+## Faq.
  
-Este módulo se activa presionando el botón LEARN durante 3 segundos.
+Este módulo se activa presionando el botón APRENDIZAJE durante 3 segundos.
 
-Este módulo es un módulo alimentado por batería, la nueva configuración solo será
-tenido en cuenta solo si activa el control remoto.
+Este módulo es un módulo de batería, la nueva configuración no será
+tenga en cuenta que si despierta el control remoto.
 
-## Nota IMPORTANTE
+## Nota importante
 
-Tienes que despertar el módulo : tras su inclusión, tras un cambio de configuración, tras un cambio de wakeup, tras un cambio de grupos de asociación
+Tienes que despertar el módulo : después de su inclusión, después de un cambio en la configuración, después de un cambio en la activación, después de un cambio en los grupos de asociación

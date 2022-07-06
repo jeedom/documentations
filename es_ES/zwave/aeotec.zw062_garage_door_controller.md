@@ -11,7 +11,7 @@ Controlador de puerta de garaje Aeotec
 
 
 
--   **La imagen de Jeedom**
+-   **El visual de Jeedom**
 
 
 
@@ -24,14 +24,14 @@ Resumen
 
 
 
-Se conecta fácilmente al motor existente de su puerta, controlador
-El sensor de puerta de garaje lo mejora con un conjunto de sensores de seguridad y
-la seguridad. El controlador de puerta de garaje hace más que simplemente
-controlar la puerta de su garaje, también le permite comprobar
-su estado. Ya sea operado por motor o manualmente, el detector
-inteligente que viene con el controlador de puerta de garaje sabe si la puerta
-está abierto o cerrado, y puede avisarle cuando lo que está sucediendo no
-no debe.
+Fácilmente conectado al motor de la puerta existente, el controlador
+la puerta del garaje la mejora con un conjunto de sensores de seguridad y
+seguridad. El controlador de la puerta del garaje no solo permite
+controla la puerta de tu garaje también te permite revisar
+su condición. Ya sea utilizado por el motor o manualmente, el detector
+inteligente viene con el controlador de puerta de garaje sabe si la puerta
+está abierto o cerrado, y puede alertarlo cuando lo que está sucediendo no
+no deberia.
 
 
 
@@ -40,35 +40,35 @@ Funciones
 
 
 
--   Controle y supervise la puerta de su garaje de forma remota.
+-   Controla y controla la puerta de tu garaje de forma remota.
 
--   Módulo que simplemente se instala en el motor de tu
+-   Módulo de fácil instalación en el motor de su
     puerta actual.
 
--   Control de puerta local mediante botón integrado.
+-   Control local de la puerta mediante botón integrado.
 
--   Envía alertas de apertura/cierre al controlador Z-Wave.
+-   Envía alertas de apertura / cierre al controlador Z-Wave.
 
--   Alertas audibles y visuales de apertura/cierre.
+-   Alertas audibles y visuales de apertura / cierre.
 
--   Volumen de sonido de alarma ajustable (105 dB máx)
+-   Volumen de alarma ajustable (105 dB máx)
 
--   Puerto USB para cargar tus propios sonidos MP3.
+-   Puerto USB para cargar sus propios sonidos MP3.
 
 -   LED de estado integrado en el botón.
 
--   Parte de la línea Gen5 de Aeon Labs.
+-   Parte de la gama Gen5 de Aeon Labs.
 
--   Seguridad de la comunicación por radio mediante encriptación AES-128.
+-   Seguridad de la comunicación por radio a través del cifrado AES-128.
 
 -   Integra el chip de la serie Z-Wave 500.
 
--   Comunicación un 250 % más rápida en comparación con los periféricos
-    Onda Z estándar.
+-   Comunicación 250% más rápida en comparación con los periféricos
+    Z-Wave estándar.
 
--   Repetidor de mensajes Z-Wave.
+-   Repetidor de mensaje Z-Wave.
 
--   Optimización de antena, alcance 300 metros.
+-   Optimización de la antena, alcance 300 metros.
 
 
 
@@ -77,24 +77,24 @@ Características técnicas
 
 
 
--   Tipo de mod : Receptor y transmisor Z-Wave+ serie 500
+-   Tipo de módulo : Receptor y transmisor de la serie Z-Wave + 500
 
--   Alimento : Solenoide : 5 VDC (adaptador suministrado) Sensor : Pile
+-   Suministro : Actuador : Sensor de 5 V CC (adaptador incluido) : Pile
     Litio 3V 800mA CR2
 
 -   Consumo en espera : 1W
 
 -   Consumo de alarma : 2W
 
--   Maximo volumen : 105dB
+-   Volumen máximo : 105 dB
 
--   Formatos de audio compatibles : mp3 y WMV a la frecuencia de 320Kbps
+-   Formatos de audio compatibles : mp3 y WMV a la frecuencia de 320 Kbps
 
--   Frecuencia : 868.42Mhz
+-   Frecuencia : 868.42 Mhz
 
 -   Distancia de transmisión : 300m en campo abierto
 
--   Temperatura de funcionamiento : -20°C a 50°C
+-   Temperatura de funcionamiento : -20 ° C a 50 ° C
 
 -   Humedad de funcionamiento : 80%
 
@@ -107,15 +107,15 @@ Datos del módulo
 
 
 
--   Marca : Aeotec
+-   Hacer : Aeotec
 
--   Apellido : Controlador de puerta de garaje (ZW062)
+-   Nombre : Controlador de puerta de garaje (ZW062)
 
--   Identificación del fabricante : 134
+-   ID del fabricante : 134
 
--   Tipo Producto : 3
+-   Tipo de producto : 3
 
--   Identificación de producto : 62
+-   ID del producto : 62
 
 
 
@@ -125,8 +125,8 @@ Configuración
 
 
 Para configurar el complemento OpenZwave y saber cómo poner Jeedom en
-inclusión se refieren a este
-[documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+inclusión refiérase a esto
+[Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
 
 
@@ -141,7 +141,7 @@ inclusión se refieren a este
 
 
 
-Una vez incluido, debe obtener esto :
+Una vez incluido, deberías obtener esto :
 
 
 
@@ -149,16 +149,16 @@ Una vez incluido, debe obtener esto :
 
 
 
-### Pedidos 
+### Comandos 
 
 
 
-Una vez que se reconoce el módulo, los comandos asociados con el módulo serán
+Una vez que el módulo ha sido reconocido, los comandos asociados con el módulo serán
 disponibles.
 
 
 
-![Pedidos](images/aeotec.garagedoorcontroller/commandes.jpg)
+![Comandos](images/aeotec.garagedoorcontroller/commandes.jpg)
 
 
 
@@ -166,25 +166,25 @@ Aquí está la lista de comandos :
 
 
 
--   Abierto cerrado : Abrir, cerrar o detener la puerta del garaje.
+-   Abrir / cerrar : Abrir, cerrar o detener la puerta del garaje.
 
 -   Posición : Posición actual de la puerta del garaje.
 
 -   Volumen : Volumen actual del altavoz.
 
--   La temperatura : Temperatura de zona, sin ascensor automático.
+-   Temperatura : Temperatura de zona, sin ascenso automático.
 
--   Sabotaje : Estado de manipulación en el texto.
-
-
-
-### Configuración del módulo 
+-   Sabotaje : Estado de sabotaje de texto.
 
 
 
-Luego, si desea configurar el módulo de acuerdo con
+### Configuracion del modulo 
+
+
+
+Entonces, si desea configurar el módulo de acuerdo con
 de su instalación, debe pasar por el botón
-"Configuración" del complemento Jeedom OpenZwave.
+"Configuración "del complemento OpenZwave de Jeedom.
 
 
 
@@ -207,7 +207,7 @@ Detalles del parámetro :
 
 
 
--   34: Permite iniciar la calibración del tiempo de apertura de la
+-   34: Le permite iniciar la calibración del tiempo de apertura de
     la puerta.
 
 -   41: Le permite restablecer el estado de sabotaje seleccionando "Aliviar
@@ -215,7 +215,7 @@ Detalles del parámetro :
 
 -   80: en granizo
 
--   255 : le permite restablecer la configuración de fábrica
+-   255 : permite restablecer la configuración de fábrica
 
 
 
@@ -237,21 +237,21 @@ Bueno saber
 
 
 
-### Especificidades 
+### Específicos 
 
 Calibración del tiempo de apertura de la puerta del garaje:
 
 -   1 : La puerta del garaje debe estar completamente cerrada.
 
--   2 : Activar el parámetro 34 en "Hacer calibración".
+-   2 : Active el parámetro 34 en "Realizar calibración".
 
--   3 : Iniciar apertura de puerta
+-   3 : Comience la apertura de la puerta
 
--   4 : Espere a que la puerta esté completamente abierta.
+-   4 : Espere hasta que la puerta esté completamente abierta.
 
--   5 : Empieza a cerrar la puerta
+-   5 : Comienza a cerrar la puerta
 
-La calibración está completa
+La calibración se ha completado
 
 -   El parámetro 34 se actualizará a "Normal".
 
@@ -259,21 +259,21 @@ La calibración está completa
 
 
 
-Restablecimiento de sabotaje:
+Reinicio de sabotaje:
 
--   1 : El sensor debe estar correctamente fijado.
+-   1 : El sensor debe estar conectado correctamente.
 
--   2 : Activar el parámetro 41 en "Aliviar el estado de alarma".
+-   2 : Active el parámetro 41 en "Libere el estado de alarma".
 
--   3 : Actualizar configuración.
+-   3 : Actualizar configuraciones.
 
-La calibración está completa
+La calibración se ha completado
 
--   El parámetro 41 se actualizará con "Sensor no eliminado".
+-   El parámetro 41 se actualizará con "El sensor no se elimina".
 
 
 
-Preguntas frecuentes. 
+Faq. 
 ------
 
 

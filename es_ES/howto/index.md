@@ -1,17 +1,17 @@
 # Jeedom
-- [](/es_ES/howto/passer_en_beta)
-- [](/es_ES/howto/reset.password)
-- [](/es_ES/howto/jeedom.mise_a_jour_manuel)
-- [](/es_ES/howto/sauvegarde.comment_faire)
-- [](/es_ES/howto/sauvegarde.comment_recuperer)
-- [)](/es_ES/howto/migration.version)
+- [Go Jeedom o plugin en beta](/es_ES/howto/passer_en_beta)
+- [Restablezca su contraseña de Jeedom en caso de pérdida](/es_ES/howto/reset.password)
+- [Actualizar manualmente Jeedom](/es_ES/howto/jeedom.mise_a_jour_manuel)
+- [Hacer una copia de seguridad](/es_ES/howto/sauvegarde.comment_faire)
+- [Restaurar una copia de seguridad](/es_ES/howto/sauvegarde.comment_recuperer)
+- [Migrar desde la versión (V3 → V4)](/es_ES/howto/migration.version)
 
-# 
-- [](/es_ES/howto/raspberrypi3)
-- [](/es_ES/installation/atlas)
-- [](/es_ES/installation/smart)
-- [](/es_ES/howto/migrationos.smart)
+# Hardware
+- [Raspberrypi 3](/es_ES/howto/raspberrypi3)
+- [Reacondicionamiento de fábrica de un atlas](/es_ES/installation/atlas)
+- [Renovación de fábrica de un smart](/es_ES/installation/smart)
+- [Actualice el entorno Debian de un Smart](/es_ES/howto/migrationos.smart)
 
 # Archive
-- [](/es_ES/howto/mini.clef_wifi)
-- [](/es_ES/howto/mini.demarrage)
+- [Llave WiFi en mini](/es_ES/howto/mini.clef_wifi)
+- [Guía de inicio rápido](/es_ES/howto/mini.demarrage)

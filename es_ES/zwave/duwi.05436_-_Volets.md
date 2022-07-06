@@ -4,48 +4,48 @@
 
 ![1 Module](images/duwi.05436/1-Module.PNG)
 
-**La imagen de Jeedom**
+**El visual de Jeedom**
 
 ![Visuel defaut](images/duwi.05436/Visuel_defaut.PNG)
 
 ## Resumen 
 
-El módulo de persianas DUWI 05436 permite controlar las persianas en dos direcciones.
+El módulo de persiana enrollable DUWI 05436 le permite controlar persianas enrollables en dos direcciones.
 
-Sus principales características son :
+Sus características principales son :
 
--   La capacidad de usar un 'Común' para cambiar hacia arriba o hacia abajo. Como resultado, es posible controlar ambas direcciones con cualquier tipo de tensión, incluso con neutro.
--   La capacidad de enviar una señal continua arriba/abajo sin límite de tiempo.
+-   La posibilidad de usar un 'Común' para cambiar el ascenso o descenso. De repente, es posible controlar ambas direcciones con cualquier tipo de voltaje, incluso un neutro.
+-   La posibilidad de enviar una señal de ascenso / descenso continuo sin límite de tiempo.
 
-Attention: este módulo no envía su estado al controlador z-wave cuando el usuario presiona directamente los botones. Es necesario hacer un 'Actualizar' en su posición para actualizar, o para ajustar la Encuesta (ver abajo).
+Attention: este módulo no envía su estado al controlador de onda z cuando el usuario presiona los botones directamente. Debe actualizar su posición para actualizar o ajustar la Encuesta (consulte a continuación).
 
 ## Fonctions
 
--   Abajo arriba
--   Un cable común que se cambiará hacia arriba o hacia abajo
+-   Arriba / abajo
+-   Un cable común que se activará en ascenso o descenso
 -   Requiere neutral para operar
--   Fusible de protección
--   Tiempos de subida y bajada ajustables por configuración o por aprendizaje en el módulo
+-   Protección de fusibles
+-   Tiempos de subida y bajada ajustables por configuración de parámetros o por aprendizaje en el módulo
 -   El interruptor se suministra con el módulo, no intercambiable
 
 ## Características técnicas
 
--   Tipo de mod : Receptor/actuador Z-Wave
--   Fuente de alimentación 230V, 50Hz
--   Neutro requerido
--   Carga maxima : 1800W (resistiva), 460VA (inductiva)
+-   Tipo de módulo : Receptor / actuador Z-Wave
+-   230V, 50Hz fuente de alimentación
+-   Neutral requerido
+-   Carga máxima : 1800W (resistivo), 460VA (inductivo)
 -   Fusible : T8AH
--   Frecuencia : 868.42Mhz
--   Dimensiones : 52x52x31mm
--   Rango de temperatura : 0°C / +40°C
+-   Frecuencia : 868.42 Mhz
+-   Dimensiones : 52 x 52 x 31 mm
+-   Rango de temperatura : 0 ° C / + 40 ° C
 
 ## Datos del módulo
 
--   Marca : Popp/duwi
--   Apellido : Control de persianas ZW ESJ
--   Identificación del fabricante : 100
+-   Hacer : Popp / Duwi
+-   Nombre : Control de persianas ZW ESJ
+-   ID del fabricante : 100
 -   Tipo de producto : 16385
--   Identificación de producto : 0
+-   ID del producto : 0
 
 ## Connexion
 
@@ -53,13 +53,13 @@ Attention: este módulo no envía su estado al controlador z-wave cuando el usua
 
 ## Configuration
 
-Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte este [documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
 > **Importante**
 >
-> Para poner el módulo en modo de inclusión, presione arriba o abajo tres veces. La exclusión se hace de la misma manera.
+> Para poner el módulo en modo de inclusión, presione el botón arriba o abajo tres veces. La exclusión se realiza de la misma manera.
 
-Una vez incluido, debe obtener esto :
+Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/duwi.05436/3-Inclusion.PNG)
 
@@ -67,60 +67,60 @@ Una vez incluido, debe obtener esto :
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
-![Pedidos](images/duwi.05436/4-Commandes.PNG)
+![Comandos](images/duwi.05436/4-Commandes.PNG)
 
 Aquí está la lista de comandos :
 
--   Estado : esta es la posición actual del panel, en porcentaje de 0 a 99
--   Para ir abajo : comando para descender completamente
+-   Estado : Esta es la posición actual del obturador, en porcentaje de 0 a 99
+-   Bajar : comando para descender por completo
 -   Subir : comando para montar completamente
--   Deténgase : parada inmediata del movimiento
--   Actualizar : actualizar el estado actual del módulo
--   Nivel : deslizador para posicionar una apertura parcial
+-   Detener : parada inmediata del movimiento
+-   Refrescar : actualizar el estado actual del módulo
+-   Nivel : control deslizante para colocar una abertura parcial
 
-#### Ajuste de los tiempos de subida y bajada :
+#### Establecer los tiempos de subida y bajada :
 
-Tienes que quitar el interruptor para tener acceso a los dos botones "arriba" y "abajo"".
+El interruptor debe retirarse para tener acceso a los dos botones "arriba" y "abajo"".
 
-Coloque la aleta en la parte superior si desea ajustar el tiempo de descenso y viceversa.
+Coloque la aleta en la parte superior si desea ajustar el tiempo de descenso, y viceversa.
 
-Presiona al menos 2s en los dos botones (arriba y abajo) simultáneamente. El LED debería comenzar a parpadear en verde.
+Presione al menos 2 segundos en ambos botones (arriba y abajo) simultáneamente. El LED debería comenzar a parpadear en verde.
 
-Luego presione continuamente el botón hacia abajo o hacia arriba hasta llegar a la posición deseada. Cuando sueltas el botón, el LED se enciende en verde fijo durante unos segundos. El tiempo se memoriza.
+Luego presione y mantenga presionado el botón hacia abajo o hacia arriba hasta llegar a la posición deseada. Cuando sueltas el botón, el LED se ilumina en verde continuo durante unos segundos. El tiempo es memorizado.
 
-Repetir la operación en el otro sentido.
+Repita la operación en la otra dirección.
 
-### Configuración del módulo
+### Configuracion del modulo
 
-Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento Jeedom OpenZwave.
+Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento OpenZwave de Jeedom.
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña de configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/duwi.05436/5-Paramètres.PNG)
 
 Detalles del parámetro :
 
--   0 : Tiempo de ejecución :
+-   0 : Tiempo de funcionamiento :
 Estos son los tiempos de subida y bajada. Deberías encontrar tu aprendizaje allí.
 La codificación se realiza mediante dos pares de bytes : el primero para el ascenso y el segundo para el descenso.
-Los valores se codifican en hexadecimal en el módulo y se devuelven a decimal en la pantalla Jeedom.
-Por ejemplo : para 4626, esto da en hexadecimal : 0x1212. 0x12 para arriba y 0x12 para abajo. O bien, traído de nuevo en decimal : 18s para arriba y abajo.
-Anotar : forzar un valor a cero para este parámetro implicará que el módulo cambiará para subir o bajar sin límite de tiempo. Entonces será necesario enviar un 'Stop' para interrumpir.
+Los valores se codifican en hexadecimal en el módulo y se restablecen en decimal en la pantalla de Jeedom.
+Por ejemplo : para 4626, esto da en hexadecimal : 0x1212. O 0x12 para el ascenso y 0x12 para el descenso. O bien, devuelto a decimal : 18 años para ascenso y descenso.
+Anotar : forzar un valor a cero para este parámetro implicará que el módulo cambiará hacia arriba o hacia abajo sin límite de tiempo. Entonces será necesario enviar un 'Stop' para interrumpir.
 -   1 : Funcionalidad de parada : Habilitado o deshabilitado :
-Sirve para indicar si al pulsar en sentido contrario durante un movimiento se detiene la persiana o se la devuelve inmediatamente en sentido contrario.
+Se usa para indicar si presionar en la dirección opuesta durante el movimiento detiene el obturador o lo devuelve inmediatamente en la dirección opuesta.
 
 ### Groupes
 
-Este módulo tiene solo un grupo de asociación en el que debe ubicarse su controlador Z-Wave.
+Este módulo tiene solo un grupo de asociación en el que debe estar su controlador Z-Wave.
 
 ![Groupe](images/duwi.05436/6-Groupes.PNG)
 
 ## Bueno saber
 
--   Como se especificó al principio, el módulo no reporta los cambios de posiciones realizados por el usuario al presionar directamente el interruptor. Por lo tanto, para tener una retroalimentación de estado, es necesario :
-    - configurar una encuesta a los 5 minutos en la configuración, pestaña 'valores''
+-   Como se especifica al principio, el módulo no informa los cambios de posición realizados por el usuario presionando el interruptor directamente. Para tener un retorno del estado, es necesario :
+    - ya sea configurar una encuesta a los 5 minutos en la configuración, pestaña 'valores'
 ![Groupe](images/duwi.05436/7-Poll.PNG)
-  - o cree un escenario que inicie el comando 'Actualizar' cada x minutos (al menos 1 minuto)
--   Establecer una operación sin límite de tiempo puede ser útil para los controles de VMC
+  - cree un escenario que inicie el comando 'Actualizar' cada x minutos (al menos 1 minuto)
+-   La operación de configuración sin límite de tiempo puede ser útil para los comandos de VMC

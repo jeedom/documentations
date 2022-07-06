@@ -1,54 +1,54 @@
-## 
+## Entorno de desarrollo
 
-.
+Veremos aquí cómo configurar un entorno de desarrollo eficiente entre un Pi de prueba y una PC con Windows para editar el código y mantener el repositorio de GitHub.
 
-.
+Esta página se refiere a Jeedom Core, pero este método se puede utilizar para el desarrollo de complementos.
 
- **** . . .
+Ciertamente, para ediciones rápidas de algunos archivos, podemos usar el complemento **JeeXplorer** directamente en Jeedom. Pero es rápidamente tedioso, y luego debe informar todos los cambios al repositorio local o directamente a GitHub. Este no es el mas practico.
 
 ### Principe
 
-- .
--  ****.
--  **** .
+- Configure un Pi de prueba con Jeedom y un recurso compartido de Samba para acceder a él desde la PC.
+- Duplique el repositorio localmente con **Fusión sublime**.
+- Poner en marcha **Texto sublime** para editar código desde el repositorio con sincronización en el Pi de prueba.
 
-****  **** .  ** !
+**Fusión sublime** y **Texto sublime** ciertamente se pagan (un precio bajo con 3 años de actualización), pero son muy livianos, rápidos, fácilmente personalizables y muy completos sin requerir muchos complementos / paquetes. Además, si no obtiene una licencia, puede usarlas normalmente, solo aparecerá una pequeña ventana emergente de vez en cuando con un botón *Cancelar* !
 
- **** ( ****.
+Este método también es posible con otras herramientas, como **Átomo** (que requerirá algunos paquetes) y **Escritorio de GitHub**.
 
-### 
+### Prueba / desarrollo de pi
 
- : .  !
+Lo primero que debe hacer si está desarrollando funciones básicas o un complemento : Establecer una configuración de prueba. De hecho, no desarrollamos en una configuración de producción !
 
- : [](https://doc.jeedom.com/es_ES/installation/rpi).
+Para la instalación de Jeedom, la documentación está ahí : [Instalación en Raspberry Pi](https://doc.jeedom.com/es_ES/installation/rpi).
 
- !
+Advertencia, prefiera un SSD a una tarjeta SD !
 
- :
+Una vez que Jeedom esté instalado, instale Samba, en SSH :
 
+`sudo apt-get install samba -y`
 
+Configure una contraseña para www-data (la raíz de Jeedom) :
 
-) :
+`sudo smbpasswd www-data` luego ingrese su *Contraseña*.
 
- **.
+Edita la configuración de samba :
 
- :
+`sudo nano / etc / samba / smb.conf`
 
-
-
- :
+Agregar :
 
 ````text
+gana apoyo = sí
 
-
-]
-
-
-
-
-
-
-
+[jeedomRoot]
+ruta = / var / www / html
+navegable = sí
+escribible = sí
+forzar usuario = www-data
+grupo de fuerza = www-data
+solo lectura = No
+invitado ok = Sí
 ````
 
 Et redémarrez samba:
@@ -64,17 +64,17 @@ Sous Windows, vous avez donc maintenant un Disque Réseau `jeedomRoot` !
 
 ### Mise en place du repository local
 
-Pour dupliquer le repository en local  pouvoir travailler dessus, nous allons récupérer [ portable](https://www.sublimemerge.com/download).
+Pour dupliquer le repository en local y pouvoir travailler dessus, nous allons récupérer [Fusión sublime portable](https://www.sublimemerge.com/download).
 
-Récupérer également [ portable 64bit](https://www.sublimetext.com/3).
+Récupérer également [Texto sublime portable 64bit](https://www.sublimetext.com/3).
 
-Décompressez les deux archives  placez les dans `C:\Program Files`.
+Décompressez les deux archives y placez les dans `C:\Program Files`.
 
-Indiquez à **** l'éditeur de fichiers :
+Indiquez à **Fusión sublime** l'éditeur de fichiers :
 
 {% include lightbox.html src="images/sbm_settings1.jpg" data="settings" title="Editeur de fichiers" imgstyle="width:450px;display: block;margin: 0 auto;" %}
 
-Puis clonez le repository. Ici, si vous avez les droits sur le repository du Core, clonez le, sinon *forkez* le sur votre compte GitHub  clonez votre *fork*.
+Puis clonez le repository. Ici, si vous avez les droits sur le repository du Core, clonez le, sinon *forkez* le sur votre compte GitHub y clonez votre *fork*.
 
 **File / Clone Repository ...**
 
@@ -83,7 +83,7 @@ Puis clonez le repository. Ici, si vous avez les droits sur le repository du Cor
 
 ### Mise en place de l'édition
 
-Dans ****, *Project* / *Edit Project*, définissez le répertoire de votre repository :
+Dans **Texto sublime**, *Project* / *Edit Project*, définissez le répertoire de votre repository :
 
 ````json
 {
@@ -91,7 +91,7 @@ Dans ****, *Project* / *Edit Project*, définissez le répertoire de votre repos
   [
     {
       "name": "__GitHub Jeedom Core__",
-      "path": "W:"
+      "path": "W:\\_ GitHub-Repos _ \\ JeedomCore"
     },
     {
       "name": "___Pi_JeedomAlpha___",
@@ -101,41 +101,41 @@ Dans ****, *Project* / *Edit Project*, définissez le répertoire de votre repos
 }
 ````
 
-.
+Aquí, agregar la ruta de la prueba Pi no es obligatorio, pero sigue siendo práctico.
 
- ****, .  ****, .
+Entonces puedes ahora, en **Texto sublime**, editar directamente los archivos del repositorio local. Los cambios en estos archivos aparecerán en **Fusión sublime**, donde puede confirmar todo o parte de cada archivo, o revertir los cambios si eso no funciona.
 
-.
+Ahora, queda probar estos cambios de código en la prueba Jeedom.
 
- !  !
+Para eso, por supuesto, puede copiar los archivos modificados a su Pi usando el recurso compartido de samba en su PC. O no ! Cuando edita diez archivos en diferentes lugares, rápidamente se volverá doloroso !
 
- ****  !
+Por lo tanto configuraremos **Texto sublime** para que, cuando guarde un archivo, lo copie directamente al Pi !
 
-:. :
+Vaya al directorio `C:\ Archivos de programa \ SublimeText3 \ Data \ Packages \ User` y cree un archivo `onSaveCopy.py`. Edítelo y, después de modificar las rutas correctas, guarde el siguiente código:
 
 ````py
+importar sublime, sublime_plugin, hueso
+desde shutil import copyfile
 
+gitHub_repoCore = "W:\\_ GitHub-Repos _ \\ JeedomCore"
+rpi_root = "\\\\ 192.168.0.110 \\ jeedomRoot"
 
-
-:"
-"
-
-. ):
-  ):
-    ()
-    )
-    :
-      .)
-      )
+clase EventListener (sublime_plugin.EventListener ):
+  def on_post_save_async (self, view):
+    fullPath = view.file_name()
+    ruta, baseName = os.path.split (ruta completa)
+    si gitHub_repoCore en la ruta:
+      rpi_path = fullPath.reemplazar (gitHub_repoCore, rpi_root)
+      copyfile (ruta completa, ruta_rpi)
 ````
 
 Et voilà !
 
-A chaque fois que vous sauvez un fichier, si celui-ci fait partie du repository local, **** va également le copier au bon endroit sur votre Pi. Ctrl-S, F5 sur le Pi  voilà ! Si tout est bon, stage/commit/push dans ****.
+A chaque fois que vous sauvez un fichier, si celui-ci fait partie du repository local, **Texto sublime** va également le copier au bon endroit sur votre Pi. Ctrl-S, F5 sur le Pi y voilà ! Si tout est bon, stage/commit/push dans **Fusión sublime**.
 
-Si vous annulez des modifications, en faisant un *Discard* dans ****, pensez à faire un clic-droit, *Open in Editor*,  Ctrl-S pour le remettre sur le Pi.
+Si vous annulez des modifications, en faisant un *Discard* dans **Fusión sublime**, pensez à faire un clic-droit, *Open in Editor*, y Ctrl-S pour le remettre sur le Pi.
 
 Et bien sûr, attention quand vous mettez à jour le Pi, vous allez écraser les fichiers du Core que vous avez modifié.
 
 
-Vous pouvez bien sûr suivre la même méthode pour mettre en place vos repository  synchronisation sur vos plugins.
+Vous pouvez bien sûr suivre la même méthode pour mettre en place vos repository y synchronisation sur vos plugins.

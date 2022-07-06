@@ -4,54 +4,54 @@
 
 ![module](images/nodon.octan/module.jpg)
 
-**La imagen de Jeedom**
+**El visual de Jeedom**
 
 ![vuedefaut1](images/nodon.octan/vuedefaut1.jpg)
 
 ## Resumen
 
-El Octan Remote NodOn® le permite controlar cualquier receptor compatible con Z-Wave® o Z-Wave Plus®, como el enchufe con control remoto NodOn® (modo de controlador principal: independiente), o incluso activar escenas/acciones a través de una unidad de automatización del hogar compatible (modo de puerta de enlace)
+El Octan Remote NodOn® le permite controlar cualquier receptor compatible con Z-Wave® o Z-Wave Plus®, como la toma de control remoto NodOn® (modo de controlador principal - Independiente), o incluso activar escenas / acciones a través de un sistema de automatización del hogar compatible (modo de puerta de enlace)
 
-Su imán integrado permite fijarlo en cualquier lugar, desde el radiador hasta la puerta del frigorífico, a través de su soporte de pared. Entre mando a distancia e interruptor, el Octan Remote revoluciona el control de los objetos del hogar
+Su imán integrado permite fijarlo en todas partes, desde el radiador hasta la puerta del refrigerador, a través de su soporte de pared. Entre el control remoto y el interruptor, el control remoto Octan revoluciona el control de los objetos domésticos
 
 ## Fonctions
 
--   Control solo o con una unidad domótica
+-   Control solo o con un sistema domótico
 -   Imán integrado
--   LED de colores
+-   Led de color
 -   Placa de pared
 -   2 años de batería
 
 ## Características técnicas
 
--   Alimento : Pila CR2032 – Autonomía 1,5 - 2 años
+-   Suministro : Batería CR2032 - Autonomía 1,5 - 2 años
 -   4 botones
--   Soporte de pared fijado mediante adhesivo de doble cara (incluido) o tornillos (no incluidos))
--   Imán integrado para fijación a superficies metálicas
--   Temperatura de funcionamiento : 0°C a 40°C - Altitud : 2000m
--   Protocolo inalámbrico Z-Wave® : 868.4MHz – Serie 500 – Compatible Z-Wave Plus® SDK 06.51.01 Rango: 40m interior / 80m exterior
--   Dimensiones : 80\*80\*15mm
--   2 años de garantía
+-   Soporte de pared fijado con adhesivo de doble cara (incluido) o tornillos (no incluidos))
+-   Imán integrado para fijación a superficie metálica
+-   Temperatura de funcionamiento : 0 ° C a 40 ° C - Altitud : 2000m
+-   Protocolo de radio Z-Wave® : 868.4MHz - Serie 500 - Compatible con SDK Z-Wave Plus® 06.51.01 Alcance: 40m interior / 80m exterior
+-   Dimensiones : 80 \*80 \*15mm
+-   2 años de garantia
 
 ## Datos del módulo
 
--   Marca : Nodon
--   Apellido : Mando a distancia octano CRC-3-1-00
--   Identificación del fabricante : 357
--   Tipo Producto : 2
--   Identificación de producto : 1
+-   Hacer : Nodon
+-   Nombre : CRC-3-1-00 Octan Remote
+-   ID del fabricante : 357
+-   Tipo de producto : 2
+-   ID del producto : 1
 
 ## Configuration
 
-Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte este [documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+Para configurar el complemento OpenZwave y saber cómo incluir a Jeedom, consulte esto [Documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
 > **Importante**
 >
-> Para poner este módulo en modo de inclusión, presione los dos botones (1 y 2) hasta que la luz se vuelva rosa y luego presione el botón 1, de acuerdo con su documentación en papel.
+> Para poner este módulo en modo de inclusión, presione los dos botones (1 y 2) hasta que la luz se vuelva rosa, luego presione el botón 1, de acuerdo con su documentación en papel.
 
 ![inclusion](images/nodon.octan/inclusion.jpg)
 
-Una vez incluido, debe obtener esto :
+Una vez incluido, deberías obtener esto :
 
 ![Plugin Zwave](images/nodon.octan/information.jpg)
 
@@ -59,43 +59,43 @@ Una vez incluido, debe obtener esto :
 
 Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
-![Pedidos](images/nodon.octan/commandes.jpg)
+![Comandos](images/nodon.octan/commandes.jpg)
 
 Aquí está la lista de comandos :
 
--   Botones : este es el comando que levantara el boton presionado
+-   Botones : es el comando que empujará el botón hacia arriba
 
-+----------------+----------------+--------------- -++----------------+----------------+
-| Botones        | Apoyo          | Pulsación larga     | Liberar    | Soporte doble   |
-+================+================+=============== =+================+================+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
+| Botones        | Apoyo          | Pulsación larga     | Relajamiento    | Doble soporte   |
++ ================ + ================ + ================ = + ================ + ================= +
 | **1**          | 10             | 12             | 11             | 13             |
-+----------------+----------------+--------------- -++----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **2**          | 20             | 22             | 21             | 23             |
-+----------------+----------------+--------------- -++----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **3**          | 30             | 32             | 31             | 33             |
-+----------------+----------------+--------------- -++----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 | **4**          | 40             | 42             | 41             | 43             |
-+----------------+----------------+--------------- -++----------------+----------------+
++ ---------------- + ---------------- + --------------- - + ---------------- + ---------------- +
 
-### Configuración del módulo
+### Configuracion del modulo
 
 > **Importante**
 >
-> Durante una primera inclusión, siempre despierte el módulo justo después de la inclusión.
+> Durante una primera inclusión, siempre active el módulo justo después de la inclusión.
 
-Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento Jeedom OpenZwave.
+Luego, si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento OpenZwave de Jeedom.
 
 ![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-Llegará a esta página (después de hacer clic en la pestaña de configuración)
+Llegará a esta página (después de hacer clic en la pestaña de parámetros)
 
 ![Config1](images/nodon.octan/config1.jpg)
 
 Detalles del parámetro :
 
--   1-2 : Le permite elegir los perfiles de botones en caso de uso central (inútil para usar en Jeedom)
--   3 : Parámetro importante para decir si el interruptor debe funcionar en el modo Escena o Escena central (Absolutamente poner Escena)
--   4-7 : Elegir el modo de funcionamiento de los botones (en caso de asociaciones de grupos)
+-   1-2 : Le permite elegir los perfiles de los botones cuando se usa centralmente (inútil para usar en Jeedom)
+-   3 : Parámetro importante para decir si el interruptor debe funcionar en el modo Escena o Escena central (Configuración de escena absolutamente)
+-   4-7 : Elija el modo de funcionamiento del botón (en caso de asociaciones de grupo)
 -   8 : Le permite elegir el modo de funcionamiento del LED
 
 ### Groupes
@@ -106,7 +106,7 @@ Este módulo tiene 7 grupos de asociación.
 
 ![Groupe](images/nodon.octan/groupe2.jpg)
 
--   Grupo 1 – Línea de vida : Este grupo generalmente se usa para reportar información del Smart Plug al controlador de red principal.
+-   Grupo 1 - Línea de vida : Este grupo se usa generalmente para informar información del Smart Plug al controlador de red principal.
 -   Grupo 2 a 5: los dispositivos de estos grupos se controlan mediante el botón correspondiente según el perfil MONO
 -   Grupo 6 a 7: los dispositivos de estos grupos se controlan mediante el botón correspondiente según el perfil DUO
 
@@ -116,16 +116,16 @@ Este módulo tiene 7 grupos de asociación.
 
 ## Bueno saber
 
-### Especificidades
+### Específicos
 
--   Este módulo puede ser temperamental cuando se incluye. No dude en despertarlo una o dos veces después de la inclusión y verifique cuidadosamente el grupo de asociación.
+-   Este módulo puede ser complicado en la inclusión. No dude en despertarlo 1 o 2 veces después de la inclusión, y verifique cuidadosamente el grupo de asociación.
 
 ## Wakeup
 
-Para activar este módulo, simplemente presione uno de los botones
+Para activar este módulo, solo presione uno de los botones
 
-## Nota IMPORTANTE
+## Nota importante
 
 > **Importante**
 >
-> Tienes que despertar el módulo : tras su inclusión, tras un cambio de configuración, tras un cambio de wakeup, tras un cambio de grupos de asociación
+> Tienes que despertar el módulo : después de su inclusión, después de un cambio en la configuración, después de un cambio en la activación, después de un cambio en los grupos de asociación
