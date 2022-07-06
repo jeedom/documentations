@@ -1,14 +1,14 @@
-# 
+# Danalock V2 BTZE
 
-****
+**El módulo**
 
 ![module](images/polycontrol.danalock/module.jpg)
 
-****
+**La imagen de Jeedom**
 
 ![vuedefaut1](images/polycontrol.danalock/vuedefaut1.jpg)
 
-## 
+## Resumen
 
 ** !**
 
@@ -18,7 +18,7 @@
 
 .
 
-****
+**Fácil de instalar**
 
 . .
 
@@ -54,32 +54,32 @@
 -   
 -    : 
 -   
--   
+-   Fácil de instalar
 -   
 -   ).
 
-## 
+## Características técnicas
 
--    : 
+-   Alimento : 
 -    : V2
 -    : 
 -    : 
--    : )
--    : 363g
+-   Dimensiones : )
+-   Peso : 363g
 
-## 
+## Datos del módulo
 
--    : Poly-Control
--    : 
--    : 010e
--    : 1
--    : 1
+-   Marca : Poly-Control
+-   Apellido : Danalock V2 BTZE
+-   Identificación del fabricante : 010e
+-   Tipo Producto : 1
+-   Identificación de producto : 1
 
 ## Configuration
 
- [](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
+Para configurar el complemento OpenZwave y saber cómo incluir Jeedom, consulte este [documentación](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/openzwave/).
 
-> ****
+> **Importante**
 >
 > ..
 
@@ -91,7 +91,7 @@
 
 ![inclusion securise jeedom 2](images/polycontrol.danalock/inclusion-securise-jeedom-2.jpg)
 
-> ****
+> **Importante**
 >
 > . .
 
@@ -103,24 +103,24 @@
 
 ".
 
- :
+Una vez incluido, debe obtener esto :
 
 ![Plugin Zwave](images/polycontrol.danalock/information.jpg)
 
 ### Commandes
 
-.
+Una vez que se reconoce el módulo, los comandos asociados con el módulo estarán disponibles.
 
-![](images/polycontrol.danalock/commandes.jpg)
+![Pedidos](images/polycontrol.danalock/commandes.jpg)
 
- :
+Aquí está la lista de comandos :
 
--    : )
+-   Estado : )
 -    : 
 -    : 
--    : 
+-   Batería : este es el comando de la bateria
 
-### 
+### Configuración del módulo
 
 > ****
 >
@@ -128,13 +128,13 @@
 
 .
 
-![ plugin Zwave](images/plugin/bouton_configuration.jpg)
+![Configuración plugin Zwave](images/plugin/bouton_configuration.jpg)
 
-)
+Llegará a esta página (después de hacer clic en la pestaña de configuración)
 
 ![Config1](images/polycontrol.danalock/bouton_configuration.jpg)
 
- :
+Detalles del parámetro :
 
 -   1 :  : 
 -   2 : 
@@ -142,7 +142,7 @@
 -   4 : .)
 -   5 : . .
 -   6 : .)
--   7 :  : .
+-   7 : Tipo de Batería : .
 -   8 :  : .
 -   9 : .
 -   10 : . . . . ().
@@ -155,15 +155,15 @@
 
 ![Groupe](images/polycontrol.danalock/groupe.jpg)
 
-## 
+## Bueno saber
 
-### 
+### Especificidades
 
-> ****
+> **Consejo**
 >
 > . . .
 
-> ****
+> **Consejo**
 >
 > .
 

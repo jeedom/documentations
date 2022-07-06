@@ -41,8 +41,8 @@ Attention: . ).
 
 ## 
 
--    : 
--    : 
+-   Markieren : 
+-   Nachname : 
 -    : 100
 -    : 16385
 -    : 0

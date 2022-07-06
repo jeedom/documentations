@@ -47,8 +47,8 @@
 
 ## 
 
--    : 
--    : 
+-   Markieren : 
+-   Nachname : 
 -    : 96
 -    : 3
 -    : 2

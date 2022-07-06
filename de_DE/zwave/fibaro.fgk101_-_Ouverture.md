@@ -20,7 +20,7 @@
 
 ## Fonctions
 
--   
+-   Öffnungsmelder
 -   
 -   
 -   
@@ -41,8 +41,8 @@
 
 ## 
 
--    : 
--    : )
+-   Markieren : 
+-   Nachname : )
 -    : 271
 -    : 1792
 -    : 4096
