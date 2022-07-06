@@ -2,6 +2,7 @@
 	"id" : "Yokis",
 	"name" : "Yokis passerelle",
 	"description" : "Plugin pour commander les modules Yokis en local",
+	"utilization": "Plugin pour commander les modules Yokis en local(hors cloud Yokis)",
 	"licence" : "AGPL",
 	"author" : "Nathan Wailly",
 	"require" : "4.2",
