@@ -18,7 +18,9 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Market": "Market"
+        "Documentation": "Documentation",
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/automatisation\/index.md": {
         "Volet proportionel": "Volet proportionel",
@@ -37,7 +39,9 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Market": "Market"
+        "Documentation": "Documentation",
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/communication\/index.md": {
         "Livebox": "Livebox",
@@ -58,7 +62,9 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation": "Documentation",
         "Market": "Market",
+        "Changelog": "Changelog",
         "Gotify est une solution self-hosted, libre et open source permettant l'envoi et la réception de message": "Gotify est une solution self-hosted, libre et open source permettant l'envoi et la réception de message"
     },
     "plugins_contributor\/devicecommunication\/index.md": {
@@ -85,7 +91,10 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation": "Documentation",
         "Market": "Market",
+        "Changelog": "Changelog",
+        "Beta": "Beta",
         "lampes, leds, prises, interrupteurs, thermostat, de marques diverses": "lampes, leds, prises, interrupteurs, thermostat, de marques diverses",
         "Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya\/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc": "Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya\/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc"
     },
@@ -102,7 +111,9 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Market": "Market"
+        "Documentation": "Documentation",
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/health\/index.md": {
         "Santé": "Santé",
@@ -139,7 +150,9 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Market": "Market"
+        "Documentation": "Documentation",
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/multimedia\/index.md": {
         "Multimédia": "Multimédia",
@@ -172,7 +185,9 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Market": "Market"
+        "Documentation": "Documentation",
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/other\/index.md": {
         "Autre": "Autre",
@@ -195,7 +210,9 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Market": "Market"
+        "Documentation": "Documentation",
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/security\/index.md": {
         "Alarme Verisure": "Alarme Verisure",
@@ -223,7 +240,9 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Market": "Market"
+        "Documentation": "Documentation",
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/weather\/index.md": {
         "Température": "Température",
@@ -248,7 +267,9 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation": "Documentation",
         "Market": "Market",
+        "Changelog": "Changelog",
         "Depuis la carte Netatmo, sélectionnez jusqu'à 5 stations favorites, puis elles seront visibles dans Jeedom et utilisable dans vos Scénarii, Vues, Designs, etc": "Depuis la carte Netatmo, sélectionnez jusqu'à 5 stations favorites, puis elles seront visibles dans Jeedom et utilisable dans vos Scénarii, Vues, Designs, etc",
         "Notamment": "Notamment",
         "Pression": "Pression",
@@ -280,6 +301,8 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Market": "Market"
+        "Documentation": "Documentation",
+        "Market": "Market",
+        "Changelog": "Changelog"
     }
 }
