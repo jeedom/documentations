@@ -22,8 +22,8 @@ Campos                   | Valores                                              
 ``mobile``                   | Si el complemento utiliza un panel dedicado en la aplicación web Jeedom, este es el nombre del archivo principal para este panel.   |
 ``changelog`` *              | Enlace HTML al registro de cambios.                                                                                              |
 ``documentation`` *          | Enlace HTML a la documentación del complemento.
-``changelog_beta`` *              | .|
-``documentation_beta`` *          | .
+``changelog_beta`` *              | Lien Html vers le Changelog Beta.|
+``documentation_beta`` *          | Lien Html vers la documentation beta du plugin.
 ``link`` -> ``video``               | Enlace HTML a una presentación de video.                                                                                 |
 ``link`` -> ``forum``               | Enlace HTML al foro sobre el tema oficial del complemento.                                                                  |
 ``languages``                | Lista de idiomas disponibles para el complemento: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP`` , ``ru_RU``, ``pt_PT``            |

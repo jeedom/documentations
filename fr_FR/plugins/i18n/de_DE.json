@@ -692,7 +692,6 @@
         " Changelog*": " Änderungsprotokoll*"
     },
     "plugins\/compatibility-site\/index.md": {
-        "ATTENTION plugin disponible uniquement en beta": "ACHTUNG Plugin nur in Beta verfügbar",
         "Seuls les plugins officiels ont leur documentation ici": "Nur offizielle Plugins haben ihre Dokumentation hier",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Sie können die Dokumentation der anderen Plugins direkt aus dem Jeedom Market einsehen",
         "Une fois sur le plugin en question, cliquez sur documentation": "Klicken Sie auf dem betreffenden Plugin auf Dokumentation",
@@ -711,23 +710,14 @@
         " ici]": " Hier]",
         "[ici]": "[Hier]",
         "*ici*": "*Hier*",
-        " ici*": " Hier*",
-        " Market.": " Markt.",
-        " Market?": " Markt?",
-        "Market ": "Markt ",
-        " Market]": " Markt]",
-        "[Market]": "[Markt]",
-        "*Market*": "*Markt*",
-        " Market*": " Markt*"
+        " ici*": " Hier*"
     },
     "plugins\/core v3.3\/index.md": {
-        "ATTENTION plugin disponible uniquement en beta": "ACHTUNG Plugin nur in Beta verfügbar",
         "Seuls les plugins officiels ont leur documentation ici": "Nur offizielle Plugins haben ihre Dokumentation hier",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Sie können die Dokumentation der anderen Plugins direkt aus dem Jeedom Market einsehen",
         "Une fois sur le plugin en question, cliquez sur documentation": "Klicken Sie auf dem betreffenden Plugin auf Dokumentation",
         "Vous pouvez voir": "Du kannst sehen",
         "tous les plugins officiels de cette catégorie": "alle offiziellen Plugins in dieser Kategorie",
-        "Changelog beta": "Changelog-Beta",
         " IMPORTANT.": " WICHTIG.",
         " IMPORTANT?": " WICHTIG?",
         "IMPORTANT ": "WICHTIG ",
@@ -741,23 +731,14 @@
         " ici]": " Hier]",
         "[ici]": "[Hier]",
         "*ici*": "*Hier*",
-        " ici*": " Hier*",
-        " Market.": " Markt.",
-        " Market?": " Markt?",
-        "Market ": "Markt ",
-        " Market]": " Markt]",
-        "[Market]": "[Markt]",
-        "*Market*": "*Markt*",
-        " Market*": " Markt*"
+        " ici*": " Hier*"
     },
     "plugins\/core v4.2\/index.md": {
-        "ATTENTION plugin disponible uniquement en beta": "ACHTUNG Plugin nur in Beta verfügbar",
         "Seuls les plugins officiels ont leur documentation ici": "Nur offizielle Plugins haben ihre Dokumentation hier",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Sie können die Dokumentation der anderen Plugins direkt aus dem Jeedom Market einsehen",
         "Une fois sur le plugin en question, cliquez sur documentation": "Klicken Sie auf dem betreffenden Plugin auf Dokumentation",
         "Vous pouvez voir": "Du kannst sehen",
         "tous les plugins officiels de cette catégorie": "alle offiziellen Plugins in dieser Kategorie",
-        "Changelog beta": "Changelog-Beta",
         " IMPORTANT.": " WICHTIG.",
         " IMPORTANT?": " WICHTIG?",
         "IMPORTANT ": "WICHTIG ",
@@ -771,23 +752,14 @@
         " ici]": " Hier]",
         "[ici]": "[Hier]",
         "*ici*": "*Hier*",
-        " ici*": " Hier*",
-        " Market.": " Markt.",
-        " Market?": " Markt?",
-        "Market ": "Markt ",
-        " Market]": " Markt]",
-        "[Market]": "[Markt]",
-        "*Market*": "*Markt*",
-        " Market*": " Markt*"
+        " ici*": " Hier*"
     },
     "plugins\/core v4.3\/index.md": {
-        "ATTENTION plugin disponible uniquement en beta": "ACHTUNG Plugin nur in Beta verfügbar",
         "Seuls les plugins officiels ont leur documentation ici": "Nur offizielle Plugins haben hier ihre Dokumentation",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Sie können die Dokumentation anderer Plugins direkt im Jeedom Market einsehen",
         "Une fois sur le plugin en question, cliquez sur documentation": "Klicken Sie bei dem betreffenden Plugin auf Dokumentation",
         "Vous pouvez voir": "Du kannst sehen",
         "tous les plugins officiels de cette catégorie": "alle offiziellen Plugins in dieser Kategorie",
-        "Changelog beta": "Änderungsprotokoll Beta",
         " IMPORTANT.": " WICHTIG.",
         " IMPORTANT?": " WICHTIG?",
         "IMPORTANT ": "WICHTIG ",
@@ -801,14 +773,7 @@
         " ici]": " Hier]",
         "[ici]": "[Hier]",
         "*ici*": "*Hier*",
-        " ici*": " Hier*",
-        " Market.": " Markt.",
-        " Market?": " Markt?",
-        "Market ": "Markt ",
-        " Market]": " Markt]",
-        "[Market]": "[Markt]",
-        "*Market*": "*Markt*",
-        " Market*": " Markt*"
+        " ici*": " Hier*"
     },
     "plugins\/devicecommunication\/index.md": {
         "Plugin pour commander le Nabaztag": "Plugin um den Nabaztag zu bestellen",
@@ -1469,7 +1434,6 @@
         " ici*": " Hier*"
     },
     "plugins\/market\/index.md": {
-        "ATTENTION plugin disponible uniquement en beta": "ACHTUNG Plugin nur in Beta verfügbar",
         "Seuls les plugins officiels ont leur documentation ici": "Nur offizielle Plugins haben ihre Dokumentation hier",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Sie können die Dokumentation der anderen Plugins direkt aus dem Jeedom Market einsehen",
         "Une fois sur le plugin en question, cliquez sur documentation": "Klicken Sie auf dem betreffenden Plugin auf Dokumentation",
@@ -1488,14 +1452,7 @@
         " ici]": " Hier]",
         "[ici]": "[Hier]",
         "*ici*": "*Hier*",
-        " ici*": " Hier*",
-        " Market.": " Markt.",
-        " Market?": " Markt?",
-        "Market ": "Markt ",
-        " Market]": " Markt]",
-        "[Market]": "[Markt]",
-        "*Market*": "*Markt*",
-        " Market*": " Markt*"
+        " ici*": " Hier*"
     },
     "plugins\/modbus\/index.md": {
         "Plugin Modbus": "Modbus-Plugin",
@@ -2031,7 +1988,6 @@
         " ici*": " hier*"
     },
     "plugins\/pro\/index.md": {
-        "ATTENTION plugin disponible uniquement en beta": "ACHTUNG Plugin nur in Beta verfügbar",
         "Seuls les plugins officiels ont leur documentation ici": "Nur offizielle Plugins haben ihre Dokumentation hier",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Sie können die Dokumentation der anderen Plugins direkt aus dem Jeedom Market einsehen",
         "Une fois sur le plugin en question, cliquez sur documentation": "Klicken Sie auf dem betreffenden Plugin auf Dokumentation",
@@ -2050,14 +2006,7 @@
         " ici]": " Hier]",
         "[ici]": "[Hier]",
         "*ici*": "*Hier*",
-        " ici*": " Hier*",
-        " Market.": " Markt.",
-        " Market?": " Markt?",
-        "Market ": "Markt ",
-        " Market]": " Markt]",
-        "[Market]": "[Markt]",
-        "*Market*": "*Markt*",
-        " Market*": " Markt*"
+        " ici*": " Hier*"
     },
     "plugins\/programming\/index.md": {
         "Plugin pour appliquer\/modifier\/créer des widgets": "Plugin zum Anwenden \/ Ändern \/ Erstellen von Widgets",

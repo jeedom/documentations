@@ -4,6 +4,3 @@
 >Vous pouvez voir [ici](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=core+v4.2) tous les plugins officiels de cette catégorie
 
 
-| | | | |
-|--- | --- | --- | ---|
-|<img src="./beta/._icon.png" class="pluginLogo" width="100" />||ATTENTION plugin disponible uniquement en beta<br/>|<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=-1)<br/>[Changelog beta](./beta/changelog.md)|

@@ -22,8 +22,8 @@ Fields                   | Values                                               
 ``mobile``                   | If the plugin uses a dedicated panel on the Jeedom webApp, this is the name of the main file for this panel.   |
 ``changelog`` *              | Html link to Changelog.                                                                                              |
 ``documentation`` *          | Html link to plugin documentation.
-``changelog_beta`` *              | .|
-``documentation_beta`` *          | .
+``changelog_beta`` *              | Lien Html vers le Changelog Beta.|
+``documentation_beta`` *          | Lien Html vers la documentation beta du plugin.
 ``link`` -> ``video``               | Html link to a video presentation.                                                                                 |
 ``link`` -> ``forum``               | Html link to the forum on the official subject of the plugin.                                                                  |
 ``languages``                | List of languages available for the plugin: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP`` , ``ru_RU``, ``pt_PT``            |

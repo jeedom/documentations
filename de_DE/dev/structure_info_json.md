@@ -22,8 +22,8 @@ Felder                   | Werte                                                
 ``mobile``                   | Wenn das Plugin ein spezielles Panel in der Jeedom-Webanwendung verwendet, ist dies der Name der Hauptdatei für dieses Panel.   |
 ``changelog`` *              | HTML-Link zu Changelog.                                                                                              |
 ``documentation`` *          | HTML-Link zur Plugin-Dokumentation.
-``changelog_beta`` *              | .|
-``documentation_beta`` *          | .
+``changelog_beta`` *              | Lien Html vers le Changelog Beta.|
+``documentation_beta`` *          | Lien Html vers la documentation beta du plugin.
 ``link`` -> ``video``               | HTML-Link zu einer Videopräsentation.                                                                                 |
 ``link`` -> ``forum``               | HTML-Link zum Forum zum offiziellen Thema des Plugins.                                                                  |
 ``languages``                | Liste der für das Plugin verfügbaren Sprachen: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP`` , ``ru_RU``, ``pt_PT``            |

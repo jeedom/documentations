@@ -4,6 +4,3 @@
 >Du kannst sehen [Hier](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=pro) alle offiziellen Plugins in dieser Kategorie
 
 
-| | | | |
-|--- | --- | --- | ---|
-|<img src="./beta/._icon.png" class="pluginLogo" width="100" />||ACHTUNG Plugin nur in Beta verfügbar<br/>|<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=-1)|

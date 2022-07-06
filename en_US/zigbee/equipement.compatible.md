@@ -269,7 +269,7 @@
 |<img src="../../en_US/zigbee/images/FeeBit_RGBW.FB56-ZCW20FB1.2.png" width="60" />|Zemismart|Zigbee 3.0 RGB Remote Controller||||
 |<img src="../../en_US/zigbee/images/TYZB01_mtlhqn48.TS0012.png" width="60" />|Zemismart|Single load smart switch without neutral||||
 |<img src="../../en_US/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Zemismart|Single load smart switch without neutral||||
-|<img src="../../en_US/zigbee/images/TZE200_iossyxra.TS0601.png" width="60" />|Zemismart|||||
+|<img src="../../en_US/zigbee/images/TZE200_iossyxra.TS0601.png" width="60" />|Zemismart|Zemismart Zigbee/RF||||
 |<img src="../../en_US/zigbee/images/TZE200_xuzcvlku.TS0601.png" width="60" />|Zemismart|Store|Volets|||
 
 # Acova
@@ -370,7 +370,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/EcoDim.ED-10015.png" width="60" />|Ecodim|8 BUTTON WIRELESS WALL CONTROLLER||||
 |<img src="../../en_US/zigbee/images/EcoDim_BV.Dimmer-Switch-ZB3.0.png" width="60" />|Ecodim|Rotary dimmer switch|Switch, Dimmer||[Buy](https://www.domadoo.fr/fr/eclairage/5369-ecodim-interrupteur-variateur-rotatif-zigbee-30-200w-8719322371263.html)|
-|<img src="../../en_US/zigbee/images/EcoDim_BV.EcoDim-Zigbee_3.0.png" width="60" />|Ecodim|.|Switch, Dimmer||[Buy](https://www.domadoo.fr/fr/eclairage/5372-ecodim-module-variateur-intelligent-zigbee-30-250w-eco-dim10-8719322371775.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zigbee/images/EcoDim_BV.EcoDim-Zigbee_3.0.png" width="60" />|Ecodim|ECODIM - MODULE VARIATEUR INTELLIGENT ZIGBEE 3.0 250W ECO-DIM.10|Switch, Dimmer||[Buy](https://www.domadoo.fr/fr/eclairage/5372-ecodim-module-variateur-intelligent-zigbee-30-250w-eco-dim10-8719322371775.html?domid=4&id_campaign=9)|
 
 # Evology
 
@@ -388,7 +388,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/gledopto..png" width="60" />|Gledopto|||||
+|<img src="../../en_US/zigbee/images/gledopto.GL-B-004P.png" width="60" />|Gledopto|GL-B-004P||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-B-007Z.png" width="60" />|Gledopto|GL-B-007Z||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-B-008Z.png" width="60" />|Gledopto|GL-B-008Z||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-C-006P.png" width="60" />|Gledopto|Warm and cool white LED strip smart controller||||
@@ -637,7 +637,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
-|<img src="../../en_US/zigbee/images/Philips.1743630P7.png" width="60" />|Philips|||||
+|<img src="../../en_US/zigbee/images/Philips.1743630P7.png" width="60" />|Philips|Projecteur extérieur Philips||||
 |<img src="../../en_US/zigbee/images/Philips.1746330P7.png" width="60" />|Philips|Philips Hue White and Color ambiance APPEAR||||
 |<img src="../../en_US/zigbee/images/Philips.LBW006.png" width="60" />|Philips|Hue White A60 E27||||
 |<img src="../../en_US/zigbee/images/Philips.LCA001.png" width="60" />|Philips|Hue White and Color Ambiance A60 E27||||
@@ -751,7 +751,7 @@
 |<img src="../../en_US/zigbee/images/SONOFF.01MINIZB.png" width="60" />|Sonoff|Micromodule switch connected|Contactor, Light||[Buy](https://www.domadoo.fr/fr/peripheriques/5375-sonoff-micromodule-commutateur-connecte-zigbee.html)|
 |<img src="../../en_US/zigbee/images/SONOFF.BASICZBR3.png" width="60" />|Sonoff|Micromodule switch 10A|Contacteur||[Documentation](http://dl.itead.cc/basiczbr3/BASICZBR3-user-manual-V-1-1.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5258-sonoff-module-commutateur-10a-zigbee-30.html)|
 |<img src="../../en_US/zigbee/images/SONOFF.S26R2ZB.png" width="60" />|Sonoff|16A INTELLIGENT SOCKET|Prise||[Buy](https://www.domadoo.fr/fr/peripheriques/5880-sonoff-prise-intelligente-16a-zigbee-30-version-fr.html)|
-|<img src="../../en_US/zigbee/images/SONOFF.ZBMINI-L.png" width="60" />|Sonoff|||||
+|<img src="../../en_US/zigbee/images/SONOFF.ZBMINI-L.png" width="60" />|Sonoff|ZigBee Interrupteur Sans Fil Aucun Fil Neutre||||
 |<img src="../../en_US/zigbee/images/eWeLink.DO01.png" width="60" />|Sonoff|Door / window opening sensor|Sensor, Aperture|Attention there is a bug in the firmware which makes it go up as a temperature and humidity module it is therefore necessary following the inclusion to reset the correct model and remove the temperature and humidity controls|[Documentation](http://dl.itead.cc/SNZB-04/Instructions/SNZB-04_V1.0_User_manual_20201116.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5320-sonoff-capteur-d-ouverture-de-portefenetre-zigbee.html)|
 |<img src="../../en_US/zigbee/images/eWeLink.DS01.png" width="60" />|Sonoff|Door / window opening sensor|Sensor, Aperture||[Documentation](http://dl.itead.cc/SNZB-04/Instructions/SNZB-04_V1.0_User_manual_20201116.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5320-sonoff-capteur-d-ouverture-de-portefenetre-zigbee.html)|
 |<img src="../../en_US/zigbee/images/eWeLink.MS01.png" width="60" />|Sonoff|Intelligent motion detector|Sensor, Movement||[Documentation](http://dl.itead.cc/SNZB-03/Instructions/SNZB-03_V1.0_User_manual_20201116.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5261-sonoff-detecteur-de-mouvement-zigbee-30.html)|
@@ -768,8 +768,8 @@
 |<img src="../../en_US/zigbee/images/Sunricher.HK-SL-RELAY-A.png" width="60" />|Sunricher|ON / OFF module|Contactor, Light||[Buy](https://www.domadoo.fr/fr/peripheriques/5242-sunricher-module-onoff-zigbee-30.html)|
 |<img src="../../en_US/zigbee/images/Sunricher.HK-ZD-DIM-A.png" width="60" />|Sunricher|Sunricher Dali||||
 |<img src="../../en_US/zigbee/images/Sunricher.Motor_Controller.png" width="60" />|Sunricher|Roller shutter module|Shutter, Store||[Buy](https://www.domadoo.fr/fr/peripheriques/5245-sunricher-module-volet-roulant-zigbee-30.html)|
-|<img src="../../en_US/zigbee/images/Sunricher.ONOFF(2CH).png" width="60" />|Sunricher||||[Documentation](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2820)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/6163-sunricher-module-onoff-2-sorties-avec-mesure-de-consommation-zigbee-30.html?domid=4&id_campaign=9)|
-|<img src="../../en_US/zigbee/images/Sunricher.ONOFF_-M.png" width="60" />|Sunricher||||[Buy](https://www.domadoo.fr/fr/peripheriques/6162-sunricher-module-onoff-16a-avec-mesure-de-consommation-zigbee-30.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zigbee/images/Sunricher.ONOFF(2CH).png" width="60" />|Sunricher|SUNRICHER - MODULE ON/OFF 2 SORTIES AVEC MESURE DE CONSOMMATION ZIGBEE 3.0|||[Documentation](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2820)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/6163-sunricher-module-onoff-2-sorties-avec-mesure-de-consommation-zigbee-30.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zigbee/images/Sunricher.ONOFF_-M.png" width="60" />|Sunricher|SUNRICHER - MODULE ON/OFF 16A AVEC MESURE DE CONSOMMATION ZIGBEE 3.0|||[Buy](https://www.domadoo.fr/fr/peripheriques/6162-sunricher-module-onoff-16a-avec-mesure-de-consommation-zigbee-30.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/Sunricher.RGB-CCT.png" width="60" />|Sunricher|4 in 1 RGBW LED Controller|Light, RGBW, Dimmer||[Buy](https://www.domadoo.fr/fr/peripheriques/5248-sunricher-controleur-led-rgbw-4-en-1-zigbee-30.html)|
 |<img src="../../en_US/zigbee/images/Sunricher.ZG2833K4_EU06.png" width="60" />|Sunricher|4 BUTTON WIRELESS WALL CONTROLLER|||[Buy](https://www.domadoo.fr/fr/peripheriques/5738-sunricher-controleur-mural-sans-fil-4-boutons-2-zones-zigbee.html)|
 |<img src="../../en_US/zigbee/images/Sunricher.ZG2833K8_EU05.png" width="60" />|Sunricher|8 BUTTON WIRELESS WALL CONTROLLER|||[Buy](https://www.domadoo.fr/fr/peripheriques/5739-sunricher-controleur-mural-sans-fil-8-boutons-4-zones-zigbee.html)|
@@ -871,7 +871,7 @@
 |<img src="../../en_US/zigbee/images/TZ3000_tqlv4ug4.TS0001.png" width="60" />|Tuya|Tuya Zigbee - 1 Way Switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_txpirhfq.TS0011.png" width="60" />|Tuya|SMART - Single ON / OFF connected module||||
 |<img src="../../en_US/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|RGBW LED strip controller||||
-|<img src="../../en_US/zigbee/images/TZ3000_upgcbody.TS0207.png" width="60" />|Tuya|)|Fuite|||
+|<img src="../../en_US/zigbee/images/TZ3000_upgcbody.TS0207.png" width="60" />|Tuya|Detecteur d'inondation (3)|Fuite|||
 |<img src="../../en_US/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|Intelligent roller shutter module||||
 |<img src="../../en_US/zigbee/images/TZ3000_vp6clf9d.TS0044.png" width="60" />|Tuya|4 button smart switch with batteries||||
 |<img src="../../en_US/zigbee/images/TZ3000_w0qqde0g.TS011F.png" width="60" />|Tuya|Single connected plug ON / OFF 16A|Socket, Consumption, Power, Repeater||[Buy](https://fr.aliexpress.com/item/1005003444957152.html)|
@@ -895,7 +895,7 @@
 |<img src="../../en_US/zigbee/images/TZE200_dfxkcots.TS0601.png" width="60" />|Tuya|MOES - Smart thermostat||||
 |<img src="../../en_US/zigbee/images/TZE200_dzuqwsyg.TS0601.png" width="60" />|Tuya|MOES - Smart thermostat||||
 |<img src="../../en_US/zigbee/images/TZE200_ggev5fsl.TS0601.png" width="60" />|Tuya|Gas sensor||||
-|<img src="../../en_US/zigbee/images/TZE200_hue3yfsn.TS0601.png" width="60" />|Tuya|||||
+|<img src="../../en_US/zigbee/images/TZE200_hue3yfsn.TS0601.png" width="60" />|Tuya|Tête thermostatique intelligente||||
 |<img src="../../en_US/zigbee/images/TZE200_la2c2uo9.TS0601.png" width="60" />|Tuya|MOES - Single dimmer module||||
 |<img src="../../en_US/zigbee/images/TZE200_nueqqe6k.TS0601.png" width="60" />|Tuya|Smart Motorized Chain Roller|Volets|||
 |<img src="../../en_US/zigbee/images/TZE200_yvx5lh6k.TS0601.png" width="60" />|Tuya|Tuya air quality||||
@@ -985,4 +985,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-:32:09
+2022-07-06 02:32:09
