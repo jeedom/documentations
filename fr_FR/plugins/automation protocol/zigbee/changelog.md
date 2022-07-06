@@ -16,6 +16,10 @@
 >
 >Pour ceux n'ayant pas de soucis avec le demon il ne faut SURTOUT pas mettre à jour ca peut tout casser
 
+# 06/07/2022
+
+- Correction d'un soucis avec les dépendances sur RPI si le package RPI.GPIO est installé
+
 # 27/06/2022
 
 - Tentative de correction des soucis avec le démon
