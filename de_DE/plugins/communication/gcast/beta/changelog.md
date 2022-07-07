@@ -1,13 +1,13 @@
-# 
+# Changelog Gcast
 
->****
+>**Wichtig**
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 - Grundlegende Überarbeitung des Plugins 
 - Wechsel von Python zu PHP (schneller)
 
->****
+>**Wichtig**
 >
 >Achtung, bestimmte Befehle werden gelöscht und andere hinzugefügt. Nach dem Update ist es ABSOLUT erforderlich, Ihre Szenarien zu überprüfen und andere, die Befehle aus dem Plugin verwenden
 
@@ -41,7 +41,7 @@ Vielen Dank an @Caelion für alle folgenden Verbesserungen :
 - Eliminierung der Motorwahl
 - Kompatibilität mit dem Sound Plugin
 
->****
+>**Wichtig**
 >
 >Dieses Update lässt keine Wahl in der TTS-Engine
 

@@ -22,36 +22,36 @@ Ohne IFTTT kann Ihr Google-Assistent nicht mit Jeedom austauschen.
 **Beispiel für die Konfiguration des ersten Teils des Applets :**
 
 -   **Was willst du sagen?** : dis à jeedom \$
-    > ****
+    > **Spitze**
     >
     > Sie müssen unbedingt '\ $' am Ende Ihres Satzes setzen
 
 -   **Was ist eine andere Art, es zu sagen? (optional)** : maison \$
 -   **Und noch anders? (optional)** : jarvis \$
 -   **Was soll der Assistent als Antwort sagen??** : Das tue ich
-    > ****
+    > **Spitze**
     >
     > Hier ist es der Satz, den Ihr Google-Assistent beantwortet
     > bevor es Ihre Anfrage bearbeitet
 
--   **** : French
+-   **Sprache** : French
 -   Klicken Sie auf "+ That" und wählen Sie "Webhooks" (aktivieren Sie den Dienst, falls dies noch nicht geschehen ist))
 -   Wählen Sie den einzigen verfügbaren Auslöser : Stellen Sie eine Webanfrage
 
 **Beispiel für die Konfiguration des zweiten Teils des Applets :**
 
--   **** : Sie müssen die auf Ihrer Ausrüstungsseite angegebene Rückgabe-URL einfügen
-    > ****
+-   **URLs** : Sie müssen die auf Ihrer Ausrüstungsseite angegebene Rückgabe-URL einfügen
+    > **Spitze**
     >
     > Die Rückgabe-URL muss geändert werden : ***ID\_ AUSRÜSTUNG*** muss durch die ID Ihres Google-Assistenten ersetzt werden (Klicken Sie auf der Seite Ihres Geräts auf "Erweiterte Konfiguration", um die ID zu erfahren) und *query=XXXX* per query = {{TextField}}
 
-    > ****
+    > **Wichtig**
     >
     > URL muss externe URL sein ``https://mon\_dns.com/plugins/gcast/core/php/gcastApi.php?apikey=xxxxxxMA\_CLE\_APIxxxxxxxx&id=142&query={{TextField}}``
 
--   **** : GET
+-   **Methode** : GET
 -   **Inhaltstyp** : Anwendung / json
--   **** : {{TextField}}
+-   **Körper** : {{TextField}}
 
 Alles was Sie tun müssen, ist auf "Speichern" zu klicken und Ihre Interaktionen zwischen Google Assistant und Jeedom zu nutzen !
 

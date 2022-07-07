@@ -1,13 +1,13 @@
-# 
+# Changelog Gcast
 
->****
+>**Important**
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
 - Major overhaul of the plugin 
 - Switching from python to PHP (faster)
 
->****
+>**Important**
 >
 >Attention certain commands are deleted and others are added, following the update it is ABSOLUTELY necessary to check your scenarios and other which uses commands from the plugin
 
@@ -17,7 +17,7 @@
 
 # 01/30/2022
 
-- 
+- Support 4.2
 
 # 06/09/2021
 
@@ -35,13 +35,13 @@ Thank you @Caelion for all of the following improvements :
 - application function creation : which gives details when a Cast application on the device (Name + Detail)
 - creation of a volume function : for current volume
 
-# 
+# 31/03/2020
 
 - Cleaning and optimization
 - Elimination of engine choice
 - Compatibility with the sound plugin
 
->****
+>**Important**
 >
 >This update leaves no choice in the TTS engine
 
