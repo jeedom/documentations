@@ -16,15 +16,15 @@
 >
 >Para quem não tem problemas com o demônio, NÃO DEVE atualizar, pode quebrar tudo
 
-# 
+# 27/06/2022
 
 - Tente corrigir problemas com o daemon
 
-# 
+# 23/06/2022
 
 - Tente corrigir problemas com o daemon
 
-# 
+# 20/06/2022
 
 - Adicionada opção para excluir automaticamente dispositivos excluídos
 - Corrigido um bug ao forçar uma atualização OTA

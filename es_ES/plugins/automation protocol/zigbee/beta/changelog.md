@@ -16,15 +16,15 @@
 >
 >Para los que no tengan problemas con el demonio, NO DEBEN actualizar, puede estropearlo todo
 
-# 
+# 27/06/2022
 
 - Intento de solucionar problemas con el daemon
 
-# 
+# 23/06/2022
 
 - Intento de solucionar problemas con el daemon
 
-# 
+# 20/06/2022
 
 - Opción agregada para excluir automáticamente dispositivos eliminados
 - Se corrigió un error al forzar una actualización OTA
