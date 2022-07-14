@@ -1,0 +1,31 @@
+{
+	"id": "modbustcp",
+	"name": "Modbus TCP Server",
+	"description": "Plugin transformant votre Jeedom en seveur modbus TCP",
+	"utilization": "",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.0",
+	"category": "automation protocol",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 30,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/modbustcp/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/modbustcp/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-modbustcp",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
+}
