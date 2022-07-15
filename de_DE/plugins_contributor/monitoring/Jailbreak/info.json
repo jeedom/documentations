@@ -1,14 +1,31 @@
 {
-	"id" : "Jailbreak",
-	"name" : "Jailbreak",
-	"description" : "Plugin permettant le monitoring des équipements iOS",
-	"licence" : "AGPL",
-	"author" : "Flobul",
-	"require" : "3.0",
-	"hasDependency" : true,
-	"category" : "monitoring",
-	"language" : ["fr_FR","en_US","es_ES"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy"],
-	"changelog" : "https://flobul.github.io/Jailbreak/fr_FR/changelog",
-	"documentation" : "https://flobul.github.io/Jailbreak/fr_FR/"
+  "id": "Jailbreak",
+  "name": "Jailbreak",
+  "description": "Ce plugin s’adresse à tous les iPad et iPhone retrouvés dans les placards et tiroirs, qui ont pris la poussière, que l’on a oubliés ou délaissés. Il permet d'intéragir avec Jeedom pour remonter des informations, lancer Application, exécuter des actions... Plus d'informations sur la présentation du plugin : https://flobul-domotique.fr/presentation-du-plugin-jailbreak-pour-jeedom/",
+  "installation": "Le guide de configuration se trouve sur cette page : <i><a class='btn btn-warning btn-xs' target='_blank' href='https://flobul-domotique.fr/configuration-du-plugin-jailbreak-pour-jeedom/'><i class='fas fa-cog'></i><strong> Configuration du plugin</strong></a></i></br><strong>Prérequis</strong> :</br>    - Un appareil sous iOS/iPadOS jailbreaké (testé sous iPadOS 13.5, 12.4.3, 9.3.5),</br>    - Le tweak OpenSSH installé et démarré sur l’appareil.</br>Le détail des commandes et leur fonctionnement sur la documentation du plugin: <i><a class='btn btn-primary btn-xs' target='_blank' href='https://flobul-domotique.fr/documentation-du-plugin-jailbreak-pour-jeedom/'><i class='fas fa-book'></i> Documentation du plugin",
+  "utilization": "Après avoir activé le Jailbreak de votre appareil, et lancé OpenSSH, créez un équipement sur Jeedom et renseignez les informations demandées (IP, port SSH, identifiant, mot de passe, preset, widget)",
+  "licence": "AGPL",
+  "author": "DomoFlo1",
+  "require": "3.0",
+  "hasDependency": true,
+  "hasOwnDeamon": false,
+  "category": "monitoring",
+  "languages": [
+    "fr_FR",
+    "en_US",
+    "sp_SP"
+  ],
+  "compatibility": [
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "v4"
+  ],
+  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-jailbreak-pour-jeedom/",
+  "documentation": "https://flobul-domotique.fr/documentation-du-plugin-jailbreak-pour-jeedom/",
+  "link": {
+    "forum": "https://community.jeedom.com/t/plugin-tiers-plugin-jailbreak/19430/120"
+  }
 }

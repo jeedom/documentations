@@ -431,7 +431,7 @@
         "Ce plugin va vous permettre de garder un oeil sur l'ensemble de vos capteurs (Z-Wave , EnOcean, ZigBee) afin de vérifier leur santé, leur portée , leur dernier message recu , etc": "Mit diesem Plugin können Sie alle Ihre Sensoren (Z-Wave, EnOcean, ZigBee) im Auge behalten, um ihren Zustand, ihre Reichweite, ihre letzte empfangene Nachricht usw. zu überprüfen",
         "Plugin de journalisation d'activité pour les équipements, scénarios, et fichiers log": "Aktivitätsprotokollierungs-Plugin für Geräte, Szenarien und Protokolldateien",
         "Plugin fullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk": "FullyKiosK-Plugin für die Tablet-Verwaltung mit der Fullkiosk-App",
-        "Plugin permettant le monitoring des équipements iOS": "Plugin zur Überwachung von iOS-Geräten",
+        "Ce plugin s'adresse à tous les iPad et iPhone retrouvés dans les placards et tiroirs, qui ont pris la poussière, que l'on a oubliés ou délaissés": "Dieses Plugin ist für alle iPads und iPhones, die sich in verstaubten, vergessenen oder verlassenen Schränken und Schubladen befinden",
         "Seuls les plugins de contributeur ont leur documentation ici": "Hier haben nur Contributor-Plugins ihre Dokumentation",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Sie können die Dokumentation der offiziellen Plugins direkt vom Jeedom Market abrufen",
         "Une fois sur le plugin en question, cliquez sur documentation": "Klicken Sie im betreffenden Plugin auf Dokumentation",

@@ -431,7 +431,7 @@
         "Ce plugin va vous permettre de garder un oeil sur l'ensemble de vos capteurs (Z-Wave , EnOcean, ZigBee) afin de vérifier leur santé, leur portée , leur dernier message recu , etc": "This plugin will allow you to keep an eye on all of your sensors (Z-Wave, EnOcean, ZigBee) in order to check their health, their range, their last message received, etc",
         "Plugin de journalisation d'activité pour les équipements, scénarios, et fichiers log": "Activity logging plugin for equipment, scenarios, and log files",
         "Plugin fullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk": "FullyKiosK plugin for tablet management using the fullykiosk app",
-        "Plugin permettant le monitoring des équipements iOS": "Plugin for monitoring iOS devices",
+        "Ce plugin s'adresse à tous les iPad et iPhone retrouvés dans les placards et tiroirs, qui ont pris la poussière, que l'on a oubliés ou délaissés": "This plugin is for all iPads and iPhones found in cupboards and drawers, which have gathered dust, which have been forgotten or abandoned",
         "Seuls les plugins de contributeur ont leur documentation ici": "Only contributor plugins have their documentation here",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "You can consult the documentation of the official plugins directly from the Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Once on the plugin in question, click on documentation",
