@@ -154,7 +154,7 @@ Sie können jetzt Ihre Somfy RTS-Komponente bei Jeedom bestellen.
 >-   Aktivieren Sie NICHT Undecoded
 >-   Überprüfen Sie Lightning4
 >
->So rufen Sie die Codes von der Fernbedienung ab : Aktivieren Sie die Option "Alle Nachrichten speichern" und rufen Sie die IDs ab, indem Sie auf drücken
+>So rufen Sie die Codes von der Fernbedienung ab : Versetzen Sie die Protokollebene in den Debug-Modus und starten Sie den Daemon neu. Dann in Analyse -> Protokoll dann rfxcom die IDs abrufen, indem Sie auf drücken
 >Fernbedienungstasten, die wie eine Nachricht aussehen : 0913004C410A24015970, Subtyp = ARC, Id = 400A24… Beispiel "Nachrichten"
 >eine 4-Tasten-Fernbedienung : 0913006D410A21015E70 0913006E410A22015970 0913006F410A24015970 09130070410A28015970
 >

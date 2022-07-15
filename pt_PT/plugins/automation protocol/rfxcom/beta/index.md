@@ -154,7 +154,7 @@ Agora você pode solicitar o seu componente Somfy RTS com o Jeedom.
 >-   NÃO marque Não codificado
 >-   Verificar relâmpago4
 >
->Para recuperar os códigos do controle remoto : Ative a opção "Salvar todas as mensagens" e recupere os IDs pressionando o botão
+>Para recuperar os códigos do controle remoto : Coloque o nível de log no modo de depuração e reinicie o daemon. Então, em análise -> log, então rfxcom recupere os IDs pressionando o botão
 >Teclas de controle remoto que se parecem com Mensagem : 0913004C410A24015970, Subtipo = ARC, Id = 400A24… Exemplo "Mensagens""
 >um controle remoto de 4 botões : 0913006D410A21015E70 0913006E410A22015970 0913006F410A24015970 09130070410A28015970
 >

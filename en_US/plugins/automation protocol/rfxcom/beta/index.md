@@ -154,7 +154,7 @@ You can now order your Somfy RTS component with Jeedom.
 >-   Do NOT check Undecoded
 >-   Check Lightning4
 >
->To retrieve the codes from the remote control : Activate the option "Save all messages" and retrieve the IDs by pressing the
+>To retrieve the codes from the remote control : Put the log level in debug mode and restart the daemon. Then in analysis -> log then rfxcom retrieve the IDs by pressing the
 >Remote control keys that look like Message : 0913004C410A24015970, Subtype = ARC, Id = 400A24… Example "Messages"
 >a 4-button remote control : 0913006D410A21015E70 0913006E410A22015970 0913006F410A24015970 09130070410A28015970
 >

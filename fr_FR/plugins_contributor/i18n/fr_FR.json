@@ -46,6 +46,9 @@
         "Changelog": "Changelog"
     },
     "plugins_contributor\/communication\/index.md": {
+        "chat est une plateforme de messagerie collaborative (type slack, HipChat": "chat est une plateforme de messagerie collaborative (type slack, HipChat",
+        "Rocket.chat": "Rocket.chat",
+        "Plugin permettant la connexion à un serveur Rocket.chat. Rocket": "Plugin permettant la connexion à un serveur Rocket.chat. Rocket",
         "Livebox": "Livebox",
         "Plugin pour Livebox 2, play, 4": "Plugin pour Livebox 2, play, 4",
         "jeeRhasspy": "jeeRhasspy",
@@ -67,7 +70,8 @@
         "Documentation": "Documentation",
         "Market": "Market",
         "Changelog": "Changelog",
-        "Gotify est une solution self-hosted, libre et open source permettant l'envoi et la réception de message": "Gotify est une solution self-hosted, libre et open source permettant l'envoi et la réception de message"
+        "Gotify est une solution self-hosted, libre et open source permettant l'envoi et la réception de message": "Gotify est une solution self-hosted, libre et open source permettant l'envoi et la réception de message",
+        "Beta": "Beta"
     },
     "plugins_contributor\/devicecommunication\/index.md": {
         "worxLandroidS": "worxLandroidS",

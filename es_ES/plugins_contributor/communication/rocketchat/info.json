@@ -1,0 +1,33 @@
+{
+	"id": "rocketchat",
+	"name": "Rocket.chat",
+	"description": "Plugin permettant la connexion à un serveur Rocket.chat. Rocket.chat est une plateforme de messagerie collaborative (type slack, HipChat...)",
+	"utilization": "Vous devez créer un utilisateur sur votre seveur Rocket.Chat dédié au plugin, de préférence ayant le rôle 'bot'",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "3.3.24",
+	"category": "communication",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 60,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/rocketchat/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-rocketchat",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
+}

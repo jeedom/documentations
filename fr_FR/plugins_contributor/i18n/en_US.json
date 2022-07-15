@@ -124,6 +124,9 @@
         " Changelog*": " Changelog*"
     },
     "plugins_contributor\/communication\/index.md": {
+        "chat est une plateforme de messagerie collaborative (type slack, HipChat": "chat is a collaborative messaging platform (slack type, HipChat",
+        "Rocket.chat": "Rocket.chat",
+        "Plugin permettant la connexion à un serveur Rocket.chat. Rocket": "Plugin allowing connection to a Rocket.chat server. rocket",
         "Plugin pour Livebox 2, play, 4": "Plugin for Livebox 2, play, 4",
         "Plugin pour le support de l'assistant vocal Rhasspy dans Jeedom": "Plugin to support the Rhasspy voice assistant in Jeedom",
         "Infos & Localisation": "Info & Location",
@@ -205,7 +208,14 @@
         " Changelog]": " Changelog]",
         "[Changelog]": "[Changelog]",
         "*Changelog*": "*Changelog*",
-        " Changelog*": " Changelog*"
+        " Changelog*": " Changelog*",
+        " Beta.": " Beta.",
+        " Beta?": " Beta?",
+        "Beta ": "Beta ",
+        " Beta]": " Beta]",
+        "[Beta]": "[Beta]",
+        "*Beta*": "*Beta*",
+        " Beta*": " Beta*"
     },
     "plugins_contributor\/devicecommunication\/index.md": {
         "Plugin Jeedom pour Robots tondeuses Worx Landroid modèles S\/M\/L version cloud": "Jeedom plugin for Worx Landroid robot mowers models S \/ M \/ L cloud version",

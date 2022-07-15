@@ -154,7 +154,7 @@ Vous pouvez désormais commander votre volet Somfy RTS avec Jeedom.
 >-   Ne PAS cocher Undecoded
 >-   Cocher Lightning4
 >
->Pour récupérer les codes de la télécommande : Activer l’option "Enregistrer tous les messages" et récupérer les ID en appuyant sur les
+>Pour récupérer les codes de la télécommande : Mettez le niveau de log en mode debug et relancé le demon. Ensuite dans analayse -> log puis rfxcom récupérez les ID en appuyant sur les
 >touches des télécommandes qui ressemblent à Message : 0913004C410A24015970, Subtype = ARC, Id = 400A24 …​ Exemple"Messages"
 >d’une télécommande à 4 touches : 0913006D410A21015E70 0913006E410A22015970 0913006F410A24015970 09130070410A28015970
 >
