@@ -1,0 +1,23 @@
+{
+	"id" : "monitorsensor",
+	"name" : "Monitor sensors",
+	 "specialAttributes" : {
+
+	  },
+	"description" : {
+		"fr_FR": "Ce plugin va vous permettre de garder un oeil sur l'ensemble de vos capteurs (Z-Wave , EnOcean, ZigBee) afin de vérifier leur santé, leur portée , leur dernier message recu , etc . le tout synthétisé dans un tableau, des alertes en cas de défaillance ! Surveillance aussi toute particulière du réseau Z-Wave (Queue, Status). Surveillance du status des Daemons de tous les plugins."
+	},
+	"licence" : "AGPL",
+	"author" : "Frixo",
+	"require" : "3.0.00",
+	"category" : "monitoring",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://frixo3190.github.io/jeedom_plugins/monitor_sensors/docs/fr_FR/#changelog",
+	"documentation" : "https://frixo3190.github.io/jeedom_plugins/monitor_sensors/docs/fr_FR/",
+	"link" : {
+	},
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+}

@@ -426,6 +426,9 @@
         " Changelog*": " Changelog*"
     },
     "plugins_contributor\/monitoring\/index.md": {
+        "Surveillance du status des Daemons de tous les plugins": "Daemon status monitoring for all plugins",
+        "Monitor sensors": "Monitor sensors",
+        "Ce plugin va vous permettre de garder un oeil sur l'ensemble de vos capteurs (Z-Wave , EnOcean, ZigBee) afin de vérifier leur santé, leur portée , leur dernier message recu , etc": "This plugin will allow you to keep an eye on all of your sensors (Z-Wave, EnOcean, ZigBee) in order to check their health, their range, their last message received, etc",
         "Plugin de journalisation d'activité pour les équipements, scénarios, et fichiers log": "Activity logging plugin for equipment, scenarios, and log files",
         "Plugin fullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk": "FullyKiosK plugin for tablet management using the fullykiosk app",
         "Plugin permettant le monitoring des équipements iOS": "Plugin for monitoring iOS devices",
@@ -434,6 +437,8 @@
         "Une fois sur le plugin en question, cliquez sur documentation": "Once on the plugin in question, click on documentation",
         "Vous pouvez voir": "You can see",
         "tous les plugins officiels de cette catégorie": "all official plugins in this category",
+        "le tout synthétisé dans un tableau, des alertes en cas de défaillance": "all summarized in a table, alerts in case of failure",
+        "Surveillance aussi toute particulière du réseau Z-Wave (Queue, Status": "Also very specific monitoring of the Z-Wave network (Queue, Status",
         " JeeLog.": " JeeLog.",
         " JeeLog?": " JeeLog?",
         "JeeLog ": "JeeLog ",
