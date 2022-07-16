@@ -1,0 +1,32 @@
+{
+	"id": "portainer",
+	"name": "Portainer",
+	"description": "Plugin permettant la connexion à Portainer.io, un outils de gestion de dockers, et donc de gérer vos dockers et containers sur Jeedom.",
+	"utilization": "Il est nécessaire d'installer Portainer.io sur votre environnement docker. Portainer peut être installé très simplement dans un container.",
+	"licence": "AGPL",
+	"author": "Mips2648",
+	"require": "3.3.24",
+	"category": "monitoring",
+	"display": "panel",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/portainer/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/portainer/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-portainer",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
+}

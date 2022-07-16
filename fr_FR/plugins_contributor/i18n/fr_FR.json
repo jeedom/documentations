@@ -107,6 +107,9 @@
     "plugins_contributor\/energy\/index.md": {
         "Suivi CO2": "Suivi CO2",
         "Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre": "Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre",
+        "Le plugin actualise les données toutes les heures via un cron": "Le plugin actualise les données toutes les heures via un cron",
+        "Fullup": "Fullup",
+        "Plugin permettant la lecture des données des jauges connectées Fullup": "Plugin permettant la lecture des données des jauges connectées Fullup",
         "eeSmart": "eeSmart",
         "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy": "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy",
         "Energie": "Energie",
@@ -148,6 +151,12 @@
         "Changelog": "Changelog"
     },
     "plugins_contributor\/monitoring\/index.md": {
+        "Il dispose également d'une page santé spécifique résumant l'ensemble des informations de vos équipements": "Il dispose également d'une page santé spécifique résumant l'ensemble des informations de vos équipements",
+        "Proxmox": "Proxmox",
+        "Plugin permettant la gestion d'un serveur Proxmox": "Plugin permettant la gestion d'un serveur Proxmox",
+        "io, un outils de gestion de dockers, et donc de gérer vos dockers et containers sur Jeedom": "io, un outils de gestion de dockers, et donc de gérer vos dockers et containers sur Jeedom",
+        "Portainer": "Portainer",
+        "Plugin permettant la connexion à Portainer": "Plugin permettant la connexion à Portainer",
         "Surveillance du status des Daemons de tous les plugins": "Surveillance du status des Daemons de tous les plugins",
         "Monitor sensors": "Monitor sensors",
         "Ce plugin va vous permettre de garder un oeil sur l'ensemble de vos capteurs (Z-Wave , EnOcean, ZigBee) afin de vérifier leur santé, leur portée , leur dernier message recu , etc": "Ce plugin va vous permettre de garder un oeil sur l'ensemble de vos capteurs (Z-Wave , EnOcean, ZigBee) afin de vérifier leur santé, leur portée , leur dernier message recu , etc",
@@ -169,7 +178,9 @@
         "Market": "Market",
         "Changelog": "Changelog",
         "le tout synthétisé dans un tableau, des alertes en cas de défaillance": "le tout synthétisé dans un tableau, des alertes en cas de défaillance",
-        "Surveillance aussi toute particulière du réseau Z-Wave (Queue, Status": "Surveillance aussi toute particulière du réseau Z-Wave (Queue, Status"
+        "Surveillance aussi toute particulière du réseau Z-Wave (Queue, Status": "Surveillance aussi toute particulière du réseau Z-Wave (Queue, Status",
+        "Il est possible de récupérer toutes les ressources (noeuds, machine virtuelles, stockage...) et toutes leurs propriétés (statut, mémoire, CPU, disque, adresse IP, temps d'activité, list des snapshots": "Il est possible de récupérer toutes les ressources (noeuds, machine virtuelles, stockage...) et toutes leurs propriétés (statut, mémoire, CPU, disque, adresse IP, temps d'activité, list des snapshots",
+        "Le plugin permet aussi de démarrer et arrêter les VMs et les containers ainsi que de prendre des snapshots et des backups": "Le plugin permet aussi de démarrer et arrêter les VMs et les containers ainsi que de prendre des snapshots et des backups"
     },
     "plugins_contributor\/multimedia\/index.md": {
         "Multimédia": "Multimédia",

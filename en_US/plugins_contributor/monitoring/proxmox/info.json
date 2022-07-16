@@ -1,0 +1,32 @@
+{
+	"id": "proxmox",
+	"name": "Proxmox",
+	"description": "Plugin permettant la gestion d'un serveur Proxmox. Il est possible de récupérer toutes les ressources (noeuds, machine virtuelles, stockage...) et toutes leurs propriétés (statut, mémoire, CPU, disque, adresse IP, temps d'activité, list des snapshots...). Le plugin permet aussi de démarrer et arrêter les VMs et les containers ainsi que de prendre des snapshots et des backups. Il dispose également d'une page santé spécifique résumant l'ensemble des informations de vos équipements.",
+	"utilization": "Vous devez déjà avoir un serveur Proxmox et il sera nécessaire de créer un utilisateur dédié à Jeedom.",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "3.3.24",
+	"category": "monitoring",
+	"display": "panel",
+	"hasDependency": false,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/proxmox/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/proxmox/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-proxmox",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
+}
