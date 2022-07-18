@@ -35,7 +35,7 @@ También puede elegir el número de intentos y la demora entre estos intentos.
 # Uso del complemento
 
 
- :
+IMPORTANTE :
 
 Para usar el complemento, debe conocer los parámetros de sus entradas / salidas de sus periféricos modbus (formato de datos, orden de bits, etc...)
 
@@ -43,13 +43,13 @@ Para los comandos, hay parámetros para seleccionar :
 
 Detalles del parámetro :
 - Valor negativo : para formatos de tipo LONG/INT, debe especificar si el valor de escritura/lectura será negativo
--  : esto es si la compensación se tiene en cuenta o no en los números de registro en ciertos dispositivos Modbus
+- Compensar : esto es si la compensación se tiene en cuenta o no en los números de registro en ciertos dispositivos Modbus
 - Elija el tono del control deslizante : Esto es para elegir el paso del control deslizante en el caso de un comando de tipo Acción/Deslizador si desea enviar valores no enteros.
 
 
 
 
- :
+IMPORTANTE :
 
 Dado el tiempo que lleva tener que configurar en ocasiones determinados equipos, es posible exportar los comandos de un equipo ya creado, para descargarlo localmente en .json.
 
@@ -118,7 +118,7 @@ ESCRIBIR COMANDOS:
  En su equipo, por defecto habrá 3 comandos de tipo Acción/mensaje creados; Escritura de registro múltiple, escritura de bit y escritura de bobina múltiple
 
 
- :
+IMPORTANTE :
 
 
  Su principio de funcionamiento:
@@ -144,7 +144,7 @@ ESCRIBIR COMANDOS:
   Por defecto, el código de función es fc15. Por favor, deje esta configuración por defecto.
 
   Para cambiar los valores en los registros, use esta sintaxis:
-  -   : 01110111 Entonces esto enviará desde el registro de inicio configurado los valores True(1) o False(0) a los registros
+  -  Ex : 01110111 Entonces esto enviará desde el registro de inicio configurado los valores True(1) o False(0) a los registros
 
 
 
@@ -163,7 +163,7 @@ ESCRIBIR COMANDOS:
 
 
 
- :
+IMPORTANTE :
 
 
 Algunos PLC no tienen la función fc06
