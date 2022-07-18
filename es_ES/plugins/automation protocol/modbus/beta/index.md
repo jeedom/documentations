@@ -78,7 +78,9 @@ Solo tienes que hacer clic en Descargar configuración de las órdenes que acaba
 
 
 
-Para importar comandos al equipo : haga clic en la parte superior derecha del equipo en el botón Importar Json :
+Para importar comandos al equipo : 
+- Recuerda Guardar si es un equipo nuevo.
+- Haga clic en la parte superior derecha del equipo en el botón Importar Json para elegir el Json que contiene los comandos exportados previamente :
 
 ![dependances](../images/importFunction.png)
 

@@ -16,7 +16,6 @@
 
 - Função Fc16 Registrador não seguido
 
-
 # 02/05/2022
 
-- Função de Exportação e Importação de pedidos por Equipamento
+- Função Exportando um arquivo Json e Importando pedidos por Equipamento 

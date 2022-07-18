@@ -49,6 +49,50 @@ Detalhes do parâmetro :
 
 
 
+IMPORTANTE :
+
+Dado o tempo gasto para por vezes configurar determinados equipamentos, é possível exportar os comandos de um equipamento já criado, para baixá-lo localmente em .json.
+
+Você pode, portanto, importá-lo em outra caixa facilmente em um novo equipamento do mesmo tipo (apenas para alterar o que difere em termos de conexão)
+
+
+Na página do equipamento, no canto inferior direito, você tem este encarte : 
+
+![dependances](../images/exportFunction.png)
+
+
+Clique em Lista de pedidos para exportar; abre-se uma janela com os comandos existentes neste equipamento:
+
+![dependances](../images/choiceCmds.png)
+
+Você pode selecioná-los todos, se necessário, usando o botão na parte superior da janela. 
+Quando os comandos forem escolhidos, clique em Validar.
+
+
+
+Agora você verá os pedidos escolhidos e prontos para serem exportados neste encarte :
+
+![dependances](../images/exportCmds.png)
+
+Você só precisa clicar em Download Config dos pedidos que acabaram de aparecer.
+
+
+
+Para importar comandos para equipamentos : clique no canto superior direito do equipamento no botão Importar Json :
+
+![dependances](../images/importFunction.png)
+
+
+
+
+
+
+
+
+
+
+
+
 CONTROLES DE REPRODUÇÃO :
 
 Para bobinas e entradas discretas :  

@@ -78,7 +78,9 @@ Sie müssen nur auf Download Config der gerade erschienenen Bestellungen klicken
 
 
 
-Importieren von Befehlen in Geräte : Klicken Sie oben rechts neben dem Gerät auf die Schaltfläche Import Json :
+Importieren von Befehlen in Geräte : 
+- Denken Sie daran, zu speichern, wenn es sich um ein neues Gerät handelt.
+- Klicken Sie oben rechts neben dem Gerät auf die Schaltfläche Import Json, um den Json auszuwählen, der die zuvor exportierten Befehle enthält :
 
 ![dependances](../images/importFunction.png)
 

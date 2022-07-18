@@ -49,6 +49,50 @@ Detalles del parámetro :
 
 
 
+IMPORTANTE :
+
+Dado el tiempo que lleva tener que configurar en ocasiones determinados equipos, es posible exportar los comandos de un equipo ya creado, para descargarlo localmente en .json.
+
+Por lo tanto, puede importarlo fácilmente en otra caja en un nuevo equipo del mismo tipo (solo para cambiar lo que difiere en términos de su conexión)
+
+
+En la página del equipo, abajo a la derecha, tienes este inserto : 
+
+![dependances](./images/exportFunction.png)
+
+
+Haga clic en Lista de pedidos para exportar; se abre una ventana con los comandos existentes en este equipo:
+
+![dependances](./images/choiceCmds.png)
+
+Puede seleccionarlos todos si es necesario usando el botón en la parte superior de la ventana. 
+Cuando se elijan los comandos, haga clic en Validar.
+
+
+
+Ahora verá los pedidos elegidos y listos para ser exportados en este inserto :
+
+![dependances](./images/exportCmds.png)
+
+Solo tienes que hacer clic en Descargar configuración de las órdenes que acaban de aparecer.
+
+
+
+Para importar comandos al equipo : haga clic en la parte superior derecha del equipo en el botón Importar Json :
+
+![dependances](./images/importFunction.png)
+
+
+
+
+
+
+
+
+
+
+
+
 CONTROLES DE REPRODUCCIÓN :
 
 Para bobinas y entradas discretas :  

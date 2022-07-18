@@ -49,6 +49,50 @@ Parameterdetails :
 
 
 
+WICHTIG :
+
+In Anbetracht der Zeit, die für die Konfiguration bestimmter Geräte aufgewendet werden muss, ist es möglich, die Befehle eines bereits erstellten Geräts zu exportieren und es lokal in .json herunterzuladen.
+
+Sie können es also entweder auf eine andere Box problemlos auf ein neues Gerät des gleichen Typs importieren (nur um das zu ändern, was sich in Bezug auf seine Verbindung unterscheidet)
+
+
+Auf der Ausrüstungsseite unten rechts haben Sie diesen Einsatz : 
+
+![dependances](./images/exportFunction.png)
+
+
+Klicken Sie auf Liste der zu exportierenden Bestellungen; Es öffnet sich ein Fenster mit den vorhandenen Befehlen auf diesem Gerät:
+
+![dependances](./images/choiceCmds.png)
+
+Sie können sie bei Bedarf alle auswählen, indem Sie die Schaltfläche oben im Fenster verwenden. 
+Wenn die Befehle ausgewählt sind, klicken Sie auf Validieren.
+
+
+
+In dieser Beilage sehen Sie nun die ausgewählten Bestellungen, die für den Export bereit sind :
+
+![dependances](./images/exportCmds.png)
+
+Sie müssen nur auf Download Config der gerade erschienenen Bestellungen klicken.
+
+
+
+Importieren von Befehlen in Geräte : Klicken Sie oben rechts neben dem Gerät auf die Schaltfläche Import Json :
+
+![dependances](./images/importFunction.png)
+
+
+
+
+
+
+
+
+
+
+
+
 WIEDERGABESTEUERUNG :
 
 Für Spulen und diskrete Eingänge :  
