@@ -9,4 +9,5 @@
 
 | | | | |
 |--- | --- | --- | ---|
+|<img src="genericTypeManager/genericTypeManager_icon.png" class="pluginLogo" width="100" />|Generic type manager|Plugin to manage your commands via their generic type dynamically. Ce plugin a l'avantage de tout centraliser et permettre une gestion hiérarchique des ‹ objets ›|[Documentation](http://fobsoft.github.io/jeedom-plugins-documentation/genericTypeManager/fr_FR)[Beta](http://fobsoft.github.io/jeedom-plugins-documentation/genericTypeManager/fr_FR)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4235)<br/>[Changelog](http://fobsoft.github.io/jeedom-plugins-documentation/genericTypeManager/en_US/changelog)[Beta](http://fobsoft.github.io/jeedom-plugins-documentation/genericTypeManager/en_US/changelog)|
 |<img src="jeexplorer/jeexplorer_icon.png" class="pluginLogo" width="100" />|JeeXplorer|Jeedom Explorer / File Editor|[Documentation](https://kiboost.github.io/jeedom_docs/plugins/jeexplorer/en_US/)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3690)<br/>[Changelog](https://kiboost.github.io/jeedom_docs/plugins/jeexplorer/en_US/changelog.html)|

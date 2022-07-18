@@ -1,0 +1,31 @@
+{
+  "id": "genericTypeManager",
+  "name": "Generic type manager",
+  "description": {
+		"fr_FR": "Plugin pour gérer vos commandes via leur type générique de manière dynamique. Ce plugin a l’avantage de tout centraliser et permettre une gestion hiérarchique des ‹ objets ›"
+  },
+  "licence": "AGPL",
+  "author": "fobsoft, Nvince76",
+  "require": "3.3",
+  "category": "programming",
+  "hasDependency" : false,
+  "hasOwnDeamon" : false,
+  "maxDependancyInstallTime" : 0,
+	"changelog" :           "http:\/\/fobsoft.github.io\/jeedom-plugins-documentation\/genericTypeManager\/#language#\/changelog",
+	"documentation" :       "http:\/\/fobsoft.github.io\/jeedom-plugins-documentation\/genericTypeManager\/#language#",
+	"changelog_beta" :      "http:\/\/fobsoft.github.io\/jeedom-plugins-documentation\/genericTypeManager\/#language#\/changelog",
+	"documentation_beta" :  "http:\/\/fobsoft.github.io\/jeedom-plugins-documentation\/genericTypeManager\/#language#",
+	"language": [
+		"fr_FR"
+	],  
+  "compatibility": [
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "mobile",
+    "v4",
+		"atlas"
+  ]
+}
