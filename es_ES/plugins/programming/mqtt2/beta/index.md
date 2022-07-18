@@ -13,14 +13,14 @@ El complemento le permite conectar Jeedom a un brocker MQTT existente o instalar
 Hay 2 modos de instalación:
 
 - modo local : Jeedom instalará Mosquitto usando el complemento de la ventana acoplable (en un contenedor, por lo tanto), se encarga de la configuración (en particular, la autenticación). Tenga en cuenta que la instalación puede tardar varias decenas de minutos
-- modo remoto : solo tiene que indicarle a Jeedom la dirección del brocker MQTT (ej : mqtt::1883)
+- modo remoto : solo tiene que indicarle a Jeedom la dirección del brocker MQTT (ej : mqtt://192.168.1.10:1883)
 
 Puede especificar usuarios / contraseña para la conexión:
 
 - en modo local puedes poner un nombre de usuario:contraseña por línea, cada par de identificadores tendrá acceso válido al brocker. De forma predeterminada, si no hay un identificador, jeedom agrega automáticamente un identificador
 - en modo autónomo, simplemente coloque en la primera línea el par de nombre de usuario / contraseña para jeedom, separados por : (ej. si el nombre de usuario es `jeedom` y la contraseña` mqtt` tienes que poner` jeedom:mqtt'')
 
->****
+>**IMPORTANTE**
 >
 >En modo local no es posible no tener autenticación
 
@@ -36,9 +36,9 @@ Es necesario indicar el tema raíz (ex `test`) para el equipo luego en los coman
 - comandos de tipo de información : para indicar el tema completo, por ejemplo, si pone `toto/1`, todos los mensajes sobre el tema `test/toto/1` se escribirán automáticamente en el comando en cuestión
 - comandos de tipo de acción : para indicar el tema y el mensaje, por ejemplo, si pones `foo / 2` con el mensaje` plop`, cada clic en el comando enviará el mensaje` plop` sobre el tema` test / foo / 2`
 
->****
+>**NOTA**
 >
->En los comandos de tipo acción, puede usar la etiqueta `#slider##color##message#` o `#select#` que se reemplazará automáticamente según el tipo de comando por su valor durante la ejecución del comando
+>En los comandos de tipo acción, puede usar la etiqueta `#slider#`, `#color#`, `#message#` o `#select#` que se reemplazará automáticamente según el tipo de comando por su valor durante la ejecución del comando
 
 ## Usando Jeedom a través de MQTT
 
@@ -47,10 +47,10 @@ Es posible conducir Jeedom a través de MQTT, aquí están los temas (los ejempl
 - `jeedom / cmd / set /#cmd_id#'' : permite ejecutar el comando `#cmd_id#`, puede pasar los parámetros en el mensaje como campos json dependiendo del subtipo del comando, por ejemplo:
 
   - defecto : sin parámetros
-  -  :  : 50} `
-  -  :  : "hola "mensaje : "Hola, todo bien ?" }''
-  -  :  : "#96c927 "}`
-  -  :  : 1} `
+  - cursor : `{control deslizante : 50} `
+  - mensaje : `{título : "hola "mensaje : "Hola, todo bien ?" }''
+  - color : `{color : "#96c927 "}`
+  - listado : `{seleccionar : 1} `
   - comando de tipo de información : puede pasar el valor directamente o en json do `{valor : "cuco ", fecha y hora : "12/12/2021 10:30:00 "}`, `datetime` es opcional
 - `jeedom / cmd / get /#cmd_id#'' : solicitar el valor del comando `#cmd_id#`to jeedom, esto devolverá` jeedom / cmd / value /#cmd_id#`con el valor de comando en el mensaje
 - `jeedom / cmd / event /#cmd_id#'' : evento en el comando#cmd_id#`con un mensaje json que contiene información diferente, incluido el valor del comando
