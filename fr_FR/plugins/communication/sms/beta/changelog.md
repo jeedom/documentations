@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 20/07/2022
+
+- Migration démon en python3
+
 # 17/11/2020
 
 - Optimisations générales

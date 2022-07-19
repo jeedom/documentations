@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 07/20/2022
+
+- Migrating daemon to python3
+
 # 11/17/2020
 
 - General optimizations

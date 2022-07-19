@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 20/07/2022
+
+- Migrando daemon para python3
+
 # 17/11/2020
 
 - Otimizações gerais
