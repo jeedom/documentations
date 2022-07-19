@@ -7,3 +7,6 @@
 >Vous pouvez voir [ici](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=nature) tous les plugins officiels de cette catégorie
 
 
+| | | | |
+|--- | --- | --- | ---|
+|<img src="gardena/gardena_icon.png" class="pluginLogo" width="100" />|Gardena-Husqvarna|Plugin permettant d'intégrer tous les appareils de la gamme Gardena Smart System (Water Control, sensor, irrigation control, power socket et Sileno mower) ainsi que les robots Husqvarna Automower Connect. Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions en fonction de l'appareil (voir la documentation).|[Documentation](https://mips2648.github.io/jeedom-plugins-docs/gardena/fr_FR/)[Beta](https://mips2648.github.io/jeedom-plugins-docs/gardena/fr_FR/)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4031)<br/>[Changelog](https://mips2648.github.io/jeedom-plugins-docs/gardena/fr_FR/changelog)[Beta](https://mips2648.github.io/jeedom-plugins-docs/gardena/fr_FR/changelog)|

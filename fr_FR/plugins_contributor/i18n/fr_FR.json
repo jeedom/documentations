@@ -107,6 +107,8 @@
     "plugins_contributor\/energy\/index.md": {
         "Suivi CO2": "Suivi CO2",
         "Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre": "Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre",
+        "Solaredge": "Solaredge",
+        "Plugin permettant la lecture de données d'un onduleur de panneaux photovoltaïque de la marque Solaredge": "Plugin permettant la lecture de données d'un onduleur de panneaux photovoltaïque de la marque Solaredge",
         "Le plugin actualise les données toutes les heures via un cron": "Le plugin actualise les données toutes les heures via un cron",
         "Fullup": "Fullup",
         "Plugin permettant la lecture des données des jauges connectées Fullup": "Plugin permettant la lecture des données des jauges connectées Fullup",
@@ -193,6 +195,9 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
     },
     "plugins_contributor\/nature\/index.md": {
+        "Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions en fonction de l'appareil (voir la documentation": "Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions en fonction de l'appareil (voir la documentation",
+        "Gardena-Husqvarna": "Gardena-Husqvarna",
+        "Plugin permettant d'intégrer tous les appareils de la gamme Gardena Smart System (Water Control, sensor, irrigation control, power socket et Sileno mower) ainsi que les robots Husqvarna Automower Connect": "Plugin permettant d'intégrer tous les appareils de la gamme Gardena Smart System (Water Control, sensor, irrigation control, power socket et Sileno mower) ainsi que les robots Husqvarna Automower Connect",
         "Nature": "Nature",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -200,7 +205,11 @@
         "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
-        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation": "Documentation",
+        "Beta": "Beta",
+        "Market": "Market",
+        "Changelog": "Changelog"
     },
     "plugins_contributor\/organization\/index.md": {
         "Programmateur": "Programmateur",
