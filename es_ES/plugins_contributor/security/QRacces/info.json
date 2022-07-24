@@ -10,6 +10,7 @@
 	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
 	"hasOwnDeamon" : true,
 	"hasDependency" : true,
+	"maxDependancyInstallTime" : 9400,
  	"documentation" : "http://mika-nt28.github.io/Documentations/QRacces/#language#",
 	"changelog" : "https://mika-nt28.github.io/Documentations/QRacces/#language#/changelog"
 }
