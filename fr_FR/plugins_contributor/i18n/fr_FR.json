@@ -107,6 +107,9 @@
     "plugins_contributor\/energy\/index.md": {
         "Suivi CO2": "Suivi CO2",
         "Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre": "Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre",
+        "Ce plugin est là pour vous y aider en contrôlant les activations": "Ce plugin est là pour vous y aider en contrôlant les activations",
+        "Production Energie": "Production Energie",
+        "L'autoconsommation est le but dans la production d'énergie": "L'autoconsommation est le but dans la production d'énergie",
         "Solaredge": "Solaredge",
         "Plugin permettant la lecture de données d'un onduleur de panneaux photovoltaïque de la marque Solaredge": "Plugin permettant la lecture de données d'un onduleur de panneaux photovoltaïque de la marque Solaredge",
         "Le plugin actualise les données toutes les heures via un cron": "Le plugin actualise les données toutes les heures via un cron",

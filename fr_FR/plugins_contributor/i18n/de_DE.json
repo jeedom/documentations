@@ -299,6 +299,9 @@
     "plugins_contributor\/energy\/index.md": {
         "Suivi CO2": "CO2-Überwachung",
         "Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre": "Plugin zur Überwachung der CO2-Emissionen in Verbindung mit Strom, Gas, Heizöl oder anderem Verbrauch",
+        "Ce plugin est là pour vous y aider en contrôlant les activations": "Dieses Plugin soll Ihnen bei der Steuerung der Aktivierungen helfen",
+        "Production Energie": "Energie Produktion",
+        "L'autoconsommation est le but dans la production d'énergie": "Eigenverbrauch ist das Ziel bei der Energieerzeugung",
         "Plugin permettant la lecture de données d'un onduleur de panneaux photovoltaïque de la marque Solaredge": "Plugin zum Auslesen von Daten aus einem Solaredge-Photovoltaik-Wechselrichter",
         "Le plugin actualise les données toutes les heures via un cron": "Das Plugin aktualisiert die Daten stündlich über einen Cron",
         "Plugin permettant la lecture des données des jauges connectées Fullup": "Plugin zum Lesen von Daten von mit Fullup verbundenen Messgeräten",
