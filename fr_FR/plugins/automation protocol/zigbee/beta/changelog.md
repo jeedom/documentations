@@ -16,6 +16,9 @@
 >
 >Pour ceux n'ayant pas de soucis avec le demon il ne faut SURTOUT pas mettre à jour ca peut tout casser
 
+
+- Correction d'un soucis sur la remonter de la couleur de certaines télécommande zigbee
+
 # 27/06/2022
 
 - Tentative de correction des soucis avec le démon

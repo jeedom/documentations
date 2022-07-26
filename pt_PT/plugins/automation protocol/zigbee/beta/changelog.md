@@ -16,6 +16,9 @@
 >
 >Para quem não tem problemas com o demônio, NÃO DEVE atualizar, pode quebrar tudo
 
+
+- Corrigido um problema com o feedback de cores de alguns controles remotos zigbee
+
 # 27/06/2022
 
 - Tente corrigir problemas com o daemon

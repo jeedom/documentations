@@ -16,6 +16,9 @@
 >
 >Para los que no tengan problemas con el demonio, NO DEBEN actualizar, puede estropearlo todo
 
+
+- Se solucionó un problema con la retroalimentación de color de algunos controles remotos zigbee
+
 # 27/06/2022
 
 - Intento de solucionar problemas con el daemon
