@@ -1,10 +1,11 @@
 {
 	"id" : "balboa",
 	"name" : "SPA Balboa",
-	"description" : "Ce plugin permet de connecter et recuperer les informations de votre SPA Balboa",
+	"description" : "Ce plugin permet de connecter et recuperer les informations de votre SPA Balboa. Il embarque également la possibilité de cree des mode de fonctionnement avancer avec toute la puissance de jeedom",
+	"utilization" : "Plusieurs type de connexion est possible, en Local et par le cloud avec le module wifi ainsi que par la nouvelle Gateway BALBOA ControlMySpa. Pour fontionner, le plugin n'a besoin que des information de connexion de votre SPA. Le plugin est configurer pour un SPA de base certain commande peuvent etre ajouté pour compléter les remontées d'inforamtion. Pour l'automatisation, on cree un mode sur lequel on y indique des conditions autorisant le mode ainsi que les etat dans lequel le spa doit etre",
 	"licence" : "AGPL",
 	"author" : "Halbout Michael",
-	"require" : "3.0",
+	"require" : "4.0",
 	"hasOwnDeamon" : true,
 	"category" : "wellness",
 	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
