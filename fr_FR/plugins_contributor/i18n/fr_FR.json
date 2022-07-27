@@ -58,6 +58,9 @@
         "JeeMate est une application mobile compatible avec Jeedom": "JeeMate est une application mobile compatible avec Jeedom",
         "Infos & Localisation": "Infos & Localisation",
         "Gestion de la présence, de la géolocalisation et autres infos d'un téléphone": "Gestion de la présence, de la géolocalisation et autres infos d'un téléphone",
+        "Controle de certains périphériques Jeedom par Siri et via application Maison et Eve": "Controle de certains périphériques Jeedom par Siri et via application Maison et Eve",
+        "Homebridge": "Homebridge",
+        "Plugin pour Homebridge": "Plugin pour Homebridge",
         "Gotify": "Gotify",
         "Plugin permettant la connection à un serveur Gotify": "Plugin permettant la connection à un serveur Gotify",
         "TaskerAutoRemote": "TaskerAutoRemote",
@@ -74,10 +77,11 @@
         "Market": "Market",
         "Changelog": "Changelog",
         "Gotify est une solution self-hosted, libre et open source permettant l'envoi et la réception de message": "Gotify est une solution self-hosted, libre et open source permettant l'envoi et la réception de message",
+        "Passerelle Apple HomeKit pour Jeedom": "Passerelle Apple HomeKit pour Jeedom",
+        "Beta": "Beta",
         "Contrôlez facilement votre maison intelligente grâce à son interface intuitive et customisable": "Contrôlez facilement votre maison intelligente grâce à son interface intuitive et customisable",
         "JeeMate dispose de nombreuses fonctionnalités, et est compatible avec de nombreux plugins Jeedom": "JeeMate dispose de nombreuses fonctionnalités, et est compatible avec de nombreux plugins Jeedom",
-        "Ce plugin permet d'appairer l'application mobile avec votre Jeedom": "Ce plugin permet d'appairer l'application mobile avec votre Jeedom",
-        "Beta": "Beta"
+        "Ce plugin permet d'appairer l'application mobile avec votre Jeedom": "Ce plugin permet d'appairer l'application mobile avec votre Jeedom"
     },
     "plugins_contributor\/devicecommunication\/index.md": {
         "worxLandroidS": "worxLandroidS",
