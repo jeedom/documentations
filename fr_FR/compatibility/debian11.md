@@ -68,19 +68,14 @@ Nous ne pouvons tester tous les plugins, nous mettons donc juste le retour de ce
 Tous les plugins utilisant python2 sont incompatibles avec Debian 11. Pour l'instant nous n'avons pas de solution pour remédier à cela (forcer l'installation de python2 et pip2 casse pip3 et donc rend tous les plugins python3 incompatible).
 
 - Openzwave
-- modbus
 - sms
 - appkorian
 - barcodescanner
 - dali
 - wemo
-- heos
 - lifx
-- smart
-- modbusrtu
 - entrkey
 - bluetooth
-- aruba
 - blescanner
 
 
