@@ -4,7 +4,7 @@
 	"description" : "Plugin Suivi Conso",
 	"licence" : "AGPL",
 	"author" : "H mickael",
-	"require" : "3.2",
+	"require" : "3.3",
 	"category" : "energy",
 	"display" : "panel",
 	"hasDependency" : false,
@@ -17,5 +17,5 @@
 		"Community":"https://community.jeedom.com/t/plugin-suivi-conso-debuggage/8246"
 	},
 	"language" : ["fr_FR"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy"]
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
 }

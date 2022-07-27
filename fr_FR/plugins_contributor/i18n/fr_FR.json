@@ -123,6 +123,8 @@
         "Plugin permettant la lecture des données des jauges connectées Fullup": "Plugin permettant la lecture des données des jauges connectées Fullup",
         "eeSmart": "eeSmart",
         "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy": "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy",
+        "Suivi Conso": "Suivi Conso",
+        "Plugin Suivi Conso": "Plugin Suivi Conso",
         "Energie": "Energie",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
