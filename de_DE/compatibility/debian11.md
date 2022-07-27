@@ -68,19 +68,14 @@ Wir können nicht alle Plugins testen, daher geben wir im Moment nur das Feedbac
 Alle Plugins, die Python2 verwenden, sind nicht mit Debian 11 kompatibel. Im Moment haben wir keine Lösung, um dies zu beheben (das Erzwingen der Installation von python2 und pip2 unterbricht pip3 und macht daher alle Python3-Plugins inkompatibel).
 
 - Openzwave
-- modbus
 - sms
 - appkorian
 - barcodescanner
 - dali
 - wemo
-- heos
 - lifx
-- smart
-- modbusrtu
 - entrkey
 - bluetooth
-- aruba
 - blescanner
 
 

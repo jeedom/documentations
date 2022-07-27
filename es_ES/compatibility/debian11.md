@@ -68,19 +68,14 @@ No podemos probar todos los complementos, por lo que solo estamos poniendo los c
 Todos los complementos que usan python2 son incompatibles con Debian 11. Por el momento, no tenemos una solución para remediar esto (forzar la instalación de python2 y pip2 rompe pip3 y, por lo tanto, hace que todos los complementos de python3 sean incompatibles).
 
 - Openzwave
-- modbus
 - sms
 - appkorian
 - barcodescanner
 - dali
 - wemo
-- heos
 - lifx
-- smart
-- modbusrtu
 - entrkey
 - bluetooth
-- aruba
 - blescanner
 
 
