@@ -1,9 +1,9 @@
 {
 	"id" : "conso",
 	"name" : "Suivi Conso",
-	"description" : "Plugin Suivi Conso",
+	"description" : "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production ",
 	"licence" : "AGPL",
-	"author" : "H mickael",
+	"author" : "Mickeys",
 	"require" : "3.3",
 	"category" : "energy",
 	"display" : "panel",

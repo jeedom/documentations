@@ -319,7 +319,7 @@
         "Plugin permettant la lecture des données des jauges connectées Fullup": "Plugin zum Lesen von Daten von mit Fullup verbundenen Messgeräten",
         "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy": "Plugin zum Abrufen der Daten, die das ERL D2L-Modul von eeemart an den Monitoring.consopy-Server sendet",
         "Suivi Conso": "Gefolgt Conso",
-        "Plugin Suivi Conso": "Conso-Tracking-Plugin",
+        "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production": "Plugin zur Verwaltung seines Energieverbrauchs (Gas, Strom und Wasser) sowie seiner Produktion",
         "Seuls les plugins de contributeur ont leur documentation ici": "Hier haben nur Contributor-Plugins ihre Dokumentation",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Sie können die Dokumentation der offiziellen Plugins direkt vom Jeedom Market abrufen",
         "Une fois sur le plugin en question, cliquez sur documentation": "Klicken Sie im betreffenden Plugin auf Dokumentation",
