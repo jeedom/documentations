@@ -376,6 +376,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/CentraLite.3450-Geu.png" width="60" />|EVOLOGY|3450-Geu|Control remoto|||
 |<img src="../../es_ES/zigbee/images/PSE03-v1.1.0.png" width="60" />|Evology|Sirena inteligente||||
 
 # Feller
@@ -498,6 +499,7 @@
 |<img src="../../es_ES/zigbee/images/innr.AE_260.png" width="60" />|Innr|INR AE 260||||
 |<img src="../../es_ES/zigbee/images/innr.FL_140_C.png" width="60" />|Innr|CINTA INNR FLEXIBLE INTERIOR RGBW|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5455-innr-ruban-flexible-indoor-couleur-4m-couleur-et-blanc-variable-2000k-a-6500k-8718781552725.html?domid=4&id_campaign=9)|
 |<img src="../../es_ES/zigbee/images/innr.OFL_140_C.png" width="60" />|Innr|INNR Outdoor Flex Color de luz|||[Comprar](https://www.domadoo.fr/fr/eclairage/5482-innr-ruban-flexible-outdoor-couleur-4m-zigbee-lightlink-8718781552527.html?domid=4&id_campaign=9)|
+|<img src="../../es_ES/zigbee/images/innr.OGL_130_C.png" width="60" />|Innr|INNR - GLOBO LED CONECTADO PARA JARDÍN 19 CM - PAQUETE DE 3|||[Comprar](https://www.domadoo.fr/fr/eclairage/6240-innr-globe-led-connecte-19-cm-pour-jardin-avec-alim-couleur-et-blanc-pack-de-3-8718781553647.html?domid=4&id_campaign=9)|
 |<img src="../../es_ES/zigbee/images/innr.OPL_130_C.png" width="60" />|Innr|INNR - ZIGBEE CONNECTED LED CYLINDER SPOT PARA JARDÍN - PAQUETE DE 3|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5795-innr-spot-cylindre-led-connecte-zigbee-pour-jardin-pack-de-3-8718781552770.html?domid=4&id_campaign=9)|
 |<img src="../../es_ES/zigbee/images/innr.OSL_130_C.png" width="60" />|Innr|OSL 130 C|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5793-innr-spot-led-connecte-pour-jardin-couleur-et-blanc-zigbee-8718781552541.html?domid=4&id_campaign=9)|
 |<img src="../../es_ES/zigbee/images/innr.RB_165.png" width="60" />|Innr|INNR RB 165||||
@@ -870,6 +872,7 @@
 |<img src="../../es_ES/zigbee/images/TZ3000_tk3s5tyg.TS0041.png" width="60" />|Tuya|Interruptor único inteligente||||
 |<img src="../../es_ES/zigbee/images/TZ3000_tqlv4ug4.TS0001.png" width="60" />|Tuya|Tuya Zigbee - Interruptor de 1 vía||||
 |<img src="../../es_ES/zigbee/images/TZ3000_txpirhfq.TS0011.png" width="60" />|Tuya|SMART - Módulo conectado simple ON / OFF||||
+|<img src="../../es_ES/zigbee/images/TZ3000_typdpbpg.TS011F.png" width="60" />|Tuya|Enchufe inteligente con medición de potencia|Zócalo, repetidor|||
 |<img src="../../es_ES/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|Controlador de tira de LED RGBW||||
 |<img src="../../es_ES/zigbee/images/TZ3000_upgcbody.TS0207.png" width="60" />|Tuya|Detecteur d'inondation (3)|Fuite|||
 |<img src="../../es_ES/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|Módulo de persiana enrollable inteligente||||
@@ -880,6 +883,7 @@
 |<img src="../../es_ES/zigbee/images/TZ3000_x085c3it.TS0207.png" width="60" />|Tuya|Detector de inundaciones (2)|Fuite|||
 |<img src="../../es_ES/zigbee/images/TZ3000_xabckq1v.TS004F.png" width="60" />|Tuya|Interruptor inteligente de 4 botones con baterías||||
 |<img src="../../es_ES/zigbee/images/TZ3000_xxgrunjb.TS130F.png" width="60" />|Doowifi|CONTROL DE PERSIANAS ZIGBEE DWF-0205ZB-PN-2|Volets|||
+|<img src="../../es_ES/zigbee/images/TZ3000_zloso4jk.TS011F.png" width="60" />|Tuya|Toma conectada|Zócalo, medidor, potencia, repetidor|||
 |<img src="../../es_ES/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MOES - Módulo único conectado ON / OFF||||
 |<img src="../../es_ES/zigbee/images/TZ3210_remypqqm.TS0505B.png" width="60" />|Tuya|Bombilla led 3.0, RGB+WW+CW E27||||
 |<img src="../../es_ES/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Interruptor conectado de 3 botones||||
@@ -985,4 +989,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2022-07-27 02:32:08
+2022-07-28 02:32:23
