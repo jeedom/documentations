@@ -2,7 +2,7 @@
 
 # 05/03/2021
 
-- Actualización del script de dependencia tras el cambio de criptografía
+- Actualización del script de dependencias tras el cambio de criptografía
 
 # 15/01/2021
 
@@ -23,7 +23,6 @@
 - Cambiar a python 3 (probablemente sea necesario reiniciar las dependencias)
 - Administración adicional de RM4 (lea el documento para la particularidad)
 - Se agregó aprendizaje avanzado de RF (con dos pasos, uno para variar las frecuencias y encontrarlo y otro para aprender)). Aumentará la compatibilidad de aprendizaje
-
 
 # 11/09/2019
 

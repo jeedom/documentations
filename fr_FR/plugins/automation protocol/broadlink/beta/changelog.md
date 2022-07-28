@@ -2,7 +2,7 @@
 
 # 05/03/2021
 
-- Mise à jour du script de dépendances suite au changemetn cryptography
+- Mise à jour du script de dépendances suite au changement cryptography
 
 # 15/01/2021
 
@@ -10,7 +10,7 @@
 
 # 23/11/2020
 
-- Gestion des les dependances de certains installations corrompus par tierces de cryptography en python 3 (relancez les dépendances si vous êtes confrontés a un soucis)
+- Gestion des les dépendances de certains installations corrompus par tierces de cryptography en python 3 (relancez les dépendances si vous êtes confrontés a un soucis)
 
 # 20/11/2020
 
@@ -24,7 +24,6 @@
 - Ajout de la gestion du RM4 (lire la doc pour la particularité)
 - Ajout d'un apprentissage avancé RF (avec deux étapes, une pour faire varier les fréquences et la trouver et une autre pour apprendre). Cela augmentera la compatibilité d'apprentissage
 
-
 # 11/09/2019
 
 - Adaptation pour jeedom v4
@@ -35,4 +34,4 @@
 
 # 10/03/2018
 
-- Force yes sur les dependances
+- Force yes sur les dépendances
