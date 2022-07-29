@@ -78,9 +78,7 @@ Você só precisa clicar em Download Config dos pedidos que acabaram de aparecer
 
 
 
-Para importar comandos para equipamentos : 
-- Lembre-se de Salvar se for um equipamento novo.
-- Clique no canto superior direito do equipamento no botão Importar Json para escolher o Json contendo os comandos exportados anteriormente :
+Para importar comandos para equipamentos : clique no canto superior direito do equipamento no botão Importar Json :
 
 ![dependances](../images/importFunction.png)
 

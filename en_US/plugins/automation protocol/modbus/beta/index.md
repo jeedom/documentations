@@ -78,9 +78,7 @@ You just have to click on Download Config of the orders which has just appeared.
 
 
 
-To import commands to equipment : 
-- Remember to Save if it is a new equipment.
-- Click at the top right of the equipment on the Import Json button to choose the Json containing the previously exported commands :
+To import commands to equipment : click at the top right of the equipment on the Import Json button :
 
 ![dependances](../images/importFunction.png)
 

@@ -78,9 +78,7 @@ Il vous suffit de cliquez sur Telecharger Config des commandes qui vient d'appar
 
 
 
-Pour importer les commandes sur un équipement : 
-- Pensez à Sauvegarder si il s'agit d'un nouvel équipement.
-- Cliquez en haut a droite de l'équipement sur le bouton Import Json pour choisir le Json contentant les commandes précédemment exportées :
+Pour importer les commandes sur un équipement : cliquez en haut a droit d l'equipement sur le bouton Import Json :
 
 ![dependances](../images/importFunction.png)
 
