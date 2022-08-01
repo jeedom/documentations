@@ -19,3 +19,7 @@
 # 02/05/2022
 
 - Function Exporting a Json file and Importing orders by Equipment 
+
+# 08/01/2022
+
+- BugFix on disconnection of a device on the same bus

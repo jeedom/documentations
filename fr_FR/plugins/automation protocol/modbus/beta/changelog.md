@@ -19,3 +19,7 @@
 # 02/05/2022
 
 - Fonction Exportation d'un fichier Json et Importation de commandes par Equipement 
+
+# 01/08/2022
+
+- BugFix sur déconnexion d'un équipement sur le même bus
