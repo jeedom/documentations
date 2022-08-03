@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 29/07/2022
+
+- Correção no preenchimento de determinados campos de configuração do equipamento através da lista de seleção de pedidos
+
 # 21/10/2021
 
 - Acréscimo da apresentação dos equipamentos termostatos em modo mesa

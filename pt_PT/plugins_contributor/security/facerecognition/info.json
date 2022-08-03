@@ -7,6 +7,7 @@
 	"require" : "3.0",
 	"category" : "security",
 	"display" : "panel",
+	"mobile": "panel",
 	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
 	"hasOwnDeamon" : true,
 	"hasDependency" : true,
