@@ -4,6 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 02/08/2022
+
+- Otimização de chamadas para servidores Enedis
+
 # 24/01/2022
 
 - Remoção do comando "Produção máxima de energia""

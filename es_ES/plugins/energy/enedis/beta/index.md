@@ -15,11 +15,11 @@ Se reportan 5 datos para cada tipo de medición :
 - el **consumo anual** *(en kWh)*.
 - el **máximo poder** *(en kVA)*.
 
->**INFORMACIÓN**  
->    
+>**INFORMACIÓN**
+>
 >Como los datos no están disponibles en tiempo real, el complemento recupera los datos de consumo de electricidad del día anterior a cada día.
 
-Mientras el complemento no haya recuperado todos los datos del día anterior, continúa sondeando los servidores de Enedis cada 30 minutos entre las 7 a.m. y las 8 p.m., de lo contrario, las llamadas se suspenden hasta el día siguiente.
+Mientras el complemento no haya recuperado todos los datos del día anterior, continúa consultando los servidores de Enedis cada 30 minutos, de lo contrario, las llamadas se suspenden hasta el día siguiente.
 
 # Configuration
 
@@ -31,24 +31,24 @@ El complemento requiere la presencia del paquete de Linux `php-mbstring` normalm
 
 ## Configuración del plugin
 
-Si aún no lo ha hecho, comience por autorizar el intercambio de datos de Enedis con Jeedom haciendo clic en el botón **Autorizar el acceso a los servidores de Enedis : Accedo a mi área de clientes de Enedis** desde la página de configuración del complemento :      
+Si aún no lo ha hecho, comience por autorizar el intercambio de datos de Enedis con Jeedom haciendo clic en el botón **Autorizar el acceso a los servidores de Enedis : Accedo a mi área de clientes de Enedis** desde la página de configuración del complemento :
 
 ![Lien espace-client Enedis](../images/link_enedis.png)
 
-A continuación, se le redirige a esta página en la que debe informar **sus datos de inicio de sesión para el mercado de Jeedom** luego haga clic en el botón **Validar** :      
+A continuación, se le redirige a esta página en la que debe informar **sus datos de inicio de sesión para el mercado de Jeedom** luego haga clic en el botón **Validar** :
 
 ![Authentification compte Market Jeedom](../images/Auth_Jeedom.png)
 
-Redirección a la página de consentimiento de Enedis en la que es necesario **marcar la casilla** y haga clic en **Validar** :     
+Redirección a la página de consentimiento de Enedis en la que es necesario **marcar la casilla** y haga clic en **Validar** :
 
 ![Autorisation Enedis](../images/Auth_Enedis.png)
 
-Una vez que se valida el intercambio de datos, se muestra esta página :     
+Una vez que se valida el intercambio de datos, se muestra esta página :
 
 ![Succès](../images/Auth_Enedis_success.png)
 
 >**Importante**
->    
+>
 >Si no puede acceder a ninguna de estas páginas, desactive el bloqueador de anuncios del navegador.
 
 ## Configuración del equipo
@@ -56,7 +56,7 @@ Una vez que se valida el intercambio de datos, se muestra esta página :
 Para acceder a los diferentes equipos **Enedis**, ir al menú **Complementos → Energía → Enedis**.
 
 >**INFORMACIÓN**
->    
+>
 >El botón **+ Agregar** le permite agregar un nuevo medidor / PDL.
 
 Una vez que se haya autorizado el intercambio de datos desde la página de configuración del complemento, todo lo que tiene que hacer es ingresar **el número de identificación del Punto de Entrega** preocupado *(PDL)* y el **tipo de medida** volver.
@@ -67,7 +67,7 @@ Durante la primera copia de seguridad de un dispositivo activo y configurado, el
 >
 >Los datos de consumo por hora se recuperan durante los últimos 7 días como máximo.
 
-## Agregar datos
+# Agregar datos
 
 Es posible integrar historias bajo demanda, hasta 3 años atrás, directamente desde el sitio de Enedis. Para hacerlo, simplemente haga clic en el botón azul **Adiciones históricas** desde la pestaña **Pedidos** de un equipo, en la columna **Acción** de la orden en cuestión :
 
@@ -84,7 +84,7 @@ Los datos de día, mes, año y potencia máxima se integrarán desde la fecha el
 # Plantilla de widget
 
 >**INFORMACIÓN**
->     
+>
 >La plantilla del widget se mostrará en las versiones de escritorio y móvil.
 
 El complemento ofrece la posibilidad de mostrar datos de consumo y / o producción en una plantilla de widget imitando la apariencia de un medidor *Linky*. El clic en el botón "**- \| +**" permite pasar del consumo a la producción para quienes tienen acceso a 2 tipos de medidas. Un indicador también le permite saber si los datos están actualizados o no *(verde = todos los datos están actualizados, naranja = algunos datos no están actualizados, rojo = no hay datos actualizados)*.
@@ -94,7 +94,7 @@ El complemento ofrece la posibilidad de mostrar datos de consumo y / o producci�
 Para activar esta opción, simplemente marque la casilla **Plantilla de widget** en la página general del equipo en cuestión. Una vez que la casilla está marcada, una opción le permite seleccionar el color de fondo del widget *(163, 204, 40 por defecto)*.
 
 >**CONSEJO**
->     
+>
 >En la versión de escritorio, la información que se muestra en el widget se adapta en tamaño al cambiar el tamaño del mosaico.
 
 # FAQ
@@ -105,4 +105,4 @@ Para activar esta opción, simplemente marque la casilla **Plantilla de widget**
 
 >**No tengo datos de día / mes / año para el 31 de diciembre de 2021**
 >
->Para recuperar estos datos simplemente haga clic en el botón **Adiciones históricas** De la orden **Día de consumo** y seleccione la fecha del 1 de enero de 2021 como fecha de salida.  
+>Para recuperar estos datos simplemente haga clic en el botón **Adiciones históricas** De la orden **Día de consumo** y seleccione la fecha del 1 de enero de 2021 como fecha de salida.

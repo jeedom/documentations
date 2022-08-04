@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 29.07.2022
+
+- Korrektur bei der Befüllung bestimmter Gerätekonfigurationsfelder über die Auftragsauswahlliste
+
 # 21.10.2021
 
 - Ergänzung der Präsentation der Thermostatausrüstung im Tabellenmodus

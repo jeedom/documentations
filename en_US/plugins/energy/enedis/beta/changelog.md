@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 02/08/2022
+
+- Optimization of calls to Enedis servers
+
 # 01/24/2022
 
 - Removal of the "Maximum Power Production" command"

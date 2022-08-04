@@ -15,11 +15,11 @@ Für jede Messart werden 5 Daten angegeben :
 - die **Jahresverbrauch** *(in kWh)*.
 - die **maximale Kraft** *(in kVA)*.
 
->**INFORMATION**  
->    
+>**INFORMATION**
+>
 >Da die Daten nicht in Echtzeit verfügbar sind, ruft das Plugin die Stromverbrauchsdaten vom Vortag ab.
 
-Solange das Plugin nicht alle Daten vom Vortag abgerufen hat, pollt es weiterhin alle 30 Minuten zwischen 7 und 20 Uhr die Enedis-Server, ansonsten werden die Anrufe bis zum nächsten Tag ausgesetzt.
+Solange das Plugin nicht alle Daten vom Vortag abgerufen hat, fragt es weiterhin alle 30 Minuten die Enedis-Server ab, ansonsten werden die Aufrufe bis zum nächsten Tag ausgesetzt.
 
 # Configuration
 
@@ -31,24 +31,24 @@ Das Plugin erfordert das Vorhandensein des Linux-Pakets `php-mbstring`, das norm
 
 ## Plugin Konfiguration
 
-Wenn Sie dies noch nicht getan haben, autorisieren Sie zunächst die Freigabe von Enedis-Daten mit Jeedom, indem Sie auf die Schaltfläche klicken **Autorisieren Sie den Zugriff auf Enedis-Server : Ich greife auf meinen Enedis-Kundenbereich zu** von der Plugin-Konfigurationsseite :      
+Wenn Sie dies noch nicht getan haben, autorisieren Sie zunächst die Freigabe von Enedis-Daten mit Jeedom, indem Sie auf die Schaltfläche klicken **Autorisieren Sie den Zugriff auf Enedis-Server : Ich greife auf meinen Enedis-Kundenbereich zu** von der Plugin-Konfigurationsseite :
 
 ![Lien espace-client Enedis](../images/link_enedis.png)
 
-Sie werden dann zu dieser Seite weitergeleitet, auf der Sie informieren müssen **Ihre Anmeldedaten für den Jeedom-Markt** Klicken Sie dann auf die Schaltfläche **Bestätigen** :      
+Sie werden dann zu dieser Seite weitergeleitet, auf der Sie informieren müssen **Ihre Anmeldedaten für den Jeedom-Markt** Klicken Sie dann auf die Schaltfläche **Bestätigen** :
 
 ![Authentification compte Market Jeedom](../images/Auth_Jeedom.png)
 
-Weiterleitung zur Enedis-Einwilligungsseite, auf der dies erforderlich ist **Aktivieren Sie das Kontrollkästchen** und klicken Sie auf **Bestätigen** :     
+Weiterleitung zur Enedis-Einwilligungsseite, auf der dies erforderlich ist **Aktivieren Sie das Kontrollkästchen** und klicken Sie auf **Bestätigen** :
 
 ![Autorisation Enedis](../images/Auth_Enedis.png)
 
-Sobald die Datenfreigabe überprüft wurde, wird diese Seite angezeigt :     
+Sobald die Datenfreigabe überprüft wurde, wird diese Seite angezeigt :
 
 ![Succès](../images/Auth_Enedis_success.png)
 
 >**Wichtig**
->    
+>
 >Wenn Sie auf keine dieser Seiten zugreifen können, deaktivieren Sie den Browser-Werbeblocker.
 
 ## Gerätekonfiguration
@@ -56,7 +56,7 @@ Sobald die Datenfreigabe überprüft wurde, wird diese Seite angezeigt :
 Zugriff auf die verschiedenen Geräte **Enedis**, Gehe zum Menü **Plugins → Energie → Enedis**.
 
 >**INFORMATION**
->    
+>
 >Die Schaltfläche **+ Hinzufügen** Ermöglicht das Hinzufügen eines neuen Messgeräts / einer neuen PDL.
 
 Nachdem die Datenfreigabe auf der Plugin-Konfigurationsseite autorisiert wurde, müssen Sie nur noch eingeben **die Identifikationsnummer der Lieferstelle** besorgt *(PDL)* und der **Art der Messung** zurück zu bekommen.
@@ -67,7 +67,7 @@ Während der ersten Sicherung eines aktiven und konfigurierten Geräts erstellt 
 >
 >Die stündlichen Verbrauchsdaten werden höchstens in den letzten 7 Tagen abgerufen.
 
-## Daten hinzufügen
+# Daten hinzufügen
 
 Es ist möglich, Historien bei Bedarf bis zu 3 Jahren direkt von der Enedis-Site aus zu integrieren. Klicken Sie dazu einfach auf die blaue Schaltfläche **Historische Ergänzungen** von der Registerkarte **Aufträge** eines Ausrüstungsgegenstandes in der Spalte **Aktion** der betreffenden Bestellung :
 
@@ -84,7 +84,7 @@ Die Daten für Tag, Monat, Jahr und maximale Leistung werden ab dem gewählten D
 # Widget-Vorlage
 
 >**INFORMATION**
->     
+>
 >Die Widget-Vorlage wird sowohl auf Desktop- als auch auf Mobilversionen angezeigt.
 
 Das Plugin bietet die Möglichkeit, Verbrauchs- und / oder Produktionsdaten in einer Widget-Vorlage anzuzeigen, die das Erscheinungsbild eines Zählers imitiert *Linky*. Der Klick auf die Schaltfläche "**- \.| +**" ermöglicht den Wechsel vom Verbrauch zur Produktion für diejenigen, die Zugang zu zwei Arten von Maßnahmen haben. Ein Indikator informiert Sie auch darüber, ob die Daten aktuell sind oder nicht *(grün = alle Daten sind aktuell, orange = einige Daten sind nicht aktuell, rot = keine Daten sind aktuell)*.
@@ -94,7 +94,7 @@ Das Plugin bietet die Möglichkeit, Verbrauchs- und / oder Produktionsdaten in e
 Um diese Option zu aktivieren, aktivieren Sie einfach das Kontrollkästchen **Widget-Vorlage** auf der allgemeinen Seite der betreffenden Ausrüstung. Sobald das Kontrollkästchen aktiviert ist, können Sie mit einer Option die Hintergrundfarbe des Widgets auswählen *(Standardmäßig 163, 204, 40)*.
 
 >**TIPP**
->     
+>
 >In der Desktop-Version passen sich die im Widget angezeigten Informationen an die Größe an, wenn die Größe der Kachel geändert wird.
 
 # FAQ
@@ -105,4 +105,4 @@ Um diese Option zu aktivieren, aktivieren Sie einfach das Kontrollkästchen **Wi
 
 >**Ich habe keine Daten zu Tag/Monat/Jahr für den 31. Dezember 2021**
 >
->Um diese Daten wiederherzustellen, klicken Sie einfach auf die Schaltfläche **Historische Ergänzungen** der Bestellung **Konsumtag** und wählen Sie als Abreisedatum den 1. Januar 2021.  
+>Um diese Daten wiederherzustellen, klicken Sie einfach auf die Schaltfläche **Historische Ergänzungen** der Bestellung **Konsumtag** und wählen Sie als Abreisedatum den 1. Januar 2021.

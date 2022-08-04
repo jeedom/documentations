@@ -15,11 +15,11 @@ Il est possible d'accéder aux données de **consommation**, de **production** o
 - la **consommation annuelle** *(en kWh)*.
 - la **puissance max** *(en kVA)*.
 
->**INFORMATION**  
->    
+>**INFORMATION**
+>
 >Les données n'étant pas mises à disposition en temps réel, le plugin récupère chaque jour les données de consommation électrique de la veille.
 
-Tant que le plugin n'a pas récupéré l'intégralité des données de la veille, il continue d'interroger les serveurs Enedis toutes les 30 minutes entre 7h et 20h, autrement les appels sont suspendus jusqu'au lendemain.
+Tant que le plugin n'a pas récupéré l'intégralité des données de la veille, il continue d'interroger les serveurs Enedis toutes les 30 minutes, autrement les appels sont suspendus jusqu'au lendemain.
 
 # Configuration
 
@@ -31,24 +31,24 @@ Le plugin nécessite la présence du paquet Linux `php-mbstring` normalement pr�
 
 ## Configuration du plugin
 
-Si ce n'est pas déjà fait, commencez par autoriser le partage des données Enedis avec Jeedom en cliquant sur le bouton **Autoriser l'accès aux serveurs Enedis : j'accède à mon espace client Enedis** depuis la page de configuration du plugin :      
+Si ce n'est pas déjà fait, commencez par autoriser le partage des données Enedis avec Jeedom en cliquant sur le bouton **Autoriser l'accès aux serveurs Enedis : j'accède à mon espace client Enedis** depuis la page de configuration du plugin :
 
 ![Lien espace-client Enedis](../images/link_enedis.png)
 
-Vous êtes alors redirigé vers cette page sur laquelle il faut renseigner **vos identifiants au market Jeedom** puis cliquer sur le bouton **Valider** :      
+Vous êtes alors redirigé vers cette page sur laquelle il faut renseigner **vos identifiants au market Jeedom** puis cliquer sur le bouton **Valider** :
 
 ![Authentification compte Market Jeedom](../images/Auth_Jeedom.png)
 
-Redirection vers la page de consentement Enedis sur laquelle il faut **cocher la case** et cliquer sur **Valider** :     
+Redirection vers la page de consentement Enedis sur laquelle il faut **cocher la case** et cliquer sur **Valider** :
 
 ![Autorisation Enedis](../images/Auth_Enedis.png)
 
-Une fois le partage des données validé, cette page s'affiche :     
+Une fois le partage des données validé, cette page s'affiche :
 
 ![Succès](../images/Auth_Enedis_success.png)
 
 >**IMPORTANT**
->    
+>
 >Si vous ne parvenez pas à accéder à l’une de ces pages, désactiver le bloqueur de publicité du navigateur.
 
 ## Configuration des équipements
@@ -56,7 +56,7 @@ Une fois le partage des données validé, cette page s'affiche :
 Pour accéder aux différents équipements **Enedis**, dirigez-vous vers le menu **Plugins → Energie → Enedis**.
 
 >**INFORMATION**
->    
+>
 >Le bouton **+ Ajouter** permet d'ajouter un nouveau compteur/PDL.
 
 Une fois le partage des données autorisé depuis la page de configuration du plugin, il ne reste plus qu'à renseigner **le numéro d'identification du Point de Livraison** concerné *(PDL)* et le **type de mesure** à récupérer.
@@ -67,7 +67,7 @@ Lors de la 1ère sauvegarde d'un équipement actif et configuré, le plugin va a
 >
 >Les données de consommation horaire sont quand à elles récupérées sur les 7 derniers jours au maximum.
 
-## Ajout de données
+# Ajout de données
 
 Il est possible d'intégrer des historiques à la demande, jusqu'à 3 années en arrière, directement depuis le site Enedis. Pour se faire, il suffit de cliquer sur le bouton bleu **Ajout historiques** depuis l’onglet **Commandes** d’un équipement, dans la colonne **Action** de la commande concernée :
 
@@ -84,7 +84,7 @@ Les données jour, mois, année et puissance max seront intégrées de la date c
 # Template de widget
 
 >**INFORMATION**
->     
+>
 >Le template de widget sera affiché aussi bien sur les versions desktop que mobile.
 
 Le plugin offre la possibilité d'afficher les données de consommation et/ou de production dans un template de widget imitant l'aspect d'un compteur *Linky*. Le clic sur le bouton "**- \| +**" permet de basculer de la consommation à la production pour ceux qui ont accès aux 2 types de mesures. Un voyant permet également de savoir si les données sont à jour ou non *(vert = toutes les données sont à jour, orange = certaines données ne sont pas à jour, rouge = aucune donnée n'est à jour)*.
@@ -94,7 +94,7 @@ Le plugin offre la possibilité d'afficher les données de consommation et/ou de
 Pour activer cette option, il suffit de cocher la case **Template de widget** sur la page générale de l'équipement concerné. Une fois la case cochée, une option permet de sélectionner la couleur de fond du widget *(163, 204, 40 par défaut)*.
 
 >**ASTUCE**
->     
+>
 >En version desktop, les informations affichées sur le widget s'adaptent en taille lors du redimensionnement de la tuile.
 
 # FAQ
@@ -105,4 +105,4 @@ Pour activer cette option, il suffit de cocher la case **Template de widget** su
 
 >**Je n'ai pas de données Jour/Mois/Année pour le 31 décembre 2021**
 >
->Pour récupérer ces données il suffit de cliquer sur le bouton **Ajout historiques** de la commande **Consommation Jour** et de sélectionner la date du 1er janvier 2021 comme date de départ.  
+>Pour récupérer ces données il suffit de cliquer sur le bouton **Ajout historiques** de la commande **Consommation Jour** et de sélectionner la date du 1er janvier 2021 comme date de départ.

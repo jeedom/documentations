@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 07/29/2022
+
+- Correction on the filling of certain equipment configuration fields via the order selection list
+
 # 10/21/2021
 
 - Addition of the presentation of thermostats equipment in table mode

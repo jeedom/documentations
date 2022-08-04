@@ -15,11 +15,11 @@ It is possible to access data from **consumption**, of **production** or to the 
 - the **annual consumption** *(in kWh)*.
 - the **max power** *(in kVA)*.
 
->**INFORMATION**  
->    
+>**INFORMATION**
+>
 >As the data is not made available in real time, the plugin retrieves the electricity consumption data from the day before each day.
 
-As long as the plugin has not retrieved all of the data from the day before, it continues to poll the Enedis servers every 30 minutes between 7 a.m. and 8 p.m., otherwise calls are suspended until the next day.
+As long as the plugin has not retrieved all the data from the previous day, it continues to query the Enedis servers every 30 minutes, otherwise the calls are suspended until the next day.
 
 # Configuration
 
@@ -31,24 +31,24 @@ The plugin requires the presence of the Linux package `php-mbstring` normally pr
 
 ## Plugin configuration
 
-If you haven't already done so, start by authorizing the sharing of Enedis data with Jeedom by clicking on the button **Authorize access to Enedis servers : I access my Enedis customer area** from the plugin configuration page :      
+If you haven't already done so, start by authorizing the sharing of Enedis data with Jeedom by clicking on the button **Authorize access to Enedis servers : I access my Enedis customer area** from the plugin configuration page :
 
 ![Lien espace-client Enedis](../images/link_enedis.png)
 
-You are then redirected to this page on which you must inform **your login details for the Jeedom market** then click on the button **Validate** :      
+You are then redirected to this page on which you must inform **your login details for the Jeedom market** then click on the button **Validate** :
 
 ![Authentification compte Market Jeedom](../images/Auth_Jeedom.png)
 
-Redirection to the Enedis consent page on which it is necessary **check the box** and click on **Validate** :     
+Redirection to the Enedis consent page on which it is necessary **check the box** and click on **Validate** :
 
 ![Autorisation Enedis](../images/Auth_Enedis.png)
 
-Once the data sharing is validated, this page is displayed :     
+Once the data sharing is validated, this page is displayed :
 
 ![Succès](../images/Auth_Enedis_success.png)
 
 >**Important**
->    
+>
 >If you are unable to access any of these pages, disable the browser ad blocker.
 
 ## Equipment configuration
@@ -56,7 +56,7 @@ Once the data sharing is validated, this page is displayed :
 To access the different equipment **Enedis**, go to the menu **Plugins → Energy → Enedis**.
 
 >**INFORMATION**
->    
+>
 >The button **+ Add** allows you to add a new meter / PDL.
 
 Once data sharing has been authorized from the plugin configuration page, all you have to do is enter **the identification number of the Delivery Point** concerned *(PDL)* and the **type of measurement** to get back.
@@ -67,7 +67,7 @@ During the 1st backup of an active and configured device, the plugin will automa
 >
 >Hourly consumption data is retrieved over the last 7 days at most.
 
-## Adding data
+# Adding data
 
 It is possible to integrate histories on demand, up to 3 years back, directly from the Enedis site. To do so, just click on the blue button **Historical additions** from the tab **Orders** of an item of equipment, in the column **Action** of the order concerned :
 
@@ -84,7 +84,7 @@ The day, month, year and maximum power data will be integrated from the date cho
 # Widget template
 
 >**INFORMATION**
->     
+>
 >The widget template will be displayed on both desktop and mobile versions.
 
 The plugin offers the possibility of displaying consumption and / or production data in a widget template imitating the appearance of a meter *Linky*. The click on the button "**- \| +**" allows to switch from consumption to production for those who have access to 2 types of measures. An indicator also lets you know if the data is up to date or not *(green = all data is up to date, orange = some data is not up to date, red = no data is up to date)*.
@@ -94,7 +94,7 @@ The plugin offers the possibility of displaying consumption and / or production 
 To activate this option, just check the box **Widget template** on the general page of the equipment concerned. Once the box is checked, an option allows you to select the background color of the widget *(163, 204, 40 by default)*.
 
 >**TRICK**
->     
+>
 >In desktop version, the information displayed on the widget adapts in size when resizing the tile.
 
 # FAQ
@@ -105,4 +105,4 @@ To activate this option, just check the box **Widget template** on the general p
 
 >**I don't have Day / Month / Year data for December 31, 2021**
 >
->To recover this data just click on the button **Historical additions** of the order **Consumption Day** and select the date of January 1, 2021 as the departure date.  
+>To recover this data just click on the button **Historical additions** of the order **Consumption Day** and select the date of January 1, 2021 as the departure date.
