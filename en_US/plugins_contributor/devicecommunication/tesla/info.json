@@ -5,7 +5,7 @@
 	"licence" : "AGPL",
 	"icon" : "a fa-car",
 	"author" : "vercors",
-	"require" : "3.3",
+	"require" : "4.0",
 	"category" : "devicecommunication",
 	"display": "panel",
 	"mobile": "panel",
