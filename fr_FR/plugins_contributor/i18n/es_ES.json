@@ -488,6 +488,9 @@
         " Changelog*": " Changelog*"
     },
     "plugins_contributor\/monitoring\/index.md": {
+        "Unifi Access & Unifi VOIP": "Acceso Unifi y VOIP Unifi",
+        "Unifi Network": "Red Unifi",
+        "Unifi Network - Connexion à un controleur Unifi Network": "Unifi Network - Conexión a un controlador de red Unifi",
         "Il dispose également d'une page santé spécifique résumant l'ensemble des informations de vos équipements": "También dispone de una página específica de salud que resume toda la información de tu equipo",
         "Plugin permettant la gestion d'un serveur Proxmox": "Complemento que permite la gestión de un servidor Proxmox",
         "io, un outils de gestion de dockers, et donc de gérer vos dockers et containers sur Jeedom": "io, una herramienta de administración de acopladores y, por lo tanto, para administrar sus acopladores y contenedores en Jeedom",
@@ -507,6 +510,9 @@
         "Surveillance aussi toute particulière du réseau Z-Wave (Queue, Status": "También monitoreo muy específico de la red Z-Wave (Cola, Estado",
         "Il est possible de récupérer toutes les ressources (noeuds, machine virtuelles, stockage...) et toutes leurs propriétés (statut, mémoire, CPU, disque, adresse IP, temps d'activité, list des snapshots": "Es posible recuperar todos los recursos (nodos, máquina virtual, almacenamiento...) y todas sus propiedades (estado, memoria, CPU, disco, dirección IP, tiempo de actividad, lista de instantáneas)",
         "Le plugin permet aussi de démarrer et arrêter les VMs et les containers ainsi que de prendre des snapshots et des backups": "El complemento también le permite iniciar y detener máquinas virtuales y contenedores, así como tomar instantáneas y copias de seguridad",
+        "Permet certaines actions (Localiser, Gérer LED du site, Mise à jour Firmware, PowerCycle\/Activation\/Désactivation POE sur switchs, Activation\/Désactivation\/Reboot des Point d'accès, Activation\/Désactivation des WLAN, Bloquer\/Débloquer\/Gestion présence des clients WiFi, etc": "Permite ciertas acciones (Localizar, Administrar LED de sitio, Actualización de Firmware, PowerCycle\/Activación\/Desactivación POE en switches, Activación\/Desactivación\/Reinicio de Puntos de Acceso, Activación\/Desactivación de WLANs, Bloquear\/Desbloquear\/Administrar presencia de Wi-Fi de clientes, etc.",
+        "N'a pas la vocation de remplacer l'interface du controleur": "No está diseñado para reemplazar la interfaz del controlador",
+        "Non supporté": "No soportado",
         " Proxmox.": " Proxmox.",
         " Proxmox?": " Proxmox?",
         "Proxmox ": "Proxmox ",

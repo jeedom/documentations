@@ -488,6 +488,9 @@
         " Changelog*": " Changelog*"
     },
     "plugins_contributor\/monitoring\/index.md": {
+        "Unifi Access & Unifi VOIP": "Unifi Access & Unifi VOIP",
+        "Unifi Network": "Unifi-Netzwerk",
+        "Unifi Network - Connexion à un controleur Unifi Network": "Unifi-Netzwerk – Verbinden mit einem Unifi-Netzwerk-Controller",
         "Il dispose également d'une page santé spécifique résumant l'ensemble des informations de vos équipements": "Es hat auch eine spezielle Gesundheitsseite, die alle Informationen über Ihre Ausrüstung zusammenfasst",
         "Plugin permettant la gestion d'un serveur Proxmox": "Plugin zur Verwaltung eines Proxmox-Servers",
         "io, un outils de gestion de dockers, et donc de gérer vos dockers et containers sur Jeedom": "io, ein Docker-Verwaltungstool, und damit zur Verwaltung Ihrer Docker und Container auf Jeedom",
@@ -507,6 +510,9 @@
         "Surveillance aussi toute particulière du réseau Z-Wave (Queue, Status": "Auch sehr spezifisches Monitoring des Z-Wave Netzwerks (Queue, Status",
         "Il est possible de récupérer toutes les ressources (noeuds, machine virtuelles, stockage...) et toutes leurs propriétés (statut, mémoire, CPU, disque, adresse IP, temps d'activité, list des snapshots": "Es ist möglich, alle Ressourcen (Knoten, virtuelle Maschine, Speicher ...) und alle ihre Eigenschaften (Status, Speicher, CPU, Festplatte, IP-Adresse, Aktivitätszeit, Liste der Snapshots) wiederherzustellen",
         "Le plugin permet aussi de démarrer et arrêter les VMs et les containers ainsi que de prendre des snapshots et des backups": "Mit dem Plugin können Sie auch VMs und Container starten und stoppen sowie Snapshots und Backups erstellen",
+        "Permet certaines actions (Localiser, Gérer LED du site, Mise à jour Firmware, PowerCycle\/Activation\/Désactivation POE sur switchs, Activation\/Désactivation\/Reboot des Point d'accès, Activation\/Désactivation des WLAN, Bloquer\/Débloquer\/Gestion présence des clients WiFi, etc": "Ermöglicht bestimmte Aktionen (Lokalisieren, Site-LED verwalten, Firmware-Update, PowerCycle\/Aktivierung\/Deaktivierung POE auf Switches, Aktivierung\/Deaktivierung\/Neustart von Access Points, Aktivierung\/Deaktivierung von WLANs, Sperren\/Entsperren\/Verwalten der Präsenz von Client-WLAN usw",
+        "N'a pas la vocation de remplacer l'interface du controleur": "Nicht als Ersatz für die Controller-Schnittstelle gedacht",
+        "Non supporté": "Nicht unterstützt",
         " Proxmox.": " Proxmox.",
         " Proxmox?": " Proxmox?",
         "Proxmox ": "Proxmox ",

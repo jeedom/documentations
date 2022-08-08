@@ -170,6 +170,9 @@
         "Changelog": "Changelog"
     },
     "plugins_contributor\/monitoring\/index.md": {
+        "Unifi Access & Unifi VOIP": "Unifi Access & Unifi VOIP",
+        "Unifi Network": "Unifi Network",
+        "Unifi Network - Connexion à un controleur Unifi Network": "Unifi Network - Connexion à un controleur Unifi Network",
         "Il dispose également d'une page santé spécifique résumant l'ensemble des informations de vos équipements": "Il dispose également d'une page santé spécifique résumant l'ensemble des informations de vos équipements",
         "Proxmox": "Proxmox",
         "Plugin permettant la gestion d'un serveur Proxmox": "Plugin permettant la gestion d'un serveur Proxmox",
@@ -199,7 +202,10 @@
         "le tout synthétisé dans un tableau, des alertes en cas de défaillance": "le tout synthétisé dans un tableau, des alertes en cas de défaillance",
         "Surveillance aussi toute particulière du réseau Z-Wave (Queue, Status": "Surveillance aussi toute particulière du réseau Z-Wave (Queue, Status",
         "Il est possible de récupérer toutes les ressources (noeuds, machine virtuelles, stockage...) et toutes leurs propriétés (statut, mémoire, CPU, disque, adresse IP, temps d'activité, list des snapshots": "Il est possible de récupérer toutes les ressources (noeuds, machine virtuelles, stockage...) et toutes leurs propriétés (statut, mémoire, CPU, disque, adresse IP, temps d'activité, list des snapshots",
-        "Le plugin permet aussi de démarrer et arrêter les VMs et les containers ainsi que de prendre des snapshots et des backups": "Le plugin permet aussi de démarrer et arrêter les VMs et les containers ainsi que de prendre des snapshots et des backups"
+        "Le plugin permet aussi de démarrer et arrêter les VMs et les containers ainsi que de prendre des snapshots et des backups": "Le plugin permet aussi de démarrer et arrêter les VMs et les containers ainsi que de prendre des snapshots et des backups",
+        "Permet certaines actions (Localiser, Gérer LED du site, Mise à jour Firmware, PowerCycle\/Activation\/Désactivation POE sur switchs, Activation\/Désactivation\/Reboot des Point d'accès, Activation\/Désactivation des WLAN, Bloquer\/Débloquer\/Gestion présence des clients WiFi, etc": "Permet certaines actions (Localiser, Gérer LED du site, Mise à jour Firmware, PowerCycle\/Activation\/Désactivation POE sur switchs, Activation\/Désactivation\/Reboot des Point d'accès, Activation\/Désactivation des WLAN, Bloquer\/Débloquer\/Gestion présence des clients WiFi, etc",
+        "N'a pas la vocation de remplacer l'interface du controleur": "N'a pas la vocation de remplacer l'interface du controleur",
+        "Non supporté": "Non supporté"
     },
     "plugins_contributor\/multimedia\/index.md": {
         "Multimédia": "Multimédia",
