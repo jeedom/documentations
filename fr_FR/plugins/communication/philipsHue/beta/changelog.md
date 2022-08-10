@@ -6,7 +6,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 10/08/2022
+
 - Ajout d'un bouton pour activer le touchlink du pont hue
+- Correction de bugs et optimisation
 
 # 04/1/2022
 
