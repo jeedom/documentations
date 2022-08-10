@@ -133,6 +133,9 @@
         "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy": "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy",
         "Suivi Conso": "Suivi Conso",
         "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production": "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production",
+        "Il récupère les informations sur l'ECU, les micro-onduleurs, la puissance générée par module, les tensions, les températures": "Il récupère les informations sur l'ECU, les micro-onduleurs, la puissance générée par module, les tensions, les températures",
+        "APSystems ECU": "APSystems ECU",
+        "Plugin récupérant les données d'un ECU d'APSystems dans Jeedom": "Plugin récupérant les données d'un ECU d'APSystems dans Jeedom",
         "Energie": "Energie",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -142,6 +145,7 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation": "Documentation",
+        "Beta": "Beta",
         "Market": "Market",
         "Changelog": "Changelog"
     },

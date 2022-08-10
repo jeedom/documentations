@@ -1,0 +1,33 @@
+{
+	"id" : "aps_ecu",
+	"name" : "APSystems ECU",
+	"description" : {
+		"fr_FR": "Plugin récupérant les données d'un ECU d'APSystems dans Jeedom. Il récupère les informations sur l'ECU, les micro-onduleurs, la puissance générée par module, les tensions, les températures...",
+		"en_US": "Plugin pulling data from an APSystems' ECU. It pulls data on ECU, micro-inverters, power generated for each module, grid voltage, temperatures..."
+	},
+	"licence" : "AGPL",
+	"author" : "Nicolas Choiset",
+	"require" : "3.3.39",
+	"category" : "energy",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"documentation": "https:\/\/nchoiset.github.io\/jeedom-plugins-doc\/aps_ecu\/#language#\/index",
+	"changelog": "https:\/\/nchoiset.github.io\/jeedom-plugins-doc\/aps_ecu\/#language#\/changelog",
+	"documentation_beta": "https:\/\/nchoiset.github.io\/jeedom-plugins-doc\/aps_ecu\/#language#\/beta\/index",
+	"changelog_beta": "https:\/\/nchoiset.github.io\/jeedom-plugins-doc\/aps_ecu\/#language#\/beta\/changelog",
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
+}
