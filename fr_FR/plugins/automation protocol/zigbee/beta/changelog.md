@@ -8,6 +8,10 @@
 >
 >Pour connaitre les nouveaux module compatible il faut aller [la](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (c'est trié par date d'ajout/modification)
 
+# 12/08/2022
+
+- Correction de bugs
+
 # 27/07/2022
 
 - Correction de soucis d'inclusion pour les équipements GreenPower (compatible uniquement avec les clefs EZSP)

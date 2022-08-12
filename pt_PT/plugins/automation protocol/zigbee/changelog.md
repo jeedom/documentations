@@ -8,15 +8,9 @@
 >
 >Para conhecer o novo módulo compatível você tem que ir [a](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (é classificado pela data de adição / modificação)
 
->**IMPORTANTE**
->
->Para aproveitar as vantagens da integração do módulo mais recente, não hesite em atualizar as dependências
+# 27/07/2022
 
->**IMPORTANTE**
->
->Para quem não tem problemas com o demônio, NÃO DEVE atualizar, pode quebrar tudo
-
-
+- Corrigidos problemas de inclusão para equipamentos GreenPower (compatível apenas com chaves EZSP)
 - Corrigido um problema com o feedback de cores de alguns controles remotos zigbee
 
 # 27/06/2022

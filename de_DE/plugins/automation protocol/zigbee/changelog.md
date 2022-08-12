@@ -8,15 +8,9 @@
 >
 >Um das neue kompatible Modul zu kennen, müssen Sie gehen [das](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (Es ist nach dem Datum sortiert, an dem es hinzugefügt / geändert wurde)
 
->**Wichtig**
->
->Um die Vorteile der neuesten Modulintegration zu nutzen, zögern Sie nicht, die Abhängigkeiten zu aktualisieren
+# 27.07.2022
 
->**Wichtig**
->
->Wer keine Probleme mit dem Dämon hat, darf NICHT updaten, er kann alles kaputt machen
-
-
+- Einschlussprobleme für GreenPower-Geräte behoben (nur kompatibel mit EZSP-Schlüsseln)
 - Ein Problem mit dem Farbfeedback einiger Zigbee-Fernbedienungen wurde behoben
 
 # 27/06/2022
