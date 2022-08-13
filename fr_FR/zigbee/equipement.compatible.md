@@ -932,6 +932,7 @@
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|AQARA - Interrupteur simple sans neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|AQARA - Interrupteur double sans neutre||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.curtain.acn002.png" width="60" />|Xiaomi|AQARA - Motorisation intelligente pour store enrouleur a chaînette|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5892-xiaomi-aqara-motorisation-intelligente-pour-store-enrouleur-a-chainette-zigbee-30-rsd-m01-6970504215085.html)|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.curtain.agl001.png" width="60" />|Xiaomi|AQARA - MOTORISATION POUR RIDEAU ZIGBEE 3.0 AQARA CURTAIN DRIVER E1 (VERSION TRINGLE)|||[Acheter](https://www.domadoo.fr/fr/peripheriques/6250-aqara-motorisation-pour-rideau-zigbee-30-aqara-curtain-driver-e1-version-tringle-6970504216860.html?domid=4&id_campaign=9)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.curtain.png" width="60" />|Xiaomi|Moteur rideau||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.light.aqcn02.png" width="60" />|Xiaomi|AQARA - Ampoule LED connectée|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5257-aqara-ampoule-led-zigbee-aqara-blanc-variable-0192784000144.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.lock.v1.png" width="60" />|Xiaomi|MIJIA - Serrure connectée|Serrure|||
@@ -989,4 +990,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2022-08-12 02:32:12
+2022-08-13 02:32:12

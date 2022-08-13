@@ -932,6 +932,7 @@
 |<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|AQARA - Single switch without neutral||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_neutral2.png" width="60" />|Xiaomi|AQARA - Double switch without neutral||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.curtain.acn002.png" width="60" />|Xiaomi|AQARA - Intelligent motorization for chain roller blinds|||[Buy](https://www.domadoo.fr/fr/peripheriques/5892-xiaomi-aqara-motorisation-intelligente-pour-store-enrouleur-a-chainette-zigbee-30-rsd-m01-6970504215085.html)|
+|<img src="../../en_US/zigbee/images/LUMI.lumi.curtain.agl001.png" width="60" />|Xiaomi|AQARA - MOTORIZATION FOR ZIGBEE 3 CURTAIN.0 AQARA CURTAIN DRIVER E1 (ROD VERSION)|||[Buy](https://www.domadoo.fr/fr/peripheriques/6250-aqara-motorisation-pour-rideau-zigbee-30-aqara-curtain-driver-e1-version-tringle-6970504216860.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.curtain.png" width="60" />|Xiaomi|Curtain motor||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.light.aqcn02.png" width="60" />|Xiaomi|AQARA - Connected LED bulb|||[Buy](https://www.domadoo.fr/fr/peripheriques/5257-aqara-ampoule-led-zigbee-aqara-blanc-variable-0192784000144.html)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.lock.v1.png" width="60" />|Xiaomi|MIJIA - Connected lock|Serrure|||
@@ -989,4 +990,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2022-08-12 02:32:12
+2022-08-13 02:32:12

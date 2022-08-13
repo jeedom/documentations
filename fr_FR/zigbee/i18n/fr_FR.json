@@ -55,6 +55,8 @@
         "Serrure": "Serrure",
         "AQARA - Ampoule LED connectée": "AQARA - Ampoule LED connectée",
         "Moteur rideau": "Moteur rideau",
+        "0 AQARA CURTAIN DRIVER E1 (VERSION TRINGLE": "0 AQARA CURTAIN DRIVER E1 (VERSION TRINGLE",
+        "AQARA - MOTORISATION POUR RIDEAU ZIGBEE 3": "AQARA - MOTORISATION POUR RIDEAU ZIGBEE 3",
         "AQARA - Motorisation intelligente pour store enrouleur a chaînette": "AQARA - Motorisation intelligente pour store enrouleur a chaînette",
         "AQARA - Interrupteur simple sans neutre": "AQARA - Interrupteur simple sans neutre",
         "AQARA - Interrupteur double avec neutre": "AQARA - Interrupteur double avec neutre",
@@ -692,6 +694,6 @@
         "LiXee": "LiXee",
         "Sinope Technologies": "Sinope Technologies",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2022-08-12 02": "2022-08-12 02"
+        "2022-08-13 02": "2022-08-13 02"
     }
 }
