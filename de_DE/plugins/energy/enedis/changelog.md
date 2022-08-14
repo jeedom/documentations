@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 08.02.2022
+
+- Optimierung von Aufrufen an Enedis-Server
+
 # 24.01.2022
 
 - Entfernen des Befehls "Maximale Stromerzeugung""
