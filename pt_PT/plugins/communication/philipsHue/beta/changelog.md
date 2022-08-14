@@ -6,14 +6,14 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
-# 10/08/2022
 
-- Adicionado um botão para ativar o touchlink da ponte de matiz
-- Correções de bugs e otimização
+- Reescrita completa do plugin para usar a API Hue 2.0
+- Requer ressincronização para andar
+- AVISO : Para os sensores, os comandos mudam completamente, então você precisa revisar seus cenários
+- IMPORTANTE : certos comandos não estarão mais disponíveis com esta nova versão, incluindo alertas, arco-íris e animações
+- IMPORTANTE : As cenas agora são do tipo ação outro, então há um comando não cena
+- MUITO IMPORTANTE : uma vez na versão beta, você não deve retornar ao estável ou passar por uma restauração de backup
 
-# 01/04/2022
-
-- Correções de bugs
 
 # 10/04/2021
 

@@ -17,7 +17,8 @@
     "author": "Jeedom SAS",
     "require": "3.3.39",
     "category": "communication",
-    "hasOwnDeamon": 1,
+    "hasDependency": true,
+    "hasOwnDeamon": true,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/philipsHue\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/philipsHue\/",
     "language": [

@@ -6,14 +6,14 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 10/08/2022
 
-- Ajout d'un bouton pour activer le touchlink du pont hue
-- Correction de bugs et optimisation
+- Réécriture complete du plugin pour utiliser l'api hue 2.0
+- Necessite une resynchronisation pour marcher
+- ATTENTION : Pour les capteurs les commandes changent completement il faut donc revoir vos scénarios
+- IMPORTANT : certaine commandes ne seront plus disponible avec cette nouvelle version dont les alertes, l'arc en ciel et les animation
+- IMPORTANT : Les scenes sont maintenant de type action other, il y a donc une commande pas scene
+- TRES IMPORTANT : une fois passé en beta il ne faut pas revenir en stable ou alors passer par une restoration de backup
 
-# 04/1/2022
-
-- Correction de bugs
 
 # 04/10/2021
 

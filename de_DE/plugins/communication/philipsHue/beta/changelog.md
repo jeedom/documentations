@@ -6,14 +6,14 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 10.08.2022
 
-- Eine Schaltfläche zum Aktivieren des Hue-Bridge-Touchlinks wurde hinzugefügt
-- Fehlerbehebungen und Optimierung
+- Komplette Neufassung des Plugins zur Verwendung der hue 2.0 API
+- Zum Gehen ist eine Neusynchronisation erforderlich
+- WARNUNG : Für die Sensoren ändern sich die Befehle vollständig, sodass Sie Ihre Szenarien überprüfen müssen
+- Wichtig : Einige Befehle sind mit dieser neuen Version nicht mehr verfügbar, darunter Warnungen, Regenbogen und Animationen
+- Wichtig : Szenen sind jetzt vom Typ Aktion andere, also gibt es einen Befehl nicht Szene
+- SEHR WICHTIG : Sobald Sie sich in der Beta befinden, dürfen Sie nicht zu Stable zurückkehren oder eine Backup-Wiederherstellung durchführen
 
-# 01.04.2022
-
-- Fehlerbehebungen
 
 # 10.04.2021
 
