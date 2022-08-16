@@ -23,3 +23,7 @@
 # 01/08/2022
 
 - BugFix sur déconnexion d'un équipement sur le même bus
+
+# 16/08/2022
+
+- Choix du port pour Modbus TCP (par defaut 502)

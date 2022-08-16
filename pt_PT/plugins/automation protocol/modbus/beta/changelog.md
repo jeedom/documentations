@@ -23,3 +23,7 @@
 # 01/08/2022
 
 - BugFix na desconexão de um dispositivo no mesmo barramento
+
+# 16/08/2022
+
+- Escolha da porta para Modbus TCP (por padrão 502)
