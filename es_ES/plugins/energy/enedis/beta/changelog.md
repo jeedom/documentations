@@ -4,6 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 15/08/2022
+
+- Se corrigió un error de visualización de datos de producción en caso de múltiples widgets en la página
+
 # 08/02/2022
 
 - Optimización de llamadas a servidores de Enedis
