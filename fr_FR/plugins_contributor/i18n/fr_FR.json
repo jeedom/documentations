@@ -20,9 +20,9 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation": "Documentation",
+        "Documentation Stable": "Documentation Stable",
         "Market": "Market",
-        "Changelog": "Changelog"
+        "Changelog Stable": "Changelog Stable"
     },
     "plugins_contributor\/automatisation\/index.md": {
         "Volet proportionel": "Volet proportionel",
@@ -41,9 +41,9 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation": "Documentation",
+        "Documentation Stable": "Documentation Stable",
         "Market": "Market",
-        "Changelog": "Changelog"
+        "Changelog Stable": "Changelog Stable"
     },
     "plugins_contributor\/communication\/index.md": {
         "chat est une plateforme de messagerie collaborative (type slack, HipChat": "chat est une plateforme de messagerie collaborative (type slack, HipChat",
@@ -73,12 +73,13 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation": "Documentation",
+        "Documentation Stable": "Documentation Stable",
         "Market": "Market",
-        "Changelog": "Changelog",
+        "Changelog Stable": "Changelog Stable",
         "Gotify est une solution self-hosted, libre et open source permettant l'envoi et la réception de message": "Gotify est une solution self-hosted, libre et open source permettant l'envoi et la réception de message",
         "Passerelle Apple HomeKit pour Jeedom": "Passerelle Apple HomeKit pour Jeedom",
-        "Beta": "Beta",
+        "Documentation Beta": "Documentation Beta",
+        "Changelog Beta": "Changelog Beta",
         "Contrôlez facilement votre maison intelligente grâce à son interface intuitive et customisable": "Contrôlez facilement votre maison intelligente grâce à son interface intuitive et customisable",
         "JeeMate dispose de nombreuses fonctionnalités, et est compatible avec de nombreux plugins Jeedom": "JeeMate dispose de nombreuses fonctionnalités, et est compatible avec de nombreux plugins Jeedom",
         "Ce plugin permet d'appairer l'application mobile avec votre Jeedom": "Ce plugin permet d'appairer l'application mobile avec votre Jeedom"
@@ -111,12 +112,13 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation": "Documentation",
+        "Documentation Stable": "Documentation Stable",
         "Market": "Market",
-        "Changelog": "Changelog",
-        "Beta": "Beta",
+        "Changelog Stable": "Changelog Stable",
+        "Documentation Beta": "Documentation Beta",
         "lampes, leds, prises, interrupteurs, thermostat, de marques diverses": "lampes, leds, prises, interrupteurs, thermostat, de marques diverses",
-        "Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya\/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc": "Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya\/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc"
+        "Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya\/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc": "Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya\/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc",
+        "Changelog Beta": "Changelog Beta"
     },
     "plugins_contributor\/energy\/index.md": {
         "Suivi CO2": "Suivi CO2",
@@ -144,10 +146,11 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation": "Documentation",
-        "Beta": "Beta",
+        "Documentation Stable": "Documentation Stable",
+        "Documentation Beta": "Documentation Beta",
         "Market": "Market",
-        "Changelog": "Changelog"
+        "Changelog Stable": "Changelog Stable",
+        "Changelog Beta": "Changelog Beta"
     },
     "plugins_contributor\/health\/index.md": {
         "Santé": "Santé",
@@ -170,10 +173,11 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation": "Documentation",
-        "Beta": "Beta",
+        "Documentation Stable": "Documentation Stable",
+        "Documentation Beta": "Documentation Beta",
         "Market": "Market",
-        "Changelog": "Changelog"
+        "Changelog Stable": "Changelog Stable",
+        "Changelog Beta": "Changelog Beta"
     },
     "plugins_contributor\/monitoring\/index.md": {
         "Unifi Access & Unifi VOIP": "Unifi Access & Unifi VOIP",
@@ -202,9 +206,9 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation": "Documentation",
+        "Documentation Stable": "Documentation Stable",
         "Market": "Market",
-        "Changelog": "Changelog",
+        "Changelog Stable": "Changelog Stable",
         "le tout synthétisé dans un tableau, des alertes en cas de défaillance": "le tout synthétisé dans un tableau, des alertes en cas de défaillance",
         "Surveillance aussi toute particulière du réseau Z-Wave (Queue, Status": "Surveillance aussi toute particulière du réseau Z-Wave (Queue, Status",
         "Il est possible de récupérer toutes les ressources (noeuds, machine virtuelles, stockage...) et toutes leurs propriétés (statut, mémoire, CPU, disque, adresse IP, temps d'activité, list des snapshots": "Il est possible de récupérer toutes les ressources (noeuds, machine virtuelles, stockage...) et toutes leurs propriétés (statut, mémoire, CPU, disque, adresse IP, temps d'activité, list des snapshots",
@@ -235,10 +239,11 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation": "Documentation",
-        "Beta": "Beta",
+        "Documentation Stable": "Documentation Stable",
+        "Documentation Beta": "Documentation Beta",
         "Market": "Market",
-        "Changelog": "Changelog"
+        "Changelog Stable": "Changelog Stable",
+        "Changelog Beta": "Changelog Beta"
     },
     "plugins_contributor\/organization\/index.md": {
         "Programmateur": "Programmateur",
@@ -251,9 +256,9 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation": "Documentation",
+        "Documentation Stable": "Documentation Stable",
         "Market": "Market",
-        "Changelog": "Changelog"
+        "Changelog Stable": "Changelog Stable"
     },
     "plugins_contributor\/other\/index.md": {
         "Autre": "Autre",
@@ -282,10 +287,11 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation": "Documentation",
-        "Beta": "Beta",
+        "Documentation Stable": "Documentation Stable",
+        "Documentation Beta": "Documentation Beta",
         "Market": "Market",
-        "Changelog": "Changelog"
+        "Changelog Stable": "Changelog Stable",
+        "Changelog Beta": "Changelog Beta"
     },
     "plugins_contributor\/security\/index.md": {
         "Alarme Verisure": "Alarme Verisure",
@@ -313,9 +319,9 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation": "Documentation",
+        "Documentation Stable": "Documentation Stable",
         "Market": "Market",
-        "Changelog": "Changelog"
+        "Changelog Stable": "Changelog Stable"
     },
     "plugins_contributor\/weather\/index.md": {
         "Température": "Température",
@@ -340,9 +346,9 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation": "Documentation",
+        "Documentation Stable": "Documentation Stable",
         "Market": "Market",
-        "Changelog": "Changelog",
+        "Changelog Stable": "Changelog Stable",
         "Depuis la carte Netatmo, sélectionnez jusqu'à 5 stations favorites, puis elles seront visibles dans Jeedom et utilisable dans vos Scénarii, Vues, Designs, etc": "Depuis la carte Netatmo, sélectionnez jusqu'à 5 stations favorites, puis elles seront visibles dans Jeedom et utilisable dans vos Scénarii, Vues, Designs, etc",
         "Notamment": "Notamment",
         "Pression": "Pression",
@@ -375,8 +381,8 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation": "Documentation",
+        "Documentation Stable": "Documentation Stable",
         "Market": "Market",
-        "Changelog": "Changelog"
+        "Changelog Stable": "Changelog Stable"
     }
 }

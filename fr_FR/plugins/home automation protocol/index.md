@@ -6,4 +6,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="atlas/atlas_icon.png" class="pluginLogo" width="100" />|Atlas|Plugins spécialisé pour la Atlas|[Documentation](atlas/index.md)[Beta](atlas/beta/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4195)<br/>[Changelog](atlas/changelog.md)[Beta](atlas/beta/changelog.md)|
+|<img src="atlas/atlas_icon.png" class="pluginLogo" width="100" />|Atlas|Plugins spécialisé pour la Atlas|[Documentation Stable](atlas/index.md) - [Documentation Beta](atlas/beta/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4195)<br/>[Changelog Stable](atlas/changelog.md) - [Changelog Beta](atlas/beta/changelog.md)|

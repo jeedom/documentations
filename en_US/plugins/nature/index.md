@@ -6,5 +6,5 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="greeniq/greeniq_icon.png" class="pluginLogo" width="100" />|GreenIQ|Plugin to control automatic watering via the GreenIQ module|[Documentation](greeniq/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1717)<br/>[Changelog](greeniq/changelog.md)|
-|<img src="koubachi/koubachi_icon.png" class="pluginLogo" width="100" />|Koubachi|Plugin for koubachi plant sensors|[Documentation](koubachi/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1012)<br/>[Changelog](koubachi/changelog.md)|
+|<img src="greeniq/greeniq_icon.png" class="pluginLogo" width="100" />|GreenIQ|Plugin to control automatic watering via the GreenIQ module|[Documentation Stable](greeniq/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1717)<br/>[Changelog Stable](greeniq/changelog.md)|
+|<img src="koubachi/koubachi_icon.png" class="pluginLogo" width="100" />|Koubachi|Plugin for koubachi plant sensors|[Documentation Stable](koubachi/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1012)<br/>[Changelog Stable](koubachi/changelog.md)|

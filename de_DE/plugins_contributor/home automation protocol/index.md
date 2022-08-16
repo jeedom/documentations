@@ -9,4 +9,4 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="Yokis/Yokis_icon.png" class="pluginLogo" width="100" />|Yokis passerelle|Plugin pour commander les modules Yokis en local|[Documentation](https://nwailly.github.io/Yokis_DOCS/docs/de_DE/Index)[Beta](https://nwailly.github.io/Yokis_DOCS/docs/de_DE/Indexbeta)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4248)<br/>[Changelog](https://nwailly.github.io/Yokis_DOCS/docs/de_DE/changelog)[Beta](https://nwailly.github.io/Yokis_DOCS/docs/de_DE/changelogbeta)|
+|<img src="Yokis/Yokis_icon.png" class="pluginLogo" width="100" />|Yokis passerelle|Plugin pour commander les modules Yokis en local|[Dokumentation Stall](https://nwailly.github.io/Yokis_DOCS/docs/de_DE/Index) - [Beta-Dokumentation](https://nwailly.github.io/Yokis_DOCS/docs/de_DE/Indexbeta)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4248)<br/>[Änderungsprotokoll stabil](https://nwailly.github.io/Yokis_DOCS/docs/de_DE/changelog) - [Änderungsprotokoll Beta](https://nwailly.github.io/Yokis_DOCS/docs/de_DE/changelogbeta)|
