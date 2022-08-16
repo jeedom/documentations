@@ -244,7 +244,7 @@ En su Jeedom, vaya a Complemento -> Comunicación -> Google Smarthome y en la se
 
 > **Importante**
 >
-> El complemento se basa en los tipos genéricos de comandos Jeedom para controlar la automatización de su hogar. Por lo tanto, es muy importante configurarlos correctamente.Podéis ver [aquí](https://doc.jeedom.com/es_ES/concept/generic_type) la documentación sobre tipo genérico
+> El complemento se basa en los tipos genéricos de comandos Jeedom para controlar la automatización de su hogar. Por lo tanto, es muy importante configurarlos correctamente.Podéis ver [aquí](https://doc.jeedom.com/es_ES/core/4.2/types) la documentación sobre tipo genérico
 
 > **Nota**
 >

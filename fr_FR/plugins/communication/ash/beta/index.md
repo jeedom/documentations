@@ -50,7 +50,7 @@ Sur votre Jeedom, allez sur Plugin -> Communication -> Alexa et dans la partie �
 
 > **IMPORTANT**
 >
-> Le plugin se base sur les types génériques de Jeedom des commandes pour piloter votre domotique. Il est donc très important de configurer ceux-ci correctement. Vous pouvez voir [ici](https://doc.jeedom.com/fr_FR/concept/generic_type) des explications sur les generiques type
+> Le plugin se base sur les types génériques de Jeedom des commandes pour piloter votre domotique. Il est donc très important de configurer ceux-ci correctement. Vous pouvez voir [ici](https://doc.jeedom.com/fr_FR/core/4.2/types) des explications sur les generiques type
 
 > **IMPORTANT**
 >

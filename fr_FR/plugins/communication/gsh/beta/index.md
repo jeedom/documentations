@@ -244,7 +244,7 @@ Sur votre Jeedom, allez sur Plugin -> Communication -> Google Smarthome et dans 
 
 > **IMPORTANT**
 >
-> Le plugin se base sur les types génériques de Jeedom des commandes pour piloter votre domotique. Il est donc très important de configurer ceux-ci correctement.Vous pouvez voir [ici](https://doc.jeedom.com/fr_FR/concept/generic_type) la documentation sur les générique type
+> Le plugin se base sur les types génériques de Jeedom des commandes pour piloter votre domotique. Il est donc très important de configurer ceux-ci correctement.Vous pouvez voir [ici](https://doc.jeedom.com/fr_FR/core/4.2/types) la documentation sur les générique type
 
 > **NOTE**
 >

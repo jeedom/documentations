@@ -244,7 +244,7 @@ On your Jeedom, go to Plugin -> Communication -> Google Smarthome and in the equ
 
 > **Important**
 >
-> The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly.You can see [here](https://doc.jeedom.com/en_US/concept/generic_type) the documentation on generic type
+> The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly.You can see [here](https://doc.jeedom.com/en_US/core/4.2/types) the documentation on generic type
 
 > **NOTE**
 >
