@@ -307,6 +307,9 @@
         "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos": "Attention, toute de meme a ce que vous autorisé avec ce plugin car il est assez simple de tromper le systeme (Jumeaux, photos",
         "Reconnaissance facial": "Reconnaissance facial",
         "Ce plugin permet utilise OpenCv pour détecter votre visiage et vous reconnaitre": "Ce plugin permet utilise OpenCv pour détecter votre visiage et vous reconnaitre",
+        "Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell et Video Doorbell": "Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell et Video Doorbell",
+        "Arlo": "Arlo",
+        "Plugin permettant le contrôle des équipements de la gamme Arlo comme les caméras, la station de base et la sirène intégrée": "Plugin permettant le contrôle des équipements de la gamme Arlo comme les caméras, la station de base et la sirène intégrée",
         "Acces par QR code": "Acces par QR code",
         "Gerer les acces de votre maison par QR code": "Gerer les acces de votre maison par QR code",
         "Diagral eOne": "Diagral eOne",
@@ -321,7 +324,10 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation Stable": "Documentation Stable",
         "Market": "Market",
-        "Changelog Stable": "Changelog Stable"
+        "Changelog Stable": "Changelog Stable",
+        "Documentation Beta": "Documentation Beta",
+        "Il est possible de contrôler le mode, l'activation et désactivation des caméras, visualiser le flux live des caméras, déclencher des captures et des enregistrements vidéos, déclencher la sirène... Tous les modèles actuels supportés par l'application Arlo (web ou mobile) sont supportés par le plugin": "Il est possible de contrôler le mode, l'activation et désactivation des caméras, visualiser le flux live des caméras, déclencher des captures et des enregistrements vidéos, déclencher la sirène... Tous les modèles actuels supportés par l'application Arlo (web ou mobile) sont supportés par le plugin",
+        "Changelog Beta": "Changelog Beta"
     },
     "plugins_contributor\/weather\/index.md": {
         "Température": "Température",
@@ -360,6 +366,9 @@
         "le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo": "le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo"
     },
     "plugins_contributor\/wellness\/index.md": {
+        "définir le mode (On, Off, Auto...), définir les températures de consigne, activer un mode rapide, activer une marche forcée... Les vannes et les thermostats de la gamme ambiSENSE reliées au système sont également gérés": "définir le mode (On, Off, Auto...), définir les températures de consigne, activer un mode rapide, activer une marche forcée... Les vannes et les thermostats de la gamme ambiSENSE reliées au système sont également gérés",
+        "Vaillant multiMATIC": "Vaillant multiMATIC",
+        "Plugin permettant de se connecter à un système Vaillant multiMATIC via sa passerelle internet": "Plugin permettant de se connecter à un système Vaillant multiMATIC via sa passerelle internet",
         "Sensibo Sky": "Sensibo Sky",
         "Plugin pour piloter le module Sensibo Sky": "Plugin pour piloter le module Sensibo Sky",
         "Qivivo": "Qivivo",
@@ -383,6 +392,7 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation Stable": "Documentation Stable",
         "Market": "Market",
-        "Changelog Stable": "Changelog Stable"
+        "Changelog Stable": "Changelog Stable",
+        "Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler": "Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler"
     }
 }

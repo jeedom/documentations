@@ -1,0 +1,40 @@
+{
+	"id": "arlo",
+	"name": "Arlo",
+	"description": {
+		"fr_FR": "Plugin permettant le contrôle des équipements de la gamme Arlo comme les caméras, la station de base et la sirène intégrée. Il est possible de contrôler le mode, l'activation et désactivation des caméras, visualiser le flux live des caméras, déclencher des captures et des enregistrements vidéos, déclencher la sirène... Tous les modèles actuels supportés par l'application Arlo (web ou mobile) sont supportés par le plugin: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell et Video Doorbell...",
+		"en_US": "Plugin allowing control of Arlo devices such as cameras, base station and built-in siren. It is possible to control the mode, activation and deactivation of cameras, view the live stream of cameras, trigger video captures and recordings, trigger the siren ... All current models supported by the Arlo application (web or mobile) are supported by the plugin: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell and Video Doorbell ..."
+	},
+	"utilization": "Il faut créer un utilisateur dédié à Jeedom dans l'application Arlo (très facile, explication détaillée dans la documentation) ensuite tout se configure automatiquement.",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "3.3.39",
+	"category": "security",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 10,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/arlo/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/arlo/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/arlo/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/arlo/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-arlo",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"whiteListFolders": [
+		"data/records"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4"
+	]
+}

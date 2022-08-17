@@ -6,7 +6,7 @@
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="denonavr/denonavr_icon.png" class="pluginLogo" width="100" />|Denon|Plugin zur Steuerung von Denon-Verstärkern|[Dokumentation Stall](denonavr/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2077)<br/>[Änderungsprotokoll stabil](denonavr/changelog.md)|
+|<img src="denonavr/denonavr_icon.png" class="pluginLogo" width="100" />|Denon|Plugin zur Steuerung von Denon-Verstärkern|[Dokumentation Stall](denonavr/index.md) - [Beta-Dokumentation](denonavr/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=2077)<br/>[Änderungsprotokoll stabil](denonavr/changelog.md) - [Änderungsprotokoll Beta](denonavr/beta/changelog.md)|
 |<img src="harmonyhub/harmonyhub_icon.png" class="pluginLogo" width="100" />|Harmony Hub|Plugin zur Steuerung eines oder mehrerer Harmony Hubs.|[Dokumentation Stall](harmonyhub/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1599)<br/>[Änderungsprotokoll stabil](harmonyhub/changelog.md)|
 |<img src="hyperion2/hyperion2_icon.png" class="pluginLogo" width="100" />|Ambilight|Hyperion-Plugin zur Steuerung|[Dokumentation Stall](hyperion2/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1909)<br/>[Änderungsprotokoll stabil](hyperion2/changelog.md)|
 |<img src="kodi/kodi_icon.png" class="pluginLogo" width="100" />|Kodi|Plugin zum Senden und Empfangen von Bestellungen an / von Kodi|[Dokumentation Stall](kodi/index.md) - [Beta-Dokumentation](kodi/beta/index.md)<br/>[Markt](https://market.jeedom.com/index.php?v=d&p=market_display&id=1398)<br/>[Änderungsprotokoll stabil](kodi/changelog.md) - [Änderungsprotokoll Beta](kodi/beta/changelog.md)|

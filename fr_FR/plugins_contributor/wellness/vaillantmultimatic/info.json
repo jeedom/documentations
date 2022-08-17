@@ -1,0 +1,31 @@
+{
+	"id": "vaillantmultimatic",
+	"name": "Vaillant multiMATIC",
+	"description": "Plugin permettant de se connecter à un système Vaillant multiMATIC via sa passerelle internet. Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler: définir le mode (On, Off, Auto...), définir les températures de consigne, activer un mode rapide, activer une marche forcée... Les vannes et les thermostats de la gamme ambiSENSE reliées au système sont également gérés.",
+	"utilization": "Il est nécessaire d'avoir une passerelle internet et un régulateur Vaillant compatibles avec le système multiMATIC.",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "3.3.24",
+	"category": "wellness",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 30,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-vaillantmultimatic",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
+}
