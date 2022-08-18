@@ -10,6 +10,10 @@
 
 # 12/08/2022
 
+- Corrigidos bugs na execução de determinados comandos se o equipamento estiver em "Ignorar confirmação de execução"
+
+# 12/08/2022
+
 - Bugfix
 
 # 27/07/2022

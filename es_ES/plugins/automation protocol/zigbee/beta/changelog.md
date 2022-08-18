@@ -10,6 +10,10 @@
 
 # 12/08/2022
 
+- Se corrigieron errores en la ejecución de ciertos comandos si el equipo está en "Ignorar confirmación de ejecución""
+
+# 12/08/2022
+
 - Arreglo del fallo
 
 # 27/07/2022

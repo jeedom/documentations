@@ -10,6 +10,10 @@
 
 # 12.08.2022
 
+- Fehler bei der Ausführung bestimmter Befehle behoben, wenn sich das Gerät im Zustand „Ausführungsbestätigung ignorieren“ befindet"
+
+# 12.08.2022
+
 - Fehlerbehebung
 
 # 27.07.2022
