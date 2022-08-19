@@ -1,0 +1,31 @@
+{
+  "id": "airthingsx",
+  "name": "AirthingsX",
+  "description": {
+    "fr_FR": "Intégration avec l'API Airthings: relève les mesures des équipement Airthings pour la qualité de l'air. Attention: requiert PHP 7.3 et une clé API Airthings à créer par vous-même (l'opération est gratuite).",
+    "en_US": "Integration with the Airthings API: gather the measures Airthings for the air quality. Disclaimer: it requires PHP 7.3 and an API key from Airthings, to be created on your own (free)."
+  },
+  "licence": "AGPL",
+  "author": "XYPII",
+  "require": "4.1",
+  "category": "devicecommunication",
+  "hasDependency": true,
+  "hasOwnDeamon": false,
+  "maxDependancyInstallTime": 0,
+  "changelog": "",
+  "documentation": "https://www.xypii.be/projects/jeedom-airthingsx/#language#/",
+  "language": [
+    "fr_FR",
+    "en_US"
+  ],
+  "compatibility": [
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "mobile",
+    "v4",
+    "atlas"
+  ]
+}
