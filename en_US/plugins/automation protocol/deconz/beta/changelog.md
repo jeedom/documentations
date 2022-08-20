@@ -1,6 +1,6 @@
-# 
+# Changelog Deconz
 
->****
+>**Important**
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
@@ -13,7 +13,7 @@
 
 - Bugfix
 
-# 
+# 04/12/2021
 
 - Support of new types
 
@@ -33,7 +33,7 @@
 
 - Added a message indicating not to update the key firmware if you are on VM or Freebox Delta at the risk of breaking the key.
 
-# 
+# 23/09/2020
 
 - Danfoss ally valve support (deconz 2.05.79 required)
 - Change of the installation method for RPI and x86_64 (passage through the deconz repositories)
@@ -110,7 +110,7 @@
 - Bugfix
 - Updating the doc
 
-# 
+# 09/09/2019
 
 - Correction of a bug on the log level of deconz in local installation
 - Update of the local version of deconz to 2.5.69 (be careful to have it in the plugin configuration restart the installation of Deconz and restart the demon then)
