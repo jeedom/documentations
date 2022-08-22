@@ -19,3 +19,11 @@
 # 02.05.2022
 
 - Funktion Exportieren einer Json-Datei und Importieren von Bestellungen nach Equipment 
+
+# 01.08.2022
+
+- BugFix beim Trennen eines Gerätes am selben Bus
+
+# 16.08.2022
+
+- Wahl des Ports für Modbus TCP (standardmäßig 502)

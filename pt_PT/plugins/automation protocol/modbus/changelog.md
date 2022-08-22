@@ -19,3 +19,11 @@
 # 02/05/2022
 
 - Função Exportando um arquivo Json e Importando pedidos por Equipamento 
+
+# 01/08/2022
+
+- BugFix na desconexão de um dispositivo no mesmo barramento
+
+# 16/08/2022
+
+- Escolha da porta para Modbus TCP (por padrão 502)

@@ -19,3 +19,11 @@
 # 05/02/2022
 
 - Función Exportación de un archivo Json e Importación de pedidos por Equipo 
+
+# 01/08/2022
+
+- BugFix en la desconexión de un dispositivo en el mismo bus
+
+# 16/08/2022
+
+- Elección de puerto para Modbus TCP (por defecto 502)

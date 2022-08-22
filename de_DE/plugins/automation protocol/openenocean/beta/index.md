@@ -6,17 +6,17 @@ Dieses Plugin ist ein Plugin, das Enocean-Kompatibilität ermöglicht
 
 ## Plugin Konfiguration
 
-> ****
+> **Spitze**
 >
 > Um das Plugin verwenden zu können, müssen Sie es wie jedes Jeedom-Plugin herunterladen, installieren und aktivieren.
 
-> ****
+> **Wichtig**
 >
 > Das Wichtigste dabei ist, dass Sie Ihren USB-Controller auswählen (Sie können Auto auswählen, damit er für den Enocean USB300-Schlüssel funktioniert). Für jedes andere Modell ist es besser, es aus der Liste auszuwählen :
 
--    : 
--    : 
--    : ttyS1
+-   USB300 : EnOcean\_GmbH EnOean\_USB\_300\_DB
+-   USB310 : FTDI FT232R\_USB\_UART
+-   Jeedom Smart : ttyS1
 
 Die andere auf dieser Seite verfügbare Option ist : **Ausgeschlossene Geräte automatisch löschen**. Dadurch werden Jeedom-Geräte entfernt, wenn sie ausgeschlossen sind.
 
@@ -24,7 +24,7 @@ Sie können auch den Status von Abhängigkeiten überprüfen und neu starten. Be
 
 ## Compatibilité
 
-Sie finden [](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=openenocean) die Liste der Module, die mit dem Plugin kompatibel sind
+Sie finden [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=openenocean) die Liste der Module, die mit dem Plugin kompatibel sind
 
 # Das Plugin
 
@@ -61,10 +61,10 @@ Auf der rechten Seite finden Sie :
 
 Für einige Module ist es möglich, eine Schaltfläche zum Konfigurieren zu haben. Wenn Sie darauf klicken, gelangen Sie zu einer Seite, auf der Sie sie konfigurieren können
 
-> ****
+> **Wichtig**
 >
-> Hier müssen Sie nur alle Optionen auswählen und auf Übernehmen klicken. ( : Dort werden alle Parameter gesendet, also validieren Sie das Ganze)
+> Hier müssen Sie nur alle Optionen auswählen und auf Übernehmen klicken. (Achtung : Dort werden alle Parameter gesendet, also validieren Sie das Ganze)
 
 # Kompatibilitätsliste
 
-Sie werden finden [](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) eine Kompatibilitätsliste der Module mit ihrem Einschlussverfahren, wenn sie spezifisch sind.
+Sie werden finden [hier](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) eine Kompatibilitätsliste der Module mit ihrem Einschlussverfahren, wenn sie spezifisch sind.
