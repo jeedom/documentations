@@ -330,7 +330,8 @@ Se para um determinado daemon (1, 2 ou 3) você alterar a chave Zigbee sem resta
 
 >**Eu tenho um erro padrão "base.timeout" ao iniciar o daemon em uma chave do tipo EZSP**
 >
->É possível que a chave esteja bloqueada no modo bootloader, para sair dela você pode fazer as seguintes linhas (uma por uma) no console do sistema Jeedom : 
+>É possível que a chave esteja bloqueada no modo bootloader, para sair dela você pode fazer as seguintes linhas (uma por uma) no console do sistema Jeedom (cuidado se você não estiver no Jeedom Atlas você deve substituir /dev/ttyS2 pela porta da chave zigbee, ex /dev/ttyUSBX com X um número correspondente à sua configuração):
+> IMPORTANTE : esta manipulação só deve ser feita com chaves do tipo Elelabs, Jeedom Atlas ou Jeedom Smart. Em qualquer outra chave deve contactar o fabricante para lhe dar o procedimento.
 ````````
 wge https://github.com/Elelabs/elelabs-zigbee-ezsp-utility/archive/master.zip -O /tmp/elelabs.zip
 cd /tmp;unzip -o elelabs.zip

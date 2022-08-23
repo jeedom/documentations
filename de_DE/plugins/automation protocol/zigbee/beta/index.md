@@ -330,7 +330,8 @@ Wenn Sie für einen bestimmten Daemon (1, 2 oder 3) den Zigbee-Schlüssel änder
 
 >**Ich habe einen Standardfehler "base.timeout", wenn der Daemon auf einem Schlüssel vom Typ EZSP gestartet wird**
 >
->Es ist möglich, dass der Schlüssel im Bootloader-Modus blockiert ist. Um ihn zu lösen, können Sie die folgenden Zeilen (nacheinander) in der Jeedom-Systemkonsole ausführen : 
+>Es ist möglich, dass der Schlüssel im Bootloader-Modus blockiert ist, um ihn zu verlassen, können Sie die folgenden Zeilen (eine nach der anderen) in der Jeedom-Systemkonsole ausführen (seien Sie vorsichtig, wenn Sie sich nicht unter Jeedom Atlas befinden, müssen Sie /dev/ttyS2 durch den Port des Zigbee-Schlüssels, z. B. /dev/ttyUSBX mit X eine Nummer, die Ihrer Konfiguration entspricht):
+> Wichtig : Diese Manipulation sollte nur mit Schlüsseln vom Typ Elelabs, Jeedom Atlas oder Jeedom Smart durchgeführt werden. Bei allen anderen Schlüsseln müssen Sie sich an den Hersteller wenden, um Ihnen das Verfahren mitzuteilen.
 ````````
 wgund https://github.com/Elelabs/elelabs-zigbee-ezsp-utility/archive/master.zip -O /tmp/elelabs.zip
 cd /tmp;unzip -o elelabs.zip

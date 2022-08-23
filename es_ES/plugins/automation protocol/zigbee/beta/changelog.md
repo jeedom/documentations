@@ -8,6 +8,11 @@
 >
 >Para conocer el nuevo módulo compatible tienes que ir [la](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (está ordenado por fecha de adición / modificación)
 
+
+- Arreglo del fallo
+- Capacidad para corregir el error del gestor de arranque (base.TimeoutError) desde la pantalla de actualización de firmware (en beta por el momento)
+- Se corrigió un error en el botón para forzar actualizaciones de mod OTA
+
 # 12/08/2022
 
 - Se corrigieron errores en la ejecución de ciertos comandos si el equipo está en "Ignorar confirmación de ejecución""

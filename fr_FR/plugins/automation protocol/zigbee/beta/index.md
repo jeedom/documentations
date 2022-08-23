@@ -330,7 +330,8 @@ Si pour un démon donné (1,2 ou 3) vous changer la clef Zigbee sans restaurer u
 
 >**J'ai une erreur type "base.timeout" lors du démarrage du démon sur une clef type EZSP**
 >
->Il est possible que la clef soit bloquée en mode bootloader, pour en sortir vous pouvez faire les lignes suivante (une à une) dans la console systeme de Jeedom : 
+>Il est possible que la clef soit bloquée en mode bootloader, pour en sortir vous pouvez faire les lignes suivante (une à une) dans la console systeme de Jeedom (attention si vous n'etes pas sous Jeedom Atlas il faut remplacer /dev/ttyS2 par le port de la clef zigbee, ex /dev/ttyUSBX avec X un nombre correspondant à votre configuration):
+> IMPORTANT : il ne faut faire cette manipulation que les clefs de type Elelabs, box Jeedom Atlas ou Jeedom Smart. Sur tout autre clef il faut contacter le fabricant pour qu'il vous donne la procedure.
 ````
 wget https://github.com/Elelabs/elelabs-zigbee-ezsp-utility/archive/master.zip -O /tmp/elelabs.zip
 cd /tmp;unzip -o elelabs.zip
