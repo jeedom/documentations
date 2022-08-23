@@ -4,6 +4,8 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
+- Adicionado gerenciamento de grupo
+
 # 09/06/2022
 
 - Remoção da atualização automática de informações a cada hora para limitar o número de chamadas para Ajax e evitar a superação da cota

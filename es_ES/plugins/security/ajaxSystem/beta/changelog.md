@@ -4,6 +4,8 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
+- Gestión de grupos añadida
+
 # 06/09/2022
 
 - Eliminación de la actualización automática de información cada hora para limitar la cantidad de llamadas a Ajax y evitar el exceso de cuota

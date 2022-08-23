@@ -4,6 +4,8 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Gruppenverwaltung hinzugefügt
+
 # 09.06.2022
 
 - Entfernen der automatischen stündlichen Aktualisierung von Informationen, um die Anzahl der Aufrufe an Ajax zu begrenzen und eine Quotenüberschreitung zu verhindern
