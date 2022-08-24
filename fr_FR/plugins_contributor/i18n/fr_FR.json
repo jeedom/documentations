@@ -385,6 +385,9 @@
         "Plugin pilotage des poëles à pellet Heta, AustroFlamm équipés du boitier WiRCU": "Plugin pilotage des poëles à pellet Heta, AustroFlamm équipés du boitier WiRCU",
         "ELM Touch": "ELM Touch",
         "Plugin pour la régulation de chaudière gaz Elm Leblanc avec le thermostat connecté ELM Touch": "Plugin pour la régulation de chaudière gaz Elm Leblanc avec le thermostat connecté ELM Touch",
+        "Aucune connexion internet n'est requise pour récupérer ces informations, tout est en local": "Aucune connexion internet n'est requise pour récupérer ces informations, tout est en local",
+        "Clage": "Clage",
+        "Le plugin permet de récupérer toutes les informations de son serveur HSX de Clage": "Le plugin permet de récupérer toutes les informations de son serveur HSX de Clage",
         "Il embarque également la possibilité de cree des mode de fonctionnement avancer avec toute la puissance de jeedom": "Il embarque également la possibilité de cree des mode de fonctionnement avancer avec toute la puissance de jeedom",
         "SPA Balboa": "SPA Balboa",
         "Ce plugin permet de connecter et recuperer les informations de votre SPA Balboa": "Ce plugin permet de connecter et recuperer les informations de votre SPA Balboa",
@@ -399,6 +402,8 @@
         "Documentation Stable": "Documentation Stable",
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
+        "Le serveur HSX récupère les informations de ses chauffe-eau connectés parmi MCX 3-7, CEX\/CFX, DEX, DSX, DSX Touch, DSX Twin": "Le serveur HSX récupère les informations de ses chauffe-eau connectés parmi MCX 3-7, CEX\/CFX, DEX, DSX, DSX Touch, DSX Twin",
+        "Les informations qui remontent dans l'application Smart Control (iOS, Android) remontent également dans le plugin": "Les informations qui remontent dans l'application Smart Control (iOS, Android) remontent également dans le plugin",
         "Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler": "Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler"
     }
 }
