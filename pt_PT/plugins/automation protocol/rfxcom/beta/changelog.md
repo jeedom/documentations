@@ -4,6 +4,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+
+- Corrigido um problema se o usuário codificasse a ativação dos protocolos na rfxcom rom
+
 # 02/07/2022
 
 - Corrigido problema ao instalar dependências no jeedom 4.2

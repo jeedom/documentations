@@ -4,6 +4,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+
+- Behebung eines Problems, wenn der Benutzer die Aktivierung der Protokolle im rfxcom-ROM fest codiert hat
+
 # 02.07.2022
 
 - Problem beim Installieren von Abhängigkeiten unter Jeedom 4.2 behoben
