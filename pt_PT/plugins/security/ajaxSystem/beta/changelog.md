@@ -4,7 +4,10 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto
 
+# 23/08/2022
+
 - Adicionado gerenciamento de grupo
+- Suporte aprimorado a vários transmissores
 
 # 09/06/2022
 
