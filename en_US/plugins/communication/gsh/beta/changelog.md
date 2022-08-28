@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Fixed a bug on the feedback from the Sensors (be careful still no display in Google Home or voice feedback, you have to wait for Google to finish the implementation)
+
 # 02/06/2022
 
 - Optimization of the api key rotation process

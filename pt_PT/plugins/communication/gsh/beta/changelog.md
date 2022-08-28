@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Corrigido um bug no feedback dos Sensores (cuidado ainda sem exibição no Google Home ou feedback de voz, você tem que esperar o Google terminar a implementação)
+
 # 02/06/2022
 
 - Otimização do processo de rotação de chaves de API

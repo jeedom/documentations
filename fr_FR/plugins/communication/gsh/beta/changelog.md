@@ -4,6 +4,8 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Correction d'un bug sur le retour d'information des Sensors (attention toujours pas d'affichage dans Google Home ou de retour vocal, il faut attendre que Google finisse l'implementation)
+
 # 02/06/2022
 
 - Optimisation du processus de rotation de la clef api
