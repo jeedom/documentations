@@ -6,6 +6,7 @@
 
 
 - Correção de um aviso durante os backups
+- Suporte a campainha (você precisa refazer a conexão entre Jeedom e Netatmo)
 
 # 16/11/2021
 

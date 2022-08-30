@@ -6,6 +6,7 @@
 
 
 - Corrección de una advertencia durante las copias de seguridad
+- Soporte de timbre (tienes que rehacer la conexión entre Jeedom y Netatmo)
 
 # 16/11/2021
 

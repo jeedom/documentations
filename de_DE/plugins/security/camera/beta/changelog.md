@@ -1,6 +1,6 @@
 # Changelog Kamera
 
->****
+>**Wichtig**
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
@@ -31,7 +31,7 @@
 - Ein Problem mit der Bildanzeige bei Designs wurde behoben
 
 
-# 
+# 24/11/2020
 
 - Neue Darstellung der Objektliste
 - Hinzufügung des Tags "V4-Kompatibilität"
@@ -40,7 +40,7 @@
 
 - Hinzufügung der Foscam FI9926P Kamera
 
-# 
+# 07/07/2020
 
 - Behebung eines Problems am Standardport der Stream-URL für Foscam-Kameras dank @nebz
 - Hinzufügen der Reolink RLC-410-5MP Kamera danke @Dorsad
@@ -129,7 +129,7 @@
 - Hinzufügung der Wanscam q3 Kamera (s))
 - Die Modusauswahl erfolgt automatisch basierend auf der Aufnahme-URL und dem Videostream (RTSP))
 - Fehlerbehebungen
-- Ersatz für hinzugefügt #username#  #password# in Bestellungen
+- Ersatz für hinzugefügt #username# und #password# in Bestellungen
 - Korrektur eines Abhängigkeitsproblems
 
 # 2018.01.06

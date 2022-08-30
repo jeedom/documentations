@@ -6,6 +6,7 @@
 
 
 - Korrektur einer Warnung während Backups
+- Türklingelunterstützung (Sie müssen die Verbindung zwischen Jeedom und Netatmo neu herstellen)
 
 # 16.11.2021
 

@@ -11,11 +11,11 @@ After installing the plugin, you just need to activate it. Some parameters must 
 -   **Record path** : indicates the path where Jeedom should store the images it captures from your cameras (it is not recommended to touch it). If your path is not in the Jeedom installation path then you will not be able to view the captures in Jeedom.
 -   **Maximum recording folder size (MB)** : indicates the maximum size authorized for the folder where the catches are saved (it is not recommended to touch it). If this quota is reached Jeedom will delete the oldest catches.
 -   **The camera plugin must react to interactions** : keywords / phrases to which the plugin will react via Jeedom interactions.
--   **** : allows you to display the panel (Home Menu → Camera) and to have a view of all your cameras (see below). Do not forget to activate the panel in the configuration of the plugin to access it later.
+-   **Panel** : allows you to display the panel (Home Menu → Camera) and to have a view of all your cameras (see below). Do not forget to activate the panel in the configuration of the plugin to access it later.
 
 ## Compatibilité
 
-You can find [](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=camera) the list of modules compatible with the plugin
+You can find [here](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=camera) the list of modules compatible with the plugin
 
 # Equipment configuration
 
@@ -25,33 +25,33 @@ Here you have the main information of your camera :
 
 -   **Camera equipment name** : name of your camera equipment.
 -   **Parent object** : indicates the parent object to which the equipment belongs.
--   **** : makes your equipment active.
--   **** : makes it visible on the dashboard.
--   **** : the local IP address of your camera.
--   **** : the port for which to attach the camera.
--   **** : the communication protocol of your camera (http or https).
+-   **Activate** : makes your equipment active.
+-   **Visible** : makes it visible on the dashboard.
+-   **IP** : the local IP address of your camera.
+-   **Port** : the port for which to attach the camera.
+-   **Protocol** : the communication protocol of your camera (http or https).
 -   **Username** : username to log in to the camera (if required). Please note the plugin does not support special characters (you must therefore limit yourself to numbers, lowercase / uppercase letters).
 -   **Password** : password to connect to the camera (if necessary).Be careful, the plugin makes a url_encode for the username and password required for some cameras but this can cause problems for others, if you have a problem try without special characters (be limited to numbers, lowercase / uppercase letters).
 -   **Snapshot URL** : Camera snapshot URL. Change depending on the cameras. Be careful not to put a flow url under penalty of crashing Jeedom. You can add the tags \#username\# and \#password\#, which will be automatically replaced by the username and password when using this command.
 -   **Feed URL** : type camera video stream url ``rtsp://#username#:#password#@#ip#:554/videoMain`` (example for Foscam cameras).
 -   **RTSP stream stream** : if you are in video stream mode (stream URL filled in) then you can see the camera as a video stream instead of frame by frame. Please note this option consumes a lot of resources and makes the 1st image very to arrive.
--   **** : allows you to see if jeedom recovers the video stream (remember to save before testing to see if your modifications work)
+-   **Preview** : allows you to see if jeedom recovers the video stream (remember to save before testing to see if your modifications work)
 -   **Video stream option** : if you are in video stream mode (stream URL filled in) then you can pass additional parameters here to ffmpeg and avconv (reserved for experts)
--   **Model** : allows to choose the camera model.  : if you change it will overwrite your configuration settings.
+-   **Model** : allows to choose the camera model. Be careful : if you change it will overwrite your configuration settings.
 
-> ****
+> **NOTE**
 >
-> You can find [](https://www.ispyconnect.com/cameras) configuration for a lot of camera and therefore be able to integrate your camera yourself in Jeedom if it is not in the list
+> You can find [here](https://www.ispyconnect.com/cameras) configuration for a lot of camera and therefore be able to integrate your camera yourself in Jeedom if it is not in the list
 
 ## Image
 
 This part allows you to configure the image quality. Indeed Jeedom decreases the size of the image or the compress before sending it to your browser. This improves the fluidity of the images (because they are lighter). It is also in this part that you can configure the number of frames per second to display. All settings are available in : mobile / desktop and miniature / normal.
 
 -   **Refreshment (s)** : delay in seconds between the display of 2 images (here you can put numbers less than 1).
--   **)** : the lower it is the less the image is compressed, at 100% no compression is done.
+-   **Compression (%)** : the lower it is the less the image is compressed, at 100% no compression is done.
 -   **Size (% - 0 : automatique)** : the higher the% the closer we are to the original size of the image. At 100% no resizing of the image takes place.
 
-> ****
+> **NOTE**
 >
 > If you put a compression of 0% and a size of 100%, Jeedom will not touch the image in normal mode. This is not valid in miniature mode where there is a maximum image size of 360px.
 
@@ -69,21 +69,21 @@ This part allows you to configure the image quality. Indeed Jeedom decreases the
 
 ## Commandes
 
--   **** command (use with info type commands for example to send camera movement information to Jeedom via the API, see below)
--   **** of the command with the possibility of putting an icon instead (to delete it you must double-click on the icon in question)
--   **** and command subtype
+-   **ID** command (use with info type commands for example to send camera movement information to Jeedom via the API, see below)
+-   **Name** of the command with the possibility of putting an icon instead (to delete it you must double-click on the icon in question)
+-   **Type** and command subtype
 -   **Request** to send to the camera to do an action (switch to night mode, ptz, etc.). You can use the tags \#username\# and \#password\#, which will be automatically replaced by the username and password when using this command
 -   **Stop command** : for PTZ cameras, there is often a command that stops the movement, this is where it must be specified
--   **** : allows to display the order or not on the dashboard
+-   **Show** : allows to display the order or not on the dashboard
 -   **Advanced configuration (small notched wheels)** : displays the advanced configuration of the command (logging method, widget, etc.)
--    : Used to test the command
+-   Test : Used to test the command
 -   **Delete (sign -)** : allows to delete the command
 
 # The widget
 
 We find on this one the image of the camera, the commands defined in the configuration, the command to take a capture, the command to start taking multiple image captures and the command to browse these captures.
 
-> ****
+> **TRICK**
 >
 > On the dashboard and the panel it is possible to resize the widget to adapt it to your needs.
 
@@ -103,7 +103,7 @@ In mobile the widget is a little different : if you click on the image of the ca
 
 The camera plugin also provides a panel that allows you to see all your cameras at once, it is accessible by Home → Camera.
 
-> ****
+> **NOTE**
 >
 > To have it you have to activate it on the plugin configuration page.
 
@@ -126,7 +126,7 @@ By default, just put the number of captures you want in the "number of captures 
 -   ``movie=1`` : after recording is finished, images are converted to video
 -   ``sendFirstSnap=1`` : send the first capture of the recording
 
-> ****
+> **Examples**
 >
 > nbSnap = 3 delay = 5 ==> send 3 captures made at 5 second intervals (send triggered via the scenario) movie = 1 sendFirstSnap = 1 record a video until the command "Stop Recording" to insert in the scenario. The movie will be stored on your Jeedom.
 
@@ -142,7 +142,7 @@ Obviously, before creating an info type command on your camera
 
 >**Where are the records ?**
 >
->The records are found by default in plugins / camera / data / records /**, be careful this may vary if you asked Jeedom to save them elsewhere.
+>The records are found by default in plugins / camera / data / records /*ID\_CAM*, be careful this may vary if you asked Jeedom to save them elsewhere.
 
 >**Addictions fail to settle ?**
 >

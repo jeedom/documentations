@@ -11,11 +11,11 @@ Después de instalar el complemento, solo necesita activarlo. Algunos parámetro
 -   **Ruta de registro** : indica la ruta donde Jeedom debería almacenar las imágenes que captura de sus cámaras (no se recomienda tocarlo). Si su ruta no está en la ruta de instalación de Jeedom, entonces no podrá ver las capturas en Jeedom.
 -   **Tamaño máximo de carpeta de grabación (MB)** : indica el tamaño máximo autorizado para la carpeta donde se guardan las capturas (no se recomienda tocarlo). Si se alcanza esta cuota, Jeedom eliminará las capturas más antiguas.
 -   **El complemento de la cámara debe reaccionar a las interacciones** : palabras clave / frases a las que reaccionará el complemento a través de las interacciones de Jeedom.
--   **** : le permite mostrar el panel (Menú de inicio → Cámara) y tener una vista de todas sus cámaras (ver más abajo). No olvide activar el panel en la configuración del complemento para acceder a él más tarde.
+-   **Panel** : le permite mostrar el panel (Menú de inicio → Cámara) y tener una vista de todas sus cámaras (ver más abajo). No olvide activar el panel en la configuración del complemento para acceder a él más tarde.
 
 ## Compatibilité
 
-Puedes encontrar [](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=camera) la lista de módulos compatibles con el complemento
+Puedes encontrar [aquí](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=camera) la lista de módulos compatibles con el complemento
 
 # Configuración del equipo
 
@@ -25,23 +25,23 @@ Aquí tienes la información principal de tu cámara :
 
 -   **Nombre del equipo de la cámara** : nombre de su equipo de cámara.
 -   **Objeto padre** : indica el objeto padre al que pertenece el equipo.
--   **** : activa su equipo.
--   **** : lo hace visible en el tablero.
--   **** : la dirección IP local de su cámara.
--   **** : el puerto para el que se conecta la cámara.
--   **** : El protocolo de comunicación de su cámara (http o https).
+-   **Activar** : activa su equipo.
+-   **Visible** : lo hace visible en el tablero.
+-   **IP** : la dirección IP local de su cámara.
+-   **Puerto** : el puerto para el que se conecta la cámara.
+-   **Protocolo** : El protocolo de comunicación de su cámara (http o https).
 -   **Nombre de usuario** : nombre de usuario para iniciar sesión en la cámara (si es necesario). Tenga en cuenta que el complemento no admite caracteres especiales (por lo tanto, debe limitarse a números, letras minúsculas / mayúsculas)).
 -   **Contraseña** : contraseña para conectarse a la cámara (si es necesario).Tenga en cuenta que el complemento crea un url_encode para el nombre de usuario y la contraseña requeridos para algunas cámaras, pero esto puede causar problemas a otras, si tiene un problema, intente sin caracteres especiales (limítese a números, letras minúsculas / mayúsculas).
 -   **URL de instantánea** : URL de instantánea de cámara. Cambiar según las cámaras. Tenga cuidado de no poner una url de flujo bajo pena de estrellar Jeedom. Puedes agregar las etiquetas \#username\# y \#password\#, que será reemplazado automáticamente por el nombre de usuario y la contraseña al usar este comando.
 -   **URL del feed** : escriba la URL de la secuencia de vídeo de la cámara ``rtsp://#username#:#password#@#ip#:554/videoMain`` (ejemplo para cámaras Foscam).
 -   **Flujo de flujo RTSP** : Si está en modo de transmisión de video (URL de transmisión completa), puede ver la cámara como una transmisión de video en lugar de cuadro por cuadro. Tenga en cuenta que esta opción consume muchos recursos y hace que la primera imagen esté muy por llegar.
--   **** : le permite ver si jeedom recupera la transmisión de video (recuerde guardar antes de probar para ver si sus modificaciones funcionan)
+-   **Avance** : le permite ver si jeedom recupera la transmisión de video (recuerde guardar antes de probar para ver si sus modificaciones funcionan)
 -   **Opción de transmisión de video** : Si está en modo de transmisión de video (URL de transmisión completa), puede pasar parámetros adicionales aquí a ffmpeg y avconv (reservado para expertos)
--   **Modelo** : permite elegir el modelo de cámara.  : si lo cambia, sobrescribirá sus ajustes de configuración.
+-   **Modelo** : permite elegir el modelo de cámara. Atención : si lo cambia, sobrescribirá sus ajustes de configuración.
 
-> ****
+> **Nota**
 >
-> Puedes encontrar [](https://www.ispyconnect.com/cameras) configuración para una gran cantidad de cámara y, por lo tanto, poder integrar su cámara usted mismo en Jeedom si no está en la lista
+> Puedes encontrar [aquí](https://www.ispyconnect.com/cameras) configuración para una gran cantidad de cámara y, por lo tanto, poder integrar su cámara usted mismo en Jeedom si no está en la lista
 
 ## Image
 
@@ -51,7 +51,7 @@ Esta parte le permite configurar la calidad de la imagen. De hecho, Jeedom dismi
 -   **Compresión (%)** : cuanto más bajo es, menos se comprime la imagen, al 100% no se realiza compresión.
 -   **Tamaño (% - 0 : automatique)** : cuanto mayor sea el%, más cerca estamos del tamaño original de la imagen. Al 100%, no se cambia el tamaño de la imagen.
 
-> ****
+> **Nota**
 >
 > Si pones una compresión del 0% y un tamaño del 100%, Jeedom no tocará la imagen en modo normal. Esto no es válido en modo miniatura donde hay un tamaño máximo de imagen de 360px.
 
@@ -69,21 +69,21 @@ Esta parte le permite configurar la calidad de la imagen. De hecho, Jeedom dismi
 
 ## Commandes
 
--   **** comando (úselo con comandos de tipo de información, por ejemplo, para enviar información de movimiento de la cámara a Jeedom a través de la API, consulte a continuación)
--   **** del comando con la posibilidad de poner un icono en su lugar (para eliminarlo debe hacer doble clic en el icono en cuestión)
--   **** y subtipo de comando
+-   **Identificación** comando (úselo con comandos de tipo de información, por ejemplo, para enviar información de movimiento de la cámara a Jeedom a través de la API, consulte a continuación)
+-   **Nombre** del comando con la posibilidad de poner un icono en su lugar (para eliminarlo debe hacer doble clic en el icono en cuestión)
+-   **Tipo** y subtipo de comando
 -   **Petición** para enviar a la cámara para realizar una acción (cambiar a modo noche, ptz, etc.). Puedes usar las etiquetas \#username\# y \#password\#, que será reemplazado automáticamente por el nombre de usuario y la contraseña al usar este comando
 -   **Comando de parada** : para cámaras PTZ, a menudo hay un comando que detiene el movimiento, aquí es donde debe especificarse
--   **** : permite mostrar el pedido o no en el tablero
+-   **Mostrar** : permite mostrar el pedido o no en el tablero
 -   **Configuración avanzada (ruedas pequeñas con muescas)** : muestra la configuración avanzada del comando (método de registro, widget, etc.)
--    : Se usa para probar el comando
+-   Probar : Se usa para probar el comando
 -   **Eliminar (firmar -)** : permite eliminar el comando
 
 # El widget
 
 Encontramos en esta la imagen de la cámara, los comandos definidos en la configuración, el comando para tomar una captura, el comando para comenzar a tomar múltiples capturas de imagen y el comando para explorar estas capturas.
 
-> ****
+> **CONSEJO**
 >
 > En el tablero y el panel, es posible cambiar el tamaño del widget para adaptarlo a sus necesidades.
 
@@ -103,7 +103,7 @@ En dispositivos móviles, el widget es un poco diferente : si haces clic en la i
 
 El complemento de la cámara también proporciona un panel que le permite ver todas sus cámaras a la vez, es accesible desde Inicio → Cámara.
 
-> ****
+> **Nota**
 >
 > Para tenerlo, debes activarlo en la página de configuración del complemento.
 
@@ -126,7 +126,7 @@ De forma predeterminada, simplemente coloque la cantidad de capturas que desea e
 -   ``movie=1`` : Una vez finalizada la grabación, las imágenes se convierten en video
 -   ``sendFirstSnap=1`` : enviar la primera captura de la grabación
 
-> ****
+> **Ejemplos**
 >
 > nbSnap = 3 delay = 5 ==> enviar 3 capturas realizadas a intervalos de 5 segundos (envío activado a través del escenario) movie = 1 sendFirstSnap = 1 grabar un video hasta que el comando "Stop Recording" se inserte en el escenario. La película se almacenará en tu Jeedom.
 
@@ -142,7 +142,7 @@ Obviamente, antes de crear un comando de tipo de información en su cámara
 
 >**Donde estan los registros ?**
 >
->Los registros se encuentran por defecto en plugins / camera / data / records /**, tenga cuidado, esto puede variar si le pide a Jeedom que los guarde en otro lugar.
+>Los registros se encuentran por defecto en plugins / camera / data / records /*ID\_CAM*, tenga cuidado, esto puede variar si le pide a Jeedom que los guarde en otro lugar.
 
 >**Las adicciones no se resuelven ?**
 >

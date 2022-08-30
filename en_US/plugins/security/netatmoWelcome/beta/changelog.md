@@ -6,6 +6,7 @@
 
 
 - Correction of a warning during backups
+- Doorbell support (you have to redo the connection between Jeedom and Netatmo)
 
 # 11/16/2021
 
