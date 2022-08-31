@@ -1,0 +1,20 @@
+{
+	"id" : "jeezviz",
+	"name" : "jeezviz",
+	"description" : "Plugin de pilotage des caméras et visiophones EZVIZ",
+	"licence" : "MIT",
+	"author" : "OOZAER",
+	"require" : "4.0", 
+	"category" : "automatisation",
+	"hasDependency" : false, 
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://famille-ozaer.github.io/jeezviz/#language#/changelog.html",
+	"documentation" : "https://famille-ozaer.github.io/jeezviz/#language#/index.md" ,
+	"link" : { 
+		"forum":"Lien vers le forum",
+		"video" : "Lien vers une video"
+	},
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+}
