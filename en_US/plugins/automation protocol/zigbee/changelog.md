@@ -8,6 +8,15 @@
 >
 >To know the new compatible module you have to go [the](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (it is sorted by date added / modified)
 
+
+- Bug fix
+- Ability to fix the bootloader error (base.TimeoutError) from the firmware update screen (in beta at the moment)
+- Fixed a bug on the button to force OTA mod updates
+
+# 08/12/2022
+
+- Fixed bugs on the execution of certain commands if the equipment is in "Ignore execution confirmation"
+
 # 08/12/2022
 
 - Bugfix

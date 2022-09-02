@@ -330,7 +330,8 @@ If for a given daemon (1, 2 or 3) you change the Zigbee key without restoring a 
 
 >**I have a standard error "base.timeout" when starting the daemon on an EZSP type key**
 >
->It is possible that the key is blocked in bootloader mode, to get out of it you can do the following lines (one by one) in the Jeedom system console : 
+>It is possible that the key is blocked in bootloader mode, to get out of it you can do the following lines (one by one) in the Jeedom system console (be careful if you are not under Jeedom Atlas you must replace /dev/ttyS2 by the port of the zigbee key, ex /dev/ttyUSBX with X a number corresponding to your configuration):
+> Important : this manipulation should only be done with Elelabs, Jeedom Atlas or Jeedom Smart type keys. On any other key you must contact the manufacturer to give you the procedure.
 ````````
 wgand https://github.com/Elelabs/elelabs-zigbee-ezsp-utility/archive/master.zip -O /tmp/elelabs.zip
 cd /tmp;unzip -o elelabs.zip

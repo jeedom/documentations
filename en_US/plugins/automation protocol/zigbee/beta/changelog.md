@@ -8,10 +8,12 @@
 >
 >To know the new compatible module you have to go [the](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (it is sorted by date added / modified)
 
+# 02/09/2022
 
 - Bug fix
 - Ability to fix the bootloader error (base.TimeoutError) from the firmware update screen (in beta at the moment)
 - Fixed a bug on the button to force OTA mod updates
+- Fixed a bug on the YARL lib by forcing version 1.4.2
 
 # 08/12/2022
 

@@ -8,6 +8,15 @@
 >
 >Um das neue kompatible Modul zu kennen, müssen Sie gehen [das](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (Es ist nach dem Datum sortiert, an dem es hinzugefügt / geändert wurde)
 
+
+- Fehlerbehebung
+- Möglichkeit, den Bootloader-Fehler zu beheben (base.TimeoutError) aus dem Firmware-Update-Bildschirm (derzeit in Beta)
+- Es wurde ein Fehler auf der Schaltfläche behoben, um OTA-Mod-Updates zu erzwingen
+
+# 12.08.2022
+
+- Fehler bei der Ausführung bestimmter Befehle behoben, wenn sich das Gerät im Zustand „Ausführungsbestätigung ignorieren“ befindet"
+
 # 12.08.2022
 
 - Fehlerbehebung
