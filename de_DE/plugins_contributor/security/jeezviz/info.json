@@ -5,7 +5,7 @@
 	"licence" : "MIT",
 	"author" : "OOZAER",
 	"require" : "4.0", 
-	"category" : "automatisation",
+	"category" : "security",
 	"hasDependency" : false, 
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
