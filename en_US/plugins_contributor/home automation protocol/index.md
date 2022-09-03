@@ -9,4 +9,5 @@
 
 | | | | |
 |--- | --- | --- | ---|
+|<img src="MerosSync/MerosSync_icon.png" class="pluginLogo" width="100" />|MerosSync|Plugin to control MEROSS devices|[Documentation Stable]()<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4329)<br/>[Changelog Stable]()|
 |<img src="Yokis/Yokis_icon.png" class="pluginLogo" width="100" />|Yokis passerelle|Plugin pour commander les modules Yokis en local|[Documentation Stable](https://nwailly.github.io/Yokis_DOCS/docs/en_US/Index) - [Beta Documentation](https://nwailly.github.io/Yokis_DOCS/docs/en_US/Indexbeta)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4248)<br/>[Changelog Stable](https://nwailly.github.io/Yokis_DOCS/docs/en_US/changelog) - [Changelog Beta](https://nwailly.github.io/Yokis_DOCS/docs/en_US/changelogbeta)|

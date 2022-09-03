@@ -173,6 +173,8 @@
     "plugins_contributor\/home automation protocol\/index.md": {
         "Yokis passerelle": "Yokis passerelle",
         "Plugin pour commander les modules Yokis en local": "Plugin pour commander les modules Yokis en local",
+        "MerosSync": "MerosSync",
+        "Plugin pour contrôler les appareils MEROSS": "Plugin pour contrôler les appareils MEROSS",
         "Passerelle domotique": "Passerelle domotique",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -182,9 +184,9 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation Stable": "Documentation Stable",
-        "Documentation Beta": "Documentation Beta",
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
+        "Documentation Beta": "Documentation Beta",
         "Changelog Beta": "Changelog Beta"
     },
     "plugins_contributor\/monitoring\/index.md": {

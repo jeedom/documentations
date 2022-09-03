@@ -1,0 +1,17 @@
+{
+  "id" : "MerosSync",
+  "name": "MerosSync",
+  "version": "0.1",
+  "description": "Plugin pour contrôler les appareils MEROSS",
+  "licence": "GPL",
+  "author": "jercle",
+  "require": "3.0",
+  "category": "home automation protocol",
+  "hasDependency": true,
+  "hasOwnDeamon": true,
+  "maxDependancyInstallTime": 30,
+  "documentation": "",
+  "changelog": "",
+  "language" : ["fr_FR", "en_US"],
+  "compatibility" : ["miniplus","smart","rpi","docker","diy"]
+}
