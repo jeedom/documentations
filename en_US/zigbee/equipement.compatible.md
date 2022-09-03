@@ -85,6 +85,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/Gewiss.GWA1513_WindowSensor.png" width="60" />|Gewiss|Opening detector and temperature sensor||||
+|<img src="../../en_US/zigbee/images/Gewiss.GWA1522_Actuator_2_CH.png" width="60" />|Gewiss|2-channel actuator||||
 |<img src="../../en_US/zigbee/images/gewiss.motion.png" width="60" />|Gewiss|Motion detector and temperature and light sensor||||
 |<img src="../../en_US/zigbee/images/gewiss.smoke.png" width="60" />|Gewiss|Smoke detector||||
 
@@ -283,6 +285,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/ADEO.LDSENK01F.png" width="60" />|Adeo|LEXMAN ENKI - Connected socket 16A Dimmer||||
 |<img src="../../en_US/zigbee/images/ADEO.LDSENK02F.png" width="60" />|Adeo|LEXMAN ENKI - 16A connected socket|||[Buy](https://www.leroymerlin.fr/produits/electricite-domotique/domotique-et-objets-connectes/domotique/solutions-de-commande/prise-connectee-16a-3680w-repeteur-lexman-82428895.html)|
 |<img src="../../en_US/zigbee/images/adeo.LDSENK10.png" width="60" />|Adeo|Movement detector|Mouvement|||
 |<img src="../../en_US/zigbee/images/adeo.LXEK-1.png" width="60" />|Adeo|LEXMAN ENKI - Smart bulb||||
@@ -397,6 +400,7 @@
 |<img src="../../en_US/zigbee/images/gledopto.GL-C-008P.png" width="60" />|Gledopto|GL-C-008P||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-C-008S.png" width="60" />|Gledopto|GL-C-008S||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-FL-006P.png" width="60" />|Gledopto|GL-FL-006P||||
+|<img src="../../en_US/zigbee/images/gledopto.GL-G-001P.png" width="60" />|Gledopto|GL-G-001P||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-G-001ZS.png" width="60" />|Gledopto|GL-G-001ZS||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-MC-001.png" width="60" />|Gledopto|Gledopto RGBCCT tape||||
 |<img src="../../en_US/zigbee/images/gledopto.GL-MC-001P.png" width="60" />|Gledopto|Gledopto RGBCCT tape||||
@@ -808,6 +812,7 @@
 |<img src="../../en_US/zigbee/images/TYZB01_ncdapbwy.TS0203.png" width="60" />|Tuya|Door switch|Ouverture|||
 |<img src="../../en_US/zigbee/images/TYZB01_phjeraqq.TS0001.png" width="60" />|Tuya|Tuya Zigbee - Switch 16A||||
 |<img src="../../en_US/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Single charge smart switch||||
+|<img src="../../en_US/zigbee/images/TYZB01_sz0witj.TS0219.png" width="60" />|Tuya|Smart siren with LED|Mermaid|||
 |<img src="../../en_US/zigbee/images/TYZB01_v8gtiaed.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3 light microModule.0 double dimmer||||
 |<img src="../../en_US/zigbee/images/TYZB01_vkwryfdr.TS0115.png" width="60" />|Tuya|USEELINK - Connected strip 4 sockets and 2 USB ports|||[Buy](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html)|
 |<img src="../../en_US/zigbee/images/TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Double switch||||
@@ -888,6 +893,7 @@
 |<img src="../../en_US/zigbee/images/TZ3210_remypqqm.TS0505B.png" width="60" />|Tuya|Led bulb 3.0, RGB+WW+CW E27||||
 |<img src="../../en_US/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|3 button connected switch||||
 |<img src="../../en_US/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Connected switch 2 buttons||||
+|<img src="../../en_US/zigbee/images/TZE200_2wg5qrjy.TS0601.png" width="60" />|Tuya|Watering valve||For the moment, it is impossible to control the timer correctly, when it is set to On the valve remains open for 10min then shuts off|[Buy](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/TZE200_7bztmfm1.TS0601.png" width="60" />|Tuya|Tuya air quality CO||||
 |<img src="../../en_US/zigbee/images/TZE200_81isopgh.TS0601.png" width="60" />|Tuya|Watering valve||For the moment, it is impossible to control the timer correctly, when it is set to On the valve remains open for 10min then shuts off|[Buy](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/TZE200_akjefhj5.TS0601.png" width="60" />|Tuya|Watering valve||For the moment, it is impossible to control the timer correctly, when it is set to On the valve remains open for 10min then shuts off|[Buy](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
@@ -990,4 +996,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2022-09-02 02:32:08
+2022-09-03 02:32:08

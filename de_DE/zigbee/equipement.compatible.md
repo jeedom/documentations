@@ -85,6 +85,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/Gewiss.GWA1513_WindowSensor.png" width="60" />|Gewiss|Öffnungsmelder und Temperatursensor||||
+|<img src="../../de_DE/zigbee/images/Gewiss.GWA1522_Actuator_2_CH.png" width="60" />|Gewiss|2-Kanal-Aktor||||
 |<img src="../../de_DE/zigbee/images/gewiss.motion.png" width="60" />|Gewiss|Bewegungsmelder und Temperatur- und Lichtsensor||||
 |<img src="../../de_DE/zigbee/images/gewiss.smoke.png" width="60" />|Gewiss|Rauchmelder||||
 
@@ -283,6 +285,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../de_DE/zigbee/images/ADEO.LDSENK01F.png" width="60" />|Adeo|LEXMAN ENKI - Angeschlossene Steckdose 16A Dimmer||||
 |<img src="../../de_DE/zigbee/images/ADEO.LDSENK02F.png" width="60" />|Adeo|LEXMAN ENKI - 16A angeschlossene Steckdose|||[Kaufen](https://www.leroymerlin.fr/produits/electricite-domotique/domotique-et-objets-connectes/domotique/solutions-de-commande/prise-connectee-16a-3680w-repeteur-lexman-82428895.html)|
 |<img src="../../de_DE/zigbee/images/adeo.LDSENK10.png" width="60" />|Adeo|Bewegungsmelder|Mouvement|||
 |<img src="../../de_DE/zigbee/images/adeo.LXEK-1.png" width="60" />|Adeo|LEXMAN ENKI - Glühbirne||||
@@ -397,6 +400,7 @@
 |<img src="../../de_DE/zigbee/images/gledopto.GL-C-008P.png" width="60" />|Gledopto|GL-C-008P||||
 |<img src="../../de_DE/zigbee/images/gledopto.GL-C-008S.png" width="60" />|Gledopto|GL-C-008S||||
 |<img src="../../de_DE/zigbee/images/gledopto.GL-FL-006P.png" width="60" />|Gledopto|GL-FL-006P||||
+|<img src="../../de_DE/zigbee/images/gledopto.GL-G-001P.png" width="60" />|Gledopto|GL-G-001P||||
 |<img src="../../de_DE/zigbee/images/gledopto.GL-G-001ZS.png" width="60" />|Gledopto|GL-G-001ZS||||
 |<img src="../../de_DE/zigbee/images/gledopto.GL-MC-001.png" width="60" />|Gledopto|Gledopto RGBCCT-Band||||
 |<img src="../../de_DE/zigbee/images/gledopto.GL-MC-001P.png" width="60" />|Gledopto|Gledopto RGBCCT-Band||||
@@ -808,6 +812,7 @@
 |<img src="../../de_DE/zigbee/images/TYZB01_ncdapbwy.TS0203.png" width="60" />|Tuya|Türschalter|Ouverture|||
 |<img src="../../de_DE/zigbee/images/TYZB01_phjeraqq.TS0001.png" width="60" />|Tuya|Tuya Zigbee - Schalter 16A||||
 |<img src="../../de_DE/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Smart Charge mit einer Ladung||||
+|<img src="../../de_DE/zigbee/images/TYZB01_sz0witj.TS0219.png" width="60" />|Tuya|Intelligente Sirene mit LED|Meerjungfrau|||
 |<img src="../../de_DE/zigbee/images/TYZB01_v8gtiaed.TS011F.png" width="60" />|Tuya|Tuya ZigBee 3 leichtes Mikromodul.0 doppelter Dimmer||||
 |<img src="../../de_DE/zigbee/images/TYZB01_vkwryfdr.TS0115.png" width="60" />|Tuya|USEELINK - Verbundener Streifen 4 Buchsen und 2 USB-Anschlüsse|||[Kaufen](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html)|
 |<img src="../../de_DE/zigbee/images/TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Doppelschalter||||
@@ -888,6 +893,7 @@
 |<img src="../../de_DE/zigbee/images/TZ3210_remypqqm.TS0505B.png" width="60" />|Tuya|LED-Birne 3.0, RGB+WW+CW E27||||
 |<img src="../../de_DE/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Schalter mit 3 Tasten||||
 |<img src="../../de_DE/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Verbundene Schalter 2 Tasten||||
+|<img src="../../de_DE/zigbee/images/TZE200_2wg5qrjy.TS0601.png" width="60" />|Tuya|Bewässerungsventil||Im Moment ist es nicht möglich, den Timer richtig zu steuern, wenn er auf On gestellt ist, bleibt das Ventil 10 Minuten lang geöffnet und schaltet sich dann ab|[Kaufen](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/TZE200_7bztmfm1.TS0601.png" width="60" />|Tuya|Tuya Luftqualität CO||||
 |<img src="../../de_DE/zigbee/images/TZE200_81isopgh.TS0601.png" width="60" />|Tuya|Bewässerungsventil||Im Moment ist es nicht möglich, den Timer richtig zu steuern, wenn er auf On gestellt ist, bleibt das Ventil 10 Minuten lang geöffnet und schaltet sich dann ab|[Kaufen](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
 |<img src="../../de_DE/zigbee/images/TZE200_akjefhj5.TS0601.png" width="60" />|Tuya|Bewässerungsventil||Im Moment ist es nicht möglich, den Timer richtig zu steuern, wenn er auf On gestellt ist, bleibt das Ventil 10 Minuten lang geöffnet und schaltet sich dann ab|[Kaufen](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
@@ -990,4 +996,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-02.09.2022 02:32:08
+2022-09-03 02:32:08

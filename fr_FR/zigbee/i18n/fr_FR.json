@@ -485,6 +485,7 @@
         "GL-S-004Z": "GL-S-004Z",
         "Ruban Gledopto RGBCCT": "Ruban Gledopto RGBCCT",
         "GL-G-001ZS": "GL-G-001ZS",
+        "GL-G-001P": "GL-G-001P",
         "GL-FL-006P": "GL-FL-006P",
         "GL-C-008S": "GL-C-008S",
         "GL-C-008P": "GL-C-008P",
@@ -544,6 +545,7 @@
         "LEXMAN ENKI - Ampoule intelligente": "LEXMAN ENKI - Ampoule intelligente",
         "LEXMAN ENKI - Télécommande pour ampoules connectées RGB": "LEXMAN ENKI - Télécommande pour ampoules connectées RGB",
         "Mouvement": "Mouvement",
+        "LEXMAN ENKI - Prise connectée 16A Dimmer": "LEXMAN ENKI - Prise connectée 16A Dimmer",
         "Acova": "Acova",
         "ACOVA Percale2": "ACOVA Percale2",
         "Chauffage": "Chauffage",
@@ -636,6 +638,8 @@
         "Equipement générique GreenPower": "Equipement générique GreenPower",
         "Gewiss": "Gewiss",
         "Détecteur de mouvement et capteur de température et luminosité": "Détecteur de mouvement et capteur de température et luminosité",
+        "Actionneur 2 cannaux": "Actionneur 2 cannaux",
+        "Détecteur de d'ouverture et capteur de température": "Détecteur de d'ouverture et capteur de température",
         "0 POUR VANNE 1\/4 DE TOUR": "0 POUR VANNE 1\/4 DE TOUR",
         "GR-SMARTHOME": "GR-SMARTHOME",
         "GR-SMARTHOME - MOTORISATION ZIGBEE 3": "GR-SMARTHOME - MOTORISATION ZIGBEE 3",
@@ -694,6 +698,6 @@
         "LiXee": "LiXee",
         "Sinope Technologies": "Sinope Technologies",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2022-09-02 02": "2022-09-02 02"
+        "2022-09-03 02": "2022-09-03 02"
     }
 }

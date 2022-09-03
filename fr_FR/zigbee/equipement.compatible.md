@@ -85,6 +85,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/Gewiss.GWA1513_WindowSensor.png" width="60" />|Gewiss|Détecteur de d'ouverture et capteur de température||||
+|<img src="../../fr_FR/zigbee/images/Gewiss.GWA1522_Actuator_2_CH.png" width="60" />|Gewiss|Actionneur 2 cannaux||||
 |<img src="../../fr_FR/zigbee/images/gewiss.motion.png" width="60" />|Gewiss|Détecteur de mouvement et capteur de température et luminosité||||
 |<img src="../../fr_FR/zigbee/images/gewiss.smoke.png" width="60" />|Gewiss|Détecteur de fumée||||
 
@@ -283,6 +285,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../fr_FR/zigbee/images/ADEO.LDSENK01F.png" width="60" />|Adeo|LEXMAN ENKI - Prise connectée 16A Dimmer||||
 |<img src="../../fr_FR/zigbee/images/ADEO.LDSENK02F.png" width="60" />|Adeo|LEXMAN ENKI - Prise connectée 16A|||[Acheter](https://www.leroymerlin.fr/produits/electricite-domotique/domotique-et-objets-connectes/domotique/solutions-de-commande/prise-connectee-16a-3680w-repeteur-lexman-82428895.html)|
 |<img src="../../fr_FR/zigbee/images/adeo.LDSENK10.png" width="60" />|Adeo|Detecteur de mouvement|Mouvement|||
 |<img src="../../fr_FR/zigbee/images/adeo.LXEK-1.png" width="60" />|Adeo|LEXMAN ENKI - Ampoule intelligente||||
@@ -397,6 +400,7 @@
 |<img src="../../fr_FR/zigbee/images/gledopto.GL-C-008P.png" width="60" />|Gledopto|GL-C-008P||||
 |<img src="../../fr_FR/zigbee/images/gledopto.GL-C-008S.png" width="60" />|Gledopto|GL-C-008S||||
 |<img src="../../fr_FR/zigbee/images/gledopto.GL-FL-006P.png" width="60" />|Gledopto|GL-FL-006P||||
+|<img src="../../fr_FR/zigbee/images/gledopto.GL-G-001P.png" width="60" />|Gledopto|GL-G-001P||||
 |<img src="../../fr_FR/zigbee/images/gledopto.GL-G-001ZS.png" width="60" />|Gledopto|GL-G-001ZS||||
 |<img src="../../fr_FR/zigbee/images/gledopto.GL-MC-001.png" width="60" />|Gledopto|Ruban Gledopto RGBCCT||||
 |<img src="../../fr_FR/zigbee/images/gledopto.GL-MC-001P.png" width="60" />|Gledopto|Ruban Gledopto RGBCCT||||
@@ -808,6 +812,7 @@
 |<img src="../../fr_FR/zigbee/images/TYZB01_ncdapbwy.TS0203.png" width="60" />|Tuya|Contacteur de porte|Ouverture|||
 |<img src="../../fr_FR/zigbee/images/TYZB01_phjeraqq.TS0001.png" width="60" />|Tuya|Tuya Zigbee - Interrupteur 16A||||
 |<img src="../../fr_FR/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Interrupteur intelligent simple charge||||
+|<img src="../../fr_FR/zigbee/images/TYZB01_sz0witj.TS0219.png" width="60" />|Tuya|Sirène intelligente avec LED|Sirène|||
 |<img src="../../fr_FR/zigbee/images/TYZB01_v8gtiaed.TS011F.png" width="60" />|Tuya|MicroModule lumiere Tuya ZigBee 3.0 double dimmer||||
 |<img src="../../fr_FR/zigbee/images/TYZB01_vkwryfdr.TS0115.png" width="60" />|Tuya|USEELINK - Multiprise connectée 4 prises et 2 ports USB|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html)|
 |<img src="../../fr_FR/zigbee/images/TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Interrupteur double||||
@@ -888,6 +893,7 @@
 |<img src="../../fr_FR/zigbee/images/TZ3210_remypqqm.TS0505B.png" width="60" />|Tuya|Ampoule Led 3.0, rvb + WW + CW E27||||
 |<img src="../../fr_FR/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Interrupteur connecté 3 boutons||||
 |<img src="../../fr_FR/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Interrupteur connecté 2 boutons||||
+|<img src="../../fr_FR/zigbee/images/TZE200_2wg5qrjy.TS0601.png" width="60" />|Tuya|Vanne arrosage||Il est pour le moment impossible de controller le timer correctement, lors d'une mise à On la vanne reste ouverte 10min puis se coupe|[Acheter](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
 |<img src="../../fr_FR/zigbee/images/TZE200_7bztmfm1.TS0601.png" width="60" />|Tuya|Tuya air quality CO||||
 |<img src="../../fr_FR/zigbee/images/TZE200_81isopgh.TS0601.png" width="60" />|Tuya|Vanne arrosage||Il est pour le moment impossible de controller le timer correctement, lors d'une mise à On la vanne reste ouverte 10min puis se coupe|[Acheter](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
 |<img src="../../fr_FR/zigbee/images/TZE200_akjefhj5.TS0601.png" width="60" />|Tuya|Vanne arrosage||Il est pour le moment impossible de controller le timer correctement, lors d'une mise à On la vanne reste ouverte 10min puis se coupe|[Acheter](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
@@ -990,4 +996,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2022-09-02 02:32:08
+2022-09-03 02:32:08

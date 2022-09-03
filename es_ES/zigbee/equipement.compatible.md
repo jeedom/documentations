@@ -85,6 +85,8 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/Gewiss.GWA1513_WindowSensor.png" width="60" />|Gewiss|Detector de apertura y sensor de temperatura||||
+|<img src="../../es_ES/zigbee/images/Gewiss.GWA1522_Actuator_2_CH.png" width="60" />|Gewiss|Actuador de 2 canales||||
 |<img src="../../es_ES/zigbee/images/gewiss.motion.png" width="60" />|Gewiss|Detector de movimiento y sensor de temperatura y luz||||
 |<img src="../../es_ES/zigbee/images/gewiss.smoke.png" width="60" />|Gewiss|Detector de humo||||
 
@@ -283,6 +285,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/ADEO.LDSENK01F.png" width="60" />|Adeo|LEXMAN ENKI - Toma de corriente 16A Dimmer||||
 |<img src="../../es_ES/zigbee/images/ADEO.LDSENK02F.png" width="60" />|Adeo|LEXMAN ENKI - Toma conectada 16A|||[Comprar](https://www.leroymerlin.fr/produits/electricite-domotique/domotique-et-objets-connectes/domotique/solutions-de-commande/prise-connectee-16a-3680w-repeteur-lexman-82428895.html)|
 |<img src="../../es_ES/zigbee/images/adeo.LDSENK10.png" width="60" />|Adeo|Detector de movimiento|Mouvement|||
 |<img src="../../es_ES/zigbee/images/adeo.LXEK-1.png" width="60" />|Adeo|LEXMAN ENKI - Bombilla inteligente||||
@@ -397,6 +400,7 @@
 |<img src="../../es_ES/zigbee/images/gledopto.GL-C-008P.png" width="60" />|Gledopto|GL-C-008P||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-C-008S.png" width="60" />|Gledopto|GL-C-008S||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-FL-006P.png" width="60" />|Gledopto|GL-FL-006P||||
+|<img src="../../es_ES/zigbee/images/gledopto.GL-G-001P.png" width="60" />|Gledopto|GL-G-001P||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-G-001ZS.png" width="60" />|Gledopto|GL-G-001ZS||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-MC-001.png" width="60" />|Gledopto|Cinta Gledopto RGBCCT||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-MC-001P.png" width="60" />|Gledopto|Cinta Gledopto RGBCCT||||
@@ -808,6 +812,7 @@
 |<img src="../../es_ES/zigbee/images/TYZB01_ncdapbwy.TS0203.png" width="60" />|Tuya|Interruptor de la puerta|Ouverture|||
 |<img src="../../es_ES/zigbee/images/TYZB01_phjeraqq.TS0001.png" width="60" />|Tuya|Tuya Zigbee - Interruptor 16A||||
 |<img src="../../es_ES/zigbee/images/TYZB01_qeqvmvti.TS0011.png" width="60" />|Tuya|Interruptor inteligente de carga única||||
+|<img src="../../es_ES/zigbee/images/TYZB01_sz0witj.TS0219.png" width="60" />|Tuya|Sirena inteligente con LED|Sirena|||
 |<img src="../../es_ES/zigbee/images/TYZB01_v8gtiaed.TS011F.png" width="60" />|Tuya|MicroMódulo de luz Tuya ZigBee 3.0 doble atenuador||||
 |<img src="../../es_ES/zigbee/images/TYZB01_vkwryfdr.TS0115.png" width="60" />|Tuya|USEELINK - Regleta conectada 4 enchufes y 2 puertos USB|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5489-useelink-multiprise-connectee-16a-zigbee-ha-4-prises-2-ports-usb.html)|
 |<img src="../../es_ES/zigbee/images/TYZB01_vzrytttn.TS0012.png" width="60" />|Tuya|Interruptor doble||||
@@ -888,6 +893,7 @@
 |<img src="../../es_ES/zigbee/images/TZ3210_remypqqm.TS0505B.png" width="60" />|Tuya|Bombilla led 3.0, RGB+WW+CW E27||||
 |<img src="../../es_ES/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Interruptor conectado de 3 botones||||
 |<img src="../../es_ES/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Interruptor conectado 2 botones||||
+|<img src="../../es_ES/zigbee/images/TZE200_2wg5qrjy.TS0601.png" width="60" />|Tuya|Válvula de riego||Por el momento, es imposible controlar el temporizador correctamente, cuando está configurado en Encendido, la válvula permanece abierta durante 10 minutos y luego se apaga|[Comprar](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
 |<img src="../../es_ES/zigbee/images/TZE200_7bztmfm1.TS0601.png" width="60" />|Tuya|Calidad del aire Tuya CO||||
 |<img src="../../es_ES/zigbee/images/TZE200_81isopgh.TS0601.png" width="60" />|Tuya|Válvula de riego||Por el momento, es imposible controlar el temporizador correctamente, cuando está configurado en Encendido, la válvula permanece abierta durante 10 minutos y luego se apaga|[Comprar](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
 |<img src="../../es_ES/zigbee/images/TZE200_akjefhj5.TS0601.png" width="60" />|Tuya|Válvula de riego||Por el momento, es imposible controlar el temporizador correctamente, cuando está configurado en Encendido, la válvula permanece abierta durante 10 minutos y luego se apaga|[Comprar](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
@@ -990,4 +996,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2022-09-02 02:32:08
+2022-09-03 02:32:08
