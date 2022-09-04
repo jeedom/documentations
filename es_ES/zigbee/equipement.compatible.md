@@ -295,6 +295,7 @@
 |<img src="../../es_ES/zigbee/images/adeo.LXEK-5.png" width="60" />|Adeo|LEXMAN ENKI - Mando a distancia para bombillas RGB conectadas||||
 |<img src="../../es_ES/zigbee/images/adeo.LXEK-7.png" width="60" />|Adeo|LEXMAN ENKI - Bombilla inteligente||||
 |<img src="../../es_ES/zigbee/images/adeo.ZBEK-3.png" width="60" />|Adeo|LEXMAN ENKI E14 40W - Bombilla inteligente||||
+|<img src="../../es_ES/zigbee/images/adeo.ZBEK-6.png" width="60" />|Adeo|LEXMAN ENKI E27 75W - Bombilla inteligente||||
 
 # Alfawise
 
@@ -986,6 +987,7 @@
 |<img src="../../es_ES/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|AQARA - Sensor de temperatura / presión / humedad|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4515-aqara-capteur-de-temperature-et-d-humidite-zigbee-6970504212510.html)|
 |<img src="../../es_ES/zigbee/images/LUMI.sen_ill.mgl01.png" width="60" />|Xiaomi|AQARA - Sensor de luz||||
 |<img src="../../es_ES/zigbee/images/XIAOMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|MI - Sensor de luz|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5486-xiaomi-mi-capteur-de-luminosite-zigbee-30-6934177710865.html)|
+|<img src="../../es_ES/zigbee/images/aqara.lumi.motion.ac01.png" width="60" />|Xiaomi|AQARA - Sensor de ocupación FP1||||
 |<img src="../../es_ES/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|MI - Toma conectada ON / OFF + Medida de consumo|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5305-xiaomi-prise-connectee-zigbee-mi-smart-plug-6934177706493.html)|
 |<img src="../../es_ES/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|AQARA - Detector de apertura inteligente|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../es_ES/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|AQARA - Detector de movimiento inteligente v2|||[Comprar](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
@@ -996,4 +998,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2022-09-03 02:32:08
+2022-09-04 02:32:11

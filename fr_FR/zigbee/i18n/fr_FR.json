@@ -9,6 +9,7 @@
         "AQARA - Détecteur de mouvement intelligent v2": "AQARA - Détecteur de mouvement intelligent v2",
         "AQARA - Détecteur d'ouverture intelligent": "AQARA - Détecteur d'ouverture intelligent",
         "MI - Prise connectée ON\/OFF + Mesure de consommation": "MI - Prise connectée ON\/OFF + Mesure de consommation",
+        "AQARA - Capteur de d'occupation FP1": "AQARA - Capteur de d'occupation FP1",
         "MI - Capteur de luminosité": "MI - Capteur de luminosité",
         "AQARA - Capteur de luminosité": "AQARA - Capteur de luminosité",
         "AQARA - Capteur de température\/pression\/humidité": "AQARA - Capteur de température\/pression\/humidité",
@@ -541,6 +542,7 @@
         "Alfawise porte": "Alfawise porte",
         "Alfawise Température\/humidité": "Alfawise Température\/humidité",
         "Adeo": "Adeo",
+        "LEXMAN ENKI E27 75W - Ampoule intelligente": "LEXMAN ENKI E27 75W - Ampoule intelligente",
         "LEXMAN ENKI E14 40W - Ampoule intelligente": "LEXMAN ENKI E14 40W - Ampoule intelligente",
         "LEXMAN ENKI - Ampoule intelligente": "LEXMAN ENKI - Ampoule intelligente",
         "LEXMAN ENKI - Télécommande pour ampoules connectées RGB": "LEXMAN ENKI - Télécommande pour ampoules connectées RGB",
@@ -698,6 +700,6 @@
         "LiXee": "LiXee",
         "Sinope Technologies": "Sinope Technologies",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2022-09-03 02": "2022-09-03 02"
+        "2022-09-04 02": "2022-09-04 02"
     }
 }

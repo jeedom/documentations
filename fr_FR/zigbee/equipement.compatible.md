@@ -295,6 +295,7 @@
 |<img src="../../fr_FR/zigbee/images/adeo.LXEK-5.png" width="60" />|Adeo|LEXMAN ENKI - Télécommande pour ampoules connectées RGB||||
 |<img src="../../fr_FR/zigbee/images/adeo.LXEK-7.png" width="60" />|Adeo|LEXMAN ENKI - Ampoule intelligente||||
 |<img src="../../fr_FR/zigbee/images/adeo.ZBEK-3.png" width="60" />|Adeo|LEXMAN ENKI E14 40W - Ampoule intelligente||||
+|<img src="../../fr_FR/zigbee/images/adeo.ZBEK-6.png" width="60" />|Adeo|LEXMAN ENKI E27 75W - Ampoule intelligente||||
 
 # Alfawise
 
@@ -986,6 +987,7 @@
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|AQARA - Capteur de température/pression/humidité|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4515-aqara-capteur-de-temperature-et-d-humidite-zigbee-6970504212510.html)|
 |<img src="../../fr_FR/zigbee/images/LUMI.sen_ill.mgl01.png" width="60" />|Xiaomi|AQARA - Capteur de luminosité||||
 |<img src="../../fr_FR/zigbee/images/XIAOMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|MI - Capteur de luminosité|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5486-xiaomi-mi-capteur-de-luminosite-zigbee-30-6934177710865.html)|
+|<img src="../../fr_FR/zigbee/images/aqara.lumi.motion.ac01.png" width="60" />|Xiaomi|AQARA - Capteur de d'occupation FP1||||
 |<img src="../../fr_FR/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|MI - Prise connectée ON/OFF + Mesure de consommation|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5305-xiaomi-prise-connectee-zigbee-mi-smart-plug-6934177706493.html)|
 |<img src="../../fr_FR/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|AQARA - Détecteur d'ouverture intelligent|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../fr_FR/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|AQARA - Détecteur de mouvement intelligent v2|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
@@ -996,4 +998,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2022-09-03 02:32:08
+2022-09-04 02:32:11

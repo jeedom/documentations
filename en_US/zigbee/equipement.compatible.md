@@ -295,6 +295,7 @@
 |<img src="../../en_US/zigbee/images/adeo.LXEK-5.png" width="60" />|Adeo|LEXMAN ENKI - Remote control for connected RGB bulbs||||
 |<img src="../../en_US/zigbee/images/adeo.LXEK-7.png" width="60" />|Adeo|LEXMAN ENKI - Smart bulb||||
 |<img src="../../en_US/zigbee/images/adeo.ZBEK-3.png" width="60" />|Adeo|LEXMAN ENKI E14 40W - Smart bulb||||
+|<img src="../../en_US/zigbee/images/adeo.ZBEK-6.png" width="60" />|Adeo|LEXMAN ENKI E27 75W - Smart bulb||||
 
 # Alfawise
 
@@ -986,6 +987,7 @@
 |<img src="../../en_US/zigbee/images/LUMI.lumi.weather.png" width="60" />|Xiaomi|AQARA - Temperature / pressure / humidity sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/4515-aqara-capteur-de-temperature-et-d-humidite-zigbee-6970504212510.html)|
 |<img src="../../en_US/zigbee/images/LUMI.sen_ill.mgl01.png" width="60" />|Xiaomi|AQARA - Light sensor||||
 |<img src="../../en_US/zigbee/images/XIAOMI.lumi.sen_ill.mgl01.png" width="60" />|Xiaomi|MI - Light sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5486-xiaomi-mi-capteur-de-luminosite-zigbee-30-6934177710865.html)|
+|<img src="../../en_US/zigbee/images/aqara.lumi.motion.ac01.png" width="60" />|Xiaomi|AQARA - FP1 Occupancy Sensor||||
 |<img src="../../en_US/zigbee/images/lumi.plug.mmeu01.png" width="60" />|Xiaomi|MI - ON / OFF connected socket + Consumption measurement|||[Buy](https://www.domadoo.fr/fr/peripheriques/5305-xiaomi-prise-connectee-zigbee-mi-smart-plug-6934177706493.html)|
 |<img src="../../en_US/zigbee/images/lumi.sensor_magnet.aq2.png" width="60" />|Xiaomi|AQARA - Intelligent opening detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/4514-xiaomi-detecteur-d-ouverture-portefenetre-zigbee-aqara.html)|
 |<img src="../../en_US/zigbee/images/lumi.sensor_motion.aq2.png" width="60" />|Xiaomi|AQARA - Smart motion detector v2|||[Buy](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-detecteur-de-mouvement-zigbee-aqara-192784000090.html)|
@@ -996,4 +998,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2022-09-03 02:32:08
+2022-09-04 02:32:11
