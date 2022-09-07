@@ -1,0 +1,18 @@
+{
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/\/\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/\/\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/\/\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/\/\/beta"
+}
