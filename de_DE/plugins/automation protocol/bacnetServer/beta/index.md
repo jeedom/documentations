@@ -56,11 +56,18 @@ Um Jeedom-Befehle zu Ihrem jeeBacnetServer hinzuzufügen, klicken Sie auf Befehl
 Es öffnet sich ein Modal, in dem alle Info-Typ-Befehle erscheinen, die in den verschiedenen Plugins Ihres Jeedoms vorhanden sind.
 
 
+
+
 >**WICHTIG**
 >
 >Ihre Ausrüstung muss aktiv sein, damit Befehle auf diesem Modal erkannt werden.
 
 
+>**WICHTIG**
+>
+>Sie müssen die Bacnet-Einheit mit der Syntax der verfügbaren Einheiten ausfüllen, indem Sie oben auf dieser Seite auf die Schaltfläche Einheiten klicken
+
+Sie müssen den Befehl so benennen, wie er auf dem jeeServer im Bacnet-Netzwerk erscheint
 
 Alles, was Sie tun müssen, ist, nach den gewünschten zu suchen und zu validieren.
 
@@ -69,6 +76,11 @@ Alles, was Sie tun müssen, ist, nach den gewünschten zu suchen und zu validier
 
 
 Das Bacnet-Gerät mit der von Ihnen gewählten Instanz-ID wird erstellt und in Ihrem Netzwerk angezeigt.
+
+
+Sie können eine Zusammenfassung der eingefügten Befehle anzeigen, indem Sie auf Cmds JeeServer klicken
+
+![accueil](../images/BacnetServerAccueil.png)
 
 
 Um die Werte zu aktualisieren, müssen Sie den Cron in der Plugin-Konfiguration konfigurieren.
@@ -95,11 +107,7 @@ Sie können das Gerät sowie seine Bacnet-Punkte auch aus dem Netzwerk löschen,
 
 Um die Einheit der Bacnet-Punkte zu ändern und sie im Netzwerk erscheinen zu sehen, müssen Sie die Einheit in das dafür vorgesehene Feld auf den Bestellungen eingeben.
 
-Im bacnet-Netzwerk übernehmen die Instanzen der Punkte die IDs der ursprünglichen Bestellungen
-
-Wenn Sie einen Befehl mit der ID 5320 auswählen, wird ein Alias für diesen Befehl im jeeBacnetServer vom Typ (Namecommand_jeeBacnet) : 
-in Ihrem Netzwerk, wird es in Ihrem Bacnet-Gerät wie folgt angezeigt : InitialCommandName(Analog_Input:5320)
-
+Im Bacnet-Netzwerk übernehmen die Instanzen der Punkte die Namen der Befehle, die Sie im Modal Befehle hinzufügen eingeben.
 
 
 Eine Nachkalkulationsfunktion ist ebenfalls vorhanden : 
@@ -119,10 +127,8 @@ Beispiel :
 
 >**WICHTIG**
 >
->Die Einheiten müssen den Bacnet-Standards entsprechen, sonst erscheint ein Fehler auf dem Plugin.
-Hier finden Sie die Liste der möglichen zu konfigurierenden Einheiten :
+>Die Einheiten müssen den Bacnet-Standards entsprechen, sonst erscheint ein Fehler auf dem Plugin. Anzeigen von Einheiten im Modal "Neue Befehle hinzufügen"
 
-https://store.chipkin.com/articles/bacnet-engineering-units-enumerations-
 
 
 

@@ -56,11 +56,18 @@ Para adicionar comandos Jeedom ao seu jeeBacnetServer, clique em Adicionar Coman
 Um modal será aberto, onde aparecerão todos os comandos do tipo Info presentes nos diferentes plugins do seu jeedom.
 
 
+
+
 >**IMPORTANTE**
 >
 >Seu equipamento deve estar Ativo para que os comandos sejam detectados neste modal.
 
 
+>**IMPORTANTE**
+>
+>Você deve preencher a unidade bacnet com a sintaxe das unidades disponíveis clicando no botão Unidades no topo desta página
+
+Você deve nomear o comando como ele aparecerá no jeeServer na rede Bacnet
 
 Tudo o que você precisa fazer é procurar os que deseja e validar.
 
@@ -69,6 +76,11 @@ Tudo o que você precisa fazer é procurar os que deseja e validar.
 
 
 O dispositivo bacnet com o instanceId que você escolheu será criado e aparecerá na sua rede.
+
+
+Você pode ver um resumo dos comandos injetados clicando em Cmds JeeServer
+
+![accueil](../images/BacnetServerAccueil.png)
 
 
 Para atualizar os valores você precisa configurar o cron na configuração do plugin.
@@ -95,11 +107,7 @@ Você também pode excluir o dispositivo da rede, bem como seus pontos bacnet, c
 
 Para alterar a unidade de pontos bacnet, e vê-los aparecer na rede, deve introduzir a unidade no campo previsto para o efeito nas encomendas.
 
-Na rede bacnet, as instâncias dos pontos assumirão os ids dos pedidos originais
-
-Se você escolher um comando que tenha o id 5320, um alias para este comando será criado no jeeBacnetServer do tipo (Namecommand_jeeBacnet) : 
-em sua rede, ele aparecerá em seu dispositivo bacnet da seguinte forma : InitialCommandName(Analog_Input:5320)
-
+Na rede bacnet, as instâncias dos pontos assumirão os nomes dos comandos que você inserir no modal Adicionar comandos.
 
 
 Uma função de pós-cálculo também é fornecida : 
@@ -119,10 +127,8 @@ Exemplo :
 
 >**IMPORTANTE**
 >
->As unidades devem corresponder aos padrões bacnet, caso contrário aparecerá um erro no plugin.
-Você encontrará a lista de unidades possíveis para configurar aqui :
+>As unidades devem corresponder aos padrões bacnet, caso contrário aparecerá um erro no plugin. Visualizar unidades no modal Adicionar novos comandos
 
-https://store.chipkin.com/articles/bacnet-engineering-units-enumerations-
 
 
 

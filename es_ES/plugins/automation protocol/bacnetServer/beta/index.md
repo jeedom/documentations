@@ -56,11 +56,18 @@ Para agregar comandos Jeedom a su jeeBacnetServer, haga clic en Agregar comandos
 Se abrirá un modal, donde aparecerán todos los comandos de tipo Info presentes en los diferentes plugins de tu jeedom.
 
 
+
+
 >**IMPORTANTE**
 >
 >Su equipo debe estar Activo para que los comandos sean detectados en este modal.
 
 
+>**IMPORTANTE**
+>
+>Debe completar la unidad bacnet con la sintaxis de las unidades disponibles haciendo clic en el botón Unidades en la parte superior de esta página
+
+Debe nombrar el comando como aparecerá en el jeeServer en la red Bacnet
 
 Todo lo que tienes que hacer es buscar los que quieras y Validar.
 
@@ -69,6 +76,11 @@ Todo lo que tienes que hacer es buscar los que quieras y Validar.
 
 
 Se creará el dispositivo bacnet con el ID de instancia que ha elegido y aparecerá en su red.
+
+
+Puede ver un resumen de los comandos inyectados haciendo clic en Cmds JeeServer
+
+![accueil](../images/BacnetServerAccueil.png)
 
 
 Para actualizar los valores necesitas configurar el cron en la configuración del plugin.
@@ -95,11 +107,7 @@ También puede eliminar el dispositivo de la red, así como sus puntos bacnet, h
 
 Para cambiar la unidad de los puntos bacnet, y verlos aparecer en la red, debe introducir la unidad en el campo habilitado a tal efecto en los pedidos.
 
-En la red bacnet, las instancias de los puntos se harán cargo de los identificadores de los pedidos originales
-
-Si elige un comando que tiene la identificación 5320, se creará un alias para este comando en el jeeBacnetServer de tipo (Namecommand_jeeBacnet) : 
-en su red, aparecerá en su dispositivo bacnet de la siguiente manera : NombreComandoInicial(Entrada_Analógica:5320)
-
+En la red bacnet, las instancias de los puntos tomarán los nombres de los comandos que ingrese en el modal Agregar comandos.
 
 
 También se proporciona una función de cálculo posterior : 
@@ -119,10 +127,8 @@ Ejemplo :
 
 >**IMPORTANTE**
 >
->Las unidades deben corresponder a los estándares de bacnet, de lo contrario aparecerá un error en el complemento.
-Encontrará la lista de posibles unidades a configurar aquí :
+>Las unidades deben corresponder a los estándares de bacnet, de lo contrario aparecerá un error en el complemento. Ver unidades en el modal Agregar nuevos comandos
 
-https://store.chipkin.com/articles/bacnet-engineering-units-enumerations-
 
 
 

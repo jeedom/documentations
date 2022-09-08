@@ -56,11 +56,18 @@ To add Jeedom commands to your jeeBacnetServer, click Add Commands to Server :
 A modal will open, where all the Info type commands present in the different plugins of your jeedom will appear.
 
 
+
+
 >**IMPORTANT**
 >
 >Your equipment must be Active for commands to be detected on this modal.
 
 
+>**IMPORTANT**
+>
+>You must fill in the bacnet unit with the syntax of the units available by clicking on the Units button at the top of this page
+
+You must name the command as it will appear on the jeeServer on the Bacnet network
 
 All you have to do is search for the ones you want, and Validate.
 
@@ -69,6 +76,11 @@ All you have to do is search for the ones you want, and Validate.
 
 
 The bacnet device with the instanceId you have chosen will be created, and appear on your network.
+
+
+You can see a summary of the injected commands by clicking on Cmds JeeServer
+
+![accueil](../images/BacnetServerAccueil.png)
 
 
 To update the values you need to configure the cron in the plugin configuration.
@@ -95,11 +107,7 @@ You can also delete the device from the network, as well as its bacnet points by
 
 To change the unit of bacnet points, and see them appear on the network, you must enter the unit in the field provided for this purpose on the orders.
 
-On the bacnet network, the instances of the points will take over the ids of the original orders
-
-If you choose a command that has the id 5320, an alias for this command will be created in the jeeBacnetServer of type (Namecommand_jeeBacnet) : 
-on your network, it will appear in your bacnet device as follows : InitialCommandName(Analog_Input:5320)
-
+On the bacnet network, the instances of the points will take over the names of the commands that you enter on the Add commands modal.
 
 
 A postcalculation function is also provided : 
@@ -119,10 +127,8 @@ Example :
 
 >**IMPORTANT**
 >
->The units must correspond to bacnet standards, otherwise an error will appear on the plugin.
-You will find the list of possible units to configure here :
+>The units must correspond to bacnet standards, otherwise an error will appear on the plugin. View units on Add New Commands modal
 
-https://store.chipkin.com/articles/bacnet-engineering-units-enumerations-
 
 
 

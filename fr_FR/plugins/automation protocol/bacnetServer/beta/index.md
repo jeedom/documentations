@@ -56,11 +56,18 @@ Pour ajouter des commandes Jeedom à votre jeeBacnetServer, cliquez sur Ajouter 
 Une modale va s'ouvrir, où apparaitra tous les commandes de type Infos présentes dans les differents plugin de votre jeedom.
 
 
+
+
 >**IMPORTANT**
 >
 >Vos équipements doivent etre Actifs pour que les commandes soient détectées sur cette modale.
 
 
+>**IMPORTANT**
+>
+>Vous devez remplir l'unite bacnet obligatoirement avec la syntaxe des unites disponible en cliquant sur le bouton Unites en haut de cette page
+
+Vous devez nommer la commande telle qu'elle apparaitra sur le jeeServer sur le reseau Bacnet
 
 Il vous suffit de chercher celles que vous desirez, et de Valider.
 
@@ -69,6 +76,11 @@ Il vous suffit de chercher celles que vous desirez, et de Valider.
 
 
 Le device bacnet avec l'instanceId que vous avez choisi va étre créer, et apparaitre sur votre réseau.
+
+
+Vous pouvez voir un recapitulatif des commandes injectées en cliquants sur Cmds JeeServer
+
+![accueil](../images/BacnetServerAccueil.png)
 
 
 Pour mettre à jour les valeurs, vous devez configurer le cron dans la configuration du plugin.
@@ -95,11 +107,7 @@ Vous pouvez également supprimer le device du réseau, ainsi que ses points bacn
 
 Pour changer l'unité des points bacnet, et les voir apparaitre sur le réseau, il vous faut rentrer l'unité dans le champ prévu à cet effet sur les commandes.
 
-Sur le réseau bacnet, les instances des points reprendront les ids des commandes originales
-
-Si vous choissiez une commande qui possède l'id 5320, un alias de cette commande sera crée dans le jeeBacnetServer de type (Nomcommande_jeeBacnet) : 
-sur votre réseau, elle apparaitre dans votre device bacnet comme suit : NomCommandeInitale(Analog_Input:5320)
-
+Sur le réseau bacnet, les instances des points reprendront les noms des commandes que vous rentrerez sur la modale d'Ajout des commandes.
 
 
 Une fonction de postCalcul est également prevue : 
@@ -119,10 +127,8 @@ Exemple :
 
 >**IMPORTANT**
 >
->Les unités doivent correspondre aux standards bacnet, faut de quoi une erreur appaitra sur le plugin.
-Vous retrouverez la liste des unités possibles de configurer ici :
+>Les unités doivent correspondre aux standards bacnet, faut de quoi une erreur appaitra sur le plugin. Voir les unites sur la modale d'Ajout de nouvelles commandes
 
-https://store.chipkin.com/articles/bacnet-engineering-units-enumerations-
 
 
 
