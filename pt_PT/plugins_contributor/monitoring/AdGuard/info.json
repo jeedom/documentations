@@ -1,0 +1,22 @@
+{
+	"id" : "AdGuard",
+	"name" : "AdGuard Home",
+	"description" : "Plugin permettant d'activer ou désactiver votre serveur AdGuard Home. De gérer les clients Et beaucoup plus !!",
+	"licence" : "AGPL",
+	"author" : "Nebz",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"require" : "3.3.24",
+	"category" : "monitoring",
+	"issue" : "https://github.com/NebzHB/plugin-AdGuard/issues",
+	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/fr_FR/changelog",
+	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/fr_FR/",
+	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/fr_FR/changelog",
+	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/AdGuard/fr_FR/",
+	"forum_link" : "https://community.jeedom.com/tag/plugin-AdGuard",
+	"link" : {
+		"forum":"https://community.jeedom.com/tag/plugin-AdGuard"
+	},
+	"languages" : ["fr_FR","en_US","es_ES"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","atlas"]
+}
