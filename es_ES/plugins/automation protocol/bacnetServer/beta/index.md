@@ -56,18 +56,18 @@ Para agregar comandos Jeedom a su jeeBacnetServer, haga clic en Agregar comandos
 Se abrirá un modal, donde aparecerán todos los comandos de tipo Info presentes en los diferentes plugins de tu jeedom.
 
 
-
-
 >**IMPORTANTE**
 >
 >Su equipo debe estar Activo para que los comandos sean detectados en este modal.
 
 
->**IMPORTANTE**
->
->Debe completar la unidad bacnet con la sintaxis de las unidades disponibles haciendo clic en el botón Unidades en la parte superior de esta página
+Debe agregar la unidad de Bacnet que desea inyectar en la instancia de Bacnet. Atención, es absolutamente necesario tener la misma sintaxis que las unidades disponibles en la lista de unidades, disponible haciendo clic en Ver Lista Unidades
+También debe nombrar el pedido, rellenando el campo previsto a tal efecto. 
+No ponga espacios en el nombre del comando
 
-Debe nombrar el comando como aparecerá en el jeeServer en la red Bacnet
+![syntaxUnites](../images/BacnetServerList.png)
+
+![syntaxCmds](../images/BacnetServersyntax.png)
 
 Todo lo que tienes que hacer es buscar los que quieras y Validar.
 
@@ -78,11 +78,6 @@ Todo lo que tienes que hacer es buscar los que quieras y Validar.
 Se creará el dispositivo bacnet con el ID de instancia que ha elegido y aparecerá en su red.
 
 
-Puede ver un resumen de los comandos inyectados haciendo clic en Cmds JeeServer
-
-![accueil](../images/BacnetServerAccueil.png)
-
-
 Para actualizar los valores necesitas configurar el cron en la configuración del plugin.
 
 ![accueil](../images/BacnetServerConfig.png)
@@ -90,7 +85,6 @@ Para actualizar los valores necesitas configurar el cron en la configuración de
 
 
 Para borrar comandos del Servidor, debe ir a los comandos del equipo, y simplemente Borrar los que desee y luego guardar.
-
 
 
 
@@ -107,30 +101,34 @@ También puede eliminar el dispositivo de la red, así como sus puntos bacnet, h
 
 Para cambiar la unidad de los puntos bacnet, y verlos aparecer en la red, debe introducir la unidad en el campo habilitado a tal efecto en los pedidos.
 
-En la red bacnet, las instancias de los puntos tomarán los nombres de los comandos que ingrese en el modal Agregar comandos.
+En la red bacnet, las instancias de los puntos utilizarán los nombres de los comandos especificados en el campo del modal Adiciones de comandos.
+
 
 
 También se proporciona una función de cálculo posterior : 
-si elige completar este postCalcul, entonces el valor inyectado en el dispositivoBacnet habrá tomado el valor inicial para cargarse con el cálculo 
+si elige completar este postCalcul, entonces el valor inyectado en el dispositivoBacnet habrá tomado el valor inicial para cargarse con el cálculo especificado
 
-Las diferentes posibilidades : 
+Puedes por ejemplo :
 
-/, -, *, +
+#value# * 10
+
+
+Esto tomará el valor inicial del comando cargado, luego lo multiplicará por 10 antes de actualizarlo en la instancia de jeeServer
 
 Ejemplo :
 
-![accueil](../images/BacnetServerPostCalcul.png)
-
-
+![accueil](../images/BacnetServerPost.png)
 
 
 
 >**IMPORTANTE**
 >
->Las unidades deben corresponder a los estándares de bacnet, de lo contrario aparecerá un error en el complemento. Ver unidades en el modal Agregar nuevos comandos
+>Encontrará todos los comandos existentes en el jeeServer en la pantalla del complemento, haciendo clic en Cmds JeeServer
 
 
+![accueil](../images/BacnetServerAccueil.png)
 
+![cmdExist](../images/BacnetServerCmdsExit.png)
 
 
 # Importar/Exportar el jeeBacnetServer :

@@ -1,26 +1,21 @@
 # Änderungsprotokoll BACnetServer
 
 
-# 01.08.2022
+# 15.08.2022
 
 - Alpha-Plugin
 
 
-# 29.08.2022
+# 23.08.2022
 
-- Eingabe hinzugefügt, um Unites Instances Bacnet zu ändern
-
-
-# 09.06.2022
-
-- Modale vorhandene Befehle hinzufügen jeeBacnet
+- Modale Änderungseinheiten, Namensbefehle
 
 
-# 09.06.2022
+# 26.08.2022
 
-- Eingabebenutzer hinzugefügt, um Befehlsnamen auf der Bacnet-Instanz zu ändern
-
-
+- Modale Wiederholungsbefehle jeeServer
 
 
+# 08.09.2022
 
+- PostCalculate-Funktion

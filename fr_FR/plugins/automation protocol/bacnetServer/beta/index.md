@@ -56,18 +56,18 @@ Pour ajouter des commandes Jeedom à votre jeeBacnetServer, cliquez sur Ajouter 
 Une modale va s'ouvrir, où apparaitra tous les commandes de type Infos présentes dans les differents plugin de votre jeedom.
 
 
-
-
 >**IMPORTANT**
 >
 >Vos équipements doivent etre Actifs pour que les commandes soient détectées sur cette modale.
 
 
->**IMPORTANT**
->
->Vous devez remplir l'unite bacnet obligatoirement avec la syntaxe des unites disponible en cliquant sur le bouton Unites en haut de cette page
+Vous devez ajouter l'unité Bacnet que vous desirez injecté dans l'instance Bacnet. Attention, il faut absolument avoir la meme syntaxe que les unités disponible dans la liste des unités, disponible en cliquant sur Voir Liste Unités
+Vous devez egalement nommer la commande, en remplissant le champ prevu a cet effet. 
+Ne pas mettre d'espace dans le nom de la commande
 
-Vous devez nommer la commande telle qu'elle apparaitra sur le jeeServer sur le reseau Bacnet
+![syntaxUnites](../images/BacnetServerList.png)
+
+![syntaxCmds](../images/BacnetServersyntax.png)
 
 Il vous suffit de chercher celles que vous desirez, et de Valider.
 
@@ -78,11 +78,6 @@ Il vous suffit de chercher celles que vous desirez, et de Valider.
 Le device bacnet avec l'instanceId que vous avez choisi va étre créer, et apparaitre sur votre réseau.
 
 
-Vous pouvez voir un recapitulatif des commandes injectées en cliquants sur Cmds JeeServer
-
-![accueil](../images/BacnetServerAccueil.png)
-
-
 Pour mettre à jour les valeurs, vous devez configurer le cron dans la configuration du plugin.
 
 ![accueil](../images/BacnetServerConfig.png)
@@ -90,7 +85,6 @@ Pour mettre à jour les valeurs, vous devez configurer le cron dans la configura
 
 
 Pour supprimer des commandes du Serveur, il faut se rendre dans les commandes de l'équipement, et simplement Supprimer celles que vous desirez puis sauvegarder.
-
 
 
 
@@ -107,30 +101,34 @@ Vous pouvez également supprimer le device du réseau, ainsi que ses points bacn
 
 Pour changer l'unité des points bacnet, et les voir apparaitre sur le réseau, il vous faut rentrer l'unité dans le champ prévu à cet effet sur les commandes.
 
-Sur le réseau bacnet, les instances des points reprendront les noms des commandes que vous rentrerez sur la modale d'Ajout des commandes.
+Sur le réseau bacnet, les instances des points reprendront les noms des commandes precisés dans le champ sur la modale des Ajouts de commandes.
+
 
 
 Une fonction de postCalcul est également prevue : 
-si vous choissisez de remplir ce postCalcul, alors la valeur injecté dans le deviceBacnet aura pris la valeur initale à remonter avec le calcul 
+si vous choissisez de remplir ce postCalcul, alors la valeur injecté dans le deviceBacnet aura pris la valeur initale à remonter avec le calcul precisé
 
-Les differentes possibilité : 
+Vous pouvez par exemple :
 
-/, - , *, +
+#value# * 10
+
+
+Cela prendra la valeur initiale de la commande a remontée, puis la multipliera par 10 avant de la mettre a jour dans l'instance jeeServer
 
 Exemple :
 
-![accueil](../images/BacnetServerPostCalcul.png)
-
-
+![accueil](../images/BacnetServerPost.png)
 
 
 
 >**IMPORTANT**
 >
->Les unités doivent correspondre aux standards bacnet, faut de quoi une erreur appaitra sur le plugin. Voir les unites sur la modale d'Ajout de nouvelles commandes
+>Vous retrouverez l'ensemble des commandes existantes sur le jeeServer sur l'ecran du plugin, en cliquant sur Cmds JeeServer
 
 
+![accueil](../images/BacnetServerAccueil.png)
 
+![cmdExist](../images/BacnetServerCmdsExit.png)
 
 
 # Importer/Exporter le jeeBacnetServer :

@@ -56,18 +56,18 @@ To add Jeedom commands to your jeeBacnetServer, click Add Commands to Server :
 A modal will open, where all the Info type commands present in the different plugins of your jeedom will appear.
 
 
-
-
 >**IMPORTANT**
 >
 >Your equipment must be Active for commands to be detected on this modal.
 
 
->**IMPORTANT**
->
->You must fill in the bacnet unit with the syntax of the units available by clicking on the Units button at the top of this page
+You must add the Bacnet unit you want injected into the Bacnet instance. Attention, it is absolutely necessary to have the same syntax as the units available in the list of units, available by clicking on View List Units
+You must also name the order, by filling in the field provided for this purpose. 
+Do not put spaces in the command name
 
-You must name the command as it will appear on the jeeServer on the Bacnet network
+![syntaxUnites](../images/BacnetServerList.png)
+
+![syntaxCmds](../images/BacnetServersyntax.png)
 
 All you have to do is search for the ones you want, and Validate.
 
@@ -78,11 +78,6 @@ All you have to do is search for the ones you want, and Validate.
 The bacnet device with the instanceId you have chosen will be created, and appear on your network.
 
 
-You can see a summary of the injected commands by clicking on Cmds JeeServer
-
-![accueil](../images/BacnetServerAccueil.png)
-
-
 To update the values you need to configure the cron in the plugin configuration.
 
 ![accueil](../images/BacnetServerConfig.png)
@@ -90,7 +85,6 @@ To update the values you need to configure the cron in the plugin configuration.
 
 
 To delete commands from the Server, you must go to the commands of the equipment, and simply Delete the ones you want then save.
-
 
 
 
@@ -107,30 +101,34 @@ You can also delete the device from the network, as well as its bacnet points by
 
 To change the unit of bacnet points, and see them appear on the network, you must enter the unit in the field provided for this purpose on the orders.
 
-On the bacnet network, the instances of the points will take over the names of the commands that you enter on the Add commands modal.
+On the bacnet network, the instances of the points will use the names of the commands specified in the field on the Additions of commands modal.
+
 
 
 A postcalculation function is also provided : 
-if you choose to fill in this postCalcul, then the value injected into the deviceBacnet will have taken the initial value to be uploaded with the calculation 
+if you choose to fill in this postCalcul, then the value injected into the deviceBacnet will have taken the initial value to be uploaded with the specified calculation
 
-The different possibilities : 
+You can for example :
 
-/, -, *, +
+#value# * 10
+
+
+This will take the initial value of the command uploaded, then multiply it by 10 before updating it in the jeeServer instance
 
 Example :
 
-![accueil](../images/BacnetServerPostCalcul.png)
-
-
+![accueil](../images/BacnetServerPost.png)
 
 
 
 >**IMPORTANT**
 >
->The units must correspond to bacnet standards, otherwise an error will appear on the plugin. View units on Add New Commands modal
+>You will find all the existing commands on the jeeServer on the plugin screen, by clicking on Cmds JeeServer
 
 
+![accueil](../images/BacnetServerAccueil.png)
 
+![cmdExist](../images/BacnetServerCmdsExit.png)
 
 
 # Import/Export the jeeBacnetServer :
