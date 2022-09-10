@@ -1,0 +1,31 @@
+{
+	"id" : "Metar_infos",
+	"name" : "METAR/TAF Infos Météo Aéroports",
+	"description" : {
+		"fr_FR": "Plugin pour recevoir les observations météo des aéroports (METAR) ainsi que les prévisions (TAF)"
+	},
+	"licence" : "AGPL",
+	"author" : "Patrick CARLE (Patrick)",
+	"require" : "4.0",
+	"category" : "weather",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://www.carle.fr/plugin-metar-taf-infos/3-changelog.html",
+	"documentation" : "https://www.carle.fr/plugin-metar-taf-infos/4-documentation.html",
+	"changelog_beta" : "https://www.carle.fr/plugin-metar-taf-infos/3-changelog.html",
+	"documentation_beta" : "https://www.carle.fr/plugin-metar-taf-infos/4-documentation.html",
+	"language": [
+		"fr_FR"
+	],
+    "compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
+}
