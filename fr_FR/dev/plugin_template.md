@@ -13,7 +13,7 @@ Voici sa structure: tout d’abord un dossier du nom de votre plugin (son identi
   - ``config`` : Fichier de configuration du plugin.
   - ``ajax`` : Dossier contenant les fichiers cibles d’appels AJAX.
   - ``i18n`` : Dossier contenant les fichiers .json de traduction du plugin.
-  - - ``template`` : Dossier contenant les templates html pour des tuiles sépcifiques aux équipements du plugin, dans les sous-dossier dashboard et mobile.
+  - ``template`` : Dossier contenant les templates html pour des tuiles sépcifiques aux équipements du plugin, dans les sous-dossier dashboard et mobile.
 - ``desktop`` : Dossier contenant la vue "bureau" du plugin (en opposition avec la vue "mobile").
   - ``js`` : Dossier contenant tous les fichiers de type javascript pour l'interface du plugin.
   - ``php`` : Dossier contenant tous les fichiers de type php pour l'interface du plugin.
