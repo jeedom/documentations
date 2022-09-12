@@ -20,7 +20,7 @@
     "category": "automation protocol",
     "hasDependency": true,
     "hasOwnDeamon": true,
-    "maxDependancyInstallTime": 30,
+    "maxDependancyInstallTime": 120,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/zigbee\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/zigbee\/",
     "language": [

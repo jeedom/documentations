@@ -244,7 +244,7 @@ No seu Jeedom, vá para Plugin -> Comunicação -> Google Smarthome e, na seçã
 
 > **Importante**
 >
-> O plug-in é baseado nos tipos genéricos de comandos Jeedom para controlar sua automação residencial. Portanto, é muito importante configurá-los corretamente.Você pode ver [aqui](https://doc.jeedom.com/pt_PT/concept/generic_type) a documentação sobre tipo genérico
+> O plug-in é baseado nos tipos genéricos de comandos Jeedom para controlar sua automação residencial. Portanto, é muito importante configurá-los corretamente.Você pode ver [aqui](https://doc.jeedom.com/pt_PT/core/4.2/types) a documentação sobre tipo genérico
 
 > **NOTA**
 >
@@ -350,7 +350,3 @@ Tudo o que você precisa fazer é atribuir o equipamento às salas no aplicativo
 >**Alterar a velocidade de um ventilador não funciona**
 >
 >Após a análise, o Google não envia um pedido durante uma ação em velocidade. Portanto, devemos esperar que o Google corrija
-
->**Eu tenho uma mensagem me dizendo que o Google não pode entrar em contato com Jeedom Smarthome, mas o comando é executado bem de qualquer maneira**
->
->Tente desmarcar "Ativar execução local", cortando o demônio e reiniciando uma sincronização entre o Google Home e o Jeedom smarthome.

@@ -244,7 +244,7 @@ Gehen Sie auf Ihrem Jeedom zu Plugin -> Kommunikation -> Google Smarthome und w�
 
 > **Wichtig**
 >
-> Das Plugin basiert auf den generischen Jeedom-Befehlen zur Steuerung Ihrer Hausautomation. Es ist daher sehr wichtig, diese korrekt zu konfigurieren.Sie können sehen [hier](https://doc.jeedom.com/de_DE/concept/generic_type) die Dokumentation zum generischen Typ
+> Das Plugin basiert auf den generischen Jeedom-Befehlen zur Steuerung Ihrer Hausautomation. Es ist daher sehr wichtig, diese korrekt zu konfigurieren.Sie können sehen [hier](https://doc.jeedom.com/de_DE/core/4.2/types) die Dokumentation zum generischen Typ
 
 > **Notiz**
 >
@@ -350,7 +350,3 @@ Sie müssen die Geräte lediglich den Räumen in der Google Home-App zuweisen
 >**Das Ändern der Drehzahl eines Lüfters funktioniert nicht**
 >
 >Nach der Analyse sendet Google während einer Aktion zur Geschwindigkeit keine Bestellung. Wir müssen daher warten, bis Google korrigiert
-
->**Ich habe eine Nachricht, die mir sagt, dass Google Jeedom Smarthome nicht kontaktieren kann, aber der Befehl wird trotzdem gut ausgeführt**
->
->Deaktivieren Sie "Lokale Ausführung aktivieren", beenden Sie den Dämon und starten Sie eine Synchronisierung zwischen Google Home und Jeedom Smarthome neu.

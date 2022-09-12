@@ -4,7 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 12.09.2022
+
 - Fehler beim Feedback der Sensoren behoben (Achtung immer noch keine Anzeige in Google Home oder Sprachfeedback, man muss warten bis Google die Implementierung abgeschlossen hat)
+- Hinzufügen des Eco-Modus-Managements für Thermostate, danke @Corentin3011
 
 # 02.06.2022
 

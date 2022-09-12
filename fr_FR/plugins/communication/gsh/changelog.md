@@ -4,6 +4,15 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 12/09/2022
+
+- Correction d'un bug sur le retour d'information des Sensors (attention toujours pas d'affichage dans Google Home ou de retour vocal, il faut attendre que Google finisse l'implementation)
+- Ajout du gestion du mode Eco pour les thermostat, merci @Corentin3011
+
+# 02/06/2022
+
+- Optimisation du processus de rotation de la clef api
+
 # 17/05/2022
 
 - Mise à jour de la doc

@@ -4,7 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 12/09/2022
+
 - Corrigido um bug no feedback dos Sensores (cuidado ainda sem exibição no Google Home ou feedback de voz, você tem que esperar o Google terminar a implementação)
+- Adição do gerenciamento do modo Eco para termostatos, obrigado @Corentin3011
 
 # 02/06/2022
 
