@@ -1,0 +1,32 @@
+{
+	"id" : "veoliapro",
+	"name" : "Veolia Pro",
+	"description" : {
+		"fr_FR": "Information sur la consommation d'eau (compteur communicant) depuis le site \"Veolia & moi - Eau\". Pour information, le site \"Mon eau & Moi\" sera très prochainement intégré au plugin." 
+	},
+    "utilization" : "Une fois le plugin installé, il vous faut renseigner vos informations de connections et un équipement sera automatiquement créé à la première synchronisation.",
+	"licence" : "AGPL",
+	"author" : "Thomas Maby",
+	"require" : "3.3.39",
+	"category" : "energy",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://thanaus.github.io/jeedom_docs/plugins/veoliapro/fr_FR/changelog",
+	"documentation" : "https://thanaus.github.io/jeedom_docs/plugins/veoliapro/fr_FR/",
+	"changelog_beta" : "https://thanaus.github.io/jeedom_docs/plugins/veoliapro/fr_FR/changelog",
+	"documentation_beta" : "https://thanaus.github.io/jeedom_docs/plugins/veoliapro/fr_FR/",
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
+}

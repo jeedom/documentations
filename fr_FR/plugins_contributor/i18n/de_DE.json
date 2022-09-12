@@ -297,6 +297,9 @@
         " Attention*": " Aufmerksamkeit*"
     },
     "plugins_contributor\/energy\/index.md": {
+        "Pour information, le site \"Mon eau & Moi\" sera très prochainement intégré au plugin": "Zur Information wird in Kürze die Seite „Mon eau & Moi“ in das Plugin integriert",
+        "Veolia Pro": "Veolia Pro",
+        "Information sur la consommation d'eau (compteur communicant) depuis le site \"Veolia & moi - Eau": "Informationen zum Wasserverbrauch (Smart Meter) aus dem „Veolia & moi – Eau",
         "Suivi CO2": "CO2-Überwachung",
         "Plugin pour le suivi des émissions CO2 liées à sa consommation électrique, de gaz, fioul ou autre": "Plugin zur Überwachung der CO2-Emissionen in Verbindung mit Strom, Gas, Heizöl oder anderem Verbrauch",
         "Ce plugin est là pour vous y aider en contrôlant les activations": "Dieses Plugin soll Ihnen bei der Steuerung der Aktivierungen helfen",
