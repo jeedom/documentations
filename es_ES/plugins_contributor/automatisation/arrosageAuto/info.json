@@ -1,0 +1,13 @@
+{
+	"id" : "arrosageAuto",
+	"name" : "Arrosage automatique",
+	"licence" : "AGPL",
+	"author" : "Halbout Michael",
+	"require" : "2.4",
+	"category" : "automatisation",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+	"hasOwnDeamon" : true,
+	"display" : "panel",
+ 	"documentation" : "https://mika-nt28.github.io/Documentations/arrosageAuto/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/arrosageAuto/#language#/changelog"
+}
