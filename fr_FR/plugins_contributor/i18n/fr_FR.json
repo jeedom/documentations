@@ -400,6 +400,9 @@
         "Plugin pour piloter le module Sensibo Sky": "Plugin pour piloter le module Sensibo Sky",
         "Qivivo": "Qivivo",
         "Intégration du Thermostat Qivivo": "Intégration du Thermostat Qivivo",
+        "Compatible avec le plugin mobile": "Compatible avec le plugin mobile",
+        "Netatmo Energie": "Netatmo Energie",
+        "Plugin pour intégrer les équipements Netatmo Energie( Thermostat, Vannes, Thermostat OpenTherm) dans Jeedom": "Plugin pour intégrer les équipements Netatmo Energie( Thermostat, Vannes, Thermostat OpenTherm) dans Jeedom",
         "Gestion Humidité": "Gestion Humidité",
         "Plugin pour la gestion de l'humidité grâce à un humidificateur ou déshumidificateur d'air": "Plugin pour la gestion de l'humidité grâce à un humidificateur ou déshumidificateur d'air",
         "Heta": "Heta",
@@ -425,6 +428,8 @@
         "Changelog Stable": "Changelog Stable",
         "Le serveur HSX récupère les informations de ses chauffe-eau connectés parmi MCX 3-7, CEX\/CFX, DEX, DSX, DSX Touch, DSX Twin": "Le serveur HSX récupère les informations de ses chauffe-eau connectés parmi MCX 3-7, CEX\/CFX, DEX, DSX, DSX Touch, DSX Twin",
         "Les informations qui remontent dans l'application Smart Control (iOS, Android) remontent également dans le plugin": "Les informations qui remontent dans l'application Smart Control (iOS, Android) remontent également dans le plugin",
+        "Le plugin permet l'acquisition des informations de  votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings": "Le plugin permet l'acquisition des informations de  votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings",
+        "L'actualisation se fait via API et par retours webhook": "L'actualisation se fait via API et par retours webhook",
         "Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler": "Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler"
     }
 }

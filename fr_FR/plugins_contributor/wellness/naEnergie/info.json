@@ -1,0 +1,35 @@
+{
+    "id": "naEnergie",
+    "name": "Netatmo Energie",
+    "licence": "AGPL",
+    "author": "limad44",
+    "require": "4.0",
+    "description": {
+        "fr_FR": " Plugin pour intégrer les équipements Netatmo Energie( Thermostat, Vannes, Thermostat OpenTherm) dans Jeedom.\nLe plugin permet l'acquisition des informations de  votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).\nL'actualisation se fait via API et par retours webhook.\nCompatible avec le plugin mobile",
+        "en_US": " Plugin pour intégrer les équipements Netatmo Energie( Thermostat et Vannes) dans Jeedom. Le plugin permet acquisition des informations relatives à votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).L'actualisation se fait via API et par retours webhooks. Compatible avec le plugin mobile"
+    },
+    "utilization": "Il faut disposer d'un compte Netatmo et d'un client_Id/client_Secret crées sur dev.natatmo.com ainsi qu'un accés externe à votre box Jeedom",
+    "category": "wellness",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "display": "panelna",
+    "changelog": "https://limad.github.io/plugins-docs/plugin-naEnergie/#language#/changelog",
+    "documentation": "https://limad.github.io/plugins-docs/plugin-naEnergie/#language#/",
+    "link": {
+        "forum": "https://community.jeedom.com/t/plugin-tiers-netatmo-energie/26286/"
+    },
+    "language": [
+        "fr_FR",
+        "en_US"
+    ],
+    "compatibility": [
+        "v4",
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "Jeedomboard"
+    ]
+}
