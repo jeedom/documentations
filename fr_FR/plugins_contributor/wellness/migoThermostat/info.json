@@ -1,0 +1,35 @@
+{
+    "id": "migoThermostat",
+    "name": "Migo Thermostat",
+    "licence": "AGPL",
+    "author": "limad44",
+    "require": "4.0",
+    "description": {
+        "fr_FR": " Plugin pour intégrer les équipements MiGo(Saunier-Duval) et eRelax/Vsmart(Vaillant) dans Jeedom.\n\n Le plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).\n\n L'actualisation se fait via API.\n\n Compatible avec le plugin mobile",
+        "en_US": " Plugin pour intégrer les équipements MiGo(Saunier-Duval) et eRelax/Vsmart(Vaillant) dans Jeedom.\n\n Le plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).\n\n L'actualisation se fait via API.\n\n Compatible avec le plugin mobile"
+    },
+    "utilization": "Il faut disposer d'un compte Email et d'un mot de passe valides",
+    "category": "wellness",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "display" : "migopanel",
+	"changelog": "https://limad.github.io/plugins-docs/plugin-migoThermostat/#language#/changelog",
+    "documentation": "https://limad.github.io/plugins-docs/plugin-migoThermostat/#language#/",
+    "link": {
+    	"forum": "https://community.jeedom.com/t/plugin-tiers-migothermostat/3539"
+	},
+    "language": [
+        "fr_FR",
+        "en_US"
+    ],
+    "compatibility": [
+        "v4",
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "Jeedomboard"
+    ]
+}
