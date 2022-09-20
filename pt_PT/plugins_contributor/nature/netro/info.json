@@ -1,0 +1,30 @@
+{
+  "id": "netro",
+  "name": "Netro",
+  "description": {
+    "fr_FR": "Pilotage des equipements d'arrosage Netro",
+    "en_EN": "Manage Netro sprinker equipments"
+  },
+  "documentation": "https://shinzah.github.io/jeedom-doc/netro",
+  "changelog": "https://shinzah.github.io/jeedom-doc/netro/beta/changelog",
+  "documentation_beta": "https://shinzah.github.io/jeedom-doc/netro",
+  "changelog_beta": "https://shinzah.github.io/jeedom-doc/netro/beta/changelog",
+  "licence": "AGPL",
+  "author": "Shinzah",
+  "require": "4.0",
+  "category": "nature",
+  "hasDependency": false,
+  "hasOwnDeamon": false,
+  "maxDependancyInstallTime": 0,
+  "language": ["fr_FR", "en_EN"],
+  "compatibility": [
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "mobile",
+    "v4",
+    "atlas"
+  ]
+}

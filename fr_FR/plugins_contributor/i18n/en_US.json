@@ -567,6 +567,7 @@
         " ici*": " here*"
     },
     "plugins_contributor\/nature\/index.md": {
+        "Pilotage des equipements d'arrosage Netro": "Control of Netro irrigation equipment",
         "Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions en fonction de l'appareil (voir la documentation": "It is possible to access device data, monitor it and perform certain actions depending on the device (see the documentation",
         "Plugin permettant d'intégrer tous les appareils de la gamme Gardena Smart System (Water Control, sensor, irrigation control, power socket et Sileno mower) ainsi que les robots Husqvarna Automower Connect": "Plugin for integrating all devices in the Gardena Smart System range (Water Control, sensor, irrigation control, power socket and Sileno mower) as well as Husqvarna Automower Connect robots",
         "Seuls les plugins de contributeur ont leur documentation ici": "Only contributor plugins have their documentation here",
@@ -578,6 +579,13 @@
         "Documentation Beta": "Beta Documentation",
         "Changelog Stable": "Changelog Stable",
         "Changelog Beta": "Changelog Beta",
+        " Netro.": " Netro.",
+        " Netro?": " Netro?",
+        "Netro ": "Netro ",
+        " Netro]": " Netro]",
+        "[Netro]": "[Netro]",
+        "*Netro*": "*Netro*",
+        " Netro*": " Netro*",
         " Gardena-Husqvarna.": " Gardena-Husqvarna.",
         " Gardena-Husqvarna?": " Gardena-Husqvarna?",
         "Gardena-Husqvarna ": "Gardena-Husqvarna ",
