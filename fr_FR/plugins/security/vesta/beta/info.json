@@ -1,0 +1,53 @@
+{
+    "id": "vesta",
+    "name": "Vesta",
+    "description": {
+        "fr_FR": "Plugin pour controler centrales d'alarmes Vesta",
+        "en_US": "Plugin to control Vesta alarm panels",
+        "es_ES": "Complemento para controlar paneles de alarma Vesta",
+        "de_DE": "Plugin zur Steuerung von Vesta-Alarmzentralen",
+        "ru_RU": "Plugin pour controler centrales d'alarmes Vesta",
+        "id_ID": "Plugin pour controler centrales d'alarmes Vesta",
+        "it_IT": "Plugin pour controler centrales d'alarmes Vesta",
+        "ja_JP": "Plugin pour controler centrales d'alarmes Vesta",
+        "pt_PT": "Plugin para controlar os painéis de alarme Vesta",
+        "tr": "Plugin pour controler centrales d'alarmes Vesta"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3.39",
+    "category": "security",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/vesta\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/vesta\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/vesta\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/vesta\/beta",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ]
+}
