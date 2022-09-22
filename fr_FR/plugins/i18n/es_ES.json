@@ -241,8 +241,8 @@
         " Market*": " Mercado*"
     },
     "plugins\/communication\/index.md": {
+        "Compatible uniquement avec le DNS Jeedom pour le moment": "Solo compatible con Jeedom DNS por el momento",
         "Plugin permettant de gérer la connexion à un serveur Wireguard": "Complemento para administrar la conexión a un servidor wireguard",
-        "ATTENTION plugin disponible uniquement en beta": "El complemento ATENCIÓN está disponible solo en versión beta",
         "Plugin pour la gestion des équipements wifipower": "Complemento de gestión de equipos Wifipower",
         "Plugin permettant de gérer le wifi de votre box ainsi que fixer l'ip": "Plugin para gestionar el wifi de tu caja así como arreglar la IP",
         "Nécessite une clé 3G et une carte SIM": "Requiere una clave 3G y una tarjeta SIM",
@@ -261,6 +261,7 @@
         "ping (ip, arp, port) et wake on lan": "ping (ip, arp, puerto) y despertar en lan",
         "Plugin permettant la gestion réseau des équipements": "Complemento que permite la gestión de equipos en red",
         "Attention pour l'instant il n'est pas possible d'avoir le flux des cameras en mode cloud Jeedom": "Atención por el momento no es posible tener el flujo de cámaras en modo nube Jeedom",
+        "ATTENTION plugin disponible uniquement en beta": "El complemento ATENCIÓN está disponible solo en versión beta",
         "Aucune donnée (domotique ou personnelle) n'est stockée ou conservée sur nos serveurs": "No se almacenan ni guardan datos (domóticos o personales) en nuestros servidores",
         "App Mobile": "Aplicación móvil",
         "L'application officielle Jeedom permet le pilotage de votre système domotique Jeedom, que ce soit en Wifi local, ou sur le réseau 3G\/4G de votre opérateur": "La aplicación oficial de Jeedom le permite controlar su sistema domótico Jeedom, ya sea en WiFi local o en la red 3G \/ 4G de su operador",
