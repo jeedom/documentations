@@ -939,6 +939,8 @@
         "L'actualisation se fait via API": "Das Update erfolgt über API",
         "Le plugin permet l'acquisition des informations de  votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings": "Das Plugin ermöglicht die Erfassung von Informationen aus Ihrer Installation und die Ausführung der meisten verfügbaren Aktionen (Anweisungen, Zeitpläne",
         "L'actualisation se fait via API et par retours webhook": "Die Aktualisierung erfolgt über API und Webhook-Rückgaben",
+        "Documentation Beta": "Beta-Dokumentation",
+        "Changelog Beta": "Änderungsprotokoll Beta",
         "Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler": "In Jeedom ist es möglich, den Status aller angeschlossenen Geräte zu verfolgen und zu steuern",
         " Qivivo.": " Qivivo.",
         " Qivivo?": " Qivivo?",
