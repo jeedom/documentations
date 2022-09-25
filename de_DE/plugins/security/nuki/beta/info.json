@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
-    "require": "3.0",
+    "require": "3.3",
     "category": "security",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/nuki\/",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/nuki\/changelog",
@@ -38,7 +38,8 @@
         "docker",
         "diy",
         "mobile",
-        "v4"
+        "v4",
+        "atlas"
     ],
     "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/nuki\/beta\/changelog",
     "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/nuki\/beta"

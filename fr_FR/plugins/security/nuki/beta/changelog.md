@@ -4,9 +4,15 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 24/09/2022
+
+- Mise à jour de la page de configuration des équipements pour Jeedom v4.2 & v4.3
+- Ajout d'une config plugin pour le timeout des requêtes ainsi que le nombre de tentative pour les commandes actions
+- Fix: les commandes n'étaient pas créées après la première synchro, il fallait une deuxième synchro.
+
 # 18/07/2020
 
-- Support du nuki Opener
+- Support du Nuki Opener
 
 # 23/10/2019
 
@@ -14,7 +20,7 @@
 
 # 30/07/2018
 
-- Correction du bug qui affichait la page d'équipement en bas lorsque le bandeau de gauche etait déplié
+- Correction du bug qui affichait la page d'équipement en bas lorsque le bandeau de gauche était déplié
 
 # 03/07/2018
 

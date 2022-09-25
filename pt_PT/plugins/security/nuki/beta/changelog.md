@@ -4,6 +4,12 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 24/09/2022
+
+- Atualização da página de configuração do equipamento para Jeedom v4.2 e v4.3
+- Adição de uma configuração de plug-in para o tempo limite da solicitação, bem como o número de tentativas de comandos de ação
+- Fix: os pedidos não foram criados após a primeira sincronização, foi necessária uma segunda sincronização.
+
 # 18/07/2020
 
 - Suporte para o nuki Opener
