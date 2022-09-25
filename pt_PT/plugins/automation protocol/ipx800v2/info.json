@@ -3,7 +3,7 @@
     "name": "ipx800 V2",
     "licence": "AGPL",
     "author": "Jeedom Legacy",
-    "require": "2.0",
+    "require": "3.3",
     "category": "automation protocol",
     "hasOwnDeamon": true,
     "language": [
@@ -17,12 +17,9 @@
         "tr"
     ],
     "compatibility": [
-        "miniplus",
         "smart",
         "rpi",
-        "docker",
         "diy",
-        "mobile",
         "v4"
     ]
 }

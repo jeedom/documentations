@@ -14,7 +14,9 @@
         "es_ES",
         "de_DE",
         "ru_RU",
+        "id_ID",
         "it_IT",
+        "ja_JP",
         "pt_PT",
         "tr"
     ],
@@ -26,5 +28,7 @@
         "diy",
         "mobile",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ipx800\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/ipx800\/beta"
 }
