@@ -439,13 +439,13 @@
         "[ici]": "[hier]",
         "*ici*": "*hier*",
         " ici*": " hier*",
-        " Market.": " Markt.",
-        " Market?": " Markt?",
-        "Market ": "Markt ",
-        " Market]": " Markt]",
-        "[Market]": "[Markt]",
-        "*Market*": "*Markt*",
-        " Market*": " Markt*"
+        " Market.": " Market.",
+        " Market?": " Market?",
+        "Market ": "Market ",
+        " Market]": " Market]",
+        "[Market]": "[Market]",
+        "*Market*": "*Market*",
+        " Market*": " Market*"
     },
     "plugins_contributor\/monitoring\/index.md": {
         "Unifi Access & Unifi VOIP": "Unifi Access & Unifi VOIP",
