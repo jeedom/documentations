@@ -1,0 +1,39 @@
+{
+    "id":"smartthings",
+    "name":"SmartThings",
+    "description": {
+      "fr_FR":"Ce plugin permet de créer un équipement pour chaque appareil identifié sur son compte SmartThings. La communication se fait uniquement par l'API SmartThings, aucune connexion directe entre Jeedom et l'appareil n'est réalisée. Les commandes générées lors de la synchronisation dépendent de l'appareil (chaque appareil fournit sa liste de commandes), elles dépendent aussi de l'informations remontée via l'API (si la valeur est 'null', la commande n'est pas créée car non mise à jour via l'API ou non gérée). J'ai tout de même laissé une option pour créer l'ensemble des commandes au cas où.</br>Les commandes disponibles varient et peuvent être très nombreuses : afficher l'état de l'appareil, son programme, l'allumer/l'éteindre, changer de chaîne, lancer une programme...</br>J'ai implémenté un widget pour les appareils les plus communs, pour les autres, libre à vous de créer le vôtre, et pourquoi pas le partager.",
+      "en_US":"This plugin allows you to create a device for each device identified on its SmartThings account. The communication is done only through the SmartThings API, no direct connection between Jeedom and the device is made. The commands generated during the synchronization depend on the device (each device provides its list of commands), they also depend on the information sent via the API (if the value is 'null', the command is not created because not updated via the API or not managed). I still left an option to create the set of commands just in case.</br>The available commands vary and can be very numerous: display the status of the device, its program, turn it on/off, change channel, launch a program...</br>I have implemented a widget for the most common devices, for others, free to create your own, and why not share it."
+    },
+    "installation":"Le guide de configuration se trouve sur cette page : <i><a class='btn btn-warning btn-xs' target='_blank' href='https://flobul-domotique.fr/configuration-du-plugin-smartthings-pour-jeedom/'><i class='fas fa-cog'></i><strong> Configuration du plugin</strong></a></i></br>1) Une fois le plugin installé, activez-le.</br>2) Saisissez ensuite un jeton d'accès que vous avez préalablement généré sur votre compte SmartThings.</br>3) Sélectionnez un intervalle de rafraîchissement des informations.</br>4) Sauvegardez.</br>5) Rendez-vous sur la page du plugin et cliquez sur Synchronisation.",
+    "utilization": "Après avoir entré le jeton SmartThings de votre appareil dans la page de configuration, lancez une synchronisation pour créer les équipements et les commandes associées.",
+    "licence":"AGPL",
+    "author":"DomoFlo1",
+    "require":"4.2",
+    "category":"devicecommunication",
+    "hasDependency":true,
+    "hasOwnDeamon":false,
+    "maxDependancyInstallTime":0,
+    "changelog":"https://flobul-domotique.fr/liste-des-versions-du-plugin-smartthings-pour-jeedom/",
+    "documentation":"https://flobul-domotique.fr/documentation-du-plugin-smartthings-pour-jeedom",
+    "link":{
+        "forum":"https://community.jeedom.com/tag/plugin-smartthings"
+    },
+    "language":[
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "pt_PT",
+        "de_DE"
+    ],
+    "compatibility":[
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ]
+}
