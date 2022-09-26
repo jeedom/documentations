@@ -27,3 +27,11 @@
 # 16.08.2022
 
 - Wahl des Ports für Modbus TCP (standardmäßig 502)
+
+# 23.09.2022
+
+- Änderungsprotokolle pyModbus-Bibliothek
+
+# 26.09.2022
+
+- Neuer Timeout-Parameter zwischen Leseregister
