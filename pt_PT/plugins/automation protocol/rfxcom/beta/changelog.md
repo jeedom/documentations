@@ -4,6 +4,7 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 26/09/2022
 
 - Corrigido um problema se o usuário codificasse a ativação dos protocolos na rfxcom rom
 

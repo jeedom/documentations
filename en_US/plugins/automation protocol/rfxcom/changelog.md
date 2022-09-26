@@ -5,6 +5,13 @@
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
 
+- Fixed a problem if the user has hard-coded the activation of the protocols in the rfxcom rom
+
+# 02/07/2022
+
+- Fixed issue installing dependencies under jeedom 4.2
+
+
 # 02/03/2022
 
 - Fixed issue installing dependencies under jeedom 4.2
