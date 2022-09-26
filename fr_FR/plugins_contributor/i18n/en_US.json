@@ -545,12 +545,16 @@
         " Market*": " Market*"
     },
     "plugins_contributor\/multimedia\/index.md": {
+        "Alexa - Amazon Music": "Alexa - Amazon Music",
+        "Interface Amazon Music": "Amazon Music Interface",
         "Multimédia": "Multimedia",
         "Seuls les plugins de contributeur ont leur documentation ici": "Only contributor plugins have their documentation here",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "You can consult the documentation of the official plugins directly from the Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Once on the plugin in question, click on documentation",
         "Vous pouvez voir": "You can see",
         "tous les plugins officiels de cette catégorie": "all official plugins in this category",
+        "Documentation Stable": "Documentation Stable",
+        "Changelog Stable": "Changelog Stable",
         " IMPORTANT.": " Important.",
         " IMPORTANT?": " Important?",
         "IMPORTANT ": "Important ",
@@ -564,7 +568,14 @@
         " ici]": " here]",
         "[ici]": "[here]",
         "*ici*": "*here*",
-        " ici*": " here*"
+        " ici*": " here*",
+        " Market.": " Market.",
+        " Market?": " Market?",
+        "Market ": "Market ",
+        " Market]": " Market]",
+        "[Market]": "[Market]",
+        "*Market*": "*Market*",
+        " Market*": " Market*"
     },
     "plugins_contributor\/nature\/index.md": {
         "Pilotage des equipements d'arrosage Netro": "Control of Netro irrigation equipment",

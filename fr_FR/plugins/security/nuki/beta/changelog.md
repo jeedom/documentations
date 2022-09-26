@@ -7,7 +7,7 @@
 # 24/09/2022
 
 - Mise à jour de la page de configuration des équipements pour Jeedom v4.2 & v4.3
-- Ajout d'une config plugin pour le timeout des requêtes ainsi que le nombre de tentative pour les commandes actions
+- Ajout d'une config plugin pour le timeout des requêtes ainsi que le nombre de tentatives pour les commandes actions
 - Fix: les commandes n'étaient pas créées après la première synchro, il fallait une deuxième synchro.
 
 # 18/07/2020

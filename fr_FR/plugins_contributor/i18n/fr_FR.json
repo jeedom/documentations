@@ -239,6 +239,8 @@
         "Non supporté": "Non supporté"
     },
     "plugins_contributor\/multimedia\/index.md": {
+        "Alexa - Amazon Music": "Alexa - Amazon Music",
+        "Interface Amazon Music": "Interface Amazon Music",
         "Multimédia": "Multimédia",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -246,7 +248,10 @@
         "Une fois sur le plugin en question, cliquez sur documentation": "Une fois sur le plugin en question, cliquez sur documentation",
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
-        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
+        "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
+        "Documentation Stable": "Documentation Stable",
+        "Market": "Market",
+        "Changelog Stable": "Changelog Stable"
     },
     "plugins_contributor\/nature\/index.md": {
         "Netro": "Netro",

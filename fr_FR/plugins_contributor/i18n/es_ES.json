@@ -439,13 +439,13 @@
         "[ici]": "[aquí]",
         "*ici*": "*aquí*",
         " ici*": " aquí*",
-        " Market.": " Market.",
-        " Market?": " Market?",
-        "Market ": "Market ",
-        " Market]": " Market]",
-        "[Market]": "[Market]",
-        "*Market*": "*Market*",
-        " Market*": " Market*"
+        " Market.": " Mercado.",
+        " Market?": " Mercado?",
+        "Market ": "Mercado ",
+        " Market]": " Mercado]",
+        "[Market]": "[Mercado]",
+        "*Market*": "*Mercado*",
+        " Market*": " Mercado*"
     },
     "plugins_contributor\/monitoring\/index.md": {
         "Unifi Access & Unifi VOIP": "Acceso Unifi y VOIP Unifi",
@@ -545,12 +545,16 @@
         " Market*": " Mercado*"
     },
     "plugins_contributor\/multimedia\/index.md": {
+        "Alexa - Amazon Music": "Alexa - Amazon Music",
+        "Interface Amazon Music": "Interfaz de música de Amazon",
         "Multimédia": "Multimedia",
         "Seuls les plugins de contributeur ont leur documentation ici": "Solo los complementos de contribuyentes tienen su documentación aquí",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Puede consultar la documentación de los complementos oficiales directamente desde Jeedom Market",
         "Une fois sur le plugin en question, cliquez sur documentation": "Una vez en el complemento en cuestión, haga clic en la documentación",
         "Vous pouvez voir": "Podéis ver",
         "tous les plugins officiels de cette catégorie": "todos los complementos oficiales en esta categoría",
+        "Documentation Stable": "Documentación estable",
+        "Changelog Stable": "Registro de cambios estable",
         " IMPORTANT.": " Importante.",
         " IMPORTANT?": " Importante?",
         "IMPORTANT ": "Importante ",
@@ -564,7 +568,14 @@
         " ici]": " aquí]",
         "[ici]": "[aquí]",
         "*ici*": "*aquí*",
-        " ici*": " aquí*"
+        " ici*": " aquí*",
+        " Market.": " Mercado.",
+        " Market?": " Mercado?",
+        "Market ": "Mercado ",
+        " Market]": " Mercado]",
+        "[Market]": "[Mercado]",
+        "*Market*": "*Mercado*",
+        " Market*": " Mercado*"
     },
     "plugins_contributor\/nature\/index.md": {
         "Pilotage des equipements d'arrosage Netro": "Control de equipos de riego Netro",
