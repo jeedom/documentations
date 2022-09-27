@@ -4,6 +4,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Suporte aprimorado ao firmware V3
+- Adição de informações de tele-info
+
 # 15/12/2021
 
 - Correção de bug em Index_TORE (obrigado @Math)

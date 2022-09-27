@@ -4,6 +4,9 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Amélioration du support du firmware V3
+- Ajout d'information venant de la télé-info
+
 # 15/12/2021
 
 - Correction de bug sur les Index_TORE (merci @Math)

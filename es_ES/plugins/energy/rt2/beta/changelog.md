@@ -4,6 +4,9 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Soporte de firmware V3 mejorado
+- Adición de información de tele-info
+
 # 15/12/2021
 
 - Corrección de errores en Index_TORE (gracias @Math)

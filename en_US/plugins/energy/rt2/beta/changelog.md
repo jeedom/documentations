@@ -4,6 +4,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Improved V3 firmware support
+- Addition of information from tele-info
+
 # 12/15/2021
 
 - Bug correction on Index_TORE (thanks @Math)

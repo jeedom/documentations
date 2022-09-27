@@ -4,6 +4,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Verbesserte V3-Firmware-Unterstützung
+- Ergänzung von Informationen aus Tele-Info
+
 # 15.12.2021
 
 - Fehlerbehebung bei Index_TORE (danke @Math)
