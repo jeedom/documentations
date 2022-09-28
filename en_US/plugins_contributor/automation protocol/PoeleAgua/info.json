@@ -1,0 +1,18 @@
+{
+	"id" : "PoeleAgua",
+	"name" : "Poele Agua IOT",
+	"description" : "Plugin PoeleAgua pour la gestion des poêle à bois et granulé utilisant la plateforme aqua iot ex: Jolly Mec",
+	"licence" : "AGPL",
+	"author" : "LEILLIATRE",
+	"require" : "3.2",
+	"category" : "automation protocol",
+	"hasDependency" : true,
+	"maxDependancyInstallTime" : 40,
+	"hasOwnDeamon" : true,
+	"changelog" : "https://lefilliatre.github.io/PoeleAgua/#language#/changelog",
+	"documentation" : "https://lefilliatre.github.io/PoeleAgua/#language#/",
+	"changelog_beta" : "https://lefilliatre.github.io/PoeleAgua/#language#/changelog",
+	"documentation_beta" : "https://lefilliatre.github.io/PoeleAgua/#language#/",
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","atlas"]
+}
