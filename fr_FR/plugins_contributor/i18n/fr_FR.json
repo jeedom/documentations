@@ -445,10 +445,10 @@
         "Les informations qui remontent dans l'application Smart Control (iOS, Android) remontent également dans le plugin": "Les informations qui remontent dans l'application Smart Control (iOS, Android) remontent également dans le plugin",
         "Le plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings": "Le plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings",
         "L'actualisation se fait via API": "L'actualisation se fait via API",
-        "Le plugin permet l'acquisition des informations de  votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings": "Le plugin permet l'acquisition des informations de  votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings",
-        "L'actualisation se fait via API et par retours webhook": "L'actualisation se fait via API et par retours webhook",
         "Documentation Beta": "Documentation Beta",
         "Changelog Beta": "Changelog Beta",
+        "Le plugin permet l'acquisition des informations de  votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings": "Le plugin permet l'acquisition des informations de  votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings",
+        "L'actualisation se fait via API et par retours webhook": "L'actualisation se fait via API et par retours webhook",
         "Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler": "Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler"
     }
 }

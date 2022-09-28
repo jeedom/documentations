@@ -15,6 +15,8 @@
     "display" : "migopanel",
 	"changelog": "https://limad.github.io/plugins-docs/plugin-migoThermostat/#language#/changelog",
     "documentation": "https://limad.github.io/plugins-docs/plugin-migoThermostat/#language#/",
+    "changelog_beta": "https://limad.github.io/plugins-docs/plugin-migoThermostat/#language#/changelog",
+    "documentation_beta": "https://limad.github.io/plugins-docs/plugin-migoThermostat/#language#/",
     "link": {
     	"forum": "https://community.jeedom.com/t/plugin-tiers-migothermostat/3539"
 	},
