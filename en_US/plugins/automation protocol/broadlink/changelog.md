@@ -1,5 +1,9 @@
 # Changelog Broadlink
 
+# 03/05/2021
+
+- Update of the dependencies script following the cryptography change
+
 # 01/15/2021
 
 - Fixed a problem with buster dependencies
@@ -19,7 +23,6 @@
 - Switching to python 3 (it is probably necessary to restart the dependencies)
 - Added management of RM4 (read the doc for the particularity)
 - Added advanced RF learning (with two steps, one to vary frequencies and find it and another to learn). It will increase learning compatibility
-
 
 # 09/11/2019
 

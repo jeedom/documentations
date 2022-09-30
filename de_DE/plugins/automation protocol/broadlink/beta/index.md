@@ -1,71 +1,37 @@
+# Broadlink
+
 Plugin zur Anbindung an Broadlink-Geräte
 
-Plugin Konfiguration 
-=======================
+# Plugin Konfiguration
 
-Nach der Installation des Plugins müssen Sie es aktivieren und sicherstellen, dass
-gute Installation von Nebengebäuden.
+Nach der Installation des Plugins muss es aktiviert werden und die korrekte Installation von Abhängigkeiten sicherstellen.
 
 > **Wichtig**
 >
 > Es wird nicht empfohlen, den Port zu ändern
 
-Einbeziehung der Ausrüstung 
-=========================
+# Einbeziehung der Ausrüstung
 
-Aller dans le menu Plugins &gt; Protocole Domotique &gt; Broadlink. Une
-Klicken Sie auf der Seite auf INKLUSIONSMODUS. Logischerweise das Ganze
-Broadlink-Produkte in Ihrem Netzwerk werden erkannt.
+Gehen Sie zum Plugins-Menü => Hausautomatisierungsprotokoll => Broadlink. Sobald Sie auf der Seite sind, klicken Sie auf INCLUSION MODE. Logischerweise werden alle Broadlink-Produkte in Ihrem Netzwerk erkannt.
 
-Gerätekonfiguration 
-=============================
+# Gerätekonfiguration
 
-Wählen Sie eines Ihrer Geräte aus. Wenn dies Typprodukte sind
-Infrarot wird oben eine Schaltfläche zum Erlernen eines Befehls angezeigt. Da bist du
-Klicken Sie einfach darauf, Sie haben dann 5 Sekunden Zeit zu lernen
-ein Infrarot- oder 433-Befehl an Ihren Broadlink. Anschließend das Plugin
-bestätigt den Erfolg des Vorgangs und erstellt die zugehörige Bestellung
-Sie müssen nur benennen. Es gibt auch einen erweiterten Modus 
-möglicherweise leicht unterschiedliche Rf-Frequenzen zu erfassen.
-Dieser Modus arbeitet in zwei Stufen, einer Frequenzerfassungsstufe 
-(oder Sie müssen die Taste gedrückt halten oder mehrmals drücken).
-Und ein zweiter Schritt ähnlich dem klassischen Modus.
+Wählen Sie eines Ihrer Geräte aus. Wenn es sich um Infrarotprodukte handelt, wird oben eine Befehlsschaltfläche „Lernen“ angezeigt. Klicken Sie einfach darauf, dann haben Sie 5 Sekunden Zeit, um einen Infrarotbefehl oder 433 zu Ihrem Broadlink zu lernen. Anschließend bestätigt das Plugin den Erfolg der Operation und erstellt den zugehörigen Befehl, den Sie nur noch benennen müssen.
 
 > **Spitze**
 >
-> Um nicht zu lernen, was aus der Umwelt kommen könnte
-> (Fernbedienung von einem Nachbarn oder einem anderen), der Broadlink in
-> Das freiwillige Lernen geht in eine sehr empfängliche Ebene
-> schwach, also muss man SEHR nah am Broadlink sein, um a zu lernen
-> Bestellen Sie besonders, wenn es sich um eine 433-MHz-Bestellung handelt.
+> Um nicht zu lernen, was aus der Umgebung kommen könnte (Fernbedienung von einem Nachbarn oder anderem), versetzt sich der Broadlink im Lernmodus FREIWILLIG in einen sehr niedrigen Empfangspegel, Sie müssen sich daher SEHR nahe am Broadlink befinden, um einen Befehl zu lernen, insbesondere wenn Es ist ein 433-MHz-Befehl.
 
-Synchronize 
-============
+# Synchroniser
 
-Auf der Registerkarte Gerätesteuerung finden Sie die Schaltfläche
-Synchronisieren. Wenn Sie mehr als einen Broadlink haben, können Sie
-Übertragen Sie gelernte Befehle von einem Broadlink auf einen anderen.
+Auf der Registerkarte Befehle einer Ausrüstung finden Sie die Schaltfläche Synchronisieren. Wenn Sie mehrere Broadlinks haben, können Sie die von einem Broadlink gelernten Befehle auf einen anderen übertragen.
 
 > **Spitze**
 >
 > Es funktioniert von einem RM-Pro zu einem Mini oder umgekehrt.
 
-Sie können die zu übertragenden Bestellungen sowie die Broadlinks auswählen
-auf die Sie sie übertragen möchten. (Der Name der Bestellung lautet
-offensichtlich konvergiert (TV EIN, Lüfter aus usw.).)
+Sie können die zu übertragenden Aufträge sowie die Broadlinks auswählen, an die Sie sie übertragen möchten. (Der Name des Befehls wird natürlich umgewandelt (TV ON, Fan off, etc.)
 
 > **Spitze**
 >
-> Wenn Sie Ihr Gerät manuell hinzugefügt haben, weil es nicht automatisch erkannt wurde. Der zu informierende MAC ist 
-> umgekehrte MAC-Adresse im Zweierpaket in Kleinbuchstaben ohne : Beispiel AA:BB:CC:DD:EE
-> wird eeddccbbaa
-
-> **Spitze**
->
-> Für einige RM Pro einschließlich Versionen 4. Das Gerät darf nicht mit der Cloud verbunden sein.
-> Andernfalls ist es lokal nicht mehr steuerbar. Dazu müssen Sie das Gerät über die Anwendung hinzufügen.
-> Aber fahren Sie nicht fort, wenn es Ihrem WLAN hinzugefügt wurde (fügen Sie es nicht einem Raum oder etwas anderem hinzu). Es muss aufhören
-> in diesem Moment.
-
-Changelog detailliert :
-<https://github.com/jeedom/plugin-broadlink/commits/stable>
+> Wenn Sie Ihr Gerät manuell hinzugefügt haben, weil es nicht automatisch erkannt wurde. Die einzugebende MAC ist die umgekehrte MAC-Adresse in Zweierpaketen in Kleinbuchstaben ohne die : Beispiel AA:BB:CC:DD:EE wird zu eeddccbbaa

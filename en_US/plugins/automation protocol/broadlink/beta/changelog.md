@@ -1,5 +1,9 @@
 # Changelog Broadlink
 
+# 09/30/2022
+
+- Fixed the installation of dependencies on Jeedom v4.2
+
 # 03/05/2021
 
 - Update of the dependencies script following the cryptography change

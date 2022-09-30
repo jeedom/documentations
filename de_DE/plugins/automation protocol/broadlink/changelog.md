@@ -1,5 +1,9 @@
 # Changelog Broadlink
 
+# 03/05/2021
+
+- Aktualisierung des Abhängigkeitsskripts nach der Änderung der Kryptografie
+
 # 15.01.2021
 
 - Ein Problem mit Buster-Abhängigkeiten wurde behoben
@@ -19,7 +23,6 @@
 - Wechseln zu Python 3 (wahrscheinlich müssen die Abhängigkeiten neu gestartet werden)
 - Verwaltung von RM4 hinzugefügt (lesen Sie das Dokument für die Besonderheit)
 - Erweitertes RF-Lernen hinzugefügt (mit zwei Schritten, einer zum Variieren und Finden der Frequenzen und einer zum Lernen). Dies erhöht die Lernkompatibilität
-
 
 # 09/11/2019
 
