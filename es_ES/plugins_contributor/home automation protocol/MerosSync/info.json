@@ -10,8 +10,10 @@
   "hasDependency": true,
   "hasOwnDeamon": true,
   "maxDependancyInstallTime": 30,
-  "documentation": "",
-  "changelog": "",
+  "documentation": "https://github.com/impulsio/MerosSync/blob/main/docs/#language#/index.md",
+  "changelog": "https://github.com/impulsio/MerosSync/blob/main/docs/#language#/changelog.md",
+  "documentation_beta":"https://github.com/impulsio/MerosSync/blob/main/docs/#language#/index.md",
+  "changelog_beta":"https://github.com/impulsio/MerosSync/blob/main/docs/#language#/changelog.md",
   "language" : ["fr_FR", "en_US"],
   "compatibility" : ["miniplus","smart","rpi","docker","diy"]
 }
