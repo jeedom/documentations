@@ -8,6 +8,11 @@
 >
 >Pour connaitre les nouveaux module compatible il faut aller [la](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (c'est trié par date d'ajout/modification)
 
+# 03/10/2022
+
+- Les versions de zigpy sont maintenant fixée pour eviter des soucis sur l'installation des dépendances
+
+
 # 13/09/2022
 
 - Correction d'un bug sur l'installation des dépendances sur RPI
