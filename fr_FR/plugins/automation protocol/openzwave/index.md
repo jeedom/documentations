@@ -8,34 +8,34 @@ Z-Wave communique en utilisant une technologie radio de faible puissance dans la
 
 Z-Wave fonctionne dans la gamme de fréquences sous-gigahertz, selon les régions (868 MHz en Europe, 908 MHz aux US, et d’autres fréquences suivant les bandes ISM des régions). La portée théorique est d’environ 30 mètres en intérieur et 100 mètres en extérieur. Le réseau Z-Wave utilise la technologie du maillage (mesh) pour augmenter la portée et la fiabilité. Z-Wave est conçu pour être facilement intégré dans les produits électroniques de basse consommation, y compris les appareils à piles tels que les télécommandes, les détecteurs de fumée et capteurs de sécurité.
 
-Le Z-Wave+, apporte certaines améliorations dont une meilleure portée et améliore la durée de vie des batteries entre autres. La rétrocompatibilité est totale avec le Z-Wave.
+Le Z-Wave+ apporte certaines améliorations dont une meilleure portée et améliore la durée de vie des batteries entre autres. La rétrocompatibilité est totale avec le Z-Wave.
 
 ## Compatibilité
 
-Vous pouvez trouver [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=openzwave) la liste des modules compatible avec le plugin
+Vous pouvez trouver [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&plugin=openzwave) la liste des modules compatible avec le plugin.
 
 ## Distances à respecter avec les autres sources de signaux sans fil
 
 Les récepteurs radio doivent être positionnés à une distance minimum de 50 cm des autres sources radioélectriques.
 
-Exemples de sources radioélectriques:
+Exemples de sources radioélectriques :
 
--   Ordinateurs
--   Les appareils à micro-ondes
--   Les transformateurs électroniques
--   équipements audio et de matériel vidéo
--   Les dispositifs de pré-accouplement pour lampes fluorescentes
+- ordinateurs,
+- appareils à micro-ondes,
+- transformateurs électroniques,
+- équipements audio et matériel vidéo,
+- dispositifs de pré-accouplement pour lampes fluorescentes.
 
 > **Tip**
 >
-> Si vous disposez un contrôleur USB (Z-Stick), il est recommandé de l’éloigner de la box à l’aide d’une simple rallonge USB de 1M par exemple.
+> Si vous disposez d’un contrôleur USB (Z-Stick), il est recommandé de l’éloigner de la box à l’aide d’une simple rallonge USB de 1 mètre par exemple.
 
-La distance entre d’autres émetteurs sans fil tels que les téléphones sans fil ou transmissions radio audio doit être d’au moins 3 mètres. Les sources de radio suivantes doivent être prises en compte :
+La distance avec d’autres émetteurs sans fil tels que les téléphones sans fil ou transmissions radio audio doit être d’au moins 3 mètres. Les sources de radio suivantes doivent être prises en compte :
 
--   Perturbations par commutateur de moteurs électriques
--   Interférences par des appareils électriques défectueux
--   Les perturbations par les appareils HF de soudage
--   dispositifs de traitement médical
+- perturbations par commutateur de moteurs électriques,
+- interférences par des appareils électriques défectueux,
+- perturbations par les appareils HF de soudage,
+- dispositifs de traitement médical.
 
 ## Epaisseur efficace des murs
 
@@ -45,7 +45,7 @@ Les emplacements des modules doivent être choisis de telle manière que la lign
 
 Les parties métalliques du bâtiment ou des meubles peuvent bloquer les ondes électromagnétiques.
 
-## Maillage et Routage
+## Maillage et routage
 
 Les nœuds Z-Wave sur secteur peuvent transmettre et répéter les messages qui ne sont pas à portée directe du contrôleur. Ce qui permet une plus grande flexibilité de communication, même si il n’y a pas de connexion sans fil directe ou si une connexion est temporairement indisponible, à cause d’un changement dans la pièce ou le bâtiment.
 
@@ -53,7 +53,7 @@ Les nœuds Z-Wave sur secteur peuvent transmettre et répéter les messages qui 
 
 Le contrôleur **Id 1** peut communiquer directement avec les nœuds 2, 3 et 4. Le nœud 6 est en dehors de sa portée radio, cependant, il se trouve dans la zone de couverture radio du nœud 2. Par conséquent, le contrôleur peut communiquer avec le nœud 6 via le nœud 2. De cette façon, le chemin du contrôleur via le nœud 2 vers le nœud 6, est appelé route. Dans le cas où la communication directe entre le nœud 1 et le nœud 2 est bloquée, il y a encore une autre option pour communiquer avec le nœud 6, en utilisant le nœud 3 comme un autre répéteur du signal.
 
-Il devient évident que plus l’on possède de nœuds secteur, plus les options de routage augmentent , et plus la stabilité du réseau augmente. Le protocole Z-Wave est capable de router les messages par l’intermédiaire d’un maximum de quatre nœuds de répétition. C’est un compromis entre la taille du réseau, la stabilité et la durée maximale d’un message.
+Il devient évident que plus on possède de nœuds secteur, plus les options de routage augmentent et plus la stabilité du réseau augmente. Le protocole Z-Wave est capable de router les messages par l’intermédiaire d’un maximum de quatre nœuds de répétition. C’est un compromis entre la taille du réseau, la stabilité et la durée maximale d’un message.
 
 > **Tip**
 >
@@ -75,12 +75,12 @@ Il devient évident que plus l’on possède de nœuds secteur, plus les options
 | Esclave | Connaît tous les voisins | N’a pas d’information sur la table de routage | Ne peut répondre au nœud qu’il a reçu le message. Par conséquent, ne peut pas envoyer des messages non sollicités |
 | Esclaves de routage | Connaît tous ses voisins | A la connaissance partielle de la table de routage | Peut répondre au nœud qu’il a reçu le message et peut envoyer des messages non sollicités à un certain nombre de nœuds |
 
-En résumé:
+En résumé :
 
--   Chaque appareil Z -Wave peut recevoir et accuser réception de messages
--   Les contrôleurs peuvent envoyer des messages à tous les nœuds du réseau, sollicités ou non « Le maître peut parler quand il veut et à qui il veut »
--   Les esclaves ne peuvent pas envoyer des messages non sollicités, mais seulement une réponse aux demandes «L’esclave ne parle que si on le lui demande »
--   Les esclaves de routage peuvent répondre à des demandes et ils sont autorisés à envoyer des messages non sollicités à certains nœuds que le contrôleur a prédéfini « L’esclave est toujours un esclave, mais sur autorisation, il peut parler »
+-   Chaque appareil Z -Wave peut recevoir et accuser réception de messages.
+-   Les contrôleurs peuvent envoyer des messages à tous les nœuds du réseau, sollicités ou non « Le maître peut parler quand il veut et à qui il veut ».
+-   Les esclaves ne peuvent pas envoyer des messages non sollicités, mais seulement une réponse aux demandes «L’esclave ne parle que si on le lui demande ».
+-   Les esclaves de routage peuvent répondre à des demandes et ils sont autorisés à envoyer des messages non sollicités à certains nœuds que le contrôleur a prédéfini « L’esclave est toujours un esclave, mais sur autorisation, il peut parler ».
 
 # Configuration du plugin
 
@@ -90,10 +90,12 @@ Une fois activé, le démon devrait se lancer. Le plugin est préconfiguré avec
 
 ## Dépendances
 
-Cette partie permet de valider et d’installer les dépendances requises au bon fonctionnement du plugin Zwave (aussi bien en local qu’en déporté, ici en local) ![configuration02](./images/configuration02.png)
+Cette partie permet de valider et d’installer les dépendances requises au bon fonctionnement du plugin Zwave (aussi bien en local qu’en déporté, ici en local).
 
--   Un Statut **OK** confirme que les dépendances sont satisfaites.
--   Si le statut est **NOK**, il faudra réinstaller les dépendances à l’aide du bouton ![configuration03](./images/configuration03.png)
+![configuration02](./images/configuration02.png)
+
+-   Un statut **OK** confirme que les dépendances sont satisfaites.
+-   Si le statut est **NOK**, il faudra réinstaller les dépendances à l’aide du bouton ![configuration03](./images/configuration03.png).
 
 > **Tip**
 >
@@ -101,7 +103,7 @@ Cette partie permet de valider et d’installer les dépendances requises au bon
 
 > **Important**
 >
-> La mise à jour des dépendances est normalement à effectuer seulement si le Statut est **NOK**, mais il est toutefois possible, pour régler certains problèmes, d’être appelé à refaire l’installation des dépendances.
+> La mise à jour des dépendances est normalement à effectuer seulement si le statut est **NOK**, mais il est toutefois possible, pour régler certains problèmes, d’être appelé à refaire l’installation des dépendances.
 
 > **Tip**
 >
@@ -109,14 +111,16 @@ Cette partie permet de valider et d’installer les dépendances requises au bon
 
 ## Démon
 
-Cette partie permet de valider l’état actuel du ou des démons et de configurer la gestion automatique de ceux-ci. ![configuration04](./images/configuration04.png) Le démon local et l’ensemble des démons déportés seront affichés avec leurs différentes informations
+Cette partie permet de valider l’état actuel du ou des démons et de configurer la gestion automatique de ceux-ci.
+![configuration04](./images/configuration04.png)
+Le démon local et l’ensemble des démons déportés seront affichés avec leurs différentes informations.
 
 -   Le **Statut** indique que le démon est actuellement en fonction.
 -   La **Configuration** indique si la configuration du démon est valide.
 -   Le bouton **(Re)Démarrer** permet de forcer le redémarrage du plugin, en mode normal ou de le lancer une première fois.
--   Le bouton **Arrête**, visible seulement si la gestion automatiqueest désactivée, force l’arrêt du démon.
+-   Le bouton **Arrêter**, visible seulement si la gestion automatiqueest désactivée, force l’arrêt du démon.
 -   La **Gestion automatique** permet à Jeedom de lancer automatiquementle démon au démarrage de Jeedom, ainsi que de le relancer en casde problème.
--   Le **Dernier lancement** est comme son nom l’indique la date dudernier lancement connue du demon.
+-   Le **Dernier lancement** indique la date du dernier lancement connu du demon.
 
 ## Log
 
@@ -126,7 +130,7 @@ Cette partie permet de choisir le niveau de log ainsi que d’en consulter le co
 
 Sélectionner le niveau puis sauvegarder, le démon sera alors relancé avec les instructions et traces sélectionnées.
 
-Le niveau **Debug** ou **Info** peuvent être utiles pour comprendre pourquoi le démon plante ou ne remonte pas une valeur.
+Le niveau **Debug** ou **Info** peuvent être utile pour comprendre pourquoi le démon plante ou ne remonte pas une valeur.
 
 > **Important**
 >
@@ -134,19 +138,20 @@ Le niveau **Debug** ou **Info** peuvent être utiles pour comprendre pourquoi le
 
 ## Configuration
 
-Cette partie permet de configurer les paramètres généraux du plugin ![configuration06](./images/configuration06.png)
+Cette partie permet de configurer les paramètres généraux du plugin.
+
+![configuration06](./images/configuration06.png)
 
 -   **Général** :
-    -   **Supprimer automatiquement les périphériques exclus** :L’option Oui, permet de supprimer les périphériques exclus duréseau Z-Wave. L’option Non, permet de conserver les équipementsdans Jeedom même s’ils ont été exclus du réseau. L’équipement
-        devra être alors supprimé manuellement ou réutilisé en luiassignant un nouvel ID Z-Wave si on exécute une migration ducontrôleur principal.
+    -   **Supprimer automatiquement les périphériques exclus** : l’option Oui, permet de supprimer les périphériques exclus duréseau Z-Wave. L’option Non, permet de conserver les équipements dans Jeedom même s’ils ont été exclus du réseau. L’équipement devra être alors supprimé manuellement ou réutilisé en lui assignant un nouvel ID Z-Wave si on exécute une migration ducontrôleur principal.
     -   **Appliquer le jeu de configuration recommandé à l’inclusion** : option pour appliquer directement à l’inclusion le jeu de configuration recommandé par l’équipe Jeedom (conseillée)
-    -   **Désactiver l’actualisation en arrière-plan des variateurs** : Ne pas demander de rafraichissement des variateurs en arrière-plan.
-    -   **Cycle (s)** : permet de définir la fréquence des remontées à jeedom.
-    -   **Port clé Z-Wave** : le port USB sur lequel votre interface Z-Wave est connectée. Si vous utilisez le Razberry, vous avez, en fonction de votre architecture (RPI ou Jeedomboard) les 2 possibilités à la fin de la liste.
+    -   **Désactiver l’actualisation en arrière-plan des variateurs** : ne pas demander de rafraichissement des variateurs en arrière-plan.
+    -   **Cycle (s)** : définir la fréquence des remontées à jeedom.
+    -   **Port clé Z-Wave** : le port USB sur lequel votre interface Z-Wave est connectée. Si vous utilisez le Raspberry, vous avez, en fonction de votre architecture (RPI ou Jeedomboard) les 2 possibilités à la fin de la liste.
     -   **Port du Serveur** (modification dangereuse, doit avoir la même valeur sur tous les Jeedoms déportés Z-Wave) : permet de modifier le port de communication interne du démon.
-    -   **Backups** : permet de gérer les backups du fichier de topologie réseaux (voir plus bas)
-    -   **Backups réseaux** : permet de gérer les backups du contrôleur. Vous pourrez créer un backup d'une clé, restaurer un backup, le télécharger ou en uploader un. Pour créer un bakcup il faut bien donner un nom, choisir le bon port pour le contrôleur et cliquer sur lancer une sauvegarde. La procédure peut prendre quelques minutes. Pour restaurer un backup il suffit de choisir le port du contrôleur de choisir dans le menu déroulant le backup à restaurer et de cliquer sur restaurer la sauvegarde.  Le bouton télécharger permet de télécharger une sauvegarde sur votre pc. Le bouton ajouter une sauvegarde permet d'uploader une sauvegarde sur Jeedom. Le bouton supprimer quand à lui permet comme son nom l'indique de supprimer une sauvegarde.
-    -   **Config modules** : permet de récupérer, manuellement, les fichiers de configurations OpenZWave avec les paramètres des modules ainsi que la définition des commandes de modules pour leurs utilisations.
+    -   **Backups** : gérer les backups du fichier de topologie réseaux (voir plus bas)
+    -   **Backups réseaux** : gérer les backups du contrôleur. Vous pourrez créer un backup d'une clé, restaurer un backup, le télécharger ou en uploader un. Pour créer un bakcup il faut bien donner un nom, choisir le bon port pour le contrôleur et cliquer sur lancer une sauvegarde. La procédure peut prendre quelques minutes. Pour restaurer un backup il suffit de choisir le port du contrôleur de choisir dans le menu déroulant le backup à restaurer et de cliquer sur restaurer la sauvegarde.  Le bouton télécharger permet de télécharger une sauvegarde sur votre pc. Le bouton ajouter une sauvegarde permet d'uploader une sauvegarde sur Jeedom. Le bouton supprimer quand à lui permet comme son nom l'indique de supprimer une sauvegarde.
+    -   **Config modules** : récupérer, manuellement, les fichiers de configurations OpenZWave avec les paramètres des modules ainsi que la définition des commandes de modules pour leurs utilisations.
 
         > **Tip**
         >
@@ -160,7 +165,7 @@ Cette partie permet de configurer les paramètres généraux du plugin ![configu
         >
         > Si vous avez un module non reconnu et qu’une mise à jour de configuration vient d’être appliquée, vous pouvez manuellement lancer la récupération des configurations de modules.
 
-Une fois les configurations récupérées, il faudra selon les changements apportés:
+Une fois les configurations récupérées, il faudra selon les changements apportés :
 
 -   Pour un nouveau module sans configuration ni commande : exclure et ré-inclure le module.
 -   Pour un module pour lequel seuls les paramètres ont été mis à jour : lancer la régénération de la détection du nœud, via l’onglet Actions du module (le plugin doit redémarrer).
@@ -174,11 +179,11 @@ N’oubliez pas de ![configuration08](./images/configuration08.png) si vous effe
 
 > **Important**
 >
-> Si vous utilisez Ubuntu : Pour que le démon fonctionne, il faut absolument avoir ubuntu 15.04 (les versions inférieures ont un bug et le démon n’arrive pas à se lancer). Attention si vous faites une mise à jour à partir de 14.04 il faut une fois en 15.04 relancer l’installation des dépendances.
+> Si vous utilisez Ubuntu : pour que le démon fonctionne, il faut absolument avoir Ubuntu 15.04 (les versions inférieures ont un bug et le démon n’arrive pas à se lancer). Attention si vous faites une mise à jour à partir de 14.04, il faut une fois en 15.04 relancer l’installation des dépendances.
 
 > **Important**
 >
-> La sélection du Port clé Z-Wave en mode de détection automatique, **Auto**, ne fonctionne que pour les dongles USB.
+> La sélection du port clé Z-Wave en mode de détection automatique, **Auto**, ne fonctionne que pour les dongles USB.
 
 ## Paneau Mobile
 
@@ -211,22 +216,24 @@ Vous retrouvez ici toute la configuration de votre équipement :
 ![appliance04](./images/appliance04.png)
 
 -   **Nom de l’équipement** : nom de votre module Z-Wave.
--   **Objet parent** : indique l’objet parent auquel appartient l’équipement.
+-   **Objet parent** : objet parent auquel appartient l’équipement.
 -   **Catégorie** : les catégories de l’équipement (il peut appartenir à plusieurs catégories).
--   **Activer** : permet de rendre votre équipement actif.
--   **Visible** : le rend visible sur le dashboard.
+-   **Activer** : rendre votre équipement actif.
+-   **Visible** : rendre votre équipement visible sur le dashboard.
 -   **Node ID** : ID du module sur le réseau Z-Wave. Ceci peut être utile si, par exemple, vous voulez remplacer un module défaillant. Il suffit d’inclure le nouveau module, de récupérer son ID, et le mettre à la place de l’ID de l’ancien module et enfin de supprimer le nouveau module.
--   **Module** : ce champ n’apparaît que s’il existe différents types de configuration pour votre module (cas pour les modules pouvant faire fils pilotes par exemple). Il vous permet de choisir la configuration à utiliser ou de la modifier par la suite
+-   **Module** : ce champ n’apparaît que s’il existe différents types de configuration pour votre module (cas pour les modules pouvant faire fils pilotes par exemple). Il vous permet de choisir la configuration à utiliser ou de la modifier par la suite.
 
 -   **Marque** : fabricant de votre module Z-Wave.
--   **Configuration** : fenêtre de configuration des paramètres du module
--   **Assistant** : disponible uniquement sur certains modules, il vous aide à configurer le module (cas sur le zipato keyboard par exemple)
--   **Documentation** : ce bouton vous permet d’ouvrir directement la documentation Jeedom concernant ce module.
--   **Supprimer** : Permet de supprimer un équipement ainsi que tous ces commandes rattaché sans l’exclure du réseau Z-Wave.
+-   **Configuration** : fenêtre de configuration des paramètres du module.
+-   **Assistant** : disponible uniquement sur certains modules, il vous aide à configurer le module (cas sur le zipato keyboard par exemple).
+-   **Documentation** : ouvrir directement la documentation Jeedom concernant ce module.
+-   **Supprimer** : supprimer un équipement ainsi que tous ces commandes rattaché sans l’exclure du réseau Z-Wave.
 
 > **Important**
 >
-> La suppression d’un équipement n’engendre pas une exclusion du module sur le contrôleur. ![appliance11](./images/appliance11.png) Un équipement supprimé qui est toujours rattaché à son contrôleur sera automatiquement recréé suite à la synchronisation.
+> La suppression d’un équipement n’engendre pas une exclusion du module sur le contrôleur.
+> ![appliance11](./images/appliance11.png)
+> Un équipement supprimé qui est toujours rattaché à son contrôleur sera automatiquement recréé suite à la synchronisation.
 
 ## Commandes
 
