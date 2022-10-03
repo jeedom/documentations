@@ -130,7 +130,7 @@ Cette partie permet de choisir le niveau de log ainsi que d’en consulter le co
 
 Sélectionner le niveau puis sauvegarder, le démon sera alors relancé avec les instructions et traces sélectionnées.
 
-Le niveau **Debug** ou **Info** peuvent être utile pour comprendre pourquoi le démon plante ou ne remonte pas une valeur.
+Les niveaux **Debug** ou **Info** peuvent être utiles pour comprendre pourquoi le démon plante ou ne remonte pas une valeur.
 
 > **Important**
 >
