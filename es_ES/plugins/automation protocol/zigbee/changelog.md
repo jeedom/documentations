@@ -8,6 +8,11 @@
 >
 >Para conocer el nuevo módulo compatible tienes que ir [la](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (está ordenado por fecha de adición / modificación)
 
+# 13/09/2022
+
+- Se corrigió un error en la instalación de dependencias en RPI
+- Soporte para nuevos módulos
+
 # 02/09/2022
 
 - Arreglo del fallo
