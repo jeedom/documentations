@@ -16,6 +16,12 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/ADUROLIGHT.VMS_ADUROLIGHT.png" width="60" />|ADUROLIGHT|Trust ZPIR-8000||||
 
+# BYLED
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/TZ3000_yeg1e5eh.TS0501A.png" width="60" />|BYLED|BYLED - ZigBee receiver for industrial suspension||||
+
 # Bitron Video
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -420,6 +426,7 @@
 |<img src="../../en_US/zigbee/images/HEIMAN.GASSensor-EF-3.0.png" width="60" />|Heiman|Smart Combustible Gas Sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5883-heiman-capteur-de-gaz-combustible-intelligent-zigbee-30.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/HEIMAN.GASSensor-EM.png" width="60" />|Heiman|Gas detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5883-heiman-capteur-de-gaz-combustible-intelligent-zigbee-30.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/HEIMAN.HS3AQ-EFA-3.0.png" width="60" />|Heiman|Zigbee 3.0 air quality sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5882-heiman-capteur-de-qualite-d-air-co2-temperature-humidite-zigbee-30-alarme-visuelle-et-sonore.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zigbee/images/HEIMAN.PIRSensor-EF-3.0.png" width="60" />|Heiman|||||
 |<img src="../../en_US/zigbee/images/HEIMAN.RC-EM.png" width="60" />|Heiman|4 button remote control|||[Buy](https://www.domadoo.fr/fr/peripheriques/5721-heiman-telecommande-porte-cles-de-scenes-zigbee.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/HEIMAN.SOS-EF-3.0.png" width="60" />|Heiman|SOS button||||
 |<img src="../../en_US/zigbee/images/HEIMAN.SceneSwitch-EM-3.0.png" width="60" />|Heiman|4 button remote control|||[Buy](https://www.domadoo.fr/fr/peripheriques/5715-heiman-telecommande-de-scenes-zigbee.html?domid=4&id_campaign=9)|
@@ -497,6 +504,13 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/iluminize.511.201.png" width="60" />|Iluminize|Zigbee 3.0 high voltage, Dimmer actuator||||
 
+# Imaax
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/TYZB01_vpffpbju.TS0219.png" width="60" />|Imaax|IMMAX - Outdoor Smart Siren|||[Buy](https://www.domadoo.fr/fr/peripheriques/6352-immax-sirene-intelligente-exterieure-zigbee-30-tuya-ip65.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zigbee/images/TZ3210_jijr1sss.TS0202.png" width="60" />|Imaax|IMMAX - Multi Sensors (PIR, Temperature, Humidity, Luminosity|||[Buy](https://www.domadoo.fr/fr/peripheriques/6355-immax-detecteur-de-mouvement-pir-temperature-humidite-et-luminosite-zigbee-30-tuya.html?domid=4&id_campaign=9)|
+
 # Innr
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -547,6 +561,7 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/adeo.LDSENK01F.png" width="60" />|Lexman|LEXMAN ENKI - 10A connected socket||||
 |<img src="../../en_US/zigbee/images/adeo.LDSENK02F.png" width="60" />|Lexman|LEXMAN ENKI - 16A connected socket|||[Buy](https://www.leroymerlin.fr/produits/electricite-domotique/domotique-et-objets-connectes/domotique/solutions-de-commande/prise-connectee-16a-3680w-repeteur-lexman-82428895.html)|
 
 # Lidl
@@ -582,6 +597,12 @@
 |<img src="../../en_US/zigbee/images/TZ3000_ufhtxr59.TS0044.png" width="60" />|Loratap|LORATAP - 4-button remote control|Remote control||[Buy](https://www.domadoo.fr/fr/peripheriques/6015-loratap-telecommande-zigbee-30-4-boutons.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/TZ3000_xrqsdxq6.TS0041.png" width="60" />|Loratap|LORATAP - 1 button remote control|Remote control||[Buy](https://www.domadoo.fr/fr/peripheriques/6013-loratap-telecommande-zigbee-30-1-bouton.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/TZ3000_yw5tvzsk.TS0043.png" width="60" />|Loratap|LORATAP - ZIGBEE 3 WIRELESS STAGE WALL SWITCH.0 - 3 BUTTONS|Switch, Remote control||[Buy](https://www.domadoo.fr/fr/peripheriques/6039-loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-3-boutons.html?domid=4&id_campaign=9)|
+
+# Miboxer
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../en_US/zigbee/images/TZ3210_ttkgurpb.TS0504B.png" width="60" />|Miboxer|MIBOXER - LED Controller||||
 
 # Nodon
 
@@ -773,7 +794,9 @@
 |<img src="../../en_US/zigbee/images/Sunricher.HK-SL-DIM-A.png" width="60" />|Sunricher|2-wire dimmer module|Dimmer, Light, Power, Metering||[Buy](https://www.domadoo.fr/fr/peripheriques/5244-sunricher-module-variateur-2-fils-zigbee-30.html)|
 |<img src="../../en_US/zigbee/images/Sunricher.HK-SL-RDIM-A.png" width="60" />|Sunricher|Rotary dimmer switch|Dimmer, Light, Power, Metering||[Buy](https://www.domadoo.fr/fr/peripheriques/5736-sunricher-interrupteur-variateur-rotatif-500w-zigbee-dimmer.html)|
 |<img src="../../en_US/zigbee/images/Sunricher.HK-SL-RELAY-A.png" width="60" />|Sunricher|ON / OFF module|Contactor, Light||[Buy](https://www.domadoo.fr/fr/peripheriques/5242-sunricher-module-onoff-zigbee-30.html)|
+|<img src="../../en_US/zigbee/images/Sunricher.HK-ZD-CCT-A.png" width="60" />|Sunricher|Sunricher - SR-DIY-ZG9101-CCT|||[Buy](https://www.domadoo.fr/fr/eclairage/6336-sunricher-kit-ruban-de-led-cct-zigbee-30-2-metres.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/Sunricher.HK-ZD-DIM-A.png" width="60" />|Sunricher|Sunricher Dali||||
+|<img src="../../en_US/zigbee/images/Sunricher.HK-ZD-RGBCCT-A.png" width="60" />|Sunricher|Sunricher - SR-DIY-ZG9101-RGBW|||[Buy](https://www.domadoo.fr/fr/eclairage/6337-sunricher-kit-ruban-de-led-rgbw-zigbee-30-2-metres.html)|
 |<img src="../../en_US/zigbee/images/Sunricher.Motor_Controller.png" width="60" />|Sunricher|Roller shutter module|Shutter, Store||[Buy](https://www.domadoo.fr/fr/peripheriques/5245-sunricher-module-volet-roulant-zigbee-30.html)|
 |<img src="../../en_US/zigbee/images/Sunricher.ONOFF(2CH).png" width="60" />|Sunricher|SUNRICHER - MODULE ON/OFF 2 SORTIES AVEC MESURE DE CONSOMMATION ZIGBEE 3.0|||[Documentation](https://www.domadoo.fr/fr/index.php?controller=attachment&id_attachment=2820)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/6163-sunricher-module-onoff-2-sorties-avec-mesure-de-consommation-zigbee-30.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/Sunricher.ONOFF_-M.png" width="60" />|Sunricher|SUNRICHER - MODULE ON/OFF 16A AVEC MESURE DE CONSOMMATION ZIGBEE 3.0|||[Buy](https://www.domadoo.fr/fr/peripheriques/6162-sunricher-module-onoff-16a-avec-mesure-de-consommation-zigbee-30.html?domid=4&id_campaign=9)|
@@ -891,6 +914,7 @@
 |<img src="../../en_US/zigbee/images/TZ3000_xxgrunjb.TS130F.png" width="60" />|Doowifi|ZIGBEE SHUTTER CONTROL DWF-0205ZB-PN-2|Volets|||
 |<img src="../../en_US/zigbee/images/TZ3000_zloso4jk.TS011F.png" width="60" />|Tuya|Connected socket|Socket, Meter, Power, Repeater|||
 |<img src="../../en_US/zigbee/images/TZ3000_zmy1waw6.TS011F.png" width="60" />|Tuya|MOES - Single ON / OFF connected module||||
+|<img src="../../en_US/zigbee/images/TZ3210_rcggc0ys.TS0505B.png" width="60" />|Tuya|ZigBee GU10 Smart LED Dimmable Bulbs RGBCCT 2200-6500K C+W 5W||||
 |<img src="../../en_US/zigbee/images/TZ3210_remypqqm.TS0505B.png" width="60" />|Tuya|Led bulb 3.0, RGB+WW+CW E27||||
 |<img src="../../en_US/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|3 button connected switch||||
 |<img src="../../en_US/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Connected switch 2 buttons||||
@@ -934,6 +958,7 @@
 |---|---|---|---|---|---|
 |<img src="../../en_US/zigbee/images/LUMI.RTCGQ01LM.png" width="60" />|Xiaomi|Xiaomi Mijia RTCGQ01LM|||[Buy](https://www.domadoo.fr/fr/peripheriques/4518-xiaomi-aqara-detecteur-de-mouvement-zigbee-rtcgq11lm-192784000090.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.airmonitor.acn01.png" width="60" />|Xiaomi|XIAOMI AQARA - Zigbee 3 Air Quality Monitor.0 (TEMPERATURE, HUMIDITY, TVOC)|Temperature, Humidity, Air quality||[Documentation](https://cdn.aqara.com/cdn/website/mainland/static/docs/TVOC-Air-Quality-Monitor_Manual_EN.pdf)<br/>[Buy](https://www.domadoo.fr/fr/peripheriques/5751-xiaomi-aqara-moniteur-de-qualite-d-air-zigbee-30-temp-hum-covt-6970504214644.html)|
+|<img src="../../en_US/zigbee/images/LUMI.lumi.airrtc.agl001.png" width="60" />|Xiaomi|AQARA - SMART RADIATOR THERMOSTAT E1|||[Buy](https://www.domadoo.fr/fr/peripheriques/6286-aqara-tete-thermostatique-zigbee-30-aqara-radiator-thermostat-e1-6970504217058.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_ln1.aq1.png" width="60" />|Xiaomi|AQARA - Single switch with neutral||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_ln2.aq1.png" width="60" />|Xiaomi|AQARA - Double switch with neutral||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.ctrl_neutral1.png" width="60" />|Xiaomi|AQARA - Single switch without neutral||||
@@ -998,4 +1023,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2022-10-03 02:32:18
+2022-10-04 02:32:17
