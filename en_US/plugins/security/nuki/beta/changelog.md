@@ -4,10 +4,12 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-# 09/24/2022
+# 03/10/2022
 
 - Update of the equipment configuration page for Jeedom v4.2 & v4.3
+- Adding a command *Binary gate state* on the smart lock
 - Addition of a plugin config for the request timeout as well as the number of attempts for action commands
+- Setting default generic types on commands (only for newly created commands)
 - Fix: orders were not created after the first sync, it needed a second sync.
 
 # 07/18/2020

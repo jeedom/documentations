@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 10.03.2022
+
+- Der Smartstart kann die Thermostatsperre nicht mehr aufheben
+
 # 29.07.2022
 
 - Korrektur bei der Befüllung bestimmter Gerätekonfigurationsfelder über die Auftragsauswahlliste

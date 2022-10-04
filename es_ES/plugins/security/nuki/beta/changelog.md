@@ -4,10 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
-# 24/09/2022
+# 10/03/2022
 
 - Actualización de la página de configuración de equipos para Jeedom v4.2 y v4.3
+- Agregar un comando *Estado de puerta binaria* en la cerradura inteligente
 - Adición de una configuración de complemento para el tiempo de espera de la solicitud, así como la cantidad de intentos para los comandos de acción
+- Configuración de tipos genéricos predeterminados en comandos (solo para comandos recién creados))
 - Fix: los pedidos no se crearon después de la primera sincronización, necesitaba una segunda sincronización.
 
 # 18/07/2020

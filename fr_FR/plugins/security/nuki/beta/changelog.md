@@ -4,10 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
-# 24/09/2022
+# 03/10/2022
 
 - Mise à jour de la page de configuration des équipements pour Jeedom v4.2 & v4.3
+- Ajout d'une commande *Etat porte binaire* sur la smart lock
 - Ajout d'une config plugin pour le timeout des requêtes ainsi que le nombre de tentatives pour les commandes actions
+- Définition des types génériques par défaut sur les commandes (seulement pour les commandes nouvellement créées)
 - Fix: les commandes n'étaient pas créées après la première synchro, il fallait une deuxième synchro.
 
 # 18/07/2020
