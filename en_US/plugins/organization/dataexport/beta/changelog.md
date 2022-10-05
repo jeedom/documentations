@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
 
+# 04/10/2022
+
+- Added option to prefer timestamp *(timestamp)* history instead of dates
+
 # 03/09/2022
 
 - Fixed a bug on the current day's exports which included those of the previous day in date selection

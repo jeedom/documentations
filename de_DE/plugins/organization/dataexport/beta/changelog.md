@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 10.04.2022
+
+- Option hinzugefügt, um den Zeitstempel zu bevorzugen *(timestamp)* Geschichte statt Daten
+
 # 09.03.2022
 
 - Es wurde ein Fehler bei den Exporten des aktuellen Tages behoben, der die des Vortages in die Datumsauswahl einbezog

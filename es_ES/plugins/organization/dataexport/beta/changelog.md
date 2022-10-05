@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.
 
+# 04/10/2022
+
+- Opción agregada para preferir la marca de tiempo *(timestamp)* historia en lugar de fechas
+
 # 09/03/2022
 
 - Se corrigió un error en las exportaciones del día actual que incluía las del día anterior en la selección de fecha

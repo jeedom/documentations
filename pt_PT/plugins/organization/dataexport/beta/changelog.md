@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 10/04/2022
+
+- Adicionada opção para preferir timestamp *(timestamp)* história em vez de datas
+
 # 03/09/2022
 
 - Corrigido um bug nas exportações do dia atual que incluíam as do dia anterior na seleção de data

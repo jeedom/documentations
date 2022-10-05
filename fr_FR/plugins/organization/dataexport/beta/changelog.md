@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 04/10/2022
+
+- Ajout d'une option pour préférer l'horodatage *(timestamp)* des historiques à la place des dates
+
 # 09/03/2022
 
 - Correction d'un bug sur les exports du jour en cours qui incluaient ceux de la veille en sélection de dates
