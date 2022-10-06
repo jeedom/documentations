@@ -1,7 +1,7 @@
 {
   "id" : "MerosSync",
   "name": "MerosSync",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Plugin pour contrôler les appareils MEROSS",
   "licence": "GPL",
   "author": "jercle",
@@ -10,10 +10,10 @@
   "hasDependency": true,
   "hasOwnDeamon": true,
   "maxDependancyInstallTime": 30,
-  "documentation": "https://github.com/impulsio/MerosSync/blob/main/docs/#language#/index.md",
-  "changelog": "https://github.com/impulsio/MerosSync/blob/main/docs/#language#/changelog.md",
-  "documentation_beta":"https://github.com/impulsio/MerosSync/blob/main/docs/#language#/index.md",
-  "changelog_beta":"https://github.com/impulsio/MerosSync/blob/main/docs/#language#/changelog.md",
+  "documentation": "https://github.com/impulsio/MerosSync/blob/main/docs/fr_FR/index.md",
+  "changelog": "https://github.com/impulsio/MerosSync/blob/main/docs/fr_FR/changelog.md",
+  "documentation_beta":"https://github.com/impulsio/MerosSync/blob/main/docs/fr_FR/index.md",
+  "changelog_beta":"https://github.com/impulsio/MerosSync/blob/main/docs/fr_FR/changelog.md",
   "language" : ["fr_FR", "en_US"],
   "compatibility" : ["miniplus","smart","rpi","docker","diy"]
 }
