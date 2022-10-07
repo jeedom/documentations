@@ -33,7 +33,7 @@ Il est possible de créer des équipements MQTT directement le plugin, attention
 
 Il faut indiqué le topic racine (ex `test`) pour l'équipement ensuite dans les commandes il suffit pour:
 
-- les commandes de type info : d'indiqué le topic complet, ex si vous mettez `toto/1`, tous les messages sur le topic `test/toto/1` seront automatiquement écrit sur la commande en question
+- les commandes de type info : d'indiqué le topic complet, ex si vous mettez `toto/1`, tous les messages sur le topic `test/toto/1` seront automatiquement écrit sur la commande en question. Le systeme est capable de gerer les champs de type json dans ce cas il faut mettre `toto/1#key1` ou `toto/1#key1::key2` pour descendre d'un niveau. Attention il faut absolument que l'arrivé soit une valeur, exemple si vous avez `{"k1":"v1","k2":{"k2.2":"v2.2"},"k3":["v3.1"]}`, vous pouvez mettre `toto/1#k1` ou `toto/1#k2:k2.2` ou `toto/1#k3:0`. Mais `toto/1#k2` n'est pas possible.
 - les commande de type action : d'indiqué le topic et le message, ex si vous mettez `toto/2` avec comme message `plop` chaque clique sur la commande enverront le message `plop` sur le topic `test/toto/2`
 
 >**NOTE**

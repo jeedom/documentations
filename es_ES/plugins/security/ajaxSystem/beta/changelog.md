@@ -4,6 +4,8 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
+- Posibilidad de pasar por un modo mqtt para retroalimentación de información SIA, vía nodered (un artículo en el blog explicará cómo hacer esto)
+
 # 23/08/2022
 
 - Gestión de grupos añadida

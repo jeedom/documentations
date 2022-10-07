@@ -33,7 +33,7 @@ Você pode especificar usuários / senha para conexão:
 
 É necessário indicar o tópico raiz (ex `teste`) para o equipamento então nos comandos basta:
 
-- comandos de tipo de informação : para indicar o tópico completo, ex se você colocar `toto/1`, todas as mensagens do tópico `test/toto/1` serão escritas automaticamente no comando em questão
+- comandos de tipo de informação : para indicar o tópico completo, ex se você colocar `toto/1`, todas as mensagens do tópico `test/toto/1` serão escritas automaticamente no comando em questão. O sistema é capaz de gerenciar campos do tipo json neste caso você tem que colocar `toto/1#key1` ou `toto/1#key1::key2` para descer um nível. Atenção é absolutamente necessário que a chegada seja um valor, por exemplo se você tiver `{"k1":"v1","k2":{"k2.2":"v2.2"},"k3":["v3.1"]}`, você pode colocar `toto/1#k1` ou `toto/1#k2:k2.2` ou `toto/1#k3:0``. Mais ``toto/1#k2` não é possível.
 - comandos de tipo de ação : para indicar o tópico e a mensagem, ex se você colocar `foo / 2` com como mensagem` plop` cada clique no comando irá enviar a mensagem` plop` no tópico` test / foo / 2`
 
 >**NOTA**
