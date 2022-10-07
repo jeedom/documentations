@@ -480,6 +480,8 @@
         "Monitor sensors": "Monitorear sensores",
         "Ce plugin va vous permettre de garder un oeil sur l'ensemble de vos capteurs (Z-Wave , EnOcean, ZigBee) afin de vérifier leur santé, leur portée , leur dernier message recu , etc": "Este complemento le permitirá vigilar todos sus sensores (Z-Wave, EnOcean, ZigBee) para verificar su salud, su alcance, su último mensaje recibido, etc",
         "Plugin de journalisation d'activité pour les équipements, scénarios, et fichiers log": "Complemento de registro de actividades para equipos, escenarios y archivos de registro",
+        "Gain Market": "Mercado de ganancias",
+        "Récupère votre solde sur le market Jeedom (en tant que développeur) et peut vous alerter lorsqu'il évolue ou que le paiement Jeedom est détecté": "Recupera su saldo en el mercado de Jeedom (como desarrollador) y puede alertarlo cuando cambia o cuando se detecta el pago de Jeedom",
         "Plugin fullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk": "Complemento FullyKiosK para la administración de tabletas usando la aplicación fullkiosk",
         "Ce plugin s'adresse à tous les iPad et iPhone retrouvés dans les placards et tiroirs, qui ont pris la poussière, que l'on a oubliés ou délaissés": "Este complemento es para todos los iPads y iPhones que se encuentran en armarios y cajones, que han acumulado polvo, que han sido olvidados o abandonados",
         "AdGuard Home": "Inicio de AdGuard",

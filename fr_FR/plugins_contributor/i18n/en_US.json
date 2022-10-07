@@ -480,6 +480,8 @@
         "Monitor sensors": "Monitor sensors",
         "Ce plugin va vous permettre de garder un oeil sur l'ensemble de vos capteurs (Z-Wave , EnOcean, ZigBee) afin de vérifier leur santé, leur portée , leur dernier message recu , etc": "This plugin will allow you to keep an eye on all of your sensors (Z-Wave, EnOcean, ZigBee) in order to check their health, their range, their last message received, etc",
         "Plugin de journalisation d'activité pour les équipements, scénarios, et fichiers log": "Activity logging plugin for equipment, scenarios, and log files",
+        "Gain Market": "Gain Market",
+        "Récupère votre solde sur le market Jeedom (en tant que développeur) et peut vous alerter lorsqu'il évolue ou que le paiement Jeedom est détecté": "Recovers your balance on the Jeedom market (as a developer) and can alert you when it changes or when the Jeedom payment is detected",
         "Plugin fullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk": "FullyKiosK plugin for tablet management using the fullykiosk app",
         "Ce plugin s'adresse à tous les iPad et iPhone retrouvés dans les placards et tiroirs, qui ont pris la poussière, que l'on a oubliés ou délaissés": "This plugin is for all iPads and iPhones found in cupboards and drawers, which have gathered dust, which have been forgotten or abandoned",
         "AdGuard Home": "AdGuard Home",

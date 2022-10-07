@@ -1,0 +1,23 @@
+{
+	"id" : "gain_market",
+	"name" : "Gain Market",
+	 "specialAttributes" : {
+
+	  },
+	"description" : {
+		"fr_FR": "Récupère votre solde sur le market Jeedom (en tant que développeur) et peut vous alerter lorsqu'il évolue ou que le paiement Jeedom est détecté"
+	},
+	"licence" : "AGPL",
+	"author" : "Frixo",
+	"require" : "4.0.00",
+	"category" : "monitoring",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 10,
+	"changelog" : "https://frixo3190.github.io/jeedom_plugins/gain_market/docs/fr_FR/#changelog",
+	"documentation" : "https://frixo3190.github.io/jeedom_plugins/gain_market/docs/fr_FR/",
+	"link" : {
+	},
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+}
