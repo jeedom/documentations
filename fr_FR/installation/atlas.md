@@ -2,16 +2,16 @@
 
 ## Présentation
 
-La Jeedom Atlas est équipée d’un disque Emmc, garantissant une meilleur fiabilité qu'une carte SD, mais ce disque n’est pas directement accessible.
+La Jeedom Atlas est équipée d’un disque Emmc, garantissant une meilleure fiabilité qu'une carte SD, mais ce disque n’est pas directement accessible.
 
 Le Recovery Mode USB englobe à la fois le système, l’OS, et aussi l’application Jeedom.
 
 Il permet :
 
-- La reinitialisation de la Jeedom Atlas en configuration « usine » OS+Jeedom.
-- La reinitialisation de la Jeedom Atlas en configuration « usine », en appliquant ensuite sa sauvegarde Jeedom.
+- La réinitialisation  de la Jeedom Atlas en configuration « usine » OS+Jeedom.
+- La réinitialisation  de la Jeedom Atlas en configuration « usine », en appliquant ensuite sa sauvegarde Jeedom.
 
-Pour rappel la gestion des sauvegardes/restauration est disponible dans Jeedom dans le menu « Reglages » en haut à droite, puis « Sauvegardes ».
+Pour rappel la gestion des sauvegardes/restauration est disponible dans Jeedom dans le menu « Réglages » en haut à droite, puis « Sauvegardes ».
 
 Jeedom propose un service avec abonnement de sauvegarde automatique sur cloud privé Jeedom, pour ne plus vous soucier de rien. (Sur le Market, dans votre compte, menu à gauche « Backup Cloud »).
 
@@ -23,11 +23,11 @@ Jeedom propose un service avec abonnement de sauvegarde automatique sur cloud pr
 
 
 >**Note**
-IMPORTANT : Suivant si vous avez encore accès ou non à votre box, la procedure n'est pas la même.
+IMPORTANT : Suivant si vous avez encore accès ou non à votre box, la procédure n'est pas la même.
 
 
 
-Matériel necessaire : une clé USB (minimum 16Go).
+Matériel nécessaire : une clé USB (minimum 16Go).
 
 
 
@@ -35,17 +35,17 @@ Matériel necessaire : une clé USB (minimum 16Go).
 CAS 1 : VOUS AVEZ ACCES A VOTRE BOX ATLAS
 
 
-Rendez vous dans le plugin Atlas (Passerelle Domotique/Plugin Atlas), et cliquez sur Recovery, et suivez la procédure.
+Rendez-vous dans le plugin Atlas (Passerelle Domotique/Plugin Atlas), et cliquez sur Recovery, et suivez la procédure.
 
 ***
 
 
 
-CAS 2 : VOUS N'AVEZ ACCES A VOTRE BOX ATLAS
+CAS 2 : VOUS N'AVEZ PAS ACCES A VOTRE BOX ATLAS
 
 
 
-- Téléchargez le Recovery depuis votre profil sur le market : Profil / Mes Services et cliquer sur Telecharger USB Recovery Atlas
+- Téléchargez le Recovery depuis votre profil sur le market : Profil / Mes Services et cliquer sur Télécharger USB Recovery Atlas
 
 ![profilrecovery](images/profilrecovery.png)
 
@@ -55,13 +55,13 @@ CAS 2 : VOUS N'AVEZ ACCES A VOTRE BOX ATLAS
 
 
 
-- Dans le logiciel, choississez votre image téléchargée, puis votre clé usb 
+- Dans le logiciel, choisissez votre image téléchargée, puis votre clé usb 
 
 ![balenaetcher](images/balenaetcher.png)
 
 
 
-- Une fois la clé prête, la mettre dans le port USB 2 inferieur (port USB noir), puis allumer votre box Atlas
+- Une fois la clé prête, la mettre dans le port USB 2 inférieur (port USB noir), puis allumer votre box Atlas
 
 
 
@@ -69,7 +69,7 @@ CAS 2 : VOUS N'AVEZ ACCES A VOTRE BOX ATLAS
 
 
 
-- Puis rendez vous sur http://jeedomatlasrecovery.local/
+- Puis rendez-vous sur http://jeedomatlasrecovery.local/
 
 
 
