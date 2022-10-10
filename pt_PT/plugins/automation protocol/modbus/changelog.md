@@ -27,3 +27,11 @@
 # 16/08/2022
 
 - Escolha da porta para Modbus TCP (por padrão 502)
+
+# 23/09/2022
+
+- Biblioteca pyModbus de logs de alterações
+
+# 26/09/2022
+
+- Novo parâmetro de tempo limite entre o registro de leitura
