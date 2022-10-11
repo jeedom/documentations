@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 10/11/2022
+
+- Bug fix
+- Added new type
 
 # 02/03/2022
 
