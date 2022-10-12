@@ -330,15 +330,8 @@ If for a given daemon (1, 2 or 3) you change the Zigbee key without restoring a 
 
 >**I have a standard error "base.timeout" when starting the daemon on an EZSP type key**
 >
->It is possible that the key is blocked in bootloader mode, to get out of it you can do the following lines (one by one) in the Jeedom system console (be careful if you are not under Jeedom Atlas you must replace /dev/ttyS2 by the port of the zigbee key, ex /dev/ttyUSBX with X a number corresponding to your configuration):
+>It is possible that the key is blocked in bootloader mode, to get out of it you can go to the configuration of the plugin then click on "Update the firmware", select your type of key (on Smart/Atlas it is Elelabs/Popp ), in Zigbee port select your port and in firmware select "Correction bootloader"
 > Important : this manipulation should only be done with Elelabs, Jeedom Atlas or Jeedom Smart type keys. On any other key you must contact the manufacturer to give you the procedure.
-````````
-wgand https://github.com/Elelabs/elelabs-zigbee-ezsp-utility/archive/master.zip -O /tmp/elelabs.zip
-cd /tmp;unzip -o elelabs.zip
-cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py flash -p /dev/ttyS2 -f /tmp/elelabs-zigbee-ezsp-utility-master/data/EFR32MG13/ELE_MG13_zb_ncp_115200_610_211112.gbl
-cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py probe -p /dev/ttyS2
-rm -rf /tmp/elelabs-zigbee-ezsp-utility-master
-````````
 
 >**I can't install dependencies**
 >

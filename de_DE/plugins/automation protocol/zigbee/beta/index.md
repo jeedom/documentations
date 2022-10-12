@@ -330,15 +330,8 @@ Wenn Sie für einen bestimmten Daemon (1, 2 oder 3) den Zigbee-Schlüssel änder
 
 >**Ich habe einen Standardfehler "base.timeout", wenn der Daemon auf einem Schlüssel vom Typ EZSP gestartet wird**
 >
->Es ist möglich, dass der Schlüssel im Bootloader-Modus blockiert ist, um ihn zu verlassen, können Sie die folgenden Zeilen (eine nach der anderen) in der Jeedom-Systemkonsole ausführen (seien Sie vorsichtig, wenn Sie sich nicht unter Jeedom Atlas befinden, müssen Sie /dev/ttyS2 durch den Port des Zigbee-Schlüssels, z. B. /dev/ttyUSBX mit X eine Nummer, die Ihrer Konfiguration entspricht):
+>Es ist möglich, dass der Schlüssel im Bootloader-Modus blockiert ist, um ihn zu verlassen, können Sie zur Konfiguration des Plugins gehen und dann auf "Firmware aktualisieren" klicken, Ihren Schlüsseltyp auswählen (auf Smart/Atlas ist es Elelabs/Popp ), wählen Sie unter Zigbee-Port Ihren Port aus und wählen Sie unter Firmware „Korrektur Bootloader"
 > Wichtig : Diese Manipulation sollte nur mit Schlüsseln vom Typ Elelabs, Jeedom Atlas oder Jeedom Smart durchgeführt werden. Bei allen anderen Schlüsseln müssen Sie sich an den Hersteller wenden, um Ihnen das Verfahren mitzuteilen.
-````````
-wgund https://github.com/Elelabs/elelabs-zigbee-ezsp-utility/archive/master.zip -O /tmp/elelabs.zip
-cd /tmp;unzip -o elelabs.zip
-cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py flash -p /dev/ttyS2 -f /tmp/elelabs-zigbee-ezsp-utility-master/data/EFR32MG13/ELE_MG13_zb_ncp_115200_610_211112.gbl
-cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py probe -p /dev/ttyS2
-rm -rf /tmp/elelabs-zigbee-ezsp-utility-master
-````````
 
 >**Ich kann keine Abhängigkeiten installieren**
 >
