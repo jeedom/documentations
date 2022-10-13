@@ -14,9 +14,9 @@
   "hasOwnDeamon": false,
   "maxDependancyInstallTime": 0,
   "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/documentation-du-plugin-beem-pour-jeedom/",
+  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
   "changelog_beta": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
-  "documentation_beta": "https://flobul-domotique.fr/documentation-du-plugin-beem-pour-jeedom/",
+  "documentation_beta": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
   "link": {
     "forum": "https://community.jeedom.com/tag/plugin-beem"
   },
