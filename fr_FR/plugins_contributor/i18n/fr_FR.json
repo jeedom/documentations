@@ -6,6 +6,8 @@
         "Plugin pour gérer des équipements X10 via le démon Mochad et une interface informatique CM15": "Plugin pour gérer des équipements X10 via le démon Mochad et une interface informatique CM15",
         "Jeedouino": "Jeedouino",
         "Plugin Jeedouino pour gérer une\/des carte(s) Arduino (via Ethernet ou USB ), les GPIO du R.PI, les cartes PiFace (piRack), les cartes RPI IO Plus 32e\/s, les MCP23017 (sur RPI) ou les ESP8266 \/ NodeMCU \/ Wemos": "Plugin Jeedouino pour gérer une\/des carte(s) Arduino (via Ethernet ou USB ), les GPIO du R.PI, les cartes PiFace (piRack), les cartes RPI IO Plus 32e\/s, les MCP23017 (sur RPI) ou les ESP8266 \/ NodeMCU \/ Wemos",
+        "Homekit Network Devices Control": "Homekit Network Devices Control",
+        "Ce plugin permet de controler dans jeedom vos périphériques Homekit Réseaux (pas les BLE": "Ce plugin permet de controler dans jeedom vos périphériques Homekit Réseaux (pas les BLE",
         "Global Cache": "Global Cache",
         "Ce plugin permet de connecter tous les appareils Global Cache à Jeedom": "Ce plugin permet de connecter tous les appareils Global Cache à Jeedom",
         "EIB - KN": "EIB - KN",
@@ -27,7 +29,9 @@
         "Documentation Beta": "Documentation Beta",
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
-        "Changelog Beta": "Changelog Beta"
+        "Changelog Beta": "Changelog Beta",
+        "Le but de ce plugin est de permettre le contrôle de périphériques qui ne sont compatibles que avec le protocole Homekit et aucun autre protocole": "Le but de ce plugin est de permettre le contrôle de périphériques qui ne sont compatibles que avec le protocole Homekit et aucun autre protocole",
+        "Donc par exemple pas Philips Hue qui est accessible via un plugin dédié": "Donc par exemple pas Philips Hue qui est accessible via un plugin dédié"
     },
     "plugins_contributor\/automatisation\/index.md": {
         "Volet proportionel": "Volet proportionel",
