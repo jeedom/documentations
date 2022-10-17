@@ -4,7 +4,7 @@ Aus jeedom v4.2 Es ist möglich, die Verwaltung der Abhängigkeiten Ihrer Plugin
 
 # Exemples
 
-`` ``json
+```json
 {
   "apt" : {
     "git" : {},
@@ -35,9 +35,9 @@ Aus jeedom v4.2 Es ist möglich, die Verwaltung der Abhängigkeiten Ihrer Plugin
     "script" : "plugins / openzwave / resources / post-install.sh"
   }
 }
-`` ``
+```
 
-`` ``json
+```json
 {
   "apt" : {
     "libav-tools" : {"alternative" : ["ffmpeg"]},
@@ -49,9 +49,9 @@ Aus jeedom v4.2 Es ist möglich, die Verwaltung der Abhängigkeiten Ihrer Plugin
     "restart_apache" : true
   }
 }
-`` ``
+```
 
-`` ``json
+```json
 {
   "apt" : {
     "python3" : {},
@@ -75,9 +75,9 @@ Aus jeedom v4.2 Es ist möglich, die Verwaltung der Abhängigkeiten Ihrer Plugin
     "bellows" : {"reinstall" : true}
   }
 }
-`` ``
+```
 
-`` ``json
+```json
 {
   "apt" : {
     "nodejs" : {}
@@ -86,7 +86,7 @@ Aus jeedom v4.2 Es ist möglich, die Verwaltung der Abhängigkeiten Ihrer Plugin
     "Plugins / Dyson / Ressourcen / Dysond"  : {}
   }
 }
-`` ``
+```
 
 Derzeit schafft er : ``apt``, ``nodejs (npm)`` , ``pip2`` und ``pip3``, mit der Möglichkeit, Skripte vor / nach der Installation zu starten und ihn zu bitten, Apache in der Post neu zu starten.
 

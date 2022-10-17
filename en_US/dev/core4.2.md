@@ -1,4 +1,4 @@
-## Core v4.2 | Plugin developers
+## Core v4.2 | Plugin Developers
 
 
 ### Obsolete
@@ -22,7 +22,7 @@ These modifications are still supported in v4.2 and will switch to **Obsolete** 
 - Php method `convertDayEnToFr` : `convertDayFromEn` (utils.inc)
 
 
-### Optional modifications
+### Optional changes
 
 #### Tile background graphic
 
@@ -30,14 +30,14 @@ V4.2 is used to define, on an eqLogic, an info command whose history will be dis
 
 For this your plugin must allow it in plugins / myplugin / core / class / myplugin.class.php:
 
-`` ``php
+```php
 class myplugin extends eqLogic {
     public static $ _widgetPossibility = array ('custom' => true);
-`` ``
+```
 
 If your plugin has a specific template for its equipment, the desktop version of it must be updated with `#divGraphInfo#`for display :
 
-`` ``html
+```html
 <div class="eqLogic eqLogic-widgand allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;height: #height#;#style#">
   <div class="#isVerticalAlign#">
     <center>
@@ -50,7 +50,7 @@ If your plugin has a specific template for its equipment, the desktop version of
   </script>
 </div>
 
-`` ``
+```
 
 
 #### Orphan commands
@@ -300,13 +300,13 @@ If your third party plugins / widgets use sliders, it is better to migrate to th
 
 You can test the existence of the lib like this :
 
-`` ``js
+```js
 if (typeof noUiSlider !== 'undefined') {
   console.log ('noUiSlider code here')
 } else {
   console.log ('old code here')
 }
-`` ``
+```
 
 #### Translation of third-party widgets
 
@@ -321,7 +321,7 @@ translation path : `data \ customTemplates \ i18n \ cmd.info.string.myCustomWidg
 
 Example :
 
-`` ``html
+```html
 <div class="content-xs">
     <span class="cmdName #hide_name#">#name_display#</span> <strong class="state"></strong>
     {{I am a third party widget}}
@@ -330,9 +330,9 @@ Example :
     <div>param : {{My third-party setting}}.</div>
   </template>
   <script>
-`` ``
+```
 
-`` ``json
+```json
   {
     "en_US": {
       "I am a third party widget": "I am a custom widget",
@@ -347,7 +347,7 @@ Example :
       "My third-party setting": "Meine Einstellung von Drittanbietern"
     }
   }
-`` ``
+```
 
 > The texts `Value date`,` Collection date` and all those found in Core widgets do not need to be in json. If you don't have other texts in your widget, then the json is not needed, and these strings will be translated.
 
@@ -362,7 +362,7 @@ When opening this page, the Core checks, for each plugin, if it has a `` pluginG
 
 Example, in the file `plugins / myplugin / core / php / myplugin.class.php`:
 
-`` ``php
+```php
 class myPlugin extends eqLogic
 {
     /*     * ***********************Static method*************************** */
@@ -389,7 +389,7 @@ class myPlugin extends eqLogic
         return $ generics;
     }
 
-`` ``
+```
 
 Here, the plugin `myPlugin` will 'inject' two Generic Types :
 

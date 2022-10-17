@@ -12,7 +12,7 @@ Daraufhin muss die Funktion toHtml, nichts Besonderes, das Widget in HTML zurüc
 Das Wichtigste ist vor allem die 1. Zeile :
 
 ````php
-$replace = $this->preToHtml($_version);;
+$replace = $this->preToHtml($_version);
 Eibe (!is_array ($ replace)) {
 	return $ replace;
 }
@@ -31,7 +31,7 @@ Vohier un exemple :
 
 ````php
 öffentliche statische Funktion templateWidget(){
-	$return = array('info' => array('string' => array()));;
+	$return = array('info' => array('string' => array()));
 	$return['info']['string']['state'] = array(
 		'template' => 'tmplmultistate',
 		'test' => array(
@@ -39,7 +39,7 @@ Vohier un exemple :
 			array('operation' => '#value# == 3','state' => '<i class="fa fa-pause"></i>'),
 			array('operation' => '#value# > 3 || #value# < 2','state' => '<i class="fa fa-home"></i>')
 		)
-	);;
+	);
 	return $ return;
 }
 ````
@@ -58,14 +58,14 @@ Ein anderes Beispiel, das auf einer anderen Vorlage basiert, könnte sein :
 
 ````php
 öffentliche statische Funktion templateWidget(){
-	$return = array('info' => array('string' => array()));;
+	$return = array('info' => array('string' => array()));
 	$return['info']['binary']['toto'] = array(
 		'template '=>' tmplicon',
 		'Ersetzen Sie '=> Array(
 			'#_icon_on_#' => '<i class=\'icon_green icon jeedom-porte-ferme\'></i>',
 			'#_icon_off_#' => '<i class=\'icon_red icon jeedom-porte-ouverte\'></i>'
 			)
-	);;
+	);
 	return $ return;
 }
 ````
@@ -79,8 +79,8 @@ Ici, je crée un widget toto basé sur le template "tmplicon" en type info et so
 Ensuite, pour utiliser votre widget :
 
 ````php
-$cmd->setTemplate('dashboard','neato::state');;
-$cmd->setTemplate('mobile','neato::state');;
+$cmd->setTemplate('dashboard','neato::state');
+$cmd->setTemplate('mobile','neato::state');
 ````
 
 Es ist wie bei einem normalen Widget, mit Ausnahme des Namens des Widgets in der Form id_plugin::name_widget. Für das zweite Beispiel ist es id_plugin::toto

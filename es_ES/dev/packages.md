@@ -4,7 +4,7 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
 
 # Exemples
 
-`` ``json
+```json
 {
   "apt" : {
     "git" : {},
@@ -35,9 +35,9 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
     "script" : "plugins / openzwave / resources / post-install.sh"
   }
 }
-`` ``
+```
 
-`` ``json
+```json
 {
   "apt" : {
     "libav-tools" : {"alternative" : ["ffmpeg"]},
@@ -49,9 +49,9 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
     "reiniciar_apache" : true
   }
 }
-`` ``
+```
 
-`` ``json
+```json
 {
   "apt" : {
     "python3" : {},
@@ -75,9 +75,9 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
     "bellows" : {"reinstall" : true}
   }
 }
-`` ``
+```
 
-`` ``json
+```json
 {
   "apt" : {
     "nodejs" : {}
@@ -86,7 +86,7 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
     "plugins / dyson / resources / dysond"  : {}
   }
 }
-`` ``
+```
 
 Actualmente maneja : ``apt``, ``nodejs (npm)`` , ``pip2`` y ``pip3``, con la posibilidad de ejecutar scripts previos / posteriores a la instalación y pedirle que reinicie Apache en la publicación.
 

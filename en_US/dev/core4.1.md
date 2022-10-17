@@ -1,4 +1,4 @@
-## Core v4.1 | Plugin developers
+## Core v4.1 | Plugin Developers
 
 ### Suppression
 

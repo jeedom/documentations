@@ -1,4 +1,4 @@
-## Core v4.0 | Plugin developers
+## Core v4.0 | Plugin Developers
 
 ### Deprecated
 

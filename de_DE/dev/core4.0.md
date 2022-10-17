@@ -1,4 +1,4 @@
-## Core v4.0 | Plugin-Entwickler
+## Kern v4.0 | Plugin-Entwickler
 
 ### Deprecated
 

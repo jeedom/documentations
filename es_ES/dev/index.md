@@ -16,6 +16,7 @@ Una [cuenta de desarrollador](https://blog.jeedom.com/jeedom-partenaire/) es nec
 
 ### Evoluciones principales y adaptaciones de complementos
 
+- [Núcleo v4.4](/es_ES/dev/core4.4)
 - [Core v4.3](/es_ES/dev/core4.3)
 - [Core v4.2](/es_ES/dev/core4.2)
 - [Core v4.1](/es_ES/dev/core4.1)

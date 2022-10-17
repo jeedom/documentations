@@ -1,4 +1,4 @@
-## Core v4.1 | Plugin-Entwickler
+## Kern v4.1 | Plugin-Entwickler
 
 ### Suppression
 
