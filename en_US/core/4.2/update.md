@@ -16,7 +16,7 @@ At the opening of the page, if this verification is more than two hours old, Jee
 You can also use the button **Check for updates** To do it manually.
 If you want to perform a manual check, you can press the button "Check for updates".
 
-The button **Save** is to be used when you change the options in the table below, to specify not to update certain plugins if necessary.
+The button **To safeguard** is to be used when you change the options in the table below, to specify not to update certain plugins if necessary.
 
 ## Update the Core
 
@@ -45,7 +45,7 @@ The table contains the versions of the Core and installed plugins.
 The plugins have a badge next to their name, specifying their version, green in color *stable*, or orange in *beta* Or other.
 
 - **Status** : OK or NOK.
-- **Last name** : Name and origin of the plugin
+- **Name** : Name and origin of the plugin
 - **Version** : Indicates the precise version of the Core or plugin.
 - **Options** : Check this box if you do not want this plugin to be updated during the global update (Button **Update**).
 
@@ -65,6 +65,14 @@ On each line, you can use the following functions:
 > **Tip**
 >
 > When you launch an update, a progress bar appears above the table. Avoid other manipulations during the update.
+
+## OS/Package tab
+
+> **Important**
+>
+> This tab is reserved for advanced users and only for advanced users, the slightest bad action here can BREAK your Jeedom (without the possibility of resorting to support)
+
+This tab allows you to see the updates available for the os (apt), python package (pip2 and pip3) as well as update the packages that require it. 
 
 ## Information tab
 

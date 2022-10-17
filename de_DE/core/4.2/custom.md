@@ -1,7 +1,7 @@
 # Erweiterte Anpassung
 **Einstellungen → System → Erweiterte Anpassung**
 
-Hier können Sie Funktionen verwalten **JavaScript** und Regeln **CSS** auf Desktop oder Handy angewendet.
+Hier können Sie Funktionen verwalten **Javascript** und Regeln **CSS** auf Desktop oder Handy angewendet.
 
 > **Warnung**
 >
@@ -22,7 +22,7 @@ In der Menüleiste des Core-Dateieditors befindet sich eine Schaltfläche **Erm�
 
 [CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 [Tipps zum Anpassen der Benutzeroberfläche](https://kiboost.github.io/jeedom_docs/jeedomV4Tips/Interface/)
 

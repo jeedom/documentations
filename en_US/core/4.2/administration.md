@@ -44,6 +44,8 @@ In this tab you will find the display customization parameters.
 - **Vertical centering of tiles** : Vertically centers the content of the tiles.
 - **Colorful widget icons** : Coloring widget icons based on their state. Modifiable by scenario, *setColoredIcon* ('Icon coloring').
 - **Colored categories** : Colorization of the title of the tiles according to the category.
+- **Mobile : a default column** : Full-width display of tiles in mobile
+
 
 ### Background images
 
@@ -248,7 +250,7 @@ Here you have three parameters :
         - *Jeedom* : Temperature 23.6 ° C, Temperature 27.2 ° C
 -   Type interactions **Warn me** allow to ask Jeedom to warn you if a command exceeds / falls or is worth a certain value.
     - *You* : Notify me if the living room temperature exceeds 25 ° C ?
-    - *Jeedom* : Okay (*As soon as the living room temperature exceeds 25 ° C, Jeedom will tell you, once*)
+    - *Jeedom* : OK (*As soon as the living room temperature exceeds 25 ° C, Jeedom will tell you, once*)
 
 > **Note**
 >
@@ -276,7 +278,7 @@ Here are the different options available :
 
 - **Enable LDAP authentication** : enable authentication through an AD (LDAP).
 - **Host** : server hosting the AD.
-- **Field** : domain of your AD.
+- **Domain** : domain of your AD.
 - **DN base** : DN base of your AD.
 - **Username** : username for Jeedom to log into AD.
 - **Password** : password for Jeedom to connect to AD.

@@ -16,7 +16,7 @@ Al abrir la página, si esta verificación tiene más de dos horas, Jeedom rehac
 También puedes usar el botón **Buscar actualizaciones** Para hacerlo manualmente.
 Si desea realizar una verificación manual, puede presionar el botón "Buscar actualizaciones".
 
-El botón **Salvar** se utilizará cuando cambie las opciones en la tabla a continuación, para especificar que no se actualicen ciertos complementos si es necesario.
+El botón **Para salvaguardar** se utilizará cuando cambie las opciones en la tabla a continuación, para especificar que no se actualicen ciertos complementos si es necesario.
 
 ## Actualiza el núcleo
 
@@ -65,6 +65,14 @@ En cada línea, puede usar las siguientes funciones:
 > **Propina**
 >
 > Cuando inicia una actualización, aparece una barra de progreso sobre la tabla. Evite otras manipulaciones durante la actualización.
+
+## Pestaña OS/Paquete
+
+> **Importante**
+>
+> Esta pestaña está reservada para usuarios avanzados y solo para usuarios avanzados, la más mínima mala acción aquí puede ROMPER su Jeedom (sin la posibilidad de recurrir al soporte)
+
+Esta pestaña le permite ver las actualizaciones disponibles para el paquete os (apt), python (pip2 y pip3), así como actualizar los paquetes que lo requieren. 
 
 ## Pestaña de información
 

@@ -70,7 +70,7 @@ When the commands are chosen, click on Validate.
 
 
 
-You will now see the orders chosen and ready to be exported in this insert :
+You will now see the orders chosen and ready to be exported in this box :
 
 ![dependances](../images/exportCmds.png)
 
@@ -86,7 +86,8 @@ To import commands to equipment : click at the top right of the equipment on the
 
 
 
-
+You can also choose directly an equipment model available in the configuration of the plugin, to load commands provided in this model; 
+Choose the chosen model, then Validate. Then you can Save. 
 
 
 
@@ -110,6 +111,17 @@ For Coils and Discrete Inputs :
   - Choose the corresponding format : Float , Long/Integer or Bits
   - Choose the corresponding function code : FC04 or FC03
   - The starting register as well as the number of bytes : for floats, the maximum number of encoded registers is 4 registers.
+  
+  
+Some registers can only be read by reading several registers at the same time on the same command :
+
+example : We create a command, choose Info and other subtype, specifying 10 bytes (10 registers); by checking LectureMultiRegistres, this will automatically create 10 new orders, using the name of the original order, plus the id of the order in iteration. You can of course rename the commands; when reading the original command, its value will contain a character string of the 10 register values, and will update the 10 corresponding commands.
+
+
+
+Some registers may require to be split into several bytes :
+example : a register 17, according to the documentation of the device, must return a value FF or 00 (to know if a fan works or not) on the first byte of the register, as well as a numerical value on the second byte of the register.
+It is then necessary to create a command in fc3, and to specify in the nbOctets field the figure 2; this will create 2 additional commands, based on the name of the initial command; these 2 commands each correspond to a byte. The values returned above will be in hexadecimal; if you need the numerical value, then you have to check Hexa2dec on this same command.
 
 
 
@@ -207,3 +219,8 @@ To Write to a Holding Register :
 - Choose Bc6 Write Single Register
 - Choose the number of registers : 1
 - Choose the step of the slider (for decimals, write with a .   ex: 0.2)
+
+
+
+When a write is done, whether it succeeds or not, a message appears on Jeedom. 
+You can disable/enable this message from the plugin configuration.

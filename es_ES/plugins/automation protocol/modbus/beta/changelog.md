@@ -35,3 +35,13 @@
 # 26/09/2022
 
 - Nuevo parámetro de tiempo de espera entre registro de lectura
+
+# 07/10/2022
+
+- Nuevo sistema de modelos pregrabados
+- Opción ReadMultiRegisters en los comandos
+
+# 13/10/2022
+
+- Opción Habilitar/Deshabilitar mensaje de escritura
+- Opción nbBytes para determinar la división de un registro en x bytes

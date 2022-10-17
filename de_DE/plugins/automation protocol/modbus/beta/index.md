@@ -70,7 +70,7 @@ Wenn die Befehle ausgewählt sind, klicken Sie auf Validieren.
 
 
 
-In dieser Beilage sehen Sie nun die ausgewählten Bestellungen, die für den Export bereit sind :
+In diesem Feld sehen Sie nun die ausgewählten Bestellungen, die für den Export bereit sind :
 
 ![dependances](../images/exportCmds.png)
 
@@ -86,7 +86,8 @@ Importieren von Befehlen in Geräte : Klicken Sie oben rechts neben dem Gerät a
 
 
 
-
+Sie können auch direkt ein Gerätemodell auswählen, das in der Konfiguration des Plugins verfügbar ist, um die in diesem Modell bereitgestellten Befehle zu laden; 
+Wählen Sie das ausgewählte Modell und dann Validieren. Dann können Sie speichern. 
 
 
 
@@ -110,6 +111,17 @@ Für Spulen und diskrete Eingänge :
   - Wählen Sie das entsprechende Format aus : Float , Long/Integer oder Bits
   - Wählen Sie den entsprechenden Funktionscode : FC04 oder FC03
   - Das Startregister sowie die Anzahl der Bytes : Für Gleitkommazahlen beträgt die maximale Anzahl codierter Register 4 Register.
+  
+  
+Einige Register können nur gelesen werden, indem mehrere Register gleichzeitig mit demselben Befehl gelesen werden :
+
+Beispiel : Wir erstellen einen Befehl, wählen Info und einen anderen Untertyp und geben 10 Bytes (10 Register) an; Durch Aktivieren von LectureMultiRegistres werden automatisch 10 neue Bestellungen erstellt, wobei der Name der ursprünglichen Bestellung plus die ID der Bestellung in Iteration verwendet wird. Sie können die Befehle natürlich umbenennen; Beim Lesen des ursprünglichen Befehls enthält sein Wert eine Zeichenfolge der 10 Registerwerte und aktualisiert die 10 entsprechenden Befehle.
+
+
+
+Einige Register müssen möglicherweise in mehrere Bytes aufgeteilt werden :
+Beispiel : Ein Register 17 muss laut Dokumentation des Geräts einen Wert FF oder 00 (um zu wissen, ob ein Lüfter funktioniert oder nicht) im ersten Byte des Registers sowie einen numerischen Wert im zweiten Byte des Registers zurückgeben.
+Es ist dann notwendig, einen Befehl in fc3 zu erstellen und im Feld nbOctets die Ziffer 2 anzugeben; Dadurch werden 2 zusätzliche Befehle erstellt, basierend auf dem Namen des ursprünglichen Befehls. diese 2 Befehle entsprechen jeweils einem Byte. Die oben zurückgegebenen Werte sind hexadezimal; Wenn Sie den numerischen Wert benötigen, müssen Sie Hexa2dec mit demselben Befehl überprüfen.
 
 
 
@@ -207,3 +219,8 @@ In ein Halteregister schreiben :
 - Wählen Sie Bc6 Write Single Register
 - Wählen Sie die Anzahl der Register : 1
 - Wählen Sie den Schritt des Schiebereglers (für Dezimalzahlen schreiben Sie mit a .   ex: 0.2)
+
+
+
+Wenn ein Schreibvorgang abgeschlossen ist, unabhängig davon, ob er erfolgreich ist oder nicht, wird auf Jeedom eine Nachricht angezeigt. 
+Sie können diese Meldung in der Plugin-Konfiguration deaktivieren/aktivieren.

@@ -70,7 +70,7 @@ Cuando se elijan los comandos, haga clic en Validar.
 
 
 
-Ahora verá los pedidos elegidos y listos para ser exportados en este inserto :
+Ahora verá los pedidos elegidos y listos para ser exportados en este cuadro :
 
 ![dependances](../images/exportCmds.png)
 
@@ -86,7 +86,8 @@ Para importar comandos al equipo : haga clic en la parte superior derecha del eq
 
 
 
-
+También puede elegir directamente un modelo de equipo disponible en la configuración del complemento, para cargar los comandos proporcionados en este modelo; 
+Elija el modelo elegido, luego Valide. Entonces puedes Guardar. 
 
 
 
@@ -110,6 +111,17 @@ Para bobinas y entradas discretas :
   - Elige el formato correspondiente : Flotante, Largo/Entero o Bits
   - Elija el código de función correspondiente : FC04 o FC03
   - El registro inicial así como el número de bytes : para flotantes, el número máximo de registros codificados es de 4 registros.
+  
+  
+Algunos registros solo se pueden leer leyendo varios registros al mismo tiempo en el mismo comando :
+
+ejemplo : Creamos un comando, elegimos Info y otro subtipo, especificando 10 bytes (10 registros); al verificar LectureMultiRegistres, esto creará automáticamente 10 nuevos pedidos, utilizando el nombre del pedido original, más la identificación del pedido en iteración. Por supuesto, puede cambiar el nombre de los comandos; al leer el comando original, su valor contendrá una cadena de caracteres de los 10 valores de registro y actualizará los 10 comandos correspondientes.
+
+
+
+Algunos registros pueden requerir ser divididos en varios bytes :
+ejemplo : un registro 17, según la documentación del dispositivo, debe devolver un valor FF o 00 (para saber si un ventilador funciona o no) en el primer byte del registro, así como un valor numérico en el segundo byte del registro.
+Entonces es necesario crear un comando en fc3, y especificar en el campo nbOctets el número 2; esto creará 2 comandos adicionales, basados en el nombre del comando inicial; estos 2 comandos corresponden cada uno a un byte. Los valores devueltos arriba estarán en hexadecimal; si necesita el valor numérico, debe verificar Hexa2dec en este mismo comando.
 
 
 
@@ -207,3 +219,8 @@ Para escribir en un registro de retención :
 - Elija BC6 Escribir registro único
 - Elige el número de registros : 1
 - Elija el paso del control deslizante (para decimales, escriba con un .   ex: 0.2)
+
+
+
+Cuando se realiza una escritura, ya sea que tenga éxito o no, aparece un mensaje en Jeedom. 
+Puede deshabilitar/habilitar este mensaje desde la configuración del complemento.
