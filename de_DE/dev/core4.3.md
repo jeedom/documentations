@@ -32,7 +32,7 @@ jeeFrontEnd = {
 }
 ```
 
-- Exemple: Die Funktion „displayPlan(id)“ wird zu „jeeFrontEnd.plan.displayPlan(id)“.
+- Exemple: Die Funktion „displayPlan()“ wird zu „jeeFrontEnd.plan.displayPlan()“.
 
 In der gleichen Logik befinden sich die von PHP an js übergebenen Variablen jetzt im Namespace jeephp2js{}
 

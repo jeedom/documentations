@@ -410,7 +410,7 @@
         "serverTZoffsetMin": "serverTZoffsetMin",
         "```": "```",
         "Exemple": "Exemple",
-        "La fonction `displayPlan(id)` devient `jeeFrontEnd.plan.displayPlan(id)`": "La fonction `displayPlan(id)` devient `jeeFrontEnd.plan.displayPlan(id)`",
+        "La fonction `displayPlan()` devient `jeeFrontEnd.plan.displayPlan()`": "La fonction `displayPlan()` devient `jeeFrontEnd.plan.displayPlan()`",
         "Dans la même logique, les variables passées du php au js sont maintenant dans namespace jeephp2js": "Dans la même logique, les variables passées du php au js sont maintenant dans namespace jeephp2js",
         "La variable js `planHeader_id` devient `jeephp2js.planHeader_id`": "La variable js `planHeader_id` devient `jeephp2js.planHeader_id`",
         "Modifications optionnelles": "Modifications optionnelles",

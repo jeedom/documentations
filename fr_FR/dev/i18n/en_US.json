@@ -735,7 +735,7 @@
         "NO_POPSTAT": "NO_POPSTAT",
         "\/\/@index.php": "\/\/@index.php",
         "```": "```",
-        "La fonction `displayPlan(id)` devient `jeeFrontEnd.plan.displayPlan(id)`": "The `displayPlan(id)` function becomes `jeeFrontEnd.plan.displayPlan(id)`",
+        "La fonction `displayPlan()` devient `jeeFrontEnd.plan.displayPlan()`": "The `displayPlan()` function becomes `jeeFrontEnd.plan.displayPlan()`",
         "Dans la même logique, les variables passées du php au js sont maintenant dans namespace jeephp2js": "In the same logic, the variables passed from php to js are now in namespace jeephp2js",
         "La variable js `planHeader_id` devient `jeephp2js.planHeader_id`": "The js variable `planHeader_id` becomes `jeephp2js.planHeader_id`",
         "Modifications optionnelles": "Optional modifications",
