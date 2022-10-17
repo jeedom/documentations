@@ -1,0 +1,31 @@
+{
+	"id": "notificationqueue",
+	"name": "Notification queue",
+	"description": "Plugin permettant de créer des commandes de notifications (commande de type action/message) qui se comportent comme une file d'attente et ne délivrent les notifications (envoyées dans leur file respective) que si une condition est remplie. Cela permet de gérer également les doublons et les (non-)répétitions de messages.",
+	"utilization": "Cela permet, par exemple, de ne délivrer une notification par voix (TTS) dans un pièce donnée que si quelqu'un si trouve, de vous avertir d'une action à faire que si vous êtes présent chez vous, de n'envoyer certaines communications que pendant la journée et éviter de faire sonner votre téléphone la nuit, de gérer automatiquement les (non-)répétitions de messages...",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.0",
+	"category": "communication",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/notificationqueue/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-notificationqueue",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
+}

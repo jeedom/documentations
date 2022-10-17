@@ -1,0 +1,31 @@
+{
+	"id": "miele",
+	"name": "Miele",
+	"description": "Plugin permettant d'intégrer tous les appareils de la gamme Miele@Home. Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions (en fonction de l'appareil)",
+	"utilization": "Vous devez avoir un compte utilisateur Miele avec au moins un appareil compatible Miele@Home lié et activer l'accès API (voir documentation)",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.0",
+	"category": "devicecommunication",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/miele/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/miele/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-miele",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
+}
