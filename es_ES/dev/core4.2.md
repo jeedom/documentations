@@ -1,4 +1,4 @@
-## Núcleo v4.2 | Desarrolladores de complementos
+## Core v4.2 | Desarrolladores de complementos
 
 
 ### Obsolete
@@ -22,7 +22,7 @@ Estas modificaciones todavía son compatibles con la v4.2 y cambiará a **Obsole
 - Método php `convertDayEnToFr` : `convertDayFromEn` (utils.inc)
 
 
-### Cambios opcionales
+### Modificaciones opcionales
 
 #### Gráfico de fondo de mosaico
 
@@ -30,14 +30,14 @@ V4.2 se utiliza para definir, en un eqLogic, un comando de información cuyo his
 
 Para esto, su complemento debe permitirlo en plugins / myplugin / core / class / myplugin.class.php:
 
-```php
+`` ``php
 clase myplugin extiende eqLogic {
     public static $ _widgetPossibility = array ('personalizado' => verdadero);
-```
+`` ``
 
 Si su complemento tiene una plantilla específica para su equipo, la versión de escritorio debe actualizarse con `#divGraphInfo#`para exhibición :
 
-```html
+`` ``html
 <div class="eqLogic eqLogic-widgy allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;height: #height#;#style#">
   <div class="#isVerticalAlign#">
     <center>
@@ -50,7 +50,7 @@ Si su complemento tiene una plantilla específica para su equipo, la versión de
   </script>
 </div>
 
-```
+`` ``
 
 
 #### Comandos huérfanos
@@ -300,13 +300,13 @@ Si sus complementos / widgets de terceros usan controles deslizantes, es mejor m
 
 Puede probar la existencia de la biblioteca de esta manera :
 
-```js
+`` ``js
 if (typeof noUiSlider !== 'undefined') {
   console.log ('código noUiSlider aquí')
 } más {
   console.log ('código antiguo aquí')
 }
-```
+`` ``
 
 #### Traducción de widgets de terceros
 
@@ -321,7 +321,7 @@ ruta de traducción : `data \ customTemplates \ i18n \ cmd.info.string.myCustomW
 
 Ejemplo :
 
-```html
+`` ``html
 <div class="content-xs">
     <span class="cmdName #hide_name#">#name_display#</span> <strong class="state"></strong>
     {{Soy un widget de terceros}}
@@ -330,9 +330,9 @@ Ejemplo :
     <div>param : {{Mi configuración de terceros}}.</div>
   </template>
   <script>
-```
+`` ``
 
-```json
+`` ``json
   {
     "en_US": {
       "Soy un widget de terceros": "Soy un widget personalizado",
@@ -347,7 +347,7 @@ Ejemplo :
       "Mi configuración de terceros": "Meine Einstellung von Drittanbietern"
     }
   }
-```
+`` ``
 
 > Los textos `Fecha de valor`,` Fecha de colección` y todos los que se encuentran en los widgets Core no necesitan estar en el json. Si no tiene otros textos en su widget, entonces el json no es necesario y estas cadenas se traducirán.
 
@@ -362,7 +362,7 @@ Al abrir esta página, el Core comprueba, para cada complemento, si tiene un mé
 
 Ejemplo, en el archivo `plugins / myplugin / core / php / myplugin.class.php`:
 
-```php
+`` ``php
 class myPlugin extiende eqLogic
 {
     /*     * ***********************Método estático*************************** */
@@ -389,7 +389,7 @@ class myPlugin extiende eqLogic
         return $ genéricos;
     }
 
-```
+`` ``
 
 Aquí, el complemento `myPlugin` 'inyectará' dos tipos genéricos :
 

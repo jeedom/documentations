@@ -4,7 +4,7 @@ From jeedom v4.2 it is possible to partly entrust the management of the dependen
 
 # Exemples
 
-```json
+`` ``json
 {
   "apt" : {
     "git" : {},
@@ -35,9 +35,9 @@ From jeedom v4.2 it is possible to partly entrust the management of the dependen
     "script" : "plugins / openzwave / resources / post-install.sh"
   }
 }
-```
+`` ``
 
-```json
+`` ``json
 {
   "apt" : {
     "libav-tools" : {"alternative" : ["ffmpeg"]},
@@ -49,9 +49,9 @@ From jeedom v4.2 it is possible to partly entrust the management of the dependen
     "restart_apache" : true
   }
 }
-```
+`` ``
 
-```json
+`` ``json
 {
   "apt" : {
     "python3" : {},
@@ -75,9 +75,9 @@ From jeedom v4.2 it is possible to partly entrust the management of the dependen
     "bellows" : {"reinstall" : true}
   }
 }
-```
+`` ``
 
-```json
+`` ``json
 {
   "apt" : {
     "nodejs" : {}
@@ -86,7 +86,7 @@ From jeedom v4.2 it is possible to partly entrust the management of the dependen
     "plugins / dyson / resources / dysond"  : {}
   }
 }
-```
+`` ``
 
 Currently he manages : ``apt``, ``nodejs (npm)`` , ``pip2`` and ``pip3``, with the possibility of launching pre / post installation scripts and asking him to restart apache in post.
 

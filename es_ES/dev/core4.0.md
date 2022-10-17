@@ -1,4 +1,4 @@
-## Núcleo v4.0 | Desarrolladores de complementos
+## Core v4.0 | Desarrolladores de complementos
 
 ### Deprecated
 

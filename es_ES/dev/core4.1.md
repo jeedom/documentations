@@ -1,4 +1,4 @@
-## Núcleo v4.1 | Desarrolladores de complementos
+## Core v4.1 | Desarrolladores de complementos
 
 ### Suppression
 

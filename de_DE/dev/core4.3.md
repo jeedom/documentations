@@ -1,4 +1,4 @@
-## Kern v4.3 | Plugin-Entwickler
+## Core v4.3 | Plugin-Entwickler
 
 ### Obsolete
 
@@ -38,7 +38,7 @@ In der gleichen Logik befinden sich die von PHP an js übergebenen Variablen jet
 
 - Exemple: Die js-Variable „planHeader_id“ wird zu „jeephp2js.planHeader_id“.
 
-### Optionale Änderungen
+### Optionale Modifikationen
 
 - addCmdToTable()
 

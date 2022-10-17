@@ -1,4 +1,4 @@
-## Kern v4.2 | Plugin-Entwickler
+## Core v4.2 | Plugin-Entwickler
 
 
 ### Obsolete
@@ -30,15 +30,15 @@ V4.2 wird verwendet, um auf einer eqLogic einen Info-Befehl zu definieren, desse
 
 Dazu muss dein Plugin es in plugins / myplugin / core / class / myplugin.class.php zulassen:
 
-```php
+`` ``php
 Klasse myplugin erweitert eqLogic {
     public static $ _widgetPossibility = array ('custom' => true);
-```
+`` ``
 
 Wenn Ihr Plugin eine bestimmte Vorlage für seine Ausrüstung hat, muss die Desktop-Version davon mit ` . aktualisiert werden#divGraphInfo#`zur Anzeige :
 
-```html
-<div class="eqLogic eqLogic-widgund allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;height: #height#;#style#">
+`` ``html
+<div class="eqLogic eqLogic-widgund allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;;height: #height#;;#style#">
   <div class="#isVerticalAlign#">
     <center>
       #cmd#
@@ -50,7 +50,7 @@ Wenn Ihr Plugin eine bestimmte Vorlage für seine Ausrüstung hat, muss die Desk
   </script>
 </div>
 
-```
+`` ``
 
 
 #### Verwaiste Befehle
@@ -65,9 +65,9 @@ Als Referenz die neue Funktion des Kerns:
 
   ~~~ php
   öffentliche statische Funktion deadCmdGeneric ($ _ plugin_id) {
-    $return = array();
+    $return = array();;
     foreach (eqLogic::byType ($ _ plugin_id) als $ eqLogic) {
-      $eqLogic_json = json_encode(utils::o2a($eqLogic));
+      $eqLogic_json = json_encode(utils::o2a($eqLogic));;
       preg_match_all ("/#([0-9]*)#/ ", $ eqLogic_json, $ match);
       foreach ($ entspricht [1] als $ cmd_id) {
         if (is_numeric ($ cmd_id)) {
@@ -76,7 +76,7 @@ Als Referenz die neue Funktion des Kerns:
               '<html>Detail '=>'?v = d & m = '. $ eqLogic-> getEqType_name ().' & p = '. $ eqLogic-> getEqType_name ().' & id = '. $ eqLogic-> getId ().' "> '. $ eqLogic-> getHumanName (). ' </a>',
               'help '=> __ (' Action ', __FILE__),
               'who' => '#' . $cmd_id . '#'
-            );
+            );;
           }
         }
       }
@@ -119,7 +119,7 @@ Fügen Sie einfach diese Schaltfläche rechts neben dem Suchfeld auf Ihrer Seite
   ~~~ html
   {% raw %}
   <legend><i class="fa fa-table"></i> {{Mes Equipemnts}}</legend>
-  <div class="input-group" style="margin-bottom:5px;">
+  <div class="input-group" style="margin-bottom:5px;;">
     <input class="form-control roundedLeft" placeholder="{{Rechercher}}" id="in_searchEqlogic"/>
     <div class="input-group-btn">
       <a id="bt_resetObjectSearch" class="btn" style="width:30px"><i class="fas fa-times"></i>
@@ -235,14 +235,14 @@ Sie können also auf jedem haben *displayCard* Elemente, die im normalen Modus n
   <div class="eqLogicThumbnailContainer">
     <?php
       foreach ($ eqLogics als $ eqLogic) {
-        $div = '';
-        $opacity = ($eqLogic->getIsEnable()) ? '' : 'disableCard';
-        $div .= '<div class="eqLogicDisplayCard cursor '.$opacity.'" data-eqLogic_id="' . $eqLogic->getId() . '">';
-        $div .= '<img src="' . $plugin->getPathImgIcon() . '"/>';
-        $div .= '<br>';
-        $div .= '<span class="name">' . $eqLogic->getHumanName(true, true) . '</span>';
-        $div .= '<span class="hidden hiddenAsCard displayTableRight">'.$eqLogic->getConfiguration('autorefresh').' | '.$eqLogic->getConfiguration('loglasttime').'h</span>';
-        $div .= '</div>';
+        $div = '';;
+        $opacity = ($eqLogic->getIsEnable()) ? '' : 'disableCard';;
+        $div .= '<div class="eqLogicDisplayCard cursor '.$opacity.'" data-eqLogic_id="' . $eqLogic->getId() . '">';;
+        $div .= '<img src="' . $plugin->getPathImgIcon() . '"/>';;
+        $div .= '<br>';;
+        $div .= '<span class="name">' . $eqLogic->getHumanName(true, true) . '</span>';;
+        $div .= '<span class="hidden hiddenAsCard displayTableRight">'.$eqLogic->getConfiguration('autorefresh').' | '.$eqLogic->getConfiguration('loglasttime').'h</span>';;
+        $div .= '</div>';;
         echo $ div;
       }
     ?>
@@ -300,13 +300,13 @@ Wenn Ihre Plugins / Widgets von Drittanbietern Schieberegler verwenden, ist es b
 
 Sie können die Existenz der Bibliothek so testen :
 
-```js
+`` ``js
 if (Typ von noUiSlider !== 'undefined') {
   console.log ('noUiSlider-Code hier')
 } sonst {
   console.log ('alter Code hier')
 }
-```
+`` ``
 
 #### Übersetzung von Widgets von Drittanbietern
 
@@ -321,7 +321,7 @@ Widget-Pfad : `data \ customTemplates \ dashboard \ cmd.info.string.myCustomWidg
 
 Beispiel :
 
-```html
+`` ``html
 <div class="content-xs">
     <span class="cmdName #hide_name#">#name_display#</span> <strong class="state"></strong>
     {{Ich bin ein Widget eines Drittanbieters}}
@@ -330,9 +330,9 @@ Beispiel :
     <div>param : {{Meine Einstellung von Drittanbietern}}.</div>
   </template>
   <script>
-```
+`` ``
 
-```json
+`` ``json
   {
     "en_US": {
       "Ich bin ein Widget eines Drittanbieters": "Ich bin ein benutzerdefiniertes Widget",
@@ -347,7 +347,7 @@ Beispiel :
       "Meine Einstellung von Drittanbietern": "Meine Einstellung von Drittzahlenern"
     }
   }
-```
+`` ``
 
 > Die Texte "Wertdatum", "Erfassungsdatum" und alle in Core-Widgets enthaltenen Texte müssen nicht in json sein. Wenn Sie keine anderen Texte in Ihrem Widget haben, wird der JSON nicht benötigt und diese Zeichenfolgen werden übersetzt.
 
@@ -362,7 +362,7 @@ Beim Öffnen dieser Seite prüft der Core für jedes Plugin, ob es eine ``plugin
 
 Beispiel in der Datei `plugins / myplugin / core / php / myplugin.class.php`:
 
-```php
+`` ``php
 Klasse myPlugin erweitert eqLogic
 {
     /*     * ***********************Statische Methode*************************** */
@@ -385,11 +385,11 @@ Klasse myPlugin erweitert eqLogic
                 ''=>' eingeben Info',
                 'Untertyp '=> Array ('binär','numerisch')
             )
-        );
+        );;
         geben $ Generika zurück;
     }
 
-```
+`` ``
 
 Hier wird das Plugin `myPlugin` zwei generische Typen 'injizieren' :
 
