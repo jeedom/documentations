@@ -33,8 +33,8 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 -   **MAC-Adresse (wol)** : MAC-Adresse für Wake-on-LAN,
 -   **Broadcast IP (wol)** : Netzwerk-Broadcast-IP-Adresse zum Senden von Wake-on-LAN,
 -   **Ping-Methode** : Wahl der Ping-Methode : IP (normal), ARP (bevorzugt für Smartphones und Geräte, die einschlafen), PORT (um zu testen, ob ein Port offen ist)
--   **TTL** : Lebenszeit können Werte sein :
-    - 0 : gleicher Host
+-   **TTL** : Time-to-live, les valeurs peuvent etre :
+    - 0 : même hote
     - 1 : gleiche Subnetze
     - 32 : gleiche Seite
     - 64 : gleiche Region
@@ -52,7 +52,7 @@ Nachfolgend finden Sie die Liste der Bestellungen :
 
 > **Notiz**
 >
-> Jeedom überprüft jede Minute den IP-Ping (Standard).
+> Jeedom va vérifier toutes les minutes (par defaut) le ping sur l'IP.
 
 > **Wichtig**
 >

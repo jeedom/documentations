@@ -6,7 +6,7 @@
 
 # 18.03.2022
 
-- Aktualisierung der Darstellung der Gerätekonfigurationsbildschirme
+- Aktualisierte Darstellung der Gerätekonfigurationsbildschirme
 
 # 04/06/2021
 

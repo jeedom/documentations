@@ -33,8 +33,8 @@ Aquí encontrarás toda la configuración de tu equipo :
 -   **Dirección MAC (wol)** : Dirección MAC para wake-on-lan,
 -   **Broadcast IP (wol)** : Dirección IP de transmisión de red para enviar wake-on-lan,
 -   **Método de ping** : Elección del método de ping : IP (normal), ARP (preferido para teléfonos inteligentes y dispositivos que se duermen), PORT (para probar si un puerto está abierto)
--   **TTL** : Tiempo de vida, los valores pueden ser :
-    - 0 : mismo anfitrión
+-   **TTL** : Time-to-live, les valeurs peuvent etre :
+    - 0 : même hote
     - 1 : mismas subredes
     - 32 : mismo sitio
     - 64 : misma región
@@ -52,7 +52,7 @@ A continuación encontrará la lista de pedidos :
 
 > **Nota**
 >
-> Jeedom verificará el ping IP cada minuto (predeterminado).
+> Jeedom va vérifier toutes les minutes (par defaut) le ping sur l'IP.
 
 > **Importante**
 >

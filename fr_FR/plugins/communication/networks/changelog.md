@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 17/10/2022
+
+- Ajout présentation mode tableau des équipements
+- Mise à jour liste des commandes pour Jeedom v4.3
+
 # 09/06/2021
 
 - Correction d'un soucis sur la repetition des commandes
@@ -30,11 +35,11 @@
 
 - Support de PHP 7.3
 
- # 06/02/2018
+# 06/02/2018
 
- - Optimisation du calcul des dépendances
+- Optimisation du calcul des dépendances
 
- # 05/07/2018
+# 05/07/2018
 
 - Séparation du cron de refresh dans une tache dédié pour ne pas impacter le cron global des plugins
 

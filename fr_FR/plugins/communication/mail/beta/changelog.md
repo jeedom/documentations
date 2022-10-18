@@ -6,7 +6,7 @@
 
 # 18/03/2022
 
-- Mise à jour de présenation de l'écrans de configuration des équipements
+- Mise à jour de présentation de l'écrans de configuration des équipements
 
 # 06/04/2021
 

@@ -4,6 +4,15 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 10/17/2022
+
+- Addition of equipment table mode presentation
+- Update command list for Jeedom v4.3
+
+# 06/09/2021
+
+- Fixed an issue with repetition of commands
+
 # 16/11/2020
 
 - New presentation of the list of objects
@@ -26,11 +35,11 @@
 
 - Support for php 7.3
 
- # 02/06/2018
+# 02/06/2018
 
- - Optimization of dependency calculation
+- Optimization of dependency calculation
 
- # 07/05/2018
+# 07/05/2018
 
 - Separation of the refresh cron in a dedicated task so as not to impact the overall cron of the plugins
 

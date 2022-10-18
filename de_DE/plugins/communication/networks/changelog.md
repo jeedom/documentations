@@ -4,6 +4,15 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 17.10.2022
+
+- Hinzufügen der Präsentation im Gerätetabellenmodus
+- Befehlsliste für Jeedom v4.3 aktualisieren
+
+# 09.06.2021
+
+- Ein Problem mit der Wiederholung von Befehlen wurde behoben
+
 # 16/11/2020
 
 - Neue Darstellung der Objektliste
@@ -26,11 +35,11 @@
 
 - Unterstützung für PHP 7.3
 
- # 02/06/2018
+# 02/06/2018
 
- - Optimierung der Abhängigkeitsberechnung
+- Optimierung der Abhängigkeitsberechnung
 
- # 07/05/2018
+# 07/05/2018
 
 - Trennung des Aktualisierungs-Cron in eine dedizierte Aufgabe, um den gesamten Cron der Plugins nicht zu beeinträchtigen
 

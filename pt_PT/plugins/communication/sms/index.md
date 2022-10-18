@@ -1,59 +1,63 @@
 # Plugin de SMS
 
-O plug-in SMS permite que você converse com o Jeedom via SMS, também permite que o Jeedom envie um SMS em caso de alerta (plug-in de alarme, cenário)
+O plugin SMS permite que você interaja com o Jeedom via SMS. Também permite que a Jeedom envie um SMS em caso de alerta (plugin de alarme, cenário, etc).
 
 > **IMPORTANTE**
 >
 > Para interagir com Jeedom, você deve ter configurado interações.
 
-# Configuração do plugin 
+# Configuração do plugin
 
-Depois de baixar o plugin, você só precisa ativá-lo e configurar a porta. Depois de salvar o demônio deve lançar. O plug-in já está configurado por padrão; você não precisa fazer mais nada. No entanto, você pode modificar esta configuração. Aqui está o detalhe (alguns parâmetros podem estar visíveis apenas no modo especialista) :
+Depois de baixar o plugin, basta ativá-lo e configurar a porta. Depois de salvar o demônio deve lançar.    
+O plugin já está configurado por padrão, então você não precisa fazer mais nada. No entanto, você pode modificar esta configuração, aqui está o detalhe :
 
--   *Porta SMS* : a porta USB na qual sua chave GSM está conectada.
+-   **Porta SMS** : a porta USB na qual sua chave GSM está conectada.
 
-> **Dica**
+> **DICA**
 >
-> Se você não souber qual porta USB é usada, basta indicar "Auto". Observe que o modo automático funciona apenas com as teclas Huawai E220.
+> Se você não souber qual porta USB é usada, basta indicar "Auto". Observe que o modo automático só funciona com chaves Huawei E220.
 
 > **IMPORTANTE**
 >
-> Observe que algumas teclas 3G estão por padrão no modo modem e não GSM. Usando o software do fabricante da chave, você deve alterar o modo de chave para GSM (ou texto ou serial). 
+> Observe que algumas teclas 3G estão no modo de modem por padrão e não GSM. Você deve, usando o software do fabricante da chave, alterar o modo da chave para GSM (ou texto ou serial).
 
--   **Código PIN** : Permite indicar o código PIN do cartão SIM e deixar em branco se você não tiver um. 
--   **Modo de texto** : Modo de compatibilidade estendida, a ser usado apenas se o envio e / ou recebimento de mensagens não funcionar.
--   **Cortar mensagens por pacote de caracteres** : Indica o número máximo de caracteres por texto.
--   **Gateway SMS / SMS (modificar em caso de erro : Número SMSC do CMS 330 não definido)** : Observe que, se o erro "Número do SMSC do CMS 330 não estiver definido", nesse caso, você deve indicar o número do gateway SMS da operadora de telefonia. 
--   **Intensidade do sinal** : Força de recepção do sinal da sua chave GSM.
--   **Rede** : Rede telefônica da sua chave GSM (pode ser "Nenhuma" se a Jeedom não puder recuperá-la). 
--   **tomada interna (modificação perigosa)** : permite modificar a porta de comunicação interna do daemon.
--   **Ciclo (s))** : ciclo de varredura de daemon para enviar e receber SMS. Um número muito baixo pode causar instabilidade
+-   **Velocidade de comunicação** : as chaves recentes funcionam a 115200 baud. Você tem a opção de mudar para 9600 baud no caso de seu equipamento exigir.
+-   **Código PIN** : Permite indicar o código PIN do cartão SIM e deixar em branco se você não tiver um.
+-   **Modo de texto** : Modo de compatibilidade estendida, para ser usado apenas se o envio e / ou recebimento de mensagens não funcionar.
+-   **Cortar mensagens por pacote de caracteres** : Indica o número máximo de caracteres por mensagem de texto.
+-   **Gateway SMS / SMS (modificar em caso de erro : Número SMSC do CMS 330 não definido)** : Só mude se você tiver o erro `CMS 330 SMSC number not set`, neste caso você deve indicar o número do gateway SMS da sua operadora de telefonia.
+-   **Intensidade do sinal** : Força do sinal da sua chave GSM.
+-   **Rede** : Rede telefônica da sua chave GSM (pode ser "Nenhuma" se a Jeedom não puder recuperá-la).
+-   **Porta de soquete interno (modificação perigosa)** : permite modificar a porta de comunicação interna do daemon.
+-   **Ciclo (s))** : ciclo de varredura de daemon para enviar e receber SMS. Um número muito baixo pode levar à instabilidade.
 
-# Configuração do equipamento 
+# Configuração do equipamento
 
-A configuração do equipamento SMS pode ser acessada no menu do plugin e depois na comunicação
+A configuração dos dispositivos SMS pode ser acessada no menu Plug-ins → Comunicação.
 
 Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nome do equipamento SMS** : nome do seu equipamento SMS,
--   **Ativar** : torna seu equipamento ativo,
--   **Visivél** : torna seu equipamento visível no painel,
+-   **Nome do equipamento SMS** : nome do seu equipamento SMS.
+-   **Ativar** : torna seu equipamento ativo.
+-   **Visivél** : torna seu equipamento visível no painel.
 -   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence.
 
 Abaixo você encontra a lista de pedidos :
 
--   **Nome** : o nome exibido no painel,
--   **Usuário** : usuário correspondente no Jeedom (permite restringir certas interações a determinados usuários),
--   **Número** : número de telefone para o qual enviar mensagens. Você pode colocar vários números, separando-os com; (ex: 0612345678; 0698765432).
-    > **IMPORTANTE**
-    >
-    > Somente os números de telefone declarados em um dispositivo poderão usar as interações porque somente eles serão autorizados.
--   **Display** : permite exibir os dados no painel,
--   **Configuração avançada** (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.)),
--   **Teste** : permite testar o comando,
+-   **Nome** : o nome exibido no painel.
+-   **Usuário** : usuário correspondente no Jeedom (permite restringir certas interações a determinados usuários).
+-   **Número** : número de telefone para o qual enviar mensagens. Você pode colocar vários números, separando-os com; *(exemple: 0612345678; 0698765432)*. IMPORTANTE : é necessário colocar os números no formato internacional (+33 para a França por exemplo)
+
+> **IMPORTANTE**
+>
+> Apenas os números de telefone declarados em um dispositivo podem usar as interações porque apenas eles serão autorizados.
+
+-   **Display** : permite exibir os dados no painel.
+-   **Configuração avançada** (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.)).
+-   **Teste** : permite testar o comando.
 -   **Remover** (placa -) : permite excluir o comando.
 
-# Usando o plugin 
+# Usando o plugin
 
 Isso é bastante padrão em sua operação, na página Geral → Plug-in e selecionando o plug-in SMS :
 
@@ -69,20 +73,24 @@ Em seguida, é necessário adicionar os comandos que serão compostos por um nom
 
 Para se comunicar com Jeedom, basta enviar uma mensagem a ele de um número autorizado, todas as interações provenientes do sistema de interação.
 
-Pequeno exemplo de interação : Pergunta : "Qual é a temperatura da sala ?" Réponse : "16.3 C"
+>**EXEMPLO DE INTERAÇÃO** :
+>
+> - Pergunta : *"Qual é a temperatura da sala ?"*
+> - Réponse : *"16,3 ° C"*
 
-# Lista de chaves compatíveis 
+# Lista de chaves compatíveis
 
 -   HUAWEI E220
 -   Alcatel one touch X220L
 -   HSDPA 7.2MBPS 3G sem fio
 -   HUAWEI E3372
+-   USB SIM800C (velocidade 9600)
 
-# Faq 
+# FAQ
 
 > **Não recebo nada com uma chave huwaei e160.**
 >
->Você precisa instalar o minicom (sudo apt-get install -y minicom), iniciá-lo e conectar-se ao modem e, em seguida, faça :
+>Você tem que instalar o minicom (`sudo apt-get install -y minicom`), executá-lo e conectar ao modem, então faça :
 >
 >`` `{.bash}
 >AT ^ CURC = 0
@@ -97,15 +105,15 @@ Pequeno exemplo de interação : Pergunta : "Qual é a temperatura da sala ?" R�
 
 > **Não consigo ver a porta USB na minha chave**
 >
->Verifique se você não possui o brltty para instalar (`sudo apt-get remove brltty` para removê-lo)
+>Certifique-se de não ter o brltty instalado (`sudo apt-get remove brltty` para removê-lo).
 
 > **Depois de algumas horas / dias, não recebo mais um SMS e não posso mais enviar um, um lembrete do demônio corrige**
 >
->Verifique seu cabo USB (um cabo USB ruim geralmente causa esse tipo de problema, também não deve ser muito longo), verifique também sua fonte de alimentação, é altamente recomendável um hub USB
+>Verifique seu cabo USB (um cabo USB ruim costuma causar esse tipo de problema, também não deve ser muito longo), verifique também sua fonte de alimentação, um hub USB é altamente recomendado.
 
 > **Eu tenho um erro CME XX**
 >
->Você pode encontrar [aqui](:http://www.micromedia-int.com/fr/gsm-2/669-cme-error-gsm-equipment-related-errors) descrição dos diferentes erros CME
+>Você pode encontrar [aqui](:http://www.micromedia-int.com/fr/gsm-2/669-cme-error-gsm-equipment-related-errors) descrição dos diferentes erros CME.
 
 > **Configuração da tecla Alcatel one touch X220L**
 >
@@ -159,7 +167,7 @@ Pequeno exemplo de interação : Pergunta : "Qual é a temperatura da sala ?" R�
 
 > **O daemon SMS é iniciado, mas você não recebe nenhum SMS**
 >
->Uma das causas prováveis é a configuração de rede incorreta. Em "Geral" -> "Configuração" -> "Administração" -> "Configuração de rede", verifique o conteúdo do campo "URL ou endereço IP". O último não deve ser localhost ou 127.0.0.1, mas o endereço IP do seu Jeedom ou o nome DNS.
+>Uma das causas prováveis é a configuração de rede incorreta. Em “Configurações” → “Sistema” → “Configuração” → “Redes”, verifique o conteúdo do campo “URL ou endereço IP”". O último não deve ser localhost ou 127.0.0.1, mas o endereço IP do seu Jeedom ou o nome DNS.
 
 > **No modo de depuração, tenho o erro "timeout" que aparece**
 >
@@ -170,20 +178,20 @@ Pequeno exemplo de interação : Pergunta : "Qual é a temperatura da sala ?" R�
 
 > **Ao iniciar no modo de depuração, tenho : "soquete já em uso"**
 >
->Isso significa que o demônio foi iniciado, mas que Jeedom não pode detê-lo. Você pode reiniciar o sistema inteiro ou, no SSH, faça "killall -9 refxcmd.py".
+>Isso significa que o demônio foi iniciado, mas que Jeedom não pode detê-lo. Você pode reiniciar todo o sistema ou em SSH fazer ``killall -9 refxcmd.py``.
 
 > **O demônio se recusa a começar**
 >
 >Tente iniciá-lo no modo de depuração para ver o erro.
 
-> **Eu tenho várias portas USB para minha chave GSM, enquanto eu tenho apenas uma**
+> **Tenho várias portas USB para minha chave GSM, embora só tenha uma**
 >
->Isso é normal, por algum motivo desconhecido, as chaves GSM criam 2 (e até mais) portas USB no nível do sistema. Basta escolher um, não importa qual.
+>Isso é normal, por algum motivo desconhecido, as chaves GSM criam 2 *(ver mais)* portas USB de nível de sistema. Basta escolher um, não importa qual.
 
 > **Jeedom não envia mais nem recebe SMS**
 >
->Isso geralmente acontece se a chave GSM não puder mais se conectar à rede. Tente movê-lo e veja se ele volta> depois de alguns minutos.
+>Isso geralmente acontece se a chave GSM não puder mais se conectar à rede. Experimente movê-lo para ver se volta depois de alguns minutos.
 
 >**Tenho preocupações de recepção que funcionam por algumas horas, então nada**
 >
->Coloque o cartão SIM em um telefone celular e esvazie todos os sms (enviados e recebidos) do cartão.
+>Coloque o cartão SIM em um telefone celular e esvazie todas as mensagens de texto do cartão (enviadas e recebidas).

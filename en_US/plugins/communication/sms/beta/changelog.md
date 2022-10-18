@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 10/18/2022
+
+- Update command list for Jeedom v4.3
+
 # 07/20/2022
 
 - Migrating daemon to python3

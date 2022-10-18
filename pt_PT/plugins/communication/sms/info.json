@@ -3,10 +3,15 @@
     "name": "SMS",
     "description": {
         "fr_FR": "Plugin ajoutant la gestion (envoi\/réception) de SMS à Jeedom. Avec ce plugin vous pouvez ainsi être notifié par SMS, voire poser une question ou déclencher une action via SMS grâce au moteur d'interactions. (Nécessite une clé 3G et une carte SIM ).",
-        "en_US": "Plugin adding the management (sending \/ receiving) of SMS to Jeedom.With this plugin you can be notified by SMS, see thanks to the interaction engine ask a question or trigger an action via SMS. (Requires a 3G key and a card SIM)",
-        "es_ES": "Complemento que agrega la administración (envío \/ recepción) de SMS a Jeedom. Con este complemento puede recibir notificaciones por SMS, vea gracias al motor de interacción para hacer una pregunta o activar una acción a través de SMS. (Requiere una clave 3G y una tarjeta SIM)",
-        "de_DE": "Plugin, das die Verwaltung (Senden \/ Empfangen) von SMS zu Jeedom hinzufügt. Mit diesem Plugin können Sie per SMS benachrichtigt werden. Dank der Interaktions-Engine können Sie eine Frage stellen oder eine Aktion per SMS auslösen. (Erfordert einen 3G-Schlüssel und eine Karte SIM)",
-        "pt_PT": "Plug-in que adiciona o gerenciamento (envio \/ recebimento) de SMS ao Jeedom.Com este plug-in, você pode ser notificado por SMS, veja graças ao mecanismo de interação fazer uma pergunta ou acionar uma ação via SMS. (Requer uma chave 3G e um cartão SIM)"
+        "en_US": "Plugin adding the management (sending \/ receiving) of SMS to Jeedom. With this plugin you can be notified by SMS, even ask a question or trigger an action via SMS thanks to the interaction engine. (Requires a 3G key and a SIM card)",
+        "es_ES": "Complemento que agrega la gestión (envío \/ recepción) de SMS a Jeedom. Con este plugin puedes ser notificado por SMS, incluso hacer una pregunta o activar una acción a través de SMS gracias al motor de interacción. (Requiere una clave 3G y una tarjeta SIM)",
+        "de_DE": "Plugin, das die Verwaltung (Senden \/ Empfangen) von SMS zu Jeedom hinzufügt. Mit diesem Plugin können Sie dank der Interaktions-Engine per SMS benachrichtigt, sogar eine Frage gestellt oder eine Aktion per SMS ausgelöst werden. (Benötigt einen 3G-Schlüssel und eine SIM-Karte)",
+        "pt_PT": "Plugin adicionando o gerenciamento (envio \/ recebimento) de SMS ao Jeedom. Com este plugin você pode ser notificado por SMS, até mesmo fazer uma pergunta ou acionar uma ação via SMS graças ao mecanismo de interação. (Requer uma chave 3G e um cartão SIM)",
+        "ru_RU": "Plugin ajoutant la gestion (envoi\/réception) de SMS à Jeedom. Avec ce plugin vous pouvez ainsi être notifié par SMS, voire poser une question ou déclencher une action via SMS grâce au moteur d'interactions. (Nécessite une clé 3G et une carte SIM )",
+        "id_ID": "Plugin ajoutant la gestion (envoi\/réception) de SMS à Jeedom. Avec ce plugin vous pouvez ainsi être notifié par SMS, voire poser une question ou déclencher une action via SMS grâce au moteur d'interactions. (Nécessite une clé 3G et une carte SIM )",
+        "it_IT": "Plugin ajoutant la gestion (envoi\/réception) de SMS à Jeedom. Avec ce plugin vous pouvez ainsi être notifié par SMS, voire poser une question ou déclencher une action via SMS grâce au moteur d'interactions. (Nécessite une clé 3G et une carte SIM )",
+        "ja_JP": "Plugin ajoutant la gestion (envoi\/réception) de SMS à Jeedom. Avec ce plugin vous pouvez ainsi être notifié par SMS, voire poser une question ou déclencher une action via SMS grâce au moteur d'interactions. (Nécessite une clé 3G et une carte SIM )",
+        "tr": "Plugin ajoutant la gestion (envoi\/réception) de SMS à Jeedom. Avec ce plugin vous pouvez ainsi être notifié par SMS, voire poser une question ou déclencher une action via SMS grâce au moteur d'interactions. (Nécessite une clé 3G et une carte SIM )"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -21,7 +26,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
@@ -31,5 +41,7 @@
         "diy",
         "mobile",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/sms\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/sms\/beta"
 }

@@ -11,7 +11,7 @@
 
 # 09/06/2021
 
-- Correction d'un soucis sur la repetition des commandes
+- Correction d'un souci sur la répétition des commandes
 
 # 16/11/2020
 

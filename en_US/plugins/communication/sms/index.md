@@ -1,59 +1,63 @@
 # SMS plugin
 
-The SMS plugin allows you to dialogue with Jeedom via SMS, it also allows Jeedom to send you an SMS in the event of an alert (alarm plugin, scenario)
+The SMS plugin allows you to interact with Jeedom via SMS. It also allows Jeedom to send you an SMS in the event of an alert (alarm plugin, scenario, etc).
 
 > **Important**
 >
-> To interact with Jeedom you must have configured interactions.
+> To interact with Jeedom, you must have configured interactions.
 
-# Plugin configuration 
+# Plugin configuration
 
-After downloading the plugin, you just need to activate it and configure the port. After saving the demon should launch. The plugin is already configured by default; you don't have to do anything more. However you can modify this configuration. Here is the detail (some parameters may only be visible in expert mode) :
+After downloading the plugin, just activate it and configure the port. After saving the demon should launch.    
+The plugin is already configured by default, so you don't have to do anything more. However you can modify this configuration, here is the detail :
 
--   *SMS port* : the USB port on which your GSM key is connected.
+-   **SMS port** : the USB port on which your GSM key is connected.
 
-> **Tip**
+> **TRICK**
 >
-> If you do not know which USB port is used, you can simply indicate "Auto". Please note the auto mode only works with Huawai E220 keys.
+> If you do not know which USB port is used, you can simply indicate "Auto". Please note that the auto mode only works with Huawei E220 keys.
 
 > **Important**
 >
-> Please note that some 3G keys are by default in modem mode and not GSM. Using the software of your key manufacturer, you must change the key mode to GSM (or text, or serial). 
+> Please note that some 3G keys are in modem mode by default and not GSM. You must, using the software of your key manufacturer, change the mode of the key to GSM (or text, or serial).
 
--   **Pin code** : Allows you to indicate the pin code of the SIM card, to leave empty if you do not have one. 
+-   **Communication speed** : recent keys work at 115200 baud. You have the option of switching to 9600 baud in case your equipment requires it.
+-   **Pin code** : Allows you to indicate the pin code of the SIM card, to leave empty if you do not have one.
 -   **Text mode** : Extended compatibility mode, to be used only if sending and / or receiving messages does not work.
--   **Cut messages by character packet** : Indicates the maximum number of characters per text.
--   **SMS / SMS Gateway (modify in case of error : CMS 330 SMSC number not set)** : Note that if you have the error "CMS 330 SMSC number not set", in this case you must indicate the SMS gateway number of your telephone operator. 
--   **Signal strength** : Signal reception strength of your GSM key.
--   **Network** : Telephone network of your GSM key (can be "None" if Jeedom cannot recover it). 
--   **internal socket (dangerous modification)** : allows to modify the internal communication port of the daemon.
--   **Cycle (s)** : daemon scan cycle for sending and receiving SMS. Too low a number can cause instability
+-   **Cut messages by character packet** : Indicates the maximum number of characters per text message.
+-   **SMS / SMS Gateway (modify in case of error : CMS 330 SMSC number not set)** : Only change if you have the error `CMS 330 SMSC number not set`, in this case you must indicate the SMS gateway number of your telephone operator.
+-   **Signal strength** : Signal strength of your GSM key.
+-   **Network** : Telephone network of your GSM key (can be "None" if Jeedom cannot recover it).
+-   **Internal socket port (dangerous modification)** : allows to modify the internal communication port of the daemon.
+-   **Cycle (s)** : daemon scan cycle for sending and receiving SMS. Too low a number can lead to instability.
 
-# Equipment configuration 
+# Equipment configuration
 
-The configuration of SMS equipment is accessible from the plugin menu then communication
+The configuration of SMS devices is accessible from the Plugins → Communication menu.
 
 Here you find all the configuration of your equipment :
 
--   **SMS equipment name** : name of your SMS equipment,
--   **Activate** : makes your equipment active,
--   **Visible** : makes your equipment visible on the dashboard,
+-   **SMS equipment name** : name of your SMS equipment.
+-   **Activate** : makes your equipment active.
+-   **Visible** : makes your equipment visible on the dashboard.
 -   **Parent object** : indicates the parent object to which the equipment belongs.
 
 Below you find the list of orders :
 
--   **Name** : the name displayed on the dashboard,
--   **User** : corresponding user in Jeedom (allows you to restrict certain interactions to certain users),
--   **Number** : phone number to send messages to. You can put several numbers by separating them with; (ex: 0612345678; 0698765432).
-    > **Important**
-    >
-    > Only the telephone numbers declared in a device will be able to use the interactions because only they will be authorized.
--   **Show** : allows to display the data on the dashboard,
--   **Advanced configuration** (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.)),
--   **Test** : Used to test the command,
+-   **Name** : the name displayed on the dashboard.
+-   **User** : corresponding user in Jeedom (allows you to restrict certain interactions to certain users).
+-   **Number** : phone number to send messages to. You can put several numbers by separating them with; *(exemple: 0612345678; 0698765432)*. Important : it is necessary to put the numbers in the international format (+33 for France for example)
+
+> **Important**
+>
+> Only the phone numbers declared in a device can use the interactions because only they will be authorized.
+
+-   **Show** : allows to display the data on the dashboard.
+-   **Advanced configuration** (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.)).
+-   **Test** : Used to test the command.
 -   **Delete** (sign -) : allows to delete the command.
 
-# Using the plugin 
+# Using the plugin
 
 This is fairly standard in its operation, on the General → Plugin page then by selecting the SMS plugin :
 
@@ -69,20 +73,24 @@ Then you have to add the commands which will be composed of a name and a number,
 
 To communicate with Jeedom, it will then suffice to send him a message from an authorized number, all interactions coming from the interaction system.
 
-Small example of interaction : Question : "What is the temperature of the room ?" Reply : "16.3 C"
+>**EXAMPLE OF INTERACTION** :
+>
+> - Question : *"What is the temperature of the room ?"*
+> - Reply : *"16.3 ° C"*
 
-# List of compatible keys 
+# List of compatible keys
 
 -   HUAWEI E220
 -   Alcatel one touch X220L
 -   HSDPA 7.2MBPS 3G Wireless
 -   HUAWEI E3372
+-   USB SIM800C (speed 9600)
 
-# FAQ 
+# FAQ
 
 > **I don't get anything with a huwaei e160 key.**
 >
->You have to install minicom (sudo apt-get install -y minicom), launch it and connect to the modem, then do :
+>You have to install minicom (`sudo apt-get install -y minicom`), run it and connect to the modem, then do :
 >
 >`` `{.bash}
 >AT ^ CURC = 0
@@ -97,15 +105,15 @@ Small example of interaction : Question : "What is the temperature of the room ?
 
 > **I can't see the USB port on my key**
 >
->Make sure you don't have brltty to install (`sudo apt-get remove brltty` to remove it)
+>Make sure you don't have brltty installed (`sudo apt-get remove brltty` to remove it).
 
 > **After a few hours / days I no longer receive an SMS and can no longer send one, a reminder from the demon corrects**
 >
->Check your USB cable (a bad USB cable often causes this kind of problem, it should not be too long either), also check your power supply, a USB hub is strongly recommended
+>Check your USB cable (a bad USB cable often causes this kind of problem, it should not be too long either), also check your power supply, a USB hub is strongly recommended.
 
 > **I have a CME error XX**
 >
->You can find [here](:http://www.micromedia-int.com/fr/gsm-2/669-cme-error-gsm-equipment-related-errors) description of the different CME errors
+>You can find [here](:http://www.micromedia-int.com/fr/gsm-2/669-cme-error-gsm-equipment-related-errors) description of the different CME errors.
 
 > **Configuration of the Alcatel one touch X220L key**
 >
@@ -159,7 +167,7 @@ Small example of interaction : Question : "What is the temperature of the room ?
 
 > **The SMS daemon is started, but you do not receive any SMS**
 >
->One of the probable causes is the wrong network configuration. In "General" -> "Configuration" -> "Administration" -> "Network configuration", check the content of the "URL or IP address field". The latter must not be localhost or 127.0.0.1 but the IP address of your Jeedom or its DNS name.
+>One of the probable causes is the wrong network configuration. In "Settings" → "System" → "Configuration" → "Networks", check the content of the "URL or IP address" field". The latter must not be localhost or 127.0.0.1 but the IP address of your Jeedom or its DNS name.
 
 > **In debug mode I have the error "timeout" which appears**
 >
@@ -170,7 +178,7 @@ Small example of interaction : Question : "What is the temperature of the room ?
 
 > **When starting in debug mode I have : "socket already in use"**
 >
->This means that the demon is started but that Jeedom cannot stop it. You can either restart the whole system, or in SSH do "killall -9 refxcmd.py".
+>This means that the demon is started but that Jeedom cannot stop it. You can either restart the whole system or in SSH do ``killall -9 refxcmd.py``.
 
 > **The demon refuses to start**
 >
@@ -178,12 +186,12 @@ Small example of interaction : Question : "What is the temperature of the room ?
 
 > **I have several USB ports for my GSM key while I only have one**
 >
->This is normal, for some unknown reason GSM keys create 2 (and even more) USB ports at the system level. Just choose one, no matter which one.
+>This is normal, for some unknown reason the GSM keys create 2 *(see more)* system level USB ports. Just choose one, no matter which one.
 
 > **Jeedom does not send or receive SMS anymore**
 >
->This usually happens if the GSM key can no longer connect to the network. Try moving it around and see if it comes back> after a few minutes.
+>This usually happens if the GSM key can no longer connect to the network. Try moving it around to see if it comes back after a few minutes.
 
 >**I have reception concerns that work for a few hours then nothing**
 >
->Put the SIM card on a mobile phone and empty all sms (sent and received) from the card.
+>Put the SIM card on a mobile phone and empty all text messages from the card (sent and received).

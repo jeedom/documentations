@@ -6,7 +6,7 @@
 
 # 18/03/2022
 
-- Atualização da apresentação das telas de configuração do equipamento
+- Apresentação atualizada das telas de configuração do equipamento
 
 # 06/04/2021
 

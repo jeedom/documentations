@@ -1,59 +1,63 @@
 # SMS Plugin
 
-Das SMS-Plugin ermöglicht Ihnen den Dialog mit Jeedom per SMS. Jeedom kann Ihnen im Alarmfall auch eine SMS senden (Alarm-Plugin, Szenario)
+Mit dem SMS-Plugin können Sie per SMS mit Jeedom interagieren. Außerdem kann Jeedom Ihnen im Falle einer Warnung (Alarm-Plugin, Szenario usw.) eine SMS senden).
 
 > **Wichtig**
 >
-> Um mit Jeedom zu interagieren, müssen Sie Interaktionen konfiguriert haben.
+> Um mit Jeedom interagieren zu können, müssen Sie Interaktionen konfiguriert haben.
 
-# Plugin Konfiguration 
+# Plugin Konfiguration
 
-Nach dem Herunterladen des Plugins müssen Sie es nur noch aktivieren und den Port konfigurieren. Nach dem Speichern sollte der Dämon starten. Das Plugin ist bereits standardmäßig konfiguriert. du musst nichts mehr tun. Sie können diese Konfiguration jedoch ändern. Hier ist das Detail (einige Parameter sind möglicherweise nur im Expertenmodus sichtbar) :
+Nachdem Sie das Plugin heruntergeladen haben, aktivieren Sie es einfach und konfigurieren Sie den Port. Nach dem Speichern sollte der Dämon starten.    
+Das Plugin ist bereits standardmäßig konfiguriert, sodass Sie nichts weiter tun müssen. Sie können diese Konfiguration jedoch ändern. Hier finden Sie die Details :
 
--   *SMS-Port* : Der USB-Anschluss, an den Ihr GSM-Schlüssel angeschlossen ist.
+-   **SMS-Port** : Der USB-Anschluss, an den Ihr GSM-Schlüssel angeschlossen ist.
 
-> **Spitze**
+> **TIPP**
 >
-> Wenn Sie nicht wissen, welcher USB-Anschluss verwendet wird, können Sie einfach "Auto" angeben". Bitte beachten Sie, dass der Auto-Modus nur mit Huawai E220-Tasten funktioniert.
+> Wenn Sie nicht wissen, welcher USB-Anschluss verwendet wird, können Sie einfach "Auto" angeben". Bitte beachten Sie, dass der Auto-Modus nur mit Huawei E220-Tasten funktioniert.
 
 > **Wichtig**
 >
-> Bitte beachten Sie, dass einige 3G-Schlüssel standardmäßig im Modemmodus und nicht in GSM verwendet werden. Mit der Software Ihres Schlüsselherstellers müssen Sie den Schlüsselmodus auf GSM (oder Text oder seriell) ändern). 
+> Bitte beachten Sie, dass sich einige 3G-Schlüssel standardmäßig im Modemmodus und nicht in GSM befinden. Sie müssen mithilfe der Software Ihres Schlüsselherstellers den Modus des Schlüssels in GSM (oder Text oder seriell) ändern).
 
--   **PIN-Code** : Hier können Sie den PIN-Code der SIM-Karte angeben und leer lassen, wenn Sie keinen haben. 
+-   **Kommunikationsgeschwindigkeit** : Die letzten Schlüssel arbeiten mit 115200 Baud. Sie haben die Möglichkeit, auf 9600 Baud umzuschalten, falls Ihre Ausrüstung dies erfordert.
+-   **PIN-Code** : Hier können Sie den PIN-Code der SIM-Karte angeben und leer lassen, wenn Sie keinen haben.
 -   **Textmodus** : Erweiterter Kompatibilitätsmodus, der nur verwendet wird, wenn das Senden und / oder Empfangen von Nachrichten nicht funktioniert.
--   **Schneiden Sie Nachrichten nach Zeichenpaket** : Gibt die maximale Anzahl von Zeichen pro Text an.
--   **SMS / SMS Gateway (im Fehlerfall ändern : CMS 330 SMSC-Nummer nicht festgelegt)** : Beachten Sie, dass Sie in diesem Fall die SMS-Gateway-Nummer Ihres Telefonisten angeben müssen, wenn der Fehler "CMS 330 SMSC-Nummer nicht festgelegt" angezeigt wird. 
--   **Signalstärke** : Signalempfangsstärke Ihres GSM-Schlüssels.
--   **Netzwerk** : Telefonnetz Ihres GSM-Schlüssels (kann "Keine" sein, wenn Jeedom ihn nicht wiederherstellen kann). 
--   **interne Steckdose (gefährliche Änderung)** : Ermöglicht das Ändern des internen Kommunikationsports des Dämons.
--   **Fahrräder)** : Daemon-Scan-Zyklus zum Senden und Empfangen von SMS. Eine zu niedrige Zahl kann zu Instabilität führen
+-   **Schneiden Sie Nachrichten nach Zeichenpaket** : Gibt die maximale Anzahl von Zeichen pro Textnachricht an.
+-   **SMS / SMS Gateway (im Fehlerfall ändern : CMS 330 SMSC-Nummer nicht festgelegt)** : Ändern Sie nur, wenn Sie den Fehler "CMS 330 SMSC-Nummer nicht festgelegt" haben. In diesem Fall müssen Sie die SMS-Gateway-Nummer Ihres Telefonisten angeben.
+-   **Signalstärke** : Signalstärke Ihres GSM-Schlüssels.
+-   **Netzwerk** : Telefonnetz Ihres GSM-Schlüssels (kann "Keine" sein, wenn Jeedom ihn nicht wiederherstellen kann).
+-   **Interner Socket-Port (gefährliche Änderung)** : Ermöglicht das Ändern des internen Kommunikationsports des Dämons.
+-   **Fahrräder)** : Daemon-Scan-Zyklus zum Senden und Empfangen von SMS. Eine zu niedrige Zahl kann zu Instabilität führen.
 
-# Gerätekonfiguration 
+# Gerätekonfiguration
 
-Auf die Konfiguration der SMS-Geräte kann über das Plugin-Menü und dann über die Kommunikation zugegriffen werden
+Auf die Konfiguration von SMS-Geräten kann über das Menü Plugins → Kommunikation zugegriffen werden.
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name des SMS-Geräts** : Name Ihres SMS-Geräts,
--   **Aktivieren** : macht Ihre Ausrüstung aktiv,
--   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
+-   **Name des SMS-Geräts** : Name Ihres SMS-Geräts.
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv.
+-   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar.
 -   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört.
 
 Nachfolgend finden Sie die Liste der Bestellungen :
 
--   **Name** : Der im Dashboard angezeigte Name,
--   **Benutzer** : entsprechender Benutzer in Jeedom (ermöglicht es Ihnen, bestimmte Interaktionen auf bestimmte Benutzer zu beschränken),
--   **Anzahl** : Telefonnummer, an die Nachrichten gesendet werden sollen. Sie können mehrere Zahlen eingeben, indem Sie sie durch trennen. (z: 0612345678; 0698765432).
-    > **Wichtig**
-    >
-    > Nur die in einem Gerät deklarierten Telefonnummern können die Interaktionen verwenden, da nur sie autorisiert werden.
--   **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard,
--   **Erweiterte Konfiguration** (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.)),
--   **Test** : Wird zum Testen des Befehls verwendet,
+-   **Name** : Der im Dashboard angezeigte Name.
+-   **Benutzer** : entsprechender Benutzer in Jeedom (ermöglicht es Ihnen, bestimmte Interaktionen auf bestimmte Benutzer zu beschränken).
+-   **Anzahl** : Telefonnummer, an die Nachrichten gesendet werden sollen. Sie können mehrere Zahlen eingeben, indem Sie sie durch trennen *(exemple: 0612345678; 0698765432)*. Wichtig : Es ist notwendig, die Zahlen im internationalen Format (+33 für Frankreich zum Beispiel) anzugeben)
+
+> **Wichtig**
+>
+> Nur die in einem Gerät deklarierten Telefonnummern können die Interaktionen verwenden, da nur sie autorisiert werden.
+
+-   **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard.
+-   **Erweiterte Konfiguration** (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.)).
+-   **Test** : Wird zum Testen des Befehls verwendet.
 -   **Löschen** (Schild -) : ermöglicht das Löschen des Befehls.
 
-# Mit dem Plugin 
+# Mit dem Plugin
 
 Dies ist ziemlich normal in seiner Funktionsweise, auf der Seite Allgemein → Plugin, dann durch Auswahl des SMS-Plugins :
 
@@ -69,20 +73,24 @@ Dann müssen Sie die Befehle hinzufügen, die aus einem Namen und einer Nummer b
 
 Um mit Jeedom zu kommunizieren, reicht es dann aus, ihm eine Nachricht von einer autorisierten Nummer zu senden, wobei alle Interaktionen vom Interaktionssystem stammen.
 
-Kleines Beispiel für Interaktion : Frage : "Was ist die Temperatur des Raumes ?" Antwort : "16.3 C."
+>**BEISPIEL FÜR DIE INTERAKTION** :
+>
+> - Frage : *"Was ist die Temperatur des Raumes ?"*
+> - Antwort : *"16,3 ° C."*
 
-# Liste der kompatiblen Schlüssel 
+# Liste der kompatiblen Schlüssel
 
 -   HUAWEI E220
 -   Alcatel One Touch X220L
 -   HSDPA 7.2MBPS 3G Wireless
 -   HUAWEI E3372
+-   USB SIM800C (Geschwindigkeit 9600)
 
-# Faq 
+# FAQ
 
 > **Ich bekomme nichts mit einem huwaei e160 Schlüssel.**
 >
->Sie müssen minicom installieren (sudo apt-get install -y minicom), es starten und eine Verbindung zum Modem herstellen :
+>Sie müssen minicom installieren (`sudo apt-get install -y minicom`), es ausführen und eine Verbindung zum Modem herstellen :
 >
 >`` `{.bash}
 >AT ^ CURC = 0
@@ -97,15 +105,15 @@ Kleines Beispiel für Interaktion : Frage : "Was ist die Temperatur des Raumes ?
 
 > **Ich kann den USB-Anschluss meines Schlüssels nicht sehen**
 >
->Stellen Sie sicher, dass Sie nicht brltty installieren müssen (`sudo apt-get remove brltty`, um es zu entfernen)
+>Stellen Sie sicher, dass Sie brltty nicht installiert haben (`sudo apt-get remove brltty`, um es zu entfernen).
 
 > **Nach einigen Stunden / Tagen erhalte ich keine SMS mehr und kann keine mehr senden, korrigiert eine Erinnerung des Dämons**
 >
->Überprüfen Sie Ihr USB-Kabel (ein schlechtes USB-Kabel verursacht häufig solche Probleme, es sollte auch nicht zu lang sein). Überprüfen Sie auch Ihr Netzteil. Ein USB-Hub wird dringend empfohlen
+>Überprüfen Sie Ihr USB-Kabel (ein schlechtes USB-Kabel verursacht häufig solche Probleme, es sollte auch nicht zu lang sein). Überprüfen Sie auch Ihr Netzteil. Ein USB-Hub wird dringend empfohlen.
 
 > **Ich habe einen CME-Fehler XX**
 >
->Sie können finden [hier](:http://www.micromedia-int.com/fr/gsm-2/669-cme-error-gsm-equipment-related-errors) Beschreibung der verschiedenen CME-Fehler
+>Sie können finden [hier](:http://www.micromedia-int.com/fr/gsm-2/669-cme-error-gsm-equipment-related-errors) Beschreibung der verschiedenen CME-Fehler.
 
 > **Konfiguration der Alcatel One-Touch-X220L-Taste**
 >
@@ -159,7 +167,7 @@ Kleines Beispiel für Interaktion : Frage : "Was ist die Temperatur des Raumes ?
 
 > **Der SMS-Daemon wird gestartet, Sie erhalten jedoch keine SMS**
 >
->Eine der wahrscheinlichen Ursachen ist die falsche Netzwerkkonfiguration. Überprüfen Sie unter "Allgemein" -> "Konfiguration" -> "Administration" -> "Netzwerkkonfiguration" den Inhalt des Feldes "URL oder IP-Adresse"". Letzteres darf nicht localhost oder 127.0.0 sein.1 aber die IP-Adresse Ihres Jeedom oder dessen DNS-Namen.
+>Eine der wahrscheinlichen Ursachen ist die falsche Netzwerkkonfiguration. Überprüfen Sie unter "Einstellungen" → "System" → "Konfiguration" → "Netzwerke" den Inhalt des Feldes "URL oder IP-Adresse"". Letzteres darf nicht localhost oder 127.0.0 sein.1 aber die IP-Adresse Ihres Jeedom oder dessen DNS-Namen.
 
 > **Im Debug-Modus wird der Fehler "Timeout" angezeigt**
 >
@@ -170,7 +178,7 @@ Kleines Beispiel für Interaktion : Frage : "Was ist die Temperatur des Raumes ?
 
 > **Beim Starten im Debug-Modus habe ich : "Steckdose bereits in Gebrauch"**
 >
->Dies bedeutet, dass der Dämon gestartet wird, aber Jeedom ihn nicht aufhalten kann. Sie können entweder das gesamte System neu starten oder in SSH "killall -9 refxcmd.py" ausführen".
+>Dies bedeutet, dass der Dämon gestartet wird, aber Jeedom ihn nicht aufhalten kann. Sie können entweder das gesamte System neu starten oder in SSH tun ``killall -9 refxcmd.py``.
 
 > **Der Dämon weigert sich zu starten**
 >
@@ -178,12 +186,12 @@ Kleines Beispiel für Interaktion : Frage : "Was ist die Temperatur des Raumes ?
 
 > **Ich habe mehrere USB-Anschlüsse für meinen GSM-Schlüssel, während ich nur einen habe**
 >
->Dies ist normal. Aus unbekannten Gründen erstellen GSM-Schlüssel zwei (und noch mehr) USB-Anschlüsse auf Systemebene. Wählen Sie einfach eine, egal welche.
+>Dies ist normal, aus einem unbekannten Grund erstellen die GSM-Schlüssel 2 *(Mehr sehen)* USB-Anschlüsse auf Systemebene. Wählen Sie einfach eine, egal welche.
 
 > **Jeedom sendet oder empfängt keine SMS mehr**
 >
->Dies geschieht normalerweise, wenn der GSM-Schlüssel keine Verbindung mehr zum Netzwerk herstellen kann. Bewegen Sie es nach einigen Minuten und prüfen Sie, ob es wieder kommt.
+>Dies geschieht normalerweise, wenn der GSM-Schlüssel keine Verbindung mehr zum Netzwerk herstellen kann. Bewegen Sie es, um festzustellen, ob es nach einigen Minuten wieder verfügbar ist.
 
 >**Ich habe Empfangsbedenken, die für ein paar Stunden dann nichts arbeiten**
 >
->Legen Sie die SIM-Karte in ein Mobiltelefon ein und leeren Sie alle gesendeten und empfangenen SMS von der Karte.
+>Legen Sie die SIM-Karte in ein Mobiltelefon ein und leeren Sie alle Textnachrichten von der Karte (gesendet und empfangen)).

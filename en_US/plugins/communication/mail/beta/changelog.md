@@ -6,7 +6,7 @@
 
 # 03/18/2022
 
-- Update of the presentation of the equipment configuration screens
+- Updated presentation of the equipment configuration screens
 
 # 04/06/2021
 

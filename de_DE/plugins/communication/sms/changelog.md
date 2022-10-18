@@ -4,6 +4,16 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 20.07.2022
+
+- Daemon nach python3 migrieren
+
+# 17.11.2020
+
+- Allgemeine Optimierungen
+- Neue Darstellung der Objektliste
+- Hinzufügung des Tags "V4-Kompatibilität"
+
 # 2019.09.25
 
 - Wechseln zur Jeedom v4-Schnittstelle
@@ -19,8 +29,8 @@
 
 # 26.04.2008
 
-- Aktualisieren des Dokuments
+- Aktualisierung der Dokumentation
 
 # 25.04.2008
 
-- Korrektur des Doc-Links
+- Dokumentationslink behoben

@@ -11,7 +11,7 @@
 
 # 09.06.2021
 
-- Ein Problem mit der Wiederholung von Befehlen wurde behoben
+- Ein Problem mit wiederholten Befehlen wurde behoben
 
 # 16/11/2020
 

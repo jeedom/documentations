@@ -4,6 +4,15 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 17/10/2022
+
+- Adição da apresentação do modo de tabela de equipamentos
+- Atualizar lista de comandos para Jeedom v4.3
+
+# 09/06/2021
+
+- Corrigido um problema com a repetição de comandos
+
 # 16/11/2020
 
 - Nova apresentação da lista de objetos
@@ -26,11 +35,11 @@
 
 - Suporte para php 7.3
 
- # 06/06/2018
+# 06/06/2018
 
- - Otimização do cálculo de dependência
+- Otimização do cálculo de dependência
 
- # 07/05/2018
+# 07/05/2018
 
 - Separação do cron de atualização em uma tarefa dedicada para não afetar o cron geral dos plug-ins
 

@@ -6,7 +6,7 @@
 
 # 18/03/2022
 
-- Actualización de la presentación de las pantallas de configuración de los equipos
+- Presentación actualizada de las pantallas de configuración del equipo
 
 # 06/04/2021
 

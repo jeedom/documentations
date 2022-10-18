@@ -11,7 +11,7 @@
 
 # 06/09/2021
 
-- Fixed an issue with repetition of commands
+- Fixed an issue with repeating commands
 
 # 16/11/2020
 

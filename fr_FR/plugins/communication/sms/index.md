@@ -46,7 +46,7 @@ En dessous vous retrouvez la liste des commandes :
 
 -   **Nom** : le nom affiché sur le dashboard.
 -   **Utilisateur** : utilisateur correspondant dans Jeedom (permet de restreindre certaines interactions à certains utilisateurs).
--   **Numéro** : numéro de téléphone à qui envoyer les messages. Vous pouvez mettre plusieurs numéros en les séparant avec des ; *(exemple: 0612345678;0698765432)*.
+-   **Numéro** : numéro de téléphone à qui envoyer les messages. Vous pouvez mettre plusieurs numéros en les séparant avec des ; *(exemple: 0612345678;0698765432)*. IMPORTANT : il faut mettre les numéros au format international (+33 pour la france par exemple)
 
 > **IMPORTANT**
 >
@@ -84,6 +84,7 @@ Pour communiquer avec Jeedom, il suffira ensuite de lui envoyer un message à pa
 -   Alcatel one touch X220L
 -   HSDPA 7.2MBPS 3G Wireless
 -   HUAWEI E3372
+-   USB SIM800C (vitesse 9600)
 
 # FAQ
 

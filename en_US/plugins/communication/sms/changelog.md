@@ -4,13 +4,23 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 07/20/2022
+
+- Migrating daemon to python3
+
+# 11/17/2020
+
+- General optimizations
+- New presentation of the list of objects
+- Addition of the tag "V4 compatibility"
+
 # 09/25/2019
 
 - Switching to the jeedom v4 interface
 
 # 08/11/2019
 
-- Support for php 7.3
+- Support for PHP 7.3
 
 # 10/18/2018
 
@@ -19,8 +29,8 @@
 
 # 04/26/2018
 
-- Updating the doc
+- Documentation update
 
 # 04/25/2018
 
-- Correction of the doc link
+- Fixed documentation link

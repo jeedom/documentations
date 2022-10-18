@@ -4,6 +4,15 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 17/10/2022
+
+- Adición de presentación en modo tabla de equipos
+- Lista de comandos de actualización para Jeedom v4.3
+
+# 09/06/2021
+
+- Se solucionó un problema con la repetición de comandos
+
 # 16/11/2020
 
 - Nueva presentación de la lista de objetos
@@ -26,11 +35,11 @@
 
 - Soporte para php 7.3
 
- # 02/02/2018
+# 02/02/2018
 
- - Optimización del cálculo de dependencia
+- Optimización del cálculo de dependencia
 
- # 05/07/2018
+# 05/07/2018
 
 - Separación del cron de actualización en una tarea dedicada para no afectar el cron general de los complementos
 
