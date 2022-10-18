@@ -1023,4 +1023,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2022-10-17 02:32:20
+2022-10-18 02:32:14
