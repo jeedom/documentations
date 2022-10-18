@@ -2,108 +2,108 @@
 
 >**IMPORTANT**
 >
->Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+> Pour rappel : s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 >**IMPORTANT**
 >
->Pour connaitre les nouveaux module compatible il faut aller [la](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (c'est trié par date d'ajout/modification)
+> Pour connaitre les nouveaux modules compatibles, il faut aller [là](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (c'est trié par date d'ajout/modification).
 
 # 03/10/2022
 
-- Les versions de zigpy sont maintenant fixée pour eviter des soucis sur l'installation des dépendances
+- Les versions de zigpy sont maintenant fixées pour éviter des soucis sur l'installation des dépendances.
 
 
 # 13/09/2022
 
-- Correction d'un bug sur l'installation des dépendances sur RPI
-- Support de nouveaux modules
+- Correction d'un bug sur l'installation des dépendances sur RPI.
+- Prise en charge de nouveaux modules.
 
 # 02/09/2022
 
-- Correction de bug
-- Possibilité de corriger l'erreur de bootloader (base.TimeoutError) depuis l'écran de mise à jour du firmware (en beta pour le moment)
-- Correction d'un bug sur le bouton pour forcer les mises à jour OTA des modules
-- Correction d'un bug sur la lib YARL en forcant la version 1.4.2
+- Correction de bugs.
+- Possibilité de corriger l'erreur de bootloader (base.TimeoutError) depuis l'écran de mise à jour du firmware (en beta pour le moment).
+- Correction d'un bug sur le bouton pour forcer les mises à jour OTA des modules.
+- Correction d'un bug sur la lib YARL en forcant la version 1.4.2.
 
 # 12/08/2022
 
-- Correction de bugs sur l'execution de certaine commande si l'équipement est en "Ignorer la confirmation d'exécution"
+- Correction de bugs sur l'exécution de certaines commandes si l'équipement est en "Ignorer la confirmation d'exécution".
 
 # 12/08/2022
 
-- Correction de bugs
+- Correction de bugs.
 
 # 27/07/2022
 
-- Correction de soucis d'inclusion pour les équipements GreenPower (compatible uniquement avec les clefs EZSP)
-- Correction d'un soucis sur la remonter de la couleur de certaines télécommande zigbee
+- Correction de soucis d'inclusion pour les équipements GreenPower (compatible uniquement avec les clefs EZSP).
+- Correction d'un soucis sur la remonter de la couleur de certaines télécommandes Zigbee.
 
 # 27/06/2022
 
-- Tentative de correction des soucis avec le démon
+- Tentative de correction des soucis avec le démon.
 
 # 23/06/2022
 
-- Tentative de correction des soucis avec le démon
+- Tentative de correction des soucis avec le démon.
 
 # 20/06/2022
 
-- Ajout d'une option pour exclure automatiquement les péripherique supprimés
-- Correction d'un bug lors de l'envoi forcé d'une mise à jour OTA
-- Support de nouveaux modules
-- correction d'un soucis avec zigpy 0.47.0 (retour a la version 0.46.0)
+- Ajout d'une option pour exclure automatiquement les péripheriques supprimés.
+- Correction d'un bug lors de l'envoi forcé d'une mise à jour OTA.
+- Prise en charge de nouveaux modules.
+- correction d'un soucis avec zigpy 0.47.0 (retour à la version 0.46.0).
 
 # 20/05/2022
 
-- Correction de l'erreur :  AttributeError: module 'specifics' has no attribute 'init'
+- Correction de l'erreur : `AttributeError: module 'specifics' has no attribute 'init'`.
 
 # 05/05/2022
 
-- Correction de bug
-- Support de nouveau module 
-- Correction d'un bug sur l'ajout d'un module à un groupe
-- Ajout de l'envoi de la timezone lors de l'envoi de l'heure aux modules
-- Corrections de bug sur l'installation des dépendances
+- Correction de bugs.
+- Prise en charge de nouveaux modules.
+- Correction d'un bug sur l'ajout d'un module à un groupe.
+- Ajout de l'envoi du fuseau horaire lors de l'envoi de l'heure aux modules.
+- Corrections de bug sur l'installation des dépendances.
 
 # 31/03/2022
 
-- Correction d'un soucis empechant le démon de démarrer du à la nouvelle version de zigpy
+- Correction d'un soucis empêchant le démon de démarrer à cause de la nouvelle version de zigpy.
 
 # 22/03/2022
 
-- Support de nouveau module
-- Mise à jour de la documentation
-- Correction de bug
+- Prise en charge de nouveaux modules.
+- Mise à jour de la documentation.
+- Correction de bugs.
 
 # 16/02/2022
 
-- Support de nouveau module
-- Mise à jour de la doc pour l'erreur "base timeout"
+- Prise en charge de nouveaux modules.
+- Mise à jour de la documentation pour l'erreur `base timeout`.
 
 # 03/02/2022
 
-- Tentative de correction de l'erreur "cannot import name 'collections_abc' from 'six.moves'", necessite jeedom 4.2 et la relance de l'installation des dépendances
+- Tentative de correction de l'erreur `cannot import name 'collections_abc' from 'six.moves'`, necessite jeedom 4.2 et la relance de l'installation des dépendances.
 
 # 01/02/2022
 
-- Correction d'un soucis sur la gestions des versions des firmware ezsp
-- Mise en place d'un systeme de generation automatique de commandes si aucune configuration n'existe (dans la mesure du possible)
-- Mise en place d'un systeme de decouverte automatique des commandes de type informations
-- Possibilité d'avoir la configuration json actuel du module (permettra d'integrer plus vite les modules)
+- Correction d'un soucis sur la gestions des versions des firmwares EZSP.
+- Mise en place d'un systeme de génération automatique de commandes si aucune configuration n'existe (dans la mesure du possible).
+- Mise en place d'un systeme de découverte automatique des commandes de type informations.
+- Possibilité d'avoir la configuration JSON actuelle du module (permettra d'intégrer plus vite les modules).
 
 # 21/01/2022
 
-- Correction de bugs
-- Support de nouveau module
+- Correction de bugs.
+- Prise en charge de nouveaux modules.
 
 # 10/01/2022
 
-- Correction d'un bug sur le binding direct entre 2 modules
+- Correction d'un bug sur le binding direct entre 2 modules.
 
 # 06/01/2022
 
-- Correction d'un bugs sur la liste des module pouvant etre bindé
-- Amélioration de la recuperation des batteries
+- Correction d'un bugs sur la liste des modules pouvant être bindés.
+- Amélioration de la récupération des batteries.
 
 # 20/12/2021
 
