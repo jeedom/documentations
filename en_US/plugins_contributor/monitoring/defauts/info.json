@@ -1,0 +1,16 @@
+{
+	"id" : "defauts",
+	"name" : "Défauts",
+	"description" : "Surveillance de cohérence état/mesure",
+	"licence" : "AGPL",
+	"author" : "KTN01",
+	"require" : "4.1.20",
+	"category" : "monitoring",
+	"changelog" : "https://ktn001.github.io/fr_FR/defauts/changelog.html",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"documentation" : "https://ktn001.github.io/fr_FR/defauts/index.html",
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+}

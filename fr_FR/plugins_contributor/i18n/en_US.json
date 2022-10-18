@@ -524,6 +524,8 @@
         "Gain Market": "Gain Market",
         "Récupère votre solde sur le market Jeedom (en tant que développeur) et peut vous alerter lorsqu'il évolue ou que le paiement Jeedom est détecté": "Recovers your balance on the Jeedom market (as a developer) and can alert you when it changes or when the Jeedom payment is detected",
         "Plugin fullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk": "FullyKiosK plugin for tablet management using the fullykiosk app",
+        "Défauts": "Defaults",
+        "Surveillance de cohérence état\/mesure": "State\/measurement consistency monitoring",
         "Ce plugin s'adresse à tous les iPad et iPhone retrouvés dans les placards et tiroirs, qui ont pris la poussière, que l'on a oubliés ou délaissés": "This plugin is for all iPads and iPhones found in cupboards and drawers, which have gathered dust, which have been forgotten or abandoned",
         "AdGuard Home": "AdGuard Home",
         "Plugin permettant d'activer ou désactiver votre serveur AdGuard Home": "Plugin to activate or deactivate your AdGuard Home server",
