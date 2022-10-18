@@ -1,0 +1,34 @@
+{
+	"id": "vmczehnder",
+	"name": "VMC (Zehnder/Storkair)",
+	"description": "Plugin permettant d'interfacer un VMC de la marque Zehnder aussi connu sous le nom Storkair, ComfoAir, Wernig. Modèles: ComfoAir/ComfoD 250/350/450/550, WHR 920/930/950/960",
+	"utilization": "Il est nécessaire d'installer un pi (ou équivalent) proche de la vmc et connecté sur son interface rs232 via un adaptateur USB ensuite le plugin se charge du reste, voir la doc pour plus de détails.",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.0",
+	"category": "wellness",
+	"hasDependency": true,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 10,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/vmczehnder/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-vmczehnder",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4"
+	]
+}

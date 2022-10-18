@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 17/10/2022
+
+- Atualizar lista de comandos para Jeedom v4.3
+
 # 17/03/2022
 
 - Compatibilidade com Jeedom v4.2

@@ -308,6 +308,9 @@
         "Changelog Beta": "Changelog Beta"
     },
     "plugins_contributor\/organization\/index.md": {
+        "Toutes les données sont généralement disponibles en temps réel mais la fréquence d'actualisation dépend du service utilisé": "Toutes les données sont généralement disponibles en temps réel mais la fréquence d'actualisation dépend du service utilisé",
+        "Stock exchange": "Stock exchange",
+        "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin": "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin",
         "Programmateur": "Programmateur",
         "Plugin pour ajouter un programmateur à une commande": "Plugin pour ajouter un programmateur à une commande",
         "Organisation": "Organisation",
@@ -434,6 +437,9 @@
         "le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo": "le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo"
     },
     "plugins_contributor\/wellness\/index.md": {
+        "ComfoAir\/ComfoD 250\/350\/450\/550, WHR 920\/930\/950\/960": "ComfoAir\/ComfoD 250\/350\/450\/550, WHR 920\/930\/950\/960",
+        "VMC (Zehnder\/Storkair": "VMC (Zehnder\/Storkair",
+        "Plugin permettant d'interfacer un VMC de la marque Zehnder aussi connu sous le nom Storkair, ComfoAir, Wernig": "Plugin permettant d'interfacer un VMC de la marque Zehnder aussi connu sous le nom Storkair, ComfoAir, Wernig",
         "définir le mode (On, Off, Auto...), définir les températures de consigne, activer un mode rapide, activer une marche forcée... Les vannes et les thermostats de la gamme ambiSENSE reliées au système sont également gérés": "définir le mode (On, Off, Auto...), définir les températures de consigne, activer un mode rapide, activer une marche forcée... Les vannes et les thermostats de la gamme ambiSENSE reliées au système sont également gérés",
         "Vaillant multiMATIC": "Vaillant multiMATIC",
         "Plugin permettant de se connecter à un système Vaillant multiMATIC via sa passerelle internet": "Plugin permettant de se connecter à un système Vaillant multiMATIC via sa passerelle internet",
@@ -477,6 +483,7 @@
         "Changelog Beta": "Changelog Beta",
         "Le plugin permet l'acquisition des informations de  votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings": "Le plugin permet l'acquisition des informations de  votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings",
         "L'actualisation se fait via API et par retours webhook": "L'actualisation se fait via API et par retours webhook",
-        "Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler": "Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler"
+        "Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler": "Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler",
+        "Modèles": "Modèles"
     }
 }

@@ -1,0 +1,31 @@
+{
+	"id": "stockexchange",
+	"name": "Stock exchange",
+	"description": "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin). Toutes les données sont généralement disponibles en temps réel mais la fréquence d’actualisation dépend du service utilisé.",
+	"utilization": "Une clé API (gratuite) est nécessaire, voir documentation.",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.0",
+	"category": "organization",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-stockexchange",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
+}

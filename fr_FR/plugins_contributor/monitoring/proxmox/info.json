@@ -5,7 +5,7 @@
 	"utilization": "Vous devez déjà avoir un serveur Proxmox et il sera nécessaire de créer un utilisateur dédié à Jeedom.",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "3.3.24",
+	"require": "4.0",
 	"category": "monitoring",
 	"display": "panel",
 	"hasDependency": false,
@@ -22,8 +22,8 @@
 		"en_US"
 	],
 	"compatibility": [
-		"miniplus",
 		"smart",
+		"atlas",
 		"rpi",
 		"docker",
 		"diy",

@@ -5,7 +5,7 @@
 	"utilization": "Il est nécessaire d'avoir une passerelle internet et un régulateur Vaillant compatibles avec le système multiMATIC.",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "3.3.24",
+	"require": "4.0",
 	"category": "wellness",
 	"hasDependency": true,
 	"hasOwnDeamon": true,

@@ -1,21 +1,31 @@
 {
-	"id" : "onduleursolaredge",
-	"name" : "Solaredge",
-	"description" : "Plugin permettant la lecture de données d'un onduleur de panneaux photovoltaïque de la marque Solaredge.",
-	"utilization" : "",
-	"licence" : "AGPL",
-	"author" : "Mips",
-	"require" : "3.3.24",
-	"category" : "energy",
-	"hasDependency" : false,
-	"hasOwnDeamon" : false,
-	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/#language#/changelog",
-	"documentation" : "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/#language#/",
-	"link" : {
-		"forum":"https://community.jeedom.com/tags/plugin-onduleursolaredge",
-		"video" : ""
+	"id": "onduleursolaredge",
+	"name": "Solaredge",
+	"description": "Plugin permettant la lecture de données d'un onduleur de panneaux photovoltaïque de la marque Solaredge.",
+	"utilization": "",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "3.3.24",
+	"category": "energy",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/onduleursolaredge/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-onduleursolaredge",
+		"video": ""
 	},
-	"language" : ["fr_FR", "en_US"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4"
+	]
 }

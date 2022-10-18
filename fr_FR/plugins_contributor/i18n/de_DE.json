@@ -698,6 +698,9 @@
         " Market*": " Markt*"
     },
     "plugins_contributor\/organization\/index.md": {
+        "Toutes les données sont généralement disponibles en temps réel mais la fréquence d'actualisation dépend du service utilisé": "Alle Daten sind in der Regel in Echtzeit verfügbar, die Aktualisierungsrate hängt jedoch vom verwendeten Dienst ab",
+        "Stock exchange": "Börse",
+        "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin": "Plugin zum Abrufen von Börsenkursen (unabhängig vom angeforderten Symbol) aber auch des Wechselkurses zwischen zwei Währungen (einschließlich Kryptowährung wie Bitcoin",
         "Plugin pour ajouter un programmateur à une commande": "Plugin zum Hinzufügen eines Programmiergeräts zu einer Bestellung",
         "Seuls les plugins de contributeur ont leur documentation ici": "Hier haben nur Contributor-Plugins ihre Dokumentation",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "Sie können die Dokumentation der offiziellen Plugins direkt vom Jeedom Market abrufen",
@@ -980,6 +983,9 @@
         " English*": " Englisch*"
     },
     "plugins_contributor\/wellness\/index.md": {
+        "ComfoAir\/ComfoD 250\/350\/450\/550, WHR 920\/930\/950\/960": "ComfoAir\/ComfoD 250\/350\/450\/550, WHR 920\/930\/950\/960",
+        "VMC (Zehnder\/Storkair": "CMV (Zehnder\/Storkair",
+        "Plugin permettant d'interfacer un VMC de la marque Zehnder aussi connu sous le nom Storkair, ComfoAir, Wernig": "Plugin zur Anbindung eines VMC der Marke Zehnder, auch bekannt unter den Namen Storkair, ComfoAir, Wernig",
         "définir le mode (On, Off, Auto...), définir les températures de consigne, activer un mode rapide, activer une marche forcée... Les vannes et les thermostats de la gamme ambiSENSE reliées au système sont également gérés": "Definieren Sie den Modus (Ein, Aus, Auto...), Definieren Sie die Solltemperaturen, Aktivieren Sie einen Schnellmodus, Aktivieren Sie einen Zwangsbetrieb... Die an das System angeschlossenen Ventile und Thermostate der ambiSENSE-Reihe werden ebenfalls verwaltet",
         "Vaillant multiMATIC": "Tapferer multiMATIC",
         "Plugin permettant de se connecter à un système Vaillant multiMATIC via sa passerelle internet": "Plugin zur Verbindung mit einem Vaillant multiMATIC-System über dessen Internet-Gateway",
@@ -1017,6 +1023,7 @@
         "Le plugin permet l'acquisition des informations de  votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings": "Das Plugin ermöglicht die Erfassung von Informationen aus Ihrer Installation und die Ausführung der meisten verfügbaren Aktionen (Anweisungen, Zeitpläne",
         "L'actualisation se fait via API et par retours webhook": "Die Aktualisierung erfolgt über API und Webhook-Rückgaben",
         "Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler": "In Jeedom ist es möglich, den Status aller angeschlossenen Geräte zu verfolgen und zu steuern",
+        "Modèles": "Modelle",
         " Qivivo.": " Qivivo.",
         " Qivivo?": " Qivivo?",
         "Qivivo ": "Qivivo ",
