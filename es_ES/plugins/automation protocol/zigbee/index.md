@@ -330,15 +330,8 @@ Si para un daemon dado (1, 2 o 3) cambia la clave Zigbee sin restaurar una copia
 
 >**Tengo un error estándar "base.timeout" al iniciar el daemon en una tecla de tipo EZSP**
 >
->Es posible que la clave esté bloqueada en el modo de cargador de arranque, para salir de ella puede hacer las siguientes líneas (una por una) en la consola del sistema Jeedom (tenga cuidado si no está bajo Jeedom Atlas debe reemplazar /dev/ttyS2 por el puerto de la clave zigbee, ex /dev/ttyUSBX con X un número correspondiente a su configuración):
+>Es posible que la clave esté bloqueada en el modo de cargador de arranque, para salir de ella, puede ir a la configuración del complemento, luego hacer clic en "Actualizar el firmware", seleccionar su tipo de clave (en Smart/Atlas es Elelabs/Popp ), en puerto Zigbee selecciona tu puerto y en firmware selecciona "Corrección bootloader"
 > Importante : esta manipulación solo debe realizarse con teclas de tipo Elelabs, Jeedom Atlas o Jeedom Smart. En cualquier otra llave debes contactar con el fabricante para que te den el procedimiento.
-''''''''
-wgy https://github.com/Elelabs/elelabs-zigbee-ezsp-utility/archive/master.zip -O /tmp/elelabs.zip
-cd /tmp;unzip -o elelabs.zip
-cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py flash -p /dev/ttyS2 -f /tmp/elelabs-zigbee-ezsp-utility-master/data/EFR32MG13/ELE_MG13_zb_ncp_115200_610_211112.gbl
-cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py probe -p /dev/ttyS2
-rm -rf /tmp/elelabs-zigbee-ezsp-utility-master
-''''''''
 
 >**No puedo instalar dependencias**
 >

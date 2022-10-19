@@ -330,15 +330,8 @@ Si pour un démon donné (1,2 ou 3) vous changer la clef Zigbee sans restaurer u
 
 >**J'ai une erreur type "base.timeout" lors du démarrage du démon sur une clef type EZSP**
 >
->Il est possible que la clef soit bloquée en mode bootloader, pour en sortir vous pouvez faire les lignes suivante (une à une) dans la console systeme de Jeedom (attention si vous n'etes pas sous Jeedom Atlas il faut remplacer /dev/ttyS2 par le port de la clef zigbee, ex /dev/ttyUSBX avec X un nombre correspondant à votre configuration):
+>Il est possible que la clef soit bloquée en mode bootloader, pour en sortir vous pouvez aller dans la configuration du plugin puis cliquer sur "Mettre à jour le firmware", selectionner votre type de clef (sur Smart/Atlas c'est Elelabs/Popp), dans port Zigbee selectionner votre port et dans firmware selectionner "Correction bootloader"
 > IMPORTANT : il ne faut faire cette manipulation que les clefs de type Elelabs, box Jeedom Atlas ou Jeedom Smart. Sur tout autre clef il faut contacter le fabricant pour qu'il vous donne la procedure.
-````
-wget https://github.com/Elelabs/elelabs-zigbee-ezsp-utility/archive/master.zip -O /tmp/elelabs.zip
-cd /tmp;unzip -o elelabs.zip
-cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py flash -p /dev/ttyS2 -f /tmp/elelabs-zigbee-ezsp-utility-master/data/EFR32MG13/ELE_MG13_zb_ncp_115200_610_211112.gbl
-cd /tmp/elelabs-zigbee-ezsp-utility-master;python3 Elelabs_EzspFwUtility.py probe -p /dev/ttyS2
-rm -rf /tmp/elelabs-zigbee-ezsp-utility-master
-````
 
 >**Je n'arrive pas a installer les dépendances**
 >

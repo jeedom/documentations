@@ -8,6 +8,12 @@
 >
 >Para conocer el nuevo módulo compatible tienes que ir [la](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (está ordenado por fecha de adición / modificación)
 
+# 19/10/2022
+
+- Elimine la carpeta rustc después de instalar las dependencias para liberar espacio
+- Soporte mejorado para algunos módulos
+- Arreglo del fallo
+
 # 10/03/2022
 
 - Las versiones de Zigpy ahora están arregladas para evitar problemas con la instalación de dependencias
