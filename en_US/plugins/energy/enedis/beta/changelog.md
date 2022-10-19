@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 10/18/2022
+
+- Updated command list for Jeedom v4.3
+
 # 08/15/2022
 
 - Fixed a production data display bug in case of multiple widgets on the page

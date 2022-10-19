@@ -4,6 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 18/10/2022
+
+- Lista de comandos atualizada para Jeedom v4.3
+
 # 15/08/2022
 
 - Corrigido um bug de exibição de dados de produção no caso de vários widgets na página

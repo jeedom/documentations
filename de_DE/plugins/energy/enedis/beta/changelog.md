@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 18.10.2022
+
+- Aktualisierte Befehlsliste für Jeedom v4.3
+
 # 15.08.2022
 
 - Fehler bei der Anzeige von Produktionsdaten bei mehreren Widgets auf der Seite behoben

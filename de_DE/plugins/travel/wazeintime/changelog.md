@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 17.10.2022
+
+- Befehlsliste für Jeedom v4.3 aktualisieren
+
 # 17.03.2022
 
 - Jeedom v4.2-Kompatibilität

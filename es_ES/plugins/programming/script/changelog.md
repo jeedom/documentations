@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 17/10/2022
+
+- Lista de comandos de actualización para Jeedom v4.3
+
 # 24/06/2020
 
 - Corrección de la interfaz

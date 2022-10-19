@@ -4,6 +4,14 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 18/10/2022
+
+- Mise à jour de la liste des commandes pour Jeedom v4.3
+
+# 15/08/2022
+
+- Correction d'un bug d'affichage des données de production en cas de plusieurs widgets sur la page
+
 # 02/08/2022
 
 - Optimisation des appels aux serveurs Enedis

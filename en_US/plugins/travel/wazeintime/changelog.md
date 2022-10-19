@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 10/17/2022
+
+- Update command list for Jeedom v4.3
+
 # 03/17/2022
 
 - Jeedom v4.2 compatibility
