@@ -2,8 +2,9 @@
 
 ## 4.3.4
 
-- Correction d'un soucis sur les images de fond
-- Correction d'un bug avec le widget numerique par defaut
+- Correction d'un soucis sur les images de fond.
+- Correction d'un bug avec le widget numerique par défaut.
+- Correction d'une erreur d'inclusion avec certains plugins (*nut* par exemple).
 
 ## 4.3.3
 
