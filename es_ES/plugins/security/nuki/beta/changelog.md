@@ -6,7 +6,7 @@
 
 # 10/03/2022
 
-- Actualización de la página de configuración de equipos para Jeedom v4.2 y v4.3
+- Actualización de la página de configuración de equipos para Jeedom v4.3
 - Agregar un comando *Estado de puerta binaria* en la cerradura inteligente
 - Adición de una configuración de complemento para el tiempo de espera de la solicitud, así como la cantidad de intentos para los comandos de acción
 - Configuración de tipos genéricos predeterminados en comandos (solo para comandos recién creados))

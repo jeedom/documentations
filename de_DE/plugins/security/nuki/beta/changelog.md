@@ -6,7 +6,7 @@
 
 # 10.03.2022
 
-- Aktualisierung der Gerätekonfigurationsseite für Jeedom v4.2 & v4.3
+- Aktualisierung der Gerätekonfigurationsseite für Jeedom v4.3
 - Hinzufügen eines Befehls *Binärer Gate-Zustand* auf dem Smartlock
 - Hinzufügen einer Plugin-Konfiguration für das Anforderungs-Timeout sowie die Anzahl der Versuche für Aktionsbefehle
 - Festlegen von standardmäßigen generischen Typen für Befehle (nur für neu erstellte Befehle)

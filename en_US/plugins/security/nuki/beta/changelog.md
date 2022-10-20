@@ -6,7 +6,7 @@
 
 # 03/10/2022
 
-- Update of the equipment configuration page for Jeedom v4.2 & v4.3
+- Update of the equipment configuration page for Jeedom v4.3
 - Adding a command *Binary gate state* on the smart lock
 - Addition of a plugin config for the request timeout as well as the number of attempts for action commands
 - Setting default generic types on commands (only for newly created commands)

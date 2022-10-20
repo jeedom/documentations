@@ -1,0 +1,46 @@
+{
+    "id": "harmonyhub",
+    "name": "Harmony Hub",
+    "description": {
+        "fr_FR": "Plugin permettant de contrôler un ou plusieurs Harmony Hub.",
+        "en_US": "Plugin allowing to control one or more Harmony Hub",
+        "es_ES": "Complemento que permite controlar uno o más Harmony Hub",
+        "de_DE": "Plugin zur Steuerung eines oder mehrerer Harmony Hub",
+        "pt_PT": "Plugin que permite controlar um ou mais Hub Harmony",
+        "ru_RU": "Plugin permettant de contrôler un ou plusieurs Harmony Hub",
+        "id_ID": "Plugin permettant de contrôler un ou plusieurs Harmony Hub",
+        "it_IT": "Plugin permettant de contrôler un ou plusieurs Harmony Hub",
+        "ja_JP": "Plugin permettant de contrôler un ou plusieurs Harmony Hub",
+        "tr": "Plugin permettant de contrôler un ou plusieurs Harmony Hub"
+    },
+    "licence": "AGPL",
+    "author": "Ludovic SARAKHA",
+    "require": "3.3.39",
+    "category": "multimedia",
+    "hasDependency": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/harmonyhub\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/harmonyhub\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/harmonyhub\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/harmonyhub\/beta"
+}

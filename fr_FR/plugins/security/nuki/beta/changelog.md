@@ -6,7 +6,7 @@
 
 # 03/10/2022
 
-- Mise à jour de la page de configuration des équipements pour Jeedom v4.2 & v4.3
+- Mise à jour de la page de configuration des équipements pour Jeedom v4.3
 - Ajout d'une commande *Etat porte binaire* sur la smart lock
 - Ajout d'une config plugin pour le timeout des requêtes ainsi que le nombre de tentatives pour les commandes actions
 - Définition des types génériques par défaut sur les commandes (seulement pour les commandes nouvellement créées)

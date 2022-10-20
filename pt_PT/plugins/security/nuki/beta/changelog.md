@@ -6,7 +6,7 @@
 
 # 10/03/2022
 
-- Atualização da página de configuração do equipamento para Jeedom v4.2 e v4.3
+- Atualização da página de configuração do equipamento para Jeedom v4.3
 - Adicionando um comando *Estado da porta binária* na fechadura inteligente
 - Adição de uma configuração de plug-in para o tempo limite da solicitação, bem como o número de tentativas de comandos de ação
 - Configurando tipos genéricos padrão em comandos (somente para comandos recém-criados)
