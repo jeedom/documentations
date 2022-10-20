@@ -426,6 +426,7 @@
 |<img src="../../en_US/zigbee/images/HEIMAN.GASSensor-EF-3.0.png" width="60" />|Heiman|Smart Combustible Gas Sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5883-heiman-capteur-de-gaz-combustible-intelligent-zigbee-30.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/HEIMAN.GASSensor-EM.png" width="60" />|Heiman|Gas detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/5883-heiman-capteur-de-gaz-combustible-intelligent-zigbee-30.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/HEIMAN.HS3AQ-EFA-3.0.png" width="60" />|Heiman|Zigbee 3.0 air quality sensor|||[Buy](https://www.domadoo.fr/fr/peripheriques/5882-heiman-capteur-de-qualite-d-air-co2-temperature-humidite-zigbee-30-alarme-visuelle-et-sonore.html?domid=4&id_campaign=9)|
+|<img src="../../en_US/zigbee/images/HEIMAN.HS3HT-EFA-3.0.png" width="60" />|Heiman|HEIMAN - ZIGBEE 3 TEMPERATURE AND HUMIDITY SENSOR.0 WITH SCREEN|||[Buy](https://www.domadoo.fr/fr/peripheriques/6293-heiman-capteur-de-temperature-et-humidite-zigbee-30-avec-ecran.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/HEIMAN.PIRSensor-EF-3.0.png" width="60" />|Heiman|||||
 |<img src="../../en_US/zigbee/images/HEIMAN.RC-EM.png" width="60" />|Heiman|4 button remote control|||[Buy](https://www.domadoo.fr/fr/peripheriques/5721-heiman-telecommande-porte-cles-de-scenes-zigbee.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/HEIMAN.SOS-EF-3.0.png" width="60" />|Heiman|SOS button||||
@@ -933,6 +934,7 @@
 |<img src="../../en_US/zigbee/images/TZE200_hue3yfsn.TS0601.png" width="60" />|Tuya|Tête thermostatique intelligente||||
 |<img src="../../en_US/zigbee/images/TZE200_la2c2uo9.TS0601.png" width="60" />|Tuya|MOES - Single dimmer module||||
 |<img src="../../en_US/zigbee/images/TZE200_nueqqe6k.TS0601.png" width="60" />|Tuya|Smart Motorized Chain Roller|Volets|||
+|<img src="../../en_US/zigbee/images/TZE200_wukb7rhc.TS0601.png" width="60" />|Tuya|MOES - Zigbee Tuya presence detector (radar technology)|||[Buy](https://www.domadoo.fr/fr/domotique/6328-moes-detecteur-de-presence-zigbee-tuya-technologie-radar.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/TZE200_yvx5lh6k.TS0601.png" width="60" />|Tuya|Tuya air quality||||
 |<img src="../../en_US/zigbee/images/TZE200_ywdxldoj.TS0601.png" width="60" />|Moes|MOES - Intelligent thermostatic head (2)||||
 |<img src="../../en_US/zigbee/images/tuya.ZM-RT201.png" width="60" />|Tuya|Zigbee Motion Sensor||||
@@ -1023,4 +1025,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2022-10-19 02:32:17
+2022-10-20 02:32:17

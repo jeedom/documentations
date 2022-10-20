@@ -426,6 +426,7 @@
 |<img src="../../fr_FR/zigbee/images/HEIMAN.GASSensor-EF-3.0.png" width="60" />|Heiman|Smart Combustible Gas Sensor|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5883-heiman-capteur-de-gaz-combustible-intelligent-zigbee-30.html?domid=4&id_campaign=9)|
 |<img src="../../fr_FR/zigbee/images/HEIMAN.GASSensor-EM.png" width="60" />|Heiman|Détecteur de gaz|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5883-heiman-capteur-de-gaz-combustible-intelligent-zigbee-30.html?domid=4&id_campaign=9)|
 |<img src="../../fr_FR/zigbee/images/HEIMAN.HS3AQ-EFA-3.0.png" width="60" />|Heiman|Capteur de qualité d'air Zigbee 3.0|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5882-heiman-capteur-de-qualite-d-air-co2-temperature-humidite-zigbee-30-alarme-visuelle-et-sonore.html?domid=4&id_campaign=9)|
+|<img src="../../fr_FR/zigbee/images/HEIMAN.HS3HT-EFA-3.0.png" width="60" />|Heiman|HEIMAN - CAPTEUR DE TEMPERATURE ET HUMIDITÉ ZIGBEE 3.0 AVEC ÉCRAN|||[Acheter](https://www.domadoo.fr/fr/peripheriques/6293-heiman-capteur-de-temperature-et-humidite-zigbee-30-avec-ecran.html?domid=4&id_campaign=9)|
 |<img src="../../fr_FR/zigbee/images/HEIMAN.PIRSensor-EF-3.0.png" width="60" />|Heiman|||||
 |<img src="../../fr_FR/zigbee/images/HEIMAN.RC-EM.png" width="60" />|Heiman|Telecommande 4 boutons|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5721-heiman-telecommande-porte-cles-de-scenes-zigbee.html?domid=4&id_campaign=9)|
 |<img src="../../fr_FR/zigbee/images/HEIMAN.SOS-EF-3.0.png" width="60" />|Heiman|Bouton SOS||||
@@ -933,6 +934,7 @@
 |<img src="../../fr_FR/zigbee/images/TZE200_hue3yfsn.TS0601.png" width="60" />|Tuya|Tête thermostatique intelligente||||
 |<img src="../../fr_FR/zigbee/images/TZE200_la2c2uo9.TS0601.png" width="60" />|Tuya|MOES - Module dimmer simple||||
 |<img src="../../fr_FR/zigbee/images/TZE200_nueqqe6k.TS0601.png" width="60" />|Tuya|Rouleau de chaîne motorisé intelligent|Volets|||
+|<img src="../../fr_FR/zigbee/images/TZE200_wukb7rhc.TS0601.png" width="60" />|Tuya|MOES - Détecteur de présence Zigbee Tuya (technologie radar)|||[Acheter](https://www.domadoo.fr/fr/domotique/6328-moes-detecteur-de-presence-zigbee-tuya-technologie-radar.html?domid=4&id_campaign=9)|
 |<img src="../../fr_FR/zigbee/images/TZE200_yvx5lh6k.TS0601.png" width="60" />|Tuya|Tuya air quality||||
 |<img src="../../fr_FR/zigbee/images/TZE200_ywdxldoj.TS0601.png" width="60" />|Moes|MOES - Tête thermostatique intelligente (2)||||
 |<img src="../../fr_FR/zigbee/images/tuya.ZM-RT201.png" width="60" />|Tuya|Zigbee Motion Sensor||||
@@ -1023,4 +1025,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2022-10-19 02:32:17
+2022-10-20 02:32:17

@@ -94,6 +94,7 @@
         "Moes": "Moes",
         "MOES - Tête thermostatique intelligente (2": "MOES - Tête thermostatique intelligente (2",
         "Tuya air quality": "Tuya air quality",
+        "MOES - Détecteur de présence Zigbee Tuya (technologie radar": "MOES - Détecteur de présence Zigbee Tuya (technologie radar",
         "Rouleau de chaîne motorisé intelligent": "Rouleau de chaîne motorisé intelligent",
         "Volets": "Volets",
         "MOES - Module dimmer simple": "MOES - Module dimmer simple",
@@ -483,6 +484,8 @@
         "Telecommande 5 boutons": "Telecommande 5 boutons",
         "Détecteur de fumée": "Détecteur de fumée",
         "Telecommande 4 boutons": "Telecommande 4 boutons",
+        "0 AVEC ÉCRAN": "0 AVEC ÉCRAN",
+        "HEIMAN - CAPTEUR DE TEMPERATURE ET HUMIDITÉ ZIGBEE 3": "HEIMAN - CAPTEUR DE TEMPERATURE ET HUMIDITÉ ZIGBEE 3",
         "Capteur de qualité d'air Zigbee 3.0": "Capteur de qualité d'air Zigbee 3.0",
         "Détecteur de gaz": "Détecteur de gaz",
         "Smart Combustible Gas Sensor": "Smart Combustible Gas Sensor",
@@ -712,6 +715,6 @@
         "LiXee": "LiXee",
         "Sinope Technologies": "Sinope Technologies",
         "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels": "Cette liste est basee sur des retours utilisateurs, l\\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels",
-        "2022-10-19 02": "2022-10-19 02"
+        "2022-10-20 02": "2022-10-20 02"
     }
 }
