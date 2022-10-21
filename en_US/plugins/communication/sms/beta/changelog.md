@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 21/10/2022
+
+- Fix an issue with some gsm keys returning incorrect characters when starting the daemon.
+
 # 10/18/2022
 
 - Update command list for Jeedom v4.3

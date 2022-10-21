@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 21/10/2022
+
+- Solucione un problema con algunas teclas gsm que devuelven caracteres incorrectos al iniciar el daemon.
+
 # 18/10/2022
 
 - Lista de comandos de actualización para Jeedom v4.3

@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 21/10/2022
+
+- Fix un problème avec certaines clés gsm renvoyant des caractères incorrectes lors du démarrage du démon.
+
 # 18/10/2022
 
 - Mise à jour liste des commandes pour Jeedom v4.3
