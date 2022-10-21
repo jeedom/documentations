@@ -1,40 +1,40 @@
 # Jeedom Kommandozeilen-Update
 
-Wir werden hier sehen, wie man manuell aktualisiert
+Wir werden sehen, wie Sie Ihr Jeedom manuell aktualisieren können *(wenn Sie zum Beispiel nicht mehr auf die Schnittstelle zugreifen können)*
 
 ## Voraussetzungen
 
 -   weiß, wie man in SSH eine Verbindung zu Jeedom herstellt
--   kennen die SSH-Kennungen (siehe Installationsdokumentation)
+-   SSH-Anmeldeinformationen kennen *(siehe Installationsdokumentation)*
 -   haben Internetzugang von der Jeedom Box
 
 > **Wichtig**
 >
-> Denken Sie daran, vor jedem manuellen Update ein Backup zu erstellen und zu exportieren.
+> Denken Sie daran, vor jedem manuellen Update das neueste funktionsfähige Jeedom-Backup außerhalb der Box zu exportieren.
 
 ## Herunterladen und entpacken
 
 In SSH tun :
 
-````
-sudo su -
+```bash
+bekannt -
 cd /root
-wget https://github.com/jeedom/core/archive/master.zip
-unzip master.zip
-cp -R core-master/* /var/www/html
-cp -R core-master/.[^.]* /var/www/html
-````
+wget https://github.com/jeedom/core/archive/V4-stable.zip
+entpacken Sie V4-stable.zip
+cp -R core-4-stable/* /var/www/html
+cp -R core-4-stable/.[^.]* /var/www/html
+```
 
 ## Update
 
 Immer noch in SSH:
 
-````
-sudo su -
-php /var/www/html/install/update.php mode=force
+```bash
+bekannt -
+php /var/www/html/install/update.phpmode=Stärke
 chmod 775 -R /var/www/html
-chown www-data:www-data -R /var/www/html
-````
+chown www-Daten:www-data -R /var/www/html
+```
 
 > **Wichtig**
 >
