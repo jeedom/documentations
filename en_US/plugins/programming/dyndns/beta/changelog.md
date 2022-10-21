@@ -4,6 +4,12 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 202/10/2022
+
+- Interface update for Jeedom v4.3
+
+# 03/12/2022
+
 - Infomaniak.com support
 - IPv6 support (thanks @henribi)
 

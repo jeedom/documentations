@@ -4,6 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 202/10/2022
+
+- Actualización de interfaz para Jeedom v4.3
+
+# 12/03/2022
+
 - Soporte infomaniak.com
 - Compatibilidad con IPv6 (gracias @henribi)
 
