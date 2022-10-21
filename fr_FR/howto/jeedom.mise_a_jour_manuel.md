@@ -1,6 +1,6 @@
 # Mise à jour en ligne de commande de jeedom
 
-Nous allons voir comment mettre à jour manuellement votre Jeedom *(si vous ne pouvezp lus accéder à l'interface par exemple)*
+Nous allons voir comment mettre à jour manuellement votre Jeedom *(si vous ne pouvez plus accéder à l'interface par exemple)*
 
 ## Prérequis
 
