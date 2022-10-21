@@ -16,25 +16,25 @@ Veremos cómo actualizar manualmente su Jeedom *(si ya no puede acceder a la int
 
 En SSH, haz :
 
-```bash
+````bash
 supo -
 cd /raíz
 wget https://github.com/jeedom/core/archive/V4-stable.zip
 descomprimir V4-estable.zip
 cp -R core-4-stable/* /var/www/html
 cp -R core-4-stable/.[^.]* /var/www/html
-```
+````
 
-## Actualización
+## Mise à jour
 
-Todavía en SSH:
+Toujours en SSH:
 
-```bash
+````bash
 supo -
-php /var/www/html/instalar/actualizar.phpmode=fuerza
+php /var/www/html/install/update.php mode=force
 chmod 775 -R /var/www/html
-chown www-datos:www-datos -R /var/www/html
-```
+chown www-data:www-data -R /var/www/html
+````
 
 > **Importante**
 >
