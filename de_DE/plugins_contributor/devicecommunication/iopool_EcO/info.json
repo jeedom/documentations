@@ -1,0 +1,34 @@
+{
+	"id" : "iopool_EcO",
+	"name" : "iopool - EcO",
+	"description" : {
+		"fr_FR": "Plugin Jeedom pour collecter les informations de la sonde <a href='https://iopool.com'>iopool</a> EcO depuis le Cloud iopool (API).<br/>Pour plus de détails, n'hésitez pas à consulter la documentation qui est très complète.",
+		"en_US": "Jeedom plugin to collect <a href='https://iopool.com'>iopool</a> EcO sensor informations from iopool Cloud (API)<br/>For more details, do not hesitate to consult the documentation which is very complete."
+	},
+	"licence" : "GPLv3",
+	"author" : "Marc GUYARD",
+	"require" : "4.0",
+	"version" : "2.0.14",
+	"category" : "devicecommunication",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://mguyard.github.io/Jeedom-Documentations/#language#/iopool_EcO/changelog",
+	"documentation" : "https://mguyard.github.io/Jeedom-Documentations/#language#/iopool_EcO/documentation",
+	"link" : {
+		"forum":"https://community.jeedom.com/t/plugin-tiers-iopool-eco/66970"
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"v4",
+		"atlas"
+	]
+}
