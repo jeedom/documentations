@@ -66,6 +66,8 @@
     "plugins_contributor\/automatisation\/index.md": {
         "Volet proportionel": "Proportional component",
         "Ce plugin gère l'ouverture et la fermeture proportionnel de nos volet": "This plugin manages the opening and proportional closing of our shutters",
+        "Switch assistant": "Switch assistant",
+        "Plugin pour assister le fonctionnement des interrupteurs": "Plugin to assist the operation of switches",
         "Séquencement d'actions": "Sequencing actions",
         "Plugin pour gérer des actions séquencées et déclencheurs complexes": "Plugin to manage sequenced actions and complex triggers",
         "Plugin de pilotage des caméras et visiophones EZVIZ": "Plugin for controlling EZVIZ cameras and videophones",
