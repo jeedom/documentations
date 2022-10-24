@@ -2,10 +2,10 @@
 
 ## 4.3.6
 
-- Suppression de la conversion des unitées pour les secondes (s).
+- Suppression de la conversion des unités pour les secondes (s).
 - Suppression du menu de mise à jour OS pour les box Jeedom (les mises à jour OS sont gerés par Jeedom SAS).
 - Correction d'un bug sur la modale de configuration des historiques.
-- Ajout d'une action *changeTheme* pour les scénarios, actions sur valeur, actions pre/post exec : Elle permet de changer le thème de l'interface immédiatement, en dark, light ou l'autre (toggle).
+- Ajout d'une action *changeTheme* pour les scénarios, actions sur valeur, actions pre/post exec : changer le thème de l'interface immédiatement, en dark, light ou l'autre (toggle).
 
 ## 4.3.5
 
@@ -14,7 +14,7 @@
 ## 4.3.4
 
 - Correction d'un soucis sur les images de fond.
-- Correction d'un bug avec le widget numerique par défaut.
+- Correction d'un bug avec le widget numérique par défaut.
 - Correction d'une erreur d'inclusion avec certains plugins (*nut* par exemple).
 
 ## 4.3.3
