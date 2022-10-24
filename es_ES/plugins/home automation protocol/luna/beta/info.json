@@ -1,0 +1,46 @@
+{
+    "id": "luna",
+    "name": "Luna",
+    "description": {
+        "fr_FR": "Plugin spécialisé pour la box Jeedom Luna.",
+        "en_US": "Specialized plugin for the Jeedom Luna box",
+        "es_ES": "Complemento especializado para la caja Jeedom Luna",
+        "de_DE": "Spezialisiertes Plugin für die Jeedom Luna Box",
+        "ru_RU": "Plugin spécialisé pour la box Jeedom Luna",
+        "id_ID": "Plugin spécialisé pour la box Jeedom Luna",
+        "it_IT": "Plugin spécialisé pour la box Jeedom Luna",
+        "ja_JP": "Plugin spécialisé pour la box Jeedom Luna",
+        "pt_PT": "Plugin especializado para a caixa Jeedom Luna",
+        "tr": "Plugin spécialisé pour la box Jeedom Luna"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.1",
+    "category": "home automation protocol",
+    "hasDependency": true,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 600,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home%20automation%20protocol\/luna\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home%20automation%20protocol\/luna\/",
+    "link": {
+        "forum": "https:\/\/community.jeedom.com\/c\/materiel-jeedom-hardware\/luna\/122"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "luna",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home%20automation%20protocol\/luna\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/home%20automation%20protocol\/luna\/beta"
+}

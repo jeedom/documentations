@@ -334,6 +334,9 @@
         "Changelog Beta": "Changelog Beta"
     },
     "plugins\/home automation protocol\/index.md": {
+        "Plugin spécialisé pour la box Jeedom Luna": "Plugin spécialisé pour la box Jeedom Luna",
+        "Luna": "Luna",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
         "Atlas": "Atlas",
         "Plugins spécialisé pour la Atlas": "Plugins spécialisé pour la Atlas",
         "IMPORTANT": "IMPORTANT",
@@ -347,7 +350,9 @@
         "Documentation Beta": "Documentation Beta",
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
-        "Changelog Beta": "Changelog Beta"
+        "Changelog Beta": "Changelog Beta",
+        "Documentation beta": "Documentation beta",
+        "Changelog beta": "Changelog beta"
     },
     "plugins\/monitoring\/index.md": {
         "Ventilairsec": "Ventilairsec",
