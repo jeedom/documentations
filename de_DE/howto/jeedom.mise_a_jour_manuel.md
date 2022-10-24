@@ -17,10 +17,10 @@ Wir werden sehen, wie Sie Ihr Jeedom manuell aktualisieren können *(wenn Sie zu
 In SSH tun :
 
 ````bash
-bekannt -
+su -
 cd /root
 wget https://github.com/jeedom/core/archive/V4-stable.zip
-entpacken Sie V4-stable.zip
+unzip V4-stable.zip
 cp -R core-4-stable/* /var/www/html
 cp -R core-4-stable/.[^.]* /var/www/html
 ````
@@ -30,7 +30,7 @@ cp -R core-4-stable/.[^.]* /var/www/html
 Toujours en SSH:
 
 ````bash
-bekannt -
+su -
 php /var/www/html/install/update.php mode=force
 chmod 775 -R /var/www/html
 chown www-data:www-data -R /var/www/html
