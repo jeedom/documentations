@@ -50,7 +50,7 @@ On your Jeedom, go to Plugin -> Communication -> Alexa and in the equipment sect
 
 > **Important**
 >
-> The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly. You can see [here](https://doc.jeedom.com/en_US/concept/generic_type) explanations on generic generics
+> The plugin is based on the generic Jeedom types of commands to control your home automation. It is therefore very important to configure these correctly. You can see [here](https://doc.jeedom.com/en_US/core/4.2/types) explanations on generic generics
 
 > **Important**
 >

@@ -4,7 +4,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-- Möglichkeit, jede Anfrage von Google basierend auf einer Bedingung zu sperren
+# 02.06.2022
+
+- Optimierung des API-Schlüsselrotationsprozesses
+
+# 27.09.2021
+
+- Möglichkeit, jede Anfrage von Alexa basierend auf einer Bedingung zu verbieten
 - Aufnahme neuer Typen
 - Verbesserter Schlosstyp"
 
