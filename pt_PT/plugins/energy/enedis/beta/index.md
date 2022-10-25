@@ -89,7 +89,7 @@ O plugin oferece a possibilidade de exibir dados de consumo e / ou produção em
 
 ![Template de widget](../images/enedis_screenshot1.png)
 
-Para ativar esta opção, basta marcar a caixa **Permitir** seção **Template de widget** na página geral do equipamento em questão. Depois que o modelo de widget estiver ativado, vá para a guia **Exibição** da configuração do equipamento para escolher a cor de fundo do widget (`Modelo : background-color`) e/ou cor do título (`Template : titlebar-color`) dependendo da versão de acesso ao Jeedom *(desktop ou celular)*.
+Para ativar esta opção, basta marcar a caixa **Permitir** seção **Template de widget** na página geral do equipamento em questão. Depois que o modelo de widget estiver ativado, vá para a guia **Exibição** da configuração do equipamento para escolher a cor de fundo do widget 'Modelo' : cor de fundo` *(163, 204, 40 por padrão)* e/ou cor do título `Modelo : titlebar-color` *(transparente por padrão)* dependendo da versão de acesso Jeedom *(desktop ou celular)*.
 
 ![Personnaliser le widget](../images/enedis_customizeWidget.png)
 

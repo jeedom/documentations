@@ -89,7 +89,7 @@ Das Plugin bietet die Möglichkeit, Verbrauchs- und / oder Produktionsdaten in e
 
 ![Widget-Vorlage](../images/enedis_screenshot1.png)
 
-Um diese Option zu aktivieren, aktivieren Sie einfach das Kontrollkästchen **Ermöglichen** Sektion **Widget-Vorlage** auf der allgemeinen Seite der betreffenden Ausrüstung. Sobald die Widget-Vorlage aktiviert ist, gehen Sie zur Registerkarte **Anzeige** der Gerätekonfiguration, um die Hintergrundfarbe des Widgets auszuwählen (`Template : background-color`) und/oder Titelfarbe (`Template : titlebar-color`) abhängig von der Jeedom-Zugriffsversion *(Desktop oder Handy)*.
+Um diese Option zu aktivieren, aktivieren Sie einfach das Kontrollkästchen **Ermöglichen** Sektion **Widget-Vorlage** auf der allgemeinen Seite der betreffenden Ausrüstung. Sobald die Widget-Vorlage aktiviert ist, gehen Sie zur Registerkarte **Anzeige** aus der Gerätekonfiguration, um die Hintergrundfarbe des Widgets „Vorlage“ auszuwählen : Hintergrundfarbe` *(163, 204, 40 standardmäßig)* und/oder Titelfarbe `Template : Titelleistenfarbe` *(standardmäßig transparent)* abhängig von der Jeedom-Zugriffsversion *(Desktop oder Handy)*.
 
 ![Personnaliser le widget](../images/enedis_customizeWidget.png)
 

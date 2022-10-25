@@ -89,7 +89,7 @@ El complemento ofrece la posibilidad de mostrar datos de consumo y / o producci�
 
 ![Plantilla de widget](../images/enedis_screenshot1.png)
 
-Para activar esta opción, simplemente marque la casilla **Habilitar** sección **Plantilla de widget** en la página general del equipo en cuestión. Una vez activada la plantilla del widget, vaya a la pestaña **Monitor** de la configuración del equipo para elegir el color de fondo del widget (`Template : background-color`) y/o color del título (`Template : titlebar-color`) dependiendo de la versión de acceso de Jeedom *(escritorio o móvil)*.
+Para activar esta opción, simplemente marque la casilla **Habilitar** sección **Plantilla de widget** en la página general del equipo en cuestión. Una vez activada la plantilla del widget, vaya a la pestaña **Monitor** desde la configuración del equipo para elegir el color de fondo del widget `Plantilla' : color de fondo` *(163, 204, 40 por defecto)* y/o color de título `Plantilla : color de la barra de título` *(transparente por defecto)* dependiendo de la versión de acceso de Jeedom *(escritorio o móvil)*.
 
 ![Personnaliser le widget](../images/enedis_customizeWidget.png)
 
