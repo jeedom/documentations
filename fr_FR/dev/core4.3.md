@@ -75,7 +75,7 @@ Notez le nouveau paramètre `unit`, qui permet au Core de transformer, par exemp
 
 #### Source de message (4.3.7):
 
-En cas d'action **message**, le Core indique maintenant la source spécifié plutôt que 'scenario'.
+En cas d'action **message**, le Core indique maintenant la source spécifiée plutôt que 'scenario'.
 
 Exemple pour le plugin Mode:
 
