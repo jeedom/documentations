@@ -67,6 +67,8 @@ Während der ersten Sicherung eines aktiven und konfigurierten Geräts erstellt 
 >
 >Die stündlichen Verbrauchsdaten werden höchstens in den letzten 7 Tagen abgerufen.
 
+Wenn Sie nicht aktiviert haben **Erfassung und Erfassung des stündlichen Verbrauchs** in Ihrem Enedis-Konto müssen Sie das Kästchen ankreuzen **Stündliche Daten : Deaktivieren** damit die entsprechenden Aufträge nicht erstellt werden.
+
 # Daten hinzufügen
 
 Es ist möglich, Historien bei Bedarf bis zu 3 Jahren direkt von der Enedis-Site aus zu integrieren. Klicken Sie dazu einfach auf die blaue Schaltfläche **Historische Ergänzungen** von der Registerkarte **Aufträge** eines Ausrüstungsgegenstandes in der Spalte **Aktion** der betreffenden Bestellung :
@@ -91,7 +93,10 @@ Das Plugin bietet die Möglichkeit, Verbrauchs- und / oder Produktionsdaten in e
 
 ![Widget-Vorlage](../images/enedis_screenshot1.png)
 
-Um diese Option zu aktivieren, aktivieren Sie einfach das Kontrollkästchen **Widget-Vorlage** auf der allgemeinen Seite der betreffenden Ausrüstung. Sobald das Kontrollkästchen aktiviert ist, können Sie mit einer Option die Hintergrundfarbe des Widgets auswählen *(Standardmäßig 163, 204, 40)*.
+Um diese Option zu aktivieren, aktivieren Sie einfach das Kontrollkästchen **Ermöglichen** Sektion **Widget-Vorlage** auf der allgemeinen Seite der betreffenden Ausrüstung. Sobald die Widget-Vorlage aktiviert ist, gehen Sie zur Registerkarte **Anzeige** aus der Konfiguration des Geräts, um die Hintergrundfarbe des Widgets anzupassen, indem Sie a hinzufügen **optionaler Parameter auf der Kachel** :
+| Nachname | Valeur|
+| --- | --- |
+| "Stil". | `background-color:rgb(163,204,40)!wichtig;` |
 
 >**TIPP**
 >

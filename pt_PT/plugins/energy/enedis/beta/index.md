@@ -67,6 +67,8 @@ Durante o 1º backup de um dispositivo ativo e configurado, o plugin irá criar 
 >
 >Os dados de consumo por hora são recuperados nos últimos 7 dias, no máximo.
 
+Se você não ativou **registro e coleta de consumo por hora** na sua conta Enedis, você deve marcar a caixa **Dados horários : Desativar** para que os pedidos correspondentes não sejam criados.
+
 # Adicionando dados
 
 É possível integrar histórias sob demanda, até 3 anos atrás, diretamente do site da Enedis. Para fazer isso, basta clicar no botão azul **Acréscimos históricos** da guia **Pedidos** de um item de equipamento, na coluna **Açao** da ordem em questão :
@@ -91,7 +93,10 @@ O plugin oferece a possibilidade de exibir dados de consumo e / ou produção em
 
 ![Template de widget](../images/enedis_screenshot1.png)
 
-Para ativar esta opção, basta marcar a caixa **Template de widget** na página geral do equipamento em questão. Uma vez que a caixa é marcada, uma opção permite que você selecione a cor de fundo do widget *(163, 204, 40 por padrão)*.
+Para ativar esta opção, basta marcar a caixa **Permitir** seção **Template de widget** na página geral do equipamento em questão. Depois que o modelo de widget estiver ativado, vá para a guia **Exibição** da configuração do equipamento para personalizar a cor de fundo do widget adicionando um **parâmetro opcional no bloco** :
+| Sobrenome | Valeur|
+| --- | --- |
+| `estilo` | `background-color:rgb(163,204,40)!importante;` |
 
 >**DICA**
 >

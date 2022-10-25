@@ -67,6 +67,8 @@ Lors de la 1ère sauvegarde d'un équipement actif et configuré, le plugin va a
 >
 >Les données de consommation horaire sont quand à elles récupérées sur les 7 derniers jours au maximum.
 
+Si vous n'avez pas activé **l'enregistrement et la collecte de la consommation horaire** sur votre compte Enedis, il faudra cocher la case **Données horaires : Désactiver** pour que les commandes correspondantes ne soient pas créées.
+
 # Ajout de données
 
 Il est possible d'intégrer des historiques à la demande, jusqu'à 3 années en arrière, directement depuis le site Enedis. Pour se faire, il suffit de cliquer sur le bouton bleu **Ajout historiques** depuis l’onglet **Commandes** d’un équipement, dans la colonne **Action** de la commande concernée :
@@ -91,7 +93,10 @@ Le plugin offre la possibilité d'afficher les données de consommation et/ou de
 
 ![Template de widget](../images/enedis_screenshot1.png)
 
-Pour activer cette option, il suffit de cocher la case **Template de widget** sur la page générale de l'équipement concerné. Une fois la case cochée, une option permet de sélectionner la couleur de fond du widget *(163, 204, 40 par défaut)*.
+Pour activer cette option, il suffit de cocher la case **Activer** de la section **Template de widget** sur la page générale de l'équipement concerné. Une fois le template de widget activé, rendez-vous à l'onglet **Affichage** de la configuration de l'équipement pour personnaliser la couleur de fond du widget via l'ajout d'un **paramètre optionnel sur la tuile** :
+| Nom | Valeur|
+| --- | --- |
+| `style` | `background-color:rgb(163,204,40)!important;` |
 
 >**ASTUCE**
 >

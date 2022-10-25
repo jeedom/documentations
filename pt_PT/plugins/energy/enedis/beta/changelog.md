@@ -4,6 +4,12 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 24/10/2022
+
+- Adicionada opção para desabilitar dados por hora
+- Transferência do gerenciamento de dependências para o núcleo
+- A seleção da cor de fundo do template do widget agora é feita por parâmetro opcional na configuração do equipamento
+
 # 18/10/2022
 
 - Lista de comandos atualizada para Jeedom v4.3

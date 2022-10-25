@@ -67,6 +67,8 @@ During the 1st backup of an active and configured device, the plugin will automa
 >
 >Hourly consumption data is retrieved over the last 7 days at most.
 
+If you have not activated **recording and collecting hourly consumption** on your Enedis account, you must tick the box **Hourly data : Disable** so that the corresponding orders are not created.
+
 # Adding data
 
 It is possible to integrate histories on demand, up to 3 years back, directly from the Enedis site. To do so, just click on the blue button **Historical additions** from the tab **Orders** of an item of equipment, in the column **Action** of the order concerned :
@@ -91,7 +93,10 @@ The plugin offers the possibility of displaying consumption and / or production 
 
 ![Widget template](../images/enedis_screenshot1.png)
 
-To activate this option, just check the box **Widget template** on the general page of the equipment concerned. Once the box is checked, an option allows you to select the background color of the widget *(163, 204, 40 by default)*.
+To activate this option, just check the box **Enable** section **Widget template** on the general page of the equipment concerned. Once the widget template is activated, go to the tab **Display** from the configuration of the equipment to customize the background color of the widget by adding a **optional parameter on the tile** :
+| Last name | Valeur|
+| --- | --- |
+| `style` | `background-color:rgb(163,204,40)!important;` |
 
 >**TRICK**
 >

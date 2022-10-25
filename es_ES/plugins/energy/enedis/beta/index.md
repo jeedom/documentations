@@ -67,6 +67,8 @@ Durante la primera copia de seguridad de un dispositivo activo y configurado, el
 >
 >Los datos de consumo por hora se recuperan durante los últimos 7 días como máximo.
 
+Si no has activado **registrar y recopilar el consumo horario** en su cuenta Enedis, debe marcar la casilla **Datos horarios : Deshabilitar** para que no se creen los pedidos correspondientes.
+
 # Agregar datos
 
 Es posible integrar historias bajo demanda, hasta 3 años atrás, directamente desde el sitio de Enedis. Para hacerlo, simplemente haga clic en el botón azul **Adiciones históricas** desde la pestaña **Pedidos** de un equipo, en la columna **Acción** de la orden en cuestión :
@@ -91,7 +93,10 @@ El complemento ofrece la posibilidad de mostrar datos de consumo y / o producci�
 
 ![Plantilla de widget](../images/enedis_screenshot1.png)
 
-Para activar esta opción, simplemente marque la casilla **Plantilla de widget** en la página general del equipo en cuestión. Una vez que la casilla está marcada, una opción le permite seleccionar el color de fondo del widget *(163, 204, 40 por defecto)*.
+Para activar esta opción, simplemente marque la casilla **Habilitar** sección **Plantilla de widget** en la página general del equipo en cuestión. Una vez activada la plantilla del widget, vaya a la pestaña **Monitor** desde la configuración del equipo para personalizar el color de fondo del widget añadiendo un **parámetro opcional en el mosaico** :
+| Apellido | Valeur|
+| --- | --- |
+| `estilo` | `background-color:rgb(163,204,40)!importante;` |
 
 >**CONSEJO**
 >

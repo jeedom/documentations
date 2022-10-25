@@ -4,6 +4,12 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 24.10.2022
+
+- Option hinzugefügt, um stündliche Daten zu deaktivieren
+- Übertragung des Abhängigkeitsmanagements auf den Kern
+- Die Auswahl der Hintergrundfarbe des Widget-Templates erfolgt nun per optionalem Parameter in der Konfiguration des Equipments
+
 # 18.10.2022
 
 - Aktualisierte Befehlsliste für Jeedom v4.3
