@@ -7,8 +7,8 @@
 # 24/10/2022
 
 - Added option to disable hourly data
-- Transfer of dependency management to core
-- The selection of the background color of the widget template is now done by optional parameter in the configuration of the equipment
+- Removed dependencies already needed for core
+- The widget template color settings are now in the equipment configuration, Display tab, Widget section
 
 # 10/18/2022
 

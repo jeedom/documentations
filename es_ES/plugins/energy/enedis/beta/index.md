@@ -25,10 +25,6 @@ Mientras el complemento no haya recuperado todos los datos del día anterior, co
 
 Como cualquier complemento de Jeedom, el complemento **Enedis** debe activarse después de la instalación.
 
-## Gestión de la dependencia
-
-El complemento requiere la presencia del paquete de Linux `php-mbstring` normalmente presente de forma predeterminada, por lo que el estado de dependencia debe ser **Bueno** tan pronto como se instale el complemento. De lo contrario, haga clic en el botón **Reanimar** para instalar el paquete que falta.
-
 ## Configuración del plugin
 
 Si aún no lo ha hecho, comience por autorizar el intercambio de datos de Enedis con Jeedom haciendo clic en el botón **Autorizar el acceso a los servidores de Enedis : Accedo a mi área de clientes de Enedis** desde la página de configuración del complemento :
@@ -93,10 +89,9 @@ El complemento ofrece la posibilidad de mostrar datos de consumo y / o producci�
 
 ![Plantilla de widget](../images/enedis_screenshot1.png)
 
-Para activar esta opción, simplemente marque la casilla **Habilitar** sección **Plantilla de widget** en la página general del equipo en cuestión. Una vez activada la plantilla del widget, vaya a la pestaña **Monitor** desde la configuración del equipo para personalizar el color de fondo del widget añadiendo un **parámetro opcional en el mosaico** :
-| Apellido | Valeur|
-| --- | --- |
-| `estilo` | `background-color:rgb(163,204,40)!importante;` |
+Para activar esta opción, simplemente marque la casilla **Habilitar** sección **Plantilla de widget** en la página general del equipo en cuestión. Una vez activada la plantilla del widget, vaya a la pestaña **Monitor** de la configuración del equipo para elegir el color de fondo del widget (`Template : background-color`) y/o color del título (`Template : titlebar-color`) dependiendo de la versión de acceso de Jeedom *(escritorio o móvil)*.
+
+![Personnaliser le widget](../images/enedis_customizeWidget.png)
 
 >**CONSEJO**
 >

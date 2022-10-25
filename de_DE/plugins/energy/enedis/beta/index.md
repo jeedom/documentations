@@ -25,10 +25,6 @@ Solange das Plugin nicht alle Daten vom Vortag abgerufen hat, fragt es weiterhin
 
 Wie jedes Jeedom-Plugin auch das Plugin **Enedis** muss nach der Installation aktiviert werden.
 
-## Abhängigkeitsmanagement
-
-Das Plugin erfordert das Vorhandensein des Linux-Pakets `php-mbstring`, das normalerweise standardmäßig vorhanden ist, daher muss der Abhängigkeitsstatus sein **In Ordnung** sobald das Plugin installiert ist. Andernfalls klicken Sie auf die Schaltfläche **Beleben** um das fehlende Paket zu installieren.
-
 ## Plugin Konfiguration
 
 Wenn Sie dies noch nicht getan haben, autorisieren Sie zunächst die Freigabe von Enedis-Daten mit Jeedom, indem Sie auf die Schaltfläche klicken **Autorisieren Sie den Zugriff auf Enedis-Server : Ich greife auf meinen Enedis-Kundenbereich zu** von der Plugin-Konfigurationsseite :
@@ -93,10 +89,9 @@ Das Plugin bietet die Möglichkeit, Verbrauchs- und / oder Produktionsdaten in e
 
 ![Widget-Vorlage](../images/enedis_screenshot1.png)
 
-Um diese Option zu aktivieren, aktivieren Sie einfach das Kontrollkästchen **Ermöglichen** Sektion **Widget-Vorlage** auf der allgemeinen Seite der betreffenden Ausrüstung. Sobald die Widget-Vorlage aktiviert ist, gehen Sie zur Registerkarte **Anzeige** aus der Konfiguration des Geräts, um die Hintergrundfarbe des Widgets anzupassen, indem Sie a hinzufügen **optionaler Parameter auf der Kachel** :
-| Nachname | Valeur|
-| --- | --- |
-| "Stil". | `background-color:rgb(163,204,40)!wichtig;` |
+Um diese Option zu aktivieren, aktivieren Sie einfach das Kontrollkästchen **Ermöglichen** Sektion **Widget-Vorlage** auf der allgemeinen Seite der betreffenden Ausrüstung. Sobald die Widget-Vorlage aktiviert ist, gehen Sie zur Registerkarte **Anzeige** der Gerätekonfiguration, um die Hintergrundfarbe des Widgets auszuwählen (`Template : background-color`) und/oder Titelfarbe (`Template : titlebar-color`) abhängig von der Jeedom-Zugriffsversion *(Desktop oder Handy)*.
+
+![Personnaliser le widget](../images/enedis_customizeWidget.png)
 
 >**TIPP**
 >

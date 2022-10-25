@@ -7,8 +7,8 @@
 # 24.10.2022
 
 - Option hinzugefügt, um stündliche Daten zu deaktivieren
-- Übertragung des Abhängigkeitsmanagements auf den Kern
-- Die Auswahl der Hintergrundfarbe des Widget-Templates erfolgt nun per optionalem Parameter in der Konfiguration des Equipments
+- Entfernte Abhängigkeiten, die bereits für den Kern benötigt wurden
+- Die Farbeinstellungen der Widget-Vorlage befinden sich jetzt in der Gerätekonfiguration, Registerkarte Anzeige, Abschnitt Widget
 
 # 18.10.2022
 

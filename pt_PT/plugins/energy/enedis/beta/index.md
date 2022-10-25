@@ -25,10 +25,6 @@ Enquanto o plugin não tiver recuperado todos os dados do dia anterior, ele cont
 
 Como qualquer plugin Jeedom, o plugin **Enedis** deve ser ativado após a instalação.
 
-## Gerenciamento de dependências
-
-O plugin requer a presença do pacote Linux `php-mbstring` normalmente presente por padrão, então o status de dependência deve ser **Certo** assim que o plugin for instalado. Caso contrário, clique no botão **Reviver** para instalar o pacote que falta.
-
 ## Configuração do plugin
 
 Se ainda não o fez, comece por autorizar a partilha de dados Enedis com a Jeedom clicando no botão **Autorizar acesso aos servidores Enedis : Eu acesso minha área de cliente Enedis** da página de configuração do plugin :
@@ -93,10 +89,9 @@ O plugin oferece a possibilidade de exibir dados de consumo e / ou produção em
 
 ![Template de widget](../images/enedis_screenshot1.png)
 
-Para ativar esta opção, basta marcar a caixa **Permitir** seção **Template de widget** na página geral do equipamento em questão. Depois que o modelo de widget estiver ativado, vá para a guia **Exibição** da configuração do equipamento para personalizar a cor de fundo do widget adicionando um **parâmetro opcional no bloco** :
-| Sobrenome | Valeur|
-| --- | --- |
-| `estilo` | `background-color:rgb(163,204,40)!importante;` |
+Para ativar esta opção, basta marcar a caixa **Permitir** seção **Template de widget** na página geral do equipamento em questão. Depois que o modelo de widget estiver ativado, vá para a guia **Exibição** da configuração do equipamento para escolher a cor de fundo do widget (`Modelo : background-color`) e/ou cor do título (`Template : titlebar-color`) dependendo da versão de acesso ao Jeedom *(desktop ou celular)*.
+
+![Personnaliser le widget](../images/enedis_customizeWidget.png)
 
 >**DICA**
 >

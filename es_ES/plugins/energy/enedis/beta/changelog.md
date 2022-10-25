@@ -7,8 +7,8 @@
 # 24/10/2022
 
 - Opción agregada para deshabilitar datos por hora
-- Transferencia de la gestión de dependencias al núcleo
-- La selección del color de fondo de la plantilla del widget ahora se hace por parámetro opcional en la configuración del equipo
+- Se eliminaron las dependencias que ya se necesitaban para el núcleo
+- La configuración de color de la plantilla del widget ahora está en la configuración del equipo, pestaña Pantalla, sección Widget
 
 # 18/10/2022
 
