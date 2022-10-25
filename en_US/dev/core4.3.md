@@ -40,13 +40,13 @@ In the same logic, the variables passed from php to js are now in namespace jeep
 
 ### Optional modifications
 
-- addCmdToTable()
+#### addCmdToTable()
 
 The addCmdToTable() function is no longer mandatory. If it is not present, that of the Cote will be used. You just need to create an html table `<table id="table_cmd" class="table table-bordered table-condensed"></table> `
 
 On info commands, the button **Test** is no longer displayed, it is the value that is displayed, and updated in real time. To add this info in a command table : `<span class="cmdAttr" data-l1key="htmlstate"></span> `
 
-- Widgets
+#### Widgets
 
 The declaration of the update function evolves:
 
@@ -72,3 +72,14 @@ jeedom.cmd.refreshValue([{cmd_id :'#id#',display_value: '#state#', valueDate: '#
 ```
 
 Note the new `unit` parameter, which allows the Core to transform, for example, 3500W into 3.5kW.
+
+#### Message source (4.3.7):
+
+In case of action **message**, the Core now indicates the specified source rather than 'scenario'.
+
+Example for the Mode plugin:
+
+````php
+$options['source'] = 'plugin Mode '.$this->getName();
+scenarioExpression::createAndExec('action', $action['cmd'], $options);
+````

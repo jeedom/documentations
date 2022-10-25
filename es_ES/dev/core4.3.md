@@ -40,13 +40,13 @@ En la misma lógica, las variables pasadas de php a js ahora están en el espaci
 
 ### Modificaciones opcionales
 
-- addCmdToTable()
+#### addCmdToTable()
 
 La función addCmdToTable() ya no es obligatoria. Si no está presente, se utilizará el de la Cote. Solo necesita crear una tabla html `<table id="table_cmd" class="table table-bordered table-condensed"></table> `
 
 En los comandos de información, el botón **Prueba** ya no se muestra, es el valor que se muestra y se actualiza en tiempo real. Para agregar esta información en una tabla de comandos : `<span class="cmdAttr" data-l1key="htmlstate"></span> `
 
-- Widgets
+#### Widgets
 
 La declaración de la función de actualización evoluciona:
 
@@ -72,3 +72,14 @@ jeedom.cmd.refreshValue([{cmd_id :'#id#',mostrar_valor: '#state#', valueDate: '#
 ```
 
 Tenga en cuenta el nuevo parámetro `unit`, que permite que el Core transforme, por ejemplo, 3500W en 3.5kW.
+
+#### Fuente del mensaje (4.3.7):
+
+En caso de acción **mensaje**, el Core ahora indica la fuente especificada en lugar de 'escenario'.
+
+Ejemplo para el complemento de modo:
+
+````php
+$options['source'] = 'plugin Mode '.$this->getName();
+scenarioExpression::createAndExec('acción', $acción['cmd'], $opciones);
+````

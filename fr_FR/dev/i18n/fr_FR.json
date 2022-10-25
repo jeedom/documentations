@@ -438,7 +438,15 @@
         "jeedom.cmd.addUpdateFunction": "jeedom.cmd.addUpdateFunction",
         ";": ";",
         "unit": "unit",
-        "Notez le nouveau paramètre `unit`, qui permet au Core de transformer, par exemple, 3500W en 3.5kW": "Notez le nouveau paramètre `unit`, qui permet au Core de transformer, par exemple, 3500W en 3.5kW"
+        "Notez le nouveau paramètre `unit`, qui permet au Core de transformer, par exemple, 3500W en 3.5kW": "Notez le nouveau paramètre `unit`, qui permet au Core de transformer, par exemple, 3500W en 3.5kW",
+        "Source de message (4.3.7": "Source de message (4.3.7",
+        "message": "message",
+        "En cas d'action": "En cas d'action",
+        "le Core indique maintenant la source spécifiée plutôt que 'scenario": "le Core indique maintenant la source spécifiée plutôt que 'scenario",
+        "Exemple pour le plugin Mode": "Exemple pour le plugin Mode",
+        "php": "php",
+        "scenarioExpression": "scenarioExpression",
+        "createAndExec('action', $action['cmd'], $options);": "createAndExec('action', $action['cmd'], $options);"
     },
     "dev\/core4.4.md": {
         "Développeurs de plugin": "Développeurs de plugin",
