@@ -4,6 +4,12 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 24/10/2022
+
+- Added option to disable hourly data
+- Removed dependencies already needed for core
+- The widget template color settings are now in the equipment configuration, Display tab, Widget section
+
 # 10/18/2022
 
 - Updated command list for Jeedom v4.3

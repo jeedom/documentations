@@ -50,7 +50,7 @@ Gehen Sie auf Ihrem Jeedom zu Plugin -> Kommunikation -> Alexa und wählen Sie i
 
 > **Wichtig**
 >
-> Das Plugin basiert auf den generischen Jeedom-Befehlen zur Steuerung Ihrer Hausautomation. Es ist daher sehr wichtig, diese korrekt zu konfigurieren. Sie können sehen [hier](https://doc.jeedom.com/de_DE/concept/generic_type) Erklärungen zu generischen Generika
+> Das Plugin basiert auf den generischen Jeedom-Befehlen zur Steuerung Ihrer Hausautomation. Es ist daher sehr wichtig, diese korrekt zu konfigurieren. Sie können sehen [hier](https://doc.jeedom.com/de_DE/core/4.2/types) Erklärungen zu generischen Generika
 
 > **Wichtig**
 >

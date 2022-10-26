@@ -50,7 +50,7 @@ En su Jeedom, vaya a Complemento -> Comunicación -> Alexa y en la sección de e
 
 > **Importante**
 >
-> El complemento se basa en los tipos genéricos de comandos Jeedom para controlar la automatización de su hogar. Por lo tanto, es muy importante configurarlos correctamente. Podéis ver [aquí](https://doc.jeedom.com/es_ES/concept/generic_type) explicaciones sobre genéricos genéricos
+> El complemento se basa en los tipos genéricos de comandos Jeedom para controlar la automatización de su hogar. Por lo tanto, es muy importante configurarlos correctamente. Podéis ver [aquí](https://doc.jeedom.com/es_ES/core/4.2/types) explicaciones sobre genéricos genéricos
 
 > **Importante**
 >

@@ -1,5 +1,11 @@
 # Changelog Jeedom V4.3
 
+## 4.3.7
+
+- Correções de bugs (afetando um futuro plugin em desenvolvimento).
+- Corrigidos erros de exibição em alguns widgets com base na unidade.
+- Descrição adicionada **fonte** para ações de mensagem (consulte [Desenvolvedor de documentos](https://doc.jeedom.com/pt_PT/dev/core4.3)).
+
 ## 4.3.6
 
 - Conversão de unidade removida por segundos (s)).
@@ -39,7 +45,7 @@
 - **Ferramentas / Objetos** : Adicionado um menu contextual em um objeto para gerenciar a visibilidade, alterar o objeto pai e mover.
 - **Ferramentas / Substituir** : Nova ferramenta para substituição de equipamentos e comandos.
 - **Análise / Cronograma** : Adicionado um campo de pesquisa para filtrar a exibição.
-- **Comercial** : Adicionado um botão para copiar os direitos de um usuário limitado para outro
+- **Comercial** : Adicionado um botão para copiar os direitos de um usuário limitado para outro.
 - **Relatório** : Capacidade de relatar sobre a saúde de Jeedom.
 - **Relatório** : Capacidade de relatar equipamentos alertados.
 - **Atualizar** : Capacidade de ver do Jeedom os pacotes OS / PIP2 / PIP3 / NodeJS que podem ser atualizados e iniciar a atualização (cuidado com a função arriscada e em beta).

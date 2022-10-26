@@ -18,7 +18,7 @@
     "author": "Jeedom SAS",
     "require": "3.3.39",
     "category": "energy",
-    "hasDependency": true,
+    "hasDependency": false,
     "hasOwnDeamon": false,
     "maxDependancyInstallTime": 0,
     "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/enedis\/beta\/changelog",

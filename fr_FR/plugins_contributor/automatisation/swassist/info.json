@@ -1,0 +1,18 @@
+{
+	"id" : "swassist",
+	"name" : "Switch assistant",
+	"description" : {
+		"fr_FR": "Plugin pour assister le fonctionnement des interrupteurs"
+	},
+	"licence" : "AGPL",
+	"author" : "ktn01",
+	"require" : "4.1.20",
+	"category" : "automatisation",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://ktn001.github.io/#language#/swassist/changelog.html",
+	"documentation" : "https://ktn001.github.io/#language#/swassist/index.html",
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+}

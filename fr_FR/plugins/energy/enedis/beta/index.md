@@ -25,10 +25,6 @@ Tant que le plugin n'a pas récupéré l'intégralité des données de la veille
 
 Comme tout plugin Jeedom, le plugin **Enedis** doit être activé après l'installation.
 
-## Gestion des dépendances
-
-Le plugin nécessite la présence du paquet Linux `php-mbstring` normalement présent par défaut, le statut des dépendances doit donc être **OK** dès l'installation du plugin. Dans le cas contraire, il faudra cliquer sur le bouton **Relancer** pour installer le paquet manquant.
-
 ## Configuration du plugin
 
 Si ce n'est pas déjà fait, commencez par autoriser le partage des données Enedis avec Jeedom en cliquant sur le bouton **Autoriser l'accès aux serveurs Enedis : j'accède à mon espace client Enedis** depuis la page de configuration du plugin :
@@ -67,6 +63,8 @@ Lors de la 1ère sauvegarde d'un équipement actif et configuré, le plugin va a
 >
 >Les données de consommation horaire sont quand à elles récupérées sur les 7 derniers jours au maximum.
 
+Si vous n'avez pas activé **l'enregistrement et la collecte de la consommation horaire** sur votre compte Enedis, il faudra cocher la case **Données horaires : Désactiver** pour que les commandes correspondantes ne soient pas créées.
+
 # Ajout de données
 
 Il est possible d'intégrer des historiques à la demande, jusqu'à 3 années en arrière, directement depuis le site Enedis. Pour se faire, il suffit de cliquer sur le bouton bleu **Ajout historiques** depuis l’onglet **Commandes** d’un équipement, dans la colonne **Action** de la commande concernée :
@@ -91,11 +89,13 @@ Le plugin offre la possibilité d'afficher les données de consommation et/ou de
 
 ![Template de widget](../images/enedis_screenshot1.png)
 
-Pour activer cette option, il suffit de cocher la case **Template de widget** sur la page générale de l'équipement concerné. Une fois la case cochée, une option permet de sélectionner la couleur de fond du widget *(163, 204, 40 par défaut)*.
+Pour activer cette option, il suffit de cocher la case **Activer** de la section **Template de widget** sur la page générale de l'équipement concerné. Une fois le template de widget activé, rendez-vous à l'onglet **Affichage** de la configuration de l'équipement pour choisir la couleur de fond du widget *(`Template : background-color` - 163, 204, 40 par défaut)* et/ou la couleur du titre *(`Template : titlebar-color` - transparent par défaut)* en fonction de la version d'accès à Jeedom *(bureau ou mobile)*.
+
+![Personnaliser le widget](../images/enedis_customizeWidget.png)
 
 >**ASTUCE**
 >
->En version desktop, les informations affichées sur le widget s'adaptent en taille lors du redimensionnement de la tuile.
+>La case "Défaut" permet de conserver les couleurs par défaut de la tuile.
 
 # FAQ
 

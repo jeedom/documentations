@@ -1,0 +1,44 @@
+{
+	"id": "Freebox_OS",
+	"name": "Freebox",
+	"description" : {
+		"fr_FR": "Ce Plugin permet de récupérer les informations disponibles sur les box Freebox Révolution/Delta/Pop.<br/>Pour les Freebox Delta, il permet aussi de récupèrer les équipements connectés (Domotique)"
+	},
+	"usage": {
+		"fr_FR":"Il est possible de commander le wifi, le planning du wifi, le contrôle parental.<br/>Pour la freebox delta plusieurs possibilités sont disponible, Il est entre autre possible de commander le pack sécurité ainsi que les différents équipements compatibles avec celle-ci.Il permet de récupérer toutes les infos disponibles sur la Freebox et pour les Delta il permet de récupérer les équipements connectés"
+	},
+	"licence": "AGPL",
+	"author": "mika-nt28 | JAG",
+	"require": "4.0",
+	"category": "monitoring",
+	"hasOwnDeamon": true,
+	"hasDependency": false,
+	"maxDependancyInstallTime": 0,
+	"link": {
+		"forum": "https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673"
+	},
+	"documentation": "http://mika-nt28.github.io/Documentations/Freebox_OS/#language#/",
+	"changelog": "https://mika-nt28.github.io/Documentations/Freebox_OS/#language#/changelog",
+	"changelog_beta" : "https://mika-nt28.github.io/Documentations/Freebox_OS/#language#/changelog_beta",
+	"documentation_beta" : "http://mika-nt28.github.io/Documentations/Freebox_OS/#language#/index_beta",
+	"language": [
+		"de_DE", 
+		"en_US", 
+		"es_ES", 
+		"fr_FR",
+		"id_ID",
+		"it_IT", 
+		"ru_RU", 
+		"sp_SP"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
+}

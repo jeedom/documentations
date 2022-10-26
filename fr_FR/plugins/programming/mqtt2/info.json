@@ -1,0 +1,48 @@
+{
+    "id": "mqtt2",
+    "name": "MQTT Manager",
+    "description": {
+        "fr_FR": "Plugin servant de base pour les plugins utilisant MQTT",
+        "en_US": "Plugin serving as a basis for plugins using MQTT",
+        "es_ES": "Complemento que sirve como base para complementos que utilizan MQTT",
+        "de_DE": "Plugin als Basis für Plugins mit MQTT",
+        "ru_RU": "Plugin servant de base pour les plugins utilisant MQTT",
+        "id_ID": "Plugin servant de base pour les plugins utilisant MQTT",
+        "it_IT": "Plugin servant de base pour les plugins utilisant MQTT",
+        "ja_JP": "Plugin servant de base pour les plugins utilisant MQTT",
+        "pt_PT": "Plug-in servindo como base para plug-ins usando MQTT",
+        "tr": "Plugin servant de base pour les plugins utilisant MQTT"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2",
+    "category": "programming",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/mqtt2\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/mqtt2\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/mqtt2\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/mqtt2\/beta",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas",
+        "smart"
+    ]
+}

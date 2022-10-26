@@ -4,6 +4,12 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 24.10.2022
+
+- Option hinzugefügt, um stündliche Daten zu deaktivieren
+- Entfernte Abhängigkeiten, die bereits für den Kern benötigt wurden
+- Die Farbeinstellungen der Widget-Vorlage befinden sich jetzt in der Gerätekonfiguration, Registerkarte Anzeige, Abschnitt Widget
+
 # 18.10.2022
 
 - Aktualisierte Befehlsliste für Jeedom v4.3

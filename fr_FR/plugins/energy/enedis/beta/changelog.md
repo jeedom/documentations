@@ -4,6 +4,12 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 24/10/2022
+
+- Ajout d'une option pour désactiver les données horaires
+- Suppression des dépendances déjà nécessaires pour le core
+- Les paramètres de couleur du template de widget sont dorénavant dans la configuration de l'équipement, onglet Affichage section Widget
+
 # 18/10/2022
 
 - Mise à jour de la liste des commandes pour Jeedom v4.3

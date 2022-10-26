@@ -4,6 +4,12 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 24/10/2022
+
+- Opción agregada para deshabilitar datos por hora
+- Se eliminaron las dependencias que ya se necesitaban para el núcleo
+- La configuración de color de la plantilla del widget ahora está en la configuración del equipo, pestaña Pantalla, sección Widget
+
 # 18/10/2022
 
 - Lista de comandos actualizada para Jeedom v4.3

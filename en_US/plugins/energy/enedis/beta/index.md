@@ -25,10 +25,6 @@ As long as the plugin has not retrieved all the data from the previous day, it c
 
 Like any Jeedom plugin, the plugin **Enedis** must be activated after installation.
 
-## Dependency management
-
-The plugin requires the presence of the Linux package `php-mbstring` normally present by default, so the dependency status must be **Okay** as soon as the plugin is installed. Otherwise, click on the button **Revive** to install the missing package.
-
 ## Plugin configuration
 
 If you haven't already done so, start by authorizing the sharing of Enedis data with Jeedom by clicking on the button **Authorize access to Enedis servers : I access my Enedis customer area** from the plugin configuration page :
@@ -67,6 +63,8 @@ During the 1st backup of an active and configured device, the plugin will automa
 >
 >Hourly consumption data is retrieved over the last 7 days at most.
 
+If you have not activated **recording and collecting hourly consumption** on your Enedis account, you must tick the box **Hourly data : Disable** so that the corresponding orders are not created.
+
 # Adding data
 
 It is possible to integrate histories on demand, up to 3 years back, directly from the Enedis site. To do so, just click on the blue button **Historical additions** from the tab **Orders** of an item of equipment, in the column **Action** of the order concerned :
@@ -91,11 +89,13 @@ The plugin offers the possibility of displaying consumption and / or production 
 
 ![Widget template](../images/enedis_screenshot1.png)
 
-To activate this option, just check the box **Widget template** on the general page of the equipment concerned. Once the box is checked, an option allows you to select the background color of the widget *(163, 204, 40 by default)*.
+To activate this option, just check the box **Enable** section **Widget template** on the general page of the equipment concerned. Once the widget template is activated, go to the tab **Display** from the configuration of the equipment to choose the background color of the widget *(`Template : background-color` - 163, 204, 40 by default)* and/or title color *(`Template : titlebar-color` - transparent by default)* depending on the Jeedom access version *(desktop or mobile)*.
+
+![Personnaliser le widget](../images/enedis_customizeWidget.png)
 
 >**TRICK**
 >
->In desktop version, the information displayed on the widget adapts in size when resizing the tile.
+>The "Default" box allows you to keep the default colors of the tile.
 
 # FAQ
 

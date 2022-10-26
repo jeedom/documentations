@@ -25,10 +25,6 @@ Solange das Plugin nicht alle Daten vom Vortag abgerufen hat, fragt es weiterhin
 
 Wie jedes Jeedom-Plugin auch das Plugin **Enedis** muss nach der Installation aktiviert werden.
 
-## Abhängigkeitsmanagement
-
-Das Plugin erfordert das Vorhandensein des Linux-Pakets `php-mbstring`, das normalerweise standardmäßig vorhanden ist, daher muss der Abhängigkeitsstatus sein **In Ordnung** sobald das Plugin installiert ist. Andernfalls klicken Sie auf die Schaltfläche **Beleben** um das fehlende Paket zu installieren.
-
 ## Plugin Konfiguration
 
 Wenn Sie dies noch nicht getan haben, autorisieren Sie zunächst die Freigabe von Enedis-Daten mit Jeedom, indem Sie auf die Schaltfläche klicken **Autorisieren Sie den Zugriff auf Enedis-Server : Ich greife auf meinen Enedis-Kundenbereich zu** von der Plugin-Konfigurationsseite :
@@ -67,6 +63,8 @@ Während der ersten Sicherung eines aktiven und konfigurierten Geräts erstellt 
 >
 >Die stündlichen Verbrauchsdaten werden höchstens in den letzten 7 Tagen abgerufen.
 
+Wenn Sie nicht aktiviert haben **Erfassung und Erfassung des stündlichen Verbrauchs** in Ihrem Enedis-Konto müssen Sie das Kästchen ankreuzen **Stündliche Daten : Deaktivieren** damit die entsprechenden Aufträge nicht erstellt werden.
+
 # Daten hinzufügen
 
 Es ist möglich, Historien bei Bedarf bis zu 3 Jahren direkt von der Enedis-Site aus zu integrieren. Klicken Sie dazu einfach auf die blaue Schaltfläche **Historische Ergänzungen** von der Registerkarte **Aufträge** eines Ausrüstungsgegenstandes in der Spalte **Aktion** der betreffenden Bestellung :
@@ -91,11 +89,13 @@ Das Plugin bietet die Möglichkeit, Verbrauchs- und / oder Produktionsdaten in e
 
 ![Widget-Vorlage](../images/enedis_screenshot1.png)
 
-Um diese Option zu aktivieren, aktivieren Sie einfach das Kontrollkästchen **Widget-Vorlage** auf der allgemeinen Seite der betreffenden Ausrüstung. Sobald das Kontrollkästchen aktiviert ist, können Sie mit einer Option die Hintergrundfarbe des Widgets auswählen *(Standardmäßig 163, 204, 40)*.
+Um diese Option zu aktivieren, aktivieren Sie einfach das Kontrollkästchen **Ermöglichen** Sektion **Widget-Vorlage** auf der allgemeinen Seite der betreffenden Ausrüstung. Sobald die Widget-Vorlage aktiviert ist, gehen Sie zur Registerkarte **Anzeige** aus der Konfiguration des Geräts, um die Hintergrundfarbe des Widgets auszuwählen *(„Vorlage : background-color` - standardmäßig 163, 204, 40)* und/oder Titelfarbe *(„Vorlage : titlebar-color` - standardmäßig transparent)* abhängig von der Jeedom-Zugriffsversion *(Desktop oder Handy)*.
+
+![Personnaliser le widget](../images/enedis_customizeWidget.png)
 
 >**TIPP**
 >
->In der Desktop-Version passen sich die im Widget angezeigten Informationen an die Größe an, wenn die Größe der Kachel geändert wird.
+>Das Feld "Standard" ermöglicht es Ihnen, die Standardfarben der Kachel beizubehalten.
 
 # FAQ
 

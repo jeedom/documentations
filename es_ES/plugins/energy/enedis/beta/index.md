@@ -25,10 +25,6 @@ Mientras el complemento no haya recuperado todos los datos del día anterior, co
 
 Como cualquier complemento de Jeedom, el complemento **Enedis** debe activarse después de la instalación.
 
-## Gestión de la dependencia
-
-El complemento requiere la presencia del paquete de Linux `php-mbstring` normalmente presente de forma predeterminada, por lo que el estado de dependencia debe ser **Bueno** tan pronto como se instale el complemento. De lo contrario, haga clic en el botón **Reanimar** para instalar el paquete que falta.
-
 ## Configuración del plugin
 
 Si aún no lo ha hecho, comience por autorizar el intercambio de datos de Enedis con Jeedom haciendo clic en el botón **Autorizar el acceso a los servidores de Enedis : Accedo a mi área de clientes de Enedis** desde la página de configuración del complemento :
@@ -67,6 +63,8 @@ Durante la primera copia de seguridad de un dispositivo activo y configurado, el
 >
 >Los datos de consumo por hora se recuperan durante los últimos 7 días como máximo.
 
+Si no has activado **registrar y recopilar el consumo horario** en su cuenta Enedis, debe marcar la casilla **Datos horarios : Deshabilitar** para que no se creen los pedidos correspondientes.
+
 # Agregar datos
 
 Es posible integrar historias bajo demanda, hasta 3 años atrás, directamente desde el sitio de Enedis. Para hacerlo, simplemente haga clic en el botón azul **Adiciones históricas** desde la pestaña **Pedidos** de un equipo, en la columna **Acción** de la orden en cuestión :
@@ -91,11 +89,13 @@ El complemento ofrece la posibilidad de mostrar datos de consumo y / o producci�
 
 ![Plantilla de widget](../images/enedis_screenshot1.png)
 
-Para activar esta opción, simplemente marque la casilla **Plantilla de widget** en la página general del equipo en cuestión. Una vez que la casilla está marcada, una opción le permite seleccionar el color de fondo del widget *(163, 204, 40 por defecto)*.
+Para activar esta opción, simplemente marque la casilla **Habilitar** sección **Plantilla de widget** en la página general del equipo en cuestión. Una vez activada la plantilla del widget, vaya a la pestaña **Monitor** desde la configuración del equipo para elegir el color de fondo del widget *(`Plantilla : color de fondo` - 163, 204, 40 por defecto)* y/o color del título *(`Plantilla : titlebar-color` - transparente por defecto)* dependiendo de la versión de acceso de Jeedom *(escritorio o móvil)*.
+
+![Personnaliser le widget](../images/enedis_customizeWidget.png)
 
 >**CONSEJO**
 >
->En la versión de escritorio, la información que se muestra en el widget se adapta en tamaño al cambiar el tamaño del mosaico.
+>El cuadro "Predeterminado" le permite mantener los colores predeterminados del mosaico.
 
 # FAQ
 

@@ -1,0 +1,19 @@
+{
+  "id" : "EcogazSync",
+  "name": "EcogazSync",
+  "version": "0.1",
+  "description": "Plugin pour se connecter à l'API Ecogaz.",
+  "licence": "GPL",
+  "author": "jercle",
+  "require": "3.0",
+  "category": "energy",
+  "hasDependency": false,
+  "hasOwnDeamon": false,
+  "maxDependancyInstallTime": 30,
+  "documentation": "https://github.com/impulsio/EcogazSync/blob/main/docs/fr_FR/index.md",
+  "changelog": "https://github.com/impulsio/EcogazSync/blob/main/docs/fr_FR/changelog.md",
+  "documentation_beta":"https://github.com/impulsio/EcogazSync/blob/beta/docs/fr_FR/index.md",
+  "changelog_beta":"https://github.com/impulsio/EcogazSync/blob/beta/docs/fr_FR/changelog.md",
+  "language" : ["fr_FR", "en_US"],
+  "compatibility" : ["miniplus","smart","rpi","docker","diy"]
+}

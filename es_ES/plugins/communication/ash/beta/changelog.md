@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 25/10/2022
+
+- Correcciones de errores
+
 # 06/02/2022
 
 - Optimización del proceso de rotación de claves api

@@ -4,6 +4,12 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 24/10/2022
+
+- Adicionada opção para desabilitar dados por hora
+- Dependências removidas já necessárias para o núcleo
+- As configurações de cores do modelo de widget agora estão na configuração do equipamento, guia Exibir, seção Widget
+
 # 18/10/2022
 
 - Lista de comandos atualizada para Jeedom v4.3

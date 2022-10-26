@@ -4,7 +4,13 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
-- Possibility to ban any request from Google based on a condition
+# 02/06/2022
+
+- Optimization of the api key rotation process
+
+# 09/27/2021
+
+- Possibility to prohibit any request from Alexa based on a condition
 - Addition of new types
 - Improved lock type"
 
