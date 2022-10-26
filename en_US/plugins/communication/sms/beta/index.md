@@ -8,10 +8,10 @@ The SMS plugin allows you to interact with Jeedom via SMS. It also allows Jeedom
 
 # Plugin configuration
 
-After downloading the plugin, just activate it and configure the port. After saving the demon should launch.    
+After downloading the plugin, just activate it and configure the port. After saving the demon should launch.
 The plugin is already configured by default, so you don't have to do anything more. However you can modify this configuration, here is the detail :
 
--   **SMS port** : the USB port on which your GSM key is connected.
+- **SMS port** : the USB port on which your GSM key is connected.
 
 > **TRICK**
 >
@@ -21,15 +21,15 @@ The plugin is already configured by default, so you don't have to do anything mo
 >
 > Please note that some 3G keys are in modem mode by default and not GSM. You must, using the software of your key manufacturer, change the mode of the key to GSM (or text, or serial).
 
--   **Communication speed** : recent keys work at 115200 baud. You have the option of switching to 9600 baud in case your equipment requires it.
--   **Pin code** : Allows you to indicate the pin code of the SIM card, to leave empty if you do not have one.
--   **Text mode** : Extended compatibility mode, to be used only if sending and / or receiving messages does not work.
--   **Cut messages by character packet** : Indicates the maximum number of characters per text message.
--   **SMS / SMS Gateway (modify in case of error : CMS 330 SMSC number not set)** : Only change if you have the error `CMS 330 SMSC number not set`, in this case you must indicate the SMS gateway number of your telephone operator.
--   **Signal strength** : Signal strength of your GSM key.
--   **Network** : Telephone network of your GSM key (can be "None" if Jeedom cannot recover it).
--   **Internal socket port (dangerous modification)** : allows to modify the internal communication port of the daemon.
--   **Cycle (s)** : daemon scan cycle for sending and receiving SMS. Too low a number can lead to instability.
+- **Communication speed** : recent keys work at 115200 baud. You have the option of switching to 9600 baud in case your equipment requires it.
+- **Pin code** : Allows you to indicate the pin code of the SIM card, to leave empty if you do not have one.
+- **Text mode** : Extended compatibility mode, to be used only if sending and / or receiving messages does not work.
+- **Cut messages by character packet** : Indicates the maximum number of characters per text message.
+- **SMS / SMS Gateway (modify in case of error : CMS 330 SMSC number not set)** : Only change if you have the error `CMS 330 SMSC number not set`, in this case you must indicate the SMS gateway number of your telephone operator.
+- **Signal strength** : Signal strength of your GSM key.
+- **Network** : Telephone network of your GSM key (can be "None" if Jeedom cannot recover it).
+- **Internal socket port (dangerous modification)** : allows to modify the internal communication port of the daemon.
+- **Cycle (s)** : daemon scan cycle for sending and receiving SMS. Too low a number can lead to instability.
 
 # Equipment configuration
 
@@ -37,37 +37,37 @@ The configuration of SMS devices is accessible from the Plugins → Communicatio
 
 Here you find all the configuration of your equipment :
 
--   **SMS equipment name** : name of your SMS equipment.
--   **Activate** : makes your equipment active.
--   **Visible** : makes your equipment visible on the dashboard.
--   **Parent object** : indicates the parent object to which the equipment belongs.
+- **SMS equipment name** : name of your SMS equipment.
+- **Activate** : makes your equipment active.
+- **Visible** : makes your equipment visible on the dashboard.
+- **Parent object** : indicates the parent object to which the equipment belongs.
 
 Below you find the list of orders :
 
--   **Name** : the name displayed on the dashboard.
--   **User** : corresponding user in Jeedom (allows you to restrict certain interactions to certain users).
--   **Number** : phone number to send messages to. You can put several numbers by separating them with; *(exemple: 0612345678; 0698765432)*. Important : it is necessary to put the numbers in the international format (+33 for France for example)
+- **Name** : the name displayed on the dashboard.
+- **User** : corresponding user in Jeedom (allows you to restrict certain interactions to certain users).
+- **Number** : phone number to send messages to. You can put several numbers by separating them with; *(exemple: 0612345678; 0698765432)*. Important : it is necessary to put the numbers in the international format (+33 for France for example)
 
 > **Important**
 >
-> Only the phone numbers declared in a device can use the interactions because only they will be authorized.
+> Only the telephone numbers declared in a device will be able to use the interactions because only they will be authorized.
 
--   **Show** : allows to display the data on the dashboard.
--   **Advanced configuration** (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.)).
--   **Test** : Used to test the command.
--   **Delete** (sign -) : allows to delete the command.
+- **Show** : allows to display the data on the dashboard.
+- **Advanced configuration** (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.)).
+- **Test** : Used to test the command.
+- **Delete** (sign -) : allows to delete the command.
 
 # Using the plugin
 
 This is fairly standard in its operation, on the General → Plugin page then by selecting the SMS plugin :
 
--   The port (path) to the device that serves as a modem (for example it can be / dev / ttyUSB0, to see it just launch ``dmesg`` then plug in the modem)
--   The pin code of the sim card
+- The port (path) to the device that serves as a modem (for example it can be / dev / ttyUSB0, to see it just launch ``dmesg`` then plug in the modem)
+- The pin code of the sim card
 
 So you have to add new equipment and then configure it :
 
--   The name of it,
--   If it is active or not,
+- The name of it,
+- If it is active or not,
 
 Then you have to add the commands which will be composed of a name and a number, only the numbers listed in the list of commands can receive a response from Jeedom (this makes it possible to secure, while avoiding setting a password to each start of an SMS sent to Jeedom). You can also indicate which user is linked to this number (for rights management at interaction level).
 
@@ -80,11 +80,11 @@ To communicate with Jeedom, it will then suffice to send him a message from an a
 
 # List of compatible keys
 
--   HUAWEI E220
--   Alcatel one touch X220L
--   HSDPA 7.2MBPS 3G Wireless
--   HUAWEI E3372
--   USB SIM800C (speed 9600)
+- HUAWEI E220
+- Alcatel one touch X220L
+- HSDPA 7.2MBPS 3G Wireless
+- HUAWEI E3372
+- USB SIM800C (speed 9600)
 
 # FAQ
 
@@ -99,9 +99,9 @@ To communicate with Jeedom, it will then suffice to send him a message from an a
 >
 >And on the plugin do :
 >
->-   Choose first USB port and not the second
->-   Speed : 9600
->-   Text mode off
+>- Choose first USB port and not the second
+>- Speed : 9600
+>- Text mode off
 
 > **I can't see the USB port on my key**
 >
@@ -113,7 +113,7 @@ To communicate with Jeedom, it will then suffice to send him a message from an a
 
 > **I have a CME error XX**
 >
->You can find [here](:http://www.micromedia-int.com/fr/gsm-2/669-cme-error-gsm-equipment-related-errors) description of the different CME errors.
+>You can find [here](https://support.micromedia-int.com/hc/fr/articles/360010426299-Modem-GSM-CME-ERRORS-Erreurs-GSM-li%C3%A9es-%C3%A0-l-%C3%A9quipement-) description of the different CME errors.
 
 > **Configuration of the Alcatel one touch X220L key**
 >
@@ -173,8 +173,8 @@ To communicate with Jeedom, it will then suffice to send him a message from an a
 >
 >This error occurs when the key does not respond within 10 seconds of a request. Known causes may be :
 >
->-   incompatibility of the GSM key,
->-   problem with the firmware version of the stick.
+>- incompatibility of the GSM key,
+>- problem with the firmware version of the stick.
 
 > **When starting in debug mode I have : "socket already in use"**
 >
