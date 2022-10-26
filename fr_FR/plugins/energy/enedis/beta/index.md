@@ -89,13 +89,13 @@ Le plugin offre la possibilité d'afficher les données de consommation et/ou de
 
 ![Template de widget](../images/enedis_screenshot1.png)
 
-Pour activer cette option, il suffit de cocher la case **Activer** de la section **Template de widget** sur la page générale de l'équipement concerné. Une fois le template de widget activé, rendez-vous à l'onglet **Affichage** de la configuration de l'équipement pour choisir la couleur de fond du widget `Template : background-color` *(163, 204, 40 par défaut)* et/ou la couleur du titre `Template : titlebar-color` *(transparent par défaut)* en fonction de la version d'accès à Jeedom *(bureau ou mobile)*.
+Pour activer cette option, il suffit de cocher la case **Activer** de la section **Template de widget** sur la page générale de l'équipement concerné. Une fois le template de widget activé, rendez-vous à l'onglet **Affichage** de la configuration de l'équipement pour choisir la couleur de fond du widget *(`Template : background-color` - 163, 204, 40 par défaut)* et/ou la couleur du titre *(`Template : titlebar-color` - transparent par défaut)* en fonction de la version d'accès à Jeedom *(bureau ou mobile)*.
 
 ![Personnaliser le widget](../images/enedis_customizeWidget.png)
 
 >**ASTUCE**
 >
->En version desktop, les informations affichées sur le widget s'adaptent en taille lors du redimensionnement de la tuile.
+>La case "Défaut" permet de conserver les couleurs par défaut de la tuile.
 
 # FAQ
 

@@ -89,13 +89,13 @@ The plugin offers the possibility of displaying consumption and / or production 
 
 ![Widget template](../images/enedis_screenshot1.png)
 
-To activate this option, just check the box **Enable** section **Widget template** on the general page of the equipment concerned. Once the widget template is activated, go to the tab **Display** from the equipment configuration to choose the background color of the `Template' widget : background-color` *(163, 204, 40 by default)* and/or title color `Template : titlebar-color` *(transparent by default)* depending on the Jeedom access version *(desktop or mobile)*.
+To activate this option, just check the box **Enable** section **Widget template** on the general page of the equipment concerned. Once the widget template is activated, go to the tab **Display** from the configuration of the equipment to choose the background color of the widget *(`Template : background-color` - 163, 204, 40 by default)* and/or title color *(`Template : titlebar-color` - transparent by default)* depending on the Jeedom access version *(desktop or mobile)*.
 
 ![Personnaliser le widget](../images/enedis_customizeWidget.png)
 
 >**TRICK**
 >
->In desktop version, the information displayed on the widget adapts in size when resizing the tile.
+>The "Default" box allows you to keep the default colors of the tile.
 
 # FAQ
 

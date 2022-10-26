@@ -185,6 +185,8 @@
         "Plugin récupérant les données d'un ECU d'APSystems dans Jeedom": "Plugin récupérant les données d'un ECU d'APSystems dans Jeedom",
         "RteSync": "RteSync",
         "Plugin pour se connecter à l'API RTE": "Plugin pour se connecter à l'API RTE",
+        "EcogazSync": "EcogazSync",
+        "Plugin pour se connecter à l'API Ecogaz": "Plugin pour se connecter à l'API Ecogaz",
         "Energie": "Energie",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -193,14 +195,14 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation": "Documentation",
         "Documentation Stable": "Documentation Stable",
         "Documentation Beta": "Documentation Beta",
-        "Pour le moment seule l'API Ecowatt est disponible": "Pour le moment seule l'API Ecowatt est disponible",
-        "Merci de suivre la documentation pour la configuration": "Merci de suivre la documentation pour la configuration",
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
-        "Changelog Beta": "Changelog Beta"
+        "Changelog Beta": "Changelog Beta",
+        "Documentation": "Documentation",
+        "Pour le moment seule l'API Ecowatt est disponible": "Pour le moment seule l'API Ecowatt est disponible",
+        "Merci de suivre la documentation pour la configuration": "Merci de suivre la documentation pour la configuration"
     },
     "plugins_contributor\/health\/index.md": {
         "Santé": "Santé",
