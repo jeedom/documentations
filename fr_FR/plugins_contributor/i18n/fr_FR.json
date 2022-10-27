@@ -156,9 +156,9 @@
         "Les commandes générées lors de la synchronisation dépendent de l'appareil (chaque appareil fournit sa liste de commandes), elles dépendent aussi de l'informations remontée via l'API (si la valeur est 'null', la commande n'est pas créée car non mise à jour via l'API ou non gérée": "Les commandes générées lors de la synchronisation dépendent de l'appareil (chaque appareil fournit sa liste de commandes), elles dépendent aussi de l'informations remontée via l'API (si la valeur est 'null', la commande n'est pas créée car non mise à jour via l'API ou non gérée",
         "J'ai tout de même laissé une option pour créer l'ensemble des commandes au cas où": "J'ai tout de même laissé une option pour créer l'ensemble des commandes au cas où",
         "Documentation Beta": "Documentation Beta",
+        "Changelog Beta": "Changelog Beta",
         "lampes, leds, prises, interrupteurs, thermostat, de marques diverses": "lampes, leds, prises, interrupteurs, thermostat, de marques diverses",
-        "Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya\/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc": "Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya\/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc",
-        "Changelog Beta": "Changelog Beta"
+        "Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya\/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc": "Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya\/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc"
     },
     "plugins_contributor\/energy\/index.md": {
         "Pour information, le site \"Mon eau & Moi\" sera très prochainement intégré au plugin": "Pour information, le site \"Mon eau & Moi\" sera très prochainement intégré au plugin",

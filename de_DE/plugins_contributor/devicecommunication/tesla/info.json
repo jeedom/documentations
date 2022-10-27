@@ -12,6 +12,12 @@
 	"hasDependency" : false,
 	"hasOwnDeamon" : true,
 	"maxDependancyInstallTime" : 0,
+  "compatibility" : ["miniplus", "smart","rpi","docker","diy","mobile","v4","atlas"],
 	"changelog" : "http://tesla.jeedom.free.fr/changelog",
-	"documentation" : "http://tesla.jeedom.free.fr"
+	"changelog_beta" : "http://tesla.jeedom.free.fr/changelog",
+	"documentation" : "http://tesla.jeedom.free.fr",
+	"documentation_beta" : "http://tesla.jeedom.free.fr",
+  "link": {
+    "forum": "https://community.jeedom.com/tag/plugin-tesla"
+  }
 }
