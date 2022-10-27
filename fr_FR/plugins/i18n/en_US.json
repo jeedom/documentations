@@ -5,6 +5,8 @@
         "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin available only in beta",
         "Il est important de bien lire la documentation du plugin avant tout achat": "It is important to read the plugin documentation carefully before any purchase",
         "Plugin offrant une compatibilité généralisée avec différents types de contrôleurs Zigbee tels que deCONZ et EZSP (Silicon labs), et en support beta": "Plugin offering general compatibility with different types of Zigbee controllers such as deCONZ and EZSP (Silicon labs), and in beta support",
+        "Template servant de base à la création de plugins pour Jeedom": "Template serving as a basis for the creation of plugins for Jeedom",
+        "Zigbee2Mqtt": "Zigbee2Mqtt",
         "Ce plugin va vous permettre d'intégrer un wes de CartElectronics": "This plugin will allow you to integrate a CartElectronics wes",
         "Ce plugin permet de piloter les modules Wattcubes de Wattlet via le Wattcube Web": "This plugin allows you to control Wattlet's Wattcubes modules via the Wattcube Web",
         "Les plugins officiels Docker Management et MQTT Manager doivent être installés, configurés et fonctionnels": "Official Docker Management and MQTT Manager plugins must be installed, configured and working",
