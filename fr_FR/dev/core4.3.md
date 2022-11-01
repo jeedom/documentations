@@ -83,3 +83,16 @@ Exemple pour le plugin Mode:
 $options['source'] = 'plugin Mode '.$this->getName();
 scenarioExpression::createAndExec('action', $action['cmd'], $options);
 ````
+
+#### Affichage des mots de passe (4.3.9):
+
+En 4.3, les mots de passe et clé API ne sont plus affichés en clair dans l'administration, avec un bouton à droite pour les afficher. C'est maintenant utilisable également sur les plugins :
+
+````html
+<div class="input-group">
+    <input type="text" class="inputPassword configKey form-control" data-l1key="pass" placeholder="Account password" />
+    <span class="input-group-btn">
+        <a class="btn btn-default form-control bt_showPass roundedRight"><i class="fas fa-eye"></i></a>
+    </span>
+</div>
+````
