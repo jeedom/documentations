@@ -4,6 +4,8 @@
 
 - Amélioration de l'édition des tuiles.
 - Amélioration de la visibilité des checkboxs sur les thème Dark et Light.
+- Correction de l'empilement des historiques.
+- Optimisation de la gestion du changement d'heure (merci @jpty).
 - Correction de bugs et améliorations.
 
 ## 4.3.8
