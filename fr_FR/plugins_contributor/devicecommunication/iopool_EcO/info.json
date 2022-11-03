@@ -8,13 +8,15 @@
 	"licence" : "GPLv3",
 	"author" : "Marc GUYARD",
 	"require" : "4.0",
-	"version" : "2.0.14",
+	"version" : "2.0.18",
 	"category" : "devicecommunication",
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
 	"changelog" : "https://mguyard.github.io/Jeedom-Documentations/#language#/iopool_EcO/changelog",
 	"documentation" : "https://mguyard.github.io/Jeedom-Documentations/#language#/iopool_EcO/documentation",
+	"changelog_beta" : "https://mguyard.github.io/Jeedom-Documentations/#language#/iopool_EcO/changelog",
+	"documentation_beta" : "https://mguyard.github.io/Jeedom-Documentations/#language#/iopool_EcO/documentation",
 	"link" : {
 		"forum":"https://community.jeedom.com/t/plugin-tiers-iopool-eco/66970"
 	},

@@ -1,0 +1,22 @@
+{
+	"id" : "Mercedes_me",
+	"name" : "Mercedes Me",
+	"description" : "Plugin pour récuperer les informations de votre Mercedes.<br>Se base sur l'API officielle.",
+	"licence" : "AGPL",
+	"author" : "Marc GUYARD",
+	"version" : "1.3.0",
+	"require" : "3.2",
+	"category" : "devicecommunication",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://mguyard.github.io/Jeedom-Documentations/#language#/Mercedes_me/changelog",
+	"documentation" : "https://mguyard.github.io/Jeedom-Documentations/#language#/Mercedes_me/documentation",
+	"changelog_beta" : "https://mguyard.github.io/Jeedom-Documentations/#language#/Mercedes_me/changelog",
+	"documentation_beta" : "https://mguyard.github.io/Jeedom-Documentations/#language#/Mercedes_me/documentation",
+	"link" : {
+		"forum":"https://community.jeedom.com/t/plugin-tiers-presentation-et-nouveautes-mercedes-me/39449"
+	},
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+}
