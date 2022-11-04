@@ -67,7 +67,7 @@ var docMenu = [
       {link : "/#LANG#/core/#VERSION#/eqAnalyse",icon:"fas fa-battery-full",fr_FR:"Analyse équipements",en_US:"Equipments Analyse",es_ES:"Análisis",de_DE:"Analyse",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/display",icon:"fas fa-th",fr_FR:"Résumé Domotique",en_US:"Summary",es_ES:"Resumen de automatización del hogar",de_DE:"Zusammenfassung der Hausautomation",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/history",icon:"fas fa-chart-line",fr_FR:"Historique",en_US:"History",es_ES:"Historia",de_DE:"Historisierung",pt_PT:""},
-      {version : ['4.1','4.2','4.3'],link : "/#LANG#/core/#VERSION#/timeline",icon:"far fa-clock",fr_FR:"Timeline",en_US:"Timeline",es_ES:"Cronología",de_DE:"Zeitleiste",pt_PT:""},
+      {version : ['4.1','4.2','4.3','4.4'],link : "/#LANG#/core/#VERSION#/timeline",icon:"far fa-clock",fr_FR:"Timeline",en_US:"Timeline",es_ES:"Cronología",de_DE:"Zeitleiste",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/report",icon:"far fa-newspaper",fr_FR:"Rapport",en_US:"Report",es_ES:"Relación",de_DE:"Bericht",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/health",icon:"fas fa-medkit",fr_FR:"Santé",en_US:"Health",es_ES:"Salud",de_DE:"Gesundheit",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/object",icon:"far fa-object-group",fr_FR:"Objets",en_US:"Objects",es_ES:"Asuntos",de_DE:"Betreff",pt_PT:""},
