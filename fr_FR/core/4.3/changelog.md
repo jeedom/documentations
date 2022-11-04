@@ -1,11 +1,3 @@
-# Changelog Jeedom V4.4
-
-## 4.4
-
-### 4.4 : Nouveautés / Améliorations
-
-- **Fenêtre de sélection d'image** : Ajout d'un menu contextuel permettant d'envoyer des images et de créer, renommer ou supprimer un dossier.
-
 # Changelog Jeedom V4.3
 
 ## 4.3.9

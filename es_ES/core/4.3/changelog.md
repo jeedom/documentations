@@ -1,11 +1,3 @@
-# Registro de cambios Jeedom V4.4
-
-## 4.4
-
-### 4.4 : Noticias / Mejoras
-
-- **Ventana de selección de imagen** : Se agregó un menú contextual para enviar imágenes y crear, renombrar o eliminar una carpeta.
-
 # Registro de cambios Jeedom V4.3
 
 ## 4.3.9
