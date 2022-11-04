@@ -58,7 +58,7 @@ var docMenu = [
     submenu:[
       {link : "/#LANG#/core/#VERSION#/changelog",icon:"fas fa-clipboard-list",fr_FR:"Changelog",en_US:"Changelog",es_ES:"Changelog",de_DE:"Changelog",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/dashboard",icon:"fas fa-tachometer-alt",fr_FR:"Dashboard",en_US:"Dashboard",es_ES:"Tablero",de_DE:"Dashboard",pt_PT:""},
-      {version : ['4.1','4.2','4.3'],link : "/#LANG#/core/#VERSION#/overview",icon:"fab fa-hubspot",fr_FR:"Synthèse",en_US:"Synthesis",es_ES:"Síntesis",de_DE:"Synthese",pt_PT:"Síntese"},
+      {version : ['4.1','4.2','4.3','4.4'],link : "/#LANG#/core/#VERSION#/overview",icon:"fab fa-hubspot",fr_FR:"Synthèse",en_US:"Synthesis",es_ES:"Síntesis",de_DE:"Synthese",pt_PT:"Síntese"},
       {link : "/#LANG#/core/#VERSION#/view",icon:"far fa-image",fr_FR:"Vues",en_US:"Views",es_ES:"Vistas",de_DE:"Ansichten ",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/design",icon:"fas fa-paint-brush",fr_FR:"Design",en_US:"Design",es_ES:"Diseño",de_DE:"Design",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/design3d",icon:"fas fa-cubes",fr_FR:"Design 3D",en_US:"Design 3D",es_ES:"Diseño 3D",de_DE:"Design 3D",pt_PT:""},
@@ -73,14 +73,14 @@ var docMenu = [
       {link : "/#LANG#/core/#VERSION#/object",icon:"far fa-object-group",fr_FR:"Objets",en_US:"Objects",es_ES:"Asuntos",de_DE:"Betreff",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/scenario",icon:"fas fa-cogs",fr_FR:"Scénarios",en_US:"Scenarios",es_ES:"Escenarios",de_DE:"Szenario",pt_PT:""},
       {link : "/#LANG#/core/#VERSION#/interact",icon:"far fa-comments",fr_FR:"Interactions",en_US:"Interactions",es_ES:"Interacciones",de_DE:"Interaktionen",pt_PT:""},
-      {version : ['4.0','4.1','4.2','4.3'],link : "/#LANG#/core/#VERSION#/widgets",icon:"fas fa-camera-retro",fr_FR:"Widgets",en_US:"Widgets",es_ES:"Widgets",de_DE:"Widgets",pt_PT:""},
+      {version : ['4.0','4.1','4.2','4.3','4.4'],link : "/#LANG#/core/#VERSION#/widgets",icon:"fas fa-camera-retro",fr_FR:"Widgets",en_US:"Widgets",es_ES:"Widgets",de_DE:"Widgets",pt_PT:""},
       {version : ['4.2'],link : "/#LANG#/core/#VERSION#/types",icon:"fas fa-puzzle-piece",fr_FR:"Types d'équipements",en_US:"Equipment Types",es_ES:"Tipos de equipo",de_DE:"Gerätearten",pt_PT:"Tipos de equipamento"},
       {link : "",icon:"fas fa-sticky-note",fr_FR:"Notes",en_US:"Notes",es_ES:"Notas",de_DE:"Anmerkungen",pt_PT:""},
       {link : "",icon:"fas fa-check",fr_FR:"Testeur d'expression",en_US:"Expression tester",es_ES:"Probador de expresión",de_DE:"Expressionstester",pt_PT:""},
       {link : "",icon:"fas fa-eye",fr_FR:"Variables",en_US:"Variables",es_ES:"Variables",de_DE:"Variables",pt_PT:""},
-      {version : ['4.0','4.1','4.2','4.3'],link : "/#LANG#/concept/summary",icon:"fas fa-table",fr_FR:"Résumés",en_US:"Summaries",es_ES:"resúmenes",de_DE:"Zusammenfassunge",pt_PT:"resumos"},
+      {version : ['4.0','4.1','4.2','4.3','4.4'],link : "/#LANG#/concept/summary",icon:"fas fa-table",fr_FR:"Résumés",en_US:"Summaries",es_ES:"resúmenes",de_DE:"Zusammenfassunge",pt_PT:"resumos"},
       {link : "/#LANG#/core/#VERSION#/plugin",icon:"fas fa-tags",fr_FR:"Plugins",en_US:"Plugins",es_ES:"Plugins",de_DE:"Plugins",pt_PT:"Plugins"},
-      {version : ['4.1','4.2','4.3'],link : "/#LANG#/core/#VERSION#/search",icon:"fas fa-search",fr_FR:"Recherche",en_US:"Search",es_ES:"Search",de_DE:"Search",pt_PT:""},
+      {version : ['4.1','4.2','4.3','4.4'],link : "/#LANG#/core/#VERSION#/search",icon:"fas fa-search",fr_FR:"Recherche",en_US:"Search",es_ES:"Search",de_DE:"Search",pt_PT:""},
       {link:"/#LANG#/mobile/index",icon:"fas fa-mobile",fr_FR:"Version mobile",en_US:"Mobile version",es_ES:"Versión móvil",de_DE:"Mobile Version",pt_PT:""},
       {link:"/#LANG#/core/#VERSION#/faq",icon:"fas fa-question-circle",fr_FR:"FAQ",en_US:"FAQ",es_ES:"FAQ",de_DE:"FAQ",pt_PT:"FAQ"}
     ]
