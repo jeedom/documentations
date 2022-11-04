@@ -92,7 +92,7 @@ var docMenu = [
     pt_PT : "",
     submenu:[
       {version : ['3.3'],link:"/#LANG#/core/#VERSION#/administration",icon:"fas fa-wrench",fr_FR:"Administration",en_US:"Administration",es_ES:"Administration",de_DE:"Verwaltung",pt_PT:""},
-      {version : ['4.0','4.1','4.2','4.3'],link:"/#LANG#/core/#VERSION#/administration",icon:"fas fa-wrench",fr_FR:"Configuration",en_US:"Configuration",es_ES:"Configuracion",de_DE:"Konfiguration",pt_PT:"Configuração"},
+      {version : ['4.0','4.1','4.2','4.3','4.4'],link:"/#LANG#/core/#VERSION#/administration",icon:"fas fa-wrench",fr_FR:"Configuration",en_US:"Configuration",es_ES:"Configuracion",de_DE:"Konfiguration",pt_PT:"Configuração"},
       {link:"/#LANG#/core/#VERSION#/backup",icon:"fas fa-save",fr_FR:"Sauvegarde",en_US:"Save",es_ES:"Sauvegarde",de_DE:"Backup",pt_PT:""},
       {link:"",icon:"fas fa-save",fr_FR:"Restauration Image",en_US:"Image restoration",es_ES:"Restauración de imagen",de_DE:"Bildwiederherstellung",pt_PT:""},
       {link:"/#LANG#/core/#VERSION#/update",icon:"fas fa-sync-alt",fr_FR:"Mise à jour",en_US:"Update",es_ES:"Mise à jour",de_DE:"Update",pt_PT:""},
@@ -234,7 +234,7 @@ if(getCookie('lang') != lang){
 }
 
 $('#meta-lang').attr('content',lang)
-var jeedomVersion = '4.2'
+var jeedomVersion = '4.3'
 if(window.location.href.indexOf('3.3') != -1){
   jeedomVersion = '3.3'
 }else if(window.location.href.indexOf('4.0') != -1){
@@ -245,6 +245,8 @@ if(window.location.href.indexOf('3.3') != -1){
   jeedomVersion = '4.2'
 }else if(window.location.href.indexOf('4.3') != -1){
   jeedomVersion = '4.3'
+}else if(window.location.href.indexOf('4.4') != -1){
+  jeedomVersion = '4.4'
 }else if(getCookie('jeedomVersion') != ''){
   jeedomVersion = getCookie('jeedomVersion');
 }
