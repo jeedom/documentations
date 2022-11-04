@@ -43,7 +43,7 @@ Une fonction a été introduite dans le Core pour proposer un menu contextuel su
 
 Pour l'utiliser, il faut ajouter la class css *checkContext* sur les checkboxs concernées, et appeller la fonction ``jeedomUtils.setCheckContextMenu()``
 
-Les checkboxs seront alors grouper par même *data-l1key* et *data-l2key* si ils existent.
+Les checkboxs seront alors groupées par même *data-l1key* et *data-l2key* si ils existent.
 
 Vous pouvez également faire des groupes de checkboxs avec l'attribut *data-context="group1"*.
 
