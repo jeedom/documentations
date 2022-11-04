@@ -37,5 +37,22 @@
 
 ### Cambios opcionales
 
-- 
+- Gestión de múltiples casillas de verificación
+
+Se ha introducido una función en Core para proporcionar un menú contextual en las casillas de verificación : Seleccionar todo, Ninguno, Selección inversa.
+
+Para usarlo, debes agregar la clase css *comprobar contexto* en las casillas de verificación correspondientes y llamar a la función ``jeedomUtils.setCheckContextMenu()``
+
+Las casillas de verificación se agruparán por el mismo *datos-l1key* y *datos-l2key* si existen.
+
+También puede hacer grupos de casillas de verificación con el atributo *contexto de datos = "grupo1"*.
+
+Finalmente, puede definir una función de devolución de llamada como esta:
+
+````js
+var checkContextMenuCallback = function(_el) {
+    _el.trigger('cambiar')
+}
+jeedomUtils.setCheckContextMenu(checkContextMenuCallback)
+````
 

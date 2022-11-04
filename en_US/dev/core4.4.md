@@ -37,5 +37,22 @@
 
 ### Optional changes
 
-- 
+- Management of multiple checkboxes
+
+A function has been introduced in Core to provide a contextual menu on checkboxes : Select All, None, Reverse Select.
+
+To use it, you have to add the css class *checkContext* on the relevant checkboxes, and call the function ``jeedomUtils.setCheckContextMenu()``
+
+The checkboxes will then be grouped by same *data-l1key* and *data-l2key* if they exist.
+
+You can also make groups of checkboxes with the attribute *data-context="group1"*.
+
+Finally, you can define a callback function like this:
+
+````js
+var checkContextMenuCallback = function(_el) {
+    _el.trigger('change')
+}
+jeedomUtils.setCheckContextMenu(checkContextMenuCallback)
+````
 
