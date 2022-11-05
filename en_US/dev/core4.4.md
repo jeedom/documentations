@@ -2,18 +2,24 @@
 
 ### Obsolete
 
-- Js functions:
+- PHP function
+
+`displayException()` -> `displayException()`  
+`convertDayEnToFr()` -> `convertDayFromEn()`
+
+- Js functions (available since Core4.2):
 
 `displayPlan()` -> `jeeFrontEnd.plan.displayPlan()`
 
-- Js-variables:
-
-`jeedom_language` -> `jeeFrontEnd.language`  
-`userProfils` -> `jeeFrontEnd.userProfils`
-
 ### Deprecated
 
-- Js functions:
+*These functions return an error message, but still work.*
+
+- PHP functions:
+
+`eqLogic::byTypeAndSearhConfiguration()` -> `eqLogic::byTypeAndSearchConfiguration()`  
+
+- Js functions (available since Core4.2):
 
 `jeedom.eqLogic.buildSelectCmd` -> `jeedom.eqLogic.buildSelectCmd`  
 `checkPageModified` -> `jeedomUtils.checkPageModified`  
@@ -34,6 +40,11 @@
 `positionEqLogic` -> `jeedomUtils.positionEqLogic`  
 `chooseIcon` -> `jeedomUtils.chooseIcon`  
 `getOpenedModal` -> `jeedomUtils.getOpenedModal`  
+
+- Js variables (available since Core4.3):
+
+`jeedom_language` -> `jeeFrontEnd.language`  
+`userProfils` -> `jeeFrontEnd.userProfils`
 
 ### Optional changes
 
