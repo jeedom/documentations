@@ -7,7 +7,7 @@
 `displayExeption()` -> `displayException()`  
 `convertDayEnToFr()` -> `convertDayFromEn()`
 
-- Fonctions js (disponibles depuis Core4.2):
+- Fonctions js (disponibles depuis Core4.3):
 
 `displayPlan()` -> `jeeFrontEnd.plan.displayPlan()`
 
@@ -45,6 +45,10 @@
 
 `jeedom_langage` -> `jeeFrontEnd.language`  
 `userProfils` -> `jeeFrontEnd.userProfils`
+
+> **Remarque**
+>
+> Ces modifications peuvent entraîner la nécessité de monter la version Jeedom minimale requise de nombreux plugins. C'est pourquoi il n'est pas certains que les *deprecated* resteront en stable v4.4 mais ils permettent au moins aux développeurs de voir ce qu'ils peuvent corriger.
 
 ### Modifications optionnelles
 
