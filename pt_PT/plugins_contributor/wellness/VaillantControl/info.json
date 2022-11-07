@@ -1,0 +1,36 @@
+{
+  "id": "VaillantControl",
+  "name": "Vaillant Control",
+  "licence": "AGPL",
+  "author": "limad44",
+  "require": "4.0",
+  "description": {
+    "fr_FR": " Plugin pour intégrer les thermostats Vaillant/Saunier-Duval(gamme senso/MiSet,MiPro Sense) associés à une passerelle VR92x ou MiLink V3.\n\nCe sont géneralement les équipements qui fonctionnent avec l'app sensoApp ou MiControl.\n\nLe plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).\nL'actualisation se fait via API .",
+    "en_US": " Plugin pour intégrer les thermostats Vaillant(gamme senso).\nLe plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).\nL'actualisation se fait via API ."
+  },
+  "utilization": "Il faut disposer d'un compte Vaillant et d'un user/password.\n\n Le plugin prend en charge uniquement les thermostats !",
+  "category": "wellness",
+  "hasDependency": false,
+  "hasOwnDeamon": false,
+  "changelog": "https://limad.github.io/plugins-docs/plugin-VaillantControl/#language#/changelog",
+  "documentation": "https://limad.github.io/plugins-docs/plugin-VaillantControl/#language#/",
+  "changelog_beta": "https://limad.github.io/plugins-docs/plugin-VaillantControl/#language#/changelog",
+  "documentation_beta": "https://limad.github.io/plugins-docs/plugin-VaillantControl/#language#/",
+  "link": {
+    "forum": "https://community.jeedom.com/t/plugin-vaillantcontrol-documentation-et-actualites/82102"
+  },
+  "language": [
+    "fr_FR",
+    "en_US"
+  ],
+  "compatibility": [
+    "v4",
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "mobile",
+    "Jeedomboard"
+  ]
+}
