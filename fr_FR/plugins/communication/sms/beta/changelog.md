@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 06/11/2022
+
+- Ajout de deux nouvelles options: **Autoriser les messages de numéros inconnus** & **Ajouter automatiquement les numéros inconnus**; voir documentation.
+
 # 21/10/2022
 
 - Fix un problème avec certaines clés gsm renvoyant des caractères incorrectes lors du démarrage du démon.

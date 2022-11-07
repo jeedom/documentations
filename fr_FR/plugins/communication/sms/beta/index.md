@@ -11,7 +11,7 @@ Le plugin SMS permet de dialoguer avec Jeedom par l’intermédiaire des SMS. Il
 Après téléchargement du plugin, il suffit de l’activer et de configurer le port. Après sauvegarde le démon devrait se lancer.
 Le plugin est déjà configuré par défaut, vous n’avez donc rien à faire de plus. Cependant vous pouvez modifier cette configuration, voici le détail :
 
-- **Port SMS** : le port USB sur lequel votre clef GSM est connecté.
+- **Port SMS** : le port USB sur lequel votre clef GSM est connecté (par exemple ce peut être /dev/ttyUSB0, pour le voir il suffit de lancer `dmesg` puis de brancher le modem).
 
 > **ASTUCE**
 >
@@ -37,34 +37,36 @@ La configuration des équipements SMS est accessible à partir du menu Plugins �
 
 Vous retrouvez ici toute la configuration de votre équipement :
 
-- **Nom de l’équipement SMS** : nom de votre équipement SMS.
+- **Nom de l’équipement** : nom de votre équipement SMS.
+- **Objet parent** : indique l’objet parent auquel appartient l’équipement.
 - **Activer** : permet de rendre votre équipement actif.
 - **Visible** : rend votre équipement visible sur le dashboard.
-- **Objet parent** : indique l’objet parent auquel appartient l’équipement.
 
-En dessous vous retrouvez la liste des commandes :
+En dessous vous retrouvez quelques paramètres spécifiques:
+
+- **Désactiver les interactions**: permet d'interdire les interactions pour tous les numéros de cet équipement (si vous voulez interdire les interactions pour certains numéros et pas pour d'autres, vous pouvez créer plusieurs équipements)
+- **Autoriser les messages de numéros inconnus**: permet d'accepter les messages en provenance de numéro inconnu. Le message reçu ainsi que le numéro de l'expérditeur seront disponnibles via les commandes comme pour tout autre message. Les interactions sont toujours désactivées pour ces numéros
+- **Ajouter les numéros inconnus**: permet d'ajouter automatiquement le numéro à la liste des commandes (donc de créer un nouvelle commande) lors de la réception d'un message d'un numéro inconnu
+
+> **ATTENTION**
+>
+> Cette option peut être dangereuse à utiliser car cela va ajouter automatiquement une commande correspondante au numéro lors de la réception d'un message en provenance d'un numéro inconnu.
+> Si sur le même équipement vous activez les interactions, cela veut dire que n'importe qui pourra commencer à interagir avec votre Jeedom.
+> N'activez cette option que si vous êtes certain d'accepter ce risque.
+
+## Les commandes
 
 - **Nom** : le nom affiché sur le dashboard.
 - **Utilisateur** : utilisateur correspondant dans Jeedom (permet de restreindre certaines interactions à certains utilisateurs).
-- **Numéro** : numéro de téléphone à qui envoyer les messages. Vous pouvez mettre plusieurs numéros en les séparant avec des ; *(exemple: 0612345678;0698765432)*. IMPORTANT : il faut mettre les numéros au format international (+33 pour la france par exemple)
+- **Numéro** : numéro de téléphone à qui envoyer les messages. Vous pouvez mettre plusieurs numéros en les séparant avec des ; *(exemple: +33612345678;+33698765432)*. IMPORTANT : il faut mettre les numéros au format international (+33 pour la France par exemple)
 
 > **IMPORTANT**
 >
 > Seuls les numéros de téléphone déclarés dans un équipement pourront utiliser les interactions car seuls eux seront autorisés.
 
-- **Afficher** : permet d’afficher la donnée sur le dashboard.
-- **Configuration avancée** (petites roues crantées) : permet d’afficher la configuration avancée de la commande (méthode d’historisation, widget…​).
-- **Tester** : permet de tester la commande.
-- **Supprimer** (signe -) : permet de supprimer la commande.
-
 # Utilisation du plugin
 
-Celui-ci est assez standard dans son fonctionnement, sur la page Général → Plugin puis en sélectionnant le plugin SMS :
-
-- Le port (chemin) jusqu’au périphérique qui sert de modem (par exemple ce peut être /dev/ttyUSB0, pour le voir il suffit de lancer ``dmesg`` puis de brancher le modem)
-- Le code pin de la carte sim
-
-Il faut donc ajouter un nouvel équipement puis le configurer :
+Celui-ci est assez standard dans son fonctionnement, il faut donc ajouter un nouvel équipement puis configurer:
 
 - Le nom de celui-ci,
 - S’il est actif ou non,

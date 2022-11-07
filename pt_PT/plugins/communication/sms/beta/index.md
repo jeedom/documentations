@@ -11,7 +11,7 @@ O plugin SMS permite que você interaja com o Jeedom via SMS. Também permite qu
 Depois de baixar o plugin, basta ativá-lo e configurar a porta. Depois de salvar o demônio deve lançar.
 O plugin já está configurado por padrão, então você não precisa fazer mais nada. No entanto, você pode modificar esta configuração, aqui está o detalhe :
 
-- **Porta SMS** : a porta USB na qual sua chave GSM está conectada.
+- **Porta SMS** : a porta USB na qual sua chave GSM está conectada (por exemplo, pode ser /dev/ttyUSB0, para vê-la basta executar `dmesg` e conectar o modem).
 
 > **DICA**
 >
@@ -37,34 +37,36 @@ A configuração dos dispositivos SMS pode ser acessada no menu Plug-ins → Com
 
 Aqui você encontra toda a configuração do seu equipamento :
 
-- **Nome do equipamento SMS** : nome do seu equipamento SMS.
+- **Nome do equipamento** : nome do seu equipamento SMS.
+- **Objeto pai** : indica o objeto pai ao qual o equipamento pertence.
 - **Ativar** : torna seu equipamento ativo.
 - **Visivél** : torna seu equipamento visível no painel.
-- **Objeto pai** : indica o objeto pai ao qual o equipamento pertence.
 
-Abaixo você encontra a lista de pedidos :
+Abaixo você encontra alguns parâmetros específicos:
+
+- **Desativar interações**: permite-lhe proibir interacções para todos os números deste equipamento (se quiser proibir interacções para determinados números e não para outros, pode criar vários equipamentos)
+- **Permitir mensagens de números desconhecidos**: Permite aceitar mensagens de números desconhecidos. A mensagem recebida bem como o número do remetente estarão disponíveis através dos comandos como para qualquer outra mensagem. As interações estão sempre desativadas para esses números
+- **Adicionar números desconhecidos**: permite adicionar automaticamente o número à lista de pedidos (portanto para criar um novo pedido) ao receber uma mensagem de um número desconhecido
+
+> **AVISO**
+>
+> Esta opção pode ser perigosa porque irá adicionar automaticamente um comando correspondente ao número ao receber uma mensagem de um número desconhecido.
+> Se no mesmo equipamento você ativar interações, isso significa que qualquer pessoa pode começar a interagir com seu Jeedom.
+> Ative esta opção somente se você tiver certeza de aceitar esse risco.
+
+## As ordens
 
 - **Nome** : o nome exibido no painel.
 - **Usuário** : usuário correspondente no Jeedom (permite restringir certas interações a determinados usuários).
-- **Número** : número de telefone para o qual enviar mensagens. Você pode colocar vários números, separando-os com; *(exemple: 0612345678; 0698765432)*. IMPORTANTE : é necessário colocar os números no formato internacional (+33 para a França por exemplo)
+- **Número** : número de telefone para o qual enviar mensagens. Você pode colocar vários números, separando-os com; *(exemple: +33612345678;+33698765432)*. IMPORTANTE : é necessário colocar os números no formato internacional (+33 para a França por exemplo)
 
 > **IMPORTANTE**
 >
 > Somente os números de telefone declarados em um dispositivo poderão usar as interações, pois somente eles serão autorizados.
 
-- **Display** : permite exibir os dados no painel.
-- **Configuração avançada** (pequenas rodas dentadas) : exibe a configuração avançada do comando (método de registro, widget etc.)).
-- **Teste** : permite testar o comando.
-- **Remover** (placa -) : permite excluir o comando.
-
 # Usando o plugin
 
-Isso é bastante padrão em sua operação, na página Geral → Plug-in e selecionando o plug-in SMS :
-
-- A porta (caminho) para o dispositivo que serve como modem (por exemplo, pode ser / dev / ttyUSB0, para vê-lo apenas iniciar ``dmesg`` depois conecte o modem)
-- O código PIN do cartão SIM
-
-Então você precisa adicionar um novo equipamento e configurá-lo :
+Este é bastante padrão em como funciona, então você precisa adicionar novos equipamentos e depois configurar:
 
 - O nome dele,
 - Se está ativo ou não,

@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 06.11.2022
+
+- Zwei neue Optionen hinzugefügt: **Nachrichten von unbekannten Nummern zulassen** & **Unbekannte Nummern automatisch hinzufügen**; siehe Dokumente.
+
 # 21.10.2022
 
 - Behebung eines Problems mit einigen GSM-Schlüsseln, die beim Starten des Daemons falsche Zeichen zurückgeben.

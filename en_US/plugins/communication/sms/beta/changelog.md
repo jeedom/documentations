@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 11/06/2022
+
+- Added two new options: **Allow messages from unknown numbers** & **Automatically add unknown numbers**; see docs.
+
 # 21/10/2022
 
 - Fix an issue with some gsm keys returning incorrect characters when starting the daemon.

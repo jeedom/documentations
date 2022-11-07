@@ -11,7 +11,7 @@ Mit dem SMS-Plugin können Sie per SMS mit Jeedom interagieren. Außerdem kann J
 Nachdem Sie das Plugin heruntergeladen haben, aktivieren Sie es einfach und konfigurieren Sie den Port. Nach dem Speichern sollte der Dämon starten.
 Das Plugin ist bereits standardmäßig konfiguriert, sodass Sie nichts weiter tun müssen. Sie können diese Konfiguration jedoch ändern. Hier finden Sie die Details :
 
-- **SMS-Port** : Der USB-Anschluss, an den Ihr GSM-Schlüssel angeschlossen ist.
+- **SMS-Port** : der USB-Port, an dem Ihr GSM-Schlüssel angeschlossen ist (zum Beispiel kann es /dev/ttyUSB0 sein, um ihn zu sehen, führen Sie einfach `dmesg` aus und schließen Sie das Modem an).
 
 > **TIPP**
 >
@@ -37,34 +37,36 @@ Auf die Konfiguration von SMS-Geräten kann über das Menü Plugins → Kommunik
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
-- **Name des SMS-Geräts** : Name Ihres SMS-Geräts.
+- **Ausrüstungsname** : Name Ihres SMS-Geräts.
+- **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört.
 - **Aktivieren** : macht Ihre Ausrüstung aktiv.
 - **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar.
-- **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört.
 
-Nachfolgend finden Sie die Liste der Bestellungen :
+Nachfolgend finden Sie einige spezifische Parameter:
+
+- **Interaktionen deaktivieren**: ermöglicht es Ihnen, Interaktionen für alle Nummern dieses Geräts zu verbieten (wenn Sie Interaktionen für bestimmte Nummern und nicht für andere verbieten möchten, können Sie mehrere Geräte erstellen)
+- **Nachrichten von unbekannten Nummern zulassen**: Ermöglicht Ihnen, Nachrichten von unbekannten Nummern anzunehmen. Die empfangene Nachricht sowie die Nummer des Absenders sind wie bei jeder anderen Nachricht über die Befehle verfügbar. Interaktionen sind für diese Nummern immer deaktiviert
+- **Fügen Sie unbekannte Nummern hinzu**: ermöglicht es Ihnen, die Nummer automatisch zur Liste der Bestellungen hinzuzufügen (also eine neue Bestellung zu erstellen), wenn Sie eine Nachricht von einer unbekannten Nummer erhalten
+
+> **WARNUNG**
+>
+> Diese Option kann gefährlich sein, da sie der Nummer automatisch einen entsprechenden Befehl hinzufügt, wenn Sie eine Nachricht von einer unbekannten Nummer erhalten.
+> Wenn Sie auf derselben Ausrüstung Interaktionen aktivieren, bedeutet dies, dass jeder beginnen kann, mit Ihrem Jeedom zu interagieren.
+> Aktivieren Sie diese Option nur, wenn Sie dieses Risiko sicher akzeptieren.
+
+## Die Bestellungen
 
 - **Name** : Der im Dashboard angezeigte Name.
 - **Benutzer** : entsprechender Benutzer in Jeedom (ermöglicht es Ihnen, bestimmte Interaktionen auf bestimmte Benutzer zu beschränken).
-- **Anzahl** : Telefonnummer, an die Nachrichten gesendet werden sollen. Sie können mehrere Zahlen eingeben, indem Sie sie durch trennen *(exemple: 0612345678; 0698765432)*. Wichtig : Es ist notwendig, die Zahlen im internationalen Format (+33 für Frankreich zum Beispiel) anzugeben)
+- **Anzahl** : Telefonnummer, an die Nachrichten gesendet werden sollen. Sie können mehrere Zahlen eingeben, indem Sie sie durch trennen *(exemple: +33612345678;+33698765432)*. Wichtig : Es ist notwendig, die Zahlen im internationalen Format (+33 für Frankreich zum Beispiel) anzugeben)
 
 > **Wichtig**
 >
 > Nur die in einem Gerät angegebenen Telefonnummern können die Interaktionen verwenden, da nur sie autorisiert werden.
 
-- **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard.
-- **Erweiterte Konfiguration** (kleine gekerbte Räder) : Zeigt die erweiterte Konfiguration des Befehls an (Protokollierungsmethode, Widget usw.)).
-- **Test** : Wird zum Testen des Befehls verwendet.
-- **Löschen** (Schild -) : ermöglicht das Löschen des Befehls.
-
 # Mit dem Plugin
 
-Dies ist ziemlich normal in seiner Funktionsweise, auf der Seite Allgemein → Plugin, dann durch Auswahl des SMS-Plugins :
-
-- Der Port (Pfad) zu dem Gerät, das als Modem dient (z. B. kann es / dev / ttyUSB0 sein, um zu sehen, dass es gerade gestartet wird ``dmesg`` Schließen Sie dann das Modem an)
-- Der PIN-Code der SIM-Karte
-
-Sie müssen also neue Geräte hinzufügen und diese dann konfigurieren :
+Dieser funktioniert ziemlich standardmäßig, also müssen Sie neue Geräte hinzufügen und dann konfigurieren:
 
 - Der Name davon,
 - Ob es aktiv ist oder nicht,

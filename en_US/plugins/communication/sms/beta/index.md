@@ -11,7 +11,7 @@ The SMS plugin allows you to interact with Jeedom via SMS. It also allows Jeedom
 After downloading the plugin, just activate it and configure the port. After saving the demon should launch.
 The plugin is already configured by default, so you don't have to do anything more. However you can modify this configuration, here is the detail :
 
-- **SMS port** : the USB port on which your GSM key is connected.
+- **SMS port** : the USB port on which your GSM key is connected (for example it can be /dev/ttyUSB0, to see it just run `dmesg` then plug in the modem).
 
 > **TRICK**
 >
@@ -37,34 +37,36 @@ The configuration of SMS devices is accessible from the Plugins → Communicatio
 
 Here you find all the configuration of your equipment :
 
-- **SMS equipment name** : name of your SMS equipment.
+- **Equipment name** : name of your SMS equipment.
+- **Parent object** : indicates the parent object to which the equipment belongs.
 - **Activate** : makes your equipment active.
 - **Visible** : makes your equipment visible on the dashboard.
-- **Parent object** : indicates the parent object to which the equipment belongs.
 
-Below you find the list of orders :
+Below you find some specific parameters:
+
+- **Disable interactions**: allows you to prohibit interactions for all the numbers of this equipment (if you want to prohibit interactions for certain numbers and not for others, you can create several equipment)
+- **Allow messages from unknown numbers**: Allows you to accept messages from unknown numbers. The message received as well as the number of the sender will be available via the commands as for any other message. Interactions are always disabled for these numbers
+- **Add unknown numbers**: allows you to automatically add the number to the list of orders (therefore to create a new order) when receiving a message from an unknown number
+
+> **WARNING**
+>
+> This option can be dangerous to use because it will automatically add a corresponding command to the number when receiving a message from an unknown number.
+> If on the same equipment you activate interactions, this means that anyone can start interacting with your Jeedom.
+> Activate this option only if you are certain to accept this risk.
+
+## The orders
 
 - **Name** : the name displayed on the dashboard.
 - **User** : corresponding user in Jeedom (allows you to restrict certain interactions to certain users).
-- **Number** : phone number to send messages to. You can put several numbers by separating them with; *(exemple: 0612345678; 0698765432)*. Important : it is necessary to put the numbers in the international format (+33 for France for example)
+- **Number** : phone number to send messages to. You can put several numbers by separating them with; *(exemple: +33612345678;+33698765432)*. Important : it is necessary to put the numbers in the international format (+33 for France for example)
 
 > **Important**
 >
 > Only the telephone numbers declared in a device will be able to use the interactions because only they will be authorized.
 
-- **Show** : allows to display the data on the dashboard.
-- **Advanced configuration** (small notched wheels) : displays the advanced configuration of the command (logging method, widget, etc.)).
-- **Test** : Used to test the command.
-- **Delete** (sign -) : allows to delete the command.
-
 # Using the plugin
 
-This is fairly standard in its operation, on the General → Plugin page then by selecting the SMS plugin :
-
-- The port (path) to the device that serves as a modem (for example it can be / dev / ttyUSB0, to see it just launch ``dmesg`` then plug in the modem)
-- The pin code of the sim card
-
-So you have to add new equipment and then configure it :
+This one is pretty standard in how it works, so you have to add new equipment and then configure:
 
 - The name of it,
 - If it is active or not,

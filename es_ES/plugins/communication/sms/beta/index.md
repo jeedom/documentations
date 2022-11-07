@@ -11,7 +11,7 @@ El complemento de SMS le permite interactuar con Jeedom a través de SMS. Tambi�
 Después de descargar el complemento, simplemente actívelo y configure el puerto. Después de salvar al demonio debería lanzar.
 El complemento ya está configurado de forma predeterminada, por lo que no tiene que hacer nada más. Sin embargo, puede modificar esta configuración, aquí está el detalle :
 
-- **Puerto de SMS** : el puerto USB en el que está conectada su llave GSM.
+- **Puerto de SMS** : el puerto USB en el que está conectada su llave GSM (por ejemplo, puede ser /dev/ttyUSB0, para verlo simplemente ejecute `dmesg` y luego conecte el módem).
 
 > **CONSEJO**
 >
@@ -37,34 +37,36 @@ La configuración de dispositivos SMS es accesible desde el menú Complementos �
 
 Aquí encontrarás toda la configuración de tu equipo :
 
-- **Nombre del equipo SMS** : nombre de su equipo de SMS.
+- **Nombre del equipo** : nombre de su equipo de SMS.
+- **Objeto padre** : indica el objeto padre al que pertenece el equipo.
 - **Activar** : activa su equipo.
 - **Visible** : hace que su equipo sea visible en el tablero.
-- **Objeto padre** : indica el objeto padre al que pertenece el equipo.
 
-A continuación encontrará la lista de pedidos :
+A continuación encontrará algunos parámetros específicos:
+
+- **Deshabilitar interacciones**: te permite prohibir interacciones para todos los números de este equipo (si quieres prohibir interacciones para ciertos números y no para otros, puedes crear varios equipos)
+- **Permitir mensajes de números desconocidos**: Le permite aceptar mensajes de números desconocidos. El mensaje recibido así como el número del remitente estarán disponibles a través de los comandos como para cualquier otro mensaje. Las interacciones siempre están deshabilitadas para estos números
+- **Añadir números desconocidos**: le permite agregar automáticamente el número a la lista de pedidos (por lo tanto, para crear un nuevo pedido) cuando recibe un mensaje de un número desconocido
+
+> **ATENCIÓN**
+>
+> Esta opción puede ser peligrosa de usar porque agregará automáticamente un comando correspondiente al número cuando reciba un mensaje de un número desconocido.
+> Si en el mismo equipo activa interacciones, esto significa que cualquiera puede comenzar a interactuar con su Jeedom.
+> Active esta opción solo si está seguro de aceptar este riesgo.
+
+## Las órdenes
 
 - **Nombre** : el nombre que se muestra en el tablero.
 - **Usuario** : usuario correspondiente en Jeedom (le permite restringir ciertas interacciones a ciertos usuarios).
-- **Número** : número de teléfono al que enviar mensajes. Puede poner varios números separándolos con; *(exemple: 0612345678; 0698765432)*. Importante : es necesario poner los números en formato internacional (+33 para Francia por ejemplo)
+- **Número** : número de teléfono al que enviar mensajes. Puede poner varios números separándolos con; *(exemple: +33612345678;+33698765432)*. Importante : es necesario poner los números en formato internacional (+33 para Francia por ejemplo)
 
 > **Importante**
 >
 > Solo los números de teléfono declarados en un dispositivo podrán utilizar las interacciones porque solo ellos estarán autorizados.
 
-- **Mostrar** : permite mostrar los datos en el tablero.
-- **Configuración avanzada** (ruedas con muescas pequeñas) : muestra la configuración avanzada del comando (método de registro, widget, etc.)).
-- **Probar** : Se usa para probar el comando.
-- **Borrar** (signo -) : permite eliminar el comando.
-
 # Usando el complemento
 
-Esto es bastante estándar en su funcionamiento, en la página General → Complemento y luego seleccionando el complemento de SMS :
-
-- El puerto (ruta) al dispositivo que sirve como módem (por ejemplo, puede ser / dev / ttyUSB0, para verlo simplemente iniciar ``dmesg`` luego conecte el módem)
-- El código pin de la tarjeta sim
-
-Por lo tanto, debe agregar nuevo equipo y luego configurarlo :
+Este es bastante estándar en su funcionamiento, por lo que debe agregar nuevos equipos y luego configurar:
 
 - El nombre,
 - Si está activo o no,

@@ -1,0 +1,47 @@
+{
+    "id": "lifx",
+    "name": "Lifx",
+    "description": {
+        "fr_FR": "Plugin permettant de contrôler les ampoules Lifx",
+        "en_US": "Plugin to control Lifx bulbs",
+        "es_ES": "Plugin para controlar bombillas Lifx",
+        "de_DE": "Plugin zur Steuerung von Lifx-Lampen",
+        "pt_PT": "Plugin para controlar as lâmpadas Lifx",
+        "ru_RU": "Plugin permettant de contrôler les ampoules Lifx",
+        "id_ID": "Plugin permettant de contrôler les ampoules Lifx",
+        "it_IT": "Plugin permettant de contrôler les ampoules Lifx",
+        "ja_JP": "Plugin permettant de contrôler les ampoules Lifx",
+        "tr": "Plugin permettant de contrôler les ampoules Lifx"
+    },
+    "licence": "AGPL",
+    "author": "Rocket13011",
+    "require": "3.0",
+    "category": "devicecommunication",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/devicecommunication\/lifx\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/devicecommunication\/lifx\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/devicecommunication\/lifx\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/devicecommunication\/lifx\/beta"
+}

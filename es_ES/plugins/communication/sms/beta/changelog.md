@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 06/11/2022
+
+- Se agregaron dos nuevas opciones: **Permitir mensajes de números desconocidos** & **Agregar automáticamente números desconocidos**; ver documentos.
+
 # 21/10/2022
 
 - Solucione un problema con algunas teclas gsm que devuelven caracteres incorrectos al iniciar el daemon.
