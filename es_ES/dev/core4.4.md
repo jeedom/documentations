@@ -7,7 +7,7 @@
 `displayException()` -> `displayException()`  
 `convertDayEnToFr()` -> `convertDayFromEn()`
 
-- Funciones js (disponible desde Core4.2):
+- Funciones js (disponible desde Core4.3):
 
 `displayPlan()` -> `jeeFrontEnd.plan.displayPlan()`
 
@@ -45,6 +45,10 @@
 
 `jeedom_language` -> `jeeFrontEnd.language`  
 `perfiles de usuario` -> `jeeFrontEnd.userProfils`
+
+> **Observación**
+>
+> Estos cambios pueden resultar en la necesidad de montar la versión mínima requerida de Jeedom de muchos complementos. Por eso no es seguro que el *Obsoleto* permanecerá en v4 estable.4 pero al menos dejan que los desarrolladores vean lo que pueden arreglar.
 
 ### Cambios opcionales
 

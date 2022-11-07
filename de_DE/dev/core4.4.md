@@ -7,7 +7,7 @@
 `displayException()` -> `displayException()`  
 `convertDayEnToFr()` -> `convertDayFromEn()`
 
-- Js-Funktionen (verfügbar seit Core4.2):
+- Js-Funktionen (verfügbar seit Core4.3):
 
 `displayPlan()` -> `jeeFrontEnd.plan.displayPlan()`
 
@@ -45,6 +45,10 @@
 
 `jeedom_language` -> `jeeFrontEnd.language`  
 `userProfils` -> `jeeFrontEnd.userProfils`
+
+> **Anmerkung**
+>
+> Diese Änderungen können dazu führen, dass die mindestens erforderliche Jeedom-Version vieler Plugins gemountet werden muss. Deshalb ist es nicht sicher, dass die *Veraltet* bleibt in Stable v4.4, aber sie lassen die Entwickler zumindest sehen, was sie beheben können.
 
 ### Optionale Änderungen
 

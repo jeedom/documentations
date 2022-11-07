@@ -82,7 +82,7 @@ You can test from a scenario / Code block if your plugins have the compatibility
 
 In the end, the plugin pages must be consistent with the pages of the core objects / scenarios / interactions (sizes, colors, layouts etc). No style effect, but consistency.
 
-> Note :
+> Remark :
 >
 > The sidebar did not survive v4 ! To replace it, a context menu is available on the tabs for scenarios, objects, interactions, plugins.
 

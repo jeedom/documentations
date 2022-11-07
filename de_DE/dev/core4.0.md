@@ -82,7 +82,7 @@ Sie können anhand eines Szenario- / Codeblocks testen, ob Ihre Plugins die ange
 
 Am Ende müssen die Pluginseiten mit den Seiten der Kernobjekte / Szenarien / Interaktionen (Größen, Farben, Layouts usw.) übereinstimmen). Kein Stileffekt, aber Konsistenz.
 
-> Bemerkung :
+> Anmerkung :
 >
 > Die Seitenleiste hat v4 nicht überlebt ! Um es zu ersetzen, steht auf den Registerkarten ein Kontextmenü für Szenarien, Objekte, Interaktionen und Plugins zur Verfügung.
 
