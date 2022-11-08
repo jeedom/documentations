@@ -740,7 +740,7 @@
         "La variable js `planHeader_id` devient `jeephp2js.planHeader_id`": "The js variable `planHeader_id` becomes `jeephp2js.planHeader_id`",
         "Modifications optionnelles": "Optional modifications",
         "La fonction addCmdToTable() n'est plus obligatoire": "The addCmdToTable() function is no longer mandatory",
-        "Si elle n'est pas présente, celle du Cote sera utilisée": "If it is not present, that of the Cote will be used",
+        "Si elle n'est pas présente, celle du Core sera utilisée": "If it is not present, that of the Core will be used",
         "Il faut juste créer une table html `<table id=\"table_cmd\" class=\"table table-bordered table-condensed\"><\/table>`": "You just need to create an html table `<table id=\"table_cmd\" class=\"table table-bordered table-condensed\"><\/table> `",
         "Sur les commandes info, le bouton": "On info commands, the button",
         "n'est plus affiché, c'est la valeur qui est affichée, et updatée en temps réel": "is no longer displayed, it is the value that is displayed, and updated in real time",

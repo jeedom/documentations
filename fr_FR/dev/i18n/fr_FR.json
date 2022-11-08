@@ -416,7 +416,7 @@
         "Modifications optionnelles": "Modifications optionnelles",
         "addCmdToTable": "addCmdToTable",
         "La fonction addCmdToTable() n'est plus obligatoire": "La fonction addCmdToTable() n'est plus obligatoire",
-        "Si elle n'est pas présente, celle du Cote sera utilisée": "Si elle n'est pas présente, celle du Cote sera utilisée",
+        "Si elle n'est pas présente, celle du Core sera utilisée": "Si elle n'est pas présente, celle du Core sera utilisée",
         "Il faut juste créer une table html `<table id=\"table_cmd\" class=\"table table-bordered table-condensed\"><\/table>`": "Il faut juste créer une table html `<table id=\"table_cmd\" class=\"table table-bordered table-condensed\"><\/table>`",
         "Tester": "Tester",
         "Sur les commandes info, le bouton": "Sur les commandes info, le bouton",

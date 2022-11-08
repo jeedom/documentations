@@ -42,7 +42,7 @@ In the same logic, the variables passed from php to js are now in namespace jeep
 
 #### addCmdToTable()
 
-The addCmdToTable() function is no longer mandatory. If it is not present, that of the Cote will be used. You just need to create an html table `<table id="table_cmd" class="table table-bordered table-condensed"></table> `
+The addCmdToTable() function is no longer mandatory. If it is not present, that of the Core will be used. You just need to create an html table `<table id="table_cmd" class="table table-bordered table-condensed"></table> `
 
 On info commands, the button **Test** is no longer displayed, it is the value that is displayed, and updated in real time. To add this info in a command table : `<span class="cmdAttr" data-l1key="htmlstate"></span> `
 

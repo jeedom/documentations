@@ -42,7 +42,7 @@ In der gleichen Logik befinden sich die von PHP an js übergebenen Variablen jet
 
 #### addCmdToTable()
 
-Die Funktion addCmdToTable() ist nicht mehr obligatorisch. Wenn es nicht vorhanden ist, wird das der Cote verwendet. Sie müssen nur eine HTML-Tabelle erstellen `<table id="table_cmd" class="table table-bordered table-condensed"></table> `
+Die Funktion addCmdToTable() ist nicht mehr obligatorisch. Wenn es nicht vorhanden ist, wird das des Kerns verwendet. Sie müssen nur eine HTML-Tabelle erstellen `<table id="table_cmd" class="table table-bordered table-condensed"></table> `
 
 Bei Info-Befehlen die Taste **Prüfen** nicht mehr angezeigt wird, wird der Wert angezeigt und in Echtzeit aktualisiert. Um diese Informationen in eine Befehlstabelle einzufügen : `<span class="cmdAttr" data-l1key="htmlstate"></span> `
 

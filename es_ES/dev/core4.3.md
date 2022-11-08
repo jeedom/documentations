@@ -42,7 +42,7 @@ En la misma lógica, las variables pasadas de php a js ahora están en el espaci
 
 #### addCmdToTable()
 
-La función addCmdToTable() ya no es obligatoria. Si no está presente, se utilizará el de la Cote. Solo necesita crear una tabla html `<table id="table_cmd" class="table table-bordered table-condensed"></table> `
+La función addCmdToTable() ya no es obligatoria. Si no está presente, se utilizará el del Núcleo. Solo necesita crear una tabla html `<table id="table_cmd" class="table table-bordered table-condensed"></table> `
 
 En los comandos de información, el botón **Prueba** ya no se muestra, es el valor que se muestra y se actualiza en tiempo real. Para agregar esta información en una tabla de comandos : `<span class="cmdAttr" data-l1key="htmlstate"></span> `
 
