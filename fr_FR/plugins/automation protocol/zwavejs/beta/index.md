@@ -1,6 +1,6 @@
 # Plugin Z-Wave JS
 
-Le plugin Z-wave JS permet **le contrôle total du protocole domotique Z-Wave dans Jeedom** en se basant sur le travail effectué autour de la très réputée librairie **Z-Wave JS UI**.
+Le plugin Z-wave JS permet **le contrôle total du protocole domotique Z-Wave dans Jeedom** en se basant sur le travail effectué autour de la très réputée bibliothèque **Z-Wave JS UI**.
 
 Le plugin Z-wave JS fiabilise et sécurise les transmissions par l'utilisation du **protocole MQTT**, offrant, par la même occasion, des possibilités de gestion avancée de leur réseau Z-Wave aux utilisateurs les plus experts.
 
@@ -14,9 +14,9 @@ Après installation et activation du plugin, l'installation des dépendances dev
 
 Le reste des dépendances consiste au téléchargement, à la compilation et à la configuration de la librairie **Z-Wave JS UI**.
 
->**IMPORTANT**
+>**INFORMATION**
 >
->La première installation des dépendances incluant une phase de compilation, elle est susceptible de durer plusieurs dizaines de minutes en fonction de votre configuration matérielle. Les mises à jour des dépendances seront bien plus rapides à installer par la suite.
+>La première installation des dépendances incluant une phase de compilation, elle est susceptible de durer plusieurs dizaines de minutes en fonction de votre configuration matérielle. Les mises à jour des dépendances sont bien plus rapides à installer par la suite.
 
 ## Configuration du plugin
 
@@ -34,7 +34,7 @@ Les autres paramétrages possibles sont :
 
 Les clés de sécurité sont à conserver précieusement. Si vous perdez ces clés, les périphériques inclus en mode sécurisé devront être réappairés. Les clés peuvent être spécifiées, si les champs sont vides ou invalides le plugin en générera et vous pourrez les visualiser par la suite.
 
->**INFORMATION**
+>**IMPORTANT**
 >
 >Si votre contrôleur a été utilisé avec le plugin Openzwave et que vous aviez inclus des modules en mode sécurisé, la clé S0 est : `0102030405060708090A0B0C0D0E0F10`.
 
@@ -46,7 +46,7 @@ Plusieurs cas de figures sont envisageables :
 
 - **Vous n'utilisez pas encore de broker MQTT** : Dans ce cas vous n'avez rien à faire. Les plugins **Z-Wave JS** et **MQTT Manager** vont échanger les informations et configurations nécessaires automatiquement *(un broker `Mosquitto` sera notamment installé localement sur la machine)*.
 
-- **Vous utilisez déjà le plugin Z-Wave JS** : Aucune intervention n'est nécessaire, le plugin Z-Wave JS va récupérer automatiquement les informations de connexion au broker MQTT.
+- **Vous utilisez déjà le plugin MQTT Manager** : Aucune intervention n'est nécessaire, le plugin Z-Wave JS va récupérer automatiquement les informations de connexion au broker MQTT.
 
 - **Vous utilisez déjà un broker MQTT via un autre plugin que MQTT Manager** : Dans cette situation, il faut sélectionner le mode **broker distant** et indiquer les informations de connexion *(adresse et authentification)* dans la configuration du plugin MQTT Manager.
 
@@ -56,11 +56,11 @@ Dans tous les cas, le démon du plugin MQTT Manager doit être démarré avant d
 
 ## Plugin OpenZwave
 
-Il est également important d'aborder le cas de la présence du plugin OpenZwave en parallèle du plugin Z-Wave JS, le temps de basculer de l'un à l'autre par exemple *(Voir paragraphe [**Migration depuis OpenZwave**](#migration-depuis-openzwave))*.
+Il est également important d'aborder le cas de la présence du plugin OpenZwave en parallèle du plugin Z-Wave JS, le temps de basculer de l'un à l'autre par exemple *(Voir paragraphe [**Migration depuis OpenZwave**](#Migration%20depuis%20OpenZwave))*.
 
 Tout d'abord, il faut savoir qu'il n'existe strictement aucun risque au fait d'utiliser les plugins Z-Wave JS et OpenZwave en parallèle. Même en cas de difficulté avec le plugin Z-Wave JS, il suffira de stopper son démon et de redémarrer celui du plugin OpenZwave pour retrouver un réseau Z-Wave exactement identique et fonctionnel.
 
-Il faut donc arrêter la gestion automatique puis stopper le démon du plugin OpenZwave pour être en mesure de démarrer le démon du plugin Z-Wave JS. A nouveau, dans le cas contraire, un message vous avertira, empêchant par la même le démarrage du démon Z-Wave JS.
+Il faut donc arrêter la gestion automatique puis stopper le démon du plugin OpenZwave pour être en mesure de démarrer le démon du plugin Z-Wave JS. A nouveau, dans le cas contraire, un message vous avertira, empêchant le démarrage du démon Z-Wave JS.
 
 >**IMPORTANT**
 >

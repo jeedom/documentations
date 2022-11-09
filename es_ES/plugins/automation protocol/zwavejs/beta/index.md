@@ -1,6 +1,6 @@
 # Complemento Z-Wave JS
 
-El complemento Z-wave JS permite **control total del protocolo de automatización del hogar Z-Wave en Jeedom** basado en el trabajo realizado alrededor de la muy famosa librería **Interfaz de usuario de Z-Wave JS**.
+El complemento Z-wave JS permite **control total del protocolo de automatización del hogar Z-Wave en Jeedom** a partir del trabajo realizado en torno a la famosísima biblioteca **Interfaz de usuario de Z-Wave JS**.
 
 El complemento Z-wave JS hace que las transmisiones sean más confiables y seguras al usar el **Protocolo MQTT**, ofreciendo, al mismo tiempo, posibilidades avanzadas de gestión de su red Z-Wave a los usuarios más expertos.
 
@@ -14,9 +14,9 @@ Después de instalar y activar el complemento, la instalación de dependencias d
 
 El resto de dependencias consiste en descargar, compilar y configurar la librería **Interfaz de usuario de Z-Wave JS**.
 
->**IMPORTANTE**
+>**INFORMACIÓN**
 >
->La primera instalación de dependencias que incluye una fase de compilación, es probable que dure varias decenas de minutos dependiendo de la configuración de su hardware. Las actualizaciones de dependencia serán mucho más rápidas de instalar más adelante.
+>La primera instalación de dependencias que incluye una fase de compilación, es probable que dure varias decenas de minutos dependiendo de la configuración de su hardware. Las actualizaciones de dependencia son mucho más rápidas de instalar después.
 
 ## Configuración del complemento
 
@@ -34,7 +34,7 @@ Otros ajustes posibles son :
 
 Las llaves de seguridad deben guardarse en un lugar seguro. Si pierde estas claves, los dispositivos incluidos en el modo seguro deberán emparejarse nuevamente. Las claves se pueden especificar, si los campos están vacíos o no son válidos, el complemento los generará y podrá verlos más tarde.
 
->**INFORMACIÓN**
+>**IMPORTANTE**
 >
 >Si su controlador se usó con el complemento Openzwave y había incluido módulos en modo seguro, la clave S0 es : `0102030405060708090A0B0C0D0E0F10`.
 
@@ -46,7 +46,7 @@ Varios escenarios son posibles :
 
 - **Todavía no está utilizando un corredor MQTT** : En este caso no tienes nada que hacer. Complementos **Z-Wave JS** y **Administrador de MQTT** intercambiará la información necesaria y las configuraciones automáticamente *(se instalará localmente un agente `Mosquitto` en la máquina)*.
 
-- **Ya está utilizando el complemento Z-Wave JS** : No es necesaria ninguna intervención, el complemento Z-Wave JS recuperará automáticamente la información de conexión al corredor MQTT.
+- **Ya está utilizando el complemento MQTT Manager** : No es necesaria ninguna intervención, el complemento Z-Wave JS recuperará automáticamente la información de conexión al corredor MQTT.
 
 - **Ya está utilizando un corredor MQTT a través de un complemento que no es MQTT Manager** : En esta situación, debe seleccionar el modo **corredor remoto** y proporcionar información de inicio de sesión *(dirección y autenticación)* en la configuración del complemento MQTT Manager.
 
@@ -56,7 +56,7 @@ En cualquier caso, el daemon del complemento MQTT Manager debe iniciarse antes d
 
 ## Abrir el complemento Zwave
 
-También es importante abordar el caso de la presencia del complemento OpenZwave en paralelo con el complemento Z-Wave JS, el momento de cambiar de uno a otro por ejemplo *(Ver párrafo [**Migración desde OpenZwave**](#migration-depuis-openzwave))*.
+También es importante abordar el caso de la presencia del complemento OpenZwave en paralelo con el complemento Z-Wave JS, el momento de cambiar de uno a otro por ejemplo *(Ver párrafo [**Migración desde OpenZwave**](#Migration%20depuis%20OpenZwave))*.
 
 En primer lugar, debe saber que no existe absolutamente ningún riesgo al usar los complementos Z-Wave JS y OpenZwave en paralelo. Incluso en caso de dificultad con el complemento Z-Wave JS, bastará con detener su daemon y reiniciar el del complemento OpenZwave para encontrar una red Z-Wave exactamente idéntica y funcional.
 

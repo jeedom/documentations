@@ -1,6 +1,6 @@
 # Z-Wave JS plugin
 
-The Z-wave JS plugin allows **full control of the Z-Wave home automation protocol in Jeedom** based on the work carried out around the very famous bookstore **Z-Wave JS UI**.
+The Z-wave JS plugin allows **full control of the Z-Wave home automation protocol in Jeedom** based on the work carried out around the very famous library **Z-Wave JS UI**.
 
 The Z-wave JS plugin makes transmissions more reliable and secure by using the **MQTT protocol**, offering, at the same time, advanced management possibilities of their Z-Wave network to the most expert users.
 
@@ -14,9 +14,9 @@ After installing and activating the plugin, the installation of dependencies sho
 
 The rest of the dependencies consist of downloading, compiling and configuring the library **Z-Wave JS UI**.
 
->**IMPORTANT**
+>**INFORMATION**
 >
->The first installation of dependencies including a compilation phase, it is likely to last several tens of minutes depending on your hardware configuration. Dependency updates will be much faster to install later.
+>The first installation of dependencies including a compilation phase, it is likely to last several tens of minutes depending on your hardware configuration. Dependency updates are much faster to install afterwards.
 
 ## Plugin Setup
 
@@ -34,7 +34,7 @@ Other possible settings are :
 
 Security keys must be kept in a safe place. If you lose these keys, devices included in secure mode will need to be paired again. The keys can be specified, if the fields are empty or invalid the plugin will generate them and you can view them later.
 
->**INFORMATION**
+>**IMPORTANT**
 >
 >If your controller was used with the Openzwave plugin and you had included modules in secure mode, the S0 key is : `0102030405060708090A0B0C0D0E0F10`.
 
@@ -46,7 +46,7 @@ Several scenarios are possible :
 
 - **You are not yet using an MQTT broker** : In this case you have nothing to do. Plug-ins **Z-Wave JS** and **MQTT Manager** will exchange the necessary information and configurations automatically *(a `Mosquitto` broker will be installed locally on the machine)*.
 
-- **You are already using the Z-Wave JS plugin** : No intervention is necessary, the Z-Wave JS plugin will automatically retrieve the connection information to the MQTT broker.
+- **You are already using the MQTT Manager plugin** : No intervention is necessary, the Z-Wave JS plugin will automatically retrieve the connection information to the MQTT broker.
 
 - **You are already using an MQTT broker via a plugin other than MQTT Manager** : In this situation, you must select the mode **remote broker** and provide login information *(address and authentication)* in the MQTT Manager plugin configuration.
 
@@ -56,7 +56,7 @@ In any case, the MQTT Manager plugin daemon must be started before you can move 
 
 ## Open Zwave Plugin
 
-It is also important to address the case of the presence of the OpenZwave plugin in parallel with the Z-Wave JS plugin, the time to switch from one to the other for example *(See paragraph [**Migration from OpenZwave**](#migration-depuis-openzwave))*.
+It is also important to address the case of the presence of the OpenZwave plugin in parallel with the Z-Wave JS plugin, the time to switch from one to the other for example *(See paragraph [**Migration from OpenZwave**](#Migration%20depuis%20OpenZwave))*.
 
 First of all, you should know that there is absolutely no risk in using the Z-Wave JS and OpenZwave plugins in parallel. Even in case of difficulty with the Z-Wave JS plugin, it will suffice to stop its daemon and restart that of the OpenZwave plugin to find an exactly identical and functional Z-Wave network.
 
