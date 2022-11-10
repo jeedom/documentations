@@ -1,0 +1,44 @@
+{
+    "id": "pjlink",
+    "name": "PJLink",
+    "description": {
+        "fr_FR": "Le plugin PJLink permet le contrôle des vidéoprojecteurs compatibles avec le protocole PJLink pour communiquer sur le réseau local.<br> La liste non-exhaustive des marques compatibles avec le protocole PJLink est : BenQ, Canon, Casio, Epson, Fujifilm, Hitachi, InFocus, Maxell, Mitsubishi, Nec, Panasconic, Ricoh, Sharp, Sky, Sony...<br> Consultez la documentation de votre matériel pour confirmer la compatibilité avec le protocole PJLink.",
+        "en_US": "The PJLink plugin allows the control of video projectors compatible with the PJLink protocol to communicate on the local network. <br> The non-exhaustive list of brands compatible with the PJLink protocol is: BenQ, Canon, Casio, Epson, Fujifilm, Hitachi, InFocus, Maxell, Mitsubishi, Nec, Panasconic, Ricoh, Sharp, Sky, Sony ... <br> Check your hardware documentation to confirm compatibility with the PJLink protocol",
+        "es_ES": "El complemento PJLink permite el control de proyectores de video compatibles con el protocolo PJLink para comunicarse en la red local. <br> La lista no exhaustiva de marcas compatibles con el protocolo PJLink es: BenQ, Canon, Casio, Epson, Fujifilm, Hitachi, InFocus, Maxell, Mitsubishi, Nec, Panasconic, Ricoh, Sharp, Sky, Sony ... <br> Consulte la documentación de su hardware para confirmar la compatibilidad con el protocolo PJLink",
+        "de_DE": "Das PJLink-Plugin ermöglicht die Steuerung von Videoprojektoren, die mit dem PJLink-Protokoll kompatibel sind, für die Kommunikation im lokalen Netzwerk. <br> Die nicht vollständige Liste der mit dem PJLink-Protokoll kompatiblen Marken lautet: BenQ, Canon, Casio, Epson, Fujifilm, Hitachi, InFocus, Maxell, Mitsubishi, Nec, Panasconic, Ricoh, Sharp, Sky, Sony ... <br> Überprüfen Sie Ihre Hardwaredokumentation, um die Kompatibilität mit dem PJLink-Protokoll zu bestätigen",
+        "pt_PT": "O plugin PJLink permite o controle de projetores de vídeo compatíveis com o protocolo PJLink para se comunicarem na rede local. <br> A lista não exaustiva de marcas compatíveis com o protocolo PJLink é: BenQ, Canon, Casio, Epson, Fujifilm, Hitachi, InFocus, Maxell, Mitsubishi, Nec, Panasconic, Ricoh, Sharp, Sky, Sony ... <br> Verifique a documentação do hardware para confirmar a compatibilidade com o protocolo PJLink",
+        "ru_RU": "Le plugin PJLink permet le contrôle des vidéoprojecteurs compatibles avec le protocole PJLink pour communiquer sur le réseau local.<br> La liste non-exhaustive des marques compatibles avec le protocole PJLink est : BenQ, Canon, Casio, Epson, Fujifilm, Hitachi, InFocus, Maxell, Mitsubishi, Nec, Panasconic, Ricoh, Sharp, Sky, Sony...<br> Consultez la documentation de votre matériel pour confirmer la compatibilité avec le protocole PJLink",
+        "id_ID": "Le plugin PJLink permet le contrôle des vidéoprojecteurs compatibles avec le protocole PJLink pour communiquer sur le réseau local.<br> La liste non-exhaustive des marques compatibles avec le protocole PJLink est : BenQ, Canon, Casio, Epson, Fujifilm, Hitachi, InFocus, Maxell, Mitsubishi, Nec, Panasconic, Ricoh, Sharp, Sky, Sony...<br> Consultez la documentation de votre matériel pour confirmer la compatibilité avec le protocole PJLink",
+        "it_IT": "Le plugin PJLink permet le contrôle des vidéoprojecteurs compatibles avec le protocole PJLink pour communiquer sur le réseau local.<br> La liste non-exhaustive des marques compatibles avec le protocole PJLink est : BenQ, Canon, Casio, Epson, Fujifilm, Hitachi, InFocus, Maxell, Mitsubishi, Nec, Panasconic, Ricoh, Sharp, Sky, Sony...<br> Consultez la documentation de votre matériel pour confirmer la compatibilité avec le protocole PJLink",
+        "ja_JP": "Le plugin PJLink permet le contrôle des vidéoprojecteurs compatibles avec le protocole PJLink pour communiquer sur le réseau local.<br> La liste non-exhaustive des marques compatibles avec le protocole PJLink est : BenQ, Canon, Casio, Epson, Fujifilm, Hitachi, InFocus, Maxell, Mitsubishi, Nec, Panasconic, Ricoh, Sharp, Sky, Sony...<br> Consultez la documentation de votre matériel pour confirmer la compatibilité avec le protocole PJLink",
+        "tr": "Le plugin PJLink permet le contrôle des vidéoprojecteurs compatibles avec le protocole PJLink pour communiquer sur le réseau local.<br> La liste non-exhaustive des marques compatibles avec le protocole PJLink est : BenQ, Canon, Casio, Epson, Fujifilm, Hitachi, InFocus, Maxell, Mitsubishi, Nec, Panasconic, Ricoh, Sharp, Sky, Sony...<br> Consultez la documentation de votre matériel pour confirmer la compatibilité avec le protocole PJLink"
+    },
+    "utilization": "Renseignez l'adresse ip et le mot de passe du vidéoprojecteur",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "3.3.39",
+    "category": "multimedia",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/pjlink\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/pjlink\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/pjlink\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/pjlink\/beta",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "atlas",
+        "rpi",
+        "docker",
+        "diy",
+        "v4"
+    ]
+}

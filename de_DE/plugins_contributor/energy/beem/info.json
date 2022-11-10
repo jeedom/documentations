@@ -5,7 +5,7 @@
       "fr_FR": "Plugin permettant de récupérer les informations sa Beembox de chez Beem energy",
       "en_US": "Plugin to retrieve information from Beem energy's Beembox."
   },
-  "utilization": "Après avoir entré l'email de connexion et le mot de passe dans la page de configuration, séléectionnez l'intervalle de rafraichissement des informations. Lancer une synchronisation depuis la page des équipements.",
+  "utilization": "Après avoir entré l'email de connexion et le mot de passe dans la page de configuration, séléectionnez l'intervalle de rafraîchissement des informations. Lancez une synchronisation depuis la page des équipements.",
   "licence": "AGPL",
   "author": "DomoFlo1",
   "require": "4.2",
