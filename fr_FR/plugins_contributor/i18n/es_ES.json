@@ -2,6 +2,8 @@
     "plugins_contributor\/automation protocol\/index.md": {
         "Modbus TCP Server": "Servidor Modbus TCP",
         "Plugin transformant votre Jeedom en seveur modbus TCP": "Complemento que transforma su Jeedom en un servidor modbus TCP",
+        "Modbus2MQTT": "Modbus2MQTT",
+        "Permet de lire et écrire sur des devices modbus TCP depuis et vers MQTT": "Permite leer y escribir en dispositivos modbus TCP desde y hacia MQTT",
         "Mochad - X10": "Mochad - X10",
         "Plugin pour gérer des équipements X10 via le démon Mochad et une interface informatique CM15": "Complemento para administrar dispositivos X10 a través del demonio Mochad y una interfaz de computadora CM15",
         "Plugin Jeedouino pour gérer une\/des carte(s) Arduino (via Ethernet ou USB ), les GPIO du R.PI, les cartes PiFace (piRack), les cartes RPI IO Plus 32e\/s, les MCP23017 (sur RPI) ou les ESP8266 \/ NodeMCU \/ Wemos": "Complemento Jeedouino para administrar tarjetas Arduino (a través de Ethernet o USB), GPI R.PI, tarjetas PiFace (piRack), tarjetas RPI IO Plus 32e \/ s, MCP23017 (en RPI) o ESP8266 \/ NodeMCU \/ Wemos",

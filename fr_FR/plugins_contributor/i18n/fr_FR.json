@@ -2,6 +2,8 @@
     "plugins_contributor\/automation protocol\/index.md": {
         "Modbus TCP Server": "Modbus TCP Server",
         "Plugin transformant votre Jeedom en seveur modbus TCP": "Plugin transformant votre Jeedom en seveur modbus TCP",
+        "Modbus2MQTT": "Modbus2MQTT",
+        "Permet de lire et écrire sur des devices modbus TCP depuis et vers MQTT": "Permet de lire et écrire sur des devices modbus TCP depuis et vers MQTT",
         "Mochad - X10": "Mochad - X10",
         "Plugin pour gérer des équipements X10 via le démon Mochad et une interface informatique CM15": "Plugin pour gérer des équipements X10 via le démon Mochad et une interface informatique CM15",
         "Jeedouino": "Jeedouino",

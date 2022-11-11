@@ -1,0 +1,34 @@
+{
+	"id": "modbus2mqtt",
+	"name": "Modbus2MQTT",
+	"description": {
+		"fr_FR": "Permet de lire et écrire sur des devices modbus TCP depuis et vers MQTT"
+	},
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.2",
+	"category": "automation protocol",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-modbus2mqtt",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
+}
