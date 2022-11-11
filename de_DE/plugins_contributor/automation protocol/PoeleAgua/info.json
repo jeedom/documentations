@@ -3,7 +3,7 @@
 	"name" : "Poele Agua IOT",
 	"description" : "Plugin PoeleAgua pour la gestion des poêle à bois et granulé utilisant la plateforme aqua iot ex: Jolly Mec",
 	"licence" : "AGPL",
-	"author" : "LEILLIATRE",
+	"author" : "LEFILLIATRE",
 	"require" : "3.2",
 	"category" : "automation protocol",
 	"hasDependency" : true,
