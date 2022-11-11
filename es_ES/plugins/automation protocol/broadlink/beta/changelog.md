@@ -1,5 +1,13 @@
 # Registro de cambios Broadlink
 
+>**IMPORTANTE**
+>
+>Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
+
+# 10/11/2022
+
+- Modernización de la interfaz
+
 # 30/09/2022
 
 - Se corrigió la instalación de dependencias en Jeedom v4.2
@@ -14,7 +22,7 @@
 
 # 23/11/2020
 
-- Gestión de las dependencias de determinadas instalaciones corruptas por parte de terceros de criptografía en python 3 (relanzar las dependencias si se enfrenta a un problema)
+- Gestión de las dependencias de ciertas instalaciones corrompidas por terceros de criptografía en python 3 *(reiniciar las dependencias si se enfrenta a un problema)*
 
 # 20/11/2020
 
@@ -24,9 +32,9 @@
 
 # 31/07/2020
 
-- Cambiar a python 3 (probablemente sea necesario reiniciar las dependencias)
-- Administración adicional de RM4 (lea el documento para la particularidad)
-- Se agregó aprendizaje avanzado de RF (con dos pasos, uno para variar las frecuencias y encontrarlo y otro para aprender)). Aumentará la compatibilidad de aprendizaje
+- Cambiar a Python 3 *(probablemente necesite reiniciar las dependencias)*
+- Gestión RM4 añadida *(leer la documentación para la particularidad)*
+- Se agregó aprendizaje avanzado de RF con dos etapas, una para variar frecuencias y encontrarlas y otra para aprender. Aumentará la compatibilidad de aprendizaje
 
 # 11/09/2019
 

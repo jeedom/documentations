@@ -1,5 +1,13 @@
 # Changelog Broadlink
 
+>**WICHTIG**
+>
+>Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
+
+# 11.10.2022
+
+- Schnittstellenmodernisierung
+
 # 30.09.2022
 
 - Die Installation von Abhängigkeiten auf Jeedom v4.2 wurde behoben
@@ -14,7 +22,7 @@
 
 # 23/11/2020
 
-- Verwaltung der Abhängigkeiten bestimmter beschädigter Installationen durch Drittanbieter von Kryptografie in Python 3 (Starten Sie die Abhängigkeiten neu, wenn Sie auf ein Problem stoßen)
+- Verwaltung der Abhängigkeiten bestimmter Installationen, die von Drittanbietern der Kryptografie in Python 3 beschädigt wurden *(Starten Sie die Abhängigkeiten neu, wenn Sie auf ein Problem stoßen)*
 
 # 20/11/2020
 
@@ -24,9 +32,9 @@
 
 # 31.07.2020
 
-- Wechseln zu Python 3 (wahrscheinlich müssen die Abhängigkeiten neu gestartet werden)
-- Verwaltung von RM4 hinzugefügt (lesen Sie das Dokument für die Besonderheit)
-- Erweitertes RF-Lernen hinzugefügt (mit zwei Schritten, einer zum Variieren und Finden der Frequenzen und einer zum Lernen). Dies erhöht die Lernkompatibilität
+- Wechseln Sie zu Python 3 *(Sie müssen wahrscheinlich die Abhängigkeiten neu starten)*
+- RM4-Verwaltung hinzugefügt *(Lesen Sie die Dokumentation für die Besonderheit)*
+- Erweitertes HF-Lernen mit zwei Stufen hinzugefügt, eine, um Frequenzen zu variieren und zu finden, und eine andere, um zu lernen. Dies erhöht die Lernkompatibilität
 
 # 09/11/2019
 
