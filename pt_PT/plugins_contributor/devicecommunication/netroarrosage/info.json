@@ -21,14 +21,7 @@
 	},
 	"language": [
 		"fr_FR",
-		"en_US",
-		"es_ES",
-		"de_DE",
-		"ru_RU",
-		"id_ID",
-		"it_IT",
-		"ja_JP",
-		"pt_PT"
+		"en_US"
 	],
 	"compatibility": [
 		"miniplus",
