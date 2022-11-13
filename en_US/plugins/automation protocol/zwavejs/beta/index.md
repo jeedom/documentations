@@ -86,15 +86,45 @@ Once all the modules on mains are initiated and therefore identified, it is impo
 
 ## Module configuration
 
+Unlike the Openzwave plugin, there is no dedicated section for configuring modules. Indeed the configuration of a module is made through the command class Configuration. This is therefore visible among the other class commands of the modules in the "values" tab".
+
 ### Noeud
+
+This button (present on the page of an equipment) allows you to see the information of the modules.
+
+- The summary tab : this one gives all the identification information of the module as well as the Status information
+- The action tab : it allows you to perform technical actions on a node (normally you should never have to touch its functions, the plugin manages this on its own. Each action is briefly described on the page itself
+- The statistics tab : as its name suggests, it allows you to see the communication statistics of the module.
+- The Tree tab : gathers all the previous information in the form of a technical json.
 
 ### Valeurs
 
+This button (present on the page of an equipment) allows you to obtain the list of all the zwave class commands managed by the module.
+
+Each Class command can be unfolded to see all the commands (useful or not) relating to this class command.
+
+You can here :
+
+- See values information
+- Changing the value of a stock
+- Change module settings
+- Automatically create an info command in Jeedom (if you need it or if it is missing from the Jeedom configuration)
+- Automatically create an action command in Jeedom (if you need it or if it is missing from the Jeedom configuration)
+- Configure a polling (to be used only in the case where the default behavior of the module does not allow to do otherwise, i.e. almost never.
+
+
 ### Groupe
 
-# Outils
+This button (present on the page of an equipment) allows you to manage the associations of the modules.
+
+- You can see the currently active associations
+- Delete them
+- Add more
+
 
 ## Inclusion
+
+For the moment S2 inclusions from the Jeedom plugin are not possible. This will come in a future update. No worries about that, the plugin engine is S2 compatible.
 
 ## Exclusion
 

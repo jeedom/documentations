@@ -86,15 +86,45 @@ Sobald alle Module am Netz initiiert und somit identifiziert wurden, ist es wich
 
 ## Modulkonfiguration
 
+Im Gegensatz zum Openzwave-Plugin gibt es keinen speziellen Abschnitt zum Konfigurieren von Modulen. Tatsächlich erfolgt die Konfiguration eines Moduls über die Befehlsklasse Configuration. Diese ist daher unter den anderen Klassenbefehlen der Module im Reiter „Werte“ sichtbar".
+
 ### Noeud
+
+Mit dieser Schaltfläche (auf der Seite eines Geräts vorhanden) können Sie die Informationen der Module anzeigen.
+
+- Die Registerkarte Zusammenfassung : Dieser gibt alle Identifikationsinformationen des Moduls sowie die Statusinformationen an
+- Die Registerkarte Aktion : Es ermöglicht Ihnen, technische Aktionen auf einem Knoten auszuführen (normalerweise sollten Sie seine Funktionen nie berühren müssen, das Plugin verwaltet dies selbst. Jede Aktion wird auf der Seite selbst kurz beschrieben
+- Die Statistik-Registerkarte : Wie der Name schon sagt, ermöglicht es Ihnen, die Kommunikationsstatistiken des Moduls anzuzeigen.
+- Die Registerkarte Baum : sammelt alle vorherigen Informationen in Form eines technischen json.
 
 ### Valeurs
 
+Mit dieser Schaltfläche (auf der Seite eines Geräts vorhanden) können Sie die Liste aller vom Modul verwalteten Befehle der zwave-Klasse abrufen.
+
+Jeder Klassenbefehl kann aufgeklappt werden, um alle Befehle (nützlich oder nicht) zu sehen, die sich auf diesen Klassenbefehl beziehen.
+
+Hier können Sie :
+
+- Siehe Werteinformationen
+- Wertänderung einer Aktie
+- Moduleinstellungen ändern
+- Erstellen Sie automatisch einen Info-Befehl in Jeedom (wenn Sie ihn brauchen oder wenn er in der Jeedom-Konfiguration fehlt))
+- Erstellen Sie automatisch einen Aktionsbefehl in Jeedom (wenn Sie ihn brauchen oder wenn er in der Jeedom-Konfiguration fehlt))
+- Konfigurieren Sie eine Abfrage (nur zu verwenden, wenn das Standardverhalten des Moduls nichts anderes zulässt, d. h. fast nie.
+
+
 ### Groupe
 
-# Outils
+Mit dieser Schaltfläche (auf der Seite eines Geräts vorhanden) können Sie die Zuordnungen der Module verwalten.
+
+- Sie können die derzeit aktiven Vereine sehen
+- Lösche sie
+- Fügen Sie mehr hinzu
+
 
 ## Inclusion
+
+Im Moment sind S2-Einbindungen aus dem Jeedom-Plugin nicht möglich. Dies wird in einem zukünftigen Update kommen. Keine Sorge, die Plugin-Engine ist S2-kompatibel.
 
 ## Exclusion
 

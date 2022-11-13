@@ -86,15 +86,45 @@ Uma vez que todos os módulos na rede são iniciados e, portanto, identificados,
 
 ## Configuração do módulo
 
+Ao contrário do plugin Openzwave, não há uma seção dedicada para configurar módulos. De fato a configuração de um módulo é feita através da classe de comando Configuração. Isso é, portanto, visível entre os outros comandos de classe dos módulos na guia "valores"".
+
 ### Noeud
+
+Este botão (presente na página de um equipamento) permite ver as informações dos módulos.
+
+- A guia de resumo : este fornece todas as informações de identificação do módulo, bem como as informações de status
+- A guia de ação : permite realizar acções técnicas num nó (normalmente nunca deverá ter de tocar nas suas funções, o plugin gere isto por si só. Cada ação é brevemente descrita na própria página
+- A aba de estatísticas : como o próprio nome sugere, permite ver as estatísticas de comunicação do módulo.
+- A guia Árvore : reúne todas as informações anteriores na forma de um json técnico.
 
 ### Valeurs
 
+Este botão (presente na página de um equipamento) permite obter a lista de todos os comandos da classe zwave gerenciados pelo módulo.
+
+Cada comando de classe pode ser desdobrado para ver todos os comandos (úteis ou não) relacionados a este comando de classe.
+
+Você pode aqui :
+
+- Consulte informações de valores
+- Alterando o valor de uma ação
+- Alterar as configurações do módulo
+- Crie automaticamente um comando info no Jeedom (se precisar dele ou se estiver faltando na configuração do Jeedom)
+- Crie automaticamente um comando de ação no Jeedom (se você precisar ou se estiver faltando na configuração do Jeedom)
+- Configure um polling (a ser usado apenas se o comportamento padrão do módulo não permitir que você faça o contrário, ou seja, quase nunca.
+
+
 ### Groupe
 
-# Outils
+Este botão (presente na página de um equipamento) permite gerenciar as associações dos módulos.
+
+- Você pode ver as associações atualmente ativas
+- Excluir eles
+- Adicione mais
+
 
 ## Inclusion
+
+No momento, as inclusões S2 do plug-in Jeedom não são possíveis. Isso virá em uma atualização futura. Não se preocupe com isso, o mecanismo de plug-in é compatível com S2.
 
 ## Exclusion
 

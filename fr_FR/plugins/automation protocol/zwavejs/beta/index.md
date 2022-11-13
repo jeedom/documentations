@@ -86,15 +86,45 @@ Une fois que tous les modules sur secteur sont initiés et donc identifiés, il 
 
 ## Configuration des modules
 
+Contrairement au plugin Openzwave, il n'y a pas de section dédié pour la configuration des modules. En effet la configuration d'un module est faite au travers la commande classe Configuration. Celle-ci est donc visible parmis les autres commandes classes du modules dans l'onglet "valeurs".
+
 ### Noeud
+
+Ce bouton (présent sur la page d'un équipement) permet de voir les informations du modules.
+
+- L'onglet résumé : celui-ci donne toutes les informations d'identification du module ainsi que les informations de Statut
+- L'onglet action : il permet d'éxécuter les actions techniques sur un noeud (normalement vous ne devriez jamais avoir à toucher ses fonctions, le plugin gère cela de lui même. Chaque action est décrite de manière succinte sur la page elle même
+- L'onglet statistiques : comme son nom l'indique, il permet de voir les statistiques de communication du module.
+- L'onglet Arbre : regroupe toutes les informations précédentes sous la forme d'un json technique.
 
 ### Valeurs
 
+Ce bouton (présent sur la page d'un équipement) permet d'obtenir la liste de toutes les commandes classes zwave gérées par le module.
+
+Chaque commande Classe peut être dépliée pour voir l'ensemble des commandes (utiles ou non) relatives à cette commande classe.
+
+Vous pouvez ici :
+
+- Voir les valeurs informations
+- Changer la valeur d'une action
+- Changer les paramètres du modules
+- Créer automatiquement une commande info dans Jeedom (si vous en avez besoin ou si celle-ci est manquante de la configuration Jeedom)
+- Créer automatiquement une commande action dans Jeedom (si vous en avez besoin ou si celle-ci est manquante de la configuration Jeedom)
+- Configurer un polling (à utiliser que dans le cas où le comportement par défaut du module ne permet pas de faire autrement, c'est à dire quasiment jamais.
+
+
 ### Groupe
 
-# Outils
+Ce bouton (présent sur la page d'un équipement) permet de gérer les associations du modules.
+
+- On peut voir les associations actuellement actives
+- Les supprimer
+- En ajouter
+
 
 ## Inclusion
+
+Pour le moment les inclusions S2 depuis le plugin Jeedom ne sont pas possibles. Cela viendra dans une prochaine mise à jour. Pas de soucis là dessus, le moteur du plugin est bien compatible S2.
 
 ## Exclusion
 
