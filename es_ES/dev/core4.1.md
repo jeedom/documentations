@@ -1,6 +1,6 @@
 ## Core v4.1 | Desarrolladores de complementos
 
-### Suppression
+### Obsolete
 
 - Las funciones `network-> getInterfaceIp (), network-> getInterfaceMac ()` y `network-> getInterfaces ()` han sido reemplazadas por `network-> getInterfacesInfo ()`.
 

@@ -1,6 +1,6 @@
 ## Core v4.1 | Plugin-Entwickler
 
-### Suppression
+### Obsolete
 
 - Die Funktionen `network-> getInterfaceIp (), network-> getInterfaceMac ()` und` network-> getInterfaces () `wurden durch` network-> getInterfacesInfo () `ersetzt.
 

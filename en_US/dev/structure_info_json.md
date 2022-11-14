@@ -12,21 +12,21 @@ Fields                   | Values                                               
 ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 ``id`` *                     | Unique identifier of the plugin on the Jeedom Market. Must start with a letter. Without accents.                             |
 ``name`` *                   | Plugin name.                                                                                                            |
-``description`` *            | Description of the plugin, as it will be displayed on the Jeedom Market Minimum 80 characters. (``<br/>`` for the new line.). Please note this is a table for the different languages of jeedom possible (look at the example of the template plugin)                                  |                                                                                     |
+``description`` *            | Description of the plugin, as it will appear on the Jeedom Market. Minimum 80 characters. (``<br/>`` for the new line.). Attention it is a table for the different languages of possible jeedom (look at the example of the template plugin)                                  |                                                                                     |
 ``utilization``                    | Additional information to the documentation on the use of the plugin.                                                    |
 ``licence`` *                | Type of license.                                                                                                          |
 ``author`` *                 | Name of the plugin author, as it will be displayed once the plugin is installed, in the plugin information.         |
-``require`` *                | Jeedom minimum version.                                                                                                |
+``require`` *                | Minimum required version of Jeedom (Core).                                                                                                |
 ``category`` *               | Ranking category of the plugin on the Jeedom Market. **It is essential to respect the nomenclature in the table below** |
-``display``                  | if the plugin uses a dedicated panel on the desktop, it is the name of the main file of this panel.                    |
-``mobile``                   | If the plugin uses a dedicated panel on the Jeedom webApp, this is the name of the main file for this panel.   |
+``display``                  | If the plugin uses a dedicated panel on the desktop,. This is the name of the main file for this panel.                    |
+``mobile``                   | If the plugin uses a dedicated panel on the Jeedom webApp. This is the name of the main file for this panel.   |
 ``changelog`` *              | Html link to Changelog.                                                                                              |
 ``documentation`` *          | Html link to plugin documentation.
 ``changelog_beta`` *              | Lien Html vers le Changelog Beta.|
 ``documentation_beta`` *          | Lien Html vers la documentation beta du plugin.
 ``link`` -> ``video``               | Html link to a video presentation.                                                                                 |
 ``link`` -> ``forum``               | Html link to the forum on the official subject of the plugin.                                                                  |
-``languages``                | List of languages available for the plugin: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP`` , ``ru_RU``, ``pt_PT``            |
+``languages``                | List of languages available for the plugin: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP``, ``pt_PT``            |
 ``compatibility``            | Plugin compatibility: miniplus, smart, docker, rpi, diy, mobileapp, v4.                                                   |
 ``hasDependency``            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
 ``hasOwnDeamon``             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
