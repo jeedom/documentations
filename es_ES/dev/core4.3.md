@@ -48,37 +48,37 @@ Si desarrolla en francés en el código fuente:
 
 **escritorio/php/miplugin.php** :
 
-```js
-<label class="col-sm-3 control-label">{{Equipo de mi pequeño complemento}}</label>
-```
+````html
+<label class="col-sm-3 control-label">"{{Equipements de mon petit plugin}}"</label>
+````
 
 **core/i18n/en_US.json** :
 
-```json
+````json
 {
-  "plugins\/myplugin\/desktop\/php\/myplugin.php": {
-      	"Equipo de mi pequeño complemento": "Mis pequeños equipos de complemento",
+  "plugins\/monplugin\/desktop\/php\/monplugin.php": {
+      	"Equipements de mon petit plugin": "My small plugin equipments",
   }
 }
-```
+````
 
 En inglés:
 
 **escritorio/php/miplugin.php** :
 
-```js
-<label class="col-sm-3 control-label">{{Mis pequeños equipos de complemento}}</label>
-```
+````html
+<label class="col-sm-3 control-label">"{{My small plugin equipments}}"</label>
+````
 
 **core/i18n/fr_FR.json** :
 
-```json
+````json
 {
-  "plugins\/myplugin\/desktop\/php\/myplugin.php": {
-      	"Mis pequeños equipos de complemento": "Equipo de mi pequeño complemento",
+  "plugins\/monplugin\/desktop\/php\/monplugin.php": {
+      	"My small plugin equipments": "Equipements de mon petit plugin",
   }
 }
-```
+````
 Sin el archivo i18n, el complemento se mostrará en inglés en un Core configurado en francés.
 
 > Atención, en un Core pre 4.3, la pantalla estará en inglés independientemente del idioma del Core.

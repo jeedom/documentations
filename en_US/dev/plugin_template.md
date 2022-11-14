@@ -632,7 +632,7 @@ public function toHtml($_version = 'dashboard') {
         $replace['#visibilityIcon#'] = "block";
         $replace['#visibilityImage#'] = "none";
     }
-    $l'opération à mener = template_replace($replace, getTemplate('core', $version, 'current', 'weather'));
+    $html = template_replace($replace, getTemplate('core', $version, 'current', 'weather'));
     cache::set('widgetHtml' . $_version . $this->getId(), $html, 0);
     return $html;
 }
@@ -646,7 +646,7 @@ To convert the requested version into dashboard or mobile (mview becomes mobile 
 $_version = jeedom::versionAlias($_version);
 ````
 
-Récupération d'un template de commande, here le template de commande : plugins/weather/core/template/\$\_version/forecast.l'opération à mener (\$\_version valant mobile ou dashboard)
+Récupération d'un template de commande, here le template de commande : plugins/weather/core/template/\$\_version/forecast.html (\$\_version valant mobile ou dashboard)
 
 ````php
 $forcast_template = getTemplate('core', $_version, 'forecast', 'weather');
@@ -687,7 +687,7 @@ Saving the widget in the cache: so that during the next request we provide it fa
 cache::set ('weatherWidget' . $_version . $this->getId(), $html, 0);
 ````
 
-Enfin envoi du l'opération à mener à Jeedom :
+Enfin envoi du html à Jeedom :
 
 ````php
 return $html;

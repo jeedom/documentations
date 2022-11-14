@@ -48,37 +48,37 @@ If you develop in French in the source code:
 
 **desktop/php/myplugin.php** :
 
-```js
-<label class="col-sm-3 control-label">{{Equipment of my little plugin}}</label>
-```
+````html
+<label class="col-sm-3 control-label">"{{Equipements de mon petit plugin}}"</label>
+````
 
 **core/i18n/en_US.json** :
 
-```json
+````json
 {
-  "plugins\/myplugin\/desktop\/php\/myplugin.php": {
-      	"Equipment of my little plugin": "My small plugin equipments",
+  "plugins\/monplugin\/desktop\/php\/monplugin.php": {
+      	"Equipements de mon petit plugin": "My small plugin equipments",
   }
 }
-```
+````
 
 In English:
 
 **desktop/php/myplugin.php** :
 
-```js
-<label class="col-sm-3 control-label">{{My small plugin equipments}}</label>
-```
+````html
+<label class="col-sm-3 control-label">"{{My small plugin equipments}}"</label>
+````
 
 **core/i18n/fr_FR.json** :
 
-```json
+````json
 {
-  "plugins\/myplugin\/desktop\/php\/myplugin.php": {
-      	"My small plugin equipments": "Equipment of my little plugin",
+  "plugins\/monplugin\/desktop\/php\/monplugin.php": {
+      	"My small plugin equipments": "Equipements de mon petit plugin",
   }
 }
-```
+````
 Without i18n file, the plugin will be displayed in English on a Core configured in French.
 
 > Attention, on a Core pre 4.3, the display will be in English regardless of the language of the Core.

@@ -48,37 +48,37 @@ Wenn Sie im Quellcode auf Französisch entwickeln:
 
 **desktop/php/meinplugin.php** :
 
-```js
-<label class="col-sm-3 control-label">{{Ausstattung meines kleinen Plugins}}</label>
-```
+````html
+<label class="col-sm-3 control-label">"{{Equipements de mon petit plugin}}"</label>
+````
 
 **core/i18n/en_US.json** :
 
-```json
+````json
 {
-  "plugins\/myplugin\/desktop\/php\/myplugin.php": {
-      	"Ausstattung meines kleinen Plugins": "Meine kleine Plugin-Ausstattung",
+  "plugins\/monplugin\/desktop\/php\/monplugin.php": {
+      	"Equipements de mon petit plugin": "My small plugin equipments",
   }
 }
-```
+````
 
 Auf Englisch:
 
 **desktop/php/meinplugin.php** :
 
-```js
-<label class="col-sm-3 control-label">{{Meine kleine Plugin-Ausstattung}}</label>
-```
+````html
+<label class="col-sm-3 control-label">"{{My small plugin equipments}}"</label>
+````
 
 **core/i18n/fr_FR.json** :
 
-```json
+````json
 {
-  "plugins\/myplugin\/desktop\/php\/myplugin.php": {
-      	"Meine kleine Plugin-Ausstattung": "Ausstattung meines kleinen Plugins",
+  "plugins\/monplugin\/desktop\/php\/monplugin.php": {
+      	"My small plugin equipments": "Equipements de mon petit plugin",
   }
 }
-```
+````
 Ohne i18n-Datei wird das Plugin auf einem auf Französisch konfigurierten Core in Englisch angezeigt.
 
 > Achtung, auf einem Core vor 4.3, wird die Anzeige unabhängig von der Sprache des Kerns auf Englisch sein.
