@@ -18,6 +18,7 @@
         "Plugin pour contrôler les équipements ZWave via une clé ZWave compatible openZwave": "Plugin to control ZWave equipment via an openWave compatible ZWave key",
         "v=d&p=home&search=&plugin=openenocean De nombreux modules seront rajoutés rapidement et en continue Nous vous conseillons de migrer avec precaution": "v=d&p=home&search=&plugin=openenocean Many modules will be added quickly and continuously We advise you to migrate with caution",
         "Permet de gérer le protocole MyHome Bus": "Allows you to manage the MyHome Bus protocol",
+        "Modbus Server": "ModbusServer",
         "Plugin Modbus": "Modbus plug-in",
         "Lora Payload": "Lora Payload",
         "Plugin permetant le traduire les Payloads Lora, uniquement destiné au projet de l'équipe Jeedom": "Plugin allowing the Lora Payloads to be translated, only intended for the Jeedom team project",
