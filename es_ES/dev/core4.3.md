@@ -40,6 +40,51 @@ En la misma lógica, las variables pasadas de php a js ahora están en el espaci
 
 ### Modificaciones opcionales
 
+#### Código fuente y traducciones
+
+Ahora es posible desarrollar un complemento con el código fuente en inglés.
+
+Si desarrolla en francés en el código fuente:
+
+**escritorio/php/miplugin.php** :
+
+```js
+<label class="col-sm-3 control-label">{{Equipo de mi pequeño complemento}}</label>
+```
+
+**core/i18n/en_US.json** :
+
+```json
+{
+  "plugins\/myplugin\/desktop\/php\/myplugin.php": {
+      	"Equipo de mi pequeño complemento": "Mis pequeños equipos de complemento",
+  }
+}
+```
+
+En inglés:
+
+**escritorio/php/miplugin.php** :
+
+```js
+<label class="col-sm-3 control-label">{{Mis pequeños equipos de complemento}}</label>
+```
+
+**core/i18n/fr_FR.json** :
+
+```json
+{
+  "plugins\/myplugin\/desktop\/php\/myplugin.php": {
+      	"Mis pequeños equipos de complemento": "Equipo de mi pequeño complemento",
+  }
+}
+```
+Sin el archivo i18n, el complemento se mostrará en inglés en un Core configurado en francés.
+
+> Atención, en un Core pre 4.3, la pantalla estará en inglés independientemente del idioma del Core.
+
+
+
 #### addCmdToTable()
 
 La función addCmdToTable() ya no es obligatoria. Si no está presente, se utilizará el del Núcleo. Solo necesita crear una tabla html `<table id="table_cmd" class="table table-bordered table-condensed"></table> `

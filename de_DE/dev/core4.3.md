@@ -40,6 +40,51 @@ In der gleichen Logik befinden sich die von PHP an js übergebenen Variablen jet
 
 ### Optionale Modifikationen
 
+#### Quellcode und Übersetzungen
+
+Es ist jetzt möglich, ein Plugin mit dem Quellcode in englischer Sprache zu entwickeln.
+
+Wenn Sie im Quellcode auf Französisch entwickeln:
+
+**desktop/php/meinplugin.php** :
+
+```js
+<label class="col-sm-3 control-label">{{Ausstattung meines kleinen Plugins}}</label>
+```
+
+**core/i18n/en_US.json** :
+
+```json
+{
+  "plugins\/myplugin\/desktop\/php\/myplugin.php": {
+      	"Ausstattung meines kleinen Plugins": "Meine kleine Plugin-Ausstattung",
+  }
+}
+```
+
+Auf Englisch:
+
+**desktop/php/meinplugin.php** :
+
+```js
+<label class="col-sm-3 control-label">{{Meine kleine Plugin-Ausstattung}}</label>
+```
+
+**core/i18n/fr_FR.json** :
+
+```json
+{
+  "plugins\/myplugin\/desktop\/php\/myplugin.php": {
+      	"Meine kleine Plugin-Ausstattung": "Ausstattung meines kleinen Plugins",
+  }
+}
+```
+Ohne i18n-Datei wird das Plugin auf einem auf Französisch konfigurierten Core in Englisch angezeigt.
+
+> Achtung, auf einem Core vor 4.3, wird die Anzeige unabhängig von der Sprache des Kerns auf Englisch sein.
+
+
+
 #### addCmdToTable()
 
 Die Funktion addCmdToTable() ist nicht mehr obligatorisch. Wenn es nicht vorhanden ist, wird das des Kerns verwendet. Sie müssen nur eine HTML-Tabelle erstellen `<table id="table_cmd" class="table table-bordered table-condensed"></table> `

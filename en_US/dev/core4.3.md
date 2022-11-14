@@ -40,6 +40,51 @@ In the same logic, the variables passed from php to js are now in namespace jeep
 
 ### Optional modifications
 
+#### Source code and translations
+
+It is now possible to develop a plugin with the source code in English.
+
+If you develop in French in the source code:
+
+**desktop/php/myplugin.php** :
+
+```js
+<label class="col-sm-3 control-label">{{Equipment of my little plugin}}</label>
+```
+
+**core/i18n/en_US.json** :
+
+```json
+{
+  "plugins\/myplugin\/desktop\/php\/myplugin.php": {
+      	"Equipment of my little plugin": "My small plugin equipments",
+  }
+}
+```
+
+In English:
+
+**desktop/php/myplugin.php** :
+
+```js
+<label class="col-sm-3 control-label">{{My small plugin equipments}}</label>
+```
+
+**core/i18n/fr_FR.json** :
+
+```json
+{
+  "plugins\/myplugin\/desktop\/php\/myplugin.php": {
+      	"My small plugin equipments": "Equipment of my little plugin",
+  }
+}
+```
+Without i18n file, the plugin will be displayed in English on a Core configured in French.
+
+> Attention, on a Core pre 4.3, the display will be in English regardless of the language of the Core.
+
+
+
 #### addCmdToTable()
 
 The addCmdToTable() function is no longer mandatory. If it is not present, that of the Core will be used. You just need to create an html table `<table id="table_cmd" class="table table-bordered table-condensed"></table> `
