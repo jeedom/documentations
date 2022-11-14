@@ -1,56 +1,93 @@
-# MQTT plugin
+# MQTT Manager plugin
 
 ## Description
 
-The plugin allows you to connect Jeedom to an existing MQTT brocker or to install one (in docker using the Docker plugin). This plugin can:
+The plug-in **MQTT Manager** allows you to connect Jeedom to an existing MQTT broker or to install one locally or under Docker using the plugin **Docker Management**.
 
-- serve as a base for another plugin for all that goes through MQTT
-- serve in "standalone" mode" : you can create commands (info / action) to send / receive messages on MQTT
-- be used to drive jeedom from another MQTT equipment (such as Nodered for example) : the plugin can control Jeedom commands as well as broadcast all Jeedom events on MQTT
+This plugin is able to combine several features :
 
-## Installation
+- Serve as a base for other plugins for everything related to MQTT.
 
-There are 2 installation modes:
+- Serve in "standalone" mode by creating action/info commands for sending/receiving messages on MQTT.
 
-- local mode : Jeedom will install Mosquitto using the docker plugin (in a container therefore), it takes care of the configuration (in particular the authentication). Please note the installation can take several tens of minutes
-- remote mode : you just have to indicate to Jeedom the address of the MQTT brocker (ex : mqtt://192.168.1.10:1883)
+- Control Jeedom from another MQTT equipment *(Nodered for example)*. The plugin can both drive commands and retransmit all Jeedom events on MQTT.
 
-You can specify users / password for connection:
+# Configuration
 
-- in local mode you can put a username:password per line, each identifier pair will have valid access to the brocker. By default if there is no identifier jeedom automatically adds an identifier
-- in standalone mode, just put on the first line the username / password pair for jeedom, separated by : (ex if the username is `jeedom` and the password` mqtt` you have to put `jeedom:mqtt``)
+After installing and activating the plugin, the installation of dependencies should start unless automatic management has been disabled beforehand. In this case, you will have to click on the button **Revive** to initiate this installation phase.
 
->**IMPORTANT**
->
->In local mode it is not possible not to have authentication
+## Plugin Setup
 
-- "Jeedom root topic" : root topic to send an order to Jeedom or to which it sends events
-- "Transmit all order events" : indicates whether Jeedom should send all the command events on the MQTT bus
+To start the configuration of the plugin, it is necessary to select the mode of connection to the broker among the 3 possible choices :
 
-## Equipement
+- **Local broker** : The Mosquitto broker is installed directly on the machine that hosts Jeedom *(default mode)*.
 
-It is possible to create MQTT equipment directly from the plugin, be careful in this case no automation or template planned you have to do everything by hand.
+- **Docker local broker** : The Mosquitto broker is automatically installed and configured in a Docker container using the official plugin **Docker Management**.
 
-It is necessary to indicate the root topic (ex `test`) for the equipment then in the commands it is enough to:
+  >**INFORMATION**
+  >
+  >In this mode, the installation can take several minutes.
 
-- info type commands : to indicate the complete topic, ex if you put `toto/1`, all the messages on the topic `test/toto/1` will be automatically written on the command in question. The system is able to manage json type fields in this case you have to put `toto/1#key1` or `toto/1#key1::key2` to go down one level. Attention it is absolutely necessary that the arrival is a value, example if you have `{"k1":"v1","k2":{"k2.2":"v2.2"},"k3":["v3.1"]}`, you can put `toto/1#k1` or `toto/1#k2:k2.2` or `toto/1#k3:0``. Mais ``toto/1#k2` is not possible.
-- action type commands : to indicate the topic and the message, ex if you put `foo / 2` with as message` plop` each click on the command will send the message `plop` on the topic` test / foo / 2`
+- **Remote broker** : In the case of the use of an already existing broker, it is enough to fill in its address *(example : ``mqtt://192.168.1.10:1883`)*.
 
->**NOTE**
->
->In action type commands you can use the ` tag#slider#`, `#color#`, `#message#` or `#select#` which will be automatically replaced according to the type of the command by their value during the execution of the command
+- **Authentication**: You can specify users / password for connection :
 
-## Using Jeedom through MQTT
+  - in local mode you can enter a `username:password` per line, each pair of identifiers will have valid access to the broker. If there is no identifier, Jeedom creates one automatically.
 
-It is possible to drive Jeedom through MQTT, here are the topics (the examples assume that the root topic is equal to `jeedom`, so you have to adapt if you have changed it):
+  - in standalone mode it is enough to put on the first line the couple ` identifier:password` for Jeedom (example : if the username is `jeedom` and the password `mqtt`, you must fill in `jeedom:mqtt``).
 
-- `jeedom / cmd / set /#cmd_id#`` : allows to execute the command `#cmd_id#`, you can pass the parameters in the message as json fields depending on the subtype of the command, for example:
+  >**IMPORTANT**
+  >
+  >Authentication is mandatory in local mode.
 
-  - defect : no parameters
-  - cursor : `{slider : 50} `
-  - message : `{title : "hello "message : "Hi, how are you ?" }``
-  - color : `{color : "#96c927 "}`
-  - listing : `{select : 1} `
-  - info type command : you can either pass the value directly or in json do `{value : "cuckoo ", datetime : "2021-12-12 10:30:00 "}`, `datetime` is optional
-- `jeedom / cmd / get /#cmd_id#`` : request the value of the command `#cmd_id#`to jeedom, this will return` jeedom / cmd / value /#cmd_id#`with the command value in message
-- `jeedom / cmd / event /#cmd_id#`` : event on the command#cmd_id#`with a json message containing different information including the value of the command
+- **Jeedom root topic** : Root topic to send a command to Jeedom or on which it sends the events.
+
+- **Transmit all events** : Check the box to send all Jeedom command events on MQTT.
+
+- **Post template** : Formatting the publication of Jeedom events * (possible tags : ``#value#`, `#humanName#`, `#unit#`, `#name#`, `#type#`, `#subtype#``)*.
+
+- **Subscriber plugins** : List of plugins subscribed to the MQTT Manager plugin in the form `plugin(topic)`.
+
+## Equipment configuration
+
+It is possible to create MQTT equipment directly in the plugin.
+
+You must indicate the root topic of the equipment *(`test` for example)*, then according to the type of commands :
+
+- **Info commands** : just indicate the full topic.
+  >For example, if you put `toto/1`, all the messages on the topic `test/toto/1` will be automatically written on the command in question. The system is able to manage json type fields, in this case you have to put `toto/1#key1` or `toto/1#key1::key2` to go down one level.
+
+  >**IMPORTANT**
+  >
+  >It is absolutely necessary that the arrival corresponds to a value. If you have `{"k1":"v1","k2":{"k2.2":"v2.2"},"k3":["v3.1"]}`, you can put `toto/1#k1` or `toto/1#k2:k2.2` or `toto/1#k3:0`` mais ``toto/1#k2` is not possible.
+
+- **Action commands** : just indicate the topic and the message.
+  >For example, if you put `toto/2` with the message `plop`, each click on the command will send the message `plop` to the topic `test/toto/2`.
+
+  >**INFORMATION**
+  >
+  >In action type commands you can use the tags `#slider#`, `#color#`, `#message#` or `#select#` which will be automatically replaced by their value when executing the * command (depending on its subtype). On the other hand, if the message is of the `json` type, you must add the `json` prefix to it::``.
+
+# Jeedom via MQTT
+
+It is possible to pilot Jeedom through MQTT. Here are the different possible topics assuming that the root topic is `jeedom` *(to adapt if you have modified the default configuration)* :
+
+- `jeedom / cmd / set /#cmd_id#`` : allows you to execute the command with the id `#cmd_id#`. You can pass the parameters in the message as `json` fields depending on the subtype of the command, for example:
+  - **defect** : no parameters.
+  - **cursor** : `{slider : 50}`.
+  - **message** : `{title : "hello "message : "Hi, how are you ?"}``.
+  - **color** : `{color : "#96c927"}``.
+  - **listing** : `{select : 1}`.
+  - **info commands** : you can directly send a value or also specify an update date *(facultatif)* `{value : "cuckoo ", datetime : "2021-12-12 10:30:00" }`.
+
+- `jeedom / cmd / get /#cmd_id#`` : request value of command with id `#cmd_id#`. Jeedom will return `jeedom/cmd/value/#cmd_id#`with the command value in message.
+
+- `jeedom / cmd / event /#cmd_id#`` : event on command with id `#cmd_id#` with a `json` message containing different information including the value of the command.
+
+# Uninstalling the Mosquitto broker
+
+2 possible options to uninstall the Mosquitto broker present locally on the machine :
+
+- **Broker under Docker** : First, use the command **To delete** `mqtt2_mosquitto` equipment from the plugin **Docker Management** *(Plugins > Programming > Docker Management)*. You can then delete this entire equipment.
+
+- **Local broker** : You must then use the red button **Uninstall Mosquitto** from the general configuration page of the plugin.

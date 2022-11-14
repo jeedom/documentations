@@ -1,56 +1,93 @@
-# MQTT-Plugin
+# MQTT-Manager-Plugin
 
 ## Description
 
-Das Plugin ermöglicht es Ihnen, Jeedom mit einem bestehenden MQTT-Brocker zu verbinden oder einen zu installieren (in Docker mit dem Docker-Plugin). Dieses Plugin kann:
+Das Plugin **MQTT-Manager** ermöglicht es Ihnen, Jeedom mit einem bestehenden MQTT-Broker zu verbinden oder einen lokal oder unter Docker mithilfe des Plugins zu installieren **Docker-Verwaltung**.
 
-- dienen als Basis für ein weiteres Plugin für alles, was über MQTT läuft
-- im "Standalone"-Modus servieren" : Sie können Befehle (Info / Aktion) erstellen, um Nachrichten auf MQTT zu senden / zu empfangen
-- verwendet werden, um Jeedom von einer anderen MQTT-Ausrüstung (wie zum Beispiel Nodered) zu steuern) : das Plugin kann Jeedom-Befehle steuern sowie alle Jeedom-Ereignisse auf MQTT übertragen
+Dieses Plugin ist in der Lage, mehrere Funktionen zu kombinieren :
 
-## Installation
+- Als Basis für andere Plugins für alles rund um MQTT dienen.
 
-Es gibt 2 Installationsmodi:
+- Dienen Sie im "eigenständigen" Modus, indem Sie Aktions-/Infobefehle zum Senden/Empfangen von Nachrichten auf MQTT erstellen.
 
-- Lokalbetrieb : Jeedom installiert Mosquitto über das Docker-Plugin (also in einem Container), es kümmert sich um die Konfiguration (insbesondere die Authentifizierung)). Bitte beachten Sie, dass die Installation mehrere zehn Minuten dauern kann
-- Remote-Modus : Sie müssen Jeedom nur die Adresse des MQTT-Brokers mitteilen (z : mqtt://192.168.1.10:1883)
+- Steuern Sie Jeedom von einem anderen MQTT-Gerät aus *(Geknotet zum Beispiel)*. Das Plugin kann sowohl Befehle steuern als auch alle Jeedom-Ereignisse auf MQTT erneut übertragen.
 
-Sie können Benutzer / Passwort für die Verbindung angeben:
+# Configuration
 
-- Im lokalen Modus können Sie einen Benutzernamen eingeben:Passwort pro Zeile, jedes Identifikator-Paar hat gültigen Zugriff auf den Brocker. Wenn keine Kennung vorhanden ist, fügt jeedom standardmäßig automatisch eine Kennung hinzu
-- Im Standalone-Modus geben Sie einfach in die erste Zeile das Benutzername / Passwort-Paar für jeedom ein, getrennt durch : (zB wenn der Benutzername `jeedom` und das Passwort` mqtt` ist, müssen Sie `jeedom . eingeben:mqtt``)
+Nach der Installation und Aktivierung des Plugins sollte die Installation von Abhängigkeiten beginnen, es sei denn, die automatische Verwaltung wurde zuvor deaktiviert. In diesem Fall müssen Sie auf die Schaltfläche klicken **Beleben** um diese Installationsphase einzuleiten.
 
->**WICHTIG**
->
->Im lokalen Modus ist es nicht möglich, keine Authentifizierung zu haben
+## Plugin-Setup
 
-- "Jeedom-Wurzelthema" : Root-Thema, um eine Bestellung an Jeedom zu senden oder an das es Ereignisse sendet
-- "Alle Auftragsereignisse übertragen" : gibt an, ob Jeedom alle Befehlsereignisse auf dem MQTT-Bus senden soll
+Um die Konfiguration des Plugins zu starten, muss der Verbindungsmodus zum Broker unter den 3 möglichen Optionen ausgewählt werden :
 
-## Equipement
+- **Lokaler Makler** : Der Mosquitto-Broker wird direkt auf dem Rechner installiert, der Jeedom hostet *(Standardmodus)*.
 
-Es ist möglich, MQTT-Equipment direkt aus dem Plugin zu erstellen, seien Sie vorsichtig, in diesem Fall ist keine Automatisierung oder Vorlage geplant, Sie müssen alles von Hand machen.
+- **Lokaler Docker-Broker** : Der Mosquitto-Broker wird mithilfe des offiziellen Plugins automatisch in einem Docker-Container installiert und konfiguriert **Docker-Verwaltung**.
 
-Es ist notwendig, das Stammthema (z. B. `Test`) für die Ausrüstung anzugeben, dann reicht es in den Befehlen aus, um:
+  >**INFORMATION**
+  >
+  >In diesem Modus kann die Installation mehrere Minuten dauern.
 
-- Befehle vom Typ Info : um das vollständige Thema anzuzeigen, z. B. wenn Sie `toto/1` eingeben, werden alle Nachrichten zum Thema `test/toto/1` automatisch auf den betreffenden Befehl geschrieben. Das System kann Felder vom Typ json verwalten, in diesem Fall müssen Sie `toto/1 eingeben#key1` oder `toto/1#key1::key2`, um eine Ebene nach unten zu gehen. Achtung es ist unbedingt erforderlich, dass die Ankunft ein Wert ist, zum Beispiel wenn Sie `{"k1":"v1","k2":{"k2.2":"v2.2"},"k3":["v3.1"]}`, können Sie `toto/1#k1` oder `toto/1#k2:k2.2` oder `toto/1#k3:0``. Mais ``toto/1#k2` ist nicht möglich.
-- Befehle vom Aktionstyp : um das Thema und die Nachricht anzuzeigen, zB wenn Sie `foo / 2` mit als Nachricht `plop` eingeben, wird jeder Klick auf den Befehl die Nachricht `plop` zum Thema senden` test / foo / 2`
+- **Remote-Broker** : Im Falle der Nutzung eines bereits bestehenden Brokers reicht es aus, dessen Adresse einzutragen *(Beispiel : ``mqtt://192.168.1.10:1883‘)*.
 
->**HINWEIS**
->
->In Aktionsbefehlen können Sie das `-Tag verwenden#slider#`, `#color#`, `#message#` oder `#select#`, die je nach Art des Befehls während der Ausführung des Befehls automatisch durch ihren Wert ersetzt werden
+- **Authentifizierung**: Sie können Benutzer / Passwort für die Verbindung angeben :
 
-## Jeedom über MQTT verwenden
+  - Im lokalen Modus können Sie einen `Benutzernamen eingeben:password' pro Zeile, jedes Paar von Identifikatoren hat gültigen Zugriff auf den Broker. Wenn es keine Kennung gibt, erstellt Jeedom automatisch eine.
 
-Es ist möglich, Jeedom über MQTT zu steuern, hier sind die Themen (die Beispiele gehen davon aus, dass das Stammthema gleich `jeedom` ist, also müssen Sie sich anpassen, wenn Sie es geändert haben):
+  - Im Standalone-Modus reicht es aus, in der ersten Zeile die Kennung des Paares ` anzugeben:Passwort` für Jeedom (Beispiel : Wenn der Benutzername „jeedom“ und das Passwort „mqtt“ lautet, müssen Sie „jeedom“ eingeben:mqtt``).
 
-- `jeedom / cmd / set /#cmd_id#`` : ermöglicht die Ausführung des Befehls `#cmd_id#`, können Sie die Parameter in der Nachricht als json-Felder übergeben, je nach Untertyp des Befehls, zum Beispiel:
+  >**WICHTIG**
+  >
+  >Im lokalen Modus ist die Authentifizierung obligatorisch.
 
-  - Defekt : keine Parameter
-  - Mauszeiger : `{Schieberegler : 50} `
-  - Botschaft : `{Titel : "Hallo "Nachricht : "Hallo, wie geht es dir ?" }``
-  - Farbe : `{Farbe : "#96c927 "}`
-  - Auflistung : `{wählen : 1} `
-  - Befehl vom Typ Info : Sie können den Wert entweder direkt übergeben oder in json `{value : "Kuckuck", Datum/Uhrzeit : "2021-12-12 10:30:00 "}`, `Datum/Uhrzeit` ist optional
-- `jeedom / cmd / get /#cmd_id#`` : den Wert des Befehls anfordern `#cmd_id#`zu jeedom, dies wird zurückkehren` jeedom / cmd / value /#cmd_id#`mit dem Befehlswert in der Nachricht
-- `jeedom / cmd / event /#cmd_id#`` : Ereignis auf Befehl#cmd_id#`mit einer json-Nachricht, die verschiedene Informationen enthält, einschließlich des Werts des Befehls
+- **Jeedom-Wurzelthema** : Stammthema, um einen Befehl an Jeedom zu senden oder auf dem es die Ereignisse sendet.
+
+- **Übertragen Sie alle Ereignisse** : Aktivieren Sie das Kontrollkästchen, um alle Jeedom-Befehlsereignisse auf MQTT zu senden.
+
+- **Beitragsvorlage** : Formatierung der Veröffentlichung von Jeedom-Events * (mögliche Tags : ``#value#`, `#humanName#`, `#unit#`, `#name#`, `#type#`, `#subtype#``)*.
+
+- **Abonnenten-Plugins** : Liste der Plug-ins, die das MQTT-Manager-Plug-in abonniert haben, in der Form „plugin(topic)“.
+
+## Gerätekonfiguration
+
+Es ist möglich, MQTT-Equipment direkt im Plugin zu erstellen.
+
+Sie müssen das Wurzelthema des Geräts angeben *(„Testen“ zum Beispiel)*, dann nach Art der Befehle :
+
+- **Info-Befehle** : Geben Sie einfach das vollständige Thema an.
+  >Wenn Sie beispielsweise „toto/1“ eingeben, werden alle Nachrichten zum Thema „test/toto/1“ automatisch auf den betreffenden Befehl geschrieben. Das System kann Felder vom Typ json verwalten, in diesem Fall müssen Sie `toto/1 eingeben#key1` oder `toto/1#key1::key2`, um eine Ebene nach unten zu gehen.
+
+  >**WICHTIG**
+  >
+  >Es ist zwingend erforderlich, dass die Ankunft einem Wert entspricht. Wenn Sie `{"k1":"v1","k2":{"k2.2":"v2.2"},"k3":["v3.1"]}`, können Sie `toto/1#k1` oder `toto/1#k2:k2.2` oder `toto/1#k3:0`` mais ``toto/1#k2` ist nicht möglich.
+
+- **Aktionsbefehle** : Geben Sie einfach das Thema und die Nachricht an.
+  >Wenn Sie beispielsweise „toto/2“ mit der Nachricht „plop“ eingeben, wird bei jedem Klick auf den Befehl die Nachricht „plop“ an das Thema „test/toto/2“ gesendet.
+
+  >**INFORMATION**
+  >
+  >In Befehlen vom Aktionstyp können Sie die Tags ` verwenden#slider#`, `#color#`, `#message#` oder `#select#`, die beim Ausführen des *-Befehls automatisch durch ihren Wert ersetzt werden (abhängig von ihrem Untertyp). Wenn die Nachricht andererseits vom Typ „json“ ist, müssen Sie ihr das Präfix „json“ hinzufügen::``.
+
+# Jeedom über MQTT
+
+Es ist möglich, Jeedom über MQTT zu steuern. Hier sind die verschiedenen möglichen Themen unter der Annahme, dass das Hauptthema „jeedom“ ist *(anzupassen, wenn Sie die Standardkonfiguration geändert haben)* :
+
+- `jeedom / cmd / set /#cmd_id#`` : ermöglicht es Ihnen, den Befehl mit der ID ` auszuführen#cmd_id#`. Sie können die Parameter in der Nachricht beispielsweise je nach Untertyp des Befehls als `json`-Felder übergeben:
+  - **Defekt** : keine Parameter.
+  - **Mauszeiger** : `{Schieberegler : 50}`.
+  - **Botschaft** : `{Titel : "Hallo "Nachricht : "Hallo, wie geht es dir ?"}``.
+  - **Farbe** : `{Farbe : "#96c927"}``.
+  - **Auflistung** : `{wählen : 1}`.
+  - **Info-Befehle** : Sie können direkt einen Wert senden oder auch ein Aktualisierungsdatum angeben *(facultatif)* `{Wert : "Kuckuck", Datum/Uhrzeit : "2021-12-12 10:30:00" }`.
+
+- `jeedom / cmd / get /#cmd_id#`` : Fordern Sie den Wert des Befehls mit der ID ` an#cmd_id#`. Jeedom gibt `jeedom/cmd/value/ zurück#cmd_id#`mit dem Befehlswert in der Nachricht.
+
+- `jeedom / cmd / event /#cmd_id#`` : Ereignis auf Befehl mit der ID `#cmd_id#` mit einer `json`-Nachricht, die verschiedene Informationen enthält, einschließlich des Werts des Befehls.
+
+# Deinstallieren des Mosquitto-Brokers
+
+2 mögliche Optionen zum Deinstallieren des Mosquitto-Brokers, der lokal auf dem Computer vorhanden ist :
+
+- **Broker unter Docker** : Verwenden Sie zuerst den Befehl **Löschen** `mqtt2_mosquitto` Ausrüstung aus dem Plugin **Docker-Verwaltung** *(Plugins > Programmierung > Docker-Verwaltung)*. Anschließend können Sie diese gesamte Ausstattung löschen.
+
+- **Lokaler Makler** : Sie müssen dann die rote Taste verwenden **Moskito deinstallieren** von der allgemeinen Konfigurationsseite des Plugins.
