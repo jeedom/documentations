@@ -86,49 +86,59 @@ Une fois que tous les modules sur secteur sont initiés et donc identifiés, il 
 
 ## Configuration des modules
 
-Contrairement au plugin Openzwave, il n'y a pas de section dédié pour la configuration des modules. En effet la configuration d'un module est faite au travers la commande classe Configuration. Celle-ci est donc visible parmis les autres commandes classes du modules dans l'onglet "valeurs".
+Contrairement au plugin Openzwave, il n'y a pas de section dédiée à la configuration des modules. En effet la configuration d'un module est faite au travers de la commande classe Configuration. Celle-ci est donc visible parmis les autres commandes classes du module dans **Valeurs**.
 
-### Noeud
+### Nœud
 
-Ce bouton (présent sur la page d'un équipement) permet de voir les informations du modules.
+Ce bouton présent sur la page d'un équipement permet de visualiser les informations du module à travers plusieurs onglets :
 
-- L'onglet résumé : celui-ci donne toutes les informations d'identification du module ainsi que les informations de Statut
-- L'onglet action : il permet d'éxécuter les actions techniques sur un noeud (normalement vous ne devriez jamais avoir à toucher ses fonctions, le plugin gère cela de lui même. Chaque action est décrite de manière succinte sur la page elle même
-- L'onglet statistiques : comme son nom l'indique, il permet de voir les statistiques de communication du module.
-- L'onglet Arbre : regroupe toutes les informations précédentes sous la forme d'un json technique.
+- **Résumé** : Affiche toutes les informations d'identification du module ainsi que les informations de statut.
+
+- **Actions** : Permet d'exécuter des actions techniques sur un nœud. Chaque action y est décrite de manière succinte.
+	>**INFORMATION**
+	>
+	>Vous ne devriez normalement jamais avoir à toucher ces fonctions, le plugin gèrant cela de lui-même.
+
+- **Statistiques** : comme son nom l'indique, il permet de voir les statistiques de communication du module.
+
+- **Arbre** : regroupe toutes les informations précédentes sous la forme d'un json technique.
 
 ### Valeurs
 
-Ce bouton (présent sur la page d'un équipement) permet d'obtenir la liste de toutes les commandes classes zwave gérées par le module.
+Ce bouton présent sur la page d'un équipement permet d'obtenir la liste de toutes les commandes classes Z-Wave gérées par le module.
 
-Chaque commande Classe peut être dépliée pour voir l'ensemble des commandes (utiles ou non) relatives à cette commande classe.
+Chacune peut être dépliée en cliquant dessus pour voir l'ensemble des commandes *(utiles ou non)* relatives à cette commande classe.
 
-Vous pouvez ici :
+De nombreuses possibilités sont offfertes par cette fenêtre :
 
-- Voir les valeurs informations
-- Changer la valeur d'une action
-- Changer les paramètres du modules
-- Créer automatiquement une commande info dans Jeedom (si vous en avez besoin ou si celle-ci est manquante de la configuration Jeedom)
-- Créer automatiquement une commande action dans Jeedom (si vous en avez besoin ou si celle-ci est manquante de la configuration Jeedom)
-- Configurer un polling (à utiliser que dans le cas où le comportement par défaut du module ne permet pas de faire autrement, c'est à dire quasiment jamais.
-
+- Visualiser les valeurs des informations,
+- Changer la valeur d'une action,
+- Changer les paramètres du module,
+- Créer automatiquement une commande info dans Jeedom *(si vous en avez besoin ou si celle-ci est manquante de la configuration Jeedom)*,
+- Créer automatiquement une commande action dans Jeedom *(si vous en avez besoin ou si celle-ci est manquante de la configuration Jeedom)*,
+- Configurer un polling *(communication forcée)*. A n'utiliser que dans le cas où le comportement par défaut du module ne permet pas de faire autrement, c'est à dire quasiment jamais.
 
 ### Groupe
 
-Ce bouton (présent sur la page d'un équipement) permet de gérer les associations du modules.
+Ce bouton présent sur la page d'un équipement permet de gérer les associations du module et permet de :
 
-- On peut voir les associations actuellement actives
-- Les supprimer
-- En ajouter
+- Voir les associations actuellement actives,
+- Les supprimer,
+- En ajouter.
 
+## Inclusions/Exclusions
 
-## Inclusion
+Le bouton **Inclusions** présent sur la page regroupant tous les équipements Z-Wave JS permet de basculer le contrôleur en mode **Inclusion** *(défaut, S0, S2)* ou en mode **Exclusion**.
 
-Pour le moment les inclusions S2 depuis le plugin Jeedom ne sont pas possibles. Cela viendra dans une prochaine mise à jour. Pas de soucis là dessus, le moteur du plugin est bien compatible S2.
-
-## Exclusion
+>**INFORMATION**
+>
+>Pour le moment les inclusions S2 ne sont pas possibles directement depuis le plugin. Cette fonctionnalité sera implémentée dans une prochaine mise à jour, le moteur du plugin étant déjà bien compatible S2.
 
 ## Synchroniser
+
+Rappelons-le, en Z-Wave, tous les modules qui composent le réseau sont directement associés au contrôleur. Certains contrôleurs avec pile *(comme le Aeon-labs Z-Stick GEN5)* permettent même d'inclure des modules sans être branchés sur une box.
+
+Le bouton **Synchroniser** va alors permettre de créer automatiquement dans Jeedom les équipements recensés par le contrôleur. Dans la même idée, les équipements correspondants à des périphériques exclus du contrôleur seront automatiquement supprimés si l’option **Supprimer automatiquement les périphériques exclus** est activée dans la configuration générale du plugin.
 
 ## Réseau Z-Wave
 

@@ -86,49 +86,59 @@ Sobald alle Module am Netz initiiert und somit identifiziert wurden, ist es wich
 
 ## Modulkonfiguration
 
-Im Gegensatz zum Openzwave-Plugin gibt es keinen speziellen Abschnitt zum Konfigurieren von Modulen. Tatsächlich erfolgt die Konfiguration eines Moduls über die Befehlsklasse Configuration. Diese ist daher unter den anderen Klassenbefehlen der Module im Reiter „Werte“ sichtbar".
+Im Gegensatz zum Openzwave-Plugin gibt es keinen speziellen Abschnitt zum Konfigurieren von Modulen. Tatsächlich erfolgt die Konfiguration eines Moduls über die Befehlsklasse Configuration. Dies ist daher unter den anderen Klassenbefehlen des Moduls in sichtbar **Werte**.
 
-### Noeud
+### Knoten
 
-Mit dieser Schaltfläche (auf der Seite eines Geräts vorhanden) können Sie die Informationen der Module anzeigen.
+Mit dieser Schaltfläche auf der Seite eines Geräts können Sie die Informationen des Moduls über mehrere Registerkarten anzeigen :
 
-- Die Registerkarte Zusammenfassung : Dieser gibt alle Identifikationsinformationen des Moduls sowie die Statusinformationen an
-- Die Registerkarte Aktion : Es ermöglicht Ihnen, technische Aktionen auf einem Knoten auszuführen (normalerweise sollten Sie seine Funktionen nie berühren müssen, das Plugin verwaltet dies selbst. Jede Aktion wird auf der Seite selbst kurz beschrieben
-- Die Statistik-Registerkarte : Wie der Name schon sagt, ermöglicht es Ihnen, die Kommunikationsstatistiken des Moduls anzuzeigen.
-- Die Registerkarte Baum : sammelt alle vorherigen Informationen in Form eines technischen json.
+- **Zusammenfassung** : Zeigt alle Modulidentifikationsinformationen sowie Statusinformationen an.
+
+- **Anteile** : Ermöglicht das Ausführen technischer Aktionen auf einem Knoten. Jede Aktion wird kurz beschrieben.
+	>**INFORMATION**
+	>
+	>Normalerweise sollten Sie diese Funktionen nie berühren müssen, das Plugin erledigt dies selbst.
+
+- **Statistiken** : Wie der Name schon sagt, ermöglicht es Ihnen, die Kommunikationsstatistiken des Moduls anzuzeigen.
+
+- **Baum** : sammelt alle vorherigen Informationen in Form eines technischen json.
 
 ### Valeurs
 
-Mit dieser Schaltfläche (auf der Seite eines Geräts vorhanden) können Sie die Liste aller vom Modul verwalteten Befehle der zwave-Klasse abrufen.
+Mit dieser Schaltfläche auf der Geräteseite können Sie die Liste aller Befehle der Z-Wave-Klasse abrufen, die vom Modul verwaltet werden.
 
-Jeder Klassenbefehl kann aufgeklappt werden, um alle Befehle (nützlich oder nicht) zu sehen, die sich auf diesen Klassenbefehl beziehen.
+Jedes kann durch Klicken aufgeklappt werden, um alle Steuerelemente anzuzeigen *(nützlich oder nicht)* bezogen auf diesen Klassenbefehl.
 
-Hier können Sie :
+Dieses Fenster bietet viele Möglichkeiten :
 
-- Siehe Werteinformationen
-- Wertänderung einer Aktie
-- Moduleinstellungen ändern
-- Erstellen Sie automatisch einen Info-Befehl in Jeedom (wenn Sie ihn brauchen oder wenn er in der Jeedom-Konfiguration fehlt))
-- Erstellen Sie automatisch einen Aktionsbefehl in Jeedom (wenn Sie ihn brauchen oder wenn er in der Jeedom-Konfiguration fehlt))
-- Konfigurieren Sie eine Abfrage (nur zu verwenden, wenn das Standardverhalten des Moduls nichts anderes zulässt, d. h. fast nie.
-
+- Informationswerte anzeigen,
+- Wertänderung einer Aktie,
+- Moduleinstellungen ändern,
+- Erstellen Sie automatisch einen Info-Befehl in Jeedom *(wenn Sie es brauchen oder wenn es in der Jeedom-Konfiguration fehlt)*,
+- Erstellen Sie automatisch einen Aktionsbefehl in Jeedom *(wenn Sie es brauchen oder wenn es in der Jeedom-Konfiguration fehlt)*,
+- Polling konfigurieren *(erzwungene Kommunikation)*. Nur zu verwenden, wenn das Standardverhalten des Moduls nichts anderes zulässt, d. h. fast nie.
 
 ### Groupe
 
-Mit dieser Schaltfläche (auf der Seite eines Geräts vorhanden) können Sie die Zuordnungen der Module verwalten.
+Diese Schaltfläche auf der Seite eines Geräts wird verwendet, um die Zuordnungen des Moduls zu verwalten und zu :
 
-- Sie können die derzeit aktiven Vereine sehen
-- Lösche sie
-- Fügen Sie mehr hinzu
+- Siehe derzeit aktive Vereine,
+- Lösche sie,
+- Fügen Sie mehr hinzu.
 
+## Einschlüsse/Ausschlüsse
 
-## Inclusion
+Die Taste **Einschlüsse** vorhanden auf der Seite, die alle Z-Wave-Geräte JS gruppiert, ermöglicht es Ihnen, den Controller in den Modus zu schalten **Aufnahme** *(Standard, S0, S2)* oder im Modus **Ausschluss**.
 
-Im Moment sind S2-Einbindungen aus dem Jeedom-Plugin nicht möglich. Dies wird in einem zukünftigen Update kommen. Keine Sorge, die Plugin-Engine ist S2-kompatibel.
-
-## Exclusion
+>**INFORMATION**
+>
+>Momentan sind S2-Inklusionen nicht direkt aus dem Plugin möglich. Diese Funktion wird in einem zukünftigen Update implementiert, da die Plugin-Engine bereits gut S2-kompatibel ist.
 
 ## Synchroniser
+
+Denken Sie daran, dass in Z-Wave alle Module, aus denen das Netzwerk besteht, direkt mit dem Controller verbunden sind. Einige Controller mit Batterie *(wie der Aeon-labs Z-Stick GEN5)* Sie können sogar Module einschließen, ohne in eine Box gesteckt zu werden.
+
+Die Taste **Zu synchronisieren** ermöglicht es dann, die vom Controller identifizierten Geräte automatisch in Jeedom zu erstellen. Nach der gleichen Idee werden die Geräte, die Peripheriegeräten entsprechen, die von der Steuerung ausgeschlossen sind, automatisch gelöscht, wenn die Option verfügbar ist **Ausgeschlossene Geräte automatisch entfernen** ist in der allgemeinen Konfiguration des Plugins aktiviert.
 
 ## Z-Wave-Netzwerk
 

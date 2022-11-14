@@ -86,49 +86,59 @@ Once all the modules on mains are initiated and therefore identified, it is impo
 
 ## Module configuration
 
-Unlike the Openzwave plugin, there is no dedicated section for configuring modules. Indeed the configuration of a module is made through the command class Configuration. This is therefore visible among the other class commands of the modules in the "values" tab".
+Unlike the Openzwave plugin, there is no dedicated section for configuring modules. Indeed the configuration of a module is made through the command class Configuration. This is therefore visible among the other class commands of the module in **Values**.
 
-### Noeud
+### Node
 
-This button (present on the page of an equipment) allows you to see the information of the modules.
+This button present on the page of a device allows you to view the information of the module through several tabs :
 
-- The summary tab : this one gives all the identification information of the module as well as the Status information
-- The action tab : it allows you to perform technical actions on a node (normally you should never have to touch its functions, the plugin manages this on its own. Each action is briefly described on the page itself
-- The statistics tab : as its name suggests, it allows you to see the communication statistics of the module.
-- The Tree tab : gathers all the previous information in the form of a technical json.
+- **Summary** : Displays all module identification information as well as status information.
+
+- **Shares** : Allows performing technical actions on a node. Each action is described succinctly.
+	>**INFORMATION**
+	>
+	>You should normally never have to touch these functions, the plugin handles this on its own.
+
+- **Statistics** : as its name suggests, it allows you to see the communication statistics of the module.
+
+- **Tree** : gathers all the previous information in the form of a technical json.
 
 ### Valeurs
 
-This button (present on the page of an equipment) allows you to obtain the list of all the zwave class commands managed by the module.
+This button on the equipment page allows you to obtain the list of all the Z-Wave class commands managed by the module.
 
-Each Class command can be unfolded to see all the commands (useful or not) relating to this class command.
+Each can be unfolded by clicking on it to see all the controls *(useful or not)* related to this class command.
 
-You can here :
+Many possibilities are offered by this window :
 
-- See values information
-- Changing the value of a stock
-- Change module settings
-- Automatically create an info command in Jeedom (if you need it or if it is missing from the Jeedom configuration)
-- Automatically create an action command in Jeedom (if you need it or if it is missing from the Jeedom configuration)
-- Configure a polling (to be used only in the case where the default behavior of the module does not allow to do otherwise, i.e. almost never.
-
+- View Information Values,
+- Changing the value of a stock,
+- Change module settings,
+- Automatically create an info command in Jeedom *(if you need it or if it is missing from the Jeedom configuration)*,
+- Automatically create an action command in Jeedom *(if you need it or if it is missing from the Jeedom configuration)*,
+- Configure polling *(forced communication)*. To be used only in the case where the default behavior of the module does not allow to do otherwise, i.e. almost never.
 
 ### Groupe
 
-This button (present on the page of an equipment) allows you to manage the associations of the modules.
+This button on the page of a device is used to manage the associations of the module and to :
 
-- You can see the currently active associations
-- Delete them
-- Add more
+- See currently active associations,
+- Delete them,
+- Add more.
 
+## Inclusions/Exclusions
 
-## Inclusion
+The button **Inclusions** present on the page grouping all the Z-Wave equipment JS allows you to switch the controller to mode **Inclusion** *(default, S0, S2)* or in mode **Exclusion**.
 
-For the moment S2 inclusions from the Jeedom plugin are not possible. This will come in a future update. No worries about that, the plugin engine is S2 compatible.
-
-## Exclusion
+>**INFORMATION**
+>
+>For the moment S2 inclusions are not possible directly from the plugin. This feature will be implemented in a future update, the plugin engine being already well S2 compatible.
 
 ## Synchroniser
+
+Remember, in Z-Wave, all the modules that make up the network are directly associated with the controller. Some controllers with battery *(like the Aeon-labs Z-Stick GEN5)* even allow you to include modules without being plugged into a box.
+
+The button **To sychronize** will then make it possible to automatically create in Jeedom the equipment identified by the controller. In the same idea, the equipment corresponding to peripherals excluded from the controller will be automatically deleted if the option **Automatically remove excluded devices** is activated in the general configuration of the plugin.
 
 ## Z-Wave network
 

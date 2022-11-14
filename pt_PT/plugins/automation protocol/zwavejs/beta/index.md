@@ -86,49 +86,59 @@ Uma vez que todos os módulos na rede são iniciados e, portanto, identificados,
 
 ## Configuração do módulo
 
-Ao contrário do plugin Openzwave, não há uma seção dedicada para configurar módulos. De fato a configuração de um módulo é feita através da classe de comando Configuração. Isso é, portanto, visível entre os outros comandos de classe dos módulos na guia "valores"".
+Ao contrário do plugin Openzwave, não há uma seção dedicada para configurar módulos. De fato a configuração de um módulo é feita através da classe de comando Configuração. Isso é, portanto, visível entre os outros comandos de classe do módulo em **Valores**.
 
-### Noeud
+### Nó
 
-Este botão (presente na página de um equipamento) permite ver as informações dos módulos.
+Este botão presente na página de um dispositivo permite visualizar as informações do módulo através de várias abas :
 
-- A guia de resumo : este fornece todas as informações de identificação do módulo, bem como as informações de status
-- A guia de ação : permite realizar acções técnicas num nó (normalmente nunca deverá ter de tocar nas suas funções, o plugin gere isto por si só. Cada ação é brevemente descrita na própria página
-- A aba de estatísticas : como o próprio nome sugere, permite ver as estatísticas de comunicação do módulo.
-- A guia Árvore : reúne todas as informações anteriores na forma de um json técnico.
+- **Resumo** : Exibe todas as informações de identificação do módulo, bem como informações de status.
+
+- **Ações** : Permite realizar ações técnicas em um nó. Cada ação é descrita sucintamente.
+	>**EM FORMAÇÃO**
+	>
+	>Normalmente, você nunca deve tocar nessas funções, o plug-in lida com isso por conta própria.
+
+- **Estatisticas** : como o próprio nome sugere, permite ver as estatísticas de comunicação do módulo.
+
+- **Árvore** : reúne todas as informações anteriores na forma de um json técnico.
 
 ### Valeurs
 
-Este botão (presente na página de um equipamento) permite obter a lista de todos os comandos da classe zwave gerenciados pelo módulo.
+Este botão na página do equipamento permite obter a lista de todos os comandos da classe Z-Wave gerenciados pelo módulo.
 
-Cada comando de classe pode ser desdobrado para ver todos os comandos (úteis ou não) relacionados a este comando de classe.
+Cada um pode ser desdobrado clicando nele para ver todos os controles *(útil ou não)* relacionado a este comando de classe.
 
-Você pode aqui :
+Muitas possibilidades são oferecidas por esta janela :
 
-- Consulte informações de valores
-- Alterando o valor de uma ação
-- Alterar as configurações do módulo
-- Crie automaticamente um comando info no Jeedom (se precisar dele ou se estiver faltando na configuração do Jeedom)
-- Crie automaticamente um comando de ação no Jeedom (se você precisar ou se estiver faltando na configuração do Jeedom)
-- Configure um polling (a ser usado apenas se o comportamento padrão do módulo não permitir que você faça o contrário, ou seja, quase nunca.
-
+- Visualizar valores de informações,
+- Alterando o valor de uma ação,
+- Alterar as configurações do módulo,
+- Crie automaticamente um comando info no Jeedom *(se você precisar ou se estiver faltando na configuração do Jeedom)*,
+- Crie automaticamente um comando de ação no Jeedom *(se você precisar ou se estiver faltando na configuração do Jeedom)*,
+- Configurar sondagem *(comunicação forçada)*. Para ser usado apenas no caso em que o comportamento padrão do módulo não permite fazer o contrário, ou seja, quase nunca.
 
 ### Groupe
 
-Este botão (presente na página de um equipamento) permite gerenciar as associações dos módulos.
+Este botão na página de um dispositivo é usado para gerenciar as associações do módulo e para :
 
-- Você pode ver as associações atualmente ativas
-- Excluir eles
-- Adicione mais
+- Ver associações atualmente ativas,
+- Excluir eles,
+- Adicione mais.
 
+## Inclusões/Exclusões
 
-## Inclusion
+O botão **Inclusões** presente na página agrupando todos os equipamentos Z-Wave JS permite alternar o controlador para o modo **Inclusão** *(padrão, S0, S2)* ou no modo **Exclusão**.
 
-No momento, as inclusões S2 do plug-in Jeedom não são possíveis. Isso virá em uma atualização futura. Não se preocupe com isso, o mecanismo de plug-in é compatível com S2.
-
-## Exclusion
+>**EM FORMAÇÃO**
+>
+>No momento, as inclusões S2 não são possíveis diretamente do plug-in. Este recurso será implementado em uma atualização futura, o mecanismo de plug-in já é bem compatível com S2.
 
 ## Synchroniser
+
+Lembre-se, no Z-Wave, todos os módulos que compõem a rede estão diretamente associados ao controlador. Alguns controladores com bateria *(como o Z-Stick GEN5 da Aeon-labs)* até permitem que você inclua módulos sem estar conectado a uma caixa.
+
+O botão **Para sincronizar** permitirá então criar automaticamente no Jeedom o equipamento identificado pelo controlador. Na mesma ideia, os equipamentos correspondentes aos periféricos excluídos do controlador serão excluídos automaticamente se a opção **Remover dispositivos excluídos automaticamente** está ativado na configuração geral do plugin.
 
 ## Rede Z-Wave
 
