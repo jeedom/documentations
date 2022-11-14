@@ -49,7 +49,7 @@ Si desarrolla en francés en el código fuente:
 **escritorio/php/miplugin.php** :
 
 ````html
-<label class="col-sm-3 control-label">"{{Equipements de mon petit plugin}}"</label>
+{% raw %}<label class="col-sm-3 control-label">"{{Equipements de mon petit plugin}}"</label>{% endraw %}
 ````
 
 **core/i18n/en_US.json** :
@@ -67,7 +67,7 @@ En inglés:
 **escritorio/php/miplugin.php** :
 
 ````html
-<label class="col-sm-3 control-label">"{{My small plugin equipments}}"</label>
+{% raw %}<label class="col-sm-3 control-label">"{{My small plugin equipments}}"</label>{% endraw %}
 ````
 
 **core/i18n/fr_FR.json** :
