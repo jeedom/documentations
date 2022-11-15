@@ -24,11 +24,11 @@ Bei der Konfiguration des Plugins ist der wesentliche Punkt die richtige Auswahl
 
 Andere mögliche Einstellungen sind :
 
-- **Wenden Sie beim Einschließen den empfohlenen Konfigurationssatz an** : wendet direkt den vom Jeedom-Team empfohlenen Konfigurationssatz an, wenn ein neues Modul hinzugefügt wird *(conseillé)*.
+- **Wenden Sie die empfohlene Konfiguration an** : wendet direkt den vom Jeedom-Team empfohlenen Konfigurationssatz an, wenn ein neues Modul hinzugefügt wird *(conseillé)*.
 
-- **Automatisches Entfernen ausgeschlossener Geräte** : entfernt automatisch Geräte, die vom Z-Wave-Netzwerk ausgeschlossen sind, wenn diese Option aktiviert ist. Andernfalls bleibt das Gerät in Jeedom, auch wenn es vom Netzwerk ausgeschlossen wurde. Das Gerät muss dann manuell gelöscht oder wiederverwendet werden, indem ihm eine neue Z-Wave-Kennung zugewiesen wird.
+- **Ausgeschlossene Geräte löschen** : entfernt automatisch Geräte, die vom Z-Wave-Netzwerk ausgeschlossen sind, wenn diese Option aktiviert ist. Andernfalls bleibt das Gerät in Jeedom, auch wenn es vom Netzwerk ausgeschlossen wurde. Das Gerät muss dann manuell gelöscht oder wiederverwendet werden, indem ihm eine neue Z-Wave-Kennung zugewiesen wird.
 
-- **Präfix** : ermöglicht die Angabe des in MQTT zu verwendenden Präfixes *(Standard `zwave`)*.
+- **MQTT-Präfix** : ermöglicht die Angabe des in MQTT zu verwendenden Präfixes *(Standard `zwave`)*.
 
 ### Sicherheitsschlüssel
 
@@ -138,7 +138,7 @@ Die Taste **Einschlüsse** vorhanden auf der Seite, die alle Z-Wave-Geräte JS g
 
 Denken Sie daran, dass in Z-Wave alle Module, aus denen das Netzwerk besteht, direkt mit dem Controller verbunden sind. Einige Controller mit Batterie *(wie der Aeon-labs Z-Stick GEN5)* Sie können sogar Module einschließen, ohne in eine Box gesteckt zu werden.
 
-Die Taste **Zu synchronisieren** ermöglicht es dann, die vom Controller identifizierten Geräte automatisch in Jeedom zu erstellen. Nach der gleichen Idee werden die Geräte, die Peripheriegeräten entsprechen, die von der Steuerung ausgeschlossen sind, automatisch gelöscht, wenn die Option verfügbar ist **Ausgeschlossene Geräte automatisch entfernen** ist in der allgemeinen Konfiguration des Plugins aktiviert.
+Die Taste **Zu synchronisieren** ermöglicht es dann, die vom Controller identifizierten Geräte automatisch in Jeedom zu erstellen. Nach der gleichen Idee werden die Geräte, die Peripheriegeräten entsprechen, die von der Steuerung ausgeschlossen sind, automatisch gelöscht, wenn die Option verfügbar ist **Ausgeschlossene Geräte löschen** ist in der allgemeinen Konfiguration des Plugins aktiviert.
 
 ## Z-Wave-Netzwerk
 

@@ -24,11 +24,11 @@ Regarding the configuration of the plugin, the essential point is the correct se
 
 Other possible settings are :
 
-- **Apply the recommended configuration set when including** : directly applies the configuration set recommended by the Jeedom team when including a new module *(conseillé)*.
+- **Apply the recommended configuration** : directly applies the configuration set recommended by the Jeedom team when including a new module *(conseillé)*.
 
-- **Automatic removal of excluded devices** : automatically removes devices excluded from the Z-Wave network if checked. Otherwise, the equipment is kept in Jeedom even if it has been excluded from the network. The equipment will then have to be deleted manually or reused by assigning it a new Z-Wave identifier.
+- **Deleting excluded devices** : automatically removes devices excluded from the Z-Wave network if checked. Otherwise, the equipment is kept in Jeedom even if it has been excluded from the network. The equipment will then have to be deleted manually or reused by assigning it a new Z-Wave identifier.
 
-- **Prefix** : allows to specify the prefix to use in MQTT *(default `zwave`)*.
+- **MQTT prefix** : allows to specify the prefix to use in MQTT *(default `zwave`)*.
 
 ### Security keys
 
@@ -138,7 +138,7 @@ The button **Inclusions** present on the page grouping all the Z-Wave equipment 
 
 Remember, in Z-Wave, all the modules that make up the network are directly associated with the controller. Some controllers with battery *(like the Aeon-labs Z-Stick GEN5)* even allow you to include modules without being plugged into a box.
 
-The button **To sychronize** will then make it possible to automatically create in Jeedom the equipment identified by the controller. In the same idea, the equipment corresponding to peripherals excluded from the controller will be automatically deleted if the option **Automatically remove excluded devices** is activated in the general configuration of the plugin.
+The button **To sychronize** will then make it possible to automatically create in Jeedom the equipment identified by the controller. In the same idea, the equipment corresponding to peripherals excluded from the controller will be automatically deleted if the option **Deleting excluded devices** is activated in the general configuration of the plugin.
 
 ## Z-Wave network
 

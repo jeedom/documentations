@@ -24,11 +24,11 @@ Respecto a la configuración del plugin, el punto esencial es la correcta selecc
 
 Otros ajustes posibles son :
 
-- **Aplicar el conjunto de configuración recomendado al incluir** : aplica directamente el conjunto de configuración recomendado por el equipo de Jeedom al incluir un nuevo módulo *(conseillé)*.
+- **Aplicar la configuración recomendada** : aplica directamente el conjunto de configuración recomendado por el equipo de Jeedom al incluir un nuevo módulo *(conseillé)*.
 
-- **Eliminación automática de dispositivos excluidos** : elimina automáticamente los dispositivos excluidos de la red Z-Wave si está marcado. De lo contrario, el equipo se mantiene en Jeedom incluso si se ha excluido de la red. El equipo deberá entonces ser borrado manualmente o reutilizado asignándole un nuevo identificador Z-Wave.
+- **Eliminación de dispositivos excluidos** : elimina automáticamente los dispositivos excluidos de la red Z-Wave si está marcado. De lo contrario, el equipo se mantiene en Jeedom incluso si se ha excluido de la red. El equipo deberá entonces ser borrado manualmente o reutilizado asignándole un nuevo identificador Z-Wave.
 
-- **Prefijo** : permite especificar el prefijo a usar en MQTT *(por defecto `zwave`)*.
+- **Prefijo MQTT** : permite especificar el prefijo a usar en MQTT *(por defecto `zwave`)*.
 
 ### Llaves de seguridad
 
@@ -138,7 +138,7 @@ El botón **Inclusiones** presente en la página que agrupa todos los equipos Z-
 
 Recuerda, en Z-Wave, todos los módulos que componen la red están directamente asociados al controlador. Algunos controladores con batería *(como el Aeon-labs Z-Stick GEN5)* incluso le permite incluir módulos sin estar enchufado en una caja.
 
-El botón **Sincronizar** luego permitirá crear automáticamente en Jeedom el equipo identificado por el controlador. En la misma idea, los equipos correspondientes a periféricos excluidos del controlador se eliminarán automáticamente si la opción **Eliminar automáticamente los dispositivos excluidos** se activa en la configuración general del plugin.
+El botón **Sincronizar** luego permitirá crear automáticamente en Jeedom el equipo identificado por el controlador. En la misma idea, los equipos correspondientes a periféricos excluidos del controlador se eliminarán automáticamente si la opción **Eliminación de dispositivos excluidos** se activa en la configuración general del plugin.
 
 ## Red Z-Wave
 
