@@ -1,13 +1,13 @@
 {
     "plugins\/automation protocol\/index.md": {
-        "Plugin pour contrôler les équipements Z-Wave": "Plugin pour contrôler les équipements Z-Wave",
         "Z-Wave JS": "Z-Wave JS",
-        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "Plugin pour contrôler les équipements Z-Wave": "Plugin pour contrôler les équipements Z-Wave",
         "Il est important de bien lire la documentation du plugin avant tout achat": "Il est important de bien lire la documentation du plugin avant tout achat",
         "Zigbee": "Zigbee",
         "Plugin offrant une compatibilité généralisée avec différents types de contrôleurs Zigbee tels que deCONZ et EZSP (Silicon labs), et en support beta": "Plugin offrant une compatibilité généralisée avec différents types de contrôleurs Zigbee tels que deCONZ et EZSP (Silicon labs), et en support beta",
         "Template servant de base à la création de plugins pour Jeedom": "Template servant de base à la création de plugins pour Jeedom",
         "Zigbee2Mqtt": "Zigbee2Mqtt",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
         "Wes": "Wes",
         "Ce plugin va vous permettre d'intégrer un wes de CartElectronics": "Ce plugin va vous permettre d'intégrer un wes de CartElectronics",
         "Wattlet": "Wattlet",

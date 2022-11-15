@@ -1,12 +1,12 @@
 {
     "plugins\/automation protocol\/index.md": {
-        "Plugin pour contrôler les équipements Z-Wave": "Plugin zur Steuerung von Z-Wave-Geräten",
         "Z-Wave JS": "Z-Wave JS",
-        "ATTENTION plugin disponible uniquement en beta": "ACHTUNG Plugin nur in Beta verfügbar",
+        "Plugin pour contrôler les équipements Z-Wave": "Plugin zur Steuerung von Z-Wave-Geräten",
         "Il est important de bien lire la documentation du plugin avant tout achat": "Es ist wichtig, die Plugin-Dokumentation vor dem Kauf sorgfältig zu lesen",
         "Plugin offrant une compatibilité généralisée avec différents types de contrôleurs Zigbee tels que deCONZ et EZSP (Silicon labs), et en support beta": "Plugin mit allgemeiner Kompatibilität mit verschiedenen Arten von ZigBee-Controllern wie deCONZ und EZSP (Silicon Labs) sowie Beta-Unterstützung",
         "Template servant de base à la création de plugins pour Jeedom": "Vorlage, die als Grundlage für die Erstellung von Plugins für Jeedom dient",
         "Zigbee2Mqtt": "Zigbee2Mqtt",
+        "ATTENTION plugin disponible uniquement en beta": "ACHTUNG Plugin nur in Beta verfügbar",
         "Ce plugin va vous permettre d'intégrer un wes de CartElectronics": "Mit diesem Plugin können Sie eine CartElectronics wes integrieren",
         "Ce plugin permet de piloter les modules Wattcubes de Wattlet via le Wattcube Web": "Mit diesem Plugin können Sie die Wattcubes-Module von Wattlet über das Wattcube Web steuern",
         "Les plugins officiels Docker Management et MQTT Manager doivent être installés, configurés et fonctionnels": "Offizielle Plug-ins für Docker Management und MQTT Manager müssen installiert, konfiguriert und funktionsfähig sein",
