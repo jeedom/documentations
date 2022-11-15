@@ -82,4 +82,4 @@ You have the possibility, following the creation of a piece of equipment, to cal
 
 # Code
 
-On the general page of the plugin grouping all Docker equipment, you have access to a button **Coded** which will take you directly to a Jeedom directory provided to receive the configuration files of your Dockers if necessary.
+On the general page of the plugin grouping all Docker equipment, the button **Coded** takes you directly to a Jeedom directory intended to receive the configuration files of your Dockers if necessary.

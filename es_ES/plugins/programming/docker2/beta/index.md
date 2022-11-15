@@ -82,4 +82,4 @@ Tiene la posibilidad, después de la creación de un equipo, de llamar a un **As
 
 # Code
 
-En la página general del complemento que agrupa todos los equipos de Docker, tiene acceso a un botón **Codificado** que lo llevará directamente a un directorio Jeedom provisto para recibir los archivos de configuración de sus Dockers si es necesario.
+En la página general del complemento que agrupa todos los equipos de Docker, el botón **Codificado** lo lleva directamente a un directorio Jeedom destinado a recibir los archivos de configuración de sus Dockers si es necesario.

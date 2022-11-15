@@ -82,4 +82,4 @@ Você tem a possibilidade, após a criação de um equipamento, chamar um **Assi
 
 # Code
 
-Na página geral do plugin que agrupa todos os equipamentos Docker, você tem acesso a um botão **Codificado** que o levará diretamente para um diretório Jeedom fornecido para receber os arquivos de configuração de seus Dockers, se necessário.
+Na página geral do plugin que agrupa todos os equipamentos Docker, o botão **Codificado** leva-o directamente para um directório Jeedom destinado a receber os ficheiros de configuração dos seus Dockers se necessário.

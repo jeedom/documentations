@@ -82,4 +82,4 @@ Sie haben die Möglichkeit, nach dem Anlegen eines Equipments, a anzurufen **Ass
 
 # Code
 
-Auf der allgemeinen Seite des Plugins, das alle Docker-Geräte gruppiert, haben Sie Zugriff auf eine Schaltfläche **Codiert** die Sie direkt in ein Jeedom-Verzeichnis führt, das bereitgestellt wird, um bei Bedarf die Konfigurationsdateien Ihres Dockers zu erhalten.
+Auf der allgemeinen Seite des Plugins, das alle Docker-Geräte gruppiert, die Schaltfläche **Codiert** führt Sie direkt in ein Jeedom-Verzeichnis, das dafür vorgesehen ist, die Konfigurationsdateien Ihrer Docker bei Bedarf zu erhalten.

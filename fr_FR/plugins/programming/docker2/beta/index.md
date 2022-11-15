@@ -82,4 +82,4 @@ Vous avez la possibilité, suite à la création d'un équipement, d'appeler un 
 
 # Code
 
-Sur la page générale du plugin regroupant tous les équipements Docker, vous avez accès un bouton **Code** qui vous amènera directement dans un répertoire Jeedom prévus pour recevoire les fichiers de configuration de vos Dockers si cela était nécessaire.
+Sur la page générale du plugin regroupant tous les équipements Docker, le bouton **Code** vous amène directement dans un répertoire Jeedom prévu pour recevoir les fichiers de configuration de vos Dockers si cela était nécessaire.
