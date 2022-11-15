@@ -30,6 +30,8 @@ Pour commencer la configuration du plugin, il est nécessaire de sélectionner l
 
 - **Broker distant** : Dans le cas de l'utilisation d'un broker déjà existant, il suffit de renseigner son adresse *(exemple : `mqtt://192.168.1.10:1883`)*.
 
+Une fois le broker Mosquitto installé *(si nécessaire)*, vous pouvez passer à la suite de la configuration :
+
 - **Authentification**: Vous pouvez spécifier des utilisateurs/mot de passe pour la connexion :
 
   - en mode local vous pouvez renseigner un `nom d'utilisateur:mot de passe` par ligne, chaque couple d'identifiant aura un accès valide au broker. S'il n'existe aucun identifiant, Jeedom en crée un automatiquement.
@@ -66,7 +68,7 @@ Il faut indiquer le topic racine de l'équipement *(`test` par exemple)*, ensuit
 
   >**INFORMATION**
   >
-  >Dans les commandes de type action vous pouvez utiliser les tags `#slider#`, `#color#`, `#message#` ou `#select#` qui seront automatiquement remplacés par leur valeur lors de l'exécution de la commande *(selon son sous-type). D'autre part, si le message est de type `json` il faut lui ajouter le préfixe `json::`.
+  >Dans les commandes de type action vous pouvez utiliser les tags `#slider#`, `#color#`, `#message#` ou `#select#` qui seront automatiquement remplacés par leur valeur lors de l'exécution de la commande *(selon son sous-type)*. D'autre part, si le message est de type `json` il faut lui ajouter le préfixe `json::`.
 
 # Jeedom via MQTT
 
@@ -84,7 +86,7 @@ Il est possible de piloter Jeedom à travers MQTT. Ci-après les différents top
 
 - `jeedom/cmd/event/#cmd_id#` : évènement sur la commande portant l'id `#cmd_id#` avec en message un `json` contenant différentes informations dont la valeur de la commande.
 
-# Désinstallation du broker Mosquitto
+# Désinstaller le broker Mosquitto
 
 2 options possibles pour désinstaller le broker Mosquitto présent localement sur la machine :
 

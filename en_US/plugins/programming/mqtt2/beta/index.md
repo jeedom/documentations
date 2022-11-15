@@ -30,6 +30,8 @@ To start the configuration of the plugin, it is necessary to select the mode of 
 
 - **Remote broker** : In the case of the use of an already existing broker, it is enough to fill in its address *(example : ``mqtt://192.168.1.10:1883`)*.
 
+Once the Mosquitto broker is installed *(if necessary)*, you can continue with the configuration :
+
 - **Authentication**: You can specify users / password for connection :
 
   - in local mode you can enter a `username:password` per line, each pair of identifiers will have valid access to the broker. If there is no identifier, Jeedom creates one automatically.
@@ -66,7 +68,7 @@ You must indicate the root topic of the equipment *(`test` for example)*, then a
 
   >**INFORMATION**
   >
-  >In action type commands you can use the tags `#slider#`, `#color#`, `#message#` or `#select#` which will be automatically replaced by their value when executing the * command (depending on its subtype). On the other hand, if the message is of the `json` type, you must add the `json` prefix to it::``.
+  >In action type commands you can use the tags `#slider#`, `#color#`, `#message#` or `#select#` which will be automatically replaced by their value when executing the command *(according to its subtype)*. On the other hand, if the message is of the `json` type, you must add the `json` prefix to it::``.
 
 # Jeedom via MQTT
 
@@ -78,13 +80,13 @@ It is possible to pilot Jeedom through MQTT. Here are the different possible top
   - **message** : `{title : "hello "message : "Hi, how are you ?"}``.
   - **color** : `{color : "#96c927"}``.
   - **listing** : `{select : 1}`.
-  - **info commands** : you can directly send a value or also specify an update date *(facultatif)* `{value : "cuckoo ", datetime : "2021-12-12 10:30:00" }`.
+  - **Info commands** : you can directly send a value or also specify an update date *(facultatif)* `{value : "cuckoo ", datetime : "2021-12-12 10:30:00" }`.
 
 - `jeedom / cmd / get /#cmd_id#`` : request value of command with id `#cmd_id#`. Jeedom will return `jeedom/cmd/value/#cmd_id#`with the command value in message.
 
 - `jeedom / cmd / event /#cmd_id#`` : event on command with id `#cmd_id#` with a `json` message containing different information including the value of the command.
 
-# Uninstalling the Mosquitto broker
+# Uninstall the Mosquitto broker
 
 2 possible options to uninstall the Mosquitto broker present locally on the machine :
 

@@ -30,6 +30,8 @@ Para iniciar a configuração do plugin, é necessário selecionar o modo de con
 
 - **Corretor remoto** : No caso da utilização de uma corretora já existente, basta preencher o seu endereço *(exemplo : ``mqtt://192.168.1.10:1883`)*.
 
+Uma vez que o corretor Mosquitto está instalado *(se necessário)*, você pode continuar com a configuração :
+
 - **Autenticação**: Você pode especificar usuários / senha para conexão :
 
   - no modo local você pode inserir um `nome de usuário:password` por linha, cada par de identificadores terá acesso válido ao broker. Se não houver identificador, Jeedom cria um automaticamente.
@@ -66,7 +68,7 @@ Você deve indicar o tópico raiz do equipamento *(`teste` por exemplo)*, então
 
   >**EM FORMAÇÃO**
   >
-  >Nos comandos do tipo de ação você pode usar as tags `#slider#`, `#color#`, `#message#` ou `#select#` que será automaticamente substituído pelo seu valor ao executar o comando * (dependendo do seu subtipo). Por outro lado, se a mensagem for do tipo `json`, você deve adicionar o prefixo `json` a ela::``.
+  >Nos comandos do tipo de ação você pode usar as tags `#slider#`, `#color#`, `#message#` ou `#select#` que será substituído automaticamente pelo seu valor ao executar o comando *(de acordo com seu subtipo)*. Por outro lado, se a mensagem for do tipo `json`, você deve adicionar o prefixo `json` a ela::``.
 
 # Jeedom via MQTT
 
@@ -78,13 +80,13 @@ Você deve indicar o tópico raiz do equipamento *(`teste` por exemplo)*, então
   - **mensagem** : `{título : "Olá "mensagem : "Oi como você está ?"}``.
   - **cor** : `{color : "#96c927"}``.
   - **lista** : `{selecionar : 1}`.
-  - **comandos de informação** : você pode enviar um valor diretamente ou também especificar uma data de atualização *(facultatif)* `{valor : "cuco ", datetime : "2021-12-12 10:30:00" }`.
+  - **Comandos de informações** : você pode enviar um valor diretamente ou também especificar uma data de atualização *(facultatif)* `{valor : "cuco ", datetime : "2021-12-12 10:30:00" }`.
 
 - `jeedom / cmd / get /#cmd_id#`` : solicitar valor de comando com id `#cmd_id#`. Jeedom retornará `jeedom/cmd/value/#cmd_id#`com o valor do comando na mensagem.
 
 - `jeedom / cmd / event /#cmd_id#`` : evento no comando com id `#cmd_id#` com uma mensagem `json` contendo informações diferentes, incluindo o valor do comando.
 
-# Desinstalando o corretor Mosquitto
+# Desinstale o corretor Mosquitto
 
 2 opções possíveis para desinstalar o broker Mosquitto presente localmente na máquina :
 

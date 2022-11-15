@@ -30,6 +30,8 @@ Um die Konfiguration des Plugins zu starten, muss der Verbindungsmodus zum Broke
 
 - **Remote-Broker** : Im Falle der Nutzung eines bereits bestehenden Brokers reicht es aus, dessen Adresse einzutragen *(Beispiel : ``mqtt://192.168.1.10:1883‘)*.
 
+Sobald der Mosquitto-Broker installiert ist *(im Bedarfsfall)*, Sie können mit der Konfiguration fortfahren :
+
 - **Authentifizierung**: Sie können Benutzer / Passwort für die Verbindung angeben :
 
   - Im lokalen Modus können Sie einen `Benutzernamen eingeben:password' pro Zeile, jedes Paar von Identifikatoren hat gültigen Zugriff auf den Broker. Wenn es keine Kennung gibt, erstellt Jeedom automatisch eine.
@@ -66,7 +68,7 @@ Sie müssen das Wurzelthema des Geräts angeben *(„Testen“ zum Beispiel)*, d
 
   >**INFORMATION**
   >
-  >In Befehlen vom Aktionstyp können Sie die Tags ` verwenden#slider#`, `#color#`, `#message#` oder `#select#`, die beim Ausführen des *-Befehls automatisch durch ihren Wert ersetzt werden (abhängig von ihrem Untertyp). Wenn die Nachricht andererseits vom Typ „json“ ist, müssen Sie ihr das Präfix „json“ hinzufügen::``.
+  >In Befehlen vom Aktionstyp können Sie die Tags ` verwenden#slider#`, `#color#`, `#message#` oder `#select#`, die beim Ausführen des Befehls automatisch durch ihren Wert ersetzt werden *(nach seiner Unterart)*. Wenn die Nachricht andererseits vom Typ „json“ ist, müssen Sie ihr das Präfix „json“ hinzufügen::``.
 
 # Jeedom über MQTT
 
@@ -84,7 +86,7 @@ Es ist möglich, Jeedom über MQTT zu steuern. Hier sind die verschiedenen mögl
 
 - `jeedom / cmd / event /#cmd_id#`` : Ereignis auf Befehl mit der ID `#cmd_id#` mit einer `json`-Nachricht, die verschiedene Informationen enthält, einschließlich des Werts des Befehls.
 
-# Deinstallieren des Mosquitto-Brokers
+# Deinstallieren Sie den Mosquitto-Broker
 
 2 mögliche Optionen zum Deinstallieren des Mosquitto-Brokers, der lokal auf dem Computer vorhanden ist :
 
