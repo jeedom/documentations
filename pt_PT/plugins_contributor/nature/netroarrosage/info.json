@@ -1,0 +1,36 @@
+{
+	"id" : "netroarrosage",
+	"name" : "Netro arrosage",
+	"description" : {
+		"fr_FR": "Plugin basé sur le système d'arrosage automatique Netro Smart Garden"
+	},
+	"licence" : "AGPL",
+	"author" : "kcofoni",
+	"require" : "4.2",
+	"category" : "nature",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/#language#/changelog",
+	"documentation" : "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/#language#/",
+	"changelog_beta" : "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/#language#/beta/changelog",
+	"documentation_beta" : "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/#language#/beta/",
+	"link" : {
+		"forum":"Lien vers le forum",
+		"video" : "Lien vers une video"
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
+}

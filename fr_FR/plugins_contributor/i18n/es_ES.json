@@ -663,6 +663,8 @@
         " Market*": " Mercado*"
     },
     "plugins_contributor\/nature\/index.md": {
+        "Netro arrosage": "Riego neto",
+        "Plugin basé sur le système d'arrosage automatique Netro Smart Garden": "Complemento basado en el sistema de riego automático Netro Smart Garden",
         "Pilotage des equipements d'arrosage Netro": "Control de equipos de riego Netro",
         "Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions en fonction de l'appareil (voir la documentation": "Es posible acceder a los datos del dispositivo, monitorearlos y realizar ciertas acciones dependiendo del dispositivo (ver la documentación",
         "Plugin permettant d'intégrer tous les appareils de la gamme Gardena Smart System (Water Control, sensor, irrigation control, power socket et Sileno mower) ainsi que les robots Husqvarna Automower Connect": "Complemento para integrar todos los dispositivos de la gama Gardena Smart System (control de agua, sensor, control de riego, toma de corriente y cortacésped Sileno), así como robots Husqvarna Automower Connect",
