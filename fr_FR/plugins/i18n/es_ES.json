@@ -806,7 +806,6 @@
     },
     "plugins\/home automation protocol\/index.md": {
         "Plugin spécialisé pour la box Jeedom Luna": "Complemento especializado para la caja Jeedom Luna",
-        "ATTENTION plugin disponible uniquement en beta": "ATENCIÓN complemento disponible solo en versión beta",
         "Plugins spécialisé pour la Atlas": "Complementos especializados para Atlas",
         "Seuls les plugins officiels ont leur documentation ici": "Solo los complementos oficiales tienen su documentación aquí",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Puede consultar la documentación de los otros complementos directamente desde Jeedom Market",
@@ -817,8 +816,6 @@
         "Documentation Beta": "Documentación beta",
         "Changelog Stable": "Registro de cambios estable",
         "Changelog Beta": "Registro de cambios Beta",
-        "Documentation beta": "Documentación beta",
-        "Changelog beta": "Registro de cambios Beta",
         " Luna.": " Luna.",
         " Luna?": " Luna?",
         "Luna ": "Luna ",
