@@ -1,0 +1,30 @@
+{
+  "id": "kiauvo",
+  "name": "Kia-UVO",
+  "description": {
+      "fr_FR": "Plugin de gestion des véhicules compatibles KIA-UVO",
+      "en_US": "Plugin to manage KIA-UVO compatible vehicles"
+  },
+  "licence": "AGPL",
+  "author": "NeoPixl",
+  "require": "3.3",
+  "category": "devicecommunication",
+  "hasDependency": true,
+  "maxDependancyInstallTime": 30,
+  "hasOwnDeamon": true,
+  "changelog": "https://neopix.github.io/jeedom-kiauvo-documentation/#language#/changelog",
+  "documentation": "https://neopix.github.io/jeedom-kiauvo-documentation/#language#",
+  "language": [
+      "fr_FR",
+      "en_US"
+  ],
+  "compatibility": [
+      "jeedomboard",
+      "smart",
+      "rpi",
+      "docker",
+      "mobile",
+      "diy",
+      "v4"
+  ]
+}
