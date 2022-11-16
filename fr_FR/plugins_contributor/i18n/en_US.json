@@ -932,6 +932,8 @@
         "Ce plugin annonce les prochaines prévisions en alerte météo (72H) en France, Belgique et Suisse": "This plugin announces the next forecast in weather alert (72H) in France, Belgium and Switzerland",
         "Netatmo OpenData": "Netatmo OpenData",
         "Vos voisins ont une station météo Netatmo dans leur jardin (et pas vous": "Your neighbors have a Netatmo weather station in their garden (and not you",
+        "Météo Historique": "Historical Weather",
+        "Plugin permettant la récupération des quantités de pluie tombées les jours précédents ainsi que les températures moyennes": "Plugin allowing the recovery of the quantities of rain fell the previous days as well as the average temperatures",
         "Le plugin Météo officiel (weather) doit être installé et configuré": "The official Weather plugin must be installed and configured",
         "Design Image": "Design Image",
         "Plugin permettant de changer automatiquement l'image de fond de vos design en fonction de la météo": "Plugin to automatically change the background image of your designs depending on the weather",

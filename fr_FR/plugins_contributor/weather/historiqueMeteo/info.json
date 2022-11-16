@@ -1,0 +1,25 @@
+{
+    "id": "historiqueMeteo",
+    "name": "Météo Historique",
+    "description": {
+        "fr_FR": "Plugin permettant la récupération des quantités de pluie tombées les jours précédents ainsi que les températures moyennes. Basé sur le site https://www.terre-net.fr/"
+    },
+    "licence": "AGPL",
+    "author": "JeedomBox",
+    "require": "4.2.0",
+    "category": "weather",
+    "changelog": "https://github.com/jeedomBox/plugin_historiqueMeteo/tree/master/docs/fr_FR/changelog.md",
+    "documentation": "https://github.com/jeedomBox/plugin_historiqueMeteo/tree/master/docs/fr_FR/index.md",
+    "link": {
+        "forum": "Lien vers le forum"
+    },
+    "language": [
+        "fr_FR"
+    ],
+    "compatibility": [
+        "rpi",
+        "diy",
+        "v4",
+        "atlas"
+    ]
+}
