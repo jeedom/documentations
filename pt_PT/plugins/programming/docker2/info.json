@@ -2,16 +2,16 @@
     "id": "docker2",
     "name": "Docker management",
     "description": {
-        "fr_FR": "Plugin docker pour gerer les containers",
-        "en_US": "Docker plugin to manage containers",
-        "es_ES": "Complemento de Docker para administrar contenedores",
-        "de_DE": "Docker-Plugin zum Verwalten von Containern",
-        "ru_RU": "Plugin docker pour gerer les containers",
-        "id_ID": "Plugin docker pour gerer les containers",
-        "it_IT": "Plugin docker pour gerer les containers",
-        "ja_JP": "Plugin docker pour gerer les containers",
-        "pt_PT": "Plug-in Docker para gerenciar contêineres",
-        "tr": "Plugin docker pour gerer les containers"
+        "fr_FR": "Plugin Docker permettant de gérer des conteneurs dans Jeedom.",
+        "en_US": "Docker plugin for managing containers in Jeedom",
+        "es_ES": "Complemento Docker para administrar contenedores en Jeedom",
+        "de_DE": "Docker-Plugin zum Verwalten von Containern in Jeedom",
+        "ru_RU": "Plugin Docker permettant de gérer des conteneurs dans Jeedom",
+        "id_ID": "Plugin Docker permettant de gérer des conteneurs dans Jeedom",
+        "it_IT": "Plugin Docker permettant de gérer des conteneurs dans Jeedom",
+        "ja_JP": "Plugin Docker permettant de gérer des conteneurs dans Jeedom",
+        "pt_PT": "Plugin do Docker para gerenciar contêineres no Jeedom",
+        "tr": "Plugin Docker permettant de gérer des conteneurs dans Jeedom"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -39,7 +39,8 @@
         "diy",
         "mobile",
         "v4",
-        "atlas"
+        "atlas",
+        "smart"
     ],
     "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/docker2\/beta\/changelog",
     "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/docker2\/beta"

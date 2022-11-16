@@ -1,56 +1,95 @@
-# Plugin MQTT
+# Plugin MQTT Manager
 
 ## Description
 
-Le plugin permet de connecter Jeedom à un brocker MQTT existant ou d'en installer un (en docker à l'aide du plugin Docker). Ce plugin peut:
+Le plugin **MQTT Manager** permet de connecter Jeedom à un broker MQTT existant ou d'en installer un en local ou sous Docker à l'aide du plugin **Docker Management**.
 
-- servir de socle à d'autre plugin pour tous ce qui passage par MQTT
-- servir en mode "standalone" : vous pouvez créer des commandes (info/action) pour envoyer/recevoir des messages sur MQTT
-- servir pour piloter jeedom depuis un autre équipements MQTT (comme Nodered par exemple) : le plugin peut aussi bien piloter des commandes Jeedom que retransmettre tous les évènements de Jeedom sur MQTT
+Ce plugin est en mesure de cumuler plusieurs fonctionnalités :
 
-## Installation
+- Servir de socle aux autres plugins pour tout ce qui concerne MQTT.
 
-Il y a 2 mode d'installations:
+- Servir en mode "standalone" par la création de commandes action/info pour l'envoi/réception de messages sur MQTT.
 
-- mode local : Jeedom va installer Mosquitto à l'aide du plugin docker (en container donc), il s'occupe de la configuration (en particulier de l'authentification). Attention l'installation peut prendre plusieurs dizaines de minutes
-- mode distant : vous avez juste a indiquer a Jeedom l'adresse du brocker MQTT (ex : mqtt://192.168.1.10:1883)
+- Piloter Jeedom depuis un autre équipement MQTT *(Nodered par exemple)*. Le plugin peut aussi bien piloter des commandes que retransmettre tous les évènements Jeedom sur MQTT.
 
-Vous pouvez spécifier des utilisateurs/mot de passe pour la connexion:
+# Configuration
 
-- en mode local vous pouvez mettre un nom d'utilisateur:mot de passe par ligne, chaque couple d'identifiant aura un accès valide au brocker. Par defaut si il n'y a aucun identifiant jeedom ajoute automatiquement un identifiant
-- en mode standalone il suffit de mettre sur la premiere ligne le couple identifiant/mot de passe pour jeedom, séparé par : (ex si le nom d'utilisateur est `jeedom`et le mot de passe `mqtt` il faut mettre `jeedom:mqtt`)
+Après installation et activation du plugin, l’installation des dépendances devrait débuter sauf si la gestion automatique a été désactivée au préalable. Dans ce cas, il faudra cliquer sur le bouton **Relancer** pour initier cette phase d’installation.
 
->**IMPORTANT**
->
->En mode local il n'est pas possible de ne pas avoir d'authentification
+## Configuration du plugin
 
-- "Topic racine Jeedom" : topic racine pour envoyer une commande à Jeedom ou sur lequel il renvoi les évènements
-- "Transmettre tous les évènements des commandes" : indique si Jeedom doit envoyer sur le bus MQTT tous les évènements des commandes
+Pour commencer la configuration du plugin, il est nécessaire de sélectionner le mode de connexion au broker parmis les 3 choix possibles :
 
-## Equipement
+- **Broker local** : Le broker Mosquitto est installé directement sur la machine qui héberge Jeedom *(mode par défaut)*.
 
-Il est possible de créer des équipements MQTT directement le plugin, attention dans ce cas aucune automatisation ou template de prévu vous devez tout faire à la main.
+- **Broker local Docker** : Le broker Mosquitto est installé et configuré automatiquement dans un conteneur Docker à l'aide du plugin officiel **Docker Management**.
 
-Il faut indiqué le topic racine (ex `test`) pour l'équipement ensuite dans les commandes il suffit pour:
+  >**INFORMATION**
+  >
+  >Dans ce mode, l'installation peut durer plusieurs minutes.
 
-- les commandes de type info : d'indiqué le topic complet, ex si vous mettez `toto/1`, tous les messages sur le topic `test/toto/1` seront automatiquement écrit sur la commande en question. Le systeme est capable de gerer les champs de type json dans ce cas il faut mettre `toto/1#key1` ou `toto/1#key1::key2` pour descendre d'un niveau. Attention il faut absolument que l'arrivé soit une valeur, exemple si vous avez `{"k1":"v1","k2":{"k2.2":"v2.2"},"k3":["v3.1"]}`, vous pouvez mettre `toto/1#k1` ou `toto/1#k2:k2.2` ou `toto/1#k3:0`. Mais `toto/1#k2` n'est pas possible.
-- les commande de type action : d'indiqué le topic et le message, ex si vous mettez `toto/2` avec comme message `plop` chaque clique sur la commande enverront le message `plop` sur le topic `test/toto/2`
+- **Broker distant** : Dans le cas de l'utilisation d'un broker déjà existant, il suffit de renseigner son adresse *(exemple : `mqtt://192.168.1.10:1883`)*.
 
->**NOTE**
->
->Dans les commandes de type action vous pouvez utiliser les tag `#slider#`, `#color#`, `#message#` ou `#select#` qui seront automatiquement remplacé en fonction du type de la commande par leur valeur lors de l'exécution de la commande
+Une fois le broker Mosquitto installé *(si nécessaire)*, vous pouvez passer à la suite de la configuration :
 
-## Utilisation de Jeedom à travers MQTT
+- **Authentification**: Vous pouvez spécifier des utilisateurs/mot de passe pour la connexion :
 
-Il est possible de piloter Jeedom à travers MQTT, voici les topics (les exemples partent du principe que le topic racine vaut `jeedom`, il faut donc adapter si vous l'avez changé):
+  - en mode local vous pouvez renseigner un `nom d'utilisateur:mot de passe` par ligne, chaque couple d'identifiant aura un accès valide au broker. S'il n'existe aucun identifiant, Jeedom en crée un automatiquement.
 
-- `jeedom/cmd/set/#cmd_id#` : permet d'exécuter la commande `#cmd_id#`, vous pouvez passer les paramètres dans le message sous forme de champs json en fonction du sous type de la commande, par exemple:
+  - en mode standalone il suffit de mettre sur la première ligne le couple `identifiant:mot de passe` pour Jeedom (exemple : si le nom d'utilisateur est `jeedom`et le mot de passe `mqtt`, il faut renseigner `jeedom:mqtt`).
 
-  - défaut : aucun paramètre
-  - curseur : `{slider : 50 }`
-  - message : `{title : "coucou", message : "salut ca va ?" }`
-  - couleur : `{color : "#96c927" }`
-  - liste : `{select : 1 }`
-  - commande de type info : vous pouvez soit passer la valeur directement soit en json faire `{value : "coucou", datetime : "2021-12-12 10:30:00" }`, `datetime` est optionnel
-- `jeedom/cmd/get/#cmd_id#` : demande de la valeur de la commande `#cmd_id#` à jeedom, celui-ci vous renverra `jeedom/cmd/value/#cmd_id#` avec en message la valeur de la commande
-- `jeedom/cmd/event/#cmd_id#` : évènement sur la commande `#cmd_id#` avec en message un json contenant différente information dont la valeur de la commande
+  >**IMPORTANT**
+  >
+  >L'authentification est obligatoire en mode local.
+
+- **Topic racine Jeedom** : Sujet racine pour envoyer une commande à Jeedom ou sur lequel il renvoit les évènements.
+
+- **Transmettre tous les évènements** : Cocher la case pour envoyer tous les évènements des commandes Jeedom sur MQTT.
+
+- **Template de publication** : Mise en forme de la publication des évènements Jeedom *(tags possibles : `#value#`, `#humanName#`, `#unit#`, `#name#`, `#type#`, `#subtype#`)*.
+
+- **Plugins abonnés** : Liste des plugins abonnés au plugin MQTT Manager sous la forme `plugin(topic)`.
+
+## Configuration des équipements
+
+Il est possible de créer des équipements MQTT directement dans le plugin.
+
+Il faut indiquer le topic racine de l'équipement *(`test` par exemple)*, ensuite selon le type de commandes :
+
+- **Commandes info** : il suffit d'indiquer le topic complet.
+  >Pour exemple, si vous mettez `toto/1`, tous les messages sur le topic `test/toto/1` seront automatiquement écrits sur la commande en question. Le système est capable de gérer les champs de type json, dans ce cas il faut mettre `toto/1#key1` ou `toto/1#key1::key2` pour descendre d'un niveau.
+
+  >**IMPORTANT**
+  >
+  >Il faut absolument que l'arrivée corresponde à une valeur. Si vous avez `{"k1":"v1","k2":{"k2.2":"v2.2"},"k3":["v3.1"]}`, vous pouvez mettre `toto/1#k1` ou `toto/1#k2:k2.2` ou `toto/1#k3:0` mais `toto/1#k2` n'est pas possible.
+
+- **Commandes action** : il suffit d'indiquer le topic et le message.
+  >Pour exemple, si vous mettez `toto/2` avec comme message `plop` chaque clic sur la commande enverra le message `plop` sur le topic `test/toto/2`.
+
+  >**INFORMATION**
+  >
+  >Dans les commandes de type action vous pouvez utiliser les tags `#slider#`, `#color#`, `#message#` ou `#select#` qui seront automatiquement remplacés par leur valeur lors de l'exécution de la commande *(selon son sous-type)*. D'autre part, si le message est de type `json` il faut lui ajouter le préfixe `json::`.
+
+# Jeedom via MQTT
+
+Il est possible de piloter Jeedom à travers MQTT. Ci-après les différents topics possibles en partant du principe que le topic racine est `jeedom` *(à adapter si vous avez modifié la configuration par défaut)* :
+
+- `jeedom/cmd/set/#cmd_id#` : permet d'exécuter la commande portant l'id `#cmd_id#`. Vous pouvez passer les paramètres dans le message sous forme de champs `json` en fonction du sous-type de la commande, par exemple:
+  - **défaut** : aucun paramètre.
+  - **curseur** : `{slider : 50}`.
+  - **message** : `{title : "coucou", message : "salut ca va ?"}`.
+  - **couleur** : `{color : "#96c927"}`.
+  - **liste** : `{select : 1}`.
+  - **commandes info** : vous pouvez directement envoyer une valeur ou également spécifier une date de mise à jour *(facultatif)* `{value : "coucou", datetime : "2021-12-12 10:30:00" }`.
+
+- `jeedom/cmd/get/#cmd_id#` : demande de la valeur de la commande portant l'id `#cmd_id#`. Jeedom renverra `jeedom/cmd/value/#cmd_id#` avec en message la valeur de la commande.
+
+- `jeedom/cmd/event/#cmd_id#` : évènement sur la commande portant l'id `#cmd_id#` avec en message un `json` contenant différentes informations dont la valeur de la commande.
+
+# Désinstaller le broker Mosquitto
+
+2 options possibles pour désinstaller le broker Mosquitto présent localement sur la machine :
+
+- **Broker sous Docker** : Il faut tout d'abord utiliser la commande **Supprimer** de l'équipement `mqtt2_mosquitto` issu du plugin **Docker Management** *(Plugins > Programmation > Docker Management)*. Vous pouvez ensuite supprimer cet équipement au complet.
+
+- **Broker local** : Il faut alors utiliser le bouton rouge **Désinstaller Mosquitto** depuis la page de configuration générale du plugin.

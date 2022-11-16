@@ -1,84 +1,85 @@
 # Docker Management plugin
 
-## Description
+# Description
 
-This plugin allows you to install and manage docker directly from Jeedom
-
->**IMPORTANT**
->
->This plugin is not intended to replace a dedicated Portainer type software, it is just there to launch basic commands and manage (in a basic way) Docker
+This plugin allows to install and manage and create Docker containers directly from Jeedom.
 
 >**IMPORTANT**
 >
->Due to the pre-requisites to install Docker, it is not compatible with all hardware (including the Smart). For it to work, you absolutely need an x86-64, rpi (3 or 4) platform or an Atlas box
+>This plugin is not intended to replace dedicated software such as Portainer, it is just made to execute simple commands and manage Docker while remaining basic.
 
-## Configuration
+# Configuration
 
-Once the dependencies have been installed, you must activate "Docker 1" locally (for the moment it is possible that we add the connection on a remote docker). You can also configure the cron for the update frequency, we advise you to put "*/ 5 * * * *"
+Once the dependencies are installed, you must activate "Docker 1" locally (for the moment it is possible to add the connection to a remote docker). You can also configure the cron for the update frequency, we advise you to put ``*/5 * * * *``.
 
-## Equipement
+# Equipements
 
-If you already have Dockers on Jeedom you can click on the synchronize button which retrieves the existing dockers and create the Jeedom equipment that corresponds.
+If you already have Dockers on Jeedom, you can click on the "Synchronize" button to retrieve the existing dockers and create the corresponding Jeedom equipment.
 
-You can also create a new docker from Jeedom, for that you simply need to create Jeedom equipment.
+You can also, from Jeedom, create new Dockers. To do this, simply create Jeedom equipment.
 
-### General settings
+## General settings
 
-- Equipment name : Name of your equipment in Jeedom
-- Parent object : Parent object of the equipment
-- Category : equipment category
-- Activate : activate or not the equipment
-- Visible : makes the equipment visible on the dashboard
-- Docker host : docker who runs the equipment (only the local is available for the moment)
-- Container name : container name in docker. It is very important that it is the same as that of the docker compose or docker run if you go through the creation through Jeedom. Otherwise the one if will not be able to attach your equipment to the docker it creates
-- Save the mounts : tells Jeedom if he should save the mounted docker files. Be careful not to activate it on all dockers, especially if their size is large
-- Creation mode : creation mode this can be either manual, or "Jeedom Docker run" (creation using a docker run command made by Jeedom), "Jeedom docker composer" (creation using a docker composer made by Jeedom)
-- Creation order : only appears if you are in "Jeedom Docker run", the command to give is all that is after "docker run"
-- Docker composes : only appears if you are in "Jeedom Docker composer", you must put your Docker composed here
+- **Equipment name** : Name of your equipment in Jeedom
+- **Parent object** : Parent object of the equipment
+- **Category** : equipment category
+- **Activate** : activate or not the equipment
+- **Visible** : makes the equipment visible on the dashboard
+- **Docker host** : docker that runs the equipment *(only the room is available at the moment)*
+- **Container name** : if you go through the creation via Jeedom, it is important that the container name is the same as the one mentioned in ``docker compose`` Where ``docker run`` otherwise the Docker container cannot be attached to the Jeedom equipment.
+- **Save the mounts** : tells Jeedom if it should save the mounted folders of the Docker container. Be careful not to activate the option on all Dockers, especially if the size of these is large.
+- **Creation mode** : can be either ``Manuel``, is ``Jeedom Docker run`` *(creation using a docker run command made by Jeedom)*, is ``Jeedom docker composer`` *(creation using a docker composer made by Jeedom)*.
+- **Creation order** : only appears if you are in mode ``Jeedom Docker run``. The command to fill in concerns everything after ``docker run``.
+- **Docker composes** : only appears if you are in mode ``Jeedom Docker composesr``. you must indicate here the content of your ``Docker composes``.
 
-### Action
+## Action
 
-- Save the docker : launch a Docker backup, be careful Jeedom only keeps the last backup (a backup is made automatically at the same time as the Jeedom backup)
-- Restore docker : allows you to restore the last Docker backup
-- Download backup : allows you to download the last Docker backup
-- Send backup : allows you to return a Docker backup (recover from a Jeedom backup in plugins / dockers / data / backup for example)
-- Docker logs : display Docker logs
+- **Save the docker** : run a backup of Docker. Attention Jeedom only keeps the last backup *(a backup is performed automatically at the same time as the Jeedom backup)*
+- **Restore docker** : allows you to restore the last Docker backup
+- **Download backup** : allows you to download the last Docker backup
+- **Send backup** : allows you to send a backup of Docker * (recovered from a Jeedom backup in ``plugins/dockers/data/backup`` for example)*
+- **Docker logs** : show Docker logs
 
-### Informations
+## Informations
 
-Displays various information about your docker : 
+Displays various information about the Docker container :
 
 - ID
 - Commande
 - Creation date
 - Taille
-- Ports mapped to the host
+- Host Mapped Ports
 - Networks
 - Montage
 - Image
 
-## Commande
+## Commandes
 
-Here you have the following commands : 
+Here you have access to the following commands :
 
-- To start up
-- Arreter
-- To restart
-- Recreer (only available if the creation was made by Jeedom)
-- Supprimer
-- CPU : Docker CPU usage
-- Memory : Docker memory usage
-- IO in : incoming disk usage
-- IO out : outgoing disk use
-- Networks in : incoming network use
-- Networks out : outgoing network use
-- Status : docker state
+- **To start up**
+- **Stop**
+- **To restart**
+- **Recreate** *(only if the creation was made by Jeedom)*
+- **To delete**
+- **CPU** : CPU load
+- **Memory** : memory load
+- **IO in** : disk write
+- **IO out** : disc reading
+- **Networks in** : network usage in incoming connection
+- **Networks out** : outbound network usage
+- **Status** : docker state
 
 
-## Assistant
+# Assistant
 
-You also have the possibility, following the creation of a device, to call an assistant (top right) which contains some type of Docker (the list will grow over time) and will ask you only a few questions to put in route your Docker
+You have the possibility, following the creation of a piece of equipment, to call a **Assistant** *(top right button)* which will allow you, through a few questions, to generate a specific Docker container. The list will expand over time but are already available for the creation of the following containers :
 
-## Code
+- **AdGuard Home**
+- **Nodered**
+- **Vaultwarden**
+- **Wire guard** *(wg-easy)*
 
-On the main page of the plugin you also have a code button that will take you directly to a Jeedom directory, this is where we advise you to put the configuration files of your Dockers (if necessary).
+# Code
+
+On the general page of the plugin grouping all Docker equipment, the button **Coded** takes you directly to a Jeedom directory intended to receive the configuration files of your Dockers if necessary.
