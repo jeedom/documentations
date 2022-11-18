@@ -84,6 +84,8 @@ Sobald alle Module am Netz initiiert und somit identifiziert wurden, ist es wich
 >
 >Im Gegensatz zum OpenZwave-Plug-in erfolgt nach dieser ersten Interviewphase ein sofortiger Neustart des Netzwerks.
 
+Wenn, am Ende dieser Phase *(das kann lang sein, erinnern wir uns)*, Sie feststellen, dass ein Modul, das vom Openzwave-Plug-in gut unterstützt wurde, vom Z-Wave JS-Plug-in nicht unterstützt wird, laden wir Sie ein, auf den Absatz zu verweisen [**Modul nicht oder schlecht erkannt**](#Module%20non%20ou%20mal%20reconnu).
+
 ## Modulkonfiguration
 
 Im Gegensatz zum Openzwave-Plugin gibt es keinen speziellen Abschnitt zum Konfigurieren von Modulen. Tatsächlich erfolgt die Konfiguration eines Moduls über die Befehlsklasse Configuration. Dies ist daher unter den anderen Klassenbefehlen des Moduls in sichtbar **Werte**.
@@ -167,5 +169,23 @@ Bevor Sie in Betracht ziehen, dauerhaft vom OpenZwave-Plugin zum Z-Wave JS-Plugi
 Sobald Sie sicher sind, dass das OpenZwave-Plugin nicht mehr erforderlich ist, können Sie das verwenden [**Austausch von Geräten und Steuerungen**](https://doc.jeedom.com/de_DE/core/4.3/replace){:target="\_blank"} des Kerns, um Ihre vorhandene Ausrüstung schnell und einfach auf das neue Plugin zu migrieren.
 
 ## Modul nicht oder schlecht erkannt
+
+Wenn Sie feststellen, dass ein Modul nicht oder schlecht vom Z-Wave JS-Plugin erkannt wird **während es vom OpenZwave-Plugin gut unterstützt wurde**, Sie müssen zuerst sicherstellen, dass die Daten im Fenster vorhanden sind **Werte** *(zugänglich von der Ausrüstungsseite)* gut aktualisieren, wenn das Modul physisch betätigt wird.
+
+Sobald Sie sicher sind, dass das Modul selbst gut erkannt wird und dass seine Werte aktualisiert werden, ist dies erforderlich, wenn bestimmte Befehle nicht funktionieren'[Öffnen Sie eine Jeedom-Supportanfrage](https://doc.jeedom.com/de_DE/premiers-pas/#Les%20demandes%20de%20support%20(ou%20tickets)){:target="\_blank"} durch zwingende Bereitstellung der folgenden Elemente :
+- Hersteller und genaue Bezeichnung des betreffenden Moduls,
+- Beschreibung von nicht funktionierenden Befehlen,
+- Screenshot von **Knoteninformationen** im gleichnamigen Fenster,
+- Screenshots von **jeder Block** aus dem Fenster von **Knotenwerte**
+
+Um weiter zu gehen, können Sie das Modul physisch aktivieren und Screenshots der aufeinanderfolgenden Wertänderungen machen, immer noch im Wertefenster des Knotens.
+
+>**WICHTIG**
+>
+>Wir bestehen darauf, dass das Team zunächst nur Anfragen für Modulkonfigurationen bearbeitet, die alle oben angeforderten Elemente enthalten und bereits mit dem Openzwave-Plugin funktionieren.
+
+>**INFORMATION**
+>
+>Durch die physische Bedienung des Moduls können Sie die Zeile identifizieren, deren Werte sich entsprechend im Fenster Knotenwerte ändern und deren Befehl nicht erstellt oder funktionsfähig wäre. Am Ende der Zeile befindet sich eine Schaltfläche mit einem stiftförmigen Symbol, mit der Sie automatisch den entsprechenden Befehl erstellen können, und haben so die Möglichkeit, Ihr Modul trotz fehlender oder fehlerhafter Konfiguration verwenden zu können.
 
 ## Ersetzen Sie ein fehlerhaftes Modul

@@ -84,6 +84,8 @@ Una vez que todos los módulos de la red eléctrica están iniciados y, por lo t
 >
 >A diferencia del complemento OpenZwave, después de esta primera fase de entrevista, los reinicios de la red son instantáneos a partir de entonces.
 
+Si al final de esta fase *(que puede ser largo recordemos)*, encuentra que un módulo que era bien compatible con el complemento Openzwave no sería compatible con el complemento Z-Wave JS, lo invitamos a consultar el párrafo [**Módulo no o mal reconocido**](#Module%20non%20ou%20mal%20reconnu).
+
 ## Configuración del módulo
 
 A diferencia del complemento Openzwave, no hay una sección dedicada para configurar módulos. De hecho, la configuración de un módulo se realiza a través de la clase de comando Configuración. Por lo tanto, esto es visible entre los otros comandos de clase del módulo en **Valores**.
@@ -167,5 +169,23 @@ Antes de considerar cambiar permanentemente del complemento OpenZwave al complem
 Luego, una vez que esté seguro de que el complemento OpenZwave ya no es esencial, puede usar el [**reemplazo de equipos y controles**](https://doc.jeedom.com/es_ES/core/4.3/replace){:target="\_blank"} del núcleo para migrar rápida y fácilmente su equipo existente al nuevo complemento.
 
 ## Módulo no o mal reconocido
+
+Si encuentra que un módulo no es o es mal reconocido por el complemento Z-Wave JS **mientras que fue bien soportado por el complemento OpenZwave**, primero debe asegurarse de que los datos presentes en la ventana **Valores** *(accesible desde la página del equipo)* actualizar bien cuando el módulo se acciona físicamente.
+
+Luego, una vez que esté seguro de que el módulo en sí es bien reconocido y que sus valores están actualizados, si ciertos comandos siguen sin funcionar, será necesario'[abrir una solicitud de soporte de Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/#Les%20demandes%20de%20support%20(ou%20tickets)){:target="\_blank"} proporcionando imperativamente los siguientes elementos :
+- Fabricante y referencia exacta del módulo en cuestión,
+- Descripción de los comandos no funcionales,
+- Captura de pantalla de **Información del nodo** en la ventana del mismo nombre,
+- Capturas de pantalla de **cada bloque** desde la ventana de **Valores de nodo**
+
+Para ir más allá, puede activar físicamente el módulo y tomar capturas de pantalla de los cambios de valores consecutivos, aún en la ventana Valores del nodo.
+
+>**IMPORTANTE**
+>
+>Insistimos en el hecho de que el equipo inicialmente solo procesará solicitudes de configuraciones de módulos que incluyan todos los elementos solicitados anteriormente y que ya funcionen con el complemento Openzwave.
+
+>**INFORMACIÓN**
+>
+>Al operar físicamente el módulo, podrá identificar la línea cuyos valores cambian en consecuencia en la ventana Valores de nodo y cuyo comando no se crearía ni funcionaría. Al final de la línea hay un botón con un icono en forma de bolígrafo que le permite crear automáticamente el comando correspondiente, lo que le brinda la posibilidad de poder usar su módulo a pesar de una configuración ausente o errónea.
 
 ## Reemplace un módulo defectuoso

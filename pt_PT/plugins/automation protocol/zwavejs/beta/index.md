@@ -84,6 +84,8 @@ Uma vez que todos os módulos na rede são iniciados e, portanto, identificados,
 >
 >Ao contrário do plugin OpenZwave, após esta primeira fase de entrevista, as reinicializações da rede são instantâneas.
 
+Se, ao final desta fase *(que pode ser longo, vamos lembrar)*, você achar que um módulo que foi bem suportado pelo plug-in Openzwave não seria suportado pelo plug-in Z-Wave JS, nós o convidamos a consultar o parágrafo [**Módulo não ou mal reconhecido**](#Module%20non%20ou%20mal%20reconnu).
+
 ## Configuração do módulo
 
 Ao contrário do plugin Openzwave, não há uma seção dedicada para configurar módulos. De fato a configuração de um módulo é feita através da classe de comando Configuração. Isso é, portanto, visível entre os outros comandos de classe do módulo em **Valores**.
@@ -167,5 +169,23 @@ Antes de considerar mudar permanentemente do plugin OpenZwave para o plugin Z-Wa
 Então, uma vez certo que o plugin OpenZwave não é mais essencial, você pode usar o [**substituição de equipamentos e controles**](https://doc.jeedom.com/pt_PT/core/4.3/replace){:target="\_blank"} do núcleo para migrar rápida e facilmente seu equipamento existente para o novo plugin.
 
 ## Módulo não ou mal reconhecido
+
+Se você achar que um módulo não é ou é mal reconhecido pelo plug-in Z-Wave JS **enquanto era bem suportado pelo plug-in OpenZwave**, você deve primeiro garantir que os dados presentes na janela **Valores** *(acessível a partir da página do equipamento)* atualizar bem quando o módulo é acionado fisicamente.
+
+Então, uma vez certo que o próprio módulo é bem reconhecido e que seus valores estão atualizados, se determinados comandos permanecerem não funcionais, será necessário'[abrir um pedido de suporte Jeedom](https://doc.jeedom.com/pt_PT/premiers-pas/#Les%20demandes%20de%20support%20(ou%20tickets)){:target="\_blank"} fornecendo imperativamente os seguintes elementos :
+- Fabricante e referência exata do módulo em questão,
+- Descrição de comandos não funcionais,
+- Captura de tela de **Informações do nó** na janela de mesmo nome,
+- Capturas de tela de **cada bloco** da janela de **Valores de nó**
+
+Para ir além, você pode ativar fisicamente o módulo e fazer screenshots das mudanças consecutivas de valor, ainda na janela Valores do nó.
+
+>**IMPORTANTE**
+>
+>Insistimos no fato de que a equipe inicialmente processará apenas solicitações de configurações de módulos incluindo todos os elementos solicitados acima e já funcionais com o plug-in Openzwave.
+
+>**EM FORMAÇÃO**
+>
+>Ao operar fisicamente o módulo, você poderá identificar a linha cujos valores mudam de acordo na janela Node Values e cujo comando não seria criado ou funcional. No final da linha encontra-se um botão com um ícone em forma de caneta que lhe permite criar automaticamente o comando correspondente, dando-lhe assim a possibilidade de poder utilizar o seu módulo apesar de uma configuração ausente ou errada.
 
 ## Substitua um módulo defeituoso

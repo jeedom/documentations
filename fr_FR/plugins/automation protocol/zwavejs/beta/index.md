@@ -84,6 +84,8 @@ Une fois que tous les modules sur secteur sont initiés et donc identifiés, il 
 >
 >Contrairement au plugin OpenZwave, après cette première phase d'interview, les redémarrages du réseau sont instantanés par la suite.
 
+Si, à l'issue de cette phase *(qui peut être longue rappelons-le)*, vous constatez qu'un module qui était bien pris en charge par le plugin Openzwave ne le serait pas avec le plugin Z-Wave JS, nous vous invitons à vous référer au paragraphe [**Module non ou mal reconnu**](#Module%20non%20ou%20mal%20reconnu).
+
 ## Configuration des modules
 
 Contrairement au plugin Openzwave, il n'y a pas de section dédiée à la configuration des modules. En effet la configuration d'un module est faite au travers de la commande classe Configuration. Celle-ci est donc visible parmis les autres commandes classes du module dans **Valeurs**.
@@ -167,5 +169,23 @@ Avant d'envisager de basculer définitivement du plugin OpenZwave au plugin Z-Wa
 Ensuite, une fois certain que le plugin OpenZwave n'est plus indispensable, vous pouvez utiliser l'outil de [**remplacement d'équipements et de commandes**](https://doc.jeedom.com/fr_FR/core/4.3/replace){:target="\_blank"} du core pour migrer rapidement et facilement vos équipements existants sur le nouveau plugin.
 
 ## Module non ou mal reconnu
+
+Si vous constatez qu'un module n'est pas ou est mal reconnu par le plugin Z-Wave JS **alors qu'il était bien pris en charge par le plugin OpenZwave**, il faut tout d'abord s'assurer que les données présentes dans la fenêtre **Valeurs** *(accessible depuis la page de l'équipement)* se mettent bien à jour lorsque le module est actionné physiquement.
+
+Ensuite, une fois certain que le module en lui-même est bien reconnu et que ses valeurs se mettent à jour, si certaines commandes restent non fonctionnelles il sera nécessaire d'[ouvrir une demande au support Jeedom](https://doc.jeedom.com/fr_FR/premiers-pas/#Les%20demandes%20de%20support%20(ou%20tickets)){:target="\_blank"} en fournissant impérativement les éléments suivants :
+- Fabricant et référence exacte du module concerné,
+- Descriptif des commandes non fonctionnelles,
+- Capture d'écran des **Informations du nœud** dans la fenêtre du même nom,
+- Captures d'écran de **chaque bloc** de la fenêtre des **Valeurs du nœud**
+
+Pour aller plus loin, vous pouvez actionner physiquement le module et effectuer des captures d'écran des changements de valeurs consécutifs, toujours dans la fenêtre des Valeurs du nœud.
+
+>**IMPORTANT**
+>
+>Nous insistons sur le fait que l'équipe ne traitera, dans un premier temps, que les demandes de configurations de module incluant l'intégralité des éléments demandés ci-dessus et déjà fonctionnelles avec le plugin Openzwave.
+
+>**INFORMATION**
+>
+>En actionnant physiquement le module, vous serez en mesure d'identifier la ligne dont les valeurs changent en conséquence dans la fenêtre des Valeurs du nœud et dont la commande ne serait pas créée ou fonctionnelle. En bout de ligne se trouve un bouton avec une icône en forme de stylo permettant de créer automatiquement la commande correspondante vous octroyant par la même la possibilité de pouvoir utiliser votre module malgré une configuration absente ou erronée.
 
 ## Remplacer un module défaillant

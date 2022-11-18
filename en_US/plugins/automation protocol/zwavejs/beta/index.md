@@ -84,6 +84,8 @@ Once all the modules on mains are initiated and therefore identified, it is impo
 >
 >Unlike the OpenZwave plugin, after this first interview phase, network restarts are instantaneous thereafter.
 
+If, at the end of this phase *(which can be long let's remember)*, you find that a module which was well supported by the Openzwave plugin would not be supported by the Z-Wave JS plugin, we invite you to refer to the paragraph [**Module not or badly recognized**](#Module%20non%20ou%20mal%20reconnu).
+
 ## Module configuration
 
 Unlike the Openzwave plugin, there is no dedicated section for configuring modules. Indeed the configuration of a module is made through the command class Configuration. This is therefore visible among the other class commands of the module in **Values**.
@@ -167,5 +169,23 @@ Before considering switching permanently from the OpenZwave plugin to the Z-Wave
 Then, once certain that the OpenZwave plugin is no longer essential, you can use the [**replacement of equipment and controls**](https://doc.jeedom.com/en_US/core/4.3/replace){:target="\_blank"} of the core to quickly and easily migrate your existing equipment to the new plugin.
 
 ## Module not or badly recognized
+
+If you find that a module is not or is poorly recognized by the Z-Wave JS plugin **while it was well supported by OpenZwave plugin**, you must first ensure that the data present in the window **Values** *(accessible from the equipment page)* update well when the module is physically actuated.
+
+Then, once certain that the module itself is well recognized and that its values are updated, if certain commands remain non-functional it will be necessary to'[open a Jeedom support request](https://doc.jeedom.com/en_US/premiers-pas/#Les%20demandes%20de%20support%20(ou%20tickets)){:target="\_blank"} by imperatively providing the following elements :
+- Manufacturer and exact reference of the module concerned,
+- Description of non-functional commands,
+- Screenshot of **Node information** in the window of the same name,
+- Screenshots of **each block** from the window of **Node values**
+
+To go further, you can physically activate the module and take screenshots of the consecutive value changes, still in the Values window of the node.
+
+>**IMPORTANT**
+>
+>We insist on the fact that the team will initially only process requests for module configurations including all the elements requested above and already functional with the Openzwave plugin.
+
+>**INFORMATION**
+>
+>By physically operating the module, you will be able to identify the line whose values change accordingly in the Node Values window and whose command would not be created or functional. At the end of the line is a button with a pen-shaped icon allowing you to automatically create the corresponding command, thereby giving you the possibility of being able to use your module despite an absent or erroneous configuration.
 
 ## Replace a faulty module
