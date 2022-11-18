@@ -107,3 +107,7 @@ Um diário tem vários comandos :
 >**EM FORMAÇÃO**
 >
 >É possível usar o comando "Em andamento" como um gatilho de cenário. Cada atualização de informação irá disparar a execução do cenário, por isso é preferível usar este comando em um cenário programado com um teste no valor.
+
+>**IMPORTANTE**
+>
+>Atenção é importante não fazer eventos repetidos que se sobrepõem, esse tipo de caso não é gerenciado pelo plugin. Exemplo um evento que dura 48 horas e se repete todos os dias.

@@ -1,0 +1,19 @@
+{
+	"id" : "alexafiretv",
+	"name" : "Alexa - Fire TV",
+	"description" : "Plugin pour interface Fire TV",
+	"licence" : "AGPL",
+	"author" : "Sigalou",
+	"require" : "3.3.24",
+	"version": "0.0.1",
+	"changelog" : "http://jeedom.sigalou-domotique.fr/alexa-api-changelog",
+	"forum_link" : "https://community.jeedom.com/tags/plugin-alexafiretv",
+	"documentation" : "http://jeedom.sigalou-domotique.fr/alexa-fire-tv-documentation",
+	"category" : "multimedia",
+  "hasDependency" : 1,
+  "hasOwnDeamon" : 0,
+	"language" : ["fr_FR","en_US"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+	"maxDependancyInstallTime" : 45
+}
+

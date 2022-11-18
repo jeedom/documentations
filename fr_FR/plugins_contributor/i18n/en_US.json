@@ -638,6 +638,12 @@
         " Market*": " Market*"
     },
     "plugins_contributor\/multimedia\/index.md": {
+        "Alexa - Spotify": "Alexa-Spotify",
+        "Interface Spotify": "Spotify Interface",
+        "Alexa - Fire TV": "Alexa-Fire TV",
+        "Plugin pour interface Fire TV": "Plugin for Fire TV interface",
+        "Alexa - Deezer": "Alexa - Deezer",
+        "Interface Deezer": "Deezer Interface",
         "Alexa - Amazon Music": "Alexa - Amazon Music",
         "Interface Amazon Music": "Amazon Music Interface",
         "Multimédia": "Multimedia",

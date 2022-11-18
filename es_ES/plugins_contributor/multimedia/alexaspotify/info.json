@@ -1,19 +1,30 @@
 {
-	"id" : "alexaspotify",
-	"name" : "Alexa - Spotify",
-	"description" : "Interface Spotify",
-	"licence" : "AGPL",
-	"author" : "Sigalou",
-	"require" : "3.3.24",
-	"version": "0.0.1",
-	"changelog" : "http://sigalou-domotique.fr/plugin-jeedom-alexa-api/65-alexa-api-changelog",
-	"forum_link" : "https://community.jeedom.com/tags/plugin-alexaspotify",
-	"documentation" : "http://sigalou-domotique.fr/plugin-jeedom-alexa-api/97-alexa-sportify-documentation",
-	"category" : "multimedia",
-  "hasDependency" : 0,
-  "hasOwnDeamon" : 0,
-	"language" : ["fr_FR","en_US"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"],
-	"maxDependancyInstallTime" : 0
+  "id": "alexaspotify",
+  "name": "Alexa - Spotify",
+  "description": "Interface Spotify",
+  "licence": "AGPL",
+  "author": "Sigalou",
+  "require": "3.3.24",
+  "version": "0.0.1",
+  "changelog": "http://jeedom.sigalou-domotique.fr/alexa-api-changelog",
+  "forum_link": "https://community.jeedom.com/tags/plugin-alexaspotify",
+  "documentation": "http://jeedom.sigalou-domotique.fr/alexa-spotify-documentation",
+  "category": "multimedia",
+  "hasDependency": 0,
+  "hasOwnDeamon": 0,
+  "language": [
+    "fr_FR",
+    "en_US"
+  ],
+  "compatibility": [
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "mobile",
+    "v4"
+  ],
+  "maxDependancyInstallTime": 0
 }
 

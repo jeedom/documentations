@@ -107,3 +107,7 @@ A diary has several commands :
 >**INFORMATION**
 >
 >It is possible to use the "In progress" command as a scenario trigger. Each information update will trigger the execution of the scenario, so it is preferable to use this command in a scenario programmed with a test on the value.
+
+>**IMPORTANT**
+>
+>Attention it is important not to make repeated event that overlaps itself, this kind of case is not managed by the plugin. Example an event that lasts 48 hours and repeats every day.

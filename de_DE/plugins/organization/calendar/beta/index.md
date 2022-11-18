@@ -107,3 +107,7 @@ Ein Tagebuch hat mehrere Befehle :
 >**INFORMATION**
 >
 >Es ist möglich, den Befehl "In Bearbeitung" als Szenario-Trigger zu verwenden. Jede Informationsaktualisierung löst die Ausführung des Szenarios aus, daher ist es vorzuziehen, diesen Befehl in einem Szenario zu verwenden, das mit einem Test auf den Wert programmiert ist.
+
+>**WICHTIG**
+>
+>Achtung, es ist wichtig, keine wiederholten Ereignisse zu erstellen, die sich überschneiden, diese Art von Fall wird nicht vom Plugin verwaltet. Beispiel ein Ereignis, das 48 Stunden dauert und sich jeden Tag wiederholt.

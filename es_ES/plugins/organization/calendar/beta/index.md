@@ -107,3 +107,7 @@ Un diario tiene varios comandos :
 >**INFORMACIÓN**
 >
 >Es posible utilizar el comando "En curso" como desencadenante de escenario. Cada actualización de información desencadenará la ejecución del escenario, por lo que es preferible utilizar este comando en un escenario programado con una prueba sobre el valor.
+
+>**IMPORTANTE**
+>
+>Atención, es importante no hacer eventos repetidos que se superponen a sí mismos, este tipo de casos no son administrados por el complemento. Ejemplo un evento que dura 48 horas y se repite todos los días.

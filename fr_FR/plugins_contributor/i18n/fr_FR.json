@@ -290,6 +290,12 @@
         "Non supporté": "Non supporté"
     },
     "plugins_contributor\/multimedia\/index.md": {
+        "Alexa - Spotify": "Alexa - Spotify",
+        "Interface Spotify": "Interface Spotify",
+        "Alexa - Fire TV": "Alexa - Fire TV",
+        "Plugin pour interface Fire TV": "Plugin pour interface Fire TV",
+        "Alexa - Deezer": "Alexa - Deezer",
+        "Interface Deezer": "Interface Deezer",
         "Alexa - Amazon Music": "Alexa - Amazon Music",
         "Interface Amazon Music": "Interface Amazon Music",
         "Multimédia": "Multimédia",

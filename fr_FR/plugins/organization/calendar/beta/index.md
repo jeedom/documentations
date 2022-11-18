@@ -107,3 +107,7 @@ Un agenda possède plusieurs commandes :
 >**INFORMATION**
 >
 >Il est possible d’utiliser la commande "En cours" comme déclencheur de scénario. Chaque mise à jour de l’information déclenchera l’exécution du scénario, il est donc préférable d’utiliser cette commande dans un scénario programmé avec un test sur la valeur.
+
+>**IMPORTANT**
+>
+>Attention il ne faut surtout pas faire d'evenement à répétition qui se chevauge lui meme, ce genre de cas n'est pas géré par le plugin. Exemple un evenement qui dure 48h et qui se répéte tous les jours.
