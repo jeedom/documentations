@@ -182,7 +182,7 @@ Pour aller plus loin, vous pouvez actionner physiquement le module et effectuer 
 
 >**IMPORTANT**
 >
->Nous insistons sur le fait que l'équipe ne traitera, dans un premier temps, que les demandes de configurations de module incluant l'intégralité des éléments demandés ci-dessus et déjà fonctionnelles avec le plugin Openzwave.
+>Nous insistons sur le fait que l'équipe ne traitera, dans un premier temps, que les demandes de configurations de module incluant l'intégralité des éléments demandés ci-dessus et déjà fonctionnelles avec le plugin Openzwave. Il est possible que vous ne puissiez pas ajouter vos captures d'écran à la création du ticket, pas d'inquiétude vous serez en mesure de les transmettre dans un second temps en réponse à votre demande.
 
 >**INFORMATION**
 >

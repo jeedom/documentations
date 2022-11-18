@@ -182,7 +182,7 @@ Para ir além, você pode ativar fisicamente o módulo e fazer screenshots das m
 
 >**IMPORTANTE**
 >
->Insistimos no fato de que a equipe inicialmente processará apenas solicitações de configurações de módulos incluindo todos os elementos solicitados acima e já funcionais com o plug-in Openzwave.
+>Insistimos no fato de que a equipe inicialmente processará apenas solicitações de configurações de módulos incluindo todos os elementos solicitados acima e já funcionais com o plug-in Openzwave. Você pode não conseguir adicionar suas capturas de tela ao criar o ticket, não se preocupe, você poderá enviá-las mais tarde em resposta à sua solicitação.
 
 >**EM FORMAÇÃO**
 >

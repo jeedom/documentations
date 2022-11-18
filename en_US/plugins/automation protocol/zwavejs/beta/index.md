@@ -182,7 +182,7 @@ To go further, you can physically activate the module and take screenshots of th
 
 >**IMPORTANT**
 >
->We insist on the fact that the team will initially only process requests for module configurations including all the elements requested above and already functional with the Openzwave plugin.
+>We insist on the fact that the team will initially only process requests for module configurations including all the elements requested above and already functional with the Openzwave plugin. You may not be able to add your screenshots when creating the ticket, don't worry you will be able to send them later in response to your request.
 
 >**INFORMATION**
 >
