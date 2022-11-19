@@ -38,6 +38,7 @@ class myplugin extends eqLogic {
 If your plugin has a specific template for its equipment, the desktop version of it must be updated with `#divGraphInfo#`for display :
 
 `` ``html
+{% raw %}
 <div class="eqLogic eqLogic-widgand allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;height: #height#;#style#">
   <div class="#isVerticalAlign#">
     <center>
@@ -49,7 +50,7 @@ If your plugin has a specific template for its equipment, the desktop version of
 
   </script>
 </div>
-
+{% endraw %}
 `` ``
 
 
@@ -64,6 +65,7 @@ For reference, the new function of the Core:
   <summary markdown="span">eqLogic deadCmdGeneric()</summary>
 
   ~~~ php
+  {% raw %}
   public static function deadCmdGeneric ($ _ plugin_id) {
     $return = array();
     foreach (eqLogic::byType ($ _ plugin_id) as $ eqLogic) {
@@ -83,6 +85,7 @@ For reference, the new function of the Core:
     }
     return $ return;
   }
+  {% endraw %}
   ~~~
 
   You can therefore integrate the same type of return in your plugins, function `deadCmd ()`.

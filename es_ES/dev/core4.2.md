@@ -38,6 +38,7 @@ clase myplugin extiende eqLogic {
 Si su complemento tiene una plantilla específica para su equipo, la versión de escritorio debe actualizarse con `#divGraphInfo#`para exhibición :
 
 `` ``html
+{% raw %}
 <div class="eqLogic eqLogic-widgy allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;height: #height#;#style#">
   <div class="#isVerticalAlign#">
     <center>
@@ -49,7 +50,7 @@ Si su complemento tiene una plantilla específica para su equipo, la versión de
 
   </script>
 </div>
-
+{% endraw %}
 `` ``
 
 
@@ -64,6 +65,7 @@ Como referencia, la nueva función del Core:
   <summary markdown="span">eqLogic deadCmdGeneric()</summary>
 
   ~~~ php
+  {% raw %}
   función estática pública deadCmdGeneric ($ _ plugin_id) {
     $return = array();
     foreach (eqLogic::byType ($ _ plugin_id) como $ eqLogic) {
@@ -83,6 +85,7 @@ Como referencia, la nueva función del Core:
     }
     return $ return;
   }
+  {% endraw %}
   ~~~
 
   Por lo tanto, puede integrar el mismo tipo de retorno en sus complementos, función `deadCmd ()`.

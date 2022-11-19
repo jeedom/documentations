@@ -38,6 +38,7 @@ Klasse myplugin erweitert eqLogic {
 Wenn Ihr Plugin eine bestimmte Vorlage für seine Ausrüstung hat, muss die Desktop-Version davon mit ` . aktualisiert werden#divGraphInfo#`zur Anzeige :
 
 `` ``html
+{% raw %}
 <div class="eqLogic eqLogic-widgund allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;;height: #height#;;#style#">
   <div class="#isVerticalAlign#">
     <center>
@@ -49,7 +50,7 @@ Wenn Ihr Plugin eine bestimmte Vorlage für seine Ausrüstung hat, muss die Desk
 
   </script>
 </div>
-
+{% endraw %}
 `` ``
 
 
@@ -64,6 +65,7 @@ Als Referenz die neue Funktion des Kerns:
   <summary markdown="span">eqLogic deadCmdGeneric()</summary>
 
   ~~~ php
+  {% raw %}
   öffentliche statische Funktion deadCmdGeneric ($ _ plugin_id) {
     $return = array();;
     foreach (eqLogic::byType ($ _ plugin_id) als $ eqLogic) {
@@ -83,6 +85,7 @@ Als Referenz die neue Funktion des Kerns:
     }
     return $ return;
   }
+  {% endraw %}
   ~~~
 
   Sie können daher die gleiche Art der Rückgabe in Ihre Plugins integrieren, die Funktion `deadCmd ()`.
