@@ -79,32 +79,34 @@ Mais il faut y penser, y commencer un jour !
 
 Le Core 4.4 intègre donc les fonctions de bases que sont setValues() y getValues(), qui sont maintenant également prototypées sur les **NodeList** y **Element**, comme elles le sont sur $.fn historiquement. Quelques fonctions ont également été implémentées comme last(), triggerEvent(), isHidden(), empty(), addClass(),  removeClass(), toggleClass(), hasClass(). Le but n'est pas de refaire un jQuery bien sûr, mais proposer des raccourcis fonctionnels quand c'est nécessaire.
 
+Pour une transition plus facile y une meilleure maintenance, les nouvelles fonctions getValues() y setValues() sur le DOM sont setJeeValues() y getJeeValues().
+
 Quelques exemples:
 
 <details>
 
   <summary markdown="span">jQuery to pure js()</summary>
 
-    ~~~ js
-    {% raw %}
-    $('#table_objectSummary tbody').append(tr)
-    $('#table_objectSummary tbody tr').last().setValues(_summary, '.objectSummaryAttr')
+  ~~~ js
+  {% raw %}
+  $('#table_objectSummary tbody').append(tr)
+  $('#table_objectSummary tbody tr').last().setValues(_summary, '.objectSummaryAttr')
 
-    //Devient:
-    document.querySelector('#table_objectSummary tbody').insertAdjacentHTML('beforeend', tr)
-    document.querySelectorAll('#table_objectSummary tbody tr').last().setValues(_summary, '.objectSummaryAttr')
+  //Devient:
+  document.querySelector('#table_objectSummary tbody').insertAdjacentHTML('beforeend', tr)
+  document.querySelectorAll('#table_objectSummary tbody tr').last().setJeeValues(_summary, '.objectSummaryAttr')
 
-    //Ou:
-    var eqId = $('.eqLogicAttr[datos-l1key=id]').value()
-    var config = $('#config').getValues('.configKey')[0]
-    var expression = $(this).closest('.actionOnMessage').getValues('.expressionAttr')
+  //Ou:
+  var eqId = $('.eqLogicAttr[datos-l1key=id]').value()
+  var config = $('#config').getValues('.configKey')[0]
+  var expression = $(this).closest('.actionOnMessage').getValues('.expressionAttr')
 
-    //Devient:
-    var eqId = document.querySelector('.eqLogicAttr[datos-l1key="id"]').jeeValue()
-    var config = document.getElementById('config').getValues('.configKey')[0]
-    var expression = this.closest('.actionOnMessage').getValues('.expressionAttr')
-    {% endraw %}
-    ~~~
+  //Devient:
+  var eqId = document.querySelector('.eqLogicAttr[datos-l1key="id"]').jeeValue()
+  var config = document.getElementById('config').getJeeValues('.configKey')[0]
+  var expression = this.closest('.actionOnMessage').getJeeValues('.expressionAttr')
+  {% endraw %}
+  ~~~
 
 </details>
 
