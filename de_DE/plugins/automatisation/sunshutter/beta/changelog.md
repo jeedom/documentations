@@ -1,6 +1,6 @@
 # Changelog Shutter Management
 
->****
+>**Wichtig**
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
@@ -18,7 +18,7 @@
 
 - Codeoptimierung
 
-# 
+# 24/11/2020
 
 - Neue Darstellung der Objektliste
 - Hinzufügung des Tags "V4-Kompatibilität"

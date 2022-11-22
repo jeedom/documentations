@@ -4,7 +4,7 @@ The plugin **Management of shutters** will allow you to easily manage the automa
 
 Well understood, this plugin is able to replace all the scenarios relating to the opening, closing or positioning of your shutters. You can find an example of use by reading [this blog article written by Loïc](https://www.jeedom.com/blog/?p=4310){:target = "\_ blank"}.
 
->****
+>**Important**
 >
 >The plugin **Management of shutters** only works with equipment that has **an action / cursor command** allowing to **position the shutter at a certain opening / closing percentage**. If your shutter only works when opening / closing, the plugin will not be usable.
 
@@ -16,7 +16,7 @@ The plugin **Management of shutters** just needs to be enabled after installatio
 
 To access the various equipment of **Management of shutters**, you have to go to the menu **Plugins → Automation → Shutters Management**.
 
->****
+>**INFORMATION**
 >    
 >The button **+ Add** allows you to add a new shutter to automate.
 
@@ -25,23 +25,23 @@ All of the automation configuration for each component is carried out from the f
 - **Component name** : Name of equipment.
 - **Parent object** : Indicates the parent object to which the equipment belongs.
 - **Category** : Allows you to choose the equipment category.
-- **** :
-    - **** : Used to make the equipment active.
-    - **** : Make equipment visible.
+- **Options** :
+    - **Activate** : Used to make the equipment active.
+    - **Visible** : Make equipment visible.
 
 Below, we will be able to configure the automatic management engine itself :
 
 - **Condition for verification** : Condition to be fulfilled for automatic management to activate, if this condition is not true, the plugin will not modify the position of the pane *(empty by default = always active)*.
 - **Frequency of verification** : Frequency of checking exceptions and positioning conditions.
 - **Regain control** : Authorize or not the automatic management system to modify the position of the shutter if it has been operated manually.
->* : the system closes the shutter then you open it manually a few minutes later, then the automatic management will only be done if **Regain control** is at "****" or that the recovery time has passed or that the order **Take over management** is triggered.*
+>*Example : the system closes the shutter then you open it manually a few minutes later, then the automatic management will only be done if **Regain control** is at "**Yes**" or that the recovery time has passed or that the command **Take over management** is triggered.*
 
 - **Resume on change of mode** : Check the box to resume automatic management in the event of a change of mode.
 - **Priority immediate action** : Check the box to have immediate action exceptions run regardless of other conditions, even if suspended.
 
->****
+>**Important**
 >
->The "modes" mentioned here relate to the modes defined from the tab **** of each plugin equipment **Shutters management** and do not in any way refer to any plugin modes ****.
+>The "modes" mentioned here relate to the modes defined from the tab **Commands** of each plugin equipment **Shutters management** and do not in any way refer to any plugin modes **Mode**.
 
 Subsequently it will be necessary to indicate the coordinates of the building to be able to calculate the position of the sun :
 
@@ -49,9 +49,9 @@ Subsequently it will be necessary to indicate the coordinates of the building to
 
 ou
 
-- **** : The latitude of the building or shutter.
-- **** : The longitude of the building or shutter.
-- **** : The altitude of the building or shutter.
+- **Latitude** : The latitude of the building or shutter.
+- **Longitude** : The longitude of the building or shutter.
+- **Altitude** : The altitude of the building or shutter.
 
 Finally, all that remains is to fill in the information relating to the control of the shutter :
 
@@ -62,40 +62,40 @@ Finally, all that remains is to fill in the information relating to the control 
 - **Refresh command** : Fill in the action command to refresh the position of the shutter *(facultatif)*.
 - **Default action** : Action that will be performed by default if no exception or position is valid.
 
-![](../images/sunshutter_eqLogicConfig.png)
+![Setup](../images/sunshutter_eqLogicConfig.png)
 
 # Exceptions
 
 This tab will allow you to define specific rules that will be an exception to the conditions relating to the position of the sun in the following tab. The rules are checked one after the other, the automatic management engine stops at the first valid rule and places the shutter in the indicated position.
 
-- **** : The condition to be fulfilled for the rule to be valid *(facultatif)*.
-- **** : If entered, the condition will only be valid if the shutter is currently in the specified mode. It is possible to specify several modes by separating them with commas *(facultatif)*.
+- **Condition** : The condition to be fulfilled for the rule to be valid *(facultatif)*.
+- **Mode** : If entered, the condition will only be valid if the shutter is currently in the specified mode. It is possible to specify several modes by separating them with commas *(facultatif)*.
 - **Immediate exception** : Check the box to have the rule run immediately as soon as the condition is valid.
-- **** : Check the box to suspend automatic management as long as the rule is valid.
-- **** : The desired position in percentage if the rule is valid *(empty = no action)*.
-- **** : Label associated with the validation of the exception rule *(facultatif)*.
+- **To suspend** : Check the box to suspend automatic management as long as the rule is valid.
+- **Position** : The desired position in percentage if the rule is valid *(empty = no action)*.
+- **Label** : Label associated with the validation of the exception rule *(facultatif)*.
 
-![](../images/sunshutter_exceptions.png)
+![Exceptions](../images/sunshutter_exceptions.png)
 
 # Positionnement
 
 It is within this tab that you will be able to manage the positioning of the shutter automatically according to the position of the sun.
 
-- **** : Condition, complementary to the position, to be fulfilled for the positioning of the shutter to be validated *(facultatif)*.
-- **** : Fill in the azimuth limits of the sun in degrees between which the condition will be valid.
+- **Condition** : Condition, complementary to the position, to be fulfilled for the positioning of the shutter to be validated *(facultatif)*.
+- **Azimuth** : Fill in the azimuth limits of the sun in degrees between which the condition will be valid.
 - **Elevation** : Fill in the sun elevation limits in degrees between which the condition will be valid.
-- **** : The desired position in percentage if the positioning conditions (and additional if applicable) are valid.
-- **** : Label associated with the validation of the positioning condition *(facultatif)*.
+- **Position** : The desired position in percentage if the positioning conditions (and additional if applicable) are valid.
+- **Label** : Label associated with the validation of the positioning condition *(facultatif)*.
 
 ![Conditions](../images/sunshutter_conditions.png)
 
->****
+>**TRICK**
 >
->The site [](https://www.){:target = "\_ blank"} allows, once your address entered, to visualize the position of the sun and the angles of azimuth and elevation according to the hours of the day *(just drag the little sun up)*.
+>The site [suncalc.org](https://www.suncalc.org){:target = "\_ blank"} allows, once your address entered, to visualize the position of the sun and the angles of azimuth and elevation according to the hours of the day *(just drag the little sun up)*.
 
 # Programmation
 
-This tab only appears if the plugin **** is installed on your Jeedom. It lists the programming of the plugin **** acting on the automatic management of this component to, for example, plan a suspension and a manual resumption during a child's nap hours.
+This tab only appears if the plugin **Agenda** is installed on your Jeedom. It lists the programming of the plugin **Agenda** acting on the automatic management of this component to, for example, plan a suspension and a manual resumption during a child's nap hours.
 
 # Commandes
 
@@ -103,29 +103,29 @@ This last tab gives access to the list of commands and allows to define / delete
 
 - **Sun azimuth** : Current azimuth angle of the sun.
 - **Sun rise** : Current elevation angle of the sun.
-- **** : Force update of orders **Sun azimuth**  **Sun rise**.
->It is of course possible to use the values of the commands **Azimuth sun**  **Sun rise** elsewhere in Jeedom.
+- **Refresh** : Force commands update **Sun azimuth** and **Sun rise**.
+>It is of course possible to use the values of the commands **Azimuth sun** and **Sun rise** elsewhere in Jeedom.
 
 - **Management status** : Current state of automatic management in binary *(0 = suspended / 1 = active)*.
 - **Force action** : Force the calculation of the position of the shutter according to the position of the sun and the exceptions and applies the positioning regardless of the state of the automatic management *(suspended or not)*.
 - **Last Position** : Last position requested from the shutter by the plugin.
-- **** : Label corresponding to an exception or a valid positioning condition.
-- **** : Suspends automatic shutter management.
+- **Label** : Label corresponding to an exception or a valid positioning condition.
+- **To suspend** : Suspends automatic shutter management.
 - **Suspend (Label)** : Current status of the automatic shutter management suspension *(None / Manual / Auto)*.
-- **** : Force restart of automatic management.
->This is the command that must be executed to switch back to automatic management if you have changed the position of your shutter manually and configured **Regain control** at "****".
+- **Resume** : Force restart of automatic management.
+>This is the command that must be executed to switch back to automatic management if you have changed the position of your shutter manually and configured **Regain control** at "**No**".
 
-- **** : Current shutter mode.
+- **Mode** : Current shutter mode.
 
 The blue button **Add a mode** allows you to add a new action command whose name will correspond to the new current mode from the moment it is executed.
 
->****
+>**TRICK**
 >
->You can, for example, define a mode **** and a mode **** and adjust the opening and closing of your shutter according to these 2 modes.
+>You can, for example, define a mode **Day** and a mode **Night** and adjust the opening and closing of your shutter according to these 2 modes.
 
 # Santé
 
-The plugin **Management of shutters** has a window ****, on the general equipment page, which allows you to view at a glance the configurations of each automatic management.
+The plugin **Management of shutters** has a window **Health**, on the general equipment page, which allows you to view at a glance the configurations of each automatic management.
 
 # Panel
 
