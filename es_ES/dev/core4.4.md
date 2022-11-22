@@ -89,22 +89,48 @@ Quelques exemples:
 
   ~~~ js
   {% raw %}
+  //jQuery:
   $('#table_objectSummary tbody').append(tr)
   $('#table_objectSummary tbody tr').last().setValues(_summary, '.objectSummaryAttr')
 
-  //Devient:
+  //Pure js:
   document.querySelector('#table_objectSummary tbody').insertAdjacentHTML('beforeend', tr)
   document.querySelectorAll('#table_objectSummary tbody tr').last().setJeeValues(_summary, '.objectSummaryAttr')
 
-  //Ou:
+  //jQuery:
   var eqId = $('.eqLogicAttr[datos-l1key=id]').value()
   var config = $('#config').getValues('.configKey')[0]
   var expression = $(this).closest('.actionOnMessage').getValues('.expressionAttr')
 
-  //Devient:
+  //Pure js:
   var eqId = document.querySelector('.eqLogicAttr[datos-l1key="id"]').jeeValue()
   var config = document.getElementById('config').getJeeValues('.configKey')[0]
   var expression = this.closest('.actionOnMessage').getJeeValues('.expressionAttr')
+
+  //jQuery:
+  addMyTr: function(_data) {
+    var tr = '<tr>'
+    tr += '<td>'
+    tr += '</td>'
+    tr += '</tr>'
+    ly newRow = $(tr)
+    newRow.setValues(data, '.mytrDataAttr')
+    $('#table_stuff tbody').append(newRow)
+    //return newRow
+  }
+
+  //Pure js:
+  addMyTr: function(_data) {
+    var tr = '<tr>'
+    tr += '<td>'
+    tr += '</td>'
+    tr += '</tr>'
+    ly newRow = document.createElement('tr')
+    newRow.innerHTML = tr
+    newRow.setJeeValues(_data, '.mytrDataAttr')
+    document.getElementById('table_stuff').querySelector('tbody').appendChild(newRow)
+    //return newRow
+  }
   {% endraw %}
   ~~~
 
