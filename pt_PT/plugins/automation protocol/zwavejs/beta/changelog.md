@@ -4,6 +4,15 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# XX/11/2022
+
+**Melhorias**
+
+- Adição de um visual para um *parâmetro ou ativação* pendente
+- Adição de uma página que permite ver todas as *definições* pendente
+- Adição de uma página webapp que permite ver todos os *definições* pendente
+- Adição de um botão de exclusão na página *Pendente*. Permite deletar uma linha em espera. Isto não apaga a ordem que foi enviada para o controlador mas apenas a informação pendente no Jeedom (útil para parâmetros de calibração por exemplo que nunca levam o valor enviado ou qualquer outro parâmetro onde seria inútil)
+
 # 21/11/2022
 
 **Conserta**

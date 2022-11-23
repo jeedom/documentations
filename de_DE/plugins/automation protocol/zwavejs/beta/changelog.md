@@ -4,6 +4,15 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# XX/11/2022
+
+**Verbesserungen**
+
+- Hinzufügen eines Bildmaterials für a *Parameter oder Wakeup* steht aus
+- Hinzufügung einer Seite, auf der alle angezeigt werden können *die Einstellungen* steht aus
+- Hinzufügen einer Webapp-Seite, auf der alle angezeigt werden können *die Einstellungen* steht aus
+- Hinzufügen einer Schaltfläche zum Löschen auf der Seite *Ausstehend*. Ermöglicht das Löschen einer gehaltenen Leitung. Dies löscht nicht den Auftrag, der an den Controller gesendet wurde, sondern nur die in Jeedom anstehenden Informationen (nützlich für Kalibrierungsparameter zum Beispiel, die niemals den gesendeten Wert annehmen, oder andere Parameter, bei denen er unbrauchbar wäre)
+
 # 21.11.2022
 
 **Behebt**

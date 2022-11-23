@@ -4,6 +4,15 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# XX/11/2022
+
+**Améliorations**
+
+- Rajout d'un visuel pour un *paramètre ou wakeup* en attente
+- Rajout d'une page permettant de voir tous les *paramètres* en attente
+- Rajout d'une page webapp permettant de voir tous les *paramètres* en attente
+- Rajout d'un bouton supprimer sur la page *En attente*. Permet de supprimer une ligne en attente. Celui-ci ne supprime pas l'ordre qui a été envoyé au contrôleur mais seulement l'information en attente dans Jeedom (utile pour les paramètres de calibration par exemple qui ne prennent jamais la valeur envoyée ou tout autre paramètre où ca serait inutile)
+
 # 21/11/2022
 
 **Corrections**

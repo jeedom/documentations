@@ -4,6 +4,15 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# XX/11/2022
+
+**Mejoras**
+
+- Adición de una imagen para un *parámetro o despertar* a la espera
+- Adición de una página que permite ver todos los *configuraciones* a la espera
+- Adición de una página webapp que permite ver todos los *configuraciones* a la espera
+- Adición de un botón de eliminar en la página *A la espera*. Le permite eliminar una línea en espera. Esto no elimina la orden que se ha enviado al controlador, sino solo la información pendiente en Jeedom (útil para los parámetros de calibración, por ejemplo, que nunca toman el valor enviado o cualquier otro parámetro donde sería inútil))
+
 # 21/11/2022
 
 **Arreglos**

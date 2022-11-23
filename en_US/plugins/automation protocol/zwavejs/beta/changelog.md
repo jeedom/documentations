@@ -4,6 +4,15 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# XX/11/2022
+
+**Improvements**
+
+- Addition of a visual for a *parameter or wakeup* pending
+- Addition of a page allowing to see all the *settings* pending
+- Addition of a webapp page allowing to see all the *settings* pending
+- Addition of a delete button on the page *Pending*. Allows you to delete a line on hold. This does not delete the order that has been sent to the controller but only the information pending in Jeedom (useful for calibration parameters for example which never take the value sent or any other parameter where it would be useless)
+
 # 21/11/2022
 
 **Fixes**
