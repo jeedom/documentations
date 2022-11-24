@@ -4,7 +4,7 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
-# 17/11/2022
+# 11/18/2022
 
 - Added a message prompting to restore permissions on folders before installing Mosquitto in case of error **No SSL folder found**
 
