@@ -4,7 +4,7 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# XX/11/2022
+# 23/11/2022
 
 **Améliorations**
 
@@ -12,6 +12,21 @@
 - Rajout d'une page permettant de voir tous les *paramètres* en attente
 - Rajout d'une page webapp permettant de voir tous les *paramètres* en attente
 - Rajout d'un bouton supprimer sur la page *En attente*. Permet de supprimer une ligne en attente. Celui-ci ne supprime pas l'ordre qui a été envoyé au contrôleur mais seulement l'information en attente dans Jeedom (utile pour les paramètres de calibration par exemple qui ne prennent jamais la valeur envoyée ou tout autre paramètre où ca serait inutile)
+
+
+**Modifications de Configurations**
+
+- Modification de la configuration *Popp Strike Lock* pour utiliser la propriété opening (pour le contact)
+- Modification de la configuration *Fibaro FGD212* pour ajouter la gestion des différences à partir du firmware 3.5 (endpoint 1 sur firmware <= 3.4 endpoint 0 sur target seulement sinon)
+- Modification de la propriété *Door Lock* pour ajouter le Déverrouillage (avec timeout) sur tous les dispositifs utilisant cette propriété
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Hank Smart Plug (HKZW-SO08)* (propriétés : Switch, Power, Energy, Voltage, Current, Scene)
+- Ajout de la configuration *Idinio foot dimmer* (propriétés : Multilevel, Power, Energy)
+- Ajout des paramètres pour *Hank Smart Plug (HKZW-SO08)*
+
+*Si vous êtes concernés par une modification ou un ajout de configuration, rechargez les commandes de l'équipement en "recréant toutes les commandes" après la mise à jour.*
 
 # 21/11/2022
 

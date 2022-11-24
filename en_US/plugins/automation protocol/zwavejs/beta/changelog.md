@@ -4,7 +4,7 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# XX/11/2022
+# 23/11/2022
 
 **Improvements**
 
@@ -12,6 +12,21 @@
 - Addition of a page allowing to see all the *settings* pending
 - Addition of a webapp page allowing to see all the *settings* pending
 - Addition of a delete button on the page *Pending*. Allows you to delete a line on hold. This does not delete the order that has been sent to the controller but only the information pending in Jeedom (useful for calibration parameters for example which never take the value sent or any other parameter where it would be useless)
+
+
+**Configuration Changes**
+
+- Changing the configuration *Popp Strike Lock* to use the opening property (for the contact)
+- Changing the configuration *Fibaro FGD212* to add difference management from firmware 3.5 (endpoint 1 on firmware <= 3.4 endpoint 0 on target only otherwise)
+- Change of ownership *Door Lock* to add Unlock (with timeout) on all devices using this property
+
+**Configuration Additions**
+
+- Added config *Hank Smart Plug (HKZW-SO08)* (properties : Switch, Power, Energy, Voltage, Current, Scene)
+- Added config *Idinio foot dimmer* (properties : Multilevel, Power, Energy)
+- Added parameters for *Hank Smart Plug (HKZW-SO08)*
+
+*If you are affected by a configuration change or addition, reload the commands of the equipment by "recreating all commands" after the update.*
 
 # 21/11/2022
 
