@@ -4,6 +4,13 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 20/11/2022
+
+- Adicionado suporte Luna
+- Nova caixa de renomeação modal
+- Ativação automática de DNS
+- Nova IU
+
 # 26/04/2022
 
 - Correção de bug

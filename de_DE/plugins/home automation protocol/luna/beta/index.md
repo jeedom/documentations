@@ -10,11 +10,13 @@ Im Moment berücksichtigt das Plugin nur Zugriffe mit DHCP.
 
 > Aktualisierung des Wiederherstellungsmoduls
 
-La mise à jour permet de mettre la dernière image en place sur le la Luna, celle-ci utilisera cette image lors d'un recovery (bouton reset de la box ou bouton recovery sur le plugin) Cliquer sur le bouton recovery, La luna téléchargera la dernière version de son image et reboutera, les leds vertes dessus celle-ci vont clignoter une fois fixe vous pourrez y accéder de nouveau via son adresse ip ou via http://jeedomluna.local, die Wiederherstellungssoftware ist auf dem neuesten Stand.
+Das Update bringt das neueste Image auf die Luna; Es wird dieses Image während einer Wiederherstellung verwenden (Reset-Taste auf der Box oder Wiederherstellungstaste auf dem Plugin).
+Klicken Sie auf die Wiederherstellungsschaltfläche; die Luna lädt die neueste Version ihres Images herunter und startet neu, die grünen LEDs auf der Luna-Box blinken. 
+Une fois ces dernières fixes, vous pourrez y accéder de nouveau via son adresse IP ou via http://jeedomluna.lokal; Die Wiederherstellungssoftware ist auf dem neuesten Stand.
 
 > Wiederherstellung (Reset Factory)
 
-Bei einem Werksreset wird die Box gemäß dem aktualisierten Image über die oben angegebene Schaltfläche auf die Werkskonfiguration zurückgesetzt. ACHTUNG Sie müssen vor diesem Vorgang eine Sicherungskopie Ihrer Box erstellen, da Sie in dieser Phase alles verlieren. (außer Backup auf SD).
+Bei einem Werksreset wird die Box gemäß dem aktualisierten Image über die oben angegebene Schaltfläche auf die Werkskonfiguration zurückgesetzt. WARNUNG : Sie müssen vor diesem Vorgang eine Sicherungskopie Ihrer Box erstellen, da Sie in dieser Phase alles verlieren. (außer Backup auf SD).
 
 > LED
 
@@ -22,11 +24,11 @@ Sie können über den Befehl Typ auswählen die Farbe und Animation der LED änd
 
 > Batterie
 
-Sie können über zwei Rückmeldungen den Batterieprozentsatz sowie die Art der Stromversorgung Ihrer Box angeben. (Laden, Entladen, Voll etc…).
+Sie können über zwei Rückmeldungen den Batterieprozentsatz sowie die Art der Stromversorgung Ihrer Box abrufen. (Laden, Entladen, Voll etc…).
 
 > SD
 
-Ermöglicht die Verwaltung (Formatierung) der Micro-SD-Karte, die Sie der Box hinzufügen können. sowie die Übertragung von Jeedom-Backups auf diese SD-Karte.
+Ermöglicht die Verwaltung (Formatierung) der Micro-SD-Karte, die Sie der Box hinzufügen können, sowie die Übertragung von Jeedom-Backups auf diese SD-Karte.
 
 > Hotspot (ALPHA))
 

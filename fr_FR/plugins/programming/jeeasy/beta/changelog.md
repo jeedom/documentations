@@ -4,6 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 20/11/2022
+
+- Ajout Prise en charge Luna
+- Nouvelle Modale Renommer Box
+- Activation DNS automatique
+- Nouvelle UI
+
 # 26/04/2022
 
 - Correction de bugs

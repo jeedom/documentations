@@ -1,18 +1,16 @@
 # Changelog Luna
 
-# Changelog Luna
-
 # Changelog luna plugin
 
 >**IMPORTANT**
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
-# 19/11.2022
+# 11/19/2022
 
 - SD (management)
-- Fix Luna battery (management of Linux shutdown as well as battery in systemd).
-- spelling corrections (thanks FuraxWorld)
+- Fix Luna Battery (management of Linux shutdown as well as the battery in the system).
+- Spelling corrections (thanks FuraxWorld)
 
 # 3/11/2022
 

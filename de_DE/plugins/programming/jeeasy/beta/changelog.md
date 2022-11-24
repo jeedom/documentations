@@ -1,8 +1,15 @@
 # Changelog jeeasy
 
->**Wichtig**
+>**WICHTIG**
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
+
+# 20.11.2022
+
+- Luna-Unterstützung hinzugefügt
+- Neues modales Umbenennungsfeld
+- Automatische DNS-Aktivierung
+- Neue Benutzeroberfläche
 
 # 26.04.2022
 
