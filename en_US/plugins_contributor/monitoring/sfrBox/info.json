@@ -1,0 +1,13 @@
+{
+	"id" : "sfrBox",
+	"name" : "sfrBox",
+	"description" : "Plugin pour contrôler sfr/neuf box",
+	"licence" : "AGPL",
+	"author" : "Limad44",
+	"require" : "4.0.1",
+	"category" : "monitoring",
+	"changelog" : "https://limad.github.io/plugins-docs/plugin-sfrBox/fr_FR/changelog.html",
+	"documentation" : "https://limad.github.io/plugins-docs/plugin-sfrBox/",
+	"language" : ["fr_FR","en_US"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+}
