@@ -6,6 +6,12 @@
 
 # XX/11/2022
 
+**Mejoras**
+
+- Adición de un *Gestión de versiones de la interfaz de usuario de ZwaveJS*
+- Adición de un mensaje en el *centro de mensajes* y en la página del complemento cuando ZwaveJS UI *necesita ser actualizado*
+- Paso de la *Versión de la interfaz de usuario de ZwaveJS* a versión *8.5.1* 
+
 **Cambios de configuración**
 
 - Cambiar la configuración de *Enchufe inteligente Hank (HKZW-SO08)* (Problema de visualización)

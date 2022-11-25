@@ -6,6 +6,12 @@
 
 # XX/11/2022
 
+**Melhorias**
+
+- Adição de um *Gerenciamento de versão da interface do usuário do ZwaveJS*
+- Adição de uma mensagem no *centro de mensagens* e na página do plugin quando ZwaveJS UI *precisa ser atualizado*
+- Passagem do *Versão da IU do ZwaveJS* para versão *8.5.1* 
+
 **Alterações de configuração**
 
 - Alterar configurações para *Plugue Inteligente Hank (HKZW-SO08)* (problema de exibição)

@@ -6,6 +6,12 @@
 
 # XX/11/2022
 
+**Verbesserungen**
+
+- Ergänzung von a *Versionsverwaltung der ZwaveJS-Benutzeroberfläche*
+- Hinzufügen einer Nachricht in der *Nachrichtenzentrum* und auf der Plugin-Seite, wenn ZwaveJS UI *muss aktualisiert werden*
+- Durchgang der *ZwaveJS-UI-Version* zu Version *8.5.1* 
+
 **Konfigurationsänderungen**
 
 - Einstellungen ändern für *Hank Smart Plug (HKZW-SO08)* (Anzeigeproblem)
