@@ -4,7 +4,7 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# XX/11/2022
+# 25/11/2022
 
 **Melhorias**
 

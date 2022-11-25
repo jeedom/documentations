@@ -8,10 +8,39 @@
 
 **Verbesserungen**
 
+- Ergänzung von a *Versionsverwaltung der ZwaveJS-Benutzeroberfläche*
+- Hinzufügen einer Nachricht in der *Nachrichtenzentrum* und auf der Plugin-Seite, wenn ZwaveJS UI *muss aktualisiert werden*
+- Durchgang der *ZwaveJS-UI-Version* zu Version *8.5.1* 
+
+**Konfigurationsänderungen**
+
+- Einstellungen ändern für *Hank Smart Plug (HKZW-SO08)* (Anzeigeproblem)
+
+*Wenn Sie von einer Konfigurationsänderung oder -ergänzung betroffen sind, laden Sie nach dem Update die Befehle der Geräte neu, indem Sie „alle Befehle neu erstellen“.*
+
+# 23.11.2022
+
+**Verbesserungen**
+
 - Hinzufügen eines Bildmaterials für a *Parameter oder Wakeup* steht aus
 - Hinzufügung einer Seite, auf der alle angezeigt werden können *die Einstellungen* steht aus
 - Hinzufügen einer Webapp-Seite, auf der alle angezeigt werden können *die Einstellungen* steht aus
-- Hinzufügen einer Schaltfläche zum Löschen auf der Seite *Ausstehend*. Ermöglicht das Löschen einer gehaltenen Leitung. Dies löscht nicht den Auftrag, der an den Controller gesendet wurde, sondern nur die in Jeedom anstehenden Informationen (nützlich für Kalibrierungsparameter zum Beispiel, die niemals den gesendeten Wert annehmen, oder andere Parameter, bei denen er unbrauchbar wäre)
+- Hinzufügen einer Schaltfläche zum Löschen auf der Seite *Steht aus*. Ermöglicht das Löschen einer gehaltenen Leitung. Dies löscht nicht den Auftrag, der an den Controller gesendet wurde, sondern nur die in Jeedom anstehenden Informationen (nützlich für Kalibrierungsparameter zum Beispiel, die niemals den gesendeten Wert annehmen, oder andere Parameter, bei denen er unbrauchbar wäre)
+
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Popp Strike Lock* um die Öffnungseigenschaft zu verwenden (für den Kontakt)
+- Ändern der Konfiguration *Fibaro FGD212* Unterschiedsverwaltung von Firmware 3 hinzuzufügen.5 (Endpunkt 1 auf Firmware <= 3.4 Endpunkt 0 auf Ziel nur sonst)
+- Besitzwechsel *Türschloss* Unlock (mit Timeout) auf allen Geräten hinzuzufügen, die diese Eigenschaft verwenden
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Hank Smart Plug (HKZW-SO08)* (Eigenschaften : Schalter, Leistung, Energie, Spannung, Strom, Szene)
+- Konfig hinzugefügt *Idinio Fußdimmer* (Eigenschaften : Multilevel, Leistung, Energie)
+- Parameter hinzugefügt für *Hank Smart Plug (HKZW-SO08)*
+
+*Wenn Sie von einer Konfigurationsänderung oder -ergänzung betroffen sind, laden Sie nach dem Update die Befehle der Geräte neu, indem Sie „alle Befehle neu erstellen“.*
 
 # 21.11.2022
 
