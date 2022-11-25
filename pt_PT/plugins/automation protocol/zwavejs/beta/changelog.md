@@ -4,6 +4,14 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# XX/11/2022
+
+**Alterações de configuração**
+
+- Alterar configurações para *Plugue Inteligente Hank (HKZW-SO08)* (problema de exibição)
+
+*Se você for afetado por uma alteração ou adição de configuração, recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
+
 # 23/11/2022
 
 **Melhorias**

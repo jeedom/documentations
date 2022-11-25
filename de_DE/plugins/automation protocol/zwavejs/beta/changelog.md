@@ -4,6 +4,14 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# XX/11/2022
+
+**Konfigurationsänderungen**
+
+- Einstellungen ändern für *Hank Smart Plug (HKZW-SO08)* (Anzeigeproblem)
+
+*Wenn Sie von einer Konfigurationsänderung oder -ergänzung betroffen sind, laden Sie nach dem Update die Befehle der Geräte neu, indem Sie „alle Befehle neu erstellen“.*
+
 # 23.11.2022
 
 **Verbesserungen**

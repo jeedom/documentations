@@ -4,6 +4,14 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# XX/11/2022
+
+**Modifications de Configurations**
+
+- Modification des paramètres pour *Hank Smart Plug (HKZW-SO08)* (problème d'affichage)
+
+*Si vous êtes concernés par une modification ou un ajout de configuration, rechargez les commandes de l'équipement en "recréant toutes les commandes" après la mise à jour.*
+
 # 23/11/2022
 
 **Améliorations**

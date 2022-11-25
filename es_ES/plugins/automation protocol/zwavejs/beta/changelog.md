@@ -4,6 +4,14 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# XX/11/2022
+
+**Cambios de configuración**
+
+- Cambiar la configuración de *Enchufe inteligente Hank (HKZW-SO08)* (Problema de visualización)
+
+*Si se ve afectado por un cambio o adición de configuración, vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+
 # 23/11/2022
 
 **Mejoras**

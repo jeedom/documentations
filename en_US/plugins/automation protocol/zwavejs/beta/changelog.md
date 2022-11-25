@@ -4,6 +4,14 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# XX/11/2022
+
+**Configuration Changes**
+
+- Change settings for *Hank Smart Plug (HKZW-SO08)* (display issue)
+
+*If you are affected by a configuration change or addition, reload the commands of the equipment by "recreating all commands" after the update.*
+
 # 23/11/2022
 
 **Improvements**
