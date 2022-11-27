@@ -4,6 +4,29 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# XX/11/2022
+
+**Conserta**
+
+- Correção em *parâmetros de configuração* em ordem de *para evitar o envio de 0 em primeiro lugar* durante uma escolha do tipo lista (em um parâmetro que o propõe)
+
+**Melhorias**
+
+- Adição de um *RELANÇAR* necessário do motor *em caso de falha na exclusão*
+- Exibição da mensagem referente ao *0 ordem* que no caso de um *nó iniciado*
+
+**Alterações de configuração**
+
+- Mudando a configuração *Aeotec TriSensor* para usar as propriedades
+- Mudando a configuração *Hank HKZW-MS02* para usar as propriedades
+- Mudando a configuração *Philio PSM02* para usar as propriedades
+- Mudando a configuração *Everspring AN158* para usar as propriedades
+- Mudando a configuração *Sensor de ambiente Danfoss* para usar as propriedades
+- Adição à propriedade *Luminância* um modo em %
+- Mudança de propriedade *Termostato de ponto de ajuste* para ter as instruções com o widget *botão* por padrão
+
+*Se você for afetado por uma alteração ou adição de configuração, recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
+
 # 25/11/2022
 
 **Melhorias**

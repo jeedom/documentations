@@ -4,6 +4,29 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# XX/11/2022
+
+**Behebt**
+
+- Korrektur an *Konfigurationsparameter* um zu *um zu vermeiden, dass 0 überhaupt gesendet wird* während einer Auswahl vom Listentyp (auf einem Parameter, der dies vorschlägt)
+
+**Verbesserungen**
+
+- Ergänzung von a *NEUSTART* des Motors notwendig *bei gescheitertem Ausschluss*
+- Anzeige der Meldung bezüglich der *0 Bestellung* das im Fall von a *initiierter Knoten*
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Aeotec TriSensor* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Hank HKZW-MS02* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Philio PSM02* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Everspring AN158* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Raumfühler von Danfoss* um die Eigenschaften zu verwenden
+- Hinzufügung zum Eigentum *Leuchtdichte* ein Modus in %
+- Besitzwechsel *Sollwertthermostat* um die Anweisungen mit dem Widget zu haben *Taste* standardmäßig
+
+*Wenn Sie von einer Konfigurationsänderung oder -ergänzung betroffen sind, laden Sie nach dem Update die Befehle der Geräte neu, indem Sie „alle Befehle neu erstellen“.*
+
 # 25.11.2022
 
 **Verbesserungen**
