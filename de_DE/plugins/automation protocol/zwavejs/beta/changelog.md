@@ -4,7 +4,7 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# XX/11/2022
+# 28.11.2022
 
 **Behebt**
 
@@ -22,8 +22,17 @@
 - Ändern der Konfiguration *Philio PSM02* um die Eigenschaften zu verwenden
 - Ändern der Konfiguration *Everspring AN158* um die Eigenschaften zu verwenden
 - Ändern der Konfiguration *Raumfühler von Danfoss* um die Eigenschaften zu verwenden
-- Hinzufügung zum Eigentum *Leuchtdichte* ein Modus in %
+- Ändern der Konfiguration *Vision ZS Schock und Vibration* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro Walli-Controller* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro FGD211* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro Wandstecker UK* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro Walli Outlet F* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro Walli Dimmer* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro RGBW441* das Grundstück zu nutzen *Fibaro-Effekte*
+- Besitzwechsel *Leuchtdichte* mit Zusatz eines Modus in %
 - Besitzwechsel *Sollwertthermostat* um die Anweisungen mit dem Widget zu haben *Taste* standardmäßig
+- Besitzwechsel *Farbe* mit Zusatz eines Typs *Fibaro-Effekte* (aufhören, die Befehle zu beschreiben)
+- Ergänzung von a *empfohlene Einstellung* für die *Philio PST02*
 
 *Wenn Sie von einer Konfigurationsänderung oder -ergänzung betroffen sind, laden Sie nach dem Update die Befehle der Geräte neu, indem Sie „alle Befehle neu erstellen“.*
 

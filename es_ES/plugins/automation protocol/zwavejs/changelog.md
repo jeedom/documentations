@@ -6,6 +6,29 @@
 
 # XX/11/2022
 
+**Arreglos**
+
+- Corrección en *parámetros de configuración* con el fin de *para evitar enviar 0 en primer lugar* durante una elección de tipo lista (sobre un parámetro que lo propone))
+
+**Mejoras**
+
+- Adición de un *RELANZAR* necesario del motor *en caso de exclusión fallida*
+- Visualización del mensaje relativo a la *0 pedido* que en el caso de un *nodo iniciado*
+
+**Cambios de configuración**
+
+- Cambiar la configuración *Aeotec TriSensor* para usar las propiedades
+- Cambiar la configuración *Hank HKZW-MS02* para usar las propiedades
+- Cambiar la configuración *Filio PSM02* para usar las propiedades
+- Cambiar la configuración *Primavera eterna AN158* para usar las propiedades
+- Cambiar la configuración *Sensor de habitación Danfoss* para usar las propiedades
+- Adición a la propiedad *Luminancia* una moda en %
+- Cambio de propiedad *Termostato de punto de consigna* para tener las instrucciones con el widget *botón* por defecto
+
+*Si se ve afectado por un cambio o adición de configuración, vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+
+# 25/11/2022
+
 **Mejoras**
 
 - Adición de un *Gestión de versiones de la interfaz de usuario de ZwaveJS*

@@ -4,7 +4,7 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# XX/11/2022
+# 28/11/2022
 
 **Fixes**
 
@@ -22,8 +22,17 @@
 - Changing the configuration *Philio PSM02* to use the properties
 - Changing the configuration *Everspring AN158* to use the properties
 - Changing the configuration *Danfoss Room Sensor* to use the properties
-- Addition to property *Luminance* a mode in %
+- Changing the configuration *Vision ZS Shock and Vibration* to use the properties
+- Changing the configuration *Fibaro Walli Controller* to use the properties
+- Changing the configuration *Fibaro FGD211* to use the properties
+- Changing the configuration *Fibaro Wall Plug UK* to use the properties
+- Changing the configuration *Fibaro Walli Outlet F* to use the properties
+- Changing the configuration *Fibaro Walli Dimmer* to use the properties
+- Changing the configuration *Fibaro RGBW441* to use the property *fibaro effects*
+- Change of ownership *Luminance* with addition of a mode in %
 - Change of ownership *Set point thermostat* to have the instructions with the widget *button* by default
+- Change of ownership *Color* with addition of a type *fibaro effects* (to stop describing the commands)
+- Addition of a *recommended setting* for the *Philio PST02*
 
 *If you are affected by a configuration change or addition, reload the commands of the equipment by "recreating all commands" after the update.*
 

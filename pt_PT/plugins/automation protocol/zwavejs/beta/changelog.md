@@ -4,7 +4,7 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# XX/11/2022
+# 28/11/2022
 
 **Conserta**
 
@@ -22,8 +22,17 @@
 - Mudando a configuração *Philio PSM02* para usar as propriedades
 - Mudando a configuração *Everspring AN158* para usar as propriedades
 - Mudando a configuração *Sensor de ambiente Danfoss* para usar as propriedades
-- Adição à propriedade *Luminância* um modo em %
+- Mudando a configuração *Choque e Vibração Vision ZS* para usar as propriedades
+- Mudando a configuração *Controlador Fibaro Walli* para usar as propriedades
+- Mudando a configuração *Fibaro FGD211* para usar as propriedades
+- Mudando a configuração *Plugue Fibaro Reino Unido* para usar as propriedades
+- Mudando a configuração *Fibaro Walli Outlet F* para usar as propriedades
+- Mudando a configuração *Fibaro Walli Dimmer* para usar as propriedades
+- Mudando a configuração *Fibaro RGBW441* para usar a propriedade *efeitos fibaro*
+- Mudança de propriedade *Luminância* com adição de um modo em %
 - Mudança de propriedade *Termostato de ponto de ajuste* para ter as instruções com o widget *botão* por padrão
+- Mudança de propriedade *Cor* com adição de um tipo *efeitos fibaro* (para parar de descrever os comandos)
+- Adição de um *configuração recomendada* para o *Philio PST02*
 
 *Se você for afetado por uma alteração ou adição de configuração, recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
 

@@ -6,6 +6,29 @@
 
 # XX/11/2022
 
+**Fixes**
+
+- Correction on *configuration parameters* in order to *to avoid sending 0 in the first place* during a list-type choice (on a parameter proposing it)
+
+**Improvements**
+
+- Addition of a *RELAUNCH* necessary of the engine *in case of failed exclusion*
+- Display of the message concerning the *0 order* that in the case of a *initiated node*
+
+**Configuration Changes**
+
+- Changing the configuration *Aeotec TriSensor* to use the properties
+- Changing the configuration *Hank HKZW-MS02* to use the properties
+- Changing the configuration *Philio PSM02* to use the properties
+- Changing the configuration *Everspring AN158* to use the properties
+- Changing the configuration *Danfoss Room Sensor* to use the properties
+- Addition to property *Luminance* a mode in %
+- Change of ownership *Set point thermostat* to have the instructions with the widget *button* by default
+
+*If you are affected by a configuration change or addition, reload the commands of the equipment by "recreating all commands" after the update.*
+
+# 25/11/2022
+
 **Improvements**
 
 - Addition of a *ZwaveJS UI version management*

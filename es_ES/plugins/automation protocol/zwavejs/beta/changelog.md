@@ -4,7 +4,7 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# XX/11/2022
+# 28/11/2022
 
 **Arreglos**
 
@@ -22,8 +22,17 @@
 - Cambiar la configuración *Filio PSM02* para usar las propiedades
 - Cambiar la configuración *Primavera eterna AN158* para usar las propiedades
 - Cambiar la configuración *Sensor de habitación Danfoss* para usar las propiedades
-- Adición a la propiedad *Luminancia* una moda en %
+- Cambiar la configuración *Vision ZS Golpes y vibraciones* para usar las propiedades
+- Cambiar la configuración *Controlador Fibaro Walli* para usar las propiedades
+- Cambiar la configuración *Fibaro FGD211* para usar las propiedades
+- Cambiar la configuración *Enchufe De Pared Fibaro España* para usar las propiedades
+- Cambiar la configuración *Fibaro Walli Outlet F* para usar las propiedades
+- Cambiar la configuración *Atenuador Fibaro Walli* para usar las propiedades
+- Cambiar la configuración *Fibaro RGBW441* usar la propiedad *efectos fibaro*
+- Cambio de propiedad *Luminancia* con adición de una moda en %
 - Cambio de propiedad *Termostato de punto de consigna* para tener las instrucciones con el widget *botón* por defecto
+- Cambio de propiedad *Color* con adición de un tipo *efectos fibaro* (dejar de describir los comandos)
+- Adición de un *ajuste recomendado* para el *Filio PST02*
 
 *Si se ve afectado por un cambio o adición de configuración, vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
 
