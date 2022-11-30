@@ -4,6 +4,32 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# xx/12/2022
+
+**Improvements**
+
+- Management *commands without units* while it should (in the zwaveJS return) so as not to pollute the log 
+
+**Configuration Changes**
+
+- Changing the configuration *Qubino ZMNHNDX Flush 1D* to use the properties
+- Changing the configuration *Fibaro FGSS101 Smoke* to use the properties
+- Changing the configuration *Smarthome Everspring AN-179* to use the properties
+- Changing the configuration *Aeotec ZWA009 AERQ* to use the properties
+- Changing the configuration *Popp Outdoor Siren* to use the properties (partly)
+- Changing the configuration *Aetoec ZWA080* to use the properties (in part) and add sound controls (volume and sound)
+- Change of ownership *Heat* with class case management *ALARM SENSOR*
+- Change of ownership *Smoke* with class case management *ALARM SENSOR*
+- Change of ownership *Set point thermostat* to have the instructions with the widget *button* by default
+- Editing the image *Popp Outdoor Siren* clipping
+
+**Configuration Additions**
+
+- Added config *Secure Hortsmann SRT321* (properties : ThermostatMode, ThermostatOperatingState, ThermostatModeAction, ThermostatSetpoint, Temperature, Battery)
+- Added image for *Secure Hortsmann SRT321*
+
+*If you are affected by a configuration change or addition, reload the commands of the equipment by "recreating all commands" after the update.*
+
 # 28/11/2022
 
 **Fixes**

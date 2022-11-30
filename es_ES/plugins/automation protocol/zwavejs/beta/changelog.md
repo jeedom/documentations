@@ -4,6 +4,32 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# xx/12/2022
+
+**Mejoras**
+
+- Administración *comandos sin unidades* mientras que debería (en el retorno de zwaveJS) para no contaminar el registro 
+
+**Cambios de configuración**
+
+- Cambiar la configuración *Qubino ZMNHNDX Rasante 1D* para usar las propiedades
+- Cambiar la configuración *Fibaro FGSS101 Humo* para usar las propiedades
+- Cambiar la configuración *Hogar inteligente Everspring AN-179* para usar las propiedades
+- Cambiar la configuración *Aeotec ZWA009 AERQ* para usar las propiedades
+- Cambiar la configuración *Sirena exterior Popp* usar las propiedades (en parte)
+- Cambiar la configuración *Aetoec ZWA080* para usar las propiedades (en parte) y agregar controles de sonido (volumen y sonido)
+- Cambio de propiedad *Calor* con gestión de casos de clase *SENSOR DE ALARMA*
+- Cambio de propiedad *Fumar* con gestión de casos de clase *SENSOR DE ALARMA*
+- Cambio de propiedad *Termostato de punto de consigna* para tener las instrucciones con el widget *botón* por defecto
+- Editando la imagen *Sirena exterior Popp* recorte
+
+**Adiciones de configuración**
+
+- Configuración añadida *Seguro Hortsmann SRT321* (propiedades : Modo Termostato, Estado Operativo Termostato, Acción Modo Termostato, Punto Consigna Termostato, Temperatura, Batería)
+- Imagen añadida para *Seguro Hortsmann SRT321*
+
+*Si se ve afectado por un cambio o adición de configuración, vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+
 # 28/11/2022
 
 **Arreglos**
