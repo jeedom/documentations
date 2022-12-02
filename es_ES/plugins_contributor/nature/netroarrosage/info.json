@@ -2,7 +2,8 @@
 	"id" : "netroarrosage",
 	"name" : "Netro arrosage",
 	"description" : {
-		"fr_FR": "Plugin basé sur le système d'arrosage automatique Netro Smart Garden"
+		"fr_FR": "Plugin basé sur le système d'arrosage automatique Netro Smart Garden",
+		"en_US": "Plugin based on Netro Smart Garden automatic watering system"
 	},
 	"licence" : "AGPL",
 	"author" : "kcofoni",
@@ -15,10 +16,6 @@
 	"documentation" : "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/#language#/",
 	"changelog_beta" : "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/#language#/beta/changelog",
 	"documentation_beta" : "https://kcofoni.github.io/jeedom-docs/plugin-netroarrosage/docs/#language#/beta/",
-	"link" : {
-		"forum":"Lien vers le forum",
-		"video" : "Lien vers une video"
-	},
 	"language": [
 		"fr_FR",
 		"en_US"
