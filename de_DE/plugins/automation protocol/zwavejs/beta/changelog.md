@@ -4,7 +4,7 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# xx/12/2022
+# 12.01.2022
 
 **Verbesserungen**
 
@@ -27,6 +27,9 @@
 
 - Konfig hinzugefügt *Sicherer Hortsmann SRT321* (Eigenschaften : ThermostatMode, ThermostatOperatingState, ThermostatModeAction, ThermostatSetpoint, Temperatur, Batterie)
 - Bild hinzugefügt für *Sicherer Hortsmann SRT321*
+- Konfig hinzugefügt *Hoppe ConnectSense-Schloss* (Eigenschaften : Öffnung, Benachrichtigungssensor, Neigung, Batterie)
+- Bild hinzugefügt für *Hoppe ConnectSense-Schloss*
+- Parameter hinzugefügt für *Hoppe ConnectSense-Schloss*
 
 *Wenn Sie von einer Konfigurationsänderung oder -ergänzung betroffen sind, laden Sie nach dem Update die Befehle der Geräte neu, indem Sie „alle Befehle neu erstellen“.*
 

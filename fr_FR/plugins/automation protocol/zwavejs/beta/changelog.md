@@ -4,7 +4,7 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# xx/12/2022
+# 01/12/2022
 
 **Améliorations**
 
@@ -27,6 +27,9 @@
 
 - Ajout de la configuration *Secure Hortsmann SRT321* (propriétés : ThermostatMode, ThermostatOperatingState, ThermostatModeAction, ThermostatSetpoint, Temperature, Battery)
 - Ajout de l'image pour *Secure Hortsmann SRT321*
+- Ajout de la configuration *Serrure Hoppe ConnectSense* (propriétés : Opening, Notification Sensor, Tilt, Battery)
+- Ajout de l'image pour *Serrure Hoppe ConnectSense*
+- Ajout des paramètres pour *Serrure Hoppe ConnectSense*
 
 *Si vous êtes concernés par une modification ou un ajout de configuration, rechargez les commandes de l'équipement en "recréant toutes les commandes" après la mise à jour.*
 

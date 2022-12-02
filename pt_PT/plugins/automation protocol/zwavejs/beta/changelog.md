@@ -4,7 +4,7 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# xx/12/2022
+# 12/01/2022
 
 **Melhorias**
 
@@ -27,6 +27,9 @@
 
 - Configuração adicionada *Seguro Hortsmann SRT321* (propriedades : ThermostatMode, ThermostatOperatingState, ThermostatModeAction, ThermostatSetpoint, Temperatura, Bateria)
 - Imagem adicionada para *Seguro Hortsmann SRT321*
+- Configuração adicionada *Hoppe ConnectSense Bloqueio* (propriedades : Abertura, Sensor de Notificação, Inclinação, Bateria)
+- Imagem adicionada para *Hoppe ConnectSense Bloqueio*
+- Parâmetros adicionados para *Hoppe ConnectSense Bloqueio*
 
 *Se você for afetado por uma alteração ou adição de configuração, recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
 

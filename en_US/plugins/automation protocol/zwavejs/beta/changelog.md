@@ -4,7 +4,7 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# xx/12/2022
+# 01/12/2022
 
 **Improvements**
 
@@ -27,6 +27,9 @@
 
 - Added config *Secure Hortsmann SRT321* (properties : ThermostatMode, ThermostatOperatingState, ThermostatModeAction, ThermostatSetpoint, Temperature, Battery)
 - Added image for *Secure Hortsmann SRT321*
+- Added config *Hoppe ConnectSense lock* (properties : Opening, Notification Sensor, Tilt, Battery)
+- Added image for *Hoppe ConnectSense lock*
+- Added parameters for *Hoppe ConnectSense lock*
 
 *If you are affected by a configuration change or addition, reload the commands of the equipment by "recreating all commands" after the update.*
 

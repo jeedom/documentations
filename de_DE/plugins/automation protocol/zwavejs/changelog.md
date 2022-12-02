@@ -4,7 +4,33 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# XX/11/2022
+# xx/12/2022
+
+**Verbesserungen**
+
+- Management *Befehle ohne Einheiten* während es (in der zwaveJS-Rückgabe) sollte, um das Protokoll nicht zu verschmutzen 
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Qubino ZMNHNDX Flush 1D* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro FGSS101 Rauch* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Smarthome Everspring AN-179* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec ZWA009 AERQ* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Popp Außensirene* um die Eigenschaften zu nutzen (teilweise)
+- Ändern der Konfiguration *Aetoec ZWA080* um die Eigenschaften (teilweise) zu verwenden und Tonsteuerungen hinzuzufügen (Lautstärke und Sound)
+- Besitzwechsel *Hitze* mit Klassenfallmanagement *ALARMSENSOR*
+- Besitzwechsel *Rauch* mit Klassenfallmanagement *ALARMSENSOR*
+- Besitzwechsel *Sollwertthermostat* um die Anweisungen mit dem Widget zu haben *Taste* standardmäßig
+- Bearbeiten des Bildes *Popp Außensirene* Ausschnitt
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Sicherer Hortsmann SRT321* (Eigenschaften : ThermostatMode, ThermostatOperatingState, ThermostatModeAction, ThermostatSetpoint, Temperatur, Batterie)
+- Bild hinzugefügt für *Sicherer Hortsmann SRT321*
+
+*Wenn Sie von einer Konfigurationsänderung oder -ergänzung betroffen sind, laden Sie nach dem Update die Befehle der Geräte neu, indem Sie „alle Befehle neu erstellen“.*
+
+# 28.11.2022
 
 **Behebt**
 
@@ -22,8 +48,17 @@
 - Ändern der Konfiguration *Philio PSM02* um die Eigenschaften zu verwenden
 - Ändern der Konfiguration *Everspring AN158* um die Eigenschaften zu verwenden
 - Ändern der Konfiguration *Raumfühler von Danfoss* um die Eigenschaften zu verwenden
-- Hinzufügung zum Eigentum *Leuchtdichte* ein Modus in %
+- Ändern der Konfiguration *Vision ZS Schock und Vibration* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro Walli-Controller* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro FGD211* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro Wandstecker UK* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro Walli Outlet F* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro Walli Dimmer* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro RGBW441* das Grundstück zu nutzen *Fibaro-Effekte*
+- Besitzwechsel *Leuchtdichte* mit Zusatz eines Modus in %
 - Besitzwechsel *Sollwertthermostat* um die Anweisungen mit dem Widget zu haben *Taste* standardmäßig
+- Besitzwechsel *Farbe* mit Zusatz eines Typs *Fibaro-Effekte* (aufhören, die Befehle zu beschreiben)
+- Ergänzung von a *empfohlene Einstellung* für die *Philio PST02*
 
 *Wenn Sie von einer Konfigurationsänderung oder -ergänzung betroffen sind, laden Sie nach dem Update die Befehle der Geräte neu, indem Sie „alle Befehle neu erstellen“.*
 

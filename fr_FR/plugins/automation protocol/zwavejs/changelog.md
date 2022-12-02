@@ -4,6 +4,35 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 01/12/2022
+
+**Améliorations**
+
+- Gestion des *commandes sans unités* alors qu'elle devrait (dans le retour zwaveJS) pour ne pas polluer la log 
+
+**Modifications de Configurations**
+
+- Modification de la configuration *Qubino ZMNHNDX Flush 1D* pour utiliser les propriétés
+- Modification de la configuration *Fibaro FGSS101 Smoke* pour utiliser les propriétés
+- Modification de la configuration *Smarthome Everspring AN-179* pour utiliser les propriétés
+- Modification de la configuration *Aeotec ZWA009 AERQ* pour utiliser les propriétés
+- Modification de la configuration *Popp Outdoor Siren* pour utiliser les propriétés (en partie)
+- Modification de la configuration *Aetoec ZWA080* pour utiliser les propriétés (en partie) et ajout des commandes de sonorités (volume et son)
+- Modification de la propriété *Heat* avec gestion du cas classe *ALARM SENSOR*
+- Modification de la propriété *Smoke* avec gestion du cas classe *ALARM SENSOR*
+- Modification de la propriété *Thermostat Setpoint* pour avoir les consignes avec le widget *button* par défaut
+- Modification de l'image *Popp Outdoor Siren* détourage
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Secure Hortsmann SRT321* (propriétés : ThermostatMode, ThermostatOperatingState, ThermostatModeAction, ThermostatSetpoint, Temperature, Battery)
+- Ajout de l'image pour *Secure Hortsmann SRT321*
+- Ajout de la configuration *Serrure Hoppe ConnectSense* (propriétés : Opening, Notification Sensor, Tilt, Battery)
+- Ajout de l'image pour *Serrure Hoppe ConnectSense*
+- Ajout des paramètres pour *Serrure Hoppe ConnectSense*
+
+*Si vous êtes concernés par une modification ou un ajout de configuration, rechargez les commandes de l'équipement en "recréant toutes les commandes" après la mise à jour.*
+
 # 28/11/2022
 
 **Corrections**
