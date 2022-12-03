@@ -24,14 +24,14 @@ Una vez que haces clic en uno de ellos, obtienes :
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nombre de l'équipement Onduleur** : nombre de su equipo NUT,
+-   **Nombre del equipo inversor** : nombre de su equipo NUT,
 -   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
 -   **Activar** : activa su equipo,
 -   **Visible** : hace que su equipo sea visible en el tablero,
 -   **Categoría** : categoría de su equipo NUT
 -   **Dirección IP NUT** : La dirección IP del servidor NUT
--   **Nombre d'utilisateur** : Nombre de usuario del servidor NUT (dejar en blanco si no hay ninguno)
--   **Contraseña** : Contraseña del servidor NUT (dejar en blanco si no hay ninguna)
+-   **Nombre de usuario** : Nombre de usuario del servidor NUT (dejar en blanco si no hay ninguno)
+-   **Contraseña** : Contraseña del servidor NUT (dejar en blanco si no hay ninguno)
 -   **Identificación de ups** : Identificación de ups
 
 > **Nota**

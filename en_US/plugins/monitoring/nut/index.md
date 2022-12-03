@@ -14,7 +14,7 @@ The configuration of NUT equipment is accessible from the plugin menu :
 
 ![nut2](./images/nut2.PNG)
 
-This is what the NUT plugin page looks like (here with 1 device already) :
+This is what the NUT plugin page looks like (here with already 1 device) :
 
 ![nut3](./images/nut3.PNG)
 
@@ -24,13 +24,13 @@ Once you click on one of them, you get :
 
 Here you find all the configuration of your equipment :
 
--   **Name de l'équipement Onduleur** : name of your NUT equipment,
+-   **Inverter equipment name** : name of your NUT equipment,
 -   **Parent object** : indicates the parent object to which the equipment belongs,
 -   **Activate** : makes your equipment active,
 -   **Visible** : makes your equipment visible on the dashboard,
 -   **Category** : category of your NUT equipment
 -   **Nut Ip address** : The IP address of the NUT server
--   **Name d'utilisateur** : NUT server username (leave blank if none)
+-   **Username** : NUT server username (leave blank if there is none)
 -   **Password** : NUT server password (leave blank if there is none)
 -   **UPS Id** : UPS Id
 

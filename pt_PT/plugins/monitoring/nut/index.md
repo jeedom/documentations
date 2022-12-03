@@ -14,7 +14,7 @@ A configuração do equipamento NUT pode ser acessada no menu do plugin :
 
 ![nut2](../images/nut2.PNG)
 
-É assim que a página do plug-in do NUT se parece (aqui com 1 dispositivo) :
+É assim que a página do plug-in do NUT se parece (aqui com já um dispositivo) :
 
 ![nut3](../images/nut3.PNG)
 
@@ -24,14 +24,14 @@ Depois de clicar em um deles, você obtém :
 
 Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nome de l'équipement Onduleur** : nome do seu equipamento NUT,
+-   **Nome do equipamento Inversor** : nome do seu equipamento NUT,
 -   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
 -   **Ativar** : torna seu equipamento ativo,
 -   **Visivél** : torna seu equipamento visível no painel,
 -   **Categoria** : categoria do seu equipamento NUT
 -   **Endereço IP NUT** : O endereço IP do servidor NUT
--   **Nome d'utilisateur** : Nome de usuário do servidor NUT (deixe em branco se não houver)
--   **Senha** : Senha do servidor NUT (deixe em branco se não houver nenhuma)
+-   **Nome de Usuário** : Nome de usuário do servidor NUT (deixe em branco se não houver)
+-   **Senha** : Senha do servidor NUT (deixe em branco se não houver)
 -   **ID de Ups** : ID de Ups
 
 > **NOTA**

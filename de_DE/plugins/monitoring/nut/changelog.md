@@ -1,4 +1,4 @@
-# Changelog Inverter (NUT)
+# Wechselrichter (NUT)
 
 >**Wichtig**
 >

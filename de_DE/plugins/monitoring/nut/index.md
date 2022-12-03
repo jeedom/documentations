@@ -1,6 +1,6 @@
 # Nut Plugin
 
-Mit diesem Plugin können Sie Informationen von einem NUT-Server abrufen (Network UPS Tools)
+Mit diesem Plugin können Sie Informationen von einem NUT-Server abrufen (Network UPS Tools))
 
 # Plugin Konfiguration 
 
@@ -24,14 +24,14 @@ Sobald Sie auf eine davon klicken, erhalten Sie :
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name de l'équipement Onduleur** : Name Ihrer NUT-Ausrüstung,
+-   **Gerätename Wechselrichter** : Name Ihrer NUT-Ausrüstung,
 -   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
 -   **Aktivieren** : macht Ihre Ausrüstung aktiv,
 -   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
 -   **Kategorie** : Kategorie Ihrer NUT-Ausrüstung
 -   **NUT IP-Adresse** : Die IP-Adresse des NUT-Servers
--   **Name d'utilisateur** : Benutzername des NUT-Servers (leer lassen, wenn keiner)
--   **Passwort** : NUT-Server-Passwort (leer lassen, wenn keines vorhanden ist)
+-   **Benutzername** : Benutzername des NUT-Servers (leer lassen, wenn keiner vorhanden ist)
+-   **Passwort** : NUT-Serverkennwort (leer lassen, wenn keines vorhanden ist)
 -   **Ups id** : Ups id
 
 > **Notiz**

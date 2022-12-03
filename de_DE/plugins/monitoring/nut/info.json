@@ -1,12 +1,46 @@
 {
     "id": "nut",
     "name": "Onduleur (NUT)",
-    "description": "Plugin pour récuperer les informations des onduleurs via nut",
+    "description": {
+        "fr_FR": "Plugin pour récuperer les informations des onduleurs via nut",
+        "en_US": "Plugin to retrieve information from inverters via nut",
+        "es_ES": "Complemento para recuperar información de los inversores a través de la tuerca",
+        "de_DE": "Plugin zum Abrufen von Informationen von Wechselrichtern über Mutter",
+        "pt_PT": "Plugin para recuperar informações dos inversores via porca",
+        "ru_RU": "Plugin pour récuperer les informations des onduleurs via nut",
+        "id_ID": "Plugin pour récuperer les informations des onduleurs via nut",
+        "it_IT": "Plugin pour récuperer les informations des onduleurs via nut",
+        "ja_JP": "Plugin pour récuperer les informations des onduleurs via nut",
+        "tr": "Plugin pour récuperer les informations des onduleurs via nut"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "2.4",
     "category": "monitoring",
     "hasDependency": true,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/nut\/changelog",
-    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/nut\/"
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/nut\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/nut\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/nut\/beta"
 }
