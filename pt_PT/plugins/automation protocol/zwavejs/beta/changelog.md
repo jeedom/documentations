@@ -4,6 +4,28 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# XX/12/2022
+
+**Melhorias**
+
+- Adicionando uma guia *Gerenciamento NVM* na página da rede. Salve, baixe e envie por enquanto
+- Adição da versão do *SDKs* na página de informações de um controlador.
+
+**Alterações de configuração**
+
+- Mudando a configuração *Cherubini Widom Smart Plug* para usar as propriedades
+- Mudando a configuração *Medidor trifásico Qubino* para usar as propriedades
+- Mudança de propriedade *Fator de potência* para opção *Produção*
+
+**Adições de configuração**
+
+- Configuração adicionada *Cherubini Widom Meta interruptor duplo* (propriedades : Interruptor, Cena Central)
+- Imagem adicionada para *Cherubini Widom Meta interruptor duplo*
+- Configuração adicionada *Cherubini Widom Meta com fio motor CONTR.7* (propriedades : Shutter)
+- Imagem adicionada para *Cherubini Widom Meta com fio motor CONTR.7*
+
+*Se você for afetado por uma modificação ou adição de configuração, faça uma sincronização e recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
+
 # 12/01/2022
 
 **Melhorias**
@@ -31,7 +53,7 @@
 - Imagem adicionada para *Hoppe ConnectSense Bloqueio*
 - Parâmetros adicionados para *Hoppe ConnectSense Bloqueio*
 
-*Se você for afetado por uma alteração ou adição de configuração, recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
+*Se você for afetado por uma modificação ou adição de configuração, faça uma sincronização e recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
 
 # 28/11/2022
 
@@ -63,7 +85,7 @@
 - Mudança de propriedade *Cor* com adição de um tipo *efeitos fibaro* (para parar de descrever os comandos)
 - Adição de um *configuração recomendada* para o *Philio PST02*
 
-*Se você for afetado por uma alteração ou adição de configuração, recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
+*Se você for afetado por uma modificação ou adição de configuração, faça uma sincronização e recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
 
 # 25/11/2022
 
@@ -77,7 +99,7 @@
 
 - Alterar configurações para *Plugue Inteligente Hank (HKZW-SO08)* (problema de exibição)
 
-*Se você for afetado por uma alteração ou adição de configuração, recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
+*Se você for afetado por uma modificação ou adição de configuração, faça uma sincronização e recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
 
 # 23/11/2022
 
@@ -101,7 +123,7 @@
 - Configuração adicionada *Idinio pedal dimmer* (propriedades : Multinível, Potência, Energia)
 - Parâmetros adicionados para *Plugue Inteligente Hank (HKZW-SO08)*
 
-*Se você for afetado por uma alteração ou adição de configuração, recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
+*Se você for afetado por uma modificação ou adição de configuração, faça uma sincronização e recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
 
 # 21/11/2022
 
@@ -125,7 +147,7 @@
 - Mudando a configuração *Bloqueio Popp Strike* para usar as propriedades
 - Mudando a configuração *Aeotec ZWA011* para usar as propriedades e adicionar sua imagem
 
-*Se você for afetado por uma de suas configurações, recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
+*Se você for afetado por uma modificação ou adição de configuração, faça uma sincronização e recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
 
 # 18/11/2022
 

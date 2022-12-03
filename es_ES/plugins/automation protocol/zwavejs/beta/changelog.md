@@ -4,6 +4,28 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# XX/12/2022
+
+**Mejoras**
+
+- Agregar una pestaña *Gestión de MNV* en la página de la red. Guardar, descargar y enviar por ahora
+- Adición de la versión del *SDK* en la página de información de un controlador.
+
+**Cambios de configuración**
+
+- Cambiar la configuración *Enchufe inteligente Widom Cherubini* para usar las propiedades
+- Cambiar la configuración *Medidor Trifásico Qubino* para usar las propiedades
+- Cambio de propiedad *Factor de potencia* para la opción *producción*
+
+**Adiciones de configuración**
+
+- Configuración añadida *Interruptor doble Cherubini Widom Meta* (propiedades : Interruptor, escena central)
+- Imagen añadida para *Interruptor doble Cherubini Widom Meta*
+- Configuración añadida *Cherubini Widom Meta motor cableado CONTR.7* (propiedades : Shutter)
+- Imagen añadida para *Cherubini Widom Meta motor cableado CONTR.7*
+
+*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+
 # 12/01/2022
 
 **Mejoras**
@@ -31,7 +53,7 @@
 - Imagen añadida para *Bloqueo Hoppe ConnectSense*
 - Se agregaron parámetros para *Bloqueo Hoppe ConnectSense*
 
-*Si se ve afectado por un cambio o adición de configuración, vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
 
 # 28/11/2022
 
@@ -63,7 +85,7 @@
 - Cambio de propiedad *Color* con adición de un tipo *efectos fibaro* (dejar de describir los comandos)
 - Adición de un *ajuste recomendado* para el *Filio PST02*
 
-*Si se ve afectado por un cambio o adición de configuración, vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
 
 # 25/11/2022
 
@@ -77,7 +99,7 @@
 
 - Cambiar la configuración de *Enchufe inteligente Hank (HKZW-SO08)* (Problema de visualización)
 
-*Si se ve afectado por un cambio o adición de configuración, vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
 
 # 23/11/2022
 
@@ -101,7 +123,7 @@
 - Configuración añadida *Atenuador de pie Idinio* (propiedades : Multinivel, Poder, Energía)
 - Se agregaron parámetros para *Enchufe inteligente Hank (HKZW-SO08)*
 
-*Si se ve afectado por un cambio o adición de configuración, vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
 
 # 21/11/2022
 
@@ -125,7 +147,7 @@
 - Cambiar la configuración *Cerradura Popp Strike* para usar las propiedades
 - Cambiar la configuración *Aeotec ZWA011* para usar las propiedades y agregar su imagen
 
-*Si te afecta alguna de sus configuraciones recarga los mandos del equipo "recreando todos los mandos" tras la actualización.*
+*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
 
 # 18/11/2022
 

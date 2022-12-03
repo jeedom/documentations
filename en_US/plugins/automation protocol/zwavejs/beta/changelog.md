@@ -4,6 +4,28 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# XX/12/2022
+
+**Improvements**
+
+- Adding a tab *NVM management* on the network page. Save, download and send for now
+- Addition of the version of the *SDKs* on a controller's information page.
+
+**Configuration Changes**
+
+- Changing the configuration *Cherubini Widom Smart Plug* to use the properties
+- Changing the configuration *Qubino 3 Phase Meter* to use the properties
+- Change of ownership *Power Factor* for option *production*
+
+**Configuration Additions**
+
+- Added config *Cherubini Widom Meta double switch* (properties : Switch, Central Scene)
+- Added image for *Cherubini Widom Meta double switch*
+- Added config *Cherubini Widom Meta wired motor CONTR.7* (properties : Shutter)
+- Added image for *Cherubini Widom Meta wired motor CONTR.7*
+
+*If you are affected by a modification or addition of configuration, make a synchronization then reload the commands of the equipment by "recreating all the commands" after the update.*
+
 # 01/12/2022
 
 **Improvements**
@@ -31,7 +53,7 @@
 - Added image for *Hoppe ConnectSense lock*
 - Added parameters for *Hoppe ConnectSense lock*
 
-*If you are affected by a configuration change or addition, reload the commands of the equipment by "recreating all commands" after the update.*
+*If you are affected by a modification or addition of configuration, make a synchronization then reload the commands of the equipment by "recreating all the commands" after the update.*
 
 # 28/11/2022
 
@@ -63,7 +85,7 @@
 - Change of ownership *Color* with addition of a type *fibaro effects* (to stop describing the commands)
 - Addition of a *recommended setting* for the *Philio PST02*
 
-*If you are affected by a configuration change or addition, reload the commands of the equipment by "recreating all commands" after the update.*
+*If you are affected by a modification or addition of configuration, make a synchronization then reload the commands of the equipment by "recreating all the commands" after the update.*
 
 # 25/11/2022
 
@@ -77,7 +99,7 @@
 
 - Change settings for *Hank Smart Plug (HKZW-SO08)* (display issue)
 
-*If you are affected by a configuration change or addition, reload the commands of the equipment by "recreating all commands" after the update.*
+*If you are affected by a modification or addition of configuration, make a synchronization then reload the commands of the equipment by "recreating all the commands" after the update.*
 
 # 23/11/2022
 
@@ -101,7 +123,7 @@
 - Added config *Idinio foot dimmer* (properties : Multilevel, Power, Energy)
 - Added parameters for *Hank Smart Plug (HKZW-SO08)*
 
-*If you are affected by a configuration change or addition, reload the commands of the equipment by "recreating all commands" after the update.*
+*If you are affected by a modification or addition of configuration, make a synchronization then reload the commands of the equipment by "recreating all the commands" after the update.*
 
 # 21/11/2022
 
@@ -125,7 +147,7 @@
 - Changing the configuration *Popp Strike Lock* to use the properties
 - Changing the configuration *Aeotec ZWA011* to use the properties and add its image
 
-*If you are affected by one of its configurations, reload the commands of the equipment by "recreating all commands" after the update.*
+*If you are affected by a modification or addition of configuration, make a synchronization then reload the commands of the equipment by "recreating all the commands" after the update.*
 
 # 11/18/2022
 

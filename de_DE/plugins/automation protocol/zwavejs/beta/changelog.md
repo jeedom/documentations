@@ -4,6 +4,28 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# XX/12/2022
+
+**Verbesserungen**
+
+- Registerkarte hinzufügen *NVM-Verwaltung* auf der Netzwerkseite. Jetzt speichern, herunterladen und versenden
+- Ergänzung der Version des *SDKs* auf der Informationsseite eines Controllers.
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Cherubini Widom Smart Plug* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Qubino 3-Phasen-Meter* um die Eigenschaften zu verwenden
+- Besitzwechsel *Leistungsfaktor* für Option *Produktion*
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Cherubini Widom Meta Doppelschalter* (Eigenschaften : Schalter, zentrale Szene)
+- Bild hinzugefügt für *Cherubini Widom Meta Doppelschalter*
+- Konfig hinzugefügt *Cherubini Widom Meta kabelgebundener Motor CONTR.7* (Eigenschaften : Shutter)
+- Bild hinzugefügt für *Cherubini Widom Meta kabelgebundener Motor CONTR.7*
+
+*Wenn Sie von einer Änderung oder Hinzufügung der Konfiguration betroffen sind, führen Sie eine Synchronisierung durch und laden Sie dann die Befehle des Geräts neu, indem Sie nach dem Update „alle Befehle neu erstellen“.*
+
 # 12.01.2022
 
 **Verbesserungen**
@@ -31,7 +53,7 @@
 - Bild hinzugefügt für *Hoppe ConnectSense-Schloss*
 - Parameter hinzugefügt für *Hoppe ConnectSense-Schloss*
 
-*Wenn Sie von einer Konfigurationsänderung oder -ergänzung betroffen sind, laden Sie nach dem Update die Befehle der Geräte neu, indem Sie „alle Befehle neu erstellen“.*
+*Wenn Sie von einer Änderung oder Hinzufügung der Konfiguration betroffen sind, führen Sie eine Synchronisierung durch und laden Sie dann die Befehle des Geräts neu, indem Sie nach dem Update „alle Befehle neu erstellen“.*
 
 # 28.11.2022
 
@@ -63,7 +85,7 @@
 - Besitzwechsel *Farbe* mit Zusatz eines Typs *Fibaro-Effekte* (aufhören, die Befehle zu beschreiben)
 - Ergänzung von a *empfohlene Einstellung* für die *Philio PST02*
 
-*Wenn Sie von einer Konfigurationsänderung oder -ergänzung betroffen sind, laden Sie nach dem Update die Befehle der Geräte neu, indem Sie „alle Befehle neu erstellen“.*
+*Wenn Sie von einer Änderung oder Hinzufügung der Konfiguration betroffen sind, führen Sie eine Synchronisierung durch und laden Sie dann die Befehle des Geräts neu, indem Sie nach dem Update „alle Befehle neu erstellen“.*
 
 # 25.11.2022
 
@@ -77,7 +99,7 @@
 
 - Einstellungen ändern für *Hank Smart Plug (HKZW-SO08)* (Anzeigeproblem)
 
-*Wenn Sie von einer Konfigurationsänderung oder -ergänzung betroffen sind, laden Sie nach dem Update die Befehle der Geräte neu, indem Sie „alle Befehle neu erstellen“.*
+*Wenn Sie von einer Änderung oder Hinzufügung der Konfiguration betroffen sind, führen Sie eine Synchronisierung durch und laden Sie dann die Befehle des Geräts neu, indem Sie nach dem Update „alle Befehle neu erstellen“.*
 
 # 23.11.2022
 
@@ -101,7 +123,7 @@
 - Konfig hinzugefügt *Idinio Fußdimmer* (Eigenschaften : Multilevel, Leistung, Energie)
 - Parameter hinzugefügt für *Hank Smart Plug (HKZW-SO08)*
 
-*Wenn Sie von einer Konfigurationsänderung oder -ergänzung betroffen sind, laden Sie nach dem Update die Befehle der Geräte neu, indem Sie „alle Befehle neu erstellen“.*
+*Wenn Sie von einer Änderung oder Hinzufügung der Konfiguration betroffen sind, führen Sie eine Synchronisierung durch und laden Sie dann die Befehle des Geräts neu, indem Sie nach dem Update „alle Befehle neu erstellen“.*
 
 # 21.11.2022
 
@@ -125,7 +147,7 @@
 - Ändern der Konfiguration *Popp Strike Lock* um die Eigenschaften zu verwenden
 - Ändern der Konfiguration *Aeotec ZWA011* um die Eigenschaften zu verwenden und sein Bild hinzuzufügen
 
-*Wenn Sie von einer seiner Konfigurationen betroffen sind, laden Sie nach dem Update die Befehle des Geräts neu, indem Sie "alle Befehle neu erstellen".*
+*Wenn Sie von einer Änderung oder Hinzufügung der Konfiguration betroffen sind, führen Sie eine Synchronisierung durch und laden Sie dann die Befehle des Geräts neu, indem Sie nach dem Update „alle Befehle neu erstellen“.*
 
 # 18.11.2022
 
