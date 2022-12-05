@@ -8,7 +8,8 @@
 
 **Mejoras**
 
-- Agregar una pestaña *Gestión de MNV* en la página de la red. Guardar, descargar y enviar por ahora
+- Agregar una pestaña *Gestión de MNV* en la página de la red. Copia de seguridad, descarga, envío y restauración
+- Agregar una pestaña *Actualización* en una página de nodo.
 - Adición de la versión del *SDK* en la página de información de un controlador.
 
 **Cambios de configuración**

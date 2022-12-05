@@ -8,7 +8,8 @@
 
 **Verbesserungen**
 
-- Registerkarte hinzufügen *NVM-Verwaltung* auf der Netzwerkseite. Jetzt speichern, herunterladen und versenden
+- Registerkarte hinzufügen *NVM-Verwaltung* auf der Netzwerkseite. Sichern, Herunterladen, Senden und Wiederherstellen
+- Registerkarte hinzufügen *Aktualisieren* auf einer Knotenseite.
 - Ergänzung der Version des *SDKs* auf der Informationsseite eines Controllers.
 
 **Konfigurationsänderungen**

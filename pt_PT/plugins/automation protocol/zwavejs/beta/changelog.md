@@ -8,7 +8,8 @@
 
 **Melhorias**
 
-- Adicionando uma guia *Gerenciamento NVM* na página da rede. Salve, baixe e envie por enquanto
+- Adicionando uma guia *Gerenciamento NVM* na página da rede. Backup, download, envio e restauração
+- Adicionando uma guia *Atualizar* em uma página de nó.
 - Adição da versão do *SDKs* na página de informações de um controlador.
 
 **Alterações de configuração**

@@ -8,7 +8,8 @@
 
 **Improvements**
 
-- Adding a tab *NVM management* on the network page. Save, download and send for now
+- Adding a tab *NVM management* on the network page. Backup, Download, Send and Restore
+- Adding a tab *Update* on a node page.
 - Addition of the version of the *SDKs* on a controller's information page.
 
 **Configuration Changes**
