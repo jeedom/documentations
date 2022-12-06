@@ -4,13 +4,13 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# XX/12/2022
+# 12/05/2022
 
 **Melhorias**
 
 - Adicionando uma guia *Gerenciamento NVM* na página da rede. Backup, download, envio e restauração
 - Adicionando uma guia *Atualizar* em uma página de nó.
-- Adição da versão do *SDKs* na página de informações de um controlador.
+- Adição da versão de *SDKs* na página de informações de um controlador.
 
 **Alterações de configuração**
 

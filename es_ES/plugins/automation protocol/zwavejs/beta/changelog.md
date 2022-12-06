@@ -4,13 +4,13 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# XX/12/2022
+# 12/05/2022
 
 **Mejoras**
 
 - Agregar una pestaña *Gestión de MNV* en la página de la red. Copia de seguridad, descarga, envío y restauración
 - Agregar una pestaña *Actualización* en una página de nodo.
-- Adición de la versión del *SDK* en la página de información de un controlador.
+- Adición de la versión de *SDK* en la página de información de un controlador.
 
 **Cambios de configuración**
 

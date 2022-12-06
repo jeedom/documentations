@@ -4,13 +4,13 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# XX/12/2022
+# 05/12/2022
 
 **Améliorations**
 
 - Rajout d'un onglet *Gestion NVM* sur la page réseau. Sauvegarde, téléchargement, envoie et restauration
 - Rajout d'un onglet *Mise à jour* sur la page d'un node.
-- Rajout dde la version du *SDK* sur la page d'informations d'un contrôleur.
+- Rajout de la version du *SDK* sur la page d'informations d'un contrôleur.
 
 **Modifications de Configurations**
 

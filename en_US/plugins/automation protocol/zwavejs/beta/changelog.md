@@ -4,13 +4,13 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# XX/12/2022
+# 05/12/2022
 
 **Improvements**
 
 - Adding a tab *NVM management* on the network page. Backup, Download, Send and Restore
 - Adding a tab *Update* on a node page.
-- Addition of the version of the *SDKs* on a controller's information page.
+- Addition of the version of *SDKs* on a controller's information page.
 
 **Configuration Changes**
 

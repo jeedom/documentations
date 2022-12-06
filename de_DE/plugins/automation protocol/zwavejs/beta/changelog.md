@@ -4,13 +4,13 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# XX/12/2022
+# 12.05.2022
 
 **Verbesserungen**
 
 - Registerkarte hinzufügen *NVM-Verwaltung* auf der Netzwerkseite. Sichern, Herunterladen, Senden und Wiederherstellen
 - Registerkarte hinzufügen *Aktualisieren* auf einer Knotenseite.
-- Ergänzung der Version des *SDKs* auf der Informationsseite eines Controllers.
+- Ergänzung der Version von *SDKs* auf der Informationsseite eines Controllers.
 
 **Konfigurationsänderungen**
 
