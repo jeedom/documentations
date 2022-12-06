@@ -4,6 +4,23 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# XX/12/2022
+
+**Configuration Changes**
+
+- Changing the configuration *Aetoec Nanomote Quad* to use the properties
+- Changing the configuration *Fibaro Fgs211* to use the properties
+- Changing the configuration *Fibaro fgwreu111 Walli Shutter* passing a Shutter/level property and passing power and energy on endpoint 1
+
+**Configuration Additions**
+
+- Added config *Neo EU-1 switch* (properties : Switch)
+- Added image for *Neo EU-1 switch*
+- Added config *Abus Flood Sensor* (properties : Flood, Tamper, Battery)
+- Added image for *Abus Flood Sensor*
+
+*If you are affected by a modification or addition of configuration, make a synchronization then reload the commands of the equipment by "recreating all the commands" after the update.*
+
 # 05/12/2022
 
 **Improvements**

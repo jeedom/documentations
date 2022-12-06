@@ -4,6 +4,23 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# XX/12/2022
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Aetoec Nanomote Quad* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro Fgs211* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro fgwreu111 Walli Shutter* Übergeben einer Shutter/Level-Eigenschaft und Übergeben von Strom und Energie an Endpunkt 1
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Neo EU-1-Schalter* (Eigenschaften : Switch)
+- Bild hinzugefügt für *Neo EU-1-Schalter*
+- Konfig hinzugefügt *Abus Hochwassersensor* (Eigenschaften : Überschwemmung, Sabotage, Batterie)
+- Bild hinzugefügt für *Abus Hochwassersensor*
+
+*Wenn Sie von einer Änderung oder Hinzufügung der Konfiguration betroffen sind, führen Sie eine Synchronisierung durch und laden Sie dann die Befehle des Geräts neu, indem Sie nach dem Update „alle Befehle neu erstellen“.*
+
 # 12.05.2022
 
 **Verbesserungen**

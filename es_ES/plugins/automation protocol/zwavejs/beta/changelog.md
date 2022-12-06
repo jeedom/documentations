@@ -4,6 +4,23 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# XX/12/2022
+
+**Cambios de configuración**
+
+- Cambiar la configuración *Cuádruple Aetoec Nanomote* para usar las propiedades
+- Cambiar la configuración *Fibaro fgs211* para usar las propiedades
+- Cambiar la configuración *Obturador Fibaro fgwreu111 Walli* pasar una propiedad Shutter/level y pasar potencia y energía en el punto final 1
+
+**Adiciones de configuración**
+
+- Configuración añadida *Interruptor Neo EU-1* (propiedades : Switch)
+- Imagen añadida para *Interruptor Neo EU-1*
+- Configuración añadida *Sensor de inundación Abus* (propiedades : Inundación, sabotaje, batería)
+- Imagen añadida para *Sensor de inundación Abus*
+
+*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+
 # 12/05/2022
 
 **Mejoras**
