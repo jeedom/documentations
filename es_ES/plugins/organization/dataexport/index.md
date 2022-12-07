@@ -1,7 +1,5 @@
 # Complemento de exportación de datos
 
-# Description
-
 Complemento que permite generar y gestionar el archivo de exportaciones históricas de los pedidos de su elección a un archivo `* .csv`.
 
 El complemento ofrece la posibilidad de exportar los valores brutos de cada pedido durante el período seleccionado o las estadísticas del mismo : **media, min., max., suma, desviación estándar, número de valores, último valor**.
@@ -102,7 +100,7 @@ También puede enviar el archivo de exportación al canal de su elección *(Corr
 
 ![Exportación de datos - Enviar por escenario](./images/dataexport_scenarioSend.png)
 
-Para hacerlo, debe seleccionar el comando **Enviar exportación CSV** correspondiente al lote de exportación deseado en un bloque *Acción* de un escenario.
+Luego debe seleccionar el comando **Enviar exportación CSV** correspondiente al lote de exportación deseado en un bloque *Acción* de un escenario.
 Complete el **Título** *(facultatif)* así como el **Comando de acción / mensaje para enviar la exportación** en el canal deseado *(facultatif)*.
 
 > **CONSEJO**
@@ -110,6 +108,10 @@ Complete el **Título** *(facultatif)* así como el **Comando de acción / mensa
 >En cuanto al envío por programación, es posible utilizar [**etiquetas de escenario**](https://doc.jeedom.com/es_ES/core/4.1/scenario#Les%20tags){:target = "\_ blank"} en el título de envío y el archivo será archivado automáticamente por el complemento si no se ingresa ningún comando de envío.
 
 # Datos de importacion
+
+Si desea integrar datos en el historial de un pedido de Jeedom, puede utilizar esta herramienta. Para hacerlo, debe enviar un archivo de hoja de cálculo con la extensión `csv` **con separadores de punto y coma** que contiene una columna de valores para integrar y una columna de marcas de tiempo correspondientes.
+
+Tenga cuidado con las marcas de tiempo que se pueden interpretar y modificar según la aplicación de hoja de cálculo que esté utilizando. Por ejemplo, **Sobresalir** tiende a eliminar los segundos automáticamente y formatear la fecha en formato francés de forma predeterminada. En este caso, deberá indicar un formato personalizado como `dd / mm / aaaa hh:mm:ss` o `aaaa-mm-dd hh:mm:ss` para celdas que contienen una marca de tiempo.
 
 >**IMPORTANTE**
 >
@@ -120,18 +122,18 @@ Para acceder a la herramienta de importación de valor, vaya a la página genera
 ![Exportación de datos - Datos de importacion](./images/dataexport_import.png)
 
 La ventana de importación se utiliza para integrar valores en el historial de una orden de tipo Info desde un archivo `*.csv` siempre que :
-- El archivo contiene una columna denominada Fecha,
-- El archivo contiene una columna denominada Valor,
-- El separador de columna es un punto y coma,
-- El formato de fecha se ha introducido correctamente (francés \|international).
+- El archivo contiene **una columna llamada "Fecha"**,
+- El archivo contiene **una columna llamada "Valor"**,
+- El separador de columna es **un punto y coma**,
+- La **formato de fecha** se ha introducido correctamente (francés \| international).
 
 ## Enviar datos
 
 Haga clic en el botón para seleccionar un archivo `CSV`. Una vez cargado, el archivo se verifica y la información importante se muestra en la pantalla :
-- Nombre y tamaño de archivo,
-- Número de líneas a procesar,
-- Periodo afectado por la importación,
-- Fechas y valores para importar.
+- **Nombre y talla** del archivo,
+- **Número de líneas** a tratar,
+- **Período** preocupado por la importación,
+- **Fechas y valores** importar.
 
 ## Recibir datos
 

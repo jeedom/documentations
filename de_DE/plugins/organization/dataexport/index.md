@@ -1,7 +1,5 @@
 # Datenexport-Plugin
 
-# Description
-
 Plugin zum Generieren und Verwalten der Archivierung historischer Exporte der Bestellungen Ihrer Wahl in eine `* .csv`-Datei.
 
 Das Plugin bietet die Möglichkeit, die Rohwerte jeder Bestellung über den ausgewählten Zeitraum oder deren Statistiken zu exportieren : **meine, min., max., Summe, Standardabweichung, Anzahl der Werte, letzter Wert**.
@@ -102,7 +100,7 @@ Sie können die Exportdatei auch an den Kanal Ihrer Wahl senden *(Mail, Telegram
 
 ![Datenexport - Senden über Szenario](./images/dataexport_scenarioSend.png)
 
-Dazu müssen Sie den Befehl auswählen **CSV-Export senden** entsprechend der gewünschten Exportcharge in einem Block *Aktion* eines Szenarios.
+Sie müssen dann den Befehl auswählen **CSV-Export senden** entsprechend der gewünschten Exportcharge in einem Block *Aktion* eines Szenarios.
 Füllen Sie die aus **Titel** *(facultatif)* sowie die **Aktion / Nachricht Befehl zum Senden des Exports** auf dem gewünschten Kanal *(facultatif)*.
 
 > **TIPP**
@@ -110,6 +108,10 @@ Füllen Sie die aus **Titel** *(facultatif)* sowie die **Aktion / Nachricht Befe
 >Das Senden per Programmierung ist möglich [**Szenario-Tags**](https://doc.jeedom.com/de_DE/core/4.1/scenario#Les%20tags){:target = "\_ blank"} im Sendetitel und die Datei wird vom Plugin automatisch archiviert, wenn kein Sendebefehl eingegeben wird.
 
 # Daten importieren
+
+Wenn Sie Daten in den Verlauf eines Jeedom-Auftrags integrieren möchten, können Sie dieses Tool verwenden. Dazu müssen Sie eine Tabellenkalkulationsdatei mit der Erweiterung "csv" senden **mit Semikolon-Trennzeichen** Enthält eine Spalte mit zu integrierenden Werten und eine Spalte mit entsprechenden Zeitstempeln.
+
+Achten Sie auf Zeitstempel, die je nach verwendeter Tabellenkalkulationsanwendung interpretiert und geändert werden können. Beispielsweise, **Excel** neigt dazu, Sekunden automatisch zu entfernen und das Datum standardmäßig im französischen Format zu formatieren. In diesem Fall müssen Sie ein benutzerdefiniertes Format angeben, z. B. TT / MM / JJJJ HH:mm:ss` oder `yyyy-mm-dd hh:mm:ss` für Zellen, die einen Zeitstempel enthalten.
 
 >**WICHTIG**
 >
@@ -120,18 +122,18 @@ Um auf das Wertimport-Tool zuzugreifen, rufen Sie die allgemeine Seite des Plugi
 ![Datenexport - Daten importieren](./images/dataexport_import.png)
 
 Das Importfenster wird verwendet, um Werte aus einer Datei in den Verlauf einer Reihenfolge vom Typ "Info" zu integrieren*.csv` vorausgesetzt, dass :
-- Die Datei enthält eine Spalte mit dem Namen Datum,
-- Die Datei enthält eine Spalte mit dem Namen Value,
-- Das Spaltentrennzeichen ist ein Semikolon,
-- Das Datumsformat ist korrekt eingegeben (Französisch \|international).
+- Die Datei enthält **eine Spalte mit dem Namen "Datum"**,
+- Die Datei enthält **eine Spalte mit dem Namen "Wert"**,
+- Der Spaltentrenner ist **ein Semikolon**,
+- Das **Datumsformat** ist korrekt eingegeben (Französisch \| international).
 
 ## Daten senden
 
 Klicken Sie auf die Schaltfläche, um eine CSV-Datei auszuwählen. Nach dem Laden wird die Datei überprüft und wichtige Informationen werden auf dem Bildschirm angezeigt :
-- Dateiname und Größe,
-- Anzahl der zu verarbeitenden Zeilen,
-- Vom Import betroffener Zeitraum,
-- Daten und Werte zum Importieren.
+- **Name und Größe** der Datei,
+- **Anzahl der Zeilen** behandeln,
+- **Zeit** von der Einfuhr betroffen,
+- **Daten und Werte** importieren.
 
 ## Empfange Daten
 

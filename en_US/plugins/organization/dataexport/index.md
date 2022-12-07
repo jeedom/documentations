@@ -1,7 +1,5 @@
 # Data Export plugin
 
-# Description
-
 Plugin allowing to generate and manage the archiving of historical exports of the orders of your choice to a `* .csv` file.
 
 The plugin offers the possibility of exporting the raw values of each order over the selected period or the statistics thereof : **mean, min., max., sum, standard deviation, number of values, last value**.
@@ -102,7 +100,7 @@ You can also send the export file to the channel of your choice *(Mail, Telegram
 
 ![Data Export - Send via scenario](./images/dataexport_scenarioSend.png)
 
-To do so, you must select the command **Send CSV Export** corresponding to the desired export batch in a block *Action* of a scenario.
+You must then select the command **Send CSV Export** corresponding to the desired export batch in a block *Action* of a scenario.
 Fill in the **Title** *(facultatif)* as well as **Action / Message command to send the export** on the desired channel *(facultatif)*.
 
 > **TRICK**
@@ -110,6 +108,10 @@ Fill in the **Title** *(facultatif)* as well as **Action / Message command to se
 >As for sending by programming, it is possible to use [**scenario tags**](https://doc.jeedom.com/en_US/core/4.1/scenario#Les%20tags){:target = "\_ blank"} in the sending title and the file will be automatically archived by the plugin if no sending command is entered.
 
 # Import data
+
+If you want to integrate data into the history of a Jeedom order, you can use this tool. To do so, you must send a spreadsheet file with the extension `csv` **with semicolon separators** containing a column of values to integrate and a column of corresponding time stamps.
+
+Beware of timestamps which can be interpreted and modified depending on the spreadsheet application you are using. For example, **Excel** tends to remove seconds automatically and format the date in French format by default. In this case, you will need to indicate a custom format such as `dd / mm / yyyy hh:mm:ss` or `yyyy-mm-dd hh:mm:ss` for cells containing a timestamp.
 
 >**IMPORTANT**
 >
@@ -120,18 +122,18 @@ To access the value import tool, go to the general page of the plugin then click
 ![Data Export - Import data](./images/dataexport_import.png)
 
 The import window is used to integrate values in the history of an Info type order from a file `*.csv` provided that :
-- The file contains a column named Date,
-- The file contains a column named Value,
-- The column separator is a semicolon,
-- The date format is correctly entered (French \|international).
+- The file contains **a column named "Date"**,
+- The file contains **a column named "Value"**,
+- The column separator is **a semicolon**,
+- The **date format** is correctly entered (French \| international).
 
 ## Send data
 
 Click on the button to select a `CSV` file. Once loaded, the file is verified and important information is displayed on the screen :
-- File name and size,
-- Number of lines to process,
-- Period affected by the import,
-- Dates and values to import.
+- **Name and size** of the file,
+- **Number of lines** treat,
+- **Period** concerned by the import,
+- **Dates and values** to import.
 
 ## Receive data
 

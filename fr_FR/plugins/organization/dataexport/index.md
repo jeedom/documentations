@@ -122,8 +122,8 @@ Pour accéder à l'outil d'import de valeurs, dirigez-vous vers la page généra
 ![Data Export - Importer des données](./images/dataexport_import.png)
 
 La fenêtre d'import permet d'intégrer des valeurs en historique d'une commande de type Info à partir d'un fichier `*.csv` à condition que :
-- Le fichier contienne **une colonne nommée Date**,
-- Le fichier contienne **une colonne nommée Valeur**,
+- Le fichier contienne **une colonne nommée "Date"**,
+- Le fichier contienne **une colonne nommée "Valeur"**,
 - Le séparateur de colonnes soit **un point-virgule**,
 - Le **format des dates** soit correctement renseigné (français \| international).
 

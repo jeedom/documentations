@@ -4,9 +4,22 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# 16/04/2021
+# 10/04/2022
 
-- Nova opção que permite selecionar o formato da data do arquivo `csv` ao importar os dados *(Francês\|international)*
+- Adicionada opção para preferir timestamp *(timestamp)* história em vez de datas
+
+# 03/09/2022
+
+- Corrigido um bug nas exportações do dia atual que incluíam as do dia anterior na seleção de data
+- Levando em consideração os segundos e aumentando o tamanho máximo do arquivo para 50 MB para importações
+
+# 18/01/2022
+
+- Otimizações da V4.2
+
+# 30/04/2021
+
+- Nova opção que permite selecionar o formato da data do arquivo `csv` ao importar os dados *(Francês \| international)*
 
 # 02/04/2021
 

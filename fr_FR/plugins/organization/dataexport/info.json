@@ -38,9 +38,12 @@
     "compatibility": [
         "miniplus",
         "smart",
+        "atlas",
         "rpi",
         "docker",
         "diy",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/dataexport\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/organization\/dataexport\/beta"
 }

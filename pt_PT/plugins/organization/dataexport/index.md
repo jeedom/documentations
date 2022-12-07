@@ -1,7 +1,5 @@
 # Plug-in de exportação de dados
 
-# Description
-
 Plugin que permite gerar e gerenciar o arquivamento de exportações históricas dos pedidos de sua escolha para um arquivo `* .csv`.
 
 O plugin oferece a possibilidade de exportar os valores brutos de cada pedido ao longo do período selecionado ou as estatísticas do mesmo : **significa, min., max., soma, desvio padrão, número de valores, último valor**.
@@ -102,7 +100,7 @@ Você também pode enviar o arquivo de exportação para o canal de sua escolha 
 
 ![Exportação de Dados - Enviar via cenário](../images/dataexport_scenarioSend.png)
 
-Para fazer isso, você deve selecionar o comando **Enviar exportação de CSV** correspondente ao lote de exportação desejado em um bloco *Ação* de um cenário.
+Você deve então selecionar o comando **Enviar exportação de CSV** correspondente ao lote de exportação desejado em um bloco *Ação* de um cenário.
 Preencha o **Título** *(facultatif)* bem como o **Comando de ação / mensagem para enviar a exportação** no canal desejado *(facultatif)*.
 
 > **DICA**
@@ -110,6 +108,10 @@ Preencha o **Título** *(facultatif)* bem como o **Comando de ação / mensagem 
 >Quanto ao envio por programação, é possível utilizar [**tags de cenário**](https://doc.jeedom.com/pt_PT/core/4.1/scenario#Les%20tags){:target = "\_ blank"} no título de envio e o arquivo será arquivado automaticamente pelo plugin se nenhum comando de envio for inserido.
 
 # Importar dados
+
+Se você deseja integrar dados no histórico de um pedido Jeedom, você pode usar esta ferramenta. Para isso, deve-se enviar um arquivo de planilha com a extensão `csv` **com separadores de ponto e vírgula** contendo uma coluna de valores para integrar e uma coluna de carimbos de data / hora correspondentes.
+
+Cuidado com os carimbos de data / hora, que podem ser interpretados e modificados, dependendo do aplicativo de planilha que você está usando. Por exemplo, **Excel** tende a remover os segundos automaticamente e formatar a data no formato francês por padrão. Neste caso, você precisará indicar um formato personalizado, como `dd / mm / aaaa hh:mm:ss` ou `aaaa-mm-dd hh:mm:ss` para células contendo um carimbo de data / hora.
 
 >**IMPORTANTE**
 >
@@ -120,18 +122,18 @@ Para acessar a ferramenta de importação de valor, vá até a página geral do 
 ![Exportação de Dados - Importar dados](../images/dataexport_import.png)
 
 A janela de importação é usada para integrar valores no histórico de um pedido de tipo de informação de um arquivo `*.csv` desde que :
-- O arquivo contém uma coluna chamada Data,
-- O arquivo contém uma coluna chamada Value,
-- O separador de coluna é um ponto e vírgula,
-- O formato da data foi inserido corretamente (francês \|international).
+- O arquivo contém **uma coluna chamada "Data"**,
+- O arquivo contém **uma coluna chamada "Valor"**,
+- O separador de coluna é **um ponto e vírgula**,
+- O **Formato de data** está inserido corretamente (francês \| international).
 
 ## Enviar dados
 
 Clique no botão para selecionar um arquivo `CSV`. Depois de carregado, o arquivo é verificado e informações importantes são exibidas na tela :
-- Nome e tamanho do arquivo,
-- Número de linhas para processar,
-- Período afetado pela importação,
-- Datas e valores para importar.
+- **Nome e tamanho** do arquivo,
+- **Número de linhas** tratar,
+- **Período** preocupado com a importação,
+- **Datas e valores** importar.
 
 ## Receber dados
 
