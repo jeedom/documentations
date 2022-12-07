@@ -1,6 +1,6 @@
 {
     "id": "z2m",
-    "name": "Zigbee2Mqtt",
+    "name": "jeeZigbee",
     "description": {
         "fr_FR": "Template servant de base à la création de plugins pour Jeedom",
         "en_US": "Template serving as a basis for the creation of plugins for Jeedom",

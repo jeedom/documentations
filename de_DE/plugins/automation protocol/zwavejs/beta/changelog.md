@@ -27,7 +27,7 @@
 
 - Registerkarte hinzufügen *NVM-Verwaltung* auf der Netzwerkseite. Sichern, Herunterladen, Senden und Wiederherstellen
 - Registerkarte hinzufügen *Aktualisieren* auf einer Knotenseite.
-- Ergänzung der Version von *SDKs* auf der Informationsseite eines Controllers.
+- Ergänzung der Version von *SDKs* auf der Informationsseite eines Controllers oder der ihn erhebenden Module
 
 **Konfigurationsänderungen**
 

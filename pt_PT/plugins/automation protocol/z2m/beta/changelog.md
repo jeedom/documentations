@@ -1,3 +1,5 @@
+# Changelog jeeZigbee
+
 # Registro de alterações Zigbee2Mqtt
 
 # Modelo de plug-in de registro de alterações

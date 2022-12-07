@@ -27,7 +27,7 @@
 
 - Rajout d'un onglet *Gestion NVM* sur la page réseau. Sauvegarde, téléchargement, envoie et restauration
 - Rajout d'un onglet *Mise à jour* sur la page d'un node.
-- Rajout de la version du *SDK* sur la page d'informations d'un contrôleur.
+- Rajout de la version du *SDK* sur la page d'informations d'un contrôleur ou des modules le remontant
 
 **Modifications de Configurations**
 
