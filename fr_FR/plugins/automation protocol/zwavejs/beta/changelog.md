@@ -6,11 +6,17 @@
 
 # XX/12/2022
 
+**Améliorations**
+
+- Rajout de la possibilité d'afficher *des assistants explicatifs* sur la page de certains équipements (Keypad Zipato par exemple pour expliquer le fonctionnement des codes)
+
 **Modifications de Configurations**
 
 - Modification de la configuration *Aetoec Nanomote Quad* pour utiliser les propriétés
-- Modification de la configuration *Fibaro Fgs211* pour utilsier les propriétés
+- Modification de la configuration *Fibaro Fgs211* pour utiliser les propriétés
 - Modification de la configuration *Fibaro fgwreu111 Walli Shutter* passage à une propriété Shutter/level  et passage de power et energy sur le endpoint 1
+- Modification de la configuration *Zipato Keypad* pour utiliser les propriétés
+- Modification de la configuration *Schlage Keypad* pour utiliser les propriétés
 
 **Ajouts de Configurations**
 
@@ -18,6 +24,7 @@
 - Ajout de l'image pour *Neo EU-1 switch*
 - Ajout de la configuration *Abus Flood Sensor* (propriétés : Flood, Tamper, Battery)
 - Ajout de l'image pour *Abus Flood Sensor*
+- Ajout d'une propriété *UserCode*
 
 *Si vous êtes concernés par une modification ou un ajout de configuration, faites une synchronisation puis rechargez les commandes de l'équipement en "recréant toutes les commandes" après la mise à jour.*
 

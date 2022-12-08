@@ -6,11 +6,17 @@
 
 # XX/12/2022
 
+**Melhorias**
+
+- Adicionado a capacidade de exibir *assistentes explicativos* na página de determinado equipamento (Teclado Zipato por exemplo para explicar o funcionamento dos códigos)
+
 **Alterações de configuração**
 
 - Mudando a configuração *Aetoec Nanomote Quad* para usar as propriedades
 - Mudando a configuração *Fibaro Fgs211* para usar as propriedades
 - Mudando a configuração *Obturador Fibaro fgwreu111 Walli* passando uma propriedade Shutter/level e passando poder e energia no endpoint 1
+- Mudando a configuração *Teclado Zipato* para usar as propriedades
+- Mudando a configuração *Teclado Schlage* para usar as propriedades
 
 **Adições de configuração**
 
@@ -18,6 +24,7 @@
 - Imagem adicionada para *Interruptor Neo EU-1*
 - Configuração adicionada *Sensor de Inundação Abus* (propriedades : Inundação, Tamper, Bateria)
 - Imagem adicionada para *Sensor de Inundação Abus*
+- Adicionando uma propriedade *Código de usuário*
 
 *Se você for afetado por uma modificação ou adição de configuração, faça uma sincronização e recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
 

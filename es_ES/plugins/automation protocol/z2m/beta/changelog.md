@@ -1,5 +1,7 @@
 # Registro de cambios jeeZigbee
 
+# Registro de cambios jeeZigbee
+
 # Registro de cambios Zigbee2Mqtt
 
 # Plantilla de complemento de registro de cambios

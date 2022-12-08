@@ -6,11 +6,17 @@
 
 # XX/12/2022
 
+**Verbesserungen**
+
+- Anzeigemöglichkeit hinzugefügt *erklärende Assistenten* auf der Seite bestimmter Geräte (Keypad Zipato zum Beispiel, um die Funktionsweise der Codes zu erklären)
+
 **Konfigurationsänderungen**
 
 - Ändern der Konfiguration *Aetoec Nanomote Quad* um die Eigenschaften zu verwenden
 - Ändern der Konfiguration *Fibaro Fgs211* um die Eigenschaften zu verwenden
 - Ändern der Konfiguration *Fibaro fgwreu111 Walli Shutter* Übergeben einer Shutter/Level-Eigenschaft und Übergeben von Strom und Energie an Endpunkt 1
+- Ändern der Konfiguration *Zipato-Tastatur* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Schlage Tastatur* um die Eigenschaften zu verwenden
 
 **Konfigurationsergänzungen**
 
@@ -18,6 +24,7 @@
 - Bild hinzugefügt für *Neo EU-1-Schalter*
 - Konfig hinzugefügt *Abus Hochwassersensor* (Eigenschaften : Überschwemmung, Sabotage, Batterie)
 - Bild hinzugefügt für *Abus Hochwassersensor*
+- Hinzufügen einer Eigenschaft *Benutzercode*
 
 *Wenn Sie von einer Änderung oder Hinzufügung der Konfiguration betroffen sind, führen Sie eine Synchronisierung durch und laden Sie dann die Befehle des Geräts neu, indem Sie nach dem Update „alle Befehle neu erstellen“.*
 

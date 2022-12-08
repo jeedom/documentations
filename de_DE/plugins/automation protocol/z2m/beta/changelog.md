@@ -1,5 +1,7 @@
 # Änderungsprotokoll jeeZigbee
 
+# Änderungsprotokoll jeeZigbee
+
 # Änderungsprotokoll Zigbee2Mqtt
 
 # Changelog-Plugin-Vorlage
