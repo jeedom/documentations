@@ -3,6 +3,7 @@
 #Description
 
 Plugin permettant de lire et écrire sur vos équipements ModbusTCP/IP et RTU
+Non compatible Wago a l heure actuelle
 
 
 
@@ -70,7 +71,7 @@ Quand les commandes sont choisies, cliquez sur Valider.
 
 
 
-Vous verrez désormais les commandes choisies et pretes a etre exporter dans cet encart :
+Vous verrez désormais les commandes choisies et pretes à etre exportées dans cet encart :
 
 ![dependances](./images/exportCmds.png)
 
@@ -86,7 +87,8 @@ Pour importer les commandes sur un équipement : cliquez en haut a droit d l'equ
 
 
 
-
+Vous pouvez aussi choisir directement un modele d'equipement disponible dans la configuration du plugin, pour charger des commandes prévues dans ce modèle; 
+Choisir le modele choisi, puis Valider. Ensuite vous pouvez Sauvegarder. 
 
 
 
@@ -110,6 +112,17 @@ Pour les entrées Coils et Discretes Inputs :
   - Choisir le format correspondant : Float , Long/Integer ou Bits
   - Choisir le fonction code correspondant : FC04 ou FC03
   - Le Registre de depart ainsi que le nombre de bytes : pour les floats, le maximum de registres encodé est de 4 registres.
+  
+  
+Certains registres ne peuvent se lire qu'en lisant plusieurs registres en meme temps sur une meme commande :
+
+exemple : On créé une commande,choisir Info et soustype autre, en specifiant 10 bytes (10registres); en cochant LectureMultiRegistres, cela va créé automatiquement 10 nouvelles commandes, reprenant le nom de la commande originale, plus l'id de la commande en iteration. Vous pouvez bien attendu renommer les commandes; à la lecture de la commande originale, sa valeur contiendra une chaine de caractere des 10 valeurs des registres, et mettra à jour les 10 commandes correspondantes.
+
+
+
+Certains registres peuent demander a etre decoupe en plusieurs octets :
+exemple : un registre 17, d'apres la documentation du device, doit retourner une valeur FF ou 00 (savoir si un ventilateur fonctionne ou non) sur le premier octet du registre, ainsi qu'une valeur numerique sur le deuxieme octet du registre.
+Il faut alors creer une commande en fc3, et preciser dans le champ nbOctets le chiffre 2; cela creera 2 commandes supplementaires, basé sur le nom de la commande initiale; ces 2 commandes correspondent chacune à un octet. Les valeurs renvoyes dessus seront en hexadecimale; si besoin de la valeur numerique, alors il faut cocher Hexa2dec sur cette meme commande.
 
 
 
@@ -207,3 +220,8 @@ Pour écrire sur un Holding Register :
 - Choisir Fc6 Write Single Register
 - Choisir le nombre de registre : 1
 - Choisir le pas du slider (pour les décimales, écrire avec un .   ex: 0.2)
+
+
+
+Quand une ecriture s'effectue, que cela reussisse ou non, un message apparait sur Jeedom. 
+Vous pouvez desactiver/activer ce message depuis la configuration du plugin.

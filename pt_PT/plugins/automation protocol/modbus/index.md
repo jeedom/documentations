@@ -70,7 +70,7 @@ Quando os comandos forem escolhidos, clique em Validar.
 
 
 
-Agora você verá os pedidos escolhidos e prontos para serem exportados neste encarte :
+Agora você verá os pedidos escolhidos e prontos para serem exportados nesta caixa :
 
 ![dependances](../images/exportCmds.png)
 
@@ -86,7 +86,8 @@ Para importar comandos para equipamentos : clique no canto superior direito do e
 
 
 
-
+Você também pode escolher diretamente um modelo de equipamento disponível na configuração do plugin, para carregar comandos fornecidos neste modelo; 
+Escolha o modelo escolhido e, em seguida, Valide. Então você pode salvar. 
 
 
 
@@ -110,6 +111,17 @@ Para bobinas e entradas discretas :
   - Escolha o formato correspondente : Float , Long/Integer ou Bits
   - Escolha o código de função correspondente : FC04 ou FC03
   - O registrador inicial, bem como o número de bytes : para floats, o número máximo de registros codificados é de 4 registros.
+  
+  
+Alguns registradores só podem ser lidos lendo vários registradores ao mesmo tempo no mesmo comando :
+
+exemplo : Criamos um comando, escolhemos Info e outro subtipo, especificando 10 bytes (10 registradores); marcando LectureMultiRegistres, isso criará automaticamente 10 novos pedidos, usando o nome do pedido original, mais o id do pedido em iteração. É claro que você pode renomear os comandos; ao ler o comando original, seu valor conterá uma cadeia de caracteres dos 10 valores de registro e atualizará os 10 comandos correspondentes.
+
+
+
+Alguns registradores podem precisar ser divididos em vários bytes :
+exemplo : um registro 17, conforme a documentação do dispositivo, deve retornar um valor FF ou 00 (para saber se um ventilador funciona ou não) no primeiro byte do registro, bem como um valor numérico no segundo byte do registro.
+É necessário então criar um comando em fc3, e especificar no campo nbOctets o número 2; isso criará 2 comandos adicionais, com base no nome do comando inicial; estes 2 comandos correspondem cada um a um byte. Os valores retornados acima serão em hexadecimal; se você precisar do valor numérico, verifique Hexa2dec neste mesmo comando.
 
 
 
@@ -207,3 +219,8 @@ Para gravar em um registro de retenção :
 - Escolha Bc6 Write Single Register
 - Escolha o número de registros : 1
 - Escolha o passo do controle deslizante (para decimais, escreva com um .   ex: 0.2)
+
+
+
+Quando uma gravação é concluída, seja bem-sucedida ou não, uma mensagem aparece no Jeedom. 
+Você pode desabilitar/habilitar esta mensagem na configuração do plugin.

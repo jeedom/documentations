@@ -35,3 +35,13 @@
 # 26/09/2022
 
 - Nouveau paremetre Timeout entre lecture registre
+
+# 07/10/2022
+
+- Nouveau Systeme de Modele pre-enregistrés
+- Option LectureMultiRegistres sur les commandes
+
+# 13/10/2022
+
+- Option Activer/Desactiver Message d'ecriture
+- Option nbOctets pour determiner la decoupe d'un registre en x octet

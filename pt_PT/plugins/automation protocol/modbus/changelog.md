@@ -35,3 +35,13 @@
 # 26/09/2022
 
 - Novo parâmetro de tempo limite entre o registro de leitura
+
+# 10/07/2022
+
+- Novo sistema de modelo pré-gravado
+- Opção ReadMultiRegisters nos comandos
+
+# 13/10/2022
+
+- Opção Ativar/Desativar Mensagem de Gravação
+- Opção nbBytes para determinar a divisão de um registro em x bytes
