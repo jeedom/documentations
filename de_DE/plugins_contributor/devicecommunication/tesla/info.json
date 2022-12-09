@@ -15,8 +15,8 @@
   "compatibility" : ["miniplus", "smart","rpi","docker","diy","mobile","v4","atlas"],
 	"changelog" : "http://tesla.jeedom.free.fr/changelog",
 	"changelog_beta" : "http://tesla.jeedom.free.fr/changelog",
-	"documentation" : "http://tesla.jeedom.free.fr",
-	"documentation_beta" : "http://tesla.jeedom.free.fr",
+	"documentation" : "http://tesla.jeedom.free.fr/documentation",
+	"documentation_beta" : "http://tesla.jeedom.free.fr/documentation",
   "link": {
     "forum": "https://community.jeedom.com/tag/plugin-tesla"
   }
