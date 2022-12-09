@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Remoção do editor de script integrado para alternar para o principal
+
 # 17/10/2022
 
 - Atualizar lista de comandos para Jeedom v4.3
