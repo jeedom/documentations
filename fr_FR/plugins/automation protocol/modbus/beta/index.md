@@ -3,6 +3,7 @@
 #Description
 
 Plugin permettant de lire et écrire sur vos équipements ModbusTCP/IP et RTU
+Non compatible Wago a l heure actuelle
 
 
 

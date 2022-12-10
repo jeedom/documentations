@@ -3,6 +3,7 @@
 #Description
 
 Plugin para leitura e escrita em seus dispositivos ModbusTCP/IP e RTU
+Wago incompatível com o horário atual
 
 
 
