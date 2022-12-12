@@ -260,6 +260,9 @@
         "Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie": "Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie",
         "WiserLink": "WiserLink",
         "Plugin pour afficher les données du module IP Wiser": "Plugin pour afficher les données du module IP Wiser",
+        "Le plugin offre la possibilité d'utiliser un fichier CGX spécialement conçu pour Jeedom et permettant de lire davantage de données que celles disponibles par défaut (nécessite un accès au serveur Wes en FTP": "Le plugin offre la possibilité d'utiliser un fichier CGX spécialement conçu pour Jeedom et permettant de lire davantage de données que celles disponibles par défaut (nécessite un accès au serveur Wes en FTP",
+        "Wes Control": "Wes Control",
+        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
         "Eco RT2": "Eco RT2",
         "Plugin permettant de piloter l'Eco-Devices RT2": "Plugin permettant de piloter l'Eco-Devices RT2",
         "Uniquement testé avec le modèle 6 prises": "Uniquement testé avec le modèle 6 prises",
@@ -303,6 +306,9 @@
         "Le widget permet de voir toutes les infos": "Le widget permet de voir toutes les infos",
         "état, puissance, consommation, courant, voltage et facteur de puissance": "état, puissance, consommation, courant, voltage et facteur de puissance",
         "Les données sont rafraichies toutes les minutes et après une action depuis jeedom": "Les données sont rafraichies toutes les minutes et après une action depuis jeedom",
+        "Documentation beta": "Documentation beta",
+        "Prenez le contrôle de votre serveur d'énergie Cartelectronic Wes depuis Jeedom et vous serez en mesure d'en décupler les fonctionnalités": "Prenez le contrôle de votre serveur d'énergie Cartelectronic Wes depuis Jeedom et vous serez en mesure d'en décupler les fonctionnalités",
+        "Changelog beta": "Changelog beta",
         "Il remonte l'ensemble des 5 canaux \/ la téléinfo \/ les 2 modules impulsionnels": "Il remonte l'ensemble des 5 canaux \/ la téléinfo \/ les 2 modules impulsionnels"
     },
     "plugins\/finance\/index.md": {
