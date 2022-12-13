@@ -1,0 +1,48 @@
+{
+    "id": "wescontrol",
+    "name": "Wes Control",
+    "description": {
+        "fr_FR": "Prenez le contrôle de votre serveur d'énergie Cartelectronic Wes depuis Jeedom et vous serez en mesure d'en décupler les fonctionnalités. Le plugin offre la possibilité d'utiliser un fichier CGX spécialement conçu pour Jeedom et permettant de lire davantage de données que celles disponibles par défaut (nécessite un accès au serveur Wes en FTP). Le plugin en version stable offre une pleine compatibilité avec les serveurs Wes de firmware inférieur à V0.84A10 et la version beta avec les firmwares supérieurs ou égaux à V0.84A10.",
+        "en_US": "Take control of your Cartelectronic Wes energy server from Jeedom and you will be able to increase its functionality tenfold. The plugin offers the possibility of using a CGX file specially designed for Jeedom and allowing to read more data than those available by default (requires access to the Wes server in FTP). The plugin in stable version offers full compatibility with Wes servers with firmware lower than V0.84A10 and the beta version with firmware higher or equal to V0.84A10",
+        "es_ES": "Toma el control de tu servidor de energía Cartelectronic Wes de Jeedom y podrás multiplicar por diez su funcionalidad. El complemento ofrece la posibilidad de usar un archivo CGX especialmente diseñado para Jeedom y que permite leer más datos que los disponibles por defecto (requiere acceso al servidor Wes en FTP). El complemento en versión estable ofrece compatibilidad total con servidores Wes con firmware inferior a V0.84A10 y la versión beta con firmware superior o igual a V0.84A10",
+        "de_DE": "Übernehmen Sie die Kontrolle über Ihren Cartelectronic Wes Energieserver von Jeedom und Sie können seine Funktionalität verzehnfachen. Das Plugin bietet die Möglichkeit, eine speziell für Jeedom entwickelte CGX-Datei zu verwenden und mehr Daten als die standardmäßig verfügbaren zu lesen (erfordert Zugriff auf den Wes-Server in FTP). Das Plugin in stabiler Version bietet volle Kompatibilität mit Wes-Servern mit Firmware niedriger als V0.84A10 und der Beta-Version mit Firmware höher oder gleich V0.84A10",
+        "pt_PT": "Assuma o controle de seu servidor de energia Cartelectronic Wes de Jeedom e você poderá aumentar sua funcionalidade dez vezes. O plug-in oferece a possibilidade de usar um arquivo CGX especialmente projetado para Jeedom e permite ler mais dados do que os disponíveis por padrão (requer acesso ao servidor Wes em FTP). O plugin em versão estável oferece total compatibilidade com servidores Wes com firmware inferior a V0.84A10 e a versão beta com firmware superior ou igual a V0.84A10",
+        "ru_RU": "Prenez le contrôle de votre serveur d'énergie Cartelectronic Wes depuis Jeedom et vous serez en mesure d'en décupler les fonctionnalités. Le plugin offre la possibilité d'utiliser un fichier CGX spécialement conçu pour Jeedom et permettant de lire davantage de données que celles disponibles par défaut (nécessite un accès au serveur Wes en FTP). Le plugin en version stable offre une pleine compatibilité avec les serveurs Wes de firmware inférieur à V0.84A10 et la version beta avec les firmwares supérieurs ou égaux à V0.84A10",
+        "id_ID": "Prenez le contrôle de votre serveur d'énergie Cartelectronic Wes depuis Jeedom et vous serez en mesure d'en décupler les fonctionnalités. Le plugin offre la possibilité d'utiliser un fichier CGX spécialement conçu pour Jeedom et permettant de lire davantage de données que celles disponibles par défaut (nécessite un accès au serveur Wes en FTP). Le plugin en version stable offre une pleine compatibilité avec les serveurs Wes de firmware inférieur à V0.84A10 et la version beta avec les firmwares supérieurs ou égaux à V0.84A10",
+        "it_IT": "Prenez le contrôle de votre serveur d'énergie Cartelectronic Wes depuis Jeedom et vous serez en mesure d'en décupler les fonctionnalités. Le plugin offre la possibilité d'utiliser un fichier CGX spécialement conçu pour Jeedom et permettant de lire davantage de données que celles disponibles par défaut (nécessite un accès au serveur Wes en FTP). Le plugin en version stable offre une pleine compatibilité avec les serveurs Wes de firmware inférieur à V0.84A10 et la version beta avec les firmwares supérieurs ou égaux à V0.84A10",
+        "ja_JP": "Prenez le contrôle de votre serveur d'énergie Cartelectronic Wes depuis Jeedom et vous serez en mesure d'en décupler les fonctionnalités. Le plugin offre la possibilité d'utiliser un fichier CGX spécialement conçu pour Jeedom et permettant de lire davantage de données que celles disponibles par défaut (nécessite un accès au serveur Wes en FTP). Le plugin en version stable offre une pleine compatibilité avec les serveurs Wes de firmware inférieur à V0.84A10 et la version beta avec les firmwares supérieurs ou égaux à V0.84A10",
+        "tr": "Prenez le contrôle de votre serveur d'énergie Cartelectronic Wes depuis Jeedom et vous serez en mesure d'en décupler les fonctionnalités. Le plugin offre la possibilité d'utiliser un fichier CGX spécialement conçu pour Jeedom et permettant de lire davantage de données que celles disponibles par défaut (nécessite un accès au serveur Wes en FTP). Le plugin en version stable offre une pleine compatibilité avec les serveurs Wes de firmware inférieur à V0.84A10 et la version beta avec les firmwares supérieurs ou égaux à V0.84A10"
+    },
+    "utilization": "Ajoutez un équipement serveur Wes à partir duquel vous pourrez gérer les différents équipements enfants un par un (pinces ampèremétriques, compteurs à impulsions, relais, TIC, etc...).",
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2",
+    "category": "energy",
+    "hasOwnDeamon": true,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/wescontrol\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/wescontrol\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "atlas",
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/wescontrol\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/wescontrol\/beta"
+}

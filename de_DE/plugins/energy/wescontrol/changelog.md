@@ -9,10 +9,6 @@
 - Überprüfung der vollen Kompatibilität des Plugins gemäß seiner Version und der Firmware des Wes *(``< V0.84A10`` = Stable-Plugin/ ``>= V0.84A10`` = Beta-Plugin)*
 - Ergänzung der Anzeige im Tabellenlayout von Kindergeräten.
 
-# 13.06.2022
-
-- Neue CGX-Dateiversion V1.0.3
-
 # 10.05.2021
 
 - Neue Version der CGX-Datei V1.0.2

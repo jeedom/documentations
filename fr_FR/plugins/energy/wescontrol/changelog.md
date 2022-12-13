@@ -9,10 +9,6 @@
 - Vérification de la pleine compatibilité du plugin en fonction de sa version et de celle du firmware du Wes *(``< V0.84A10`` = plugin stable / ``>= V0.84A10`` = plugin beta)*
 - Ajout de l'affichage en disposition tableau des équipements enfants.
 
-# 13/06/2022
-
-- Nouvelle version du fichier CGX V1.0.3
-
 # 10/05/2021
 
 - Nouvelle version du fichier CGX V1.0.2

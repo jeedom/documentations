@@ -9,10 +9,6 @@
 - Verification of the full compatibility of the plugin according to its version and that of the firmware of the Wes *(``< V0.84A10`` = stable-plugin/ ``>= V0.84A10`` = beta-plugin)*
 - Addition of the display in table layout of child equipment.
 
-# 06/13/2022
-
-- New CGX File Version V1.0.3
-
 # 05/10/2021
 
 - New version of CGX file V1.0.2
