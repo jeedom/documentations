@@ -5,6 +5,7 @@
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
 - Remoção do editor de script integrado para alternar para o principal
+- Suporte para tags em URLs de comandos do tipo xml, json e html como já estava em comandos http
 
 # 17/10/2022
 

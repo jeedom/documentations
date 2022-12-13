@@ -5,6 +5,7 @@
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
 - Removal of the integrated script editor to switch to the core one
+- Support for tags in URLs of xml, json & html type commands as it was already on http commands
 
 # 10/17/2022
 

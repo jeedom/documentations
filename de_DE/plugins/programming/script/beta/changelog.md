@@ -5,6 +5,7 @@
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 - Entfernen des integrierten Skripteditors, um zum Kern zu wechseln
+- Unterstützung für Tags in URLs von XML-, JSON- und HTML-Befehlen, wie es bereits bei http-Befehlen der Fall war
 
 # 17.10.2022
 
