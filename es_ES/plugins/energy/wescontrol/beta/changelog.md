@@ -4,6 +4,11 @@
 >
 >A modo de recordatorio, si no hay información sobre la actualización es porque solo se refiere a la actualización de documentación, traducción o texto.
 
+# 13/12/2022
+
+- Verificación de la compatibilidad total del plugin según su versión y la del firmware del Wes *(``< V0.84A10`` = complemento estable/ ``>= V0.84A10`` = complemento beta)*
+- Adición de la pantalla en el diseño de la mesa del equipo infantil.
+
 # 10/05/2021
 
 - Nueva versión del archivo CGX V1.0.2

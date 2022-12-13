@@ -1,8 +1,12 @@
 # Complemento WES Control
 
-Este complemento le permitirá tomar el control de su [**Servidor de energía electrónico WES**](https://www.cartelectronic.fr/content/8-serveur-wes){:target = "\_ blank"} y recupera todos los datos instantáneamente en Jeedom.    
+Este complemento le permitirá tomar el control de su [**Servidor de energía electrónico WES**](https://www.cartelectronic.fr/content/8-serveur-wes){:target = "\_ blank"} y recupera todos los datos instantáneamente en Jeedom.
 
 ![Visuel Wes](../../core/config/general.png)
+
+>**IMPORTANTE**
+>
+>Al estar este material en constante evolución, el complemento en versión estable ofrece compatibilidad total con servidores Wes con firmware inferior a `V0.84A10` y la versión beta con firmware mayor o igual a `V0.84A10`.
 
 # Configuración general
 
@@ -12,27 +16,27 @@ Como cualquier complemento de Jeedom, el complemento **Wes control** debe activa
 
 El complemento **Wes control** utiliza su propio demonio para mantenerse en contacto constante con el servidor Wes. Puede verificar el estado en la página de configuración del complemento.
 
->**TRUCO**
->    
+>**INFORMACIÓN**
+>
 >No es necesario preocuparse por el estado del demonio tan pronto como se active el complemento porque la creación del equipo del servidor 1st Wes configurará e iniciará automáticamente el demonio.
 
 El complemento no requiere ninguna configuración en particular pero ofrece un campo que permite elegir el retraso en segundos entre 2 interrogaciones del servidor Wes. *(30 segundos por defecto)*
 
 >**IMPORTANTE**
->    
+>
 >Si reduce este valor y experimenta lentitud o inestabilidad del sistema, vuelva al valor predeterminado *(30)*.
 
 ## Configuración del equipo servidor Wes
 
-Para acceder a los diferentes equipos **Wes control**, ir al menú **Complementos → Energía → Wes Control**.    
+Para acceder a los diferentes equipos **Wes control**, ir al menú **Complementos → Energía → Wes Control**.
 
 ![Accueil du plugin](../images/wescontrol_navigate.png)
 
 >**INFORMACIÓN**
->    
+>
 >El botón **+ Agregar** le permite agregar un nuevo servidor Wes.
 
-Después de haber creado su equipo servidor Wes, haga clic en él para acceder a la configuración de acceso así como a la gestión de equipos / funcionalidades.     
+Después de haber creado su equipo servidor Wes, haga clic en él para acceder a la configuración de acceso así como a la gestión de equipos / funcionalidades.
 
 Complete la información general del equipo y luego indique si tiene un equipo opcional conectado al Wes como una pantalla o una fuente de alimentación de 9 voltios para medir la tensión de red marcando las casillas correspondientes.
 
@@ -56,13 +60,13 @@ El complemento **Wes control** incluye un archivo especialmente diseñado para J
 
 La parte **Gestión de equipos** le permitirá seleccionar las características del Wes para activar / desactivar.
 
-Cada **casilla marcada** resultará en **creación automática del equipo correspondiente**, y por el contrario, **cada casilla sin marcar** resultará en **borrado automático del equipo correspondiente** :     
+Cada **casilla marcada** resultará en **creación automática del equipo correspondiente**, y por el contrario, **cada casilla sin marcar** resultará en **borrado automático del equipo correspondiente** :
 
 ![Gestión de equipos](../images/wescontrol_generalManage.png)
 
 # Equipo / configuración funcional
 
-Volver a la página general del complemento **Wes control**, los dispositivos activados previamente se agrupan por servidor y se ordenan en menús de acordeón clasificados por tipo de funcionalidad.   
+Volver a la página general del complemento **Wes control**, los dispositivos activados previamente se agrupan por servidor y se ordenan en menús de acordeón clasificados por tipo de funcionalidad.
 
 El campo de búsqueda permite la visualización inmediata del equipo requerido. A la derecha, el icono en forma de cruz cancela la búsqueda, la carpeta abierta despliega todos los menús y la carpeta cerrada pliega todo.
 

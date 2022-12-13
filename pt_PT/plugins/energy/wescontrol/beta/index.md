@@ -1,8 +1,12 @@
 # Plug-in de controle do WES
 
-Este plugin permitirá que você assuma o controle de seu [**Servidor de energia CartElectronic WES**](https://www.cartelectronic.fr/content/8-serveur-wes){:target = "\_ blank"} e recupere todos os dados instantaneamente no Jeedom.    
+Este plugin permitirá que você assuma o controle de seu [**Servidor de energia CartElectronic WES**](https://www.cartelectronic.fr/content/8-serveur-wes){:target = "\_ blank"} e recupere todos os dados instantaneamente no Jeedom.
 
 ![Visuel Wes](../../core/config/general.png)
+
+>**IMPORTANTE**
+>
+>Este material estando em constante evolução, o plugin em versão estável oferece total compatibilidade com servidores Wes com firmware inferior a `V0.84A10` e a versão beta com firmware maior ou igual a `V0.84A10`.
 
 # Configuração geral
 
@@ -12,27 +16,27 @@ Como qualquer plugin Jeedom, o plugin **Controle Wes** deve ser ativado após a 
 
 O plugin **Controle Wes** usa seu próprio daemon para ficar em contato constante com o servidor Wes. Você pode verificar o status na página de configuração do plugin.
 
->**TRUQUE**
->    
+>**EM FORMAÇÃO**
+>
 >Não é necessário se preocupar com o estado do daemon assim que o plugin for ativado porque a criação do 1º servidor Wes irá configurar automaticamente e iniciar o daemon.
 
 O plugin não requer nenhuma configuração particular mas oferece um campo que permite escolher o atraso em segundos entre 2 interrogações do servidor Wes. *(30 segundos por padrão)*
 
 >**IMPORTANTE**
->    
+>
 >Se você diminuir este valor e experimentar lentidão ou instabilidade do sistema, reverta para o valor padrão *(30)*.
 
 ## Configuração do equipamento servidor Wes
 
-Para acessar os diferentes equipamentos **Controle Wes**, vá para o menu **Plugins → Energia → Controle Wes**.    
+Para acessar os diferentes equipamentos **Controle Wes**, vá para o menu **Plugins → Energia → Controle Wes**.
 
 ![Accueil du plugin](../images/wescontrol_navigate.png)
 
 >**EM FORMAÇÃO**
->    
+>
 >O botão **acrescentar** permite que você adicione um novo servidor Wes.
 
-Após ter criado seu equipamento servidor Wes, clique nele para acessar a configuração de acesso bem como o gerenciamento de equipamentos / funcionalidades.     
+Após ter criado seu equipamento servidor Wes, clique nele para acessar a configuração de acesso bem como o gerenciamento de equipamentos / funcionalidades.
 
 Preencha as informações gerais do equipamento e indique se você tem algum equipamento opcional conectado ao Wes, como uma tela ou uma fonte de alimentação de 9 volts para medir a tensão da rede, marcando as caixas correspondentes.
 
@@ -56,13 +60,13 @@ O plugin **Controle Wes** inclui um arquivo projetado especialmente para Jeedom 
 
 A parte **Gestão de equipamentos** permitirá que você selecione os recursos do Wes para ativar / desativar.
 
-Cada **caixa marcada** vai resultar em **criação automática do equipamento correspondente**, e inversamente, **cada caixa desmarcada** vai resultar em **exclusão automática do equipamento correspondente** :     
+Cada **caixa marcada** vai resultar em **criação automática do equipamento correspondente**, e inversamente, **cada caixa desmarcada** vai resultar em **exclusão automática do equipamento correspondente** :
 
 ![Gestão de equipamentos](../images/wescontrol_generalManage.png)
 
 # Equipamento / configuração funcional
 
-Voltar para a página geral do plugin **Controle Wes**, dispositivos previamente ativados são agrupados por servidor e classificados em menus de acordeão classificados por tipo de funcionalidade.   
+Voltar para a página geral do plugin **Controle Wes**, dispositivos previamente ativados são agrupados por servidor e classificados em menus de acordeão classificados por tipo de funcionalidade.
 
 O campo de pesquisa permite a visualização imediata do equipamento necessário. À direita, o ícone em forma de cruz cancela a pesquisa, a pasta aberta desdobra todos os menus e a pasta fechada dobra todo.
 

@@ -260,7 +260,7 @@
         "Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie": "Dans chacun des cas les icones sont personnalisables ainsi que les noms et on a la puissance et l'énergie",
         "WiserLink": "WiserLink",
         "Plugin pour afficher les données du module IP Wiser": "Plugin pour afficher les données du module IP Wiser",
-        "Le plugin offre la possibilité d'utiliser un fichier CGX spécialement conçu pour Jeedom et permettant de lire davantage de données que celles disponibles par défaut (nécessite un accès au serveur Wes en FTP": "Le plugin offre la possibilité d'utiliser un fichier CGX spécialement conçu pour Jeedom et permettant de lire davantage de données que celles disponibles par défaut (nécessite un accès au serveur Wes en FTP",
+        "Le plugin en version stable offre une pleine compatibilité avec les serveurs Wes de firmware inférieur à V0.84A10 et la version beta avec les firmwares supérieurs ou égaux à V0.84A10": "Le plugin en version stable offre une pleine compatibilité avec les serveurs Wes de firmware inférieur à V0.84A10 et la version beta avec les firmwares supérieurs ou égaux à V0.84A10",
         "Wes Control": "Wes Control",
         "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
         "Eco RT2": "Eco RT2",
@@ -308,6 +308,7 @@
         "Les données sont rafraichies toutes les minutes et après une action depuis jeedom": "Les données sont rafraichies toutes les minutes et après une action depuis jeedom",
         "Documentation beta": "Documentation beta",
         "Prenez le contrôle de votre serveur d'énergie Cartelectronic Wes depuis Jeedom et vous serez en mesure d'en décupler les fonctionnalités": "Prenez le contrôle de votre serveur d'énergie Cartelectronic Wes depuis Jeedom et vous serez en mesure d'en décupler les fonctionnalités",
+        "Le plugin offre la possibilité d'utiliser un fichier CGX spécialement conçu pour Jeedom et permettant de lire davantage de données que celles disponibles par défaut (nécessite un accès au serveur Wes en FTP": "Le plugin offre la possibilité d'utiliser un fichier CGX spécialement conçu pour Jeedom et permettant de lire davantage de données que celles disponibles par défaut (nécessite un accès au serveur Wes en FTP",
         "Changelog beta": "Changelog beta",
         "Il remonte l'ensemble des 5 canaux \/ la téléinfo \/ les 2 modules impulsionnels": "Il remonte l'ensemble des 5 canaux \/ la téléinfo \/ les 2 modules impulsionnels"
     },

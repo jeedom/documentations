@@ -1,8 +1,12 @@
 # WES Control Plugin
 
-Mit diesem Plugin können Sie die Kontrolle über Ihr Plugin übernehmen [**CartElectronic WES-Energieserver**](https://www.cartelectronic.fr/content/8-serveur-wes){:target = "\_ blank"} und stellen Sie alle Daten sofort in Jeedom wieder her.    
+Mit diesem Plugin können Sie die Kontrolle über Ihr Plugin übernehmen [**CartElectronic WES-Energieserver**](https://www.cartelectronic.fr/content/8-serveur-wes){:target = "\_ blank"} und stellen Sie alle Daten sofort in Jeedom wieder her.
 
 ![Visuel Wes](../../core/config/general.png)
+
+>**WICHTIG**
+>
+>Da sich dieses Material in ständiger Entwicklung befindet, bietet das Plugin in stabiler Version volle Kompatibilität mit Wes-Servern mit Firmware niedriger als `V0.84A10‘ und die Beta-Version mit Firmware größer oder gleich ‚V0.84A10‘.
 
 # Allgemeine Konfiguration
 
@@ -12,27 +16,27 @@ Wie jedes Jeedom-Plugin auch das Plugin **Wes Kontrolle** muss nach der Installa
 
 Das Plugin **Wes Kontrolle** verwendet einen eigenen Daemon, um in ständigem Kontakt mit dem Wes-Server zu bleiben. Sie können den Status auf der Plugin-Konfigurationsseite überprüfen.
 
->**TRICK**
->    
+>**INFORMATION**
+>
 >Es ist nicht erforderlich, sich über den Status des Dämons Gedanken zu machen, sobald das Plugin aktiviert wird, da durch die Erstellung der ersten Wes-Serverausrüstung der Dämon automatisch konfiguriert und gestartet wird.
 
 Das Plugin erfordert keine bestimmte Konfiguration, bietet jedoch ein Feld, in dem Sie die Verzögerung in Sekunden zwischen zwei Abfragen des Wes-Servers auswählen können. *(Standardmäßig 30 Sekunden)*
 
 >**WICHTIG**
->    
+>
 >Wenn Sie diesen Wert verringern und eine Trägheit oder Instabilität des Systems feststellen, kehren Sie zum Standardwert zurück *(30)*.
 
 ## Konfiguration der Wes-Serverausrüstung
 
-Zugriff auf die verschiedenen Geräte **Wes Kontrolle**, Gehe zum Menü **Plugins → Energie → Wes Control**.    
+Zugriff auf die verschiedenen Geräte **Wes Kontrolle**, Gehe zum Menü **Plugins → Energie → Wes Control**.
 
 ![Accueil du plugin](../images/wescontrol_navigate.png)
 
 >**INFORMATION**
->    
+>
 >Die Taste **+ Hinzufügen** Mit dieser Option können Sie einen neuen Wes-Server hinzufügen.
 
-Nachdem Sie Ihre Wes-Serverausrüstung erstellt haben, klicken Sie darauf, um auf die Zugriffskonfiguration sowie die Verwaltung der Geräte / Funktionen zuzugreifen.     
+Nachdem Sie Ihre Wes-Serverausrüstung erstellt haben, klicken Sie darauf, um auf die Zugriffskonfiguration sowie die Verwaltung der Geräte / Funktionen zuzugreifen.
 
 Geben Sie die allgemeinen Informationen des Geräts ein und geben Sie an, ob an das Wes ein optionales Gerät angeschlossen ist, z. B. ein Bildschirm oder ein 9-Volt-Netzteil zur Messung der Netzspannung, indem Sie die entsprechenden Kontrollkästchen aktivieren.
 
@@ -56,13 +60,13 @@ Das Plugin **Wes Kontrolle** Enthält eine Datei, die speziell für Jeedom entwi
 
 Das Teil **Gerätemanagement** Hier können Sie die Funktionen des Wes zum Aktivieren / Deaktivieren auswählen.
 
-Jeder **Kästchen angekreuzt** wird darin enden, dass **automatische Erstellung der entsprechenden Ausrüstung**, und umgekehrt, **jedes Kästchen deaktiviert** wird darin enden, dass **automatisches Löschen der entsprechenden Ausrüstung** :     
+Jeder **Kästchen angekreuzt** wird darin enden, dass **automatische Erstellung der entsprechenden Ausrüstung**, und umgekehrt, **jedes Kästchen deaktiviert** wird darin enden, dass **automatisches Löschen der entsprechenden Ausrüstung** :
 
 ![Gerätemanagement](../images/wescontrol_generalManage.png)
 
 # Ausstattung / Funktionskonfiguration
 
-Zurück zur allgemeinen Seite des Plugins **Wes Kontrolle**, Zuvor aktivierte Geräte werden nach Servern gruppiert und in Akkordeonmenüs sortiert, die nach Art der Funktionalität klassifiziert sind.   
+Zurück zur allgemeinen Seite des Plugins **Wes Kontrolle**, Zuvor aktivierte Geräte werden nach Servern gruppiert und in Akkordeonmenüs sortiert, die nach Art der Funktionalität klassifiziert sind.
 
 Das Suchfeld ermöglicht die sofortige Visualisierung der benötigten Ausrüstung. Rechts bricht das kreuzförmige Symbol die Suche ab, der geöffnete Ordner entfaltet alle Menüs und der geschlossene Ordner faltet das Ganze zusammen.
 

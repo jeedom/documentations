@@ -1,8 +1,12 @@
 # Plugin WES Control
 
-Ce plugin va vous permettre de prendre le contrôle de votre [**serveur d'énergie WES de CartElectronic**](https://www.cartelectronic.fr/content/8-serveur-wes){:target="\_blank"} et d'en récupérer toutes les données instantanément dans Jeedom.    
+Ce plugin va vous permettre de prendre le contrôle de votre [**serveur d'énergie WES de CartElectronic**](https://www.cartelectronic.fr/content/8-serveur-wes){:target="\_blank"} et d'en récupérer toutes les données instantanément dans Jeedom.
 
 ![Visuel Wes](../../core/config/general.png)
+
+>**IMPORTANT**
+>
+>Ce matériel étant en constante évolution, le plugin en version stable offre une pleine compatibilité avec les serveurs Wes de firmware inférieur à `V0.84A10` et la version beta avec les firmwares supérieurs ou égaux à `V0.84A10`.
 
 # Configuration générale
 
@@ -12,27 +16,27 @@ Comme tout plugin Jeedom, le plugin **Wes Control** doit être activé après l'
 
 Le plugin **Wes Control** utilise son propre démon afin de rester en contact constant avec le serveur Wes. Vous pouvez en contrôler le statut sur la page de configuration du plugin.
 
->**ASTUCE**
->    
+>**INFORMATION**
+>
 >Il n'est pas nécessaire de se préoccuper de l'état du démon dès l'activation du plugin car la création du 1er équipement serveur Wes va automatiquement configurer et démarrer le démon.
 
 Le plugin ne nécessite pas de configuration particulière mais propose un champ permettant de choisir le délai en secondes entre 2 interrogations du serveur Wes. *(30 secondes par défaut)*
 
 >**IMPORTANT**
->    
+>
 >Si vous diminuez cette valeur et constatez des lenteurs ou une instabilité du système, revenez à la valeur par défaut *(30)*.
 
 ## Configuration de l'équipement serveur Wes
 
-Pour accéder aux différents équipements **Wes Control**, dirigez-vous vers le menu **Plugins → Energie → Wes Control**.    
+Pour accéder aux différents équipements **Wes Control**, dirigez-vous vers le menu **Plugins → Energie → Wes Control**.
 
 ![Accueil du plugin](../images/wescontrol_navigate.png)
 
 >**INFORMATION**
->    
+>
 >Le bouton **+ Ajouter** permet d'ajouter un nouveau serveur Wes.
 
-Après avoir créé votre équipement serveur Wes, cliquez sur celui-ci pour accéder à la configuration des accès ainsi qu'à la gestion des équipements/fonctionnalités.     
+Après avoir créé votre équipement serveur Wes, cliquez sur celui-ci pour accéder à la configuration des accès ainsi qu'à la gestion des équipements/fonctionnalités.
 
 Renseignez les informations générales de l'équipement puis indiquez si vous possédez des matériels optionnels branchés sur le Wes tels qu'un écran ou une alimentation 9 Volts pour la mesure de la tension secteur en cochant les cases correspondantes.
 
@@ -56,13 +60,13 @@ Le plugin **Wes Control** intègre un fichier spécialement conçu pour Jeedom e
 
 La partie **Gestion des équipements** va vous permettre de sélectionner les fonctionnalités du Wes à activer/désactiver.
 
-Chaque **case cochée** aura pour conséquence la **création automatique de l'équipement correspondant**, et à l'inverse, **chaque case décochée** aura pour conséquence la **suppression automatique de l'équipement correspondant** :     
+Chaque **case cochée** aura pour conséquence la **création automatique de l'équipement correspondant**, et à l'inverse, **chaque case décochée** aura pour conséquence la **suppression automatique de l'équipement correspondant** :
 
 ![Gestion des équipements](../images/wescontrol_generalManage.png)
 
 # Configuration des équipements/fonctionnalités
 
-De retour sur la page générale du plugin **Wes Control**, les équipements activés précédemment sont regroupés par serveur et triés dans des menus accordéons classés par type de fonctionnalité.   
+De retour sur la page générale du plugin **Wes Control**, les équipements activés précédemment sont regroupés par serveur et triés dans des menus accordéons classés par type de fonctionnalité.
 
 Le champ de recherche permet la visualisation immédiate de l'équipement recherché. Sur la droite, l'icône en forme de croix annule la recherche, le dossier ouvert déplie tous les menus et le dossier fermé replie l'ensemble.
 

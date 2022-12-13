@@ -1,8 +1,12 @@
 # WES Control plugin
 
-This plugin will allow you to take control of your [**CartElectronic WES energy server**](https://www.cartelectronic.fr/content/8-serveur-wes){:target = "\_ blank"} and recover all the data instantly in Jeedom.    
+This plugin will allow you to take control of your [**CartElectronic WES energy server**](https://www.cartelectronic.fr/content/8-serveur-wes){:target = "\_ blank"} and recover all the data instantly in Jeedom.
 
 ![Visuel Wes](../../core/config/general.png)
+
+>**IMPORTANT**
+>
+>This material being in constant evolution, the plugin in stable version offers full compatibility with Wes servers with firmware lower than `V0.84A10` and the beta version with firmware greater than or equal to `V0.84A10`.
 
 # General configuration
 
@@ -12,27 +16,27 @@ Like any Jeedom plugin, the plugin **Wes control** must be activated after insta
 
 The plugin **Wes control** uses its own daemon in order to stay in constant contact with the Wes server. You can check the status on the plugin configuration page.
 
->**TRICK**
->    
+>**INFORMATION**
+>
 >It is not necessary to worry about the state of the daemon as soon as the plugin is activated because the creation of the 1st Wes server equipment will automatically configure and start the daemon.
 
 The plugin does not require any particular configuration but offers a field allowing to choose the delay in seconds between 2 interrogations of the Wes server. *(30 seconds by default)*
 
 >**IMPORTANT**
->    
+>
 >If you decrease this value and experience system sluggishness or instability, revert to the default value *(30)*.
 
 ## Configuration of the Wes server equipment
 
-To access the different equipment **Wes control**, go to the menu **Plugins → Energy → Wes Control**.    
+To access the different equipment **Wes control**, go to the menu **Plugins → Energy → Wes Control**.
 
 ![Accueil du plugin](../images/wescontrol_navigate.png)
 
 >**INFORMATION**
->    
+>
 >The button **+ Add** allows you to add a new Wes server.
 
-After having created your Wes server equipment, click on it to access the access configuration as well as the equipment / functionalities management.     
+After having created your Wes server equipment, click on it to access the access configuration as well as the equipment / functionalities management.
 
 Fill in the general information of the equipment then indicate whether you have optional equipment connected to the Wes such as a screen or a 9-volt power supply for measuring the mains voltage by checking the corresponding boxes.
 
@@ -56,13 +60,13 @@ The plugin **Wes control** includes a file specially designed for Jeedom and all
 
 The part **Equipment management** will allow you to select the features of the Wes to activate / deactivate.
 
-Each **box checked** will result in **automatic creation of the corresponding equipment**, and conversely, **each box unchecked** will result in **automatic deletion of the corresponding equipment** :     
+Each **box checked** will result in **automatic creation of the corresponding equipment**, and conversely, **each box unchecked** will result in **automatic deletion of the corresponding equipment** :
 
 ![Equipment management](../images/wescontrol_generalManage.png)
 
 # Equipment / functional configuration
 
-Back to the plugin's general page **Wes control**, previously activated devices are grouped by server and sorted in accordion menus classified by type of functionality.   
+Back to the plugin's general page **Wes control**, previously activated devices are grouped by server and sorted in accordion menus classified by type of functionality.
 
 The search field allows immediate visualization of the required equipment. On the right, the cross-shaped icon cancels the search, the open folder unfolds all the menus and the closed folder folds the whole.
 
