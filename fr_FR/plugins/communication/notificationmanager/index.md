@@ -1,6 +1,6 @@
 # Plugin Notification Manager
 
-Ce plugin permet de gérer les notifications (reprise en cas d'erreur, génération de texte, etc...).
+Ce plugin permet de gérer les notifications (reprise en cas d'erreur, génération de texte, etc.).
 
 # Configuration du plugin
 
@@ -25,7 +25,7 @@ C'est ici que vous allez pouvoir ajouter des commandes de notifications. Pour ch
 
 Vous avez comme options :
 
-- **Test d'éxécution** : permet d'ajouter un test avant l'exécution de la notification. Si le test est faux le plugin ne fera rien, s'il est vrai alors il exécutera les notifications dans l'ordre de priorité jusqu'à en trouver une fonctionnelle. Si le champ est vide alors le test est ignoré.
+- **Test d'éxécution** : permet d'ajouter un test avant l'exécution de la notification. Si le test échoue, le plugin ne fera rien, s'il réussi, alors il exécutera les notifications dans l'ordre de priorité jusqu'à en trouver une fonctionnelle. Si le champ est vide alors le test est ignoré.
 
 > **NOTE**
 >
@@ -56,10 +56,10 @@ Il est également possible d'insérer du texte conditionnel sous la forme ``{(te
 
 Voici un exemple pour la méteo du matin avec texte conditionnel et génération de texte :
 
-``[Bonjour|Salut|Coucou] [j'espères que tu as bien dormi ?|bien dormi ?|ça va ?]. [Aujourd'hui il fera|Aujourd'hui le temps sera|La météo annonce] #[Maison][Météo][Condition]# [et la température sera de|avec] {(#[Maison][Météo][Température Max]# < 6) ? [oula il va faire froid|oula il caille]: } #[Maison][Météo][Température Max]# degrés.``
+``[Bonjour|Salut|Coucou] [j'espère que tu as bien dormi ?|bien dormi ?|ça va ?]. [Aujourd'hui il fera|Aujourd'hui le temps sera|La météo annonce] #[Maison][Météo][Condition]# [et la température sera de|avec] {(#[Maison][Météo][Température Max]# < 6) ? [oula il va faire froid|oula il caille]: } #[Maison][Météo][Température Max]# degrés.``
 
 # FAQ
 
 >**Le plugin gère t-il ask ?**
 >
->Oui le plugin gère le ask.
+> Oui le plugin gère les demandes (*ask*).
