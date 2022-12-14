@@ -2,7 +2,7 @@
 
 Este complemento le permitirá tomar el control de su [**Servidor de energía electrónico WES**](https://www.cartelectronic.fr/content/8-serveur-wes){:target = "\_ blank"} y recupera todos los datos instantáneamente en Jeedom.
 
-![Visuel Wes](../../core/config/general.png)
+![Visuel Wes](../images/wes.png)
 
 >**IMPORTANTE**
 >

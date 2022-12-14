@@ -2,7 +2,7 @@
 
 Este plugin permitirá que você assuma o controle de seu [**Servidor de energia CartElectronic WES**](https://www.cartelectronic.fr/content/8-serveur-wes){:target = "\_ blank"} e recupere todos os dados instantaneamente no Jeedom.
 
-![Visuel Wes](../../core/config/general.png)
+![Visuel Wes](../images/wes.png)
 
 >**IMPORTANTE**
 >

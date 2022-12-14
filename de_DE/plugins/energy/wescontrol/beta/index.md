@@ -2,7 +2,7 @@
 
 Mit diesem Plugin können Sie die Kontrolle über Ihr Plugin übernehmen [**CartElectronic WES-Energieserver**](https://www.cartelectronic.fr/content/8-serveur-wes){:target = "\_ blank"} und stellen Sie alle Daten sofort in Jeedom wieder her.
 
-![Visuel Wes](../../core/config/general.png)
+![Visuel Wes](../images/wes.png)
 
 >**WICHTIG**
 >
