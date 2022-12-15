@@ -20,8 +20,8 @@
 
 **Konfigurationsergänzungen**
 
-- Konfig hinzugefügt *Neo EU-1-Schalter* (Eigenschaften : Switch)
-- Bild hinzugefügt für *Neo EU-1-Schalter*
+- Konfig hinzugefügt *Zoom ZEN17* (Eigenschaften : Switch)
+- Bild hinzugefügt für *Zoom ZEN17*
 - Konfig hinzugefügt *Abus Hochwassersensor* (Eigenschaften : Überschwemmung, Sabotage, Batterie)
 - Bild hinzugefügt für *Abus Hochwassersensor*
 - Hinzufügen einer Eigenschaft *Benutzercode*

@@ -20,8 +20,8 @@
 
 **Adições de configuração**
 
-- Configuração adicionada *Interruptor Neo EU-1* (propriedades : Switch)
-- Imagem adicionada para *Interruptor Neo EU-1*
+- Configuração adicionada *Zooz ZEN17* (propriedades : Switch)
+- Imagem adicionada para *Zooz ZEN17*
 - Configuração adicionada *Sensor de Inundação Abus* (propriedades : Inundação, Tamper, Bateria)
 - Imagem adicionada para *Sensor de Inundação Abus*
 - Adicionando uma propriedade *Código de usuário*

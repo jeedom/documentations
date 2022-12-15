@@ -20,8 +20,8 @@
 
 **Ajouts de Configurations**
 
-- Ajout de la configuration *Neo EU-1 switch* (propriétés : Switch)
-- Ajout de l'image pour *Neo EU-1 switch*
+- Ajout de la configuration *Zooz ZEN17* (propriétés : Switch)
+- Ajout de l'image pour *Zooz ZEN17*
 - Ajout de la configuration *Abus Flood Sensor* (propriétés : Flood, Tamper, Battery)
 - Ajout de l'image pour *Abus Flood Sensor*
 - Ajout d'une propriété *UserCode*
