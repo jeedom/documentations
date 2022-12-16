@@ -48,7 +48,7 @@
 
 > **Anmerkung**
 >
-> Diese Änderungen können dazu führen, dass die mindestens erforderliche Jeedom-Version vieler Plugins gemountet werden muss. Deshalb ist es nicht sicher, dass die *Veraltet* bleibt in Stable v4.4, aber sie lassen die Entwickler zumindest sehen, was sie beheben können.
+> Diese Änderungen können dazu führen, dass die mindestens erforderliche Jeedom-Version vieler Plugins gemountet werden muss. Es ist das *Veraltet* Zeigen Sie keinen Kern im V4-Stable-Zweig an, sondern lassen Sie Entwickler sehen, was sie beheben können.
 
 ### Optionale Änderungen
 
@@ -66,20 +66,23 @@ Schließlich können Sie eine Callback-Funktion wie diese definieren:
 
 ````js
 var checkContextMenuCallback = function(_el) {
-    _el.trigger('ändern')
+  //_el ist ein HTML-Element.
+  _el.triggerEvent('ändern')
 }
 jeedomUtils.setCheckContextMenu(checkContextMenuCallback)
 ````
 
 ### Un jour, jQuery ...
 
-jQuery est un framework toujours très utilisé en interface web, und Jeedom s'appuie énormément dessus. Malgré tout, le html5 und les navigateurs récents permettent de plus en plus de s'en passer. L'intérêt pour Jeedom est avant tout la performance, und il n'est pas encore question de supprimer jQuery und ses plugins (jQuery UI, contextmenu, les modales, etc.).
+jQuery est un framework toujours très utilisé en interface web, und Jeedom s'appuie historiquement énormément dessus. Malgré tout, le html5 und les navigateurs récents permettent de plus en plus de s'en passer. L'intérêt pour Jeedom est avant tout la performance, und il n'est pas encore question de supprimer jQuery und ses plugins (jQuery UI, contextmenu, les modales, autocomplete, tablesorter, etc.).
 
 Mais il faut y penser, und commencer un jour !
 
 Le Core 4.4 intègre donc les fonctions de bases que sont setValues() und getValues(), qui sont maintenant également prototypées sur les **NodeList** und **Element**, comme elles le sont sur $.fn historiquement. Quelques fonctions ont également été implémentées comme last(), triggerEvent(), isHidden(), empty(), addClass(),  removeClass(), toggleClass(), hasClass(). Le but n'est pas de refaire un jQuery bien sûr, mais proposer des raccourcis fonctionnels quand c'est nécessaire.
 
 Pour une transition plus facile und une meilleure maintenance, les nouvelles fonctions getValues() und setValues() sur le DOM sont setJeeValues() und getJeeValues().
+
+De plus, tous les appels Ajax, sync ou async, passent par des fonctions pur js développées en interne pour le Core. *load()* und *html()* sont donc utilisés par toutes les class js und par la fonction jeedomUtils.loadPage(). Cela permund de maitriser tout ce qu'il se passe sans couche d'abstraction, und a notemment permis de filtrer tous les scripts js und stylesheets css venant de 3rdparty (core und plugins) pour les charger dans le document.head und ne pas les recharger ensuite !
 
 Quelques exemples:
 
@@ -131,9 +134,22 @@ Quelques exemples:
     document.getElementById('table_stuff').querySelector('tbody').appendChild(newRow)
     //return newRow
   }
+
+  //jQuery:
+  $(function(){
+    console.log('Dom ready!')
+  })
+
+  //Core js:
+  domUtils(function(){
+    console.log('Dom ready!')
+  })
+
   {% endraw %}
   ~~~
 
 </details>
 
 Le fichier plugin-template.js und plusieurs pages du Core utilisent maintenant ces fonctions. Vous pouvez bien sûr les utiliser dans les plugins, mais celui-ci devra alors être installé sur un Core 4.4 minimum.
+
+fonctions DOM propres au Core -> [domUtils {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)

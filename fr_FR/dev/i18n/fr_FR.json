@@ -498,9 +498,8 @@
         "Remarque": "Remarque",
         "deprecated": "deprecated",
         "Ces modifications peuvent entraîner la nécessité de monter la version Jeedom minimale requise de nombreux plugins": "Ces modifications peuvent entraîner la nécessité de monter la version Jeedom minimale requise de nombreux plugins",
-        "C'est pourquoi il n'est pas certains que les": "C'est pourquoi il n'est pas certains que les",
-        "resteront en stable v4": "resteront en stable v4",
-        "4 mais ils permettent au moins aux développeurs de voir ce qu'ils peuvent corriger": "4 mais ils permettent au moins aux développeurs de voir ce qu'ils peuvent corriger",
+        "C'est les": "C'est les",
+        "n'apparraissent pas un Core en branche V4-Stable, mais permettent aux développeurs de voir ce qu'ils peuvent corriger": "n'apparraissent pas un Core en branche V4-Stable, mais permettent aux développeurs de voir ce qu'ils peuvent corriger",
         "Modifications optionnelles": "Modifications optionnelles",
         "Gestion de checkboxs multiples": "Gestion de checkboxs multiples",
         "Une fonction a été introduite dans le Core pour proposer un menu contextuel sur les checkbox": "Une fonction a été introduite dans le Core pour proposer un menu contextuel sur les checkbox",
@@ -518,7 +517,8 @@
         "Enfin, vous pouvez définir une fonction callback de la sorte": "Enfin, vous pouvez définir une fonction callback de la sorte",
         "js": "js",
         "var checkContextMenuCallback = function(_el": "var checkContextMenuCallback = function(_el",
-        "_el.trigger('change": "_el.trigger('change",
+        "\/\/_el is an html element": "\/\/_el is an html element",
+        "_el.triggerEvent('change": "_el.triggerEvent('change",
         "jeedomUtils.setCheckContextMenu(checkContextMenuCallback": "jeedomUtils.setCheckContextMenu(checkContextMenuCallback"
     },
     "dev\/daemon_plugin.md": {
