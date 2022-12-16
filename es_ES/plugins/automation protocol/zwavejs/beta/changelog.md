@@ -4,6 +4,17 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# XX/12/2022
+
+**Adiciones de configuración**
+
+- Configuración añadida *Airzone Aidoo Zwave* (propiedades : Temperatura, modo de termostato, modo de acción del termostato, modo de ventilador del termostato, modo de ventilador del termostato, punto de ajuste del termostato, notificación)
+- Imagen añadida para *Airzone Aidoo Zwave*
+- Agregar una propiedad *Termostato en modo ventilador*
+- Agregar una propiedad *Termostatoventiladordeacción*
+
+*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+
 # 15/12/2022
 
 **Mejoras**

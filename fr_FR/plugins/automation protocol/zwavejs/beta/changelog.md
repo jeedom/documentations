@@ -4,6 +4,17 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# XX/12/2022
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Airzone Aidoo Zwave* (propriétés : Temperature, Thermostatmode, Thermostatmodeaction, Thermostatfanmode, Thermostatfanmodeaction, Thermostatsetpoint, Notification)
+- Ajout de l'image pour *Airzone Aidoo Zwave*
+- Ajout d'une propriété *Thermostatfanmode*
+- Ajout d'une propriété *Thermostatfanmodeaction*
+
+*Si vous êtes concernés par une modification ou un ajout de configuration, faites une synchronisation puis rechargez les commandes de l'équipement en "recréant toutes les commandes" après la mise à jour.*
+
 # 15/12/2022
 
 **Améliorations**

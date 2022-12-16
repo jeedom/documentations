@@ -4,6 +4,17 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# XX/12/2022
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Airzone Aidoo Zwave* (Eigenschaften : Temperatur, Thermostatmodus, Thermostatmodusaktion, Thermostatlüftermodus, Thermostatlüftermodusaktion, Thermostatsollwert, Benachrichtigung)
+- Bild hinzugefügt für *Airzone Aidoo Zwave*
+- Hinzufügen einer Eigenschaft *Thermostatlüftermodus*
+- Hinzufügen einer Eigenschaft *Thermostatlüftermodusaktion*
+
+*Wenn Sie von einer Änderung oder Hinzufügung der Konfiguration betroffen sind, führen Sie eine Synchronisierung durch und laden Sie dann die Befehle des Geräts neu, indem Sie nach dem Update „alle Befehle neu erstellen“.*
+
 # 15.12.2022
 
 **Verbesserungen**
