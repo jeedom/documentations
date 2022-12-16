@@ -8,9 +8,33 @@
 
 **Mejoras**
 
+- Se agregó la capacidad de mostrar *asistentes explicativos* en la página de ciertos equipos (Teclado Zipato por ejemplo para explicar el funcionamiento de los códigos)
+
+**Cambios de configuración**
+
+- Cambiar la configuración *Cuádruple Aetoec Nanomote* para usar las propiedades
+- Cambiar la configuración *Fibaro fgs211* para usar las propiedades
+- Cambiar la configuración *Obturador Fibaro fgwreu111 Walli* pasar una propiedad Shutter/level y pasar potencia y energía en el punto final 1
+- Cambiar la configuración *Teclado Zipato* para usar las propiedades
+- Cambiar la configuración *Teclado Schlage* para usar las propiedades
+
+**Adiciones de configuración**
+
+- Configuración añadida *ZoozZEN17* (propiedades : Switch)
+- Imagen añadida para *ZoozZEN17*
+- Configuración añadida *Sensor de inundación Abus* (propiedades : Inundación, sabotaje, batería)
+- Imagen añadida para *Sensor de inundación Abus*
+- Agregar una propiedad *Codigo de usuario*
+
+*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+
+# 12/05/2022
+
+**Mejoras**
+
 - Agregar una pestaña *Gestión de MNV* en la página de la red. Copia de seguridad, descarga, envío y restauración
 - Agregar una pestaña *Actualización* en una página de nodo.
-- Adición de la versión del *SDK* en la página de información de un controlador.
+- Adición de la versión de *SDK* en la página de información de un controlador o de los módulos que lo elevan
 
 **Cambios de configuración**
 

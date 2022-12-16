@@ -4,13 +4,37 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 15/12/2022
+
+**Améliorations**
+
+- Rajout de la possibilité d'afficher *des assistants explicatifs* sur la page de certains équipements (Keypad Zipato par exemple pour expliquer le fonctionnement des codes)
+
+**Modifications de Configurations**
+
+- Modification de la configuration *Aetoec Nanomote Quad* pour utiliser les propriétés
+- Modification de la configuration *Fibaro Fgs211* pour utiliser les propriétés
+- Modification de la configuration *Fibaro fgwreu111 Walli Shutter* passage à une propriété Shutter/level  et passage de power et energy sur le endpoint 1
+- Modification de la configuration *Zipato Keypad* pour utiliser les propriétés
+- Modification de la configuration *Schlage Keypad* pour utiliser les propriétés
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Zooz ZEN17* (propriétés : Switch)
+- Ajout de l'image pour *Zooz ZEN17*
+- Ajout de la configuration *Abus Flood Sensor* (propriétés : Flood, Tamper, Battery)
+- Ajout de l'image pour *Abus Flood Sensor*
+- Ajout d'une propriété *UserCode*
+
+*Si vous êtes concernés par une modification ou un ajout de configuration, faites une synchronisation puis rechargez les commandes de l'équipement en "recréant toutes les commandes" après la mise à jour.*
+
 # 05/12/2022
 
 **Améliorations**
 
 - Rajout d'un onglet *Gestion NVM* sur la page réseau. Sauvegarde, téléchargement, envoie et restauration
 - Rajout d'un onglet *Mise à jour* sur la page d'un node.
-- Rajout de la version du *SDK* sur la page d'informations d'un contrôleur.
+- Rajout de la version du *SDK* sur la page d'informations d'un contrôleur ou des modules le remontant
 
 **Modifications de Configurations**
 

@@ -8,9 +8,33 @@
 
 **Verbesserungen**
 
+- Anzeigemöglichkeit hinzugefügt *erklärende Assistenten* auf der Seite bestimmter Geräte (Keypad Zipato zum Beispiel, um die Funktionsweise der Codes zu erklären)
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Aetoec Nanomote Quad* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro Fgs211* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro fgwreu111 Walli Shutter* Übergeben einer Shutter/Level-Eigenschaft und Übergeben von Strom und Energie an Endpunkt 1
+- Ändern der Konfiguration *Zipato-Tastatur* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Schlage Tastatur* um die Eigenschaften zu verwenden
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Zoom ZEN17* (Eigenschaften : Switch)
+- Bild hinzugefügt für *Zoom ZEN17*
+- Konfig hinzugefügt *Abus Hochwassersensor* (Eigenschaften : Überschwemmung, Sabotage, Batterie)
+- Bild hinzugefügt für *Abus Hochwassersensor*
+- Hinzufügen einer Eigenschaft *Benutzercode*
+
+*Wenn Sie von einer Änderung oder Hinzufügung der Konfiguration betroffen sind, führen Sie eine Synchronisierung durch und laden Sie dann die Befehle des Geräts neu, indem Sie nach dem Update „alle Befehle neu erstellen“.*
+
+# 12.05.2022
+
+**Verbesserungen**
+
 - Registerkarte hinzufügen *NVM-Verwaltung* auf der Netzwerkseite. Sichern, Herunterladen, Senden und Wiederherstellen
 - Registerkarte hinzufügen *Aktualisieren* auf einer Knotenseite.
-- Ergänzung der Version des *SDKs* auf der Informationsseite eines Controllers.
+- Ergänzung der Version von *SDKs* auf der Informationsseite eines Controllers oder der ihn erhebenden Module
 
 **Konfigurationsänderungen**
 
