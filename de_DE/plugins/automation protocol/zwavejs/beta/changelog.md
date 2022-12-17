@@ -6,6 +6,10 @@
 
 # XX/12/2022
 
+**Verbesserungen**
+
+- Verschieben der ZwaveJS-Benutzeroberfläche auf 8.6.1
+
 **Konfigurationsergänzungen**
 
 - Konfig hinzugefügt *Airzone Aidoo Zwave* (Eigenschaften : Temperatur, Thermostatmodus, Thermostatmodusaktion, Thermostatlüftermodus, Thermostatlüftermodusaktion, Thermostatsollwert, Benachrichtigung)

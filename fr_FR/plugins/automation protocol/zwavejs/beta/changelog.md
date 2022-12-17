@@ -6,6 +6,10 @@
 
 # XX/12/2022
 
+**Améliorations**
+
+- Passage de ZwaveJS UI à la version 8.6.1
+
 **Ajouts de Configurations**
 
 - Ajout de la configuration *Airzone Aidoo Zwave* (propriétés : Temperature, Thermostatmode, Thermostatmodeaction, Thermostatfanmode, Thermostatfanmodeaction, Thermostatsetpoint, Notification)
