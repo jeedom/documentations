@@ -4,18 +4,53 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# XX/12/2022
+# 19.12.2022
+
+**Behebt**
+
+- Beheben Sie einige *fehlende Attribute* auf der Gesundheitsseite auf einigen Knoten, um Fehler (ohne Folgen) in der zu vermeiden *HTTP Fehler*
 
 **Verbesserungen**
 
-- Verschieben der ZwaveJS-Benutzeroberfläche auf 8.6.1
+- Teil von *ZwaveJS-Benutzeroberfläche* zu Version *8.6.1*
+- Ergänzung der *S2-Verwaltung* (Die ZwaveJS-Benutzeroberfläche hat die erwarteten Änderungen vorgenommen)
+- Zusatz von *Art von Sicherheit* auf der Seite *Knoteninformationen*
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Heiman CO-Sensor* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Heiman Rauchmelder* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Domux CO-Sensor* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Vision-Sicherheit ZS5101* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *HomeSeer Ez Motion* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Shenzhen Rauchmelder* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Vision-Sicherheit ZD2102* um die Eigenschaften zu verwenden
+- Bearbeiten des Bildes *Vision-Sicherheit ZD2102* (Ausschnitt)
+- Ändern der Konfiguration *Aeotec-Range-Extender 7* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Zipato ZD2102* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Qubino Wetterstation* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Everspring ST814* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Hank HKZW-SO08* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Hank HKZW-SO01* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Hank HKZW-SCN01* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Philio PAT02-B* um die Eigenschaften zu verwenden
+- Bearbeiten des Bildes *Philio PAT02-B* (Ausschnitt)
+- Bearbeiten des Bildes *Missbrauch von SHWM1000*
 
 **Konfigurationsergänzungen**
 
+- Konfig hinzugefügt *Zipato Energiezähler* (Eigenschaften : Leistung, Energie, Spannung, Strom)
+- Bild hinzugefügt für *Zipato Energiezähler*
 - Konfig hinzugefügt *Airzone Aidoo Zwave* (Eigenschaften : Temperatur, Thermostatmodus, Thermostatmodusaktion, Thermostatlüftermodus, Thermostatlüftermodusaktion, Thermostatsollwert, Benachrichtigung)
 - Bild hinzugefügt für *Airzone Aidoo Zwave*
 - Hinzufügen einer Eigenschaft *Thermostatlüftermodus*
 - Hinzufügen einer Eigenschaft *Thermostatlüftermodusaktion*
+- Hinzufügen einer Eigenschaft *Richtung*
+- Hinzufügen einer Eigenschaft *Geschwindigkeit*
+- Hinzufügen einer Eigenschaft *Regen*
+- Hinzufügen einer Eigenschaft *Co*
+- Hinzufügen einer Untereigenschaft *Grundbewegung* im Eigentum *Bewegung*
+- Hinzufügen einer Untereigenschaft *Staub im Gerät* im Eigentum *Benachrichtigung*
 
 *Wenn Sie von einer Änderung oder Hinzufügung der Konfiguration betroffen sind, führen Sie eine Synchronisierung durch und laden Sie dann die Befehle des Geräts neu, indem Sie nach dem Update „alle Befehle neu erstellen“.*
 

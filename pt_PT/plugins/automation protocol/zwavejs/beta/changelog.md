@@ -4,18 +4,53 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# XX/12/2022
+# 19/12/2022
+
+**Conserta**
+
+- Corrigir em alguns *atributos ausentes* na página de saúde em alguns nós para evitar erros (sem consequências) no *erro HTTP*
 
 **Melhorias**
 
-- Movendo a IU do ZwaveJS para 8.6.1
+- Passagem de *IU do ZwaveJS* para versão *8.6.1*
+- Adição do *gestão S2* (ZwaveJS UI tendo feito as mudanças esperadas)
+- Adição de *tipo de segurança* na página *informações do nó*
+
+**Alterações de configuração**
+
+- Mudando a configuração *Sensor de CO Heiman* para usar as propriedades
+- Mudando a configuração *Detector de Fumaça Heiman* para usar as propriedades
+- Mudando a configuração *Domux sensor de CO* para usar as propriedades
+- Mudando a configuração *Visão de segurança ZS5101* para usar as propriedades
+- Mudando a configuração *HomeSeer Ez Motion* para usar as propriedades
+- Mudando a configuração *Detector de Fumaça de Shenzhen* para usar as propriedades
+- Mudando a configuração *Visão de segurança ZD2102* para usar as propriedades
+- Editando a imagem *Visão de segurança ZD2102* (recorte)
+- Mudando a configuração *Aeotec Range Extender 7* para usar as propriedades
+- Mudando a configuração *Zipato ZD2102* para usar as propriedades
+- Mudando a configuração *Estação Meteorológica Qubino* para usar as propriedades
+- Mudando a configuração *Everspring ST814* para usar as propriedades
+- Mudando a configuração *Hank HKZW-SO08* para usar as propriedades
+- Mudando a configuração *Hank HKZW-SO01* para usar as propriedades
+- Mudando a configuração *Hank HKZW-SCN01* para usar as propriedades
+- Mudando a configuração *Philio PAT02-B* para usar as propriedades
+- Editando a imagem *Philio PAT02-B* (recorte)
+- Editando a imagem *Abuse do SHWM1000*
 
 **Adições de configuração**
 
+- Configuração adicionada *Medidor de Energia Zipato* (propriedades : Potência, energia, tensão, corrente)
+- Imagem adicionada para *Medidor de Energia Zipato*
 - Configuração adicionada *Airzone Aidoo Zwave* (propriedades : Temperatura, modo do termostato, ação do modo do termostato, modo do ventilador do termostato, ação do modo do ventilador do termostato, ponto de ajuste do termostato, notificação)
 - Imagem adicionada para *Airzone Aidoo Zwave*
 - Adicionando uma propriedade *Modo ventilador do termostato*
 - Adicionando uma propriedade *Ação do modo ventilador do termostato*
+- Adicionando uma propriedade *Direção*
+- Adicionando uma propriedade *Velocidade*
+- Adicionando uma propriedade *Chuva*
+- Adicionando uma propriedade *Companhia*
+- Adicionando uma subpropriedade *Movimento básico* na propriedade *Movimento*
+- Adicionando uma subpropriedade *Poeira no dispositivo* na propriedade *Notificação*
 
 *Se você for afetado por uma modificação ou adição de configuração, faça uma sincronização e recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
 

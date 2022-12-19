@@ -4,18 +4,53 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# XX/12/2022
+# 12/19/2022
+
+**Fixes**
+
+- Fix on some *missing attributes* on the health page on some nodes to avoid errors (without consequences) in the *http.error*
 
 **Improvements**
 
-- Moving ZwaveJS UI to 8.6.1
+- Passage of *ZwaveJS UI* to version *8.6.1*
+- Addition of the *S2 management* (ZwaveJS UI having made the expected changes)
+- Addition of *kind of security* on the page *node information*
+
+**Configuration Changes**
+
+- Changing the configuration *Heiman CO sensor* to use the properties
+- Changing the configuration *Heiman Smoke detector* to use the properties
+- Changing the configuration *Domux CO sensor* to use the properties
+- Changing the configuration *Vision Security ZS5101* to use the properties
+- Changing the configuration *HomeSeer Ez Motion* to use the properties
+- Changing the configuration *Shenzhen Smoke Detector* to use the properties
+- Changing the configuration *Vision Security ZD2102* to use the properties
+- Editing the image *Vision Security ZD2102* (clipping)
+- Changing the configuration *Aeotec Range Extender 7* to use the properties
+- Changing the configuration *Zipato ZD2102* to use the properties
+- Changing the configuration *Qubino Weather Station* to use the properties
+- Changing the configuration *Everspring ST814* to use the properties
+- Changing the configuration *Hank HKZW-SO08* to use the properties
+- Changing the configuration *Hank HKZW-SO01* to use the properties
+- Changing the configuration *Hank HKZW-SCN01* to use the properties
+- Changing the configuration *Philio PAT02-B* to use the properties
+- Editing the image *Philio PAT02-B* (clipping)
+- Editing the image *Abuse SHWM1000*
 
 **Configuration Additions**
 
+- Added config *Zipato Energy Meter* (properties : Power, Energy, Voltage, Current)
+- Added image for *Zipato Energy Meter*
 - Added config *Airzone Aidoo Zwave* (properties : Temperature, Thermostatmode, Thermostatmodeaction, Thermostatfanmode, Thermostatfanmodeaction, Thermostatsetpoint, Notification)
 - Added image for *Airzone Aidoo Zwave*
 - Adding a property *Thermostatfanmode*
 - Adding a property *Thermostatfanmodeaction*
+- Adding a property *Direction*
+- Adding a property *Velocity*
+- Adding a property *Rain*
+- Adding a property *Co*
+- Adding a sub-property *Basic motion* in the property *Motion*
+- Adding a sub-property *Dust-in-device* in the property *Notification*
 
 *If you are affected by a modification or addition of configuration, make a synchronization then reload the commands of the equipment by "recreating all the commands" after the update.*
 
