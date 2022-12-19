@@ -1025,4 +1025,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2022-12-18 01:32:17
+2022-12-19 01:32:12
