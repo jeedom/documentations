@@ -4,6 +4,56 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 19/12/2022
+
+**Corrections**
+
+- Correction sur certains *attributs manquants* sur la page santé sur certains noeuds pour éviter les erreurs (sans conséquences) dans le *http.error*
+
+**Améliorations**
+
+- Passage de *ZwaveJS UI* à la version *8.6.1*
+- Rajout de la *gestion S2* (ZwaveJS UI ayant fait les modifications attendues)
+- Rajout du *type de sécurité* sur la page *informations d'un noeud*
+
+**Modifications de Configurations**
+
+- Modification de la configuration *Heiman CO sensor* pour utiliser les propriétés
+- Modification de la configuration *Heiman Smoke detector* pour utiliser les propriétés
+- Modification de la configuration *Domux CO sensor* pour utiliser les propriétés
+- Modification de la configuration *Vision Security ZS5101* pour utiliser les propriétés
+- Modification de la configuration *HomeSeer Ez Motion* pour utiliser les propriétés
+- Modification de la configuration *Shenzen Smoke Detector* pour utiliser les propriétés
+- Modification de la configuration *Vision Security ZD2102* pour utiliser les propriétés
+- Modification de l'image *Vision Security ZD2102* (détourage)
+- Modification de la configuration *Aeotec Range Extender 7* pour utiliser les propriétés
+- Modification de la configuration *Zipato ZD2102* pour utiliser les propriétés
+- Modification de la configuration *Qubino Weather Station* pour utiliser les propriétés
+- Modification de la configuration *Everspring ST814* pour utiliser les propriétés
+- Modification de la configuration *Hank HKZW-SO08* pour utiliser les propriétés
+- Modification de la configuration *Hank HKZW-SO01* pour utiliser les propriétés
+- Modification de la configuration *Hank HKZW-SCN01* pour utiliser les propriétés
+- Modification de la configuration *Philio PAT02-B* pour utiliser les propriétés
+- Modification de l'image *Philio PAT02-B* (détourage)
+- Modification de l'image *Abus SHWM1000*
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Zipato Energy Meter* (propriétés : Power, Energy , Voltage, Current)
+- Ajout de l'image pour *Zipato Energy Meter*
+- Ajout de la configuration *Airzone Aidoo Zwave* (propriétés : Temperature, Thermostatmode, Thermostatmodeaction, Thermostatfanmode, Thermostatfanmodeaction, Thermostatsetpoint, Notification)
+- Ajout de l'image pour *Airzone Aidoo Zwave*
+- Ajout d'une propriété *Thermostatfanmode*
+- Ajout d'une propriété *Thermostatfanmodeaction*
+- Ajout d'une propriété *Direction*
+- Ajout d'une propriété *Velocity*
+- Ajout d'une propriété *Rain*
+- Ajout d'une propriété *Co*
+- Ajout d'une sous-propriété *Basic-motion* dans la propriété *Motion*
+- Ajout d'une sous-propriété *Dust-in-device* dans la propriété *Notification*
+
+*Si vous êtes concernés par une modification ou un ajout de configuration, faites une synchronisation puis rechargez les commandes de l'équipement en "recréant toutes les commandes" après la mise à jour.*
+
 # 15/12/2022
 
 **Améliorations**

@@ -8,6 +8,21 @@
 
 **Verbesserungen**
 
+- Verschieben der ZwaveJS-Benutzeroberfläche auf 8.6.1
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Airzone Aidoo Zwave* (Eigenschaften : Temperatur, Thermostatmodus, Thermostatmodusaktion, Thermostatlüftermodus, Thermostatlüftermodusaktion, Thermostatsollwert, Benachrichtigung)
+- Bild hinzugefügt für *Airzone Aidoo Zwave*
+- Hinzufügen einer Eigenschaft *Thermostatlüftermodus*
+- Hinzufügen einer Eigenschaft *Thermostatlüftermodusaktion*
+
+*Wenn Sie von einer Änderung oder Hinzufügung der Konfiguration betroffen sind, führen Sie eine Synchronisierung durch und laden Sie dann die Befehle des Geräts neu, indem Sie nach dem Update „alle Befehle neu erstellen“.*
+
+# 15.12.2022
+
+**Verbesserungen**
+
 - Anzeigemöglichkeit hinzugefügt *erklärende Assistenten* auf der Seite bestimmter Geräte (Keypad Zipato zum Beispiel, um die Funktionsweise der Codes zu erklären)
 
 **Konfigurationsänderungen**

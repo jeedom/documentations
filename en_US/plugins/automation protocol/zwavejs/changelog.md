@@ -8,6 +8,21 @@
 
 **Improvements**
 
+- Moving ZwaveJS UI to 8.6.1
+
+**Configuration Additions**
+
+- Added config *Airzone Aidoo Zwave* (properties : Temperature, Thermostatmode, Thermostatmodeaction, Thermostatfanmode, Thermostatfanmodeaction, Thermostatsetpoint, Notification)
+- Added image for *Airzone Aidoo Zwave*
+- Adding a property *Thermostatfanmode*
+- Adding a property *Thermostatfanmodeaction*
+
+*If you are affected by a modification or addition of configuration, make a synchronization then reload the commands of the equipment by "recreating all the commands" after the update.*
+
+# 12/15/2022
+
+**Improvements**
+
 - Added the ability to display *explanatory assistants* on the page of certain equipment (Keypad Zipato for example to explain the operation of the codes)
 
 **Configuration Changes**
