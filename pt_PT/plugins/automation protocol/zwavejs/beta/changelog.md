@@ -4,6 +4,18 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# XX/12/2022
+
+**Alterações de configuração**
+
+- Mudando a configuração *Heatit ThermoFloor Ztemp2* para usar as propriedades
+
+**Adições de configuração**
+
+- Adicionando uma subpropriedade *Status de energia* na propriedade *Notificação*
+
+*Se você for afetado por uma modificação ou adição de configuração, faça uma sincronização e recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
+
 # 19/12/2022
 
 **Conserta**

@@ -4,6 +4,18 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# XX/12/2022
+
+**Configuration Changes**
+
+- Changing the configuration *Heatit ThermoFloor Ztemp2* to use the properties
+
+**Configuration Additions**
+
+- Adding a sub-property *Power status* in the property *Notification*
+
+*If you are affected by a modification or addition of configuration, make a synchronization then reload the commands of the equipment by "recreating all the commands" after the update.*
+
 # 12/19/2022
 
 **Fixes**
