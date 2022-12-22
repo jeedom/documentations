@@ -6,16 +6,63 @@
 
 # XX/12/2022
 
-**Mejoras**
+**Cambios de configuración**
 
-- Mover la interfaz de usuario de ZwaveJS a 8.6.1
+- Cambiar la configuración *Heatit ThermoFloor Ztemp2* para usar las propiedades
 
 **Adiciones de configuración**
 
+- Añadir una subpropiedad *Estado de energía* en la propiedad *Notificación*
+
+*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+
+# 19/12/2022
+
+**Arreglos**
+
+- Fijar en algunos *atributos faltantes* en la página de salud en algunos nodos para evitar errores (sin consecuencias) en el *Error HTTP*
+
+**Mejoras**
+
+- Pasaje de *Interfaz de usuario de ZwaveJS* a versión *8.6.1*
+- Adición de la *gestión S2* (La interfaz de usuario de ZwaveJS ha realizado los cambios esperados)
+- Además de *tipo de seguridad* en la pagina *información del nodo*
+
+**Cambios de configuración**
+
+- Cambiar la configuración *Sensor de CO Heiman* para usar las propiedades
+- Cambiar la configuración *Detector de humo Heiman* para usar las propiedades
+- Cambiar la configuración *Sensor de CO Domux* para usar las propiedades
+- Cambiar la configuración *Seguridad de visión ZS5101* para usar las propiedades
+- Cambiar la configuración *InicioSeer Ez Motion* para usar las propiedades
+- Cambiar la configuración *Detector de humo Shenzhen* para usar las propiedades
+- Cambiar la configuración *Seguridad de visión ZD2102* para usar las propiedades
+- Editando la imagen *Seguridad de visión ZD2102* (recorte)
+- Cambiar la configuración *Extensor de rango Aeotec 7* para usar las propiedades
+- Cambiar la configuración *Zipato ZD2102* para usar las propiedades
+- Cambiar la configuración *Estación meteorológica Qubino* para usar las propiedades
+- Cambiar la configuración *Resorte eterno ST814* para usar las propiedades
+- Cambiar la configuración *Hank HKZW-SO08* para usar las propiedades
+- Cambiar la configuración *Hank HKZW-SO01* para usar las propiedades
+- Cambiar la configuración *Hank HKZW-SCN01* para usar las propiedades
+- Cambiar la configuración *Filio PAT02-B* para usar las propiedades
+- Editando la imagen *Filio PAT02-B* (recorte)
+- Editando la imagen *Abuso SHWM1000*
+
+**Adiciones de configuración**
+
+- Configuración añadida *Medidor de energía Zipato* (propiedades : Potencia, Energía, Voltaje, Corriente)
+- Imagen añadida para *Medidor de energía Zipato*
 - Configuración añadida *Airzone Aidoo Zwave* (propiedades : Temperatura, modo de termostato, modo de acción del termostato, modo de ventilador del termostato, modo de ventilador del termostato, punto de ajuste del termostato, notificación)
 - Imagen añadida para *Airzone Aidoo Zwave*
 - Agregar una propiedad *Termostato en modo ventilador*
 - Agregar una propiedad *Termostatoventiladordeacción*
+- Agregar una propiedad *Dirección*
+- Agregar una propiedad *Velocidad*
+- Agregar una propiedad *Lluvia*
+- Agregar una propiedad *Co*
+- Añadir una subpropiedad *Movimiento básico* en la propiedad *Movimiento*
+- Añadir una subpropiedad *Polvo en el dispositivo* en la propiedad *Notificación*
 
 *Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
 

@@ -4,6 +4,52 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 21/12/2022
+
+**Améliorations**
+
+- Rajout de la gestion des Nodes Notifications
+
+**Modifications de Configurations**
+
+- Modification de la configuration *Aeotec Range Extender 6* pour utiliser les propriétés
+- Modification de la configuration *Zipato PD01z* pour utiliser les propriétés
+- Modification de la configuration *NeoCoolCam PD01zt* pour utiliser les propriétés
+- Modification de la configuration *NeoCoolCam PD01z* pour utiliser les propriétés
+- Modification de la configuration *Philio / Zipato Micromodule Energy Meter* pour utiliser les propriétés
+- Modification de la configuration *Fibaro FGS214* pour utiliser les propriétés
+- Modification de la configuration *Fibaro FGS213* passage à l'endpoint 0 (à confirmer)
+- Retour arrière sur la configuration *Fibaro FGD212 firmware 3.5*
+- Modification de la configuration *Zipato Keypad* rajout de la propriété *NodeNotification*
+- Modification de la configuration *Schlage Keypad* rajout de la propriété *NodeNotification*
+- Modification de la configuration *Eurotronic Valve Spirit* pour utiliser les propriétés
+- Regroupement de configurations *Danfoss Living Connect*
+- Modification de la configuration *Danfoss Devolo Living Connect* pour utiliser les propriétés
+- Modification de la configuration *Danfoss Living Connect* pour utiliser les propriétés
+- Modification de la configuration *Danfoss Pop Radiator Thermostat* pour utiliser les propriétés
+- Modification de la configuration *Philio PSP05* pour utiliser les propriétés
+- Modification de la configuration *Zipato ZP3102* pour utiliser les propriétés
+- Modification de la configuration *Vision ZP3102* pour utiliser les propriétés
+- Modification de la configuration *Remotec ZXT-120* pour utiliser les propriétés
+- Modification de la configuration *Everspring Ad147* pour utiliser les propriétés
+- Modification de la configuration *Heatit ThermoFloor Ztemp2* pour utiliser les propriétés
+- Modification de l'image *Horstmann Secure SRT321* (détourage)
+- Modification de l'image *Remotec ZXT-120* (détourage)
+- Modification de l'image *Fibaro FGS 224* (détourage)
+- Modification de l'image *Fibaro FGS 213* (détourage)
+- Modification de l'image *Fibaro Button* (détourage)
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Cherubini ORA ZRX* (propriétés : Shutter, Notification)
+- Ajout de l'image *Cherubini ORA ZRX*
+- Ajout de la configuration *Heiman HS2WD Siren* (propriétés : Switch, Battery)
+- Ajout de l'image *Heiman HS2WD Siren*
+- Ajout d'une sous-propriété *Power-status* dans la propriété *Notification*
+- Ajout d'une propriété *NodeNotification*
+
+*Si vous êtes concernés par une modification ou un ajout de configuration, faites une synchronisation puis rechargez les commandes de l'équipement en "recréant toutes les commandes" après la mise à jour.*
+
 # 19/12/2022
 
 **Corrections**
