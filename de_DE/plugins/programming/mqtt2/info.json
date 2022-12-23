@@ -19,7 +19,7 @@
     "category": "programming",
     "hasDependency": true,
     "hasOwnDeamon": true,
-    "maxDependancyInstallTime": 0,
+    "maxDependancyInstallTime": 120,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/mqtt2\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/mqtt2\/",
     "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/mqtt2\/beta\/changelog",

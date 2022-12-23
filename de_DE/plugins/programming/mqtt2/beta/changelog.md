@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 23.12.2022
+
+- Es wurde ein Fehler bei der maximal zulässigen Zeit für die Installation von Abhängigkeiten behoben
+- Ausrüstungsvorlagensystem hinzugefügt (beta)
+
 # 18.11.2022
 
 - Es wurde eine Meldung hinzugefügt, die dazu auffordert, die Berechtigungen für Ordner wiederherzustellen, bevor Mosquitto im Fehlerfall installiert wird **Kein SSL-Ordner gefunden**
