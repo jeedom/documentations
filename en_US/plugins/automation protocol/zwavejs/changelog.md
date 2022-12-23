@@ -4,6 +4,37 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 22/12/2022
+
+**Improvements**
+
+- Addition of a complete engine *refresh management*, useful for some modules that do not correctly report some changes after action. Not to be used without a valid reason. The configuration files will carry the elements if necessary
+- Adding a tab *options* on the equipment page. To view and configure Refreshes and possible future options
+- Addition of the number of *refresh* on the page *health*
+
+**Configuration Changes**
+
+- Changing the configuration *Qubino Luxy Smart Light* to use the properties
+- Changing the configuration *Popp Rain Meter* to use the properties
+- Changing the configuration *Fibaro FGR-223* first configuration to use the refresh engine (indeed this module has a known bug, it does not go up the positions or in erroneous ways when a movement is initiated by the Z-Wave) to recover the refresh (go to reload command by choosing "without recreating orders") you should see the "refresh" in the options tab.
+- Changing the configuration *Fibaro FGR-223* change of power and energy endpoints
+- Changing the configuration *Fibaro FGR-223* addition of hardware and over-current notification
+- Changing the configuration *Fibaro FGR-223* replace scene property with centralscene
+
+**Configuration Additions**
+
+- Added config *Qubino Luxy Smart Switch* (properties : Switch, Multilevel, Power, Energy, Color, Notification, NotificationEvent)
+- Adding the picture *Qubino Luxy Smart Switch*
+- Added config *Abus Security Center SHSG10000* (properties : Switch, Battery)
+- Adding the picture *Abus Security Center SHSG10000*
+- Adding a sub-property *Overall* in the property *Rain*
+- Adding a sub-property *Basic* in the property *Rain*
+- Adding a sub-property *Overload* in the property *Notification*
+- Adding a property *Water consumption*
+- Adding a property *Notificationevent*
+
+*If you are affected by a modification or addition of configuration, make a synchronization then reload the commands of the equipment by "recreating all the commands" after the update.*
+
 # 21/12/2022
 
 **Improvements**

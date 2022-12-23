@@ -4,6 +4,37 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 22/12/2022
+
+**Mejoras**
+
+- Adición de un motor completo *gestión de actualización*, útil para algunos módulos que no informan correctamente algunos cambios después de la acción. No debe usarse sin una razón válida. Los archivos de configuración llevarán los elementos si es necesario
+- Agregar una pestaña *opciones* en la página del equipo. Para ver y configurar Actualizaciones y posibles opciones futuras
+- Adición del número de *actualizar* en la pagina *salud*
+
+**Cambios de configuración**
+
+- Cambiar la configuración *Luz inteligente Qubino Luxy* para usar las propiedades
+- Cambiar la configuración *Medidor de lluvia Popp* para usar las propiedades
+- Cambiar la configuración *Fibaro FGR-223* primera configuración para usar el motor de actualización (de hecho, este módulo tiene un error conocido, no sube las posiciones o de manera errónea cuando el Z-Wave inicia un movimiento) para recuperar la actualización (vaya al comando de recarga seleccionando " sin volver a crear pedidos") debería ver "actualizar" en la pestaña de opciones.
+- Cambiar la configuración *Fibaro FGR-223* cambio de puntos finales de potencia y energía
+- Cambiar la configuración *Fibaro FGR-223* adición de hardware y notificación de sobrecorriente
+- Cambiar la configuración *Fibaro FGR-223* reemplazar propiedad de escena con centralscene
+
+**Adiciones de configuración**
+
+- Configuración añadida *Interruptor inteligente Qubino Luxy* (propiedades : Switch, Multinivel, Potencia, Energía, Color, Notificación, Evento de notificación)
+- Agregando la imagen *Interruptor inteligente Qubino Luxy*
+- Configuración añadida *Centro de seguridad Abus SHSG10000* (propiedades : Interruptor, batería)
+- Agregando la imagen *Centro de seguridad Abus SHSG10000*
+- Añadir una subpropiedad *General* en la propiedad *Lluvia*
+- Añadir una subpropiedad *Básico* en la propiedad *Lluvia*
+- Añadir una subpropiedad *Sobrecarga* en la propiedad *Notificación*
+- Agregar una propiedad *Consumo de agua*
+- Agregar una propiedad *Evento de notificación*
+
+*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+
 # 21/12/2022
 
 **Mejoras**
