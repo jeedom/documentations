@@ -4,15 +4,49 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# XX/12/2022
+# 21/12/2022
+
+**Improvements**
+
+- Addition of the management of Nodes Notifications
 
 **Configuration Changes**
 
+- Changing the configuration *Aeotec Range Extender 6* to use the properties
+- Changing the configuration *Zipato PD01z* to use the properties
+- Changing the configuration *NeoCoolCam PD01zt* to use the properties
+- Changing the configuration *NeoCoolCam PD01z* to use the properties
+- Changing the configuration *Philio/Zipato Micromodule Energy Meter* to use the properties
+- Changing the configuration *Fibaro FGS214* to use the properties
+- Changing the configuration *Fibaro FGS213* switch to endpoint 0 (to be confirmed)
+- Configuration rollback *Fibaro FGD212 firmware 3.5*
+- Changing the configuration *Zipato Keypad* addition of property *NodeNotification*
+- Changing the configuration *Schlage Keypad* addition of property *NodeNotification*
+- Changing the configuration *Eurotronic Valve Spirit* to use the properties
+- Grouping of configurations *Danfoss Living Connect*
+- Changing the configuration *Danfoss Devolo Living Connect* to use the properties
+- Changing the configuration *Danfoss Living Connect* to use the properties
+- Changing the configuration *Danfoss Pop Radiator Thermostat* to use the properties
+- Changing the configuration *Philio PSP05* to use the properties
+- Changing the configuration *Zipato ZP3102* to use the properties
+- Changing the configuration *Vision ZP3102* to use the properties
+- Changing the configuration *Remotec ZXT-120* to use the properties
+- Changing the configuration *Everspring Ad147* to use the properties
 - Changing the configuration *Heatit ThermoFloor Ztemp2* to use the properties
+- Editing the image *Horstmann Secure SRT321* (clipping)
+- Editing the image *Remotec ZXT-120* (clipping)
+- Editing the image *Fibaro FGS 224* (clipping)
+- Editing the image *Fibaro FGS 213* (clipping)
+- Editing the image *Fibaro Button* (clipping)
 
 **Configuration Additions**
 
+- Added config *Cherubini ORA ZRX* (properties : Shutter, Notification)
+- Adding the picture *Cherubini ORA ZRX*
+- Added config *Heiman HS2WD Siren* (properties : Switch, Battery)
+- Adding the picture *Heiman HS2WD Siren*
 - Adding a sub-property *Power status* in the property *Notification*
+- Adding a property *NodeNotification*
 
 *If you are affected by a modification or addition of configuration, make a synchronization then reload the commands of the equipment by "recreating all the commands" after the update.*
 

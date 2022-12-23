@@ -4,15 +4,49 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# XX/12/2022
+# 21.12.2022
+
+**Verbesserungen**
+
+- Hinzufügen der Verwaltung von Knotenbenachrichtigungen
 
 **Konfigurationsänderungen**
 
+- Ändern der Konfiguration *Aeotec-Range-Extender 6* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Zipato PD01z* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *NeoCoolCam PD01zt* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *NeoCoolCam PD01z* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Philio/Zipato Mikromodul-Energiezähler* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro FGS214* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro FGS213* auf Endpunkt 0 wechseln (noch zu bestätigen)
+- Konfigurations-Rollback *Fibaro FGD212-Firmware 3.5*
+- Ändern der Konfiguration *Zipato-Tastatur* Hinzufügung von Eigentum *NodeNotification*
+- Ändern der Konfiguration *Schlage Tastatur* Hinzufügung von Eigentum *NodeNotification*
+- Ändern der Konfiguration *Eurotronic Ventilgeist* um die Eigenschaften zu verwenden
+- Gruppierung von Konfigurationen *Danfoss Living Connect*
+- Ändern der Konfiguration *Danfoss Devolo Living Connect* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Danfoss Living Connect* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Danfoss Pop Heizkörperthermostat* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Philio PSP05* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Zipato ZP3102* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Vision ZP3102* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Remotec ZXT-120* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Everspring Ad147* um die Eigenschaften zu verwenden
 - Ändern der Konfiguration *Heatit ThermoFloor Ztemp2* um die Eigenschaften zu verwenden
+- Bearbeiten des Bildes *Horstmann Secure SRT321* (Ausschnitt)
+- Bearbeiten des Bildes *Remotec ZXT-120* (Ausschnitt)
+- Bearbeiten des Bildes *Fibaro FGS224* (Ausschnitt)
+- Bearbeiten des Bildes *Fibaro FGS213* (Ausschnitt)
+- Bearbeiten des Bildes *Fibaro-Knopf* (Ausschnitt)
 
 **Konfigurationsergänzungen**
 
+- Konfig hinzugefügt *Cherubini ORA ZRX* (Eigenschaften : Auslöser, Benachrichtigung)
+- Bild hinzufügen *Cherubini ORA ZRX*
+- Konfig hinzugefügt *Heiman HS2WD Sirene* (Eigenschaften : Schalter, Batterie)
+- Bild hinzufügen *Heiman HS2WD Sirene*
 - Hinzufügen einer Untereigenschaft *Stromstatus* im Eigentum *Benachrichtigung*
+- Hinzufügen einer Eigenschaft *NodeNotification*
 
 *Wenn Sie von einer Änderung oder Hinzufügung der Konfiguration betroffen sind, führen Sie eine Synchronisierung durch und laden Sie dann die Befehle des Geräts neu, indem Sie nach dem Update „alle Befehle neu erstellen“.*
 

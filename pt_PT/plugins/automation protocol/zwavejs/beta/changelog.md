@@ -4,6 +4,37 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 22/12/2022
+
+**Melhorias**
+
+- Adição de um motor completo *gerenciamento de atualização*, útil para alguns módulos que não relatam corretamente algumas alterações após a ação. Não deve ser usado sem um motivo válido. Os arquivos de configuração levarão os elementos, se necessário
+- Adicionando uma guia *opções* na página do equipamento. Para visualizar e configurar atualizações e possíveis opções futuras
+- Adição do número de *atualizar* na página *saúde*
+
+**Alterações de configuração**
+
+- Mudando a configuração *Luz Inteligente Qubino Luxy* para usar as propriedades
+- Mudando a configuração *Popp pluviômetro* para usar as propriedades
+- Mudando a configuração *Fibaro FGR-223* primeira configuração para usar o mecanismo de atualização (na verdade, este módulo tem um bug conhecido, não volta para as posições ou de maneiras errôneas quando um movimento é iniciado pelo Z-Wave) para recuperar a atualização (vá para o comando recarregar escolhendo "sem recriar pedidos") você deve ver o "atualizar" na guia de opções.
+- Mudando a configuração *Fibaro FGR-223* mudança de pontos finais de potência e energia
+- Mudando a configuração *Fibaro FGR-223* adição de hardware e notificação de sobrecorrente
+- Mudando a configuração *Fibaro FGR-223* substitua a propriedade da cena por centralscene
+
+**Adições de configuração**
+
+- Configuração adicionada *Qubino Luxy Smart Switch* (propriedades : Switch, Multilevel, Power, Energy, Color, Notification, NotificationEvent)
+- Adicionando a imagem *Qubino Luxy Smart Switch*
+- Configuração adicionada *Centro de Segurança Abus SHSG10000* (propriedades : Interruptor, bateria)
+- Adicionando a imagem *Centro de Segurança Abus SHSG10000*
+- Adicionando uma subpropriedade *No geral* na propriedade *Chuva*
+- Adicionando uma subpropriedade *Básico* na propriedade *Chuva*
+- Adicionando uma subpropriedade *Sobrecarga* na propriedade *Notificação*
+- Adicionando uma propriedade *Consumo de água*
+- Adicionando uma propriedade *Evento de notificação*
+
+*Se você for afetado por uma modificação ou adição de configuração, faça uma sincronização e recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
+
 # 21/12/2022
 
 **Melhorias**

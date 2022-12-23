@@ -4,15 +4,49 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# XX/12/2022
+# 21/12/2022
+
+**Mejoras**
+
+- Adición de la gestión de Notificaciones de Nodos
 
 **Cambios de configuración**
 
+- Cambiar la configuración *Extensor de rango Aeotec 6* para usar las propiedades
+- Cambiar la configuración *Zipato PD01z* para usar las propiedades
+- Cambiar la configuración *NeoCoolCam PD01zt* para usar las propiedades
+- Cambiar la configuración *NeoCoolCam PD01z* para usar las propiedades
+- Cambiar la configuración *Medidor de energía de micromódulo Philio/Zipato* para usar las propiedades
+- Cambiar la configuración *Fibaro FGS214* para usar las propiedades
+- Cambiar la configuración *Fibaro FGS213* cambiar al punto final 0 (por confirmar))
+- Reversión de configuración *Fibaro FGD212 firmware 3.5*
+- Cambiar la configuración *Teclado Zipato* adición de propiedad *Notificación de nodo*
+- Cambiar la configuración *Teclado Schlage* adición de propiedad *Notificación de nodo*
+- Cambiar la configuración *Espíritu de válvula Eurotronic* para usar las propiedades
+- Agrupación de configuraciones *Conexión viva de Danfoss*
+- Cambiar la configuración *Danfoss Devolo Living Connect* para usar las propiedades
+- Cambiar la configuración *Conexión viva de Danfoss* para usar las propiedades
+- Cambiar la configuración *Termostato de radiador Pop de Danfoss* para usar las propiedades
+- Cambiar la configuración *Philio psp05* para usar las propiedades
+- Cambiar la configuración *Zipato ZP3102* para usar las propiedades
+- Cambiar la configuración *Visión ZP3102* para usar las propiedades
+- Cambiar la configuración *Control remoto ZXT-120* para usar las propiedades
+- Cambiar la configuración *Anuncio Everspring147* para usar las propiedades
 - Cambiar la configuración *Heatit ThermoFloor Ztemp2* para usar las propiedades
+- Editando la imagen *Horstmann Seguro SRT321* (recorte)
+- Editando la imagen *Control remoto ZXT-120* (recorte)
+- Editando la imagen *Fibaro FGS 224* (recorte)
+- Editando la imagen *Fibaro FGS 213* (recorte)
+- Editando la imagen *Botón Fibaro* (recorte)
 
 **Adiciones de configuración**
 
+- Configuración añadida *Cherubini ORA ZRX* (propiedades : Obturador, Notificación)
+- Agregando la imagen *Cherubini ORA ZRX*
+- Configuración añadida *Sirena Heiman HS2WD* (propiedades : Interruptor, batería)
+- Agregando la imagen *Sirena Heiman HS2WD*
 - Añadir una subpropiedad *Estado de energía* en la propiedad *Notificación*
+- Agregar una propiedad *Notificación de nodo*
 
 *Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
 

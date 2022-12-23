@@ -4,6 +4,37 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 22/12/2022
+
+**Améliorations**
+
+- Rajout d'un moteur complet de *gestion de refresh*, utile pour certains modules qui ne reportent pas correctement certains changements après action. A ne pas utiliser sans raison valable. Les fichiers de configurations porteront les éléments si nécessaires
+- Rajout d'un onglet *options* sur la page d'un équipement. Pour afficher et configurer les Refresh et  d'éventuelles options futures
+- Rajout du nombre de *refresh* sur la page *santé*
+
+**Modifications de Configurations**
+
+- Modification de la configuration *Qubino Luxy Smart Light* pour utiliser les propriétés
+- Modification de la configuration *Popp RainMeter* pour utiliser les propriétés
+- Modification de la configuration *Fibaro FGR-223* première configuration à utiliser le moteur de refresh (en effet ce module à un bug connu, il ne remonte pas les positions ou de manières erronées lorsqu'un mouvement est initié par le Z-Wave) pour récupérer les refresh (allez dans recharger commande en choissisant "sans recréer commandes") vous devriez voir les "refreshs" dans l'onglet options.
+- Modification de la configuration *Fibaro FGR-223* changement des endpoints power et energy
+- Modification de la configuration *Fibaro FGR-223* rajout de notification hardware et over-current
+- Modification de la configuration *Fibaro FGR-223* remplacement de la propriété scene par centralscene
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Qubino Luxy Smart Switch* (propriétés : Switch, Multilevel, Power, Energy, Color, Notification, NotificationEvent)
+- Ajout de l'image *Qubino Luxy Smart Switch*
+- Ajout de la configuration *Abus Security Center SHSG10000* (propriétés : Switch, Battery)
+- Ajout de l'image *Abus Security Center SHSG10000*
+- Ajout d'une sous-propriété *Global* dans la propriété *Rain*
+- Ajout d'une sous-propriété *Basic* dans la propriété *Rain*
+- Ajout d'une sous-propriété *Over-Load* dans la propriété *Notification*
+- Ajout d'une propriété *Waterconsumption*
+- Ajout d'une propriété *Notificationevent*
+
+*Si vous êtes concernés par une modification ou un ajout de configuration, faites une synchronisation puis rechargez les commandes de l'équipement en "recréant toutes les commandes" après la mise à jour.*
+
 # 21/12/2022
 
 **Améliorations**

@@ -4,6 +4,37 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 22.12.2022
+
+**Verbesserungen**
+
+- Hinzufügung eines kompletten Motors *Aktualisierungsverwaltung*, nützlich für einige Module, die einige Änderungen nach der Aktion nicht korrekt melden. Nicht ohne triftigen Grund verwenden. Die Konfigurationsdateien tragen die Elemente bei Bedarf
+- Registerkarte hinzufügen *Optionen* auf der Ausstattungsseite. Zum Anzeigen und Konfigurieren von Aktualisierungen und möglichen zukünftigen Optionen
+- Addition der Anzahl von *Aktualisierung* auf der Seite *die Gesundheit*
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Qubino Luxy Smart Light* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Popp Regenmesser* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro FGR-223* erste Konfiguration zur Verwendung der Refresh-Engine (in der Tat hat dieses Modul einen bekannten Fehler, es kehrt nicht zu den Positionen oder auf irrtümliche Weise zurück, wenn eine Bewegung vom Z-Wave initiiert wird), um die Aktualisierung wiederherzustellen (gehen Sie zum Reload-Befehl, indem Sie auswählen "ohne Neuanlage von Bestellungen") sollten Sie "Aktualisieren" auf der Registerkarte "Optionen" sehen.
+- Ändern der Konfiguration *Fibaro FGR-223* Änderung von Leistungs- und Energieendpunkten
+- Ändern der Konfiguration *Fibaro FGR-223* Hinzufügen von Hardware und Überstrombenachrichtigung
+- Ändern der Konfiguration *Fibaro FGR-223* Ersetzen Sie die Eigenschaft scene durch centralscene
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Qubino Luxy Smart-Schalter* (Eigenschaften : Schalter, Mehrstufig, Leistung, Energie, Farbe, Benachrichtigung, Benachrichtigungsereignis)
+- Bild hinzufügen *Qubino Luxy Smart-Schalter*
+- Konfig hinzugefügt *Abus Security Center SHSG10000* (Eigenschaften : Schalter, Batterie)
+- Bild hinzufügen *Abus Security Center SHSG10000*
+- Hinzufügen einer Untereigenschaft *Gesamt* im Eigentum *Regen*
+- Hinzufügen einer Untereigenschaft *Basic* im Eigentum *Regen*
+- Hinzufügen einer Untereigenschaft *Überlast* im Eigentum *Benachrichtigung*
+- Hinzufügen einer Eigenschaft *Wasserverbrauch*
+- Hinzufügen einer Eigenschaft *Benachrichtigungsereignis*
+
+*Wenn Sie von einer Änderung oder Hinzufügung der Konfiguration betroffen sind, führen Sie eine Synchronisierung durch und laden Sie dann die Befehle des Geräts neu, indem Sie nach dem Update „alle Befehle neu erstellen“.*
+
 # 21.12.2022
 
 **Verbesserungen**
