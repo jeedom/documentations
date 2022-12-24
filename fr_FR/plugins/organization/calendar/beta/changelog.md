@@ -2,7 +2,13 @@
 
 >**IMPORTANT**
 >
->Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
+>S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+
+# 22/12/2022
+
+- Mise à jour de la librairie `fullcalendar` de 3.10.5 vers 6.0.1
+- Ajout d'une vue **Planning** listant tous les évènements de la semaine
+- Version minimale du core Jeedom requise : 4.2
 
 # 25/01/2022
 

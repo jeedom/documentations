@@ -1,8 +1,14 @@
 # Agenda de cambios
 
->**IMPORTANTE**
+>**Importante**
 >
->Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
+>Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
+
+# 22/12/2022
+
+- Biblioteca `fullcalendar` actualizada de 3.10.5 a 6.0.1
+- Agregar una vista **Calendario** listado de todos los eventos de la semana
+- Se requiere la versión básica mínima de Jeedom : 4.2
 
 # 25/01/2022
 

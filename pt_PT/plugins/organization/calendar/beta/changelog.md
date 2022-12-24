@@ -2,7 +2,13 @@
 
 >**IMPORTANTE**
 >
->Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
+>Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
+
+# 22/12/2022
+
+- Biblioteca `fullcalendar` atualizada de 3.10.5 a 6.0.1
+- Adicionando uma visualização **Cronograma** listando todos os eventos da semana
+- Versão mínima do núcleo do Jeedom necessária : 4.2
 
 # 25/01/2022
 
