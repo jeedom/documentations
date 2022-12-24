@@ -4,13 +4,42 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# XX/12/2022
+
+**Modifications de Configurations**
+
+- Modification de la configuration *Fibaro Fgrgbwm442* pour utiliser les propriétés
+- Modification de la configuration *Fibaro FGD212* ajout des propriétés Notification
+- Modification de la configuration *Qubino ZMNHBA2 Flush 2 Relays* pour utiliser les propriétés
+- Modification de la configuration *Fibaro Walli Switch* ajout des propriétés Notification
+- Modification de la configuration *Dlink Dchz110* pour utiliser les propriétés
+- Modification de la configuration *Domitech Smart Led Light* pour utiliser les propriétés
+- Modification de la configuration *Duwii Switch* pour utiliser les propriétés
+- Modification de la configuration *Everspring AN157* pour utiliser les propriétés
+- Modification de la configuration *Popp Smoke Sensor* pour utiliser les propriétés
+- Modification de la configuration *Duwii Edan 300* pour utiliser les propriétés
+- Modification de l'image *Duwii Dimmer* (détourage)
+- Modification de l'image *Duwii Switch* (détourage)
+- Modification de l'image *Duwii Edan 300* (détourage)
+- Modification de l'image *Duwii Blind Control* (détourage)
+- Modification de l'image *Duwii Remote* (détourage)
+- Modification de l'image *Duwii Zs3500* (détourage)
+- Modification de l'image *MCO Zipato p210 dimmer* (détourage)
+
+**Ajouts de Configurations**
+
+- Ajout d'une sous-propriété *Load-error* dans la propriété *Notification*
+- Ajout d'une sous-propriété *Fibaro-effets2* dans la propriété *Color*
+
+*Si vous êtes concernés par une modification ou un ajout de configuration, faites une synchronisation puis rechargez les commandes de l'équipement en "recréant toutes les commandes" après la mise à jour.*
+
 # 22/12/2022
 
 **Améliorations**
 
-- Rajout d'un moteur complet de *gestion de refresh*, utile pour certains modules qui ne reportent pas correctement certains changements après action. A ne pas utiliser sans raison valable. Les fichiers de configurations porteront les éléments si nécessaires
-- Rajout d'un onglet *options* sur la page d'un équipement. Pour afficher et configurer les Refresh et  d'éventuelles options futures
-- Rajout du nombre de *refresh* sur la page *santé*
+- Rajout d'un moteur complet de *Gestion de refresh*, utile pour certains modules qui ne reportent pas correctement certains changements après action. A ne pas utiliser sans raison valable. Les fichiers de configurations porteront les éléments si nécessaires
+- Rajout d'un onglet *Options* sur la page d'un équipement. Pour afficher et configurer les Refresh et  d'éventuelles options futures
+- Rajout du nombre de *Refresh* sur la page *Santé*
 
 **Modifications de Configurations**
 

@@ -4,13 +4,42 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# XX/12/2022
+
+**Cambios de configuración**
+
+- Cambiar la configuración *Fibaro Fgrgbwm442* para usar las propiedades
+- Cambiar la configuración *Fibaro FGD212* propiedades de notificación agregadas
+- Cambiar la configuración *Qubino ZMNHBA2 Flush 2 Relés* para usar las propiedades
+- Cambiar la configuración *Interruptor Fibaro Walli* propiedades de notificación agregadas
+- Cambiar la configuración *Dlink Dchz110* para usar las propiedades
+- Cambiar la configuración *Luz LED inteligente Domitech* para usar las propiedades
+- Cambiar la configuración *Interruptor Duwii* para usar las propiedades
+- Cambiar la configuración *Primavera eterna AN157* para usar las propiedades
+- Cambiar la configuración *Sensor de humo popp* para usar las propiedades
+- Cambiar la configuración *Duwii Edan 300* para usar las propiedades
+- Editando la imagen *Atenuador Duwii* (recorte)
+- Editando la imagen *Interruptor Duwii* (recorte)
+- Editando la imagen *Duwii Edan 300* (recorte)
+- Editando la imagen *Control de persianas Duwii* (recorte)
+- Editando la imagen *Mando a distancia Duwii* (recorte)
+- Editando la imagen *Duwii zs3500* (recorte)
+- Editando la imagen *Atenuador MCO Zipato p210* (recorte)
+
+**Adiciones de configuración**
+
+- Añadir una subpropiedad *Error de carga* en la propiedad *Notificación*
+- Añadir una subpropiedad *Fibaro-effects2* en la propiedad *Color*
+
+*Si se ve afectado por una modificación o adición de configuración, realice una sincronización y luego vuelva a cargar los comandos del equipo "recreando todos los comandos" después de la actualización.*
+
 # 22/12/2022
 
 **Mejoras**
 
-- Adición de un motor completo *gestión de actualización*, útil para algunos módulos que no informan correctamente algunos cambios después de la acción. No debe usarse sin una razón válida. Los archivos de configuración llevarán los elementos si es necesario
-- Agregar una pestaña *opciones* en la página del equipo. Para ver y configurar Actualizaciones y posibles opciones futuras
-- Adición del número de *actualizar* en la pagina *salud*
+- Adición de un motor completo *Gestión de actualización*, útil para algunos módulos que no informan correctamente algunos cambios después de la acción. No debe usarse sin una razón válida. Los archivos de configuración llevarán los elementos si es necesario
+- Agregar una pestaña *Opciones* en la página del equipo. Para ver y configurar Actualizaciones y posibles opciones futuras
+- Adición del número de *Actualizar* en la pagina *Salud*
 
 **Cambios de configuración**
 
