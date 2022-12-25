@@ -4,13 +4,42 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# XX/12/2022
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Fibaro Fgrgbwm442* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro FGD212* Benachrichtigungseigenschaften hinzugefügt
+- Ändern der Konfiguration *Qubino ZMNHBA2 Unterputz 2 Relais* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro Walli-Schalter* Benachrichtigungseigenschaften hinzugefügt
+- Ändern der Konfiguration *Dlink Dchz110* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Intelligentes LED-Licht von Domitech* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Duwii-Schalter* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Everspring AN157* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Popp Rauchmelder* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Duwi Edan 300* um die Eigenschaften zu verwenden
+- Bearbeiten des Bildes *Duwii Dimmer* (Ausschnitt)
+- Bearbeiten des Bildes *Duwii-Schalter* (Ausschnitt)
+- Bearbeiten des Bildes *Duwi Edan 300* (Ausschnitt)
+- Bearbeiten des Bildes *Duwii Jalousiesteuerung* (Ausschnitt)
+- Bearbeiten des Bildes *Duwii-Fernbedienung* (Ausschnitt)
+- Bearbeiten des Bildes *Duwii Zs3500* (Ausschnitt)
+- Bearbeiten des Bildes *MCO Zipato p210 Dimmer* (Ausschnitt)
+
+**Konfigurationsergänzungen**
+
+- Hinzufügen einer Untereigenschaft *Ladefehler* im Eigentum *Benachrichtigung*
+- Hinzufügen einer Untereigenschaft *Fibaro-Effekte2* im Eigentum *Farbe*
+
+*Wenn Sie von einer Änderung oder Hinzufügung der Konfiguration betroffen sind, führen Sie eine Synchronisierung durch und laden Sie dann die Befehle des Geräts neu, indem Sie nach dem Update „alle Befehle neu erstellen“.*
+
 # 22.12.2022
 
 **Verbesserungen**
 
 - Hinzufügung eines kompletten Motors *Aktualisierungsverwaltung*, nützlich für einige Module, die einige Änderungen nach der Aktion nicht korrekt melden. Nicht ohne triftigen Grund verwenden. Die Konfigurationsdateien tragen die Elemente bei Bedarf
 - Registerkarte hinzufügen *Optionen* auf der Ausstattungsseite. Zum Anzeigen und Konfigurieren von Aktualisierungen und möglichen zukünftigen Optionen
-- Addition der Anzahl von *Aktualisierung* auf der Seite *die Gesundheit*
+- Addition der Anzahl von *Aktualisierung* auf der Seite *Die Gesundheit*
 
 **Konfigurationsänderungen**
 

@@ -4,10 +4,56 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# XX/12/2022
+# 24.12.2022
+
+**Beitrag des Entwicklers**
+
+Hier ist das sehr wahrscheinlich letzte Plugin-Update von 2022. In kaum 1 Monat wird es große Entwicklungen gegeben haben. Am Ende sehr wenige Fehler, was positiv ist. 
+In bemerkenswerten Entwicklungen seit der stabilen Veröffentlichung vor einem Monat :
+
+- S2-Verwaltung
+- NVMS-Management (mit dem ZwaveJS-Team wird daran gearbeitet, die Wiederherstellungskompatibilität zu erweitern)
+- OTA-Update-Verwaltung
+- Hinzufügen einer anpassbaren Refresh-Engine für angeforderte Berichte (nur bei Bedarf zu verwenden, was bei 1 von 200 Modulen geschehen sollte)
+- Hinzufügen der ausstehenden Parameterverwaltung
+- Fein abgestimmte Abhängigkeitsversionsverwaltung
+
+Wenn Sie dieses Änderungsprotokoll lesen, werden Sie viel Arbeit zur Verbesserung der Confs sehen können (natürlich gibt es so viele Module, dass es noch einige gibt).
+
+Kleine Erklärungen
+
+Dieses Plugin ist ein neues Plugin, es hätte als brandneues Plugin mit 3 confs herauskommen und im Laufe der Zeit hinzugefügt werden können. Ich beschloss zu versuchen, die OZW-Konfs zu migrieren, um einen Ausgangspunkt zu haben, der der Ankunft des alten Plugins entspricht.
+Aber und ich bestehe darauf, das sind zwei Plugins *anders*. OZW hat viel gepatcht und oft Endpunkte oder sogar Befehle zu einem gebündelt. Wir haben also Informationen verloren und das Migrationsskript musste eine Wahl treffen. Heute haben wir Zugriff auf die vollständige Zwave-Kartographie
+Es wurde eine Registerkarte „Werte“ entwickelt, die mindestens 15-20% der Entwicklung des Plugins ausmacht, aber Sie können damit alles sehen, alles steuern und sogar Befehle generieren.
+Warum hast du die confs migriert und nicht 0. Weil es einfach 50 mal weniger Confs gegeben hätte. Und eine migrierte conf hat in 75 % der Fälle einige oder alle ihrer funktionalen Befehle. Dank dessen haben viele von euch alles, was funktioniert.
+Im Grunde bedeutet dies, dass es gibt :
+- revalidierte und optimierte confs (denn ja, zusätzlich können wir dank dieses Plugins auf bestimmte Arten von Modulen weitergehen), um sie zu erkennen, ist es einfach, wenn man mit der Maus über den Namen des Moduls über seinem Bild (Ausrüstungsseite) fährt, gibt es einen Eigenschaftenbereich, also es ist eine aktualisierte conf (auch sichtbar unten rechts im NODES-Modal)
+- Migrierte confs (sie haben keinen Eigenschaftenabschnitt, sondern nur einen Befehlsabschnitt) hier kann die conf perfekt funktionieren (aber im Allgemeinen übergebe ich sie in Eigenschaften, um sie zu verbessern und für eine bessere Überwachung), sie können einige schlechte Befehle haben oder sie sind es möglicherweise nicht gut.
+
+Hier kann Ihnen der Werte-Reiter helfen, zu verstehen und unabhängig zu sein. Aber auf jeden Fall muss man wieder an den Punkt gehen, wenn man die Möglichkeit hat ein Ticket zu machen, macht es und mit Zugang ist es ideal. Dadurch kann ich mit meinem Fachwissen sehen, ob wir noch weiter gehen können (weil viele Module unnötige Dinge hervorbringen oder nicht an der richtigen Stelle sind) und generell nutze ich die Gelegenheit, mir alle Module anzuschauen (die funktionieren), für die ich aber Optimierungen sehe oder Ergänzungen zu machen
+
+Wenn Sie sich das Änderungsprotokoll ansehen, sehen Sie die Anzahl der Konfs, die durchgeführt werden können (tatsächlich wurde dieses neue Plugin entwickelt, um sie schneller ausführen zu können).
+
+Dann erlaubt dieses neue Plugin im Gegensatz zum alten, zwischen Firmware-Versionen zu unterscheiden, ich denke hier an Fibaro, der der Spezialist für unterschiedliche Verhaltensweisen je nach Firmware ist. Sagen Sie sich, dass, wenn eine conf mit Eigenschaften erstellt wird (dann ja, ein Fehler passieren kann), sie eine 99% ige Chance hat, gültig zu sein. Und wenn Ihre Firmware etwas anderes erfordert, aber nicht neu zusammengesetzt wird, kann die conf nicht angepasst werden, um diese Besonderheit zu verwalten.
+Und schließlich gibt es Module wie das fgr223, das fehlerhaft ist (allgemein bekannter Fehler), das keinen Status beim ZWAVE-Trigger meldet. Dafür ist die Refresh-Engine da. Im alten Plugin war es auch gemacht, aber nicht sichtbar und nicht konfigurierbar. In diesem ist es sichtbar und konfigurierbar. Aber ich bestehe darauf, nicht damit zu spielen. Verwenden Sie die Sichtbarkeit, um zu korrigieren, wenn Sie etwas sehen, oder um die Zahlen und Erwartungen entsprechend Ihrer Verwendung anzupassen. In der Tat kann ein Verschluss, je nachdem, um was es sich handelt, leicht 15 Sekunden für einen Zyklus und 45 Sekunden für einen anderen dauern.
+Jede Anfrage nach Unterstützung mit bedeutungslosen Abfragen oder Aktualisierungen überall wird abgelehnt.
+
+Und ein letztes Wort zu dem, was ich als „Zauberlehrlinge“ bezeichnen werde". Wenn Sie sich selbst als Experten bezeichnen und glauben, Sie hätten eine Reihenfolge auf der Registerkarte "Werte" gefunden (wobei ich Sie daran erinnere, dass sie von mir selbst entwickelt wurde) ... Es ist gefährlich für Sie und für alle, denen Sie es in Netzwerken mitteilen und denen Sie folgen.
+Dasselbe gilt für diejenigen, die sagen, dass ich alles an meinen alten Modulen geändert habe oder die conf nicht gut war, aber nichts neu zusammengesetzt haben. Naja die conf bleibt so wie sie ist.... schade
+
+Ich denke, jeder, der ein Ticket erstellt hat, wird es bestätigen können, die Analyse ist gründlich und kommt allen zugute. Natürlich versuchen wir auch auf unserer Seite alle möglichen Module zu finden. Aber jeder von Ihnen hat ein Modul, das wir nicht haben werden, ein Modul mit Firmware, das andere nicht haben werden.
+
+Heute sind nach meiner Schätzung 75% des Pfades der Confs erledigt, aber lasst uns dort nicht aufhören, lasst uns weitermachen, Confs hinzufügen, Confs verbessern, die Experten analysieren lassen, wir haben, glaube ich, ein Plugin, das Tausende von Kilometern vom alten entfernt ist, das confs wird ihn sehr schnell einholen und leicht überholen. 
+Sie möchten, dass das Änderungsprotokoll weiterhin so aussieht wie im letzten Monat (in nur einem Monat), also lassen Sie uns gehen.
+
+FROHE FEIERTAGE AN ALLE Ich hinterlasse Ihnen das Änderungsprotokoll vom 24. Dezember und wünsche Ihnen schöne Feiertage
 
 **Konfigurationsänderungen**
 
+- Ändern der Konfiguration *Aeotec ZWA008 Türsensor* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Qubino ZMNHLAX PWM-Thermostat* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Qubino ZMNHDA2 Dimmer* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro FGR-223* Änderung der Endpunkte von *Aktualisierung*
 - Ändern der Konfiguration *Fibaro Fgrgbwm442* um die Eigenschaften zu verwenden
 - Ändern der Konfiguration *Fibaro FGD212* Benachrichtigungseigenschaften hinzugefügt
 - Ändern der Konfiguration *Qubino ZMNHBA2 Unterputz 2 Relais* um die Eigenschaften zu verwenden
@@ -19,6 +65,7 @@
 - Ändern der Konfiguration *Popp Rauchmelder* um die Eigenschaften zu verwenden
 - Ändern der Konfiguration *Duwi Edan 300* um die Eigenschaften zu verwenden
 - Bearbeiten des Bildes *Duwii Dimmer* (Ausschnitt)
+- Bearbeiten des Bildes *Aeotec ZWA008 Türsensor* (Ausschnitt)
 - Bearbeiten des Bildes *Duwii-Schalter* (Ausschnitt)
 - Bearbeiten des Bildes *Duwi Edan 300* (Ausschnitt)
 - Bearbeiten des Bildes *Duwii Jalousiesteuerung* (Ausschnitt)

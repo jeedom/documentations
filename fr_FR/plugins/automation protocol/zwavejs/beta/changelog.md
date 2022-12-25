@@ -4,10 +4,56 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# XX/12/2022
+# 24/12/2022
+
+**Message du développeur**
+
+Voici la très probable dernière mise à jour du plugin de 2022. En 1 mois à peine il y aura eu de belles évolutions. Au final très peu de bugs ce qui est positif. 
+En évolutions notables depuis la sortie stable il y un mois :
+
+- Gestion Du S2
+- Gestion des NVMS (un travail est en cours avec l'équipe ZwaveJS pour rendre les compatibilités de restauration plus large)
+- Gestion des mises à jour OTA
+- Rajout d'un moteur personnalisable de refresh de rapport Solicited (à utiliser que si nécessaire ce qui devrait arriver sur 1 module sur 200)
+- Rajout d'une gestion de paramètres en attente
+- Gestion fine de la version des dépendances
+
+Si vous lisez ce changelog vous pourrez constater un travail conséquent sur l'amélioration des confs (bien sûr il y a tellement de modules qu'il en reste).
+
+Petites explications
+
+Ce plugin est un nouveau plugin, il aurait pu sortir comme tout nouveau plugin avec 3 confs et un ajout au fur et à mesure. J'ai pris le parti d'essayer de migrer les confs OZW pour avoir un point de départ équivalent à l'arrivée de l'ancien plugin.
+Mais et j'insiste dessus ce sont deux plugins *différents*. OZW faisait de nombreuses rustines et regroupait souvent des endpoints ou même des commandes en une seule. Donc on perdait de l'info et le script de migration à du faire un choix. Aujourd'hui on a accés à la cartographie complète Zwave
+Il a été développé un onglet valeurs celui-ci représente au bas mot 15-20% du developpement du plugin, mais il permet de tout voir de tout contrôler voir même de générer des commandes.
+Pourquoi avoir migré les confs et pas avoir fait de 0. Car simplement yaurait eu 50 fois moins de confs. Et une conf migré dans 75% des cas aura une partie ou la totalité de ses commandes fonctionnelles. C'est grâce à cela que nombreux d'entre vous ont tout qui marche.
+En gros cela veut dire qu'il y a :
+- des confs revalidés et optimisés ( car oui en plus grâce à ce plugin on peut aller plus loin sur certains types de modules) pour les reconnaitre c'est simple si au survol du nom du module au dessus de son image (page équipement) il ya une sections propriétés, alors c'est une conf mis au gout du jour (visible aussi en bas a droite de la modal NOEUDS)
+- des confs migrés (elles auront pas de sections propriétés mais uniquement une section commande) ici la conf peut fonctionner parfaitement (mais généralement je les passes en propriétés pour les améliorer et pour un meilleur suivi), elles peuvent avoir quelques commandes pas bonnes, ou elles peuvent en pas être bonne.
+
+C'est là où l'onglet valeurs peut vous aider a comprendre et être autonomme. Mais dans tous les cas il faut remonter le point, si vous avez possibilité de faire un ticket faites le et avec un accés c'est idéal. Cela permet avec mon expertise de voir si on peut aller plus loin (car beaucoup de modules remontent des choses inutiles ou pas au bon endroit) et généralement j'en profite pour regarder tous les modules (qui marchent) mais pour lesquels je vois des optimisations ou ajouts à faire
+
+Si vous regardez le changelog vous verrez le nombre de confs qui peuvent être faites (effectivement ce nouveau plugin a été pensé pour pouvoir les faire plus rapidement).
+
+Ensuite ce nouveau plugin permet contrairement à l'ancien de faire la distinction entre versions de firmware, je pense ici a Fibaro qui est le spécialiste des comportements différents selon les firmwares. Dites vous que si une conf est faites avec des propriétés (alors oui une erreur peut arriver) mais c'est qu'elle a 99% de chances d'être valide. Et si votre firmware nécessite autre chose mais que ce n'est pas remonté, la conf ne pourra pas être adapté pour gérer cette spécificité.
+Et enfin il y a des modules comme le fgr223 qui est buggé (bug connu universel) qui ne remonte pas d'état sur déclenchement ZWAVE. C'est à ça que sert le moteur de refresh. Dans l'ancien plugin c'était aussi fait mais non visible et non paramétrable. Dans celui-ci c'est visible et paramétrable. Mais j'insiste ne jouez pas avec ça. Servez vous de la visibilité pour corriger si vous voyez un truc ou pour ajuster les nombres et attentes selon  votre utilsiation. En effet un volet selon ce que c'est peut facielement mettre 15 secondes chez l'un pour un cycle et 45 secondes chez un autre.
+Toute demande de support avec des pollings ou des refreshs de partout sans sens sera refusé.
+
+Et un dernier mot pour ce que je vais qualifier par "les apprentis sorciers". Se qualifier d'expert en pensant avoir trouvé une commande dans l'onglet valeurs (qui je le rappelle a été developpé par moi meme)... C'est dangereux pour vous et pour tout ceux à qui vous le dites et vous suivent sur les réseaux.
+Idem ceux qui disent j'ai tout changé sur mes vieux modules ou la conf était pas bonne mais n'ont rien remontés. Ben la conf restera tel quel.... c'est dommage
+
+Tout ceux qui ont fait un ticket je pense pourront le confirmer, l'analyse est poussée et bénéficie à tout le monde. Bien sûr nous essayons aussi de notre côté de trouver tous les modules possibles. Mais chacun d'entre vous à un module qu'on aura pas, un module avec un firmware que d'autres n'auront pas.
+
+Aujourdhui 75% du chemin des confs est faite selon mon estimation, mais ne nous arrétons pas là continuons , rajoutons des confs, améliorons des confs, laissons les experts analyser, nous avons je pense un plugin à des milliers de kms de l'ancien, les confs vont le rattraper très rapidement et le dépasserons allégrement. 
+Vous voulez que le changelog continue à ressembler à celui du mois dernier (en un seul mois à peine), alors allons y.
+
+BONNES FETES A TOUS je vous laisse avec le changelog de ce 24 Décembre et je vous souhaite de très bonnes fêtes
 
 **Modifications de Configurations**
 
+- Modification de la configuration *Aeotec ZWA008 Door Sensor* pour utiliser les propriétés
+- Modification de la configuration *Qubino ZMNHLAX PWM Thermostat* pour utiliser les propriétés
+- Modification de la configuration *Qubino ZMNHDA2 Dimmer* pour utiliser les propriétés
+- Modification de la configuration *Fibaro FGR-223* modification des endpoints des *refresh*
 - Modification de la configuration *Fibaro Fgrgbwm442* pour utiliser les propriétés
 - Modification de la configuration *Fibaro FGD212* ajout des propriétés Notification
 - Modification de la configuration *Qubino ZMNHBA2 Flush 2 Relays* pour utiliser les propriétés
@@ -19,6 +65,7 @@
 - Modification de la configuration *Popp Smoke Sensor* pour utiliser les propriétés
 - Modification de la configuration *Duwii Edan 300* pour utiliser les propriétés
 - Modification de l'image *Duwii Dimmer* (détourage)
+- Modification de l'image *Aeotec ZWA008 Door Sensor* (détourage)
 - Modification de l'image *Duwii Switch* (détourage)
 - Modification de l'image *Duwii Edan 300* (détourage)
 - Modification de l'image *Duwii Blind Control* (détourage)

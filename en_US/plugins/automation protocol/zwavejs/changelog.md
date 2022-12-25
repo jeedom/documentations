@@ -4,13 +4,42 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# XX/12/2022
+
+**Configuration Changes**
+
+- Changing the configuration *Fibaro Fgrgbwm442* to use the properties
+- Changing the configuration *Fibaro FGD212* added Notification properties
+- Changing the configuration *Qubino ZMNHBA2 Flush 2 Relays* to use the properties
+- Changing the configuration *Fibaro Walli Switch* added Notification properties
+- Changing the configuration *Dlink Dchz110* to use the properties
+- Changing the configuration *Domitech Smart Led Light* to use the properties
+- Changing the configuration *Duwii Switch* to use the properties
+- Changing the configuration *Everspring AN157* to use the properties
+- Changing the configuration *Popp Smoke Sensor* to use the properties
+- Changing the configuration *Duwii Edan 300* to use the properties
+- Editing the image *Duwii Dimmer* (clipping)
+- Editing the image *Duwii Switch* (clipping)
+- Editing the image *Duwii Edan 300* (clipping)
+- Editing the image *Duwii Blind Control* (clipping)
+- Editing the image *Duwii Remote* (clipping)
+- Editing the image *Duwii Zs3500* (clipping)
+- Editing the image *MCO Zipato p210 dimmer* (clipping)
+
+**Configuration Additions**
+
+- Adding a sub-property *Load error* in the property *Notification*
+- Adding a sub-property *Fibaro-effects2* in the property *Color*
+
+*If you are affected by a modification or addition of configuration, make a synchronization then reload the commands of the equipment by "recreating all the commands" after the update.*
+
 # 22/12/2022
 
 **Improvements**
 
-- Addition of a complete engine *refresh management*, useful for some modules that do not correctly report some changes after action. Not to be used without a valid reason. The configuration files will carry the elements if necessary
-- Adding a tab *options* on the equipment page. To view and configure Refreshes and possible future options
-- Addition of the number of *refresh* on the page *health*
+- Addition of a complete engine *Refresh management*, useful for some modules that do not correctly report some changes after action. Not to be used without a valid reason. The configuration files will carry the elements if necessary
+- Adding a tab *Options* on the equipment page. To view and configure Refreshes and possible future options
+- Addition of the number of *Refresh* on the page *Health*
 
 **Configuration Changes**
 

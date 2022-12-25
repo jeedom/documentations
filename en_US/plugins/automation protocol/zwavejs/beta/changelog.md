@@ -4,10 +4,56 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# XX/12/2022
+# 24/12/2022
+
+**Developer's post**
+
+Here is the very likely last plugin update of 2022. In barely 1 month there will have been great developments. In the end very few bugs which is positive. 
+In notable evolutions since the stable release a month ago :
+
+- S2 Management
+- NVMS management (work is in progress with the ZwaveJS team to make restoration compatibility wider)
+- OTA update management
+- Addition of a customizable Solicited report refresh engine (to be used only if necessary, which should happen on 1 module out of 200)
+- Addition of pending parameter management
+- Fine-tuned dependency version management
+
+If you read this changelog you will be able to see a lot of work on improving the confs (of course there are so many modules that there are still some).
+
+Small explanations
+
+This plugin is a new plugin, it could have come out as brand new plugin with 3 confs and added as we go. I decided to try to migrate the OZW confs to have a starting point equivalent to the arrival of the old plugin.
+But and I insist on it these are two plugins *different*. OZW did a lot of patching and often bundled endpoints or even commands into one. So we lost information and the migration script had to make a choice. Today we have access to the complete Zwave cartography
+A values tab has been developed, this represents at least 15-20% of the development of the plugin, but it allows you to see everything, control everything and even generate commands.
+Why did you migrate the confs and not do 0. Because simply there would have been 50 times fewer confs. And a migrated conf in 75% of cases will have some or all of its functional commands. It is thanks to this that many of you have everything that works.
+Basically this means that there is :
+- revalidated and optimized confs (because yes in addition thanks to this plugin we can go further on certain types of modules) to recognize them it's simple if hovering over the name of the module above its image (equipment page) there is a properties section, so it's an updated conf (also visible at the bottom right of the NODES modal)
+- migrated confs (they will have no properties section but only a command section) here the conf can work perfectly (but generally I pass them in properties to improve them and for better monitoring), they can have some bad commands, or they may not be good.
+
+This is where the values tab can help you understand and be independent. But in any case you have to go back to the point, if you have the possibility of making a ticket, do it and with access it's ideal. This allows with my expertise to see if we can go further (because many modules bring up unnecessary things or not in the right place) and generally I take the opportunity to look at all the modules (which work) but for which I see optimizations or additions to make
+
+If you look at the changelog you will see the number of confs that can be done (indeed this new plugin has been designed to be able to do them faster).
+
+Then this new plugin allows unlike the old one to distinguish between firmware versions, I am thinking here of Fibaro who is the specialist in different behaviors according to firmware. Tell yourself that if a conf is made with properties (then yes an error can happen) but it is that it has a 99% chance of being valid. And if your firmware requires something else but it is not reassembled, the conf cannot be adapted to manage this specificity.
+And finally there are modules like the fgr223 which is buggy (universal known bug) which does not report status on ZWAVE trigger. That's what the refresh engine is for. In the old plugin it was also done but not visible and not configurable. In this one it is visible and configurable. But I insist don't play with it. Use the visibility to correct if you see something or to adjust the numbers and expectations according to your use. Indeed a shutter depending on what it is can easily take 15 seconds for one for a cycle and 45 seconds for another.
+Any request for support with meaningless pollings or refreshes everywhere will be refused.
+
+And a last word for what I will qualify as "sorcerer's apprentices". Calling yourself an expert thinking you have found an order in the values tab (which I remind you was developed by myself)... It is dangerous for you and for all those to whom you tell and follow you on networks.
+Ditto those who say I changed everything on my old modules or the conf was not good but did not reassemble anything. Well the conf will remain as it is.... it's a shame
+
+Everyone who made a ticket I think will be able to confirm it, the analysis is thorough and benefits everyone. Of course we also try on our side to find all the possible modules. But each of you has a module that we won't have, a module with firmware that others won't have.
+
+Today 75% of the path of the confs is done according to my estimate, but let's not stop there let's continue, add confs, improve confs, let the experts analyze, we have I think a plugin thousands of kms from the old one, the confs will catch up with him very quickly and will easily overtake him. 
+You want the changelog to continue to look like last month's (in just one month), so let's go.
+
+HAPPY HOLIDAYS TO ALL I leave you with the changelog of this December 24th and I wish you a very happy holiday
 
 **Configuration Changes**
 
+- Changing the configuration *Aeotec ZWA008 Door Sensor* to use the properties
+- Changing the configuration *Qubino ZMNHLAX PWM Thermostat* to use the properties
+- Changing the configuration *Qubino ZMNHDA2 Dimmer* to use the properties
+- Changing the configuration *Fibaro FGR-223* modification of the endpoints of *refresh*
 - Changing the configuration *Fibaro Fgrgbwm442* to use the properties
 - Changing the configuration *Fibaro FGD212* added Notification properties
 - Changing the configuration *Qubino ZMNHBA2 Flush 2 Relays* to use the properties
@@ -19,6 +65,7 @@
 - Changing the configuration *Popp Smoke Sensor* to use the properties
 - Changing the configuration *Duwii Edan 300* to use the properties
 - Editing the image *Duwii Dimmer* (clipping)
+- Editing the image *Aeotec ZWA008 Door Sensor* (clipping)
 - Editing the image *Duwii Switch* (clipping)
 - Editing the image *Duwii Edan 300* (clipping)
 - Editing the image *Duwii Blind Control* (clipping)

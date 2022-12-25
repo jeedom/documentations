@@ -4,13 +4,42 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# XX/12/2022
+
+**Alterações de configuração**
+
+- Mudando a configuração *Fibaro Fgrgbwm442* para usar as propriedades
+- Mudando a configuração *Fibaro FGD212* propriedades de notificação adicionadas
+- Mudando a configuração *Qubino ZMNHBA2 Flush 2 relés* para usar as propriedades
+- Mudando a configuração *Interruptor Fibaro Walli* propriedades de notificação adicionadas
+- Mudando a configuração *Dlink Dchz110* para usar as propriedades
+- Mudando a configuração *Domitech luz led inteligente* para usar as propriedades
+- Mudando a configuração *Interruptor Duwii* para usar as propriedades
+- Mudando a configuração *Everspring AN157* para usar as propriedades
+- Mudando a configuração *Popp Sensor de Fumaça* para usar as propriedades
+- Mudando a configuração *Duwii Edan 300* para usar as propriedades
+- Editando a imagem *Duwii Dimmer* (recorte)
+- Editando a imagem *Interruptor Duwii* (recorte)
+- Editando a imagem *Duwii Edan 300* (recorte)
+- Editando a imagem *Controle Cego Duwii* (recorte)
+- Editando a imagem *Controle Remoto Duwii* (recorte)
+- Editando a imagem *Duwii Zs3500* (recorte)
+- Editando a imagem *Dimmer MCO Zipato p210* (recorte)
+
+**Adições de configuração**
+
+- Adicionando uma subpropriedade *Carregar erro* na propriedade *Notificação*
+- Adicionando uma subpropriedade *Fibaro-effects2* na propriedade *Cor*
+
+*Se você for afetado por uma modificação ou adição de configuração, faça uma sincronização e recarregue os comandos do equipamento "recriando todos os comandos" após a atualização.*
+
 # 22/12/2022
 
 **Melhorias**
 
-- Adição de um motor completo *gerenciamento de atualização*, útil para alguns módulos que não relatam corretamente algumas alterações após a ação. Não deve ser usado sem um motivo válido. Os arquivos de configuração levarão os elementos, se necessário
-- Adicionando uma guia *opções* na página do equipamento. Para visualizar e configurar atualizações e possíveis opções futuras
-- Adição do número de *atualizar* na página *saúde*
+- Adição de um motor completo *Gerenciamento de atualização*, útil para alguns módulos que não relatam corretamente algumas alterações após a ação. Não deve ser usado sem um motivo válido. Os arquivos de configuração levarão os elementos, se necessário
+- Adicionando uma guia *Opções* na página do equipamento. Para visualizar e configurar atualizações e possíveis opções futuras
+- Adição do número de *Atualizar* na página *Saúde*
 
 **Alterações de configuração**
 
