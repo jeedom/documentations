@@ -7,7 +7,7 @@
     },
 	"licence" : "AGPL",
 	"author" : "Jeremyarnoux",
-	"require" : "4.0",
+	"require" : "4.2",
 	"category" : "devicecommunication",
 	"hasDependency" : true,
 	"changelog" : "https://jeremyarnoux.github.io/jeedom/plugins/switchbotcloud/changelog.html",
