@@ -1,0 +1,17 @@
+{
+	"id" : "switchbotcloud",
+	"name" : "Switchbotcloud",
+    "description": {
+      "fr_FR":"Ce plugin permet de piloter les équipements Switchbot via Jeedom.",
+      "en_US":"This plugin allows you to control Switchbot equipment via Jeedom."
+    },
+	"licence" : "AGPL",
+	"author" : "Jeremyarnoux",
+	"require" : "4.0",
+	"category" : "devicecommunication",
+	"hasDependency" : true,
+	"changelog" : "https://jeremyarnoux.github.io/jeedom/plugins/switchbotcloud/changelog.html",
+	"documentation" : "https://jeremyarnoux.github.io/jeedom/plugins/switchbotcloud/index.html",
+	"language":["fr_FR","en_US"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4","atlas"]
+}
