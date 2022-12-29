@@ -1,35 +1,58 @@
 # Luna-plugin
 
-# Coming soon : Hotspot, SD (automatic backup transfer)
+# Attention concern of Luna flashing
+
+We got feedback on a flashing error of some Luna. (only the one shipped before 2023),
+We are sorry for this and we have notified our Domadoo reseller.
+
+If you manage to enter Jeedom, please launch the Luna plugin and go to : 
+  - Recovery module update
+Then do the recovery in :
+  - Recovery (Reset Factory)
+This will update your Box completely.
+
+If you do not have access to your Box, please keep pressing the box's reset button for more than 10 seconds, when you release the box, it must flash and let it finish. normally Jeedom will have to come back to do the procedure if above. for a complete update.
+
+If it doesn't blink : 
+ - Please contact them on this link, the Domadoo team will provide you with a return label and send you a correctly flashed Luna :
+https://www.domadoo.fr/rma
+
+# Coming soon : Hotspot
 
 > The luna plugin allows you to connect from your luna to a Wifi network (with or without a password).
 
-To do this, go to the luna plugin, then select Luna equipment.
-Here you can activate and then select the wifi you want (2.4Ghz and 5Ghz), then type the password and save.
+To do this, go to the luna plugin, then select the Luna equipment. Here you can activate and then select the wifi you want (2.4Ghz and 5Ghz), then type the password and save.
 
 For the moment, the plugin only takes into account access with DHCP.
 
 > Recovery module update
 
-The update allows you to put the last image in place on the Luna, it will use this image during a recovery (reset button on the box or recovery button on the plugin)
-Cliquez sur le bouton recovery, La luna telechargera la derniere version de son image et reboutera, les led verte dessus celle-ci vont clignotées une fois fixe vous pourrez y acceder de nouveau via sont adresse ip ou via http://jeedomluna.local, the recovery software will be up to date.
+The update brings the latest image into place on the Luna; it will use this image during a recovery (reset button on the box or recovery button on the plugin).
+Click on the recovery button; the Luna will download the latest version of its image and restart, the green LEDs on the Luna box will flash. 
+Une fois ces dernières fixes, vous pourrez y accéder de nouveau via son adresse IP ou via http://jeedomluna.local; the recovery software will be up to date.
 
 > Recovery (Reset Factory)
 
-During a factory reset the box is restored to factory configuration according to the updated image via the button given above. ATTENTION you must make a backup of your box before this operation because you will lose everything during this phase. (except backup on SD).
+During a factory reset the box is restored to factory configuration according to the updated image via the button given above. WARNING : you must make a backup of your box before this operation because you will lose everything during this phase. (except backup on SD).
 
 > LED
 
-You can via the select type command change the color and animation of the led (maybe off).
+You can via the select type command change the color and animation of the led (can be turned off).
 
 > Batterie
 
-You can via two feedback with the battery percentage as well as the type of power supply of your box. (charging, decharging etc...).
+You can via two feedbacks have the battery percentage as well as the type of power supply of your box. (charging, decharging, Full etc…).
+
+> SD
+
+Allows the management (formatting) of the micro-SD card that you can add to the box, as well as the transfer to this SD card of Jeedom backups.
+
+> Power and Reset buttons
+
+- Reset : less than 1 seconds reboot force box.
+- Reset : more than 10 seconds Reset Factory of the box.
+- Food : more than 10 seconds shutdown of the fox force with shutdown of the battery (you must have removed the power supply to do so)
 
 > Hotspot (ALPHA))
 
-in the Wifi part of the plugin you can check the Hotspot box which will allow you to create a wifi access point on your Box luna. (DNS and IP forwarding (bridge between ethernet and wifi) functional on it).
-
-> SD (ALPHA)
-
-Allows the management (formatting) of the micro-SD card that you can add to the box. as well as the transfer to this SD card of Jeedom backups.
+In the Wifi part of the plugin you can check the Hotspot box which will allow you to create a wifi access point on your Box luna. (DNS and IP forwarding (bridge between ethernet and wifi) functional on it).

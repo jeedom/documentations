@@ -1,12 +1,16 @@
 # Registro de cambios Luna
 
-# Registro de cambios Luna
-
 # Complemento luna registro de cambios
 
 >**IMPORTANTE**
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
+
+# 19/11/2022
+
+- SD (gestión)
+- Fix Luna Battery (gestión del apagado de Linux, así como la batería en el sistema)).
+- Correcciones ortográficas (gracias FuraxWorld)
 
 # 11/03/2022
 

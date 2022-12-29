@@ -1,5 +1,22 @@
 # Luna-Plugin
 
+# Aufmerksamkeitssorge von Luna blinkt
+
+Wir haben Feedback zu einem Blinkfehler einiger Luna erhalten. (nur der, der vor 2023 ausgeliefert wurde),
+Wir bedauern dies und haben unseren Domadoo-Händler benachrichtigt.
+
+Wenn Sie es schaffen, Jeedom zu betreten, starten Sie bitte das Luna-Plugin und gehen Sie zu : 
+  - Aktualisierung des Wiederherstellungsmoduls
+Führen Sie dann die Wiederherstellung durch :
+  - Wiederherstellung (Reset Factory)
+Dadurch wird Ihre Box vollständig aktualisiert.
+
+Wenn Sie keinen Zugriff auf Ihre Box haben, halten Sie bitte die Reset-Taste der Box länger als 10 Sekunden gedrückt. Wenn Sie die Box loslassen, muss sie blinken und beenden. Normalerweise muss Jeedom zurückkommen, um das oben beschriebene Verfahren durchzuführen. für ein komplettes Update.
+
+Wenn es nicht blinkt : 
+ - Bitte kontaktieren Sie sie über diesen Link, das Domadoo-Team stellt Ihnen ein Rücksendeetikett zur Verfügung und sendet Ihnen eine korrekt geflashte Luna zu :
+https://www.domadoo.fr/rma
+
 # Demnächst : Hotspot
 
 > Mit dem Luna-Plugin können Sie sich von Ihrem Luna aus mit einem WLAN-Netzwerk verbinden (mit oder ohne Passwort).
@@ -29,6 +46,12 @@ Sie können über zwei Rückmeldungen den Batterieprozentsatz sowie die Art der 
 > SD
 
 Ermöglicht die Verwaltung (Formatierung) der Micro-SD-Karte, die Sie der Box hinzufügen können, sowie die Übertragung von Jeedom-Backups auf diese SD-Karte.
+
+> Power- und Reset-Tasten
+
+- Zurücksetzen : weniger als 1 sekunde reboot force box.
+- Zurücksetzen : mehr als 10 Sekunden Reset Factory der Box.
+- Essen : mehr als 10 Sekunden Shutdown des Fox Force mit Shutdown des Akkus (dazu müssen Sie das Netzteil entfernt haben)
 
 > Hotspot (ALPHA))
 

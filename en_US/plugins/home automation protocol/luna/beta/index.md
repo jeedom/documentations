@@ -1,5 +1,22 @@
 # Luna-plugin
 
+# Attention concern of Luna flashing
+
+We got feedback on a flashing error of some Luna. (only the one shipped before 2023),
+We are sorry for this and we have notified our Domadoo reseller.
+
+If you manage to enter Jeedom, please launch the Luna plugin and go to : 
+  - Recovery module update
+Then do the recovery in :
+  - Recovery (Reset Factory)
+This will update your Box completely.
+
+If you do not have access to your Box, please keep pressing the box's reset button for more than 10 seconds, when you release the box, it must flash and let it finish. normally Jeedom will have to come back to do the procedure if above. for a complete update.
+
+If it doesn't blink : 
+ - Please contact them on this link, the Domadoo team will provide you with a return label and send you a correctly flashed Luna :
+https://www.domadoo.fr/rma
+
 # Coming soon : Hotspot
 
 > The luna plugin allows you to connect from your luna to a Wifi network (with or without a password).
@@ -29,6 +46,12 @@ You can via two feedbacks have the battery percentage as well as the type of pow
 > SD
 
 Allows the management (formatting) of the micro-SD card that you can add to the box, as well as the transfer to this SD card of Jeedom backups.
+
+> Power and Reset buttons
+
+- Reset : less than 1 seconds reboot force box.
+- Reset : more than 10 seconds Reset Factory of the box.
+- Food : more than 10 seconds shutdown of the fox force with shutdown of the battery (you must have removed the power supply to do so)
 
 > Hotspot (ALPHA))
 

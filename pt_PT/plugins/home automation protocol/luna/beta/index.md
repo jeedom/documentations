@@ -1,5 +1,22 @@
 # Luna-plugin
 
+# Atenção preocupação de Luna piscando
+
+Recebemos feedback sobre um erro intermitente de alguns Luna. (apenas o enviado antes de 2023),
+Lamentamos o ocorrido e notificamos nosso revendedor Domadoo.
+
+Se você conseguir entrar no Jeedom, por favor, inicie o plugin Luna e vá para : 
+  - Atualização do módulo de recuperação
+Então faça a recuperação em :
+  - Recuperação (Redefinir Fábrica)
+Isso atualizará sua caixa completamente.
+
+Se você não tiver acesso à sua Caixa, por favor, continue pressionando o botão de reinicialização da caixa por mais de 10 segundos, ao soltar a caixa, ela deve piscar e deixá-la terminar. normalmente Jeedom terá que voltar para fazer o procedimento se estiver acima. para uma atualização completa.
+
+Se não piscar : 
+ - Entre em contato com eles neste link, a equipe Domadoo fornecerá a você uma etiqueta de devolução e enviará um Luna corretamente exibido :
+https://www.domadoo.fr/rma
+
 # Em breve : Hotspot
 
 > O plugin luna permite-te ligar da tua luna a uma rede Wifi (com ou sem palavra-passe).
@@ -29,6 +46,12 @@ Você pode através de dois feedbacks ter a porcentagem de bateria, bem como o t
 > SD
 
 Permite a gestão (formatação) do cartão micro-SD que pode adicionar à caixa, bem como a transferência para este cartão SD dos backups Jeedom.
+
+> Botões Power e Reset
+
+- Redefinir : menos de 1 segundo caixa de força de reinicialização.
+- Redefinir : mais de 10 segundos Reset Fábrica da caixa.
+- Comida : mais de 10 segundos desligamento do fox force com desligamento da bateria (você deve ter removido a fonte de alimentação para fazer isso)
 
 > Ponto de acesso (ALFA))
 

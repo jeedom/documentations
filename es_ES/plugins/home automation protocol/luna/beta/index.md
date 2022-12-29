@@ -1,5 +1,22 @@
 # Luna-complemento
 
+# Preocupación de atención de Luna intermitente
+
+Recibimos comentarios sobre un error de flasheo de algunos Luna. (solo el enviado antes de 2023),
+Lo sentimos y le hemos notificado a nuestro revendedor de Domadoo.
+
+Si logra ingresar a Jeedom, inicie el complemento Luna y vaya a : 
+  - Actualización del módulo de recuperación
+Luego haz la recuperación en :
+  - Recuperación (restablecimiento de fábrica)
+Esto actualizará su Box completamente.
+
+Si no tiene acceso a su Box, por favor mantenga presionado el botón de reinicio de la caja por más de 10 segundos, cuando suelte la caja, debe parpadear y dejar que termine. normalmente Jeedom tendrá que volver para hacer el procedimiento si está arriba. para una actualización completa.
+
+Si no parpadea : 
+ - Póngase en contacto con ellos en este enlace, el equipo de Domadoo le proporcionará una etiqueta de devolución y le enviará un Luna correctamente flasheado :
+https://www.domadoo.fr/rma
+
 # Próximamente, en breve, pronto : Hotspot
 
 > El complemento luna le permite conectarse desde su luna a una red Wifi (con o sin contraseña).
@@ -29,6 +46,12 @@ Puede a través de dos comentarios tener el porcentaje de batería y el tipo de 
 > SD
 
 Permite la gestión (formateo) de la tarjeta micro-SD que puede agregar a la caja, así como la transferencia a esta tarjeta SD de las copias de seguridad de Jeedom.
+
+> Botones de encendido y reinicio
+
+- Reiniciar : Menos de 1 segundo reiniciar la caja de fuerza.
+- Reiniciar : más de 10 segundos Reset Factory de la caja.
+- Comida : más de 10 segundos apagado del fox force con apagado de la batería (debe haber quitado la fuente de alimentación para hacerlo)
 
 > Punto de acceso (ALFA))
 
