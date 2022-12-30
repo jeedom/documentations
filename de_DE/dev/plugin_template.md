@@ -632,7 +632,7 @@ public function toHtml($_version = 'dashboard') {
         $replace['#visibilityIcon#'] = "block";;
         $replace['#visibilityImage#'] = "none";;
     }
-    $html = template_replace($replace, getTemplate('core', $version, 'current', 'weather'));;
+    $HTML = template_replace($replace, getTemplate('core', $version, 'current', 'weather'));;
     cache::set('widgetHtml' . $_version . $this->getId(), $html, 0);;
     return $html;;
 }
@@ -646,7 +646,7 @@ Um die angeforderte Version in ein Dashboard oder ein Mobilgerät zu konvertiere
 $_version = jeedom::versionAlias($_version);;
 ````
 
-Récupération d'un template de commande, hier le template de commande : plugins/.weather/.core/.template/.\$\_version/.forecast.html (\$\_version valant mobile ou dashboard)
+Récupération d'un template de commande, hier le template de commande : plugins/.weather/.core/.template/.\$\_version/.forecast.HTML (\$\_version valant mobile ou dashboard)
 
 ````php
 $forcast_template = getTemplate('core', $_version, 'forecast', 'weather');;
@@ -687,7 +687,7 @@ Speichern des Widgets im Cache: Damit wir es bei der nächsten Anfrage schneller
 cache::set ('weatherWidget' . $_version . $this->getId(), $html, 0);;
 ````
 
-Enfin envoi du html à Jeedom :
+Enfin envoi du HTML à Jeedom :
 
 ````php
 return $html;;

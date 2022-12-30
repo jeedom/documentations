@@ -162,7 +162,7 @@ Rahmen *data-coreSupport* bis 0 :
         $('.eqLogicDisplayCard').addClass('displayAsTable')
         $('.eqLogicDisplayCard .hiddenAsCard').removeClass('hidden')
         $('.eqLogicThumbnailContainer').first().addClass('containerAsTable')
-      } anders {
+      } sonst {
         $(this).data('state', '0').removeClass('active')
         setCookie ('jeedom_displayAsTable', 'false', 2)
         $('.eqLogicDisplayCard').removeClass('displayAsTable')
@@ -203,7 +203,7 @@ Rahmen *data-coreSupport* bis 0 :
         $('.eqLogicDisplayCard').addClass('displayAsTable')
         $('.eqLogicDisplayCard .hiddenAsCard').removeClass('hidden')
         $('.eqLogicThumbnailContainer').first().addClass('containerAsTable')
-      } anders {
+      } sonst {
         $(this).data('state', '0').removeClass('active')
         setCookie ('jeedom_displayAsTable', 'false', 2)
         $('.eqLogicDisplayCard').removeClass('displayAsTable')
@@ -306,7 +306,7 @@ Sie können die Existenz der Bibliothek so testen :
 `` ``js
 if (Typ von noUiSlider !== 'undefined') {
   console.log ('noUiSlider-Code hier')
-} anders {
+} sonst {
   console.log ('alter Code hier')
 }
 `` ``
