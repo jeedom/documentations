@@ -42,10 +42,10 @@ Sie können anhand eines Szenario- / Codeblocks testen, ob Ihre Plugins die ange
   if ($ countPlugins> 0) {
     if ($ countIncompatible> 0) {
       $scenario->setLog($author . ' : ' . $countIncompatibles . ' potentially incompatible Jeedom V4 plugin on ' . $countPlugins . ' checked');
-    } sonst {
+    } anders {
       $scenario->setLog('All ' . $countPlugins . ' plugin developed by ' . $author . ' are Jeedom V4 compatible. Congratulations!');
     }
-  } sonst {
+  } anders {
     $scenario->setLog('No plugin found for ' . $author);
   }
   {% endraw %}

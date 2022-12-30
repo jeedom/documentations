@@ -317,7 +317,7 @@ Sie können den unten stehenden Code kopieren / einfügen und den Code am Ende d
         if (file_exists ($ pid_file)) {
             if (@posix_getsid (trim (file_get_contents ($ pid_file)))) {
                 $return['state'] = 'ok';
-            } sonst {
+            } anders {
                 shell_exec (system::getCmdSudo() . 'rm -rf ' . $pid_file . ' 2> & 1> / dev / null ');
             }
         }
@@ -485,7 +485,7 @@ Versuchen {
         // etwas tun
     } elseif (isset ($ result ['key2'])) {
         // mach etwas anderes
-    } sonst {
+    } anders {
         log::add ('template', 'error', 'unbekannte Nachricht vom Daemon empfangen'); // Template durch die ID deines Plugins ersetzen
     }
 } catch (Ausnahme $ e) {
@@ -527,7 +527,7 @@ Dann liegt es an dir, die Tabelle zu lesen und die Aktionen in deinem Plugin ent
         // etwas tun
     } elseif (isset ($ result ['key2'])) {
         // mach etwas anderes
-    } sonst {
+    } anders {
         log::add ('template', 'error', 'unbekannte Nachricht vom Daemon empfangen'); // Template durch die ID deines Plugins ersetzen
     }
 `` ``
@@ -673,12 +673,12 @@ Hier ist ein Beispiel, von dem Sie die Mehrheit verwenden können:
         $return['progress_file'] = jeedom::getTmpFolder (__ KLASSE__) . '/dependency';
         if (file_exists (jeedom::getTmpFolder (__ KLASSE__) . '/dependency')) {
             $return['state'] = 'in_progress';
-        } sonst {
+        } anders {
             if (exec (system::getCmdSudo() . system::erhalten ('cmd_check') . '-Ec "python3 \ -anfragen|python3 \ -wollüstig|python3 \ -bs4 "') <3) {// Passen Sie die Liste der Pakete und die Gesamtmenge an
                 $return['state'] = 'nok';
             } elseif (exec (system::getCmdSudo() . 'pip3-Liste | grep -Ewc "aiohttp" ') <1) {// Passen Sie die Liste der Pakete und die Gesamtmenge an
                 $return['state'] = 'nok';
-            } sonst {
+            } anders {
                 $return['state'] = 'ok';
             }
         }

@@ -111,7 +111,7 @@ The core automatically deletes files older than 7 days that have not been update
 - Files whose name starts with `custom` are also not affected.
 
 If you want to make a modification before cleaning you can use `pre_install.php` (in plugin_info).
-View [Plugin template](https://github.com/jeedom/plugin-template/blob/master/plugin_info/pre_install.php)
+See [Plugin template](https://github.com/jeedom/plugin-template/blob/master/plugin_info/pre_install.php)
 
 ### GitHub link market
 

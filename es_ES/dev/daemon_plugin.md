@@ -310,14 +310,14 @@ Puede copiar / pegar el código a continuación tal como está y adaptar el cód
 
 `` ``php
     función estática pública deamon_info() {
-        $regreso = array();
+        $devolver = array();
         $return['log'] = __CLASS__;
         $return['state'] = 'nok';
         $pid_file = jeedom::getTmpFolder (__ CLASE__) . '/deamon.pid';
         si (archivo_existe ($ archivo_pid)) {
             if (@posix_getsid (trim (file_get_contents ($ pid_file)))) {
                 $return['state'] = 'ok';
-            } demás {
+            } más {
                 shell_exec (sistema::getCmdSudo() . 'rm -rf ' . $pid_file . ' 2> & 1> / dev / null ');
             }
         }
@@ -485,7 +485,7 @@ intentar {
         // hacer algo
     } elseif (isset ($ resultado ['clave2'])) {
         // hacer algo más
-    } demás {
+    } más {
         log::add ('plantilla', 'error', 'mensaje desconocido recibido del demonio'); // reemplaza la plantilla con la identificación de tu complemento
     }
 } catch (Excepción $ e) {
@@ -527,7 +527,7 @@ Entonces depende de usted leer la tabla y realizar las acciones en su complement
         // hacer algo
     } elseif (isset ($ resultado ['clave2'])) {
         // hacer algo más
-    } demás {
+    } más {
         log::add ('plantilla', 'error', 'mensaje desconocido recibido del demonio'); // reemplaza la plantilla con la identificación de tu complemento
     }
 `` ``
@@ -668,17 +668,17 @@ A continuación, se muestra un ejemplo del cual puede utilizar la mayoría:
 
 `` ``php
     función estática pública dependancy_info() {
-        $regreso = array();
+        $devolver = array();
         $return['log'] = log::getPathToLog(__CLASS__ . '_update');
         $return['progress_file'] = jeedom::getTmpFolder (__ CLASE__) . '/dependency';
         si (file_exists (jeedom::getTmpFolder (__ CLASE__) . '/dependency')) {
             $return['state'] = 'in_progress';
-        } demás {
+        } más {
             si (exec (sistema::getCmdSudo() . system::obtener ('cmd_check') . '-Ec "python3 \ -requests|python3 \ -voluptuoso|python3 \ -bs4 "') <3) {// adaptar la lista de paquetes y el total
                 $return['state'] = 'nok';
             } elseif (exec (sistema::getCmdSudo() . 'lista pip3 | grep -Ewc "aiohttp" ') <1) {// adaptar la lista de paquetes y el total
                 $return['state'] = 'nok';
-            } demás {
+            } más {
                 $return['state'] = 'ok';
             }
         }

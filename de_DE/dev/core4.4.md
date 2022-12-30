@@ -1,5 +1,96 @@
 ## Kern v4.4 | Plugin-Entwickler
 
+### Eines Tages jQuery ...
+
+jQuery ist ein Framework, das in Webschnittstellen immer noch weit verbreitet ist, und Jeedom verlässt sich historisch stark darauf. Trotz allem machen es html5 und neuere Browser zunehmend möglich, darauf zu verzichten. Das Interesse für Jeedom ist vor allem die Leistung, und es kommt nicht in Frage, jQuery und seine Plugins (jQuery UI, Kontextmenü, Modals, Autocomplete, Tablesorter usw.) zu entfernen.).
+
+Aber man muss darüber nachdenken und eines Tages damit anfangen !
+
+Kern 4.4 integriert daher die Basisfunktionen setValues() und getValues(), die nun auch auf der prototypisiert sind **Knotenliste** und **Element**, comme elles le sont sur $.fn historisch. Einige Funktionen wurden ebenfalls implementiert, wie last(), triggerEvent(), isHidden(), empty(), addClass(), removeClass(), toggleClass(), hasClass(). Das Ziel ist natürlich nicht, eine jQuery zu wiederholen, sondern bei Bedarf funktionale Verknüpfungen anzubieten.
+
+Für einen einfacheren Umstieg und eine bessere Wartung sorgen die neuen Funktionen **getValues()** und **setValues()** auf dem DOM sind jetzt **setJeeValues()** und **getJeeValues()**.
+
+Außerdem alle Anrufe **Ajax**, sync oder async, durchlaufen Sie reine js-Funktionen, die intern für den Core entwickelt wurden. *load()* und *html()* werden daher von allen Klassen-js und von der Funktion jeedomUtils.loadPage verwendet(). Dies ermöglicht es Ihnen, alles zu kontrollieren, was ohne eine Abstraktionsschicht passiert, und hat es unter anderem ermöglicht, alle js-Skripte und CSS-Stylesheets, die von Drittanbietern (Core und Plugins) stammen, zu filtern, um sie in das Dokument zu laden.Kopf und laden Sie sie danach nicht neu !
+
+Die Geschäftsführung von *Veranstaltungen* wird auch nach und nach auf reines js umstellen. Die Seiten **Synthese** **Armaturenbrett** **Design** und **Skript** sind bereits in vollem js mit Ereignisdelegierung.
+
+Es ist ein riesiges Projekt, sowohl beim Umschreiben des Bestehenden als auch beim Erstellen interner Bibliotheken, um die Anforderungen des Front-Ends ohne jQuery zu erfüllen. Außerdem wird es notwendig sein, jQuery und seine Plugins/Libs für Plugins noch eine Weile aufzubewahren. Aber der Weg ist genommen!
+
+Einige Beispiele:
+
+<details>
+
+  <summary markdown="span">jQuery to pure js()</summary>
+
+  ~~~ js
+  {% raw %}
+  //jQuery:
+  $('#table_objectSummary tbody').append(tr)
+  $('#table_objectSummary tbody tr').last().setValues(_summary, '.objectSummaryAttr')
+
+  //reines js:
+  document.querySelector('#table_objectSummary tbody').insertAdjacentHTML('beforeend', tr)
+  document.querySelectorAll('#table_objectSummary tbody tr').last().setJeeValues(_summary, '.objectSummaryAttr')
+
+  //jQuery:
+  var eqId = $('.eqLogicAttr[data-l1key=id]').value()
+  var config = $('#config').getValues('.configKey')[0]
+  var expression = $(this).closest('.actionOnMessage').getValues('.expressionAttr')
+
+  //reines js:
+  var eqId = document.querySelector('.eqLogicAttr[data-l1key="id"]').jeeValue()
+  var config = document.getElementById('config').getJeeValues('.configKey')[0]
+  var expression = this.closest('.actionOnMessage').getJeeValues('.expressionAttr')
+
+  //jQuery:
+  addMyTr: funktion(_daten) {
+    var tr = ' <tr>'
+    tr += ' <td>'
+    tr += ' </td>'
+    tr += ' </tr>'
+    let newRow = $(tr)
+    newRow.setValues(data, '.mytrDataAttr')
+    $('#table_stuff tbody').append(newRow)
+    //neueReihe zurückgeben
+  }
+
+  //reines js:
+  addMyTr: funktion(_daten) {
+    var tr = ' <tr>'
+    tr += ' <td>'
+    tr += ' </td>'
+    tr += ' </tr>'
+    let newRow = document.createElement('tr')
+    newRow.innerHTML = tr
+    newRow.setJeeValues(_data, '.mytrDataAttr')
+    document.getElementById('table_stuff').querySelector('tbody').appendChild(newRow)
+    //neueReihe zurückgeben
+  }
+
+  //jQuery:
+  $(function(){
+    console.log('Dom bereit!')
+  })
+
+  // Corejs:
+  domUtils(Funktion(){
+    console.log('Dom bereit!')
+  })
+
+  {% endraw %}
+  ~~~
+
+</details>
+
+Die Plugin-Template-Datei.js und die meisten Core-Seiten verwenden diese Funktionen jetzt. Sie können sie natürlich in Plugins verwenden, aber diese müssen dann auf einem Core 4 installiert werden.4 oder mehr.
+
+Core-spezifische DOM-Funktionen:
+
+[domUtils {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
+[domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+
+
+
 ### Obsolete
 
 - PHP-Funktion
@@ -11,9 +102,15 @@
 
 `displayPlan()` -> `jeeFrontEnd.plan.displayPlan()`
 
+- jQuery-Toast / Tooltipster
+
+Die lib *Toasten* wurde aus Core entfernt. Es wurde über jeedomUtils-Funktionen verwendet.showAlert() und hideAlert() und wurde durch die interne Kernfunktion jeeDialog.toast ersetzt().
+
+Die von jQuery abhängige Tooltipster-Bibliothek wurde ebenfalls durch die Tippy js-Bibliothek ersetzt. Die Verwendung von jeedomUtils.initTooltips() durch Plugins ändert sich nicht.
+
 ### Deprecated
 
-*Diese Funktionen geben eine Fehlermeldung zurück, funktionieren aber trotzdem.*
+*Diese Funktionen geben eine Fehlermeldung zurück, funktionieren aber trotzdem:*
 
 - PHP-Funktionen:
 
@@ -48,7 +145,71 @@
 
 > **Anmerkung**
 >
-> Diese Änderungen können dazu führen, dass die mindestens erforderliche Jeedom-Version vieler Plugins gemountet werden muss. Es ist das *Veraltet* Zeigen Sie keinen Kern im V4-Stable-Zweig an, sondern lassen Sie Entwickler sehen, was sie beheben können.
+> Diese Änderungen können dazu führen, dass die mindestens erforderliche Jeedom-Version vieler Plugins gemountet werden muss. Deshalb die *Veraltet* nicht auf einem V4-Stable Branch Core erscheinen, sondern Entwicklern ermöglichen, zu sehen, was sie beheben können.
+
+- jQuery-Autovervollständigung
+
+Die jQuery-abhängige Autocomplete-Bibliothek wird in einer zukünftigen Core-Version entfernt. Sie wird durch die Core-interne Funktion ersetzt **input.jeeComplete()**. Dies unterstützt die meisten der vorherigen Optionen (Quelle auf Ajax usw.), korrigiert jedoch mehrere Fehler, bringt neue Verhaltensweisen (Pfeil nach oben und unten, um einen Vorschlag auszuwählen usw.) und ermöglicht die Verwendung eines einzigen Containers für mehrere Eingaben, wodurch die Auswirkungen auf enorm reduziert werden des DOM, insbesondere zu den Szenarien.
+
+<details>
+
+  <summary markdown="span">jeeComplete()</summary>
+
+  ~~~ js
+  {% raw %}
+  //jQuery:
+  $('input.auto').autocomplete({
+    minLength: 1,
+    source: dataArray
+  })
+
+  // Corejs:
+  document.querySelector('input.auto').jeeComplete({
+    minLength: 1,
+    source: dataArray
+  })
+  {% endraw %}
+  ~~~
+
+</details>
+
+Sehen [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+
+- jQuery-Bootbox
+
+Die von jQuery abhängige Bootbox-Bibliothek wird in einer zukünftigen Core-Version entfernt. jeeDialog() ersetzt diese Funktionen durch jeeDialog.alert(), jeeDialog.bestätigen(), jeeDialog.prompt().
+
+<details>
+
+  <summary markdown="span">exemples jeeDialog()</summary>
+
+  ~~~ js
+  {% raw %}
+  wenn (Bedingung) {
+    jeeDialog.alert('Das ist falsch, Alter!')
+    return
+  }
+
+  jeeDialog.prompt('Neuen Namen eingeben:', Funktion (Ergebnis) {
+    wenn (Ergebnis !== null) {
+      //Sachen machen
+    }
+  })
+
+  jeeDialog.confirm('Wollen Sie das wirklich löschen?', Funktion (Ergebnis) {
+    wenn (Ergebnis) {
+      //Sachen machen
+    } anders {
+      // Mach andere Sachen
+    }
+  })
+
+  {% endraw %}
+  ~~~
+
+</details>
+
+Sehen [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 ### Optionale Änderungen
 
@@ -72,84 +233,3 @@ var checkContextMenuCallback = function(_el) {
 jeedomUtils.setCheckContextMenu(checkContextMenuCallback)
 ````
 
-### Un jour, jQuery ...
-
-jQuery est un framework toujours très utilisé en interface web, und Jeedom s'appuie historiquement énormément dessus. Malgré tout, le html5 und les navigateurs récents permettent de plus en plus de s'en passer. L'intérêt pour Jeedom est avant tout la performance, und il n'est pas encore question de supprimer jQuery und ses plugins (jQuery UI, contextmenu, les modales, autocomplete, tablesorter, etc.).
-
-Mais il faut y penser, und commencer un jour !
-
-Le Core 4.4 intègre donc les fonctions de bases que sont setValues() und getValues(), qui sont maintenant également prototypées sur les **NodeList** und **Element**, comme elles le sont sur $.fn historiquement. Quelques fonctions ont également été implémentées comme last(), triggerEvent(), isHidden(), empty(), addClass(),  removeClass(), toggleClass(), hasClass(). Le but n'est pas de refaire un jQuery bien sûr, mais proposer des raccourcis fonctionnels quand c'est nécessaire.
-
-Pour une transition plus facile und une meilleure maintenance, les nouvelles fonctions getValues() und setValues() sur le DOM sont setJeeValues() und getJeeValues().
-
-De plus, tous les appels Ajax, sync ou async, passent par des fonctions pur js développées en interne pour le Core. *load()* und *html()* sont donc utilisés par toutes les class js und par la fonction jeedomUtils.loadPage(). Cela permund de maitriser tout ce qu'il se passe sans couche d'abstraction, und a notemment permis de filtrer tous les scripts js und stylesheets css venant de 3rdparty (core und plugins) pour les charger dans le document.head und ne pas les recharger ensuite !
-
-Quelques exemples:
-
-<details>
-
-  <summary markdown="span">jQuery to pure js()</summary>
-
-  ~~~ js
-  {% raw %}
-  //jQuery:
-  $('#table_objectSummary tbody').append(tr)
-  $('#table_objectSummary tbody tr').last().setValues(_summary, '.objectSummaryAttr')
-
-  //Pure js:
-  document.querySelector('#table_objectSummary tbody').insertAdjacentHTML('beforeend', tr)
-  document.querySelectorAll('#table_objectSummary tbody tr').last().setJeeValues(_summary, '.objectSummaryAttr')
-
-  //jQuery:
-  var eqId = $('.eqLogicAttr[data-l1key=id]').value()
-  var config = $('#config').getValues('.configKey')[0]
-  var expression = $(this).closest('.actionOnMessage').getValues('.expressionAttr')
-
-  //Pure js:
-  var eqId = document.querySelector('.eqLogicAttr[data-l1key="id"]').jeeValue()
-  var config = document.getElementById('config').getJeeValues('.configKey')[0]
-  var expression = this.closest('.actionOnMessage').getJeeValues('.expressionAttr')
-
-  //jQuery:
-  addMyTr: function(_data) {
-    var tr = '<tr>'
-    tr += '<td>'
-    tr += '</td>'
-    tr += '</tr>'
-    lund newRow = $(tr)
-    newRow.setValues(data, '.mytrDataAttr')
-    $('#table_stuff tbody').append(newRow)
-    //return newRow
-  }
-
-  //Pure js:
-  addMyTr: function(_data) {
-    var tr = '<tr>'
-    tr += '<td>'
-    tr += '</td>'
-    tr += '</tr>'
-    lund newRow = document.createElement('tr')
-    newRow.innerHTML = tr
-    newRow.setJeeValues(_data, '.mytrDataAttr')
-    document.getElementById('table_stuff').querySelector('tbody').appendChild(newRow)
-    //return newRow
-  }
-
-  //jQuery:
-  $(function(){
-    console.log('Dom ready!')
-  })
-
-  //Core js:
-  domUtils(function(){
-    console.log('Dom ready!')
-  })
-
-  {% endraw %}
-  ~~~
-
-</details>
-
-Le fichier plugin-template.js und plusieurs pages du Core utilisent maintenant ces fonctions. Vous pouvez bien sûr les utiliser dans les plugins, mais celui-ci devra alors être installé sur un Core 4.4 minimum.
-
-fonctions DOM propres au Core -> [domUtils {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
