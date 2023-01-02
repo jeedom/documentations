@@ -1,14 +1,14 @@
 {
-  "id" : "spotify",
+  "id" : "spotify", 
   "name": "Spotify",
   "description" : "Plugin pour le pilotage spotify connect",
   "licence": "GPL",
   "author": "sbarre35",
-  "require": "3.3.31",
+  "require": "4.2.0",
   "category": "multimedia",
   "hasDependency": true,
   "hasOwnDeamon": true,
   "maxDependancyInstallTime": 60,
-  "changelog" : "https://barre35.github.io/jeedom-plugin-spotify/#language#/changelog",
-  "documentation" : "https://barre35.github.io/jeedom-plugin-spotify/#language#/index"
+  "changelog": "https:\/\/barre35.github.io\/jeedom-plugin-doc\/fr_FR\/spotify_changelog",
+  "documentation": "https:\/\/barre35.github.io\/jeedom-plugin-doc\/fr_FR\/spotify_documentation"
 }

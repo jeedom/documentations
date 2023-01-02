@@ -671,6 +671,7 @@
         " Market*": " Markt*"
     },
     "plugins_contributor\/multimedia\/index.md": {
+        "Plugin pour le pilotage spotify connect": "Plugin zur Steuerung von Spotify Connect",
         "Alexa - Spotify": "Alexa-Spotify",
         "Interface Spotify": "Spotify-Schnittstelle",
         "Alexa - Fire TV": "Alexa-Fire-TV",
@@ -687,6 +688,13 @@
         "tous les plugins officiels de cette catégorie": "Alle offiziellen Plugins in dieser Kategorie",
         "Documentation Stable": "Dokumentation Stall",
         "Changelog Stable": "Änderungsprotokoll stabil",
+        " Spotify.": " Spotify.",
+        " Spotify?": " Spotify?",
+        "Spotify ": "Spotify ",
+        " Spotify]": " Spotify]",
+        "[Spotify]": "[Spotify]",
+        "*Spotify*": "*Spotify*",
+        " Spotify*": " Spotify*",
         " IMPORTANT.": " Wichtig.",
         " IMPORTANT?": " Wichtig?",
         "IMPORTANT ": "Wichtig ",
