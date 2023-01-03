@@ -1,5 +1,7 @@
 {
     "plugins_contributor\/automation protocol\/index.md": {
+        "Niren TcpKpI8O8": "Niren TcpKpI8O8",
+        "Plugin tcpkp pour la gestion des cartes entrees sorties Niren tcpkp": "Tcpkp plugin for managing Niren tcpkp I\/O cards",
         "Modbus TCP Server": "Modbus TCP Server",
         "Plugin transformant votre Jeedom en seveur modbus TCP": "Plugin transforming your Jeedom into a modbus TCP server",
         "Modbus2MQTT": "Modbus2MQTT",

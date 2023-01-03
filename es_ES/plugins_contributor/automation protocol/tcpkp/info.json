@@ -1,0 +1,18 @@
+{
+	"id" : "tcpkp",
+	"name" : "Niren TcpKpI8O8",
+	"description" : "Plugin tcpkp pour la gestion des cartes entrees sorties Niren tcpkp",
+	"licence" : "AGPL",
+	"author" : "LEILLIATRE",
+	"require" : "3.2",
+	"category" : "automation protocol",
+	"hasDependency" : true,
+	"maxDependancyInstallTime" : 40,
+	"hasOwnDeamon" : true,
+	"changelog" : "https://lefilliatre.github.io/tcpkp/#language#/changelog",
+	"documentation" : "https://lefilliatre.github.io/tcpkp/#language#/",
+	"changelog_beta" : "https://lefilliatre.github.io/tcpkp/#language#/changelog",
+	"documentation_beta" : "https://lefilliatre.github.io/tcpkp/#language#/",
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","atlas"]
+}
