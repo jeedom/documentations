@@ -209,7 +209,34 @@ La biblioteca de bootbox, que depende de jQuery, se eliminará en una versión f
 
 </details>
 
+- interfaz de usuario de jQuery
+
+La librería de jQuery UI se eliminará en una versión futura de Core. jeeDiálogo.dialog() reemplaza el uso de modales *ui-diálogo*.
+
+<details>
+
+  <summary markdown="span">exemples jeeDialog.diálogo()</summary>
+
+  ~~~ js
+  {% raw %}
+  //jQueryUI:
+  $('#md_modal').dialog({
+    title: "{{Administracion del sistema}}"
+  }).carga('index.php?v=d&modal=sistema.acción').dialog('abrir')
+
+  //Núcleo jeeDialog:
+  jeeDialog.diálogo({
+    title: '{{Administracion del sistema}}',
+    contentUrl: 'índice.php?v=d&modal=sistema.acción'
+  })
+
+  {% endraw %}
+  ~~~
+
+</details>
+
 Ver [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+
 
 ### Cambios opcionales
 
