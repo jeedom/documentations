@@ -4,11 +4,11 @@
   "description" : "Plugin pour la gestion des tablettes",
   "licence": "GPL",
   "author": "sbarre35",
-  "require": "4.0.11",
+  "require": "4.2.0",
   "category": "devicecommunication",
-  "hasDependency": false,
-  "hasOwnDaemon": false,
-  "maxDependancyInstallTime": 0,
-    "changelog" : "https://barre35.github.io/jeedom-plugin-wall/#language#/changelog",
-  "documentation" : "https://barre35.github.io/jeedom-plugin-wall/#language#/index"
+  "hasDependency": true,
+  "hasOwnDeamon": true,
+  "maxDependancyInstallTime": 60,
+  "changelog": "https:\/\/barre35.github.io\/jeedom-plugin-doc\/fr_FR\/wall_changelog",
+  "documentation": "https:\/\/barre35.github.io\/jeedom-plugin-doc\/fr_FR\/wall_documentation"
 }
