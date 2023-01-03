@@ -9,10 +9,10 @@
 	"hasDependency" : true,
 	"maxDependancyInstallTime" : 40,
 	"hasOwnDeamon" : true,
-	"changelog" : "https://lefilliatre.github.io/PoeleAgua/#language#/changelog",
-	"documentation" : "https://lefilliatre.github.io/PoeleAgua/#language#/",
-	"changelog_beta" : "https://lefilliatre.github.io/PoeleAgua/#language#/changelog",
-	"documentation_beta" : "https://lefilliatre.github.io/PoeleAgua/#language#/",
+	"changelog" : "https://lefilliatre.github.io/lefilliatre-documentation/PoeleAgua/#language#/changelog",
+	"documentation" : "https://lefilliatre.github.io/lefilliatre-documentation/PoeleAgua/#language#/",
+	"changelog_beta" : "https://lefilliatre.github.io/lefilliatre-documentation/PoeleAgua/#language#/changelog",
+	"documentation_beta" : "https://lefilliatre.github.io/lefilliatre-documentation/PoeleAgua/#language#/",
 	"language" : ["fr_FR"],
 	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","atlas"]
 }
