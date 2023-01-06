@@ -2,13 +2,11 @@
 
 Este plug-in permite recuperar informações de um servidor NUT (Network UPS Tools)
 
-# Configuração do plugin 
+## Configuração do plugin
 
-Depois de baixar o plugin, basta ativá-lo e clicar em "Instalar / Atualizar"
+Após baixar o plugin, basta ativá-lo e instalar as dependências clicando em "Reiniciar"
 
-![nut](../images/nut.PNG)
-
-# Configuração do equipamento 
+## Configuração do equipamento
 
 A configuração do equipamento NUT pode ser acessada no menu do plugin :
 
@@ -24,34 +22,39 @@ Depois de clicar em um deles, você obtém :
 
 Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nome do equipamento Inversor** : nome do seu equipamento NUT,
--   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
--   **Ativar** : torna seu equipamento ativo,
--   **Visivél** : torna seu equipamento visível no painel,
--   **Categoria** : categoria do seu equipamento NUT
--   **Endereço IP NUT** : O endereço IP do servidor NUT
--   **Nome de Usuário** : Nome de usuário do servidor NUT (deixe em branco se não houver)
--   **Senha** : Senha do servidor NUT (deixe em branco se não houver)
--   **ID de Ups** : ID de Ups
+- **Nome do equipamento** : nome do seu equipamento NUT,
+- **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
+- **Categoria** : categoria do seu equipamento NUT
+- **Ativar** : torna seu equipamento ativo,
+- **Visivél** : torna seu equipamento visível no painel,
+- **Endereço IP NUT** : O endereço IP do servidor NUT
+- **Nome de Usuário** : Nome de usuário do servidor NUT (deixe em branco se não houver)
+- **Senha** : Senha do servidor NUT (deixe em branco se não houver)
+- **ID de Ups** : ID de Ups
 
-> **NOTA**
+> **Avaliações**
 >
 > Um servidor NUT pode gerenciar vários no-breaks, é então o ID do no-break que permite à Jeedom saber a qual no-break o equipamento está se referindo
-
-> **Dica**
 >
 > Se você não souber o ID do (s) seu (s) UPS (s), deixe o campo vazio e registre o equipamento, a Jeedom preencherá automaticamente o campo de ID do no-break e criará quantos equipamentos você tiver no seu servidor NUT.
+>
+> Se o servidor NUT estiver em um Synology NAS, o nome de usuário será 'monuser', a senha 'secret' e os ID 'ups'. Embora deixar a área vazia, o plug-in o preenche na maioria dos casos.
 
-Abaixo você encontra a lista de pedidos :
+## Configurando comandos
 
--   **Nome** : o nome exibido no painel,
--   **Display** : permite exibir os dados no painel
--   **Teste** : permite testar o comando,
+Na segunda aba você encontra a lista de pedidos, o plugin irá criar a maioria dos pedidos automaticamente de acordo com as informações recebidas do servidor NUT.
 
 > **IMPORTANTE**
 >
 > Os comandos criados podem ser diferentes dependendo da instalação, depende do que o servidor NUT envia de volta
 
-> **Dica**
+Se o seu UPS retornar informações que (ainda) não são suportadas pelo plug-in, você pode adicionar manualmente um pedido ao seu equipamento.
+
+- Clique no botão *Adicionar um pedido*
+- Insira o nome
+- Escolha o subtipo (Numérico, binário ou outro)
+- No campo *Configurar* você deve inserir o nome do valor conforme retornado pelo servidor NUT, a informação fica visível no log em modo DEBUG.
+
+> **IMPORTANTE**
 >
-> Se o servidor NUT estiver em um Synology NAS, o nome de usuário será 'monuser', a senha 'secret' e os ID 'ups'. Embora deixar a área vazia, o plug-in o preenche na maioria dos casos.
+> Não modifique a configuração dos comandos criados automaticamente pelo plugin.
