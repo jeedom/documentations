@@ -1050,6 +1050,8 @@
         "initTooltips() par les plugins ne change pas": "initTooltips() by plugins does not change",
         "jQuery datetimepicker": "jQuery datetimepicker",
         "datePickerInit() et dateTimePickerInit() et a été remplacée par la lib": "datePickerInit() and dateTimePickerInit() and has been replaced by the lib",
+        "Les fonctions du Core gèrent le thème": "Core functions manage the theme",
+        "et la langue de la lib en fonction de la langue du Core": "and the language of the lib according to the Core language",
         "Pour rappel": "As a reminder",
         "~~~ html": "~~~ html",
         "jeedomUtils.datePickerInit() \/\/Init all input.in_datepicker": "jeedomUtils.datePickerInit() \/\/Init all input.in_datepicker",

@@ -112,6 +112,8 @@ La lib Tooltipster, dependiente de jQuery, también ha sido reemplazada por la l
 
 La liberación *selector de fecha y hora* ha sido eliminado de Core. Fue utilizado a través de funciones jeedomUtils.datePickerInit() y dateTimePickerInit() y ha sido reemplazado por lib [recogedor](https://flatpickr.js.org/).
 
+Las funciones principales gestionan el tema *recogedor* y el lenguaje de la lib de acuerdo con el lenguaje Core.
+
 Como recordatorio:
 
 <details>

@@ -556,6 +556,8 @@
         "flatpickr": "flatpickr",
         "datetimepicker": "datetimepicker",
         "datePickerInit() et dateTimePickerInit() et a été remplacée par la lib": "datePickerInit() et dateTimePickerInit() et a été remplacée par la lib",
+        "Les fonctions du Core gèrent le thème": "Les fonctions du Core gèrent le thème",
+        "et la langue de la lib en fonction de la langue du Core": "et la langue de la lib en fonction de la langue du Core",
         "Pour rappel": "Pour rappel",
         "~~~ html": "~~~ html",
         "jeedomUtils.datePickerInit() \/\/Init all input.in_datepicker": "jeedomUtils.datePickerInit() \/\/Init all input.in_datepicker",

@@ -112,6 +112,8 @@ Die von jQuery abhängige Tooltipster-Bibliothek wurde ebenfalls durch die Tippy
 
 Die lib *datetimepicker* wurde aus Core entfernt. Es wurde über jeedomUtils-Funktionen verwendet.datePickerInit() und dateTimePickerInit() und wurde durch die lib ersetzt [Flatpickr](https://flatpickr.js.org/).
 
+Kernfunktionen verwalten das Thema *Flatpickr* und die Sprache der Bibliothek gemäß der Core-Sprache.
+
 Als eine Erinnerung:
 
 <details>

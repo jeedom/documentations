@@ -112,6 +112,8 @@ The Tooltipster lib, dependent on jQuery, has also been replaced by the Tippy js
 
 The lib *datetimepicker* has been removed from Core. It was used through jeedomUtils functions.datePickerInit() and dateTimePickerInit() and has been replaced by the lib [flatpickr](https://flatpickr.js.org/).
 
+Core functions manage the theme *flatpickr* and the language of the lib according to the Core language.
+
 As a reminder:
 
 <details>
