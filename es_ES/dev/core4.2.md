@@ -119,7 +119,7 @@ Simplemente agregue este botón a la derecha del cuadro de búsqueda en su pági
 
   <summary markdown="span">Par exemple :</summary>
 
-  ~~~ html
+  ~~~
   {% raw %}
   <legend><i class="fa fa-table"></i> {{Mes Equipemnts}}</legend>
   <div class="input-group" style="margin-bottom:5px;">
@@ -274,7 +274,7 @@ En el código de **Widget de panel**, se inserta una etiqueta `template` entre e
 
   <summary markdown="span">Ejemplo de code de Widgy avec template</summary>
 
-  ~~~ html
+  ~~~
   <div class="cmd cmd-widget" ...>
     <div class="title #hide_name#">
       <div class="cmdName">#name_display#</div>

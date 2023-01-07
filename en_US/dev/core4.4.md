@@ -108,6 +108,37 @@ The lib *toasting* has been removed from Core. It was used through jeedomUtils f
 
 The Tooltipster lib, dependent on jQuery, has also been replaced by the Tippy js lib. The use of jeedomUtils.initTooltips() by plugins does not change.
 
+- jQuery datetimepicker
+
+The lib *datetimepicker* has been removed from Core. It was used through jeedomUtils functions.datePickerInit() and dateTimePickerInit() and has been replaced by the lib [flatpickr](https://flatpickr.js.org/).
+
+As a reminder:
+
+<details>
+
+  <summary markdown="span">date/time pickers</summary>
+
+  ~~~ html
+  {% raw %}
+  <input id="myDate" class="in_datepicker"/>
+  <input id="myTime" class="in_timepicker"/>
+  <input id="myCustomDatetime"/>
+  {% endraw %}
+  ~~~
+
+  ~~~ js
+  {% raw %}
+  jeedomUtils.datePickerInit() //Init all input.in_datepicker
+  jeedomUtils.dateTimePickerInit() //Init all input.in_timepicker
+
+  jeedomUtils.datePickerInit('Ymd H:i:00', '#myCustomDatetime') //Will init myCustomDatetime input with custom format
+  {% endraw %}
+  ~~~
+
+</details>
+
+
+
 ### Deprecated
 
 *These functions return an error message, but still work:*

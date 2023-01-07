@@ -119,7 +119,7 @@ Fügen Sie einfach diese Schaltfläche rechts neben dem Suchfeld auf Ihrer Seite
 
   <summary markdown="span">Par exemple :</summary>
 
-  ~~~ html
+  ~~~.html
   {% raw %}
   <legend><i class="fa fa-table"></i> {{Mes Equipemnts}}</legend>
   <div class="input-group" style="margin-bottom:5px;;">
@@ -274,7 +274,7 @@ Im Code von **Dashboard-Widget**, Ein "Template" -Tag wird zwischen dem letzten 
 
   <summary markdown="span">Beispiel de code de Widgund avec template</summary>
 
-  ~~~ html
+  ~~~.html
   <div class="cmd cmd-widget" ...>
     <div class="title #hide_name#">
       <div class="cmdName">#name_display#</div>

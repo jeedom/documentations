@@ -108,6 +108,37 @@ La liberación *brindando* ha sido eliminado de Core. Fue utilizado a través de
 
 La lib Tooltipster, dependiente de jQuery, también ha sido reemplazada por la lib Tippy js. El uso de jeedomUtils.initTooltips() por complementos no cambia.
 
+- selector de fecha y hora de jQuery
+
+La liberación *selector de fecha y hora* ha sido eliminado de Core. Fue utilizado a través de funciones jeedomUtils.datePickerInit() y dateTimePickerInit() y ha sido reemplazado por lib [recogedor](https://flatpickr.js.org/).
+
+Como recordatorio:
+
+<details>
+
+  <summary markdown="span">date/time pickers</summary>
+
+  ~~~
+  {% raw %}
+  <input id="myDate" class="in_datepicker"/>
+  <input id="myTime" class="in_timepicker"/>
+  <input id="myCustomDatetime"/>
+  {% endraw %}
+  ~~~
+
+  ~~~ js
+  {% raw %}
+  jeedomUtils.datePickerInit() //Iniciar todo input.in_datepicker
+  jeedomUtils.dateTimePickerInit() //Iniciar todo input.in_timepicker
+
+  jeedomUtils.datePickerInit('Ymd H:i:00', '#myCustomDatetime') //Iniciará la entrada myCustomDatetime con formato personalizado
+  {% endraw %}
+  ~~~
+
+</details>
+
+
+
 ### Deprecated
 
 *Estas funciones devuelven un mensaje de error, pero aún funcionan:*
