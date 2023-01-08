@@ -268,6 +268,12 @@ La librería de jQuery UI se eliminará en una versión futura de Core. jeeDiál
 
 </details>
 
+- intercalación de jQuery
+
+El complemento jQuery *jquery.at.caret* queda obsoleto. Use `myElement.insertAtCursor(myString)`
+
+
+
 Ver [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 

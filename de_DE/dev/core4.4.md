@@ -268,6 +268,12 @@ Die jQuery-UI-Bibliothek wird in einer zukünftigen Core-Version entfernt. jeeDi
 
 </details>
 
+- jQuery-Eingabezeichen
+
+Das jQuery-Plugin *jquery.at.caret* wird verworfen. Verwenden Sie „myElement.insertAtCursor(myString)“
+
+
+
 Sehen [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 
