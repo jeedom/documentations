@@ -268,6 +268,12 @@ La lib jQuery UI sera supprimée dans une future version du Core. jeeDialog.dial
 
 </details>
 
+- jQuery caret
+
+Le plugin jQuery *jquery.at.caret* passe en deprecated. Utiliser `myElement.insertAtCursor(myString)`
+
+
+
 Voir [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 
