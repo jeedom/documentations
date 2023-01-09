@@ -6,7 +6,12 @@
         "en_US": "Plugin adding support for RfPlayer key from Ziblue to Jeedom. This plugin will eventually replace the first plugin. It will be made available to all owners of the first plugin. This will allow everyone to migrate quietly. Because the philosophy of the plugin having changed and the ids too, you will have to re-include your devices on this new plugin",
         "es_ES": "Complemento que agrega soporte para la clave RfPlayer de Ziblue a Jeedom. Este complemento eventualmente reemplazará al primer complemento. Se pondrá a disposición de todos los propietarios del primer complemento. Esto permitirá que todos migren en silencio. Debido a que la filosofía del complemento ha cambiado y los identificadores también, tendrá que volver a incluir sus dispositivos en este nuevo complemento",
         "de_DE": "Plugin, das Unterstützung für RfPlayer-Schlüssel von Ziblue zu Jeedom hinzufügt. Dieses Plugin wird eventuell das erste Plugin ersetzen. Es wird allen Besitzern des ersten Plugins zur Verfügung gestellt. Dadurch kann jeder ruhig migrieren. Da sich die Philosophie des Plugins geändert hat und auch die IDs, müssen Sie Ihre Geräte wieder in dieses neue Plugin aufnehmen",
-        "pt_PT": "Plugin adicionando suporte à chave RfPlayer da Ziblue para Jeedom. Este plug-in eventualmente substituirá o primeiro plug-in. Será disponibilizado a todos os proprietários do primeiro plugin. Isso permitirá que todos migrem silenciosamente. Como a filosofia do plug-in mudou e os IDs também, você precisará incluir novamente seus dispositivos neste novo plug-in"
+        "pt_PT": "Plugin adicionando suporte à chave RfPlayer da Ziblue para Jeedom. Este plug-in eventualmente substituirá o primeiro plug-in. Será disponibilizado a todos os proprietários do primeiro plugin. Isso permitirá que todos migrem silenciosamente. Como a filosofia do plug-in mudou e os IDs também, você precisará incluir novamente seus dispositivos neste novo plug-in",
+        "ru_RU": "Plugin ajoutant le support de la clé RfPlayer de Ziblue à Jeedom. Ce plugin remplacera à terme le premier plugin. Il sera mis à disposition de tous les possesseurs du premier plugin. Cela permettra à chacun de migrer tranquillement. Car la philosophie du plugin ayant changé et les ids aussi, il faudra réinclure vos devices sur ce nouveau plugin",
+        "id_ID": "Plugin ajoutant le support de la clé RfPlayer de Ziblue à Jeedom. Ce plugin remplacera à terme le premier plugin. Il sera mis à disposition de tous les possesseurs du premier plugin. Cela permettra à chacun de migrer tranquillement. Car la philosophie du plugin ayant changé et les ids aussi, il faudra réinclure vos devices sur ce nouveau plugin",
+        "it_IT": "Plugin ajoutant le support de la clé RfPlayer de Ziblue à Jeedom. Ce plugin remplacera à terme le premier plugin. Il sera mis à disposition de tous les possesseurs du premier plugin. Cela permettra à chacun de migrer tranquillement. Car la philosophie du plugin ayant changé et les ids aussi, il faudra réinclure vos devices sur ce nouveau plugin",
+        "ja_JP": "Plugin ajoutant le support de la clé RfPlayer de Ziblue à Jeedom. Ce plugin remplacera à terme le premier plugin. Il sera mis à disposition de tous les possesseurs du premier plugin. Cela permettra à chacun de migrer tranquillement. Car la philosophie du plugin ayant changé et les ids aussi, il faudra réinclure vos devices sur ce nouveau plugin",
+        "tr": "Plugin ajoutant le support de la clé RfPlayer de Ziblue à Jeedom. Ce plugin remplacera à terme le premier plugin. Il sera mis à disposition de tous les possesseurs du premier plugin. Cela permettra à chacun de migrer tranquillement. Car la philosophie du plugin ayant changé et les ids aussi, il faudra réinclure vos devices sur ce nouveau plugin"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -21,7 +26,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
@@ -31,5 +41,7 @@
         "diy",
         "mobile",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/rfplayer2\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/rfplayer2\/beta"
 }
