@@ -243,6 +243,7 @@
     "plugins_contributor\/home automation protocol\/index.md": {
         "Yokis passerelle": "Yokis passerelle",
         "Plugin pour commander les modules Yokis en local": "Plugin pour commander les modules Yokis en local",
+        "Si vous avez d'autres éléments Meross (ampoule, garage, volet) merci de me contacter en message privé pour que je puisse voir le résultat et améliorer le plugin": "Si vous avez d'autres éléments Meross (ampoule, garage, volet) merci de me contacter en message privé pour que je puisse voir le résultat et améliorer le plugin",
         "MerosSync": "MerosSync",
         "Plugin pour contrôler les appareils MEROSS": "Plugin pour contrôler les appareils MEROSS",
         "Passerelle domotique": "Passerelle domotique",
@@ -255,6 +256,7 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation Stable": "Documentation Stable",
         "Documentation Beta": "Documentation Beta",
+        "Pour l'instant ce plugin fonctionne parfaitement avec les prises connectées meross": "Pour l'instant ce plugin fonctionne parfaitement avec les prises connectées meross",
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
         "Changelog Beta": "Changelog Beta"

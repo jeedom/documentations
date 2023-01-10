@@ -1,8 +1,8 @@
 {
   "id" : "MerosSync",
   "name": "MerosSync",
-  "version": "0.3",
-  "description": "Plugin pour contrôler les appareils MEROSS",
+  "version": "0.4",
+  "description": "Plugin pour contrôler les appareils MEROSS. Pour l’instant ce plugin fonctionne parfaitement avec les prises connectées meross. Si vous avez d'autres éléments Meross (ampoule, garage, volet) merci de me contacter en message privé pour que je puisse voir le résultat et améliorer le plugin.",
   "licence": "GPL",
   "author": "jercle",
   "require": "3.0",
