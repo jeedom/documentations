@@ -3,6 +3,7 @@
 #Description
 
 Plugin for reading and writing on your ModbusTCP/IP and RTU devices
+Not compatible Wago al current time
 
 
 

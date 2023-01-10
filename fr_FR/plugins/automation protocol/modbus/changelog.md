@@ -45,3 +45,7 @@
 
 - Option Activer/Desactiver Message d'ecriture
 - Option nbOctets pour determiner la decoupe d'un registre en x octet
+
+# 10/01/2023
+
+- Fix import packages pour python 3.9

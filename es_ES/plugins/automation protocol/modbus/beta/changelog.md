@@ -45,3 +45,7 @@
 
 - Opción Habilitar/Deshabilitar mensaje de escritura
 - Opción nbBytes para determinar la división de un registro en x bytes
+
+# 10/01/2023
+
+- Arreglar paquetes de importación para python 3.9

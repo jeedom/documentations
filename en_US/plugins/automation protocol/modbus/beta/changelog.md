@@ -45,3 +45,7 @@
 
 - Option Enable/Disable Write Message
 - NbBytes option to determine the division of a register into x bytes
+
+# 01/10/2023
+
+- Fix import packages for python 3.9

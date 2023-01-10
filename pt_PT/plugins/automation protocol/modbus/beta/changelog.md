@@ -45,3 +45,7 @@
 
 - Opção Ativar/Desativar Mensagem de Gravação
 - Opção nbBytes para determinar a divisão de um registro em x bytes
+
+# 10/01/2023
+
+- Corrigir pacotes de importação para python 3.9

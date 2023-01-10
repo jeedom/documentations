@@ -3,6 +3,7 @@
 #Description
 
 Complemento para leer y escribir en sus dispositivos ModbusTCP/IP y RTU
+No compatible Wago al momento actual
 
 
 

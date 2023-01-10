@@ -45,3 +45,7 @@
 
 - Option Schreibnachricht aktivieren/deaktivieren
 - NbBytes-Option, um die Aufteilung eines Registers in x Bytes festzulegen
+
+# 10.01.2023
+
+- Importpakete für Python 3.9 korrigiert
