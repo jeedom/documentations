@@ -145,11 +145,11 @@ Pour rappel:
 
 *Ces fonctions renvoient un message d'erreur, mais fonctionnent encore:*
 
-- Fonctions php:
+#### Fonctions php:
 
 `eqLogic::byTypeAndSearhConfiguration()` -> `eqLogic::byTypeAndSearchConfiguration()`  
 
-- Fonctions js (disponibles depuis Core4.2):
+#### Fonctions js (disponibles depuis Core4.2):
 
 `jeedom.eqLogic.builSelectCmd` -> `jeedom.eqLogic.buildSelectCmd`  
 `checkPageModified` -> `jeedomUtils.checkPageModified`  
@@ -171,7 +171,7 @@ Pour rappel:
 `chooseIcon` -> `jeedomUtils.chooseIcon`  
 `getOpenedModal` -> `jeedomUtils.getOpenedModal`  
 
-- Variables js (disponibles depuis Core4.3):
+#### Variables js (disponibles depuis Core4.3):
 
 `jeedom_langage` -> `jeeFrontEnd.language`  
 `userProfils` -> `jeeFrontEnd.userProfils`
@@ -180,7 +180,7 @@ Pour rappel:
 >
 > Ces modifications peuvent entraîner la nécessité de monter la version Jeedom minimale requise de nombreux plugins. C'est pourquoi les *deprecated* n’apparaissent pas sur un Core en branche V4-Stable, mais permettent aux développeurs de voir ce qu'ils peuvent corriger.
 
-- jQuery Autocomplete
+#### jQuery Autocomplete
 
 La lib Autocomplete, dépendante de jQuery, sera supprimée dans une future version du Core. Elle est remplacée par la fonction interne du Core **input.jeeComplete()**. Celle-ci supporte la plupart des options précédentes (source sur ajax etc), mais corrige plusieurs défauts, apporte de nouveaux comportements (flèche haut et bas pour sélectionner une proposition, etc) et permet d'utiliser un seul container pour plusieurs inputs, réduisant énormément l'impact sur le DOM, notamment sur les scénarios.
 
@@ -206,9 +206,7 @@ La lib Autocomplete, dépendante de jQuery, sera supprimée dans une future vers
 
 </details>
 
-Voir [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
-
-- jQuery bootbox
+#### jQuery bootbox
 
 La lib bootbox, dépendante de jQuery, sera supprimée dans une future version du Core. jeeDialog() remplace ces fonctions, avec jeeDialog.alert(), jeeDialog.confirm(), jeeDialog.prompt().
 
@@ -242,7 +240,7 @@ La lib bootbox, dépendante de jQuery, sera supprimée dans une future version d
 
 </details>
 
-- jQuery UI
+#### jQuery UI
 
 La lib jQuery UI sera supprimée dans une future version du Core. jeeDialog.dialog() remplace l'utilisation des modales *ui-dialog*.
 
@@ -268,11 +266,11 @@ La lib jQuery UI sera supprimée dans une future version du Core. jeeDialog.dial
 
 </details>
 
-- jQuery caret
+#### jQuery caret
 
 Le plugin jQuery *jquery.at.caret* passe en deprecated. Utiliser `myElement.insertAtCursor(myString)`
 
-- jQuery contextMenu
+#### jQuery contextMenu
 
 La lib contextMenu, dépendante de jQuery, sera supprimée dans une future version du Core. jeeCtxMenu() remplace ces fonctions.
 
