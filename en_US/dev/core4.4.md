@@ -87,28 +87,29 @@ The plugin-template file.js and most Core pages now use these functions. You can
 Core-specific DOM functions:
 
 [domUtils {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
+
 [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 
 
 ### Obsolete
 
-- PHP function
+#### PHP function
 
 `displayException()` -> `displayException()`  
 `convertDayEnToFr()` -> `convertDayFromEn()`
 
-- Js functions (available since Core4.3):
+#### Js functions (available since Core4.3):
 
 `displayPlan()` -> `jeeFrontEnd.plan.displayPlan()`
 
-- jQuery Toast / Tooltipster
+#### jQuery Toast / Tooltipster
 
 The lib *toasting* has been removed from Core. It was used through jeedomUtils functions.showAlert() and hideAlert() and has been replaced by the internal Core function jeeDialog.toast().
 
 The Tooltipster lib, dependent on jQuery, has also been replaced by the Tippy js lib. The use of jeedomUtils.initTooltips() by plugins does not change.
 
-- jQuery datetimepicker
+#### jQuery datetimepicker
 
 The lib *datetimepicker* has been removed from Core. It was used through jeedomUtils functions.datePickerInit() and dateTimePickerInit() and has been replaced by the lib [flatpickr](https://flatpickr.js.org/).
 
@@ -145,11 +146,11 @@ As a reminder:
 
 *These functions return an error message, but still work:*
 
-- PHP functions:
+#### PHP functions:
 
 `eqLogic::byTypeAndSearhConfiguration()` -> `eqLogic::byTypeAndSearchConfiguration()`  
 
-- Js functions (available since Core4.2):
+#### Js functions (available since Core4.2):
 
 `jeedom.eqLogic.buildSelectCmd` -> `jeedom.eqLogic.buildSelectCmd`  
 `checkPageModified` -> `jeedomUtils.checkPageModified`  
@@ -171,7 +172,7 @@ As a reminder:
 `chooseIcon` -> `jeedomUtils.chooseIcon`  
 `getOpenedModal` -> `jeedomUtils.getOpenedModal`  
 
-- Js variables (available since Core4.3):
+#### Js variables (available since Core4.3):
 
 `jeedom_language` -> `jeeFrontEnd.language`  
 `userProfils` -> `jeeFrontEnd.userProfils`
@@ -180,7 +181,7 @@ As a reminder:
 >
 > These changes may result in the need to mount the minimum required Jeedom version of many plugins. This is why the *Deprecated* do not appear on a V4-Stable Branch Core, but allow developers to see what they can fix.
 
-- jQuery Autocomplete
+#### jQuery Autocomplete
 
 The jQuery-dependent Autocomplete lib will be removed in a future Core release. It is replaced by the Core internal function **input.jeeComplete()**. This supports most of the previous options (source on ajax etc), but corrects several defects, brings new behaviors (up and down arrow to select a proposal, etc) and allows to use a single container for several inputs, reducing enormously the impact on the DOM, in particular on the scenarios.
 
@@ -206,9 +207,7 @@ The jQuery-dependent Autocomplete lib will be removed in a future Core release. 
 
 </details>
 
-See [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
-
-- jQuery bootbox
+#### jQuery bootbox
 
 The bootbox lib, dependent on jQuery, will be removed in a future Core release. jeeDialog() replaces these functions, with jeeDialog.alert(), jeeDialog.confirm(), jeeDialog.prompt().
 
@@ -242,7 +241,7 @@ The bootbox lib, dependent on jQuery, will be removed in a future Core release. 
 
 </details>
 
-- jQuery UI
+#### jQuery UI
 
 The jQuery UI lib will be removed in a future Core release. jeeDialog.dialog() replaces the use of modals *ui-dialog*.
 
@@ -268,11 +267,65 @@ The jQuery UI lib will be removed in a future Core release. jeeDialog.dialog() r
 
 </details>
 
-- jQuery caret
+#### jQuery caret
 
 The jQuery plugin *jquery.at.caret* goes deprecated. Use `myElement.insertAtCursor(myString)`
 
+#### jQuery contextMenu
 
+The contextMenu lib, dependent on jQuery, will be removed in a future version of Core. jeeCtxMenu() replaces these functions.
+
+<details>
+
+  <summary markdown="span">jeeCtxMenu()</summary>
+
+  ~~~ js
+  {% raw %}
+  var myCtxMenu = new jeeCtxMenu({
+    selector: '.nav.nav-tabs li', //Required!
+    appendTo: 'div#div_pageContainer',
+    className: '', //Added to menucontainer
+    items: {
+      uniqueNameID: {
+        name: '{{My item}}',
+        isHtmlName: false,
+        icon: 'fas fa cogs',
+        className: '', //Added to item container
+        callback: function(key, opt) { //Item callback
+        }
+      },
+      sep1: '-----',
+    },
+    callback: function(key, opt) { //Default callback if not set on item
+    }
+    //isDisable: false,
+    /*
+    events: {
+      show: function(opt) {
+      },
+      hide: function(opt) {
+      }
+    },
+    */
+    /*
+    build: function(trigger) {
+      var contextmenuitems = {}
+      return {
+        callback: function(key, options, event) {
+          //Setitems...
+        }
+      },
+      items: contextmenuitems
+    },
+    position: function(opt, x, y) {
+    },
+    */
+  })
+
+  {% endraw %}
+  ~~~
+
+</details>
 
 See [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 

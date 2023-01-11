@@ -87,28 +87,29 @@ El archivo de plantilla de plugin.js y la mayoría de las páginas Core ahora us
 Funciones DOM específicas del núcleo:
 
 [domUtils {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
+
 [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 
 
 ### Obsolete
 
-- Función PHP
+#### Función PHP
 
 `displayException()` -> `displayException()`  
 `convertDayEnToFr()` -> `convertDayFromEn()`
 
-- Funciones js (disponible desde Core4.3):
+#### Funciones js (disponible desde Core4.3):
 
 `displayPlan()` -> `jeeFrontEnd.plan.displayPlan()`
 
-- jQuery Toast / Información sobre herramientas
+#### jQuery Toast / Información sobre herramientas
 
 La liberación *brindando* ha sido eliminado de Core. Fue utilizado a través de funciones jeedomUtils.showAlert() y hideAlert() y ha sido reemplazada por la función Core interna jeeDialog.toast().
 
 La lib Tooltipster, dependiente de jQuery, también ha sido reemplazada por la lib Tippy js. El uso de jeedomUtils.initTooltips() por complementos no cambia.
 
-- selector de fecha y hora de jQuery
+#### selector de fecha y hora de jQuery
 
 La liberación *selector de fecha y hora* ha sido eliminado de Core. Fue utilizado a través de funciones jeedomUtils.datePickerInit() y dateTimePickerInit() y ha sido reemplazado por lib [recogedor](https://flatpickr.js.org/).
 
@@ -145,11 +146,11 @@ Como recordatorio:
 
 *Estas funciones devuelven un mensaje de error, pero aún funcionan:*
 
-- Funciones PHP:
+#### Funciones PHP:
 
 `eqLogic::byTypeAndSearhConfiguration()` -> `eqLogic::porTypeAndSearchConfiguration()`  
 
-- Funciones js (disponible desde Core4.2):
+#### Funciones js (disponible desde Core4.2):
 
 `jeedom.eqLogic.buildSelectCmd` -> `jeedom.eqLogic.buildSelectCmd`  
 `checkPageModified` -> `jeedomUtils.checkPageModified`  
@@ -171,7 +172,7 @@ Como recordatorio:
 `chooseIcon` -> `jeedomUtils.chooseIcon`  
 `getOpenedModal` -> `jeedomUtils.getOpenedModal`  
 
-- Js variables (disponible desde Core4.3):
+#### Js variables (disponible desde Core4.3):
 
 `jeedom_language` -> `jeeFrontEnd.language`  
 `perfiles de usuario` -> `jeeFrontEnd.userProfils`
@@ -180,7 +181,7 @@ Como recordatorio:
 >
 > Estos cambios pueden resultar en la necesidad de montar la versión mínima requerida de Jeedom de muchos complementos. Esta es la razón por la cual el *Obsoleto* no aparecen en un Branch Core V4-Stable, pero permiten a los desarrolladores ver qué pueden solucionar.
 
-- jQuery Autocompletar
+#### jQuery Autocompletar
 
 La biblioteca de Autocompletar dependiente de jQuery se eliminará en una versión futura de Core. Se reemplaza por la función interna Core **entrada.jeeComplete()**. Esto es compatible con la mayoría de las opciones anteriores (fuente en ajax, etc.), pero corrige varios defectos, trae nuevos comportamientos (flecha arriba y abajo para seleccionar una propuesta, etc.) y permite usar un solo contenedor para varias entradas, reduciendo enormemente el impacto en el DOM, en particular sobre los escenarios.
 
@@ -206,9 +207,7 @@ La biblioteca de Autocompletar dependiente de jQuery se eliminará en una versi�
 
 </details>
 
-Ver [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
-
-- caja de arranque de jQuery
+#### caja de arranque de jQuery
 
 La biblioteca de bootbox, que depende de jQuery, se eliminará en una versión futura de Core. jeeDialog() reemplaza estas funciones, con jeeDialog.alerta(), jeeDialog.confirm(), jeeDialog.prompt().
 
@@ -242,7 +241,7 @@ La biblioteca de bootbox, que depende de jQuery, se eliminará en una versión f
 
 </details>
 
-- interfaz de usuario de jQuery
+#### interfaz de usuario de jQuery
 
 La librería de jQuery UI se eliminará en una versión futura de Core. jeeDiálogo.dialog() reemplaza el uso de modales *ui-diálogo*.
 
@@ -268,11 +267,65 @@ La librería de jQuery UI se eliminará en una versión futura de Core. jeeDiál
 
 </details>
 
-- intercalación de jQuery
+#### intercalación de jQuery
 
 El complemento jQuery *jquery.at.caret* queda obsoleto. Use `myElement.insertAtCursor(myString)`
 
+#### menú contextual de jQuery
 
+El contextMenu lib, que depende de jQuery, se eliminará en una versión futura de Core. jeeCtxMenu() reemplaza estas funciones.
+
+<details>
+
+  <summary markdown="span">jeeCtxMenu()</summary>
+
+  ~~~ js
+  {% raw %}
+  var myCtxMenu = new jeeCtxMenu({
+    selector: '.nav.nav-tabs li', //Obligatorio!
+    appendTo: 'div#div_pageContainer',
+    className: '', //Agregado al menucontainer
+    items: {
+      uniqueNameID: {
+        name: '{{Mi artículo}}',
+        isHtmlName: false,
+        icon: 'fas fa engranajes',
+        className: '', //Añadido al contenedor de artículos
+        callback: function(key, opt) { //Devolución de llamada del artículo
+        }
+      },
+      sep1: '-----',
+    },
+    callback: function(key, opt) { // Devolución de llamada predeterminada si no se establece en el elemento
+    }
+    //isDisable: false,
+    /*
+    events: {
+      show: función (optar) {
+      },
+      hide: función (optar) {
+      }
+    },
+    */
+    /*
+    build: función (disparador) {
+      elementos de menú contextual var = {}
+      devolver {
+        callback: función (clave, opciones, evento) {
+          //Configurar elementos...
+        }
+      },
+      items: contextmenuitems
+    },
+    position: función(opc, x, y) {
+    },
+    */
+  })
+
+  {% endraw %}
+  ~~~
+
+</details>
 
 Ver [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
