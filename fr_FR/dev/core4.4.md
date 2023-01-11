@@ -272,7 +272,61 @@ La lib jQuery UI sera supprimée dans une future version du Core. jeeDialog.dial
 
 Le plugin jQuery *jquery.at.caret* passe en deprecated. Utiliser `myElement.insertAtCursor(myString)`
 
+- jQuery contextMenu
 
+La lib contextMenu, dépendante de jQuery, sera supprimée dans une future version du Core. jeeCtxMenu() remplace ces fonctions.
+
+<details>
+
+  <summary markdown="span">jeeCtxMenu()</summary>
+
+  ~~~ js
+  {% raw %}
+  var myCtxMenu = new jeeCtxMenu({
+    selector: '.nav.nav-tabs li', //Required!
+    appendTo: 'div#div_pageContainer',
+    className: '', //Added to menu container
+    items: {
+      uniqueNameID: {
+        name: '{{Mon item}}',
+        isHtmlName: false,
+        icon: 'fas fa-cogs',
+        className: '', //Added to item container
+        callback: function(key, opt) { //Item callback
+        }
+      },
+      sep1: '-----',
+    },
+    callback: function(key, opt) { //Default callback if not set on item
+    }
+    //isDisable: false,
+    /*
+    events: {
+      show: function(opt) {
+      },
+      hide: function(opt) {
+      }
+    },
+    */
+    /*
+    build: function(trigger) {
+      var contextmenuitems = {}
+      return {
+        callback: function(key, options, event) {
+          //Set items...
+        }
+      },
+      items: contextmenuitems
+    },
+    position: function(opt, x, y) {
+    },
+    */
+  })
+
+  {% endraw %}
+  ~~~
+
+</details>
 
 Voir [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
