@@ -1,4 +1,4 @@
-## Kern v4.3 | Plugin-Entwickler
+## Core v4.3 | Plugin-Entwickler
 
 ### Obsolete
 
@@ -38,7 +38,7 @@ In der gleichen Logik befinden sich die von PHP an js übergebenen Variablen jet
 
 - Exemple: Die js-Variable „planHeader_id“ wird zu „jeephp2js.planHeader_id“.
 
-### Optionale Änderungen
+### Optionale Modifikationen
 
 #### Quellcode und Übersetzungen
 
@@ -89,11 +89,11 @@ Ohne i18n-Datei wird das Plugin auf einem auf Französisch konfigurierten Core i
 
 Die Funktion addCmdToTable() ist nicht mehr obligatorisch. Wenn es nicht vorhanden ist, wird das des Kerns verwendet. Sie müssen nur eine HTML-Tabelle erstellen `<table id="table_cmd" class="table table-bordered table-condensed"></table> `
 
-Bei Info-Befehlen die Taste **Prüfen** nicht mehr angezeigt wird, wird der Wert angezeigt und in Echtzeit aktualisiert. So fügen Sie diese Informationen in eine Befehlstabelle ein : `<span class="cmdAttr" data-l1key="htmlstate"></span> `
+Bei Info-Befehlen die Taste **Prüfen** nicht mehr angezeigt wird, wird der Wert angezeigt und in Echtzeit aktualisiert. Um diese Informationen in eine Befehlstabelle einzufügen : `<span class="cmdAttr" data-l1key="htmlstate"></span> `
 
 #### Widgets
 
-Die Deklaration der Aktualisierungsfunktion entwickelt sich:
+Die Deklaration der Update-Funktion entwickelt sich:
 
 ```js
 jeedom.cmd.update['#id#'] = Funktion (_Optionen) {

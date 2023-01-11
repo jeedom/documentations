@@ -1,53 +1,53 @@
 ## Entwicklungsumgebung
 
-Wir werden hier sehen, wie Sie eine effiziente Entwicklungsumgebung zwischen einem Test-Pi und einem Windows-PC für die Codebearbeitung und Wartung des GitHub-Repositorys einrichten.
+Hier erfahren Sie, wie Sie eine effiziente Entwicklungsumgebung zwischen einem Test-Pi und einem Windows-PC einrichten, um den Code zu bearbeiten und das GitHub-Repository zu verwalten.
 
-Diese Seite betrifft Jeedom Core, aber diese Methode kann für die Plugin-Entwicklung verwendet werden.
+Diese Seite betrifft den Jeedom Core, aber diese Methode kann für die Plugin-Entwicklung verwendet werden.
 
-Für schnelle Bearbeitungen einiger Dateien können Sie natürlich das Plugin verwenden **jeeExplorer** direkt auf Jeedom. Das ist aber schnell mühsam, und dann müssen Sie alle Änderungen in das lokale Repository oder direkt auf GitHub übertragen. Es ist nicht das praktischste.
+Natürlich können wir für die schnelle Bearbeitung einiger Dateien das Plugin verwenden **JeeXplorer** direkt auf Jeedom. Aber es ist schnell langweilig und Sie müssen dann alle Änderungen an das lokale Repository oder direkt an GitHub melden. Dies ist nicht die praktischste.
 
 ### Principe
 
-- Richten Sie einen Test-Pi mit Jeedom und eine Samba-Freigabe ein, um vom PC aus darauf zuzugreifen.
+- Richten Sie einen Test-Pi mit Jeedom und einer Samba-Freigabe ein, um vom PC aus darauf zuzugreifen.
 - Duplizieren Sie das Repository lokal mit **Erhabene Verschmelzung**.
-- Implementieren **Erhabener Text** für die Bearbeitung des Repository-Codes mit Synchronisation auf dem Test-Pi.
+- Implementieren **Erhabener Text** zum Bearbeiten von Code aus dem Repository mit Synchronisation auf dem Test-Pi.
 
-**Erhabene Verschmelzung** und **Erhabener Text** zahlen sich sicherlich aus (ein niedriger Preis mit 3 Jahren Update), sind aber sehr leicht, schnell, leicht anpassbar und sehr vollständig, ohne dass viele Plugins / Pakete erforderlich sind. Auch wenn Sie keine Lizenz nehmen, können Sie sie normal verwenden, Sie haben nur von Zeit zu Zeit ein kleines Popup mit einer Schaltfläche *Absagen* !
+**Erhabene Verschmelzung** und **Erhabener Text** werden sicherlich bezahlt (ein niedriger Preis mit 3 Jahren Update), sind aber sehr leicht, schnell, leicht anpassbar und sehr vollständig, ohne dass viele Plugins / Pakete erforderlich sind. Wenn Sie keine Lizenz erwerben, können Sie diese normal verwenden. Ab und zu wird nur ein kleines Popup mit einem Knopf angezeigt *Stornieren* !
 
-Diese Methode ist auch mit anderen Tools möglich, wie z **Atom** (was einige Pakete erfordert) und **GitHub-Desktop**.
+Diese Methode ist auch mit anderen Werkzeugen möglich, wie z **Atom** (was einige Pakete erfordert) und **GitHub Desktop**.
 
-### Test-/Entwicklungs-Pi
+### Pi Test / Entwicklung
 
-Das erste, was Sie tun sollten, wenn Sie Core-Funktionen oder ein Plugin entwickeln : Bauen Sie einen Testaufbau auf. Tatsächlich entwickeln wir nicht auf einer Produktionskonfiguration !
+Das erste, was Sie tun müssen, wenn Sie Kernfunktionen oder ein Plugin entwickeln : Richten Sie eine Testkonfiguration ein. In der Tat entwickeln wir keine Produktionskonfiguration !
 
-Für die Installation von Jeedom ist das Doc da : [Installation auf Raspberry Pi](https://doc.jeedom.com/de_DE/installation/rpi).
+Für die Installation von Jeedom ist die Dokumentation vorhanden : [Installation auf Raspberry Pi](https://doc.jeedom.com/de_DE/installation/rpi).
 
-Achtung, lieber eine SSD als eine SD-Karte !
+Achtung, ziehen Sie eine SSD einer SD-Karte vor !
 
 Sobald Jeedom installiert ist, installieren Sie Samba in SSH :
 
 `sudo apt-get install samba -y`
 
-Konfigurieren Sie ein Passwort für www-data (das Stammverzeichnis von Jeedom) :
+Konfigurieren Sie ein Passwort für www-Daten (die Wurzel von Jeedom) :
 
-`sudo smbpasswd www-data` dann geben Sie Ihre *Passwort*.
+`sudo smbpasswd www-data` dann geben Sie Ihre *Kennwort*.
 
 Bearbeiten Sie die Samba-Konfiguration :
 
-`sudo nano /etc/samba/smb.conf`
+`sudo nano / etc / samba / smb.conf`
 
 Hinzufügen :
 
 ````text
-gewinnt Unterstützung=ja
+gewinnt Unterstützung = ja
 
 [jeedomRoot]
-Pfad = /var/www/html
+Pfad = / var / www / html
 durchsuchbar = ja
-beschreibbar=ja
-user=www-data erzwingen
-Forcegroup = www-Daten
-Nur lesen = Nein
+beschreibbar = ja
+Benutzer erzwingen = www-Daten
+Kraftgruppe = www-Daten
+schreibgeschützt = Nein
 Gast ok = Ja
 ````
 
@@ -91,7 +91,7 @@ Dans **Erhabener Text**, *Project* / *Edit Project*, définissez le répertoire 
   [
     {
       "name": "__GitHub Jeedom Core__",
-      "path": "W:\\_GitHub-Repos_\\JeedomCore"
+      "path": "W:\\_ GitHub-Repos _ \\ JeedomCore"
     },
     {
       "name": "___Pi_JeedomAlpha___",
@@ -101,32 +101,32 @@ Dans **Erhabener Text**, *Project* / *Edit Project*, définissez le répertoire 
 }
 ````
 
-Hier ist das Hinzufügen des Pfads des Test-Pi nicht obligatorisch, aber immer bequem.
+Hier ist das Hinzufügen des Pfades des Test-Pi nicht obligatorisch, aber dennoch praktisch.
 
-Also kannst du jetzt rein **Erhabener Text**, lokale Repository-Dateien direkt bearbeiten. Änderungen an diesen Dateien werden in angezeigt **Erhabene Verschmelzung**, wo Sie alle oder einen Teil jeder Datei festschreiben oder die Änderungen rückgängig machen können, wenn das nicht funktioniert.
+So können Sie jetzt in **Erhabener Text**, Bearbeiten Sie direkt die Dateien des lokalen Repositorys. Änderungen an diesen Dateien werden in angezeigt **Erhabene Verschmelzung**, Hier können Sie jede Datei ganz oder teilweise festschreiben oder die Änderungen rückgängig machen, wenn dies nicht funktioniert.
 
-Nun bleibt es, diese Codeänderungen auf dem Test Jeedom zu testen.
+Jetzt müssen diese Codeänderungen noch auf dem Test Jeedom getestet werden.
 
-Dazu können Sie die geänderten Dateien natürlich über die Samba-Freigabe auf Ihrem PC auf Ihren Pi kopieren. Oder nicht ! Wenn Sie ein Dutzend Dateien an verschiedenen Stellen ändern, wird es schnell schmerzhaft !
+Dazu können Sie natürlich die geänderten Dateien mit der Samba-Freigabe auf Ihrem PC auf Ihren Pi kopieren. Oder nicht ! Wenn Sie zehn Dateien an verschiedenen Stellen bearbeiten, wird dies schnell schmerzhaft !
 
-Wir werden daher konfigurieren **Erhabener Text** Wenn Sie also eine Datei speichern, wird sie direkt auf den Pi kopiert !
+Wir werden daher konfigurieren **Erhabener Text** Wenn Sie eine Datei speichern, wird sie direkt auf den Pi kopiert !
 
-Wechseln Sie in das `C-Verzeichnis:\Program Files\SublimeText3\Data\Packages\User` und erstellen Sie eine Datei `onSaveCopy.py`. Bearbeiten Sie es und speichern Sie nach dem Ändern der richtigen Pfade den folgenden Code:
+Gehen Sie in das Verzeichnis `C:\ Programme \ SublimeText3 \ Data \ Packages \ User` und erstellen Sie eine `onSaveCopy.py`-Datei. Bearbeiten Sie es und speichern Sie nach dem Ändern der richtigen Pfade den folgenden Code:
 
 ````py
-sublime importieren, sublime_plugin, os
-aus Shutil Import Copyfile
+Importieren Sie Sublime, Sublime_plugin, Bone
+von Shutil Import Copyfile
 
-gitHub_repoCore = "W:\\_GitHub-Repos_\\JeedomCore"
-rpi_root = "\\\\192.168.0.110\\jeedomRoot"
+gitHub_repoCore = "W:\\_ GitHub-Repos _ \\ JeedomCore"
+rpi_root = "\\\\ 192.168.0.110 \\ jeedomRoot"
 
-Klasse EventListener(sublime_plugin.Ereignis-Listener ):
-  def on_post_save_async(self, view):
-    fullPath = Ansicht.Dateiname()
-    path, baseName = os.path.split(fullPath)
-    wenn gitHub_repoCore im Pfad:
-      rpi_path = vollständigerPfad.replace(gitHub_repoCore, rpi_root)
-      copyfile(fullPath, rpi_path)
+Klasse EventListener (sublime_plugin.EventListener ):
+  def on_post_save_async (self, view):
+    fullPath = view.file_name()
+    Pfad, baseName = os.path.split (fullPath)
+    if gitHub_repoCore im Pfad:
+      rpi_path = fullPath.ersetzen (gitHub_repoCore, rpi_root)
+      copyfile (fullPath, rpi_path)
 ````
 
 Et voilà !

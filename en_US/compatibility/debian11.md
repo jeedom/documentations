@@ -2,11 +2,11 @@
 
 ## Introduction
 
-You will find here a report of our tests of Jeedom under Debian 11. As a reminder, Debian 11 was officially released on August 15, 2021 and brings many changes, in particular :
+You will find here a report of our Jeedom tests under Debian 11. As a reminder Debian 11 officially released in stable on August 15, 2021 and involves many changes, in particular :
 
-- Switching from PHP 7.3 to 7.4.
-- Start removing python 2.
-- Updated many packages.
+- Passage from PHP 7.3 to 7.4.
+- Start of python 2 removal.
+- Update of many packages.
 
 ## Core
 
@@ -16,11 +16,11 @@ We have not yet detected any impact.
 
 ### 4.2.X
 
-~~There is a problem with the new dependencies installation system for the one using pip3 (pip3 no longer exists and is replaced by pip)~~ => Fixed
+~~ There is a problem with the new dependency installation system for the one using pip3 (pip3 no longer exists and is replaced by pip) ~~ => Fixed
 
 ## Plugins
 
-We can't test all the plugins, so we're just putting the feedback from those tested for the moment (this list will be updated as our tests progress)).
+We cannot test all the plugins, so we are just putting the feedback of those tested for the moment (this list will be updated as we go through our tests).
 
 ### Compatible
 
@@ -40,11 +40,11 @@ We can't test all the plugins, so we're just putting the feedback from those tes
 - Denon
 - EcoRT2
 - Fitbit (new)
-- Lights management
+- Light management
 - Thermostat management
 - Shutter management
-- Google Smart Home
-- Alexa smart home
+- Google Smarthome
+- Alexa smarthome
 - IPX800v4
 - Mode
 - Migo Thermostat
@@ -53,7 +53,7 @@ We can't test all the plugins, so we're just putting the feedback from those tes
 - Netatmo
 - Notification Manager
 - Philips hue
-- Simulation Presence
+- Presence simulation
 - Sonos controller
 - Sound and TTS
 - Spotify
@@ -81,4 +81,4 @@ All plugins using python2 are incompatible with Debian 11. For the moment we hav
 
 > **IMPORTANT**
 >
-> These tests were done in a virtual environment without equipment behind, we have for the moment just checked that the dependencies are installed well and that the demons manage to launch.
+> These tests were done in a virtual environment without any equipment behind, for the moment we have just checked that the dependencies are installed well and that the demons manage to launch.
