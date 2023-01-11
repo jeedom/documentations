@@ -6,27 +6,27 @@
 
 ## Summary
 
-Placed in a corridor, the living room, the garage of your house for example, the motion sensor detects a presence, the change of state is instantaneous.
+Placed in a hallway, the living room, the garage of your home for example, the motion sensor detects a presence, the change of state is instantaneous.
 
-Thanks to its wide viewing angle and its range, it makes it possible to secure a large perimeter. Integrated LED indicator signals any change of state.
+Thanks to its wide angle of vision and its range, it makes it possible to secure a wide perimeter. Built-in LED indicator signals any status changes.
 
 ## Fonctions
 
--   Detects movement, even in complete darkness
--   Ultra compact
--   Signal transmitted instantly upon detection
--   Self-protection against lifting
+-   Detects motion, even in complete darkness
+-   Ultra-compact
+-   Signal transmitted instantaneously upon detection
+-   Pull-out self-protection
 -   Ease of use and installation
--   Wall mounting by screws or double sided
+-   Wall mounting by screws or double-sided
 -   Battery level information
 
 ## Technical characteristics
 
--   Type of module : Edisio transmitter
--   Food : 3VDC (Lithium battery ER14250)
--   Frequency : 868.3 MHz
--   Operating temperature : 0 ° C + 45 ° C
--   Range in free field : 100M
+-   Mod type : Edisio transmitter
+-   Feed : 3VDC (Lithium Battery ER14250)
+-   Frequency : 868.3MHz
+-   Operating temperature : 0°C +45°C
+-   Range in open fields : 100M
 -   Detection range : 6M
 -   Dimensions : 25x79x19mm
 -   Degree of protection : IP20
@@ -35,29 +35,29 @@ Thanks to its wide viewing angle and its range, it makes it possible to secure a
 ## Module data
 
 -   Mark : Edisio Smart Home
--   Name : EMS-200
+-   Last name : EMS-200
 
-## General configuration
+## General Setup
 
-To configure the Edisio plugin and associate a module with Jeedom, refer to this [Documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/edisio/).
+To configure the Edisio plugin and associate a module with Jeedom, refer to this [documentation](https://doc.jeedom.com/en_US/plugins/automation%20protocol/edisio/).
 
-> **IMPORTANT**
+> **Important**
 >
 > For Jeedom to automatically create your transmitter modules, don't forget to activate the option in the plugin configuration.
 
 > **Tip**
 >
-> Placement is recommended at a height of 150 cm and near the desired felt temperature.
+> Placement is recommended at a height of 150 cm and close to the desired felt temperature.
 
 ### "E" button"
 
-You will find the button "E" which is the association button of the temperature sensor.
+You will find the "E" button which is the temperature sensor pairing button.
 
 ![ems200.bouton e](images/ems200/ems200.bouton-e.jpg)
 
 ### Detection
 
-The sensor detects the slightest movement within a radius of about 6m
+The sensor detects the slightest movement within a radius of approximately 6m
 
 ![ems200.detection](images/ems200/ems200.detection.jpg)
 
@@ -69,34 +69,34 @@ By default, the timer is disabled. This parameter is used to configure the delay
 
 ## Association of the sensor with Jeedom
 
-The association of the motion sensor is easy as pie. Just press the "E" button, located under the sensor. This will be recognized automatically by Jeedom. Just go to the Edisio plugin. You will be able to place it in an object, give it a name and save.
+The association of the motion sensor, is simple as pie. Just press the "E" button, located under the sensor. This will be recognized automatically by Jeedom. All you have to do is go to the Edisio plugin. You can then place it in an object, give it a name and save.
 
-Once your equipment is paired, you should get this :
+Once your equipment is linked, you should get this :
 
 ![ems200.general](images/ems200/ems200.general.jpg)
 
 > **Tip**
 >
-> So that the widget is present on the dashboard, remember to place your equipment in an object.
+> In order for the widget to be present on the dashboard, remember to place your equipment in an object.
 
 ### Commandes
 
 Once your equipment is created, you should get the commands associated with the module :
 
-![Commands](images/ems200/ems200.commande.jpg)
+![Orders](images/ems200/ems200.commande.jpg)
 
 Here is the list of commands :
 
--   Presence : It is the command which indicates if a presence is detected
--   Drums : Indicates the battery status
+-   Presence : This is the command that indicates if a presence is detected
+-   Battery : Indicates battery status
 
 ### Informations
 
 Once your equipment is associated with Jeedom, various information will be available :
 
-![Commands](images/ems200/ems200.informations.jpg)
+![Orders](images/ems200/ems200.informations.jpg)
 
 -   Creation : Indicates the date on which the equipment was created
 -   Communication : Indicates the last communication recorded between Jeedom and the module
--   Drums : Indicates the battery status of the battery modules
--   STATUS : Returns the status of the module
+-   Battery : Indicates battery status of battery modules
+-   Status : Returns the status of the module

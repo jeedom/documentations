@@ -28,7 +28,7 @@ Some examples:
   $('#table_objectSummary tbody').append(tr)
   $('#table_objectSummary tbody tr').last().setValues(_summary, '.objectSummaryAttr')
 
-  //purejs:
+  //pure js:
   document.querySelector('#table_objectSummary tbody').insertAdjacentHTML('beforeend', tr)
   document.querySelectorAll('#table_objectSummary tbody tr').last().setJeeValues(_summary, '.objectSummaryAttr')
 
@@ -37,7 +37,7 @@ Some examples:
   var config = $('#config').getValues('.configKey')[0]
   var expression = $(this).closest('.actionOnMessage').getValues('.expressionAttr')
 
-  //purejs:
+  //pure js:
   var eqId = document.querySelector('.eqLogicAttr[data-l1key="id"]').jeeValue()
   var config = document.getElementById('config').getJeeValues('.configKey')[0]
   var expression = this.closest('.actionOnMessage').getJeeValues('.expressionAttr')
@@ -54,7 +54,7 @@ Some examples:
     //return newRow
   }
 
-  //purejs:
+  //pure js:
   addMyTr: function(_data) {
     var tr = ' <tr>'
     tr += ' <td>'
@@ -178,7 +178,7 @@ As a reminder:
 
 > **Remark**
 >
-> These changes may result in the need to mount the minimum required Jeedom version of many plugins. This is why the *Deprecated* do not appear on a V4-Stable Branch Core, but allow developers to see what they can fix.
+> These changes may result in the need to mount the minimum required Jeedom version of many plugins. This is why the *deprecated* do not appear on a V4-Stable Branch Core, but allow developers to see what they can fix.
 
 - jQuery Autocomplete
 
@@ -206,7 +206,7 @@ The jQuery-dependent Autocomplete lib will be removed in a future Core release. 
 
 </details>
 
-See [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+To see [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 - jQuery bootbox
 
@@ -274,7 +274,7 @@ The jQuery plugin *jquery.at.caret* goes deprecated. Use `myElement.insertAtCurs
 
 
 
-See [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+To see [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 
 ### Optional changes
