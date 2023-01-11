@@ -4,6 +4,12 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 10/01/2023
+
+- Nova interface AppV2
+- Menu personalizado modal AppV2
+- Modal QrCode AppV2
+
 # 13/12/2021
 
 - Modo offline para QrCode (criação de QrCode sem internet.).

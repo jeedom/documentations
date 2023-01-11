@@ -4,6 +4,12 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 10.01.2023
+
+- Neue AppV2-Schnittstelle
+- Modales benutzerdefiniertes Menü AppV2
+- Modale QRCode-AppV2
+
 # 13.12.2021
 
 - Offline-Modus für QrCode (Erstellung von QrCode ohne Internet.).
