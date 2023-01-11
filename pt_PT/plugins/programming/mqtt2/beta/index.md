@@ -57,11 +57,7 @@ Uma vez que o corretor Mosquitto está instalado *(se necessário)*, você pode 
 Você deve indicar o tópico raiz do equipamento *(`teste` por exemplo)*, então de acordo com o tipo de comandos :
 
 - **Comandos de informações** : basta indicar o tópico completo.
-  >Por exemplo, se você colocar `toto/1`, todas as mensagens do tópico `test/toto/1` serão escritas automaticamente no comando em questão. O sistema é capaz de gerenciar campos do tipo json, neste caso você deve colocar `toto/1#key1` ou `toto/1#key1::key2` para descer um nível.
-
-  >**IMPORTANTE**
-  >
-  >É absolutamente necessário que a chegada corresponda a um valor. Se você tiver `{"k1":"v1","k2":{"k2.2":"v2.2"},"k3":["v3.1"]}`, você pode colocar `toto/1#k1` ou `toto/1#k2:k2.2` ou `toto/1#k3:0`` mais ``toto/1#k2` não é possível.
+  >Por exemplo, se você colocar `toto/1`, todas as mensagens do tópico `test/toto/1` serão escritas automaticamente no comando em questão. O sistema é capaz de gerenciar campos do tipo json, neste caso você tem que colocar `toto/1/key1` ou `toto/1/key1/key2` para descer um nível.
 
 - **Comandos de ação** : basta indicar o tema e a mensagem.
   >Por exemplo, se você colocar `toto/2` com a mensagem `plop`, cada clique no comando enviará a mensagem `plop` para o tópico `test/toto/2`.

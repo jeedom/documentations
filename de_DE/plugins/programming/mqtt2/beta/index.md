@@ -57,11 +57,7 @@ Es ist möglich, MQTT-Equipment direkt im Plugin zu erstellen.
 Sie müssen das Wurzelthema des Geräts angeben *(„Testen“ zum Beispiel)*, dann nach Art der Befehle :
 
 - **Info-Befehle** : Geben Sie einfach das vollständige Thema an.
-  >Wenn Sie beispielsweise „toto/1“ eingeben, werden alle Nachrichten zum Thema „test/toto/1“ automatisch auf den betreffenden Befehl geschrieben. Das System kann Felder vom Typ json verwalten, in diesem Fall müssen Sie `toto/1 eingeben#key1` oder `toto/1#key1::key2`, um eine Ebene nach unten zu gehen.
-
-  >**WICHTIG**
-  >
-  >Es ist zwingend erforderlich, dass die Ankunft einem Wert entspricht. Wenn Sie `{"k1":"v1","k2":{"k2.2":"v2.2"},"k3":["v3.1"]}`, können Sie `toto/1#k1` oder `toto/1#k2:k2.2` oder `toto/1#k3:0`` mais ``toto/1#k2` ist nicht möglich.
+  >Wenn Sie beispielsweise „toto/1“ eingeben, werden alle Nachrichten zum Thema „test/toto/1“ automatisch auf den betreffenden Befehl geschrieben. Das System kann Felder vom Typ json verwalten, in diesem Fall müssen Sie `toto/1/key1` oder `toto/1/key1/key2` eingeben, um eine Ebene nach unten zu gehen.
 
 - **Aktionsbefehle** : Geben Sie einfach das Thema und die Nachricht an.
   >Wenn Sie beispielsweise „toto/2“ mit der Nachricht „plop“ eingeben, wird bei jedem Klick auf den Befehl die Nachricht „plop“ an das Thema „test/toto/2“ gesendet.

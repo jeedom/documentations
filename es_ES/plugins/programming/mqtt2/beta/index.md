@@ -57,11 +57,7 @@ Es posible crear equipos MQTT directamente en el complemento.
 Debe indicar el tema raíz del equipo *(`prueba` por ejemplo)*, entonces de acuerdo al tipo de comandos :
 
 - **Comandos de información** : solo indica el tema completo.
-  >Por ejemplo, si pones `toto/1`, todos los mensajes sobre el tema `test/toto/1` se escribirán automáticamente en el comando en cuestión. El sistema es capaz de gestionar campos tipo json, en este caso hay que poner `toto/1#key1` o `toto/1#key1::key2` para bajar un nivel.
-
-  >**IMPORTANTE**
-  >
-  >Es absolutamente necesario que la llegada corresponda a un valor. Si tienes `{"k1":"v1","k2":{"k2.2":"v2.2"},"k3":["v3.1"]}`, puedes poner `toto/1#k1` o `toto/1#k2:k2.2` o `toto/1#k3:0'' mais ''toto/1#k2` no es posible.
+  >Por ejemplo, si pones `toto/1`, todos los mensajes sobre el tema `test/toto/1` se escribirán automáticamente en el comando en cuestión. El sistema es capaz de gestionar campos tipo json, en este caso hay que poner `toto/1/key1` o `toto/1/key1/key2` para bajar un nivel.
 
 - **Comandos de acción** : solo indica el tema y el mensaje.
   >Por ejemplo, si coloca `toto/2` con el mensaje `plop`, cada clic en el comando enviará el mensaje `plop` al tema `test/toto/2`.
