@@ -87,6 +87,7 @@ Le fichier plugin-template.js et la plupart des pages du Core utilisent maintena
 fonctions DOM propres au Core:
 
 [domUtils {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
+
 [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 
