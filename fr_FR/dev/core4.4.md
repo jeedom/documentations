@@ -93,22 +93,22 @@ fonctions DOM propres au Core:
 
 ### Obsolete
 
-- Fonction php
+#### Fonction php
 
 `displayExeption()` -> `displayException()`  
 `convertDayEnToFr()` -> `convertDayFromEn()`
 
-- Fonctions js (disponibles depuis Core4.3):
+#### Fonctions js (disponibles depuis Core4.3):
 
 `displayPlan()` -> `jeeFrontEnd.plan.displayPlan()`
 
-- jQuery Toastr / Tooltipster
+#### jQuery Toastr / Tooltipster
 
 La lib *toastr* a été supprimée du Core. Elle était utilisée au travers des fonctions jeedomUtils.showAlert() et hideAlert() et a été remplacée par la fonction interne du Core jeeDialog.toast().
 
 La lib Tooltipster, dépendante de jQuery, a également été remplacée par la lib Tippy js. L'utilisation de jeedomUtils.initTooltips() par les plugins ne change pas.
 
-- jQuery datetimepicker
+#### jQuery datetimepicker
 
 La lib *datetimepicker* a été supprimée du Core. Elle était utilisée au travers des fonctions jeedomUtils.datePickerInit() et dateTimePickerInit() et a été remplacée par la lib [flatpickr](https://flatpickr.js.org/).
 
