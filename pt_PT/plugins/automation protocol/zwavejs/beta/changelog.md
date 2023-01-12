@@ -4,49 +4,20 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# XX/01/2023
+
+**Alterações de configuração**
+
+- Mudando a configuração *Aeotec ZWA24 7 em 1* para usar as propriedades
+- Mudando a configuração *Everspring SM810* para usar as propriedades
+- Mudando a configuração *Fibaro FGS213* mude para o endpoint 1 (firmware >=3.3) e adicionado sensor de calor e notificação de sobrecorrente
+- Editando a imagem *Aeotec ZWA24 7 em 1* (recorte)
+
+**Adições de configuração**
+
+- Adicionando uma subpropriedade *Sensor de calor* na propriedade *Notificação*
+
 # 24/12/2022
-
-**Postagem do desenvolvedor**
-
-Aqui está a provável última atualização do plugin de 2022. Em apenas 1 mês terá havido grandes desenvolvimentos. No final, muito poucos bugs, o que é positivo. 
-Em evoluções notáveis desde o lançamento estável há um mês :
-
-- Gestão S2
-- Gerenciamento NVMS (o trabalho está em andamento com a equipe ZwaveJS para tornar a compatibilidade de restauração mais ampla)
-- Gerenciamento de atualização OTA
-- Adição de um mecanismo de atualização de relatório solicitado personalizável (para ser usado somente se necessário, o que deve acontecer em 1 módulo de 200)
-- Adição de gerenciamento de parâmetros pendentes
-- Gerenciamento de versão de dependência ajustado
-
-Se você ler este changelog você poderá ver muito trabalho para melhorar os confs (é claro que existem tantos módulos que ainda existem alguns).
-
-Pequenas explicações
-
-Este plug-in é um novo plug-in, poderia ter saído como um novo plug-in com 3 confs e adicionado à medida que avançamos. Resolvi tentar migrar os confs do OZW para ter um ponto de partida equivalente a chegada do plugin antigo.
-Mas e insisto nisso são dois plugins *diferente*. A OZW fez muitos patches e frequentemente agrupava endpoints ou até mesmo comandos em um. Então perdemos informações e o script de migração teve que fazer uma escolha. Hoje temos acesso à cartografia completa do Zwave
-Uma guia de valores foi desenvolvida, isso representa pelo menos 15-20% do desenvolvimento do plugin, mas permite que você veja tudo, controle tudo e até gere comandos.
-Por que você migrou os confs e não fez 0. Porque simplesmente haveria 50 vezes menos confs. E um conf migrado em 75% dos casos terá alguns ou todos os seus comandos funcionais. É graças a isso que muitos de vocês têm tudo o que funciona.
-Basicamente, isso significa que há :
-- confs revalidados e otimizados (porque sim, além disso, graças a este plugin, podemos ir mais longe em certos tipos de módulos) para reconhecê-los é simples se passar o mouse sobre o nome do módulo acima de sua imagem (página do equipamento) há uma seção de propriedades, então é uma conf atualizada (também visível no canto inferior direito do modal NODES)
-- confs migrados (eles não terão seção de propriedades, mas apenas uma seção de comandos) aqui o conf pode funcionar perfeitamente (mas geralmente passo em propriedades para melhorá-los e para melhor monitoramento), eles podem ter alguns comandos ruins ou podem não ser Boa.
-
-É aqui que a aba de valores pode te ajudar a entender e ser independente. Mas de qualquer forma tem que voltar ao ponto, se tiver a possibilidade de fazer um ticket faça e com acesso é o ideal. Isso permite com minha expertise ver se podemos ir além (porque muitos módulos trazem coisas desnecessárias ou não estão no lugar certo) e geralmente aproveito para olhar todos os módulos (que funcionam) mas para os quais vejo otimizações ou adições para fazer
-
-Se você olhar o changelog verá o número de confs que podem ser feitos (na verdade este novo plugin foi desenhado para ser capaz de fazê-los mais rápido).
-
-Então este novo plugin permite, ao contrário do antigo, distinguir entre as versões do firmware, estou pensando aqui no Fibaro, que é o especialista em diferentes comportamentos de acordo com o firmware. Diga a si mesmo que se um conf for feito com propriedades (então sim, pode acontecer um erro), mas é que tem 99% de chance de ser válido. E se o seu firmware exigir outra coisa, mas não for remontado, o conf não pode ser adaptado para gerenciar essa especificidade.
-E, finalmente, existem módulos como o fgr223, que é um buggy (bug universal conhecido) que não relata o status no gatilho do ZWAVE. É para isso que serve o mecanismo de atualização. No plugin antigo também era feito mas não visível e não configurável. Neste é visível e configurável. Mas eu insisto em não brincar com isso. Use a visibilidade para corrigir se vê algo ou para ajustar os números e expectativas de acordo com o seu uso. De fato, um obturador, dependendo do que é, pode facilmente levar 15 segundos para um ciclo e 45 segundos para outro.
-Qualquer solicitação de suporte com pesquisas ou atualizações sem sentido em todos os lugares será recusada.
-
-E uma última palavra para o que qualificarei como "aprendizes de feiticeiro". Chamar-se de especialista achando que encontrou uma ordem na aba de valores (que lembro que foi desenvolvida por mim)... É perigoso para você e para todos aqueles a quem você conta e segue nas redes.
-Idem para aqueles que dizem que mudei tudo nos meus módulos antigos ou o conf não estava bom, mas não remontei nada. Bom, a conf vai continuar como está.... é uma pena
-
-Todos que fizeram boleto acho que vão poder confirmar, a análise é minuciosa e beneficia a todos. Claro que também tentamos do nosso lado encontrar todos os módulos possíveis. Mas cada um de vocês tem um módulo que nós não vamos ter, um módulo com firmware que os outros não vão ter.
-
-Hoje 75% do caminho dos confs está feito de acordo com minha estimativa, mas não vamos parar por aí vamos continuar, adicionar confs, melhorar confs, deixar os especialistas analisarem, temos acho que um plugin a milhares de kms do antigo, o confs irá alcançá-lo muito rapidamente e facilmente ultrapassá-lo. 
-Você quer que o changelog continue parecido com o do mês passado (em apenas um mês), então vamos lá.
-
-BOAS FESTAS A TODOS Deixo-vos com o changelog deste dia 24 de Dezembro e desejo-vos umas boas férias
 
 **Alterações de configuração**
 

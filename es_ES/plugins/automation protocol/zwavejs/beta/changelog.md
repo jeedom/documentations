@@ -4,49 +4,20 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# XX/01/2023
+
+**Cambios de configuración**
+
+- Cambiar la configuración *Aeotec ZWA24 7en1* para usar las propiedades
+- Cambiar la configuración *Everspring SM810* para usar las propiedades
+- Cambiar la configuración *Fibaro FGS213* cambiar al punto final 1 (firmware >=3.3) y sensor de calor añadido y notificación de sobrecorriente
+- Editando la imagen *Aeotec ZWA24 7en1* (recorte)
+
+**Adiciones de configuración**
+
+- Añadir una subpropiedad *Sensor de calor* en la propiedad *Notificación*
+
 # 24/12/2022
-
-**Publicación del desarrollador**
-
-Aquí está la muy probable última actualización del complemento de 2022. En apenas 1 mes habrá grandes novedades. Al final muy pocos errores lo cual es positivo. 
-En evoluciones notables desde el lanzamiento estable hace un mes :
-
-- Gestión S2
-- Gestión de NVMS (se está trabajando con el equipo de ZwaveJS para ampliar la compatibilidad de la restauración))
-- Gestión de actualizaciones OTA
-- Adición de un motor de actualización de informes solicitados personalizable (para usarse solo si es necesario, lo que debería suceder en 1 módulo de 200))
-- Adición de gestión de parámetros pendientes
-- Gestión de versiones de dependencia optimizada
-
-Si lee este registro de cambios, podrá ver mucho trabajo para mejorar las configuraciones (por supuesto, hay tantos módulos que todavía hay algunos).
-
-Pequeñas explicaciones
-
-Este complemento es un complemento nuevo, podría haber salido como un complemento nuevo con 3 confs y agregado a medida que avanzamos. Decidí intentar migrar las confs de OZW para tener un punto de partida equivalente a la llegada del antiguo plugin.
-Pero e insisto en ello estos son dos plugins *diferentes*. OZW realizó muchos parches y, a menudo, agrupaba puntos finales o incluso comandos en uno. Así que perdimos información y el script de migración tuvo que tomar una decisión. Hoy tenemos acceso a la cartografía completa de Zwave
-Se ha desarrollado una pestaña de valores, esto representa al menos el 15-20% del desarrollo del complemento, pero le permite ver todo, controlar todo e incluso generar comandos.
-¿Por qué migraste las confs y no hiciste 0?. Porque simplemente habría habido 50 veces menos confs. Y una conf migrada en el 75% de los casos tendrá algunos o todos sus comandos funcionales. Es gracias a esto que muchos de ustedes tienen todo lo que funciona.
-Básicamente esto significa que hay :
-- confs revalidados y optimizados (porque sí además gracias a este plugin podemos ir más allá en ciertos tipos de módulos) para reconocerlos es sencillo si al pasar el cursor sobre el nombre del módulo encima de su imagen (página del equipo) hay una sección de propiedades, entonces es una conf actualizada (también visible en la parte inferior derecha del modal NODES)
-- confs migradas (no tendrán sección de propiedades sino solo una sección de comandos) aquí las conf pueden funcionar perfectamente (pero generalmente las paso en propiedades para mejorarlas y para un mejor monitoreo), pueden tener algunos comandos malos, o pueden no serlo bueno.
-
-Aquí es donde la pestaña de valores puede ayudarlo a comprender y ser independiente. Pero en cualquier caso hay que volver al punto, si tienes la posibilidad de hacer ticket hazlo y con acceso es ideal. Esto permite con mi experiencia ver si podemos ir más allá (porque muchos módulos traen cosas innecesarias o no en el lugar correcto) y generalmente aprovecho para mirar todos los módulos (que funcionan) pero para los que veo optimizaciones o adiciones para hacer
-
-Si observa el registro de cambios, verá la cantidad de configuraciones que se pueden hacer (de hecho, este nuevo complemento ha sido diseñado para poder hacerlas más rápido).
-
-Entonces, este nuevo complemento permite, a diferencia del anterior, distinguir entre versiones de firmware, estoy pensando aquí en Fibaro, que es el especialista en diferentes comportamientos según el firmware. Díganse que si una conf está hecha con propiedades (entonces sí puede pasar un error) pero es que tiene un 99% de posibilidades de ser válida. Y si su firmware requiere algo más pero no se vuelve a ensamblar, la conf no se puede adaptar para administrar esta especificidad.
-Y finalmente, hay módulos como el fgr223 que tiene errores (error universalmente conocido) que no informa el estado en el disparador ZWAVE. Para eso está el motor de refresco. En el complemento anterior también se hizo pero no visible y no configurable. En este es visible y configurable. Pero insisto en que no juegues con eso. Usa la visibilidad para corregir si ves algo o para ajustar los números y expectativas de acuerdo a tu uso. De hecho, un obturador, dependiendo de lo que sea, puede tardar fácilmente 15 segundos para uno en un ciclo y 45 segundos para otro.
-Se rechazará cualquier solicitud de soporte con encuestas sin sentido o actualizaciones en todas partes.
-
-Y una última palabra para lo que calificaré como "aprendices de brujo"". Llamarte experto pensando que has encontrado una orden en la pestaña de valores (que te recuerdo fue desarrollada por mí mismo)... Es peligroso para ti y para todos aquellos a los que les dices y te siguen en redes.
-Lo mismo ocurre con aquellos que dicen que cambié todo en mis módulos antiguos o que la conf no era buena pero no volví a montar nada. Bueno, la conf permanecerá como está... es una pena
-
-Todos los que hicieron un ticket creo que podrán confirmarlo, el análisis es minucioso y beneficia a todos. Por supuesto, también tratamos de nuestro lado para encontrar todos los módulos posibles. Pero cada uno de ustedes tiene un módulo que no tendremos, un módulo con firmware que otros no tendrán.
-
-Hoy el 75% del camino de las confs esta hecho segun mi estimado, pero no nos quedemos ahi sigamos, agreguemos confs, mejoremos confs, dejemos que los expertos analicen, tenemos creo que un plugin a miles de kms del anterior, el confs lo alcanzará muy rápidamente y lo alcanzará fácilmente. 
-Desea que el registro de cambios siga luciendo como el del mes pasado (en solo un mes), así que vamos.
-
-FELICES FIESTAS A TODOS Os dejo con el changelog de este 24 de diciembre y os deseo unas muy felices fiestas
 
 **Cambios de configuración**
 
