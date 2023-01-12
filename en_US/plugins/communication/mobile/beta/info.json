@@ -43,7 +43,8 @@
         "docker",
         "diy",
         "mobile",
-        "v4"
+        "v4",
+        "luna"
     ],
     "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/mobile\/beta\/changelog",
     "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/mobile\/beta"

@@ -6,9 +6,10 @@
 
 # 10.01.2023
 
-- Neue AppV2-Schnittstelle
-- Modales benutzerdefiniertes Menü AppV2
-- Modale QRCode-AppV2
+- ZUKÜNFTIGE APPV2 ALPHA INTEGRATION IN MOBILE PLUGIN
+- Neue Schnittstelle Future AppV2
+- Modales benutzerdefiniertes Menü Zukünftige AppV2
+- Modale QrCode Future AppV2
 
 # 13.12.2021
 

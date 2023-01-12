@@ -6,9 +6,10 @@
 
 # 01/10/2023
 
-- New AppV2 interface
-- Modal Custom Menu AppV2
-- Modal QrCode AppV2
+- FUTURE APPV2 ALPHA INTEGRATION IN MOBILE PLUGIN
+- New Interface Future AppV2
+- Modal Custom Menu Future AppV2
+- Modal QrCode Future AppV2
 
 # 12/13/2021
 
