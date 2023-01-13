@@ -179,7 +179,7 @@ As a reminder:
 
 > **Remark**
 >
-> These changes may result in the need to mount the minimum required Jeedom version of many plugins. This is why the *deprecated* do not appear on a V4-Stable Branch Core, but allow developers to see what they can fix.
+> These changes may result in the need to mount the minimum required Jeedom version of many plugins. This is why the *Deprecated* do not appear on a V4-Stable Branch Core, but allow developers to see what they can fix.
 
 #### jQuery Autocomplete
 
@@ -327,7 +327,7 @@ The contextMenu lib, dependent on jQuery, will be removed in a future version of
 
 </details>
 
-To see [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+See [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 
 ### Optional changes

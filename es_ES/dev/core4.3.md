@@ -1,4 +1,4 @@
-## Núcleo v4.3 | Desarrolladores de complementos
+## Core v4.3 | Desarrolladores de complementos
 
 ### Obsolete
 
@@ -6,7 +6,7 @@
 
 ### Deprecated
 
-Casi todas las variables y funciones de la página principal se han aislado en un espacio de nombres : te permite no volver a crear todas las funciones si regresas a la página, aislar las variables y funciones por página para que no haya colisión, hace que el código sea mucho más legible ya que sabes qué función o variable va y dónde, y eso ayuda enormemente a la depuración (una consola del espacio de nombres y vemos todo).
+Casi todas las variables y funciones de la página principal se han aislado en un espacio de nombres : te permite no recrear todas las funciones si vuelves a la página, aislar las variables y funciones por página para que no haya colisión, hace que el código sea mucho más legible ya que sabes qué función o variable va y dónde, y eso ayuda enormemente a la depuración (una consola del espacio de nombres y vemos todo).
 
 Las funciones js de la interfaz de usuario ahora están en el espacio de nombres jeeFrontEnd{} :
 
@@ -38,7 +38,7 @@ En la misma lógica, las variables pasadas de php a js ahora están en el espaci
 
 - Exemple: La variable js `planHeader_id` se convierte en `jeephp2js.planHeader_id`.
 
-### Cambios opcionales
+### Modificaciones opcionales
 
 #### Código fuente y traducciones
 

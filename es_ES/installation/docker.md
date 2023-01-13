@@ -1,50 +1,50 @@
-# 
+# Instalación de Docker
 
-> ****
+> **Importante**
 >
-> 
+> Tenga en cuenta que aquí asumimos que ya está familiarizado con Docker
 
-## 
+## Instalación de Docker
 
-.
+Docker ahora está disponible en todas las distribuciones recientes.
+Para instalarlo en una distribución
 
-
--    ``rpm``
+-   a base de ``rpm``
 
 ````
 yum install docker
 ````
 
--    ``deb``
+-   a base de ``deb``
 
 ````
-apt-g update
-apt-g install docker.io
+apt-gy update
+apt-gy install docker.io
 ````
 
-## 
+## Instalar una imagen Jeedom
 
- :
+Instalación de imagen :
 
 ``docker pull jeedom/jeedom:V4-stable``
 
- :
+Luego inicie el :
 
 ``sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/db:/var/lib/mysql -p 9080:80 jeedom/jeedom:V4-stable``
 
- :
+Con :
 
--   ``jeedom-server`` : 
--   ``/opt/jeedom/www``  ``/opt/jeedom/db`` : )
+-   ``jeedom-server`` : Se busca el nombre de Jeedom Docker
+-   ``/opt/jeedom/www`` y ``/opt/jeedom/db`` : directorio donde los datos de Jeedom se colocan en el host (tenga cuidado de crearlos antes)
 
-> ****
+> **Consejos**
 >
-> 
+> Es posible que después de iniciar Docker no le devuelva la mano, nada serio puede cerrar todo, la libertad continuará ejecutándose
 
- : ``IP_DOCKER:9080``
+Entonces necesita instalar Jeedom yendo a : ``IP_DOCKER:9080``
 
-> ****
+> **Consejos**
 >
->  ``docker ps``  ``docker stop jeedom-server``,  ``docker start jeedom-server``
+> Puedes ver a los estibadores girando ``docker ps`` para detener jeedom-server, por ejemplo, solo tienes que hacer ``docker stop jeedom-server``, revivirlo ``docker start jeedom-server``
 
- [](https://doc.jeedom.com/es_ES/premiers-pas/index)
+Por lo demás, puedes seguir la documentación [Primer paso con Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index)
