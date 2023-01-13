@@ -1,4 +1,4 @@
-## Core v4.3 | Plugin developers
+## Core v4.3 | Plugin Developers
 
 ### Obsolete
 
@@ -38,7 +38,7 @@ In the same logic, the variables passed from php to js are now in namespace jeep
 
 - Exemple: The js variable `planHeader_id` becomes `jeephp2js.planHeader_id`.
 
-### Optional modifications
+### Optional changes
 
 #### Source code and translations
 

@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 15.02.2021
+
+- Beginn der Hochverfügbarkeitsunterstützung für das neue DNS-System
+
 # 16/11/2020
 
 - Neue Darstellung der Objektliste

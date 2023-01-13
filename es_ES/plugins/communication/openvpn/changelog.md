@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 15/02/2021
+
+- Inicio del soporte de alta disponibilidad para el nuevo sistema DNS
+
 # 16/11/2020
 
 - Nueva presentación de la lista de objetos

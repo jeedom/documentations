@@ -10,7 +10,7 @@ Kern 4.4 integriert daher die Basisfunktionen setValues() und getValues(), die n
 
 Für einen einfacheren Umstieg und eine bessere Wartung sorgen die neuen Funktionen **getValues()** und **setValues()** auf dem DOM sind jetzt **setJeeValues()** und **getJeeValues()**.
 
-Außerdem alle Anrufe **Ajax**, sync oder async, durchlaufen Sie reine js-Funktionen, die intern für den Core entwickelt wurden. *load()* und *html()* werden daher von allen Klassen-js und von der Funktion jeedomUtils.loadPage verwendet(). Dies ermöglicht es Ihnen, alles zu kontrollieren, was ohne eine Abstraktionsschicht passiert, und hat es unter anderem ermöglicht, alle js-Skripte und CSS-Stylesheets, die von Drittanbietern (Core und Plugins) stammen, zu filtern, um sie in das Dokument zu laden.Kopf und laden Sie sie danach nicht neu !
+Außerdem alle Anrufe **Ajax**, sync oder async, durchlaufen Sie reine js-Funktionen, die intern für den Core entwickelt wurden. *load()* und *html()* werden daher von allen Klassen-js und von der Funktion jeedomUtils.loadPage verwendet(). Dies ermöglicht es Ihnen, alles zu steuern, was ohne eine Abstraktionsschicht passiert, und hat es unter anderem ermöglicht, alle js-Skripte und CSS-Stylesheets, die von Drittanbietern (Core und Plugins) stammen, zu filtern, um sie in das Dokument zu laden.Kopf und laden Sie sie danach nicht neu !
 
 Die Geschäftsführung von *Veranstaltungen* wird auch nach und nach auf reines js umstellen. Die Seiten **Synthese** **Armaturenbrett** **Design** und **Skript** sind bereits in vollem js mit Ereignisdelegierung.
 
@@ -179,7 +179,7 @@ Als eine Erinnerung:
 
 > **Anmerkung**
 >
-> Diese Änderungen können dazu führen, dass die mindestens erforderliche Jeedom-Version vieler Plugins gemountet werden muss. Deshalb die *Veraltet* nicht auf einem V4-Stable Branch Core erscheinen, sondern Entwicklern ermöglichen, zu sehen, was sie beheben können.
+> Diese Änderungen können dazu führen, dass die mindestens erforderliche Jeedom-Version vieler Plugins gemountet werden muss. Deshalb die *veraltet* nicht auf einem V4-Stable Branch Core erscheinen, sondern Entwicklern ermöglichen, zu sehen, was sie beheben können.
 
 #### jQuery-Autovervollständigung
 

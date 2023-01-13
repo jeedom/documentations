@@ -1,4 +1,4 @@
-## Core v4.3 | Desarrolladores de complementos
+## Núcleo v4.3 | Desarrolladores de complementos
 
 ### Obsolete
 
@@ -38,7 +38,7 @@ En la misma lógica, las variables pasadas de php a js ahora están en el espaci
 
 - Exemple: La variable js `planHeader_id` se convierte en `jeephp2js.planHeader_id`.
 
-### Modificaciones opcionales
+### Cambios opcionales
 
 #### Código fuente y traducciones
 

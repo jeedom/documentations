@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 02/15/2021
+
+- Beginning of high availability support for the new DNS system
+
 # 16/11/2020
 
 - New presentation of the list of objects
