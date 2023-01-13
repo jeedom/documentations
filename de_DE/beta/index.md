@@ -9,7 +9,7 @@ Ein Betatester ist ein Benutzer, der Softwareversionen testet, bevor sie für al
 
 Versionen **Beta** und **Alpha** Core oder Plugins sind Entwicklungsversionen. Obwohl die Entwickler natürlich Vorkehrungen treffen, können diese Versionen Fehler enthalten, die ein Plugin oder den Core vollständig funktionsunfähig machen könnten. Sie müssen daher mit Sicherungs- und Wiederherstellungsverfahren usw. vertraut sein.
 
-Die Kernentwicklung wird durchgeführt [GitHub](https://github.com/jeedom/core) auf der Version **Alpha**. Dieser hat also alle zukünftigen Neuheiten, aber auch die meisten Bugs. Darüber hinaus werden die an dieser Version vorgenommenen Entwicklungen wahrscheinlich abgebrochen oder verschoben. Die Version **Alpha** geht dann zurück zu **Beta**, was normalerweise ist *Hervorgehoben behoben* und soll daher seine Stabilität gewährleisten, während Plugin-Entwickler ihre zukünftigen Versionen testen können.
+Die Kernentwicklung wird durchgeführt [GitHub](https://github.com/jeedom/core) auf die Freigabe **Alpha**. Dieser hat also alle zukünftigen Neuheiten, aber auch die meisten Bugs. Darüber hinaus werden die an dieser Version vorgenommenen Entwicklungen wahrscheinlich abgebrochen oder verschoben. Die Version **Alpha** geht dann zurück zu **Beta**, was normalerweise ist *Hervorgehoben behoben* und soll daher seine Stabilität gewährleisten, während Plugin-Entwickler ihre zukünftigen Versionen testen können.
 
 > **Wichtig**
 > Die Passage in Beta (oder Alpha) eines Plugins oder des Kerns ist riskant und verbietet jeglichen Zugriff auf den offiziellen Support des Jeedom-Teams. Die Entwickler sind jedoch auf anwesend [Gemeinschaft](https://community.jeedom.com/) um im Problemfall zu helfen, jedoch ohne Gewähr.
@@ -60,7 +60,7 @@ In Fassung **Beta** und **Alpha**, die Änderungen sind viel häufiger (mehrmals
 
 Von Beginn der Entwicklung der Version **Alpha**, das Team versucht, die Zukunft [Changelog](/fr_FR/core/#VERSION#/Änderungsprotokoll). Neue Funktionen können sich erheblich ändern oder gelöscht oder verschoben werden, daher ist diese nicht unbedingt aktuell und hat keinen Referenzwert.
 
-In Fassung **Stetig**, Das Änderungsprotokoll enthält jede Nebenversion (4.1.26 -> 4.1.27 usw.). In Fassung **Beta** und **Alpha** das Änderungsprotokoll ist mit x.0 nummeriert.0 und entspricht daher nicht zwingend der aktuellen Minor-Version. Bei der Entwicklung von v4.2, das Changelog wird nur mit 4,2 bewertet.0 während eine Beta in 4.2.7 sein kann. Beim Durchfahren **Stetig**, das Änderungsprotokoll berücksichtigt dann jede zukünftige Unterversion.
+In Fassung **Stetig**, Das Änderungsprotokoll enthält jede Nebenversion (4.1.26 -> 4.1.27 usw.). In Fassung **Beta** und **Alpha** das Änderungsprotokoll ist mit x.0 nummeriert.0 und entspricht daher nicht zwingend der aktuellen Minor-Version. Bei der Entwicklung von v4.2, das Changelog wird nur mit 4,2 bewertet.0 während eine Beta in 4.2.7 sein kann. Beim Durchfahren **Stetig**, das Änderungsprotokoll berücksichtigt dann jede zukünftige Nebenversion.
 
 ### Ressouces
 

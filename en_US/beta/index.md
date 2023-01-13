@@ -9,7 +9,7 @@ A Beta Tester is a user who tests versions of software before they are released 
 
 Versions **Beta** and **Alpha** Core or plugins are development versions. Although the developers of course take precautions, these versions may include bugs that could render a plugin or the Core completely inoperative. You must therefore be familiar with backup and recovery procedures, etc.
 
-Core development is done on [Github](https://github.com/jeedom/core) on the release **Alpha**. This one therefore has all the future novelties, but also the most bugs. In addition, the developments made on this version are likely to be canceled or postponed. The version **Alpha** then goes back to **Beta**, which is usually *Featured fixed* and is therefore to ensure its stability, while allowing plugin developers to test their future versions.
+Core development is done on [Github](https://github.com/jeedom/core) on the version **Alpha**. This one therefore has all the future novelties, but also the most bugs. In addition, the developments made on this version are likely to be canceled or postponed. The version **Alpha** then goes back to **Beta**, which is usually *Featured fixed* and is therefore to ensure its stability, while allowing plugin developers to test their future versions.
 
 > **Important**
 > The passage in beta (or alpha) of a plugin or the Core is risky and prohibits any access to the official support of the Jeedom team. The developers are however present on [Community](https://community.jeedom.com/) to help in case of problem, without guarantee however.

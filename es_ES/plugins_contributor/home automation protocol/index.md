@@ -1,13 +1,13 @@
 
-# Pasarela domótica
+# 
 
 
->**Importante**
->Solo los complementos de contribuyentes tienen su documentación aquí. Puede consultar la documentación de los complementos oficiales directamente desde Jeedom Market. Una vez en el complemento en cuestión, haga clic en la documentación.
->Podéis ver [aquí](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=home+automation+protocol) todos los complementos oficiales en esta categoría
+>****
+>. . .
+> [](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&categorie=home+automation+protocol) 
 
 
 | | | | |
 |--- | --- | --- | ---|
-|<img src="MerosSync/MerosSync_icon.png" class="pluginLogo" width="100" />|MerosSync|Complemento para controlar dispositivos MEROSS. Por el momento este complemento funciona perfectamente con enchufes conectados meross. Si tiene otros elementos de Meross (bombilla, garaje, persiana), contácteme en un mensaje privado para que pueda ver el resultado y mejorar el complemento.|[Documentación estable](https://github.com/impulsio/MerosSync/blob/main/docs/es_ES/index.md) - [Documentación beta](https://github.com/impulsio/MerosSync/blob/main/docs/es_ES/index.md)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4329)<br/>[Registro de cambios estable](https://github.com/impulsio/MerosSync/blob/main/docs/es_ES/changelog.md) - [Registro de cambios Beta](https://github.com/impulsio/MerosSync/blob/main/docs/es_ES/changelog.md)|
-|<img src="Yokis/Yokis_icon.png" class="pluginLogo" width="100" />|Yokis passerelle|Plugin pour commander les modules Yokis en local|[Documentación estable](https://nwailly.github.io/Yokis_DOCS/docs/es_ES/Index) - [Documentación beta](https://nwailly.github.io/Yokis_DOCS/docs/es_ES/Indexbeta)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4248)<br/>[Registro de cambios estable](https://nwailly.github.io/Yokis_DOCS/docs/es_ES/changelog) - [Registro de cambios Beta](https://nwailly.github.io/Yokis_DOCS/docs/es_ES/changelogbeta)|
+|<img src="MerosSync/MerosSync_icon.png" class="pluginLogo" width="100" />|MerosSync|. . .|[](https://github.com/impulsio/MerosSync/blob/main/docs/es_ES/index.md) - [](https://github.com/impulsio/MerosSync/blob/main/docs/es_ES/index.md)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=4329)<br/>[](https://github.com/impulsio/MerosSync/blob/main/docs/es_ES/changelog.md) - [](https://github.com/impulsio/MerosSync/blob/main/docs/es_ES/changelog.md)|
+|<img src="Yokis/Yokis_icon.png" class="pluginLogo" width="100" />|||[](https://nwailly.github.io/Yokis_DOCS/docs/es_ES/Index) - [](https://nwailly.github.io/Yokis_DOCS/docs/es_ES/Indexbeta)<br/>[](https://market.jeedom.com/index.php?v=d&p=market_display&id=4248)<br/>[](https://nwailly.github.io/Yokis_DOCS/docs/es_ES/changelog) - [](https://nwailly.github.io/Yokis_DOCS/docs/es_ES/changelogbeta)|
