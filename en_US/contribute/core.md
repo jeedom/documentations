@@ -1,134 +1,134 @@
 
 
-# Contribute to Core development
+# Contribute to the development of the Core
 
-You want to contribute to the development of the Core of Jeedom ?
+You want to contribute to the development of the Jeedom Core ?
 
-- You can do PRs (*Pull requests*) on the *repository* of Core.
-- If you have ideas for developments and wish to participate in the long term, do not hesitate to [contact the project team](mailto:contact@jeedom.com).
+- You can do PRs (*Pull requests*) On the *repository* from Core.
+- If you have ideas for developments and want to participate in the long term, do not hesitate to [contact the project team](mailto:contact@jeedom.com).
 
-Here are the basics you need to know :
+Here are the basics to know :
 
-## Github Branches
+## Github branches
 
 To participate in the development of Jeedom, you must have an account [Github](https://github.com/).
 
-The Core code is Open-Source and available [here](https://github.com/jeedom/core).
+Core code is Open-Source and available [here](https://github.com/jeedom/core).
 
-- **alpha** :  V4 alpha branch. Mainly intended for developers for the next version of Jeedom.
-- **beta** : V4 beta version branch. Mainly intended for beta testers, to test before switching to Stable.
+- **alpha** :  Branch of version V4 alpha. Mainly intended for developers for the next version of Jeedom.
+- **Beta** : Branch of version V4 beta. Mainly intended for beta testers, to test before switching to Stable.
 - **V4-stable** : Stable branch of V4.
-- **release** : Release Candidate branch of V3. Only for bugfixes.
-- **Master** : V3 stable release branch.
+- **Release** : Release Candidate branch of V3. Only for bugfixs.
+- **Master** : Branch of the stable version V3.
 
-Updates are made on these branches according to the configuration of Jeedom **Settings → System → Configuration / Updates / Market**.
+The updates are made on these branches according to the configuration of Jeedom **Settings → System → Configuration / Updates / Market**.
 
-The PRs (*Pull requests*) must always be done on the alpha branch.
+PRs (*Pull requests*) must always be done on the alpha branch.
 
-Similarly, in order to participate in discussions on [Community](https://community.jeedom.com/), register as a developer : [Jeedom dev](https://www.jeedom.com/fr/dev.html).
+Likewise, in order to participate in discussions on [Community](https://community.jeedom.com/), register as a developer : [Jeedom dev](https://www.jeedom.com/fr/dev.html).
 
 ## Development
 
-To help with Core development, you must be proficient in one or more of the following languages:
+To help the development of the Core, you must master one or more of the following languages:
 
-- PHP : Development of php classes, ajax calls from the front-end.
-- javascript : Development of js classes and front-end.
-- CSS : Interface development.
+- Php : Development of php classes, ajax calls from the front-end.
+- JavaScript : Development of js classes and front-end.
+- Css : Interface development.
 
 Knowledge of the Linux environment is also desirable.
 
-## Core Tree
+## Core tree
 
-The code is distributed in different directories at the root of Jeedom (by default : var/www/html) :
+The code is distributed in different directories at the root of Jeedom (by default : var / www / html) :
 
-- 3rd party : Folder including the external libraries used by Jeedom (jQuery, CodeMirror, etc).
-- backup : Jeedom backups folder.
-- **core** : Folder including Core internal functions:
+- 3rdparty : File including the external libraries used by Jeedom (jQuery, CodeMirror, etc).
+- Backup : Jeedom backup folder.
+- **core** : File including the internal functions of the Core:
 	- **ajax** : Interface php files between js classes and php classes.
-	- api : API php files.
-	- **class** : Php class files (*eqLogic, cmd, jeeObject, history, cron, etc.*).
+	- API : API php files.
+	- **class** : PHP class files (*eqLogic, cmd, jeeObject, history, cron, etc.*).
 	- com : Communication php class files (*http, shell*).
-	- config : Core configuration php files and *default.config.ini* including default configuration settings. version file for Core version.
-	- css : Icons available with the Core and their CSS.
-	- i18n : Json files including translated character strings.
-	- image : Images (logos, backgrounds, etc.) of Core.
-	- **js** : Class js files, called in particular from Jeedom pages.
-	- php : PHP files necessary for the Core (excluding classes).
-	- repos : PHP files specific to market, samba, etc.
-	- **template** : Html files (*Dashboard and Mobile*) for displaying eqLogics (Tile), commands (Widgets) and scenarios.
-	- **topics** : CSS files of the three Core themes (Dark, Light, Legacy), for Dashboard and Mobile.
-- data : Folder containing user data (Reports, Views, Advanced Customization css/js, 3D Design, etc).
-- **desktop** : Folder including all the pages displayed (the interface) in desktop and their functions.
-	- common : Js/php files common to all or several pages. Groups together functions that can be called from several pages, in particular the *utils.js*, present on all pages in Desktop.
-	- css : Css files specific to desktop view.
-	- image : Images specific to Desktop display.
-	- js : Js files corresponding to each page (*administration, dashboard, scenarios, etc.*).
-	- modal : Modal php files, including php/html code and js code.
-	- php : Php files corresponding to each page (*administration, dashboard, scenarios, etc.*).
-- documents : Documentation.
+	- config : Core configuration php files and *default.config.ini* including default configuration settings. version file for the Core version.
+	- css : Icons available with Core and their CSS.
+	- i18n : Json files including translated strings.
+	- img : Core images (logos, backgrounds, etc.).
+	- **js** : Class js files, called in particular from the Jeedom pages.
+	- php : Php files required by Core (excluding classes).
+	- repo : PHP files specific to the market, samba, etc.
+	- **Template** : Html files (*Dashboard and Mobile*) for displaying eqLogics (Tile), commands (Widgets) and scenarios.
+	- **Themes** : CSS files of the three Core themes (Dark, Light, Legacy), for Dashboard and Mobile.
+- data : Folder including user data (Reports, Views, Advanced Personalization css / js, 3D Design, etc).
+- **Desktop** : Folder including all the pages displayed (the interface) in desktop and their functions.
+	- common : Js / php files common to all or several pages. Groups functions that can be called up from several pages, in particular the *utils.js*, present on all pages in Desktop.
+	- css : Desktop view specific css files.
+	- img : Images specific to Desktop view.
+	- js : Js files corresponding to each page (*administration, dashboard, scenario, etc.*).
+	- modal : Modal php files, including php / html code and js code.
+	- php : Php files corresponding to each page (*administration, dashboard, scenario, etc.*).
+- docs : Documentation.
 - install : Jeedom installation files.
-- log : Folder including all the logs (http.error, update, etc) and those of the scenarios (subfolder scenarioLog, named by id).
-- **mobile** : File including all the pages displayed (the webapp interface) on mobile and their functions.
-	- css : Css files specific to mobile view.
-	- html : Html files corresponding to each page (*home, equipment, timeline, etc.*).
+- Log : Folder including all logs (http.error, update, etc) and those of the scenarios (scenarioLog sub-folder, named by id).
+- **Mobile** : Folder including all the pages displayed (webapp interface) on mobile and their functions.
+	- css : Mobile view specific css files.
+	- l'opération à mener : HTML files corresponding to each page (*home, equipment, timeline, etc.*).
 	- js : Js files corresponding to each page (*home, equipment, timeline, etc.*).
-	- modal : Html files corresponding to modals in Mobile.
-- plugins : Folder including all installed plugins.
+	- modal : HTML files corresponding to the modals in Mobile.
+- Plugins : Folder including all installed plugins.
 - script : Deployment script, certificates.
-- support : Folder used in case of support request.
-- vendor : Folder including third-party php libraries.
+- Support : Folder used in case of support request.
+- vendor : File including third-party php libraries.
 
 
 ## Front-end
 
-The Jeedom interface works like a website, from php interfaced with SQL, and js / CSS.
+Jeedom's interface works like a website, from php interfaced with SQL, and js / CSS.
 
-Initially, the browser loads the file `/index.php` :
-- Verification of Jeedom installation, referral to `install/setup.php` if needed.
-- Desktop or Mobile Provenance Verification.
-- Loading necessary files and classes with `/core/php/core.inc.php`.
-- User Authentication Verification.
-- Verification of parameters in the url to directly load the correct content.
-- Redirect to Desktop version `/desktop/php/index.php` or Mobile `mobile/html/home.html` depending on url parameters.
+Initially, the browser loads the file `/ index.php :
+- Checking the installation of Jeedom, referral to ʻinstall / setup.php` if necessary.
+- Verification of the Desktop or Mobile origin.
+- Loading the necessary files and classes with `/ core / php / core.inc.php`.
+- Verifying user authentication.
+- Checking parameters in the url to directly load the right content.
+- Redirect to Desktop version `/ desktop / php / index.php` or Mobile `mobile / html / home.html` according to url parameters.
 
 ### Desktop
 
-The Jeedom interface works on the principle of One-Page. Once loaded, the different pages are displayed by changing the content of a container.
+Jeedom's interface works on the One-Page principle. Once loaded, the different pages are displayed by changing the content of a container.
 
-The main file in Desktop is `/desktop/php/index.php`.
+The main file in Desktop is `/ desktop / php / index.php`.
 
 Each page has at least two parameters in the url. Example :
 
-`https://my.dns1.jeedom.com/index.php?v=d&p=dashboard` :
-- **v** : Interface version. d for desktop, m for mobile.
+`https://my.dns1.jeedom.com/index.php?v = d & p = dashboard` :
+- **v** : Interface version. d for Desktop, m for mobile.
 - **p** : Page to display. Here, `dashboard`.
 
-In this case, the file `/desktop/php/index.php` will load the file `/desktop/php/dashboard.php` in the div `div_pageContainer`. This will also load the file `/desktop/js/dashboard.js` including the js functions specific to the display of this page (here, the Dashboard).
+In this case, the file `/ desktop / php / index.php` will load the file `/ desktop / php / dashboard.php` in the `div_pageContainer` div. This will also load the file `/ desktop / js / dashboard.js` including the js functions specific to the display of this page (here, the Dashboard).
 
-The file `/desktop/php/index.php` also takes care of :
+The `/ desktop / php / index file.php` also takes care of :
 - Check mode *rescue*
-- Verify User Authentication.
-- Check if necessary the page to load according to the configuration (default page of the user).
+- Verify user authentication.
+- Check if necessary the page to load according to the configuration (user default page).
 - Create the html structure (*head, body, div_pageContainer, etc*).
 - Load CSS, libraries etc.
 - Load user theme.
 - Create the menu bar.
-- Fill in some global php/js variables.
-- Load js file `desktop/common/js/utils.js`
+- Enter some global php / js variables.
+- Load the js file `desktop / common / js / utils.js`
 
-The `desktop/common/js/utils file.js` is therefore always present, and loaded once. It allows to :
+The `desktop / common / js / utils.js` is therefore always present, and loaded once. It allows to :
 - Manage menu js events.
 - Manage url parameters according to the requested page.
-- Load the requested page into the div `div_pageContainer`.
-- Manage opening/closing of modals (dialog window).
+- Load the requested page in the `div_pageContainer` div.
+- Manage the opening / closing of modals (dialog window).
 - Manage a possible theme switch depending on the time.
 - Allow different js files to access common functions.
 
-So the index.php and the utils.js provide the basic structure and functions of the interface.
-Then the called page content is loaded from desktop/php/page.php and desktop/js/page.js.
-These purely interface-oriented content files can access Core functions (`/core/class` classes) directly in php, or in js using js classes (`/core/js`) via ajax calls (`/core/ajax`).
+Thus, the index.php and the utils.js provide the basic structure and functions of the interface.
+Then the content of the called page is loaded from desktop / php / page.php and desktop / js / page.js.
+These content files, purely interface oriented, can access Core functions (`/ core / class` classes) directly in php, or in js thanks to js classes (` / core / js`) through ajax calls (`/ core / ajax`).
 
-The internal functions of the Core are thus well separated, for the internal functioning (Back-end), but are accessible by the interface. Similarly, each page has its own php and js code. This allows to better evolve and maintain the code, but also to optimize performance by loading only the necessary classes and functions.
+The internal functions of the Core are thus well separated, for internal operation (Back-end), but are accessible through the interface. Likewise, each page has its own php and js code. This allows you to better develop and maintain the code, but also to optimize performance by loading only the necessary classes and functions.
 
 #### Core v4.2
 Since Core v4.2, all js functions from `desktop/common/js/utils file.js` are isolated in a namespace `jeedomUtils{}`.
@@ -221,64 +221,64 @@ $(function() {
 
 ### Mobile
 
-The Desktop interface is responsive and adapts to the size of the browser. However, some things, such as editing a scenario, would be complicated on a small screen. In addition, on a smartphone outside, in 3G or even 4G, it is important to optimize the speed of the display. This is why Jeedom has a Mobile interface, lighter and adapted to small screens.
+The Desktop interface is responsive and adapts to the size of the browser. However, some things, like editing a scenario, would be complicated on a small screen. In addition, on a smartphone outdoors, in 3G or even 4G, it is important to optimize the speed of the display. This is why Jeedom has a Mobile interface, lighter and adapted to small screens.
 
-The referring page is `/mobile/html/index.html`, which takes care of :
-- Verify User Authentication.
+The referring page is `/ mobile / html / index.html`, which takes care of :
+- Verify user authentication.
 - Create the html structure (*head, body, div_pageContainer, etc*).
 - Load CSS, libraries etc.
 - Load user theme.
-- Fill in some global php/js variables.
-- Load js file `mobile/js/application.js`
+- Enter some global php / js variables.
+- Load js file `mobile / js / application.js`
 
-The file `mobile/js/application.js` contains functions common to all pages.
+The file `mobile / js / application.js` contains functions common to all pages.
 
 As for the Desktop interface, the page called consists of two files :
-- `/mobile/html/home.html` : the html code.
-- `/mobile/js/home.js` : the js functions specific to this page.
+- `/ mobile / html / home.html` : the html code.
+- `/ mobile / js / home.js` : the js functions specific to this page.
 
-A noticeable difference in Mobile is the absence of php pages. Code generation therefore relies on js classes, which can still call Core functions with ajax calls.
+A notable difference in Mobile is the absence of php pages. The code generation is therefore based on the js classes, which can always call Core functions with ajax calls.
 
 ### CSS files
 
-Core CSS relies mostly on these files:
+Core CSS is mainly based on these files:
 - In Desktop :
-	- desktop/css/boostrap.css : Team-cleaned version of CSS Bootstrap v3.3.7.
-	- desktop/css/desktop.main.css : Main interface CSS.
-	- desktop/css/coreWidgets.css : CSS specific to Core widgets.
+	- desktop / css / boostrap.css : Version cleaned by the CSS Bootstrap v3.3.7 team.
+	- desktop / css / desktop.main.css : Main interface CSS.
+	- desktop / css / coreWidgets.css : CSS specific to Core widgets.
 
-- Mobile :
-	- mobiles/css/mobile.main.css : Main interface CSS.
-	- mobiles/css/coreWidgets.css : CSS specific to Core widgets.
+- In Mobile :
+	- mobiles / css / mobile.main.css : Main interface CSS.
+	- mobiles / css / coreWidgets.css : CSS specific to Core widgets.
 
-Themes contain theme-specific CSS, including colors.css.
+Themes contain CSS specific to each theme, including colors.css.
 
-Desktop CSS Load Order :
-- 3rdParty css (CodeMirror, etc.).).
+CSS loading order in Desktop :
+- 3rdParty css (CodeMirror, etc.).
 - Fonts (roboto, camingocode, text-security-disc).
 - coreWidgets.css
-- desktop.main.css
+- Desktop.main.css
 - colors.css (theme color variables).
-- core2019_xx.css (theme main file)).
-- shadows.css (if activated in configuration).
+- core2019_xx.css (main theme file).
+- shadows.css (if enabled in configuration).
 - custom.css (advanced customization css file).
 
 
 ## Back-end
 
-*In progress*
+*Running*
 
 The interface is one thing, but of course your Jeedom is always active, in order to run scenarios, crons, logs, histories etc.
 
-The Back-end relies on the same php classes as the Front-end, present in `/core/class/`. Each part of Jeedom has its php class, in particular :
+The Back-end is based on the same php classes as the Front-end, present in `/ core / class /`. Each part of Jeedom has its own php class, in particular :
 
-- jeeObject.class.php : Groups the functions concerning Jeedom objects.
-- eqLogic.class.php : Combines the functions concerning Jeedom equipment.
-- cmd.class.php : Groups the functions concerning Jeedom commands.
+- jeeObject.class.php : Regroups the functions concerning Jeedom objects.
+- eqLogic.class.php : Groups the functions concerning Jeedom equipment.
+- cmd.class.php : Groups the functions concerning Jeedom controls.
 - cron.class.php : Groups the functions concerning the scheduled tasks of Jeedom.
 - config.class.php : Groups the functions concerning the configuration parameters of Jeedom.
-- scenario.class.php : Groups the functions concerning Jeedom scenarios.
-- DB.class.php : Includes all Jeedom database access functions. All SQL access required by other classes is handled by this one.
+- scenario.class.php : Gathers the functions concerning the Jeedom scenarios.
+- DB.class.php : Brings together all the functions for accessing the Jeedom database. All SQL access required by other classes are managed by this one.
 
 etc.
 
