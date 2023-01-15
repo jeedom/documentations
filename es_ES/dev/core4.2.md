@@ -1,43 +1,43 @@
-## Núcleo v4.2 | Desarrolladores de complementos
+## Core v4.2 | Desarrolladores de complementos
 
 
 ### Obsolete
 
 - Método `initCheckBox()` (utils.js).
-- Método de la clase `cmd` : `setEventOnly()`.
+- Método de clase `cmd` : `setEventOnly()`.
 
 ### Deprecated
 
-Estos cambios aún se admiten en v4.2 y cambiará a **Obsoleto** en una versión futura.
+Estas modificaciones todavía son compatibles con la v4.2 y cambiará a **Obsoleto** en una versión futura.
 
-- El método eqLogic::byTypeAndSearhConfiguration()` fue renombrado correctamente : `eqLogic::byTypeAndSearchConfiguration()`.
-- El método js `jeedom.eqLogic.buildSelectCmd se ha renombrado correctamente : `jeedom.eqLogic.buildSelectCmd`.
+- El método `eqLogic::byTypeAndSearhConfiguration () `ha sido renombrado correctamente : `eqLogic::byTypeAndSearchConfiguration()`.
+- El método js `jeedom.eqLogic.builSelectCmd` ha sido renombrado correctamente : `jeedom.eqLogic.buildSelectCmd`.
 
 *Estos dos métodos también se han integrado en v4.1 para acelerar su adopción.*
 
-- Eliminación de jwerty lib para vanillaJS (administración de atajos de teclado)).
-- Uso de cambios `showAlert` : `$('#div_alerta').showAlert({` se convierte en `$.fn.showAlert({`. Sin cambio para la llamada desde un modal. No compatible con Core anterior a 4.2.
+- Eliminación de jwerty liberty para vanillaJS (gestión de atajos de teclado).
+- Uso de cambios de "showAlert" : `$ ('# div_alert').showAlert ({`se convierte` en $ .fn.showAlert ({`. Sin cambio para la llamada de un modal. No es compatible con Core pre 4.2.
 
-- Método php `displayException` : `displayException` (utils.inc)
-- Método PHP `convertDayEnToFr` : `convertDayFromEn` (utils.inc)
+- Método php `displayExeption` : `displayException` (utils.inc)
+- Método php `convertDayEnToFr` : `convertDayFromEn` (utils.inc)
 
 
-### Cambios opcionales
+### Modificaciones opcionales
 
-#### Gráfico de fondo de azulejos
+#### Gráfico de fondo de mosaico
 
-V4.2 permite definir, en un eqLogic, un comando de información cuyo historial se mostrará en el fondo del mosaico.
+V4.2 se utiliza para definir, en un eqLogic, un comando de información cuyo historial se mostrará en la parte inferior del mosaico.
 
-Para esto, su complemento debe permitirlo en plugins/myplugin/core/class/myplugin.class.php:
+Para esto, su complemento debe permitirlo en plugins / myplugin / core / class / myplugin.class.php:
 
-```php
+`` ``php
 clase myplugin extiende eqLogic {
-    public static $_widgetPossibility = array('custom' => true);
-```
+    public static $ _widgetPossibility = array ('personalizado' => verdadero);
+`` ``
 
-Si su complemento tiene una plantilla específica para su equipo, la versión de escritorio debe actualizarse con `#divGraphInfo#` para mostrar :
+Si su complemento tiene una plantilla específica para su equipo, la versión de escritorio debe actualizarse con `#divGraphInfo#`para exhibición :
 
-```html
+`` ``html
 {% raw %}
 <div class="eqLogic eqLogic-widgy allowResize allowReorderCmd #custom_layout# #eqLogic_class# #class#" data-eqType="#eqType#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="#version#" data-translate-category="#translate_category#" data-category="#category#" data-tags="#tags#" style="width: #width#;height: #height#;#style#">
   <div class="#isVerticalAlign#">
@@ -51,14 +51,14 @@ Si su complemento tiene una plantilla específica para su equipo, la versión de
   </script>
 </div>
 {% endraw %}
-```
+`` ``
 
 
 #### Comandos huérfanos
 
-En v4.2, en la página **Análisis → Equipo**, Pestaña de comandos huérfanos, la función eqLogic `deadCmdGeneric()` ahora devuelve un enlace al escenario o al equipo en cuestión.
+En v4.2, en la página **Análisis → Equipo**, Pestaña de comandos huérfanos, la función eqLogic `deadCmdGeneric ()` ahora devuelve un enlace al escenario o al dispositivo en cuestión.
 
-Como referencia, la nueva función Core:
+Como referencia, la nueva función del Core:
 
 <details>
 
@@ -66,60 +66,60 @@ Como referencia, la nueva función Core:
 
   ~~~ php
   {% raw %}
-  función estática pública deadCmdGeneric($_plugin_id)) {
+  función estática pública deadCmdGeneric ($ _ plugin_id) {
     $return = array();
-    foreach(eqLogic::byType($_plugin_id) como $eqLogic) {
+    foreach (eqLogic::byType ($ _ plugin_id) como $ eqLogic) {
       $eqLogic_json = json_encode(utils::o2a($eqLogic));
-      preg_match_all("/#([0-9]*)#/", $eqLogic_json, $coincidencias);
-      foreach ($coincidencias[1] como $cmd_id) {
-        si (es_numérico($cmd_id)) {
-          si (!cmd::byId(str_replace('#', '', $cmd_id))) {
+      preg_match_all ("/#([0-9]*)#/ ", $ eqLogic_json, $ coincidencias);
+      foreach ($ coincide con [1] como $ cmd_id) {
+        if (is_numeric ($ cmd_id)) {
+          tejo (!cmd::byId (str_replace ('#', '', $ cmd_id))) {
             $return[] = array(
-              '<html>detalle' => '?v=d&m='.$eqLogic->getEqType_name().'&p='.$eqLogic->getEqType_name().'&id='.$eqLogic->getId().'">'.$eqLogic->getHumanName ().' </a>',
-              'ayuda' => __('Acción', __ARCHIVO__),
+              '<html>detalle '=>'?v = d & m = '. $ eqLogic-> getEqType_name ().' & p = '. $ eqLogic-> getEqType_name ().' & id = '. $ eqLogic-> getId ().' "> '. $ eqLogic-> getHumanName (). ' </a>',
+              'help '=> __ (' Acción ', __FILE__),
               'who' => '#' . $cmd_id . '#'
             );
           }
         }
       }
     }
-    devolver $retorno;
+    return $ return;
   }
   {% endraw %}
   ~~~
 
-  Para que pueda incrustar el mismo tipo de devolución en sus complementos, la función `deadCmd ()`.
+  Por lo tanto, puede integrar el mismo tipo de retorno en sus complementos, función `deadCmd ()`.
 
 </details>
 
-#### Soporte de visualización de tablas en un complemento
+#### Soporte de visualización de tabla en un complemento
 
-Desde la versión 4.2 del Core, se ofrece una visualización en modo tabla en las páginas *Objetos* *Escenarios* *Interacciones* *Widgets* y *Complementos*.
+Desde la versión 4.2 del Core, se propone una visualización en modo tabla en las páginas *Objetos* *Escenarios* *Interacciones* *Widgets* y *Complementos*.
 
-Esta función está completamente basada en CSS y no requiere ninguna modificación de los elementos DOM, excepto la adición del botón a la derecha de la búsqueda para cambiar entre el modo tabla y normal.
+Esta función se basa completamente en CSS y no requiere ninguna modificación de los elementos DOM, además de agregar el botón a la derecha de la búsqueda para cambiar entre la tabla y el modo normal.
 
-En la mayoría de los complementos, Core podrá manejar esta función. Sin embargo, no se integró de forma predeterminada porque varios complementos no usan *tarjeta gráfica* estándar, y luego el Core no puede administrar la pantalla, dependiendo del complemento.
+En la mayoría de los complementos, el Core podrá administrar esta funcionalidad. Sin embargo, no se ha integrado de forma predeterminada porque varios complementos no utilizan *tarjeta gráfica* estándar, y el Core no puede administrar la pantalla, dependiendo del complemento.
 
 Por lo tanto, esto debe probarse e integrarse para cada complemento. Varios casos posibles :
 
-  - No insertas el botón : Su complemento no ofrecerá este modo.
-  - Integras el botón y la pantalla está bien administrada : Nada más que hacer.
-  - Integras el botón, pero la pantalla no está bien administrada : Inspírate en Core 4 CSS.2 para hacer tu propio CSS.
+  - No integras el botón : Su complemento no ofrecerá este modo.
+  - Integra el botón y la pantalla está bien administrada : Nada mas que hacer.
+  - Integra el botón, pero la pantalla no está bien gestionada : Inspírate con el CSS de Core 4.2 para hacer tu propio CSS.
 
-En cualquier caso, el botón de alternancia del modo de tabla está integrado con la clase CSS `oculta` y, por lo tanto, está oculto. Por lo tanto, no será visible en los núcleos anteriores a 4.2 no tener esta opción.
+En cualquier caso, el botón de alternancia del modo de tabla está integrado con la clase CSS `hidden` y, por lo tanto, está oculto. Por lo tanto, no será visible en versiones anteriores a 4 Core.2 no tengo esta opción.
 
 
-##### Agregue el botón a la derecha del campo de búsqueda :
+##### Agrega el botón a la derecha del campo de búsqueda :
 
-Simplemente agregue este botón a la derecha del campo de búsqueda en su página `myplugin/desktop/php/myplugin.php` :
+Simplemente agregue este botón a la derecha del cuadro de búsqueda en su página `myplugin / desktop / php / myplugin.php :
 
-`<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="1" data-state="0"><i class="fas fa-grip-lines"></i></a> `
+''<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="1" data-state="0"><i class="fas fa-grip-lines"></i></a> ''
 
 <details>
 
   <summary markdown="span">Par exemple :</summary>
 
-  ~~~
+  ~~~ html
   {% raw %}
   <legend><i class="fa fa-table"></i> {{Mes Equipemnts}}</legend>
   <div class="input-group" style="margin-bottom:5px;">
@@ -136,17 +136,17 @@ Simplemente agregue este botón a la derecha del campo de búsqueda en su págin
 
 Pruebe la pantalla en un Core v4.2. Si todo va bien, se acabó !
 
-##### Si la visualización no estándar de eqlogics :
+##### Si la visualización de eqlogics no es estándar :
 
-Entorno *soporte de núcleo de datos* a 0 :
+Ajuste *soporte de datos* a 0 :
 
-`<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="0" data-state="0"><i class="fas fa-grip-lines"></i></a> `
+''<a class="btn roundedRight hidden" id="bt_pluginDisplayAsTable" data-coreSupport="0" data-state="0"><i class="fas fa-grip-lines"></i></a> ''
 
-- Administre su propia clase css, que no sea ".displayAsTable". Coloque el archivo css en `myplugin/desktop/css/myplugin.css` luego impórtelo desde el escritorio/php así :
+- Administre su propia clase css, que no sea ".displayAsTable". Coloque el archivo css en `myplugin / desktop / css / myplugin.css` luego impórtelo desde el escritorio / php como este :
 
-  `include_file('escritorio', 'micomplemento', 'css', 'micomplemento');`
+  `include_file ('escritorio', 'myplugin', 'css', 'myplugin');`
 
-- Administrar el evento del botón :
+- Gestionar el evento del botón :
 
 <details>
 
@@ -156,15 +156,15 @@ Entorno *soporte de núcleo de datos* a 0 :
   {% raw %}
   $('#bt_pluginDisplayAsTable').off('click').on('click', function () {
     $('#bt_pluginDisplayAsTable[data-coreSupport="1"]').off('click').on('click', function () {
-      si ($(este).datos('estado') == "0") {
+      si ($ (este).datos ('estado') == "0") {
         $(this).data('state', '1').addClass('active')
-        setCookie('jeedom_displayAsTable', 'verdadero', 2)
+        setCookie ('jeedom_displayAsTable', 'verdadero', 2)
         $('.eqLogicDisplayCard').addClass('displayAsTable')
         $('.eqLogicDisplayCard .hiddenAsCard').removeClass('hidden')
         $('.eqLogicThumbnailContainer').first().addClass('containerAsTable')
       } más {
         $(this).data('state', '0').removeClass('active')
-        setCookie('jeedom_displayAsTable', 'falso', 2)
+        setCookie ('jeedom_displayAsTable', 'falso', 2)
         $('.eqLogicDisplayCard').removeClass('displayAsTable')
         $('.eqLogicDisplayCard .hiddenAsCard').addClass('hidden')
         $('.eqLogicThumbnailContainer').first().removeClass('containerAsTable')
@@ -176,7 +176,7 @@ Entorno *soporte de núcleo de datos* a 0 :
 
 </details>
 
-##### Como referencia, el js del complemento.modelo :
+##### Como referencia, el complemento js.modelo :
 
 <details>
 
@@ -184,28 +184,28 @@ Entorno *soporte de núcleo de datos* a 0 :
 
   ~~~ js
   {% raw %}
-  //displayAsTable si el complemento lo admite:
-  si ($('#bt_pluginDisplayAsTable').length) {
+  // displayAsTable si el complemento lo admite:
+  if ($ ('# bt_pluginDisplayAsTable').length) {
     $('#bt_pluginDisplayAsTable').removeClass('hidden') //Not shown on previous core versions
-    if (getCookie('jeedom_displayAsTable') == 'verdadero' || jeedom.tema.tema_displayAsTable == 1) {
+    if (getCookie ('jeedom_displayAsTable') == 'verdadero' || jeedom.theme.theme_displayAsTable == 1) {
       $('#bt_pluginDisplayAsTable').data('state', '1').addClass('active')
-      si ($('#bt_pluginDisplayAsTable[data-coreSupport="1"]').length) {
+      if ($ ('# bt_pluginDisplayAsTable [data-coreSupport = "1"]').length) {
         $('.eqLogicDisplayCard').addClass('displayAsTable')
         $('.eqLogicDisplayCard .hiddenAsCard').removeClass('hidden')
         $('.eqLogicThumbnailContainer').first().addClass('containerAsTable')
       }
     }
-    //evento central:
+    // evento principal:
     $('#bt_pluginDisplayAsTable[data-coreSupport="1"]').off('click').on('click', function () {
-      si ($(este).datos('estado') == "0") {
+      si ($ (este).datos ('estado') == "0") {
         $(this).data('state', '1').addClass('active')
-        setCookie('jeedom_displayAsTable', 'verdadero', 2)
+        setCookie ('jeedom_displayAsTable', 'verdadero', 2)
         $('.eqLogicDisplayCard').addClass('displayAsTable')
         $('.eqLogicDisplayCard .hiddenAsCard').removeClass('hidden')
         $('.eqLogicThumbnailContainer').first().addClass('containerAsTable')
       } más {
         $(this).data('state', '0').removeClass('active')
-        setCookie('jeedom_displayAsTable', 'falso', 2)
+        setCookie ('jeedom_displayAsTable', 'falso', 2)
         $('.eqLogicDisplayCard').removeClass('displayAsTable')
         $('.eqLogicDisplayCard .hiddenAsCard').addClass('hidden')
         $('.eqLogicThumbnailContainer').first().removeClass('containerAsTable')
@@ -219,15 +219,15 @@ Entorno *soporte de núcleo de datos* a 0 :
 
 También puede inspirarse en Core CSS :
 
-- Archivo `desktop/css/desktop.main.css `sección`/* __________________mostrar como tabla */`
+- Archivo Desktop / css / desktop.main.css` sección `/* __________________displayAsTable */ ''
 
 ##### Mostrar otros elementos en la vista de tabla
 
-Si quieres un elemento de la *tarjeta gráfica* aparece a la derecha, agregue la clase CSS `displayTableRight`. Si necesita poner varios elementos allí, póngalos todos en un solo ` <span class="displayTableRight">...</span> `
+Si quieres un elemento del *tarjeta gráfica* aparece a la derecha, agregue la clase CSS `displayTableRight`. Si necesita colocar varios elementos allí, colóquelos todos en uno ` <span class="displayTableRight">...</span> `
 
-El modo de tabla muestra cada elemento en una línea, hay espacio a la derecha para agregar información, vea los botones.
+El modo de tabla que muestra cada elemento en una línea, está el lugar a la derecha para agregar información, ver botones.
 
-Por lo tanto, puede tener en cada *tarjeta gráfica* elementos que no se mostrarán en modo normal, y a la derecha en modo tabla.
+Por lo tanto, puede tener en cada *tarjeta gráfica* elementos que no se mostrarán en modo normal y a la derecha en modo tabla.
 
 <details>
 
@@ -237,7 +237,7 @@ Por lo tanto, puede tener en cada *tarjeta gráfica* elementos que no se mostrar
   {% raw %}
   <div class="eqLogicThumbnailContainer">
     <?php
-      foreach ($eqLogics como $eqLogic) {
+      foreach ($ eqLogics como $ eqLogic) {
         $div = '';
         $opacity = ($eqLogic->getIsEnable()) ? '' : 'disableCard';
         $div .= '<div class="eqLogicDisplayCard cursor '.$opacity.'" data-eqLogic_id="' . $eqLogic->getId() . '">';
@@ -246,7 +246,7 @@ Por lo tanto, puede tener en cada *tarjeta gráfica* elementos que no se mostrar
         $div .= '<span class="name">' . $eqLogic->getHumanName(true, true) . '</span>';
         $div .= '<span class="hidden hiddenAsCard displayTableRight">'.$eqLogic->getConfiguration('autorefresh').' | '.$eqLogic->getConfiguration('loglasttime').'h</span>';
         $div .= '</div>';
-        echo $div;
+        echo $ div;
       }
     ?>
   </div>
@@ -255,26 +255,26 @@ Por lo tanto, puede tener en cada *tarjeta gráfica* elementos que no se mostrar
 
 </details>
 
-Aquí (complemento *jeeLog*) Los parámetros de cron y log estarán ocultos en el modo normal pero visibles a la derecha en el modo de tabla. También puede inspirarse en las páginas de Core v4.2, en particular el de los escenarios que muestra el botón para abrir los registros.
+Aquí (complemento *jeeLog*) Los parámetros cron y log se ocultarán en el modo normal, pero serán visibles a la derecha en el modo de tabla. También puede inspirarse en las páginas de Core v4.2, en particular el de los escenarios que muestra el botón para abrir los registros.
 
-No olvide la clase `oculta` (no presente en las páginas de Core) para que este elemento no se muestre en modo normal en Cores anteriores a 4.2.
+No olvide la clase `hidden` (no presente en las páginas Core) para que este elemento no se muestre en modo normal en versiones Core anteriores a 4.2.
 
 
-#### Mostrar ayuda para un widget
+#### Visualización de la ayuda del widget
 
-Desde v4.2, los parámetros opcionales disponibles en Core Widgets se muestran para cada widget, ya sea en la configuración de comandos o desde el modo de edición del panel.
+Desde v4.2, los parámetros opcionales disponibles en los Widgets principales se muestran para cada widget, ya sea en la configuración del comando o desde el modo de edición del Tablero.
 
-En el codigo de **Widget del panel de control**, se inserta una etiqueta `template` entre el último `div` interno y la etiqueta `script`. El Core elimina esta etiqueta al mostrar el Widget para no sobrecargar la página. Sin embargo, en pre-4 Cores.2, los navegadores no muestran la etiqueta `template`. Por el contrario, el Core recupera esta etiqueta `template` para mostrar la ayuda en las ventanas de configuración.
+En el código de **Widget de panel**, se inserta una etiqueta `template` entre el último div interno` y la etiqueta` script`. El Core elimina esta etiqueta cuando se muestra el widget para no sobrecargar la página. Sin embargo, en pre-4 Core.2, los navegadores no muestran la etiqueta `template`. Por el contrario, el Core recupera esta etiqueta `template` para mostrar la ayuda en las ventanas de configuración.
 
-- Si una etiqueta `template` está presente y no está vacía, el Core muestra su contenido.
-- Si hay una etiqueta `template`, pero vacía, el Core muestra *`No hay parámetros opcionales disponibles`*.
-- Si no hay una etiqueta `template`, el Core muestra *`No se ha encontrado ninguna descripción para este widget`*.
+- Si una etiqueta "plantilla" está presente y no está vacía, el Core muestra su contenido.
+- Si hay una etiqueta "template", pero vacía, el Core muestra *`No hay parámetros opcionales disponibles`*.
+- Si no hay una etiqueta "template", el Core muestra *`No se ha encontrado una descripción para este widget`*.
 
 <details>
 
   <summary markdown="span">Ejemplo de code de Widgy avec template</summary>
 
-  ~~~
+  ~~~ html
   <div class="cmd cmd-widget" ...>
     <div class="title #hide_name#">
       <div class="cmdName">#name_display#</div>
@@ -295,21 +295,21 @@ En el codigo de **Widget del panel de control**, se inserta una etiqueta `templa
 
 #### Widgets deslizantes
 
-Todos los controles deslizantes se usan desde v4.2 una nueva biblioteca [noUiSlider](https://refreshless.com/nouislider/). Más flexible en su uso e inicialización, también nos permite usar código idéntico en escritorio y móvil. Tambien es compatible *Toque* en teléfonos inteligentes !
+Todos los widgets de tipo de cursor se utilizan desde v4.2 una nueva biblioteca [noUiSlider](https://refreshless.com/nouislider/). Más flexible en su uso e iniciación, también nos permite utilizar un código idéntico en escritorio y móvil. Tambien es compatible *Toque* en smartphones !
 
-Si sus complementos/widgets de terceros usan controles deslizantes, es mejor migrar a esta nueva biblioteca.
+Si sus complementos / widgets de terceros usan controles deslizantes, es mejor migrar a esta nueva biblioteca.
 
-> Atención : Pre-4 núcleos.2 no tienen la lib **control deslizante** !
+> Atención : El núcleo pre-4.2 no tengo la lib **noUiSlider** !
 
-Puedes probar la existencia de la lib así :
+Puede probar la existencia de la biblioteca de esta manera :
 
-```js
-if (tipo de noUiSlider !== 'undefined') {
-  console.log('no hay código UiSlider aquí')
+`` ``js
+if (typeof noUiSlider !== 'undefined') {
+  console.log ('código noUiSlider aquí')
 } más {
-  console.log('código antiguo aquí')
+  console.log ('código antiguo aquí')
 }
-```
+`` ``
 
 #### Traducción de widgets de terceros
 
@@ -317,14 +317,14 @@ Si crea y comparte widgets de terceros (código), Core v4.2 ahora apoya su inter
 
 Para ello, cada widget debe ir acompañado de su archivo json que contiene sus traducciones.
 
-ruta del widget : `data\customTemplates\dashboard\cmd.info.string.myCustomWidget.html`
-ruta de traducción : `data\customTemplates\i18n\cmd.info.string.myCustomWidget.json`
+ruta del widget : `data \ customTemplates \ dashboard \ cmd.info.string.myCustomWidget.html`
+ruta de traducción : `data \ customTemplates \ i18n \ cmd.info.string.myCustomWidget.json`
 
-> La versión móvil del Widget tomará la traducción desde el mismo lugar.
+> La versión móvil del Widget llevará la traducción en el mismo lugar.
 
 Ejemplo :
 
-```html
+`` ``html
 <div class="content-xs">
     <span class="cmdName #hide_name#">#name_display#</span> <strong class="state"></strong>
     {{Soy un widget de terceros}}
@@ -333,11 +333,11 @@ Ejemplo :
     <div>param : {{Mi configuración de terceros}}.</div>
   </template>
   <script>
-```
+`` ``
 
-```json
+`` ``json
   {
-    "es_US": {
+    "en_US": {
       "Soy un widget de terceros": "Soy un widget personalizado",
       "Mi configuración de terceros": "Mi descripción de parámetro personalizado"
     },
@@ -345,58 +345,58 @@ Ejemplo :
       "Soy un widget de terceros": "Ser un widget de terceros",
       "Mi configuración de terceros": "Mi configuración de terceros"
     },
-    "from_DE": {
+    "de_DE": {
       "Soy un widget de terceros": "Ich bin ein Widget eines Drittanbieters",
       "Mi configuración de terceros": "Meine Einstellung von Drittanbietern"
     }
   }
-```
+`` ``
 
-> `Value date`, `Collection date` y todos los textos en los widgets Core no necesitan estar en json. Si no tiene otros textos en su widget, entonces el json no es necesario y estas cadenas se traducirán.
+> Los textos `Fecha de valor`,` Fecha de colección` y todos los que se encuentran en los widgets Core no necesitan estar en el json. Si no tiene otros textos en su widget, entonces el json no es necesario y estas cadenas se traducirán.
 
 
-#### Integración en el Núcleo de Tipos Genéricos específicos de un plugin
+#### Integración en el núcleo de tipos genéricos específicos de un complemento
 
-Núcleo v4.2 tiene una nueva página que permite configurar los Tipos Genéricos más fácilmente. Por supuesto, utiliza los tipos genéricos definidos por Core, pero algunos complementos definen sus propios tipos genéricos.
+Core v4.2 tiene una nueva página que le permite configurar tipos genéricos más fácilmente. Por supuesto, utiliza los tipos genéricos definidos por el núcleo, pero algunos complementos definen sus propios tipos genéricos.
 
 Para que estos complementos sean compatibles con esta nueva página principal, aquí se explica cómo integrarlos.
 
-Al abrir esta página, el Core verifica, para cada complemento, si tiene un método `pluginGenericTypes ()`. Si este es el caso, entonces se llama a este método, esperando los Tipos Genéricos del plugin para integrarlos. Estos deben respetar la definición de Core Generic Types, especialmente si ya existen categorías (Grip, Light, etc.).).
+Al abrir esta página, el Core comprueba, para cada complemento, si tiene un método `` pluginGenericTypes () `. Si este es el caso, se llama a este método, mientras se esperan los tipos genéricos del complemento para integrarlos. Estos deben respetar la definición de Tipos Genéricos del Núcleo, especialmente si ya existen categorías (Socket, Light, etc.).
 
-Ejemplo, en el archivo `plugins/monplugin/core/php/monplugin.class.php`:
+Ejemplo, en el archivo `plugins / myplugin / core / php / myplugin.class.php`:
 
-```php
-clase myPlugin extiende eqLogic
+`` ``php
+class myPlugin extiende eqLogic
 {
     /*     * ***********************Método estático*************************** */
-    public static $_widgetPossibility = array('custom' => true);
+    public static $ _widgetPossibility = array ('personalizado' => verdadero);
 
-    función estática pública pluginGenericTypes()
+    complemento de función estática pública()
     {
         $generics = array(
-            'MYPLUGIN_TOGGLE' => array( //en mayúsculas sin espacios
-                'nombre' => __('Alternar Mi Complemento',__FILE__),
-                'familyid' => 'MyPlugin', //No hay espacio aquí
-                'family' => __('Plugin MyPlugin',__FILE__), //Empezar con 'Plugin ' ...
-                'tipo' => 'Acción',
-                'subtipo' => array('otro')
+            'MONPLUGIN_TOGGLE '=> matriz (// capitalizar sin espacio
+                'name '=> __ (' MyPlugin Toggle ', __ FILE__),
+                'familyid '=>' MyPlugin ', // No hay espacio aquí
+                'family '=> __ (' Plugin MyPlugin ', __ FILE__), // Empiece con' Plugin ' ...
+                'type '=>' Acción',
+                'subtipo '=> matriz (' otro')
             ),
-            'MYPLUGIN_LIGHT_BEAM' => matriz(
-                'nombre' => __('Rayos de luz (MyPlugin)',__FILE__),
-                'familyid' => 'LIGHT', //Tipo existente si lo hay
-                'familia' => __('Luz',__ARCHIVO__),
-                'escriba' => 'Información',
-                'subtipo' => array('binario','numérico')
+            'MONPLUGIN_LIGHT_BEAM '=> matriz(
+                'name '=> __ (' Light Rays (MyPlugin) ', __ FILE__),
+                'familyid '=>' LIGHT ', // Tipo existente si lo hay
+                'family '=> __ (' Light ', __ FILE__),
+                'type '=>' Información',
+                'subtipo '=> matriz (' binario ',' numérico')
             )
         );
-        devolver $genéricos;
+        return $ genéricos;
     }
 
-```
+`` ``
 
 Aquí, el complemento `myPlugin` 'inyectará' dos tipos genéricos :
 
-- Un Tipo Genérico MONPLUGIN_TOGGLE, de tipo `MyPlugin`, categoría que no existe en el Core.
-- Un tipo genérico MONPLUGIN_LIGHT_BEAM, en la categoría `Light` existente.
+- Un tipo genérico MONPLUGIN_TOGGLE, de tipo `MyPlugin`, categoría que no existe en el Core.
+- Un tipo genérico MONPLUGIN_LIGHT_BEAM, en la categoría existente `Lumière`.
 
-> Referencia : Los tipos genéricos principales se definen en el [archivo de configuración](https://github.com/jeedom/core/blob/alpha/core/config/jeedom.config.php), matriz $JEEDOM_INTERNAL_CONFIG, tipo_genérico.
+> Referencia : Los tipos de núcleos genéricos se definen en el [archivo de configuración](https://github.com/jeedom/core/blob/alpha/core/config/jeedom.config.php), matriz $ JEEDOM_INTERNAL_CONFIG, tipo_genérico.

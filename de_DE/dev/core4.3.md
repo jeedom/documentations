@@ -1,4 +1,4 @@
-## Kern v4.3 | Plugin-Entwickler
+## Core v4.3 | Plugin-Entwickler
 
 ### Obsolete
 
@@ -6,7 +6,7 @@
 
 ### Deprecated
 
-Fast alle Core-Seitenvariablen und -Funktionen wurden in einem Namensraum isoliert : Es erlaubt Ihnen, nicht alle Funktionen neu zu erstellen, wenn Sie auf die Seite zurückkehren, um die Variablen und Funktionen pro Seite zu isolieren, damit keine Kollision möglich ist, es macht den Code viel besser lesbar, da Sie wissen, welche Funktion oder Variable wo kommt und geht, und das hilft enorm beim Debuggen (eine Konsole des Namespace und wir sehen alles).
+Fast alle Core-Seitenvariablen und -Funktionen wurden in einem Namensraum isoliert : Es erlaubt Ihnen, nicht alle Funktionen neu zu erstellen, wenn Sie auf die Seite zurückkehren, um die Variablen und Funktionen pro Seite zu isolieren, damit keine möglichen Kollisionen auftreten. Es macht den Code viel besser lesbar, da Sie wissen, welche Funktion oder Variable wo kommt und geht, und das hilft enorm beim Debuggen (eine Konsole des Namespace und wir sehen alles).
 
 Die js-Funktionen der Benutzeroberfläche befinden sich jetzt im jeeFrontEnd-Namespace{} :
 
@@ -38,7 +38,7 @@ In der gleichen Logik befinden sich die von PHP an js übergebenen Variablen jet
 
 - Exemple: Die js-Variable „planHeader_id“ wird zu „jeephp2js.planHeader_id“.
 
-### Optionale Änderungen
+### Optionale Modifikationen
 
 #### Quellcode und Übersetzungen
 

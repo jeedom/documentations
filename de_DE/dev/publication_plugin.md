@@ -2,10 +2,10 @@
 
 ## Voraussetzungen
 
-- Habe mich als dev registriert, siehe [hier](https://www.jeedom.com/site/fr/dev.html).
-- Habe als Entwickler auf die Validierung des Marktkontos gewartet.
+- Registrieren Sie sich als Entwickler, siehe [hier](https://www.jeedom.com/site/fr/dev.html).
+- Warten auf die Validierung des Marktkontos als Entwickler.
 - Überprüfen Sie in der Community, ob Sie Zugriff auf die "Developers' Lounge" haben".
-- Haben Sie Ihr Plugin auf GitHub gestellt (privates Repository oder nicht)).
+- Haben Sie Ihr Plugin auf Github (private Einzahlung oder nicht).
 - Präsentieren Sie Ihr Plugin in der "Entwicklershow" und "Präsentation des Plugins""
 
 ## Plug-in-Präsentation
@@ -42,34 +42,34 @@ Panel-Dash, Panel-Mob (wenn Sie ein Panel in Ihrem Plugin haben)
 
 ## Configuration
 
-Sobald Sie mit Ihrem Entwicklerkonto auf dem Markt verbunden sind, müssen Sie :
+Sobald Sie mit Ihrem Dev-Konto auf dem Markt verbunden sind, müssen Sie :
 
-- Klicken Sie auf Markt und dann auf Hinzufügen
-- Geben Sie die Informationen zu Ihrem Plugin ein :
+- Klicken Sie auf Markt und fügen Sie hinzu
+- Füllen Sie die Informationen auf Ihrem Plugin aus :
   - Allgemein :
     - Preis.
-    - ID (diejenige in der Datei info.json).
-    - Familienname, Nachname.
+    - ID (die in der Datei info.json).
+    - Name.
     - Kategorie.
-    - Egal ob privat oder nicht.
+    - Ob privat oder nicht.
   - Dokumentation und Links
-    - Die Beschreibung (stellen Sie die wichtigen Punkte gut dar, die meisten Benutzer werden die Dokumentation vor dem Kauf nicht sehen).
+    - Beschreibung (Achten Sie darauf, die wichtigen Punkte zu erwähnen. Die meisten Benutzer sehen die Dokumentation vor dem Kauf nicht).
     - Sprachen.
     - Kompatible Hardware
-    - Hinweis zur Verwendung ggf.
-  - GitHub : Hier werden Sie die Informationen zwischen dem Markt und Github platzieren.
-    - Das Token (nur zu platzieren, wenn sich Ihr Plugin in einem privaten Repository befindet).
+    - Ggf. einen Hinweis zur Verwendung.
+  - Github : Hier legen Sie die Informationen zwischen dem Markt und Github ab.
+    - Das Token (nur um es zu setzen, wenn sich Ihr Plugin auf einer privaten Einzahlung befindet).
     - Ihr Github-Benutzername.
-    - Der Name des Repositorys auf GitHub.
-    - Aktivieren Sie das Kontrollkästchen, damit der Markt die Übersetzung Ihres Plugins und Ihrer Dokumentation verwaltet (achten Sie in diesem Fall darauf, dem „jeedom-market“-Benutzer von GitHub alle Rechte in Ihrem GitHub-Repository zu erteilen).
+    - Der Name des Repositorys auf Github.
+    - Aktivieren Sie das Kontrollkästchen, damit der Markt die Übersetzung Ihres Plugins und der Dokumentation verwaltet (achten Sie in diesem Fall darauf, dass Sie dem Benutzer "jeedom-market" von github alle Rechte in Ihrem Github-Repository gewähren).
 
    Nach dem Speichern können Sie durch Zurückkehren zur Registerkarte „Github“ die Zweige Ihres Githubs angeben, die den Marktversionen entsprechen :
 
    - Beta (zB: beta)
    - Stabil (zB: master)
-   - V3 (nur wenn Sie einen anderen Zweig für Jeedom v3-Unterstützung haben).
+   - V3 (nur wenn Sie einen anderen Zweig für die Unterstützung von Jeedom v3 haben).
 
-   Die Synchronisierung erfolgt entweder automatisch jeden Tag um 12:10 Uhr (Vorsicht angesichts der Anzahl der Plugins und API-Aufrufbeschränkungen, das Update beginnt um 12:10 Uhr)). Sie können auch eine manuelle Synchronisierung eines Zweigs aus der Plugin-Datei starten.
+   Die Synchronisierung erfolgt entweder automatisch jeden Tag um 12.10 Uhr (Vorsicht angesichts der Anzahl der Plugins und der Anrufbeschränkungen). Das Update beginnt um 12.10 Uhr, dauert jedoch mehrere zehn Stunden). Sie können auch eine manuelle Synchronisierung eines Zweigs über die Plugin-Datei starten.
    
    
    > **Notiz**
