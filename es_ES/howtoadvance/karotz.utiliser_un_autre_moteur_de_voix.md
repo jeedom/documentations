@@ -1,12 +1,12 @@
-# Karotz usa otro motor de voz
+# 
 
-# Conectarse a Telnet
+# 
 
-Primero debe conectarse a telnet (puerto 23) en openkarotz, el identificador es kartoz
 
-# Agregar un motor de voz
 
-Seguir ``/www/cgi-bin/`` y edite el archivo ``tts.inc``, agregar una función (ejemplo para Jeedom) :
+# 
+
+ ``/www/cgi-bin/``  ``tts.inc``, ) :
 
 ````
 function jeedomTTS {
@@ -28,11 +28,11 @@ function jeedomTTS {
 }
 ````
 
-Luego edite el archivo tts y agregue :
+ :
 
 ``MP3_ID=$(jeedomTTS $TTS $VOICE $NO_CACHE $RAW_VOICE);;``
 
-En el ``case $TTS_ENGINE in`` para tener :
+ ``case $TTS_ENGINE in``  :
 
 ````
 case $TTS_ENGINE in
@@ -45,6 +45,6 @@ esac
 
 # Utilisation
 
-Solo necesita llamar a la url que proporciona el número de engranaje (aquí 3) :
+) :
 
 ``http://192.168.0.62/cgi-bin/tts?text=coucou%20ca%20va&nocache=0&engine=3``
