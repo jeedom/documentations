@@ -327,6 +327,46 @@ El contextMenu lib, que depende de jQuery, se eliminará en una versión futura 
 
 </details>
 
+#### 
+
+. .
+
+<details>
+
+  <summary markdown="span">exemples jeeDialog.diálogo()</summary>
+
+  ~~~ js
+  {% raw %}
+  //jQueryUI:
+  $('#bt_uploadImage').fileupload({
+    url: '?
+    dataType: 'json',
+    done: ) {
+      //Hacer cosas
+    }
+  })
+
+  :
+  ({
+    fileInput: '),
+    url: '?
+    /*
+    add: ) {
+      ')
+      ?
+      ()
+    },
+    */
+    done: ) {
+      //Hacer cosas
+    }
+  })
+
+  {% endraw %}
+  ~~~
+
+</details>
+
 Ver [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 

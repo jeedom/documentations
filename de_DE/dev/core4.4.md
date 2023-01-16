@@ -327,6 +327,46 @@ Die von jQuery abhängige contextMenu-Bibliothek wird in einer zukünftigen Vers
 
 </details>
 
+#### 
+
+. .
+
+<details>
+
+  <summary markdown="span">exemples jeeDialog.dialog()</summary>
+
+  ~~~ js
+  {% raw %}
+  //jQueryUI:
+  $('#bt_uploadImage').fileupload({
+    url: '?
+    dataType: 'json',
+    done: ) {
+      //Sachen machen
+    }
+  })
+
+  :
+  ({
+    fileInput: '),
+    url: '?
+    /*
+    add: ) {
+      ')
+      ?
+      ()
+    },
+    */
+    done: ) {
+      //Sachen machen
+    }
+  })
+
+  {% endraw %}
+  ~~~
+
+</details>
+
 Sehen [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 
