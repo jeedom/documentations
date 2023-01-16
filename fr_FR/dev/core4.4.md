@@ -327,6 +327,46 @@ La lib contextMenu, dépendante de jQuery, sera supprimée dans une future versi
 
 </details>
 
+#### jQuery FileUpload
+
+La lib jQuery fileupload sera supprimée dans une future version du Core. jeeFileUploader() remplace l'utilisation de ces fonctions.
+
+<details>
+
+  <summary markdown="span">exemples jeeDialog.dialog()</summary>
+
+  ~~~ js
+  {% raw %}
+  //jQuery UI:
+  $('#bt_uploadImage').fileupload({
+    url: 'core/ajax/plan.ajax.php?action=uploadImage&id=' + id
+    dataType: 'json',
+    done: function(event, data) {
+      //Do stuff
+    }
+  })
+
+  //Core jeeFileUploader:
+  new jeeFileUploader({
+    fileInput: document.getElementById('bt_uploadImg'),
+    url: 'core/ajax/plan.ajax.php?action=uploadImage&id=' + id
+    /*
+    add: function(event, data) {
+      let currentPath = document.getElementById('bt_uploadImg').getAttribute('data-path')
+      data.url = 'core/ajax/jeedom.ajax.php?action=uploadImageIcon&filepath=' + currentPath
+      data.submit()
+    },
+    */
+    done: function(event, data) {
+      //Do stuff
+    }
+  })
+
+  {% endraw %}
+  ~~~
+
+</details>
+
 Voir [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 
