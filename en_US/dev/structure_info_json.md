@@ -40,7 +40,7 @@ Fields                   | Values                                               
 
 **CATEGORY NOMENCLATURE**
 
-Jeedom Market         | Info.json               |
+Jeedom Market         | Info.JSON               |
 --------------------- | ----------------------- |
 Communication         | ``communication``           |
 Comfort               | ``wellness``                |

@@ -327,9 +327,9 @@ Die von jQuery abhängige contextMenu-Bibliothek wird in einer zukünftigen Vers
 
 </details>
 
-#### 
+#### jQuery FileUpload
 
-. .
+La lib jQuery fileupload sera supprimée dans une future version du Core. jeeFileUploader() remplace l'utilisation de ces fonctions.
 
 <details>
 
@@ -339,25 +339,25 @@ Die von jQuery abhängige contextMenu-Bibliothek wird in einer zukünftigen Vers
   {% raw %}
   //jQueryUI:
   $('#bt_uploadImage').fileupload({
-    url: '?
+    url: 'core/ajax/plan.ajax.php?action=uploadImage&id=' + id
     dataType: 'json',
-    done: ) {
+    done: function(event, data) {
       //Sachen machen
     }
   })
 
-  :
-  ({
-    fileInput: '),
-    url: '?
+  //Core jeeFileUploader:
+  new jeeFileUploader({
+    fileInput: document.getElementById('bt_uploadImg'),
+    url: 'core/ajax/plan.ajax.php?action=uploadImage&id=' + id
     /*
-    add: ) {
-      ')
-      ?
-      ()
+    add: function(event, data) {
+      let currentPath = document.getElementById('bt_uploadImg').getAttribute('data-path')
+      data.url = 'core/ajax/jeedom.ajax.php?action=uploadImageIcon&filepath=' + currentPath
+      data.submit()
     },
     */
-    done: ) {
+    done: function(event, data) {
       //Sachen machen
     }
   })
