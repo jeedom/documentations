@@ -1,11 +1,11 @@
 {
     "..\/README.md": {
-        " documentations.": " .",
-        " documentations?": " ?",
-        "documentations ": " ",
-        " documentations]": " ]",
-        "[documentations]": "[]",
-        "*documentations*": "**",
-        " documentations*": " *"
+        " documentations.": " documentaciones.",
+        " documentations?": " documentaciones?",
+        "documentations ": "documentaciones ",
+        " documentations]": " documentaciones]",
+        "[documentations]": "[documentaciones]",
+        "*documentations*": "*documentaciones*",
+        " documentations*": " documentaciones*"
     }
 }
