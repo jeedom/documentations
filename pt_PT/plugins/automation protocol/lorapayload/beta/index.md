@@ -1,4 +1,4 @@
-# Plugin LoraPayload
+# 
 
 Este plugin é um plugin que permite vincular comandos de carga útil LoraWan e criar um dispositivo com comandos enquanto analisa os valores.
 

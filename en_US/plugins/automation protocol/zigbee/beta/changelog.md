@@ -1,12 +1,12 @@
-# Changelog Zigbee
+# 
 
->**Important**
+>****
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
 
->**Important**
+>****
 >
->To know the new compatible module you have to go [the](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (it is sorted by date added / modified)
+>To know the new compatible module you have to go [](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (it is sorted by date added / modified)
 
 # 10/19/2022
 
@@ -14,7 +14,7 @@
 - Improved support for some modules
 - Bugfix
 
-# 03/10/2022
+# 
 
 - Zigpy versions are now fixed to avoid issues with installing dependencies
 
@@ -24,7 +24,7 @@
 - Fixed a bug on installing dependencies on RPI
 - Support for new modules
 
-# 02/09/2022
+# 
 
 - Bug fix
 - Ability to fix the bootloader error (base.TimeoutError) from the firmware update screen (in beta at the moment)
@@ -44,7 +44,7 @@
 - Fixed inclusion issues for GreenPower equipment (only compatible with EZSP keys)
 - Fixed an issue with the color feedback of some zigbee remotes
 
-# 27/06/2022
+# 
 
 - Attempt to fix problems with the daemon
 
@@ -61,9 +61,9 @@
 
 # 05/20/2022
 
-- Correcting the error :  AttributeError: module 'specifics' has no attribute 'init'
+- Correcting the error :  AttributeError: '
 
-# 05/05/2022
+# 
 
 - Bug fix
 - New module support 
@@ -122,19 +122,19 @@
 - Addition of new equipment
 - Correction of a problem on the "Report configuration" of the modules
 
-# 22/11/2021
+# 
 
 - Optimization of the loading speed of the plugin pages
 - Addition of new equipment
 - Update dependencies automatically when updating the plugin
 
 
-# 07/11/2021
+# 
 
 - Addition of new equipment
 - Fixed a bug on Tuya roller shutter modules
 
-# 25/10/2021
+# 
 
 - Adding new configuration
 - Possibility to define a cron to force the update of the attributes (be careful not to put anything it can break all your zigbee networks)
@@ -151,11 +151,11 @@
 - Improved log levels
 - Addition of new modules
 
->**Important**
+>****
 >
 >It is ABSOLUTELY necessary to launch an installation of dependencies even if it is OK (we are working in jeedom 4.2 has this to be automatically but for the moment you have to launch them by hand)
 
-# 03/09/2021
+# 
 
 - Fixed a problem with group creation in some cases
 - Fixed group list display
@@ -165,7 +165,7 @@
 - Fixed issue with Nodon firmware
 - Correction of the "\_ext_pan_id" error due to an update of the Zigpy code with the Deconz keys
 
->**Important**
+>****
 >
 >Following this update it is ABSOLUTELY necessary to update the dependencies of the plugin even if it tells you that everything is OK
 
