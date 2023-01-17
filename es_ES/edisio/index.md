@@ -1,10 +1,10 @@
 # Documentación del módulo Edisio
 
-Aquí encontrará la documentación que consideramos útil hacer en cierto módulo Edisio.
+Aquí encontrarás la documentación que hemos considerado útil hacer sobre determinados módulos de Edisio.
 
 Como recordatorio, puede encontrar la lista de equipos compatibles [aquí](equipement.compatible.md) y [aquí](https://doc.jeedom.com/es_ES/plugins/automation%20protocol/edisio/) documentación del complemento.
 
-- [EMS-200](edisio.EMS-200_-_Capteur_de_mouvement.md)
+- [Ccsme-200](edisio.EMS-200_-_Capteur_de_mouvement.md)
 - [EMV-400](edisio.EMV-400_-_Eclairage.md)
 - [EMV-400](edisio.EMV-400_-_Volet.md)
 - [EOS-200](edisio.EOS-200_-_Capteur_d'ouverture.md)

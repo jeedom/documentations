@@ -10,7 +10,7 @@ Kern 4.4 integriert daher die Basisfunktionen setValues() und getValues(), die n
 
 Für einen einfacheren Umstieg und eine bessere Wartung sorgen die neuen Funktionen **getValues()** und **setValues()** auf dem DOM sind jetzt **setJeeValues()** und **getJeeValues()**.
 
-Außerdem alle Anrufe **Ajax**, sync oder async, durchlaufen Sie reine js-Funktionen, die intern für den Core entwickelt wurden. *load()* und *html()* werden daher von allen Klassen-js und von der Funktion jeedomUtils.loadPage verwendet(). Dies ermöglicht es Ihnen, alles zu kontrollieren, was ohne eine Abstraktionsschicht passiert, und hat es unter anderem ermöglicht, alle js-Skripte und CSS-Stylesheets, die von Drittanbietern (Core und Plugins) stammen, zu filtern, um sie in das Dokument zu laden.Kopf und laden Sie sie danach nicht neu !
+Außerdem alle Anrufe **Ajax**, sync oder async, durchlaufen Sie reine js-Funktionen, die intern für den Core entwickelt wurden. *load()* und *html()* werden daher von allen Klassen-js und von der Funktion jeedomUtils.loadPage verwendet(). Dies ermöglicht es Ihnen, alles zu steuern, was ohne eine Abstraktionsschicht passiert, und hat es unter anderem ermöglicht, alle js-Skripte und CSS-Stylesheets, die von Drittanbietern (Core und Plugins) stammen, zu filtern, um sie in das Dokument zu laden.Kopf und laden Sie sie danach nicht neu !
 
 Die Geschäftsführung von *Veranstaltungen* wird auch nach und nach auf reines js umstellen. Die Seiten **Synthese** **Armaturenbrett** **Design** und **Skript** sind bereits in vollem js mit Ereignisdelegierung.
 
@@ -179,7 +179,7 @@ Als eine Erinnerung:
 
 > **Anmerkung**
 >
-> Diese Änderungen können dazu führen, dass die mindestens erforderliche Jeedom-Version vieler Plugins gemountet werden muss. Deshalb die *Veraltet* nicht auf einem V4-Stable Branch Core erscheinen, sondern Entwicklern ermöglichen, zu sehen, was sie beheben können.
+> Diese Änderungen können dazu führen, dass die mindestens erforderliche Jeedom-Version vieler Plugins gemountet werden muss. Deshalb die *veraltet* nicht auf einem V4-Stable Branch Core erscheinen, sondern Entwicklern ermöglichen, zu sehen, was sie beheben können.
 
 #### jQuery-Autovervollständigung
 
@@ -327,9 +327,9 @@ Die von jQuery abhängige contextMenu-Bibliothek wird in einer zukünftigen Vers
 
 </details>
 
-#### jQuery FileUpload
+#### jQuery-Datei hochladen
 
-La lib jQuery fileupload sera supprimée dans une future version du Core. jeeFileUploader() remplace l'utilisation de ces fonctions.
+Die jQuery-Bibliothek zum Hochladen von Dateien wird in einer zukünftigen Core-Version entfernt. jeeFileUploader() ersetzt die Verwendung dieser Funktionen.
 
 <details>
 
@@ -341,23 +341,23 @@ La lib jQuery fileupload sera supprimée dans une future version du Core. jeeFil
   $('#bt_uploadImage').fileupload({
     url: 'core/ajax/plan.ajax.php?action=uploadImage&id=' + id
     dataType: 'json',
-    done: function(event, data) {
+    done: Funktion (Ereignis, Daten) {
       //Sachen machen
     }
   })
 
   //Core jeeFileUploader:
-  new jeeFileUploader({
+  neuer jeeFileUploader({
     fileInput: document.getElementById('bt_uploadImg'),
     url: 'core/ajax/plan.ajax.php?action=uploadImage&id=' + id
     /*
-    add: function(event, data) {
+    add: Funktion (Ereignis, Daten) {
       let currentPath = document.getElementById('bt_uploadImg').getAttribute('data-path')
-      data.url = 'core/ajax/jeedom.ajax.php?action=uploadImageIcon&filepath=' + currentPath
-      data.submit()
+      data.url = 'core/ajax/jeedom.ajax.php?action=uploadImageIcon&filepath=' + aktuellerPfad
+      Daten.einreichen()
     },
     */
-    done: function(event, data) {
+    done: Funktion (Ereignis, Daten) {
       //Sachen machen
     }
   })
