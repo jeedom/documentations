@@ -1,0 +1,14 @@
+{
+	"id" : "withings",
+	"name" : "Withings / Nokia",
+	"description" : "Recuperer vos informations de santé sur le cloud Nokia",
+	"licence" : "AGPL",
+	"installation" : "Vérifiez bien que vous avez correctement configuré la partie Générale -> Administration -> Configuration puis reseaux, en effet il faut lors de l'association de Jeedom au compte Withings que votre Jeedom soit accessible de l'exterieur (ensuite cela n'est plus nécessaire)",
+	"author" : "Ludovic, Loïc et Michael",
+	"require" : "3.2",
+	"category" : "health",
+	"display" : "panel",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+ 	"documentation" : "http://mika-nt28.github.io/Documentations/withings/#language#",
+	"changelog" : "https://mika-nt28.github.io/Documentations/withings/#language#/changelog"
+}
