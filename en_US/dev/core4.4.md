@@ -28,7 +28,7 @@ Some examples:
   $('#table_objectSummary tbody').append(tr)
   $('#table_objectSummary tbody tr').last().setValues(_summary, '.objectSummaryAttr')
 
-  //pure js:
+  //purejs:
   document.querySelector('#table_objectSummary tbody').insertAdjacentHTML('beforeend', tr)
   document.querySelectorAll('#table_objectSummary tbody tr').last().setJeeValues(_summary, '.objectSummaryAttr')
 
@@ -37,7 +37,7 @@ Some examples:
   var config = $('#config').getValues('.configKey')[0]
   var expression = $(this).closest('.actionOnMessage').getValues('.expressionAttr')
 
-  //pure js:
+  //purejs:
   var eqId = document.querySelector('.eqLogicAttr[data-l1key="id"]').jeeValue()
   var config = document.getElementById('config').getJeeValues('.configKey')[0]
   var expression = this.closest('.actionOnMessage').getJeeValues('.expressionAttr')
@@ -54,7 +54,7 @@ Some examples:
     //return newRow
   }
 
-  //pure js:
+  //purejs:
   addMyTr: function(_data) {
     var tr = ' <tr>'
     tr += ' <td>'
@@ -179,7 +179,7 @@ As a reminder:
 
 > **Remark**
 >
-> These changes may result in the need to mount the minimum required Jeedom version of many plugins. This is why the *deprecated* do not appear on a V4-Stable Branch Core, but allow developers to see what they can fix.
+> These changes may result in the need to mount the minimum required Jeedom version of many plugins. This is why the *Deprecated* do not appear on a V4-Stable Branch Core, but allow developers to see what they can fix.
 
 #### jQuery Autocomplete
 
@@ -367,7 +367,7 @@ The jQuery fileupload lib will be removed in a future Core release. jeeFileUploa
 
 </details>
 
-To see [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+See [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 
 ### Optional changes

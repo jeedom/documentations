@@ -12,7 +12,7 @@ Para una transición más fácil y un mejor mantenimiento, las nuevas funciones 
 
 Además, todas las llamadas **Ajax**, sincronizar o asíncrono, pasar por funciones js puras desarrolladas internamente para el Core. *load()* y *html()* por lo tanto, son utilizados por todas las clases js y por la función jeedomUtils.loadPage(). Esto le permite controlar todo lo que sucede sin una capa de abstracción y, entre otras cosas, ha hecho posible filtrar todos los scripts js y las hojas de estilo css provenientes de terceros (núcleo y complementos) para cargarlos en el documento.cabeza y no recargarlos después !
 
-La administración de *eventos* también cambiará gradualmente a js puro. Las paginas **Síntesis** **Tablero** **Diseño** y **Guion** ya están en js completo con delegación de eventos.
+La administración de *eventos* también cambiará gradualmente a js puro. Las paginas **Síntesis** **Tablero** **Diseño** y **Texto** ya están en js completo con delegación de eventos.
 
 Es un proyecto enorme, tanto en la reescritura de lo existente como en la creación de librerías internas para satisfacer las necesidades del front-end sin jQuery. Además, será necesario mantener jQuery y sus complementos/libs por un tiempo más para los complementos. Pero el camino está tomado!
 
@@ -179,7 +179,7 @@ Como recordatorio:
 
 > **Observación**
 >
-> Estos cambios pueden resultar en la necesidad de montar la versión mínima requerida de Jeedom de muchos complementos. Esta es la razón por la cual el *obsoleto* no aparecen en un Branch Core V4-Stable, pero permiten a los desarrolladores ver qué pueden solucionar.
+> Estos cambios pueden resultar en la necesidad de montar la versión mínima requerida de Jeedom de muchos complementos. Esta es la razón por la cual el *Obsoleto* no aparecen en un Branch Core V4-Stable, pero permiten a los desarrolladores ver qué pueden solucionar.
 
 #### jQuery Autocompletar
 
@@ -290,7 +290,7 @@ El contextMenu lib, que depende de jQuery, se eliminará en una versión futura 
         name: '{{Mi artículo}}',
         isHtmlName: false,
         icon: 'fas fa engranajes',
-        className: '', //Añadido al contenedor de elementos
+        className: '', //Añadido al contenedor de artículos
         callback: function(key, opt) { //Devolución de llamada del artículo
         }
       },
@@ -310,7 +310,7 @@ El contextMenu lib, que depende de jQuery, se eliminará en una versión futura 
     /*
     build: función (disparador) {
       elementos de menú contextual var = {}
-      retorno {
+      devolver {
         callback: función (clave, opciones, evento) {
           //Configurar elementos...
         }
@@ -329,7 +329,7 @@ El contextMenu lib, que depende de jQuery, se eliminará en una versión futura 
 
 #### jQuery FileUpload
 
-La librería jQuery fileupload se eliminará en una versión futura de Core. jeeFileUploader() reemplaza el uso de estas funciones.
+La lib jQuery fileupload sera supprimée dans une future version du Core. jeeFileUploader() remplace l'utilisation de ces fonctions.
 
 <details>
 
@@ -339,25 +339,25 @@ La librería jQuery fileupload se eliminará en una versión futura de Core. jee
   {% raw %}
   //jQueryUI:
   $('#bt_uploadImage').fileupload({
-    url: 'core/ajax/plan.ajax.php?action=subirImagen&id=' + id
+    url: 'core/ajax/plan.ajax.php?action=uploadImage&id=' + id
     dataType: 'json',
-    done: función (evento, datos) {
+    done: function(event, data) {
       //Hacer cosas
     }
   })
 
   //Core jeeFileUploader:
-  nuevo jeeFileUploader({
-    fileInput: documento.getElementById('bt_uploadImg'),
-    url: 'core/ajax/plan.ajax.php?action=subirImagen&id=' + id
+  new jeeFileUploader({
+    fileInput: document.getElementById('bt_uploadImg'),
+    url: 'core/ajax/plan.ajax.php?action=uploadImage&id=' + id
     /*
-    add: función (evento, datos) {
+    add: function(event, data) {
       let currentPath = document.getElementById('bt_uploadImg').getAttribute('data-path')
-      datos.url = 'núcleo/ajax/jeedom.ajax.php?action=uploadImageIcon&filepath=' + rutaActual
-      datos.enviar()
+      data.url = 'core/ajax/jeedom.ajax.php?action=uploadImageIcon&filepath=' + currentPath
+      data.submit()
     },
     */
-    done: función (evento, datos) {
+    done: function(event, data) {
       //Hacer cosas
     }
   })
