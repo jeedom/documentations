@@ -55,10 +55,17 @@ Die Registerkarte Payload ist sehr wichtig :
 
 Sobald Sie fertig sind, können Sie speichern. Danach werden die Befehle für Ihr Gerät aktualisiert, wenn Sie das nächste Mal einen Frame erhalten
 
+# 
+
+.
+
+ :
+
+- )
+- ). .
+
+.  #message#.
 
 # FAQ
 
 -   Einige Befehle werden nicht gleichzeitig mit anderen aktualisiert : Ja, einige Lorawan-Module senden nicht unbedingt alle Informationen gleichzeitig und mit der gleichen Häufigkeit
-
-
-

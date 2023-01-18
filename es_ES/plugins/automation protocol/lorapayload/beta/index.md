@@ -55,10 +55,17 @@ La pestaña Payload es muy importante :
 
 Una vez hecho esto, puedes guardar. A continuación, la próxima vez que reciba un marco, se actualizarán los comandos de su equipo
 
+# 
+
+.
+
+ :
+
+- )
+- ). .
+
+.  #message#.
 
 # FAQ
 
 -   Algunos comandos no se actualizan al mismo tiempo que otros : sí, de hecho, algunos módulos de Lorawan no envían necesariamente toda la información al mismo tiempo y con la misma frecuencia
-
-
-

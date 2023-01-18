@@ -55,10 +55,17 @@ The Payload tab is very important :
 
 Once done you can save. Following this, the next time you receive a frame, the commands for your equipment will update
 
+# 
+
+.
+
+ :
+
+- )
+- ). .
+
+.  #message#.
 
 # FAQ
 
 -   Some commands do not update at the same time as others : yes indeed some Lorawan modules do not necessarily send all the information at the same time and with the same frequency
-
-
-

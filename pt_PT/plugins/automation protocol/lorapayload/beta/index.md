@@ -1,4 +1,4 @@
-# 
+# Plugin LoraPayload
 
 Este plugin é um plugin que permite vincular comandos de carga útil LoraWan e criar um dispositivo com comandos enquanto analisa os valores.
 
@@ -55,10 +55,17 @@ A guia Payload é muito importante :
 
 Uma vez feito isso, você pode salvar. Em seguida, na próxima vez que você receber um quadro, os comandos do seu equipamento serão atualizados
 
+# 
+
+.
+
+ :
+
+- )
+- ). .
+
+.  #message#.
 
 # FAQ
 
 -   Alguns comandos não são atualizados ao mesmo tempo que outros : sim, de fato, alguns módulos de Lorawan não enviam necessariamente todas as informações ao mesmo tempo e com a mesma frequência
-
-
-
