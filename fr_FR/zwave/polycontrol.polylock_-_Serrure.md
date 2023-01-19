@@ -76,7 +76,7 @@ Voici la liste des commandes :
 
 > **Warning**
 >
-> Bien que ce module soit sur batterie il utilise la technologie Flirs. Cela veut dire qu’il n’a pas de notion de wake up et de réveil. Il récupérera toutes modifications de configutation en quasi temps réel comme un module secteur.
+> Bien que ce module soit sur batterie il utilise la technologie Flirs. Cela veut dire qu’il n’a pas de notion de wake up et de réveil. Il récupérera toutes modifications de configuration en quasi temps réel comme un module secteur.
 
 Si vous voulez effectuer la configuration du module en fonction de votre installation, il faut pour cela passer par la bouton "Configuration" du plugin OpenZwave de Jeedom.
 
@@ -112,7 +112,7 @@ L’élément déclencheur est la commande évènement d’un clavier zipato (ce
 
 > **Tip**
 >
-> Bien que ce module soit sur batterie il utilise la technologie Flirs. Cela veut dire qu’il n’a pas de notion de wake up et de réveil. Il récupérera toutes modifications de configutation en quasi temps réel comme un module secteur.
+> Bien que ce module soit sur batterie il utilise la technologie Flirs. Cela veut dire qu’il n’a pas de notion de wake up et de réveil. Il récupérera toutes modifications de configuration en quasi temps réel comme un module secteur.
 
 > **Tip**
 >
