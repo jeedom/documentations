@@ -6,6 +6,7 @@
 
 - Removal of the integrated script editor to switch to the core one
 - Support for tags in URLs of xml, json & html type commands as it was already on http commands
+- Better json support in http, json and xml type actions (read the documentation carefully to know how to do this))
 
 # 10/17/2022
 

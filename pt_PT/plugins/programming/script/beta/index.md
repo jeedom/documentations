@@ -63,6 +63,10 @@ Aqui você encontra a lista de pedidos :
 >
 > Caracteres especiais devem ser evitados no caminho do script ou em seus parâmetros, tanto quanto possível. Os caracteres permitidos sendo : números, letras (maiúsculas ou minúsculas)
 
+> **IMPORTANTE**
+>
+> Você pode no campo request (para http, json, xml) colocar json, basta precedê-lo com `json::`, exemplo `json::{"clef":"valeur"}`
+
 ![exemple](../images/exemple.png)
 
 Usado para chamar um URL ou recuperar o retorno de um URL.

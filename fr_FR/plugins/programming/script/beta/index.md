@@ -63,6 +63,10 @@ Vous retrouvez ici la liste des commandes :
 >
 > Il faut éviter, autant que possible, dans le chemin du script ou dans les paramètres de celui-ci les caractères spéciaux. Les caractères autorisés étant : les chiffres, les lettres (majuscule ou minuscule)
 
+> **Important**
+>
+> Vous pouvez dans le champs requete (pour http, json, xml) mettre du json, il faut juste le faire preceder de `json::`, exemple `json::{"clef":"valeur"}`
+
 ![exemple](../images/exemple.png)
 
 Permet d’appeler une url ou de récupérer le retour d’une URL.

@@ -63,6 +63,10 @@ Here you find the list of orders :
 >
 > Special characters should be avoided in the script path or in its parameters as much as possible. The allowed characters being : numbers, letters (upper or lower case)
 
+> **Important**
+>
+> You can in the request field (for http, json, xml) put json, you just have to precede it with `json::`, example `json::{"clef":"valeur"}`
+
 ![exemple](../images/exemple.png)
 
 Used to call a url or retrieve the return of a URL.

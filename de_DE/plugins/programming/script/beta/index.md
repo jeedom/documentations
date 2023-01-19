@@ -63,6 +63,10 @@ Hier finden Sie die Liste der Bestellungen :
 >
 > Sonderzeichen sollten im Skriptpfad oder in seinen Parametern so weit wie möglich vermieden werden. Die erlaubten Zeichen sind : Zahlen, Buchstaben (Groß- oder Kleinschreibung)
 
+> **Wichtig**
+>
+> Sie können im Anfragefeld (für http, json, xml) json eingeben, Sie müssen ihm nur `json voranstellen::`, Beispiel `json::{"clef":"valeur"}`
+
 ![exemple](../images/exemple.png)
 
 Wird verwendet, um eine URL aufzurufen oder die Rückgabe einer URL abzurufen.

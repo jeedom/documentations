@@ -6,6 +6,7 @@
 
 - Suppression de l'éditeur intégré de script pour passage sur celui du core
 - Prise en charge des tags dans les URLs des commandes de type xml, json & html comme ce l'était déjà sur les commandes http
+- Meilleurs support du json dans les actions de type http,json et xml (bien lire la documentation pour savoir comment faire)
 
 # 17/10/2022
 

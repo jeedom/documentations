@@ -6,6 +6,7 @@
 
 - Remoção do editor de script integrado para alternar para o principal
 - Suporte para tags em URLs de comandos do tipo xml, json e html como já estava em comandos http
+- Melhor suporte a json em ações do tipo http, json e xml (leia a documentação com atenção para saber como fazer isso))
 
 # 17/10/2022
 
