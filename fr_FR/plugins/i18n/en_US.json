@@ -864,9 +864,8 @@
         " Market*": " Market*"
     },
     "plugins\/monitoring\/index.md": {
-        "Plugin permettant de connecter Jeedom à Unifi Protect": "Plugin allowing to connect Jeedom to Unifi Protect",
         "Ubiquiti Unifi protect": "Ubiquiti Unifi protect",
-        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin available only in beta",
+        "Plugin permettant de connecter Jeedom à Unifi Protect": "Plugin allowing to connect Jeedom to Unifi Protect",
         "Plugin pour monitorer vos serveurs d'impression 3D": "Plugin to monitor your 3D print servers",
         "Onduleur (NUT": "Inverter (NUT",
         "Plugin pour récuperer les informations des onduleurs via nut": "Plugin to retrieve information from inverters via nut",
@@ -880,8 +879,6 @@
         "Documentation Beta": "Beta documentation",
         "Changelog Stable": "Changelog Stable",
         "Changelog Beta": "Changelog beta",
-        "Documentation beta": "Beta documentation",
-        "Changelog beta": "Changelog beta",
         " Ventilairsec.": " Ventilairsec.",
         " Ventilairsec?": " Ventilairsec?",
         "Ventilairsec ": "Ventilairsec ",

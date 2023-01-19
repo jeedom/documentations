@@ -1,0 +1,51 @@
+{
+    "id": "unifiprotect",
+    "name": "Ubiquiti Unifi protect",
+    "description": {
+        "fr_FR": "Plugin permettant de connecter Jeedom à Unifi Protect",
+        "en_US": "Plugin to connect Jeedom to Unifi Protect",
+        "es_ES": "Complemento para conectar Jeedom a Unifi Protect",
+        "de_DE": "Plugin zum Verbinden von Jeedom mit Unifi Protect",
+        "ru_RU": "Plugin permettant de connecter Jeedom à Unifi Protect",
+        "id_ID": "Plugin permettant de connecter Jeedom à Unifi Protect",
+        "it_IT": "Plugin permettant de connecter Jeedom à Unifi Protect",
+        "ja_JP": "Plugin permettant de connecter Jeedom à Unifi Protect",
+        "pt_PT": "Plugin para conectar o Jeedom ao Unifi Protect",
+        "tr": "Plugin permettant de connecter Jeedom à Unifi Protect"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "hasDependency": false,
+    "hasOwnDeamon": true,
+    "require": "3.3.24",
+    "category": "monitoring",
+    "languages": [
+        "fr_FR",
+        "en_US"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "v4",
+        "atlas"
+    ],
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/unifiprotect\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/unifiprotect",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/unifiprotect\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/unifiprotect\/beta"
+}

@@ -361,9 +361,8 @@
     },
     "plugins\/monitoring\/index.md": {
         "Ventilairsec": "Ventilairsec",
-        "Plugin permettant de connecter Jeedom à Unifi Protect": "Plugin permettant de connecter Jeedom à Unifi Protect",
         "Ubiquiti Unifi protect": "Ubiquiti Unifi protect",
-        "ATTENTION plugin disponible uniquement en beta": "ATTENTION plugin disponible uniquement en beta",
+        "Plugin permettant de connecter Jeedom à Unifi Protect": "Plugin permettant de connecter Jeedom à Unifi Protect",
         "Octoprint": "Octoprint",
         "Plugin pour monitorer vos serveurs d'impression 3D": "Plugin pour monitorer vos serveurs d'impression 3D",
         "Onduleur (NUT": "Onduleur (NUT",
@@ -381,9 +380,7 @@
         "Documentation Beta": "Documentation Beta",
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
-        "Changelog Beta": "Changelog Beta",
-        "Documentation beta": "Documentation beta",
-        "Changelog beta": "Changelog beta"
+        "Changelog Beta": "Changelog Beta"
     },
     "plugins\/multimedia\/index.md": {
         "De nombreuses autres fonctions sont aussi présentes": "De nombreuses autres fonctions sont aussi présentes",
