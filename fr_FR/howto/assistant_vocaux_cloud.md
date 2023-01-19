@@ -24,4 +24,4 @@ Ensuite une fois l'abonnement souscrit il faut faire la configuration en suivant
 
 > **Important**
 >
->Attetion du a une contrainte de notre prestataire (OVH) le service ne marche que en ipv4 il n'est donc pas compatible ipv6
+>Attention, du a une contrainte de notre prestataire (OVH) le service ne marche qu'en ipv4 il n'est donc pas compatible ipv6
