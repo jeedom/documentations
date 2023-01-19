@@ -35,46 +35,47 @@ Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/)
 | Freebox        | Freebox Delta  | Stable         | root/Mjeedom96 | A installer directement depuis la Freebox               | [Freebox](https://doc.jeedom.com/fr_FR/installation/freeboxdelta) |
 | Synology (Docker)| Nas Synology | Beta          | root/Mjeedom96  |                | [Synology](https://doc.jeedom.com/fr_FR/installation/synology) |
 
-\* Jeedom ne supporte officellement que la distribution Debian. Debian 10 est pleinement supportée, Debian 11 est en cours de test, voir [ici](https://doc.jeedom.com/fr_FR/compatibility/debian11)
+\* Jeedom ne prend en charge officellement que la distribution Debian. Debian 10 est pleinement prise en charge, Debian 11 est en cours de tests, voir [ici](https://doc.jeedom.com/fr_FR/compatibility/debian11).
 
 > **Informations**
 >
-> Vous pouvez aussi installer manuellement Jeedom sur tout système Debian en suivant cette [documentation](https://doc.jeedom.com/fr_FR/installation/cli)
+> Vous pouvez aussi installer manuellement Jeedom sur tout système Debian en suivant cette [documentation](https://doc.jeedom.com/fr_FR/installation/cli).
 
 #  Logiciel
 
 > **Important**
 >
-> Jeedom ne supporte que Debian Stretch (non recommandé) et Buster (stable). Toute autre version (Wheezy, Jessie…​) ou distribution (Ubuntu…​) n’est pas supportée par Jeedom.
+> Jeedom ne prend en charge que Debian Stretch (non recommandé) et Buster (stable). Toute autre version (Wheezy, Jessie…) ou distribution (Ubuntu…) n’est pas prise en charge par Jeedom.
 
 | Nom                     | Etat                    | Remarques                |
 |-------------------------|-------------------------|--------------------------|
 | PHP 5.5 ou moins        | Non supporté            |                          |
 | PHP 5.6                 | Fin de support (en 4.1) |                          |
 | PHP 7.0/7.1/7.2/7.3/7.4 | Stable                  |                          |
-| PHP 8.0 et plus         | Non support (pour le moment)|                          |
+| PHP 8.0 et plus         | Non supporté (pour le moment)|                          |
 | Mysql 7.4               | Beta                    |                          |
 | Mysql 5.5/5.6           | Stable                  |                          |
 | Mysql 5.7               | Stable                  |                          |
 | MariaBD                 | Stable                  |                          |
 
 
-# Equipements compatible
+# Equipements compatibles
 
-Vous trouverez ici pour les protocoles principaux les liens vers les équipements compatible pour les autres nous vous invitons à regarder directement la documentation du plugin
+Vous trouverez ici pour les protocoles principaux les liens vers les équipements compatibles.
+Pour les autres nous vous invitons à regarder directement la documentation du plugin.
 
 
 ## Bluetooth
 
-Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?p=home&plugin=blea) des modules Bluetooth compatibles Jeedom
+Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?p=home&plugin=blea) des modules Bluetooth compatibles Jeedom.
 
 ## Caméras
 
-Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=camera) des caméras compatibles Jeedom
+Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=camera) des caméras compatibles Jeedom.
 
 ## Edisio
 
-Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/edisio/equipement.compatible) des modules Edisio compatibles Jeedom et [ici](https://doc.jeedom.com/fr_FR/edisio/) la documentation pour certains modules
+Vous trouverez la liste [ici](https://doc.jeedom.com/fr_FR/edisio/equipement.compatible) des modules Edisio compatibles Jeedom et [ici](https://doc.jeedom.com/fr_FR/edisio/) la documentation pour certains modules.
 
 ## EnOcean
 
@@ -83,7 +84,7 @@ Contrôleur EnOcean :
 -   [Clef USB EnOcean USB300](https://www.domadoo.fr/fr/interface-domotique/3206-enocean-controleur-usb-enocean-avec-connecteur-sma-3700527400280.html)
 -   [Clef USB EnOcean USB310 (Recommandé)](https://www.domadoo.fr/fr/interface-domotique/2433-enocean-controleur-usb-enocean-3700527400273.html)
 
-Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) des modules EnOcean compatibles Jeedom 
+Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) des modules EnOcean compatibles Jeedom.
 
 ## RFXcom
 
@@ -92,7 +93,7 @@ Contrôleur RFXcom :
 -   RFXtrx433 USB
 -   [RFXtrx433E USB (Recommandé)](https://www.domadoo.fr/fr/interface-domotique/4659-rfxcom-interface-radio-recepteuremetteur-xl-43392mhz-usb-chacon-somfy-rts-oregon-et-autres.html)
 
-Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=rfxcom) des modules Rfxcom compatibles Jeedom et [ici](https://doc.jeedom.com/fr_FR/rfxcom/) la documentation pour certains modules
+Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=rfxcom) des modules Rfxcom compatibles Jeedom et [ici](https://doc.jeedom.com/fr_FR/rfxcom/) la documentation pour certains modules.
 
 ## SMS (GSM)
 
@@ -108,7 +109,7 @@ Contrôleur Zigbee :
 - [Zigate (beta)](https://www.domadoo.fr/fr/interface-domotique/5734-lixee-dongle-usb-zigbee-zigate-v2-compatible-jeedom-eedomus-domoticz-3770014375094.html?search_query=zigate&results=106)
 - [Popp (Elelabs) - Recommandée](https://www.domadoo.fr/fr/interface-domotique/5431-popp-dongle-usb-zigbee-zb-stick-chipset-efr32mg13-4251295701554.html)
 
-Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) des modules Zigbee compatibles Jeedom
+Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) des modules Zigbee compatibles Jeedom.
 
 ## Zwave
 
@@ -119,4 +120,4 @@ Contrôleur Z-WAVE :
 -   AEON LABS Contrôleur Z-Wave Aeon Labs Z-Stick S2
 -   [AEON LABS - Contrôleur USB Z-Wave Plus Z-Stick GEN5 (Recommandé)](https://www.domadoo.fr/fr/interface-domotique/2917-aeotec-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html?search_query=sigma&results=4)
 
-Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openzwave) des modules Z-wave compatibles Jeedom et [ici](https://doc.jeedom.com/fr_FR/zwave/) la documentation pour certains modules
+Vous trouverez la liste [ici](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openzwave) des modules Z-Wave compatibles Jeedom et [ici](https://doc.jeedom.com/fr_FR/zwave/) la documentation pour certains modules.
