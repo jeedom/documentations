@@ -24,7 +24,7 @@ Nous ne vous demandons pas une dissertation sur vos plugins mais juste des infos
 - type de langages utilisés
 - Utilise-t-il un démon ? des dépendances particulières ? des crons ?
 - Possède-t-il un panel dédié ?
-- Payant || gratuit ? (si vous avez déjà une idée)
+- Payant | gratuit ? (si vous avez déjà une idée)
 - Lien GitHub ou autre site de dépôt (si vous le souhaitez)
 - Lien vers la documentation
 De là un tag sera attribué par un modérateur à votre Plugin
@@ -52,7 +52,7 @@ Une fois connecté avec votre compte dev sur le market il faut :
     - Nom.
     - Catégorie.
     - Si il est privé ou non.
-  - Documentation et liens
+  - Documentation et liens (Ces informations sont basé sur le fichier info.json de votre plugin)
     - La description (bien mettre les points importants, la plupart des utilisateurs ne vont pas voir la documentation avant l'achat).
     - Les langues.
     - Le matériel compatible
@@ -63,13 +63,13 @@ Une fois connecté avec votre compte dev sur le market il faut :
     - Le nom du dépôt sur github.
     - Cocher la case pour que le market gère la traduction de votre plugin et de la documentation (attention dans ce cas à bien donner tous les droits à l'utilisateur `jeedom-market` de github sur votre dépot github).
 
-   Une fois sauvegardé, en retournant dans l'onglet github, vous pourrez indiquer les branches de votre github qui correspondent aux versions du market :
+   Une fois sauvegardé, en retournant dans l'onglet github, vous pourrez indiquer les branches de votre github qui correspondent aux versions du market (pensez à cliquer sur `Valider` avant de cliquer sur `Test/Synchroniser`) :
 
    - Beta  (par exemple: beta)
    - Stable  (par exemple: master)
    - V3 (seulement si vous avez une branche différente pour le support de Jeedom v3).
 
-   La synchronisation se fait soit automatiquement tous les jours à 12h10 (attention vu le nombre de plugin et les restrictions d'appels api la mise à jour commence à 12h10 mais prendre plusieurs dizaine d'heure). Vous pouvez aussi lancer une synchronisation manuelle d'une branche à partir de la fiche plugin.
+   La synchronisation se fait soit automatiquement tous les jours à 12h10 (attention de part le nombre de plugin et les restrictions d'appels API, la mise à jour commence à 12h10 mais peut prendre plusieurs dizaine d'heure), soit via une synchronisation manuelle d'une branche à partir de la fiche plugin.
    
    
    > **Note**
