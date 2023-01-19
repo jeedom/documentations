@@ -15,4 +15,4 @@ Ein einfaches Beispiel ist : bei Auslösung des Alarms erhalte ich einen Anruf m
 Es ist sehr einfach, dass Sie müssen : 
 
 - SMS-Guthaben haben  : SMS = 1 Guthaben (auf 140 Zeichen begrenzt), Anrufe = 2 Guthaben (auf 450 Zeichen begrenzt))
-- Habe das Phonemarket Plugin, installiere und konfiguriere, Dokumentation [hier](https://jeedom.github.io/plugin-phonemarket/de_DE/)
+- Habe das Phonemarket Plugin, installiere und konfiguriere, Dokumentation [hier](https://doc.jeedom.com/de_DE/plugins/communication/phonemarket/)

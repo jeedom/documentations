@@ -4,7 +4,7 @@
 
 C'est un service Jeedom SAS payant qui vous permet d'envoyer des SMS et de passer des appels (avec message lu par un robot) depuis votre Jeedom.
 
-Un exemple simple est : en cas de déclenchement de l'alarme alors je recois un appels avec une voix qui indique par exemple la zone ou l'alarme est déclencher. On peut faire de meme avec un SMS.
+Un exemple simple est : en cas de déclenchement de l'alarme alors je reçois un appel avec une voix qui indique par exemple la zone où l'alarme est déclenchée. On peut faire de même avec un SMS.
 
 > **IMPORTANT**
 >
@@ -14,5 +14,5 @@ Un exemple simple est : en cas de déclenchement de l'alarme alors je recois un 
 
 C'est très simple il faut : 
 
-- avoir du crédit SMS  : SMS = 1 crédit (limité à 140 caractères), appels = 2 crédits (limité à 450 caractères)
-- avoir le plugin phonemarket, d'installer et configuré, documentation [ici](https://jeedom.github.io/plugin-phonemarket/fr_FR/)
+- avoir du crédit SMS  : SMS = 1 crédit (limité à 140 caractères), appel = 2 crédits (limité à 450 caractères)
+- avoir le plugin phonemarket, d'installer et configurer, documentation [ici](https://doc.jeedom.com/fr_FR/plugins/communication/phonemarket/)
