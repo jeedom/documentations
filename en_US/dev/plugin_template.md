@@ -13,13 +13,13 @@ Here is its structure: first a folder with the name of your plugin (its unique i
   - ``config`` : Plugin configuration file.
   - ``ajax`` : Folder containing AJA call target filesX.
   - ``i18n`` : Folder containing files .plugin translation json.
+  - ``template`` : Folder containing the html templates for tiles specific to the plugin's equipment, in the dashboard and mobile subfolders.
 - ``desktop`` : Folder containing the "desktop" view of the plugin (in contrast to the "mobile" view").
   - ``js`` : Folder containing all javascript type files for the plugin interface.
   - ``php`` : Folder containing all php type files for the plugin interface.
   - ``css`` : If necessary, all the css files of the plugin, possibly including *fonts*.
   - ``modal`` : Folder containing the modal code of the plugin.
   - ``img`` : Folder for the images (png, jpg etc) needed by the plugin.
-  - ``template`` : Folder containing the html templates for tiles specific to the plugin's equipment, in the dashboard and mobile subfolders.
 - ``plugin_info`` : Contains the files allowing Jeedom to qualify the plugin, to install and configure it.
   - ``info.json`` : File containing basic plugin information .It is mandatory otherwise Jeedom will not see the plugin. It contains, among other things, the module identifier, description, installation instructions, etc
   - ``install.php`` : File containing (if necessary) the methods for installing and uninstalling the plugin.

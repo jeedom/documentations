@@ -24,4 +24,4 @@ Then once the subscription is subscribed it is necessary to configure by followi
 
 > **Important**
 >
->Attetion due to a constraint from our service provider (OVH) the service only works in ipv4 so it is not ipv6 compatible
+>Please note, due to a constraint from our service provider (OVH), the service only works in ipv4, so it is not ipv6 compatible

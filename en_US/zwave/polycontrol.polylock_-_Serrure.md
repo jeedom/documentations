@@ -76,7 +76,7 @@ Here is the list of commands :
 
 > **Warning**
 >
-> Although this module is on battery it uses Flirs technology. That means that he has no concept of wake up and awakening. It will recover all configuration changes in near real time as a sector module.
+> Although this module is on battery it uses Flirs technology. That means that he has no concept of wake up and awakening. It will retrieve any configuration changes in near real time like a mains module.
 
 If you want to configure the module according to your installation, you have to go through the "Configuration" button of Jeedom's OpenZwave plugin.
 
@@ -112,7 +112,7 @@ The trigger is the event command on a zipato keyboard (it can be anything else).
 
 > **Tip**
 >
-> Although this module is on battery it uses Flirs technology. That means that he has no concept of wake up and awakening. It will recover all configuration changes in near real time as a sector module.
+> Although this module is on battery it uses Flirs technology. That means that he has no concept of wake up and awakening. It will retrieve any configuration changes in near real time like a mains module.
 
 > **Tip**
 >

@@ -24,7 +24,7 @@ We do not ask you for a dissertation on your plugins but just information :
 - type of languages used
 - Does he use a demon ? specific dependencies ? crons ?
 - Does it have a dedicated panel ?
-- Paid || free ? (if you already have an idea)
+- Paid | free ? (if you already have an idea)
 - GitHub link or other repository site (if desired)
 - Link to documentation
 From there a tag will be assigned by a moderator to your Plugin
@@ -52,7 +52,7 @@ Once connected with your dev account on the market you must :
     - Name.
     - Category.
     - Whether it's private or not.
-  - Documentation and links
+  - Documentation and links (This information is based on the info file.json of your plugin)
     - Description (be sure to make the important points, most users will not see the documentation before purchasing).
     - Languages.
     - Compatible hardware
@@ -63,13 +63,13 @@ Once connected with your dev account on the market you must :
     - The name of the repository on github.
     - Check the box so that the market manages the translation of your plugin and the documentation (be careful in this case to give all the rights to the user `jeedom-market` of github on your github repository).
 
-   Once saved, by returning to the github tab, you can indicate the branches of your github that correspond to the market versions :
+   Once saved, by returning to the github tab, you can indicate the branches of your github that correspond to the market versions (remember to click on `Validate` before clicking on `Test/Synchronize`) :
 
    - Beta (eg: beta)
    - Stable (eg: master)
    - V3 (only if you have a different branch for Jeedom v3 support).
 
-   Synchronization is done either automatically every day at 12.10 p.m. (beware given the number of plugins and call restrictions api the update starts at 12.10 p.m). You can also launch a manual synchronization of a branch from the plugin file.
+   Synchronization is done either automatically every day at 12:10 p.m. (be careful due to the number of plugins and API call restrictions, the update starts at 12:10 p.m. but can take several dozen hours), or via manual synchronization of 'a branch from the plugin form.
    
    
    > **Note**

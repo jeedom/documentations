@@ -76,7 +76,7 @@ Aquí está la lista de comandos :
 
 > **Advertencia**
 >
-> Aunque este módulo funciona con batería, utiliza la tecnología Flirs. Eso significa que no tiene el concepto de despertar y despertar. Recuperará todos los cambios de configuración en tiempo casi real como módulo de sector.
+> Aunque este módulo funciona con batería, utiliza la tecnología Flirs. Eso significa que no tiene el concepto de despertar y despertar. Recuperará cualquier cambio de configuración casi en tiempo real como un módulo de red.
 
 Si desea configurar el módulo de acuerdo con su instalación, debe pasar por el botón "Configuración" del complemento Jeedom OpenZwave.
 
@@ -112,7 +112,7 @@ El disparador es el comando de evento en un teclado zipato (puede ser cualquier 
 
 > **Punta**
 >
-> Aunque este módulo funciona con batería, utiliza la tecnología Flirs. Eso significa que no tiene el concepto de despertar y despertar. Recuperará todos los cambios de configuración en tiempo casi real como módulo de sector.
+> Aunque este módulo funciona con batería, utiliza la tecnología Flirs. Eso significa que no tiene el concepto de despertar y despertar. Recuperará cualquier cambio de configuración casi en tiempo real como un módulo de red.
 
 > **Punta**
 >

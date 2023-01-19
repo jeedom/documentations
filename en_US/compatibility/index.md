@@ -35,11 +35,11 @@ You can find all Jeedom images [here](https://images.jeedom.com/)
 | Freebox        | Freebox Delta  | Stable         | root / Mjeedom96 | To install directly from the Freebox               | [Freebox](https://doc.jeedom.com/en_US/installation/freeboxdelta) |
 | Synology (Docker)| NAS Synology | Beta          | root / Mjeedom96  |                | [Synology](https://doc.jeedom.com/en_US/installation/synology) |
 
-\* Jeedom officially only supports Debian distribution. Debian 10 is fully supported, Debian 11 is being tested, see [here](https://doc.jeedom.com/en_US/compatibility/debian11)
+\* Jeedom only officially supports Debian distribution. Debian 10 is fully supported, Debian 11 is in testing, see [here](https://doc.jeedom.com/en_US/compatibility/debian11).
 
 > **Information**
 >
-> You can also manually install Jeedom on any Debian system by following this [Documentation](https://doc.jeedom.com/en_US/installation/cli)
+> You can also manually install Jeedom on any Debian system by following this [Documentation](https://doc.jeedom.com/en_US/installation/cli).
 
 #  Logiciel
 
@@ -52,7 +52,7 @@ You can find all Jeedom images [here](https://images.jeedom.com/)
 | PHP 5.5 or less        | Unsupported            |                          |
 | PHP 5.6                 | End of support (in 4.1) |                          |
 | PHP 7.0 / 7.1 / 7.2 / 7.3 / 7.4 | Stable                  |                          |
-| PHP 8.0 and above         | No support (for the moment)|                          |
+| PHP 8.0 and above         | Not supported (currently)|                          |
 | Mysql 7.4               | Beta                    |                          |
 | Mysql 5.5 / 5.6           | Stable                  |                          |
 | Mysql 5.7               | Stable                  |                          |
@@ -61,20 +61,21 @@ You can find all Jeedom images [here](https://images.jeedom.com/)
 
 # Compatible equipment
 
-You will find here for the main protocols the links to the compatible equipment for the others we invite you to look directly at the documentation of the plugin
+You will find here for the main protocols the links to the compatible equipment.
+For the others we invite you to look directly at the documentation of the plugin.
 
 
 ## Bluetooth
 
-You will find the list [here](https://compatibility.jeedom.com/index.php?p=home&plugin=blea) Jeedom compatible Bluetooth modules
+You will find the list [here](https://compatibility.jeedom.com/index.php?p=home&plugin=blea) Jeedom compatible Bluetooth modules.
 
 ## Cameras
 
-You will find the list [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=camera) Jeedom compatible cameras
+You will find the list [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=camera) Jeedom compatible cameras.
 
 ## Edisio
 
-You will find the list [here](https://doc.jeedom.com/en_US/edisio/equipement.compatible) Jeedom compatible Edisio modules and [here](https://doc.jeedom.com/en_US/edisio/) documentation for some modules
+You will find the list [here](https://doc.jeedom.com/en_US/edisio/equipement.compatible) Jeedom compatible Edisio modules and [here](https://doc.jeedom.com/en_US/edisio/) documentation for some modules.
 
 ## EnOcean
 
@@ -83,7 +84,7 @@ ENOCEAN controller :
 -   [EnOcean USB300 USB key](https://www.domadoo.fr/fr/interface-domotique/3206-enocean-controleur-usb-enocean-avec-connecteur-sma-3700527400280.html)
 -   [EnOcean USB310 USB stick (Recommended)](https://www.domadoo.fr/fr/interface-domotique/2433-enocean-controleur-usb-enocean-3700527400273.html)
 
-You will find the list [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) Jeedom compatible EnOcean modules 
+You will find the list [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openenocean) Jeedom compatible EnOcean modules.
 
 ## RFXcom
 
@@ -92,7 +93,7 @@ RFXcom controller :
 -   RFXtrx433 USB
 -   [RFXtrx433E USB (Recommended)](https://www.domadoo.fr/fr/interface-domotique/4659-rfxcom-interface-radio-recepteuremetteur-xl-43392mhz-usb-chacon-somfy-rts-oregon-et-autres.html)
 
-You will find the list [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=rfxcom) Jef compatible Rfxcom modules and [here](https://doc.jeedom.com/en_US/rfxcom/) documentation for some modules
+You will find the list [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=rfxcom) Jef compatible Rfxcom modules and [here](https://doc.jeedom.com/en_US/rfxcom/) documentation for some modules.
 
 ## SMS (GSM)
 
@@ -108,7 +109,7 @@ Zigbee controller :
 - [Zigate (beta)](https://www.domadoo.fr/fr/interface-domotique/5734-lixee-dongle-usb-zigbee-zigate-v2-compatible-jeedom-eedomus-domoticz-3770014375094.html?search_query=zigate&results=106)
 - [Popp (Elelabs) - Recommended](https://www.domadoo.fr/fr/interface-domotique/5431-popp-dongle-usb-zigbee-zb-stick-chipset-efr32mg13-4251295701554.html)
 
-You will find the list [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) Jeedom compatible Zigbee modules
+You will find the list [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) Jeedom compatible Zigbee modules.
 
 ## Zwave
 
@@ -119,4 +120,4 @@ Z-Wave controller :
 -   AEON LABS Z-Wave Controller Aeon Labs Z-Stick S2
 -   [AEON LABS - Z-Wave Plus Z-Stick GEN5 USB Controller (Recommended)](https://www.domadoo.fr/fr/interface-domotique/2917-aeotec-controleur-usb-z-wave-plus-z-stick-gen5-1220000012813.html?search_query=sigma&results=4)
 
-You will find the list [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openzwave) Jeedom compatible Z-wave modules and [here](https://doc.jeedom.com/en_US/zwave/) documentation for some modules
+You will find the list [here](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=openzwave) Jeedom compatible Z-wave modules and [here](https://doc.jeedom.com/en_US/zwave/) documentation for some modules.

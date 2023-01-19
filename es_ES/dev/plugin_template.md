@@ -13,13 +13,13 @@ Aquí esta su estructura: primero una carpeta con el nombre de su complemento (s
   - ``config`` : Archivo de configuración del complemento.
   - ``ajax`` : Carpeta que contiene archivos de destino de llamadas AJAX.
   - ``i18n`` : Carpeta que contiene archivos .plugin traducción json.
+  - ``template`` : Carpeta que contiene las plantillas html para mosaicos específicos del equipo del complemento, en el tablero y las subcarpetas móviles.
 - ``desktop`` : Carpeta que contiene la vista "escritorio" del complemento (en contraste con la vista "móvil"").
   - ``js`` : Carpeta que contiene todos los archivos de tipo javascript para la interfaz del complemento.
   - ``php`` : Carpeta que contiene todos los archivos de tipo php para la interfaz del complemento.
   - ``css`` : Si es necesario, todos los archivos css del complemento, posiblemente incluidos *fuentes*.
   - ``modal`` : Carpeta que contiene el código modal del complemento.
   - ``img`` : Carpeta para las imágenes (png, jpg, etc.) que necesita el complemento.
-  - ``template`` : Carpeta que contiene las plantillas html para mosaicos específicos del equipo del complemento, en el tablero y las subcarpetas móviles.
 - ``plugin_info`` : Contiene los archivos que permiten a Jeedom calificar el complemento, instalarlo y configurarlo.
   - ``info.json`` : Archivo que contiene información básica sobre el complemento .Es obligatorio, de lo contrario, Jeedom no verá el complemento. Contiene, entre otras cosas, el identificador del módulo, descripción, instrucciones de instalación, etc
   - ``install.php`` : Archivo que contiene (si es necesario) los métodos para instalar y desinstalar el complemento.

@@ -24,7 +24,7 @@ Wir bitten Sie nicht um eine Abhandlung über Ihre Plugins, sondern nur um Infor
 - Art der verwendeten Sprachen
 - Benutzt er einen Dämon ? spezifische Abhängigkeiten ? Kronen ?
 - Hat es ein dediziertes Panel ?
-- Bezahlt || kostenlos ? (wenn du schon eine idee hast)
+- Bezahlt | kostenlos ? (wenn du schon eine idee hast)
 - GitHub-Link oder andere Repository-Site (falls gewünscht)
 - Link zur Dokumentation
 Von dort wird Ihrem Plugin von einem Moderator ein Tag zugewiesen
@@ -52,7 +52,7 @@ Sobald Sie mit Ihrem Dev-Konto auf dem Markt verbunden sind, müssen Sie :
     - Name.
     - Kategorie.
     - Ob privat oder nicht.
-  - Dokumentation und Links
+  - Dokumentation und Links (Diese Informationen basieren auf der Infodatei.json Ihres Plugins)
     - Beschreibung (Achten Sie darauf, die wichtigen Punkte zu erwähnen. Die meisten Benutzer sehen die Dokumentation vor dem Kauf nicht).
     - Sprachen.
     - Kompatible Hardware
@@ -63,13 +63,13 @@ Sobald Sie mit Ihrem Dev-Konto auf dem Markt verbunden sind, müssen Sie :
     - Der Name des Repositorys auf Github.
     - Aktivieren Sie das Kontrollkästchen, damit der Markt die Übersetzung Ihres Plugins und der Dokumentation verwaltet (achten Sie in diesem Fall darauf, dass Sie dem Benutzer "jeedom-market" von github alle Rechte in Ihrem Github-Repository gewähren).
 
-   Nach dem Speichern können Sie durch Zurückkehren zur Registerkarte „Github“ die Zweige Ihres Githubs angeben, die den Marktversionen entsprechen :
+   Nach dem Speichern können Sie durch Zurückkehren zum Github-Tab die Zweige Ihres Githubs angeben, die den Marktversionen entsprechen (denken Sie daran, auf „Validieren“ zu klicken, bevor Sie auf „Testen/Synchronisieren“ klicken) :
 
    - Beta (zB: beta)
    - Stabil (zB: master)
    - V3 (nur wenn Sie einen anderen Zweig für die Unterstützung von Jeedom v3 haben).
 
-   Die Synchronisierung erfolgt entweder automatisch jeden Tag um 12.10 Uhr (Vorsicht angesichts der Anzahl der Plugins und der Anrufbeschränkungen). Das Update beginnt um 12.10 Uhr, dauert jedoch mehrere zehn Stunden). Sie können auch eine manuelle Synchronisierung eines Zweigs über die Plugin-Datei starten.
+   Die Synchronisierung erfolgt entweder automatisch jeden Tag um 12:10 Uhr (Vorsicht aufgrund der Anzahl der Plugins und API-Aufrufbeschränkungen, das Update beginnt um 12:10 Uhr, kann aber mehrere Dutzend Stunden dauern), oder über die manuelle Synchronisierung eines Zweigs aus dem Plugin-Formular.
    
    
    > **Notiz**

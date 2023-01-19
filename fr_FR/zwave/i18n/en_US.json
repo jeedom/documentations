@@ -9109,7 +9109,7 @@
         "Configuration du module": "Configuration of the module",
         "Bien que ce module soit sur batterie il utilise la technologie Flirs": "Although this module is on battery it uses Flirs technology",
         "Cela veut dire qu'il n'a pas de notion de wake up et de réveil": "That means that he has no concept of wake up and awakening",
-        "Il récupérera toutes modifications de configutation en quasi temps réel comme un module secteur": "It will recover all configuration changes in near real time as a sector module",
+        "Il récupérera toutes modifications de configuration en quasi temps réel comme un module secteur": "It will retrieve any configuration changes in near real time like a mains module",
         "Si vous voulez effectuer la configuration du module en fonction de votre installation, il faut pour cela passer par la bouton \"Configuration\" du plugin OpenZwave de Jeedom": "If you want to configure the module according to your installation, you have to go through the \"Configuration\" button of Jeedom's OpenZwave plugin",
         "Vous arriverez sur cette page (après avoir cliqué sur l'onglet paramètres": "You will arrive on this page (after clicking on the parameters tab",
         "Détails des paramètres": "Parameter details",

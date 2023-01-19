@@ -24,4 +24,4 @@ Luego, una vez que se suscribe la suscripción, es necesario configurarla siguie
 
 > **Importante**
 >
->Atención debido a una restricción de nuestro proveedor de servicios (OVH) el servicio solo funciona en ipv4 por lo que no es compatible con ipv6
+>Tenga en cuenta que, debido a una restricción de nuestro proveedor de servicios (OVH), el servicio solo funciona en ipv4, por lo que no es compatible con ipv6

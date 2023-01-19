@@ -24,4 +24,4 @@ Sobald das Abonnement abonniert ist, muss die Konfiguration anhand der Dokumenta
 
 > **Wichtig**
 >
->Achtung aufgrund einer Einschränkung unseres Service Providers (OVH) funktioniert der Service nur in IPv4 und ist daher nicht IPv6 kompatibel
+>Bitte beachten Sie, dass der Dienst aufgrund einer Einschränkung unseres Dienstanbieters (OVH) nur in IPv4 funktioniert und daher nicht mit IPv6 kompatibel ist

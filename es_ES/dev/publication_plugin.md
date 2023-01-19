@@ -24,7 +24,7 @@ No le pedimos una disertación sobre sus complementos, sino solo información :
 - tipo de lenguajes utilizados
 - ¿Usa un demonio? ? dependencias específicas ? crones ?
 - ¿Tiene un panel dedicado? ?
-- Pagado || gratis ? (si ya tienes una idea)
+- Pagado | gratis ? (si ya tienes una idea)
 - Enlace de GitHub u otro sitio de repositorio (si lo desea))
 - Enlace a la documentación
 A partir de ahí, un moderador asignará una etiqueta a su complemento
@@ -52,7 +52,7 @@ Una vez conectado con su cuenta de desarrollador en el mercado, debe :
     - Nombre.
     - Categoría.
     - Ya sea privado o no.
-  - Documentación y enlaces
+  - Documentación y enlaces (Esta información se basa en el archivo de información.json de tu complemento)
     - Descripción (asegúrese de hacer los puntos importantes, la mayoría de los usuarios no verán la documentación antes de comprar).
     - Las lenguas.
     - Hardware compatible
@@ -63,13 +63,13 @@ Una vez conectado con su cuenta de desarrollador en el mercado, debe :
     - El nombre del repositorio en github.
     - Marque la casilla para que el mercado gestione la traducción de su complemento y la documentación (tenga cuidado en este caso de otorgar todos los derechos al usuario `jeedom-market` de github en su repositorio de github).
 
-   Una vez guardado, volviendo a la pestaña de github, puedes indicar las sucursales de tu github que corresponden a las versiones del mercado :
+   Una vez guardado, volviendo a la pestaña de github, puedes indicar las ramas de tu github que corresponden a las versiones del mercado (recuerda hacer clic en `Validar` antes de hacer clic en `Probar/Sincronizar`) :
 
    - Beta (ej: beta)
    - Estable (ej: master)
    - V3 (solo si tiene una rama diferente para el soporte de Jeedom v3).
 
-   La sincronización se realiza automáticamente todos los días a las 12.10 p.m. (tenga en cuenta la cantidad de complementos y las restricciones de llamadas después de que la actualización comience a las 12.10 p.m. pero tome varias diez horas). También puede iniciar una sincronización manual de una rama desde el archivo del complemento.
+   La sincronización se realiza automáticamente todos los días a las 12:10 p. m. (tenga cuidado debido a la cantidad de complementos y restricciones de llamadas API, la actualización comienza a las 12:10 p. m. pero puede demorar varias docenas de horas), o mediante la sincronización manual de 'una sucursal desde el formulario del complemento.
    
    
    > **Nota**

@@ -76,7 +76,7 @@ Hier ist die Liste der Befehle :
 
 > **Warnung**
 >
-> Obwohl dieses Modul im Akkubetrieb ist, verwendet es die Flirs-Technologie. Das bedeutet, dass er keine Vorstellung davon hat, aufzuwachen und zu erwachen. Alle Konfigurationsänderungen werden nahezu in Echtzeit als Sektormodul wiederhergestellt.
+> Obwohl dieses Modul im Akkubetrieb ist, verwendet es die Flirs-Technologie. Das bedeutet, dass er keine Vorstellung davon hat, aufzuwachen und zu erwachen. Es ruft alle Konfigurationsänderungen nahezu in Echtzeit wie ein Netzmodul ab.
 
 Wenn Sie das Modul gemäß Ihrer Installation konfigurieren möchten, müssen Sie die Schaltfläche "Konfiguration" des OpenZwave-Plugins von Jeedom aufrufen.
 
@@ -112,7 +112,7 @@ Der Auslöser ist der Ereignisbefehl auf einer Zipato-Tastatur (es kann alles an
 
 > **Spitze**
 >
-> Obwohl dieses Modul im Akkubetrieb ist, verwendet es die Flirs-Technologie. Das bedeutet, dass er keine Vorstellung davon hat, aufzuwachen und zu erwachen. Alle Konfigurationsänderungen werden nahezu in Echtzeit als Sektormodul wiederhergestellt.
+> Obwohl dieses Modul im Akkubetrieb ist, verwendet es die Flirs-Technologie. Das bedeutet, dass er keine Vorstellung davon hat, aufzuwachen und zu erwachen. Es ruft alle Konfigurationsänderungen nahezu in Echtzeit wie ein Netzmodul ab.
 
 > **Spitze**
 >

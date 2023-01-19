@@ -9109,7 +9109,7 @@
         "Configuration du module": "Konfiguration des Moduls",
         "Bien que ce module soit sur batterie il utilise la technologie Flirs": "Obwohl dieses Modul im Akkubetrieb ist, verwendet es die Flirs-Technologie",
         "Cela veut dire qu'il n'a pas de notion de wake up et de réveil": "Das bedeutet, dass er keine Vorstellung davon hat, aufzuwachen und zu erwachen",
-        "Il récupérera toutes modifications de configutation en quasi temps réel comme un module secteur": "Alle Konfigurationsänderungen werden nahezu in Echtzeit als Sektormodul wiederhergestellt",
+        "Il récupérera toutes modifications de configuration en quasi temps réel comme un module secteur": "Es ruft alle Konfigurationsänderungen nahezu in Echtzeit wie ein Netzmodul ab",
         "Si vous voulez effectuer la configuration du module en fonction de votre installation, il faut pour cela passer par la bouton \"Configuration\" du plugin OpenZwave de Jeedom": "Wenn Sie das Modul gemäß Ihrer Installation konfigurieren möchten, müssen Sie die Schaltfläche \"Konfiguration\" des OpenZwave-Plugins von Jeedom aufrufen",
         "Vous arriverez sur cette page (après avoir cliqué sur l'onglet paramètres": "Sie gelangen auf diese Seite (nachdem Sie auf die Registerkarte Parameter geklickt haben",
         "Détails des paramètres": "Parameterdetails",

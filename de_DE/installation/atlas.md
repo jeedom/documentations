@@ -8,10 +8,10 @@ Der USB-Wiederherstellungsmodus umfasst sowohl das System, das Betriebssystem al
 
 Es erlaubt :
 
-- La reinitialisation de la Jeedom Atlas en configuration « usine » OS+Jeedom.
-- La reinitialisation de la Jeedom Atlas en configuration « usine », en appliquant ensuite sa sauvegarde Jeedom.
+- La réinitialisation  de la Jeedom Atlas en configuration « usine » OS+Jeedom.
+- La réinitialisation  de la Jeedom Atlas en configuration « usine », en appliquant ensuite sa sauvegarde Jeedom.
 
-Pour rappel la gestion des sauvegardes/restauration est disponible dans Jeedom dans le menu « Reglages » en haut à droite, puis « Sauvegardes ».
+Pour rappel la gestion des sauvegardes/restauration est disponible dans Jeedom dans le menu « Réglages » en haut à droite, puis « Sauvegardes ».
 
 Jeedom bietet einen Service mit automatischem Backup-Abonnement in der privaten Jeedom-Cloud an, sodass Sie sich um nichts kümmern müssen. (Sur le Market, dans votre compte, menu à gauche « Backup Cloud »).
 
@@ -69,7 +69,7 @@ FALL 2 : SIE HABEN KEINEN ZUGRIFF AUF IHRE ATLAS-BOX
 
 
 
-- Puis rendez vous sur http://jeedomatlasrecovery.local/
+- Puis rendez-vous sur http://jeedomatlasrecovery.local/
 
 
 

@@ -13,13 +13,13 @@ Hier ist seine Struktur: Zuerst einen Ordner mit dem Namen Ihres Plugins (genaue
   - ``config`` : Plugin-Konfigurationsdatei.
   - ``ajax`` : Ordner mit AJA-AufrufzieldateienX.
   - ``i18n`` : Ordner mit Dateien .Plugin-Übersetzung json.
+  - ``template`` : Ordner mit den HTML-Vorlagen für Kacheln, die für die Geräte des Plugins spezifisch sind, im Dashboard und in den Unterordnern für Mobilgeräte.
 - ``desktop`` : Ordner mit der "Desktop" -Ansicht des Plugins (im Gegensatz zur "mobilen" Ansicht").
   - ``js`` : Ordner mit allen Javascript-Dateien für die Plugin-Schnittstelle.
   - ``php`` : Ordner mit allen PHP-Typ-Dateien für die Plugin-Schnittstelle.
   - ``css`` : Bei Bedarf alle CSS-Dateien des Plugins, ggf. inklusive *Schriftarten*.
   - ``modal`` : Ordner mit dem Modalcode des Plugins.
   - ``img`` : Ordner für die Bilder (png, jpg etc), die vom Plugin benötigt werden.
-  - ``template`` : Ordner mit den HTML-Vorlagen für Kacheln, die für die Geräte des Plugins spezifisch sind, im Dashboard und in den Unterordnern für Mobilgeräte.
 - ``plugin_info`` : Enthält die Dateien, mit denen Jeedom das Plugin qualifizieren, installieren und konfigurieren kann.
   - ``info.json`` : Datei mit grundlegenden Plugin-Informationen .Es ist obligatorisch, sonst wird Jeedom das Plugin nicht sehen. Es enthält unter anderem die Modulkennung, Beschreibung, Installationsanleitung usw
   - ``install.php`` : Datei, die (falls erforderlich) die Methoden zum Installieren und Deinstallieren des Plugins enthält.
