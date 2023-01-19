@@ -13,13 +13,13 @@ Voici sa structure: tout d’abord un dossier du nom de votre plugin (son identi
   - ``config`` : Fichier de configuration du plugin.
   - ``ajax`` : Dossier contenant les fichiers cibles d’appels AJAX.
   - ``i18n`` : Dossier contenant les fichiers .json de traduction du plugin.
+  - ``template`` : Dossier contenant les templates html pour des tuiles sépcifiques aux équipements du plugin, dans les sous-dossier dashboard et mobile.
 - ``desktop`` : Dossier contenant la vue "bureau" du plugin (en opposition avec la vue "mobile").
   - ``js`` : Dossier contenant tous les fichiers de type javascript pour l'interface du plugin.
   - ``php`` : Dossier contenant tous les fichiers de type php pour l'interface du plugin.
   - ``css`` : Si besoin, tous les fichiers css du plugin, y compris éventuellement des *fonts*.
   - ``modal`` : Dossier contenant le code des modals du plugin.
   - ``img`` : Dossier pour les images (png, jpg etc) nécessaires au plugin.
-  - ``template`` : Dossier contenant les templates html pour des tuiles sépcifiques aux équipements du plugin, dans les sous-dossier dashboard et mobile.
 - ``plugin_info`` : Contient les fichiers permettant à Jeedom de qualifier le plugin, de faire son installation et sa configuration.
   - ``info.json`` : Fichier contenant les informations de base du plugin .Il est obligatoire sinon Jeedom ne verra pas le plugin. Il contient entre autre l’identifiant du module, la description, les instructions d’installation…​
   - ``install.php`` : Fichier contenant (si besoin) les méthodes d’installation et de désinstallation du plugin.
