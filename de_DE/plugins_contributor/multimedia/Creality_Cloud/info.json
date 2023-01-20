@@ -1,0 +1,35 @@
+{
+  "id": "Creality_Cloud",
+  "name": "Creality Cloud",
+  "description": {
+      "fr_FR": "Plugin permettant de récupérer les informations depuis son compte Creality Coud.",
+      "en_US": "Plugin to retrieve information from the Creality Box.</br>It is imperative that the Telnet access remains open on the box."
+  },
+  "utilization": "Après avoir entré l'IP, le port (défaut 23), l'identifiant (défaut root) et le mot de passe (défaut cxswprin) dans la page de configuration, démarrez le démon.</br>Toutes les commandes viendront au fur et à mesure : en lançant une impression, elles devraient toutes être créées.",
+  "licence": "AGPL",
+  "author": "DomoFlo1",
+  "require": "4.0",
+  "category": "multimedia",
+  "hasDependency": false,
+  "hasOwnDeamon": false,
+  "maxDependancyInstallTime": 0,
+  "changelog": "https://flobul.github.io/Jeedom-Creality_Cloud/#language#/changelog",
+  "documentation": "https://flobul.github.io/Jeedom-Creality_Cloud/#language#/",
+  "link": {
+    "forum": "https://community.jeedom.com/tag/plugin-creality_cloud"
+  },
+  "language": [
+    "fr_FR",
+    "en_US"
+  ],
+  "compatibility": [
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "mobile",
+    "v4",
+    "atlas"
+  ]
+}

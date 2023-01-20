@@ -1,0 +1,34 @@
+{
+    "id":"hdsentinel",
+    "name":"Hard Disk Sentinel",
+    "description":"Ce plugin permet de récuperer les informations de santé de ses disques durs grâce à l'outil linux Hard Disk Sentinel.",
+    "installation":"<strong>Prérequis</strong> : Un appareil sous linux <i><a class='btn btn-primary btn-xs' target='_blank' href='https://www.hdsentinel.com/hard_disk_sentinel_linux.php#download'>liste des appareils compatibles disponible ici</a></i>.<br/>Le détail des commandes et leur fonctionnement sur la documentation du plugin: <i><a class='btn btn-primary btn-xs' target='_blank' href='https://flobul-domotique.fr/presentation-et-documentation-du-plugin-hdsentinel-pour-jeedom/'><i class='fas fa-book'></i> Documentation du plugin",
+    "utilization":"Après avoir installé le plugin, ajoutez un équipement et entrez les informations SSH : IP, port, identifiant, mot de passe, Sauvegardez et Envoyez les fichiers puis Installer HD Sentinel et enfin lancez le cron distant",
+    "licence":"AGPL",
+    "author":"DomoFlo1",
+    "require":"4.0",
+    "hasDependency":false,
+    "hasOwnDeamon":false,
+    "category":"monitoring",
+    "display":"panel",
+    "languages":[
+        "fr_FR",
+        "en_US",
+        "sp_SP"
+    ],
+    "compatibility":[
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "v4",
+        "atlas"
+    ],
+    "changelog":"https://flobul-domotique.fr/liste-des-versions-du-plugin-hdsentinel-pour-jeedom/",
+    "documentation":"https://flobul-domotique.fr/presentation-et-documentation-du-plugin-hdsentinel-pour-jeedom/",
+    "link":{
+        "forum":"https://community.jeedom.com/tags/plugin-hdsentinel",
+        "video":""
+    }
+}

@@ -9,6 +9,7 @@
 
 | | | | |
 |--- | --- | --- | ---|
+|<img src="Creality_Cloud/Creality_Cloud_icon.png" class="pluginLogo" width="100" />|Creality Cloud|Plugin permettant de récupérer les informations depuis son compte Creality Coud.|[Documentation Stable](https://flobul.github.io/Jeedom-Creality_Cloud/fr_FR/)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4219)<br/>[Changelog Stable](https://flobul.github.io/Jeedom-Creality_Cloud/fr_FR/changelog)|
 |<img src="alexaamazonmusic/alexaamazonmusic_icon.png" class="pluginLogo" width="100" />|Alexa - Amazon Music|Interface Amazon Music|[Documentation Stable](http://jeedom.sigalou-domotique.fr/alexa-amazon-music-documentation)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3910)<br/>[Changelog Stable](http://jeedom.sigalou-domotique.fr/alexa-api-changelog)|
 |<img src="alexadeezer/alexadeezer_icon.png" class="pluginLogo" width="100" />|Alexa - Deezer|Interface Deezer|[Documentation Stable](http://jeedom.sigalou-domotique.fr/alexa-deezer-documentation)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3911)<br/>[Changelog Stable](http://jeedom.sigalou-domotique.fr/alexa-api-changelog)|
 |<img src="alexafiretv/alexafiretv_icon.png" class="pluginLogo" width="100" />|Alexa - Fire TV|Plugin pour interface Fire TV|[Documentation Stable](http://jeedom.sigalou-domotique.fr/alexa-fire-tv-documentation)<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4064)<br/>[Changelog Stable](http://jeedom.sigalou-domotique.fr/alexa-api-changelog)|

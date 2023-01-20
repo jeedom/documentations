@@ -4,6 +4,12 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 19/01/2023
+
+- Revisão de modelos de widgets de desktop em javascript puro
+- Suporte à exibição do gráfico de plano de fundo do bloco
+- Versão mínima do núcleo do Jeedom necessária : 4.2
+
 # 24/01/2022
 
 - Otimizações da V4.2

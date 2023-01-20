@@ -4,6 +4,12 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 01/19/2023
+
+- Revision of desktop widget templates in pure javascript
+- Support tile background graph display
+- Minimum Jeedom core version required : 4.2
+
 # 01/24/2022
 
 - V4.2 optimizations

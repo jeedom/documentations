@@ -4,6 +4,12 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 19.01.2023
+
+- Überarbeitung von Desktop-Widget-Vorlagen in reinem Javascript
+- Unterstützung der Anzeige von Kachelhintergrunddiagrammen
+- Mindestversion des Jeedom-Kerns erforderlich : 4.2
+
 # 24.01.2022
 
 - V4.2-Optimierungen

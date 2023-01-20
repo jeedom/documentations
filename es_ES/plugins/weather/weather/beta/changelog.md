@@ -4,6 +4,12 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 19/01/2023
+
+- Revisión de plantillas de widgets de escritorio en javascript puro
+- Visualización de gráfico de fondo de mosaico de soporte
+- Se requiere la versión básica mínima de Jeedom : 4.2
+
 # 24/01/2022
 
 - Optimizaciones V4.2
