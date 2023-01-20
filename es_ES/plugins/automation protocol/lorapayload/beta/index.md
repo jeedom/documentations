@@ -55,16 +55,16 @@ La pestaña Payload es muy importante :
 
 Una vez hecho esto, puedes guardar. A continuación, la próxima vez que reciba un marco, se actualizarán los comandos de su equipo
 
-# 
+# Envoyer des commandes
 
-.
+Certains modules Lorawan possèdent des commandes de type Action qui permettent d'envoyer des consignes aux modules via l'interface Jeedom.
 
- :
+Dans l'onglet Equipement du plugin LoraPayload :
 
-- )
-- ). .
+- Vous devez choisir la commande d'envoi (que ce soit MQTT ou autres)
+- Vous devez choisir si voulez avoir une confirmation (Ack). C'est une information remontée dans MQTT sur un topic dédié qui n'influence pas les données remontées.
 
-.  #message#.
+Concernant la commande d'envoi, dans le cas d'utilisation de MQTT, c'est une commande dans MQTT de type Action et de sous-type Message. Le topic est le topic dédié aux downlinks et la valeur de la commande est #message#.
 
 # FAQ
 
