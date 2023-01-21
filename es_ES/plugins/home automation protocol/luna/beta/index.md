@@ -2,19 +2,19 @@
 
 # Preocupación de atención de Luna intermitente
 
-Recibimos comentarios sobre un error de flasheo de algunos Luna. (solo el enviado antes de 2023),
-Lo sentimos y le hemos notificado a nuestro revendedor de Domadoo.
+Recibimos comentarios sobre un error de flasheo de algunos Lunas. (solo los enviados antes de 2023)
+Lo sentimos y hemos informado a nuestro distribuidor de Domadoo.
 
-Si logra ingresar a Jeedom, inicie el complemento Luna y vaya a : 
+Si logra conectarse a su Jeedom, inicie el complemento Luna (Complementos/Puerta de enlace de automatización del hogar/luna) y vaya a : 
   - Actualización del módulo de recuperación
 Luego haz la recuperación en :
   - Recuperación (restablecimiento de fábrica)
 Esto actualizará su Box completamente.
 
-Si no tiene acceso a su Box, por favor mantenga presionado el botón de reinicio de la caja por más de 10 segundos, cuando suelte la caja, debe parpadear y dejar que termine. normalmente Jeedom tendrá que volver para hacer el procedimiento si está arriba. para una actualización completa.
+Si no tiene acceso a su caja, deje presionado el botón de reinicio de la caja durante más de 10 segundos; cuando este último se suelta, la caja debe parpadear, dejar que termine el proceso. Jeedom debería volver a estar operativo. Puede realizar el procedimiento anterior para una actualización completa.
 
 Si no parpadea : 
- - Póngase en contacto con ellos en este enlace, el equipo de Domadoo le proporcionará una etiqueta de devolución y le enviará un Luna correctamente flasheado :
+ - Póngase en contacto con Domadoo a través del siguiente enlace; el equipo de Domadoo te proporcionará una etiqueta de devolución y te enviará un Luna correctamente flasheado :
 https://www.domadoo.fr/rma
 
 # Próximamente, en breve, pronto : Hotspot
@@ -33,7 +33,7 @@ Une fois ces dernières fixes, vous pourrez y accéder de nouveau via son adress
 
 > Recuperación (restablecimiento de fábrica)
 
-Durante un restablecimiento de fábrica, la caja se restaura a la configuración de fábrica de acuerdo con la imagen actualizada a través del botón que se muestra arriba. ATENCIÓN : debe hacer una copia de seguridad de su caja antes de esta operación porque perderá todo durante esta fase. (excepto copia de seguridad en SD).
+Durante un restablecimiento de fábrica, la caja se restaura a la configuración de fábrica de acuerdo con la imagen actualizada a través del botón que se muestra arriba. ATENCIÓN : debe hacer una copia de seguridad de su caja antes de esta operación porque perderá los datos de su caja (excepto la copia de seguridad en la SD).
 
 > LED
 
@@ -41,7 +41,7 @@ Puede a través del comando seleccionar tipo cambiar el color y la animación de
 
 > Batterie
 
-Puede a través de dos comentarios tener el porcentaje de batería y el tipo de fuente de alimentación de su caja. (cargando, descargando, Lleno etc…).
+Puede, a través de dos comentarios, tener el porcentaje de batería y el tipo de fuente de alimentación de su caja. (cargando, descargando, Lleno etc…).
 
 > SD
 

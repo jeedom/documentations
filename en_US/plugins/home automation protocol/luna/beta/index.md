@@ -2,19 +2,19 @@
 
 # Attention concern of Luna flashing
 
-We got feedback on a flashing error of some Luna. (only the one shipped before 2023),
-We are sorry for this and we have notified our Domadoo reseller.
+We got feedback on a flashing error of some Lunas. (only those shipped before 2023)
+We are sorry for this and have informed our Domadoo reseller.
 
-If you manage to enter Jeedom, please launch the Luna plugin and go to : 
+If you manage to connect to your Jeedom, please launch the Luna plugin (Plugins/Home automation gateway/luna) and go to : 
   - Recovery module update
 Then do the recovery in :
   - Recovery (Reset Factory)
 This will update your Box completely.
 
-If you do not have access to your Box, please keep pressing the box's reset button for more than 10 seconds, when you release the box, it must flash and let it finish. normally Jeedom will have to come back to do the procedure if above. for a complete update.
+If you do not have access to your box, please leave the box's reset button pressed for more than 10 seconds; when the latter is released, the box should flash; let it finish the process. Jeedom should become operational again. You can do the above procedure for a complete update.
 
 If it doesn't blink : 
- - Please contact them on this link, the Domadoo team will provide you with a return label and send you a correctly flashed Luna :
+ - Please contact Domadoo via the following link; the Domadoo team will provide you with a return label and send you a correctly flashed Luna :
 https://www.domadoo.fr/rma
 
 # Coming soon : Hotspot
@@ -33,7 +33,7 @@ Une fois ces dernières fixes, vous pourrez y accéder de nouveau via son adress
 
 > Recovery (Reset Factory)
 
-During a factory reset the box is restored to factory configuration according to the updated image via the button given above. WARNING : you must make a backup of your box before this operation because you will lose everything during this phase. (except backup on SD).
+During a factory reset the box is restored to factory configuration according to the updated image via the button given above. WARNING : you must make a backup of your box before this operation because you will lose the data of your box (except backup on the SD).
 
 > LED
 
@@ -41,7 +41,7 @@ You can via the select type command change the color and animation of the led (c
 
 > Batterie
 
-You can via two feedbacks have the battery percentage as well as the type of power supply of your box. (charging, decharging, Full etc…).
+You can, via two feedbacks, have the battery percentage as well as the type of power supply of your box. (charging, decharging, Full etc…).
 
 > SD
 
