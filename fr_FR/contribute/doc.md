@@ -1,6 +1,6 @@
 # Contribuer à la documentation
 
-La documentation de Jeedom est centralisée sur ce site, par plusieurs mécanismes. Comme le Core de Jeedom, la documentation est accessible sur Github et Open-Source.
+La documentation de Jeedom est centralisée sur ce site, par plusieurs mécanismes. Comme le Core de Jeedom, la documentation est accessible sur Github et est Open-Source (licence MIT).
 
 Pour participer à la documentation, vous devez donc avoir un compte [Github](https://github.com/).
 
@@ -26,7 +26,7 @@ Suivant l'url sur le site de documentation, vous pouvez retrouver le fichier md 
 - Concepts -> https://github.com/jeedom/documentations/blob/master/fr_FR/concept/index.md
 - Contribuer à la documentation -> https://github.com/jeedom/documentations/blob/master/fr_FR/contribute/doc.md
 
-Vous pouvez donc faire des PRs (*Pull requests*) sur ces fichiers .md.
+Vous pouvez donc faire des PRs (*Pull requests*) sur ces fichiers `.md`.
 
 Vous pouvez voir dans ce répertoire, les répertoires core, plugins, etc. Ceux-ci sont gérés automatiquement, donc inutile de faire des PRs ici (lire la suite).
 
@@ -65,9 +65,9 @@ Celles-ci sont générées automatiquement par un système de traduction propre 
 
 Dans le code vous pouvez spécifier des chaînes à traduire comme cela :
 
-En php : `$myString = __('Ma phrase qui sera traduite', __FILE__);`
+En PHP : `$myString = __('Ma phrase qui sera traduite', __FILE__);`
 
-En js : ``{% raw %}var myString = '{{Ma phrase qui sera traduite}}'{% endraw %}``
+En JavaScript : ``{% raw %}var myString = '{{Ma phrase qui sera traduite}}'{% endraw %}``
 
 Le système de traduction se chargera alors de leur traduction et de leur référencement dans les fichiers json (`docs/i18n/`), et le Core de leur remplacement dans l'interface.
 

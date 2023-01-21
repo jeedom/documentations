@@ -1,26 +1,26 @@
 # Contribute to documentation
 
-Jeedom documentation is centralized on this site, by several mechanisms. Like the Jeedom Core, the documentation is accessible on Github and Open-Source.
+Jeedom documentation is centralized on this site, by several mechanisms. Like the Jeedom Core, the documentation is accessible on GitHub and is Open-Source (MIT license).
 
-To participate in the documentation, you must therefore have an account [Github](https://github.com/).
+To participate in the documentation, you must therefore have an account [GitHub](https://github.com/).
 
 Of course, you can always make a message on the [Forum](https://community.jeedom.com/), by putting the documentation-jeedom tag on your message.
 
-This is differentiated into three categories :
+This is differentiated into three categories:
 
 ## General documentation
 
 General documentation pages are those that do not come directly from the Core.
 
-For example :
+For example:
 
 - [Presentation](https://doc.jeedom.com/en_US/presentation/)
 - [Concepts](https://doc.jeedom.com/en_US/concept/)
 - [Contribute to documentation](https://doc.jeedom.com/en_US/contribute/doc)
 
-These pages are available on the [documentation repository](https://github.com/jeedom/documentations/tree/master/fr_FR)
+These pages are available on the [documentation repository](https://github.com/jeedom/documentations/tree/master/en_US)
 
-Following the url on the documentation site, you can find the corresponding md file. Examples :
+Following the url on the documentation site, you can find the corresponding md file. Examples:
 
 - Presentation -> https://github.com/jeedom/documentations/blob/master/en_US/presentation/index.md
 - Concepts -> https://github.com/jeedom/documentations/blob/master/en_US/concept/index.md
@@ -33,7 +33,7 @@ You can see in this directory, the core directories, plugins, etc. These are man
 
 ## Jeedom Core documentation
 
-The Core documentation is on the Core repository, in the doc directory : [https://github.com/jeedom/core/tree/alpha/docs/fr_FR](https://github.com/jeedom/core/tree/alpha/docs/fr_FR)
+The Core documentation is on the Core repository, in the doc directory: [https://github.com/jeedom/core/tree/alpha/docs/en_US](https://github.com/jeedom/core/tree/alpha/docs/en_US).
 
 For each Jeedom page, you have a page.md corresponding.
 
@@ -51,10 +51,10 @@ On the same principle as the Core documentation, that of the plugins is automati
 
 For example, for the OpenZWave plugin
 
-- Accès à la doc ici : https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/
-- Repository du plugin : https://github.com/jeedom/plugin-openzwave/blob/beta/docs/en_US/index.md
+- Plugin documenation: https://doc.jeedom.com/en_US/plugins/automation%20protocol/openzwave/
+- Plugin repository: https://github.com/jeedom/plugin-openzwave/blob/beta/docs/en_US/index.md
 
-There you have to find the repository of the plugin in question, then go to its doc / fr_FR directory. While distinguishing between [official plugins](https://github.com/jeedom) third-party plugins. In addition, paid plugins (official or third-party) are not accessible, because on private repositories. In this case, you can always make a message on the [Forum](https://community.jeedom.com/), with the documentation-jeedom tag or the plugin.
+There you have to find the repository of the plugin in question, then go to its doc / en_US directory. While distinguishing between [official plugins](https://github.com/jeedom) third-party plugins. In addition, paid plugins (official or third-party) are not accessible, because on private repositories. In this case, you can always make a message on the [Forum](https://community.jeedom.com/), with the documentation-jeedom tag or the plugin.
 
 
 ## The translations
@@ -65,9 +65,9 @@ These are generated automatically by a translation system specific to Jeedom. It
 
 In the code you can specify strings to translate like this :
 
-In php : `$ myString = __ ('My sentence that will be translated', __FILE __);`
+In PHP: `$ myString = __ ('My sentence that will be translated', __FILE __);`
 
-In js : ``{% raw %}var myString = '{{My sentence that will be translated}}'{% endraw %}``
+In JavaScript: ``{% raw %}var myString = '{{My sentence that will be translated}}'{% endraw %}``
 
 The translation system will then take care of their translation and their referencing in the json files (`docs / i18n /`), and the Core of their replacement in the interface.
 
