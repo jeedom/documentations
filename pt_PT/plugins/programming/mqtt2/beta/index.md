@@ -89,3 +89,12 @@ Você deve indicar o tópico raiz do equipamento *(`teste` por exemplo)*, então
 - **Corretor sob Docker** : Primeiro, use o comando **Deletar** Equipamento `mqtt2_mosquitto` do plugin **Gerenciamento do Docker** *(Plugins > Programação > Gerenciamento do Docker)*. Você pode então excluir todo este equipamento.
 
 - **Corretor local** : Você deve então usar o botão vermelho **Desinstalar Mosquito** da página de configuração geral do plugin.
+
+
+# Autodescoberta)
+
+O plug-in pode fazer a descoberta automática de vários tipos de módulos. Para fazer isso, você só precisa autorizar a descoberta automática na página principal do plug-in e reiniciar o demônio.
+
+>**IMPORTANTE**
+>
+>Para módulos do tipo tasmota é absolutamente necessário que a configuração completa do tópico seja `%topic%/%prefix%/`

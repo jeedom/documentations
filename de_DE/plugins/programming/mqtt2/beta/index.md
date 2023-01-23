@@ -89,3 +89,12 @@ Es ist möglich, Jeedom über MQTT zu steuern. Hier sind die verschiedenen mögl
 - **Broker unter Docker** : Verwenden Sie zuerst den Befehl **Löschen** `mqtt2_mosquitto` Ausrüstung aus dem Plugin **Docker-Verwaltung** *(Plugins > Programmierung > Docker-Verwaltung)*. Anschließend können Sie diese gesamte Ausstattung löschen.
 
 - **Lokaler Makler** : Sie müssen dann die rote Taste verwenden **Moskito deinstallieren** von der allgemeinen Konfigurationsseite des Plugins.
+
+
+# Selbstfindung)
+
+Das Plugin kann verschiedene Arten von Modulen automatisch erkennen. Dazu müssen Sie nur die automatische Erkennung auf der Hauptseite des Plugins autorisieren und den Dämon neu starten.
+
+>**WICHTIG**
+>
+>Für Module vom Typ Tasmota ist es absolut notwendig, dass die vollständige Topic-Konfiguration `%topic%/%prefix%/` ist

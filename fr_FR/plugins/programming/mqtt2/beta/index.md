@@ -89,3 +89,12 @@ Il est possible de piloter Jeedom à travers MQTT. Ci-après les différents top
 - **Broker sous Docker** : Il faut tout d'abord utiliser la commande **Supprimer** de l'équipement `mqtt2_mosquitto` issu du plugin **Docker Management** *(Plugins > Programmation > Docker Management)*. Vous pouvez ensuite supprimer cet équipement au complet.
 
 - **Broker local** : Il faut alors utiliser le bouton rouge **Désinstaller Mosquitto** depuis la page de configuration générale du plugin.
+
+
+# Découverte auto (disvoery)
+
+Le plugin peux faire de la decouverte auto de plusieurs type de module. Pour cela il vous suffit juste d'autoriser la decouverte auto sur la page principale du plugin et de relancer le demon.
+
+>**IMPORTANT**
+>
+>Pour les modules de type tasmota il faut absolument que la configuration du full topic soit `%topic%/%prefix%/`

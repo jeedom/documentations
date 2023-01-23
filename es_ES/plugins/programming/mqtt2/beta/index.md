@@ -89,3 +89,12 @@ Es posible pilotar Jeedom a través de MQTT. Aquí están los diferentes temas p
 - **Corredor bajo Docker** : Primero, usa el comando **Borrar** Equipo `mqtt2_mosquitto` del complemento **Gestión de Docker** *(Complementos > Programación > Gestión de Docker)*. A continuación, puede eliminar todo este equipo.
 
 - **Corredor local** : A continuación, debe utilizar el botón rojo **Desinstalar Mosquito** desde la página de configuración general del plugin.
+
+
+# Autodescubrimiento)
+
+El complemento puede realizar el descubrimiento automático de varios tipos de módulos. Para hacer esto, solo necesita autorizar el descubrimiento automático en la página principal del complemento y reiniciar el demonio.
+
+>**IMPORTANTE**
+>
+>Para los módulos tipo tasmota es absolutamente necesario que la configuración completa del tema sea `%topic%/%prefix%/`

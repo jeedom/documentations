@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Hinzufügen eines Autodiscovery-Systems für bestimmte Module (beta)
+- Bild der Module hinzugefügt
+- Fehler bei der Client-ID behoben (wenn mehrere jeedom auf demselben Broker)
+
 # 23.12.2022
 
 - Es wurde ein Fehler bei der maximal zulässigen Zeit für die Installation von Abhängigkeiten behoben

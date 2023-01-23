@@ -4,6 +4,10 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+- Adição de um sistema de descoberta automática para determinados módulos (beta)
+- Adicionada a imagem dos módulos
+- Corrigido um bug no ID do cliente (se vários jeedom no mesmo corretor)
+
 # 23/12/2022
 
 - Corrigido um bug no tempo máximo permitido para instalação de dependências

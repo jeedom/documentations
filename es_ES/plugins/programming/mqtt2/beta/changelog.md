@@ -4,6 +4,10 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+- Adición de un sistema de autodescubrimiento para ciertos módulos (beta)
+- Añadida la imagen de los módulos
+- Se corrigió un error en la identificación del cliente (si varios jeedom en el mismo corredor)
+
 # 23/12/2022
 
 - Se corrigió un error en el tiempo máximo permitido para instalar dependencias
