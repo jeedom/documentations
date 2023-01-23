@@ -8,6 +8,12 @@
 >
 >To know the new compatible module you have to go [the](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (it is sorted by date added / modified)
 
+# 10/19/2022
+
+- Remove rustc folder after installing dependencies to free up space
+- Improved support for some modules
+- Bugfix
+
 # 03/10/2022
 
 - Zigpy versions are now fixed to avoid issues with installing dependencies

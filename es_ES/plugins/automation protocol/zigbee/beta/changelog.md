@@ -8,6 +8,11 @@
 >
 >Para conocer el nuevo módulo compatible tienes que ir [la](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (está ordenado por fecha de adición / modificación)
 
+# 23/01/2022
+
+- nueva configuración agregada
+- Arreglo del fallo
+
 # 19/10/2022
 
 - Elimine la carpeta rustc después de instalar las dependencias para liberar espacio
