@@ -4,6 +4,10 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 19.10.2020
+
+- Fehlerbehebung
+
 # 10/09/2019
 
 - Unterstützt PHP 7.3

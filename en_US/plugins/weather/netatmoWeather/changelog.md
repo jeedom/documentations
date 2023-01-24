@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 19/10/2020
+
+- Bug fix
+
 # 10/09/2019
 
 - Support PHP 7.3

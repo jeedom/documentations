@@ -6,7 +6,12 @@
         "en_US": "Allows you to retrieve information from Netatmo weather stations",
         "es_ES": "Le permite recuperar información de las estaciones meteorológicas de Netatmo",
         "de_DE": "Ermöglicht das Abrufen von Informationen von Netatmo-Wetterstationen",
-        "pt_PT": "Permite recuperar informações das estações meteorológicas da Netatmo"
+        "pt_PT": "Permite recuperar informações das estações meteorológicas da Netatmo",
+        "ru_RU": "Permet de récupérer les informations des stations météo Netatmo",
+        "id_ID": "Permet de récupérer les informations des stations météo Netatmo",
+        "it_IT": "Permet de récupérer les informations des stations météo Netatmo",
+        "ja_JP": "Permet de récupérer les informations des stations météo Netatmo",
+        "tr": "Permet de récupérer les informations des stations météo Netatmo"
     },
     "licence": "AGPL",
     "author": "Loïc",
@@ -19,7 +24,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
@@ -28,5 +38,7 @@
         "docker",
         "diy",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/netatmoWeather\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/netatmoWeather\/beta"
 }

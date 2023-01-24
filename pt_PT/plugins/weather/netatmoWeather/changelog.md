@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 19/10/2020
+
+- Bug fix
+
 # 09/09/2019
 
 - Suporte PHP 7.3

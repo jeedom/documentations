@@ -102,7 +102,7 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/GreenPower.GreenPowerDevice.png" width="60" />|GreenPower|Equipo genérico GreenPower||||
 |<img src="../../es_ES/zigbee/images/GreenPower.OnOff_Switch.png" width="60" />|GreenPower|Equipo GreenPower On / Off||||
-|<img src="../../es_ES/zigbee/images/GreenPower.Window_handle.png" width="60" />|GreenPower|Manilla para ventana de equipamiento GreenPower||||
+|<img src="../../es_ES/zigbee/images/GreenPower.Window_handle.png" width="60" />|GreenPower|Manija de la ventana del equipo GreenPower||||
 
 # Groupes
 
@@ -409,6 +409,7 @@
 |<img src="../../es_ES/zigbee/images/gledopto.GL-FL-006P.png" width="60" />|Gledopto|GL-FL-006P||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-G-001P.png" width="60" />|Gledopto|GL-G-001P||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-G-001ZS.png" width="60" />|Gledopto|GL-G-001ZS||||
+||Gledopto|GL-H-001||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-MC-001.png" width="60" />|Gledopto|Cinta Gledopto RGBCCT||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-MC-001P.png" width="60" />|Gledopto|Cinta Gledopto RGBCCT||||
 |<img src="../../es_ES/zigbee/images/gledopto.GL-S-004Z.png" width="60" />|Gledopto|GL-S-004Z||||
@@ -497,6 +498,7 @@
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRIbulbE27WSglobeopal1055lm.png" width="60" />|Ikea|Bombilla E27 1055lm||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRIbulbE27WWclear250lm.png" width="60" />|Ikea|Bombilla TRADFRI E27 WW transparente 250lm||||
 |<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TRADFRIbulbGU10WS345lm.png" width="60" />|Ikea|Bombilla GU10 WS 350lm||||
+|<img src="../../es_ES/zigbee/images/IKEA_of_Sweden.TREDANSEN_block-out_cellul_blind.png" width="60" />|Ikea|Tredansen||||
 |<img src="../../es_ES/zigbee/images/KE.TRADFRI_openclose_remote.png" width="60" />|Ikea|Mando a distancia para persianas de 2 botones||||
 
 # Iluminize
@@ -510,6 +512,7 @@
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/TYZB01_vpffpbju.TS0219.png" width="60" />|Imaax|IMMAX - Sirena Inteligente Exterior|||[Comprar](https://www.domadoo.fr/fr/peripheriques/6352-immax-sirene-intelligente-exterieure-zigbee-30-tuya-ip65.html?domid=4&id_campaign=9)|
+|<img src="../../es_ES/zigbee/images/TZ3000_jak16dll.TS011F.png" width="60" />|Imaax|IMMAX - Enchufe doble||||
 |<img src="../../es_ES/zigbee/images/TZ3210_jijr1sss.TS0202.png" width="60" />|Imaax|IMMAX - Multi Sensores (PIR, Temperatura, Humedad, Luminosidad|||[Comprar](https://www.domadoo.fr/fr/peripheriques/6355-immax-detecteur-de-mouvement-pir-temperature-humidite-et-luminosite-zigbee-30-tuya.html?domid=4&id_campaign=9)|
 
 # Innr
@@ -605,6 +608,20 @@
 |---|---|---|---|---|---|
 |<img src="../../es_ES/zigbee/images/TZ3210_ttkgurpb.TS0504B.png" width="60" />|Miboxer|MIBOXER - Controlador LED||||
 
+# Moes
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/TZE200_7yoranx2.TS0601.png" width="60" />|Moes|MOES - CABEZAL TERMOSTÁTICO INTELIGENTE ZIGBEE 3.0 MANGUERA|||[Comprar](https://www.domadoo.fr/fr/peripheriques/6390-moes-tete-thermostatique-intelligente-zigbee-30-tuya.html?domid=4&id_campaign=9)|
+|<img src="../../es_ES/zigbee/images/TZE200_kds0pmmv.TS0601.png" width="60" />|Moes|MOES - CABEZAL TERMOSTÁTICO INTELIGENTE ZIGBEE TUYA|||[Comprar](https://www.domadoo.fr/fr/peripheriques/6389-moes-tete-thermostatique-intelligente-zigbee-tuya.html?domid=4&id_campaign=9)|
+|<img src="../../es_ES/zigbee/images/TZE200_wukb7rhc.TS0601.png" width="60" />|Moes|MOES - Detector de presencia Zigbee Tuya (tecnología radar)|||[Comprar](https://www.domadoo.fr/fr/domotique/6328-moes-detecteur-de-presence-zigbee-tuya-technologie-radar.html?domid=4&id_campaign=9)|
+
+# Neo
+
+|Image|Marque|Nom|Type|Remarque|Lien|
+|---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/TZ3000_gjnozsaz.TS011F.png" width="60" />|Neo|NEO - Toma inteligente Zigbee Tuya 16A + medición de consumo|||[Comprar](https://www.domadoo.fr/fr/peripheriques/6473-neo-prise-intelligente-zigbee-tuya-16a-mesure-de-consommation.html?domid=4&id_campaign=9 )|
+
 # Nodon
 
 |Image|Marque|Nom|Type|Remarque|Lien|
@@ -621,7 +638,11 @@
 
 |Image|Marque|Nom|Type|Remarque|Lien|
 |---|---|---|---|---|---|
+|<img src="../../es_ES/zigbee/images/TZ3000_0s9gukzt.TS0207.png" width="60" />|Nous|EE. UU. - DETECTOR DE INUNDACIÓN ZIGBEE 3.0 MANGUERA|Sensor, fuga, inundación||[Comprar](https://www.domadoo.fr/fr/peripheriques/6201-nous-detecteur-d-inondation-zigbee-30-tuya-5907772033883.html?domid=4&id_campaign=9)|
+|<img src="../../es_ES/zigbee/images/TZ3000_h8ngtlxy.TS0001.png" width="60" />|Nous|EE. UU. - VÁLVULA INTELIGENTE ZIGBEE 3.0 MANGUERA|||[Comprar](https://www.domadoo.fr/fr/peripheriques/6214-nous-vanne-intelligente-zigbee-30-tuya-5907772033968.html?domid=4&id_campaign=9)|
 |<img src="../../es_ES/zigbee/images/TZ3000_ksw8qtmt.TS011F.png" width="60" />|Nous|EE. UU. - ENCHUFE INTELIGENTE ZIGBEE 3.0 + MEDIDA DE CONSUMO|||[Documentación](https://nous.technology/product/a1z-1/fr.html)<br/>[Comprar](https://www.domadoo.fr/fr/peripheriques/6165-nous-prise-intelligente-zigbee-30-mesure-de-consommation-5907772033517.html?domid=4&id_campaign=9)|
+|<img src="../../es_ES/zigbee/images/TZ3000_lbtpiody.TS0201.png" width="60" />|Nous|EE. UU. - Sensor inteligente de temperatura y humedad Zigbee 3.0 MANGUERA|||[Comprar](https://www.domadoo.fr/fr/peripheriques/6197-nous-capteur-de-temperature-et-humidite-zigbee-30-tuya-5907772033890.html?domid=4&id_campaign=9)|
+|<img src="../../es_ES/zigbee/images/TZ3000_v7chgqso.TS0203.png" width="60" />|Nous|EE. UU. - Detector de apertura de puertas o ventanas Zigbee 3.0 MANGUERA|Ouverture||[Comprar](https://www.domadoo.fr/fr/peripheriques/6193-nous-detecteur-d-ouverture-de-porte-ou-fenetre-zigbee-30-tuya-5907772033876.html?domid=4&id_campaign=9)|
 
 # Orvibo
 
@@ -660,6 +681,7 @@
 |<img src="../../es_ES/zigbee/images/OWON.PCT504.png" width="60" />|Owon|TERMOSTATO FAN COIL ZIGBEE (100V-240V)|Thermostat||[Documentación](https://www.owon-smart.com/uploads/Quick-Start-Guide-%E2%80%93-PCT504-ZigBee-Fan-coil-Thermostat.pdf)<br/>[Comprar](https://www.domadoo.fr/fr/peripheriques/6056-owon-thermostat-de-ventilo-convecteur-zigbee-100v-240v.html)|
 |<img src="../../es_ES/zigbee/images/OWON.PIR313.png" width="60" />|Owon|Multisensor (Movimiento/Temperatura/Humedad/Brillo)|||[Documentación](https://www.owon-smart.com/uploads/Quick-Start-Guide-PIR313-Multisensor-V0.4.pdf)<br/>[Comprar](https://www.domadoo.fr/fr/peripheriques/6010-owon-capteur-de-mouvement-temperature-et-humidite-zigbee.html?domid=4&id_campaign=9)|
 |<img src="../../es_ES/zigbee/images/OWON.PIR323-PTH.png" width="60" />|Owon|Sensor múltiple (movimiento/temperatura/humedad))|||[Documentación](https://www.owon-smart.com/uploads/Quick-Start-Guide-PIR323-ZigBee-Multi-Sensor.pdf)<br/>[Comprar](https://www.domadoo.fr/fr/peripheriques/6009-owon-capteur-de-mouvement-temperature-et-humidite-zigbee.html?domid=4&id_campaign=9)|
+|<img src="../../es_ES/zigbee/images/OWON.SLC602.png" width="60" />|Owon|OWON - INTERRUPTOR DE PARED DE ENCENDIDO/APAGADO ZIGBEE HA + FUNCIÓN DE ENLACE|||[Comprar](https://www.domadoo.fr/fr/peripheriques/6318-owon-interrupteur-zigbee-ha-onoff-fonction-binding-2-piles-aaa.html?domid=4&id_campaign=9)|
 |<img src="../../es_ES/zigbee/images/OWON.THS317-ET.png" width="60" />|Owon|Sonda de temperatura remota en cable|||[Comprar](https://www.domadoo.fr/fr/peripheriques/5998-owon-sonde-de-temperature-deportee-sur-cable-zigbee.html)|
 
 # Philips
@@ -827,6 +849,7 @@
 |<img src="../../es_ES/zigbee/images/TYZB01_4mdqxxnn.TS0222.png" width="60" />|Tuya|TUYA - Sensor de luz|||[Comprar](https://fr.aliexpress.com/item/1005002117427752.html?spm=a2g0s.9042311.0.0.22206c37vgJYy8)|
 |<img src="../../es_ES/zigbee/images/TYZB01_aneiicmq.TS0003.png" width="60" />|Tuya|Interruptor ON / OFF 2300W 1 canal||||
 |<img src="../../es_ES/zigbee/images/TYZB01_b1ngbmlm.TS0112.png" width="60" />|Tuya|Enchufe inteligente de ENCENDIDO / APAGADO y 2 puertos USB||||
+|<img src="../../es_ES/zigbee/images/TYZB01_buxqoleu.TS0222.png" width="60" />|Tuya|TUYA - Sensor de luminosidad (2)|||[Comprar](https://doowifi.fr/fr/capteur-wifi/180-capteur-luminosite-zigbee-DWF-0616ZB.html)|
 |<img src="../../es_ES/zigbee/images/TYZB01_dazsid15.TS0302.png" width="60" />|Tuya|Interruptor conectado para persiana enrollable||||
 |<img src="../../es_ES/zigbee/images/TYZB01_dl7cejts.TS0202.png" width="60" />|Tuya|Mini sensor de movimiento||||
 |<img src="../../es_ES/zigbee/images/TYZB01_dsjszp0x.TS0205.png" width="60" />|Tuya|Detector de humo||||
@@ -903,6 +926,7 @@
 |<img src="../../es_ES/zigbee/images/TZ3000_tqlv4ug4.TS0001.png" width="60" />|Tuya|Tuya Zigbee - Interruptor de 1 vía||||
 |<img src="../../es_ES/zigbee/images/TZ3000_txpirhfq.TS0011.png" width="60" />|Tuya|SMART - Módulo conectado simple ON / OFF||||
 |<img src="../../es_ES/zigbee/images/TZ3000_typdpbpg.TS011F.png" width="60" />|Tuya|Enchufe inteligente con medición de potencia|Zócalo, repetidor|||
+|<img src="../../es_ES/zigbee/images/TZ3000_u3oupgdy.TS0004.png" width="60" />|Tuya|Módulo 4CH||||
 |<img src="../../es_ES/zigbee/images/TZ3000_ukuvyhaa.TS0504B.png" width="60" />|Tuya|Controlador de tira de LED RGBW||||
 |<img src="../../es_ES/zigbee/images/TZ3000_upgcbody.TS0207.png" width="60" />|Tuya|Detecteur d'inondation (3)|Fuite|||
 |<img src="../../es_ES/zigbee/images/TZ3000_vd43bbfq.TS130F.png" width="60" />|Tuya|Módulo de persiana enrollable inteligente||||
@@ -920,6 +944,7 @@
 |<img src="../../es_ES/zigbee/images/TZ3400_key8kk7r.TS0043.png" width="60" />|Tuya|Interruptor conectado de 3 botones||||
 |<img src="../../es_ES/zigbee/images/TZ3400_keyjhapk.TS0042.png" width="60" />|Tuya|Interruptor conectado 2 botones||||
 |<img src="../../es_ES/zigbee/images/TZE200_2wg5qrjy.TS0601.png" width="60" />|Tuya|Válvula de riego||Por el momento, es imposible controlar el temporizador correctamente, cuando está configurado en Encendido, la válvula permanece abierta durante 10 minutos y luego se apaga|[Comprar](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
+|<img src="../../es_ES/zigbee/images/TZE200_3towulqd.TS0601.png" width="60" />|Tuya|Sensor de movimiento Zigbee||||
 |<img src="../../es_ES/zigbee/images/TZE200_7bztmfm1.TS0601.png" width="60" />|Tuya|Calidad del aire Tuya CO||||
 |<img src="../../es_ES/zigbee/images/TZE200_81isopgh.TS0601.png" width="60" />|Tuya|Válvula de riego||Por el momento, es imposible controlar el temporizador correctamente, cuando está configurado en Encendido, la válvula permanece abierta durante 10 minutos y luego se apaga|[Comprar](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
 |<img src="../../es_ES/zigbee/images/TZE200_akjefhj5.TS0601.png" width="60" />|Tuya|Válvula de riego||Por el momento, es imposible controlar el temporizador correctamente, cuando está configurado en Encendido, la válvula permanece abierta durante 10 minutos y luego se apaga|[Comprar](https://www.domadoo.fr/fr/peripheriques/5886-saswell-electrovanne-et-programmateur-d-arrosage-connecte-zigbee-mesure-de-consommation.html?domid=4&id_campaign=9)|
@@ -1025,4 +1050,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2023-01-23 01:32:17
+2023-01-24 01:32:24
