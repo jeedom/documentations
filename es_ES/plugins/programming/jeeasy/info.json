@@ -42,7 +42,8 @@
         "diy",
         "mobile",
         "v4",
-        "atlas"
+        "atlas",
+        "luna"
     ],
     "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/jeeasy\/beta\/changelog",
     "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/jeeasy\/beta"
