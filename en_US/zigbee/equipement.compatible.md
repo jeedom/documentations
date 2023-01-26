@@ -1026,6 +1026,7 @@
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_switch.aq3.png" width="60" />|Xiaomi|AQARA - Smart Wireless Switch (REV3)|Remote control, Switch|||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_switch.png" width="60" />|Xiaomi|MIJIA - Smart wireless switch||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|AQARA - Intelligent flood detector|||[Buy](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
+|<img src="../../en_US/zigbee/images/LUMI.lumi.switch.b1lc04.png" width="60" />|Xiaomi|AQARA - Single switch without neutral|Contacteur|||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.switch.b2lacn02.png" width="60" />|Xiaomi|AQARA - Double switch without neutral|||[Buy](https://www.domadoo.fr/fr/peripheriques/5727-xiaomi-aqara-interrupteur-mural-double-intelligent-h1-zigbee-30-sans-neutre-ws-euk02-6970504214781.html?domid=4&id_campaign=9)|
 |<img src="../../en_US/zigbee/images/LUMI.lumi.switch.b2nacn02.png" width="60" />|Xiaomi|AQARA - Smart wall switch D1||||
 |<img src="../../en_US/zigbee/images/LUMI.lumi.switch.l0agl1.png" width="60" />|Xiaomi|AQARA - Micromodule on / off without neutral|Contactor, Meter, Power||[Buy](https://www.domadoo.fr/fr/peripheriques/5387-aqara-micromodule-onoff-zigbee-30-1250w-sans-neutre-6970504213302.html)|
@@ -1050,4 +1051,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2023-01-25 01:32:37
+2023-01-26 01:32:16

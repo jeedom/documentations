@@ -1026,6 +1026,7 @@
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_switch.aq3.png" width="60" />|Xiaomi|AQARA - Interrupteur sans fil intelligent (REV3)|Télécommande,Interrupteur|||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_switch.png" width="60" />|Xiaomi|MIJIA - Commutateur sans fil intelligent||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.sensor_wleak.aq1.png" width="60" />|Xiaomi|AQARA - Détecteur d'inondation intelligent|||[Acheter](https://www.domadoo.fr/fr/peripheriques/4519-xiaomi-capteur-d-eau-zigbee-aqara-6970504210257.html)|
+|<img src="../../fr_FR/zigbee/images/LUMI.lumi.switch.b1lc04.png" width="60" />|Xiaomi|AQARA - interrupteur Simple sans neutre|Contacteur|||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.switch.b2lacn02.png" width="60" />|Xiaomi|AQARA - Interrupteur double sans neutre|||[Acheter](https://www.domadoo.fr/fr/peripheriques/5727-xiaomi-aqara-interrupteur-mural-double-intelligent-h1-zigbee-30-sans-neutre-ws-euk02-6970504214781.html?domid=4&id_campaign=9)|
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.switch.b2nacn02.png" width="60" />|Xiaomi|AQARA - Interrupteur mural intelligent D1||||
 |<img src="../../fr_FR/zigbee/images/LUMI.lumi.switch.l0agl1.png" width="60" />|Xiaomi|AQARA - Micromodule on/off sans neutre|Contacteur,Compteur,Puissance||[Acheter](https://www.domadoo.fr/fr/peripheriques/5387-aqara-micromodule-onoff-zigbee-30-1250w-sans-neutre-6970504213302.html)|
@@ -1050,4 +1051,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2023-01-25 01:32:37
+2023-01-26 01:32:16

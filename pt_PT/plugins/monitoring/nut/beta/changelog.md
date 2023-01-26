@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+## 25/01/2023
+
+- Migração python3
+
 ## 01/05/2023
 
 - Atualização para jeedom 4.3
