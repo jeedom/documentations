@@ -8,7 +8,11 @@
 >
 >To know the new compatible module you have to go [the](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (it is sorted by date added / modified)
 
-# 01/23/2022
+# 01/25/2023
+
+- Removal of the backup/restore part of the zigbee chips (the protocol does not support it, it is too unstable)
+
+# 01/23/2023
 
 - added new configuration
 - Bugfix

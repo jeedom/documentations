@@ -3,7 +3,7 @@
 **El complemento Zigbee para Jeedom** se basa en el excelente trabajo realizado en torno a **la biblioteca Zigpy de código abierto** para ofrecer un **compatibilidad general con diferentes hardware Zigbee**. Permite la comunicación con los siguientes controladores Zigbee :
 
 -	**deCONZ (clave Conbee/Conbee 2/Raspbee/Raspbee 2)** : Probado y validado por el equipo de Jeedom. *(No es necesario instalar la aplicación deCONZ)*
--	**EZSP (laboratorios de silicio)** : Probado, validado y recomendado por el equipo de Jeedom.
+-	**EZSP (laboratorios de silicio)** : Probado, validado y recomendado por el equipo de Jeedom (presta atención a la tecla Sonoff que no parece funcionar muy bien).
 -	**XBee** : No probado por el equipo de Jeedom.
 -	**Zigate** : No probado por el equipo.
 -	**ZNP (Texas Instruments)** : No probado por el equipo.
@@ -155,10 +155,6 @@ Se puede acceder a diferentes herramientas que ofrecen una mejor interactividad 
 
 ![Herramientas contrôleur Zigbee](./images/zigbee_controllerTools.png)
 
-## Copia de seguridad / restauración de un controlador
-
-Es posible hacer una copia de seguridad de la red Zigbee desde controladores de tipo EZSP *(Elelabs por ejemplo)* y ZNP. Esta copia de seguridad se puede restaurar en otro controlador del mismo tipo.
-
 >**Importante**
 >
 > En llaves de tipo EZSP *(Elelabs)*, solo es posible realizar una única restauración de copia de seguridad en todos y para todos durante toda la vida útil de la clave.
@@ -275,7 +271,7 @@ Finalmente, e incluso si puede parecer obvio para algunos, te recordamos que las
 
 # Cambio de clave Zigbee
 
-Si para un daemon dado (1, 2 o 3) cambia la clave Zigbee sin restaurar una copia de seguridad de la antigua en la nueva, entonces es necesario borrar los datos a nivel del daemon (botón "Eliminar datos"). Esto no elimina el equipo de Jeedom, solo vacía la base de datos Zigbee del demonio. Tenga en cuenta que esta operación es irreversible
+Si para un demonio determinado (1, 2 o 3) cambia la clave Zigbee, debe eliminar los datos al nivel del demonio ("botón Eliminar datos"). Esto no elimina el equipo de Jeedom, solo vacía la base de datos Zigbee del demonio. Tenga en cuenta que esta operación es irreversible
 
 # FAQ
 

@@ -3,7 +3,7 @@
 **Das ZigBee-Plugin für Jeedom** baut auf der hervorragenden Arbeit auf **die Open-Source-Zigpy-Bibliothek** ein anbieten **Allgemeine Kompatibilität mit verschiedenen ZigBee-Hardware**. Es ermöglicht die Kommunikation mit den folgenden ZigBee-Controllern :
 
 -	**deCONZ (Conbee-Schlüssel/Conbee 2/Raspbee/Raspbee 2)** : Vom Jeedom-Team getestet und validiert. *(Es ist nicht erforderlich, die deCONZ-Anwendung zu installieren)*
--	**EZSP (Silicon Labs)** : Vom Jeedom-Team getestet, validiert und empfohlen.
+-	**EZSP (Silicon Labs)** : Getestet, validiert und empfohlen vom Jeedom-Team (achten Sie auf den Sonoff-Schlüssel, der nicht sehr gut zu funktionieren scheint).
 -	**XBee** : Nicht vom Jeedom-Team getestet.
 -	**Zigate** : Nicht vom Team getestet.
 -	**ZNP (Texas Instruments))** : Nicht vom Team getestet.
@@ -155,10 +155,6 @@ Auf verschiedene Tools, die eine bessere Interaktivität mit dem ZigBee-Netzwerk
 
 ![Werkzeuge contrôleur Zigbee](./images/zigbee_controllerTools.png)
 
-## Sichern / Wiederherstellen eines Controllers
-
-Es ist möglich, ein Backup des ZigBee-Netzwerks von Controllern vom Typ EZSP zu erstellen *(Elelabs zum Beispiel)* und ZNP. Diese Sicherung kann auf einem anderen Controller desselben Typs wiederhergestellt werden.
-
 >**Wichtig**
 >
 > Auf EZSP-Schlüsseln *(Elelabs)*, Es ist nur möglich, während der gesamten Lebensdauer des Schlüssels eine einzige Sicherungswiederherstellung für alle und für alle durchzuführen.
@@ -275,7 +271,7 @@ Schließlich und auch wenn es einigen offensichtlich erscheint, erinnern wir Sie
 
 # Zigbee-Schlüsselwechsel
 
-Wenn Sie für einen bestimmten Daemon (1, 2 oder 3) den Zigbee-Schlüssel ändern, ohne ein Backup des alten auf dem neuen wiederherzustellen, dann ist es notwendig, die Daten auf der Ebene des Daemons zu löschen (Button"). Dadurch wird Jeedoms Ausrüstung nicht gelöscht, sondern nur die Zigbee-Datenbank des Dämons geleert. Bitte beachten Sie, dass dieser Vorgang irreversibel ist
+Wenn Sie für einen bestimmten Dämon (1,2 oder 3) den Zigbee-Schlüssel ändern, müssen Sie die Daten auf der Ebene des Dämons löschen ("Daten löschen-Schaltfläche"). Dadurch wird Jeedoms Ausrüstung nicht gelöscht, sondern nur die Zigbee-Datenbank des Dämons geleert. Bitte beachten Sie, dass dieser Vorgang irreversibel ist
 
 # FAQ
 

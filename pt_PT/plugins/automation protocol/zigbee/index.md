@@ -3,7 +3,7 @@
 **O plugin Zigbee para Jeedom** baseia-se no excelente trabalho feito em torno **a biblioteca Zigpy de código aberto** para oferecer um **compatibilidade geral com diferentes hardwares Zigbee**. Ele permite a comunicação com os seguintes controladores Zigbee :
 
 -	**deCONZ (chave Conbee/Conbee 2/Raspbee/Raspbee 2)** : Testado e validado pela equipe Jeedom. *(Não é necessário instalar o aplicativo deCONZ)*
--	**EZSP (Silicon Labs)** : Testado, validado e recomendado pela equipe Jeedom.
+-	**EZSP (Silicon Labs)** : Testado, validado e recomendado pela equipe Jeedom (preste atenção na tecla Sonoff que parece não funcionar muito bem).
 -	**XBee** : Não testado pela equipe Jeedom.
 -	**Zigate** : Não testado pela equipe.
 -	**ZNP (Texas Instruments)** : Não testado pela equipe.
@@ -155,10 +155,6 @@ Diferentes ferramentas que oferecem melhor interatividade com sua rede Zigbee s�
 
 ![Ferramentas contrôleur Zigbee](../images/zigbee_controllerTools.png)
 
-## Fazer backup / restaurar um controlador
-
-É possível fazer um backup da rede Zigbee a partir de controladores do tipo EZSP *(Elelabs por exemplo)* e ZNP. Este backup pode ser restaurado para outro controlador do mesmo tipo.
-
 >**IMPORTANTE**
 >
 > Em chaves de tipo EZSP *(Elelabs)*, só é possível realizar uma única restauração de backup em todos e para todos durante toda a vida da chave.
@@ -275,7 +271,7 @@ Finalmente, e mesmo que pareça óbvio para alguns, lembramos que os gateways Zi
 
 # Mudança de chave Zigbee
 
-Se para um determinado daemon (1, 2 ou 3) você alterar a chave Zigbee sem restaurar um backup da antiga na nova, então é necessário excluir os dados no nível do daemon (botão "Excluir dados"). Isso não exclui o equipamento de Jeedom, apenas esvazia o banco de dados Zigbee do demônio. Observe que esta operação é irreversível
+Se para um determinado demônio (1,2 ou 3) você alterar a chave Zigbee, deverá excluir os dados no nível do demônio ("botão Excluir dados"). Isso não exclui o equipamento de Jeedom, apenas esvazia o banco de dados Zigbee do demônio. Observe que esta operação é irreversível
 
 # FAQ
 
