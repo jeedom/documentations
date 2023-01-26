@@ -45,6 +45,7 @@ Soit un total de 125 € pour une box domotique open source avec une maîtrise c
 
 Je veux installer Jeedom :
 
+- Sur une [luna](https://doc.jeedom.com/fr_FR/plugins/home%20automation%20protocol/luna)
 - Sur une [atlas](https://doc.jeedom.com/fr_FR/installation/atlas)
 - Sur une [smart](https://doc.jeedom.com/fr_FR/installation/smart)
 - Sur une [mini+](https://doc.jeedom.com/fr_FR/installation/mini)
