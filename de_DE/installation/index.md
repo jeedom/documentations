@@ -45,6 +45,7 @@ Insgesamt 125 € für eine Open Source-Hausautomationsbox mit vollständiger Ko
 
 Ich möchte Jeedom installieren :
 
+- Auf einem [Luna](https://doc.jeedom.com/de_DE/plugins/home%20automation%20protocol/luna)
 - Auf einem [Atlas](https://doc.jeedom.com/de_DE/installation/atlas)
 - Auf einem [SMART](https://doc.jeedom.com/de_DE/installation/smart)
 - Auf einem [mini +](https://doc.jeedom.com/de_DE/installation/mini)

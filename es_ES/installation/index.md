@@ -45,6 +45,7 @@ Un total de 125 € para una caja de automatización del hogar de código abiert
 
 Quiero instalar Jeedom :
 
+- Sobre una [Luna](https://doc.jeedom.com/es_ES/plugins/home%20automation%20protocol/luna)
 - Sobre una [atlas](https://doc.jeedom.com/es_ES/installation/atlas)
 - Sobre una [INTELIGENTE](https://doc.jeedom.com/es_ES/installation/smart)
 - Sobre una [mini +](https://doc.jeedom.com/es_ES/installation/mini)
