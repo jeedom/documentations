@@ -4,6 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 01/09/2023
+
+- Soporte para Debian11
+- Arreglar la ruta de importación
+
+
 # 27/11/2020
 
 - Optimizaciones generales

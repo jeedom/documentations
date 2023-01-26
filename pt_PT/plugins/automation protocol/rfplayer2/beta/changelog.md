@@ -4,11 +4,14 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 25/01/2023
+
+- Remover pacote enum > python3.2
+
 # 01/09/2023
 
 - Suporte para Debian11
 - Corrigir caminho de importação
-
 
 # 27/11/2020
 

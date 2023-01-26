@@ -4,11 +4,14 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 25/01/2023
+
+- Quitar la enumeración del paquete > python3.2
+
 # 01/09/2023
 
 - Soporte para Debian11
 - Arreglar la ruta de importación
-
 
 # 27/11/2020
 

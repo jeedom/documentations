@@ -1,13 +1,31 @@
 {
-	"id" : "ChauffeEau",
-	"name" : "Gestion du Chauffe Eau",
-	"description" : "Ce plugin gère l'allumage et l'extinction notre chauffe-eau en fonction de la température de l'eau et / ou de l'heure disponibilité de l'eau chaude",
-	"licence" : "AGPL",
-	"author" : "Halbout Michael",
-	"require" : "3.0",
-	"category" : "automatisation",
-	"hasOwnDeamon" : true,
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
- 	"documentation" : "https://mika-nt28.github.io/Documentations/ChauffeEau/#language#/",
-	"changelog" : "https://mika-nt28.github.io/Documentations/ChauffeEau/#language#/changelog"
+	"id": "vaillantmultimatic",
+	"name": "Vaillant multiMATIC",
+	"description": "Plugin permettant de se connecter à un système Vaillant multiMATIC via sa passerelle internet. Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler: définir le mode (On, Off, Auto...), définir les températures de consigne, activer un mode rapide, activer une marche forcée... Les vannes et les thermostats de la gamme ambiSENSE reliées au système sont également gérés.",
+	"utilization": "Il est nécessaire d'avoir une passerelle internet et un régulateur Vaillant compatibles avec le système multiMATIC.",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.0",
+	"category": "wellness",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 30,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-vaillantmultimatic",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"v4"
+	]
 }
