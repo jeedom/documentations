@@ -902,6 +902,7 @@
 |<img src="../../es_ES/zigbee/images/TZ3000_hdlpifbk.TS0004.png" width="60" />|Tuya|Interruptor triple||||
 |<img src="../../es_ES/zigbee/images/TZ3000_hktqahrq.TS0001.png" width="60" />|Tuya|Gigier JR-ZDS01||||
 |<img src="../../es_ES/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|Mini controlador de tira de LED RGB||||
+|<img src="../../es_ES/zigbee/images/TZ3000_ja5osu5g.TS004F.png" width="60" />|Tuya| Interruptor de llave inteligente||||
 |<img src="../../es_ES/zigbee/images/TZ3000_ji4araar.TS0011.png" width="60" />|Tuya|Interruptor de módulo ON / OFF 10A|Toma, Consumo, Potencia, Repetidor||[Comprar](https://fr.aliexpress.com/item/1005003438720832.html)|
 |<img src="../../es_ES/zigbee/images/TZ3000_l13erpv4.TS130F.png" width="60" />|Tuya|Interruptor de persiana enrollable||||
 |<img src="../../es_ES/zigbee/images/TZ3000_ltt60asa.TS0004.png" width="60" />|Tuya|Tuya Zigbee - Interruptor de 4 vías||||
@@ -1051,4 +1052,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2023-01-26 01:32:16
+2023-01-27 01:32:18

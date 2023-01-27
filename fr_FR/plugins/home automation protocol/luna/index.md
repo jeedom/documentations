@@ -2,19 +2,19 @@
 
 # Attention souci de Flashage des Luna
 
-Nous avons eu un retour sur une erreur de flashage de certaines Luna. (uniquement celle expediée avant 2023),
-Nous en sommes désolés et nous avons prévenu notre revendeur Domadoo.
+Nous avons eu un retour sur une erreur de flashage de certaines Lunas. (uniquement celles expediées avant 2023)
+Nous sommes désolé pour ceci et avons prévenu notre revendeur Domadoo.
 
-Si vous arrivez à rentrer dans Jeedom, merci de lancer le plugin Luna et d'aller dans : 
+Si vous arrivez à vous connecter à votre Jeedom, merci de lancer le plugin Luna (Plugins/Passerelle domotique/luna) et d'aller dans : 
   - Mise à jour du module de Recovery
 Puis faire le recovery dans :
   - Recovery (Reset Factory)
 Cela mettra a jour votre Box completement.
 
-Si vous n'avez pas d'accés a votre Box merci de rester appuyer sur le bouton reset de la box pendant plus de 10 secondes, au relacher la box doit clignoté laisser la finir. normalement Jeedom devrai revenir faire du coup la procedure si dessus. pour une mise à jour complete.
+Si vous n'avez pas d'accés à votre box, merci de laisser appuyé le bouton reset de la box pendant plus de 10 secondes; au relachement de ce dernier, la box devrait clignotée;laissez-la finir le processus. Jeedom devrait redevenir operationnel. Vous pourrez faire la procedure ci-dessus pour une mise à jour complete.
 
 Si elle ne clignote pas : 
- - Veuillez les contacter svp sur ce lien, l'équipe Domadoo vous fourniront une étiquette de retour et vous réexpédieront une Luna correctement flashée :
+ - Veuillez contacter Domadoo via le lien suivant; l'équipe Domadoo vous fournira une étiquette de retour et vous réexpédiera une Luna correctement flashée :
 https://www.domadoo.fr/rma
 
 # Bientôt Disponible : Hotspot
@@ -33,7 +33,7 @@ Une fois ces dernières fixes, vous pourrez y accéder de nouveau via son adress
 
 > Recovery (Reset Factory)
 
-Lors d’un reset factory la box est rétablie en configuration d’usine selon l’image mise a jour via le bouton donné ci-dessus. ATTENTION : il faut faire un backup de votre box avant cette opération car vous allez tout perdre lors de cette phase. (sauf backup sur la SD).
+Lors d’un reset factory la box est rétablie en configuration d’usine selon l’image mise a jour via le bouton donné ci-dessus. ATTENTION : il faut faire un backup de votre box avant cette opération car vous allez perdre les données de votre box (excepté backup sur la SD).
 
 > LED
 
@@ -41,7 +41,7 @@ Vous pouvez via la commande de type select changer la couleur et l’animation d
 
 > Batterie
 
-Vous pouvez via deux retours d’informations avoir le pourcentage de batterie ainsi que le type d’alimentation de votre box. (charging, decharging, Full etc…).
+Vous pouvez,via deux retours d’informations, avoir le pourcentage de batterie ainsi que le type d’alimentation de votre box. (charging, decharging, Full etc…).
 
 > SD
 

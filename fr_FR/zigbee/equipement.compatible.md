@@ -902,6 +902,7 @@
 |<img src="../../fr_FR/zigbee/images/TZ3000_hdlpifbk.TS0004.png" width="60" />|Tuya|Interrupteur triple||||
 |<img src="../../fr_FR/zigbee/images/TZ3000_hktqahrq.TS0001.png" width="60" />|Tuya|Gigier JR-ZDS01||||
 |<img src="../../fr_FR/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|Mini contrôleur de ruban Led RGB||||
+|<img src="../../fr_FR/zigbee/images/TZ3000_ja5osu5g.TS004F.png" width="60" />|Tuya| Interrupteur À Clé Intelligent||||
 |<img src="../../fr_FR/zigbee/images/TZ3000_ji4araar.TS0011.png" width="60" />|Tuya|Module de commutation ON/OFF 10A|Prise,Consommation,Puissance,Répéteur||[Acheter](https://fr.aliexpress.com/item/1005003438720832.html)|
 |<img src="../../fr_FR/zigbee/images/TZ3000_l13erpv4.TS130F.png" width="60" />|Tuya|Interrupteur pour volet roulant||||
 |<img src="../../fr_FR/zigbee/images/TZ3000_ltt60asa.TS0004.png" width="60" />|Tuya|Tuya Zigbee - Switch 4 voies||||
@@ -1051,4 +1052,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2023-01-26 01:32:16
+2023-01-27 01:32:18

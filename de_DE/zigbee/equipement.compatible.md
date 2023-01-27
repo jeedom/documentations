@@ -902,6 +902,7 @@
 |<img src="../../de_DE/zigbee/images/TZ3000_hdlpifbk.TS0004.png" width="60" />|Tuya|Dreifachschalter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_hktqahrq.TS0001.png" width="60" />|Tuya|Gigier JR-ZDS01||||
 |<img src="../../de_DE/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|Mini-RGB-LED-Strip-Controller||||
+|<img src="../../de_DE/zigbee/images/TZ3000_ja5osu5g.TS004F.png" width="60" />|Tuya| Intelligenter Schlüsselschalter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_ji4araar.TS0011.png" width="60" />|Tuya|Schaltmodul EIN / AUS 10A|Steckdose, Verbrauch, Leistung, Repeater||[Kaufen](https://fr.aliexpress.com/item/1005003438720832.html)|
 |<img src="../../de_DE/zigbee/images/TZ3000_l13erpv4.TS130F.png" width="60" />|Tuya|Rollladenschalter||||
 |<img src="../../de_DE/zigbee/images/TZ3000_ltt60asa.TS0004.png" width="60" />|Tuya|Tuya Zigbee - 4-Wege-Schalter||||
@@ -1051,4 +1052,4 @@
 
 Diese Liste basiert auf Benutzer-Feedback. Das Jeedom-Team kann daher nicht garantieren, dass alle Module in dieser Liste zu 100% funktionsfähig sind
 
-2023-01-26 01:32:16
+2023-01-27 01:32:18

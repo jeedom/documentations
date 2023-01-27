@@ -2,19 +2,19 @@
 
 # Aufmerksamkeitssorge von Luna blinkt
 
-Wir haben Feedback zu einem Blinkfehler einiger Luna erhalten. (nur der, der vor 2023 ausgeliefert wurde),
-Wir bedauern dies und haben unseren Domadoo-Händler benachrichtigt.
+Wir haben Feedback zu einem Flashing-Fehler einiger Lunas erhalten. (nur diejenigen, die vor 2023 ausgeliefert wurden)
+Wir bedauern dies und haben unseren Domadoo-Reseller informiert.
 
-Wenn Sie es schaffen, Jeedom zu betreten, starten Sie bitte das Luna-Plugin und gehen Sie zu : 
+Wenn Sie es schaffen, sich mit Ihrem Jeedom zu verbinden, starten Sie bitte das Luna-Plugin (Plugins/Home automation gateway/luna) und gehen Sie zu : 
   - Aktualisierung des Wiederherstellungsmoduls
 Führen Sie dann die Wiederherstellung durch :
   - Wiederherstellung (Reset Factory)
 Dadurch wird Ihre Box vollständig aktualisiert.
 
-Wenn Sie keinen Zugriff auf Ihre Box haben, halten Sie bitte die Reset-Taste der Box länger als 10 Sekunden gedrückt. Wenn Sie die Box loslassen, muss sie blinken und beenden. Normalerweise muss Jeedom zurückkommen, um das oben beschriebene Verfahren durchzuführen. für ein komplettes Update.
+Wenn Sie keinen Zugriff auf Ihre Box haben, lassen Sie bitte die Reset-Taste der Box länger als 10 Sekunden gedrückt; Wenn letzteres losgelassen wird, sollte das Kästchen blinken; lassen Sie es den Vorgang beenden. Jeedom soll wieder operativ werden. Sie können das obige Verfahren für eine vollständige Aktualisierung durchführen.
 
 Wenn es nicht blinkt : 
- - Bitte kontaktieren Sie sie über diesen Link, das Domadoo-Team stellt Ihnen ein Rücksendeetikett zur Verfügung und sendet Ihnen eine korrekt geflashte Luna zu :
+ - Bitte kontaktieren Sie Domadoo über den folgenden Link; Das Domadoo-Team stellt Ihnen ein Rücksendeetikett zur Verfügung und sendet Ihnen eine korrekt geflashte Luna zu :
 https://www.domadoo.fr/rma
 
 # Demnächst : Hotspot
@@ -33,7 +33,7 @@ Une fois ces dernières fixes, vous pourrez y accéder de nouveau via son adress
 
 > Wiederherstellung (Reset Factory)
 
-Bei einem Werksreset wird die Box gemäß dem aktualisierten Image über die oben angegebene Schaltfläche auf die Werkskonfiguration zurückgesetzt. WARNUNG : Sie müssen vor diesem Vorgang eine Sicherungskopie Ihrer Box erstellen, da Sie in dieser Phase alles verlieren. (außer Backup auf SD).
+Bei einem Werksreset wird die Box gemäß dem aktualisierten Image über die oben angegebene Schaltfläche auf die Werkskonfiguration zurückgesetzt. WARNUNG : Sie müssen vor diesem Vorgang eine Sicherungskopie Ihrer Box erstellen, da Sie die Daten Ihrer Box verlieren (außer Sicherung auf der SD).
 
 > LED
 

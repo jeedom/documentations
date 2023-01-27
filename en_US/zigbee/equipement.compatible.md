@@ -902,6 +902,7 @@
 |<img src="../../en_US/zigbee/images/TZ3000_hdlpifbk.TS0004.png" width="60" />|Tuya|Triple switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_hktqahrq.TS0001.png" width="60" />|Tuya|Gigier JR-ZDS01||||
 |<img src="../../en_US/zigbee/images/TZ3000_i8l0nqdu.TS0503B.png" width="60" />|Tuya|Mini RGB Led Strip Controller||||
+|<img src="../../en_US/zigbee/images/TZ3000_ja5osu5g.TS004F.png" width="60" />|Tuya| Smart Key Switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_ji4araar.TS0011.png" width="60" />|Tuya|Switch module ON / OFF 10A|Socket, Consumption, Power, Repeater||[Buy](https://fr.aliexpress.com/item/1005003438720832.html)|
 |<img src="../../en_US/zigbee/images/TZ3000_l13erpv4.TS130F.png" width="60" />|Tuya|Roller shutter switch||||
 |<img src="../../en_US/zigbee/images/TZ3000_ltt60asa.TS0004.png" width="60" />|Tuya|Tuya Zigbee - 4 Way Switch||||
@@ -1051,4 +1052,4 @@
 
 This list is based on user feedback, the Jeedom team cannot therefore guarantee that all the modules in this list are 100% functional
 
-2023-01-26 01:32:16
+2023-01-27 01:32:18
