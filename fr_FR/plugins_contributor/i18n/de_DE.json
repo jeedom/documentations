@@ -394,6 +394,8 @@
         "com), et de créer des crons en fonction des événements": "com) und Crons basierend auf Ereignissen erstellen",
         "Hydro Québec": "Hydro Quebec",
         "Plugin permettant de récupérer les informations de consommation électrique d'Hydro-Québec (wwww.hydroquebec": "Plugin zum Abrufen von Stromverbrauchsinformationen von Hydro-Québec (www.hydroquebec",
+        "GRDF Connect": "GRDF-Verbindung",
+        "Récupérer les informations de comptage gaz à partir de son compte-client GRDF": "Rufen Sie Gaszählerinformationen von Ihrem GRDF-Kundenkonto ab",
         "Le plugin actualise les données toutes les heures via un cron": "Das Plugin aktualisiert die Daten stündlich über einen Cron",
         "Plugin permettant la lecture des données des jauges connectées Fullup": "Plugin zum Lesen von Daten von mit Fullup verbundenen Messgeräten",
         "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy": "Plugin zum Abrufen der Daten, die das ERL D2L-Modul von eeemart an den Monitoring.consopy-Server sendet",

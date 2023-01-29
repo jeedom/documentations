@@ -197,6 +197,8 @@
         "com), et de créer des crons en fonction des événements": "com), et de créer des crons en fonction des événements",
         "Hydro Québec": "Hydro Québec",
         "Plugin permettant de récupérer les informations de consommation électrique d'Hydro-Québec (wwww.hydroquebec": "Plugin permettant de récupérer les informations de consommation électrique d'Hydro-Québec (wwww.hydroquebec",
+        "GRDF Connect": "GRDF Connect",
+        "Récupérer les informations de comptage gaz à partir de son compte-client GRDF": "Récupérer les informations de comptage gaz à partir de son compte-client GRDF",
         "Le plugin actualise les données toutes les heures via un cron": "Le plugin actualise les données toutes les heures via un cron",
         "Fullup": "Fullup",
         "Plugin permettant la lecture des données des jauges connectées Fullup": "Plugin permettant la lecture des données des jauges connectées Fullup",
