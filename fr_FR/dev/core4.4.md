@@ -267,6 +267,11 @@ La lib jQuery UI sera supprimée dans une future version du Core. jeeDialog.dial
 
 </details>
 
+#### jQuery UI Sortable
+
+La lib jQuery Sortable sera supprimée dans une future version du Core.
+La Lib SortableJS a été intégré au Core : [SortableJS](http://sortablejs.github.io/Sortable/)
+
 #### jQuery caret
 
 Le plugin jQuery *jquery.at.caret* passe en deprecated. Utiliser `myElement.insertAtCursor(myString)`
