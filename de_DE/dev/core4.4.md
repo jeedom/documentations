@@ -267,6 +267,11 @@ Die jQuery-UI-Bibliothek wird in einer zukünftigen Core-Version entfernt. jeeDi
 
 </details>
 
+#### jQuery-Benutzeroberfläche sortierbar
+
+Die jQuery Sortable lib wird in einer zukünftigen Core-Version entfernt.
+Lib SortableJS wurde in Core integriert : [SortableJS](http://sortablejs.github.io/Sortable/)
+
 #### jQuery-Eingabezeichen
 
 Das jQuery-Plugin *jquery.at.caret* wird verworfen. Verwenden Sie „myElement.insertAtCursor(myString)“
@@ -368,6 +373,10 @@ La lib jQuery fileupload sera supprimée dans une future version du Core. jeeFil
 </details>
 
 Sehen [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+
+> **Spitze**
+>
+> Sie können Ihre Plugins auf Core ohne Jquery oder Bootstrap testen. Bearbeiten Sie dazu die Datei *desktop/php/index.php* und setze die Variable *loadJquery* zu falsch : **$loadJquery = false;**.
 
 
 ### Optionale Änderungen

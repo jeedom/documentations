@@ -267,6 +267,11 @@ The jQuery UI lib will be removed in a future Core release. jeeDialog.dialog() r
 
 </details>
 
+#### jQuery UI Sortable
+
+The jQuery Sortable lib will be removed in a future Core release.
+Lib SortableJS has been integrated into Core : [SortableJS](http://sortablejs.github.io/Sortable/)
+
 #### jQuery caret
 
 The jQuery plugin *jquery.at.caret* goes deprecated. Use `myElement.insertAtCursor(myString)`
@@ -368,6 +373,10 @@ The jQuery fileupload lib will be removed in a future Core release. jeeFileUploa
 </details>
 
 See [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+
+> **Tip**
+>
+> You can test your plugins on Core without Jquery or Bootstrap. To do this, edit the file *desktop/php/index.php* and put the variable *loadJquery* to false : **$loadJquery = false;**.
 
 
 ### Optional changes

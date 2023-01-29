@@ -267,6 +267,11 @@ La librería de jQuery UI se eliminará en una versión futura de Core. jeeDiál
 
 </details>
 
+#### jQuery UI ordenable
+
+La librería clasificable de jQuery se eliminará en una versión futura de Core.
+Lib SortableJS se ha integrado en Core : [OrdenableJS](http://sortablejs.github.io/Sortable/)
+
 #### intercalación de jQuery
 
 El complemento jQuery *jquery.at.caret* queda obsoleto. Use `myElement.insertAtCursor(myString)`
@@ -368,6 +373,10 @@ La lib jQuery fileupload sera supprimée dans une future version du Core. jeeFil
 </details>
 
 Ver [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
+
+> **Consejo**
+>
+> Puede probar sus complementos en Core sin Jquery o Bootstrap. Para hacer esto, edite el archivo *escritorio/php/index.php* y pongo la variable *cargarJquery* a falso : **$cargarJquery = false;**.
 
 
 ### Cambios opcionales
