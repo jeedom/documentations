@@ -1,0 +1,20 @@
+{
+	"id" : "powerwall",
+	"name" : "Tesla Powerwall",
+	"description" : "Plugin pour monitorer un Powerwall Tesla.",
+	"licence" : "AGPL",
+	"author" : "vercors",
+	"require" : "4.0",
+	"category" : "energy",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+  "compatibility" : ["miniplus", "smart","rpi","docker","diy","mobile","v4","atlas"],
+	"changelog" : "https://vercorsio.github.io/jeedom-powerwall-plugin/#language#/changelog",
+	"changelog_beta" : "https://vercorsio.github.io/jeedom-powerwall-plugin/#language#/changelog",
+	"documentation" : "https://vercorsio.github.io/jeedom-powerwall-plugin/#language#/",
+	"documentation_beta" : "https://vercorsio.github.io/jeedom-powerwall-plugin/#language#/",
+  "link": {
+    "forum": "https://community.jeedom.com/tag/plugin-powerwall"
+  }
+}

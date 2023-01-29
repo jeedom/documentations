@@ -388,6 +388,8 @@
         "Ce plugin est là pour vous y aider en contrôlant les activations": "This plugin is there to help you by controlling the activations",
         "Production Energie": "Energy Generation",
         "L'autoconsommation est le but dans la production d'énergie": "Self-consumption is the goal in energy production",
+        "Tesla Powerwall": "Tesla Power wall",
+        "Plugin pour monitorer un Powerwall Tesla": "Plugin to monitor a Tesla Powerwall",
         "Plugin permettant la lecture de données d'un onduleur de panneaux photovoltaïque de la marque Solaredge": "Plugin for reading data from a Solaredge photovoltaic panel inverter",
         "com), et de créer des crons en fonction des événements": "com), and create crons based on events",
         "Hydro Québec": "Hydro Quebec",

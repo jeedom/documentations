@@ -190,6 +190,8 @@
         "Ce plugin est là pour vous y aider en contrôlant les activations": "Ce plugin est là pour vous y aider en contrôlant les activations",
         "Production Energie": "Production Energie",
         "L'autoconsommation est le but dans la production d'énergie": "L'autoconsommation est le but dans la production d'énergie",
+        "Tesla Powerwall": "Tesla Powerwall",
+        "Plugin pour monitorer un Powerwall Tesla": "Plugin pour monitorer un Powerwall Tesla",
         "Solaredge": "Solaredge",
         "Plugin permettant la lecture de données d'un onduleur de panneaux photovoltaïque de la marque Solaredge": "Plugin permettant la lecture de données d'un onduleur de panneaux photovoltaïque de la marque Solaredge",
         "com), et de créer des crons en fonction des événements": "com), et de créer des crons en fonction des événements",
