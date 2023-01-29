@@ -374,6 +374,10 @@ La lib jQuery fileupload sera supprimée dans une future version du Core. jeeFil
 
 Voir [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
+> **Tip**
+>
+> Vous pouvez tester vos plugins sur le Core sans Jquery ni Bootstrap. Pour cela, éditez le fichier *desktop/php/index.php* et mettez la variable *loadJquery* à false : **$loadJquery = false;**.
+
 
 ### Modifications optionnelles
 
