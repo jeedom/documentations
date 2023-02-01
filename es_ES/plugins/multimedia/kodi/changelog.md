@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 18/03/2022
+
+- Jeedom v4.2 compatibilidad
+- Esta actualización requiere Jeedom 4.2 para trabajar.
+
 # 02/03/2021
 
 - Agregar complemento para Kodi Matrix
@@ -16,7 +21,7 @@
 
 # 27/09/2019
 
-- Cambio de complemento de Kodi para casos de playerid no reensamblados por kodi 
+- Cambio de complemento de Kodi para casos de playerid no reensamblados por kodi
 
 # 2019-07-23
 

@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 18/03/2022
+
+- Compatibilité Jeedom v4.2
+- Cette mise à jour nécessite Jeedom 4.2 pour fonctionner.
+
 # 02/03/2021
 
 - Rajout plugin pour Kodi Matrix
@@ -16,7 +21,7 @@
 
 # 27-09-2019
 
-- Changement de l'addon Kodi pour les cas de playerid non remonté par kodi 
+- Changement de l'addon Kodi pour les cas de playerid non remonté par kodi
 
 # 23-07-2019
 

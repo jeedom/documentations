@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 18.03.2022
+
+- Jeedom v4.2-Kompatibilität
+- Dieses Update erfordert Jeedom 4.2 zu arbeiten.
+
 # 03/02/2021
 
 - Plugin für Kodi Matrix hinzufügen
@@ -16,7 +21,7 @@
 
 # 27.09.2019
 
-- Änderung des Kodi-Addons für Spieler-ID-Fälle, die von Kodi nicht wieder zusammengesetzt wurden 
+- Änderung des Kodi-Addons für Spieler-ID-Fälle, die von Kodi nicht wieder zusammengesetzt wurden
 
 # 2019-07-23
 
