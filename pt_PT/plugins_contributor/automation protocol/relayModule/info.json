@@ -1,34 +1,21 @@
 {
-	"id": "modbus2mqtt",
-	"name": "Modbus2MQTT",
-	"description": {
-		"fr_FR": "Permet de lire et écrire sur des devices modbus TCP depuis et vers MQTT"
+	"id" : "conso",
+	"name" : "Suivi Conso",
+	"description" : "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production ",
+	"licence" : "AGPL",
+	"author" : "Mickeys",
+	"require" : "3.3",
+	"category" : "energy",
+	"display" : "panel",
+	"hasDependency" : false,
+	"hasOwnDeamon" : true,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://mickeys27.github.io/Docs/conso/#language#/changelog",
+	"documentation" : "https://mickeys27.github.io/Docs/conso/#language#/",
+	"link" : {
+		"forum":"https://www.jeedom.com/forum/viewtopic.php?f=149&t=8500",
+		"Community":"https://community.jeedom.com/t/plugin-suivi-conso-debuggage/8246"
 	},
-	"licence": "AGPL",
-	"author": "Mips",
-	"require": "4.2",
-	"category": "automation protocol",
-	"hasDependency": true,
-	"hasOwnDeamon": true,
-	"maxDependancyInstallTime": 0,
-	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/changelog",
-	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/",
-	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/changelog",
-	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/",
-	"link": {
-		"forum": "https://community.jeedom.com/tags/plugin-modbus2mqtt",
-		"video": ""
-	},
-	"language": [
-		"fr_FR",
-		"en_US"
-	],
-	"compatibility": [
-		"smart",
-		"atlas",
-		"rpi",
-		"docker",
-		"diy",
-		"v4"
-	]
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
 }
