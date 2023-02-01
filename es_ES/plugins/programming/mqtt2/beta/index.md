@@ -42,7 +42,7 @@ Una vez instalado el bróker Mosquitto *(si es necesario)*, puedes continuar con
   >
   >La autenticación es obligatoria en modo local.
 
-- **Tema raíz de Jeedom** : Tema raíz para enviar un comando a Jeedom o sobre el que envía los eventos.
+- **Tema raíz de Jeedom** : Tema raíz para enviar un comando a Jeedom o sobre el que envía los eventos. Atención, solo es posible poner 1 o 2 niveles como máximo.
 
 - **Transmitir todos los eventos** : Marque la casilla para enviar todos los eventos de comando de Jeedom en MQTT.
 

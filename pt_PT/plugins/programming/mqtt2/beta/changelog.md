@@ -7,6 +7,7 @@
 - Adição de um sistema de descoberta automática para determinados módulos (beta)
 - Adicionada a imagem dos módulos
 - Corrigido um bug no ID do cliente (se vários jeedom no mesmo corretor)
+- Suporte de subnível em tópicos de equipamentos
 
 # 23/12/2022
 

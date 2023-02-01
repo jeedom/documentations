@@ -42,7 +42,7 @@ Uma vez que o corretor Mosquitto está instalado *(se necessário)*, você pode 
   >
   >A autenticação é obrigatória no modo local.
 
-- **Jeedom root topic** : Tópico raiz para enviar um comando ao Jeedom ou no qual ele envia os eventos.
+- **Jeedom root topic** : Tópico raiz para enviar um comando ao Jeedom ou no qual ele envia os eventos. Atenção só é possível colocar 1 ou 2 níveis no máximo.
 
 - **Transmitir todos os eventos** : Marque a caixa para enviar todos os eventos de comando Jeedom no MQTT.
 

@@ -7,6 +7,7 @@
 - Addition of an autodiscovery system for certain modules (beta)
 - Added the image of the modules
 - Fixed a bug on the client ID (if several jeedom on the same broker)
+- Sub-level support in equipment topics
 
 # 23/12/2022
 

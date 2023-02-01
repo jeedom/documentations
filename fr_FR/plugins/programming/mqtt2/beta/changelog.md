@@ -7,6 +7,7 @@
 - Ajout d'un systeme d'autodecouverte pour certain module (beta)
 - Ajout de l'image des modules
 - Correction d'un bug sur le client ID (si plusieurs jeedom sur le meme broker)
+- Support d'un sous niveau dans les topics d'équipement
 
 # 23/12/2022
 

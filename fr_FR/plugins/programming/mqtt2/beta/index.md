@@ -42,7 +42,7 @@ Une fois le broker Mosquitto installé *(si nécessaire)*, vous pouvez passer à
   >
   >L'authentification est obligatoire en mode local.
 
-- **Topic racine Jeedom** : Sujet racine pour envoyer une commande à Jeedom ou sur lequel il renvoit les évènements.
+- **Topic racine Jeedom** : Sujet racine pour envoyer une commande à Jeedom ou sur lequel il renvoit les évènements. Attention il n'est possible de mettre que 1 ou 2 niveaux maximum.
 
 - **Transmettre tous les évènements** : Cocher la case pour envoyer tous les évènements des commandes Jeedom sur MQTT.
 

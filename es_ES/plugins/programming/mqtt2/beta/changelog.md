@@ -7,6 +7,7 @@
 - Adición de un sistema de autodescubrimiento para ciertos módulos (beta)
 - Añadida la imagen de los módulos
 - Se corrigió un error en la identificación del cliente (si varios jeedom en el mismo corredor)
+- Soporte de subnivel en temas de equipos
 
 # 23/12/2022
 

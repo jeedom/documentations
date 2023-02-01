@@ -7,6 +7,7 @@
 - Hinzufügen eines Autodiscovery-Systems für bestimmte Module (beta)
 - Bild der Module hinzugefügt
 - Fehler bei der Client-ID behoben (wenn mehrere jeedom auf demselben Broker)
+- Unterstützung auf untergeordneter Ebene in Ausrüstungsthemen
 
 # 23.12.2022
 

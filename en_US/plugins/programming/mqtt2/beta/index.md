@@ -42,7 +42,7 @@ Once the Mosquitto broker is installed *(if necessary)*, you can continue with t
   >
   >Authentication is mandatory in local mode.
 
-- **Jeedom root topic** : Root topic to send a command to Jeedom or on which it sends the events.
+- **Jeedom root topic** : Root topic to send a command to Jeedom or on which it sends the events. Attention it is only possible to put 1 or 2 levels maximum.
 
 - **Transmit all events** : Check the box to send all Jeedom command events on MQTT.
 

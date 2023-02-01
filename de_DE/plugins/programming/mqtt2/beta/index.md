@@ -42,7 +42,7 @@ Sobald der Mosquitto-Broker installiert ist *(im Bedarfsfall)*, Sie können mit 
   >
   >Im lokalen Modus ist die Authentifizierung obligatorisch.
 
-- **Jeedom-Wurzelthema** : Stammthema, um einen Befehl an Jeedom zu senden oder auf dem es die Ereignisse sendet.
+- **Jeedom-Wurzelthema** : Stammthema, um einen Befehl an Jeedom zu senden oder auf dem es die Ereignisse sendet. Achtung, es ist nur möglich, maximal 1 oder 2 Ebenen zu setzen.
 
 - **Übertragen Sie alle Ereignisse** : Aktivieren Sie das Kontrollkästchen, um alle Jeedom-Befehlsereignisse auf MQTT zu senden.
 
