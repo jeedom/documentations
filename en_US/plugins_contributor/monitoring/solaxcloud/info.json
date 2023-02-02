@@ -1,0 +1,16 @@
+{
+	"id" : "solaxcloud",
+	"name" : "Solax Cloud",
+	"description" : "Plugin permettant de récupérer les infos des onduleurs Solax via Solax Cloud",
+	"licence" : "AGPL",
+	"author" : "phroc",
+	"require" : "3.2",
+	"category" : "monitoring",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://phroc.github.io/Jeedom_Solaxcloud/fr_FR/changelog",
+	"documentation" : "https://phroc.github.io/Jeedom_Solaxcloud/fr_FR/",
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+}

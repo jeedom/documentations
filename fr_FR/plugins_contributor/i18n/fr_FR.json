@@ -273,6 +273,8 @@
         "Unifi Access & Unifi VOIP": "Unifi Access & Unifi VOIP",
         "Unifi Network": "Unifi Network",
         "Unifi Network - Connexion à un controleur Unifi Network": "Unifi Network - Connexion à un controleur Unifi Network",
+        "Solax Cloud": "Solax Cloud",
+        "Plugin permettant de récupérer les infos des onduleurs Solax via Solax Cloud": "Plugin permettant de récupérer les infos des onduleurs Solax via Solax Cloud",
         "sfrBox": "sfrBox",
         "Plugin pour contrôler sfr\/neuf box": "Plugin pour contrôler sfr\/neuf box",
         "Il dispose également d'une page santé spécifique résumant l'ensemble des informations de vos équipements": "Il dispose également d'une page santé spécifique résumant l'ensemble des informations de vos équipements",

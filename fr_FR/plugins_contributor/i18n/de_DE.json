@@ -591,6 +591,8 @@
         "Unifi Access & Unifi VOIP": "Unifi Access & Unifi VOIP",
         "Unifi Network": "Unifi-Netzwerk",
         "Unifi Network - Connexion à un controleur Unifi Network": "Unifi-Netzwerk – Verbinden mit einem Unifi-Netzwerk-Controller",
+        "Solax Cloud": "Solax-Wolke",
+        "Plugin permettant de récupérer les infos des onduleurs Solax via Solax Cloud": "Plugin zum Abrufen von Informationen von Solax-Wechselrichtern über Solax Cloud",
         "Plugin pour contrôler sfr\/neuf box": "Plugin zur Steuerung der sfr\/neuf-Box",
         "Il dispose également d'une page santé spécifique résumant l'ensemble des informations de vos équipements": "Es hat auch eine spezielle Gesundheitsseite, die alle Informationen über Ihre Ausrüstung zusammenfasst",
         "Plugin permettant la gestion d'un serveur Proxmox": "Plugin zur Verwaltung eines Proxmox-Servers",
