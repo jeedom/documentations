@@ -1,8 +1,7 @@
 {
 	"id" : "homepTalk",
 	"name" : "HomepTalk",
-	"description" : "TTS vers un Apple HomePod",
-	"usage" : "Ajoutez un Apple HomePod et faites-le parler !",
+	"description" : "TTS vers un Apple HomePod\n\nAjoutez un Apple HomePod ou HomePod Mini et faites-le parler !",
 	"licence" : "AGPL",
 	"author" : "Nebz",
 	"hasDependency" : true,
@@ -17,5 +16,5 @@
 		"forum":"https://community.jeedom.com/tags/plugin-homeptalk"
 	},
 	"languages" : ["fr_FR","en_US"],
-	"compatibility" : ["rpi","diy","smart","V4"]
+	"compatibility" : ["rpi","diy","smart","v4"]
 }

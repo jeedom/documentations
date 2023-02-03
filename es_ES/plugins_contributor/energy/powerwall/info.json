@@ -4,7 +4,7 @@
 	"description" : "Plugin pour monitorer un Powerwall Tesla.",
 	"licence" : "AGPL",
 	"author" : "vercors",
-	"require" : "4.0",
+	"require" : "4.2",
 	"category" : "energy",
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,

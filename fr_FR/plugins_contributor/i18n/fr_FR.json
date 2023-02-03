@@ -325,6 +325,8 @@
     "plugins_contributor\/multimedia\/index.md": {
         "Spotify": "Spotify",
         "Plugin pour le pilotage spotify connect": "Plugin pour le pilotage spotify connect",
+        "HomepTalk": "HomepTalk",
+        "TTS vers un Apple HomePod": "TTS vers un Apple HomePod",
         "Alexa - Spotify": "Alexa - Spotify",
         "Interface Spotify": "Interface Spotify",
         "Alexa - Fire TV": "Alexa - Fire TV",
@@ -345,7 +347,8 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation Stable": "Documentation Stable",
         "Market": "Market",
-        "Changelog Stable": "Changelog Stable"
+        "Changelog Stable": "Changelog Stable",
+        "Ajoutez un Apple HomePod ou HomePod Mini et faites-le parler": "Ajoutez un Apple HomePod ou HomePod Mini et faites-le parler"
     },
     "plugins_contributor\/nature\/index.md": {
         "Netro arrosage": "Netro arrosage",
