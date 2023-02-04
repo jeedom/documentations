@@ -44,9 +44,11 @@ Estos ascensores se realizan en **[Comunidad](https://community.jeedom.com/)** e
 
 También es en esta sección donde un evaluador puede crear un tema para proponer una mejora.
 
-> Cada tema de esta sección debe identificarse con la etiqueta de la versión en desarrollo. Por ejemplo : etiqueta v4_2 (se usa un guión bajo porque los puntos están prohibidos en las etiquetas en Discourse.
+> Cada tema de esta sección debe identificarse con la etiqueta de la versión en desarrollo. Por ejemplo : etiqueta v4_4 (se usa un guión bajo porque los puntos están prohibidos en las etiquetas en Discourse.
 
 Esta sección no es de acceso público. Para acceder a él, debe completar un formulario para que el equipo de Jeedom pueda dar [acceso a su cuenta](https://blog.jeedom.com/jeedom-partenaire-beta-testeur/).
+
+> Antes de escalar un problema, actualice el Core e intente reproducirlo nuevamente. Vea abajo.
 
 ### Gestión de actualizaciones de Core
 

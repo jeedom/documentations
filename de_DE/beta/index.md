@@ -44,9 +44,11 @@ Diese Aufzüge sind gemacht auf **[Gemeinschaft](https://community.jeedom.com/)*
 
 In diesem Abschnitt kann ein Tester auch ein Thema erstellen, um eine Verbesserung vorzuschlagen.
 
-> Jedes Thema in diesem Abschnitt muss mit dem Tag der in Entwicklung befindlichen Version identifiziert werden. Beispielsweise : tag v4_2 (ein Unterstrich wird verwendet, da Punkte in Tags auf Discourse verboten sind.
+> Jedes Thema in diesem Abschnitt muss mit dem Tag der in Entwicklung befindlichen Version identifiziert werden. Beispielsweise : Tag v4_4 (ein Unterstrich wird verwendet, weil Punkte in Tags auf Discourse verboten sind.
 
 Dieser Abschnitt ist nicht öffentlich zugänglich. Um darauf zuzugreifen, müssen Sie ein Formular ausfüllen, damit das Jeedom-Team geben kann [Zugriff auf Ihr Konto](https://blog.jeedom.com/jeedom-partenaire-beta-testeur/).
+
+> Bevor Sie ein Problem eskalieren, aktualisieren Sie den Core und versuchen Sie erneut, es zu reproduzieren. Siehe unten.
 
 ### Verwaltung von Core-Updates
 

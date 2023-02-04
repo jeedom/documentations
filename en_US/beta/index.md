@@ -44,9 +44,11 @@ These lifts are made on **[Community](https://community.jeedom.com/)** in the se
 
 It is also on this section that a tester can create a subject to propose an improvement.
 
-> Each topic on this section must be identified with the tag of the version under development. For example : tag v4_2 (an underscore is used because points are prohibited in tags on Discourse.
+> Each topic on this section must be identified with the tag of the version under development. For example : tag v4_4 (an underscore is used because dots are forbidden in tags on Discourse.
 
 This section is not publicly accessible. To access it, you must fill out a form so that the Jeedom team can give [access to your account](https://blog.jeedom.com/jeedom-partenaire-beta-testeur/).
+
+> Before escalating a problem, update the Core and try to reproduce again. See below.
 
 ### Management of Core updates
 
