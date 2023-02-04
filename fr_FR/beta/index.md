@@ -44,9 +44,11 @@ Ces remontées se font sur **[Community](https://community.jeedom.com/)** dans l
 
 C'est aussi sur cette section qu'un testeur peut créer un sujet pour proposer une amélioration.
 
-> Chaque sujet sur cette section doit être identifié avec le tag de la version en cours de développement. Par exemple : tag v4_2 (un underscore est utilisé car les point sont interdits dans les tags sur Discourse.
+> Chaque sujet sur cette section doit être identifié avec le tag de la version en cours de développement. Par exemple : tag v4_4 (un underscore est utilisé car les point sont interdits dans les tags sur Discourse.
 
 Cette section n'est pas accessible publiquement. Pour y avoir accès, vous devez remplir un formulaire afin que l'équipe Jeedom donne [accès à votre compte](https://blog.jeedom.com/jeedom-partenaire-beta-testeur/).
+
+> Avant de remonter un problème, mettez à jour le Core et réessayez de reproduire. Voir ci-dessous.
 
 ### Gestion des mises à jour du Core
 
