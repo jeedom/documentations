@@ -1,16 +1,20 @@
 {
-	"id" : "solaxcloud",
-	"name" : "Solax Cloud",
-	"description" : "Plugin permettant de récupérer les infos des onduleurs Solax via Solax Cloud",
+	"id" : "homepTalk",
+	"name" : "HomepTalk",
+	"description" : "TTS vers un Apple HomePod\n\nAjoutez un Apple HomePod ou HomePod Mini et faites-le parler !",
 	"licence" : "AGPL",
-	"author" : "phroc",
-	"require" : "3.2",
-	"category" : "monitoring",
-	"hasDependency" : false,
+	"author" : "Nebz",
+	"hasDependency" : true,
 	"hasOwnDeamon" : false,
-	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://phroc.github.io/Jeedom_Solaxcloud/fr_FR/changelog",
-	"documentation" : "https://phroc.github.io/Jeedom_Solaxcloud/fr_FR/",
-	"language" : ["fr_FR"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+	"require" : "3.3.24",
+	"category" : "multimedia",
+	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
+	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/changelog",
+	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/",
+	"forum_link" : "https://community.jeedom.com/tags/plugin-homeptalk",
+	"link" : {
+		"forum":"https://community.jeedom.com/tags/plugin-homeptalk"
+	},
+	"languages" : ["fr_FR","en_US"],
+	"compatibility" : ["rpi","diy","smart","v4"]
 }
