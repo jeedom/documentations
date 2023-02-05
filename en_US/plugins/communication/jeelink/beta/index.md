@@ -23,6 +23,10 @@ This plugin does not require any special configuration and simply needs to be ac
 
 >**Important**
 >
+>Please note that the deactivation of the plugin leads to the deletion of the target jeedoms of the plugin without any means of recovering them (except restoring a backup)
+
+>**Important**
+>
 >The network configurations of all Jeedoms *(source & target)* MUST be OK otherwise the plugin will not work.
 
 ## Target Jeedom configuration

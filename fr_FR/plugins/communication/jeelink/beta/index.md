@@ -23,6 +23,10 @@ Ce plugin ne nécessite pas de configuration particulière et doit simplement ê
 
 >**IMPORTANT**
 >
+>Attention la désactivation du plugin entraine la suppression des jeedoms cibles du plugin sans aucun moyen de les récuperer (hormis restorer un backup)
+
+>**IMPORTANT**
+>
 >Les configurations réseaux de l'ensemble des Jeedoms *(source & cible)* doivent IMPERATIVEMENT être OK sinon le plugin ne fonctionnera pas.
 
 ## Configuration Jeedom cible

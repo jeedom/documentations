@@ -23,6 +23,10 @@ Este complemento no requiere ninguna configuración especial y simplemente debe 
 
 >**Importante**
 >
+>Tenga en cuenta que la desactivación del complemento conduce a la eliminación de los problemas de destino del complemento sin ningún medio para recuperarlos (excepto restaurar una copia de seguridad)
+
+>**Importante**
+>
 >Las configuraciones de red de todos los Jeedoms *(origen Destino)* DEBE estar bien, de lo contrario el complemento no funcionará.
 
 ## Configuración de Target Jeedom

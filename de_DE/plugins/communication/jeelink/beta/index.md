@@ -23,6 +23,10 @@ Dieses Plugin erfordert keine spezielle Konfiguration und muss nach der Installa
 
 >**Wichtig**
 >
+>Bitte beachten Sie, dass die Deaktivierung des Plugins dazu führt, dass die Zieldateien des Plugins gelöscht werden, ohne dass sie wiederhergestellt werden können (außer dem Wiederherstellen eines Backups)
+
+>**Wichtig**
+>
 >Die Netzwerkkonfigurationen aller Jeedoms *(Quellenziel)* MUSS in Ordnung sein, sonst funktioniert das Plugin nicht.
 
 ## Target Jeedom-Konfiguration

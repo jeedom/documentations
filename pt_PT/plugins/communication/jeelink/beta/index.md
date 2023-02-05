@@ -23,6 +23,10 @@ Este plugin não requer nenhuma configuração especial e simplesmente precisa s
 
 >**IMPORTANTE**
 >
+>Observe que a desativação do plug-in leva à exclusão dos jeedoms de destino do plug-in sem qualquer meio de recuperá-los (exceto restaurar um backup)
+
+>**IMPORTANTE**
+>
 >As configurações de rede de todos os Jeedoms *(origem e destino)* DEVE estar OK caso contrário o plugin não funcionará.
 
 ## Configuração do alvo Jeedom
