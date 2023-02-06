@@ -376,8 +376,7 @@ See [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 > **Tip**
 >
-> You can test your plugins on Core without Jquery or Bootstrap. To do this, edit the file *desktop/php/index.php* and put the variable *loadJquery* to false : **$loadJquery = false;**.
-
+> You can test your plugins on Core without Jquery or Bootstrap. To do this, Settings > System > Configuration, equipment tab, **Corejs (dev)**.
 
 ### Optional changes
 

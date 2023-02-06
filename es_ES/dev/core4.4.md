@@ -376,8 +376,7 @@ Ver [domUI](https://github.com/jeedom/core/blob/alpha/core/dom/dom.ui.js)
 
 > **Consejo**
 >
-> Puede probar sus complementos en Core sin Jquery o Bootstrap. Para hacer esto, edite el archivo *escritorio/php/index.php* y pongo la variable *cargarJquery* a falso : **$cargarJquery = false;**.
-
+> Puede probar sus complementos en Core sin Jquery o Bootstrap. Para ello, Ajustes > Sistema > Configuración, pestaña de equipos, **Corejs (desarrollo)**.
 
 ### Cambios opcionales
 
