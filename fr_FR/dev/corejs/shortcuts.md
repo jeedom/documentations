@@ -7,7 +7,7 @@ Ces raccourcis sont définit dans le fichier `core/dom/dom.ui.js`.
 
 > La plupart de ces méthodes retourne l'élément ou la liste d'éléments appelé(e). Ce qui permet de chaîner les méthodes, par exemple myEl.empty().addClass('newClass').
 
-### isVisible / isHidden
+### isVisible() / isHidden()
 
 *Element.prototype.isVisible*  
 *Element.prototype.isHidden*
@@ -33,7 +33,7 @@ document.querySelectorAll('div.myclass').forEach(_el => {
 {% endraw %}
 ````
 
-### seen / unseen
+### seen() / unseen()
 
 *Element.prototype.seen*  
 *NodeList.prototype.seen*  
@@ -51,7 +51,7 @@ document.querySelectorAll('div.myclass').seen()
 {% endraw %}
 ````
 
-### empty
+### empty()
 
 *Element.prototype.empty*  
 *NodeList.prototype.empty*
@@ -103,7 +103,7 @@ document.querySelectorAll('div.myclass').forEach(_el => {
 {% endraw %}
 ````
 
-### remove
+### remove()
 
 *NodeList.prototype.remove* 
 
@@ -115,7 +115,7 @@ document.querySelectorAll('div.myclass').remove()
 {% endraw %}
 ````
 
-### last / closestAll
+### last() / closestAll()
 
 *NodeList.prototype.last*  
 *Element.prototype.closestAll*
@@ -135,7 +135,7 @@ myEl.closestAll('.element').forEach( _parent => {
 {% endraw %}
 ````
 
-### insertAtCursor
+### insertAtCursor()
 
 *Element.prototype.insertAtCursor* 
 
@@ -147,7 +147,7 @@ document.querySelector('input.useroption').insertAtCursor(resultString)
 {% endraw %}
 ````
 
-### sortOptions
+### sortOptions()
 
 *HTMLSelectElement.prototype.sortOptions* 
 
