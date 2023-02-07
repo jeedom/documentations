@@ -5,12 +5,14 @@ broad topic, not just a fetch !!
 A haut niveau, la récupération d'une ressource est une opération assez simple. Une requête arrive, et sort une réponse. Exemple avec la méthode native js fetch() :
 
 ````js
+{% raw %}
 fetch("folder/data.json")
     .then(data => {
         //Do stuff
     }).catch(error => {
         //Handle fetch error
     })
+{% endraw %}
 ````
 
 La méthode Fetch, qui définit l'API JavaScript fetch(), fournit une architecture unifiée concernant divers aspects de la récupération, tels que les redirections et le protocole CORS. Plusieurs API l'utilise, comme img, le curseur CSS, le style de liste, etc.
@@ -35,6 +37,7 @@ De plus, ces méthodes ont permis d'isoler certains scripts chargés dynamiqueme
 #### Utiliser les méthode de class js du Core :
 
 ````js
+{% raw %}
 jeedom.config.load({
     configuration: document.getElementById('config').getJeeValues('.configKey:not(.noSet)')[0],
     error: function(error) {
@@ -47,11 +50,13 @@ jeedom.config.load({
         //Do stuff
     }
 })
+{% endraw %}
 ````
 
 #### Appel Ajax en dehors des class js du Core :
 
 ````js
+{% raw %}
 domUtils.ajax({
     type: "POST",
     url: "plugin/xx/xx/stuff.php",
@@ -75,4 +80,5 @@ domUtils.ajax({
         })
     }
 })
+{% endraw %}
 ````

@@ -46,7 +46,9 @@ Par contre, tous les *listeners* enregistrés sur un parent de *div_pageContaine
 Il existe une méthode native pour supprimer un *listener* :
 
 ````js
+{% raw %}
 element.removeEventListener(event, listener, useCapture)
+{% endraw %}
 ````
 
 Mais, vous devez passer à removeEventListener() l'event (click, ...), le *listener* (il faut donc déclarer la fonction avant pour la passer à *addEventListerner()*), et cet event doit avoir le même paramètre *useCapture* true/false.
@@ -58,20 +60,24 @@ C'est pourquoi le Core propose une méthode pour enregistrer ce *listener*, et l
 > Attention : Cette méthode n'est à utiliser que dans des cas très particulier, où un listener doit être enregistré sur un élément parent de *div_pageContainer*. Tous les *listeners* sur des éléments dans la div *div_pageContainer* doivent utiliser la méthode js native addEventListener().
 
 ````js
+{% raw %}
 window.registerEvent('resize', function(event) {
   //Do stuff
 }, {capture: false})
+{% endraw %}
 ````
 
 Cette méthode garde une référence de l'élément, du listener, et de useCapture. Au prochain loadPage(), le Core pourra donc supprimer ce listener !
 
 ````js
+{% raw %}
 jeedomUtils.loadPage = function(_url, _noPushHistory) {
     domUtils.unRegisterEvents() //Remove all registered event listeners
     document.getElementById('div_pageContainer').load(url, function() {
         //Do stuff
     }
 }
+{% endraw %}
 ````
 
 #### Déclencher des événements
@@ -79,6 +85,7 @@ jeedomUtils.loadPage = function(_url, _noPushHistory) {
 Pour déclencher dynamiquement un événement, vous pouvez créer un nouvel événement et le déclencher :
 
 ````js
+{% raw %}
 const event = new Event('build')
 
 //Listen event:
@@ -86,11 +93,13 @@ elem.addEventListener('build', function(e) { /* … */ }, false)
 
 //Dispatch the event:
 elem.dispatchEvent(event)
+{% endraw %}
 ````
 
 Le Core propose la méthode `triggerEvent(_eventName, _params)` sur les éléments et liste d'éléments.
 
 ````js
+{% raw %}
 var myEl = document.document.getElementById('myid')
 //Native js click():
 myEl.click()
@@ -99,6 +108,7 @@ myEl.click()
 myEl.triggerEvent('update')
 
 document.querySelectorAll('div.myclass').triggerEvent('update', {capture: false, bubbles: false, detail: 'myclass'})
+{% endraw %}
 ````
 
 

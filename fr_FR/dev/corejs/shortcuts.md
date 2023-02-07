@@ -14,6 +14,7 @@ Ces raccourcis sont définit dans le fichier `core/dom/dom.ui.js`.
 Retourne un boolean si un élément est visible, ou invisible.
 
 ````js
+{% raw %}
 var myEl = document.document.getElementById('myid')
 if (myEl.isVisible()) {
     //Do stuff...
@@ -28,6 +29,7 @@ document.querySelectorAll('div.myclass').forEach(_el => {
         //Do stuff...
     }
 })
+{% endraw %}
 ````
 
 #### seen / unseen
@@ -40,10 +42,12 @@ document.querySelectorAll('div.myclass').forEach(_el => {
 Rend un élément ou une liste d'éléments visible ou invisible.
 
 ````js
+{% raw %}
 var myEl = document.document.getElementById('myid')
 myEl.unseen()
 
 document.querySelectorAll('div.myclass').seen()
+{% endraw %}
 ````
 
 #### empty
@@ -54,10 +58,12 @@ document.querySelectorAll('div.myclass').seen()
 Supprime les éléments enfant d'un élément ou d'une liste d'éléments.
 
 ````js
+{% raw %}
 var myEl = document.document.getElementById('myid')
 myEl.empty()
 
 document.querySelectorAll('div.myclass').empty()
+{% endraw %}
 ````
 
 #### classes css
@@ -78,6 +84,7 @@ Contrôle les classes css d'un élément ou d'une liste d'éléments.
 > myEl.addClass('newClass newClass2 newClass3 ...')
 
 ````js
+{% raw %}
 var myEl = document.document.getElementById('myid')
 myEl.addClass('newClass')
 myEl.removeClass('oldClass')
@@ -92,6 +99,7 @@ document.querySelectorAll('div.myclass').forEach(_el => {
         //Do stuff...
     }
 })
+{% endraw %}
 ````
 
 #### remove
@@ -101,7 +109,9 @@ document.querySelectorAll('div.myclass').forEach(_el => {
 La méthode `remove()` existe nativement sur les *Element*.
 
 ````js
+{% raw %}
 document.querySelectorAll('div.myclass').remove()
+{% endraw %}
 ````
 
 #### last / closestAll
@@ -114,12 +124,14 @@ document.querySelectorAll('div.myclass').remove()
 `closestAll()` permet de sélectionner tous les parents, et renvoit une liste d'éléments.
 
 ````js
+{% raw %}
 // Return last element or null
 var myEl = document.querySelectorAll('div.myclass').last()
 
 myEl.closestAll('.element').forEach( _parent => {
     _parent.removeClass('group')
 })
+{% endraw %}
 ````
 
 #### insertAtCursor
@@ -129,7 +141,9 @@ myEl.closestAll('.element').forEach( _parent => {
 Insère une string dans un input ou textarea.
 
 ````js
+{% raw %}
 document.querySelector('input.useroption').insertAtCursor(resultString)
+{% endraw %}
 ````
 
 #### sortOptions
@@ -139,10 +153,12 @@ document.querySelector('input.useroption').insertAtCursor(resultString)
 Tri les options d'un select
 
 ````js
+{% raw %}
 //Sort by text (default):
 document.querySelector('select.class').sortOptions()
 //Sort by value:
 document.querySelector('select.class').sortOptions(false)
+{% endraw %}
 ````
 
 
@@ -157,7 +173,9 @@ Permet d'injecter une string html dans un élément.
 - _callback : La méthode étant asynchrone, _callback est une fonction exécutée en sortie.
 
 ````js
+{% raw %}
 document.getElementById('#myID').html(_htmlString, _append, _callback)
+{% endraw %}
 ````
 > Cette méthode permet l'injection de contenu html avec des scripts js. Pour du html simple ('<div>text</div>'), utilisez innerHTML = String ou textContent = String.
 
@@ -174,9 +192,11 @@ Permet de charger le contenu d'un fichier dans un élément.
 > Cette méthode utilise la méthode du Core html() afin de parser et exécuter les scripts js injectés.
 
 ````js
+{% raw %}
 document.getElementById('#myID').load(_path, function() {
     //Do stuff
 })
+{% endraw %}
 ````
 
 
@@ -187,9 +207,11 @@ document.getElementById('#myID').load(_path, function() {
 Permet de fusionner le contenu d'un objet ou plus avec l'objet passé en 1er argument.
 
 ````js
+{% raw %}
 var defaultOptions = {
     isActive: true,
     minLength: 1,
 }
 var options = domUtils.extend(defaultOptions, userOptions)
+{% endraw %}
 ````
