@@ -12,13 +12,15 @@ Initialise les tooltips en recherchant les éléments html avec un attribut *tit
 
 Arguments faculatif : un HTMLelement sur lequel initialiser les tooltips.
 
+
 ### initSpinners() 
 
 *jeedomUtils.initSpinners()*
 
 Initialise des spinners en recherchant sur la page les *input[type="number"].ispin*, avec la lib [ISpin](https://unmanner.github.io/ispinjs/)
 
-### datePickerInit() / dateTimePickerInit() 
+
+### datePickerInit()
 
 *jeedomUtils.datePickerInit(_format, _selector)*
 
@@ -34,6 +36,8 @@ flatpickr(_input, {
 })
 {% endraw %}
 ````
+
+### dateTimePickerInit()
 
 *jeedomUtils.dateTimePickerInit(_step) *
 
@@ -51,6 +55,7 @@ flatpickr(_input, {
 {% endraw %}
 ````
 > Sur ces deux fonctions, la langues est soit us, fr, es en fonction de la langue du Core.
+
 
 ### setCheckContextMenu() 
 
@@ -75,3 +80,14 @@ var checkContextMenuCallback = function(_el) {
 jeedomUtils.setCheckContextMenu(checkContextMenuCallback)
 {% endraw %}
 ````
+
+### initDataTables() 
+
+*jeedomUtils.initDataTables(_paging, _searching)*  
+
+- _paging : Boolean : Active la pagination.  
+- _searching : Boolean : Active la recherche.
+
+Initialise les tables *table.dataTable* avec la lib *DataTable* (lib basée sur DataTable et améliorée par Jeedom).
+
+Si la table possède déjà une instance *dataTable*, elle appelle destroy() et la réinitialise.

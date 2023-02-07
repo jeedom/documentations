@@ -24,12 +24,11 @@ Nous verrons donc ici les principales fonctions apportées par le Core, utilisab
 
 - [Raccourcis sur les éléments html](/fr_FR/dev/corejs/shortcuts)  
 - [Boites de dialogue](/fr_FR/dev/corejs/dialogs)  
+- [Helpers](/fr_FR/dev/corejs/helpers)  
 - [Gestion des événements (*listeners*) js](/fr_FR/dev/corejs/events)  
 - [Gestion des appels Ajax](/fr_FR/dev/corejs/ajax)  
 - [Setter / Getter des valeurs](/fr_FR/dev/corejs/jeevalue)  
-- [Menu contextuel]()  
-- [Autocompletion]()  
-- [Tables dynamiques]()  
-- [Helpers](/fr_FR/dev/corejs/helpers)
+- [Autocompletion](/fr_FR/dev/corejs/jeeComplete)  
+
 
 
