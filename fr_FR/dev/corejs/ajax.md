@@ -1,7 +1,7 @@
 [<< Core js](/fr_FR/dev/corejs/index)  
 ## Ajax js
 
-### Persistance
+### Fetch ...
 
 A haut niveau, la récupération d'une ressource est une opération assez simple. Une requête arrive, et sort une réponse. Exemple avec la méthode native js fetch() :
 

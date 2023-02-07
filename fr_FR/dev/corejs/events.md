@@ -28,7 +28,7 @@ Structure du DOM de Jeedom :
     </head>
     <body>
         <main id="div_mainContainer">
-			<div id="div_pageContainer">
+            <div id="div_pageContainer">
                 <!--Dynamic page content-->
             </div>
         </main>
