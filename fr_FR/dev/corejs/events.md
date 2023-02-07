@@ -111,4 +111,17 @@ document.querySelectorAll('div.myclass').triggerEvent('update', {capture: false,
 {% endraw %}
 ````
 
+#### Evénements du Core
+
+Vous pouvez enregistrer une fonction qui sera déclenchée une fois la page chargée :
+
+````js
+{% raw %}
+domUtils(function() {
+  //Do stuff
+})
+{% endraw %}
+````
+
+
 
