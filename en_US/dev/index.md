@@ -14,6 +14,8 @@ A [developer account](https://blog.jeedom.com/jeedom-partenaire/) is required to
 - [Plugin template](/en_US/dev/plugin_template)
 - [Daemon and plugin dependencies](/en_US/dev/daemon_plugin)
 
+- [Js and core 4 development.4+](/en_US/dev/corejs/index) -- in progress --
+
 ### Core evolutions and plugins adaptations
 
 - [Core v4.4](/en_US/dev/core4.4)
