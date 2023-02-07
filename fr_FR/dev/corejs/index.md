@@ -4,7 +4,9 @@ Le Core de Jeedom a subit une profonde restructuration du front-end en v4.4. His
 
 Les plugins seront forcément impactés dans de futurs versions, puisque ces libs et même jQuery est voué à ne plus être chargé par le Core.
 
-> Attention, les plugins suivant ces recommandations ne fonctionnerons pas sur une Core pré 4.4.
+> Attention, les plugins suivant ces recommandations ne fonctionnerons pas sur un Core pré 4.4 !
+> 
+> Il faudra donc appliquer `"require" : "4.4",` dans l'info.json du plugin.
 
 Le but ici n'est pas d'expliquer toutes les méthodes js, il y a assez de doc officielles là dessus :
 
@@ -28,13 +30,9 @@ Nous verrons donc ici les principales fonctions apportées par le Core, utilisab
 
 Méthodes du Core :
 
-- jeedomUtils.showAlert() / jeedomUtils.hideAlert()
-
-- jeedomUtils.initTooltips()
-
-- jeedomUtils.initSpinners()
-
-- jeedomUtils.datePickerInit() / jeedomUtils.dateTimePickerInit()
-
-- jeedomUtils.setCheckContextMenu()
+- jeedomUtils.showAlert() / jeedomUtils.hideAlert()  
+- jeedomUtils.initTooltips()  
+- jeedomUtils.initSpinners()  
+- jeedomUtils.datePickerInit() / jeedomUtils.dateTimePickerInit()  
+- jeedomUtils.setCheckContextMenu()  
 
