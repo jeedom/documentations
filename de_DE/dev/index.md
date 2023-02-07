@@ -14,7 +14,7 @@ Ein [Entwicklerkonto](https://blog.jeedom.com/jeedom-partenaire/) ist erforderli
 - [Plugin Vorlage](/de_DE/dev/plugin_template)
 - [Daemon- und Plugin-Abhängigkeiten](/de_DE/dev/daemon_plugin)
 
-- [Js und Core 4 Entwicklung.4+](/de_DE/dev/corejs/index) -- im Gange --
+- [Js und Core 4 Entwicklung.4+](/de_DE/dev/corejs/index)
 
 ### Kernentwicklungen und Plugin-Anpassungen
 
