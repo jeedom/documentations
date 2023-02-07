@@ -16,7 +16,7 @@ Elle permet d'attribuer à un input une source d'autocomplete statique ou dynami
 HTMLInputElement.jeeComplete({
     id: String, //Default false, allow one autocomplete for several inputs
     minLength: Number, //Default 1, minimal user entry length to fire autocomplete
-    forceSingle: Boolean, //Default false
+    forceSingle: Boolean, //Default false, reset input value before insert, or insert at cursor.
     ignoreKeyCodes: Array, //Default [8, 13, 16, 17, 18, 27, 46]
     source: Array / function(request, response, url) {} //Define source for proposals. Static array or function.
     response: function(event, ui) {}, //Triggered when matches are found, before displaying them.
