@@ -31,11 +31,6 @@ Nous verrons donc ici les principales fonctions apportées par le Core, utilisab
 - [Menu contextuel]()  
 - [Autocompletion]()  
 - [Tables dynamiques]()  
+- [Helpers](/fr_FR/dev/corejs/helpers)
 
-Méthodes du Core :
-
-- jeedomUtils.initTooltips()  
-- jeedomUtils.initSpinners()  
-- jeedomUtils.datePickerInit() / jeedomUtils.dateTimePickerInit()  
-- jeedomUtils.setCheckContextMenu()  
 
