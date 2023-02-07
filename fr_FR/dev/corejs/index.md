@@ -8,12 +8,13 @@ Les plugins seront forcément impactés dans de futurs versions, puisque ces lib
 
 Le but ici n'est pas d'expliquer toutes les méthodes js, il y a assez de doc officielles là dessus :
 
-- [Dov dev Jeedom Core 4.4](/fr_FR/dev/core4.4)
 - [MSDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [javaScript](https://devdocs.io/javascript/)
 
 
 Nous verrons donc ici les principales fonctions apportées par le Core, utilisables dans les plugins.
+
+- [Dov dev Jeedom Core 4.4](/fr_FR/dev/core4.4)
 
 - [Raccourcis sur les éléments html](/fr_FR/dev/corejs/shortcuts)
 - [Gestion des événements (*listeners*) js](/fr_FR/dev/corejs/events)
