@@ -1,4 +1,4 @@
-[Core js](/fr_FR/dev/corejs/index)  
+[<< Core js](/fr_FR/dev/corejs/index)  
 ## Helpers
 
 Les *helpers* Sont des fonctions du Core prête à l'emploi qui peuvent être appellées par les plugins et se chargent de différentes tâches.

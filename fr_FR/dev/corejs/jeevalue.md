@@ -1,3 +1,4 @@
+[<< Core js](/fr_FR/dev/corejs/index)  
 ## Setter / Getter des valeurs
 
 *Element.prototype.getJeeValues*  
