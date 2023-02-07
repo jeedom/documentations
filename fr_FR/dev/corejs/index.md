@@ -34,7 +34,6 @@ Nous verrons donc ici les principales fonctions apportées par le Core, utilisab
 
 Méthodes du Core :
 
-- jeedomUtils.showAlert() / jeedomUtils.hideAlert()  
 - jeedomUtils.initTooltips()  
 - jeedomUtils.initSpinners()  
 - jeedomUtils.datePickerInit() / jeedomUtils.dateTimePickerInit()  
