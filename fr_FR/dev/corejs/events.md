@@ -1,6 +1,6 @@
 ## Gestion des événements (*listeners*) js
 
-#### Persistance des événements
+### Persistance des événements
 
 La gestion des événements en js est relativement simple, toutefois il faut absolument veiller à ne leur (non) persistance.
 
@@ -80,7 +80,7 @@ jeedomUtils.loadPage = function(_url, _noPushHistory) {
 {% endraw %}
 ````
 
-#### Déclencher des événements
+### Déclencher des événements
 
 Pour déclencher dynamiquement un événement, vous pouvez créer un nouvel événement et le déclencher :
 
@@ -111,7 +111,7 @@ document.querySelectorAll('div.myclass').triggerEvent('update', {capture: false,
 {% endraw %}
 ````
 
-#### Evénements du Core
+### Evénements du Core
 
 Vous pouvez enregistrer une fonction qui sera déclenchée une fois la page chargée :
 
@@ -123,5 +123,47 @@ domUtils(function() {
 {% endraw %}
 ````
 
+### Délégation d'événements
 
+Dans 99% des cas, vous ne serez pas concerné par la persistance des événements, et déclarerez vos déclencheurs normalement.
 
+Pour cela, en js natif, il existe deux méthodes :
+
+- La méthode classique :
+
+````js
+{% raw %}
+document.getElementById('bt_dostuff').addEventListener('click', function(event) {
+    //Do stuff
+})
+
+document.getElementById('bt_dootherstuff').addEventListener('click', function(event) {
+    //Do other stuff
+})
+{% endraw %}
+````
+
+- La délégation d'événements :
+
+La délégation d'événements permet d'optimiser la gestion d’événements en déléguant un seul événement sur un parent commun.
+
+````js
+{% raw %}
+document.getElementById('div_pageContainer').addEventListener('click', function(event) {
+    var _target = null
+    if (_target = event.target.closest('#bt_dostuff')) {
+        let data = _target.getAttribute('data-stuff')
+        //Do stuff
+        return
+    }
+
+    if (_target = event.target.closest('#bt_dootherstuff')) {
+        let data = _target.getAttribute('data-otherstuff')
+        //Do other stuff
+        return
+    }
+})
+{% endraw %}
+````
+
+Et bien sûr, ce *listener* étant sur la #div_pageContainer, il ne ... persistera pas lors du chargement d'une autre page.

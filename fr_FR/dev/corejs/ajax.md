@@ -1,6 +1,6 @@
 ## Ajax js
 
-broad topic, not just a fetch !!
+### Persistance
 
 A haut niveau, la récupération d'une ressource est une opération assez simple. Une requête arrive, et sort une réponse. Exemple avec la méthode native js fetch() :
 
@@ -34,7 +34,7 @@ Les fonctions internes du Core permettent également de traiter tous les appels 
 
 De plus, ces méthodes ont permis d'isoler certains scripts chargés dynamiquement, comme les librairies dans core/3rdparty ou dans plugin/3rdparty, qui sont maintenant chargés et conservés dans le head pour gagner en performance.
 
-#### Utiliser les méthode de class js du Core :
+### Utiliser les méthode de class js du Core :
 
 ````js
 {% raw %}
@@ -53,7 +53,7 @@ jeedom.config.load({
 {% endraw %}
 ````
 
-#### Appel Ajax en dehors des class js du Core :
+### Appel Ajax en dehors des class js du Core :
 
 ````js
 {% raw %}

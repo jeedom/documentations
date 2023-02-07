@@ -6,7 +6,7 @@ Ces raccourcis sont définit dans le fichier `core/dom/dom.ui.js`.
 
 > La plupart de ces méthodes retourne l'élément ou la liste d'éléments appelé(e). Ce qui permet de chaîner les méthodes, par exemple myEl.empty().addClass('newClass').
 
-#### isVisible / isHidden
+### isVisible / isHidden
 
 *Element.prototype.isVisible*  
 *Element.prototype.isHidden*
@@ -32,7 +32,7 @@ document.querySelectorAll('div.myclass').forEach(_el => {
 {% endraw %}
 ````
 
-#### seen / unseen
+### seen / unseen
 
 *Element.prototype.seen*  
 *NodeList.prototype.seen*  
@@ -50,7 +50,7 @@ document.querySelectorAll('div.myclass').seen()
 {% endraw %}
 ````
 
-#### empty
+### empty
 
 *Element.prototype.empty*  
 *NodeList.prototype.empty*
@@ -66,7 +66,7 @@ document.querySelectorAll('div.myclass').empty()
 {% endraw %}
 ````
 
-#### classes css
+### classes css
 
 *Element.prototype.addClass*  
 *NodeList.prototype.addClass*  
@@ -102,7 +102,7 @@ document.querySelectorAll('div.myclass').forEach(_el => {
 {% endraw %}
 ````
 
-#### remove
+### remove
 
 *NodeList.prototype.remove* 
 
@@ -114,7 +114,7 @@ document.querySelectorAll('div.myclass').remove()
 {% endraw %}
 ````
 
-#### last / closestAll
+### last / closestAll
 
 *NodeList.prototype.last*  
 *Element.prototype.closestAll*
@@ -134,7 +134,7 @@ myEl.closestAll('.element').forEach( _parent => {
 {% endraw %}
 ````
 
-#### insertAtCursor
+### insertAtCursor
 
 *Element.prototype.insertAtCursor* 
 
@@ -146,7 +146,7 @@ document.querySelector('input.useroption').insertAtCursor(resultString)
 {% endraw %}
 ````
 
-#### sortOptions
+### sortOptions
 
 *HTMLSelectElement.prototype.sortOptions* 
 
@@ -162,7 +162,7 @@ document.querySelector('select.class').sortOptions(false)
 ````
 
 
-#### html()
+### html()
 
 *Element.prototype.html*  
 
@@ -180,7 +180,7 @@ document.getElementById('#myID').html(_htmlString, _append, _callback)
 > Cette méthode permet l'injection de contenu html avec des scripts js. Pour du html simple ('<div>text</div>'), utilisez innerHTML = String ou textContent = String.
 
 
-#### load()
+### load()
 
 *Element.prototype.load*  
 
@@ -200,7 +200,7 @@ document.getElementById('#myID').load(_path, function() {
 ````
 
 
-#### extend object
+### extend object
 
 *domUtils.extend(_object /*, _object... */)*  
 
