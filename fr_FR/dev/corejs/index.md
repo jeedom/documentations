@@ -16,16 +16,16 @@ Le but ici n'est pas d'expliquer toutes les méthodes js, il y a assez de doc of
 Nous verrons donc ici les principales fonctions apportées par le Core, utilisables dans les plugins.
 
 - [Raccourcis sur les éléments html](/fr_FR/dev/corejs/shortcuts)
-- [Gestion des évènements (*listeners*) js](/fr_FR/dev/corejs/events)
+- [Gestion des événements (*listeners*) js](/fr_FR/dev/corejs/events)
 - [Gestion des appels Ajax](/fr_FR/dev/corejs/ajax)
-- [Setter / Getter des valeurs]()
+- [Setter / Getter des valeurs](/fr_FR/dev/corejs/jeevalue)
 
 - [Boites de dialogue]()
 - [Menu contextuel]()
 - [Autocompletion]()
 - [Tables dynamiques]()
 
-Métodes du Core :
+Méthodes du Core :
 
 - jeedomUtils.showAlert() / jeedomUtils.hideAlert()
 

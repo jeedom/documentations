@@ -1,8 +1,8 @@
-## Gestion des évènements (*listeners*) js
+## Gestion des événements (*listeners*) js
 
-#### Persistance des évènements
+#### Persistance des événements
 
-La gestion des évènements en js est relativement simple, toutefois il faut absolument veiller à ne leur (non) persistance.
+La gestion des événements en js est relativement simple, toutefois il faut absolument veiller à ne leur (non) persistance.
 
 Un exemple simple :
 
@@ -13,9 +13,9 @@ window.addEventListener('resize', function(event) {
 })
 ````
 
-Ici, on crée un listener sur l'évènement *resize* de *window*. Ce listener se déclenchera donc à chaque redimensionnement du navigateur par l'utilisateur.
+Ici, on crée un listener sur l’événement *resize* de *window*. Ce listener se déclenchera donc à chaque redimensionnement du navigateur par l'utilisateur.
 
-Sur un site web normal, ce n'est pas très grave, car en changant d'url le *listener* disparait. Un *listener* est automatiquement supprimé lorsque son élément disparait du DOM.
+Sur un site web normal, ce n'est pas très grave, car en changeant d'url le *listener* disparaît. Un *listener* est automatiquement supprimé lorsque son élément disparaît du DOM.
 
 Mais Jeedom change réellement de page/url très rarement. Pour des questions de performances et de confort, il charge dynamiquement le contenu dans une div. Donc sans notre exemple, *window* n'est pas supprimée, et si on change de page, le *listener* existe toujours !
 
@@ -49,7 +49,7 @@ Il existe une méthode native pour supprimer un *listener* :
 element.removeEventListener(event, listener, useCapture)
 ````
 
-Mais, vous devez passer à removeEventListener() l'event (click, ...), le listerner (il faut donc déclarer la fonction avant pour la passer à *addEventListerner()*), et cet event doit avoir le même paramètre *useCapture* true/false.
+Mais, vous devez passer à removeEventListener() l'event (click, ...), le *listener* (il faut donc déclarer la fonction avant pour la passer à *addEventListerner()*), et cet event doit avoir le même paramètre *useCapture* true/false.
 
 Et enfin, vous ne pouvez de toute façon pas le faire, puisque vous ne savez pas à quel moment l'utilisateur va changer de page, donc quand faire ce *removeEventListener()* !
 
@@ -63,7 +63,7 @@ window.registerEvent('resize', function(event) {
 }, {capture: false})
 ````
 
-Cette méthode garde une référence de l'élément, du listener, et de useCapture. Au prochain loadpage(), le Core pourra donc supprimer ce listener !
+Cette méthode garde une référence de l'élément, du listener, et de useCapture. Au prochain loadPage(), le Core pourra donc supprimer ce listener !
 
 ````js
 jeedomUtils.loadPage = function(_url, _noPushHistory) {
@@ -74,9 +74,9 @@ jeedomUtils.loadPage = function(_url, _noPushHistory) {
 }
 ````
 
-#### Déclencher des évènements
+#### Déclencher des événements
 
-Pour déclencher dynamiquement un évènement, vous pouvez créer un nouvel évènement et le déclencher :
+Pour déclencher dynamiquement un événement, vous pouvez créer un nouvel événement et le déclencher :
 
 ````js
 const event = new Event('build')

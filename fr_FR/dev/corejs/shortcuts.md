@@ -2,9 +2,9 @@
 
 Le Core v4.4+ propose plusieurs raccourcis permettant d'écrire plus facilement et rapidement certaines fonctions.
 
-Ces raccourcis sont définits dans le fichier `core/dom/dom.ui.js`.
+Ces raccourcis sont définit dans le fichier `core/dom/dom.ui.js`.
 
-> La plupart de ces méthodes retourne l'élément ou la liste d'éléments appellé(e). Ce qui permet de chainer les méthodes, par exemple myEl.empty().addClass('newClass').
+> La plupart de ces méthodes retourne l'élément ou la liste d'éléments appelé(e). Ce qui permet de chaîner les méthodes, par exemple myEl.empty().addClass('newClass').
 
 #### isVisible / isHidden
 
@@ -70,7 +70,7 @@ document.querySelectorAll('div.myclass').empty()
 *NodeList.prototype.toggleClass*  
 *Element.prototype.hasClass*  
 
-Controle les classes css d'un élément ou d'une liste d'éléments.
+Contrôle les classes css d'un élément ou d'une liste d'éléments.
 
 > addClass() et removeClass() permettent de passer plusieurs sous les formes :
 > 
@@ -145,17 +145,51 @@ document.querySelector('select.class').sortOptions()
 document.querySelector('select.class').sortOptions(false)
 ````
 
-#### html() / load()
+
+#### html()
 
 *Element.prototype.html*  
-*Element.prototype.load*  
+
+Permet d'injecter une string html dans un élément.
+
+- _htmlString : La string html à injecter.  
+- _append (boolean : default(false)): Par défaut, html() remplace contenu de l'élément. Permet de conserver le contenu existant en faisant un *append*.  
+- _callback : La méthode étant asynchrone, _callback est une fonction exécutée en sortie.
 
 ````js
 document.getElementById('#myID').html(_htmlString, _append, _callback)
+````
+> Cette méthode permet l'injection de contenu html avec des scripts js. Pour du html simple ('<div>text</div>'), utilisez innerHTML = String ou textContent = String.
 
 
+#### load()
 
-document.getElementById('#myID').load(_path, _callback)
+*Element.prototype.load*  
+
+Permet de charger le contenu d'un fichier dans un élément.
+
+- _path : url.  
+- _callback : La méthode étant asynchrone, _callback est une fonction exécutée en sortie.
+
+> Cette méthode utilise la méthode du Core html() afin de parser et exécuter les scripts js injectés.
+
+````js
+document.getElementById('#myID').load(_path, function() {
+    //Do stuff
+})
+````
 
 
+#### extend object
+
+*domUtils.extend(_object /*, _object... */)*  
+
+Permet de fusionner le contenu d'un objet ou plus avec l'objet passé en 1er argument.
+
+````js
+var defaultOptions = {
+    isActive: true,
+    minLength: 1,
+}
+var options = domUtils.extend(defaultOptions, userOptions)
 ````
