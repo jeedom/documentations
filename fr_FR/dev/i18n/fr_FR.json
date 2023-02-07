@@ -535,6 +535,7 @@
         "Vous pouvez bien sûr les utiliser dans les plugins, mais ceux-ci devront alors être installé sur un Core 4": "Vous pouvez bien sûr les utiliser dans les plugins, mais ceux-ci devront alors être installé sur un Core 4",
         "4 minimum": "4 minimum",
         "fonctions DOM propres au Core": "fonctions DOM propres au Core",
+        "Doc Core js": "Doc Core js",
         "domUtils": "domUtils",
         "domUI": "domUI",
         "Obsolete": "Obsolete",

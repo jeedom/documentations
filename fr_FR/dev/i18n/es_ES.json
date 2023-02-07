@@ -1035,6 +1035,7 @@
         "Vous pouvez bien sûr les utiliser dans les plugins, mais ceux-ci devront alors être installé sur un Core 4": "Por supuesto, puede usarlos en complementos, pero estos deberán instalarse en un Core 4",
         "4 minimum": "4 o más",
         "fonctions DOM propres au Core": "Funciones DOM específicas del núcleo",
+        "Doc Core js": "DocCore js",
         "Fonction php": "Función PHP",
         "`displayExeption()` -> `displayException()`": "`displayException()` -> `displayException()`",
         "`convertDayEnToFr()` -> `convertDayFromEn()`": "`convertDayEnToFr()` -> `convertDayFromEn()`",
