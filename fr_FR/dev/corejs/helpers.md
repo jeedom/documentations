@@ -33,7 +33,6 @@ flatpickr(_input, {
     dateFormat: _format, //Default: 'Y-m-d'
     time_24hr: true,
 })
-})
 {% endraw %}
 ````
 
