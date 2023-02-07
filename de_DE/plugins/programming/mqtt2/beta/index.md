@@ -66,6 +66,11 @@ Sie müssen das Wurzelthema des Geräts angeben *(„Testen“ zum Beispiel)*, d
   >
   >In Befehlen vom Aktionstyp können Sie die Tags ` verwenden#slider#`, `#color#`, `#message#` oder `#select#`, die beim Ausführen des Befehls automatisch durch ihren Wert ersetzt werden *(nach seiner Unterart)*. Wenn die Nachricht andererseits vom Typ „json“ ist, müssen Sie ihr das Präfix „json“ hinzufügen::``.
 
+>**WICHTIG**
+>
+>Das `jeedom`-Topic ist reserviert (dies kann in der Konfiguration geändert werden), daher sollte nichts anderes als Befehle zum Ansteuern von jeedom darauf gesendet werden
+
+
 # Jeedom über MQTT
 
 Es ist möglich, Jeedom über MQTT zu steuern. Hier sind die verschiedenen möglichen Themen unter der Annahme, dass das Hauptthema „jeedom“ ist *(anzupassen, wenn Sie die Standardkonfiguration geändert haben)* :

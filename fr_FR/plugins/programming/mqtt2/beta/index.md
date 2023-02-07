@@ -66,6 +66,11 @@ Il faut indiquer le topic racine de l'équipement *(`test` par exemple)*, ensuit
   >
   >Dans les commandes de type action vous pouvez utiliser les tags `#slider#`, `#color#`, `#message#` ou `#select#` qui seront automatiquement remplacés par leur valeur lors de l'exécution de la commande *(selon son sous-type)*. D'autre part, si le message est de type `json` il faut lui ajouter le préfixe `json::`.
 
+>**IMPORTANT**
+>
+>Le topic `jeedom` est reservé (cela peut se changer dans la configuration), il ne faut donc rien envoyer d'autre dessus que des commandes pour piloter jeedom
+
+
 # Jeedom via MQTT
 
 Il est possible de piloter Jeedom à travers MQTT. Ci-après les différents topics possibles en partant du principe que le topic racine est `jeedom` *(à adapter si vous avez modifié la configuration par défaut)* :

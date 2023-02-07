@@ -66,6 +66,11 @@ Debe indicar el tema raíz del equipo *(`prueba` por ejemplo)*, entonces de acue
   >
   >En los comandos de tipo acción, puede usar las etiquetas `#slider#`, `#color#`, `#message#` o `#select#` que se reemplazará automáticamente por su valor al ejecutar el comando *(según su subtipo)*. Por otro lado, si el mensaje es del tipo `json`, debes agregarle el prefijo `json`::''.
 
+>**IMPORTANTE**
+>
+>El tema `jeedom` está reservado (esto se puede cambiar en la configuración), así que no envíe nada más que comandos para conducir jeedom
+
+
 # Jeedom a través de MQTT
 
 Es posible pilotar Jeedom a través de MQTT. Aquí están los diferentes temas posibles asumiendo que el tema raíz es `jeedom` *(para adaptar si ha modificado la configuración por defecto)* :

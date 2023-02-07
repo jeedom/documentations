@@ -66,6 +66,11 @@ You must indicate the root topic of the equipment *(`test` for example)*, then a
   >
   >In action type commands you can use the tags `#slider#`, `#color#`, `#message#` or `#select#` which will be automatically replaced by their value when executing the command *(according to its subtype)*. On the other hand, if the message is of the `json` type, you must add the `json` prefix to it::``.
 
+>**IMPORTANT**
+>
+>The `jeedom` topic is reserved (this can be changed in the configuration), so do not send anything other than commands to drive jeedom
+
+
 # Jeedom via MQTT
 
 It is possible to pilot Jeedom through MQTT. Here are the different possible topics assuming that the root topic is `jeedom` *(to adapt if you have modified the default configuration)* :
