@@ -14,7 +14,7 @@ Un [compte développeur](https://blog.jeedom.com/jeedom-partenaire/) est nécess
 - [Plugin template](/fr_FR/dev/plugin_template)
 - [Démon et dépendances d'un plugin](/fr_FR/dev/daemon_plugin)
 
-- [Développement js et Core 4.4 +](/fr_FR/dev/corejs/index) -- en cours --
+- [Développement js et Core 4.4 +](/fr_FR/dev/corejs/index)
 
 ### Évolutions du Core et adaptations des plugins
 
