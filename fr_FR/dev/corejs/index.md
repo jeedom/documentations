@@ -21,7 +21,7 @@ Nous verrons donc ici les principales fonctions apportées par le Core, utilisab
 - [Gestion des appels Ajax](/fr_FR/dev/corejs/ajax)
 - [Setter / Getter des valeurs](/fr_FR/dev/corejs/jeevalue)
 
-- [Boites de dialogue]()
+- [Boites de dialogue](/fr_FR/dev/corejs/dialogs)
 - [Menu contextuel]()
 - [Autocompletion]()
 - [Tables dynamiques]()
