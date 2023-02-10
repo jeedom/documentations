@@ -4,6 +4,9 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Correction d'une alarte Javascript
+- Amélioration de la synchronisation des commandes liées
+
 # 26/01/2022
 
 - Optimisations V4.2 (merci @JAG)

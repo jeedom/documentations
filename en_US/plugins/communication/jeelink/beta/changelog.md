@@ -4,6 +4,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Fixed Javascript warning
+- Improved synchronization of linked commands
+
 # 01/26/2022
 
 - V4.2 optimizations (thanks @JAG)

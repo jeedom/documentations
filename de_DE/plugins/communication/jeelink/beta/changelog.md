@@ -4,6 +4,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Javascript-Warnung behoben
+- Verbesserte Synchronisation verknüpfter Befehle
+
 # 26.01.2022
 
 - V4.2-Optimierungen (danke @JAG)

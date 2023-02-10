@@ -4,6 +4,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Aviso de Javascript corrigido
+- Sincronização aprimorada de comandos vinculados
+
 # 26/01/2022
 
 - Otimizações V4.2 (obrigado @JAG)
