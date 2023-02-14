@@ -547,10 +547,11 @@ Lorsque l'on va écrire un démon, on va très souvent avoir besoin de librairie
 Sous debian, typiquement, on va utiliser l'outils apt pour installer les paquets nécessaires et pour python, on va utiliser pip.
 
 Et pour gérer cela, encore une fois, tout est prévu dans le core de Jeedom pour nous aider via deux méthodes distinctes:
-* La méthode par procédures
-  Cette méthode était la seule méthode possible avec les version de jeedom antérieurs à la 4.2
-* La méthode par fichier json de configuration
-  Cette méthode est apparue avec la version 4.2 du core de Jeedom.
+
+1. La méthode par procédures.  
+   Cette méthode était la seule méthode possible avec les versions de jeedom antérieures à la 4.2
+1. La méthode par fichier json de configuration.  
+   Cette méthode est apparue avec la version 4.2 du core de Jeedom.
   
 Les deux méthodes peuvent être implémentées dans un même plugin.
 * Si les deux méthodes sont implémentées dans un plugin:
@@ -561,17 +562,14 @@ Les deux méthodes peuvent être implémentées dans un même plugin.
 * Si seule la méthode par fichier de configuration json est implémentée dans un plugin.
   * Le plugin ne sera pas compatible avec les versions du core antérieures à la 4.2
 
-La méthode par fichiers de cnfigrations offre plusieurs avantages par rapport à la version par procédures. Cette méthode
-devrait être implémentée dasn tous les plugins.
+La méthode par fichier de configuration offre plusieurs avantages par rapport à la version par procédures. Cette méthode
+devrait être implémentée dans tous les plugins.
 
-La méthode par procédures ne devrait être implémentée que dans le plugin devant être compatibles avec les core antérieurs
-à la version 4.2. La méthode par fichiers de configuration json devrait aussi être implémentée dans ce plugins.
+La méthode par procédures ne devrait être implémentée que dans les plugins devant être compatibles avec les cores antérieurs
+à la version 4.2. La méthode par fichier de configuration json devrait aussi être implémentée dans ces plugins.
 
 ### La méthode par fichiers de configuration json
 Il y 2 prérequis que nous allons détailler tout de suite.
-
-### La méthode par procédures
-Il y 3 prérequis que nous allons détailler tout de suite.
 
 #### Déclaration dans plugin_info/info.json
 
@@ -591,7 +589,10 @@ Même exemple que pour la déclaration du démon, il faut rajouter la propriét�
 #### Création du fichiers plugin_info/packages.json
 
 La syntaxe de ce fichier sera décrite ici. En attendant, vous trouverez des information dans cet
-[article du blog](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/)
+[article du blog](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
+
+### La méthode par procédures
+Il y 3 prérequis que nous allons détailler tout de suite.
 
 #### Déclaration dans plugin_info/info.json
 
