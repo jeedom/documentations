@@ -546,9 +546,55 @@ Cuando vamos a escribir un demonio, muy a menudo necesitaremos bibliotecas exter
 
 En debian, normalmente usaremos la herramienta apt para instalar los paquetes necesarios y para python usaremos pip.
 
-Y para gestionar esto, una vez más, todo está planeado en el núcleo de Jeedom para ayudarnos. Hay 3 requisitos previos que detallaremos de inmediato.
+Y para manejar esto, una vez más, todo está planeado en el núcleo de Jeedom para ayudarnos a través de dos métodos distintos:
 
-### Declaración en plugin_info / info.json
+1. El método procesal.  
+   Este método era el único método posible con versiones de jeedom anteriores a 4.2
+1. El método del archivo json de configuración.  
+   Este método apareció con la versión 4.2 del núcleo de Jeedom.
+  
+Ambos métodos se pueden implementar en un solo complemento.
+* Si ambos métodos se implementan en un complemento:
+  * Núcleos antes de 4.2 usarán Metone por procedimientos.
+  * Núcleo 4.2 y posteriores usarán el método de archivo de configuración per json.
+* Si solo se implementa el método de procedimiento en un complemento:
+  * Todos los núcleos utilizarán este método.
+* Si solo se implementa el método del archivo de configuración json en un complemento.
+  * El complemento no será compatible con las versiones principales anteriores a la 4.2
+
+El método del archivo de configuración ofrece varias ventajas sobre la versión de procedimiento. Este método
+debe implementarse en todos los complementos.
+
+El método de procedimiento solo debe implementarse en complementos que deben ser compatibles con núcleos anteriores
+a la versión 4.2. El método del archivo de configuración json también debe implementarse en estos complementos.
+
+### El método del archivo de configuración json
+Hay 2 requisitos previos que detallaremos a continuación.
+
+#### Declaración en plugin_info / info.json
+
+El mismo ejemplo que para la declaración del demonio, debe agregar la propiedad `hasDependency` y asignar el valor` true`:
+
+`` ``json
+{
+    "id" : "pluginID",
+    "name" : "pluginName",
+    ...
+    "hasDependency" : true,
+    "hasOwnDeamon" : true,
+    ...
+}
+`` ``
+
+#### Creación del archivo plugin_info/packages.json
+
+La sintaxis de este archivo se describirá aquí. Mientras tanto, encontrará información en este
+[entrada en el blog](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
+
+### El método procesal
+Hay 3 requisitos previos que detallaremos a continuación.
+
+#### Declaración en plugin_info / info.json
 
 El mismo ejemplo que para la declaración del demonio, debe agregar la propiedad `hasDependency` y asignar el valor` true`:
 
@@ -570,7 +616,7 @@ La propiedad `maxDependancyInstallTime` es el retraso en minutos después del cu
 >
 > La secuencia de comandos de instalación no se interrumpirá, por lo que puede terminar con éxito. Este es solo el tiempo después del cual el núcleo ya no espera y ya no muestra el progreso.
 
-### Instalación de dependencias
+#### Instalación de dependencias
 
 En su clase eqLogic debe agregar esta función si no existe. Puede copiarlo / pegarlo como está sin modificar nada
 
@@ -656,7 +702,7 @@ Algunos consejos:
 >
 > Es muy importante instalar todos los paquetes necesarios y prestar especial atención a los que muy a menudo ya están instalados ... pero no siempre. Con frecuencia hay problemas con los paquetes `python3-request`,` python3-pip` y / o `serial`. Estos no están preinstalados en un debian básico, pero muy a menudo ya están instalados por otro complemento ... a menos que su complemento sea el primero y, en este caso, su demonio no se iniciará. Sucede con más frecuencia de lo que piensas.
 
-### Conoce el estado
+#### Conoce el estado
 
 ![image](images/dependencies_info.png)
 

@@ -546,9 +546,55 @@ Wenn wir einen Daemon schreiben, benötigen wir neben unseren eigenen Klassen se
 
 Unter Debian verwenden wir normalerweise das apt-Tool, um die erforderlichen Pakete zu installieren, und für Python verwenden wir pip.
 
-Und um dies zu schaffen, ist im Jeedom-Kern noch einmal alles geplant, um uns zu helfen. Es gibt 3 Voraussetzungen, die wir gleich näher erläutern werden.
+Und um dies zu bewältigen, ist alles im Kern von Jeedom geplant, um uns über zwei verschiedene Methoden zu helfen:
 
-### Deklaration in plugin_info / info.json
+1. Die Verfahrensmethode.  
+   Diese Methode war die einzig mögliche Methode mit Versionen von jeedom vor 4.2
+1. Die JSON-Dateikonfigurationsmethode.  
+   Diese Methode erschien mit Version 4.2 des Kerns von Jeedom.
+  
+Beide Methoden können in einem einzigen Plugin implementiert werden.
+* Wenn beide Methoden in einem Plugin implementiert sind:
+  * Kerne vor 4.2 verwendet Methon pro Verfahren.
+  * Kern 4.2 und höher wird die per json-Konfigurationsdateimethode verwenden.
+* Wenn nur die prozedurale Methode in einem Plugin implementiert ist:
+  * Alle Kerne verwenden diese Methode.
+* Wenn nur die json-Konfigurationsdateimethode in einem Plugin implementiert ist.
+  * Das Plugin ist nicht mit Kernversionen vor 4.2 kompatibel
+
+Die Methode der Konfigurationsdatei bietet gegenüber der prozeduralen Variante mehrere Vorteile. Diese Methode
+sollte in allen Plugins implementiert sein.
+
+Die prozedurale Methode sollte nur in Plugins implementiert werden, die mit früheren Kernen kompatibel sein müssen
+auf Version 4.2. Die json-Konfigurationsdateimethode sollte auch in diesen Plugins implementiert werden.
+
+### Die json-Konfigurationsdateimethode
+Es gibt 2 Voraussetzungen, die wir gleich erläutern werden.
+
+#### Deklaration in plugin_info / info.json
+
+Gleiches Beispiel wie bei der Deklaration des Daemons, Sie müssen die Eigenschaft `hasDependency` hinzufügen und den Wert `true` zuweisen:
+
+`` ``json
+{
+    "id" : "pluginID",
+    "name" : "pluginName",
+    ...
+    "hasDependency" : true,
+    "hasOwnDeamon" : true,
+    ...
+}
+`` ``
+
+#### Erstellung der Datei plugin_info/packages.json
+
+Die Syntax dieser Datei wird hier beschrieben. In der Zwischenzeit finden Sie hier Informationen
+[Blogeintrag](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
+
+### Die prozedurale Methode
+Es gibt 3 Voraussetzungen, die wir gleich erläutern werden.
+
+#### Deklaration in plugin_info / info.json
 
 Gleiches Beispiel wie bei der Deklaration des Daemons, Sie müssen die Eigenschaft `hasDependency` hinzufügen und den Wert `true` zuweisen:
 
@@ -570,7 +616,7 @@ Die Eigenschaft `maxDependancyInstallTime` ist die Verzögerung in Minuten, nach
 >
 > Das Installationsskript wird nicht unterbrochen, sodass es möglicherweise erfolgreich abgeschlossen wird. Dies ist nur die Zeit, nach der der Core nicht mehr wartet und keinen Fortschritt mehr anzeigt.
 
-### Abhängigkeiten installieren
+#### Abhängigkeiten installieren
 
 In Ihrer eqLogic-Klasse müssen Sie diese Funktion hinzufügen, wenn sie nicht vorhanden ist. Sie können es kopieren / einfügen, ohne etwas zu ändern
 
@@ -656,7 +702,7 @@ Einige Tipps:
 >
 > Es ist sehr wichtig, alle notwendigen Pakete zu installieren und besonders auf diejenigen zu achten, die sehr oft bereits installiert sind ... aber nicht immer. Es gibt häufig Probleme mit den `python3-requests`,` python3-pip` und/oder `serial` Paketen. Diese sind auf einem Basis-Debian nicht vorinstalliert, sondern sehr oft bereits von einem anderen Plugin installiert ... es sei denn, Ihr Plugin ist das erste und in diesem Fall startet Ihr Daemon nicht. Es kommt öfter vor als man denkt.
 
-### Kenne den Status
+#### Kenne den Status
 
 ![image](images/dependencies_info.png)
 

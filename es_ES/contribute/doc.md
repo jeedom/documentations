@@ -1,6 +1,6 @@
 # Contribuir a la documentación
 
-La documentación de Jeedom está centralizada en este sitio, mediante varios mecanismos. Al igual que Jeedom Core, la documentación es accesible en Github y Open-Source.
+La documentación de Jeedom está centralizada en este sitio, mediante varios mecanismos. Al igual que Jeedom's Core, se puede acceder a la documentación en Github y es de código abierto (licencia MIT).
 
 Para participar en la documentación, debe tener una cuenta [Github](https://github.com/).
 
@@ -26,7 +26,7 @@ Siguiendo la URL en el sitio de documentación, puede encontrar el archivo md co
 - Conceptos -> https://github.com/jeedom/documentations/blob/master/es_ES/concept/index.md
 - Contribuir a la documentación -> https://github.com/jeedom/documentations/blob/master/es_ES/contribute/doc.md
 
-Entonces puedes hacer relaciones públicas (*Solicitudes de extracción*) en estos archivos .md.
+Entonces puedes hacer relaciones públicas (*Solicitudes de extracción*) en estos archivos `.md`.
 
 Puede ver en este directorio, los directorios principales, complementos, etc. Estos se administran automáticamente, por lo que no es necesario hacer relaciones públicas aquí (leer más).
 
@@ -67,7 +67,7 @@ En el código puede especificar cadenas para traducir así :
 
 En php : `$ myString = __ ('Mi oración que será traducida', __FILE __);`
 
-En js : ``{% raw %}var myString = '{{Mi oración que será traducida}}'{% endraw %}``
+En JavaScript : ``{% raw %}var myString = '{{Mi oración que será traducida}}'{% endraw %}``
 
 El sistema de traducción se encargará de su traducción y su referencia en los archivos json (`docs / i18n /`), y el núcleo de su reemplazo en la interfaz.
 

@@ -1,6 +1,6 @@
 # Beitrag zur Dokumentation
 
-Die Jeedom-Dokumentation wird auf dieser Site durch verschiedene Mechanismen zentralisiert. Wie beim Jeedom Core ist die Dokumentation auf Github und Open Source verfügbar.
+Die Jeedom-Dokumentation wird auf dieser Site durch verschiedene Mechanismen zentralisiert. Wie Jeedom's Core ist die Dokumentation auf Github zugänglich und Open-Source (MIT-Lizenz).
 
 Um an der Dokumentation teilnehmen zu können, müssen Sie daher über ein Konto verfügen [Github](https://github.com/).
 
@@ -26,7 +26,7 @@ Wenn Sie der URL auf der Dokumentationsseite folgen, finden Sie die entsprechend
 - Konzepte -> https://github.com/jeedom/documentations/blob/master/de_DE/concept/index.md
 - Beitrag zur Dokumentation -> https://github.com/jeedom/documentations/blob/master/de_DE/contribute/doc.md
 
-So können Sie PRs machen (*Anfragen ziehen*) auf diesen .md-Dateien.
+So können Sie PRs machen (*Anfragen ziehen*) auf diesen `.md`-Dateien.
 
 In diesem Verzeichnis sehen Sie die Kernverzeichnisse, Plugins usw. Diese werden automatisch verwaltet, sodass hier keine PRs erforderlich sind (lesen Sie mehr).
 
@@ -67,7 +67,7 @@ Im Code können Sie Zeichenfolgen angeben, die wie folgt übersetzt werden solle
 
 In php : `$ myString = __ ('Mein zu übersetzender Satz', __FILE __);`
 
-In js : ``{% raw %}var myString = '{{Mein Satz, der übersetzt wird}}'{% endraw %}``
+Im JavaScript : ``{% raw %}var myString = '{{Mein Satz, der übersetzt wird}}'{% endraw %}``
 
 Das Übersetzungssystem kümmert sich dann um die Übersetzung und Referenzierung in den JSON-Dateien (`docs / i18n /`) sowie um den Kern ihres Ersatzes in der Schnittstelle.
 

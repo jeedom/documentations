@@ -546,9 +546,55 @@ When we are going to write a daemon, we will very often need external libraries 
 
 Under debian, typically, we will use the apt tool to install the necessary packages and for python, we will use pip.
 
-And to manage this, once again, everything is planned in the Jeedom core to help us. There are 3 prerequisites that we will detail immediately.
+And to manage this, once again, everything is planned in Jeedom's core to help us via two distinct methods:
 
-### Declaration in plugin_info / info.json
+1. The procedural method.  
+   This method was the only method possible with versions of jeedom prior to 4.2
+1. The configuration json file method.  
+   This method appeared with version 4.2 of the core of Jeedom.
+  
+Both methods can be implemented in a single plugin.
+* If both methods are implemented in a plugin:
+  * Cores before 4.2 will use Methone per procedures.
+  * Core 4.2 and later will use the per json config file method.
+* If only the procedural method is implemented in a plugin:
+  * All cores will use this method.
+* If only the json config file method is implemented in a plugin.
+  * The plugin will not be compatible with core versions prior to 4.2
+
+The configuration file method offers several advantages over the procedural version. This method
+should be implemented in all plugins.
+
+The procedural method should only be implemented in plugins that must be compatible with earlier cores
+to version 4.2. The json configuration file method should also be implemented in these plugins.
+
+### The json configuration file method
+There are 2 prerequisites that we will detail right away.
+
+#### Declaration in plugin_info / info.json
+
+Same example as for the declaration of the daemon, you must add the `hasDependency` property and assign the value` true`:
+
+`` ``json
+{
+    "id" : "pluginID",
+    "name" : "pluginName",
+    ...
+    "hasDependency" : true,
+    "hasOwnDeamon" : true,
+    ...
+}
+`` ``
+
+#### Creation of the plugin_info/packages.json file
+
+The syntax of this file will be described here. In the meantime, you will find information in this
+[blog post](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
+
+### The procedural method
+There are 3 prerequisites that we will detail right away.
+
+#### Declaration in plugin_info / info.json
 
 Same example as for the declaration of the daemon, you must add the `hasDependency` property and assign the value` true`:
 
@@ -570,7 +616,7 @@ The `maxDependancyInstallTime` property is the delay in minutes after which the 
 >
 > The installation script will not be interrupted so it may end up successfully completing. This is only the time after which the core no longer waits and no longer displays progress.
 
-### Installing dependencies
+#### Installing dependencies
 
 In your eqLogic class you must add this function if it does not exist. You can copy / paste it as is without modifying anything
 
@@ -656,7 +702,7 @@ A few tips:
 >
 > It is very important to install all the necessary packages and to pay special attention to those which are very often already installed ... but not always. There are frequently problems with the `python3-requests`,` python3-pip` and / or `serial` packages. These are not pre-installed on a basic debian but very often already installed by another plugin ... unless your plugin is the first and in this case your daemon will not start. It happens more often than you might think.
 
-### Know the status
+#### Know the status
 
 ![image](images/dependencies_info.png)
 
