@@ -546,9 +546,55 @@ Lorsque l'on va écrire un démon, on va très souvent avoir besoin de librairie
 
 Sous debian, typiquement, on va utiliser l'outils apt pour installer les paquets nécessaires et pour python, on va utiliser pip.
 
-Et pour gérer cela, encore une fois, tout est prévu dans le core de Jeedom pour nous aider. Il y 3 prérequis qu'on nous allons détailler tout de suite.
+Et pour gérer cela, encore une fois, tout est prévu dans le core de Jeedom pour nous aider via deux méthodes distinctes:
 
-### Déclaration dans plugin_info/info.json
+1. La méthode par procédures.  
+   Cette méthode était la seule méthode possible avec les versions de jeedom antérieures à la 4.2
+1. La méthode par fichier json de configuration.  
+   Cette méthode est apparue avec la version 4.2 du core de Jeedom.
+  
+Les deux méthodes peuvent être implémentées dans un même plugin.
+* Si les deux méthodes sont implémentées dans un plugin:
+  * Les core avant 4.2 utiliseront la méthone par procédures.
+  * Les core 4.2 et suivants utiliseront la méthode par fichier de configuration json.
+* Si seule la méthode par procédures est implémentée dans un plugin:
+  * Tous les core utiliseront cette méthode.
+* Si seule la méthode par fichier de configuration json est implémentée dans un plugin.
+  * Le plugin ne sera pas compatible avec les versions du core antérieures à la 4.2
+
+La méthode par fichier de configuration offre plusieurs avantages par rapport à la version par procédures. Cette méthode
+devrait être implémentée dans tous les plugins.
+
+La méthode par procédures ne devrait être implémentée que dans les plugins devant être compatibles avec les cores antérieurs
+à la version 4.2. La méthode par fichier de configuration json devrait aussi être implémentée dans ces plugins.
+
+### La méthode par fichiers de configuration json
+Il y 2 prérequis que nous allons détailler tout de suite.
+
+#### Déclaration dans plugin_info/info.json
+
+Même exemple que pour la déclaration du démon, il faut rajouter la propriété `hasDependency` et attribuer la valeur `true`:
+
+```json
+{
+    "id" : "pluginID",
+    "name" : "pluginName",
+    ...
+    "hasDependency" : true,
+    "hasOwnDeamon" : true,
+    ...
+}
+```
+
+#### Création du fichiers plugin_info/packages.json
+
+La syntaxe de ce fichier sera décrite ici. En attendant, vous trouverez des information dans cet
+[article du blog](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
+
+### La méthode par procédures
+Il y 3 prérequis que nous allons détailler tout de suite.
+
+#### Déclaration dans plugin_info/info.json
 
 Même exemple que pour la déclaration du démon, il faut rajouter la propriété `hasDependency` et attribuer la valeur `true`:
 
@@ -570,7 +616,7 @@ La propriété `maxDependancyInstallTime` est le délai en minute après lequel 
 >
 > Le script d'installation ne sera pas interrompu donc il se peut que celui-ci finisse par se terminer avec succès. Il s'agit uniquement du délai après lequel le core n'attend plus et n'affiche plus la progression.
 
-### Installation des dépendances
+#### Installation des dépendances
 
 Dans votre classe eqLogic vous devez rajouter cette fonction si elle n'existe pas. Vous pouvez copier/coller celle-ci tel quel sans rien modifier
 
@@ -656,7 +702,7 @@ Quelques conseils:
 >
 > Il est très important d'installer tous les paquets nécessaires et de faire particulièrement attention à ceux qui sont très souvent déjà installés ... mais pas toujours. Il y fréquemment des problèmes avec les paquets `python3-requests`, `python3-pip` et/ou `serial`. Ceux-ci ne sont pas pré-installés sur une debian de base mais très souvent déjà installés par un autre plugin... sauf si votre plugin est le premier et dans ce cas votre démon ne démarrera pas. Cela arrive plus souvent qu'on ne pourrait le croire.
 
-### Connaître le statut
+#### Connaître le statut
 
 ![image](images/dependencies_info.png)
 
