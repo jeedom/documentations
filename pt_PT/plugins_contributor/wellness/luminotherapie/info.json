@@ -1,5 +1,7 @@
 {
 	"id" : "luminotherapie",
+	"description": "Ce plugin permet de gérer et créer vos ambiances Lumineuse / Couleur.",
+	"usage": "Le plugin propose des ambiances lumineuse prédéfini.</BR> Nous avons la possibilité de crée toutes formes d'ambiance lumineuse car il intègre un générateur de signaux de base.</BR> En imbriquant ces signaux de base en séquences, on crée notre simulation.</BR> les ambiance sont exportable pour partager et faire grandir le plugin",
 	"name" : "luminothérapie",
 	"licence" : "AGPL",
 	"author" : "Halbout Michael",

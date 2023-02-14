@@ -1128,6 +1128,8 @@
         "Plugin pour intégrer les équipements Netatmo Energie( Thermostat, Vannes, Thermostat OpenTherm) dans Jeedom": "Plugin to integrate Netatmo Energy equipment (Thermostat, Valves, Thermostat OpenTherm) in Jeedom",
         "Migo Thermostat": "Migo Thermostat",
         "Plugin pour intégrer les équipements MiGo(Saunier-Duval) et eRelax\/Vsmart(Vaillant) dans Jeedom": "Plugin to integrate MiGo(Saunier-Duval) and eRelax\/Vsmart(Vaillant) equipment into Jeedom",
+        "luminothérapie": "light therapy",
+        "Ce plugin permet de gérer et créer vos ambiances Lumineuse \/ Couleur": "This plugin allows you to manage and create your Light \/ Color atmospheres",
         "Gestion Humidité": "Humidity management",
         "Plugin pour la gestion de l'humidité grâce à un humidificateur ou déshumidificateur d'air": "Plugin for humidity management thanks to an air humidifier or dehumidifier",
         "Plugin pilotage des poëles à pellet Heta, AustroFlamm équipés du boitier WiRCU": "Control plugin for Heta, AustroFlamm pellet stoves fitted with the WiRCU box",

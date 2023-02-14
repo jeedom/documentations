@@ -1128,6 +1128,8 @@
         "Plugin pour intégrer les équipements Netatmo Energie( Thermostat, Vannes, Thermostat OpenTherm) dans Jeedom": "Complemento para integrar equipos Netatmo Energy (Termostato, Válvulas, Termostato OpenTherm) en Jeedom",
         "Migo Thermostat": "Migo Termostato",
         "Plugin pour intégrer les équipements MiGo(Saunier-Duval) et eRelax\/Vsmart(Vaillant) dans Jeedom": "Complemento para integrar equipos MiGo (Saunier-Duval) y eRelax\/Vsmart (Vaillant) en Jeedom",
+        "luminothérapie": "terapia de luz",
+        "Ce plugin permet de gérer et créer vos ambiances Lumineuse \/ Couleur": "Este complemento le permite administrar y crear sus atmósferas de Luz \/ Color",
         "Gestion Humidité": "Gestión de la humedad",
         "Plugin pour la gestion de l'humidité grâce à un humidificateur ou déshumidificateur d'air": "Complemento para la gestión de la humedad gracias a un humidificador o deshumidificador de aire",
         "Plugin pilotage des poëles à pellet Heta, AustroFlamm équipés du boitier WiRCU": "Complemento de control para Heta, estufas de pellets AustroFlamm equipadas con la caja WiRCU",

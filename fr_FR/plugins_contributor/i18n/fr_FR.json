@@ -523,6 +523,8 @@
         "Plugin pour intégrer les équipements Netatmo Energie( Thermostat, Vannes, Thermostat OpenTherm) dans Jeedom": "Plugin pour intégrer les équipements Netatmo Energie( Thermostat, Vannes, Thermostat OpenTherm) dans Jeedom",
         "Migo Thermostat": "Migo Thermostat",
         "Plugin pour intégrer les équipements MiGo(Saunier-Duval) et eRelax\/Vsmart(Vaillant) dans Jeedom": "Plugin pour intégrer les équipements MiGo(Saunier-Duval) et eRelax\/Vsmart(Vaillant) dans Jeedom",
+        "luminothérapie": "luminothérapie",
+        "Ce plugin permet de gérer et créer vos ambiances Lumineuse \/ Couleur": "Ce plugin permet de gérer et créer vos ambiances Lumineuse \/ Couleur",
         "Gestion Humidité": "Gestion Humidité",
         "Plugin pour la gestion de l'humidité grâce à un humidificateur ou déshumidificateur d'air": "Plugin pour la gestion de l'humidité grâce à un humidificateur ou déshumidificateur d'air",
         "Heta": "Heta",
