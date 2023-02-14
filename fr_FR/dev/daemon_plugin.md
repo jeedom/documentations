@@ -555,7 +555,7 @@ Et pour gérer cela, encore une fois, tout est prévu dans le core de Jeedom pou
   
 Les deux méthodes peuvent être implémentées dans un même plugin.
 * Si les deux méthodes sont implémentées dans un plugin:
-  * Les core avant 4.2 utiliseront la méthone par procédures.
+  * Les core avant 4.2 utiliseront la méthode par procédures.
   * Les core 4.2 et suivants utiliseront la méthode par fichier de configuration json.
 * Si seule la méthode par procédures est implémentée dans un plugin:
   * Tous les core utiliseront cette méthode.
@@ -568,7 +568,7 @@ devrait être implémentée dans tous les plugins.
 La méthode par procédures ne devrait être implémentée que dans les plugins devant être compatibles avec les cores antérieurs
 à la version 4.2. La méthode par fichier de configuration json devrait aussi être implémentée dans ces plugins.
 
-### La méthode par fichiers de configuration json
+### La méthode par fichier de configuration json
 Il y 2 prérequis que nous allons détailler tout de suite.
 
 #### Déclaration dans plugin_info/info.json
@@ -588,7 +588,7 @@ Même exemple que pour la déclaration du démon, il faut rajouter la propriét�
 
 #### Création du fichiers plugin_info/packages.json
 
-La syntaxe de ce fichier sera décrite ici. En attendant, vous trouverez des information dans cet
+La syntaxe de ce fichier sera décrite ici. En attendant, vous trouverez des informations dans cet
 [article du blog](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
 
 ### La méthode par procédures
