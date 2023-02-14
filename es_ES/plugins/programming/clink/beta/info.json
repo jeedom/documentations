@@ -1,0 +1,46 @@
+{
+    "id": "clink",
+    "name": "Click link",
+    "description": {
+        "fr_FR": "Ce plugin permet la gestion de liens et d’évènements directement sur l’interface Jeedom. Vous pourrez, par exemple, créer une commande qui ouvre une modale (fenêtre de dialogue) avec une vue contenant vos caméras. Cela permet lorsque quelqu’un sonne chez vous d’afficher la caméra de l’entrée sur votre Jeedom.",
+        "en_US": "This plugin allows the management of links and events directly on the Jeedom interface. You can, for example, create a command that opens a modal (dialog window) with a view containing your cameras. This allows when someone rings your doorbell to display the entrance camera on your Jeedom",
+        "es_ES": "Este complemento permite la gestión de enlaces y eventos directamente en la interfaz de Jeedom. Puede, por ejemplo, crear un comando que abra un modal (ventana de diálogo) con una vista que contenga sus cámaras. Esto permite que cuando alguien toca el timbre de la puerta se muestre la cámara de entrada en su Jeedom",
+        "de_DE": "Dieses Plugin ermöglicht die Verwaltung von Links und Ereignissen direkt auf der Jeedom-Oberfläche. Sie können beispielsweise einen Befehl erstellen, der ein Modal (Dialogfenster) mit einer Ansicht öffnet, die Ihre Kameras enthält. Dies ermöglicht es, wenn jemand an Ihrer Tür klingelt, die Eingangskamera auf Ihrem Jeedom anzuzeigen",
+        "pt_PT": "Este plugin permite o gerenciamento de links e eventos diretamente na interface do Jeedom. Você pode, por exemplo, criar um comando que abre um modal (janela de diálogo) com uma visão contendo suas câmeras. Isso permite que quando alguém tocar a campainha, a câmera de entrada do seu Jeedom seja exibida",
+        "ru_RU": "Ce plugin permet la gestion de liens et d’évènements directement sur l’interface Jeedom. Vous pourrez, par exemple, créer une commande qui ouvre une modale (fenêtre de dialogue) avec une vue contenant vos caméras. Cela permet lorsque quelqu’un sonne chez vous d’afficher la caméra de l’entrée sur votre Jeedom",
+        "id_ID": "Ce plugin permet la gestion de liens et d’évènements directement sur l’interface Jeedom. Vous pourrez, par exemple, créer une commande qui ouvre une modale (fenêtre de dialogue) avec une vue contenant vos caméras. Cela permet lorsque quelqu’un sonne chez vous d’afficher la caméra de l’entrée sur votre Jeedom",
+        "it_IT": "Ce plugin permet la gestion de liens et d’évènements directement sur l’interface Jeedom. Vous pourrez, par exemple, créer une commande qui ouvre une modale (fenêtre de dialogue) avec une vue contenant vos caméras. Cela permet lorsque quelqu’un sonne chez vous d’afficher la caméra de l’entrée sur votre Jeedom",
+        "ja_JP": "Ce plugin permet la gestion de liens et d’évènements directement sur l’interface Jeedom. Vous pourrez, par exemple, créer une commande qui ouvre une modale (fenêtre de dialogue) avec une vue contenant vos caméras. Cela permet lorsque quelqu’un sonne chez vous d’afficher la caméra de l’entrée sur votre Jeedom",
+        "tr": "Ce plugin permet la gestion de liens et d’évènements directement sur l’interface Jeedom. Vous pourrez, par exemple, créer une commande qui ouvre une modale (fenêtre de dialogue) avec une vue contenant vos caméras. Cela permet lorsque quelqu’un sonne chez vous d’afficher la caméra de l’entrée sur votre Jeedom"
+    },
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.3.39",
+    "category": "programming",
+    "eventjs": 1,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/clink\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/clink\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/clink\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/programming\/clink\/beta"
+}

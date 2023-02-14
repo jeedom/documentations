@@ -555,9 +555,9 @@
         "Market": "Market",
         "Changelog beta": "Changelog beta",
         "Documentation Stable": "Documentation Stable",
+        "Documentation Beta": "Documentation Beta",
         "Vous pourrez, par exemple, créer une commande qui ouvre une modale (fenêtre de dialogue) avec une vue contenant vos caméras": "Vous pourrez, par exemple, créer une commande qui ouvre une modale (fenêtre de dialogue) avec une vue contenant vos caméras",
         "Changelog Stable": "Changelog Stable",
-        "Documentation Beta": "Documentation Beta",
         "Changelog Beta": "Changelog Beta"
     },
     "plugins\/security\/index.md": {
