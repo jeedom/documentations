@@ -4,10 +4,27 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# XX/12/2022
+# XX/01/2023
 
 **Konfigurationsänderungen**
 
+- Ändern der Konfiguration *Aeotec ZWA24 7in1* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Everspring SM810* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro FGS213* auf Endpunkt 1 wechseln (Firmware >=3.3) und hinzugefügter Wärmesensor und Überstrombenachrichtigung
+- Bearbeiten des Bildes *Aeotec ZWA24 7in1* (Ausschnitt)
+
+**Konfigurationsergänzungen**
+
+- Hinzufügen einer Untereigenschaft *Wärmesensor* im Eigentum *Benachrichtigung*
+
+# 24.12.2022
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Aeotec ZWA008 Türsensor* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Qubino ZMNHLAX PWM-Thermostat* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Qubino ZMNHDA2 Dimmer* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Fibaro FGR-223* Änderung der Endpunkte von *Aktualisierung*
 - Ändern der Konfiguration *Fibaro Fgrgbwm442* um die Eigenschaften zu verwenden
 - Ändern der Konfiguration *Fibaro FGD212* Benachrichtigungseigenschaften hinzugefügt
 - Ändern der Konfiguration *Qubino ZMNHBA2 Unterputz 2 Relais* um die Eigenschaften zu verwenden
@@ -19,6 +36,7 @@
 - Ändern der Konfiguration *Popp Rauchmelder* um die Eigenschaften zu verwenden
 - Ändern der Konfiguration *Duwi Edan 300* um die Eigenschaften zu verwenden
 - Bearbeiten des Bildes *Duwii Dimmer* (Ausschnitt)
+- Bearbeiten des Bildes *Aeotec ZWA008 Türsensor* (Ausschnitt)
 - Bearbeiten des Bildes *Duwii-Schalter* (Ausschnitt)
 - Bearbeiten des Bildes *Duwi Edan 300* (Ausschnitt)
 - Bearbeiten des Bildes *Duwii Jalousiesteuerung* (Ausschnitt)

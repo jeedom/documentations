@@ -4,10 +4,27 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# XX/12/2022
+# XX/01/2023
 
 **Cambios de configuración**
 
+- Cambiar la configuración *Aeotec ZWA24 7en1* para usar las propiedades
+- Cambiar la configuración *Everspring SM810* para usar las propiedades
+- Cambiar la configuración *Fibaro FGS213* cambiar al punto final 1 (firmware >=3.3) y sensor de calor añadido y notificación de sobrecorriente
+- Editando la imagen *Aeotec ZWA24 7en1* (recorte)
+
+**Adiciones de configuración**
+
+- Añadir una subpropiedad *Sensor de calor* en la propiedad *Notificación*
+
+# 24/12/2022
+
+**Cambios de configuración**
+
+- Cambiar la configuración *Sensor de puerta Aeotec ZWA008* para usar las propiedades
+- Cambiar la configuración *Termostato Qubino ZMNHLAX PWM* para usar las propiedades
+- Cambiar la configuración *Atenuador Qubino ZMNHDA2* para usar las propiedades
+- Cambiar la configuración *Fibaro FGR-223* modificación de los puntos finales de *actualizar*
 - Cambiar la configuración *Fibaro Fgrgbwm442* para usar las propiedades
 - Cambiar la configuración *Fibaro FGD212* propiedades de notificación agregadas
 - Cambiar la configuración *Qubino ZMNHBA2 Flush 2 Relés* para usar las propiedades
@@ -19,6 +36,7 @@
 - Cambiar la configuración *Sensor de humo popp* para usar las propiedades
 - Cambiar la configuración *Duwii Edan 300* para usar las propiedades
 - Editando la imagen *Atenuador Duwii* (recorte)
+- Editando la imagen *Sensor de puerta Aeotec ZWA008* (recorte)
 - Editando la imagen *Interruptor Duwii* (recorte)
 - Editando la imagen *Duwii Edan 300* (recorte)
 - Editando la imagen *Control de persianas Duwii* (recorte)

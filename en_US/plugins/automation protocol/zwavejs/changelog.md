@@ -4,10 +4,27 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# XX/12/2022
+# XX/01/2023
 
 **Configuration Changes**
 
+- Changing the configuration *Aeotec ZWA24 7in1* to use the properties
+- Changing the configuration *Everspring SM810* to use the properties
+- Changing the configuration *Fibaro FGS213* switch to endpoint 1 (firmware >=3.3) and added heat sensor and over-current notification
+- Editing the image *Aeotec ZWA24 7in1* (clipping)
+
+**Configuration Additions**
+
+- Adding a sub-property *Heat sensor* in the property *Notification*
+
+# 24/12/2022
+
+**Configuration Changes**
+
+- Changing the configuration *Aeotec ZWA008 Door Sensor* to use the properties
+- Changing the configuration *Qubino ZMNHLAX PWM Thermostat* to use the properties
+- Changing the configuration *Qubino ZMNHDA2 Dimmer* to use the properties
+- Changing the configuration *Fibaro FGR-223* modification of the endpoints of *refresh*
 - Changing the configuration *Fibaro Fgrgbwm442* to use the properties
 - Changing the configuration *Fibaro FGD212* added Notification properties
 - Changing the configuration *Qubino ZMNHBA2 Flush 2 Relays* to use the properties
@@ -19,6 +36,7 @@
 - Changing the configuration *Popp Smoke Sensor* to use the properties
 - Changing the configuration *Duwii Edan 300* to use the properties
 - Editing the image *Duwii Dimmer* (clipping)
+- Editing the image *Aeotec ZWA008 Door Sensor* (clipping)
 - Editing the image *Duwii Switch* (clipping)
 - Editing the image *Duwii Edan 300* (clipping)
 - Editing the image *Duwii Blind Control* (clipping)

@@ -4,10 +4,27 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# XX/12/2022
+# XX/01/2023
 
 **Alterações de configuração**
 
+- Mudando a configuração *Aeotec ZWA24 7 em 1* para usar as propriedades
+- Mudando a configuração *Everspring SM810* para usar as propriedades
+- Mudando a configuração *Fibaro FGS213* mude para o endpoint 1 (firmware >=3.3) e adicionado sensor de calor e notificação de sobrecorrente
+- Editando a imagem *Aeotec ZWA24 7 em 1* (recorte)
+
+**Adições de configuração**
+
+- Adicionando uma subpropriedade *Sensor de calor* na propriedade *Notificação*
+
+# 24/12/2022
+
+**Alterações de configuração**
+
+- Mudando a configuração *Sensor de porta Aeotec ZWA008* para usar as propriedades
+- Mudando a configuração *Qubino ZMNHLAX PWM Termostato* para usar as propriedades
+- Mudando a configuração *Dimmer Qubino ZMNHDA2* para usar as propriedades
+- Mudando a configuração *Fibaro FGR-223* modificação dos pontos finais de *atualizar*
 - Mudando a configuração *Fibaro Fgrgbwm442* para usar as propriedades
 - Mudando a configuração *Fibaro FGD212* propriedades de notificação adicionadas
 - Mudando a configuração *Qubino ZMNHBA2 Flush 2 relés* para usar as propriedades
@@ -19,6 +36,7 @@
 - Mudando a configuração *Popp Sensor de Fumaça* para usar as propriedades
 - Mudando a configuração *Duwii Edan 300* para usar as propriedades
 - Editando a imagem *Duwii Dimmer* (recorte)
+- Editando a imagem *Sensor de porta Aeotec ZWA008* (recorte)
 - Editando a imagem *Interruptor Duwii* (recorte)
 - Editando a imagem *Duwii Edan 300* (recorte)
 - Editando a imagem *Controle Cego Duwii* (recorte)

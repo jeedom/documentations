@@ -4,18 +4,33 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# XX/01/2023
+# 14/02/2023
 
 **Modifications de Configurations**
 
 - Modification de la configuration *Aeotec ZWA24 7in1* pour utiliser les propriétés
 - Modification de la configuration *Everspring SM810* pour utiliser les propriétés
+- Modification de la configuration *Aeotec ZW122* pour utiliser les propriétés
+- Regroupement de configurations *Danfoss Living Connect*
+- Modification de la configuration *Fibaro FGR-223* changement des endpoints power et energy
+- Modification de la configuration *Fibaro FGR-223* rajout de notification hardware et over-current
 - Modification de la configuration *Fibaro FGS213* passage à l'endpoint 1 (firmware >=3.3) et ajout de notification heat sensor et over-current
 - Modification de l'image *Aeotec ZWA24 7in1* (détourage)
+- Modification d'une propriété *Velocity*
+- Modification de l'image *Dlink 510* (détourage)
+- Modification de l'image *Fibaro Fgs-213* (détourage)
+- Modification de l'image *Fibaro Fgs-221* (détourage)
+- Modification de l'image *Fibaro Fgs-223* (détourage)
+- Modification de l'image *Fibaro Wall Plug* (détourage)
+- Modification de l'image *Fibaro Wall Plug GEN5* (détourage)
 
 **Ajouts de Configurations**
 
 - Ajout d'une sous-propriété *Heat-Sensor* dans la propriété *Notification*
+- Ajout de la configuration *U-Fairy GR-201N* (propriétés : Switch)
+- Ajout de la configuration *Danfoss Boiler Relay* (propriétés : Switch)
+- Ajout de la configuration *Benext Alarm Sound* (propriétés : Switch)
+
 
 # 24/12/2022
 

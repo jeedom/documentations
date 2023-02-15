@@ -1,31 +1,14 @@
 {
-	"id" : "autoconso",
-	"name" : "Autoconsommation",
-	"description" : {
-		"fr_FR": "Plugin pour allumer et etteindre des autres équipements Jeedom afin d'optimiser l'autoconsommation électrique (dans le cas d'une installation photovoltaïque)",
-		"en_US": "Plugin to turn on and off other Jeedom equipments in order to optimise electrical auto-consumption (in case of solar power plan)"
-	},
+	"id" : "luminotherapie",
+	"description": "Ce plugin permet de gérer et créer vos ambiances Lumineuse / Couleur.",
+	"usage": "Le plugin propose des ambiances lumineuse prédéfini.</BR> Nous avons la possibilité de crée toutes formes d'ambiance lumineuse car il intègre un générateur de signaux de base.</BR> En imbriquant ces signaux de base en séquences, on crée notre simulation.</BR> les ambiance sont exportable pour partager et faire grandir le plugin",
+	"name" : "luminothérapie",
 	"licence" : "AGPL",
-	"author" : "bwibwi13",
-	"require" : "3.3.39",
-	"category" : "energy",
-	"documentation" : "https://bwibwi13.github.io/plugin-autoconso/#language#",
-	"changelog" : "https://bwibwi13.github.io/plugin-autoconso/#language#/changelog",
-	"language": [
-		"fr_FR",
-		"en_US"
-	],
-	"compatibility": [
-		"miniplus",
-		"smart",
-		"rpi",
-		"docker",
-		"diy",
-		"mobile",
-		"v4",
-		"atlas"
-	],
-	"hasDependency" : false,
-	"hasOwnDeamon" : false,
-	"issue": "https://github.com/bwibwi13/plugin-ModbusFlex/issues"
+	"author" : "Halbout Michael",
+	"require" : "3.0",
+	"category" : "wellness",
+	"hasOwnDeamon" : true,
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+ 	"documentation" : "https://mika-nt28.github.io/Documentations/luminotherapie/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/luminotherapie/#language#/changelog"
 }
