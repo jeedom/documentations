@@ -4,6 +4,10 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 02/15/2023
+
+- Improvement of the orders page (addition of the status)
+
 # 10/11/2022
 
 - Bug fix
