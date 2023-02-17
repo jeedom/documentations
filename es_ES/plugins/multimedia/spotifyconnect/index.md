@@ -53,7 +53,10 @@ Los equipos **Spotify Connect** no tienen parámetros específicos excepto para 
 
 Para este equipo, por lo tanto, será necesario ingresar su dirección IP después de asegurarse de haber ingresado correctamente las cookies esperadas en la configuración del complemento (ver párrafo **Caso especial de Chromecast**).
 
-Para el comando de reproducción de la lista de reproducción, debe poner el nombre de una de sus listas de reproducción opcionales. Lo único posible es poner "aleatorio" para la reproducción aleatoria
+El equipo tiene dos controles para reproducir listas de reproducción : "reproducir lista de reproducción "y" reproducir URI" :
+
+- Play Playlist permite que el equipo reproduzca una lista de reproducción de su biblioteca personal. El pedido consta de dos partes : el título de la lista de reproducción deseada (coloque el nombre exacto allí sin comillas) y la opción (solo se tiene en cuenta el aleatorio para reproducir las canciones de forma aleatoria).
+- Play Playlist URI permite que el equipo reproduzca una lista de reproducción, un artista o una canción disponible en Spotify gracias a su URI (un código único vinculado a este elemento). Para encontrarlo debes en la interfaz web de Spotify hacer clic derecho en el elemento deseado (pista, artista, lista de reproducción ...), seleccionar "compartir", mantener presionada la tecla Ctrl (Windows) o Alt (MAC) y luego "Copiar URI de Spotify". Pegue la línea obtenida en el cuadro URI del comando.
 
 >**IMPORTANTE**
 >

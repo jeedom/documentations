@@ -53,7 +53,10 @@ Ausrüstungen **Spotify Connect** haben keine spezifischen Parameter außer für
 
 Für dieses Gerät muss daher die IP-Adresse eingegeben werden, nachdem sichergestellt wurde, dass die in der Konfiguration des Plugins erwarteten Cookies korrekt eingegeben wurden (siehe Abschnitt) **Sonderfall von Chromecast**).
 
-Für den Playlist-Wiedergabebefehl müssen Sie den Namen einer Ihrer optionalen Playlists eingeben. Die einzige Möglichkeit besteht darin, "zufällig" für die zufällige Wiedergabe einzustellen
+Das Gerät verfügt über zwei Bedienelemente zum Abspielen von Playlists : "Playlist abspielen "und" URI abspielen" :
+
+- Play Playlist ermöglicht es dem Gerät, eine Playlist aus Ihrer persönlichen Bibliothek abzuspielen. Die Bestellung besteht aus zwei Teilen : den Titel der gewünschten Plaliste (setzen Sie dort den genauen Namen ohne Anführungszeichen) und Option (nur Zufall wird berücksichtigt, um die Lieder zufällig abzuspielen).
+- Play Playlist URI ermöglicht es dem Gerät, eine auf Spotify verfügbare Playlist, einen Künstler oder ein Lied dank seiner URI (einem einzigartigen Code, der mit diesem Element verknüpft ist) abzuspielen). Um es zu finden, müssen Sie auf der Spotify-Weboberfläche mit der rechten Maustaste auf das gewünschte Element (Track, Interpret, Playlist ...) klicken, "Teilen" auswählen, Strg (Windows) oder Alt (MAC) gedrückt halten und dann "Spotify-URI kopieren"". Fügen Sie die erhaltene Zeile in das URI-Feld des Befehls ein.
 
 >**WICHTIG**
 >
