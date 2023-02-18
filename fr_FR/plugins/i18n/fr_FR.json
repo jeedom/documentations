@@ -95,8 +95,8 @@
         "ce plugin ne fonctionne qu'avec des équipements possédant une commande action\/curseur permettant de positionner le volet à un certain pourcentage d'ouverture\/fermeture": "ce plugin ne fonctionne qu'avec des équipements possédant une commande action\/curseur permettant de positionner le volet à un certain pourcentage d'ouverture\/fermeture",
         "Gestion Volets": "Gestion Volets",
         "Ce plugin va vous permettre de gérer facilement le positionnement automatique de vos volets en fonction du soleil et\/ou d'autres conditions": "Ce plugin va vous permettre de gérer facilement le positionnement automatique de vos volets en fonction du soleil et\/ou d'autres conditions",
-        "Plugin permettant la gestion des lumières": "Plugin permettant la gestion des lumières",
         "Gestion Lumières": "Gestion Lumières",
+        "Plugin permettant la gestion des lumières": "Plugin permettant la gestion des lumières",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins officiels ont leur documentation ici": "Seuls les plugins officiels ont leur documentation ici",
         "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom": "Vous pouvez consulter les documentations des autres plugins directement depuis le Market Jeedom",
@@ -104,13 +104,13 @@
         "ici": "ici",
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
-        "Documentation beta": "Documentation beta",
-        "Market": "Market",
-        "Changelog beta": "Changelog beta",
         "Documentation Stable": "Documentation Stable",
         "Documentation Beta": "Documentation Beta",
+        "Market": "Market",
         "Changelog Stable": "Changelog Stable",
-        "Changelog Beta": "Changelog Beta"
+        "Changelog Beta": "Changelog Beta",
+        "Documentation beta": "Documentation beta",
+        "Changelog beta": "Changelog beta"
     },
     "plugins\/communication\/index.md": {
         "Compatible uniquement avec le DNS Jeedom pour le moment": "Compatible uniquement avec le DNS Jeedom pour le moment",

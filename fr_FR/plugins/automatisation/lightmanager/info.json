@@ -1,0 +1,49 @@
+{
+    "id": "lightmanager",
+    "name": "Gestion Lumières",
+    "description": {
+        "fr_FR": "Plugin permettant la gestion des lumières",
+        "en_US": "Plugin for managing lights",
+        "es_ES": "Complemento para administrar luces",
+        "de_DE": "Plugin zum Verwalten von Lichtern",
+        "ru_RU": "Plugin permettant la gestion des lumières",
+        "id_ID": "Plugin permettant la gestion des lumières",
+        "it_IT": "Plugin permettant la gestion des lumières",
+        "ja_JP": "Plugin permettant la gestion des lumières",
+        "pt_PT": "Plugin para gerenciar luzes",
+        "tr": "Plugin permettant la gestion des lumières"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.0",
+    "category": "automatisation",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automatisation\/lightmanager\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automatisation\/lightmanager\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automatisation\/lightmanager\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automatisation\/lightmanager\/beta"
+}
