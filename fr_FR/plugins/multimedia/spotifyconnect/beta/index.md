@@ -45,6 +45,10 @@ Spotify n'autorisant pas les application tierces à lancer une lecture sur un é
 
 >**IMPORTANT**
 >
+>Cette fonction n'est ni autorisée par Spotify ni documentée par Google, elle ne peut donc etre officiellement supporté par Jeedom SAS. Elle marche chez moins de 50% des utilisateurs (dépend de parametre externe que l'on arrive malheureusement pas a definir).
+
+>**IMPORTANT**
+>
 >Ces cookies sont propres à chaque utilisateur. Il faudra donc répéter l'opération pour chacun d'eux en se connectant à chaque fois au compte Spotify concerné.
 
 ## Configuration des équipements

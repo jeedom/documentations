@@ -45,6 +45,10 @@ Spotify does not allow third-party applications to play on a Chromecast device, 
 
 >**IMPORTANT**
 >
+>This function is neither authorized by Spotify nor documented by Google, so it cannot be officially supported by Jeedom SAS. It works for less than 50% of users (depends on external parameter that we unfortunately cannot define).
+
+>**IMPORTANT**
+>
 >These cookies are specific to each user. It will therefore be necessary to repeat the operation for each of them by connecting each time to the Spotify account concerned.
 
 ## Equipment configuration

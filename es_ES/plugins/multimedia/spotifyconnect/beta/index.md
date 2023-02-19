@@ -45,6 +45,10 @@ Spotify no permite que las aplicaciones de terceros se reproduzcan en un disposi
 
 >**IMPORTANTE**
 >
+>Esta función no está autorizada por Spotify ni documentada por Google, por lo que no puede ser admitida oficialmente por Jeedom SAS. Funciona para menos del 50% de los usuarios (depende de un parámetro externo que lamentablemente no podemos definir)).
+
+>**IMPORTANTE**
+>
 >Estas cookies son específicas de cada usuario. Por tanto, será necesario repetir la operación para cada uno de ellos conectándose cada vez a la cuenta de Spotify correspondiente.
 
 ## Configuración del equipo
