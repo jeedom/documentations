@@ -82,10 +82,11 @@ jeedomUtils.setCheckContextMenu(checkContextMenuCallback)
 
 ### initDataTables() 
 
-*jeedomUtils.initDataTables(_paging, _searching)*  
+*jeedomUtils.initDataTables(_paging, _searching, _selector)*  
 
-- _paging : Boolean : Active la pagination.  
-- _searching : Boolean : Active la recherche.
+- _paging : Boolean default false: Active la pagination.  
+- _searching : Boolean default false: Active la recherche.  
+- _selector : String default 'body': Limite la recherche à un élément parent. Permet de ne pas réinitialiser les dataTables de la page en appelant la fonction depuis une boite de dialogue.
 
 Initialise les tables *table.dataTable* avec la lib *DataTable* (lib basée sur DataTable et améliorée par Jeedom).
 
