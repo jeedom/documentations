@@ -9,6 +9,10 @@ Quieres contribuir al desarrollo del Jeedom Core ?
 
 Estos son los conceptos básicos que debe conocer :
 
+> Antes de enviar un PR, actualice su alfa para verificar que el error aún no se haya solucionado. Y sincroniza tu github.
+
+> Verifique que lo que solucionó no cause otros errores. La mayoría de las funciones principales son llamadas por diferentes páginas frontales o por otras funciones principales y por complementos. Realice una búsqueda en el Core para ver/comprender dónde se utilizan las funciones y, en caso de duda, exponga la inquietud y su corrección en [Comunidad](https://community.jeedom.com/).
+
 ## Ramas de Github
 
 Para participar en el desarrollo de Jeedom, debes tener una cuenta [Github](https://github.com/).

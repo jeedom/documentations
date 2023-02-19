@@ -9,6 +9,10 @@ Sie möchten zur Entwicklung des Jeedom Core beitragen ?
 
 Hier sind die Grundlagen zu wissen :
 
+> Bevor Sie eine PR einreichen, aktualisieren Sie Ihre Alpha, um sicherzustellen, dass der Fehler nicht bereits behoben wurde. Und synchronisieren Sie Ihren Github.
+
+> Überprüfen Sie, ob das, was Sie behoben haben, keine anderen Fehler verursacht. Die meisten Core-Funktionen werden von verschiedenen Front-End-Seiten oder von anderen Core-Funktionen und von Plugins aufgerufen. Führen Sie eine Suche im Kern durch, um zu sehen/zu verstehen, wo die Funktionen verwendet werden, und decken Sie im Zweifelsfall die Bedenken und Ihre Korrektur auf [Gemeinschaft](https://community.jeedom.com/).
+
 ## Github-Zweige
 
 Um an der Entwicklung von Jeedom teilnehmen zu können, müssen Sie einen Account haben [Github](https://github.com/).
