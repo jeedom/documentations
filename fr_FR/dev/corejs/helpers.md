@@ -8,9 +8,10 @@ Les *helpers* Sont des fonctions du Core prête à l'emploi qui peuvent être ap
 
 *jeedomUtils.initTooltips(_el)*
 
+_el : HTMLelement default document : un HTMLelement sur lequel initialiser les tooltips.
+
 Initialise les tooltips en recherchant les éléments html avec un attribut *title*, avec la lib [tippy](https://atomiks.github.io/tippyjs/)
 
-Arguments faculatif : un HTMLelement sur lequel initialiser les tooltips.
 
 
 ### initSpinners() 
@@ -23,6 +24,9 @@ Initialise des spinners en recherchant sur la page les *input[type="number"].isp
 ### datePickerInit()
 
 *jeedomUtils.datePickerInit(_format, _selector)*
+
+- _format : String default 'Y-m-d'.  
+- _selector : String default 'input.in_datepicker'.  
 
 Initialise les inputs *input.in_datepicker* avec la lib [flatpick](https://flatpickr.js.org/)
 
@@ -39,6 +43,8 @@ flatpickr(_input, {
 ### dateTimePickerInit()
 
 *jeedomUtils.dateTimePickerInit(_step) *
+
+- _step : Number default 5: Pas de la sélection des minutes.  
 
 Initialise les inputs *input.in_timepicker* ou *input.isdatepicker* avec la lib [flatpick](https://flatpickr.js.org/)
 
