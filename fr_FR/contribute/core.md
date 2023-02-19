@@ -9,6 +9,10 @@ Vous souhaitez contribuer au développement du Core de Jeedom ?
 
 Voici les notions de bases à connaître :
 
+> Avant de proposer un PR, mettez à jour votre alpha pour vérifier que le bug n'a pas déjà été corrigé. Et synchronisez votre github.
+
+> Vérifiez que ce que vous corrigé ne cause pas d'autres bugs. La plupart des fonctions du Core sont appellées par différentes page du Front-End ou par d'autres fonctions du Core, et par les plugins. Faites une recherche sur le Core pour voir/comprendre où les fonctions sont utilisées, et dans le doute, exposez le soucis et votre correction sur [Community](https://community.jeedom.com/).
+
 ## Branches Github
 
 Pour participer au développement de Jeedom, vous devez avoir un compte [Github](https://github.com/).
