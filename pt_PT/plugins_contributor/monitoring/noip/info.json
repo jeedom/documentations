@@ -1,0 +1,35 @@
+{
+    "id": "noip",
+    "name": "No-Ip Renew",
+    "description": {
+        "fr_FR": "Ce plugin permet de renouveler automatiquement vos noms de domaines gratuits no-ip.com (opération à faire tous les 30 jours manuellement sinon).",
+        "en_US": "This plugin allows to automatically renew your free no-ip.com domain names (oepration to manually perform every 30 days instead)."
+    },
+    "utilization": "Ajoutez un compte no-ip.com , puis cliquez sur Scanner pour récupérer vos noms de domaines.",
+    "licence": "AGPL",
+    "author": "tomitomas",
+    "require": "4.0.62",
+    "category": "monitoring",
+    "hasDependency": true,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 45,
+    "changelog": "https://tomitomas.github.io/jeedom_doc/NoIp/fr_FR/changelog",
+    "changelog_beta": "https://tomitomas.github.io/jeedom_doc/NoIp/fr_FR/changelog_beta",
+    "documentation": "https://tomitomas.github.io/jeedom_doc/NoIp/fr_FR/",
+    "documentation_beta": "https://tomitomas.github.io/jeedom_doc/NoIp/fr_FR/",
+    "link": {
+        "forum": "https://community.jeedom.com/t/plugin-noip-actualites/102075"
+    },
+    "language": [
+        "fr_FR",
+        "en_US"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "v4"
+    ]
+}
