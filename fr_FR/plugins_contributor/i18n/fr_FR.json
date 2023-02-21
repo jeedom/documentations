@@ -115,6 +115,8 @@
         "Pilote de nombreux périphériques wifi en local avec internet coupé": "Pilote de nombreux périphériques wifi en local avec internet coupé",
         "Wall": "Wall",
         "Plugin pour la gestion des tablettes": "Plugin pour la gestion des tablettes",
+        "VeSync": "VeSync",
+        "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API VeSync": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API VeSync",
         "Pas d'abonnement, pas de frais supplémentaires": "Pas d'abonnement, pas de frais supplémentaires",
         "Tesla": "Tesla",
         "Plugin pour monitorer une Tesla": "Plugin pour monitorer une Tesla",
