@@ -6,6 +6,13 @@
 >
 >Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 21.02.2023
+
+- SD-Partitionierung.
+- Lora-Aktivierung für Luna mit integriertem Lora (Pro).
+- Beheben Sie das Localhost-Problem auf der Box.
+
+
 # 19.11.2022
 
 - SD (Verwaltung)

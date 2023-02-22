@@ -6,6 +6,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 21/02/2023
+
+- Partitionnage SD.
+- Activation Lora pour les Luna avec Lora integré (Pro).
+- Fix souci de Localhost sur la box.
+
+
 # 19/11/2022
 
 - SD (gestion)
