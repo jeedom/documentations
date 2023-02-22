@@ -1,35 +1,30 @@
 {
-    "id": "noip",
-    "name": "No-Ip Renew",
-    "description": {
-        "fr_FR": "Ce plugin permet de renouveler automatiquement vos noms de domaines gratuits no-ip.com (opération à faire tous les 30 jours manuellement sinon).",
-        "en_US": "This plugin allows to automatically renew your free no-ip.com domain names (oepration to manually perform every 30 days instead)."
-    },
-    "utilization": "Ajoutez un compte no-ip.com , puis cliquez sur Scanner pour récupérer vos noms de domaines.",
-    "licence": "AGPL",
-    "author": "tomitomas",
-    "require": "4.0.62",
-    "category": "monitoring",
-    "hasDependency": true,
-    "hasOwnDeamon": false,
-    "maxDependancyInstallTime": 45,
-    "changelog": "https://tomitomas.github.io/jeedom_doc/NoIp/fr_FR/changelog",
-    "changelog_beta": "https://tomitomas.github.io/jeedom_doc/NoIp/fr_FR/changelog_beta",
-    "documentation": "https://tomitomas.github.io/jeedom_doc/NoIp/fr_FR/",
-    "documentation_beta": "https://tomitomas.github.io/jeedom_doc/NoIp/fr_FR/",
-    "link": {
-        "forum": "https://community.jeedom.com/t/plugin-noip-actualites/102075"
-    },
-    "language": [
-        "fr_FR",
-        "en_US"
-    ],
-    "compatibility": [
-        "miniplus",
-        "smart",
-        "rpi",
-        "docker",
-        "diy",
-        "v4"
-    ]
+	"id" : "wifilightV2",
+	"name" : "wifilightV2",
+	"description" : {
+        "fr_FR": "Pilote de nombreux périphériques wifi en local avec internet coupé : lampes, leds, prises, interrupteurs, thermostat, de marques diverses. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consulter la documentation pour connaitre la liste exacte des matériels compatibles.",
+        "en_US": "Control many wifi devices locally with no internet : lamps, LEDs, sockets, switches, thermostat, of various brands. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee i.e. SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consult the documentation for the exact list of compatible equipment.",
+        "es_ES": "Pilota muchos dispositivos wifi localmente con corte de internet: lámparas, LED, enchufes, interruptores, termostato, de varias marcas. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consulte la documentación para obtener la lista exacta de equipos compatibles.",
+		"de_DE" : "Steuern Sie viele lokale Wifi-Geräte mit Internet-Cut: Lampen, LEDs, Steckdosen, Schalter, Thermostate verschiedener Marken. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee einschließlich SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi usw. Die genaue Liste der kompatiblen Geräte finden Sie in der Dokumentation."
+	},
+	"licence" : "AGPL",
+	"author" : "Bernard Caron",
+	"require" : "4.0",
+	"category" : "devicecommunication",
+	"hasDependency": false,
+	"hasOwnDeamon" : true,
+	"whiteListFolders": [
+		"/data"
+	],
+	"link" : {
+		"forum":"https://community.jeedom.com/t/plugin-wifilightv2-discussion-generale/2439"
+	},
+	"changelog" : "https://bcaro.github.io/wifilightV2-doc/#language#/changelog",
+    "documentation" : "https://bcaro.github.io/wifilightV2-doc/#language#/",
+	"changelog_beta" : "https://bcaro.github.io/wifilightV2-doc/#language#/changelog",
+    "documentation_beta" : "https://bcaro.github.io/wifilightV2-doc/#language#/",
+	"language" : ["fr_FR","en_US","sp_SP","de_DE"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","atlas"]
 }
+
+
