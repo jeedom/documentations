@@ -10,23 +10,23 @@ Después de instalar el complemento, solo necesita activarlo :
 
 ![mobile1](../images/mobile1.png)
 
-****
+**Configuración**
 
 Para configurar el complemento, debe agregar los teléfonos que podrán acceder a Jeedom.
 
-Para agregar un teléfono : ****  ****  **App
-Mobile**  ****
+Para agregar un teléfono : **Plugins** → **Comunicación** → **App
+Mobile** → **Añadir**
 
 ![mobile2](../images/mobile2.png)
 
 Aquí están los parámetros para ingresar :
 
 -   **Nombre del equipo móvil** : Nombre del teléfono
--   **** : Habilitar el acceso para este móvil
+-   **Activar** : Habilitar el acceso para este móvil
 -   **Tipo de móvil** : Selección del sistema operativo del teléfono (iOS, Android)
--   **** : Usuario asociado con este acceso
+-   **Usuario** : Usuario asociado con este acceso
 
-> ****
+> **Punta**
 >
 > La elección del usuario es importante porque determina el equipo al que tendrá acceso de acuerdo con sus derechos.
 
@@ -52,13 +52,13 @@ Al hacer clic en una parte, puede autorizarla o no para que esté presente en la
 
 Encontrará las aplicaciones en las persianas móviles :
 
-****
+**Android Google Play**
 
 ![Google Play FR](../images/Google_Play_FR.png)
 
-****
+**Apple App Store**
 
-![ Store FR](../images/App_Store_FR.png)
+![App Store FR](../images/App_Store_FR.png)
 
 ## Primer lanzamiento de la aplicación
 
@@ -121,88 +121,88 @@ Mejor que las palabras, aquí hay un ejemplo de los créditos genéricos para un
 
 ### Las luces
 
-                           | Tipo genérico               | Parte del complemento de desarrollo            |           |
+Imagen                           | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![LIGHT](../images/LIGHT_1.jpg) | `Lumière Bouton On`<br/>`Botón apagado luz` | <br/>| presencia de dos botones "ON" y "Off" sin retroalimentación de estado. |
-![LIGHT](../images/LIGHT_2.jpg) | `Lumière Bouton On`<br/>`Botón apagado luz`<br/>`State Light` | <br/><br/> | Comentarios de estado presentes, el botón izquierdo alterna entre encendido y apagado |
-![LIGHT](../images/LIGHT_2.jpg) | `Lumière Bouton Toggle`<br/>`State Light` | <br/> | Comentarios de estado presentes, el botón izquierdo alterna entre encendido y apagado |
-![LIGHT](../images/LIGHT_3.jpg) | `Lumière Bouton On`<br/>`Botón apagado luz`<br/>`State Light`<br/>`Light Slider` | <br/><br/><br/> | Estado de retroalimentación presente, el botón izquierdo permite cambiar entre Encendido y Apagado y el control deslizante permite controlar la intensidad |
-![LIGHT](../images/LIGHT_4.jpg) | `Lumière Bouton On`<br/>`Botón apagado luz`<br/>`State Light`<br/>`Light Slider`<br/>`Color claro (información)`<br/>`Color claro (acción)`<br/>`Modo de luz` (opcional, se utiliza para tener modos de luz, por ejemplo, arco iris en Hue philips) | <br/><br/><br/><br/><br/><br/> | Estado de retroalimentación presente, el botón izquierdo permite cambiar entre Encendido y Apagado y el control deslizante permite controlar la intensidad. En el círculo, el color de la lámpara está presente y, al hacer clic en él, puede cambiar el color y activar un modo |
+![LIGHT](../images/LIGHT_1.jpg) | `Lumière Bouton On`<br/>`Botón apagado luz` | `LIGHT_ON`<br/>`LIGHT_OFF`| presencia de dos botones "ON" y "Off" sin retroalimentación de estado. |
+![LIGHT](../images/LIGHT_2.jpg) | `Lumière Bouton On`<br/>`Botón apagado luz`<br/>`State Light` | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE` | Comentarios de estado presentes, el botón izquierdo alterna entre encendido y apagado |
+![LIGHT](../images/LIGHT_2.jpg) | `Lumière Bouton Toggle`<br/>`State Light` | `LIGHT_TOGGLE`<br/>`LIGHT_STATE` | Comentarios de estado presentes, el botón izquierdo alterna entre encendido y apagado |
+![LIGHT](../images/LIGHT_3.jpg) | `Lumière Bouton On`<br/>`Botón apagado luz`<br/>`State Light`<br/>`Light Slider` | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER` | Estado de retroalimentación presente, el botón izquierdo permite cambiar entre Encendido y Apagado y el control deslizante permite controlar la intensidad |
+![LIGHT](../images/LIGHT_4.jpg) | `Lumière Bouton On`<br/>`Botón apagado luz`<br/>`State Light`<br/>`Light Slider`<br/>`Color claro (información)`<br/>`Color claro (acción)`<br/>`Modo de luz` (opcional, se utiliza para tener modos de luz, por ejemplo, arco iris en Hue philips) | `LIGHT_ON`<br/>`LIGHT_OFF`<br/>`LIGHT_STATE`<br/>`LIGHT_SLIDER`<br/>`LIGHT_COLOR`<br/>`LIGHT_SET_COLOR`<br/>`LIGHT_MODE` | Estado de retroalimentación presente, el botón izquierdo permite cambiar entre Encendido y Apagado y el control deslizante permite controlar la intensidad. En el círculo, el color de la lámpara está presente y, al hacer clic en él, puede cambiar el color y activar un modo |
 
 ### Los enchufes
 
-                           | Tipo genérico               | Parte del complemento de desarrollo            |           |
+Imagen                           | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![ENERGY](../images/ENERGY_1.jpg) | `Prise Bouton On`<br/>`Toma de botón apagado`| <br/>| presencia de dos botones "ON" y "Off" sin retroalimentación de estado. |
-![ENERGY](../images/ENERGY_2.jpg) | `Prise Bouton On`<br/>`Toma de botón apagado`<br/>`Toma de estado` | <br/><br/> | Comentarios de estado presentes, el botón izquierdo alterna entre encendido y apagado |
-![ENERGY](../images/ENERGY_3.jpg) | `Prise Bouton On`<br/>`Toma de botón apagado`<br/>`Toma de estado`<br/>`Toma deslizante` | <br/><br/><br/> | Estado de retroalimentación presente, el botón izquierdo permite cambiar entre Encendido y Apagado y el control deslizante permite controlar la intensidad |
+![ENERGY](../images/ENERGY_1.jpg) | `Prise Bouton On`<br/>`Toma de botón apagado`| `ENERGY_ON`<br/>`ENERGY_OFF`| presencia de dos botones "ON" y "Off" sin retroalimentación de estado. |
+![ENERGY](../images/ENERGY_2.jpg) | `Prise Bouton On`<br/>`Toma de botón apagado`<br/>`Toma de estado` | `ENERGY_ON`<br/>`ENERGY_OFF`<br/>`ENERGY_STATE` | Comentarios de estado presentes, el botón izquierdo alterna entre encendido y apagado |
+![ENERGY](../images/ENERGY_3.jpg) | `Prise Bouton On`<br/>`Toma de botón apagado`<br/>`Toma de estado`<br/>`Toma deslizante` | `ENERGY_ON`<br/>`ENERGY_OFF`<br/>`ENERGY_STATE`<br/>`ENERGY_SLIDER` | Estado de retroalimentación presente, el botón izquierdo permite cambiar entre Encendido y Apagado y el control deslizante permite controlar la intensidad |
 
 ### Los boletos
 
-                           | Tipo genérico               | Parte del complemento de desarrollo            |           |
+Imagen                           | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![FLAP](../images/FLAP_1.jpg)   | `Volet Bouton Monter`<br/>`Panel de botones hacia abajo`<br/>`Panel de botones de parada`<br/>`Panel de estado` (opcional) | <br/><br/><br/>`FLAP_STATE` (opcional) | Presencia de tres botones "Arriba", "Abajo", "Detener", retroalimentación de estado opcional. |
-![FLAP](../images/FLAP_2.jpg)   | `Volet Bouton Monter`<br/>`Panel de botones hacia abajo`<br/>`Panel de botones de parada`<br/>`Panel de estado`<br/>`Panel del botón deslizante` | <br/><br/><br/><br/> | Presencia de un control deslizante, con un botón Arriba / Abajo en Toggle (con icono de estado) |
+![FLAP](../images/FLAP_1.jpg)   | `Volet Bouton Monter`<br/>`Panel de botones hacia abajo`<br/>`Panel de botones de parada`<br/>`Panel de estado` (opcional) | `FLAP_UP`<br/>`FLAP_DOWN`<br/>`FLAP_STOP`<br/>`FLAP_STATE` (opcional) | Presencia de tres botones "Arriba", "Abajo", "Detener", retroalimentación de estado opcional. |
+![FLAP](../images/FLAP_2.jpg)   | `Volet Bouton Monter`<br/>`Panel de botones hacia abajo`<br/>`Panel de botones de parada`<br/>`Panel de estado`<br/>`Panel del botón deslizante` | `FLAP_UP`<br/>`FLAP_DOWN`<br/>`FLAP_STOP`<br/>`FLAP_STATE`<br/>`FLAP_SLIDER` | Presencia de un control deslizante, con un botón Arriba / Abajo en Toggle (con icono de estado) |
 
 ### Inondation
 
-                           | Tipo genérico               | Parte del complemento de desarrollo            |           |
+Imagen                           | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
 ![FLOOD](../images/FLOOD.jpg)   | `Innondation`<br/>`TEMPERATURA` (opcional)<br/>`Humedad` (opcional)<br/>`SABOTAGE` (opcional)|`FLOOD`<br/>`TEMPERATURA` (opcional)<br/>`HUMEDAD` (opcional)<br/>`HUMEDAD` (opcional) | Le permite tener su sensor de inundación completo en una sola línea.
 
 ### Serrure
 
-                         | Tipo genérico               | Parte del complemento de desarrollo            |           |
+Imagen                         | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :---------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![LOCK](../images/LOCK.jpg)   | ` Etat`<br/>`Bloqueo de botón abierto`<br/>`Cerrar el botón de bloqueo` | <br/><br/> | Comentarios de estado presentes, el botón izquierdo alterna entre encendido y apagado |
+![LOCK](../images/LOCK.jpg)   | `Bloquear Etat`<br/>`Bloqueo de botón abierto`<br/>`Cerrar el botón de bloqueo` | `LOCK_STATE`<br/>`LOCK_OPEN`<br/>`LOCK_CLOSE` | Comentarios de estado presentes, el botón izquierdo alterna entre encendido y apagado |
 
 ### Sirena
 
-                         | Tipo genérico               | Parte del complemento de desarrollo            |           |
+Imagen                         | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :---------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![SIREN](../images/SIREN.jpg)   | `Sirena Etat`<br/>`Siren Button On`<br/>`Siren Button Off` | <br/><br/> | Comentarios de estado presentes, el botón izquierdo alterna entre encendido y apagado |
+![SIREN](../images/SIREN.jpg)   | `Sirena Etat`<br/>`Siren Button On`<br/>`Siren Button Off` | `SIREN_STATE`<br/>`SIREN_ON`<br/>`SIREN_OFF` | Comentarios de estado presentes, el botón izquierdo alterna entre encendido y apagado |
 
 ### Humo
 
-                           | Tipo genérico               | Parte del complemento de desarrollo            |           |
+Imagen                           | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-----------------------------: | :--------------------------- | :--------------------------- | :------------------: |
 ![SMOKE](../images/SMOKE.jpg)   | `Humo`<br/>`TEMPERATURA` (opcional)|`SMOKE`<br/>`TEMPERATURA` (opcional) | Le permite tener su sensor de humo completo en una sola línea.
 
 ### Temperatura
 
-                                       | Tipo genérico               | Parte del complemento de desarrollo            |           |
+Imagen                                       | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-----------------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
 ![TEMPERATURE](../images/TEMPERATURE.jpg)   | `Temperatura`<br/>`Humedad` (opcional)|`TEMPERATURE`<br/>`HUMEDAD` (opcional) | Ver foto.
 
 ### Presencia
 
-                                 | Tipo genérico               | Parte del complemento de desarrollo            |           |
+Imagen                                 | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-----------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
 ![PRESENCE](../images/PRESENCE.jpg)   | `Presencia`<br/>`TEMPERATURA` (opcional)<br/>`Brillo` (opcional)<br/>`Humedad` (opcional)<br/>`UV` (opcional)<br/>`SABOTAGE` (opcional)|`PRESENCE`<br/>`TEMPERATURA` (opcional)<br/>`BRILLO` (opcional)<br/>`HUMEDAD` (opcional)<br/>`UV` (opcional)<br/>`SABOTAGE` (opcional) | Ver foto.
 
 ### Ouvrant
 
-                                       | Tipo genérico               | Parte del complemento de desarrollo            |           |
+Imagen                                       | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-----------------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![OPENING](../images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`TEMPERATURA` (opcional)|<br/>`TEMPERATURA` (opcional) | Ver imagen (es decir, puede elegir entre ventana y puerta).
+![OPENING](../images/OPENING.jpg)   | `Porte / Fenêtre`<br/>`TEMPERATURA` (opcional)|`OPENING / OPENING_WINDOW`<br/>`TEMPERATURA` (opcional) | Ver imagen (es decir, puede elegir entre ventana y puerta).
 
 ### Cable piloto
 
-                               | Tipo genérico               | Parte del complemento de desarrollo            |           |
+Imagen                               | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :---------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
-![HEATING](../images/HEATING.jpg)   | `Chauffage fil pilote Bouton ON`<br/>`Botón de apagado del cable piloto de calentamiento`<br/>`Calentar el estado del cable piloto`<br/>`Botón de calentamiento del cable piloto` (opcional) | <br/><br/><br/>|Los botones ON / OFF y Status le permiten crear el botón en el extremo izquierdo de la plantilla y el `botón de calentamiento del cable piloto 'está ahí para agregar botones (5 máx)
+![HEATING](../images/HEATING.jpg)   | `Chauffage fil pilote Bouton ON`<br/>`Botón de apagado del cable piloto de calentamiento`<br/>`Calentar el estado del cable piloto`<br/>`Botón de calentamiento del cable piloto` (opcional) | `HEATING_ON`<br/>`HEATING_OFF`<br/>`HEATING_STATE`<br/>`HEATING_OTHER`|Los botones ON / OFF y Status le permiten crear el botón en el extremo izquierdo de la plantilla y el `botón de calentamiento del cable piloto 'está ahí para agregar botones (5 máx)
 
 ## Los bromistas
 
 ### Acción genérica
 
-                             | Tipo genérico               | Parte del complemento de desarrollo            |           |
+Imagen                             | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :-------------------------------: | :--------------------------- | :--------------------------- | :------------------: |
 ![ACTION](../images/ACTION.jpg)   | `Action Générique`           | `GENERIC_ACTION`             | Le bouton prend la forme du type de l'action. Par défaut c'est un toggle, si c'est un message alors vous avez une enveloppe, si slider vous avez un slider etc...
 
 ### Información genérica
 
-                         | Tipo genérico               | Parte del complemento de desarrollo            |           |
+Imagen                         | Tipo genérico               | Parte del complemento de desarrollo            | Descripción          |
 :---------------------------: | :--------------------------- | :--------------------------- | :------------------: |
 ![INFO](../images/INFO.jpg)   | `Information Générique`           | `GENERIC_INFO`             | Le bouton prend la forme du type de l'info.
 
@@ -228,7 +228,7 @@ No dude en acceder a su módulo y haga clic en Guardar nuevamente, esto volverá
 Esto es normal, estará disponible en la versión 1.1.
 
 **Tengo la aplicación que ocupa mucha memoria en mi
- !**
+Teléfono !**
 
 Hubo un error en las versiones 1.0.0 y 1.0.1 en la parte de la cámara. El problema no volverá a suceder con 1.0.2, para eliminar el caché sin sobrevalorar la aplicación, simplemente vaya a la configuración de su aplicación móvil y haga clic en "eliminar el caché".
 
