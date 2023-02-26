@@ -1,0 +1,33 @@
+{
+	"id" : "informe",
+	"name" : "Informe",
+	"description" : {
+		"fr_FR": "Ce plugin va vous permettre de simplifier vos scénarios.\nPour informer un utilisateur, il suffira de demander « Informe Sigalou que la porte du frigo est ouverte »\nEn effet, en permanence, le plugin saura où est Sigalou (Dans sa voiture, à la maison, à l’extérieur,…), il saura sur quelle tranche horaire on se trouve (Jour, Nuit, …) et plusieurs niveaux de priorité pourront être définis (par exemple : Informe, Notifie, Alerte,…)\nCes informations ne sont pas toutes gérées par Informe, mais Informe les récupère des autres plugins (de localisation, Blea, Jeemate, Présence, Alarme, …)"
+	},
+	"licence" : "AGPL",
+	"author" : "Sigalou",
+	"require" : "3.3.39",
+	"category" : "communication",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "http://jeedom.sigalou-domotique.fr/plugin-informe-changelog-todo-list",
+	"documentation" : "http://jeedom.sigalou-domotique.fr/plugin-informe-documentation/",
+	"link" : {
+		"forum":"Lien vers le forum",
+		"video" : "Lien vers une video"
+	},
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
+}
