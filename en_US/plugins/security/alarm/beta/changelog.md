@@ -1,16 +1,16 @@
 # Changelog Alarm
 
->****
+>**Important**
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
 - Fixed a problem with the "separate zones" option when changing mode
 
-# 
+# 22/01/2020
 
 - Improved logs in case of multiple alarms
 
-# 
+# 21/10/2019
 
 - Fixed a bug during the creation of the equipment
 
@@ -18,11 +18,11 @@
 
 - Fixed a bug when renaming a mode
 
-# 
+# 28/04/2019
 
 - Bugfix
 
-# 
+# 23/04/2019
 
 - Bugfix
 
@@ -31,7 +31,7 @@
 - Possibility of using variables or calculation for the Hold (s), Activation and Trigger times
 - Updating the doc
 
-# 
+# 18/07/2018
 
 - Updating the doc
 - Bug fix on renaming modes
@@ -41,7 +41,7 @@
 - Adding the tag #zone#
 - Ad a button to duplicate an alarm
 
-# 
+# 06/03/2018
 
 - Addition of orphan order management
 - If sensors are disabled then ok activation actions are no longer triggered
@@ -73,7 +73,7 @@
 
 -   Code optimization
 
--    : the alarm no longer performs immediate actions if there is no
+-   Be careful : the alarm no longer performs immediate actions if there is no
     trigger delay !!!!!! ⇒ Canceled
 
 -   Ability to filter the actions in relation to

@@ -1,16 +1,16 @@
 # Alarma de registro de cambios
 
->****
+>**Importante**
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
 - Se solucionó un problema con la opción "zonas separadas" al cambiar de modo
 
-# 
+# 22/01/2020
 
 - Registros mejorados en caso de alarmas múltiples
 
-# 
+# 21/10/2019
 
 - Corrección de un error durante la creación del equipo
 
@@ -22,16 +22,16 @@
 
 - Correcciones de errores
 
-# 
+# 23/04/2019
 
 - Correcciones de errores
 
-# 
+# 17/01/2019
 
 - Posibilidad de utilizar variables o cálculos para los tiempos de retención (s), activación y activación
 - Actualizando el documento
 
-# 
+# 18/07/2018
 
 - Actualizando el documento
 - Corrección de errores en los modos de cambio de nombre
@@ -41,7 +41,7 @@
 - Agregar la etiqueta #zone#
 - Agregar un botón para duplicar una alarma
 
-# 
+# 06/03/2018
 
 - Adición de gestión de pedidos huérfanos
 - Si los sensores están deshabilitados, las acciones de activación correctas ya no se activan
@@ -73,7 +73,7 @@
 
 -   Optimización de código
 
--    : la alarma ya no realiza acciones inmediatas si no hay
+-   Atención : la alarma ya no realiza acciones inmediatas si no hay
     sin retraso de activación !!!!!! ⇒ cancelado
 
 -   Capacidad para filtrar el desempeño de acciones en relación con

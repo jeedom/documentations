@@ -1,6 +1,6 @@
 # Änderungsalarm
 
->****
+>**Wichtig**
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
@@ -73,7 +73,7 @@
 
 -   Codeoptimierung
 
--    : Der Alarm führt keine Sofortaktionen mehr aus, wenn keine vorhanden sind
+-   Achtung : Der Alarm führt keine Sofortaktionen mehr aus, wenn keine vorhanden sind
     keine Triggerverzögerung !!!!!! ⇒ Abgebrochen
 
 -   Fähigkeit, die Leistung von Aktionen in Bezug auf zu filtern

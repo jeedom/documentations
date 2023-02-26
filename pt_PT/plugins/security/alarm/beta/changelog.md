@@ -1,37 +1,37 @@
 # Changelog Alarm
 
->****
+>**IMPORTANTE**
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
 - Corrigido um problema com a opção "zonas separadas" ao alterar o modo
 
-# 
+# 22/01/2020
 
 - Logs aprimorados em caso de vários alarmes
 
-# 
+# 21/10/2019
 
 - Correção de um bug durante a criação do equipamento
 
-# 
+# 14/10/2019
 
 - Corrigido um erro ao renomear um modo
 
-# 
+# 28/04/2019
 
 - Correções de bugs
 
-# 
+# 23/04/2019
 
 - Correções de bugs
 
-# 
+# 17/01/2019
 
 - Possibilidade de usar variáveis ou cálculos para os tempos de espera, ativação e disparo
 - Atualizando o documento
 
-# 
+# 18/07/2018
 
 - Atualizando o documento
 - Correção de bug nos modos de renomeação
@@ -54,7 +54,7 @@
 
 - Possibilidade de adicionar um atraso de espera a um gatilho antes de ativar o alarme
 
-# 
+# 01/12/2017
 
 -   Correção de um bug na desativação de detectores
 
@@ -73,7 +73,7 @@
 
 -   Otimização de código
 
--    : o alarme não executa mais ações imediatas se não houver
+-   Atenção : o alarme não executa mais ações imediatas se não houver
     sem atraso de disparo !!!!!! ⇒ Cancelado
 
 -   Capacidade de filtrar o desempenho das ações em relação a

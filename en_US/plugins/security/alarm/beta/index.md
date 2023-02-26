@@ -25,8 +25,8 @@ Once an alarm is added you end up with :
 -   **Name of the alarm equipment** : name of your alarm,
 -   **Parent object** : indicates the parent object to which the equipment belongs,
 -   **Category** : the category of the equipment (security in general for an alarm),
--   **** : makes your equipment active,
--   **** : makes your equipment visible on the dashboard,
+-   **Enable** : makes your equipment active,
+-   **Visible** : makes your equipment visible on the dashboard,
 -   **Active all the time** : indicates that the alarm will be permanently active (for example for a fire detection alarm),
 -   **Arming Visible** : allows to make visible or not the alarm arming command on the widget,
 -   **Immediate Status Visible** : allows you to make the immediate status of the alarm visible (see below for the explanation),
@@ -35,7 +35,7 @@ Once an alarm is added you end up with :
 -   **Automatic reset** : when triggered the full alarm is rearmed to prevent subsequent triggers (in normal times it does not rearm until there has been a scenario / human action to do so)
 -   **Do not take immediate actions if the sensor has no delay** : tells the alarm not to do immediate actions if the sensor does not have a trigger delay, the alarm will therefore only do the actions
 
-> ****
+> **Tip**
 >
 > For each action it is possible to specify the mode in which it should be executed or in all modes
 
@@ -45,7 +45,7 @@ Main part of the alarm. This is where you configure the different zones and the 
 
 A button at the top right allows you to add as many as you want.
 
-> ****
+> **Tip**
 >
 > It is possible to edit the name of the area by clicking on the name of the area (opposite the "Area name" label").
 
@@ -55,7 +55,7 @@ A zone is made up of different elements : - trigger, - immediate action, - actio
 
 A trigger is a binary command, which when set to 1 will trigger the alarm. It is possible to reverse the trigger, so that it is the state 0 of the sensor which triggers the alarm, by putting "reverse" on YES. Once you have chosen your trigger, you can specify an activation delay in minutes (it is not possible to descend below the minute). This delay allows for example, if you activate the alarm before leaving home, not to trigger the alarm for a minute (the time to let you go out). In other cases, some motion detectors remain in triggered mode (value 1) for a certain time even if there is no detection, for example 4 minutes, so it is good to delay the activation of these sensors by 4 or 5 min so that the alarm does not go off immediately after activation. Then you have the trigger delay, unlike the activation delay which only takes place once when the alarm is activated, it is set up after each trigger of a sensor. The kinematics are as follows when the sensor is triggered (door opening, presence detection), if the activation times have passed, the alarm will trigger the immediate actions but will wait until the triggering time is over before triggering the actions. Finally you have the "reverse" button which allows you to reverse the triggering state of the sensor (0 instead of 1).
 
-You also have a parameter **** which allows you to specify a trigger hold time before triggering the alarm. Ex if you have a smoke detector which sometimes raises false alarms you can specify a delay of 2s. When the alarm is triggered Jeedom will wait 2s and check that the smoke detector is still on alert if it is not the case it will not trigger the alarm.  
+You also have a parameter **Maintain** which allows you to specify a trigger hold time before triggering the alarm. Ex if you have a smoke detector which sometimes raises false alarms you can specify a delay of 2s. When the alarm is triggered Jeedom will wait 2s and check that the smoke detector is still on alert if it is not the case it will not trigger the alarm.  
 
 Little example to understand : on the first trigger (*\ [Salon \] \ [Eye \] \ [Presence \]*) I have here an activation time of 5 minutes and a trigger time of 1 minute. This means that when I activate the alarm, during the first 5 minutes no triggering of the alarm can take place because of this sensor. After this delay of 5 minutes, if a movement is detected by the sensor, the alarm will wait 1 minute (the time to let me deactivate the alarm) before triggering the actions. If I had had immediate actions these would have been triggered immediately without waiting for the end of the activation period, the non-immediate actions would have taken place after (1 minute after the immediate actions).
 
@@ -63,7 +63,7 @@ Little example to understand : on the first trigger (*\ [Salon \] \ [Eye \] \ [P
 
 As described above, these are actions that are triggered upon triggering without taking into account the trigger delay (but still taking into account the activation delay). You just have to select the desired action command and then according to it fill the execution parameters.
 
-> ****
+> **NOTE**
 >
 > When several zones are triggered successively, only the immediate actions of the 1st zone triggered are executed.
 
@@ -71,25 +71,25 @@ As described above, these are actions that are triggered upon triggering without
 
 The modes are quite simple to configure, you just have to indicate the active zones according to the mode.
 
-> ****
+> **Tip**
 >
 > It is possible to rename the mode by clicking on its name (opposite the "Mode name" label"). Attention during the renaming of a mode it is absolutely necessary to review the scenarios / equipment which use the old name to pass them on the new
 
-> ****
+> **NOTE**
 >
 > When renaming a mode, you must click on the alarm widget on the mode in question for a full consideration (otherwise Jeedom remains on the old mode)
 
-> ****
+> **Important**
 >
 > It is absolutely necessary to create at least one mode and assign zones to it otherwise your alarm will not work.
 
-## 
+## Activation OK
 
 This part defines the actions to be taken following an activation of the alarm. Here again, you will find the immediate notion which represents the actions to be done immediately after arming the alarm, then come the activation actions which are executed after the triggering times.
 
 In the example, here I light a red lamp for example to indicate that the arming has been taken into account and I turn it off once the arming is complete (because normally there is no longer anyone in the perimeter of the alarm, otherwise it triggers it).
 
-> ****
+> **Important**
 >
 > Activation actions OK do not take into account activation times. If you have a delay on the activation of an opening sensor, even if your door is open the activation actions will be executed.
 
