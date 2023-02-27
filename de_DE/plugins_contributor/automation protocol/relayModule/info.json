@@ -1,36 +1,33 @@
 {
-    "id": "grdfConnect",
-    "name": "GRDF Connect",
-    "description": {
-    	"fr_FR": "Récupérer les informations de comptage gaz à partir de son compte-client GRDF ."
-  	},
-  	"utilization": "Il faut disposer d'un compte-client GRDF valide, renseigner l'identifiant, le mot de passe.<br>Le plugin est basé sur une api non officielle, il peut cesser de fonctionner à tout moment, donc c'est à vos risques et perils ! ",
-    "licence": "AGPL",
-    "author": "Limad44",
-    "require": "4.1",
-    "category": "energy",
-    "hasDependency": false,
-    "hasOwnDeamon": false,
-    "display": "panel",
-    "changelog": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#",
-    "changelog_beta": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#/changelog",
-  	"documentation": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#",
-    "documentation_beta": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#",
-  	"link" : {
-		"forum":"https://community.jeedom.com/tag/plugin-grdfconnect"
+	"id" : "informe",
+	"name" : "Informe",
+	"description" : {
+		"fr_FR": "Ce plugin va vous permettre de simplifier vos scénarios.\nPour informer un utilisateur, il suffira de demander « Informe Sigalou que la porte du frigo est ouverte »\nEn effet, en permanence, le plugin saura où est Sigalou (Dans sa voiture, à la maison, à l’extérieur,…), il saura sur quelle tranche horaire on se trouve (Jour, Nuit, …) et plusieurs niveaux de priorité pourront être définis (par exemple : Informe, Notifie, Alerte,…)\nCes informations ne sont pas toutes gérées par Informe, mais Informe les récupère des autres plugins (de localisation, Blea, Jeemate, Présence, Alarme, …)"
 	},
-    "language": [
-        "fr_FR",
-        "en_US"
-    ],
-    "compatibility": [
-        "v4",
-        "miniplus",
-        "smart",
-        "rpi",
-        "docker",
-        "diy",
-        "mobile",
-        "Jeedomboard"
-    ]
+	"licence" : "AGPL",
+	"author" : "Sigalou",
+	"require" : "3.3.39",
+	"category" : "communication",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "http://jeedom.sigalou-domotique.fr/plugin-informe-changelog-todo-list",
+	"documentation" : "http://jeedom.sigalou-domotique.fr/plugin-informe-documentation/",
+	"link" : {
+		"forum":"Lien vers le forum",
+		"video" : "Lien vers une video"
+	},
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
 }
