@@ -393,6 +393,8 @@
         "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin": "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin",
         "Programmateur": "Programmateur",
         "Plugin pour ajouter un programmateur à une commande": "Plugin pour ajouter un programmateur à une commande",
+        "My Bin": "My Bin",
+        "Poubelle verte": "Poubelle verte",
         "Organisation": "Organisation",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
@@ -402,8 +404,13 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation Stable": "Documentation Stable",
+        "Documentation Beta": "Documentation Beta",
+        "Poubelle jaune": "Poubelle jaune",
+        "Laquelle faut-il sortir ce soir": "Laquelle faut-il sortir ce soir",
+        "Utilisez ce petit plugin pour ne plus avoir à vous en rappeler": "Utilisez ce petit plugin pour ne plus avoir à vous en rappeler",
         "Market": "Market",
-        "Changelog Stable": "Changelog Stable"
+        "Changelog Stable": "Changelog Stable",
+        "Changelog Beta": "Changelog Beta"
     },
     "plugins_contributor\/other\/index.md": {
         "Autre": "Autre",
