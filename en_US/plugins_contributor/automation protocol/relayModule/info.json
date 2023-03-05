@@ -1,35 +1,42 @@
 {
-    "id": "mybin",
-    "name": "My Bin",
-    "description": {
-        "fr_FR": "Poubelle verte ? Poubelle jaune ? Laquelle faut-il sortir ce soir ? Utilisez ce petit plugin pour ne plus avoir à vous en rappeler ! ",
-        "en_US": "Green bin? Yellow bin? Which one needs to be put out tonight? Use this simple plugin for not having to remember it anymore!"
-    },
-    "utilization": "Créez un équipement et définissez vos critères de ramassage et notification de vos poubelles. (Auteur original @hugoKs3)",
-    "licence": "AGPL",
-    "author": "tomitomas",
-    "require": "4.0.61",
-    "category": "organization",
-    "hasDependency": false,
-    "hasOwnDeamon": false,
-    "maxDependancyInstallTime": 0,
-    "changelog": "https://tomitomas.github.io/jeedom_doc/MyBin/#language#/changelog",
-    "changelog_beta": "https://tomitomas.github.io/jeedom_doc/MyBin/#language#/changelog_beta",
-    "documentation": "https://tomitomas.github.io/jeedom_doc/MyBin/#language#/",
-    "documentation_beta": "https://tomitomas.github.io/jeedom_doc/MyBin/#language#/",
-    "link": {
-        "forum": "https://community.jeedom.com/t/plugin-mybin-actualties/61993"
-    },
-    "language": [
-        "fr_FR",
-        "en_US"
-    ],
-    "compatibility": [
-        "miniplus",
-        "smart",
-        "rpi",
-        "docker",
-        "diy",
-        "v4"
-    ]
+	"id": "Freebox_OS",
+	"name": "Freebox",
+	"description" : {
+		"fr_FR": "Ce plugin permet de récupérer les informations disponibles sur les box Freebox Révolution/Delta/Pop.<br/>Pour les Freebox Delta, il permet aussi de récupérer les équipements connectés (Domotique)."
+	},
+	"utilization": "Il est possible de commander le Wi-Fi, le planning du Wi-Fi, le contrôle parental.<br/>Pour la Freebox Delta, plusieurs possibilités sont disponibles. Il est entre autre possible de commander le pack sécurité ainsi que les différents équipements compatibles avec celui-ci. Il permet de récupérer toutes les infos disponibles sur la Freebox et pour les Delta il permet de récupérer les équipements connectés.",
+	"licence": "AGPL",
+	"author": "mika-nt28 | JAG",
+	"require": "4.0",
+	"category": "monitoring",
+	"hasOwnDeamon": true,
+	"hasDependency": false,
+	"maxDependancyInstallTime": 0,
+	"link": {
+		"forum": "https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673"
+	},
+	"documentation": "http://mika-nt28.github.io/Documentations/Freebox_OS/#language#/",
+	"changelog": "https://mika-nt28.github.io/Documentations/Freebox_OS/#language#/changelog",
+	"changelog_beta" : "https://mika-nt28.github.io/Documentations/Freebox_OS/#language#/changelog_beta",
+	"documentation_beta" : "http://mika-nt28.github.io/Documentations/Freebox_OS/#language#/index_beta",
+	"language": [
+		"de_DE", 
+		"en_US", 
+		"es_ES", 
+		"fr_FR",
+		"id_ID",
+		"it_IT", 
+		"ru_RU", 
+		"sp_SP"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
 }
