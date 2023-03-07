@@ -26,25 +26,34 @@ apt-gand install docker.io
 
 Image installation :
 
-``docker pull jeedom/jeedom:V4-stable``
+``docker pull jeedom/jeedom:latest``
 
 Then launch the :
 
-``sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/db:/var/lib/mysql -p 9080:80 jeedom/jeedom:V4-stable``
+``sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/db:/var/lib/mysql -p 80:80 -d jeedom/jeedom:latest``
 
 With :
 
--   ``jeedom-server`` : jeedom Docker name wanted
+-   ``jeedom-server`` : name of the desired jeedom container
 -   ``/opt/jeedom/www`` and ``/opt/jeedom/db`` : directory where Jeedom data is put on the host (be careful to create it before)
+-  `` -p 80:80``: the container port (80) is forwarded to the host port (by default 80 too)
+
+### List of available images
+- `jeedom/jeedom:latest` : last version **steady**
+- `jeedom/jeedom:beta` : last version **beta**
+- `jeedom/jeedom:4.x` : versions are kept from 4.3
+- `jeedom/jeedom:4.x-buster` : A variant based on Debian Buster
+
+The full list is available at [Docker Hub](https://hub.docker.com/r/jeedom/jeedom/tags)
 
 > **TIPS**
 >
-> It is possible that after launching docker does not return your hand, nothing serious you can close everything jeedom will continue to run
+> With the `-d` option Docker gives you back control immediately ('detach' option) but installs in the background. It is possible to follow the logs with the command `docker logs jeedom-server -f` (option f = follow)
 
-Then you need to install Jeedom by going to : ``IP_DOCKER:9080``
+Then you need to install Jeedom by going to : ``IP_DOCKER:80``
 
 > **TIPS**
 >
-> You can see the dockers turning ``docker ps`` to stop jeedom-server for example you just have to do ``docker stop jeedom-server``, to revive it ``docker start jeedom-server``
+> You can see the dockers turning ``docker ps`` to stop your container, jeedom-server for example, you just have to do ``docker stop jeedom-server``, to revive it ``docker start jeedom-server``
 
 For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)

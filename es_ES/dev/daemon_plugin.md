@@ -555,7 +555,7 @@ Y para manejar esto, una vez más, todo está planeado en el núcleo de Jeedom p
   
 Ambos métodos se pueden implementar en un solo complemento.
 * Si ambos métodos se implementan en un complemento:
-  * Núcleos antes de 4.2 usarán Metone por procedimientos.
+  * Núcleos antes de 4.2 utilizará el método procesal.
   * Núcleo 4.2 y posteriores usarán el método de archivo de configuración per json.
 * Si solo se implementa el método de procedimiento en un complemento:
   * Todos los núcleos utilizarán este método.

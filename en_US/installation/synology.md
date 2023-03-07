@@ -30,11 +30,12 @@ Click on "Register" :
 
 ![install synology 5](images/install_synology_5.PNG)
 
-In the search field, type "jeedom", select jeedom / jeedom (take the latest version) and click on download :
+In the search field, type "jeedom", select jeedom/jeedom, and click download :
 
 ![install synology 20](images/install_synology_20.PNG)
 
-Then validate the version request, the best being to take the last.
+Then validate the version request, the best is to take the latest (take the latest version).
+ _But for some Sybology models it may be necessary to choose the *-buster_ version
 
 Then click on image, here you can follow the progress of the download (can take several tens of minutes) :
 
@@ -59,6 +60,10 @@ Check "Run the container using elevated privileges" then validate everything.
 > **Important**
 >
 > Certain plugin you need to have network broadcast (Xioami plugin type), for this you must ABSOLUTELY switch to network in host mode (only possible during creation), change the default listening port of the web server ( type 9080 for the web server)
+
+> **Important**
+>
+> On error, if the Apache service does not start with this error in the logs: ```function not implemented: AH00141: Could not initialize random number generator``` in this case you must use the image `jeedom/jeedom4.3-buster`.
 
 After a first or longer start-up phase you just have to go to IP_NAS:9080
 

@@ -30,11 +30,12 @@ Haga clic en "Registrarse" :
 
 ![install synology 5](images/install_synology_5.PNG)
 
-En el campo de búsqueda, escriba "jeedom", seleccione jeedom / jeedom (tome la última versión) y haga clic en descargar :
+En el campo de búsqueda, escriba "jeedom", seleccione jeedom/jeedom y haga clic en descargar :
 
 ![install synology 20](images/install_synology_20.PNG)
 
-Luego valide la solicitud de versión, lo mejor es tomar la última.
+Luego valide la solicitud de versión, lo mejor es tomar la última (tomar la última versión).
+ _Pero para algunos modelos de Sybology puede ser necesario elegir la versión *-buster_
 
 Luego haga clic en la imagen, aquí puede seguir el progreso de la descarga (puede tomar varias decenas de minutos) :
 
@@ -59,6 +60,10 @@ Marque "Ejecutar el contenedor con privilegios elevados" y luego valide todo.
 > **Importante**
 >
 > Cierto complemento necesita tener transmisión de red (tipo de complemento Xioami), para esto DEBE cambiar ABSOLUTAMENTE a la red en modo host (solo posible durante la creación), cambie el puerto de escucha predeterminado del servidor web ( escriba 9080 para el servidor web)
+
+> **Importante**
+>
+> En caso de error, si el servicio de Apache no se inicia con este error en los registros: ```function not implemented: AH00141: Could not initialize random number generator``` en este caso debes usar la imagen `jeedom/jeedom4.3-buster`.
 
 Después de una primera o más larga fase de inicio, solo tiene que ir a IP_NAS:9080
 

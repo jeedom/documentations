@@ -26,25 +26,34 @@ apt-gund install docker.io
 
 Image-Installation :
 
-``docker pull jeedom/jeedom:V4-stable``
+``docker pull jeedom/jeedom:latest``
 
 Starten Sie dann die :
 
-``sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/db:/var/lib/mysql -p 9080:80 jeedom/jeedom:V4-stable``
+``sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/db:/var/lib/mysql -p 80:80 -d jeedom/jeedom:latest``
 
 Mit :
 
--   ``jeedom-server`` : Jeedom Docker Name gesucht
+-   ``jeedom-server`` : Name des gewünschten Jeedom-Containers
 -   ``/opt/jeedom/www`` und ``/opt/jeedom/db`` : Verzeichnis, in dem Jeedom-Daten auf dem Host abgelegt werden (achten Sie darauf, sie vorher zu erstellen)
+-  `` -p 80:80``: der Container-Port (80) wird an den Host-Port weitergeleitet (standardmäßig ebenfalls 80))
+
+### Liste der verfügbaren Bilder
+- `jeedom / jeedom:neuste` : Letzte Version **stetig**
+- `jeedom / jeedom:beta` : Letzte Version **Beta**
+- `jeedom / jeedom:4.x` : Versionen ab 4.3 beibehalten
+- `jeedom / jeedom:4.x-buster‘ : Eine auf Debian Buster basierende Variante
+
+Die vollständige Liste finden Sie unter [Docker-Hub](https://hub.docker.com/r/jeedom/jeedom/tags)
 
 > **Tipps**
 >
-> Es ist möglich, dass nach dem Start von Docker Ihre Hand nicht zurückkehrt, nichts Ernstes können Sie alles schließen, was jeedom weiterläuft
+> Mit der Option `-d` gibt Ihnen Docker sofort die Kontrolle zurück (Option 'detach'), installiert aber im Hintergrund. Es ist möglich, den Protokollen mit dem Befehl `docker logs jeedom-server -f` zu folgen (Option f = follow)
 
-Dann müssen Sie Jeedom installieren, indem Sie zu gehen : ``IP_DOCKER:9080``
+Dann müssen Sie Jeedom installieren, indem Sie zu gehen : ``IP_DOCKER:80``
 
 > **Tipps**
 >
-> Sie können sehen, wie sich die Hafenarbeiter drehen ``docker ps`` Um zum Beispiel Jeedom-Server zu stoppen, müssen Sie nur tun ``docker stop jeedom-server``, um es wiederzubeleben ``docker start jeedom-server``
+> Sie können sehen, wie sich die Hafenarbeiter drehen ``docker ps`` Um Ihren Container, beispielsweise den Jeedom-Server, zu stoppen, müssen Sie nur tun ``docker stop jeedom-server``, um es wiederzubeleben ``docker start jeedom-server``
 
 Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)
