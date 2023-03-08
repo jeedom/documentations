@@ -42,7 +42,7 @@ Sobald der Mosquitto-Broker installiert ist *(im Bedarfsfall)*, Sie können mit 
   >
   >Im lokalen Modus ist die Authentifizierung obligatorisch.
 
-- **Jeedom-Wurzelthema** : Stammthema, um einen Befehl an Jeedom zu senden oder auf dem es die Ereignisse sendet.
+- **Jeedom-Wurzelthema** : Stammthema, um einen Befehl an Jeedom zu senden oder auf dem es die Ereignisse sendet. Achtung, es ist nur möglich, maximal 1 oder 2 Ebenen zu setzen.
 
 - **Übertragen Sie alle Ereignisse** : Aktivieren Sie das Kontrollkästchen, um alle Jeedom-Befehlsereignisse auf MQTT zu senden.
 
@@ -57,11 +57,7 @@ Es ist möglich, MQTT-Equipment direkt im Plugin zu erstellen.
 Sie müssen das Wurzelthema des Geräts angeben *(„Testen“ zum Beispiel)*, dann nach Art der Befehle :
 
 - **Info-Befehle** : Geben Sie einfach das vollständige Thema an.
-  >Wenn Sie beispielsweise „toto/1“ eingeben, werden alle Nachrichten zum Thema „test/toto/1“ automatisch auf den betreffenden Befehl geschrieben. Das System kann Felder vom Typ json verwalten, in diesem Fall müssen Sie `toto/1 eingeben#key1` oder `toto/1#key1::key2`, um eine Ebene nach unten zu gehen.
-
-  >**WICHTIG**
-  >
-  >Es ist zwingend erforderlich, dass die Ankunft einem Wert entspricht. Wenn Sie `{"k1":"v1","k2":{"k2.2":"v2.2"},"k3":["v3.1"]}`, können Sie `toto/1#k1` oder `toto/1#k2:k2.2` oder `toto/1#k3:0`` mais ``toto/1#k2` ist nicht möglich.
+  >Wenn Sie beispielsweise „toto/1“ eingeben, werden alle Nachrichten zum Thema „test/toto/1“ automatisch auf den betreffenden Befehl geschrieben. Das System kann Felder vom Typ json verwalten, in diesem Fall müssen Sie `toto/1/key1` oder `toto/1/key1/key2` eingeben, um eine Ebene nach unten zu gehen.
 
 - **Aktionsbefehle** : Geben Sie einfach das Thema und die Nachricht an.
   >Wenn Sie beispielsweise „toto/2“ mit der Nachricht „plop“ eingeben, wird bei jedem Klick auf den Befehl die Nachricht „plop“ an das Thema „test/toto/2“ gesendet.
@@ -69,6 +65,11 @@ Sie müssen das Wurzelthema des Geräts angeben *(„Testen“ zum Beispiel)*, d
   >**INFORMATION**
   >
   >In Befehlen vom Aktionstyp können Sie die Tags ` verwenden#slider#`, `#color#`, `#message#` oder `#select#`, die beim Ausführen des Befehls automatisch durch ihren Wert ersetzt werden *(nach seiner Unterart)*. Wenn die Nachricht andererseits vom Typ „json“ ist, müssen Sie ihr das Präfix „json“ hinzufügen::``.
+
+>**WICHTIG**
+>
+>Das `jeedom`-Topic ist reserviert (dies kann in der Konfiguration geändert werden), daher sollte nichts anderes als Befehle zum Ansteuern von jeedom darauf gesendet werden
+
 
 # Jeedom über MQTT
 
@@ -93,3 +94,12 @@ Es ist möglich, Jeedom über MQTT zu steuern. Hier sind die verschiedenen mögl
 - **Broker unter Docker** : Verwenden Sie zuerst den Befehl **Löschen** `mqtt2_mosquitto` Ausrüstung aus dem Plugin **Docker-Verwaltung** *(Plugins > Programmierung > Docker-Verwaltung)*. Anschließend können Sie diese gesamte Ausstattung löschen.
 
 - **Lokaler Makler** : Sie müssen dann die rote Taste verwenden **Moskito deinstallieren** von der allgemeinen Konfigurationsseite des Plugins.
+
+
+# Selbstfindung)
+
+Das Plugin kann verschiedene Arten von Modulen automatisch erkennen. Dazu müssen Sie nur die automatische Erkennung auf der Hauptseite des Plugins autorisieren und den Dämon neu starten.
+
+>**WICHTIG**
+>
+>Für Module vom Typ Tasmota ist es absolut notwendig, dass die vollständige Topic-Konfiguration `%topic%/%prefix%/` ist

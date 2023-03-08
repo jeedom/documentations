@@ -42,7 +42,7 @@ Once the Mosquitto broker is installed *(if necessary)*, you can continue with t
   >
   >Authentication is mandatory in local mode.
 
-- **Jeedom root topic** : Root topic to send a command to Jeedom or on which it sends the events.
+- **Jeedom root topic** : Root topic to send a command to Jeedom or on which it sends the events. Attention it is only possible to put 1 or 2 levels maximum.
 
 - **Transmit all events** : Check the box to send all Jeedom command events on MQTT.
 
@@ -57,11 +57,7 @@ It is possible to create MQTT equipment directly in the plugin.
 You must indicate the root topic of the equipment *(`test` for example)*, then according to the type of commands :
 
 - **Info commands** : just indicate the full topic.
-  >For example, if you put `toto/1`, all the messages on the topic `test/toto/1` will be automatically written on the command in question. The system is able to manage json type fields, in this case you have to put `toto/1#key1` or `toto/1#key1::key2` to go down one level.
-
-  >**IMPORTANT**
-  >
-  >It is absolutely necessary that the arrival corresponds to a value. If you have `{"k1":"v1","k2":{"k2.2":"v2.2"},"k3":["v3.1"]}`, you can put `toto/1#k1` or `toto/1#k2:k2.2` or `toto/1#k3:0`` mais ``toto/1#k2` is not possible.
+  >For example, if you put `toto/1`, all the messages on the topic `test/toto/1` will be automatically written on the command in question. The system is able to manage json type fields, in this case you have to put `toto/1/key1` or `toto/1/key1/key2` to go down one level.
 
 - **Action commands** : just indicate the topic and the message.
   >For example, if you put `toto/2` with the message `plop`, each click on the command will send the message `plop` to the topic `test/toto/2`.
@@ -69,6 +65,11 @@ You must indicate the root topic of the equipment *(`test` for example)*, then a
   >**INFORMATION**
   >
   >In action type commands you can use the tags `#slider#`, `#color#`, `#message#` or `#select#` which will be automatically replaced by their value when executing the command *(according to its subtype)*. On the other hand, if the message is of the `json` type, you must add the `json` prefix to it::``.
+
+>**IMPORTANT**
+>
+>The `jeedom` topic is reserved (this can be changed in the configuration), so do not send anything other than commands to drive jeedom
+
 
 # Jeedom via MQTT
 
@@ -93,3 +94,12 @@ It is possible to pilot Jeedom through MQTT. Here are the different possible top
 - **Broker under Docker** : First, use the command **To delete** `mqtt2_mosquitto` equipment from the plugin **Docker Management** *(Plugins > Programming > Docker Management)*. You can then delete this entire equipment.
 
 - **Local broker** : You must then use the red button **Uninstall Mosquitto** from the general configuration page of the plugin.
+
+
+# Self-Discovery)
+
+The plugin can do auto discovery of several types of modules. To do this, you just need to authorize auto discovery on the main page of the plugin and restart the demon.
+
+>**IMPORTANT**
+>
+>For tasmota type modules it is absolutely necessary that the full topic configuration be `%topic%/%prefix%/`

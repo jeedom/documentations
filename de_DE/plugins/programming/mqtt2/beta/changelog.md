@@ -4,10 +4,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-- Hinzufügen eines Autodiscovery-Systems für bestimmte Module (beta)
+# 03.07.2023
+
+- Hinzufügen eines Autodiscovery-Systems für einige Beta-Module (esphome, tasmota und shelly)
 - Bild der Module hinzugefügt
 - Fehler bei der Client-ID behoben (wenn mehrere jeedom auf demselben Broker)
 - Unterstützung auf untergeordneter Ebene in Ausrüstungsthemen
+- Bug-Fix
 
 # 23.12.2022
 

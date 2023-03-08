@@ -4,10 +4,13 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
-- Adición de un sistema de autodescubrimiento para ciertos módulos (beta)
+# 03/07/2023
+
+- Adición de un sistema de autodescubrimiento para algunos módulos beta (esphome, tasmota y shelly))
 - Añadida la imagen de los módulos
 - Se corrigió un error en la identificación del cliente (si varios jeedom en el mismo corredor)
 - Soporte de subnivel en temas de equipos
+- Arreglo del fallo
 
 # 23/12/2022
 
