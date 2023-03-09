@@ -1,36 +1,20 @@
 {
-    "id": "grdfConnect",
-    "name": "GRDF Connect",
-    "description": {
-    	"fr_FR": "Récupérer les informations de comptage gaz à partir de son compte-client GRDF ."
-  	},
-  	"utilization": "Il faut disposer d'un compte-client GRDF valide, renseigner l'identifiant, le mot de passe.<br>Le plugin est basé sur une api non officielle, il peut cesser de fonctionner à tout moment, donc c'est à vos risques et perils ! ",
-    "licence": "AGPL",
-    "author": "Limad44",
-    "require": "4.1",
-    "category": "energy",
-    "hasDependency": false,
-    "hasOwnDeamon": false,
-    "display": "panel",
-    "changelog": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#/changelog",
-    "changelog_beta": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#/changelog",
-  	"documentation": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#",
-    "documentation_beta": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#",
-  	"link" : {
-		"forum":"https://community.jeedom.com/tag/plugin-grdfconnect"
+	"id" : "mymodbus",
+	"name" : "MyModbus",
+	"description" : "Plugin pour la gestion de matériel qui ont le protocol ModBus",
+	"licence" : "AGPL",
+	"author" : "Bebel27",
+	"require" : "4.0",
+	"category" : "automation protocol",
+	"hasDependency" : 1,
+	"hasOwnDeamon" : 1,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://bebel27a.github.io/jeedom-mymobdus.github.io/#language#/changelog",
+	"documentation" : "https://bebel27a.github.io/jeedom-mymobdus.github.io/#language#/",
+	"link" : {
+		"forum":"https://community.jeedom.com/t/plugin-mymodbus/9395",
+		"video" : "Lien vers une video"
 	},
-    "language": [
-        "fr_FR",
-        "en_US"
-    ],
-    "compatibility": [
-        "v4",
-        "miniplus",
-        "smart",
-        "rpi",
-        "docker",
-        "diy",
-        "mobile",
-        "Jeedomboard"
-    ]
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
 }
