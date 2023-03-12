@@ -1,0 +1,47 @@
+{
+	"id" : "dreame",
+	"name" : "dreame",
+	"specialAttributes" : {
+		"object" : {},
+		"user" : {}
+	},
+	"description" : {
+		"fr_FR": "Connectez votre aspirateur robot dans votre environnement Jeedom. Attention : Ce plugin est actuellement toujours en cours de developpement et celui-ci avance en fonction des differentes personnes et des differents materiels de chacun."
+	},
+	"licence" : "AGPL",
+	"author" : "Julien",
+	"require" : "4.2.0",
+	"category" : "devicecommunication",
+	"hasDependency" : true,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 10,
+	"changelog" : "https://julien80.github.io/dreame/#language#/changelog",
+	"documentation" : "https://julien80.github.io/dreame/#language#/",
+	"changelog_beta" : "https://julien80.github.io/dreame/#language#/beta/changelog",
+	"documentation_beta" : "https://julien80.github.io/dreame/#language#/beta/",
+	"link" : {
+		"forum":"Lien vers le forum",
+		"video" : "Lien vers une video"
+	},
+	"language": [
+		"fr_FR",
+		"en_US",
+		"es_ES",
+		"de_DE",
+		"ru_RU",
+		"id_ID",
+		"it_IT",
+		"ja_JP",
+		"pt_PT"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
+}
