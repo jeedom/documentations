@@ -1,20 +1,21 @@
 {
-	"id" : "mymodbus",
-	"name" : "MyModbus",
-	"description" : "Plugin pour la gestion de matériel qui ont le protocol ModBus",
+	"id" : "conso",
+	"name" : "Suivi Conso",
+	"description" : "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production ",
 	"licence" : "AGPL",
-	"author" : "Bebel27",
-	"require" : "4.0",
-	"category" : "automation protocol",
-	"hasDependency" : 1,
-	"hasOwnDeamon" : 1,
+	"author" : "Mickeys",
+	"require" : "3.3",
+	"category" : "energy",
+	"display" : "panel",
+	"hasDependency" : false,
+	"hasOwnDeamon" : true,
 	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://bebel27a.github.io/jeedom-mymobdus.github.io/#language#/changelog",
-	"documentation" : "https://bebel27a.github.io/jeedom-mymobdus.github.io/#language#/",
+	"changelog" : "https://mickeys27.github.io/Docs/conso/#language#/changelog",
+	"documentation" : "https://mickeys27.github.io/Docs/conso/#language#/",
 	"link" : {
-		"forum":"https://community.jeedom.com/t/plugin-mymodbus/9395",
-		"video" : "Lien vers une video"
+		"forum":"https://www.jeedom.com/forum/viewtopic.php?f=149&t=8500",
+		"Community":"https://community.jeedom.com/t/plugin-suivi-conso-debuggage/8246"
 	},
 	"language" : ["fr_FR"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
 }
