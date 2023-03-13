@@ -20,19 +20,10 @@
 	"changelog_beta" : "https://julien80.github.io/dreame/#language#/beta/changelog",
 	"documentation_beta" : "https://julien80.github.io/dreame/#language#/beta/",
 	"link" : {
-		"forum":"Lien vers le forum",
-		"video" : "Lien vers une video"
+		"forum":"https://community.jeedom.com/tags/plugin-dreame"
 	},
 	"language": [
-		"fr_FR",
-		"en_US",
-		"es_ES",
-		"de_DE",
-		"ru_RU",
-		"id_ID",
-		"it_IT",
-		"ja_JP",
-		"pt_PT"
+		"fr_FR"
 	],
 	"compatibility": [
 		"miniplus",
