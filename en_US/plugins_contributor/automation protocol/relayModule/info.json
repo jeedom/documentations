@@ -1,21 +1,36 @@
 {
-	"id" : "conso",
-	"name" : "Suivi Conso",
-	"description" : "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production ",
-	"licence" : "AGPL",
-	"author" : "Mickeys",
-	"require" : "3.3",
-	"category" : "energy",
-	"display" : "panel",
-	"hasDependency" : false,
-	"hasOwnDeamon" : true,
-	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://mickeys27.github.io/Docs/conso/#language#/changelog",
-	"documentation" : "https://mickeys27.github.io/Docs/conso/#language#/",
-	"link" : {
-		"forum":"https://www.jeedom.com/forum/viewtopic.php?f=149&t=8500",
-		"Community":"https://community.jeedom.com/t/plugin-suivi-conso-debuggage/8246"
+    "id": "grdfConnect",
+    "name": "GRDF Connect",
+    "description": {
+    	"fr_FR": "Récupérer les informations de comptage gaz à partir de son compte-client GRDF ."
+  	},
+  	"utilization": "Il faut disposer d'un compte-client GRDF valide, renseigner l'identifiant, le mot de passe.<br>Le plugin est basé sur une api non officielle, il peut cesser de fonctionner à tout moment, donc c'est à vos risques et perils ! ",
+    "licence": "AGPL",
+    "author": "Limad44",
+    "require": "4.1",
+    "category": "energy",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "display": "panel",
+    "changelog": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#/changelog",
+    "changelog_beta": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#/changelog",
+  	"documentation": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#",
+    "documentation_beta": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#",
+  	"link" : {
+		"forum":"https://community.jeedom.com/tag/plugin-grdfconnect"
 	},
-	"language" : ["fr_FR"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+    "language": [
+        "fr_FR",
+        "en_US"
+    ],
+    "compatibility": [
+        "v4",
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "Jeedomboard"
+    ]
 }
