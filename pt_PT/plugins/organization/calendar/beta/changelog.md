@@ -4,6 +4,9 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 17/03/2023
+- Fornecimento de uma API para listar, adicionar, modificar e excluir um evento.
+
 # 22/12/2022
 
 - Biblioteca `fullcalendar` atualizada de 3.10.5 a 6.0.1

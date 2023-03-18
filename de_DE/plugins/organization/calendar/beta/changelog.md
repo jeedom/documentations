@@ -4,6 +4,9 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 17.03.2023
+- Bereitstellung einer API zum Auflisten, Hinzufügen, Ändern und Löschen eines Ereignisses.
+
 # 22.12.2022
 
 - Aktualisierte `fullcalendar`-Bibliothek von 3.10.5 bis 6.0.1
