@@ -1,18 +1,33 @@
-# Modelo de plug-in
+# Plug-in de energia
 
-Este "modelo de plugin" serve como base para a criação de plugins para **Jeedom**.
+Plugin que permite visualizar um gráfico global da energia da casa (água, gás, eletricidade, produção de eletricidade).
 
-A documentação geral do design do plug-in está disponível [aqui](https://doc.jeedom.com/pt_PT/dev/).
+Também exibe um painel que mostra o desempenho de um sistema de painel solar, o consumo (água, gás e eletricidade) bem como os detalhes do consumo de eletricidade de determinados equipamentos (necessário, é claro, ter um módulo para medi-lo)
 
-Em detalhes :   
-* [Usando o modelo de plug-in](https://doc.jeedom.com/pt_PT/dev/plugin_template) : O modelo de plugin é uma base de plugin para Jeedom que deve ser adaptada com o id do seu plugin e ao qual você só precisa adicionar suas próprias funções.
+Para quem tem energia solar, também pode mostrar a previsão de produção de acordo com as características da sua instalação (a informar)
 
-* [Arquivo info.json](https://doc.jeedom.com/pt_PT/dev/structure_info_json) : Integrado desde a versão 3.0 de Jeedom, o arquivo **info.json** é obrigatório para o bom funcionamento dos plugins e sua correta implantação no Jeedom Market.
+Observe que o plug-in não calcula e não calculará nenhum custo (não é seu objetivo e não será)
 
-* [ícone de plug-in](https://doc.jeedom.com/pt_PT/dev/Icone_de_plugin) : Para ser publicado no Jeedom Market, qualquer plugin deve ter um ícone. Cuidado para não usar o mesmo código de cores dos ícones dos plugins oficiais do Jeedom.
+Para funcionar requer que você tenha módulos que carreguem essas informações : 
 
-* [Widget de plug-in](https://doc.jeedom.com/pt_PT/dev/widget_plugin) : Apresentação das diferentes formas de incluir widgets customizados no plugin.
+## Gaz
 
-* [Documentação do plug-in](https://doc.jeedom.com/pt_PT/dev/documentation_plugin) : Visão geral da configuração da documentação porque um bom plug-in não é nada sem a documentação adequada.
+- Dia de consumo
+- Consumo instantâneo
 
-* [Publicar plug-in](https://doc.jeedom.com/pt_PT/dev/publication_plugin) : Descrição dos pré-requisitos essenciais para a publicação do plugin.
+## Eau
+
+- Dia de consumo
+- Consumo instantâneo
+
+## Electricité
+
+- Dia de consumo
+- Consumo instantâneo
+
+Se você tiver painéis solares, precisará de mais : 
+
+- Importação de eletricidade das redes
+- Exportação de eletricidade de rede
+- Dia de produção
+- Potência líquida

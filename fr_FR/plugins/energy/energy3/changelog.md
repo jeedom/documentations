@@ -1,5 +1,3 @@
-# Changelog Energie
-
 # Changelog plugin template
 
 >**IMPORTANT**

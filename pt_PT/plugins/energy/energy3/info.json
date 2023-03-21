@@ -1,0 +1,45 @@
+{
+	"id" : "energy3",
+	"name" : "Energie",
+	"description" : {
+		"fr_FR": "Template servant de base à la création de plugins pour Jeedom"
+	},
+	"licence" : "AGPL",
+	"author" : "Jeedom SAS",
+	"require" : "4.3",
+	"category" : "energy",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://jeedom.github.io/plugin-template/#language#/changelog",
+	"documentation" : "https://jeedom.github.io/plugin-template/#language#/",
+	"changelog_beta" : "https://jeedom.github.io/plugin-template/#language#/beta/changelog",
+	"documentation_beta" : "https://jeedom.github.io/plugin-template/#language#/beta/",
+	"link" : {
+		"forum":"Lien vers le forum",
+		"video" : "Lien vers une video"
+	},
+	"display": "panel",
+    "mobile": "panel",
+	"language": [
+		"fr_FR",
+		"en_US",
+		"es_ES",
+		"de_DE",
+		"ru_RU",
+		"id_ID",
+		"it_IT",
+		"ja_JP",
+		"pt_PT"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
+}

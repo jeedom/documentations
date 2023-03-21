@@ -1,18 +1,33 @@
-# Plantilla de plugin
+# Complemento de energía
 
-Esta "plantilla de complemento" sirve como base para crear complementos para **Jeedom**.
+Complemento que permite mostrar un gráfico global de la energía de la casa (agua, gas, electricidad, producción de electricidad)).
 
-La documentación general de diseño de complementos está disponible [aquí](https://doc.jeedom.com/es_ES/dev/).
+También muestra un tablero que muestra el rendimiento de un sistema de paneles solares, el consumo (agua, gas y electricidad) así como los detalles del consumo de electricidad de ciertos equipos (necesario por supuesto tener un módulo para medirlo))
 
-En detalles :   
-* [Usando la plantilla del complemento](https://doc.jeedom.com/es_ES/dev/plugin_template) : La plantilla del complemento es una base de complemento para Jeedom que debe adaptarse con la identificación de su complemento y a la que solo tiene que agregar sus propias funciones.
+Para los que dispongan de energía solar, también puede mostrarles la previsión de producción según las características de su instalación (a informar)
 
-* [Archivo info.json](https://doc.jeedom.com/es_ES/dev/structure_info_json) : Integrado desde la versión 3.0 de Jeedom, el archivo **info.json** es obligatorio para el correcto funcionamiento de los complementos y su correcta implementación en Jeedom Market.
+Tenga en cuenta que el complemento no calcula ni calculará ningún costo (no es su propósito y no será)
 
-* [Icono de complemento](https://doc.jeedom.com/es_ES/dev/Icone_de_plugin) : Para ser publicado en Jeedom Market, cualquier complemento debe tener un ícono. Tenga cuidado de no usar el mismo código de color que los íconos de los complementos oficiales de Jeedom.
+Para que funcione requiere que tengas módulos que carguen esta información : 
 
-* [Widget de complemento](https://doc.jeedom.com/es_ES/dev/widget_plugin) : Presentación de las diferentes formas de incluir widgets personalizados al plugin.
+## Gaz
 
-* [Documentación del complemento](https://doc.jeedom.com/es_ES/dev/documentation_plugin) : Descripción general de la configuración de la documentación porque un buen complemento no es nada sin la documentación adecuada.
+- Día de consumo
+- Consumo instantáneo
 
-* [Complemento de publicación](https://doc.jeedom.com/es_ES/dev/publication_plugin) : Descripción de los requisitos previos esenciales para la publicación del plugin.
+## Eau
+
+- Día de consumo
+- Consumo instantáneo
+
+## Electricité
+
+- Día de consumo
+- Consumo instantáneo
+
+Si tienes paneles solares necesitas más : 
+
+- Importación de electricidad de las redes
+- Exportación de electricidad de red
+- Día de producción
+- Poder de la red

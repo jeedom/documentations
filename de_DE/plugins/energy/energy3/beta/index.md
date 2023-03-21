@@ -1,18 +1,33 @@
-# Plugin-Vorlage
+# Energie-Plugin
 
-Diese „Plugin-Vorlage“ dient als Grundlage für die Erstellung von Plugins für **Jeedom**.
+Plugin, mit dem ein globales Diagramm der Energie des Hauses (Wasser, Gas, Strom, Stromerzeugung) angezeigt werden kann).
 
-Allgemeine Plugin-Design-Dokumentation ist verfügbar [Hier](https://doc.jeedom.com/de_DE/dev/).
+Es zeigt auch ein Dashboard an, das die Leistung eines Solarpanelsystems, den Verbrauch (Wasser, Gas und Strom) sowie die Details des Stromverbrauchs bestimmter Geräte anzeigt (natürlich notwendig, um ein Modul zu haben, um es zu messen)
 
-Im Detail :   
-* [Verwenden der Plugin-Vorlage](https://doc.jeedom.com/de_DE/dev/plugin_template) : Das Plugin-Template ist eine Plugin-Basis für Jeedom, die mit der ID Ihres Plugins angepasst werden muss und zu der Sie nur Ihre eigenen Funktionen hinzufügen müssen.
+Für diejenigen, die über Solarenergie verfügen, kann es Ihnen auch die Produktionsprognose gemäß den Eigenschaften Ihrer Anlage anzeigen (informiert werden)
 
-* [Info.json-Datei](https://doc.jeedom.com/de_DE/dev/structure_info_json) : Integriert seit Version 3.0 von Jeedom, die Datei **info.json** ist für das ordnungsgemäße Funktionieren der Plugins und deren ordnungsgemäßen Einsatz auf dem Jeedom-Markt zwingend erforderlich.
+Bitte beachten Sie, dass das Plugin keine Kosten berechnet und berechnet (es ist nicht sein Zweck und wird es auch nicht sein))
 
-* [Plug-in-Symbol](https://doc.jeedom.com/de_DE/dev/Icone_de_plugin) : Um auf dem Jeedom-Markt veröffentlicht zu werden, muss jedes Plugin ein Symbol haben. Achten Sie darauf, nicht denselben Farbcode wie die Symbole der offiziellen Jeedom-Plugins zu verwenden.
+Damit es funktioniert, müssen Sie über Module verfügen, die diese Informationen hochladen : 
 
-* [Plugin-Widget](https://doc.jeedom.com/de_DE/dev/widget_plugin) : Präsentation der verschiedenen Möglichkeiten, benutzerdefinierte Widgets in das Plugin einzubinden.
+## Gaz
 
-* [Plugin-Dokumentation](https://doc.jeedom.com/de_DE/dev/documentation_plugin) : Überblick über die Einrichtung der Dokumentation, denn ein gutes Plugin ist nichts ohne die richtige Dokumentation.
+- Verbrauchstag
+- Sofortiger Verbrauch
 
-* [Plugin veröffentlichen](https://doc.jeedom.com/de_DE/dev/publication_plugin) : Beschreibung der für die Veröffentlichung des Plugins wesentlichen Voraussetzungen.
+## Eau
+
+- Verbrauchstag
+- Sofortiger Verbrauch
+
+## Electricité
+
+- Verbrauchstag
+- Sofortiger Verbrauch
+
+Wenn Sie Sonnenkollektoren haben, brauchen Sie mehr : 
+
+- Import von Strom aus den Netzen
+- Netzstromexport
+- Produktionstag
+- Nettoleistung
