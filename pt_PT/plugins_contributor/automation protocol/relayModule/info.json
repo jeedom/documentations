@@ -1,14 +1,21 @@
 {
-  "id" : "spotify", 
-  "name": "Spotify",
-  "description" : "Plugin pour le pilotage spotify connect",
-  "licence": "GPL",
-  "author": "sbarre35",
-  "require": "4.2.0",
-  "category": "multimedia",
-  "hasDependency": true,
-  "hasOwnDeamon": true,
-  "maxDependancyInstallTime": 60,
-  "changelog": "https:\/\/barre35.github.io\/jeedom-plugin-doc\/fr_FR\/spotify_changelog",
-  "documentation": "https:\/\/barre35.github.io\/jeedom-plugin-doc\/fr_FR\/spotify_documentation"
+	"id" : "conso",
+	"name" : "Suivi Conso",
+	"description" : "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production ",
+	"licence" : "AGPL",
+	"author" : "Mickeys",
+	"require" : "3.3",
+	"category" : "energy",
+	"display" : "panel",
+	"hasDependency" : false,
+	"hasOwnDeamon" : true,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://mickeys27.github.io/Docs/conso/#language#/changelog",
+	"documentation" : "https://mickeys27.github.io/Docs/conso/#language#/",
+	"link" : {
+		"forum":"https://www.jeedom.com/forum/viewtopic.php?f=149&t=8500",
+		"Community":"https://community.jeedom.com/t/plugin-suivi-conso-debuggage/8246"
+	},
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
 }
