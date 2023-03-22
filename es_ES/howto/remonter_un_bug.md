@@ -12,7 +12,7 @@ Hay varias formas en Jeedom para informar una inquietud :
 >
 > En el caso de una solicitud de soporte en un complemento de terceros, se envía un correo electrónico al desarrollador del complemento.
 
-> **IMPORTANTE**
+> **Importante**
 >
 > El soporte se realiza exclusivamente por correo electrónico, recuerde controlar su correo no deseado. Muy a menudo, el soporte responde rápidamente (demora antes de la respuesta en promedio de menos de 72 horas, tenga cuidado, dependiendo del problema, puede ser mucho más largo).
 
@@ -50,7 +50,7 @@ El soporte está disponible según su Service Pack
 Es posible abrir una solicitud de varias formas:
 [Solicitudes o tickets de soporte de documentación](https://doc.jeedom.com/es_ES/premiers-pas/#Les%20demandes%20de%20support%20\(ou%20tickets\))
 
->**IMPORTANTE**
+>**Importante**
 >
 >Atención, vemos a muchos usuarios con buzones de correo "mailinblack", que durante el 1er intercambio le piden al remitente que valide un enlace para demostrar que efectivamente es un humano. Este sistema no es compatible con nuestro sistema de ticketing, por lo que aunque te respondamos, nunca recibirás la respuesta en tu buzón porque nos bloquea. Así que gracias en su página de perfiles de mercado por poner una dirección de correo electrónico que no usa este sistema, de lo contrario nunca recibirá nuestra respuesta.
 

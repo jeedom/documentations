@@ -12,7 +12,7 @@ It is necessary in particular :
 - to prepare [a USB key formatted in **FAT32**](https://fr.wikihow.com/formater-en-FAT32){:target = "\_ blank"} and having **more than 8GB of free space**,
 - be on the **same local network** than the Smart box and access it from its **internal address**.
 
->**IMPORTANT**
+>**Important**
 >
 >As usual, it is strongly recommended to keep a **recent backup** of your Jeedom beforehand.
 
@@ -82,7 +82,7 @@ At the end of the migration process, the Smart box is now in an up-to-date envir
 
 ![Finalisation migration](images/migrateos-smart11.png)
 
->**IMPORTANT**
+>**Important**
 >
 >**Make sure to remove the USB key from the Smart box at the end of the operation.**
 

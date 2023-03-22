@@ -84,11 +84,11 @@ REPLACE INTO user SET `login`='adminTmp',password='c7ad44cbad762a5da0a452f9e854f
 
 Listo. Puede desconectarse / volver a conectarse a su Jeedom con los identificadores adminTmp / admin que le permitirán cambiar la contraseña de otras cuentas también.
 
->**IMPORTANTE**
+>**Importante**
 >
 >Recuerde que una vez que se recupere su acceso para eliminar el usuario adminTmp, dejarlo podría ser una posible violación de seguridad de la cual usted es el único responsable.
 
->**IMPORTANTE**
+>**Importante**
 >
 > Si ha habilitado la autenticación AD / LDAP, este método de reinicio no funcionará a menos que desactive el modo AD / LDAP. Puedes hacer esto haciendo :
 >````

@@ -52,14 +52,14 @@ The upgrade window will analyze the system and all the plugins installed on your
 - The upper part presents some innovations to discover in V4 with a banner summarizing in general the compatibility of the installed plugins :    
 ![migration modal up](images/migrate-version07.png)
 
->**IMPORTANT**
+>**Important**
 >
 >It will not be possible to migrate to an installation with an environment prior to ``Debian Stretch 9.X`` *(``Debian 8.X Jessie`` or lower)*. You will also be asked to remove any plugins identified as being obsolete.
 
 - The lower part consists of a table detailing all the plugins installed as well as their confirmed compatibility or not with this new version :    
 ![migration modal down](images/migrate-version08.png)
 
-> **IMPORTANT**    
+> **Important**    
 >
 >This new version of Jeedom brings major changes. As a result, third-party widgets and some design customizations used in V3 may no longer be displayed or react as desired and may require your intervention following the switch to V4.
 
@@ -77,7 +77,7 @@ To start the migration process, click **Okay** :
 
 You then switch to the page containing the migration logs which will start by backing up the current installation before updating the plugins and the core.
 
-> **IMPORTANT**    
+> **Important**    
 >
 >Depending on the hardware on which Jeedom is installed, this operation may take several minutes. It is essential to let the migration process run until the end.
 

@@ -84,11 +84,11 @@ REPLACE INTO user SET `login`='adminTmp',password='c7ad44cbad762a5da0a452f9e854f
 
 Hier. Sie können die Verbindung zu Ihrem Jeedom mit den Kennungen adminTmp / admin trennen / wieder herstellen, sodass Sie auch das Kennwort anderer Konten ändern können.
 
->**WICHTIG**
+>**Wichtig**
 >
 >Denken Sie daran, dass nach dem Wiederherstellen Ihres Zugriffs zum Löschen des adminTmp-Benutzers möglicherweise eine Sicherheitsverletzung vorliegt, für die Sie allein verantwortlich sind.
 
->**WICHTIG**
+>**Wichtig**
 >
 > Wenn Sie die AD / LDAP-Authentifizierung aktiviert haben, funktioniert diese Rücksetzmethode nur, wenn Sie den AD / LDAP-Modus deaktivieren. Sie können dies tun, indem Sie dies tun :
 >````
