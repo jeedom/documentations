@@ -861,6 +861,8 @@
         "Toutes les données sont généralement disponibles en temps réel mais la fréquence d'actualisation dépend du service utilisé": "Alle Daten sind in der Regel in Echtzeit verfügbar, die Aktualisierungsrate hängt jedoch vom verwendeten Dienst ab",
         "Stock exchange": "Börse",
         "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin": "Plugin zum Abrufen von Börsenkursen (unabhängig vom angeforderten Symbol) aber auch des Wechselkurses zwischen zwei Währungen (einschließlich Kryptowährung wie Bitcoin",
+        "Réveil": "Erwachen",
+        "Utiliser votre domotique pour vous réveiller": "Verwenden Sie Ihre Hausautomation, um Sie aufzuwecken",
         "Plugin pour ajouter un programmateur à une commande": "Plugin zum Hinzufügen eines Programmiergeräts zu einer Bestellung",
         "My Bin": "Meine Tonne",
         "Poubelle verte": "Grüner Mülleimer",

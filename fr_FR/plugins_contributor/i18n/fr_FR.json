@@ -393,6 +393,8 @@
         "Toutes les données sont généralement disponibles en temps réel mais la fréquence d'actualisation dépend du service utilisé": "Toutes les données sont généralement disponibles en temps réel mais la fréquence d'actualisation dépend du service utilisé",
         "Stock exchange": "Stock exchange",
         "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin": "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin",
+        "Réveil": "Réveil",
+        "Utiliser votre domotique pour vous réveiller": "Utiliser votre domotique pour vous réveiller",
         "Programmateur": "Programmateur",
         "Plugin pour ajouter un programmateur à une commande": "Plugin pour ajouter un programmateur à une commande",
         "My Bin": "My Bin",

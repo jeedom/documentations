@@ -861,6 +861,8 @@
         "Toutes les données sont généralement disponibles en temps réel mais la fréquence d'actualisation dépend du service utilisé": "All data is generally available in real time but the refresh rate depends on the service used",
         "Stock exchange": "Stock exchange",
         "Plugin permettant de récupérer les cours de bourse (quelque soit le symbole demandé) mais également le taux de change entre deux devises (y compris crypto-monnaie comme le bitcoin": "Plugin to retrieve stock market prices (regardless of the symbol requested) but also the exchange rate between two currencies (including cryptocurrency such as bitcoin",
+        "Réveil": "Awakening",
+        "Utiliser votre domotique pour vous réveiller": "Use your home automation to wake you up",
         "Plugin pour ajouter un programmateur à une commande": "Plugin to add a programmer to an order",
         "My Bin": "My Bin",
         "Poubelle verte": "Green trash can",
