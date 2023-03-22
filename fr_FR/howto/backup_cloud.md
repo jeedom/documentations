@@ -11,9 +11,6 @@ Une fois le service acheté il faut dans jeedom :
 >
 >Il est possible de voir les dossiers des backups jeedom directement depuis votre page profils sur le market, onglet mes services puis configuration au niveau du service backup cloud
 
-## FAQ
-
-> **Erreur Specification mandate value for attribute defer on line 19, column 146**
+>**IMPORTANT**
 >
-> Si vous avez cette erreur il faut contacter le support, c'est une erreur de notre coté au niveau (disque dur du serveur de backup en readonly).
-> Suite à la correction de notre coté il faudra surement forcer une reconfiguration du backup cloud sur votre page profils (onglet service puis backup cloud)
+>La taille maximal de stockage par compte market est de 4go au dela le systeme supprimera les fichiers de sauvegarde les plus vieux jusqu'a tomber en dessous des 4go.
