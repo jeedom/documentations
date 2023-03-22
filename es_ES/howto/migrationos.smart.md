@@ -12,7 +12,7 @@ Es necesario en particular :
 - preparar [una llave USB formateada en **FAT32**](https://fr.wikihow.com/formater-en-FAT32){:target = "\_ blank"} y teniendo **más de 8GB de espacio libre**,
 - estar en el **misma red local** que la Smart Box y acceder a ella desde su **dirección interna**.
 
->**Importante**
+>**IMPORTANTE**
 >
 >Como de costumbre, se recomienda encarecidamente mantener un **copia de seguridad reciente** de tu libertad de antemano.
 
@@ -82,7 +82,7 @@ Al final del proceso de migración, la caja inteligente se encuentra ahora en un
 
 ![Finalisation migration](images/migrateos-smart11.png)
 
->**Importante**
+>**IMPORTANTE**
 >
 >**Asegúrese de quitar la llave USB de la caja inteligente al final de la operación.**
 

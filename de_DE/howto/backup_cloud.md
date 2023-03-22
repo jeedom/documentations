@@ -11,9 +11,6 @@ Sobald der Dienst gekauft wurde, ist es in jeedom notwendig :
 >
 >Es ist möglich, die Jeedom-Sicherungsdateien direkt von Ihrer Profilseite auf dem Markt anzuzeigen, meine Dienste zu tabulieren und dann auf der Ebene des Cloud-Sicherungsdienstes zu konfigurieren
 
-## FAQ
-
-> **Fehlerspezifikationsmandatwert für Attributverschiebung in Zeile 19, Spalte 146**
+>**WICHTIG**
 >
-> Wenn Sie diesen Fehler haben, müssen Sie sich an den Support wenden. Dies ist ein Fehler auf unserer Seite auf der Ebene (Festplatte des Sicherungsservers ist schreibgeschützt).
-> Nach der Korrektur auf unserer Seite müssen Sie wahrscheinlich eine Neukonfiguration der Cloud-Sicherung auf Ihrer Profilseite erzwingen (Registerkarte "Service" und dann Cloud-Sicherung)
+>Die maximale Speichergröße pro Marktkonto beträgt 4 GB, darüber hinaus löscht das System die ältesten Sicherungsdateien, bis sie unter 4 GB fallen.

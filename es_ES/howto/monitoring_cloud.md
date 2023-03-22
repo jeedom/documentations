@@ -28,7 +28,7 @@ De manera predeterminada, se le notifica por un correo electrónico en su correo
 >
 > Puede encontrar su chatid desde jeedom yendo al equipo de telegramas, luego a la configuración avanzada del comando del destinatario deseado, luego al botón de información y en el campo de configuración tiene el chatid
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Atención, vemos a muchos usuarios con buzones de correo "mailinblack", que durante el 1er intercambio le piden al remitente que valide un enlace para demostrar que efectivamente es un humano. Este sistema no es compatible con el sistema de correo del servicio de seguimiento. Así que gracias en su página de perfiles de mercado por poner una dirección de correo electrónico que no usa este sistema, de lo contrario, nunca recibirá una alerta del sistema.
 
@@ -41,11 +41,11 @@ El procedimiento es bastante simple, tienes que :
 
 Después de agregar crédito de monitoreo en la nube, debe esperar unas horas (alrededor de 24 horas), o en Jeedom, en la sección de configuración y luego actualizar, haga clic en el botón "prueba" para conectarse al mercado (esto obliga a Jeedom a recuperarse información de mercado y, por lo tanto, el hecho de que el servicio de monitoreo en la nube está activo).
 
->**Importante**
+>**IMPORTANTE**
 >
 > Una vez que se activa el servicio, monitorea todos los Jeedom conectados a su cuenta. Sin embargo, es posible de Jeedom 4.2 para desactivar la monitorización desde su configuración (Market / pestaña actualización))
 
->**Importante**
+>**IMPORTANTE**
 >
 > Para las notificaciones, simplemente recolecte el arn de su dispositivo móvil, se encuentra en el complemento móvil, en su equipo móvil, luego acceda a la pestaña "notificación", luego copie la línea "ARN". que hay después de "arn:aws:sns:eu-west-1:507915066327:endpoint/"
 

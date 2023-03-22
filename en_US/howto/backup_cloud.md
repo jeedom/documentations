@@ -11,9 +11,6 @@ Once the service has been purchased, it is necessary in jeedom :
 >
 >It is possible to see the jeedom backup files directly from your profile page on the market, tab my services then configuration at the level of the cloud backup service
 
-## FAQ
-
-> **Error Specification mandate value for attribute defer on line 19, column 146**
+>**IMPORTANT**
 >
-> If you have this error you must contact the support, it is an error on our side at the level (hard drive of the backup server in readonly).
-> Following the correction on our side, you will probably have to force a reconfiguration of the cloud backup on your profile page (service tab then cloud backup)
+>The maximum storage size per market account is 4gb beyond that the system will delete the oldest backup files until it falls below 4gb.

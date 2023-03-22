@@ -12,7 +12,7 @@ In Jeedom gibt es verschiedene Möglichkeiten, Bedenken zu melden :
 >
 > Bei einer Supportanfrage für ein Plugin eines Drittanbieters wird eine E-Mail an den Plugin-Entwickler gesendet.
 
-> **Wichtig**
+> **WICHTIG**
 >
 > Denken Sie daran, Ihren Spam zu überwachen, da der Support ausschließlich per E-Mail erfolgt. In den meisten Fällen reagiert der Support schnell (Verzögerung vor der Antwort durchschnittlich weniger als 72 Stunden, Vorsicht, je nach Problem kann es viel länger dauern).
 
@@ -50,7 +50,7 @@ Der Support ist abhängig von Ihrem Service Pack verfügbar
 Es gibt verschiedene Möglichkeiten, eine Anfrage zu öffnen:
 [Dokumentation Supportanfragen oder Tickets](https://doc.jeedom.com/de_DE/premiers-pas/#Les%20demandes%20de%20support%20\(ou%20tickets\))
 
->**Wichtig**
+>**WICHTIG**
 >
 >Achtung, wir sehen viele Benutzer mit "mailinblack"-Postfächern, die beim ersten Austausch den Absender bitten, einen Link zu validieren, um zu beweisen, dass es sich tatsächlich um einen Menschen handelt. Dieses System ist nicht mit unserem Ticketing-System kompatibel. Selbst wenn wir Ihnen antworten, erhalten Sie die Antwort nie in Ihrem Postfach, da es uns blockiert. Vielen Dank, dass Sie auf Ihrer Marktprofilseite eine E-Mail-Adresse angeben, die dieses System nicht verwendet, andernfalls werden Sie unsere Antwort nie erhalten.
 

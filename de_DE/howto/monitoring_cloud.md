@@ -28,7 +28,7 @@ Standardmäßig werden Sie durch eine E-Mail in Ihrer E-Mail benachrichtigt, die
 >
 > Sie können Ihre Chat-ID von jeedom aus finden, indem Sie zur Telegrammausrüstung gehen, die erweiterte Konfiguration des Befehls des gewünschten Empfängers und dann die Informationstaste ausführen und im Konfigurationsfeld die Chat-ID haben
 
-> **Wichtig**
+> **WICHTIG**
 >
 > Achtung, wir sehen viele Benutzer mit "mailinblack" -Postfächern, die beim ersten Austausch den Absender auffordern, einen Link zu validieren, um zu beweisen, dass es sich tatsächlich um einen Menschen handelt. Dieses System ist nicht kompatibel mit dem Mailing-System des Überwachungsdienstes. Vielen Dank, dass Sie auf Ihrer Marktprofilseite eine E-Mail-Adresse angeben, die dieses System nicht verwendet. Andernfalls erhalten Sie keine Benachrichtigung vom System.
 
@@ -41,11 +41,11 @@ Das Verfahren ist recht einfach, das muss man :
 
 Nachdem Sie das Guthaben für die Cloud-Überwachung hinzugefügt haben, müssen Sie entweder einige Stunden (ca. 24 Stunden) oder in Jeedom im Konfigurationsbereich warten und dann auf die Schaltfläche "Test" klicken, um eine Verbindung zum Markt herzustellen (dies zwingt Jeedom zur Wiederherstellung Marktinformationen und damit die Tatsache, dass der Cloud-Überwachungsdienst aktiv ist).
 
->**Wichtig**
+>**WICHTIG**
 >
 > Sobald der Dienst aktiviert ist, überwacht er alle mit Ihrem Konto verbundenen Jeedom. Es ist jedoch möglich ab Jeedom 4.2, um die Überwachung aus ihrer Konfiguration zu deaktivieren (Registerkarte Markt / Update))
 
->**Wichtig**
+>**WICHTIG**
 >
 > Für Benachrichtigungen sammeln Sie einfach den Arn von Ihrem Handy. Er befindet sich im mobilen Plugin auf Ihrem Mobilgerät. Rufen Sie dann die Registerkarte "Benachrichtigung" auf und kopieren Sie die Zeile "ARN". dass es nach "arn:aws:sns:eu-west-1:507915066327:endpoint/"
 

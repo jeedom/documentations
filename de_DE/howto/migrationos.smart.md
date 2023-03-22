@@ -12,7 +12,7 @@ Es ist insbesondere notwendig :
 - vorbereiten [ein USB-Stick formatiert **FAT32**](https://fr.wikihow.com/formater-en-FAT32){:target = "\_ blank"} und haben **mehr als 8 GB freier Speicherplatz**,
 - auf der sein **gleiches lokales Netzwerk** als die Smart-Box und greifen Sie von seiner **interne Adresse**.
 
->**Wichtig**
+>**WICHTIG**
 >
 >Wie üblich wird dringend empfohlen, a **Letzte Sicherung** deines Jeedom vorher.
 
@@ -82,7 +82,7 @@ Am Ende des Migrationsprozesses befindet sich die Smart Box nun in einer aktuell
 
 ![Finalisation migration](images/migrateos-smart11.png)
 
->**Wichtig**
+>**WICHTIG**
 >
 >**Stellen Sie sicher, dass Sie den USB-Stick am Ende des Vorgangs aus der Smart Box entfernen.**
 
