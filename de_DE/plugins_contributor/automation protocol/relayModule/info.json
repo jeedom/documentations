@@ -1,21 +1,17 @@
 {
-	"id" : "conso",
-	"name" : "Suivi Conso",
-	"description" : "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production ",
+	"id" : "openalpr",
+	"name" : "OpenALPR",
+	"description" : "Plugin permanent de faire de la reconnaissance de plaque d'immatriculation avec nos camera",
 	"licence" : "AGPL",
-	"author" : "Mickeys",
+	"author" : "Halbout Michael",
 	"require" : "3.3",
-	"category" : "energy",
+	"category" : "security",
 	"display" : "panel",
-	"hasDependency" : false,
+	"mobile" : "panel",
 	"hasOwnDeamon" : true,
-	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://mickeys27.github.io/Docs/conso/#language#/changelog",
-	"documentation" : "https://mickeys27.github.io/Docs/conso/#language#/",
-	"link" : {
-		"forum":"https://www.jeedom.com/forum/viewtopic.php?f=149&t=8500",
-		"Community":"https://community.jeedom.com/t/plugin-suivi-conso-debuggage/8246"
-	},
-	"language" : ["fr_FR"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+	"hasDependency" : true,
+	"maxDependancyInstallTime" : 14400,
+ 	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+ 	"documentation" : "https://mika-nt28.github.io/Documentations/openalpr/#language#",
+	"changelog" : "https://mika-nt28.github.io/Documentations/openalpr/#language#/changelog"
 }
