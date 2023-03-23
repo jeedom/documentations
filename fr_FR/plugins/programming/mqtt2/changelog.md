@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 22/03/2023
+
+- Correction de bugs
+
 # 07/03/2023
 
 - Ajout d'un systeme d'autodecouverte pour certain module en beta (esphome, tasmota et shelly)

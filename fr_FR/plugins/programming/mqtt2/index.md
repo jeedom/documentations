@@ -96,7 +96,7 @@ Il est possible de piloter Jeedom à travers MQTT. Ci-après les différents top
 - **Broker local** : Il faut alors utiliser le bouton rouge **Désinstaller Mosquitto** depuis la page de configuration générale du plugin.
 
 
-# Découverte auto (disvoery)
+# Découverte auto (discovery)
 
 Le plugin peux faire de la decouverte auto de plusieurs type de module. Pour cela il vous suffit juste d'autoriser la decouverte auto sur la page principale du plugin et de relancer le demon.
 
