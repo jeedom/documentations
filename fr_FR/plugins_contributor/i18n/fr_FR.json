@@ -205,6 +205,9 @@
         "Plugin pour monitorer un Powerwall Tesla": "Plugin pour monitorer un Powerwall Tesla",
         "Solaredge": "Solaredge",
         "Plugin permettant la lecture de données d'un onduleur de panneaux photovoltaïque de la marque Solaredge": "Plugin permettant la lecture de données d'un onduleur de panneaux photovoltaïque de la marque Solaredge",
+        "Il peut utiliser plusieures dizaines de transformateurs de courant banals et transmettra les données localement via un serveur web intégré, ou les téléchargera vers n'importe lequel des sites web\/bases de données énergétiques tiers": "Il peut utiliser plusieures dizaines de transformateurs de courant banals et transmettra les données localement via un serveur web intégré, ou les téléchargera vers n'importe lequel des sites web\/bases de données énergétiques tiers",
+        "IoTaWatt": "IoTaWatt",
+        "Plugin permettant de récupérer les informations sa box IoTaWatt": "Plugin permettant de récupérer les informations sa box IoTaWatt",
         "com), et de créer des crons en fonction des événements": "com), et de créer des crons en fonction des événements",
         "Hydro Québec": "Hydro Québec",
         "Plugin permettant de récupérer les informations de consommation électrique d'Hydro-Québec (wwww.hydroquebec": "Plugin permettant de récupérer les informations de consommation électrique d'Hydro-Québec (wwww.hydroquebec",
@@ -243,7 +246,8 @@
         "Changelog Beta": "Changelog Beta",
         "Documentation": "Documentation",
         "Pour le moment seule l'API Ecowatt est disponible": "Pour le moment seule l'API Ecowatt est disponible",
-        "Merci de suivre la documentation pour la configuration": "Merci de suivre la documentation pour la configuration"
+        "Merci de suivre la documentation pour la configuration": "Merci de suivre la documentation pour la configuration",
+        "IoTaWatt est un projet à code source ouvert et à matériel ouvert visant à produire un moniteur d'énergie précis, peu coûteux et facile à utiliser": "IoTaWatt est un projet à code source ouvert et à matériel ouvert visant à produire un moniteur d'énergie précis, peu coûteux et facile à utiliser"
     },
     "plugins_contributor\/health\/index.md": {
         "Withings \/ Nokia": "Withings \/ Nokia",
