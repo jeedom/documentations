@@ -1,4 +1,4 @@
-# Registro de cambios Energía
+# Tablero de cambios de energía
 
 # Plantilla de complemento de registro de cambios
 
@@ -6,3 +6,6 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 25/03/2023
+
+- Corrección de errores

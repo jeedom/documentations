@@ -1,17 +1,17 @@
 {
     "id": "energy3",
-    "name": "Energie",
+    "name": "Energie dashboard",
     "description": {
-        "fr_FR": "Template servant de base à la création de plugins pour Jeedom",
-        "en_US": "Template serving as a basis for the creation of plugins for Jeedom",
-        "es_ES": "Plantilla que sirve como base para la creación de complementos para Jeedom",
-        "de_DE": "Vorlage, die als Grundlage für die Erstellung von Plugins für Jeedom dient",
-        "ru_RU": "Template servant de base à la création de plugins pour Jeedom",
-        "id_ID": "Template servant de base à la création de plugins pour Jeedom",
-        "it_IT": "Template servant de base à la création de plugins pour Jeedom",
-        "ja_JP": "Template servant de base à la création de plugins pour Jeedom",
-        "pt_PT": "Template servindo de base para criação de plugins para Jeedom",
-        "tr": "Template servant de base à la création de plugins pour Jeedom"
+        "fr_FR": "Plugin servant à afficher un dashboard energique de la maison (eau, gaz, electricité et production solaire). Attention se plugin ne prend pas en charge les batteries",
+        "en_US": "Plugin used to display an energy dashboard of the house (water, gas, electricity and solar production). Please note that this plugin does not support batteries",
+        "es_ES": "Complemento utilizado para mostrar un tablero de energía de la casa (agua, gas, electricidad y producción solar). Tenga en cuenta que este complemento no admite baterías",
+        "de_DE": "Plugin zur Anzeige eines Energie-Dashboards des Hauses (Wasser-, Gas-, Strom- und Solarproduktion). Bitte beachten Sie, dass dieses Plugin keine Batterien unterstützt",
+        "ru_RU": "Plugin servant à afficher un dashboard energique de la maison (eau, gaz, electricité et production solaire). Attention se plugin ne prend pas en charge les batteries",
+        "id_ID": "Plugin servant à afficher un dashboard energique de la maison (eau, gaz, electricité et production solaire). Attention se plugin ne prend pas en charge les batteries",
+        "it_IT": "Plugin servant à afficher un dashboard energique de la maison (eau, gaz, electricité et production solaire). Attention se plugin ne prend pas en charge les batteries",
+        "ja_JP": "Plugin servant à afficher un dashboard energique de la maison (eau, gaz, electricité et production solaire). Attention se plugin ne prend pas en charge les batteries",
+        "pt_PT": "Plugin usado para exibir um painel de energia da casa (água, gás, eletricidade e produção solar). Por favor, note que este plugin não suporta baterias",
+        "tr": "Plugin servant à afficher un dashboard energique de la maison (eau, gaz, electricité et production solaire). Attention se plugin ne prend pas en charge les batteries"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -24,10 +24,6 @@
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy3\/",
     "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy3\/beta\/changelog",
     "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy3\/beta",
-    "link": {
-        "forum": "Lien vers le forum",
-        "video": "Lien vers une video"
-    },
     "display": "panel",
     "mobile": "panel",
     "language": [

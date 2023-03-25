@@ -1,8 +1,8 @@
 {
 	"id" : "energy3",
-	"name" : "Energie",
+	"name" : "Energie dashboard",
 	"description" : {
-		"fr_FR": "Template servant de base à la création de plugins pour Jeedom"
+		"fr_FR": "Plugin servant à afficher un dashboard energique de la maison (eau, gaz, electricité et production solaire). Attention se plugin ne prend pas en charge les batteries"
 	},
 	"licence" : "AGPL",
 	"author" : "Jeedom SAS",
@@ -11,14 +11,10 @@
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://jeedom.github.io/plugin-template/#language#/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-template/#language#/",
-	"changelog_beta" : "https://jeedom.github.io/plugin-template/#language#/beta/changelog",
-	"documentation_beta" : "https://jeedom.github.io/plugin-template/#language#/beta/",
-	"link" : {
-		"forum":"Lien vers le forum",
-		"video" : "Lien vers une video"
-	},
+	"changelog" : "https://jeedom.github.io/plugin-energy3/#language#/changelog",
+	"documentation" : "https://jeedom.github.io/plugin-energy3/#language#/",
+	"changelog_beta" : "https://jeedom.github.io/plugin-energy3/#language#/beta/changelog",
+	"documentation_beta" : "https://jeedom.github.io/plugin-energy3/#language#/beta/",
 	"display": "panel",
     "mobile": "panel",
 	"language": [
