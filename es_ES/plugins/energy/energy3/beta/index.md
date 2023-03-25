@@ -31,3 +31,7 @@ Si tienes paneles solares necesitas más :
 - Exportación de electricidad de red
 - Día de producción
 - Poder de la red
+
+>**IMPORTANTE**
+>
+>Dependiendo de tus mandos, puede que necesites adaptar la unidad en la página de configuración de mandos del equipo de energía que hayas creado

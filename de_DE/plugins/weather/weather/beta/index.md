@@ -1,12 +1,12 @@
 # Wetter Plugin
 
-Das Plugin **Wetter** Ermöglicht das Abrufen von Wetterdaten aus einer oder mehreren Städten. Die Informationen stammen von der Website **Openweathermap** die unter anderem Zugriff auf Vorhersagen, Sonnenauf- und -untergangsinformationen, Temperatur, Luftfeuchtigkeit, Wind usw...
+Das Plugin **Wetter** Ermöglicht das Abrufen von Wetterdaten aus einer oder mehreren Städten.
 
 Diese Daten werden alle 30 Minuten aktualisiert.
 
->**INFORMATION**
+>**WICHTIG**
 >
->OpenWeather bietet eine Liste mit Informationen für die nächsten 120 Stunden. Daher kennen wir je nach aktuellem Zeitpunkt nur einen Teil der Informationen bei D+4. Daher wird diese Vorhersage für D + 4 verfeinert, um im Verlauf des aktuellen Tages genauer zu werden. Aus diesem Grund können bestimmte Informationen, wie die auf D + 4 erreichte MAX-Temperatur, nur am Ende des Tages sinnvoll sein.
+>Nach der Konfiguration und Aktivierung der Geräte ist es unbedingt erforderlich, ein manuelles Datenupdate für die Aktualisierung des Plugins zu starten oder 30 Minuten auf das automatische Update zu warten
 
 # Configuration
 
@@ -39,5 +39,3 @@ Anschließend müssen Sie die GPS-Koordinaten des Ortes eingeben, von dem Sie di
 - **Längengrad** : Längengrad des Ortes, dessen Wetter Sie abrufen möchten *(Unter dem Formular XX.XXXXXXX)*.
 
 Durch Klicken auf die Registerkarte **Befehle**, finden wir die Liste aller verfügbaren Befehle sowie die Möglichkeit, die Zahlenwerte zu protokollieren.
-
-Der Befehl **Nummer** gibt einen Code an, der sich auf den aktuellen Zustand bezieht, unter dem Sie weitere Informationen finden können [an dieser Adresse](https://openweathermap.org/weather-conditions).

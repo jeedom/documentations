@@ -1,12 +1,12 @@
 # Complemento meteorológico
 
-El complemento **Clima** le permite recuperar datos meteorológicos de una o más ciudades. La información proviene del sitio web **Openweathermap** que da acceso, entre otras cosas, a previsiones, información de salida y puesta del sol, temperatura, humedad, viento, etc...
+El complemento **Clima** le permite recuperar datos meteorológicos de una o más ciudades.
 
 Estos datos se actualizan cada 30 minutos.
 
->**INFORMACIÓN**
+>**IMPORTANTE**
 >
->OpenWeather proporciona una lista de información para las próximas 120 horas. Por lo tanto, dependiendo de la hora actual, solo conocemos parte de la información en D+4. Por lo tanto, esta predicción en D + 4 se refina para ser más precisa a medida que avanza el día actual. Por esta razón, cierta información, como la temperatura MÁX alcanzada en D + 4, solo puede tener sentido al final del día.
+>Después de la configuración y activación del equipo, es absolutamente necesario iniciar una actualización manual de datos para que el complemento se actualice o esperar 30 minutos para la actualización automática
 
 # Configuration
 
@@ -39,5 +39,3 @@ A continuación, deberá introducir las coordenadas GPS del lugar desde el que d
 - **Longitud** : Longitud del lugar cuyo clima desea recuperar *(bajo la forma XX.XXXXXXX)*.
 
 Haciendo clic en la pestaña **Comandos**, encontramos la lista de todos los comandos disponibles así como la posibilidad de registrar los valores numéricos.
-
-El comando **Número** da un código relacionado con la condición actual de la que puede encontrar más información [a esta dirección](https://openweathermap.org/weather-conditions).

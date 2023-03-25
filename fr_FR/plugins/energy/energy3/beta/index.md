@@ -31,3 +31,7 @@ Si vous avez des panneaux solaire il faut en plus :
 - Export d'electricité du réseaux
 - Production jour
 - Puissance nette
+
+>**IMPORTANT**
+>
+>En fonction de vos commandes il vous faudra peut etre adapter l'unité sur la page de configuration des commandes de l'équipement energie que vous avez créer

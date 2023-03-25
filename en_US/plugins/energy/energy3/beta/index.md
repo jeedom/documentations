@@ -31,3 +31,7 @@ If you have solar panels you need more :
 - Network electricity export
 - Production day
 - Net power
+
+>**IMPORTANT**
+>
+>Depending on your commands, you may need to adapt the unit on the command configuration page of the energy equipment that you have created

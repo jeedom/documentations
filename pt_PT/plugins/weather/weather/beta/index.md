@@ -1,12 +1,12 @@
 # Plugin de clima
 
-O plugin **Clima** permite que você recupere dados meteorológicos de uma ou mais cidades. As informações são do site **Mapa de clima aberto** que dá acesso, entre outras coisas, a previsões, informações do nascer e pôr do sol, temperatura, umidade, vento, etc...
+O plugin **Clima** permite que você recupere dados meteorológicos de uma ou mais cidades.
 
 Esses dados são atualizados a cada 30 minutos.
 
->**EM FORMAÇÃO**
+>**IMPORTANTE**
 >
->OpenWeather fornece uma lista de informações para as próximas 120 horas. Portanto, dependendo da hora atual, sabemos apenas parte da informação em D+4. Assim, essa previsão em D + 4 é refinada para se tornar mais precisa à medida que o dia atual progride. Por esse motivo, certas informações, como a temperatura MAX atingida em D + 4, só fazem sentido no final do dia.
+>Após a configuração e ativação do equipamento, é absolutamente necessário lançar uma atualização manual de dados para que o plugin seja atualizado ou aguardar 30min para a atualização automática
 
 # Configuration
 
@@ -39,5 +39,3 @@ Em seguida, você precisará inserir as coordenadas GPS do local de onde deseja 
 - **Longitude** : Longitude do local cujo clima você deseja recuperar *(Sob o formulário XX.XXXXXXX)*.
 
 Ao clicar na guia **Comandos**, encontramos a lista de todos os comandos disponíveis, bem como a possibilidade de registrar os valores numéricos.
-
-O comando **Número** fornece um código relacionado com a condição atual a partir do qual você pode encontrar mais informações [neste endereço](https://openweathermap.org/weather-conditions).

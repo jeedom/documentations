@@ -31,3 +31,7 @@ Wenn Sie Sonnenkollektoren haben, brauchen Sie mehr :
 - Netzstromexport
 - Produktionstag
 - Nettoleistung
+
+>**WICHTIG**
+>
+>Abhängig von Ihren Befehlen müssen Sie eventuell die Einheit auf der Befehlskonfigurationsseite des von Ihnen erstellten Energiegeräts anpassen

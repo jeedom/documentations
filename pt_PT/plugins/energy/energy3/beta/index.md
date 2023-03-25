@@ -31,3 +31,7 @@ Se você tiver painéis solares, precisará de mais :
 - Exportação de eletricidade de rede
 - Dia de produção
 - Potência líquida
+
+>**IMPORTANTE**
+>
+>Dependendo dos seus comandos, pode ser necessário adaptar a unidade na página de configuração de comandos do equipamento de energia que você criou
