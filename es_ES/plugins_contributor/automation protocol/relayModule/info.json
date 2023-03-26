@@ -15,7 +15,7 @@
   "require": "4.2",
   "category": "energy",
   "hasDependency": false,
-  "hasOwnDeamon": false,
+  "hasOwnDeamon": true,
   "maxDependancyInstallTime": 0,
   "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-iotawatt-pour-jeedom/",
   "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-iotawatt-pour-jeedom/",
