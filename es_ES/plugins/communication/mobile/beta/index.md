@@ -4,6 +4,77 @@ Complemento para usar la aplicación Jeedom Mobile.
 
 La aplicación móvil Jeedom requiere la instalación de este complemento para que la caja pueda comunicarse con la aplicación móvil.
 
+
+
+# Configuración del complemento móvil para la aplicación V2
+
+Después de instalar el complemento, solo necesita activarlo :
+
+![mobile1](../images/mobile1.png)
+
+
+# Primera conexión a la aplicación V2
+
+Para conectar tu teléfono : hay 2 métodos posibles;
+en la primera pantalla de la aplicación, se le ofrece conectar su cuenta de mercado y así encontrar todas las casillas asociadas a esta cuenta, o simplemente agregar una casilla.
+
+![v2ConnectMarket](../images/v2firstConnect.jpeg)
+
+
+#### __ENTRAR A TRAVÉS DE LA CUENTA DE MERCADO__ :
+
+![v2ConnectMarket](../images/v2connectMarket.PNG)
+
+Todo lo que tiene que hacer es ingresar su Market ID y contraseña.
+
+
+#### __INICIO DE SESIÓN A TRAVÉS DE BOX ID__ :
+
+![v22methods](../images/v22methods.PNG)
+
+Varias opciones en esta pantalla :
+
+  - Ingresas la url de tu Jeedom (interna o externa), así como los identificadores de acceso a la misma y confirmas con el botón LOGIN
+
+
+  - Haces clic en el código QR : aparece una nueva pantalla; puede escanear un QRCode desde el complemento móvil del cuadro que desea agregar, a través de la pestaña QRCODE del complemento.
+
+![v2ModalQrApp](../images/v2QRCodeConnect.PNG)
+
+
+> Pestaña Código QR del complemento móvil
+
+>> ![Complemento v2Modal](../images/v2ModalQrCode.png)
+
+
+
+Una vez realizado este primer paso, ya estás registrado en la aplicación: si tiene el complemento móvil, tendrá acceso a través del menú a Notificaciones, QrCodes, Personalización del menú ....
+
+
+En el menú, tendrá una pestaña Cajas, que agrupa todas las cajas presentes en esta cuenta de mercado
+
+![v2MenuBoxs](../images/v2MenuBoxs.PNG)
+
+![v2floutedBoxs](../images/v2floutedBoxs.png)
+
+Simplemente haga clic en el cuadro donde está instalado el complemento móvil, luego identifíquese para acceder al cuadro.
+
+La casilla irá al principio de la lista, habiendo validado su autenticación.
+Puedes hacer esto para varias cajas.
+
+También puede hacer clic en el botón + en la parte inferior derecha para acceder a diferentes opciones;
+  - QrCode para agregar un cuadro a la lista a través del complemento móvil,
+  - Manual para agregar una caja manualmente
+  - Detección Atlas y Luna (si estás en Wifi, detectará las cajas en la red)
+  - Sincronización de Market para actualizar la información de la cuenta de Market configurada
+
+![v2greenBtnAdd](../images/v2greenBtnAdd.PNG)
+
+
+
+
+
+
 # Configuración de complemento móvil
 
 Después de instalar el complemento, solo necesita activarlo :
