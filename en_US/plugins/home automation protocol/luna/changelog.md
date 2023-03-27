@@ -6,6 +6,13 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
+# 02/21/2023
+
+- SD partitioning.
+- Lora activation for Luna with integrated Lora (Pro).
+- Fix Localhost issue on the box.
+
+
 # 11/19/2022
 
 - SD (management)

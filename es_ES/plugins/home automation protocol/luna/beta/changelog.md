@@ -6,6 +6,13 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
+# 27/03/2023
+
+- Nueva imagen luna
+- Parche de host local
+- Parche de batería
+- Parche USB fijo (LORA-zigbee fijo)
+
 # 21/02/2023
 
 - Partición SD.

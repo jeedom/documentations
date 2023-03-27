@@ -6,6 +6,13 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
+# 21/02/2023
+
+- Partición SD.
+- Activación Lora para Luna con Lora integrado (Pro).
+- Solucionar el problema de Localhost en la caja.
+
+
 # 19/11/2022
 
 - SD (gestión)

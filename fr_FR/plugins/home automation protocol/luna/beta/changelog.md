@@ -6,6 +6,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 27/03/2023
+
+- Nouvelle image Luna
+- Patch Localhost
+- Patch Batterie
+- Patch USB fixed (LORA-zigbee fixed)
+
 # 21/02/2023
 
 - Partitionnage SD.
