@@ -36,6 +36,10 @@ Se você tiver painéis solares, precisará de mais :
 >
 >Dependendo dos seus comandos, pode ser necessário adaptar a unidade na página de configuração de comandos do equipamento de energia que você criou
 
+## Detalhes
+
+Para eletricidade é possível indicar os consumidores na aba de detalhes, pode ser um comando de tipo de energia (deve ser registrado), ou um comando de tipo de consumo. Se for consumo absoluto (sem zerar à meia-noite) não há mais o que fazer, se for consumo por dia (zerar à meia-noite) então a caixa deve ser marcada na linha final "Consumo por dia (se Wh ou kWh)"
+
 # Panel
 
 Para visualizar o histórico, previsão de produção e outros, você deve se lembrar na página de configuração do plugin (plugin -> gerenciamento de plugins) para ativar o painel (no desktop e/ou mobile) e então atualizar a página (f5). Então em casa você encontrará o painel do plugin.

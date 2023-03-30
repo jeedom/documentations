@@ -36,6 +36,10 @@ Wenn Sie Sonnenkollektoren haben, brauchen Sie mehr :
 >
 >Abhängig von Ihren Befehlen müssen Sie eventuell die Einheit auf der Befehlskonfigurationsseite des von Ihnen erstellten Energiegeräts anpassen
 
+## Einzelheiten
+
+Für Strom ist es möglich, Verbraucher in der Registerkarte „Details“ anzugeben, es kann sich entweder um einen Leistungstypbefehl (muss dann protokolliert werden) oder um einen Verbrauchstypbefehl handeln. Handelt es sich um den absoluten Verbrauch (kein Reset um Mitternacht) ist nichts weiter zu tun, handelt es sich um einen Verbrauch pro Tag (Reset um Mitternacht) muss das Häkchen in der Endzeile "Verbrauch pro Tag (wenn Wh oder kWh)"
+
 # Panel
 
 Um den Verlauf, die Produktionsprognose und andere anzuzeigen, müssen Sie auf der Plugin-Konfigurationsseite (Plugin -> Plugin-Verwaltung) daran denken, das Bedienfeld (auf dem Desktop und/oder Mobilgerät) zu aktivieren und dann die Seite zu aktualisieren (f5). Dann finden Sie zu Hause das Panel des Plugins.

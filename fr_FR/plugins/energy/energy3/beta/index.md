@@ -36,6 +36,10 @@ Si vous avez des panneaux solaire il faut en plus :
 >
 >En fonction de vos commandes il vous faudra peut etre adapter l'unité sur la page de configuration des commandes de l'équipement energie que vous avez créer
 
+## Détails
+
+Pour l'électricité il est possible d'indiquer des consommateurs dans l'onglet détails, ca peut soit etre une commande de type puissance (il faut alors qu'elle soit historisée), soit une commande de type consommation. Si c'est la consommation absolue (pas de remise à zéro à minuit) il n'y a rien de plus a faire, si c'est une consommation par jour (remise à zéro à minuit) alors il faut cocher la case en bout de ligne "Consommation par jour (si Wh ou kWh)"
+
 # Panel
 
 Pour visualiser les historiques, prevision de production et autre il faut bien penser sur la page de configuration du plugin (plugin -> gestion de plugin) à activer le panel (en desktop et/ou mobile) puis rafraichir la page (f5). Ensuite dans acceuil vous trouverez le panel du plugin.

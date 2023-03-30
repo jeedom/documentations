@@ -36,6 +36,10 @@ If you have solar panels you need more :
 >
 >Depending on your commands, you may need to adapt the unit on the command configuration page of the energy equipment that you have created
 
+## Details
+
+For electricity it is possible to indicate consumers in the details tab, it can either be a power type command (it must then be logged), or a consumption type command. If it is absolute consumption (no reset at midnight) there is nothing more to do, if it is consumption per day (reset at midnight) then the box must be checked at the end line "Consumption per day (if Wh or kWh)"
+
 # Panel
 
 To view the history, production forecast and other, you have to remember on the plugin configuration page (plugin -> plugin management) to activate the panel (on desktop and/or mobile) then refresh the page (f5). Then in home you will find the panel of the plugin.
