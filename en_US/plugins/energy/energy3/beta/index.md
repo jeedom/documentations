@@ -35,3 +35,7 @@ If you have solar panels you need more :
 >**IMPORTANT**
 >
 >Depending on your commands, you may need to adapt the unit on the command configuration page of the energy equipment that you have created
+
+# Panel
+
+To view the history, production forecast and other, you have to remember on the plugin configuration page (plugin -> plugin management) to activate the panel (on desktop and/or mobile) then refresh the page (f5). Then in home you will find the panel of the plugin.

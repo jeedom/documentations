@@ -35,3 +35,7 @@ Se você tiver painéis solares, precisará de mais :
 >**IMPORTANTE**
 >
 >Dependendo dos seus comandos, pode ser necessário adaptar a unidade na página de configuração de comandos do equipamento de energia que você criou
+
+# Panel
+
+Para visualizar o histórico, previsão de produção e outros, você deve se lembrar na página de configuração do plugin (plugin -> gerenciamento de plugins) para ativar o painel (no desktop e/ou mobile) e então atualizar a página (f5). Então em casa você encontrará o painel do plugin.

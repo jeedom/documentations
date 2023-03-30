@@ -35,3 +35,7 @@ Si tienes paneles solares necesitas más :
 >**IMPORTANTE**
 >
 >Dependiendo de tus mandos, puede que necesites adaptar la unidad en la página de configuración de mandos del equipo de energía que hayas creado
+
+# Panel
+
+Para ver el historial, el pronóstico de producción y otros, debe recordar en la página de configuración del complemento (complemento -> administración de complementos) para activar el panel (en el escritorio y/o móvil) y luego actualizar la página (f5). Luego en home encontrarás el panel del plugin.

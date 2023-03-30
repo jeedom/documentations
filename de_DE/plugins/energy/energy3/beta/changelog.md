@@ -6,6 +6,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 30.03.2023
+
+- Widget-Fehlerbehebungen
+
 # 25.03.2023
 
 - Fehlerbehebung

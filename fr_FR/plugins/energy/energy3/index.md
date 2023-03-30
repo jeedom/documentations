@@ -35,3 +35,7 @@ Si vous avez des panneaux solaire il faut en plus :
 >**IMPORTANT**
 >
 >En fonction de vos commandes il vous faudra peut etre adapter l'unité sur la page de configuration des commandes de l'équipement energie que vous avez créer
+
+# Panel
+
+Pour visualiser les historiques, prevision de production et autre il faut bien penser sur la page de configuration du plugin (plugin -> gestion de plugin) à activer le panel (en desktop et/ou mobile) puis rafraichir la page (f5). Ensuite dans acceuil vous trouverez le panel du plugin.
