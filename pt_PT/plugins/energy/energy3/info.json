@@ -2,7 +2,7 @@
 	"id" : "energy3",
 	"name" : "Energie dashboard",
 	"description" : {
-		"fr_FR": "Plugin servant à afficher un dashboard energique de la maison (eau, gaz, electricité et production solaire). Attention se plugin ne prend pas en charge les batteries"
+		"fr_FR": "Plugin servant à afficher un dashboard énergétique de la maison (eau, gaz, électricité et production solaire). Attention ce plugin ne prend pas en charge les batteries"
 	},
 	"licence" : "AGPL",
 	"author" : "Jeedom SAS",
