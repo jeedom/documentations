@@ -1,14 +1,14 @@
 # Plugin Energie
 
-Plugin permettant d'afficher un graphique globale des energie de la maison (eau, gaz, electricité, production electrique).
+Plugin permettant d’afficher un graphique globale des énergies de la maison (eau, gaz, électricité, production électrique).
 
-Il affichage aussi un dashboard qui montre la performance d'un systeme de panneaux solaire, les consommations (eau, gaz et electricité) ainsi que le details de consommation electrique de certains équipement (necessite bien sur d'avoir un module pour la mesurer)
+Il affiche également un dashboard montrant la performance d’un système de panneaux solaire, les consommations (eau, gaz et électricité) ainsi que le détails de consommation électrique de certains équipements (nécessite bien sûr d’avoir un module pour la mesurer)
 
-Pour ceux qui ont du solaire il peut aussi vous afficher la prevision de production en fonction des caracteristique de votre installation (à renseigner)
+Pour ceux qui ont du solaire il peut aussi vous afficher la prévision de production en fonction des caractéristiques de votre installation (à renseigner)
 
-Attention le plugin ne fait et ne fera aucun calcul de cout (ce n'est pas son but et ca ne le sera pas)
+Attention le plugin ne fait et ne fera aucun calcul de coût (ce n’est pas  et ne sera pas son but)
 
-Pour fonctionner il necessite que vous ayant des modules remontant ces informations : 
+Pour fonctionner il nécessite que vous ayez des modules remontant ces informations :
 
 ## Gaz
 
@@ -27,19 +27,19 @@ Pour fonctionner il necessite que vous ayant des modules remontant ces informati
 
 Si vous avez des panneaux solaire il faut en plus : 
 
-- Import d'electricité du réseaux
-- Export d'electricité du réseaux
+- Import d'électricité du réseau
+- Export d'électricité du réseau
 - Production jour
 - Puissance nette
 
 >**IMPORTANT**
 >
->En fonction de vos commandes il vous faudra peut etre adapter l'unité sur la page de configuration des commandes de l'équipement energie que vous avez créer
+>En fonction de vos commandes il vous faudra peut $etre adapter l'unité sur la page de configuration des commandes de l'équipement énergie que vous avez créer
 
 ## Détails
 
-Pour l'électricité il est possible d'indiquer des consommateurs dans l'onglet détails, ca peut soit etre une commande de type puissance (il faut alors qu'elle soit historisée), soit une commande de type consommation. Si c'est la consommation absolue (pas de remise à zéro à minuit) il n'y a rien de plus a faire, si c'est une consommation par jour (remise à zéro à minuit) alors il faut cocher la case en bout de ligne "Consommation par jour (si Wh ou kWh)"
+Pour l'électricité il est possible d'indiquer des consommateurs dans l'onglet détails, ca peut soit être une commande de type puissance (il faut alors qu'elle soit historisée), soit une commande de type consommation. Si c'est la consommation absolue (pas de remise à zéro à minuit) il n'y a rien de plus à faire, si c'est une consommation par jour (remise à zéro à minuit) alors il faut cocher la case en bout de ligne "Consommation par jour (si Wh ou kWh)"
 
 # Panel
 
-Pour visualiser les historiques, prevision de production et autre il faut bien penser sur la page de configuration du plugin (plugin -> gestion de plugin) à activer le panel (en desktop et/ou mobile) puis rafraichir la page (f5). Ensuite dans acceuil vous trouverez le panel du plugin.
+Pour visualiser les historiques, prévision de production et autre il faut bien penser sur la page de configuration du plugin (plugin -> gestion de plugins) à activer le panel (en desktop et/ou mobile) puis rafraichir la page (f5). Ensuite dans acceuil vous trouverez le panel du plugin.
