@@ -1,14 +1,14 @@
 # Plug-in de energia
 
-Plugin que permite visualizar um gráfico global da energia da casa (água, gás, eletricidade, produção de eletricidade).
+Plugin que permite visualizar um gráfico global das energias da casa (água, gás, eletricidade, produção de eletricidade).
 
-Também exibe um painel que mostra o desempenho de um sistema de painel solar, o consumo (água, gás e eletricidade) bem como os detalhes do consumo de eletricidade de determinados equipamentos (necessário, é claro, ter um módulo para medi-lo)
+Apresenta também um painel de controlo que mostra o desempenho de um sistema de painel solar, os consumos (água, gás e eletricidade) bem como os detalhes do consumo de eletricidade de determinados equipamentos (necessita, claro, de ter um módulo para o medir)
 
-Para quem tem energia solar, também pode mostrar a previsão de produção de acordo com as características da sua instalação (a informar)
+Para quem tem energia solar, também pode mostrar a previsão de produção de acordo com as características da sua instalação (a preencher)
 
-Observe que o plug-in não calcula e não calculará nenhum custo (não é seu objetivo e não será)
+Observe que o plug-in não calcula e não calculará nenhum custo (não é e não será seu objetivo)
 
-Para funcionar requer que você tenha módulos que carreguem essas informações : 
+Para funcionar, requer que você tenha módulos que carreguem essas informações :
 
 ## Gaz
 
@@ -27,14 +27,14 @@ Para funcionar requer que você tenha módulos que carreguem essas informações
 
 Se você tiver painéis solares, precisará de mais : 
 
-- Importação de eletricidade das redes
-- Exportação de eletricidade de rede
+- Importação de eletricidade da rede
+- Exportação de eletricidade da rede
 - Dia de produção
 - Potência líquida
 
 >**IMPORTANTE**
 >
->Dependendo dos seus comandos, pode ser necessário adaptar a unidade na página de configuração de comandos do equipamento de energia que você criou
+>Dependendo dos seus comandos, pode ser necessário adaptar a unidade na página de configuração de comandos para o equipamento de energia que você criou
 
 ## Detalhes
 
@@ -42,4 +42,4 @@ Para eletricidade é possível indicar os consumidores na aba de detalhes, pode 
 
 # Panel
 
-Para visualizar o histórico, previsão de produção e outros, você deve se lembrar na página de configuração do plugin (plugin -> gerenciamento de plugins) para ativar o painel (no desktop e/ou mobile) e então atualizar a página (f5). Então em casa você encontrará o painel do plugin.
+Para visualizar os históricos, previsão de produção e outros, lembre-se na página de configuração do plugin (plugin -> plugin management) para ativar o painel (no desktop e/ou mobile) e então atualizar a página (f5). Então em casa você encontrará o painel do plugin.

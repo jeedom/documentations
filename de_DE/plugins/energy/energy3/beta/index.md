@@ -1,14 +1,14 @@
 # Energie-Plugin
 
-Plugin, mit dem ein globales Diagramm der Energie des Hauses (Wasser, Gas, Strom, Stromerzeugung) angezeigt werden kann).
+Plugin, das es ermöglicht, ein globales Diagramm der Energien des Hauses (Wasser, Gas, Strom, Stromerzeugung) anzuzeigen).
 
-Es zeigt auch ein Dashboard an, das die Leistung eines Solarpanelsystems, den Verbrauch (Wasser, Gas und Strom) sowie die Details des Stromverbrauchs bestimmter Geräte anzeigt (natürlich notwendig, um ein Modul zu haben, um es zu messen)
+Es zeigt auch ein Dashboard an, das die Leistung einer Solaranlage, den Verbrauch (Wasser, Gas und Strom) sowie die Details des Stromverbrauchs bestimmter Geräte anzeigt (muss natürlich ein Modul haben, um es zu messen)
 
-Für diejenigen, die über Solarenergie verfügen, kann es Ihnen auch die Produktionsprognose gemäß den Eigenschaften Ihrer Anlage anzeigen (informiert werden)
+Für diejenigen, die über Solarenergie verfügen, kann es Ihnen auch die Produktionsprognose gemäß den Eigenschaften Ihrer Anlage anzeigen (auszufüllen)
 
-Bitte beachten Sie, dass das Plugin keine Kosten berechnet und berechnet (es ist nicht sein Zweck und wird es auch nicht sein))
+Bitte beachten Sie, dass das Plugin keine Kosten berechnet und berechnet (es ist nicht und wird nicht sein Zweck sein))
 
-Damit es funktioniert, müssen Sie über Module verfügen, die diese Informationen hochladen : 
+Um zu funktionieren, müssen Sie über Module verfügen, die diese Informationen hochladen :
 
 ## Gaz
 
@@ -27,14 +27,14 @@ Damit es funktioniert, müssen Sie über Module verfügen, die diese Information
 
 Wenn Sie Sonnenkollektoren haben, brauchen Sie mehr : 
 
-- Import von Strom aus den Netzen
+- Netzstromimport
 - Netzstromexport
 - Produktionstag
 - Nettoleistung
 
 >**WICHTIG**
 >
->Abhängig von Ihren Befehlen müssen Sie eventuell die Einheit auf der Befehlskonfigurationsseite des von Ihnen erstellten Energiegeräts anpassen
+>Abhängig von Ihren Befehlen müssen Sie möglicherweise die Einheit auf der Befehlskonfigurationsseite für das von Ihnen erstellte Energiegerät anpassen
 
 ## Einzelheiten
 
@@ -42,4 +42,4 @@ Für Strom ist es möglich, Verbraucher in der Registerkarte „Details“ anzug
 
 # Panel
 
-Um den Verlauf, die Produktionsprognose und andere anzuzeigen, müssen Sie auf der Plugin-Konfigurationsseite (Plugin -> Plugin-Verwaltung) daran denken, das Bedienfeld (auf dem Desktop und/oder Mobilgerät) zu aktivieren und dann die Seite zu aktualisieren (f5). Dann finden Sie zu Hause das Panel des Plugins.
+Um die Historien, Produktionsprognosen und andere anzuzeigen, müssen Sie daran denken, auf der Plugin-Konfigurationsseite (Plugin -> Plugin-Verwaltung) das Panel (auf dem Desktop und/oder Mobilgerät) zu aktivieren und dann die Seite zu aktualisieren (f5). Dann finden Sie zu Hause das Panel des Plugins.

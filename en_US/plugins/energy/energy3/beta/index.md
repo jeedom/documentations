@@ -1,14 +1,14 @@
 # Energy plugin
 
-Plugin allowing to display a global graph of the energy of the house (water, gas, electricity, electricity production).
+Plugin allowing to display a global graph of the energies of the house (water, gas, electricity, electricity production).
 
-It also displays a dashboard that shows the performance of a solar panel system, the consumption (water, gas and electricity) as well as the details of the electricity consumption of certain equipment (necessary of course to have a module to measure it)
+It also displays a dashboard showing the performance of a solar panel system, the consumption (water, gas and electricity) as well as the details of the electricity consumption of certain equipment (needs of course to have a module to measure it)
 
-For those who have solar power, it can also show you the production forecast according to the characteristics of your installation (to be informed)
+For those who have solar power, it can also show you the production forecast according to the characteristics of your installation (to be filled in)
 
-Please note that the plugin does not and will not calculate any cost (it is not its purpose and it will not be)
+Please note that the plugin does not and will not calculate any cost (it is not and will not be its purpose)
 
-To work it requires that you have modules that upload this information : 
+To work, it requires that you have modules that upload this information :
 
 ## Gaz
 
@@ -27,14 +27,14 @@ To work it requires that you have modules that upload this information :
 
 If you have solar panels you need more : 
 
-- Import of electricity from the networks
-- Network electricity export
+- Grid electricity import
+- Grid electricity export
 - Production day
 - Net power
 
 >**IMPORTANT**
 >
->Depending on your commands, you may need to adapt the unit on the command configuration page of the energy equipment that you have created
+>Depending on your commands, you may need to adapt the unit on the command configuration page for the energy equipment you have created
 
 ## Details
 
@@ -42,4 +42,4 @@ For electricity it is possible to indicate consumers in the details tab, it can 
 
 # Panel
 
-To view the history, production forecast and other, you have to remember on the plugin configuration page (plugin -> plugin management) to activate the panel (on desktop and/or mobile) then refresh the page (f5). Then in home you will find the panel of the plugin.
+To view the histories, production forecast and other, you have to remember on the plugin configuration page (plugin -> plugin management) to activate the panel (on desktop and/or mobile) then refresh the page (f5). Then in home you will find the panel of the plugin.
