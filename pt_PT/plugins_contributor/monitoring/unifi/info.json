@@ -14,7 +14,9 @@
 	"category" : "monitoring",
 	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
 	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/changelog",
+	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/changelog",
 	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/",
+	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/",
 	"forum_link" : "https://community.jeedom.com/tags/plugin-unifi",
 	"link" : {
 		"forum":"https://community.jeedom.com/tags/plugin-unifi"
