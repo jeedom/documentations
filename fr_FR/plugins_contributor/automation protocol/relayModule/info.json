@@ -1,30 +1,45 @@
 {
-    "id": "rosee",
-    "name": "Rosée - Givre - Tendance",
-    "description": "Plugin permetant de calculer : le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo. <BR/>Le point de givrage ainsi que l'alerte ne se calculent uniquement dans le cas où la température < 5°C. <BR />",
-    "usage": "Il faut renseigner les champs Temperature, Humidité, Pression <br/>Pour l'humidité absolue, on peut indiquer également une pression barométrique, sinon une valeur par défaut est prise en compte<br/> Il est possible d'ajouter un offset sur la température",
-    "licence": "AGPL",
-    "author": "JAG",
-    "require": "4.0",
-    "category": "weather",
-    "hasDependency": false,
-    "hasOwnDeamon": false,
-    "maxDependancyInstallTime": 0,
-    "language": [
-        "fr_FR"
-    ],
-    "changelog": "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog",
-    "documentation": "https://jealg.github.io/documentation/plugin-rosee/#language#/",
-    "changelog_beta" : "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog",
- 	"documentation_beta" : "https://jealg.github.io/documentation/plugin-rosee/#language#/",
-     "compatibility": [
-		"miniplus",
-		"smart",
-		"rpi",
-		"docker",
-		"diy",
-		"mobile",
-		"v4",
-		"atlas"
-	]
+  "id": "beem",
+  "name": "Beem",
+  "description": {
+      "fr_FR": "Plugin permettant de récupérer les informations sa Beembox de chez Beem energy",
+      "en_US": "Plugin to retrieve information from Beem energy's Beembox",
+      "es_ES": "Plugin para recuperar información del Beembox de Beem energy",
+      "pt_PT": "Plugin para recuperar informações da Beem energy's Beembox",
+      "de_DE": "Plugin zum Abrufen von Informationen sa Beembox von Beem energy",
+      "it_IT": "Plugin per recuperare le informazioni dalla Beembox di Beem energy"
+  },
+  "utilization": "Après avoir entré l'email de connexion et le mot de passe dans la page de configuration, sélectionnez l'intervalle de rafraîchissement des informations. Lancez une synchronisation depuis la page des équipements.",
+  "licence": "AGPL",
+  "author": "DomoFlo1",
+  "require": "4.2",
+  "category": "energy",
+  "hasDependency": false,
+  "hasOwnDeamon": false,
+  "maxDependancyInstallTime": 0,
+  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
+  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
+  "changelog_beta": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
+  "documentation_beta": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
+  "link": {
+    "forum": "https://community.jeedom.com/tag/plugin-beem"
+  },
+  "language": [
+    "fr_FR",
+    "en_US",
+    "es_ES",
+    "pt_PT",
+    "de_DE",
+    "it_IT"
+  ],
+  "compatibility": [
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "mobile",
+    "v4",
+    "atlas"
+  ]
 }
