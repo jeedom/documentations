@@ -141,6 +141,14 @@ IMPORTANTE :
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
 
 
+NOVA ESCRITA :
+
+ - Ao criar um comando Action -> Other subtype, em seguida, escolhendo Fc16 e preenchendo o Start Register e a nova linha Register Table nos Parâmetros do comando, podemos executar este comando para escrever a partir do registro inicial os valores inseridos :
+
+ Ex : Iniciar Registro : 10
+      Registro de Tabela de Linhas : 10-45-22-25.6-2360
+      Enviaremos nos cadastros 10,11,12,13 e 14, os valores 10,45,22,22.6 e 2360
+      Os valores devem ser separados por um - , e para números decimais, coloque um .
 
 
   - Gravação de vários registros : na configuração do comando, deve-se informar o registrador inicial, assim como a ordem dos bytes e da palavra.
@@ -158,7 +166,6 @@ IMPORTANTE :
 
   Para alterar os valores nos registros, use esta sintaxe:
   -  Ex : 01110111 Então isso vai enviar do registrador inicial configurado os valores True(1) ou False(0) para os registradores
-
 
 
 

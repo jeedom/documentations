@@ -141,6 +141,14 @@ IMPORTANT :
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
 
 
+NOUVELLE ECRITURE :
+
+ - En creant une commande Action -> sous-type Autre, puis en choissant Fc16, et en remplissant le Start Register et la nouvelle ligne Tableau Registre dans le Parametrage de la commande, on pourra executer cette commande pour ecrire a partir du registre du depart les valeurs entrées :
+
+ Ex : Start Register : 10
+      Ligne Tableau Registre : 10-45-22-25.6-2360
+      On enverra sur les registres 10,11,12,13 et 14, les valeurs 10,45,22,22.6 et 2360
+      Il faut bien separer les valeurs par un - , et pour les nombres decimaux, bien mettre un .
 
 
   - Ecriture MultiRegistre : dans la configuration de la commande, il vous faut rentrer le registre de départ, ainsi que l'ordre des bytes et word.
@@ -158,7 +166,6 @@ IMPORTANT :
 
   Pour changer les valeurs sur les registres, il faut utiliser cette syntaxe:
   -  ex : 01110111    Cela enverra donc à partir du registre de départ configuré les valeurs True(1) ou False(0) aux registres
-
 
 
 

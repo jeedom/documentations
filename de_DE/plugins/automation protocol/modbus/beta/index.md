@@ -141,6 +141,14 @@ WICHTIG :
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
 
 
+NEUES SCHREIBEN :
+
+ - Indem wir einen Befehl Action -> Other subtype erstellen, dann Fc16 wählen und das Startregister und die neue Registertabellenzeile in den Parametern des Befehls ausfüllen, können wir diesen Befehl ausführen, um die eingegebenen Werte aus dem Startregister zu schreiben :
+
+ Ex : Registrierung starten : 10
+      Zeilentabellenregister : 10-45-22-25.6-2360
+      Wir senden auf den Registern 10,11,12,13 und 14 die Werte 10,45,22,22.6 und 2360
+      Werte müssen durch ein - getrennt werden, und für Dezimalzahlen setzen Sie a .
 
 
   - MultiRegister-Schreiben : In der Konfiguration des Befehls müssen Sie das Startregister sowie die Reihenfolge der Bytes und des Wortes eingeben.
@@ -158,7 +166,6 @@ WICHTIG :
 
   Verwenden Sie diese Syntax, um die Werte in den Registern zu ändern:
   -  Ex : 01110111 Damit werden vom konfigurierten Startregister die Werte True(1) oder False(0) an die Register gesendet
-
 
 
 

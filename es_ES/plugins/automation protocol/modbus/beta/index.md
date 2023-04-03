@@ -141,6 +141,14 @@ IMPORTANTE :
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
 
 
+NUEVA ESCRITURA :
+
+ - Al crear un comando Acción -> Otro subtipo, luego al elegir Fc16, y al completar el Registro de inicio y la nueva línea de la Tabla de registros en los Parámetros del comando, podemos ejecutar este comando para escribir desde el registro de inicio los valores ingresados :
+
+ Ex : Inicio Registro : 10
+      Registro de tabla de líneas : 10-45-22-25.6-2360
+      Enviaremos en los registros 10,11,12,13 y 14, los valores 10,45,22,22.6 y 2360
+      Los valores deben estar separados por un -, y para números decimales, poner un .
 
 
   - Escritura de registro múltiple : en la configuración del comando se debe ingresar el registro de inicio, así como el orden de los bytes y palabra.
@@ -158,7 +166,6 @@ IMPORTANTE :
 
   Para cambiar los valores en los registros, use esta sintaxis:
   -  Ex : 01110111 Entonces esto enviará desde el registro de inicio configurado los valores True(1) o False(0) a los registros
-
 
 
 

@@ -141,6 +141,14 @@ IMPORTANT :
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
 
 
+NEW WRITING :
+
+ - By creating an Action -> Other subtype command, then by choosing Fc16, and by filling in the Start Register and the new Register Table line in the Parameters of the command, we can execute this command to write from the start register the entered values :
+
+ Ex : Start Register : 10
+      Line Table Register : 10-45-22-25.6-2360
+      We will send on registers 10,11,12,13 and 14, the values 10,45,22,22.6 and 2360
+      Values must be separated by a - , and for decimal numbers, put a .
 
 
   - MultiRegister Write : in the configuration of the command, you must enter the starting register, as well as the order of the bytes and word.
@@ -158,7 +166,6 @@ IMPORTANT :
 
   To change the values on the registers, use this syntax:
   -  Ex : 01110111 So this will send from the configured starting register the values True(1) or False(0) to the registers
-
 
 
 
