@@ -1,45 +1,30 @@
 {
-  "id": "beem",
-  "name": "Beem",
-  "description": {
-      "fr_FR": "Plugin permettant de récupérer les informations sa Beembox de chez Beem energy",
-      "en_US": "Plugin to retrieve information from Beem energy's Beembox",
-      "es_ES": "Plugin para recuperar información del Beembox de Beem energy",
-      "pt_PT": "Plugin para recuperar informações da Beem energy's Beembox",
-      "de_DE": "Plugin zum Abrufen von Informationen sa Beembox von Beem energy",
-      "it_IT": "Plugin per recuperare le informazioni dalla Beembox di Beem energy"
-  },
-  "utilization": "Après avoir entré l'email de connexion et le mot de passe dans la page de configuration, sélectionnez l'intervalle de rafraîchissement des informations. Lancez une synchronisation depuis la page des équipements.",
-  "licence": "AGPL",
-  "author": "DomoFlo1",
-  "require": "4.2",
-  "category": "energy",
-  "hasDependency": false,
-  "hasOwnDeamon": false,
-  "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
-  "changelog_beta": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
-  "documentation_beta": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
-  "link": {
-    "forum": "https://community.jeedom.com/tag/plugin-beem"
-  },
-  "language": [
-    "fr_FR",
-    "en_US",
-    "es_ES",
-    "pt_PT",
-    "de_DE",
-    "it_IT"
-  ],
-  "compatibility": [
-    "miniplus",
-    "smart",
-    "rpi",
-    "docker",
-    "diy",
-    "mobile",
-    "v4",
-    "atlas"
-  ]
+	"id" : "wifilightV2",
+	"name" : "wifilightV2",
+	"description" : {
+        "fr_FR": "Pilote de nombreux périphériques wifi en local avec internet coupé : lampes, leds, prises, interrupteurs, thermostat, de marques diverses. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consulter la documentation pour connaitre la liste exacte des matériels compatibles.",
+        "en_US": "Control many wifi devices locally with no internet : lamps, LEDs, sockets, switches, thermostat, of various brands. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee i.e. SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consult the documentation for the exact list of compatible equipment.",
+        "es_ES": "Pilota muchos dispositivos wifi localmente con corte de internet: lámparas, LED, enchufes, interruptores, termostato, de varias marcas. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consulte la documentación para obtener la lista exacta de equipos compatibles.",
+		"de_DE" : "Steuern Sie viele lokale Wifi-Geräte mit Internet-Cut: Lampen, LEDs, Steckdosen, Schalter, Thermostate verschiedener Marken. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee einschließlich SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi usw. Die genaue Liste der kompatiblen Geräte finden Sie in der Dokumentation."
+	},
+	"licence" : "AGPL",
+	"author" : "Bernard Caron",
+	"require" : "4.0",
+	"category" : "devicecommunication",
+	"hasDependency": false,
+	"hasOwnDeamon" : true,
+	"whiteListFolders": [
+		"/data"
+	],
+	"link" : {
+		"forum":"https://community.jeedom.com/t/plugin-wifilightv2-discussion-generale/2439"
+	},
+	"changelog" : "https://bcaro.github.io/wifilightV2-doc/#language#/changelog",
+    "documentation" : "https://bcaro.github.io/wifilightV2-doc/#language#/",
+	"changelog_beta" : "https://bcaro.github.io/wifilightV2-doc/#language#/changelog",
+    "documentation_beta" : "https://bcaro.github.io/wifilightV2-doc/#language#/",
+	"language" : ["fr_FR","en_US","sp_SP","de_DE"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","atlas"]
 }
+
+
