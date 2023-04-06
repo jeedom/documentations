@@ -4,6 +4,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Fixed a bug on authentication in standalone mode (thanks @bad)
+- Improved color temperature management (thanks @apern)
+
 # 09/12/2022
 
 - Fixed a bug on the feedback from the Sensors (be careful still no display in Google Home or voice feedback, you have to wait for Google to finish the implementation)

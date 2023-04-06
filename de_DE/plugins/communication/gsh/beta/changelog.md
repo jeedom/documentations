@@ -4,6 +4,9 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+- Fehler bei der Authentifizierung im Standalone-Modus behoben (danke @bad)
+- Verbessertes Farbtemperaturmanagement (danke @apern)
+
 # 12.09.2022
 
 - Fehler beim Feedback der Sensoren behoben (Achtung immer noch keine Anzeige in Google Home oder Sprachfeedback, man muss warten bis Google die Implementierung abgeschlossen hat)

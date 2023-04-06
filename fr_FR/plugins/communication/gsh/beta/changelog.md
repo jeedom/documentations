@@ -4,6 +4,9 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+- Correction d'un bug sur l'authentification en mode standalone (merci @bad)
+- Amélioration de la gestion des température de couleur (merci @apern)
+
 # 12/09/2022
 
 - Correction d'un bug sur le retour d'information des Sensors (attention toujours pas d'affichage dans Google Home ou de retour vocal, il faut attendre que Google finisse l'implementation)

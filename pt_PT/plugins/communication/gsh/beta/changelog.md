@@ -4,6 +4,9 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Corrigido um bug na autenticação no modo autônomo (obrigado @bad)
+- Gerenciamento de temperatura de cor aprimorado (obrigado @apern)
+
 # 12/09/2022
 
 - Corrigido um bug no feedback dos Sensores (cuidado ainda sem exibição no Google Home ou feedback de voz, você tem que esperar o Google terminar a implementação)

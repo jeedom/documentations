@@ -4,6 +4,9 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Se corrigió un error en la autenticación en modo independiente (gracias @bad)
+- Gestión mejorada de la temperatura del color (gracias @apern)
+
 # 12/09/2022
 
 - Se corrigió un error en los comentarios de los sensores (tenga cuidado de que aún no se muestre en Google Home ni de los comentarios de voz, debe esperar a que Google termine la implementación))
