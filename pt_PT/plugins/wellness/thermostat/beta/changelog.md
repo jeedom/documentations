@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Melhor gerenciamento de aberturas
+
 # 10/03/2022
 
 - O smartstart não pode mais substituir o bloqueio do termostato

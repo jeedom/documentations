@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Improved management of openings
+
 # 03/10/2022
 
 - The smartstart can no longer override the thermostat lock
