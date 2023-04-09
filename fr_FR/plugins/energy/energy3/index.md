@@ -1,12 +1,12 @@
 # Plugin Energie
 
-Plugin permettant d’afficher un graphique globale des énergies de la maison (eau, gaz, électricité, production électrique).
+Plugin permettant d’afficher un graphique global des énergies de la maison (eau, gaz, électricité, production électrique).
 
-Il affiche également un dashboard montrant la performance d’un système de panneaux solaire, les consommations (eau, gaz et électricité) ainsi que le détails de consommation électrique de certains équipements (nécessite bien sûr d’avoir un module pour la mesurer)
+Il affiche également un dashboard montrant la performance d’un système de panneaux solaires, les consommations (eau, gaz et électricité) ainsi que les détails de consommation électrique de certains équipements (nécessite bien sûr d’avoir un module pour la mesurer)
 
 Pour ceux qui ont du solaire il peut aussi vous afficher la prévision de production en fonction des caractéristiques de votre installation (à renseigner)
 
-Attention le plugin ne fait et ne fera aucun calcul de coût (ce n’est pas  et ne sera pas son but)
+Attention le plugin ne fait pas et ne fera aucun calcul de coût (ce n’est pas et ne sera pas son but)
 
 Pour fonctionner il nécessite que vous ayez des modules remontant ces informations :
 
@@ -34,7 +34,7 @@ Si vous avez des panneaux solaire il faut en plus :
 
 >**IMPORTANT**
 >
->En fonction de vos commandes il vous faudra peut $etre adapter l'unité sur la page de configuration des commandes de l'équipement énergie que vous avez créer
+>En fonction de vos commandes il vous faudra peut être adapter l'unité sur la page de configuration des commandes de l'équipement énergie que vous avez créé
 
 ## Détails
 
@@ -42,4 +42,4 @@ Pour l'électricité il est possible d'indiquer des consommateurs dans l'onglet 
 
 # Panel
 
-Pour visualiser les historiques, prévision de production et autre il faut bien penser sur la page de configuration du plugin (plugin -> gestion de plugins) à activer le panel (en desktop et/ou mobile) puis rafraichir la page (f5). Ensuite dans acceuil vous trouverez le panel du plugin.
+Pour visualiser les historiques, prévision de production et autre il faut bien penser sur la page de configuration du plugin (Plugins -> gestion des plugins) à activer le panel (en desktop et/ou mobile) puis rafraichir la page (F5). Ensuite dans accueil vous trouverez le panel du plugin.
