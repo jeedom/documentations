@@ -4,6 +4,29 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 10/04/2023
+
+**Améliorations**
+
+- Les *refresh* peuvent maintenant aller jusqu'à 100 secondes au lieu de 60
+- Passage à la version *8.13.1* de ZwaveJsUI.
+- Modification de la fonction *pollValue* pour les propriétés à *value* (merci @superbricolo)
+
+**Modifications de Configurations**
+
+- Modification de la configuration *Aeotec ZWA19 Water Sensor* pour utiliser les propriétés
+- Modification de la configuration *Aeotec ZWA24 7in1* pour utiliser les propriétés
+- Modification de la configuration *Everspring SM810* pour utiliser les propriétés
+- Modification d'une propriété *Velocity*
+- Modification de l'image *Dlink 510* (détourage)
+- Modification de l'image *Fibaro Fgs-213* (détourage)
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Sigma PZ701U* (propriétés : Switch)
+- Ajout de la configuration *Neo RC03Z* (propriétés : Central Scene, Battery)
+- Ajout d'une sous-propriété *Heat-Sensor* dans la propriété *Notification*
+- Ajout de la configuration *U-Fairy GR-201N* (propriétés : Switch)
+
 # 14/02/2023
 
 **Modifications de Configurations**

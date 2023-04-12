@@ -4,18 +4,33 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# XX/01/2023
+# 14.02.2023
 
 **Konfigurationsänderungen**
 
 - Ändern der Konfiguration *Aeotec ZWA24 7in1* um die Eigenschaften zu verwenden
 - Ändern der Konfiguration *Everspring SM810* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec ZW122* um die Eigenschaften zu verwenden
+- Gruppierung von Konfigurationen *Danfoss Living Connect*
+- Ändern der Konfiguration *Fibaro FGR-223* Änderung von Leistungs- und Energieendpunkten
+- Ändern der Konfiguration *Fibaro FGR-223* Hinzufügen von Hardware und Überstrombenachrichtigung
 - Ändern der Konfiguration *Fibaro FGS213* auf Endpunkt 1 wechseln (Firmware >=3.3) und hinzugefügter Wärmesensor und Überstrombenachrichtigung
 - Bearbeiten des Bildes *Aeotec ZWA24 7in1* (Ausschnitt)
+- Bearbeiten einer Eigenschaft *Geschwindigkeit*
+- Bearbeiten des Bildes *Dlink 510* (Ausschnitt)
+- Bearbeiten des Bildes *Fibaro Fgs-213* (Ausschnitt)
+- Bearbeiten des Bildes *Fibaro Fgs-221* (Ausschnitt)
+- Bearbeiten des Bildes *Fibaro Fgs-223* (Ausschnitt)
+- Bearbeiten des Bildes *Fibaro-Wandstecker* (Ausschnitt)
+- Bearbeiten des Bildes *Fibaro Wandstecker GEN5* (Ausschnitt)
 
 **Konfigurationsergänzungen**
 
 - Hinzufügen einer Untereigenschaft *Wärmesensor* im Eigentum *Benachrichtigung*
+- Konfig hinzugefügt *U-Fee GR-201N* (Eigenschaften : Switch)
+- Konfig hinzugefügt *Danfoss Kesselrelais* (Eigenschaften : Switch)
+- Konfig hinzugefügt *Nächster Alarmton* (Eigenschaften : Switch)
+
 
 # 24.12.2022
 

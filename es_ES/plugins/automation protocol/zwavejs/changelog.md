@@ -4,18 +4,33 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# XX/01/2023
+# 14/02/2023
 
 **Cambios de configuración**
 
 - Cambiar la configuración *Aeotec ZWA24 7en1* para usar las propiedades
 - Cambiar la configuración *Everspring SM810* para usar las propiedades
+- Cambiar la configuración *Aeotec ZW122* para usar las propiedades
+- Agrupación de configuraciones *Conexión viva de Danfoss*
+- Cambiar la configuración *Fibaro FGR-223* cambio de puntos finales de potencia y energía
+- Cambiar la configuración *Fibaro FGR-223* adición de hardware y notificación de sobrecorriente
 - Cambiar la configuración *Fibaro FGS213* cambiar al punto final 1 (firmware >=3.3) y sensor de calor añadido y notificación de sobrecorriente
 - Editando la imagen *Aeotec ZWA24 7en1* (recorte)
+- Edición de una propiedad *Velocidad*
+- Editando la imagen *Dlink 510* (recorte)
+- Editando la imagen *Fibaro fgs-213* (recorte)
+- Editando la imagen *Fibaro fgs-221* (recorte)
+- Editando la imagen *Fibaro fgs-223* (recorte)
+- Editando la imagen *Enchufe de pared Fibaro* (recorte)
+- Editando la imagen *Enchufe de pared Fibaro GEN5* (recorte)
 
 **Adiciones de configuración**
 
 - Añadir una subpropiedad *Sensor de calor* en la propiedad *Notificación*
+- Configuración añadida *U-Hada GR-201N* (propiedades : Switch)
+- Configuración añadida *Relé de caldera Danfoss* (propiedades : Switch)
+- Configuración añadida *Sonido de alarma Benext* (propiedades : Switch)
+
 
 # 24/12/2022
 

@@ -4,6 +4,29 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 10/04/2023
+
+**Melhorias**
+
+- O *atualizar* agora pode ir até 100 segundos em vez de 60
+- Mudar para a versão *8.13.1* por ZwaveJsUI.
+- Mudando a função *pollValue* para propriedades em *valor* (obrigado @superbricolo)
+
+**Alterações de configuração**
+
+- Mudando a configuração *Sensor de água Aeotec ZWA19* para usar as propriedades
+- Mudando a configuração *Aeotec ZWA24 7 em 1* para usar as propriedades
+- Mudando a configuração *Everspring SM810* para usar as propriedades
+- Editando uma propriedade *Velocidade*
+- Editando a imagem *Dlink 510* (recorte)
+- Editando a imagem *Fibaro Fgs-213* (recorte)
+**Adições de configuração**
+
+- Configuração adicionada *Sigma PZ701U* (propriedades : Switch)
+- Configuração adicionada *Neo RC03Z* (propriedades : Cena Central, Bateria)
+- Adicionando uma subpropriedade *Sensor de calor* na propriedade *Notificação*
+- Configuração adicionada *U-Fada GR-201N* (propriedades : Switch)
+
 # 14/02/2023
 
 **Alterações de configuração**
