@@ -3,10 +3,15 @@
     "name": "Eco RT2",
     "description": {
         "fr_FR": "Plugin permettant de piloter l'Eco-Devices RT2.",
-        "en_US": "Plugin to control eco RT2",
-        "es_ES": "Complemento para controlar eco RT2",
-        "de_DE": "Plugin zur Steuerung von eco RT2",
-        "pt_PT": "Plugin para controlar o eco RT2"
+        "en_US": "Plugin for controlling Eco-Devices RT2",
+        "es_ES": "Complemento para controlar Eco-Devices RT2",
+        "de_DE": "Plugin zur Steuerung von Eco-Devices RT2",
+        "pt_PT": "Plugin para controlar Eco-Devices RT2",
+        "ru_RU": "Plugin permettant de piloter l'Eco-Devices RT2",
+        "id_ID": "Plugin permettant de piloter l'Eco-Devices RT2",
+        "it_IT": "Plugin permettant de piloter l'Eco-Devices RT2",
+        "ja_JP": "Plugin permettant de piloter l'Eco-Devices RT2",
+        "tr": "Plugin permettant de piloter l'Eco-Devices RT2"
     },
     "licence": "AGPL",
     "author": "Jeedom SAS",
@@ -20,7 +25,12 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "pt_PT"
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
     ],
     "compatibility": [
         "miniplus",
@@ -30,5 +40,7 @@
         "diy",
         "mobile",
         "v4"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/rt2\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/rt2\/beta"
 }
