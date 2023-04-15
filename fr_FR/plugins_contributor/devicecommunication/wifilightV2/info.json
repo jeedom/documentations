@@ -11,7 +11,7 @@
 	"author" : "Bernard Caron",
 	"require" : "4.0",
 	"category" : "devicecommunication",
-	"hasDependency": false,
+	"hasDependency": true,
 	"hasOwnDeamon" : true,
 	"whiteListFolders": [
 		"/data"
