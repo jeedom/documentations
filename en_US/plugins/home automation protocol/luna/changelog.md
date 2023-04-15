@@ -6,6 +6,13 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
+# 03/27/2023
+
+- New image Luna
+- Localhost patch
+- Drum patch
+- USB patch fixed (LORA-zigbee fixed)
+
 # 02/21/2023
 
 - SD partitioning.
