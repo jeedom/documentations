@@ -1,14 +1,30 @@
 {
-	"id" : "balboa",
-	"name" : "SPA Balboa",
-	"description" : "Ce plugin permet de connecter et recuperer les informations de votre SPA Balboa. Il embarque également la possibilité de cree des mode de fonctionnement avancer avec toute la puissance de jeedom",
-	"utilization" : "Plusieurs type de connexion est possible, en Local et par le cloud avec le module wifi ainsi que par la nouvelle Gateway BALBOA ControlMySpa. Pour fontionner, le plugin n'a besoin que des information de connexion de votre SPA. Le plugin est configurer pour un SPA de base certain commande peuvent etre ajouté pour compléter les remontées d'inforamtion. Pour l'automatisation, on cree un mode sur lequel on y indique des conditions autorisant le mode ainsi que les etat dans lequel le spa doit etre",
+	"id" : "wifilightV2",
+	"name" : "wifilightV2",
+	"description" : {
+        "fr_FR": "Pilote de nombreux périphériques wifi en local avec internet coupé : lampes, leds, prises, interrupteurs, thermostat, de marques diverses. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consulter la documentation pour connaitre la liste exacte des matériels compatibles.",
+        "en_US": "Control many wifi devices locally with no internet : lamps, LEDs, sockets, switches, thermostat, of various brands. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee i.e. SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consult the documentation for the exact list of compatible equipment.",
+        "es_ES": "Pilota muchos dispositivos wifi localmente con corte de internet: lámparas, LED, enchufes, interruptores, termostato, de varias marcas. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consulte la documentación para obtener la lista exacta de equipos compatibles.",
+		"de_DE" : "Steuern Sie viele lokale Wifi-Geräte mit Internet-Cut: Lampen, LEDs, Steckdosen, Schalter, Thermostate verschiedener Marken. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee einschließlich SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi usw. Die genaue Liste der kompatiblen Geräte finden Sie in der Dokumentation."
+	},
 	"licence" : "AGPL",
-	"author" : "Halbout Michael",
+	"author" : "Bernard Caron",
 	"require" : "4.0",
+	"category" : "devicecommunication",
+	"hasDependency": true,
 	"hasOwnDeamon" : true,
-	"category" : "wellness",
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
- 	"documentation" : "https://mika-nt28.github.io/Documentations/balboa/#language#/",
-	"changelog" : "https://mika-nt28.github.io/Documentations/balboa/#language#/changelog"
+	"whiteListFolders": [
+		"/data"
+	],
+	"link" : {
+		"forum":"https://community.jeedom.com/t/plugin-wifilightv2-discussion-generale/2439"
+	},
+	"changelog" : "https://bcaro.github.io/wifilightV2-doc/#language#/changelog",
+    "documentation" : "https://bcaro.github.io/wifilightV2-doc/#language#/",
+	"changelog_beta" : "https://bcaro.github.io/wifilightV2-doc/#language#/changelog",
+    "documentation_beta" : "https://bcaro.github.io/wifilightV2-doc/#language#/",
+	"language" : ["fr_FR","en_US","sp_SP","de_DE"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","atlas"]
 }
+
+
