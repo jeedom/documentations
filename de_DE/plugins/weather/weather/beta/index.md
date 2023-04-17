@@ -39,3 +39,8 @@ Anschließend müssen Sie die GPS-Koordinaten des Ortes eingeben, von dem Sie di
 - **Längengrad** : Längengrad des Ortes, dessen Wetter Sie abrufen möchten *(Unter dem Formular XX.XXXXXXX)*.
 
 Durch Klicken auf die Registerkarte **Befehle**, finden wir die Liste aller verfügbaren Befehle sowie die Möglichkeit, die Zahlenwerte zu protokollieren.
+
+
+## Wettercode
+
+Du wirst finden [Hier](https://www.weatherapi.com/docs/weather_conditions.json) die Bedeutung der verschiedenen Wettercodes

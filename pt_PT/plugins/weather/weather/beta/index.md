@@ -39,3 +39,8 @@ Em seguida, você precisará inserir as coordenadas GPS do local de onde deseja 
 - **Longitude** : Longitude do local cujo clima você deseja recuperar *(Sob o formulário XX.XXXXXXX)*.
 
 Ao clicar na guia **Comandos**, encontramos a lista de todos os comandos disponíveis, bem como a possibilidade de registrar os valores numéricos.
+
+
+## Código do tempo
+
+Você encontrará [aqui](https://www.weatherapi.com/docs/weather_conditions.json) o significado dos diferentes códigos meteorológicos
