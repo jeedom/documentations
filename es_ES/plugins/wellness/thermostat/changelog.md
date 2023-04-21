@@ -4,6 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+- Mejora en la gestión de aperturas
+
+# 10/03/2022
+
+- El smartstart ya no puede anular el bloqueo del termostato
+
 # 29/07/2022
 
 - Corrección en el llenado de ciertos campos de configuración de equipos a través de la lista de selección de pedidos

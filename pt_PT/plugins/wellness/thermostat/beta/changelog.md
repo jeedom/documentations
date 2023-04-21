@@ -4,6 +4,8 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 20/04/2023
+
 - Melhor gerenciamento de aberturas
 
 # 10/03/2022

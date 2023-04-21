@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 04/20/2023
+
 - Improved management of openings
 
 # 03/10/2022

@@ -4,6 +4,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 20/04/2023
+
 - Mejora en la gestión de aperturas
 
 # 10/03/2022

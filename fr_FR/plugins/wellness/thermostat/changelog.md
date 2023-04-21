@@ -4,6 +4,14 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 20/04/2023
+
+- Amélioration de la gestion des ouvrants
+
+# 03/10/2022
+
+- Le smartstart ne peux plus outrepasser le lock du thermostat
+
 # 29/07/2022
 
 - Correction sur le remplissage de certains champs de configuration des équipements via la liste de sélection des commandes
