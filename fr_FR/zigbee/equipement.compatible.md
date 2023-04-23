@@ -1052,4 +1052,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2023-04-22 02:32:15
+2023-04-23 02:32:16
