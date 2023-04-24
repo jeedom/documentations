@@ -28,7 +28,7 @@
         "Plugin permettant de créer un device Modbus\/Jeedom": "Plugin permettant de créer un device Modbus\/Jeedom",
         "Modbus Server": "Modbus Server",
         "Modbus": "Modbus",
-        "Plugin Modbus": "Plugin Modbus",
+        "Plugin Modbus Non compatible Wago": "Plugin Modbus Non compatible Wago",
         "Lora Payload": "Lora Payload",
         "Plugin permetant le traduire les Payloads Lora, uniquement destiné au projet de l'équipe Jeedom": "Plugin permetant le traduire les Payloads Lora, uniquement destiné au projet de l'équipe Jeedom",
         "Attention le plugin passera payant quand il passera en stable": "Attention le plugin passera payant quand il passera en stable",

@@ -2,7 +2,7 @@
     "id": "modbus",
     "name": "Modbus",
     "description": {
-        "fr_FR": "Plugin Modbus",
+        "fr_FR": "Plugin Modbus Non compatible Wago",
         "en_US": "Modbus plug-in",
         "es_ES": "Complemento Modbus",
         "de_DE": "Modbus-Plugin",
