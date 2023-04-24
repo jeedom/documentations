@@ -43,7 +43,7 @@ Vous pouvez retrouver toutes les images Jeedom [ici](https://images.jeedom.com/)
 
 > **Important**
 >
-> Jeedom ne prend en charge que Debian Stretch (non recommandé) et Buster (stable). Toute autre version (Wheezy, Jessie…) ou distribution (Ubuntu…) n’est pas prise en charge par Jeedom.
+> Jeedom ne prend en charge que Debian Stretch (non recommandé),Buster (en fin de vie) et Bullseye (recommandé). Toute autre version (Wheezy, Jessie…) ou distribution (Ubuntu…) n’est pas prise en charge par Jeedom.
 
 | Nom                     | Etat                    | Remarques                |
 |-------------------------|-------------------------|--------------------------|
