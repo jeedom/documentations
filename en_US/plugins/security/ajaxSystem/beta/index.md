@@ -92,3 +92,9 @@ Normally if all is well you should see the "Central Station" change to "Connecte
 >**IMPORTANT**
 >
 > Certain information is only returned if the AIS is configured
+
+# FAQ
+
+>**MQTT Setup**
+>
+>In the configuration of the plugin you have the possibility to pass for the SIA part in mqtt, there is voluntarily no explanation of how because the implementation is relatively complex. The option is there to meet a customer need only.

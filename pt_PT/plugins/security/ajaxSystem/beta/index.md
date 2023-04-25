@@ -92,3 +92,9 @@ Normalmente, se tudo estiver bem, você deve ver a mudança de "Estação Centra
 >**IMPORTANTE**
 >
 > Certas informações só são retornadas se o AIS estiver configurado
+
+# FAQ
+
+>**Configuração MQTT**
+>
+>Na configuração do plugin você tem a possibilidade de passar pela parte SIA no mqtt, não há voluntariamente nenhuma explicação de como pois a implementação é relativamente complexa. A opção existe para atender apenas uma necessidade do cliente.

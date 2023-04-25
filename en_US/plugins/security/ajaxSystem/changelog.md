@@ -4,7 +4,15 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+
+
+- Possibility of going through an mqtt mode for SIA information feedback, via nodered
+- Add fibra hub
+
+# 08/23/2022
+
 - Added group management
+- Improved multi transmitter support
 
 # 06/09/2022
 

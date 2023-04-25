@@ -4,7 +4,15 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+
+
+- Möglichkeit, über nodered einen mqtt-Modus für die Rückmeldung von SIA-Informationen zu durchlaufen
+- Fasernabe hinzufügen
+
+# 23.08.2022
+
 - Gruppenverwaltung hinzugefügt
+- Verbesserte Unterstützung für mehrere Sender
 
 # 09.06.2022
 

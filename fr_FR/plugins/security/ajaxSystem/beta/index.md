@@ -92,3 +92,9 @@ Normalement si tout est bon vous devriez voir le "Centre de télésurveillance" 
 >**IMPORTANT**
 >
 > Certaine information ne remontent que si le SIA est configuré
+
+# FAQ
+
+>**Configuration MQTT**
+>
+>Dans la configuration du plugin vous avez la possibilité de passer pour la partie SIA en mqtt, il y a volontairement aucune explication de comment car la mise en place est relativement complexe. L'option est la pour répondre à un besoin d'un client seulement.
