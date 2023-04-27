@@ -1,14 +1,16 @@
 {
-	"id" : "balboa",
-	"name" : "SPA Balboa",
-	"description" : "Ce plugin permet de connecter et recuperer les informations de votre SPA Balboa. Il embarque également la possibilité de cree des mode de fonctionnement avancer avec toute la puissance de jeedom",
-	"utilization" : "Plusieurs type de connexion est possible, en Local et par le cloud avec le module wifi ainsi que par la nouvelle Gateway BALBOA ControlMySpa. Pour fontionner, le plugin n'a besoin que des information de connexion de votre SPA. Le plugin est configurer pour un SPA de base certain commande peuvent etre ajouté pour compléter les remontées d'inforamtion. Pour l'automatisation, on cree un mode sur lequel on y indique des conditions autorisant le mode ainsi que les etat dans lequel le spa doit etre",
+	"id" : "eibd",
+	"name" : "EIB - KNX",
+	"description" : "Connecter Jeedom avec votre installation domotique KNX et Jeedom deviendra un participant de votre installation",
 	"licence" : "AGPL",
 	"author" : "Halbout Michael",
-	"require" : "4.0",
+	"installation" : "Choisissez le programme de votre choix et lancer l'installation des dependance",
+	"maxDependancyInstallTime" : 130,
 	"hasOwnDeamon" : true,
-	"category" : "wellness",
+	"hasDependency" : true,
+	"require" : "4.2.12",
 	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
- 	"documentation" : "https://mika-nt28.github.io/Documentations/balboa/#language#/",
-	"changelog" : "https://mika-nt28.github.io/Documentations/balboa/#language#/changelog"
+	"category" : "automation protocol",
+ 	"documentation" : "http://mika-nt28.github.io/Documentations/eibd/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/eibd/#language#/changelog"
 }
