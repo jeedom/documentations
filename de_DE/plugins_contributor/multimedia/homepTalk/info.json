@@ -10,7 +10,9 @@
 	"category" : "multimedia",
 	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
 	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/changelog",
+	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/changelog",
 	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/",
+	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/",
 	"forum_link" : "https://community.jeedom.com/tags/plugin-homeptalk",
 	"link" : {
 		"forum":"https://community.jeedom.com/tags/plugin-homeptalk"

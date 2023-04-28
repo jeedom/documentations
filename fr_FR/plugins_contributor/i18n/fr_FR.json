@@ -370,7 +370,9 @@
         "Documentation Stable": "Documentation Stable",
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
-        "Ajoutez un Apple HomePod ou HomePod Mini et faites-le parler": "Ajoutez un Apple HomePod ou HomePod Mini et faites-le parler"
+        "Documentation Beta": "Documentation Beta",
+        "Ajoutez un Apple HomePod ou HomePod Mini et faites-le parler": "Ajoutez un Apple HomePod ou HomePod Mini et faites-le parler",
+        "Changelog Beta": "Changelog Beta"
     },
     "plugins_contributor\/nature\/index.md": {
         "Netro arrosage": "Netro arrosage",
