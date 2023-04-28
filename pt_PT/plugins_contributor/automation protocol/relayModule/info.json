@@ -1,16 +1,22 @@
 {
-	"id" : "eibd",
-	"name" : "EIB - KNX",
-	"description" : "Connecter Jeedom avec votre installation domotique KNX et Jeedom deviendra un participant de votre installation",
+	"id" : "homepTalk",
+	"name" : "HomepTalk",
+	"description" : "TTS vers un Apple HomePod\n\nAjoutez un Apple HomePod ou HomePod Mini et faites-le parler !",
 	"licence" : "AGPL",
-	"author" : "Halbout Michael",
-	"installation" : "Choisissez le programme de votre choix et lancer l'installation des dependance",
-	"maxDependancyInstallTime" : 130,
-	"hasOwnDeamon" : true,
+	"author" : "Nebz",
 	"hasDependency" : true,
-	"require" : "4.2.12",
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
-	"category" : "automation protocol",
- 	"documentation" : "http://mika-nt28.github.io/Documentations/eibd/#language#/",
-	"changelog" : "https://mika-nt28.github.io/Documentations/eibd/#language#/changelog"
+	"hasOwnDeamon" : false,
+	"require" : "3.3.24",
+	"category" : "multimedia",
+	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
+	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/changelog",
+	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/changelog",
+	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/",
+	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/",
+	"forum_link" : "https://community.jeedom.com/tags/plugin-homeptalk",
+	"link" : {
+		"forum":"https://community.jeedom.com/tags/plugin-homeptalk"
+	},
+	"languages" : ["fr_FR","en_US"],
+	"compatibility" : ["rpi","diy","smart","v4"]
 }
