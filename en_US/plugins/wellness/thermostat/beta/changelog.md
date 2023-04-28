@@ -4,6 +4,9 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Improvement when changing modes (air conditioning, heating or both))
+- Remove obsolete code from imperihome
+
 # 04/20/2023
 
 - Improved management of openings

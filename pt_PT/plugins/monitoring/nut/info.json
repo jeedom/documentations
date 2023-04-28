@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Loïc",
-    "require": "2.4",
+    "require": "4.3",
     "category": "monitoring",
     "hasDependency": true,
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/monitoring\/nut\/changelog",
@@ -33,7 +33,7 @@
         "tr"
     ],
     "compatibility": [
-        "miniplus",
+        "atlas",
         "smart",
         "rpi",
         "docker",
