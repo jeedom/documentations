@@ -624,6 +624,8 @@
         "Il vous suffit d'appller l'url en donnant le numéro d'engin (ici 3": "Il vous suffit d'appller l'url en donnant le numéro d'engin (ici 3"
     },
     "howtoadvance\/letsencrypt.mise_en_place.md": {
+        "IMPORTANT": "IMPORTANT",
+        "Ce tuto n'est pas fait par Jeedom SAS mais par un utilisateur de la communauté nous ne pouvons donc garantir qu'il marche ou qu'il est encore d'actualitée": "Ce tuto n'est pas fait par Jeedom SAS mais par un utilisateur de la communauté nous ne pouvons donc garantir qu'il marche ou qu'il est encore d'actualitée",
         "Installation de Letsencrypt": "Installation de Letsencrypt",
         "Voici les commandes à lancer pour installer letsencrypt avant la génération": "Voici les commandes à lancer pour installer letsencrypt avant la génération",
         "Pour faire une demande de certificat vous devez posséder un nom de domaine pour lequel il sera généré": "Pour faire une demande de certificat vous devez posséder un nom de domaine pour lequel il sera généré",

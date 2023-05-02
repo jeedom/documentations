@@ -1008,6 +1008,7 @@
         " Utilisation*": " Use*"
     },
     "howtoadvance\/letsencrypt.mise_en_place.md": {
+        "Ce tuto n'est pas fait par Jeedom SAS mais par un utilisateur de la communauté nous ne pouvons donc garantir qu'il marche ou qu'il est encore d'actualitée": "This tutorial is not made by Jeedom SAS but by a user of the community so we cannot guarantee that it works or that it is still current",
         "Installation de Letsencrypt": "Installation of Letsencrypt",
         "Voici les commandes à lancer pour installer letsencrypt avant la génération": "Here are the commands to launch to install letsencrypt before generation",
         "Pour faire une demande de certificat vous devez posséder un nom de domaine pour lequel il sera généré": "To request a certificate, you must have a domain name for which it will be generated",
@@ -1053,6 +1054,13 @@
         "Pour comprendre la planification": "To understand planning",
         "allez voir ici et ajustez la à votre besoin si nécessaire": "check here and adjust it as needed",
         "Sauvegardez le fichier puis quittez l'éditeur de texte en sauvegardant": "Save the file then quit the text editor by saving",
+        " IMPORTANT.": " IMPORTANT.",
+        " IMPORTANT?": " IMPORTANT?",
+        "IMPORTANT ": "IMPORTANT ",
+        " IMPORTANT]": " IMPORTANT]",
+        "[IMPORTANT]": "[IMPORTANT]",
+        "*IMPORTANT*": "*IMPORTANT*",
+        " IMPORTANT*": " IMPORTANT*",
         " Note.": " NOTE.",
         " Note?": " NOTE?",
         "Note ": "NOTE ",
