@@ -6,6 +6,15 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 02/05/2023
+
+- Patch LocalHost (changement des droits).
+- Patch done fonction (clignotement de la led verte de la box résolu).
+- Ajout de la fonction LTE pour les boxs avec option LTE.
+- Ajout de la fonction LORA pour les box avec option LORA.
+- Ajout des usb Fixe (ttyUSBLUNA-Zigbee a utiliser dnas le plugin Zigbee pour ne plus avoir de souci d'usb qui change.)
+
+
 # 27/03/2023
 
 - Nouvelle image Luna

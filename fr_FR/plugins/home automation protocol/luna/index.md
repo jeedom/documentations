@@ -22,6 +22,10 @@ https://www.domadoo.fr/rma
 
 # Les fonctionnalités du plugin Luna :
 
+> USB Fixe
+
+Dans le plugin Luna du 02/05/2023, le zigbee a été fixé, vous devez utiliser le port ttyUSBLUNA-Zigbee. pour les usb externe cela ce fixe aussi automatiquement avec le nom et ou numero de série.
+
 > Mise à jour du module de Recovery
 
 La mise à jour permet de mettre la dernière image en place sur la Luna; celle-ci utilisera cette image lors d’un recovery (bouton reset de la box ou bouton recovery sur le plugin).
@@ -78,3 +82,4 @@ Pour le moment, le plugin prend en compte uniquement les accès avec DHCP.
 
 Detection automatique de la 4G interne a la box, demande code pin et APN dans la configuration du plugin Luna.
 si 4G detecter lancement d'un module de connexion en arriere plan qui passe automatiquement de l'ethernet a la 4G si besoin (ping vers 8.8.8.8), le plugin SMS fonctionne en meme temps que la 4G sur la Luna 4G.
+Les parametrages ce font dans la configuration du plugin.

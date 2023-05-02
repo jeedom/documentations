@@ -22,6 +22,10 @@ https://www.domadoo.fr/rma
 
 # Die Funktionen des Luna-Plugins :
 
+> USB behoben
+
+Im Luna-Plugin vom 02.05.2023 wurde das Zigbee behoben, Sie müssen den ttyUSBLUNA-Zigbee-Port verwenden. bei externem usb wird dies auch automatisch mit dem namen und/oder der seriennummer festgelegt.
+
 > Aktualisierung des Wiederherstellungsmoduls
 
 Das Update bringt das neueste Image auf die Luna; Es wird dieses Image während einer Wiederherstellung verwenden (Reset-Taste auf der Box oder Wiederherstellungstaste auf dem Plugin).
@@ -78,3 +82,4 @@ Im Moment berücksichtigt das Plugin nur Zugriffe mit DHCP.
 
 Automatische Erkennung von 4G-intern in der Box, PIN-Code und APN in der Konfiguration des Luna-Plugins anfordern.
 Wenn 4G den Start eines Verbindungsmoduls im Hintergrund erkennt, das bei Bedarf automatisch von Ethernet auf 4G umschaltet (Ping auf 8.8.8.8) funktioniert das SMS-Plugin gleichzeitig mit 4G auf dem Luna 4G.
+Die Einstellungen werden in der Konfiguration des Plugins vorgenommen.
