@@ -22,6 +22,10 @@ https://www.domadoo.fr/rma
 
 # Las características del complemento Luna :
 
+> USB fijo
+
+En el plugin Luna del 02/05/2023 se ha arreglado el zigbee, debes usar el puerto ttyUSBLUNA-Zigbee. para usb externo, esto también se soluciona automáticamente con el nombre o el número de serie.
+
 > Actualización del módulo de recuperación
 
 La actualización trae la última imagen en su lugar en el Luna; utilizará esta imagen durante una recuperación (botón de reinicio en el cuadro o botón de recuperación en el complemento).
@@ -78,3 +82,4 @@ Por el momento, el complemento solo tiene en cuenta el acceso con DHCP.
 
 Detección automática de 4G interno a la caja, solicitud de código pin y APN en la configuración del complemento Luna.
 si 4G detecta el lanzamiento de un módulo de conexión en segundo plano que cambia automáticamente de ethernet a 4G si es necesario (ping a 8.8.8.8), el complemento de SMS funciona al mismo tiempo que 4G en el Luna 4G.
+Los ajustes se realizan en la configuración del plugin.
