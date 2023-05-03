@@ -1,32 +1,22 @@
 {
-	"id" : "veoliapro",
-	"name" : "Veolia Pro",
-	"description" : {
-		"fr_FR": "Information sur la consommation d'eau (compteur communicant) depuis le site \"Veolia & moi - Eau\". Pour information, le site \"Mon eau & Moi\" sera très prochainement intégré au plugin." 
-	},
-    "utilization" : "Une fois le plugin installé, il vous faut renseigner vos informations de connections et un équipement sera automatiquement créé à la première synchronisation.",
+	"id" : "homepTalk",
+	"name" : "HomepTalk",
+	"description" : "TTS vers un Apple HomePod\n\nAjoutez un Apple HomePod ou HomePod Mini et faites-le parler !",
 	"licence" : "AGPL",
-	"author" : "Thomas Maby",
-	"require" : "3.3.39",
-	"category" : "energy",
-	"hasDependency" : false,
+	"author" : "Nebz",
+	"hasDependency" : true,
 	"hasOwnDeamon" : false,
-	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://thanaus.github.io/jeedom_docs/plugins/veoliapro/fr_FR/changelog",
-	"documentation" : "https://thanaus.github.io/jeedom_docs/plugins/veoliapro/fr_FR/",
-	"changelog_beta" : "https://thanaus.github.io/jeedom_docs/plugins/veoliapro/fr_FR/changelog",
-	"documentation_beta" : "https://thanaus.github.io/jeedom_docs/plugins/veoliapro/fr_FR/",
-	"language": [
-		"fr_FR"
-	],
-	"compatibility": [
-		"miniplus",
-		"smart",
-		"rpi",
-		"docker",
-		"diy",
-		"mobile",
-		"v4",
-		"atlas"
-	]
+	"require" : "3.3.24",
+	"category" : "multimedia",
+	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
+	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/changelog",
+	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/changelog",
+	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/",
+	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/homepTalk/fr_FR/",
+	"forum_link" : "https://community.jeedom.com/tags/plugin-homeptalk",
+	"link" : {
+		"forum":"https://community.jeedom.com/tags/plugin-homeptalk"
+	},
+	"languages" : ["fr_FR","en_US"],
+	"compatibility" : ["rpi","diy","smart","v4"]
 }
