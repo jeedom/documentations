@@ -4,6 +4,10 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 04/05/2023
+
+- Arreglo del fallo
+
 # 05/02/2023
 
 - Arreglo del fallo

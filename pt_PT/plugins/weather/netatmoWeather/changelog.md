@@ -4,6 +4,10 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 02/05/2023
+
+- Bugfix
+
 # 23/01/2023
 
 - Passagem de uma atualização de dados a cada 10min
