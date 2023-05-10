@@ -4,6 +4,13 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 05/10/2023
+
+- GeoLoc V2 commands
+- Remove AppV2 mobile RNA part
+- Update mobile.api
+
+
 # 01/10/2023
 
 - FUTURE APPV2 ALPHA INTEGRATION IN MOBILE PLUGIN

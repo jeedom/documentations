@@ -4,6 +4,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 10.05.2023
+
+- GeoLoc V2-Befehle
+- Entfernen Sie den mobilen RNA-Teil von AppV2
+- Aktualisieren Sie mobile.api
+
+
 # 10.01.2023
 
 - ZUKÜNFTIGE APPV2 ALPHA INTEGRATION IN MOBILE PLUGIN

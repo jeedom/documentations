@@ -4,6 +4,13 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 10/05/2023
+
+- Comandos GeoLoc V2
+- Remova a parte do RNA móvel do AppV2
+- Atualizar mobile.api
+
+
 # 10/01/2023
 
 - FUTURA INTEGRAÇÃO APPV2 ALPHA EM PLUGIN MÓVEL

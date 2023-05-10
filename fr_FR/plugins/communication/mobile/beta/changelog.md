@@ -4,6 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 10/05/2023
+
+- Commandes GeoLoc V2
+- Suppression partie ARN mobile AppV2
+- MAJ mobile.api
+
+
 # 10/01/2023
 
 - FUTURE APPV2 ALPHA INTEGRATION DANS PLUGIN MOBILE
