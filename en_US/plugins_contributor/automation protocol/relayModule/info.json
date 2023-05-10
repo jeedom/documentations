@@ -1,26 +1,26 @@
 {
-	"id" : "hkControl",
-	"name" : "Homekit Network Devices Control",
+	"id" : "unifi",
+	"name" : "Unifi Network",
 	"description" : {
-		"fr_FR":"Ce plugin permet de controler dans jeedom vos périphériques Homekit Réseaux (pas les BLE). Le but de ce plugin est de permettre le contrôle de périphériques qui ne sont compatibles que avec le protocole Homekit et aucun autre protocole. Donc par exemple pas Philips Hue qui est accessible via un plugin dédié !",
-		"en_US":"This plugin allow you to control Network Homebridge devices with Jeedom (not BLE ones). The purpose of this plugin is to control \"Homekit only\" devices, eg not Philips Hue bridge or IKEA bridge.\n\nWARNING : Not supported : Jessie & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)"
+		"fr_FR":"Unifi Network - Connexion à un controleur Unifi Network.\nPermet certaines actions (Localiser, Gérer LED du site, Mise à jour Firmware, PowerCycle/Activation/Désactivation POE sur switchs, Activation/Désactivation/Reboot des Point d'accès, Activation/Désactivation des WLAN, Bloquer/Débloquer/Gestion présence des clients WiFi, etc)\n\nN'a pas la vocation de remplacer l'interface du controleur\n\nNon supporté : Unifi Access & Unifi VOIP",
+		"en_US":"Unifi Network - Connect to a Unifi Network controller\nAllow some actions (Localization, Manage site LED, Update Firmware, PowerCycle/Enable/Disable POE on switchs, Enable/Disable/Reboot AP, Enable/Disable WLAN's, Block/Unblock/Presence management of Wi-Fi clients, ...)\n\nDoes not replace Controller Web Interface\n\nNot supported : Unifi Access & Unifi VOIP\n\nWARNING : Not supported : Jessie & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)"
 	},
-	"utilization" : "ATTENTION : Non supporté : Jessie & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)\n\nATTENTION : Si vous désirez ajouter les périphériques Jeedom dans Homekit, pour Siri ou Maison par exemple, ce n'est pas le bon plugin, vous devez utiliser le plugin Homebridge !\n\nVous devez configurer votre périphérique Homekit comme habituellement dans Maison ou avec l'app du constructeur et ensuite le supprimer proprement (le désappairer).\nIl vous sera ensuite possible de le découvrir via le plugin (cela permet de configurer le réseau du périphérique si ce n'est pas encore fait).\n\nEtant donné que votre équipement ne sera donc plus appairé à homekit (mais à jeedom), vous pouvez le réinjecter via le plugin Homebridge mais tout n'est pas garanti de fonctionner (pas tous les types génériques).\n\n!!! Jeedom DOIT être sur le même réseau que votre équipement. (pas de routage, pas de NAT) !!!",
+	"utilization" : "Si votre équipement est dans votre controleur Unifi Network mais ne semble pas supporté (à part VOIP/Access) contactez moi je l'ajouterai.\n\nATTENTION : Non supporté : Jessie & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)",
 	"licence" : "AGPL",
 	"author" : "Nebz",
 	"hasDependency" : true,
 	"hasOwnDeamon" : true,
-	"require" : "4.0",
-	"category" : "automation protocol",
+	"require" : "3.3.24",
+	"category" : "monitoring",
 	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
-	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/changelog",
-	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/changelog",
-	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/",
-	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/",
-	"forum_link" : "https://community.jeedom.com/tags/plugin-hkControl",
+	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/changelog",
+	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/changelog",
+	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/",
+	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/",
+	"forum_link" : "https://community.jeedom.com/tags/plugin-unifi",
 	"link" : {
-		"forum":"https://community.jeedom.com/tags/plugin-hkControl"
+		"forum":"https://community.jeedom.com/tags/plugin-unifi"
 	},
 	"languages" : ["fr_FR","en_US"],
-	"compatibility" : ["smart","rpi","diy","v4"]
+	"compatibility" : ["smart","rpi","docker","diy","v4"]
 }
