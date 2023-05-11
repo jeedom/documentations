@@ -80,6 +80,6 @@ Pour le moment, le plugin prend en compte uniquement les accès avec DHCP.
 
 > 4G (uniquement compatible avec les Luna 4G)
 
-Detection automatique de la 4G interne a la box, demande code pin et APN dans la configuration du plugin Luna.
+Detection automatique de la 4G interne a la box merci de bien vouloir passer par le plugin pour cliquer sur detecter le module LTE si vous ne voyer pas les parametres dans la partie configuration, demande code pin et APN dans la configuration du plugin Luna.
 si 4G detecter lancement d'un module de connexion en arriere plan qui passe automatiquement de l'ethernet a la 4G si besoin (ping vers 8.8.8.8), le plugin SMS fonctionne en meme temps que la 4G sur la Luna 4G.
 Les parametrages ce font dans la configuration du plugin.
