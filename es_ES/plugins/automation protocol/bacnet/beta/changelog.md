@@ -24,3 +24,7 @@
 # 08/06/2022
 
 - Opción de máscara de subred en la configuración del complemento
+
+# 11/05/2023
+
+- Cambios para Network Scan y puntos Bacnet

@@ -24,3 +24,7 @@
 # 06/08/2022
 
 - Choice Subnet Mask in Plugin Configuration
+
+# 05/11/2023
+
+- Changes for Network Scan and Bacnet Points

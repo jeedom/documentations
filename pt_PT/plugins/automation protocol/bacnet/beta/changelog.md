@@ -24,3 +24,7 @@
 # 08/06/2022
 
 - Máscara de sub-rede de escolha na configuração do plug-in
+
+# 11/05/2023
+
+- Mudanças para Varredura de Rede e Pontos Bacnet
