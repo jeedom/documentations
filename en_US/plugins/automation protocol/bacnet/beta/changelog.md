@@ -28,3 +28,5 @@
 # 05/11/2023
 
 - Changes for Network Scan and Bacnet Points
+- Back State v4.2
+- Log All button on Orders tab

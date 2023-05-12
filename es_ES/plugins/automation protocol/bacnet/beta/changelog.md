@@ -28,3 +28,5 @@
 # 11/05/2023
 
 - Cambios para Network Scan y puntos Bacnet
+- Estado posterior v4.2
+- Botón Registrar todo en la pestaña Pedidos

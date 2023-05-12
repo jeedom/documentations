@@ -28,3 +28,5 @@
 # 11.05.2023
 
 - Änderungen für Netzwerkscan und Bacnet-Punkte
+- Back State v4.2
+- Klicken Sie auf die Schaltfläche „Alle protokollieren“ auf der Registerkarte „Bestellungen“
