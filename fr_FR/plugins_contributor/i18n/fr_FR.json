@@ -216,6 +216,8 @@
         "Le plugin actualise les données toutes les heures via un cron": "Le plugin actualise les données toutes les heures via un cron",
         "Fullup": "Fullup",
         "Plugin permettant la lecture des données des jauges connectées Fullup": "Plugin permettant la lecture des données des jauges connectées Fullup",
+        "Emporia Energy": "Emporia Energy",
+        "Monitoring de consommation d'énergie en temps réel (Vue Energy Monitor": "Monitoring de consommation d'énergie en temps réel (Vue Energy Monitor",
         "eeSmart": "eeSmart",
         "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy": "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy",
         "Suivi Conso": "Suivi Conso",

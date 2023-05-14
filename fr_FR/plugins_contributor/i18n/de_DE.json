@@ -429,6 +429,8 @@
         "Récupérer les informations de comptage gaz à partir de son compte-client GRDF": "Rufen Sie Gaszählerinformationen von Ihrem GRDF-Kundenkonto ab",
         "Le plugin actualise les données toutes les heures via un cron": "Das Plugin aktualisiert die Daten stündlich über einen Cron",
         "Plugin permettant la lecture des données des jauges connectées Fullup": "Plugin zum Lesen von Daten von mit Fullup verbundenen Messgeräten",
+        "Emporia Energy": "Emporia Energy",
+        "Monitoring de consommation d'énergie en temps réel (Vue Energy Monitor": "Überwachung des Energieverbrauchs in Echtzeit (Vue Energy Monitor)",
         "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy": "Plugin zum Abrufen der Daten, die das ERL D2L-Modul von eeemart an den Monitoring.consopy-Server sendet",
         "Suivi Conso": "Gefolgt Conso",
         "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production": "Plugin zur Verwaltung seines Energieverbrauchs (Gas, Strom und Wasser) sowie seiner Produktion",
