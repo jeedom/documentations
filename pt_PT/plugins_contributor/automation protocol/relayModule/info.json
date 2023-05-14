@@ -1,26 +1,31 @@
 {
-	"id" : "unifi",
-	"name" : "Unifi Network",
+	"id" : "emporiapro",
+	"name" : "Emporia Energy",
 	"description" : {
-		"fr_FR":"Unifi Network - Connexion à un controleur Unifi Network.\nPermet certaines actions (Localiser, Gérer LED du site, Mise à jour Firmware, PowerCycle/Activation/Désactivation POE sur switchs, Activation/Désactivation/Reboot des Point d'accès, Activation/Désactivation des WLAN, Bloquer/Débloquer/Gestion présence des clients WiFi, etc)\n\nN'a pas la vocation de remplacer l'interface du controleur\n\nNon supporté : Unifi Access & Unifi VOIP",
-		"en_US":"Unifi Network - Connect to a Unifi Network controller\nAllow some actions (Localization, Manage site LED, Update Firmware, PowerCycle/Enable/Disable POE on switchs, Enable/Disable/Reboot AP, Enable/Disable WLAN's, Block/Unblock/Presence management of Wi-Fi clients, ...)\n\nDoes not replace Controller Web Interface\n\nNot supported : Unifi Access & Unifi VOIP\n\nWARNING : Not supported : Jessie & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)"
+		"fr_FR": "Monitoring de consommation d'énergie en temps réel (Vue Energy Monitor)"
 	},
-	"utilization" : "Si votre équipement est dans votre controleur Unifi Network mais ne semble pas supporté (à part VOIP/Access) contactez moi je l'ajouterai.\n\nATTENTION : Non supporté : Jessie & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)",
 	"licence" : "AGPL",
-	"author" : "Nebz",
+	"author" : "Jeedom SAS",
+	"require" : "4.0.63",
+	"category" : "energy",
 	"hasDependency" : true,
 	"hasOwnDeamon" : true,
-	"require" : "3.3.24",
-	"category" : "monitoring",
-	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
-	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/changelog",
-	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/changelog",
-	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/",
-	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/",
-	"forum_link" : "https://community.jeedom.com/tags/plugin-unifi",
-	"link" : {
-		"forum":"https://community.jeedom.com/tags/plugin-unifi"
-	},
-	"languages" : ["fr_FR","en_US"],
-	"compatibility" : ["smart","rpi","docker","diy","v4"]
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://thanaus.github.io/jeedom_docs/plugins/emporiapro/fr_FR/changelog",
+	"documentation" : "https://thanaus.github.io/jeedom_docs/plugins/emporiapro/fr_FR/",
+	"changelog_beta" : "https://thanaus.github.io/jeedom_docs/plugins/emporiapro/fr_FR/changelog",
+	"documentation_beta" : "https://thanaus.github.io/jeedom_docs/plugins/emporiapro/fr_FR/",
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
 }
