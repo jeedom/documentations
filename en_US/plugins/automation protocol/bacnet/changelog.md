@@ -19,3 +19,14 @@
 
 - Choice of Devices to scan when adding new equipment
 - Scan time optimization
+
+
+# 06/08/2022
+
+- Choice Subnet Mask in Plugin Configuration
+
+# 05/11/2023
+
+- Changes for Network Scan and Bacnet Points
+- Back State v4.2
+- Log All button on Orders tab
