@@ -4,6 +4,12 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 05/19/2023
+
+- PR by PhpVarious
+- Fix minor bugs
+
+
 # 05/10/2023
 
 - GeoLoc V2 commands
