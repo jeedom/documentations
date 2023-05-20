@@ -1,0 +1,35 @@
+{
+    "id": "linksys",
+    "name": "Linksys",
+    "description": {
+        "fr_FR": "Informations et contrôle de vos routeurs Linksys.",
+        "en_US": "Information and control of your Linksys routers."
+    },
+    "utilization": "Sur la page de l'équipement renseignez l'adresse IP de votre routeur ainsi que l'identifiant et le mot de passe du compte admin, puis cliquez sur le bouton Sauvegarder.",
+    "licence": "AGPL",
+    "author": "Mips",
+    "require": "4.3",
+    "category": "communication",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https://mips2648.github.io/jeedom-plugins-docs/linksys/#language#/changelog",
+    "documentation": "https://mips2648.github.io/jeedom-plugins-docs/linksys/#language#/",
+    "changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/linksys/#language#/changelog",
+    "documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/linksys/#language#/",
+    "link": {
+        "forum": "https://community.jeedom.com/tags/plugin-linksys"
+    },
+    "language": [
+        "fr_FR",
+        "en_US"
+    ],
+    "compatibility": [
+        "smart",
+        "atlas",
+        "rpi",
+        "docker",
+        "diy",
+        "v4"
+    ]
+}
