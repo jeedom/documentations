@@ -51,6 +51,9 @@
         "Arrosage automatique": "Arrosage automatique",
         "Gestion de Volets": "Gestion de Volets",
         "Ce plugin gère l'ouverture et la fermeture de nos volets": "Ce plugin gère l'ouverture et la fermeture de nos volets",
+        "Le plugin vous propose de grouper vos lumières, homogénéiser les différentes valeurs et propose des automatismes pré concus": "Le plugin vous propose de grouper vos lumières, homogénéiser les différentes valeurs et propose des automatismes pré concus",
+        "Light group": "Light group",
+        "Light group vous permet de gérer l'ensemble de vos lumières": "Light group vous permet de gérer l'ensemble de vos lumières",
         "Gestion du Chauffe Eau": "Gestion du Chauffe Eau",
         "Ce plugin gère l'allumage et l'extinction notre chauffe-eau en fonction de la température de l'eau et \/ ou de l'heure disponibilité de l'eau chaude": "Ce plugin gère l'allumage et l'extinction notre chauffe-eau en fonction de la température de l'eau et \/ ou de l'heure disponibilité de l'eau chaude",
         "Automatisme": "Automatisme",
@@ -63,7 +66,9 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation Stable": "Documentation Stable",
         "Market": "Market",
-        "Changelog Stable": "Changelog Stable"
+        "Changelog Stable": "Changelog Stable",
+        "Documentation Beta": "Documentation Beta",
+        "Changelog Beta": "Changelog Beta"
     },
     "plugins_contributor\/communication\/index.md": {
         "chat est une plateforme de messagerie collaborative (type slack, HipChat": "chat est une plateforme de messagerie collaborative (type slack, HipChat",
