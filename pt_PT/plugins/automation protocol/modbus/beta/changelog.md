@@ -4,11 +4,16 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
+# 15/05/2023
+
+- Novas configurações de comando da interface do usuário
+- Valores de otimizações de conversão
+- Parâmetro de Retorno Hexadecimal
+
 # 03/04/2023
 
 - Novas configurações de comando da interface do usuário
 - Parâmetro ArrayRegistres para escrever consecutivamente a partir de um registro inicial
- FAÇA UM BACKUP DO JEEDOM antes de testar este beta. As configurações do plug-in Commands são longas e tediosas, recomenda-se ter um backup em caso de problema de atualização de versão.
 
 # 10/01/2023
 - Corrigir pacotes de importação para python 3.9

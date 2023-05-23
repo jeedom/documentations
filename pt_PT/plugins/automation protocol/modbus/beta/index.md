@@ -57,7 +57,7 @@ Dado o tempo gasto para por vezes configurar determinados equipamentos, é poss�
 Você pode, portanto, importá-lo em outra caixa facilmente em um novo equipamento do mesmo tipo (apenas para alterar o que difere em termos de conexão)
 
 
-Na página do equipamento, no canto inferior direito, você tem este encarte : 
+Na página do equipamento, no canto inferior direito, você tem este encarte :
 
 ![dependances](../images/exportFunction.png)
 
@@ -66,7 +66,7 @@ Clique em Lista de pedidos para exportar; abre-se uma janela com os comandos exi
 
 ![dependances](../images/choiceCmds.png)
 
-Você pode selecioná-los todos, se necessário, usando o botão na parte superior da janela. 
+Você pode selecioná-los todos, se necessário, usando o botão na parte superior da janela.
 Quando os comandos forem escolhidos, clique em Validar.
 
 
@@ -87,36 +87,49 @@ Para importar comandos para equipamentos : clique no canto superior direito do e
 
 
 
-Você também pode escolher diretamente um modelo de equipamento disponível na configuração do plugin, para carregar comandos fornecidos neste modelo; 
-Escolha o modelo escolhido e, em seguida, Valide. Então você pode salvar. 
+Você também pode escolher diretamente um modelo de equipamento disponível na configuração do plugin, para carregar comandos fornecidos neste modelo;
+Escolha o modelo escolhido e, em seguida, Valide. Então você pode salvar.
 
 
+DETALHES DO MODBUS :
 
+
+O tamanho de um registro Modbus é de 2 bytes (2 bytes), ou seja, 16 bits
 
 
 
 CONTROLES DE REPRODUÇÃO :
 
-Para bobinas e entradas discretas :  
+Para entradas de bobinas  :  
   - Você adiciona um Novo Comando Modbus e nomeia o comando. Você escolhe um comando de tipo de informação, em tipo binário ou numérico.
-  - Escolha o código de função correspondente : FC01 ou FC02
-  - É então necessário escolher o registrador inicial bem como o número de bytes a serem lidos (o número de registradores)
-  Ao salvar, o comando criado será excluído, para criar tantos comandos quanto o número especificado de bytes.
-  Ex: Se você escolher um registro inicial de 1 e um número de bytes de 4, os comandos serão criados : ReadCoil_1, ReadCoil_2, ReadCoil_3, ReadCoil_4
-  - Você pode, é claro, renomear os ReadCoils/Discretes ao seu gosto.
+  - Escolha o código de função correspondente : FC01
+  - É então necessário escolher o registo inicial bem como o número de registos a ler
+  Ao salvar, o comando criado será deletado, para criar tantos comandos quanto o número de registradores especificado.
+  Ex: Se você escolher um registro inicial de 1 e um número de registros de 4, os comandos serão criados : ReadCoil_1, ReadCoil_2, ReadCoil_3, ReadCoil_4
+  - Você pode, é claro, renomear os ReadCoils ao seu gosto.
 
+Para Fc2 Leitura discreta :
+
+- Crie um pedido do tipo Info, sob outro tipo
+- Escolha fc02
+- Escolha Bits, Big Endian, formato Big Word
+- Complete o cadastro
+- E preencha o campo : Número de bits a ler (0 a 15)
+
+Ao retornar da leitura, você terá um comando do tipo string com o valor dos bits solicitados
 
 
   Para Registros de Participações e Registros de Entradas:
   - Você adiciona um Novo Comando Modbus e nomeia o comando. Você escolhe um comando de tipo de informação, em tipo numérico.
   - Escolha o formato correspondente : Float , Long/Integer ou Bits
   - Escolha o código de função correspondente : FC04 ou FC03
-  - O registrador inicial, bem como o número de bytes : para floats, o número máximo de registros codificados é de 4 registros.
-  
-  
+  - O registro inicial, bem como o número de registros : para floats, o valor é codificado em no máximo 4 registradores, o mínimo é 2.
+
+
+
 Alguns registradores só podem ser lidos lendo vários registradores ao mesmo tempo no mesmo comando :
 
-exemplo : Criamos um comando, escolhemos Info e outro subtipo, especificando 10 bytes (10 registradores); marcando LectureMultiRegistres, isso criará automaticamente 10 novos pedidos, usando o nome do pedido original, mais o id do pedido em iteração. É claro que você pode renomear os comandos; ao ler o comando original, seu valor conterá uma cadeia de caracteres dos 10 valores de registro e atualizará os 10 comandos correspondentes.
+exemplo : Criamos um comando, escolhemos Info e outro subtipo, especificando 10 registros; verificando LectureMultiRegistres, isso criará automaticamente 10 novos pedidos, usando o nome do pedido original, mais o id do pedido na iteração. É claro que você pode renomear os comandos; ao ler o comando original, seu valor conterá uma cadeia de caracteres dos 10 valores de registro e atualizará os 10 comandos correspondentes.
 
 
 
@@ -141,11 +154,11 @@ IMPORTANTE :
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
 
 
-NOVA ESCRITA :
+   NOVA GRAVAÇÃO EM VÁRIOS REGISTROS PARA UM PEDIDO:
 
- - Ao criar um comando Action -> Other subtype, em seguida, escolhendo Fc16 e preenchendo o Start Register e a nova linha Register Table nos Parâmetros do comando, podemos executar este comando para escrever a partir do registro inicial os valores inseridos :
+      - Criando um comando Ação -> Outro subtipo, escolhendo Fc16 e preenchendo o Registro inicial e a nova linha da Tabela de registros nos Parâmetros de comando, podemos executar este comando para escrever a partir do registro inicial os valores inseridos :
 
- Ex : Iniciar Registro : 10
+      Ex : Iniciar Registro : 10
       Registro de Tabela de Linhas : 10-45-22-25.6-2360
       Enviaremos nos cadastros 10,11,12,13 e 14, os valores 10,45,22,22.6 e 2360
       Os valores devem ser separados por um - , e para números decimais, coloque um .
@@ -162,24 +175,24 @@ NOVA ESCRITA :
 
 
   - Gravação MultiCoil : na configuração do comando, você deve inserir o registro inicial
-  Por padrão, o functionCode é fc15. Por favor, deixe esta configuração como padrão.
+      Por padrão, o functionCode é fc15. Por favor, deixe esta configuração como padrão.
 
-  Para alterar os valores nos registros, use esta sintaxe:
-  -  Ex : 01110111 Então isso vai enviar do registrador inicial configurado os valores True(1) ou False(0) para os registradores
+      Para alterar os valores nos registros, use esta sintaxe:
+      Ex : 01110111 Então isso vai enviar do registrador inicial configurado os valores True(1) ou False(0) para os registradores
 
 
 
   - Escrever Bit : na configuração do comando, deve-se informar o registrador inicial, assim como a ordem dos bytes e da palavra.
-  Por padrão, o functionCode é fc03, pois este comando dará o valor do registrador configurado em binário para o comando info "infobitbinary".
+     Por padrão, o functionCode é fc03, pois este comando dará o valor do registrador configurado em binário para o comando info "infobitbinary".
 
-  Por favor, deixe esta configuração como padrão.
+     Por favor, deixe esta configuração como padrão.
 
-  No comando info "infobitbinary", você terá o valor binário do registrador de parâmetro no comando Write Bit.
-  Para alterar o bit no registro
+     No comando info "infobitbinary", você terá o valor binário do registrador de parâmetro no comando Write Bit.
+     Para alterar o bit no registro :
 
-  - valorpara enviar&PositionBit :   Ex:  1&4 Enviamos o valor 1 para o bit da posição 4 começando pela direita
-  No comando info "infobitbinary", você vê o valor 10000101, que corresponde ao valor binário do registrador de parâmetro.
-  Ao escrever 1&6, você terá agora o valor : 10100101 no registrador configurado.
+        valorpara enviar&PositionBit :   Ex:  1&4 Enviamos o valor 1 para o bit da posição 4 começando pela direita
+        No comando info "infobitbinary", você vê o valor 10000101, que corresponde ao valor binário do registrador de parâmetro.
+        Ao escrever 1&6, você terá agora o valor : 10100101 no registrador configurado.
 
 
 
@@ -230,5 +243,17 @@ Para gravar em um registro de retenção :
 
 
 
-Quando uma gravação é concluída, seja bem-sucedida ou não, uma mensagem aparece no Jeedom. 
+Quando uma gravação é concluída, seja bem-sucedida ou não, uma mensagem aparece no Jeedom.
 Você pode desabilitar/habilitar esta mensagem na configuração do plugin.
+
+
+
+
+
+# Parâmetros Específicos
+
+
+Para ter um comando que retorna o valor do cadastro em HexaDecimal (para um comando que informa os erros de um equipamento por exemplo), você cria seu comando, configura como de costume,
+e marque Retorno Hexa.
+
+Isso criará um novo comando no retorno que terá o nome do comando original, seguido por _HEXAVALUE
