@@ -438,6 +438,9 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
     },
     "plugins_contributor\/programming\/index.md": {
+        "Cela permet d'organiser vos logs de scénario selon vos préférences, de par exemple regrouper toutes les actions sur un équipement dans le même log quelque soit le scénario": "Cela permet d'organiser vos logs de scénario selon vos préférences, de par exemple regrouper toutes les actions sur un équipement dans le même log quelque soit le scénario",
+        "LogManager": "LogManager",
+        "Plugin permettant une gestion de log personnalisée dans vos scénarios": "Plugin permettant une gestion de log personnalisée dans vos scénarios",
         "JeeXplorer": "JeeXplorer",
         "Explorateur \/ éditeur de fichiers pour Jeedom": "Explorateur \/ éditeur de fichiers pour Jeedom",
         "Ce plugin a l'avantage de tout centraliser et permettre une gestion hiérarchique des ' objets": "Ce plugin a l'avantage de tout centraliser et permettre une gestion hiérarchique des ' objets",
@@ -458,7 +461,8 @@
         "Documentation Beta": "Documentation Beta",
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
-        "Changelog Beta": "Changelog Beta"
+        "Changelog Beta": "Changelog Beta",
+        "Il est possible de créer autant de log que voulu, différent niveau de log sont possible pour chaque fichier de log": "Il est possible de créer autant de log que voulu, différent niveau de log sont possible pour chaque fichier de log"
     },
     "plugins_contributor\/security\/index.md": {
         "Alarme Verisure": "Alarme Verisure",
