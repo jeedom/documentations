@@ -12,7 +12,7 @@ A configuração do equipamento Denon pode ser acessada no menu Plugins e depois
 
 Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nome de l'équipement Denon** : nome do seu equipamento Denon,
+-   **Nome do equipamento Denon** : nome do seu equipamento Denon,
 -   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
 -   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias),
 -   **Ativar** : torna seu equipamento ativo,
