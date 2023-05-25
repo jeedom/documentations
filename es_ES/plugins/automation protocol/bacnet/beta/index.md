@@ -67,7 +67,7 @@ Un ejemplo de detección de equipos Bacnet :
 
 ![tableau](../images/BacnetTableau.png)
 
-Dependiendo del fabricante del equipo, algunos valores no están disponibles; 
+Dependiendo del fabricante del equipo, algunos valores no están disponibles;
 
 Todo lo que tiene que hacer es seleccionar las órdenes que se crearán marcando una de las opciones según su elección (tipo de comando info o tipo acción):
 
@@ -118,6 +118,28 @@ Las entradas / salidas AnalogValue, BinaryValue o MultistateValue se pueden pedi
 
 
 Al crear las órdenes de tipo de escritura elegidas, también se creará una orden de acción asociada, que por defecto no es visible en el tablero.
-Al hacer clic en él, restablece la tabla de prioridad de escritura de una entrada / salida a los valores predeterminados. 
+Al hacer clic en él, restablece la tabla de prioridad de escritura de una entrada / salida a los valores predeterminados.
 Tendrá un nombre con << resetPrioritesEcriture >>
 Para que este comando sea visible en su tablero, vaya a los comandos de su equipo y marque la casilla "Mostrar"
+
+
+
+# Prioridad de escritura
+
+  A Manejar con cuidado
+
+  Un campo de prioridad de escritura está disponible en cada orden creada
+
+  Según la documentación :
+
+  En BACnet, el objeto en el que podemos escribir a menudo proporciona lo que se llama la matriz de prioridad. Esta matriz contiene 16 niveles en los que podemos escribir (siendo 1 la prioridad más alta).
+
+  El uso típico de prioridad es :
+
+  1 Manual-Seguridad humana 2 Automático-Seguridad humana 3 Disponible 4 Disponible 5 Control de equipos críticos 6 Mínimo encendido/apagado 7 Disponible 8 Operador manual (anulación) 9 Disponible 10 Disponible (control típico de un supervisor) 11 Disponible 12 Disponible 13 Disponible 14 Disponible 15 Disponible (Horario) 16 Disponible
+
+
+
+  Puede elegir una prioridad de escritura en los comandos deseados, eligiendo un número entre 1 y 16
+
+  Si no se ingresa ningún valor en un comando de escritura, el valor predeterminado se establecerá en 8.
