@@ -4,6 +4,14 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 24/05/2023
+
+FAIRE BACKUP DE JEEDOM AVANT INSTALLE NOUVELLE BETA.
+- Import/Exports Commandes via Xlsx
+- Nouvelle syntaxe Operation sur Commande (voir Doc)
+- Nouveau paramètre en configuration pour Lecture en série des équipements, ou en parallèle
+- Fixs
+
 # 15/05/2023
 
 - Nouvelle UI paramètrage des commandes

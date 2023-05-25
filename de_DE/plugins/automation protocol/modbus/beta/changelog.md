@@ -4,6 +4,14 @@
 >
 >Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 24.05.2023
+
+Erstellen Sie ein Backup von JEEDOM, bevor Sie die neue Beta installieren.
+- Bestellungen über Xlsx importieren/exportieren
+- Neue Syntaxoperation auf Befehl (siehe Dok)
+- Neuer Parameter in der Konfiguration zum seriellen Lesen von Geräten oder parallel
+- Fixs
+
 # 15.05.2023
 
 - Neue UI-Befehlseinstellungen

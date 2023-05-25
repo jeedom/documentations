@@ -129,14 +129,8 @@ Ao retornar da leitura, você terá um comando do tipo string com o valor dos bi
 
 Alguns registradores só podem ser lidos lendo vários registradores ao mesmo tempo no mesmo comando :
 
-exemplo : Criamos um comando, escolhemos Info e outro subtipo, especificando 10 registros; verificando LectureMultiRegistres, isso criará automaticamente 10 novos pedidos, usando o nome do pedido original, mais o id do pedido na iteração. É claro que você pode renomear os comandos; ao ler o comando original, seu valor conterá uma cadeia de caracteres dos 10 valores de registro e atualizará os 10 comandos correspondentes.
-
-
-
-Alguns registradores podem precisar ser divididos em vários bytes :
-exemplo : um registro 17, conforme a documentação do dispositivo, deve retornar um valor FF ou 00 (para saber se um ventilador funciona ou não) no primeiro byte do registro, bem como um valor numérico no segundo byte do registro.
-É necessário então criar um comando em fc3, e especificar no campo nbOctets o número 2; isso criará 2 comandos adicionais, com base no nome do comando inicial; estes 2 comandos correspondem cada um a um byte. Os valores retornados acima serão em hexadecimal; se você precisar do valor numérico, verifique Hexa2dec neste mesmo comando.
-
+exemplo : Criamos um comando, escolhemos Info e outro subtipo, especificando 10 registros;
+Ver Parâmetros Específicos no final da documentação
 
 
 COMANDOS DE ESCREVA:
@@ -200,14 +194,7 @@ IMPORTANTE :
 
 
 Alguns CPs não possuem a função fc06
-Você pode criar um comando de ação, em tipo de mensagem, e escolher fc16
-Verifique o registro Fc16 não rastreado
-No painel, você deve usar esta sintaxe :
-registro de partida ! value & nregisters separados por um |
-
-Ex: 7!122,5&2|10!22&2
-
-Vamos escrever do registrador 7, o valor 122.5 em 2 registradores e também do registrador 10, o valor 22, em 2 registradores
+  Ver Parâmetros Específicos no final da documentação
 
 
 
@@ -252,8 +239,45 @@ Você pode desabilitar/habilitar esta mensagem na configuração do plugin.
 
 # Parâmetros Específicos
 
+RETORNO HEX :
+  Para ter um comando que retorna o valor do cadastro em HexaDecimal (para um comando que informa os erros de um equipamento por exemplo), você cria seu comando, configura como de costume,
+  e marque Retorno Hexa.
 
-Para ter um comando que retorna o valor do cadastro em HexaDecimal (para um comando que informa os erros de um equipamento por exemplo), você cria seu comando, configura como de costume,
-e marque Retorno Hexa.
+  Isso criará um novo comando no retorno que terá o nome do comando original, seguido por _HEXAVALUE
 
-Isso criará um novo comando no retorno que terá o nome do comando original, seguido por _HEXAVALUE
+
+
+LEITURA DE MÚLTIPLOS REGISTROS :
+  marcando LectureMultiRegistres, isso criará automaticamente tantos novos comandos quanto o número especificado em Number of registers, usando o nome do comando original, mais o id do comando na iteração. É claro que você pode renomear os comandos; ao ler o comando original, seu valor conterá uma cadeia de caracteres dos 10 valores de registro e atualizará os 10 comandos correspondentes.
+
+
+
+Fc16 REGISTROS NÃO RASTREADOS :
+  Alguns CPs não possuem a função fc06
+  Você pode criar um comando de ação, em tipo de mensagem, e escolher fc16
+  Verifique o registro Fc16 não rastreado
+  No painel, você deve usar esta sintaxe :
+  registro de partida ! value & nregisters separados por um |
+
+  Ex: 7!122,5&2|10!22&2
+
+  Vamos escrever do registrador 7, o valor 122.5 em 2 registradores e também do registrador 10, o valor 22, em 2 registradores
+
+
+
+OPERAÇÃO POR ORDEM :
+  Para uma operação sobre o retorno de valor : no campo Operação do pedido, você pode preencher uma operação matemática colocando a tag #value# para indicar o valor deste comando :
+  exemplo : (#value# / 10) * 2
+  O cálculo será realizado no retorno dos dados deste comando.
+  Faça bom uso de * para multiplicações
+
+
+
+
+
+
+# Importar/Exportar Comandos XLSX
+
+Após a criação de um equipamento, você pode importar um arquivo xlsx para a criação de seus pedidos
+O arquivo de modelo pode ser encontrado em plugins/modbus/data/templateXlsx/exportModbus.xls
+Você pode acessá-lo e baixá-lo através do Jeedom -> Configurações-> Sistema-> Editor de arquivos

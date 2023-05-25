@@ -129,14 +129,8 @@ When you return from reading, you will have a string type command with the value
 
 Some registers can only be read by reading several registers at the same time on the same command :
 
-example : We create a command, choose Info and other subtype, specifying 10 registers; by checking LectureMultiRegistres, this will automatically create 10 new orders, using the name of the original order, plus the id of the order in iteration. You can of course rename the commands; when reading the original command, its value will contain a character string of the 10 register values, and will update the 10 corresponding commands.
-
-
-
-Some registers may need to be split into several bytes :
-example : a register 17, according to the documentation of the device, must return a value FF or 00 (to know if a fan works or not) on the first byte of the register, as well as a numerical value on the second byte of the register.
-It is then necessary to create a command in fc3, and to specify in the nbOctets field the figure 2; this will create 2 additional commands, based on the name of the initial command; these 2 commands each correspond to a byte. The values returned above will be in hexadecimal; if you need the numerical value, then you have to check Hexa2dec on this same command.
-
+example : We create a command, choose Info and other subtype, specifying 10 registers;
+See Specific Parameters at the end of the documentation
 
 
 WRITE COMMANDS:
@@ -200,14 +194,7 @@ IMPORTANT :
 
 
 Some PLCs do not have the fc06 function
-You can create an Action command, under Message type, and choose fc16
-Check Fc16 Register Not Tracked
-In the dashboard, you must use this syntax :
-departure register ! value & nbregisters separated by a |
-
-Ex: 7!122.5&2|10!22&2
-
-We will write from register 7, the value 122.5 on 2 registers and also from register 10, the value 22, on 2 registers
+  See Specific Parameters at the end of the documentation
 
 
 
@@ -252,8 +239,45 @@ You can disable/enable this message from the plugin configuration.
 
 # Specific Parameters
 
+HEX RETURN :
+  To have a command that returns the value of the register in HexaDecimal (for a command that reports the errors of an equipment for example), you create your command, configure it as usual,
+  and tick Return Hexa.
 
-To have a command that returns the value of the register in HexaDecimal (for a command that reports the errors of an equipment for example), you create your command, configure it as usual,
-and tick Return Hexa.
+  This will create a new command on return that will have the name of the original command, followed by _HEXAVALUE
 
-This will create a new command on return that will have the name of the original command, followed by _HEXAVALUE
+
+
+MULTI-REGISTER READING :
+  by checking LectureMultiRegistres, this will automatically create as many new commands as the number specified in Number of registers, using the name of the original command, plus the id of the command in iteration. You can of course rename the commands; when reading the original command, its value will contain a character string of the 10 register values, and will update the 10 corresponding commands.
+
+
+
+Fc16 UNTRACKED REGISTERS :
+  Some PLCs do not have the fc06 function
+  You can create an Action command, under Message type, and choose fc16
+  Check Fc16 Register Not Tracked
+  In the dashboard, you must use this syntax :
+  departure register ! value & nbregisters separated by a |
+
+  Ex: 7!122.5&2|10!22&2
+
+  We will write from register 7, the value 122.5 on 2 registers and also from register 10, the value 22, on 2 registers
+
+
+
+OPERATION ON ORDER :
+  For an operation on the return of value : in the Operation field on the order, you can fill in a mathematical operation by putting the tag #value# to indicate the value of this command :
+  example : (#value# / 10 ) * 2
+  The calculation will be performed on the return of data from this command.
+  Make good use of * for multiplications
+
+
+
+
+
+
+# Import/Export XLS CommandsX
+
+After the creation of an equipment, you can import an xlsx file for the creation of your orders
+The template file can be found in plugins/modbus/data/templateXlsx/exportModbus.xls
+You can access it and download it via your Jeedom -> Settings-> System-> File editor

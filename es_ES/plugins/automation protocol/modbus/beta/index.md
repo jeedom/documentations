@@ -129,14 +129,8 @@ Cuando regrese de leer, tendrá un comando de tipo cadena con el valor de los bi
 
 Algunos registros solo se pueden leer leyendo varios registros al mismo tiempo en el mismo comando :
 
-ejemplo : Creamos un comando, elegimos Info y otro subtipo, especificando 10 registros; al verificar LectureMultiRegistres, esto creará automáticamente 10 nuevos pedidos, utilizando el nombre del pedido original, más la identificación del pedido en iteración. Por supuesto, puede cambiar el nombre de los comandos; al leer el comando original, su valor contendrá una cadena de caracteres de los 10 valores de registro y actualizará los 10 comandos correspondientes.
-
-
-
-Es posible que algunos registros deban dividirse en varios bytes :
-ejemplo : un registro 17, según la documentación del dispositivo, debe devolver un valor FF o 00 (para saber si un ventilador funciona o no) en el primer byte del registro, así como un valor numérico en el segundo byte del registro.
-Entonces es necesario crear un comando en fc3, y especificar en el campo nbOctets el número 2; esto creará 2 comandos adicionales, basados en el nombre del comando inicial; estos 2 comandos corresponden cada uno a un byte. Los valores devueltos arriba estarán en hexadecimal; si necesita el valor numérico, debe verificar Hexa2dec en este mismo comando.
-
+ejemplo : Creamos un comando, elegimos Info y otro subtipo, especificando 10 registros;
+Ver Parámetros Específicos al final de la documentación
 
 
 ESCRIBIR COMANDOS:
@@ -200,14 +194,7 @@ IMPORTANTE :
 
 
 Algunos PLC no tienen la función fc06
-Puede crear un comando de acción, en Tipo de mensaje, y elegir fc16
-Compruebe el registro Fc16 no rastreado
-En el tablero, debe usar esta sintaxis :
-registro de salida ! value & nbregisters separados por un |
-
-Ex: 7!122.5 y 2|10!22 y 2
-
-Escribiremos del registro 7, el valor 122.5 en 2 registros y también del registro 10, el valor 22, en 2 registros
+  Ver Parámetros Específicos al final de la documentación
 
 
 
@@ -252,8 +239,45 @@ Puede deshabilitar/habilitar este mensaje desde la configuración del complement
 
 # Parámetros específicos
 
+RETORNO HEXAGONAL :
+  Para tener un comando que devuelva el valor del registro en HexaDecimal (para un comando que reporte los errores de un equipo por ejemplo), creas tu comando, configuralo como siempre,
+  y marque Retorno hexadecimal.
 
-Para tener un comando que devuelva el valor del registro en HexaDecimal (para un comando que reporte los errores de un equipo por ejemplo), creas tu comando, configuralo como siempre,
-y marque Retorno hexadecimal.
+  Esto creará un nuevo comando al regresar que tendrá el nombre del comando original, seguido de _HEXAVALUE
 
-Esto creará un nuevo comando al regresar que tendrá el nombre del comando original, seguido de _HEXAVALUE
+
+
+LECTURA MULTIREGISTRO :
+  al verificar LectureMultiRegistres, esto creará automáticamente tantos comandos nuevos como el número especificado en Número de registros, usando el nombre del comando original, más la identificación del comando en iteración. Por supuesto, puede cambiar el nombre de los comandos; al leer el comando original, su valor contendrá una cadena de caracteres de los 10 valores de registro y actualizará los 10 comandos correspondientes.
+
+
+
+Fc16 REGISTROS SIN SEGUIMIENTO :
+  Algunos PLC no tienen la función fc06
+  Puede crear un comando de acción, en Tipo de mensaje, y elegir fc16
+  Compruebe el registro Fc16 no rastreado
+  En el tablero, debe usar esta sintaxis :
+  registro de salida ! value & nbregisters separados por un |
+
+  Ex: 7!122.5 y 2|10!22 y 2
+
+  Escribiremos del registro 7, el valor 122.5 en 2 registros y también del registro 10, el valor 22, en 2 registros
+
+
+
+OPERACIÓN A LA ORDEN :
+  Para una operación de devolución de valor : en el campo Operación del pedido, puede completar una operación matemática colocando la etiqueta #value# para indicar el valor de este comando :
+  ejemplo : (#value# / 10 ) * 2
+  El cálculo se realizará en la devolución de datos de este comando.
+  Haz buen uso de * para multiplicaciones
+
+
+
+
+
+
+# Comandos XLS de importación/exportaciónX
+
+Después de la creación de un equipo, puede importar un archivo xlsx para la creación de sus pedidos
+El archivo de plantilla se puede encontrar en plugins/modbus/data/templateXlsx/exportModbus.xls
+Puede acceder a él y descargarlo a través de su Jeedom -> Configuración-> Sistema-> Editor de archivos

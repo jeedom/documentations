@@ -129,14 +129,8 @@ Wenn Sie vom Lesen zurückkehren, erhalten Sie einen Befehl vom Typ „String“
 
 Einige Register können nur gelesen werden, indem mehrere Register gleichzeitig mit demselben Befehl gelesen werden :
 
-Beispiel : Wir erstellen einen Befehl, wählen „Info“ und einen anderen Untertyp und geben 10 Register an. Durch Aktivieren von LectureMultiRegistres werden automatisch 10 neue Bestellungen erstellt, wobei der Name der ursprünglichen Bestellung sowie die ID der Bestellung in der Iteration verwendet werden. Sie können die Befehle natürlich umbenennen; Beim Lesen des ursprünglichen Befehls enthält sein Wert eine Zeichenfolge der 10 Registerwerte und aktualisiert die 10 entsprechenden Befehle.
-
-
-
-Einige Register müssen möglicherweise in mehrere Bytes aufgeteilt werden :
-Beispiel : Ein Register 17 muss laut Dokumentation des Geräts einen Wert FF oder 00 (um zu wissen, ob ein Lüfter funktioniert oder nicht) im ersten Byte des Registers sowie einen numerischen Wert im zweiten Byte des Registers zurückgeben.
-Es ist dann notwendig, einen Befehl in fc3 zu erstellen und im Feld nbOctets die Ziffer 2 anzugeben; Dadurch werden 2 zusätzliche Befehle erstellt, basierend auf dem Namen des ursprünglichen Befehls. diese 2 Befehle entsprechen jeweils einem Byte. Die oben zurückgegebenen Werte sind hexadezimal; Wenn Sie den numerischen Wert benötigen, müssen Sie Hexa2dec mit demselben Befehl überprüfen.
-
+Beispiel : Wir erstellen einen Befehl, wählen „Info“ und einen anderen Untertyp und geben 10 Register an
+Siehe Spezifische Parameter am Ende der Dokumentation
 
 
 BEFEHLE SCHREIBEN:
@@ -200,14 +194,7 @@ WICHTIG :
 
 
 Einige SPS haben die Funktion fc06 nicht
-Sie können unter Nachrichtentyp einen Aktionsbefehl erstellen und fc16 auswählen
-Überprüfen Sie das Fc16-Register nicht verfolgt
-Im Dashboard müssen Sie diese Syntax verwenden :
-Abgangsregister ! Wert & nbRegister durch a getrennt |
-
-Ex: 7!122.5&2|10!22&2
-
-Wir schreiben aus Register 7 den Wert 122.5 auf 2 Register und auch von Register 10, der Wert 22, auf 2 Register
+  Siehe Spezifische Parameter am Ende der Dokumentation
 
 
 
@@ -252,8 +239,45 @@ Sie können diese Meldung in der Plugin-Konfiguration deaktivieren/aktivieren.
 
 # Spezifische Parameter
 
+HEX-RÜCKKEHR :
+  Um einen Befehl zu haben, der den Wert des Registers in Hexadezimalform zurückgibt (für einen Befehl, der beispielsweise die Fehler eines Geräts meldet), erstellen Sie Ihren Befehl und konfigurieren ihn wie gewohnt,
+  und kreuzen Sie Return Hexa an.
 
-Um einen Befehl zu haben, der den Wert des Registers in Hexadezimalform zurückgibt (für einen Befehl, der beispielsweise die Fehler eines Geräts meldet), erstellen Sie Ihren Befehl und konfigurieren ihn wie gewohnt,
-und kreuzen Sie Return Hexa an.
+  Dadurch wird bei der Rückkehr ein neuer Befehl erstellt, der den Namen des ursprünglichen Befehls hat, gefolgt von _HEXAVALUE
 
-Dadurch wird bei der Rückkehr ein neuer Befehl erstellt, der den Namen des ursprünglichen Befehls hat, gefolgt von _HEXAVALUE
+
+
+MEHRREGISTERLESEN :
+  Durch Aktivieren von „LectureMultiRegistres“ werden automatisch so viele neue Befehle erstellt, wie in „Anzahl der Register“ angegeben, unter Verwendung des Namens des ursprünglichen Befehls und der ID des Befehls in der Iteration. Sie können die Befehle natürlich umbenennen; Beim Lesen des ursprünglichen Befehls enthält sein Wert eine Zeichenfolge der 10 Registerwerte und aktualisiert die 10 entsprechenden Befehle.
+
+
+
+Fc16 UNVERFOLGTE REGISTER :
+  Einige SPS haben die Funktion fc06 nicht
+  Sie können unter Nachrichtentyp einen Aktionsbefehl erstellen und fc16 auswählen
+  Überprüfen Sie das Fc16-Register nicht verfolgt
+  Im Dashboard müssen Sie diese Syntax verwenden :
+  Abgangsregister ! Wert & nbRegister durch a getrennt |
+
+  Ex: 7!122.5&2|10!22&2
+
+  Wir schreiben aus Register 7 den Wert 122.5 auf 2 Register und auch von Register 10, der Wert 22, auf 2 Register
+
+
+
+BETRIEB AUF BESTELLUNG :
+  Für eine Operation zur Wertrückgabe : Im Feld „Operation“ der Bestellung können Sie eine mathematische Operation ausfüllen, indem Sie das Tag einfügen #value# um den Wert dieses Befehls anzugeben :
+  Beispiel : (#value# / 10 ) * 2
+  Die Berechnung wird bei der Rückgabe von Daten von diesem Befehl durchgeführt.
+  Nutzen Sie * gut für Multiplikationen
+
+
+
+
+
+
+# XLS-Befehle importieren/exportierenX
+
+Nach der Anlage eines Equipments können Sie eine xlsx-Datei zur Erstellung Ihrer Aufträge importieren
+Die Vorlagendatei finden Sie unter „plugins/modbus/data/templateXlsx/exportModbus.xls“
+Sie können darauf zugreifen und es über Ihren Jeedom -> Einstellungen -> System -> Dateieditor herunterladen

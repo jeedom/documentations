@@ -129,14 +129,8 @@ Au retour de lecture, vous aurez une commande de type string avec la valeur des 
 
 Certains registres ne peuvent se lire qu'en lisant plusieurs registres en meme temps sur une meme commande :
 
-exemple : On créé une commande,choisir Info et soustype autre, en specifiant 10 registres; en cochant LectureMultiRegistres, cela va créé automatiquement 10 nouvelles commandes, reprenant le nom de la commande originale, plus l'id de la commande en iteration. Vous pouvez bien attendu renommer les commandes; à la lecture de la commande originale, sa valeur contiendra une chaine de caractere des 10 valeurs des registres, et mettra à jour les 10 commandes correspondantes.
-
-
-
-Certains registres peuvent demander a être découpé en plusieurs octets :
-exemple : un registre 17, d'après la documentation du device, doit retourner une valeur FF ou 00 (savoir si un ventilateur fonctionne ou non) sur le premier octet du registre, ainsi qu'une valeur numerique sur le deuxième octet du registre.
-Il faut alors creer une commande en FC3, et preciser dans le champ nbOctets le chiffre 2; cela creera 2 commandes supplementaires, basé sur le nom de la commande initiale; ces 2 commandes correspondent chacune à un octet. Les valeurs renvoyes dessus seront en hexadecimale; si besoin de la valeur numerique, alors il faut cocher Hexa2dec sur cette meme commande.
-
+exemple : On créé une commande,choisir Info et soustype autre, en specifiant 10 registres;
+Voir Parametres Specifique en fin de documentation
 
 
 COMMANDES D'ECRITURE:
@@ -200,14 +194,7 @@ IMPORTANT :
 
 
 Certains automates n'ont pas la fonction fc06
-Vous pouvez créér une commande Action, sous type Message, et choisir fc16
-Cocher Fc16 Registre non suivis
-Dans le dashboard, il faut utiliser cette syntaxe :
-registre de depart ! valeur & nbregistres séparé par un |
-
-Ex: 7!122.5&2|10!22&2
-
-On va écrire à partir du registre 7, la valeur 122.5 sur 2 registres et également a partir du registre 10, la valeur 22, sur 2 registres
+  Voir Parametres specifiques en fin de documentation
 
 
 
@@ -252,8 +239,45 @@ Vous pouvez désactiver/activer ce message depuis la configuration du plugin.
 
 # Paramètres Spécifiques
 
+RETOUR HEXA :
+  Pour avoir une commande qui retourne la valeur du registre en HexaDecimal (pour une commande qui remonte les erreurs d'un équipement par exemple), il vous créer votre commande, la paramètrer comme habituellement,
+  et cocher Retour Hexa.
 
-Pour avoir une commande qui retourne la valeur du registre en HexaDecimal (pour une commande qui remonte les erreurs d'un équipement par exemple), il vous créer votre commande, la paramètrer comme habituellement,
-et cocher Retour Hexa.
+  Cela créera au retour d'état une nouvelle commande qui portera le nom de la commande originale, suivi de _HEXAVALUE
 
-Cela créera au retour d'état une nouvelle commande qui portera le nom de la commande originale, suivi de _HEXAVALUE
+
+
+LECTURE MULTIREGISTRES :
+  en cochant LectureMultiRegistres, cela va créé automatiquement autant de nouvelles commandes que le nombre precisé dans Nombre de registre, reprenant le nom de la commande originale, plus l'id de la commande en iteration. Vous pouvez bien attendu renommer les commandes; à la lecture de la commande originale, sa valeur contiendra une chaine de caractere des 10 valeurs des registres, et mettra à jour les 10 commandes correspondantes.
+
+
+
+Fc16 REGISTRES NON SUIVIS :
+  Certains automates n'ont pas la fonction fc06
+  Vous pouvez créér une commande Action, sous type Message, et choisir fc16
+  Cocher Fc16 Registre non suivis
+  Dans le dashboard, il faut utiliser cette syntaxe :
+  registre de depart ! valeur & nbregistres séparé par un |
+
+  Ex: 7!122.5&2|10!22&2
+
+  On va écrire à partir du registre 7, la valeur 122.5 sur 2 registres et également a partir du registre 10, la valeur 22, sur 2 registres
+
+
+
+OPERATION SUR COMMANDE :
+  Pour une opération sur le retour de value : dans le champ Opération sur la commande, vous pouvez remplir une opération mathématique en mettant le tag #value# pour indiquer la valeur de cette commande :
+  exemple : (#value# / 10 ) * 2
+  Le calcul sera effectué sur le retour de data de cette commande.
+  Bien utiliser * pour les multiplications
+
+
+
+
+
+
+# Import/Export Commandes XLSX
+
+Après la création d'un équipement, vous pouvez importer un fichier xlsx pour la création de vos commandes
+Le fichier template se trouver dans plugins/modbus/data/templateXlsx/exportModbus.xls
+Vous pouvez y acceder et le télécharger via votre Jeedom -> Reglages->Systeme->Editeur de fichiers
