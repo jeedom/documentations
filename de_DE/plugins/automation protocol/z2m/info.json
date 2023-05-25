@@ -1,0 +1,53 @@
+{
+    "id": "z2m",
+    "name": "JeeZigbee",
+    "description": {
+        "fr_FR": "Plugin permettant d'utiliser le zigbee, basé sur zigbee2mqtt.",
+        "en_US": "Plugin allowing to use the zigbee, based on zigbee2mqtt",
+        "es_ES": "Complemento que permite usar el zigbee, basado en zigbee2mqtt",
+        "de_DE": "Plugin, das die Verwendung von Zigbee ermöglicht, basierend auf zigbee2mqtt",
+        "ru_RU": "Plugin permettant d'utiliser le zigbee, basé sur zigbee2mqtt",
+        "id_ID": "Plugin permettant d'utiliser le zigbee, basé sur zigbee2mqtt",
+        "it_IT": "Plugin permettant d'utiliser le zigbee, basé sur zigbee2mqtt",
+        "ja_JP": "Plugin permettant d'utiliser le zigbee, basé sur zigbee2mqtt",
+        "pt_PT": "Plugin que permite usar o zigbee, baseado em zigbee2mqtt",
+        "tr": "Plugin permettant d'utiliser le zigbee, basé sur zigbee2mqtt"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.3",
+    "category": "automation protocol",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 30,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/z2m\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/z2m\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/z2m\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/automation protocol\/z2m\/beta",
+    "link": {
+        "forum": "Lien vers le forum",
+        "video": "Lien vers une video"
+    },
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ]
+}
