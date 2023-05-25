@@ -4,7 +4,7 @@
         "Plugin pour contrôler les équipements Z-Wave": "Plugin pour contrôler les équipements Z-Wave",
         "Il est important de bien lire la documentation du plugin avant tout achat": "Il est important de bien lire la documentation du plugin avant tout achat",
         "Zigbee": "Zigbee",
-        "Plugin offrant une compatibilité généralisée avec différents types de contrôleurs Zigbee tels que deCONZ et EZSP (Silicon labs), et en support beta": "Plugin offrant une compatibilité généralisée avec différents types de contrôleurs Zigbee tels que deCONZ et EZSP (Silicon labs), et en support beta",
+        "IMPORTANT Ce plugin est remplacer par Jeezigbee (documentation en cours de rédaction": "IMPORTANT Ce plugin est remplacer par Jeezigbee (documentation en cours de rédaction",
         "JeeZigbee": "JeeZigbee",
         "Plugin permettant d'utiliser le zigbee, basé sur zigbee2mqtt": "Plugin permettant d'utiliser le zigbee, basé sur zigbee2mqtt",
         "Wes": "Wes",
@@ -84,6 +84,7 @@
         "Il sera mis à disposition de tous les possesseurs du premier plugin": "Il sera mis à disposition de tous les possesseurs du premier plugin",
         "Cela permettra à chacun de migrer tranquillement": "Cela permettra à chacun de migrer tranquillement",
         "Ce plugin permet le pilotage des velux et des ouvrants \"io-homecontrol\" compatibles avec l'interface VELUX KLF 200 (volets roulants Somfy par exemple": "Ce plugin permet le pilotage des velux et des ouvrants \"io-homecontrol\" compatibles avec l'interface VELUX KLF 200 (volets roulants Somfy par exemple",
+        "Plugin offrant une compatibilité généralisée avec différents types de contrôleurs Zigbee tels que deCONZ et EZSP (Silicon labs), et en support beta": "Plugin offrant une compatibilité généralisée avec différents types de contrôleurs Zigbee tels que deCONZ et EZSP (Silicon labs), et en support beta",
         "Zigate, XBee et Texas Instruments": "Zigate, XBee et Texas Instruments"
     },
     "plugins\/automatisation\/index.md": {
