@@ -4,12 +4,12 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
-# 05/24/2023
+# 05/29/2023
 
 MAKE BACKUP OF JEEDOM BEFORE INSTALLING NEW BETA.
+- Write 1 Bit
 - Import/Export Orders via Xlsx
 - New Syntax Operation on Command (see Doc)
-- New parameter in configuration for Serial reading of devices, or in parallel
 - Fixs
 
 # 05/15/2023

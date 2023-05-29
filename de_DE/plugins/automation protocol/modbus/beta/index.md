@@ -144,8 +144,20 @@ WICHTIG :
  Ihr Funktionsprinzip:
 
 
-
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
+
+
+
+
+  REGISTRBITS ÄNDERN :
+
+  Um das Bit eines Registers zu ändern, müssen Sie den Befehl message WriteBit verwenden. In der Konfiguration des Befehls müssen Sie im Feld Startregister die Nummer des zu schreibenden Registers auswählen. Keine weitere Konfiguration erforderlich
+  Anschließend müssen Sie im Nachrichtentext des Befehls im Dashboard die folgende Syntax verwenden : bitWert&indexbit
+  Möglicher Bitwert 0 oder 1
+  indexBit ist der Wert zwischen 0 und 15 (einschließlich der Werte))
+  Den Index des zu ändernden Bits entnehmen Sie bitte der Dokumentation Ihres Geräts
+
+
 
 
    NEUES SCHREIBEN IN MEHREREN REGISTERN EINER ANFRAGE:

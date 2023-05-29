@@ -4,12 +4,12 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
-# 24/05/2023
+# 29/05/2023
 
 HAGA UNA COPIA DE SEGURIDAD DE JEEDOM ANTES DE INSTALAR LA NUEVA BETA.
+- Escribir 1 bit
 - Órdenes de importación/exportación a través de Xlsx
 - Nueva operación de sintaxis en el comando (ver Doc)
-- Nuevo parámetro en configuración para lectura Serial de dispositivos, o en paralelo
 - Fixs
 
 # 15/05/2023

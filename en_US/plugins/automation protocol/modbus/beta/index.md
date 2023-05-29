@@ -144,8 +144,20 @@ IMPORTANT :
  Their principle of operation:
 
 
-
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
+
+
+
+
+  CHANGING REGISTER BITS :
+
+  To change the bit of a register, you must use the message WriteBit command; in the configuration of the command, in the Start register field, you must choose the number of the register to write. No other configuration needed
+  Then, on the message body of the command on the dashboard, you must use the following syntax : bitValue&indexbit
+  Possible bit value 0 or 1
+  indexBit is the value between 0 and 15 (values included)
+  Please refer to the documentation of your equipment for the index of the bit to change
+
+
 
 
    NEW WRITE ON SEVERAL REGISTERS TO A REQUEST:

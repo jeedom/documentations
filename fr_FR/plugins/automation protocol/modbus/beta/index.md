@@ -144,8 +144,20 @@ IMPORTANT :
  Leur principe de fonctionnement:
 
 
-
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
+
+
+
+
+  CHANGEMENT DE BITS D'UN REGISTRE :
+
+  Pour changer le bit d'un registre, vous devez utiliser la commande message EcritureBit; dans la configuration de la commande, dans le champ Registre de départ, vous devez choisir le numero du registre à écrire. Pas besoin d'autre configuration
+  Ensuite, sur le corps du message de la commande sur le dashboard, vous devez utiliser la syntaxe suivante : valeurBit&indexbit
+  Valeur bit possible 0 ou 1
+  indexBit est la valeur entre 0 et 15 (valeurs comprises)
+  Bien se referer a la documentation de votre équipement pour l'index du bit à changer
+
+
 
 
    NOUVELLE ECRITURE SUR PLUSIEURS REGISTRES A UNE REQUETE:

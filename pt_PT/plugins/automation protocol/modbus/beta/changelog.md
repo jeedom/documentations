@@ -4,12 +4,12 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
-# 24/05/2023
+# 29/05/2023
 
 FAÇA BACKUP DO JEEDOM ANTES DE INSTALAR O NOVO BETA.
+- Escreva 1 bit
 - Pedidos de importação/exportação via Xlsx
 - Nova operação de sintaxe no comando (consulte o documento)
-- Novo parâmetro na configuração para leitura Serial de dispositivos, ou em paralelo
 - Fixs
 
 # 15/05/2023

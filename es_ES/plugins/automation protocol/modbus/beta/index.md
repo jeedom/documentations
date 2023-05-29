@@ -144,8 +144,20 @@ IMPORTANTE :
  Su principio de funcionamiento:
 
 
-
 ![cmdEcritures](../images/modbusCmdsEcritures.png)
+
+
+
+
+  CAMBIO DE BITS DE REGISTRO :
+
+  Para cambiar el bit de un registro, debe utilizar el comando mensaje WriteBit; en la configuración del comando, en el campo Registro de inicio, debe elegir el número del registro a escribir. No se necesita otra configuración
+  Luego, en el cuerpo del mensaje del comando en el tablero, debe usar la siguiente sintaxis : valor de bit y bit de índice
+  Posible valor de bit 0 o 1
+  indexBit es el valor entre 0 y 15 (valores incluidos)
+  Consulte la documentación de su equipo para ver el índice de la broca a cambiar
+
+
 
 
    NUEVA ESCRITURA EN VARIOS REGISTROS A UNA SOLICITUD:
