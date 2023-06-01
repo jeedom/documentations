@@ -1,36 +1,26 @@
 {
-  "id": "beem",
-  "name": "Beem",
+  "id": "clage",
+  "name": "Clage",
   "description": {
-      "fr_FR": "Plugin permettant de récupérer les informations sa Beembox de chez Beem energy",
-      "en_US": "Plugin to retrieve information from Beem energy's Beembox",
-      "es_ES": "Plugin para recuperar información del Beembox de Beem energy",
-      "pt_PT": "Plugin para recuperar informações da Beem energy's Beembox",
-      "de_DE": "Plugin zum Abrufen von Informationen sa Beembox von Beem energy",
-      "it_IT": "Plugin per recuperare le informazioni dalla Beembox di Beem energy"
+      "fr_FR": "Le plugin permet de récupérer toutes les informations de son serveur HSX de Clage. Le serveur HSX récupère les informations de ses chauffe-eau connectés parmi MCX 3-7, CEX/CFX, DEX, DSX, DSX Touch, DSX Twin. Les informations qui remontent dans l’application Smart Control (iOS, Android) remontent également dans le plugin. Aucune connexion internet n’est requise pour récupérer ces informations, tout est en local.",
+      "en_US": "The plugin allows you to retrieve all the information from your HSX server from Clage. The HSX server retrieves information from its connected water heaters among MCX 3-7, CEX/CFX, DEX, DSX, DSX Touch, DSX Twin. The information that goes back into the Smart Control app (iOS, Android) also goes back into the plugin. No internet connection is required to retrieve this information, everything is local."
   },
-  "utilization": "Après avoir entré l'email de connexion et le mot de passe dans la page de configuration, sélectionnez l'intervalle de rafraîchissement des informations. Lancez une synchronisation depuis la page des équipements.",
+  "utilization": "Après avoir entré l'IP du serveur, sauvegardez et lancer une synchronisation pour créer les appareils.",
   "licence": "AGPL",
   "author": "DomoFlo1",
-  "require": "4.2",
-  "category": "energy",
+  "require": "4.0",
+  "category": "wellness",
   "hasDependency": false,
   "hasOwnDeamon": false,
   "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
-  "changelog_beta": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
-  "documentation_beta": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
+  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-clage-pour-jeedom/",
+  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-clage-pour-jeedom/",
   "link": {
-    "forum": "https://community.jeedom.com/tag/plugin-beem"
+    "forum": "https://community.jeedom.com/tag/plugin-clage"
   },
   "language": [
     "fr_FR",
-    "en_US",
-    "es_ES",
-    "pt_PT",
-    "de_DE",
-    "it_IT"
+    "en_US"
   ],
   "compatibility": [
     "miniplus",
