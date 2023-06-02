@@ -40,7 +40,7 @@ Una vez instalado el bróker Mosquitto *(si es necesario)*, puedes continuar con
 
   >**IMPORTANTE**
   >
-  >La autenticación es obligatoria en modo local.
+  >La autenticación es obligatoria en modo local. También es necesario después de la adición reiniciar jeedom para que se tenga en cuenta.
 
 - **Tema raíz de Jeedom** : Tema raíz para enviar un comando a Jeedom o sobre el que envía los eventos. Atención, solo es posible poner 1 o 2 niveles como máximo.
 

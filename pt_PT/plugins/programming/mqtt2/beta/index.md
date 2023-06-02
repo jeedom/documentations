@@ -40,7 +40,7 @@ Uma vez que o corretor Mosquitto está instalado *(se necessário)*, você pode 
 
   >**IMPORTANTE**
   >
-  >A autenticação é obrigatória no modo local.
+  >A autenticação é obrigatória no modo local. Também é necessário após a adição reiniciar o jeedom para que seja levado em consideração.
 
 - **Jeedom root topic** : Tópico raiz para enviar um comando ao Jeedom ou no qual ele envia os eventos. Atenção só é possível colocar 1 ou 2 níveis no máximo.
 
