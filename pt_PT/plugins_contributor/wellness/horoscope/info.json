@@ -13,10 +13,13 @@
     "language": [
         "fr_FR"
     ],
-    "changelog": "https://jealg.github.io/documentation/plugin-horosocope/#language#/changelog",
-    "documentation": "https://jealg.github.io/documentation/plugin-horscope/#language#/",
+    "changelog": "https://jealg.github.io/documentation/plugin-horoscope/#language#/changelog",
+    "documentation": "https://jealg.github.io/documentation/plugin-horoscope/#language#/",
     "changelog_beta" : "https://jealg.github.io/documentation/plugin-horoscope/#language#/changelog_beta",
- 	"documentation_beta" : "https://jealg.github.io/documentation/plugin_horoscope/#language#/",
+ 	"documentation_beta" : "https://jealg.github.io/documentation/plugin-horoscope/#language#/",
+     "link" : {
+		"forum":"https://community.jeedom.com/tag/plugin-horoscope"
+	},
      "compatibility": [
 		"miniplus",
 		"smart",
@@ -25,6 +28,7 @@
 		"diy",
 		"mobile",
 		"v4",
-		"atlas"
+		"atlas",
+		"luna"
 	]
 }
