@@ -15,7 +15,7 @@
     ],
     "changelog": "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog",
     "documentation": "https://jealg.github.io/documentation/plugin-rosee/#language#/",
-    "changelog_beta" : "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog",
+    "changelog_beta" : "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog_beta",
  	"documentation_beta" : "https://jealg.github.io/documentation/plugin-rosee/#language#/",
      "compatibility": [
 		"miniplus",
