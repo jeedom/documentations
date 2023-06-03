@@ -3,10 +3,10 @@
   "name": "MyVaillant",
   "licence": "AGPL",
   "author": "limad44",
-  "require": "4.0",
+  "require": "4.2",
   "description": {
-    "fr_FR": " Plugin pour intégrer les thermostats Vaillant/Saunier-Duval(gamme senso/MiSet,MiPro Sense) associés à une passerelle VR92x ou MiLink V3.\n\nCe sont géneralement les équipements qui fonctionnent avec l'app sensoApp ou MiControl.\n\nLe plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).\nL'actualisation se fait via API. ",
-    "en_US": " Plugin pour intégrer les thermostats Vaillant(gamme senso).\nLe plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).\nL'actualisation se fait via API ."
+    "fr_FR": " Plugin pour intégrer les thermostats Vaillant/Saunier-Duval(gamme senso/MiSet,MiPro Sense...) associés à une passerelle VR92x ou MiLink V3.\n\nCe plugin concerne uniquement les équipements qui fonctionnent avec l'app MyVaillant ou MigoLink.\n\nLe plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).\nL'actualisation se fait via API. ",
+    "en_US": " Plugin pour intégrer les thermostats Vaillant/Saunier-Duval(gamme senso/MiSet,MiPro Sense...) associés à une passerelle VR92x ou MiLink V3.\n\nCe plugin concerne uniquement les équipements qui fonctionnent avec l'app MyVaillant ou MigoLink.\n\nLe plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).\nL'actualisation se fait via API. ."
   },
   "utilization": "Le plugin est déstiné aux utilisateurs de l'application mobile MyVaillant/MigoLink. Il faut disposer d'un compte valide et d'un user/password.\n\n ",
   "category": "wellness",
