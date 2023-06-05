@@ -151,7 +151,7 @@ Finally, and even if it may seem obvious to some, we remind you that Zigbee gate
 >**I can't include new modules**
 >
 >Several possibilities for this :
->- You already have a lot of modules and have exceeded the limit of the number of live modules (31 in general). You must either put another Zigbee key (the plugin manages up to 3), or try by adding router nodes (be careful there is no clear standard on router nodes so there are incompatibilities between manufacturers...)
+>- You already have a lot of modules and have exceeded the limit of the number of live modules (31 in general). You have to try by adding router nodes (be careful there is no clear standard on router nodes so there are incompatibilities between manufacturers...)
 >- You are on Conbee : try unplugging the key for 2 minutes, putting it back in and restarting the daemon; it's a disease known to the Conbee keys (even under deconz), it takes a cold reboot for the inclusion to work again
 >- You have an SSD plugged into USB3, try plugging it into a USB2 port
 

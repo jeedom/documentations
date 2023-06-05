@@ -151,7 +151,7 @@ Por último, y aunque a algunos les parezca una obviedad, os recordamos que las 
 >**No puedo incluir nuevos módulos**
 >
 >Varias posibilidades para esto :
->- Ya tiene muchos módulos y ha excedido el límite de la cantidad de módulos en vivo (31 en general). Debe colocar otra clave Zigbee (el complemento administra hasta 3), o intente agregar nodos de enrutador (tenga cuidado, no hay un estándar claro en los nodos de enrutador, por lo que hay incompatibilidades entre fabricantes...)
+>- Ya tiene muchos módulos y ha excedido el límite de la cantidad de módulos en vivo (31 en general). Debe intentar agregar nodos de enrutador (tenga cuidado, no hay un estándar claro en los nodos de enrutador, por lo que hay incompatibilidades entre fabricantes...)
 >- Estás en Conbee : intente desconectar la llave durante 2 minutos, volver a colocarla y reiniciar el daemon; es una enfermedad conocida por las claves de Conbee (incluso bajo deconz), se necesita un reinicio en frío para que la inclusión vuelva a funcionar
 >- Tiene un SSD conectado a USB3, intente conectarlo a un puerto USB2
 

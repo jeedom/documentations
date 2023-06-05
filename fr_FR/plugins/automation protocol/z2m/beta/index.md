@@ -151,7 +151,7 @@ Pour finir et même si cela peut paraître évident pour certains, nous rappelon
 >**Je n'arrive pas à inclure de nouveaux modules**
 >
 >Plusieurs possibilités pour cela :
->- Vous avez deja beaucoup de module et avez dépassé la limite du nombre de module en direct (31 en général). Il faut soit mettre une autre clef Zigbee (le plugin en gère jusqu'a 3), soit essayer en ajoutant des noeud routeur (attention il n'y a pas de norme clair sur les noeuds routeur il y a donc des incompatibilités entre fabricant...)
+>- Vous avez deja beaucoup de module et avez dépassé la limite du nombre de module en direct (31 en général). Il faut essayer en ajoutant des noeud routeur (attention il n'y a pas de norme clair sur les noeuds routeur il y a donc des incompatibilités entre fabricant...)
 >- Vous êtes sous Conbee : essayez de debrancher la clef pendant 2 minutes, de la remettre et relancer le demon; c'est une maladie connu des clés Conbee (même sous deconz), il faut un cold reboot pour que l'inclusion remarche
 >- Vous avez un SSD branché en USB3, essayez de le brancher sur un port USB2
 

@@ -151,7 +151,7 @@ Por fim, e mesmo que possa parecer óbvio para alguns, lembramos que os gateways
 >**Não consigo incluir novos módulos**
 >
 >Várias possibilidades para isso :
->- Você já possui muitos módulos e ultrapassou o limite do número de módulos ativos (31 em geral). Você deve colocar outra chave Zigbee (o plug-in gerencia até 3) ou tentar adicionar nós do roteador (cuidado, não há um padrão claro nos nós do roteador, portanto, há incompatibilidades entre os fabricantes...)
+>- Você já possui muitos módulos e ultrapassou o limite do número de módulos ativos (31 em geral). Você deve tentar adicionando nós de roteador (tenha cuidado, pois não há um padrão claro nos nós de roteador, portanto, há incompatibilidades entre os fabricantes...)
 >- Você está em Conbee : experimente desconectar a chave por 2 minutos, recolocá-la e reiniciar o daemon; é uma doença conhecida pelas chaves Conbee (mesmo em deconz), é preciso uma reinicialização a frio para que a inclusão funcione novamente
 >- Você tem um SSD conectado a USB3, tente conectá-lo a uma porta USB2
 

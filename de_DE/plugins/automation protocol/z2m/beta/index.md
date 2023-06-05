@@ -151,7 +151,7 @@ Abschließend möchten wir Sie daran erinnern, dass Zigbee-Gateways in WLAN oder
 >**Ich kann keine neuen Module hinzufügen**
 >
 >Mehrere Möglichkeiten hierfür :
->- Sie haben bereits viele Module und haben die maximale Anzahl an Live-Modulen (im Allgemeinen 31) überschritten). Sie müssen entweder einen weiteren Zigbee-Schlüssel eingeben (das Plugin verwaltet bis zu 3) oder es versuchen, indem Sie Router-Knoten hinzufügen (Achtung: Es gibt keinen klaren Standard für Router-Knoten, sodass es zu Inkompatibilitäten zwischen den Herstellern kommt)...)
+>- Sie haben bereits viele Module und haben die maximale Anzahl an Live-Modulen (im Allgemeinen 31) überschritten). Sie müssen es versuchen, indem Sie Router-Knoten hinzufügen (achten Sie darauf, dass es keinen klaren Standard für Router-Knoten gibt, sodass es zu Inkompatibilitäten zwischen den Herstellern kommt)...)
 >- Du bist auf Conbee : Ziehen Sie den Schlüssel zwei Minuten lang ab, stecken Sie ihn wieder ein und starten Sie den Daemon neu. Es handelt sich um eine Krankheit, die den Conbee-Tasten bekannt ist (sogar unter Deconz). Es ist ein Kaltstart erforderlich, damit die Einbindung wieder funktioniert
 >- Sie haben eine SSD an USB3 angeschlossen. Versuchen Sie, sie an einen USB2-Anschluss anzuschließen
 
