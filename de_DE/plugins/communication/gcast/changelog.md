@@ -11,6 +11,10 @@
 >
 >Achtung, bestimmte Befehle werden gelöscht und andere hinzugefügt. Nach dem Update ist es ABSOLUT erforderlich, Ihre Szenarien zu überprüfen und andere, die Befehle aus dem Plugin verwenden
 
+# 01.02.2022
+
+- Fehler im TTS behoben
+
 # 30.01.2022
 
 - Unterstützung 4.2

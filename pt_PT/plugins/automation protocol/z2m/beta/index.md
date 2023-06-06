@@ -46,6 +46,11 @@ Depois que as dependências estiverem instaladas, você pode configurar um contr
 >
 > Existem 2 modos para o plugin : local, está tudo no seu Jeedom, este é o modo recomendado. Para usuários avançados, é possível usar o modo remoto; neste caso o Jeedom não gerencia o Zigbee2mqtt, ele deve ser instalado por você (geralmente em uma janela de encaixe no jeedom ou em outra máquina). Atenção no modo remoto é necessário que o Mqtt manager e o Zigbee2mqtt estejam conectados no mesmo brocker mqtt (mosquitto)
 
+
+Para ir para Zigbee2MQTT do plugin JEEZIGBEE (por exemplo para forçar a exclusão de um módulo o módulo) você deve ir para a configuração do plugin Jeezgibee então na parte de Configuração, clique em Interface z2m "Aqui" você abrirá a página de Zigbee2MQTT, uma vez no módulo será solicitado o identificador que está na página de configuração do Jeezigbee.
+
+Atenção isso só é possível se você estiver em instalação local do zigbee2mqtt.
+
 ## Compatibilité
 
 Você pode encontrar [aqui](https://www.zigbee2mqtt.io/supported-devices/) a lista de módulos compatíveis com o plugin
