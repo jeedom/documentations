@@ -4,6 +4,10 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
+# 06/06/2023
+
+- Se corrigió un error al iniciar el demonio SIA
+
 # 24/04/2023
 
 - Agregar concentrador de fibra

@@ -4,6 +4,10 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
+# 06/06/2023
+
+- Fixed a bug on starting the SIA daemon
+
 # 04/24/2023
 
 - Add fibra hub

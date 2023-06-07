@@ -92,3 +92,9 @@ Wenn alles in Ordnung ist, sollten Sie normalerweise sehen, dass sich die "Zentr
 >**WICHTIG**
 >
 > Bestimmte Informationen werden nur zurückgegeben, wenn das AIS konfiguriert ist
+
+# FAQ
+
+>**MQTT-Setup**
+>
+>In der Konfiguration des Plugins hat man die Möglichkeit für den SIA-Teil in mqtt zu übergeben, es wird freiwillig nicht erklärt wie, da die Implementierung relativ komplex ist. Die Option ist nur dazu da, ein Kundenbedürfnis zu erfüllen.
