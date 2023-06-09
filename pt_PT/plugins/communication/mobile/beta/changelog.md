@@ -4,6 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 06/09/2023
+
+- Consertar Notificações
+- Adição de exibição de equipamentos por tabela
+
 # 19/05/2023
 
 - PR por PhpVarious

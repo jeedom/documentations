@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 09/06/2023
+
+- Reparar notificaciones
+- Adición de visualización de equipos por mesa
+
 # 19/05/2023
 
 - Relaciones públicas por PhpVarious
