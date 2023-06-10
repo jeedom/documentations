@@ -46,6 +46,9 @@ Sobald die Abhängigkeiten installiert sind, können Sie durch Eingabe einen Zig
 >
 > Es gibt 2 Modi für das Plugin : lokal, alles ist auf Ihrem Jeedom, dies ist der empfohlene Modus. Für fortgeschrittene Benutzer ist es möglich, den Remote-Modus zu verwenden; In diesem Fall verwaltet Jeedom Zigbee2mqtt nicht, es muss von Ihnen installiert werden (normalerweise auf einem Docker auf Jeedom oder auf einer anderen Maschine)). Achtung im Remote-Modus ist es notwendig, dass Mqtt Manager und Zigbee2mqtt mit demselben Brocker MQTT (Mosquitto) verbunden sind)
 
+>**WICHTIG**
+>
+> Wenn Sie sich im lokalen Modus befinden, ist es bei der ersten Verwendung UNBEDINGT notwendig, die Abhängigkeiten zu starten (auch wenn dies in Ordnung ist)). Beachten Sie, dass Sie zum Aktualisieren von zigbee2mqtt einfach die Abhängigkeiten ausführen müssen. Sie können dann die neuen Versionen von zigbee2mqtt sehen [Hier](https://github.com/Koenkk/zigbee2mqtt/tags)
 
 Um vom JEEZIGBEE-Plugin zu Zigbee2MQTT zu gelangen (z. B. um das Löschen eines Moduls zu erzwingen), müssen Sie zur Konfiguration des Jeezgibee-Plugins gehen und dann im Konfigurationsteil auf Schnittstelle z2m klicken. „Hier“ öffnet sich die Seite von Zigbee2MQTT, sobald Sie im Modul sind, werden Sie nach der Kennung gefragt, die sich auf der Konfigurationsseite von Jeezigbee befindet.
 
