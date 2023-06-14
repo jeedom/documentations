@@ -15,7 +15,7 @@
     },
     "licence": "AGPL",
     "author": "Loïc",
-    "require": "3.3",
+    "require": "4.2",
     "category": "security",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/netatmoWelcome\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/security\/netatmoWelcome\/",

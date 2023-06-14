@@ -4,6 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 13/06/2023
+
+- Se requiere una versión básica mínima: 4.2
+- Lista actualizada de comandos para Jeedom v4.3
+- Correcciones menores y optimizaciones en la pantalla de administración de equipos
+
 # 04/05/2023
 
 - Arreglo del fallo

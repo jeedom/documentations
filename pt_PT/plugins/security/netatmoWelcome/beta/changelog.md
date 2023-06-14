@@ -4,6 +4,13 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 13/06/2023
+
+- Versão mínima do núcleo necessária: 4.2
+- Lista atualizada de comandos para Jeedom v4.3
+- Pequenas correções e otimizações na tela de gerenciamento de equipamentos
+
+# 29/08/2022
 
 - Correção de um aviso durante os backups
 - Suporte a campainha (você precisa refazer a conexão entre Jeedom e Netatmo)
@@ -29,7 +36,6 @@
 - Revisão completa do mecanismo de comunicação com o Netatmo
 - Suporte para detector de incêndio
 - Renomeando na segurança netatmo
-
 
 IMPORTANTE : esta versão é uma reescrita completa do plug-in, para que haja um impacto nos widgets (que agora é padrão no núcleo, uma grande mudança na exibição dele)). É altamente recomendável excluir o equipamento criado e refazer uma sincronização
 

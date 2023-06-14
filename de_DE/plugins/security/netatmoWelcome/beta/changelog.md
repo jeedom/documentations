@@ -4,6 +4,13 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 13.06.2023
+
+- Mindestkernversion erforderlich: 4.2
+- Aktualisierte Befehlsliste für Jeedom v4.3
+- Kleinere Korrekturen und Optimierungen im Geräteverwaltungsbildschirm
+
+# 29.08.2022
 
 - Korrektur einer Warnung während Backups
 - Türklingelunterstützung (Sie müssen die Verbindung zwischen Jeedom und Netatmo neu herstellen)
@@ -29,7 +36,6 @@
 - Komplette Überholung der Kommunikations-Engine mit Netatmo
 - Brandmelderunterstützung
 - Umbenennung in Netatmo-Sicherheit
-
 
 Wichtig : Diese Version ist eine vollständige Neufassung des Plugins, sodass sich dies auf die Widgets auswirkt (was jetzt im Kern Standard ist und die Anzeige stark verändert). Es wird dringend empfohlen, die erstellten Geräte zu löschen und eine Synchronisierung zu wiederholen
 

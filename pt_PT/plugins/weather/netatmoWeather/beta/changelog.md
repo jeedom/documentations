@@ -4,6 +4,12 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 13/06/2023
+
+- Versão mínima do núcleo necessária: 4.2
+- Lista atualizada de comandos para Jeedom v4.3
+- Pequenas correções e otimizações na tela de gerenciamento de equipamentos
+
 # 04/05/2023
 
 - Bugfix

@@ -4,6 +4,13 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 13/06/2023
+
+- Se requiere una versión básica mínima: 4.2
+- Lista actualizada de comandos para Jeedom v4.3
+- Correcciones menores y optimizaciones en la pantalla de administración de equipos
+
+# 29/08/2022
 
 - Corrección de una advertencia durante las copias de seguridad
 - Soporte de timbre (tienes que rehacer la conexión entre Jeedom y Netatmo)
@@ -29,7 +36,6 @@
 - Revisión completa del motor de comunicación con Netatmo
 - Soporte detector de incendios
 - Renombrar en seguridad netatmo
-
 
 Importante : esta versión es una reescritura completa del complemento, por lo que hay un impacto en los widgets (que ahora es estándar en el núcleo, un cambio importante en la visualización del mismo)). Se recomienda encarecidamente eliminar el equipo creado y rehacer una sincronización
 
