@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 14/06/2023
+
+- Se requiere una versión básica mínima: 4.2
+- Correcciones menores y optimizaciones en la pantalla de administración de equipos
+
 # 19/11/2020
 
 - Nueva presentación de la lista de objetos
