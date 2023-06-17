@@ -4,11 +4,12 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
-# 13.06.2023
+# 16.06.2023
 
 - Mindestkernversion erforderlich: 4.2
 - Aktualisierte Befehlsliste für Jeedom v4.3
 - Kleinere Korrekturen und Optimierungen im Geräteverwaltungsbildschirm
+- Es wurde ein Fehler behoben, der beim Aktualisieren des Plugins Befehlskonfigurationen überschrieben hat
 
 # 04.05.2023
 
