@@ -4,6 +4,16 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 06/15/2023
+
+**Improvements**
+
+- Switch to version *8.18.1* by ZwaveJsUI.
+
+**Configuration Additions**
+
+- Added config *Heat It ZM Dimmer* (properties : Multilevel, Power, Energy, CentralScene, Notification)
+
 # 04/10/2023
 
 **Improvements**
@@ -20,6 +30,7 @@
 - Editing a property *Velocity*
 - Editing the image *Dlink 510* (clipping)
 - Editing the image *Fibaro Fgs-213* (clipping)
+
 **Configuration Additions**
 
 - Added config *Sigma PZ701U* (properties : Switch)

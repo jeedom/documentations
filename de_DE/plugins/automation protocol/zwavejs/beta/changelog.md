@@ -4,6 +4,16 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 15.06.2023
+
+**Verbesserungen**
+
+- Zur Version wechseln *8.18.1* von ZwaveJsUI.
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Heat It ZM Dimmer* (Eigenschaften : Mehrstufig, Strom, Energie, CentralScene, Benachrichtigung)
+
 # 10.04.2023
 
 **Verbesserungen**
@@ -20,6 +30,7 @@
 - Bearbeiten einer Eigenschaft *Geschwindigkeit*
 - Bearbeiten des Bildes *Dlink 510* (Ausschnitt)
 - Bearbeiten des Bildes *Fibaro Fgs-213* (Ausschnitt)
+
 **Konfigurationsergänzungen**
 
 - Konfig hinzugefügt *Sigma PZ701U* (Eigenschaften : Switch)

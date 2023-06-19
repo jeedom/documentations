@@ -4,6 +4,16 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 15/06/2023
+
+**Melhorias**
+
+- Mudar para a versão *8.18.1* por ZwaveJsUI.
+
+**Adições de configuração**
+
+- Configuração adicionada *Heat It ZM Dimmer* (propriedades : Multilevel, Power, Energy, CentralScene, Notification)
+
 # 10/04/2023
 
 **Melhorias**
@@ -20,6 +30,7 @@
 - Editando uma propriedade *Velocidade*
 - Editando a imagem *Dlink 510* (recorte)
 - Editando a imagem *Fibaro Fgs-213* (recorte)
+
 **Adições de configuração**
 
 - Configuração adicionada *Sigma PZ701U* (propriedades : Switch)

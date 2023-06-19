@@ -4,6 +4,16 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 15/06/2023
+
+**Mejoras**
+
+- Cambiar a versión *8.18.1* por ZwaveJsUI.
+
+**Adiciones de configuración**
+
+- Configuración añadida *Atenuador Heat It ZM* (propiedades : Multinivel, Poder, Energía, CentralScene, Notificación)
+
 # 04/10/2023
 
 **Mejoras**
@@ -20,6 +30,7 @@
 - Edición de una propiedad *Velocidad*
 - Editando la imagen *Dlink 510* (recorte)
 - Editando la imagen *Fibaro fgs-213* (recorte)
+
 **Adiciones de configuración**
 
 - Configuración añadida *Sigma PZ701U* (propiedades : Switch)
