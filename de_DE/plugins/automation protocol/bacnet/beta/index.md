@@ -124,22 +124,32 @@ Um diesen Befehl auf Ihrem Dashboard sichtbar zu machen, gehen Sie zu den Befehl
 
 
 
+# Liste der Befehlsaktionen (für MultiStateValue)
+
+Wenn Sie wie gewohnt aus den Scan-Ergebnissen einen Schreibbefehl erstellt haben, ist dieser je nach Art des zurückgegebenen Bacnet-Punkts (analog, binär) einfach in Slider oder On Off) : Wenn Sie nun einen MultiState auswählen, ist der Befehl standardmäßig vom Typ Slider, Sie können ihn jedoch in der Liste der Gerätebefehle auflisten; Es erscheint ein neues Feld „Werteliste“
+Sie können die gewünschten Werte, getrennt durch ein -, ohne Leerzeichen eingeben : zum Beispiel 1-4-5-8
+Beim Speichern der Ausrüstung werden diese Werte in die Liste der Bestellung im Dashboard übernommen
+Wenn dieser Wert geändert wird, wird der Wert auf den parametrierten Punkt geschrieben.
+
+
+
+
 # Schreibpriorität
 
-  A Vorsichtig behandeln
+    A Vorsichtig behandeln
 
-  Für jede erstellte Bestellung ist ein Feld „Schreibpriorität“ verfügbar
+    Für jede erstellte Bestellung ist ein Feld „Schreibpriorität“ verfügbar
 
-  Gemäß der Dokumentation :
+    Gemäß der Dokumentation :
 
-  In BACnet stellen Objekte, auf die wir schreiben können, häufig das sogenannte PriorityArray bereit. Dieses Array enthält 16 Ebenen, auf die wir schreiben können (1 ist die höchste Priorität)).
+    In BACnet stellen Objekte, auf die wir schreiben können, häufig das sogenannte PriorityArray bereit. Dieses Array enthält 16 Ebenen, auf die wir schreiben können (1 ist die höchste Priorität)).
 
-  Typische Verwendung von Priorität ist :
+    Typische Verwendung von Priorität ist :
 
-  1 Manuell – Lebenssicherheit 2 Automatisch – Lebenssicherheit 3 Verfügbar 4 Verfügbar 5 Kontrolle kritischer Geräte 6 Mindest-Ein/Aus 7 Verfügbar 8 Manueller Bediener (Override) 9 Verfügbar 10 Verfügbar (typische Steuerung durch einen Vorgesetzten) 11 Verfügbar 12 Verfügbar 13 Verfügbar 14 Verfügbar 15 Verfügbar (Zeitplan) 16 Verfügbar
+    1 Manuell – Lebenssicherheit 2 Automatisch – Lebenssicherheit 3 Verfügbar 4 Verfügbar 5 Kontrolle kritischer Geräte 6 Mindest-Ein/Aus 7 Verfügbar 8 Manueller Bediener (Override) 9 Verfügbar 10 Verfügbar (typische Steuerung durch einen Vorgesetzten) 11 Verfügbar 12 Verfügbar 13 Verfügbar 14 Verfügbar 15 Verfügbar (Zeitplan) 16 Verfügbar
 
 
 
-  Sie können eine Schreibpriorität für die gewünschten Befehle festlegen, indem Sie eine Zahl zwischen 1 und 16 wählen
+    Sie können eine Schreibpriorität für die gewünschten Befehle festlegen, indem Sie eine Zahl zwischen 1 und 16 wählen
 
-  Wenn bei einem Schreibbefehl kein Wert eingegeben wird, wird der Wert standardmäßig auf 8 gesetzt.
+    Wenn bei einem Schreibbefehl kein Wert eingegeben wird, wird der Wert standardmäßig auf 8 gesetzt.

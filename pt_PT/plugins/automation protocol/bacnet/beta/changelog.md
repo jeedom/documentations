@@ -6,6 +6,10 @@
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto
 
 
+# 21/06/2023
+
+- Adicionar controle de lista se o comando Action/List (consulte a documentação)
+
 # 25/05/2023
 
 - Adição do campo de Prioridade de Gravação no comando (veja o final da documentação)

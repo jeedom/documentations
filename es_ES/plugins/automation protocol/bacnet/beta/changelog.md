@@ -6,6 +6,10 @@
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto
 
 
+# 21/06/2023
+
+- Agregar campo de lista si el comando Acción/Lista (consulte la documentación)
+
 # 25/05/2023
 
 - Adición del campo Prioridad de escritura en el comando (consulte el final de la documentación)

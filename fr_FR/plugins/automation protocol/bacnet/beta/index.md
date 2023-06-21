@@ -124,22 +124,32 @@ Pour rendre visible cette commande sur votre dashboard, il faut vous rendre dans
 
 
 
-# Prioriete des ecritures
+# Liste sur Commande Action (pour MultiStateValue)
 
-  A Manipuler avec prudence
-
-  Un champ Priorité Ecriture est disponible sur chaque commande créée
-
-  Comme d'après la documentation :
-
-  In BACnet, object to which we can write often provide what is called the priorityArray. This array contains 16 levels to which we can write (1 being the highest priority).
-
-  Typical usage of priority is :
-
-  1 Manual-Life Safety 2 Automatic-Life Safety 3 Available 4 Available 5 Critical Equipment Control 6 Minimum On/Off 7 Available 8 Manual Operator (Override) 9 Available 10 Available (Typical Control from a Supervisor) 11 Available 12 Available 13 Available 14 Available 15 Available (Schedule) 16 Available
+Quand vous avez créez une commande d'Ecriture comme habituellement depuis les résultats du scan, elle est de base en Slider ou On Off, suivant le type de point Bacnet remonté (analog, binary) : maintenant, si vous choisissez une multiState, la commande sera de type Slider par défaut, mais vous pouvez la mettre en Liste dans la liste des commandes de l'équipement; un nouveau champ Valeur Liste apparaitra;
+Vous pouvez y mettre les valeurs que vous désirez, séparés par un -, sans espace : par exemple 1-4-5-8
+A la sauvegarde de l'équipement, cela mettra ces valeurs dans la liste de la commande sur le Dashboard
+Au changement de cette valeur, cela enverra la valeur écrire sur le point paramètré.
 
 
 
-  Vous pouvez choisir une priorité d'écriture sur les commande souhaites, en choisissant un nombre entre 1 et 16
 
-  Si pas de valeur entrée sur une commande d'ecriture, par defaut la valeur sera établie a 8.
+# Priorite des ecritures
+
+    A Manipuler avec prudence
+
+    Un champ Priorité Ecriture est disponible sur chaque commande créée
+
+    Comme d'après la documentation :
+
+    In BACnet, object to which we can write often provide what is called the priorityArray. This array contains 16 levels to which we can write (1 being the highest priority).
+
+    Typical usage of priority is :
+
+    1 Manual-Life Safety 2 Automatic-Life Safety 3 Available 4 Available 5 Critical Equipment Control 6 Minimum On/Off 7 Available 8 Manual Operator (Override) 9 Available 10 Available (Typical Control from a Supervisor) 11 Available 12 Available 13 Available 14 Available 15 Available (Schedule) 16 Available
+
+
+
+    Vous pouvez choisir une priorité d'écriture sur les commande souhaites, en choisissant un nombre entre 1 et 16
+
+    Si pas de valeur entrée sur une commande d'ecriture, par defaut la valeur sera établie a 8.

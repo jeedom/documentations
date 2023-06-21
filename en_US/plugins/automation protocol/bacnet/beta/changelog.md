@@ -6,6 +6,10 @@
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text
 
 
+# 06/21/2023
+
+- Add List Control if Action/List command (see documentation)
+
 # 05/25/2023
 
 - Addition of Writing Priority field on command (see end of documentation)

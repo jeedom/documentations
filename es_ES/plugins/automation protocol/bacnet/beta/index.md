@@ -124,22 +124,32 @@ Para que este comando sea visible en su tablero, vaya a los comandos de su equip
 
 
 
+# Lista en acción de comando (para MultiStateValue)
+
+Cuando haya creado un comando de escritura como de costumbre a partir de los resultados del escaneo, es básico en Control deslizante o en Apagado, según el tipo de punto Bacnet devuelto (analógico, binario) : ahora bien, si eliges un multiEstado, el comando será de tipo Slider por defecto, pero puedes listarlo en la lista de comandos del equipo; aparecerá un nuevo campo Lista de valores;
+Puedes poner los valores que quieras, separados por un -, sin espacio : por ejemplo 1-4-5-8
+Al guardar el equipo, este pondrá estos valores en la lista del pedido en el Dashboard
+Al cambiar este valor, enviará el valor escrito en el punto parametrizado.
+
+
+
+
 # Prioridad de escritura
 
-  A Manejar con cuidado
+    A Manejar con cuidado
 
-  Un campo de prioridad de escritura está disponible en cada orden creada
+    Un campo de prioridad de escritura está disponible en cada orden creada
 
-  Según la documentación :
+    Según la documentación :
 
-  En BACnet, el objeto en el que podemos escribir a menudo proporciona lo que se llama la matriz de prioridad. Esta matriz contiene 16 niveles en los que podemos escribir (siendo 1 la prioridad más alta).
+    En BACnet, el objeto en el que podemos escribir a menudo proporciona lo que se llama la matriz de prioridad. Esta matriz contiene 16 niveles en los que podemos escribir (siendo 1 la prioridad más alta).
 
-  El uso típico de prioridad es :
+    El uso típico de prioridad es :
 
-  1 Manual-Seguridad humana 2 Automático-Seguridad humana 3 Disponible 4 Disponible 5 Control de equipos críticos 6 Mínimo encendido/apagado 7 Disponible 8 Operador manual (anulación) 9 Disponible 10 Disponible (control típico de un supervisor) 11 Disponible 12 Disponible 13 Disponible 14 Disponible 15 Disponible (Horario) 16 Disponible
+    1 Manual-Seguridad humana 2 Automático-Seguridad humana 3 Disponible 4 Disponible 5 Control de equipos críticos 6 Mínimo encendido/apagado 7 Disponible 8 Operador manual (anulación) 9 Disponible 10 Disponible (control típico de un supervisor) 11 Disponible 12 Disponible 13 Disponible 14 Disponible 15 Disponible (Horario) 16 Disponible
 
 
 
-  Puede elegir una prioridad de escritura en los comandos deseados, eligiendo un número entre 1 y 16
+    Puede elegir una prioridad de escritura en los comandos deseados, eligiendo un número entre 1 y 16
 
-  Si no se ingresa ningún valor en un comando de escritura, el valor predeterminado se establecerá en 8.
+    Si no se ingresa ningún valor en un comando de escritura, el valor predeterminado se establecerá en 8.

@@ -6,6 +6,10 @@
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
 
+# 21.06.2023
+
+- Listenfeld hinzufügen, wenn Aktion/Listenbefehl (siehe Dokumentation))
+
 # 25.05.2023
 
 - Hinzufügung des Felds „Schreibpriorität“ auf Befehl (siehe Ende der Dokumentation))
