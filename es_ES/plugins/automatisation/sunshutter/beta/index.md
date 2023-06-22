@@ -70,7 +70,7 @@ Esta pestaña te permitirá definir reglas específicas que serán una excepció
 
 - **Condición** : La condición que debe cumplirse para que la regla sea válida *(facultatif)*.
 - **Modo** : Si se ingresa, la condición solo será válida si el obturador se encuentra actualmente en el modo especificado. Es posible especificar varios modos separándolos con comas *(facultatif)*.
-- **Excepción inmediata** : Marque la casilla para que la regla se ejecute inmediatamente tan pronto como la condición sea válida.
+- **Excepción inmediata** : Marque la casilla para que la regla se ejecute inmediatamente tan pronto como la condición sea válida. Tenga en cuenta que esto solo funciona cuando cambia el estado de los comandos. Si pones por ejemplo `#hour# == 1022` la excepción inmediata no funcionará. Lo mismo para las variables.
 - **Suspender** : Marque la casilla para suspender la gestión automática mientras la regla sea válida.
 - **Posición** : La posición deseada en porcentaje si la regla es válida *(vacío = sin acción)*.
 - **Etiqueta** : Etiqueta asociada a la validación de la regla de excepción *(facultatif)*.

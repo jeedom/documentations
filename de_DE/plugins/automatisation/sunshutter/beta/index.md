@@ -70,7 +70,7 @@ Auf dieser Registerkarte können Sie spezifische Regeln definieren, die von den 
 
 - **Zustand** : Die Bedingung, die erfüllt sein muss, damit die Regel gültig ist *(facultatif)*.
 - **Modus** : Bei Eingabe ist die Bedingung nur gültig, wenn sich der Rollladen derzeit im angegebenen Modus befindet. Es ist möglich, mehrere Modi anzugeben, indem Sie sie durch Kommas trennen *(facultatif)*.
-- **Sofortige Ausnahme** : Aktivieren Sie das Kontrollkästchen, damit die Regel sofort ausgeführt wird, sobald die Bedingung gültig ist.
+- **Sofortige Ausnahme** : Aktivieren Sie das Kontrollkästchen, damit die Regel sofort ausgeführt wird, sobald die Bedingung gültig ist. Bitte beachten Sie, dass dies nur funktioniert, wenn sich der Status der Befehle ändert. Wenn Sie zum Beispiel „#hour# == 1022` Die sofortige Ausnahme wird nicht funktionieren. Das Gleiche gilt für Variablen.
 - **Anhalten** : Aktivieren Sie das Kontrollkästchen, um die automatische Verwaltung auszusetzen, solange die Regel gültig ist.
 - **Position** : Die gewünschte Position in Prozent, wenn die Regel gültig ist *(leer = keine Aktion)*.
 - **Etikett** : Label, das mit der Validierung der Ausnahmeregel verknüpft ist *(facultatif)*.

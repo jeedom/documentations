@@ -70,7 +70,7 @@ This tab will allow you to define specific rules that will be an exception to th
 
 - **Condition** : The condition to be fulfilled for the rule to be valid *(facultatif)*.
 - **Mode** : If entered, the condition will only be valid if the shutter is currently in the specified mode. It is possible to specify several modes by separating them with commas *(facultatif)*.
-- **Immediate exception** : Check the box to have the rule run immediately as soon as the condition is valid.
+- **Immediate exception** : Check the box to have the rule run immediately as soon as the condition is valid. Please note that this only works when the state of the commands changes. If you put for example `#hour# == 1022` the immediate exception will not work. Same for variables.
 - **To suspend** : Check the box to suspend automatic management as long as the rule is valid.
 - **Position** : The desired position in percentage if the rule is valid *(empty = no action)*.
 - **Label** : Label associated with the validation of the exception rule *(facultatif)*.
