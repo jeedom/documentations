@@ -56,9 +56,18 @@ Below you find some specific parameters:
 
 ## The orders
 
-- **Name** : the name displayed on the dashboard.
-- **User** : corresponding user in Jeedom (allows you to restrict certain interactions to certain users).
-- **Number** : phone number to send messages to. You can put several numbers by separating them with; *(exemple: +33612345678;+33698765432)*. Important : it is necessary to put the numbers in the international format (+33 for France for example)
+Each device has the following commands:
+
+- **Signal**: gives signal strength;
+- **Message**: contains the last sms message received;
+- **Sender**: contains the name of the last sender if known, the number otherwise;
+- **Send message to**: an action command to send a message to send an sms to a personalized number without having to create the contact command. This allows you to send an sms to a number obtained via an info command from another device under Jeedom for example. Attention, no verification of the number is carried out, you must provide the numbers in international format.
+
+In addition, you can create as many other action commands as desired corresponding to your contacts, for each of them you will have to enter:
+
+- **Name**: the name of the command;
+- **User**: corresponding user in Jeedom (allows you to restrict certain interactions to certain users);
+- **Number**: phone number to send messages to. You can put several numbers by separating them with `;` (example: `+33612345678;+33698765432`). *Important* : it is necessary to put the numbers in the international format (+33 for France for example).
 
 > **Important**
 >

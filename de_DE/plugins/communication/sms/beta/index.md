@@ -56,9 +56,18 @@ Nachfolgend finden Sie einige spezifische Parameter:
 
 ## Die Bestellungen
 
-- **Name** : Der im Dashboard angezeigte Name.
-- **Benutzer** : entsprechender Benutzer in Jeedom (ermöglicht es Ihnen, bestimmte Interaktionen auf bestimmte Benutzer zu beschränken).
-- **Anzahl** : Telefonnummer, an die Nachrichten gesendet werden sollen. Sie können mehrere Zahlen eingeben, indem Sie sie durch trennen *(exemple: +33612345678;+33698765432)*. Wichtig : Es ist notwendig, die Zahlen im internationalen Format (+33 für Frankreich zum Beispiel) anzugeben)
+Jedes Gerät verfügt über die folgenden Befehle:
+
+- **Signal**: gibt Signalstärke;
+- **Nachricht**: enthält die zuletzt empfangene SMS-Nachricht;
+- **Absender**: enthält den Namen des letzten Absenders, sofern bekannt, andernfalls die Nummer;
+- **Nachricht senden an**: Ein Aktionsbefehl zum Senden einer Nachricht zum Senden einer SMS an eine personalisierte Nummer, ohne dass der Kontaktbefehl erstellt werden muss. Auf diese Weise können Sie beispielsweise eine SMS an eine Nummer senden, die Sie über einen Info-Befehl von einem anderen Gerät unter Jeedom erhalten haben. Achtung, es erfolgt keine Überprüfung der Nummer, Sie müssen die Nummern im internationalen Format angeben.
+
+Darüber hinaus können Sie passend zu Ihren Kontakten beliebig viele weitere Aktionsbefehle erstellen, für die Sie jeweils eine Eingabe vornehmen müssen:
+
+- **Name**: der Name des Befehls;
+- **Benutzer**: entsprechender Benutzer in Jeedom (ermöglicht Ihnen, bestimmte Interaktionen auf bestimmte Benutzer zu beschränken);
+- **Anzahl**: Telefonnummer, an die Nachrichten gesendet werden sollen. Sie können mehrere Zahlen eingeben, indem Sie sie durch „;“ trennen (Beispiel: „+33612345678;+33698765432“.). *Wichtig* : Es ist notwendig, die Zahlen im internationalen Format (+33 für Frankreich zum Beispiel) anzugeben).
 
 > **Wichtig**
 >

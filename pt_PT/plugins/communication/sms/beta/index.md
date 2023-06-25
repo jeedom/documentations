@@ -56,9 +56,18 @@ Abaixo você encontra alguns parâmetros específicos:
 
 ## As ordens
 
-- **Nome** : o nome exibido no painel.
-- **Usuário** : usuário correspondente no Jeedom (permite restringir certas interações a determinados usuários).
-- **Número** : número de telefone para o qual enviar mensagens. Você pode colocar vários números, separando-os com; *(exemple: +33612345678;+33698765432)*. IMPORTANTE : é necessário colocar os números no formato internacional (+33 para a França por exemplo)
+Cada dispositivo tem os seguintes comandos:
+
+- **Sinal**: dá força de sinal;
+- **Mensagem**: contém a última mensagem SMS recebida;
+- **Remetente**: contém o nome do último remetente se conhecido, o número caso contrário;
+- **Enviar mensagem para**: um comando de ação para enviar uma mensagem para enviar um sms para um número personalizado sem ter que criar o comando de contato. Isso permite que você envie um sms para um número obtido por meio de um comando info de outro dispositivo no Jeedom, por exemplo. Atenção, nenhuma verificação do número é realizada, você deve fornecer os números em formato internacional.
+
+Além disso, você pode criar quantos outros comandos de ação desejar correspondentes aos seus contatos, para cada um deles você terá que inserir:
+
+- **Nome**: o nome do comando;
+- **Usuário**: usuário correspondente no Jeedom (permite que você restrinja certas interações a certos usuários);
+- **Número**: número de telefone para o qual enviar mensagens. Você pode colocar vários números separando-os com `;` (exemplo: `+33612345678;+33698765432`). *IMPORTANTE* : é necessário colocar os números no formato internacional (+33 para a França por exemplo).
 
 > **IMPORTANTE**
 >
