@@ -4,15 +4,49 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 06/15/2023
+# 06/26/2023
 
 **Improvements**
 
-- Switch to version *8.18.1* by ZwaveJsUI.
+- Switch to version *8.19.0* by ZwaveJsUI.
+- Modules *FLIRS* are no longer considered active at the mesh on the network graph
+
+**Configuration Changes**
+
+- Changing the configuration *Aeotec DSB04100 door window sensor* to use the properties
+- Changing the configuration *Aeotec DSC10 Heavy Duty Switch* to use the properties
+- Changing the configuration *Aeotec DSC06106 Smart Energy Switch* to use the properties
+- Changing the configuration *Aeotec DSC11 Smart Strip* to use the properties
+- Changing the configuration *Aeotec DSC08101 Smart Energy Illuminator* to use the properties
+- Changing the configuration *Aeotec DSC014104 Blind Control* to use the properties
+- Changing the configuration *Aeotec DSC17103 Micro Double Switch* to use the properties
+- Changing the configuration *Aeotec DSC18103 Micro Switch 2nd* to use the properties
+- Changing the configuration *Aeotec DSC26103 Micro Switch 2nd* to use the properties
+- Changing the configuration *Aeotec DSC27103 Micro Dimmer 2nd* to use the properties
+- Changing the configuration *Benext Panic Watch* to use the properties
+- Changing the configuration *Benext Panic Button* to use the properties
+- Changing the configuration *Benext Plug In Dimmer* to use the properties
+- Changing the configuration *Dome On Off Plug In Switch Plug In Dimmer* to use the properties
+- Changing the configuration *Domux Dx2skz* to use the properties
+- Changing the configuration *Everspring AD142* to use the properties
+- Changing the configuration *Everspring AN145* to use the properties
+- Changing the configuration *Everspring EH403 Led FloodLight* to use the properties
+- Changing the configuration *Heiman Dx2skz* to use the properties
+- Changing the configuration *Philio Smart Dimmer E27* to use the properties
+- Changing the configuration *Philio Pan03* to use the properties
+- Changing the configuration *Popp Smart Plug* to use the properties
+- Changing the configuration *Popp 009105* to use the properties
+- Changing the configuration *Schlage On Wall* to use the properties
+- Changing the configuration *Sigma Power Plug* to use the properties
+- Changing the configuration *Swiid Plug* to use the properties
 
 **Configuration Additions**
 
 - Added config *Heat It ZM Dimmer* (properties : Multilevel, Power, Energy, CentralScene, Notification)
+- Added config *Sigma PZ701U* (properties : Switch)
+- Added config *Neo RC03Z* (properties : Central Scene, Battery)
+- Adding a sub-property *Heat sensor* in the property *Notification*
+- Added config *U-Fairy GR-201N* (properties : Switch)
 
 # 04/10/2023
 

@@ -4,15 +4,49 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# 15/06/2023
+# 26/06/2023
 
 **Melhorias**
 
-- Mudar para a versão *8.18.1* por ZwaveJsUI.
+- Mudar para a versão *8.19.0* por ZwaveJsUI.
+- Módulos *FLIRS* não são mais considerados ativos na malha no gráfico de rede
+
+**Alterações de configuração**
+
+- Mudando a configuração *Sensor de janela de porta Aeotec DSB04100* para usar as propriedades
+- Mudando a configuração *Interruptor Aeotec DSC10 Heavy Duty* para usar as propriedades
+- Mudando a configuração *Aeotec DSC06106 Interruptor de Energia Inteligente* para usar as propriedades
+- Mudando a configuração *Faixa Inteligente Aeotec DSC11* para usar as propriedades
+- Mudando a configuração *Aeotec DSC08101 Iluminador Smart Energy* para usar as propriedades
+- Mudando a configuração *Controle cego Aeotec DSC014104* para usar as propriedades
+- Mudando a configuração *Aeotec DSC17103 Micro Interruptor Duplo* para usar as propriedades
+- Mudando a configuração *Microinterruptor Aeotec DSC18103 2º* para usar as propriedades
+- Mudando a configuração *Microinterruptor Aeotec DSC26103 2º* para usar as propriedades
+- Mudando a configuração *Aeotec DSC27103 Micro Dimmer 2º* para usar as propriedades
+- Mudando a configuração *Relógio de Pânico Benext* para usar as propriedades
+- Mudando a configuração *Botão de pânico Benext* para usar as propriedades
+- Mudando a configuração *Benext Plug In Dimmer* para usar as propriedades
+- Mudando a configuração *Cúpula On Off Plug In Interruptor Plug In Dimmer* para usar as propriedades
+- Mudando a configuração *Domux Dx2skz* para usar as propriedades
+- Mudando a configuração *Everspring AD142* para usar as propriedades
+- Mudando a configuração *Everspring AN145* para usar as propriedades
+- Mudando a configuração *Refletor LED Everspring EH403* para usar as propriedades
+- Mudando a configuração *Heiman Dx2skz* para usar as propriedades
+- Mudando a configuração *Philio Smart Dimmer E27* para usar as propriedades
+- Mudando a configuração *Philio Pan03* para usar as propriedades
+- Mudando a configuração *Plugue Inteligente Popp* para usar as propriedades
+- Mudando a configuração *Popp 009105* para usar as propriedades
+- Mudando a configuração *Schlage na parede* para usar as propriedades
+- Mudando a configuração *Tomada Sigma* para usar as propriedades
+- Mudando a configuração *Plugue Swiid* para usar as propriedades
 
 **Adições de configuração**
 
 - Configuração adicionada *Heat It ZM Dimmer* (propriedades : Multilevel, Power, Energy, CentralScene, Notification)
+- Configuração adicionada *Sigma PZ701U* (propriedades : Switch)
+- Configuração adicionada *Neo RC03Z* (propriedades : Cena Central, Bateria)
+- Adicionando uma subpropriedade *Sensor de calor* na propriedade *Notificação*
+- Configuração adicionada *U-Fada GR-201N* (propriedades : Switch)
 
 # 10/04/2023
 

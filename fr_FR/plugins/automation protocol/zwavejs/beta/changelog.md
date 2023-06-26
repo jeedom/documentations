@@ -4,15 +4,49 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 15/06/2023
+# 26/06/2023
 
 **Améliorations**
 
-- Passage à la version *8.18.1* de ZwaveJsUI.
+- Passage à la version *8.19.0* de ZwaveJsUI.
+- Les modules *FLIRS* ne sont plus considérés comme actif au maillage sur le graph réseau
+
+**Modifications de Configurations**
+
+- Modification de la configuration *Aeotec DSB04100 door window sensor* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC10 Heavy Duty Switch* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC06106 Smart Energy Switch* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC11 Smart Strip* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC08101 Smart Energy Illuminator* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC014104 Blind Control* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC17103 Micro Double Switch* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC18103 Micro Switch 2nd* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC26103 Micro Switch 2nd* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC27103 Micro Dimmer 2nd* pour utiliser les propriétés
+- Modification de la configuration *Benext Panic Watch* pour utiliser les propriétés
+- Modification de la configuration *Benext Panic Button* pour utiliser les propriétés
+- Modification de la configuration *Benext Plug In Dimmer* pour utiliser les propriétés
+- Modification de la configuration *Dome On Off Plug In Switch Plug In Dimmer* pour utiliser les propriétés
+- Modification de la configuration *Domux Dx2skz* pour utiliser les propriétés
+- Modification de la configuration *Everspring AD142* pour utiliser les propriétés
+- Modification de la configuration *Everspring AN145* pour utiliser les propriétés
+- Modification de la configuration *Everspring EH403 Led FloodLight* pour utiliser les propriétés
+- Modification de la configuration *Heiman Dx2skz* pour utiliser les propriétés
+- Modification de la configuration *Philio Smart Dimmer E27* pour utiliser les propriétés
+- Modification de la configuration *Philio Pan03* pour utiliser les propriétés
+- Modification de la configuration *Popp Smart Plug* pour utiliser les propriétés
+- Modification de la configuration *Popp 009105* pour utiliser les propriétés
+- Modification de la configuration *Schlage On Wall* pour utiliser les propriétés
+- Modification de la configuration *Sigma Power Plug* pour utiliser les propriétés
+- Modification de la configuration *Swiid Plug* pour utiliser les propriétés
 
 **Ajouts de Configurations**
 
 - Ajout de la configuration *Heat It ZM Dimmer* (propriétés : Multilevel, Power, Energy, CentralScene, Notification)
+- Ajout de la configuration *Sigma PZ701U* (propriétés : Switch)
+- Ajout de la configuration *Neo RC03Z* (propriétés : Central Scene, Battery)
+- Ajout d'une sous-propriété *Heat-Sensor* dans la propriété *Notification*
+- Ajout de la configuration *U-Fairy GR-201N* (propriétés : Switch)
 
 # 10/04/2023
 

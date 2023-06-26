@@ -7,11 +7,11 @@
 # 06/25/2023
 
 - Added a new command **Send message to** allowing you to send an SMS to a personalized number without having to create the contact's order. This allows you to send an sms to a number obtained via an info command from another device under Jeedom for example. Attention, no verification of the number is carried out, you must provide the numbers in international format.
+- Disabling flow control when connecting to the modem to avoid problems with certain modems (for example lixee modem)
 
 # 11/06/2022
 
 - Added two new options: **Allow messages from unknown numbers** & **Automatically add unknown numbers**; see docs.
-- Disabling flow control when connecting to the modem to avoid problems with certain modems (for example lixee modem)
 
 # 21/10/2022
 

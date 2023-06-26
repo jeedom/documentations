@@ -7,11 +7,11 @@
 # 25.06.2023
 
 - Neuer Befehl hinzugefügt **Nachricht senden an** So können Sie eine SMS an eine personalisierte Nummer senden, ohne eine Bestellung für den Kontakt erstellen zu müssen. Auf diese Weise können Sie beispielsweise eine SMS an eine Nummer senden, die Sie über einen Info-Befehl von einem anderen Gerät unter Jeedom erhalten haben. Achtung, es erfolgt keine Überprüfung der Nummer, Sie müssen die Nummern im internationalen Format angeben.
+- Deaktivieren Sie die Flusskontrolle beim Herstellen einer Verbindung zum Modem, um Probleme mit bestimmten Modems (z. B. Lixee-Modem) zu vermeiden)
 
 # 06.11.2022
 
 - Zwei neue Optionen hinzugefügt: **Nachrichten von unbekannten Nummern zulassen** & **Unbekannte Nummern automatisch hinzufügen**; siehe Dokumente.
-- Deaktivieren Sie die Flusskontrolle beim Herstellen einer Verbindung zum Modem, um Probleme mit bestimmten Modems (z. B. Lixee-Modem) zu vermeiden)
 
 # 21.10.2022
 

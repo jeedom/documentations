@@ -7,11 +7,11 @@
 # 25/06/2023
 
 - Adicionado um novo comando **Enviar mensagem para** permitindo-lhe enviar um SMS para um número personalizado sem ter de criar a ordem do contacto. Isso permite que você envie um sms para um número obtido por meio de um comando info de outro dispositivo no Jeedom, por exemplo. Atenção, nenhuma verificação do número é realizada, você deve fornecer os números em formato internacional.
+- Desactivar o controlo de fluxo ao ligar ao modem para evitar problemas com determinados modems (por exemplo modem lixee)
 
 # 06/11/2022
 
 - Adicionadas duas novas opções: **Permitir mensagens de números desconhecidos** & **Adicionar números desconhecidos automaticamente**; ver documentos.
-- Desactivar o controlo de fluxo ao ligar ao modem para evitar problemas com determinados modems (por exemplo modem lixee)
 
 # 21/10/2022
 

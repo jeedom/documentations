@@ -4,15 +4,49 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# 15/06/2023
+# 26/06/2023
 
 **Mejoras**
 
-- Cambiar a versión *8.18.1* por ZwaveJsUI.
+- Cambiar a versión *8.19.0* por ZwaveJsUI.
+- Los módulos *FLIRS* ya no se consideran activos en la malla en el gráfico de red
+
+**Cambios de configuración**
+
+- Cambiar la configuración *Sensor de ventana de puerta Aeotec DSB04100* para usar las propiedades
+- Cambiar la configuración *Interruptor de servicio pesado Aeotec DSC10* para usar las propiedades
+- Cambiar la configuración *Interruptor de energía inteligente Aeotec DSC06106* para usar las propiedades
+- Cambiar la configuración *Tira inteligente Aeotec DSC11* para usar las propiedades
+- Cambiar la configuración *Iluminador de energía inteligente Aeotec DSC08101* para usar las propiedades
+- Cambiar la configuración *Control de persianas Aeotec DSC014104* para usar las propiedades
+- Cambiar la configuración *Aeotec DSC17103 Micro Interruptor Doble* para usar las propiedades
+- Cambiar la configuración *Aeotec DSC18103 Microinterruptor 2º* para usar las propiedades
+- Cambiar la configuración *Aeotec DSC26103 Microinterruptor 2º* para usar las propiedades
+- Cambiar la configuración *Aeotec DSC27103 Micro Dimmer 2do* para usar las propiedades
+- Cambiar la configuración *Reloj Pánico Benext* para usar las propiedades
+- Cambiar la configuración *Botón de pánico Benext* para usar las propiedades
+- Cambiar la configuración *Atenuador enchufable Benext* para usar las propiedades
+- Cambiar la configuración *Domo de encendido y apagado Interruptor enchufable Atenuador enchufable* para usar las propiedades
+- Cambiar la configuración *Domux dx2skz* para usar las propiedades
+- Cambiar la configuración *Siempre primavera AD142* para usar las propiedades
+- Cambiar la configuración *Primavera eterna AN145* para usar las propiedades
+- Cambiar la configuración *Proyector LED Everspring EH403* para usar las propiedades
+- Cambiar la configuración *Heiman Dx2skz* para usar las propiedades
+- Cambiar la configuración *Atenuador inteligente Philio E27* para usar las propiedades
+- Cambiar la configuración *Philio pan03* para usar las propiedades
+- Cambiar la configuración *Enchufe inteligente Popp* para usar las propiedades
+- Cambiar la configuración *Papá 009105* para usar las propiedades
+- Cambiar la configuración *Schlage en la pared* para usar las propiedades
+- Cambiar la configuración *Enchufe Sigma* para usar las propiedades
+- Cambiar la configuración *Enchufe deslizante* para usar las propiedades
 
 **Adiciones de configuración**
 
 - Configuración añadida *Atenuador Heat It ZM* (propiedades : Multinivel, Poder, Energía, CentralScene, Notificación)
+- Configuración añadida *Sigma PZ701U* (propiedades : Switch)
+- Configuración añadida *Neo RC03Z* (propiedades : Escena Central, Batería)
+- Añadir una subpropiedad *Sensor de calor* en la propiedad *Notificación*
+- Configuración añadida *U-Hada GR-201N* (propiedades : Switch)
 
 # 04/10/2023
 
