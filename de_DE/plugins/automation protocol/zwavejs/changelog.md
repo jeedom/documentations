@@ -4,6 +4,74 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 26.06.2023
+
+**Verbesserungen**
+
+- Zur Version wechseln *8.19.0* von ZwaveJsUI.
+- Module *FLIRS* werden im Netz im Netzwerkdiagramm nicht mehr als aktiv betrachtet
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Aeotec DSB04100 Türfenstersensor* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC10 Hochleistungsschalter* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC06106 Intelligenter Energieschalter* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC11 Smart Strip* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC08101 Smart Energy Illuminator* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC014104 Jalousiesteuerung* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC17103 Mikro-Doppelschalter* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC18103 Mikroschalter 2* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC26103 Mikroschalter 2* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec DSC27103 Mikrodimmer 2* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Benext Panikuhr* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Nächster Panikknopf* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Benext Plug-In-Dimmer* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Dome On Off Plug-In-Schalter Plug-In-Dimmer* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Domux Dx2skz* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Everspring AD142* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Everspring AN145* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Everspring EH403 LED-Flutlicht* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Heiman Dx2skz* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Philio Smart Dimmer E27* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Philio Pan03* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Popp Smart Plug* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Popp 009105* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Schlage an der Wand* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Sigma-Netzstecker* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Swiid-Stecker* um die Eigenschaften zu verwenden
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Heat It ZM Dimmer* (Eigenschaften : Mehrstufig, Strom, Energie, CentralScene, Benachrichtigung)
+- Konfig hinzugefügt *Sigma PZ701U* (Eigenschaften : Switch)
+- Konfig hinzugefügt *Neo RC03Z* (Eigenschaften : Zentrale Szene, Batterie)
+- Hinzufügen einer Untereigenschaft *Wärmesensor* im Eigentum *Benachrichtigung*
+- Konfig hinzugefügt *U-Fee GR-201N* (Eigenschaften : Switch)
+
+# 10.04.2023
+
+**Verbesserungen**
+
+- DER *Aktualisierung* kann jetzt bis zu 100 Sekunden statt 60 gehen
+- Zur Version wechseln *8.13.1* von ZwaveJsUI.
+- Ändern der Funktion *pollValue* für Immobilien bei *Wert* (danke @superbricolo)
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Aeotec ZWA19 Wassersensor* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Aeotec ZWA24 7in1* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Everspring SM810* um die Eigenschaften zu verwenden
+- Bearbeiten einer Eigenschaft *Geschwindigkeit*
+- Bearbeiten des Bildes *Dlink 510* (Ausschnitt)
+- Bearbeiten des Bildes *Fibaro Fgs-213* (Ausschnitt)
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Sigma PZ701U* (Eigenschaften : Switch)
+- Konfig hinzugefügt *Neo RC03Z* (Eigenschaften : Zentrale Szene, Batterie)
+- Hinzufügen einer Untereigenschaft *Wärmesensor* im Eigentum *Benachrichtigung*
+- Konfig hinzugefügt *U-Fee GR-201N* (Eigenschaften : Switch)
+
 # 14.02.2023
 
 **Konfigurationsänderungen**
