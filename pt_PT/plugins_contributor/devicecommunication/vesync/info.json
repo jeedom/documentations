@@ -9,7 +9,7 @@
       "de_DE": "Plugin zum Abrufen von Informationen und zum Steuern von Geräten, die über die VeSync API synchronisiert wurden",
       "it_IT": "Plugin per recuperare informazioni e controllare i dispositivi sincronizzati su VeSync API"
   },
-  "utilization": "Après avoir entré l'identifiant et le mot de passe dans la page de configuration, lancez une synchronisation.</br>Toutes les commandes viendront au fur et à mesure : en lançant une impression, elles devraient toutes être créées.",
+  "utilization": "Après avoir entré l'identifiant et le mot de passe dans la page de configuration, lancez une synchronisation.</br>Toutes les commandes viendront au fur et à mesure après un premier rafraîchissement.",
   "licence": "AGPL",
   "author": "DomoFlo1",
   "require": "4.2",
