@@ -1,43 +1,40 @@
 {
-  "id": "vesync",
-  "name": "VeSync",
-  "description": {
-      "fr_FR": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API VeSync",
-      "en_US": "Plugin to retrieve information and control synchronized devices on the VeSync API",
-      "es_ES": "Plugin para recuperar información y controlar dispositivos sincronizados en la API VeSync",
-      "pt_PT": "Plugin para recuperar informação e controlar dispositivos sincronizados no VeSync API",
-      "de_DE": "Plugin zum Abrufen von Informationen und zum Steuern von Geräten, die über die VeSync API synchronisiert wurden",
-      "it_IT": "Plugin per recuperare informazioni e controllare i dispositivi sincronizzati su VeSync API"
-  },
-  "utilization": "Après avoir entré l'identifiant et le mot de passe dans la page de configuration, lancez une synchronisation.</br>Toutes les commandes viendront au fur et à mesure après un premier rafraîchissement.",
-  "licence": "AGPL",
-  "author": "DomoFlo1",
-  "require": "4.2",
-  "category": "devicecommunication",
-  "hasDependency": false,
-  "hasOwnDeamon": false,
-  "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-vesync-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-vesync-pour-jeedom/",
-  "link": {
-    "forum": "https://community.jeedom.com/tag/plugin-VeSync"
-  },
-  "language": [
-    "fr_FR",
-    "en_US",
-    "es_ES",
-    "pt_PT",
-    "de_DE",
-    "it_IT"
-  ],
-  "compatibility": [
-    "miniplus",
-    "smart",
-    "rpi",
-    "docker",
-    "diy",
-    "mobile",
-    "v4",
-    "atlas"
-  ]
+	"id": "arlo",
+	"name": "Arlo",
+	"description": {
+		"fr_FR": "Plugin permettant le contrôle des équipements de la gamme Arlo comme les caméras, la station de base et la sirène intégrée. Il est possible de contrôler le mode, l'activation et désactivation des caméras, visualiser le flux live des caméras, déclencher des captures et des enregistrements vidéos, déclencher la sirène... Tous les modèles actuels supportés par l'application Arlo (web ou mobile) sont supportés par le plugin: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell et Video Doorbell...",
+		"en_US": "Plugin allowing control of Arlo devices such as cameras, base station and built-in siren. It is possible to control the mode, activation and deactivation of cameras, view the live stream of cameras, trigger video captures and recordings, trigger the siren ... All current models supported by the Arlo application (web or mobile) are supported by the plugin: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell and Video Doorbell ..."
+	},
+	"utilization": "Il faut créer un utilisateur dédié à Jeedom dans l'application Arlo (très facile, explication détaillée dans la documentation) ensuite tout se configure automatiquement.",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.2",
+	"category": "security",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 10,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/arlo/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/arlo/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/arlo/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/arlo/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-arlo",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"whiteListFolders": [
+		"data/records"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4"
+	]
 }
