@@ -3,10 +3,10 @@
     "name": "Enphase Envoy",
     "description": {
         "fr_FR": "Plugin pour remonter les informations photovoltaïques des passerelles Envoy",
-        "en_US": "Plugin to report photovoltaic information from Envoy gateways",
-        "es_ES": "Complemento para reportar información fotovoltaica de las puertas de enlace Envoy",
-        "de_DE": "Plug-in zum Melden von Photovoltaik-Informationen von Envoy-Gateways",
-        "pt_PT": "Plugin para relatar informações fotovoltaicas de gateways Envoy",
+        "en_US": "Plugin to upload photovoltaic information from Envoy gateways",
+        "es_ES": "Complemento para cargar información fotovoltaica desde las pasarelas Envoy",
+        "de_DE": "Plugin zum Hochladen von Photovoltaik-Informationen von Envoy-Gateways",
+        "pt_PT": "Plugin para carregar informações fotovoltaicas de gateways Envoy",
         "ru_RU": "Plugin pour remonter les informations photovoltaïques des passerelles Envoy",
         "id_ID": "Plugin pour remonter les informations photovoltaïques des passerelles Envoy",
         "it_IT": "Plugin pour remonter les informations photovoltaïques des passerelles Envoy",
@@ -28,12 +28,7 @@
         "en_US",
         "es_ES",
         "de_DE",
-        "ru_RU",
-        "id_ID",
-        "it_IT",
-        "ja_JP",
-        "pt_PT",
-        "tr"
+        "pt_PT"
     ],
     "compatibility": [
         "miniplus",

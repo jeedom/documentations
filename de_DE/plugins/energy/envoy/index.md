@@ -47,3 +47,7 @@ Mit dem Plugin können Sie die folgenden Informationen melden (wenn Sie einen En
     - Maximale Leistung (in W)
     - % Last
     - Maximale Temperatur (in ° C)
+
+# V7-Firmware
+
+Wenn Sie Firmware v7 verwenden, müssen Sie gehen [Dort](https://entrez.enphaseenergy.com/), Melden Sie sich an, klicken Sie dann auf „Zugriffstoken erstellen“ und kopieren Sie den JWT-Code in die Konfiguration des Jeedom-Plugins. Bitte beachten Sie, dass wir derzeit nicht wissen, ob dieser Code unbegrenzt oder nur wenige Monate gültig ist

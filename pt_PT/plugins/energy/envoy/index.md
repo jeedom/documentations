@@ -47,3 +47,7 @@ O plug-in permite que você relate as seguintes informações (se você tiver um
     - Potência máxima (em W)
     - % de carga
     - Temperatura máxima (em ° C)
+
+# Firmware V7
+
+Se você está no firmware v7, você deve ir [lá](https://entrez.enphaseenergy.com/), faça o login e clique em "Criar token de acesso" e copie o código jwt na configuração do plugin jeedom. Observe que não sabemos no momento se este código é válido por um período ilimitado ou apenas por alguns meses
