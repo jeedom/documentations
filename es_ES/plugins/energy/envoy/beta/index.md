@@ -47,3 +47,7 @@ El complemento le permite informar la siguiente información (si tiene un Enviad
     - Potencia máxima (en W)
     - % de carga
     - Temperatura máxima (en ° C)
+
+# Firmware V7
+
+Si estas en firmware v7 tienes que ir [allá](https://entrez.enphaseenergy.com/), inicie sesión, luego haga clic en "Crear token de acceso" y copie el código jwt en la configuración del complemento jeedom. Tenga en cuenta que no sabemos en este momento si este código es válido por un período ilimitado o solo por unos pocos meses

@@ -47,3 +47,7 @@ Le plugin permet de remonter les informations suivantes (si vous disposez d'un E
     - Puissance Max (en W)
     - % de charge
     - Température maximale (en °C)
+
+# V7 firmware
+
+Si vous etes en firmware v7 il faut aller [la](https://entrez.enphaseenergy.com/), vous connecter puis cliquez sur "Create access token" et copier le code jwt dans la configuration du plugin jeedom. Attention nous ne savons pas pour le moment si ce code est valable de maniere illimité ou seulement quelques mois

@@ -47,3 +47,7 @@ The plugin allows you to report the following information (if you have an Envoy-
     - Max power (in W)
     - % dump
     - Maximum temperature (in ° C)
+
+# V7 firmware
+
+If you are in firmware v7 you have to go [there](https://entrez.enphaseenergy.com/), log in then click on "Create access token" and copy the jwt code in the configuration of the jeedom plugin. Please note that we do not know at the moment if this code is valid for an unlimited period or only for a few months
