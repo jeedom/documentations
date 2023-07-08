@@ -6,10 +6,6 @@
 
 # 06/06/2023
 
-- Fixed a bug on starting the SIA daemon
-
-# 04/24/2023
-
 - Add fibra hub
 
 # 08/23/2022

@@ -6,10 +6,6 @@
 
 # 06.06.2023
 
-- Ein Fehler beim Starten des SIA-Daemons wurde behoben
-
-# 24.04.2023
-
 - Fasernabe hinzufügen
 
 # 23.08.2022

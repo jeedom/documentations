@@ -6,10 +6,6 @@
 
 # 06/06/2023
 
-- Correction d'un bug sur le démarrage du démon SIA
-
-# 24/04/2023
-
 - Ajout hub fibra
 
 # 23/08/2022

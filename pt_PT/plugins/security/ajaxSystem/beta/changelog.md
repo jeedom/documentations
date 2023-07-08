@@ -6,10 +6,6 @@
 
 # 06/06/2023
 
-- Corrigido um bug ao iniciar o daemon SIA
-
-# 24/04/2023
-
 - Adicionar cubo de fibra
 
 # 23/08/2022

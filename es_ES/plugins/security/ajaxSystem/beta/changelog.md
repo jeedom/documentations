@@ -6,10 +6,6 @@
 
 # 06/06/2023
 
-- Se corrigió un error al iniciar el demonio SIA
-
-# 24/04/2023
-
 - Agregar concentrador de fibra
 
 # 23/08/2022
