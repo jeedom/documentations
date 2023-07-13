@@ -18,8 +18,8 @@
   "hasDependency": true,
   "hasOwnDeamon": false,
   "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-vesync-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-vesync-pour-jeedom/",
+  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-google-keep-pour-jeedom/",
+  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-google-keep-pour-jeedom/",
   "link": {
     "forum": "https://community.jeedom.com/tag/plugin-GKeep"
   },
