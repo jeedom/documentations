@@ -1,7 +1,9 @@
 {
 	"id" : "netatmopro",
 	"name" : "Netatmo Pro",
-	"description" : "Intégration de l'univers Netatmo",
+	"description" : {
+		"fr_FR": "Intégration de l'univers Netatmo"
+	},
 	"licence" : "AGPL",
 	"author" : "Thomas Maby",
 	"require" : "4.0.62",
@@ -11,9 +13,21 @@
 	"maxDependancyInstallTime" : 0,
 	"changelog" : "https://thanaus.github.io/jeedom_docs/plugins/netatmopro/fr_FR/changelog",
 	"documentation" : "https://thanaus.github.io/jeedom_docs/plugins/netatmopro/fr_FR/",
+	"changelog_beta" : "https://thanaus.github.io/jeedom_docs/plugins/netatmopro/fr_FR/changelog",
+	"documentation_beta" : "https://thanaus.github.io/jeedom_docs/plugins/netatmopro/fr_FR/",
 	"link" : {
 		"forum": "https://www.jeedom.com/forum/viewtopic.php?f=141&t=26800"
 	},
-	"language" : ["fr_FR"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"v4",
+		"atlas"
+	]
 }
