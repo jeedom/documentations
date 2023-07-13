@@ -8,6 +8,9 @@
 
 - Adicionado compatibilidade com firmwares V7
 
+  >**IMPORTANTE**
+  > Você deve reiniciar uma sincronização a partir da página do plug-in, caso contrário, haverá erros e nada funcionará
+
 # 05/05/2020
 
 - Alterar do tempo limite para 10s

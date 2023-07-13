@@ -8,6 +8,9 @@
 
 - Added compatibility with V7 firmwares
 
+  >**Important**
+  > You have to restart a synchronization from the plugin page otherwise you will have errors and nothing will work
+
 # 05/05/2020
 
 - Change from timeout to 10s

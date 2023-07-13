@@ -8,6 +8,9 @@
 
 - Kompatibilität mit V7-Firmwares hinzugefügt
 
+  >**Wichtig**
+  > Sie müssen eine Synchronisierung von der Plugin-Seite aus neu starten, sonst treten Fehler auf und nichts funktioniert
+
 # 05/05/2020
 
 - Wechseln Sie von Timeout zu 10s

@@ -50,4 +50,4 @@ Mit dem Plugin können Sie die folgenden Informationen melden (wenn Sie einen En
 
 # V7-Firmware
 
-Wenn Sie Firmware v7 verwenden, müssen Sie gehen [Dort](https://entrez.enphaseenergy.com/), Melden Sie sich an, klicken Sie dann auf „Zugriffstoken erstellen“ und kopieren Sie den JWT-Code in die Konfiguration des Jeedom-Plugins. Bitte beachten Sie, dass wir derzeit nicht wissen, ob dieser Code unbegrenzt oder nur wenige Monate gültig ist
+Wenn Sie Firmware v7 verwenden, können Sie das Token entweder selbst abrufen, indem Sie auf klicken [Dort](https://entrez.enphaseenergy.com/), Verbinden Sie sich, klicken Sie dann auf „Zugriffstoken erstellen“ und kopieren Sie den JWT-Code in die Konfiguration des Jeedom-Plugins (Derzeit wissen wir nicht, ob dieser Code unbegrenzt oder nur für einige Monate gültig ist). **ODER** Sie geben in Ihrem Enphase-Benutzernamen in „[v7] Benutzername“, Ihr Passwort in „[v7] Passwort“ und schließlich die Seriennummer Ihres Gateways in „[v7] Seriennummer des Senders“ ein. Diese Informationen werden von jeedom automatisch abgerufen den Token so schnell wie nötig.

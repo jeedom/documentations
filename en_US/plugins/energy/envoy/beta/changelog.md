@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 07/12/2023
+
+- Better error handling with firmware v7
+- Addition of an automatic token recovery system for firmware in v7
+
 # 07/07/2023
 
 - Added compatibility with V7 firmwares

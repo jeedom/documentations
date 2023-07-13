@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 12/07/2023
+
+- Meilleure gestion des erreurs avec le firmware v7
+- Ajout d'un systeme automatique de récuperation de token pour les firmware en v7
+
 # 07/07/2023
 
 - Ajout de la compatibilité avec les firmwares V7
