@@ -15,7 +15,7 @@
 
 >**IMPORTANT**
 >
-> Avant toute chose il faut mettre à jour le firmware de votre clef (surtout pour EZSP, clef popp en particulier) sinon le demon ne peut fonctionner il faut vous reporter à la documentation du fabricant.
+> Avant toute chose il faut mettre à jour le firmware de votre clef (surtout pour EZSP, clef popp en particulier) sinon le demon ne peut fonctionner il faut vous reporter à la documentation du fabricant. N'hésitez pas à consulter la page officiel Zigbee2mqtt pour retrouver les firmware disponible pour votre clé https://www.zigbee2mqtt.io/guide/adapters/
 
 De plus, le plugin est doté de nombreux outils permettant :
 
@@ -170,3 +170,7 @@ Pour finir et même si cela peut paraître évident pour certains, nous rappelon
 >**J'ai pas l'image de mon module**
 >
 >Rien de grave, ce ne veut pas dire qu'il n'est pas utilisable ou reconnu, l'image sert juste d'illustration. Si vraiment vous la voulez, il faut contacter le support pour qu'il regarde pourquoi vous ne l'avez pas (en général c'est due à un caractere non standard dans le nom du modele du module)
+
+>**Clé SONOFF modèle P: Flashage et résolution du problème "unknown record type 3**
+>
+>Une explication du flashage de la clé a été proposé sur le forum. Si vous avez l'erreur unkown record type3 il est nécéssaire de convertir votre fichier .hex en .bin comme expliqué dans le tutoriel. Merci à JeedGeek pour l'explication ici: https://community.jeedom.com/t/flasher-sa-cle-usb-zigbee-sonoff-p-avec-lutilitaire-ti-sous-windows/109453
