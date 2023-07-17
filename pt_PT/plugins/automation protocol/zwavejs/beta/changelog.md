@@ -4,6 +4,14 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# XX/07/2023
+
+**Adições de configuração**
+
+- Adicionando uma propriedade *TermostatoFanState*
+- Configuração adicionada *MCOhome Mh8FC* (propriedades : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperatura)
+- Configuração adicionada *Heltun HE-FT01* (propriedades : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperatura, Iluminância, Umidade, Potência, Energia)
+
 # 26/06/2023
 
 **Melhorias**
