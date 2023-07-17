@@ -50,9 +50,9 @@ Une fois les dépendances installées, vous pouvez configurer un contrôleur Zig
 >
 > Lors de la premiere utilisation si vous etes en mode local il faut ABSOLUMENT lancer les dépendances (meme si ok). A noter que pour mettre a jour zigbee2mqtt il suffit de lancer les dépendances, vous pouvez voir les nouvelles version de zigbee2mqtt [ici](https://github.com/Koenkk/zigbee2mqtt/tags)
 
-Pour aller sur Zigbee2MQTT à partir du plugin JEEZIGBEE (pour par exemple forcer la suppression d'un module le module) il faut aller dans la configuration du plugin Jeezgibee puis dans la partir Configuration, cliquez sur Interface z2m "Ici" vous aller ouvrir la page de Zigbee2MQTT, une fois dans le module on vous demandera l’identifiant qui se trouve sur la page de configuration de Jeezigbee.
+Pour aller sur Zigbee2MQTT à partir du plugin JEEZIGBEE (pour par exemple forcer la suppression d'un module) il faut aller dans la configuration du plugin Jeezgibee puis dans la partir Configuration, cliquez sur Interface z2m "Ici" vous aller ouvrir la page de Zigbee2MQTT, une fois dans le module on vous demandera l’identifiant qui se trouve sur la page de configuration de Jeezigbee.
 
-Attention ce n'est possible que si vous etes en installation local de zigbee2mqtt.
+Attention ce n'est possible que si vous êtes en installation local de zigbee2mqtt.
 
 ## Compatibilité
 
@@ -81,7 +81,7 @@ D'autres paramètres plus spécifiques sont également accessibles :
 - **Identification** : identifiant unique de l'équipement. Même lors d'une ré-inclusion ou si vous changez de type de contrôleur Zigbee.
 - **Contrôleur Z2m** : permet de sélectionner le contrôleur Zigbee en communication avec l'équipement (pour le moment le plugin ne supporte pas de multiple controleur)
 
-La partie **Informations** permet de voir le modèle de l'équipement. On y retrouve également le visuel de l'équipement et l'accès a la configuration du module
+La partie **Informations** permet de voir le modèle de l'équipement. On y retrouve également le visuel de l'équipement (non modifiable car provenant de zeegbee2mqtt) et l'accès a la configuration du module
 
 Dans l'onglet **Commandes**, nous retrouvons, comme à l'accoutumée, les commandes permettant d'interagir avec le module.
 
@@ -90,7 +90,7 @@ Dans l'onglet **Commandes**, nous retrouvons, comme à l'accoutumée, les comman
 C'est une fenetre important vous retrouverez ici : 
 
 - Informations : contient toutes les informations utile sur votre module (modèle, fabricant, état, alimentation, OTA, description, endpoints....)
-- Configuration : contient les paramètres de configuration de votre module, si il y en a (souvent il n'y en a pas donc c'est vide)
+- Configuration : contient les paramètres de configuration de votre module, s'il y en a (souvent il n'y en a pas donc c'est vide)
 - Binding : Vous retrouverez ici le binding (lien) existant (en général vous avec toujours une ligne pour lié votre module à votre coordinateur). Vous pouvez aussi ajouter un binding (lien) entre deux modules, attention à bien reveiller les modules sur batterie lors du binging. Important le binding dépend des fabricants (et non du plugin), certains fabricants ne supportent pas le binding direct et il faut absolument un groupe, il y a aussi des incompatibilités entre fabricants (nous ne pouvons malheureusement pas en faire la liste)
 - Reporting : si le module le supporte, vous pouvez configurer ici la fréquence d'envoi des informations du module au coordinateur (Jeedom donc)
 - Informations brutes : sert juste au support, il vous sera demandé en cas de souci avec un module
@@ -131,14 +131,14 @@ Le graphique du réseau permet d'avoir une vision d'ensemble du réseau Zigbee e
 
 >**IMPORTANT**
 >
->Le graphique réseau est la a titre indicatif et peut ne pas etre exact (en particulier sur les modules sur batterie qui ne renvoi pas souvent ou meme desfois pas du tout leur routage)
+>Le graphique réseau est là a titre indicatif et peut ne pas etre exact (en particulier sur les modules sur batterie qui ne renvoi pas souvent ou meme des fois pas du tout leur routage)
 
 ## Optimiser le réseau
 
 Afin d'optimiser la fiabilité de votre réseau Zigbee, **il est plus que recommandé d’avoir au minimum 3 modules routeurs alimentés en permanence et d’éviter de les débrancher**. En effet, lors de nos tests nous avons remarqué une nette amélioration de la fiabilité et de la résilience du réseau Zigbee lors de l’ajout de modules routeurs. Il est d’ailleurs conseillé de les inclure en premier lieu, autrement il faudra attendre 24h à 48h pour que les "end-device" *(modules non routeurs)* les découvrent.
 
 Autre point important, il se peut, lors de la suppression d’un module routeur, qu’une partie des "end-device" *(modules non routeurs)* soit perdu pendant un temps plus ou moins long *(en dizaine d’heures voire plus)* ou même définitivement et que vous ayez à les ré-inclure.
-Malheureusement cela est dû à la manière dont la fabricant a prévu l'intégration de son matériel au sein d'un réseau Zigbee et ne peut donc pas être corrigé par le plugin qui ne gère pas la partie routage.
+Malheureusement cela est dû à la manière dont le fabricant a prévu l'intégration de son matériel au sein d'un réseau Zigbee et ne peut donc pas être corrigé par le plugin qui ne gère pas la partie routage.
 
 Pour finir et même si cela peut paraître évident pour certains, nous rappelons que les passerelles Zigbee en Wifi ou distantes sont par définition moins fiables que les passerelles USB. L'équipe Jeedom conseille donc l'utilisation d'une passerelle Zigbee en USB.  
 
