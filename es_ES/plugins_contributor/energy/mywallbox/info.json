@@ -1,0 +1,19 @@
+{
+	"id" : "wallbox",
+	"name" : "WallBox",
+	"description" : {
+		"fr_FR": "Plugin pour la récupération des données d'une station de recharge WallBox",
+		"en_US": "Plugin to retrieve data from wallbox charge station"
+	},
+	"licence" : "GNU",
+	"author" : "CStan77",
+	"require" : "4.0.0",
+	"category" : "energy",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "",
+	"documentation" : "",
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+}
