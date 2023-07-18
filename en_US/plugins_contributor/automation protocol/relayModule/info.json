@@ -1,28 +1,40 @@
 {
-	"id" : "homebridge",
-	"name" : "Homebridge",
-	"description" : {
-		"fr_FR":"Plugin pour Homebridge.\nPasserelle Apple HomeKit pour Jeedom.\nControle de certains périphériques Jeedom par Siri et via application Maison et Eve.",
-		"en_US":"Plugin for Homebridge.\nApple Homekit Gateway for Jeedom.\nControl some of your Jeedom equipments via Siri, Home and Eve apps.\n\nWARNING : Not supported : Jessie & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)\n\nJeedom MUST be on the same network than your iPhone/AppleTV. (no routing, no NAT).\n\nAn AppleTV 4+ or iPad iOS 10+(old homekit infra only) or HomePod are mandatory for remote access.\n\nSupport on the forum (One request per subject, like a ticket system).",
-		"es_ES":"Complemento para Homebridge.\nApple Homekit Gateway para Jeedom.\nControla algunos de tus equipos Jeedom a través de las aplicaciones Siri, Home y Eve.\n\nIMPORTANTE : No compatible: Jessie & Docker & Jeedom Mini + & Raspberry Pi 1-2 & Zero (armv6) y i386 (32bits)\n\nJeedom DEBE estar en la misma red que su iPhone / AppleTV. (sin enrutamiento, sin NAT).\n\nSe requiere un AppleTV 4+ o un iPad con iOS 10+(Solo infraestructura heredada de homekit) o un HomePod para el acceso remoto.\n\nSoporte en el foro (una solicitud por tema, como un sistema de tickets).",
-		"pt_PT":"Plugin para Homebridge.\nApple Homekit Gateway for Jeedom.\nControle alguns de seus equipamentos Jeedom através dos aplicativos Siri, Home e Eve.\n\nAVISO: Não suportado: Jessie & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6 ) e i386 (32 bits)\n\nJeedom DEVE estar na mesma rede do seu iPhone/AppleTV. (sem roteamento, sem NAT).\n\nUm AppleTV 4+ ou iPad iOS 10+(Somente infraestrutura herdada do homekit) ou HomePod são obrigatórios para acesso remoto.\n\nSuporte no fórum (uma solicitação por assunto, como um sistema de tickets)."
+	"id": "arlo",
+	"name": "Arlo",
+	"description": {
+		"fr_FR": "Plugin permettant le contrôle des équipements de la gamme Arlo comme les caméras, la station de base et la sirène intégrée. Il est possible de contrôler le mode, l'activation et désactivation des caméras, visualiser le flux live des caméras, déclencher des captures et des enregistrements vidéos, déclencher la sirène... Tous les modèles actuels supportés par l'application Arlo (web ou mobile) sont supportés par le plugin: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell et Video Doorbell...",
+		"en_US": "Plugin allowing control of Arlo devices such as cameras, base station and built-in siren. It is possible to control the mode, activation and deactivation of cameras, view the live stream of cameras, trigger video captures and recordings, trigger the siren ... All current models supported by the Arlo application (web or mobile) are supported by the plugin: Arlo, Arlo Pro, Pro2, Pro3, Pro4, Ultra, Arlo Floodlight, Arlo Essential, Arlo Q, Arlo Go, Arlo Baby, Arlo Doorbell and Video Doorbell ..."
 	},
-	"utilization": "ATTENTION : Non supporté : Jessie & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)\n\nJeedom DOIT être sur le même réseau que votre iPhone/AppleTV. (pas de routage, pas de NAT).\n\nUne AppleTV 4+ ou un iPad iOS 10+(ancienne infra homekit uniquement) ou un HomePod sont nécessaires pour l'accès à distance.\n\nSupport sur le forum (Une demande par sujet, comme un système de tickets).",
-	"licence" : "AGPL",
-	"author" : "Nebz",
-	"require" : "4.0",
-	"category" : "communication",
-	"hasDependency" : true,
-	"hasOwnDeamon" : true,
-	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
-	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/changelog",
-	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/changelog",
-	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/",
-	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/index-beta",
-	"link" : {
-		"forum":"https://community.jeedom.com/tag/plugin-homebridge"
+	"utilization": "Il faut créer un utilisateur dédié à Jeedom dans l'application Arlo (très facile, explication détaillée dans la documentation) ensuite tout se configure automatiquement.",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.2",
+	"category": "security",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 10,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/arlo/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/arlo/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/arlo/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/arlo/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-arlo",
+		"video": ""
 	},
-	"languages" : ["fr_FR","en_US","es_ES","pt_PT"],
-	"compatibility" : ["miniplus","smart","rpi","diy","v4","atlas"],
-	"maxDependancyInstallTime" : 60
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"whiteListFolders": [
+		"data/records"
+	],
+	"compatibility": [
+		"smart",
+		"atlas",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4"
+	]
 }

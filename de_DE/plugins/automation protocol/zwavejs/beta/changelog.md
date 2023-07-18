@@ -12,6 +12,18 @@
 - Konfig hinzugefügt *MCOhome Mh8FC* (Eigenschaften : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperatur)
 - Konfig hinzugefügt *Heltun HE-FT01* (Eigenschaften : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperatur, Beleuchtungsstärke, Luftfeuchtigkeit, Leistung, Energie)
 
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *HRT4_SRT321* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *SRT323* um die Eigenschaften zu verwenden
+- Bearbeiten des Bildes *HRT4_SRT321* (Ausschnitt)
+- Bearbeiten des Bildes *SRT323* (Ausschnitt)
+- Bearbeiten des Bildes *SSR303* (Ausschnitt)
+- Bearbeiten des Bildes *SIR321* (Ausschnitt)
+- Bearbeiten des Bildes *SES303* (Ausschnitt)
+- Bearbeiten des Bildes *SES302* (Ausschnitt)
+- Bearbeiten des Bildes *SCSC17* (Ausschnitt)
+
 # 26.06.2023
 
 **Verbesserungen**
