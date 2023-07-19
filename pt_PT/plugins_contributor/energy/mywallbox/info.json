@@ -12,8 +12,11 @@
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
-	"changelog" : "",
-	"documentation" : "",
+	"changelog" : "https://github.com/CStan77/jeedom_doc/blob/main/myWallBox/readme.md",
+	"documentation" : "https://github.com/CStan77/jeedom_doc/blob/main/myWallBox/readme.md",
+	"link" : {
+		"forum": "https://community.jeedom.com/t/presentation-cstan77/72426/6"
+	},
 	"language" : ["fr_FR"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
 }
