@@ -69,9 +69,23 @@ Usted también puede instalar jeedom usando docker compose :
 services:
   db:
     image: mariadb:latest
-    command: '--plugin de autenticación por defecto=mysql_native_password'
+    command: 
+      - "--plugin de autenticación por defecto=mysql_native_password"
+      - "--skip-name-resolve"
+      - "--tamaño_búfer_clave=16M"
+      - "--thread_cache_size=16"
+      - "--tmp_table_size=48M"
+      - "--max_heap_table_size=48M"
+      - "--consulta_caché_tipo=1"
+      - "--tamaño_caché_consulta=32M"
+      - "--query_cache_limit=2M"
+      - "--query_cache_min_res_unit=3K"
+      - "--innodb_flush_method=O_DIRECTO"
+      - "--innodb_flush_log_at_trx_commit=2"
+      - "--innodb_log_file_size=32M"
+      - "--innodb_large_prefix=activado"
     volumes:
-      - db:/var/lib/mysql
+      - /volume2/docker/jeedom2/db:/var/lib/mysql
     restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=POR HACER
@@ -83,7 +97,9 @@ services:
   http:
     image: jeedom / jeedom:4.4-http-ratón de biblioteca
     volumes:
-      - http:/var/www/html
+      - /volume2/docker/jeedom2/:/var/www/html
+    tmpfs:
+      - /tmp/jeedom
     ports:
       - 52080:80
     restart: always
