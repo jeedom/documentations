@@ -88,10 +88,10 @@ services:
       - /volume2/docker/jeedom2/db:/var/lib/mysql
     restart: always
     environment:
-      - MYSQL_ROOT_PASSWORD=9656GRrs6GkbMr
+      - MYSQL_ROOT_PASSWORD=TODO
       - MYSQL_DATABASE=jeedom
       - MYSQL_USER=jeedom
-      - MYSQL_PASSWORD=9gqwg97A56UXtY
+      - MYSQL_PASSWORD=TODO
     expose:
       - 3306
   http:
@@ -106,7 +106,7 @@ services:
     environment:
       - DB_HOST=db
       - DB_USERNAME=jeedom
-      - DB_PASSWORD=9gqwg97A56UXtY
+      - DB_PASSWORD=TODO
       - DB_NAME=jeedom
 volumes:
   db:
