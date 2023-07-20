@@ -11,16 +11,16 @@ So installieren Sie es auf einer Distribution
 
 -   gemacht aus ``rpm``
 
-````
+„`
 yum install docker
-````
+„`
 
 -   gemacht aus ``deb``
 
-````
+„`
 apt-gund update
 apt-gund install docker.io
-````
+„`
 
 ## Installieren eines Jeedom-Images
 
@@ -43,6 +43,8 @@ Mit :
 - `jeedom / jeedom:beta` : Letzte Version **Beta**
 - `jeedom / jeedom:4.x` : Versionen ab 4.3 beibehalten
 - `jeedom / jeedom:4.x-buster‘ : Eine auf Debian Buster basierende Variante
+- `jeedom / jeedom:4.x-bücherwurm` : Eine Variante basierend auf Debian Bookworm (Beta)
+- `jeedom / jeedom:4.x-http-bookworm` : Eine auf Debian Bookworm basierende Variante, die nur Jeedom, keine Mariadb enthält. Wird für Docker Composer (Beta) verwendet)
 
 Die vollständige Liste finden Sie unter [Docker-Hub](https://hub.docker.com/r/jeedom/jeedom/tags)
 
@@ -57,3 +59,44 @@ Dann müssen Sie Jeedom installieren, indem Sie zu gehen : ``IP_DOCKER:80``
 > Sie können sehen, wie sich die Hafenarbeiter drehen ``docker ps`` Um Ihren Container, beispielsweise den Jeedom-Server, zu stoppen, müssen Sie nur tun ``docker stop jeedom-server``, um es wiederzubeleben ``docker start jeedom-server``
 
 Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://doc.jeedom.com/de_DE/premiers-pas/index)
+
+
+# Docker komponieren
+
+Auch Sie können Jeedom mit Docker Compose installieren : 
+
+„
+services:
+  db:
+    image: mariadb:latest
+    command: '--default-authentication-plugin=mysql_native_password'
+    volumes:
+      - db:/var/lib/mysql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=TODO
+      - MYSQL_DATABASE=jeedom
+      - MYSQL_USER=jeedom
+      - MYSQL_PASSWORD=TODO
+    expose:
+      - 3306
+  http:
+    image: jeedom/jeedom:4.4-http-Bücherwurm
+    volumes:
+      - http:/var/www/html
+    ports:
+      - 52080:80
+    restart: always
+    environment:
+      - DB_HOST=db
+      - DB_USERNAME=jeedom
+      - DB_PASSWORD=TODO
+      - DB_NAME=jeedom
+volumes:
+  db:
+  http:
+„
+
+>**Tipps**
+>
+>Vergessen Sie nicht, das „TODO“ mit den gewünschten Passwörtern zu vervollständigen

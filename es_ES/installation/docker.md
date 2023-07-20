@@ -26,11 +26,11 @@ apt-gy install docker.io
 
 Instalación de imagen :
 
-``docker pull jeedom/jeedom:latest``
+``docker pull jeedom / jeedom:latest``
 
 Luego inicie el :
 
-``sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/db:/var/lib/mysql -p 80:80 -d jeedom/jeedom:latest``
+``sudo docker run --name jeedom-server --privileged -v /opt/jeedom/www:/var/www/html -v /opt/jeedom/db:/var/lib/mysql -p 80:80 -d jeedom / jeedom:latest``
 
 Con :
 
@@ -43,8 +43,10 @@ Con :
 - `jeedom/jeedom:beta` : última versión **beta**
 - `jeedom/jeedom:4.x` : Se mantienen versiones desde la 4.3
 - `jeedom/jeedom:4.x-buster` : Una variante basada en Debian Buster
+- `jeedom/jeedom:4.x-ratón de biblioteca` : Una variante basada en Debian bookworm (beta)
+- `jeedom/jeedom:4.x-http-ratón de biblioteca` : Una variante basada en el ratón de biblioteca de Debian que contiene solo Jeedom, sin mariadb. Utilizado para docker composer (beta)
 
-La lista completa está disponible en [Centro acoplable](https://hub.docker.com/r/jeedom/jeedom/tags)
+La lista completa está disponible en [Centro acoplable](https://hub.docker.com/r/jeedom / jeedom/tags)
 
 > **Consejos**
 >
@@ -57,3 +59,44 @@ Entonces necesita instalar Jeedom yendo a : ``IP_DOCKER:80``
 > Puedes ver a los estibadores girando ``docker ps`` para detener su contenedor, jeedom-server por ejemplo, solo tiene que hacer ``docker stop jeedom-server``, revivirlo ``docker start jeedom-server``
 
 Por lo demás, puedes seguir la documentación [Primer paso con Jeedom](https://doc.jeedom.com/es_ES/premiers-pas/index)
+
+
+# Componer ventana acoplable
+
+Usted también puede instalar jeedom usando docker compose : 
+
+```
+services:
+  db:
+    image: mariadb:latest
+    command: '--plugin de autenticación por defecto=mysql_native_password'
+    volumes:
+      - db:/var/lib/mysql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=POR HACER
+      - MYSQL_DATABASE=jeedom
+      - MYSQL_USER=jeedom
+      - MYSQL_PASSWORD=TODO
+    expose:
+      - 3306
+  http:
+    image: jeedom / jeedom:4.4-http-ratón de biblioteca
+    volumes:
+      - http:/var/www/html
+    ports:
+      - 52080:80
+    restart: always
+    environment:
+      - DB_HOST=db
+      - DB_USERNAME=jeedom
+      - DB_PASSWORD=TODO
+      - DB_NAME=jeedom
+volumes:
+  db:
+  http:
+```
+
+>**Consejos**
+>
+>No olvides completar el `TODO` con las contraseñas deseadas

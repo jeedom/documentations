@@ -43,6 +43,8 @@ With :
 - `jeedom/jeedom:beta` : last version **beta**
 - `jeedom/jeedom:4.x` : versions are kept from 4.3
 - `jeedom/jeedom:4.x-buster` : A variant based on Debian Buster
+- `jeedom/jeedom:4.x-bookworm` : A variant based on Debian bookworm (beta)
+- `jeedom/jeedom:4.x-http-bookworm` : A variant based on Debian bookworm containing only Jeedom, no mariadb. Used for docker composer (beta)
 
 The full list is available at [Docker Hub](https://hub.docker.com/r/jeedom/jeedom/tags)
 
@@ -57,3 +59,44 @@ Then you need to install Jeedom by going to : ``IP_DOCKER:80``
 > You can see the dockers turning ``docker ps`` to stop your container, jeedom-server for example, you just have to do ``docker stop jeedom-server``, to revive it ``docker start jeedom-server``
 
 For the rest, you can follow the documentation [First step with Jeedom](https://doc.jeedom.com/en_US/premiers-pas/index)
+
+
+# Docker compose
+
+You too can install jeedom using docker compose : 
+
+```
+services:
+  db:
+    image: mariadb:latest
+    command: '--default-authentication-plugin=mysql_native_password'
+    volumes:
+      - db:/var/lib/mysql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=TODO
+      - MYSQL_DATABASE=jeedom
+      - MYSQL_USER=jeedom
+      - MYSQL_PASSWORD=TODO
+    expose:
+      - 3306
+  http:
+    image: jeedom/jeedom:4.4-http-bookworm
+    volumes:
+      - http:/var/www/html
+    ports:
+      - 52080:80
+    restart: always
+    environment:
+      - DB_HOST=db
+      - DB_USERNAME=jeedom
+      - DB_PASSWORD=TODO
+      - DB_NAME=jeedom
+volumes:
+  db:
+  http:
+```
+
+>**TIPS**
+>
+>Do not forget to complete the `TODO` with the desired passwords
