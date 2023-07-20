@@ -6,11 +6,27 @@
 
 # XX/07/2023
 
+**Mejoras**
+
+- Cambiar a versión *8.21.0* por ZwaveJsUI.
+- Suma de todos *tty* en la lista de puertos (esto será inútil con el nuevo núcleo que le permitirá elegir un puerto directamente por la identificación)
+- Se agregó la última ruta en la página de estadísticas de un nodo (depende del SDK del controlador))
+- Se agregó la última tasa de velocidad en baudios en la página de estadísticas de un nodo (depende del SDK del controlador))
+- Se agregó la última velocidad en baudios en la página de estadísticas globales (depende del SDK del controlador))
+- Se agregó la última ruta en la página de estadísticas globales (depende del SDK del controlador))
+- Se agregó el último rssi en la página de estadísticas globales (depende del SDK del controlador))
+- Se agregó el último rssi en la página de estadísticas de un nodo (depende del SDK del controlador))
+- Adición de un gráfico *Ruta de red* representando las últimas rutas tomadas (se escalará y es posible que no maneje todos los casos, depende del SDK del controlador))
+
+
 **Adiciones de configuración**
 
 - Agregar una propiedad *Estado del ventilador del termostato*
+- Adición de un subcomando *Estado de la etiqueta* a la propiedad Operador de barrera (para tener un comando de etiqueta con texto además del comando numérico)
 - Configuración añadida *MCOhome Mh8FC* (propiedades : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperature)
 - Configuración añadida *Heltun HE-FT01* (propiedades : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperatura, Iluminancia, Humedad, Potencia, Energía)
+- Configuración añadida *MCOhome MH3901* (propiedades : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatOperatingState, Temperature)
+- Adición de un subcomando *Estado de la etiqueta* a la propiedad Estado operativo del termostato (para tener un comando de etiqueta con texto además del comando numérico)
 
 **Cambios de configuración**
 

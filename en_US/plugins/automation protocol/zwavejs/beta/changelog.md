@@ -6,11 +6,27 @@
 
 # XX/07/2023
 
+**Improvements**
+
+- Switch to version *8.21.0* by ZwaveJsUI.
+- Addition of all *tty* in the list of ports (this will be useless with the new core which will allow you to choose a port directly by the id)
+- Added last route on a node's stats page (depends on controller SDK)
+- Added last speed-baud rate on a node's stats page (depends on controller SDK)
+- Added last speed-baud rate on global stats page (depends on controller SDK)
+- Added last route on global stats page (depends on controller SDK)
+- Added latest rssi on global stats page (depends on controller SDK)
+- Added latest rssi on a node's stats page (depends on controller SDK)
+- Addition of a graph *Network route* representing last routes taken (will scale and may not handle all cases depends on controller SDK)
+
+
 **Configuration Additions**
 
 - Adding a property *ThermostatFanState*
+- Adding a sub-command *Label State* to the Barrier Operator property (to have a label command with text in addition to the numeric command)
 - Added config *MCOhome Mh8FC* (properties : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperature)
 - Added config *Heltun HE-FT01* (properties : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperature, Illuminance, Humidity, Power, Energy)
+- Added config *MCOhome MH3901* (properties : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatOperatingState, Temperature)
+- Adding a sub-command *Label State* to the Thermostat Operating State property (to have a label command with text in addition to the numeric command)
 
 **Configuration Changes**
 

@@ -6,11 +6,27 @@
 
 # XX/07/2023
 
+**Verbesserungen**
+
+- Zur Version wechseln *8.21.0* von ZwaveJsUI.
+- Addition von allem *tty* in der Liste der Ports (dies wird mit dem neuen Kern nutzlos sein, der es Ihnen ermöglicht, einen Port direkt anhand der ID auszuwählen)
+- Letzte Route auf der Statistikseite eines Knotens hinzugefügt (abhängig vom Controller-SDK))
+- Letzte Geschwindigkeits-Baudrate auf der Statistikseite eines Knotens hinzugefügt (abhängig vom Controller-SDK))
+- Letzte Geschwindigkeits-Baudrate auf der globalen Statistikseite hinzugefügt (abhängig vom Controller-SDK))
+- Letzte Route auf der globalen Statistikseite hinzugefügt (abhängig vom Controller-SDK))
+- Neueste RSSI auf der globalen Statistikseite hinzugefügt (abhängig vom Controller-SDK))
+- Neueste RSSI auf der Statistikseite eines Knotens hinzugefügt (abhängig vom Controller-SDK))
+- Hinzufügen eines Diagramms *Netzwerkroute* Stellt die zuletzt genommenen Routen dar (wird skaliert und kann möglicherweise nicht alle Fälle verarbeiten, abhängig vom Controller-SDK)
+
+
 **Konfigurationsergänzungen**
 
 - Hinzufügen einer Eigenschaft *ThermostatFanState*
+- Hinzufügen eines Unterbefehls *Etikettenstatus* auf die Barriere-Operator-Eigenschaft (um zusätzlich zum numerischen Befehl einen Beschriftungsbefehl mit Text zu haben))
 - Konfig hinzugefügt *MCOhome Mh8FC* (Eigenschaften : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperatur)
 - Konfig hinzugefügt *Heltun HE-FT01* (Eigenschaften : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperatur, Beleuchtungsstärke, Luftfeuchtigkeit, Leistung, Energie)
+- Konfig hinzugefügt *MCOhome MH3901* (Eigenschaften : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatOperatingState, Temperatur)
+- Hinzufügen eines Unterbefehls *Etikettenstatus* auf die Eigenschaft „Thermostat-Betriebszustand“ (um zusätzlich zum numerischen Befehl einen Beschriftungsbefehl mit Text zu haben))
 
 **Konfigurationsänderungen**
 
