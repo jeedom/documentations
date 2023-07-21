@@ -17,6 +17,9 @@
 - Added latest rssi on global stats page (depends on controller SDK)
 - Added latest rssi on a node's stats page (depends on controller SDK)
 - Addition of a graph *Network route* representing last routes taken (will scale and may not handle all cases depends on controller SDK)
+- Addition of a message in the message center when a node goes Dead (in addition to the equipment status command)
+- Addition of a message in the message center when a node goes Alive after being Dead (in addition to the equipment status command)
+- Addition of a message in the message center when a node has not woken up after 4 times its wakeup interval 
 
 
 **Configuration Additions**

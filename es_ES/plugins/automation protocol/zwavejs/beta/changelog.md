@@ -17,6 +17,9 @@
 - Se agregó el último rssi en la página de estadísticas globales (depende del SDK del controlador))
 - Se agregó el último rssi en la página de estadísticas de un nodo (depende del SDK del controlador))
 - Adición de un gráfico *Ruta de red* representando las últimas rutas tomadas (se escalará y es posible que no maneje todos los casos, depende del SDK del controlador))
+- Adición de un mensaje en el centro de mensajes cuando un nodo queda muerto (además del comando de estado del equipo)
+- Adición de un mensaje en el centro de mensajes cuando un nodo pasa a Alive después de estar Dead (además del comando de estado del equipo)
+- Adición de un mensaje en el centro de mensajes cuando un nodo no se ha despertado después de 4 veces su intervalo de activación 
 
 
 **Adiciones de configuración**

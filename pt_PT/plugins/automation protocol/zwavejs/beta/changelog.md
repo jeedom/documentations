@@ -17,6 +17,9 @@
 - Adicionado rssi mais recente na página de estatísticas globais (depende do SDK do controlador)
 - Adicionado o rssi mais recente na página de estatísticas de um nó (depende do SDK do controlador)
 - Adição de um gráfico *Rota de rede* representando as últimas rotas tomadas (irá escalar e pode não lidar com todos os casos depende do SDK do controlador)
+- Adição de uma mensagem no centro de mensagens quando um nó fica inoperante (além do comando de status do equipamento)
+- Adição de uma mensagem no centro de mensagens quando um nó fica Alive depois de Morto (além do comando de status do equipamento)
+- Adição de uma mensagem no centro de mensagens quando um nó não acordou após 4 vezes seu intervalo de ativação 
 
 
 **Adições de configuração**

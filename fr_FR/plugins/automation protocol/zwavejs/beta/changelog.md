@@ -17,6 +17,9 @@
 - Ajout du dernier rssi sur la page statistiques globale (dépend du SDK du contrôleur)
 - Ajout du dernier rssi sur la page statistiques d'un noeud (dépend du SDK du contrôleur)
 - Rajout d'un graph *Route réseau* représentant les dernières routes empruntées (évoluera et peut ne pas gérer tous les cas dépend du SDK du contrôleur)
+- Rajout d'un message dans le centre de message lorsqu'un noeud passe Dead (en plus de la commande statut de l'équipement)
+- Rajout d'un message dans le centre de message lorsqu'un noeud passe Alive après avoir été Dead (en plus de la commande statut de l'équipement)
+- Rajout d'un message dans le centre de message lorsqu'un noeud ne s'est pas réveillé après 4 fois son interval de réveil 
 
 
 **Ajouts de Configurations**
