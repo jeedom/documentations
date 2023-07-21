@@ -65,6 +65,30 @@ Im Übrigen können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](htt
 
 Auch Sie können Jeedom mit Docker Compose installieren : 
 
+## In 1 Servicemodus
+
+„
+services:
+  jeedom:
+    image: jeedom/jeedom:latest
+    volumes:
+      - http:/var/www/html
+      - db:/var/lib/mysql
+    tmpfs:
+      - /tmp/jeedom
+    ports:
+      - 40080:80
+      - 51001:51001
+    restart: always
+    Netzwerkmodus: bridge
+volumes:
+  db:
+  http:
+„
+
+
+## Im 2-Service-Modus (experimentell))
+
 „
 services:
   db:
@@ -85,7 +109,7 @@ services:
       - "--innodb_log_file_size=32M"
       - "--innodb_large_prefix=on"
     volumes:
-      - /volume2/docker/jeedom2/db:/var/lib/mysql
+      - db:/var/lib/mysql
     restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=TODO
@@ -97,7 +121,7 @@ services:
   http:
     image: jeedom/jeedom:4.4-http-Bücherwurm
     volumes:
-      - /volume2/docker/jeedom2/:/var/www/html
+      - http:/var/www/html
     tmpfs:
       - /tmp/jeedom
     ports:
