@@ -81,6 +81,11 @@ services:
       - 51001:51001
     restart: always
     Modo de red: bridge
+    healthcheck:
+      test: ["CMD", "curl", "-fs", "-S", "--max-time", "2", "http://localhost:80"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
 volumes:
   db:
   http:
@@ -132,6 +137,13 @@ services:
       - DB_USERNAME=jeedom
       - DB_PASSWORD=TODO
       - DB_NAME=jeedom
+    healthcheck:
+      test: ["CMD", "curl", "-fs", "-S", "--max-time", "2", "http://localhost:80"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depende de:
+      - db
 volumes:
   db:
   http:
