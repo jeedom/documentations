@@ -1,8 +1,8 @@
 {
-	"id" : "wallbox",
-	"name" : "WallBox",
+	"id" : "mywallbox",
+	"name" : "myWallBox",
 	"description" : {
-		"fr_FR": "Plugin pour la récupération des données d'une station de recharge WallBox",
+		"fr_FR": "Plugin pour la récupération des données d'une station de recharge WallBox.",
 		"en_US": "Plugin to retrieve data from wallbox charge station"
 	},
 	"licence" : "GNU",
@@ -15,7 +15,7 @@
 	"changelog" : "https://github.com/CStan77/jeedom_doc/blob/main/myWallBox/readme.md",
 	"documentation" : "https://github.com/CStan77/jeedom_doc/blob/main/myWallBox/readme.md",
 	"link" : {
-		"forum": "https://community.jeedom.com/t/presentation-cstan77/72426/6"
+		"forum": "https://community.jeedom.com/t/presentation-cstan77/72426"
 	},
 	"language" : ["fr_FR"],
 	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
