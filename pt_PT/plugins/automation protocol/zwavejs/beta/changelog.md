@@ -8,7 +8,7 @@
 
 **Melhorias**
 
-- Mudar para a versão *8.21.0* por ZwaveJsUI.
+- Mudar para a versão *8.21.1* por ZwaveJsUI.
 - Adição de todos *tty* na lista de portas (isso será inútil com o novo núcleo que permitirá escolher uma porta diretamente pelo id)
 - Adicionada a última rota na página de estatísticas de um nó (depende do SDK do controlador)
 - Adicionada a última taxa de transmissão de velocidade na página de estatísticas de um nó (depende do SDK do controlador)

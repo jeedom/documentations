@@ -8,7 +8,7 @@
 
 **Improvements**
 
-- Switch to version *8.21.0* by ZwaveJsUI.
+- Switch to version *8.21.1* by ZwaveJsUI.
 - Addition of all *tty* in the list of ports (this will be useless with the new core which will allow you to choose a port directly by the id)
 - Added last route on a node's stats page (depends on controller SDK)
 - Added last speed-baud rate on a node's stats page (depends on controller SDK)

@@ -8,7 +8,7 @@
 
 **Verbesserungen**
 
-- Zur Version wechseln *8.21.0* von ZwaveJsUI.
+- Zur Version wechseln *8.21.1* von ZwaveJsUI.
 - Addition von allem *tty* in der Liste der Ports (dies wird mit dem neuen Kern nutzlos sein, der es Ihnen ermöglicht, einen Port direkt anhand der ID auszuwählen)
 - Letzte Route auf der Statistikseite eines Knotens hinzugefügt (abhängig vom Controller-SDK))
 - Letzte Geschwindigkeits-Baudrate auf der Statistikseite eines Knotens hinzugefügt (abhängig vom Controller-SDK))
