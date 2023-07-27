@@ -2,14 +2,14 @@
   "id": "gkeep",
   "name": "Google Keep",
   "description": {
-      "fr_FR": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API VeSync",
-      "en_US": "Plugin to retrieve information and control synchronized devices on the VeSync API",
-      "es_ES": "Plugin para recuperar información y controlar dispositivos sincronizados en la API VeSync",
-      "pt_PT": "Plugin para recuperar informação e controlar dispositivos sincronizados no VeSync API",
-      "de_DE": "Plugin zum Abrufen von Informationen und zum Steuern von Geräten, die über die VeSync API synchronisiert wurden",
-      "it_IT": "Plugin per recuperare informazioni e controllare i dispositivi sincronizzati su VeSync API"
+      "fr_FR": "Plugin permettant de synchroniser ses notes et listes avec Google Keep",
+      "en_US": "Plugin for synchronizing notes and lists with Google Keep",
+      "es_ES": "Plugin para sincronizar notas y listas con Google Keep",
+      "pt_PT": "Plugin para sincronizar notas e listas com o Google Keep",
+      "de_DE": "Plugin zum Synchronisieren von Notizen und Listen mit Google Keep",
+      "it_IT": "Plugin per la sincronizzazione di note ed elenchi con Google Keep"
   },
-  "utilization": "Après avoir entré l'identifiant et le mot de passe dans la page de configuration, lancez une synchronisation.</br>Toutes les commandes viendront au fur et à mesure : en lançant une impression, elles devraient toutes être créées.",
+  "utilization": "Sélectionnez le nombre de comptes Google, entrez les informations de connexion de chacun d'entre eux, puis lancez une première connexion.",
   "licence": "AGPL",
   "author": "DomoFlo1",
   "require": "4.2",
