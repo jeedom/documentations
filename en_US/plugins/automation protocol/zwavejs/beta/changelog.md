@@ -4,11 +4,11 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# XX/07/2023
+# 07/31/2023
 
 **Improvements**
 
-- Switch to version *8.21.1* by ZwaveJsUI.
+- Switch to version *8.21.2* by ZwaveJsUI.
 - Addition of all *tty* in the list of ports (this will be useless with the new core which will allow you to choose a port directly by the id)
 - Added last route on a node's stats page (depends on controller SDK)
 - Added last speed-baud rate on a node's stats page (depends on controller SDK)

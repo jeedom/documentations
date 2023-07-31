@@ -4,11 +4,11 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# XX/07/2023
+# 31/07/2023
 
 **Améliorations**
 
-- Passage à la version *8.21.1* de ZwaveJsUI.
+- Passage à la version *8.21.2* de ZwaveJsUI.
 - Ajout de tous les *tty* dans la liste des ports (cela sera inutile avec le nouveau core qui permettra de choisir un port directement par l'id)
 - Ajout de la dernière route sur la page statistiques d'un noeud (dépend du SDK du contrôleur)
 - Ajout de la dernière vitesse-baud rate sur la page statistiques d'un noeud (dépend du SDK du contrôleur)

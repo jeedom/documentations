@@ -4,11 +4,11 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# XX/07/2023
+# 31/07/2023
 
 **Melhorias**
 
-- Mudar para a versão *8.21.1* por ZwaveJsUI.
+- Mudar para a versão *8.21.2* por ZwaveJsUI.
 - Adição de todos *tty* na lista de portas (isso será inútil com o novo núcleo que permitirá escolher uma porta diretamente pelo id)
 - Adicionada a última rota na página de estatísticas de um nó (depende do SDK do controlador)
 - Adicionada a última taxa de transmissão de velocidade na página de estatísticas de um nó (depende do SDK do controlador)
