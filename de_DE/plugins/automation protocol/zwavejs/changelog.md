@@ -4,6 +4,45 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 31.07.2023
+
+**Verbesserungen**
+
+- Zur Version wechseln *8.21.2* von ZwaveJsUI.
+- Addition von allem *tty* in der Liste der Ports (dies wird mit dem neuen Kern nutzlos sein, der es Ihnen ermöglicht, einen Port direkt anhand der ID auszuwählen)
+- Letzte Route auf der Statistikseite eines Knotens hinzugefügt (abhängig vom Controller-SDK))
+- Letzte Geschwindigkeits-Baudrate auf der Statistikseite eines Knotens hinzugefügt (abhängig vom Controller-SDK))
+- Letzte Geschwindigkeits-Baudrate auf der globalen Statistikseite hinzugefügt (abhängig vom Controller-SDK))
+- Letzte Route auf der globalen Statistikseite hinzugefügt (abhängig vom Controller-SDK))
+- Neueste RSSI auf der globalen Statistikseite hinzugefügt (abhängig vom Controller-SDK))
+- Neueste RSSI auf der Statistikseite eines Knotens hinzugefügt (abhängig vom Controller-SDK))
+- Hinzufügen eines Diagramms *Netzwerkroute* Stellt die zuletzt genommenen Routen dar (wird skaliert und kann möglicherweise nicht alle Fälle verarbeiten, abhängig vom Controller-SDK)
+- Hinzufügen einer Nachricht im Nachrichtencenter, wenn ein Knoten ausfällt (zusätzlich zum Gerätestatusbefehl))
+- Hinzufügen einer Nachricht im Nachrichtencenter, wenn ein Knoten aktiv wird, nachdem er tot ist (zusätzlich zum Gerätestatusbefehl))
+- Hinzufügen einer Nachricht im Nachrichtencenter, wenn ein Knoten nach dem 4-fachen seines Weckintervalls nicht aufgewacht ist 
+
+
+**Konfigurationsergänzungen**
+
+- Hinzufügen einer Eigenschaft *ThermostatFanState*
+- Hinzufügen eines Unterbefehls *Etikettenstatus* auf die Barriere-Operator-Eigenschaft (um zusätzlich zum numerischen Befehl einen Beschriftungsbefehl mit Text zu haben))
+- Konfig hinzugefügt *MCOhome Mh8FC* (Eigenschaften : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperatur)
+- Konfig hinzugefügt *Heltun HE-FT01* (Eigenschaften : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperatur, Beleuchtungsstärke, Luftfeuchtigkeit, Leistung, Energie)
+- Konfig hinzugefügt *MCOhome MH3901* (Eigenschaften : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatOperatingState, Temperatur)
+- Hinzufügen eines Unterbefehls *Etikettenstatus* auf die Eigenschaft „Thermostat-Betriebszustand“ (um zusätzlich zum numerischen Befehl einen Beschriftungsbefehl mit Text zu haben))
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *HRT4_SRT321* um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *SRT323* um die Eigenschaften zu verwenden
+- Bearbeiten des Bildes *HRT4_SRT321* (Ausschnitt)
+- Bearbeiten des Bildes *SRT323* (Ausschnitt)
+- Bearbeiten des Bildes *SSR303* (Ausschnitt)
+- Bearbeiten des Bildes *SIR321* (Ausschnitt)
+- Bearbeiten des Bildes *SES303* (Ausschnitt)
+- Bearbeiten des Bildes *SES302* (Ausschnitt)
+- Bearbeiten des Bildes *SCSC17* (Ausschnitt)
+
 # 26.06.2023
 
 **Verbesserungen**

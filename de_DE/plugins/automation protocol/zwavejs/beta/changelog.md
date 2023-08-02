@@ -4,11 +4,11 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# 31.07.2023
+# 08.02.2023
 
 **Verbesserungen**
 
-- Zur Version wechseln *8.21.2* von ZwaveJsUI.
+- Zur Version wechseln *8.22.0* von ZwaveJsUI.
 - Addition von allem *tty* in der Liste der Ports (dies wird mit dem neuen Kern nutzlos sein, der es Ihnen ermöglicht, einen Port direkt anhand der ID auszuwählen)
 - Letzte Route auf der Statistikseite eines Knotens hinzugefügt (abhängig vom Controller-SDK))
 - Letzte Geschwindigkeits-Baudrate auf der Statistikseite eines Knotens hinzugefügt (abhängig vom Controller-SDK))

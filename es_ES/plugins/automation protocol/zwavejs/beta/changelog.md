@@ -4,11 +4,11 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# 31/07/2023
+# 08/02/2023
 
 **Mejoras**
 
-- Cambiar a versión *8.21.2* por ZwaveJsUI.
+- Cambiar a versión *8.22.0* por ZwaveJsUI.
 - Suma de todos *tty* en la lista de puertos (esto será inútil con el nuevo núcleo que le permitirá elegir un puerto directamente por la identificación)
 - Se agregó la última ruta en la página de estadísticas de un nodo (depende del SDK del controlador))
 - Se agregó la última tasa de velocidad en baudios en la página de estadísticas de un nodo (depende del SDK del controlador))

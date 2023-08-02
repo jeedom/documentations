@@ -4,6 +4,45 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 07/31/2023
+
+**Improvements**
+
+- Switch to version *8.21.2* by ZwaveJsUI.
+- Addition of all *tty* in the list of ports (this will be useless with the new core which will allow you to choose a port directly by the id)
+- Added last route on a node's stats page (depends on controller SDK)
+- Added last speed-baud rate on a node's stats page (depends on controller SDK)
+- Added last speed-baud rate on global stats page (depends on controller SDK)
+- Added last route on global stats page (depends on controller SDK)
+- Added latest rssi on global stats page (depends on controller SDK)
+- Added latest rssi on a node's stats page (depends on controller SDK)
+- Addition of a graph *Network route* representing last routes taken (will scale and may not handle all cases depends on controller SDK)
+- Addition of a message in the message center when a node goes Dead (in addition to the equipment status command)
+- Addition of a message in the message center when a node goes Alive after being Dead (in addition to the equipment status command)
+- Addition of a message in the message center when a node has not woken up after 4 times its wakeup interval 
+
+
+**Configuration Additions**
+
+- Adding a property *ThermostatFanState*
+- Adding a sub-command *Label State* to the Barrier Operator property (to have a label command with text in addition to the numeric command)
+- Added config *MCOhome Mh8FC* (properties : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperature)
+- Added config *Heltun HE-FT01* (properties : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperature, Illuminance, Humidity, Power, Energy)
+- Added config *MCOhome MH3901* (properties : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatOperatingState, Temperature)
+- Adding a sub-command *Label State* to the Thermostat Operating State property (to have a label command with text in addition to the numeric command)
+
+**Configuration Changes**
+
+- Changing the configuration *HRT4_SRT321* to use the properties
+- Changing the configuration *SRT323* to use the properties
+- Editing the image *HRT4_SRT321* (clipping)
+- Editing the image *SRT323* (clipping)
+- Editing the image *SSR303* (clipping)
+- Editing the image *SIR321* (clipping)
+- Editing the image *SES303* (clipping)
+- Editing the image *SES302* (clipping)
+- Editing the image *SCSC17* (clipping)
+
 # 06/26/2023
 
 **Improvements**

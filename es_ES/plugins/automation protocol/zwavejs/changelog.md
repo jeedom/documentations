@@ -4,6 +4,45 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 31/07/2023
+
+**Mejoras**
+
+- Cambiar a versión *8.21.2* por ZwaveJsUI.
+- Suma de todos *tty* en la lista de puertos (esto será inútil con el nuevo núcleo que le permitirá elegir un puerto directamente por la identificación)
+- Se agregó la última ruta en la página de estadísticas de un nodo (depende del SDK del controlador))
+- Se agregó la última tasa de velocidad en baudios en la página de estadísticas de un nodo (depende del SDK del controlador))
+- Se agregó la última velocidad en baudios en la página de estadísticas globales (depende del SDK del controlador))
+- Se agregó la última ruta en la página de estadísticas globales (depende del SDK del controlador))
+- Se agregó el último rssi en la página de estadísticas globales (depende del SDK del controlador))
+- Se agregó el último rssi en la página de estadísticas de un nodo (depende del SDK del controlador))
+- Adición de un gráfico *Ruta de red* representando las últimas rutas tomadas (se escalará y es posible que no maneje todos los casos, depende del SDK del controlador))
+- Adición de un mensaje en el centro de mensajes cuando un nodo queda muerto (además del comando de estado del equipo)
+- Adición de un mensaje en el centro de mensajes cuando un nodo pasa a Alive después de estar Dead (además del comando de estado del equipo)
+- Adición de un mensaje en el centro de mensajes cuando un nodo no se ha despertado después de 4 veces su intervalo de activación 
+
+
+**Adiciones de configuración**
+
+- Agregar una propiedad *Estado del ventilador del termostato*
+- Adición de un subcomando *Estado de la etiqueta* a la propiedad Operador de barrera (para tener un comando de etiqueta con texto además del comando numérico)
+- Configuración añadida *MCOhome Mh8FC* (propiedades : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperature)
+- Configuración añadida *Heltun HE-FT01* (propiedades : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperatura, Iluminancia, Humedad, Potencia, Energía)
+- Configuración añadida *MCOhome MH3901* (propiedades : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatOperatingState, Temperature)
+- Adición de un subcomando *Estado de la etiqueta* a la propiedad Estado operativo del termostato (para tener un comando de etiqueta con texto además del comando numérico)
+
+**Cambios de configuración**
+
+- Cambiar la configuración *HRT4_SRT321* para usar las propiedades
+- Cambiar la configuración *SRT323* para usar las propiedades
+- Editando la imagen *HRT4_SRT321* (recorte)
+- Editando la imagen *SRT323* (recorte)
+- Editando la imagen *SSR303* (recorte)
+- Editando la imagen *SIR321* (recorte)
+- Editando la imagen *SES303* (recorte)
+- Editando la imagen *SES302* (recorte)
+- Editando la imagen *SCSC17* (recorte)
+
 # 26/06/2023
 
 **Mejoras**
