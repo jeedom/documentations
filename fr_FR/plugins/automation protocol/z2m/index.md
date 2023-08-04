@@ -185,10 +185,4 @@ Pour finir et même si cela peut paraître évident pour certains, nous rappelon
 >- Dans ce fichier, coller les éléments du convertisseur.
 >- Sauvegarder et fermer le fichier.
 >
->2) Se rendre dans le dossier  plugin/z2m/data et ouvrir le fichier configuration.yaml
->
->- Ajouté en dessous de external_converters: (normalement ligne 20)
->
->"- Tuya_TZE204_81yrt3lo.js"
->- Sauvegarder et fermer le fichier.
->- Puis redémarre le demon du plugin
+>2) Redémarrer le demon du plugin
