@@ -170,3 +170,19 @@ Pour finir et même si cela peut paraître évident pour certains, nous rappelon
 >**J'ai pas l'image de mon module**
 >
 >Rien de grave, ce ne veut pas dire qu'il n'est pas utilisable ou reconnu, l'image sert juste d'illustration. Si vraiment vous la voulez, il faut contacter le support pour qu'il regarde pourquoi vous ne l'avez pas (en général c'est due à un caractere non standard dans le nom du modele du module)
+
+>**Mon équipement n'est pas reconnu**
+>
+>Si votre équipement n'est pas reconnu c'est qu'il n'est pas encore supporté par la librairie Zigbee2mqtt. Il est possible de créer un convertisseur pour votre équipement. Il faut vous référer au document [Prise en charge de nouveaux appareils](https://www.zigbee2mqtt.io/advanced/support-new-devices/01_support_new_devices.html) et égalemnent pour le matériel Tuya. [Prend en charge les nouveaux appareils TuYa](https://www.zigbee2mqtt.io/advanced/support-new-devices/02_support_new_tuya_devices.html).
+>
+>Quoiqu'il en soit, il faut ouvrir une issue sur [github ici](https://github.com/Koenkk/zigbee2mqtt/issues)
+>
+>Une fois le convertisseur crée, il va falloir le mettre dans le plugin pour le tester.
+>1) Depuis l'éditeur de fichier Jeedom,
+>- Créer un dossier au nom de la marque de votre équipement dans plugin/z2m/core/converters>
+>- Entrée dans ce dossier
+>- Créer un ficher nommé Marque_référence de l'équipement.js Pour l'exemple nous utiliserons Tuya_TZE204_81yrt3lo.js
+>- Dans ce fichier, coller les éléments du convertisseur.
+>- Sauvegarder et fermer le fichier.
+>
+>2) Redémarrer le demon du plugin
