@@ -1239,7 +1239,7 @@
         "Intégration du Thermostat Qivivo": "Integration of the Qivivo Thermostat",
         "Compatible avec le plugin mobile": "Compatible with the mobile plugin",
         "Netatmo Energie": "Netatmo Energy",
-        "Plugin pour intégrer les équipements Netatmo Energie( Thermostat, Vannes, Thermostat OpenTherm) dans Jeedom": "Plugin to integrate Netatmo Energy equipment (Thermostat, Valves, Thermostat OpenTherm) in Jeedom",
+        "Plugin pour intégrer les équipements Netatmo Energie( Thermostat, Vannes, Thermostat OpenTherm) et Netatmo Méteo dans Jeedom": "Plugin to integrate Netatmo Energy equipment (Thermostat, Valves, OpenTherm Thermostat) and Netatmo Weather into Jeedom",
         "Migo Thermostat": "Migo Thermostat",
         "Plugin pour intégrer les équipements MiGo(Saunier-Duval) et eRelax\/Vsmart(Vaillant) dans Jeedom": "Plugin to integrate MiGo(Saunier-Duval) and eRelax\/Vsmart(Vaillant) equipment into Jeedom",
         "luminothérapie": "light therapy",
