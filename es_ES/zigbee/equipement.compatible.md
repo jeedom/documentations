@@ -1050,4 +1050,4 @@
 
 Esta lista se basa en los comentarios de los usuarios, por lo que el equipo de Jeedom no puede garantizar que todos los módulos de esta lista sean 100% funcionales
 
-2023-08-05 02:32:14
+2023-08-06 02:32:15
