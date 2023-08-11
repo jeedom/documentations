@@ -465,6 +465,8 @@
         "Emporia Energy": "Emporia energía",
         "Monitoring de consommation d'énergie en temps réel (Vue Energy Monitor": "Monitoreo de consumo de energía en tiempo real (Vue Energy Monitor",
         "Plugin pour récupérer les données que le module ERL D2L d'eeSmart envoie sur le serveur suivi.consopy": "Complemento para recuperar los datos que el módulo ERL D2L de eeemart envía al servidor de tracking.consopy",
+        "EDF Tempo": "Hora FED",
+        "Plugin permettant de récupérer les informations EDF Tempo et d'afficher les jours restants pour chaque couleur, ainsi que les tarifs en heure creuse \/ heure pleine": "Complemento para recuperar la información de EDF Tempo y mostrar los días restantes para cada color, así como las tarifas de horas de menor demanda y máxima demanda",
         "Suivi Conso": "Conso seguido",
         "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production": "Plugin para gestionar su consumo energético (gas, electricidad y agua) así como su producción",
         "Plugin permettant de récupérer les informations sa Beembox de chez Beem energy": "Complemento para recuperar información de Beembox de Beem energy",
