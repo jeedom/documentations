@@ -4,6 +4,8 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+- Möglichkeit, den Überwachungsport von zigbee2mqtt zu konfigurieren
+
 # 07.03.2023
 
 - Ein Problem beim Senden eines Positionierungsbefehls (Verschlusstyp) wurde behoben)

@@ -4,6 +4,8 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+- Ability to configure the listening port of zigbee2mqtt
+
 # 03/07/2023
 
 - Fixed a problem when sending a positioning command (shutter type)

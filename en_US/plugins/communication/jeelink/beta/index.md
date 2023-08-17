@@ -29,6 +29,10 @@ This plugin does not require any special configuration and simply needs to be ac
 >
 >The network configurations of all Jeedoms *(source & target)* MUST be OK otherwise the plugin will not work.
 
+>**Important**
+>
+>It is important not to have the same api key on several target jeedom. The key of an equipment is based on the api key (so it should not be changed after configuration) and the source id of the equipment. Having the same api key on the target jeedoms will therefore cause synchronization problems with equipment that may not appear on the source.
+
 ## Target Jeedom configuration
 
 The first step will be to define a **Jeedom Target** since **Jeedom Source** *(the one who holds the equipment to be reassembled)*.

@@ -4,6 +4,8 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+- Capacidade de configurar a porta de escuta do zigbee2mqtt
+
 # 03/07/2023
 
 - Corrigido um problema ao enviar um comando de posicionamento (tipo de obturador)

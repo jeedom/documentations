@@ -4,6 +4,8 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+- Possibilité de configurer le port d'écoute de zigbee2mqtt
+
 # 03/07/2023
 
 - Correction d'un soucis lors de l'envoi d'une commande de positionnement (type volet)

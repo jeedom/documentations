@@ -29,6 +29,10 @@ Este complemento no requiere ninguna configuración especial y simplemente debe 
 >
 >Las configuraciones de red de todos los Jeedoms *(origen Destino)* DEBE estar bien, de lo contrario el complemento no funcionará.
 
+>**Importante**
+>
+>Es importante no tener la misma clave API en varios objetivos. La clave de un equipo se basa en la clave api (por lo que no debe cambiarse después de la configuración) y la identificación de origen del equipo. Por lo tanto, tener la misma clave API en el objetivo causará problemas de sincronización con equipos que pueden no aparecer en el origen.
+
 ## Configuración de Target Jeedom
 
 El primer paso será definir un **Jeedom Target** desde el **Fuente de la libertad** *(el que sostiene el equipo para ser reensamblado)*.
