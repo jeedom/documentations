@@ -4,7 +4,7 @@ Wenn Sie Jeedom ohne Risiko entdecken möchten, können Sie es auch auf Ihrem PC
 
 ## Laden Sie VirtualBox herunter und installieren Sie es
 
-Sie müssen die Virtual Box-Software herunterladen [hier](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
+Sie müssen die Virtual Box-Software herunterladen [hier](https://www.virtualbox.org/wiki/Downloads)
 
 # Automatische Installation
 
@@ -50,9 +50,9 @@ Dann können Sie der Dokumentation folgen [Erster Schritt mit Jeedom](https://do
 
 # Manuelle Installation
 
-## Herunterladen eines Debian-Strecht-Images - netinstall
+## Herunterladen eines Debian 11-Images – netinstall
 
-Laden Sie ein minimalistisches Debian 10 Buster-Bild herunter [hier](https://www.debian.org/CD/http-ftp/), durch Auswahl von CD -> AMD64
+Laden Sie ein minimalistisches Debian 11-Image herunter [hier](https://www.debian.org/releases/bullseye/debian-installer/), indem Sie „CD-Images über das Netzwerk installieren“ -> AMD64 wählen
 
 ## Konfigurieren der VM-Umgebung
 
@@ -81,7 +81,7 @@ Klicken Sie auf Neu und füllen Sie die Felder wie folgt aus :
 
 -   Klicken Sie auf OK \* Klicken Sie auf Start
 
-## Debian 9 Installation
+## Debian 11 installieren
 
 Es ist klassisch
 
@@ -105,7 +105,7 @@ Es ist klassisch
 -   Holen Sie sich das Jeedom-Skript, machen Sie es ausführbar und starten Sie es
 
 ````
-wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
+wget https://raw.githubusercontent.com/jeedom/core/V4-stable/install/install.sh
 chmod +x install.sh
 ./install.sh
 ````
