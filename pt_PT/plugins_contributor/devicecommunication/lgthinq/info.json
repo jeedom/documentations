@@ -2,7 +2,7 @@
     "id": "lgthinq",
     "name": "LG Smart Thinq",
     "description": "Plugin Objets Connectés LG Smart Thinq",
-    "pluginVersion": "1.0.0",
+    "pluginVersion": "1.1.0-dev.1",
     "licence": "AGPL",
     "author": "Nicolas Gras",
     "require": "3.3",
