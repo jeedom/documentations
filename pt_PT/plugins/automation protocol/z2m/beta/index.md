@@ -170,3 +170,7 @@ Por fim, e mesmo que possa parecer óbvio para alguns, lembramos que os gateways
 >**Não tenho a imagem do meu modulo**
 >
 >Nada grave, não quer dizer que não seja utilizável ou reconhecido, a imagem é apenas ilustrativa. Se você realmente quiser, terá que entrar em contato com o suporte para ver por que não o possui (geralmente é devido a um caractere não padrão no nome do modelo do módulo)
+
+>**Altere o PAN_ID e a chave de rede**
+>
+>Uma vez feita a alteração na interface do jeedom ou no zigbee2mqtt, você deve parar o daemon, deletar o arquivo coordenador_backup.json (está em `/var/www/html/plugins/z2m/data`), reinicie o daemon.

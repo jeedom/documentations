@@ -5,6 +5,7 @@
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
 - Ability to configure the listening port of zigbee2mqtt
+- Fixed an issue with color type commands
 
 # 03/07/2023
 

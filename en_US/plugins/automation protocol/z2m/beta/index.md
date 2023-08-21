@@ -170,3 +170,7 @@ Finally, and even if it may seem obvious to some, we remind you that Zigbee gate
 >**I don't have the image of my module**
 >
 >Nothing serious, it does not mean that it is not usable or recognized, the image is just for illustration. If you really want it, you have to contact support to see why you don't have it (usually it's due to a non-standard character in the module model name)
+
+>**Change the PAN_ID and Network Key**
+>
+>Once the change has been made in the jeedom interface or in zigbee2mqtt, you must stop the daemon, delete the coordinator_backup file.json (it is in `/var/www/html/plugins/z2m/data`), restart the daemon.

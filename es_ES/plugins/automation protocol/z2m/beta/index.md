@@ -170,3 +170,7 @@ Por último, y aunque a algunos les parezca una obviedad, os recordamos que las 
 >**No tengo la imagen de mi modulo**
 >
 >Nada grave, no quiere decir que no sea usable o reconocido, la imagen es solo ilustrativa. Si realmente lo desea, debe ponerse en contacto con el soporte para ver por qué no lo tiene (generalmente se debe a un carácter no estándar en el nombre del modelo del módulo))
+
+>**Cambiar el PAN_ID y la clave de red**
+>
+>Una vez realizado el cambio en la interfaz jeedom o en zigbee2mqtt, debes detener el demonio, eliminar el archivo coordinador_backup.json (está en `/var/www/html/plugins/z2m/data`), reinicie el demonio.
