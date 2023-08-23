@@ -17,8 +17,7 @@
 		"atlas",
 		"rpi",
 		"diy",
-		"v4",
-		"atlas"
+		"v4"
 	],
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/kroomba/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/kroomba/#language#/",
