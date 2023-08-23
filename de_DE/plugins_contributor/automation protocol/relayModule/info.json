@@ -1,46 +1,28 @@
 {
-  "id": "iotawatt",
-  "name": "IoTaWatt",
-  "description": {
-      "fr_FR": "Plugin permettant de récupérer les informations sa box IoTaWatt. IoTaWatt est un projet à code source ouvert et à matériel ouvert visant à produire un moniteur d'énergie précis, peu coûteux et facile à utiliser. Il peut utiliser plusieures dizaines de transformateurs de courant banals et transmettra les données localement via un serveur web intégré, ou les téléchargera vers n'importe lequel des sites web/bases de données énergétiques tiers.",
-      "en_US": "Plugin to retrieve information from IoTaWatt. IoTaWatt is an open-source, open hardware project to produce an accurate, inexpensive and easy to use energy monitor. It can use any of dozens of common current transformers and will report the data locally via integrated web server, or upload to any of several third-party energy websites/data bases.",
-      "es_ES": "Plugin para recuperar información de IoTaWatt. IoTaWatt es un proyecto de código abierto y hardware libre para producir un monitor de energía preciso, barato y fácil de usar. Puede utilizar cualquiera de las docenas de transformadores de corriente comunes y reportar los datos localmente a través del servidor web integrado, o subir a cualquiera de los sitios web de energía de terceros / bases de datos.",
-      "pt_PT": "Plugin para recuperar informações de IoTaWatt. IoTaWatt é um projecto de hardware aberto e de fonte aberta para produzir um monitor de energia preciso, barato e fácil de usar. Pode utilizar qualquer uma das dezenas de transformadores de corrente comuns e reportará os dados localmente através de servidor web integrado, ou carregará para qualquer um dos vários websites/dados de energia de terceiros.",
-      "de_DE": "Plugin zum Abrufen von Informationen von IoTaWatt. IoTaWatt ist ein quelloffenes, offenes Hardware-Projekt zur Herstellung eines genauen, kostengünstigen und einfach zu verwendenden Energiemonitors. Es kann Dutzende gängiger Stromwandler verwenden und die Daten lokal über einen integrierten Webserver melden oder auf eine von mehreren Energie-Websites/Datenbanken von Drittanbietern hochladen.",
-      "it_IT": "Plugin per recuperare informazioni da IoTaWatt. IoTaWatt è un progetto open-source e open hardware per produrre un monitor energetico accurato, economico e facile da usare. Può utilizzare decine di trasformatori di corrente comuni e riportare i dati localmente tramite il server web integrato o caricarli su uno dei numerosi siti web/basi di dati energetici di terze parti."
-  },
-  "utilization": "Après avoir entré l'email de connexion et le mot de passe dans la page de configuration, sélectionnez l'intervalle de rafraîchissement des informations. Lancez une synchronisation depuis la page des équipements.",
-  "licence": "AGPL",
-  "author": "DomoFlo1",
-  "require": "4.2",
-  "category": "energy",
-  "display": "panel",
-  "hasDependency": false,
-  "hasOwnDeamon": true,
-  "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-iotawatt-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-iotawatt-pour-jeedom/",
-  "changelog_beta": "https://flobul-domotique.fr/liste-des-versions-du-plugin-iotawatt-pour-jeedom/",
-  "documentation_beta": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-iotawatt-pour-jeedom/",
-  "link": {
-    "forum": "https://community.jeedom.com/tag/plugin-iotawatt"
-  },
-  "language": [
-    "fr_FR",
-    "en_US",
-    "es_ES",
-    "pt_PT",
-    "de_DE",
-    "it_IT"
-  ],
-  "compatibility": [
-    "miniplus",
-    "smart",
-    "rpi",
-    "docker",
-    "diy",
-    "mobile",
-    "v4",
-    "atlas"
-  ]
+	"id" : "homebridge",
+	"name" : "Homebridge",
+	"description" : {
+		"fr_FR":"Plugin pour Homebridge.\nPasserelle Apple HomeKit pour Jeedom.\nControle de certains périphériques Jeedom par Siri et via application Maison et Eve.",
+		"en_US":"Plugin for Homebridge.\nApple Homekit Gateway for Jeedom.\nControl some of your Jeedom equipments via Siri, Home and Eve apps.\n\nWARNING : Not supported : Jessie & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)\n\nJeedom MUST be on the same network than your iPhone/AppleTV. (no routing, no NAT).\n\nAn AppleTV 4+ or iPad iOS 10+(old homekit infra only) or HomePod are mandatory for remote access.\n\nSupport on the forum (One request per subject, like a ticket system).",
+		"es_ES":"Complemento para Homebridge.\nApple Homekit Gateway para Jeedom.\nControla algunos de tus equipos Jeedom a través de las aplicaciones Siri, Home y Eve.\n\nIMPORTANTE : No compatible: Jessie & Docker & Jeedom Mini + & Raspberry Pi 1-2 & Zero (armv6) y i386 (32bits)\n\nJeedom DEBE estar en la misma red que su iPhone / AppleTV. (sin enrutamiento, sin NAT).\n\nSe requiere un AppleTV 4+ o un iPad con iOS 10+(Solo infraestructura heredada de homekit) o un HomePod para el acceso remoto.\n\nSoporte en el foro (una solicitud por tema, como un sistema de tickets).",
+		"pt_PT":"Plugin para Homebridge.\nApple Homekit Gateway for Jeedom.\nControle alguns de seus equipamentos Jeedom através dos aplicativos Siri, Home e Eve.\n\nAVISO: Não suportado: Jessie & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6 ) e i386 (32 bits)\n\nJeedom DEVE estar na mesma rede do seu iPhone/AppleTV. (sem roteamento, sem NAT).\n\nUm AppleTV 4+ ou iPad iOS 10+(Somente infraestrutura herdada do homekit) ou HomePod são obrigatórios para acesso remoto.\n\nSuporte no fórum (uma solicitação por assunto, como um sistema de tickets)."
+	},
+	"utilization": "ATTENTION : Non supporté : Jessie & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)\n\nJeedom DOIT être sur le même réseau que votre iPhone/AppleTV. (pas de routage, pas de NAT).\n\nUne AppleTV 4+ ou un iPad iOS 10+(ancienne infra homekit uniquement) ou un HomePod sont nécessaires pour l'accès à distance.\n\nSupport sur le forum (Une demande par sujet, comme un système de tickets).",
+	"licence" : "AGPL",
+	"author" : "Nebz",
+	"require" : "4.0",
+	"category" : "communication",
+	"hasDependency" : true,
+	"hasOwnDeamon" : true,
+	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
+	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/changelog",
+	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/changelog",
+	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/",
+	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/homebridge/fr_FR/index-beta",
+	"link" : {
+		"forum":"https://community.jeedom.com/tag/plugin-homebridge"
+	},
+	"languages" : ["fr_FR","en_US","es_ES","pt_PT"],
+	"compatibility" : ["miniplus","smart","rpi","diy","v4","atlas"],
+	"maxDependancyInstallTime" : 60
 }
