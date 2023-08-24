@@ -8,7 +8,11 @@
 
 **Improvements**
 
-- Switch to version *8.23.0* by ZwaveJsUI.
+- Switch to version *8.23.1* by ZwaveJsUI.
+
+**Configuration Additions**
+
+- Added config *Shelly Qubino Wave 1PM* (properties : Switch, Power, Energy, Mains Notification, Over-Current Notification, Heat-Sensor Notification)
 
 # 02/08/2023
 

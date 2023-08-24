@@ -8,7 +8,11 @@
 
 **Melhorias**
 
-- Mudar para a versão *8.23.0* por ZwaveJsUI.
+- Mudar para a versão *8.23.1* por ZwaveJsUI.
+
+**Adições de configuração**
+
+- Configuração adicionada *Shelly Qubino Onda 13h* (propriedades : Interruptor, alimentação, energia, notificação de rede elétrica, notificação de sobrecorrente, notificação de sensor de calor)
 
 # 02/08/2023
 

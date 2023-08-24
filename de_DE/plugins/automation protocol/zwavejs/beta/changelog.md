@@ -8,7 +8,11 @@
 
 **Verbesserungen**
 
-- Zur Version wechseln *8.23.0* von ZwaveJsUI.
+- Zur Version wechseln *8.23.1* von ZwaveJsUI.
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Shelly Qubino Wave 13:00 Uhr* (Eigenschaften : Schalter, Stromversorgung, Energie, Netzbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)
 
 # 08.02.2023
 

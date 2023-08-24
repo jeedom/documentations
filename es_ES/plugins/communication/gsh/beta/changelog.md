@@ -6,6 +6,7 @@
 
 - Se corrigió un error en la autenticación en modo independiente (gracias @bad)
 - Gestión mejorada de la temperatura del color (gracias @apern)
+- Correcciones de errores
 
 # 12/09/2022
 

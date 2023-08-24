@@ -6,6 +6,7 @@
 
 - Fehler bei der Authentifizierung im Standalone-Modus behoben (danke @bad)
 - Verbessertes Farbtemperaturmanagement (danke @apern)
+- Fehlerbehebungen
 
 # 12.09.2022
 

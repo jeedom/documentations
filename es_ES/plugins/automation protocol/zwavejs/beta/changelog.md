@@ -8,7 +8,11 @@
 
 **Mejoras**
 
-- Cambiar a versión *8.23.0* por ZwaveJsUI.
+- Cambiar a versión *8.23.1* por ZwaveJsUI.
+
+**Adiciones de configuración**
+
+- Configuración añadida *Shelly Qubino Ola 1PM* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
 
 # 08/02/2023
 

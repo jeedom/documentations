@@ -6,6 +6,7 @@
 
 - Corrigido um bug na autenticação no modo autônomo (obrigado @bad)
 - Gerenciamento de temperatura de cor aprimorado (obrigado @apern)
+- Correções de bugs
 
 # 12/09/2022
 
