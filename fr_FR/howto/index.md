@@ -1,5 +1,4 @@
 # Jeedom
-- [Passer jeedom ou un plugin en beta](/fr_FR/howto/passer_en_beta)
 - [Remettre à zéro son mon de passe Jeedom en cas de perte](/fr_FR/howto/reset.password)
 - [Mettre à jour manuellement Jeedom](/fr_FR/howto/jeedom.mise_a_jour_manuel)
 - [Faire une sauvegarde](/fr_FR/howto/sauvegarde.comment_faire)
