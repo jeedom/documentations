@@ -78,7 +78,7 @@ Comme commande vous retrouverez :
 
 # TTS
 
-Le TTS (text-to-speech) vers le Sonos nécessite d’avoir un partage Windows (Samba) sur le réseau (imposé par Sonos, pas moyen de faire autrement). Il vous faut donc un NAS sur le réseau. La configuration est assez simple il faut mettre le nom ou l’ip du NAS (attention à bien mettre la même chose que ce qui est déclaré sur Sonos) et le chemin (relatif), le nom d’utilisateur et le mot de passe (attention l’utilisateur doit avoir les droits en écriture)
+Le TTS (text-to-speech) vers le Sonos nécessite d’avoir un partage Windows (Samba) sur le réseau (imposé par Sonos, pas moyen de faire autrement). Il faut vous donc un NAS sur le réseau. La configuration est assez simple il faut mettre le nom ou l’ip du NAS (attention à bien mettre la même chose que ce qui est déclaré sur Sonos) et le chemin (relatif), le nom d’utilisateur et le mot de passe (attention l’utilisateur doit avoir les droits en écriture)
 
 > **IMPORTANT**
 >
