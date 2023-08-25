@@ -266,7 +266,6 @@
         "C'est un soucis lors de la negociation DHCP qui ne récupere pas bien les DNS, un redemarrage de la box corrige le soucis (qui n'arrive en générale que une fois": "Dies ist ein Problem während der DHCP-Aushandlung, das den DNS nicht gut wiederherstellt, ein Neustart der Box behebt das Problem (was normalerweise nur einmal auftritt)"
     },
     "howto\/index.md": {
-        "Passer jeedom ou un plugin en beta": "Gehen Sie jeedom oder Plugin in der Beta",
         "Remettre à zéro son mon de passe Jeedom en cas de perte": "Setzen Sie Ihr Jeedom-Passwort bei Verlust zurück",
         "Mettre à jour manuellement Jeedom": "Jeedom manuell aktualisieren",
         "Faire une sauvegarde": "Mach ein Backup",

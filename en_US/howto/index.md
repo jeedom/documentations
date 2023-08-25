@@ -1,5 +1,4 @@
 # Jeedom
-- [Go jeedom or plugin in beta](/en_US/howto/passer_en_beta)
 - [Reset your Jeedom password in case of loss](/en_US/howto/reset.password)
 - [Manually update Jeedom](/en_US/howto/jeedom.mise_a_jour_manuel)
 - [Make a backup](/en_US/howto/sauvegarde.comment_faire)
