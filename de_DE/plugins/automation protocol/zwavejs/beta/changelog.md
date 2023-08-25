@@ -6,9 +6,15 @@
 
 # xx/08/2023
 
+**Behebt**
+
+- Update-Fix *OTA* einer Modul-Firmware nach einer ZwaveJSUI-Änderung
+
 **Verbesserungen**
 
 - Zur Version wechseln *8.23.1* von ZwaveJsUI.
+
+- Möglichkeit hinzugefügt, ein Update durchzuführen *OTW* einen Controller (falls kompatibel))
 
 **Konfigurationsergänzungen**
 

@@ -1,34 +1,37 @@
 {
-	"id": "modbus2mqtt",
-	"name": "Modbus2MQTT",
-	"description": {
-		"fr_FR": "Permet de lire et écrire sur des devices modbus TCP depuis et vers MQTT"
-	},
-	"licence": "AGPL",
-	"author": "Mips",
-	"require": "4.2",
-	"category": "automation protocol",
-	"hasDependency": true,
-	"hasOwnDeamon": true,
-	"maxDependancyInstallTime": 0,
-	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/changelog",
-	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/",
-	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/changelog",
-	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/modbus2mqtt/#language#/",
-	"link": {
-		"forum": "https://community.jeedom.com/tags/plugin-modbus2mqtt",
-		"video": ""
-	},
-	"language": [
-		"fr_FR",
-		"en_US"
-	],
-	"compatibility": [
-		"smart",
-		"atlas",
-		"rpi",
-		"docker",
-		"diy",
-		"v4"
-	]
+    "id": "naEnergie",
+    "name": "Netatmo Energie",
+    "licence": "AGPL",
+    "author": "limad44",
+    "require": "4.0",
+    "description": {
+        "fr_FR": " Plugin pour intégrer les équipements Netatmo Energie( Thermostat, Vannes, Thermostat OpenTherm) et Netatmo Météo dans Jeedom.\nLe plugin permet l'acquisition des informations de  votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).\nL'actualisation se fait via API et par retours webhook.\nCompatible avec le plugin mobile",
+        "en_US": " Plugin pour intégrer les équipements Netatmo Energie( Thermostat et Vannes) et Netatmo Météo dans Jeedom. Le plugin permet acquisition des informations relatives à votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).L'actualisation se fait via API et par retours webhooks. Compatible avec le plugin mobile"
+    },
+    "utilization": "Il faut disposer d'un compte Netatmo et d'un client_Id/client_Secret crées sur dev.natatmo.com",
+    "category": "wellness",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "display": "panelna",
+    "changelog": "https://limad.github.io/plugins-docs/plugin-naEnergie/#language#/changelog",
+    "documentation": "https://limad.github.io/plugins-docs/plugin-naEnergie/#language#/",
+    "changelog_beta": "https://limad.github.io/plugins-docs/plugin-naEnergie/#language#/changelog",
+    "documentation_beta": "https://limad.github.io/plugins-docs/plugin-naEnergie/#language#/",
+    "link": {
+        "forum": "https://community.jeedom.com/t/plugin-tiers-netatmo-energie/26286/"
+    },
+    "language": [
+        "fr_FR",
+        "en_US"
+    ],
+    "compatibility": [
+        "v4",
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "Jeedomboard"
+    ]
 }
