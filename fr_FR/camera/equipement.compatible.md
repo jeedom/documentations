@@ -239,4 +239,4 @@
 
 Cette liste est basee sur des retours utilisateurs, l\'équipe Jeedom ne peut donc garantir que tous les modules de cette liste sont 100% fonctionnels
 
-2023-08-28 02:20:07
+2023-08-29 02:20:05
