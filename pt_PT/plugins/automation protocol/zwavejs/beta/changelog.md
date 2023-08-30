@@ -13,8 +13,9 @@
 **Melhorias**
 
 - Mudar para a versão *8.23.1* por ZwaveJsUI.
-
 - Adicionada a possibilidade de fazer uma atualização *OTW* um controlador (se compatível)
+- Adicionada uma opção para gerenciar *notificações* no centro de mensagens *nós mortos e vivos*
+- Adicionada uma opção para gerenciar *notificações* no centro de mensagens *despertares perdidos e retorno*
 
 **Adições de configuração**
 

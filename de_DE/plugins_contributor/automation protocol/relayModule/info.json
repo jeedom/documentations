@@ -1,37 +1,26 @@
 {
-  "id": "iotawatt",
-  "name": "IoTaWatt",
+  "id": "Creality_Cloud",
+  "name": "Creality Cloud",
   "description": {
-      "fr_FR": "Plugin permettant de récupérer les informations sa box IoTaWatt. IoTaWatt est un projet à code source ouvert et à matériel ouvert visant à produire un moniteur d'énergie précis, peu coûteux et facile à utiliser. Il peut utiliser plusieures dizaines de transformateurs de courant banals et transmettra les données localement via un serveur web intégré, ou les téléchargera vers n'importe lequel des sites web/bases de données énergétiques tiers.",
-      "en_US": "Plugin to retrieve information from IoTaWatt. IoTaWatt is an open-source, open hardware project to produce an accurate, inexpensive and easy to use energy monitor. It can use any of dozens of common current transformers and will report the data locally via integrated web server, or upload to any of several third-party energy websites/data bases.",
-      "es_ES": "Plugin para recuperar información de IoTaWatt. IoTaWatt es un proyecto de código abierto y hardware libre para producir un monitor de energía preciso, barato y fácil de usar. Puede utilizar cualquiera de las docenas de transformadores de corriente comunes y reportar los datos localmente a través del servidor web integrado, o subir a cualquiera de los sitios web de energía de terceros / bases de datos.",
-      "pt_PT": "Plugin para recuperar informações de IoTaWatt. IoTaWatt é um projecto de hardware aberto e de fonte aberta para produzir um monitor de energia preciso, barato e fácil de usar. Pode utilizar qualquer uma das dezenas de transformadores de corrente comuns e reportará os dados localmente através de servidor web integrado, ou carregará para qualquer um dos vários websites/dados de energia de terceiros.",
-      "de_DE": "Plugin zum Abrufen von Informationen von IoTaWatt. IoTaWatt ist ein quelloffenes, offenes Hardware-Projekt zur Herstellung eines genauen, kostengünstigen und einfach zu verwendenden Energiemonitors. Es kann Dutzende gängiger Stromwandler verwenden und die Daten lokal über einen integrierten Webserver melden oder auf eine von mehreren Energie-Websites/Datenbanken von Drittanbietern hochladen.",
-      "it_IT": "Plugin per recuperare informazioni da IoTaWatt. IoTaWatt è un progetto open-source e open hardware per produrre un monitor energetico accurato, economico e facile da usare. Può utilizzare decine di trasformatori di corrente comuni e riportare i dati localmente tramite il server web integrato o caricarli su uno dei numerosi siti web/basi di dati energetici di terze parti."
+      "fr_FR": "Plugin permettant de récupérer les informations depuis son compte Creality Coud.",
+      "en_US": "Plugin to retrieve information from the Creality Box.</br>It is imperative that the Telnet access remains open on the box."
   },
-  "utilization": "Après avoir entré l'email de connexion et le mot de passe dans la page de configuration, sélectionnez l'intervalle de rafraîchissement des informations. Lancez une synchronisation depuis la page des équipements.",
+  "utilization": "Après avoir entré l'IP, le port (défaut 23), l'identifiant (défaut root) et le mot de passe (défaut cxswprin) dans la page de configuration, démarrez le démon.</br>Toutes les commandes viendront au fur et à mesure : en lançant une impression, elles devraient toutes être créées.",
   "licence": "AGPL",
   "author": "DomoFlo1",
-  "require": "4.2",
-  "category": "energy",
-  "display": "panel",
+  "require": "4.0",
+  "category": "multimedia",
   "hasDependency": false,
-  "hasOwnDeamon": true,
+  "hasOwnDeamon": false,
   "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-iotawatt-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-iotawatt-pour-jeedom/",
-  "changelog_beta": "https://flobul-domotique.fr/liste-des-versions-du-plugin-iotawatt-pour-jeedom/",
-  "documentation_beta": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-iotawatt-pour-jeedom/",
+  "changelog": "https://flobul.github.io/Jeedom-Creality_Cloud/#language#/changelog",
+  "documentation": "https://flobul.github.io/Jeedom-Creality_Cloud/#language#/",
   "link": {
-    "forum": "https://community.jeedom.com/tag/plugin-iotawatt"
+    "forum": "https://community.jeedom.com/tag/plugin-creality_cloud"
   },
   "language": [
     "fr_FR",
-    "en_US",
-    "es_ES",
-    "pt_PT",
-    "de_DE",
-    "it_IT"
+    "en_US"
   ],
   "compatibility": [
     "miniplus",
