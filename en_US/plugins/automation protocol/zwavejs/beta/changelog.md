@@ -12,7 +12,7 @@
 
 **Improvements**
 
-- Switch to version *8.23.1* by ZwaveJsUI.
+- Switch to version *8.23.2* by ZwaveJsUI.
 - Added the possibility to make an update *OTW* a controller (if compatible)
 - Added an option to manage *notifications* in the message center *dead and alive nodes*
 - Added an option to manage *notifications* in the message center *missed awakenings and return*

@@ -12,7 +12,7 @@
 
 **Mejoras**
 
-- Cambiar a versión *8.23.1* por ZwaveJsUI.
+- Cambiar a versión *8.23.2* por ZwaveJsUI.
 - Se agregó la posibilidad de realizar una actualización *OTW* un controlador (si es compatible)
 - Se agregó una opción para administrar *notificaciones* en el centro de mensajes *nodos vivos y muertos*
 - Se agregó una opción para administrar *notificaciones* en el centro de mensajes *despertares perdidos y regreso*

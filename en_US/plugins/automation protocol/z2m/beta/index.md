@@ -174,3 +174,7 @@ Finally, and even if it may seem obvious to some, we remind you that Zigbee gate
 >**Change the PAN_ID and Network Key**
 >
 >Once the change has been made in the jeedom interface or in zigbee2mqtt, you must stop the daemon, delete the coordinator_backup file.json (it is in `/var/www/html/plugins/z2m/data`), restart the daemon.
+
+>**I got the error `Error: Reset error: Error: {"sequence":-1} after 10000ms` and an ELELABS key or an Atlas box**
+>
+>You must update the firmware of your zigbee key, to do this in the configuration of the jeezigbee plugin click on update firmware and fill in the different fields in the window then validate. Be careful not to do this on a luna box, it breaks the zigbee key.

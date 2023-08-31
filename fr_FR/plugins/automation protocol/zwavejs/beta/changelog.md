@@ -12,7 +12,7 @@
 
 **Améliorations**
 
-- Passage à la version *8.23.1* de ZwaveJsUI.
+- Passage à la version *8.23.2* de ZwaveJsUI.
 - Rajout de la possibilité de faire une mise à jour *OTW* d'un contrôleur (si compatible)
 - Rajout d'une option pour gérer les *notifications* dans le centre des messages *des noeuds morts et alives*
 - Rajout d'une option pour gérer les *notifications* dans le centre des messages *des réveils manqués et retour*

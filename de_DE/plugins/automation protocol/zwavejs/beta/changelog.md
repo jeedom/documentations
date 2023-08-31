@@ -12,7 +12,7 @@
 
 **Verbesserungen**
 
-- Zur Version wechseln *8.23.1* von ZwaveJsUI.
+- Zur Version wechseln *8.23.2* von ZwaveJsUI.
 - Möglichkeit hinzugefügt, ein Update durchzuführen *OTW* einen Controller (falls kompatibel))
 - Option zum Verwalten hinzugefügt *Benachrichtigungen* im Nachrichtencenter *tote und lebendige Knoten*
 - Option zum Verwalten hinzugefügt *Benachrichtigungen* im Nachrichtencenter *verpasstes Erwachen und Rückkehr*

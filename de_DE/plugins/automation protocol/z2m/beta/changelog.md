@@ -6,6 +6,9 @@
 
 - Möglichkeit, den Überwachungsport von zigbee2mqtt zu konfigurieren
 - Ein Problem mit Farbtypbefehlen wurde behoben
+- Korrektur bei der Generierung von Befehlen, die in bestimmten Fällen nicht funktionieren konnten
+- Verbesserte Befehlsbenennung
+- Möglichkeit für Atlas-Boxen oder Elelabs-Controller, die Firmware von Jeedom aus zu aktualisieren
 
 # 07.03.2023
 

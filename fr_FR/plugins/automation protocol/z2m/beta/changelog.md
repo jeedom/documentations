@@ -6,6 +6,9 @@
 
 - Possibilité de configurer le port d'écoute de zigbee2mqtt
 - Correction d'un soucis sur les commandes de type couleur
+- Correction sur la generation des commandes qui pouvait ne pas marcher dans certain cas
+- Amélioration du nommage des commandes
+- Possibilité pour les box atlas ou les controlers de type Elelabs de faire la mise à jour du firmware depuis jeedom
 
 # 03/07/2023
 

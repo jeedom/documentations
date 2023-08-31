@@ -2,25 +2,33 @@
   "id": "Creality_Cloud",
   "name": "Creality Cloud",
   "description": {
-      "fr_FR": "Plugin permettant de récupérer les informations depuis son compte Creality Coud.",
-      "en_US": "Plugin to retrieve information from the Creality Box.</br>It is imperative that the Telnet access remains open on the box."
+      "fr_FR": "Plugin permettant de récupérer les informations depuis son compte Creality Cloud et de piloter son imprimante.",
+      "en_US": "Plugin that allows retrieving information from your Creality Cloud account and controlling your 3D printer.",
+      "es_ES": "Plugin que permite recuperar información de su cuenta en Creality Cloud y controlar su impresora 3D.",
+      "pt_PT": "Plugin que permite recuperar informações da sua conta Creality Cloud e controlar a sua impressora 3D.",
+      "de_DE": "Plugin, mit dem Sie Informationen aus Ihrem Creality Cloud-Konto abrufen und Ihren 3D-Drucker steuern können.",
+      "it_IT": "Plugin che consente di recuperare informazioni dal tuo account Creality Cloud e controllare la tua stampante 3D."
   },
-  "utilization": "Après avoir entré l'IP, le port (défaut 23), l'identifiant (défaut root) et le mot de passe (défaut cxswprin) dans la page de configuration, démarrez le démon.</br>Toutes les commandes viendront au fur et à mesure : en lançant une impression, elles devraient toutes être créées.",
+  "utilization": "Après avoir entré l'identifiant et le mot de passe de votre compte Creality Cloud dans la page de configuration, sauvegardez puis cliquez sur Connexion, et enfin lancez une synchronisation.",
   "licence": "AGPL",
   "author": "DomoFlo1",
-  "require": "4.0",
+  "require": "4.3",
   "category": "multimedia",
   "hasDependency": false,
   "hasOwnDeamon": false,
   "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul.github.io/Jeedom-Creality_Cloud/#language#/changelog",
-  "documentation": "https://flobul.github.io/Jeedom-Creality_Cloud/#language#/",
+  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-creality-cloud-pour-jeedom/",
+  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-creality-cloud-pour-jeedom/",
   "link": {
     "forum": "https://community.jeedom.com/tag/plugin-creality_cloud"
   },
   "language": [
+    "en_US",
     "fr_FR",
-    "en_US"
+    "es_ES",
+    "pt_PT",
+    "de_DE",
+    "it_IT"
   ],
   "compatibility": [
     "miniplus",

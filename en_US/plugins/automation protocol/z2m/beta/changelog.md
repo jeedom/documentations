@@ -6,6 +6,9 @@
 
 - Ability to configure the listening port of zigbee2mqtt
 - Fixed an issue with color type commands
+- Correction on the generation of commands which could not work in certain cases
+- Improved command naming
+- Possibility for atlas boxes or Elelabs type controllers to update the firmware from jeedom
 
 # 03/07/2023
 
