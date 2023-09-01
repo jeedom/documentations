@@ -17,8 +17,10 @@
   "hasDependency": false,
   "hasOwnDeamon": false,
   "maxDependancyInstallTime": 0,
+  "changelog_beta": "https://flobul-domotique.fr/liste-des-versions-du-plugin-creality-cloud-pour-jeedom/",
   "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-creality-cloud-pour-jeedom/",
   "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-creality-cloud-pour-jeedom/",
+  "documentation_beta": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-creality-cloud-pour-jeedom/",
   "link": {
     "forum": "https://community.jeedom.com/tag/plugin-creality_cloud"
   },

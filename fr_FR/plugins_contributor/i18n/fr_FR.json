@@ -392,11 +392,11 @@
         "Vous pouvez voir": "Vous pouvez voir",
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie",
         "Documentation Stable": "Documentation Stable",
+        "Documentation Beta": "Documentation Beta",
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
-        "Documentation Beta": "Documentation Beta",
-        "Ajoutez un Apple HomePod ou HomePod Mini et faites-le parler": "Ajoutez un Apple HomePod ou HomePod Mini et faites-le parler",
-        "Changelog Beta": "Changelog Beta"
+        "Changelog Beta": "Changelog Beta",
+        "Ajoutez un Apple HomePod ou HomePod Mini et faites-le parler": "Ajoutez un Apple HomePod ou HomePod Mini et faites-le parler"
     },
     "plugins_contributor\/nature\/index.md": {
         "Netro arrosage": "Netro arrosage",
