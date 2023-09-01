@@ -1,43 +1,16 @@
 {
-  "id": "Creality_Cloud",
-  "name": "Creality Cloud",
-  "description": {
-      "fr_FR": "Plugin permettant de récupérer les informations depuis son compte Creality Cloud et de piloter son imprimante.",
-      "en_US": "Plugin that allows retrieving information from your Creality Cloud account and controlling your 3D printer.",
-      "es_ES": "Plugin que permite recuperar información de su cuenta en Creality Cloud y controlar su impresora 3D.",
-      "pt_PT": "Plugin que permite recuperar informações da sua conta Creality Cloud e controlar a sua impressora 3D.",
-      "de_DE": "Plugin, mit dem Sie Informationen aus Ihrem Creality Cloud-Konto abrufen und Ihren 3D-Drucker steuern können.",
-      "it_IT": "Plugin che consente di recuperare informazioni dal tuo account Creality Cloud e controllare la tua stampante 3D."
-  },
-  "utilization": "Après avoir entré l'identifiant et le mot de passe de votre compte Creality Cloud dans la page de configuration, sauvegardez puis cliquez sur Connexion, et enfin lancez une synchronisation.",
-  "licence": "AGPL",
-  "author": "DomoFlo1",
-  "require": "4.3",
-  "category": "multimedia",
-  "hasDependency": false,
-  "hasOwnDeamon": false,
-  "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-creality-cloud-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-creality-cloud-pour-jeedom/",
-  "link": {
-    "forum": "https://community.jeedom.com/tag/plugin-creality_cloud"
-  },
-  "language": [
-    "en_US",
-    "fr_FR",
-    "es_ES",
-    "pt_PT",
-    "de_DE",
-    "it_IT"
-  ],
-  "compatibility": [
-    "miniplus",
-    "smart",
-    "rpi",
-    "docker",
-    "diy",
-    "mobile",
-    "v4",
-    "atlas"
-  ]
+	"id" : "eibd",
+	"name" : "EIB - KNX",
+	"description" : "Connecter Jeedom avec votre installation domotique KNX et Jeedom deviendra un participant de votre installation",
+	"licence" : "AGPL",
+	"author" : "Halbout Michael",
+	"installation" : "Choisissez le programme de votre choix et lancer l'installation des dependance",
+	"maxDependancyInstallTime" : 130,
+	"hasOwnDeamon" : true,
+	"hasDependency" : true,
+	"require" : "4.2.12",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+	"category" : "automation protocol",
+ 	"documentation" : "http://mika-nt28.github.io/Documentations/eibd/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/eibd/#language#/changelog"
 }
