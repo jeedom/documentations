@@ -4,6 +4,8 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 13/04/2023
+
 - Soporte de firmware V3 mejorado
 - Adición de información de tele-info
 

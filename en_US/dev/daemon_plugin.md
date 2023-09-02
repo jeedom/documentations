@@ -555,7 +555,7 @@ And to manage this, once again, everything is planned in Jeedom's core to help u
   
 Both methods can be implemented in a single plugin.
 * If both methods are implemented in a plugin:
-  * Cores before 4.2 will use Methone per procedures.
+  * Cores before 4.2 will use the procedural method.
   * Core 4.2 and later will use the per json config file method.
 * If only the procedural method is implemented in a plugin:
   * All cores will use this method.

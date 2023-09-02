@@ -555,7 +555,7 @@ Und um dies zu bewältigen, ist alles im Kern von Jeedom geplant, um uns über z
   
 Beide Methoden können in einem einzigen Plugin implementiert werden.
 * Wenn beide Methoden in einem Plugin implementiert sind:
-  * Kerne vor 4.2 verwendet Methon pro Verfahren.
+  * Kerne vor 4.2 wendet die Verfahrensmethode an.
   * Kern 4.2 und höher wird die per json-Konfigurationsdateimethode verwenden.
 * Wenn nur die prozedurale Methode in einem Plugin implementiert ist:
   * Alle Kerne verwenden diese Methode.

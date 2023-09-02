@@ -54,7 +54,7 @@ Datei mit Anweisungen zum Installieren eines Plugins :
 
 Es setzt sich wie folgt zusammen :
 
-Der erste kommentierte Teil enthält die Lizenz (es ist besser). Die hier verwendete zeigt an, dass die Datei zu Jeedom gehört und Open Source ist. Dann kommt die Aufnahme des Kerns von Jeedom (dies ermöglicht den Zugriff auf interne Funktionen). Dann kommen die 2 Funktionen :
+Der erste kommentierte Teil enthält die Lizenz (es ist besser). Die hier verwendete zeigt an, dass die Datei zu Jeedom gehört und Open Source ist. Dann kommt die Einbeziehung von Jeedoms Kern (dies ermöglicht den Zugriff auf interne Funktionen). Dann kommen die 3 Funktionen :
 
 - ``pluginid_install()`` : Methode zur Installation des Plugins. Hier fügt die Installation Jeedom einen Cron-Job hinzu
 - ``pluginid_update()`` : Methode zur Installation des Plugins. Wird hier verwendet, um die Cron-Task neu zu starten

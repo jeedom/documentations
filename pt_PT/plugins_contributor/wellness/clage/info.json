@@ -8,10 +8,10 @@
   "utilization": "Après avoir entré l'IP du serveur, sauvegardez et lancer une synchronisation pour créer les appareils.",
   "licence": "AGPL",
   "author": "DomoFlo1",
-  "require": "4.0",
+  "require": "4.2",
   "category": "wellness",
   "hasDependency": false,
-  "hasOwnDeamon": false,
+  "hasOwnDeamon": true,
   "maxDependancyInstallTime": 0,
   "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-clage-pour-jeedom/",
   "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-clage-pour-jeedom/",
@@ -20,7 +20,11 @@
   },
   "language": [
     "fr_FR",
-    "en_US"
+    "en_US",
+    "es_ES",
+    "de_DE",
+    "it_IT",
+    "pt_PT"
   ],
   "compatibility": [
     "miniplus",

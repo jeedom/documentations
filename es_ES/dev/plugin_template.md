@@ -54,7 +54,7 @@ Archivo que da instrucciones para instalar un complemento :
 
 Se compone de la siguiente manera :
 
-La primera parte comentada contiene la licencia (es mejor). El que se usa aquí indica que el archivo pertenece a Jeedom y que es de código abierto Luego viene la inclusión del núcleo de Jeedom (esto permite el acceso a funciones internas) Luego viene las 2 funciones :
+La primera parte comentada contiene la licencia (es mejor). El que se usa aquí indica que el archivo pertenece a Jeedom y que es de código abierto Luego viene la inclusión del núcleo de Jeedom (esto permite el acceso a las funciones internas) Luego vienen las 3 funciones :
 
 - ``pluginid_install()`` : método para instalar el complemento. Aquí la instalación agrega un trabajo cron a Jeedom
 - ``pluginid_update()`` : método para instalar el complemento. Se usa aquí para reiniciar la tarea cron

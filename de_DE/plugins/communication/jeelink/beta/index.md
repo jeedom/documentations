@@ -29,6 +29,10 @@ Dieses Plugin erfordert keine spezielle Konfiguration und muss nach der Installa
 >
 >Die Netzwerkkonfigurationen aller Jeedoms *(Quellenziel)* MUSS in Ordnung sein, sonst funktioniert das Plugin nicht.
 
+>**Wichtig**
+>
+>Es ist wichtig, dass nicht auf mehreren Zielobjekten derselbe API-Schlüssel vorhanden ist. Der Schlüssel eines Geräts basiert auf dem API-Schlüssel (daher sollte er nach der Konfiguration nicht geändert werden) und der Quell-ID des Geräts. Der gleiche API-Schlüssel auf den Ziel-Jeedoms führt daher zu Synchronisierungsproblemen mit Geräten, die möglicherweise nicht auf der Quelle angezeigt werden.
+
 ## Target Jeedom-Konfiguration
 
 Der erste Schritt besteht darin, a zu definieren **Jeedom Ziel** seit **Jeedom Source** *(derjenige, der die Ausrüstung hält, die wieder zusammengebaut werden soll)*.

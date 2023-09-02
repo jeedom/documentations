@@ -54,7 +54,7 @@ File giving instructions for installing a plugin :
 
 It is composed as follows :
 
-The first commented part contains the license (it's better). The one used here indicates that the file belongs to Jeedom and that it is open source Then comes the inclusion of the core of Jeedom (this allows access to internal functions) Then comes the 2 functions :
+The first commented part contains the license (it's better). The one used here indicates that the file belongs to Jeedom and that it is open source Then comes the inclusion of Jeedom's core (this allows access to internal functions) Then come the 3 functions :
 
 - ``pluginid_install()`` : method to install the plugin. Here the installation adds a cron job to Jeedom
 - ``pluginid_update()`` : method to install the plugin. Used here to restart the cron task

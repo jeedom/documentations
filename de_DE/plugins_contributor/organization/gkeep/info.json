@@ -1,0 +1,44 @@
+{
+  "id": "gkeep",
+  "name": "Google Keep",
+  "description": {
+      "fr_FR": "Plugin permettant de synchroniser ses notes et listes avec Google Keep",
+      "en_US": "Plugin for synchronizing notes and lists with Google Keep",
+      "es_ES": "Plugin para sincronizar notas y listas con Google Keep",
+      "pt_PT": "Plugin para sincronizar notas e listas com o Google Keep",
+      "de_DE": "Plugin zum Synchronisieren von Notizen und Listen mit Google Keep",
+      "it_IT": "Plugin per la sincronizzazione di note ed elenchi con Google Keep"
+  },
+  "utilization": "Sélectionnez le nombre de comptes Google, entrez les informations de connexion de chacun d'entre eux, puis lancez une première connexion.",
+  "licence": "AGPL",
+  "author": "DomoFlo1",
+  "require": "4.2",
+  "category": "organization",
+  "display": "panel",
+  "hasDependency": true,
+  "hasOwnDeamon": false,
+  "maxDependancyInstallTime": 0,
+  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-google-keep-pour-jeedom/",
+  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-google-keep-pour-jeedom/",
+  "link": {
+    "forum": "https://community.jeedom.com/tag/plugin-GKeep"
+  },
+  "language": [
+    "fr_FR",
+    "en_US",
+    "es_ES",
+    "pt_PT",
+    "de_DE",
+    "it_IT"
+  ],
+  "compatibility": [
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "mobile",
+    "v4",
+    "atlas"
+  ]
+}

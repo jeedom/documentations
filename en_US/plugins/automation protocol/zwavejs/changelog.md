@@ -4,18 +4,140 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# XX/01/2023
+# 07/31/2023
+
+**Improvements**
+
+- Switch to version *8.21.2* by ZwaveJsUI.
+- Addition of all *tty* in the list of ports (this will be useless with the new core which will allow you to choose a port directly by the id)
+- Added last route on a node's stats page (depends on controller SDK)
+- Added last speed-baud rate on a node's stats page (depends on controller SDK)
+- Added last speed-baud rate on global stats page (depends on controller SDK)
+- Added last route on global stats page (depends on controller SDK)
+- Added latest rssi on global stats page (depends on controller SDK)
+- Added latest rssi on a node's stats page (depends on controller SDK)
+- Addition of a graph *Network route* representing last routes taken (will scale and may not handle all cases depends on controller SDK)
+- Addition of a message in the message center when a node goes Dead (in addition to the equipment status command)
+- Addition of a message in the message center when a node goes Alive after being Dead (in addition to the equipment status command)
+- Addition of a message in the message center when a node has not woken up after 4 times its wakeup interval 
+
+
+**Configuration Additions**
+
+- Adding a property *ThermostatFanState*
+- Adding a sub-command *Label State* to the Barrier Operator property (to have a label command with text in addition to the numeric command)
+- Added config *MCOhome Mh8FC* (properties : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperature)
+- Added config *Heltun HE-FT01* (properties : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperature, Illuminance, Humidity, Power, Energy)
+- Added config *MCOhome MH3901* (properties : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatOperatingState, Temperature)
+- Adding a sub-command *Label State* to the Thermostat Operating State property (to have a label command with text in addition to the numeric command)
+
+**Configuration Changes**
+
+- Changing the configuration *HRT4_SRT321* to use the properties
+- Changing the configuration *SRT323* to use the properties
+- Editing the image *HRT4_SRT321* (clipping)
+- Editing the image *SRT323* (clipping)
+- Editing the image *SSR303* (clipping)
+- Editing the image *SIR321* (clipping)
+- Editing the image *SES303* (clipping)
+- Editing the image *SES302* (clipping)
+- Editing the image *SCSC17* (clipping)
+
+# 06/26/2023
+
+**Improvements**
+
+- Switch to version *8.19.0* by ZwaveJsUI.
+- Modules *FLIRS* are no longer considered active at the mesh on the network graph
+
+**Configuration Changes**
+
+- Changing the configuration *Aeotec DSB04100 door window sensor* to use the properties
+- Changing the configuration *Aeotec DSC10 Heavy Duty Switch* to use the properties
+- Changing the configuration *Aeotec DSC06106 Smart Energy Switch* to use the properties
+- Changing the configuration *Aeotec DSC11 Smart Strip* to use the properties
+- Changing the configuration *Aeotec DSC08101 Smart Energy Illuminator* to use the properties
+- Changing the configuration *Aeotec DSC014104 Blind Control* to use the properties
+- Changing the configuration *Aeotec DSC17103 Micro Double Switch* to use the properties
+- Changing the configuration *Aeotec DSC18103 Micro Switch 2nd* to use the properties
+- Changing the configuration *Aeotec DSC26103 Micro Switch 2nd* to use the properties
+- Changing the configuration *Aeotec DSC27103 Micro Dimmer 2nd* to use the properties
+- Changing the configuration *Benext Panic Watch* to use the properties
+- Changing the configuration *Benext Panic Button* to use the properties
+- Changing the configuration *Benext Plug In Dimmer* to use the properties
+- Changing the configuration *Dome On Off Plug In Switch Plug In Dimmer* to use the properties
+- Changing the configuration *Domux Dx2skz* to use the properties
+- Changing the configuration *Everspring AD142* to use the properties
+- Changing the configuration *Everspring AN145* to use the properties
+- Changing the configuration *Everspring EH403 Led FloodLight* to use the properties
+- Changing the configuration *Heiman Dx2skz* to use the properties
+- Changing the configuration *Philio Smart Dimmer E27* to use the properties
+- Changing the configuration *Philio Pan03* to use the properties
+- Changing the configuration *Popp Smart Plug* to use the properties
+- Changing the configuration *Popp 009105* to use the properties
+- Changing the configuration *Schlage On Wall* to use the properties
+- Changing the configuration *Sigma Power Plug* to use the properties
+- Changing the configuration *Swiid Plug* to use the properties
+
+**Configuration Additions**
+
+- Added config *Heat It ZM Dimmer* (properties : Multilevel, Power, Energy, CentralScene, Notification)
+- Added config *Sigma PZ701U* (properties : Switch)
+- Added config *Neo RC03Z* (properties : Central Scene, Battery)
+- Adding a sub-property *Heat sensor* in the property *Notification*
+- Added config *U-Fairy GR-201N* (properties : Switch)
+
+# 04/10/2023
+
+**Improvements**
+
+- THE *refresh* can now go up to 100 seconds instead of 60
+- Switch to version *8.13.1* by ZwaveJsUI.
+- Changing the function *pollValue* for properties at *value* (thank you @superbricolo)
+
+**Configuration Changes**
+
+- Changing the configuration *Aeotec ZWA19 Water Sensor* to use the properties
+- Changing the configuration *Aeotec ZWA24 7in1* to use the properties
+- Changing the configuration *Everspring SM810* to use the properties
+- Editing a property *Velocity*
+- Editing the image *Dlink 510* (clipping)
+- Editing the image *Fibaro Fgs-213* (clipping)
+
+**Configuration Additions**
+
+- Added config *Sigma PZ701U* (properties : Switch)
+- Added config *Neo RC03Z* (properties : Central Scene, Battery)
+- Adding a sub-property *Heat sensor* in the property *Notification*
+- Added config *U-Fairy GR-201N* (properties : Switch)
+
+# 02/14/2023
 
 **Configuration Changes**
 
 - Changing the configuration *Aeotec ZWA24 7in1* to use the properties
 - Changing the configuration *Everspring SM810* to use the properties
+- Changing the configuration *Aeotec ZW122* to use the properties
+- Grouping of configurations *Danfoss Living Connect*
+- Changing the configuration *Fibaro FGR-223* change of power and energy endpoints
+- Changing the configuration *Fibaro FGR-223* addition of hardware and over-current notification
 - Changing the configuration *Fibaro FGS213* switch to endpoint 1 (firmware >=3.3) and added heat sensor and over-current notification
 - Editing the image *Aeotec ZWA24 7in1* (clipping)
+- Editing a property *Velocity*
+- Editing the image *Dlink 510* (clipping)
+- Editing the image *Fibaro Fgs-213* (clipping)
+- Editing the image *Fibaro Fgs-221* (clipping)
+- Editing the image *Fibaro Fgs-223* (clipping)
+- Editing the image *Fibaro Wall Plug* (clipping)
+- Editing the image *Fibaro Wall Plug GEN5* (clipping)
 
 **Configuration Additions**
 
 - Adding a sub-property *Heat sensor* in the property *Notification*
+- Added config *U-Fairy GR-201N* (properties : Switch)
+- Added config *Danfoss Boiler Relay* (properties : Switch)
+- Added config *Benext Alarm Sound* (properties : Switch)
+
 
 # 24/12/2022
 

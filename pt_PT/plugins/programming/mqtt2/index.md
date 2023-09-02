@@ -42,7 +42,7 @@ Uma vez que o corretor Mosquitto está instalado *(se necessário)*, você pode 
   >
   >A autenticação é obrigatória no modo local.
 
-- **Jeedom root topic** : Tópico raiz para enviar um comando ao Jeedom ou no qual ele envia os eventos.
+- **Jeedom root topic** : Tópico raiz para enviar um comando ao Jeedom ou no qual ele envia os eventos. Atenção só é possível colocar 1 ou 2 níveis no máximo.
 
 - **Transmitir todos os eventos** : Marque a caixa para enviar todos os eventos de comando Jeedom no MQTT.
 
@@ -57,11 +57,7 @@ Uma vez que o corretor Mosquitto está instalado *(se necessário)*, você pode 
 Você deve indicar o tópico raiz do equipamento *(`teste` por exemplo)*, então de acordo com o tipo de comandos :
 
 - **Comandos de informações** : basta indicar o tópico completo.
-  >Por exemplo, se você colocar `toto/1`, todas as mensagens do tópico `test/toto/1` serão escritas automaticamente no comando em questão. O sistema é capaz de gerenciar campos do tipo json, neste caso você deve colocar `toto/1#key1` ou `toto/1#key1::key2` para descer um nível.
-
-  >**IMPORTANTE**
-  >
-  >É absolutamente necessário que a chegada corresponda a um valor. Se você tiver `{"k1":"v1","k2":{"k2.2":"v2.2"},"k3":["v3.1"]}`, você pode colocar `toto/1#k1` ou `toto/1#k2:k2.2` ou `toto/1#k3:0`` mais ``toto/1#k2` não é possível.
+  >Por exemplo, se você colocar `toto/1`, todas as mensagens do tópico `test/toto/1` serão escritas automaticamente no comando em questão. O sistema é capaz de gerenciar campos do tipo json, neste caso você tem que colocar `toto/1/key1` ou `toto/1/key1/key2` para descer um nível.
 
 - **Comandos de ação** : basta indicar o tema e a mensagem.
   >Por exemplo, se você colocar `toto/2` com a mensagem `plop`, cada clique no comando enviará a mensagem `plop` para o tópico `test/toto/2`.
@@ -69,6 +65,11 @@ Você deve indicar o tópico raiz do equipamento *(`teste` por exemplo)*, então
   >**EM FORMAÇÃO**
   >
   >Nos comandos do tipo de ação você pode usar as tags `#slider#`, `#color#`, `#message#` ou `#select#` que será substituído automaticamente pelo seu valor ao executar o comando *(de acordo com seu subtipo)*. Por outro lado, se a mensagem for do tipo `json`, você deve adicionar o prefixo `json` a ela::``.
+
+>**IMPORTANTE**
+>
+>O tópico `jeedom` é reservado (isso pode ser alterado na configuração), então não envie nada além de comandos para conduzir o jeedom
+
 
 # Jeedom via MQTT
 
@@ -93,3 +94,12 @@ Você deve indicar o tópico raiz do equipamento *(`teste` por exemplo)*, então
 - **Corretor sob Docker** : Primeiro, use o comando **Deletar** Equipamento `mqtt2_mosquitto` do plugin **Gerenciamento do Docker** *(Plugins > Programação > Gerenciamento do Docker)*. Você pode então excluir todo este equipamento.
 
 - **Corretor local** : Você deve então usar o botão vermelho **Desinstalar Mosquito** da página de configuração geral do plugin.
+
+
+# Autodescoberta)
+
+O plug-in pode fazer a descoberta automática de vários tipos de módulos. Para fazer isso, você só precisa autorizar a descoberta automática na página principal do plug-in e reiniciar o demônio.
+
+>**IMPORTANTE**
+>
+>Para módulos do tipo tasmota é absolutamente necessário que a configuração completa do tópico seja `%topic%/%prefix%/`

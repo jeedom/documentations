@@ -2,7 +2,7 @@
     "id": "zigbee",
     "name": "Zigbee",
     "description": {
-        "fr_FR": "Plugin offrant une compatibilité généralisée avec différents types de contrôleurs Zigbee tels que deCONZ et EZSP (Silicon labs), et en support beta : Zigate, XBee et Texas Instruments. \n\n Il est important de bien lire la documentation du plugin avant tout achat.",
+        "fr_FR": "IMPORTANT Ce plugin est remplacer par Jeezigbee (documentation en cours de rédaction). Plugin offrant une compatibilité généralisée avec différents types de contrôleurs Zigbee tels que deCONZ et EZSP (Silicon labs), et en support beta : Zigate, XBee et Texas Instruments. \n\n Il est important de bien lire la documentation du plugin avant tout achat.",
         "es_ES": "Plugin que ofrece compatibilidad general con diferentes tipos de controladores Zigbee como deCONZ y EZSP (Silicon labs), y en soporte beta: Zigate, XBee y Texas Instruments. Es importante leer la documentación del plugin antes de realizar cualquier compra",
         "de_DE": "Plugin mit allgemeiner Kompatibilität mit verschiedenen Arten von ZigBee-Controllern wie deCONZ und EZSP (Silicon Labs) sowie Beta-Unterstützung: Zigate, XBee und Texas Instruments. Es ist wichtig, die Plugin-Dokumentation vor dem Kauf sorgfältig zu lesen",
         "pt_PT": "Plugin que oferece compatibilidade geral com diferentes tipos de controladores Zigbee, como deCONZ e EZSP (Silicon labs), e em suporte beta: Zigate, XBee e Texas Instruments. É importante ler a documentação do plugin com atenção antes de qualquer compra",

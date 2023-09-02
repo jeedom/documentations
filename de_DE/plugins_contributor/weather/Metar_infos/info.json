@@ -18,7 +18,10 @@
 	"language": [
 		"fr_FR"
 	],
-    "compatibility": [
+	"link" : {
+		"forum":"https://community.jeedom.com/tag/plugin-metar_infos"
+	},
+	"compatibility": [
 		"miniplus",
 		"smart",
 		"rpi",
@@ -26,6 +29,7 @@
 		"diy",
 		"mobile",
 		"v4",
-		"atlas"
+		"atlas",
+		"luna"
 	]
 }

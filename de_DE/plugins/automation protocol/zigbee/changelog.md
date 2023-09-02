@@ -8,6 +8,10 @@
 >
 >Um das neue kompatible Modul zu kennen, müssen Sie gehen [das](https://compatibility.jeedom.com/index.php?v=d&p=home&search=&plugin=zigbee) (Es ist nach dem Datum sortiert, an dem es hinzugefügt / geändert wurde)
 
+# 26.01.2023
+
+- Korrektur einer bestimmten Verhinderung, das Fenster der Zigbee-Netzwerke zu öffnen
+
 # 25.01.2023
 
 - Entfernen des Sicherungs-/Wiederherstellungsteils der Zigbee-Chips (das Protokoll unterstützt dies nicht, es ist zu instabil)

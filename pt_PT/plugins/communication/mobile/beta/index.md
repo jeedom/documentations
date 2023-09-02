@@ -4,6 +4,77 @@ Plug-in para usar o aplicativo Jeedom Mobile.
 
 O aplicativo móvel Jeedom requer a instalação deste plug-in para que a caixa possa se comunicar com o aplicativo móvel.
 
+
+
+# Configuração do plugin Mobile para Application V2
+
+Depois de instalar o plugin, você só precisa ativá-lo :
+
+![mobile1](../images/mobile1.png)
+
+
+# Primeira conexão com o aplicativo V2
+
+Para conectar seu telefone : existem 2 métodos possíveis;
+na primeira tela do aplicativo, você pode conectar sua conta de mercado e, assim, encontrar todas as caixas associadas a esta conta ou simplesmente adicionar uma caixa.
+
+![v2ConnectMarket](../images/v2firstConnect.jpeg)
+
+
+#### __LOGIN ATRAVÉS DA CONTA DO MERCADO__ :
+
+![v2ConnectMarket](../images/v2connectMarket.PNG)
+
+Tudo o que você precisa fazer é inserir seu Market ID e senha.
+
+
+#### __LOGIN VIA BOX ID__ :
+
+![v22methods](../images/v22methods.PNG)
+
+Várias opções nesta tela :
+
+  - Você insere a url do seu Jeedom (interno ou externo), bem como os identificadores de acesso a ele e confirma com o botão LOGIN
+
+
+  - Você clica no QR Code : uma nova tela aparece; você pode digitalizar um QRCode do plugin Mobile da caixa que deseja adicionar, através da guia QRCODE do plugin.
+
+![v2ModalQrApp](../images/v2QRCodeConnect.PNG)
+
+
+> Aba Qr Code do plugin Mobile
+
+>> ![v2ModalPlugin](../images/v2ModalQrCode.png)
+
+
+
+Uma vez que esta primeira etapa foi concluída, você está registrado no aplicativo: se você tiver o plugin Mobile, terá acesso através do menu a Notificações, QrCodes, personalização de Menu ....
+
+
+No menu, você terá a aba Caixas, que agrupa todas as caixas presentes nesta conta de mercado
+
+![v2MenuBoxs](../images/v2MenuBoxs.PNG)
+
+![v2floutedBoxs](../images/v2floutedBoxs.png)
+
+Basta clicar na caixa onde está instalado o plugin Mobile, depois se identificar para acessar a caixa.
+
+A caixa irá para o topo da lista, validada a sua autenticação.
+Você pode fazer isso para várias caixas.
+
+Você também pode clicar no botão + no canto inferior direito para acessar diferentes opções;
+  - QrCode para adicionar uma caixa à lista através do plugin Mobile,
+  - Manual para adicionar manualmente uma caixa
+  - Detecção Atlas e Luna (se estiver no Wifi, irá detectar as caixas na rede)
+  - Sincronização do Market para atualizar as informações configuradas da conta do Market
+
+![v2greenBtnAdd](../images/v2greenBtnAdd.PNG)
+
+
+
+
+
+
 # Configuração de plug-in móvel
 
 Depois de instalar o plugin, você só precisa ativá-lo :
@@ -64,7 +135,7 @@ Você encontrará os aplicativos nas persianas móveis :
 
 Ao iniciar o aplicativo Mobile pela primeira vez, você receberá um tutorial para ajudá-lo a configurá-lo.
 
-Após baixar e instalar o aplicativo móvel Jeedom, inicie o aplicativo no seu smartphone.
+Depois de baixar e instalar seu aplicativo móvel Jeedom, inicie o aplicativo em seu smartphone.
 
 Você chega em um tutorial de configuração que recomendamos que você siga. Algumas etapas foram realizadas anteriormente.
 

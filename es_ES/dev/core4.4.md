@@ -86,7 +86,7 @@ El archivo de plantilla de plugin.js y la mayoría de las páginas Core ahora us
 
 Funciones DOM específicas del núcleo:
 
-[DocCore js](fr_FR/dev/corejs/index)
+[DocCore js](/es_ES/dev/corejs/index)
 
 [domUtils {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
 

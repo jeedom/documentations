@@ -1,36 +1,23 @@
 # Änderungsprotokoll jeeZigbee
 
-# Änderungsprotokoll jeeZigbee
-
-# Änderungsprotokoll Zigbee2Mqtt
-
-# Changelog-Plugin-Vorlage
-
 >**WICHTIG**
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# 19.01.2022
+- Möglichkeit, den Überwachungsport von zigbee2mqtt zu konfigurieren
+- Ein Problem mit Farbtypbefehlen wurde behoben
+- Korrektur bei der Generierung von Befehlen, die in bestimmten Fällen nicht funktionieren konnten
+- Verbesserte Befehlsbenennung
+- Möglichkeit für Atlas-Boxen oder Elelabs-Controller, die Firmware von Jeedom aus zu aktualisieren
 
-- V4.2-Optimierungen
+# 07.03.2023
 
-# 20.11.2020
+- Ein Problem beim Senden eines Positionierungsbefehls (Verschlusstyp) wurde behoben)
 
-- Offizielle Präsentation V4
-- Informationselemente und Parameter für Befehle hinzugefügt
+# 27.06.2023
 
-# 16.11.2020
+- Ein Problem bei der Erkennung bestimmter Module (einschließlich Profalux) wurde behoben)
 
-- Jeedom Mindestversion: 3.3.39 (letzte kritische Aktualisierung)
+# 30.05.2023
 
-# 11.04.2020
-
-- Neue Darstellung der Objektliste
-
-# 08.07.2020
-
-- Kommentare hinzufügen
-
-# 17.05.2020
-
-- Aktualisierung der Dokumentation
+- Erste Version

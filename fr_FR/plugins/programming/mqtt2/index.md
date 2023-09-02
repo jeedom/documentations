@@ -42,7 +42,7 @@ Une fois le broker Mosquitto installé *(si nécessaire)*, vous pouvez passer à
   >
   >L'authentification est obligatoire en mode local.
 
-- **Topic racine Jeedom** : Sujet racine pour envoyer une commande à Jeedom ou sur lequel il renvoit les évènements.
+- **Topic racine Jeedom** : Sujet racine pour envoyer une commande à Jeedom ou sur lequel il renvoit les évènements. Attention il n'est possible de mettre que 1 ou 2 niveaux maximum.
 
 - **Transmettre tous les évènements** : Cocher la case pour envoyer tous les évènements des commandes Jeedom sur MQTT.
 
@@ -57,11 +57,7 @@ Il est possible de créer des équipements MQTT directement dans le plugin.
 Il faut indiquer le topic racine de l'équipement *(`test` par exemple)*, ensuite selon le type de commandes :
 
 - **Commandes info** : il suffit d'indiquer le topic complet.
-  >Pour exemple, si vous mettez `toto/1`, tous les messages sur le topic `test/toto/1` seront automatiquement écrits sur la commande en question. Le système est capable de gérer les champs de type json, dans ce cas il faut mettre `toto/1#key1` ou `toto/1#key1::key2` pour descendre d'un niveau.
-
-  >**IMPORTANT**
-  >
-  >Il faut absolument que l'arrivée corresponde à une valeur. Si vous avez `{"k1":"v1","k2":{"k2.2":"v2.2"},"k3":["v3.1"]}`, vous pouvez mettre `toto/1#k1` ou `toto/1#k2:k2.2` ou `toto/1#k3:0` mais `toto/1#k2` n'est pas possible.
+  >Pour exemple, si vous mettez `toto/1`, tous les messages sur le topic `test/toto/1` seront automatiquement écrits sur la commande en question. Le système est capable de gérer les champs de type json, dans ce cas il faut mettre `toto/1/key1` ou `toto/1/key1/key2` pour descendre d'un niveau.
 
 - **Commandes action** : il suffit d'indiquer le topic et le message.
   >Pour exemple, si vous mettez `toto/2` avec comme message `plop` chaque clic sur la commande enverra le message `plop` sur le topic `test/toto/2`.
@@ -69,6 +65,11 @@ Il faut indiquer le topic racine de l'équipement *(`test` par exemple)*, ensuit
   >**INFORMATION**
   >
   >Dans les commandes de type action vous pouvez utiliser les tags `#slider#`, `#color#`, `#message#` ou `#select#` qui seront automatiquement remplacés par leur valeur lors de l'exécution de la commande *(selon son sous-type)*. D'autre part, si le message est de type `json` il faut lui ajouter le préfixe `json::`.
+
+>**IMPORTANT**
+>
+>Le topic `jeedom` est reservé (cela peut se changer dans la configuration), il ne faut donc rien envoyer d'autre dessus que des commandes pour piloter jeedom
+
 
 # Jeedom via MQTT
 
@@ -93,3 +94,12 @@ Il est possible de piloter Jeedom à travers MQTT. Ci-après les différents top
 - **Broker sous Docker** : Il faut tout d'abord utiliser la commande **Supprimer** de l'équipement `mqtt2_mosquitto` issu du plugin **Docker Management** *(Plugins > Programmation > Docker Management)*. Vous pouvez ensuite supprimer cet équipement au complet.
 
 - **Broker local** : Il faut alors utiliser le bouton rouge **Désinstaller Mosquitto** depuis la page de configuration générale du plugin.
+
+
+# Découverte auto (discovery)
+
+Le plugin peux faire de la decouverte auto de plusieurs type de module. Pour cela il vous suffit juste d'autoriser la decouverte auto sur la page principale du plugin et de relancer le demon.
+
+>**IMPORTANT**
+>
+>Pour les modules de type tasmota il faut absolument que la configuration du full topic soit `%topic%/%prefix%/`

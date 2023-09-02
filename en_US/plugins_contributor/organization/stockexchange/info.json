@@ -5,13 +5,15 @@
 	"utilization": "Une clé API (gratuite) est nécessaire, voir documentation.",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.0",
+	"require": "4.2",
 	"category": "organization",
 	"hasDependency": false,
 	"hasOwnDeamon": false,
 	"maxDependancyInstallTime": 0,
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/stockexchange/#language#/",
 	"link": {
 		"forum": "https://community.jeedom.com/tags/plugin-stockexchange",
 		"video": ""

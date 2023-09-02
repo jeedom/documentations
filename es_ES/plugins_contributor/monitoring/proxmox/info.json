@@ -5,7 +5,7 @@
 	"utilization": "Vous devez déjà avoir un serveur Proxmox et il sera nécessaire de créer un utilisateur dédié à Jeedom.",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.0",
+	"require": "4.2",
 	"category": "monitoring",
 	"display": "panel",
 	"hasDependency": false,
@@ -13,6 +13,8 @@
 	"maxDependancyInstallTime": 0,
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/proxmox/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/proxmox/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/proxmox/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/proxmox/#language#/",
 	"link": {
 		"forum": "https://community.jeedom.com/tags/plugin-proxmox",
 		"video": ""

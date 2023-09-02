@@ -4,6 +4,24 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Improved V3 firmware support
+- Addition of information from tele-info
+
+# 12/15/2021
+
+- Bug correction on Index_TORE (thanks @Math)
+- Addition of the TI API (tele-info)
+- Addition of the status API
+
+# 12/02/2021
+
+- Bug fix if rt2 is restarted
+
+# 23/11/2020
+
+- New presentation of the list of objects
+- Addition of the tag "V4 compatibility"
+
 # 03/30/2020
 
 - Support for XTHL probes

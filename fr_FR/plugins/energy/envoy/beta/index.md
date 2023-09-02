@@ -47,3 +47,7 @@ Le plugin permet de remonter les informations suivantes (si vous disposez d'un E
     - Puissance Max (en W)
     - % de charge
     - Température maximale (en °C)
+
+# V7 firmware
+
+Si vous etes en firmware v7 vous pouvez soit récuperer le token vous meme en allant [la](https://entrez.enphaseenergy.com/), vous connecter puis cliquez sur "Create access token" et copier le code jwt dans la configuration du plugin jeedom (Attention nous ne savons pas pour le moment si ce code est valable de maniere illimité ou seulement quelques mois). **OU** vous indiquez dans votre nom d'utilisateur Enphase dans "[v7] Nom d'utilisateur", votre mot de passe dans "[v7] Mot de passe" et enfin le numéro de série de votre passerelle dans "[v7] Numéro de série de l'envoy", avec ces informations jeedom va automatiquement récuperer le token dès que necessaire.

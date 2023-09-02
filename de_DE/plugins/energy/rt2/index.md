@@ -1,6 +1,6 @@
 # EcoRT2 Plugin
 
-Mit diesem Plugin können Sie eine IPX 800 v4 verwalten
+Mit diesem Plugin können Sie eine IPX 800 v4 verwalten.
 
 # Plugin Konfiguration
 
@@ -8,7 +8,7 @@ Nachdem Sie das Plugin heruntergeladen haben, müssen Sie es nur noch aktivieren
 
 > **Notiz**
 >
-> Auf dieser Seite sehen Sie den Status des Dämons, der ecoRT2 überwacht
+> Auf dieser Seite sehen Sie den Status des Dämons, der ecoRT2 überwacht.
 
 # Gerätekonfiguration
 
@@ -16,26 +16,26 @@ Auf die Konfiguration der ecoRT2-Geräte kann über das Plugin-Menü und dann ü
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name des EcoRT2-Geräts** : Name Ihres ecoRT2-Geräts,
--   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
--   **Aktivieren** : macht Ihre Ausrüstung aktiv,
--   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
--   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören),
--   **IP** : Die ecoRT2 ip,
--   **API-Schlüssel** : ecoRT2-API-Schlüssel (standardmäßig ist der API-Schlüssel apikey)
--   **Erweiterung** : Hier müssen Sie die auf ecoRT2 vorhandenen Erweiterungen angeben, damit jeedom sie abfragen kann. Beispiel für enOcean müssen Sie ENO setzen (wenn Sie mehrere haben, müssen Sie diese durch trennen ,). Alle Erweiterungen werden normalerweise unterstützt. Für den Code der Erweiterung muss auf die Dokumentation dieser Erweiterung verwiesen werden.
+-   **Name des EcoRT2-Geräts** : Name Ihres ecoRT2-Geräts.
+-   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört.
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv.
+-   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar.
+-   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören).
+-   **IP** : Die ecoRT2 ip.
+-   **API-Schlüssel** : ecoRT2-API-Schlüssel (standardmäßig ist der API-Schlüssel apikey).
+-   **Erweiterung** : Hier müssen Sie die auf dem ecoRT2 vorhandenen Erweiterungen angeben, damit jeedom sie abfragen kann. Beispiel für enOcean Sie müssen ENO setzen (wenn Sie mehrere haben, müssen Sie diese durch Kommas trennen (``,``)). Alle Erweiterungen werden normalerweise unterstützt. Für den Code der Erweiterung muss auf die Dokumentation dieser Erweiterung verwiesen werden.
 
-Das Standard-Plugin erstellt nichts, es liegt an Ihnen, dies gemäß Ihrer Konfiguration zu tun, aber Sie werden angeleitet.
+Das Standard-Plugin erstellt nichts. Es liegt an Ihnen, dies entsprechend Ihrer Konfiguration zu tun, aber Sie werden angeleitet.
 
-# Commande
+# Commandes
 
 ## Action
 
 Sie haben die Arten von Aktionen :
 
--   **Ein** : Mit dieser Option können Sie einen Ausgang (oder virtuellen Eingang) auf 1 setzen oder einem analogen Eingang (oder Zähler) einen Wert zuweisen)
--   **Aus** : Ermöglicht das Setzen eines Ausgangs (oder eines virtuellen Eingangs) auf 0)
--   **Umschalten** : Ermöglicht das Umkehren des Status einer Ausgabe (oder einer virtuellen Eingabe))
+-   **Ein** : Mit dieser Option können Sie einen Ausgang (oder virtuellen Eingang) auf 1 setzen oder einem analogen Eingang (oder Zähler) einen Wert zuweisen).
+-   **Aus** : Ermöglicht das Setzen eines Ausgangs (oder eines virtuellen Eingangs) auf 0).
+-   **Umschalten** : Ermöglicht das Umkehren des Status einer Ausgabe (oder einer virtuellen Eingabe)).
 
 Sie haben die Arten von Aktuatoren :
 
@@ -46,7 +46,7 @@ Sie haben die Arten von Aktuatoren :
 
 > **Notiz**
 >
-> Bestimmte Arten von Aktuatoren können je nach Art der Aktion ausgeblendet werden
+> Einige Arten von Aktuatoren können je nach Art der Aktion ausgeblendet sein.
 
 Dann haben Sie abhängig von der Art der Aktion und dem Aktuator mehrere Parameter, die sein können :
 
@@ -62,7 +62,7 @@ Sie haben verschiedene Typen :
 -   Sofortige Post
 -   Relais
 -   Virtuelle Ausgabe
--   Digitaler Eingang
+-   Digitale Eingabe
 -   Compteur
 -   EnOcean
 -   Zählerindex
@@ -81,4 +81,4 @@ Sie haben verschiedene Typen :
 -   Preisakkumulation / Posttag
 -   Pilotdraht
 
-Für jeden Typ fragt jeedom Sie nach der Nummer der gewünschten Informationen
+Für jeden Typ fragt jeedom Sie nach der Nummer der gewünschten Informationen.

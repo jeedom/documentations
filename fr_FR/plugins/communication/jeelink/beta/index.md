@@ -29,6 +29,10 @@ Ce plugin ne nécessite pas de configuration particulière et doit simplement ê
 >
 >Les configurations réseaux de l'ensemble des Jeedoms *(source & cible)* doivent IMPERATIVEMENT être OK sinon le plugin ne fonctionnera pas.
 
+>**IMPORTANT**
+>
+>Il ne faut surtout pas avoir la meme clef api sur plusieurs jeedom cible. La clef d'un équimement est basé sur la clef api (il ne faut donc pas la changer après la configuration) et l'id source de l'équipement. Avoir la meme clef api sur les jeedom cibles entrainera donc des problemes de synchronisation avec des équipements qui pourraient ne pas apparaitre sur la source.
+
 ## Configuration Jeedom cible
 
 La première étape va constituer à définir un **Jeedom cible** depuis le **Jeedom source** *(celui qui détient les équipements à remonter)*.

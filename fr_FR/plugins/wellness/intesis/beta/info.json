@@ -1,0 +1,48 @@
+{
+    "id": "intesis",
+    "name": "Intesis",
+    "description": {
+        "fr_FR": "Plugin permettant de piloter les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox). Basées sur le protocole WMP, les passerelles « Intesis Wifi (ASCII) AC Interfaces » sont des box qui permettent de domotiser des systèmes de climatisation gainables (interface Intesis à connecter en filaire sur le bus du climatisateur) ou à split avec télécommande infrarouge (interface Intesis IR). Ce plugin supporte tous les modèles de passerelles Intesis Wifi (ASCII) AC Interfaces (aussi bien filaires que IR), mais n’est pas compatible avec les passerelles IntesisHome (et notamment pas avec les passerelles Intesis de la gamme IntesisHome).",
+        "en_US": "Plugin allowing to control the gateways “Intesis Wifi (ASCII) AC Interfaces” (formerly called Intesisbox). Based on the WMP protocol, the “Intesis Wifi (ASCII) AC Interfaces” gateways are boxes that allow the automation of ducted air conditioning systems (Intesis interface to be wired to the air conditioning bus) or split with infrared remote control (interface Intesis IR). This plugin supports all models of Intesis Wifi (ASCII) AC Interfaces gateways (both wired and IR), but is not compatible with IntesisHome gateways (and in particular not with Intesis gateways from the IntesisHome range)",
+        "es_ES": "Plugin que permite controlar las pasarelas “Intesis Wifi (ASCII) AC Interfaces” (antes llamado Intesisbox). Basadas en el protocolo WMP, las pasarelas “Intesis Wifi (ASCII) AC Interfaces” son cajas que permiten la automatización de sistemas de aire acondicionado por conductos (interfaz Intesis para conectarse al bus de aire acondicionado) o dividir con control remoto por infrarrojos (interfaz Intesis IR). Este complemento es compatible con todos los modelos de pasarelas Intesis Wifi (ASCII) AC Interfaces (tanto cableadas como IR), pero no es compatible con pasarelas IntesisHome (y en particular no con pasarelas Intesis de la gama IntesisHome)",
+        "de_DE": "Plugin zur Steuerung der Gateways „Intesis Wifi (ASCII) AC Interfaces“ (früher Intesisbox genannt). Basierend auf dem WMP-Protokoll sind die Gateways „Intesis Wifi (ASCII) AC Interfaces“ Boxen, die die Automatisierung von Abluftklimaanlagen (Intesis-Schnittstelle kann an den Klimaanlagenbus angeschlossen werden) oder die Aufteilung mit Infrarotfernbedienung (Schnittstelle) ermöglichen Intesis IR). Dieses Plugin unterstützt alle Modelle von Intesis Wifi (ASCII) AC-Schnittstellen-Gateways (sowohl verkabelt als auch IR), ist jedoch nicht mit IntesisHome-Gateways (und insbesondere nicht mit Intesis-Gateways aus der IntesisHome-Reihe) kompatibel",
+        "pt_PT": "Plugin que permite controlar os gateways “Interfaces AC Intesis Wifi (ASCII)” (anteriormente denominado Intesisbox). Baseados no protocolo WMP, os gateways “Intesis Wifi (ASCII) AC Interfaces” são caixas que permitem a automação de sistemas de ar condicionado canalizado (interface Intesis a ser conectada ao barramento de ar condicionado) ou split com controle remoto infravermelho (interface Intesis IR). Este plugin é compatível com todos os modelos de gateways Intesis Wifi (ASCII) AC Interfaces (com fio e IR), mas não é compatível com os gateways IntesisHome (e em particular não com os gateways Intesis da linha IntesisHome)",
+        "ru_RU": "Plugin permettant de piloter les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox). Basées sur le protocole WMP, les passerelles « Intesis Wifi (ASCII) AC Interfaces » sont des box qui permettent de domotiser des systèmes de climatisation gainables (interface Intesis à connecter en filaire sur le bus du climatisateur) ou à split avec télécommande infrarouge (interface Intesis IR). Ce plugin supporte tous les modèles de passerelles Intesis Wifi (ASCII) AC Interfaces (aussi bien filaires que IR), mais n’est pas compatible avec les passerelles IntesisHome (et notamment pas avec les passerelles Intesis de la gamme IntesisHome)",
+        "id_ID": "Plugin permettant de piloter les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox). Basées sur le protocole WMP, les passerelles « Intesis Wifi (ASCII) AC Interfaces » sont des box qui permettent de domotiser des systèmes de climatisation gainables (interface Intesis à connecter en filaire sur le bus du climatisateur) ou à split avec télécommande infrarouge (interface Intesis IR). Ce plugin supporte tous les modèles de passerelles Intesis Wifi (ASCII) AC Interfaces (aussi bien filaires que IR), mais n’est pas compatible avec les passerelles IntesisHome (et notamment pas avec les passerelles Intesis de la gamme IntesisHome)",
+        "it_IT": "Plugin permettant de piloter les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox). Basées sur le protocole WMP, les passerelles « Intesis Wifi (ASCII) AC Interfaces » sont des box qui permettent de domotiser des systèmes de climatisation gainables (interface Intesis à connecter en filaire sur le bus du climatisateur) ou à split avec télécommande infrarouge (interface Intesis IR). Ce plugin supporte tous les modèles de passerelles Intesis Wifi (ASCII) AC Interfaces (aussi bien filaires que IR), mais n’est pas compatible avec les passerelles IntesisHome (et notamment pas avec les passerelles Intesis de la gamme IntesisHome)",
+        "ja_JP": "Plugin permettant de piloter les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox). Basées sur le protocole WMP, les passerelles « Intesis Wifi (ASCII) AC Interfaces » sont des box qui permettent de domotiser des systèmes de climatisation gainables (interface Intesis à connecter en filaire sur le bus du climatisateur) ou à split avec télécommande infrarouge (interface Intesis IR). Ce plugin supporte tous les modèles de passerelles Intesis Wifi (ASCII) AC Interfaces (aussi bien filaires que IR), mais n’est pas compatible avec les passerelles IntesisHome (et notamment pas avec les passerelles Intesis de la gamme IntesisHome)",
+        "tr": "Plugin permettant de piloter les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox). Basées sur le protocole WMP, les passerelles « Intesis Wifi (ASCII) AC Interfaces » sont des box qui permettent de domotiser des systèmes de climatisation gainables (interface Intesis à connecter en filaire sur le bus du climatisateur) ou à split avec télécommande infrarouge (interface Intesis IR). Ce plugin supporte tous les modèles de passerelles Intesis Wifi (ASCII) AC Interfaces (aussi bien filaires que IR), mais n’est pas compatible avec les passerelles IntesisHome (et notamment pas avec les passerelles Intesis de la gamme IntesisHome)"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2",
+    "category": "wellness",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/intesis\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/intesis\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/intesis\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/intesis\/beta"
+}

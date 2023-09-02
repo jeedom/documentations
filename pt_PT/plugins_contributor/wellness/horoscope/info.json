@@ -1,8 +1,34 @@
 {
-"id" : "horoscope",
-"name" : "horoscope",
-"licence" : "AGPL",
-"author" : "Anakin",
-"require" : "3.0",
-"category" : "wellness"
+    "id": "horoscope",
+    "name": "Horoscope",
+    "description": "Plugin permettant de générer une phrase (selon différents thèmes) tous les jours en fonction des différents signes astrologiques.<br/>Très sympa pour donner l'horoscope le matin à une personne via TTS (par exemple avec la caméra Netatmo qui reconnait les visages) ou par SMS.",
+    "usage": "Il suffit de créer un équipement (de préférence le nom d'un signe du zodiaque) et de lui affecter le signe correspondant.<br/>Des petites phrases concernant son horoscope seront ensuite générées tous les jours.<br/>Depuis la dernière version, vous avez désormais accès à toutes les composantes du signe (Amour, Famille, Argent, Phrase de jour, ...).<br/>Cela permet de diversifier les messages TTS pour des personnes possédant le même signe du zodiaque par exemple.",
+    "licence": "AGPL",
+    "author": "JAG",
+    "require": "4.2",
+    "category": "wellness",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "language": [
+        "fr_FR"
+    ],
+    "changelog": "https://jealg.github.io/documentation/plugin-horoscope/#language#/changelog",
+    "documentation": "https://jealg.github.io/documentation/plugin-horoscope/#language#/",
+    "changelog_beta" : "https://jealg.github.io/documentation/plugin-horoscope/#language#/changelog_beta",
+ 	"documentation_beta" : "https://jealg.github.io/documentation/plugin-horoscope/#language#/",
+     "link" : {
+		"forum":"https://community.jeedom.com/tag/plugin-horoscope"
+	},
+     "compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas",
+		"luna"
+	]
 }

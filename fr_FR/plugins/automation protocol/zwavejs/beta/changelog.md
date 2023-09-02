@@ -4,6 +4,130 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# xx/08/2023
+
+**Corrections**
+
+- Correction de la mise à jour *OTA* d'un firmware de module suite à un changement ZwaveJSUI
+
+**Améliorations**
+
+- Passage à la version *8.23.2* de ZwaveJsUI.
+- Rajout de la possibilité de faire une mise à jour *OTW* d'un contrôleur (si compatible)
+- Rajout d'une option pour gérer les *notifications* dans le centre des messages *des noeuds morts et alives*
+- Rajout d'une option pour gérer les *notifications* dans le centre des messages *des réveils manqués et retour*
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Shelly Qubino Wave 1PM* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor)
+
+# 02/08/2023
+
+**Améliorations**
+
+- Passage à la version *8.22.0* de ZwaveJsUI.
+- Ajout de tous les *tty* dans la liste des ports (cela sera inutile avec le nouveau core qui permettra de choisir un port directement par l'id)
+- Ajout de la dernière route sur la page statistiques d'un noeud (dépend du SDK du contrôleur)
+- Ajout de la dernière vitesse-baud rate sur la page statistiques d'un noeud (dépend du SDK du contrôleur)
+- Ajout de la dernière vitesse-baud rate sur la page statistiques globale (dépend du SDK du contrôleur)
+- Ajout de la dernière route sur la page statistiques globale (dépend du SDK du contrôleur)
+- Ajout du dernier rssi sur la page statistiques globale (dépend du SDK du contrôleur)
+- Ajout du dernier rssi sur la page statistiques d'un noeud (dépend du SDK du contrôleur)
+- Rajout d'un graph *Route réseau* représentant les dernières routes empruntées (évoluera et peut ne pas gérer tous les cas dépend du SDK du contrôleur)
+- Rajout d'un message dans le centre de message lorsqu'un noeud passe Dead (en plus de la commande statut de l'équipement)
+- Rajout d'un message dans le centre de message lorsqu'un noeud passe Alive après avoir été Dead (en plus de la commande statut de l'équipement)
+- Rajout d'un message dans le centre de message lorsqu'un noeud ne s'est pas réveillé après 4 fois son interval de réveil 
+
+
+**Ajouts de Configurations**
+
+- Ajout d'une propriété *ThermostatFanState*
+- Ajout d'une sous commande *Label State* à la propriété Barrier Operator (pour avoir une commande label avec texte en plus de la commande numérique)
+- Ajout de la configuration *MCOhome Mh8FC* (propriétés : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperature)
+- Ajout de la configuration *Heltun HE-FT01* (propriétés : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperature, Illuminance, Humidity, Power, Energy)
+- Ajout de la configuration *MCOhome MH3901* (propriétés : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatOperatingState, Temperature)
+- Ajout d'une sous commande *Label State* à la propriété Thermostat Operating State (pour avoir une commande label avec texte en plus de la commande numérique)
+
+**Modifications de Configurations**
+
+- Modification de la configuration *HRT4_SRT321* pour utiliser les propriétés
+- Modification de la configuration *SRT323* pour utiliser les propriétés
+- Modification de l'image *HRT4_SRT321* (détourage)
+- Modification de l'image *SRT323* (détourage)
+- Modification de l'image *SSR303* (détourage)
+- Modification de l'image *SIR321* (détourage)
+- Modification de l'image *SES303* (détourage)
+- Modification de l'image *SES302* (détourage)
+- Modification de l'image *SCSC17* (détourage)
+
+# 26/06/2023
+
+**Améliorations**
+
+- Passage à la version *8.19.0* de ZwaveJsUI.
+- Les modules *FLIRS* ne sont plus considérés comme actif au maillage sur le graph réseau
+
+**Modifications de Configurations**
+
+- Modification de la configuration *Aeotec DSB04100 door window sensor* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC10 Heavy Duty Switch* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC06106 Smart Energy Switch* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC11 Smart Strip* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC08101 Smart Energy Illuminator* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC014104 Blind Control* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC17103 Micro Double Switch* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC18103 Micro Switch 2nd* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC26103 Micro Switch 2nd* pour utiliser les propriétés
+- Modification de la configuration *Aeotec DSC27103 Micro Dimmer 2nd* pour utiliser les propriétés
+- Modification de la configuration *Benext Panic Watch* pour utiliser les propriétés
+- Modification de la configuration *Benext Panic Button* pour utiliser les propriétés
+- Modification de la configuration *Benext Plug In Dimmer* pour utiliser les propriétés
+- Modification de la configuration *Dome On Off Plug In Switch Plug In Dimmer* pour utiliser les propriétés
+- Modification de la configuration *Domux Dx2skz* pour utiliser les propriétés
+- Modification de la configuration *Everspring AD142* pour utiliser les propriétés
+- Modification de la configuration *Everspring AN145* pour utiliser les propriétés
+- Modification de la configuration *Everspring EH403 Led FloodLight* pour utiliser les propriétés
+- Modification de la configuration *Heiman Dx2skz* pour utiliser les propriétés
+- Modification de la configuration *Philio Smart Dimmer E27* pour utiliser les propriétés
+- Modification de la configuration *Philio Pan03* pour utiliser les propriétés
+- Modification de la configuration *Popp Smart Plug* pour utiliser les propriétés
+- Modification de la configuration *Popp 009105* pour utiliser les propriétés
+- Modification de la configuration *Schlage On Wall* pour utiliser les propriétés
+- Modification de la configuration *Sigma Power Plug* pour utiliser les propriétés
+- Modification de la configuration *Swiid Plug* pour utiliser les propriétés
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Heat It ZM Dimmer* (propriétés : Multilevel, Power, Energy, CentralScene, Notification)
+- Ajout de la configuration *Sigma PZ701U* (propriétés : Switch)
+- Ajout de la configuration *Neo RC03Z* (propriétés : Central Scene, Battery)
+- Ajout d'une sous-propriété *Heat-Sensor* dans la propriété *Notification*
+- Ajout de la configuration *U-Fairy GR-201N* (propriétés : Switch)
+
+# 10/04/2023
+
+**Améliorations**
+
+- Les *refresh* peuvent maintenant aller jusqu'à 100 secondes au lieu de 60
+- Passage à la version *8.13.1* de ZwaveJsUI.
+- Modification de la fonction *pollValue* pour les propriétés à *value* (merci @superbricolo)
+
+**Modifications de Configurations**
+
+- Modification de la configuration *Aeotec ZWA19 Water Sensor* pour utiliser les propriétés
+- Modification de la configuration *Aeotec ZWA24 7in1* pour utiliser les propriétés
+- Modification de la configuration *Everspring SM810* pour utiliser les propriétés
+- Modification d'une propriété *Velocity*
+- Modification de l'image *Dlink 510* (détourage)
+- Modification de l'image *Fibaro Fgs-213* (détourage)
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Sigma PZ701U* (propriétés : Switch)
+- Ajout de la configuration *Neo RC03Z* (propriétés : Central Scene, Battery)
+- Ajout d'une sous-propriété *Heat-Sensor* dans la propriété *Notification*
+- Ajout de la configuration *U-Fairy GR-201N* (propriétés : Switch)
+
 # 14/02/2023
 
 **Modifications de Configurations**

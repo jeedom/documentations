@@ -4,10 +4,20 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-- Ajout d'un systeme d'autodecouverte pour certain module (beta)
+
+- Possibilité de corriger le QOS par defaut
+
+# 22/03/2023
+
+- Correction de bugs
+
+# 07/03/2023
+
+- Ajout d'un systeme d'autodecouverte pour certain module en beta (esphome, tasmota et shelly)
 - Ajout de l'image des modules
 - Correction d'un bug sur le client ID (si plusieurs jeedom sur le meme broker)
 - Support d'un sous niveau dans les topics d'équipement
+- Correction de bug
 
 # 23/12/2022
 

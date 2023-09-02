@@ -1,12 +1,12 @@
 # Weather plugin
 
-The plugin **Weather** allows you to retrieve meteorological data from one or more cities. The information comes from the website **Openweathermap** which gives access, among other things, to forecasts, sunrise and sunset information, temperature, humidity, wind, etc...
+The plugin **Weather** allows you to retrieve meteorological data from one or more cities.
 
 This data is refreshed every 30 minutes.
 
->**INFORMATION**
+>**IMPORTANT**
 >
->OpenWeather provides a list of information for the next 120 hours. Therefore, depending on the current time, we only know part of the information at D+4. Thus, this prediction on D + 4 is refined to become more precise as the current day progresses. For this reason, certain information, such as the MAX temperature reached on D + 4 can only make sense at the end of the day.
+>Following the configuration and activation of the equipment, it is absolutely necessary to launch a manual data update for the plugin to update or wait 30min for the automatic update
 
 # Configuration
 
@@ -40,4 +40,7 @@ You will then need to enter the GPS coordinates of the place from which you wish
 
 By clicking on the tab **Commands**, we find the list of all the commands available as well as the possibility of logging the numerical values.
 
-The command **Number** gives a code related to the current condition from which you can find more information [at this address](https://openweathermap.org/weather-conditions).
+
+## Weather code
+
+You will find [here](https://www.weatherapi.com/docs/weather_conditions.json) the meaning of the different weather codes

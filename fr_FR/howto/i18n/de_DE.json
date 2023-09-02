@@ -48,9 +48,7 @@
         "ATTENTION si vous le perdez les backups sont perdu il est impossible de récuperer le mot de passe": "Seien Sie vorsichtig, wenn Sie es verlieren, gehen die Backups verloren. Es ist unmöglich, das Passwort wiederherzustellen",
         "dans la gestion des sauvegarde cochez la case \"Envoi des sauvegardes\" au niveau de \"Sauvegardes Market": "Aktivieren Sie in der Sicherungsverwaltung das Kontrollkästchen \"Sicherungen senden\" auf der Ebene \"Marktsicherungen\"",
         "Il est possible de voir les dossiers des backups jeedom directement depuis votre page profils sur le market, onglet mes services puis configuration au niveau du service backup cloud": "Es ist möglich, die Jeedom-Sicherungsdateien direkt von Ihrer Profilseite auf dem Markt anzuzeigen, meine Dienste zu tabulieren und dann auf der Ebene des Cloud-Sicherungsdienstes zu konfigurieren",
-        "Erreur Specification mandate value for attribute defer on line 19, column 146": "Fehlerspezifikationsmandatwert für Attributverschiebung in Zeile 19, Spalte 146",
-        "Si vous avez cette erreur il faut contacter le support, c'est une erreur de notre coté au niveau (disque dur du serveur de backup en readonly": "Wenn Sie diesen Fehler haben, müssen Sie sich an den Support wenden. Dies ist ein Fehler auf unserer Seite auf der Ebene (Festplatte des Sicherungsservers ist schreibgeschützt",
-        "Suite à la correction de notre coté il faudra surement forcer une reconfiguration du backup cloud sur votre page profils (onglet service puis backup cloud": "Nach der Korrektur auf unserer Seite müssen Sie wahrscheinlich eine Neukonfiguration der Cloud-Sicherung auf Ihrer Profilseite erzwingen (Registerkarte \"Service\" und dann Cloud-Sicherung",
+        "La taille maximal de stockage par compte market est de 4go au dela le systeme supprimera les fichiers de sauvegarde les plus vieux jusqu'a tomber en dessous des 4go": "Die maximale Speichergröße pro Marktkonto beträgt 4 GB, darüber hinaus löscht das System die ältesten Sicherungsdateien, bis sie unter 4 GB fallen",
         " NOTE.": " Notiz.",
         " NOTE?": " Notiz?",
         "NOTE ": "Notiz ",
@@ -58,13 +56,13 @@
         "[NOTE]": "[Notiz]",
         "*NOTE*": "*Notiz*",
         " NOTE*": " Notiz*",
-        " FAQ.": " Faq.",
-        " FAQ?": " Faq?",
-        "FAQ ": "Faq ",
-        " FAQ]": " Faq]",
-        "[FAQ]": "[Faq]",
-        "*FAQ*": "*Faq*",
-        " FAQ*": " Faq*"
+        " IMPORTANT.": " WICHTIG.",
+        " IMPORTANT?": " WICHTIG?",
+        "IMPORTANT ": "WICHTIG ",
+        " IMPORTANT]": " WICHTIG]",
+        "[IMPORTANT]": "[WICHTIG]",
+        "*IMPORTANT*": "*WICHTIG*",
+        " IMPORTANT*": " WICHTIG*"
     },
     "howto\/cloudservice.md": {
         "Vacance scolaire": "Schulferien",
@@ -268,7 +266,6 @@
         "C'est un soucis lors de la negociation DHCP qui ne récupere pas bien les DNS, un redemarrage de la box corrige le soucis (qui n'arrive en générale que une fois": "Dies ist ein Problem während der DHCP-Aushandlung, das den DNS nicht gut wiederherstellt, ein Neustart der Box behebt das Problem (was normalerweise nur einmal auftritt)"
     },
     "howto\/index.md": {
-        "Passer jeedom ou un plugin en beta": "Gehen Sie jeedom oder Plugin in der Beta",
         "Remettre à zéro son mon de passe Jeedom en cas de perte": "Setzen Sie Ihr Jeedom-Passwort bei Verlust zurück",
         "Mettre à jour manuellement Jeedom": "Jeedom manuell aktualisieren",
         "Faire une sauvegarde": "Mach ein Backup",

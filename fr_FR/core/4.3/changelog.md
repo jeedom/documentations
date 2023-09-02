@@ -1,5 +1,15 @@
 # Changelog Jeedom V4.3
 
+## 4.3.17
+
+- Correction de bugs
+- Ajout d'un message lors de la mise à jour si l'utilisateur n'est pas sur la version stable
+
+## 4.3.16
+
+- Correction de bugs sur les designs 3D
+- Correction de bugs
+
 ## 4.3.15
 
 - Interdiction de la traduction de Jeedom par les navigateurs (évite les erreur type marché.repo.php non trouvé)

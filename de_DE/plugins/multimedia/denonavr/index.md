@@ -12,7 +12,7 @@ Auf die Konfiguration der Denon-Geräte kann über das Plugins-Menü und dann ü
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name de l'équipement Denon** : Name Ihrer Denon-Ausrüstung,
+-   **Name der Denon-Ausrüstung** : Name Ihrer Denon-Ausrüstung,
 -   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
 -   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören),
 -   **Aktivieren** : macht Ihre Ausrüstung aktiv,

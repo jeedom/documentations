@@ -4,7 +4,14 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zur Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 24.04.2023
+
+- Fasernabe hinzufügen
+
+# 23.08.2022
+
 - Gruppenverwaltung hinzugefügt
+- Verbesserte Unterstützung für mehrere Sender
 
 # 09.06.2022
 

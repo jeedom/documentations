@@ -86,7 +86,7 @@ Die Plugin-Template-Datei.js und die meisten Core-Seiten verwenden diese Funktio
 
 Core-spezifische DOM-Funktionen:
 
-[DocCore js](fr_FR/dev/corejs/index)
+[DocCore js](/de_DE/dev/corejs/index)
 
 [domUtils {}](https://github.com/jeedom/core/blob/alpha/core/dom/dom.utils.js)
 

@@ -1,3 +1,9 @@
+> **IMPORTANT**
+>
+> This tutorial is not made by Jeedom SAS but by a user of the community so we cannot guarantee that it works or that it is still current.
+
+
+
 # Installation of Letsencrypt
 
 Here are the commands to launch to install letsencrypt before generation :

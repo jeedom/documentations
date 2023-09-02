@@ -48,9 +48,7 @@
         "ATTENTION si vous le perdez les backups sont perdu il est impossible de récuperer le mot de passe": "BE CAREFUL if you lose it the backups are lost it is impossible to recover the password",
         "dans la gestion des sauvegarde cochez la case \"Envoi des sauvegardes\" au niveau de \"Sauvegardes Market": "in the backup management check the \"Send backups\" box at the \"Market Backups\" level",
         "Il est possible de voir les dossiers des backups jeedom directement depuis votre page profils sur le market, onglet mes services puis configuration au niveau du service backup cloud": "It is possible to see the jeedom backup files directly from your profile page on the market, tab my services then configuration at the level of the cloud backup service",
-        "Erreur Specification mandate value for attribute defer on line 19, column 146": "Error Specification mandate value for attribute defer on line 19, column 146",
-        "Si vous avez cette erreur il faut contacter le support, c'est une erreur de notre coté au niveau (disque dur du serveur de backup en readonly": "If you have this error you must contact the support, it is an error on our side at the level (hard drive of the backup server in readonly",
-        "Suite à la correction de notre coté il faudra surement forcer une reconfiguration du backup cloud sur votre page profils (onglet service puis backup cloud": "Following the correction on our side, you will probably have to force a reconfiguration of the cloud backup on your profile page (service tab then cloud backup",
+        "La taille maximal de stockage par compte market est de 4go au dela le systeme supprimera les fichiers de sauvegarde les plus vieux jusqu'a tomber en dessous des 4go": "The maximum storage size per market account is 4gb beyond that the system will delete the oldest backup files until it falls below 4gb",
         " NOTE.": " NOTE.",
         " NOTE?": " NOTE?",
         "NOTE ": "NOTE ",
@@ -58,13 +56,13 @@
         "[NOTE]": "[NOTE]",
         "*NOTE*": "*NOTE*",
         " NOTE*": " NOTE*",
-        " FAQ.": " Faq.",
-        " FAQ?": " Faq?",
-        "FAQ ": "Faq ",
-        " FAQ]": " Faq]",
-        "[FAQ]": "[Faq]",
-        "*FAQ*": "*Faq*",
-        " FAQ*": " Faq*"
+        " IMPORTANT.": " IMPORTANT.",
+        " IMPORTANT?": " IMPORTANT?",
+        "IMPORTANT ": "IMPORTANT ",
+        " IMPORTANT]": " IMPORTANT]",
+        "[IMPORTANT]": "[IMPORTANT]",
+        "*IMPORTANT*": "*IMPORTANT*",
+        " IMPORTANT*": " IMPORTANT*"
     },
     "howto\/cloudservice.md": {
         "Vacance scolaire": "School holidays",
@@ -268,7 +266,6 @@
         "C'est un soucis lors de la negociation DHCP qui ne récupere pas bien les DNS, un redemarrage de la box corrige le soucis (qui n'arrive en générale que une fois": "This is a problem during the DHCP negotiation which does not recover the DNS well, restarting the box corrects the problem (which usually only happens once"
     },
     "howto\/index.md": {
-        "Passer jeedom ou un plugin en beta": "Go jeedom or plugin in beta",
         "Remettre à zéro son mon de passe Jeedom en cas de perte": "Reset your Jeedom password in case of loss",
         "Mettre à jour manuellement Jeedom": "Manually update Jeedom",
         "Faire une sauvegarde": "Make a backup",

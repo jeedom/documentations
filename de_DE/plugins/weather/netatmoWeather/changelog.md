@@ -4,6 +4,14 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 02.05.2023
+
+- Bug-Fix
+
+# 23.01.2023
+
+- Durchgang eines Datenupdates alle 10min
+
 # 19.10.2020
 
 - Fehlerbehebung

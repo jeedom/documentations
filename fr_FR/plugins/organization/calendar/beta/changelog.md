@@ -4,6 +4,9 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 17/03/2023
+- Mise à disposition d'une api pour lister, ajouter, modifier et supprimer un évènement.
+
 # 22/12/2022
 
 - Mise à jour de la librairie `fullcalendar` de 3.10.5 vers 6.0.1

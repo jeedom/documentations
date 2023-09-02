@@ -10,11 +10,13 @@
 	"author" : "Nebz",
 	"hasDependency" : true,
 	"hasOwnDeamon" : true,
-	"require" : "3.3.24",
+	"require" : "4.0",
 	"category" : "automation protocol",
 	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
 	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/changelog",
+	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/changelog",
 	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/",
+	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/",
 	"forum_link" : "https://community.jeedom.com/tags/plugin-hkControl",
 	"link" : {
 		"forum":"https://community.jeedom.com/tags/plugin-hkControl"

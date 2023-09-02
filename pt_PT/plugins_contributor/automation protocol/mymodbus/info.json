@@ -8,7 +8,7 @@
 	"category" : "automation protocol",
 	"hasDependency" : 1,
 	"hasOwnDeamon" : 1,
-	"maxDependancyInstallTime" : 0,
+	"maxDependancyInstallTime" : 5,
 	"changelog" : "https://bebel27a.github.io/jeedom-mymobdus.github.io/#language#/changelog",
 	"documentation" : "https://bebel27a.github.io/jeedom-mymobdus.github.io/#language#/",
 	"link" : {

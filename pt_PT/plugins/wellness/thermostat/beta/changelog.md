@@ -4,6 +4,13 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+- Melhoria ao mudar os modos (ar condicionado, aquecimento ou ambos))
+- Remova o código obsoleto do imperihome
+
+# 20/04/2023
+
+- Melhor gerenciamento de aberturas
+
 # 10/03/2022
 
 - O smartstart não pode mais substituir o bloqueio do termostato

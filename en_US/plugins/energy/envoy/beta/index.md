@@ -47,3 +47,7 @@ The plugin allows you to report the following information (if you have an Envoy-
     - Max power (in W)
     - % dump
     - Maximum temperature (in ° C)
+
+# V7 firmware
+
+If you are in firmware v7 you can either retrieve the token yourself by going [there](https://entrez.enphaseenergy.com/), connect then click on "Create access token" and copy the jwt code in the configuration of the jeedom plugin (At the moment we do not know if this code is valid for an unlimited period or only for a few months). **OR** you indicate in your Enphase username in "[v7] Username", your password in "[v7] Password" and finally the serial number of your gateway in "[v7] Serial number of the send", with this information jeedom will automatically retrieve the token as soon as necessary.

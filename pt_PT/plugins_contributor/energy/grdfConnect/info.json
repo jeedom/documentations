@@ -4,7 +4,7 @@
     "description": {
     	"fr_FR": "Récupérer les informations de comptage gaz à partir de son compte-client GRDF ."
   	},
-  	"utilization": "Il faut disposer d'un compte-client GRDF valide, renseigner l'identifiant, le mot de passe.<br>Le plugin est basé sur une api non officielle, il peut cesser de fonctionner à tout moment, donc c'est à vos risques et perils ! ",
+  	"utilization": "Il faut disposer d'un compte-client GRDF valide, renseigner l'identifiant, le mot de passe.<br>Le plugin est basé sur une API non officielle, il peut cesser de fonctionner à tout moment, donc c'est à vos risques et perils ! ",
     "licence": "AGPL",
     "author": "Limad44",
     "require": "4.1",

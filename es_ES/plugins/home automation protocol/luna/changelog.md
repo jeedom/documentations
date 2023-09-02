@@ -6,6 +6,29 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
+# 05/02/2023
+
+- Parche LocalHost (cambio de derechos).
+- Función patch done (parpadeo del led verde de la caja solucionado)).
+- Añadida función LTE para cajas con opción LTE.
+- Adición de la función LORA para cajas con opción LORA.
+- Adición de usb fijo (ttyUSBLUNA-Zigbee para usar dnas el complemento Zigbee para no tener que preocuparse más por el cambio de usb).)
+
+
+# 27/03/2023
+
+- Nueva imagen luna
+- Parche de host local
+- Parche de batería
+- Parche USB fijo (LORA-zigbee fijo)
+
+# 21/02/2023
+
+- Partición SD.
+- Activación Lora para Luna con Lora integrado (Pro).
+- Solucionar el problema de Localhost en la caja.
+
+
 # 19/11/2022
 
 - SD (gestión)

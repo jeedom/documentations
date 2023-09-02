@@ -1,36 +1,23 @@
 # Registro de cambios jeeZigbee
 
-# Registro de cambios jeeZigbee
-
-# Registro de cambios Zigbee2Mqtt
-
-# Plantilla de complemento de registro de cambios
-
 >**IMPORTANTE**
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# 19/01/2022
+- Capacidad para configurar el puerto de escucha de zigbee2mqtt
+- Se solucionó un problema con los comandos de tipo de color
+- Corrección en la generación de comandos que no podían funcionar en ciertos casos
+- Nomenclatura de comandos mejorada
+- Posibilidad para cajas atlas o controladores tipo Elelabs de actualizar el firmware desde jeedom
 
-- Optimizaciones V4.2
+# 07/03/2023
 
-# 20/11/2020
+- Solucionado un problema al enviar un comando de posicionamiento (tipo obturador)
 
-- Presentación oficial V4
-- Se agregaron elementos de información y parámetros para los comandos
+# 27/06/2023
 
-# 16/11/2020
+- Se solucionó un problema con la detección de ciertos módulos (incluido profalux)
 
-- Versión mínima de Jeedom: 3.3.39 (última actualización crítica)
+# 30/05/2023
 
-# 11/04/2020
-
-- Nueva presentación de la lista de objetos
-
-# 08/07/2020
-
-- Agregar comentarios
-
-# 17/05/2020
-
-- Actualización de documentación
+- Versión inicial

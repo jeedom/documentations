@@ -35,8 +35,6 @@ You can find all Jeedom images [here](https://images.jeedom.com/)
 | Freebox        | Freebox Delta  | Stable         | root / Mjeedom96 | To install directly from the Freebox               | [Freebox](https://doc.jeedom.com/en_US/installation/freeboxdelta) |
 | Synology (Docker)| NAS Synology | Beta          | root / Mjeedom96  |                | [Synology](https://doc.jeedom.com/en_US/installation/synology) |
 
-\* Jeedom only officially supports Debian distribution. Debian 10 is fully supported, Debian 11 is in testing, see [here](https://doc.jeedom.com/en_US/compatibility/debian11).
-
 > **Information**
 >
 > You can also manually install Jeedom on any Debian system by following this [Documentation](https://doc.jeedom.com/en_US/installation/cli).
@@ -45,7 +43,7 @@ You can find all Jeedom images [here](https://images.jeedom.com/)
 
 > **IMPORTANT**
 >
-> Jeedom only supports Debian Stretch (not recommended) and Buster (stable). Any other version (Wheezy, Jessie…) or distribution (Ubuntu…) is not supported by Jeedom.
+> Jeedom only supports Debian Stretch (not recommended), Buster (end of life) and Bullseye (recommended). Any other version (Wheezy, Jessie…) or distribution (Ubuntu…) is not supported by Jeedom.
 
 | Name                     | State                    | Remarks                |
 |-------------------------|-------------------------|--------------------------|

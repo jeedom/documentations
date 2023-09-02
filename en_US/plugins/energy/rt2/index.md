@@ -1,6 +1,6 @@
 # EcoRT2 plugin
 
-This plugin allows you to manage an IPX 800 v4
+This plugin allows you to manage an IPX 800 v4.
 
 # Plugin configuration
 
@@ -8,7 +8,7 @@ After downloading the plugin, you just need to activate it, there is no configur
 
 > **NOTE**
 >
-> You can see on this page the state of the daemon that monitors ecoRT2
+> You can see on this page the state of the daemon that monitors ecoRT2.
 
 # Equipment configuration
 
@@ -16,26 +16,26 @@ The configuration of ecoRT2 equipment is accessible from the plugin menu then ho
 
 Here you find all the configuration of your equipment :
 
--   **EcoRT2 equipment name** : name of your ecoRT2 equipment,
--   **Parent object** : indicates the parent object to which the equipment belongs,
--   **Activate** : makes your equipment active,
--   **Visible** : makes your equipment visible on the dashboard,
--   **Category** : equipment categories (it can belong to several categories),
--   **IP** : The ecoRT2 ip,
--   **API key** : ecoRT2 API key (by default the API key is apikey)
--   **Extension** : here you must indicate the extensions present on ecoRT2 so that jeedom can interrogate them. Example for enOcean you must put ENO (if you have several, you must separate them by ,). All the extensions are normally supported, for the code of the extension to put it is necessary to refer to the documentation of this one.
+-   **EcoRT2 equipment name** : name of your ecoRT2 equipment.
+-   **Parent object** : indicates the parent object to which the equipment belongs.
+-   **Activate** : makes your equipment active.
+-   **Visible** : makes your equipment visible on the dashboard.
+-   **Category** : equipment categories (it can belong to several categories).
+-   **IP** : The ecoRT2 ip.
+-   **API key** : ecoRT2 API key (by default the API key is apikey).
+-   **Extension** : here you have to indicate the extensions present on the ecoRT2 so that jeedom can query them. Example for enOcean you must put ENO (if you have several, you must separate them with commas (``,``)). All extensions are normally supported, for the code of the extension to put it is necessary to refer to the documentation of this one.
 
-The default plugin does not create anything, it will be up to you to do it according to your configuration, but you will be guided.
+The default plugin does not create anything. It will be up to you to do this according to your configuration, but you will be guided.
 
-# Commande
+# Commandes
 
 ## Action
 
 You have the types of action :
 
--   **We** : allows you to set an output (or virtual input) to 1, or to assign a value to an analog input (or counter)
--   **Off** : allows to set to 0 an output (or virtual input)
--   **Toggle** : allows to reverse the state of an output (or virtual input)
+-   **We** : allows you to set an output (or virtual input) to 1, or to assign a value to an analog input (or counter).
+-   **Off** : allows to set to 0 an output (or virtual input).
+-   **Toggle** : allows to reverse the state of an output (or virtual input).
 
 You have the types of actuators :
 
@@ -46,7 +46,7 @@ You have the types of actuators :
 
 > **NOTE**
 >
-> Certain type of actuator can be hidden depending on the type of action
+> Some types of actuators may be hidden depending on the type of action.
 
 Then depending on the type of action and the actuator you have several parameters which can be :
 
@@ -81,4 +81,4 @@ You have different types :
 -   Price accumulation / Post day
 -   Pilot wire
 
-For each type jeedom will ask you the number of the desired information
+For each type jeedom will ask you the number of the desired information.

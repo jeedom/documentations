@@ -4,6 +4,77 @@ Plugin zur Verwendung der Jeedom Mobile-Anwendung.
 
 Die mobile Jeedom-Anwendung erfordert die Installation dieses Plugins, damit die Box mit der mobilen Anwendung kommunizieren kann.
 
+
+
+# Konfiguration des Mobile-Plugins für Application V2
+
+Nach der Installation des Plugins müssen Sie es nur noch aktivieren :
+
+![mobile1](../images/mobile1.png)
+
+
+# Erste Verbindung mit der V2-Anwendung
+
+Um Ihr Telefon zu verbinden : es gibt 2 mögliche Methoden;
+Auf dem ersten Bildschirm der Anwendung wird Ihnen angeboten, Ihr Marktkonto zu verbinden und so alle mit diesem Konto verknüpften Boxen zu finden oder einfach eine Box hinzuzufügen.
+
+![v2ConnectMarket](../images/v2firstConnect.jpeg)
+
+
+#### __LOGIN ÜBER DAS MARKET ACCOUNT__ :
+
+![v2ConnectMarket](../images/v2connectMarket.PNG)
+
+Sie müssen lediglich Ihre Markt-ID und Ihr Passwort eingeben.
+
+
+#### __LOGIN ÜBER BOX-ID__ :
+
+![v22methods](../images/v22methods.PNG)
+
+Mehrere Auswahlmöglichkeiten auf diesem Bildschirm :
+
+  - Sie geben die URL Ihres Jeedoms (intern oder extern) sowie die Zugangskennungen dazu ein und bestätigen mit dem LOGIN-Button
+
+
+  - Sie klicken auf QR-Code : ein neuer Bildschirm erscheint; Sie können einen QRCode aus dem Mobile-Plugin der Box, die Sie hinzufügen möchten, über die Registerkarte QRCODE des Plugins scannen.
+
+![v2ModalQrApp](../images/v2QRCodeConnect.PNG)
+
+
+> Registerkarte „Qr-Code“ des Mobile-Plugins
+
+>> ![v2ModalPlugin](../images/v2ModalQrCode.png)
+
+
+
+Nach diesem ersten Schritt sind Sie in der Anwendung registriert: Wenn Sie das Mobile-Plugin haben, haben Sie über das Menü Zugriff auf Benachrichtigungen, QrCodes, Menüanpassung ....
+
+
+Im Menü haben Sie eine Registerkarte Boxen, die alle auf diesem Marktkonto vorhandenen Boxen zusammenfasst
+
+![v2MenuBoxs](../images/v2MenuBoxs.PNG)
+
+![v2floutedBoxs](../images/v2floutedBoxs.png)
+
+Klicken Sie einfach auf das Kästchen, in dem das Mobile-Plugin installiert ist, und identifizieren Sie sich dann, um auf das Kästchen zuzugreifen.
+
+Das Feld wird an den Anfang der Liste gestellt, nachdem es seine Authentifizierung validiert hat.
+Sie können dies für mehrere Boxen tun.
+
+Sie können auch unten rechts auf die Schaltfläche + klicken, um auf verschiedene Optionen zuzugreifen
+  - QRCode zum Hinzufügen einer Box zur Liste über das Mobile-Plugin,
+  - Manuell, um eine Box manuell hinzuzufügen
+  - Erkennung Atlas und Luna (wenn Sie mit WLAN verbunden sind, erkennen die Boxen im Netzwerk)
+  - Market-Synchronisierung, um konfigurierte Market-Kontoinformationen zu aktualisieren
+
+![v2greenBtnAdd](../images/v2greenBtnAdd.PNG)
+
+
+
+
+
+
 # Konfiguration des mobilen Plugins
 
 Nach der Installation des Plugins müssen Sie es nur noch aktivieren :
@@ -64,7 +135,7 @@ Sie finden die Anwendungen auf den mobilen Jalousien :
 
 Wenn Sie die Mobile-Anwendung zum ersten Mal starten, wird Ihnen ein Lernprogramm angeboten, das Sie bei der Konfiguration unterstützt.
 
-Starten Sie die Anwendung nach dem Herunterladen und Installieren Ihrer mobilen Jeedom-Anwendung auf Ihrem Smartphone.
+Nachdem Sie Ihre Jeedom-Mobilanwendung heruntergeladen und installiert haben, starten Sie die Anwendung auf Ihrem Smartphone.
 
 Sie gelangen dann zu einem Konfigurations-Tutorial, dem Sie folgen sollten. Einige Schritte wurden zuvor ausgeführt.
 

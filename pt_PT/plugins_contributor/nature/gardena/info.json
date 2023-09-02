@@ -1,11 +1,11 @@
 {
 	"id": "gardena",
 	"name": "Gardena-Husqvarna",
-	"description": "Plugin permettant d'intégrer tous les appareils de la gamme Gardena Smart System (Water Control, sensor, irrigation control, power socket et Sileno mower) ainsi que les robots Husqvarna Automower Connect. Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions en fonction de l'appareil (voir la documentation).",
+	"description": "Plugin permettant d'intégrer tous les appareils de la gamme Gardena Smart System (Water Control, sensor, irrigation control, power socket et Sileno mower) ce qui permet de controler votre système d'arrosage et votre robot tondeuse ainsi que les robots Husqvarna Automower Connect. Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions en fonction de l'appareil (voir la documentation).",
 	"utilization": "Le plugin utilise les API officielles du group Husqvarna / Gardena pour piloter vos équipements, cela devrait donc être plus stable dans le temps que d'autres intégrations. Une clé API (gratuite) est nécesaire pour la configuration; tout est détaillé dans la page de configuration du plugin.",
 	"licence": "AGPL",
 	"author": "Mips",
-	"require": "4.0",
+	"require": "4.2",
 	"category": "nature",
 	"hasDependency": true,
 	"hasOwnDeamon": true,

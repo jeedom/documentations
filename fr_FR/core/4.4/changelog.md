@@ -1,5 +1,10 @@
 # Changelog Jeedom V4.4
 
+>**IMPORTANT**
+>
+>Attention la version 4.4 est une mise à jour majeur de jeedom, meme si visuellement les changements pour vous seront minime tous le code de l'interface à été réécris (pour etre plus rapidement en particulier), de meme la gestion des dépendances php à été revu. Meme si l'équipement Jeedom et des betatesteurs a fait enormement de test il y a autant de version de jeedom qu'il y a de jeedom. Il n'est donc pas possible de garantir que ca marchera chez tous le monde dans 100% des cas. Nous vous conseillons donc de ne pas vous jeter sur la mise à jour.
+>Pour rappel en cas de soucis vous pouvez ecrire au support (si vous avez un service pack ou plus) depuis votre page profils du market.
+
 
 ### 4.4 : Pré-requis
 
@@ -26,8 +31,10 @@
 - **Administration** : Possibilité de paramétrer les widgets par défaut des commandes.
 - **Dashboard** : possibilité sur la page de configuration des objets de demander à Jeedom de réordonner les équipements en fonction de leur utilisation.
 - **Thème** : Possibilité de choisir le thème directement depuis l'url (en ajoutant &theme=Dark ou &theme=Light).
+- **Thème** : Suppression du thème **Core2019 Legacy** *(alpha)*.
 - **Rapport** : Possibilité de choisir le thème lors d'un rapport sur une page Jeedom.
 - **Menu Jeedom** : Un délai de 0.25s a été introduit sur l'ouverture des sous-menus.
+
 
 ### 4.4 : Autre
 
@@ -35,6 +42,7 @@
 - **Core** : Listing plus détaillé des périphériques USB.
 - **Core** : Un menu contextuel a été ajouté à différents endroits au niveau des cases à cocher pour les sélectionner toutes, aucunes, ou inverser la sélection *(voir [Doc dev](https://doc.jeedom.com/fr_FR/dev/core4.4))*.
 - **Lib** : Update Highchart v9.3.2 vers v10.3.2 (Le module *solid-gauge* n'est plus importé).
+- **Commandes** :  Ajout d'une option *(alpha)* pour ne pas exécuter une action si l'équipement est déjà dans l'état attendu.
 
 ### 4.4 : Remarques
 

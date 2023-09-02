@@ -11,9 +11,6 @@ Una vez que se compra el servicio, debe estar en libertad :
 >
 >Es posible ver los archivos de copia de seguridad de Jeedom directamente desde su página de perfil en el mercado, tabular mis servicios y luego la configuración a nivel del servicio de copia de seguridad en la nube
 
-## FAQ
-
-> **Valor de mandato de especificación de error para diferir atributo en la línea 19, columna 146**
+>**IMPORTANTE**
 >
-> Si tiene este error, debe comunicarse con el soporte, es un error de nuestra parte en el nivel (disco duro del servidor de respaldo en solo lectura).
-> Después de la corrección de nuestro lado, probablemente tendrá que forzar una reconfiguración de la copia de seguridad en la nube en su página de perfil (pestaña de servicio y luego copia de seguridad en la nube)
+>El tamaño máximo de almacenamiento por cuenta de mercado es de 4 gb más allá de eso, el sistema eliminará los archivos de copia de seguridad más antiguos hasta que caiga por debajo de 4 gb.

@@ -1,5 +1,10 @@
 # Changelog Jeedom V4.4
 
+>**IMPORTANTE**
+>
+>Nota versão 4.4 é uma grande atualização do jeedom, mesmo que visualmente as mudanças para você sejam mínimas, todo o código da interface foi reescrito (para ser mais rápido em particular), assim como o gerenciamento de dependências do php foi revisado. Mesmo que o equipamento Jeedom e os betatesters tenham feito muitos testes, existem tantas versões de jeedom quanto jeedom. Portanto, não é possível garantir que funcione para todos em 100% dos casos. Portanto, aconselhamos você a não pular na atualização.
+>Como lembrete, em caso de problemas, você pode escrever para o suporte (se tiver um service pack ou mais) na página de perfis de mercado.
+
 
 ### 4.4 : Pré-requisitos
 
@@ -26,8 +31,10 @@
 - **Administração** : Capacidade de definir widgets de comando padrão.
 - **Painel** : possibilidade na página de configuração do objeto para pedir jeedom para reordenar o equipamento de acordo com seu uso.
 - **Tema** : Possibilidade de escolher o tema diretamente do url (adicionando &theme=Dark ou &theme=Light).
+- **Tema** : Remoção do tema **Legado Core2019** *(alpha)*.
 - **Relatório** : Possibilidade de escolher o tema durante um relatório em uma página jeedom.
 - **Menu Jeedom** : Um atraso de 0.25s foi introduzido na abertura de submenus.
+
 
 ### 4.4 : Autre
 
@@ -35,6 +42,7 @@
 - **Essencial** : Listagem mais detalhada de dispositivos USB.
 - **Essencial** : Um menu contextual foi adicionado em diferentes lugares ao nível das caixas de seleção para selecionar todas, nenhuma ou inverter a seleção *(consulte [Desenvolvedor de documentos](https://doc.jeedom.com/pt_PT/dev/core4.4))*.
 - **Livre** : Atualizar Highchart v9.3.2 a v10.3.2 (O módulo *calibre sólido* não é mais importado).
+- **Pedidos** :  Adicionado uma opção *(alpha)* não executar uma ação se o equipamento já estiver no estado esperado.
 
 ### 4.4 : Remarques
 

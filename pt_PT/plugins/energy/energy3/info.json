@@ -1,0 +1,41 @@
+{
+	"id" : "energy3",
+	"name" : "Energie dashboard",
+	"description" : {
+		"fr_FR": "Plugin servant à afficher un dashboard énergétique de la maison (eau, gaz, électricité et production solaire). Attention ce plugin ne prend pas en charge les batteries"
+	},
+	"licence" : "AGPL",
+	"author" : "Jeedom SAS",
+	"require" : "4.3",
+	"category" : "energy",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy3\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy3\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy3\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy3\/beta",
+	"display": "panel",
+    "mobile": "panel",
+	"language": [
+		"fr_FR",
+		"en_US",
+		"es_ES",
+		"de_DE",
+		"ru_RU",
+		"id_ID",
+		"it_IT",
+		"ja_JP",
+		"pt_PT"
+	],
+	"compatibility": [
+		"miniplus",
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
+}

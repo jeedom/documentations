@@ -4,7 +4,7 @@ Si vous voulez découvrir Jeedom sans risque, vous pouvez aussi le virtualiser s
 
 ## Téléchargement et installation de VirtualBox
 
-Vous devez télécharger le logicel Virtual Box [ici](https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe)
+Vous devez télécharger le logicel Virtual Box [ici](https://www.virtualbox.org/wiki/Downloads)
 
 # Installation automatique
 
@@ -50,9 +50,9 @@ Ensuite, vous pouvez suivre la documentation [Premier pas avec Jeedom](https://d
 
 # Installation manuel
 
-## Téléchargement d’une image Debian strecht - netinstall
+## Téléchargement d’une image Debian 11 - netinstall
 
-Téléchargez une image minimaliste debian 10 Buster [ici](https://www.debian.org/CD/http-ftp/), en choisissant CD -> AMD64
+Téléchargez une image minimaliste debian 11 [ici](https://www.debian.org/releases/bullseye/debian-installer/), en choisissant "images de CD d’installation par le réseau" -> AMD64
 
 ## Configuration de l’environnement de la VM
 
@@ -81,7 +81,7 @@ Cliquez sur nouvelle et renseignez les champs comme ci dessous :
 
 -   Cliquez sur OK \*Cliquez sur démarrer
 
-## Installation de debian 9
+## Installation de debian 11
 
 C’est du classique…​
 
@@ -105,7 +105,7 @@ C’est du classique…​
 -   Récupérez le script jeedom, le rendre exécutable, le lancer
 
 ````
-wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
+wget https://raw.githubusercontent.com/jeedom/core/V4-stable/install/install.sh
 chmod +x install.sh
 ./install.sh
 ````

@@ -48,9 +48,7 @@
         "ATTENTION si vous le perdez les backups sont perdu il est impossible de récuperer le mot de passe": "Tenga cuidado si lo pierde, las copias de seguridad se pierden, es imposible recuperar la contraseña",
         "dans la gestion des sauvegarde cochez la case \"Envoi des sauvegardes\" au niveau de \"Sauvegardes Market": "en la gestión de copias de seguridad, marque la casilla \"Enviar copias de seguridad\" en el nivel \"Copias de seguridad del mercado\"",
         "Il est possible de voir les dossiers des backups jeedom directement depuis votre page profils sur le market, onglet mes services puis configuration au niveau du service backup cloud": "Es posible ver los archivos de copia de seguridad de Jeedom directamente desde su página de perfil en el mercado, tabular mis servicios y luego la configuración a nivel del servicio de copia de seguridad en la nube",
-        "Erreur Specification mandate value for attribute defer on line 19, column 146": "Valor de mandato de especificación de error para diferir atributo en la línea 19, columna 146",
-        "Si vous avez cette erreur il faut contacter le support, c'est une erreur de notre coté au niveau (disque dur du serveur de backup en readonly": "Si tiene este error, debe comunicarse con el soporte, es un error de nuestra parte en el nivel (disco duro del servidor de respaldo en solo lectura",
-        "Suite à la correction de notre coté il faudra surement forcer une reconfiguration du backup cloud sur votre page profils (onglet service puis backup cloud": "Después de la corrección de nuestro lado, probablemente tendrá que forzar una reconfiguración de la copia de seguridad en la nube en su página de perfil (pestaña de servicio y luego copia de seguridad en la nube",
+        "La taille maximal de stockage par compte market est de 4go au dela le systeme supprimera les fichiers de sauvegarde les plus vieux jusqu'a tomber en dessous des 4go": "El tamaño máximo de almacenamiento por cuenta de mercado es de 4 gb más allá de eso, el sistema eliminará los archivos de copia de seguridad más antiguos hasta que caiga por debajo de 4 gb",
         " NOTE.": " Nota.",
         " NOTE?": " Nota?",
         "NOTE ": "Nota ",
@@ -58,13 +56,13 @@
         "[NOTE]": "[Nota]",
         "*NOTE*": "*Nota*",
         " NOTE*": " Nota*",
-        " FAQ.": " Preguntas frecuentes.",
-        " FAQ?": " Preguntas frecuentes?",
-        "FAQ ": "Preguntas frecuentes ",
-        " FAQ]": " Preguntas frecuentes]",
-        "[FAQ]": "[Preguntas frecuentes]",
-        "*FAQ*": "*Preguntas frecuentes*",
-        " FAQ*": " Preguntas frecuentes*"
+        " IMPORTANT.": " IMPORTANTE.",
+        " IMPORTANT?": " IMPORTANTE?",
+        "IMPORTANT ": "IMPORTANTE ",
+        " IMPORTANT]": " IMPORTANTE]",
+        "[IMPORTANT]": "[IMPORTANTE]",
+        "*IMPORTANT*": "*IMPORTANTE*",
+        " IMPORTANT*": " IMPORTANTE*"
     },
     "howto\/cloudservice.md": {
         "Vacance scolaire": "Vacaciones escolares",
@@ -268,7 +266,6 @@
         "C'est un soucis lors de la negociation DHCP qui ne récupere pas bien les DNS, un redemarrage de la box corrige le soucis (qui n'arrive en générale que une fois": "Este es un problema durante la negociación de DHCP que no recupera bien el DNS, reiniciando la caja se corrige el problema (que generalmente solo ocurre una vez"
     },
     "howto\/index.md": {
-        "Passer jeedom ou un plugin en beta": "Go Jeedom o plugin en beta",
         "Remettre à zéro son mon de passe Jeedom en cas de perte": "Restablezca su contraseña de Jeedom en caso de pérdida",
         "Mettre à jour manuellement Jeedom": "Actualizar manualmente Jeedom",
         "Faire une sauvegarde": "Hacer una copia de seguridad",

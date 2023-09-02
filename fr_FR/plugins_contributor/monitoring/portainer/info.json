@@ -5,7 +5,7 @@
 	"utilization": "Il est nécessaire d'installer Portainer.io sur votre environnement docker. Portainer peut être installé très simplement dans un container.",
 	"licence": "AGPL",
 	"author": "Mips2648",
-	"require": "4.0",
+	"require": "4.2",
 	"category": "monitoring",
 	"display": "panel",
 	"hasDependency": false,
@@ -13,6 +13,8 @@
 	"maxDependancyInstallTime": 0,
 	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/portainer/#language#/changelog",
 	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/portainer/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/portainer/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/portainer/#language#/",
 	"link": {
 		"forum": "https://community.jeedom.com/tags/plugin-portainer",
 		"video": ""

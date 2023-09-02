@@ -4,7 +4,9 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de la documentación, la traducción o el texto
 
-- Posibilidad de pasar por un modo mqtt para retroalimentación de información SIA, vía nodered (un artículo en el blog explicará cómo hacer esto)
+# 06/06/2023
+
+- Agregar concentrador de fibra
 
 # 23/08/2022
 

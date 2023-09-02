@@ -67,7 +67,7 @@ An example of detection of Bacnet equipment :
 
 ![tableau](../images/BacnetTableau.png)
 
-Depending on the equipment manufacturer, some values are not available; 
+Depending on the equipment manufacturer, some values are not available;
 
 All you have to do is select the orders to be created by checking one of the options according to your choice (command type info or type action):
 
@@ -118,6 +118,38 @@ Those of AnalogValue, BinaryValue or MultistateValue inputs / outputs can be ord
 
 
 When creating the chosen write-type orders, an associated action order will also be created, by default not visible on the dashboard.
-By clicking on it, it resets the write priority table of an input / output to the default. 
+By clicking on it, it resets the write priority table of an input / output to the default.
 It will have a name with << resetPrioritesEcriture >>
 To make this command visible on your dashboard, go to the commands of your equipment and check the "Show"
+
+
+
+# List on Command Action (for MultiStateValue)
+
+When you have created a Write command as usual from the scan results, it is basic in Slider or On Off, depending on the type of Bacnet point returned (analog, binary) : now, if you choose a multiState, the command will be of type Slider by default, but you can list it in the list of equipment commands; a new Value List field will appear;
+You can put the values you want, separated by a -, without space : for example 1-4-5-8
+When saving the equipment, this will put these values in the list of the order on the Dashboard
+When changing this value, it will send the value write on the parameterized point.
+
+
+
+
+# Write priority
+
+    A Handle with care
+
+    A Write Priority field is available on each order created
+
+    As per the documentation :
+
+    In BACnet, object to which we can write often provide what is called the priorityArray. This array contains 16 levels to which we can write (1 being the highest priority).
+
+    Typical usage of priority is :
+
+    1 Manual-Life Safety 2 Automatic-Life Safety 3 Available 4 Available 5 Critical Equipment Control 6 Minimum On/Off 7 Available 8 Manual Operator (Override) 9 Available 10 Available (Typical Control from a Supervisor) 11 Available 12 Available 13 Available 14 Available 15 Available (Schedule) 16 Available
+
+
+
+    You can choose a write priority on the desired commands, by choosing a number between 1 and 16
+
+    If no value entered on a write command, by default the value will be set to 8.

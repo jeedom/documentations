@@ -4,48 +4,56 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
-# 02/03/2022
+# 29/05/2023
 
-- Versão beta, compatível com 4.2.7
+FAÇA BACKUP DO JEEDOM ANTES DE INSTALAR O NOVO BETA.
+- Escreva 1 bit
+- Pedidos de importação/exportação via Xlsx
+- Nova operação de sintaxe no comando (consulte o documento)
+- Fixs
 
-# 14/02/2022
+# 15/05/2023
 
-- Função Fc16 para PLCs sem Fc6
+- Novas configurações de comando da interface do usuário
+- Valores de otimizações de conversão
+- Parâmetro de Retorno Hexadecimal
 
-# 20/03/2022
+# 03/04/2023
 
-- Função Fc16 Registrador não seguido
+- Novas configurações de comando da interface do usuário
+- Parâmetro ArrayRegistres para escrever consecutivamente a partir de um registro inicial
 
-# 02/05/2022
-
-- Função Exportando um arquivo Json e Importando pedidos por Equipamento 
-
-# 01/08/2022
-
-- BugFix na desconexão de um dispositivo no mesmo barramento
-
-# 16/08/2022
-
-- Escolha da porta para Modbus TCP (por padrão 502)
-
-# 23/09/2022
-
-- Biblioteca pyModbus de logs de alterações
-
-# 26/09/2022
-
-- Novo parâmetro de tempo limite entre o registro de leitura
-
-# 10/07/2022
-
-- Novo sistema de modelo pré-gravado
-- Opção ReadMultiRegisters nos comandos
+# 10/01/2023
+- Corrigir pacotes de importação para python 3.9
 
 # 13/10/2022
-
 - Opção Ativar/Desativar Mensagem de Gravação
 - Opção nbBytes para determinar a divisão de um registro em x bytes
 
-# 10/01/2023
+# 10/07/2022
+- Novo sistema de modelo pré-gravado
+- Opção ReadMultiRegisters nos comandos
 
-- Corrigir pacotes de importação para python 3.9
+# 26/09/2022
+- Novo parâmetro de tempo limite entre o registro de leitura
+
+# 23/09/2022
+- Biblioteca pyModbus de logs de alterações
+
+# 16/08/2022
+- Escolha da porta para Modbus TCP (por padrão 502)
+
+# 01/08/2022
+- BugFix na desconexão de um dispositivo no mesmo barramento
+
+# 02/05/2022
+- Função Exportando um arquivo Json e Importando pedidos por Equipamento
+
+# 20/03/2022
+- Função Fc16 Registrador não seguido
+
+# 14/02/2022
+- Função Fc16 para PLCs sem Fc6
+
+# 02/03/2022
+- Versão beta, compatível com 4.2.7

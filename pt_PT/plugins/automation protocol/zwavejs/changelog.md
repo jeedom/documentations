@@ -4,18 +4,140 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# XX/01/2023
+# 31/07/2023
+
+**Melhorias**
+
+- Mudar para a versão *8.21.2* por ZwaveJsUI.
+- Adição de todos *tty* na lista de portas (isso será inútil com o novo núcleo que permitirá escolher uma porta diretamente pelo id)
+- Adicionada a última rota na página de estatísticas de um nó (depende do SDK do controlador)
+- Adicionada a última taxa de transmissão de velocidade na página de estatísticas de um nó (depende do SDK do controlador)
+- Adicionada a última taxa de transmissão de velocidade na página de estatísticas globais (depende do SDK do controlador)
+- Adicionada última rota na página de estatísticas globais (depende do SDK do controlador)
+- Adicionado rssi mais recente na página de estatísticas globais (depende do SDK do controlador)
+- Adicionado o rssi mais recente na página de estatísticas de um nó (depende do SDK do controlador)
+- Adição de um gráfico *Rota de rede* representando as últimas rotas tomadas (irá escalar e pode não lidar com todos os casos depende do SDK do controlador)
+- Adição de uma mensagem no centro de mensagens quando um nó fica inoperante (além do comando de status do equipamento)
+- Adição de uma mensagem no centro de mensagens quando um nó fica Alive depois de Morto (além do comando de status do equipamento)
+- Adição de uma mensagem no centro de mensagens quando um nó não acordou após 4 vezes seu intervalo de ativação 
+
+
+**Adições de configuração**
+
+- Adicionando uma propriedade *TermostatoFanState*
+- Adicionando um subcomando *Estado do rótulo* à propriedade Operador de barreira (para ter um comando de etiqueta com texto além do comando numérico)
+- Configuração adicionada *MCOhome Mh8FC* (propriedades : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperatura)
+- Configuração adicionada *Heltun HE-FT01* (propriedades : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatFanMode, ThermostatFanModeAction, ThermostatOperatingState, ThermostatFanState, Temperatura, Iluminância, Umidade, Potência, Energia)
+- Configuração adicionada *MCOhome MH3901* (propriedades : ThermostatMode, ThermostatModeAction, ThermostatSetpoint, ThermostatOperatingState, Temperatura)
+- Adicionando um subcomando *Estado do rótulo* à propriedade Thermostat Operating State (para ter um comando de rótulo com texto além do comando numérico)
+
+**Alterações de configuração**
+
+- Mudando a configuração *HRT4_SRT321* para usar as propriedades
+- Mudando a configuração *SRT323* para usar as propriedades
+- Editando a imagem *HRT4_SRT321* (recorte)
+- Editando a imagem *SRT323* (recorte)
+- Editando a imagem *SSR303* (recorte)
+- Editando a imagem *SIR321* (recorte)
+- Editando a imagem *SES303* (recorte)
+- Editando a imagem *SES302* (recorte)
+- Editando a imagem *SCSC17* (recorte)
+
+# 26/06/2023
+
+**Melhorias**
+
+- Mudar para a versão *8.19.0* por ZwaveJsUI.
+- Módulos *FLIRS* não são mais considerados ativos na malha no gráfico de rede
+
+**Alterações de configuração**
+
+- Mudando a configuração *Sensor de janela de porta Aeotec DSB04100* para usar as propriedades
+- Mudando a configuração *Interruptor Aeotec DSC10 Heavy Duty* para usar as propriedades
+- Mudando a configuração *Aeotec DSC06106 Interruptor de Energia Inteligente* para usar as propriedades
+- Mudando a configuração *Faixa Inteligente Aeotec DSC11* para usar as propriedades
+- Mudando a configuração *Aeotec DSC08101 Iluminador Smart Energy* para usar as propriedades
+- Mudando a configuração *Controle cego Aeotec DSC014104* para usar as propriedades
+- Mudando a configuração *Aeotec DSC17103 Micro Interruptor Duplo* para usar as propriedades
+- Mudando a configuração *Microinterruptor Aeotec DSC18103 2º* para usar as propriedades
+- Mudando a configuração *Microinterruptor Aeotec DSC26103 2º* para usar as propriedades
+- Mudando a configuração *Aeotec DSC27103 Micro Dimmer 2º* para usar as propriedades
+- Mudando a configuração *Relógio de Pânico Benext* para usar as propriedades
+- Mudando a configuração *Botão de pânico Benext* para usar as propriedades
+- Mudando a configuração *Benext Plug In Dimmer* para usar as propriedades
+- Mudando a configuração *Cúpula On Off Plug In Interruptor Plug In Dimmer* para usar as propriedades
+- Mudando a configuração *Domux Dx2skz* para usar as propriedades
+- Mudando a configuração *Everspring AD142* para usar as propriedades
+- Mudando a configuração *Everspring AN145* para usar as propriedades
+- Mudando a configuração *Refletor LED Everspring EH403* para usar as propriedades
+- Mudando a configuração *Heiman Dx2skz* para usar as propriedades
+- Mudando a configuração *Philio Smart Dimmer E27* para usar as propriedades
+- Mudando a configuração *Philio Pan03* para usar as propriedades
+- Mudando a configuração *Plugue Inteligente Popp* para usar as propriedades
+- Mudando a configuração *Popp 009105* para usar as propriedades
+- Mudando a configuração *Schlage na parede* para usar as propriedades
+- Mudando a configuração *Tomada Sigma* para usar as propriedades
+- Mudando a configuração *Plugue Swiid* para usar as propriedades
+
+**Adições de configuração**
+
+- Configuração adicionada *Heat It ZM Dimmer* (propriedades : Multilevel, Power, Energy, CentralScene, Notification)
+- Configuração adicionada *Sigma PZ701U* (propriedades : Switch)
+- Configuração adicionada *Neo RC03Z* (propriedades : Cena Central, Bateria)
+- Adicionando uma subpropriedade *Sensor de calor* na propriedade *Notificação*
+- Configuração adicionada *U-Fada GR-201N* (propriedades : Switch)
+
+# 10/04/2023
+
+**Melhorias**
+
+- O *atualizar* agora pode ir até 100 segundos em vez de 60
+- Mudar para a versão *8.13.1* por ZwaveJsUI.
+- Mudando a função *pollValue* para propriedades em *valor* (obrigado @superbricolo)
+
+**Alterações de configuração**
+
+- Mudando a configuração *Sensor de água Aeotec ZWA19* para usar as propriedades
+- Mudando a configuração *Aeotec ZWA24 7 em 1* para usar as propriedades
+- Mudando a configuração *Everspring SM810* para usar as propriedades
+- Editando uma propriedade *Velocidade*
+- Editando a imagem *Dlink 510* (recorte)
+- Editando a imagem *Fibaro Fgs-213* (recorte)
+
+**Adições de configuração**
+
+- Configuração adicionada *Sigma PZ701U* (propriedades : Switch)
+- Configuração adicionada *Neo RC03Z* (propriedades : Cena Central, Bateria)
+- Adicionando uma subpropriedade *Sensor de calor* na propriedade *Notificação*
+- Configuração adicionada *U-Fada GR-201N* (propriedades : Switch)
+
+# 14/02/2023
 
 **Alterações de configuração**
 
 - Mudando a configuração *Aeotec ZWA24 7 em 1* para usar as propriedades
 - Mudando a configuração *Everspring SM810* para usar as propriedades
+- Mudando a configuração *Aeotec ZW122* para usar as propriedades
+- Agrupamento de configurações *Danfoss Living Connect*
+- Mudando a configuração *Fibaro FGR-223* mudança de pontos finais de potência e energia
+- Mudando a configuração *Fibaro FGR-223* adição de hardware e notificação de sobrecorrente
 - Mudando a configuração *Fibaro FGS213* mude para o endpoint 1 (firmware >=3.3) e adicionado sensor de calor e notificação de sobrecorrente
 - Editando a imagem *Aeotec ZWA24 7 em 1* (recorte)
+- Editando uma propriedade *Velocidade*
+- Editando a imagem *Dlink 510* (recorte)
+- Editando a imagem *Fibaro Fgs-213* (recorte)
+- Editando a imagem *Fibaro Fgs-221* (recorte)
+- Editando a imagem *Fibaro Fgs-223* (recorte)
+- Editando a imagem *Plugue Fibaro* (recorte)
+- Editando a imagem *Plugue Fibaro GEN5* (recorte)
 
 **Adições de configuração**
 
 - Adicionando uma subpropriedade *Sensor de calor* na propriedade *Notificação*
+- Configuração adicionada *U-Fada GR-201N* (propriedades : Switch)
+- Configuração adicionada *Relé de Caldeira Danfoss* (propriedades : Switch)
+- Configuração adicionada *Som de Alarme Benext* (propriedades : Switch)
+
 
 # 24/12/2022
 

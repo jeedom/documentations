@@ -4,6 +4,24 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 06/09/2023
+
+- Fix Notifications
+- Addition of Equipment Display by Table
+
+# 05/19/2023
+
+- PR by PhpVarious
+- Fix minor bugs
+
+
+# 05/10/2023
+
+- GeoLoc V2 commands
+- Remove AppV2 mobile RNA part
+- Update mobile.api
+
+
 # 01/10/2023
 
 - FUTURE APPV2 ALPHA INTEGRATION IN MOBILE PLUGIN

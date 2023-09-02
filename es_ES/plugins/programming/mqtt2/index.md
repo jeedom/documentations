@@ -42,7 +42,7 @@ Una vez instalado el bróker Mosquitto *(si es necesario)*, puedes continuar con
   >
   >La autenticación es obligatoria en modo local.
 
-- **Tema raíz de Jeedom** : Tema raíz para enviar un comando a Jeedom o sobre el que envía los eventos.
+- **Tema raíz de Jeedom** : Tema raíz para enviar un comando a Jeedom o sobre el que envía los eventos. Atención, solo es posible poner 1 o 2 niveles como máximo.
 
 - **Transmitir todos los eventos** : Marque la casilla para enviar todos los eventos de comando de Jeedom en MQTT.
 
@@ -57,11 +57,7 @@ Es posible crear equipos MQTT directamente en el complemento.
 Debe indicar el tema raíz del equipo *(`prueba` por ejemplo)*, entonces de acuerdo al tipo de comandos :
 
 - **Comandos de información** : solo indica el tema completo.
-  >Por ejemplo, si pones `toto/1`, todos los mensajes sobre el tema `test/toto/1` se escribirán automáticamente en el comando en cuestión. El sistema es capaz de gestionar campos tipo json, en este caso hay que poner `toto/1#key1` o `toto/1#key1::key2` para bajar un nivel.
-
-  >**IMPORTANTE**
-  >
-  >Es absolutamente necesario que la llegada corresponda a un valor. Si tienes `{"k1":"v1","k2":{"k2.2":"v2.2"},"k3":["v3.1"]}`, puedes poner `toto/1#k1` o `toto/1#k2:k2.2` o `toto/1#k3:0'' mais ''toto/1#k2` no es posible.
+  >Por ejemplo, si pones `toto/1`, todos los mensajes sobre el tema `test/toto/1` se escribirán automáticamente en el comando en cuestión. El sistema es capaz de gestionar campos tipo json, en este caso hay que poner `toto/1/key1` o `toto/1/key1/key2` para bajar un nivel.
 
 - **Comandos de acción** : solo indica el tema y el mensaje.
   >Por ejemplo, si coloca `toto/2` con el mensaje `plop`, cada clic en el comando enviará el mensaje `plop` al tema `test/toto/2`.
@@ -69,6 +65,11 @@ Debe indicar el tema raíz del equipo *(`prueba` por ejemplo)*, entonces de acue
   >**INFORMACIÓN**
   >
   >En los comandos de tipo acción, puede usar las etiquetas `#slider#`, `#color#`, `#message#` o `#select#` que se reemplazará automáticamente por su valor al ejecutar el comando *(según su subtipo)*. Por otro lado, si el mensaje es del tipo `json`, debes agregarle el prefijo `json`::''.
+
+>**IMPORTANTE**
+>
+>El tema `jeedom` está reservado (esto se puede cambiar en la configuración), así que no envíe nada más que comandos para conducir jeedom
+
 
 # Jeedom a través de MQTT
 
@@ -93,3 +94,12 @@ Es posible pilotar Jeedom a través de MQTT. Aquí están los diferentes temas p
 - **Corredor bajo Docker** : Primero, usa el comando **Borrar** Equipo `mqtt2_mosquitto` del complemento **Gestión de Docker** *(Complementos > Programación > Gestión de Docker)*. A continuación, puede eliminar todo este equipo.
 
 - **Corredor local** : A continuación, debe utilizar el botón rojo **Desinstalar Mosquito** desde la página de configuración general del plugin.
+
+
+# Autodescubrimiento)
+
+El complemento puede realizar el descubrimiento automático de varios tipos de módulos. Para hacer esto, solo necesita autorizar el descubrimiento automático en la página principal del complemento y reiniciar el demonio.
+
+>**IMPORTANTE**
+>
+>Para los módulos tipo tasmota es absolutamente necesario que la configuración completa del tema sea `%topic%/%prefix%/`

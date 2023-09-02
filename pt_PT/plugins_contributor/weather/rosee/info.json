@@ -5,7 +5,7 @@
     "usage": "Il faut renseigner les champs Temperature, Humidité, Pression <br/>Pour l'humidité absolue, on peut indiquer également une pression barométrique, sinon une valeur par défaut est prise en compte<br/> Il est possible d'ajouter un offset sur la température",
     "licence": "AGPL",
     "author": "JAG",
-    "require": "3.3.24",
+    "require": "4.0",
     "category": "weather",
     "hasDependency": false,
     "hasOwnDeamon": false,
@@ -15,8 +15,11 @@
     ],
     "changelog": "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog",
     "documentation": "https://jealg.github.io/documentation/plugin-rosee/#language#/",
-    "changelog_beta" : "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog",
+    "changelog_beta" : "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog_beta",
  	"documentation_beta" : "https://jealg.github.io/documentation/plugin-rosee/#language#/",
+     "link" : {
+		"forum":"https://community.jeedom.com/tag/plugin-rosee"
+	},
      "compatibility": [
 		"miniplus",
 		"smart",

@@ -29,6 +29,10 @@ Este plugin não requer nenhuma configuração especial e simplesmente precisa s
 >
 >As configurações de rede de todos os Jeedoms *(origem e destino)* DEVE estar OK caso contrário o plugin não funcionará.
 
+>**IMPORTANTE**
+>
+>É importante não ter a mesma chave de API em vários alvos jeedom. A chave de um equipamento é baseada na chave api (portanto não deve ser alterada após a configuração) e no id da fonte do equipamento. Ter a mesma chave de API nos jeedoms de destino, portanto, causará problemas de sincronização com equipamentos que podem não aparecer na fonte.
+
 ## Configuração do alvo Jeedom
 
 O primeiro passo será definir um **Jeedom Target** Desde a **Fonte Jeedom** *(aquele que segura o equipamento a ser remontado)*.

@@ -1,0 +1,51 @@
+{
+    "id": "energy3",
+    "name": "Energie dashboard",
+    "description": {
+        "fr_FR": "Plugin servant à afficher un dashboard énergétique de la maison (eau, gaz, électricité et production solaire). Attention ce plugin ne prend pas en charge les batteries",
+        "en_US": "Plugin used to display an energy dashboard of the house (water, gas, electricity and solar production). Please note this plugin does not support batteries",
+        "es_ES": "Complemento utilizado para mostrar un tablero de energía de la casa (agua, gas, electricidad y producción solar). Tenga en cuenta que este complemento no admite baterías",
+        "de_DE": "Plugin zur Anzeige eines Energie-Dashboards des Hauses (Wasser-, Gas-, Strom- und Solarproduktion). Bitte beachten Sie, dass dieses Plugin keine Batterien unterstützt",
+        "ru_RU": "Plugin servant à afficher un dashboard énergétique de la maison (eau, gaz, électricité et production solaire). Attention ce plugin ne prend pas en charge les batteries",
+        "id_ID": "Plugin servant à afficher un dashboard énergétique de la maison (eau, gaz, électricité et production solaire). Attention ce plugin ne prend pas en charge les batteries",
+        "it_IT": "Plugin servant à afficher un dashboard énergétique de la maison (eau, gaz, électricité et production solaire). Attention ce plugin ne prend pas en charge les batteries",
+        "ja_JP": "Plugin servant à afficher un dashboard énergétique de la maison (eau, gaz, électricité et production solaire). Attention ce plugin ne prend pas en charge les batteries",
+        "pt_PT": "Plugin usado para exibir um painel de energia da casa (água, gás, eletricidade e produção solar). Observe que este plug-in não suporta baterias",
+        "tr": "Plugin servant à afficher un dashboard énergétique de la maison (eau, gaz, électricité et production solaire). Attention ce plugin ne prend pas en charge les batteries"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.3",
+    "category": "energy",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy3\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy3\/",
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy3\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/energy3\/beta",
+    "display": "panel",
+    "mobile": "panel",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4",
+        "atlas"
+    ]
+}

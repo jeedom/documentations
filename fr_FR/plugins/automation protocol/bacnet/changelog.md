@@ -19,3 +19,14 @@
 
 - Choix des Devices à scanner lors d'un ajout d'un nouvel équipement
 - Optimisation durée du scan
+
+
+# 08/06/2022
+
+- Choix Masque de sous réseau dans Configuration du plugin
+
+# 11/05/2023
+
+- Changements pour Scan Réseau et Points Bacnet
+- Retour Etat v4.2
+- Bouton Tout Historiser sur onglet Commandes

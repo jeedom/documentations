@@ -1,36 +1,16 @@
 {
-    "id": "grdfConnect",
-    "name": "GRDF Connect",
-    "description": {
-    	"fr_FR": "Récupérer les informations de comptage gaz à partir de son compte-client GRDF ."
-  	},
-  	"utilization": "Il faut disposer d'un compte-client GRDF valide, renseigner l'identifiant, le mot de passe.<br>Le plugin est basé sur une api non officielle, il peut cesser de fonctionner à tout moment, donc c'est à vos risques et perils ! ",
-    "licence": "AGPL",
-    "author": "Limad44",
-    "require": "4.1",
-    "category": "energy",
-    "hasDependency": false,
-    "hasOwnDeamon": false,
-    "display": "panel",
-    "changelog": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#/changelog",
-    "changelog_beta": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#/changelog",
-  	"documentation": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#",
-    "documentation_beta": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#",
-  	"link" : {
-		"forum":"https://community.jeedom.com/tag/plugin-grdfconnect"
-	},
-    "language": [
-        "fr_FR",
-        "en_US"
-    ],
-    "compatibility": [
-        "v4",
-        "miniplus",
-        "smart",
-        "rpi",
-        "docker",
-        "diy",
-        "mobile",
-        "Jeedomboard"
-    ]
+	"id" : "eibd",
+	"name" : "EIB - KNX",
+	"description" : "Connecter Jeedom avec votre installation domotique KNX et Jeedom deviendra un participant de votre installation",
+	"licence" : "AGPL",
+	"author" : "Halbout Michael",
+	"installation" : "Choisissez le programme de votre choix et lancer l'installation des dependance",
+	"maxDependancyInstallTime" : 130,
+	"hasOwnDeamon" : true,
+	"hasDependency" : true,
+	"require" : "4.2.12",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+	"category" : "automation protocol",
+ 	"documentation" : "http://mika-nt28.github.io/Documentations/eibd/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/eibd/#language#/changelog"
 }

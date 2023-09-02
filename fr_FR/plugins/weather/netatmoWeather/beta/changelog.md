@@ -4,6 +4,21 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte
 
+# 16/06/2023
+
+- Version minimum du core requise: 4.2
+- Mise à jours liste des commandes pour Jeedom v4.3
+- Corrections & optimisations mineures dans l'écran de gestion des équipements
+- Correction d'un bug qui écrasait les configurations des commandes lors de la mise à jour du plugin
+
+# 04/05/2023
+
+- Correction de bugs
+
+# 02/05/2023
+
+- Correction de bugs
+
 # 23/01/2023
 
 - Passage d'une mise à jour des données toute les 10min
