@@ -2,7 +2,7 @@
   "id": "gkeep",
   "name": "Google Keep",
   "description": {
-      "fr_FR": "Plugin permettant de synchroniser ses notes et listes avec Google Keep",
+      "fr_FR": "Plugin permettant de synchroniser ses notes et listes avec Google Keep.</br>Nécéssite python >= v3.8 pour fonctionner.",
       "en_US": "Plugin for synchronizing notes and lists with Google Keep",
       "es_ES": "Plugin para sincronizar notas y listas con Google Keep",
       "pt_PT": "Plugin para sincronizar notas e listas com o Google Keep",
