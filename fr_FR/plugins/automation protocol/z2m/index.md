@@ -170,3 +170,11 @@ Pour finir et même si cela peut paraître évident pour certains, nous rappelon
 >**J'ai pas l'image de mon module**
 >
 >Rien de grave, ce ne veut pas dire qu'il n'est pas utilisable ou reconnu, l'image sert juste d'illustration. Si vraiment vous la voulez, il faut contacter le support pour qu'il regarde pourquoi vous ne l'avez pas (en général c'est due à un caractere non standard dans le nom du modele du module)
+
+>**Changer le PAN_ID et Network Key**
+>
+>Une fois le changement fait dans l'interface de jeedom ou dans zigbee2mqtt il faut arreter le démon, supprimer le fichier coordinator_backup.json (il est dans `/var/www/html/plugins/z2m/data`), redémarrer le démon.
+
+>**J'ai l'erreur `Error: Reset error: Error: {"sequence":-1} after 10000ms` et une clef ELELABS ou une box Atlas**
+>
+>Il faut mettre a jour le firmware de votre clef zigbee, pour cela dans la configuration du plugin jeezigbee cliquez sur mettre à jour le firmware et remplisez les different champs de la fenetre puis validez. Attention a ne surtout pas faire ca sur une box luna, cela casse la clef zigbee.

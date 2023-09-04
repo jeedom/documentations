@@ -170,3 +170,11 @@ Abschließend möchten wir Sie daran erinnern, dass Zigbee-Gateways in WLAN oder
 >**Ich habe kein Bild meines Moduls**
 >
 >Nichts Ernstes, das bedeutet nicht, dass es nicht verwendbar oder nicht erkennbar ist, das Bild dient nur zur Veranschaulichung. Wenn Sie es wirklich möchten, müssen Sie sich an den Support wenden, um herauszufinden, warum Sie es nicht haben (normalerweise liegt es an einem nicht standardmäßigen Zeichen im Modulmodellnamen))
+
+>**Ändern Sie die PAN_ID und den Netzwerkschlüssel**
+>
+>Sobald die Änderung in der Jeedom-Schnittstelle oder in zigbee2mqtt vorgenommen wurde, müssen Sie den Daemon stoppen und die Datei coordinator_backup löschen.json (es befindet sich in „/var/www/html/plugins/z2m/data“), starten Sie den Daemon neu.
+
+>**Ich habe die Fehlermeldung „Fehler“ erhalten: Fehler zurücksetzen: Error: {"sequence":-1} nach 10000ms` und einem ELELABS-Schlüssel oder einer Atlas-Box**
+>
+>Sie müssen die Firmware Ihres ZigBee-Schlüssels aktualisieren. Klicken Sie dazu in der Konfiguration des JeezigBee-Plugins auf Firmware aktualisieren, füllen Sie die verschiedenen Felder im Fenster aus und bestätigen Sie dann. Achten Sie darauf, dies nicht auf einer Luna-Box zu tun, da sonst der ZigBee-Schlüssel beschädigt wird.

@@ -4,6 +4,8 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 09/04/2023
+
 - Capacidade de configurar a porta de escuta do zigbee2mqtt
 - Corrigido um problema com comandos de tipo de cor
 - Correção na geração de comandos que não funcionavam em determinados casos

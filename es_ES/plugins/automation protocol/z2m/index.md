@@ -170,3 +170,11 @@ Por último, y aunque a algunos les parezca una obviedad, os recordamos que las 
 >**No tengo la imagen de mi modulo**
 >
 >Nada grave, no quiere decir que no sea usable o reconocido, la imagen es solo ilustrativa. Si realmente lo desea, debe ponerse en contacto con el soporte para ver por qué no lo tiene (generalmente se debe a un carácter no estándar en el nombre del modelo del módulo))
+
+>**Cambiar el PAN_ID y la clave de red**
+>
+>Una vez realizado el cambio en la interfaz jeedom o en zigbee2mqtt, debes detener el demonio, eliminar el archivo coordinador_backup.json (está en `/var/www/html/plugins/z2m/data`), reinicie el demonio.
+
+>**Recibí el error `Error: Restablecer error: Error: {"sequence":-1} después de 10000ms` y una clave ELELABS o una caja Atlas**
+>
+>Debes actualizar el firmware de tu llave zigbee, para ello en la configuración del plugin jeezigbee haz clic en actualizar firmware y llena los diferentes campos en la ventana luego valida. Tenga cuidado de no hacer esto en una caja luna, se rompe la tecla zigbee.

@@ -170,3 +170,11 @@ Por fim, e mesmo que possa parecer óbvio para alguns, lembramos que os gateways
 >**Não tenho a imagem do meu modulo**
 >
 >Nada grave, não quer dizer que não seja utilizável ou reconhecido, a imagem é apenas ilustrativa. Se você realmente quiser, terá que entrar em contato com o suporte para ver por que não o possui (geralmente é devido a um caractere não padrão no nome do modelo do módulo)
+
+>**Altere o PAN_ID e a chave de rede**
+>
+>Uma vez feita a alteração na interface do jeedom ou no zigbee2mqtt, você deve parar o daemon, deletar o arquivo coordenador_backup.json (está em `/var/www/html/plugins/z2m/data`), reinicie o daemon.
+
+>**Recebi o erro `Erro: Erro de redefinição: Error: {"sequence":-1} após 10000ms` e uma chave ELELABS ou uma caixa Atlas**
+>
+>Você deve atualizar o firmware da sua chave zigbee, para fazer isso na configuração do plugin jeezigbee clique em atualizar firmware e preencha os diferentes campos da janela e valide. Tenha cuidado para não fazer isso em uma caixa luna, pois quebra a chave zigbee.
