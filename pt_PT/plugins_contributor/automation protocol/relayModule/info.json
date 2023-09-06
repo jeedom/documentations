@@ -1,44 +1,36 @@
 {
-  "id": "gkeep",
-  "name": "Google Keep",
-  "description": {
-      "fr_FR": "Plugin permettant de synchroniser ses notes et listes avec Google Keep.</br>Nécéssite python >= v3.8 pour fonctionner.",
-      "en_US": "Plugin for synchronizing notes and lists with Google Keep",
-      "es_ES": "Plugin para sincronizar notas y listas con Google Keep",
-      "pt_PT": "Plugin para sincronizar notas e listas com o Google Keep",
-      "de_DE": "Plugin zum Synchronisieren von Notizen und Listen mit Google Keep",
-      "it_IT": "Plugin per la sincronizzazione di note ed elenchi con Google Keep"
-  },
-  "utilization": "Sélectionnez le nombre de comptes Google, entrez les informations de connexion de chacun d'entre eux, puis lancez une première connexion.",
+  "id": "MyVaillant",
+  "name": "MyVaillant",
   "licence": "AGPL",
-  "author": "DomoFlo1",
+  "author": "limad44",
   "require": "4.2",
-  "category": "organization",
-  "display": "panel",
-  "hasDependency": true,
+  "description": {
+    "fr_FR": " Plugin pour intégrer les thermostats Vaillant/Saunier-Duval(gamme senso/MiSet,MiPro Sense...) associés à une passerelle VR92x ou MiLink V3.\n\nCe plugin concerne uniquement les équipements qui fonctionnent avec l'app MyVaillant ou MigoLink.\n\nLe plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).\nL'actualisation se fait via API. ",
+    "en_US": " Plugin pour intégrer les thermostats Vaillant/Saunier-Duval(gamme senso/MiSet,MiPro Sense...) associés à une passerelle VR92x ou MiLink V3.\n\nCe plugin concerne uniquement les équipements qui fonctionnent avec l'app MyVaillant ou MigoLink.\n\nLe plugin permet l'acquisition des informations de votre installation et d'exécuter la majorité des actions disponibles(Consigne, Plannings...).\nL'actualisation se fait via API. ."
+  },
+  "utilization": "Le plugin est déstiné aux utilisateurs de l'application mobile MyVaillant/MigoLink. Il faut disposer d'un compte valide et d'un user/password.\n\n ",
+  "category": "wellness",
+  "hasDependency": false,
   "hasOwnDeamon": false,
-  "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-google-keep-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-google-keep-pour-jeedom/",
+  "changelog": "https://limad.github.io/plugins-docs/plugin-MyVaillant/#language#/changelog",
+  "documentation": "https://limad.github.io/plugins-docs/plugin-MyVaillant/#language#/",
+  "changelog_beta": "https://limad.github.io/plugins-docs/plugin-MyVaillant/#language#/changelog",
+  "documentation_beta": "https://limad.github.io/plugins-docs/plugin-MyVaillant/#language#/",
   "link": {
-    "forum": "https://community.jeedom.com/tag/plugin-GKeep"
+    "forum": "https://community.jeedom.com/search?q=MyVaillant&order=latest"
   },
   "language": [
     "fr_FR",
-    "en_US",
-    "es_ES",
-    "pt_PT",
-    "de_DE",
-    "it_IT"
+    "en_US"
   ],
   "compatibility": [
+    "v4",
     "miniplus",
     "smart",
     "rpi",
     "docker",
     "diy",
     "mobile",
-    "v4",
-    "atlas"
+    "Jeedomboard"
   ]
 }
