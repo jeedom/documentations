@@ -50,7 +50,7 @@ Puedes, a través de dos comentarios, conocer el porcentaje de batería y el tip
 
 Permite la gestión (formateo) de la tarjeta micro-SD que puede agregar a la caja, así como la transferencia a esta tarjeta SD de las copias de seguridad de Jeedom.
 
-> Los botones de encendido y reinicio (v1)
+> Botones de encendido y reinicio (v1) El complemento Luna no está actualizado
 
 - Reiniciar : menos de 1 segundo para un reinicio forzado de la caja.
 - Reiniciar : más de 10 segundos para un restablecimiento de fábrica de la caja.
@@ -58,11 +58,13 @@ Permite la gestión (formateo) de la tarjeta micro-SD que puede agregar a la caj
 
 > Botones de encendido y reinicio (v2 nueva imagen)
 
-- Reiniciar : menos de 1 segundo para reiniciar el hardware de la caja Luna.
-- Comida : más de 5 segundos para que la batería se apague o encienda (Naranja = apagado, Verde = Encendido).
-- Comida : más de 15 segundos reinicio de la caja (azul parpadeante cuando se suelta)).
-- Comida : más de 40 segundos para que la caja se detenga (naranja parpadeando cuando se suelta)).
-- Comida : Más de 60 segundos para restablecer los valores de fábrica de la caja (rojo parpadeante cuando se suelta)).
+- Botón de reinicio : menos de 1 segundo para reiniciar el hardware de la caja Luna.
+
+  
+- Botón de encendido : entre 1 y 4 segundos para que la batería se apague o encienda (Naranja = apagado, Verde = Encendido).
+- Botón de encendido : entre 5 y 9 segundos reinicio de la caja (azul intermitente al soltarla)).
+- Botón de encendido : entre 10 y 20 segundos para que la caja se detenga (naranja intermitente al soltarse)).
+- Botón de encendido : Más de 30 segundos para restablecer los valores de fábrica de la caja (rojo parpadeante cuando se suelta)).
 
 > Lora (solo para cajas Jeedom Luna vendidas con el módulo Jeedom Lora)
 

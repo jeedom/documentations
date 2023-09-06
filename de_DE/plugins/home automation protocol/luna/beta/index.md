@@ -50,7 +50,7 @@ Sie können über den Befehl Typ auswählen die Farbe und Animation der LED änd
 
 Ermöglicht die Verwaltung (Formatierung) der Micro-SD-Karte, die Sie der Box hinzufügen können, sowie die Übertragung von Jeedom-Backups auf diese SD-Karte.
 
-> Die Power- und Reset-Tasten (v1)
+> Power- und Reset-Tasten (v1) Luna-Plugin nicht auf dem neuesten Stand
 
 - Zurücksetzen : weniger als 1 Sekunde für einen erzwungenen Neustart der Box.
 - Zurücksetzen : mehr als 10 Sekunden für einen Werksreset der Box.
@@ -58,11 +58,13 @@ Ermöglicht die Verwaltung (Formatierung) der Micro-SD-Karte, die Sie der Box hi
 
 > Power- und Reset-Tasten (v2 neues image)
 
-- Zurücksetzen : weniger als 1 Sekunde für einen Hardware-Neustart der Luna-Box.
-- Essen : Es dauert mehr als 5 Sekunden, bis sich der Akku aus- oder einschaltet (orange = aus, grün = ein)).
-- Essen : mehr als 15 Sekunden Neustart der Box (blau blinkend beim Loslassen)).
-- Essen : Es dauert mehr als 40 Sekunden, bis die Box stoppt (orange blinkend beim Loslassen)).
-- Essen : mehr als 60 Sekunden, um die Box auf die Werkseinstellungen zurückzusetzen (rotes Blinken beim Loslassen)).
+- Reset-Knopf : weniger als 1 Sekunde für einen Hardware-Neustart der Luna-Box.
+
+  
+- Knopfleistung : Es dauert zwischen 1 und 4 Sekunden, bis sich der Akku aus- oder einschaltet (orange = aus, grün = ein)).
+- Knopfleistung : zwischen 5 und 9 Sekunden Neustart der Box (blau blinkend beim Loslassen)).
+- Knopfleistung : Es dauert zwischen 10 und 20 Sekunden, bis die Box stoppt (orange blinkend beim Loslassen)).
+- Knopfleistung : mehr als 30 Sekunden, um die Box auf die Werkseinstellungen zurückzusetzen (rotes Blinken beim Loslassen)).
 
 > Lora (nur für Jeedom Luna-Boxen, die mit dem Jeedom Lora-Modul verkauft werden)
 

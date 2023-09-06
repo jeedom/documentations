@@ -6,6 +6,10 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
+# 09/06/2023
+- mudando o cenário do botão Power na parte de trás da caixa. (veja a documentação)
+- Atualização LTE para erro de solicitação LTE enquanto a caixa não é compatível.
+
 # 02/05/2023
 
 - LocalHost patch (mudança de direitos).

@@ -50,7 +50,7 @@ You can, via two pieces of feedback, have the battery percentage as well as the 
 
 Allows the management (formatting) of the micro-SD card that you can add to the box, as well as the transfer to this SD card of Jeedom backups.
 
-> The Power and Reset buttons (v1)
+> Power and Reset buttons (v1) Luna plugin not up to date
 
 - Reset : less than 1 second for a forced reboot of the box.
 - Reset : more than 10 seconds for a Factory Reset of the box.
@@ -58,11 +58,13 @@ Allows the management (formatting) of the micro-SD card that you can add to the 
 
 > Power and Reset buttons (v2 new image)
 
-- Reset : less than 1 second for a hardware restart of the Luna box.
-- Food : more than 5 seconds for the battery to turn off or on (Orange = off, Green = On).
-- Food : more than 15 seconds restart of the box (blue flashing when released).
-- Food : more than 40 seconds for the box to stop (orange flashing when released).
-- Food : more than 60 seconds to Reset Factory of the box (red flashing when released).
+- Reset button : less than 1 second for a hardware restart of the Luna box.
+
+  
+- Button Power : between 1 and 4 seconds for the battery to turn off or on (Orange = off, Green = On).
+- Button Power : between 5 and 9 seconds restart of the box (blue flashing when released).
+- Button Power : between 10 and 20 seconds for the box to stop (orange flashing when released).
+- Button Power : more than 30 seconds to Reset Factory of the box (red flashing when released).
 
 > Lora (only for Jeedom Luna boxes sold with the Jeedom Lora module)
 

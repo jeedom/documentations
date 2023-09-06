@@ -50,7 +50,7 @@ Você pode, por meio de dois comentários, saber a porcentagem da bateria e tamb
 
 Permite a gestão (formatação) do cartão micro-SD que pode adicionar à caixa, bem como a transferência para este cartão SD dos backups Jeedom.
 
-> Os botões Power e Reset (v1)
+> Botões Power e Reset (v1) Plugin Luna não atualizado
 
 - Redefinir : menos de 1 segundo para uma reinicialização forçada da caixa.
 - Redefinir : mais de 10 segundos para uma redefinição de fábrica da caixa.
@@ -58,11 +58,13 @@ Permite a gestão (formatação) do cartão micro-SD que pode adicionar à caixa
 
 > Botões Power e Reset (v2 nova imagem)
 
-- Redefinir : menos de 1 segundo para uma reinicialização de hardware da caixa Luna.
-- Comida : mais de 5 segundos para a bateria desligar ou ligar (laranja = desligada, verde = ligada).
-- Comida : mais de 15 segundos de reinicialização da caixa (azul piscando quando liberado).
-- Comida : mais de 40 segundos para a caixa parar (laranja piscando quando liberada).
-- Comida : mais de 60 segundos para Reset Factory da caixa (vermelho piscando quando liberado).
+- Botão de reset : menos de 1 segundo para uma reinicialização de hardware da caixa Luna.
+
+  
+- Botão de energia : entre 1 e 4 segundos para a bateria desligar ou ligar (Laranja = desligada, Verde = Ligada).
+- Botão de energia : entre 5 e 9 segundos reinício da caixa (azul piscando quando liberado).
+- Botão de energia : entre 10 e 20 segundos para a caixa parar (laranja piscando quando liberada).
+- Botão de energia : mais de 30 segundos para Reset Factory da caixa (vermelho piscando quando liberado).
 
 > Lora (apenas para caixas Jeedom Luna vendidas com o módulo Jeedom Lora)
 

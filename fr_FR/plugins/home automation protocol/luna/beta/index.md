@@ -50,7 +50,7 @@ Vous pouvez, via deux retours d’informations, avoir le pourcentage de batterie
 
 Permet la gestion (formatage) de la carte micro-SD que vous pouvez ajouter à la box, ainsi que le transfert vers cette carte SD des backups Jeedom.
 
-> Les boutons Alimentation et Reset (v1)
+> Les boutons Alimentation et Reset (v1) Plugin Luna pas à jour
 
 - Reset : moins de 1 seconde pour un reboot forcé de la box.
 - Reset : plus de 10 secondes pour un Reset Factory de la box.
@@ -58,11 +58,13 @@ Permet la gestion (formatage) de la carte micro-SD que vous pouvez ajouter à la
 
 > Les boutons Alimentation et Reset (v2 nouvelle image)
 
-- Reset : moins de 1 seconde pour un redémarrage materiel de la box Luna.
-- Alimentation : plus de 5 secondes pour un arrêt ou allumage de la batterie (Orange = éteint, Vert = Allumé).
-- Alimentation : plus de 15 secondes redémarrage de la box (clignotement bleu au relâchement).
-- Alimentation : plus de 40 secondes pour un arrêt de la box (clignotement orange au relâchement).
-- Alimentation : plus de 60 secondes pour Reset Factory de la box (clignotement rouge au relâchement).
+- Buton Reset : moins de 1 seconde pour un redémarrage materiel de la box Luna.
+
+  
+- Button Alimentation : entre 1 et 4 secondes pour un arrêt ou allumage de la batterie (Orange = éteint, Vert = Allumé).
+- Button Alimentation : entre 5 et 9 secondes redémarrage de la box (clignotement bleu au relâchement).
+- Button Alimentation : entre 10 et 20 secondes pour un arrêt de la box (clignotement orange au relâchement).
+- Button Alimentation : plus de 30 secondes pour Reset Factory de la box (clignotement rouge au relâchement).
 
 > Lora (uniquement pour les boxs Jeedom Luna vendues avec le module Lora de Jeedom)
 
