@@ -78,7 +78,6 @@ services:
       - /tmp/jeedom
     ports:
       - 40080:80
-      - 51001:51001
     restart: always
     network_mode: bridge
     healthcheck:
