@@ -6,6 +6,10 @@
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
 
+# 06/09/2023
+- changing the scenario of the Power button on the back of the box. (see documentation)
+- LTE update for LTE request error while box not compatible.
+
 # 02/05/2023
 
 - LocalHost patch (change of rights).
