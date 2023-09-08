@@ -4,6 +4,8 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 09/04/2023
+
 - Capacidad para configurar el puerto de escucha de zigbee2mqtt
 - Se solucionó un problema con los comandos de tipo de color
 - Corrección en la generación de comandos que no podían funcionar en ciertos casos

@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 08.09.2023
+
+- Es wurde ein Fehler behoben, der verhinderte, dass Bestellungen korrekt erstellt wurden
+
 # 04.09.2023
 
 - Möglichkeit, den Überwachungsport von zigbee2mqtt zu konfigurieren

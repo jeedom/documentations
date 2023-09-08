@@ -4,6 +4,8 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 04.09.2023
+
 - Möglichkeit, den Überwachungsport von zigbee2mqtt zu konfigurieren
 - Ein Problem mit Farbtypbefehlen wurde behoben
 - Korrektur bei der Generierung von Befehlen, die in bestimmten Fällen nicht funktionieren konnten
