@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 08/09/2023
+
+- Fixed a bug that prevented orders from being created correctly
+
 # 04/09/2023
 
 - Ability to configure the listening port of zigbee2mqtt
