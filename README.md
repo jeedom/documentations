@@ -1,6 +1,6 @@
 <img align="right" src="https://www.jeedom.com/site/logo.png" width="100">
 
-This repository compiled documentation for Jeedom Core and its complementos.
+Este repositorio recopiló documentación para Jeedom Core y sus complementos.
 
 The Core documentation is on the Core repository, in the doc directory (alpha branch): <https://github.com/jeedom/core/tree/alpha/docs/en_US>.
 The plugin documentation is in its own repository, in the doc directory, example for Z-Wave (beta branch): <https://github.com/jeedom/plugin-openzwave/tree/beta/docs>. 
