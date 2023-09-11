@@ -4,11 +4,28 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# 31/07/2023
+# xx/08/2023
+
+**Conserta**
+
+- Correção de atualização *OTA* de um firmware de módulo após uma alteração no ZwaveJSUI
 
 **Melhorias**
 
-- Mudar para a versão *8.21.2* por ZwaveJsUI.
+- Mudar para a versão *8.23.2* por ZwaveJsUI.
+- Adicionada a possibilidade de fazer uma atualização *OTW* um controlador (se compatível)
+- Adicionada uma opção para gerenciar *notificações* no centro de mensagens *nós mortos e vivos*
+- Adicionada uma opção para gerenciar *notificações* no centro de mensagens *despertares perdidos e retorno*
+
+**Adições de configuração**
+
+- Configuração adicionada *Shelly Qubino Onda 13h* (propriedades : Interruptor, alimentação, energia, notificação de rede elétrica, notificação de sobrecorrente, notificação de sensor de calor)
+
+# 02/08/2023
+
+**Melhorias**
+
+- Mudar para a versão *8.22.0* por ZwaveJsUI.
 - Adição de todos *tty* na lista de portas (isso será inútil com o novo núcleo que permitirá escolher uma porta diretamente pelo id)
 - Adicionada a última rota na página de estatísticas de um nó (depende do SDK do controlador)
 - Adicionada a última taxa de transmissão de velocidade na página de estatísticas de um nó (depende do SDK do controlador)

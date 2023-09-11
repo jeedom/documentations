@@ -4,11 +4,28 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 07/31/2023
+# xx/08/2023
+
+**Fixes**
+
+- Update fix *OTA* of a module firmware following a ZwaveJSUI change
 
 **Improvements**
 
-- Switch to version *8.21.2* by ZwaveJsUI.
+- Switch to version *8.23.2* by ZwaveJsUI.
+- Added the possibility to make an update *OTW* a controller (if compatible)
+- Added an option to manage *notifications* in the message center *dead and alive nodes*
+- Added an option to manage *notifications* in the message center *missed awakenings and return*
+
+**Configuration Additions**
+
+- Added config *Shelly Qubino Wave 1PM* (properties : Switch, Power, Energy, Mains Notification, Over-Current Notification, Heat-Sensor Notification)
+
+# 02/08/2023
+
+**Improvements**
+
+- Switch to version *8.22.0* by ZwaveJsUI.
 - Addition of all *tty* in the list of ports (this will be useless with the new core which will allow you to choose a port directly by the id)
 - Added last route on a node's stats page (depends on controller SDK)
 - Added last speed-baud rate on a node's stats page (depends on controller SDK)

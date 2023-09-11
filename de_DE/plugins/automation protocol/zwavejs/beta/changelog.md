@@ -4,7 +4,7 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# xx/08/2023
+# 11.09.2023
 
 **Behebt**
 
@@ -12,7 +12,7 @@
 
 **Verbesserungen**
 
-- Zur Version wechseln *8.23.2* von ZwaveJsUI.
+- Zur Version wechseln *8.25.1* von ZwaveJsUI.
 - Möglichkeit hinzugefügt, ein Update durchzuführen *OTW* einen Controller (falls kompatibel))
 - Option zum Verwalten hinzugefügt *Benachrichtigungen* im Nachrichtencenter *tote und lebendige Knoten*
 - Option zum Verwalten hinzugefügt *Benachrichtigungen* im Nachrichtencenter *verpasstes Erwachen und Rückkehr*
@@ -20,6 +20,23 @@
 **Konfigurationsergänzungen**
 
 - Konfig hinzugefügt *Shelly Qubino Wave 13:00 Uhr* (Eigenschaften : Schalter, Stromversorgung, Energie, Netzbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)
+- Konfig hinzugefügt *Shelly Qubino Welle 1* (Eigenschaften : Schalter, Stromversorgung, Energie, Netzbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)
+- Hinzufügen einer Untereigenschaft *binäres Wasser* für Eigentum *Flut*
+- Hinzufügen einer Untereigenschaft *onlevel-barriere* für Eigentum *Mehrstufig*
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *MCOhome Mh8FC*  um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *NeoCoolCam WS02Z*  um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *Kaipule IM20*  um die Eigenschaften zu verwenden
+- Ändern der Konfiguration *HRT4_SRT321* um die Eigenschaften besser zu nutzen
+- Ändern der Konfiguration *Benext Plug-In-Dimmer* um die Eigenschaften besser zu nutzen
+- Ändern der Konfiguration *Dome On Off Plug-In-Schalter Plug-In-Dimmer* um die Eigenschaften besser zu nutzen
+- Ändern der Konfiguration *Domux Dx2skz* um die Eigenschaften besser zu nutzen
+- Ändern der Konfiguration *Swiid-Stecker* um die Eigenschaften besser zu nutzen
+- Ändern der Konfiguration *Everspring SM810* um die Eigenschaften besser zu nutzen
+- Ändern der Konfiguration *Zipato PD01z* um die Eigenschaften besser zu nutzen
+- Ändern der Konfiguration *Vision-Sicherheit ZS5101* um die Eigenschaften besser zu nutzen
 
 # 08.02.2023
 

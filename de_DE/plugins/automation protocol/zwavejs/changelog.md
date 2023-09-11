@@ -4,11 +4,28 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# 31.07.2023
+# xx/08/2023
+
+**Behebt**
+
+- Update-Fix *OTA* einer Modul-Firmware nach einer ZwaveJSUI-Änderung
 
 **Verbesserungen**
 
-- Zur Version wechseln *8.21.2* von ZwaveJsUI.
+- Zur Version wechseln *8.23.2* von ZwaveJsUI.
+- Möglichkeit hinzugefügt, ein Update durchzuführen *OTW* einen Controller (falls kompatibel))
+- Option zum Verwalten hinzugefügt *Benachrichtigungen* im Nachrichtencenter *tote und lebendige Knoten*
+- Option zum Verwalten hinzugefügt *Benachrichtigungen* im Nachrichtencenter *verpasstes Erwachen und Rückkehr*
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Shelly Qubino Wave 13:00 Uhr* (Eigenschaften : Schalter, Stromversorgung, Energie, Netzbenachrichtigung, Überstrombenachrichtigung, Wärmesensorbenachrichtigung)
+
+# 08.02.2023
+
+**Verbesserungen**
+
+- Zur Version wechseln *8.22.0* von ZwaveJsUI.
 - Addition von allem *tty* in der Liste der Ports (dies wird mit dem neuen Kern nutzlos sein, der es Ihnen ermöglicht, einen Port direkt anhand der ID auszuwählen)
 - Letzte Route auf der Statistikseite eines Knotens hinzugefügt (abhängig vom Controller-SDK))
 - Letzte Geschwindigkeits-Baudrate auf der Statistikseite eines Knotens hinzugefügt (abhängig vom Controller-SDK))

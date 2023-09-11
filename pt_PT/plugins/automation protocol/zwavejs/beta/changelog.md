@@ -4,7 +4,7 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
-# xx/08/2023
+# 11/09/2023
 
 **Conserta**
 
@@ -12,7 +12,7 @@
 
 **Melhorias**
 
-- Mudar para a versão *8.23.2* por ZwaveJsUI.
+- Mudar para a versão *8.25.1* por ZwaveJsUI.
 - Adicionada a possibilidade de fazer uma atualização *OTW* um controlador (se compatível)
 - Adicionada uma opção para gerenciar *notificações* no centro de mensagens *nós mortos e vivos*
 - Adicionada uma opção para gerenciar *notificações* no centro de mensagens *despertares perdidos e retorno*
@@ -20,6 +20,23 @@
 **Adições de configuração**
 
 - Configuração adicionada *Shelly Qubino Onda 13h* (propriedades : Interruptor, alimentação, energia, notificação de rede elétrica, notificação de sobrecorrente, notificação de sensor de calor)
+- Configuração adicionada *Shelly Qubino Onda 1* (propriedades : Interruptor, alimentação, energia, notificação de rede elétrica, notificação de sobrecorrente, notificação de sensor de calor)
+- Adicionando uma subpropriedade *água binária* para propriedade *Enchente*
+- Adicionando uma subpropriedade *barreira de nível* para propriedade *Multinível*
+
+**Alterações de configuração**
+
+- Mudando a configuração *MCOhome Mh8FC*  para usar as propriedades
+- Mudando a configuração *NeoCoolCam WS02Z*  para usar as propriedades
+- Mudando a configuração *Kaipule IM20*  para usar as propriedades
+- Mudando a configuração *HRT4_SRT321* para melhor usar as propriedades
+- Mudando a configuração *Benext Plug In Dimmer* para melhor usar as propriedades
+- Mudando a configuração *Cúpula On Off Plug In Interruptor Plug In Dimmer* para melhor usar as propriedades
+- Mudando a configuração *Domux Dx2skz* para melhor usar as propriedades
+- Mudando a configuração *Plugue Swiid* para melhor usar as propriedades
+- Mudando a configuração *Everspring SM810* para melhor usar as propriedades
+- Mudando a configuração *Zipato PD01z* para melhor usar as propriedades
+- Mudando a configuração *Visão de segurança ZS5101* para melhor usar as propriedades
 
 # 02/08/2023
 

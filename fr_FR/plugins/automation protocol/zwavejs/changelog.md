@@ -4,6 +4,40 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 11/09/2023
+
+**Corrections**
+
+- Correction de la mise à jour *OTA* d'un firmware de module suite à un changement ZwaveJSUI
+
+**Améliorations**
+
+- Passage à la version *8.25.1* de ZwaveJsUI.
+- Rajout de la possibilité de faire une mise à jour *OTW* d'un contrôleur (si compatible)
+- Rajout d'une option pour gérer les *notifications* dans le centre des messages *des noeuds morts et alives*
+- Rajout d'une option pour gérer les *notifications* dans le centre des messages *des réveils manqués et retour*
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Shelly Qubino Wave 1PM* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor)
+- Ajout de la configuration *Shelly Qubino Wave 1* (propriétés : Switch, Power, Energy, Notification Mains, Notification Over-Current, Notification Heat-Sensor)
+- Ajout d'une sous propriété *binary-water* pour la propriété *Flood*
+- Ajout d'une sous propriété *onlevel-barrier* pour la propriété *Multilevel*
+
+**Modifications de Configurations**
+
+- Modification de la configuration *MCOhome Mh8FC*  pour utiliser les propriétés
+- Modification de la configuration *NeoCoolCam WS02Z*  pour utiliser les propriétés
+- Modification de la configuration *Kaipule IM20*  pour utiliser les propriétés
+- Modification de la configuration *HRT4_SRT321* pour mieux utiliser les propriétés
+- Modification de la configuration *Benext Plug In Dimmer* pour mieux utiliser les propriétés
+- Modification de la configuration *Dome On Off Plug In Switch Plug In Dimmer* pour mieux utiliser les propriétés
+- Modification de la configuration *Domux Dx2skz* pour mieux utiliser les propriétés
+- Modification de la configuration *Swiid Plug* pour mieux utiliser les propriétés
+- Modification de la configuration *Everspring SM810* pour mieux utiliser les propriétés
+- Modification de la configuration *Zipato PD01z* pour mieux utiliser les propriétés
+- Modification de la configuration *Vision Security ZS5101* pour mieux utiliser les propriétés
+
 # 02/08/2023
 
 **Améliorations**
