@@ -142,6 +142,14 @@ Infelizmente isso se deve a forma como o fabricante planejou a integração de s
 
 Por fim, e mesmo que possa parecer óbvio para alguns, lembramos que os gateways Zigbee em Wifi ou remoto são, por definição, menos confiáveis que os gateways USB. A equipa Jeedom aconselha assim a utilização de um gateway Zigbee em USB.  
 
+# Conversor externo
+
+Zigbee2mqtt permite adicionar conversores externos (para suportar módulos não suportados oficialmente). Para adicionar um conversor externo, basta na configuração do plugin (Plugin -> Gerenciamento de plugins -> Jeezigbee) clicar no botão "Editar" na linha do conversor e soltar/editar seu conversor na pasta que o jeedom lhe fornecer. watch.
+
+>**IMPORTANTE**
+>
+>O suporte não cobre a parte de criação/utilização de conversores externos.
+
 # FAQ
 
 >**Tenho muitas mensagens informativas (azul) no canto inferior direito e não entendo nada**
