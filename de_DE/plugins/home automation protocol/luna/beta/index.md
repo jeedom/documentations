@@ -1,6 +1,6 @@
 # Luna-Plugin
 
-# seit 27.03.2023 neues Bild Jeedom Luna
+# seit 27.03.2023 neues Image Jeedom Luna (bekannt als V2)
 Sie können ein Update ohne Verlust der Sicherung usw. durchführen, indem Sie auf "Wiederherstellungsmodul aktualisieren" klicken". Dadurch wird Ihr Jeedom Luna neu gestartet, Ihre Konfigurationen gehen jedoch nicht verloren. Dadurch werden Änderungen am Wiederherstellungs- und Bootmodul der Box vorgenommen, die eine bessere Stabilität der Box ermöglichen.
 
 # Aufmerksamkeitssorge von Luna blinkt
@@ -59,7 +59,6 @@ Ermöglicht die Verwaltung (Formatierung) der Micro-SD-Karte, die Sie der Box hi
 > Power- und Reset-Tasten (v2 neues image)
 
 - Reset-Knopf : weniger als 1 Sekunde für einen Hardware-Neustart der Luna-Box.
-
   
 - Knopfleistung : Es dauert zwischen 1 und 4 Sekunden, bis sich der Akku aus- oder einschaltet (orange = aus, grün = ein)).
 - Knopfleistung : zwischen 5 und 9 Sekunden Neustart der Box (blau blinkend beim Loslassen)).
@@ -69,12 +68,19 @@ Ermöglicht die Verwaltung (Formatierung) der Micro-SD-Karte, die Sie der Box hi
 > Lora (nur für Jeedom Luna-Boxen, die mit dem Jeedom Lora-Modul verkauft werden)
 
 - Automatische Erkennung des Moduls und Start des Paketweiterleiters auf dem lokalen Host des Jeedom. Verwenden Sie das LNS-Plugin, um die Anwendung zu installieren. Es muss nichts über das Luna-Plugin erledigt werden, alles läuft automatisch ab.
+- Möglichkeit, es im LTE-Teil zu deaktivieren
 
-# Demnächst : Hotspot, 4G (für Luna 4G), LORA (für Luna Lora)
-
-> Hotspot (Luna ALPHA-Plugin)
+> Hotspot (Luna BETA-Plugin)
 
 Im WLAN-Teil des Plugins können Sie das Kontrollkästchen Hotspot aktivieren, mit dem Sie einen WLAN-Zugangspunkt auf Ihrer Box Luna erstellen können. (DNS und IP-Weiterleitung (Brücke zwischen Ethernet und WLAN) funktionieren darauf).
+
+> Legen Sie eine IP fest
+
+- Sie können auf der Ethernet- oder WLAN-Seite des Luna-Plugins die IP-Adressen festlegen. Um das Ethernet einzustellen, müssen Sie zunächst über eine aktivierte WLAN-Verbindung verfügen.
+
+> Priorisieren Sie Verbindungen
+
+Auf der Homepage des Plugins können Sie die Verbindungen priorisieren, sodass die Box von Ethernet auf WLAN umschaltet, wenn keine Verbindung besteht oder umgekehrt.
 
 > Mit dem Luna-Plugin können Sie sich von Ihrem Luna aus mit einem WLAN-Netzwerk verbinden (mit oder ohne Passwort).
 
@@ -84,6 +90,6 @@ Im Moment berücksichtigt das Plugin nur Zugriffe mit DHCP.
 
 > 4G (nur kompatibel mit Jeedom Luna 4G-Boxen)
 
-Automatische Erkennung von 4G in der Box. Bitte gehen Sie das Luna-Plugin durch und klicken Sie auf „LTE-Modul erkennen“, wenn Sie die Parameter im Konfigurationsabschnitt nicht sehen, fordern Sie PIN-Code und APN in der Luna-Plugin-Konfiguration an.
-Wenn 4G erkannt wird, wird im Hintergrund ein Verbindungsmodul gestartet, das bei Bedarf automatisch von Ethernet auf 4G umschaltet (Ping auf 8.8.8.1).8) funktioniert das SMS-Plugin gleichzeitig mit 4G auf dem Luna 4G.
-Die Einstellungen werden in der Plugin-Konfiguration vorgenommen.
+Automatische Erkennung von 4G in der Box. Bitte gehen Sie das Luna-Plugin durch und klicken Sie auf „LTE-Modul erkennen“. Fordern Sie auf der LTE-Seite des Luna-Plugins PIN-Code und APN an.
+Wenn 4G erkannt wird, wird im Hintergrund ein Verbindungsmodul gestartet, das bei Bedarf automatisch von Ethernet oder WLAN auf 4G umschaltet. Das SMS-Plugin funktioniert gleichzeitig mit 4G auf dem Luna 4G.
+Die Einstellungen werden auf der LTE-Seite des Plugins vorgenommen.

@@ -6,8 +6,17 @@
 >
 >Como recordatorio, si no hay información sobre la actualización, significa que solo se trata de la actualización de la documentación, la traducción o el texto.
 
+# 14/09/2023
+- Nueva interfaz para el complemento móvil.
+- Hotspot
+- 2 wifi disponibles.
+- LTE con soporte para complemento SMS
+- Nuevo formato de tarjeta SD
+- Priorización de conexiones.
+- Establecer una dirección IP (Wifi y Ethernet)
+
 # 09/06/2023
-- cambiar el escenario del botón de encendido en la parte posterior de la caja. (ver documentación)
+- Cambiar el escenario del botón de Encendido en la parte posterior de la caja. (ver documentación)
 - Actualización de LTE para error de solicitud de LTE mientras la caja no es compatible.
   
 # 05/02/2023

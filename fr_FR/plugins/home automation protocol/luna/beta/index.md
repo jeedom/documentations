@@ -1,6 +1,6 @@
 # Plugin Luna
 
-# depuis le 27/03/2023 nouvelle image Jeedom Luna
+# depuis le 27/03/2023 nouvelle image Jeedom Luna (dit V2)
 Vous pouvez faire une maj sans perte de backup etc en cliquant sur "Mise à jour du module de Recovery". cela redémarrera votre Jeedom Luna mais vous ne perdrez pas vos configurations. Cela fera des changements dans le module de recovery et de boot de la box ce qui permettra une meilleure stabilité de celle-ci.
 
 # Attention souci de Flashage des Luna
@@ -59,7 +59,6 @@ Permet la gestion (formatage) de la carte micro-SD que vous pouvez ajouter à la
 > Les boutons Alimentation et Reset (v2 nouvelle image)
 
 - Buton Reset : moins de 1 seconde pour un redémarrage materiel de la box Luna.
-
   
 - Button Alimentation : entre 1 et 4 secondes pour un arrêt ou allumage de la batterie (Orange = éteint, Vert = Allumé).
 - Button Alimentation : entre 5 et 9 secondes redémarrage de la box (clignotement bleu au relâchement).
@@ -69,12 +68,19 @@ Permet la gestion (formatage) de la carte micro-SD que vous pouvez ajouter à la
 > Lora (uniquement pour les boxs Jeedom Luna vendues avec le module Lora de Jeedom)
 
 - Détection automatique du module et lancement du packet forwarder, sur le localhost de la Jeedom. Utiliser le plugin LNS pour installation de l'applicatif; rien est à faire depuis le plugin Luna, tout est automatique.
+- possibilité de le desactiver dans la partie LTE
 
-# Bientôt Disponible : Hotspot, 4G (pour les Luna 4G), LORA (pour les Luna Lora)
-
-> Hotspot (plugin Luna ALPHA)
+> Hotspot (plugin Luna BETA)
 
 Dans la partie Wifi du plugin vous pouvez cocher la case Hotspot ce qui vous permettra de créer un point d'accès wifi sur votre Box luna. (DNS et forwarding IP (pont entre ethernet et wifi) fonctionnels dessus).
+
+> Fixer une IP
+
+- vous pouvez dans la page ethernet ou wifi du plugin luna fixer les adresses ip de celle-ci, pour fixer l'ethernet vous devez au prealable avoir une connexion wifi activer.
+
+> Prioriser les connexions
+
+Vous pouvez dans la page d'acceuil du plugin priorisé les connexions pour que la box passe de l'ethernet au wifi si pas de conexion ou l'inverse.
 
 > Le plugin luna vous permet de vous connecter depuis votre luna à un réseau Wifi (avec ou sans mot de passe).
 
@@ -84,6 +90,6 @@ Pour le moment, le plugin prend en compte uniquement les accès avec DHCP.
 
 > 4G (uniquement compatible avec les boxs Jeedom Luna 4G)
 
-Détection automatique de la 4G interne à la box. Merci de bien vouloir passer par le plugin Luna et cliquer sur 'Détecter le module LTE' si vous ne voyez pas les paramètres dans la partie configuration, demande code pin et APN dans la configuration du plugin Luna.
-si 4G détectée, lancement d'un module de connexion en arrière plan qui passe automatiquement de l'éthernet à la 4G au besoin (ping vers 8.8.8.8), le plugin SMS fonctionne en meme temps que la 4G sur la Luna 4G.
-Les paramètrages se font dans la configuration du plugin.
+Détection automatique de la 4G interne à la box. Merci de bien vouloir passer par le plugin Luna et cliquer sur 'Détecter le module LTE' Demande code pin et APN dans la page LTE du plugin Luna.
+si 4G détectée, lancement d'un module de connexion en arrière plan qui passe automatiquement de l'éthernet ou wifi à la 4G au besoin le plugin SMS fonctionne en meme temps que la 4G sur la Luna 4G.
+Les paramètrages se font dans la page LTE du plugin.

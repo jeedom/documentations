@@ -6,6 +6,15 @@
 >
 >Zur Erinnerung: Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 14.09.2023
+- Neue Schnittstelle für das mobile Plugin.
+- Hotspot
+- 2 WLANs verfügbar.
+- LTE mit SMS-Plugin-Unterstützung
+- Neues SD-Kartenformat
+- Priorisierung von Verbindungen.
+- Legen Sie eine IP-Adresse fest (WLAN und Ethernet))
+
 # 09.06.2023
 - Ändern des Szenarios des Netzschalters auf der Rückseite der Box. (siehe Dokumentation)
 - LTE-Update für LTE-Anfragefehler, obwohl die Box nicht kompatibel ist.
