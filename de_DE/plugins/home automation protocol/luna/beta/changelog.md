@@ -9,7 +9,7 @@
 # 09.06.2023
 - Ändern des Szenarios des Netzschalters auf der Rückseite der Box. (siehe Dokumentation)
 - LTE-Update für LTE-Anfragefehler, obwohl die Box nicht kompatibel ist.
-
+  
 # 02.05.2023
 
 - LocalHost-Patch (Änderung der Rechte).

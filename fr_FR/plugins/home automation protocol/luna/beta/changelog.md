@@ -9,7 +9,7 @@
 # 06/09/2023
 - changement du scenario du bouton Allimentation a l'arriere de la box. (voir documentation)
 - Mise à jour LTE pour erreur de demande LTE alors que box non compatible.
-
+  
 # 02/05/2023
 
 - Patch LocalHost (changement des droits).

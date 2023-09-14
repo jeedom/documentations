@@ -9,7 +9,7 @@
 # 09/06/2023
 - cambiar el escenario del botón de encendido en la parte posterior de la caja. (ver documentación)
 - Actualización de LTE para error de solicitud de LTE mientras la caja no es compatible.
-
+  
 # 05/02/2023
 
 - Parche LocalHost (cambio de derechos).
