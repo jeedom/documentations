@@ -7,7 +7,7 @@
         "en_ES": "Plugin para LG Connected Objects compatible con 'Smart Thinq APIv1",
         "de_DE": "Plugin für Smart Thinq APIv1-kompatible Connected Objects der Marke LG"
     },
-    "pluginVersion": "1.1.2-dev.1",
+    "pluginVersion": "1.1.2",
     "licence": "AGPL",
     "author": "Pifou25",
     "require": "4.2",
