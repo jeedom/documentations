@@ -4,6 +4,11 @@
 >
 >Recorde-se que, se não existe informação sobre a atualização, é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+# 17/09/2023
+
+- Corrigir compatibilidade com Debian 11 e Python 3
+- versão mínima do núcleo necessária: v4.2
+
 # 19/10/2022
 
 - Lista atualizada de comandos para Jeedom v4.3

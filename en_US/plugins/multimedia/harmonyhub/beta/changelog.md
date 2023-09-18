@@ -4,6 +4,11 @@
 >
 >As a reminder, if there is no information on the update, it is because it only concerns the update of documentation, translation or text.
 
+# 09/17/2023
+
+- Fix Debian 11 & Python 3 compatibility
+- minimum core version required: v4.2
+
 # 10/19/2022
 
 - Updated list of commands for Jeedom v4.3
