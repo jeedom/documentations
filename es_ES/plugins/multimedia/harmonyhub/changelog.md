@@ -4,6 +4,16 @@
 >
 >A modo de recordatorio, si no hay información sobre la actualización es porque solo se refiere a la actualización de documentación, traducción o texto.
 
+# 17/09/2023
+
+- Reparar la compatibilidad de Debian 11 y Python 3
+- versión básica mínima requerida: v4.2
+
+# 19/10/2022
+
+- Lista actualizada de comandos para Jeedom v4.3
+- Correcciones menores y optimizaciones en la pantalla de administración de equipos
+
 # 18/05/2021
 
 - Corrección de un mal funcionamiento de algunos controles
