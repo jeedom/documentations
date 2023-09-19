@@ -4,6 +4,10 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 19/09/2023
+
+- Corrigido um bug ao atualizar dependências (zigbee2mqtt) se você restaurasse o jeedom
+
 # 08/09/2023
 
 - Corrigido um bug que impedia a criação correta de pedidos

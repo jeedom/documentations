@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 19/09/2023
+
+- Correction d'un bug sur la mise a jour des dépendances (zigbee2mqtt) si vous avez fait une restoration de jeedom
+
 # 08/09/2023
 
 - Correction d'un bug qui empechait la création correcte des commandes

@@ -142,6 +142,14 @@ Unfortunately this is due to the way the manufacturer has planned the integratio
 
 Finally, and even if it may seem obvious to some, we remind you that Zigbee gateways in Wifi or remote are by definition less reliable than USB gateways. The Jeedom team therefore advises the use of a Zigbee gateway in USB.  
 
+# External converter
+
+Zigbee2mqtt allows you to add external converters (to support modules not officially supported). To add an external converter, simply in the plugin configuration (Plugin -> Plugin management -> Jeezigbee) click on the "Edit" button at the converter line and drop/edit your converter in the folder that jeedom gives you. watch.
+
+>**IMPORTANT**
+>
+>The support does not cover the creation/use part of external converters.
+
 # FAQ
 
 >**I have a lot of information messages (blue) at the bottom right and I don't understand anything**

@@ -1,21 +1,51 @@
 {
-	"id" : "conso",
-	"name" : "Suivi Conso",
-	"description" : "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production ",
-	"licence" : "AGPL",
-	"author" : "Mickeys",
-	"require" : "3.3",
-	"category" : "energy",
-	"display" : "panel",
-	"hasDependency" : false,
-	"hasOwnDeamon" : true,
-	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://mickeys27.github.io/Docs/conso/#language#/changelog",
-	"documentation" : "https://mickeys27.github.io/Docs/conso/#language#/",
-	"link" : {
-		"forum":"https://www.jeedom.com/forum/viewtopic.php?f=149&t=8500",
-		"Community":"https://community.jeedom.com/t/plugin-suivi-conso-debuggage/8246"
-	},
-	"language" : ["fr_FR"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
+      "id": "blea2mqtt",
+      "name": "BLEA2MQTT Gateway Manager",
+      "description": {
+        "fr_FR": "Plugin gérant l'installation, la configuration et le démarrage du service blea2mqtt, permettant de créer des antennes BLEA à partir de Linux ou MacOS, via une connexion SSH.",
+        "en_US": "Plugin managing the installation, configuration and startup of the blea2mqtt service, allowing the creation of BLEA antennas from Linux or MacOS, via an SSH connection.",
+        "es_ES": "Plugin que gestiona la instalación, configuración y arranque del servicio blea2mqtt, lo que permite la creación de antenas BLEA desde Linux o MacOS, a través de una conexión SSH.",
+        "de_DE": "Plugin zur Verwaltung der Installation, Konfiguration und Start des blea2mqtt-Dienstes, der die Erstellung von BLEA-Antennen von Linux oder MacOS aus über eine SSH-Verbindung ermöglicht.",
+        "ru_RU": "Плагин, управляющий установкой, настройкой и запуском сервиса blea2mqtt, позволяющего создавать BLEA-антенны из Linux или MacOS через SSH-соединение.",
+        "id_ID": "Plugin yang mengelola instalasi, konfigurasi, dan startup layanan blea2mqtt, memungkinkan pembuatan antena BLEA dari Linux atau MacOS, melalui koneksi SSH.",
+        "it_IT": "Plugin che gestisce l'installazione, la configurazione e l'avvio del servizio blea2mqtt, consentendo la creazione di antenne BLEA da Linux o MacOS, tramite una connessione SSH.",
+        "ja_JP": "blea2mqttサービスのインストール、設定、起動を管理し、SSH接続を介してLinuxまたはMacOSからBLEアンテナを作成することを可能にするプラグイン。",
+        "pt_PT": "Plugin que gerencia a instalação, configuração e inicialização do serviço blea2mqtt, permitindo a criação de antenas BLEA a partir do Linux ou MacOS, por meio de uma conexão SSH."
+      },
+      "installation":"Le guide de configuration se trouve sur cette page : <i><a class='btn btn-warning btn-xs' target='_blank' href='https://flobul-domotique.fr/presentation-et-documentation-du-plugin-blea2mqtt-pour-jeedom/'><i class='fas fa-cog'></i><strong> Configuration du plugin</strong></a></i></br>1) Une fois le plugin installé, activez-le.</br>2) Sélectionnez ensuite un broker MQTT parmis ceux installés sur votre Jeedom ou manuellement.</br>3) Sauvegardez.</br>4) Ajoutez ensuite vos antennes manuellement, et installez les dependences.",
+      "licence": "AGPL",
+      "author": "DomoFlo1",
+      "require": "4.2.0",
+      "category": "programming",
+      "hasDependency": true,
+      "hasOwnDeamon": false,
+      "maxDependancyInstallTime": 0,
+      "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-blea2mqtt-pour-jeedom/",
+      "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-blea2mqtt-pour-jeedom/",
+      "changelog_beta": "https://flobul-domotique.fr/liste-des-versions-du-plugin-blea2mqtt-pour-jeedom/",
+      "documentation_beta": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-blea2mqtt-pour-jeedom/",
+      "link": {
+        "forum": "https://community.jeedom.com/tag/plugin-blea2mqtt"
+      },
+      "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT"
+      ],
+      "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+		"docker",
+		"diy",
+		"mobile",
+		"v4",
+		"atlas"
+	]
 }

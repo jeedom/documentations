@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 09/19/2023
+
+- Fixed a bug when updating dependencies (zigbee2mqtt) if you restored jeedom
+
 # 08/09/2023
 
 - Fixed a bug that prevented orders from being created correctly

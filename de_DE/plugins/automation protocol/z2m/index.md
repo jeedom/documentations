@@ -142,6 +142,14 @@ Leider liegt dies an der Art und Weise, wie der Hersteller die Integration seine
 
 Abschließend möchten wir Sie daran erinnern, dass Zigbee-Gateways in WLAN oder Remote per Definition weniger zuverlässig sind als USB-Gateways, auch wenn es für manche offensichtlich erscheinen mag. Das Jeedom-Team rät daher zum Einsatz eines Zigbee-Gateways in USB.  
 
+# Externer Konverter
+
+Mit Zigbee2mqtt können Sie externe Konverter hinzufügen (um Module zu unterstützen, die nicht offiziell unterstützt werden)). Um einen externen Konverter hinzuzufügen, klicken Sie einfach in der Plugin-Konfiguration (Plugin -> Plugin-Verwaltung -> Jeezigbee) auf die Schaltfläche „Bearbeiten“ in der Konverterzeile und legen/bearbeiten Sie Ihren Konverter in dem Ordner, den jeedom Ihnen zur Verfügung stellt. watch.
+
+>**WICHTIG**
+>
+>Der Support deckt nicht den Erstellungs-/Nutzungsteil externer Konverter ab.
+
 # FAQ
 
 >**Ich habe unten rechts viele Informationsmeldungen (blau) und verstehe nichts**
