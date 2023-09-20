@@ -4,6 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 20/09/2023
+
+- Se corrigió un error en la versión zigbee2mqtt
+
 # 19/09/2023
 
 - Se corrigió un error al actualizar las dependencias (zigbee2mqtt) si restauraba jeedom

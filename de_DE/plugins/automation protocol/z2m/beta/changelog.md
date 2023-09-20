@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 20.09.2023
+
+- Ein Fehler in der zigbee2mqtt-Version wurde behoben
+
 # 19.09.2023
 
 - Ein Fehler beim Aktualisieren von Abhängigkeiten (zigbee2mqtt) wurde behoben, wenn Sie jeedom wiederhergestellt haben
