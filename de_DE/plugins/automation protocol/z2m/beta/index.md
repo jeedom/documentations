@@ -152,6 +152,8 @@ Mit Zigbee2mqtt können Sie externe Konverter hinzufügen (um Module zu unterst�
 
 # FAQ
 
+[Verknüpfung](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html) zu den Zigbee2mqtt-FAQ
+
 >**Ich habe unten rechts viele Informationsmeldungen (blau) und verstehe nichts**
 >
 >Wir sortieren derzeit die nützlichen oder nicht nützlichen Nachrichten aus, die Zigbee2mqtt zurückgibt. aber standardmäßig bevorzugen wir die Anzeige aller.

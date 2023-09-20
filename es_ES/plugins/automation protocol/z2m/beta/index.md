@@ -152,6 +152,8 @@ Zigbee2mqtt le permite agregar convertidores externos (para admitir módulos no 
 
 # FAQ
 
+[Enlace](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html) a las preguntas frecuentes de Zigbee2mqtt
+
 >**Tengo muchos mensajes de información (azul) abajo a la derecha y no entiendo nada**
 >
 >Actualmente estamos clasificando los mensajes útiles o no que devuelve Zigbee2mqtt; pero por defecto preferimos mostrar todo.

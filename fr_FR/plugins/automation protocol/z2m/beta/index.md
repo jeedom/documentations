@@ -152,6 +152,8 @@ Zigbee2mqtt vous autorise à ajouter des convertisseurs externe (pour supporter 
 
 # FAQ
 
+[Lien](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html) vers la FAQ de Zigbee2mqtt
+
 >**J’ai plein de messages d'informations (bleu) en bas a droite et je n'y comprends rien**
 >
 >Nous sommes actuellement en train de trier les messages utiles ou non que renvoi Zigbee2mqtt; mais par défaut nous préferons tout afficher.
