@@ -4,6 +4,8 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+- Possibilidade de escolher a versão do zigbee2mqtt
+
 # 20/09/2023
 
 - Corrigido um bug na versão zigbee2mqtt
