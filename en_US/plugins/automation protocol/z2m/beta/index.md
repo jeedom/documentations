@@ -42,6 +42,13 @@ The plugin uses the MQTT protocol to chat with Jeedom; it is therefore necessary
 
 Once the dependencies are installed, you can configure a Zigbee controller by entering **controller type, controller port**, then (re)start the daemon.    
 
+You can in the plugin configuration : 
+
+- Choose the version of zigbee2mqtt by simply putting the version number in the field provided for (a button next to this field allows you to see the versions available). Then just save then restart the dependencies
+- The plugin also tells you if you have (at least) the version recommended by jeedom, it is not obligatory but recommended to be in this version or higher
+- You can change the listening port of the zigbee2mqtt interface (it is not recommended to touch this unless you know what you are doing)
+- It is possible for EZSP Elelabs controllers to update the firmware
+
 >**IMPORTANT**
 >
 > There are 2 modes for the plugin : local, everything is on your Jeedom, this is the recommended mode. For advanced users, it is possible to use remote mode; in this case Jeedom does not manage Zigbee2mqtt, it must be installed by you (usually on a docker on jeedom or on another machine). Attention in remote mode it is necessary that Mqtt manager and Zigbee2mqtt are connected to the same brocker mqtt (mosquitto)
