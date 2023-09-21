@@ -1,14 +1,21 @@
 {
-	"id" : "prosommateur",
-	"name" : "Production Energie",
-	"description" : "L’autoconsommation est le but dans la production d’énergie. Ce plugin est là pour vous y aider en contrôlant les activations",
+	"id" : "conso",
+	"name" : "Suivi Conso",
+	"description" : "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production ",
 	"licence" : "AGPL",
-	"author" : "Halbout Michael",
-	"require" : "3.3.32",
+	"author" : "Mickeys",
+	"require" : "3.3",
 	"category" : "energy",
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
- 	"documentation" : "http://mika-nt28.github.io/Documentations/prosommateur/#language#",
-	"changelog" : "https://mika-nt28.github.io/Documentations/prosommateur/#language#/changelog",
+	"display" : "panel",
+	"hasDependency" : false,
 	"hasOwnDeamon" : true,
-	"display" : "panel"
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://mickeys27.github.io/Docs/conso/#language#/changelog",
+	"documentation" : "https://mickeys27.github.io/Docs/conso/#language#/",
+	"link" : {
+		"forum":"https://www.jeedom.com/forum/viewtopic.php?f=149&t=8500",
+		"Community":"https://community.jeedom.com/t/plugin-suivi-conso-debuggage/8246"
+	},
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
 }
