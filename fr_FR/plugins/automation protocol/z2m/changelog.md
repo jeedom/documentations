@@ -13,10 +13,6 @@
 >
 >Pour ceux ayant des soucis de module injoignable suites aux précedente mise à jour il faut restorer un backup jeedom d'avant la mise à jour puis refaire la mise à jour. Je m'excuse sincerement pour ce bug qui se produit chez certain d'entre vous il vient d'un fonction innatendu de zigbee2mqtt que je n'ai pas sur mes differents labo.
 
->**IMPORTANT**
->
-> Note il reste un bug dans cette version ou le faite de mettre a vide le champs de version peut amener une erreur, c'est en cours d'analyse et sera corrigé dans les prochaines heures
-
 # 20/09/2023
 
 - Correction d'un bug sur la version de zigbee2mqtt

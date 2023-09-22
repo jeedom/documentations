@@ -4,7 +4,18 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+
+# 09/22/2023
+
 - Possibility to choose the version of zigbee2mqtt
+
+>**IMPORTANT**
+>
+>For those having problems with an unreachable module following the previous update, you must restore a jeedom backup from before the update then redo the update. I sincerely apologize for this bug which occurs to some of you, it comes from an unexpected function of zigbee2mqtt which I do not have on my different labs.
+
+>**IMPORTANT**
+>
+> Note there remains a bug in this version where emptying the version field can cause an error, this is currently being analyzed and will be corrected in the coming hours
 
 # 09/20/2023
 
