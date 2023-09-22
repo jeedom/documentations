@@ -42,6 +42,13 @@ El complemento utiliza el protocolo MQTT para chatear con Jeedom; por lo tanto, 
 
 Una vez instaladas las dependencias, puede configurar un controlador Zigbee ingresando **tipo de controlador, puerto de controlador**, luego (re)iniciar el demonio.    
 
+Puedes hacerlo en la configuración del complemento : 
+
+- Elija la versión de zigbee2mqtt simplemente poniendo el número de versión en el campo previsto (un botón al lado de este campo le permite ver las versiones disponibles). Luego simplemente guarde y luego reinicie las dependencias
+- El complemento también te dice si tienes (al menos) la versión recomendada por jeedom, no es obligatorio pero se recomienda estar en esta versión o superior
+- Puedes cambiar el puerto de escucha de la interfaz zigbee2mqtt (no se recomienda tocar esto a menos que sepas lo que estás haciendo))
+- Es posible que los controladores EZSP Elelabs actualicen el firmware
+
 >**IMPORTANTE**
 >
 > Hay 2 modos para el plugin : local, todo está en su Jeedom, este es el modo recomendado. Para usuarios avanzados, es posible utilizar el modo remoto; en este caso, Jeedom no administra Zigbee2mqtt, debe instalarlo usted (generalmente en una ventana acoplable en Jeedom o en otra máquina)). Atención en modo remoto es necesario que Mqtt manager y Zigbee2mqtt estén conectados al mismo brocker mqtt (mosquitto)
@@ -151,6 +158,8 @@ Zigbee2mqtt le permite agregar convertidores externos (para admitir módulos no 
 >El soporte no cubre la parte de creación/uso de convertidores externos.
 
 # FAQ
+
+[Enlace](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html) a las preguntas frecuentes de Zigbee2mqtt
 
 >**Tengo muchos mensajes de información (azul) abajo a la derecha y no entiendo nada**
 >

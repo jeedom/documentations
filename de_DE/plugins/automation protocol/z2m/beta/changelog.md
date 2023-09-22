@@ -4,7 +4,18 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+
+# 22.09.2023
+
 - Möglichkeit, die Version von zigbee2mqtt auszuwählen
+
+>**WICHTIG**
+>
+>Wenn Sie nach dem vorherigen Update Probleme mit einem nicht erreichbaren Modul haben, müssen Sie ein Jeedom-Backup von vor dem Update wiederherstellen und dann das Update wiederholen. Ich entschuldige mich aufrichtig für diesen Fehler, der bei einigen von Ihnen auftritt. Er kommt von einer unerwarteten Funktion von zigbee2mqtt, die ich in meinen verschiedenen Laboren nicht habe.
+
+>**WICHTIG**
+>
+> Beachten Sie, dass es in dieser Version immer noch einen Fehler gibt, bei dem das Leeren des Versionsfelds zu einem Fehler führen kann. Dieser wird derzeit analysiert und in den kommenden Stunden behoben
 
 # 20.09.2023
 
