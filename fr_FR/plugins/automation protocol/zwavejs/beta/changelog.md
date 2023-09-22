@@ -4,6 +4,12 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 01/10/2023
+
+**Améliorations**
+
+- Passage à la version *8.26.0* de ZwaveJsUI
+
 # 11/09/2023
 
 **Corrections**

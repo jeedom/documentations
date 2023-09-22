@@ -4,6 +4,12 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 10/01/2023
+
+**Mejoras**
+
+- Cambiar a versión *8.26.0* por ZwaveJsUI
+
 # 11/09/2023
 
 **Arreglos**
