@@ -1,27 +1,28 @@
 {
-  "id": "gkeep",
-  "name": "Google Keep",
+  "id": "beem",
+  "name": "Beem",
   "description": {
-      "fr_FR": "Plugin permettant de synchroniser ses notes et listes avec Google Keep.</br>Nécéssite python >= v3.8 pour fonctionner.",
-      "en_US": "Plugin for synchronizing notes and lists with Google Keep",
-      "es_ES": "Plugin para sincronizar notas y listas con Google Keep",
-      "pt_PT": "Plugin para sincronizar notas e listas com o Google Keep",
-      "de_DE": "Plugin zum Synchronisieren von Notizen und Listen mit Google Keep",
-      "it_IT": "Plugin per la sincronizzazione di note ed elenchi con Google Keep"
+      "fr_FR": "Plugin permettant de récupérer les informations sa Beembox de chez Beem energy",
+      "en_US": "Plugin to retrieve information from Beem energy's Beembox",
+      "es_ES": "Plugin para recuperar información del Beembox de Beem energy",
+      "pt_PT": "Plugin para recuperar informações da Beem energy's Beembox",
+      "de_DE": "Plugin zum Abrufen von Informationen sa Beembox von Beem energy",
+      "it_IT": "Plugin per recuperare le informazioni dalla Beembox di Beem energy"
   },
-  "utilization": "Sélectionnez le nombre de comptes Google, entrez les informations de connexion de chacun d'entre eux, puis lancez une première connexion.",
+  "utilization": "Après avoir entré l'email de connexion et le mot de passe dans la page de configuration, sélectionnez l'intervalle de rafraîchissement des informations. Lancez une synchronisation depuis la page des équipements.",
   "licence": "AGPL",
   "author": "DomoFlo1",
   "require": "4.2",
-  "category": "organization",
-  "display": "panel",
-  "hasDependency": true,
+  "category": "energy",
+  "hasDependency": false,
   "hasOwnDeamon": false,
   "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-google-keep-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-google-keep-pour-jeedom/",
+  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
+  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
+  "changelog_beta": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
+  "documentation_beta": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
   "link": {
-    "forum": "https://community.jeedom.com/tag/plugin-GKeep"
+    "forum": "https://community.jeedom.com/tag/plugin-beem"
   },
   "language": [
     "fr_FR",
