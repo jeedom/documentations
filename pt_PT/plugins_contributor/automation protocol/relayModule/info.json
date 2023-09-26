@@ -1,45 +1,33 @@
 {
-  "id": "beem",
-  "name": "Beem",
-  "description": {
-      "fr_FR": "Plugin permettant de récupérer les informations sa Beembox de chez Beem energy",
-      "en_US": "Plugin to retrieve information from Beem energy's Beembox",
-      "es_ES": "Plugin para recuperar información del Beembox de Beem energy",
-      "pt_PT": "Plugin para recuperar informações da Beem energy's Beembox",
-      "de_DE": "Plugin zum Abrufen von Informationen sa Beembox von Beem energy",
-      "it_IT": "Plugin per recuperare le informazioni dalla Beembox di Beem energy"
-  },
-  "utilization": "Après avoir entré l'email de connexion et le mot de passe dans la page de configuration, sélectionnez l'intervalle de rafraîchissement des informations. Lancez une synchronisation depuis la page des équipements.",
-  "licence": "AGPL",
-  "author": "DomoFlo1",
-  "require": "4.2",
-  "category": "energy",
-  "hasDependency": false,
-  "hasOwnDeamon": false,
-  "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
-  "changelog_beta": "https://flobul-domotique.fr/liste-des-versions-du-plugin-beem-pour-jeedom/",
-  "documentation_beta": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-beem-pour-jeedom/",
-  "link": {
-    "forum": "https://community.jeedom.com/tag/plugin-beem"
-  },
-  "language": [
-    "fr_FR",
-    "en_US",
-    "es_ES",
-    "pt_PT",
-    "de_DE",
-    "it_IT"
-  ],
-  "compatibility": [
-    "miniplus",
-    "smart",
-    "rpi",
-    "docker",
-    "diy",
-    "mobile",
-    "v4",
-    "atlas"
-  ]
+	"id": "gardena",
+	"name": "Gardena-Husqvarna",
+	"description": "Plugin permettant d'intégrer tous les appareils de la gamme Gardena Smart System (Water Control, sensor, irrigation control, power socket et Sileno mower) ce qui permet de controler votre système d'arrosage et votre robot tondeuse ainsi que les robots Husqvarna Automower Connect. Il est possible d'accéder aux données des appareils, de les monitorer et d'effectuer certaine actions en fonction de l'appareil (voir la documentation).",
+	"utilization": "Le plugin utilise les API officielles du group Husqvarna / Gardena pour piloter vos équipements, cela devrait donc être plus stable dans le temps que d'autres intégrations. Une clé API (gratuite) est nécesaire pour la configuration; tout est détaillé dans la page de configuration du plugin.",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.2",
+	"category": "nature",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"maxDependancyInstallTime": 0,
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/gardena/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/gardena/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/gardena/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/gardena/#language#/",
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-gardena",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"v4",
+		"atlas"
+	]
 }
