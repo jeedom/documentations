@@ -361,7 +361,7 @@ pouvez utiliser les tags suivants :
 >
 > Pour avoir les zéros initiaux à l’affichage, il faut utiliser la
 > fonction Date(). Voir
-> [ici](http://php.net/manual/fr/function.date.php).
+> [ici](https://www.php.net/manual/fr/function.date.php).
 
 -   #seconde# : Seconde courante (sans les zéros initiaux, ex : 6 pour
     08:07:06),
@@ -425,50 +425,50 @@ Plusieurs fonctions sont disponibles pour les équipements :
 -   average(commande,période) et averageBetween(commande,start,end)
     : Donnent la moyenne de la commande sur la période
     (period=[month,day,hour,min] ou [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou
     [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   min(commande,période) et minBetween(commande,start,end) :
     Donnent le minimum de la commande sur la période
     (period=[month,day,hour,min] ou [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou
     [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   max(commande,période) et maxBetween(commande,start,end) :
     Donnent le maximum de la commande sur la période
     (period=[month,day,hour,min] ou [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou
     [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   duration(commande, valeur, période) et
     durationbetween(commande,valeur,start,end) : Donnent la durée en
     minutes pendant laquelle l’équipement avait la valeur choisie sur la
     période (period=[month,day,hour,min] ou [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou
     [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   statistics(commande,calcul,période) et
     statisticsBetween(commande,calcul,start,end) : Donnent le résultat
     de différents calculs statistiques (sum, count, std,
     variance, avg, min, max) sur la période
     (period=[month,day,hour,min] ou [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou
     [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   tendance(commande,période,seuil) : Donne la tendance de la
     commande sur la période (period=[month,day,hour,min] ou
     [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   stateDuration(commande) : Donne la durée en secondes
     depuis le dernier changement de valeur. Retourne -1 si aucun
@@ -491,15 +491,15 @@ Plusieurs fonctions sont disponibles pour les équipements :
     nombre de changements d’état (vers une certaine valeur si indiquée,
     ou au total sinon) sur la période (period=[month,day,hour,min] ou
     [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     entre les 2 bornes demandées (sous la forme Y-m-d H:i:s ou
     [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   lastBetween(commande,start,end) : Donne la dernière valeur
     enregistrée pour l’équipement entre les 2 bornes demandées (sous la
     forme Y-m-d H:i:s ou [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   variable(mavariable,valeur par défaut) : Récupère la valeur d’une
     variable ou de la valeur souhaitée par défaut :
@@ -514,14 +514,14 @@ Plusieurs fonctions sont disponibles pour les équipements :
 -   collectDate(cmd,[format]) : Renvoie la date de la dernière donnée
     pour la commande donnée en paramètre, le 2ème paramètre optionnel
     permet de spécifier le format de retour (détails
-    [ici](http://php.net/manual/fr/function.date.php)). Un retour de -1
+    [ici](https://www.php.net/manual/fr/function.date.php)). Un retour de -1
     signifie que la commande est introuvable et -2 que la commande n’est
     pas de type info
 
 -   valueDate(cmd,[format]) : Renvoie la date de la dernière donnée
     pour la commande donnée en paramètre, le 2ème paramètre optionnel
     permet de spécifier le format de retour (détails
-    [ici](http://php.net/manual/fr/function.date.php)). Un retour de -1
+    [ici](https://www.php.net/manual/fr/function.date.php)). Un retour de -1
     signifie que la commande est introuvable et -2 que la commande n’est
     pas de type info
 
@@ -541,14 +541,14 @@ Plusieurs fonctions sont disponibles pour les équipements :
 -   lastCommunication(equipment,[format]) : Renvoie la date de la dernière communication
     pour l'équipement donnée en paramètre, le 2ème paramètre optionnel
     permet de spécifier le format de retour (détails
-    [ici](http://php.net/manual/fr/function.date.php)). Un retour de -1
+    [ici](https://www.php.net/manual/fr/function.date.php)). Un retour de -1
     signifie que l'équipment est introuvable
 
 -   color_gradient(couleur_debut,couleur_fin,valuer_min,valeur_max,valeur) : Renvoi une couleur calculé par rapport à valeur dans l'intervalle couleur_debut/couleur_fin. La valeur doit etre comprise entre valeur_min et valeur_max
 
 Les périodes et intervalles de ces fonctions peuvent également
 s’utiliser avec [des expressions
-PHP](http://php.net/manual/fr/datetime.formats.relative.php) comme par
+PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative) comme par
 exemple :
 
 -   Now : maintenant

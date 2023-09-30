@@ -361,7 +361,7 @@ kann die folgenden Tags verwenden :
 >
 > Verwenden Sie die Taste, um die führenden Nullen anzuzeigen
 > Date () Funktion. Ansicht
-> [hier](http://php.net/manual/fr/function.date.php).
+> [hier](https://www.php.net/manual/fr/function.date.php).
 
 -   #seconde# : Aktuelle Sekunde (ohne führende Nullen, z : 6 für
     08:07:06),
@@ -425,50 +425,50 @@ Für das Gerät stehen verschiedene Funktionen zur Verfügung :
 -   Durchschnitt (Reihenfolge, Periode) und DurchschnittBetween (Reihenfolge, Start, Ende))
     : Geben Sie den Durchschnitt der Bestellung über den Zeitraum an
     (Zeitraum = [Monat, Tag, Stunde, Minute] oder [Ausdruck
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     zwischen den 2 erforderlichen Klemmen (in der Form Ymd H:i:s oder
     [Ausdruck
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   min (Reihenfolge, Periode) und minBetween (Reihenfolge, Start, Ende) :
     Geben Sie die Mindestbestellmenge über den Zeitraum an
     (Zeitraum = [Monat, Tag, Stunde, Minute] oder [Ausdruck
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     zwischen den 2 erforderlichen Klemmen (in der Form Ymd H:i:s oder
     [Ausdruck
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   max (Reihenfolge, Periode) und maxBetween (Reihenfolge, Start, Ende)) :
     Geben Sie das Maximum der Bestellung über den Zeitraum an
     (Zeitraum = [Monat, Tag, Stunde, Minute] oder [Ausdruck
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     zwischen den 2 erforderlichen Klemmen (in der Form Ymd H:i:s oder
     [Ausdruck
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   Dauer (Reihenfolge, Wert, Zeitraum) und
     Dauer dazwischen (Befehl, Wert, Start, Ende) : Geben Sie die Dauer in an
     Minuten, in denen das Gerät den auf dem
     Periode (Periode = [Monat, Tag, Stunde, Minute] oder [Ausdruck
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     zwischen den 2 erforderlichen Klemmen (in der Form Ymd H:i:s oder
     [Ausdruck
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   Statistiken (Reihenfolge, Berechnung, Zeitraum) und
     statisticsBetween (Befehl, Berechnung, Start, Ende) : Geben Sie das Ergebnis
     verschiedene statistische Berechnungen (Summe, Anzahl, Standard,
     Varianz, Durchschnitt, Min, Max) über den Zeitraum
     (Zeitraum = [Monat, Tag, Stunde, Minute] oder [Ausdruck
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     zwischen den 2 erforderlichen Klemmen (in der Form Ymd H:i:s oder
     [Ausdruck
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   Trend (Reihenfolge, Zeitraum, Schwelle) : Gibt den Trend von
     Bestellung über den Zeitraum (Zeitraum = [Monat, Tag, Stunde, Minute] oder
     [Ausdruck
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   stateDuration (Befehl) : Gibt die Dauer in Sekunden an
     seit der letzten Wertänderung. Gibt -1 zurück, wenn keine vorhanden ist
@@ -491,15 +491,15 @@ Für das Gerät stehen verschiedene Funktionen zur Verfügung :
     Anzahl der Statusänderungen (auf einen bestimmten Wert, falls angegeben,
     oder insgesamt anders) über den Zeitraum (Zeitraum = [Monat, Tag, Stunde, Minute] oder
     [Ausdruck
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     zwischen den 2 erforderlichen Klemmen (in der Form Ymd H:i:s oder
     [Ausdruck
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   lastBetween (Befehl, Start, Ende) : Gibt den letzten Wert zurück
     registriert für das Gerät zwischen den 2 erforderlichen Terminals (unter der
     bilden Ymd H:i:s oder [Ausdruck
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   Variable (Variable, Standardwert) : Holen Sie sich den Wert von a
     Variable oder der gewünschte Standardwert :
@@ -514,14 +514,14 @@ Für das Gerät stehen verschiedene Funktionen zur Verfügung :
 -   collectDate (cmd, [Format]) : Gibt das Datum der letzten Daten zurück
     für den als Parameter angegebenen Befehl der 2. optionale Parameter
     ermöglicht die Angabe des Rückgabeformats (Details
-    [hier](http://php.net/manual/fr/function.date.php)). Eine Rückkehr von -1
+    [hier](https://www.php.net/manual/fr/function.date.php)). Eine Rückkehr von -1
     bedeutet, dass die Bestellung nicht gefunden werden kann und -2, dass die Bestellung nicht gefunden wird
     kein Infotyp
 
 -   valueDate (cmd, [Format]) : Gibt das Datum der letzten Daten zurück
     für den als Parameter angegebenen Befehl der 2. optionale Parameter
     ermöglicht die Angabe des Rückgabeformats (Details
-    [hier](http://php.net/manual/fr/function.date.php)). Eine Rückkehr von -1
+    [hier](https://www.php.net/manual/fr/function.date.php)). Eine Rückkehr von -1
     bedeutet, dass die Bestellung nicht gefunden werden kann und -2, dass die Bestellung nicht gefunden wird
     kein Infotyp
 
@@ -541,14 +541,14 @@ Für das Gerät stehen verschiedene Funktionen zur Verfügung :
 -   lastCommunication (Ausrüstung, [Format]) : Gibt das Datum der letzten Kommunikation zurück
     für die als Parameter angegebene Ausrüstung der 2. optionale Parameter
     ermöglicht die Angabe des Rückgabeformats (Details
-    [hier](http://php.net/manual/fr/function.date.php)). Eine Rückkehr von -1
+    [hier](https://www.php.net/manual/fr/function.date.php)). Eine Rückkehr von -1
     bedeutet, dass das Gerät nicht gefunden werden kann
 
 -   color_gradient (start_colour, end_colour, min_value, max_value, value) : Gibt eine Farbe zurück, die in Bezug auf den Wert im Bereich color_start / color_end berechnet wurde. Der Wert muss zwischen min_value und max_value liegen
 
 Die Perioden und Intervalle dieser Funktionen können auch
 Verwenden Sie mit [Ausdrücken
-PHP](http://php.net/manual/fr/datetime.formats.relative.php) comme par
+PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative) comme par
 Beispiel :
 
 -   Jetzt : maintenant

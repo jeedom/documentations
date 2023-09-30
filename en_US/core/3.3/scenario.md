@@ -361,7 +361,7 @@ can use the following tags :
 >
 > To have the leading zeros on display, use the
 > Date () function. See
-> [here](http://php.net/manual/fr/function.date.php).
+> [here](https://www.php.net/manual/fr/function.date.php).
 
 -   #seconde# : Current second (without leading zeros, ex : 6 for
     08:07:06),
@@ -425,50 +425,50 @@ Several functions are available for the equipment :
 -   average (order, period) and averageBetween (order, start, end)
     : Give the average of the order over the period
     (period = [month, day, hour, min] or [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     between the 2 required terminals (in the form Ymd H:i:s or
     [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   min (order, period) and minBetween (order, start, end) :
     Give the minimum order over the period
     (period = [month, day, hour, min] or [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     between the 2 required terminals (in the form Ymd H:i:s or
     [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   max (order, period) and maxBetween (order, start, end) :
     Give the maximum of the order over the period
     (period = [month, day, hour, min] or [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     between the 2 required terminals (in the form Ymd H:i:s or
     [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   duration (order, value, period) and
     durationbetween (command, value, start, end) : Give the duration in
     minutes during which the equipment had the value selected on the
     period (period = [month, day, hour, min] or [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     between the 2 required terminals (in the form Ymd H:i:s or
     [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   statistics (order, calculation, period) and
     statisticsBetween (command, calculation, start, end) : Give the result
     different statistical calculations (sum, count, std,
     variance, avg, min, max) over the period
     (period = [month, day, hour, min] or [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     between the 2 required terminals (in the form Ymd H:i:s or
     [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   trend (order, period, threshold) : Gives the trend of
     order over the period (period = [month, day, hour, min] or
     [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   stateDuration (command) : Gives duration in seconds
     since the last change in value. Returns -1 if none
@@ -491,15 +491,15 @@ Several functions are available for the equipment :
     number of state changes (to a certain value if indicated,
     or in total otherwise) over the period (period = [month, day, hour, min] or
     [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) ou
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) ou
     between the 2 required terminals (in the form Ymd H:i:s or
     [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   lastBetween (command, start, end) : Returns the last value
     registered for the equipment between the 2 required terminals (under the
     form Ymd H:i:s or [expression
-    PHP](http://php.net/manual/fr/datetime.formats.relative.php)) :
+    PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative)) :
 
 -   variable (variable, default value) : Get the value of a
     variable or the desired default value :
@@ -514,14 +514,14 @@ Several functions are available for the equipment :
 -   collectDate (cmd, [format]) : Returns the date of the last data
     for the command given as a parameter, the 2nd optional parameter
     allows to specify the return format (details
-    [here](http://php.net/manual/fr/function.date.php)). A return of -1
+    [here](https://www.php.net/manual/fr/function.date.php)). A return of -1
     means that the order cannot be found and -2 that the order is not
     no info type
 
 -   valueDate (cmd, [format]) : Returns the date of the last data
     for the command given as a parameter, the 2nd optional parameter
     allows to specify the return format (details
-    [here](http://php.net/manual/fr/function.date.php)). A return of -1
+    [here](https://www.php.net/manual/fr/function.date.php)). A return of -1
     means that the order cannot be found and -2 that the order is not
     no info type
 
@@ -541,14 +541,14 @@ Several functions are available for the equipment :
 -   lastCommunication (equipment, [format]) : Returns the date of the last communication
     for the equipment given as a parameter, the 2nd optional parameter
     allows to specify the return format (details
-    [here](http://php.net/manual/fr/function.date.php)). A return of -1
+    [here](https://www.php.net/manual/fr/function.date.php)). A return of -1
     means that the equipment cannot be found
 
 -   color_gradient (color_start, color_end, value_min, value_max, value) : Returns a color calculated with respect to value in the range color_start / color_end. The value must be between min_value and max_value
 
 The periods and intervals of these functions can also
 use with [expressions
-PHP](http://php.net/manual/fr/datetime.formats.relative.php) comme par
+PHP](https://www.php.net/manual/fr/datetime.formats.php#datetime.formats.relative) comme par
 example :
 
 -   Now : maintenant
