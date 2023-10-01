@@ -17,7 +17,7 @@ Campos                   | Valores                                              
 ``licence`` *                | Tipo de licencia.                                                                                                          |
 ``author`` *                 | Nombre del autor del complemento, tal como se mostrará una vez que el complemento esté instalado, en la información del complemento.         |
 ``require`` *                | Versión mínima requerida de Jeedom (Core).                                                                                                |
-``category`` *               | Categoría de clasificación del complemento en el mercado Jeedom. **Respecter impérativement la [nomenclature du tableau ci-dessous(https://doc.jeedom.com/es_ES/dev/structure_info_json/#NOMENCLATURE%20CATEGORIES)]** |
+``category`` *               | Categoría de clasificación del complemento en el mercado Jeedom. **Es imperativo respetar la [nomenclatura de la siguiente tabla](https://doc.jeedom.com/es_ES/dev/structure_info_json/#NOMENCLATURE%20CATEGORIES)** |
 ``display``                  | Si el complemento usa un panel dedicado en el escritorio,. Este es el nombre del archivo principal para este panel.                    |
 ``mobile``                   | Si el complemento usa un panel dedicado en la aplicación web Jeedom. Este es el nombre del archivo principal para este panel.   |
 ``changelog`` *              | Enlace HTML al registro de cambios.                                                                                              |
@@ -28,10 +28,10 @@ Campos                   | Valores                                              
 ``link`` -> ``forum``               | Enlace HTML al foro sobre el tema oficial del complemento.                                                                  |
 ``languages``                | Lista de idiomas disponibles para el complemento: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP``, ``pt_PT``            |
 ``compatibility``            | Compatibilidad de complementos: miniplus, inteligente, ventana acoplable, rpi, bricolaje, mobileapp, v4.                                                   |
-``hasDependency``            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
-``hasOwnDeamon``             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
+``hasDependency``            | «true» si [el complemento debe instalar dependencias](https://doc.jeedom.com/es_ES/dev/daemon_plugin#Les%20d%C3%A9pendance), sinon «false» ou absent.                                              |
+``hasOwnDeamon``             | «true» si [el complemento debe ejecutar demonios](https://doc.jeedom.com/es_ES/dev/daemon_plugin#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), sinon «false» ou absent.                                                   |
 ``maxDependancyInstallTime`` | Tiempo máximo permitido para la instalación de dependencias, expresado en minutos.                                            |
-``specialAttributes`` | Permet aux plugin de demander des [parametre suplémentaire](https://doc.jeedom.com/es_ES/dev/structure_info_json/#SpecialAttributes) sur [des objets](https://doc.jeedom.com/es_ES/dev/structure_info_json/#Atributos%20Objeto) o [usuarios](https://doc.jeedom.com/es_ES/dev/structure_info_json/#Attributs%20User) (mire bien el ejemplo del complemento de plantilla) (Ver explicaciones a continuación)                                            |
+``specialAttributes`` | Permet aux plugin de demander des [parametre suplémentaire](https://doc.jeedom.com/es_ES/dev/structure_info_json#SpecialAttributes) sur [des objets](https://doc.jeedom.com/es_ES/dev/structure_info_json#Atributos%20Objeto) o [usuarios](https://doc.jeedom.com/es_ES/dev/structure_info_json#Attributs%20User) (mire bien el ejemplo del complemento de plantilla) (Ver explicaciones a continuación)                                            |
 ``issue``                    | URL al rastreador de errores si es externo (si no está lleno, recibirá un correo electrónico)
 
 ## Exemple

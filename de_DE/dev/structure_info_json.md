@@ -17,7 +17,7 @@ Felder                   | Werte                                                
 ``licence`` *                | Art der Lizenz.                                                                                                          |
 ``author`` *                 | Name des Plugin-Autors, der nach der Installation des Plugins in den Plugin-Informationen angezeigt wird.         |
 ``require`` *                | Erforderliche Mindestversion von Jeedom (Core).                                                                                                |
-``category`` *               | Ranking-Kategorie des Plugins auf dem Jeedom Market. **Respecter impérativement la [nomenclature du tableau ci-dessous(https://doc.jeedom.com/de_DE/dev/structure_info_json/#NOMENCLATURE%20CATEGORIES)]** |
+``category`` *               | Ranking-Kategorie des Plugins auf dem Jeedom Market. **Es ist unbedingt zu respektieren [Nomenklatur der Tabelle unten](https://doc.jeedom.com/de_DE/dev/structure_info_json/#NOMENCLATURE%20CATEGORIES)** |
 ``display``                  | Wenn das Plugin ein dediziertes Panel auf dem Desktop verwendet,. Dies ist der Name der Hauptdatei für dieses Panel.                    |
 ``mobile``                   | Wenn das Plugin ein dediziertes Panel auf der Jeedom-WebApp verwendet. Dies ist der Name der Hauptdatei für dieses Panel.   |
 ``changelog`` *              | HTML-Link zu Changelog.                                                                                              |
@@ -28,10 +28,10 @@ Felder                   | Werte                                                
 ``link`` -> ``forum``               | HTML-Link zum Forum zum offiziellen Thema des Plugins.                                                                  |
 ``languages``                | Liste der für das Plugin verfügbaren Sprachen: ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP``, ``pt_PT``            |
 ``compatibility``            | Plugin-Kompatibilität: Miniplus, Smart, Docker, RPI, DIY, Mobileapp, v4.                                                   |
-``hasDependency``            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
-``hasOwnDeamon``             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
+``hasDependency``            | «true» si [Das Plugin muss Abhängigkeiten installieren](https://doc.jeedom.com/de_DE/dev/daemon_plugin#Les%20d%C3%A9pendance), sinon «false» ou absent.                                              |
+``hasOwnDeamon``             | «true» si [Das Plugin muss Daemons ausführen](https://doc.jeedom.com/de_DE/dev/daemon_plugin#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), sinon «false» ou absent.                                                   |
 ``maxDependancyInstallTime`` | Maximal zulässige Zeit für die Installation von Abhängigkeiten, ausgedrückt in Minuten.                                            |
-``specialAttributes`` | Permet aux plugin de demander des [parametre suplémentaire](https://doc.jeedom.com/de_DE/dev/structure_info_json/#SpecialAttributes) sur [des objets](https://doc.jeedom.com/de_DE/dev/structure_info_json/#Attribute%20Object) oder [Benutzer](https://doc.jeedom.com/de_DE/dev/structure_info_json/#Attributs%20User) (Schauen Sie sich das Beispiel des Template-Plugins genau an) (Siehe Erläuterungen unten)                                            |
+``specialAttributes`` | Permet aux plugin de demander des [parametre suplémentaire](https://doc.jeedom.com/de_DE/dev/structure_info_json#SpecialAttributes) sur [des objets](https://doc.jeedom.com/de_DE/dev/structure_info_json#Attribute%20Object) oder [Benutzer](https://doc.jeedom.com/de_DE/dev/structure_info_json#Attributs%20User) (Schauen Sie sich das Beispiel des Template-Plugins genau an) (Siehe Erläuterungen unten)                                            |
 ``issue``                    | URL zum Bugtracker, falls extern (wenn nicht ausgefüllt, erhalten Sie eine E-Mail)
 
 ## Exemple
