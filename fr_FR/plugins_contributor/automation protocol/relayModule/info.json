@@ -1,26 +1,26 @@
 {
-	"id" : "unifi",
-	"name" : "Unifi Network",
-	"description" : {
-		"fr_FR":"Unifi Network - Connexion à un controleur Unifi Network.\nPermet certaines actions (Localiser, Gérer LED du site, Mise à jour Firmware, PowerCycle/Activation/Désactivation POE sur switchs, Activation/Désactivation/Reboot des Point d'accès, Activation/Désactivation des WLAN, Bloquer/Débloquer/Gestion présence des clients WiFi, etc)\n\nN'a pas la vocation de remplacer l'interface du controleur\n\nNon supporté : Unifi Access & Unifi VOIP",
-		"en_US":"Unifi Network - Connect to a Unifi Network controller\nAllow some actions (Localization, Manage site LED, Update Firmware, PowerCycle/Enable/Disable POE on switchs, Enable/Disable/Reboot AP, Enable/Disable WLAN's, Block/Unblock/Presence management of Wi-Fi clients, ...)\n\nDoes not replace Controller Web Interface\n\nNot supported : Unifi Access & Unifi VOIP\n\nWARNING : Not supported : Jessie & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)"
-	},
-	"utilization" : "Si votre équipement est dans votre controleur Unifi Network mais ne semble pas supporté (à part VOIP/Access) contactez moi je l'ajouterai.\n\nATTENTION : Non supporté : Jessie & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)",
-	"licence" : "AGPL",
-	"author" : "Nebz",
-	"hasDependency" : true,
-	"hasOwnDeamon" : true,
-	"require" : "3.3.24",
-	"category" : "monitoring",
-	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
-	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/changelog",
-	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/changelog",
-	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/",
-	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/unifi/fr_FR/",
-	"forum_link" : "https://community.jeedom.com/tags/plugin-unifi",
-	"link" : {
-		"forum":"https://community.jeedom.com/tags/plugin-unifi"
-	},
-	"languages" : ["fr_FR","en_US"],
-	"compatibility" : ["smart","rpi","docker","diy","v4"]
+	"id": "MQTTDiscovery",
+	"name": "MQTTDiscovery",
+	"description": "Plugin pour découverte automatique d'équipement MQTT",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.2",
+	"category": "devicecommunication",
+	"hasDependency": true,
+	"hasOwnDeamon": false,
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"rpi",
+		"diy",
+		"v4",
+		"atlas"
+	],
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/"
 }

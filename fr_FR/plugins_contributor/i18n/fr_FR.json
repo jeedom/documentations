@@ -23,6 +23,8 @@
         "Jolly Mec": "Jolly Mec",
         "Poele Agua IOT": "Poele Agua IOT",
         "Plugin PoeleAgua pour la gestion des poêle à bois et granulé utilisant la plateforme aqua iot ex": "Plugin PoeleAgua pour la gestion des poêle à bois et granulé utilisant la plateforme aqua iot ex",
+        "MQTTDiscovery": "MQTTDiscovery",
+        "Plugin pour découverte automatique d'équipement MQTT": "Plugin pour découverte automatique d'équipement MQTT",
         "Protocole domotique": "Protocole domotique",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",
