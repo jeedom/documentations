@@ -25,7 +25,7 @@ Renommez le dossier « plugin-template-master » en « vdm » (l'id) du plugin.
 
 1 / Abra el archivo plugin_info / info.json y edita el.
 
-```json
+`` ``json
 {
   "id" : "vdm",
   "name" : "Vida de caca",
@@ -39,7 +39,7 @@ Renommez le dossier « plugin-template-master » en « vdm » (l'id) du plugin.
   "language" : "",
   "compatibility" : ""
 }
-```
+`` ``
 
 Copie y pegue el código de arriba.
 
@@ -57,66 +57,66 @@ Registro de cambios, documentación, idioma, compatibilidad nula por el momento.
 
 Remplacez
 
-```php
+`` ``php
 plantilla de clase extiende eqLogic
-```
+`` ``
 
 par
 
-```php
+`` ``php
 class vdm extiende eqLogic
-```
+`` ``
 
 ------------------------
 
-```php
+`` ``php
 class templateCmd extiende cmd
-```
+`` ``
 
 par
 
-```php
+`` ``php
 la clase vdmCmd extiende cmd
-```
+`` ``
 
 - Cambie el nombre del archivo core / php / template.inc.php en core / php / vdm.inc.php
 - Cambiar el nombre del archivo de escritorio / php / plantilla.php a escritorio / php / vdm.php y ábrelo
 
 Reemplazar :
 
-```php
+`` ``php
 $plugin = plugin::byId('template');
-```
+`` ``
 
 Par
 
-```php
+`` ``php
 $plugin = plugin::byId('vdm');
-```
+`` ``
 
 ------------------------
 
-```html
+`` ``html
 {% raw %}<legend><i class="fas fa-table"></i> {{Mes templates}}</legend>{% endraw %}
-```
+`` ``
 
 Par
 
-```html
+`` ``html
 {% raw %}<legend><i class="fas fa-table"></i> {{Mes équipements}}</legend>{% endraw %}
-```
+`` ``
 
 ------------------------
 
-```php
+`` ``php
 <?php include_file('desktop', 'template', 'js', 'template');?>
-```
+`` ``
 
 Par
 
-```php
+`` ``php
 <?php include_file('desktop', 'vdm', 'js', 'vdm');?>
-```
+`` ``
 
 Y nada más , **no cambies la linea** ``<?php include_file('core', 'plugin.template', 'js');?>``.
 
@@ -126,7 +126,7 @@ Y nada más , **no cambies la linea** ``<?php include_file('core', 'plugin.templ
 
 - Abra el archivo plugin_info / install.php y cambie el nombre de las funciones de la siguiente manera
 
-```php
+`` ``php
 función vdm_install() {
 }
 
@@ -135,7 +135,7 @@ función vdm_update() {
 
 función vdm_remove() {
 }
-```
+`` ``
 
 Aquí el complemento está listo pero queda la personalización y el ícono para actualizar : [Documentación para desarrolladores: icono de complemento](https://doc.jeedom.com/es_ES/dev/Icone_de_plugin)
 
@@ -169,7 +169,7 @@ Abra el archivo core / class / vdm.class.php y busque la función postSave () (l
 
 Creamos los 2 pedidos
 
-```php
+`` ``php
 publicación de función pública() {
   $info = $this->getCmd(null, 'story');
   tejo (!is_object ($ info)) {
@@ -193,7 +193,7 @@ publicación de función pública() {
   $refresh->setSubType('other');
   $refresh->save();
 }
-```
+`` ``
 
 - Créez un autre équipement « vdm2 » en cliquant sur le +. En la pestaña de comandos, aparecieron los comandos. Actívala y hazla visible. Elija un objeto principal y vea cómo se ve en el tablero.
 
@@ -205,7 +205,7 @@ En la pestaña Pedidos, debería ver.
 
 Abra el escritorio / php / vdm.php para encontrar el código html de esta tabla.
 
-```html
+`` ``html
 {% raw %}
 <!-- Onglet des commandes de l'équipement -->
 <div role="tabpanel" class="tab-pane" id="commandtab">
@@ -229,11 +229,11 @@ Abra el escritorio / php / vdm.php para encontrar el código html de esta tabla.
 </div>
 </div><!-- /.tabpanel #commandtab-->
 {% endraw %}
-```
+`` ``
 
 En el momento de la visualización, es el script de escritorio / js / vdm.js que se llama y lanza la función addCmdToTable.
 
-```html
+`` ``html
 {% raw %}
 /* Función que permite la visualización de comandos en el equipo */
 función addCmdToTable (_cmd) {
@@ -298,7 +298,7 @@ función addCmdToTable (_cmd) {
   });
 }
 {% endraw %}
-```
+`` ``
 
 Sucede automaticamente.
 
@@ -308,7 +308,7 @@ Aquí queda recuperar un vdm aleatorio y usar los comandos.
 
 Para recuperar un vdm aleatoriamente.
 
-```php
+`` ``php
 $url = "http://www.viedemerde.fr/aleatoire";
 $data = file_get_contents($url);
 @$dom = new DOMDocument();
@@ -318,11 +318,11 @@ libxml_use_internal_errors (verdadero);
 $xpath = new DOMXPath($dom);
 $divs = $xpath->query('//article[@class="art-panel col-xs-12"]//div[@class="panel-content"]//p//a');
 return $ divs [0] -> nodeValue;
-```
+`` ``
 
 Abra el archivo core / class / vdm.class.php y para la clase vdm que hereda de los métodos egLogic, creo una función randomVdm
 
-```php
+`` ``php
 función pública randomVdm() {
   $url = "http://www.viedemerde.fr/aleatoire";
   $data = file_get_contents($url);
@@ -334,44 +334,44 @@ función pública randomVdm() {
   $divs = $xpath->query('//article[@class="art-panel col-xs-12"]//div[@class="panel-content"]//p//a');
   return $ divs [0] -> nodeValue;
 }
-```
+`` ``
 
 Ahora actualizaremos el comando info (historia) con esta información lanzando el comando de acción (actualizar).
 Todavía en core / class / vdm.class.php para la clase vdmCmd usaremos el método de ejecución
 
-```php
+`` ``php
 función pública ejecutar ($ _ opciones = matriz()) {
 }
-```
+`` ``
 
 C'est aquí qu'on va définir ce qu'il va se passer quand on actionne la commande « Rafraîchir ». La clase vdmCmd heredó todos los métodos de la clase cmd (Core jeedom)
 
 On vérifie le logicalIdentificación de la commande lancée et si « refresh » on lance les actions
 
-```php
+`` ``php
 cambiar ($ this-> getLogicalId()) {
   caso 'actualizar': // LogicalId del comando de actualización que creamos en el método Postsave de la clase vdm .
   // código para actualizar mi pedido
   break;
 }
-```
+`` ``
 
 Ahora queda ejecutar la función randomVdm(). Para ello recuperamos el eqLogic (el equipo) del control y ejecutamos la función.
 
-```php
+`` ``php
 $eqlogic = $this->getEqLogic(); //Récupération de l'eqlogic
 $info = $eqlogic->randomVdm() ; //Lance la fonction et stocke le résultat dans la variable $info
-```
+`` ``
 
 On met à jour la commande « story » avec la variable $info. Usaremos el método checkAndUpdateCmd de la clase eqlogic
 
-```php
+`` ``php
 $eqlogic->checkAndUpdateCmd('story', $info);
-```
+`` ``
 
 Que finalmente da
 
-```php
+`` ``php
 función pública ejecutar ($ _ opciones = matriz()) {
   $eqlogic = $this->getEqLogic(); //récupère l'éqlogic de la commande $this
   switch ($ this-> getLogicalId ()) {// verifica el ID lógico del comando
@@ -381,7 +381,7 @@ función pública ejecutar ($ _ opciones = matriz()) {
     break;
   }
 }
-```
+`` ``
 
 Ahora vaya a un dispositivo creado y ejecute el comando Actualizar. Puis la commande « Histoire » qui doit être à jour.
 
@@ -410,54 +410,54 @@ Dado el complemento, actualizaremos cada hora (seamos locos). Por lo tanto, usar
 
 Por lo tanto, abriremos el archivo vdm.class.php y búsqueda
 
-```php
+`` ``php
 /*
 * Función realizada automáticamente cada hora por Jeedom
 función estática pública cronHourly() {
 }
 */
-```
+`` ``
 
 Descomentar el código
 
-```php
+`` ``php
 función estática pública cronHourly() {
 }
-```
+`` ``
 
 Nuestra función es operativa
 
 Ahora tenemos que recuperar todo el equipo activo de nuestro plugin,
 
-```php
+`` ``php
 self::byType ('vdm', true) // matriz que contiene todos los dispositivos del complemento, el segundo argumento, un booleano, permite recuperar solo los dispositivos activos si es verdadero o todos los dispositivos si es falso (predeterminado)
-```
+`` ``
 
 y búsquelos 1 por 1
 
-```php
+`` ``php
 foreach (yo::byType ('vdm', verdadero) como $ vdm) {
 }
-```
+`` ``
 
 Voila maintenant on recherche la commande « refresh » de l'équipement (eqLogic)
 
-```php
+`` ``php
 $cmd = $vdm->getCmd(null, 'refresh');
-```
+`` ``
 
 Si no existe continuamos el bucle (foreach) de lo contrario lo ejecutamos
 
-```php
+`` ``php
 tejo (!is_object ($ cmd)) {
   continue;
 }
 $cmd->execCmd();
-```
+`` ``
 
 Que finalmente da
 
-```php
+`` ``php
 función estática pública cronHourly () {
   foreach (yo::byType ('vdm', true) as $ vdm) {// buscar todos los dispositivos activos del complemento vdm
     $cmd = $vdm->getCmd(null, 'refresh'); //retourne la commande "refresh" si elle existe
@@ -467,7 +467,7 @@ función estática pública cronHourly () {
   $cmd->execCmd(); //la commande existe on la lance
 }
 }
-```
+`` ``
 
 Pour tester, dans jeedom, allez dans configuration/moteur de tâches et lancer le cron de class « plugin » fonction « cronHourly »
 Actualizaciones de información.
@@ -480,14 +480,14 @@ Para la creación de los pedidos utilizamos el método postSave(). Usaremos el m
 
 La forma más fácil ya que solo hay un comando y se crea en postSave
 
-```php
+`` ``php
 función pública postUpdate() {
   $cmd = $this->getCmd(null, 'refresh'); //On recherche la commande refresh de l'équipement
   if (is_object ($ cmd)) {// existe y ejecutamos el comando
     $cmd->execCmd();
   }
 }
-```
+`` ``
 
 Tienes que probar, funciona?
 
@@ -495,15 +495,15 @@ Pero aquí hay una alternativa que puede resultar más útil en casos más compl
 
 En la función postUpdate (), lanzamos la función cronHourly () con la identificación del equipo
 
-```php
+`` ``php
 función pública postUpdate() {
   self::cronHourly ($ esto-> getId ()); // inicia la función cronHourly con el id de eqLogic
 }
-```
+`` ``
 
 Pero en este caso cambiamos la función cronHourly()
 
-```php
+`` ``php
 función estática pública cronHourly ($ _ eqLogic_id = null) {
   if ($ _eqLogic_id == null) {// La función no tiene argumento por lo que buscamos todo el equipo del complemento
     $eqLogics = self::byType('vdm', true);
@@ -519,7 +519,7 @@ función estática pública cronHourly ($ _ eqLogic_id = null) {
     $cmd->execCmd(); //la commande existe on la lance
   }
 }
-```
+`` ``
 
 Luego puede cambiar la frecuencia del cron según la importancia de su información para recuperar.
 
@@ -557,7 +557,7 @@ J'applique le template « cmd.info.string.tile.html » à ma commande.
 
 Para eso abro el archivo vdm.class.php , fonction postSave() et j'ajoute le template « tile » pour la commande « story » en appliquant la méthode setTemplate()
 
-```php
+`` ``php
 $info = $this->getCmd(null, 'story');
 tejo (!is_object ($ info)) {
   $info = new vdmCmd();
@@ -569,7 +569,7 @@ $info->setType('info');
 $info->setTemplate('dashboard','tile');//template pour le dashboard
 $info->setSubType('string');
 $info->save();
-```
+`` ``
 
 Actualizar el tablero.
 
@@ -579,19 +579,19 @@ Por lo tanto, cambiaremos el ancho del widget (equipo => eqLogic) usando el mét
 
 Para hacer esto, simplemente agregue
 
-```php
+`` ``php
 $this->setDisplay("width","800px");
-```
+`` ``
 
 Si pero !! Porque hay un pero. Intente agregar esto en la función postsave () o postUpdate () y no toma en cuenta el cambio. Por qué ? Ben debe leer el plugin de plantilla doc ==> AQUÍ
 
 Ahora que lo ha leído correctamente, sabe que debe utilizar el método preSave()
 
-```php
+`` ``php
 función pública preSave() {
   $this->setDisplay("width","800px");
 }
-```
+`` ``
 
 Registre el equipo y actualice el tablero.
 
@@ -603,31 +603,31 @@ Registre el equipo y actualice el tablero.
 
 Por el momento, tenemos que utilizar 3 clases del núcleo de jeedom : EqLogic, cmd, cron. Vaya para obtener información, agregamos un cuarto con el complemento de clase en el archivo vdm.php que abres y dejas abierto porque lo editaremos.
 
-```php
+`` ``php
 $plugin = plugin::byId('vdm'); // appelle la classe plugin du core
-```
+`` ``
 
 Tienes que entender que todo está hecho para facilitar nuestro trabajo.
 
 Para un parámetro / una opción interna al complemento, usaremos uno de los métodos de la clase eqLogic del núcleo: setConfiguration () agregando los parámetros que desee. Por ejemplo:
 
-```php
+`` ``php
 $this->setConfiguration("type","mon_type"); // si on veut définir un paramètre Tipo de valeur mon_type. Comme on a défini la largeur du widget via la méthode setDisplay()
-```
+`` ``
 
 Para dejar la elección al usuario, volvemos al archivo del escritorio.php que dejaste abierto porque estás siguiendo este TP al pie de la letra :D
 
 Cherchez
 
-```html
+`` ``html
 <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="city" placeholder="param1"/>
-```
+`` ``
 
 Y reemplazar con
 
-```html
+`` ``html
 <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="type" placeholder="option"/> //Importante de laisser la classe eqLogicAttr
-```
+`` ``
 
 Guarde y vaya a un dispositivo de complemento que ya haya creado siguiendo esta práctica de laboratorio (actualice si es necesario).
 
@@ -639,33 +639,33 @@ Perfecto, el parámetro se guarda.
 
 Es simple no? . C'est pourquoi il ne faut surtout pas toucher à cette ligne de code comme indiqué dans le premier menu « test ». Es el que hace todo el trabajo
 
-```php
+`` ``php
 <?php include_file('core', 'plugin.template', 'js');?> //Chargement du fichier core/js/plugin.template.js (en partant de la racine du site)
-```
+`` ``
 
 Si observa de cerca el archivo de escritorio.Hace php
 
-```html
+`` ``html
 <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display:none;" /> // retourne l'id(unique) de l'eqLogic(équipement) que l'on va pouvoir récupérer via $this->getId() ;
-```
+`` ``
 
-```html
+`` ``html
 {% raw %}<input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nombre de l'équipement}}"/>// retourne le nom de l'eqLogic(équipement) que l'on va pouvoir récupérer via $this->getName();{% endraw %}
-```
+`` ``
 
 Etc…
 
 Si ha entendido todo esto bien, podremos seguir adelante. Pero primero cambiaremos en el archivo desktop.php
 
-```html
+`` ``html
 {% raw %}<label class="col-sm-3 control-label">{{Paramètre}}</label>{% endraw %}
-```
+`` ``
 
 Par
 
-```html
+`` ``html
 {% raw %}<label class="col-sm-3 control-label">{{Type de vdm}}</label>{% endraw %}
-```
+`` ``
 
 Importante : El texto entre llaves corresponde al texto que se traducirá si empuja el complemento en el mercado.
 
@@ -679,7 +679,7 @@ On pourrait le laisser taper dans l'input « Type de vdm » : al azar o picante 
 
 Si ha seguido todo lo que debería tener en el archivo desktop.php
 
-```html
+`` ``html
 {% raw %}
 <div class="form-group">
   <label class="col-sm-3 control-label">{{Type de vdm}}</label>
@@ -688,11 +688,11 @@ Si ha seguido todo lo que debería tener en el archivo desktop.php
   </div>
 </div>
 {% endraw %}
-```
+`` ``
 
 Que reemplazaremos por
 
-```html
+`` ``html
 {% raw %}
 <div class="form-group">
   <label class="col-sm-3 control-label" >{{ Type de vdm }}</label>
@@ -705,7 +705,7 @@ Que reemplazaremos por
   </div>
 </div>
 {% endraw %}
-```
+`` ``
 
 Ici le paramètre «type» prendra la valeur du select choisi soit aleatoire ou epicees ou tops.
 
@@ -713,15 +713,15 @@ Ahora tendremos en cuenta nuestro parámetro en la función randomVdm () en el a
 
 Cherchez
 
-```php
+`` ``php
 $url = "http://www.viedemerde.fr/aleatoire";
-```
+`` ``
 
 Y reemplazar con
 
-```php
+`` ``php
 $Tipo = $this->getConfiguration("type", "aleatoire"); //si le paramètre est vide ou n'existe pas, on prends le Tipo aleatoire
 $url = "http://www.viedemerde.fr/{$type}";
-```
+`` ``
 
 Ahora cambie el valor de la selección en un elemento del equipo, guarde y vaya al tablero para ver cómo se ve.
