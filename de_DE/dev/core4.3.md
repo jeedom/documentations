@@ -12,7 +12,7 @@ Die js-Funktionen der Benutzeroberfläche befinden sich jetzt im jeeFrontEnd-Nam
 
 *\core\js\jeedom.class.js*
 
-```js
+„js
 jeeFrontEnd = {
   __description: 'Globales Objekt, bei dem jede Kernseite ihre eigenen Funktionen und Variablen in ihrem Unterobjektnamen registriert.',
   jeedom_firstUse: '',
@@ -30,7 +30,7 @@ jeeFrontEnd = {
   serverDatetime: null,
   serverTZoffsetMin: null,
 }
-```
+„
 
 - Exemple: Die Funktion „displayPlan()“ wird zu „jeeFrontEnd.plan.displayPlan()“.
 
@@ -48,37 +48,37 @@ Wenn Sie im Quellcode auf Französisch entwickeln:
 
 **desktop/php/meinplugin.php** :
 
-````html
+„`html
 {% raw %}<label class="col-sm-3 control-label">"{{Equipements de mon petit plugin}}"</label>{% endraw %}
-````
+„`
 
 **core/i18n/en_US.json** :
 
-````json
+„`json
 {
   "plugins\/monplugin\/desktop\/php\/monplugin.php": {
       	"Equipements de mon petit plugin": "My small plugin equipments",
   }
 }
-````
+„`
 
 Auf Englisch:
 
 **desktop/php/meinplugin.php** :
 
-````html
+„`html
 {% raw %}<label class="col-sm-3 control-label">"{{My small plugin equipments}}"</label>{% endraw %}
-````
+„`
 
 **core/i18n/fr_FR.json** :
 
-````json
+„`json
 {
   "plugins\/monplugin\/desktop\/php\/monplugin.php": {
       	"My small plugin equipments": "Equipements de mon petit plugin",
   }
 }
-````
+„`
 Ohne i18n-Datei wird das Plugin auf einem auf Französisch konfigurierten Core in Englisch angezeigt.
 
 > Achtung, auf einem Core vor 4.3, wird die Anzeige unabhängig von der Sprache des Kerns auf Englisch sein.
@@ -95,18 +95,18 @@ Bei Info-Befehlen die Taste **Prüfen** nicht mehr angezeigt wird, wird der Wert
 
 Die Deklaration der Update-Funktion entwickelt sich:
 
-```js
+„js
 jeedom.cmd.update['#id#'] = Funktion (_Optionen) {
       $('.cmd[data-cmd_id=#id#]').attr('title', '{{Date de valeur}} : '+_options.valueDate+'<br/>{{Datum der Abholung}} : '+_options.collectDate)
       $('.cmd[data-cmd_id=#id#] .state').empty().append(_options.Anzeigewert)
     }
 
 jeedom.cmd.refreshValue([{cmd_id :'#id#',Anzeigewert: '#state#', valueDate: '#valueDate#', collectDate: '#collectDate#', alertLevel: '#alertLevel#'}])
-```
+„
 
 Devient:
 
-```js
+„js
 jeedom.cmd.addUpdateFunction('#id#',Funktion (_Optionen) {
       $('.cmd[data-cmd_id=#id#]').attr('title', '{{Date de valeur}} : '+_options.valueDate+'<br/>{{Datum der Abholung}} : '+_options.collectDate)
       $('.cmd[data-cmd_id=#id#] .state').empty().append(_options.Anzeigewert)
@@ -114,7 +114,7 @@ jeedom.cmd.addUpdateFunction('#id#',Funktion (_Optionen) {
     });
 
 jeedom.cmd.refreshValue([{cmd_id :'#id#',Anzeigewert: '#state#', valueDate: '#valueDate#', collectDate: '#collectDate#', alertLevel: '#alertLevel#', unit: '#unite#'}])
-```
+„
 
 Beachten Sie den neuen Parameter „Einheit“, der es dem Core ermöglicht, beispielsweise 3500 W in 3,5 kW umzuwandeln.
 
@@ -124,20 +124,20 @@ Im Aktionsfall **Botschaft**, der Core zeigt jetzt die angegebene Quelle an anst
 
 Beispiel für das Mode-Plugin:
 
-````php
+„`php
 $options['source'] = 'plugin Mode '.$this->getName();
 scenarioExpression::createAndExec('action', $action['cmd'], $options);
-````
+„`
 
 #### Affichage des mots de passe (4.3.9):
 
 En 4.3, les mots de passe et clé API ne sont plus affichés en clair dans l'administration, avec un bouton à droite pour les afficher. C'est maintenant utilisable également sur les plugins :
 
-````html
+„`html
 <div class="input-group">
     <input type="text" class="inputPassword configKey form-control" data-l1key="pass" placeholder="Account password" />
     <span class="input-group-btn">
         <a class="btn btn-default form-control bt_showPass roundedRight"><i class="fas fa-eye"></i></a>
     </span>
 </div>
-````
+„`

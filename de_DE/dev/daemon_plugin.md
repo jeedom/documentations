@@ -80,7 +80,7 @@ Jetzt, da wir die Umgebung kennen, können wir uns den Teil ansehen, der uns am 
 
 Wir werden uns daher das von Jeedom vorgeschlagene Skelett eines Dämons im Detail ansehen, öffnen Sie die Datei `demond.py` und wir beginnen mit den letzten Zeilen, die eigentlich der Start des Programms sind:
 
-`` ``python
+„python
 _log_level = "Fehler""
 _socket_port = 55009 # zu ändern
 _socket_host = 'localhost'
@@ -129,11 +129,11 @@ try:
 außer Ausnahme als e:
     Logging.error ('Schwerwiegender Fehler : '+ str (e))
     shutdown()
-`` ``
+„
 
 Einige Variableninitialisierungen:
 
-`` ``python
+„python
 _log_level = "error" # der Standard-Log-Level, im Textformat wie von Jeedom gesendet
 _socket_port = 55009 # der Port, den Ihr Daemon standardmäßig zum Öffnen des Jeedom-Listening-Sockets verwendet, um modifiziert zu werden.
 _socket_host = 'localhost' # die Schnittstelle, auf der der Socket geöffnet werden soll, a priori nicht ändern.
@@ -141,7 +141,7 @@ _device = 'auto' # ist nutzlos, wenn Sie kein Hardwaregerät verwenden
 _pidfile = '/tmp/demond.pid' # emplacement par défaut du pidfile, ce fichier est utiliser par Jeedom pour savoir si votre démon est démarrer ou pas; nom du démon à modifier comme expliqué ci-dessus;
 _apikey = '' # apikey um die Kommunikation zwischen Jeedom und deinem Dämon zu authentifizieren
 _zurückrufen = '' ## die Callback-URL, um Benachrichtigungen an Jeedom zu senden (und Ihren PHP-Code)
-`` ``
+„
 
 > **Warnung**
 >
@@ -150,7 +150,7 @@ _zurückrufen = '' ## die Callback-URL, um Benachrichtigungen an Jeedom zu sende
 Dann erhalten wir die von der Befehlszeile erhaltenen Argumente, diese Befehlszeile wird von Ihrem PHP-Code generiert, wir kommen darauf zurück.
 Es liegt an Ihnen, das zu entfernen, was nicht nützlich ist (z. B. das Geräteargument) oder andere hinzuzufügen, z. B. einen Benutzer / pswd, wenn Ihr Daemon eine Verbindung zu einem Remote-System herstellen muss.
 
-`` ``python
+„python
 für arg in sys.argv:
     if arg.startswith ("-loglevel="):
         temp, _log_level = arg.split("=")
@@ -164,26 +164,26 @@ für arg in sys.argv:
         temp, _apikey = arg.split("=")
     elif arg.startswith ("- Gerät="):
         temp, _device = arg.split("=")
-`` ``
+„
 
 Dann gibt es ein paar Protokollzeilen und diese beiden Zeilen, klassisch in Python, die einfach die Methode aufzeichnen, die aufgerufen werden soll, falls diese beiden Interrupt-Signale empfangen werden, wodurch der Daemon gestoppt wird:
 
-`` ``python
+„python
 signal.signal (signal.SIGINT, handler)
 signal.signal (signal.SIGTERM, handler)
-`` ``
+„
 
 und die `handler`-Methode, die im Daemon etwas höher definiert ist:
 
-`` ``python
+„python
 def-Handler (signum = None, frame = None):
     Logging.debug ("Signal% habe ich gefangen, wird beendet ..."% int (signumsign))
     shutdown()
-`` ``
+„
 
 was nur ein Protokoll hinzufügt und die unten definierte Methode `shutdown()` aufruft:
 
-`` ``python
+„python
 def herunterfahren():
     Logging.debug ("Herunterfahren")
     Logging.debug ("PID-Datei entfernen" + str (_pidfile))
@@ -202,7 +202,7 @@ def herunterfahren():
     Logging.debug ("Exit 0")
     sys.stdout.flush()
     os._exit (0)
-`` ``
+„
 
 In dieser Methode müssen Sie den Code schreiben, der im Falle des Herunterfahrens des Daemons ausgeführt werden soll, zum Beispiel das Abmelden des Remote-Systems und das saubere Schließen offener Verbindungen.
 
@@ -212,7 +212,7 @@ In dieser Methode müssen Sie den Code schreiben, der im Falle des Herunterfahre
 
 Wenn wir zum Starten des Daemons zurückkehren, ist hier die kommentierte Fortsetzung:
 
-`` ``python
+„python
 try:
     jeedom_utils.write_pid (str (_pidfile)) # schreibe die PID-Datei, die der Jeedom-Kern überwacht, um festzustellen, ob der Daemon gestartet ist
     jeedom_com = jeedom_com (apikey = _apikey, url = _callback, cycle = _cycle) # Erstellung des jeedom_com-Objekts
@@ -224,11 +224,11 @@ try:
 außer Ausnahme als e:
     Logging.error ('Schwerwiegender Fehler : '+ str (e))
     shutdown()
-`` ``
+„
 
 Die am Anfang der Datei definierte Methode `listen()`:
 
-`` ``python
+„python
 auf jeden Fall zuhören():
     jeedom_socket.open()
     try:
@@ -237,13 +237,13 @@ auf jeden Fall zuhören():
             read_socket()
     außer KeyboardInterrupt:
         shutdown()
-`` ``
+„
 
 Hier gibt es nichts zu ändern, wir können sehen, dass die Steckdose offen ist und dann eine Endlosschleife, um die Steckdose jede halbe Sekunde zu lesen
 
 Die Methode `read_socket()`
 
-`` ``python
+„python
 def read_socket():
     global JEEDOM_SOCKET_MESSAGE
     wenn nicht JEEDOM_SOCKET_MESSAGE.empty():
@@ -256,18 +256,18 @@ def read_socket():
             'lesen' drucken'
         außer Ausnahme, e:
             Logging.error ('Befehl an Dämonenfehler senden : '+ str (e))
-`` ``
+„
 
 Die Variable `JEEDOM_SOCKET_MESSAGE` ist eine Python-Warteschlange () `gefüttert von der` jeedom_socket ()`-Klasse, wie zuvor gesehen.
 
 Wenn die Warteschlange nicht leer ist, laden wir den Json und überprüfen, ob der mit der Nachricht erhaltene API-Schlüssel dem beim Starten des Daemons (`_apikey`) entspricht, dann können wir die Nachricht lesen und unsere Aktionen in try / ausführen außer:
 
-`` ``python
+„python
         try:
             'lesen' drucken'
         außer Ausnahme, e:
             Logging.error ('Befehl an Dämonenfehler senden : '+ str (e))
-`` ``
+„
 
 Anstelle des `` print 'read' ' liegt es also an Ihnen, die relevanten Elemente der Nachricht zu lesen, die Ihr Plugin gesendet hat, und die Aktionen auszulösen oder Ihre für Ihr Plugin spezifischen Klassen oder Methoden aufzurufen.
 
@@ -281,7 +281,7 @@ Einen Daemon zu haben und seine Struktur zu verstehen ist sehr gut, aber es fehl
 
 In der Infodatei.json Ihres Plugins müssen Sie die Eigenschaft `hasOwnDeamon` hinzufügen und den Wert `true` zuweisen, Beispiel:
 
-`` ``json
+„json
 {
     "id" : "pluginID",
     "name" : "pluginName",
@@ -291,7 +291,7 @@ In der Infodatei.json Ihres Plugins müssen Sie die Eigenschaft `hasOwnDeamon` h
     "maxDependancyInstallTime" : 10,
     ...
 }
-`` ``
+„
 
 Wir werden später die Verwendung von `hasDependency` und` maxDependancyInstallTime` sehen.
 
@@ -308,7 +308,7 @@ Die Funktion `deamon_info()` wird vom Core aufgerufen, wenn der folgende Frame i
 Normalerweise sieht es so aus, das zurückgegebene Array und die in diesem Array verwendeten Schlüssel sind offensichtlich wichtig.
 Sie können den unten stehenden Code kopieren / einfügen und den Code am Ende der Funktion anpassen, um die erforderliche Konfiguration für Ihr Plugin zu überprüfen.
 
-`` ``php
+„php
     öffentliche statische Funktion deamon_info() {
         $Rückkehr = array();
         $return['log'] = __CLASS__;
@@ -337,7 +337,7 @@ Sie können den unten stehenden Code kopieren / einfügen und den Code am Ende d
         }
         zurück $ zurück;
     }
-`` ``
+„
 
 > **Warnung**
 >
@@ -352,7 +352,7 @@ Der `startbare` Schlüssel entspricht der Spalte "Konfiguration" im Rahmen und w
 Die Funktion `deamon_start()` ist, wie der Name schon sagt, die Methode, die vom Kern aufgerufen wird, um Ihren Daemon zu starten.
 Sie können den unten stehenden Code kopieren / einfügen und die angezeigten Zeilen ändern.
 
-`` ``php
+„php
     öffentliche statische Funktion deamon_start() {
         self::Dämon_stop ();
         $deamon_info = self::deamon_info();
@@ -361,7 +361,7 @@ Sie können den unten stehenden Code kopieren / einfügen und die angezeigten Ze
         }
 
         $path = realpath(dirname(__FILE__) . '/../../resources/demond'); // répertoire du démon à modifier
-        $cmd = 'python3 ' . $path . '/demond.py'; // nom du démon à modifier
+        $cmd = 'Python3 ' . $path . '/demond.py'; // nom du démon à modifier
         $cmd .= ' --loglevel ' . log::convertLogLevel(log::getLogLevel(__CLASS__));
         $cmd .= ' --socketport ' . config::byKey('socketport', __CLASS__, '55009'); // port par défaut à modifier
         $cmd .= ' --callback ' . network::getNetworkAccess('internal', 'proto:127.0.0.1:port:comp') . '/plugins/template/core/php/jeeTemplate.php'; // chemin de la callback url à modifier (voir ci-dessous)
@@ -387,7 +387,7 @@ Sie können den unten stehenden Code kopieren / einfügen und die angezeigten Ze
         message::removeAll (__ CLASS__, 'unableStartDeamon');
         true zurückgeben;
     }
-`` ``
+„
 
 Ändern Sie nur die Zeilen mit einem Kommentar, der Rest muss unverändert bleiben.
 
@@ -398,7 +398,7 @@ Dann prüfen wir, ob der Daemon tatsächlich mit der Methode `deamon_info()` ges
 
 Diese Methode wird verwendet, um den Daemon zu stoppen: wir bekommen die pid des daemons, die in die "pid_file" geschrieben wurde und senden den systemkill an den prozess.
 
-`` ``php
+„php
     öffentliche statische Funktion deamon_stop() {
         $pid_file = jeedom::getTmpFolder (__ KLASSE__) . '/deamon.pid'; // ne pas modifier
         if (file_exists ($ pid_file)) {
@@ -408,7 +408,7 @@ Diese Methode wird verwendet, um den Daemon zu stoppen: wir bekommen die pid des
         system::kill ('template.py'); // Name des zu ändernden Daemons
         sleep(1);
     }
-`` ``
+„
 
 Hier angekommen hast du den Dämon in der Info deklariert.json und implementierte die 3 Methoden, die für den Jeedom-Kern erforderlich sind, um Ihren Daemon zu starten und zu stoppen sowie seinen Status anzuzeigen. Die Voraussetzungen sind gegeben.
 
@@ -425,7 +425,7 @@ Dies ist die Funktion, die ich (@Mips) in jedem meiner Plugins verwende, die ein
 
 Es erhält daher ein Array von Werten als Parameter und ist dafür verantwortlich, es an den Socket des Daemons zu senden, der daher dieses Array in der zuvor gesehenen Methode `read_socket ()` lesen kann.
 
-`` ``php
+„php
     öffentliche statische Funktion sendToDaemon ($ params) {
         $deamon_info = self::deamon_info();
         if ($ deamon_info ['state'] != 'ok') {
@@ -438,13 +438,13 @@ Es erhält daher ein Array von Werten als Parameter und ist dafür verantwortlic
         socket_write ($ Socket, $ payLoad, strlen ($ payLoad));
         socket_close ($-Socket);
     }
-`` ``
+„
 
 Was sich im Array `$ params` befindet und wie Sie diese Daten in Ihrem Daemon verwenden, liegt bei Ihnen, es hängt davon ab, was Ihr Plugin tut.
 
 Zur Erinnerung, dieses Array wird daher in der Methode `read_socket()` abgerufen; Python-Codeschnipsel:
 
-`` ``python
+„python
         if Nachricht ['apikey'] != _apikey:
             Logging.error ("Ungültiger APIkey von Socket : " + str (Nachricht))
             return
@@ -452,7 +452,7 @@ Zur Erinnerung, dieses Array wird daher in der Methode `read_socket()` abgerufen
             'lesen' drucken'
         außer Ausnahme, e:
             Logging.error ('Befehl an Dämonenfehler senden : '+ str (e))
-`` ``
+„
 
 Wir können den "apikey" -Schlüssel sehen, der vom PHP-Code hinzugefügt wird, der vom Python-Code im "message" -Array gelesen wird"
 
@@ -462,7 +462,7 @@ Dazu müssen wir unserem Plugin eine Datei im Ordner `./Core/php/` hinzufügen. 
 
 Hier ist der grundlegende Inhalt, den Sie in diese Datei kopieren / einfügen können:
 
-`` ``php
+„php
 <?php
 
 Versuchen {
@@ -491,38 +491,38 @@ Versuchen {
 } catch (Ausnahme $ e) {
     log::add ('template', 'error', displayException ($ e)); // Template durch die ID deines Plugins ersetzen
 }
-`` ``
+„
 
 Der Code beginnt mit der Bestätigung, dass der apikey korrekt ist:
 
-`` ``php
+„php
     Eibe (!jeedom::apiAccess (init ('apikey'), 'template')) {// Template durch deine Plugin-ID ersetzen
         echo __ ('Sie sind nicht berechtigt, diese Aktion auszuführen', __FILE__);
         die();
     }
-`` ``
+„
 
 Der erste Test wird als Testmethode beim Starten des Daemons verwendet (siehe Aufruf `jeedom_com.test() `im Daemon-Code):
 
-`` ``php
+„php
     if (init ('test') != '') {
         echo 'OK';
         die();
     }
-`` ``
+„
 
 und schließlich laden wir die Payload, die wir dekodieren, in das Array `$ result`:
 
-`` ``php
+„php
     $result = json_decode(file_get_contents("php://input"), true);
     Eibe (!is_array ($ Ergebnis)) {
         die();
     }
-`` ``
+„
 
 Dann liegt es an dir, die Tabelle zu lesen und die Aktionen in deinem Plugin entsprechend auszuführen, Beispiel:
 
-`` ``php
+„php
     if (isset ($ result ['key1'])) {
         // etwas tun
     } elseif (isset ($ result ['key2'])) {
@@ -530,13 +530,13 @@ Dann liegt es an dir, die Tabelle zu lesen und die Aktionen in deinem Plugin ent
     } sonst {
         log::add ('template', 'error', 'unbekannte Nachricht vom Daemon empfangen'); // Template durch die ID deines Plugins ersetzen
     }
-`` ``
+„
 
 Der Python-Code zum Senden der Nachricht sieht so aus:
 
-`` ``python
+„python
 jeedom_com.send_change_immediate ({'key1' : 'Wert1 ',' Taste2' : 'value2' })
-`` ``
+„
 
 Voila, Sie haben einen voll funktionsfähigen Daemon und können zwischen Ihrem Daemon und Ihrem PHP-Code hin und her kommunizieren. Der schwierige Teil bleibt noch zu erledigen: Code-Dämonenlogik.
 
@@ -575,7 +575,7 @@ Es gibt 2 Voraussetzungen, die wir gleich erläutern werden.
 
 Gleiches Beispiel wie bei der Deklaration des Daemons, Sie müssen die Eigenschaft `hasDependency` hinzufügen und den Wert `true` zuweisen:
 
-`` ``json
+„json
 {
     "id" : "pluginID",
     "name" : "pluginName",
@@ -584,12 +584,104 @@ Gleiches Beispiel wie bei der Deklaration des Daemons, Sie müssen die Eigenscha
     "hasOwnDeamon" : true,
     ...
 }
-`` ``
+„
 
 #### Erstellung der Datei plugin_info/packages.json
 
-Die Syntax dieser Datei wird hier beschrieben. In der Zwischenzeit finden Sie hier Informationen
-[Blogeintrag](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
+Die Syntax dieser Datei wird hier beschrieben. Siehe auch 
+[Der Startartikel im Blog](https://blog.jeedom.com/6170-introduction-jeedom-4-2-installation-de-dependance/).
+
+Diese Datei kann einen der folgenden Abschnitte enthalten:
+##### pre-install: Der Pfad zu einem Skript, das vor der Installation ausgeführt werden soll
+Beispiel :
+„json
+{
+  "pre-install" : {
+    "script" : "Plugins/openzwave/resources/post-install.sh"
+  }
+„
+
+##### post-install:
+Dies kann der Pfad zu einem Skript sein, das nach der Installation ausgeführt werden soll, oder die Aktion „Apache neu starten“. 
+Beispiel :
+„json
+{
+  "post-install" : {
+    "restart_apache" : true,
+    "script" : "Plugins/openzwave/resources/post-install.sh"
+  }
+„
+
+##### apt: Debian-Abhängigkeiten
+Exemple
+„json
+{
+  "apt" : {
+    "libav-tools" : {"alternative" : ["ffmpeg"]},
+    "ffmpeg" : {"alternative" : ["libav-tools"]},
+    "python-pil" : {},
+    "php-gd" : {}
+  }
+}
+„
+
+Für jedes Paket können wir „Version“ angeben, um eine Version festzulegen, „Alternative“, falls verfügbar,
+ „optional“, wenn es optional ist, „reinstall“, um die Neuinstallation des Pakets zu erzwingen, „remark“, um einen kostenlosen Kommentar hinzuzufügen.
+##### pip3: Python3-Abhängigkeiten (Pip2 werden ebenfalls unterstützt)
+Exemple:
+„json
+{
+  "apt" : {
+    "python3" : {},
+    "python3-pip" : {},
+    "python3-pyudev" : {},
+    "Python3-Anfragen" : {},
+    "Python3-Setuptools" : {},
+    "python3-dev" : {}
+  },
+  "pip3" : {
+    "wheel" : {},
+    "pyserial" : {},
+    "tornado" : {},
+    "zigpy" : {"reinstall" : true},
+    "zha-quirks" : {"reinstall" : true},
+    "zigpy-znp" : {"reinstall" : true},
+    "zigpy-xbee" : {"reinstall" : true},
+    "zigpy-deconz" : {"reinstall" : true},
+    "zigpy-zigate" : {"reinstall" : true},
+    "zigpy-cc" : {"reinstall" : true},
+    "bellows" : {"reinstall" : true}
+  }
+}
+„
+
+##### npm: Abhängigkeiten für NodeJS
+Für NodeJS befinden sich die Abhängigkeiten in einer anderen „Pakete“-Datei.json` in einem eigenen Format, 
+Wenn sie beispielsweise im Verzeichnis „/resources“ abgelegt wird, wird diese Datei in der von Jeedom angezeigt:
+„json
+{
+  "apt" : {
+    "nodejs" : {}
+  },
+  "npm" : {
+    "Plugins/dyson/resources/dysond"  : {}
+  }
+}
+„
+
+##### composer: um eine weitere PHP-Abhängigkeit zu installieren
+kein Beispiel vorhanden; Die Syntax ist ähnlich wie bei anderen Paketen, mit dem Schlüsselwort „compose“.
+
+##### Abhängigkeiten von einem anderen Plugin:
+Wenn ein Plugin die Installation eines anderen Plugins erfordert, ist dies auch mit der folgenden Syntax möglich; 
+Das Plugin muss kostenlos oder bereits gekauft sein :
+„json
+{
+    "plugin":{
+        "mqtt2": {}
+    }
+}
+„
 
 ### Die prozedurale Methode
 Es gibt 3 Voraussetzungen, die wir gleich erläutern werden.
@@ -598,7 +690,7 @@ Es gibt 3 Voraussetzungen, die wir gleich erläutern werden.
 
 Gleiches Beispiel wie bei der Deklaration des Daemons, Sie müssen die Eigenschaft `hasDependency` hinzufügen und den Wert `true` zuweisen:
 
-`` ``json
+„json
 {
     "id" : "pluginID",
     "name" : "pluginName",
@@ -608,9 +700,11 @@ Gleiches Beispiel wie bei der Deklaration des Daemons, Sie müssen die Eigenscha
     "maxDependancyInstallTime" : 10,
     ...
 }
-`` ``
+„
 
-Die Eigenschaft `maxDependancyInstallTime` ist die Verzögerung in Minuten, nach der der Kern die Installation als fehlgeschlagen betrachtet. In diesem Fall wird der Auto-Modus des Daemons deaktiviert und eine Nachricht in der Benachrichtigungszentrale veröffentlicht. Wenn diese Eigenschaft nicht definiert ist, beträgt die Standardzeit 30 Minuten.
+Die Eigenschaft `maxDependancyInstallTime` ist die Verzögerung in Minuten, nach der der Kern die Installation als fehlgeschlagen betrachtet.
+ In diesem Fall wird der Auto-Modus des Daemons deaktiviert und eine Nachricht in der Benachrichtigungszentrale veröffentlicht.
+ Wenn diese Eigenschaft nicht definiert ist, beträgt die Standardzeit 30 Minuten.
 
 > **TRINKGELD**
 >
@@ -620,12 +714,12 @@ Die Eigenschaft `maxDependancyInstallTime` ist die Verzögerung in Minuten, nach
 
 In Ihrer eqLogic-Klasse müssen Sie diese Funktion hinzufügen, wenn sie nicht vorhanden ist. Sie können es kopieren / einfügen, ohne etwas zu ändern
 
-`` ``php
+„php
     öffentliche statische Funktion Dependancy_install() {
         log::entfernen (__ KLASSE__. '_update');
         return array ('script' => dirname (__ FILE__). '/../../resources/install_#stype#.Sch ' . jeedom::getTmpFolder (__ KLASSE__) . '/ Abhängigkeit ',' log '=> log::getPathToLog (__ KLASSE__. '_update'));
     }
-`` ``
+„
 
 Diese Funktion beginnt mit dem Löschen des Protokolls der vorherigen Installation, falls vorhanden, und gibt dann den auszuführenden Skriptbefehl und den Speicherort des Protokolls an den Kern zurück.
 
@@ -638,7 +732,7 @@ Das ist alles für den PHP-Teil, jetzt müssen Sie das Skript in `./resources/in
 
 Hier ist ein Beispiel für ein ziemlich einfaches Skript aus einem meiner Plugins, aber Sie können es viel vollständiger und fortgeschrittener machen:
 
-`` ``bash
+„bash
 PROGRESS_FILE = /tmp/jeedom/template/dependency #template durch deine Plugin-ID ersetzen
 
 wenn [ ! -z$ 1]; dann
@@ -674,20 +768,20 @@ Echo "***************************"
 Echo "*      Installation beendet      *"
 Echo "***************************"
 rm $ {PROGRESS_FILE}
-`` ``
+„
 
 Wir werden ein paar Zeilen beschreiben:
 
 Wir beginnen damit, den Standardspeicherort der Fortschrittsdatei zu definieren, falls wir den vorherigen Schritt nicht korrekt ausgeführt haben...
 Und wir verwenden das erste erhaltene Argument als Speicherort, weil wir den vorherigen Schritt korrekt ausgeführt haben;-).
 
-`` ``bash
+„bash
 PROGRESS_FILE = /tmp/jeedom/template/dependency #template durch deine Plugin-ID ersetzen
 
 wenn [ ! -z$ 1]; dann
     PROGRESS_FILE = $ 1
 fi
-`` ``
+„
 
 Die Zeilen vom Typ `echo 60> $ {PROGRESS_FILE}` werden offensichtlich verwendet, um den Fortschritt zurückzugeben: Um den Benutzer zu beruhigen, setzen wir es regelmäßig bis zum Erreichen von 100 (normalerweise betonen sie, wenn es 100 überschreitet, also vermeiden wir es).
 
@@ -712,7 +806,7 @@ Aber woher kennt der Kern den Status und wie zeigt er ihn im obigen Rahmen an?? 
 
 Hier ist ein Beispiel, von dem Sie die Mehrheit verwenden können:
 
-`` ``php
+„php
     öffentliche statische Funktion Dependancy_info() {
         $Rückkehr = array();
         $return['log'] = log::getPathToLog(__CLASS__ . '_update');
@@ -730,7 +824,7 @@ Hier ist ein Beispiel, von dem Sie die Mehrheit verwenden können:
         }
         zurück $ zurück;
     }
-`` ``
+„
 
 In diesem Beispiel testen wir das Vorhandensein von apt-Paketen: `system::getCmdSudo() . system::erhalten ('cmd_check') . '-Ec "python3 \ -anfragen|python3 \ -wollüstig|python3 \ -bs4 "'`. Hier wollen wir `python3-requests`,` python3-voluptuous` und `python3-bs4` und deshalb muss der Befehl 3 zurückgeben, daher der Vergleich: `<3`.
 

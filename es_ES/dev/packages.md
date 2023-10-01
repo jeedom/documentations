@@ -4,7 +4,7 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
 
 # Exemples
 
-`` ``json
+```json
 {
   "apt" : {
     "git" : {},
@@ -32,16 +32,16 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
     "tornado" : {}
   },
   "post-install" : {
-    "script" : "plugins / openzwave / resources / post-install.sh"
+    "script" : "complementos/openzwave/resources/post-install.sh"
   }
 }
-`` ``
+```
 
-`` ``json
+```json
 {
   "apt" : {
     "libav-tools" : {"alternative" : ["ffmpeg"]},
-    "ffmpeg" : {"alternative" : ["libav-tools"]},
+    "ffmpeg" : {"alternative" : ["libav-herramientas"]},
     "python-pil" : {},
     "php-gd" : {}
   },
@@ -49,16 +49,16 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
     "reiniciar_apache" : true
   }
 }
-`` ``
+```
 
-`` ``json
+```json
 {
   "apt" : {
     "python3" : {},
     "python3-pip" : {},
     "python3-pyudev" : {},
-    "Python3-solicitudes" : {},
-    "python3-setuptools" : {},
+    "solicitudes de python3" : {},
+    "herramientas de configuración de python3" : {},
     "python3-dev" : {}
   },
   "pip3" : {
@@ -75,18 +75,18 @@ De jeedom v4.2 es posible confiar parcialmente la gestión de las dependencias d
     "bellows" : {"reinstall" : true}
   }
 }
-`` ``
+```
 
-`` ``json
+```json
 {
   "apt" : {
     "nodejs" : {}
   },
   "npm" : {
-    "plugins / dyson / resources / dysond"  : {}
+    "complementos/dyson/recursos/dysond"  : {}
   }
 }
-`` ``
+```
 
 Actualmente maneja : ``apt``, ``nodejs (npm)`` , ``pip2`` y ``pip3``, con la posibilidad de ejecutar scripts previos / posteriores a la instalación y pedirle que reinicie Apache en la publicación.
 
