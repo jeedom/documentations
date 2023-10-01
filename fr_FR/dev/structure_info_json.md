@@ -17,7 +17,7 @@ Champs                   | Valeurs                                              
 ``licence`` *                | Type de licence.                                                                                                          |
 ``author`` *                 | Nom de l’auteur du plugin, tel qu’il sera affiché une fois le plugin installé, dans les informations de celui-ci.         |
 ``require`` *                | Version minimum requise de Jeedom (Core).                                                                                                |
-``category`` *               | Catégorie de classement du plugin sur le Market jeedom. **Respecter impérativement la [nomenclature du tableau ci-dessous(https://doc.jeedom.com/fr_FR/dev/structure_info_json/#NOMENCLATURE%20CATEGORIES)]** |
+``category`` *               | Catégorie de classement du plugin sur le Market jeedom. **Respecter impérativement la [nomenclature du tableau ci-dessous](https://doc.jeedom.com/fr_FR/dev/structure_info_json/#NOMENCLATURE%20CATEGORIES)** |
 ``display``                  | Si le plugin utilise un panel dédié sur le desktop,. Il s’agit du nom du fichier principal de ce panel.                    |
 ``mobile``                   | Si le plugin utilise un panel dédié sur la webApp Jeedom. Il s’agit du nom du fichier principal de ce panel.   |
 ``changelog`` *              | Lien Html vers le Changelog.                                                                                              |
@@ -28,10 +28,10 @@ Champs                   | Valeurs                                              
 ``link`` -> ``forum``               | Lien Html vers le forum sur le sujet officiel du plugin.                                                                  |
 ``languages``                | Liste des langues disponibles pour le plugin : ``fr_FR``, ``en_US``, ``de_DE``, ``it_IT``, ``sp_SP``, ``pt_PT``            |
 ``compatibility``            | Compatibilité du plugin : miniplus, smart, docker, rpi, diy, mobileapp, v4.                                                   |
-``hasDependency``            | «true» si le plugin doit installer des dépendances, sinon «false» ou absent.                                              |
-``hasOwnDeamon``             | «true» si le plugin doit exécuter des deamons, sinon «false» ou absent.                                                   |
+``hasDependency``            | «true» si [le plugin doit installer des dépendances](https://doc.jeedom.com/fr_FR/dev/daemon_plugin#Les%20d%C3%A9pendance), sinon «false» ou absent.                                              |
+``hasOwnDeamon``             | «true» si [le plugin doit exécuter des deamons](https://doc.jeedom.com/fr_FR/dev/daemon_plugin#Les%20d%C3%A9mons%20%26%20d%C3%A9pendances), sinon «false» ou absent.                                                   |
 ``maxDependancyInstallTime`` | Temps maximum imparti pour l’installation des dépendances, exprimé en minutes.                                            |
-``specialAttributes`` | Permet aux plugin de demander des [parametre suplémentaire](https://doc.jeedom.com/fr_FR/dev/structure_info_json/#SpecialAttributes) sur [des objets](https://doc.jeedom.com/fr_FR/dev/structure_info_json/#Attributs%20Objet) ou [des utilisateurs](https://doc.jeedom.com/fr_FR/dev/structure_info_json/#Attributs%20User) (bien regarder l'exemple du plugin template) (Voir explicationsci-dessous)                                            |
+``specialAttributes`` | Permet aux plugin de demander des [parametre suplémentaire](https://doc.jeedom.com/fr_FR/dev/structure_info_json#SpecialAttributes) sur [des objets](https://doc.jeedom.com/fr_FR/dev/structure_info_json#Attributs%20Objet) ou [des utilisateurs](https://doc.jeedom.com/fr_FR/dev/structure_info_json#Attributs%20User) (bien regarder l'exemple du plugin template) (Voir explicationsci-dessous)                                            |
 ``issue``                    | URL vers le bugtracker si externe (si non remplis alors vous receverez un mail)
 
 ## Exemple
