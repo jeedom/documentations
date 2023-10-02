@@ -1,26 +1,16 @@
 {
-	"id": "MQTTDiscovery",
-	"name": "MQTTDiscovery",
-	"description": "Plugin pour découverte automatique d'équipement MQTT",
-	"licence": "AGPL",
-	"author": "Mips",
-	"require": "4.2",
-	"category": "devicecommunication",
-	"hasDependency": true,
-	"hasOwnDeamon": false,
-	"language": [
-		"fr_FR",
-		"en_US"
-	],
-	"compatibility": [
-		"smart",
-		"rpi",
-		"diy",
-		"v4",
-		"atlas"
-	],
-	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
-	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/",
-	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
-	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/"
+	"id" : "eibd",
+	"name" : "EIB - KNX",
+	"description" : "Connecter Jeedom avec votre installation domotique KNX et Jeedom deviendra un participant de votre installation",
+	"licence" : "AGPL",
+	"author" : "Halbout Michael",
+	"installation" : "Choisissez le programme de votre choix et lancer l'installation des dependance",
+	"maxDependancyInstallTime" : 130,
+	"hasOwnDeamon" : true,
+	"hasDependency" : true,
+	"require" : "4.2.12",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"],
+	"category" : "automation protocol",
+ 	"documentation" : "http://mika-nt28.github.io/Documentations/eibd/#language#/",
+	"changelog" : "https://mika-nt28.github.io/Documentations/eibd/#language#/changelog"
 }

@@ -6,11 +6,11 @@
 
 # 18.03.2022
 
-- Aktualisierte Darstellung der Gerätekonfigurationsbildschirme
+- Aktualisierte Darstellung des Gerätekonfigurationsbildschirms
 
 # 04/06/2021
 
-- Möglichkeit der Verwendung von Jeedom Cloud-Diensten zum Senden von Nachrichten (in der Beta auf 5 E-Mails pro Tag begrenzt)
+- Möglichkeit der Nutzung von Jeedom Cloud-Diensten zum Versenden von E-Mails (in der Beta-Version auf 5 E-Mails pro Tag begrenzt))
 
 # 19.11.2020
 

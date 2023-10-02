@@ -15,7 +15,7 @@
 
 >**IMPORTANTE**
 >
-> Em primeiro lugar, você deve atualizar o firmware da sua chave (especialmente para EZSP, chave popp em particular), caso contrário, o demônio não pode funcionar, você deve consultar a documentação do fabricante.
+> Em primeiro lugar, você deve atualizar o firmware da sua chave (especialmente para EZSP, chave popp em particular), caso contrário, o demônio não pode funcionar, você deve consultar a documentação do fabricante. Não hesite em consultar a página oficial do Zigbee2mqtt para encontrar o firmware disponível para sua chave [aqui](https://www.zigbee2mqtt.io/guide/adapters/)
 
 Além disso, o plugin está equipado com muitas ferramentas que permitem :
 
@@ -88,7 +88,7 @@ Outros parâmetros mais específicos também estão acessíveis :
 - **Identificação** : identificador de dispositivo exclusivo. Mesmo durante uma reinclusão ou se você alterar o tipo de controlador Zigbee.
 - **Controlador Z2m** : permite-lhe seleccionar o controlador Zigbee em comunicação com o equipamento (no momento o plugin não suporta múltiplos controladores)
 
-A parte **Informação** permite ver o modelo do equipamento. Há também o visual do equipamento e acesso à configuração do módulo
+A parte **Informação** permite ver o modelo do equipamento. Encontramos também o visual do equipamento (não modificável porque vem do zigbee2mqtt) e acesso à configuração do módulo
 
 Na aba **Pedidos**, encontramos, como sempre, os comandos que permitem interagir com o módulo.
 
@@ -97,7 +97,7 @@ Na aba **Pedidos**, encontramos, como sempre, os comandos que permitem interagir
 Esta é uma janela importante que você encontrará aqui : 
 
 - Informação : contém todas as informações úteis sobre seu módulo (modelo, fabricante, status, fonte de alimentação, OTA, descrição, terminais....)
-- Configuração : contém os parâmetros de configuração do seu módulo, se existirem (muitas vezes não existem nenhum por isso estávazio)
+- Configuração : contém os parâmetros de configuração do seu módulo, se houver algum (frequentemente não há nenhum por isso está vazio)
 - Vinculativo : Você encontrará aqui o enlace existente (link) (em geral sempre tem uma linha para vincular seu módulo ao seu coordenador). Você também pode adicionar uma ligação (link) entre dois módulos, tenha cuidado para ativar os módulos na bateria ao binging. Importante o binding depende dos fabricantes (e não do plugin), alguns fabricantes não suportam direct binding e é absolutamente necessário ter um grupo, também existem incompatibilidades entre fabricantes (infelizmente não podemos listá-los)
 - Comunicando : se o módulo suportar, você pode configurar aqui a frequência de envio de informações do módulo para o coordenador (Jeedom portanto)
 - Informação bruta : é apenas para suporte, você será perguntado se tiver algum problema com um módulo
@@ -138,14 +138,14 @@ O gráfico de rede fornece uma visão geral da rede Zigbee e da qualidade das co
 
 >**IMPORTANTE**
 >
->O gráfico de rede é apenas para referência e pode não ser exato (especialmente em módulos de bateria que muitas vezes ou às vezes não retornam seu roteamento))
+>O gráfico de rede existe apenas para fins informativos e pode não ser exato (particularmente em módulos alimentados por bateria que não enviam frequentemente, ou às vezes até mesmo, seu roteamento)
 
 ## Otimize a rede
 
 Para otimizar a confiabilidade da sua rede Zigbee, **é mais do que recomendado ter pelo menos 3 módulos roteadores permanentemente alimentados e evitar desconectá-los**. De fato, durante nossos testes notamos uma melhora significativa na confiabilidade e resiliência da rede Zigbee ao adicionar módulos roteadores. Também é aconselhável incluí-los primeiro, caso contrário, você terá que esperar de 24 a 48 horas para o "end-device" *(módulos não roteadores)* descobri-los.
 
 Outro ponto importante, é possível, durante a remoção de um módulo roteador, que parte do "end-device" *(módulos não roteadores)* está perdido por um tempo mais ou menos longo *(em dez horas ou mais)* ou mesmo permanentemente e você tem que incluí-los novamente.
-Infelizmente isso se deve a forma como o fabricante planejou a integração de seus equipamentos dentro de uma rede Zigbee e portanto não pode ser corrigido pelo plugin que não gerencia a parte de roteamento.
+Infelizmente isso se deve à forma como o fabricante planejou a integração de seu hardware em uma rede Zigbee e, portanto, não pode ser corrigido pelo plugin que não gerencia a parte de roteamento.
 
 Por fim, e mesmo que possa parecer óbvio para alguns, lembramos que os gateways Zigbee em Wifi ou remoto são, por definição, menos confiáveis que os gateways USB. A equipa Jeedom aconselha assim a utilização de um gateway Zigbee em USB.  
 
@@ -195,3 +195,23 @@ Zigbee2mqtt permite adicionar conversores externos (para suportar módulos não 
 >**Recebi o erro `Erro: Erro de redefinição: Error: {"sequence":-1} após 10000ms` e uma chave ELELABS ou uma caixa Atlas**
 >
 >Você deve atualizar o firmware da sua chave zigbee, para fazer isso na configuração do plugin jeezigbee clique em atualizar firmware e preencha os diferentes campos da janela e valide. Tenha cuidado para não fazer isso em uma caixa luna, pois quebra a chave zigbee.
+
+>**Meu equipamento não é reconhecido**
+>
+>Se o seu equipamento não for reconhecido é porque ainda não é suportado pela biblioteca Zigbee2mqtt. É possível criar um conversor para o seu equipamento. Você deve consultar o documento [Suporte para novos dispositivos](https://www.zigbee2mqtt.io/advanced/support-new-devices/01_support_new_devices.html) e também para hardware Tuya. [Suporta novos dispositivos TuYa](https://www.zigbee2mqtt.io/advanced/support-new-devices/02_support_new_tuya_devices.html).
+>
+>Em qualquer caso, devemos abrir uma saída [GitHub aqui](https://github.com/Koenkk/zigbee2mqtt/issues)
+>
+>Depois que o conversor for criado, você terá que colocá-lo no plugin para testá-lo.
+>1) No editor de arquivos Jeedom,
+>- Crie uma pasta com a marca do seu equipamento em plugin/z2m/core/converters>
+>- Entrando nesta pasta
+>- Crie um arquivo chamado Marca de referência do equipamento.js Para o exemplo usaremos Tuya_TZE204_81yrt3lo.js
+>- Neste arquivo, cole os elementos do conversor.
+>- Salve e feche o arquivo.
+>
+>2) Reinicie o daemon do plugin
+
+>**Chave SONOFF modelo P: Piscando e corrigindo o problema de “tipo de registro desconhecido 3”**
+>
+>Uma explicação sobre como piscar a chave foi proposta no fórum. Se você tiver o erro de registro desconhecido type3, é necessário converter seu arquivo .hexadecimal para .bin conforme explicado no tutorial. Obrigado ao JeedGeek pela explicação [aqui](https://community.jeedom.com/t/flasher-sa-cle-usb-zigbee-sonoff-p-avec-lutilitaire-ti-sous-windows/109453)

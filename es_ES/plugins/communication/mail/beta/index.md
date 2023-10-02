@@ -31,15 +31,15 @@ Aquí encontrarás toda la configuración de tu equipo :
 -   **Nombre del remitente** : nombre del remitente del correo electrónico (ej : Jeedom)
 -   **Remitente de correo** : correo electrónico del remitente (ex : <jeedom@moi.fr>)
 -   **Método de envío** : método de enviar el correo electrónico :
-    -   Nube de Jeedom : sin configuración para enviar correos electrónicos por los servicios en la nube de Jeedom, en fase beta por el momento, limitado a 5 correos electrónicos por día
-    -   SMTP : modo más común para enviar correo
+    -   Nube de Jeedom : sin configuración que hacer, envío de correos electrónicos mediante el servicio Jeedom Cloud, en fase beta por el momento, limitado a 5 correos electrónicos por día
+    -   SMTP : método más común para enviar correos electrónicos
     -   Sendmail
     -   Qmail
     -   Mail()\[Función PHP \] : use la [función de envío estándar de PHP, window = "\_ blank"](http://fr.php.net/manual/fr/function.mail.php), requiere configurar el sistema operativo
 
 Además de la opción SMTP, las otras opciones requieren la configuración del sistema operativo (Linux) para poder funcionar. En otras palabras, básicamente solo funciona la función SMTP, los otros están reservados para expertos que pueden, si lo desean, configurar estas opciones ellos mismos.
 
-La pestaña de configuración SMTP le permite ingresar la información del servidor de correo electrónico que desea usar.
+La pestaña de configuración SMTP le permite ingresar información sobre el servidor de correo electrónico que desea utilizar.
 
 ![mail screenshot3](../images/mail_screenshot3.jpg)
 
@@ -68,7 +68,7 @@ Desde la pestaña "Pedidos", puede agregar pedidos que correspondan a las direcc
 ![mail screenshot4](../images/mail_screenshot4.jpg)
 
 -   **Nombre** : Nombre de la orden
--   **E-mail** : la dirección de correo electrónico para enviar el mensaje. Puedes poner varios separándolos con ,
+-   **E-mail** : la dirección de correo electrónico a la que enviar el mensaje. Puedes poner varios separándolos con ,
 -   **Configuración avanzada** (ruedas con muescas pequeñas) : se usa para mostrar la configuración avanzada del comando (método de historización, widget, etc.)
 -   **Probar** : Se usa para probar el comando,
 -   **Borrar** (signo -) : permite eliminar el comando.

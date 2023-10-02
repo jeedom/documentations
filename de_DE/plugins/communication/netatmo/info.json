@@ -11,6 +11,8 @@
 	"maxDependancyInstallTime" : 0,
 	"changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/netatmo\/changelog",
 	"documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/netatmo\/",
+	"changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/netatmo\/beta\/changelog",
+        "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/communication\/netatmo\/beta",
 	"link" : {
 		"forum":"Lien vers le forum",
 		"video" : "Lien vers une video"

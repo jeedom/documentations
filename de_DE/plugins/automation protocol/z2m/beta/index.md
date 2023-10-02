@@ -15,7 +15,7 @@
 
 >**WICHTIG**
 >
-> Zunächst müssen Sie die Firmware Ihres Schlüssels aktualisieren (insbesondere für EZSP, insbesondere für Popp-Schlüssel). Andernfalls kann der Dämon nicht funktionieren. Sie müssen die Dokumentation des Herstellers konsultieren.
+> Zunächst müssen Sie die Firmware Ihres Schlüssels aktualisieren (insbesondere für EZSP, insbesondere für Popp-Schlüssel). Andernfalls kann der Dämon nicht funktionieren. Sie müssen die Dokumentation des Herstellers konsultieren. Zögern Sie nicht, die offizielle Zigbee2mqtt-Seite zu konsultieren, um die für Ihren Schlüssel verfügbare Firmware zu finden [Hier](https://www.zigbee2mqtt.io/guide/adapters/)
 
 Darüber hinaus ist das Plugin mit vielen Tools ausgestattet, die es ermöglichen :
 
@@ -88,7 +88,7 @@ Auf andere, spezifischere Parameter kann ebenfalls zugegriffen werden :
 - **Identifikation** : eindeutige Gerätekennung. Auch bei einer Wiedereinbindung oder wenn Sie den Typ des Zigbee-Controllers wechseln.
 - **Z2m-Controller** : ermöglicht Ihnen die Auswahl des Zigbee-Controllers für die Kommunikation mit dem Gerät (im Moment unterstützt das Plugin nicht mehrere Controller))
 
-Das Teil **Information** ermöglicht es, das Modell der Ausrüstung zu sehen. Außerdem gibt es eine visuelle Darstellung der Ausrüstung und Zugriff auf die Konfiguration des Moduls
+Das Teil **Information** ermöglicht es, das Modell der Ausrüstung zu sehen. Wir finden auch die visuelle Darstellung des Geräts (nicht veränderbar, da es von zigbee2mqtt stammt) und Zugriff auf die Konfiguration des Moduls
 
 In der Registerkarte **Aufträge**, Wir finden, wie üblich, die Befehle, die die Interaktion mit dem Modul ermöglichen.
 
@@ -138,14 +138,14 @@ Das Netzwerkdiagramm bietet einen Überblick über das Zigbee-Netzwerk und die Q
 
 >**WICHTIG**
 >
->Das Netzwerkdiagramm dient nur als Referenz und ist möglicherweise nicht genau (insbesondere bei Batteriemodulen, die ihr Routing nicht oft oder manchmal überhaupt nicht zurückgeben))
+>Das Netzwerkdiagramm dient nur zu Informationszwecken und ist möglicherweise nicht genau (insbesondere bei batteriebetriebenen Modulen, die ihr Routing nicht oft oder manchmal sogar überhaupt nicht senden))
 
 ## Optimieren Sie das Netzwerk
 
 Um die Zuverlässigkeit Ihres Zigbee-Netzwerks zu optimieren, **Es wird mehr als empfohlen, mindestens 3 Router-Module dauerhaft mit Strom zu versorgen und deren Trennung zu vermeiden**. Tatsächlich haben wir bei unseren Tests eine deutliche Verbesserung der Zuverlässigkeit und Belastbarkeit des Zigbee-Netzwerks durch das Hinzufügen von Router-Modulen festgestellt. Es ist auch ratsam, diese zuerst einzubinden, da Sie sonst 24 bis 48 Stunden auf das „Endgerät“ warten müssen" *(Nicht-Router-Module)* entdecke sie.
 
 Ein weiterer wichtiger Punkt ist, dass beim Entfernen eines Router-Moduls ein Teil des „Endgeräts“ beschädigt werden kann" *(Nicht-Router-Module)* geht für mehr oder weniger lange Zeit verloren *(in zehn Stunden oder mehr)* oder sogar dauerhaft und Sie müssen sie erneut einbeziehen.
-Leider liegt dies an der Art und Weise, wie der Hersteller die Integration seiner Geräte in ein Zigbee-Netzwerk geplant hat, und kann daher nicht durch das Plugin korrigiert werden, das den Routing-Teil nicht verwaltet.
+Leider liegt dies an der Art und Weise, wie der Hersteller die Integration seiner Hardware in ein Zigbee-Netzwerk geplant hat, und kann daher nicht durch das Plugin korrigiert werden, das den Routing-Teil nicht verwaltet.
 
 Abschließend möchten wir Sie daran erinnern, dass Zigbee-Gateways in WLAN oder Remote per Definition weniger zuverlässig sind als USB-Gateways, auch wenn es für manche offensichtlich erscheinen mag. Das Jeedom-Team rät daher zum Einsatz eines Zigbee-Gateways in USB.  
 
@@ -195,3 +195,23 @@ Mit Zigbee2mqtt können Sie externe Konverter hinzufügen (um Module zu unterst�
 >**Ich habe die Fehlermeldung „Fehler“ erhalten: Fehler zurücksetzen: Error: {"sequence":-1} nach 10000ms` und einem ELELABS-Schlüssel oder einer Atlas-Box**
 >
 >Sie müssen die Firmware Ihres ZigBee-Schlüssels aktualisieren. Klicken Sie dazu in der Konfiguration des JeezigBee-Plugins auf Firmware aktualisieren, füllen Sie die verschiedenen Felder im Fenster aus und bestätigen Sie dann. Achten Sie darauf, dies nicht auf einer Luna-Box zu tun, da sonst der ZigBee-Schlüssel beschädigt wird.
+
+>**Meine Ausrüstung wird nicht erkannt**
+>
+>Wenn Ihr Gerät nicht erkannt wird, liegt das daran, dass es noch nicht von der Zigbee2mqtt-Bibliothek unterstützt wird. Es ist möglich, einen Konverter für Ihre Ausrüstung zu erstellen. Sie müssen sich auf das Dokument beziehen [Unterstützung für neue Geräte](https://www.zigbee2mqtt.io/advanced/support-new-devices/01_support_new_devices.html) und auch für Tuya-Hardware. [Unterstützt neue TuYa-Geräte](https://www.zigbee2mqtt.io/advanced/support-new-devices/02_support_new_tuya_devices.html).
+>
+>Auf jeden Fall müssen wir einen Ausweg eröffnen [Github hier](https://github.com/Koenkk/zigbee2mqtt/issues)
+>
+>Sobald der Konverter erstellt ist, müssen Sie ihn zum Testen in das Plugin einfügen.
+>1) Aus dem Jeedom-Dateieditor,
+>- Erstellen Sie einen Ordner mit dem Markennamen Ihrer Ausrüstung in Plugin/z2m/core/converters>
+>- Betreten dieses Ordners
+>- Erstellen Sie eine Datei mit dem Namen „Equipment reference brand“.js Für das Beispiel verwenden wir Tuya_TZE204_81yrt3lo.js
+>- Fügen Sie in diese Datei die Elemente des Konverters ein.
+>- Speichern und schließen Sie die Datei.
+>
+>2) Starten Sie den Plugin-Daemon neu
+
+>**SONOFF Modell P-Taste: Flashen und Beheben des Problems „Unbekannter Datensatztyp 3“**
+>
+>Im Forum wurde eine Erklärung zum Blinken des Schlüssels vorgeschlagen. Wenn der Fehler „Unbekannter Datensatztyp 3“ auftritt, müssen Sie Ihre Datei konvertieren .verhexen .bin, wie im Tutorial erklärt. Vielen Dank an JeedGeek für die Erklärung [Hier](https://community.jeedom.com/t/flasher-sa-cle-usb-zigbee-sonoff-p-avec-lutilitaire-ti-sous-windows/109453)

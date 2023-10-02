@@ -31,15 +31,15 @@ Here you find all the configuration of your equipment :
 -   **Sender name** : name of the sender of the email (ex : Jeedom)
 -   **Sender email** : sender's email (ex : <jeedom@moi.fr>)
 -   **Send mode** : method of sending the email :
-    -   Jeedom cloud : no configuration to send emails by the Jeedom cloud services, in beta phase for the moment, limited to 5 emails per day
-    -   SMTP : most common mode for sending mail
+    -   Jeedom cloud : no configuration to do, sending of emails by the Jeedom Cloud service, in beta phase for the moment, limited to 5 emails per day
+    -   SMTP : most common method for sending emails
     -   Sendmail
     -   Qmail
     -   Mail()\[PHP Function \] : use the [standard send function of PHP, window = "\_ blank"](http://fr.php.net/manual/fr/function.mail.php), requires configuring the operating system
 
 Apart from the SMTP option, the other options require the configuration of the OS (Linux) to be able to function. In other words, basically only the SMTP function works, the others are reserved for experts who can, if they wish, configure these options themselves.
 
-The SMTP configuration tab allows you to enter the information of the email server you want to use.
+The SMTP configuration tab allows you to enter information about the email server you want to use.
 
 ![mail screenshot3](../images/mail_screenshot3.jpg)
 

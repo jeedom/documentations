@@ -31,15 +31,15 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 -   **Absendername** : Name des Absenders der E-Mail (z : Jeedom)
 -   **Mail-Absender** : E-Mail des Absenders (z : <jeedom@moi.fr>)
 -   **Versandart** : Methode zum Senden der E-Mail :
-    -   Jeedom Wolke : Derzeit keine Konfiguration zum Senden von E-Mails durch die Jeedom-Cloud-Dienste in der Beta-Phase, begrenzt auf 5 E-Mails pro Tag
-    -   SMTP : häufigster Modus zum Senden von E-Mails
+    -   Jeedom Wolke : Keine Konfiguration erforderlich, E-Mail-Versand über den Jeedom Cloud-Dienst, derzeit in der Beta-Phase, begrenzt auf 5 E-Mails pro Tag
+    -   SMTP : gebräuchlichste Methode zum Versenden von E-Mails
     -   Sendmail
     -   Qmail
     -   Mail()\[PHP-Funktion \] : Verwenden Sie die [Standard-Sendefunktion von PHP, window = "\_ blank"](http://fr.php.net/manual/fr/function.mail.php), erfordert die Konfiguration des Betriebssystems
 
 Abgesehen von der SMTP-Option erfordern die anderen Optionen die Konfiguration des Betriebssystems (Linux), um funktionieren zu können. Mit anderen Worten, im Grunde funktioniert nur die SMTP-Funktion, die anderen sind Experten vorbehalten, die diese Optionen auf Wunsch selbst konfigurieren können.
 
-Auf der Registerkarte SMTP-Konfiguration können Sie die Informationen des E-Mail-Servers eingeben, den Sie verwenden möchten.
+Auf der Registerkarte „SMTP-Konfiguration“ können Sie Informationen über den E-Mail-Server eingeben, den Sie verwenden möchten.
 
 ![mail screenshot3](../images/mail_screenshot3.jpg)
 

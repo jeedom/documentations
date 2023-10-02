@@ -6,6 +6,12 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 10/02/2023
+
+- Correções de bugs
+- Feedback de status aprimorado
+- Melhoria da interface
+
 # 20/09/2023
 
 - Bugs corrigidos no feedback de informações de tags

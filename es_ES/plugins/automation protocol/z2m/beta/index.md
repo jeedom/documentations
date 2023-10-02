@@ -15,7 +15,7 @@
 
 >**IMPORTANTE**
 >
-> En primer lugar, debe actualizar el firmware de su clave (especialmente para EZSP, clave popp en particular) de lo contrario, el demonio no puede funcionar, debe consultar la documentación del fabricante.
+> En primer lugar, debe actualizar el firmware de su clave (especialmente para EZSP, clave popp en particular) de lo contrario, el demonio no puede funcionar, debe consultar la documentación del fabricante. No dudes en consultar la página oficial de Zigbee2mqtt para encontrar el firmware disponible para tu llave [aquí](https://www.zigbee2mqtt.io/guide/adapters/)
 
 Además, el complemento está equipado con muchas herramientas que permiten :
 
@@ -88,7 +88,7 @@ También se puede acceder a otros parámetros más específicos :
 - **Identificación** : identificador único de dispositivo. Incluso durante una reinclusión o si cambia el tipo de controlador Zigbee.
 - **Controlador Z2m** : permite seleccionar el controlador Zigbee en comunicación con el equipo (por el momento el plugin no soporta múltiples controladores)
 
-La parte **Información** permite ver el modelo del equipo. También está la visual del equipo y el acceso a la configuración del módulo
+La parte **Información** permite ver el modelo del equipo. También encontramos el visual del equipo (no modificable porque proviene de zigbee2mqtt) y el acceso a la configuración del módulo
 
 En la pestaña **Pedidos**, encontramos, como de costumbre, los comandos que permiten interactuar con el módulo.
 
@@ -138,14 +138,14 @@ El gráfico de red proporciona una visión general de la red Zigbee y la calidad
 
 >**IMPORTANTE**
 >
->El gráfico de red es solo de referencia y puede no ser exacto (especialmente en los módulos de batería que a menudo o a veces no devuelven su enrutamiento))
+>El gráfico de red está ahí solo con fines informativos y puede no ser exacto (particularmente en módulos alimentados por baterías que no envían con frecuencia, o a veces ni siquiera envían sus rutas))
 
 ## Optimizar la red
 
 Para optimizar la confiabilidad de su red Zigbee, **es más que recomendable tener al menos 3 módulos router alimentados permanentemente y evitar desconectarlos**. De hecho, durante nuestras pruebas notamos una marcada mejora en la confiabilidad y resistencia de la red Zigbee al agregar módulos de enrutador. También es recomendable incluirlos primero, de lo contrario tendrás que esperar de 24 a 48 horas para que el "dispositivo final" *(módulos no enrutadores)* descúbrelos.
 
 Otro punto importante, es posible, durante la eliminación de un módulo de enrutador, que parte del "dispositivo final" *(módulos no enrutadores)* se pierde por un tiempo más o menos largo *(en diez horas o más)* o incluso de forma permanente y hay que volver a incluirlos.
-Desafortunadamente, esto se debe a la forma en que el fabricante ha planificado la integración de su equipo dentro de una red Zigbee y, por lo tanto, no puede corregirse con el complemento que no administra la parte de enrutamiento.
+Lamentablemente, esto se debe a la forma en que el fabricante ha planificado la integración de su hardware dentro de una red Zigbee y, por lo tanto, no puede corregirse mediante el complemento que no gestiona la parte de enrutamiento.
 
 Por último, y aunque a algunos les parezca una obviedad, os recordamos que las pasarelas Zigbee en Wifi o remotas son por definición menos fiables que las pasarelas USB. Por lo tanto, el equipo de Jeedom recomienda el uso de una puerta de enlace Zigbee en USB.  
 
@@ -195,3 +195,23 @@ Zigbee2mqtt le permite agregar convertidores externos (para admitir módulos no 
 >**Recibí el error `Error: Restablecer error: Error: {"sequence":-1} después de 10000ms` y una clave ELELABS o una caja Atlas**
 >
 >Debes actualizar el firmware de tu llave zigbee, para ello en la configuración del plugin jeezigbee haz clic en actualizar firmware y llena los diferentes campos en la ventana luego valida. Tenga cuidado de no hacer esto en una caja luna, se rompe la tecla zigbee.
+
+>**Mi equipo no es reconocido**
+>
+>Si tu equipo no es reconocido es porque aún no es soportado por la librería Zigbee2mqtt. Es posible crear un conversor para su equipo. Debes consultar el documento [Soporte para nuevos dispositivos](https://www.zigbee2mqtt.io/advanced/support-new-devices/01_support_new_devices.html) y también para hardware Tuya. [Admite nuevos dispositivos TuYa](https://www.zigbee2mqtt.io/advanced/support-new-devices/02_support_new_tuya_devices.html).
+>
+>En cualquier caso, debemos abrir una salida [github aquí](https://github.com/Koenkk/zigbee2mqtt/issues)
+>
+>Una vez creado el convertidor, tendrás que ponerlo en el complemento para probarlo.
+>1) Desde el editor de archivos Jeedom,
+>- Crea una carpeta con la marca de tu equipo en plugin/z2m/core/converters>
+>- Entrando a esta carpeta
+>- Cree un archivo llamado Marca de referencia del equipo.js Para el ejemplo usaremos Tuya_TZE204_81yrt3lo.js
+>- En este archivo, pegue los elementos del convertidor.
+>- Guarde y cierre el archivo.
+>
+>2) Reinicie el demonio del complemento
+
+>**Tecla SONOFF modelo P: Intermitente y solución del problema del “tipo de registro desconocido 3”**
+>
+>Se propuso una explicación sobre cómo mostrar la clave en el foro. Si tiene el error de tipo 3 de registro desconocido, es necesario convertir su archivo .hexadecimal a .bin como se explica en el tutorial. Gracias a JeedGeek por la explicación [aquí](https://community.jeedom.com/t/flasher-sa-cle-usb-zigbee-sonoff-p-avec-lutilitaire-ti-sous-windows/109453)

@@ -15,7 +15,7 @@
 
 >**IMPORTANT**
 >
-> First of all you must update the firmware of your key (especially for EZSP, popp key in particular) otherwise the demon cannot work you must refer to the manufacturer's documentation.
+> First of all you must update the firmware of your key (especially for EZSP, popp key in particular) otherwise the demon cannot work you must refer to the manufacturer's documentation. Do not hesitate to consult the official Zigbee2mqtt page to find the firmware available for your key [here](https://www.zigbee2mqtt.io/guide/adapters/)
 
 In addition, the plugin is equipped with many tools allowing :
 
@@ -88,7 +88,7 @@ Other more specific parameters are also accessible :
 - **Identification** : unique device identifier. Even during a re-inclusion or if you change the type of Zigbee controller.
 - **Z2m Controller** : allows you to select the Zigbee controller in communication with the equipment (for the moment the plugin does not support multiple controllers)
 
-The part **Information** allows to see the model of the equipment. There is also the visual of the equipment and access to the configuration of the module
+The part **Information** allows to see the model of the equipment. We also find the visual of the equipment (non-modifiable because it comes from zigbee2mqtt) and access to the configuration of the module
 
 In the tab **Orders**, we find, as usual, the commands allowing to interact with the module.
 
@@ -138,14 +138,14 @@ The network graph provides an overview of the Zigbee network and the quality of 
 
 >**IMPORTANT**
 >
->The network graph is for reference only and may not be exact (especially on battery modules which do not often or sometimes not return their routing at all))
+>The network graph is there for informational purposes only and may not be exact (particularly on battery-powered modules which do not often, or sometimes even at all, send their routing)
 
 ## Optimize the network
 
 To optimize the reliability of your Zigbee network, **it is more than recommended to have at least 3 router modules permanently powered and to avoid disconnecting them**. Indeed, during our tests we noticed a marked improvement in the reliability and resilience of the Zigbee network when adding router modules. It is also advisable to include them first, otherwise you will have to wait 24 to 48 hours for the "end-device" *(non-router modules)* discover them.
 
 Another important point, it is possible, during the removal of a router module, that part of the "end-device" *(non-router modules)* is lost for a more or less long time *(in ten hours or more)* or even permanently and you have to re-include them.
-Unfortunately this is due to the way the manufacturer has planned the integration of its equipment within a Zigbee network and therefore cannot be corrected by the plugin which does not manage the routing part.
+Unfortunately this is due to the way the manufacturer has planned the integration of its hardware within a Zigbee network and therefore cannot be corrected by the plugin which does not manage the routing part.
 
 Finally, and even if it may seem obvious to some, we remind you that Zigbee gateways in Wifi or remote are by definition less reliable than USB gateways. The Jeedom team therefore advises the use of a Zigbee gateway in USB.  
 
@@ -195,3 +195,23 @@ Zigbee2mqtt allows you to add external converters (to support modules not offici
 >**I got the error `Error: Reset error: Error: {"sequence":-1} after 10000ms` and an ELELABS key or an Atlas box**
 >
 >You must update the firmware of your zigbee key, to do this in the configuration of the jeezigbee plugin click on update firmware and fill in the different fields in the window then validate. Be careful not to do this on a luna box, it breaks the zigbee key.
+
+>**My equipment is not recognized**
+>
+>If your equipment is not recognized it is because it is not yet supported by the Zigbee2mqtt library. It is possible to create a converter for your equipment. You must refer to the document [Support for new devices](https://www.zigbee2mqtt.io/advanced/support-new-devices/01_support_new_devices.html) and also for Tuya hardware. [Supports new TuYa devices](https://www.zigbee2mqtt.io/advanced/support-new-devices/02_support_new_tuya_devices.html).
+>
+>In any case, we must open a way out [github here](https://github.com/Koenkk/zigbee2mqtt/issues)
+>
+>Once the converter is created, you will have to put it in the plugin to test it.
+>1) From the Jeedom file editor,
+>- Create a folder with the brand name of your equipment in plugin/z2m/core/converters>
+>- Entering this folder
+>- Create a file named Equipment reference brand.js For the example we will use Tuya_TZE204_81yrt3lo.js
+>- In this file, paste the elements of the converter.
+>- Save and close the file.
+>
+>2) Restart the plugin daemon
+
+>**SONOFF model P key: Flashing and fixing the “unknown record type 3” issue**
+>
+>An explanation of flashing the key was proposed on the forum. If you have the unkown record type3 error it is necessary to convert your file .hex to .bin as explained in the tutorial. Thanks to JeedGeek for the explanation [here](https://community.jeedom.com/t/flasher-sa-cle-usb-zigbee-sonoff-p-avec-lutilitaire-ti-sous-windows/109453)

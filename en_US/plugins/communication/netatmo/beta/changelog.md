@@ -6,6 +6,12 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text.
 
+# 02/10/2023
+
+- Bug fixes
+- Improved status feedback
+- Interface improvement
+
 # 09/20/2023
 
 - Fixed bugs on tag information feedback
