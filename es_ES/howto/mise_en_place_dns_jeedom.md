@@ -6,7 +6,7 @@ Configure Jeedom DNS para que tenga acceso a su Jeedom externamente a través de
 
 > **Importante**
 >
->El Jeedom DNS actúa como un proxy inverso, por lo que solo le da acceso a su Jeedom en https, por lo tanto, no será posible acceder a su jeedom en SSH de forma remota con el Jeedom DNS
+>El DNS de Jeedom actúa como un proxy inverso por lo que solo da acceso a su Jeedom en https, por lo tanto no será posible acceder a su Jeedom en SSH de forma remota con el DNS de Jeedom
 
 ## Requisitos previos
 
@@ -20,7 +20,7 @@ Este principio tiene la ventaja de no exponer su Jeedom en Internet, no hay aper
 
 > **Importante**
 >
-> Para que esto funcione, su caja debe permitir una conexión saliente en los puertos 1194,1195,1996,1997,1198,1199,2000 y 2001 en UDP. En particular, para el Huawei Livebox y el enrutador 4g, debe reducir el nivel del firewall, para las personas gratuitas también a veces tiene que cambiar a una IP fija (de lo contrario, compartir su IP entre varios usuarios es gratis) Freebox Delta tienes que desactivar el control parental 
+> Para que esto funcione, su caja debe permitir una conexión saliente en los puertos 1194,1195,1996,1997,1198,1199,2000 y 2001 en UDP. En particular, para Liveboxes y enrutadores Huawei 4G, debe reducir el nivel del firewall; para las personas gratuitas, a veces también debe cambiar a una IP fija (de lo contrario, la gratuita comparte su IP entre varios usuarios, lo que plantea problemas para el DNS). Freebox Delta necesitas desactivar los controles parentales 
 
 ## Configurar
 
@@ -34,19 +34,19 @@ Jeedom iniciará el DNS y le dará su URL de acceso a su Jeedom
 
 > **Importante**
 >
-> Puede cambiar esta URL yendo a la página de perfiles de su mercado, luego a mis pestañas de servicios y haga clic en configuración en "Acceso remoto fácil", en el campo DNS puede personalizarla. Después del registro, debe reiniciar DNS en Jeedom (Sistema -> ajuste -> configuración, luego la pestaña Redes y reiniciar en la sección "Mercado DNS (proxy)""). Es recomendable hacer esta manipulación con acceso local a su caja.
+> Puedes cambiar esta URL yendo a tu página de perfil de mercado, luego a la pestaña de mis servicios y haciendo clic en configuración en "Fácil acceso remoto", en el campo DNS puedes personalizarla. Después del registro, debe reiniciar el DNS en Jeedom (Configuración -> Sistema -> Configuración, luego la pestaña Redes y reiniciar en la sección "DNS (proxy) Market""). Es recomendable hacer esta manipulación con acceso local a su caja.
 
-Aquí está su Jeedom accesible desde el exterior en https
+Aquí se puede acceder a su Jeedom desde el exterior en https
 
 ## FAQ
 
 > **¿Hay necesidad de abrir puertos en mi caja?**
 >
-> No, no hay necesidad de abrir un puerto desde su caja de internet a su Jeedom. La conexión está en la dirección Jeedom -> VPN, por lo que es una conexión saliente (en los puertos 1194,1195,1996,1997,1198,1199,2000 y 2001) y no una conexión entrante.
+> No, no es necesario abrir un puerto en su caja de Internet a su Jeedom. La conexión está en la dirección Jeedom -> VPN, por lo que es una conexión saliente (en los puertos 1194,1195,1996,1997,1198,1199,2000 y 2001) y no una conexión entrante.
 
 > **¿Por qué Jeedom DNS protege mi acceso?**
 >
-> Jeedom DNS le permite configurar algo muy importante, el acceso HTTPS, esto garantiza que la conexión entre su navegador y su Jeedom esté encriptada, además el certificado es válido, nadie podrá suplantar su Jeedom. Finalmente, la conexión VPN en su Jeedom y nuestros servidores también está encriptada.
+> Jeedom DNS le permite configurar algo muy importante, el acceso HTTPS, esto garantiza que la conexión entre su navegador y su Jeedom esté encriptada, además el certificado es válido, nadie podrá suplantar su Jeedom. Finalmente, la conexión VPN entre tu Jeedom y nuestros servidores también está encriptada.
 
 > **Cambié el puerto de escucha interno de mi Jeedom y el Jeedom DNS ya no funciona**
 >
@@ -58,8 +58,7 @@ Aquí está su Jeedom accesible desde el exterior en https
 
 > **Mi configuración es buena pero imposible tener una página que da vuelta infinitamente**
 >
-> Si su configuración es correcta (Secuencia de inicialización completada en el registro openvpn_DNS_Jeedom) pero no puede obtener la página de inicio de sesión que funciona aleatoriamente con la aplicación móvil y está en 4g o al final de la línea ADSL. En este caso, debe marcar la casilla en la configuración de red de jeedom como lo que está en 4g y reiniciar el dns como ese jeedom cambiará el mtu de su conexión para reducir el tamaño de los paquetes. Dependiendo de las versiones de Jeedom, esta opción es administrada automáticamente por el núcleo (y por lo tanto no aparece) solo reinicie el DNS.
 
 > **Tengo el error "ERROR: No se puede abrir TUN / TAP dev / dev / net / tun: No existe tal archivo o directorio (errno = 2)"**
 >
-> Este error generalmente ocurre en instalaciones de tipo acoplador, como se indica en la documentación para [compatibilidad](https://doc.jeedom.com/es_ES/compatibility/) el soporte de Docker es beta precisamente por este tipo de problema. La solución generalmente es instalar openvpn en el host (cuando sea posible)
+> Este error generalmente ocurre en instalaciones de tipo acoplador, como se indica en la documentación para [compatibilidad](https://doc.jeedom.com/es_ES/compatibility/) el soporte de Docker es beta precisamente por este tipo de problema. La solución suele ser instalar openvpn en el host (cuando sea posible))
