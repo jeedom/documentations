@@ -4,13 +4,12 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
-- Gestión mejorada de mosquitos en modo local
-
 # 10/02/2023
 
 - Posibilidad de corregir la QOS predeterminada
 - Arreglo del fallo
 - Inicio de agregar el sistema de descubrimiento automático
+- Gestión mejorada de mosquitos en modo local
 
 # 22/03/2023
 
