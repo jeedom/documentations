@@ -4,6 +4,19 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 202.10.2022
+
+- Schnittstellen-Update für Jeedom v4.3
+
+# 12.03.2022
+
+- Infomaniak.com-Unterstützung
+- IPv6-Unterstützung (danke @henribi)
+
+# 08.05.2021
+
+- Fehler "429 zu viele Anfragen" behoben"
+
 # 27.07.2021
 
 - Fehler beim Aktualisieren deaktivierter Ausrüstung behoben

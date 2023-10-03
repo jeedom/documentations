@@ -4,6 +4,19 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 202/10/2022
+
+- Actualización de interfaz para Jeedom v4.3
+
+# 12/03/2022
+
+- Soporte infomaniak.com
+- Compatibilidad con IPv6 (gracias @henribi)
+
+# 05/08/2021
+
+- Se corrigió el error "429 Demasiadas solicitudes""
+
 # 27/07/2021
 
 - Se corrigió un error al actualizar el equipo deshabilitado

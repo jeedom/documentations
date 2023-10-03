@@ -1,12 +1,12 @@
 # Energie-Plugin
 
-Plugin, das es ermöglicht, ein globales Diagramm der Energien des Hauses (Wasser, Gas, Strom, Stromerzeugung) anzuzeigen).
+Plugin, mit dem Sie ein globales Diagramm der häuslichen Energie (Wasser, Gas, Strom, Stromproduktion) anzeigen können).
 
-Es zeigt auch ein Dashboard an, das die Leistung einer Solaranlage, den Verbrauch (Wasser, Gas und Strom) sowie die Details des Stromverbrauchs bestimmter Geräte anzeigt (muss natürlich ein Modul haben, um es zu messen)
+Außerdem wird ein Dashboard angezeigt, das die Leistung eines Solarpanelsystems, den Verbrauch (Wasser, Gas und Strom) sowie Einzelheiten zum Stromverbrauch bestimmter Geräte anzeigt (natürlich ist ein Modul zur Messung erforderlich))
 
 Für diejenigen, die über Solarenergie verfügen, kann es Ihnen auch die Produktionsprognose gemäß den Eigenschaften Ihrer Anlage anzeigen (auszufüllen)
 
-Bitte beachten Sie, dass das Plugin keine Kosten berechnet und berechnet (es ist nicht und wird nicht sein Zweck sein))
+Bitte beachten Sie, dass das Plugin keine Kostenberechnung durchführt und dies auch nicht tun wird (dies ist und wird nicht sein Zweck sein))
 
 Um zu funktionieren, müssen Sie über Module verfügen, die diese Informationen hochladen :
 
@@ -34,7 +34,7 @@ Wenn Sie Sonnenkollektoren haben, brauchen Sie mehr :
 
 >**WICHTIG**
 >
->Abhängig von Ihren Befehlen müssen Sie möglicherweise die Einheit auf der Befehlskonfigurationsseite für das von Ihnen erstellte Energiegerät anpassen
+>Abhängig von Ihren Bestellungen müssen Sie möglicherweise die Einheit auf der Bestellkonfigurationsseite der von Ihnen erstellten Energieausrüstung anpassen
 
 ## Einzelheiten
 
@@ -42,4 +42,4 @@ Für Strom ist es möglich, Verbraucher in der Registerkarte „Details“ anzug
 
 # Panel
 
-Um die Historien, Produktionsprognosen und andere anzuzeigen, müssen Sie daran denken, auf der Plugin-Konfigurationsseite (Plugin -> Plugin-Verwaltung) das Panel (auf dem Desktop und/oder Mobilgerät) zu aktivieren und dann die Seite zu aktualisieren (f5). Dann finden Sie zu Hause das Panel des Plugins.
+Um die Historien, Produktionsprognosen und andere Dinge anzuzeigen, müssen Sie auf der Plugin-Konfigurationsseite (Plugins -> Plugin-Verwaltung) sorgfältig überlegen, das Panel zu aktivieren (auf dem Desktop und/oder auf Mobilgeräten) und dann die Seite aktualisieren (F5). Dann finden Sie zu Hause das Plugin-Panel.

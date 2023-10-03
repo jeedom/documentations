@@ -1,0 +1,45 @@
+{
+    "id": "alfawiseumist",
+    "name": "Brumisateur Alfawise",
+    "description": {
+        "fr_FR": "Plugin pour contrôler les brumisateurs Alfawise",
+        "en_US": "Plugin to control Alfawise foggers",
+        "es_ES": "Complemento para controlar los nebulizadores Alfawise",
+        "de_DE": "Plugin zur Steuerung von Alfawise-Nebelgeräten",
+        "pt_PT": "Plugin para controlar os nebulizadores Alfawise",
+        "ru_RU": "Plugin pour contrôler les brumisateurs Alfawise",
+        "id_ID": "Plugin pour contrôler les brumisateurs Alfawise",
+        "it_IT": "Plugin pour contrôler les brumisateurs Alfawise",
+        "ja_JP": "Plugin pour contrôler les brumisateurs Alfawise",
+        "tr": "Plugin pour contrôler les brumisateurs Alfawise"
+    },
+    "licence": "AGPL",
+    "author": "Ludovic SARAKHA",
+    "require": "3.0",
+    "category": "wellness",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/alfawiseumist\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/alfawiseumist\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/alfawiseumist\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/wellness\/alfawiseumist\/beta"
+}

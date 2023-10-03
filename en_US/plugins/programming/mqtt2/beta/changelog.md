@@ -4,8 +4,13 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+- Improved mosquitto handling in local mode
+
+# 02/10/2023
 
 - Possibility to correct the default QOS
+- Bugfix
+- Start of adding the auto discovery system
 
 # 03/22/2023
 

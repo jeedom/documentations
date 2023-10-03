@@ -34,6 +34,7 @@ Here you find all the configuration of your equipment :
 -   **Username** : username on the service in question
 -   **Password** : password on the service in question
 -   **Token** : token used for duckdns
+-   **IPv6** : Your **Service** supports IPv6. Select if you want to update your entry **Hostname** AAAA type.
 
 Below you find the list of orders :
 
@@ -52,3 +53,8 @@ Below you find the list of orders :
 > **NOTE**
 >
 > If you use OVH, be careful the username is in the world form.com-identifier while the domain is in the form my-dynHost.mmondomaine.com
+
+> **IPv6**
+>
+> You must have configured in your **Service** an AAAA-type DNS entry for your **Hostname**.
+> All **Service** do not support or provide information for IPv6.

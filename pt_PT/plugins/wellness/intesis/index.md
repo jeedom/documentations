@@ -1,4 +1,6 @@
-# Intesis 
+# Intesis
+
+#Description
 
 Plugin para controlar **les passerelles « Intesis Wifi (ASCII) AC Interfaces » (anciennement dénommées Intesisbox).**  baseado no protocolo WMP.
 
@@ -8,9 +10,9 @@ Este plug-in suporta todos os modelos de interfaces CA Intesis Wifi (ASCII) (com
 
 Os gateways de Interfaces CA Wifi Intesis (ASCII) são [disponível para venda aqui.](https://www.domadoo.fr/fr/323_intesis-unites-ac-domestiques-daikin-vers-une-interface-wi-fi-rac)
 
-# Configuração do plugin 
+# Configuração do plugin
 
-Após o download do plug-in, você deve primeiro ativá-lo, como <br>qualquer plugin Jeedom :
+Depois de baixar o plugin, você deve primeiro ativá-lo, como qualquer plugin Jeedom :
 
 ![conf](../images/intesisConf.png)
 
@@ -34,14 +36,14 @@ Rien n'est à modifier dans le champ « Port socket interne » de la section « 
 
 # Como declarar uma nova interface Wifi de intesis no Jeedom
 
-Rendez-vous dans le menu « Plugins / Protocole domotique / Intesis » :
+Rendez-vous dans le menu « Plugins → Confort → Intesis » :
 
 ![menu](../images/intesisMenu.png)
 
 Você chega na próxima página, que consiste em duas seções :
 
-- « Gestion », avec les options suivantes : « Ajouter » et « Configuration » (cette option vous renvoie à la page de configuration du plugin, décrite au point précédent).
-- « My Intesis » : É aqui que os gateways wifi da Intesis gerenciados pelo Jeedom são exibidos.
+- **Gestão** com as seguintes opções : « Ajouter » et « Configuration » (cette option vous renvoie à la page de configuration du plugin, décrite au point précédent).
+- **My Intesis** : É aqui que os gateways wifi da Intesis gerenciados pelo Jeedom são exibidos.
 
 ![gestion](../images/intesisGest.png)
 
@@ -67,7 +69,7 @@ Ici vous pouvez masquer et rendre visibles les différentes commandes de type «
 
 ![cmd](../images/intesisCmd.png)
 
-O plugin oferece um total de 14 comandos. 
+O plugin oferece um total de 14 comandos.
 
 Pedidos de type « action » (actionneurs) disponibles sont les suivantes :
 

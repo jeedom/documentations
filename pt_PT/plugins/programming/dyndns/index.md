@@ -34,6 +34,7 @@ Aqui você encontra toda a configuração do seu equipamento :
 -   **Nome de Usuário** : nome de usuário no serviço em questão
 -   **Senha** : senha no serviço em questão
 -   **Token** : token usado para duckdns
+-   **IPv6** : Sua **Serviço** suporta IPv6. Selecione se deseja atualizar sua entrada **Nome do host** Tipo AAAA.
 
 Abaixo você encontra a lista de pedidos :
 
@@ -52,3 +53,8 @@ Abaixo você encontra a lista de pedidos :
 > **NOTA**
 >
 > Se você usa OVH, tenha cuidado para que o nome de usuário esteja na forma mundial.identificador com enquanto o domínio está no formato my-dynHost.mmondomaine.com
+
+> **IPv6**
+>
+> Você deve ter configurado em seu **Serviço** uma entrada DNS do tipo AAAA para o seu **Nome do host**.
+> Tudo **Serviço** não suporta ou fornece informações para IPv6.

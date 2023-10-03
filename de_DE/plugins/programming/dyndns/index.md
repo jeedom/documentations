@@ -34,6 +34,7 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 -   **Benutzername** : Benutzername des betreffenden Dienstes
 -   **Passwort** : Passwort für den betreffenden Dienst
 -   **Zeichen** : Token für Enten
+-   **IPv6** : Deine **Service** unterstützt IPv6. Wählen Sie aus, ob Sie Ihren Eintrag aktualisieren möchten **Host-Namen** AAAA-Typ.
 
 Nachfolgend finden Sie die Liste der Bestellungen :
 
@@ -52,3 +53,8 @@ Nachfolgend finden Sie die Liste der Bestellungen :
 > **Notiz**
 >
 > Wenn Sie OVH verwenden, achten Sie darauf, dass der Benutzername in der Weltform vorliegt.com-ID, während die Domain die Form my-dynHost.mmondomaine.com hat
+
+> **IPv6**
+>
+> Sie müssen in Ihrem konfiguriert haben **Service** einen DNS-Eintrag vom Typ AAAA für Ihre **Host-Namen**.
+> Alle **Service** keine Unterstützung oder Bereitstellung von Informationen für IPv6.

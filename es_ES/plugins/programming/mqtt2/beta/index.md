@@ -103,3 +103,9 @@ El complemento puede realizar el descubrimiento automático de varios tipos de m
 >**IMPORTANTE**
 >
 >Para los módulos tipo tasmota es absolutamente necesario que la configuración completa del tema sea `%topic%/%prefix%/`
+
+# FAQ
+
+>**Después de una actualización de los paquetes del sistema (apt) o de una actualización desatendida, ya nada funciona**
+>
+>La actualización del paquete mosquitto restablece el archivo de servicio a los valores predeterminados y, por lo tanto, mosquitto ya no apunta al archivo de configuración correcto. Para corregir esto, es muy simple, simplemente reinicie la instalación de mosquitto desde la página de configuración del complemento.

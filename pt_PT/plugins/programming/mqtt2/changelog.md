@@ -4,6 +4,13 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+
+- Possibilidade de corrigir o QOS padrão
+
+# 22/03/2023
+
+- Bugfix
+
 # 07/03/2023
 
 - Adição de um sistema de autodiscovery para alguns módulos beta (esphome, tasmota e shelly)

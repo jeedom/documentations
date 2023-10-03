@@ -4,6 +4,13 @@
 >
 >Como recordatorio, si no hay información sobre la actualización es porque se trata solo de la actualización de documentación, traducción o texto.
 
+
+- Posibilidad de corregir la QOS predeterminada
+
+# 22/03/2023
+
+- Arreglo del fallo
+
 # 03/07/2023
 
 - Adición de un sistema de autodescubrimiento para algunos módulos beta (esphome, tasmota y shelly))

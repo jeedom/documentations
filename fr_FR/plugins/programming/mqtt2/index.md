@@ -40,7 +40,7 @@ Une fois le broker Mosquitto installé *(si nécessaire)*, vous pouvez passer à
 
   >**IMPORTANT**
   >
-  >L'authentification est obligatoire en mode local.
+  >L'authentification est obligatoire en mode local. Il faut aussi suite a l'ajout redemarrer jeedom pour que ca soit pris en compte.
 
 - **Topic racine Jeedom** : Sujet racine pour envoyer une commande à Jeedom ou sur lequel il renvoit les évènements. Attention il n'est possible de mettre que 1 ou 2 niveaux maximum.
 

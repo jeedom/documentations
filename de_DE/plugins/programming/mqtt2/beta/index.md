@@ -103,3 +103,9 @@ Das Plugin kann verschiedene Arten von Modulen automatisch erkennen. Dazu müsse
 >**WICHTIG**
 >
 >Für Module vom Typ Tasmota ist es absolut notwendig, dass die vollständige Topic-Konfiguration `%topic%/%prefix%/` ist
+
+# FAQ
+
+>**Nach einem Update der Systempakete (apt) oder einem unbeaufsichtigten Upgrade funktioniert nichts mehr**
+>
+>Durch das Aktualisieren des Mosquito-Pakets wird die Servicedatei auf die Standardeinstellungen zurückgesetzt, sodass Mosquito nicht mehr auf die richtige Konfigurationsdatei verweist. Um dies zu beheben, ist es sehr einfach, die Installation von Mosquito auf der Plugin-Konfigurationsseite neu zu starten.

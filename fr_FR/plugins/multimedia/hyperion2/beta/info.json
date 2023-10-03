@@ -1,0 +1,45 @@
+{
+    "id": "hyperion2",
+    "name": "Ambilight",
+    "description": {
+        "fr_FR": "Plugin hyperion pour le controle de celui-ci",
+        "en_US": "Hyperion plugin for controlling it",
+        "es_ES": "Complemento Hyperion para controlarlo",
+        "de_DE": "Hyperion-Plugin zur Steuerung",
+        "pt_PT": "Hyperion plugin para controlá-lo",
+        "ru_RU": "Plugin hyperion pour le controle de celui-ci",
+        "id_ID": "Plugin hyperion pour le controle de celui-ci",
+        "it_IT": "Plugin hyperion pour le controle de celui-ci",
+        "ja_JP": "Plugin hyperion pour le controle de celui-ci",
+        "tr": "Plugin hyperion pour le controle de celui-ci"
+    },
+    "licence": "AGPL",
+    "author": "Loïc",
+    "require": "3.0",
+    "category": "multimedia",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/hyperion2\/changelog",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/hyperion2\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "id_ID",
+        "it_IT",
+        "ja_JP",
+        "pt_PT",
+        "tr"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/hyperion2\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/hyperion2\/beta"
+}
