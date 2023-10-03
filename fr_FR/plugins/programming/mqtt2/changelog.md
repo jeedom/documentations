@@ -9,6 +9,7 @@
 - Possibilité de corriger le QOS par defaut
 - Correction de bugs
 - Début d'ajout du systeme de découverte auto
+- Amélioration de la gestion de mosquitto en mode local
 
 # 22/03/2023
 

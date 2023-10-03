@@ -103,3 +103,9 @@ Le plugin peux faire de la decouverte auto de plusieurs type de module. Pour cel
 >**IMPORTANT**
 >
 >Pour les modules de type tasmota il faut absolument que la configuration du full topic soit `%topic%/%prefix%/`
+
+# FAQ
+
+>**Suite a une mise à jour des packages systeme (apt) ou a un unattended upgrades plus rien de marche**
+>
+>La mise à jour du package mosquitto remet par defaut le fichier de service et donc mosquitto ne pointe plus vers le bon fichier de configuration. Pour corriger cela c'est très simple il suffit de relancer l'installation de mosquitto depuis la page de configuration du plugin.

@@ -4,13 +4,12 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-- Verbesserte Handhabung von Mücken im lokalen Modus
-
 # 10.02.2023
 
 - Möglichkeit zur Korrektur des Standard-QOS
 - Bug-Fix
 - Beginn des Hinzufügens des automatischen Erkennungssystems
+- Verbesserte Handhabung von Mücken im lokalen Modus
 
 # 22.03.2023
 

@@ -4,13 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-- Amélioration de la gestion de mosquitto en mode local
-
 # 02/10/2023
 
 - Possibilité de corriger le QOS par defaut
 - Correction de bugs
 - Début d'ajout du systeme de découverte auto
+- Amélioration de la gestion de mosquitto en mode local
 
 # 22/03/2023
 

@@ -4,8 +4,13 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+- Melhor gerenciamento de mosquitos no modo local
+
+# 10/02/2023
 
 - Possibilidade de corrigir o QOS padrão
+- Bugfix
+- Início da adição do sistema de descoberta automática
 
 # 22/03/2023
 
