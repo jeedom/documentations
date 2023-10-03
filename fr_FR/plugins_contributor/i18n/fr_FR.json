@@ -293,6 +293,8 @@
     "plugins_contributor\/home automation protocol\/index.md": {
         "Yokis passerelle": "Yokis passerelle",
         "Plugin pour commander les modules Yokis en local": "Plugin pour commander les modules Yokis en local",
+        "TaHomaLocal": "TaHomaLocal",
+        "Plugin destiné à permettre une interface entre Jeedom et une box Somfy TaHoma (ou box Somfy équivalente éligible) sur laquelle l'API locale Somfy a été activée": "Plugin destiné à permettre une interface entre Jeedom et une box Somfy TaHoma (ou box Somfy équivalente éligible) sur laquelle l'API locale Somfy a été activée",
         "MerosSync": "MerosSync",
         "Plugin pour contrôler les appareils MEROSS": "Plugin pour contrôler les appareils MEROSS",
         "Passerelle domotique": "Passerelle domotique",
