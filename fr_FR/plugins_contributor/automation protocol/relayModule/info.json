@@ -1,33 +1,30 @@
 {
-	"id": "vaillantmultimatic",
-	"name": "Vaillant multiMATIC",
-	"description": "Plugin permettant de se connecter à un système Vaillant multiMATIC via sa passerelle internet. Il est possible de remonter dans Jeedom l'état de tous les équipements connectés et de les contrôler: définir le mode (On, Off, Auto...), définir les températures de consigne, activer un mode rapide, activer une marche forcée... Les vannes et les thermostats de la gamme ambiSENSE reliées au système sont également gérés.",
-	"utilization": "Il est nécessaire d'avoir une passerelle internet et un régulateur Vaillant compatibles avec le système multiMATIC.",
-	"licence": "AGPL",
-	"author": "Mips",
-	"require": "4.2",
-	"category": "wellness",
-	"hasDependency": true,
-	"hasOwnDeamon": true,
-	"maxDependancyInstallTime": 30,
-	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/#language#/changelog",
-	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/#language#/",
-	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/#language#/changelog",
-	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/vaillantmultimatic/#language#/",
-	"link": {
-		"forum": "https://community.jeedom.com/tags/plugin-vaillantmultimatic",
-		"video": ""
+	"id" : "wifilightV2",
+	"name" : "wifilightV2",
+	"description" : {
+        "fr_FR": "Pilote de nombreux périphériques wifi en local avec internet coupé : lampes, leds, prises, interrupteurs, thermostat, de marques diverses. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consulter la documentation pour connaitre la liste exacte des matériels compatibles.",
+        "en_US": "Control many wifi devices locally with no internet : lamps, LEDs, sockets, switches, thermostat, of various brands. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee i.e. SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consult the documentation for the exact list of compatible equipment.",
+        "es_ES": "Pilota muchos dispositivos wifi localmente con corte de internet: lámparas, LED, enchufes, interruptores, termostato, de varias marcas. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consulte la documentación para obtener la lista exacta de equipos compatibles.",
+		"de_DE" : "Steuern Sie viele lokale Wifi-Geräte mit Internet-Cut: Lampen, LEDs, Steckdosen, Schalter, Thermostate verschiedener Marken. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee einschließlich SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi usw. Die genaue Liste der kompatiblen Geräte finden Sie in der Dokumentation."
 	},
-	"language": [
-		"fr_FR",
-		"en_US"
+	"licence" : "AGPL",
+	"author" : "Bernard Caron",
+	"require" : "4.0",
+	"category" : "devicecommunication",
+	"hasDependency": true,
+	"hasOwnDeamon" : true,
+	"whiteListFolders": [
+		"/data"
 	],
-	"compatibility": [
-		"smart",
-		"atlas",
-		"rpi",
-		"docker",
-		"diy",
-		"v4"
-	]
+	"link" : {
+		"forum":"https://community.jeedom.com/t/plugin-wifilightv2-discussion-generale/2439"
+	},
+	"changelog" : "https://bcaro.github.io/wifilightV2-doc/#language#/changelog",
+    "documentation" : "https://bcaro.github.io/wifilightV2-doc/#language#/",
+	"changelog_beta" : "https://bcaro.github.io/wifilightV2-doc/#language#/changelog",
+    "documentation_beta" : "https://bcaro.github.io/wifilightV2-doc/#language#/",
+	"language" : ["fr_FR","en_US","sp_SP","de_DE"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","atlas"]
 }
+
+
