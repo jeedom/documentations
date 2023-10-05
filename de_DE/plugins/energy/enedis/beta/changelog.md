@@ -4,6 +4,10 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 10.04.2023
+
+- Aktualisierte Aufrufe, um mit der V5 Enedis Data-Connect API kompatibel zu sein
+
 # 24.10.2022
 
 - Option hinzugefügt, um stündliche Daten zu deaktivieren

@@ -4,6 +4,10 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
+# 10/04/2023
+
+- Llamadas actualizadas para que sean compatibles con la API V5 Enedis Data-Connect
+
 # 24/10/2022
 
 - Opción agregada para deshabilitar datos por hora

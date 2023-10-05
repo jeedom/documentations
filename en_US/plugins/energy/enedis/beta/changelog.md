@@ -4,6 +4,10 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 04/10/2023
+
+- Updated calls to be compatible with the V5 Enedis Data-Connect API
+
 # 24/10/2022
 
 - Added option to disable hourly data

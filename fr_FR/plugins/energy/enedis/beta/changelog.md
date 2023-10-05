@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 04/10/2023
+
+- Mise à jour des appels pour être compatibles avec l'api V5 Enedis Data-Connect
+
 # 24/10/2022
 
 - Ajout d'une option pour désactiver les données horaires
