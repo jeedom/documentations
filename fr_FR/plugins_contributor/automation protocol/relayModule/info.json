@@ -1,30 +1,30 @@
 {
-	"id" : "wifilightV2",
-	"name" : "wifilightV2",
-	"description" : {
-        "fr_FR": "Pilote de nombreux périphériques wifi en local avec internet coupé : lampes, leds, prises, interrupteurs, thermostat, de marques diverses. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consulter la documentation pour connaitre la liste exacte des matériels compatibles.",
-        "en_US": "Control many wifi devices locally with no internet : lamps, LEDs, sockets, switches, thermostat, of various brands. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee i.e. SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consult the documentation for the exact list of compatible equipment.",
-        "es_ES": "Pilota muchos dispositivos wifi localmente con corte de internet: lámparas, LED, enchufes, interruptores, termostato, de varias marcas. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc. Consulte la documentación para obtener la lista exacta de equipos compatibles.",
-		"de_DE" : "Steuern Sie viele lokale Wifi-Geräte mit Internet-Cut: Lampen, LEDs, Steckdosen, Schalter, Thermostate verschiedener Marken. Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya/Zigbee einschließlich SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi usw. Die genaue Liste der kompatiblen Geräte finden Sie in der Dokumentation."
-	},
-	"licence" : "AGPL",
-	"author" : "Bernard Caron",
-	"require" : "4.0",
-	"category" : "devicecommunication",
+	"id": "MQTTDiscovery",
+	"name": "MQTT Discovery",
+	"description": "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' qui existe sous home assistant. Cela permet d'utiliser l'excellent projet Open MQTT Gateway (https://docs.openmqttgateway.com/) sur esp32 ou l'équivalent Theengs gateway (https://gateway.theengs.io/) sur pi. Il devient très facile de faire de la gestion de présence de tag bluetooth tel que les nuts ou d'intégré une liste importante de matériel compatible BLEA.",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.3",
+	"category": "automation protocol",
 	"hasDependency": true,
-	"hasOwnDeamon" : true,
-	"whiteListFolders": [
-		"/data"
+	"hasOwnDeamon": true,
+	"language": [
+		"fr_FR",
+		"en_US"
 	],
-	"link" : {
-		"forum":"https://community.jeedom.com/t/plugin-wifilightv2-discussion-generale/2439"
+	"compatibility": [
+		"smart",
+		"rpi",
+		"diy",
+		"v4",
+		"atlas"
+	],
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-MQTTDiscovery",
+		"video": ""
 	},
-	"changelog" : "https://bcaro.github.io/wifilightV2-doc/#language#/changelog",
-    "documentation" : "https://bcaro.github.io/wifilightV2-doc/#language#/",
-	"changelog_beta" : "https://bcaro.github.io/wifilightV2-doc/#language#/changelog",
-    "documentation_beta" : "https://bcaro.github.io/wifilightV2-doc/#language#/",
-	"language" : ["fr_FR","en_US","sp_SP","de_DE"],
-	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4","atlas"]
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/"
 }
-
-
