@@ -1,6 +1,6 @@
 # Luna-complemento
 
-# desde el 27/03/2023 nueva imagen Jeedom Luna
+# desde 27/03/2023 nueva imagen Jeedom Luna (conocida como V2)
 Puede realizar una actualización sin perder la copia de seguridad, etc. haciendo clic en "Actualizar módulo de recuperación"". Esto reiniciará tu Jeedom Luna pero no perderás tus configuraciones. Esto realizará cambios en el módulo de recuperación y arranque de la caja, lo que permitirá una mejor estabilidad de la caja.
 
 # Preocupación de atención de Luna intermitente
@@ -59,7 +59,6 @@ Permite la gestión (formateo) de la tarjeta micro-SD que puede agregar a la caj
 > Botones de encendido y reinicio (v2 nueva imagen)
 
 - Botón de reinicio : menos de 1 segundo para reiniciar el hardware de la caja Luna.
-
   
 - Botón de encendido : entre 1 y 4 segundos para que la batería se apague o encienda (Naranja = apagado, Verde = Encendido).
 - Botón de encendido : entre 5 y 9 segundos reinicio de la caja (azul intermitente al soltarla)).
@@ -69,12 +68,19 @@ Permite la gestión (formateo) de la tarjeta micro-SD que puede agregar a la caj
 > Lora (solo para cajas Jeedom Luna vendidas con el módulo Jeedom Lora)
 
 - Detección automática del módulo y lanzamiento del reenviador de paquetes, en el host local de jeedom. Utilice el complemento LNS para instalar la aplicación; no es necesario hacer nada desde el complemento Luna, todo es automático.
+- posibilidad de desactivarlo en la parte LTE
 
-# Próximamente, en breve, pronto : Punto de acceso, 4G (para Luna 4G), LORA (para Luna Lora)
-
-> Punto de acceso (complemento Luna ALPHA))
+> Punto de acceso (complemento Luna BETA))
 
 En la parte Wifi del complemento, puede marcar la casilla Hotspot que le permitirá crear un punto de acceso wifi en su Box luna. (Funcionalmente el reenvío de DNS e IP (puente entre Ethernet y wifi)).
+
+> Establecer una IP
+
+- puedes en la página de ethernet o wifi del complemento luna configurar las direcciones IP del mismo, para configurar ethernet primero debes tener una conexión wifi activada.
+
+> Priorizar conexiones
+
+En la página de inicio del complemento puedes priorizar las conexiones para que la caja cambie de ethernet a wifi si no hay conexión o viceversa.
 
 > El complemento luna le permite conectarse desde su luna a una red Wifi (con o sin contraseña).
 
@@ -84,6 +90,6 @@ Por el momento, el complemento solo tiene en cuenta el acceso con DHCP.
 
 > 4G (solo compatible con cajas Jeedom Luna 4G)
 
-Detección automática de 4G interno a la caja. Vaya al complemento Luna y haga clic en 'Detectar el módulo LTE' si no ve los parámetros en la parte de configuración, solicite el código PIN y APN en la configuración del complemento Luna.
-si se detecta 4G, se inicia un módulo de conexión en segundo plano que cambia automáticamente de Ethernet a 4G si es necesario (ping a 8.8.8.8), el complemento de SMS funciona al mismo tiempo que 4G en el Luna 4G.
-Los ajustes se realizan en la configuración del complemento.
+Detección automática de 4G interno a la caja. Vaya al complemento Luna y haga clic en 'Detectar módulo LTE' Solicitar código PIN y APN en la página LTE del complemento Luna.
+si se detecta 4G, se inicia un módulo de conexión en segundo plano que cambia automáticamente de ethernet o wifi a 4G, si es necesario, el complemento SMS funciona al mismo tiempo que 4G en el Luna 4G.
+La configuración se realiza en la página LTE del complemento.

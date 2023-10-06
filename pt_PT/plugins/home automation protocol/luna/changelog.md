@@ -6,10 +6,19 @@
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 
-# 09/06/2023
-- mudando o cenário do botão Power na parte de trás da caixa. (veja a documentação)
-- Atualização LTE para erro de solicitação LTE enquanto a caixa não é compatível.
+# 14/09/2023
+- Nova interface para o plugin móvel.
+- Hotspot
+- 2 wi-fis disponíveis.
+- LTE com suporte para plug-in SMS
+- Novo formato de cartão SD
+- Priorização de conexões.
+- Defina um endereço IP (Wi-Fi e Ethernet)
 
+# 09/06/2023
+- Mudando o cenário do botão Power na parte traseira da caixa. (veja a documentação)
+- Atualização LTE para erro de solicitação LTE enquanto a caixa não é compatível.
+  
 # 02/05/2023
 
 - LocalHost patch (mudança de direitos).
