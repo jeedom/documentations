@@ -715,6 +715,9 @@
         "Gain Market": "Gain Market",
         "Récupère votre solde sur le market Jeedom (en tant que développeur) et peut vous alerter lorsqu'il évolue ou que le paiement Jeedom est détecté": "Recovers your balance on the Jeedom market (as a developer) and can alert you when it changes or when the Jeedom payment is detected",
         "Plugin fullyKiosK pour la gestion des tablettes utilisant l'application fullykiosk": "FullyKiosK plugin for tablet management using the fullykiosk app",
+        "Il permet de remonter toutes les infos instantanées d'une instance de fail2ban locale ou distante (via SSH) mais il garde également des compteurs journaliers des ip bloquées ainsi qu'un compteur pour pays d'origine": "It allows you to report all instant information from a local or remote fail2ban instance (via SSH) but it also keeps daily counters of blocked IPs as well as a counter for country of origin",
+        "fail2ban": "fail2ban",
+        "Plugin pour monitorer fail2ban": "Plugin to monitor fail2ban",
         "Défauts": "Defaults",
         "Surveillance de cohérence état\/mesure": "State\/measurement consistency monitoring",
         "Ce plugin s'adresse à tous les iPad et iPhone retrouvés dans les placards et tiroirs, qui ont pris la poussière, que l'on a oubliés ou délaissés": "This plugin is for all iPads and iPhones found in cupboards and drawers, which have gathered dust, which have been forgotten or abandoned",
@@ -1023,7 +1026,7 @@
     },
     "plugins_contributor\/programming\/index.md": {
         "Theengs gateway": "Theengs gateway",
-        "Theengs gateway servant de base à la création de plugins pour Jeedom": "Theengs gateway serving as a basis for creating plugins for Jeedom",
+        "Plugin pour installer et configurer facilement des antennes tournant sous Theengs gateway qui permet de capter des périphérique bluetooth (BLEA) et les remonter vers Jeedom pour être intégré via le plugin MQTT Discovery": "Plugin to easily install and configure antennas running under Theengs gateway which allows you to capture bluetooth devices (BLEA) and send them back to Jeedom to be integrated via the MQTT Discovery plugin",
         "Cela permet d'organiser vos logs de scénario selon vos préférences, de par exemple regrouper toutes les actions sur un équipement dans le même log quelque soit le scénario": "This allows you to organize your scenario logs according to your preferences, for example to group all the actions on a piece of equipment in the same log regardless of the scenario",
         "Plugin permettant une gestion de log personnalisée dans vos scénarios": "Plugin allowing personalized log management in your scenarios",
         "Explorateur \/ éditeur de fichiers pour Jeedom": "Jeedom Explorer \/ File Editor",

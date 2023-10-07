@@ -1,0 +1,34 @@
+{
+	"id": "fail2ban",
+	"name": "fail2ban",
+	"description": {
+		"fr_FR": "Plugin pour monitorer fail2ban. Il permet de remonter toutes les infos instantanées d'une instance de fail2ban locale ou distante (via SSH) mais il garde également des compteurs journaliers des ip bloquées ainsi qu'un compteur pour pays d'origine."
+	},
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.2.0",
+	"category": "monitoring",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"maxDependancyInstallTime": 0,
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-fail2ban",
+		"video": ""
+	},
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"rpi",
+		"docker",
+		"diy",
+		"v4",
+		"atlas"
+	],
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/fail2ban/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/fail2ban/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/fail2ban/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/fail2ban/#language#/"
+}
