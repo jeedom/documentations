@@ -1,34 +1,33 @@
 {
-	"id": "tgw",
-	"name": "Theengs gateway",
-	"description": {
-		"fr_FR": "Plugin pour installer et configurer facilement des antennes tournant sous Theengs gateway qui permet de capter des périphérique bluetooth (BLEA) et les remonter vers Jeedom pour être intégré via le plugin MQTT Discovery"
+    "id": "rosee",
+    "name": "Rosée - Givre - Tendance",
+    "description": "Plugin permetant de calculer : le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo. <BR/>Le point de givrage ainsi que l'alerte ne se calculent uniquement dans le cas où la température < 5°C. <BR />",
+    "usage": "Il faut renseigner les champs Temperature, Humidité, Pression <br/>Pour l'humidité absolue, on peut indiquer également une pression barométrique, sinon une valeur par défaut est prise en compte<br/> Il est possible d'ajouter un offset sur la température",
+    "licence": "AGPL",
+    "author": "JAG",
+    "require": "4.0",
+    "category": "weather",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "maxDependancyInstallTime": 0,
+    "language": [
+        "fr_FR"
+    ],
+    "changelog": "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog",
+    "documentation": "https://jealg.github.io/documentation/plugin-rosee/#language#/",
+    "changelog_beta" : "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog_beta",
+ 	"documentation_beta" : "https://jealg.github.io/documentation/plugin-rosee/#language#/",
+     "link" : {
+		"forum":"https://community.jeedom.com/tag/plugin-rosee"
 	},
-	"licence": "AGPL",
-	"author": "Mips",
-	"require": "4.2.0",
-	"category": "programming",
-	"hasDependency": false,
-	"hasOwnDeamon": false,
-	"maxDependancyInstallTime": 0,
-	"link": {
-		"forum": "https://community.jeedom.com/tags/plugin-tgw",
-		"video": ""
-	},
-	"language": [
-		"fr_FR",
-		"en_US"
-	],
-	"compatibility": [
+     "compatibility": [
+		"miniplus",
 		"smart",
 		"rpi",
 		"docker",
 		"diy",
+		"mobile",
 		"v4",
 		"atlas"
-	],
-	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/changelog",
-	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/",
-	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/changelog",
-	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/tgw/#language#/"
+	]
 }
