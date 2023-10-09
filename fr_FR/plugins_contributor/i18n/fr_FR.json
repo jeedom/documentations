@@ -473,8 +473,8 @@
         "tous les plugins officiels de cette catégorie": "tous les plugins officiels de cette catégorie"
     },
     "plugins_contributor\/programming\/index.md": {
-        "Theengs gateway": "Theengs gateway",
-        "Plugin pour installer et configurer facilement des antennes tournant sous Theengs gateway qui permet de capter des périphérique bluetooth (BLEA) et les remonter vers Jeedom pour être intégré via le plugin MQTT Discovery": "Plugin pour installer et configurer facilement des antennes tournant sous Theengs gateway qui permet de capter des périphérique bluetooth (BLEA) et les remonter vers Jeedom pour être intégré via le plugin MQTT Discovery",
+        "Theengs Gateway": "Theengs Gateway",
+        "Plugin pour installer et configurer facilement des antennes tournant sous Theengs Gateway qui permet de capter des périphérique bluetooth (BLEA) et les remonter vers Jeedom pour être intégré via le plugin MQTT Discovery": "Plugin pour installer et configurer facilement des antennes tournant sous Theengs Gateway qui permet de capter des périphérique bluetooth (BLEA) et les remonter vers Jeedom pour être intégré via le plugin MQTT Discovery",
         "Cela permet d'organiser vos logs de scénario selon vos préférences, de par exemple regrouper toutes les actions sur un équipement dans le même log quelque soit le scénario": "Cela permet d'organiser vos logs de scénario selon vos préférences, de par exemple regrouper toutes les actions sur un équipement dans le même log quelque soit le scénario",
         "LogManager": "LogManager",
         "Plugin permettant une gestion de log personnalisée dans vos scénarios": "Plugin permettant une gestion de log personnalisée dans vos scénarios",

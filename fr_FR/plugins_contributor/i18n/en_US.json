@@ -1025,8 +1025,8 @@
         " ici*": " here*"
     },
     "plugins_contributor\/programming\/index.md": {
-        "Theengs gateway": "Theengs gateway",
-        "Plugin pour installer et configurer facilement des antennes tournant sous Theengs gateway qui permet de capter des périphérique bluetooth (BLEA) et les remonter vers Jeedom pour être intégré via le plugin MQTT Discovery": "Plugin to easily install and configure antennas running under Theengs gateway which allows you to capture bluetooth devices (BLEA) and send them back to Jeedom to be integrated via the MQTT Discovery plugin",
+        "Theengs Gateway": "Theengs gateway",
+        "Plugin pour installer et configurer facilement des antennes tournant sous Theengs Gateway qui permet de capter des périphérique bluetooth (BLEA) et les remonter vers Jeedom pour être intégré via le plugin MQTT Discovery": "Plugin to easily install and configure antennas running under Theengs gateway which allows you to capture bluetooth devices (BLEA) and send them back to Jeedom to be integrated via the MQTT Discovery plugin",
         "Cela permet d'organiser vos logs de scénario selon vos préférences, de par exemple regrouper toutes les actions sur un équipement dans le même log quelque soit le scénario": "This allows you to organize your scenario logs according to your preferences, for example to group all the actions on a piece of equipment in the same log regardless of the scenario",
         "Plugin permettant une gestion de log personnalisée dans vos scénarios": "Plugin allowing personalized log management in your scenarios",
         "Explorateur \/ éditeur de fichiers pour Jeedom": "Jeedom Explorer \/ File Editor",

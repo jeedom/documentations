@@ -1,8 +1,8 @@
 {
 	"id": "tgw",
-	"name": "Theengs gateway",
+	"name": "Theengs Gateway",
 	"description": {
-		"fr_FR": "Plugin pour installer et configurer facilement des antennes tournant sous Theengs gateway qui permet de capter des périphérique bluetooth (BLEA) et les remonter vers Jeedom pour être intégré via le plugin MQTT Discovery"
+		"fr_FR": "Plugin pour installer et configurer facilement des antennes tournant sous Theengs Gateway qui permet de capter des périphérique bluetooth (BLEA) et les remonter vers Jeedom pour être intégré via le plugin MQTT Discovery"
 	},
 	"licence": "AGPL",
 	"author": "Mips",
