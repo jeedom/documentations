@@ -1,33 +1,30 @@
 {
-    "id": "rosee",
-    "name": "Rosée - Givre - Tendance",
-    "description": "Plugin permetant de calculer : le point de rosée, le point de givrage, l'humidité absolue et la tendance Météo. <BR/>Le point de givrage ainsi que l'alerte ne se calculent uniquement dans le cas où la température < 5°C. <BR />",
-    "usage": "Il faut renseigner les champs Temperature, Humidité, Pression <br/>Pour l'humidité absolue, on peut indiquer également une pression barométrique, sinon une valeur par défaut est prise en compte<br/> Il est possible d'ajouter un offset sur la température",
-    "licence": "AGPL",
-    "author": "JAG",
-    "require": "4.0",
-    "category": "weather",
-    "hasDependency": false,
-    "hasOwnDeamon": false,
-    "maxDependancyInstallTime": 0,
-    "language": [
-        "fr_FR"
-    ],
-    "changelog": "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog",
-    "documentation": "https://jealg.github.io/documentation/plugin-rosee/#language#/",
-    "changelog_beta" : "https://jealg.github.io/documentation/plugin-rosee/#language#/changelog_beta",
- 	"documentation_beta" : "https://jealg.github.io/documentation/plugin-rosee/#language#/",
-     "link" : {
-		"forum":"https://community.jeedom.com/tag/plugin-rosee"
-	},
-     "compatibility": [
-		"miniplus",
+	"id": "MQTTDiscovery",
+	"name": "MQTT Discovery",
+	"description": "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' qui existe sous home assistant.<br>Cela permet d'utiliser Open MQTT Gateway (https://docs.openmqttgateway.com/) sur esp32 ou l'équivalent Theengs gateway (https://gateway.theengs.io/) sur pi. Il devient très facile de faire de la gestion de présence de tag bluetooth tel que les nuts ou d'intégré une liste importante de matériel compatible BLEA.<br>Mais c'est également compatible avec tout équipement supportant 'MQTT Discovert' tel que Nuki Smart Lock pro, myfox2mqtt...",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.3",
+	"category": "automation protocol",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
 		"smart",
 		"rpi",
-		"docker",
 		"diy",
-		"mobile",
 		"v4",
 		"atlas"
-	]
+	],
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-MQTTDiscovery",
+		"video": ""
+	},
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/"
 }

@@ -4,7 +4,13 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# xx/08/2023
+# 01/10/2023
+
+**Improvements**
+
+- Switch to version *8.26.0* by ZwaveJsUI
+
+# 09/11/2023
 
 **Fixes**
 
@@ -12,7 +18,7 @@
 
 **Improvements**
 
-- Switch to version *8.23.2* by ZwaveJsUI.
+- Switch to version *8.25.1* by ZwaveJsUI.
 - Added the possibility to make an update *OTW* a controller (if compatible)
 - Added an option to manage *notifications* in the message center *dead and alive nodes*
 - Added an option to manage *notifications* in the message center *missed awakenings and return*
@@ -20,6 +26,23 @@
 **Configuration Additions**
 
 - Added config *Shelly Qubino Wave 1PM* (properties : Switch, Power, Energy, Mains Notification, Over-Current Notification, Heat-Sensor Notification)
+- Added config *Shelly Qubino Wave 1* (properties : Switch, Power, Energy, Mains Notification, Over-Current Notification, Heat-Sensor Notification)
+- Adding a subproperty *binary-water* for property *Flood*
+- Adding a subproperty *onlevel-barrier* for property *Multilevel*
+
+**Configuration Changes**
+
+- Changing the configuration *MCOhome Mh8FC*  to use the properties
+- Changing the configuration *NeoCoolCam WS02Z*  to use the properties
+- Changing the configuration *Kaipule IM20*  to use the properties
+- Changing the configuration *HRT4_SRT321* to better use the properties
+- Changing the configuration *Benext Plug In Dimmer* to better use the properties
+- Changing the configuration *Dome On Off Plug In Switch Plug In Dimmer* to better use the properties
+- Changing the configuration *Domux Dx2skz* to better use the properties
+- Changing the configuration *Swiid Plug* to better use the properties
+- Changing the configuration *Everspring SM810* to better use the properties
+- Changing the configuration *Zipato PD01z* to better use the properties
+- Changing the configuration *Vision Security ZS5101* to better use the properties
 
 # 02/08/2023
 

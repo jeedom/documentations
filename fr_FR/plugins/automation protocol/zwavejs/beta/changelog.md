@@ -4,11 +4,24 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 01/10/2023
+# 09/10/2023
+
+**Corrections**
+
+- Correction évitant certains messages dans la log *http.error* dans certains cas particulier
 
 **Améliorations**
 
-- Passage à la version *8.26.0* de ZwaveJsUI
+- Passage à la version *9.1.0* de ZwaveJsUI
+- Rajout d'une option pour gérer les *notifications* dans le centre des messages *des noeuds morts et alives*
+- Rajout d'une option pour gérer les *notifications* dans le centre des messages *des réveils manqués et retour*
+
+**Ajouts de Configurations**
+
+- Ajout de la configuration *Aeotec ZW187 Recessed Door* (propriétés : Opening Simple, Battery, Notification Software, Notification Power-Status)
+- Ajout de la configuration *Thermofloor Heat It ZM Relay High Power* (propriétés : Switch, Power, Energy, Notification Heat Sensor, Notification Over Load, Centra Scene)
+- Ajout d'une sous propriété *notification-simple* pour la propriété *Opening*
+
 
 # 11/09/2023
 

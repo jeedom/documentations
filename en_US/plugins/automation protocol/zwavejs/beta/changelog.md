@@ -4,11 +4,24 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
-# 01/10/2023
+# 09/10/2023
+
+**Fixes**
+
+- Correction avoiding certain messages in the log *http.error* in certain special cases
 
 **Improvements**
 
-- Switch to version *8.26.0* by ZwaveJsUI
+- Switch to version *9.1.0* by ZwaveJsUI
+- Added an option to manage *notifications* in the message center *dead and alive nodes*
+- Added an option to manage *notifications* in the message center *missed awakenings and return*
+
+**Configuration Additions**
+
+- Added config *Aeotec ZW187 Recessed Door* (properties : Opening Simple, Battery, Notification Software, Notification Power-Status)
+- Added config *Thermofloor Heat It ZM Relay High Power* (properties : Switch, Power, Energy, Heat Sensor Notification, Over Load Notification, Centra Scene)
+- Adding a subproperty *simple-notification* for property *Opening*
+
 
 # 09/11/2023
 

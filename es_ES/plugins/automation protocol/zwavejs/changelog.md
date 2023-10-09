@@ -4,7 +4,13 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# xx/08/2023
+# 10/01/2023
+
+**Mejoras**
+
+- Cambiar a versión *8.26.0* por ZwaveJsUI
+
+# 11/09/2023
 
 **Arreglos**
 
@@ -12,7 +18,7 @@
 
 **Mejoras**
 
-- Cambiar a versión *8.23.2* por ZwaveJsUI.
+- Cambiar a versión *8.25.1* por ZwaveJsUI.
 - Se agregó la posibilidad de realizar una actualización *OTW* un controlador (si es compatible)
 - Se agregó una opción para administrar *notificaciones* en el centro de mensajes *nodos vivos y muertos*
 - Se agregó una opción para administrar *notificaciones* en el centro de mensajes *despertares perdidos y regreso*
@@ -20,6 +26,23 @@
 **Adiciones de configuración**
 
 - Configuración añadida *Shelly Qubino Ola 1PM* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
+- Configuración añadida *Shelly Qubino Ola 1* (propiedades : Interruptor, alimentación, energía, notificación de red, notificación de sobrecorriente, notificación de sensor de calor)
+- Agregar una subpropiedad *agua-binaria* para la propiedad *Inundación*
+- Agregar una subpropiedad *barrera de nivel* para la propiedad *Multi nivel*
+
+**Cambios de configuración**
+
+- Cambiar la configuración *MCOhome Mh8FC*  para usar las propiedades
+- Cambiar la configuración *NeoCoolCam WS02Z*  para usar las propiedades
+- Cambiar la configuración *Kaipule IM20*  para usar las propiedades
+- Cambiar la configuración *HRT4_SRT321* para aprovechar mejor las propiedades
+- Cambiar la configuración *Atenuador enchufable Benext* para aprovechar mejor las propiedades
+- Cambiar la configuración *Domo de encendido y apagado Interruptor enchufable Atenuador enchufable* para aprovechar mejor las propiedades
+- Cambiar la configuración *Domux dx2skz* para aprovechar mejor las propiedades
+- Cambiar la configuración *Enchufe deslizante* para aprovechar mejor las propiedades
+- Cambiar la configuración *Everspring SM810* para aprovechar mejor las propiedades
+- Cambiar la configuración *Zipato PD01z* para aprovechar mejor las propiedades
+- Cambiar la configuración *Seguridad de visión ZS5101* para aprovechar mejor las propiedades
 
 # 08/02/2023
 
