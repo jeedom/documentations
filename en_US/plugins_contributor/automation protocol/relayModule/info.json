@@ -1,30 +1,36 @@
 {
-	"id": "MQTTDiscovery",
-	"name": "MQTT Discovery",
-	"description": "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' qui existe sous home assistant.<br>Cela permet d'utiliser Open MQTT Gateway (https://docs.openmqttgateway.com/) sur esp32 ou l'équivalent Theengs gateway (https://gateway.theengs.io/) sur pi. Il devient très facile de faire de la gestion de présence de tag bluetooth tel que les nuts ou d'intégré une liste importante de matériel compatible BLEA.<br>Mais c'est également compatible avec tout équipement supportant 'MQTT Discovert' tel que Nuki Smart Lock pro, myfox2mqtt...",
-	"licence": "AGPL",
-	"author": "Mips",
-	"require": "4.3",
-	"category": "automation protocol",
-	"hasDependency": true,
-	"hasOwnDeamon": true,
-	"language": [
-		"fr_FR",
-		"en_US"
-	],
-	"compatibility": [
-		"smart",
-		"rpi",
-		"diy",
-		"v4",
-		"atlas"
-	],
-	"link": {
-		"forum": "https://community.jeedom.com/tags/plugin-MQTTDiscovery",
-		"video": ""
+    "id": "grdfConnect",
+    "name": "GRDF Connect",
+    "description": {
+    	"fr_FR": "Récupérer les informations de comptage gaz à partir de son compte-client GRDF ."
+  	},
+  	"utilization": "Il faut disposer d'un compte-client GRDF valide, renseigner l'identifiant, le mot de passe.<br>Le plugin est basé sur une API non officielle, il peut cesser de fonctionner à tout moment, donc c'est à vos risques et perils ! ",
+    "licence": "AGPL",
+    "author": "Limad44",
+    "require": "4.1",
+    "category": "energy",
+    "hasDependency": false,
+    "hasOwnDeamon": false,
+    "display": "panel",
+    "changelog": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#/changelog",
+    "changelog_beta": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#/changelog",
+  	"documentation": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#",
+    "documentation_beta": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#",
+  	"link" : {
+		"forum":"https://community.jeedom.com/tag/plugin-grdfconnect"
 	},
-	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
-	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/",
-	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
-	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/"
+    "language": [
+        "fr_FR",
+        "en_US"
+    ],
+    "compatibility": [
+        "v4",
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "Jeedomboard"
+    ]
 }

@@ -4,6 +4,8 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+- Adding a stop command
+
 # 06/06/2023
 
 - Major overhaul of the plugin 
