@@ -20,6 +20,12 @@ Auf dem ersten Bildschirm der Anwendung wird Ihnen angeboten, Ihr Marktkonto zu 
 
 ![v2ConnectMarket](../images/v2firstConnect.jpeg)
 
+>**WICHTIG**
+>
+> Um von den Funktionalitäten der Anwendung profitieren zu können, muss sich der Kern Ihres Jeedom in 4.4 befinden.Mindestens 0
+
+
+
 
 #### __LOGIN ÜBER DAS MARKET ACCOUNT__ :
 
@@ -71,11 +77,47 @@ Sie können auch unten rechts auf die Schaltfläche + klicken, um auf verschiede
 ![v2greenBtnAdd](../images/v2greenBtnAdd.PNG)
 
 
+Um auf Funktionen wie Benachrichtigungen, Menüpersonalisierung oder Geolokalisierung zugreifen zu können, müssen Sie zunächst mindestens ein aktuelles Feld ausgewählt haben'
+
+![v2ActualBoxFlouted](../images/v2ActualBoxFlouted.jpeg)
+
+
+
+# So funktioniert Geolokalisierung
+
+Wir fügen eine Geolocation-Zone hinzu, indem wir auf das +-Symbol klicken
+
+![v2AddZone](../images/v2AddZone.jpeg)
+
+Wir geben die gesuchte Adresse ein und bestätigen mit der Eingabetaste auf seinem Telefon. Der Cursor positioniert sich dann auf der gewünschten Adresse.
+Anschließend können wir einen Namen hinzufügen und die Zone speichern. 
+
+Dadurch wird auf Ihrem mobilen Gerät ein neuer Befehl vom Binärtyp erstellt, der den Ein- und Ausgängen der Zone entspricht, wenn die Geolokalisierung auf Ihrem Mobiltelefon aktiviert ist.
+
+Wir können auch den Radius der Zone ändern, um die Erkennung der Zone zu erweitern. 
+
+![v2ModifyBigRadius](../images/v2ModifyBigRadius.jpeg)
 
 
 
 
-# Konfiguration des mobilen Plugins
+
+
+# FAQ
+
+>**Ich habe Probleme mit Benachrichtigungen**
+>
+>Dieser Teil wird derzeit in der Beta-Anwendung verbessert und optimiert.
+
+
+>**Ich habe Probleme bei der Anzeige meiner Webansicht**
+>
+>Überprüfen Sie auf Ihrem Jeedom in den Einstellungen, ob die mobile Startseite HOME ist.
+
+
+
+
+# Einrichten des Mobile V1-Plugins
 
 Nach der Installation des Plugins müssen Sie es nur noch aktivieren :
 

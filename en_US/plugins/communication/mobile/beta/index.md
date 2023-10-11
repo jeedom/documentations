@@ -20,6 +20,12 @@ on the first screen of the application, you are offered to connect your market a
 
 ![v2ConnectMarket](../images/v2firstConnect.jpeg)
 
+>**IMPORTANT**
+>
+> To benefit from the application's functionalities, the core of your Jeedom must be in 4.4.0 minimum
+
+
+
 
 #### __LOGIN VIA THE MARKET ACCOUNT__ :
 
@@ -71,11 +77,47 @@ You can also click on the + button at the bottom right to access different optio
 ![v2greenBtnAdd](../images/v2greenBtnAdd.PNG)
 
 
+To access features such as Notifications, Menu Personalization or Geolocation, you must first have selected at least one current box'
+
+![v2ActualBoxFlouted](../images/v2ActualBoxFlouted.jpeg)
+
+
+
+# How Geolocation works
+
+We add a Geolocation zone by clicking on the + icon
+
+![v2AddZone](../images/v2AddZone.jpeg)
+
+We type the address we are looking for, we validate with Enter on his phone; the cursor will then position itself on the desired address.
+We can then add a name and save the zone. 
+
+This will create a new command on your mobile equipment, of binary type, which will correspond to the entries and exits of the zone if geolocation is activated on your mobile phone.
+
+We can also change the radius of the zone, to extend the detection of the zone. 
+
+![v2ModifyBigRadius](../images/v2ModifyBigRadius.jpeg)
 
 
 
 
-# Mobile plugin configuration
+
+
+# FAQ
+
+>**I have problems with notifications**
+>
+>This part is currently being improved and optimized on the beta application.
+
+
+>**I have problems displaying my webview**
+>
+>On your Jeedom, in the Preferences, check that the mobile home page is HOME.
+
+
+
+
+# Setting up the Mobile V1 plugin
 
 After installing the plugin, you just need to activate it :
 

@@ -20,6 +20,12 @@ en la primera pantalla de la aplicación, se le ofrece conectar su cuenta de mer
 
 ![v2ConnectMarket](../images/v2firstConnect.jpeg)
 
+>**IMPORTANTE**
+>
+> Para beneficiarse de las funcionalidades de la aplicación, el núcleo de su Jeedom debe estar en 4.4.0 mínimo
+
+
+
 
 #### __ENTRAR A TRAVÉS DE LA CUENTA DE MERCADO__ :
 
@@ -71,11 +77,47 @@ También puede hacer clic en el botón + en la parte inferior derecha para acced
 ![v2greenBtnAdd](../images/v2greenBtnAdd.PNG)
 
 
+Para acceder a funciones como Notificaciones, Personalización de Menú o Geolocalización, primero debes haber seleccionado al menos una casilla actual'
+
+![v2ActualBoxFlouted](../images/v2ActualBoxFlouted.jpeg)
+
+
+
+# Cómo funciona la geolocalización
+
+Añadimos una zona de Geolocalización pulsando en el icono +
+
+![v2AddZone](../images/v2AddZone.jpeg)
+
+Escribimos la dirección que buscamos, validamos con Enter en su teléfono; el cursor se posicionará entonces en la dirección deseada.
+Luego podemos agregar un nombre y guardar la zona. 
+
+Esto creará un nuevo comando en tu equipo móvil, de tipo binario, que corresponderá a las entradas y salidas de la zona si la geolocalización está activada en tu teléfono móvil.
+
+También podemos cambiar el radio de la zona, para ampliar la detección de la zona. 
+
+![v2ModifyBigRadius](../images/v2ModifyBigRadius.jpeg)
 
 
 
 
-# Configuración de complemento móvil
+
+
+# FAQ
+
+>**Tengo problemas con las notificaciones**
+>
+>Esta parte se está mejorando y optimizando actualmente en la aplicación beta.
+
+
+>**Tengo problemas para mostrar mi vista web**
+>
+>En tu Jeedom, en Preferencias, comprueba que la página de inicio móvil sea INICIO.
+
+
+
+
+# Configurar el complemento Mobile V1
 
 Después de instalar el complemento, solo necesita activarlo :
 

@@ -20,6 +20,12 @@ na primeira tela do aplicativo, você pode conectar sua conta de mercado e, assi
 
 ![v2ConnectMarket](../images/v2firstConnect.jpeg)
 
+>**IMPORTANTE**
+>
+> Para aproveitar as funcionalidades do aplicativo, o núcleo do seu Jeedom deve estar em 4.4.0 mínimo
+
+
+
 
 #### __LOGIN ATRAVÉS DA CONTA DO MERCADO__ :
 
@@ -71,11 +77,47 @@ Você também pode clicar no botão + no canto inferior direito para acessar dif
 ![v2greenBtnAdd](../images/v2greenBtnAdd.PNG)
 
 
+Para acessar recursos como Notificações, Personalização de Menu ou Geolocalização, você deve primeiro ter selecionado pelo menos uma caixa atual'
+
+![v2ActualBoxFlouted](../images/v2ActualBoxFlouted.jpeg)
+
+
+
+# Como funciona a geolocalização
+
+Adicionamos uma zona de geolocalização clicando no ícone +
+
+![v2AddZone](../images/v2AddZone.jpeg)
+
+Digitamos o endereço que procuramos, validamos com Enter no seu telefone; o cursor irá então se posicionar no endereço desejado.
+Podemos então adicionar um nome e salvar a zona. 
+
+Isto irá criar um novo comando no seu equipamento móvel, do tipo binário, que corresponderá às entradas e saídas da zona se a geolocalização estiver ativada no seu telemóvel.
+
+Também podemos alterar o raio da zona, para estender a detecção da zona. 
+
+![v2ModifyBigRadius](../images/v2ModifyBigRadius.jpeg)
 
 
 
 
-# Configuração de plug-in móvel
+
+
+# FAQ
+
+>**Tenho problemas com notificações**
+>
+>Esta parte está sendo melhorada e otimizada no aplicativo beta.
+
+
+>**Tenho problemas para exibir meu webview**
+>
+>No seu Jeedom, nas Preferências, verifique se a página inicial do celular é HOME.
+
+
+
+
+# Configurando o plugin Mobile V1
 
 Depois de instalar o plugin, você só precisa ativá-lo :
 
