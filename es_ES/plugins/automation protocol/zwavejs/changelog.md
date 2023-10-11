@@ -4,11 +4,24 @@
 >
 >Si no hay información sobre la actualización, significa que se trata solo de la actualización de la documentación, la traducción o el texto.
 
-# 10/01/2023
+# 10/09/2023
+
+**Arreglos**
+
+- Corrección evitando ciertos mensajes en el log *Error HTTP* en ciertos casos especiales
 
 **Mejoras**
 
-- Cambiar a versión *8.26.0* por ZwaveJsUI
+- Cambiar a versión *9.1.0* por ZwaveJsUI
+- Se agregó una opción para administrar *notificaciones* en el centro de mensajes *nodos vivos y muertos*
+- Se agregó una opción para administrar *notificaciones* en el centro de mensajes *despertares perdidos y regreso*
+
+**Adiciones de configuración**
+
+- Configuración añadida *Puerta Empotrada Aeotec ZW187* (propiedades : Apertura simple, batería, software de notificación, notificación de estado de energía)
+- Configuración añadida *Thermofloor Heat It ZM Relé Alta Potencia* (propiedades : Interruptor, alimentación, energía, notificación de sensor de calor, notificación de sobrecarga, escena central)
+- Agregar una subpropiedad *notificación simple* para la propiedad *Apertura*
+
 
 # 11/09/2023
 

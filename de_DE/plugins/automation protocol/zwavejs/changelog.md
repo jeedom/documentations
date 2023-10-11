@@ -4,11 +4,24 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
-# 10.01.2023
+# 10.09.2023
+
+**Behebt**
+
+- Korrektur zur Vermeidung bestimmter Meldungen im Protokoll *HTTP Fehler* in bestimmten Sonderfällen
 
 **Verbesserungen**
 
-- Zur Version wechseln *8.26.0* von ZwaveJsUI
+- Zur Version wechseln *9.1.0* von ZwaveJsUI
+- Option zum Verwalten hinzugefügt *Benachrichtigungen* im Nachrichtencenter *tote und lebendige Knoten*
+- Option zum Verwalten hinzugefügt *Benachrichtigungen* im Nachrichtencenter *verpasstes Erwachen und Rückkehr*
+
+**Konfigurationsergänzungen**
+
+- Konfig hinzugefügt *Aeotec ZW187 Einbautür* (Eigenschaften : Einfaches Öffnen, Batterie, Benachrichtigungssoftware, Benachrichtigung über den Energiestatus)
+- Konfig hinzugefügt *Thermofloor Heat It ZM-Relais mit hoher Leistung* (Eigenschaften : Schalter, Strom, Energie, Wärmesensorbenachrichtigung, Überlastbenachrichtigung, Centra-Szene)
+- Hinzufügen einer Untereigenschaft *einfache Benachrichtigung* für Eigentum *Öffnung*
+
 
 # 11.09.2023
 

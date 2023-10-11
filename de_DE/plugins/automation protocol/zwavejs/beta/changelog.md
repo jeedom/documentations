@@ -4,6 +4,12 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 10.11.2023
+
+**Behebt**
+
+- Zur Version wechseln *8.26.0* von ZwaveJsUI vorübergehend
+
 # 10.09.2023
 
 **Behebt**
