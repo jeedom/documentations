@@ -4,6 +4,36 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 09/06/2023
+
+- Reparar notificaciones
+- Adición de visualización de equipos por mesa
+
+# 19/05/2023
+
+- Relaciones públicas por PhpVarious
+- Corregir errores menores
+
+
+# 10/05/2023
+
+- Comandos GeoLoc V2
+- Eliminar la parte de ARN móvil de AppV2
+- Actualizar mobile.api
+
+
+# 10/01/2023
+
+- FUTURA INTEGRACIÓN DE APPV2 ALPHA EN PLUGIN MÓVIL
+- Nueva interfaz Future AppV2
+- Menú personalizado modal Future AppV2
+- Modal QrCode Future AppV2
+
+# 13/12/2021
+
+- Modo sin conexión para QrCode (creación de QrCode sin Internet.).
+- Compatibilidad 4.2 Jeedom Core
+
 # 11/10/2021
 
 - Adición del complemento Zigbee en complementos compatibles.

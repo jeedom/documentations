@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 12/10/2023
+
+- Updated to take into account the new Mobile Application
+
+
 # 06/09/2023
 
 - Fix Notifications

@@ -4,6 +4,11 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 10/12/2023
+
+- Actualizado para tener en cuenta la nueva Aplicación Móvil
+
+
 # 09/06/2023
 
 - Reparar notificaciones

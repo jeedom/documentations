@@ -4,6 +4,11 @@
 >
 >Como lembrete, se não houver informações sobre a atualização, isso significa que se trata apenas da atualização da documentação, tradução ou texto
 
+# 10/12/2023
+
+- Atualizado para levar em conta o novo aplicativo móvel
+
+
 # 06/09/2023
 
 - Consertar Notificações

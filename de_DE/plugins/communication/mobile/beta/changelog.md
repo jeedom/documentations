@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 10.12.2023
+
+- Aktualisiert, um die neue mobile Anwendung zu berücksichtigen
+
+
 # 09.06.2023
 
 - Benachrichtigungen korrigieren

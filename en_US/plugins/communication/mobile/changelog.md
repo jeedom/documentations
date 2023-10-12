@@ -4,6 +4,36 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+# 06/09/2023
+
+- Fix Notifications
+- Addition of Equipment Display by Table
+
+# 05/19/2023
+
+- PR by PhpVarious
+- Fix minor bugs
+
+
+# 05/10/2023
+
+- GeoLoc V2 commands
+- Remove AppV2 mobile RNA part
+- Update mobile.api
+
+
+# 01/10/2023
+
+- FUTURE APPV2 ALPHA INTEGRATION IN MOBILE PLUGIN
+- New Interface Future AppV2
+- Modal Custom Menu Future AppV2
+- Modal QrCode Future AppV2
+
+# 12/13/2021
+
+- Offline mode for QrCode (creation of QrCode without internet.).
+- Compatibility 4.2 Jeedom Core
+
 # 10/11/2021
 
 - Addition of the Zigbee plugin in compatible plugins.
