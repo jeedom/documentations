@@ -10,7 +10,7 @@ O aplicativo móvel Jeedom requer a instalação deste plug-in para que a caixa 
 
 Depois de instalar o plugin, você só precisa ativá-lo :
 
-![mobile1](../images/mobile1.png)
+![mobile1](./images/mobile1.png)
 
 
 # Primeira conexão com o aplicativo V2
@@ -18,7 +18,7 @@ Depois de instalar o plugin, você só precisa ativá-lo :
 Para conectar seu telefone : existem 2 métodos possíveis;
 na primeira tela do aplicativo, você pode conectar sua conta de mercado e, assim, encontrar todas as caixas associadas a esta conta ou simplesmente adicionar uma caixa.
 
-![v2ConnectMarket](../images/v2firstConnect.jpeg)
+![v2ConnectMarket](./images/v2firstConnect.jpeg)
 
 >**IMPORTANTE**
 >
@@ -29,14 +29,14 @@ na primeira tela do aplicativo, você pode conectar sua conta de mercado e, assi
 
 #### __LOGIN ATRAVÉS DA CONTA DO MERCADO__ :
 
-![v2ConnectMarket](../images/v2connectMarket.PNG)
+![v2ConnectMarket](./images/v2connectMarket.PNG)
 
 Tudo o que você precisa fazer é inserir seu Market ID e senha.
 
 
 #### __LOGIN VIA BOX ID__ :
 
-![v22methods](../images/v22methods.PNG)
+![v22methods](./images/v22methods.PNG)
 
 Várias opções nesta tela :
 
@@ -45,12 +45,12 @@ Várias opções nesta tela :
 
   - Você clica no QR Code : uma nova tela aparece; você pode digitalizar um QRCode do plugin Mobile da caixa que deseja adicionar, através da guia QRCODE do plugin.
 
-![v2ModalQrApp](../images/v2QRCodeConnect.PNG)
+![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
 
 
 > Aba Qr Code do plugin Mobile
 
->> ![v2ModalPlugin](../images/v2ModalQrCode.png)
+>> ![v2ModalPlugin](./images/v2ModalQrCode.png)
 
 
 
@@ -59,9 +59,9 @@ Uma vez que esta primeira etapa foi concluída, você está registrado no aplica
 
 No menu, você terá a aba Caixas, que agrupa todas as caixas presentes nesta conta de mercado
 
-![v2MenuBoxs](../images/v2MenuBoxs.PNG)
+![v2MenuBoxs](./images/v2MenuBoxs.PNG)
 
-![v2floutedBoxs](../images/v2floutedBoxs.png)
+![v2floutedBoxs](./images/v2floutedBoxs.png)
 
 Basta clicar na caixa onde está instalado o plugin Mobile, depois se identificar para acessar a caixa.
 
@@ -74,12 +74,12 @@ Você também pode clicar no botão + no canto inferior direito para acessar dif
   - Detecção Atlas e Luna (se estiver no Wifi, irá detectar as caixas na rede)
   - Sincronização do Market para atualizar as informações configuradas da conta do Market
 
-![v2greenBtnAdd](../images/v2greenBtnAdd.PNG)
+![v2greenBtnAdd](./images/v2greenBtnAdd.PNG)
 
 
 Para acessar recursos como Notificações, Personalização de Menu ou Geolocalização, você deve primeiro ter selecionado pelo menos uma caixa atual'
 
-![v2ActualBoxFlouted](../images/v2ActualBoxFlouted.jpeg)
+![v2ActualBoxFlouted](./images/v2ActualBoxFlouted.jpeg)
 
 
 
@@ -87,7 +87,7 @@ Para acessar recursos como Notificações, Personalização de Menu ou Geolocali
 
 Adicionamos uma zona de geolocalização clicando no ícone +
 
-![v2AddZone](../images/v2AddZone.jpeg)
+![v2AddZone](./images/v2AddZone.jpeg)
 
 Digitamos o endereço que procuramos, validamos com Enter no seu telefone; o cursor irá então se posicionar no endereço desejado.
 Podemos então adicionar um nome e salvar a zona. 
@@ -96,7 +96,7 @@ Isto irá criar um novo comando no seu equipamento móvel, do tipo binário, que
 
 Também podemos alterar o raio da zona, para estender a detecção da zona. 
 
-![v2ModifyBigRadius](../images/v2ModifyBigRadius.jpeg)
+![v2ModifyBigRadius](./images/v2ModifyBigRadius.jpeg)
 
 
 

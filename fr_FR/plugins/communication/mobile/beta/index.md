@@ -10,7 +10,7 @@ L’application mobile Jeedom nécessite l’installation de ce plugin afin que 
 
 Après installation du plugin, il vous suffit de l’activer :
 
-![mobile1](../images/mobile1.png)
+![mobile1](./images/mobile1.png)
 
 
 # Premiere connexion à l'application V2
@@ -18,7 +18,7 @@ Après installation du plugin, il vous suffit de l’activer :
 Pour connecter votre téléphone : il y a 2 méthodes possible;
 sur le premier écran de l'application, il vous est proposé de connecter votre compte market, et ainsi de retrouver toutes les boxs associées à ce compte, ou bien simplement ajouter une box.
 
-![v2ConnectMarket](../images/v2firstConnect.jpeg)
+![v2ConnectMarket](./images/v2firstConnect.jpeg)
 
 >**IMPORTANT**
 >
@@ -29,14 +29,14 @@ sur le premier écran de l'application, il vous est proposé de connecter votre 
 
 #### __CONNEXION VIA LE COMPTE MARKET__ :
 
-![v2ConnectMarket](../images/v2connectMarket.PNG)
+![v2ConnectMarket](./images/v2connectMarket.PNG)
 
 Il vous faut simplement rentrer votre identifiant Market ainsi que votre mot de passe.
 
 
 #### __CONNEXION VIA BOX ID__ :
 
-![v22methods](../images/v22methods.PNG)
+![v22methods](./images/v22methods.PNG)
 
 Plusieurs choix sur cet écran :
 
@@ -45,12 +45,12 @@ Plusieurs choix sur cet écran :
 
   - Vous cliquez sur QR Code : un nouvel écran apparait; vous pourrez scanner un QRCode depuis le plugin Mobile de la box que vous souhaitez ajoutée, via l'onglet QRCODE du plugin.
 
-![v2ModalQrApp](../images/v2QRCodeConnect.PNG)
+![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
 
 
 > Onglet Qr Code du plugin Mobile
 
->> ![v2ModalPlugin](../images/v2ModalQrCode.png)
+>> ![v2ModalPlugin](./images/v2ModalQrCode.png)
 
 
 
@@ -59,9 +59,9 @@ Une fois cette premiere étape passée, vous êtes enregistré dans l'applicatio
 
 Dans le menu, vous aurez un onglet Boxs, qui regroupe toutes les box présentes sur ce compte market
 
-![v2MenuBoxs](../images/v2MenuBoxs.PNG)
+![v2MenuBoxs](./images/v2MenuBoxs.PNG)
 
-![v2floutedBoxs](../images/v2floutedBoxs.png)
+![v2floutedBoxs](./images/v2floutedBoxs.png)
 
 Il vous suffit de cliquer sur la box où le plugin Mobile est installé, puis de vous identifiez pour accéder a la box.
 
@@ -74,12 +74,12 @@ Vous pouvez aussi cliquer sur le bouton + en bas à droite pour accéder à diff
   - Detection Atlas et Luna (si vous êtes en Wifi, détectera les boxs sur le réseau)
   - Synchronisation Market pour actualiser les informations du compte Market configuré
 
-![v2greenBtnAdd](../images/v2greenBtnAdd.PNG)
+![v2greenBtnAdd](./images/v2greenBtnAdd.PNG)
 
 
 Pour acceder aux fonctionnalités comme les Notifications, la Personnalisation du Menu ou la Géolocalisation, il faut au préalable avoir selectionné au moins une box 'actuelle'
 
-![v2ActualBoxFlouted](../images/v2ActualBoxFlouted.jpeg)
+![v2ActualBoxFlouted](./images/v2ActualBoxFlouted.jpeg)
 
 
 
@@ -87,7 +87,7 @@ Pour acceder aux fonctionnalités comme les Notifications, la Personnalisation d
 
 Nous ajoutons une zone de Géolocalisation en cliquant sur l'icone +
 
-![v2AddZone](../images/v2AddZone.jpeg)
+![v2AddZone](./images/v2AddZone.jpeg)
 
 Nous tapons l'adresse recherchée, nous validons avec Entrée sur son téléphone; le curseur va alors se positionner sur l'adresse recherchée.
 Nous pouvons ensuite ajouter un nom et sauvegarder la zone. 
@@ -96,7 +96,7 @@ Cela crééra une nouvelle commande sur votre équipement mobile, de type binair
 
 Nous pouvons également changer le radius de la zone, pour étendre la détection de la zone. 
 
-![v2ModifyBigRadius](../images/v2ModifyBigRadius.jpeg)
+![v2ModifyBigRadius](./images/v2ModifyBigRadius.jpeg)
 
 
 

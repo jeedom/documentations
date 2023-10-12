@@ -10,7 +10,7 @@ Die mobile Jeedom-Anwendung erfordert die Installation dieses Plugins, damit die
 
 Nach der Installation des Plugins müssen Sie es nur noch aktivieren :
 
-![mobile1](../images/mobile1.png)
+![mobile1](./images/mobile1.png)
 
 
 # Erste Verbindung mit der V2-Anwendung
@@ -18,7 +18,7 @@ Nach der Installation des Plugins müssen Sie es nur noch aktivieren :
 Um Ihr Telefon zu verbinden : es gibt 2 mögliche Methoden;
 Auf dem ersten Bildschirm der Anwendung wird Ihnen angeboten, Ihr Marktkonto zu verbinden und so alle mit diesem Konto verknüpften Boxen zu finden oder einfach eine Box hinzuzufügen.
 
-![v2ConnectMarket](../images/v2firstConnect.jpeg)
+![v2ConnectMarket](./images/v2firstConnect.jpeg)
 
 >**WICHTIG**
 >
@@ -29,14 +29,14 @@ Auf dem ersten Bildschirm der Anwendung wird Ihnen angeboten, Ihr Marktkonto zu 
 
 #### __LOGIN ÜBER DAS MARKET ACCOUNT__ :
 
-![v2ConnectMarket](../images/v2connectMarket.PNG)
+![v2ConnectMarket](./images/v2connectMarket.PNG)
 
 Sie müssen lediglich Ihre Markt-ID und Ihr Passwort eingeben.
 
 
 #### __LOGIN ÜBER BOX-ID__ :
 
-![v22methods](../images/v22methods.PNG)
+![v22methods](./images/v22methods.PNG)
 
 Mehrere Auswahlmöglichkeiten auf diesem Bildschirm :
 
@@ -45,12 +45,12 @@ Mehrere Auswahlmöglichkeiten auf diesem Bildschirm :
 
   - Sie klicken auf QR-Code : ein neuer Bildschirm erscheint; Sie können einen QRCode aus dem Mobile-Plugin der Box, die Sie hinzufügen möchten, über die Registerkarte QRCODE des Plugins scannen.
 
-![v2ModalQrApp](../images/v2QRCodeConnect.PNG)
+![v2ModalQrApp](./images/v2QRCodeConnect.PNG)
 
 
 > Registerkarte „Qr-Code“ des Mobile-Plugins
 
->> ![v2ModalPlugin](../images/v2ModalQrCode.png)
+>> ![v2ModalPlugin](./images/v2ModalQrCode.png)
 
 
 
@@ -59,9 +59,9 @@ Nach diesem ersten Schritt sind Sie in der Anwendung registriert: Wenn Sie das M
 
 Im Menü haben Sie eine Registerkarte Boxen, die alle auf diesem Marktkonto vorhandenen Boxen zusammenfasst
 
-![v2MenuBoxs](../images/v2MenuBoxs.PNG)
+![v2MenuBoxs](./images/v2MenuBoxs.PNG)
 
-![v2floutedBoxs](../images/v2floutedBoxs.png)
+![v2floutedBoxs](./images/v2floutedBoxs.png)
 
 Klicken Sie einfach auf das Kästchen, in dem das Mobile-Plugin installiert ist, und identifizieren Sie sich dann, um auf das Kästchen zuzugreifen.
 
@@ -74,12 +74,12 @@ Sie können auch unten rechts auf die Schaltfläche + klicken, um auf verschiede
   - Erkennung Atlas und Luna (wenn Sie mit WLAN verbunden sind, erkennen die Boxen im Netzwerk)
   - Market-Synchronisierung, um konfigurierte Market-Kontoinformationen zu aktualisieren
 
-![v2greenBtnAdd](../images/v2greenBtnAdd.PNG)
+![v2greenBtnAdd](./images/v2greenBtnAdd.PNG)
 
 
 Um auf Funktionen wie Benachrichtigungen, Menüpersonalisierung oder Geolokalisierung zugreifen zu können, müssen Sie zunächst mindestens ein aktuelles Feld ausgewählt haben'
 
-![v2ActualBoxFlouted](../images/v2ActualBoxFlouted.jpeg)
+![v2ActualBoxFlouted](./images/v2ActualBoxFlouted.jpeg)
 
 
 
@@ -87,7 +87,7 @@ Um auf Funktionen wie Benachrichtigungen, Menüpersonalisierung oder Geolokalisi
 
 Wir fügen eine Geolocation-Zone hinzu, indem wir auf das +-Symbol klicken
 
-![v2AddZone](../images/v2AddZone.jpeg)
+![v2AddZone](./images/v2AddZone.jpeg)
 
 Wir geben die gesuchte Adresse ein und bestätigen mit der Eingabetaste auf seinem Telefon. Der Cursor positioniert sich dann auf der gewünschten Adresse.
 Anschließend können wir einen Namen hinzufügen und die Zone speichern. 
@@ -96,7 +96,7 @@ Dadurch wird auf Ihrem mobilen Gerät ein neuer Befehl vom Binärtyp erstellt, d
 
 Wir können auch den Radius der Zone ändern, um die Erkennung der Zone zu erweitern. 
 
-![v2ModifyBigRadius](../images/v2ModifyBigRadius.jpeg)
+![v2ModifyBigRadius](./images/v2ModifyBigRadius.jpeg)
 
 
 
