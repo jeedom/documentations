@@ -1,36 +1,26 @@
 {
-    "id": "grdfConnect",
-    "name": "GRDF Connect",
-    "description": {
-    	"fr_FR": "Récupérer les informations de comptage gaz à partir de son compte-client GRDF ."
-  	},
-  	"utilization": "Il faut disposer d'un compte-client GRDF valide, renseigner l'identifiant, le mot de passe.<br>Le plugin est basé sur une API non officielle, il peut cesser de fonctionner à tout moment, donc c'est à vos risques et perils ! ",
-    "licence": "AGPL",
-    "author": "Limad44",
-    "require": "4.1",
-    "category": "energy",
-    "hasDependency": false,
-    "hasOwnDeamon": false,
-    "display": "panel",
-    "changelog": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#/changelog",
-    "changelog_beta": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#/changelog",
-  	"documentation": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#",
-    "documentation_beta": "https://limad.github.io/plugins-docs/plugin-grdfConnect/#language#",
-  	"link" : {
-		"forum":"https://community.jeedom.com/tag/plugin-grdfconnect"
+	"id" : "hkControl",
+	"name" : "Homekit Network Devices Control",
+	"description" : {
+		"fr_FR":"Ce plugin permet de controler dans jeedom vos périphériques Homekit Réseaux (pas les BLE). Le but de ce plugin est de permettre le contrôle de périphériques qui ne sont compatibles que avec le protocole Homekit et aucun autre protocole. Donc par exemple pas Philips Hue qui est accessible via un plugin dédié !",
+		"en_US":"This plugin allow you to control Network Homebridge devices with Jeedom (not BLE ones). The purpose of this plugin is to control \"Homekit only\" devices, eg not Philips Hue bridge or IKEA bridge.\n\nWARNING : Not supported : Jessie & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)"
 	},
-    "language": [
-        "fr_FR",
-        "en_US"
-    ],
-    "compatibility": [
-        "v4",
-        "miniplus",
-        "smart",
-        "rpi",
-        "docker",
-        "diy",
-        "mobile",
-        "Jeedomboard"
-    ]
+	"utilization" : "ATTENTION : Non supporté : Jessie & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)\n\nATTENTION : Si vous désirez ajouter les périphériques Jeedom dans Homekit, pour Siri ou Maison par exemple, ce n'est pas le bon plugin, vous devez utiliser le plugin Homebridge !\n\nVous devez configurer votre périphérique Homekit comme habituellement dans Maison ou avec l'app du constructeur et ensuite le supprimer proprement (le désappairer).\nIl vous sera ensuite possible de le découvrir via le plugin (cela permet de configurer le réseau du périphérique si ce n'est pas encore fait).\n\nEtant donné que votre équipement ne sera donc plus appairé à homekit (mais à jeedom), vous pouvez le réinjecter via le plugin Homebridge mais tout n'est pas garanti de fonctionner (pas tous les types génériques).\n\n!!! Jeedom DOIT être sur le même réseau que votre équipement. (pas de routage, pas de NAT) !!!",
+	"licence" : "AGPL",
+	"author" : "Nebz",
+	"hasDependency" : true,
+	"hasOwnDeamon" : true,
+	"require" : "4.0",
+	"category" : "automation protocol",
+	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
+	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/changelog",
+	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/changelog",
+	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/",
+	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/",
+	"forum_link" : "https://community.jeedom.com/tags/plugin-hkControl",
+	"link" : {
+		"forum":"https://community.jeedom.com/tags/plugin-hkControl"
+	},
+	"languages" : ["fr_FR","en_US"],
+	"compatibility" : ["smart","rpi","diy","v4"]
 }
