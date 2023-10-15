@@ -4,6 +4,12 @@
 >
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
+# 14/10/2023
+
+- Tipo de barra de sonido agregado
+
+#
+
 - Se corrigió un error en la autenticación en modo independiente (gracias @bad)
 - Gestión mejorada de la temperatura del color (gracias @apern)
 - Correcciones de errores

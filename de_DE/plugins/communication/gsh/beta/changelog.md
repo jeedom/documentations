@@ -4,6 +4,12 @@
 >
 >Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
 
+# 14.10.2023
+
+- Soundbar-Typ hinzugefügt
+
+#
+
 - Fehler bei der Authentifizierung im Standalone-Modus behoben (danke @bad)
 - Verbessertes Farbtemperaturmanagement (danke @apern)
 - Fehlerbehebungen
