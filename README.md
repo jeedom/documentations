@@ -2,8 +2,8 @@
 
 ## documentations
 
-- [Accéder à la documentation](https://doc.jeedom.com)
-- [Contribuer à la documentation](https://doc.jeedom.com/fr_FR/contribute/doc)
+- [Access the documentation](https://doc.jeedom.com)
+- [Contribute to documentation](https://doc.jeedom.com/en_US/contribute/doc)
 
 <p align="center">
 <img src="https://doc.jeedom.com/img/img_home.png" width="80%">
