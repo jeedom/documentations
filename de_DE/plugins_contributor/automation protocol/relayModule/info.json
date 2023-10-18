@@ -1,26 +1,30 @@
 {
-	"id" : "hkControl",
-	"name" : "Homekit Network Devices Control",
-	"description" : {
-		"fr_FR":"Ce plugin permet de controler dans jeedom vos périphériques Homekit Réseaux (pas les BLE). Le but de ce plugin est de permettre le contrôle de périphériques qui ne sont compatibles que avec le protocole Homekit et aucun autre protocole. Donc par exemple pas Philips Hue qui est accessible via un plugin dédié !",
-		"en_US":"This plugin allow you to control Network Homebridge devices with Jeedom (not BLE ones). The purpose of this plugin is to control \"Homekit only\" devices, eg not Philips Hue bridge or IKEA bridge.\n\nWARNING : Not supported : Jessie & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Zero (armv6) & i386 (32bits)"
+	"id": "MQTTDiscovery",
+	"name": "MQTT Discovery",
+	"description": "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' qui existe sous home assistant. Cela permet d'utiliser Open MQTT Gateway (https://docs.openmqttgateway.com/) sur esp32 ou l'équivalent Theengs gateway (https://gateway.theengs.io/) sur pi. Il devient très facile de faire de la gestion de présence de tag bluetooth tel que les nuts ou d'intégrer une liste importante de matériel compatible BLEA. Mais c'est également compatible avec tout équipement supportant 'MQTT Discovery' tel que Nuki Smart Lock Pro, myfox2mqtt, zwave-js, zigbee2mqtt...",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.3",
+	"category": "automation protocol",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"rpi",
+		"diy",
+		"v4",
+		"atlas"
+	],
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-MQTTDiscovery",
+		"video": ""
 	},
-	"utilization" : "ATTENTION : Non supporté : Jessie & Docker & Jeedom Mini+ & Raspberry Pi 1-2 & Raspberry Zéro (armv6) & i386 (32bits)\n\nATTENTION : Si vous désirez ajouter les périphériques Jeedom dans Homekit, pour Siri ou Maison par exemple, ce n'est pas le bon plugin, vous devez utiliser le plugin Homebridge !\n\nVous devez configurer votre périphérique Homekit comme habituellement dans Maison ou avec l'app du constructeur et ensuite le supprimer proprement (le désappairer).\nIl vous sera ensuite possible de le découvrir via le plugin (cela permet de configurer le réseau du périphérique si ce n'est pas encore fait).\n\nEtant donné que votre équipement ne sera donc plus appairé à homekit (mais à jeedom), vous pouvez le réinjecter via le plugin Homebridge mais tout n'est pas garanti de fonctionner (pas tous les types génériques).\n\n!!! Jeedom DOIT être sur le même réseau que votre équipement. (pas de routage, pas de NAT) !!!",
-	"licence" : "AGPL",
-	"author" : "Nebz",
-	"hasDependency" : true,
-	"hasOwnDeamon" : true,
-	"require" : "4.0",
-	"category" : "automation protocol",
-	"issue" : "https://github.com/NebzHB/jeedom_docs/issues",
-	"changelog" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/changelog",
-	"changelog_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/changelog",
-	"documentation" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/",
-	"documentation_beta" : "https://nebzhb.github.io/jeedom_docs/plugins/hkControl/fr_FR/",
-	"forum_link" : "https://community.jeedom.com/tags/plugin-hkControl",
-	"link" : {
-		"forum":"https://community.jeedom.com/tags/plugin-hkControl"
-	},
-	"languages" : ["fr_FR","en_US"],
-	"compatibility" : ["smart","rpi","diy","v4"]
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/"
 }
