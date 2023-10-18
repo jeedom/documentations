@@ -1,0 +1,44 @@
+{
+    "id": "teleinfoPMEPMI",
+    "name": "Téléinfo PME-PMI",
+    "description": {
+        "fr_FR": "Plugin servant à relever la téléinfo des compteurs PME-PMI",
+        "en_US": "Plugin used to read teleinfo from SME-PMI meters",
+        "es_ES": "Complemento utilizado para leer teleinformación de medidores SME-PMI",
+        "de_DE": "Plugin zum Auslesen von Teleinformationen von SME-PMI-Zählern",
+        "ru_RU": "Plugin servant à relever la téléinfo des compteurs PME-PMI",
+        "id_ID": "Plugin servant à relever la téléinfo des compteurs PME-PMI",
+        "it_IT": "Plugin servant à relever la téléinfo des compteurs PME-PMI",
+        "ja_JP": "Plugin servant à relever la téléinfo des compteurs PME-PMI",
+        "pt_PT": "Plugin usado para ler teleinfo de medidores SME-PMI",
+        "tr": "Plugin servant à relever la téléinfo des compteurs PME-PMI"
+    },
+    "licence": "AGPL",
+    "author": "Jeedom SAS",
+    "require": "4.2.0",
+    "category": "energy",
+    "hasDependency": true,
+    "hasOwnDeamon": true,
+    "maxDependancyInstallTime": 5,
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/teleinfoPMEPMI\/beta\/changelog",
+    "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/teleinfoPMEPMI\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/teleinfoPMEPMI\/beta",
+    "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/energy\/teleinfoPMEPMI\/",
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "v4",
+        "atlas",
+        "luna"
+    ]
+}
