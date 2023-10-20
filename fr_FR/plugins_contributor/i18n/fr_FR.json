@@ -20,6 +20,9 @@
         "Connecter Jeedom avec votre installation domotique KNX et Jeedom deviendra un participant de votre installation": "Connecter Jeedom avec votre installation domotique KNX et Jeedom deviendra un participant de votre installation",
         "dht22": "dht22",
         "Plugin permetant la lecture de sondes DHT11, DHT22, AM2302 connectées au GPIO d'un raspberry": "Plugin permetant la lecture de sondes DHT11, DHT22, AM2302 connectées au GPIO d'un raspberry",
+        "Voir la documentation pour les modèles supportés": "Voir la documentation pour les modèles supportés",
+        "Plugin PoeleAgua pour la gestion des poêles à bois et granulé utilisant la plateforme aqua iot  de micronova (navel 2": "Plugin PoeleAgua pour la gestion des poêles à bois et granulé utilisant la plateforme aqua iot  de micronova (navel 2",
+        "Poêle Agua IOT Micronova navel 2": "Poêle Agua IOT Micronova navel 2",
         "Mais c'est également compatible avec tout équipement supportant 'MQTT Discovery' tel que Nuki Smart Lock Pro, myfox2mqtt, zwave-js, zigbee2mqtt": "Mais c'est également compatible avec tout équipement supportant 'MQTT Discovery' tel que Nuki Smart Lock Pro, myfox2mqtt, zwave-js, zigbee2mqtt",
         "MQTT Discovery": "MQTT Discovery",
         "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' qui existe sous home assistant": "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' qui existe sous home assistant",
@@ -38,6 +41,8 @@
         "Market": "Market",
         "Changelog Stable": "Changelog Stable",
         "Changelog Beta": "Changelog Beta",
+        "0) ex": "0) ex",
+        "Jolly Mec \/ Piazzetta \/ superior \/ MCZ et bien plus": "Jolly Mec \/ Piazzetta \/ superior \/ MCZ et bien plus",
         "Le but de ce plugin est de permettre le contrôle de périphériques qui ne sont compatibles que avec le protocole Homekit et aucun autre protocole": "Le but de ce plugin est de permettre le contrôle de périphériques qui ne sont compatibles que avec le protocole Homekit et aucun autre protocole",
         "Donc par exemple pas Philips Hue qui est accessible via un plugin dédié": "Donc par exemple pas Philips Hue qui est accessible via un plugin dédié"
     },
