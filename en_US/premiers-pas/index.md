@@ -6,7 +6,7 @@ Welcome to this first step documentation, it will help you to put your Jeedom in
 
 The first thing to do is to create an account on the Market to be able to register your Jeedom on it. Click [here](https://market.jeedom.com/).
 
-Click on the "Register" button at the top left:
+Click on the "Register" button at the top left :
 
 ![S'enregistrer sur le Market](images/FirstStep_market1.jpg)
 
@@ -33,7 +33,7 @@ Then go to your profile page:
 
 ![Profil Market](images/FirstStep_market_sp1.jpg)
 
-Then click on the "My services" tab, and enter your service pack number and validate.
+Then click on the “My services” tab and enter your Service Pack number and validate.
 
 > **Tip**
 >
@@ -47,7 +47,7 @@ Once Jeedom is electrically connected and connected to your local network, here 
 
 #### Through the market
 
-The simplest solution (but does not work in 100% of cases depending on the configuration of your internet access), you must start the box, wait about 10 minutes (be careful if you use a netinstallation type image, it will be rather 30min) and go [here](https://www.jeedom.com/market/index.php?v=d&p=find)
+The simplest solution (but does not work in 100% of cases depending on the configuration of your internet access), you have to start the box, wait around 10 minutes (be careful if you use a netinstallation type image, it will be more like 30 minutes ) and go [here](https://www.jeedom.com/market/index.php?v=d&p=find)
 
 > **Tip**
 >
@@ -73,12 +73,12 @@ Whichever method is used, you will then arrive on the Login page. By default the
 
 We will see here how to link your Jeedom to your Market account.
 
--   Once connected to your jeedom, you must go to **Settings → System → Configuration**
--   Click on the tab **Updates / Market**
--   Below, click on the tab **Market**
--   Check the box **Activate**
--   Remplissez l'adresse : `https://market.jeedom.com`
--   Also fill in the fields **Username** and **Password** based on your identifiers (Market identifiers and not Jeedom)
+-   Once connected to your jeedom, you must go to **Settings → System → Configuration**.
+-   Click on the tab **Updates / Market**.
+-   Below, click on the tab **Market**.
+-   Check the box **Activate**.
+-   Remplissez l'adresse : `https://market.jeedom.com`.
+-   Also fill in the fields **Username** and **Password** based on your identifiers (Market identifiers and not Jeedom).
 -   You can test to verify that the connection is made correctly.
 -   Don&#39;t forget to save !
 
@@ -94,7 +94,7 @@ Then go to the "Networks" part"
 
 ![Réseaux](images/FirstStep_dns.jpg)
 
-Once here, just activate **Using Jeedom DNS** then on the line **Management** to do **Restart** and your URL will appear at HTTP status level, you can of course customize it from the Market profile page
+Once here, just activate **Using Jeedom DNS** then on the line **Management** to do **Restart** and your URL will appear at HTTP status level, you can of course customize it from the Market profile page.
 
 > **IMPORTANT**
 >
@@ -122,8 +122,8 @@ In Jeedom, it can be anything and everything, but it is recommended to do it acc
 
 Nothing could be simpler to create an object :
 
--   Go to Tools → Objects
--   Click on the Add button
+-   Go to Tools → Objects.
+-   Click on the Add button.
 -   Jeedom will ask you the name of it. Validate. This is your first object created :
 
 ![Objet](images/FirstStep_object.jpg)
@@ -199,8 +199,8 @@ The different service packs are :
 - Power : 10 tickets / month
 - Pro : 100 tickets / month
 
-You can find the detail of the service packs [here](https://www.jeedom.com/site/fr/soft.html#obtenir)
+You can find the detail of the service packs [here](https://www.jeedom.com/site/fr/soft.html#obtenir).
 
 >**IMPORTANT**
 >
->Attention we see a lot of users with "mailinblack" mailboxes, who during the 1st exchange ask the sender to validate a link to prove that it is indeed a human. This system is not compatible with our ticketing system, so even if we answer you, you will never receive the answer in your mailbox because it blocks us. So thank you on your market profiles page to put an email address not using this system otherwise you will never receive our response.
+>Be careful, we see a lot of users with "mailinblack" mailboxes, who during the first exchange ask the sender to validate a link to prove that it is indeed a human. This system is not compatible with our ticketing system, so even if we answer you, you will never receive the answer in your mailbox because it blocks us. So please put an email address on your market profile page that does not use this system, otherwise you will never receive our response.
