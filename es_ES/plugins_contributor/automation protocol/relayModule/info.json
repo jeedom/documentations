@@ -1,30 +1,43 @@
 {
-	"id": "MQTTDiscovery",
-	"name": "MQTT Discovery",
-	"description": "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' qui existe sous home assistant. Cela permet d'utiliser Open MQTT Gateway (https://docs.openmqttgateway.com/) sur esp32 ou l'équivalent Theengs gateway (https://gateway.theengs.io/) sur pi. Il devient très facile de faire de la gestion de présence de tag bluetooth tel que les nuts ou d'intégrer une liste importante de matériel compatible BLEA. Mais c'est également compatible avec tout équipement supportant 'MQTT Discovery' tel que Nuki Smart Lock Pro, myfox2mqtt, zwave-js, zigbee2mqtt...",
-	"licence": "AGPL",
-	"author": "Mips",
-	"require": "4.3",
-	"category": "automation protocol",
-	"hasDependency": true,
-	"hasOwnDeamon": true,
-	"language": [
-		"fr_FR",
-		"en_US"
-	],
-	"compatibility": [
-		"smart",
-		"rpi",
-		"diy",
-		"v4",
-		"atlas"
-	],
-	"link": {
-		"forum": "https://community.jeedom.com/tags/plugin-MQTTDiscovery",
-		"video": ""
-	},
-	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
-	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/",
-	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
-	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/"
+  "id": "vesync",
+  "name": "VeSync",
+  "description": {
+      "fr_FR": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API VeSync",
+      "en_US": "Plugin to retrieve information and control synchronized devices on the VeSync API",
+      "es_ES": "Plugin para recuperar información y controlar dispositivos sincronizados en la API VeSync",
+      "pt_PT": "Plugin para recuperar informação e controlar dispositivos sincronizados no VeSync API",
+      "de_DE": "Plugin zum Abrufen von Informationen und zum Steuern von Geräten, die über die VeSync API synchronisiert wurden",
+      "it_IT": "Plugin per recuperare informazioni e controllare i dispositivi sincronizzati su VeSync API"
+  },
+  "utilization": "Après avoir entré l'identifiant et le mot de passe dans la page de configuration, lancez une synchronisation.</br>Toutes les commandes viendront au fur et à mesure après un premier rafraîchissement.",
+  "licence": "AGPL",
+  "author": "DomoFlo1",
+  "require": "4.2",
+  "category": "devicecommunication",
+  "hasDependency": false,
+  "hasOwnDeamon": false,
+  "maxDependancyInstallTime": 0,
+  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-vesync-pour-jeedom/",
+  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-vesync-pour-jeedom/",
+  "link": {
+    "forum": "https://community.jeedom.com/tag/plugin-VeSync"
+  },
+  "language": [
+    "fr_FR",
+    "en_US",
+    "es_ES",
+    "pt_PT",
+    "de_DE",
+    "it_IT"
+  ],
+  "compatibility": [
+    "miniplus",
+    "smart",
+    "rpi",
+    "docker",
+    "diy",
+    "mobile",
+    "v4",
+    "atlas"
+  ]
 }
