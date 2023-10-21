@@ -5,6 +5,10 @@
 >**IMPORTANTE**
 >
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
+>
+
+# 20/10/2023
+- Adição do LiXee-GSM às regras USB (desconecte e reconecte o equipamento para vê-lo com o novo link USB)
 
 # 14/09/2023
 - Nova interface para o plugin móvel.
