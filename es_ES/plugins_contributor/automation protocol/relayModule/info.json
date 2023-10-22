@@ -1,43 +1,21 @@
 {
-  "id": "vesync",
-  "name": "VeSync",
-  "description": {
-      "fr_FR": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API VeSync",
-      "en_US": "Plugin to retrieve information and control synchronized devices on the VeSync API",
-      "es_ES": "Plugin para recuperar información y controlar dispositivos sincronizados en la API VeSync",
-      "pt_PT": "Plugin para recuperar informação e controlar dispositivos sincronizados no VeSync API",
-      "de_DE": "Plugin zum Abrufen von Informationen und zum Steuern von Geräten, die über die VeSync API synchronisiert wurden",
-      "it_IT": "Plugin per recuperare informazioni e controllare i dispositivi sincronizzati su VeSync API"
-  },
-  "utilization": "Après avoir entré l'identifiant et le mot de passe dans la page de configuration, lancez une synchronisation.</br>Toutes les commandes viendront au fur et à mesure après un premier rafraîchissement.",
-  "licence": "AGPL",
-  "author": "DomoFlo1",
-  "require": "4.2",
-  "category": "devicecommunication",
-  "hasDependency": false,
-  "hasOwnDeamon": false,
-  "maxDependancyInstallTime": 0,
-  "changelog": "https://flobul-domotique.fr/liste-des-versions-du-plugin-vesync-pour-jeedom/",
-  "documentation": "https://flobul-domotique.fr/presentation-et-documentation-du-plugin-vesync-pour-jeedom/",
-  "link": {
-    "forum": "https://community.jeedom.com/tag/plugin-VeSync"
-  },
-  "language": [
-    "fr_FR",
-    "en_US",
-    "es_ES",
-    "pt_PT",
-    "de_DE",
-    "it_IT"
-  ],
-  "compatibility": [
-    "miniplus",
-    "smart",
-    "rpi",
-    "docker",
-    "diy",
-    "mobile",
-    "v4",
-    "atlas"
-  ]
+	"id" : "conso",
+	"name" : "Suivi Conso",
+	"description" : "Plugin pour gérer sa consommation énergétique (gaz, électricité et eau) ainsi que sa production ",
+	"licence" : "AGPL",
+	"author" : "Mickeys",
+	"require" : "3.3",
+	"category" : "energy",
+	"display" : "panel",
+	"hasDependency" : false,
+	"hasOwnDeamon" : true,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://mickeys27.github.io/Docs/conso/#language#/changelog",
+	"documentation" : "https://mickeys27.github.io/Docs/conso/#language#/",
+	"link" : {
+		"forum":"https://www.jeedom.com/forum/viewtopic.php?f=149&t=8500",
+		"Community":"https://community.jeedom.com/t/plugin-suivi-conso-debuggage/8246"
+	},
+	"language" : ["fr_FR"],
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","v4"]
 }
