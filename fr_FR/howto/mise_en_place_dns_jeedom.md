@@ -20,7 +20,7 @@ Ce principe a l'avantage de ne pas exposer votre Jeedom sur internet, pas d'ouve
 
 > **IMPORTANT**
 >
-> Pour que cela fonctionne il faut que votre box autorise une connexion sortante sur les ports 1194,1195,1996,1997,1198,1199,2000 et 2001 en UDP. En particulier pour les Livebox et routeur 4g Huawei il faut baisser le niveau du firewall, pour les personnes chez free il faut aussi parfois passer en ip fixe (sinon free partage votre ip entre plusieurs utilisateurs ce qui pose soucis au DNS) de plus pour les Freebox Delta il faut désactiver le contrôle parental 
+> Pour que cela fonctionne il faut que votre box autorise une connexion sortante sur les ports 1194,1195,1196,1197,1198,1199,2000 et 2001 en UDP. En particulier pour les Livebox et routeur 4g Huawei il faut baisser le niveau du firewall, pour les personnes chez free il faut aussi parfois passer en ip fixe (sinon free partage votre ip entre plusieurs utilisateurs ce qui pose soucis au DNS) de plus pour les Freebox Delta il faut désactiver le contrôle parental 
 
 ## Mise en place
 
