@@ -20,7 +20,7 @@ Este principio tiene la ventaja de no exponer su Jeedom en Internet, no hay aper
 
 > **Importante**
 >
-> Para que esto funcione, su caja debe permitir una conexión saliente en los puertos 1194,1195,1996,1997,1198,1199,2000 y 2001 en UDP. En particular, para Liveboxes y enrutadores Huawei 4G, debe reducir el nivel del firewall; para las personas gratuitas, a veces también debe cambiar a una IP fija (de lo contrario, la gratuita comparte su IP entre varios usuarios, lo que plantea problemas para el DNS). Freebox Delta necesitas desactivar los controles parentales 
+> Para que esto funcione, su equipo debe autorizar una conexión saliente en los puertos 1194,1195,1196,1197,1198,1199,2000 y 2001 en UDP. En particular, para Liveboxes y enrutadores Huawei 4G, debe reducir el nivel del firewall; para las personas gratuitas, a veces también debe cambiar a una IP fija (de lo contrario, la gratuita comparte su IP entre varios usuarios, lo que plantea problemas para el DNS). Freebox Delta necesitas desactivar los controles parentales 
 
 ## Configurar
 

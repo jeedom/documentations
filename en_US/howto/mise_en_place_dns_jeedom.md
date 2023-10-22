@@ -20,7 +20,7 @@ This principle has the advantage of not exposing your Jeedom on the internet, no
 
 > **IMPORTANT**
 >
-> For this to work, your box must allow an outgoing connection on ports 1194,1195,1996,1997,1198,1199,2000 and 2001 in UDP. In particular for Liveboxes and Huawei 4G routers you have to lower the level of the firewall, for people at free you also sometimes have to switch to a fixed IP (otherwise free shares your IP between several users which poses problems for the DNS) moreover for Freebox Delta you need to deactivate parental controls 
+> For this to work, your box must authorize an outgoing connection on ports 1194,1195,1196,1197,1198,1199,2000 and 2001 in UDP. In particular for Liveboxes and Huawei 4G routers you have to lower the level of the firewall, for people at free you also sometimes have to switch to a fixed IP (otherwise free shares your IP between several users which poses problems for the DNS) moreover for Freebox Delta you need to deactivate parental controls 
 
 ## Set up
 
