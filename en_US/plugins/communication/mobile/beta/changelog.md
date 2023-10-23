@@ -4,6 +4,11 @@
 >
 >As a reminder if there is no information on the update, it means that it only concerns the updating of documentation, translation or text
 
+
+# 10/22/2023
+
+- fix geolocalization update of the v2 app
+  
 # 12/10/2023
 
 - Updated to take into account the new Mobile Application
