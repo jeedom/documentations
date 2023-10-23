@@ -1,0 +1,33 @@
+{
+	"id" : "velux",
+	"name" : "Velux",
+	"description" : {
+		"fr_FR": "Plugin permettant de coordonner les mouvements d'une fenêtre et d'un volet roulant Velux. <br/> Attention ce plugin nécessite le plugin hkControl!"
+	},
+	"licence" : "AGPL",
+	"author" : "ktn",
+	"require" : "4.3.0",
+	"category" : "devicecommunication",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "https://ktn001.github.io/fr_FR/velux/changelog",
+	"documentation" : "https://ktn001.github.io/fr_FR/velux/",
+	"changelog_beta" : "https://ktn001.github.io/fr_FR/velux/changelog",
+	"documentation_beta" : "https://ktn001.github.io/fr_FR/velux/beta.html",
+	"link" : {
+		"forum":"https://community.jeedom.com/tag/plugin-velux"
+	},
+	"language": [
+		"fr_FR"
+	],
+	"compatibility": [
+		"smart",
+		"rpi",
+		"diy",
+		"v4",
+		"docker",
+		"luna",
+		"atlas"
+	]
+}

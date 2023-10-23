@@ -144,6 +144,8 @@
         "Plugin pour la gestion des tablettes": "Plugin pour la gestion des tablettes",
         "VeSync": "VeSync",
         "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API VeSync": "Plugin permettant de récupérer les informations et de piloter les appareils synchronisés sur l'API VeSync",
+        "Velux": "Velux",
+        "Plugin permettant de coordonner les mouvements d'une fenêtre et d'un volet roulant Velux": "Plugin permettant de coordonner les mouvements d'une fenêtre et d'un volet roulant Velux",
         "Pas d'abonnement, pas de frais supplémentaires": "Pas d'abonnement, pas de frais supplémentaires",
         "Tesla": "Tesla",
         "Plugin pour monitorer une Tesla": "Plugin pour monitorer une Tesla",
@@ -211,6 +213,7 @@
         "Retrouvez les statistiques du trajets en cours": "Retrouvez les statistiques du trajets en cours",
         "Définissez des favoris sur la carte avec un rayon d'action et lorsque votre Tesla entre ou sort de ce favoris, déclenchez des scénarios, ... Faites de votre Tesla un objet connecté": "Définissez des favoris sur la carte avec un rayon d'action et lorsque votre Tesla entre ou sort de ce favoris, déclenchez des scénarios, ... Faites de votre Tesla un objet connecté",
         "Pas de Cloud, vos données sont stockées chez vous": "Pas de Cloud, vos données sont stockées chez vous",
+        "Attention ce plugin nécessite le plugin hkControl": "Attention ce plugin nécessite le plugin hkControl",
         "lampes, leds, prises, interrupteurs, thermostat, de marques diverses": "lampes, leds, prises, interrupteurs, thermostat, de marques diverses",
         "Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya\/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc": "Tapo, Kasa, Govee, Philips Wiz, Meross, Mystrom, MagicHome, Gateway Tuya\/Zigbee dont SilverCrest Lidl, Smartlife, Tuya, Ewelink, Sonoff, Sonoff DIY, Mi.Light (Milight), Yeelight, Xiaomi Philips, TP-Link, Nanoleaf, H801, iHomma, arilux, Revogi, etc"
     },
