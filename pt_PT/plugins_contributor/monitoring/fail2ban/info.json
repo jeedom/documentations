@@ -2,7 +2,7 @@
 	"id": "fail2ban",
 	"name": "fail2ban",
 	"description": {
-		"fr_FR": "Plugin pour monitorer fail2ban. Il permet de remonter toutes les infos instantanées d'une instance de fail2ban locale ou distante (via SSH) mais il garde également des compteurs journaliers des ip bloquées ainsi qu'un compteur pour pays d'origine."
+		"fr_FR": "Plugin pour monitorer fail2ban. Il permet de remonter toutes les infos instantanées d'une instance de fail2ban locale ou distante (via SSH) mais il garde également des compteurs journaliers des ip bloquées ainsi qu'un compteur pour pays d'origine (pays récupéré par géolocalisation de l'adresse IP).<br>Il permet également de bannir et de débannir une adresse ip."
 	},
 	"licence": "AGPL",
 	"author": "Mips",
