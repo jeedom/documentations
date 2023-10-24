@@ -5,9 +5,10 @@
 >Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto
 
 
+
 # 22/10/2023
 
-- arreglar la actualización de geolocalización de la aplicación v2
+- Reparar la actualización de geolocalización de la aplicación v2
   
 # 10/12/2023
 
