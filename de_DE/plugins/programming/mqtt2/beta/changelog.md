@@ -4,6 +4,11 @@
 >
 >Zur Erinnerung: Wenn keine Informationen über die Aktualisierung vorliegen, liegt dies daran, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 27.10.2023
+
+- Es wurde ein Fehler im Status des Daemons behoben (gestartet, wenn nicht))
+
+
 # 10.05.2023
 
 - Ein Fehler im Brocker-Status wurde behoben

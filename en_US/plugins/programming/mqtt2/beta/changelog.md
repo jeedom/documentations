@@ -4,6 +4,11 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+# 10/27/2023
+
+- Fixed a bug on the state of the daemon (started when not)
+
+
 # 05/10/2023
 
 - Fixed a bug on brocker status

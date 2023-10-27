@@ -4,6 +4,10 @@
 >
 >As a reminder, if there is no information on the update, it is because it concerns only the update of documentation, translation or text.
 
+# 05/10/2023
+
+- Fixed a bug on brocker status
+
 # 02/10/2023
 
 - Possibility to correct the default QOS
