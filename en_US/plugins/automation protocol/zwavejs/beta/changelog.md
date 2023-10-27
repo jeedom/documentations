@@ -4,6 +4,17 @@
 >
 >If there is no information on the update, it means that it concerns only the update of documentation, translation or text.
 
+# 10/27/2023
+
+**Configuration Additions**
+
+- Adding a subproperty *notification-door* for property *Tilt*
+
+**Configuration Changes**
+
+- Changing the configuration *Aeotec Zwa012*  to use the properties
+- Modification of a subproperty *simple-notification* for property *Opening*
+
 # 11/10/2023
 
 **Fixes**

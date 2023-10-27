@@ -25,7 +25,7 @@
         "Poêle Agua IOT Micronova navel 2": "Poêle Agua IOT Micronova navel 2",
         "Mais c'est également compatible avec tout équipement supportant 'MQTT Discovery' tel que Nuki Smart Lock Pro, myfox2mqtt, zwave-js, zigbee2mqtt": "Mais c'est également compatible avec tout équipement supportant 'MQTT Discovery' tel que Nuki Smart Lock Pro, myfox2mqtt, zwave-js, zigbee2mqtt",
         "MQTT Discovery": "MQTT Discovery",
-        "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' qui existe sous home assistant": "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' qui existe sous home assistant",
+        "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' (ou 'HA Discovery') qui existe sous home assistant": "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' (ou 'HA Discovery') qui existe sous home assistant",
         "Protocole domotique": "Protocole domotique",
         "IMPORTANT": "IMPORTANT",
         "Seuls les plugins de contributeur ont leur documentation ici": "Seuls les plugins de contributeur ont leur documentation ici",

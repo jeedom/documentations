@@ -22,7 +22,7 @@
         "Poêle Agua IOT Micronova navel 2": "Agua IOT Micronova navel 2 stove",
         "Mais c'est également compatible avec tout équipement supportant 'MQTT Discovery' tel que Nuki Smart Lock Pro, myfox2mqtt, zwave-js, zigbee2mqtt": "But it is also compatible with any equipment supporting 'MQTT Discovery' such as Nuki Smart Lock Pro, myfox2mqtt, zwave-js, zigbee2mqtt",
         "MQTT Discovery": "MQTT Discovery",
-        "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' qui existe sous home assistant": "Plugin for automatic discovery of MQTT equipment based on the principle of 'MQTT Auto Discovery' which exists under home assistant",
+        "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' (ou 'HA Discovery') qui existe sous home assistant": "Plugin for automatic discovery of MQTT equipment based on the principle of 'MQTT Auto Discovery' (or 'HA Discovery') which exists under home assistant",
         "Protocole domotique": "Domotic protocol",
         "Seuls les plugins de contributeur ont leur documentation ici": "Only contributor plugins have their documentation here",
         "Vous pouvez consulter les documentations des plugins officiels directement depuis le Market Jeedom": "You can consult the documentation of the official plugins directly from the Jeedom Market",

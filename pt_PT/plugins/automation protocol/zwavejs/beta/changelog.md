@@ -4,6 +4,17 @@
 >
 >Se não houver informação sobre a atualização, significa que se trata apenas da atualização da documentação, tradução ou texto.
 
+# 27/10/2023
+
+**Adições de configuração**
+
+- Adicionando uma subpropriedade *porta de notificação* para propriedade *Inclinar*
+
+**Alterações de configuração**
+
+- Mudando a configuração *Aeotec Zwa012*  para usar as propriedades
+- Modificação de uma subpropriedade *notificação simples* para propriedade *Abertura*
+
 # 10/11/2023
 
 **Conserta**

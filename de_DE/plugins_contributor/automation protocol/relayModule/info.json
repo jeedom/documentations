@@ -1,14 +1,30 @@
 {
-  "id" : "spotify", 
-  "name": "Spotify",
-  "description" : "Plugin pour le pilotage spotify connect",
-  "licence": "GPL",
-  "author": "sbarre35",
-  "require": "4.2.0",
-  "category": "multimedia",
-  "hasDependency": true,
-  "hasOwnDeamon": true,
-  "maxDependancyInstallTime": 60,
-  "changelog": "https:\/\/barre35.github.io\/jeedom-plugin-doc\/fr_FR\/spotify_changelog",
-  "documentation": "https:\/\/barre35.github.io\/jeedom-plugin-doc\/fr_FR\/spotify_documentation"
+	"id": "MQTTDiscovery",
+	"name": "MQTT Discovery",
+	"description": "Plugin pour découverte automatique d'équipement MQTT sur le principe du 'MQTT Auto Discovery' (ou 'HA Discovery') qui existe sous home assistant. Cela permet d'utiliser Open MQTT Gateway (https://docs.openmqttgateway.com/) sur esp32 ou l'équivalent Theengs gateway (https://gateway.theengs.io/) sur pi. Il devient très facile de faire de la gestion de présence de tag bluetooth tel que les nuts ou d'intégrer une liste importante de matériel compatible BLEA. Mais c'est également compatible avec tout équipement supportant 'MQTT Discovery' tel que Nuki Smart Lock Pro, myfox2mqtt, zwave-js, zigbee2mqtt...",
+	"licence": "AGPL",
+	"author": "Mips",
+	"require": "4.3",
+	"category": "automation protocol",
+	"hasDependency": true,
+	"hasOwnDeamon": true,
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"smart",
+		"rpi",
+		"diy",
+		"v4",
+		"atlas"
+	],
+	"link": {
+		"forum": "https://community.jeedom.com/tags/plugin-MQTTDiscovery",
+		"video": ""
+	},
+	"changelog": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
+	"documentation": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/",
+	"changelog_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/changelog",
+	"documentation_beta": "https://mips2648.github.io/jeedom-plugins-docs/MQTTDiscovery/#language#/"
 }

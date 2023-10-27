@@ -4,6 +4,17 @@
 >
 >Wenn es keine Informationen über die Aktualisierung gibt, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt.
 
+# 27.10.2023
+
+**Konfigurationsergänzungen**
+
+- Hinzufügen einer Untereigenschaft *Benachrichtigungstür* für Eigentum *Neigung*
+
+**Konfigurationsänderungen**
+
+- Ändern der Konfiguration *Aeotec Zwa012*  um die Eigenschaften zu verwenden
+- Änderung einer Untereigenschaft *einfache Benachrichtigung* für Eigentum *Öffnung*
+
 # 10.11.2023
 
 **Behebt**

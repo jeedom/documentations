@@ -4,6 +4,17 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 27/10/2023
+
+**Ajouts de Configurations**
+
+- Ajout d'une sous propriété *notification-door* pour la propriété *Tilt*
+
+**Modifications de Configurations**
+
+- Modification de la configuration *Aeotec Zwa012*  pour utiliser les propriétés
+- Modification d'une sous propriété *notification-simple* pour la propriété *Opening*
+
 # 11/10/2023
 
 **Corrections**
