@@ -4,6 +4,11 @@
 >
 >Recorde-se que se não há informação sobre a atualização é porque se trata apenas de atualização de documentação, tradução ou texto.
 
+# 27/10/2023
+
+- Corrigido um bug no estado do daemon (iniciado quando não)
+
+
 # 10/05/2023
 
 - Corrigido um bug no status do corretor
