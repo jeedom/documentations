@@ -16,10 +16,11 @@ Dans cet onglet on retrouve des informations générales sur Jeedom :
 - **Serveur de temps optionnel** : Indique quel serveur de temps doit être utilisé si vous cliquez sur **Forcer la synchronisation de l’heure** (à réserver aux experts).
 - **Ignorer la vérification de l’heure** : indique à Jeedom de ne pas vérifier si l’heure est cohérente entre lui-même et le système sur lequel il tourne. Peut être utile par exemple, si vous ne connectez pas Jeedom à Internet et qu’il n’a pas de pile RTC sur le matériel utilisé.
 - **Système** : Indique le type de matériel sur lequel Jeedom est installé.
-- **Clef d’installation** : Clef matérielle de votre Jeedom sur le Market. Si votre Jeedom n’apparaît pas dans la liste de vos Jeedom sur le Market, il est conseillé de cliquer sur le bouton **Remise à zéro**.
+- **Clé d’installation** : Clé matérielle de votre Jeedom sur le Market. Si votre Jeedom n’apparaît pas dans la liste de vos Jeedom sur le Market, il est conseillé de cliquer sur le bouton **Remise à zéro**.
+  Il en va de même si vous créez un deuxième Jeedom en restaurant le backup du premier Jeedom.
 - **Dernière date connue** : Date enregistrée par Jeedom, utilisée après un redémarrage pour des systèmes n'ayant pas de pile RTC.
 
-En dessous, plusieurs paramètres qui centralisent des informations pouvant être utilisés par les plugins, évitant de les renseigner dans chaque plugin.
+En dessous, plusieurs paramètres qui centralisent des informations pouvant être utilisées par les plugins, évitant de les renseigner dans chaque plugin.
 
 - Coordonnées : Latitude, Longitude et Altitude de votre habitation / site.
 - Adresse : Adresse postale de votre habitation / site.
