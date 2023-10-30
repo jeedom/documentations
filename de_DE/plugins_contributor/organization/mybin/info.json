@@ -8,7 +8,7 @@
     "utilization": "Créez un équipement et définissez vos critères de ramassage et notification de vos poubelles. (Auteur original @hugoKs3)",
     "licence": "AGPL",
     "author": "tomitomas",
-    "require": "4.0.61",
+    "require": "4.2",
     "category": "organization",
     "hasDependency": false,
     "hasOwnDeamon": false,
