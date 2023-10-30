@@ -1,8 +1,8 @@
 # Cloud service
 
-Le cloud service est un service Jeedom permettant d'étendre les possibilités de votre Jeedom facilement et rapidement. Son role est de servir de passerelle entre votre Jeedom et les services cloud d'autre prestataire de service.
+Le Cloud Service est un service Jeedom permettant d'étendre les possibilités de votre Jeedom facilement et rapidement. Son rôle est de servir de passerelle entre votre Jeedom et les services cloud d'autres prestataires de services.
 
-Pour eviter tout abus le service est soumis à des quotas en fonction de votre type de service pack.
+Pour éviter tout abus le service est soumis à des quotas en fonction de votre type de service pack.
 
 # Quota 
 
@@ -29,4 +29,4 @@ Pour eviter tout abus le service est soumis à des quotas en fonction de votre t
 
 
 
-\* Le service TTS est un peu particulier le decompte ne se fait que sur les phrase jamais demandé à votre Jeedom. Les phrases sont decoupé en par lot de 160 caracteres. Chaque lot compte pour 1 quota
+\* Le service TTS est un peu particulier le décompte ne se fait que sur les phrases jamais demandées à votre Jeedom. Les phrases sont decoupées par lots de 160 caractères. Chaque lot compte pour 1 quota
