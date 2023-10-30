@@ -3,7 +3,7 @@
 
 ### Définition
 
-Un Beta Testeur est un utilisateur qui test les versions du logiciel avant qu'elles ne soient diffusées à tous les utilisateurs. Le beta testing permet de remonter des erreurs (bug fonctionnel ou soucis d'interface utilisateur par exemple) lors de la phase de développement. C'est donc une importante source d'amélioration pour le projet, qui peut apporter des idées fraiches et tester les nouveautés en conditions réelles. 
+Un Beta Testeur est un utilisateur qui teste les versions du logiciel avant qu'elles ne soient diffusées à tous les utilisateurs. Le beta testing permet de remonter des erreurs (bug fonctionnel ou soucis d'interface utilisateur par exemple) lors de la phase de développement. C'est donc une importante source d'amélioration pour le projet, qui peut apporter des idées fraiches et tester les nouveautés en conditions réelles. 
 
 ### Précautions
 
@@ -44,7 +44,7 @@ Ces remontées se font sur **[Community](https://community.jeedom.com/)** dans l
 
 C'est aussi sur cette section qu'un testeur peut créer un sujet pour proposer une amélioration.
 
-> Chaque sujet sur cette section doit être identifié avec le tag de la version en cours de développement. Par exemple : tag v4_4 (un underscore est utilisé car les point sont interdits dans les tags sur Discourse.
+> Chaque sujet sur cette section doit être identifié avec le tag de la version en cours de développement. Par exemple : tag v4_4 (un underscore est utilisé car les points sont interdits dans les tags sur Discourse.
 
 Cette section n'est pas accessible publiquement. Pour y avoir accès, vous devez remplir un formulaire afin que l'équipe Jeedom donne [accès à votre compte](https://blog.jeedom.com/jeedom-partenaire-beta-testeur/).
 
@@ -56,7 +56,7 @@ En version **Stable**, chaque changement provoque un changement de version (mine
 
 En version **Beta** et **Alpha**, les changements sont beaucoup plus fréquents (plusieurs fois par jour) et ne provoquent pas de changement de version. Elles n'apparaitront donc pas dans le *Centre de Mise à jour*, c'est au testeur de mettre régulièrement le Core à jour, de préférence avant toute phase de test et avant de remonter un problème afin de s'assurer que celui-ci n'a pas déjà été corrigé plus tôt.
 
-> L'équipe change parfois de version en cours de développement, pour marquer certaines phases. Mais contrairement à la version Stable, beaucoup de changements sont fait entre deux versions. Chaque testeur peut suivre les commits sur les branches [Github](https://github.com/jeedom/core).
+> L'équipe change parfois de version en cours de développement, pour marquer certaines phases. Mais contrairement à la version Stable, beaucoup de changements sont faits entre deux versions. Chaque testeur peut suivre les commits sur les branches [Github](https://github.com/jeedom/core).
 
 ### Changelog
 
