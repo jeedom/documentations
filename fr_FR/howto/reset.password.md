@@ -1,4 +1,4 @@
-# Procedure en cas de perte du mot de passe de connexion à Jeedom
+# Procédure en cas de perte du mot de passe de connexion à Jeedom
 
 # > 4.2
 
@@ -6,7 +6,7 @@ La première chose à faire est de se connecter en SSH à Jeedom (avec un logici
 
 >**Rappels**
 >
->Par défaut les identifiants de connexion SSH sur jeedom (smart,mini et mini+) sont soit :
+>Par défaut les identifiants de connexion SSH sur Jeedom (Luna, Atlas, Smart, Mini et Mini+) sont soit :
 >- Nom d'utilisateur : jeedom, mot de passe Mjeedom96
 >- Nom d'utilisateur : root, mot de passe Mjeedom96
 
@@ -16,7 +16,7 @@ Ensuite il vous suffit de taper :
 php /var/www/html/core/php/jeecli.php user list
 ````
 
-Une fois que vous avez reperé le nom de l'utilisateur dont vous voulez changer le mot de passe faite : 
+Une fois que vous avez repéré le nom de l'utilisateur dont vous voulez changer le mot de passe faite : 
 
 ````
 php /var/www/html/core/php/jeecli.php user password [username] [password]
@@ -24,7 +24,7 @@ php /var/www/html/core/php/jeecli.php user password [username] [password]
 
 Avec : 
 - ``[username]`` : le nom de l'utilisateur
-- ``[password]`` : le nouveau mot de passe, attention il ne faut pas d'espace et une longueur de minimum 8 caracteres
+- ``[password]`` : le nouveau mot de passe, attention il ne faut pas d'espace et une longueur de 8 caractères minimum
 
 # > 3.3.50
 
@@ -32,7 +32,7 @@ La première chose à faire est de se connecter en SSH à Jeedom (avec un logici
 
 >**Rappels**
 >
->Par défaut les identifiants de connexion SSH sur jeedom (Atlas,Smart,Mini et Mini+) sont soit :
+>Par défaut les identifiants de connexion SSH sur Jeedom (Luna, Atlas, Smart, Mini et Mini+) sont soit :
 >- Nom d'utilisateur : jeedom, mot de passe Mjeedom96
 >- Nom d'utilisateur : root, mot de passe Mjeedom96
 
@@ -42,7 +42,7 @@ Ensuite il vous suffit de taper :
 php /var/www/html/install/reset_password.php
 ````
 
-Le système va vous demander le nom d'utilisateur pour lequel vous avez perdu le mot de passe (vous avez la liste de tous les utilisateurs au cas ou), une fois tapé (attention au majusucule/minuscule) appuyez sur la touche entrée. Et vous aurez votre nouveau mot de passe.
+Le système va vous demander le nom d'utilisateur pour lequel vous avez perdu le mot de passe (vous avez la liste de tous les utilisateurs au cas où), une fois tapé (attention au majuscule/minuscule) appuyez sur la touche entrée. Et vous aurez votre nouveau mot de passe.
 
 Exemple :
 
@@ -86,7 +86,7 @@ Voilà. Vous pouvez vous déconnecter/reconnecter à votre Jeedom avec les ident
 
 >**IMPORTANT**
 >
->N'oubliez pas une fois vos accès récupéré de bien supprimer l'utilisateur adminTmp, le laisser pourrait être une potentielle faille de sécurité dont vous seriez seul responsable.
+>N'oubliez pas une fois vos accès récupérés de bien supprimer l'utilisateur adminTmp, le laisser pourrait être une potentielle faille de sécurité dont vous seriez seul responsable.
 
 >**IMPORTANT**
 >
