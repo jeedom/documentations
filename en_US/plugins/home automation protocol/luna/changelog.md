@@ -5,6 +5,10 @@
 >**IMPORTANT**
 >
 >As a reminder, if there is no information on the update, it means that it only concerns the update of documentation, translation or text.
+>
+
+# 10/20/2023
+- Addition of LiXee-GSM to the USB rules (unplug then reconnect the equipment to see it with the new USB link)
 
 # 09/14/2023
 - New interface for the mobile plugin.

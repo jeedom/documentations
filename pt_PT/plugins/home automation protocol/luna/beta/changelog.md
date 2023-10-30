@@ -7,6 +7,9 @@
 >Relembramos que, se não houver informação sobre a atualização, significa que se trata apenas de atualização de documentação, tradução ou texto.
 >
 
+# 29/10/2023
+- Corrigir o status da bateria.
+
 # 20/10/2023
 - Adição do LiXee-GSM às regras USB (desconecte e reconecte o equipamento para vê-lo com o novo link USB)
 
