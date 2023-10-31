@@ -5,62 +5,57 @@ Jeedom offre la possibilité d’être sauvegardé et restauré depuis ou à par
 Cette page permet la gestion des sauvegardes, restaurations.
 
 
-Vous y trouvez, à gauche, les paramètres et les boutons d’action. Sur la droite, c’est le statut en temps réel de l’action en cours (sauvegarde ou restauration), si vous en avez lancé une.
-
-## Sauvegardes
-
-- **Sauvegardes** : Permet de lancer une sauvegarde manuellement et immédiatement (utile si vous voulez faire un changement critique. Cela vous permettra de revenir en arrière). Vous avez aussi un bouton pour lancer une sauvegarde sans envoyer l’archive sur le cloud (nécessite un abonnement voir plus bas). L’envoi d’une sauvegarde sur le cloud peut prendre un certain temps. Cette option permet donc d’éviter une perte de temps trop importante.
-
-- **Emplacement des sauvegardes** : Indique le dossier dans lequel Jeedom copie les sauvegardes. Il est recommandé de ne pas le changer. Si vous êtes en chemin relatif, son origine est l’endroit où Jeedom est installé.
-
-- **Nombre de jour(s) de mémorisation des sauvegardes** : Nombre de jours de sauvegarde à garder. Une fois ce délai passé, les sauvegardes seront supprimées. Attention de ne pas mettre un nombre de jours trop élevé, sinon votre système de fichiers peut être saturé.
-
-- **Taille totale maximale des sauvegardes (Mo)** : Permet de limiter la place prise par l’ensemble des sauvegardes dans le dossier de sauvegarde. Si cette valeur est dépassée, Jeedom va supprimer les sauvegardes les plus vieilles jusqu’à retomber en-dessous de la taille maximale. Il gardera cependant au moins une sauvegarde.
+Vous y trouvez, à gauche, les paramètres et les boutons d’action. Sur la droite, dans la partie Informmations le statut en temps réel de l’action en cours (sauvegarde ou restauration), si vous en avez lancé une.
 
 ## Sauvegardes Locales
 
-- **Sauvegardes disponibles** : Liste des sauvegardes disponibles.
+- **Emplacement** : Indique le dossier dans lequel Jeedom copie les sauvegardes. Il est recommandé de ne pas le changer. Si vous êtes en chemin relatif, son origine est l’endroit où Jeedom est installé.
+- **Rétention temporelle (jours)** : Nombre de jours de sauvegarde à garder. Une fois ce délai passé, les sauvegardes seront supprimées. Attention de ne pas mettre un nombre de jours trop élevé, sinon votre système de fichiers peut vite être saturé.
+- **Taille totale maximale (Mo)** : Permet de limiter la place prise par l’ensemble des sauvegardes dans le dossier de sauvegarde. Si cette valeur est dépassée, Jeedom va supprimer les sauvegardes les plus anciennes jusqu’à retomber en-dessous de la taille maximale fixée. Il gardera cependant au moins une sauvegarde.
 
-- **Restaurer la sauvegarde** : Lance la restauration de la sauvegarde sélectionnée au-dessus.
+- **Lancer une sauvegarde** : Permet de lancer une sauvegarde manuellement et immédiatement (utile si vous voulez faire un changement critique. Cela vous permettra de revenir en arrière). Vous avez aussi un bouton pour lancer une sauvegarde sans envoyer l’archive sur le cloud (nécessite un abonnement voir plus bas). L’envoi d’une sauvegarde sur le cloud peut prendre un certain temps. Cette option permet donc d’éviter une perte de temps trop importante.
 
-- **Supprimer la sauvegarde** : Supprime la sauvegarde sélectionnée au-dessus, uniquement dans le dossier local.
+- **Sauvegardes disponibles** : Liste des sauvegardes locales disponibles.
 
-- **Envoyer une sauvegarde** : Permet d’envoyer dans le dossier des sauvegardes une archive se trouvant sur l’ordinateur que l’on utilise actuellement (permet par exemple de restaurer une archive précédemment récupérée sur un nouveau Jeedom ou une réinstallation).
+- **Supprimer la sauvegarde** : Supprime la sauvegarde locale sélectionnée dans le popup au-dessus.
+  
+- **Restaurer la sauvegarde** : Lance la restauration de la sauvegarde sélectionnée dans le popup au-dessus.
 
-- **Télécharger la sauvegarde** : Permet de télécharger sur votre ordinateur l’archive de la sauvegarde sélectionnée au-dessus.
+- **Télécharger la sauvegarde** : Permet de télécharger sur votre ordinateur l’archive de la sauvegarde sélectionnée dans le popip au-dessus.
+  
+- **Ajouter une sauvegarde** : Permet d’ajouter dans le dossier des sauvegardes locales une archive se trouvant sur l’ordinateur que l’on utilise actuellement (permet par exemple de restaurer une archive précédemment récupérée sur un nouveau Jeedom ou lors d'une réinstallation).
 
 ## Sauvegardes Market
 
 - **Envoi des sauvegardes** : Indique à Jeedom d’envoyer les sauvegardes sur le cloud du Market, attention il faut avoir pris l’abonnement.
 
-- **Envoyer une sauvegarde** : Permet d’envoyer sur le cloud une archive de sauvegarde située sur votre ordinateur.
-
 - **Sauvegardes disponibles** : Liste des sauvegardes cloud disponibles.
 
-- **Restaurer la sauvegarde** : Lance la restauration d’une sauvegarde cloud.
+- ***Rapatrier la sauvegarde en local** : Rapatrie la sauvegarde cloud sélectionnée au-dessus dans le dossier local.
 
 ## Sauvegardes Samba
 
-- **Envoi des sauvegardes** : Indique à Jeedom d’envoyer les sauvegardes sur le partage samba configuré ici Réglages → Système→Configuration : Mises à jour.
+- **Envoi des sauvegardes** : Indique à Jeedom d’envoyer les sauvegardes sur le partage samba configuré ici Réglages → Système→Configuration : Mises à jour/Market.
 
 - **Sauvegardes disponibles** : Liste des sauvegardes samba disponibles.
 
-- **Restaurer la sauvegarde** : Lance la restauration de la sauvegarde samba sélectionnée au-dessus.
+- **Rapatrier la sauvegarde en local** : Rapatrie la sauvegarde samba sélectionnée au-dessus dans le dossier local.
 
 > **IMPORTANT**
 >
-> Les backups de jeedom doivent être enregistrés absolument dans un dossier que pour lui ! Il supprimera tous ce qui n’est pas un backup jeedom du dossier.
-
+> Les backups de Jeedom doivent absolument être enregistrés dans un dossier dédié Jeedom ! En effet Jeedom supprimera tous ce qui n’est pas un backup Jeedom du dossier.
+>
+> Pour les utilisateurs d'ordinateur Apple, attention par défaut safari décompresse les archives de Backup Jeedom. Il faut donc configurer safari pour éviter ce souci.
 
 # Qu’est-ce qui est sauvegardé ?
 
 Lors d’une sauvegarde, Jeedom va sauvegarder tous ses fichiers et la base de données. Cela contient donc toute votre configuration (équipements, commandes, historiques, scénarios, design, etc.).
 
-Au niveau des protocoles, seul le Z-Wave (OpenZwave) est un peu différent car il n’est pas possible de sauvegarder les inclusions. Celles-ci sont directement incluses dans le contrôleur, il faut donc garder le même contrôleur pour retrouver ses modules Zwave.
+Au niveau des protocoles domotiques, comme le Z-Wave, les modules inclus sont liés au controleur il n’est donc pas possible de sauvegarder avec le backup Jeedom. Il faut donc garder le même contrôleur pour retrouver ses modules Zwave ou utiliser les outils de backup spécifiques (comme celui de aeotec, ou de zwavejs ui).
 
 > **Note**
 >
-> Le système sur lequel est installé Jeedom n’est pas sauvegardé. Si vous avez modifié des paramètres de ce système (notamment via SSH), c’est à vous de trouver un moyen de les récupérer en cas de soucis. De même les dependances ne le sont pas non plus il faudra donc les reinstaller après une restauration
+> Le système sur lequel est installé Jeedom n’est pas sauvegardé. Si vous avez modifié des paramètres de ce système (notamment via SSH), c’est à vous de trouver un moyen de les récupérer en cas de soucis. De même les dépendances ne le sont pas non plus il faudra donc les réinstaller après une restauration.
 
 # Sauvegarde cloud
 
