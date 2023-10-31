@@ -2,14 +2,14 @@
 
 Nous allons voir ici comment créer une VM sous VMware.
 
-Il y a avant une petit chose importante à savoir sur VMware, il y a 2 moyen de le manager :
+Il y a avant une petite chose importante à savoir sur VMware, il y a 2 moyens de le manager :
 
 -   l’interface web (présente par défaut en 6.0 update 2, ou par le biais d’un vib pour les autres versions), on y accède par IP\_ESXI/ui
 -   le client lourd et historique de VMware (vSphere client)
 
-Ici j’utiliserai principalement l’interface web car je pense que c’est l’avenir de VMware qui délaisse de plus en plus le client lourd (d’ailleurs toutes les nouveautées depuis la 5.1 ne sont pas utilisables avec le client lourd).
+Ici j’utiliserai principalement l’interface web car je pense que c’est l’avenir de VMware qui délaisse de plus en plus le client lourd (d’ailleurs toutes les nouveautés depuis la 5.1 ne sont pas utilisables avec le client lourd).
 
-A noter aussi que l’interface web est toujours en cours de mise en place chez VMware, en effet vous allez surement rencontrer quelques bugs ou ralentissements avec mais un petit rafrachissement de la page et ça repart sans soucis.
+A noter aussi que l’interface web est toujours en cours de mise en place chez VMware, en effet vous allez sûrement rencontrer quelques bugs ou ralentissements mais un petit rafraîchissement de la page et ça repart sans soucis.
 
 # Connexion à l’interface web
 
@@ -28,20 +28,20 @@ Entrez vos identifiants de connexion à l’ESXI :
 Comme vous pouvez le voir l’interface est plutôt sympa et permet de faire pas mal de choses, je ne rentrerai pas dans les détails mais vous pouvez déja à partir de cette écran :
 
 -   arrêter/redémarrer l’ESXi
--   voir l’utilisation des ressources (CPU,mémoire et disque)
+-   voir l’utilisation des ressources (CPU, mémoire et disque)
 -   avoir des informations sur votre système (temps de fonctionnement, version de VMware, version du bios, affichage des datastores)
 -   bouton pour créer une VM (on va s’en servir juste après)
 -   un bouton action qui permet en autre de passer en mode maintenance (pratique si vous avez un cluster d’ESXi sinon vous ne vous en servirez jamais), activer/désactiver le service SSH (est utilisé dans le tutoriel de configuration des backups)
 
 # Envoi de l’iso d’installation
 
-Après avoir téléchargé votre iso d’installation ([ici](http://cdimage.debian.org/debian-cd/10.4.0/amd64/iso-cd/debian-10.4.0-amd64-netinst.iso) par exemple pour debian 8.5 en netinstall), il vous faut le mettre sur votre datastore.
+Après avoir téléchargé votre iso d’installation ([ici](https://cdimage.debian.org/cdimage/archive/11.8.0/amd64/iso-cd/debian-11.8.0-amd64-netinst.iso) par exemple pour debian 11.8 en netinstall), il vous faut le mettre sur votre datastore.
 
 Pour cela cliquez sur datastore :
 
 ![vmware.createvm18](images/vmware.createvm18.PNG)
 
-Selectionnez votre datastore (en general il s’appelle datastore1) :
+Sélectionnez votre datastore (en général il s’appelle datastore1) :
 
 ![vmware.createvm19](images/vmware.createvm19.PNG)
 
@@ -53,7 +53,7 @@ Cliquez sur "Télécharger" (le premier) :
 
 ![vmware.createvm21](images/vmware.createvm21.PNG)
 
-Selectionnez l’iso précédement téléchargé et validez :
+Sélectionnez l’iso précédement téléchargé et validez :
 
 ![vmware.createvm22](images/vmware.createvm22.PNG)
 
@@ -75,7 +75,7 @@ Cliquez sur suivant :
 
 ![vmware.createvm6](images/vmware.createvm6.PNG)
 
-Donnez ensuite un nom à votre machine et précisez son sytème d’exploitation (ici on va installer une Débian) :
+Donnez ensuite un nom à votre machine et précisez son sytème d’exploitation (ici on va installer une Debian) :
 
 ![vmware.createvm7](images/vmware.createvm7.PNG)
 
@@ -83,13 +83,13 @@ Indiquez le datastore cible :
 
 ![vmware.createvm8](images/vmware.createvm8.PNG)
 
-Ici vous allez pouvoir configurer les paramètre de votre machine (disque dure, cpu, mémoire…​) :
+Ici vous allez pouvoir configurer les paramètres de votre machine (disque dure, cpu, mémoire…​) :
 
 ![vmware.createvm9](images/vmware.createvm9.PNG)
 
 > **Note**
 >
-> Tous ces paramètres sont modifiable après coup sans soucis, à noter tout de meme qu’il n’est pas vraiment possible de réduire la taille d’un disque dur, on peut l’augmenter (mais il faut savoir gérer ça au niveau de l’OS ensuite) mais pas la réduire.
+> Tous ces paramètres sont modifiables après coup sans soucis, à noter tout de même qu’il n’est pas vraiment possible de réduire la taille d’un disque dur, on peut l’augmenter (mais il faut savoir gérer ça au niveau de l’OS ensuite) mais pas la réduire.
 
 Au niveau du lecteur CD/DVD, selectionnez "Fichier ISO banque de données" :
 
